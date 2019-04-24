@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: c33daad6-52c4-4968-ac56-415178c9bf12
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f66d0fb1fc9d252ff8b6985c4a54de79313266d1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bfddc24e6a9c7cf8bdeae1e5ea730ecdb116f564
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321586"
 ---
 # <a name="imapiformmgrselectformcontainer"></a>IMAPIFormMgr::SelectFormContainer
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-显示一个对话框，使用户能够选择窗体容器，并返回对 container 对象选定的用户界面。
+显示一个对话框, 使用户可以选择表单容器, 并为用户选定的容器对象返回一个接口。
   
 ```cpp
 HRESULT SelectFormContainer(
@@ -39,45 +39,45 @@ HRESULT SelectFormContainer(
 
  _ulUIParam_
   
-> [in]显示的对话框中的父窗口句柄。 
+> 实时显示的对话框的父窗口的句柄。 
     
  _ulFlags_
   
-> [in]控制如何选择表单库的标志位掩码 （即，如何窗体容器选中）。 可以设置以下标志：
+> 实时标志的位掩码, 用于控制表单库的选择方式 (即, 如何选择表单容器)。 可以设置以下标志:
     
 MAPIFORM_SELECT_ALL_REGISTRIES 
   
-> 可以从所有容器中进行选择。 这是默认所选内容类型。 
+> 可以从所有容器中进行选择。 这是默认选择类型。 
     
 MAPIFORM_SELECT_FOLDER_REGISTRY_ONLY 
   
-> 可以仅从文件夹容器中进行选择。
+> 只能从文件夹容器中进行选择。
     
 MAPIFORM_SELECT_NON_FOLDER_REGISTRY_ONLY 
   
-> 选定内容仅发出未与文件夹关联的容器。
+> 只能从与文件夹不关联的容器中进行选择。
     
  _lppfcnt_
   
-> [输出]指向返回的接口的指针的指针。 此接口是用户选择的容器对象。
+> 排除指向指向返回的接口的指针的指针。 此接口用于用户选择的容器对象。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-表单查看器通常调用**IMAPIFormMgr::SelectFormContainer**方法选择窗体所安装到一个窗体容器。 **SelectFormContainer**不能用于选择本地窗体的容器，具有 HFRMREG_LOCAL 的值。 
+表单查看器通常调用**IMAPIFormMgr:: SelectFormContainer**方法, 以选择要在其中安装表单的表单容器。 **SelectFormContainer**不能用于选择具有值 HFRMREG_LOCAL 的本地表单容器。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnSelectFormContainer  <br/> |MFCMAPI 使用**IMAPIFormMgr::SelectFormContainer**方法呈现其内容之前选择窗体的容器。  <br/> |
+|MainDlg  <br/> |CMainDlg:: OnSelectFormContainer  <br/> |MFCMAPI 使用**IMAPIFormMgr:: SelectFormContainer**方法在呈现表单容器的内容之前选择该表单容器。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

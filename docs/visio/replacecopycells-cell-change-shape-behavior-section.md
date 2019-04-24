@@ -1,38 +1,38 @@
 ---
-title: ReplaceCopyCells 单元格（“Change Shape Behavior”部分）
+title: ReplaceCopyCells 单元格 ("更改形状行为" 部分)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2f36aefd-da49-47ea-9b90-2fa1a2298849
-description: 指示从复制旧的形状的替换形状到形状替换操作期间 ShapeSheet 中的单元格的列表。
-ms.openlocfilehash: 1e3b5e4dbc29372f75b7a7ed8013a7dd82d94e1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 指示在形状替换操作过程中从一个旧形状复制到替换形状的 ShapeSheet 中的单元格列表。
+ms.openlocfilehash: f2a7908a623c861d0284821b2d8ae5fc71690685
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320172"
 ---
-# <a name="replacecopycells-cell-change-shape-behavior-section"></a>ReplaceCopyCells 单元格（“Change Shape Behavior”部分）
+# <a name="replacecopycells-cell-change-shape-behavior-section"></a>ReplaceCopyCells 单元格 ("更改形状行为" 部分)
 
-指示从复制旧的形状的替换形状到形状替换操作期间 ShapeSheet 中的单元格的列表。 
+指示在形状替换操作过程中从一个旧形状复制到替换形状的 ShapeSheet 中的单元格列表。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-替换为相应的主控形状必须包含**DEPENDSON**函数调用**ReplaceCopyCells**单元格中，其中函数中的每个参数都是单元格的引用。 对这些单元格从旧形状复制到的形状的形状替换操作，而不考虑它们在 ShapeSheet 中的位置的结果。 
+替换的主控形状必须包含**ReplaceCopyCells**单元格中的**DEPENDSON**函数调用, 其中函数中的每个参数都是对单元格的引用。 将这些单元格从旧形状复制到形状替换操作产生的形状, 而不考虑它们在 ShapeSheet 中的位置。 
   
-值和/或引用的其他单元格的公式复制到生成的形状。 如果在生成的形状没有引用的单元格，复制单元格包含值仅。 
+引用其他单元格的值和/或公式将复制到生成的形状中。 如果生成的形状没有被引用的单元格, 则复制的单元格只包含值。 
   
-中**ReplaceCopyCells**单元格的引用重写保护组中**Protection**内容的**ReplaceLockFormat**、 **ReplaceLockShapeData**和**ReplaceLockText**单元格定义的单元格。 
+**ReplaceCopyCells**单元格的引用在 "**保护**" 部分和 " **ReplaceLockFormat**"、" **ReplaceLockShapeData**" 和 " **ReplaceLockText** " 单元格中定义的单元格上覆盖保护集。 
   
-要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**ReplaceCopyCells**单元格的引用，请使用： 
+若要从另一个公式按名称获取对**ReplaceCopyCells**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | ReplaceCopyCells  <br/> |
    
-若要从某个程序按索引获取对**ReplaceCopyCells**单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对**ReplaceCopyCells**单元格的引用, 请使用带下列参数的**CellsSRC**属性: 
   
 |||
 |:-----|:-----|

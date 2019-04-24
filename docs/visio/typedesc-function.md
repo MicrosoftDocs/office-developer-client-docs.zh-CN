@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251572
 localization_priority: Normal
 ms.assetid: 08bc529e-e04e-206a-6322-77a8941e19f4
-description: 返回一个字符串，描述对象的内部类型。
-ms.openlocfilehash: ee00341042e0d36e5f9cd9fde42622f904f4c3ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回描述对象的内部类型的字符串。
+ms.openlocfilehash: d6674e95bb41c9791893426bd58d67e10f165dc8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316413"
 ---
 # <a name="typedesc-function"></a>TYPEDESC 函数
 
-返回一个字符串，描述对象的内部类型。 
+返回描述对象的内部类型的字符串。 
   
 ## <a name="syntax"></a>语法
 

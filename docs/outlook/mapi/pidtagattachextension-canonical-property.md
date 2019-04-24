@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 26efa868de29bc8a6a180b717230951b76da26a3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319759"
 ---
 # <a name="pidtagattachextension-canonical-property"></a>PidTagAttachExtension 规范属性
 
@@ -25,38 +25,38 @@ ms.locfileid: "25388421"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含指示附件的文档类型的文件扩展名。 
+包含一个指示附件的文档类型的文件扩展名。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_ATTACH_EXTENSION，PR_ATTACH_EXTENSION_A，PR_ATTACH_EXTENSION_W  <br/> |
-|标识符：  <br/> |0x3703  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_ATTACH_EXTENSION、PR_ATTACH_EXTENSION_A、PR_ATTACH_EXTENSION_W  <br/> |
+|标识符:  <br/> |0x3703  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-由客户端应用程序提交次设置这些属性。 
+这些属性是由客户端应用程序在提交时设置的。 
   
-转换邮件附件 （-路由转换） 时，消息系统使用**PR_ATTACH_EXTENSION**或启动应用程序基于收到的邮件中的附件。 发送方的客户端不提供这些属性的值，如果处理附件的邮件存储没有义务生成它。 接收的客户端**PR_ATTACH_EXTENSION**，应首先检查并如果它未提供，应分析文件扩展名的附件**PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) 或**PR_ATTACH_LONG_FILENAME**([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) 属性。 
+邮件系统在转换邮件附件 (在路由转换中) 或基于收到的邮件中的附件启动应用程序时使用**PR_ATTACH_EXTENSION** 。 如果发送客户端未提供这些属性的值, 则处理附件的邮件存储无义务生成该附件。 接收客户端应首先检查**PR_ATTACH_EXTENSION**, 如果未提供, 应分析附件的**PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) 或 PR_ATTACH_LONG_FILENAME 中的文件扩展名。 ****([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) 属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: d115ab58-07d2-4b49-8e08-2881c2924102
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 681fd68fc068633912df1cb7f060b8c4111b5de8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 303c2ef855d5cfc1d6614bda92b46c2da97717c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317351"
 ---
 # <a name="imsgstoregetreceivefoldertable"></a>IMsgStore::GetReceiveFolderTable
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-提供对接收文件夹表中，一个表，包括有关的所有接收的消息存储库文件夹的信息的访问。
+提供对接收文件夹表的访问权限, 该表包含有关邮件存储区的所有接收文件夹的信息。
   
 ```cpp
 HRESULT GetReceiveFolderTable(
@@ -37,19 +37,19 @@ HRESULT GetReceiveFolderTable(
 
  _ulFlags_
   
-> [in]Flags 控件表访问的位掩码。 可以设置以下标志：
+> 实时用于控制表访问的标志的位掩码。 可以设置以下标志:
     
 MAPI_DEFERRED_ERRORS 
   
-> 允许**GetReceiveFolderTable**返回成功，原因可能是完全可用于将呼叫者表之前。 如果表不完全支持，进行后续表呼叫会引发错误。 
+> 允许**GetReceiveFolderTable**成功返回, 这可能是在将表完全提供给调用程序之前。 如果该表不是完全可用的, 则进行后续的表调用可能会引发错误。 
     
 MAPI_UNICODE 
   
-> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。
+> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
     
  _lppTable_
   
-> [输出]指向接收文件夹表的指针的指针。
+> 排除指向接收文件夹表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -59,25 +59,25 @@ S_OK
     
 ## <a name="remarks"></a>注解
 
-**IMsgStore::GetReceiveFolderTable**方法可访问此表格显示所有的消息存储的属性设置接收文件夹。 
+**IMsgStore:: GetReceiveFolderTable**方法提供对显示所有邮件存储区接收文件夹的属性设置的表格的访问权限。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-接收文件夹表中所需的列的列表，请参阅[接收文件夹表](receive-folder-tables.md)。 
+有关接收文件夹表中所需列的列表, 请参阅[receive folder Tables](receive-folder-tables.md)。 
   
-实现您接收文件夹表，以支持设置属性限制**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 属性。 此启用对特定的轻松访问接收文件夹。
+实现您的接收文件夹表, 以支持设置**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 属性的属性限制。 这样可以轻松访问特定的接收文件夹。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-_UlFlags_参数中设置 MAPI_UNICODE 标志会影响从[IMAPITable::QueryColumns](imapitable-querycolumns.md)和[IMAPITable::QueryRows](imapitable-queryrows.md)方法返回的列的格式。 此标志还将控制[IMAPITable::QuerySortOrder](imapitable-querysortorder.md)方法返回的排序顺序的属性类型。 
+在_ulFlags_参数中设置 MAPI_UNICODE 标志将影响从[IMAPITable:: QueryColumns](imapitable-querycolumns.md)和[IMAPITable:: QueryRows](imapitable-queryrows.md)方法返回的列的格式。 此标志还按[IMAPITable:: QuerySortOrder](imapitable-querysortorder.md)方法返回的排序顺序控制属性类型。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDisplayReceiveFolderTable  <br/> |MFCMAPI 使用**IMsgStore::GetReceiveFolderTable**方法来获取要显示的接收文件夹表。  <br/> |
+|MsgStoreDlg  <br/> |CMsgStoreDlg:: OnDisplayReceiveFolderTable  <br/> |MFCMAPI 使用**IMsgStore:: GetReceiveFolderTable**方法获取要显示的接收文件夹表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

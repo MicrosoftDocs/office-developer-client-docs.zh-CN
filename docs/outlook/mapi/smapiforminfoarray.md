@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: f5eeb75d-debb-4ac1-b239-e8e852460ce0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6c09c271fefcf31dcde01526d65091714c0b682d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e274e24d9aff30bb39b1865306477164d413d9a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319171"
 ---
 # <a name="smapiforminfoarray"></a>SMAPIFormInfoArray
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含指向窗体信息对象的数组。 
+包含指向表单信息对象的指针数组。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiform.h  <br/> |
-|相关的宏：  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
+|标头文件：  <br/> |Mapiform  <br/> |
+|相关宏:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,15 +45,15 @@ typedef struct
 
  **cForms**
   
-> 计数的数组中的指针指向由**aFormInfo**成员。 
+> 由**aFormInfo**成员指向的数组中的指针计数。 
     
  **aFormInfo**
   
-> 为数组对窗体信息对象的指针的指针。
+> 指向指向表单信息对象的指针的数组的指针。
     
 ## <a name="remarks"></a>注解
 
-**SMAPIFormInfoArray**结构作为中的以下方法的参数传递： 
+在以下方法中, **SMAPIFormInfoArray**结构作为参数传递: 
   
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     

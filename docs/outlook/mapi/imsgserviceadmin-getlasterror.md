@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e3c8d6e-74be-46a7-94ed-74a969caf165
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3c2db9284c0e014101bc3a3d2114a187d7cb3b4b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 302aebd0be78c833acf4f82d2bb815ba46ae6f77
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317388"
 ---
 # <a name="imsgserviceadmingetlasterror"></a>IMsgServiceAdmin::GetLastError
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个[MAPIERROR](mapierror.md)结构，其中包含上次消息服务管理对象发生的错误有关的信息。 
+返回一个[MAPIERROR](mapierror.md)结构, 该结构包含有关邮件服务管理对象发生的最后一个错误的信息。 
   
 ```cpp
 HRESULT GetLastError(
@@ -39,39 +39,39 @@ HRESULT GetLastError(
 
  _hResult_
   
-> [in]包含由前面的方法调用生成的错误值 HRESULT 数据类型。
+> 实时一个 HRESULT 数据类型, 其中包含上一方法调用生成的错误值。
     
  _ulFlags_
   
-> [in]返回控制的字符串类型的标志位掩码。 可以设置以下标记：
+> 实时用于控制返回的字符串类型的标志的位掩码。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 返回_lppMAPIError_参数中的**MAPIERROR**结构中的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。 
+> 在_lppMAPIError_参数中返回的**MAPIERROR**结构中的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。 
     
  _lppMAPIError_
   
-> [输出]指向包含错误的版本、 组件及上下文信息返回**MAPIERROR**结构的指针的指针。 如果不没有返回任何**MAPIERROR**结构， _lppMAPIError_参数可以设置为 NULL。 
+> 排除指向包含错误的版本、组件和上下文信息的返回的**MAPIERROR**结构的指针的指针。 如果没有要返回的**MAPIERROR**结构, 则可以将_lppMAPIError_参数设置为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置该 MAPI_UNICODE 标记和消息服务管理对象不支持 Unicode。
+> 设置了 MAPI_UNICODE 标志, 但邮件服务管理对象不支持 UNICODE。
     
 ## <a name="remarks"></a>注解
 
-**IMsgServiceAdmin::GetLastError**方法检索信息[IMsgServiceAdmin](imsgserviceadminiunknown.md)方法的调用返回的最后一个错误。 客户端可以向其用户提供有关错误的详细信息通过在对话框中包括此信息。 
+**IMsgServiceAdmin:: GetLastError**方法检索[IMsgServiceAdmin](imsgserviceadminiunknown.md)方法调用返回的上一个错误的相关信息。 通过在对话框中包含此信息, 客户端可以向其用户提供有关错误的详细信息。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-您可以利用**MAPIERROR**结构中，如果 MAPI 提供一个，由指向_lppMAPIError_参数才**时出错**，则返回 S_OK。 有时 MAPI 无法确定最后一个错误已或某种更多有关错误报告。 在此情况下， **GetLastError**返回一个指针为 NULL 中_lppMAPIError_相反。 
+您可以使用**MAPIERROR**结构 (如果 MAPI 提供), 仅当**GetLastError**返回 S_OK 时, 才会指向_lppMAPIError_参数。 有时 MAPI 无法确定最后一个错误是什么, 或者没有更多要报告错误的内容。 在这种情况下, **GetLastError**将返回指向_lppMAPIError_中的 NULL 的指针。 
   
-有关**GetLastError**方法的详细信息，请参阅[使用扩展的错误](mapi-extended-errors.md)。
+有关**GetLastError**方法的详细信息, 请参阅[使用扩展错误](mapi-extended-errors.md)。
   
 ## <a name="see-also"></a>另请参阅
 

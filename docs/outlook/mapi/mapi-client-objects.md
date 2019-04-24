@@ -8,38 +8,38 @@ api_type:
 - COM
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4242e466b0e784bb260d0525db0e253f1c1f37f3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6e78c80d861a5a56584bfb03bfdf2895efde8730
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319285"
 ---
 # <a name="mapi-client-objects"></a>MAPI 客户端对象
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-标准邮件客户端应用程序实现只有一个对象 — 通知接收器。 建议从继承接收器[IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md)接口和使用 MAPI 服务提供商的事件通知。 某些客户端还实现进度对象，以支持显示进度对话框。 
+标准邮件客户端应用程序仅实现一个对象 (即通知接收器)。 通知接收器继承自[IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md)接口, 由 MAPI 和服务提供商用于事件通知。 某些客户端也会实施进度对象, 以支持显示进度对话框。 
   
-更复杂的客户端支持自定义窗体实现另一个 advise 接收器对象和其他几个对象，如 message 网站对象继承[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)界面和视图上下文对象继承[IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)接口。 其他 advise 接收器对象继承[IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)接口。 
+支持自定义窗体的更复杂的客户端可实现另一个通知接收器对象和一些其他对象, 例如从[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)接口继承的邮件网站对象, 以及从继承自的视图上下文对象[IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)接口。 附加的建议接收器对象继承自[IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)接口。 
   
-下表总结了实现标准消息客户端和支持的自定义窗体的查看的客户端的 MAPI 对象。
+下表汇总了由标准邮件客户端和支持查看自定义窗体的客户端所实现的 MAPI 对象。
   
-|**客户端对象**|**说明**|
+|**客户端对象**|**Description**|
 |:-----|:-----|
-|建议接收器  <br/> |提供消息存储、 通讯簿或会话中发生的事件的回调函数。  <br/> |
-|消息网站  <br/> |处理表单对象的操作。  <br/> |
-|Progress  <br/> |显示一个对话框，以显示操作的进度。  <br/> |
-|查看建议接收器  <br/> |提供在窗体中发生的事件的回调函数。  <br/> |
-|视图上下文  <br/> |支持命令用于打印和保存窗体和窗体之间导航。  <br/> |
+|通知接收器  <br/> |提供用于在邮件存储区、通讯簿或会话中发生的事件的回调函数。  <br/> |
+|消息网站  <br/> |处理对 form 对象的操作。  <br/> |
+|Progress  <br/> |显示用于显示操作进度的对话框。  <br/> |
+|查看建议接收器  <br/> |为表单中发生的事件提供回调函数。  <br/> |
+|查看上下文  <br/> |支持用于打印和保存窗体以及在窗体之间导航的命令。  <br/> |
    
-下图显示了这些不同的客户端对象、 它们继承的接口和使用它们的 MAPI 组件之间的关系。 
+下图显示了这些不同客户端对象之间的关系、它们继承的接口以及使用这些对象的 MAPI 组件。 
   
-![客户端对象和对应接口](media/amapi_65.gif "客户端对象和对应接口")
+![客户端对象和相应的接口](media/amapi_65.gif "客户端对象和相应的接口")
   
-客户端使用更多的对象不是他们实现。 所有客户端使用的会话对象访问各种服务提供商对象和 MAPI 实现的对象。 客户端与服务提供商间接通过会话、 通讯簿中或提供 MAPI，状态对象或直接通过各种特定服务提供程序实现的对象进行交互。 若要使直接联系人通讯簿提供程序，客户端使用通讯簿容器消息用户和通讯组列表。 若要访问消息存储提供程序直接，客户端使用的消息存储对象、 文件夹、 邮件和附件。 服务提供商支持状态对象，当客户端可以使用状态对象来监控服务提供商的状态。
+客户端使用的对象数多于它们实现的对象数。 所有客户端都使用 session 对象访问 MAPI 实现的各种服务提供程序对象和对象。 客户端可以通过会话、通讯簿或 MAPI 提供的 status 对象间接与服务提供程序交互, 也可以直接通过特定服务提供程序实现的各种对象进行交互。 若要与通讯簿提供商建立直接联系, 客户可以使用通讯簿容器、邮件用户和通讯组列表。 若要直接访问邮件存储区提供程序, 客户端需要使用邮件存储对象、文件夹、邮件和附件。 当服务提供商支持状态对象时, 客户端可以使用 status 对象监视服务提供程序的状态。
   
-支持服务提供商和消息服务配置的客户端使用 MAPI 实现的三个对象： 消息服务管理对象、 配置文件管理对象和提供程序管理对象。 显示自定义窗体的客户端使用的窗体库提供程序或窗体服务器实现的多个窗体对象。
+支持服务提供程序和邮件服务配置的客户端使用 MAPI 实现的三个对象: 邮件服务管理对象、配置文件管理对象和提供程序管理对象。 显示自定义窗体的客户端使用表单库提供程序或表单服务器实现的多个表单对象。
   
 ## <a name="see-also"></a>另请参阅
 

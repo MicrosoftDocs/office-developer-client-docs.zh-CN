@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 35dfc7af9852609dcfcc3fcb9d65ec2e4afa9632
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 800f79179f999ba193d4177abb7341095b8b896d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321215"
 ---
 # <a name="imapiofflinemgrunadvise"></a>IMAPIOfflineMgr::Unadvise
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-取消脱机对象的回调。
+取消对脱机对象的回调。
   
 ```cpp
 HRESULT COfflineObj::Unadvise( 
@@ -38,21 +38,21 @@ HRESULT COfflineObj::Unadvise(
 
  _ulFlags_
   
-> [in]用于取消回调的标志。 支持仅值 MAPIOFFLINE_UNADVISE_DEFAULT。
+> 实时用于取消回调的标志。 仅支持值 MAPIOFFLINE_UNADVISE_DEFAULT。
     
  _ulAdviseToken_
   
-> [in]标识要取消此事件的回调注册 advise 令牌。 
+> 实时一个建议令牌, 用于标识要取消的回调注册。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 呼叫成功。 此调用必须返回 S_OK。
+> 调用成功。 此调用必须返回 S_OK。
     
 ## <a name="remarks"></a>注解
 
-删除回调与*ulAdviseToken*从以前调用**[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** 返回关联的注册。 导致**IMAPIOfflineMgr**对象来释放其上与*ulAdviseToken*关联的**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** 对象的引用。 
+删除与*ulAdviseToken*相关联的回调的注册, 该回调是从以前对**[IMAPIOfflineMgr:: 建议](imapiofflinemgr-advise.md)** 的调用返回的。 使**IMAPIOfflineMgr**对象释放其对与*ulAdviseToken*相关联的**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** 对象的引用。 
   
 ## <a name="see-also"></a>另请参阅
 

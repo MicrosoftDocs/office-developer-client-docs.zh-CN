@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d71fc1d582abebc8cb00f4885ec5b5ba348228c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320312"
 ---
 # <a name="get-and-enumerate-selected-conversations"></a>获取并枚举选定对话
 
@@ -24,7 +24,7 @@ ms.locfileid: "28699371"
 
 此代码示例包含方法 DemoConversationHeadersFromSelection。 该方法将当前视图设置为收件箱，然后检查当前视图是否为按日期排序来显示会话的表视图。 为了获取选定内容（包括任何选定 [ConversationHeader](https://msdn.microsoft.com/library/ff184727\(v=office.15\)) 对象），DemoConversationHeadersFromSelection 使用 [Selection](https://msdn.microsoft.com/library/bb612099\(v=office.15\)) 对象的 **GetSelection** 方法，同时将 [olConversationHeaders](https://msdn.microsoft.com/library/ff184867\(v=office.15\)) 常数指定为参数。 如果选定内容为对话标题，DemoConversationHeadersFromSelection 先使用 [SimpleItems](https://msdn.microsoft.com/library/ff184992\(v=office.15\)) 对象来枚举每个选定对话中的项，再显示属于 [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) 对象的对话项的主题。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

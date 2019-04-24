@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3ca662c8-1ce4-89a9-3264-1ba533fcd444
 description: 包含域的函数。
-ms.openlocfilehash: 9bce4cbb1b3955f749cefa18130c6b01fe61244e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5a09dd0d59341125db897484f74addff22328de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320200"
 ---
-# <a name="value-cell-text-fields-section"></a>Value 单元格（“Text Fields”部分）
+# <a name="value-cell-text-fields-section"></a>Value 单元格（“Text Fields”内容）
 
 包含域的函数。
   
@@ -28,14 +28,14 @@ ms.locfileid: "19781618"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |Fields.Value [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
+|单元格名称：  <br/> |Fields 值 [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
    
-若要从某个程序按索引获取对 Value 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
+要从某个程序按索引获取对 Value 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionTextField** <br/> |
-|行索引：  <br/> |**visRowField** +  *i*其中*i* = 0、 1、 2...  <br/> |
+|行索引：  <br/> |**visRowField** +  *i* = ** 0、1、2 .。。  <br/> |
 |单元格索引：  <br/> |**visFieldCell** <br/> |
    
 

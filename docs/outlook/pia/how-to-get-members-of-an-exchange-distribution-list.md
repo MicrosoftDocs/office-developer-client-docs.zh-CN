@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: d5c615eb811d5dc4a0f4170bfe432179acaa4666
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320193"
 ---
 # <a name="get-members-of-an-exchange-distribution-list"></a>获取 Exchange 通讯组列表的成员
 

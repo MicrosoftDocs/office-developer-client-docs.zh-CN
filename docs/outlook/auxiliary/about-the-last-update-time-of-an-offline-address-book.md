@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d8c554c5-89ac-9b32-5561-8d8178d2525a
 description: 脱机通讯簿 (OAB) 提供 Outlook 用户在断开连接的状态访问目录信息从全局地址列表 (GAL) 以及从其他通讯簿中。
 ms.openlocfilehash: 3374f87cd62d46a80ed823bff0516115a58c155c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392282"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317015"
 ---
 # <a name="about-the-last-update-time-of-an-offline-address-book"></a>有关脱机通讯簿的上次更新时间
 

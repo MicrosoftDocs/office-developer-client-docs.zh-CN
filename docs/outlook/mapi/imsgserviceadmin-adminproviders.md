@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 0d605e2c-10db-46e1-95d5-12fabd524baa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1b03245d7af4c6fb3879e597d8345e5d9888e164
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6b7360995a781824b50ff02b5d2dec8e481e7ba7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317421"
 ---
 # <a name="imsgserviceadminadminproviders"></a>IMsgServiceAdmin::AdminProviders
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回提供访问提供程序管理对象的指针。
+返回一个指针, 该指针提供对提供程序管理对象的访问权限。
   
 ```cpp
 HRESULT AdminProviders(
@@ -39,51 +39,51 @@ HRESULT AdminProviders(
 
  _lpUID_
   
-> [in]一个指向[MAPIUID](mapiuid.md)结构，其中包含要从中要管理的消息服务的唯一标识符。 
+> 实时指向[MAPIUID](mapiuid.md)结构的指针, 该结构包含要管理的邮件服务的唯一标识符。 
     
  _ulFlags_
   
-> [in]始终为 NULL。 
+> 实时始终为 NULL。 
     
  _lppProviderAdmin_
   
-> [输出]指向提供程序的管理对象的指针的指针。
+> 排除指向提供程序管理对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回的提供程序的管理对象。
+> 已成功返回提供程序管理对象。
     
 MAPI_E_NOT_FOUND 
   
-> **MAPIUID**由_lpUID_指向不存在。 
+> _lpUID_指向的**MAPIUID**不存在。 
     
 ## <a name="remarks"></a>注解
 
-**IMsgServiceAdmin::AdminProviders**方法提供对提供程序的管理对象访问。 提供程序管理是对象支持[IProviderAdmin](iprovideradminiunknown.md)接口，使客户端执行以下操作： 
+**IMsgServiceAdmin:: AdminProviders**方法提供对提供程序管理对象的访问权限。 提供程序管理是一个支持[IProviderAdmin](iprovideradminiunknown.md)接口的对象, 它允许客户端执行以下操作: 
   
-- 添加到消息服务的服务提供商。
+- 将服务提供程序添加到邮件服务。
     
-- 删除消息服务的服务提供商。
+- 从邮件服务中删除服务提供程序。
     
-- 打开配置文件部分。
+- 打开配置文件节。
     
 - 访问邮件服务提供程序表。
     
-在使用配置文件时可以实际的消息服务对做的更改的类型取决于邮件服务。 但是，大多数消息服务不支持更改如添加和删除提供程序配置文件时使用。
+在使用配置文件时, 实际可以对邮件服务进行的更改类型取决于邮件服务。 但是, 大多数邮件服务不支持在配置文件正在使用时添加和删除提供程序等更改。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要检索要管理的消息服务的**MAPIUID**结构，请从邮件服务表中的消息服务的行中检索**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 属性列。 有关详细信息，请参阅[IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md)方法中概述的过程。 
+若要检索要管理的邮件服务的**MAPIUID**结构, 请从邮件服务表中的邮件服务行检索**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 属性列。 有关详细信息, 请参阅[IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md)方法中概述的过程。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI 使用**IMsgServiceAdmin::AdminProviders**方法打开服务提供程序管理对象。  <br/> |
+|MsgServiceTableDlg  <br/> |CMsgServiceTableDlg:: OnDisplayItem  <br/> |MFCMAPI 使用**IMsgServiceAdmin:: AdminProviders**方法打开服务的提供程序管理对象。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

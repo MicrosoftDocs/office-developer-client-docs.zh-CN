@@ -1,33 +1,33 @@
 ---
-title: RelQuadBezTo 行（“Geometry”部分）
+title: RelQuadBezTo 行 ("Geometry" 部分)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5ae57707-5a50-43f0-8c78-516790b5034e
-description: 包含 x 和 y 坐标的终点相对于形状的宽度和高度和 x 二次贝塞尔曲线的-和 y-曲线相对于形状的宽度和高度的控制点的坐标。
-ms.openlocfilehash: 99796e85a857fd320598cb48993fc29bdfa4964d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 包含相对于形状的宽度和高度以及曲线相对形状的宽度和高度的控制点的 x 坐标和 y 坐标的二次贝塞尔曲线端点的 x 坐标和 y 坐标。
+ms.openlocfilehash: f517fa006c6630a26e9162adfbb1be2139487e63
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319927"
 ---
-# <a name="relquadbezto-row-geometry-section"></a>RelQuadBezTo 行（“Geometry”部分）
+# <a name="relquadbezto-row-geometry-section"></a>RelQuadBezTo 行 ("Geometry" 部分)
 
-包含*x*和*y*坐标的终点相对于形状的宽度和高度和*x*二次贝塞尔曲线的-和*y* -曲线相对于形状的宽度和高度的控制点的坐标。 
+包含相对于形状的宽度和高度以及曲线相对形状的宽度和高度的控制点的*x*坐标和*y*坐标的二次贝塞尔曲线端点的*x*坐标和*y*坐标。 
   
 > [!NOTE]
-> **RelQuadBezTo**行仅可保持在.vsdx、.vsdm、.vstx、.vstm、.vssx 和.vssm 文件格式。 为 Visio 2003 2010年格式保存文件后， **RelQuadBezTo**行转换为某一[NURBSTo](nurbsto-row-geometry-section.md)行。 
+> **RelQuadBezTo**行只能在 .vsdx、.vsdm、.vstx、.vstm、.vssx 和. .vssm 文件格式中持久化。 将文件保存为 Visio 2003-2010 格式时, **RelQuadBezTo**行将转换为[NURBSTo](nurbsto-row-geometry-section.md)行。 
   
 **RelQuadBezTo**行包含以下单元格。 
   
-|**Cell**|**说明**|
+|**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -相对于形状的宽度二次贝塞尔曲线终顶点的坐标。  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -相对于形状的高度二次贝塞尔曲线终顶点的坐标。  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |*X* -相对于形状的宽度; 曲线的控制点的坐标弧形上某个点。是最好位于之间的开始和结束顶点的一半的控制点。  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |*Y* -相对于形状的高度曲线的控制点的坐标。  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |一条二次贝塞尔曲线终顶点相对于形状宽度的*x*坐标。  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |一条二次贝塞尔曲线终顶点的*y*坐标 (相对于形状的高度)。  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |曲线的控制点相对于形状宽度的*x*坐标;弧形上的一点。控制点最适合弧的起始和结束顶点之间的中间点。  <br/> |
+|[黑白](b-cell-geometry-section.md) <br/> |曲线的控制点相对于形状高度的*y*轴坐标值。  <br/> |
    
 

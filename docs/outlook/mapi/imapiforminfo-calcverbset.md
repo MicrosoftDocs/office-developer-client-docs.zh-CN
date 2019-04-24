@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 0170dc9d-dc72-48e2-a522-374f199b18ea
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: db3cc987b20a76116f2591485f57afae017d3e15
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: babff746af16d51ca154d049943f6be7e9fab589
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321690"
 ---
 # <a name="imapiforminfocalcverbset"></a>IMAPIFormInfo::CalcVerbSet
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-到谓词窗体所使用的完整集合中返回的指针。
+返回一个指针, 指向表单使用的完整的一组谓词。
   
 ```cpp
 HRESULT CalcVerbSet(
@@ -38,37 +38,37 @@ HRESULT CalcVerbSet(
 
  _ulFlags_
   
-> [in]返回控制的字符串类型的标志位掩码。 可以设置以下标记：
+> 实时用于控制返回的字符串类型的标志的位掩码。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。
+> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
     
  _ppMAPIVerbArray_
   
-> [输出]指向包含窗体的谓词返回[SMAPIVerbArray](smapiverbarray.md)结构的指针的指针。 
+> 排除指向指向包含表单的谓词的返回[SMAPIVerbArray](smapiverbarray.md)结构的指针的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
+> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
 ## <a name="remarks"></a>注解
 
-客户端应用程序调用**IMAPIFormInfo::CalcVerbSet**方法以获取指向由窗体的动作设置。 在**SMAPIVerbArray**结构中返回_ppMAPIVerbArray_参数中，返回动词顺序的索引号;每个动作索引是其**lVerb**成员中找到的。 客户端应用程序可以使用动词数组动态生成菜单、 隐藏或显示按钮，等等。 
+客户端应用程序调用**IMAPIFormInfo:: CalcVerbSet**方法以获取指向表单使用的一组谓词的指针。 在_ppMAPIVerbArray_参数中返回的**SMAPIVerbArray**结构中, 按照索引号的顺序返回谓词;在其**lVerb**成员中找到每个动词的索引。 客户端应用程序可以使用谓词数组来动态构建菜单、隐藏或显示按钮, 等等。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI 编写窗体信息对象的调试输出时使用**IMAPIFormInfo::CalcVerbSet**方法。  <br/> |
+|MFCOutput  <br/> |_OutputFormInfo  <br/> |MFCMAPI 在为表单信息对象编写调试输出时使用**IMAPIFormInfo:: CalcVerbSet**方法。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

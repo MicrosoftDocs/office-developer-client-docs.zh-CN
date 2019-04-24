@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b34b79ac05530ec30e611c50bce8e81ce0470f02
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320109"
 ---
 # <a name="get-the-organizer-of-a-meeting"></a>获取会议组织者
 
@@ -25,7 +25,7 @@ ms.locfileid: "28699553"
 
 在下面的代码示例中，GetMeetingOrganizer 需要使用表示会议的 [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) 类型参数，并使用 [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) 对象和 [GetProperty(String)](https://msdn.microsoft.com/library/bb645726\(v=office.15\)) 方法来获取 **AppointmentItem** 对象的 [EntryID](https://msdn.microsoft.com/library/bb645980\(v=office.15\))。 获取 **EntryID** 后，此代码示例使用 [GetAddressEntryFromID(String)](https://msdn.microsoft.com/library/ff185034\(v=office.15\)) 方法，返回表示会议组织者的 [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) 对象。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

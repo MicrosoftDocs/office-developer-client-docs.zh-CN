@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a416762b-7294-c99f-d9f1-332c3ed35dff
 description: 确定形状的线型。在 LinePattern 单元格中输入的值是一个数字，此数字是线型集合中的索引。
-ms.openlocfilehash: cccc6028de21299942e62c53aba48622baa95f98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eec5bed18777f7822f9544d59dce7722f2f732bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316441"
 ---
-# <a name="linepattern-cell-line-format-section"></a>LinePattern 单元格（“Line Format”部分）
+# <a name="linepattern-cell-line-format-section"></a>LinePattern 单元格（“Line Format”内容）
 
 确定形状的线型。在 LinePattern 单元格中输入的值是一个数字，此数字是线型集合中的索引。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |0  <br/> |没有线型  <br/> |
 |1  <br/> |实线  <br/> |
-|2-23  <br/> |各种线型  <br/> |
+|2 - 23  <br/> |各种线型  <br/> |
    
 ## <a name="remarks"></a>注解
 

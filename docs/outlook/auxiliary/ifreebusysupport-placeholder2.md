@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cf176321-b9ff-9b47-b785-da7da5e77536
-description: 此成员是一个占位符，不支持。
-ms.openlocfilehash: 8c52d724a21871d8899547d0c74444fd032cac2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 此成员是占位符, 不受支持。
+ms.openlocfilehash: b0150e0f43a1a115d45a7abe77a3852c31b02771
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774231"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319353"
 ---
 # <a name="ifreebusysupportplaceholder2"></a>IFreeBusySupport::Placeholder2
 
-此成员是一个占位符，不支持。
+此成员是占位符, 不受支持。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -28,9 +28,9 @@ HRESULT Placeholder2();
 
 ## <a name="return-values"></a>返回值
 
-始终 S_OK，因为此成员是一个占位符，并且不受支持。
+总是 S_OK, 因为此成员是占位符, 不受支持。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此成员必须返回 S_OK。
   

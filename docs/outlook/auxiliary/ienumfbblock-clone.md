@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5af36a87-e782-df63-4190-a608758fef50
-description: 创建一份枚举数，使用相同的时间限制，但设置光标到枚举的开头。
-ms.openlocfilehash: 51503be2091fa01da6f636bf6944274068617f05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 使用相同的时间限制创建枚举数的副本, 但将游标设置为枚举器的开头。
+ms.openlocfilehash: 1a279430bf6a29611fa223bebbf8023c34967139
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317596"
 ---
 # <a name="ienumfbblockclone"></a>IEnumFBBlock::Clone
 
-创建一份枚举数，使用相同的时间限制，但设置光标到枚举的开头。
+使用相同的时间限制创建枚举数的副本, 但将游标设置为枚举器的开头。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -32,14 +32,14 @@ HRESULT Clone(
 
 _ppclone_
   
-> [输出]A 到指针的指针到[IEnumFBBlock](ienumfbblock.md)接口的副本。 
+> 排除指向[IEnumFBBlock](ienumfbblock.md)接口副本的指针。 
     
 ## <a name="return-values"></a>返回值
 
 |**[HRESULT]**|**说明**|
 |:-----|:-----|
 |S_OK  <br/> |调用成功。  <br/> |
-|E_OUTOFMEMORY  <br/> |没有进行复制的内存不足。  <br/> |
+|E_OUTOFMEMORY  <br/> |内存不足, 无法进行复制。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

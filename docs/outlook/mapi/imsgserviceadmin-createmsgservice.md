@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 0135f049-0311-45e5-9685-78597d599a4e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7c649680d1d04e210ac4d90779e9a4e57aaab25a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e7d30c1aba8ddc1419045c1caa8524f7d2063dc5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317390"
 ---
 # <a name="imsgserviceadmincreatemsgservice"></a>IMsgServiceAdmin::CreateMsgService
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-不建议使用： 建议使用[IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) 。 向当前配置文件的消息服务。 
+弃用: 建议使用[IMsgServiceAdmin2:: CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) 。 向当前配置文件添加邮件服务。 
   
 ```cpp
 HRESULT CreateMsgService(
@@ -40,31 +40,31 @@ HRESULT CreateMsgService(
 
  _lpszService_
   
-> [in]一个指向要添加的消息服务的名称。 此消息服务名称必须出现在 MapiSvc.inf 文件的 **[服务]** 节中。 
+> 实时指向要添加的邮件服务的名称的指针。 此邮件服务名称必须出现在 mapisvc.inf 文件的 "**服务**" 部分中。 
     
  _lpszDisplayName_
   
-> [in]指向要添加的消息服务的显示名称的指针。 如果邮件服务具有 MapiSvc.inf 文件中设置**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性，则忽略_lpszDisplayName_参数。
+> 实时指向要添加的邮件服务的显示名称的指针。 如果邮件服务已在 mapisvc.inf 文件中设置了**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性, 则会忽略_lpszDisplayName_参数。
     
  _ulUIParam_
   
-> [in]该方法显示的任何对话框或窗口的父窗口的句柄。
+> 实时此方法显示的任何对话框或窗口的父窗口的句柄。
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何安装邮件服务。 可以设置以下标志：
+> 实时用于控制如何安装邮件服务的标志的位掩码。 可以设置以下标志:
     
 MAPI_UNICODE
   
-> LpszService 和 lpszDisplayName 参数应强制转换为 LPWSTR 和解释为 Unicode 字符串。
+> 应将 lpszService 和 lpszDisplayName 参数强制转换为 LPWSTR, 并将其解释为 Unicode 字符串。
     
 SERVICE_NO_RESTART_WARNING
   
-> 添加到配置文件的新消息服务时, MAPI 子系统，基于各种情况和条件，通常决定了此操作需要重新启动 Outlook。 如果 SERVICE_NO_RESTART_WARNING 标志不包括允许用户界面-基于 SERVICE_UI_ALWAYS 和 SERVICE_UI_ALLOWED 标志-和至少一个过程登录当前配置文件，此函数显示消息"您必须重新启动 Outlook这些更改才会生效。" 包括 SERVICE_NO_RESTART_WARNING 标志禁止显示该警告消息。
+> 将新的邮件服务添加到配置文件时, 基于各种情况和标准的 MAPI 子系统通常会确定此操作需要重新启动 Outlook。 如果不包含 SERVICE_NO_RESTART_WARNING 标志且允许 UI (基于 SERVICE_UI_ALWAYS 和 SERVICE_UI_ALLOWED 标志), 并且至少有一个进程登录到当前配置文件, 则此函数将显示消息 "您必须重新启动 Outlook for这些更改才能生效。 " 包括 SERVICE_NO_RESTART_WARNING 标志禁止显示该警告消息。
     
 SERVICE_UI_ALLOWED
   
-> 消息服务配置根据需要允许 UI。
+> 如果需要, 允许使用邮件服务配置 UI。
     
 SERVICE_UI_ALWAYS 
   
@@ -74,47 +74,47 @@ SERVICE_UI_ALWAYS
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 MAPI_E_NOT_FOUND 
   
-> 消息服务名称不在的 MapiSvc.inf **[服务]** 部分。 
+> 邮件服务名称不在 mapisvc.inf 的 "**服务**" 部分中。 
     
 ## <a name="remarks"></a>注解
 
-**IMsgServiceAdmin::CreateMsgService**方法将消息服务添加到当前配置文件。 **CreateMsgService**调用消息服务的入口点函数，以执行任何特定于服务的配置任务。 _UlFlags_参数中设置 SERVICE_UI_ALLOWED 标志，如果要安装的消息服务可以显示属性表可让用户能够配置其设置。 
+**IMsgServiceAdmin:: CreateMsgService**方法将邮件服务添加到当前配置文件中。 **CreateMsgService**调用邮件服务的入口点函数以执行任何特定于服务的配置任务。 如果在_ulFlags_参数中设置了 SERVICE_UI_ALLOWED 标志, 则要安装的邮件服务可以显示属性表以使用户能够配置其设置。 
   
-MapiSvc.inf 文件包含每个组成的消息服务和属性的提供程序的列表。 **CreateMsgService**首先创建新的配置文件部分消息服务，然后复制该服务的信息的所有从 MapiSvc.inf 文件到配置文件，为每个提供程序创建新的部分。 
+mapisvc.inf 文件包含组成邮件服务的提供程序的列表以及每个提供程序的属性。 **CreateMsgService**首先为邮件服务创建一个新的配置文件部分, 然后将该服务的所有信息从 mapisvc.inf 文件复制到配置文件中, 为每个提供程序创建新的分区。 
   
-已从 MapiSvc.inf 复制所有信息后，使用_ulContext_参数中设置的 MSG_SERVICE_CREATE 值调用消息服务的入口点函数。 如果**CreateMsgService**方法的_ulFlags_参数中设置 SERVICE_UI_ALLOWED 标志，消息服务的入口点函数调用时还传递的_ulUIParam_和_ulFlags_参数中的值。 服务提供商应显示其配置属性表，以便用户可以配置邮件服务。 
+从 mapisvc.inf 复制所有信息后, 将使用_ulContext_参数中设置的 MSG_SERVICE_CREATE 值调用邮件服务的入口点函数。 如果在**CreateMsgService**方法的_ulFlags_参数中设置了 SERVICE_UI_ALLOWED 标志, 则在调用邮件服务的入口点函数时, 也会传递_ulUIParam_和_ulFlags_参数中的值。 服务提供商应显示其配置属性表, 以便用户可以配置邮件服务。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
- **CreateMsgService**不返回邮件服务已添加到配置文件的[MAPIUID](mapiuid.md)结构。 
+ **CreateMsgService**不会为已添加到配置文件中的邮件服务返回[MAPIUID](mapiuid.md)结构。 
   
-若要检索**MAPIUID**创建的消息服务，请使用以下过程： 
+若要检索创建的邮件服务的**MAPIUID** , 请使用以下过程: 
   
-1. 调用[IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md)方法以获取邮件服务管理表。 
+1. 调用[IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md)方法以获取邮件服务管理表。 
     
-2. 找到表示邮件服务通过将限制放在表的**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) 属性与消息服务的名称相匹配的行。 
+2. 通过在与**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) 属性与邮件服务名称相匹配的表上放置限制, 找到表示邮件服务的行。 
     
 3. 检索服务的**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 属性。 
     
-4. 将**PR_SERVICE_UID**属性的值_lpUid_参数中传递给[IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)方法，以配置服务。 
+4. 将_lpUid_参数中的**PR_SERVICE_UID**属性的值传递给[IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)方法以配置服务。 
     
 > [!CAUTION]
-> Microsoft Outlook 2010 实现的 MAPI 子系统不支持 MAPI_UNICODE，如果使用它将失败。 
+> MAPI 子系统的 Microsoft Outlook 2010 实现不支持 MAPI_UNICODE, 如果使用, 将会失败。 
   
 > [!IMPORTANT]
-> _UlFlags_ SERVICE_NO_RESTART_WARNING 可能未定义当前具有可下载头文件中，在这种情况下您可以将其添加到代码中使用以下值： >`#define SERVICE_NO_RESTART_WARNING 0x00000080`
+> _ulFlags_ SERVICE_NO_RESTART_WARNING 可能未在您当前拥有的可下载头文件中定义, 在这种情况下, 您可以使用以下值将其添加到代码中: >`#define SERVICE_NO_RESTART_WARNING 0x00000080`
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI 使用**IMsgServiceAdmin::CreateMsgService**方法向一个配置文件中添加服务。  <br/> |
+|MAPIProfileFunctions  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI 使用**IMsgServiceAdmin:: CreateMsgService**方法将服务添加到配置文件中。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

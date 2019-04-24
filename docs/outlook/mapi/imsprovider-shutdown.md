@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ca1861d-9bc9-485a-9807-a598b869e5a2
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 342b87a3a8f0349631e64600e294d4f19ab1099c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 77688f8a09c1d990201a247a3c4e3a11ba0963b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317260"
 ---
 # <a name="imsprovidershutdown"></a>IMSProvider::Shutdown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-关闭中有序的方式的消息存储提供程序。
+以有序的方式关闭邮件存储提供程序。
   
 ```cpp
 HRESULT Shutdown(
@@ -37,17 +37,17 @@ HRESULT Shutdown(
 
  _lpulFlags_
   
-> [in]保留;必须为零的指针。
+> 实时保留必须是指向零的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功，并返回预期的值。
+> 调用成功, 并返回了所需的一个或一些值。
     
 ## <a name="remarks"></a>注解
 
-MAPI 释放消息存储提供程序对象之前调用**IMSProvider::Shutdown**方法。 MAPI 的提供程序调用**关闭**之前释放提供程序的所有登录对象。 
+在释放邮件存储区提供程序对象之前, MAPI 会调用**IMSProvider:: Shutdown**方法。 MAPI 在为提供程序调用**Shutdown**之前释放该提供程序的所有登录对象。 
   
 ## <a name="see-also"></a>另请参阅
 

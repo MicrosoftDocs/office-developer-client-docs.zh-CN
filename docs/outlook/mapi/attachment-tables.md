@@ -8,34 +8,34 @@ api_type:
 - COM
 ms.assetid: 92a07f7b-d34c-4085-ab11-eadcd918fa1b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 27e489447b501b6e0d3bb7d668cecc3750be443e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4aa800b504e7ffb07d94ace6d8dc30c1463ed637
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318135"
 ---
 # <a name="attachment-tables"></a>附件表
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-附件表包含有关与已提交的邮件或在组合下的一条消息相关联的 attachment 对象的所有信息。 
+附件表包含与提交的邮件或撰写中的邮件相关联的所有附件对象的相关信息。 
   
-通过调用消息的[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法已保存的附件包含在表中。 附件表由消息存储提供程序实现并使用客户端应用程序和传输提供程序。 
+只有通过对邮件的[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法的调用保存的附件才包含在表中。 附件表由邮件存储提供程序实现, 并由客户端应用程序和传输提供程序使用。 
   
-附件表可通过调用以下任一项：
+可以通过调用以下任一方法来访问附件表:
   
 - [IMessage::GetAttachmentTable](imessage-getattachmenttable.md)
     
-- [IMAPIProp::OpenProperty](imapiprop-openproperty.md)，请求**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) 属性。
+- [IMAPIProp:: OpenProperty](imapiprop-openproperty.md), 请求**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) 属性。
     
 附件表是动态的。
   
-消息存储提供程序不需要支持对其附件表排序。 如果不支持进行排序，必须按呈现位置顺序显示表 — **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性。
+邮件存储提供程序不需要支持对其附件表进行排序。 如果不支持排序, 则必须按呈现位置的顺序 ( **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性) 显示表。
   
-消息存储提供程序不还需要支持其附件表上的限制。 不支持限制的提供程序返回的[IMAPITable::Restrict](imapitable-restrict.md)和[IMAPITable::FindRow](imapitable-findrow.md)其实现 MAPI_E_NO_SUPPORT。
+邮件存储提供程序也不需要支持对其附件表的限制。 不支持限制的提供程序将从其[IMAPITable:: Restrict](imapitable-restrict.md)和[IMAPITable:: FindRow](imapitable-findrow.md)的实现中返回 MAPI_E_NO_SUPPORT。
   
-附件表可以小型;所需的列设置中有仅四列：
+附件表可能很小;在必需的列集中只有四列:
   
 - **PR_ATTACH_NUM**([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 
     
@@ -45,21 +45,21 @@ ms.locfileid: "22564120"
     
 - **PR_RENDERING_POSITION**
     
- **PR_ATTACH_NUM** nontransmittable 并包含用于唯一地标识邮件中的附件的值。 此属性通常用作索引到 table 的行。 **PR_ATTACH_NUM**具有短寿命;打开包含附件的邮件时才有效。 其值保证保持不变，只要附件表处于打开状态。 
+ **PR_ATTACH_NUM**为 nontransmittable, 并且包含一个用于唯一标识邮件中的附件的值。 此属性通常用作表中的行的索引。 **PR_ATTACH_NUM**的生命周期较短;仅当包含附件的邮件处于打开状态时, 此方法才有效。 只要附件表打开, 它的值就会保持不变。 
   
- 几乎在每个表中需要**PR_INSTANCE_KEY** 。 它用于唯一标识的特定行。 
+ **PR_INSTANCE_KEY**在几乎每个表中都是必需的。 它用于唯一标识特定行。 
   
- **PR_RECORD_KEY**通常用于唯一标识为了进行比较的对象。 与**PR_ATTACH_NUM**，不同**PR_RECORD_KEY**具有相同的范围的长期的项标识符;尚待可用且有效，即使关闭并重新打开该邮件。 有关使用 MAPI 中的记录项的详细信息，请参阅[MAPI 记录和搜索键](mapi-record-and-search-keys.md)。
+ **PR_RECORD_KEY**通常用于唯一标识用于比较目的的对象。 与**PR_ATTACH_NUM**不同, **PR_RECORD_KEY**的作用域与长期条目标识符的作用域相同;即使在关闭并重新打开邮件之后, 它仍然可用且有效。 有关 mapi 中使用记录密钥的详细信息, 请参阅[mapi 记录和搜索关键字](mapi-record-and-search-keys.md)。
   
- **PR_RENDERING_POSITION**指示附件格式文本消息中的显示方式。 它可以设为字符，如要偏移 0， **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性中存储的消息内容的第一个字符中的偏移量或为-1 (0xFFFFFFFF)，指示附件应不呈现在邮件内部在所有的文本。 不设置**PR_RENDERING_POSITION**也是一个选项。 
+ **PR_RENDERING_POSITION**指示附件在 rtf 邮件中的显示方式。 它可以设置为以字符为单位的偏移量, 邮件内容的第一个字符存储在**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性中, 而不是偏移量为 0, 或为-1 (0xffffffff), 指示不应在邮件中呈现附件文本。 不设置**PR_RENDERING_POSITION**也是一个选项。 
   
-附件表进行排序的呈现位置时, 的消息存储提供程序会将其视为有符号值 (PT_LONG)。 因此，具有呈现位置为-1 附件进行排序之前具有反映有效偏移量的呈现位置的附件。 
+当按呈现位置对附件表进行排序时, 邮件存储提供程序会将其视为有符号值 (PT_LONG)。 因此, 呈现位置为-1 的附件在显示反映有效偏移量的呈现位置的附件之前进行排序。 
   
-关于呈现纯文本邮件的附件的详细信息，请参阅[呈现纯文本中的附件](rendering-an-attachment-in-plain-text.md)。 
+有关在纯文本邮件中呈现附件的详细信息, 请参阅[以纯文本格式呈现附件](rendering-an-attachment-in-plain-text.md)。 
   
-关于呈现附件格式化文本如富文本格式 (RTF) 中的信息，请参阅[呈现 RTF 文本中的附件](rendering-an-attachment-in-rtf-text.md)。
+有关使用格式化文本 (如 rtf 格式) 呈现附件的信息, 请参阅[在 rtf 文本中呈现附件](rendering-an-attachment-in-rtf-text.md)。
   
-下面是一些消息存储提供程序通常包括附件表格中因为它们是易于计算或检索的属性：
+某些属性邮件存储提供程序通常包含在附件表中, 因为它们易于计算或检索:
   
 |||
 |:-----|:-----|

@@ -7,25 +7,25 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ad2e1f2d-57c3-4fb5-9e0f-db51640df84d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 12fb03ed5a165592113f49a202f777b0f301736d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 100d1339ade8e5983c89695afbd85592cc2a4e43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568754"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318968"
 ---
 # <a name="mapi-client-application-overview"></a>MAPI 客户端应用程序概述
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 客户端应用程序是任何应用程序使用 MAPI 编程接口。 客户端应用程序实现用作的消息任务其主或第二焦点。 消息客户端应用程序，如应用程序发送和接收电子邮件，实现消息作为其主焦点。 对于非消息客户端应用程序，如库存或配置应用程序中，消息是辅助功能。
+mapi 客户端应用程序是使用 MAPI 编程接口的任何应用程序。 客户端应用程序将邮件任务作为主焦点或辅助焦点来实现。 邮件客户端应用程序 (例如发送和接收电子邮件的应用程序) 将消息作为其主焦点实现。 对于非邮件客户端应用程序 (如清单或配置应用程序), 消息传递是辅助功能。
   
-消息活动可以包括，例如，word 处理应用程序具有其启用发送文档的**文件**菜单、 Microsoft Office Outlook 电子邮件、 工作流自动化程序和布告栏服务上的**发送**命令。 
+邮件活动可以包括一个字处理应用程序, 该应用程序的 "**文件**" 菜单上有 "**发送**" 命令, 以启用文档发送、Microsoft Office Outlook 电子邮件、工作流自动化程序和公告牌服务。 
   
-客户端应用程序也可以包括用户创建交互式环境或没有自动环境中的用户操作。 尽管 MAPI 提供了一套与其标准的用户界面的通用对话框，无需客户端应用程序显示用户界面。 实际上，如果您希望的应用程序中已处理所有处理。 自动客户端应用程序的示例将为库存管理应用程序的编程路由的标准定期收件人的特定类型的项目。
+客户端应用程序既可以包括用户, 也可以在自动环境中创建交互式环境, 也可以在没有用户的情况下运行。 虽然 MAPI 提供了一组通用的对话框及其标准用户界面, 但客户端应用程序不需要提供用户界面。 事实上, 如果需要, 可以在应用程序中处理所有处理。 自动客户端应用程序的一个示例是设计用于定期将特定类型的项目路由到标准收件人的库存管理应用程序。
   
 ## <a name="see-also"></a>另请参阅
 

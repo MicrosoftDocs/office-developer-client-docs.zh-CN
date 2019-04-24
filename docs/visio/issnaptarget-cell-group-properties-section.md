@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b58131f6-a566-d9ca-bad4-4f4b66e03aaf
 description: 确定是对齐组合还是对齐该组合内的形状。
-ms.openlocfilehash: 89536923617f80768d7c14658cb07c97595824ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cae3eab64be3a91c48ae9f7fb49aa2a321087f43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780495"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317897"
 ---
-# <a name="issnaptarget-cell-group-properties-section"></a>IsSnapTarget 单元格（“Group Properties”部分）
+# <a name="issnaptarget-cell-group-properties-section"></a>IsSnapTarget 单元格（“Group Properties”内容）
 
 确定是对齐组合还是对齐该组合内的形状。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |启用对齐组合内的形状。  <br/> |
 |FALSE  <br/> |只对齐组合。  <br/> |

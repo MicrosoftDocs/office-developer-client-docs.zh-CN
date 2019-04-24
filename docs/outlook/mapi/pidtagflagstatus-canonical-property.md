@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b5117360-0939-4535-83fe-3b4a240b5217
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bca8fccaa43bb3157b3d4e2af7d6aafa64972b41
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316294"
 ---
 # <a name="pidtagflagstatus-canonical-property"></a>PidTagFlagStatus 规范属性
 
@@ -25,46 +25,46 @@ ms.locfileid: "25390553"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定的消息对象的标志状态。
+指定邮件对象的标记状态。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FLAG_STATUS  <br/> |
-|标识符：  <br/> |0x1090  <br/> |
+|标识符:  <br/> |0x1090  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性必须存在会议相关对象上,，它应不存在于 task 对象。 当在其他消息对象上设置时，此属性必须设置为下列值之一：
+此属性不能在与会议相关的对象上存在, 并且不应存在于任务对象上。 当对其他 message 对象进行设置时, 此属性必须设置为以下值之一:
   
-|**数值**|**名称**|**说明**|
+|**数字值**|**名称**|**说明**|
 |:-----|:-----|:-----|
-|不存在  <br/> |不适用  <br/> |未标记  <br/> |
+|不存在  <br/> |不适用  <br/> |标记  <br/> |
 |0x00000001  <br/> |followupComplete  <br/> |标记完成  <br/> |
-|0x00000002  <br/> |followupFlagged  <br/> |标记  <br/> |
+|0x00000002  <br/> |followupFlagged  <br/> |带  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> 指定的属性和与标记的操作。
+> 指定与标记相关的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

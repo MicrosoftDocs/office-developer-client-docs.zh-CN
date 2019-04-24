@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm82251276
 localization_priority: Normal
 ms.assetid: 3f46cfcf-7eac-4a37-e782-39f4e7f8fc43
-description: 确定 y-文本块的相对于原点的文本块的旋转中心的坐标。 默认公式为：
-ms.openlocfilehash: 7d43f63b8560df5fc5daf09a429ce30ec976d131
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定文本块的旋转中心相对于文本块起点的 y 轴坐标值。 默认公式为：
+ms.openlocfilehash: 937c4e9928d32d55e8336d192b1ecc6140fd8381
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781568"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317729"
 ---
-# <a name="txtlocpiny-cell-text-transform-section"></a>TxtLocPinY 单元格（“Text Transform”部分）
+# <a name="txtlocpiny-cell-text-transform-section"></a>TxtLocPinY 单元格（“Text Transform”内容）
 
-确定*y* -文本块的相对于原点的文本块的旋转中心的坐标。 默认公式为： 
+确定文本块的旋转中心相对于文本块起点的*y*轴坐标值。 默认公式为： 
   
-= TxtHeight \* 0.5
+= TxtHeight \* 0。5
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 TxtLocPinY 单元格的引用，请使用： 
   

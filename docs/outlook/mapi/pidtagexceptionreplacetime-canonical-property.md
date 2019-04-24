@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bd4d1311-15e4-4275-a967-c6d11d2e48d2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f255b91cbd428a2ceaa51140519b02d3f8a3b1ff
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316385"
 ---
 # <a name="pidtagexceptionreplacetime-canonical-property"></a>PidTagExceptionReplaceTime 规范属性
 
@@ -25,36 +25,36 @@ ms.locfileid: "25395180"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示原始日期和时间，如果未异常时应出现定期模式中的实例。
+指示定期模式中的实例发生时的原始日期和时间 (如果它不是异常)。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_EXCEPTION_REPLACETIME  <br/> |
-|标识符：  <br/> |0x7FF9  <br/> |
+|标识符:  <br/> |0x7FF9  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
-|区域：  <br/> |类定义消息非可传送  <br/> |
+|区域：  <br/> |邮件类定义的非传输  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-以协调世界时 (UTC)，必须指定此值。
+此值必须以协调通用时间 (UTC) 指定。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

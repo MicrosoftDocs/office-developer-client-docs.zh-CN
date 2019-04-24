@@ -8,21 +8,21 @@ f1_keywords:
 - vis_sdr.chm1045
 localization_priority: Normal
 ms.assetid: 88ddf4b5-8248-8c1a-c387-09a607639d26
-description: 确定 y-文本块的相对于原点形状的旋转中心的坐标。 默认公式为：
-ms.openlocfilehash: e8101463413b177bf8ddd80ed52964d3eeae788f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定文本块的旋转中心相对于形状原点的 y 轴坐标值。 默认公式为：
+ms.openlocfilehash: fc62ac76aa24a698d956690df6e5d1e7cff3fb5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316420"
 ---
-# <a name="txtpiny-cell-text-transform-section"></a>TxtPinY 单元格（“Text Transform”部分）
+# <a name="txtpiny-cell-text-transform-section"></a>TxtPinY 单元格（“Text Transform”内容）
 
-确定*y* -文本块的相对于原点形状的旋转中心的坐标。 默认公式为： 
+确定文本块的旋转中心相对于形状原点的*y*轴坐标值。 默认公式为： 
   
-= 高度\*0.5
+= 高度\* 0。5
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 TxtPinY 单元格的引用，请使用： 
   

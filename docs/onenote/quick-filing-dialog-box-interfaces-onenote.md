@@ -7,24 +7,24 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: d83e39f0-b259-4c33-8f3e-e03e94c2403d
 description: 本主题介绍可用于以编程方式自定义OneNote 2013中的快速归档对话框的接口。
-ms.openlocfilehash: d2647ed4d7b9f4487c033260eba8df1e4281c6ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dd6b28ae6cb2acb007bae26ea661facaf1f8d4be
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317094"
 ---
 # <a name="quick-filing-dialog-box-interfaces-onenote"></a>快速归档对话框框接口 (OneNote 2013)
 
 本主题介绍可用于以编程方式自定义OneNote 2013中的快速归档对话框的接口。
   
-## <a name="quick-filing-dialog-box"></a>快速归档对话框
+## <a name="quick-filing-dialog-box"></a>"快速归档" 对话框
 
 OneNote 2013中的快速归档对话框是一个可自定义的对话框，允许用户选择 OneNote 层次结构内的位置。可选位置包括笔记本、 节组、 节、 页和子页。对话框中使用的 OneNote 应用程序内部和外部应用程序通过OneNote 2013 API。图 1 显示在其默认状态的快速归档对话框。
   
 **图 1。没有自定义的快速归档对话框**
 
-![没有自定义快速归档对话框](media/ON15Con_quick_filing_dialog.jpg "没有自定义快速归档对话框")
+![无自定义的快速归档对话框](media/ON15Con_quick_filing_dialog.jpg "无自定义的快速归档对话框")
   
 在对话框中，用户可以导航要查找特定位置，或通过在文本框中键入搜索 OneNote 树状结构中的所有笔记本层次结构。可以自定义的对话框中的方面包括标题、 说明、 最近的结果列表、 复选框文本和状态、 树深度、 按钮和可选位置类型。
 
@@ -37,7 +37,7 @@ OneNote 2013中的快速归档对话框是一个可自定义的对话框，允�
   
 **属性**
 
-|**名称**|**类型**|**说明**|
+|**Name**|**Type**|**说明**|
 |:-----|:-----|:-----|
 |**Title** <br/> |string  <br/> |获取或设置对话框窗口的标题栏中显示的标题文本。  <br/> |
 |**Description** <br/> |string  <br/> |获取或设置以指示要选择的内容有关用户的文本说明。此值可以是多行文本。  <br/> |
@@ -56,9 +56,9 @@ OneNote 2013中的快速归档对话框是一个可自定义的对话框，允�
 
 |||
 |:-----|:-----|
-|**描述** <br/> |设置哪些最近的结果列表将显示在快速归档对话框中，并指示是否在列表中包括一些特殊归档位置。用户可以选择[RecentResultType](enumerations-onenote-developer-reference.md#odc_RecentResultType)枚举中的最新的结果列表。用户还可以选择以下选项添加到列表: 当前节、 当前页或未归档笔记。如果 **RecentResultType.rrtNone**处于选中状态，将不显示任何新的结果列表。 <br/> |
+|**Description** <br/> |设置哪些最近的结果列表将显示在快速归档对话框中，并指示是否在列表中包括一些特殊归档位置。用户可以选择[RecentResultType](enumerations-onenote-developer-reference.md#odc_RecentResultType)枚举中的最新的结果列表。用户还可以选择以下选项添加到列表: 当前节、 当前页或未归档笔记。如果 **RecentResultType.rrtNone**处于选中状态，将不显示任何新的结果列表。 <br/> |
 |**语法** <br/> | `HRESULT SetRecentResults (`<br/>`[in]RecentResultType recentResults,`<br/>`[in]VARIANT_BOOL fShowCurrentSection,`<br/>`[in]VARIANT_BOOL fShowCurrentPage,`<br/>`[in]VARIANT_BOOL fShowUnfiledNotes);` <br/> |
-|**参数** <br/> | _recentResults_&ndash; **RecentResultType** ，指示其最近结果列表中，如果有，应出现类型的对象。 如果 **rrtNone**处于选中状态，没有最新的结果列表将显示在对话框中。<br/><br/>  _fShowCurrentSection_&ndash; Boolean 值，该值指示是否应在当前节包括的最新的结果列表中。<br/><br/>  _fShowCurrentPage_&ndash; Boolean 值，该值指示当前页是否应包括的最新的结果列表中。<br/><br/>  _fShowUnfiledNotes_&ndash; Boolean 值，该值指示是否应在未归档的注释部分包括的最新的结果列表中。  <br/> |
+|**参数** <br/> | _recentResults_&ndash;一个**RecentResultType**类型的对象, 该对象指示应显示的最近结果列表 (如果有)。 如果 **rrtNone**处于选中状态，没有最新的结果列表将显示在对话框中。<br/><br/>  _fShowCurrentSection_&ndash;一个布尔值, 指示当前节是否应包含在最近的结果列表中。<br/><br/>  _fShowCurrentPage_&ndash;一个布尔值, 指示当前页面是否应包含在最近的结果列表中。<br/><br/>  _fShowUnfiledNotes_&ndash;一个布尔值, 该值指示是否应在最近的结果列表中包含未归档笔记部分。  <br/> |
    
 > [!NOTE]
 > [!注释] 如果无法使用任一按钮的对话框中选中的特殊归档位置，则不将其显示在列表中。如果不找到了最近的结果列表中的任何可选项，将显示没有最新的结果列表。 
@@ -81,13 +81,13 @@ OneNote 2013中的快速归档对话框是一个可自定义的对话框，允�
 
 ```
 
-**添加按钮**
+**AddButton**
 
 |||
 |:-----|:-----|
-|**说明** <br/> |允许用户添加和自定义对话框中的按钮。用户可以指定的按钮和 OneNote 层次结构的元素可选择通过每个按钮上的文本。  <br/> |
+|**Description** <br/> |允许用户添加和自定义对话框中的按钮。用户可以指定的按钮和 OneNote 层次结构的元素可选择通过每个按钮上的文本。  <br/> |
 |**语法** <br/> | `HRESULT AddButton (`<br/>`[in]BSTR bstrText,`<br/>`[in]HierarchyElement allowedElements,`<br/>`[in]HierarchyElement allowedReadOnlyElements,`<br/>`[in]VARIANT_BOOL fDefault);` <br/> |
-|**参数** <br/> | _bstrText_&ndash;按钮指定要显示的文本字符串。 要自定义的默认 **确定**按钮，将作为 **bstrText**传递中 null 值。  <br/><br/>_allowedElements_&ndash;指示哪些非只读 OneNote 层次结构元素**HierarchyElement**允许用户选择使用的按钮。 选择多个项目，用户应通过 **OR**运算符中的所有 **HierarchyElement**类型允许作为 **HierarchyElement**uint 等效值。<br/><br/>  _allowedReadOnlyElements_&ndash;指示哪些 OneNote 只读层次结构元素**HierarchyElement**允许用户选择使用的按钮。 选择多个项目，用户应通过在 **OR**运算符 **HierarchyElement**类型允许作为 **HierarchyElement**的所有 **uint** 等效值。<br/><br/>  _fDefault_&ndash; Boolean 值，该值指定此按钮是否应为默认按钮。 如果多个按钮设置为默认值，最后一个指定的按钮将成为默认按钮。  <br/> |
+|**参数** <br/> | _bstrText_&ndash;一个字符串, 指定要在按钮上显示的文本。 要自定义的默认 **确定**按钮，将作为 **bstrText**传递中 null 值。  <br/><br/>_allowedElements_&ndash;一个**HierarchyElement** , 指示允许用户通过使用按钮选择的非只读 OneNote 层次结构元素。 选择多个项目，用户应通过 **OR**运算符中的所有 **HierarchyElement**类型允许作为 **HierarchyElement**uint 等效值。<br/><br/>  _allowedReadOnlyElements_&ndash;一个**HierarchyElement** , 指示允许用户使用按钮选择的 OneNote 只读层次结构元素。 选择多个项目，用户应通过在 **OR**运算符 **HierarchyElement**类型允许作为 **HierarchyElement**的所有 **uint** 等效值。<br/><br/>  _fDefault_&ndash;一个布尔值, 该值指定此按钮是否应为默认按钮。 如果多个按钮设置为默认值，最后一个指定的按钮将成为默认按钮。  <br/> |
    
 下面的示例将三个按钮添加到快速归档对话框。第一个， **所有**，可以选择通过 OneNote 层次结构树中的所有元素。仅当选择其相应的元素，笔记本和页面，可以选择其他， **笔记本**和 **页面**。
   
@@ -119,9 +119,9 @@ OneNote 2013中的快速归档对话框是一个可自定义的对话框，允�
 
 |||
 |:-----|:-----|
-|**描述** <br/> |在新线程中的快速归档对话框中显示。计 **IQuickFilingDialogCallback**接口，关闭该对话框后，将调用其 **OnDialogClosed**方法的引用。 <br/> |
+|**Description** <br/> |在新线程中的快速归档对话框中显示。计 **IQuickFilingDialogCallback**接口，关闭该对话框后，将调用其 **OnDialogClosed**方法的引用。 <br/> |
 |**语法** <br/> | `HRESULT Run (`<br/>`[in]IQuickFilingDialogCallback piCallback);` <br/> |
-|**参数** <br/> | _piCallback_&ndash;后关闭该对话框将实例化**IQuickFilingDialogCallback**接口的引用。  <br/> |
+|**参数** <br/> | _piCallback_&ndash;对**IQuickFilingDialogCallback**接口的引用, 该引用将在对话框关闭后实例化。  <br/> |
    
 下面的示例使用 **Run**方法显示新线程中的快速归档对话框。 
   
@@ -146,7 +146,7 @@ OneNote 2013中的快速归档对话框是一个可自定义的对话框，允�
 
 |||
 |:-----|:-----|
-|**描述** <br/> |指示是否应展开或折叠的层次结构树。  <br/> |
+|**Description** <br/> |指示是否应展开或折叠的层次结构树。  <br/> |
 |**语法** <br/> | `HRESULT TreeCollapsedState(`<br/>`[in] TreeCollapsedStateType tcs);` <br/> |
 |**参数** <br/> | _tcs_ -指定是否展开或折叠树。  <br/> |
    
@@ -154,7 +154,7 @@ OneNote 2013中的快速归档对话框是一个可自定义的对话框，允�
 
 |||
 |:-----|:-----|
-|**说明** <br/> |筛选器的显示类型的笔记本的列表。  <br/> |
+|**Description** <br/> |筛选器的显示类型的笔记本的列表。  <br/> |
 |**语法** <br/> | `HRESULT NotebookFilterOut(`<br/>`[in] NotebookFilterOutType nfo);` <br/> |
 |**参数** <br/> | _nfo_ -指定一组的是要从列表中筛选的笔记本  <br/> |
    
@@ -178,7 +178,7 @@ OneNote 2013中的快速归档对话框是一个可自定义的对话框，允�
 
 |||
 |:-----|:-----|
-|**描述** <br/> |从快速归档对话框中删除所有的初始编辑器。  <br/> |
+|**Description** <br/> |从快速归档对话框中删除所有的初始编辑器。  <br/> |
 |**语法** <br/> | `HRESULT ClearInitialEditors ();` <br/> |
 |**参数** <br/> |无  <br/> |
    

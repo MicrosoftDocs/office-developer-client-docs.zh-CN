@@ -8,24 +8,24 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5db7225ea49fbdae14d7cdfcf6fe9f33dea36fa6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318975"
 ---
 # <a name="calendar"></a>日历
 
-本节收录了与 Outlook 日历文件夹相关的示例任务。
+本节提供了涉及 Outlook 日历文件夹的示例任务。
 
 ## <a name="in-this-section"></a>本节内容
 
 |主题|说明|
 |:----|:----------|
-|[共享日历中指定时间段内闲/忙日程安排](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)  |介绍了如何获取日历中指定一周内的闲/忙日程安排，并向用户显示闲、忙和主题详细信息。|
-|[通过电子邮件共享日历信息](how-to-share-calendar-information-through-e-mail.md)  |介绍了如何通过 iCalendar 格式的电子邮件共享日历信息。|
-|[显示收件人的共享日历](how-to-display-a-shared-calendar-of-a-recipient.md)  |介绍了如何使用 [CreateRecipient(String)](https://msdn.microsoft.com/library/bb609962\(v=office.15\)) 和 [GetSharedDefaultFolder(Recipient, OlDefaultFolders)](https://msdn.microsoft.com/library/bb644850\(v=office.15\)) 方法显示收件人的共享日历。|
-|[将日历保存到磁盘](how-to-save-a-calendar-to-disk.md)  |介绍了如何将整个日历以 iCalendar (.ics) 文件格式保存到磁盘。|
+|[共享日历中指定时间段内闲/忙日程安排](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)  |从日历中获取指定周内的忙/闲日程安排, 并向用户显示闲、忙和主题详细信息。|
+|[通过电子邮件共享日历信息](how-to-share-calendar-information-through-e-mail.md)  |通过 iCalendar 格式的电子邮件共享日历中的信息。|
+|[显示收件人的共享日历](how-to-display-a-shared-calendar-of-a-recipient.md)  |使用 [CreateRecipient(String)](https://msdn.microsoft.com/library/bb609962\(v=office.15\)) 和 [GetSharedDefaultFolder(Recipient, OlDefaultFolders)](https://msdn.microsoft.com/library/bb644850\(v=office.15\)) 方法显示收件人的共享日历。|
+|[将日历保存到磁盘](how-to-save-a-calendar-to-disk.md)  |以 iCalendar (.ics) 文件格式将整个日历保存到磁盘上。|
 |[打开并显示 iCalendar 文件内容](how-to-open-and-display-the-contents-of-an-icalendar-file.md)  |根据文件是包含单个或定期约会还是包含一组约会来打开和显示 iCalendar 文件的内容。|
 
 ## <a name="see-also"></a>另请参阅

@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 89f16674-ee1f-f5f9-9830-7bcc52e3a068
 description: 确定在没有本地跨线样式的绘图页上，所有连接线的跨线样式。
-ms.openlocfilehash: 96941f675b67b38a8575bd712db5ad0eb76cd50f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 066c96f659061290b825684a479432e6d71f518c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316434"
 ---
-# <a name="linejumpstyle-cell-page-layout-section"></a>LineJumpStyle 单元格（“Page Layout”部分）
+# <a name="linejumpstyle-cell-page-layout-section"></a>LineJumpStyle 单元格（“Page Layout”内容）
 
 确定在没有本地跨线样式的绘图页上，所有连接线的跨线样式。
   
 |**值**|**跨线样式**|**自动常量**|
 |:-----|:-----|:-----|
-|0  <br/> |弧形  <br/> |**visLOJumpStyleDefault** <br/> |
-|1  <br/> |弧形  <br/> |**visLOJumpStyleArc** <br/> |
-|2  <br/> |间距  <br/> |**visLOJumpStyleGap** <br/> |
-|3  <br/> |正方形  <br/> |**visLOJumpStyleSquare** <br/> |
+|0  <br/> |Arc  <br/> |**visLOJumpStyleDefault** <br/> |
+|1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
+|双面  <br/> |间隙  <br/> |**visLOJumpStyleGap** <br/> |
+|第三章  <br/> |正方形  <br/> |**visLOJumpStyleSquare** <br/> |
 |4  <br/> |双面  <br/> |**visLOJumpStyleTriangle** <br/> |
 |5  <br/> |三个面  <br/> |**visLOJumpStyle2Point** <br/> |
-|6  <br/> |四个面  <br/> |**visLOJumpStyle3Point** <br/> |
-|7  <br/> |五个面  <br/> |**visLOJumpStyle4Point** <br/> |
-|8  <br/> |六个面  <br/> |**visLOJumpStyle5Point** <br/> |
-|9  <br/> |七个面  <br/> |**visLOJumpStyle6Point** <br/> |
+|型  <br/> |四个面  <br/> |**visLOJumpStyle3Point** <br/> |
+|步  <br/> |五个面  <br/> |**visLOJumpStyle4Point** <br/> |
+|utf-8  <br/> |六个面  <br/> |**visLOJumpStyle5Point** <br/> |
+|第  <br/> |七个面  <br/> |**visLOJumpStyle6Point** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 还可以在 **“页面设置”** 对话框中的 **“布局与排列”** 选项卡（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后单击 **“布局与排列”**）上设置此单元格的值。
   

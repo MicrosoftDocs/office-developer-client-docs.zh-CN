@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 784b6218-548d-817a-caaa-cf9be6bc3d2f
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e0c8c4c6251581506c7bdd78c009bb12e8291c81
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 3ca7fdc39da8d3ee8ecf6f0f253284df10a392e5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321425"
 ---
 # <a name="imapiofflinemgradvise"></a>IMAPIOfflineMgr::Advise
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-注册接收回调脱机对象上的客户端。
+注册客户端以接收对脱机对象的回调。
   
 ```cpp
 HRESULT COfflineObj::Advise( 
@@ -39,33 +39,33 @@ HRESULT COfflineObj::Advise(
 
  _ulFlags_
   
->  [in]修改行为的标志。 支持仅值 MAPIOFFLINE_ADVISE_DEFAULT。 
+>  实时修改行为的标志。 仅支持值 MAPIOFFLINE_ADVISE_DEFAULT。 
     
  _pAdviseInfo_
   
-> [in]信息的类型回调，何时接收回调、 回调接口将呼叫者和其他详细信息。 它还包含在向客户端呼叫者发送后续的通知回调中使用 Outlook 客户端令牌。
+> 实时有关回调类型、何时接收回调、呼叫者的回调接口以及其他详细信息的信息。 它还包含 Outlook 在向客户端调用方发送后续通知回调时使用的客户端令牌。
     
  _pulAdviseToken_
   
-> [输出]随后取消回调对象返回到客户端呼叫者 advise 令牌。
+> 排除向客户端调用方返回的建议令牌, 随后取消对该对象的回调。
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 呼叫成功。
+> 调用成功。
     
 E_INVALIDARG
   
-> 已指定了无效的参数。
+> 指定的参数无效。
     
 E_NOINTERFACE
   
-> *PAdviseInfo*中指定的回调接口无效。 
+> *pAdviseInfo*中指定的回调接口无效。 
     
 ## <a name="remarks"></a>注解
 
-在打开时使用**[HrOpenOfflineObj](hropenofflineobj.md)** 脱机对象，客户端获取脱机支持**IMAPIOfflineMgr**的对象。 客户端可以检查回调对象使用**[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)** 支持的类型。 类型以及其他有关回调其想，，然后调用**IMAPIOfflineMgr::Advise**进行注册，以接收此类回调有关对象的详细信息，可以确定客户端。 
+使用**[HrOpenOfflineObj](hropenofflineobj.md)** 打开脱机对象时, 客户端将获得支持**IMAPIOfflineMgr**的脱机对象。 客户端可以使用**[IMAPIOffline:: GetCapabilities](imapioffline-getcapabilities.md)** 检查对象支持的回调的种类。 客户端可以确定它所需的回调的类型和其他详细信息, 然后调用**IMAPIOfflineMgr:: 建议**注册以接收有关对象的此类回调。 
   
 ## <a name="see-also"></a>另请参阅
 

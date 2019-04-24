@@ -12,24 +12,24 @@ api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 706c628241e519642209a271dce62d21b16938e8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dfdf1068caaab3894b1b489d53ccc8debe1b3a29
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565737"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316477"
 ---
 # <a name="rtfsync"></a>RTFSync
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-确保富文本格式 (RTF) 消息文本匹配的纯文本版本。 有必要阅读 RTF 版本之前和之后修改的 RTF 版本调用此函数。 
+确保 rtf 格式 (rtf) 邮件文本与纯文本版本相匹配。 在阅读 rtf 版本和修改 rtf 版本之后, 必须调用此函数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |RTF 感知客户端应用程序和消息存储提供程序  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |RTF 感知客户端应用程序和邮件存储提供程序  <br/> |
    
 ```cpp
 HRESULT RTFSync(
@@ -43,41 +43,41 @@ HRESULT RTFSync(
 
 _lpMessage_
   
-> [in]指向要更新的消息的指针。
+> 实时指向要更新的邮件的指针。
     
 _ulFlags_
   
-> [in]已更改的用于指示 RTF 或纯文本邮件版本标志位掩码。 可以设置以下标志：
+> 实时标记的位掩码, 用于指示邮件的 RTF 或纯文本版本已更改。 可以设置以下标志:
     
-  - RTF_SYNC_BODY_CHANGED： 已更改邮件的纯文本版本。
+  - RTF_SYNC_BODY_CHANGED: 邮件的纯文本版本已更改。
       
-  - RTF_SYNC_RTF_CHANGED： 邮件的 RTF 版本已更改。
+  - RTF_SYNC_RTF_CHANGED: 邮件的 RTF 版本已更改。
     
-  _UlFlags_参数中的所有其他位保留以供将来使用。 
+  _ulFlags_参数中的其他所有位都将保留以供将来使用。 
     
 _lpfMessageUpdated_
   
-> [输出]指向指示是否已更新的消息的变量的指针。 如果没有，则更新的消息，则返回 FALSE 否则，则为 TRUE。
+> 排除指向一个变量的指针, 该变量指示是否有更新的邮件。 如果有更新的邮件, 则为 TRUE, 否则为 FALSE。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-如果**PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) 属性缺失或为 FALSE，然后才能调用读取**RTFSync**函数的**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性，应已 RTF_SYNC_BODY_更改设置标志。 
+如果**PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) 属性缺失或为 FALSE, 则在读取**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性之前, 应使用 RTFSync 调用**RTF_SYNC_BODY_** 函数已更改的标志集。 
   
-如果**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性中未设置 STORE_RTF_OK 标志，应使用 RTF_SYNC_RTF_CHANGED 标志设置修改**PR_RTF_COMPRESSED**后调用此函数。 
+如果**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性中未设置 STORE_RTF_OK 标志, 则应在修改**PR_RTF_COMPRESSED**后设置 RTF_SYNC_RTF_CHANGED 标志来调用此函数。 
   
-如果**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 和**PR_RTF_COMPRESSED**已更改，应设置这两个 flags 调用**RTFSync**函数。 
+如果同时更改了**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 和**PR_RTF_COMPRESSED** , 则应使用这两个标志集调用**RTFSync**函数。 
   
-如果_lpfMessageUpdated_参数的值设置为 TRUE，则应为邮件调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法。 如果未调用**SaveChanges** ，消息中将不保存所做的修改。 
+如果将_lpfMessageUpdated_参数的值设置为 TRUE, 则应为邮件调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法。 如果未调用**SaveChanges** , 修改将不会保存在邮件中。 
   
-消息存储提供程序可以使用**RTFSync**保持同步的**PR_BODY**和**PR_RTF_COMPRESSED**属性。 
+邮件存储提供程序可以使用**RTFSync**保持**PR_BODY**和**PR_RTF_COMPRESSED**属性同步。 
   
-有关详细信息，请参阅[消息存储提供程序支持 RTF 的文本](supporting-rtf-text-for-message-store-providers.md)。 
+有关详细信息, 请参阅[支持邮件存储提供程序的 RTF 文本](supporting-rtf-text-for-message-store-providers.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

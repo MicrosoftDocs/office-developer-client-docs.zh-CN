@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 3b8b8d9f-33e1-45c3-b024-9afcaab8839c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f31bccb9c975bbbccb079e40526f6c16eda37474
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de6836c036c1b8c80a030a8a49009b8899267aa0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317967"
 ---
 # <a name="cbnewsrowset"></a>CbNewSRowSet
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-计算要分配给新[SRowSet](srowset.md)结构，其中包含指定由[SRow](srow.md)结构的行数的字节数。 
+计算要为包含由[SRow](srow.md)结构表示的指定数量的行的新[SRowSet](srowset.md)结构分配的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**SRowSet** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**SRowSet** <br/> |
    
 ```cpp
 CbNewSRowSet (_crow)
@@ -38,9 +38,9 @@ CbNewSRowSet (_crow)
 
 ## <a name="parameters"></a>参数
 
- __crow_
+ __鱼尾纹_
   
-> 要包含在新的**SRowSet**结构**SRow**结构指示的行数的计数。 
+> **SRow**结构的计数, 该计数器指示要包含在新**SRowSet**结构中的行数。 
     
 ## <a name="see-also"></a>另请参阅
 

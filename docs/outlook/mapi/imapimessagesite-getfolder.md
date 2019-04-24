@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 78fb610c5afc3cac4f6de84240f734e5ae196110
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 24461099877af683109c8627eacd22a657d6e156
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321383"
 ---
 # <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-如果存在此类的文件夹，则返回已创建或打开，当前邮件文件夹。 此方法中嵌入的邮件，不直接在文件夹中存储的_ppFolder_参数返回 NULL。 
+返回在其中创建或打开当前邮件的文件夹 (如果存在这样的文件夹)。 此方法在嵌入邮件的_ppFolder_参数中返回 NULL, 这些嵌入邮件不会直接存储在文件夹中。 
   
 ```cpp
 HRESULT GetFolder(
@@ -37,29 +37,29 @@ HRESULT GetFolder(
 
  _ppFolder_
   
-> [输出]指向返回文件夹指向的指针的指针。
+> 排除指向指向返回的文件夹的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 S_FALSE 
   
-> 不存在文件夹的邮件。
+> 邮件的文件夹不存在。
     
 ## <a name="remarks"></a>注解
 
-向窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFolder  <br/> |MFCMAPI 使用**IMAPIMessageSite::GetFolder**方法将当前缓存的指针返回到指定的文件夹。  <br/> |
+|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetFolder  <br/> |MFCMAPI 使用**IMAPIMessageSite:: GetFolder**方法将当前缓存的指针返回到指定的文件夹。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

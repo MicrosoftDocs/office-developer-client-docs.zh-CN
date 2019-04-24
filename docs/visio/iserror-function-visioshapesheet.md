@@ -1,5 +1,5 @@
 ---
-title: ISERROR Function (VisioShapeSheet)
+title: ISERROR 函数 (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251452
 localization_priority: Normal
 ms.assetid: 4864ebc2-fee6-2415-7c59-e0af8611f8d6
-description: 返回 TRUE 的 cellreference 值是否任何错误类型;否则，将返回 FALSE。 引用另一个单元格的公式中使用 ISERROR 函数。
-ms.openlocfilehash: c93801f5d61e45be5d178027405ead3aa129654d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 如果 cellreference 的值为任何错误类型, 则返回 TRUE; 否则返回 false。否则, 它将返回 FALSE。 ISERROR 函数在引用其他单元格的公式中使用。
+ms.openlocfilehash: a07b2345858e36dc2e4514d7e4f0f0d653491b50
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317889"
 ---
-# <a name="iserror-function-visioshapesheet"></a>ISERROR Function (VisioShapeSheet)
+# <a name="iserror-function-visioshapesheet"></a>ISERROR 函数 (VisioShapeSheet)
 
-返回 TRUE 的_cellreference_值是否任何错误类型;否则，将返回 FALSE。 引用另一个单元格的公式中使用 ISERROR 函数。 
+如果_cellreference_的值为任何错误类型, 则返回 TRUE; 否则返回 false。否则, 它将返回 FALSE。 ISERROR 函数在引用其他单元格的公式中使用。 
   
 ## <a name="syntax"></a>语法
 
@@ -28,14 +28,14 @@ ISERROR (* * *cellreference* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _cellreference_ <br/> |必需  <br/> |**字符串** <br/> |对单元格的引用。  <br/> |
+| _cellreference_ <br/> |必需  <br/> |**String** <br/> |对单元格的引用。  <br/> |
    
 ## <a name="example-1"></a>示例 1
 
 |**Cell**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
-|Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
-|Scratch.B1  <br/> |=ISERROR(Scratch.A1)  <br/> |TRUE  <br/> |
+|草稿。 A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
+|草稿 B1  <br/> |= ISERROR (的 A1)  <br/> |TRUE  <br/> |
    
 返回 TRUE，因为 ISERROR 函数可以识别 #N/A! 错误。您可以使用 ISERR 查找除 #N/A! 错误之外的所有错误类型。
   
@@ -43,8 +43,8 @@ ISERROR (* * *cellreference* * *)
 
 |**Cell**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
-|Scratch.X1  <br/> |="House"  <br/> |#VALUE!  <br/> |
-|Scratch.B1  <br/> |=ISERROR(Scratch.X1)  <br/> |TRUE  <br/> |
+|暂存. X1  <br/> |= "房子"  <br/> |#VALUE!  <br/> |
+|草稿 B1  <br/> |= ISERROR (X1)  <br/> |TRUE  <br/> |
    
 返回 TRUE，因为 ISERROR 函数可以识别 #VALUE! 错误。若要基于 #VALUE! 错误生成一个表达式，请使用 ISERRVALUE 函数。
   

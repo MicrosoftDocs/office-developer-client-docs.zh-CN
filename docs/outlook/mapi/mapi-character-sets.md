@@ -7,41 +7,41 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: fbe63916-b3eb-4ea7-bc42-80a8b0281b03
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5f7da3da8d23b28e13c39570b8f5971cb75a3310
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 898883d8c93b69762883a502b7a4313b3417d0d3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319073"
 ---
 # <a name="mapi-character-sets"></a>MAPI 字符集
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 兼容的客户端应用程序和服务提供商可以使用 ANSI 字符 （单字节） 或 Unicode 字符 （双字节）。 不支持 OEM 字符集。 OEM 字符串传递给 MAPI 方法或函数将导致该方法或函数失败。 使用 OEM 字符集中的文件名的客户端应用程序必须注意之前将它们传递给 MAPI 方法或函数将其转换为 ANSI。
+符合 MAPI 的客户端应用程序和服务提供程序可以使用 ANSI 字符 (单字节) 或 Unicode 字符 (双字节)。 OEM 字符集不受支持。 传递给 MAPI 方法或函数的 OEM 字符串将导致该方法或函数失败。 使用 OEM 字符集中的文件名的客户端应用程序必须在将它们传递给 MAPI 方法或函数之前, 将其转换为 ANSI。
   
-支持 Unicode 字符集是可选的同时为客户端和服务提供程序。 所有服务提供商应都编写自己的代码，以便他们可以编译而不考虑它们支持 Unicode。 客户端编译有条件地，具体取决于其级别的支持，但服务提供商不。 他们不应有字符集更改时重新编译。 在服务提供程序代码中为 nothing 应条件。 
+对于客户端和服务提供程序, 支持 Unicode 字符集是可选的。 所有服务提供程序都应编写自己的代码, 以便无论它们是否支持 Unicode, 都可以编译它们。 客户端根据其支持级别进行了条件编译, 但服务提供商不会这样做。 在字符集发生更改时, 不必重新编译这些设置。 服务提供程序代码中的任何内容都不应有条件。 
   
-当客户端或服务提供程序支持 Unicode 使方法调用包含字符串作为输入或输出参数，它们会设置 MAPI_UNICODE 标志。 设置此标志指示的实现的所有传入字符串是否 Unicode 字符串。 输出，设置传递的所有字符串都后从实现此标志请求应为 Unicode 字符串如果可能。 支持 Unicode 的方法实现方注释将遵守请求;不提供 Unicode 支持的方法实现方注释将不符合要求。 不在 Unicode 格式的字符串属性是类型 PT_STRING8。
+当支持 Unicode 的客户端或服务提供程序发出的方法调用包含作为输入或输出参数的字符串时, 它们将设置 MAPI_UNICODE 标志。 设置此标志指示所有传入字符串均为 Unicode 字符串的实现。 在输出时, 设置此标志将请求从实现传递回来的所有字符串都应为 Unicode 字符串 (如果可能)。 支持 Unicode 的方法实施者将符合请求;不提供 Unicode 支持的方法实施者将不符合这些要求。 不是 Unicode 格式的字符串属性的类型为 PT_STRING8。
   
-MAPI 头文件 MAPIDEFS 中定义**fMapiUnicode**常量。H 以表示默认字符集。 如果客户端或服务提供程序支持 Unicode， **fMapiUnicode**设置为 MAPI_UNICODE。 客户端和不支持 Unicode 的服务提供商设置**fMapiUnicode**为零。 
+MAPI 在头文件 mapidefs.h 中定义**fMapiUnicode**常量。H 表示默认字符集。 如果客户端或服务提供程序支持 Unicode, 则**fMapiUnicode**设置为 MAPI_UNICODE。 不支持 Unicode 的客户端和服务提供程序将**fMapiUnicode**设置为零。 
   
-服务提供程序不支持 Unicode 应：
+不支持 Unicode 的服务提供程序应执行以下操作:
   
-- 拒绝执行字符集之间的转换。
+- 拒绝在字符集之间执行转换。
     
-- 从不方法调用中传递 MAPI_UNICODE 标志。
+- 从不在方法调用中传递 MAPI_UNICODE 标志。
     
-- 当传入 MAPI_UNICODE 标志，则返回 MAPI_E_BAD_CHARWIDTH。
+- 在传入 MAPI_UNICODE 标志时返回 MAPI_E_BAD_CHARWIDTH。
     
 - 显式声明 ANSI 字符串属性。 
     
-服务提供商还可以返回 MAPI_E_BAD_CHARWIDTH 仅支持 Unicode 和客户端时不要传递 MAPI_UNICODE 标志。 
+如果服务提供程序仅支持 Unicode, 并且客户端未传递 MAPI_UNICODE 标志, 则服务提供程序也可以返回 MAPI_E_BAD_CHARWIDTH。 
   
- MAPI 的当前版本中支持 Unicode，在下列方法： 
+ 当前版本的 MAPI 在以下方法中支持 Unicode: 
   
 [IAddrBook::Address](iaddrbook-address.md)
   
@@ -51,8 +51,8 @@ MAPI 头文件 MAPIDEFS 中定义**fMapiUnicode**常量。H 以表示默认字�
   
 [IAddrBook::ResolveName](iaddrbook-resolvename.md)
   
-[IMAPIProp::GetLastError](imapiprop-getlasterror.md)（仅适用于**IAddrBook**实现） 
+[IMAPIProp:: GetLastError](imapiprop-getlasterror.md)(仅限**IAddrBook**实现) 
   
-对于这些方法，调用方可以预期任何返回的字符串为 Unicode 字符串。 从 MAPI 实现的任何其他方法返回的字符串将 ANSI 字符串。
+对于这些方法, 调用方可以预期任何返回的字符串为 Unicode 字符串。 从任何其他方法的 MAPI 实现返回的字符串将是 ANSI 字符字符串。
   
 

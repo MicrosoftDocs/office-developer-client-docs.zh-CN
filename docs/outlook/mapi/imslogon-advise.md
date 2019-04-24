@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: abe4867b965f05e781f931d2e72920474d007d78
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317309"
 ---
 # <a name="imslogonadvise"></a>IMSLogon::Advise
 
@@ -25,7 +25,7 @@ ms.locfileid: "25382755"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-使用有关邮件存储区中的更改的通知的消息存储提供程序注册的对象。 消息存储然后将对注册对象发送有关更改的通知。
+向邮件存储提供程序注册对象, 以获取有关邮件存储区中的更改的通知。 然后, 邮件存储将发送有关已注册对象的更改的通知。
   
 ```cpp
 HRESULT Advise(
@@ -41,17 +41,17 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> [in]以字节为单位_lpEntryID_参数指向的项标识符的大小。 
+> 实时由_lpEntryID_参数指向的条目标识符的大小 (以字节为单位)。 
     
  _lpEntryID_
   
-> [in]指向有关哪些应生成通知的对象的项标识符的指针。 此对象可以是一个文件夹、 一条消息或消息存储库中的任何其他对象。 此外，如果 MAPI 将_cbEntryID_参数设置为 0，并传递**null** _lpEntryID_，通知接收器提供了有关对整个邮件存储的更改的通知。
+> 实时一个指针, 指向有关应生成其通知的对象的条目标识符。 该对象可以是文件夹、邮件或邮件存储区中的任何其他对象。 或者, 如果 MAPI 将_cbEntryID_参数设置为0并为_lpEntryID_传递**null** , 则建议接收器提供有关对整个邮件存储区所做更改的通知。
     
  _ulEventMask_
   
-> [in]有关哪些 MAPI 会生成通知的对象出现通知事件的类型的事件掩码。 掩码筛选特定情况。 每个事件类型都有与之关联的结构，其中包含有关事件的其他信息。 下表列出了可能的事件类型以及它们对应的结构。
+> 实时关于 MAPI 将生成通知的对象发生的通知事件类型的事件掩码。 掩码筛选特定事例。 每个事件类型都有一个与之相关联的结构, 其中包含有关事件的其他信息。 下表列出了可能的事件类型及其对应的结构。
     
-|**通知事件类型**|**相应的结构**|
+|**通知事件类型**|**对应的结构**|
 |:-----|:-----|
 |fnevCriticalError  <br/> |[ERROR_NOTIFICATION](error_notification.md) <br/> |
 |fnevNewMail  <br/> |[NEWMAIL_NOTIFICATION](newmail_notification.md) <br/> |
@@ -65,33 +65,33 @@ HRESULT Advise(
    
  _lpAdviseSink_
   
-> [in]指向有关哪些请求通知会话对象发生事件时调用 advise 接收器对象的指针。 此 advise 接收器对象必须已经存在。
+> 实时一个指针, 指向有关已请求其通知的 session 对象发生事件时要调用的通知接收器对象。 此建议接收器对象必须已经存在。
     
  _lpulConnection_
   
-> [输出]指向的成功返回时保留通知注册的连接数变量的指针。 连接数必须非零值。
+> 排除一个指向成功返回的变量的指针, 其中包含通知注册的连接号。 连接号码必须为非零值。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 MAPI_E_NO_SUPPORT 
   
-> 通过 MAPI 或一个或多个服务提供程序不支持此操作。
+> MAPI 或一个或多个服务提供商不支持该操作。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-消息存储提供程序实现**IMSLogon::Advise**方法注册通知回调对象。 当指定对象发生更改时，提供程序检查哪些事件掩码位设置_ulEventMask_参数中，因此，发生更改的类型。 如果设置了位，提供程序由_lpAdviseSink_参数来报告事件 advise 接收器对象调用[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法。 数据传递给**OnNotify**例程通知结构中介绍的事件。 
+邮件存储提供程序实现**IMSLogon:: Advise**方法, 以注册用于通知回调的对象。 每当指定的对象发生更改时, 提供程序都会检查在_ulEventMask_参数中设置了什么事件掩码位, 因此会发生更改的类型。 如果设置了一个位, 则提供程序将调用由_lpAdviseSink_参数指示的[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法, 以报告事件。 通知结构中传递给**OnNotify**例程的数据描述了该事件。 
   
-更改该对象，该调用期间或任何更高版本时，可能会发生**OnNotify**调用。 支持多个线程的执行系统，在调用**OnNotify**可以发生任何线程上。 若要安全地处理**OnNotify**可能发生在时机的调用，客户端应用程序应使用[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)函数。 
+对**OnNotify**的调用可以在更改对象的调用过程中发生, 也可以在以后的任何时间进行。 在支持多个执行线程的系统上, 对**OnNotify**的调用可以出现在任何线程上。 若要安全地处理对可能在 inopportune 时可能发生的**OnNotify**的调用, 客户端应用程序应使用[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)函数。 
   
-若要提供通知，实现**Advise**需要保持_lpAdviseSink_指针的副本的消息存储提供程序告知接收器对象;为此，请提供程序，请调用通知接收器来维护其对象的指针，直到[IMSLogon::Unadvise](imslogon-unadvise.md)方法的调用被取消通知注册的[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法。 **Advise**实现应分配的通知注册的连接数并返回_lpulConnection_参数中之前调用此连接号码**AddRef** 。 服务提供商可以释放 advise 接收器对象之前注册被取消，但他们必须在被调用**Unadvise**之前不释放连接数。 
+若要提供通知, 实现**建议**的邮件存储提供程序需要将指针的副本保存到_lpAdviseSink_建议接收器对象;为执行此操作, 提供程序调用了通知接收器的[IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法来维护其对象指针, 直到通过调用[IMSLogon:: Unadvise](imslogon-unadvise.md)方法取消通知注册。 **建议**实现应为通知注册分配一个连接号码, 并在此连接号码上调用**AddRef** , 然后再将其返回到_lpulConnection_参数中。 服务提供程序可以在取消注册之前释放通知接收器对象, 但在调用**Unadvise**之前, 服务提供程序不能释放连接号码。 
   
-调用**Advise**已成功完成后，在调用**Unadvise**之前，必须先为 advise 接收器对象，必须释放准备提供程序。 因此，提供程序应释放其 advise 接收器对象后**Advise**返回，除非它具有特定的长期使用它。 
+在对**建议**的调用成功之后和**Unadvise**调用之前, 必须为通知接收器对象准备好提供程序来释放通知。 因此, 提供程序应在**建议**返回后释放其建议接收器对象, 除非它对其具有特定的长期使用。 
   
-有关通知过程的详细信息，请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。 
+有关通知过程的详细信息, 请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

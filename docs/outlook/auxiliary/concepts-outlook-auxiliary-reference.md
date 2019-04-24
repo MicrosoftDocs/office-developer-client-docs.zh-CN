@@ -1,22 +1,22 @@
 ---
-title: 概念 （Outlook 辅助参考 （英文）
+title: 概念 (Outlook 辅助参考)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: fa68a055-9e58-40ef-886e-4e8ebb08a2a9
-description: 本节介绍 Outlook 2013 辅助参考中的四个 Api，并提供使用这些 Api 的示例任务。
-ms.openlocfilehash: 9c62f4fe6593b0d58e5ab29305292537d289d69d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 本节介绍了 Outlook 2013 辅助参考中的四个 api, 并提供了使用这些 api 的示例任务。
+ms.openlocfilehash: c546166c42742fc54ee43eef7d006183b7c8a40e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316854"
 ---
-# <a name="concepts-outlook-auxiliary-reference"></a>概念 （Outlook 辅助参考 （英文）
+# <a name="concepts-outlook-auxiliary-reference"></a>概念 (Outlook 辅助参考)
 
-本节介绍 Outlook 2013 辅助参考中的四个 Api，并提供使用这些 Api 的示例任务。
+本节介绍了 Outlook 2013 辅助参考中的四个 api, 并提供了使用这些 api 的示例任务。
 
 - [Outlook 帐户管理](outlook-account-management.md)
     

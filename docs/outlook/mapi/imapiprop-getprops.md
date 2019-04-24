@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 1c7a9cd2-d765-4218-9aee-52df1a2aae6c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 462d42d68bddba72fd81b97e2aeb9eb5ee8c9c20
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9b03775d495f7d1f51142eb0ed06fc9ecdf6d1a3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316609"
 ---
 # <a name="imapipropgetprops"></a>IMAPIProp::GetProps
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-检索一个或多个对象的属性的属性值。
+检索对象的一个或多个属性的属性值。
   
 ```cpp
 HRESULT GetProps(
@@ -40,23 +40,23 @@ HRESULT GetProps(
 
  _lpPropTagArray_
   
-> [in]一个指向数组属性标记来标识要检索其值的属性。 _LpPropTagArray_参数必须为或者是 NULL，表明对象的所有属性的值应返回，或指向[SPropTagArray](sproptagarray.md)结构，其中包含一个或多个属性标记。 
+> 实时指向标识要检索其值的属性的属性标记数组的指针。 _lpPropTagArray_参数必须是 NULL, 指示应返回对象的所有属性的值, 或指向包含一个或多个属性标记的[SPropTagArray](sproptagarray.md)结构。 
     
  _ulFlags_
   
-> [in]位掩码的标志，指示具有 PT_UNSPECIFIED 类型的属性的格式。 可以设置以下标记：
+> 实时标志的位掩码, 指示属性类型为 PT_UNSPECIFIED 的格式。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 这些属性的字符串值应为 Unicode 格式返回。 如果未设置 MAPI_UNICODE 标志，应以 ANSI 格式返回的字符串值。
+> 这些属性的字符串值应以 Unicode 格式返回。 如果未设置 MAPI_UNICODE 标志, 则字符串值应以 ANSI 格式返回。
     
  _lpcValues_
   
-> [输出]一个指向_lppPropArray_参数指向的属性值的计数。 如果_lppPropArray_为 NULL，则_lpcValues_参数的内容为零。 
+> 排除一个指针, 指向_lppPropArray_参数指向的属性值的计数。 如果_lppPropArray_为 NULL, 则_lpcValues_参数的内容为零。 
     
  _lppPropArray_
   
-> [输出]指向检索的属性值的指针的指针。
+> 排除指向已检索的属性值的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -66,61 +66,61 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> 调用成功总体上讲，但无法访问一个或多个属性。 不可用的每个属性的属性值的**aulPropTag**成员具有 PT_ERROR 和零的标识符的属性类型。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
+> 呼叫全部成功, 但无法访问一个或多个属性。 每个不可用属性的属性值的**aulPropTag**成员的属性类型为 PT_ERROR, 标识符为零。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
 MAPI_E_INVALID_PARAMETER 
   
-> 在所指的_lpPropTagArray_ **SPropTagArray**结构的**cValues**成员传递零。
+> 在_lpPropTagArray_指向的**SPropTagArray**结构的**cValues**成员中传递了零。
     
 ## <a name="remarks"></a>注解
 
-**IMAPIProp::GetProps**方法获取对象的一个或多个属性的属性值。 
+**IMAPIProp:: GetProps**方法获取对象的一个或多个属性的属性值。 
   
-他们已请求将返回相同的顺序的属性值 （即，该属性标记数组中的属性的顺序所指的_lpPropTagArray_匹配项的属性值结构所指的_lppPropArray 数组中的顺序_). 
+属性值按其请求的顺序返回 (即, 由_lpPropTagArray_指向的属性标记数组中属性的顺序与 lppPropArray 指向的属性值结构数组中的顺序匹配)。 __). 
   
-属性标记数组的**aulPropTag**成员中指定的属性类型指示应在每个属性值结构的**值**成员中返回的值的类型。 但是，如果呼叫者不知道属性的类型，在**aulPropTag**成员类型可以改为设置到 PT_UNSPECIFIED。 在检索值， **GetProps**属性的属性值结构的**aulPropTag**成员中设置正确的类型。 
+在属性标记数组的**aulPropTag**成员中指定的属性类型指示应在每个属性值结构的**value**成员中返回的值的类型。 但是, 如果调用方不知道属性的类型, 则可以改为将**aulPropTag**成员中的类型设置为 PT_UNSPECIFIED。 在检索值时, **GetProps**会在属性的属性值结构的**aulPropTag**成员中设置正确的类型。 
   
-如果**SPropTagArray**中_lpPropTagArray_中指定属性类型中**SPropValue** _lppPropArray_中返回, 的属性值将具有完全匹配的请求的类型的类型，除非返回错误值而是。 
+如果在_lpPropTagArray_中的**SPropTagArray**中指定了属性类型, 则在_lppPropArray_中返回的**SPropValue**中的属性值的类型与请求的类型完全匹配, 除非返回错误值应当. 
   
-字符串属性可以有两种属性类型之一： PT_UNICODE 表示 Unicode 格式和 PT_STRING8 来代表 ANSI 格式。 如果 MAPI_UNICODE 标记中设置_ulFlags_参数，只要**GetProps**无法确定适当的格式为字符串属性，则它将返回其值为 Unicode 格式。 **GetProps**无法确定在下列情况下的准确字符串属性类型： 
+字符串属性可以具有以下两种属性类型之一: PT_UNICODE 表示 UNICODE 格式和 PT_STRING8 来表示 ANSI 格式。 如果在_ulFlags_参数中设置了 MAPI_UNICODE 标志, 则只要**GetProps**无法确定字符串属性的相应格式, 它将以 UNICODE 格式返回其值。 在以下情况下, **GetProps**无法确定确切的字符串属性类型: 
   
-- _LpPropTagArray_参数设置为 NULL，请求的所有属性。 
+- 将_lpPropTagArray_参数设置为 NULL 以请求所有属性。 
     
-- **AulPropTag**成员作为其属性类型属性标记数组中包含的值 PT_UNSPECIFIED。 
+- **aulPropTag**成员将值 PT_UNSPECIFIED 作为其属性类型包含在属性标记数组中。 
     
-如果_lpPropTagArray_参数设置为 NULL，若要检索所有对象的属性，并且不存在任何属性， **GetProps**执行以下任务： 
+如果将_lpPropTagArray_参数设置为 NULL 以检索对象的所有属性, 并且不存在任何属性, 则**GetProps**将执行以下操作: 
   
 - 返回 S_OK。
     
-- 将数值设置为 0 的属性值结构的**cValues**成员中。 
+- 将属性值结构的**cValues**成员中的 count 值设置为0。 
     
-- 将_lpcValues_的内容设置为 0。 
+- 将_lpcValues_的内容设置为0。 
     
 - 将_lppPropArray_设置为 NULL。 
     
- 不能**GetProps**返回**cValues**多值属性设置为 0。 
+ **GetProps**不能返回将**cValues**设置为0的多值属性。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-调用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数所指的_lpPropTagArray_; [SPropValue](spropvalue.md)结构最初分配内存调用[MAPIAllocateMore](mapiallocatemore.md)分配所需的结构的成员的任何其他内存。 
+调用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数, 以在_lpPropTagArray_指向的[SPropValue](spropvalue.md)结构中最初分配内存;调用[MAPIAllocateMore](mapiallocatemore.md)以分配结构成员所需的任何额外内存。 
   
-如果您无法检索一个或多个请求属性的值，则返回 MAPI_W_ERRORS_RETURNED。 在属性值结构中，设置为 PT_ERROR **aulPropTag**成员和描述错误状态代码**值**成员中的类型。 例如，如果已将字符串转换为 Unicode，并且不支持 Unicode，则可设置为 MAPI_E_BAD_CHARWIDTH**值**成员。 如果该属性是太大，则将其设置为 MAPI_E_NOT_ENOUGH_MEMORY。 如果对象不支持属性，则将其设置为 MAPI_E_NOT_FOUND。 
+如果无法检索一个或多个请求的属性的值, 则返回 MAPI_W_ERRORS_RETURNED。 在属性值结构中, 将**aulPropTag**成员中的 "类型" 设置为 "PT_ERROR", 并将 "**值**" 成员设置为描述错误的状态代码。 例如, 如果您必须将字符串转换为 unicode 且不支持 unicode, 请将**Value**成员设置为 MAPI_E_BAD_CHARWIDTH。 如果属性太大, 请将其设置为 MAPI_E_NOT_ENOUGH_MEMORY。 如果该对象不支持该属性, 请将其设置为 MAPI_E_NOT_FOUND。 
   
-远程传输提供程序的方法的实现， **GetProps**必须返回请求的呼叫者的属性的文件夹的属性值。 实现必须执行以下操作： 
+远程传输提供程序的**GetProps**方法的实现必须为调用方请求的属性返回文件夹的属性值。 您的实现必须执行以下操作: 
   
-- 分配属性值数组返回到呼叫者，并将其地址存储在属性值指针参数中传递为实现此目的。
+- 分配一个属性值数组以返回到调用方, 并将其地址存储在为该目的而传入的属性值指针参数中。
     
-- 将从该文件夹的属性的属性标记复制到数组传递给**GetProps**属性标记根据属性值数组中的属性标记中。
+- 根据传递给**GetProps**的属性标记数组, 将文件夹属性中的属性标记复制到属性值数组中的属性标记中。
     
-- 确保属性类型为传递给**GetProps**的所有属性标记。 呼叫者可以传递的 PT_UNSPECIFIED，案例**GetProps**必须设置该属性标记的正确的属性类型的属性类型。 
+- 确保为传递到**GetProps**的所有属性标记设置了属性类型。 调用方可以传入 PT_UNSPECIFIED 的属性类型, 在这种情况下, **GetProps**必须为该属性标记设置正确的属性类型。 
     
-- 设置属性值数组根据其标记中的每个属性的值。 例如，如果呼叫者请求的属性标记为**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))， **GetProps**可以将值设置为 MAPI_FOLDER。 
+- 根据其标记设置属性值数组中每个属性的值。 例如, 如果调用方请求的属性标记是**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)), 则**GetProps**可以将该值设置为 MAPI_FOLDER。 
     
-- 如果呼叫者通过在您的实现并不处理任何属性标记中，可以设置该属性标记为 PT_ERROR 这些属性，并将该属性值设置为 MAPI_E_NOT_FOUND。
+- 如果调用方传递到您的实现未处理的任何属性标记中, 则可以为这些属性将属性标记设置为 PT_ERROR, 并将属性值设置为 MAPI_E_NOT_FOUND。
     
-- 如果出现错误，则返回 S_OK 如果不出现任何错误或 MAPI_W_ERRORS_RETURNED。
+- 如果没有错误发生, 则返回 S_OK; 如果有错误, 则返回 MAPI_W_ERRORS_RETURNED。
     
-远程传输提供程序的方法的实现， **GetProps**必须支持最少的以下属性： 
+远程传输提供程序的**GetProps**方法实现必须至少支持以下属性: 
   
 - **PR_ACCESS**([PidTagAccess](pidtagaccess-canonical-property.md))
     
@@ -144,33 +144,33 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-对于类型 PT_OBJECT 的属性，则调用而不是**GetProps** [IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法。 
+对于类型为 PT_OBJECT 的属性, 请调用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法, 而不是**GetProps**。 
   
-对于安全属性，不希望检索其调用**GetProps**不带_lppPropTagArray_参数设置为 NULL。 调用**GetProps**时，您必须显式设置其属性标记数组的**aulPropTag**成员中安全属性的标识符。 何时以及如何安全属性是可由服务提供商。 
+对于安全属性, 不希望通过调用**GetProps**并将_lppPropTagArray_参数设置为 NULL 来检索这些属性。 调用**GetProps**时, 您必须在其属性标记数组的**aulPropTag**成员中显式设置安全属性的标识符。 安全属性可用的时间和方式由服务提供商负责。 
   
-通过**GetProps**返回 S_OK 或 MAPI_W_ERRORS_RETURNED 时，才调用[MAPIFreeBuffer](mapifreebuffer.md)函数释放返回的**SPropValue**结构。 
+仅在**GetProps**返回 S_OK 或 MAPI_W_ERRORS_RETURNED 时调用[MAPIFreeBuffer](mapifreebuffer.md)函数, 从而释放返回的**SPropValue**结构。 
   
-如果**GetProps**返回 MAPI_W_ERRORS_RETURNED，因为它无法访问一个或多个属性，则检查属性标记返回的属性。 失败的属性将具有设置其属性值结构中的以下值： 
+如果**GetProps**返回 MAPI_W_ERRORS_RETURNED, 因为它无法访问一个或多个属性, 请检查返回的属性的属性标记。 失败的属性将在其属性值结构中设置以下值: 
   
-- 在设置为 PT_ERROR **aulPropTag**成员属性类型。 
+- **aulPropTag**成员集中的属性类型设置为 PT_ERROR。 
     
-- **值**成员中的属性值设置为错误，例如 MAPI_E_NOT_FOUND 状态代码。 
+- **value**成员中的属性值设置为错误的状态代码, 如 MAPI_E_NOT_FOUND。 
     
-失败，因为它们是太大，以方便地返回属性值结构中的属性已设置为 MAPI_E_NOT_ENOUGH_MEMORY 其**值**成员。 通常，这时发生类型的字符串或二进制属性与 PT_STRING8、 PT_UNICODE 或 PT_BINARY 属性的值为 4 KB 或更大。 调用**IMAPIProp::OpenProperty**检索大型属性。 
+由于在属性值结构中太大而无法轻松地返回的属性的**value**成员设置为 MAPI_E_NOT_ENOUGH_MEMORY, 因此这些属性会失败。 通常情况下, 当属性的值为 4 KB 或更大时, PT_STRING8、PT_UNICODE 或 PT_BINARY 类型的字符串或二进制属性会发生此情况。 调用**IMAPIProp:: OpenProperty**以检索大型属性。 
   
-并非所有的**GetProps**实现支持的字符的字符串的 Unicode 和 ANSI 格式。 当特定属性需要字符串格式转换和**GetProps**无法支持它时，属性**值**成员设置为 MAPI_E_BAD_CHARWIDTH。 
+并非**GetProps**的所有实现都支持字符串的 Unicode 和 ANSI 格式。 当某个特定属性需要字符串格式转换且**GetProps**无法支持该属性时, 该属性的**值**成员将设置为 MAPI_E_BAD_CHARWIDTH。 
   
-若要检查 PST 是否 SharePoint PST，装入 PST 使用[IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)，然后调用**GetProps**上请求此属性的消息存储对象。 如果存在，您可以假定 PST 已配置的 SharePoint;如果没有，作为 SharePoint PST 尚未配置太平洋标准时间。 
+若要检查 pst 是否为 SharePoint pst, 请使用[IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md)装入 pst, 然后对请求该属性的邮件存储对象调用**GetProps** 。 如果存在, 则可以假定已为 SharePoint 配置了 PST;如果不是, 则 PST 尚未配置为 SharePoint pst。 
   
-有关如何使用**GetProps**访问属性的详细信息，请参阅[检索 MAPI 属性](retrieving-mapi-properties.md)。
+有关如何使用**GetProps**访问属性的详细信息, 请参阅[检索 MAPI 属性](retrieving-mapi-properties.md)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI 使用**IMAPIProp::GetProps**方法通过传递 NULL 或_lpPropTagArray_参数中的[IMAPIProp::GetPropList](imapiprop-getproplist.md)方法返回的数组获取对象的所有属性。  <br/> |
+|MAPIFunctions  <br/> |GetPropsNULL  <br/> |MFCMAPI 使用**IMAPIProp:: GetProps**方法获取对象的所有属性, 方法是在_GetPropList_参数中传递的[IMAPIProp:: lpPropTagArray](imapiprop-getproplist.md)方法返回的 NULL 或数组。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

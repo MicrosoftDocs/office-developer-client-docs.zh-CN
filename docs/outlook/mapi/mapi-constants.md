@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: 常量定义、MAPI 接口声明，以及 MAPI API 使用的类和接口标识符。
 ms.openlocfilehash: 343b777550d88276a1f5cad19f12ae7fc09c6244
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393731"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318919"
 ---
 # <a name="mapi-constants"></a>MAPI 常量
 

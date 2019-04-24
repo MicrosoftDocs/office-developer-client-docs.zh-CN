@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424471(v=office.15)
 ms:contentKeyID: 55119883
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 76587a72d9c77a5484d9aa9788173f9f40f57614
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Normal
+ms.openlocfilehash: 4e9840133b7cd70b72e0bedf57931dfa9e53c67b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320347"
 ---
 # <a name="execute-a-rule-on-a-local-computer"></a>在本地计算机上执行规则
 
@@ -30,7 +31,7 @@ ms.locfileid: "25405838"
 
 在下面的代码示例中，DemoOnMachineOnly 创建规则，并通过将 **Enabled** 属性设置为 **true** 来启用 [OnlyToMe](https://msdn.microsoft.com/library/bb609250\(v=office.15\)) 条件和 [Forward](https://msdn.microsoft.com/library/bb652908\(v=office.15\)) 操作。 然后，它启用 **OnLocalMachine** 条件，同时强制服务器端规则在本地执行并保存规则。 默认情况下， **Forward** 操作和 **OnlyToMe** 条件将在服务器上运行。 已启用的 **OnLocalMachine** 条件作为客户端规则运行。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

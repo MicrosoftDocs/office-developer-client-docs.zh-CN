@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d1b662e2-1516-46b2-ba94-4092d79b5a39
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 90fe316bfd11d712f02187b6a569450b747a6409
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0b861a11b6bc1d590225a0c99b20f8be38edfd2b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321579"
 ---
 # <a name="imapigetsession--iunknown"></a>IMAPIGetSession : IUnknown
 
@@ -25,19 +25,19 @@ ms.locfileid: "22587927"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供对当前的 MAPI 会话与支持对象关联的访问。 MAPI 提供程序可以查询该接口其 MAPI 支持对象。 支持对象的详细信息，请参阅[支持对象概述](support-object-overview.md)。
+提供对与支持对象相关联的当前 MAPI 会话的访问权限。 mapi 提供程序可以查询其 MAPI 支持对象的此接口。 有关支持对象的详细信息, 请参阅[支持对象概述](support-object-overview.md)。
   
 |||
 |:-----|:-----|
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |MAPI 提供程序  <br/> |
-|接口标识符：  <br/> |IID_IMAPIGetSession  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |MAPI 提供程序  <br/> |
+|接口标识符:  <br/> |IID_IMAPIGetSession  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |调用来获取当前的 MAPI 会话的指针。  <br/> |
+|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |调用以获取指向当前 MAPI 会话的指针。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

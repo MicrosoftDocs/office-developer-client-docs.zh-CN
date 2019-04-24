@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
-description: 获取枚举中的下一个指定的数量的忙/闲数据块。
-ms.openlocfilehash: ec366cf102d3c75487f9485cfae7764d68695f10
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 获取枚举中的下一个指定数量的忙/闲数据块。
+ms.openlocfilehash: f6ec49a9bac6bcf4fff67991d55c7656f6c8cce2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319591"
 ---
 # <a name="ienumfbblocknext"></a>IEnumFBBlock::Next
 
-获取枚举中的下一个指定的数量的忙/闲数据块。
+获取枚举中的下一个指定数量的忙/闲数据块。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -34,22 +34,22 @@ HRESULT Next(
 
 _celt_
   
-> [in]中*pblk*检索块的忙/闲数据。 
+> 实时*pblk*中要检索的忙/闲数据块的数量。 
     
 _pblk_
   
-> [in]一个指向忙/闲块的数组。 该数组被分配*celt*的大小。 该数组中返回的请求的忙/闲基块。 
+> 实时指向一组空闲/忙碌块的指针。 数组分配的大小为*celt* 。 在此数组中返回请求的忙/闲块。 
     
 _pcfetch_
   
-> [输出]忙/闲块中*pblk*实际返回数。 
+> 排除*pblk*中实际返回的忙/闲块的数量。 
     
 ## <a name="return-values"></a>返回值
 
 |**[HRESULT]**|**说明**|
 |:-----|:-----|
-|S_OK  <br/> |已返回块的请求的数。  <br/> |
-|S_FALSE  <br/> |不返回了块的请求的数。  <br/> |
+|S_OK  <br/> |已返回请求的块数。  <br/> |
+|S_FALSE  <br/> |尚未返回请求数量的块数。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

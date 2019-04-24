@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e6900ad7-c147-4816-93a9-5773170b115a
 description: Window和Windows接口是OneNote 2013 API 对象，使用户能够使用 OneNote 窗口。这些对象允许用户通过 OneNote windows 套枚举并修改某些窗口属性。
 ms.openlocfilehash: efc34312def588ecff54c63b3db84f8bf909352b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317031"
 ---
 # <a name="window-interfaces-onenote"></a>窗口接口 （OneNote 2013)
 
@@ -30,7 +30,7 @@ ms.locfileid: "25399947"
     
 - 停靠到桌面  任何桌面 （类似于任务栏） 的一侧显示可停靠的 OneNote 窗口。此视图可以减少桌面以适应窗口的大小。您可以将只有一个窗口停靠在任何时候，且窗口始终可见不阻止桌面。 
     
-下图显示哪些整页视图，停靠至桌面的视图，并在您的桌面上类似于简要说明。
+下图显示了完整的页面视图、停靠到桌面视图和快速备注在桌面上的外观。
   
 **OneNote 视图**
 
@@ -40,13 +40,13 @@ ms.locfileid: "25399947"
 
 本节列出的接口和成员的可用于以编程方式修改 OneNote 窗口。
   
-### <a name="windows-interface"></a>Windows 接口
+### <a name="windows-interface"></a>Windows 界面
 
 **Windows**界面允许用户访问的打开的 OneNote 窗口集。它是通过 **Application.Windows**访问的 OneNote **Application**类的属性。这将返回枚举的组的 OneNote 窗口。 
   
 **属性**
 
-|**名称**|**类型**|**说明**|
+|**Name**|**Type**|**说明**|
 |:-----|:-----|:-----|
 |**Count** <br/> |ulong  <br/> |获取 **Windows**集中 **Window**对象的数目。  <br/> |
 |**CurrentWindow** <br/> |**Window** <br/> |获取活动的 OneNote 窗口的 **Window**对象。  <br/> |
@@ -58,7 +58,7 @@ ms.locfileid: "25399947"
   
 **属性**
 
-|**名称**|**类型**|**说明**|
+|**Name**|**Type**|**说明**|
 |:-----|:-----|:-----|
 |**Active** <br/> |bool  <br/> |获取或设置一个值，指示窗口是否是活动的 OneNote 窗口。  <br/> |
 |**Application** <br/> |**Application** <br/> |获取与窗口关联的 OneNote **Application**对象。  <br/> |
@@ -79,7 +79,7 @@ ms.locfileid: "25399947"
 
 |||
 |:-----|:-----|
-|**描述** <br/> |导航到 OneNote 窗口中指定的对象。例如，您可以导航到节、 页面和页中的大纲元素。  <br/> |
+|**Description** <br/> |导航到 OneNote 窗口中指定的对象。例如，您可以导航到节、 页面和页中的大纲元素。  <br/> |
 |**语法** <br/> | `HRESULT NavigateTo(`           ` [in]BSTR bstrHierarchyObjectID, `           ` [in]BSTR bstrObjectID); ` <br/> |
 |**参数** <br/> | _bstrHierarchyObjectID_ 层次结构 OneNote 您想要导航到的对象 ID。OneNote 笔记本、 节、 节组或页上，可以引用的对象 ID。 <br/>  _bstrObjectID_ 的 OneNote ID 的特定对象以导航到 OneNote 页面中。如果用户不希望以导航到页面上的特定对象，此参数设置为 null。 <br/> |
    
@@ -87,7 +87,7 @@ ms.locfileid: "25399947"
 
 |||
 |:-----|:-----|
-|**描述** <br/> |如果传递的 OneNote 链接 （onenote: / /)，在 OneNote 中打开 OneNote 窗口到相应位置。 但是，如果链接是外部链接，如 https:// 或 file://，将出现一个安全对话框。 时开除，OneNote 尝试打开链接，并返回 HResult.hrObjectDoesNotExist 错误。  <br/> |
+|**说明** <br/> |如果传递的 OneNote 链接 （onenote: / /)，在 OneNote 中打开 OneNote 窗口到相应位置。 但是, 如果链接是外部链接 (如 https://或 file://), 则将显示一个安全对话框。 时开除，OneNote 尝试打开链接，并返回 HResult.hrObjectDoesNotExist 错误。  <br/> |
 |**语法** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
 |**参数** <br/> | _bstrUrl_ 要导航到的 URL。  <br/> |
    

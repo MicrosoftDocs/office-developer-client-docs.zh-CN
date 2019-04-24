@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6cc93fef-a6a8-9ca6-dc34-bfb9bf2926f5
-description: 此成员是一个占位符，不支持。
-ms.openlocfilehash: 9725eeedaf2605037a87cdba1b190478c2a6b5af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 此成员是占位符, 不受支持。
+ms.openlocfilehash: 7029b257fdf818b4b4d298024285d4463044d934
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319409"
 ---
 # <a name="ifreebusysupportplaceholder15"></a>IFreeBusySupport::Placeholder15
 
-此成员是一个占位符，不支持。
+此成员是占位符, 不受支持。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -28,9 +28,9 @@ HRESULT Placeholder15();
 
 ## <a name="return-values"></a>返回值
 
-始终 E_NOTIMPL，因为此成员是一个占位符，并且不受支持。
+始终 E_NOTIMPL, 因为此成员是占位符, 不受支持。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此成员必须返回 E_NOTIMPL。
   

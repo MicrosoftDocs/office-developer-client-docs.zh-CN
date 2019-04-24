@@ -1,5 +1,5 @@
 ---
-title: 表和内存使用情况
+title: 表和内存使用
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,35 +7,35 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 383c03a00509447222204ab729c56f5eeac553df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: afd69f5a3fff69f670d6be78ba4957307cdb6995
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320403"
 ---
-# <a name="tables-and-memory-usage"></a>表和内存使用情况
+# <a name="tables-and-memory-usage"></a>表和内存使用
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-与表中检索数据连接的重要问题是内存使用率。 可用内存不足可能导致[IMAPITable::QueryRows](imapitable-queryrows.md)和[HrQueryAllRows](hrqueryallrows.md)失败，返回所需的行数小于。 决定哪些方法或函数用于检索表数据取决于是否可以预期表以适合在内存中，并不能转换，如果是可接受的失败。 
+通过从表检索数据而连接的一个重要问题是内存使用率。 缺少可用内存会导致[IMAPITable:: QueryRows](imapitable-queryrows.md)和[HrQueryAllRows](hrqueryallrows.md)失败, 返回的行数小于所需的行数。 确定用于检索表数据的方法或函数取决于表是否可以在内存中使用, 如果故障是可接受的, 则是如此。 
   
-因为并非始终容易地确定将一次适合内存的数据量，MAPI 提供了客户端应用程序或服务提供商，若要遵循一些基本的原则。 请记住都始终例外，基于特定的表实现和如何存储基础数据。
+由于很难确定一次内存中适合的数据量, 因此 MAPI 提供了有关要遵循的客户端应用程序或服务提供商的一些基本准则。 请注意, 始终有一些异常, 这取决于特定的表实现以及基础数据的存储方式。
   
-以下准则可用于评估表内存使用情况：
+以下准则可用于评估表内存使用率:
   
-- 可以容忍偶尔兆字节范围中的工作集内存使用率，并可以假定它们的客户端会读取到内存整个表没有问题。 
+- 可以容忍 mb 范围内的偶尔工作集内存使用率的客户端, 并可假定它们在将整个表读取到内存中不会出现问题。 
     
-- 限制会影响的内存表的使用情况。 预计严格限制的表与广泛的行数，如内容目录，而不受限制的大型表通常不能适合内存。 
+- 限制会对表的内存使用产生影响。 具有大量行 (如内容表) 的严格受限制的表可能会在内存中显示, 而不受限制的大表通常不能装入。 
     
-- 有几个 MAPI 拥有如状态、 配置文件、 消息服务、 提供商和邮件存储表的表通常适合内存中。 这些是通常小表。 但是，有一些例外。 例如，基于服务器的配置文件提供程序可能会生成不能以适应较大的配置文件表。
+- MAPI (如状态、配置文件、邮件服务、提供程序和邮件存储表) 所拥有的几个表通常会放入内存中。 这些通常是小型表格。 不过, 也有一些例外情况。 例如, 基于服务器的配置文件提供程序可能会生成一个较大的配置文件表, 该表将无法合适。
     
-若要从将适合与没有问题的内存表中检索的所有行，调用[HrQueryAllRows](hrqueryallrows.md)，将最大行数设置为零。
+若要检索表中的所有行, 这些行将适合不出现任何问题的内存, 请调用[HrQueryAllRows](hrqueryallrows.md), 将最大行数设置为零。
   
-若要检索的所有行从一个表，可能是也可能不适合内存，生成一个错误，调用**HrQueryAllRows**指定最大行数。 最大行数应设置为数大于的最小所需的行数。 如果客户端必须访问 300 行表中至少 50 行，最大行数应设置为至少 51。 
+若要检索表中可能有也可能不符合内存的所有行, 请生成错误, 请调用**HrQueryAllRows**指定最大行数。 最大行数应设置为大于所需的最小行数的数字。 如果客户端必须从300行表访问至少50行, 则最多应将最大行数至少设置为51。 
   
-若要检索的表中不应适合内存中的所有行，调用[IMAPITable::QueryRows](imapitable-queryrows.md)循环与相对较小的行数，如下面的代码示例所示： 
+若要检索表中不符合预期内存的所有行, 请调用[IMAPITable:: QueryRows](imapitable-queryrows.md)在相对较小的行计数的循环中, 如以下代码示例所示: 
   
 ```cpp
 HRESULT     hr;
@@ -59,7 +59,7 @@ if (hr)
  
 ```
 
-此循环完成和已处理表中的所有行，并且_cRows_为零，光标位置通常会在表的底部。 
+当此循环完成且表中的所有行均已处理且_cRows_为0时, 光标的位置通常位于表的底部。 
   
 ## <a name="see-also"></a>另请参阅
 

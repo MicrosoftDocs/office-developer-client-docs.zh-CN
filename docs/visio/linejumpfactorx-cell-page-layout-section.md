@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0649672f-f496-ce80-6dc3-3affc9b6f913
 description: 确定页中水平动态连接线上跨线的大小（相对于 LineToLineX 单元格的值）。该单元格的值范围可介于 0 到 10 之间，但建议使用 0 到 1 之间的小数值。
-ms.openlocfilehash: fb6205407070485a0e234ee594e84979bca40891
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8698d99021ca64415417de8e946cbd80b586e759
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780566"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316462"
 ---
-# <a name="linejumpfactorx-cell-page-layout-section"></a>LineJumpFactorX 单元格（“Page Layout”部分）
+# <a name="linejumpfactorx-cell-page-layout-section"></a>LineJumpFactorX 单元格（“Page Layout”内容）
 
 确定页中水平动态连接线上跨线的大小（相对于 LineToLineX 单元格的值）。该单元格的值范围可介于 0 到 10 之间，但建议使用 0 到 1 之间的小数值。
   

@@ -1,5 +1,5 @@
 ---
-title: 为检查器实现包装并在每个检查器中跟踪项目级事件
+title: 为检查器实现包装器并在每个检查器中跟踪项级事件
 TOCTitle: Implement a wrapper for inspectors and track item-level events in each inspector
 ms:assetid: 8021dd2b-c36c-492b-b281-783e85140ad8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184620(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a70aedf9a8803a2c990f07a77d4fc730f7263aae
-ms.sourcegitcommit: 43cff5789e0a0a8cda11277c1a636c8b32d28cdb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30413964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320123"
 ---
 # <a name="implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector"></a>为检查器实现包装并在每个检查器中跟踪项目级事件
 

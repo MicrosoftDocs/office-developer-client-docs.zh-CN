@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f8ee2cb-1c2a-4958-b01e-2f4aab689f89
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6e8ea7230ae86dee99cc4413715055fc53afa900
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: d0d5d8fe13a3c192dc0b0a8ddc0f5f945fa16f15
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321810"
 ---
 # <a name="imapiformmgrprepareform"></a>IMAPIFormMgr::PrepareForm
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 下载用于打开的表单。
   
@@ -39,31 +39,31 @@ HRESULT PrepareForm(
 
  _ulUIParam_
   
-> [in]下载表单时显示进度指示器的父窗口句柄。 除非 MAPI_DIALOG 标志设置_ulFlags_参数中，将忽略该_ulUIParam_参数。 
+> 实时进度指示器的父窗口的句柄, 在表单下载过程中显示。 除非在_ulFlags_参数中设置了 MAPI_DIALOG 标志, 否则将忽略_ulUIParam_参数。 
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何下载窗体。 可以设置以下标记：
+> 实时用于控制如何下载表单的标志的位掩码。 可以设置以下标志:
     
 MAPI_DIALOG 
   
-> 显示用户界面，以提供状态或提示用户输入的详细信息。 如果未设置此标志，将显示没有用户界面。
+> 显示一个用户界面, 以提供状态或提示用户详细信息。 如果未设置此标志, 则不会显示任何用户界面。
     
  _pfrmiInfo_
   
-> [in]指向要下载的窗体的窗体信息对象的指针。
+> 实时指向要下载的表单的表单信息对象的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-表单查看器调用**IMAPIFormMgr::PrepareForm**方法从打开的窗体容器下载窗体。 大多数表单查看器不需要调用**PrepareForm**，因为[IMAPIFormMgr::CreateForm](imapiformmgr-createform.md)和[IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md)方法调用**PrepareForm**，如有必要。 
+表单查看者调用**IMAPIFormMgr::P repareform**方法从用于打开的表单容器下载表单。 大多数窗体查看器不需要调用**PrepareForm**, 因为[IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md)和[IMAPIFormMgr:: LoadForm](imapiformmgr-loadform.md)方法都调用**PrepareForm**(如有必要)。 
   
-您可以使用**PrepareForm**获取动态链接库 (Dll) 和修改其表单相关联的其他文件。 如果回其窗体容器加载修改窗体时，必须重新安装。 
+您可以使用**PrepareForm**获取与表单关联的动态链接库 (dll) 和其他文件, 以对其进行修改。 如果将修改的表单加载回其表单容器, 则必须重新安装它。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -1,5 +1,5 @@
 ---
-title: 实现标准表单谓词
+title: 实现标准窗体谓词
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,33 +8,33 @@ api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 46585859e1dde4ecf38262f99cac5e3a9d29e5db
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6360b86dc23a5404b818f76cb1c2cd10747ef3cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317442"
 ---
-# <a name="implementing-standard-form-verbs"></a>实现标准表单谓词
+# <a name="implementing-standard-form-verbs"></a>实现标准窗体谓词
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 定义一组标准谓词或用户选择了菜单或单击按钮时，所有表单查看器应支持时执行的操作。 每个动作具有与之关联的标识，EXCHFORM 中定义的常量。H 头文件。 下表列出的标准窗体谓词和其关联的常量：
+MAPI 定义了一组标准谓词, 或在用户做出菜单选择或单击按钮 (所有表单查看器都应支持) 时执行的操作。 每个动词都有一个与之相关联的常量, 用于标识, 在 EXCHFORM 中定义。H 头文件。 下表列出了标准窗体谓词及其关联的常量:
   
-|**谓词**|**值**|
+|**Verb**|**值**|
 |:-----|:-----|
 |打开  <br/> |EXCHIVERB_OPEN  <br/> |
-|答复  <br/> |EXCHIVERB_REPLYTOSENDER  <br/> |
+|回复  <br/> |EXCHIVERB_REPLYTOSENDER  <br/> |
 |全部答复  <br/> |EXCHIVERB_REPLYTOALL  <br/> |
 |Forward  <br/> |EXCHIVERB_FORWARD  <br/> |
-|打印  <br/> |EXCHIVERB_PRINT  <br/> |
+|Print  <br/> |EXCHIVERB_PRINT  <br/> |
 |另存为  <br/> |EXCHIVERB_SAVEAS  <br/> |
 |答复到文件夹  <br/> |EXCHIVERB_REPLYTOFOLDER  <br/> |
    
-当用户选择一个谓词时，传递窗体的[IMAPIForm::DoVerb](imapiform-doverb.md)方法执行其相应的操作将调用其常量。 
+当用户选择某个谓词时, 在对该窗体的 IMAPIForm 的调用中传递其常量[::D overb](imapiform-doverb.md)方法执行其对应的操作。 
   
-除了通过您的表单查看器中访问谓词，用户可以有时访问直接从窗体的动作。 例如，某些窗体对象允许用户通过右键单击窗体上并从上下文相关的菜单中选择**打印**调用**打印**动词。 
+除了通过表单查看器访问谓词之外, 用户有时还可以直接从窗体访问谓词。 例如, 某些表单对象允许用户通过右键单击表单并从上下文相关的菜单中选择 "**打印**" 来调用**打印**谓词。 
   
 

@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 70fbdb41-46ea-d016-25a2-37e94962095d
-description: 跳过指定的数量的忙/闲数据块。
-ms.openlocfilehash: 63f699d09e143a879702e8dc76beb8a969a77b82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 跳过指定数量的忙/闲数据块。
+ms.openlocfilehash: cf8ae18b5ed2c24a48d44d9e8d461da7d95054d2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317547"
 ---
 # <a name="ienumfbblockskip"></a>IEnumFBBlock::Skip
 
-跳过指定的数量的忙/闲数据块。
+跳过指定数量的忙/闲数据块。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -32,7 +32,7 @@ HRESULT Skip(
 
 _celt_
   
->  [in]忙/闲块，以跳过数。 
+>  实时要跳过的忙/闲块的数量。 
     
 ## <a name="return-values"></a>返回值
 

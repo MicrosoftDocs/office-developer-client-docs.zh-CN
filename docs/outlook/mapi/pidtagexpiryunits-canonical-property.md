@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f6a1ca22-cf4c-4e59-8846-6bd937fa8f6e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8e8deb67990ce25b10a3b0fc1d373f635f958013
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392296"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316406"
 ---
 # <a name="pidtagexpiryunits-canonical-property"></a>PidTagExpiryUnits 规范属性
 
@@ -25,44 +25,44 @@ ms.locfileid: "25392296"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍当**PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) 属性相乘的时间单位。
+描述**PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) 属性相乘的时间单位。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_EXPIRY_UNITS  <br/> |
-|标识符：  <br/> |0x3FEE  <br/> |
+|标识符:  <br/> |0x3FEE  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性，如果设置，必须是下列值之一：
+如果设置此属性, 则必须为下列值之一:
   
 |||
 |:-----|:-----|
-|PidTagExpiryUnits  <br/> |说明 （时间）  <br/> |
-|0x00000000  <br/> |分钟时间，例如 60 秒  <br/> |
-|0x00000001  <br/> |小时，例如 60 x 60 秒  <br/> |
-|0x00000002  <br/> |天，例如 24 x 60 x 60 秒  <br/> |
-|0x00000003  <br/> |周，例如 7x24x60x60 秒  <br/> |
+|PidTagExpiryUnits  <br/> |Description (TimeOf)  <br/> |
+|0x00000000  <br/> |分钟, 例如, 60 秒  <br/> |
+|0x00000001  <br/> |小时数, 例如60x60 秒  <br/> |
+|0x00000002  <br/> |天, 例如24x60x60 秒  <br/> |
+|0x00000003  <br/> |周, 例如7x24x60x60 秒  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的电子邮件消息对象。
+> 指定允许用于电子邮件对象的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

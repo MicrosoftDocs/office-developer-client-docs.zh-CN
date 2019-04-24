@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0aa0df2-79f9-2558-7eb6-accae9bef4b2
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 13a4cf401cf51241a52401668eef008d65aa5459
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 0b6837b51b09ecd9a60630c613e1806cb10c1d87
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321208"
 ---
 # <a name="imapiofflinesetcurrentstate"></a>IMAPIOffline::SetCurrentState
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-设置为联机或脱机脱机对象的当前状态。
+将脱机对象的当前状态设置为 "联机" 或 "脱机"。
   
 ```cpp
 HRESULT SetCurrentState( 
@@ -40,23 +40,23 @@ HRESULT SetCurrentState(
 
  _ulFlags_
   
-> [in]修改此呼叫的行为。 支持的值包括：
+> 实时修改此调用的行为。 受支持的值包括：
     
 MAPIOFFLINE_FLAG_BLOCK
   
-> 此值设置为_ulFlags_将阻止**SetCurrentState**呼叫，直至完成状态更改。 默认情况下切换异步会发生。 转换异步后发生，所有**SetCurrentState**呼叫将都返回**E_PENDING** ，直至完成更改。 
+> 将_ulFlags_设置为此值将阻止**SetCurrentState**调用, 直至状态更改完成。 默认情况下, 转换会异步进行。 当以异步方式进行转换时, 所有**SetCurrentState**调用将返回**E_PENDING** , 直到更改完成。 
     
 MAPIOFFLINE_FLAG_DEFAULT
   
-> 不阻止设置的当前状态。
+> 在不阻止的情况下设置当前状态。
     
  _ulMask_
   
-> [in]状态更改的一部分。 仅受支持的值是 MAPIOFFLINE_STATE_OFFLINE_MASK。
+> 实时要更改的状态部分。 唯一受支持的值为 MAPIOFFLINE_STATE_OFFLINE_MASK。
     
  _ulState_
   
-> [in]要更改的状态。 它必须是这两个值之一：
+> 实时要更改为的状态。 它必须是以下两个值之一:
     
 MAPIOFFLINE_STATE_ONLINE
   
@@ -66,9 +66,9 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > 
     
- _保留_
+ _保护_
   
-> 此参数仅供 Outlook 内部使用，不支持。 
+> 此参数是为 Outlook 内部使用而保留的, 不受支持。 
     
 ## <a name="return-value"></a>返回值
 
@@ -78,7 +78,7 @@ S_OK
     
 E_PENDING
   
-> 这指示正在异步更改脱机对象的状态。 在以前**SetCurrentState**调用， _ulFlags_设置为 MAPIOFFLINE_FLAG_BLOCK 和任何后续**SetCurrentState**调用异步状态更改完成之前将返回此值时，将发生这种情况。 
+> 这表示脱机对象的状态是异步更改的。 在早期**SetCurrentState**调用中将_ulFlags_设置为 MAPIOFFLINE_FLAG_BLOCK, 随后的任何**SetCurrentState**调用都将返回此值, 直到异步状态更改完成。 
     
 ## <a name="see-also"></a>另请参阅
 

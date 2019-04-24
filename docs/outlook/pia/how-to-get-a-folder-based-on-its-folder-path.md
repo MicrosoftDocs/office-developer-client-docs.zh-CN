@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fed1e7eb39f31ddd4340fc82a16e31ec67523a9d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320284"
 ---
 # <a name="get-a-folder-based-on-its-folder-path"></a>根据文件夹路径获取文件夹
 
@@ -25,7 +25,7 @@ ms.locfileid: "28708128"
 
 在下面的代码示例中，GetKeyContacts 方法使用 [GetRootFolder()](https://msdn.microsoft.com/library/bb645807\(v=office.15\)) 属性，以获取 Contacts\\Key Contacts 文件夹的文件夹路径。 然后，它将 [FolderPath](https://msdn.microsoft.com/library/bb647409\(v=office.15\)) 属性用作参数，以调用 GetFolder 方法。 如果 GetFolder 返回文件夹，系统便会显示消息，指明已找到“主要联系人”文件夹。 GetFolder 方法需要使用文件夹路径，并返回正确的 [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) 对象。 完成此操作首先需要将 **FolderPath** 属性拆分到 string 数组中，然后使用该数组从 **FolderPath** 属性的顶部开始查找正确的 **Folder** 对象。 如果找不到指定文件夹，GetFolder 返回空引用。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

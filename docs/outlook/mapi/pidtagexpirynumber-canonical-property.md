@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 644e8d3d-1792-4417-95a1-e978d0e6cd8e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: da90347f5aacdb2fcac8547eddd5b89a0a44820d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316364"
 ---
 # <a name="pidtagexpirynumber-canonical-property"></a>PidTagExpiryNumber 规范属性
 
@@ -25,36 +25,36 @@ ms.locfileid: "25385821"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义到期发送时间与**PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)) 属性一起使用。
+将到期的发送时间与**PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)) 属性一起定义。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_EXPIRY_NUMBER  <br/> |
-|标识符：  <br/> |0x3FED  <br/> |
+|标识符:  <br/> |0x3FED  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果存在必须介于 0 到 999 之间，之间设置此属性的值。
+此属性的值必须在0和 999 (含) 之间设置 (如果存在)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的电子邮件消息对象。
+> 指定允许用于电子邮件对象的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

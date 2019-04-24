@@ -7,11 +7,11 @@ ms.topic: reference
 ms.assetid: 928b8cff-c314-4502-be4f-daa44503c7f0
 localization_priority: Priority
 ms.openlocfilehash: 606f34af82a8acd3152d672c1a20fae9f70d7900
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317932"
 ---
 # <a name="functions-visio-shapesheet-reference"></a>函数（Visio ShapeSheet 引用）
 

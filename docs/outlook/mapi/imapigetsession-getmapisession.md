@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 581db5d9-35f7-43ad-aef3-a5d5da310150
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7176f3547c18ec72e4bfc0a749b3814d1e906b7b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: dbf9f9f73d9e3860b482f81fb942673e6d373267
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321551"
 ---
 # <a name="imapigetsessiongetmapisession"></a>IMAPIGetSession::GetMAPISession
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回到与 MAPI 支持对象关联的 MAPI 会话的指针。
+返回一个指针, 指向与 mapi 支持对象相关联的 mapi 会话。
   
 ```cpp
 HRESULT GetMAPISession(
@@ -37,7 +37,7 @@ HRESULT GetMAPISession(
 
  _lppSession_
   
-> [输出]一个指向当前的 MAPI 会话。
+> 排除指向当前 MAPI 会话的指针。
     
 ## <a name="see-also"></a>另请参阅
 

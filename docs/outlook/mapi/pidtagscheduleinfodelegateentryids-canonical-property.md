@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c178a4e4-6f4c-409c-9db3-f6338bd4f40f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b2adde7c5ecc75fda25b94d005fabfcd705d5d07
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321292"
 ---
 # <a name="pidtagscheduleinfodelegateentryids-canonical-property"></a>PidTagScheduleInfoDelegateEntryIds 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25401510"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含的代理人的**Entryid** 。 
+包含代理的**entryid** 。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SCHDINFO_DELEGATE_ENTRYIDS  <br/> |
-|标识符：  <br/> |0x6845  <br/> |
+|标识符:  <br/> |0x6845  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
-|区域：  <br/> |忙/闲  <br/> |
+|区域：  <br/> |闲/忙  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-每个条目都必须包含每个代理人的通讯簿条目的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性的值。 此属性必须设置委托信息对象中。
+每个条目都必须包含每个代理的通讯簿条目的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性的值。 此属性必须在 "代理信息" 对象中设置。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[毫秒-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> 指定用于连接到和它们代表另一个用户操作时，作为代理人，以及与邮件和日历的对象交互配置邮箱的方法。
+> 指定用于连接邮箱和将邮箱配置为代理的方法, 以及当邮件和日历对象代表其他用户操作时与这些对象的交互。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

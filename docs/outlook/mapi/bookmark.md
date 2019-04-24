@@ -1,5 +1,5 @@
 ---
-title: BOOKMARK
+title: 书签
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 678bdc52-3404-48b2-9154-64ce2a941555
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: be41a9916b6b231d5715cf18fe2b0d804434f2ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 069cb41ceac70a2eaaa08440e43745605890f071
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318037"
 ---
-# <a name="bookmark"></a>BOOKMARK
+# <a name="bookmark"></a>书签
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-定义书签数据记住表中的位置。 
+定义用于记住表中某个位置的书签数据。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的方法：  <br/> |[IMAPITable::CreateBookmark](imapitable-createbookmark.md)[IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关方法:  <br/> |[IMAPITable:: CreateBookmark](imapitable-createbookmark.md)[IMAPITable:: FreeBookmark](imapitable-freebookmark.md) <br/> |
    
 ```cpp
 typedef ULONG_PTR BOOKMARK;
@@ -38,7 +38,7 @@ typedef ULONG_PTR BOOKMARK;
 
 ## <a name="remarks"></a>注解
 
-MAPI 定义三个书签，列出，如下所示：
+MAPI 定义了三个书签, 如下所示:
   
 BOOKMARK_BEGINNING 
   
@@ -52,7 +52,7 @@ BOOKMARK_END
   
 > 记住表的结束位置。
     
-客户端可以创建其他书签记忆其他表的位置。 书签是仅当打开表时才有效。 客户端必须释放他们关闭关联的表之前创建的所有书签。 
+客户端可以创建其他书签来记住其他表位置。 书签仅在表打开时有效。 客户端必须释放已创建的任何书签, 然后再关闭相关联的表。 
   
 ## <a name="see-also"></a>另请参阅
 

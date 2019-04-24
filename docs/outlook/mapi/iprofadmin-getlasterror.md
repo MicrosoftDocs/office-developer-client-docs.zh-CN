@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb161d7b-ae5b-4f8e-a506-8346ac5e583d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 65bf7debcae1367ccad9e109242fd4a72839a94e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: b6964ecde3a78bd1e9ce0ae1dcab0342c5a21a03
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317085"
 ---
 # <a name="iprofadmingetlasterror"></a>IProfAdmin::GetLastError
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前面的配置文件管理对象发生的错误的信息。 
+返回一个[MAPIERROR](mapierror.md)结构, 该结构包含有关配置文件管理对象中发生的上一个错误的信息。 
   
 ```cpp
 HRESULT GetLastError(
@@ -39,41 +39,41 @@ HRESULT GetLastError(
 
  _hResult_
   
-> [in]包含上一方法调用中生成的错误值 HRESULT 数据类型。
+> 实时一个 HRESULT 数据类型, 其中包含在上一方法调用中生成的错误值。
     
  _ulFlags_
   
-> [in]返回控制的字符串类型的标志位掩码。 可以设置以下标记：
+> 实时用于控制返回的字符串类型的标志的位掩码。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 返回_lppMAPIError_参数中的[MAPIERROR](mapierror.md)结构中的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。 
+> 在_lppMAPIError_参数中返回的[MAPIERROR](mapierror.md)结构中的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。 
     
  _lppMAPIError_
   
-> [输出]指向包含错误的版本、 组件及上下文信息**MAPIERROR**结构的指针的指针。 如果不没有返回任何**MAPIERROR**结构， _lppMAPIError_参数可以设置为 NULL。 
+> 排除指向包含错误的版本、组件和上下文信息的**MAPIERROR**结构的指针的指针。 如果没有要返回的**MAPIERROR**结构, 则可以将_lppMAPIError_参数设置为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
+> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
 ## <a name="remarks"></a>注解
 
-**IProfAdmin::GetLastError**方法检索信息从配置文件管理对象方法调用返回的最后一个错误。 
+**IProfAdmin:: GetLastError**方法检索有关从配置文件管理对象的方法调用中返回的最后一个错误的信息。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-您可以使用**MAPIERROR**结构中，如果 MAPI 提供一个，由指向_lppMAPIError_参数才**GetLastError**返回 S_OK。 有时 MAPI 无法确定最后一个错误已或某种更多有关错误报告。 在此情况下，为 NULL 的指针返回_lppMAPIError_。 
+如果 MAPI 提供了**MAPIERROR**结构, 则可以使用_lppMAPIError_参数仅在**GetLastError**返回 S_OK 时指向它。 有时 MAPI 无法确定最后一个错误是什么, 或者没有更多要报告错误的内容。 在这种情况下, 将在_lppMAPIError_中返回指向 NULL 的指针。 
   
-释放所有 MAPI **MAPIERROR**结构所分配的内存，调用[MAPIFreeBuffer](mapifreebuffer.md)函数。 
+若要释放 MAPI 为**MAPIERROR**结构分配的所有内存, 请调用[MAPIFreeBuffer](mapifreebuffer.md)函数。 
   
-有关**GetLastError**方法的详细信息，请参阅[使用扩展的错误](mapi-extended-errors.md)。
+有关**GetLastError**方法的详细信息, 请参阅[使用扩展错误](mapi-extended-errors.md)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ce6b6e6c-7f22-43c2-8182-90cf6db93844
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 133a2ae3896b9aaedb502cb77516040c53584882
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f51dd1fe533d0577996e6e1be185302f2dc972fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321453"
 ---
 # <a name="imapimessagesitenewmessage"></a>IMAPIMessageSite::NewMessage
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 创建新邮件。
   
@@ -42,49 +42,49 @@ HRESULT NewMessage(
 
  _fComposeInFolder_
   
-> [in]指示哪些文件夹中邮件应组成。 如果该变量为 FALSE，将忽略该_pFolderFocus_参数和表单查看器可以撰写任何文件夹中的邮件。 如果该变量值为 TRUE 和_pFolderFocus_参数中传递 NULL，则邮件由当前文件夹中。 如果该变量为 TRUE 且非 NULL 值_pFolderFocus_中传递，邮件由由_pFolderFocus_指向的文件夹中。
+> 实时指示应在哪个文件夹中撰写邮件。 如果变量为 FALSE, 则_pFolderFocus_参数将被忽略, 并且表单查看器可以在任何文件夹中撰写邮件。 如果变量为 TRUE 且在_pFolderFocus_参数中传递 NULL, 则将在当前文件夹中撰写邮件。 如果变量为 TRUE 且在_pFolderFocus_中传递了非 NULL 值, 则邮件将由_pFolderFocus_指向的文件夹组成。
     
  _pFolderFocus_
   
-> [in]指向在其中创建新邮件文件夹的指针。
+> 实时指向在其中创建新邮件的文件夹的指针。
     
  _pPersistMessage_
   
-> [in]指向新窗体的窗体对象的指针。
+> 实时指向新窗体的 form 对象的指针。
     
  _ppMessage_
   
-> [输出]为指向新邮件的指针。
+> 排除指向新邮件的指针的指针。
     
  _ppMessageSite_
   
-> [输出]指向新邮件的邮件网站对象的指针的指针。
+> 排除指向指向新邮件的邮件网站对象的指针的指针。
     
  _ppViewContext_
   
-> [输出]指向适用于向新窗体与新邮件的传递了视图上下文的指针的指针。 如果窗体实现自己视图上下文，则可以_ppViewContext_参数中传递 NULL。 
+> 排除指向适用于通过新邮件传递到新表单的视图上下文的指针的指针。 如果表单实现其自己的视图上下文, 则可以在_ppViewContext_参数中传递 NULL。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-表单对象调用**IMAPIMessageSite::NewMessage**方法创建新邮件。 窗体使用**NewMessage**获得其视图的新邮件和关联的邮件网站。 然后，它可以修改新邮件。 
+表单对象调用**IMAPIMessageSite:: NewMessage**方法来创建新邮件。 表单使用**NewMessage**从其视图中获取新邮件和关联的邮件网站。 然后, 它可以修改新邮件。 
   
-您还可以通过传入非 NULL 值_ppViewContext_参数中获取的关联的视图上下文。 此视图上下文可直接，也可以聚合和传递给新邮件。 如果需要完整的实现，则在_ppViewContext_传递 NULL。
+您还可以通过在_ppViewContext_参数中传递一个非 NULL 值来获取关联的视图上下文。 可以直接使用此视图上下文, 也可以对其进行聚合并将其传递给新邮件。 如果需要完整的实现, 请在_ppViewContext_中传递 NULL。
   
-有关与窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::NewMessage  <br/> |MFCMAPI 使用**IMAPIMessageSite::NewMessage**方法创建一个新的邮件、 实例化新的表单查看器中，并调用**SetPersist**对表单查看器中设置邮件。 最后，该消息网站返回表单查看器。  <br/> |
+|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: NewMessage  <br/> |MFCMAPI 使用**IMAPIMessageSite:: NewMessage**方法创建新邮件, 实例化新的表单查看器, 并调用**SetPersist**以在表单查看器上设置邮件。 最后, 它将表单查看器作为邮件网站返回。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

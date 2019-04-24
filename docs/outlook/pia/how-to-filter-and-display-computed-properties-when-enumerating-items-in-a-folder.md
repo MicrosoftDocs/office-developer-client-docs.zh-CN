@@ -1,5 +1,5 @@
 ---
-title: 在枚举文件夹中的项目时筛选并显示计算属性
+title: 在枚举文件夹中的项时筛选并显示计算属性
 TOCTitle: Filter and display computed properties when enumerating items in a folder
 ms:assetid: b068e625-ff12-444d-a30d-51a3acba3043
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184632(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 946858221b649cd6189ddf44680b316554cab5de
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320333"
 ---
 # <a name="filter-and-display-computed-properties-when-enumerating-items-in-a-folder"></a>在枚举文件夹中的项目时筛选并显示计算属性
 

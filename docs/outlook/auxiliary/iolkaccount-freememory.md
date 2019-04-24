@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3b2ee5aa-7639-d86d-447e-50bda54aa3ec
-description: 释放内存分配 IOlkAccount 接口。
-ms.openlocfilehash: ce3046db29cb2cac7d7ee72a3e4e9125346a4ac4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 释放由 IOlkAccount 接口分配的内存。
+ms.openlocfilehash: a7f763ba4fc260a517f8b7df4d3791f4a8fd23b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321334"
 ---
 # <a name="iolkaccountfreememory"></a>IOlkAccount::FreeMemory
 
-释放内存分配[IOlkAccount](iolkaccount.md)接口。 
+释放由[IOlkAccount](iolkaccount.md)接口分配的内存。 
   
 ## <a name="quick-info"></a>快速信息
 
@@ -33,15 +33,15 @@ HRESULT IOlkAccount::FreeMemory (
 
 _pv_
   
-> [in]指向要释放内存的指针。
+> 实时指向要释放的内存的指针。
     
 ## <a name="return-values"></a>返回值
 
 如果该调用成功，则返回 S_OK否则为一个错误代码。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
-使用此方法以释放内存分配[IOlkAccount::GetProp](iolkaccount-getprop.md) （如果指定的帐户属性的值为二进制或字符串类型） 和[IOlkAccount::GetAccountInfo](iolkaccount-getaccountinfo.md)。
+使用此方法释放由[IOlkAccount:: GetProp](iolkaccount-getprop.md) (如果指定的帐户属性的值是二进制或字符串类型) 和[IOlkAccount:: GetAccountInfo](iolkaccount-getaccountinfo.md)分配的内存。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: f3769e83-d678-1087-fc0f-b4f156386333
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5d6b1dfcd3866b0d0e7151e9d5399e1274810d14
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: f5170ceb443dcde075440bf84d29000afe4680c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321271"
 ---
 # <a name="imapiofflinegetcurrentstate"></a>IMAPIOffline::GetCurrentState
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-获取一个脱机对象的当前联机或脱机状态。
+获取脱机对象的当前联机或脱机状态。
   
 ```cpp
 HRESULT GetCurrentState( 
@@ -37,7 +37,7 @@ HRESULT GetCurrentState(
 
  _pulState_
   
-> [输出]脱机对象的当前联机或脱机状态。 它必须是这两个值之一：
+> 排除脱机对象的当前联机或脱机状态。 它必须是以下两个值之一:
     
 MAPIOFFLINE_STATE_ONLINE
   

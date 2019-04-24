@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bbdb2dea-4f75-b73e-a98a-0031f34dff2c
 description: 返回对包含形状的指定容器的工作表引用。
-ms.openlocfilehash: 6392b4c1a2652f1a831dc585c0be0f430a5ffe0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 473d8c0b81ecc568c1d4f3a3b3a885e1ceb4e00d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779980"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318982"
 ---
 # <a name="containersheetref-function"></a>CONTAINERSHEETREF 函数
 
@@ -25,14 +25,14 @@ ms.locfileid: "19779980"
   
 ## <a name="syntax"></a>语法
 
-CONTAINERSHEETREF (* **索引** * * * *[、 类别]* * *) 
+CONTAINERSHEETREF (* * *index* * * * * *[, category]* * *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _index_ <br/> |必需  <br/> |**Integer** <br/> |从 1 开始的容器索引。有关详细信息，请参阅“注解”。  <br/> |
-| _category_ <br/> |可选  <br/> |**字符串** <br/> |容器的类别。有关详细信息，请参阅“注解”。  <br/> |
+| _index_ <br/> |必需  <br/> |**Integer** <br/> |从 1 开始的容器索引。 有关详细信息，请参阅"说明"。  <br/> |
+| _类别_ <br/> |可选  <br/> |**字符串** <br/> |容器的类别。 有关详细信息，请参阅“注解”。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
@@ -42,13 +42,13 @@ ShapeSheet 参考
 
 根据容器从前向后的 Z 顺序计算容器的索引。
   
- *类别*是可用于对形状进行分类的用户定义的字符串。 您可以在形状的 ShapeSheet User.msvShapeCategories 单元格中定义类别。 您可以通过使用分号分隔类别来定义形状的多个类别。 
+ *类别*是用户定义的字符串, 可用于对形状进行分类。 可以在形状 ShapeSheet 的 User.msvShapeCategories 单元格中定义类别。 可以通过用分号分隔类别为形状定义多个类别。 
   
 如果形状不是容器的成员，或者没有容器与指定的索引号和类别相匹配，则 CONTAINERSHEETREF 返回 #REF!。
   
 ## <a name="example"></a>示例
 
-CONTAINERSHEETREF(1)!Height 
+CONTAINERSHEETREF (1)!高度 
   
 返回容器的 Height 单元格中的值，该容器位于形状所属页面的最顶层。 
   

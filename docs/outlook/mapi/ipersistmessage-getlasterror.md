@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 32cc3a1f-1310-4788-b0f4-93c1e4940f37
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a39deb57a24b3a89ee10020a6442bcb1bca612a3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 2189a39e115236e6c2ec9de8a263ce3982d8b8e0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317162"
 ---
 # <a name="ipersistmessagegetlasterror"></a>IPersistMessage::GetLastError
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个[MAPIERROR](mapierror.md)结构，其中包含有关表单对象中前面的错误的信息。 
+返回一个[MAPIERROR](mapierror.md)结构, 该结构包含有关 form 对象中的前一个错误的信息。 
   
 ```cpp
 HRESULT GetLastError(
@@ -39,41 +39,41 @@ HRESULT GetLastError(
 
  _hResult_
   
-> [in]包含上一方法调用中生成的错误值 HRESULT 数据类型。
+> 实时一个 HRESULT 数据类型, 其中包含在上一方法调用中生成的错误值。
     
  _ulFlags_
   
-> [in]返回控制的字符串类型的标志位掩码。 可以设置以下标记：
+> 实时用于控制返回的字符串类型的标志的位掩码。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 返回_lppMAPIError_参数中的[MAPIERROR](mapierror.md)结构中的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。 
+> 在_lppMAPIError_参数中返回的[MAPIERROR](mapierror.md)结构中的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。 
     
  _lppMAPIError_
   
-> [输出]指向包含错误的版本、 组件及上下文信息**MAPIERROR**结构的指针的指针。 _LppMAPIError_参数可以设置为 NULL，如果窗体不能提供相应**MAPIERROR**结构的信息。 
+> 排除指向包含错误的版本、组件和上下文信息的**MAPIERROR**结构的指针的指针。 如果窗体无法为**MAPIERROR**结构提供适当的信息, 则可以将_lppMAPIError_参数设置为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 既设置了 MAPI_UNICODE 标志通讯簿提供程序不支持 Unicode，或未设置 MAPI_UNICODE 和通讯簿提供程序支持仅 Unicode。
+> 设置了 MAPI_UNICODE 标志, 且通讯簿提供程序不支持 unicode, 或者未设置 MAPI_UNICODE, 并且通讯簿提供程序仅支持 unicode。
     
 ## <a name="remarks"></a>注解
 
-表单对象实现**IPersistMessage::GetLastError**方法以提供有关失败的前一个方法调用的信息。 窗体查看者可以通过在对话框中包含的数据从[MAPIERROR](mapierror.md)结构为其用户提供有关错误的详细信息。 
+Form 对象实现**IPersistMessage:: GetLastError**方法, 以提供有关失败的上一个方法调用的信息。 通过在对话框中包含[MAPIERROR](mapierror.md)结构中的数据, 表单查看者可以向其用户提供有关错误的详细信息。 
   
-调用**GetLastError**不会影响表单的状态。 **GetLastError**返回时，窗体将保持之前拨打电话的状态。 
+对**GetLastError**的调用不会影响窗体的状态。 当返回**GetLastError**时, 窗体将保持在进行调用之前的状态。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-如果表单提供一个指向_lppMAPIError_参数**时出错**，则返回 S_OK 时，才可以使用**MAPIERROR**结构。 有时表单无法确定最后一个错误已或某种更多有关错误报告。 在此情况下，窗体返回一个指针为 NULL 中_lppMAPIError_相反。 
+如果窗体提供了**MAPIERROR**结构, 则只有当**GetLastError**返回 S_OK 时, 才能使用_lppMAPIError_参数所指向的结构。 有时, 窗体无法确定最后一个错误是什么, 或者对错误报告没有更多的信息。 在这种情况下, 表单将在_lppMAPIError_中返回指向 NULL 的指针。 
   
-有关**GetLastError**方法的详细信息，请参阅[MAPI 扩展错误](mapi-extended-errors.md)。
+有关**GetLastError**方法的详细信息, 请参阅[MAPI 扩展错误](mapi-extended-errors.md)。
   
 ## <a name="see-also"></a>另请参阅
 

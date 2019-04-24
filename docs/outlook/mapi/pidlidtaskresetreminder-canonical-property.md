@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f6da69ff-a913-4a65-bb07-8ad3c5685e5e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9a438fb2b1862d44905a63fda3e5f68b7878cd99
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316616"
 ---
 # <a name="pidlidtaskresetreminder-canonical-property"></a>PidLidTaskResetReminder 规范属性
 
@@ -25,41 +25,41 @@ ms.locfileid: "25384953"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示以后的定期任务实例是否需要提醒，即使**dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) 为 FALSE。
+指示未来的周期性任务实例是否需要提醒, 即使**dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) 为 FALSE 也是如此。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskResetReminder  <br/> |
-|属性进行设置：  <br/> |PSETID_Task  <br/> |
-|长 ID （盖）：  <br/> |0x00008107  <br/> |
+|属性集:  <br/> |PSETID_Task  <br/> |
+|长 ID (盖子):  <br/> |0x00008107  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |Task  <br/> |
+|区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-任务的提醒消除，并且否则设置为 FALSE 时，此值设置为 TRUE。 如果保留未设置，则假定默认值为 FALSE。
+当任务的提醒被消除时, 此值设置为 TRUE, 否则设置为 FALSE。 如果未设置, 则假定默认值为 FALSE。
   
-如指定[[MS OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)， **dispidReminderSet**属性指示是否将提醒设置任务。 但是，此属性仅指示一项任务的提醒的状态。 不能使用它来确定定期任务的未来实例是否需要提醒。 
+如[[OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)中所指定的那样, **dispidReminderSet**属性指示是否在任务上设置提醒。 但是, 此属性仅指示是否存在针对单个任务的提醒。 不能单独使用它来确定未来的定期任务实例是否需要提醒。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义模型的任务、 任务分配和任务更新电子等效项的多个对象。
+> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。
     
-[[MS OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[毫秒-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> 指定属性和电子邮件和其他对象提醒的交互模型。
+> 指定用于电子邮件和其他对象提醒的属性和交互模型。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

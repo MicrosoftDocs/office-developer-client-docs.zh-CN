@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5417853dbb1fa87d2beead2f73ca57329e17b044
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f089fa2c608fb9fcb7deba2e061c5cf5886aa02f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316567"
 ---
 # <a name="imapipropgetproplist"></a>IMAPIProp::GetPropList
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 返回所有属性的属性标记。 
   
@@ -38,15 +38,15 @@ HRESULT GetPropList(
 
  _ulFlags_
   
-> [in]位掩码的标志的控件中返回的属性标记的字符串的格式。 可以设置以下标记：
+> 实时标志的位掩码, 用于控制返回的属性标记中的字符串的格式。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。
+> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
     
  _lppPropTagArray_
   
-> [输出]指向包含对象的属性的所有标记属性标记数组的指针的指针。
+> 排除指向包含对象所有属性的标记的属性标记数组的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -56,31 +56,31 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
+> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
 ## <a name="remarks"></a>注解
 
-**IMAPIProp::GetPropList**方法检索当前对象支持的每个属性的属性标记。 如果对象当前不支持任何属性， **GetPropList**将返回与设置为 0 的**cValues**成员属性标记数组。 
+**IMAPIProp:: GetPropList**方法检索对象当前支持的每个属性的属性标记。 如果该对象当前不支持任何属性, 则**GetPropList**将返回**cValues**成员设置为0的属性标记数组。 
   
-返回由**GetPropList**属性的范围而有所不同商的。 某些服务提供商不包括呼叫者不具有访问这些属性。 所有提供程序返回类型**PT_OBJECT**的属性。
+**GetPropList**返回的属性范围因提供程序而异。 某些服务提供程序排除了呼叫者无权访问的那些属性。 所有提供程序都返回**PT_OBJECT**类型的属性。
   
-如果对象不支持 Unicode， **GetPropList**将返回 MAPI_E_BAD_CHARWIDTH，即使没有为对象定义的字符串属性。 
+如果该对象不支持 Unicode, **GetPropList**将返回 MAPI_E_BAD_CHARWIDTH, 即使没有为该对象定义任何字符串属性也是如此。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-远程传输提供程序就完全等同于指定此处实现**GetPropList** 。 没有任何特殊的问题。 您的实现应，当然，返回相同的属性所支持的[IMAPIProp::GetProps](imapiprop-getprops.md)方法的列表。 
+远程传输提供程序完全按照此处指定的方式实现**GetPropList** 。 没有特殊的顾虑。 当然, 您的实现应返回与[IMAPIProp:: GetProps](imapiprop-getprops.md)方法支持的相同的属性列表。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-调用[MAPIFreeBuffer](mapifreebuffer.md)函数以释放所指的_lppPropTagArray_属性标记数组。 
+调用[MAPIFreeBuffer](mapifreebuffer.md)函数以释放_lppPropTagArray_指向的属性标记数组。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI 使用**IMAPIProp::GetPropList**方法来获取要传递给**GetProps**属性列表。  <br/> |
+|MAPIFunctions  <br/> |GetPropsNULL  <br/> |MFCMAPI 使用**IMAPIProp:: GetPropList**方法获取要传递给**GetProps**的属性列表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

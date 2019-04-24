@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 5ca500c3-c737-45a5-b0fc-473b75c1d68d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3e758acfa1cf0c11be666dd730d9bf589d2e9d77
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7e445646477ad1fc56b41141b541358d9b9f9616
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321689"
 ---
 # <a name="imapiformmgrloadform"></a>IMAPIFormMgr::LoadForm
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-启动打开现有邮件窗体。
+启动窗体以打开现有邮件。
   
 ```cpp
 HRESULT LoadForm(
@@ -47,87 +47,87 @@ HRESULT LoadForm(
 
  _ulUIParam_
   
-> [in]打开表单时显示进度指示器的父窗口句柄。 除非 MAPI_DIALOG 标志设置_ulFlags_参数中，将忽略该_ulUIParam_参数。 
+> 实时进度指示器的父窗口的句柄, 在打开窗体时显示。 除非在_ulFlags_参数中设置了 MAPI_DIALOG 标志, 否则将忽略_ulUIParam_参数。 
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何打开表单。 可以设置以下标志：
+> 实时用于控制表单打开方式的标志的位掩码。 可以设置以下标志:
     
 MAPI_DIALOG 
   
-> 显示用户界面，以提供状态或提示用户输入的详细信息。 如果未设置此标志，将显示没有用户界面。
+> 显示一个用户界面, 以提供状态或提示用户详细信息。 如果未设置此标志, 则不会显示任何用户界面。
     
 MAPIFORM_EXACTMATCH 
   
-> 应解决仅邮件类的字符串完全匹配。
+> 应解析完全匹配的邮件类字符串。
     
  _lpszMessageClass_
   
-> [in]一个指向命名要加载的邮件的邮件类的字符串。 如果_lpszMessageClass_参数中传递 NULL，则邮件类由_pmsg_参数指向的邮件。 
+> 实时指向一个字符串的指针, 该字符串命名要加载的邮件的邮件类。 如果在_lpszMessageClass_参数中传递 NULL, 则邮件类由_pmsg_参数所指向的邮件确定。 
     
  _ulMessageStatus_
   
-> [in]复制邮件的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性中的客户端或提供程序定义标志的位掩码，提供有关状态的消息的信息。 如果_lpszMessageClass_为非空; 必须设置_ulMessageStatus_参数否则，将忽略_ulMessageStatus_ 。 
+> 实时从邮件的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性中复制的客户端定义或提供程序定义的标志的位掩码, 它提供有关邮件状态的信息。 如果_lpszMessageClass_为非 NULL, 则必须设置_ulMessageStatus_参数;否则, _ulMessageStatus_将被忽略。 
     
  _ulMessageFlags_
   
-> [in]一个指向标志指示邮件的当前状态的消息的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性从复制的位掩码。 如果_lpszMessageClass_为非空; 必须设置_ulMessageFlags_参数否则，将忽略_ulMessageFlags_ 。 
+> 实时指向从消息的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性复制的标志位掩码的指针, 该消息指示邮件的当前状态。 如果_lpszMessageClass_为非 NULL, 则必须设置_ulMessageFlags_参数;否则, _ulMessageFlags_将被忽略。 
     
  _pFolderFocus_
   
-> [in]一个指向直接包含邮件的文件夹。 _PFolderFocus_参数可以是 NULL，如果这样的文件夹不存在 （例如，如果邮件嵌入到另一条消息）。 
+> 实时指向直接包含邮件的文件夹的指针。 如果不存在这样的文件夹 (例如, 如果邮件嵌入在另一封邮件中), _pFolderFocus_参数可以为 NULL。 
     
  _pMessageSite_
   
-> [in]一个指向邮件的邮件网站。
+> 实时指向邮件的邮件网站的指针。
     
  _pmsg_
   
-> [in]指向邮件的指针。
+> 实时指向邮件的指针。
     
  _pViewContext_
   
-> [in]一个指向视图上下文的邮件。 _PViewContext_参数可以是 NULL。 
+> 实时指向邮件的视图上下文的指针。 _pViewContext_参数可以为 NULL。 
     
  _riid_
   
-> [in]用于返回的 form 对象的接口接口标识符 (IID)。 _Riid_参数不能为 NULL。 
+> 实时要用于返回的 form 对象的接口的接口标识符 (IID)。 _riid_参数不得为 NULL。 
     
  _ppvObj_
   
-> [输出]指向返回的接口的指针的指针。
+> 排除指向指向返回的接口的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 MAPI_E_NO_INTERFACE 
   
-> 窗体不支持所请求的接口。
+> 表单不支持所请求的界面。
     
 MAPI_E_NOT_FOUND 
   
-> _LpszMessageClass_中传递的邮件类不匹配的邮件类的窗体库中的任何表单。 
+> _lpszMessageClass_中传递的邮件类与表单库中任何表单的邮件类都不匹配。 
     
 ## <a name="remarks"></a>注解
 
-表单查看器调用**IMAPIFormMgr::LoadForm**方法打开现有邮件窗体。 **LoadForm**打开 form 对象，将邮件加载到窗体对象、 设置适当的视图上下文，如有必要，并返回窗体对象的请求的接口。 
+表单查看者调用**IMAPIFormMgr:: LoadForm**方法打开现有邮件的表单。 **LoadForm**打开 form 对象, 将邮件加载到 form 对象中, 并设置适当的视图上下文 (如有必要), 并返回窗体对象所请求的接口。 
   
-_PFolderFocus_参数指向包含邮件的文件夹。 邮件嵌入到另一条消息中，如果_pFolderFocus_应为 NULL。 
+_pFolderFocus_参数指向包含邮件的文件夹。 如果邮件嵌入在另一封邮件中, 则_pFolderFocus_应为 NULL。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-实现消息的**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))、 **PR_MSG_STATUS**和**PR_MESSAGE_FLAGS 如果_lpszMessageClass_中传递 NULL，则获取消息的邮件类、 状态和标志**属性。 如果_lpszMessageClass_中提供的邮件类字符串，则实现必须使用_ulMessageStatus_和_ulMessageFlags_中的值。
+如果在_lpszMessageClass_中传递 NULL, 则实现将从邮件的**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))、 **PR_MSG_STATUS**和 PR_MESSAGE_FLAGS 中获取邮件的邮件类、状态和标志。 **** 属性。 如果在_lpszMessageClass_中提供了邮件类字符串, 则该实现必须使用_ulMessageStatus_和_ulMessageFlags_中的值。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI 使用**IMAPIFormMgr::LoadForm**方法显示之前加载窗体。  <br/> |
+|MAPIFormFunctions  <br/> |OpenMessageNonModal  <br/> |MFCMAPI 使用**IMAPIFormMgr:: LoadForm**方法在显示窗体之前加载它。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

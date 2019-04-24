@@ -1,25 +1,25 @@
 ---
-title: 编码条目 ID 和附件 ID 的算法
+title: 用于对条目 id 和附件 id 进行编码的算法
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b9ae6679-99b7-6509-74d4-12aa13d54928
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4d3ca89ea7d3d72f625d38e37494e253b05b1569
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 6c39fe513be122f265fdc316629a3e64a156fdc1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318177"
 ---
-# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>编码条目 ID 和附件 ID 的算法
+# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>用于对条目 id 和附件 id 进行编码的算法
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-存储提供程序可以发送一部分的 MAPI 统一资源定位器 (URL) 的条目 ID 和附件 ID 到 MAPI 协议处理程序，以确定已准备好进行索引的对象。 存储提供程序将条目 ID 和附件 ID 编码为 Unicode 字符串。 本主题演示生成的条目 ID 或附件 id。 紧凑形式表示的算法
+存储提供程序可以作为 mapi 统一资源定位器 (URL) 的一部分发送到 mapi 协议处理程序的条目 id 和附件 ID, 以标识已准备好编制索引的对象。 存储提供程序将条目 id 和附件 ID 编码为 Unicode 字符串。 本主题显示了一个算法, 该算法可生成条目 id 或附件 ID 的精简表示形式。
   
 ```cpp
 const WORD kwBaseOffset = 0xAC00;  // Hangul char range (AC00-D7AF) 
@@ -56,7 +56,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 
 
 
-[关于基于通知的存储区索引](about-notification-based-store-indexing.md)
+[关于基于通知的存储索引](about-notification-based-store-indexing.md)
   
-[关于基于通知的索引的 MAPI URL](about-mapi-urls-for-notification-based-indexing.md)
+[关于基于通知的索引的 MAPI url](about-mapi-urls-for-notification-based-indexing.md)
 

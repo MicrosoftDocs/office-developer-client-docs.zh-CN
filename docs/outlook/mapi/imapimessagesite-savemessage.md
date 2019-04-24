@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 94c44952-d297-4705-9778-90373dfa5ad6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9fa7c7226c4ddb5acf5c6b73f55c46829d959eef
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 938eaa6c1a39d24157d5d690c42b435af6192cb6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321418"
 ---
 # <a name="imapimessagesitesavemessage"></a>IMAPIMessageSite::SaveMessage
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-保存当前消息的请求。
+请求保存当前邮件。
   
 ```cpp
 HRESULT SaveMessage( void );
@@ -39,21 +39,21 @@ HRESULT SaveMessage( void );
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。 
+> 调用成功, 并返回了所需的值或值。 
     
 ## <a name="remarks"></a>注解
 
-窗体调用**IMAPIMessageSite::SaveMessage**方法以请求邮件被保存。 
+表单调用**IMAPIMessageSite:: SaveMessage**方法以请求保存邮件。 
   
-有关与窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI 使用**IMAPIMessageSite::SaveMessage**方法保存邮件。  <br/> |
+|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: SaveMessage  <br/> |MFCMAPI 使用**IMAPIMessageSite:: SaveMessage**方法保存邮件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -12,46 +12,46 @@ api_type:
 - COM
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b4eaf424bd22f5cb7f40778d81a18cca0ef1dcc1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fbe6dc9364ee953661d574b70bcd225abcfe7a81
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321649"
 ---
 # <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-启用表单查看器获取有关的信息和激活窗体服务器。 
+使表单查看者能够获取和激活表单服务器的相关信息。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiform.h  <br/> |
-|由公开：  <br/> |窗体管理器对象  <br/> |
-|通过实现：  <br/> |窗体库提供程序  <br/> |
-|调用：  <br/> |表单查看器  <br/> |
-|接口标识符：  <br/> |IID_IMAPIFormMgr  <br/> |
-|指针类型：  <br/> |LPMAPIFORMMGR  <br/> |
+|标头文件：  <br/> |Mapiform  <br/> |
+|公开者:  <br/> |表单管理器对象  <br/> |
+|实现者：  <br/> |表单库提供程序  <br/> |
+|调用者：  <br/> |表单查看器  <br/> |
+|接口标识符:  <br/> |IID_IMAPIFormMgr  <br/> |
+|指针类型:  <br/> |LPMAPIFORMMGR  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[LoadForm](imapiformmgr-loadform.md) <br/> |启动打开现有邮件窗体。  <br/> |
-|[ResolveMessageClass](imapiformmgr-resolvemessageclass.md) <br/> |将邮件类解析为其表单中的窗体容器中，并返回该窗体的窗体信息对象。  <br/> |
-|[ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md) <br/> |将一组的邮件类解析为其的窗体中的窗体容器中，并返回这些表单的信息对象的窗体的数组。  <br/> |
-|[CalcFormPropSet](imapiformmgr-calcformpropset.md) <br/> |返回一个数组的一组表单使用的属性。  <br/> |
-|[CreateForm](imapiformmgr-createform.md) <br/> |启动表单创建新邮件基于窗体的邮件类别。  <br/> |
-|[SelectForm](imapiformmgr-selectform.md) <br/> |显示一个对话框，允许用户选择一个窗体，并返回描述该窗体的窗体信息对象。  <br/> |
-|[SelectMultipleForms](imapiformmgr-selectmultipleforms.md) <br/> |显示一个对话框，使用户能够选择多个表单，并返回介绍这些表单的信息对象的窗体的数组。  <br/> |
-|[SelectFormContainer](imapiformmgr-selectformcontainer.md) <br/> |显示一个对话框，使用户能够选择窗体容器，并返回对 container 对象选定的用户界面。  <br/> |
-|[OpenFormContainer](imapiformmgr-openformcontainer.md) <br/> |打开特定窗体容器[IMAPIFormContainer](imapiformcontaineriunknown.md)界面。  <br/> |
+|[LoadForm](imapiformmgr-loadform.md) <br/> |启动窗体以打开现有邮件。  <br/> |
+|[ResolveMessageClass](imapiformmgr-resolvemessageclass.md) <br/> |将邮件类别解析为表单容器中的窗体, 并返回该窗体的窗体信息对象。  <br/> |
+|[ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md) <br/> |将一组消息类解析为表单容器中的表单, 并返回这些表单的表单信息对象的数组。  <br/> |
+|[CalcFormPropSet](imapiformmgr-calcformpropset.md) <br/> |返回一组窗体使用的属性的数组。  <br/> |
+|[CreateForm](imapiformmgr-createform.md) <br/> |启动窗体以根据窗体的邮件类创建新邮件。  <br/> |
+|[SelectForm](imapiformmgr-selectform.md) <br/> |显示一个对话框, 使用户能够选择窗体, 并返回描述该窗体的窗体信息对象。  <br/> |
+|[SelectMultipleForms](imapiformmgr-selectmultipleforms.md) <br/> |显示一个对话框, 允许用户选择多个窗体, 并返回描述这些窗体的窗体信息对象的数组。  <br/> |
+|[SelectFormContainer](imapiformmgr-selectformcontainer.md) <br/> |显示一个对话框, 使用户可以选择表单容器, 并为用户选定的容器对象返回一个接口。  <br/> |
+|[OpenFormContainer](imapiformmgr-openformcontainer.md) <br/> |打开特定表单容器的[IMAPIFormContainer](imapiformcontaineriunknown.md)接口。  <br/> |
 |[PrepareForm](imapiformmgr-prepareform.md) <br/> |下载用于打开的表单。  <br/> |
-|[IsInConflict](imapiformmgr-isinconflict.md) <br/> |确定窗体是否可以处理其自己的邮件冲突。  <br/> |
-|[时出错](imapiformmgr-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前面对窗体管理器对象发生的错误的信息。  <br/> |
+|[IsInConflict](imapiformmgr-isinconflict.md) <br/> |确定表单是否可以处理自己的邮件冲突。  <br/> |
+|[GetLastError](imapiformmgr-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构, 该结构包含上一个错误发生于表单管理器对象的相关信息。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

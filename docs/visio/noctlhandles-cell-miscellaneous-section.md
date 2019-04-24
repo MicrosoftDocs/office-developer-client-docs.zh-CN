@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 4345b3e5-f522-e300-307c-4f8992a3ddce
 description: 切换选中形状的控制手柄的显示状态 - 显示或不显示。
-ms.openlocfilehash: 897e4cd97eeab8797f2652285ba395603c41a8e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cbe4d6a8b6fdd4b66acf064884d20999ff7e3b4f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319801"
 ---
-# <a name="noctlhandles-cell-miscellaneous-section"></a>NoCtlHandles 单元格（“Miscellaneous”部分）
+# <a name="noctlhandles-cell-miscellaneous-section"></a>NoCtlHandles 单元格（“Miscellaneous”内容）
 
 切换选中形状的控制手柄的显示状态 - 显示或不显示。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 选中形状后不显示控制手柄。  <br/> |
 | FALSE  <br/> | 选中形状后显示控制手柄。  <br/> |

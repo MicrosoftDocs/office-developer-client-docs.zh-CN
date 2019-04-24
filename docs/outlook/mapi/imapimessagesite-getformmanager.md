@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: d48bd537-c562-4deb-8a4c-011208991054
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5e3a2224daace9be7f4504a693806ccb3cf4abbe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2d4100d9bcd1b086747d742d9636c4bf7a39f50b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570490"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321368"
 ---
 # <a name="imapimessagesitegetformmanager"></a>IMAPIMessageSite::GetFormManager
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个窗体管理器接口，窗体服务器可用于打开窗体的另一台服务器。
+返回一个表单管理器接口, 表单服务器可以使用该接口打开另一个表单服务器。
   
 ```cpp
 HRESULT GetFormManager(
@@ -37,25 +37,25 @@ HRESULT GetFormManager(
 
  _ppFormMgr_
   
-> [输出]指向返回窗体管理器接口的指针的指针。
+> 排除指向指向返回的表单管理器接口的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-有关与窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFormManager  <br/> |MFCMAPI 使用**IMAPIMessageSite::GetFormManager**方法调用[MAPIOpenFormMgr](mapiopenformmgr.md)并返回该调用的结果。  <br/> |
+|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetFormManager  <br/> |MFCMAPI 使用**IMAPIMessageSite:: GetFormManager**方法调用[MAPIOpenFormMgr](mapiopenformmgr.md) , 并返回该调用的结果。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

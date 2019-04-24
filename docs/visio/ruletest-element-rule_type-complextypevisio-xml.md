@@ -1,5 +1,5 @@
 ---
-title: RuleTest 元素 （Rule_Type 复杂类型） (Visio XML)
+title: RuleTest 元素 (Rule_Type 复杂类型) ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,13 +8,13 @@ localization_priority: Normal
 ms.assetid: 0cb95b34-3ce0-07a5-5d57-8ac9b0570b9a
 description: 指定确定目标对象是否满足有效性规则的逻辑表达式。
 ms.openlocfilehash: 8fd37040bec383ab61edfa62a09bb766ed8cd3c5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384848"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319080"
 ---
-# <a name="ruletest-element-ruletype-complextype-visio-xml"></a>RuleTest 元素 （Rule_Type 复杂类型） (Visio XML)
+# <a name="ruletest-element-ruletype-complextype-visio-xml"></a>RuleTest 元素 (Rule_Type 复杂类型) ("Visio XML")
 
 指定确定目标对象是否满足有效性规则的逻辑表达式。
   
@@ -24,8 +24,8 @@ ms.locfileid: "25384848"
 |:-----|:-----|
 |**元素类型** <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
-|**文档部件** <br/> |validation.xml  <br/> |
+|**架构文件** <br/> |VisioSchema15  <br/> |
+|**文档部件** <br/> |验证 .xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,7 +36,7 @@ ms.locfileid: "25384848"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
   
 ### <a name="parent-elements"></a>父元素
 
@@ -50,8 +50,8 @@ ms.locfileid: "25384848"
   
 ### <a name="attributes"></a>属性
 
-|**属性**|**类型**|**必需**|**说明**|**可能的值**|
+|**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|公式  <br/> |xsd: string  <br/> |可选  <br/> |代表元素的公式。  <br/> |Xsd: string 的值。  <br/> |
+|Formula  <br/> |xsd: string  <br/> |可选  <br/> |代表元素的公式。  <br/> |xsd: 字符串的值。  <br/> |
    
 

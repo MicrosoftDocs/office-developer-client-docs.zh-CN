@@ -12,41 +12,41 @@ api_type:
 - COM
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ce0e109aad52bfc4d7f4f55abfe1001d76276f64
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 172cbf9478d3206742df61d211051594e69ab173
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321775"
 ---
 # <a name="imapiform--iunknown"></a>IMAPIForm : IUnknown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-启用表单查看器处理窗体视图上下文和窗体通知，来执行窗体动词和关闭窗体。
+使表单查看者能够使用表单视图上下文和表单通知, 执行表单谓词和关闭表单。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiform.h  <br/> |
-|由公开：  <br/> |窗体对象  <br/> |
-|通过实现：  <br/> |表单服务器  <br/> |
-|调用：  <br/> |表单查看器  <br/> |
-|接口标识符：  <br/> |IID_IMAPIForm  <br/> |
-|指针类型：  <br/> |LPMAPIFORM  <br/> |
+|标头文件：  <br/> |Mapiform  <br/> |
+|公开者:  <br/> |表单对象  <br/> |
+|实现者：  <br/> |表单服务器  <br/> |
+|调用者：  <br/> |表单查看器  <br/> |
+|接口标识符:  <br/> |IID_IMAPIForm  <br/> |
+|指针类型:  <br/> |LPMAPIFORM  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[SetViewContext](imapiform-setviewcontext.md) <br/> |建立窗体视图上下文。  <br/> |
-|[GetViewContext](imapiform-getviewcontext.md) <br/> |返回表单的当前视图上下文。  <br/> |
+|[SetViewContext](imapiform-setviewcontext.md) <br/> |建立窗体的视图上下文。  <br/> |
+|[GetViewContext](imapiform-getviewcontext.md) <br/> |返回窗体的当前视图上下文。  <br/> |
 |[ShutdownForm](imapiform-shutdownform.md) <br/> |关闭表单。  <br/> |
-|[DoVerb](imapiform-doverb.md) <br/> |请求窗体执行任何任务它将与特定动词。  <br/> |
-|[建议](imapiform-advise.md) <br/> |注册的窗体查看有关影响窗体的事件通知。  <br/> |
-|[取消通知](imapiform-unadvise.md) <br/> |使用窗体查看器通过调用**Advise**以前建立取消通知注册。  <br/> |
-|[时出错](imapiform-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前面的 form 对象发生的错误的信息。  <br/> |
+|[DoVerb](imapiform-doverb.md) <br/> |请求表单执行与特定谓词相关联的任何任务。  <br/> |
+|[她们](imapiform-advise.md) <br/> |注册表单查看器, 以获取有关影响表单的事件的通知。  <br/> |
+|[Unadvise](imapiform-unadvise.md) <br/> |取消之前通过调用**Advise**建立的表单查看器对通知的注册。  <br/> |
+|[GetLastError](imapiform-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构, 该结构包含上一个错误发生于表单对象的相关信息。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

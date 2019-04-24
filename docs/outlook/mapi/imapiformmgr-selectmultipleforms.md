@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 172f8f53-b837-4286-9236-3f72806d7f1f
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b974b733c24e61cb256ac0cf7b377d5630966fdf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: c40d853c49645638c2ec4001d86e64a1b2d2e381
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579289"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321593"
 ---
 # <a name="imapiformmgrselectmultipleforms"></a>IMAPIFormMgr::SelectMultipleForms
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-显示一个对话框，使用户能够选择多个表单，并返回介绍这些表单的信息对象的窗体的数组。
+显示一个对话框, 允许用户选择多个窗体, 并返回描述这些窗体的窗体信息对象的数组。
   
 ```cpp
 HRESULT SelectMultipleForms(
@@ -42,53 +42,53 @@ HRESULT SelectMultipleForms(
 
  _ulUIParam_
   
-> [in]显示的对话框中的父窗口句柄。 
+> 实时显示的对话框的父窗口的句柄。 
     
  _ulFlags_
   
-> [in]位掩码的标志的控制传入的字符串的类型。 可以设置以下标记：
+> 实时标志的位掩码, 用于控制传入的字符串的类型。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 传入的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。
+> 传入的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
     
  _pszTitle_
   
-> [in]一个指向一个字符串，包含对话框的标题。 如果_pszTitle_参数为 NULL，提供窗体的窗体库提供程序提供的默认标题。 
+> 实时指向包含对话框标题的字符串的指针。 如果_pszTitle_参数为 NULL, 则提供表单的表单库提供程序提供默认标题。 
     
  _pfld_
   
-> [in]指向文件夹从中选择窗体的指针。 如果_pfld_参数为 NULL，则从本地、 个人，或组织窗体容器中选择窗体。 
+> 实时指向要从中选择表单的文件夹的指针。 如果_pfld_参数为 NULL, 则从 "本地"、"个人" 或 "组织" 表单容器中选择表单。 
     
  _pfrminfoarray_
   
-> [in]一个指向未预先选择用户的窗体信息对象的数组。
+> 实时一个指针, 指向为用户预选的表单信息对象的数组。
     
  _ppfrminfoarray_
   
-> [输出]指向到窗体信息对象返回的数组的指针的指针。
+> 排除指向指向表单信息对象的返回数组的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功，并返回预期的值。
+> 调用成功, 并返回了所需的一个或一些值。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
+> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
 MAPI_E_USER_CANCEL 
   
-> 用户取消操作，通常通过单击对话框中的**取消**按钮。 
+> 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
 ## <a name="remarks"></a>注解
 
-表单查看器调用**IMAPIFormMgr::SelectMultipleForms**方法到第一个存在一个对话框，使用户能够选择多个窗体，然后检索数组表单信息的对象的描述所选的形式。 **SelectMultipleForms**对话框中显示所有窗体，它们处于隐藏状态 （也就是说，不管其隐藏的属性清除)。 
+表单查看者调用**IMAPIFormMgr:: SelectMultipleForms**方法, 首先显示一个对话框, 使用户可以选择多个表单, 然后检索描述所选表单的表单信息对象的数组。 " **SelectMultipleForms** " 对话框将显示所有窗体, 无论它们是否隐藏 (即, 无论其隐藏属性是否清楚)。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果表单查看器_ulFlags_参数中传递 MAPI_UNICODE 标志，所有字符串都是在 Unicode。 如果传递 MAPI_UNICODE，窗体库提供程序不支持 Unicode 字符串应返回 MAPI_E_BAD_CHARWIDTH。 
+如果表单查看器在_ulFlags_参数中传递 MAPI_UNICODE 标志, 则所有字符串均为 UNICODE。 如果 MAPI_UNICODE 已传递, 则不支持 Unicode 字符串的表单库提供程序应返回 MAPI_E_BAD_CHARWIDTH。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd4646d2-8229-499d-91aa-3cbec72b9445
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 5024c2f8b88b54051e4b8400f4b3f14374b10c23
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317127"
 ---
 # <a name="ipersistmessageload"></a>IPersistMessage::Load
 
@@ -25,7 +25,7 @@ ms.locfileid: "25395936"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-加载指定的消息的窗体。
+为指定的邮件加载窗体。
   
 ```cpp
 HRESULT Load(
@@ -40,47 +40,47 @@ HRESULT Load(
 
  _pMessageSite_
   
-> [in]指向要加载窗体的邮件网站的指针。
+> 实时指向要加载的表单的邮件网站的指针。
     
  _pMessage_
   
-> [in]一个指向应为其加载窗体的邮件。
+> 实时指向应为其加载表单的邮件的指针。
     
  _ulMessageStatus_
   
-> [in]客户端或提供程序定义的标志，复制邮件的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性中的位掩码，提供有关邮件的状态信息。
+> 实时客户端定义或提供程序定义的标志的位掩码, 从邮件的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性中进行复制, 这些标志提供有关邮件状态的信息。
     
  _ulMessageFlags_
   
-> [in]标志，复制邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性中的位掩码的进一步提供有关邮件的状态信息。
+> 实时从邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性中复制的标志的位掩码, 可提供有关邮件状态的进一步信息。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功加载窗体。
+> 表单已成功加载。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-表单查看器调用**IPersistMessage::Load**方法以加载的现有邮件窗体。 
+表单查看者调用**IPersistMessage:: load**方法以加载现有邮件的表单。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
- 仅当表单处于以下状态之一时调用**负载**： 
+ 仅当窗体处于以下状态之一时, 才会调用**Load** : 
   
-- [未初始化](uninitialized-state.md)
+- [即](uninitialized-state.md)
     
 - [HandsOffAfterSave](handsoffaftersave-state.md)
     
 - [HandsOffFromNormal](handsofffromnormal-state.md)
     
-如果表单查看器调用**负载**在窗体中任何其他状态时，该方法将返回 E_UNEXPECTED。 
+如果表单查看器在窗体处于任何其他状态时调用**Load** , 则该方法返回 E_UNEXPECTED。 
   
-如果窗体有一个引用传递到**负载**以外的活动邮件网站，释放原始网站，因为不再使用它。 存储从_pMessageSite_和_pMessage_参数的消息网站和消息的指针和调用这两个对象的[IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法，以增加其引用计数。 
+如果您的表单具有对传递给**负载**的活动邮件网站的引用, 请释放原始网站, 因为它将不再使用。 将指针存储到邮件网站和来自_pMessageSite_和_pMessage_参数的消息, 并调用两个对象的[IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法以增加其引用计数。 
   
-**AddRef**完成后，存储到表单的_ulMessageStatus_和_ulMessageFlags_参数中的属性。 显示之前, 转换为其[普通](normal-state.md)状态窗体，并通过调用其[IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md)方法通知注册的查看器。 
+完成**AddRef**后, 将_ulMessageStatus_和_ulMessageFlags_参数中的属性存储到窗体中。 在显示窗体之前将其转换为[正常](normal-state.md)状态, 并通过调用其[IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md)方法来通知注册的查看者。 
   
-如果没有错误，则返回 S_OK。 
+如果没有出现任何错误, 则返回 S_OK。 
   
 ## <a name="see-also"></a>另请参阅
 
@@ -93,7 +93,7 @@ S_OK
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[Uninitialized 状态](uninitialized-state.md)
+[未初始化状态](uninitialized-state.md)
   
 [HandsOffAfterSave 状态](handsoffaftersave-state.md)
   
@@ -102,9 +102,9 @@ S_OK
 [表单状态](form-states.md)
 
 
-[IPersistStorage::Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
+[IPersistStorage:: Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
   
-[IPersistStream::Load](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
+[IPersistStream:: Load](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
   
-[IPersistFile::Load](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
+[IPersistFile:: Load](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
 

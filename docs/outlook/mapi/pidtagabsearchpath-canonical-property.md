@@ -12,41 +12,41 @@ api_type:
 - HeaderDef
 ms.assetid: dfb7ce1b-8e2f-4360-a7d3-876ff5163c34
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e489d5ccef9dcec9cdad08c068276e69fdf09566
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e74c3fe337ef60ab2e6ff9811270c7b605dd676
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316490"
 ---
 # <a name="pidtagabsearchpath-canonical-property"></a>PidTagAbSearchPath 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含要搜索来解析名称的通讯簿容器的项标识符的列表。 
+包含要搜索以解析名称的通讯簿容器的条目标识符列表。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_AB_SEARCH_PATH  <br/> |
-|标识符：  <br/> |0x3D05  <br/> |
+|标识符:  <br/> |0x3D05  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
 ## <a name="remarks"></a>注解
 
-不要使用此属性。 它是通过 MAPI 供使用。
+不要使用此属性。 它保留供 MAPI 使用。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

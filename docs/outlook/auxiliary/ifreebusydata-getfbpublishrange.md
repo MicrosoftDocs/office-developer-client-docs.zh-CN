@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a8bbe0c-17d1-9349-4c63-f257faf4edda
-description: 获取一个预设的时间范围的忙/闲信息的用户数据块枚举。
-ms.openlocfilehash: 2a322a43da38a0b902789f4c83baaabd769154c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 获取用户的忙/闲数据块枚举的预设时间范围。
+ms.openlocfilehash: 26951ea6a885f8d0e5e6a2fb5bcf9a63069c7f44
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317526"
 ---
 # <a name="ifreebusydatagetfbpublishrange"></a>IFreeBusyData::GetFBPublishRange
 
-获取一个预设的时间范围的忙/闲信息的用户数据块枚举。
+获取用户的忙/闲数据块枚举的预设时间范围。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -34,21 +34,21 @@ HRESULT GetFBPublishRange(
 
 _prtmStart_
   
-> [输出]忙/闲信息的开始相对时间值。 此值是自 1601 年 1 月 1 日以来的分钟数。
+> 排除忙/闲信息开始的相对时间值。 此值是自1601年1月1日以来的分钟数。
     
 _prtmEnd_
   
-> [输出]忙/闲信息的末尾相对时间值。 此值是自 1601 年 1 月 1 日以来的分钟数。
+> 排除忙/闲信息结束的相对时间值。 此值是自1601年1月1日以来的分钟数。
     
 ## <a name="return-values"></a>返回值
 
 如果该调用成功，则返回 S_OK否则为一个错误代码。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
-忙/闲信息的提供程序调用[IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)或[IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md)设置枚举的时间范围。 如果尚未调用[IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)或[IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) ，必须 00:00:00Z 1601 年 4 月 1 日和年 8 月 31 日 4500 11:59:59Z 之间设置**prtmStart**和**prtmEnd**的默认值分别。 此外，您不应设置为大于结束时间的开始时间。 
+忙/闲提供程序调用[IFreeBusyData:: EnumBlocks](ifreebusydata-enumblocks.md)或[IFreeBusyData:: SetFBRange](ifreebusydata-setfbrange.md)设置枚举的时间范围。 如果尚未调用[IFreeBusyData:: EnumBlocks](ifreebusydata-enumblocks.md)或[IFreeBusyData:: SetFBRange](ifreebusydata-setfbrange.md) , **prtmStart**和**prtmEnd**的默认值必须设置介于 1601 00:00: 00Z 和8月31日 4500 11:59: 59Z 之间的默认值。分别. 此外, 不应将开始时间设置为大于结束时间。 
   
-**IFreeBusyData::GetFBPublishRange**必须返回**IFreeBusyData::EnumBlocks**或**IFreeBusyData::SetFBRange**最近呼叫的时间范围的缓存的值设置。 
+**IFreeBusyData:: GetFBPublishRange**必须为**IFreeBusyData:: EnumBlocks**或**IFreeBusyData:: SetFBRange**的最近一次调用设置的时间范围返回缓存值。 
   
 ## <a name="see-also"></a>另请参阅
 

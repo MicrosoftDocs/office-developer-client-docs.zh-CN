@@ -7,26 +7,26 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4d01ab2e-40fd-409d-a69d-163b7d5462ca
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d13af3a2d0293641fd87d1065bceedfa4b62a3b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 1cd87b92a9d289f06e466f4e44ce757c93074336
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316826"
 ---
 # <a name="deleting-a-profile"></a>删除配置文件
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
  **删除配置文件**
   
-- 调用[IProfAdmin::DeleteProfile](iprofadmin-deleteprofile.md)。
+- 调用[IProfAdmin::D eleteprofile](iprofadmin-deleteprofile.md)。
     
- **DeleteProfile**标记为删除的配置文件，如果当前正在使用它，等待它不再处于活动状态，以将其删除。 配置文件没有实际消失之前每个客户端与活动会话已断开。 
+ 如果要删除的配置文件当前正在使用, 则**DeleteProfile**会将其标记为删除, 等待它不再处于活动状态以将其删除。 只有在具有活动会话的每个客户端断开连接后, 配置文件才会实际消失。 
   
- **DeleteProfile** _ulContext_参数设置为 MSG_SERVICE_DELETE 配置文件中调用每种消息服务的入口点函数。 对入口点函数的调用发生之前从配置文件已从物理上隔离到服务。 
+ **DeleteProfile**调用配置文件中的每个邮件服务的入口点函数, 并将_ulContext_参数设置为 MSG_SERVICE_DELETE。 对入口点函数的调用在从配置文件中实际删除服务之前发生。 
   
 

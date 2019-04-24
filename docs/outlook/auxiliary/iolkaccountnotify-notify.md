@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dbce1c47-1252-ddeb-64ae-d52118e6821f
-description: 通知客户端到指定的帐户的更改。
-ms.openlocfilehash: ea4cab8cb8571cf5f34637c08935c78c657e5503
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 通知客户端对指定帐户所做的更改。
+ms.openlocfilehash: 269d8a8bd605c9d8a0a4057e87895522d8587ee9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321964"
 ---
 # <a name="iolkaccountnotifynotify"></a>IOlkAccountNotify::Notify
 
-通知客户端到指定的帐户的更改。
+通知客户端对指定帐户所做的更改。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -35,7 +35,7 @@ HRESULT IOlkAccount::Notify(
 
 _dwNotify_
   
-> [in]通知的类型。 该值必须为以下项之一：
+> 实时通知的类型。 值必须为以下值之一：
     
    - NOTIFY_ACCT_CHANGED 
     
@@ -49,11 +49,11 @@ _dwNotify_
     
  _dwAcctID_
   
-> [in]已创建，更改的帐户的帐户 ID 删除，或者前删除。
+> 实时已创建、更改、删除或预删除的帐户的帐户 ID。
     
  _dwFlags_
   
->  [in]不使用。 OLK_ACCOUNT_NO_FLAGS 是唯一受支持的值。 
+>  实时不使用。 OLK_ACCOUNT_NO_FLAGS 是唯一受支持的值。 
     
 ## <a name="return-values"></a>返回值
 

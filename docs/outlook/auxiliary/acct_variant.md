@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4664df83-cf81-36d4-189d-4a09be371638
-description: 此数据类型变量包含的一个属性，它是 variant 数据类型的值。
-ms.openlocfilehash: c85af4bd4fefffb4fadf671bb7cf5b7f072d5e95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 此数据类型的变量包含一个 variant 数据类型的属性值。
+ms.openlocfilehash: 124cfaef40e63d60e2e9c6681884bfb57a043dde
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316917"
 ---
 # <a name="acctvariant"></a>ACCT_VARIANT
 
-此数据类型变量包含的一个属性，它是 variant 数据类型的值。
+此数据类型的变量包含一个 variant 数据类型的属性值。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -34,11 +34,11 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
 _dwType_
   
-> Variant 类型：
+> 变量类型:
     
     - PT_LONG
     
@@ -46,16 +46,16 @@ _dwType_
     
     - PT_BINARY
     
-_数据仓库_
+_仓库_
   
-> Variant 的 DWORD 值。
+> variant 的 DWORD 值。
     
 _pwsz_
   
-> Variant 类型的值的字符串值。
+> variant 的字符串值。
     
-_回收站_
+_区间_
   
-> 二进制值的 variant。
+> 变量的二进制值。
     
 

@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: acb6f6807f956ee6d468d3fcefc2cdd27732ab9b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726405"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320319"
 ---
 # <a name="filter-and-display-multivalued-properties-when-enumerating-items-in-a-folder"></a>在枚举文件夹中的项时筛选并显示多值属性
 
@@ -60,7 +60,7 @@ ms.locfileid: "28726405"
 
 下面的代码示例阐释如何将 MAPI 字符串命名空间属性添加到 **Table** 对象，以及多值属性如何影响 [Column](https://msdn.microsoft.com/library/bb609646\(v=office.15\)) 对象中返回的值。 TableMultiValuedProperties 过程从 **Table** 对象中筛选出 [Categories](https://msdn.microsoft.com/library/bb646607\(v=office.15\)) 属性不是空引用的行。 **Categories** 属性由使用 MAPI 字符串命名空间的属性表示。 DAV 搜索和定位 (DASL) 筛选器是针对具有类别的项目而构造的（实际筛选器返回不具有 null 引用的类别）。 然后，通过连接类型说明符 0000001f 和 categoriesProperty 常量，将 **Categories** 列添加到 **Table** 对象中。 表示 **Categories** 属性的 **Column** 对象最后会包含一个一维字符串数组，其中数组的每个元素都表示一个分配给相应项目的类别。 项的 **Categories** 和 **Subject** 属性均被写入 [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx) 集合的跟踪侦听器中。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

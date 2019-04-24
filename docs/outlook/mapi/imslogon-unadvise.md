@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 440d61c4-b69a-4010-a22b-0c9c5c376fbc
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 9172d4956e78ac31cd15d69e70d05c127a474ca5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317274"
 ---
 # <a name="imslogonunadvise"></a>IMSLogon::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "25387631"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-删除以前使用调用[IMSLogon::Advise](imslogon-advise.md)方法建立的邮件存储更改的通知的对象的注册。 
+使用对[IMSLogon:: Advise](imslogon-advise.md)方法的调用, 删除以前建立的邮件存储区更改通知的对象注册。 
   
 ```cpp
 HRESULT Unadvise(
@@ -37,17 +37,17 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> [in]通过调用**IMSLogon::Advise**返回注册连接数。
+> 实时通过调用**IMSLogon:: 建议**返回的注册连接的号码。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-消息存储提供程序实现发行版中**IMSLogon::Advise**，从而取消通知到以前的呼叫在_lpAdviseSink_参数中传递 advise 接收器对象的指针的**IMSLogon::Unadvise**方法注册。 作为放弃 advise 接收器对象的指针的一部分，调用对象的[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法。 通常，调用**Release** **Unadvise**呼叫过程中。 但是，如果 advise 接收器对象调用[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法处于另一个线程，直至**OnNotify**方法返回延迟**释放**调用。 
+邮件存储提供程序实现**IMSLogon:: Unadvise**方法, 以释放指向在上一次调用**IMSLogon:: 建议**的_lpAdviseSink_参数中传递的通知接收器对象的指针, 从而取消通知注册. 在舍弃指向通知接收器对象的指针的过程中, 将调用对象的[IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法。 通常情况下, 在**Unadvise**调用过程中调用**Release** 。 但是, 如果另一个线程在调用[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法的建议接收器对象的过程中, 则**释放**调用将延迟到**OnNotify**方法返回为止。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c5dfb21f-b35e-4521-bf2b-e3d03d98d75d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 235efce341e1870f0c33917f1c6d42b021727308
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321341"
 ---
 # <a name="pidtagruleuserflags-canonical-property"></a>PidTagRuleUserFlags 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25392723"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-此属性由客户端使用的客户端设置。 
+此属性由客户端设置, 以供客户端独占使用。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RULE_USER_FLAGS  <br/> |
-|标识符：  <br/> |0x6678  <br/> |
+|标识符:  <br/> |0x6678  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果它已设置由客户端，服务器必须保留此属性的值。 服务器必须规则评估和处理过程中忽略它。
+如果客户端设置了此属性的值, 则服务器必须保留该属性的值。 在规则评估和处理过程中, 服务器必须忽略它。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[毫秒-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> 处理传入的电子邮件服务器上。
+> 在服务器上操纵传入电子邮件。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

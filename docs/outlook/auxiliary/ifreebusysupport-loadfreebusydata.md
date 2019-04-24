@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f0baa310-7a53-07ee-0a7d-33dd1fb465c2
-description: 返回，为每个指定的用户，用于枚举忙/闲时间范围内的数据块的接口。
-ms.openlocfilehash: 9af5a40da9f0a831de7346b44cee9ca004c02300
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 对于每个指定的用户, 返回一个用于枚举某个时间范围内的忙/闲数据块的接口。
+ms.openlocfilehash: e55f902117a20bfefaa5d9a2f3a067cb78ec86cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319402"
 ---
 # <a name="ifreebusysupportloadfreebusydata"></a>IFreeBusySupport::LoadFreeBusyData
 
-返回，为每个指定的用户，用于枚举忙/闲时间范围内的数据块的接口。 
+对于每个指定的用户, 返回一个用于枚举某个时间范围内的忙/闲数据块的接口。 
   
 ## <a name="quick-info"></a>快速信息
 
@@ -36,26 +36,26 @@ HRESULT LoadFreeBusyData(
 
 _cMax_
   
-> [in][IFreeBusyData](ifreebusydata.md)接口返回数。 
+> 实时要返回的[IFreeBusyData](ifreebusydata.md)接口的数目。 
     
 _rgfbuser_
   
-> [in]忙/闲信息的用户来检索数据的数组。
+> 实时要为其检索数据的忙/闲用户数组。
     
 _prgfbdata_
   
-> [in][输出]**IFreeBusyData**接口对应的[FBUser](fbuser.md)结构_rgfbuser_数组的数组。 
+> 实时排除与[FBUser](fbuser.md)结构的_rgfbuser_数组相对应的**IFreeBusyData**接口的数组。 
     
    > [!NOTE]
-   > 此数组指针是呼叫者分配并释放呼叫者。 当呼叫者完成与他们发布指向的实际接口。 
+   > 此指针数组由呼叫者分配并由呼叫者释放。 当调用方完成时, 指向的实际接口将释放。 
   
 _phrStatus_
   
-> [输出]用于检索每个相应**IFreeBusyData**接口的**HRESULT**结果的数组。 值可能是 NULL。 结果设置为 S_OK 相应_prgfbdata_是否有效。 
+> 排除用于检索每个相应的**IFreeBusyData**接口的**HRESULT**结果的数组。 值可以为 NULL。 如果相应的_prgfbdata_有效, 则将结果设置为 S_OK。 
     
 _pcRead_
   
->  [输出]实际已为其找到**IFreeBusyData**接口的用户数。 
+>  排除已找到其**IFreeBusyData**接口的实际用户数。 
     
 ## <a name="return-values"></a>返回值
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33bef4ea-d6c0-4455-b95d-4b29edb9c0bc
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b16730681b5414f28ae45be7195b4fa551bf0e82
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 4c296b12d2dc98c4ff8d94349298e9dda0fb9409
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316597"
 ---
 # <a name="imapisupportmodifyprofile"></a>IMAPISupport::ModifyProfile
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-对做的更改一条消息存储永久的配置文件部分。
+对邮件存储库配置文件部分进行永久性更改。
   
 ```cpp
 HRESULT ModifyProfile(
@@ -37,25 +37,25 @@ ULONG ulFlags
 
  _ulFlags_
   
-> [in]存储一个位掩码的标志，指示邮件的类型。 可以设置以下标记：
+> 实时指示邮件存储类型的标志的位掩码。 可以设置以下标志:
     
 MDB_TEMPORARY 
   
-> 消息存储库是临时，不应添加到消息存储表。 当设置 MDB_TEMPORARY 时， **ModifyProfile**立即返回 S_OK。 
+> 邮件存储区是临时的, 不应添加到邮件存储库表中。 如果设置了 MDB_TEMPORARY, 则**ModifyProfile**将立即返回 S_OK。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 对配置文件部分的更改都是成功的。
+> 对配置文件部分所做的更改已成功。
     
 ## <a name="remarks"></a>注解
 
-消息存储提供程序支持对象的实现**IMAPISupport::ModifyProfile**方法。 消息存储提供程序调用**ModifyProfile**提示 MAPI 修改其配置文件信息。 
+为邮件存储提供程序支持对象实现了**IMAPISupport:: ModifyProfile**方法。 邮件存储提供程序调用**ModifyProfile**以提示 MAPI 修改其配置文件信息。 
   
- **ModifyProfile**添加到已安装的消息存储提供程序资源的列表的呼叫提供程序相关联的配置文件部分。 此时会列出在消息存储表中，可供客户端通过[IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md)方法，并打开，也不显示的对话框中的消息存储。 
+ **ModifyProfile**将与调用提供程序关联的配置文件节添加到已安装的邮件存储提供程序资源列表中。 这会使邮件存储在邮件存储表中列出, 该表可通过[IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md)方法供客户端使用, 并在不显示对话框的情况下打开。 
   
-如果设置了 MDB_TEMPORARY 标志，MAPI 不执行任何操作并与 S_OK 立即返回的方法。
+如果设置了 MDB_TEMPORARY 标志, MAPI 将不执行任何操作, 并且方法将立即返回 S_OK。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -1,5 +1,5 @@
 ---
-title: 确定 Outlook 项目是否已修改但未保存 （Outlook 辅助参考 （英文）
+title: 确定 outlook 项目是否已修改但未保存 (outlook 辅助参考)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 65fba557-5fb0-42de-8715-eccda1f3c648
 description: 本主题演示如何使用dispidFDirty调度 ID 调用相应的属性，Outlook 项，可查看该项目是否已修改，并且尚未保存。
 ms.openlocfilehash: e66a23983a3cc19a7cb51d4b4c3b2c1cee58a793
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395551"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317638"
 ---
-# <a name="determine-if-an-outlook-item-has-been-modified-but-not-saved-outlook-auxiliary-reference"></a>确定 Outlook 项目是否已修改但未保存 （Outlook 辅助参考 （英文）
+# <a name="determine-if-an-outlook-item-has-been-modified-but-not-saved-outlook-auxiliary-reference"></a>确定 outlook 项目是否已修改但未保存 (outlook 辅助参考)
 
 本主题演示如何使用 **dispidFDirty**调度 ID 调用相应的属性，Outlook 项，可查看该项目是否已修改，并且尚未保存。 
   
-给定一个 item 对象，可以使用[IUnknown::QueryInterface](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_))方法来获取的[IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch)接口指针。 主题中的函数`FIsItemDirty`接受**IDispatch**指针， _pdisp_，作为输入参数。  `FIsItemDirty`调用[IDispatch::Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke)方法，指定 **dispIdMember**参数，该参数和 _wFlags_，标志 `DISPATCH_METHOD | DISPATCH_PROPERTYGET` _dispidFDirty_以验证该项目是否已修改。  `FIsItemDirty`返回一个布尔值 (**True**表示该项目有未保存更改; 否则为**False**)。
+给定一个 item 对象，可以使用[IUnknown::QueryInterface](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_))方法来获取的[IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch)接口指针。 主题`FIsItemDirty`中的函数接受作为输入参数的**IDispatch**指针_pdisp_。  `FIsItemDirty`调用[IDispatch::Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke)方法，指定 **dispIdMember**参数，该参数和 _wFlags_，标志 `DISPATCH_METHOD | DISPATCH_PROPERTYGET` _dispidFDirty_以验证该项目是否已修改。  `FIsItemDirty`返回一个布尔值 (**True**表示项目具有未保存的更改; 否则为**False**)。
   
 ```cpp
 bool FIsItemDirty(IDispatch *pdisp)

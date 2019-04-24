@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f8ca7cf-ac0b-9b77-c1dd-9f1d0871d603
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2d05592d1fdcdcd53c8b7879f9cdcd432df1a3f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 49ef9862d5156a1bed242652df32baab9a0123fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317155"
 ---
 # <a name="iostxsynchdrbeg"></a>IOSTX::SyncHdrBeg
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-邮件头的启动同步。
+启动邮件头同步。
   
 ```cpp
 HRESULT SyncHdrBeg( 
@@ -39,19 +39,19 @@ HRESULT SyncHdrBeg(
 
  _cbeid_
   
-> [in]中的邮件的条目 ID 的字节数。
+> 实时邮件的条目 ID 中的字节数。
     
  _lpeid_
   
-> [in]消息的条目 ID。
+> 实时邮件的条目 ID。
     
  _ppv_
   
->  [in] / [输出] 指向邮件头的**[HDRSYNC](hdrsync.md)** 结构。 
+>  [in]/[out] 指针, 指向邮件头的**[HDRSYNC](hdrsync.md)** 结构。 
     
 ## <a name="remarks"></a>注解
 
-时**IOSTX::SyncHdrBeg**，本地存储过渡到[下载邮件头状态](download-message-header-state.md)。 Outlook 客户端初始化**HDRSYNC**结构中的存储，并且父文件夹的邮件头的当前表示。 客户端必须然后下载完整邮件项目 （在**HDRSYNC** *pmsgFull* )。 如果这是成功，客户端还*ulFlags*中设置**HDRSYNC** **HSF_OK**。 时**[IOSTX::SyncHdrEnd](iostx-synchdrend.md)**，Outlook 检查**HDRSYNC**结果，并使用**HDRSYNC**中的信息来更新本地邮件头。 
+在**IOSTX:: SyncHdrBeg**中, 本地存储将转换为[下载邮件头状态](download-message-header-state.md)。 Outlook 为客户端初始化存储和父文件夹中的邮件头的当前表示形式的**HDRSYNC**结构。 然后, 客户端必须下载完整的邮件项目 (在**HDRSYNC**中为*pmsgFull* )。 如果成功, 客户端还会将**HDRSYNC**中的*ulFlags*设置为**HSF_OK**。 在**[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)** 上, Outlook 检查**HDRSYNC**中的结果, 并使用**HDRSYNC**中的信息更新本地邮件头。 
   
 ## <a name="see-also"></a>另请参阅
 

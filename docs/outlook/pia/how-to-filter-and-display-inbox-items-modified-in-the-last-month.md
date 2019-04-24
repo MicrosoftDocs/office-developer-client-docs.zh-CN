@@ -1,5 +1,5 @@
 ---
-title: 筛选并显示上月修改的收件箱项目
+title: 筛选并显示上月修改的收件箱项
 TOCTitle: Filter and display Inbox items modified in the last month
 ms:assetid: ef6004dc-0b5a-4d1f-8937-1384d1dfc1ca
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424482(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 77fe6e7df4cf67ed1ca2d62b8cf48f1b2873ccbe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320291"
 ---
 # <a name="filter-and-display-inbox-items-modified-in-the-last-month"></a>筛选并显示上月修改的收件箱项目
 

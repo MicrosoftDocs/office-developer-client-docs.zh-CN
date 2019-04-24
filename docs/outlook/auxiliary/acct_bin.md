@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5b57296c-61d7-e517-7ab7-44a9cc1f7ffc
-description: 此数据类型变量包含二进制值。
-ms.openlocfilehash: 6816fd21a51b86bda97353034e959685f22ff176
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 此数据类型的变量包含二进制值。
+ms.openlocfilehash: 3dcaaf73a04ddc608e68ca7bd1f801d0a5d99bb6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316910"
 ---
 # <a name="acctbin"></a>ACCT_BIN
 
-此数据类型变量包含二进制值。
+此数据类型的变量包含二进制值。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -28,14 +28,14 @@ typedef struct {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
 _cb_
   
-> _Pb_指向的字节数。 
+> _pb_指向的字节数。 
     
 _pb_
   
-> 二进制信息的指针。
+> 指向二进制信息的指针。
     
 

@@ -1,35 +1,35 @@
 ---
-title: RelCubBezTo 行（“Geometry”部分）
+title: RelCubBezTo 行 ("Geometry" 部分)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 77777dd4-5a2c-4048-9ea4-9bd876862963
-description: 包含 x 和 y 坐标的终结点的相对于形状的宽度和高度，x 三次贝赛尔曲线-和 y 坐标的位于曲线的相对于形状的宽度和高度和 x 开头的控制点-和 y-坐标控制l 曲线相对于形状的宽度和高度的结束点。
-ms.openlocfilehash: 918701c19e36753dcbf1a210dda2234d1e540d6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 包含相对于形状的宽度和高度的三次方贝塞尔曲线终结点的 x 坐标和 y 坐标、曲线相对形状的宽度和高度起始控制点的 x 坐标和 y 坐标以及 contro 的 x 坐标和 y 坐标。曲线相对形状的宽度和高度的结束点。
+ms.openlocfilehash: cb886706c4c5cbb3488a95b57dcc84e0e45ee326
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320032"
 ---
-# <a name="relcubbezto-row-geometry-section"></a>RelCubBezTo 行（“Geometry”部分）
+# <a name="relcubbezto-row-geometry-section"></a>RelCubBezTo 行 ("Geometry" 部分)
 
-包含*x*和*y*坐标的终结点的相对于形状的宽度和高度， *x*三次贝赛尔曲线-和*y* -的位于曲线的相对于形状的宽度和高度，开头的控制点的坐标和*x*和*y* -曲线相对于形状的宽度和高度的结束的控制点的坐标。 
+包含相对于形状的宽度和高度的三次方贝塞尔曲线终结点的*x*坐标和*y*坐标、曲线相对形状的宽度和高度起始点的*x*坐标和*y*坐标,以及曲线相对形状的宽度和高度的结束控制点的*x*坐标和*y*坐标。 
   
 > [!NOTE]
-> **RelCubBezTo**行仅可保持在.vsdx、.vsdm、.vstx、.vstm、.vssx 和.vssm 文件格式。 为 Visio 2003 2010年格式保存文件后， **RelCubBezTo**行转换为某一[NURBSTo](nurbsto-row-geometry-section.md)行。 
+> **RelCubBezTo**行只能在 .vsdx、.vsdm、.vstx、.vstm、.vssx 和. .vssm 文件格式中持久化。 将文件保存为 Visio 2003-2010 格式时, **RelCubBezTo**行将转换为[NURBSTo](nurbsto-row-geometry-section.md)行。 
   
 **RelCubBezTo**行包含以下单元格。 
   
-|**Cell**|**说明**|
+|**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -相对于形状的宽度的立方贝赛尔曲线终顶点的坐标。  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -相对于形状的高度的立方贝赛尔曲线终顶点的坐标。  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |*X* -曲线的坐标的开始控制点相对于形状的宽度;弧形上某个点。最佳位于之间的开始和终顶点的弧的控制点。  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |*Y* -曲线的坐标的开始控制点相对于形状的高度。  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |*X* -曲线的坐标的结束控制点相对于形状的宽度;弧形上某个点。弧的起点控件点和结束顶点之间最佳位于控制点。  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |*Y* -曲线的坐标的结束控制点相对于形状的高度。  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |一条立方贝塞尔曲线终顶点相对于形状宽度的*x*坐标。  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |一条立方贝塞尔曲线终顶点的*y*坐标 (相对于形状的高度)。  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |曲线的起始控制点相对于形状宽度的*x*坐标;弧形上的一点。控制点最好位于弧形的起始和结束顶点之间。  <br/> |
+|[黑白](b-cell-geometry-section.md) <br/> |相对于形状的高度的曲线起点的*y*轴坐标值。  <br/> |
+|[lc](c-cell-geometry-section.md) <br/> |相对于形状宽度的曲线结束控制点的*x*坐标;弧形上的一点。控制点最适合在弧的起始控制点和结束顶点之间。  <br/> |
+|[D](d-cell-geometry-section.md) <br/> |相对于形状高度的曲线终点的*y*轴坐标值。  <br/> |
    
 

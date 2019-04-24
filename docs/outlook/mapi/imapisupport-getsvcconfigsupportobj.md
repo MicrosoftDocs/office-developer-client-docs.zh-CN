@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c3bdae-a3a8-4334-b6d2-a89c6820d72e
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1c48ceefa84658b236b8dfa4e10df18c175d920e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 6de0fed4df9d23e67c3520ffb019a961b890f988
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316555"
 ---
 # <a name="imapisupportgetsvcconfigsupportobj"></a>IMAPISupport::GetSvcConfigSupportObj
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个邮件服务支持对象。
+创建邮件服务支持对象。
   
 ```cpp
 HRESULT GetSvcConfigSupportObj(
@@ -38,23 +38,23 @@ HRESULT GetSvcConfigSupportObj(
 
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
  _lppSvcSupport_
   
-> [输出]为指向新消息服务支持对象的指针。
+> 排除指向新邮件服务支持对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功创建配置支持对象。
+> 成功创建了配置支持对象。
     
 ## <a name="remarks"></a>注解
 
-对于所有支持对象实现**IMAPISupport::GetSvcConfigSupportObj**方法。 服务提供商调用**GetSvcConfigSupportObj**创建配置支持对象以传递给消息服务入口点函数。 
+**IMAPISupport:: GetSvcConfigSupportObj**方法是为所有支持对象实现的。 服务提供程序调用**GetSvcConfigSupportObj**以创建要传递给邮件服务入口点函数的配置支持对象。 
   
-消息服务入口点函数基于[MSGSERVICEENTRY](msgserviceentry.md)原型和[IMsgServiceAdmin](imsgserviceadminiunknown.md)接口方法调用。 消息服务入口点函数允许消息服务配置自己或更改配置文件时执行其他操作。 消息服务的入口点函数可支持配置更改，通过显示属性表或属性值数组传递给[IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)方法。 
+邮件服务入口点函数基于[MSGSERVICEENTRY](msgserviceentry.md)原型, 并由[IMsgServiceAdmin](imsgserviceadminiunknown.md)接口的方法调用。 邮件服务入口点函数允许邮件服务在配置文件发生更改时配置自身或执行其他操作。 邮件服务入口点函数可通过显示属性表或通过传递给[IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)方法的属性值数组来支持配置更改。 
   
 ## <a name="see-also"></a>另请参阅
 

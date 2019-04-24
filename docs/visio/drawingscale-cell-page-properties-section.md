@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bc447f22-a188-2c61-e33c-df0d401a4725
 description: 代表当前绘图比例中绘图单位的值。页面的绘图比例是 PageScale 单元格中显示的页面单位与 DrawingScale 单元格中显示的绘图单位之比。
-ms.openlocfilehash: cdd3222f5e56c34ac8947c9ef5a653cfe19fbd0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8a3a5f93ff096e42ba3c13b671b46bf1cf97df82
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316504"
 ---
-# <a name="drawingscale-cell-page-properties-section"></a>DrawingScale 单元格（“Page Properties”部分）
+# <a name="drawingscale-cell-page-properties-section"></a>DrawingScale 单元格（“Page Properties”内容）
 
 代表当前绘图比例中绘图单位的值。页面的绘图比例是 PageScale 单元格中显示的页面单位与 DrawingScale 单元格中显示的绘图单位之比。
   
-您可以设置 DrawingScale 单元格，以便通过程序更改页上标尺的单位。下面是一个通过程序将度量单位由英寸改为厘米的示例。在这个例子中，使用 **ConvertResult** 方法以不同的单位保持相同的距离。 
+您可以设置 DrawingScale 单元格，以便通过程序更改页上标尺的单位。 下面是一个通过程序将度量单位由英寸改为厘米的示例。 在这个例子中，使用 **ConvertResult** 方法以不同的单位保持相同的距离。 
   
 ```vb
 Public Sub SetActivePageMeasurementToCM() 
@@ -32,14 +32,14 @@ Set dsCell = ActivePage.PageSheet.Cells("DrawingScale")
 End Sub 
 ```
 
-您可以通过检查 DrawingScale 单元格的**单位**属性确定在绘图中的度量系统。 在 Visual Basic 编辑器即时中执行以下语句在运行上述宏之后窗口将返回*True* 。 
+您可以通过检查 DrawingScale 单元格的 **Units** 属性来确定绘图中的度量系统。 运行上述宏后, 在 Visual Basic 编辑器的 "即时" 窗口中执行以下语句将返回*True* 。 
   
 ```vb
 debug.print ActivePage.PageSheet.Cells("DrawingScale").Units = _ 
  visCentimeters 
 ```
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此单元格对应于 **“页面设置”** 对话框（单击 **“开始”** 选项卡上的 **“页面设置”** 箭头）中的设置。 
   

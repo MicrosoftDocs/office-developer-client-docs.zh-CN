@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 1351ec3c-984d-4b3e-8009-7c39f18d71a5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 41c95147a0bc5a62a4f3a103fccaf0751f89c731
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5732cd5c2b0b8dc26d699c3567f7cd9be3495184
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592803"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320417"
 ---
 # <a name="pidtagtypeofx400user-canonical-property"></a>PidTagTypeOfX400User 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-此属性包含用于报告邮件收件人的类型。
+此属性包含要在报告中使用的邮件收件人的类型。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_TYPE_OF_MTS_USER  <br/> |
-|标识符：  <br/> |0x0C1C  <br/> |
+|标识符:  <br/> |0x0C1C  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
@@ -38,13 +38,13 @@ ms.locfileid: "22592803"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

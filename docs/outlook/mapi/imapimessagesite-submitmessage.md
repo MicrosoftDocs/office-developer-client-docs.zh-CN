@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 6b14c383-8bc6-4e86-bd92-0500272af40d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 587b8bbb7ac25a7977d8962535f1909464ffc248
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 496732e334d2d39672048dd1a02346aaee4b70e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321404"
 ---
 # <a name="imapimessagesitesubmitmessage"></a>IMAPIMessageSite::SubmitMessage
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-当前邮件在排队等待传送的请求。
+请求将当前邮件排队等待传递。
   
 ```cpp
 HRESULT SubmitMessage(
@@ -37,31 +37,31 @@ HRESULT SubmitMessage(
 
  _ulFlags_
   
-> [in]位掩码的标志，控制如何提交一条消息。 可以设置以下标记：
+> 实时控制如何提交邮件的标志的位掩码。 可以设置以下标志:
     
 FORCE_SUBMIT 
   
-> MAPI 应提交的邮件，即使它可能不立即发送。
+> MAPI 应提交邮件, 即使它可能不会立即发送。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-表单对象调用**IMAPIMessageSite::SubmitMessage**方法以请求邮件在排队等待传送。 消息网站应在提交邮件之前调用[IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md)方法。 消息不需要已以前保存，因为**SubmitMessage**应会导致如果已修改邮件同时保存邮件。 后**SubmitMessage**返回时，窗体必须检查当前消息，然后关闭本身，如果不存在。 
+表单对象调用**IMAPIMessageSite:: SubmitMessage**方法以请求将邮件排队等待传递。 邮件网站在提交邮件之前, 应调用[IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md)方法。 该邮件不需要先保存, 因为如果邮件已被修改, **SubmitMessage**应会导致保存邮件。 返回**SubmitMessage**后, 该窗体必须检查当前邮件, 然后在不存在的情况下消除自己。 
   
-有关与窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SubmitMessage  <br/> |MFCMAPI 使用**IMAPIMessageSite::SubmitMessage**方法保存邮件。 首先，它将调用**IPersistMessage::HandsOffMessage**方法，然后它调用**SubmitMessage**。  <br/> |
+|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: SubmitMessage  <br/> |MFCMAPI 使用**IMAPIMessageSite:: SubmitMessage**方法保存邮件。 首先, 它调用**IPersistMessage:: HandsOffMessage**方法, 然后调用**SubmitMessage**。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

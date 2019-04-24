@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5d71ffbdbd10657832a319e1e669f38f311ad99f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319241"
 ---
 # <a name="systematically-releasing-objects"></a>系统性释放对象
 

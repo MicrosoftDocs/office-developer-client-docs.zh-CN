@@ -1,5 +1,5 @@
 ---
-title: 确定表末尾
+title: 确定表的结尾
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,28 +7,28 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c879e972-05f4-4716-8fc2-db5b22f34ca8
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f9979baf144b6106adcec416ee04439404e05d19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 28892e2d351b8dc9aa864c9eff52c94bb0f20e8f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316714"
 ---
-# <a name="determining-a-tables-end"></a>确定表末尾
+# <a name="determining-a-tables-end"></a>确定表的结尾
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
- 常见错误是表的假定末尾已达到时： 
+ 一个常见错误是, 在以下情况时, 假定已到达表的末尾: 
   
-- 已在循环中，使用由[IMAPITable::GetRowCount](imapitable-getrowcount.md)返回的行计数循环结束调用[IMAPITable::QueryRows](imapitable-queryrows.md) 。 **GetRowCount**返回的计数不始终表示确切的表; 中的行数它是一个大概计数。 
+- [imapitable:: QueryRows](imapitable-queryrows.md)已在循环中调用, 并在循环结束时由[IMAPITable:: GetRowCount](imapitable-getrowcount.md)返回的行数确定。 **GetRowCount**返回的计数并不总是表示表中的确切行数;它是一个大概数。 
     
-- 已使用固定数量的行调用**QueryRows**和返回更少的行。 它是不是直到**QueryRows**返回的行集与等于零，没有要检索的多个行的行数。 
+- 已使用固定的行数调用**QueryRows** , 并且返回的行数较少。 直到**QueryRows**返回行数等于零的行集时, 没有更多的行可供检索。 
     
 > [!IMPORTANT]
-> 返回 S_OK 的值和零行时，呼叫者可以假定将光标定位末尾的正行计数的表或负数的行数的表的开头的唯一时间。 将 MAPI_E_NOT_FOUND 永远不会返回值。 
+> 呼叫者唯一的时间是将游标放置在表的末尾, 对于正数行计数或在表的开头, 如果返回值 S_OK 和零行, 则会出现这种情况。 从不返回值 MAPI_E_NOT_FOUND。 
   
 ## <a name="see-also"></a>另请参阅
 

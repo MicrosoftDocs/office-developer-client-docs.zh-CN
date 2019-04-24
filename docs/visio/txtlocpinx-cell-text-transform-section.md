@@ -8,23 +8,23 @@ f1_keywords:
 - Vis_DSS.chm82251275
 localization_priority: Normal
 ms.assetid: cbfc4e91-10d1-d50e-3e8a-f269f7123276
-description: 确定 x-文本块的相对于原点的文本块的旋转中心的坐标。 默认公式为：
-ms.openlocfilehash: 6eb48532bb19bce5b0d22ed2cd0997014721df88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定文本块的旋转中心相对于文本块原点的 x 轴坐标值。 默认公式为：
+ms.openlocfilehash: 390f8129e8000a043969eda0ab1c8e4ef62515ef
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316448"
 ---
-# <a name="txtlocpinx-cell-text-transform-section"></a>TxtLocPinX 单元格（“Text Transform”部分）
+# <a name="txtlocpinx-cell-text-transform-section"></a>TxtLocPinX 单元格（“Text Transform”内容）
 
-确定*x* -文本块的相对于原点的文本块的旋转中心的坐标。 默认公式为： 
+确定文本块的旋转中心相对于文本块原点的*x*轴坐标值。 默认公式为： 
   
-= TxtWidth \* 0.5
+= TxtWidth \* 0。5
   
 该公式计算文本块的水平中心。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 TxtLocPinX 单元格的引用，请使用： 
   

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a575cac-dbfd-4f42-9c10-4b7e355a065e
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4453465c04d7a5a3de79f2ae34d13095863487cf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 162f20485fc21cf8523b6d4a653e52c35f4b3d9a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317078"
 ---
 # <a name="iprofadminrenameprofile"></a>IProfAdmin::RenameProfile
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-向一个配置文件分配一个新名称。
+为配置文件分配一个新名称。
   
 ```cpp
 HRESULT RenameProfile(
@@ -41,23 +41,23 @@ HRESULT RenameProfile(
 
  _lpszOldProfileName_
   
-> [in]一个指向当前重命名的配置文件的名称。
+> 实时指向要重命名的配置文件的当前名称的指针。
     
  _lpszOldPassword_
   
-> [in]始终为 NULL。
+> 实时始终为 NULL。
     
  _lpszNewProfileName_
   
-> [in]一个指向重命名的配置文件的新名称。
+> 实时指向要重命名的配置文件的新名称的指针。
     
  _ulUIParam_
   
-> [in]任何对话框的父窗口或该方法显示的窗口句柄。 
+> 实时此方法显示的任何对话框或窗口的父窗口的句柄。 
     
  _ulFlags_
   
-> [in]始终为 NULL。
+> 实时始终为 NULL。
     
 ## <a name="return-value"></a>返回值
 
@@ -71,19 +71,19 @@ MAPI_E_LOGON_FAILED
     
 MAPI_E_USER_CANCEL 
   
-> 用户取消操作，通常通过单击对话框中的**取消**按钮。 
+> 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
 ## <a name="remarks"></a>注解
 
-如果有的话， **IProfAdmin::RenameProfile**方法向一个配置文件指定一个新名称。 如果要重命名的配置文件，使用客户端调用**RenameProfile**时**RenameProfile**标记配置文件，并返回 S_OK 而不是使用配置文件时，尝试重命名操作。 不再使用配置文件时， **RenameProfile**将其分配的新名称。 
+**IProfAdmin:: RenameProfile**方法将新名称分配给配置文件 (如果有的话)。 如果调用**RenameProfile**时, 客户端正在使用重命名的配置文件, **RenameProfile**将标记配置文件并返回 S_OK, 而不是在配置文件正在使用时尝试重命名操作。 不再使用该配置文件时, **RenameProfile**会为其分配新名称。 
   
-旧的和新的配置文件的名称可以是最多为 64 个字符的长度，并且可以包含下列字符：
+配置文件的旧名称和新名称的长度最高为64个字符, 并且可以包含以下字符:
   
-- 所有字母数字字符，包括重音字符和下划线字符。
+- 所有字母数字字符, 包括重音字符和下划线字符。
     
-- 嵌入的空格，但不是前导或尾随空格。
+- 嵌入空格, 但不能是前导空格或尾随空格。
     
-_LpszPassword_应始终为 NULL 或为零长度字符串的指针。 
+_lpszPassword_应始终为 NULL 或指向零长度字符串的指针。 
   
 ## <a name="see-also"></a>另请参阅
 

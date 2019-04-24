@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0a568209caf172fbab26af1441ba7c208562ae19
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698391"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320354"
 ---
 # <a name="enumerate-items-in-the-inbox-based-on-the-last-modification-time"></a>根据上次修改时间枚举收件箱中的项
 
@@ -27,7 +27,7 @@ ms.locfileid: "28698391"
 
 在下面的代码示例中，DemoTableForInbox 获取“收件箱”文件夹的 **Table** 对象，使用 **LastModificationTime** 属性和 [Sort(String, Object)](https://msdn.microsoft.com/library/bb652667\(v=office.15\)) 方法对 **Table** 对象进行排序，并循环访问表，以将每一项的主题写入 [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx) 集合的跟踪侦听器中。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

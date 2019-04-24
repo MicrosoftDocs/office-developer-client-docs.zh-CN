@@ -6,33 +6,33 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: eb6b921d-ecf8-3ce5-87ba-ac1632416b05
-description: 帐户管理 API 提供访问帐户信息，并支持帐户更改的通知。 此 api 的客户端，为邮件提供程序执行以下操作：
-ms.openlocfilehash: 678143def25395c47f1c17cc99dcdcd1fb145e1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: '帐户管理 API 提供对帐户信息的访问权限, 并支持帐户更改的通知。 作为此 API 的客户端, 邮件提供程序执行以下操作:'
+ms.openlocfilehash: 76520b7cc7f28ede28257729e4e4fbe2d5096290
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316938"
 ---
 # <a name="about-the-account-management-api"></a>关于帐户管理 API
 
-帐户管理 API 提供访问帐户信息，并支持帐户更改的通知。 此 api 的客户端，为邮件提供程序执行以下操作：
+帐户管理 API 提供对帐户信息的访问权限, 并支持帐户更改的通知。 作为此 API 的客户端, 邮件提供程序执行以下操作:
   
-1. 使用[IOlkAccountManager](iolkaccountmanager.md)管理帐户的访问权并设置有关帐户更改的通知。 
+1. 使用[IOlkAccountManager](iolkaccountmanager.md)管理帐户的访问权限并设置有关帐户更改的通知。 
     
-2. 实现和使用[IOlkAccountNotify](iolkaccountnotify.md)发送有关帐户更改的通知。 
+2. 实施和使用[IOlkAccountNotify](iolkaccountnotify.md)以发送有关帐户更改的通知。 
     
 3. 使用[IOlkEnum](iolkenum.md)枚举帐户。 
     
-4. 使用[IOlkAccount](iolkaccount.md)可获取和设置属性和帐户的其他信息。 客户端获取[IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md)或[IOlkEnum::GetNext](iolkenum-getnext.md)访问个人帐户通过该接口。 
+4. 使用[IOlkAccount](iolkaccount.md)获取和设置帐户的属性和其他信息。 客户端通过[IOlkAccountManager:: FindAccount](iolkaccountmanager-findaccount.md)或[IOlkEnum:: GetNext](iolkenum-getnext.md)获取此接口, 以访问单个帐户。 
     
-5. 实现和使用[IOlkAccountHelper](iolkaccounthelper.md)提供帐户管理器帮助程序功能，包括帐户配置文件的名称和当前的 MAPI 会话。 
+5. 实施和使用[IOlkAccountHelper](iolkaccounthelper.md)以提供帐户管理器帮助程序功能, 包括获取帐户的配置文件名称和当前 MAPI 会话。 
     
-6. 实现和使用[IOlkErrorUnknown](iolkerrorunknown.md)提供有关在**IOlkAccountManager**、 **IOlkAccountNotify**和**IOlkAccount**错误的额外信息。 
+6. 实现并使用[IOlkErrorUnknown](iolkerrorunknown.md) , 以提供有关**IOlkAccountManager**、 **IOlkAccountNotify**和**IOlkAccount**中的错误的额外信息。 
 
 ##  <a name="account-management-api-components"></a>帐户管理 API 组件
 
-帐户管理 API 提供了以下定义数据类型、 接口、 名为属性和属性。
+帐户管理 API 提供以下定义、数据类型、接口、命名属性和属性。
   
 ### <a name="definitions"></a>定义
   

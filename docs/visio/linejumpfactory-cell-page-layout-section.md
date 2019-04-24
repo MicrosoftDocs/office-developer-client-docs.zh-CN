@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5a14be0d-9e3c-23c4-7782-bda5470d1243
 description: 确定页中垂直动态连接线上的跨线的大小（相对于 LineToLineY 单元格的值）。该单元格的值范围可介于 0 到 10 之间，但建议使用 0 到 1 之间的小数值。
-ms.openlocfilehash: deba4c27585644604e7bac1dbfe284bc3977835e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36712c1558ff2f50309dc31e8f918061180c8fa4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316455"
 ---
-# <a name="linejumpfactory-cell-page-layout-section"></a>LineJumpFactorY 单元格（“Page Layout”部分）
+# <a name="linejumpfactory-cell-page-layout-section"></a>LineJumpFactorY 单元格（“Page Layout”内容）
 
 确定页中垂直动态连接线上的跨线的大小（相对于 LineToLineY 单元格的值）。该单元格的值范围可介于 0 到 10 之间，但建议使用 0 到 1 之间的小数值。
   

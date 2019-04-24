@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: fb422d46-0b4d-3bf7-73aa-6b01e2454a84
 description: 包含用于组合的单元格，这些单元格控制如何向组合添加形状、移动组合成员和选择组合。
-ms.openlocfilehash: 63bc2717d838174080d3bd13da07e5f9d6929767
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb5d0bccd21e192ed4aff244929d2dbb507ae40b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317071"
 ---
-# <a name="group-properties-section"></a>“Group Properties”部分
+# <a name="group-properties-section"></a>“Group Properties”内容
 
 包含用于组合的单元格，这些单元格控制如何向组合添加形状、移动组合成员和选择组合。 
   

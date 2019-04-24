@@ -7,11 +7,11 @@ ms.assetid: c3eccf27-c8a3-4fb3-8fb4-7177474389a5
 description: 查找开发解决方案和自定义 OneNote 桌面客户端应用程序的操作说明内容、技术文章、参考内容和博客文章。
 localization_priority: Priority
 ms.openlocfilehash: 47da67c8ca741bcc30b55cb56d88ffe3640c465e
-ms.sourcegitcommit: 43cff5789e0a0a8cda11277c1a636c8b32d28cdb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30413957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317064"
 ---
 # <a name="onenote"></a>OneNote
 

@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: cd15d220-1f3d-440d-8699-0c934518b4a7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 716550a847aff868d01cb67356409537df83b6d8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ce087516dde110a22c129ae73259cc95e456e765
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317946"
 ---
 # <a name="cbnewsproptagarray"></a>CbNewSPropTagArray
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-计算要分配给新[SPropTagArray](sproptagarray.md)结构，其中包含指定的数目的属性标记的字节数。 
+计算要为包含指定数量的属性标记的新[SPropTagArray](sproptagarray.md)结构分配的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**SPropTagArray** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 CbNewSPropTagArray (_ctag)
@@ -40,7 +40,7 @@ CbNewSPropTagArray (_ctag)
 
  __ctag_
   
-> 要包含在新的**SPropTagArray**结构属性标记的计数。 
+> 要包含在新的**SPropTagArray**结构中的属性标记的计数。 
     
 ## <a name="see-also"></a>另请参阅
 

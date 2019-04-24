@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: bc4506c7-7a4f-940d-d0a6-e0fab4561a88
 description: 等待要完成的日历文件夹中的约会枚举和返回的约会列表，需要重定基址。
 ms.openlocfilehash: 5be6fd9ce33374725b36429cd0fbc717776c9ab9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321901"
 ---
 # <a name="iolkapptrebaserendenumerateappointments"></a>IOlkApptRebaser::EndEnumerateAppointments
 

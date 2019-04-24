@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4bf37c35-4f72-438a-912c-402f3711a5ea
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 9f70b178e7c30e1cdf94b485c77f80374113211c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317148"
 ---
 # <a name="ipersistmessageinitnew"></a>IPersistMessage::InitNew
 
@@ -38,11 +38,11 @@ HRESULT InitNew(
 
  _pMessageSite_
   
-> [in]表单将用于处理查看器中邮件消息站点链接。
+> 实时一个指针, 指向表单将用于处理查看器中的邮件的邮件网站。
     
  _pMessage_
   
-> [in]一个指向新邮件。
+> 实时指向新邮件的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -50,33 +50,33 @@ S_OK
   
 > 已成功初始化新邮件。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-当用户写入属于窗体处理邮件类的新消息时，表单查看器调用**IPersistMessage::InitNew**方法。 如果窗体对象具有一个有效的用户界面指针，应显示的消息对象的用户界面。 
+表单查看者在用户写入属于表单所处理的邮件类的新邮件时, 调用**IPersistMessage:: InitNew**方法。 如果 form 对象具有有效的用户界面指针, 则应显示 message 对象的用户界面。 
   
- 仅当表单处于[未初始化](uninitialized-state.md)状态以外的所有状态时，不应调用**丢失**。 如果表单没有其他状态之一，调用**丢失**时，返回 E_UNEXPECTED。 
+ 当窗体处于[未初始化](uninitialized-state.md)状态之外的任何状态时, 不应调用**InitNew** 。 如果在调用**InitNew**时窗体处于其他状态之一, 则返回 E_UNEXPECTED。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-通常情况下，有未保存的属性的邮件被标记为修改，以便客户端可以显示一个对话框，提示用户是否应该保存这些属性。 如果用户指示应保存一条消息，保存数据、 邮件标记为干净，并正常退出。
+通常情况下, 具有未保存属性的邮件将被标记为已修改, 以便客户端可以显示一个对话框, 提示用户是否应保存这些属性。 如果用户指示应保存某封邮件, 请保存数据, 将邮件标记为 "干净", 并正常退出。
   
-但是，如果新初始化邮件处理包括设置其中一个或多计算属性，并且一点很重要保存这些属性，不要将邮件标记为已修改。 因为计算属性应为对用户不可见，应不显示任何对话框。
+但是, 如果处理新初始化的邮件包括设置一个或多个计算属性, 并且要保存这些属性, 请不要将邮件标记为 "已修改"。 由于计算属性对用户是不可见的, 因此不应显示任何对话框。
   
-如果窗体有一个引用传递到**丢失**以外的活动邮件网站，释放原始网站，因为不再使用它。 存储从_pMessageSite_和_pMessage_参数的消息网站和消息的指针和调用这两个对象的[IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法，以增加其引用计数。 
+如果您的表单具有对传递到**InitNew**中的活动邮件网站的引用, 请释放原始网站, 因为它将不再使用。 将指针存储到邮件网站和来自_pMessageSite_和_pMessage_参数的消息, 并调用两个对象的[IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法以增加其引用计数。 
   
-设置为适合于您的邮件类的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 和新邮件的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性。 多个邮件类别，例如，设置**PR_MESSAGE_FLAGS**为 MSGFLAG_UNSENT 新邮件。 
+将新邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 和**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性设置为适合您的邮件类的内容。 例如, 许多邮件类将**PR_MESSAGE_FLAGS**设置为 MSGFLAG_UNSENT, 以查找新邮件。 
   
-返回之前, 出现转换为[普通](normal-state.md)状态，如果没有错误窗体。 通过调用其[IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md)方法向所有已注册的查看者发送新邮件通知，并返回 S_OK。 
+返回之前, 如果没有出现任何错误, 则将窗体转换为[正常](normal-state.md)状态。 通过调用[IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md)方法并返回 S_OK, 向所有注册的查看器发送新的邮件通知。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-所做的**丢失**成功调用后，可以假定以下必需的属性，或任何其他已设置的表单：
+成功调用**InitNew**后, 可以假定已为表单设置了以下必需属性, 而不是其他属性:
   
  **PR_DELETE_AFTER_SUBMIT**([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))
   
  **PR_IMPORTANCE**([PidTagImportance](pidtagimportance-canonical-property.md))
   
- **邮件已被阅读**([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md))
+ **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED**([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md))
   
  **PR_PRIORITY**([PidTagPriority](pidtagpriority-canonical-property.md))
   
@@ -86,7 +86,7 @@ S_OK
   
  **PR_SENTMAIL_ENTRYID**([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))
   
-有关窗体的状态的详细信息，请参阅[窗体状态](form-states.md)。 有关如何初始化存储对象的详细信息，请参阅[IPersistStorage::InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx)方法。 
+有关窗体状态的详细信息, 请参阅[表单状态](form-states.md)。 有关如何初始化存储对象的详细信息, 请参阅[IPersistStorage:: InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx)方法。 
   
 ## <a name="see-also"></a>另请参阅
 

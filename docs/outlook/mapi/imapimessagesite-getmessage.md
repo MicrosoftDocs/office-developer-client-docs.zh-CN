@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 49d12c49-84f8-44ac-bc4a-2ee44a46f8c1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3612c12a503174484d4a469ffa167922a015ed5b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 03dd0553d0203585850ac5c4f8c91c86ef60236a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321278"
 ---
 # <a name="imapimessagesitegetmessage"></a>IMAPIMessageSite::GetMessage
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 返回当前邮件。
   
@@ -37,33 +37,33 @@ HRESULT GetMessage(
 
  _ppmsg_
   
-> [输出]指向的邮件返回的接口的指针的指针。
+> 排除指向指向邮件的返回接口的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 S_FALSE 
   
-> 调用窗体的当前不存在任何消息。
+> 当前没有适用于通话窗体的邮件。
     
 ## <a name="remarks"></a>注解
 
-窗体调用**IMAPIMessageSite::GetMessage**方法获取当前消息的消息界面。 当前消息是相同的消息，如以前[IPersistMessage::InitNew](ipersistmessage-initnew.md)、 [IPersistMessage::Load](ipersistmessage-load.md)或[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)方法中传递。 
+窗体调用**IMAPIMessageSite:: GetMessage**方法来获取当前邮件的消息接口。 当前邮件与以前在[IPersistMessage:: InitNew](ipersistmessage-initnew.md), [IPersistMessage:: Load](ipersistmessage-load.md)或[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md)方法中传递的邮件相同。 
   
- 如果当前不存在任何消息， **GetMessage**返回 S_FALSE。 [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md)方法或**IPersistMessage::Load**到下一个呼叫之前呼叫后可能出现此状态或进行**IPersistMessage::SaveCompleted** 。 
+ 如果当前不存在邮件, **GetMessage**将返回 S_FALSE。 在调用[IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md)方法之前, 或在下一次调用**IPersistMessage:: Load** or **IPersistMessage:: SaveCompleted**之前, 可能会发生此状态。 
   
-有关与窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI 使用**IMAPIMessageSite::GetMessage**方法可返回当前缓存的邮件指针，它是否可用。  <br/> |
+|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetSession  <br/> |MFCMAPI 使用**IMAPIMessageSite:: GetMessage**方法返回当前缓存的邮件指针 (如果可用)。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

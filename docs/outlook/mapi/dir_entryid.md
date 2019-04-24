@@ -8,24 +8,24 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9e055269-f3bf-4b64-8384-3cbc372c0b34
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9ef3f37ab266469e83434d5d9bd0bc7e2ef897fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e7abcb2c86ff5cabe0b8f5664ec316244617ac09
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316672"
 ---
 # <a name="direntryid"></a>DIR_ENTRYID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-介绍目录条目 id 的属性。
+介绍目录项 id 的属性。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |entryid.h  <br/> |
+|标头文件：  <br/> |entryid  <br/> |
    
 ```cpp
 #pragma pack(4)
@@ -44,11 +44,11 @@ typedef struct _dir_entryid
 
  **abFlags**
   
-> 位掩码的标志，提供描述对象的信息。 有关详细信息，请参阅[ENTRYID](entryid.md)结构的**abFlags**字段的说明。 
+> 提供描述对象的信息的标志的位掩码。 有关详细信息, 请参阅[ENTRYID](entryid.md)结构的**abFlags**字段的说明。 
     
  **muid**
   
-> 标识的存储提供程序的 GUID。
+> 标识存储提供程序的 GUID。
     
  **ulVersion**
   
@@ -56,12 +56,12 @@ typedef struct _dir_entryid
     
  **ulType**
   
-> 表示目录条目 ID 类型的整数。 它必须是下列值之一：
+> 表示目录项 ID 类型的整数。 它必须是下列值之一:
     
 |**名称**|**说明**|
 |:-----|:-----|
-|CONTAB_ROOT  <br/> |MAPI 通讯簿根文件夹。  <br/> |
-|CONTAB_SUBROOT  <br/> |MAPI 通讯簿对象的根文件夹中包含子文件夹。  <br/> |
+|CONTAB_ROOT  <br/> |MAPI 通讯簿的根文件夹。  <br/> |
+|CONTAB_SUBROOT  <br/> |MAPI 通讯簿对象的根文件夹内包含一个子文件。  <br/> |
 |CONTAB_CONTAINER  <br/> |通讯簿容器对象。  <br/> |
    
  **muidID**
@@ -70,7 +70,7 @@ typedef struct _dir_entryid
     
 ## <a name="remarks"></a>注解
 
-结构**DIR_ENTRYID**和[CONTAB_ENTRYID](contab_entryid.md)完全相同，除了**ulType**成员。 **UlType**成员的内容确定适合剩余字段的结构。 
+除**ulType**成员之外, 结构**DIR_ENTRYID**和[CONTAB_ENTRYID](contab_entryid.md)相同。 **ulType**成员的内容确定哪种结构适用于其余字段。 
   
 ## <a name="see-also"></a>另请参阅
 
