@@ -1,5 +1,5 @@
 ---
-title: Index 对象的数据访问对象 (DAO)
+title: Index 对象-数据访问对象 (DAO)
 TOCTitle: Index object
 ms:assetid: 92c32cad-ec8a-1243-1d18-83f50b269ecb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ca0a975017b5c5396d23817716689b37433d8f97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291766"
 ---
 # <a name="index-object-dao"></a>Index 对象 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Index** 对象指定从数据库表访问的记录的顺序，以及是否可接受重复的记录，以便提供高效的数据访问。对于外部数据库， **Index** 对象描述为外部表建立的索引（仅适用于 Microsoft Access 工作区）。
 
@@ -32,12 +32,12 @@ Microsoft Access 数据库引擎在联接表和创建 **[Recordset](recordset-ob
 
 Microsoft Access 数据库引擎可自动维护所有的基表索引。只要在基表中添加、更改或删除了记录，它就会更新索引。创建数据库后，请定期使用 **[CompactDatabase](dbengine-compactdatabase-method-dao.md)** 方法将索引统计保持为最新状态。
 
-在访问表类型 **Recordset** 对象时，可以使用该对象的 **Index** 属性指定记录的顺序。将该属性设置为 **Indexes** 集合中的现有 **Index** 对象的 **Name** 属性设置。此集合包含在您所填充的 [Recordset](tabledef-object-dao.md) 对象下面的 ****TableDef**** 对象中。
+在访问表类型 **Recordset** 对象时，可以使用该对象的 **Index** 属性指定记录的顺序。 将该属性设置为 **Indexes** 集合中的现有 **Index** 对象的 **Name** 属性设置。 此集合包含在要填充的**Recordset**对象的基础上的**[TableDef](tabledef-object-dao.md)** 对象中。
 
 > [!NOTE]
 > [!注释] 不一定非要为表创建索引，但是对于大型的未创建索引的表，访问特定的记录或处理联接可能需要花费较长的时间。反过来，具有太多的索引也会减慢更新数据库的速度，原因是需要修正每个表索引。
 
-索引中每个 [Field](field-attributes-property-dao.md) 对象的 ****Attributes**** 属性将确定返回记录的顺序，并从而确定要对该索引使用哪些访问技术。
+索引中每个**Field**对象的**[Attributes](field-attributes-property-dao.md)** 属性决定了返回的记录的顺序, 因此决定了对该索引使用哪些访问技术。
 
 **Index** 对象的 **Fields** 集合中的每个 **Field** 对象都是索引的组成部分。要定义一个新的 **Index** 对象，请先设置其属性，然后再将其追加到集合中，使该 **Index** 对象可用于后续应用。
 

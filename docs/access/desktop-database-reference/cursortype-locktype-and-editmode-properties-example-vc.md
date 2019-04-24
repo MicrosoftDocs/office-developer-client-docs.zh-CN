@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: bdd804c846316f2637bb9603043a44f13eae59a6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295203"
 ---
 # <a name="cursortype-locktype-and-editmode-properties-example-vc"></a>CursorType、LockType 和 EditMode 属性示例 (VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 此示例演示如何在打开 [Recordset](cursortype-property-ado.md) 前设置 [CursorType](locktype-property-ado.md) 和 [LockType](recordset-object-ado.md) 属性。它还演示在各种情况下 [EditMode](editmode-property-ado.md) 属性的值。若要运行此过程，必须使用 EditModeOutput 函数。
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ce08ac5952151471ce74afd9a8a49600d8e8f633
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314131"
 ---
 # <a name="fields-collection"></a>Fields 集合
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Fields** 集合是 ADO 的固有集合之一。集合是一组按顺序排列的、可以作为单元引用的项。
 
@@ -59,7 +59,7 @@ SELECT ProductID, ProductName, UnitPrice FROM Products WHERE CategoryID = 7
 
 ## <a name="getting-to-the-field"></a>访问字段
 
-与任何 ADO 集合一样， **Item** 属性是集合的默认属性。它返回按传递给它的名称或索引指定的单个 **Field** 对象。因此，以下语句是示例 **Recordset** 的等价语句：
+与任何 ADO 集合一样，**Item** 属性是集合的默认属性。它返回按传递给它的名称或索引指定的单个 **Field** 对象。因此，以下语句是示例 **Recordset** 的等价语句：
 
 ```vb 
  

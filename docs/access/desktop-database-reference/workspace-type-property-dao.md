@@ -1,5 +1,5 @@
 ---
-title: Workspace.Type 属性 (DAO)
+title: Workspace 属性 (DAO)
 TOCTitle: Type Property
 ms:assetid: 89e59280-d2cd-b6a2-16c5-9f14f42fdd99
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197086(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e698963d60809e8d88c4ff87532fb7b74cff275c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311303"
 ---
-# <a name="workspacetype-property-dao"></a>Workspace.Type 属性 (DAO)
+# <a name="workspacetype-property-dao"></a>Workspace 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-设置或返回一个值，该值指示对象的操作类型或数据类型。只读 **Integer**。
+设置或返回一个值，该值指示对象的操作类型或数据类型。 只读 **Integer**。
 
 ## <a name="syntax"></a>语法
 

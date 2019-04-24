@@ -1,5 +1,5 @@
 ---
-title: Key 对象 (ADOX-访问桌面数据库引用)
+title: Key 对象 (ADOX-Access 桌面数据库参考)
 TOCTitle: Key object (ADOX)
 ms:assetid: 727198ec-57d2-7766-790c-370beb931de6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249461(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f56a90b7accd1b64c9a52e0a7cf5385f83fd10d5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290750"
 ---
 # <a name="key-object-adox"></a>Key 对象 (ADOX)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 表示数据库表中的主键、外键或唯一键字段。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-以下代码创建一个新的 **Key** ：
+以下代码创建一个新的 **Key**：
 
 `Dim obj As New Key`
 

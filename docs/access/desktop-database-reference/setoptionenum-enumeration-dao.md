@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 566c1e01242f1ac3711211e5f87ff4d176d5c594
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314600"
 ---
 # <a name="setoptionenum-enumeration-dao"></a>SetOptionEnum 枚举 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 与 **SetOption** 方法一起用来指定 Windows 注册表中要重写的 Microsoft Access 数据库引擎项。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28713770"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>值</p></th>
 <th><p>说明</p></th>
 </tr>
@@ -62,7 +62,7 @@ ms.locfileid: "28713770"
 </tr>
 <tr class="even">
 <td><p>dbMaxBufferSize</p></td>
-<td><p>8</p></td>
+<td><p>utf-8</p></td>
 <td><p>MaxBufferSize 项。</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ ms.locfileid: "28713770"
 </tr>
 <tr class="even">
 <td><p>dbPageTimeout</p></td>
-<td><p>6</p></td>
+<td><p>型</p></td>
 <td><p>PageTimeout 项。</p></td>
 </tr>
 <tr class="odd">

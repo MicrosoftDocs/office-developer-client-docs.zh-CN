@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c0fa220b3088cde46b0e82631c06520afd839c64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701667"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314649"
 ---
 # <a name="sendemail-macro-action"></a>SendEmail 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**SendEmail**操作可发送电子邮件。
+**SendEmail**操作会发送一封电子邮件。
 
 > [!NOTE]
-> [!注释] **SendEmail** 操作仅适用于数据宏。
+> **SendEmail** 操作仅适用于数据宏。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **SendEmail** 操作具有以下参数。
 
@@ -36,7 +36,7 @@ ms.locfileid: "28701667"
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>是否必需</p></th>
+<th><p>必需</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -44,22 +44,22 @@ ms.locfileid: "28701667"
 <tr class="odd">
 <td><p><strong>To</strong></p></td>
 <td><p>是</p></td>
-<td><p>您想要放在邮件中的<strong>到</strong>行上将其姓名的收件人。分隔用分号 （;） 指定此参数中 （以及<em>Cc</em>和<em>Bcc</em>参数） 的收件人姓名。</p></td>
+<td><p>要将其名称放在邮件的 "<strong>收件人</strong>" 行中的邮件的收件人。使用分号 (;) 将在此参数中指定的收件人姓名 (以及 " <em>Cc</em> " 和<em>"Bcc</em> " 参数) 隔开。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Cc</strong></p></td>
 <td><p>否</p></td>
-<td><p>邮件的收件人，您想要置于抄送将其姓名 (&quot;抄送&quot;) 邮件行中的。</p></td>
+<td><p>要将其姓名置于邮件的 "抄送" (&quot;抄送&quot;) 行中的邮件收件人。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Bcc</strong></p></td>
 <td><p>否</p></td>
-<td><p>邮件的收件人，您想要置于密件抄送将其姓名 (&quot;密件抄送副本&quot;) 邮件行中的。</p></td>
+<td><p>要将其姓名置于邮件的 "密件抄送" (&quot;密件抄送&quot;) 行中的邮件收件人。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Subject</strong></p></td>
 <td><p>否</p></td>
-<td><p>邮件的主题。 此文本出现在邮件中的<strong>主题</strong>行上。</p></td>
+<td><p>邮件的主题。此文本显示在邮件的“主题”<strong></strong>行中。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Body</strong></p></td>
@@ -70,7 +70,7 @@ ms.locfileid: "28701667"
 </table>
 
 
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 **SendEmail** 操作仅适用于 **[删除后](after-delete-macro-event.md)** 、 **[插入后](after-insert-macro-event.md)** 和 **[更新后](after-update-macro-event.md)** 宏事件。
 

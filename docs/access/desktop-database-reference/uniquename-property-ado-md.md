@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ed413f6881e60e926e5eeeac3c395e23b01ed01f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313753"
 ---
 # <a name="uniquename-property-ado-md"></a>UniqueName 属性 (ADO MD)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示当前对象的明确的名称。
 

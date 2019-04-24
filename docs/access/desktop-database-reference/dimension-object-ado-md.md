@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: afea442aa535660b5bb618297640db8fbd546dec
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293894"
 ---
 # <a name="dimension-object-ado-md"></a>Dimension 对象 (ADO MD)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 代表多维数据集的维度之一，包含一个或多个成员层次结构。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用 **Dimension** 对象的集合和属性，可以执行下列操作：
 
@@ -42,7 +42,7 @@ ms.locfileid: "28712825"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -52,7 +52,7 @@ ms.locfileid: "28712825"
 <td><p>此多维数据集所属的目录的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p>多维数据集名称</p></td>
+<td><p>CubeName</p></td>
 <td><p>多维数据集的名称。</p></td>
 </tr>
 <tr class="odd">
@@ -76,7 +76,7 @@ ms.locfileid: "28712825"
 <td><p>维的 GUID。</p></td>
 </tr>
 <tr class="even">
-<td><p>维度</p></td>
+<td><p>DimensionName</p></td>
 <td><p>维的名称。</p></td>
 </tr>
 <tr class="odd">

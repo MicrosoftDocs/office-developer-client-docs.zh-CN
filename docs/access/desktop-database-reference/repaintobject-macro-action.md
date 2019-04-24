@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a2ef6c5f38064ae3253cd7e0e58732f63294ceb3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306683"
 ---
 # <a name="repaintobject-macro-action"></a>RepaintObject 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **RepaintObject** 操作完成指定数据库对象或活动数据库对象（如果未指定数据库对象）的所有尚未完成的屏幕更新。这类更新包括对象的控件的所有尚未完成的重新计算。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **RepaintObject** 操作具有下列参数。
 
@@ -46,13 +46,13 @@ ms.locfileid: "28722828"
 </tr>
 <tr class="even">
 <td><p><strong>对象名称</strong></p></td>
-<td><p>要重画的对象的名称。 <strong>对象名称</strong>框中显示<strong>对象类型</strong>参数所选类型的数据库中的所有对象。 如果将<strong>对象类型</strong>参数留空，还应将此参数留空。</p></td>
+<td><p>要重画的对象的名称。<strong>“对象名称”</strong>框会显示数据库中属于“对象类型”<strong></strong>参数所选的类型的所有对象。如果将“对象类型”<strong></strong>参数留空，则也要将此参数留空。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Microsoft Access 需等到完成其他尚未完成的任务后才完成尚未完成的屏幕更新。利用此操作，可以立即强制重画指定对象中的控件。在下列情况下，可以使用此操作：
 

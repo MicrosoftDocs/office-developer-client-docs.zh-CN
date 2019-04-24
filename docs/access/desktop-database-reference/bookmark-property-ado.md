@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 17818fe2b4f826cbcfbbb3955817c2b5d99ab6a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296792"
 ---
 # <a name="bookmark-property-ado"></a>Bookmark 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示在 [Recordset](recordset-object-ado.md) 对象中唯一标识当前记录的书签，或者将 **Recordset** 对象中的当前记录设置为有效书签标识的记录。
 
@@ -25,7 +25,7 @@ ms.locfileid: "28704768"
 
 设置或返回一个 **Variant** 表达式，该表达式的计算结果为一个有效书签。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用 **Bookmark** 属性可以保存当前记录的位置并随时返回到该记录处。书签仅在支持书签功能的 **Recordset** 对象中可用。
 
@@ -35,5 +35,5 @@ ms.locfileid: "28704768"
 
 如果使用 [Clone](clone-method-ado.md) 方法创建 **Recordset** 对象的副本，原始和重复 **Recordset** 对象的 **Bookmark** 属性设置是完全相同的，可以将二者交换使用。不过，无法将不同 **Recordset** 对象的书签交换使用，即使它们使用相同的源或命令创建也不行。
 
-**远程数据服务用法**当客户端**Recordset**对象上使用， **Bookmark**属性始终是可用。
+**远程数据服务使用情况**在客户端**Recordset**对象上使用时, **Bookmark**属性始终可用。
 

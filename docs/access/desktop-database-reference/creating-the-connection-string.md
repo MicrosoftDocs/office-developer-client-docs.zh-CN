@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f43207edec0c0acb58c66318e5dc7668a28ea595
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295325"
 ---
 # <a name="creating-the-connection-string"></a>创建连接字符串
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 在连接字符串中，ADO 直接支持五个参数。其他参数将传递给 *Provider* 参数所命名的提供程序，ADO 不对其进行任何处理。
 
@@ -37,7 +37,7 @@ ms.locfileid: "28719916"
 <td><p>指定用于连接的提供程序的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>文件名</em></p></td>
+<td><p><em>File Name</em></p></td>
 <td><p>指定包含预置连接信息的、特定于提供程序的文件（例如，持久化的数据源对象）的名称。</p></td>
 </tr>
 <tr class="odd">
@@ -50,7 +50,7 @@ ms.locfileid: "28719916"
 </tr>
 <tr class="odd">
 <td><p><em>Remote Server</em></p></td>
-<td><p>指定打开客户端连接时使用的服务器的路径名称（仅限于远程数据服务）。</p></td>
+<td><p>指定在打开客户端连接时要使用的服务器的路径名称。 (仅限远程数据服务。)</p></td>
 </tr>
 </tbody>
 </table>
@@ -58,7 +58,7 @@ ms.locfileid: "28719916"
 
 
 > [!NOTE]
-> 下面的示例中，整个 ADO 程序员指南 》 中的用户 id"MyId"用密码的"123abc 来向用于对服务器进行身份验证。 您应服务器替换为有效的登录凭据与这些值。 此外，代替"MySqlServer"服务器的名称。
+> 在下面的示例和整个 ADO 程序员指南中, 使用密码为 "123aBc" 的用户 id "MyId" 将用于对服务器进行身份验证。 您应将这些值替换为您的服务器的有效登录凭据。 此外, 请将服务器的名称替换为 "MySqlServer"。
 
 第 1 章中 HelloData 应用程序使用以下连接字符串：
 
@@ -68,7 +68,7 @@ m_sConnStr = "Provider='SQLOLEDB';Data Source='MySqlServer';" & _
  "Initial Catalog='Northwind';Integrated Security='SSPI';" 
 ```
 
-此连接字符串中提供的唯一 ADO 参数是"Provider=SQLOLEDB"，它指示 Microsoft OLE DB Provider for SQL Server。 对于连接字符串中传递的其他有效参数，可以参考各个提供程序的文档来确定。 根据 OLE DB Provider for SQL Server 文档，您可以*Initial Catalog*参数的*数据源*参数和"数据库"替换"服务器"。 因此，以下连接字符串可以产生与第一个相同的结果：
+此连接字符串中提供的唯一 ADO 参数是“Provider=SQLOLEDB”，它指示 Microsoft OLE DB Provider for SQL Server。对于连接字符串中传递的其他有效参数，可以参考各个提供程序的文档来确定。按照 OLE DB Provider for SQL Server 文档，可以用“Server”代替 *Data Source* 参数，并用“Server”代替 *Initial Catalog* 参数。因此，以下连接字符串可以产生与第一个相同的结果：
 
 ```vb 
  

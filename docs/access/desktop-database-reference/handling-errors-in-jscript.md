@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f06584ef752e0be7f68b3f661fbdba50b52cd20e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292039"
 ---
 # <a name="handling-errors-in-jscript"></a>处理 JScript 中的错误
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Microsoft JScript 代码必须检查 **Connection** 对象的 **Errors** 集合的 **Count** 属性。如果值大于 0，则迭代遍历集合，并以相应的其他任何语言打印这些值。
 

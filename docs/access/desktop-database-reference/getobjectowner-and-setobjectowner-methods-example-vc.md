@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b1227d60555dcb8da919e75bfa773fd64103a956
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292277"
 ---
 # <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a>GetObjectOwner 和 SetObjectOwner 方法示例 (VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-本示例演示 [GetObjectOwner](getobjectowner-method-adox.md) 和 [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) 方法。 此代码假定存在的组 Accounting （请参阅[组和用户 Append、 ChangePassword 方法示例 （VC + +）](groups-and-users-append-changepassword-methods-example-vc.md)以了解如何将该组添加到系统）。 Categories（类别）表的所有者设置为 Accounting。
+本示例演示 [GetObjectOwner](getobjectowner-method-adox.md) 和 [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) 方法。 此代码假定存在组记帐 (请参阅[Groups 和 Users 的 Append、ChangePassword 方法示例 (VC + +)](groups-and-users-append-changepassword-methods-example-vc.md)以了解如何将此组添加到系统)。 Categories（类别）表的所有者设置为 Accounting。
 
 ```cpp 
  

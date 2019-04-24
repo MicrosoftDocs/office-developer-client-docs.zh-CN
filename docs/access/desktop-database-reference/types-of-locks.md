@@ -1,5 +1,5 @@
 ---
-title: 锁定 （访问桌面数据库引用） 的类型
+title: 锁的类型 (Access desktop database reference)
 TOCTitle: Types of Locks
 ms:assetid: 8276edca-f603-2487-a2ca-73e618c0f11e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249565(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 47b212be1922f783889f1e5be436a616909dc5c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699532"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314159"
 ---
 # <a name="types-of-locks"></a>锁定类型
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 
@@ -37,7 +37,7 @@ ms.locfileid: "28699532"
 
 ## <a name="adlockreadonly"></a>adLockReadOnly
 
-指示只读记录。您不能修改数据。只读锁定是"最快"类型的锁定，因为它不需要服务器维护对记录的锁定。
+指示只读记录。您不能修改数据。只读锁定是“最快”类型的锁定，因为它不需要服务器维护对记录的锁定。
 
 ## <a name="adlockunspecified"></a>adLockUnspecified
 

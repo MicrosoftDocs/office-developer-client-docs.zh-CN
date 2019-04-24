@@ -1,5 +1,5 @@
 ---
-title: 枚举 （DAO 参考 （英文）
+title: 枚举 (DAO 参考)
 TOCTitle: Enumerations
 ms:assetid: d4d91585-f3cc-4e60-8177-244d7244465e
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125640(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b68b8425563d3ffec4939288606eade0bc95763d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293537"
 ---
-# <a name="enumerations-dao-reference"></a>枚举 （DAO 参考 （英文）
+# <a name="enumerations-dao-reference"></a>枚举 (DAO 参考)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 - [CollatingOrderEnum 枚举 (DAO)](collatingorderenum-enumeration-dao.md)
 - [CommitTransOptionsEnum 枚举 (DAO)](committransoptionsenum-enumeration-dao.md)

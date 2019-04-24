@@ -1,5 +1,5 @@
 ---
-title: TableDef.Attributes 属性 (DAO)
+title: TableDef 属性 (DAO)
 TOCTitle: Attributes Property
 ms:assetid: d01588c3-e94e-06bd-6568-974873411f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834701(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: abdb0d07f2293a53fccaf0d628c301750027acc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314390"
 ---
-# <a name="tabledefattributes-property-dao"></a>TableDef.Attributes 属性 (DAO)
+# <a name="tabledefattributes-property-dao"></a>TableDef 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 设置或返回一个值，该值指示 **TableDef** 对象的一个或多个特征。 **Long** 类型，可读写。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。属性
+*表达式*。诸如
 
 *表达式*一个代表**TableDef**对象的变量。
 

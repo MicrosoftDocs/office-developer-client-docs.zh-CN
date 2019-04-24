@@ -1,5 +1,5 @@
 ---
-title: 字段成员 (DAO)
+title: Fields 成员 (DAO)
 TOCTitle: Fields Members
 ms:assetid: b7ba5b21-03f4-6ac0-2acc-777da3d22839
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822428(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a6bfefea569d5298b5fa5c69b1cf610592c9f952
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292536"
 ---
-# <a name="fields-members-dao"></a>字段成员 (DAO)
+# <a name="fields-members-dao"></a>Fields 成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Fields 集合包含 Index、QueryDef、Recordset、Relation 或 TableDef 对象的所有存储的 Field 对象。
 
@@ -36,7 +36,7 @@ Fields 集合包含 Index、QueryDef、Recordset、Relation 或 TableDef 对象�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="fields-append-method-dao.md">追加</a></strong></p></td>
+<td><p><strong><a href="fields-append-method-dao.md">置</a></strong></p></td>
 <td><p>将新的 <strong><a href="field-object-dao.md">Field</a></strong> 添加到 <strong><a href="fields-collection-dao.md">Fields</a></strong> 集合。</p></td>
 </tr>
 <tr class="even">
@@ -66,7 +66,7 @@ Fields 集合包含 Index、QueryDef、Recordset、Relation 或 TableDef 对象�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="fields-count-property-dao.md">计数</a></strong></p></td>
+<td><p><strong><a href="fields-count-property-dao.md">Count</a></strong></p></td>
 <td><p>返回指定集合中的对象数目。 <strong>Integer</strong> 类型，只读。</p></td>
 </tr>
 </tbody>

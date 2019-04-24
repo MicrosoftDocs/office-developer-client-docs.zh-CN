@@ -1,5 +1,5 @@
 ---
-title: Container 对象 (DAO)
+title: 容器对象 (DAO)
 TOCTitle: Container Object
 ms:assetid: 22e487cd-e966-fe68-fff3-c680b460cbeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191764(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c9ebbeae35387f4fd59c39d4c20df6033edb06b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702122"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295630"
 ---
-# <a name="container-object-dao"></a>Container 对象 (DAO)
+# <a name="container-object-dao"></a>容器对象 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Container** 对象可将相似类型的 **Document** 对象组合在一起。
 
@@ -70,11 +70,11 @@ ms.locfileid: "28702122"
 
 若要按照序号或 **Name** 属性设置来引用集合中的 **Container** 对象，可以使用下列任何一种语法形式：
 
-- **Containers**(0)
+- **容器**0
 
-- **容器**（"*name*"）
+- **容器**("*名称*")
 
-- **容器**\!\[*名称*\]
+- ****\!容器\[*名称*\]
 
 ## <a name="example"></a>示例
 

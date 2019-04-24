@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a537756483361733c087d5dc1c6bba6e649d17d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292571"
 ---
 # <a name="fields-collection-ado"></a>Fields 集合 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-包含 [Recordset](field-object-ado.md) 或 [Record](recordset-object-ado.md) 对象的所有 [Field](record-object-ado.md) 对象。
+包含 [Recordset](recordset-object-ado.md) 或 [Record](record-object-ado.md) 对象的所有 [Field](field-object-ado.md) 对象。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **Recordset** 对象具有由 **Field** 对象组成的 **Fields** 集合。每个 **Field** 对应于 **Recordset** 中的一个列。在打开 **Recordset** 之前，您可以通过对 **Fields** 集合调用 [Refresh](refresh-method-ado.md) 方法来填充该集合。
 

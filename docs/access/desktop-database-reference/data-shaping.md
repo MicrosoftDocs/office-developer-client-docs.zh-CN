@@ -1,5 +1,5 @@
 ---
-title: 数据定形 （访问桌面数据库参考 （英文）
+title: 数据定形 (Access 桌面数据库参考)
 TOCTitle: Data shaping
 ms:assetid: 650571cc-6874-2cdb-dd76-0804d1cc4e38
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249390(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ad507ac8c963f1d6ead7bc3bf444e694d83f90e3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716808"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295035"
 ---
 # <a name="data-shaping"></a>数据成型
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 通过数据定形，可以定义定形 **Recordset** 的列、列所代表的实体之间的关系以及在 **Recordset** 中填充数据的方式。
 
@@ -41,6 +41,6 @@ ms.locfileid: "28716808"
 本节包括下列主题：
 
 - [重新构形](reshaping.md)
-- [孙聚合](grandchild-aggregates.md)
+- [孙级聚合](grandchild-aggregates.md)
 - [包含介于中间的 COMPUTE 命令的参数化命令](parameterized-commands-with-intervening-compute-commands.md)
-- [持久化分层记录集](persisting-hierarchical-recordsets.md)
+- [暂留层次记录集](persisting-hierarchical-recordsets.md)

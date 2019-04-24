@@ -1,5 +1,5 @@
 ---
-title: DataSpace 对象 (RDS)
+title: 空间对象 (RDS)
 TOCTitle: DataSpace object (RDS)
 ms:assetid: 7db181d5-422b-49fe-b6af-a20f5da520ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249527(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f77617d4ddfb0160b8a418f55582a380067fde70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294461"
 ---
-# <a name="dataspace-object-rds"></a>DataSpace 对象 (RDS)
+# <a name="dataspace-object-rds"></a>空间对象 (RDS)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 创建位于中间层的自定义业务对象的客户端代理。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 远程数据服务需要业务对象代理，以便客户端组件可以与位于中间层的业务对象通信。通过代理，可以方便地利用跨进程或计算机边界的应用程序的 [Recordset](recordset-object-ado.md) 数据的打包、解包和传输（封送处理）功能。
 

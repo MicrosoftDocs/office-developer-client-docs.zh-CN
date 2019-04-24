@@ -1,5 +1,5 @@
 ---
-title: TableDef.SourceTableName 属性 (DAO)
+title: SourceTableName 属性 (DAO) TableDef
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: bd2610e728d97d3a9fc2f6359a42fd3cdccb11e5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314257"
 ---
-# <a name="tabledefsourcetablename-property-dao"></a>TableDef.SourceTableName 属性 (DAO)
+# <a name="tabledefsourcetablename-property-dao"></a>SourceTableName 属性 (DAO) TableDef
 
 
-**适用于**： Access 2013、 Office 2013 
+**适用于**：Access 2013、Office 2013 
 
 设置或返回一个值，该值指定链接表或基表的名称（仅适用于 Microsoft Access 工作区）。
 

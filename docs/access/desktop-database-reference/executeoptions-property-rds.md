@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9cf773090ccb37bf4cad4aff41499ad01f966479
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293250"
 ---
 # <a name="executeoptions-property-rds"></a>ExecuteOptions 属性 (RDS)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示是否启用异步执行。
 
@@ -43,7 +43,7 @@ ms.locfileid: "28699819"
 </tr>
 <tr class="even">
 <td><p><strong>adcExecAsync</strong></p></td>
-<td><p>该值为默认值。异步执行 <strong>Recordset</strong> 的下一个刷新操作。</p></td>
+<td><p>默认值。 异步执行 <strong>Recordset</strong> 的下一个刷新操作。</p></td>
 </tr>
 </tbody>
 </table>
@@ -51,11 +51,11 @@ ms.locfileid: "28699819"
 > [!NOTE]
 > [!注释] 使用这些常量的每个客户端可执行文件必须提供其声明。可从位于 C:\Program Files\Common Files\System\MSADC 文件夹中的 Adcvbs.inc 文件剪切并粘贴所需的常量声明。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果 **ExecuteOptions** 设置为 **adcExecAsync** ，则将对 **RDS.DataControl** 对象的 [Recordset](datacontrol-object-rds.md) 异步执行下一个 **Refresh** 调用。
+如果 **ExecuteOptions** 设置为 **adcExecAsync**，则将对 [RDS.DataControl](datacontrol-object-rds.md) 对象的 **Recordset** 异步执行下一个 **Refresh** 调用。
 
-当正在执行另一个可能更改 [RDS.DataControl](reset-method-rds.md) 对象的 [Recordset](refresh-method-rds.md) 的异步操作时，如果尝试调用 [Reset](submitchanges-method-rds.md)、[Refresh](cancelupdate-method-ado.md)、[SubmitChanges](recordset-sourcerecordset-properties-rds.md)、[CancelUpdate](datacontrol-object-rds.md) 或 **Recordset**，则将发生错误。
+当正在执行另一个可能更改 [RDS.DataControl](datacontrol-object-rds.md) 对象的 **Recordset** 的异步操作时，如果尝试调用 [Reset](reset-method-rds.md)、[Refresh](refresh-method-rds.md)、[SubmitChanges](submitchanges-method-rds.md)、[CancelUpdate](cancelupdate-method-ado.md) 或 [Recordset](recordset-sourcerecordset-properties-rds.md)，则将发生错误。
 
 如果在异步操作期间发生错误，则 **RDS.DataControl** 对象的 [ReadyState](readystate-property-rds.md) 值将从 **adcReadyStateLoaded** 更改为 **adcReadyStateComplete**，而 **Recordset** 属性值仍为 *Nothing*。
 

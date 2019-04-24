@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d1e4ecbc216ab4a00dabd85f623bc134772dfd4c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306186"
 ---
 # <a name="updatetypeenum-enumeration-dao"></a>UpdateTypeEnum 枚举 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 与 **Update** 方法一起用来指定要写入到磁盘中的更新。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28706161"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>值</p></th>
 <th><p>说明</p></th>
 </tr>
@@ -42,7 +42,7 @@ ms.locfileid: "28706161"
 </tr>
 <tr class="even">
 <td><p>dbUpdateCurrentRecord</p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>仅将当前记录的挂起更改写入磁盘中。</p></td>
 </tr>
 <tr class="odd">

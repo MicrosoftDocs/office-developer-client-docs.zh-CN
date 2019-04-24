@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a27491acabd19f688eca4159a36dcfcfc486a026
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312080"
 ---
 # <a name="using-the-java-type-library-wizard"></a>使用 Java 类型库向导
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-Java 类型库向导是一项功能的 Visual J + + 1.x，集成开发环境的**工具**菜单。 其用途是搜索类型库创建一个允许访问 COM 对象的 Java 接口。 对于 Visual J + + 6.0，已使用[ADO for Windows Foundation Classes](ado-wfc-programming.md)取代 Java 类型库向导。
+The Java Type Library Wizard is a feature of Visual J++ 1.x, integrated into the **Tools** menu of the development environment. Its purpose is to search a type library and create a Java interface that allows access to COM objects. For Visual J++ 6.0, the Java Type Library Wizard has been replaced with [ADO for Windows Foundation Classes](ado-wfc-programming.md).
 
 Java 类型库向导的执行效果与 [Microsoft SDK for Java](using-the-microsoft-sdk-for-java.md) 中的命令行工具类似。不过，您不能进入向导所生成的类包装中，这一点与 Microsoft SDK for Java 所生成的类包装不同。
 
-Java 类型库向导生成的类在以下位置： \\ \<windows 目录\>\\Java\\trustlib\\msado15。 生成类的目录下的 Summary.txt 文件显示了所生成的类定义。
+Java 类型库向导在以下位置生成类: \\ \<windows directory\>\\Java\\trustlib\\msado15.dll。 生成类的目录下的 Summary.txt 文件显示了所生成的类定义。
 
 Java 类型库向导将在任何给定类型库中发现的枚举类型转换为 INT（整数）类型。它还定义一个接口，对应于类型库中的每个枚举类型。您可以用以下语法引用 ADO 枚举类型的值：
 
@@ -43,11 +43,11 @@ Cmd1.putCommandType( msado15.CommandTypeEnum.adCmdStoredProc );
 
 有关更多示例代码，请参阅 [ADO Java 类包装](ado-java-class-wrappers.md)。
 
-**若要从 Visual J + + 版本 1.*x 运行 Java 类型库向导***
+**从 Visual j + + 版本 1. * x 运行 Java 类型库向导***
 
-1.  从**工具**菜单中，选择**Java 类型库向导**。
+1.  From the **Tools** menu, select **Java Type Library Wizard**.
 
-2.  选择"Microsoft ActiveX 数据对象库"，然后单击**确定**。 此立即 (re) 生成文件\\ADO trustlib 目录 (默认情况下，c： 在\\可以对\\java\\trustlib\\msado15)。 如果您使用 Microsoft SDK for Java 已生成类的 ADO，它们将使用 Java 类型库向导来自被替换。
+2.  Select "Microsoft ActiveX Data Objects Library" and click **OK**. 这现在 (re \\) 将在 trustlib 目录中为 ADO 生成文件 (默认情况下为\\c\\:\\winnt\\java trustlib msado15.dll)。 If you used the Microsoft SDK for Java to already generate classes for ADO, they will be replaced with those from the Java Type Library Wizard.
 
-3.  若要使用这些文件，打开您的项目在 Visual J + + 中。 从**项目**菜单中，选择**添加到项目**。 选择**文件**，然后添加的所有。JAVA 文件中生成\\trustlib 目录 (默认情况下，c： 在\\可以对\\java\\trustlib\\msado15) 向您的项目。
+3.  To use these files, open your project in Visual J++. 从“工程”**** 菜单中，选择“添加到工程”****。 选择 "**文件**", 并将所有。在\\trustlib 目录中生成的 JAVA 文件 (默认情况下为\\c\\:\\winnt\\java trustlib msado15.dll) 到您的项目。
 

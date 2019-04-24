@@ -13,22 +13,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0750bdce0e1cda383c48f9c16e62e00997fdfb0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313389"
 ---
 # <a name="use-microsoft-access-as-a-dde-server"></a>将 Microsoft Access 用作 DDE 服务器
 
-**适用于**： Access 2013、 Office 2013 
+**适用于**：Access 2013、Office 2013 
 
 Microsoft Access 以目标（客户端）应用程序或源（服务器）应用程序形式支持动态数据交换 (DDE)。例如，一个作为客户端的应用程序，如 Microsoft Word，可以通过 DDE 从一个作为服务器的 Microsoft Access 数据库请求数据。
 
 > [!TIP]
 > [!提示] 如果要从另一个应用程序中操纵 Microsoft Access 对象，可能需要考虑使用"自动化"。
 
-客户端和服务器之间的 DDE 对话是建立在特定的主题上的。 主题可以是服务器应用程序所支持格式的数据文件，也可以是提供有关服务器应用程序本身信息的 System 主题。 在特定的主题开始对话后，可以传送仅与该主题相关的数据项。
+客户端和服务器之间的 DDE 对话是建立在特定的主题上的。 主题可以是服务器应用程序所支持格式的数据文件，也可以是提供有关服务器应用程序本身信息的 System 主题。 在某个特定主题开始之后, 只能转移与该主题关联的数据项。
 
 例如，假定您正在运行 Microsoft Word，并要将一个特定的 Microsoft Access 数据库中的数据插入到文档中。通过使用 **DDEInitiate** 函数将 DDE 通道打开，并指定数据库文件名称作为主题，即可开始与 Microsoft Access 的 DDE 对话，然后就可以通过该通道将数据库中的数据传送给 Microsoft Word。
 
@@ -44,7 +44,7 @@ Microsoft Access 以目标（客户端）应用程序或源（服务器）应用
 
 - Microsoft Access SQL 字符串（*sqlstring* 主题）
 
-已建立 DDE 会话后，您可以使用**DDEExecute**语句将命令从客户端发送到服务器应用程序。 Microsoft Access 在用作 DDE 服务器时，将以下命令均识别为有效命令：
+建立 DDE 对话之后, 可以使用**DDEExecute**语句将命令从客户端发送到服务器应用程序。 Microsoft Access 在用作 DDE 服务器时，将以下命令均识别为有效命令：
 
 - 当前数据库中的宏名称。
 
@@ -53,12 +53,12 @@ Microsoft Access 以目标（客户端）应用程序或源（服务器）应用
 - 仅用于 DDE 运算的 OpenDatabase 和 CloseDatabase 操作。（有关如何使用这些操作的示例，请参阅本主题后面部分的示例。）
 
 > [!NOTE]
-> [!注释] 当将一个宏操作指定为 **DDEExecute** 语句时，该操作和所有参数均遵循 **DoCmd** 对象的语法且必须包含在方括号 ([ ]) 中。但支持 DDE 的应用程序并不识别 DDE 运算中的固有常量。同样，如果字符串包含逗号，则必须将该字符串参数包括在引号 (" ") 中。否则，就不需要引号。
+> 当将一个宏操作指定为 **DDEExecute** 语句时，该操作和所有参数均遵循 **DoCmd** 对象的语法且必须包含在方括号 ([ ]) 中。但支持 DDE 的应用程序并不识别 DDE 运算中的固有常量。同样，如果字符串包含逗号，则必须将该字符串参数包括在引号 (" ") 中。否则，就不需要引号。
 
-通过打开的 DDE 通道，客户端应用程序可以使用 **DDERequest** 函数向服务器应用程序请求文本数据。 反之，客户端可以使用 **DDEPoke** 语句将数据发送到服务器应用程序。 数据传输完成后，客户端可使用**DDETerminate**语句关闭 DDE 通道或**DDETerminateAll**语句关闭所有打开的通道。
+通过打开的 DDE 通道，客户端应用程序可以使用 **DDERequest** 函数向服务器应用程序请求文本数据。 反之，客户端可以使用 **DDEPoke** 语句将数据发送到服务器应用程序。 数据传输完成后, 客户端可以使用**DDETerminate**语句关闭 DDE 通道, 或使用**另**语句关闭所有打开的通道。
 
 > [!NOTE]
-> [!注释] 当客户端应用程序通过 DDE 通道接收完数据后，应关闭该通道以节省内存资源。
+> 当客户端应用程序通过 DDE 通道接收完数据后，应关闭该通道以节省内存资源。
 
 下面的示例将演示如何用 Visual Basic 创建 Microsoft Word 过程，并将 Microsoft Access 用作 DDE 服务器。（必须正在运行 Microsoft Access，才能使该示例工作。）
 
@@ -95,7 +95,7 @@ Microsoft Access 以目标（客户端）应用程序或源（服务器）应用
 
 ## <a name="the-system-topic"></a>System 主题
 
-System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主题。 它提供有关支持的应用程序的其他主题的信息。 若要访问此信息，您的代码必须首先调用**DDEInitiate**函数与*topic*参数，然后使用*item*参数提供下列选项之一执行**DDERequest**语句。
+System 主题是一个针对所有基于 Microsoft Windows 的应用程序的标准主题。 它提供有关应用程序支持的其他主题的信息。 若要访问此信息, 您的代码必须先调用带有*主题*参数的**查阅**函数, 然后使用为 item 参数提供的以下其中一*项*执行**DDERequest**语句。
 
 <table>
 <colgroup>
@@ -118,8 +118,8 @@ System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主�
 <td><p>Microsoft Access 可以复制到“剪贴板”上的格式的列表。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Status</p></td>
-<td><p>&quot;忙&quot;或&quot;准备&quot;。</p></td>
+<td><p>状态</p></td>
+<td><p>&quot;忙&quot;或&quot;准备&quot;就绪。</p></td>
 </tr>
 <tr class="even">
 <td><p>Topics</p></td>
@@ -144,12 +144,12 @@ System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主�
     DDEExecute intChan1, "[OpenDatabase C:\Access\Samples\Northwind.mdb]"
 ```
 
-## <a name="the-database-topic"></a>Database 主题
+## <a name="the-database-topic"></a>数据库主题
 
-*Database*主题是数据库的一个现有的文件名。 您可以键入刚的基名称 (Northwind) 或其路径和.mdb 扩展名 (c:\\访问\\示例\\Northwind.mdb)。 在开始与该数据库的 DDE 对话以后，可以请求该数据库中的对象列表。
+*database* 主题是某个现有数据库的文件名。 既可以仅键入基本名称 (Northwind), 也可以键入其路径和 .mdb 扩展名 (C:\\Access\\示例\\Northwind. .mdb)。 在开始与该数据库的 DDE 对话以后，可以请求该数据库中的对象列表。
 
 > [!NOTE]
-> [!注释] 不能使用 DDE 来查询 Microsoft Access 工作组信息文件。
+> 不能使用 DDE 来查询 Microsoft Access 工作组信息文件。
 
 *database* 主题支持以下项目。
 
@@ -175,11 +175,11 @@ System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主�
 </tr>
 <tr class="odd">
 <td><p>FormList</p></td>
-<td><p>窗体列表</p></td>
+<td><p>表单列表</p></td>
 </tr>
 <tr class="even">
 <td><p>ReportList</p></td>
-<td><p>报表的列表</p></td>
+<td><p>报告列表</p></td>
 </tr>
 <tr class="odd">
 <td><p>MacroList</p></td>
@@ -225,7 +225,7 @@ System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主�
 
 _databasename_ ;**表**_tablename_
 
-_databasename_ ;**查询**_查询_
+_databasename_ ;**查询**_queryname_
 
 _databasename_ ;**SQL**[ _sqlstring_ ]
 
@@ -238,7 +238,7 @@ _databasename_ ;**SQL**[ _sqlstring_ ]
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -248,7 +248,7 @@ _databasename_ ;**SQL**[ _sqlstring_ ]
 <td><p>表或查询所在的数据库或 SQL 语句应用到的数据库的名称，后跟一个分号 (;)。数据库名称可以只是基本名称 (Northwind)，也可以外加完整路径和 .mdb 扩展名 (C:\Access\Samples\Northwind.mdb)。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>tablename</em></p></td>
+<td><p><em>名</em></p></td>
 <td><p>某个已有表的名称。</p></td>
 </tr>
 <tr class="odd">
@@ -257,7 +257,7 @@ _databasename_ ;**SQL**[ _sqlstring_ ]
 </tr>
 <tr class="even">
 <td><p><em>sqlstring</em></p></td>
-<td><p>最多 256 个字符之间，用分号结束有效的 SQL 语句。 Exchange 超过 256 个字符，忽略此参数，而是使用连续<strong>DDEPoke</strong>语句来建立 SQL 语句。 例如，以下 Visual Basic 代码使用 <strong>DDEPoke</strong> 语句来建立 SQL 语句，然后请求查询结果。</p></td>
+<td><p>一个以分号结尾的有效 SQL 语句，可长达 256 个字符。 若要交换的字符多于 256 个，可省略该参数而使用后继的 <strong>DDEPoke</strong> 语句来建立 SQL 语句。 例如，以下 Visual Basic 代码使用 <strong>DDEPoke</strong> 语句来建立 SQL 语句，然后请求查询结果。</p></td>
 </tr>
 </tbody>
 </table>
@@ -279,7 +279,7 @@ _databasename_ ;**SQL**[ _sqlstring_ ]
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>All</p></td>
+<td><p>全部</p></td>
 <td><p>表中的所有数据，包括字段名。</p></td>
 </tr>
 <tr class="even">
@@ -291,23 +291,23 @@ _databasename_ ;**SQL**[ _sqlstring_ ]
 <td><p>字段名单行列表。</p></td>
 </tr>
 <tr class="even">
-<td><p>FieldNames;T</p></td>
+<td><p>FieldNames关心</p></td>
 <td><p>字段名（第一行）及其数据类型（第二行）的双行列表。</p>
-<p>下面是返回的值：</p>
+<p>以下是返回的值:</p>
 <p>值</p>
 <p><ul>
 <li>0</li>
 <li>1</li>
-<li>2</li>
-<li>3</li>
+<li>双面</li>
+<li>第三章</li>
 <li>4</li>
 <li>5</li>
-<li>6</li>
-<li>7</li>
-<li>8</li>
-<li>9</li>
+<li>型</li>
+<li>步</li>
+<li>utf-8</li>
+<li>第</li>
 <li>10</li>
-<li>11</li>
+<li>11x17</li>
 <li>12</li>
 </ul>
 </p>
@@ -335,18 +335,18 @@ _databasename_ ;**SQL**[ _sqlstring_ ]
 </tr>
 <tr class="odd">
 <td><p>SQLText</p></td>
-<td><p>表示表或查询的 SQL 语句。 对于表，此项返回的 SQL 语句形式&quot;选择`*`从<em>表</em>;&quot;.</p></td>
+<td><p>代表表或查询的 SQL 语句。 对于表, 此项返回从<em>表</em>中选择`*`的窗&quot;体中的 SQL 语句;&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p>SQLText;<em>n</em></p></td>
-<td><p>SQL 语句， <em>n</em>-字符块大小，表示表或查询，其中<em>n</em>是最多 256 的整数。 例如，假设查询由以下 SQL 语句： 项目&quot;SQLText; 7&quot;返回以下以制表符分隔的块： 项目&quot;SQLText; 7&quot;返回以下以制表符分隔的块：</p></td>
+<td><p>一个 SQL 语句，<em>n</em> 个字符块的大小，代表该表或查询，其中 <em>n</em> 是最大为 256 的整数。 例如, 假设查询由以下 SQL 语句&quot;表示: 项目 SQLText; 7&quot;返回以下以制表符分隔的块: item &quot;SQLText; 7&quot;返回以下以制表符分隔的块:</p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-下面的示例显示在 Visual Basic 过程中如何使用 DDE 请求"罗斯文"示例数据库的表中的数据，并将该数据插入到文本文件中：
+下面的示例显示在 Visual Basic 过程中如何使用 DDE 请求“罗斯文”示例数据库的表中的数据，并将该数据插入到文本文件中：
 
 ```vb
     Sub NorthwindDDE 

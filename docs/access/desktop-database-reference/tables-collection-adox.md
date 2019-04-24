@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e53cd4b6d4a61a226103eb443bac7f3b4f92d908
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314047"
 ---
 # <a name="tables-collection-adox"></a>Tables 集合 (ADOX)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 包含目录的所有 [Table](table-object-adox.md) 对象。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-[Tables](append-method-adox-tables.md) 集合的 **Append** 方法对于 ADOX 来说是唯一的。您可以进行下列操作：
+**Tables** 集合的 [Append](append-method-adox-tables.md) 方法对于 ADOX 来说是唯一的。您可以进行下列操作：
 
   - 使用 **Append** 方法向集合添加新表。
 

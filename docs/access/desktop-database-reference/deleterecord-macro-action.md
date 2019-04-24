@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8fb20068052972696b09ea0d2165b344e97ea922
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294013"
 ---
 # <a name="deleterecord-macro-action"></a>DeleteRecord 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **DeleteRecord** 操作删除记录。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **DeleteRecord** 数据块具有以下参数。
 
@@ -38,14 +38,14 @@ ms.locfileid: "28725950"
 <tbody>
 <tr class="odd">
 <td><p><strong>Record Alias</strong></p></td>
-<td><p>一个用于标识要删除的记录的字符串。如果未指定 <em>Alias</em> 参数，则会删除当前记录。</p></td>
+<td><p>一个用于标识要删除的记录的字符串。 如果未指定 <em>Alias</em> 参数，则会删除当前记录。</p></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
-您可以使用 **LastCreateRecordIdentity** 本地变量来处理在 **CreateRecord** 数据块中创建的最后一条记录。 例如，使用以下语法引用最近创建的记录：
+您可以使用 **LastCreateRecordIdentity** 本地变量来处理在 **CreateRecord** 数据块中创建的最后一条记录。 例如, 使用以下语法来引用最近创建的记录:
 
 `[LastCreateRecordIdentity]`
 

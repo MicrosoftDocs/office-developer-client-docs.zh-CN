@@ -1,5 +1,5 @@
 ---
-title: Workspace.CreateDatabase 方法 (DAO)
+title: CreateDatabase 方法 (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: c0ad986e-3b4d-f781-f782-5aa3cdccea7d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e6d271676ef91d29dca78ba9ee4b6142e055b36d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305864"
 ---
-# <a name="workspacecreatedatabase-method-dao"></a>Workspace.CreateDatabase 方法 (DAO)
+# <a name="workspacecreatedatabase-method-dao"></a>CreateDatabase 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 创建一个新的 **[Database](database-object-dao.md)** 对象，将数据库保存到磁盘，然后返回一个打开的 **Database** 对象（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。CreateDatabase （***名称***、***连接***，***选项***）
+*表达式*。CreateDatabase (***Name***, ***Connect***, ***Option***)
 
 *表达式*一个代表**Workspace**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ ms.locfileid: "28702129"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -48,7 +48,7 @@ ms.locfileid: "28702129"
 <td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>一个最长 255 个字符的字符串，是正在创建的数据库文件的名称。 它可以是完整路径和文件名称。 如果您的网络支持，您还可以指定一个网络路径，如&quot; \\server1\share1\dir1\db1&quot;。 仅可以使用此方法来创建 Microsoft Access 数据库文件。</p></td>
+<td><p>一个最长为 255 个字符的 String，是所创建的数据库文件的名称。 它可以是完整路径和文件名。 如果网络支持, 您还可以指定网络路径, 例如&quot; \\server1\share1\dir1\db1&quot;。 使用此方法只能创建 Microsoft Access 数据库文件。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
@@ -56,10 +56,10 @@ ms.locfileid: "28702129"
 <td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>一个字符串表达式，根据“设置”中的定义指定创建数据库时使用的整理顺序。必须提供此参数，否则会发生错误。</p></li>
-<li><p>您还可以通过将密码字符串创建新的<strong>Database</strong>对象的密码 (开头&quot;; pwd =&quot;) 与<em>locale</em>参数，如下所示中的一个常量：</p></li>
-<li><p>dbLangSpanish &amp; &quot;; pwd = NewPassword&quot;</p></li>
+<li><p>您还可以通过将密码字符串 (以<strong></strong> &quot;;p wd =&quot;) 连接到<em>locale</em>参数中的一个常量来为新的 Database 对象创建密码, 如下所示:</p></li>
+<li><p>dbLangSpanish &amp; &quot;;p wd = NewPassword&quot;</p></li>
 <li><p>如果需要使用默认的 <em>locale</em>，但又要指定密码，只需要为 <em>locale</em> 参数输入密码字符串：</p></li>
-<li><p>&quot;pwd = NewPassword&quot;</p></li>
+<li><p>&quot;;p wd = NewPassword&quot;</p></li>
 <li><p>[!注释] 使用同时包含大小写字母、数字和符号的强密码。弱密码不混合使用这些元素。例如，强密码：Y6dh!et5。弱密码：House27。请使用可以记住的强密码，这样就不必记录密码了。</p></li>
 </ul></td>
 </tr>

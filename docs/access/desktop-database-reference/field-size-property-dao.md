@@ -1,5 +1,5 @@
 ---
-title: Field.Size 属性 (DAO)
+title: Field 值属性 (DAO)
 TOCTitle: Size Property
 ms:assetid: 15e25201-87b6-f62f-ff18-259414a47891
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845510(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 16ce8a9e63c18ded2738035f23e9a1baeff4cc8c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708338"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293013"
 ---
-# <a name="fieldsize-property-dao"></a>Field.Size 属性 (DAO)
+# <a name="fieldsize-property-dao"></a>Field 值属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 设置或返回一个值，该值指示 **[Field](field-object-dao.md)** 对象的最大大小（以字节计）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。大小
+*表达式*。字体
 
 *表达式*一个代表**Field**对象的变量。
 
@@ -66,7 +66,7 @@ ms.locfileid: "28708338"
 </tr>
 <tr class="even">
 <td><p><strong>Relation</strong></p></td>
-<td><p>不支持</p></td>
+<td><p>不受支持</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>
@@ -78,7 +78,7 @@ ms.locfileid: "28708338"
 
 当创建数据类型非"文本"的 **Field** 对象时， **[Type](field-type-property-dao.md)** 属性设置自动确定 **Size** 属性设置；您不需要对其进行设置。对于数据类型为"文本"的 **Field** 对象，可以将 **Size** 设置为不超过最大文本大小的任何整数（对于 Microsoft Access 数据库，最大文本大小为 255）。如果不设置大小，则字段将为数据库所允许的大小。
 
-对于"长二进制"和"备注" **Field** 对象， **Size** 始终设置为 0。使用 [Field](field-fieldsize-property-dao.md) 对象的 ****FieldSize**** 属性可以确定特定记录的数据大小。"长二进制"或"备注"字段的最大大小仅受系统资源或数据库允许的最大大小的限制。
+对于“长二进制”和“备注”**Field** 对象，**Size** 始终设置为 0。 使用**Field**对象的**[FieldSize](field-fieldsize-property-dao.md)** 属性可以确定特定记录中的数据的大小。 “长二进制”或“备注”字段的最大大小只受系统资源或数据库允许的最大大小的限制。
 
 ## <a name="example"></a>示例
 

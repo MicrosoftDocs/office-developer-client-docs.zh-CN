@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 844cb85e4e760f9d6c92fdc4d6ec8996fcc167ac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297142"
 ---
 # <a name="append-and-createparameter-methods-example-jscript"></a>Append 和 CreateParameter 方法示例 (JScript)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下示例使用 [Append](append-method-ado.md) 和 [CreateParameter](createparameter-method-ado.md) 方法执行带输入参数的存储过程。将以下代码剪切并粘贴到记事本或其他文本编辑器，并另存为 **AppendJS.asp** 。
 

@@ -1,5 +1,5 @@
 ---
-title: KeyTypeEnum （访问桌面数据库参考 （英文）
+title: KeyTypeEnum (Access desktop database reference)
 TOCTitle: KeyTypeEnum
 ms:assetid: 333fe365-ff74-9a12-63a7-f3e3f5eff7f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249103(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 995c04a154f68c5889e089cea7575bd522b0ea5d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714736"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290241"
 ---
 # <a name="keytypeenum"></a>KeyTypeEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 [Key](key-object-adox.md) 的类型：主键、外键或唯一键。
 
@@ -43,12 +43,12 @@ ms.locfileid: "28714736"
 </tr>
 <tr class="even">
 <td><p><strong>adKeyForeign</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>键为外键。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adKeyUnique</strong></p></td>
-<td><p>3</p></td>
+<td><p>第三章</p></td>
 <td><p>键为唯一键。</p></td>
 </tr>
 </tbody>

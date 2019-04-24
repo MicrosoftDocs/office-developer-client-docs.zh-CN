@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7534ae84b57d14450009865ea330a4c54d4cfb44
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292137"
 ---
 # <a name="gotorecord-macro-action"></a>GoToRecord 宏操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **GoToRecord** 操作将指定记录设置为打开的表、窗体或查询结果集中的当前记录。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **GoToRecord** 操作具有下列参数。
 
@@ -47,7 +47,7 @@ ms.locfileid: "28708478"
 </tr>
 <tr class="even">
 <td><p><strong>对象名称</strong></p></td>
-<td><p>包含您要使成为当前记录的记录的对象的名称。 <strong>对象名称</strong>框中显示<strong>对象类型</strong>参数所选类型为当前数据库中的所有对象。 如果将<strong>对象类型</strong>参数留空，还应将此参数留空。</p></td>
+<td><p>要设置为当前记录的记录所在的对象的名称。“对象名称”<strong></strong>框显示属于“对象类型”<strong></strong>参数所选类型的当前数据库中的所有对象。如果将“对象类型”<strong></strong>参数留空，则也要将此参数留空。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Record</strong></p></td>
@@ -55,13 +55,13 @@ ms.locfileid: "28708478"
 </tr>
 <tr class="even">
 <td><p><strong>Offset</strong></p></td>
-<td><p>整数或计算结果为一个整数值的表达式。 一个表达式前面必须有一个等号 (<strong>=</strong>)。 此参数指定要使成为当前记录的记录。 您可以使用两种方式的<strong>偏移量</strong>参数：</p>
+<td><p>一个整数或求值结果为整数的表达式。 表达式的前面必须有等号 (<strong>=</strong>)。 此参数指定要设置为当前记录的记录。 “偏移量”<strong></strong>参数有两种用法：</p>
 <ul>
-<li><p>当<strong>记录</strong>参数为<strong>下一个</strong>或<strong>上一步</strong>时，Microsoft Office Access 2007 将移动向前或向后<strong>偏移</strong>参数中指定的记录数。</p></li>
-<li><p><strong>转到</strong><strong>记录</strong>参数时，Access 将移动到的记录数等于<strong>偏移量</strong>参数中。 记录号显示在窗口底部的记录编号框。</p>
-<p><strong>注意</strong>： 如果您使用的<strong>第一个</strong>、<strong>最后一个</strong>，或<strong>新</strong>的<strong>记录</strong>参数设置，Access 会忽略<strong>偏移量</strong>参数。 如果输入太大的<strong>偏移量</strong>参数，则 Access 将显示一条错误消息。 不能的<strong>偏移量</strong>参数输入负数。</p></li>
-<li><p>当<strong>记录</strong>参数为<strong>下一个</strong>或<strong>上一步</strong>时，Microsoft Office Access 2007 将移动向前或向后<strong>偏移</strong>参数中指定的记录数。</p></li>
-<li><p><strong>转到</strong><strong>记录</strong>参数时，Access 将移动到的记录数等于<strong>偏移量</strong>参数中。 记录号显示在窗口底部的记录编号框。</p></li>
+<li><p>当“记录”<strong></strong>参数为<strong>“下一个”</strong>或<strong>“上一个”</strong>时，Microsoft Office Access 2007 会向前或向后移动“偏移量”<strong></strong>参数指定的记录数。</p></li>
+<li><p>当“记录”<strong></strong>参数为<strong>“转至”</strong>时，Access 会移到编号等于“偏移量”<strong></strong>参数的记录。记录编号显示在窗口底部的记录编号框中。</p>
+<p><strong>注意</strong>: 如果使用<strong>Record</strong>参数的<strong>第一个</strong>、<strong>最后一个</strong>或<strong>新</strong>设置, Access 将忽略<strong>Offset</strong>参数。 如果输入的“偏移量”<strong></strong>参数过大，Access 将显示一条错误消息。 不能为“偏移量”<strong></strong>参数输入负数。</p></li>
+<li><p>当“记录”<strong></strong>参数为<strong>“下一个”</strong>或<strong>“上一个”</strong>时，Microsoft Office Access 2007 会向前或向后移动“偏移量”<strong></strong>参数指定的记录数。</p></li>
+<li><p>当“记录”<strong></strong>参数为<strong>“转至”</strong>时，Access 会移到编号等于“偏移量”<strong></strong>参数的记录。记录编号显示在窗口底部的记录编号框中。</p></li>
 </ul>
 </td>
 </tr>
@@ -69,15 +69,15 @@ ms.locfileid: "28708478"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果焦点位于记录中的某个特定控件中，此操作会将焦点留在新记录的相同控件中。
 
-您可以使用**记录**参数的**新**设置移至窗体或表末尾的空白记录，以便您可以输入新的数据。
+You can use the **New** setting for the **Record** argument to move to the blank record at the end of a form or table so you can enter new data.
 
-类似于单击下**主页**选项卡上的**查找**按钮的箭头，然后单击**转到**此操作。 **第一个**、**最后一个**、**下一个**、**上一步**和**新记录**子命令的**转到**命令具有对所选对象作为**第一个**、**最后一个**、**下一个**、**上一步**，相同的影响和**记录**参数的**新**设置。 您还可以使用窗口的底部的导航按钮记录移动。
+This action is similar to clicking the arrow below the **Find** button on the **Home** tab and then clicking **Go To**. The **First**, **Last**, **Next**, **Previous**, and **New Record** subcommands of the **Go To** command have the same effect on the selected object as the **First**, **Last**, **Next**, **Previous**, and **New** settings for the **Record** argument. You can also move to records by using the navigation buttons at the bottom of the window.
 
-您可以使用**GoToRecord**操作使隐藏窗体上的当前记录的记录，如果在**对象类型**和**对象名称**参数中指定了隐藏窗体。
+You can use the **GoToRecord** action to make a record on a hidden form the current record if you specify the hidden form in the **Object Type** and **Object Name** arguments.
 
 要在 Visual Basic for Applications (VBA) 模块中运行 **GoToRecord** 操作，请使用 **DoCmd** 对象的 **GoToRecord** 方法。
 

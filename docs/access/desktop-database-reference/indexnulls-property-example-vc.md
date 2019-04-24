@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c94ef7da07a9d68fe04dade18e1e54f8277ace6c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291426"
 ---
 # <a name="indexnulls-property-example-vc"></a>IndexNulls 属性示例 (VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-本示例演示 [Index](indexnulls-property-adox.md) 的 [IndexNulls](index-object-adox.md) 属性。 代码创建新的索引，并根据用户输入设置 **IndexNulls** 的值。 然后，**索引**追加到*罗斯文*[目录](catalog-object-adox.md)中的**Employees** [表](table-object-adox.md)。 新的 **Index** 应用于基于 [Employees](recordset-object-ado.md) （雇员）表的 **Recordset**，并且该 **Recordset** 被打开。 有一条新记录添加到 **Employees** （雇员）表中，并且索引字段为 **Null** 值。 此新记录是否显示取决于 **IndexNulls** 属性的设置。
+本示例演示 [Index](indexnulls-property-adox.md) 的 [IndexNulls](index-object-adox.md) 属性。 代码创建新的索引，并根据用户输入设置 **IndexNulls** 的值。 然后, 将**索引**追加到*Northwind* [目录](catalog-object-adox.md)中的**Employees** [表](table-object-adox.md)。 新的 **Index** 应用于基于 [Employees](recordset-object-ado.md) （雇员）表的 **Recordset**，并且该 **Recordset** 被打开。 有一条新记录添加到 **Employees** （雇员）表中，并且索引字段为 **Null** 值。 此新记录是否显示取决于 **IndexNulls** 属性的设置。
 
 ```cpp 
  
@@ -216,7 +216,7 @@ void IndexNullsX(_bstr_t strSel)
 
 <br/>
 
-**IndexNullX.h**
+**IndexNullX**
 
 ```cpp
     // BeginIndexNullsH 

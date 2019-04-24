@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9018ae314f814f3adca3268beba2f82e4e0ea2fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312157"
 ---
 # <a name="views-refresh-method-example-vb"></a>Views 的 Refresh 方法示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-下面的代码演示如何刷新 [Catalog](views-collection-adox.md) 的 [Views](catalog-object-adox.md) 集合。必须先执行此操作，然后才能访问 [Catalog](view-object-adox.md) 中的 **View** 对象。
+下面的代码演示如何刷新 [Catalog](catalog-object-adox.md) 的 [Views](views-collection-adox.md) 集合。必须先执行此操作，然后才能访问 **Catalog** 中的 [View](view-object-adox.md) 对象。
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: Database.CollatingOrder 属性 (DAO)
+title: CollatingOrder 属性 (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: 7f6c35bf-e5f9-8423-608e-bc072ca09141
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196459(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 21d775c0abac5d2afddd6b0930816c8d6d381ff0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295014"
 ---
-# <a name="databasecollatingorder-property-dao"></a>Database.CollatingOrder 属性 (DAO)
+# <a name="databasecollatingorder-property-dao"></a>CollatingOrder 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 返回一个值，该值指定用于字符串比较或排序的文本中排序次序的序列（仅适用于 Microsoft Access 工作区）。只读 **Long**。
 
@@ -147,7 +147,7 @@ ms.locfileid: "28700890"
 </table>
 
 
-最近压缩数据库时， **CollatingOrder**属性设置对应于**CreateDatabase**方法创建数据库时或**CompactDatabase**方法的 locale 参数。
+创建数据库时, **CollatingOrder**属性设置对应于**CreateDatabase**方法的 locale 参数, 或者数据库最近压缩时的**CompactDatabase**方法。
 
 检查 **Database** 或 **Field** 对象的 **CollatingOrder** 属性设置，以确定数据库或字段的字符串比较方法。要使 **Field** 对象的设置不同于包含该对象的 **Database** 对象的设置，可以设置一个未追加的新 **Field** 对象的 **CollatingOrder** 属性。
 

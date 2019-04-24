@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2afdd172b8e2c01eddb3c6aaf0d9aaa17fbb7122
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703095"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291502"
 ---
 # <a name="indexes-methods-dao"></a>索引方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-- [Indexes.Append 方法 (DAO)](indexes-append-method-dao.md)
-- [Indexes.Delete 方法 (DAO)](indexes-delete-method-dao.md)
-- [Indexes.Refresh 方法 (DAO)](indexes-refresh-method-dao.md)
+- [索引 Append 方法 (DAO)](indexes-append-method-dao.md)
+- [索引: Delete 方法 (DAO)](indexes-delete-method-dao.md)
+- [索引: Refresh 方法 (DAO)](indexes-refresh-method-dao.md)
 

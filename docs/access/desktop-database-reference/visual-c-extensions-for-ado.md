@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fc69d3244cf6faf3aa91fe954e4b39323cf13abf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720231"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302749"
 ---
-# <a name="visual-c-extensions-for-ado"></a>Visual C++ Extensions for ADO
+# <a name="visual-c-extensions-for-ado"></a>适用于 ADO 的 Visual C++ 扩展
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-Visual c + + ADO 编程的首选的方法使用**\#导入**指令，如下所述在[Microsoft Visual c + + ADO 编程](visual-c-ado-programming.md)。 但是，更早的 ADO 版本为使用 Visual C++ 编程提供了替代方法：Visual C++ Extensions。 本节介绍此功能的那些必须维护 Visual c + + Extensions 代码，但应通过编写新的 ADO 代码\#**导入**。
+使用 Visual c + + 编程 ADO 编程的首选方法是使用** \#导入**指令, 如[Microsoft Visual c + + ADO 编程](visual-c-ado-programming.md)中所述。 但是，更早的 ADO 版本为使用 Visual C++ 编程提供了替代方法：Visual C++ Extensions。 本部分介绍了必须维护 Visual c + + 扩展代码的那些功能, 但应使用\#**导入**来编写新的 ADO 代码。
 
 Visual C++ 程序员在用 ADO 检索数据时所面对的一项最繁琐的工作是将作为 VARIANT 数据类型返回的数据转换成 C++ 数据类型，然后将经过转换的数据存储在类或结构中。除了麻烦外，通过 VARIANT 数据类型来检索 C++ 数据会使性能降低。
 

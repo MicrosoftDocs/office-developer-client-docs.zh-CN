@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Index 属性 (DAO)
+title: Recordset2 属性 (DAO)
 TOCTitle: Index Property
 ms:assetid: 614bdf53-aca3-25ef-a23c-50095b345d20
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194872(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 05a29ff9dbe720fe7c5539639b20e0abdc3c587b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716766"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307299"
 ---
-# <a name="recordset2index-property-dao"></a>Recordset2.Index 属性 (DAO)
+# <a name="recordset2index-property-dao"></a>Recordset2 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 设置或返回一个值，该值指示表类型 **[Recordset](index-object-dao.md)** 对象中的当前 **[Index](recordset-object-dao.md)** 对象的名称（仅适用于 Microsoft Access 工作区）。
 
@@ -24,7 +24,7 @@ ms.locfileid: "28716766"
 
 *表达式*。索引
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 
@@ -36,12 +36,12 @@ ms.locfileid: "28716766"
 
 可以为表创建新的索引，方法是创建新的 **Index** 对象，设置其属性，将其追加到基础 **TableDef** 对象的 **Indexes** 集合中，然后重新打开 **Recordset** 对象。
 
-从表类型 **Recordset** 对象返回的记录只能按为基础 **TableDef** 对象定义的索引进行排序。 要排序一些其他顺序的记录，可以通过使用 ORDER BY 子句的 SQL 语句打开动态集类型、 快照类型或仅向前类型**Recordset**对象。
+从表类型 **Recordset** 对象返回的记录只能按为基础 **TableDef** 对象定义的索引进行排序。 若要按其他顺序对记录进行排序, 可以使用带有 order by 子句的 SQL 语句打开动态集–、快照或仅向前类型**Recordset**对象。
 
 > [!NOTE]
 > - 您不必为表创建索引。对于大型的未编制索引的表，访问特定记录或创建 **Recordset** 对象可能花费很长时间。另一方面，由于所有索引都是自动更新的，创建太多索引会降低更新、追加和删除操作的速度。
 > - 从不含索引的表中读取的记录没有特定返回顺序。
-> - [Index](field-attributes-property-dao.md) 对象中每个 [**Field**](field-object-dao.md) 对象的 ****Attributes**** 属性决定了记录的顺序，因此决定了对该索引使用的访问技术。
+> - **index**对象中每个**[Field](field-object-dao.md)** 对象的**[Attributes](field-attributes-property-dao.md)** 属性决定了记录的顺序, 因此决定了该索引使用的访问技术。
 > - 唯一索引有助于优化记录的查找。
 > - 索引不影响基表的实际顺序，只影响当选择特定索引或打开 **Recordset** 时表类型 **Recordset** 对象访问记录的方式。
 

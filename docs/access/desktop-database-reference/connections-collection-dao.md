@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 66f122b7bdaa9069b839cd5884b5da5da48a15f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295784"
 ---
 # <a name="connections-collection-dao"></a>Connections 集合 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 > [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
+> Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
-一个 **Connections** 集合，包含 **Workspace** 对象的当前 **Connection** 对象（仅适用于 ODBCDirect 工作区）。
+**Connections**集合包含**Workspace**对象的当前**Connection**对象。 一个 Connections 集合，包含 Workspace 对象的当前 Connection 对象（仅适用于 ODBCDirect 工作区）。
 
 ## <a name="remarks"></a>注解
 
-打开 **Connection** 对象时，该对象会自动追加到 **Workspace** 的 **Connections** 集合中。使用 [**Close**](connection-close-method-dao.md) 方法关闭 **Connection** 对象时，会从 **Connections** 集合中删除该对象。关闭 [Connection](recordset-object-dao.md) 之前，应关闭其中所有打开的 ****Recordset**** 对象。
+打开 **Connection** 对象时，该对象会自动追加到 **Workspace** 的 **Connections** 集合中。 使用 **[Close](connection-close-method-dao.md)** 方法关闭 **Connection** 对象时，会从 **Connections** 集合中删除该对象。 应先关闭**连接**中所有打开的**[Recordset](recordset-object-dao.md)** 对象, 然后再将其关闭。
 
-打开 **Connection** 对象的同时，会创建一个相应的 **[Database](database-object-dao.md)** 对象，该对象追加到同一 [Workspace](databases-collection-dao.md) 中的 ****Databases**** 集合中，反之亦然。同样，关闭 **Connection** 时，即从 **Databases** 集合中删除相应的 **Database**，依此类推。
+打开 **Connection** 对象的同时，会创建一个相应的 **[Database](database-object-dao.md)** 对象，该对象追加到同一 **Workspace** 中的 **[Databases](databases-collection-dao.md)** 集合中，反之亦然。 同样，关闭 **Connection** 时，即从 **Databases** 集合中删除相应的 **Database**，依此类推。
 
 **Connection** 的 **Name** 属性设置是一个指定数据库文件路径的字符串。若要按照序号或 **Name** 属性设置来引用集合中的 **Connection** 对象，可以使用下列任何一种语法形式：
 
-- **Connections**(0)
+- **连接**0
 
-- **连接**（"*name*"）
+- **连接**("*名称*")
 
-- **连接**\!\[*名称*\]
+- ****\!连接\[*名称*\]
 
 
 > [!NOTE]

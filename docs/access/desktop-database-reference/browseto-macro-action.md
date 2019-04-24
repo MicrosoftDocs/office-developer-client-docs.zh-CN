@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0bcf0a37f8c1596856f5d7b921430371d620f7a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296771"
 ---
 # <a name="browseto-macro-action"></a>BrowseTo 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 您可以使用 **BrowseTo** 操作在适当位置上的对象之间进行导航，还可通过指定子窗体控件参数的路径来更改子窗体控件的源对象。使用 **BrowseTo** 可从窗体 1 导航到窗体 2，而无需打开新窗口。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **BrowseTo** 操作具有以下参数。
 
@@ -41,16 +41,16 @@ ms.locfileid: "28711068"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>对象类型</p></td>
+<td><p>Object Type</p></td>
 <td><p>要浏览的对象类型。</p></td>
 </tr>
 <tr class="even">
-<td><p>对象名称</p></td>
+<td><p>Object Name</p></td>
 <td><p>在子窗体控件路径参数所引用的子窗体控件内部加载的对象。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Path to Subform Control</p></td>
-<td><p>如果指定，从主窗体的目标子窗体将应用程序的路径控制该加载对象名称参数指定的对象。</p></td>
+<td><p>如果指定, 则从应用程序的主窗体指向加载对象名称参数所指定的对象的目标子窗体控件的路径。</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>
@@ -82,7 +82,7 @@ ms.locfileid: "28711068"
 
 下面的示例演示如何使用 BrowseTo 操作在子窗体控件或导航控件中打开报表。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     OnError

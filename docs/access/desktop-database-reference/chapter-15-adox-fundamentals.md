@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0e46920ba47dba018944768ff61c970781e37a02
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296449"
 ---
 # <a name="chapter-15-adox-fundamentals"></a>第 15 章：ADOX 基础知识
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 用于数据定义语言和安全性的 Microsoft ActiveX 数据对象扩展 (ADOX) 是 ADO 对象和编程模型的扩展。ADOX 包括用于创建和修改架构以及安全性的对象。由于它基于对象来实现对架构的操控，因此您可以编写代码来处理各类数据源，而无需考虑数据源本来的语法之间的差异。
 
@@ -26,9 +26,9 @@ ADOX 是核心 ADO 对象的配套库。它提供了用于创建、修改和删�
 
 Microsoft OLE DB Provider for Microsoft Jet Database Engine 完全支持 ADOX。ADOX 的某些功能可能不受支持，这取决于您的数据提供程序。有关 Microsoft OLE DB Provider for ODBC、Microsoft OLE DB Provider for Oracle 或 Microsoft SQL Server OLE DB Provider 支持的功能的更多信息，请参阅 MDAC 自述文件。
 
-本文档假定使用知识的 Microsoft Visual Basic 编程语言和 ADO 的常规知识。 有关 ADO 的详细信息，请参阅[ADO 程序员指南 》](ado-programmer-s-guide.md)。
+本文档假定使用 Microsoft Visual Basic 编程语言的相关知识和有关 ADO 的一般性知识。 有关 ado 的详细信息, 请参阅《 [ado 程序员指南》](ado-programmer-s-guide.md)。
 
-本章包括以下主题：
+本章包含以下主题:
 
 - [ADOX 的提供程序支持](provider-support-for-adox.md)
 

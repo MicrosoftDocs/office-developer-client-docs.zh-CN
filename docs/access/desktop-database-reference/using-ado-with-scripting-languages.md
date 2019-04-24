@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1ab0615d1c16900e86a844635fad4ac9a90751a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312038"
 ---
 # <a name="using-ado-with-scripting-languages"></a>将 ADO 与脚本语言结合使用
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-在脚本环境中，您可以采用 ADO 通过服务器端脚本公开数据。 在此方案中，使用 ADO 作为基础 OLE DB 提供程序，ADO 和引用给定数据存储所需的其他所有组件都安装在运行 Internet 信息服务 (IIS) 的服务器上。 例如，通过使用 Active Server Pages (ASP)，ADO 是可以生成 HTML 的脚本中引用的组件。 此 HTML 内容可以通过 HTTP 传递给客户端 web 浏览器。 通过使用脚本，网页可以发送回服务器端脚本，从而使您可以更新、 遍历或查看特定的数据的操作。
+在脚本环境中，您可以采用 ADO 通过服务器端脚本公开数据。 在此方案中，使用 ADO 作为基础 OLE DB 提供程序，ADO 和引用给定数据存储所需的其他所有组件都安装在运行 Internet 信息服务 (IIS) 的服务器上。 例如，通过使用 Active Server Pages (ASP)，ADO 是可以生成 HTML 的脚本中引用的组件。 可以通过 HTTP 将此 HTML 内容传递到客户端 web 浏览器。 通过使用脚本, 网页可以将操作发送回服务器端脚本, 从而允许您更新、遍历或查看特定数据。
 
 ## <a name="odbc-data-sources"></a>ODBC 数据源
 

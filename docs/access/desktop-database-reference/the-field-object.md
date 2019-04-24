@@ -1,5 +1,5 @@
 ---
-title: Field 对象 （访问桌面数据库参考 （英文）
+title: Field 对象 (Access desktop database reference)
 TOCTitle: The Field object
 ms:assetid: 55531e04-d74f-6394-df64-1660e5d572ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2cbd5752399e5a14f08b7eb944e3a028ba53f561
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314019"
 ---
 # <a name="field-object"></a>Field 对象
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 每个 **Field** 对象通常对应于数据库表中的一列。但是， **Field** 还可以表示指向另一个 **Recordset** 的指针，称为章节。本指南随后将介绍例外，例如章节列。
 
@@ -42,13 +42,13 @@ ms.locfileid: "28716871"
 
 ## <a name="describing-a-field"></a>描述字段
 
-后面的主题将讨论 [Field](field-object-ado.md) 对象的属性，这些属性提供了描述 **Field** 对象本身的信息 - 即有关字段的元数据。此信息可以用来确定有关 **Recordset** 架构的很多信息。这些属性包括 **Type** 、 **DefinedSize** 和 **ActualSize** 、 **Name** 以及 **NumericScale** 和 **Precision** 。
+后面的主题将讨论 [Field](field-object-ado.md) 对象的属性，这些属性提供了描述 **Field** 对象本身的信息 - 即有关字段的元数据。此信息可以用来确定有关 **Recordset** 架构的很多信息。这些属性包括 **Type**、**DefinedSize** 和 **ActualSize**、**Name** 以及 **NumericScale** 和 **Precision**。
 
-## <a name="discovering-the-data-type"></a>发现的数据类型
+## <a name="discovering-the-data-type"></a>发现数据类型
 
-**Type** 属性用于指示字段的数据类型。 [DataTypeEnum](datatypeenum.md) *ADO 程序员参考*中描述了 ADO 支持的数据类型枚举常量。
+**Type** 属性用于指示字段的数据类型。 在*ado 程序员参考*中的[DataTypeEnum](datatypeenum.md)中介绍了 ado 支持的数据类型枚举常量。
 
-有关 **adNumeric** 这样的浮点数值类型，可以获得其详细信息。 **NumericScale** 属性指示将用小数点右侧的多少位数来表示 **Field** 的值。 **Precision** 属性则指定用来表示 **Field** 值的最大位数。
+有关 **adNumeric** 这样的浮点数值类型，可以获得其详细信息。**NumericScale** 属性指示将用小数点右侧的多少位数来表示 **Field** 的值。**Precision** 属性则指定用来表示 **Field** 值的最大位数。
 
 ## <a name="determining-field-size"></a>确定字段大小
 
@@ -67,13 +67,13 @@ ms.locfileid: "28716871"
 > [!NOTE]
 > [!注释] 将新的 **Fields** 追加到 **Recordset** 时不能设置 **Recordset Field** 值，但可以将新的 **Fields** 追加到已关闭的 **Recordset** 。然后，必须打开 **Recordset** ，只有这时才能将值赋给这些 **Fields** 。
 
-## <a name="getting-more-field-information"></a>获取字段的详细信息
+## <a name="getting-more-field-information"></a>获取更多字段信息
 
 ADO 对象有两种类型的属性：内置和动态。到目前为止，只讨论了 **Field** 对象的内置属性。
 
-内置属性是这些属性在 ADO 中实现并且立即可用到任何新的对象，使用语法。 内置属性不会作为 **Property** 对象出现在对象的 **Properties** 集合中。
+内置属性是在 ADO 中实现的这些属性, 可立即用于任何新对象 (使用语法)。 内置属性不会作为 **Property** 对象出现在对象的 **Properties** 集合中。
 
-动态属性是由基础数据提供程序定义的，它们出现在相应的 ADO 对象的 **Properties** 集合中。 例如，特定于提供程序的属性可以指示 **Recordset** 对象是否支持事务或更新。 这些额外的属性将作为 **Property** 对象出现在 **Recordset** 对象的 **Properties** 集合中。 动态属性可以仅通过集合，并使用语法 MyObject.Properties(0) 引用或 MyObject.Properties("Name")。
+动态属性是由基础数据提供程序定义的，它们出现在相应的 ADO 对象的 **Properties** 集合中。 例如，特定于提供程序的属性可以指示 **Recordset** 对象是否支持事务或更新。 这些额外的属性将作为 **Property** 对象出现在 **Recordset** 对象的 **Properties** 集合中。 只能通过集合使用语法 MyObject (0) 或 or MyObject ("Name") 来引用动态属性。
 
 这两种属性都是不可删除的。
 
@@ -122,5 +122,5 @@ ADO 对象有两种类型的属性：内置和动态。到目前为止，只讨�
 
 在使用 **Field** 对象的 **GetChunk** 或 **AppendChunk** 方法时，如果没有当前记录，则会发生错误 3021（无当前记录）。
 
-有关使用这些方法以操作二进制数据的示例，请参阅*ADO 程序员参考*中的[AppendChunk 方法](appendchunk-method-ado.md)和[GetChunk 方法](getchunk-method-ado.md)示例。
+有关使用这些方法来操作二进制数据的示例, 请参阅*ADO 程序员参考*中的[AppendChunk 方法](appendchunk-method-ado.md)和[GetChunk 方法](getchunk-method-ado.md)示例。
 

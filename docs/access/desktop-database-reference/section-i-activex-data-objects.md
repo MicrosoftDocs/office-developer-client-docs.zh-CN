@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5fef8dbec1d8861dd8c3421735baed2fcc7d4cde
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308818"
 ---
 # <a name="section-i-activex-data-objects"></a>第 I 节：ActiveX 数据对象
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 本部分包含以下几章：
 
-- [第 1 章： ADO 基础知识](chapter-1-ado-fundamentals.md)
+- [第 1 章：ADO 基础知识](chapter-1-ado-fundamentals.md)
 - [第 2 章：获取数据](chapter-2-getting-data.md)
 - [第 3 章：检查数据](chapter-3-examining-data.md)
 - [第 4 章：编辑数据](chapter-4-editing-data.md)
@@ -29,5 +29,5 @@ ms.locfileid: "28722947"
 - [第 7 章：处理 ADO 事件](chapter-7-handling-ado-events.md)
 - [第 8 章：了解游标和锁定](chapter-8-understanding-cursors-and-locks.md)
 - [第 9 章：数据成型](chapter-9-data-shaping.md)
-- [第 10 章： 记录和流](chapter-10-records-and-streams.md)
+- [第 10 章：记录和流](chapter-10-records-and-streams.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 唯一表，Unique Schema Unique Catalog 动态属性 (ADO)
+title: unique Table、unique Schema、unique Catalog dynamic properties (ADO)
 TOCTitle: Unique Table, Unique Schema, Unique Catalog dynamic properties (ADO)
 ms:assetid: e6374782-755b-322b-21de-6d6a386dcd98
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250169(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5f4bf93afc200edd88e89cf5d4e90435c2476942
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721351"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313746"
 ---
-# <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>唯一表，Unique Schema Unique Catalog 动态属性 (ADO)
+# <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>unique Table、unique Schema、unique Catalog dynamic properties (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 支持对 [Recordset](recordset-object-ado.md)（通过多个基表上的 JOIN 操作形成）中特定基表的修改进行严密控制。
 
@@ -31,9 +31,9 @@ ms.locfileid: "28721351"
 
 设置或返回一个表示表、架构或目录的名称的 **String** 值。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-所需的基表由其目录、架构和表名称唯一标识。当设置了 **Unique Table** 属性时， **Unique Schema** 或 **Unique Catalog** 属性的值将用于查找基表。可以（但并不要求）在设置 **Unique Table** 属性前先设置 **Unique Schema** 和/或 **Unique Catalog** 属性。
+所需的基表由其目录、架构和表名称唯一标识。当设置了 **Unique Table** 属性时，**Unique Schema** 或 **Unique Catalog** 属性的值将用于查找基表。可以（但并不要求）在设置 **Unique Table** 属性前先设置 **Unique Schema** 和/或 **Unique Catalog** 属性。
 
 **Unique Table** 的主键将作为整个 **Recordset** 的主键处理。任何需要使用主键的方法都将使用此键。
 

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88c8b7ff347235bbdc29745e9f5383933d3d1dda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292760"
 ---
 # <a name="field2-object-dao"></a>Field2 对象 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Field2** 对象代表具有普通数据类型和普通属性集的数据列。
 
@@ -36,19 +36,19 @@ ms.locfileid: "28713140"
 
 若要按照序号或 **Name** 属性设置来引用集合中的 **Field2** 对象，可以使用下列任何一种语法形式：
 
-**Fields**(0)
+**字段**0
 
-**字段**("name")
+**字段**("名称")
 
-**字段**\!\[名称\]
+****\!Fields\[名称\]
 
 还可以使用相同的语法形式，引用创建并追加到 **Fields** 集合中的 **Field2** 对象的 **Value** 属性。字段引用的上下文将确定引用的是 **Field2** 对象还是 **Field** 对象的 **Value** 属性。
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何导航记录集包含一个多值字段。
+下面的示例演示如何导航包含多值字段的 Recordset。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -112,7 +112,7 @@ ms.locfileid: "28713140"
 
 <br/>
 
-下面的示例演示如何导航附件字段中的文件。 在即时窗口中打印的文件类型和每个附件的文件名。
+下面的示例演示如何在 "附件" 字段中导航文件。 将在 "即时" 窗口中打印每个附件的文件类型和文件名。
 
 ```vb
     Sub ListAttachments()
@@ -219,7 +219,7 @@ ms.locfileid: "28713140"
 
 <br/>
 
-下面的示例演示如何将保存到指定的文件夹路径附件字段中存储的文件。
+下面的示例演示如何将存储在 "附件" 字段中的文件保存到指定的文件夹路径。
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

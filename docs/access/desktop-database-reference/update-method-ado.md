@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f077634abea6fadfe5c4305fc25b28e6d57bf13e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306235"
 ---
 # <a name="update-method-ado"></a>Update 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-可保存对 [Recordset](recordset-object-ado.md) 对象的当前行或 [Record](fields-collection-ado.md) 对象的 [Fields](record-object-ado.md) 集合所做的任何更改。
+可保存对 [Recordset](recordset-object-ado.md) 对象的当前行或 [Record](record-object-ado.md) 对象的 [Fields](fields-collection-ado.md) 集合所做的任何更改。
 
 ## <a name="syntax"></a>语法
 
-*记录集*。更新*字段*，*值*
+*recordset*。更新*字段*、*值*
 
-*记录*。 *字段*。更新
+*记录*。 *字段*。最新更新
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*Fields* |可选。一个表示单个名称的 **Variant** ，或表示要修改的字段的名称或序号位置的 **Variant** 数组。|
 |*Values* |可选。一个表示单个名称的 **Variant** ，或表示新记录中字段值的 **Variant** 数组。|
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 ### <a name="recordset"></a>Recordset
 
-使用 **Update** 方法可以保存自调用 **AddNew** 方法或更改现有记录中的任何字段值之后对 [Recordset](addnew-method-ado.md) 对象的当前记录所做的任何更改。 **Recordset** 对象必须支持更新。
+使用 **Update** 方法可以保存自调用 [AddNew](addnew-method-ado.md) 方法或更改现有记录中的任何字段值之后对 **Recordset** 对象的当前记录所做的任何更改。**Recordset** 对象必须支持更新。
 
 若要设置字段值，请执行下列操作之一：
 
@@ -57,7 +57,7 @@ ms.locfileid: "28710634"
 
 ### <a name="record"></a>Record
 
-可以使用 **Update** 方法完成在 [Record](fields-collection-ado.md) 对象的 **Fields** 集合中添加、删除或更新字段的操作。
+可以使用 **Update** 方法完成在 **Record** 对象的 [Fields](fields-collection-ado.md) 集合中添加、删除或更新字段的操作。
 
 例如，用 **Delete** 方法删除的字段被立即加上删除标记，但仍保留在集合中。必须调用 **Update** 方法来从提供程序的集合中实际删除这些字段。
 

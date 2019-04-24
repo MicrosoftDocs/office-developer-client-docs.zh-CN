@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e8142d4fc4fc0036f80693f0bff779d9f3f2a62e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294097"
 ---
 # <a name="delete-method-ado-recordset"></a>Delete 方法（ADO 记录集）
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 用于删除当前记录或一组记录。
 
 ## <a name="syntax"></a>语法
 
-*记录集*。删除*AffectRecords*
+*recordset*。删除*AffectRecords*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*AffectRecords* |[AffectEnum](affectenum.md) 值，可确定 **Delete** 方法将影响的记录数。默认值为 **adAffectCurrent** 。|
 
 > [!NOTE]
 > [!注释] **adAffectAll** 和 **adAffectAllChapters** 不是有效的 **Delete** 参数。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用 **Delete** 方法可为 [Recordset](recordset-object-ado.md) 对象中的当前记录或记录组打上删除标记。如果 **Recordset** 对象不允许删除记录，则会发生错误。在即时更新模式下，会立即在数据库中进行删除。如果无法顺利删除记录（例如，由于违反数据库完整性），在调用 **Update** 后，该记录仍保持为编辑模式。这意味着在从当前记录移开（例如，用 [Close](cancelupdate-method-ado.md)、[Move](close-method-ado.md) 或 [NextRecordset](move-method-ado.md)）之前，必须使用 [CancelUpdate](nextrecordset-method-ado.md) 取消更新。
 

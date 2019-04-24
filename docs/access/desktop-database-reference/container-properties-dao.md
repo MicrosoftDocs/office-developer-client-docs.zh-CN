@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a9edf150eb411950c605224d9370f7266f13542c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295616"
 ---
 # <a name="container-properties-dao"></a>容器属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-- [Container.Documents 属性 (DAO)](container-documents-property-dao.md)
+- ["Documents" 属性 (DAO)](container-documents-property-dao.md)
 - [Container.Name 属性 (DAO)](container-name-property-dao.md)
-- [Container.Properties 属性 (DAO)](container-properties-property-dao.md)
+- ["Container" 属性 (DAO)](container-properties-property-dao.md)
 

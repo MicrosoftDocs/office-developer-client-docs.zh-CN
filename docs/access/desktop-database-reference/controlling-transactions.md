@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ced1ae7b32d25fbae53c670959a4a6c77bcea0be
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295546"
 ---
 # <a name="controlling-transactions"></a>控制事务
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-*事务*确定的开头和结尾的一系列连接上发生的数据访问操作。 根据数据源的事务处理功能，利用 **Connection** 对象还可以创建和管理事务。 例如，使用 Microsoft OLE DB Provider for SQL Server 访问 Microsoft SQL Server 2000 上的数据库，您可以为所执行的命令创建多个嵌套事务。
+*事务*确定连接上发生的一系列数据访问操作的开始和结束。根据数据源的事务处理功能，利用 **Connection** 对象还可以创建和管理事务。例如，使用 Microsoft OLE DB Provider for SQL Server 访问 Microsoft SQL Server 2000 上的数据库，您可以为所执行的命令创建多个嵌套事务。
 
 ADO 确保由于事务中的操作而引起的数据源更改一起成功发生或者根本不发生。
 

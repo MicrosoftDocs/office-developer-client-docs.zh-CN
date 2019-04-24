@@ -1,5 +1,5 @@
 ---
-title: Field2.DefaultValue 属性 (DAO)
+title: Field2 属性 (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 709c9580-520e-46ce-7d70-e409872184bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195744(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 845a2e0c7ffa5d54d73c4fcec1a6c785468d734e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292830"
 ---
-# <a name="field2defaultvalue-property-dao"></a>Field2.DefaultValue 属性 (DAO)
+# <a name="field2defaultvalue-property-dao"></a>Field2 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 设置或返回 **Field2** 对象的默认值。对于尚未追加到 [**Fields**](fields-collection-dao.md) 集合的 **Field2** 对象，该属性是可读写的（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。DefaultValue
+*表达式*。默认
 
 *表达式*一个代表**Field2**对象的变量。
 
@@ -53,7 +53,7 @@ ms.locfileid: "28717340"
 <tbody>
 <tr class="odd">
 <td><p>Index 对象</p></td>
-<td><p>不受支持</p></td>
+<td><p>不支持</p></td>
 </tr>
 <tr class="even">
 <td><p>QueryDef 对象</p></td>
@@ -69,7 +69,7 @@ ms.locfileid: "28717340"
 </tr>
 <tr class="odd">
 <td><p>TableDef 对象</p></td>
-<td><p>可读写</p></td>
+<td><p>读/写</p></td>
 </tr>
 </tbody>
 </table>

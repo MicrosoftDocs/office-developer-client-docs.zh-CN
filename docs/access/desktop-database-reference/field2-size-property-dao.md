@@ -1,5 +1,5 @@
 ---
-title: Field2.Size 属性 (DAO)
+title: Field2 属性 (DAO)
 TOCTitle: Size Property
 ms:assetid: e252759a-cea9-25cb-667d-80b422fbf97e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835700(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f1467414729f4ea82bc2779eeb2bd162465b5ccd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292683"
 ---
-# <a name="field2size-property-dao"></a>Field2.Size 属性 (DAO)
+# <a name="field2size-property-dao"></a>Field2 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 设置或返回一个值，该值指示 **Field2** 对象的最大大小（以字节计）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。大小
+*表达式*。字体
 
 *表达式*一个代表**Field2**对象的变量。
 
@@ -62,7 +62,7 @@ ms.locfileid: "28699035"
 </tr>
 <tr class="even">
 <td><p><strong>Relation</strong></p></td>
-<td><p>不支持</p></td>
+<td><p>不受支持</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>

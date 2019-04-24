@@ -1,5 +1,5 @@
 ---
-title: TableDef.CreateIndex 方法 (DAO)
+title: CreateIndex 方法 (DAO) TableDef
 TOCTitle: CreateIndex Method
 ms:assetid: 857b25c1-01fa-b926-0c74-7105e71b7505
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196791(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: baa82b659cc2260d4a003c644b2d03d6c897fd21
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314369"
 ---
-# <a name="tabledefcreateindex-method-dao"></a>TableDef.CreateIndex 方法 (DAO)
+# <a name="tabledefcreateindex-method-dao"></a>CreateIndex 方法 (DAO) TableDef
 
-**适用于**： Access 2013、 Office 2013 
+**适用于**：Access 2013、Office 2013 
 
-创建一个新的 **[Index](index-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。
+创建新的**[Index](index-object-dao.md)** 对象 (仅适用于 Microsoft Access 工作区)。 .
 
 ## <a name="syntax"></a>语法
 
-*表达式*。CreateIndex （***名称***）
+*表达式*。CreateIndex (***Name***)
 
 *表达式*一个代表**TableDef**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28706232"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -52,7 +52,7 @@ ms.locfileid: "28706232"
 <td><p><em>Name</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>一个对新的 <strong>Index</strong> 对象进行唯一命名的 <strong>String</strong>。有关有效 <strong>Index</strong> 名称的详细信息，请参阅 <strong>Name</strong> 属性。</p></td>
+<td><p>一个对新的 <strong>Index</strong> 对象进行唯一命名的 <strong>String</strong>。 有关有效 <strong>Index</strong> 名称的详细信息，请参阅 <strong>Name</strong> 属性。</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,9 +64,9 @@ Index
 
 ## <a name="remarks"></a>注解
 
-您可以使用 **CreateIndex** 方法为 **TableDef** 对象创建一个新的 **Index** 对象。 如果使用**CreateIndex**时省略了可选名称部分，您可以使用适当的赋值语句设置或重置**名称**属性，将新对象追加到集合之前。 追加对象后，您也许能够或不能设置其 **Name** 属性（取决于包含 **Indexes** 集合的对象类型）。 有关详细信息，请参阅 **Name** 属性主题。
+您可以使用 **CreateIndex** 方法为 **TableDef** 对象创建一个新的 **Index** 对象。 如果在使用**CreateIndex**时省略了可选的 name 部分, 则可以在将新对象追加到集合之前, 使用适当的赋值语句设置或重置**name**属性。 追加对象后，您也许能够或不能设置其 **Name** 属性（取决于包含 **Indexes** 集合的对象类型）。 有关详细信息，请参阅 **Name** 属性主题。
 
-如果 name 引用对象的已经是集合的成员，使用**[Append](fields-append-method-dao.md)** 方法时，发生此事件运行时错误。
+如果 name 引用了已经是集合成员的对象, 则当您使用**[Append](fields-append-method-dao.md)** 方法时, 将发生运行时错误。
 
 要从集合中删除 **Index** 对象，请对集合使用 **[Delete](fields-delete-method-dao.md)** 方法。
 

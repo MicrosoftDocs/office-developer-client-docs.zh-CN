@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0f6678400ad575bcc46d4fe2a463281b3c075615
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712062"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296071"
 ---
 # <a name="comparebookmarks-method-example-vb"></a>CompareBookmarks 方法示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-以下示例展示了 [CompareBookmarks](comparebookmarks-method-ado.md) 方法。除非书签存在某些特殊之处，一般很少需要书签的相对值。
+以下示例展示了 [CompareBookmarks](comparebookmarks-method-ado.md) 方法。 除非书签存在某些特殊之处，一般很少需要书签的相对值。
 
-将派生自 ***Authors***（作者）表的 [Recordset](recordset-object-ado.md) 的随机行指定为搜索目标。然后显示每一行相对于该目标的位置。
+将派生自 ***Authors***（作者）表的 [Recordset](recordset-object-ado.md) 的随机行指定为搜索目标。 然后显示每一行相对于该目标的位置。
 
 ```vb 
  

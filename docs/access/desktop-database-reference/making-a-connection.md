@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 487212acd8847928e1fab405593edb172d0172d0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289782"
 ---
 # <a name="making-a-connection"></a>建立连接
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 若要连接到数据源，必须指定 *connection string*，连接字符串的参数可能因每个提供程序和数据源而异。有关详细信息，请参阅[创建连接字符串](creating-the-connection-string.md)。
 
@@ -27,7 +27,7 @@ Dim connection as New ADODB.Connection
 connection.Open ConnectionString, UserID, Password, OpenOptions
 ```
 
-或者，也可以调用快捷技术 **Recordset.Open** 在一次操作中完成打开隐式连接并通过该连接发出命令的操作。 执行此操作有效连接字符串中将作为*ActiveConnection*参数传递给**Open**方法。 下面是在 Visual Basic 中每个方法的语法：
+或者，也可以调用快捷技术 **Recordset.Open** 在一次操作中完成打开隐式连接并通过该连接发出命令的操作。要这样做，需要将有效的连接字符串作为 *ActiveConnection* 参数传递给 **Open** 方法。下面是在 Visual Basic 中每个方法的语法：
 
 ```vb
 Dim recordset as ADODB.Recordset 

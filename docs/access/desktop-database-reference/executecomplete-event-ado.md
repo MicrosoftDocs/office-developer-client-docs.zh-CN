@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8a094968e70ace5e6cba1df184bf0ba57c2d7789
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293222"
 ---
 # <a name="executecomplete-event-ado"></a>ExecuteComplete 事件 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **ExecuteComplete** 事件在命令执行完毕之后调用。
 
 ## <a name="syntax"></a>语法
 
-ExecuteComplete*RecordsAffected*， *pError*、 *adStatus*、 *pCommand*、 *pRecordset*、 *pConnection*
+ExecuteComplete*RecordsAffected*、 *pError*、 *adStatus*、 *pCommand*、 *pRecordset*、 *pConnection*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*RecordsAffected* |**长整型** 值，指示受命令影响的记录数。|
 |*pError* |[Error](error-object-ado.md) 对象。如果 **adStatus** 的值为 **adStatusErrorsOccurred** ，则此参数描述所发生的错误，否则不设置此参数。|
@@ -35,7 +35,7 @@ ExecuteComplete*RecordsAffected*， *pError*、 *adStatus*、 *pCommand*、 *pRe
 |*pRecordset* |作为已执行命令的结果的 [Recordset](recordset-object-ado.md) 对象。该 **Recordset** 可以为空。您绝不能从该事件处理程序内销毁此 Recordset 对象，否则，当 ADO 尝试访问不再存在的对象时，会导致违规存取错误。|
 |*pConnection* |[Connection](connection-object-ado.md) 对象。操作通过该连接执行。|
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**ExecuteComplete** 事件发生的原因可能是 **Connection.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)、 **Command.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)、 **Recordset.**[Open](open-method-ado-recordset.md)、 **Recordset.**[Requery](requery-method-ado.md) 或 **Recordset.**[NextRecordset](nextrecordset-method-ado.md) 方法。
+**ExecuteComplete** 事件发生的原因可能是 **Connection.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)、**Command.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)、**Recordset.**[Open](open-method-ado-recordset.md)、**Recordset.**[Requery](requery-method-ado.md) 或 **Recordset.**[NextRecordset](nextrecordset-method-ado.md) 方法。
 

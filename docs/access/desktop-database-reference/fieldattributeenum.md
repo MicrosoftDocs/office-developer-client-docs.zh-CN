@@ -1,5 +1,5 @@
 ---
-title: FieldAttributeEnum （访问桌面数据库参考 （英文）
+title: FieldAttributeEnum (Access desktop database reference)
 TOCTitle: FieldAttributeEnum
 ms:assetid: 2d3a541e-a437-6108-ab0e-90c7884b3df7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249071(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 079c79af3d15a6a5864a7db7f8334393258cfd42
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292599"
 ---
 # <a name="fieldattributeenum"></a>FieldAttributeEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 [Field](field-object-ado.md) 对象的一个或多个属性。
 
@@ -53,13 +53,13 @@ ms.locfileid: "28706875"
 </tr>
 <tr class="even">
 <td><p><strong>adFldIsCollection</strong></p></td>
-<td><p>而 0x40000 可</p></td>
+<td><p>0x40000</p></td>
 <td><p>指示字段指定由记录表示的资源是其他资源的集合（如文件夹），而不是一个简单资源（如文本文件）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIsDefaultStream</strong></p></td>
 <td><p>0x20000</p></td>
-<td><p>指示字段包含由 record 表示的资源的默认流。 例如，默认流可以是在指定的根 URL 时，会自动提供网站的根文件夹的 HTML 内容。</p></td>
+<td><p>指示字段包含由记录表示的资源的默认流。 例如, 默认流可以是网站上的根文件夹的 HTML 内容, 当指定根 URL 时, 将自动提供该内容。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldIsNullable</strong></p></td>
@@ -121,9 +121,9 @@ ms.locfileid: "28706875"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -136,40 +136,40 @@ ms.locfileid: "28706875"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.CACHEDEFERRED</p></td>
+<td><p>AdoEnums FieldAttribute</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.FIXED</p></td>
+<td><p>AdoEnums FieldAttribute</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.ISNULLABLE</p></td>
+<td><p>AdoEnums FieldAttribute</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.LONG</p></td>
+<td><p>AdoEnums (长 FieldAttribute)</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.MAYBENULL</p></td>
+<td><p>AdoEnums FieldAttribute</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.MAYDEFER</p></td>
+<td><p>AdoEnums FieldAttribute</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.NEGATIVESCALE</p></td>
+<td><p>AdoEnums FieldAttribute</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.ROWID</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.ROWVERSION</p></td>
+<td><p>AdoEnums FieldAttribute</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.UNKNOWNUPDATABLE</p></td>
+<td><p>AdoEnums FieldAttribute</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.UNSPECIFIED</p></td>
+<td><p>AdoEnums 不指定 FieldAttribute</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.UPDATABLE</p></td>
+<td><p>AdoEnums 可更新 FieldAttribute</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8bf2234e5935c2a1a13871e7e45c980fb9f33109
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312059"
 ---
-# <a name="using-visual-c-extensions"></a>使用 Visual C++ Extensions
+# <a name="using-visual-c-extensions"></a>使用 Visual C++ 扩展
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="the-iadorecordbinding-interface"></a>IADORecordBinding 接口
 
@@ -48,7 +48,7 @@ ADO 将这些宏中的参数内部映射到 OLE DB **DBBINDING** 结构，并创
 
 1.  创建一个派生自 **CADORecordBinding** 类的类。
 
-2.  在派生类中指定绑定项和相应的 C/C++ 变量。 括号之间的绑定项**开始\_ADO\_绑定**和**最终\_ADO\_绑定**宏。 宏不要以逗号或冒号结束。 每个宏会自动指定适当的分隔符。 为要映射到 C/C++ 变量的每个字段指定一个绑定项。 使用从相应成员**ADO\_固定\_长度\_条目**， **ADO\_数值\_条目**，或**ADO\_变量\_长度\_条目**系列的宏。
+2.  在派生类中指定绑定项和相应的 C/C++ 变量。 在**\_BEGIN ado\_binding**和**END\_ado\_绑定**宏之间括出绑定条目。 宏不要以逗号或冒号结束。 每个宏会自动指定适当的分隔符。 为要映射到 C/C++ 变量的每个字段指定一个绑定项。 使用**\_ado\_固定长度\_项**、 **ado\_数字\_条目**或**ado\_可变\_长度\_条目**族中的相应成员。
 
 3.  在应用程序中，创建一个派生自 **CADORecordBinding** 类的类实例。从 **Recordset** 获取 **IADORecordBinding** 接口。然后调用 **BindToRecordset** 方法将 **Recordset** 字段绑定到 C/C++ 变量。
 
@@ -56,7 +56,7 @@ ADO 将这些宏中的参数内部映射到 OLE DB **DBBINDING** 结构，并创
 
 ## <a name="interface-methods"></a>接口方法
 
-**IADORecordBinding** 接口具有以下三个方法： **BindToRecordset** 、 **AddNew** 和 **Update** 。每个方法的唯一参数是一个指向派生自 **CADORecordBinding** 的类的实例的指针。因此， **AddNew** 和 **Update** 方法不能指定与其同名的 ADO 方法的任何参数。
+**IADORecordBinding** 接口具有以下三个方法：**BindToRecordset**、**AddNew** 和 **Update**。每个方法的唯一参数是一个指向派生自 **CADORecordBinding** 的类的实例的指针。因此，**AddNew** 和 **Update** 方法不能指定与其同名的 ADO 方法的任何参数。
 
 **语法**
 
@@ -68,7 +68,7 @@ ADO 将这些宏中的参数内部映射到 OLE DB **DBBINDING** 结构，并创
 
 `AddNew(CADORecordBinding *binding)` 
 
-**Update** 方法调用与其同名的 ADO [Update](update-method-ado.md) 方法，以更新 **Recordset** 。
+**Update** 方法调用与其同名的 ADO [Update](update-method-ado.md) 方法，以更新 **Recordset**。
 
 `Update(CADORecordBinding *binding)` 
 
@@ -78,32 +78,32 @@ ADO 将这些宏中的参数内部映射到 OLE DB **DBBINDING** 结构，并创
 
 对于定长数据（如 **adDate** 或 **adBoolean** ）、数值数据（如 **adTinyInt** 、 **adInteger** 或 **adDouble** ）和可变长度数据（如 **adChar** 、 **adVarChar** 或 **adVarBinary** ），均提供了宏系列。除 **adVarNumeric** 之外的所有数值类型也是定长类型。每个系列具有不同的参数集，以便您可以排除不感兴趣的绑定信息。
 
-请参阅*OLE DB 程序员参考*附录 a： 数据类型的其他信息。
+有关详细信息，请参阅 *《OLE DB 程序员参考》* 中的“附录 A：数据类型”。
 
 _**开始绑定项**_
 
-**开始\_ADO\_绑定**（*类*）
+**开始\_ADO\_绑定**(*类*)
 
-_**固定长度的数据**_
+_**定长数据**_
 
-**ADO\_固定\_长度\_条目**（*序号、 DataType、 缓冲区、 状态、 修改*）  
-**ADO\_固定\_长度\_ENTRY2**（*序号、 DataType、 缓冲区，修改*）
+**ADO\_固定\_长度\_项**(*序号、数据类型、缓冲区、状态、修改*)  
+**ADO\_固定\_长度\_的 ENTRY2**(*序数、DataType、Buffer、Modify*)
 
 _**数值数据**_
 
-**ADO\_数值\_条目**（*序号、 DataType、 缓冲区、 精度、 缩放、 状态、 修改*）  
-**ADO\_数值\_ENTRY2**（*序号、 DataType、 缓冲区、 精度、 缩放、 修改*）
+**ADO\_数字\_条目**(*序号、数据类型、缓冲区、精度、小数位数、状态、修改*)  
+**ADO\_数值\_ENTRY2**(*序数、DataType、Buffer、Precision、Scale、Modify*)
 
 _**可变长度数据**_
 
-**ADO\_变量\_长度\_条目**（*序号、 DataType、 缓冲区、 大小、 状态、 长度、 修改*）  
-**ADO\_变量\_长度\_ENTRY2**（*序号、 DataType、 缓冲区、 大小、 状态、 修改*）  
-**ADO\_变量\_长度\_ENTRY3**（*序号、 DataType、 缓冲区、 大小、 长度、 修改*）  
-**ADO\_变量\_长度\_ENTRY4**（*序号、 DataType、 缓冲区、 大小、 修改*）
+**ADO\_可变\_长度\_项**(*序号、数据类型、缓冲区、大小、状态、长度、修改*)  
+**ADO\_变量\_长度\_ENTRY2**(*序号、DataType、缓冲区、大小、状态、修改*)  
+**ADO\_变量\_长度\_ENTRY3**(*序数、DataType、Buffer、Size、LENGTH、Modify*)  
+**ADO\_变量\_长度\_ENTRY4**(*序号、DataType、缓冲区、大小、修改*)
 
 _**结束绑定项**_
 
-**最终\_ADO\_绑定**()
+**结束\_ADO\_绑定**()
 
 <table>
 <colgroup>
@@ -113,7 +113,7 @@ _**结束绑定项**_
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>说明</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -135,12 +135,11 @@ _**结束绑定项**_
 </tr>
 <tr class="odd">
 <td><p><em>Size</em></p></td>
-<td><p><em>Buffer</em> 的最大大小，以字节计。如果 <em>Buffer</em> 包含可变长度字符串，则还为终止字符零留出了空间。</p></td>
+<td><p><em>Buffer</em> 的最大大小，以字节计。 如果 <em>Buffer</em> 包含可变长度字符串，则还为终止字符零留出了空间。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Status</em></p></td>
-<td><p>变量名称，用于指示 <em>Buffer</em> 的内容是否有效，以及字段是否成功转换为 <em>DataType</em>。
- 此变量有两个最重要的值：一个是 <strong>adFldOK</strong>，表示转换成功；另一个是 <strong>adFldNull</strong>，表示字段的值为 VT_NULL 类型的 VARIANT，但不仅仅为空。 在下表中，列出<em>状态</em>的可能值&quot;状态值。&quot;</p></td>
+<td><p>变量名称，用于指示 <em>Buffer</em> 的内容是否有效，以及字段是否成功转换为 <em>DataType</em>。 此变量有两个最重要的值：一个是 <strong>adFldOK</strong>，表示转换成功；另一个是 <strong>adFldNull</strong>，表示字段的值为 VT_NULL 类型的 VARIANT，但不仅仅为空。 "<em>状态</em>" 的可能值在下表中列出&quot;, 即 "status" 值。&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Modify</em></p></td>
@@ -148,7 +147,7 @@ _**结束绑定项**_
  如果要让 ADO 更新绑定字段，则将布尔型 <em>Modify</em> 参数设置为 TRUE。如果要检查字段但不进行更改，则设置为 FALSE。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Precision</em></p></td>
+<td><p><em>精密</em></p></td>
 <td><p>可以用数值变量表示的数字位数。</p></td>
 </tr>
 <tr class="odd">
@@ -165,7 +164,7 @@ _**结束绑定项**_
 
 ## <a name="status-values"></a>状态值
 
-*Status*变量的值指示是否字段是否成功复制到变量。
+*Status* 变量的值用于指示字段是否成功复制到变量。
 
 在设置数据时，*Status* 可以设置为 **adFldNull**，以指示 **Recordset** 字段应设置为 Null。
 
@@ -195,14 +194,13 @@ _**结束绑定项**_
 </tr>
 <tr class="odd">
 <td><p><strong>adFldCantConvertValue</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>由于符号不匹配或数据溢出之外的原因，值无法转换。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldNull</strong></p></td>
-<td><p>3</p></td>
-<td><p>在获取字段时，指示返回空值。
- 在设置字段时，指示当字段自身无法编码 <strong>NULL</strong>（如一个字符数组或整数）时字段应设置为 <strong>NULL</strong>。</p></td>
+<td><p>第三章</p></td>
+<td><p>在获取字段时，指示返回空值。 在设置字段时，指示当字段自身无法编码 <strong>NULL</strong>（如一个字符数组或整数）时字段应设置为 <strong>NULL</strong>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldTruncated</strong></p></td>
@@ -216,22 +214,22 @@ _**结束绑定项**_
 </tr>
 <tr class="odd">
 <td><p><strong>adFldDataOverFlow</strong></p></td>
-<td><p>6</p></td>
+<td><p>型</p></td>
 <td><p>值大于变量数据类型中可存储的大小。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldCantCreate</strong></p></td>
-<td><p>7</p></td>
+<td><p>步</p></td>
 <td><p>打开了未知的列类型和字段。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldUnavailable</strong></p></td>
-<td><p>8</p></td>
+<td><p>utf-8</p></td>
 <td><p>无法确定字段值 - 例如，在一个无默认值的新的未赋值字段上。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldPermissionDenied</strong></p></td>
-<td><p>9</p></td>
+<td><p>第</p></td>
 <td><p>更新时，无权写数据。</p></td>
 </tr>
 <tr class="odd">
@@ -241,7 +239,7 @@ _**结束绑定项**_
 </tr>
 <tr class="even">
 <td><p><strong>adFldSchemaViolation</strong></p></td>
-<td><p>11</p></td>
+<td><p>11x17</p></td>
 <td><p>更新时，字段值与列架构冲突。</p></td>
 </tr>
 <tr class="odd">

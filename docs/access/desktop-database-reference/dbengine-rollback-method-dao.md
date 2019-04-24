@@ -1,5 +1,5 @@
 ---
-title: DBEngine.Rollback 方法 (DAO)
+title: DBEngine 方法 (DAO)
 TOCTitle: Rollback Method
 ms:assetid: da7e2fe0-c837-7b1e-d35c-98e6cb0a7bbe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835327(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 378baa8cd2923366a453a6cf23d51af0ab0df5ee
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294202"
 ---
-# <a name="dbenginerollback-method-dao"></a>DBEngine.Rollback 方法 (DAO)
+# <a name="dbenginerollback-method-dao"></a>DBEngine 方法 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 结束当前事务，并将 **Workspace** 对象中的数据库还原到开始当前事务时它们所处的状态。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。回滚
+*表达式*。混淆
 
 *表达式*一个代表**DBEngine**对象的变量。
 

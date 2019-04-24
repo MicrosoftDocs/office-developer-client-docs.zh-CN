@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2f6edd02c316fdff3f64b8a09c1504c46c9812a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293747"
 ---
 # <a name="documents-collection-dao"></a>Documents 集合 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Documents** 集合包含特定类型对象的所有 **Document** 对象（仅适用于 Microsoft Access 数据库引擎数据库）。
 
@@ -29,9 +29,9 @@ ms.locfileid: "28698832"
 
   - **Documents**(0)
 
-  - **文档**（"*name*"）
+  - **文档**("*名称*")
 
-  - **文档**\!\[*名称*\]
+  - ****\!文档\[*名称*\]
 
 ## <a name="example"></a>示例
 

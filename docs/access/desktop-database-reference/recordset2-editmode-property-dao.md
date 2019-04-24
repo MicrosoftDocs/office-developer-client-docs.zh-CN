@@ -1,5 +1,5 @@
 ---
-title: Recordset2.EditMode 属性 (DAO)
+title: EditMode 属性 (DAO) Recordset2
 TOCTitle: EditMode Property
 ms:assetid: fd61ea2b-e7d7-195f-4114-87e54eba2451
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837240(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d4043a442bec8c5ce421d85de6256eb9c5cb353f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307348"
 ---
-# <a name="recordset2editmode-property-dao"></a>Recordset2.EditMode 属性 (DAO)
+# <a name="recordset2editmode-property-dao"></a>EditMode 属性 (DAO) Recordset2
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 返回一个值，该值指示当前记录的编辑状态。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28716745"
 
 *表达式*。EditMode
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 
@@ -37,7 +37,7 @@ ms.locfileid: "28716745"
 
 例如，在验证过程中，如果由于错误中断了编辑过程，则 **EditMode** 属性十分有用。可以使用 **EditMode** 属性值确定应使用 **[Update](recordset2-update-method-dao.md)** 方法还是 **[CancelUpdate](recordset2-cancelupdate-method-dao.md)** 方法。
 
-您也可以查看 **[LockEdits](recordset2-lockedits-property-dao.md)** 属性设置是否为 **True** 以及 **EditMode** 属性设置是否为 **dbEditInProgress**，以确定当前页是否已被锁定。
+您也可以查看 **[LockEdits](recordset2-lockedits-property-dao.md)** 属性设置是否为 **True** 以及 **EditMode** 属性设置是否为 **dbEditInProgress**，以确定当前页是否被锁定。
 
 ## <a name="example"></a>示例
 

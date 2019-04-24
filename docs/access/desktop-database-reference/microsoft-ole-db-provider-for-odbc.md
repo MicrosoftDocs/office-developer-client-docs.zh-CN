@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4f5ffae4880cadb90f47f1ac348ffc8b3ea58785
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288909"
 ---
-# <a name="microsoft-ole-db-provider-for-odbc"></a>Microsoft OLE DB Provider for ODBC
+# <a name="microsoft-ole-db-provider-for-odbc"></a>用于 ODBC 的 Microsoft OLE DB 提供程序
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 对 ADO 或 RDS 程序员来说，理想环境应该是：每个数据源都公开一个 OLE DB 接口，这样 ADO 就可以直接调入数据源。尽管越来越多的数据库供应商要实现 OLE DB 接口，但某些数据源却仍未以此方式公开。实际上，通过 ODBC 可以访问目前在用的所有 DBMS 系统。
 
@@ -30,7 +30,7 @@ Microsoft ODBC Provider 允许 ADO 连接到任何 ODBC 数据源。此提供程
 
 ## <a name="connection-string-parameters"></a>连接字符串参数
 
-要连接到此提供程序，请将 **ConnectionString** 属性的 [Provider=](connectionstring-property-ado.md) 参数设置为：
+要连接到此提供程序，请将 [ConnectionString](connectionstring-property-ado.md) 属性的 **Provider=** 参数设置为：
 
 ```sql 
  
@@ -80,7 +80,7 @@ MSDASQL
 </tr>
 <tr class="odd">
 <td><p><strong>URL</strong></p></td>
-<td><p>指定文件或目录 web 文件夹中发布的 URL。</p></td>
+<td><p>指定在 web 文件夹中发布的文件或目录的 URL。</p></td>
 </tr>
 </tbody>
 </table>
@@ -106,11 +106,11 @@ MSDASQL
 
 也可以在 ODBC 特定的参数中或在标准的 ADO 定义的 *user* 和 *password* 参数中指定用户帐户名 (**UID=**) 以及用户帐户的密码 (**PWD=**)。
 
-虽然**DSN**定义已指定了数据库，您可以指定除了**DSN**连接到其他数据库*的**数据库*参数。 最好若要使用**DSN**时始终包含**database*参数*。 这将确保在上次检查了 **DSN** 定义后其他用户更改了默认的数据库参数的情况下，依然可以连接到正确的数据库。
+尽管**dsn**定义已经指定了一个数据库, 但除了**dsn**之外, 还可以指定*一个**数据库*参数以连接到不同的数据库。 最好在使用**DSN**时始终包含** *database*参数。 这将确保在上次检查了 **DSN** 定义后其他用户更改了默认的数据库参数的情况下，依然可以连接到正确的数据库。
 
 ## <a name="provider-specific-connection-properties"></a>提供程序特定的连接属性
 
-OLE DB Provider for ODBC 会将多个属性添加到 [Connection](properties-collection-ado.md) 对象的 **Properties** 集合中。下表列出了这些属性以及对应的 OLE DB 属性名（括在括号中）。
+OLE DB Provider for ODBC 会将多个属性添加到 **Connection** 对象的 [Properties](properties-collection-ado.md) 集合中。下表列出了这些属性以及对应的 OLE DB 属性名（括在括号中）。
 
 <table>
 <colgroup>
@@ -125,12 +125,12 @@ OLE DB Provider for ODBC 会将多个属性添加到 [Connection](properties-col
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>可访问的过程<br />
+<td><p>可访问过程<br />
 (KAGPROP_ACCESSIBLEPROCEDURES)</p></td>
 <td><p>指示用户是否有权访问存储过程。</p></td>
 </tr>
 <tr class="even">
-<td><p>可访问的表<br />
+<td><p>可访问的表格<br />
 (KAGPROP_ACCESSIBLETABLES)</p></td>
 <td><p>指示用户是否有权针对数据库表执行 SELECT 语句。</p></td>
 </tr>
@@ -145,42 +145,42 @@ OLE DB Provider for ODBC 会将多个属性添加到 [Connection](properties-col
 <td><p>指示 ODBC 驱动程序的文件名。</p></td>
 </tr>
 <tr class="odd">
-<td><p>ODBC 驱动程序版本<br />
+<td><p>驱动程序 ODBC 版本<br />
 (KAGPROP_DRIVERODBCVER)</p></td>
 <td><p>指示此驱动程序支持的 ODBC 版本。</p></td>
 </tr>
 <tr class="even">
-<td><p>文件的使用情况<br />
+<td><p>文件使用情况<br />
 (KAGPROP_FILEUSAGE)</p></td>
 <td><p>指示驱动程序在数据源中处理文件的方式，作为表还是作为目录。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Like 转义子句<br />
+<td><p>Like Escape 子句<br />
 (KAGPROP_LIKEESCAPECLAUSE)</p></td>
 <td><p>指示驱动程序是否支持为 WHERE 子句的 LIKE 谓词中的百分号字符 (%) 和下划线字符 (_) 定义和使用转义字符。</p></td>
 </tr>
 <tr class="even">
-<td><p>在组中的最大列数<br />
+<td><p>Group By 中的最大列数<br />
 (KAGPROP_MAXCOLUMNSINGROUPBY)</p></td>
 <td><p>指示 SELECT 语句的 GROUP BY 子句中可以列出的列的最大数目。</p></td>
 </tr>
 <tr class="odd">
-<td><p>在索引中的最大列<br />
+<td><p>索引中的最大列数<br />
 (KAGPROP_MAXCOLUMNSININDEX)</p></td>
 <td><p>指示索引中可以包括的列的最大数目。</p></td>
 </tr>
 <tr class="even">
-<td><p>按顺序的最大列<br />
+<td><p>排序依据的最大列数<br />
 (KAGPROP_MAXCOLUMNSINORDERBY)</p></td>
 <td><p>指示 SELECT 语句的 ORDER BY 子句中可以列出的列的最大数目。</p></td>
 </tr>
 <tr class="odd">
-<td><p>在选择最大列数<br />
+<td><p>选择中的最大列数<br />
 (KAGPROP_MAXCOLUMNSINSELECT)</p></td>
 <td><p>指示 SELECT 语句的 SELECT 部分中可以列出的列的最大数目。</p></td>
 </tr>
 <tr class="even">
-<td><p>表中的最大列<br />
+<td><p>表中的最大列数<br />
 (KAGPROP_MAXCOLUMNSINTABLE)</p></td>
 <td><p>指示表中允许的列的最大数目。</p></td>
 </tr>
@@ -195,7 +195,7 @@ OLE DB Provider for ODBC 会将多个属性添加到 [Connection](properties-col
 <td><p>指示此提供程序支持的 OUTER JOIN 类型。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Outer Join<br />
+<td><p>外部联接<br />
 (KAGPROP_OUTERJOINS)</p></td>
 <td><p>指示支持 OUTER JOIN 的提供程序。</p></td>
 </tr>
@@ -250,7 +250,7 @@ OLE DB Provider for ODBC 会将多个属性添加到 **Recordset** 和 **Command
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>基于查询的插入/删除/更新<br />
+<td><p>基于查询的更新/删除/插入<br />
 (KAGPROP_QUERYBASEDUPDATES)</p></td>
 <td><p>指示是否可以使用 SQL 查询执行更新、删除和插入。</p></td>
 </tr>
@@ -260,17 +260,17 @@ OLE DB Provider for ODBC 会将多个属性添加到 **Recordset** 和 **Command
 <td><p>指示用于减少由两个用户试图同时访问数据源中的相同数据而导致的潜在问题的方法。</p></td>
 </tr>
 <tr class="odd">
-<td><p>仅向前型游标的 BLOB 辅助功能<br />
+<td><p>仅向前型游标上的 BLOB 可访问性<br />
 (KAGPROP_BLOBSONFOCURSOR)</p></td>
 <td><p>指示在使用只进游标时是否可以访问 BLOB <strong>字段</strong>。</p></td>
 </tr>
 <tr class="even">
-<td><p>在 QBU WHERE 子句中包括 SQL_FLOAT、 SQL_DOUBLE 和 SQL_REAL<br />
+<td><p>在 QBU WHERE 子句中包括 SQL_FLOAT、SQL_DOUBLE 和 SQL_REAL<br />
 (KAGPROP_INCLUDENONEXACT)</p></td>
 <td><p>指示 QBU WHERE 子句中是否可以包括 SQL_FLOAT、SQL_DOUBLE 和 SQL_REAL 值。</p></td>
 </tr>
 <tr class="odd">
-<td><p>在最后一行之后插入的位置<br />
+<td><p>插入后的最后一行上的位置<br />
 (KAGPROP_POSITIONONNEWROW)</p></td>
 <td><p>指示在表中插入新记录后，表中的最后一行是否将为当前行。</p></td>
 </tr>
@@ -297,11 +297,11 @@ OLE DB Provider for ODBC 会将多个属性添加到 **Recordset** 和 **Command
 
 如何使用 [Command](command-object-ado.md) 对象在很大程度上取决于数据源及其将接受的查询语句或命令语句的类型。
 
-ODBC 提供了用于调用存储过程的特定语法。 **Command**对象、 的[Connection](connection-object-ado.md)对象的**Execute**方法的*CommandText*参数或[Recordset](recordset-object-ado.md)的**Open**方法的*源*参数[将 CommandText](commandtext-property-ado.md)属性对象，此语法与字符串中传递：
+ODBC 提供了用于调用存储过程的特定语法。对于 **Command** 对象的 [CommandText](commandtext-property-ado.md) 属性、[Connection](connection-object-ado.md) 对象的 **Execute** 方法的 *CommandText* 参数或 [Recordset](recordset-object-ado.md) 对象的 **Open** 方法的 *Source* 参数，请使用以下语法传入字符串：
 
 `"{ [ ? = ] call procedure [ ( ? [, ? [ ,  ]] ) ] }"`
 
-每个 **?** 都引用 [Parameters](parameters-collection-ado.md) 集合中的一个对象。第一个 **?** 引用 **Parameters**(0)，接下来的 **?** 引用 **Parameters**(1)，依此类推。
+每个 **?** 都引用 [Parameters](parameters-collection-ado.md) 集合中的一个对象。 第一个 **?** 引用**参数**(0), 下一个 **？** 引用**参数**(1), 依此类推。
 
 参数引用是可选的，且取决于存储过程的结构。如果要调用未定义参数的存储过程，则字符串的形式将与以下所示类似：
 
@@ -339,9 +339,9 @@ ODBC 提供了用于调用存储过程的特定语法。 **Command**对象、 �
 <tr class="header">
 <th><p>属性</p></th>
 <th><p>ForwardOnly</p></th>
-<th><p>动态</p></th>
-<th><p>键集</p></th>
-<th><p>静态</p></th>
+<th><p>Dynamic</p></th>
+<th><p>该行</p></th>
+<th><p>Static</p></th>
 </tr>
 </thead>
 <tbody>
@@ -498,9 +498,9 @@ ODBC 提供了用于调用存储过程的特定语法。 **Command**对象、 �
 <tr class="header">
 <th><p>方法</p></th>
 <th><p>ForwardOnly</p></th>
-<th><p>动态</p></th>
-<th><p>键集</p></th>
-<th><p>静态</p></th>
+<th><p>Dynamic</p></th>
+<th><p>该行</p></th>
+<th><p>Static</p></th>
 </tr>
 </thead>
 <tbody>
@@ -617,7 +617,7 @@ ODBC 提供了用于调用存储过程的特定语法。 **Command**对象、 �
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="resync-method-ado.md">Resync</a></p></td>
+<td><p><a href="resync-method-ado.md">同步</a></p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>是</p></td>
@@ -652,7 +652,7 @@ ODBC 提供了用于调用存储过程的特定语法。 **Command**对象、 �
 
 ## <a name="dynamic-properties"></a>动态属性
 
-Microsoft OLE DB Provider for ODBC 会将多个动态属性插入到未打开的 **Connection**、[Recordset](connection-object-ado.md) 和 [Command](recordset-object-ado.md) 对象的 [Properties](command-object-ado.md) 集合中。
+Microsoft OLE DB Provider for ODBC 会将多个动态属性插入到未打开的 [Connection](connection-object-ado.md)、[Recordset](recordset-object-ado.md) 和 [Command](command-object-ado.md) 对象的 **Properties** 集合中。
 
 下面的表是每个动态属性的 ADO 和 OLE DB 名称的交叉索引。《OLE DB 程序员参考》使用术语"说明"来引用 ADO 属性名。您可以在《OLE DB 程序员参考》中找到有关这些属性的详细信息。请在"索引"中搜索 OLE DB 属性名，或者请参阅"附录 C：OLE DB 属性"。
 
@@ -761,7 +761,7 @@ Microsoft OLE DB Provider for ODBC 会将多个动态属性插入到未打开的
 <td><p>DBPROP_INIT_LCID</p></td>
 </tr>
 <tr class="odd">
-<td><p>Location</p></td>
+<td><p>位置</p></td>
 <td><p>DBPROP_INIT_LOCATION</p></td>
 </tr>
 <tr class="even">
@@ -781,7 +781,7 @@ Microsoft OLE DB Provider for ODBC 会将多个动态属性插入到未打开的
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Mode</p></td>
+<td><p>模式</p></td>
 <td><p>DBPROP_INIT_MODE</p></td>
 </tr>
 <tr class="odd">
@@ -1446,5 +1446,5 @@ Microsoft OLE DB Provider for ODBC 会将多个动态属性插入到未打开的
 
 ## <a name="see-also"></a>另请参阅
 
-有关具体的实现以及有关 Microsoft OLE DB Provider for ODBC 的功能信息的详细信息，请参阅[OLE DB 程序员指南 》](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85))或访问[数据平台开发人员中心](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017)。
+有关 Microsoft OLE db Provider for ODBC 的特定实现和功能信息的详细信息, 请参阅《 [OLE DB 程序员指南》](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85))或访问[数据平台开发人员中心](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017)。
 

@@ -1,5 +1,5 @@
 ---
-title: Field.Required 属性 (DAO)
+title: Field。 Required 属性 (DAO)
 TOCTitle: Required Property
 ms:assetid: 2f1dbdeb-a37a-59b2-fdc2-f16c7ae1a575
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 52900d4a60002695866b9960fb6b80cefeb2b2ea
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292977"
 ---
-# <a name="fieldrequired-property-dao"></a>Field.Required 属性 (DAO)
+# <a name="fieldrequired-property-dao"></a>Field。 Required 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 设置或返回一个值，该值指示 **[Field](field-object-dao.md)** 对象是否需要一个非 Null 值。
 
@@ -50,26 +50,26 @@ ms.locfileid: "28721680"
 <td><p>不支持</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong>对象</p></td>
+<td><p><strong>QueryDef</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong>对象</p></td>
+<td><p><strong>Recordset</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong>对象</p></td>
-<td><p>不支持</p></td>
+<td><p><strong>Relation</strong> 对象</p></td>
+<td><p>不受支持</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TableDef</strong>对象</p></td>
+<td><p><strong>TableDef</strong> 对象</p></td>
 <td><p>读/写</p></td>
 </tr>
 </tbody>
 </table>
 
 
-可以将 **Required** 属性与 **[AllowZeroLength](field-allowzerolength-property-dao.md)** 、 **[ValidateOnSet](field-validateonset-property-dao.md)** 或 **[ValidationRule](field-validationrule-property-dao.md)** 属性一起使用，以确定该 [Field](field-value-property-dao.md) 对象的 ****Value**** 属性设置的有效性。如果 **Required** 属性设置为 **False**，则该字段可以包含 **null** 值以及满足 **AllowZeroLength** 和 **ValidationRule** 属性设置所指定的条件的值。
+可以将 **Required** 属性与 **[AllowZeroLength](field-allowzerolength-property-dao.md)**、**[ValidateOnSet](field-validateonset-property-dao.md)** 或 **[ValidationRule](field-validationrule-property-dao.md)** 属性一起使用，以确定该 **Field** 对象的 **[Value](field-value-property-dao.md)** 属性设置的有效性。 如果 **Required** 属性设置为 **False**，则该字段可以包含 **null** 值以及满足 **AllowZeroLength** 和 **ValidationRule** 属性设置所指定的条件的值。
 
 
 > [!NOTE]
@@ -79,7 +79,7 @@ ms.locfileid: "28721680"
 
 ## <a name="example"></a>示例
 
-以下示例使用 **Required** 属性报告为了添加新记录，三个不同表中的哪些字段必须包含数据。若要使该过程运行，需要使用 RequiredOutput 过程。
+以下示例使用 **Required** 属性来报告为了添加新记录，三个不同表中的哪些字段必须包含数据。若要使该过程运行，需要使用 RequiredOutput 过程。
 
 ```vb 
 Sub RequiredX() 

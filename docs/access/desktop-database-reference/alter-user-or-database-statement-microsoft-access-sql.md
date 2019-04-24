@@ -8,23 +8,23 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2514ca6403ce70acae9e344d610fbd7b9ba7d73b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297177"
 ---
 # <a name="alter-user-or-database-statement-microsoft-access-sql"></a>ALTER USER 或 DATABASE 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 更改现有用户或数据库的密码。
 
 ## <a name="syntax"></a>语法
 
-更改数据库密码*newpassword 旧密码*
+ALTER DATABASE PASSWORD *newpassword oldpassword*
 
-ALTER USER*用户*密码*newpassword 旧密码*
+ALTER USER *user* PASSWORD *newpassword oldpassword*
 
 ALTER USER 或 DATABASE 语句包含以下部分：
 
@@ -35,13 +35,13 @@ ALTER USER 或 DATABASE 语句包含以下部分：
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>用户</em></p></td>
+<td><p><em>user</em></p></td>
 <td><p>要添加到工作组信息文件中的用户的名称。</p></td>
 </tr>
 <tr class="even">

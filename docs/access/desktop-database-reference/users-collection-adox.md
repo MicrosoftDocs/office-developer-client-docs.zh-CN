@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 24d7a5cab3260dac80b39e5134938c5f55175851
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312934"
 ---
 # <a name="users-collection-adox"></a>Users 集合 (ADOX)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 包含目录或组的所有存储的 [User](user-object-adox.md) 对象。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **Catalog** 的 [Users](catalog-object-adox.md) 集合表示该目录的所有用户。 **Group** 的 [Users](group-object-adox.md) 集合仅表示在该特定组中有成员资格的用户。
 

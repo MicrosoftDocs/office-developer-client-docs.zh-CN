@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a5635b2b97066394b8596dbcdb50c84abf429719
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293831"
 ---
 # <a name="displayhourglasspointer-macro-action"></a>DisplayHourglassPointer 宏操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **DisplayHourglassPointer** 操作在宏运行时将鼠标指针更改为沙漏图像（或选择的其他图标）。此操作可直观地指示宏正在运行。当宏操作或宏本身需要较长的运行时间时，这会特别有用。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **DisplayHourglassPointer** 操作具有以下参数。
 
@@ -49,11 +49,11 @@ ms.locfileid: "28715128"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果已使用 **Echo** 操作关闭回响，则通常要使用此操作。 回声关闭时，Access 将挂起屏幕更新，直到完成宏。
+如果已使用 **Echo** 操作关闭回响，则通常要使用此操作。 当回响关闭时, Access 将挂起屏幕更新, 直到宏完成。
 
-当宏运行完毕时，access 会将**显示沙漏**参数自动重置为**否**。
+Access automatically resets the **Hourglass On** argument to **No** when the macro finishes running.
 
 > [!NOTE]
 > - 在 Microsoft Windows 中，这是在 Windows 控制面板的 **"鼠标属性"** 对话框中为 **"忙"** 设置的图标。所有 Windows 操作系统的默认设置都是一个具有动画效果的沙漏图标。

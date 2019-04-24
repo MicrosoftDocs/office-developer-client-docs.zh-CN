@@ -1,5 +1,5 @@
 ---
-title: Connection.Cancel 方法 (DAO)
+title: 连接. Cancel 方法 (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 43ad7b64-823d-3fac-e4d4-5e9514f60011
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192953(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a0826a30f22cc46eb6ff9a114dbf02cab1d9f76a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295966"
 ---
-# <a name="connectioncancel-method-dao"></a>Connection.Cancel 方法 (DAO)
+# <a name="connectioncancel-method-dao"></a>连接. Cancel 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="syntax"></a>语法
 
 *表达式*。取消
 
-*表达式*代表**Connection**对象的变量。
+*表达式*一个代表**Connection**对象的变量。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-使用**Cancel**方法可以终止执行异步**Execute**或**OpenConnection**方法调用 （即，该方法使用 dbRunAsync 选项调用）。 如果您正在尝试进行终止的方法中未使用 dbRunAsync，则**取消**将返回一个运行时错误。
+使用**Cancel**方法可以终止执行异步**Execute**或**OpenConnection**方法调用 (即, 使用即用 dbrunasync 选项调用方法)。 如果在尝试终止的方法中未使用即用 dbrunasync, 则 "**取消**" 将返回运行时错误。
 
 如果在调用 **Cancel** 方法之后，您试图引用由异步 **OpenConnection** 调用创建的对象（即，您从其处调用 **Cancel** 方法的 **Connection** 对象），将会发生错误。
 

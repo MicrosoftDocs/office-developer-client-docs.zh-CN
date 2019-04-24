@@ -1,5 +1,5 @@
 ---
-title: 类型的游标 （访问桌面数据库参考 （英文）
+title: 游标类型 (Access 桌面数据库参考)
 TOCTitle: Types of Cursors
 ms:assetid: 589f3755-3cf5-9470-bd66-8e8afa218fc5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249299(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6493d746f43ac8d923e5b1b9d6dcd3de44b411ec
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314026"
 ---
 # <a name="types-of-cursors"></a>游标类型
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 作为一般规则，应用程序应使用可提供必需的数据访问的最简单游标。除基本特征（仅向前、只读、静态、滚动、无缓冲）外的每个其他游标特征都要在客户端内存、网络负载或性能等方面付出相应的代价。在很多情况下，默认游标选项会生成比您的应用程序实际需要更加复杂的游标。
 

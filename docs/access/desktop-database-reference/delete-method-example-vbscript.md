@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 26c259452e23bed8d2937f9d86c78d4d52be2993
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294083"
 ---
 # <a name="delete-method-example-vbscript"></a>Delete 方法示例 (VBScript)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 本示例使用 [Delete](delete-method-ado-recordset.md) 方法从 [Recordset](recordset-object-ado.md) 中删除指定的记录。
 

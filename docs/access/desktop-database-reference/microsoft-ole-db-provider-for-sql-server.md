@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c4faa664ed9001c1c06906f58c7d873faf75a5d0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288888"
 ---
 # <a name="microsoft-ole-db-provider-for-sql-server"></a>Microsoft OLE DB Provider for SQL Server
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Microsoft OLE DB Provider for SQL Server (SQLOLEDB) 允许 ADO 访问 Microsoft SQL Server。
 
 ## <a name="connection-string-parameters"></a>连接字符串参数
 
-若要连接到此提供程序，请将*提供程序*参数设置为将[ConnectionString](connectionstring-property-ado.md)属性设为：
+若要连接到此提供程序，请将 [ConnectionString](connectionstring-property-ado.md) 属性的 *Provider* 参数设置为：
 
 ```sql 
  
@@ -83,7 +83,7 @@ User ID=userName;Password=userPassword;"
 
 ## <a name="provider-specific-connection-parameters"></a>提供程序特定的连接参数
 
-除了支持 ADO 定义的那些参数以外，该提供程序还支持几个提供程序特定的连接参数。与 ADO 连接属性一样，可以通过 [Connection](properties-collection-ado.md) 的 [Properties](connection-object-ado.md) 集合或将其作为 **ConnectionString** 的一部分来设置这些提供程序特定的属性。
+除了支持 ADO 定义的那些参数以外，该提供程序还支持几个提供程序特定的连接参数。与 ADO 连接属性一样，可以通过 [Connection](connection-object-ado.md) 的 [Properties](properties-collection-ado.md) 集合或将其作为 **ConnectionString** 的一部分来设置这些提供程序特定的属性。
 
 <table>
 <colgroup>
@@ -93,13 +93,13 @@ User ID=userName;Password=userPassword;"
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>说明</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Trusted_Connection</p></td>
-<td><p>指示用户身份验证模式。 这可以设置为<strong>是</strong>或<strong>否</strong>。 默认值为<strong>否</strong>。 如果此属性设置为<strong>是</strong>，SQLOLEDB 将使用 Microsoft Windows NT 身份验证模式以授权用户访问的<strong>位置</strong>和<a href="datasource-property-ado.md">Datasource</a>属性值指定的 SQL Server 数据库。 如果此属性设置为<strong>No</strong>，SQLOLEDB 将使用混合模式来授权用户访问 SQL Server 数据库。 <strong>用户 Id</strong>和<strong>密码</strong>属性中指定的 SQL Server 登录名和密码。</p></td>
+<td><p>Indicates the user authentication mode. This can be set to <strong>Yes</strong> or <strong>No</strong>. The default value is <strong>No</strong>. If this property is set to <strong>Yes</strong>, then SQLOLEDB uses Microsoft Windows NT Authentication Mode to authorize user access to the SQL Server database specified by the <strong>Location</strong> and <a href="datasource-property-ado.md">Datasource</a> property values. If this property is set to <strong>No</strong>, then SQLOLEDB uses Mixed Mode to authorize user access to the SQL Server database. The SQL Server login and password are specified in the <strong>User Id</strong> and <strong>Password</strong> properties.  </p></td>
 </tr>
 <tr class="even">
 <td><p>Current Language</p></td>
@@ -119,7 +119,7 @@ User ID=userName;Password=userPassword;"
 </tr>
 <tr class="even">
 <td><p>Auto Translate</p></td>
-<td><p>指示是否将 OEM/ANSI 字符转换。 此属性可以设置为<strong>True</strong>或<strong>False</strong>。 默认值为 <strong>True</strong>。 如果此属性设置为<strong>True</strong>，然后 SQLOLEDB OEM/ANSI 字符转换时执行从，检索多字节字符串或发给 SQL Server。 如果此属性设置为<strong>False</strong>，SQLOLEDB 不 OEM/ANSI 字符转换执行多字节字符串数据。</p></td>
+<td><p>Indicates whether OEM/ANSI characters are converted. This property can be set to <strong>True</strong> or <strong>False</strong>. The default value is <strong>True</strong>. If this property is set to <strong>True</strong>, then SQLOLEDB performs OEM/ANSI character conversion when multi-byte character strings are retrieved from, or sent to, the SQL Server. If this property is set to <strong>False</strong>, then SQLOLEDB does not perform OEM/ANSI character conversion on multi-byte character string data.  </p></td>
 </tr>
 <tr class="odd">
 <td><p>Packet Size</p></td>
@@ -181,7 +181,7 @@ SQL Server 游标支持可滚动的 SQLOLEDB 记录集。SQL Server 将针对对
 
 ## <a name="dynamic-properties"></a>动态属性
 
-Microsoft OLE DB Provider for SQL Server 将多个动态属性插入到未打开的 **Connection**、[Recordset](connection-object-ado.md) 和 [Command](recordset-object-ado.md) 对象的 [Properties](command-object-ado.md) 集合中。
+Microsoft OLE DB Provider for SQL Server 将多个动态属性插入到未打开的 [Connection](connection-object-ado.md)、[Recordset](recordset-object-ado.md) 和 [Command](command-object-ado.md) 对象的 **Properties** 集合中。
 
 下面的表是每个动态属性的 ADO 和 OLE DB 名称的交叉索引。《OLE DB 程序员参考》使用术语"说明"来引用 ADO 属性名称。您可以在《OLE DB 程序员参考》中找到有关这些属性的详细信息。请在"索引"中搜索 OLE DB 属性名，或者请参阅"附录 C：OLE DB 属性"。
 

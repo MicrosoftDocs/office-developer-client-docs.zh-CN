@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7a92b5380837668df6661d1d88eb8bb0bd2cb4ec
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313963"
 ---
 # <a name="type-property-example-property-vc"></a>Type 属性示例（属性）(VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 本示例演示 [Type](type-property-ado.md) 属性。该示例是列出集合的名称和类型（如 [Properties](properties-collection-ado.md)、[Fields](fields-collection-ado.md) 等）的实用程序模型。
 

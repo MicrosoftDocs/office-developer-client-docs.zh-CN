@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 188f70d32237385cd82979589aecb989f18748b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296246"
 ---
 # <a name="column-object-adox"></a>Column 对象 (ADOX)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 代表表、索引或键中的列。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-以下代码创建一个新的 **Column** ：
+以下代码创建一个新的 **Column**：
 
 `Dim obj As New Column`
 

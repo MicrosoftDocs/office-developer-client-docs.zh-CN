@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: beddd6db652b37481872a66884971de541e5e0e7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306935"
 ---
 # <a name="relations-methods-dao"></a>关系方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-- [Relations.Append 方法 (DAO)](relations-append-method-dao.md)
-- [Relations.Delete 方法 (DAO)](relations-delete-method-dao.md)
-- [Relations.Refresh 方法 (DAO)](relations-refresh-method-dao.md)
+- [关系. Append 方法 (DAO)](relations-append-method-dao.md)
+- [关系. Delete 方法 (DAO)](relations-delete-method-dao.md)
+- [关系. Refresh 方法 (DAO)](relations-refresh-method-dao.md)
 

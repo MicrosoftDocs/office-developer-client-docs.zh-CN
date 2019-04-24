@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e010ac58ff0b573d42c562ce3be7a99acab5abea
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292116"
 ---
 # <a name="group-object-adox"></a>Group 对象 (ADOX)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 代表在受保护的数据库中有访问权限的组帐户。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 [Catalog](groups-collection-adox.md) 的 [Groups](catalog-object-adox.md) 集合表示该目录的所有组帐户。 **User** 的 [Groups](user-object-adox.md) 集合仅表示该用户所属的组。
 

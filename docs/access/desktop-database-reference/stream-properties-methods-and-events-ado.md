@@ -1,5 +1,5 @@
 ---
-title: 流属性、 方法和事件 (ADO)
+title: Stream 属性、方法和事件 (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 12542605-9520-f0a9-09e4-9eac6b37c35e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b995fab9247347c434a0ffc01aeecc7389802e24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314425"
 ---
-# <a name="stream-properties-methods-and-events-ado"></a>流属性、 方法和事件 (ADO)
+# <a name="stream-properties-methods-and-events-ado"></a>Stream 属性、方法和事件 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="properties"></a>属性
 
-- [Charset 属性](charset-property-ado.md)
+- [CharSet 属性](charset-property-ado.md)
 - [EOS 属性](eos-property-ado.md)
 - [LineSeparator 属性](lineseparator-property-ado.md)
 - [Mode 属性](mode-property-ado.md)
 - [Position 属性](position-property-ado.md)
 - [Size 属性 (ADO Stream)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
 - [State 属性](state-property-ado.md)
-- [Type 属性 (ADO Stream)](type-property-ado-stream.md)
+- [Type 属性（ADO 流）](type-property-ado-stream.md)
 
 
 ## <a name="methods"></a>方法

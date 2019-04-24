@@ -1,5 +1,5 @@
 ---
-title: GetRowsOptionEnum （访问桌面数据库参考 （英文）
+title: GetRowsOptionEnum (Access desktop database reference)
 TOCTitle: GetRowsOptionEnum
 ms:assetid: 5c1665bb-555c-f83f-066c-d6de2dd0343f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249323(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 16a878aaded9368d89f935df5a7ae9575c31f480
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292193"
 ---
 # <a name="getrowsoptionenum"></a>GetRowsOptionEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定要从 [Recordset](recordset-object-ado.md) 中检索多少记录。
 
@@ -45,9 +45,9 @@ ms.locfileid: "28722072"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -60,7 +60,7 @@ ms.locfileid: "28722072"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.GetRowsOption.REST</p></td>
+<td><p>AdoEnums GetRowsOption</p></td>
 </tr>
 </tbody>
 </table>

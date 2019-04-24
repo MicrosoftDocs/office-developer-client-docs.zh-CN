@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e772e93f27d6bb5f30d865e3435d4bde6bdc5e73
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291920"
 ---
 # <a name="how-event-handlers-work-together"></a>事件处理程序如何协同工作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 除非您正在用 Visual Basic 编程，否则不管实际上您是否处理所有事件，都必须实现 **Connection** 和 **Recordset** 事件的所有事件处理程序。必须完成的实现工作量取决于编程语言。有关详细信息，请参阅 [ADO 事件实例化（按语言）](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado)。
 
@@ -30,9 +30,9 @@ ms.locfileid: "28722905"
 
 在实例中，当引发多个 Will 事件时，其中的一个事件可能会取消挂起的操作。例如，如果应用程序更改了 **Field** 的值，通常会调用 **WillChangeField** 和 **WillChangeRecord** 事件处理程序。但是，如果在第一个事件处理程序中取消了操作，则会通过 **adStatusOperationCancelled** 立即调用该处理程序关联的 Complete 处理程序。这样，永远不会调用第二个处理程序。但是，如果第一个事件处理程序允许事件继续，则会调用其他事件处理程序。如果这时它取消了操作，则两个 Complete 事件都会像在前面的示例中一样被调用。
 
-## <a name="unpaired-event-handlers"></a>不成对的事件处理程序
+## <a name="unpaired-event-handlers"></a>未配对的事件处理程序
 
-只要传递给事件的状态不是**adStatusCantDeny**，可以通过在*Status*参数返回**adStatusUnwantedEvent**将关闭的任何事件的事件通知。 例如，第一次调用 Complete 事件处理程序时，可以返回 **adStatusUnwantedEvent** 。 随后只会收到 Will 事件。 但是，一些事件可以由于多个原因而触发。 在这种情况下，事件将没有*Reason*参数。 返回 **adStatusUnwantedEvent** 时，只有当事件由于特定原因而发生时，您才会停止收到该事件的通知。 换句话说，对于每个可能触发事件的原因，您都有可能收到通知。
+只要传递给事件的状态不是 **adStatusCantDeny**，就可以通过在 *Status* 参数中返回 **adStatusUnwantedEvent** 来关闭任何事件的事件通知。例如，第一次调用 Complete 事件处理程序时，可以返回 **adStatusUnwantedEvent**。随后只会收到 Will 事件。但是，一些事件可以由于多个原因而触发。这种情况下，事件将有 *Reason* 参数。返回 **adStatusUnwantedEvent** 时，只有当事件由于特定原因而发生时，您才会停止收到该事件的通知。换句话说，对于每个可能触发事件的原因，您都有可能收到通知。
 
 如果需要检查将在操作中使用的参数，则可以使用单个 Will 事件处理程序。可以修改这些操作参数或取消操作。
 
@@ -40,7 +40,7 @@ ms.locfileid: "28722905"
 
 单个 Complete 事件处理程序可以用于管理异步操作。每个异步操作都有相应的 Complete 事件。
 
-例如，填充大型 [Recordset](recordset-object-ado.md) 对象可能需要很长时间。 如果您的应用程序编写正确，您可以开始操作，并继续进行其他处理。 最后，当 **ExecuteComplete** 事件填充 **Recordset** 时，您将得到通知。
+例如，填充大型 [Recordset](recordset-object-ado.md) 对象可能需要很长时间。 如果您的应用程序进行了适当的编写, 则可以启动操作并继续进行其他处理。 最后，当 **ExecuteComplete** 事件填充 **Recordset** 时，您将得到通知。
 
 ## <a name="single-event-handlers-and-multiple-objects"></a>单个事件处理程序和多个对象
 

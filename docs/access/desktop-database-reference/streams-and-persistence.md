@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5a6f49368def305964119edcb06b5bcc80c278d2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314432"
 ---
 # <a name="streams-and-persistence"></a>流和暂留
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 [Recordset](recordset-object-ado.md) 对象的 [Save](save-method-ado.md) 方法用于将 **Recordset** 存储或*持久化*在文件中，[Open](open-method-ado-recordset.md) 方法用于从该文件中还原 **Recordset**。
 
-通过 ADO 2.5， **Save** 和 **Open** 方法还可以将 **Recordset** 持久化到 [Stream](stream-object-ado.md) 对象。在使用远程数据服务 (RDS) 和 Active Server Pages (ASP) 时此功能尤为有用。
+通过 ADO 2.5，**Save** 和 **Open** 方法还可以将 **Recordset** 持久化到 [Stream](stream-object-ado.md) 对象。在使用远程数据服务 (RDS) 和 Active Server Pages (ASP) 时此功能尤为有用。
 
 有关持久化如何在 ASP 页上自己使用的详细信息，请参阅当前的 ASP 文档。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28709304"
 
 ## <a name="scenario-1"></a>方案 1
 
-此方案只是将 **Recordset** 保存到文件，然后保存到 **Stream** 。随后，在另一个 **Recordset** 中打开持久化的流。
+此方案只是将 **Recordset** 保存到文件，然后保存到 **Stream**。随后，在另一个 **Recordset** 中打开持久化的流。
 
 ```vb 
  
@@ -105,7 +105,7 @@ Set rs = nothing
 
 ## <a name="scenario-4"></a>方案 4
 
-在此方案中，ASP 代码将 ADTG 格式的 **Recordset** 的内容写入客户端。 [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) 可以使用此数据创建断开的 **Recordset** 。
+在此方案中，ASP 代码将 ADTG 格式的 **Recordset** 的内容写入客户端。[Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) 可以使用此数据创建断开的 **Recordset**。
 
 RDS [DataControl](datacontrol-object-rds.md)、[URL](url-property-rds.md) 上的新属性指向生成 **Recordset** 的 .asp 页。这表明即使没有使用服务器端 **DataFactory** 对象的 RDS 或编写业务对象的用户，也可以获得 [Recordset](datafactory-object-rdsserver.md) 对象。这大大简化了 RDS 编程模型。
 

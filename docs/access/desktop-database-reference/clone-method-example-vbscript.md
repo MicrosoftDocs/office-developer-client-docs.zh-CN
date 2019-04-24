@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1fc3341f4ec662c17e2a7c274b1cc3af215c877c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715317"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296330"
 ---
 # <a name="clone-method-example-vbscript"></a>Clone 方法示例 (VBScript)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下示例使用 [Clone](clone-method-ado.md) 方法创建 [Recordset](recordset-object-ado.md) 的副本，然后让用户单独定位每个副本的记录指针。
 
 在 Active Server Page (ASP) 中使用以下示例。此示例使用随 Microsoft Access 分发的罗斯文数据库。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，并将其另存为 **CloneVBS.asp** 。可以在任何客户端浏览器中查看结果。
 
-若要实际使用此示例，请更改行 RsCustomerList.Source RsCustomerList.Source 到 ="客户"="产品"，以统计更大的表。
+若要执行此示例, 请将行 RsCustomerList = "Customers" 更改为 RsCustomerList = "Products" 以计数更大的表。
 
 ```vb 
  

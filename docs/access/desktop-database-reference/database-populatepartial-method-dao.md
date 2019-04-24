@@ -1,5 +1,5 @@
 ---
-title: Database.PopulatePartial 方法 (DAO)
+title: PopulatePartial 方法 (DAO)
 TOCTitle: PopulatePartial Method
 ms:assetid: fa3227a2-c961-6a98-32b3-5b6e5329a21d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837034(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 9e0f77c356e0a13c2a1a83986a92c2b25029ecb4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294797"
 ---
-# <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial 方法 (DAO)
+# <a name="databasepopulatepartial-method-dao"></a>PopulatePartial 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 将部分副本中的任何更改与完全副本同步，清除部分副本中的所有记录，然后根据当前副本筛选器重新填充部分副本。（仅适用于 Microsoft Access 数据库引擎数据库。）
 
@@ -30,7 +30,7 @@ ms.locfileid: "28709920"
 
 *表达式*一个代表**Database**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28709920"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -60,7 +60,7 @@ ms.locfileid: "28709920"
 
 ## <a name="remarks"></a>注解
 
-当您将部分副本与完全副本同步时，有可能在部分副本中创建"孤立"的记录。 例如，假设客户表具有其**[ReplicaFilter](tabledef-replicafilter-property-dao.md)** 设置为"区域 = 'CA'"。 如果用户在部分副本中将客户的区域由 CA 更改为 NY，然后通过 **[Synchronize](database-synchronize-method-dao.md)** 方法发生同步，更改将传播到完全副本，但是部分副本中包含 NY 的记录会变为孤立的，因为它现在不满足副本筛选器条件。
+当您将部分副本与完全副本同步时，有可能在部分副本中创建"孤立"的记录。 例如, 假设您有一个 "Customers" 表, 其**[ReplicaFilter](tabledef-replicafilter-property-dao.md)** 设置为 "Region = ' CA '"。 如果用户在部分副本中将客户的区域由 CA 更改为 NY，然后通过 **[Synchronize](database-synchronize-method-dao.md)** 方法发生同步，更改将传播到完全副本，但是部分副本中包含 NY 的记录会变为孤立的，因为它现在不满足副本筛选器条件。
 
 若要解决孤立记录的问题，可以使用 **PopulatePartial** 方法。 **PopulatePartial** 方法类似于 **Synchronize** 方法，但是它将任何更改与完全副本同步，再删除部分副本中的所有记录，然后基于当前的副本筛选器重新填充部分副本。即使未更改副本筛选器， **PopulatePartial** 也始终清除部分副本中的所有记录，然后基于当前筛选器重新填充部分副本。
 

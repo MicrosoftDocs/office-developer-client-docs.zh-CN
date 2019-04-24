@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fbdf8362796bfec7821e1464400ec1ba00637d6b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312759"
 ---
 # <a name="users-collection-properties-methods-and-events-adox"></a>Users 集合的属性、方法和事件 (ADOX)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="properties"></a>属性
 
@@ -25,8 +25,8 @@ ms.locfileid: "28698139"
 
 ## <a name="methods"></a>方法
 
-- [Append 方法 （用户）](append-method-adox-users.md)
-- [Delete 方法 （集）](delete-method-adox-collections.md)
+- [Append 方法 (Users)](append-method-adox-users.md)
+- [Delete 方法 (集合)](delete-method-adox-collections.md)
 - [Refresh 方法](refresh-method-ado.md)
 
 ## <a name="events"></a>事件

@@ -1,5 +1,5 @@
 ---
-title: LineSeparatorsEnum （访问桌面数据库参考 （英文）
+title: LineSeparatorsEnum (Access desktop database reference)
 TOCTitle: LineSeparatorsEnum
 ms:assetid: 3b0c58a8-1617-f9b1-c0c8-928580b2dade
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249148(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c5ab57cab4829d565ea0e9ac8bffdb0790a34c9f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289940"
 ---
 # <a name="lineseparatorsenum"></a>LineSeparatorsEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定在文本 [Stream](stream-object-ado.md) 对象中用作行分隔符的字符。
 
@@ -55,7 +55,7 @@ ms.locfileid: "28708604"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
 这些常量没有 ADO/WFC 等效值。
 

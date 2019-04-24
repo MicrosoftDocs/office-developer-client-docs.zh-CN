@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: dc582046ff1981a82fab9c9c551b0064c1e8c1de
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296169"
 ---
 # <a name="command-object-ado"></a>Command 对象 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 定义要对数据源执行的特定命令。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用 **Command** 对象可查询数据库并通过 [Recordset](recordset-object-ado.md) 对象返回记录，执行批量操作或处理数据库的结构。根据提供程序功能的不同，引用某些 **Command** 集合、方法或属性时，可能生成错误。
 

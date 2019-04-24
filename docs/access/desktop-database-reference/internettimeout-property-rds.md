@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8c0650a287e2aebc13b89572db112b8f9b333dc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291239"
 ---
 # <a name="internettimeout-property-rds"></a>InternetTimeout 属性 (RDS)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示请求超时前等待的毫秒数。
 
@@ -25,7 +25,7 @@ ms.locfileid: "28710074"
 
 设置或返回一个 **Long** 值，该值表示请求超时前等待的毫秒数。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此属性仅适用于通过 HTTP 或 HTTPS 协议发送的请求。
 

@@ -12,11 +12,11 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c3424fd4b85108120ea4accc2dfa65d55394f0d2
-ms.sourcegitcommit: e59070b67358b3700ca677149a849768c144c1a3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31518129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291433"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>初始化 Microsoft Excel 驱动程序
 
@@ -147,7 +147,7 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 ## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>使用 Excel 驱动程序的 TypeGuessRows 设置
 使用 Microsoft Excel 驱动程序时, 可以使用**TypeGuessRows**注册表值来配置要检查的数据类型的行数。 **TypeGuessRows**值位于以下注册表子项下:
 
-# [<a name="office-2016"></a>Office 2016](#tab/office-2016)
+# <a name="office-2016taboffice-2016"></a>[Office 2016](#tab/office-2016)
 
 对于 MSI 安装的 Office
 
@@ -175,13 +175,13 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 
 - 帐号
 - 货币
-- Date
-- Text
+- 日期
+- 文本
 - Boolean
 
 如果遇到与列的猜测数据类型不匹配的数据, 则该数据以**Null**值的形式返回。 在导入过程中, 如果某一列具有混合的数据类型, 则整个列将转换为**ImportMixedTypes**设置所设置的数据类型。
 
-# [<a name="office-2013"></a>Office 2013](#tab/office-2013)
+# <a name="office-2013taboffice-2013"></a>[Office 2013](#tab/office-2013)
 
 对于在 64 windows 上的32位或64位的 office 上为32位的 office, 请执行以下操作:
 
@@ -197,13 +197,13 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 
 - 帐号
 - 货币
-- Date
-- Text
+- 日期
+- 文本
 - Boolean
 
 如果遇到与列的猜测数据类型不匹配的数据, 则该数据以**Null**值的形式返回。 在导入过程中, 如果某一列具有混合的数据类型, 则整个列将转换为**ImportMixedTypes**设置所设置的数据类型。
 
-# [<a name="office-2010"></a>Office 2010](#tab/office-2010)
+# <a name="office-2010taboffice-2010"></a>[Office 2010](#tab/office-2010)
 
 对于在 64 windows 上的32位或64位的 office 上为32位的 office, 请执行以下操作:
 
@@ -219,8 +219,8 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 
 - 帐号
 - 货币
-- Date
-- Text
+- 日期
+- 文本
 - Boolean
 
 如果遇到与列的猜测数据类型不匹配的数据, 则该数据以**Null**值的形式返回。 在导入过程中, 如果某一列具有混合的数据类型, 则整个列将转换为**ImportMixedTypes**设置所设置的数据类型。

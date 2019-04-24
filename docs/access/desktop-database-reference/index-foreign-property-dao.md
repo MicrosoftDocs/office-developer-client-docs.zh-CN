@@ -1,5 +1,5 @@
 ---
-title: Index.Foreign 属性 (DAO)
+title: Index 外表属性 (DAO)
 TOCTitle: Foreign Property
 ms:assetid: 81272436-a506-4b72-fd28-2d68e76d6d9b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196489(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a3c6adfaf9648147a763f997ce2a91aadc4f7637
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291815"
 ---
-# <a name="indexforeign-property-dao"></a>Index.Foreign 属性 (DAO)
+# <a name="indexforeign-property-dao"></a>Index 外表属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-返回一个值，该值指示某个 **[Index](index-object-dao.md)** 对象是否代表某个表中的外键（仅适用于 Microsoft Access 工作区）。
+返回一个值, 该值指示**[Index](index-object-dao.md)** 对象是否表示表中的外键 (仅适用于 Microsoft Access 工作区)。 .
 
 ## <a name="syntax"></a>语法
 
-*表达式*。外
+*表达式*。对外
 
 *表达式*一个代表**Index**对象的变量。
 

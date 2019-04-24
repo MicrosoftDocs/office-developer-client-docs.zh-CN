@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6475621d711881b0187031aa037c8284e155546d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314404"
 ---
 # <a name="table-object-adox"></a>Table 对象 (ADOX)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 代表包括列、索引和键的数据库表。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-以下代码创建一个新的 **Table** ：
+以下代码创建一个新的 **Table**：
 
 `Dim obj As New Table`
 
@@ -38,7 +38,7 @@ ms.locfileid: "28710438"
 
 - 使用 [Keys](keys-collection-adox.md) 集合访问表的键。
 
-- 使用 [ParentCatalog](catalog-object-adox.md) 属性指定拥有表的 [Catalog](parentcatalog-property-adox.md)。
+- 使用 [ParentCatalog](parentcatalog-property-adox.md) 属性指定拥有表的 [Catalog](catalog-object-adox.md)。
 
 - 使用 [DateCreated](datecreated-property-adox.md) 和 [DateModified](datemodified-property-adox.md) 属性返回日期信息。
 

@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: efa763a77250e1d5c617358f31421804c772468b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314642"
 ---
 # <a name="searchforrecord-macro-action"></a>SearchForRecord 宏操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **SearchForRecord** 操作在表、查询、窗体或报表中搜索特定记录。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **SearchForRecord** 操作具有下列参数。
 
@@ -43,11 +43,11 @@ ms.locfileid: "28702108"
 <tbody>
 <tr class="odd">
 <td><p><strong>对象类型</strong></p></td>
-<td><p>输入或选择要搜索中的数据库对象的类型。 您可以选择<strong>表</strong>、<strong>查询</strong>、<strong>窗体</strong>或<strong>报表</strong>。</p></td>
+<td><p>请输入或选择要在其中进行搜索的数据库对象的类型。 可以选择“表”<strong></strong>、“查询”<strong></strong>、“窗体”<strong></strong>或“报表”<strong></strong>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>对象名称</strong></p></td>
-<td><p>输入或选择包含要搜索的记录的特定对象。 下拉列表显示所选的<strong>对象类型</strong>参数类型的所有数据库对象。</p></td>
+<td><p>请输入或选择包含要搜索的记录的特定对象。下拉列表会显示属于您为“对象类型”<strong></strong>参数选择的类型的所有数据库对象。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Record</strong></p></td>
@@ -60,7 +60,7 @@ ms.locfileid: "28702108"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>设置</p></th>
+<th><p>Setting</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -75,7 +75,7 @@ ms.locfileid: "28702108"
 </tr>
 <tr class="odd">
 <td><p><strong>第一</strong></p></td>
-<td><p>从第一条记录往下搜索。这是此参数的默认值。</p></td>
+<td><p>从第一条记录往下搜索。 这是此参数的默认值。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>最后一个</strong></p></td>
@@ -88,44 +88,44 @@ ms.locfileid: "28702108"
 </tr>
 <tr class="even">
 <td><p><strong>Where 条件</strong></p></td>
-<td><p>输入作为 SQL WHERE 子句，只是不 word 使用相同的语法的搜索条件&quot;其中&quot;。 例如，</p>
+<td><p>使用与 SQL WHERE 子句相同的语法输入搜索条件, 而不是在其中包含单词&quot;where。&quot; For example,</p>
 <p>`Description = "Beverages"`</p>
-<p>若要创建包含中窗体上的文本框的值的条件，必须创建组合条件的第一部分包含要搜索的值的文本框同名的表达式。 例如，以下条件将名为 txtDescription 名为 frmCategories 窗体上的文本框中搜索说明字段值。 请注意等号 (<strong>=</strong>) 的表达式，并使用单引号 （<strong>'</strong>） 在文本框引用任意一侧开头：</p>
+<p>若要创建包含来自窗体上的文本框的值的条件, 必须创建一个表达式, 将条件的第一部分与包含要搜索的值的文本框的名称相连接。 例如，下面的条件将在“说明”字段中搜索名为 frmCategories 的窗体上的名为 txtDescription 的文本框中的值。 请注意, 表达式开头<strong>=</strong>的等号 () 以及文本框引用两侧使用单引号 (<strong>'</strong>) 的情况如下所示:</p>
 <p>`="Description = ' " & Forms![frmCategories]![txtDescription] & "'"`</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-- 在多个记录与**Where Condition**参数中的条件相匹配的情况下，以下因素将确定找到哪个记录：
+- 如果有多条记录符合“Where 条件”**** 参数中的条件，则最终会找到哪一条记录将由下列因素决定：
     
-  - **Record 参数设置**请参阅有关**记录**参数的详细信息设置部分中的表。
+  - **Record 参数设置**有关**Record**参数的详细信息, 请参阅 "设置" 部分中的表。
     
-  - **记录的排序顺序**例如，如果**记录**参数设置为**第一个**，更改的记录的排序顺序可能会更改找到哪个记录。
+  - **记录的排序顺序**例如, 如果**Record**参数设置为**First**, 则更改记录的排序顺序可能会更改找到的记录。
 
-- 在运行此操作之前，必须打开**对象名称**参数中指定的对象。 否则，就会出错。
+- The object specified in the **Object Name** argument must be open before this action is run. Otherwise, an error occurs.
 
-- 如果不满足**Where Condition**参数中的条件，不会发生错误，焦点仍保留在当前记录。
+- If the criteria in the **Where Condition** argument are not met, no error occurs and the focus remains on the current record.
 
-- 搜索时的上一个或下一条记录，搜索不"换行"时到达数据的结尾。 如果没有进一步记录符合条件，不会发生错误，焦点仍保留在当前记录。 若要确认已找到匹配项，可以为下一个操作中，输入一个条件和**Where Condition**参数中的条件相同使该条件。
+- When searching for the previous or next record, the search does not "wrap" when it reaches the end of the data. If there are no further records that match the criteria, no error occurs and the focus remains on the current record. To confirm that a match was found, you can enter a condition for the next action, and make the condition the same as the criteria in the **Where Condition** argument.
 
 - 要在 VBA 模块中运行 **SearchForRecord** 操作，请使用 **DoCmd** 对象的 **SearchForRecord** 方法。
 
 - **SearchForRecord** 操作类似于 **[FindRecord](findrecord-macro-action.md)** 操作，但 **SearchForRecord** 的搜索功能更加强大。 **FindRecord** 操作主要用于查找字符串，其功能与 **"查找"** 对话框相同。 **SearchForRecord** 操作使用的条件更像是筛选或 SQL 查询的条件。下面的列表显示了可以通过 **SearchForRecord** 操作执行的一些操作：
     
-  - 您可以使用复杂条件中的**Where Condition**参数如
+  - 可以在“Where 条件”**** 参数中使用复杂条件，例如
         
     `Description = "Beverages" and CategoryID = 11`
     
-  - 可以引用位于窗体或报表的记录源中但没有在窗体或报表上显示的字段。 在上述示例中，说明和 CategoryID 都不必须显示在窗体或报表的条件来处理。
+  - 可以引用位于窗体或报表的记录源中但没有在窗体或报表上显示的字段。 在上面的示例中, 说明和类别 id 都必须显示在窗体或报表上, 条件才有效。
     
   - 可以使用逻辑运算符，例如 **\<** 、 **\>** 、 **AND** 、 **OR** 和 **BETWEEN** 。 **FindRecord** 操作仅匹配与被搜索字符串相同、以被搜索的字符串开头或者包含被搜索的字符串的字符串。
 
 ## <a name="example"></a>示例
 
-下面的宏先使用 **OpenTable** 操作打开"类别"表，然后使用 **SearchForRecord** 操作找到表中的第一条记录，其中"说明"字段中为"饮料"。
+下面的宏先使用 **OpenTable** 操作打开“类别”表，然后使用 **SearchForRecord** 操作找到表中的第一条记录，其中“说明”字段中为“饮料”。
 
 <table>
 <colgroup>
@@ -141,11 +141,11 @@ ms.locfileid: "28702108"
 <tbody>
 <tr class="odd">
 <td><p><strong>OpenTable</strong></p></td>
-<td><p><strong>表名称</strong>： 类别<strong>视图</strong>： <strong>DatasheetData 模式</strong>：<strong>编辑</strong></p></td>
+<td><p><strong>表名称</strong>: 类别<strong>视图</strong>: <strong>DatasheetData 模式</strong>:<strong>编辑</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SearchForRecord</strong></p></td>
-<td><p><strong>对象类型</strong>： <strong>TableObject 名称</strong>： 类别<strong>记录</strong>： <strong>FirstWhere 条件</strong>： 说明 =&quot;饮料&quot;</p></td>
+<td><p><strong>对象类型</strong>: <strong>TableObject 名称</strong>: 类别<strong>记录</strong>: <strong>FirstWhere 条件</strong>: Description = &quot;饮料&quot;</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1fa0ca559c63e1786f55607d94b45f3cc01503dc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294020"
 ---
 # <a name="deleterecord-and-moverecord-methods-example-vb"></a>DeleteRecord 和 MoveRecord 方法示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-本示例演示如何将复制、 移动、 编辑和删除文本文件发布到 web 文件夹的内容。 使用的其他属性和方法包括 [GetChildren](getchildren-method-ado.md)、[ParentURL](parenturl-property-ado.md)、[Source](source-property-ado-record.md) 和 [Flush](flush-method-ado.md)。
+本示例演示如何复制、移动、编辑和删除发布到 web 文件夹的文本文件的内容。 使用的其他属性和方法包括 [GetChildren](getchildren-method-ado.md)、[ParentURL](parenturl-property-ado.md)、[Source](source-property-ado-record.md) 和 [Flush](flush-method-ado.md)。
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: Field2.LoadFromFile 方法 (DAO)
+title: LoadFromFile 方法 (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
@@ -12,29 +12,29 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: bdb1ba92c4a0f4fbee7204b2f4fee8a96c87cc1b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292788"
 ---
-# <a name="field2loadfromfile-method-dao"></a>Field2.LoadFromFile 方法 (DAO)
+# <a name="field2loadfromfile-method-dao"></a>LoadFromFile 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 从磁盘加载指定文件。
 
 ## <a name="version-information"></a>版本信息
 
-添加的版本： Access 2007
+添加的版本: Access 2007
 
 ## <a name="syntax"></a>语法
 
-*表达式*。LoadFromFile (***文件名***)
+*表达式*。LoadFromFile (***FileName***)
 
 *表达式*一个代表**Field2**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ ms.locfileid: "28710627"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -91,7 +91,7 @@ ms.locfileid: "28710627"
 
 下面的示例演示如何将文件从指定的文件夹路径添加到附件字段。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

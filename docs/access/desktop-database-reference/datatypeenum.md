@@ -1,5 +1,5 @@
 ---
-title: DataTypeEnum （访问桌面数据库参考 （英文）
+title: DataTypeEnum (Access desktop database reference)
 TOCTitle: DataTypeEnum
 ms:assetid: a8ab7616-552f-ed5f-ed55-95254cfb374a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249780(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6ffba234ed1c5dc56138a665d6dd07038f55da7b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294440"
 ---
 # <a name="datatypeenum"></a>DataTypeEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 用于指定 [Field](field-object-ado.md)、[Parameter](parameter-object-ado.md) 或 [Property](property-object-ado.md) 的数据类型。下表的说明列的圆括号中显示了对应的 OLE DB 类型指示器。有关 OLE DB 数据类型的详细信息，请参阅 *《OLE DB 程序员参考》* 的第 13 章和附录 A。
 
@@ -38,7 +38,7 @@ ms.locfileid: "28703963"
 <tbody>
 <tr class="odd">
 <td><p><strong>AdArray<br />
-</strong>（不适用于 ADOX。）</p></td>
+</strong>(不应用于 ADOX。)</p></td>
 <td><p>0x2000</p></td>
 <td><p>标志值，始终与另一个数据类型常量组合使用，以指示该数据类型的数组。</p></td>
 </tr>
@@ -54,12 +54,12 @@ ms.locfileid: "28703963"
 </tr>
 <tr class="even">
 <td><p><strong>adBoolean</strong></p></td>
-<td><p>11</p></td>
+<td><p>11x17</p></td>
 <td><p>指示布尔型值 (DBTYPE_BOOL)。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adBSTR</strong></p></td>
-<td><p>8</p></td>
+<td><p>utf-8</p></td>
 <td><p>指示空结尾字符串 (Unicode) (DBTYPE_BSTR)。</p></td>
 </tr>
 <tr class="even">
@@ -68,18 +68,18 @@ ms.locfileid: "28703963"
 <td><p>指示四字节章节值（标识子行集中的行）(DBTYPE_HCHAPTER)。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>每</strong></p></td>
+<td><p><strong>adChar</strong></p></td>
 <td><p>129</p></td>
 <td><p>指示字符串值 (DBTYPE_STR)。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCurrency</strong></p></td>
-<td><p>6</p></td>
+<td><p>型</p></td>
 <td><p>指示货币值 (DBTYPE_CY)。货币是小数位数固定的数字（小数点右侧保留四位）。以八字节有符号整数（以 10,000 为比例）存储。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adDate</strong></p></td>
-<td><p>7</p></td>
+<td><p>步</p></td>
 <td><p>指示日期值 (DBTYPE_DATE)。日期存储为双精度型，其整数部分是 1899 年 12 月 30 日以后的天数，小数部分是某一天内的时间。</p></td>
 </tr>
 <tr class="even">
@@ -98,8 +98,8 @@ ms.locfileid: "28703963"
 <td><p>指示日期/时间戳（年月日小时分秒加上分数，单位：十亿分之一）(DBTYPE_DBTIMESTAMP)。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>为 adDecimal</strong></p></td>
-<td><p>14</p></td>
+<td><p><strong>adDecimal</strong></p></td>
+<td><p>日</p></td>
 <td><p>指示具有固定精度和范围的确切数值 (DBTYPE_DECIMAL)。</p></td>
 </tr>
 <tr class="even">
@@ -129,21 +129,19 @@ ms.locfileid: "28703963"
 </tr>
 <tr class="odd">
 <td><p><strong>adIDispatch</strong></p></td>
-<td><p>9</p></td>
-<td><p>指示指向 COM 对象上的 <strong>IDispatch</strong> 接口的指针 (DBTYPE_IDISPATCH)。
-</p><p><strong>注意</strong>： ADO 当前不支持此数据类型。 使用情况可能会导致无法预料的结果。</p>
+<td><p>第</p></td>
+<td><p>指示指向 COM 对象上的 <strong>IDispatch</strong> 接口的指针 (DBTYPE_IDISPATCH)。</p><p><strong>注意</strong>: ADO 目前不支持此数据类型。 使用它可能会导致不可预测的结果。</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><strong>adInteger</strong></p></td>
-<td><p>3</p></td>
+<td><p>第三章</p></td>
 <td><p>指示四字节有符号整数 (DBTYPE_I4)。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adIUnknown</strong></p></td>
 <td><p>13</p></td>
-<td><p>指示指向 COM 对象上的 <strong>IUnknown</strong> 接口的指针 (DBTYPE_IUNKNOWN)。
-</p><p><strong>注意</strong>： ADO 当前不支持此数据类型。 使用情况可能会导致无法预料的结果。
+<td><p>指示指向 COM 对象上的 <strong>IUnknown</strong> 接口的指针 (DBTYPE_IUNKNOWN)。</p><p><strong>注意</strong>: ADO 目前不支持此数据类型。 使用它可能会导致不可预测的结果。
 </p></td>
 </tr>
 <tr class="even">
@@ -178,22 +176,22 @@ ms.locfileid: "28703963"
 </tr>
 <tr class="even">
 <td><p><strong>adSmallInt</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>指示双字节有符号整数 (DBTYPE_I2)。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adTinyInt</strong></p></td>
-<td><p>16</p></td>
+<td><p>位</p></td>
 <td><p>指示单字节有符号整数 (DBTYPE_I1)。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adUnsignedBigInt</strong></p></td>
-<td><p>21</p></td>
+<td><p>不足</p></td>
 <td><p>指示八字节无符号整数 (DBTYPE_UI8)。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adUnsignedInt</strong></p></td>
-<td><p>19</p></td>
+<td><p>合</p></td>
 <td><p>指示四字节无符号整数 (DBTYPE_UI4)。</p></td>
 </tr>
 <tr class="even">
@@ -203,7 +201,7 @@ ms.locfileid: "28703963"
 </tr>
 <tr class="odd">
 <td><p><strong>adUnsignedTinyInt</strong></p></td>
-<td><p>17</p></td>
+<td><p>×</p></td>
 <td><p>指示单字节无符号整数 (DBTYPE_UI1)。</p></td>
 </tr>
 <tr class="even">
@@ -212,20 +210,19 @@ ms.locfileid: "28703963"
 <td><p>指示用户定义的变量 (DBTYPE_UDT)。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>感</strong></p></td>
+<td><p><strong>adVarBinary</strong></p></td>
 <td><p>204</p></td>
 <td><p>指示二进制值（仅限 <strong>Parameter</strong> 对象）。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>以便您可以排除</strong></p></td>
+<td><p><strong>adVarChar</strong></p></td>
 <td><p>200</p></td>
 <td><p>指示字符串值。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adVariant</strong></p></td>
+<td><p><strong>含有 advariant</strong></p></td>
 <td><p>12</p></td>
-<td><p>指示自动化<strong>变量型</strong> (DBTYPE_VARIANT)。
-</p><p><strong>注意</strong>： ADO 当前不支持此数据类型。 使用情况可能会导致无法预料的结果。</p></td>
+<td><p>指示自动化<strong>变量型</strong> (DBTYPE_VARIANT)。</p><p><strong>注意</strong>: ADO 目前不支持此数据类型。 使用它可能会导致不可预测的结果。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adVarNumeric</strong></p></td>
@@ -246,9 +243,9 @@ ms.locfileid: "28703963"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -261,124 +258,124 @@ ms.locfileid: "28703963"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.DataType.ARRAY</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.BIGINT</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.BINARY</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.BOOLEAN</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.BSTR</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.CHAPTER</p></td>
+<td><p>AdoEnums 章</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.CHAR</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.CURRENCY</p></td>
+<td><p>AdoEnums 货币</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.DATE</p></td>
+<td><p>AdoEnums 日期</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.DBDATE</p></td>
+<td><p>AdoEnums DBDATE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.DBTIME</p></td>
+<td><p>AdoEnums DBTIME</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.DBTIMESTAMP</p></td>
+<td><p>AdoEnums DBTIMESTAMP</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.DECIMAL</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.DOUBLE</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.EMPTY</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.ERROR</p></td>
+<td><p>AdoEnums 错误</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.FILETIME</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.GUID</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.IDISPATCH</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.INTEGER</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.IUNKNOWN</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.LONGVARBINARY</p></td>
+<td><p>AdoEnums LONGVARBINARY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.LONGVARCHAR</p></td>
+<td><p>AdoEnums LONGVARCHAR</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.LONGVARWCHAR</p></td>
+<td><p>AdoEnums LONGVARWCHAR</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.NUMERIC</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.PROPVARIANT</p></td>
+<td><p>AdoEnums PROPVARIANT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.SINGLE</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.SMALLINT</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.TINYINT</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.UNSIGNEDBIGINT</p></td>
+<td><p>AdoEnums UNSIGNEDBIGINT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.UNSIGNEDINT</p></td>
+<td><p>AdoEnums UNSIGNEDINT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.UNSIGNEDSMALLINT</p></td>
+<td><p>AdoEnums UNSIGNEDSMALLINT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.UNSIGNEDTINYINT</p></td>
+<td><p>AdoEnums UNSIGNEDTINYINT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.USERDEFINED</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.VARBINARY</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.VARCHAR</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.VARIANT</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.VARNUMERIC</p></td>
+<td><p>AdoEnums VARNUMERIC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.DataType.VARWCHAR</p></td>
+<td><p>AdoEnums VARWCHAR</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.DataType.WCHAR</p></td>
+<td><p>AdoEnums WCHAR</p></td>
 </tr>
 </tbody>
 </table>

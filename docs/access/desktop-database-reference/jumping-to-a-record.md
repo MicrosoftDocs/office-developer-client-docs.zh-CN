@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 08d8a3d7b3d6012867a91aa306f45872bfebb2e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290784"
 ---
 # <a name="jumping-to-a-record"></a>跳到记录
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 使用 [Move](move-method-ado.md) 方法可以在 **Recordset** 中前后移动指定数量的记录，语法如下：
 
@@ -36,7 +36,7 @@ oRs.Move NumRecords, Start
 
 从空 **Recordset** 对象调用 **Move** 方法将生成错误。
 
-如果*Start*参数中传递一个书签，移动是相对于包含该书签，假定**Recordset**对象支持书签记录。 可使用 [Bookmark](bookmark-property-ado.md) 属性来获取书签。 如果未指定书签，则将相对于当前的记录进行移动。
+如果在 *Start* 参数中传递一个书签，则将相对于具有该书签的记录进行移动，假定 **Recordset** 对象支持书签。可使用 [Bookmark](bookmark-property-ado.md) 属性来获取书签。如果未指定书签，则将相对于当前的记录进行移动。
 
-如果您正在从提供程序，将移动外部的缓存记录当前的组的当前记录位置*NumRecords*参数传递到本地缓存记录使用**CacheSize**属性强制 ADO 检索一组新记录，从目标记录开始。 **CacheSize** 属性确定新检索组的大小，目标记录是检索到的第一个记录。
+如果要使用 **CacheSize** 属性在本地缓存提供程序的记录，而且所传递 *NumRecords* 参数会将当前记录的位置移到缓存记录的当前组外部，则会强制 ADO 检索一组新记录（从目标记录开始）。**CacheSize** 属性确定新检索组的大小，目标记录是检索到的第一个记录。
 

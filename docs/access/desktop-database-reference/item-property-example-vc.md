@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: bb72b0a3d0e0b497b61925b05a2ee6b0c4b98960
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705622"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290872"
 ---
 # <a name="item-property-example-vc"></a>Item 属性示例 (VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-本示例演示 [Item](item-property-ado.md) 属性如何访问集合的成员。该示例使用参数化命令来打开 ***Pubs*** 数据库的 ***Authors*** 表。
+本示例演示 [Item](item-property-ado.md) 属性如何访问集合的成员。 该示例使用参数化命令来打开 ***Pubs*** 数据库的 ***Authors*** 表。
 
 针对数据库发出的命令中的参数是根据索引和名称从 [Command](command-object-ado.md) 对象的 [Parameters](parameters-collection-ado.md) 集合访问的。返回的 [Recordset](recordset-object-ado.md) 中的字段随后根据索引和名称从该对象的 [Fields](fields-collection-ado.md) 集合进行访问。
 

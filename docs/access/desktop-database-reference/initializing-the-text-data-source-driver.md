@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2e76cc7d6b5254f2347e2264b0588ee1df643d05
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291419"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>初始化文本数据源驱动程序
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-使用相同的数据库驱动因素为两个文本数据源和 HTML 数据源。
+对于文本数据源和 HTML 数据源, 使用相同的数据库驱动程序。
 
-当您安装的文本数据源数据库驱动程序时，安装程序会将一组默认值写入 Microsoft Windows 注册表中的引擎和 ISAM 格式子项。 不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。 以下各节说明了文本数据源数据库驱动程序的初始化和 ISAM 格式设置。
+当您安装文本数据源数据库驱动程序时, 安装程序会将一组默认值写入 "引擎" 和 "ISAM Formats" 子项中的 Microsoft Windows 注册表。 不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。 以下各节说明了文本数据源数据库驱动程序的初始化和 ISAM 格式设置。
 
 ## <a name="text-data-source-initialization-settings"></a>文本数据源初始化设置
 
-**Access Connectivity 引擎\\ISAM 格式\\文本文件夹**包括 Acetxt.dll 驱动程序，用于对文本数据文件的外部访问的初始化设置。 下面的示例显示了此文件夹中各项的典型设置。
+**Access Connectivity Engine\\ISAM 格式\\文本文件夹**包括 Acetxt 驱动程序的初始化设置, 用于对文本数据文件的外部访问。 下面的示例显示了此文件夹中各项的典型设置。
 
 ```vb
     win32=<path>\ ACETXT.DLL 
@@ -57,13 +57,13 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>项</p></th>
+<th><p>记录</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>win32</p></td>
+<td><p>32</p></td>
 <td><p>Acetxt.dll 的位置。完整路径在安装时确定。值为 REG_SZ 类型。</p></td>
 </tr>
 <tr class="even">
@@ -76,23 +76,23 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 </tr>
 <tr class="even">
 <td><p>CharacterSet</p></td>
-<td><p>指示文本页存储方式的指示器，可能的设置有：</p>
+<td><p>文本页的存储方式指示器。 可能的设置包括:</p>
 <p></p>
 <ul>
-<li><p>ANSI - 计算机的 ANSI 代码页。AnsiToUnicode 和 UnicodeToAnsi 转换已完成。</p></li>
-<li><p>OEM - 计算机的 OEM 代码页。OemToUnicode 和 UnicodeToOem 转换已完成。</p></li>
+<li><p>ANSI - 计算机的 ANSI 代码页。 AnsiToUnicode 和 UnicodeToAnsi 转换已完成。</p></li>
+<li><p>OEM - 计算机的 OEM 代码页。 OemToUnicode 和 UnicodeToOem 转换已完成。</p></li>
 <li><p>Unicode - 代码页转换未完成。</p></li>
-<li><p>&lt;十进制数&gt;— 特定字符集的代码页号。 将完成转换与 Unicode。</p></li>
+<li><p>&lt;十进制数&gt; —特定字符集的代码页编号。 将要完成与 Unicode 的相互转换。</p></li>
 </ul>
 <p></p>
-<p>默认值为 ANSI。值为 REG_SZ 类型。</p></td>
+<p>默认值为 ANSI。 值为 REG_SZ 类型。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Format</p></td>
-<td><p>可以是以下任一： TabDelimited，CSVDelimited，带分隔符 (&lt;单个字符&gt;)。 带分隔符格式的单字符分隔符可以是任意单个字符除外双引号 (&quot;)。 默认值为 CSVDelimited。 值为 REG_SZ 类型。</p></td>
+<td><p>可以是以下任何一项: TabDelimited、CSVDelimited、分隔符 (&lt;单字符&gt;)。 带分隔符的格式的单字符分隔符可以是除双引号 (&quot;) 之外的任何单个字符。 默认格式为 CSVDelimited。 值为 REG_SZ 类型。</p></td>
 </tr>
 <tr class="even">
-<td><p>Extensions</p></td>
+<td><p>扩展</p></td>
 <td><p>查找基于文本的数据时将要浏览的任何文件的扩展名。默认值为 txt、csv、tab、asc。值为 REG_SZ 类型。</p></td>
 </tr>
 <tr class="odd">
@@ -105,7 +105,7 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 
 ## <a name="text-data-source-isam-formats"></a>文本数据源 ISAM 格式
 
-**Access Connectivity 引擎\\ISAM 格式\\文本**文件夹包含下列项。
+**Access Connectivity Engine\\"ISAM 格式\\" 文本**文件夹包含以下项。
 
 <table>
 <colgroup>
@@ -139,17 +139,17 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 <tr class="even">
 <td><p>CanLink</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>前面</p></td>
 </tr>
 <tr class="odd">
 <td><p>OneTablePerFile</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>前面</p></td>
 </tr>
 <tr class="even">
 <td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 </tr>
 <tr class="odd">
 <td><p>IndexDialog</p></td>
@@ -179,7 +179,7 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 <tr class="even">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>前面</p></td>
 </tr>
 </tbody>
 </table>
@@ -190,7 +190,7 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 
 ## <a name="html-import-isam-formats"></a>HTML 导入 ISAM 格式
 
-**Access Connectivity 引擎\\ISAM 格式\\HTML 导入**文件夹包含下列项。
+**Access Connectivity Engine\\ISAM 格式\\HTML 导入**文件夹包含以下项。
 
 <table>
 <colgroup>
@@ -214,12 +214,12 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 <tr class="even">
 <td><p>ImportFilter</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>HTML 文件 (*.ht **)</p></td>
+<td><p>HTML 文件 (*.ht*)</p></td>
 </tr>
 <tr class="odd">
 <td><p>CanLink</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>前面</p></td>
 </tr>
 <tr class="even">
 <td><p>OneTablePerFile</p></td>
@@ -229,7 +229,7 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 <tr class="odd">
 <td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
@@ -254,7 +254,7 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 <tr class="even">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>前面</p></td>
 </tr>
 </tbody>
 </table>
@@ -264,7 +264,7 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 
 ## <a name="html-export-isam-formats"></a>HTML 导出 ISAM 格式
 
-**Access Connectivity 引擎\\ISAM 格式\\HTML 导出**文件夹包含下列项。
+**Access Connectivity Engine\\ISAM 格式\\HTML 导出**文件夹包含以下项。
 
 <table>
 <colgroup>
@@ -298,12 +298,12 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 <tr class="even">
 <td><p>OneTablePerFile</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>前面</p></td>
 </tr>
 <tr class="odd">
 <td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
@@ -323,7 +323,7 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 <tr class="odd">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>前面</p></td>
 </tr>
 </tbody>
 </table>
@@ -331,7 +331,7 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 > [!NOTE]
 > [!注释] 更改 Windows 注册表设置后，必须退出并重新启动数据库引擎，以使新的设置生效。
 
-## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>自定义文本和 HTML 数据的 Schema.ini 文件
+## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>自定义文本和 HTML 数据的 schema.ini 文件
 
 若要读取、导入或导出文本和 HTML 数据，除要在 .ini 文件中包括文本 ISAM 信息外，还需要创建 Schema.ini 文件。Schema.ini 包含数据源的结构信息：如何设置文本文件的格式、如果在导入时读取文本文件、文件的默认导出格式是什么。下面的示例显示了定宽文件 Filename.txt 的布局：
 
@@ -429,7 +429,7 @@ Microsoft Access 数据库引擎使用如下所示的 Schema.ini 项。
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>项</p></th>
+<th><p>记录</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -440,12 +440,11 @@ Microsoft Access 数据库引擎使用如下所示的 Schema.ini 项。
 </tr>
 <tr class="even">
 <td><p>Format</p></td>
-<td><p>可以将设置为下列值之一： TabDelimited，CSVDelimited，带分隔符 (&lt;单个字符&gt;)，或 FixedLength。 指定分隔符号文件格式可以是除双引号之外的任何单个字符的分隔符 (&quot;)。</p></td>
+<td><p>可设置为以下值之一: TabDelimited、CSVDelimited、分隔字符 (&lt;单字符&gt;) 或 FixedLength。 为分隔文件格式指定的分隔符可以是除双引号 (&quot;) 之外的任何单个字符。</p></td>
 </tr>
 <tr class="odd">
 <td><p>FixedFormat</p></td>
-<td><p>仅在 Format 为 FixedLength 时使用，此项可以设为下列值之一：RaggedEdge 或 TrueFixedLength。
- RaggedEdge 允许行以回车符终止。 TrueFixedLength 要求每一行都是确切的字符数，并且假定不在行边界的任何回车符都嵌入在字段中。 如果没有此设置，默认值为 RaggedEdge。</p></td>
+<td><p>仅在 Format 为 FixedLength 时使用，此项可以设为下列值之一：RaggedEdge 或 TrueFixedLength。 RaggedEdge 允许行以回车符终止。 TrueFixedLength 要求每一行都是确切的字符数，并且假定不在行边界的任何回车符都嵌入在字段中。 如果没有此设置，默认值为 RaggedEdge。</p></td>
 </tr>
 <tr class="even">
 <td><p>MaxScanRows</p></td>
@@ -465,7 +464,7 @@ Microsoft Access 数据库引擎使用如下所示的 Schema.ini 项。
 </tr>
 <tr class="even">
 <td><p>CurrencyPosFormat</p></td>
-<td><p>可设为以下值之一： 与没有分离 ($1) 货币符号后缀没有分隔的货币符号前缀 (1$) 与一个字符分隔 ($ 1) 货币符号后缀用一个字符分隔的货币符号前缀 (1 $) 如果此条目不存在，使用 Windows 控制面板中的默认值。</p></td>
+<td><p>可以设置为以下任意值: 不带分隔的货币符号前缀 ($1) 不带分隔符的货币符号后缀 ($1) 使用一个字符分隔的货币符号前缀 ($1) 使用一个字符分隔的货币符号后缀 ($1) 如果此项不存在, 则使用 Windows 控制面板中的默认值。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CurrencyDigits</p></td>
@@ -473,7 +472,7 @@ Microsoft Access 数据库引擎使用如下所示的 Schema.ini 项。
 </tr>
 <tr class="even">
 <td><p>CurrencyNegFormat</p></td>
-<td><p>可以是下列值之一: ($1) – $1 $– 1 $1 – (1$) – 1$ 1 – 1$ – – 1 $ – $ 1 1 $– $ 1 – $ – 1 1 – $ ($ 1) (1 $) 此示例中，为了显示美元符号，但它应替换为实际的程序中的相应 CurrencySymbol 值。 如果没有此项，则使用 Windows 控制面板中的默认值。</p></td>
+<td><p>可以是下列值之一: ($1) – $1 $ – $1 1 – ($1) – $1 1 – $1 [– $1 – $1 $1 – $1 – $ – 1 1 – $ ($1) ($1) 美元符号显示在此示例的用途中, 但应将其替换为实际程序中相应的 CurrencySymbol 值。 如果没有此项，则使用 Windows 控制面板中的默认值。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CurrencyThousandSymbol</p></td>
@@ -496,13 +495,12 @@ Microsoft Access 数据库引擎使用如下所示的 Schema.ini 项。
 <td><p>指定大于 -1 但小于 1 的小数值是否应包含几个前导零。该值可以为 False（没有前导零）或 True。</p></td>
 </tr>
 <tr class="even">
-<td><p>Col1、Col2 …</p></td>
-<td><p>列出要读取的文本文件中的列。 此项的格式应为： <em>Coln</em>=<em>columnName</em>类型 [宽度<em>#</em>] <em>columnName</em>： 具有嵌入空格的列名称应括在引号中。 <em>类型</em>： 可以是位、 Byte、 短、 Long、 Decimal、 货币、 单个、 Double，DateTime。 二进制，OLE、 文本或备注。 此外，支持下列 ODBC 文本驱动程序类型： 对于在 Memo 类型可以是一个附加格式标记 [Attribute Hyperlink] Char （同 Text） Float （同 Double） Integer （同 Short） longchar （同备注） 于日期<em>日期格式</em>用于指定应在 Microsoft Access 中的活动 Url 的列。 在 Decimal 类型的情况下，应使用附加格式标记 [Scale #] Precision #]。</p></td>
+<td><p>Col1、Col2、.。。</p></td>
+<td><p>列出要读取的文本文件中的列。 此条目的格式应为: <em>Coln</em>=<em>columnName</em>类型 [Width <em> #</em>] <em>columnname</em>: 使用嵌入空格的列名称应括在引号中。 <em>类型</em>: 可以是位、字节、短、长、十进制、Currency、Single、Double、DateTime。 二进制、OLE、文本或备注。 此外, 还支持以下 ODBC 文本驱动程序类型: Char (与文本相同) 浮点 (与双精度型相同) LongChar (与备注相同) 日期<em>日期格式</em>在备注类型中, "其他格式标记 [属性 Hyperlink]" 可以是用于指定在 Microsoft Access 中应为活动 url 的列。 在 Decimal 类型的情况下，应使用附加格式标记 [Scale #] Precision #]。</p></td>
 </tr>
 <tr class="odd">
 <td><p>TextDelimiter</p></td>
-<td><p>可设为用于对包含任何其他特殊字符的字符串进行分隔的任何单字符。
- 例如， &quot;abc&quot;，&quot;xyz，pqr&quot;，&quot;hij&quot;如果不存在此条目的默认分隔符为双引号。 如果此条目是字符串&quot;无&quot;，然后没有字符将被视为分隔符。</p></td>
+<td><p>可设为用于对包含任何其他特殊字符的字符串进行分隔的任何单字符。 例如， &quot;abc&quot;、&quot;xyz、pqr&quot;、&quot;hij&quot;如果此条目不存在, 则默认分隔符是一个双引号。 如果此项是字符串&quot;none&quot; , 则不会将任何字符视为分隔符。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 立即模式 （访问桌面数据库参考 （英文）
+title: 即时模式 (Access desktop database reference)
 TOCTitle: Immediate mode
 ms:assetid: 61bd3645-6e84-2e3a-7814-37d8c1247df0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249362(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3abc2e8365c60987fedc0d306b274df74c7ee551
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706945"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291878"
 ---
 # <a name="immediate-mode"></a>直接模式
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 如果将 **LockType** 属性设置为 **adLockOptimistic** 或 **adLockPessimistic** ，则立即模式生效。在立即模式下，一旦通过调用 **Update** 方法声明对行的操作完成，则对记录的更改就会传播到数据源。
 

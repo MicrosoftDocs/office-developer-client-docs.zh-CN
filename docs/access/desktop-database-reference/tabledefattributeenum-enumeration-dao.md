@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dca910ff7ae8fb4ce72c488829166dae1201f535
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314236"
 ---
 # <a name="tabledefattributeenum-enumeration-dao"></a>TableDefAttributeEnum 枚举 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 与 **Attributes** 属性一起用来确定 **TableDef** 对象的属性。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28711628"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>值</p></th>
 <th><p>说明</p></th>
 </tr>

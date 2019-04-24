@@ -1,5 +1,5 @@
 ---
-title: 什么是游标？  （访问桌面数据库参考 （英文）
+title: 什么是游标？  (Access desktop database reference)
 TOCTitle: What is a Cursor?
 ms:assetid: cc70d941-05e0-9b14-1c5d-6b1a5802f546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2023b39620f80e6f770153e381c74d5285d027c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302742"
 ---
 # <a name="what-is-a-cursor"></a>什么是游标？
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 游标是关系数据库中作用于完整行集的操作。SELECT 语句返回的行集由满足该语句中 WHERE 子句条件的所有行组成。该语句返回的完整行集称为结果集。应用程序（特别是那些处于交互和联机模式的应用程序）不能总是有效地将整个结果集作为一个整体来处理。这些应用程序需要一个机制，以便一次处理一行或一小块行。游标是提供该机制的结果集的扩展。
 
@@ -67,11 +67,11 @@ ms.locfileid: "28718936"
 
 在其他应用程序中，并发不是那么重要。在这种情况下，使数据随时保持最新所涉及的资源耗费并无意义。
 
-## <a name="position"></a>位置
+## <a name="position"></a>Position
 
 游标还跟踪结果集内的当前位置。请将游标位置视为指向当前记录的指针，这与数组索引指向数组中特定位置的值的方式类似。
 
 ## <a name="scrollability"></a>可滚动性
 
-应用程序所使用的游标类型还影响在结果集内的行之间能否向前和向后移动；有时，这也称为可滚动性。 将移动向前*和*向后在结果集中的功能将添加到游标的复杂性，因此增加实现成本。 因此，应当只在必要时才使用具有该功能的游标。
+应用程序所使用的游标类型还影响在结果集内的行之间能否向前和向后移动；有时，这也称为可滚动性。在结果集内向前*和*向后移动的能力会增加游标的复杂程度，从而会增加实现成本。因此，应当只在必要时才使用具有该功能的游标。
 

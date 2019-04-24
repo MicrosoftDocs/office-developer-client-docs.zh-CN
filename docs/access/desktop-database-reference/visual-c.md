@@ -1,5 +1,5 @@
 ---
-title: Visual c + + （访问桌面数据库参考 （英文）
+title: Visual c + + (Access 桌面数据库参考)
 TOCTitle: Visual C++
 ms:assetid: 31d27968-e7bd-02fa-efad-26039bea30b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249091(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 082790c33840bfeacf0c1a6bd38af34c0617f4fe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303400"
 ---
 # <a name="visual-c"></a>Visual C++
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-这是如何在 Microsoft Visual C++ 中实例化 ADO 事件的架构说明。 有关的完整说明，请参阅[ADO 事件模型示例 （VC + +）](ado-events-model-example-vc.md) 。
+这是如何在 Microsoft Visual C++ 中实例化 ADO 事件的架构说明。 有关完整说明, 请参阅[ADO 事件模型示例 (VC + +)](ado-events-model-example-vc.md) 。
 
 创建从在文件 adoint.h 中找到的 **ConnectionEventsVt** 和 **RecordsetEventsVt** 接口派生的类。
 
@@ -49,7 +49,7 @@ class CRstEvent : public RecordsetEventsVt
 // EndEventExampleVC01 
 ```
 
-在两个类中都实现了每个事件处理程序方法。 就足够每种方法只是返回 HRESULT S\_确定。 但是，当您通知事件处理程序可用时，默认情况下它们将被连续调用。 而您可能希望通过将 **adStatus** 设置为 **adStatusUnwantedEvent** ，以便在第一次通知之后不再请求进一步的通知。
+在两个类中都实现了每个事件处理程序方法。 每个方法只返回 S\_OK 的 HRESULT 就足够了。 但是，当您通知事件处理程序可用时，默认情况下它们将被连续调用。 而您可能希望通过将 **adStatus** 设置为 **adStatusUnwantedEvent**，以便在第一次通知之后不再请求进一步的通知。
 
 ```cpp 
  

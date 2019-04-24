@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6dc30d058e6715b411679613e5a205d44fa1de4a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312360"
 ---
 # <a name="using-ado-with-microsoft-visual-c"></a>将 ADO 与 Microsoft Visual C++ 结合使用
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 有关在 Visual C++ 中使用 ADO 的信息，请参阅以下部分：
 
-- [Visual c + + ADO 编程](visual-c-ado-programming.md)
-- [Visual c + + extensions for ADO](visual-c-extensions-for-ado.md)
-- [使用 Visual c + + extensions](using-visual-c-extensions.md)
+- [Visual C++ ADO 编程](visual-c-ado-programming.md)
+- [ADO 的 Visual c + + 扩展](visual-c-extensions-for-ado.md)
+- [使用 Visual c + + 扩展](using-visual-c-extensions.md)
 - [Visual c + + extensions 头](visual-c-extensions-header.md)
-- [Visual c + + extensions 示例](visual-c-extensions-example.md)
+- [Visual c + + 扩展示例](visual-c-extensions-example.md)
 
 
 ## <a name="see-also"></a>另请参阅
 
 - [用于 COM 的 ADO for Visual C++ 语法索引](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-for-com)
-- [ADO for Visual c + + 语法索引与\#导入](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)
+- [使用\#import 的 ADO for Visual c + + 语法索引](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)

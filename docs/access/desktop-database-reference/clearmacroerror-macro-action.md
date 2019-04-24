@@ -12,27 +12,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f42386674ff76d550fb47a971860b4e1a5905236
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296372"
 ---
 # <a name="clearmacroerror-macro-action"></a>ClearMacroError 宏操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 可以使用 **ClearMacroError** 操作清除有关 **MacroError** 对象中所存储的错误的信息。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **ClearMacroError** 操作不具有任何参数。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-- 宏错误时，错误的信息存储在 **MacroError** 对象。 如果您已使用**[OnError](onerror-macro-action.md)** 操作来禁止显示错误消息，宏将停止错误信息是标准错误消息中显示。 但是，如果您已使用**OnError**操作禁止显示错误消息，您可能想要使用存储在**MacroError**对象中的条件或自定义错误消息中的信息。
+- 宏错误时，错误的信息存储在 **MacroError** 对象。 如果您未使用**[OnError](onerror-macro-action.md)** 操作来禁止显示错误消息, 则宏将停止, 错误信息将显示在标准错误消息中。 但是, 如果您已使用**OnError**操作禁止显示错误消息, 则可能需要在条件中或自定义错误消息中使用存储在**MacroError**对象中的信息。
     
   在错误得到处理后， **MacroError** 对象中的信息将过期，因此最好使用 **ClearMacroError** 操作清除该对象。执行此操作会将 **MacroError** 对象的错误数量重置为 0，并清除有关存储在该对象中的错误的所有其他信息，例如错误说明、宏名称、操作名称、条件和参数。通过这种方式，可在以后重新检查 **MacroError** 对象，以确定是否发生了其他错误。
 
@@ -44,7 +44,7 @@ ms.locfileid: "28721631"
 
 ## <a name="example"></a>示例
 
-下面的宏使用**OnError**操作具有**下一步**参数来禁止显示错误消息，然后使用**OpenForm**操作打开窗体。 对于此示例中，使用**GoToRecord**操作以转到上一条记录特意创建错误。 条件**\[MacroError\]。\[号码\]\<\>0**测试**MacroError**对象。 如果出现错误，错误号为非零值，并运行**MessageBox**操作。 消息框显示操作导致 （在本例中**GoToRecord**操作），该错误的名称和显示的错误号。 最后，运行**ClearMacroError**操作清除**MacroError**对象。
+The following macro uses the **OnError** action with the **Next** argument to suppress error messages, and then uses the **OpenForm** action to open a form. For this example, an error is deliberately created by using the **GoToRecord** action to go to the previous record. 条件** \[MacroError\]。\[\>数字\]\<0**测试**MacroError**对象。 If an error has occurred, the error number is non-zero, and the **MessageBox** action runs. The message box displays the name of the action that caused the error (in this case, the **GoToRecord** action), and the error number is displayed. 此示例最后运行 **ClearMacroError** 操作清除 **MacroError** 对象。
 
 <table>
 <colgroup>
@@ -68,17 +68,17 @@ ms.locfileid: "28721631"
 <tr class="even">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>窗体名称</strong>： 类别窗体<strong>视图</strong>： <strong>FormWindow 模式</strong>：<strong>普通</strong></p></td>
+<td><p><strong>表单名称</strong>: 类别窗体<strong>View</strong>: <strong>FormWindow Mode</strong>: <strong>Normal</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>GoToRecord</strong></p></td>
-<td><p><strong>对象类型</strong>： <strong>FormObject 名称</strong>： 类别窗体<strong>记录</strong>： 上一个</p></td>
+<td><p><strong>对象类型</strong>: <strong>FormObject Name</strong>: 类别窗体<strong>Record</strong>: Previous</p></td>
 </tr>
 <tr class="even">
-<td><p>[宏错误]。[Number]&lt; &gt;0</p></td>
+<td><p>[MacroError]。多种&lt; &gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>消息</strong>: =&quot;错误 # &quot; &amp; [宏错误]。[Number]&amp; &quot;上&quot; &amp; [宏错误]。[ActionName]&amp; &quot;操作。&quot;<strong>发嘟嘟声</strong>： <strong>YesType</strong>： 信息</p></td>
+<td><p><strong>消息</strong>: =&quot;错误 # &quot; &amp; [MacroError]。多种在 [MacroError &amp; ] 上。 &quot; &amp; &quot;ActionName&amp; &quot;操作。&quot;<strong>嘟嘟声</strong>: <strong>YesType</strong>: 信息</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

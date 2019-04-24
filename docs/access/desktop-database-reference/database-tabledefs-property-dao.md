@@ -1,5 +1,5 @@
 ---
-title: Database.TableDefs 属性 (DAO)
+title: TableDefs 属性 (DAO)
 TOCTitle: TableDefs Property
 ms:assetid: 022d20d2-36f5-7711-c6fb-3a0f2cfb76d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844763(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 86f0c535ac99226aa462fd0221539b05cc4056e8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294692"
 ---
-# <a name="databasetabledefs-property-dao"></a>Database.TableDefs 属性 (DAO)
+# <a name="databasetabledefs-property-dao"></a>TableDefs 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-返回一个 **TableDefs** 集合，该集合包含指定数据库中存储的所有 **TableDef** 对象。只读。
+返回一个 **TableDefs** 集合，该集合包含指定数据库中存储的所有 **TableDef** 对象。 此为只读属性。
 
 ## <a name="syntax"></a>语法
 

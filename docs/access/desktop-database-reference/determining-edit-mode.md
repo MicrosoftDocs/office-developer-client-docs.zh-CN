@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b5b62bc282a99472d0e7399ee9f3dd9d0648f0c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293915"
 ---
 # <a name="determining-edit-mode"></a>确定编辑模式
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ADO 维护一个与当前记录关联的编辑缓冲区。 **EditMode** 属性指示此缓冲区是否已发生更改，或者是否已创建新记录。使用 **EditMode** 可以确定当前记录的编辑状态。如果编辑过程已经中断则可以测试是否有挂起更改，并确定是否需要使用 **Update** 或 **CancelUpdate** 方法。
 
@@ -36,7 +36,7 @@ ADO 维护一个与当前记录关联的编辑缓冲区。 **EditMode** 属性�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>为 adEditNone</strong></p></td>
+<td><p><strong>adEditNone</strong></p></td>
 <td><p>指示没有正在进行的编辑操作。</p></td>
 </tr>
 <tr class="even">

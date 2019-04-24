@@ -1,5 +1,5 @@
 ---
-title: ErrorValueEnum （访问桌面数据库参考 （英文）
+title: ErrorValueEnum (Access desktop database reference)
 TOCTitle: ErrorValueEnum
 ms:assetid: 2af99f32-6004-1225-367c-45d693f447b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249058(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c2d4207f157d361f3b8aba2ff80f46d06b2f328e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293320"
 ---
 # <a name="errorvalueenum"></a>ErrorValueEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 ADO 运行时错误的类型。
 
@@ -26,10 +26,10 @@ ms.locfileid: "28717662"
 
 - 负十进制 - 完整错误号的十进制转换形式。
 
-- 十六进制 - 完整错误号的十六进制表示。Windows 设备代码在第四位。ADO 错误号的设备代码为 *A*。例如：0x800***A***0E7B。
+- 十六进制 - 完整错误号的十六进制表示。 Windows 设备代码在第四位。 ADO 错误号的设施代码是。 ** 例如: 0x800***A***0E7B。
 
 > [!NOTE]
-> OLE DB 错误可能被传递给 ADO 应用程序。 通常，这些可以由*4*个 Windows 设施代码标识。 例如，0x800_**4**_...有关这些号码的详细信息，请参阅第 16 章*OLE DB 程序员参考 （英文）。*
+> OLE DB 错误可以传递给 ADO 应用程序。 通常，可以通过 Windows 设备代码 *4* 来标识这些错误。 例如, 0x800_**4**_ ...。有关这些号码的详细信息, 请参阅《 *OLE DB 程序员参考*》的第16章。
 
 <br/>
 
@@ -66,7 +66,7 @@ ms.locfileid: "28717662"
 <td><p>3748<br />
 -2146824540<br />
 0x800A0EA4</p></td>
-<td><p>连接被拒绝。请求的新连接和已被使用的连接的特性不一致。</p></td>
+<td><p>连接被拒绝。 请求的新连接和已被使用的连接的特性不一致。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrCantChangeProvider</strong></p></td>
@@ -80,7 +80,7 @@ ms.locfileid: "28717662"
 <td><p>3724<br />
 -2146824564<br />
 0x800A0E8C</p></td>
-<td><p>由于符号不匹配或数据溢出以外的其他原因，数据值无法转换。例如，转换会截断数据。</p></td>
+<td><p>由于符号不匹配或数据溢出以外的其他原因，数据值无法转换。 例如，转换会截断数据。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrCantCreate</strong></p></td>
@@ -94,7 +94,7 @@ ms.locfileid: "28717662"
 <td><p>3747<br />
 -2146824541<br />
 0x800A0EA3</p></td>
-<td><p>操作需要一个有效的 <strong>ParentCatalog</strong> 。</p></td>
+<td><p>操作需要一个有效的 <strong>ParentCatalog</strong>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrColumnNotOnThisRow</strong></p></td>
@@ -150,7 +150,7 @@ ms.locfileid: "28717662"
 <td><p>3749<br />
 -2146824539<br />
 0x800A0EA5</p></td>
-<td><p>字段更新失败。有关详细信息，请检查各个字段对象的 <strong>Status</strong> 属性。</p></td>
+<td><p>Fields update failed. 有关详细信息，请检查各个字段对象的 <strong>Status</strong> 属性。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrIllegalOperation</strong></p></td>
@@ -185,14 +185,14 @@ ms.locfileid: "28717662"
 <td><p>3709<br />
 -2146824579<br />
 0x800A0E7D</p></td>
-<td><p>该连接无法用于执行此操作。它已关闭或在此上下文中无效。</p></td>
+<td><p>该连接无法用于执行此操作。 它已关闭或在此上下文中无效。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrInvalidParamInfo</strong></p></td>
 <td><p>3708<br />
 -2146824580<br />
 0x800A0E7C</p></td>
-<td><p>没有正确定义 <strong>Parameter</strong> 对象。提供的信息不一致或不完整。  </p></td>
+<td><p>没有正确定义 <strong>Parameter</strong> 对象。 提供的信息不一致或不完整。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrInvalidTransaction</strong></p></td>
@@ -206,7 +206,7 @@ ms.locfileid: "28717662"
 <td><p>3729<br />
 -2146824559<br />
 0x800A0E91</p></td>
-<td><p>URL 包含无效字符。请确保键入的 URL 正确。</p></td>
+<td><p>URL 包含无效字符。 请确保键入的 URL 正确。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrItemNotFound</strong></p></td>
@@ -220,7 +220,7 @@ ms.locfileid: "28717662"
 <td><p>3021<br />
 -2146825267<br />
 0x800A0BCD</p></td>
-<td><p><strong>BOF</strong> 或 <strong>EOF</strong> 为 True，或者当前记录已被删除。所请求的操作需要当前记录。</p></td>
+<td><p>可以是 <strong>BOF</strong> 或 <strong>EOF</strong> 为 True，或者是当前记录已被删除。 所请求的操作需要当前记录。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrNotExecuting</strong></p></td>
@@ -248,7 +248,7 @@ ms.locfileid: "28717662"
 <td><p>3367<br />
 -2146824921<br />
 0x800A0D27</p></td>
-<td><p>对象已在集合中。不能追加。</p></td>
+<td><p>对象已在集合中。 不能追加。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrObjectNotSet</strong></p></td>
@@ -283,7 +283,7 @@ ms.locfileid: "28717662"
 <td><p>3734<br />
 -2146824554<br />
 0x800A0E96</p></td>
-<td><p>无法执行操作。提供程序无法获取足够的存储空间。</p></td>
+<td><p>无法执行操作。 提供程序无法获取足够的存储空间。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrPermissionDenied</strong></p></td>
@@ -304,7 +304,7 @@ ms.locfileid: "28717662"
 <td><p>3706<br />
 -2146824582<br />
 0x800A0E7A</p></td>
-<td><p>找不到提供程序。该程序可能未正确安装。</p></td>
+<td><p>找不到提供程序。 该程序可能未正确安装。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrReadFile</strong></p></td>
@@ -318,7 +318,7 @@ ms.locfileid: "28717662"
 <td><p>3731<br />
 -2146824557<br />
 0x800A0E93</p></td>
-<td><p>无法执行复制操作。由目标 URL 命名的对象已经存在。指定 <strong>adCopyOverwrite</strong> 替换该对象。</p></td>
+<td><p>无法执行复制操作。 由目标 URL 命名的对象已经存在。 指定 <strong>adCopyOverwrite</strong> 替换该对象。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrResourceLocked</strong></p></td>
@@ -374,7 +374,7 @@ ms.locfileid: "28717662"
 <td><p>3736<br />
 -2146824552<br />
 0x800A0E98</p></td>
-<td><p>操作未能完成，状态不可用。可能是字段不可用或未尝试任何操作。</p></td>
+<td><p>操作未能完成，状态不可用。 可能是字段不可用或未尝试任何操作。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrUnsafeOperation</strong></p></td>
@@ -402,7 +402,7 @@ ms.locfileid: "28717662"
 <td><p>3733<br />
 -2146824555<br />
 0x800A0E95</p></td>
-<td><p>提供程序找不到 URL 指定的存储设备。请确保键入的 URL 正确。</p></td>
+<td><p>提供程序找不到 URL 指定的存储设备。 请确保键入的 URL 正确。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrWriteFile</strong></p></td>
@@ -416,20 +416,20 @@ ms.locfileid: "28717662"
 <td><p>3717<br />
 -2146824571<br />
 0x800A0E85</p></td>
-<td><p>仅供内部使用。请勿使用。</p></td>
+<td><p>仅供内部使用。 请勿使用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adWrnSecurityDialogHeader</strong></p></td>
 <td><p>3718<br />
 -2146824570<br />
 0x800A0E86</p></td>
-<td><p>仅供内部使用。请勿使用。</p></td>
+<td><p>仅供内部使用。 请勿使用。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
 包： **com.ms.wfc.data**
 
@@ -446,67 +446,67 @@ ms.locfileid: "28717662"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.BOUNDTOCOMMAND</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.DATACONVERSION</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.FEATURENOTAVAILABLE</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.ILLEGALOPERATION</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.INTRANSACTION</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.INVALIDARGUMENT</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.INVALIDCONNECTION</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.INVALIDPARAMINFO</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.ITEMNOTFOUND</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.NOCURRENTRECORD</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.NOTEXECUTING</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.NOTREENTRANT</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OBJECTCLOSED</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.OBJECTINCOLLECTION</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OBJECTNOTSET</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.OBJECTOPEN</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OPERATIONCANCELLED</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.PROVIDERNOTFOUND</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.STILLCONNECTING</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.STILLEXECUTING</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.UNSAFEOPERATION</p></td>
+<td><p>AdoEnums ErrorValue</p></td>
 </tr>
 </tbody>
 </table>

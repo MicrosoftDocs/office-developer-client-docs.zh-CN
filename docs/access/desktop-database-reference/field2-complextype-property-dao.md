@@ -1,5 +1,5 @@
 ---
-title: Field2.ComplexType 属性 (DAO)
+title: Field2 属性 (DAO)
 TOCTitle: ComplexType Property
 ms:assetid: 9b4ebabf-22de-0ab8-73ea-10c496eedf97
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198034(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 10cb2df307cf8c8df429454b98fba4a90115243f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292851"
 ---
-# <a name="field2complextype-property-dao"></a>Field2.ComplexType 属性 (DAO)
+# <a name="field2complextype-property-dao"></a>Field2 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-返回一个 **[ComplexType](complextype-object-dao.md)** 对象，该对象代表一个多值字段。只读。
+返回一个 **[ComplexType](complextype-object-dao.md)** 对象，该对象代表一个多值字段。 只读。
 
 ## <a name="version-information"></a>版本信息
 
-添加的版本： Access 2007
+添加的版本: Access 2007
 
 ## <a name="syntax"></a>语法
 

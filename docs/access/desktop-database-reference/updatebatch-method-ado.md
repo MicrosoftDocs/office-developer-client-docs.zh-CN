@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9d269a9012588a7b82505ac2e28466151715cbb0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313574"
 ---
 # <a name="updatebatch-method-ado"></a>UpdateBatch 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 用于将所有挂起的批更新写入磁盘。
 
 ## <a name="syntax"></a>语法
 
-*记录集*。UpdateBatch*AffectRecords*
+*recordset*。UpdateBatch*AffectRecords*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*AffectRecords* |可选。[AffectEnum](affectenum.md) 值，指示 **UpdateBatch** 方法将影响的记录数。|
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 以批更新模式修改 **Recordset** 对象时，可以使用 **UpdateBatch** 方法将在 **Recordset** 对象中所做的所有更改传输到基础数据库中。
 
 如果 **Recordset** 对象支持批更新，则在调用 **UpdateBatch** 方法前，可以将对一个或多个记录所做的多次更改缓存在本地。如果在调用 **UpdateBatch** 方法时正在编辑当前记录或添加新记录，则在将批更改传输到提供程序前，ADO 将自动调用 [Update](update-method-ado.md) 方法来保存对当前记录所做的所有挂起的更改。批更新只应与键集或静态游标一起使用。
 
 > [!NOTE]
-> [!注释] 如果当前 **Recordset** 中没有可见记录（如没有满足筛选器的记录），则指定 **adAffectGroup** 作为此参数的值将导致出错。
+> 如果当前 **Recordset** 中没有可见记录（如没有满足筛选器的记录），则指定 **adAffectGroup** 作为此参数的值将导致出错。
 
 如果由于与基础数据冲突（例如，记录已被其他用户删除）使得传输任意记录或所有记录的更改的尝试失败，则提供程序将向 [Errors](errors-collection-ado.md) 集合返回警告，并会发生运行时错误。可以使用 [Filter](filter-property-ado.md) 属性 (**adFilterAffectedRecords**) 和 [Status](status-property-ado-recordset.md) 属性查找存在冲突的记录。
 

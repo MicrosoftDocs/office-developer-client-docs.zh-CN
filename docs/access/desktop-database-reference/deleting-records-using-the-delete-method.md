@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a476e9bc57224b0e46afb31bf092450c26de0a17
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293964"
 ---
 # <a name="deleting-records-using-the-delete-method"></a>使用 Delete 方法删除记录
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 使用 **Delete** 方法可以将 **Recordset** 对象中的当前记录或一组记录标记为删除。如果 **Recordset** 对象不允许进行记录删除，则会发生错误。如果处于立即更新模式，则数据库中将立即发生删除。如果无法成功删除记录（例如，由于数据库完整性受到破坏），则在调用 **Update** 之后记录将继续处于编辑模式。这意味着，在离开当前记录（例如，使用 [Close](cancelupdate-method-ado.md)、[Move](close-method-ado.md) 或 [NextRecordset](move-method-ado.md)）之前，必须使用 [CancelUpdate](nextrecordset-method-ado.md) 取消更新。
 
@@ -33,9 +33,9 @@ ms.locfileid: "28699063"
 
 **Delete** 方法的一个可选参数用于指定哪些记录会受 **Delete** 操作的影响。此参数的唯一有效值是以下 ADO **AffectEnum** 枚举常量之一：
 
-  - **adaffectcurrent:** 只影响当前记录。
+  - **adAffectCurrent**仅影响当前记录。
 
-  - **adAffectGroup**影响满足当前**筛选器**属性设置的记录。 若要使用此选项，必须将 **Filter** 属性设置为 **FilterGroupEnum** 值或 **Bookmarks** 数组。
+  - **adAffectGroup**仅影响满足当前**Filter**属性设置的记录。 若要使用此选项，必须将 **Filter** 属性设置为 **FilterGroupEnum** 值或 **Bookmarks** 数组。
 
 以下代码显示在调用 **Delete** 方法时指定 **adAffectGroup** 的示例。此示例将某些记录添加到示例 **Recordset** 中并更新数据库。然后，它使用 **adFilterAffectedRecords** 筛选枚举常量来筛选 **Recordset** ，从而使得只有那些新添加的记录在 **Recordset** 中可见。最后，它调用 **Delete** 方法，并指定应当删除满足当前 **Filter** 属性设置的所有记录（新记录）。
 

@@ -1,5 +1,5 @@
 ---
-title: FieldStatusEnum （访问桌面数据库参考 （英文）
+title: FieldStatusEnum (Access desktop database reference)
 TOCTitle: FieldStatusEnum
 ms:assetid: 49570042-8435-8618-3ba1-7006c47735e0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249225(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0ccf98f2a740e2a077d6e2451102bfc72bcd1b40
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292515"
 ---
 # <a name="fieldstatusenum"></a>FieldStatusEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 **Field** 对象的状态。
 
@@ -55,22 +55,22 @@ ms.locfileid: "28709514"
 </tr>
 <tr class="even">
 <td><p><strong>adFieldCannotDeleteSource</strong></p></td>
-<td><p>23</p></td>
+<td><p>上午</p></td>
 <td><p>指示在移动操作期间，将树或子树移动到了新位置，但无法删除源。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldCantConvertValue</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>指示由于丢失数据而无法检索或存储字段。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldCantCreate</strong></p></td>
-<td><p>7</p></td>
+<td><p>步</p></td>
 <td><p>指示无法添加字段，因为提供程序超过了限制（如允许的字段数）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDataOverflow</strong></p></td>
-<td><p>6</p></td>
+<td><p>型</p></td>
 <td><p>指示从提供程序返回的数据使字段的数据类型发生溢出。</p></td>
 </tr>
 <tr class="even">
@@ -80,12 +80,12 @@ ms.locfileid: "28709514"
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDoesNotExist</strong></p></td>
-<td><p>16</p></td>
+<td><p>位</p></td>
 <td><p>指示指定的字段不存在。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldIgnore</strong></p></td>
-<td><p>15</p></td>
+<td><p>个</p></td>
 <td><p>指示在设置数据源中的数据值时已跳过此字段。提供程序未设置值。</p></td>
 </tr>
 <tr class="odd">
@@ -95,12 +95,12 @@ ms.locfileid: "28709514"
 </tr>
 <tr class="even">
 <td><p><strong>adFieldInvalidURL</strong></p></td>
-<td><p>17</p></td>
+<td><p>×</p></td>
 <td><p>指示数据源 URL 包含无效字符。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIsNull</strong></p></td>
-<td><p>3</p></td>
+<td><p>第三章</p></td>
 <td><p>指示提供程序返回了类型为 VT_NULL 的 VARIANT 值，并且此字段非空。</p></td>
 </tr>
 <tr class="even">
@@ -115,7 +115,7 @@ ms.locfileid: "28709514"
 </tr>
 <tr class="even">
 <td><p><strong>adFieldPendingChange</strong></p></td>
-<td><p>而 0x40000 可</p></td>
+<td><p>0x40000</p></td>
 <td><p>指示此字段已被删除然后重新添加（可能使用不同的数据类型）过，或者以前具有 adFieldOK 状态的此字段的值已被更改。在调用 <a href="update-method-ado.md">Update</a> 方法之后，字段的最终形式将修改 <a href="fields-collection-ado.md">Fields</a> 集合。</p></td>
 </tr>
 <tr class="odd">
@@ -140,7 +140,7 @@ ms.locfileid: "28709514"
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldPermissionDenied</strong></p></td>
-<td><p>9</p></td>
+<td><p>第</p></td>
 <td><p>指示无法修改此字段，因为它被定义为只读。</p></td>
 </tr>
 <tr class="even">
@@ -150,7 +150,7 @@ ms.locfileid: "28709514"
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldResourceExists</strong></p></td>
-<td><p>19</p></td>
+<td><p>合</p></td>
 <td><p>指示提供程序无法执行此操作，因为目标 URL 中已经存在一个对象，且无法覆盖该字段。</p></td>
 </tr>
 <tr class="even">
@@ -160,12 +160,12 @@ ms.locfileid: "28709514"
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldResourceOutOfScope</strong></p></td>
-<td><p>25</p></td>
+<td><p>word</p></td>
 <td><p>指示源 URL 或目标 URL 在当前记录的范围之外。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldSchemaViolation</strong></p></td>
-<td><p>11</p></td>
+<td><p>11x17</p></td>
 <td><p>指示此值违反了字段的数据源架构约束。</p></td>
 </tr>
 <tr class="odd">
@@ -180,19 +180,19 @@ ms.locfileid: "28709514"
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldUnavailable</strong></p></td>
-<td><p>8</p></td>
+<td><p>utf-8</p></td>
 <td><p>指示当从数据源进行读取时，提供程序无法确定值。例如，只创建了行，列的默认值不可用，并且尚未指定新值。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldVolumeNotFound</strong></p></td>
-<td><p>21</p></td>
+<td><p>不足</p></td>
 <td><p>指示提供程序无法定位由 URL 指定的存储卷。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
 这些常量没有 ADO/WFC 等效值。
 

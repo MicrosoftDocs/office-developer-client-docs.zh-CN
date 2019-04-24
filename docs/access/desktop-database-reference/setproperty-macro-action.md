@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c5972ad630efe3afe27565924c7c6a8a2230a9f2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314572"
 ---
 # <a name="setproperty-macro-action"></a>SetProperty 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **SetProperty** 操作设置窗体或报表上控件的属性。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **SetProperty** 操作具有下列参数。
 
@@ -42,7 +42,7 @@ ms.locfileid: "28703214"
 <tbody>
 <tr class="odd">
 <td><p>控件名称</p></td>
-<td><p>键入您要为其设置属性值的控件的字段的名称。 只使用的控件名称，不完整的语法。 将此参数留空以便为当前窗体或报表设置属性。</p></td>
+<td><p>请键入要为其设置属性值的字段或控件的名称。 仅使用控件名称，不要使用完整语法。 将此参数留空，以便为当前窗体或报表设置属性。</p></td>
 </tr>
 <tr class="even">
 <td><p>属性</p></td>
@@ -56,9 +56,9 @@ ms.locfileid: "28703214"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-- 您可以使用**SetProperty**操作设置控件的以下属性：**启用**、 **Visible**、**锁定**、**左**、**上**、**宽度**、**高度**、**前景色**、**背景色**，或**标题**。
+- 可以使用 **SetProperty** 操作设置控件的下列属性：“已启用”****、“可见”****、“锁定”****、“靠左”****、“靠上”****、“宽度”****、“高度”****、“前景色”****、“背景色”**** 或“标题”****。
 
 - 如果为***值*** 参数输入的值无效，则不会发生错误，但 Access 可能会根据解释该参数的方式将属性更改为其他值。
 
@@ -68,9 +68,9 @@ ms.locfileid: "28703214"
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何使用 SetProperty 操作切换的可见性**MyTextBox**文本框。
+下面的示例演示如何使用 SetProperty 操作切换**MyTextBox**文本框的可见性。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Submacro: TestVisible
