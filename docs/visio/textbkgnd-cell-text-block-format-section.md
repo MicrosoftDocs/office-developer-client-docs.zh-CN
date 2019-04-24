@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a238bf1c-1acd-eacd-22f3-a48acaaa4549
 description: 确定一个形状的文本背景色。
-ms.openlocfilehash: 2256a4c89812924af820c020c225f4b82b1d4856
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2450bf0cb0e013c0f9310eacfca0f5a20e7e6063
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332323"
 ---
-# <a name="textbkgnd-cell-text-block-format-section"></a>TextBkgnd 单元格（“Text Block Format”部分）
+# <a name="textbkgnd-cell-text-block-format-section"></a>TextBkgnd 单元格（“Text Block Format”内容）
 
 确定一个形状的文本背景色。
   
 ## <a name="remarks"></a>注解
 
-TextBkgnd 单元格可以具有任何值从 0 到 24 或 255。 值 0 和 255 ( *visTxtBlklOpaque*) 指示透明的文本背景。 
+TextBkgnd 单元格的值可以是 0 到 24 之间的任意值，或者是 255。 值0和 255 ( *visTxtBlklOpaque*) 都表示透明文本背景。 
   
-若要输入自定义颜色，使用 RGB 或 HSL 函数加 1 — 例如，RGB (255,127,255) + 1。 自定义颜色的值为 RGB 颜色，并且 RGB （ *r、 g、 b*） + 1，而不是一个号码，将显示在 ShapeSheet 窗口中。 中的数字运算使用时，自定义颜色具有值将大于或等于 25。 
+若要输入自定义颜色，请使用 RGB 或 HSL 函数加 1，例如 RGB(255,127,255)+1。 自定义颜色的值是其 RGB 颜色, 而 rgb ( *r, g, b*) + 1, 而不是数字, 将显示在 ShapeSheet 窗口中。 在数值运算中使用自定义颜色时，其值将大于或等于 25。 
   
 您可以在 TextBkgndTrans 单元格中设置文本背景色的透明度。
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: aa7ba4d9-c5e0-4ce7-a34e-65f675223bc9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0cf9e9f8c10f8d27bd174b8b6f2bf19812dc269d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339254"
 ---
 # <a name="pidtagsubject-canonical-property"></a>PidTagSubject 规范属性
 
@@ -29,42 +29,42 @@ ms.locfileid: "25386304"
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_SUBJECT，PR_SUBJECT_A，PR_SUBJECT_W  <br/> |
-|标识符：  <br/> |0x0037  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|相关属性：  <br/> |PR_SUBJECT、PR_SUBJECT_A、PR_SUBJECT_W  <br/> |
+|标识符:  <br/> |0x0037  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-建议对所有的消息对象都使用这些属性。 
+对于所有邮件对象, 建议使用这些属性。 
   
-这些属性将始终的完整主题文本，即前缀和规范化的主题串联。 如果没有前缀，规范化的主题应与相同主题。 消息存储或传输提供程序使用这些属性和**PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) 属性来计算使用规则规范化的主题所述在**PR_NORMALIZED_SUBJECT** ([下PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))。
+这些属性始终是完整的主题文本, 即前缀和规范化主题的串联。 如果没有前缀, 则正常化的主题应与主题相同。 邮件存储或传输提供程序使用这些 properties 和**PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) 属性来计算正常化的主题, 使用**PR_NORMALIZED_SUBJECT** [中描述的规则。PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))。
   
-Subject 属性均通常较小字符串少于 256 个字符，并且消息存储提供程序不支持这些**IStream**接口的义务。 客户端应始终尝试通过**IMAPIProp**接口访问首先，以及**IStream**仅当返回**MAPI_E_NOT_ENOUGH_MEMORY** 。 
+subject 属性通常是少于256个字符的小字符串, 而邮件存储提供程序并不是支持其上的**IStream**接口的义务。 客户端应始终先尝试通过**IMAPIProp**接口访问, 并且只有在返回**MAPI_E_NOT_ENOUGH_MEMORY**时才会转到**IStream** 。 
   
-对于报表，此属性包含一个 string，指示邮件发生前面的原始消息的主题。
+对于报表, 此属性包含原始邮件的主题, 其前面有一个指示邮件发生了什么情况的字符串。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

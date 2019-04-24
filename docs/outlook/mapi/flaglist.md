@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f7a236c2a7e307d278cac5ef413cbd2f600bf09f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a5e508f5f7e6554a115517da87a8eac39f39aecf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336937"
 ---
 # <a name="flaglist"></a>FLAGLIST
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于指示过程名称解析过程中的地址条目的状态标志的列表。
+包含用于指示名称解析过程中的地址条目状态的标志列表。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct
@@ -44,27 +44,27 @@ typedef struct
 
  **cFlags**
   
-> MAPI 定义列表中的标志的计数。
+> 列表中 MAPI 定义的标志的计数。
     
  **ulFlags**
   
-> 提供的收件人的名称解析操作的状态标志的数组。 可以设置以下标志：
+> 为收件人提供名称解析操作的状态的标志数组。 可以设置以下标志:
     
 MAPI_AMBIGUOUS 
   
-> 收件人已得到解决，但不适用于唯一项标识符。 其他地址簿容器不应尝试解析该收件人。 
+> 收件人已得到解决, 但不是唯一的条目标识符。 其他通讯簿容器不应尝试解析该收件人。 
     
 MAPI_RESOLVED 
   
-> 收件人已解析为唯一项标识符。 其他地址簿容器不应尝试解析该收件人。 
+> 收件人已解析为唯一条目标识符。 其他通讯簿容器不应尝试解析该收件人。 
     
 MAPI_UNRESOLVED 
   
-> 条目不已解决。 其他地址簿容器应尝试解析该收件人。
+> 该条目尚未解决。 其他通讯簿容器应尝试解析该收件人。
     
 ## <a name="remarks"></a>注解
 
-**FLAGLIST**结构用作[IABContainer::ResolveNames](iabcontainer-resolvenames.md)参数。 [ADRLIST](adrlist.md)结构中包含每个要解析的收件人。 通讯簿容器尝试解决每个收件人，如**FLAGLIST**结构中的相应条目中设置相应的标志。 所有**FLAGLIST**结构中的条目都**ADRLIST**结构中的项的顺序相同。 这便于与收件人关联的标记设置。 
+**FLAGLIST**结构用作[IABContainer:: ResolveNames](iabcontainer-resolvenames.md)的参数。 要解析的每个收件人都包含在[ADRLIST](adrlist.md)结构中。 由于通讯簿容器尝试解析每个收件人, 因此它会在**FLAGLIST**结构中的相应条目中设置适当的标志。 **FLAGLIST**结构中的所有条目的顺序与**ADRLIST**结构中的条目的顺序相同。 这样便于将标志设置与收件人相关联。 
   
 ## <a name="see-also"></a>另请参阅
 

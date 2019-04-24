@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 03e53e08-9113-4101-84c9-ccf6d43127f6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cf84c7d94e67da0ce7453829042e7be0d4e313f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e47f4e0d1ab9ab3ecfd53932b8ef26440134c603
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334816"
 ---
 # <a name="flatentry"></a>FLATENTRY
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-[ENTRYID](entryid.md)结构加上指定**ENTRYID**结构大小的字节数。 
+[entryid](entryid.md)结构加上指定**ENTRYID**结构大小的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的宏：  <br/> |[cbFLATENTRY](cbflatentry.md) [CbNewFLATENTRY](cbnewflatentry.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关宏:  <br/> |[cbFLATENTRY](cbflatentry.md)、 [CbNewFLATENTRY](cbnewflatentry.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,23 +45,23 @@ typedef struct
 
  **cb**
   
-> **AbEntry**成员中的字节数。 
+> **abEntry**成员中的字节数。 
     
  **abEntry**
   
-> 包含数组标志和二进制数据的完整输入标识符。
+> 包含标志和二进制数据数组的完整项标识符。
     
 ## <a name="remarks"></a>注解
 
-**FLATENTRY**结构类似于[ENTRYID](entryid.md)结构。 但是，有一些区别： 
+**FLATENTRY**结构类似于[ENTRYID](entryid.md)结构。 但是, 存在一些差异: 
   
-- **FLATENTRY**结构存储的项标识符; 的大小未为**ENTRYID** 。 
+- **FLATENTRY**结构存储项标识符的大小;**ENTRYID**不会。 
     
-- **FLATENTRY**结构将一起条目标识符; 的其余部分标志数据存储**ENTRYID**单独存储这些。 
+- **FLATENTRY**结构将标志数据与条目标识符的其余部分一起存储;**ENTRYID**单独存储它们。 
     
-- **FLATENTRY**结构用于存储在文件中的项标识符或而[IMAPIProp](imapipropiunknown.md)接口方法和以下**OpenEntry**方法使用**ENTRYID**结构中的字节流传递： [IABLogon:: OpenEntry](iablogon-openentry.md)， [IAddrBook::OpenEntry](iaddrbook-openentry.md)、 [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)、 [IMAPISession::OpenEntry](imapisession-openentry.md)、 [IMAPISupport::OpenEntry](imapisupport-openentry.md)、 [IMsgStore::OpenEntry](imsgstore-openentry.md)、 [IMSLogon::OpenEntry](imslogon-openentry.md)
+- **FLATENTRY**结构用于将条目标识符存储在文件中或以字节流的方式传递, 而**ENTRYID**结构由[IMAPIProp](imapipropiunknown.md)接口方法和以下**OpenEntry**方法使用: [IABLogon:: OpenEntry](iablogon-openentry.md)、 [IAddrBook:: OpenEntry](iaddrbook-openentry.md)、 [IMAPIContainer:: OpenEntry](imapicontainer-openentry.md)、 [IMAPISession:: OpenEntry](imapisession-openentry.md)、 [IMAPISupport:: OpenEntry](imapisupport-openentry.md)、 [IMsgStore:: OpenEntry](imsgstore-openentry.md)、 [IMSLogon:: OpenEntry](imslogon-openentry.md)
     
-- **FLATENTRY**结构用于存储在文件中的项标识符，或将其传递中的字节流。 **ENTRYID**结构用于存储在磁盘上的项标识符。 
+- **FLATENTRY**结构用于将条目标识符存储在文件中, 或将其传递到字节流中。 **ENTRYID**结构用于在磁盘上存储条目标识符。 
     
 ## <a name="see-also"></a>另请参阅
 

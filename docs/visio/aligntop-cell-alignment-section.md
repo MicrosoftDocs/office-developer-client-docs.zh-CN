@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 56e0b544-8504-0fbb-5810-7cf94d775f7c
 description: 确定形状的上边框依其对齐的水平参考线或辅助点的垂直位置（该位置是相对于其父级的原点而言的）。
-ms.openlocfilehash: 399514aa95897348238008715ee92694d57bad96
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a52527b8a0ef6398f475b3d6241e03afa6cd697b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341515"
 ---
-# <a name="aligntop-cell-alignment-section"></a>AlignTop 单元格（“Alignment”部分）
+# <a name="aligntop-cell-alignment-section"></a>AlignTop 单元格（“Alignment”内容）
 
 确定形状的上边框依其对齐的水平参考线或辅助点的垂直位置（该位置是相对于其父级的原点而言的）。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 AlignTop 单元格的引用，请使用： 
   

@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ff5bbf05-4851-30ce-7ee1-f0ce7b2781ab
 description: 确定是否可以使用鼠标拖动组合中的形状。
-ms.openlocfilehash: df5d0d2b44e283ee8301d9c088d3ce55114e9a75
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b15d75a98b5f5a72bce8b80758d27b197a346ed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338582"
 ---
-# <a name="dontmovechildren-cell-group-properties-section"></a>DontMoveChildren 单元格（“Group Properties”部分）
+# <a name="dontmovechildren-cell-group-properties-section"></a>DontMoveChildren 单元格（“Group Properties”内容）
 
 确定是否可以使用鼠标拖动组合中的形状。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 不允许使用鼠标拖动组合中的形状。  <br/> |
 | FALSE  <br/> | 允许使用鼠标拖动组合中的形状。  <br/> |
    
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 如果该单元格的值为 TRUE，您还可以使用其他方法翻转、旋转或重定位组合中的形状，或者更改这些形状的大小。
   

@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 1884d83a-826e-494a-a643-c58fa9bdf812
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d771e46c92fd2bdc30857f6ba104784726dfbc62
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 49705c3c56c1268b03e09b9a95a9aa86adb2e16a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335516"
 ---
 # <a name="pidtagoriginatorreturnaddress-canonical-property"></a>PidTagOriginatorReturnAddress 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息原始发件人的二进制编码返回地址。
+包含邮件原始发件人的二进制编码的返回地址。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ORIGINATOR_RETURN_ADDRESS  <br/> |
-|标识符：  <br/> |0x0024  <br/> |
+|标识符:  <br/> |0x0024  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
@@ -38,13 +38,13 @@ ms.locfileid: "22582145"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 79283301-e544-4a4d-96c2-3f81dc5b3731
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4687b07c89d866acbe3b6a8f4cde3262657a06b5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 0fa742b7ff6d98e3a0f475accbc440d22eac0919
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337056"
 ---
 # <a name="declaring-form-interfaces"></a>声明表单接口
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-还可以通过使用 MAPI_ _interface__METHOD 宏，其中_接口_在 Mapiform.h 标头文件中定义的窗体界面简化的 MAPI 表单接口实现的声明。 您不需要使用这些宏，但如果您不应采取特别注意您声明符合 Mapiform.h 头文件中的声明。 例如，您无法声明窗体服务器的窗体对象类，如下所示： 
+您可以通过使用 MAPI_ _interface__METHOD 宏 (其中_接口_是在 Mapiform 头文件中定义的窗体接口) 简化您的 MAPI 表单接口实现的声明。 您不需要使用这些宏, 但如果您不是这样, 则应特别注意您的声明符合 Mapiform 头文件中的声明。 例如, 您可以声明窗体服务器的窗体对象类, 如下所示: 
   
 ```cpp
 class CMyForm : public IPersistMessage, public IMAPIForm,

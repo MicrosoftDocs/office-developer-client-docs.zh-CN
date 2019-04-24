@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2868533e0383309e013bb82aaa4300a0a40e335a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b27f59e0bfdcac8eca1751af2f07139f12e2b3a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577511"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334739"
 ---
 # <a name="pidtagcontrolid-canonical-property"></a>PidTagControlId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含在对话框中使用的控件的唯一标识符。 
+包含对话框中使用的控件的唯一标识符。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTROL_ID  <br/> |
-|标识符：  <br/> |0x3F07  <br/> |
+|标识符:  <br/> |0x3F07  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性包含控件的唯一标识符。 此标识符应包含一个[GUID](guid.md)结构和**LONG**类型的二进制值。 在对话框中的所有控件应都使用相同的**GUID**标识服务提供商，并每个控件应都使用唯一**LONG**值，以确保控件不互相冲突。 
+此属性包含控件的唯一标识符。 此标识符应包含[GUID](guid.md)结构和**LONG**类型的二进制值。 对话框中的所有控件都应使用相同的**GUID**来标识服务提供程序, 并且每个控件应使用唯一的**长整型**值, 以确保控件不会发生冲突。 
   
-在通知中使用此属性。 例如，显示表上发送的通知必须设置此属性来唯一地标识要更新的控件。 
+此属性在通知中使用。 例如, 在显示表上发送的通知必须设置该属性来唯一标识要更新的控件。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

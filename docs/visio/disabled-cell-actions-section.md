@@ -9,21 +9,21 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ebf66729-d794-a398-268a-84d761bf06b6
 description: 指示快捷菜单或动作标记菜单上的某项是否被禁用。
-ms.openlocfilehash: 3956b6cf5ccb870255d6943e74b4f02650952d09
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddf55f40056d7df7a2403e500bb4bae335930433
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332576"
 ---
-# <a name="disabled-cell-actions-section"></a>Disabled 单元格（“Actions”部分）
+# <a name="disabled-cell-actions-section"></a>Disabled 单元格（“Actions”内容）
 
 指示快捷菜单或动作标记菜单上的某项是否被禁用。
   
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |禁用（灰显）命令名。  <br/> |
 |FALSE  <br/> |启用命令名（默认值）。  <br/> |
@@ -34,14 +34,14 @@ ms.locfileid: "19780091"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |操作。 *名称*。其中禁用操作。 *name*是 Actions 行的名称  <br/> |
+|单元格名称：  <br/> |操作. *名称*。在操作中禁用。 *name*是操作行的名称  <br/> |
    
 要从某个程序按索引获取对 Disabled 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionAction** <br/> |
-|行索引：  <br/> |**visRowAction** +  *i*其中*i* = 0、 1、 2...  <br/> |
+|行索引：  <br/> |**visRowAction** +  *i* = ** 0、1、2 .。。  <br/> |
 |单元格索引：  <br/> |**visActionDisabled** <br/> |
    
 

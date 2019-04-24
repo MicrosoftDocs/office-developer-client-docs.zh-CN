@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: 了解在 Outlook 2013 中如何在天气栏中插入第三方天气 Web 服务，以提供用户所选位置的天气状况。
 ms.openlocfilehash: 0423e149306bf7562dd525f1b7460a63cbace372
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336565"
 ---
 # <a name="extending-the-weather-bar-in-outlook"></a>扩展 Outlook 中的天气栏
 
@@ -80,11 +80,11 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
   
 |||
 |:-----|:-----|
-|**键** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**值名称** <br/> |**WeatherServiceUrl** <br/> |
 |**值类型** <br/> |REG_SZ  <br/> |
 |**默认值** <br/> |EMPTY_STRING  <br/> |
-|**说明** <br/> |天气数据服务的 URL。  <br/> |
+|**Description** <br/> |天气数据服务的 URL。  <br/> |
    
 ## <a name="dependent-conditions"></a>相关条件
 <a name="ol15_weatherbar_dependentconditions"> </a>
@@ -99,13 +99,13 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
   
 |||
 |:-----|:-----|
-|**键** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**值名称** <br/> |**DisableWeather** <br/> |
 |**值类型** <br/> |REG_DWORD  <br/> |
 |**默认值** <br/> |0  <br/> |
-|**说明** <br/> |值为 0 将启用天气栏，任何其他值将禁用天气栏。  <br/> |
+|**Description** <br/> |值为 0 将启用天气栏，任何其他值将禁用天气栏。  <br/> |
    
-如果天气栏功能已被组策略禁用，“日历”**** 选项卡将不包括“在日历中显示天气”**** 复选框。请与管理员联系以启用此功能。 
+If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 
   
 ### <a name="office-is-disconnected-from-the-internet"></a>Office 已从 Internet 断开连接
 
@@ -120,10 +120,10 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
 |**键** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
 |**值名称** <br/> |**UseOnlineContent** <br/> |
 |**值类型** <br/> |REG_DWORD  <br/> |
-|**默认值** <br/> |2  <br/> |
+|**默认值** <br/> |双面  <br/> |
 |**说明** <br/> |值为 2 将启用天气栏，任何其他值将禁用天气栏。  <br/> |
    
-如果天气栏功能已被组策略禁用，“日历”**** 选项卡将不包括“在日历中显示天气”**** 复选框。请与管理员联系以启用此功能。 
+If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 
   
 ## <a name="weather-bar-example"></a>天气栏示例
 <a name="ol15_weatherbar_example"> </a>

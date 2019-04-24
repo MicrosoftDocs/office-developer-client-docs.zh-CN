@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: 15be5a8c-4299-4434-b521-c901215b9dda
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4e5f19258fb7716e741928f02a0a87f3939c74e0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b0260ffe5dc4806cb627fd71c78866bf96796455
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341004"
 ---
 # <a name="fbadcolumnset"></a>FBadColumnSet
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-设置表格列的有效性测试使用后续调用[IMAPITable::SetColumns](imapitable-setcolumns.md)方法中的服务提供商。 
+测试在对[IMAPITable:: SetColumns](imapitable-setcolumns.md)方法的后续调用中, 服务提供商是否要使用的表格列集的有效性。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapival.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |服务提供商  <br/> |
+|标头文件：  <br/> |Mapival.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |服务提供程序  <br/> |
    
 ```cpp
 ULONG FBadColumnSet(
@@ -43,7 +43,7 @@ ULONG FBadColumnSet(
 
  _lpptaCols_
   
-> [in]指向包含属性标记定义要验证的表格列的数组[SPropTagArray](sproptagarray.md)结构。 
+> 实时指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含定义要验证的表列的属性标记的数组。 
     
 ## <a name="return-value"></a>返回值
 
@@ -53,10 +53,10 @@ TRUE
     
 FALSE 
   
-> 指定的列集才有效。
+> 指定的列集有效。
     
 ## <a name="remarks"></a>注解
 
-**FBadColumnSet**函数处理无效 PT_ERROR 类型的列和有效 PT_NULL 类型的列。 
+**FBadColumnSet**函数将类型为 PT_ERROR 的列视为无效, 并将类型为 PT_NULL 的列视为有效。 
   
 

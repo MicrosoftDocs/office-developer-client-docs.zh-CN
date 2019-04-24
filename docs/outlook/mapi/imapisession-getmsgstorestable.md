@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 77db2dff-4534-440f-a05c-635711cbc2c3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cc0039cf2210446704d25b2156bd4ff50041a524
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5fced633023ebf00efaf5b667dc7994eeb5de316
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586275"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338827"
 ---
 # <a name="imapisessiongetmsgstorestable"></a>IMAPISession::GetMsgStoresTable
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-提供对消息存储表包含有关会话配置文件中的所有邮件存储的信息的访问。
+提供对包含有关会话配置文件中的所有邮件存储区的信息的邮件存储表的访问权限。
   
 ```cpp
 HRESULT GetMsgStoresTable(
@@ -38,45 +38,45 @@ HRESULT GetMsgStoresTable(
 
  _ulFlags_
   
-> [in]位掩码的标志，用于确定字符的字符串的列的格式。 可以设置以下标记：
+> 实时标志的位掩码, 用于确定作为字符字符串的列的格式。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 字符串列的 Unicode 格式。 如果未设置 MAPI_UNICODE 标志，字符串列的 ANSI 格式。
+> 字符串列采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串列的格式为 ANSI。
     
  _lppTable_
   
-> [输出]指向与消息存储表的指针的指针。
+> 排除指向邮件存储表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回表。
+> 成功返回表。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置该 MAPI_UNICODE 标记和会话不支持 Unicode。
+> 已设置 MAPI_UNICODE 标志, 且会话不支持 UNICODE。
     
 ## <a name="remarks"></a>注解
 
-**IMAPISession::GetMsgStoresTable**方法检索指向消息存储表的指针，由 MAPI 维护表包含有关配置文件中每个打开的邮件存储的信息。 
+**IMAPISession:: GetMsgStoresTable**方法检索指向邮件存储表的指针, 它是由 MAPI 维护的表, 其中包含有关配置文件中每个打开的邮件存储区的信息。 
   
-将表存储有关必需的和可选消息中的列的完整列表，请参阅[邮件存储表](message-store-tables.md)。 
+有关邮件存储表中的必填和可选的列的完整列表, 请参阅[message store Tables](message-store-tables.md)。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-由于 MAPI 发生更改时在会话过程中更新消息存储表，调用消息存储表进行注册，以这些更改的通知的**Advise**方法。 可能发生的更改包括的新消息存储库添加、 删除现有的存储，并更改为默认存储。 
+由于每次发生更改时 MAPI 都会在会话过程中更新邮件存储表, 因此请调用邮件存储表的**Advise**方法以注册, 以获得这些更改的通知。 可能的更改包括添加新的邮件存储、删除现有存储和更改为默认存储。 
   
-_UlFlags_参数中设置 MAPI_UNICODE 标志会影响从[IMAPITable::QueryColumns](imapitable-querycolumns.md)和[IMAPITable::QueryRows](imapitable-queryrows.md)方法返回的列的格式。 此标志还将控制[IMAPITable::QuerySortOrder](imapitable-querysortorder.md)方法返回的排序顺序的属性类型。 
+在_ulFlags_参数中设置 MAPI_UNICODE 标志将影响从[IMAPITable:: QueryColumns](imapitable-querycolumns.md)和[IMAPITable:: QueryRows](imapitable-queryrows.md)方法返回的列的格式。 此标志还按[IMAPITable:: QuerySortOrder](imapitable-querysortorder.md)方法返回的排序顺序控制属性类型。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenMessageStoreTable  <br/> |MFCMAPI 使用**IMAPISession::GetMsgStoresTable**方法获取消息存储表，以使其可以在主要对话框的 MFCMAPI 呈现。  <br/> |
+|MainDlg  <br/> |CMainDlg:: OnOpenMessageStoreTable  <br/> |MFCMAPI 使用**IMAPISession:: GetMsgStoresTable**方法获取邮件存储表, 以便它可以在 MFCMAPI 的主对话框中呈现。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
@@ -101,5 +101,5 @@ MFCMAPI 示例代码，请参阅下表。
 
 [MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
   
-[邮件存储区表](message-store-tables.md)
+[邮件存储表](message-store-tables.md)
 

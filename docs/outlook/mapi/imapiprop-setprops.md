@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 49f007c9-42e5-4391-8b83-988c9b0ebdba
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 93bfcce9c45a4c6fd4d57be8c1222be286e0a945
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87709f8a77471637d7652982669bcba93ca2e1dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341011"
 ---
 # <a name="imapipropsetprops"></a>IMAPIProp::SetProps
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 更新一个或多个属性。
   
@@ -39,15 +39,15 @@ HRESULT SetProps(
 
  _cValues_
   
-> [in]_LpPropArray_参数指向的属性值的计数。 _CValues_参数不能 0。 
+> 实时由_lpPropArray_参数指向的属性值的计数。 _cValues_参数不得为0。 
     
  _lpPropArray_
   
-> [in]一个指向一个[SPropValue](spropvalue.md)结构包含要更新的属性值的数组。 
+> 实时指向[SPropValue](spropvalue.md)结构数组的指针, 该数组包含要更新的属性值。 
     
  _lppProblems_
   
-> [传入、 传出]在输入时，为[SPropProblemArray](spropproblemarray.md)结构; 指针的指针否则，为 NULL，表明错误信息不需要。 如果_lppProblems_上输入, 的有效指针**SetProps**更新一个或多个属性的返回有关错误的详细的信息。 
+> [in, out]在输入时, 指向指向[SPropProblemArray](spropproblemarray.md)结构的指针的指针;否则为 NULL, 表示无需错误信息。 如果_lppProblems_是有效的输入指针, **SetProps**将返回有关更新一个或多个属性中的错误的详细信息。 
     
 ## <a name="return-value"></a>返回值
 
@@ -55,15 +55,15 @@ S_OK
   
 > 属性已成功更新。
     
-可以为**SetProps**中返回在**SPropProblemArray**结构中，但不是返回值是以下值：
+以下值可在**SPropProblemArray**结构中返回, 但不能在**SetProps**的返回值中返回:
   
 MAPI_E_BAD_CHARWIDTH 
   
-> 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
+> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
 MAPI_E_COMPUTED 
   
-> 无法更新属性，因为它是只读的计算负责对象的服务提供商。
+> 属性不能更新, 因为它是只读的, 由负责该对象的服务提供程序进行计算。
     
 MAPI_E_INVALID_TYPE 
   
@@ -71,45 +71,45 @@ MAPI_E_INVALID_TYPE
     
 MAPI_E_NO_ACCESS 
   
-> 尝试修改只读对象或访问其用户没有足够的权限的对象。
+> 试图修改只读对象或访问用户拥有的对象权限不足的对象。
     
 MAPI_E_NOT_ENOUGH_MEMORY 
   
-> 无法更新属性，因为它是大于远程过程调用 (RPC) 缓冲区大小。
+> 属性不能更新, 因为它大于远程过程调用 (RPC) 缓冲区大小。
     
 MAPI_E_UNEXPECTED_TYPE 
   
-> 属性类型不需要调用实现的类型。
+> 属性类型不是调用实现所需的类型。
     
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-忽略**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) 属性标记和**PT_ERROR**类型的所有属性。 不进行更改或报告问题**SPropProblemArray**结构中。 
+忽略类型为**PT_ERROR**的**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) 属性标记和所有属性。 请勿在**SPropProblemArray**结构中进行更改或报告问题。 
   
-如果类型**PT_OBJECT**的属性包含属性值数组中，返回 MAPI_E_INVALID_PARAMETER。 也返回此错误，则多值属性包含数组和其**cValues**成员中设置为 0。 
+如果属性值数组中包含**PT_OBJECT**类型的属性, 则返回 MAPI_E_INVALID_PARAMETER。 如果数组中包含多值属性, 并将其**cValues**成员设置为 0, 则也会返回此错误。 
   
-如果调用成功总体，但有问题设置的一些属性，返回 S_OK 和问题的信息置于_lppProblems_参数指向的**SPropProblemArray**结构中的相应项。 
+如果调用成功, 但在设置某些属性时出现问题, 则返回 S_OK, 并将有关问题的信息放在_lppProblems_参数指向的**SPropProblemArray**结构的相应条目中。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-根据服务提供程序，您可能还能够通过传递比以前使用的给定的属性标识符具有包含不同类型的属性标记更改的属性类型。
+根据服务提供程序的不同, 您还可以通过传递包含与先前用于给定属性标识符的类型不同的属性标记来更改属性类型。
   
-如果包括属性标记为不支持的对象的属性和**SetProps**的实现允许创建的新属性，则将属性添加到对象。 存储用于新属性的属性标识符与以前的任何值将被丢弃。 
+如果包含对象不支持的属性的属性标记, 且**SetProps**的实现允许创建新的属性, 则会将该属性添加到对象中。 以前与用于新属性的属性标识符一起存储的任何值都将被丢弃。 
   
-请注意，不保证 S_OK 返回值的所有属性已成功更新。 某些提供程序直到其接收呼叫，需要提供程序干预，如[IMAPIProp::SaveChanges](imapiprop-savechanges.md)或[IMAPIProp::GetProps](imapiprop-getprops.md)缓存**SetProps**呼叫。 因此，很可能收到与更高版本的呼叫的**SetProps**呼叫相关的错误值。 
+请注意, S_OK 返回值并不保证已成功更新所有属性。 某些提供程序在收到需要提供程序干预的调用 (如[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)或[IMAPIProp:: GetProps](imapiprop-getprops.md)) 之前缓存**SetProps**调用。 因此, 可以接收与后续调用相关的**SetProps**调用的错误值。 
   
-如果**SetProps** ，则返回 S_OK，检查所指的_lppProblems_更新各个属性的问题的**SPropProblemArray**结构。 如果**SetProps**返回一个错误，则不会检查属性问题数组。 相反，呼叫对象的[IMAPIProp::GetLastError](imapiprop-getlasterror.md)方法。 
+如果**SetProps**返回 S_OK, 请检查_lppProblems_针对更新各个属性的问题所指向的**SPropProblemArray**结构。 如果**SetProps**返回错误, 请勿检查属性问题数组。 而是调用对象的[IMAPIProp:: GetLastError](imapiprop-getlasterror.md)方法。 
   
-更新时大型属性， **SetProps**可以失败并返回 MAPI_E_NOT_ENOUGH_MEMORY。 没有属性，最大大小和不同的对象可以具有不同的限制。 如果您处理可能很大的属性，准备接口标识调用与 IID_IStream [IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法，如果**SetProps**返回此错误值。 
+更新大型属性时, **SetProps**可能会失败并返回 MAPI_E_NOT_ENOUGH_MEMORY。 属性没有最大大小, 不同的对象可以有不同的限制。 如果您处理可能的大型属性, 请准备好在**SetProps**返回此错误值时将[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法用作接口标识符, 以将 IID_IStream 作为接口标识符进行调用。 
   
 调用[MAPIFreeBuffer](mapifreebuffer.md)函数以释放**SPropProblemArray**结构。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|PropertyEditor.cpp  <br/> |CPropertyEditor::WriteSPropValueToObject  <br/> |MFCMAPI 使用**IMAPIProp::SetProps**方法后，已编辑属性回写到对象的属性。  <br/> |
+|PropertyEditor  <br/> |CPropertyEditor:: WriteSPropValueToObject  <br/> |MFCMAPI 使用**IMAPIProp:: SetProps**方法在编辑属性后将属性写入对象。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

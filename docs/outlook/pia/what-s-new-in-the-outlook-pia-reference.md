@@ -8,11 +8,11 @@ ms.date: 09/15/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cfe322369707670833fc75f06993f6b961c28980
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338589"
 ---
 # <a name="whats-new-in-the-outlook-pia-reference"></a>Outlook PIA 参考的最近更新
 
@@ -68,7 +68,7 @@ ms.locfileid: "28699056"
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/jj859372(v=office.15)">父</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj859372(v=office.15)">Parent</a></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">

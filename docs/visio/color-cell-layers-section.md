@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 61c19342-46fb-48d4-6375-c9ea8306286d
 description: 指定用于显示图层的颜色。
-ms.openlocfilehash: b6728d44c71f6403e772a6a7e730ba3c18d9eb48
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2eef24187165cabfdfc8dee49747a2381562d3e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341823"
 ---
-# <a name="color-cell-layers-section"></a>Color 单元格（“Layers”部分）
+# <a name="color-cell-layers-section"></a>Color 单元格（“Layers”内容）
 
 指定用于显示图层的颜色。
   
@@ -24,9 +24,9 @@ ms.locfileid: "19779893"
 
 若要设置该颜色，请输入一个介于 0 和 23 之间的数字。
   
-此单元格的值对应于**图层属性**对话框中的**图层颜色**设置 （在**主页**选项卡上的**编辑**组中，单击**图层**，然后单击**图层属性**）。
+此单元格值对应于 "**图层属性**" 对话框 (在 "**开始**" 选项卡上的 "**编辑**" 组中, 依次单击 "**层**" 和 "**图层属性**") 中的 "**图层颜色**" 设置
   
-若要输入自定义颜色，使用 RGB 或 HSL 函数。 自定义颜色的值为 RGB 颜色，并且 RGB （ *r、 g、 b*），而不是一个号码，将显示在 ShapeSheet 窗口中。 当使用中的数字运算，自定义颜色具有值将大于或等于，共 24 部分。 255 之间的值表示层都有无颜色。 
+若要输入自定义颜色，请使用 RGB 或 HSL 函数。 自定义颜色的值是其 RGB 颜色, 而 rgb ( *r, g, b*), 而不是数字, 将显示在 ShapeSheet 窗口中。 在数值运算中使用自定义颜色时，其值将大于或等于 24。 如果值是 255，则指示图层没有颜色。 
   
 您可以在 Transparency 单元格中设置图层颜色的透明度。
   
@@ -34,14 +34,14 @@ ms.locfileid: "19779893"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |Layers.Color [ *i* ] 其中*i* = < 1 >，2，3，...  <br/> |
+|单元格名称：  <br/> |图层。颜色 [ *i* ] 其中*i* = <1>, 2, 3, .。。  <br/> |
    
 若要从某个程序按索引获取对 Color 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionLayer** <br/> |
-|行索引：  <br/> |**visRowLayer** +  *i*其中*i* = 0、 1、 2...  <br/> |
+|行索引：  <br/> |**visRowLayer** +  *i* = ** 0、1、2 .。。  <br/> |
 |单元格索引：  <br/> |**visLayerColor** <br/> |
    
 

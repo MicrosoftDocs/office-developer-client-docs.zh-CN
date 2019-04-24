@@ -8,31 +8,29 @@ f1_keywords:
 - Vis_DSS.chm82253218
 localization_priority: Normal
 ms.assetid: 4d87313a-c09a-582c-04f4-d95800e3e9f2
-description: 用目标形状的父坐标系返回一个转换过的角度。它将一个角度从源形状中的本地坐标转换为目标形状中的父坐标。
-ms.openlocfilehash: 3a739c55d568dc548f8175b56f22e6ec4c28e4c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 用目标形状的父坐标系返回一个转换过的角度。 它将一个角度从源形状中的本地坐标转换为目标形状中的父坐标。
+ms.openlocfilehash: e411cbae21d832039e2fbda93393a8fe0bd1f9f8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341453"
 ---
 # <a name="angletopar-function"></a>ANGLETOPAR 函数
 
-用目标形状的父坐标系返回一个转换过的角度。它将一个角度从源形状中的本地坐标转换为目标形状中的父坐标。
-    
- 
+用目标形状的父坐标系返回一个转换过的角度。 它将一个角度从源形状中的本地坐标转换为目标形状中的父坐标。 
   
 ## <a name="syntax"></a>语法
 
-ANGLETOPAR (* * *srcAngle* * *，* * *srcRef* * *，* * *dstRef* * *) 
+ANGLETOPAR (* * *srcAngle* * *, * * *srcRef* * *, * * *dstRef* * *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _srcAngle_ <br/> |必需  <br/> |**Numeric** <br/> |源坐标系中的角度。  <br/> |
-| _srcRef_ <br/> |必需  <br/> |**字符串** <br/> | 对源对象（如形状、组合、页等）中的单元格的引用。  <br/> |
-| _dstRef_ <br/> |必需  <br/> |**字符串** <br/> |对目标对象（如形状、组合、页等）中的单元格的引用。  <br/> |
+| _srcRef_ <br/> |必需  <br/> |**String** <br/> | 对源对象（如形状、组合、页等）中的单元格的引用。  <br/> |
+| _dstRef_ <br/> |必需  <br/> |**String** <br/> |对目标对象（如形状、组合、页等）中的单元格的引用。  <br/> |
    
 ## <a name="remarks"></a>注解
 

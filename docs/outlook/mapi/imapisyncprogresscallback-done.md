@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: aaa8eb56-f22f-4c5a-a224-807ff001e0ca
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cdd3db3f3779c2078b90352e19f8da6b29cffb8d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 8d397e12b8b24c5031e6e6d89d98134d487a815b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341270"
 ---
 # <a name="imapisyncprogresscallbackdone"></a>IMAPISyncProgressCallback::Done
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
  通知 Microsoft Outlook 同步已完成。 
   
@@ -38,17 +38,17 @@ HRESULT Done(
 
  **hThreadDoneEvent**
   
-> 传递回要允许 Microsoft Outlook 关闭窗口的句事件。 它可以是 NULL。
+> 传递回的事件, 以允许 Microsoft Outlook 关闭该句柄。 它可以是 NULL。
     
  **hResult**
   
-> HRESULT 指示进度的最终状态。
+> HRESULT, 用于指示进度的最终状态。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="see-also"></a>另请参阅
 

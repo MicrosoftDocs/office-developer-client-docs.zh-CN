@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3f2870f7-1c08-4d0f-b9d8-7644f5e55b78
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 01ea05eb864c78f3ded39ca3ebc62578076b9d37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: f27da216b9c474aa31503917a6d3c7a74eab9c4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341263"
 ---
 # <a name="imapisupportunsubscribe"></a>IMAPISupport::Unsubscribe
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-取消以前建立与调用[IMAPISupport::Subscribe](imapisupport-subscribe.md)方法发送通知的责任。 
+取消发送以前通过调用[IMAPISupport:: 订阅](imapisupport-subscribe.md)方法建立的通知的责任。 
   
 ```cpp
 HRESULT Unsubscribe(
@@ -37,7 +37,7 @@ ULONG ulConnection
 
  _ulConnection_
   
-> [in]代表通过**IMAPISupport::Subscribe**以前建立通知注册的非零值的连接数。
+> 实时表示以前通过**IMAPISupport:: 订阅**建立的通知注册的非零连接号码。
     
 ## <a name="return-value"></a>返回值
 
@@ -47,13 +47,13 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> 不存在_ulConnection_参数中传递的连接数。 
+> 在_ulConnection_参数中传递的连接号码不存在。 
     
 ## <a name="remarks"></a>注解
 
-**IMAPISupport::Unsubscribe**方法将执行所有服务提供商支持对象。 服务提供商调用**Unsubscribe**取消以前设置**订阅**通知注册。 **取消订阅**通过释放传入**Subscribe**呼叫的通知接收器指针取消注册。 
+**IMAPISupport:: 退订**方法是为所有服务提供程序支持对象实现的。 服务提供商呼叫**取消订阅**以取消之前通过**订阅**设置的通知注册。 **取消订阅**通过释放在**订阅**呼叫中传递的通知接收器指针来取消注册。 
   
-通常，调用通知接收器**IUnknown::Release**方法**取消**呼叫过程中。 但是，如果 advise 接收器对象调用[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法处于另一个线程，直至**OnNotify**方法返回延迟**释放**调用。 
+通常情况下, 在**取消订阅**呼叫过程中会调用通知接收器的**IUnknown:: Release**方法。 但是, 如果另一个线程在调用[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法的建议接收器对象的过程中, 则**释放**调用将延迟到**OnNotify**方法返回为止。 
   
 ## <a name="see-also"></a>另请参阅
 

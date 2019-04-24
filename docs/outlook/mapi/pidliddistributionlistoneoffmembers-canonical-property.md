@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0b92e654-9e2d-4c2e-9a63-d5fac603b0c0
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fed4395274cb790ab8ab7ecf0456d4ecb9ec0134
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383343"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335047"
 ---
 # <a name="pidliddistributionlistoneoffmembers-canonical-property"></a>PidLidDistributionListOneOffMembers 规范属性
 
@@ -25,39 +25,39 @@ ms.locfileid: "25383343"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定一次性 Entryid 对应的个人通讯组列表成员的列表。
+指定与个人通讯组列表的成员相对应的一次性 entryid 的列表。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidDLOneOffMembers  <br/> |
-|属性进行设置：  <br/> |PSETID_Address  <br/> |
-|长 ID （盖）：  <br/> |0x00008054  <br/> |
+|属性集:  <br/> |PSETID_Address  <br/> |
+|长 ID (盖子):  <br/> |0x00008054  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
-|区域：  <br/> |联系人  <br/> |
+|区域：  <br/> |Contact  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这些一次性 Entryid 封装的显示名称和个人通讯组列表成员的电子邮件地址。
+这些一次性 entryid 封装个人通讯组列表成员的显示名称和电子邮件地址。
   
-如果客户端或服务器设置此属性，它必须与同步**dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) 属性： **dispidDLOneOffMembers**属性中的每个条目，条目中必须相同**dispidDLMembers**属性中的位置。 
+如果客户端或服务器设置此属性, 则它必须与**dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) 属性同步: 对于**dispidDLOneOffMembers**属性中的每个条目, 都必须在同一在**dispidDLMembers**属性中的位置。 
   
-设置**dispidDLOneOffMembers**时, 客户端或服务器必须确保其总大小小于 15,000 个字节的大小。
+设置**dispidDLOneOffMembers**时, 客户端或服务器必须确保其总大小小于15000字节。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定允许用于联系人和个人通讯组列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

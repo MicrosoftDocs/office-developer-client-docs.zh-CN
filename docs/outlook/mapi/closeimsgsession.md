@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: a0a17309-fc59-4822-be9b-b6f623b68bb1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f358467d72f2a9f395762f529244041a5d9d8d6a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 877bebf0a156c99907505d815ca8d36a4b398678
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334935"
 ---
 # <a name="closeimsgsession"></a>CloseIMsgSession
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-关闭消息会话并在该会话中创建的所有消息。 
+关闭邮件会话以及在该会话中创建的所有邮件。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Imessage.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Imessage  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 VOID CloseIMsgSession(
@@ -43,7 +43,7 @@ VOID CloseIMsgSession(
 
  _lpMsgSess_
   
-> [in]对消息会话的开头使用[OpenIMsgSession](openimsgsession.md)函数获取邮件会话对象的指针。 
+> 实时指向在邮件会话开始时使用[OpenIMsgSession](openimsgsession.md)函数获取的邮件会话对象的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -51,8 +51,8 @@ VOID CloseIMsgSession(
   
 ## <a name="remarks"></a>注解
 
-客户端应用程序和服务提供商想要处理基于基础 OLE **IStorage**对象的多个相关 MAPI **IMessage**对象使用的邮件会话。 在客户端或提供程序使用的[OpenIMsgSession](openimsgsession.md)和**CloseIMsgSession**函数来包装创建的此类邮件内的邮件会话。 后打开消息会话时，在客户端或提供程序将指针传递给它-上- **IStorage**对象创建新**IMessage** [OpenIMsgOnIStg](openimsgonistg.md)将调用。 
+客户端应用程序和服务提供程序使用消息会话, 以处理基于基础 OLE **IStorage**对象之上构建的多个相关 MAPI **IMessage**对象。 客户端或提供程序使用[OpenIMsgSession](openimsgsession.md)和**CloseIMsgSession**函数来包装邮件会话中的邮件的创建。 一旦打开了消息会话, 客户端或提供程序就会在调用[OpenIMsgOnIStg](openimsgonistg.md)中传递指向它的指针, 以创建新的**IMessage** **IStorage**对象。 
   
-打开会话，除了的所有附件和邮件的其他属性的持续时间内的所有**IMessage**-亮- **IStorage**对象跟踪都的邮件会话。 当客户端或提供程序调用**CloseIMsgSession**时，它将关闭所有这些对象。 调用**CloseIMsgSession**是关闭**IMessage**-上- **IStorage**对象的唯一方式。 
+除了邮件的所有附件和其他属性, 消息会话仍跟踪在会话期间打开的所有**IMessage** **IStorage**对象。 当客户端或提供程序调用**CloseIMsgSession**时, 它将关闭所有这些对象。 调用**CloseIMsgSession**是关闭**IMessage**的**IStorage**对象的唯一方法。 
   
 

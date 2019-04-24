@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c0b956dd-7139-49e3-a32a-d70bfb11e0b1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f25f8a538ff61bc7e04c234efd7404b1c866d64d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342033"
 ---
 # <a name="pidlidbusinesscarddisplaydefinition-canonical-property"></a>PidLidBusinessCardDisplayDefinition 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25399100"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用户自定义作为名片显示联系人的详细信息。
+包含用于将联系人显示为名片的用户自定义详细信息。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidBCDisplayDefinition  <br/> |
-|属性进行设置：  <br/> |PSETID_Address  <br/> |
-|长 ID （盖）：  <br/> |0x00008040  <br/> |
+|属性集:  <br/> |PSETID_Address  <br/> |
+|长 ID (盖子):  <br/> |0x00008040  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |联系人  <br/> |
+|区域：  <br/> |Contact  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-名片的布局可以表示为一个图像和文本字段的数量。 图像可以是联系人的照片或卡片图片。 文本字段包含中设置该联系人上的另一个属性和用户提供可选的自定义的标签字符串的值。 请注意，多字节值存储在-little-endian 缓冲区中的格式。
+名片的布局可以表示为图像和多个文本字段。 图像可以是联系人照片, 也可以是卡片图片。 文本字段由来自联系人的其他属性集和用户提供的可选自定义标签字符串中的值组成。 请注意, 多字节值以小端格式存储在缓冲区中。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定允许用于联系人和个人通讯组列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

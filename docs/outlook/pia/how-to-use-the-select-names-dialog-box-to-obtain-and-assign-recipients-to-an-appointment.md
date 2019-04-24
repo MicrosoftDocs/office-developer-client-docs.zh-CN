@@ -1,5 +1,5 @@
 ---
-title: 使用“选择姓名”对话框获取收件人并将其分配到约会
+title: 使用“选择姓名”对话框获取收件人并将收件人分配到约会
 TOCTitle: Use the Select Names dialog box to obtain and assign recipients to an appointment
 ms:assetid: b9bcb341-1912-425c-8d75-ed5be233145a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184636(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 408d2fbdc3c89b7f2bad1fe9c2c76c1f47ae05ff
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335376"
 ---
 # <a name="use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment"></a>使用“选择姓名”对话框获取收件人并将其分配到约会
 

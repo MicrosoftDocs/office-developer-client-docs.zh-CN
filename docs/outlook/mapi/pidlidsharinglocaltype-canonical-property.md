@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6ac438a1-d36f-424f-b4b4-d6f2d26fd350
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: aa1f76a3f410294de9c7ebfb3e64bbb1cd6cc25c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336825"
 ---
 # <a name="pidlidsharinglocaltype-canonical-property"></a>PidLidSharingLocalType 规范属性
 
@@ -25,45 +25,45 @@ ms.locfileid: "25394711"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定要共享的文件夹的**PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) 属性的值。 这是邮件的共享的属性。
+指定要共享的文件夹的**PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) 属性的值。 这是共享邮件的属性。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidSharingLocalType  <br/> |
-|属性进行设置：  <br/> |PSETID_Sharing  <br/> |
-|长 ID （盖）：  <br/> |0x00008A14  <br/> |
+|属性集:  <br/> |PSETID_Sharing  <br/> |
+|长 ID (盖子):  <br/> |0x00008A14  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性的值必须是下列选项之一：
+此属性的值必须是下列值之一:
   
-- "IPF。约会"
+- 限.日程
     
-- "IPF。联系人"
+- 限.信息
     
-- "IPF。任务"
+- 限.任务
     
-- "IPF。便笺"
+- 限.ipm.stickynote
     
-- "IPF。日记"
+- 限.日志
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[毫秒-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> 共享客户端之间的邮箱文件夹。
+> 在客户端之间共享邮箱文件夹。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

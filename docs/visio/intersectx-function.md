@@ -8,38 +8,38 @@ f1_keywords:
 - Vis_DSS.chm82251444
 localization_priority: Normal
 ms.assetid: d8dc1915-f055-e858-1323-9e8c1cb7f2f1
-description: 返回 x-两个线相交的点的坐标 （以本地坐标系表示）。
-ms.openlocfilehash: ea5a08f25f3e45dab3fe3fd83b74cf9a7541b6e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回两条直线相交点的 x 轴坐标值 (在局部坐标系中)。
+ms.openlocfilehash: 857f81d667e33ad9ce79405ef5d59874903098e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335306"
 ---
 # <a name="intersectx-function"></a>INTERSECTX 函数
 
-返回*x* -两个线相交的点的坐标 （以本地坐标系表示）。 
+返回两条直线相交点的*x*轴坐标值 (在局部坐标系中)。 
   
 ## <a name="syntax"></a>语法
 
-INTERSECTX (* * *x1* * *，* * *y1* * *，* **角度 1* * *，* * *x2* * *，* * *y2* * *，* **角度 2* * *) 
+INTERSECTX (* * *x1* * *、* * *y1* * *、* * *angle1* * *、* * *x2* * *、* * *y2* * *、* * *angle2* * *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _x1_ <br/> |必需  <br/> |**编号** <br/> |_X_-第一个线上某个点的坐标。  <br/> |
-| _y1_ <br/> |必需  <br/> |**编号** <br/> |_Y_-第一个线上某个点的坐标。  <br/> |
-| _角度 1_ <br/> |必需  <br/> |**编号** <br/> | 第一条直线的 Angle 单元格的值。  <br/> |
-| _x2_ <br/> |必需  <br/> |**编号** <br/> |_X_-第二个线上某个点的坐标。  <br/> |
-| _y2_ <br/> |必需  <br/> |**编号** <br/> |_Y_-第二个线上某个点的坐标。  <br/> |
-| _角度 2_ <br/> |必需  <br/> |**编号** <br/> |第二条直线的 Angle 单元格的值。  <br/> |
+| _x1_ <br/> |必需  <br/> |**Number** <br/> |第一条直线上的点的_x_坐标。  <br/> |
+| _y1_ <br/> |必需  <br/> |**Number** <br/> |第一条直线上的点的_y_坐标。  <br/> |
+| _angle1_ <br/> |必需  <br/> |**Number** <br/> | 第一条直线的 Angle 单元格的值。  <br/> |
+| _x2_ <br/> |必需  <br/> |**Number** <br/> |第二条直线上的点的_x_坐标。  <br/> |
+| _y2_ <br/> |必需  <br/> |**Number** <br/> |第二条直线上的点的_y_轴坐标值。  <br/> |
+| _angle2_ <br/> |必需  <br/> |**Number** <br/> |第二条直线的 Angle 单元格的值。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-Number
+帐号
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 每一条直线都可以定义为一个点 (*x,y*) 和一个角。 
   
@@ -49,8 +49,8 @@ Microsoft Visio 在粘附到旋转参考线的形状的 PinX 单元格中使用�
   
 ## <a name="example"></a>示例
 
-INTERSECTX (VertGuide ！PinX，VertGuide ！PinY，VertGuide ！角度，HorzGuide ！PinX，HorzGuide ！PinY，HorzGuide ！角度） 
+INTERSECTX (VertGuide!PinX、VertGuide!PinY、VertGuide!角、用 horzguide!PinX、用 horzguide!PinY、用 horzguide!Angle 
   
-返回*x*的以页面单位表示的交点 VertGuide 和 HorzGuide 的坐标。 
+返回 VertGuide 和用 horzguide 的交叉点的*x*坐标 (以页面单位表示)。 
   
 

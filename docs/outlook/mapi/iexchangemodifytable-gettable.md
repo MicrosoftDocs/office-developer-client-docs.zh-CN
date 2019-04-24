@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 97df32c4-07c6-41f1-84e7-c6e87d396e34
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d28ce67c6b45f3d0b04d645946ea3f4b3a263c48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87c60f424e08eea011bb643041196ca9445a3aa1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336615"
 ---
 # <a name="iexchangemodifytablegettable"></a>IExchangeModifyTable::GetTable
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个 MAPI table 对象的接口的指针。
+返回指向 MAPI 表对象的接口的指针。
   
 ```cpp
 HRESULT GetTable( 
@@ -39,31 +39,31 @@ HRESULT GetTable(
 
  _ulFlags_
   
-> [in]保留;必须为 0 （零）。
+> 实时保留必须为 0 (零)。
     
 ACLTABLE_FREEBUSY
   
-> 设置新的权限。
+> 设置新权限。
     
 frightsFreeBusyDetailed
   
-> 当 ACLTABLE_FREEBUSY 传递时，提供了详细的显示新的忙/闲信息的权限。
+> 当传递 ACLTABLE_FREEBUSY 时, 提供新的忙/闲权限的详细显示。
     
 frightsFreeBusySimple
   
-> 当 ACLTABLE_FREEBUSY 传递时，提供新忙/闲信息的权限的简单的显示。
+> 当传递 ACLTABLE_FREEBUSY 时, 将提供新的忙/闲权限的简单显示。
     
  _lppTable_
   
-> [输出]指向[IMAPITable: IUnknown](imapitableiunknown.md)接口包含 table 对象。 
+> 排除指向包含 table 对象的[IMAPITable: IUnknown](imapitableiunknown.md)接口。 
     
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI 使用**IExchangeModifyTable::GetTable**方法以获取 table 的规则。  <br/> |
+|RulesDlg  <br/> |CRulesDlg:: OnRefreshView  <br/> |MFCMAPI 使用**IExchangeModifyTable:: GetTable**方法获取规则表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

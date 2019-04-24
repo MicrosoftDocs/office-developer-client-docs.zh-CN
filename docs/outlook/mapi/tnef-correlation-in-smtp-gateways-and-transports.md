@@ -7,24 +7,24 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 593f57d7-2891-40d1-a661-478a62d490ff
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 8192646007e8935a750a70e46b8210eebbc353f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 0a685e081d319c43daa583d95d163677e81f2480
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339688"
 ---
 # <a name="tnef-correlation-in-smtp-gateways-and-transports"></a>SMTP 网关和传输中的 TNEF 相关性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-网关和连接到 internet 的传输基于那些使用 SMTP、 MessageID SMTP 标题和**PR_TNEF_CORRELATION_KEY**属性的值用于实现 TNEF 相关的系统。 
+连接到基于 internet 的系统 (使用 SMTP 的网关和传输) 的网关和传输使用 MessageID SMTP 头和**PR_TNEF_CORRELATION_KEY**属性的值来实现 TNEF 关联。 
   
-出站消息的 MessageID 标头的值应为复制到**PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) 属性，并且编码的 TNEF 流[attMAPIProps](attmapiprops.md)属性中。 请注意， **PR_TNEF_CORRELATION_KEY**二进制属性，而 MessageID 是字符串;null 终止符应包含在该副本和比较。 
+应将出站邮件的 MessageID 标头的值复制到**PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) 属性, 并在 TNEF 流的[attMAPIProps](attmapiprops.md)属性中进行编码。 请注意, **PR_TNEF_CORRELATION_KEY**是二进制属性, 而 MessageID 为字符串, 则为。null 终止符应包含在副本和比较中。 
   
-将基于 MAPI 的消息系统连接到 Internet，例如 Microsoft Exchange Server 的所有 Microsoft 软件都使用此技术。 此方法应使用的任何 SMTP 网关和连接到为了最大限度地互操作性支持 MAPI 客户端的系统的传输。
+此技术由将基于 MAPI 的邮件系统连接到 Internet 的所有 Microsoft 软件使用, 例如 microsoft Exchange Server。 此技术应由连接到支持 MAPI 客户端的系统的任何 SMTP 网关和传输使用, 以便最大限度地提高互操作性。
   
 

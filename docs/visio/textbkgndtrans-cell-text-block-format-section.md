@@ -9,22 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b2f9d317-cc42-bec5-66f9-f988bcbdcc24
 description: 确定形状的文本块背景色的透明度级别。
-ms.openlocfilehash: d9fee430cb2ccd19e8d6069e7561a8fef409a62e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f4c4dc7700c553bd4c9bee337220e357c4c5538a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781497"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332318"
 ---
-# <a name="textbkgndtrans-cell-text-block-format-section"></a>TextBkgndTrans 单元格（“Text Block Format”部分）
+# <a name="textbkgndtrans-cell-text-block-format-section"></a>TextBkgndTrans 单元格（“Text Block Format”内容）
 
 确定形状的文本块背景色的透明度级别。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
-|
-          0 - 100
-  <br/> |表示透明度的百分比。默认值为 0%（完全不透明）。  <br/> |
+|0 - 100  <br/> |表示透明度的百分比。默认值为 0%（完全不透明）。  <br/> |
    
 ## <a name="remarks"></a>注解
 

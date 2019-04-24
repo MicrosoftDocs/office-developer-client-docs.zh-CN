@@ -1,5 +1,5 @@
 ---
-title: 快速关闭概述
+title: 快速关机概述
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,49 +7,49 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a7830d73-427c-4f8b-86f4-51e040c142c3
-description: 上次修改时间： 2012 年 6 月 26 日
-ms.openlocfilehash: 8b8335fb2722e193f0eab1288b8ffdb2aa62df8b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2012 年 6 月 26 日
+ms.openlocfilehash: 8c33214b04e7c41eab173196c09f145c20ddf219
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341096"
 ---
-# <a name="fast-shutdown-overview"></a>快速关闭概述
+# <a name="fast-shutdown-overview"></a>快速关机概述
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-快速关闭是一种机制，MAPI 客户端启动的快速关闭通知与客户端有活动 MAPI 会话保存数据和设置在客户端进程退出之前的所有提供程序的客户端过程。 本主题介绍快速关闭的基本机制。 
+Fast shutdown 是 MAPI 客户端启动快速关闭客户端进程的一种机制, 它会通知所有提供程序, 让客户端在客户端进程退出之前保存数据和设置。 本主题介绍快速关闭的基本机制。 
 
-启动 Microsoft Outlook 2010 中，现在包括 Microsoft Outlook 2013 MAPI 子系统提供[IMAPIClientShutdown: IUnknown](imapiclientshutdowniunknown.md)接口。 Outlook 和其他 MAPI 客户端可以作为默认机制退出客户端进程采用快速关闭。 客户端计算机的 Windows 注册表中的用户级别设置控制采用快速关闭该计算机上的用户的所有 MAPI 客户端。 有关注册表设置的详细信息，请参阅[Fast 关闭用户选项](fast-shutdown-user-options.md)。
+从 microsoft outlook 2010 开始, 现在包括 microsoft outlook 2013, MAPI 子系统提供了[IMAPIClientShutdown: IUnknown](imapiclientshutdowniunknown.md)接口。 Outlook 和其他 MAPI 客户端可以采用快速关闭作为默认机制, 以退出客户端进程。 客户端计算机的 Windows 注册表中的用户级别设置控制该计算机上该用户的所有 MAPI 客户端的采用速度。 有关注册表设置的详细信息, 请参阅[Fast Shutdown User Options](fast-shutdown-user-options.md)。
   
-如果需要采用快速关闭 MAPI 客户端，它必须使用**IMAPIClientShutdown: IUnknown**接口。 下面是典型课程客户端尝试关闭时的事件： 
+如果 MAPI 客户端需要采用快速关闭, 则必须使用**IMAPIClientShutdown: IUnknown**接口。 以下是客户端尝试关闭时的典型事件过程: 
   
-1. MAPI 客户端启动关闭通过调用[IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方法以确定是否 MAPI 子系统支持快速关闭。 
+1. mapi 客户端通过调用[IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方法来确定 mapi 子系统是否支持快速关闭来启动关机。 
     
-2. MAPI 子系统响应可用的快速关闭支持客户端的**IMAPIClientShutdown::QueryFastShutdown**呼叫通过使用以下过程： 
+2. 通过以下过程, MAPI 子系统使用对客户端的**IMAPIClientShutdown:: QueryFastShutdown**调用的可用快速关闭支持进行响应: 
     
-    1. MAPI 子系统在如果提供程序已实现与 MAPI 客户端进程具有活动的 MAPI 会话，每个 MAPI 提供程序调用[IMAPIProviderShutdown::QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md)方法[IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md)接口。 
+    1. 如果提供程序已实现[IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md) , 则 mapi 子系统将为 mapi 客户端进程具有活动 mapi 会话的每个 mapi 提供程序调用[IMAPIProviderShutdown:: QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md)方法。交互. 
         
        > [!NOTE]
-       >  MAPI 子系统始终查询，并通知通过 MAPI 提供程序**IMAPIProviderShutdown: IUnknown**中按以下顺序每个 MAPI 会话接口：
+       >  mapi 子系统始终按以下顺序在每个 mapi 会话中通过**IMAPIProviderShutdown: IUnknown**接口查询和通知 mapi 提供程序:
        > 1. 传输提供程序
        > 2. 通讯簿提供程序
        > 3. 存储提供程序 
     
-    2. 根据客户端计算机上该用户的快速关闭注册表设置，MAPI 子系统指定相应到**IMAPIClientShutdown::QueryFastShutdown**的返回代码。 返回的代码是 S_OK 或 MAPI_E_NO_SUPPORT。
+    2. 根据客户端计算机上该用户的 fast shutdown 注册表设置, MAPI 子系统将为**IMAPIClientShutdown:: QueryFastShutdown**指定适当的返回代码。 返回代码为 S_OK 或 MAPI_E_NO_SUPPORT。
         
-    3. MAPI 客户端调用[IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md)方法，以指示到 MAPI 子系统关闭的目的。 
+    3. mapi 客户端调用[IMAPIClientShutdown:: NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md)方法向 MAPI 子系统指明关闭的意图。 
         
-    4. MAPI 子系统表示 MAPI 客户端将关闭每个加载 MAPI 提供程序。 已实现这些提供程序**IMAPIProviderShutdown: IUnknown**接口，MAPI 子系统调用相应的[IMAPIProviderShutdown::NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md)方法。 
+    4. mapi 子系统向每个已加载的 mapi 提供程序指明 mapi 客户端将关闭的。 对于已实现**IMAPIProviderShutdown: IUnknown**接口的那些提供程序, MAPI 子系统将调用相应的[IMAPIProviderShutdown:: NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md)方法。 
         
-    5. MAPI 客户端调用[IMAPIClientShutdown::DoFastShutdown](imapiclientshutdown-dofastshutdown.md)方法向 MAPI 子系统指示客户端进程正在立即退出。 
+    5. MAPI 客户端调用[IMAPIClientShutdown::D ofastshutdown](imapiclientshutdown-dofastshutdown.md)方法, 以向 MAPI 子系统指示客户端进程立即退出。 
         
-    6. MAPI 子系统指示每个加载的 MAPI 提供程序，退出 MAPI 客户端进程。 已实现这些提供程序**IMAPIProviderShutdown: IUnknown**接口，MAPI 子系统调用相应的[IMAPIProviderShutdown::DoFastShutdown](imapiprovidershutdown-dofastshutdown.md)方法。 此时，这些 MAPI 提供程序应验证所有必要的操作，如保存数据和设置，已完成在准备 MAPI 客户端立即断开连接的所有引用并退出。 
+    6. mapi 子系统向每个已加载的 mapi 提供程序指示 mapi 客户端进程正在退出。 对于已实现**IMAPIProviderShutdown: IUnknown**接口的那些提供程序, MAPI 子系统将调用相应的[IMAPIProviderShutdown::D ofastshutdown](imapiprovidershutdown-dofastshutdown.md)方法。 在这种情况下, 这些 MAPI 提供程序应验证所有必要的操作 (如保存数据和设置) 是否已完成, 以便 MAPI 客户端立即断开所有引用并退出。 
     
 ## <a name="see-also"></a>另请参阅
 
 - [MAPI 中的客户端关闭](client-shutdown-in-mapi.md)
 - [快速关闭用户选项](fast-shutdown-user-options.md)
-- [快速关闭的最佳实践](best-practices-for-fast-shutdown.md)
+- [快速关闭最佳做法](best-practices-for-fast-shutdown.md)
 

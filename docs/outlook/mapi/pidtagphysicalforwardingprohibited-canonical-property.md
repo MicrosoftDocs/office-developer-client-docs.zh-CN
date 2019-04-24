@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 2651759d-914b-4376-92b2-6d5d4ffb5530
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ae13eea7ee2579254eb4aa057647e20cfa61f389
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2650292b0c9df224371bc7f9b5baf82ba13dc0b5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338141"
 ---
 # <a name="pidtagphysicalforwardingprohibited-canonical-property"></a>PidTagPhysicalForwardingProhibited 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含 TRUE，则邮件发件人禁止特定收件人的物理邮件转发。
+如果邮件发件人禁止特定收件人的物理邮件转发, 则该参数为 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PHYSICAL_FORWARDING_PROHIBITED  <br/> |
-|标识符：  <br/> |0x0C0F  <br/> |
+|标识符:  <br/> |0x0C0F  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
@@ -38,13 +38,13 @@ ms.locfileid: "22566353"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

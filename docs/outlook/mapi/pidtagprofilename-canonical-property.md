@@ -12,47 +12,47 @@ api_type:
 - COM
 ms.assetid: 13ca726d-ae7a-4da9-9c8e-3db3c479f839
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 708e77e4df097f5a0de008e09808ffcbc0289f61
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 992b3a6a30e15d267ffeda11ec98c7b4aeacb2c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341648"
 ---
 # <a name="pidtagprofilename-canonical-property"></a>PidTagProfileName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含配置文件的名称。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_PROFILE_NAME，PR_PROFILE_NAME_A，PR_PROFILE_NAME_W  <br/> |
-|标识符：  <br/> |0x3D12  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_PROFILE_NAME、PR_PROFILE_NAME_A、PR_PROFILE_NAME_W  <br/> |
+|标识符:  <br/> |0x3D12  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
 ## <a name="remarks"></a>注解
 
-通过服务提供商，这些属性来计算。 **ServiceEntry**函数的提供程序实现可以使用这些属性来发现的配置文件名称。 
+这些属性由服务提供程序进行计算。 提供程序的**ServiceEntry**函数实现可以使用这些属性来发现配置文件名称。 
   
-客户端应用程序可以使用这些属性，作为一个便捷的替代方式，通过检查 MAPI 子系统的状态表格行中的**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性来获取的配置文件名称。
+客户端应用程序可以通过检查 MAPI 子系统的状态表行中的**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性, 将这些属性用作获取配置文件名称的简便方法。
   
-不随时间，例如其中一个配置文件删除和更高版本具有相同名称重新创建都是唯一这些属性。 MAPI 提供调用硬编码的配置文件一节中的完全唯一**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性**MUID_PROFILE_INSTANCE。**
+这些属性在一段时间内可能不是唯一的, 例如, 在删除配置文件后, 再用相同的名称重新创建配置文件。 MAPI 提供 MUID_PROFILE_INSTANCE 中的硬编码配置文件部分中的完全唯一的**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性 **。**
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

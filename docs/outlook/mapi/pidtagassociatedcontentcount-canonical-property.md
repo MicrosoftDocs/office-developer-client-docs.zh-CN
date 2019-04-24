@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 79bbdd84-a3a7-4472-9447-8b0ddbf163ef
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fa04f897687fb96431225b297399df977dbf944f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f301bb50cc0d28126040a80cccb5d4e5566aebac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573507"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339919"
 ---
 # <a name="pidtagassociatedcontentcount-canonical-property"></a>PidTagAssociatedContentCount 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含关联的内容表中的文件夹的项目数。
+包含文件夹的 "关联的内容" 表中的项目数。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ASSOC_CONTENT_COUNT  <br/> |
-|标识符：  <br/> |0x3617  <br/> |
+|标识符:  <br/> |0x3617  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性包含的文件夹的内容表中的条目数。 
+此属性包含文件夹的内容表中的条目数。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

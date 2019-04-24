@@ -7,24 +7,24 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6e2df265-b9dd-4e19-8ca5-3e31804e9120
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9de158e2f269c7b000734beb93b26df195255bcf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 7ff7f79b5e74412e9bbb4b4882c6a7d45e50fe6a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338491"
 ---
 # <a name="sending-messages-with-tnef"></a>使用 TNEF 发送邮件
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-许多传输提供程序自动发送所有传出邮件使用传输中性封装格式 (TNEF)。 TNEF 用于传输多个客户端和消息存储提供程序支持在其邮件、 各种类型和自定义属性自定义邮件类的附件中的格式化的文本。 尽管大多数传输提供程序的默认模式是发送传出邮件 TNEF，某些传输提供程序不支持它。 缺少的 TNEF 支持不是标准消息的客户端的发送和接收 IPM 消息的问题。 但是，对于基于窗体的客户端或需要自定义属性的客户端，使用 TNEF 非常重要。 设计器的依赖于窗体或自定义属性的客户端必须知道他们使用的传输提供程序的功能。
+许多传输提供程序会自动以传输中性封装格式 (TNEF) 发送所有传出邮件。 TNEF 用于传输多个客户端和邮件存储区提供程序在其邮件中支持的格式化文本、各种类型的附件以及自定义邮件类的自定义属性。 尽管大多数传输提供程序的默认模式是使用 TNEF 发送传出邮件, 但某些传输提供程序不支持它。 对于发送和接收 IPM 邮件的标准邮件客户端而言, 缺少 TNEF 支持不是问题。 但是, 对于需要自定义属性的基于表单的客户端或客户端, 使用 TNEF 是非常重要的。 依赖表单或自定义属性的客户端的设计者必须知道它们所使用的传输提供程序的功能。
   
-邮件的收件人，可以控制传输提供程序将使用 TNEF 的消息传输通过**PR_SEND_RICH_INFO**属性设置。 有关详细信息，请参阅**PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md))。 当收件人的**PR_SEND_RICH_INFO**属性设置为 TRUE 时，支持 TNEF 传输提供程序将其传送消息。 当该属性设置为 FALSE 时，格式将被丢弃。 **PR_SEND_RICH_INFO**不存在，它由传输提供程序选择操作的默认参加其他课程。 
+邮件收件人可以通过设置**PR_SEND_RICH_INFO**属性来控制传输提供程序是否通过 TNEF 传输邮件。 有关详细信息, 请参阅**PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md))。 当收件人的**PR_SEND_RICH_INFO**属性设置为 TRUE 时, 支持 TNEF 的传输提供程序会将邮件传输到邮件中。 当该属性设置为 FALSE 时, 格式将被丢弃。 如果**PR_SEND_RICH_INFO**不存在, 则由传输提供程序来选择默认的操作过程。 
   
-在客户端和服务提供商创建一个自定义收件人，就可以通过将 MAPI_SEND_NO_RICH_INFO 标志_ulFlags_参数中传递给**IAddrBook::CreateOneOff**或**影响其**PR_SEND_RICH_INFO**属性的值IMAPISupport::CreateOneOff**呼叫。 有关详细信息，请参阅[IAddrBook::CreateOneOff](iaddrbook-createoneoff.md)和[IMAPISupport::CreateOneOff](imapisupport-createoneoff.md)。 将传递 MAPI_SEND_NO_RICH_INFO 会导致 MAPI 将自定义收信人**PR_SEND_RICH_INFO**属性设置为 FALSE;在大多数情况下不传递标志会导致 MAPI 属性设置为 TRUE。 一个例外，如果自定义收信人地址被解释为 Internet 地址。 在此一个的情况下，MAPI 将**PR_SEND_RICH_INFO**设置为 FALSE。 
+当客户端和服务提供商创建自定义收件人时, 它们可能会影响其**PR_SEND_RICH_INFO**属性的值, 方法是将_ulFlags_参数中的 MAPI_SEND_NO_RICH_INFO 标志传递给**IAddrBook:: CreateOneOff**或**IMAPISupport:: CreateOneOff**调用。 有关详细信息, 请参阅[IAddrBook:: CreateOneOff](iaddrbook-createoneoff.md)和[IMAPISupport:: CreateOneOff](imapisupport-createoneoff.md)。 传递 MAPI_SEND_NO_RICH_INFO 会导致 MAPI 将自定义收件人的**PR_SEND_RICH_INFO**属性设置为 FALSE;在大多数情况下, 不传递该标志将导致 MAPI 将该属性设置为 TRUE。 一个例外是将自定义收件人的地址解释为 Internet 地址。 在这种情况下, MAPI 会将**PR_SEND_RICH_INFO**设置为 FALSE。 
   
 

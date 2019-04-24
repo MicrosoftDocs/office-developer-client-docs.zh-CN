@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 746d63fa-bfb7-479f-94dc-ba40011c1ec9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7bcaf230eed9cf21388b68f06ab678dc143f64ee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c33633c4decd697cf241f8b7c27360f776a1ade
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571820"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332758"
 ---
 # <a name="proptype"></a>PROP_TYPE
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 返回指定的属性标记的属性类型。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |[SPropValue](spropvalue.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 PROP_TYPE (ulPropTag)
@@ -44,9 +44,9 @@ PROP_TYPE (ulPropTag)
     
 ## <a name="remarks"></a>注解
 
-**PROP_TYPE**宏可以用于确定属性的类型。 例如，调用 PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) 结果中 PT_BINARY 要返回的值。
+**PROP_TYPE**宏可用于确定属性的类型。 例如, 调用 PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) 会导致返回 PT_BINARY 值。
   
-每个属性标记包含低序位 word （0 到 15 位） 中的属性类型和高顺序单词 （通过 31 16 位） 中的属性标识符。 **PROP_TYPE**宏提取的属性类型，并将其放入位 0 到 15 的整数要返回。 返回值的剩余的位设置为零。 
+每个属性标记都包含低序位字 (0 到 15) 中的属性类型和高序位字 (位16到 31) 中的属性标识符。 **PROP_TYPE**宏提取属性类型, 并将其放在要返回的整数的0到15位。 返回值的剩余位设置为零。 
   
 ## <a name="see-also"></a>另请参阅
 

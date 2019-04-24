@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 06b7792c-1b43-4e20-9a3b-44f2664b2125
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 59379b0b1345684a491f2f7f896f2b8fc8fd54c2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335152"
 ---
 # <a name="pidlidreminderset-canonical-property"></a>PidLidReminderSet 规范属性
 
@@ -30,32 +30,32 @@ ms.locfileid: "25392387"
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidReminderSet  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x00008503  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x00008503  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |Reminder  <br/> |
+|区域：  <br/> |提醒  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果定期 calendar 对象具有此属性设置为 TRUE，客户端可以替代此值的例外。
+如果定期日历对象的此属性设置为 TRUE, 则客户端可以为异常替代此值。
   
-如果此属性为 false，则在定期 calendar 对象，禁用整个数据系列，包括例外提醒。 对于定期任务对象，该属性不能重写由异常 （有关详细信息，请参阅[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)和[[MS OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) ）。 
+如果定期日历对象的此属性为 FALSE, 则对整个系列禁用提醒, 包括例外。 对于定期任务对象, 异常不能覆盖此属性 (有关详细信息, 请参阅[[OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)和[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) )。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[毫秒-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> 指定属性和电子邮件和其他对象提醒的交互模型。
+> 指定用于电子邮件和其他对象提醒的属性和交互模型。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

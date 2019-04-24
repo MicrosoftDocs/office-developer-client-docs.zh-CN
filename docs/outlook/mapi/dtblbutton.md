@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 6058c78b-05d4-45a3-988c-1fbf8322125e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e0797364eb4ec24793f64bad2f4d838507c236e4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8fa683fecd59ec813fee0c15d5b4f08084c645d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571064"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338309"
 ---
 # <a name="dtblbutton"></a>DTBLBUTTON
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含显示表中生成的对话框的按钮控件的信息。
+包含根据显示表生成的对话框的按钮控件的相关信息。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的宏：  <br/> |[SizedDtblButton](sizeddtblbutton.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关宏:  <br/> |[SizedDtblButton](sizeddtblbutton.md) <br/> |
    
 ```cpp
 typedef struct _DTBLBUTTON
@@ -46,29 +46,29 @@ typedef struct _DTBLBUTTON
 
  **ulbLpszLabel**
   
-> 在按钮上显示的字符字符串的内存中的位置。
+> 按钮上显示的字符字符串在内存中的位置。
     
  **ulFlags**
   
-> 用于指定所指的**ulbLpszLabel**成员标签的格式的标志位掩码。 可以设置以下标记： 
+> 标志的位掩码, 用于指定**ulbLpszLabel**成员指向的标签的格式。 可以设置以下标志: 
     
 MAPI_UNICODE 
   
-> 标签为 Unicode 格式。 如果未设置 MAPI_UNICODE 标志，标签为 ANSI 格式。
+> 标签采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则标签将采用 ANSI 格式。
     
  **ulPRControl**
   
-> 属性标记 PT_OBJECT 实现[IMAPIControl](imapicontroliunknown.md)接口的类型的属性。 当单击按钮时，MAPI 调用显示表[IMAPIProp](imapipropiunknown.md)实现，以检索此属性的[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法。 
+> 实现[IMAPIControl](imapicontroliunknown.md)接口的类型为 PT_OBJECT 的属性的属性标记。 单击该按钮时, MAPI 将为显示表的[IMAPIProp](imapipropiunknown.md)实现调用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法来检索此属性。 
     
 ## <a name="remarks"></a>注解
 
-**DTBLBUTTON**结构描述一个按钮控件，单击时，允许用户开始操作。 通常情况下，单击按钮会将显示一个模式对话框或要调用的编程任务。 服务提供商可以实现通过一个按钮控件的任何内容。 如果按钮应该执行任务基于其他控件的值，这些控件必须设置 DT_SET_IMMEDIATE 标志。 
+**DTBLBUTTON**结构描述一个按钮, 单击该控件时, 用户可以开始操作。 通常情况下, 单击按钮会导致显示模式对话框或调用编程任务。 服务提供程序可以通过按钮控件实现任何内容。 如果按钮应基于其他控件的值执行任务, 则这些控件必须已设置 DT_SET_IMMEDIATE 标志。 
   
-**UlbLpszLabel**成员是在按钮上显示的字符字符串的内存中的位置。 服务提供商可以添加 & 字符 (&amp;) 以指示在按钮标签 Windows 加速键。 按加速键与单击的按钮的效果相同。 
+**ulbLpszLabel**成员是显示在按钮上的字符字符串在内存中的位置。 服务提供程序可以添加一个与号&amp;字符 (), 以指示按钮标签中的 Windows 加速器。 按加速键与单击按钮具有相同的效果。 
   
-**UlPRControl**成员介绍对象属性，当用**IMAPIProp::OpenProperty**方法打开，返回指向 control 对象的指针。 实现支持**IMAPIControl**接口的控件对象是一种方法扩展 MAPI 功能集，并定义操作或任务的单击按钮时，发生此事件。 **IMAPIControl**提供操作按钮的两种方法： [GetState](imapicontrol-getstate.md)禁用或启用按钮和[激活](imapicontrol-activate.md)处理按钮单击。 
+**ulPRControl**成员描述了一个对象属性, 该属性在使用**IMAPIProp:: OpenProperty**方法打开时, 返回一个指向 control 对象的指针。 实现支持**IMAPIControl**接口的 control 对象是一种扩展 MAPI 功能集和定义单击按钮时发生的操作或任务的方法。 **IMAPIControl**提供了两种操作按钮的方法: [GetState](imapicontrol-getstate.md)可禁用或启用按钮并[激活](imapicontrol-activate.md)以处理按钮单击。 
   
-显示表的概述，请参阅[显示表](display-tables.md)。 有关如何实施显示表的信息，请参阅[实现显示表](display-table-implementation.md)。
+有关显示表的概述, 请参阅[显示表](display-tables.md)。 有关如何实现显示表的信息, 请参阅[实现显示表](display-table-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

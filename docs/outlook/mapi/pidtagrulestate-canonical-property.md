@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f62f3055-b855-4203-aa5c-6ba28b58c6f7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a0e15462cd3dc14c93155e34e47b7caac2c04087
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338610"
 ---
 # <a name="pidtagrulestate-canonical-property"></a>PidTagRuleState 规范属性
 
@@ -25,84 +25,84 @@ ms.locfileid: "25395425"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-解释指定规则的状态标志的位掩码组合为一个值。
+一个值, 它被解释为指定规则状态的标志的位掩码组合。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RULE_STATE  <br/> |
-|标识符：  <br/> |0x6677  <br/> |
+|标识符:  <br/> |0x6677  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 下表定义了此属性的可能值。
   
-EN （ST_ENABLED、 位掩码 0x00000001）
+EN (ST_ENABLED, 位掩码 0x00000001)
   
-> 执行启用规则。 如果未设置此标志，服务器在计算规则时必须跳过此规则。
+> 启用该规则以执行。 如果未设置此标志, 则在评估规则时, 服务器必须跳过此规则。
     
-紧急 （ST_ERROR、 位掩码 0x00000002:uc）
+ER (ST_ERROR, 位掩码 0x00000002)
   
-> 服务器遇到错误处理规则。
+> 服务器在处理规则时遇到错误。
     
-(ST_ONLY_WHEN_OOF，位掩码 0x00000004)
+of (ST_ONLY_WHEN_OOF, 位掩码 0x00000004)
   
-> 仅当用户邮箱上设置外出 (OOF) 状态时，才执行规则。 未必须在公用文件夹规则中设置此标志。
+> 仅当用户在邮箱上设置了外出 (OOF) 状态时, 才会执行该规则。 此标志不得在公用文件夹规则中设置。
     
-你好 （ST_KEEP_OOF_HIST、 位掩码 0x00000008）
+HI (ST_KEEP_OOF_HIST, 位掩码 0x00000008)
   
-> 未必须在公用文件夹规则中设置此标志。
+> 此标志不得在公用文件夹规则中设置。
     
-EL （ST_EXIT_LEVEL、 位掩码 0x00000010）
+EL (ST_EXIT_LEVEL, 位掩码 0x00000010)
   
-> 规则评估将结束后执行此规则的外出规则评估除外。
+> 规则评估将在执行此规则后结束, 但不会对外出规则进行评估。
     
-SCL （ST_SKIP_IF_SCL_IS_SAFE、 位掩码 0x00000020）
+SCL (ST_SKIP_IF_SCL_IS_SAFE, 位掩码 0x00000020)
   
-> 可能会跳过此规则的评估。
+> 可以跳过此规则的评估。
     
-PE （ST_RULE_PARSE_ERROR、 位掩码 0x00000040）
+PE (ST_RULE_PARSE_ERROR, 位掩码 0x00000040)
   
-> 服务器遇到错误分析所提供由客户端规则数据。
+> 服务器在分析客户端提供的规则数据时遇到错误。
     
 X
   
-> 未使用此协议。 由客户端不能修改此位。
+> 此协议未使用。 客户端不得修改此位。
     
-请注意上 ST_ONLY_WHEN_OOF 和 ST_EXIT_LEVEL 之间的交互标志： 
+有关 ST_ONLY_WHEN_OOF 和 ST_EXIT_LEVEL 标志之间的交互的说明: 
   
-当邮箱，设置"外出"状态和一个规则条件的计算结果为 TRUE， 
+当邮箱上设置了 "外出" 状态, 并且规则条件的计算结果为 TRUE 时, 
   
-和：
+并
   
-- 规则已设置了 ST_EXIT_LEVEL 标记，并且没有设置 ST_ONLY_WHEN_OOF 标志。 然后，服务器必须不会评估后续规则不具有 ST_ONLY_WHEN_OOF 标记集和必须评估设置 ST_ONLY_WHEN_OOF 标志的后续规则。
+- 规则设置了 ST_EXIT_LEVEL 标志, 并且没有设置 ST_ONLY_WHEN_OOF 标志。 然后, 服务器不得评估未设置 ST_ONLY_WHEN_OOF 标志的后续规则, 并且必须评估具有 ST_ONLY_WHEN_OOF 标志集的后续规则。
     
-OR:
+和
   
-- 规则均具有的 ST_EXIT_LEVEL 和 ST_ONLY_WHEN_OOF 设置的标志。 然后，服务器必须不会评估任何后续规则。
+- 该规则同时设置了 ST_EXIT_LEVEL 和 ST_ONLY_WHEN_OOF 标志。 然后, 服务器不能评估任何后续规则。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[毫秒-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> 处理传入的电子邮件服务器上。
+> 在服务器上操纵传入电子邮件。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

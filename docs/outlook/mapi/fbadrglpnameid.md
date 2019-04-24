@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: fec5d5ac-bca6-4fff-b264-45cdb6b37f55
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 96dddc438df67b76f854827eab4dc3e210523243
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4eef7c0b1078cb9e7ced21e2403f0b3948362d6c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341032"
 ---
 # <a name="fbadrglpnameid"></a>FBadRglpNameID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-验证数组介绍命名属性的结构，并验证其分配。 
+验证描述命名属性并验证其分配的结构的数组。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapival.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |服务提供商  <br/> |
+|标头文件：  <br/> |Mapival.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |服务提供程序  <br/> |
    
 ```cpp
 BOOL FBadRglpNameID(
@@ -44,11 +44,11 @@ BOOL FBadRglpNameID(
 
  _lppNameId_
   
-> [in]指向[MAPINAMEID](mapinameid.md)结构描述命名的属性的数组。 
+> 实时指向描述命名属性的[MAPINAMEID](mapinameid.md)结构的数组的指针。 
     
- _Cname_
+ _cname_
   
-> [in]由_lppNameId_参数指向的数组中的命名的属性结构的计数。 
+> 实时由_lppNameId_参数指向的数组中的命名属性结构的计数。 
     
 ## <a name="return-value"></a>返回值
 
@@ -58,10 +58,10 @@ TRUE
     
 FALSE 
   
-> 指定的属性名称结构均有效。
+> 指定的属性名称结构都是有效的。
     
 ## <a name="remarks"></a>注解
 
-调用[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)或[IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md)设置时，可以使用**FBadRglpNameID**函数。 
+在设置对[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)或[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)的调用时, 可以使用**FBadRglpNameID**函数。 
   
 

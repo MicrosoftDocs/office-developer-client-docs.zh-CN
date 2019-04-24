@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 4af8e79a-697e-44a1-8576-fdc57726e9ef
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d58a216a41ff8fe93387ce6d9d1d6aa16f36f224
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 00355546717ca61492750cb1dd113d20114b0695
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583251"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334809"
 ---
 # <a name="filetime"></a>FILETIME
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含无符号的 64 位日期和文件的时间值。 此值表示自 1601 年 1 月 1 日启动以来的 100 纳秒的单位数。 
+保留文件的无符号64位日期和时间值。 此值表示自1601年1月1日开始起的100毫微秒单位的数量。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _FILETIME
@@ -44,17 +44,17 @@ typedef struct _FILETIME
 
  **dwLowDateTime**
   
-> 低序位 32 位的文件时间值。 
+> 文件时间值的低序位32位。 
     
  **dwHighDateTime**
   
-> 高阶 32 位的文件时间值。
+> 文件时间值的高序位32位。
     
 ## <a name="remarks"></a>注解
 
-PT_SYSTIME 类型的属性具有其值**FILETIME**结构。 这种属性**值**在其定义[SPropValue](spropvalue.md)结构中成员的具有**FILETIME**数据类型。 
+PT_SYSTIME 类型的属性具有其值的**FILETIME**结构。 此类属性的**值**成员在[SPropValue](spropvalue.md)结构中的定义中有一个**FILETIME**数据类型。 
   
-在_Win32 程序员参考_和 MAPI 头文件 Mapidefs.h **FILETIME**结构的定义。 MAPI 定义有条件地以确保它被定义 Win32 定义不可用时的结构。 
+**FILETIME**结构的定义位于_Win32 程序员参考_和 MAPI 头文件 mapidefs.h 中。 MAPI 定义有条件的结构, 以确保在 Win32 定义不可用时定义它。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b92c733c5030ce12eb691bba57afb5ce6b9d1dad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335397"
 ---
 # <a name="subscribe-to-an-rss-feed"></a>订阅 RSS 源
 
@@ -31,7 +31,7 @@ Outlook 对象模型支持提供对共享数据（如 Internet 日历、RSS 源�
 > [!NOTE]
 > 必须为 **OpenSharedFolder** 方法中的文件夹 URL 指定正确的协议处理程序，才能订阅 RSS 源。 例如，必须使用以 `feed://`（而不是 `https://`）开头的 URL。 除非 Windows NT LAN Manager (NTLM) 身份验证可用，否则 Outlook 无法打开需要身份验证的 RSS 源，它也无法从安全套接字层 (SSL) 位置加载 RSS 源。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

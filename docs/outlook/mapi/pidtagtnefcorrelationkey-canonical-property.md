@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a7f05c8c-59b4-4d5b-8e70-ebcde5f2ed45
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e38cf93523c14d2d58c48e24a79249674298b4b2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341949"
 ---
 # <a name="pidtagtnefcorrelationkey-canonical-property"></a>PidTagTnefCorrelationKey 规范属性
 
@@ -25,52 +25,52 @@ ms.locfileid: "25393843"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个值，对应一条消息的传输中性封装格式 (TNEF) 附件。
+包含一个值, 该值将传输中性封装格式 (TNEF) 附件与邮件关联起来。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_TNEF_CORRELATION_KEY  <br/> |
-|标识符：  <br/> |0x007f 来  <br/> |
+|标识符:  <br/> |0x007F  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-建议 TNEF 附件子对象公开此属性。 此属性确定的入站的 TNEF 文件属于附加到邮件。 主要由传输提供程序和网关使用它。
+建议 TNEF 附件子对象公开此属性。 此属性确定入站 TNEF 文件是否属于它所附加到的邮件。 它主要由传输提供程序和网关使用。
   
-对出站邮件传输提供程序应计算对该邮件，唯一的二进制值或使用现有值满足唯一性要求，如消息标识符。 传输提供程序应将此值存储在此属性，然后调用它封装的[ITnef::AddProps](itnef-addprops.md)方法。 相同的值还应存储在提供程序，如邮件头定义的位置中的传输信封。 
+在出站邮件中, 传输提供程序应计算该邮件的唯一的二进制值, 或使用满足唯一性要求的现有值, 例如邮件标识符。 传输提供程序应将此值存储在此属性中, 然后调用[ITnef:: AddProps](itnef-addprops.md)方法将其封装。 相同的值还应存储在传输信封中, 在提供商定义的位置 (如邮件头) 中。 
   
-对入站邮件传输提供程序应呼叫确实 TNEF 附件[ITnef::ExtractProps](itnef-extractprops.md)方法，然后将此属性存储在传输信封中的值进行比较。 如果值匹配，通常应处理 TNEF，即，应使用 TNEF 附件从提取的所有属性。 如果值不匹配，应忽略 TNEF 附件中的所有属性。 如果未设置此属性，应考虑 TNEF 文件属于此消息，并应从其提取的其他属性。 
+在入站邮件中, 传输提供程序应调用[ITnef:: ExtractProps](itnef-extractprops.md)方法以 decapsulate TNEF 附件, 然后将此属性与存储在传输信封中的值进行比较。 如果值匹配, TNEF 应正常处理, 也就是说, 应使用从 TNEF 附件提取的所有属性。 如果值不匹配, 应忽略 TNEF 附件中的所有属性。 如果未设置此属性, 则 TNEF 文件应被视为属于此邮件, 并且应使用从该邮件中提取的其他属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理顺序和客户端和服务器之间的数据传输的流。
+> 处理客户端与服务器之间的数据传输的顺序和流。
     
-[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> 从 Internet 标准电子邮件约定转换为消息对象。
+> 从 Internet 标准电子邮件约定转换为邮件对象。
     
-[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[毫秒-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> 进行编码和解码为有效的流表示形式的消息和附件对象。
+> 将邮件和附件对象编码并解码为高效流表示形式。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

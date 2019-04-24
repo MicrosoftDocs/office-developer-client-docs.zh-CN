@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 82242de7-e6f6-4882-bd2e-d62c8d6701b7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0cc4b38bd7a188722b9c762126f863c2a87f4771
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334970"
 ---
 # <a name="pidnamemultimediaclipcount-canonical-property"></a>PidNameMultimediaClipCount 规范属性
 
@@ -25,31 +25,31 @@ ms.locfileid: "25394998"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定文件的附加到文档中的多媒体剪辑数。
+指定附加到文档的文件中的多媒体剪辑数。
   
 |||
 |:-----|:-----|
-|友好名称：  <br/> |无  <br/> |
-|属性进行设置：  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|属性名称：  <br/> |MMClipCount  <br/> |
+|友好名称:  <br/> |无  <br/> |
+|属性集:  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|属性名称:  <br/> |MMClipCount  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |Common  <br/> |
+|区域：  <br/> |常见  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[毫秒-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> 指定的属性和允许对文档的操作。
+> 指定在文档中允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

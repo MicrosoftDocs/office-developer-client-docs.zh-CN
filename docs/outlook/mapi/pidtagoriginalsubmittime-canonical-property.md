@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2e027c0c-2370-437a-ad98-2bbb5e41e525
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 07aea33f54a29d497646b62f1f8bd96a383cbd7b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341046"
 ---
 # <a name="pidtagoriginalsubmittime-canonical-property"></a>PidTagOriginalSubmitTime 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25385730"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含的原始的提交日期和时间报告中的邮件。
+包含报告中邮件的原始提交日期和时间。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ORIGINAL_SUBMIT_TIME  <br/> |
-|标识符：  <br/> |0x004E  <br/> |
+|标识符:  <br/> |0x004E  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-在首次提交一条消息，客户端应用程序应将此属性设置为**期限**([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) 属性的值。 转发邮件时不会更改。 这仅用于报表中使用。
+首次提交邮件时, 客户端应用程序应将此属性设置为**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) 属性的值。 转发邮件时, 不会对其进行更改。 仅在报告中使用。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和电子邮件消息对象在允许的操作。
+> 指定在电子邮件对象上允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

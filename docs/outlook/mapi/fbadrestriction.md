@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: 6ad3638c-d088-4a89-9b0d-f5b672162203
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3d729e2a12ee19ee3aa4ded71263697eb739f154
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: eb3e0d5a96121f63166da2025743b7ef89f4ecf6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340962"
 ---
 # <a name="fbadrestriction"></a>FBadRestriction
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 验证用于限制表视图的限制。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapival.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |服务提供商  <br/> |
+|标头文件：  <br/> |Mapival.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |服务提供程序  <br/> |
    
 ```cpp
 ULONG FBadRestriction(
@@ -43,20 +43,20 @@ ULONG FBadRestriction(
 
  _lpres_
   
-> [in]定义要验证的限制[SRestriction](srestriction.md)结构。 
+> 实时定义要验证的限制的[SRestriction](srestriction.md)结构。 
     
 ## <a name="return-value"></a>返回值
 
 TRUE 
   
-> 指定的限制，或一个或多个其 subrestrictions，无效。 
+> 指定的限制, 或其 subrestrictions 的一个或多个无效。 
     
 FALSE 
   
-> 指定的限制和所有 subrestrictions 有效。
+> 指定的限制及其所有 subrestrictions 都是有效的。
     
 ## <a name="remarks"></a>注解
 
-一旦限制进行验证后，可以传递给[IMAPITable::Restrict](imapitable-restrict.md)方法的呼叫来为特定行、 [IMAPITable::FindRow](imapitable-findrow.md)方法查找表行和[IMAPIContainer](imapicontainerimapiprop.md)的方法限制表中对 container 对象执行限制的接口。 
+在验证限制后, 可以将其传递给[imapitable:: Restrict](imapitable-restrict.md)方法, 以将表限制到某些行、用于查找表行的[imapitable:: FindRow](imapitable-findrow.md)方法, 以及[IMAPIContainer](imapicontainerimapiprop.md)的方法。用于对容器对象执行限制的接口。 
   
 

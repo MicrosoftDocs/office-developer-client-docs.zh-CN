@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 32676003-ba32-886f-1185-4760cb0e30e3
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2aeca1a65a859ac9502995a463bc4869609bcd15
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383812"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334959"
 ---
 # <a name="fixmapi"></a>FixMAPI
 
@@ -21,13 +21,13 @@ ms.locfileid: "25383812"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-客户端上创建 mapi32.dll 当前副本的备份副本，计算机，并还原 mapi32.dll 与 MAPI 存根库，mapistub.dll。
+在客户端计算机上创建 mapi32 的当前副本的备份副本, 并使用 MAPI 存根库 (mapistub) 还原 mapi32。
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|导出：  <br/> |mapistub.dll  <br/> |
+|导出者:  <br/> |mapistub  <br/> |
 |调用者：  <br/> |客户端  <br/> |
 |实现者：  <br/> |Windows  <br/> |
    
@@ -37,23 +37,23 @@ DWORD STDAPICALLTYPE FixMAPI(void);
 
 ## <a name="return-values"></a>返回值
 
-如果函数成功，返回值为非零值。
+如果函数成功, 则返回值为非零值。
   
-如果函数失败，则返回的值为零。 若要获取扩展的错误的信息，请调用的 Microsoft Windows 软件开发工具包 (SDK) 函数，**[时出错](https://msdn.microsoft.com/library/ms679360.aspx)**。 
+如果函数失败, 则返回的值为零。 若要获取扩展的错误消息, 请调用 Microsoft Windows 软件开发工具包 (SDK) 函数 ( **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**)。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
- 如果该文件标记为只读， **FixMAPI**不替换当前 mapi32.dll 文件。 
+ 如果文件被标记为只读, 则**FixMAPI**不会替换当前的 mapi32 文件。 
   
- 如果在计算机上安装了 Microsoft Exchange Server **FixMAPI**不替换当前 mapi32.dll。 
+ 如果计算机上安装了 Microsoft Exchange Server, **FixMAPI**不会替换当前的 mapi32。 
   
-当**FixMAPI** mapi32.dll 当前副本的备份副本的计算机上，它会将备份副本分配"mapi32.dll"不同的名称。 然后，它将定向专为备份复制到该程序集的后续呼叫。 
+当**FixMAPI**在计算机上制作 mapi32 的当前副本的备份副本时, 它会为备份副本分配一个不同于 "mapi32" 的名称。 然后, 它将为该程序集预定的后续调用定向到备份副本。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[KB 256946： 您可以收到程序冲突错误消息，启动 Outlook 2000 时](https://support.microsoft.com/kb/256946)
+[KB 256946: 启动 Outlook 2000 时收到程序冲突错误消息](https://support.microsoft.com/kb/256946)
   
-[KB 228457: Fixmapi.exe 工具的说明包含带有 Internet Explorer 5](https://support.microsoft.com/kb/228457)
+[KB 228457: Internet Explorer 5 附带的 Fixmapi 工具的说明](https://support.microsoft.com/kb/228457)
 

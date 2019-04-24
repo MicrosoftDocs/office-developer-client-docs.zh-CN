@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 9bf68814-2564-433d-b762-3d2c83ca3c60
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8d6eb011e65ad44f4183eb5821697dcf2508032c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e318d7a709a09e67ebf423db0263985523d2fc28
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32333031"
 ---
 # <a name="createiprop"></a>CreateIProp
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建属性的数据对象，即[IPropData](ipropdataimapiprop.md)对象。 
+创建一个属性数据对象, 即一个[IPropData](ipropdataimapiprop.md)对象。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 SCODE CreateIProp(
@@ -48,33 +48,33 @@ SCODE CreateIProp(
 
  _lpInterface_
   
-> [in]指向属性数据对象的界面标识符 (IID) 的指针。 有效的接口标识符是 IID_IMAPIPropData。 _LpInterface_参数中传递 NULL 还会导致_lppPropData_参数可强制转换到标准界面属性的数据对象中返回的属性数据对象。 
+> 实时指向属性数据对象的接口标识符 (IID) 的指针。 有效的接口标识符为 IID_IMAPIPropData。 在_lpInterface_参数中传递 NULL 还会导致在_lppPropData_参数中返回的属性数据对象将转换为属性数据对象的标准接口。 
     
  _lpAllocateBuffer_
   
-> [in]指向[MAPIAllocateBuffer](mapiallocatebuffer.md)函数，以用于分配内存。 
+> 实时指向用于分配内存的[MAPIAllocateBuffer](mapiallocatebuffer.md)函数的指针。 
     
  _lpAllocateMore_
   
-> [in]指向[MAPIAllocateMore](mapiallocatemore.md)函数，以用于分配更多内存。 
+> 实时指向[MAPIAllocateMore](mapiallocatemore.md)函数的指针, 该函数用于分配更多内存。 
     
  _lpFreeBuffer_
   
-> [in]指向[MAPIFreeBuffer](mapifreebuffer.md)函数，以用于释放内存。 
+> 实时指向用于释放内存的[MAPIFreeBuffer](mapifreebuffer.md)函数的指针。 
     
  _lpvReserved_
   
-> [in]保留;必须为零。 
+> 实时保留必须为零。 
     
  _lppPropData_
   
-> [输出]指向对返回的属性数据对象的指针的指针。
+> 排除指向返回的属性数据对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。 
+> 调用成功, 并返回了所需的值或值。 
     
 MAPI_E_INTERFACE_NOT_SUPPORTED 
   
@@ -82,6 +82,6 @@ MAPI_E_INTERFACE_NOT_SUPPORTED
     
 ## <a name="remarks"></a>注解
 
-_LpAllocateBuffer_、 _lpAllocateMore_和_lpFreeBuffer_输入的参数分别指向[MAPIAllocateBuffer](mapiallocatebuffer.md)、 [MAPIAllocateMore](mapiallocatemore.md)，和[MAPIFreeBuffer](mapifreebuffer.md)函数。 调用**CreateIProp**客户端应用程序中指针传递给 MAPI 函数只名为;服务提供商将指针传递给它在其初始化呼叫中收到或与调用[IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md)方法检索这些函数。 
+" _lpAllocateBuffer_"、" _lpAllocateMore_" 和 " _lpFreeBuffer_ " 输入参数分别指向 " [MAPIAllocateBuffer](mapiallocatebuffer.md)"、" [MAPIAllocateMore](mapiallocatemore.md)" 和 " [MAPIFreeBuffer](mapifreebuffer.md) " 函数。 调用**CreateIProp**的客户端应用程序传递到刚刚命名的 MAPI 函数的指针。服务提供程序将指针传递给其在初始化调用中收到的这些函数, 或通过调用[IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md)方法检索到这些函数。 
   
 

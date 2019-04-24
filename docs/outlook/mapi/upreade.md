@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: fd593b68ef7ca25b1f8ceec613786cdbdd03fd76
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 1df2c665f8e9d7a0bd6d47ec59b2adf706bead75
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338862"
 ---
 # <a name="upreade"></a>UPREADE
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-用于[上载读取状态状态](upload-read-status-state.md)期间上载读取项的状态的扩展的信息。
+用于在[上载读取状态状态](upload-read-status-state.md)期间上载项目的读取状态的扩展信息。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -31,36 +31,36 @@ struct UPREADE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
 _ulFlags_
   
->  [out] / [输入] 要在上载过程中确定适当的行为的标志。 
+>  [输出]/[in] 标志, 以确定在上载过程中的相应行为。 
     
   - UPR_ASSOC
     
-    - [输出]项目处于隐藏状态。
+    - 排除项目已隐藏。
     
   - UPR_READ
     
-    - [输出]已更改项目的读取的状态。
+    - 排除项目的读取状态已更改。
     
   - UPR_OK
     
-    - [in]上载成功。 客户端设置此后上载到服务器的信息。
+    - 实时上载成功。 客户端将信息上载到服务器后对此进行设置。
     
   - UPR_COMMIT
     
-    - [in]上载读取的项目的状态现在，而不是等待到末尾的[上载表状态](upload-table-state.md)批处理过程的多个项目。 
+    - 实时立即上载项目的读取状态, 而不是等待[上载表状态](upload-table-state.md)的末尾, 以批处理的多个项目。 
     
 _skey_
   
-> [输出]项目的源键。
+> 排除项的源键。
     
 ## <a name="see-also"></a>另请参阅
 
 - [关于复制 API](about-the-replication-api.md)
-- [关于复制状态计算机](about-the-replication-state-machine.md)
+- [关于复制状态机](about-the-replication-state-machine.md)
 - [MAPI 常量](mapi-constants.md)
 - [UPREAD](upread.md)
 

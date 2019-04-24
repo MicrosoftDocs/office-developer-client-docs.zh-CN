@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251406
 localization_priority: Normal
 ms.assetid: 0803d5d3-d804-5ffe-604d-661b35d1fc01
-description: 返回数字的 ANSI 字符。
-ms.openlocfilehash: 209614d20dd663ed2f7ca030c25500d43f925c95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回一个数字的 ANSI 字符。
+ms.openlocfilehash: 6f1c459892331ec30ad93bbc860fcd038e8f4732
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341907"
 ---
 # <a name="char-function"></a>CHAR 函数
 
-返回数字的 ANSI 字符。
+返回一个数字的 ANSI 字符。
   
 ## <a name="syntax"></a>语法
 
-CHAR (* **数量** *) 
+CHAR (* * *number* * *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |必需  <br/> |**编号** <br/> |要获取其 ANSI 字符数。  <br/> |
+| _number_ <br/> |必需  <br/> |**Number** <br/> |要获取其 ANSI 字符的数字。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-结果字符串是一个字符的长度。 _号码_参数必须是介于 1 和 255 之间 （含） 的整数或函数将返回错误。 
+结果字符串的长度为一个字符。 number 参数必须是介于1和255之间的整数 (含这两个_值_), 否则函数将返回错误。 
   
 ## <a name="example"></a>示例
 
-CHAR(9) 
+CHAR (9) 
   
 返回制表符。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: db852b99-ce04-49bf-a714-7549571502e2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: dfd437fac3a784212807c495f6e8f1adbe759cb0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334683"
 ---
 # <a name="pidtagconversationtopic-canonical-property"></a>PidTagConversationTopic 规范属性
 
@@ -25,44 +25,44 @@ ms.locfileid: "25400388"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含会话线索中的第一个邮件的主题。 
+包含会话线索中第一条消息的主题。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_CONVERSATION_TOPIC，PR_CONVERSATION_TOPIC_A，PR_CONVERSATION_TOPIC_W  <br/> |
-|标识符：  <br/> |0x0070  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|相关属性：  <br/> |PR_CONVERSATION_TOPIC、PR_CONVERSATION_TOPIC_A、PR_CONVERSATION_TOPIC_W  <br/> |
+|标识符:  <br/> |0x0070  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-会话线索表示一系列邮件和答复。 设置这些属性是线程，通常为**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 属性中的第一条消息。 后续的消息的线程中应使用同一主题不做任何修改。 
+会话线程代表一系列邮件和答复。 这些属性设置为线程中的第一条消息, 通常为**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 属性。 线程中的后续消息应使用相同的主题, 而不进行修改。 
   
-**PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) 属性指示后续的消息和回复的顺序关系。 即使设置这些属性，其用途是可选的。 
+**PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) 属性指示后续邮件和答复之间的顺序关系。 它的使用是可选的, 即使设置了这些属性也是如此。 
   
-消息存储提供程序具有这些属性始终对传入或传出邮件设置的选项的保证。 如果已设置这些属性应不会更改它们。 如果没有，它们可以设置为**PR_NORMALIZED_SUBJECT**。 调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)之前，应执行任何操作。 
+邮件存储提供程序可以选择确保这些属性始终在传入或传出邮件上设置。 如果已设置这些属性, 则不应更改它们。 如果不是, 则可以将其设置为**PR_NORMALIZED_SUBJECT**。 应在调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)之前执行任何操作。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和电子邮件消息对象在允许的操作。
+> 指定在电子邮件对象上允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

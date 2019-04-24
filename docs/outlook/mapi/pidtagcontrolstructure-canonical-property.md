@@ -12,31 +12,31 @@ api_type:
 - HeaderDef
 ms.assetid: 02910389-b346-431c-a282-dedbc9f7dfc6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3b517888d562ee5b178dbd011fa1ce6ab218c6b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cf91620042f916d51f27be50d15f72db537ad5f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335243"
 ---
 # <a name="pidtagcontrolstructure-canonical-property"></a>PidTagControlStructure 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含指向用于在对话框中使用的控件的结构。 
+包含指向对话框中使用的控件的结构的指针。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTROL_STRUCTURE  <br/> |
-|标识符：  <br/> |0x3F01  <br/> |
+|标识符:  <br/> |0x3F01  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性表示被强制转换为控制结构之一的 long 指针。 控制结构包括：
+此属性表示一个长指针, 该指针被转换为控件结构之一。 控制结构包括:
   
 |||
 |:-----|:-----|
@@ -51,13 +51,13 @@ ms.locfileid: "22594353"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

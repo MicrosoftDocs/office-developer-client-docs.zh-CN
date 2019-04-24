@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f750223f-165c-8c2f-457b-724817b062b3
 description: 要在 ShapeSheet 窗口的单元格之间移动，请使用箭头键和 Tab 键。单击单元格可将其激活，也可以滚动显示 ShapeSheet 单元格而不改变活动单元格。
-ms.openlocfilehash: 0e58ba66b6d086ee296fbc344c0892cdf11d09c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a6e71852f20bfeb889161c245859b458ad0debfb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335236"
 ---
-# <a name="move-around-a-shapesheet-window"></a>在 ShapeSheet 窗口周围移动
+# <a name="move-around-a-shapesheet-window"></a>在 ShapeSheet 窗口中移动
 
 要在 ShapeSheet 窗口的单元格之间移动，请使用箭头键和 Tab 键。单击单元格可将其激活，也可以滚动显示 ShapeSheet 单元格而不改变活动单元格。
   

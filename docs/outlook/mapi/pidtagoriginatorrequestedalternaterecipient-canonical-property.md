@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: c85b7862-18bc-4e17-94db-9097e0ac4a02
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 463f2eb6e730c9250861ce50515a7f662bb75d23
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 45cd0e8a95f908d7ef56d03b3ecab5d5df5bcae1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341998"
 ---
 # <a name="pidtagoriginatorrequestedalternaterecipient-canonical-property"></a>PidTagOriginatorRequestedAlternateRecipient 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含的发件人指定一个备用收件人的项标识符。
+包含发件人指定的备用收件人的条目标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ORIGINATOR_REQUESTED_ALTERNATE_RECIPIENT  <br/> |
-|标识符：  <br/> |0x0C09  <br/> |
+|标识符:  <br/> |0x0C09  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
 ## <a name="remarks"></a>注解
 
-自动转发邮件中使用此属性。 如果不允许自动转接，或者如果已不指定任何备用收件人，应生成原件报告。
+此属性在 autoforwarded 消息中使用。 如果不允许 autoforwarding, 或者未指定备用收件人, 则应生成 nondelivery 报告。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

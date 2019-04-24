@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 55ffcfa8-57fd-dbce-e551-8584660e33fa
-description: 返回列表中的形状 1 开始位置。
-ms.openlocfilehash: 4ac9e303ac3fd53b75800366aa6cdaff428ef698
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回形状在列表中的位置 (从1开始)。
+ms.openlocfilehash: 21f2057c4027735902a127ef16f94d6ed3f69568
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335705"
 ---
 # <a name="listorder-function"></a>LISTORDER 函数
 
-返回列表中的形状 1 开始位置。
+返回形状在列表中的位置 (从1开始)。
   
 ## <a name="version-information"></a>版本信息
 
@@ -25,11 +25,11 @@ ms.locfileid: "19780594"
   
 ## <a name="syntax"></a>语法
 
-LISTORDER()
+LISTORDER ()
   
 ### <a name="return-value"></a>返回值
 
-Integer
+整数
   
 ## <a name="remarks"></a>注解
 

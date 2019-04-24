@@ -8,28 +8,28 @@ f1_keywords:
 - Vis_DSS.chm82251504
 localization_priority: Normal
 ms.assetid: 5a10892f-c8fa-c127-2f5a-564009ce5411
-description: 返回组合的文本的高度形状中没有文本行其中超过最大宽度。
-ms.openlocfilehash: 9a80dafcf80a1dcba968a0f60465aae4e2a2758b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回组合文本的高度, 该形状中的文本行数超过 maximumwidth。
+ms.openlocfilehash: 7455f58f14f9a4a0ae1fcd5375dba5d5860d3852
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332322"
 ---
 # <a name="textheight-function"></a>TEXTHEIGHT 函数
 
-返回组合的文本的高度形状中没有文本行其中超过_最大宽度_。 
+返回组合文本的高度, 该形状中的文本行数超过_maximumwidth_。 
   
 ## <a name="syntax"></a>语法
 
-TEXTHEIGHT (* * *shapename ！TheText* * * * * *[，最大宽度]* * *) 
+TEXTHEIGHT (* * *shapename!TheText* * * * * *[, maximumwidth]* * *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _shapename ！ theText_ <br/> |必需  <br/> |**字符串** <br/> |单元格的引用的目标形状中名为 TheText。  _shapename ！_ 是要从中检索文本的名称。  <br/> |
-| _最大宽度_ <br/> |可选  <br/> |**Numeric** <br/> |文本块的最大宽度。  <br/> |
+| _shapename! theText_ <br/> |必需  <br/> |**String** <br/> |对目标形状中名为 TheText 的单元格的引用。  _shapename!_ 是要从中检索文本的形状的名称。  <br/> |
+| _maximumwidth_ <br/> |可选  <br/> |**Numeric** <br/> |文本块的最大宽度。  <br/> |
    
 ### <a name="return-value"></a>返回值
 

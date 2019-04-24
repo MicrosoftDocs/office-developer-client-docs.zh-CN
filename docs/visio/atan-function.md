@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm82251396
 localization_priority: Normal
 ms.assetid: 19b77fbb-32c9-4fc9-4c07-a0a713f7fdca
-description: 返回一个数字，例如，其正切值为 number 的角度的反正切。 生成的角度位于范围-PI/2 < = 角度 < = PI/2 弧度 (-90 < = 角度 < = 90 度)。
-ms.openlocfilehash: aa49b3b6e5e6227ed219563e3ff7e8e8bb85ef45
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回数字的反正切值，例如，正切值是 number 的角度。 计算得出的角度的范围为 -PI/2 <= 角度 <= PI/2 弧度（-90 <= 角度 <= 90 度）。
+ms.openlocfilehash: b690d1267503e704549bd74eacf06b414db98137
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341313"
 ---
 # <a name="atan-function"></a>ATAN 函数
 
-返回一个数字，例如，角度的正切值_数_的反正切。 生成的角度位于范围-PI/2 < = 角度 < = PI/2 弧度 (-90 < = 角度 < = 90 度)。 
+返回一个数的反正切值, 例如, 其正切值为_数字_的角度。 计算得出的角度的范围为 -PI/2 <= 角度 <= PI/2 弧度（-90 <= 角度 <= 90 度）。 
   
 ## <a name="syntax"></a>语法
 
-ATAN (* **数量** *) 
+ATAN (* **数字** *) 
   
 ### <a name="parameters"></a>参数
 
@@ -32,7 +32,7 @@ ATAN (* **数量** *)
    
 ## <a name="example"></a>示例
 
-ATAN(1) 
+ATAN (1) 
   
 返回 45 度 
   

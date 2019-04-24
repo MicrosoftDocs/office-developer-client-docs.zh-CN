@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 757861ab-7b92-b67a-67ea-8dcbc2ea7573
 description: ''
-ms.openlocfilehash: 99d1dbc1b2e9838001d152ea11e83b3e51ed6a45
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a0685e36bbc2af3250934a70651d97f1bb158b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332555"
 ---
-# <a name="display-formulas-or-values-in-cells"></a>显示单元格中的公式或值
+# <a name="display-formulas-or-values-in-cells"></a>在单元格中显示公式或值
 
 1. 在 ShapeSheet 窗口中单击以激活该窗口。
     

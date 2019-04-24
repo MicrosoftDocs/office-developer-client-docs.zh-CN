@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: c4aaca65-d553-476c-8c6d-5f880b6efdc1
-description: 上次修改时间： 2012 年 6 月 26 日
-ms.openlocfilehash: ee6fe07df894213331ab51f9abaa4008247dac07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2012 年 6 月 26 日
+ms.openlocfilehash: 108073f5e4833d9641e67065eb642320352fffe4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341368"
 ---
 # <a name="imapisync--synchronizeinbackground"></a>IMAPISync : SynchronizeInBackground
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
- 启动同步。 此方法是通过 Microsoft Outlook 2010 和 Microsoft Outlook 2013 调用，并由消息存储提供程序实现。 
+ 启动同步。 此方法由 microsoft outlook 2010 和 microsoft outlook 2013 调用, 并由邮件存储提供程序实现。 
   
 ```cpp
 HRESULT SynchronizeInBackground (
@@ -37,13 +37,13 @@ HRESULT SynchronizeInBackground (
 
  _psibpb_
   
-> 通知的内容将同步的提供程序和访问提供可在同步过程中使用的接口。 它是[MAPISIB](mapisib.md)结构。 
+> 通知提供程序将进行同步, 并提供对可在同步过程中使用的接口的访问权限。 它是一个[MAPISIB](mapisib.md)结构。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="see-also"></a>另请参阅
 

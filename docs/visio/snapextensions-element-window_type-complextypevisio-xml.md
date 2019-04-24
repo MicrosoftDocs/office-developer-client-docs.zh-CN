@@ -1,22 +1,22 @@
 ---
-title: SnapExtensions 元素 （Window_Type 复杂类型） (Visio XML)
+title: SnapExtensions 元素 (Window_Type 复杂类型) ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7a12ae10-6aa4-c845-5ede-1c14c6dac80f
-description: 指定是否启用或禁用活动窗口的特定管理单元扩展设置。 值可以是下表中值的总和。
+description: 指定是否为活动窗口启用或禁用特定的快照扩展设置。 该值可以是下表中的值的总和。
 ms.openlocfilehash: 57fde520d3dc8e0582c0062a599d5f38a73169b4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394403"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334417"
 ---
-# <a name="snapextensions-element-windowtype-complextype-visio-xml"></a>SnapExtensions 元素 （Window_Type 复杂类型） (Visio XML)
+# <a name="snapextensions-element-windowtype-complextype-visio-xml"></a>SnapExtensions 元素 (Window_Type 复杂类型) ("Visio XML")
 
-指定是否启用或禁用活动窗口的特定管理单元扩展设置。 值可以是下表中值的总和。
+指定是否为活动窗口启用或禁用特定的快照扩展设置。 该值可以是下表中的值的总和。
   
 ## <a name="element-information"></a>元素信息
 
@@ -24,8 +24,8 @@ ms.locfileid: "25394403"
 |:-----|:-----|
 |**元素类型** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
-|**文档部件** <br/> |windows.xml  <br/> |
+|**架构文件** <br/> |VisioSchema15  <br/> |
+|**文档部件** <br/> |windows .xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,7 +36,7 @@ ms.locfileid: "25394403"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
   
 ### <a name="parent-elements"></a>父元素
 
@@ -48,29 +48,29 @@ ms.locfileid: "25394403"
 
 无。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**SnapExtensions**元素的值可以是下表中值的总和。 
+**SnapExtensions**元素的值可以是下表中的值的总和。 
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |0  <br/> |不与任何内容对齐。  <br/> |
-|1  <br/> |与对齐框延长线对齐。  <br/> |
-|2  <br/> |与中心轴扩展对齐。  <br/> |
-|4  <br/> |与曲线切线扩展对齐。  <br/> |
-|8  <br/> |与终结点扩展对齐。  <br/> |
-|16  <br/> |与中点扩展对齐。  <br/> |
-|32  <br/> |与直线延长线对齐。  <br/> |
-|64  <br/> |与曲线扩展对齐。  <br/> |
-|128  <br/> |终结点的垂直扩展名与对齐。  <br/> |
-|256  <br/> |与中点 perpendicular 扩展对齐。  <br/> |
-|512  <br/> |终结点的水平扩展名与对齐。  <br/> |
-|1024  <br/> |终结点的垂直扩展名与对齐。  <br/> |
-|2048  <br/> |椭圆中心扩展名与对齐。  <br/> |
-|4096  <br/> |与扩展等角对齐。  <br/> |
+|1  <br/> |与对齐框的延伸对齐。  <br/> |
+|双面  <br/> |居中轴延长线。  <br/> |
+|4  <br/> |与曲线相切延长线对齐。  <br/> |
+|utf-8  <br/> |与终结点扩展对齐。  <br/> |
+|位  <br/> |与中点扩展对齐。  <br/> |
+|32  <br/> |与线性延伸对齐。  <br/> |
+|64  <br/> |与曲线延长线对齐。  <br/> |
+|128  <br/> |与终结点垂直扩展对齐。  <br/> |
+|256  <br/> |与中点垂直延伸对齐。  <br/> |
+|512  <br/> |对齐终结点水平扩展。  <br/> |
+|1024  <br/> |与终结点垂直扩展对齐。  <br/> |
+|2048  <br/> |与椭圆中心延伸对齐。  <br/> |
+|4096  <br/> |对齐等角扩展。  <br/> |
    
 

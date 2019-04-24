@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: ab302bfd-5cff-49b4-b0d2-308ae5af478d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5380b6541e609c17a9005c3390c6d5db06155306
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: bf072aba27c90b7cea80c464e17fafb47524b695
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567242"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342082"
 ---
 # <a name="imapiformmgrcalcformpropset"></a>IMAPIFormMgr::CalcFormPropSet
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个数组的一组表单使用的属性。
+返回一组窗体使用的属性的数组。
   
 ```cpp
 HRESULT CalcFormPropSet(
@@ -39,45 +39,45 @@ HRESULT CalcFormPropSet(
 
  _pfrminfoarray_
   
-> [in]一个指向确定要为其返回属性的窗体的窗体信息对象的数组。
+> 实时指向表单信息对象数组的指针, 这些对象标识要为其返回属性的窗体。
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何返回_ppResults_参数中的属性数组。 可以设置以下标志： 
+> 实时标志的位掩码, 用于控制如何返回_ppResults_参数中的属性数组。 可以设置以下标志: 
     
 FORMPROPSET_INTERSECTION 
   
-> 返回的数组包含窗体的属性的交点。
+> 返回的数组包含窗体属性的交集。
     
 FORMPROPSET_UNION 
   
-> 返回的数组包含窗体的属性的合并。
+> 返回的数组包含表单属性的联合。
     
 MAPI_UNICODE 
   
-> 数组中返回的字符串是 Unicode 格式。 如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。
+> 数组中返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
     
  _ppResults_
   
-> [输出]指向返回[SMAPIFormPropArray](smapiformproparray.md)结构，其中包含表单使用的属性的指针的指针。 
+> 排除指向返回的[SMAPIFormPropArray](smapiformproparray.md)结构的指针的指针, 该指针包含表单使用的属性。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功，并返回预期的值。
+> 调用成功, 并返回了所需的一个或一些值。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
+> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
 ## <a name="remarks"></a>注解
 
-表单查看器调用**IMAPIFormMgr::CalcFormPropSet**方法以获取的属性的一组窗体使用数组。 **CalcFormPropSet**采用任一交集或联合这些窗体的属性的设置，具体取决于的标记设置中_ulFlags_参数，并将返回**SMAPIFormPropArray**结构，其中包含的生成组属性。 
+表单查看者调用**IMAPIFormMgr:: CalcFormPropSet**方法以获取一组表单使用的属性的数组。 **CalcFormPropSet**采用相交或联合这些 forms 的属性集, 具体取决于在_ulFlags_参数中设置的标志, 并且它将返回一个**SMAPIFormPropArray**结构, 其中包含生成的一组属性. 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果表单查看器_ulFlags_参数中传递 MAPI_UNICODE 标志，应以 Unicode 字符串形式返回所有字符串。 如果传递 MAPI_UNICODE，窗体库提供程序不支持 Unicode 字符串应返回 MAPI_E_BAD_CHARWIDTH。 
+如果表单查看器在_ulFlags_参数中传递 MAPI_UNICODE 标志, 则所有字符串都应以 UNICODE 字符串的形式返回。 如果 MAPI_UNICODE 已传递, 则不支持 Unicode 字符串的表单库提供程序应返回 MAPI_E_BAD_CHARWIDTH。 
   
 ## <a name="see-also"></a>另请参阅
 

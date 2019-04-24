@@ -12,31 +12,31 @@ api_type:
 - HeaderDef
 ms.assetid: 7728fa2f-4a59-4e86-90f1-4384824598aa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3c1d415cc9aa4e66b6c4b17262f9a491fc01f6bd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8614441ffa60181366c860b66ef4618ce32106be
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334732"
 ---
 # <a name="pidtagcontroltype-canonical-property"></a>PidTagControlType 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个值，该值在对话框中使用的控件的控件类型。 
+包含一个值, 该值指示对话框中使用的控件的控件类型。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTROL_TYPE  <br/> |
-|标识符：  <br/> |0x3F02  <br/> |
+|标识符:  <br/> |0x3F02  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性可以具有完全下列值之一：
+此属性可以具有下列值之一:
   
 DTCT_BUTTON 
   
@@ -52,15 +52,15 @@ DTCT_COMBOBOX
     
 DTCT_DDLBX 
   
-> 对话框下拉列表。
+> 对话框下拉列表框。
     
 DTCT_EDIT 
   
-> 编辑文本对话框。
+> 对话框编辑文本框。
     
 DTCT_GROUPBOX 
   
-> 对话框组。
+> 对话框分组框。
     
 DTCT_LABEL 
   
@@ -68,19 +68,19 @@ DTCT_LABEL
     
 DTCT_LBX 
   
-> 对话框列表。
+> 对话框列表框。
     
 DTCT_LISTBOX 
   
-> 对话框列表。
+> 对话框列表框。
     
 DTCT_MVDDLBX 
   
-> 多值的列表框填充的多值字符串类型的属性。
+> 由 string 类型的多值属性填充的多值列表框。
     
 DTCT_PAGE 
   
-> 对话框选项卡式的页面。
+> 对话框选项卡式页面。
     
 DTCT_RADIOBUTTON 
   
@@ -90,13 +90,13 @@ DTCT_RADIOBUTTON
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-mapitags.h
+mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

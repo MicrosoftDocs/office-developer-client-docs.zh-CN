@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6917510d-ca1e-4049-9eab-09313753ecf0
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f009d7ce5cd1856ccff1e00953188c8edde7a6bc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332856"
 ---
 # <a name="pidtagcontainerhierarchy-canonical-property"></a>PidTagContainerHierarchy 规范属性
 
@@ -25,24 +25,24 @@ ms.locfileid: "25385331"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含嵌入层次结构表对象提供有关子容器。 
+包含一个提供有关子容器的信息的嵌入的层次结构表对象。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTAINER_HIERARCHY  <br/> |
-|标识符：  <br/> |0x360E  <br/> |
+|标识符:  <br/> |0x360E  <br/> |
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |Container  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-可以在[IMAPIProp::CopyTo](imapiprop-copyto.md)操作中排除或[IMAPIProp::CopyProps](imapiprop-copyprops.md)操作中包括此属性。 作为**PT_OBJECT**类型的属性，它无法成功检索[IMAPIProp::GetProps](imapiprop-getprops.md)方法;应由请求 IID_IMAPITable 接口标识符的[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法访问其内容。 服务提供商必须将其报告[IMAPIProp::GetPropList](imapiprop-getproplist.md)方法或如果其设置，但可以选择将其报告不如果它未设置。 
+此属性可以排除在[IMAPIProp:: CopyTo](imapiprop-copyto.md)操作中, 也可以包含在[IMAPIProp:: CopyProps](imapiprop-copyprops.md)操作中。 作为**PT_OBJECT**类型的属性, [IMAPIProp:: GetProps](imapiprop-getprops.md)方法无法成功检索它;其内容应由[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法访问, 请求 IID_IMAPITable 接口标识符。 如果设置了服务提供程序, 则必须将其报告给[IMAPIProp:: GetPropList](imapiprop-getproplist.md)方法, 但如果未设置, 则可以选择报告它。 
   
-若要检索目录，客户端应用程序应调用[IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md)方法。 有关详细信息，请参阅[层次结构表](hierarchy-tables.md)。 
+若要检索表内容, 客户端应用程序应调用[IMAPIContainer:: GetHierarchyTable](imapicontainer-gethierarchytable.md)方法。 有关详细信息, 请参阅[层次结构表](hierarchy-tables.md)。 
   
- **PR_CONTAINER_CONTENTS**([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))， **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) 和此属性是在使用率类似。 几个 MAPI 属性提供对表访问： 
+ **PR_CONTAINER_CONTENTS**([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))、 **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) 和此属性在使用中相似。 有几个 MAPI 属性提供对表的访问权限: 
   
-|**属性**|**Table**|
+|**Property**|**Table**|
 |:-----|:-----|
 |**PR_CONTAINER_CONTENTS**([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |内容表  <br/> |
 |**PR_CONTAINER_HIERARCHY** <br/> |层次结构表  <br/> |
@@ -54,27 +54,27 @@ ms.locfileid: "25385331"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理顺序和客户端和服务器之间的数据传输的流。
+> 处理客户端与服务器之间的数据传输的顺序和流。
     
-[[MS OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[毫秒-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> IETF RFC2445、 RFC2446，和 RFC2447，和约会和会议对象之间进行转换。
+> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间进行转换。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

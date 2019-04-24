@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c67cfd32-5911-d8e9-dd51-fd4885dd2b0d
 description: 返回对标注形状的目标形状的工作表引用。
-ms.openlocfilehash: 1b0cb7c6737a810a0ade65f19afaff7bb4b9f616
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aeeb919fb2efc175d8e5ce23f464503c13331249
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337245"
 ---
 # <a name="callouttargetref-function"></a>CALLOUTTARGETREF 函数
 
@@ -25,7 +25,7 @@ ms.locfileid: "19779796"
   
 ## <a name="syntax"></a>语法
 
-CALLOUTTARGETREF()!
+CALLOUTTARGETREF ()!
   
 ### <a name="return-value"></a>返回值
 
@@ -33,11 +33,11 @@ ShapeSheet 参考
   
 ## <a name="remarks"></a>注解
 
-如果形状不是标注形状，或者不与目标形状相关联，则 CALLOUTTARGETREF 返回 #REF。
+如果形状不是标注形状, 或者形状不与目标形状相关联, 则 CALLOUTTARGETREF 返回 #REF。
   
 ## <a name="example"></a>示例
 
-CALLOUTTARGETREF()!Height 
+CALLOUTTARGETREF ()!高度 
   
 返回与标注相关的形状的 Height 单元格中的值。 
   

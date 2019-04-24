@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 08b730c4-5dd8-106e-ddf3-da2c942e2ef6
 description: 确定形状的显示级别分隔条（Z 顺序分组的相对范围）。
-ms.openlocfilehash: 516446b2d401aaca614e24a2c5bb5003fafe8574
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4f7e3fcb2d28f8c4c0706502c66444c121ae6ee6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332534"
 ---
-# <a name="displaylevel-cell-shape-layout-section"></a>DisplayLevel 单元格（“Shape Layout”部分）
+# <a name="displaylevel-cell-shape-layout-section"></a>DisplayLevel 单元格（“Shape Layout”内容）
 
 确定形状的显示级别分隔条（Z 顺序分组的相对范围）。
   
@@ -28,7 +28,7 @@ Z 顺序是形状在绘图页上的显示顺序。当一个形状与另一个形
   
 显示级别的范围从 -32,767 到 +32,767。具有相同显示级别的形状组合为一个分隔条，这些形状在该分隔条内仍根据 Z 顺序彼此分级。
   
-可以使用**上移一层**、**下移一层**、**置于顶层**，和**置于底层**命令来更改带内的形状的 Z 顺序。 如果这些命令移动超出其给定带形状，Microsoft Visio 将保留的值-32768 显示在形状的 DisplayLevel 单元格，，除非单元格受到保护。 在这种情况下，不能将形状移动到不同的带区，并 Visio 显示警告"形状保护和/或层属性禁止完成执行此命令"。 
+您可以通过使用 "**向前****移动、向后发送**"、"**置于顶层**" 和 "**置于底层**" 命令来更改带区中的形状的 Z 顺序。 如果这些命令将形状移出其给定带区, 则 Microsoft Visio 会在形状的 DisplayLevel 单元格中显示保留值 32768, 除非该单元格受到保护。 在这种情况下, 不能将形状移到其他带区, Visio 将显示警告 "形状保护和/或图层属性阻止完全执行此命令。" 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 DisplayLevel 单元格的引用，请使用以下内容。 
   

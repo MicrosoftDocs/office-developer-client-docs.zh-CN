@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 48d5ab42-ee70-4f6e-9184-18d22b08ea1b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 218238bea277a2d57c77fcc9d71cd622f7da42fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6e3cdcf3579b26776d9e278bb339758d4f56d890
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339275"
 ---
 # <a name="sexistrestriction"></a>SExistRestriction
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-介绍用于测试的特定属性作为表中的列存在是否存在限制。 
+描述用于测试特定属性是否作为表中的列存在的一个存在的限制。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _SExistRestriction
@@ -45,23 +45,23 @@ typedef struct _SExistRestriction
 
  **ulReserved1**
   
-> 保留;必须为零。 
+> 保留必须为零。 
     
  **ulPropTag**
   
-> 标识要测试的各行中存在的列的属性标记。
+> 用于标识要测试每行中是否存在的列的属性标记。
     
  **ulReserved2**
   
-> 保留;必须为零。
+> 保留必须为零。
     
 ## <a name="remarks"></a>注解
 
-存在限制用于保证涉及属性，如属性和内容的限制的限制其他类型的有意义的结果。 时涉及属性限制传递给[IMAPITable::Restrict](imapitable-restrict.md)或[IMAPITable::FindRow](imapitable-findrow.md)属性不存在，将不明确的限制结果。 通过创建加入带存在限制在属性限制**和**限制，呼叫者可以保证准确的结果。 
+存在的限制用于确保对涉及属性的其他类型的限制 (如属性和内容限制) 的有意义的结果。 如果将涉及某个属性的限制传递给[IMAPITable:: Restrict](imapitable-restrict.md)或[IMAPITable:: FindRow](imapitable-findrow.md) , 并且该属性不存在, 则限制的结果将是不确定的。 通过创建**和**限制将属性限制与存在的限制联接在一起, 可以保证正确结果的调用者。 
   
-存在限制不能用于具有类型 PT_OBJECT 的子对象属性。 
+存在的限制不能与具有类型 PT_OBJECT 的子对象属性一起使用。 
   
-有关**SExistRestriction**结构的详细信息，请参阅[有关限制](about-restrictions.md)。 
+有关**SExistRestriction**结构的详细信息, 请参阅[关于限制](about-restrictions.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

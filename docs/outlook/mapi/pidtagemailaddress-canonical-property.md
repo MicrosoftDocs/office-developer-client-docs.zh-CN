@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bbd1e187-172e-4612-9efe-7c8e52967dfe
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: efcb72d872836adce544f3a90cf093de1f3713a7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338638"
 ---
 # <a name="pidtagemailaddress-canonical-property"></a>PidTagEmailAddress 规范属性
 
@@ -25,22 +25,22 @@ ms.locfileid: "25393878"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息的用户的电子邮件地址。 
+包含邮件用户的电子邮件地址。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_EMAIL_ADDRESS，PR_EMAIL_ADDRESS_A，PR_EMAIL_ADDRESS_W  <br/> |
-|标识符：  <br/> |0x3003  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|相关属性：  <br/> |PR_EMAIL_ADDRESS、PR_EMAIL_ADDRESS_A、PR_EMAIL_ADDRESS_W  <br/> |
+|标识符:  <br/> |0x3003  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这些属性是所有邮件用户的基址属性的示例。 它是以 null 结尾的字符串，其格式有意义仅为基础邮件系统。 
+这些属性是所有邮件用户的基本地址属性的示例。 它是一个以 null 结尾的字符串, 其格式仅对基础邮件系统有意义。 
   
-与**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) 和**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 寻址的消息中的属性结合使用这些属性。 字符串格式是由**PR_ADDRTYPE**限定。 
+这些属性与寻址邮件中的**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) 和**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性结合使用。 字符串格式由**PR_ADDRTYPE**限定。 
   
-此属性的有效值包括： 
+此属性的有效值包括: 
   
 ```cpp
 network/postoffice/user 
@@ -53,27 +53,27 @@ Bruce@XYZZY.COM
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和用户、 联系人、 组和资源的操作列表。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
-[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> 从 Internet 标准电子邮件约定转换为消息对象。
+> 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

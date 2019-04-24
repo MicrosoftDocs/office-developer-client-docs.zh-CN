@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 143bd3c6-5a55-4122-8522-9c48473aa781
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 943dab0141581adc32c184b0042a063a4ec05c3e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9764be2788db8d2649be8708cad4ec67a85af845
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340997"
 ---
 # <a name="fbadproptag"></a>FBadPropTag
 
@@ -29,9 +29,9 @@ ms.locfileid: "22582880"
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapival.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |服务提供商  <br/> |
+|标头文件：  <br/> |Mapival.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |服务提供程序  <br/> |
    
 ```cpp
 ULONG FBadPropTag(
@@ -43,7 +43,7 @@ ULONG FBadPropTag(
 
  _ulPropTag_
   
-> [in]要验证属性标记。
+> 实时要验证的属性标记。
     
 ## <a name="return-value"></a>返回值
 
@@ -57,7 +57,7 @@ FALSE
     
 ## <a name="remarks"></a>注解
 
-**FBadPropTag**函数验证基于 MAPI 定义的指定的属性标记。 它使的 sures 属性类型之一的 MAPI 所定义的类型和属性标识符定义的类型。 
+**FBadPropTag**函数根据 MAPI 定义验证指定的属性标记。 它使 sures 属性类型是 MAPI 定义的类型之一, 并且属性标识符定义为该类型。 
   
 ## <a name="see-also"></a>另请参阅
 

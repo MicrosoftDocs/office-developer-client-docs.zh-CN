@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8c88a625-da57-3b1d-9887-0a898b722766
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9456178e9426d7a5fe17382d876f507daa0251f4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341599"
 ---
 # <a name="pidtagprofileserverfullversion-canonical-property"></a>PidTagProfileServerFullVersion 规范属性
 
@@ -21,46 +21,46 @@ ms.locfileid: "25396174"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定配置文件中的帐户连接到 Microsoft Exchange Server 完整的版本和内部版本信息。
+指定与配置文件中的帐户连接的 Microsoft Exchange Server 的完整版本和内部版本信息。
   
 ## 
 
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROFILE_SERVER_FULL_VERSION  <br/> |
-|标识符：  <br/> |0x663B  <br/> |
+|标识符:  <br/> |0x663B  <br/> |
 |属性类型  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-一个配置文件可以指定一个或多个帐户连接到 Exchange 服务器，但他们必须连接到同一 Exchange 服务器。
+配置文件可以指定连接到 exchange 服务器的一个或多个帐户, 但这些帐户必须连接到同一个 exchange 服务器。
   
-早于 Microsoft Office Outlook 2007 的 Outlook 版本不支持此属性。 对于那些版本的 Outlook 中，查看配置文件中存在**[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** 。 
+早于 Microsoft Office Outlook 2007 版本的 Outlook 不支持该属性。 对于这些版本的 Outlook, 请检查配置文件中是否存在**[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** 。 
   
-通常，如果活动邮箱已连接到 Exchange 服务器中，Outlook 2007 **PR_PROFILE_SERVER_FULL_VERSION**属性中的活动配置文件存储完成 Exchange Server 版本信息。 Outlook 中包含的主要和次要版本号和主要和次要版本号**EXCHANGE_STORE_VERSION_NUM**结构存储信息。 例如，若要存储**8.0.685.24**的 Exchange Server 版本标识符的主版本号为 8 和次要版本数字为 0，和主要版本号是 685 和次要版本号为 24。
+通常情况下, 如果活动邮箱连接到 Exchange 服务器, Outlook 2007 将在活动配置文件中的**PR_PROFILE_SERVER_FULL_VERSION**属性中存储完整的 Exchange Server 版本信息。 Outlook 将信息存储在**EXCHANGE_STORE_VERSION_NUM**结构中, 其中包含主版本号和次版本号以及主要和次要内部版本号。 例如, 若要存储**8.0.685.24**的 Exchange Server 版本标识符, 主要版本号为 8, 次要版本号为 0, 主内部版本号为 685, 次要内部版本号为24。
   
-只有一个**PR_PROFILE_SERVER_VERSION**或**PR_PROFILE_SERVER_FULL_VERSION**可能存在于配置文件，但以下任意始终存在配置文件中不能保证。 Outlook 不会写入这两个属性，直到成功连接到 Exchange 服务器。 
+只有**PR_PROFILE_SERVER_VERSION**或 PR_PROFILE_SERVER_FULL_VERSION 中的一个可能存在于配置文件中, 但不能保证在配置文件中始终存在这两个**** 。 Outlook 在成功连接到 Exchange 服务器之前, 不会写入其中的任何一个属性。 
   
-在 Outlook 对象模型中，您可以使用**NameSpace**对象的**ExchangeMailboxServerVersion**属性查找在其托管主动邮箱的 Exchange Server 的版本。 
+在 Outlook 对象模型中, 可以使用**NameSpace**对象的**ExchangeMailboxServerVersion**属性来查找托管活动邮箱的 Exchange 服务器的版本。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

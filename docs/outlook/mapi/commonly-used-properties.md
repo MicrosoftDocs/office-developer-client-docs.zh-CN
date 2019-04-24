@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 887c5e82-170f-4c3c-986f-465c05fbbdbe
-description: 上次修改时间： 2011 年 11 月 8 日
-ms.openlocfilehash: 6d1eadfa4138cbd8173bccd0f31e2cdc89c9d5d6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '上次修改时间: 2011 年11月8日'
+ms.openlocfilehash: 5e9a1832890c65998a1732278367c0e916fb0c5c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334907"
 ---
 # <a name="commonly-used-properties"></a>常用属性
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-在多个位置记录必需的和可选的 MAPI 属性的列表。
+在多个位置记录必需和可选 MAPI 属性的列表。
   
-请参阅以下接口支持这些接口的对象相关联的属性的列表：
+有关与支持这些接口的对象相关联的属性列表, 请参阅以下接口:
   
 - [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
     
@@ -43,9 +43,9 @@ ms.locfileid: "22577063"
     
 - [IProfSect : IMAPIProp](iprofsectimapiprop.md)
     
-有关所需的表属性的列表，请参阅文档的每种类型的[MAPI 表](mapi-tables.md)中的表。
+有关表所需的属性的列表, 请参阅[MAPI 表](mapi-tables.md)中每种类型的表的相关文档。
   
-对于邮件类定义的 MAPI 必需的和可选的邮件属性的列表，请参阅下列主题： 
+有关 MAPI 定义的邮件类别的必需和可选邮件属性的列表, 请参阅下列主题: 
   
 - [所有邮件的必需属性](required-properties-for-all-messages.md)
     

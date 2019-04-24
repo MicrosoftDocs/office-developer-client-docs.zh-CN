@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 52c97d6c-7f4b-4522-aeac-0c1ed8475952
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 00c65dae9bc29fe9cdb310b819ba99d6d46ebfe3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334697"
 ---
 # <a name="pidtagconversationkey-canonical-property"></a>PidTagConversationKey 规范属性
 
@@ -21,44 +21,44 @@ ms.locfileid: "25389762"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含查找**IPM 时仅在 Microsoft Outlook 中使用的会话密钥。MessageManager**邮件，例如包含邮局协议 (POP3) 帐户的下载历史记录的邮件。 Microsoft Exchange Server 中已弃用此属性。 
+包含仅在查找 IPM 时在 Microsoft Outlook 中使用的对话密钥 **。MessageManager**邮件, 如包含邮局协议 (POP3) 帐户的下载历史记录的邮件。 在 Microsoft Exchange Server 中, 此属性已被弃用。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONVERSATION_KEY  <br/> |
-|标识符：  <br/> |0x000B  <br/> |
+|标识符:  <br/> |0x000B  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-为对话并将其转换为[传输中性封装格式 (TNEF)](transport-neutral-encapsulation-format-tnef.md)邮件属性访问电子邮件时, 不使用此属性;而是使用[PidTagConversationIndex](pidtagconversationindex-canonical-property.md)和[PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)规范属性。 
+将电子邮件作为对话访问并将邮件属性转换为[非特定于传输的封装格式 (TNEF)](transport-neutral-encapsulation-format-tnef.md)时, 不要使用此属性;相反, 请使用[PidTagConversationIndex](pidtagconversationindex-canonical-property.md)和[PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)规范属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Microsoft Exchange Server 协议规范参考。
+> 提供对相关 Microsoft Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和电子邮件消息对象在允许的操作。
+> 指定在电子邮件对象上允许的属性和操作。
     
-[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[毫秒-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> 进行编码和解码为有效的流表示形式的消息和附件对象。
+> 将邮件和附件对象编码并解码为高效流表示形式。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

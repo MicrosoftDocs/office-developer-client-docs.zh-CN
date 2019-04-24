@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3b3f88495cafbd6ea764ca8901ac67c23749aebe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 31840923e24cddd0dc3dfa9cc67b610d0dcd7e47
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336972"
 ---
 # <a name="fbadsortorderset"></a>FBadSortOrderSet
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-验证排序顺序设置通过验证其内存分配。 
+验证是否通过验证其内存分配来设置排序顺序。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapival.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |服务提供商  <br/> |
+|标头文件：  <br/> |Mapival.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |服务提供程序  <br/> |
    
 ```cpp
 ULONG FBadSortOrderSet(
@@ -43,20 +43,20 @@ ULONG FBadSortOrderSet(
 
  _lpsos_
   
-> [in]指向标识设置要验证的排序次序[SSortOrderSet](ssortorderset.md)结构。 
+> 实时指向标识排序顺序设置为要验证的[SSortOrderSet](ssortorderset.md)结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 TRUE 
   
-> 设置指定的排序顺序无效。 
+> 指定的排序次序设置无效。 
     
 FALSE 
   
-> 有效设置的指定的排序顺序。
+> 指定的排序次序设置有效。
     
 ## <a name="remarks"></a>注解
 
-**FBadSortOrderSet**函数可用于准备 sort 方法，如[IMAPITable::SortTable](imapitable-sorttable.md)方法调用。 
+**FBadSortOrderSet**函数可用于准备对[IMAPITable:: SortTable](imapitable-sorttable.md)方法等 sort 方法的调用。 
   
 

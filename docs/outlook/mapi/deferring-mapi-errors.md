@@ -1,5 +1,5 @@
 ---
-title: 推迟 MAPI 错误
+title: 延迟 MAPI 错误
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 93ae6d54-41cd-433c-8124-eb07d71baa57
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3d2a46be04f235ba55aa5f2feef222ea7372b211
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 0cf56a92190acfab1a941bc8d3ad0acc1f3e1f89
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338701"
 ---
-# <a name="deferring-mapi-errors"></a>推迟 MAPI 错误
+# <a name="deferring-mapi-errors"></a>延迟 MAPI 错误
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-一些接口方法接受 MAPI_DEFERRED_ERRORS 标志作为输入参数。 当此标志设置时，该方法不需要立即返回值;它可以让呼叫者了解在某些更高版本时调用的结果。
+某些接口方法接受 MAPI_DEFERRED_ERRORS 标志作为输入参数。 设置此标志后, 方法不必立即返回值;它可以让呼叫者在以后某个时候知道该呼叫的结果。
   
-推迟错误帮助他们实现复杂方法中的服务提供商进行处理速度更快。 而不是处理大量请求和每个返回一个值，推迟错误允许无法捆绑的服务提供程序内的呼叫。 同时处理大量请求可以减少网络流量，从而提高性能。 推迟错误是要删除的呼叫或复制属性，可以是非常耗时的操作特别有用。 
+延迟错误有助于服务提供程序实现复杂方法, 使处理速度更快。 延迟错误可以将呼叫捆绑到服务提供商中, 而不是处理多个请求并为每个请求返回一个值。 同时处理多个请求会减少网络流量, 从而提高性能。 在对删除或复制属性的调用中, 延迟错误尤其有用, 这可能是非常耗时的操作。 
   
-服务提供商时没有设置 MAPI_DEFERRED_ERRORS 标志只能处理延迟的方式，客户端发出呼叫，可以将无论错误也推迟或返回 MAPI_E_TOO_COMPLEX。 大多数客户端应作为对失败的呼叫的首选策略推迟错误。 
+当客户端在未设置只能以延迟方式处理的 MAPI_DEFERRED_ERRORS 标志的情况下进行呼叫时, 服务提供程序可以在不考虑或返回 MAPI_E_TOO_COMPLEX 的情况下延迟这些错误。 大多数客户端应将错误推迟为使呼叫失败的首选策略。 
   
-设置 MAPI_DEFERRED_ERRORS 标志更改客户端的错误处理实现中，可以传递返回的信息，在任何时候，而不是计划的时间。 很可能会晚有关该产品，或有关原始请求的数据不再可用后执行任何操作时要返回的错误。 例如，如果客户端调用**IMsgStore::OpenEntry** MAPI_DEFERRED_ERRORS 设置打开已删除的文件夹，客户端将不知道问题的直到**IMAPIProp::GetProps**调用来检索文件夹的属性之一。 **GetProps**然后将返回 MAPI_E_NOT_FOUND。 
+设置 MAPI_DEFERRED_ERRORS 标志将更改客户端的错误处理实现, 因为可以在任何时间 (而不是在计划时间) 传递返回的信息。 如果要执行的操作太晚, 或者有关原始请求的数据已不再可用, 则可能会返回错误。 例如, 如果客户端调用**IMsgStore:: OpenEntry**以打开具有 MAPI_DEFERRED_ERRORS 集的已删除文件夹, 则客户端将不会知道该问题, 直到调用**IMAPIProp:: GetProps**调用以检索其中一个文件夹属性。 然后, **GetProps**将返回 MAPI_E_NOT_FOUND。 
   
 ## <a name="see-also"></a>另请参阅
 

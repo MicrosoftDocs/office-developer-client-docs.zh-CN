@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5fe3956b-819a-3edf-0e49-7a44bcfbabcd
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: fa8b84e7baed74bda25ec1b20bd79fb121a838fd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 1e0e2f9b794c4cee25488a754290922e58b7658d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338869"
 ---
 # <a name="upmsg"></a>UPMSG
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-用于[上载邮件状态](upload-message-state.md)期间上载 Outlook 项目的信息。
+[上载邮件状态](upload-message-state.md)期间上载 Outlook 项目的信息。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -38,88 +38,88 @@ struct UPMSG
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
  _ulFlags_
   
-> [out] / [输入] 要上载期间确定适当的行为的标志。 
+> [输出]/[in] 标志以确定上载过程中的相应行为。 
     
   - UPM_ASSOC
     
-    - [输出]项目相关联。
+    - 排除项目相关联。
     
   - UPM_NEW
     
-    - [输出]新项目。 
+    - 排除新项目。 
     
   - UPM_MOV
     
-    - [输出]项目已移至此处。
+    - 排除项目已移至此处。
     
   - UPM_MOD_PROPS
     
-    - [输出]修改项目属性。
+    - 排除修改了项目属性。
     
   - UPM_HEADER
     
-    - [输出]Item 是邮件头。
+    - 排除Item 为邮件头。
     
   - UPM_OK
     
-    - [in]上载成功。 客户端设置此后上载到服务器的信息。
+    - 实时上载成功。 客户端将信息上载到服务器后对此进行设置。
     
   - UPM_MOVED
     
-    - [in]项目已成功移动。
+    - 实时已成功移动项目。
     
   - UPM_COMMIT
     
-    - [in]现在提交上载状态。
+    - 实时立即提交上载状态。
     
   - UPM_DELETE
     
-    - [in]现在将删除项目。
+    - 实时立即删除项目。
     
   - UPM_SAVE
     
-    - [in]将更改保存到项目中。
+    - 实时保存对项目所做的更改。
     
 _pmsg_
   
-> [输出]打开项目对象。 请参阅 mapidefs.h **LPMESSAGE**的类型定义。 
+> 排除打开项目对象。 有关**LPMESSAGE**的类型定义, 请参阅 mapidefs.h。 
     
 _meid_
   
-> [输出]项目的条目 ID。
+> 排除项目的条目 ID。
     
 _binReserved1_
   
-> [in]此成员仅供内部使用的 Outlook，不支持。 
+> 实时此成员是为内部使用 Outlook 而保留的, 不受支持。 
     
 _binReserved2_
   
-> [in]此成员仅供内部使用的 Outlook，不支持。 
+> 实时此成员是为内部使用 Outlook 而保留的, 不受支持。 
     
 _feid_
   
-> [输出]源文件夹，如果项目被移条目 ID。
+> 排除源文件夹的条目 ID (如果已移动项目)。
     
 _binChg_
   
-> [输出]如果项目被移，更改的目标项，键。 请参阅 mapidefs.h **SBinary**的类型定义。 
+> 排除如果已移动项, 则更改目标项的键。 有关**SBinary**的类型定义, 请参阅 mapidefs.h。 
     
 _binPcl_
   
-> [输出]如果项目被移，更改目标项，的列表。 请参阅 mapidefs.h **SBinary**的类型定义。 
+> 排除如果项目已移动, 则更改目标项的列表。 有关**SBinary**的类型定义, 请参阅 mapidefs.h。 
     
 _skeySrc_
   
-> [输出]如果项目被移源该项的源键。
+> 排除源项的源项 (如果已移动项)。
     
 ## <a name="see-also"></a>另请参阅
 
 - [关于复制 API](about-the-replication-api.md)
-- [关于复制状态计算机](about-the-replication-state-machine.md)
+- [关于复制状态机](about-the-replication-state-machine.md)
 - [MAPI 常量](mapi-constants.md)
 - [FEID](feid.md)
 - [MEID](meid.md)

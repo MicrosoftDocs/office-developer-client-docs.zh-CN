@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 23c08597-41f0-4f48-a63e-79962fa812bc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e9a1c416cbf992c9cbcfb5de42d302ff16e7f521
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9ffaab1e9cc381be2abfb389f4b72067dca2438b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338561"
 ---
 # <a name="msgcallrelease"></a>MSGCALLRELEASE
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-定义一个在它构建与[OpenIMsgOnIStg](openimsgonistg.md)函数**IMessage**对象的最终发行后可以释放**IStorage**接口的回调函数。 
+定义一个回调函数, 该函数可以在使用[OpenIMsgOnIStg](openimsgonistg.md)函数的基础之上生成的**IMessage**对象的最终发布后释放**IStorage**接口。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Imessage.h  <br/> |
-|通过实施定义的函数：  <br/> |客户端应用程序和服务提供商  <br/> |
-|定义的函数调用：  <br/> |MAPI  <br/> |
+|标头文件：  <br/> |Imessage  <br/> |
+|定义的函数实现者:  <br/> |客户端应用程序和服务提供程序  <br/> |
+|定义的函数调用者:  <br/> |MAPI  <br/> |
    
 ```cpp
 typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
@@ -43,11 +43,11 @@ typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
 
  _ulCallerData_
   
-> [in]包含有关**IMessage**接口调用应用程序信息。 
+> 实时包含有关**IMessage**接口的调用应用程序信息。 
     
  _lpMessage_
   
-> [in]顶级邮件和附件的已发布的指针。
+> 实时指向顶级邮件的指针以及已发布的附件。
     
 ## <a name="return-value"></a>返回值
 

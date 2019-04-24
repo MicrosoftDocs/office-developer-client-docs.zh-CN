@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 6cef620b-e3b7-47b9-9727-8e609465c268
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8b6c95093715f484bafd35c5836bb5790ce5b994
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f66d0f06112d95cb5adb2a9e7419c1d20f71bfc2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338666"
 ---
 # <a name="pidtagphysicalrenditionattributes-canonical-property"></a>PidTagPhysicalRenditionAttributes 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于呈现邮件附件 ASN.1 对象标识符。
+包含用于呈现邮件附件的 ASN. 1 对象标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PHYSICAL_RENDITION_ATTRIBUTES  <br/> |
-|标识符：  <br/> |0x0C10  <br/> |
+|标识符:  <br/> |0x0C10  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
@@ -38,13 +38,13 @@ ms.locfileid: "22579226"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

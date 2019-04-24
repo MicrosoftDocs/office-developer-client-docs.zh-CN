@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: a18b560a-e054-45b3-946d-6504465db5b7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e5d9261a9f33d77d52cfd6e448e69a2c1e8df415
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 972df747e0ee459996b9b4da5732be1490fbd08a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334662"
 ---
 # <a name="pidtagconversionwithlossprohibited-canonical-property"></a>PidTagConversionWithLossProhibited 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含 TRUE，则邮件传输代理 (MTA) 禁止进行丢失信息的文本转换的消息。 
+如果禁止邮件传输代理 (MTA) 进行邮件文本转换而导致信息丢失, 则该参数为 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONVERSION_WITH_LOSS_PROHIBITED  <br/> |
-|标识符：  <br/> |0x000D  <br/> |
+|标识符:  <br/> |0x000D  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常规配置  <br/> |
    
 ## <a name="remarks"></a>注解
 
-被禁止的转换类型的示例为"有损"映射 Unicode （每个字符的两个字节） 到单字节字符集。 
+被禁止转换的类型的一个示例是从 Unicode (每个字符的两个字节) 到单字节字符集的 "有损" 映射。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

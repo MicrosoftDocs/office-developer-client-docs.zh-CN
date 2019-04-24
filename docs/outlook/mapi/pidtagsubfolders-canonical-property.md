@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b456b07b-4d83-46bf-a305-4f322ea7dbd1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8de14542c0d2a4e6d95fb4258697b827f82b8d06
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339247"
 ---
 # <a name="pidtagsubfolders-canonical-property"></a>PidTagSubfolders 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25384400"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 TRUE，则文件夹包含子文件夹。
+如果文件夹包含子文件夹, 则该参数包含 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SUBFOLDERS  <br/> |
-|标识符：  <br/> |0x360A  <br/> |
+|标识符:  <br/> |0x360A  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-消息存储必须提供此属性的所有文件夹。
+邮件存储必须提供所有文件夹的此属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[毫秒-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> 处理文件夹的操作。
+> 处理文件夹操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

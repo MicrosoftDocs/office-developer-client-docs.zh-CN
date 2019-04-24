@@ -12,46 +12,46 @@ api_type:
 - COM
 ms.assetid: 24f7a14a-aa6f-4045-054b-4a7aefef25e4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 316e17e7804e754eed4ee4fef27211fb5173d4bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2db55d6318cf02dd131d07b34841922e61605147
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336685"
 ---
 # <a name="iconvertersession--iunknown"></a>IConverterSession : IUnknown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-允许 MIME 对象和 MAPI 邮件之间的转换。 这可以是中可在 internet 传输邮件。
+允许在 MIME 对象和 MAPI 邮件之间进行转换。 这在通过 Internet 传输邮件时可能很有用。
   
 |||
 |:-----|:-----|
 |提供者：  <br/> |CLSID_IConverterSession  <br/> |
-|接口标识符：  <br/> |IID_IConverterSession  <br/> |
+|接口标识符:  <br/> |IID_IConverterSession  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |指定到 MIME 转换器 MAPI 解析不明确的地址，将 MAPI 邮件转换为 MIME 流时使用可选 MAPI 通讯簿。  <br/> |
-|**[SetEncoding](iconvertersession-setencoding.md)** <br/> |初始化转换期间使用的编码。  <br/> |
-| *占位符成员*  <br/> | *不受支持或记录。*  <br/> |
+|**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |指定 mapi 到 mime 转换器在将 MAPI 邮件转换为 MIME 流时用于解析不明确地址的可选 MAPI 通讯簿。  <br/> |
+|**[SetEncoding](iconvertersession-setencoding.md)** <br/> |初始化要在转换过程中使用的编码。  <br/> |
+| *占位符成员*  <br/> | *不支持或记录。*  <br/> |
 |**[MIMEToMAPI](iconvertersession-mimetomapi.md)** <br/> |将 MIME 流转换为 MAPI 邮件。  <br/> |
 |**[MAPIToMIMEStm](iconvertersession-mapitomimestm.md)** <br/> |将 MAPI 邮件转换为 MIME 流。  <br/> |
-| *占位符成员*  <br/> | *不受支持或记录。*  <br/> |
-| *占位符成员*  <br/> | *不受支持或记录。*  <br/> |
-| *占位符成员*  <br/> | *不受支持或记录。*  <br/> |
-|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |设置的文字环绕转换器返回中**MAPIToMIMEStm**MIME 流宽度。  <br/> |
-|**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |转换器的返回中**MAPIToMIMEStm**MIME 流的格式设置。  <br/> |
-| *占位符成员*  <br/> | *不受支持或记录。*  <br/> |
-|**[SetCharSet](iconvertersession-setcharset.md)** <br/> |指定一个可选的字符设置为 MIME 转换器 MAPI 使用将 MAPI 邮件转换为 MIME 流时。  <br/> |
+| *占位符成员*  <br/> | *不支持或记录。*  <br/> |
+| *占位符成员*  <br/> | *不支持或记录。*  <br/> |
+| *占位符成员*  <br/> | *不支持或记录。*  <br/> |
+|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |设置转换器在**MAPIToMIMEStm**中返回的 MIME 流的文本换行宽度。  <br/> |
+|**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |设置转换器在**MAPIToMIMEStm**中返回 MIME 流的格式。  <br/> |
+| *占位符成员*  <br/> | *不支持或记录。*  <br/> |
+|**[SetCharSet](iconvertersession-setcharset.md)** <br/> |指定 mapi 到 mime 转换器在将 mapi 邮件转换为 mime 流时使用的可选字符集。  <br/> |
    
 ## <a name="remarks"></a>注解
 
-使用**MAPIToMIMEStm**执行转换之前调用**SetEncoding** 。 
+在使用**MAPIToMIMEStm**执行转换之前调用**SetEncoding** 。 
   
 ## <a name="see-also"></a>另请参阅
 

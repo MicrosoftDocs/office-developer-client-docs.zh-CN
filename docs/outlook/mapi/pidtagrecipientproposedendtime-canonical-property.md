@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 08dc1f81-964b-4059-9167-e517391b26e9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6ea6d634b0e69cf6895c076815941754ba5e83a4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332772"
 ---
 # <a name="pidtagrecipientproposedendtime-canonical-property"></a>PidTagRecipientProposedEndTime 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25391589"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-表示会议建议的结束时间。
+指示会议的建议结束时间。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RECIPIENT_PROPOSEDENDTIME  <br/> |
-|标识符：  <br/> |0x5FE4  <br/> |
+|标识符:  <br/> |0x5FE4  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |传输收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性的值时**PR_RECIPIENT_PROPOSED** ([PidTagRecipientProposed](pidtagrecipientproposed-canonical-property.md)) 属性的值设置为 TRUE，指示请求参与者设置为**dispidApptEndWhole** ([的值的值PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) 的单个实例会议对象或 exception 对象的属性。
+当**PR_RECIPIENT_PROPOSED** ([PidTagRecipientProposed](pidtagrecipientproposed-canonical-property.md)) 属性的值设置为 TRUE 时, 此属性的值指示与会者请求的值设置为**dispidApptEndWhole**的值 ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) 属性的单一实例会议对象或异常对象。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

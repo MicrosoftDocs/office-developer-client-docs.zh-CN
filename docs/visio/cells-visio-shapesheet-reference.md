@@ -1,19 +1,19 @@
 ---
-title: 单元格 （Visio ShapeSheet 参考 （英文）
+title: 单元格 (Visio ShapeSheet 参考)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 85a4c93c-13ad-4a66-9e2c-627661f24082
-ms.openlocfilehash: 7f86c25965a9981250f0782c0ebe7ff0c62dc935
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 252d7d59cedfa463280b97864276315be9954c86
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341942"
 ---
-# <a name="cells-visio-shapesheet-reference"></a>单元格 （Visio ShapeSheet 参考 （英文）
+# <a name="cells-visio-shapesheet-reference"></a>单元格 (Visio ShapeSheet 参考)
 
 ## <a name="in-this-section"></a>本节内容
 
@@ -51,7 +51,7 @@ ms.locfileid: "19779921"
     
 - [AvenueSizeY Cell (Page Layout Section)](avenuesizey-cell-page-layout-section.md)
     
-- [AvoidPageBreaks 单元格（“Page Layout”部分）](avoidpagebreaks-cell-page-layout-section.md)
+- [AvoidPageBreaks 单元格 ("Page Layout" 内容)](avoidpagebreaks-cell-page-layout-section.md)
     
 - [B Cell (Geometry Section)](b-cell-geometry-section.md)
     
@@ -67,31 +67,31 @@ ms.locfileid: "19779921"
     
 - [BegTrigger Cell (Glue Info Section)](begtrigger-cell-glue-info-section.md)
     
-- [BevelBottomHeight 单元格（“Bevel Properties”部分）](bevelbottomheight-cell-bevel-properties-section.md)
+- [BevelBottomHeight 单元格 ("棱台属性" 部分)](bevelbottomheight-cell-bevel-properties-section.md)
     
-- [BevelBottomType 单元格（“Bevel Properties”部分）](bevelbottomtype-cell-bevel-properties-section.md)
+- [BevelBottomType 单元格 ("棱台属性" 部分)](bevelbottomtype-cell-bevel-properties-section.md)
     
-- [BevelBottomWidth 单元格（“Bevel Properties”部分）](bevelbottomwidth-cell-bevel-properties-section.md)
+- [BevelBottomWidth 单元格 ("棱台属性" 部分)](bevelbottomwidth-cell-bevel-properties-section.md)
     
-- [BevelContourColor 单元格（“Bevel Properties”部分）](bevelcontourcolor-cell-bevel-properties-section.md)
+- [BevelContourColor 单元格 ("棱台属性" 部分)](bevelcontourcolor-cell-bevel-properties-section.md)
     
-- [BevelContourSize 单元格（“Bevel Properties”部分）](bevelcontoursize-cell-bevel-properties-section.md)
+- [BevelContourSize 单元格 ("棱台属性" 部分)](bevelcontoursize-cell-bevel-properties-section.md)
     
-- [BevelDepthColor 单元格（“Bevel Properties”部分）](beveldepthcolor-cell-bevel-properties-section.md)
+- [BevelDepthColor 单元格 ("棱台属性" 部分)](beveldepthcolor-cell-bevel-properties-section.md)
     
-- [BevelDepthSize 单元格（“Bevel Properties”部分）](beveldepthsize-cell-bevel-properties-section.md)
+- [BevelDepthSize 单元格 ("棱台属性" 部分)](beveldepthsize-cell-bevel-properties-section.md)
     
-- [BevelLightingAngle 单元格（“Bevel Properties”部分）](bevellightingangle-cell-bevel-properties-section.md)
+- [BevelLightingAngle 单元格 ("棱台属性" 部分)](bevellightingangle-cell-bevel-properties-section.md)
     
-- [BevelLightingType 单元格（“Bevel Properties”部分）](bevellightingtype-cell-bevel-properties-section.md)
+- [BevelLightingType 单元格 ("棱台属性" 部分)](bevellightingtype-cell-bevel-properties-section.md)
     
-- [BevelMaterialType 单元格（“Bevel Properties”部分）](bevelmaterialtype-cell-bevel-properties-section.md)
+- [BevelMaterialType 单元格 ("棱台属性" 部分)](bevelmaterialtype-cell-bevel-properties-section.md)
     
-- [BevelTopHeight 单元格（“Bevel Properties”部分）](beveltopheight-cell-bevel-properties-section.md)
+- [BevelTopHeight 单元格 ("棱台属性" 部分)](beveltopheight-cell-bevel-properties-section.md)
     
-- [BevelTopType 单元格（“Bevel Properties”部分）](beveltoptype-cell-bevel-properties-section.md)
+- [BevelTopType 单元格 ("棱台属性" 部分)](beveltoptype-cell-bevel-properties-section.md)
     
-- [BevelTopWidth 单元格（“Bevel Properties”部分）](beveltopwidth-cell-bevel-properties-section.md)
+- [BevelTopWidth 单元格 ("棱台属性" 部分)](beveltopwidth-cell-bevel-properties-section.md)
     
 - [BlockSizeX Cell (Page Layout Section)](blocksizex-cell-page-layout-section.md)
     
@@ -133,7 +133,7 @@ ms.locfileid: "19779921"
     
 - [Checked Cell (Actions Section)](checked-cell-actions-section.md)
     
-- [ClippingPath 单元格（“Foreign Image Info”部分）](clippingpath-cell-foreign-image-info-section.md)
+- [ClippingPath 单元格 ("外部图像信息" 部分)](clippingpath-cell-foreign-image-info-section.md)
     
 - [Color Cell (Character Section)](color-cell-character-section.md)
     
@@ -141,7 +141,7 @@ ms.locfileid: "19779921"
     
 - [Color Cell (Reviewer Section)](color-cell-reviewer-section.md)
     
-- [ColorSchemeIndex 单元格（“Theme Properties”部分）](colorschemeindex-cell-theme-properties-section.md)
+- [ColorSchemeIndex 单元格 ("主题属性" 部分)](colorschemeindex-cell-theme-properties-section.md)
     
 - [Comment Cell (Annotation Section)](comment-cell-annotation-section.md)
     
@@ -151,7 +151,7 @@ ms.locfileid: "19779921"
     
 - [ComplexScriptSize Cell (Character Section)](complexscriptsize-cell-character-section.md)
     
-- [CompoundType 单元格（“Line Format”部分）](compoundtype-cell-line-format-section.md)
+- [CompoundType 单元格 ("Line Format" 内容)](compoundtype-cell-line-format-section.md)
     
 - [ConFixedCode Cell (Shape Layout Section)](confixedcode-cell-shape-layout-section.md)
     
@@ -165,7 +165,7 @@ ms.locfileid: "19779921"
     
 - [ConLineRouteExt Cell (Shape Layout Section)](conlinerouteext-cell-shape-layout-section.md)
     
-- [ConnectorSchemeIndex 单元格（“Theme Properties”部分）](connectorschemeindex-cell-theme-properties-section.md)
+- [ConnectorSchemeIndex 单元格 ("主题属性" 部分)](connectorschemeindex-cell-theme-properties-section.md)
     
 - [Contrast Cell (Image Properties Section)](contrast-cell-image-properties-section.md)
     
@@ -195,19 +195,19 @@ ms.locfileid: "19779921"
     
 - [Disabled Cell (Actions Section)](disabled-cell-actions-section.md)
     
-- [DisplayLevel 单元格（“Shape Layout”部分）](displaylevel-cell-shape-layout-section.md)
+- [DisplayLevel 单元格 ("Shape Layout" 内容)](displaylevel-cell-shape-layout-section.md)
     
 - [DisplayMode Cell (Group Properties Section)](displaymode-cell-group-properties-section.md)
     
 - [DisplayMode Cell (Action Tags Section)](displaymode-cell-action-tags-section.md)
     
-- [DistanceFromGround 单元格（“3-D Rotation Properties”）](distancefromground-cell-3-d-rotation-properties.md)
+- [DistanceFromGround 单元格（“三维旋转属性”）](distancefromground-cell-3-d-rotation-properties.md)
     
 - [DocLangID Cell (Document Properties Section)](doclangid-cell-document-properties-section.md)
     
-- [DocLockDuplicatePage 单元格（“Document Properties”部分）](doclockduplicatepage-cell-document-properties-section.md)
+- [DocLockDuplicatePage 单元格 ("Document Properties" 内容)](doclockduplicatepage-cell-document-properties-section.md)
     
-- [DocLockReplace 单元格（“Document Properties”部分）](doclockreplace-cell-document-properties-section.md)
+- [DocLockReplace 单元格 ("Document Properties" 内容)](doclockreplace-cell-document-properties-section.md)
     
 - [DontMoveChildren Cell (Group Properties Section)](dontmovechildren-cell-group-properties-section.md)
     
@@ -215,7 +215,7 @@ ms.locfileid: "19779921"
     
 - [DoubleULine Cell (Character Section)](doubleuline-cell-character-section.md)
     
-- [DrawingResizeType 单元格（“Page Properties”部分）](drawingresizetype-cell-page-properties-section.md)
+- [DrawingResizeType 单元格 ("Page Properties" 内容)](drawingresizetype-cell-page-properties-section.md)
     
 - [DrawingScale Cell (Page Properties Section)](drawingscale-cell-page-properties-section.md)
     
@@ -231,9 +231,9 @@ ms.locfileid: "19779921"
     
 - [E Cell (Geometry Section)](e-cell-geometry-section.md)
     
-- [EffectSchemeIndex 单元格（“Theme Properties”部分）](effectschemeindex-cell-theme-properties-section.md)
+- [EffectSchemeIndex 单元格 ("主题属性" 部分)](effectschemeindex-cell-theme-properties-section.md)
     
-- [EmbellishmentIndex 单元格（“Theme Properties”部分）](embellishmentindex-cell-theme-properties-section.md)
+- [EmbellishmentIndex 单元格 ("主题属性" 部分)](embellishmentindex-cell-theme-properties-section.md)
     
 - [EnableFillProps Cell (Style Properties Section)](enablefillprops-cell-style-properties-section.md)
     
@@ -257,7 +257,7 @@ ms.locfileid: "19779921"
     
 - [EventDrop Cell (Events Section)](eventdrop-cell-events-section.md)
     
-- [EventMultiDrop 单元格（“Events”部分）](eventmultidrop-cell-events-section.md)
+- [EventMultiDrop 单元格 ("事件" 部分)](eventmultidrop-cell-events-section.md)
     
 - [EventXFMod Cell (Events Section)](eventxfmod-cell-events-section.md)
     
@@ -271,11 +271,11 @@ ms.locfileid: "19779921"
     
 - [FillForegndTrans Cell (Fill Format Section)](fillforegndtrans-cell-fill-format-section.md)
     
-- [FillGradientAngle 单元格（“Gradient Properties”部分）](fillgradientangle-cell-gradient-properties-section.md)
+- [FillGradientAngle 单元格 ("渐变属性" 部分)](fillgradientangle-cell-gradient-properties-section.md)
     
-- [FillGradientDir 单元格（“Gradient Properties”部分）](fillgradientdir-cell-gradient-properties-section.md)
+- [FillGradientDir 单元格 ("渐变属性" 部分)](fillgradientdir-cell-gradient-properties-section.md)
     
-- [FillGradientEnabled 单元格（“Gradient Properties”部分）](fillgradientenabled-cell-gradient-properties-section.md)
+- [FillGradientEnabled 单元格 ("渐变属性" 部分)](fillgradientenabled-cell-gradient-properties-section.md)
     
 - [FillPattern Cell (Fill Format Section)](fillpattern-cell-fill-format-section.md)
     
@@ -285,11 +285,11 @@ ms.locfileid: "19779921"
     
 - [FlipY Cell (Shape Transform Section)](flipy-cell-shape-transform-section.md)
     
-- [FlyoutChild 单元格（“Actions”部分）](flyoutchild-cell-actions-section.md)
+- [FlyoutChild 单元格 ("Actions" 内容)](flyoutchild-cell-actions-section.md)
     
 - [Font Cell (Character Section)](font-cell-character-section.md)
     
-- [FontSchemeIndex 单元格（“Theme Properties”部分）](fontschemeindex-cell-theme-properties-section.md)
+- [FontSchemeIndex 单元格 ("主题属性" 部分](fontschemeindex-cell-theme-properties-section.md)
     
 - [Format Cell (Shape Data Section)](format-cell-shape-data-section.md)
     
@@ -299,11 +299,11 @@ ms.locfileid: "19779921"
     
 - [Gamma Cell (Image Properties Section)](gamma-cell-image-properties-section.md)
     
-- [GlowColor 单元格（“Additional Effect Properties”部分）](glowcolor-cell-additional-effect-properties-section.md)
+- [GlowColor 单元格 ("其他效果属性" 部分)](glowcolor-cell-additional-effect-properties-section.md)
     
-- [GlowColorTrans 单元格（“Additional Effect Properties”部分）](glowcolortrans-cell-additional-effect-properties-section.md)
+- [GlowColorTrans 单元格 ("其他效果属性" 部分)](glowcolortrans-cell-additional-effect-properties-section.md)
     
-- [GlowSize 单元格（“Additional Effect Properties”部分）](glowsize-cell-additional-effect-properties-section.md)
+- [GlowSize 单元格 ("其他效果属性" 部分)](glowsize-cell-additional-effect-properties-section.md)
     
 - [Glue Cell (Layers Section)](glue-cell-layers-section.md)
     
@@ -349,7 +349,7 @@ ms.locfileid: "19779921"
     
 - [IsTextEditTarget Cell (Group Properties Section)](istextedittarget-cell-group-properties-section.md)
     
-- [KeepTextFlat 单元格（“3-D Rotation Properties”部分）](keeptextflat-cell-3-d-rotation-properties-section.md)
+- [KeepTextFlat 单元格 ("三维旋转属性" 部分)](keeptextflat-cell-3-d-rotation-properties-section.md)
     
 - [Label Cell (Shape Data Section)](label-cell-shape-data-section.md)
     
@@ -373,11 +373,11 @@ ms.locfileid: "19779921"
     
 - [LineColorTrans Cell (Line Format Section)](linecolortrans-cell-line-format-section.md)
     
-- [LineGradientAngle 单元格（“Gradient Properties”部分）](linegradientangle-cell-gradient-properties-section.md)
+- [LineGradientAngle 单元格 ("渐变属性" 部分)](linegradientangle-cell-gradient-properties-section.md)
     
-- [LineGradientDir 单元格（“Gradient Properties”部分）](linegradientdir-cell-gradient-properties-section.md)
+- [LineGradientDir 单元格 ("渐变属性" 部分)](linegradientdir-cell-gradient-properties-section.md)
     
-- [LineGradientEnabled 单元格（“Gradient Properties”部分）](linegradientenabled-cell-gradient-properties-section.md)
+- [LineGradientEnabled 单元格 ("渐变属性" 部分)](linegradientenabled-cell-gradient-properties-section.md)
     
 - [LineJumpCode Cell (Page Layout Section)](linejumpcode-cell-page-layout-section.md)
     
@@ -421,7 +421,7 @@ ms.locfileid: "19779921"
     
 - [LockFormat Cell (Protection Section)](lockformat-cell-protection-section.md)
     
-- [LockFromGroupFormat 单元格（“Protection”部分）](lockfromgroupformat-cell-protection-section.md)
+- [LockFromGroupFormat 单元格 ("Protection" 部分)](lockfromgroupformat-cell-protection-section.md)
     
 - [LockGroup Cell (Protection Section)](lockgroup-cell-protection-section.md)
     
@@ -433,7 +433,7 @@ ms.locfileid: "19779921"
     
 - [LockPreview Cell (Document Properties Section)](lockpreview-cell-document-properties-section.md)
     
-- [LockReplace 单元格（“Protection”部分）](lockreplace-cell-protection-section.md)
+- [LockReplace 单元格 ("Protection" 部分)](lockreplace-cell-protection-section.md)
     
 - [LockRotate Cell (Protection Section)](lockrotate-cell-protection-section.md)
     
@@ -441,17 +441,17 @@ ms.locfileid: "19779921"
     
 - [LockTextEdit Cell (Protection Section)](locktextedit-cell-protection-section.md)
     
-- [LockThemeColors 单元格（“Protection”部分）](lockthemecolors-cell-protection-section.md)
+- [LockThemeColors 单元格 ("Protection" 部分)](lockthemecolors-cell-protection-section.md)
     
-- [LockThemeConnectors 单元格（“Protection”部分）](lockthemeconnectors-cell-protection-section.md)
+- [LockThemeConnectors 单元格 ("Protection" 部分)](lockthemeconnectors-cell-protection-section.md)
     
-- [LockThemeFonts 单元格（“Protection”部分）](lockthemefonts-cell-protection-section.md)
+- [LockThemeFonts 单元格 ("Protection" 部分)](lockthemefonts-cell-protection-section.md)
     
-- [LockThemeIndex 单元格（“Protection”部分）](lockthemeindex-cell-protection-section.md)
+- [LockThemeIndex 单元格 ("Protection" 部分)](lockthemeindex-cell-protection-section.md)
     
-- [LockThemeEffects 单元格（“Protection”部分）](lockthemeeffects-cell-protection-section.md)
+- [LockThemeEffects 单元格 ("Protection" 部分)](lockthemeeffects-cell-protection-section.md)
     
-- [LockVariation 单元格（“Protection”部分）](lockvariation-cell-protection-section.md)
+- [LockVariation 单元格 ("Protection" 部分)](lockvariation-cell-protection-section.md)
     
 - [LockVtxEdit Cell (Protection Section)](lockvtxedit-cell-protection-section.md)
     
@@ -469,7 +469,7 @@ ms.locfileid: "19779921"
     
 - [NoAlignBox Cell (Miscellaneous Section)](noalignbox-cell-miscellaneous-section.md)
     
-- [NoCoauth 单元格（“Document Properties”部分）](nocoauth-cell-document-properties-section.md)
+- [NoCoauth 单元格 ("Document Properties" 内容)](nocoauth-cell-document-properties-section.md)
     
 - [NoCtlHandles Cell (Miscellaneous Section)](noctlhandles-cell-miscellaneous-section.md)
     
@@ -483,9 +483,9 @@ ms.locfileid: "19779921"
     
 - [NoObjHandles Cell (Miscellaneous Section)](noobjhandles-cell-miscellaneous-section.md)
     
-- [NoProofing 单元格（“Miscellaneous”部分）](noproofing-cell-miscellaneous-section.md)
+- [NoProofing 单元格 ("杂项" 部分)](noproofing-cell-miscellaneous-section.md)
     
-- [NoQuickDrag 单元格（“Geometry”部分）](noquickdrag-cell-geometry-section.md)
+- [NoQuickDrag 单元格 ("Geometry" 内容)](noquickdrag-cell-geometry-section.md)
     
 - [NoShow Cell (Geometry Section)](noshow-cell-geometry-section.md)
     
@@ -511,9 +511,9 @@ ms.locfileid: "19779921"
     
 - [PageLineJumpDirY Cell (Page Layout Section)](pagelinejumpdiry-cell-page-layout-section.md)
     
-- [PageLockDuplicate 单元格（“Page Properties”部分）](pagelockduplicate-cell-page-properties-section.md)
+- [PageLockDuplicate 单元格 ("Page Properties" 内容)](pagelockduplicate-cell-page-properties-section.md)
     
-- [PageLockReplace 单元格（“Page Properties”部分）](pagelockreplace-cell-page-properties-section.md)
+- [PageLockReplace 单元格 ("Page Properties" 内容)](pagelockreplace-cell-page-properties-section.md)
     
 - [PageRightMargin Cell (Print Properties Section)](pagerightmargin-cell-print-properties-section.md)
     
@@ -533,7 +533,7 @@ ms.locfileid: "19779921"
     
 - [PaperSource Cell (PrintProperties Section)](papersource-cell-printproperties-section.md)
     
-- [Perspective 单元格（“3-D Rotation Properties”部分）](perspective-cell-3-d-rotation-properties-section.md)
+- [透视单元格 ("三维旋转属性" 部分)](perspective-cell-3-d-rotation-properties-section.md)
     
 - [PinX Cell (Shape Transform Section)](pinx-cell-shape-transform-section.md)
     
@@ -543,7 +543,7 @@ ms.locfileid: "19779921"
     
 - [PlaceFlip Cell (Page Layout Section)](placeflip-cell-page-layout-section.md)
     
-- [PlaceStyle 单元格（“Page Layout”部分）](placestyle-cell-page-layout-section.md)
+- [PlaceStyle 单元格 ("Page Layout" 内容)](placestyle-cell-page-layout-section.md)
     
 - [PlowCode Cell (Page Layout Section)](plowcode-cell-page-layout-section.md)
     
@@ -567,45 +567,45 @@ ms.locfileid: "19779921"
     
 - [Prompt Cell (User-Defined Cells Section)](prompt-cell-user-defined-cells-section.md)
     
-- [QuickStyleEffectsMatrix 单元格（“Quick Style”部分）](quickstyleeffectsmatrix-cell-quick-style-section.md)
+- [QuickStyleEffectsMatrix 单元格 ("快速样式" 部分)](quickstyleeffectsmatrix-cell-quick-style-section.md)
     
-- [QuickStyleFillColor 单元格（“Quick Style”部分）](quickstylefillcolor-cell-quick-style-section.md)
+- [QuickStyleFillColor 单元格 ("快速样式" 部分)](quickstylefillcolor-cell-quick-style-section.md)
     
-- [QuickStyleFillMatrix 单元格（“Quick Style”部分）](quickstylefillmatrix-cell-quick-style-section.md)
+- [QuickStyleFillMatrix 单元格 ("快速样式" 部分)](quickstylefillmatrix-cell-quick-style-section.md)
     
-- [QuickStyleFontColor 单元格（“Quick Style”部分）](quickstylefontcolor-cell-quick-style-section.md)
+- [QuickStyleFontColor 单元格 ("快速样式" 部分)](quickstylefontcolor-cell-quick-style-section.md)
     
-- [QuickStyleFontMatrix 单元格（“Quick Style”部分）](quickstylefontmatrix-cell-quick-style-section.md)
+- [QuickStyleFontMatrix 单元格 ("快速样式" 部分)](quickstylefontmatrix-cell-quick-style-section.md)
     
-- [QuickStyleLineColor 单元格（“Quick Style”部分）](quickstylelinecolor-cell-quick-style-section.md)
+- [QuickStyleLineColor 单元格 ("快速样式" 部分)](quickstylelinecolor-cell-quick-style-section.md)
     
-- [QuickStyleLineMatrix 单元格（“Quick Style”部分）](quickstylelinematrix-cell-quick-style-section.md)
+- [QuickStyleLineMatrix 单元格 ("快速样式" 部分)](quickstylelinematrix-cell-quick-style-section.md)
     
-- [QuickStyleShadowColor 单元格（“Quick Style”部分）](quickstyleshadowcolor-cell-quick-style-section.md)
+- [QuickStyleShadowColor 单元格 ("快速样式" 部分)](quickstyleshadowcolor-cell-quick-style-section.md)
     
-- [QuickStyleType 单元格（“Quick Style”部分）](quickstyletype-cell-quick-style-section.md)
+- [QuickStyleType 单元格 ("快速样式" 部分)](quickstyletype-cell-quick-style-section.md)
     
-- [QuickStyleVariation 单元格（“Quick Style”部分）](quickstylevariation-cell-quick-style-section.md)
+- [QuickStyleVariation 单元格 ("快速样式" 部分)](quickstylevariation-cell-quick-style-section.md)
     
 - [ReadOnly Cell (Actions Section)](readonly-cell-actions-section.md)
     
-- [ReflectionBlur 单元格（“Additional Effect Properties”部分）](reflectionblur-cell-additional-effect-properties-section.md)
+- [ReflectionBlur 单元格 ("其他效果属性" 部分)](reflectionblur-cell-additional-effect-properties-section.md)
     
-- [ReflectionDist 单元格（“Additional Effect Properties”部分）](reflectiondist-cell-additional-effect-properties-section.md)
+- [ReflectionDist 单元格 ("其他效果属性" 部分)](reflectiondist-cell-additional-effect-properties-section.md)
     
-- [ReflectionSize 单元格（“Additional Effect Properties”部分）](reflectionsize-cell-additional-effect-properties-section.md)
+- [ReflectionSize 单元格 ("其他效果属性" 部分)](reflectionsize-cell-additional-effect-properties-section.md)
     
-- [ReflectionTrans 单元格（“Additional Effect Properties”部分）](reflectiontrans-cell-additional-effect-properties-section.md)
+- [ReflectionTrans 单元格 ("其他效果属性" 部分)](reflectiontrans-cell-additional-effect-properties-section.md)
     
-- [Relationships 单元格（“Shape Layout”部分）](relationships-cell-shape-layout-section.md)
+- ["关系" 单元格 ("形状布局" 部分)](relationships-cell-shape-layout-section.md)
     
-- [ReplaceCopyCells 单元格（“Change Shape Behavior”部分）](replacecopycells-cell-change-shape-behavior-section.md)
+- [ReplaceCopyCells 单元格 ("更改形状行为" 部分)](replacecopycells-cell-change-shape-behavior-section.md)
     
-- [ReplaceLockFormat 单元格（“Change Shape Behavior”部分）](replacelockformat-cell-change-shape-behavior-section.md)
+- [ReplaceLockFormat 单元格 ("更改形状行为" 部分)](replacelockformat-cell-change-shape-behavior-section.md)
     
-- [ReplaceLockShapeData 单元格（“Change Shape Behavior”部分）](replacelockshapedata-cell-change-shape-behavior-section.md)
+- [ReplaceLockShapeData 单元格 ("更改形状行为" 部分)](replacelockshapedata-cell-change-shape-behavior-section.md)
     
-- [ReplaceLockText 单元格（“Change Shape Behavior”部分）](replacelocktext-cell-change-shape-behavior-section.md)
+- [ReplaceLockText 单元格 ("更改形状行为" 部分)](replacelocktext-cell-change-shape-behavior-section.md)
     
 - [ResizeMode Cell (Shape Transform Section)](resizemode-cell-shape-transform-section.md)
     
@@ -613,15 +613,15 @@ ms.locfileid: "19779921"
     
 - [RightMargin Cell (Text Block Format Section)](rightmargin-cell-text-block-format-section.md)
     
-- [RotateGradientWithShape 单元格（“Gradient Properties”部分）](rotategradientwithshape-cell-gradient-properties-section.md)
+- [RotateGradientWithShape 单元格 ("渐变属性" 部分)](rotategradientwithshape-cell-gradient-properties-section.md)
     
-- [RotationType 单元格（“3-D Rotation Properties”部分）](rotationtype-cell-3-d-rotation-properties-section.md)
+- [RotationType 单元格 ("三维旋转属性" 部分)](rotationtype-cell-3-d-rotation-properties-section.md)
     
-- [RotationXAngle 单元格（“3-D Rotation Properties”部分）](rotationxangle-cell-3-d-rotation-properties-section.md)
+- [RotationXAngle 单元格 ("三维旋转属性" 部分)](rotationxangle-cell-3-d-rotation-properties-section.md)
     
-- [RotationYAngle 单元格（“3-D Rotation Properties”部分）](rotationyangle-cell-3-d-rotation-properties-section.md)
+- [RotationYAngle 单元格 ("三维旋转属性" 部分)](rotationyangle-cell-3-d-rotation-properties-section.md)
     
-- [RotationZAngle 单元格（“3-D Rotation Properties”部分）](rotationzangle-cell-3-d-rotation-properties-section.md)
+- [RotationZAngle 单元格 ("三维旋转属性" 部分)](rotationzangle-cell-3-d-rotation-properties-section.md)
     
 - [Rounding Cell (Line Format Section)](rounding-cell-line-format-section.md)
     
@@ -645,13 +645,13 @@ ms.locfileid: "19779921"
     
 - [ShapePlaceFlip Cell (Shape Layout Section)](shapeplaceflip-cell-shape-layout-section.md)
     
-- [ShapePlaceStyle 单元格（“Shape Layout”部分）](shapeplacestyle-cell-shape-layout-section.md)
+- [ShapePlaceStyle 单元格 ("Shape Layout" 内容)](shapeplacestyle-cell-shape-layout-section.md)
     
 - [ShapePlowCode Cell (Shape Layout Section)](shapeplowcode-cell-shape-layout-section.md)
     
 - [ShapeRouteStyle Cell (Shape Layout Section)](shaperoutestyle-cell-shape-layout-section.md)
     
-- [ShapeShdwBlur 单元格（“Fill Format”部分）](shapeshdwblur-cell-fill-format-section.md)
+- [ShapeShdwBlur 单元格 ("填充格式" 部分)](shapeshdwblur-cell-fill-format-section.md)
     
 - [ShapeShdwObliqueAngle Cell (Fill Format Section)](shapeshdwobliqueangle-cell-fill-format-section.md)
     
@@ -661,7 +661,7 @@ ms.locfileid: "19779921"
     
 - [ShapeShdwScaleFactor Cell (Fill Format Section)](shapeshdwscalefactor-cell-fill-format-section.md)
     
-- [ShapeShdwShow 单元格（“Fill Format”部分）](shapeshdwshow-cell-fill-format-section.md)
+- [ShapeShdwShow 单元格 ("填充格式" 部分)](shapeshdwshow-cell-fill-format-section.md)
     
 - [ShapeShdwType Cell (Fill Format Section)](shapeshdwtype-cell-fill-format-section.md)
     
@@ -689,21 +689,21 @@ ms.locfileid: "19779921"
     
 - [Size Cell (Character Section)](size-cell-character-section.md)
     
-- [SketchAmount 单元格（“Additional Effect Properties”部分）](sketchamount-cell-additional-effect-properties-section.md)
+- [SketchAmount 单元格 ("其他效果属性" 部分)](sketchamount-cell-additional-effect-properties-section.md)
     
-- [SketchEnabled 单元格（“Additional Effect Properties”部分）](sketchenabled-cell-additional-effect-properties-section.md)
+- [SketchEnabled 单元格 ("其他效果属性" 部分)](sketchenabled-cell-additional-effect-properties-section.md)
     
-- [SketchFillChange 单元格（“Additional Effect Properties”部分）](sketchfillchange-cell-additional-effect-properties-section.md)
+- [SketchFillChange 单元格 ("其他效果属性" 部分)](sketchfillchange-cell-additional-effect-properties-section.md)
     
-- [SketchLineChange 单元格（“Additional Effect Properties”部分）](sketchlinechange-cell-additional-effect-properties-section.md)
+- [SketchLineChange 单元格 ("其他效果属性" 部分)](sketchlinechange-cell-additional-effect-properties-section.md)
     
-- [SketchLineWeight 单元格（“Additional Effect Properties”部分）](sketchlineweight-cell-additional-effect-properties-section.md)
+- [SketchLineWeight 单元格 ("其他效果属性" 部分)](sketchlineweight-cell-additional-effect-properties-section.md)
     
-- [SketchSeed 单元格（“Additional Effect Properties”部分）](sketchseed-cell-additional-effect-properties-section.md)
+- [SketchSeed 单元格 ("其他效果属性" 部分)](sketchseed-cell-additional-effect-properties-section.md)
     
 - [Snap Cell (Layers Section)](snap-cell-layers-section.md)
     
-- [SoftEdgesSize 单元格（“Additional Effect Properties”部分）](softedgessize-cell-additional-effect-properties-section.md)
+- [SoftEdgesSize 单元格 ("其他效果属性" 部分)](softedgessize-cell-additional-effect-properties-section.md)
     
 - [SortKey Cell (Actions Section)](sortkey-cell-actions-section.md)
     
@@ -739,7 +739,7 @@ ms.locfileid: "19779921"
     
 - [TheData Cell (Events Section)](thedata-cell-events-section.md)
     
-- [ThemeIndex 单元格（“Theme Properties”部分）](themeindex-cell-theme-properties-section.md)
+- [ThemeIndex 单元格 ("主题属性" 部分)](themeindex-cell-theme-properties-section.md)
     
 - [TheText Cell (Events Section)](thetext-cell-events-section.md)
     
@@ -783,7 +783,7 @@ ms.locfileid: "19779921"
     
 - [UpdateAlignBox Cell (Miscellaneous Section)](updatealignbox-cell-miscellaneous-section.md)
     
-- [UseGroupGradient 单元格（“Gradient Properties”部分）](usegroupgradient-cell-gradient-properties-section.md)
+- [UseGroupGradient 单元格 ("渐变属性" 部分)](usegroupgradient-cell-gradient-properties-section.md)
     
 - [Value Cell (Shape Data Section)](value-cell-shape-data-section.md)
     
@@ -791,9 +791,9 @@ ms.locfileid: "19779921"
     
 - [Value Cell (User-Defined Cells Section)](value-cell-user-defined-cells-section.md)
     
-- [VariationColorIndex 单元格（“Theme Properties”部分）](variationcolorindex-cell-theme-properties-section.md)
+- [VariationColorIndex 单元格 ("主题属性" 部分)](variationcolorindex-cell-theme-properties-section.md)
     
-- [VariationStyleIndex 单元格（“Theme Properties”部分）](variationstyleindex-cell-theme-properties-section.md)
+- [VariationStyleIndex 单元格 ("主题属性" 部分)](variationstyleindex-cell-theme-properties-section.md)
     
 - [VerticalAlign Cell (Text Block Format Section)](verticalalign-cell-text-block-format-section.md)
     
@@ -821,15 +821,15 @@ ms.locfileid: "19779921"
     
 - [X Justify Cell (Action Tags Section)](x-justify-cell-action-tags-section.md)
     
-- [XGridDensity 单元格 (标尺&amp;网格部分)](xgriddensity-cell-rulergrid-section.md)
+- [XGridDensity 单元格 ( &amp; "标尺网格" 部分)](xgriddensity-cell-rulergrid-section.md)
     
-- [XGridOrigin 单元格 (标尺&amp;网格部分)](xgridorigin-cell-rulergrid-section.md)
+- [XGridOrigin 单元格 ( &amp; "标尺网格" 部分)](xgridorigin-cell-rulergrid-section.md)
     
-- [XGridSpacing 单元格 (标尺&amp;网格部分)](xgridspacing-cell-rulergrid-section.md)
+- [XGridSpacing 单元格 ( &amp; "标尺网格" 部分)](xgridspacing-cell-rulergrid-section.md)
     
-- [XRulerDensity 单元格 (标尺&amp;网格部分)](xrulerdensity-cell-rulergrid-section.md)
+- [XRulerDensity 单元格 ( &amp; "标尺网格" 部分)](xrulerdensity-cell-rulergrid-section.md)
     
-- [XRulerOrigin 单元格 (标尺&amp;网格部分)](xrulerorigin-cell-rulergrid-section.md)
+- [XRulerOrigin 单元格 ( &amp; "标尺网格" 部分)](xrulerorigin-cell-rulergrid-section.md)
     
 - [Y Behavior Cell (Controls Section)](y-behavior-cell-controls-section.md)
     
@@ -847,14 +847,14 @@ ms.locfileid: "19779921"
     
 - [Y Justify Cell (Action Tags Section)](y-justify-cell-action-tags-section.md)
     
-- [YGridDensity 单元格 (标尺&amp;网格部分)](ygriddensity-cell-rulergrid-section.md)
+- [YGridDensity 单元格 ( &amp; "标尺网格" 部分)](ygriddensity-cell-rulergrid-section.md)
     
-- [YGridOrigin 单元格 (标尺&amp;网格部分)](ygridorigin-cell-rulergrid-section.md)
+- [YGridOrigin 单元格 ( &amp; "标尺网格" 部分)](ygridorigin-cell-rulergrid-section.md)
     
-- [YGridSpacing 单元格 (标尺&amp;网格部分)](ygridspacing-cell-rulergrid-section.md)
+- [YGridSpacing 单元格 ( &amp; "标尺网格" 部分)](ygridspacing-cell-rulergrid-section.md)
     
-- [YRulerDensity 单元格 (标尺&amp;网格部分)](yrulerdensity-cell-rulergrid-section.md)
+- [YRulerDensity 单元格 ( &amp; "标尺网格" 部分)](yrulerdensity-cell-rulergrid-section.md)
     
-- [YRulerOrigin 单元格 (标尺&amp;网格部分)](yrulerorigin-cell-rulergrid-section.md)
+- [YRulerOrigin 单元格 ( &amp; "标尺网格" 部分)](yrulerorigin-cell-rulergrid-section.md)
     
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7ac2a8d4-6890-4346-a6b6-34deca9dab50
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3732d8cbfaf9a6a10c62eae9e7a12b04de8a80ee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 326a78ed512ec82a9f16b1540aad60954ab2d864
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338407"
 ---
 # <a name="iablogongetoneofftable"></a>IABLogon::GetOneOffTable
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个一次性模板，用于创建要添加到的传出邮件的收件人列表的收件人的表。
+返回一个一次性模板表, 用于创建要添加到传出邮件的收件人列表中的收件人。
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -38,15 +38,15 @@ HRESULT GetOneOffTable(
 
  _ulFlags_
   
-> [in]位掩码的标志，用于控制字符串表中包含的列的类型。 可以设置以下标记：
+> 实时标志的位掩码, 用于控制包含在表中的字符串列的类型。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 字符串列的 Unicode 格式。 如果未设置 MAPI_UNICODE 标志，字符串列的 ANSI 格式。
+> 字符串列采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串列的格式为 ANSI。
     
  _lppTable_
   
-> [输出]指向一次性表格的指针的指针。
+> 排除指向一次性表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -56,7 +56,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 既设置了 MAPI_UNICODE 标志通讯簿提供程序不支持 Unicode，或未设置 MAPI_UNICODE 和通讯簿提供程序支持仅 Unicode。
+> 设置了 MAPI_UNICODE 标志, 且通讯簿提供程序不支持 unicode, 或者未设置 MAPI_UNICODE, 并且通讯簿提供程序仅支持 unicode。
     
 MAPI_E_NO_SUPPORT 
   
@@ -64,11 +64,11 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>注解
 
-MAPI 调用**GetOneOffTable**方法使可用一次性模板创建收件人。 新的收件人添加到的传出邮件的收件人列表。 通讯簿提供程序应支持通知模板修改的 MAPI 其一次性表上的通知。 MAPI 保持打开，以允许动态更新一次性表。 
+MAPI 调用**GetOneOffTable**方法来创建可用的一次性模板, 以创建收件人。 新收件人将添加到传出邮件的收件人列表中。 通讯簿提供程序应支持对其一次性表发出通知, 以通知 MAPI 的模板修改。 MAPI 保持打开一个 "一次性" 表以启用动态更新。 
   
-通讯簿提供程序还可以为每个其容器支持一次性表。 呼叫者通过调用容器的[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法并请求**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性来检索此一次性表。 可通过此表的模板用于将收件人添加到容器。 有关两种类型的一次性表之间的差异的讨论，请参阅[实现一次性表](implementing-one-off-tables.md)。
+通讯簿提供程序还可以支持其每个容器的一次性表。 调用方通过调用容器的[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法并请求**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性来检索此一次性表。 可通过此表使用的模板将收件人添加到容器中。 有关这两种类型的一次性表之间的区别的讨论, 请参阅[实现一次性表](implementing-one-off-tables.md)。
   
-通讯簿提供程序的一次性表中所需的列的列表，请参阅[一次性表](one-off-tables.md)。
+若要获取通讯簿提供程序的一次性表格中所需列的列表, 请参阅[一次性表格](one-off-tables.md)。
   
 ## <a name="see-also"></a>另请参阅
 

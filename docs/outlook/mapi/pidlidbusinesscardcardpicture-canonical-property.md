@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2c7af147-f7eb-41ef-8403-93584a2041ba
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fd1ad923acca5a75d06e6b15ae7ae7411edefb92
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342005"
 ---
 # <a name="pidlidbusinesscardcardpicture-canonical-property"></a>PidLidBusinessCardCardPicture 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25400395"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含要在名片上使用的图像。
+包含要用于名片的图像。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidBCCardPicture  <br/> |
-|属性进行设置：  <br/> |PSETID_Address  <br/> |
-|长 ID （盖）：  <br/> |0x00008041  <br/> |
+|属性集:  <br/> |PSETID_Address  <br/> |
+|长 ID (盖子):  <br/> |0x00008041  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |联系人  <br/> |
+|区域：  <br/> |Contact  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性的值必须是可移植网络图形 (PNG) 或 JPEG 流。 此属性应使用与**dispidBCDisplayDefinition** ([PidLidBusinessCardDisplayDefinition](pidlidbusinesscarddisplaydefinition-canonical-property.md)) 属性结合使用，如下所示： **dispidBCCardPicture**不应存在于联系人如果**dispidBCDisplayDefinition**不存在。 此属性也不应存在如果**dispidBCCardPicture**中的数据不需要一个名片图像。 
+此属性的值必须是可移植网络图形 (PNG) 或 JPEG 流。 应将此属性与**dispidBCDisplayDefinition** ([PidLidBusinessCardDisplayDefinition](pidlidbusinesscarddisplaydefinition-canonical-property.md)) 属性结合使用, 如下所示: 在联系人中不应存在**dispidBCCardPicture** (如果**dispidBCDisplayDefinition**不存在。 如果**dispidBCCardPicture**中的数据不需要卡片图像, 也不应显示此属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定允许用于联系人和个人通讯组列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

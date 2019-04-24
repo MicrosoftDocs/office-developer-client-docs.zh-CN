@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be65e2818f22e6da289ef8b8da483c2747f941a5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335383"
 ---
 # <a name="use-arrays-to-efficiently-enumerate-items-in-a-folder"></a>使用数组高效枚举文件夹中的项
 
@@ -25,7 +25,7 @@ ms.locfileid: "28717207"
 
 在下面的代码示例中，DemoGetArrayForTable 使用 [GetTable(Object, Object)](https://msdn.microsoft.com/library/bb612592\(v=office.15\)) 方法，从 **Folder** 对象中获取 [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) 对象。 然后，DemoGetArrayForTable 使用 **GetArray** 方法，返回包含表中每行元素的 [Array](https://msdn.microsoft.com/library/system.array.aspx) 对象。 返回的 **Array** 对象是一个二维数组，表示 **Table** 中的一系列行值和列值。 此数组从 0 开始计数，与 Outlook 集合从 1 开始计数不同。 获取 **Array** 对象后，此代码便会使用 for 循环枚举整个表。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

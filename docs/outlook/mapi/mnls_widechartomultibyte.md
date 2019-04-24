@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f64cde12-7ed1-444f-8ca4-51cb3ea514cf
-description: 上次修改时间： 2012 年 2 月 21 日
+description: '上次修改时间: 2012 年2月21日'
 ms.openlocfilehash: ad41f9b6060e5cfbabecfd9bb29a47815929d6b5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338729"
 ---
 # <a name="mnlswidechartomultibyte"></a>MNLS_WideCharToMultiByte
 
@@ -21,7 +21,7 @@ ms.locfileid: "25385513"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-此函数是类似于**WideCharToMultiByte**，映射到新的字符串的 utf-16 （宽字符） 字符串。 新的字符串不一定是从多字节字符设置。
+此函数类似于**WideCharToMultiByte**, 它将 UTF-16 (宽字符) 字符串映射到新的字符字符串。 新的字符串不一定来自多字节字符集。
   
 ```cpp
 int MNLS_WideCharToMultiByte(
@@ -39,19 +39,19 @@ int MNLS_WideCharToMultiByte(
 
  _uCodePage_
   
-> [in]用于执行转换的代码页。
+> 实时要在执行转换时使用的代码页。
     
  _dwFlags_
   
-> [in]标志指示的转换类型。
+> 实时指示转换类型的标志。
     
  _lpWideCharStr_
   
-> [in]指向要转换的 Unicode 字符串。
+> 实时指向要转换的 Unicode 字符串的指针。
     
  _cchWideChar_
   
-> [in]标志指示的转换类型。
+> 实时指示转换类型的标志。
     
  _lpMultiByteStr_
   
@@ -59,23 +59,23 @@ int MNLS_WideCharToMultiByte(
     
  _cchMultiByte_
   
-> [in]以字节为单位指示_lpMultiByteStr_缓冲区的大小。
+> 实时由_lpMultiByteStr_指示的缓冲区的大小 (以字节为单位)。
     
  _lpDefaultChar_
   
-> [中]可选。 指向要使用如果字符不能表示指定的代码页中的字符。
+> [中]可选。 一个指针, 指向在指定的代码页中无法表示字符时要使用的字符。
     
  _lpfUsedDefaultChar_
   
-> [] out可选。 指向一个标志，指示该函数已转换中使用默认的字符。
+> [] out可选。 指向标志的指针, 该标志指示函数是否已在转换中使用默认字符。
     
 ## <a name="return-value"></a>返回值
 
-返回写入如果成功_lpMultiByteStr_指向缓冲区的字节数。 
+如果成功, 则返回写入到_lpMultiByteStr_所指向的缓冲区中的字节数。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此函数的换行**WideCharToMultiByte**函数。 有关详细信息，请参阅[WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx)。
+此函数将包装**WideCharToMultiByte**函数。 有关详细信息, 请参阅[WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx)。
   
 ## <a name="see-also"></a>另请参阅
 

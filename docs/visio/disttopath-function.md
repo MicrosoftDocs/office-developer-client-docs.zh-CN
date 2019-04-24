@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2ba7d372-0c2a-9fa7-0af6-97da0aafdb12
 description: 返回由指定坐标表示的点到路径上某一点的最短距离。
-ms.openlocfilehash: 227fe860de2e3683b5d7d3e5f9313d1e2e31b2d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5727b24739705d3e562150c48fe77f7ad6eedb57
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332688"
 ---
 # <a name="disttopath-function"></a>DISTTOPATH 函数
 
@@ -25,23 +25,23 @@ ms.locfileid: "19780124"
   
 ## <a name="syntax"></a>语法
 
-DISTTOPATH (* **部分** *，* * *x* * *，* * *y* * *) 
+DISTTOPATH (* * *section* * *, * * *x* * *, * * *y* * *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |必需  <br/> |**字符串** <br/> |Geometry 节代表路径，通过对其 Path 单元格的引用指定（例如 Geometry1.Path）。  <br/> |
-| _x_ <br/> |必需  <br/> |**Double** <br/> |_X_-点的坐标。  <br/> |
-| _y_ <br/> |必需  <br/> |**Double** <br/> |_Y_-点的坐标。  <br/> |
+| _section_ <br/> |必需  <br/> |**String** <br/> |Geometry 节代表路径，通过对其 Path 单元格的引用指定（例如 Geometry1.Path）。  <br/> |
+| _x_ <br/> |必需  <br/> |**Double** <br/> |点的_x_坐标。  <br/> |
+| _y_ <br/> |必需  <br/> |**Double** <br/> |点的_y_坐标。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
  **Double**
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-Microsoft Visio 将返回 #REF ！ 如果_section_不存在。 
+Microsoft Visio 将返回 #REF! 如果_section_不存在。 
   
 如果该点位于移动方向的左侧，则返回的值为正；如果该点位于移动方向的右侧，则返回的值为负。
   

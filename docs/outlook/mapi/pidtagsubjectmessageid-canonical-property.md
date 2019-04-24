@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: d4b1a087-0986-467a-aaa9-fc643f7c56fc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c89a0a86ac733cd2cce1efc071e47fcb011fec18
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7bd5a030d11577c2afabb8a2253cf4f6129814cc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339233"
 ---
 # <a name="pidtagsubjectmessageid-canonical-property"></a>PidTagSubjectMessageId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含为其生成报告的邮件复制的二进制值。 
+包含从要为其生成报告的邮件中复制的二进制值。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SUBJECT_IPM  <br/> |
-|标识符：  <br/> |0x0038  <br/> |
+|标识符:  <br/> |0x0038  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性，如**PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)) 属性，可以用于与原始邮件相关的报告。 
+此属性 (如**PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)) 属性) 可用于将报告与原始邮件关联。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

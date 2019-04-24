@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1d6eec99-59f9-4700-9b83-7f7f8787a9f8
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 16e1d45806755bad8caff6847b0ecdea5b4ba78b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: a76d0c554d7cf06aceeaa2925c199e45411b999d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342089"
 ---
 # <a name="imapiforminfoopenformcontainer"></a>IMAPIFormInfo::OpenFormContainer
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回到安装了特定的窗体的窗体容器的指针。
+返回一个指针, 指向在其中安装特定表单的表单容器。
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -37,13 +37,13 @@ HRESULT OpenFormContainer(
 
  _ppformcontainer_
   
-> [输出]指向返回窗体容器对象的指针的指针。
+> 排除指向指向返回的表单容器对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="see-also"></a>另请参阅
 

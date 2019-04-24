@@ -11,11 +11,11 @@ api_type:
 ms.assetid: e2c3d2c3-5451-45cb-b0ec-bdbf5b39a0ba
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2530e27993163505b28fa7d08fd5caf4cc9b03be
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385352"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341186"
 ---
 # <a name="pidtagoriginalsentrepresentingemailaddress-canonical-property"></a>PidTagOriginalSentRepresentingEmailAddress 规范属性
 
@@ -23,42 +23,42 @@ ms.locfileid: "25385352"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含的名义原始邮件已发送的邮件用户的电子邮件地址。
+包含邮件用户的电子邮件地址, 该用户代表其发送原始邮件的邮件。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS，PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_A，PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_W  <br/> |
-|标识符：  <br/> |0x0069  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|相关属性：  <br/> |PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS、PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_A、PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_W  <br/> |
+|标识符:  <br/> |0x0069  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这些属性是原始表示邮件发件人的地址属性的示例。 在对话的线程中使用它。
+这些属性是邮件的原始发件人的地址属性的示例。 它在会话线程中使用。
   
-发送一条消息，代表另一个客户端的客户端应用程序应将这些属性设置为在首次提交邮件**PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) 属性的值。 设置后，它应永远不会更改。
+代表另一个客户端发送邮件的客户端应用程序应在第一次提交邮件时将这些属性设置为**PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) 属性的值。 设置后, 决不能更改它。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和电子邮件消息对象在允许的操作。
+> 指定在电子邮件对象上允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

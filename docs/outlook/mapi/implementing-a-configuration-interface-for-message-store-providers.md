@@ -1,5 +1,5 @@
 ---
-title: 实现邮件存储区提供程序的配置接口
+title: 实现邮件存储提供程序的配置接口
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 508e6950-d483-4cbe-b817-8016f4aa5cd8
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 15833768fbd148ae4e689b5a80ed3479823864cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: c349a03b0be465ed1262712372b6ee17a9812abd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592925"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332975"
 ---
-# <a name="implementing-a-configuration-interface-for-message-store-providers"></a>实现邮件存储区提供程序的配置接口
+# <a name="implementing-a-configuration-interface-for-message-store-providers"></a>实现邮件存储提供程序的配置接口
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-消息存储提供程序所需实现允许用户配置要在该用户的计算机上运行的消息存储提供程序的接口。 通常情况下，消息存储提供程序配置的消息存储提供程序添加到用户的配置文件时。 消息存储提供程序的配置界面通常处理任务，例如用户名和密码的受保护的邮件存储区中，选择所需文件的路径设置并创建基础存储机制它将使用，如有必要。
+邮件存储提供程序需要实现一个接口, 该接口允许用户将邮件存储提供程序配置为在该用户的计算机上运行。 通常情况下, 在将邮件存储提供程序添加到用户的配置文件中时, 会配置邮件存储区提供程序。 邮件存储提供程序的配置界面通常处理诸如为受保护的邮件存储区设置用户名和密码、选择必要文件的路径以及创建它将使用的基础存储机制 (如有必要) 的任务。
   
-您实现配置界面来访问邮件服务提供商的 DLL 中的其他入口点。 有关详细信息，请参阅[配置邮件服务](configuring-a-message-service.md)。 消息存储提供程序的配置接口是消息存储提供程序必须实现的唯一用户界面。
+通过邮件服务提供程序的 DLL 中的其他入口点访问您实现的配置界面。 有关详细信息, 请参阅[配置邮件服务](configuring-a-message-service.md)。 邮件存储提供程序的配置界面是邮件存储提供程序必须实现的唯一用户界面。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e24c183c-8c20-4d9c-a3c6-f26dc0cd0135
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1e03349b987c2a73b43ad5c5b59f92d9ea834b1b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397882"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341249"
 ---
 # <a name="pidlidverbstream-canonical-property"></a>PidLidVerbStream 规范属性
 
@@ -25,13 +25,13 @@ ms.locfileid: "25397882"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定哪些投票响应用户可以进行响应的消息。
+指定用户为响应邮件而可以做出的投票响应。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidVerbStream  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x00008520  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x00008520  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
@@ -39,17 +39,17 @@ ms.locfileid: "25397882"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的电子邮件消息对象。
+> 指定允许用于电子邮件对象的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

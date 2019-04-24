@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 53428f8d-4838-46d1-a0ab-cafb194f4cc3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 48a69fa49735014dcbfffad0673f1d4da62452e7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 17e936093536f548d16021523d9434f09777c6d9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338758"
 ---
 # <a name="imapisessiongetstatustable"></a>IMAPISession::GetStatusTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594829"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供对状态表中，一个表，包含会话中所有 MAPI 资源的信息的访问。
+提供对状态表的访问, 该表包含有关会话中所有 MAPI 资源的信息。
   
 ```cpp
 HRESULT GetStatusTable(
@@ -38,37 +38,37 @@ HRESULT GetStatusTable(
 
  _ulFlags_
   
-> [in]位掩码的标志，用于确定字符的字符串的列的格式。 可以设置以下标记：
+> 实时标志的位掩码, 用于确定作为字符字符串的列的格式。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 字符串列的 Unicode 格式。 如果未设置 MAPI_UNICODE 标志，字符串列的 ANSI 格式。
+> 字符串列采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串列的格式为 ANSI。
     
  _lppTable_
   
-> [输出]指向状态表格的指针的指针。
+> 排除指向状态表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回表。
+> 成功返回表。
     
 ## <a name="remarks"></a>注解
 
-**IMAPISession::GetStatusTable**方法提供了访问状态表包含有关的所有 MAPI 资源会话中的信息。 没有有关 MAPI 子系统表中的一个行、 一行，MAPI 后台处理程序、 一行，集成的通讯簿中，和配置文件中每个服务提供商的一行。 
+**IMAPISession:: GetStatusTable**方法提供对状态表的访问, 该表包含有关会话中所有 MAPI 资源的信息。 表中有一行, 其中包含有关 mapi 子系统的信息、mapi 后台处理程序的一行、集成的通讯簿的一行, 以及配置文件中的每个服务提供程序的一行。 
   
-必需的和可选状态表中的列的完整列表，请参阅[状态表](status-tables.md)。 
+有关状态表中的必填列和可选列的完整列表, 请参阅[status Tables](status-tables.md)。 
   
-_UlFlags_参数中设置 MAPI_UNICODE 标志会影响从[IMAPITable::QueryColumns](imapitable-querycolumns.md)和[IMAPITable::QueryRows](imapitable-queryrows.md)方法返回的列的格式。 此标志还将控制[IMAPITable::QuerySortOrder](imapitable-querysortorder.md)方法返回的排序顺序的属性类型。 
+在_ulFlags_参数中设置 MAPI_UNICODE 标志将影响从[IMAPITable:: QueryColumns](imapitable-querycolumns.md)和[IMAPITable:: QueryRows](imapitable-queryrows.md)方法返回的列的格式。 此标志还按[IMAPITable:: QuerySortOrder](imapitable-querysortorder.md)方法返回的排序顺序控制属性类型。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnStatusTable  <br/> |MFCMAPI 使用**IMAPISession::GetStatusTable**方法获取 status 表来呈现。  <br/> |
+|MainDlg  <br/> |CMainDlg:: OnStatusTable  <br/> |MFCMAPI 使用**IMAPISession:: GetStatusTable**方法获取要呈现的状态表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

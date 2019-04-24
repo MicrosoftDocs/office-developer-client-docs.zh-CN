@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1f66d2b2-ec9e-cd58-7642-96850fe4589e
 description: 返回形状的边界框指定边缘的坐标。
-ms.openlocfilehash: 2c850cb213ec0093ead53cd860f92e38da46f27e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0018118eb0991fe9dc1da0eb000566b69d8a4b4d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338050"
 ---
 # <a name="boundingboxrect-function"></a>BOUNDINGBOXRECT 函数
 
@@ -31,23 +31,23 @@ BOUNDINGBOXRECT (* **索引** *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _Index_ <br/> |必需  <br/> |**Integer** <br/> |要获取坐标的形状的边界框边缘。请参阅“注解”以了解可能的值。  <br/> |
+| _Index_ <br/> |必需  <br/> |**Integer** <br/> |要获取坐标的形状的边界框边缘。 请参阅“注解”以了解可能的值。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
- **编号**
+ **Number**
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
- *Index*可为以下值之一。 
+ *索引*可以是下列值之一。 
   
 |**Item**|**值**|
 |:-----|:-----|
 |左边缘  <br/> |0  <br/> |
 |右边缘  <br/> |1  <br/> |
-|上边缘  <br/> |2  <br/> |
-|下边缘  <br/> |3  <br/> |
+|上边缘  <br/> |双面  <br/> |
+|下边缘  <br/> |第三章  <br/> |
    
-如果该形状具有父项，返回值位于该父坐标系统。
+如果形状具有父级, 则返回值位于父项的坐标系统中。
   
 

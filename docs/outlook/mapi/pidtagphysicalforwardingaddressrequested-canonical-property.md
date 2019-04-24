@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 633e71e6-fdab-4453-8921-9bc0d5752b26
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e6d0d95351ab2b82f00a7a5758e3f30637ef2cbb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 30e78eb4dbd0741df15ebfaf9ee6e98f1c5bf9b8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338232"
 ---
 # <a name="pidtagphysicalforwardingaddressrequested-canonical-property"></a>PidTagPhysicalForwardingAddressRequested 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件发件人请求邮件传输代理邮件收件人的附加物理转发地址，包含 TRUE。
+如果邮件发件人请求邮件传输代理附加邮件收件人的物理转发地址, 则该参数为 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PHYSICAL_FORWARDING_ADDRESS_REQUESTED  <br/> |
-|标识符：  <br/> |0x0C0E  <br/> |
+|标识符:  <br/> |0x0C0E  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
@@ -38,13 +38,13 @@ ms.locfileid: "22591399"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2a587d8c-f28b-45a6-a3da-cc33052988dc
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1a8de27358e0987e8f686cc11ab4b02a0bd07f6c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382531"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336489"
 ---
 # <a name="pidtagsearchfolderid-canonical-property"></a>PidTagSearchFolderId 规范属性
 
@@ -30,7 +30,7 @@ ms.locfileid: "25382531"
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_WB_SF_ID  <br/> |
-|标识符：  <br/> |0x6842  <br/> |
+|标识符:  <br/> |0x6842  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |搜索  <br/> |
    
@@ -38,23 +38,23 @@ ms.locfileid: "25382531"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[毫秒-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> 指定的属性和操作的搜索文件夹列表配置的操作。
+> 指定用于操作搜索文件夹列表配置的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a20fdd45c39cc2147f8fdc7b1998ff6d1b0797bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: af3c1f5135e90274c0251c5a0addf339c14f36c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339296"
 ---
 # <a name="iablogonlogoff"></a>IABLogon::Logoff
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 启动注销过程。
   
@@ -37,25 +37,25 @@ HRESULT Logoff(
 
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 注销过程已成功启动。
+> 已成功启动注销过程。
     
 ## <a name="remarks"></a>注解
 
-客户端调用[IMAPISession::Logoff](imapisession-logoff.md)方法来结束会话时，通常被启动注销过程。 MAPI 然后调用每个通讯簿提供程序的**IABLogon::Logoff**方法来启动注销过程。 
+注销过程通常在客户端调用[IMAPISession:: 注销](imapisession-logoff.md)方法结束会话时启动。 然后, MAPI 会调用每个通讯簿提供程序的**IABLogon:: 注销**方法, 以启动注销过程。 
   
-**IABLogon::Logoff**方法将执行以下操作： 
+**IABLogon:: 注销**方法执行以下操作: 
   
-- 释放所有打开的对象，如任何子对象或状态对象。
+- 释放所有打开的对象, 例如任意子对象或 status 对象。
     
 - 释放提供程序的支持对象。
     
-通讯簿提供程序的注销过程的详细信息，请参阅[关机的情况下 Service Provider](shutting-down-a-service-provider.md)。
+有关通讯簿提供程序的注销过程的详细信息, 请参阅[关闭服务提供程序](shutting-down-a-service-provider.md)。
   
 ## <a name="see-also"></a>另请参阅
 

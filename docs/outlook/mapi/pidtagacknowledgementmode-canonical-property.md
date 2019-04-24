@@ -12,33 +12,33 @@ api_type:
 - HeaderDef
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 28b42e6abee5d918dbcca69c13642f3ebcc859e1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cee99b93d41ac8cd4a3dee18cad6cd4ab01cabe3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335278"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>PidTagAcknowledgementMode 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息确认的模式的标识符。
+包含用于消息确认的模式的标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ACKNOWLEDGEMENT_MODE  <br/> |
-|标识符：  <br/> |0x0001  <br/> |
+|标识符:  <br/> |0x0001  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性可以具有完全下列值之一：
+此属性可以具有下列值之一:
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |0  <br/> |手动确认。  <br/> |
 |1  <br/> |自动确认。  <br/> |
@@ -47,13 +47,13 @@ ms.locfileid: "22581935"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

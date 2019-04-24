@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1df3a50e-7ea5-9244-1286-c1d00c217a9a
 description: 确定文本块中字符的方向。
-ms.openlocfilehash: c238b6b2a47c968809869f8eb3e38b6f0db1dcad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 559a2930d9ef62612cabab79ccf55ca2c30e877b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332365"
 ---
-# <a name="textdirection-cell-text-block-format-section"></a>TextDirection 单元格（“Text Block Format”部分）
+# <a name="textdirection-cell-text-block-format-section"></a>TextDirection 单元格（“Text Block Format”内容）
 
 确定文本块中字符的方向。
   
@@ -25,7 +25,7 @@ ms.locfileid: "19781513"
 | 0  <br/> | 水平  <br/> |**visTxtBlkLeftToRight** <br/> |
 | 1  <br/> | 垂直  <br/> |**visTxtBlkTopToBottom** <br/> |
    
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 在 Visio 5.0 日语版产品中，此单元格的值存储在“Miscellaneous”内容的 VerticalText 单元格中。
   

@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 6a0dff65-1055-487c-9d15-4cfe336f2ad7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dc90f15835de35354a271d87a736366a4caf8dd9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9d9fd04776742383f40c6989bcf588b24b33d84b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578778"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339793"
 ---
 # <a name="sdatetimearray"></a>SDateTimeArray
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于描述 PT_MV_SYSTIME 类型的属性的时间值的数组。
+包含用于描述类型为 PT_MV_SYSTIME 的属性的时间值数组。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _SDateTimeArray
@@ -44,15 +44,15 @@ typedef struct _SDateTimeArray
 
  **cValues**
   
-> 由**lpft**成员指向数组中的值的数目。 
+> 由**lpft**成员指向的数组中的值的计数。 
     
  **lpft**
   
-> 指向一个[FILETIME](filetime.md)结构包含时间值的数组。 
+> 指向包含时间值的[FILETIME](filetime.md)结构数组的指针。 
     
 ## <a name="remarks"></a>注解
 
-有关 PT_MV_SYSTIME 的详细信息，请参阅[列表的属性类型](property-types.md)。
+有关 PT_MV_SYSTIME 的详细信息, 请参阅[属性类型列表](property-types.md)。
   
 ## <a name="see-also"></a>另请参阅
 

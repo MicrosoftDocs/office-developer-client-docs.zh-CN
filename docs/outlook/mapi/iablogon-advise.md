@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 375d65b1-607d-4e2a-8052-9bcbf08fc2ac
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ea72a6fd2a22fe87ad63bb9c8fa6c1416d876b66
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4ab0e4b023e6af19f650abf421aed122dcc21879
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564246"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338575"
 ---
 # <a name="iablogonadvise"></a>IABLogon::Advise
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-注册呼叫者接收影响的容器，消息用户或通讯组列表的指定事件的通知。
+注册调用方, 以接收影响容器、邮件用户或通讯组列表的指定事件的通知。
   
 ```cpp
 HRESULT Advise(
@@ -41,15 +41,15 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> [in]在_lpEntryID_参数指向的项标识符的字节数。 
+> 实时由_lpEntryID_参数指向的条目标识符中的字节数。 
     
  _lpEntryID_
   
-> [in]指向有关哪些应生成通知的对象的项标识符的指针。
+> 实时一个指针, 指向有关应生成其通知的对象的条目标识符。
     
  _ulEventMask_
   
-> [in]指示呼叫者感兴趣，并应包含在注册通知事件的类型的值的位掩码。 没有相应的[通知](notification.md)结构，每种类型的包含有关事件的信息的事件相关联。 下表列出的有效值_ulEventMask_参数和与每个值的结构。 
+> 实时指示呼叫者感兴趣且应包含在注册中的通知事件类型的值的位掩码。 有与每种类型的事件相关联的相应[通知](notification.md)结构, 其中包含有关该事件的信息。 下表列出了_ulEventMask_参数的有效值以及与每个值关联的结构。 
     
 |**通知事件类型**|**相应的**通知**结构**|
 |:-----|:-----|
@@ -62,41 +62,41 @@ HRESULT Advise(
    
  _lpAdviseSink_
   
-> [in]指向要接收随后进行通知 advise 接收器对象的指针。
+> 实时指向接收后续通知的通知接收器对象的指针。
     
  _lpulConnection_
   
-> [输出]指向为非零值，该值代表通知注册的指针。
+> 排除指向表示通知注册的非零值的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 通知注册成功。
+> 通知注册已成功。
     
 MAPI_E_INVALID_ENTRYID 
   
-> _LpEntryID_参数中传递的项标识符不在适当的格式。 
+> 在_lpEntryID_参数中传递的条目标识符的格式不正确。 
     
 MAPI_E_NO_SUPPORT 
   
-> 通讯簿提供程序不支持通知，原因可能是因为它不允许将对其对象进行更改。
+> 通讯簿提供程序不支持通知, 可能是因为它不允许对其对象进行更改。
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> 通讯簿提供程序无法处理_lpEntryID_中传递的项标识符。
+> 通讯簿提供程序无法处理在_lpEntryID_中传递的条目标识符。
     
 ## <a name="remarks"></a>注解
 
-通讯簿提供程序实现**IABLogon::Advise**方法注册呼叫者到其容器之一对象发生更改时收到通知。 呼叫者可以注册通知消息的用户、 通讯组列表，或整个容器。 
+通讯簿提供程序实现**IABLogon:: Advise**方法, 以注册呼叫者在其某个容器中的对象发生更改时收到通知。 呼叫者可以注册有关邮件用户、通讯组列表或整个容器的通知。 
   
-客户端通常调用[IAddrBook::Advise](iaddrbook-advise.md)方法注册地址簿通知。 MAPI 然后调用**Advise**方法的地址簿提供程序负责_lpEntryID_中的项标识符所表示的对象。
+客户端通常调用[IAddrBook:: Advise](iaddrbook-advise.md)方法注册通讯簿通知。 然后, MAPI 调用通讯簿提供程序的**Advise**方法, 该提供程序负责_lpEntryID_中的条目标识符所代表的对象。
   
-对指定对象中_ulEventMask_表示的类型发生更改时, 调用了通知接收器所指的_lpAdviseSink_ **OnNotify**方法。 数据传递给**OnNotify**例程**通知**结构中介绍的事件。 
+当_ulEventMask_中表示的类型的指定对象发生更改时, 将对_lpAdviseSink_所指向的通知接收器的**OnNotify**方法进行调用。 **通知**结构中传递给**OnNotify**例程的数据描述了该事件。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-您可以支持使用或不从 MAPI 帮助的通知。 MAPI 具有三个支持对象方法，以帮助服务提供商实现通知：
+你可以在 MAPI 中支持带有或没有帮助的通知。 MAPI 具有三个用于帮助服务提供程序实现通知的支持对象方法:
   
 - [IMAPISupport::Subscribe](imapisupport-subscribe.md)
     
@@ -104,19 +104,19 @@ MAPI_E_UNKNOWN_ENTRYID
     
 - [IMAPISupport::Notify](imapisupport-notify.md)
     
-如果您选择使用 MAPI 支持方法，调用**Advise**方法时调用**Subscribe**和释放_lpAdviseSink_指针。 
+如果选择使用 MAPI 支持方法, 请在调用**Advise**方法时呼叫**订阅**, 并释放_lpAdviseSink_指针。 
   
-如果您选择自己支持通知，呼叫通知接收器由_lpAdviseSink_参数保留一份此指针的**AddRef**方法。 维护此副本，直到您[IABLogon::Unadvise](iablogon-unadvise.md)方法调用取消注册。 
+如果选择自己支持通知, 请调用由_lpAdviseSink_参数表示的通知接收器的**AddRef**方法, 以保留此指针的副本。 维护此副本, 直到调用[IABLogon:: Unadvise](iablogon-unadvise.md)方法以取消注册。 
   
-无论如何支持通知，分配给通知注册的非零值的连接数并返回_lpulConnection_参数中。 被调用**Unadvise**方法之前不释放此连接数。 
+无论您如何支持通知, 请为通知注册分配非零连接号码, 并将其返回到_lpulConnection_参数中。 在调用**Unadvise**方法之前, 请勿释放此连接号码。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-_LpAdviseSink_参数中传递到**Advise** advise 接收器指针可以指向已创建或通过[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)函数创建 MAPI 的对象。 您可能需要使用**HrThisThreadAdviseSink** ，如果您支持多个线程的执行，并且想要确保您**OnNotify**方法的后续呼叫发生在相应的线程上适当的时间。 
+您在_lpAdviseSink_参数中传递给**建议**的建议接收器指针可指向您创建的对象, 或者 MAPI 已通过[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)函数创建。 如果您支持多个执行线程, 并且想确保对您的**OnNotify**方法的后续调用在适当的线程上的适当时间发生, 则您可能需要使用**HrThisThreadAdviseSink** 。 
   
-为您 advise 接收器对象，必须释放到**Advise**和到**Unadvise**呼叫之前呼叫后随时准备。 因此，您应释放 advise 接收器对象后**Advise**返回，除非您有特定的长期使用它。 
+在调用 " **Unadvise**" 之前, 请先为您的建议接收器对象做好**** 准备, 以随时释放通知对象。 因此, 您应在**建议**返回后释放您的建议接收器对象, 除非您对其有特定的长期使用。 
   
-有关通知过程的详细信息，请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。 有关如何使用**IMAPISupport**方法以支持通知的信息，请参阅[支持的事件通知](supporting-event-notification.md)。 有关详细信息多线程和 MAPI，请参阅[MAPI 中的线程](threading-in-mapi.md)。
+有关通知过程的详细信息, 请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。 有关如何使用**IMAPISupport**方法支持通知的信息, 请参阅[支持事件通知](supporting-event-notification.md)。 有关多线程和 MAPI 的详细信息, 请参阅[MAPI 中的线程处理](threading-in-mapi.md)。
   
 ## <a name="see-also"></a>另请参阅
 
@@ -128,7 +128,7 @@ _LpAdviseSink_参数中传递到**Advise** advise 接收器指针可以指向已
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[通知](notification.md)
+[NOTIFICATION](notification.md)
   
 [IABLogon : IUnknown](iablogoniunknown.md)
 

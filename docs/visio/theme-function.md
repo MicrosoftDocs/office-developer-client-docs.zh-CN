@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fa7a176d-ce9c-1ae6-490f-0646b2ee432f
 description: 获取当前主题的格式设置。
-ms.openlocfilehash: d781a4bd42ea272c6be4323078bec1a47f525ac5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 949619b5bd4ca8dd0751c09d0b732768d02706c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332247"
 ---
 # <a name="theme-function"></a>THEME 函数
 
@@ -20,7 +20,7 @@ ms.locfileid: "19781501"
   
 ## <a name="syntax"></a>语法
 
-THEME()
+主题 ()
   
 ## <a name="example"></a>示例
 

@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7d4416b2-429b-713e-61dc-8b2ead0e6053
 description: 确定形状的水平中心依其对齐的垂直参考线或辅助点的水平位置（该位置是相对于其父级的原点而言的）。
-ms.openlocfilehash: 342385dc2d08efd95e8dbad9d96ab59b2133ed7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6249c994299582d52a7f54a0c75370851dfad498
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341543"
 ---
-# <a name="aligncenter-cell-alignment-section"></a>AlignCenter 单元格（“Alignment”部分）
+# <a name="aligncenter-cell-alignment-section"></a>AlignCenter 单元格（“Alignment”内容）
 
 确定形状的水平中心依其对齐的垂直参考线或辅助点的水平位置（该位置是相对于其父级的原点而言的）。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 AlignCenter 单元格的引用，请使用： 
   

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6797cd1c-8a0b-4f42-ba56-6162d8e7b058
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5803441486f01883d08cd99048d8eae133cd3f14
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 9b44337a4bc9615558ac6337e99ea206ba063b1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341256"
 ---
 # <a name="imapisyncprogresscallbackprogress"></a>IMAPISyncProgressCallback::Progress
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-更新发送/接收对话框中的状态。 存储提供程序定期调用此函数。
+更新 "发送/接收" 对话框中的状态。 存储提供程序定期调用此函数。
   
 ```cpp
 HRESULT Progress(
@@ -39,21 +39,21 @@ HRESULT Progress(
 
  **pwczsProgress**
   
-> 一个指向一个字符串，显示当前进度步骤。 它可以为 NULL，以更新进度。
+> 指向显示当前进度步骤的字符串的指针。 它可以是 NULL 以更新进度。
     
  **ulIndex**
   
-> 正在进行中的当前位置。
+> 当前正在进行的位置。
     
  **ulIndexMax**
   
-> 指示完成进度索引。
+> 指示完整进度的索引。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="see-also"></a>另请参阅
 

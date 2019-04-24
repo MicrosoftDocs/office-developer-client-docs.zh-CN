@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 317c3702415ddf30038ccd0d40cdf0f19abc61f8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338106"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
@@ -39,39 +39,39 @@ HRESULT Logoff(
 
  _ulUIParam_
   
-> [in]父窗口的任何对话框或窗口将显示句柄。 如果未设置 MAPI_LOGOFF_UI 标志，则忽略此参数。
+> 实时要显示的任何对话框或窗口的父窗口的句柄。 如果未设置 MAPI_LOGOFF_UI 标志, 则忽略此参数。
     
  _ulFlags_
   
-> [in]控制注销操作的标志的位掩码。 可以设置以下标志：
+> 实时控制注销操作的标志的位掩码。 可以设置以下标志:
     
 MAPI_LOGOFF_SHARED 
   
-> 如果共享此会话，则登录使用共享的会话的所有客户端应正在注销的通知。 客户端应注销。 使用共享的会话的任何客户端可以设置此标志。 如果不共享当前会话，则忽略 MAPI_LOGOFF_SHARED。
+> 如果此会话是共享的, 则应通知使用共享会话登录的所有客户端正在进行的注销。 客户端应注销。 任何使用共享会话的客户端都可以设置此标志。 如果当前会话不是共享的, 则忽略 MAPI_LOGOFF_SHARED。
     
 MAPI_LOGOFF_UI 
   
-> **注销**可以显示一个对话框，在操作时，可能会提示用户进行确认。 
+> **注销**可以在操作过程中显示对话框, 可能会提示用户进行确认。 
     
  _ulReserved_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 注销操作已成功。
+> 注销操作成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**IMAPISession::Logoff**方法结束 MAPI 会话。 **注销**返回时，无除外[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法可调用它。 
+**IMAPISession:: 注销**方法结束 MAPI 会话。 当**注销**时, 将不会调用除了[IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)之外的任何方法。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-**注销**返回时，通过调用其**IUnknown::Release**方法释放会话对象。 
+当**注销**时, 请通过调用其**IUnknown:: release**方法来释放 session 对象。 
   
-结束会话的详细信息，请参阅[结束 MAPI 会话](ending-a-mapi-session.md)。
+有关结束会话的详细信息, 请参阅[结束 MAPI 会话](ending-a-mapi-session.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -79,10 +79,10 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::Logoff  <br/> |MFCMAPI 使用**IMAPISession::Logoff**方法从之前将其释放会话中注销。  <br/> |
+|MAPIObjects  <br/> |CMapiObjects:: 注销  <br/> |MFCMAPI 使用**IMAPISession:: 注销**方法从会话中注销, 然后再将其发布。  <br/> |
    
 > [!NOTE]
-> 在 Microsoft Office Outlook 2007 Service Pack 2、 Microsoft Outlook 2010 和 Microsoft Outlook 2013 中引入的快速关闭行为，由于客户端应永远不会传递给[IMAPISession::Logoff](imapisession-logoff.md)的**MAPI_LOGOFF_SHARED**参数。 传递**MAPI_LOGOFF_SHARED**都将导致开始关闭所有 MAPI 客户端和出现异常的行为，则会发生。 
+> 由于 microsoft Office Outlook 2007 Service Pack 2、microsoft outlook 2010 和 microsoft outlook 2013 中引入了快速关闭行为, 客户端决不应将**MAPI_LOGOFF_SHARED**参数传递给[IMAPISession:: 注销](imapisession-logoff.md)。 传递**MAPI_LOGOFF_SHARED**将导致所有 MAPI 客户端都开始关闭, 并将发生意外行为。 
   
 ## <a name="see-also"></a>另请参阅
 

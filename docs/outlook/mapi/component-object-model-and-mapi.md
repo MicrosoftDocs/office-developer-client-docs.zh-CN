@@ -9,11 +9,11 @@ api_type:
 ms.assetid: cca4c70d-b73a-4834-80b5-9cb5889f63cc
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a91ab8497a690fd4b99f76274d0213284253fd06
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394116"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334466"
 ---
 # <a name="component-object-model-and-mapi"></a>组件对象模型和 MAPI
 
@@ -21,7 +21,7 @@ ms.locfileid: "25394116"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-Windows SDK 文档中包含的规则实现符合到组件对象模型 (COM) 的对象的全面讨论。 这些规则地址如何执行下列操作：
+Windows SDK 文档包含有关实现符合组件对象模型 (COM) 的对象的规则的全面讨论。 这些规则解决了如何执行以下操作:
   
 - 设计接口和对象。
     
@@ -33,7 +33,7 @@ Windows SDK 文档中包含的规则实现符合到组件对象模型 (COM) 的�
     
 - 实现单元线程对象。
     
-虽然所有 MAPI 对象都视为基于 COM，这是因为它们实现继承[IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx)接口，MAPI 偏离在某些情况下，从标准 COM 的规则。 此偏差使开发人员在其实现更大的灵活性。 例如，任何 COM 接口，类似的 MAPI 界面介绍之间实施和呼叫者的合同。 后的接口是创建和发布，其定义无法，并且不会更改。 MAPI 不偏离此说明，但它 ア ネ 较解除说明。 实施者可以选择不实现特定方法，调用方返回下列错误值之一： 
+尽管所有 MAPI 对象都是基于 COM 的, 因为它们实现从[IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx)继承的接口, 而 mapi 在某些情况下与标准 COM 规则发生了偏离。 通过这种差异, 开发者可以更灵活地实现其实现。 例如, MAPI 接口 (如任何 COM 接口) 描述实施者和调用方之间的合约。 创建并发布接口后, 其定义无法且不会更改。 MAPI 并不偏离此说明, 但在某些情况下 relaxes 说明。 实施者可以选择不实现特定的方法, 并将以下错误值之一返回给调用程序: 
   
 - MAPI_E_NO_SUPPORT
     
@@ -43,15 +43,15 @@ Windows SDK 文档中包含的规则实现符合到组件对象模型 (COM) 的�
     
 - MAPI_E_TYPE_NO_SUPPORT
     
-标准的 COM 规则其他流入下表所述。
+下表介绍了与标准 COM 规则的其他偏差。
   
 |**COM 编程规则**|**MAPI 变体**|
 |:-----|:-----|
-|接口方法中的所有字符串参数应都为 Unicode。  <br/> |MAPI 接口定义允许 Unicode 或 ANSI 字符串参数。 具有字符串参数的许多方法还具有**ulFlags**参数;由中**ulFlags**MAPI_UNICODE 标志的值指示字符串参数的宽度。 一些 MAPI 接口不支持 Unicode，并返回 MAPI_E_BAD_CHARWIDTH 时设置 MAPI_UNICODE 标志。  <br/> |
-|所有接口方法应都具有 HRESULT 返回的类型。  <br/> |MAPI 具有至少一个返回非 HRESULT 值的方法： [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)。  <br/> |
-|呼叫者和实施者应分配并使用标准的 COM 任务分配器释放内存接口参数。  <br/> |所有 MAPI 方法都使用链接的分配器[MAPIAllocateBuffer](mapiallocatebuffer.md)、 [MAPIAllocateMore](mapiallocatemore.md)和[MAPIFreeBuffer](mapifreebuffer.md)管理接口参数的内存。 所有 MAPI 实现的接口定义的 OLE，如[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)，都使用标准的 COM 任务分配器。  <br/> |
-|所有出指针参数必须明确设置为 NULL 时方法将失败。  <br/> |MAPI 接口要求的 out 指针参数设置为 NULL 或保持不变，当方法时将失败。 所有 MAPI 实现的接口定义 OLE 显式设置出故障参数为 NULL。  <br/> |
-|实现尽可能可聚合的对象。  <br/> |MAPI 接口不可聚合。  <br/> |
+|接口方法中的所有字符串参数都应为 Unicode。  <br/> |MAPI 接口定义为允许 Unicode 或 ANSI 字符串参数。 具有 string 参数的许多方法也具有**ulFlags**参数;字符串参数的宽度由**ulFlags**中的 MAPI_UNICODE 标志的值指示。 某些 MAPI 接口不支持 Unicode, 并在设置 MAPI_UNICODE 标志时返回 MAPI_E_BAD_CHARWIDTH。  <br/> |
+|所有接口方法应具有 HRESULT 的返回类型。  <br/> |MAPI 至少有一个返回非 HRESULT 值的方法: [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)。  <br/> |
+|调用方和实现者应使用标准的 COM 任务 allocators 为接口参数分配和释放内存。  <br/> |所有 MAPI 方法均使用链接的 allocators [MAPIAllocateBuffer](mapiallocatebuffer.md)、 [MAPIAllocateMore](mapiallocatemore.md)和[MAPIFreeBuffer](mapifreebuffer.md)来管理接口参数的内存。 所有由 OLE 定义的接口的 MAPI 实现 (如[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)) 使用标准的 COM 任务 allocators。  <br/> |
+|当方法失败时, 所有 out 指针参数都必须显式设置为 NULL。  <br/> |MAPI 接口要求输出的指针参数设置为 NULL 或在方法失败时保持不变。 通过 OLE 定义的所有 MAPI 接口实现都会在失败时显式将参数设置为 NULL。  <br/> |
+|尽可能实现可聚合对象。  <br/> |MAPI 接口不可聚合。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

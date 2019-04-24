@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: ef93ef3d-c159-40ae-9b8d-0af8a0567565
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c66ff2338eb5751dbffe392a6a26258fb1c89476
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dd962515a85cb6a4b8661a0fd5294cea55cd6e96
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339772"
 ---
 # <a name="dismissmodeless"></a>DISMISSMODELESS
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-定义一个时它解除了无模式的通讯簿对话框 MAPI 调用的回调函数。 
+定义在其消除无模式通讯簿对话框时 MAPI 调用的回调函数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|通过实施定义的函数：  <br/> |客户端应用程序  <br/> |
-|定义的函数调用：  <br/> |MAPI  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|定义的函数实现者:  <br/> |客户端应用程序  <br/> |
+|定义的函数调用者:  <br/> |MAPI  <br/> |
    
 ```cpp
 void (STDMETHODCALLTYPE DISMISSMODELESS)(
@@ -44,11 +44,11 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
 
  _ulUIParam_
   
-> [in]通常用于将用户界面的信息传递给函数的特定于实现的值。 例如，Microsoft Windows 中此参数是对话框中的父窗口句柄的类型 HWND，强制转换为**ULONG_PTR**。 值为零表示没有父窗口。 
+> 实时一个特定于实现的值, 通常用于将用户界面信息传递给函数。 例如, 在 Microsoft Windows 中, 此参数是对话框的父窗口句柄, 其类型为 HWND, 转换为**ULONG_PTR**。 如果值为零, 则表示没有父窗口。 
     
  _lpvContext_
   
-> [in]MAPI 调用它时，为任意值的指针传递给回调函数。 此值可表示的客户端应用程序的有效位倍数的地址。 通常，c + + 代码_lpvContext_是一个指向 c + + 对象实例的地址。 
+> 实时指向在 MAPI 调用回调函数时传递给该函数的任意值的指针。 此值可以表示对客户端应用程序的重要性的地址。 通常, 对于 c + + 代码, _lpvContext_是指向 c + + 对象实例的地址的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -56,7 +56,7 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
   
 ## <a name="remarks"></a>注解
 
-当客户端应用程序调用无模式的通讯簿对话框时，它在其 Windows 消息循环中包括对基于[ACCELERATEABSDI](accelerateabsdi.md)原型，其检查和处理快捷键函数的调用。 当关闭对话框时，MAPI 调用**DISMISSMODELESS**基于函数，以便客户端应用程序将停止调用**ACCELERATEABSDI**基于函数。 
+当客户端应用程序调用无模式通讯簿对话框时, 它将在其 Windows 消息循环中包含对基于[ACCELERATEABSDI](accelerateabsdi.md)原型 (检查和处理加速键) 的函数的调用。 当对话框关闭时, MAPI 将调用基于**DISMISSMODELESS**的函数, 以便客户端应用程序将停止调用基于**ACCELERATEABSDI**的函数。 
   
 ## <a name="see-also"></a>另请参阅
 

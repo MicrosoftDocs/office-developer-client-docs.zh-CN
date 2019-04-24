@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: fa5498ab-2f8a-42f8-ba9d-1d555768594f
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 00c7560427ece58026030ce6895d60aec7cc5a2e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 5605de7dbcc18197748713bcf909839690d7259f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336349"
 ---
 # <a name="iid"></a>IID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-介绍用于描述 MAPI 接口的标识符的[GUID](guid.md)结构。 
+描述用于描述 MAPI 接口的标识符的[GUID](guid.md)结构。 
   
 ```cpp
 typedef struct _GUID
@@ -44,9 +44,9 @@ typedef struct _GUID
   
 ## <a name="remarks"></a>注解
 
-**IID**结构用于唯一标识 MAPI 接口并将特定接口与对象相关联。 例如，当打开一个文件夹客户端调用[IMAPISession::OpenEntry](imapisession-openentry.md) ，客户端将_lpInterface_参数设置为指向**IID**表示[IMAPIFolder](imapifolderimapicontainer.md)接口。 MAPI 定义**IMAPIFolderIID**为 IID_IMAPIFolder。 **IID**结构还用于唯一标识 OLE 接口。 
+**IID**结构用于唯一标识 MAPI 接口, 并将特定接口与对象相关联。 例如, 当客户端调用[IMAPISession:: OpenEntry](imapisession-openentry.md)打开文件夹时, 客户端会将_lpInterface_参数设置为指向表示[IMAPIFolder](imapifolderimapicontainer.md)接口的**IID** 。 MAPI 定义了要 IID_IMAPIFolder 的**IMAPIFolderIID** 。 **IID**结构也用于唯一标识 OLE 接口。 
   
-所有的 MAPI 接口的特定**IID**结构 Mapiguid.h 头文件中定义。 
+MAPI 接口的所有特定**IID**结构都是在 Mapiguid 头文件中定义的。 
   
 ## <a name="see-also"></a>另请参阅
 

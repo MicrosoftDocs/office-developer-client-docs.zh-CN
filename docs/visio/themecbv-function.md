@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ef62f63f-b2ce-4d12-a294-93dbdc9a869d
-description: 返回 RGB 值或一个整数，表示在文档的调色板中的索引中的活动主题的渐变设置存储的指定淡色或底纹值其中已修改作为参数传入的颜色 （数目）。
-ms.openlocfilehash: 878da505a840234445d3e16d3b8a68e31eaf5fda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回一个 RGB 值或一个整数, 表示文档的调色板中的索引, 其中的颜色 (数字) 以参数形式传入, 并由活动主题的渐变设置中存储的指定淡色或底纹值修改。
+ms.openlocfilehash: 014dc04c5114e296cd2226f3cf04dfb729817578
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332261"
 ---
 # <a name="themecbv-function"></a>THEMECBV 函数
 
-返回 RGB 值或一个整数，表示在文档的调色板中的索引中的活动主题的渐变设置存储的指定淡色或底纹值其中已修改作为参数传入的颜色 （数目）。 
+返回一个 RGB 值或一个整数, 表示文档的调色板中的索引, 其中的颜色 (数字) 以参数形式传入, 并由活动主题的渐变设置中存储的指定淡色或底纹值修改。 
   
 ## <a name="version-information"></a>版本信息
 
@@ -25,36 +25,36 @@ ms.locfileid: "19781518"
   
 ## <a name="syntax"></a>语法
 
- **THEMECBV**（_颜色_， _gradient_stop_number_）
+ **THEMECBV**( _color_, _gradient_stop_number_)
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |必需  <br/> |**编号** <br/> |代表文档的调色板中的索引号。  <br/> |
-| _gradient_stop_number_ <br/> |必需  <br/> |**编号** <br/> |渐变光圈 （淡色或底纹） 存储中的活动主题的渐变设置要应用的颜色。  <br/> |
+| _color_ <br/> |必需  <br/> |**Number** <br/> |表示文档调色板中的索引的数字。  <br/> |
+| _gradient_stop_number_ <br/> |必需  <br/> |**Number** <br/> |存储在活动主题的渐变设置中以应用于该颜色的渐变停止点 (淡色或底纹)。  <br/> |
    
 ## <a name="return-value"></a>返回值
 
- **编号**
+ **Number**
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 > [!NOTE]
-> THEMECBV 函数无实际作用如果 QuickStyle 使用分配给该形状没有渐变作为参数传递中的颜色。 
+> 如果分配给形状的 QuickStyle 没有渐变, 则 THEMECBV 函数对作为参数传入的颜色不执行任何操作。 
   
-主题中的渐变设置是一系列的编号对应于"浅色"（淡色） 或"变暗"（%底纹） 的渐变光圈。 这些阴影和淡色于要创建的渐变颜色效果的基本颜色。
+主题中的渐变设置是一系列与 "变亮" (淡色) 或 "变暗" (底纹) 相对应的编号渐变停止点。 这些底纹和色调应用于基色, 以创建渐变颜色效果。
   
-**THEMECBV**采用颜色输入和输出颜色后它已修改的色调或指定渐变光圈 %底纹。 淡色和阴影来自主题的定义，如果当前的快速样式包含渐变填充。 如果活动的快速样式没有指定渐变填充或形状设置为无主题，此公式将只返回第一个参数中传递的颜色。 
+**THEMECBV**函数采用颜色输入, 并在指定的渐变光圈的淡色或底纹修改后输出颜色。 如果当前快速样式包含渐变填充, 则 "淡色" 和 "底纹" 来自主题的定义。 如果活动快速样式未指定渐变填充或形状设置为 "无主题", 则此公式只返回为第一个参数传入的颜色。 
   
 ## <a name="example"></a>示例
 
  `THEMECBV(FillForegnd, 5)`
   
-返回由将淡色或中第五个渐变光圈的渐变底纹应用于指定在**FillForegnd**单元格的颜色的颜色。 
+返回通过将渐变的第五个渐变停止点中的淡色或底纹应用于**FillForegnd**单元格中指定的颜色而创建的颜色。 
   
  `THEMECBV(RGB(255,0,0), 2)`
   
-返回底纹或创建的第二个渐变光圈应用到基本颜色的红色的红色的淡色。
+通过将第二个梯度停止点应用于红色的基色, 返回红色的底纹或淡色。
   
 

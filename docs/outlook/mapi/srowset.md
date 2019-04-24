@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 7e3761be-afd6-46cb-9a08-25e9016c1241
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 82fa1b0af504cc4774b1dc077a6ef48378740d26
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 63cef6ef2bb26e8b723c60fe01dd6771aa070ae8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341634"
 ---
 # <a name="srowset"></a>SRowSet
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个[SRow](srow.md)结构数组。 每个**SRow**结构介绍表中的行。 
+包含[SRow](srow.md)结构的数组。 每个**SRow**结构描述表中的行。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的宏：  <br/> |[CbNewSRowSet](cbnewsrowset.md)， [CbSRowSet](cbsrowset.md)， [SizedSRowSet](sizedsrowset.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关宏:  <br/> |[CbNewSRowSet](cbnewsrowset.md)、 [CbSRowSet](cbsrowset.md)、 [SizedSRowSet](sizedsrowset.md) <br/> |
    
 ```cpp
 typedef struct _SRowSet
@@ -45,15 +45,15 @@ typedef struct _SRowSet
 
  **cRows**
   
-> **SRow**结构**aRow**成员中的计数。 
+> **aRow**成员中的**SRow**结构的计数。 
     
  **aRow**
   
-> **SRow**结构的数组。 没有一个结构表中的各行。 
+> **SRow**结构的数组。 表中的每一行都有一个结构。 
     
 ## <a name="remarks"></a>注解
 
-**SRowSet**结构用于描述多个表中的数据行。 **SRowSet**结构[IAddrBook](iaddrbookimapiprop.md)、 [ITableData](itabledataiunknown.md)和[IMAPITable](imapitableiunknown.md)接口方法，除了以下函数中使用： 
+**SRowSet**结构用于描述表中的多行数据。 除了以下函数之外, 还可以在[IAddrBook](iaddrbookimapiprop.md)、 [ITableData](itabledataiunknown.md)和[IMAPITable](imapitableiunknown.md)接口方法中使用**SRowSet**结构: 
   
 - [HrQueryAllRows](hrqueryallrows.md)
     
@@ -61,11 +61,11 @@ typedef struct _SRowSet
     
 - [FreeProws](freeprows.md)
     
- 定义**SRowSet**结构[ADRLIST](adrlist.md)结构，以允许将地址列表中的收件人的表和项的行视为相同的相同。 **SRowSet**结构和**ADRLIST**结构可以传递给[IAddrBook::Address](iaddrbook-address.md) [IMessage::ModifyRecipients](imessage-modifyrecipients.md)等的方法。 
+ **SRowSet**结构的定义与[ADRLIST](adrlist.md)结构相同, 以允许收件人表的行和地址列表中的条目被视为相同。 **SRowSet**结构和**ADRLIST**结构都可以传递给方法, 如[IMessage:: ModifyRecipients](imessage-modifyrecipients.md)和[IAddrBook:: Address](iaddrbook-address.md)。 
   
-此外， **SRowSet**结构的内存分配的规则都与**ADRLIST**结构相同。 总之，必须单独使用[MAPIAllocateBuffer](mapiallocatebuffer.md)分配指向由**lpProps**成员的每一行的行中设置该数组中每个[SPropValue](spropvalue.md)结构。 此外必须使用[MAPIFreeBuffer](mapifreebuffer.md)其**SRowSet**结构的释放之前，以便不会丢失指向分配**SPropValue**结构释放每个属性值结构。 行的分配内存可以随后可保留并重用**SRowSet**结构的上下文之外。 
+此外, 为**SRowSet**结构分配的内存规则与**ADRLIST**结构的规则相同。 总而言之, 必须使用[MAPIAllocateBuffer](mapiallocatebuffer.md)分别分配行集中每行的**lpProps**成员所指向的数组中的每个[SPropValue](spropvalue.md)结构。 在取消分配其**SRowSet**结构之前, 还必须使用[MAPIFreeBuffer](mapifreebuffer.md)释放每个属性值结构, 这样, 指向分配的**SPropValue**结构的指针不会丢失。 然后, 可以保留行的已分配内存, 并在**SRowSet**结构的上下文外部重用它。 
   
-有关应分配的内存**SRowSet**结构的方式的详细信息，请参阅[管理内存 ADRLIST 和 SRowSet 结构](managing-memory-for-adrlist-and-srowset-structures.md)。 
+有关应如何分配**SRowSet**结构的内存的详细信息, 请参阅[管理内存用于 ADRLIST 和 SRowSet 结构](managing-memory-for-adrlist-and-srowset-structures.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

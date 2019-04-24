@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm82253261
 localization_priority: Normal
 ms.assetid: ee4fb340-0c6b-1c9a-9d97-827081bea235
-description: 返回包含形状的页的页码。
-ms.openlocfilehash: e4005f000ec3848c4bc9d966fd95a5c11a0c8e1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回包含形状的页面的编号。
+ms.openlocfilehash: 8c9f3b23afacff4a90e1fa6f2463e36150bc5d5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780831"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339457"
 ---
 # <a name="pagenumber-function"></a>PAGENUMBER 函数
 
-返回包含形状的页的页码。 
+返回包含形状的页面的编号。 
   
 ## <a name="syntax"></a>语法
 
-PAGENUMBER()
+PAGENUMBER ()
   
 ### <a name="return-value"></a>返回值
 
-Number
+帐号
   
 ## <a name="remarks"></a>注解
 

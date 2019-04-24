@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9ea1c029-d53c-4c28-b413-560083b6215a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ca31aece48236227a03d8e2114f8af4b127b8f90
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339352"
 ---
 # <a name="pidtagsubmitflags-canonical-property"></a>PidTagSubmitFlags 规范属性
 
@@ -25,48 +25,48 @@ ms.locfileid: "25384141"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含指示的详细信息消息提交标志的位掩码。
+包含指示邮件提交详细信息的标志的位掩码。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SUBMIT_FLAGS  <br/> |
-|标识符：  <br/> |0x0E14  <br/> |
+|标识符:  <br/> |0x0E14  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-可以为**PR_SUBMIT_FLAGS**位掩码设置一个或多个以下标志： 
+可以为**PR_SUBMIT_FLAGS**位掩码设置以下一个或多个标志: 
   
 SUBMITFLAG_LOCKED 
   
-> MAPI 后台打印当前已锁定的消息。 
+> MAPI 后台处理程序当前已锁定邮件。 
     
 SUBMITFLAG_PREPROCESS 
   
-> 需要预处理消息。 完 MAPI 后台处理程序预处理此消息时，它应调用[IMessage::SubmitMessage](imessage-submitmessage.md)方法。 消息存储提供程序可识别的后台处理程序，而不是客户端应用程序，呼叫**SubmitMessage**、 清除标志，并继续消息提交。
+> 邮件需要进行预处理。 当 MAPI 后台处理程序完成预处理此邮件时, 它应调用[IMessage:: SubmitMessage](imessage-submitmessage.md)方法。 邮件存储区提供程序识别出后台处理程序 (而不是客户端应用程序) 已调用**SubmitMessage**, 清除该标志, 并继续邮件提交。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[毫秒-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> IETF RFC2445、 RFC2446，和 RFC2447，和约会和会议对象之间进行转换。
+> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间进行转换。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

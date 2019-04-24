@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: dcbd12b4-4b50-4be6-a201-45e5d4611ce0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1e25c265f3136fa7caf407e4b2bf160b67ba0111
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bfdb98d5a5b768fad162d60a79cb1f541dc32866
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334368"
 ---
 # <a name="pidtagcontactaddressbooksortflag-canonical-property"></a>PidTagContactAddressBookSortFlag 规范属性
 
@@ -25,30 +25,30 @@ ms.locfileid: "22594857"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个时，应按文件下和 FALSE 排序联系人，他们应按显示名称排序时为 TRUE 的标志。 
+包含一个标志, 当按下的文件对联系人进行排序时, 如果按显示名称对其进行排序, 则该标志为 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTAB_SORT_FLAG  <br/> |
-|标识符：  <br/> |0x6602  <br/> |
+|标识符:  <br/> |0x6602  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
 ## <a name="remarks"></a>注解
 
-这是联系人通讯簿配置文件一节的属性。
+这是联系人通讯簿配置文件部分的属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

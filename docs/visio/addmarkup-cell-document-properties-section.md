@@ -9,28 +9,28 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 46146424-b4c9-2240-36c0-19bb35ec51d1
 description: 指示是否正对文档进行审阅以便加标记。
-ms.openlocfilehash: 69430122b0a7665d7daa4a6b28f3a51745b74473
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e0860639b0d89fce2c35a8947bd5ac00fcc63e5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338631"
 ---
-# <a name="addmarkup-cell-document-properties-section"></a>AddMarkup 单元格（“Document Properties”部分）
+# <a name="addmarkup-cell-document-properties-section"></a>AddMarkup 单元格（“Document Properties”内容）
 
 指示是否正对文档进行审阅以便加标记。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |正在对文档进行审阅。  <br/> |
 |FALSE  <br/> |未对文档进行审阅（默认值）。  <br/> |
    
 ## <a name="remarks"></a>注解
 
-AddMarkup 单元格设置为 true，则审阅者时添加标记和更改应用于标记贴页面不的原始绘图页。 AddMarkup 单元格时为 FALSE，跟踪标记处于关闭状态，并更改应用于原始绘图页。
+当 AddMarkup 单元格设置为 TRUE 时，审阅者正在添加标记，并且更改将应用于标记贴页而不是原始绘图页。 当 AddMarkup 单元格为 FALSE 时，将禁用标记跟踪，并且更改将应用于原始绘图页。
   
 > [!NOTE]
-> 可以对您的文档使用 GUARD 函数防止标记。 如果 AddMarkup 单元格包含公式 = GUARD(FALSE)，禁用**跟踪标记**命令。 
+> 您可以使用 GUARD 函数阻止对文档进行标记。 如果 AddMarkup 单元格包含公式 = GUARD (FALSE), 则禁用 "**跟踪标记**" 命令。 
   
 此设置对应于 **“审阅”** 选项卡上的 **“标记”** 组中的 **“跟踪标记”** 命令设置。 
   

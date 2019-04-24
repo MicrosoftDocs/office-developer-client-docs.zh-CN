@@ -9,15 +9,15 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b8ef9c25-acd0-fc55-e35a-b8924af5dac4
 description: 指示形状相对于其所粘附到的参考线或辅助点的对齐方式。只为粘附到参考线的形状显示“Alignment”内容。
-ms.openlocfilehash: d4216a2663b975f1762db3917cb0a223bb3abb3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a24775be5d9e034b7636b7740b4e5ecbe80f3c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341508"
 ---
-# <a name="alignment-section"></a>“Alignment”部分
+# <a name="alignment-section"></a>“Alignment”内容
 
-指示与参考线或辅助形状的对齐方式指向形状粘附。 **Alignment**内容仅出现粘附到参考线的形状。 
+指示形状相对于其所粘附到的参考线或辅助点的对齐方式。 **对齐**部分仅在粘附到参考线的形状上显示。 
   
 

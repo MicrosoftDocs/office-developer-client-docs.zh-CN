@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 2def89ed-e4ce-446a-8b80-132d11ae8f8b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 43569b22cace7b2700d37ace49fd734b45fec73c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7abafafd3d4bd9618d85a7dac34e4556545167bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334753"
 ---
 # <a name="iaddrbookadvise"></a>IAddrBook::Advise
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-注册接收有关对一个或多个条目的更改的通知通讯簿中的客户端或服务提供程序。
+注册客户端或服务提供商, 以接收有关通讯簿中的一个或多个条目的更改通知。
   
 ```cpp
 HRESULT Advise(
@@ -41,17 +41,17 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> [in]在_lpEntryID_参数指向的项标识符的字节数。 
+> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
     
  _lpEntryID_
   
-> [in]指向通讯簿容器，消息用户或通讯组列表的_ulEventMask_参数中描述的类型发生更改时，将生成通知的项标识符的指针。 
+> 实时指向通讯簿容器、邮件用户或通讯组列表的条目标识符的指针, 在_ulEventMask_参数中所述的类型或类型发生更改时, 将生成通知。 
     
  _ulEventMask_
   
-> [in]呼叫者注册接收的一个或多个通知事件。 每个事件相关联的特定通知结构包含有关发生的更改的信息。 下表列出的有效值_ulEventMask_和其对应的结构。 
+> 实时呼叫者注册接收的一个或多个通知事件。 每个事件都与特定的通知结构相关联, 其中包含有关所发生更改的信息。 下表列出了_ulEventMask_及其对应结构的有效值。 
     
-|**通知事件**|**相应的结构**|
+|**通知事件**|**对应的结构**|
 |:-----|:-----|
 |**fnevCriticalError** <br/> |[ERROR_NOTIFICATION](error_notification.md) <br/> |
 |**fnevObjectCreated** <br/> |[OBJECT_NOTIFICATION](object_notification.md) <br/> |
@@ -63,43 +63,43 @@ HRESULT Advise(
    
  _lpAdviseSink_
   
-> [in]指向要为其请求通知事件发生时调用的 advise 接收器对象的指针。
+> 实时指向在请求通知的事件发生时要调用的通知接收器对象的指针。
     
  _lpulConnection_
   
-> [输出]一个指向代表通知注册非零值的连接数。
+> 排除指向代表通知注册的非零连接号的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 通知注册成功。
+> 通知注册已成功。
     
 MAPI_E_INVALID_ENTRYID 
   
-> 负责_lpEntryID_中传递的项标识符的地址簿提供程序无法注册相应的项的通知。 
+> 负责_lpEntryID_中传递的条目标识符的通讯簿提供程序无法为相应条目注册通知。 
     
 MAPI_E_NO_SUPPORT 
   
-> 通讯簿提供程序负责标识_lpEntryID_参数中传递的项标识符的对象不支持通知。 
+> 通讯簿提供程序不支持通知, 该通讯簿提供程序负责由_lpEntryID_参数中传递的条目标识符标识的对象。 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> 不能由任何配置文件中的地址簿提供程序处理_lpEntryID_中传递的项标识符。 
+> _lpEntryID_中传递的条目标识符不能由配置文件中的任何通讯簿提供程序处理。 
     
 ## <a name="remarks"></a>注解
 
-客户端和服务提供商调用**Advise**方法注册特定类型或上的通讯簿条目的通知的类型。 通过使用_ulEventMask_参数传递的事件掩码表示通知的类型。 
+客户端和服务提供程序调用**Advise**方法以在通讯簿条目上注册特定类型或通知类型。 通知的类型由通过_ulEventMask_参数传入的事件掩码指示。 
   
-MAPI 转发到的地址簿提供程序负责由_lpEntryID_参数中的项标识符的条目此**Advise**呼叫。 通讯簿提供程序处理的注册本身，或调用支持方法， [IMAPISupport::Subscribe](imapisupport-subscribe.md)，提示 MAPI 注册呼叫者。 返回非零值的连接数来表示成功注册。
+MAPI 将此**通知**调用转发给通讯簿提供程序, 该提供程序负责_lpEntryID_参数中的条目标识符所表示的条目。 通讯簿提供程序可以处理注册本身, 也可以调用支持方法[IMAPISupport:: 订阅](imapisupport-subscribe.md), 以提示 MAPI 注册呼叫者。 返回一个非零连接号码以表示成功注册。
   
-当指示通知注册的类型的项发生更改时，通讯簿提供程序为_lpAdviseSink_参数中指定的 advise 接收器对象调用[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法。 **OnNotify**方法包括作为输入参数包含数据描述该事件[通知](notification.md)结构。 
+每当通知注册所指示的类型的项发生更改时, 通讯簿提供程序都会为_lpAdviseSink_参数中指定的建议接收器对象调用[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法。 **OnNotify**方法包含一个[通知](notification.md)结构作为输入参数, 其中包含用于描述事件的数据。 
   
-通讯簿提供程序，根据**OnNotify**调用紧跟更改对注册对象或更高版本时出现。 支持多个线程的执行系统，在调用**OnNotify**可以发生任何线程上。 客户端可以请求对这些通知通过调用[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)函数来创建 advise 接收器对象传递给**Advise**发生在特定线程。 
+根据通讯簿提供程序, 对**OnNotify**的调用可以立即发生在对已注册对象的更改之后, 或在以后发生时。 在支持多个执行线程的系统上, 对**OnNotify**的调用可以出现在任何线程上。 客户端可以通过调用[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)函数来创建传递给**advise**的建议接收器对象, 从而请求在特定线程上发生这些通知。 
   
-因为通讯簿提供程序可以释放 advise 接收器对象中传递的客户端在任何时候**Advise**成功完成呼叫，并在[IAddrBook::Unadvise](iaddrbook-unadvise.md)前调用取消通知后，应释放客户端当**Advise**返回其 advise 接收器对象。 
+由于通讯簿提供程序可以在成功完成通知呼叫之后随时释放客户端传入的通知接收器对象, 并且在**** [IAddrBook:: Unadvise](iaddrbook-unadvise.md)调用取消通知之前, 客户端应释放**建议**返回时的通知接收器对象。 
   
-有关通知过程的详细信息，请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。
+有关通知过程的详细信息, 请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。
   
 ## <a name="see-also"></a>另请参阅
 
@@ -111,7 +111,7 @@ MAPI 转发到的地址簿提供程序负责由_lpEntryID_参数中的项标识�
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[通知](notification.md)
+[NOTIFICATION](notification.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

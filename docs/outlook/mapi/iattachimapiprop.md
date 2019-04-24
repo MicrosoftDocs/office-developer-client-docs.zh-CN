@@ -12,34 +12,34 @@ api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ce9c8b189991e4102fcc9d17b88747d4ce55efec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ef3bc973e12bd5630cc00b3c512b748d4a16e86
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570910"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341620"
 ---
 # <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-维护并提供对属性的邮件中的附件的访问。 **IAttach**接口都有其自己的方法都不唯一。 有关如何使用附件的详细信息，请参阅[MAPI 附件](mapi-attachments.md)和[附件表](attachment-tables.md)。 
+维护并提供对邮件中附件的属性的访问。 **IAttach**接口没有自己的唯一方法。 有关如何使用附件的详细信息, 请参阅[MAPI 附件](mapi-attachments.md)和[附件表](attachment-tables.md)。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|由公开：  <br/> |Attachment 对象  <br/> |
-|通过实现：  <br/> |消息存储提供程序  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
-|接口标识符：  <br/> |IID_IAttachment  <br/> |
-|指针类型：  <br/> |LPATTACH  <br/> |
-|事务模型：  <br/> |事务处理  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|公开者:  <br/> |附件对象  <br/> |
+|实现者：  <br/> |邮件存储区提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
+|接口标识符:  <br/> |IID_IAttachment  <br/> |
+|指针类型:  <br/> |LPATTACH  <br/> |
+|事务模型:  <br/> |事务  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
-此接口不具有任何唯一的方法。
+此接口没有任何唯一的方法。
   
 |**必需属性**|**Access**|
 |:-----|:-----|

@@ -8,36 +8,36 @@ api_type:
 - COM
 ms.assetid: 0882be14-573c-440c-954f-76ef70eea33e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7af1e710006986807091c5c36d54da86204a71d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 37f6cd0320894d500416672c3dd0d90ee3324b40
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337028"
 ---
 # <a name="displaying-table-controls"></a>显示表控件
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-有许多不同类型的控件，无特有的 MAPI。 但是，MAPI 定义了使用自己结构[BuildDisplayTable](builddisplaytable.md)来描述数据所涉及的每个控件的唯一一套与结合使用。 
+有许多不同类型的控件, MAPI 都不唯一。 但是, MAPI 定义了自己的结构, 这些结构与[BuildDisplayTable](builddisplaytable.md)结合使用, 以描述每个控件所涉及的独特数据集。 
   
 下表列出了描述每种类型的控件的结构。 
   
-|**控制结构**|**说明**|
+|**控制结构**|**Description**|
 |:-----|:-----|
-|[DTBLBUTTON](dtblbutton.md) <br/> |描述一个按钮控件。  <br/> |
-|[DTBLCHECKBOX](dtblcheckbox.md) <br/> |描述的复选框控件。  <br/> |
-|[DTBLCOMBOBOX](dtblcombobox.md) <br/> |介绍组合框控件。  <br/> |
-|[DTBLDDLBX](dtblddlbx.md) <br/> |描述的下拉列表框控件。  <br/> |
+|[DTBLBUTTON](dtblbutton.md) <br/> |描述按钮控件。  <br/> |
+|[DTBLCHECKBOX](dtblcheckbox.md) <br/> |描述复选框控件。  <br/> |
+|[DTBLCOMBOBOX](dtblcombobox.md) <br/> |描述组合框控件。  <br/> |
+|[DTBLDDLBX](dtblddlbx.md) <br/> |描述下拉列表框控件。  <br/> |
 |[DTBLEDIT](dtbledit.md) <br/> |介绍编辑控件。  <br/> |
-|[DTBLGROUPBOX](dtblgroupbox.md) <br/> |介绍组框控件。  <br/> |
-|[DTBLLABEL](dtbllabel.md) <br/> |介绍 label 控件。  <br/> |
+|[DTBLGROUPBOX](dtblgroupbox.md) <br/> |描述分组框控件。  <br/> |
+|[DTBLLABEL](dtbllabel.md) <br/> |介绍标签控件。  <br/> |
 |[DTBLLBX](dtbllbx.md) <br/> |描述列表框控件。  <br/> |
-|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |介绍了一个多值下拉列表框控件。  <br/> |
-|[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |介绍了一个多值列表框控件。  <br/> |
-|[DTBLPAGE](dtblpage.md) <br/> |描述的选项卡式的页面控件。  <br/> |
+|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |介绍多值下拉列表框控件。  <br/> |
+|[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |描述多值列表框控件。  <br/> |
+|[DTBLPAGE](dtblpage.md) <br/> |介绍选项卡式页面控件。  <br/> |
 |[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |介绍选项按钮控件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅

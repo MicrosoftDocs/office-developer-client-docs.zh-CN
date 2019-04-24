@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251594
 localization_priority: Normal
 ms.assetid: 9587283b-4f4d-0ad6-34aa-58e2001f085e
-description: 返回日期和时间上次打印文档，作为序列值。
-ms.openlocfilehash: 70404945ebb0ca5da0dda882bd7b0abd6656f1eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 以序列值的形式返回上次打印文档的日期和时间。
+ms.openlocfilehash: 3198b98b58e2b68e58ae16643e396e1a91635940
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334403"
 ---
 # <a name="doclastprint-function"></a>DOCLASTPRINT 函数
 
-返回日期和时间上次打印文档，作为序列值。
+以序列值的形式返回上次打印文档的日期和时间。
   
 ## <a name="syntax"></a>语法
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a5fcf5c-8a5a-4774-b8c9-1ac1ff27947d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2ec8a28dc52e2aa1f1fa63410b6bd6c13fb5bd57
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 4865c1c867dd73514ab22ac4e8da628caf154ee7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339268"
 ---
 # <a name="icontabadminremovestore"></a>IContabAdmin::RemoveStore
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-删除联系人通讯簿 (CAB) 指定由给定的条目 ID 从通讯簿层次结构。
+从通讯簿层次结构中删除由给定条目 ID 指定的联系人通讯簿 (CAB)。
   
 ```cpp
 HRESULT RemoveStore(
@@ -38,10 +38,10 @@ LPENTRYID lpEntryID
 
  _cbEntryID_
   
-> [in]在_lpEntryID_参数指向的项标识符的字节数。 
+> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
     
  _lpEntryID_
   
-> [in]指向要打开的对象的项标识符的指针。
+> 实时指向要打开的对象的条目标识符的指针。
     
 

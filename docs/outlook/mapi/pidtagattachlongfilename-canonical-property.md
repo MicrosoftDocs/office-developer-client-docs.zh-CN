@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 83b69e8f-0b5a-4992-b5b8-160d3bdfa22a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 45b6b3fb0c67d854fddf3773c06cef7b36f54992
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339324"
 ---
 # <a name="pidtagattachlongfilename-canonical-property"></a>PidTagAttachLongFilename 规范属性
 
@@ -25,54 +25,54 @@ ms.locfileid: "25394459"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含附件的长文件名和扩展名，不包括路径。 
+包含附件的长文件名和扩展名 (不包括路径)。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_ATTACH_LONG_FILENAME，PR_ATTACH_LONG_FILENAME_A，PR_ATTACH_LONG_FILENAME_W  <br/> |
-|标识符：  <br/> |0x3707  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_ATTACH_LONG_FILENAME、PR_ATTACH_LONG_FILENAME_A、PR_ATTACH_LONG_FILENAME_W  <br/> |
+|标识符:  <br/> |0x3707  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这些属性与 ATTACH_BY_VALUE、 ATTACH_BY_REFERENCE、 ATTACH_BY_REF_RESOLVE 和 ATTACH_BY_REF_ONLY **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 属性的值。 支持长文件名的平台应发送时，设置的**PR_ATTACH_LONG_FILENAME**和**PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) 属性，并应检查**PR_ATTACH_LONG_FILENAME**首先时接收。 
+这些属性与**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 属性的 ATTACH_BY_VALUE、ATTACH_BY_REFERENCE、ATTACH_BY_REF_RESOLVE 和 ATTACH_BY_REF_ONLY 值相关。 支持长文件名的平台应在发送时同时设置**PR_ATTACH_LONG_FILENAME**和**PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) 属性, 并应先检查**PR_ATTACH_LONG_FILENAME**收货. 
   
-客户端应用程序应将此属性设置为建议的长文件名用于接收邮件主机支持长文件名。 **PR_ATTACH_LONG_FILENAME**可以用作文件名，用于保存附件，并提供文件扩展名，如果未提供**PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) 属性。 
+如果接收邮件的主机计算机支持长文件名, 客户端应用程序应将此属性设置为建议使用的长文件名。 **PR_ATTACH_LONG_FILENAME**可用作保存附件的文件名, 如果未提供**PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) 属性, 则提供文件名扩展。 
   
-与供稿**PR_ATTACH_FILENAME**文件名，此名称不是限制为八个字符 filename 扩展名为三个字符。 相反，它可以是最多 256 个字符长，包括文件名、 extension 和分隔符句号。 
+与**PR_ATTACH_FILENAME**提供的文件名不同, 此名称不限制为8个字符的文件名加上三个字符的扩展名。 相反, 它的最大长度为256个字符, 包括文件名、扩展名和分隔符期。 
   
-MAPI 仅适用于 ANSI 字符集中的文件名。 使用 OEM 字符集中的文件名的客户端应用程序必须将其转换为 ANSI 调用 MAPI 之前。 
+MAPI 仅适用于 ANSI 字符集中的文件名。 使用 OEM 字符集中的文件名的客户端应用程序必须先将其转换为 ANSI, 然后再调用 MAPI。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
-[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> 从 Internet 标准电子邮件约定转换为消息对象。
+> 从 Internet 标准电子邮件约定转换为邮件对象。
     
-[[MS OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[毫秒-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > 指定权限管理编码邮件的属性。
     
-[[MS OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
+[[毫秒-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的表示语音邮件和传真消息。
+> 指定允许表示语音邮件和传真邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mmapitags.h
+Mmapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

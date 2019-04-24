@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 4ec3100f-7cf1-4702-b326-e6da586a7bb2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3c1a848eec84c7d81792a95baa3f47fa6779e95f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 33a7545f9b2719615617d46e2d5ed1f6952b5522
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335425"
 ---
 # <a name="pidtagreportname-canonical-property"></a>PidTagReportName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含应获得此消息报告的收件人的显示名称。
+包含应获取此邮件报告的收件人的显示名称。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_REPORT_NAME，PR_REPORT_NAME_A，PR_REPORT_NAME_W  <br/> |
-|标识符：  <br/> |0x003A  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_REPORT_NAME、PR_REPORT_NAME_A、PR_REPORT_NAME_W  <br/> |
+|标识符:  <br/> |0x003A  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
 ## <a name="remarks"></a>注解
 
-这些属性是发件人已委派接收此消息生成任何报告的收件人的地址属性的示例。
+这些属性是发件人为接收此邮件生成的任何报告而委派的收件人地址属性的示例。
   
-必须将报表路由到另一个用户的客户端应用程序应在消息提交时设置这些属性。 如果未设置这些属性，报告将发送给邮件发件人。
+必须将报告路由到另一个用户的客户端应用程序应在邮件提交时设置这些属性。 如果未设置, 则会将报告发送给邮件发件人。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

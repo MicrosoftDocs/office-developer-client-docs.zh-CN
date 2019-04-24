@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 93d7b00c-bd34-6b4e-44fe-afeb8aa9a294
 description: 确定超链接在快捷菜单上显示的顺序的数字。
-ms.openlocfilehash: 03596918924b04a776eb7ffd2f16db1c57de8194
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 002ab036f5305aa6daa631c15b0e9eb6148a9635
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335215"
 ---
-# <a name="sortkey-cell-hyperlinks-section"></a>SortKey 单元格（“Hyperlinks”部分）
+# <a name="sortkey-cell-hyperlinks-section"></a>SortKey 单元格（“Hyperlinks”内容）
 
 确定超链接在快捷菜单上显示的顺序的数字。
   
@@ -28,14 +28,14 @@ ms.locfileid: "19781416"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |超链接。 *名称*。SortKey 其中超链接 *.name*是行名称  <br/> |
+|单元格名称：  <br/> |超链接。 *名称*。在其中的超链接的排序关键字 *。 name*为行名称  <br/> |
    
 若要从某个程序按索引获取对 SortKey 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionHyperlink** <br/> |
-|行索引：  <br/> |**visRow1stHyperlink** +  *i*其中*i* = 0、 1、 2...  <br/> |
+|行索引：  <br/> |**visRow1stHyperlink** +  *i* = ** 0、1、2 .。。  <br/> |
 |单元格索引：  <br/> |**visHLinkSortKey** <br/> |
    
 

@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a75ff1f3-2f4d-89e3-108b-e16a34f5184f
 description: 表示当指定了自定义项目符号字符串并且 Bullet 单元格中的值不为零时，用于设置文字格式的字体编号。
-ms.openlocfilehash: 7cd3333afc30d30ea7b0e5d35650681074744235
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1cf04917bb7dfa68ee9395abb66ffe9e150f0273
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337553"
 ---
-# <a name="bulletfont-cell-paragraph-section"></a>BulletFont 单元格（“Paragraph”部分）
+# <a name="bulletfont-cell-paragraph-section"></a>BulletFont 单元格（“Paragraph”内容）
 
 表示当指定了自定义项目符号字符串并且 Bullet 单元格中的值不为零时，用于设置文字格式的字体编号。 
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 根据您的系统上安装的字体，字体编号会有所不同。如果该值是 0 并且有自定义项目符号字符串，则所使用的字体与该段落的第一个字符的字体相同。
   
@@ -28,14 +28,14 @@ ms.locfileid: "19779819"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | Para.BulletFont [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
+| 单元格名称：  <br/> | BulletFont [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
    
 要从某个程序按索引获取对 BulletFont 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionParagraph** <br/> |
-| 行索引：  <br/> |**visRowParagraph** +  *i*其中*i* = 0、 1、 2...  <br/> |
+| 行索引：  <br/> |**visRowParagraph** +  *i* = ** 0、1、2 .。。  <br/> |
 | 单元格索引：  <br/> |**visBulletFont** <br/> |
    
 

@@ -8,15 +8,15 @@ f1_keywords:
 - vis_sdr.chm1000
 localization_priority: Normal
 ms.assetid: 1bfb61f7-1f27-a000-20f3-80da6a32a2fb
-description: 保留以备今后使用。
-ms.openlocfilehash: bf9ac62a998e77f2ad691d3eed72df5dde8823f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 保留以供将来使用。
+ms.openlocfilehash: c8385fba4f71a8678686d8de24ba0ab4063fee5d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332235"
 ---
-# <a name="thedata-cell-events-section"></a>TheData 单元格（“Events”部分）
+# <a name="thedata-cell-events-section"></a>TheData 单元格（“Events”内容）
 
 保留以供将来使用。
   

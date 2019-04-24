@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e1da84b3-fd15-12b9-9342-0412e818b3b9
 description: 确定当前绘图比例中页面单位的值。页面的绘图比例是 PageScale 单元格中显示的页面单位与 DrawingScale 单元格中显示的绘图单位之比。
-ms.openlocfilehash: 0e1721ea667ad3bcd9f35880ab4e63bc90802c32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0763fd6fad5f64bc741cbdd1e1227b0982323841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339450"
 ---
-# <a name="pagescale-cell-page-properties-section"></a>PageScale 单元格（“Page Properties”部分）
+# <a name="pagescale-cell-page-properties-section"></a>PageScale 单元格（“Page Properties”内容）
 
 确定当前绘图比例中页面单位的值。页面的绘图比例是 PageScale 单元格中显示的页面单位与 DrawingScale 单元格中显示的绘图单位之比。
   

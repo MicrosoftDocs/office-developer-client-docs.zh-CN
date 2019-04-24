@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 30672a2d-2d39-4292-b21a-97a38485d1de
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d55134cf5181ebbba0108c228d9afc3a494e75ce
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 63aa9db19c901f47004a7fe52d906846f44b8883
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338526"
 ---
 # <a name="developing-mapi-form-servers"></a>开发 MAPI 表单服务器
 
@@ -21,25 +21,25 @@ ms.locfileid: "22576237"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本节介绍创建窗体服务器可执行文件和用于创建自定义 MAPI 窗体的窗体配置文件的过程。 在之前阅读本节，您应熟悉[MAPI 窗体](mapi-forms.md)中的信息。
+本节介绍创建表单服务器可执行文件和表单配置文件以创建自定义 MAPI 表单的过程。 阅读本节之前, 应熟悉[MAPI 表单](mapi-forms.md)中的信息。
   
-开发表单服务器包括以下步骤：
+开发表单服务器包括以下步骤:
   
-1. 确定窗体将包含哪些信息，然后选择要保留的信息的属性集。 有关详细信息，请参阅[Choosing 窗体的属性设置](choosing-a-form-s-property-set.md)。
+1. 确定表单将包含的信息, 并选择一组用于保存该信息的属性。 有关详细信息, 请参阅[选择表单的属性集](choosing-a-form-s-property-set.md)。
     
-2. 设计与，用户可以与窗体的属性进行交互的用户界面。
+2. 设计用户可与表单的属性进行交互的用户界面。
     
-3. 选择邮件类并生成的唯一的类标识符 (CLSID)。 邮件类的概述，请参阅[MAPI 邮件类](mapi-message-classes.md)。 有关邮件类和窗体的详细信息，请参阅[Choosing 邮件类](choosing-a-message-class.md)。
+3. 选择邮件类别并生成唯一的类标识符 (CLSID)。 有关邮件类别的概述, 请参阅[MAPI 邮件类别](mapi-message-classes.md)。 有关邮件类别和窗体的详细信息, 请参阅[选择邮件类别](choosing-a-message-class.md)。
     
-4. 实现所需的 MAPI 表单接口，以及特定窗体服务器需要的任何可选接口。 有关详细信息，请参阅[编写窗体服务器代码](writing-form-server-code.md)。 
+4. 实现所需的 MAPI 表单接口, 以及特定表单服务器所需的任何可选接口。 有关详细信息, 请参阅[编写表单服务器代码](writing-form-server-code.md)。 
     
-5. 编写用户界面的代码来处理用户交互的 form 对象和属性使用窗体。
+5. 编写用户界面代码, 以处理用户与表单对象和表单使用的属性的交互。
     
-6. 创建窗体的窗体配置文件。 有关详细信息，请参阅[窗体配置文件的文件格式](file-format-of-form-configuration-files.md)。
+6. 为窗体创建窗体配置文件。 有关详细信息, 请参阅[表单配置文件的文件格式](file-format-of-form-configuration-files.md)。
     
-7. 用户的计算机上安装窗体。 有关详细信息，请参阅[安装到库窗体](installing-a-form-into-a-library.md)。
+7. 在用户的计算机上安装表单。 有关详细信息, 请参阅将[表单安装到库](installing-a-form-into-a-library.md)中。
     
-您很可能将执行步骤 1 至 5 同时而不是从顺序完成它们。 开发一个窗体服务器，许多编程项目，如过程不是一个处于特别是定义完善序列。 例如，创建窗体配置文件显示为第二个上次步骤，您可能将创建窗体配置文件增量，但它将变得更完整，您将功能添加到窗体服务器。
+您很可能会同时执行步骤1到 5, 而不是按顺序完成这些步骤。 开发表单服务器的过程 (如许多编程项目) 不是在其中有一个特别定义明确的序列的过程。 例如, 创建一个窗体配置文件时, 将显示为上面的倒数第二步, 但您可能会以增量方式创建表单配置文件, 在您向表单服务器添加功能时, 该文件将会变得更完整。
   
 ## <a name="see-also"></a>另请参阅
 

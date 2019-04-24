@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: b465d015-9b62-4986-b0df-118121f60602
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 371d0305f8f00e66704bae03f93857c7275b6a10
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bc511ea4b3ec4eea9e38f744bcb8f277108085cc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589817"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336895"
 ---
 # <a name="flatentrylist"></a>FLATENTRYLIST
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个[FLATENTRY](flatentry.md)结构数组。 
+包含[FLATENTRY](flatentry.md)结构的数组。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的宏：  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md) [CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关宏:  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md)、 [CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |
    
 ```cpp
 typedef struct
@@ -44,23 +44,23 @@ typedef struct
 
 **cEntries**
   
-> **FLATENTRY**结构由**abEntries**成员描述该数组中的计数。 
+> 由**abEntries**成员描述的数组中的**FLATENTRY**结构的计数。 
     
 **cbEntries**
   
-> 描述**abEntries**数组中的字节数。 
+> 由**abEntries**描述的数组中的字节数。 
     
 **abEntries**
   
-> 字节数组，其中包含一个或多个**FLATENTRY**结构排列的端到端。 
+> 包含一个或多个**FLATENTRY**结构的字节数组, 该数组排列端到端。 
     
 ## <a name="remarks"></a>注解
 
-在**abEntries**数组中，每个**FLATENTRY**结构自然地对齐边界上对齐。 额外字节都作为包含填充使任意两个**FLATENTRY**结构之间的确保自然对齐。 该数组中的第一个**FLATENTRY**结构对齐始终正确，因为**abEntries**成员的偏移量为 8。 若要计算的偏移量的下一个结构，使用向上舍入到 4 的下一步的倍数的第一个条目的大小。 使用[CbFLATENTRY](cbflatentry.md)宏来计算**FLATENTRY**结构的大小。 
+在**abEntries**数组中, 每个**FLATENTRY**结构在自然对齐的边界处对齐。 填充包含额外的字节以确保任意两个**FLATENTRY**结构之间的自然对齐。 数组中的第一个**FLATENTRY**结构始终正确对齐, 因为**abEntries**成员的偏移量为8。 若要计算下一个结构的偏移量, 请使用第一项的大小向上舍入到接下来的4个。 使用[CbFLATENTRY](cbflatentry.md)宏计算**FLATENTRY**结构的大小。 
   
-例如，第二个**FLATENTRY**结构开始在偏移量为组成的第一个条目的偏移量以及舍入到下一步的四个字节的第一个条目的长度。 第一个条目的长度是其**cb**成员长度加上其**abEntry**成员的长度。 
+例如, 第二个**FLATENTRY**结构从包含第一项的偏移加上第一项的长度加上第一项的偏移量到接下来的四个字节的偏移量。 第一个条目的长度是其**cb**成员的长度加上其**abEntry**成员的长度。 
   
-下面的代码示例指示如何计算**FLATENTRYLIST**结构中的偏移量。 假定该_lpFlatEntry_是指向列表中的第一个结构的指针。 
+下面的代码示例指示如何在**FLATENTRYLIST**结构中计算偏移量。 假定_lpFlatEntry_是指向列表中第一个结构的指针。 
   
 ```cpp
 (offsetof(lpFlatEntry->ab) // for example, 4

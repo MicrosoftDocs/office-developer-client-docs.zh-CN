@@ -8,23 +8,23 @@ f1_keywords:
 - Vis_DSS.chm585
 localization_priority: Normal
 ms.assetid: 16b0e293-eeef-34b4-aeb0-4472815dd543
-description: 确定形状的线条粗细。通过输入具有有效度量单位的数字即可设置线条粗细。
-ms.openlocfilehash: a5207607d90ef6a79dcb3acc191521b73e2cdf54
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定形状的线条粗细。 通过输入具有有效度量单位的数字即可设置线条粗细。
+ms.openlocfilehash: 654a93f939226bedab2e40ab591dad0e3f872267
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341809"
 ---
-# <a name="lineweight-cell-line-format-section"></a>LineWeight 单元格（“Line Format”部分）
+# <a name="lineweight-cell-line-format-section"></a>LineWeight 单元格（“Line Format”内容）
 
-确定形状的线条粗细。通过输入具有有效度量单位的数字即可设置线条粗细。
+确定形状的线条粗细。 通过输入具有有效度量单位的数字即可设置线条粗细。
   
 ## <a name="remarks"></a>注解
 
 还可以在 **“线条”** 对话框（在 **“开始”** 选项卡上，**“形状”** 组中，单击 **“线条”**，指向 **“权重”**，然后单击 **“其他线条”**）中设置 LineWeight 的值。
   
-如果不输入的度量单位，则使用的**Visio 选项**对话框中指定的文本的度量单位 （单击**文件**选项卡，然后单击**选项**）。 绘图的比例无关的线条粗细。 缩放绘图时，如果线条粗细保持不变。 
+如果未输入度量单位, 则使用在 " **Visio 选项**" 对话框中指定的文本的度量单位 (单击 "**文件**" 选项卡, 然后单击 "**选项**")。 线条粗细与绘图比例无关。 即使绘图比例进行调整，线条粗细仍将保持不变。 
   
 若要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LineWeight 单元格的引用，请使用： 
   

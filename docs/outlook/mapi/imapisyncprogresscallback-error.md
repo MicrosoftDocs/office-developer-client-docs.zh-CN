@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4860992d-65d7-4cb0-a874-ceccb153dbac
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 8cff424e3b589af292e56cef1ca19198e9c80d1f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 80010ca19999ba519f051e914f02f240abb524e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341333"
 ---
 # <a name="imapisyncprogresscallbackerror"></a>IMAPISyncProgressCallback::Error
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594983"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供发送/接收对话框中显示的详细信息。 如果同步过程中遇到错误，存储提供程序调用此函数。
+提供在 "发送/接收" 对话框中显示的详细信息。 如果在同步过程中遇到错误, 则存储提供程序将调用此函数。
   
 ```cpp
 HRESULT Error(
@@ -38,17 +38,17 @@ HRESULT Error(
 
  **hResult**
   
-> 相应的 HRESULT 错误或警告。
+> 错误或警告的 HRESULT。
     
  **pwcszErrorStr**
   
-> 指向与该错误以显示关联的字符串的指针。
+> 指向与要显示的错误关联的字符串的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="see-also"></a>另请参阅
 

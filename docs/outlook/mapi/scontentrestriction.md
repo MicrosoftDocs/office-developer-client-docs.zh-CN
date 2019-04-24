@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: 784c8a5a-493e-48e6-8784-ba8122c76e3d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 43703051193ffacec6a54355eeea74edf904f186
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87be6df27a3e6729cb514118438521d76a66b30c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339835"
 ---
 # <a name="scontentrestriction"></a>SContentRestriction
  
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-介绍内容限制，用来限制为仅这些内容匹配搜索字符串中包含的列的行表视图。 
+介绍内容限制, 用于将表视图限制为仅包含内容与搜索字符串匹配的列的那些行。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _SContentRestriction
@@ -43,43 +43,43 @@ typedef struct _SContentRestriction
 
 **ulFuzzyLevel**
   
-> 定义的内容的限制时用于匹配验证应同时实施的 preciseness 级别选项设置。
+> 定义在验证匹配项时内容限制应强制实施的 preciseness 级别的选项设置。
     
-   **低 16 位**的**ulFuzzyLevel**成员 PT_BINARY 和 PT_STRING8 应用于类型的属性，并且必须设置为下列值之一： 
+   **ulFuzzyLevel**成员的**低16位**应用于 PT_BINARY 和 PT_STRING8 类型的属性, 并且必须设置为以下值之一: 
     
-   - FL_FULLSTRING： 若要匹配， **lpProp**搜索字符串必须包含在由**ulPropTag**标识的属性。
+   - FL_FULLSTRING: 若要匹配, **lpProp**搜索字符串必须包含在由**ulPropTag**标识的属性中。
         
-   - FL_PREFIX： 若要匹配， **lpProp**搜索字符串必须显示由**ulPropTag**标识属性的开头。 应仅最由**lpProp**搜索字符串的长度比较两个字符串。 
+   - FL_PREFIX: 若要匹配, **lpProp**搜索字符串必须出现在由**ulPropTag**标识的属性的开头。 这两个字符串只应与**lpProp**所指示的搜索字符串的长度进行比较。 
         
-   - FL_SUBSTRING： 若要匹配， **lpProp**搜索字符串必须包含无处不在由**ulPropTag**标识的属性。 
+   - FL_SUBSTRING: 若要匹配, **lpProp**搜索字符串必须包含在**ulPropTag**标识的属性中的任何位置。 
         
-   **UlFuzzyLevel**成员**高 16 位**的类型 PT_STRING8 属性仅应用于，并可以设置为下列值的任意组合： 
+   **ulFuzzyLevel**成员的**高16位**仅适用于 PT_STRING8 类型的属性, 并且可以通过任意组合设置为以下值: 
         
-   - FL_IGNORECASE： 无需考虑用例，应进行比较。 
+   - FL_IGNORECASE: 应进行比较, 而不考虑大小写。 
         
-   - FL_IGNORENONSPACE： 比较结果应忽略如音符 Unicode 定义不占位字符。 
+   - FL_IGNORENONSPACE: 比较操作应忽略 Unicode 定义的非空格字符, 如变音标记。 
         
-   - FL_LOOSE： 比较结果应为您提供忽略大小写和不占位字符匹配尽可能。 
+   - FL_LOOSE: 比较时应尽可能为您提供匹配项, 忽略大小写和非空格字符。 
     
 **ulPropTag**
   
-> 标识要检查的搜索字符串匹配项的字符串属性的属性标记。 
+> 用于标识要检查搜索字符串的匹配项的字符串属性的属性标记。 
     
 **lpProp**
   
-> 指针指向包含要用作搜索字符串的字符串值的属性值结构。
+> 指向属性值结构的指针, 该结构包含要用作搜索字符串的字符串值。
     
 ## <a name="remarks"></a>注解
 
-**SContentRestriction**结构中有两个属性标记： **ulPropTag**成员和在**SPropValue**结构的**ulPropTag**成员另一个指向**lpProp**。 在这两个标记，MAPI 需要属性的类型字段，并忽略属性标识符字段。 但是，必须匹配的两个属性类型，否则 MAPI_E_TOO_COMPLEX 在调用[IMAPITable::Restrict](imapitable-restrict.md)或[IMAPITable::FindRow](imapitable-findrow.md)使用限制时则返回的错误值。 
+**SContentRestriction**结构中有两个属性标记: 一个在**ulPropTag**成员中, 另一个位于**lpProp**指向的**SPropValue**结构的**ulPropTag**成员中。 在这两个标记中, MAPI 仅需要属性类型字段, 并且忽略属性标识符字段。 但是, 这两个属性类型必须匹配, 否则在对[IMAPITable:: Restrict](imapitable-restrict.md)或[imapitable:: FindRow](imapitable-findrow.md)的调用中使用限制时, 将返回错误值 MAPI_E_TOO_COMPLEX。 
   
-值 FL_FULLSTRING、 FL_PREFIX 和 FL_SUBSTRING 相互排斥。 可以设置仅有一种，且两者之一必须设置。 及其含义固定的并提供程序必须完全按照定义方式实现它们。 如果无法支持这些值时，提供程序应返回 MAPI_E_TOO_COMPLEX。 
+值 FL_FULLSTRING、FL_PREFIX 和 FL_SUBSTRING 是相互排斥的。 只能设置其中一个, 并且必须设置其中一个。 它们的含义是固定的, 并且提供程序必须完全按照定义实现。 如果提供程序无法支持这些值, 则该提供程序应返回 MAPI_E_TOO_COMPLEX。 
   
-值 FL_IGNORECASE、 FL_IGNORENONSPACE 和 FL_LOOSE 无关。 任意位置从零到所有这三个它们可以设置。 作为指导仅提供及其定义和提供程序是免费实现的每个标志自己特定含义。 如果还没有指定的标志的实现，提供程序不应该返回任何错误的含义。 
+值 FL_IGNORECASE、FL_IGNORENONSPACE 和 FL_LOOSE 是独立的。 可以设置从零到所有三项之间的任意位置。 它们的定义仅作为指导提供, 提供程序可自由实现每个标志的特定含义。 如果提供程序不能实现指定的标志, 则该提供程序不应返回任何错误指示。 
   
-属性不存在时未定义的属性对施加内容限制结果。 当客户端定义完善的行为的需要这样的限制而不是确保是否属性存在，例如，它不是必需的表格列它应创建加入带存在限制内容的限制**和**限制。 使用[SExistRestriction](sexistrestriction.md)结构以定义存在限制和[SAndRestriction](sandrestriction.md)结构，用于定义**和**限制。 
+如果属性不存在, 则针对属性施加的内容限制的结果将未定义。 如果客户端需要此类限制的明确定义行为, 并且不确定该属性是否存在, 则它不是表的必需列。它应创建**并**限制, 以使用存在的限制加入内容限制。 使用[SExistRestriction](sexistrestriction.md)结构定义存在限制和[SAndRestriction](sandrestriction.md)结构以定义**和**限制。 
   
-有关**SContentRestriction**结构和限制的详细信息，请参阅[有关限制](about-restrictions.md)。
+有关**SContentRestriction**结构和限制的详细信息, 请参阅[关于限制](about-restrictions.md)。
   
 ## <a name="see-also"></a>另请参阅
 

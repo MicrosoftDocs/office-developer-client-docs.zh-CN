@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f864c759-ed94-8ab7-d664-cc04b3ed743e
 description: 指定打印页右侧的边距。
-ms.openlocfilehash: 951a16ff20e294b68ed5447d330f4e7cbc100c82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d30669626fe07379521d61554010ae1bd7b0e83a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339492"
 ---
-# <a name="pagerightmargin-cell-print-properties-section"></a>PageRightMargin 单元格（“Print Properties”部分）
+# <a name="pagerightmargin-cell-print-properties-section"></a>PageRightMargin 单元格（“Print Properties”内容）
 
 指定打印页右侧的边距。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 此值表示物理单位并且不受缩放单位或绘图单位的影响。例如，如果此单元格的值为 0.25 in.，那么，即使页面单位是英尺，此边距仍为 0.25 英寸。如果没有明确规定单位，则此值默认为页面单位。 
   

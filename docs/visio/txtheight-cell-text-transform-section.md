@@ -8,21 +8,21 @@ f1_keywords:
 - vis_sdr.chm1025
 localization_priority: Normal
 ms.assetid: cfa3ecc6-61a8-506c-ba1d-b5e1f757d44f
-description: 确定文本块的高度。默认公式为：
-ms.openlocfilehash: e9495eef837a61fa9b7ecb2b242fdabc5df30080
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定文本块的高度。 默认公式为：
+ms.openlocfilehash: 8ad17cdf1deca6c4aa81f3388d7c112b4e179e2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334389"
 ---
-# <a name="txtheight-cell-text-transform-section"></a>TxtHeight 单元格（“Text Transform”部分）
+# <a name="txtheight-cell-text-transform-section"></a>TxtHeight 单元格（“Text Transform”内容）
 
-确定文本块的高度。默认公式为：
+确定文本块的高度。 默认公式为：
   
-= 高度\*1
+= Height \* 1
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 TxtHeight 单元格的引用，请使用： 
   

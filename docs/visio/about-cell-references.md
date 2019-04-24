@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e6a9aceb-90d7-fb53-eaf4-416a1ae2a98b
 description: 您可以使用 ShapeSheet 单元格引用在公式间创建相互依赖关系。单元格引用使您能根据某一单元格的值计算另一单元格的值。例如，形状的 Width 单元格可能包含通过引用它的 Height 单元格的值来计算该形状的宽度的公式，这样，当用户纵向调整形状的大小时，它的宽度会保持与高度的比例。
-ms.openlocfilehash: 54c7fd69e2ddaa9350996e2d8c921958a04e34ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a92bcc560c535dc012ec5cb79db72250e78364c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332618"
 ---
 # <a name="about-cell-references"></a>关于单元格引用
 
@@ -24,7 +24,7 @@ ms.locfileid: "19779610"
   
 ## <a name="what-cell-references-can-include"></a>可包括的单元格引用
 
-单元格引用可以包含形状标识符 (Id) 或名称。 是否形状已命名，始终可以引用由其 ID，页上的任何形状。 如果形状不起作用尚未命名，它的默认名称为工作表。 *i* ，其中*i*是形状 id。 当形状创建并且不会更改除非将形状移动到另一个页面或文档分配的 ID。 如果页上的多个形状具有相同的名称，则必须包括分配的 id。 
+单元格引用可以包含形状标识符 (ID) 或名称。 您始终可以使用形状 ID 来指代页面上的任何形状，不论该形状是否已命名。 如果没有为形状命名，则它的默认名称是 Sheet. *i* , 其中*i*是形状 ID。 ID 是在创建形状时分配的，除非您将形状移至其他页面或文档，否则 ID 不会改变。 如果页面上有多个形状同名，则必须包含分配的 ID。 
   
 ## <a name="cell-reference-syntax-and-examples"></a>单元格引用语法和示例
 
@@ -36,71 +36,19 @@ ms.locfileid: "19779610"
     
 - 含有非标准字符的名称必须用单引号引起来。非标准名称中的单引号字符前面必须有一个单引号。
     
-|**引用的单元格**|**使用以下语法**|**示例**|
+|**要引用的单元格属于**|**使用此语法**|**示例**|
 |:-----|:-----|:-----|
-|
-                
-                
-                同一形状
-  <br/> | CellName  <br/> | 宽度  <br/> |
-| 
-                
-                
-                形状、组合或参考线
-  <br/> | Shapename ！CellName  <br/> | 
-                
-                
-                Star!Angle
-  <br/> |
-| 
-                
-                
-                形状、组合或参考线，其中有多个同级的形状同名
-  <br/> | Shapename.ID ！CellName  <br/> | Executive.2 ！高度  <br/> |
-| 
-                
-                
-                带有已建立索引的行的命名列
-  <br/> | Section.Column[index]  <br/> | Char.Font[3]  <br/> |
-| 
-                
-                
-                带有已建立索引的行的未命名列
-  <br/> | Section.ColumnIndex  <br/> | Scratch.A5  <br/> |
-| 
-                
-                
-                任何形状、页面、主控形状或样式
-  <br/> | Sheet.ID ！CellName  <br/> | Sheet.8 ！FillForegnd  <br/> |
-| 
-                
-                
-                主控形状
-  <br/> | 主控形状 [MasterName] ！SheetName ！CellReference  <br/> | 主控形状 [齿轮] ！轴 ！Geometry1.X1  <br/> |
-| 
-                
-                
-                对象所在的页面或主控形状页面
-  <br/> | 页面设置 ！CellReference  <br/> | 页面设置 ！User.Vanishing_Point  <br/> |
-| 
-                
-                
-                文档中的另一页面
-  <br/> | 页面 [PageName] ！SheetName ！CellReference  <br/> | 页面 [3] ！Sheet.4 ！BeginX  <br/> |
-| 
-                
-                
-                样式
-  <br/> | 样式 ！SheetName ！CellReference  <br/> | 样式 ！管理器 ！LineColor  <br/> |
-| 
-                
-                
-                文档
-  <br/> | TheDoc ！CellReference  <br/> | TheDoc ！PreviewQuality  <br/> |
-| 
-                
-                
-                带有非标准名称的形状、页面、主控形状、文档或样式。
-  <br/> | Sheetname' ！CellName  <br/> | 1-D ' ！LineColor  <br/> |
+|同一形状  <br/> | CellName  <br/> | Width  <br/> |
+| 形状、组合或参考线  <br/> | Shapename!CellName  <br/> | 红星!Angle  <br/> |
+| 形状、组合或参考线，其中有多个同级的形状同名  <br/> | Shapename.ID!CellName  <br/> | 2!高度  <br/> |
+| 带有已建立索引的行的命名列  <br/> | Section。 Column [index]  <br/> | 字符: 字体 [3]  <br/> |
+| 带有已建立索引的行的未命名列  <br/> | 节。 ColumnIndex  <br/> | 暂存. A5  <br/> |
+| 任何形状、页面、主控形状或样式  <br/> | Sheet.ID!CellName  <br/> | Sheet. 8!FillForegnd  <br/> |
+| 主控形状  <br/> | 主控形状 [MasterName]!SheetName!CellReference  <br/> | 主控形状 [齿轮]!箭!geometry1.path  <br/> |
+| 对象所在的页面或主控形状页面  <br/> | ThePage!CellReference  <br/> | ThePage!Vanishing_Point  <br/> |
+| 文档中的另一页面  <br/> | 页面 [PageName]!SheetName!CellReference  <br/> | Pages [Page-3]!Sheet 4!BeginX  <br/> |
+| 样式  <br/> | Styles!SheetName!CellReference  <br/> | Styles!管理器!LineColor  <br/> |
+| 文档  <br/> | TheDoc!CellReference  <br/> | TheDoc!PreviewQuality  <br/> |
+| 带有非标准名称的形状、页面、主控形状、文档或样式。  <br/> | "Sheetname"!CellName  <br/> | ' 1-D '!LineColor  <br/> |
    
 

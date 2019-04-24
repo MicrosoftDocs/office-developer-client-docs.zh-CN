@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 47e01131-f399-43cb-9815-aba69638c3fb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: efccd75cce04e4e392a7fbd9feecc7c8b49ab57e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339331"
 ---
 # <a name="pidtagattachflags-canonical-property"></a>PidTagAttachFlags 规范属性
 
@@ -30,43 +30,43 @@ ms.locfileid: "25394326"
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ATTACH_FLAGS  <br/> |
-|标识符：  <br/> |0x3714  <br/> |
+|标识符:  <br/> |0x3714  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性用于 MHTML 支持。 
   
-可以为**PR_ATTACH_FLAGS**位掩码设置一个或多个以下标志： 
+可以为**PR_ATTACH_FLAGS**位掩码设置以下一个或多个标志: 
   
 ATT_INVISIBLE_IN_HTML 
   
-> 指示此附件对 HTML 呈现应用程序不可用，并且应忽略中多用途 Internet 邮件扩展 (MIME) 处理。 
+> 指示此附件对 HTML 呈现应用程序不可用, 应在多用途 Internet 邮件扩展 (MIME) 处理中被忽略。 
     
 ATT_INVISIBLE_IN_RTF 
   
-> 指示此附件对呈现富文本格式 (RTF) 中的应用程序不可用，并且应忽略 MAPI。
+> 指示此附件不适用于以 rtf 格式呈现的应用程序, 并且应由 MAPI 忽略。
     
-如果**PR_ATTACH_FLAGS**属性为零或不存在，附件是处理的所有应用程序。 
+如果**PR_ATTACH_FLAGS**属性为零或不存在, 则附件将由所有应用程序处理。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

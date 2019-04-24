@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 92ec9b11-f53f-a1c9-832a-6cac08aa5379
 description: 确定形状的投影与该形状水平偏移的距离（按页面单位）。
-ms.openlocfilehash: 9aec108146e329d7a8161acc4ca7cdcb19424eff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fbc7d37fc8ba45f3219af6a4350301102954f23d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781325"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338750"
 ---
-# <a name="shdwoffsetx-cell-page-properties-section"></a>ShdwOffsetX 单元格（“Page Properties”部分）
+# <a name="shdwoffsetx-cell-page-properties-section"></a>ShdwOffsetX 单元格（“Page Properties”内容）
 
 确定形状的投影与该形状水平偏移的距离（按页面单位）。
   

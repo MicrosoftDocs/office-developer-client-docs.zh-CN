@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251581
 localization_priority: Normal
 ms.assetid: 519d79d4-9178-2231-c26d-aa7f31a43412
-description: 返回工作表的主控形状名称为 string，或返回字符串任何主控形状，如果表没有主控形状。
-ms.openlocfilehash: c1d5891fba0f967cde4a4e9ca58d07f87239f0b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 以字符串的形式返回工作表的主控形状名称, 如果工作表没有主控形状, 则返回字符串 "no master"。
+ms.openlocfilehash: 7732cf9e8b23e2fd0fc2e3f2cc8d9ef4f39fd67f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341788"
 ---
 # <a name="mastername-function"></a>MASTERNAME 函数
 
-返回工作表的主控形状名称为 string，或将返回字符串"\<任何主控形状\>"如果表没有主控形状。
+以字符串的形式返回工作表的主控形状名称, 如果工作表\<没有主控\>形状, 则返回字符串 "no master"。
   
 ## <a name="syntax"></a>语法
 
@@ -28,7 +28,7 @@ MASTERNAME ([* * *langID_opt* * *])
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _langID_opt_ <br/> |可选  <br/> |**编号** <br/> |用于指定函数所返回的字符串的语言。使用 0（默认值）可以指定本地语言。使用 750 可以指定通用语言。  <br/> |
+| _langID_opt_ <br/> |可选  <br/> |**Number** <br/> |用于指定函数所返回的字符串的语言。使用 0（默认值）可以指定本地语言。使用 750 可以指定通用语言。  <br/> |
    
 ### <a name="return-value"></a>返回值
 

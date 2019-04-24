@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2b46966d-c63d-4241-92d4-001d6a674e97
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d6464a346d8543a128ec1af9f605667c6a51ca3c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399296"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342040"
 ---
 # <a name="pidlidattendeecriticalchange-canonical-property"></a>PidLidAttendeeCriticalChange 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25399296"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定的日期和时间时发送的会议相关对象。
+指定发送会议相关对象的日期和时间。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |LID_ATTENDEE_CRITICAL_CHANGE  <br/> |
-|属性进行设置：  <br/> |PSETID_Meeting  <br/> |
-|长 ID （盖）：  <br/> |0x00000001  <br/> |
+|属性集:  <br/> |PSETID_Meeting  <br/> |
+|长 ID (盖子):  <br/> |0x00000001  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-必须以协调世界时 (UTC) 指定的值。
+必须以协调通用时间 (UTC) 指定该值。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

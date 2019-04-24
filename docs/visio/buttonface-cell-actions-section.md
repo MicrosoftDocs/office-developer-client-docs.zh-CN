@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: cf15b879-a47e-a5a5-bfdd-1d7ea423742f
 description: 标识在快捷菜单或动作标记菜单上的项旁边显示的图标。
-ms.openlocfilehash: 29ff71bc04e94f97f1526b28bd52c2846327eff1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ee9c4e7e857acb34ce75429aa0aaf679320b0e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337546"
 ---
-# <a name="buttonface-cell-actions-section"></a>ButtonFace 单元格（“Actions”部分）
+# <a name="buttonface-cell-actions-section"></a>ButtonFace 单元格（“Actions”内容）
 
 标识在快捷菜单或动作标记菜单上的项旁边显示的图标。
   
@@ -27,20 +27,20 @@ ms.locfileid: "19779806"
 
 ButtonFace 单元格中包含的字符串表示 Microsoft Office 按钮外表图像的 ID。值为零 (0) 或空白表示不显示图标。 
   
-可在 ButtonFace 单元格的 Id 是与**CommandBarButton**对象的**FaceID**属性一起使用的 Id 相同。 关于这些 Id 的详细信息，请在 MSDN 上中搜索"命令栏按钮图像处理"。 
+ButtonFace 单元格中可以使用的 ID 与用于 **CommandBarButton** 对象的 **FaceID** 属性的 ID 相同。 有关这些 id 的更多详细信息, 请在 MSDN 上搜索 "使用命令栏按钮图像"。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称来获取对 ButtonFace 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |**操作**。  *名称*。 **ButtonFace**其中**操作**。  *name*是 actions 行的名称  <br/> |
+|单元格名称：  <br/> |**操作**。  *名称*。 **ButtonFace**其中的**操作**。  *name*是操作行的名称  <br/> |
    
 要从某个程序按索引获取有关 ButtonFace 单元格的参考内容，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionAction** <br/> |
-|行索引：  <br/> |**visRowAction** +  *i*其中**i** = 0、 1、 2...  <br/> |
+|行索引：  <br/> |**visRowAction** +  *i* = **** 0、1、2 .。。  <br/> |
 |单元格索引：  <br/> |**visActionButtonFace** <br/> |
    
 

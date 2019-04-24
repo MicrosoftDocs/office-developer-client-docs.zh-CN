@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: 270c47c3-ae68-4995-b304-27f861b350d6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 113628ef5487bc66a07d1367c938ed178a8e32ec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 21ed5a23b96dabdd594547109ecb1e6c048a4844
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582908"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341067"
 ---
 # <a name="fbadentrylist"></a>FBadEntryList
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 验证 MAPI 项标识符的列表。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapival.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |服务提供商  <br/> |
+|标头文件：  <br/> |Mapival.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |服务提供程序  <br/> |
    
 ```cpp
 BOOL FBadEntryList(
@@ -43,20 +43,20 @@ BOOL FBadEntryList(
 
  _lpEntryList_
   
-> [in]指向[ENTRYLIST](entrylist.md)结构，其中包含要验证的项标识符的数组。 
+> 实时指向包含要验证的条目标识符数组的[ENTRYLIST](entrylist.md)结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 TRUE 
   
-> 一个或多个列出的项标识符是无效。 
+> 一个或多个列出的条目标识符无效。 
     
 FALSE 
   
-> 所有列出的项标识符都是有效的。
+> 所有列出的条目标识符都是有效的。
     
 ## <a name="remarks"></a>注解
 
-**FBadEntryList**函数确定是否已正确生成条目标识符列表。 无效的示例是标识符的一个已正确分配的内存或大小不正确的标识符。 
+**FBadEntryList**函数确定条目标识符列表是否已正确生成。 无效标识符的一个示例是内存分配不正确或标识符大小不正确的情况。 
   
 

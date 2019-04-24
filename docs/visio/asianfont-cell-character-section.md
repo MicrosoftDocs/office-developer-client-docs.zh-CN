@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 45bfaaaa-52cc-f8b4-68e7-8b99e5788ce1
 description: 包含用于设置含有亚洲字符的文字格式的字体编号。根据您的系统上安装的字体，字体编号会有所不同。
-ms.openlocfilehash: 1fbaa0b27a0c639519c302129142dcefe5708115
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4af7e590a7bd0733ad622f3df259aa6c01837c4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779647"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341327"
 ---
-# <a name="asianfont-cell-character-section"></a>AsianFont 单元格（“Character”部分）
+# <a name="asianfont-cell-character-section"></a>AsianFont 单元格（“Character”内容）
 
 包含用于设置含有亚洲字符的文字格式的字体编号。根据您的系统上安装的字体，字体编号会有所不同。 
   
@@ -30,14 +30,14 @@ ms.locfileid: "19779647"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |Char.AsianFont [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
+|单元格名称：  <br/> |AsianFont [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
    
 若要从某个程序按索引获取对 AsianFont 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionCharacter** <br/> |
-|行索引：  <br/> |**visRowCharacter** +  *i*其中*i* = 0、 1、 2...  <br/> |
+|行索引：  <br/> |**visRowCharacter** +  *i* = ** 0、1、2 .。。  <br/> |
 |单元格索引：  <br/> |**visCharacterAsianFont** <br/> |
    
 

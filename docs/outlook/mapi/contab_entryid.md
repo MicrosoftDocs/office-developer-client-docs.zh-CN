@@ -8,24 +8,24 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 84251222-dac4-4f4d-97b9-aa0e2cd26c44
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ff088dc5bf62f407692c9eec649ff388f79d549d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a2a204f76b62c8c6bc6d8a4e793c936a0184dc65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335075"
 ---
 # <a name="contabentryid"></a>CONTAB_ENTRYID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含联系人文件夹的条目 ID。
+包含 "联系人" 文件夹的条目 ID。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |msomapiutil.h  <br/> |
+|标头文件：  <br/> |msomapiutil  <br/> |
    
 ```cpp
 #pragma pack(4) 
@@ -46,11 +46,11 @@ typedef struct _contab_entryid
 
  **abFlags**
   
-> 位掩码的标志，提供描述对象的信息。 有关详细信息，请参阅[ENTRYID](entryid.md)结构的**abFlags**字段的说明。 
+> 提供描述对象的信息的标志的位掩码。 有关详细信息, 请参阅[ENTRYID](entryid.md)结构的**abFlags**字段的说明。 
     
  **muid**
   
-> 标识的存储提供程序的 GUID。
+> 标识存储提供程序的 GUID。
     
  **ulVersion**
   
@@ -58,34 +58,34 @@ typedef struct _contab_entryid
     
  **ulType**
   
-> 一个代表联系人项 ID 类型的整数。 它必须是下列值之一：
+> 一个表示联系人条目 ID 类型的整数。 它必须是下列值之一:
     
 |**名称**|**说明**|
 |:-----|:-----|
-|CONTAB_USER  <br/> |消息的用户对象。  <br/> |
+|CONTAB_USER  <br/> |消息传递用户对象。  <br/> |
 |CONTAB_DISTLIST  <br/> |通讯组列表对象。  <br/> |
    
  **ulIndex**
   
-> 到电子邮件属性子集的索引。
+> 电子邮件属性子集的索引。
     
  **cbeid**
   
-> 联系人消息与联系人通讯簿中的此条目关联的项标识符的大小。
+> 与联系人通讯簿中的此条目相关联的联系人邮件的条目标识符的大小。
     
  **abeid**
   
-> 联系人消息与联系人通讯簿中的此条目关联的项标识符。
+> 与联系人通讯簿中的此条目相关联的联系人邮件的条目标识符。
     
 ## <a name="remarks"></a>注解
 
-联系人通讯簿通讯簿包含联系人文件夹中的电子邮件地址或传真号码的所有联系人项目。 每个联系人通讯簿中的项相关联的电子邮件地址或传真号码。 由于联系人项可以具有三个电子邮件地址和三个传真号码，可以通过在相应的联系人通讯簿中的最多为六个条目表示联系人项目。
+联系人通讯簿是一个通讯簿, 其中包含 "联系人" 文件夹中具有电子邮件地址或传真号码的所有联系人项目。 联系人通讯簿中的每个条目都与电子邮件地址或传真号码相关联。 由于联系人项目最长可包含三个电子邮件地址和三个传真号码, 因此联系人项目可以在相应联系人通讯簿中的最大6个条目中表示。
   
-联系人通讯簿旨在支持寻址到联系人文件夹中的联系人的电子邮件的用户。 Microsoft Outlook 2010 和 Microsoft Outlook 2013 支持的联系人通讯簿提供程序是 contab32.dll。
+联系人通讯簿的用途是支持用户为联系人文件夹中的联系人寻址电子邮件。 microsoft outlook 2010 和 microsoft outlook 2013 支持的联系人通讯簿提供程序为 contab32。
   
-**CONTAB_ENTRYID**结构支持基础的 MAPI 联系人消息中出现的信息的子集。 它标识联系人邮件与关联的特定的联系人通讯簿条目。 
+**CONTAB_ENTRYID**结构支持基础 MAPI 联系人消息中存在的信息的子集。 它标识与特定联系人通讯簿条目相关联的联系人消息。 
   
-当**ulType**字段值设置为 CONTAB_DISTLIST 或 CONTAB_USER **cbeid**和**abeid**字段才有效。 如果**ulType**字段值设置为 CONTAB_ROOT、 CONTAB_SUBROOT 或 CONTAB_CONTAINER， [DIR_ENTRYID](dir_entryid.md)结构应改用。 
+仅当**ulType**字段值设置为 CONTAB_DISTLIST 或 CONTAB_USER 时, **cbeid**和**abeid**字段才有效。 当**ulType**字段值设置为 CONTAB_ROOT、CONTAB_SUBROOT 或 CONTAB_CONTAINER 时, 应改为使用[DIR_ENTRYID](dir_entryid.md)结构。 
   
 ## <a name="see-also"></a>另请参阅
 

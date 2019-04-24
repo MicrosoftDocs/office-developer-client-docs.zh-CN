@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 60b11733-20c2-4fe9-8406-c3103b2852ba
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 855f8484189c4e756fcd637ae86afe039786a018
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335481"
 ---
 # <a name="pidtagothertelephonenumber-canonical-property"></a>PidTagOtherTelephoneNumber 规范属性
 
@@ -25,46 +25,46 @@ ms.locfileid: "25390427"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含的收件人的备用电话号码。
+包含收件人的备用电话号码。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_OTHER_TELEPHONE_NUMBER，PR_OTHER_TELEPHONE_NUMBER_A，PR_OTHER_TELEPHONE_NUMBER_W  <br/> |
-|标识符：  <br/> |0x3A1F  <br/> |
-|数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
+|相关属性：  <br/> |PR_OTHER_TELEPHONE_NUMBER、PR_OTHER_TELEPHONE_NUMBER_A、PR_OTHER_TELEPHONE_NUMBER_W  <br/> |
+|标识符:  <br/> |0x3A1F  <br/> |
+|数据类型：  <br/> |PT_UNICODE、PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这些属性提供标识和访问收件人的信息。 它们是按收件人和组织定义的。 
+这些属性可提供收件人的标识和访问信息。 它们由收件人及其组织定义。 
   
-这些属性用于在收件人的位置的业务，主页或 office 以外的其他电话号码。
+这些属性用于除收件人的商业、家庭或办公室之外的电话号码。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的地址簿模板。
+> 指定允许用于通讯簿模板的属性和操作。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定允许用于联系人和个人通讯组列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 115d845b-4168-4d49-b880-219ee28baa9a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 924ddbc7c2ad1ed84ce6927ae089b6eb223bfb92
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 721b14f101e87299f654507f94d4a957f905cac1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336496"
 ---
 # <a name="stnefproblemarray"></a>STnefProblemArray
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含描述一个或多个处理的编码期间出现的问题或解码传输中性封装格式 (TNEF) 可将 stream 的**STnefProblem**结构的数组。 
+包含描述在编码或解码传输中性封装格式 (TNEF) 流的过程中发生的一个或多个处理问题的**STnefProblem**结构数组。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Tnef.h  <br/> |
+|标头文件：  <br/> |Tnef  <br/> |
    
 ```cpp
 typedef struct _STnefProblemArray
@@ -44,17 +44,17 @@ typedef struct _STnefProblemArray
 
  **cProblem**
   
-> 指定在**aProblem**成员中声明的数组中的元素的计数。 
+> **aProblem**成员中指定的数组中的元素数。 
     
  **aProblem**
   
-> [STnefProblem](stnefproblem.md)结构的数组。 每个结构包含有关的属性或特性处理问题的信息。 
+> [STnefProblem](stnefproblem.md)结构的数组。 每个结构都包含有关属性或属性处理问题的信息。 
     
 ## <a name="remarks"></a>注解
 
-输出参数在[ITnef::ExtractProps](itnef-extractprops.md)方法并在每个[ITnef::Finish](itnef-finish.md)方法属性或属性处理过程中出现问题，如果收到一个指向**STnefProblemArray**结构和**ExtractProps**并**完成**每个返回 MAPI_W_ERRORS_RETURNED 的值。 此错误值指示处理过程中出现的问题和生成**STnefProblemArray**结构。 
+如果在属性或属性处理过程中出现问题, 则[ITnef:: ExtractProps](itnef-extractprops.md)方法和[ITnef:: Finish](itnef-finish.md)方法中的 output 参数都会收到指向**STnefProblemArray**结构和 ExtractProps 的指针**** 并**完成**每个返回值 MAPI_W_ERRORS_RETURNED。 此错误值指示在处理过程中出现问题并生成**STnefProblemArray**结构。 
   
-如果属性或属性的处理过程中未生成**STnefProblem**结构，客户端应用程序可以继续处理属性或属性的成功假定下。 解码封装块的过程中出现问题时，发生此事件唯一的例外。 如果此解码期间发生错误，则可以作为[SCODE](scode.md)结构中返回 MAPI_E_UNABLE_TO_COMPLETE。 在这种情况下，解码阻止到相应的组件已停止，解码继续使用在另一个组件。 
+如果在处理属性或属性的过程中不会生成**STnefProblem**结构, 则在假定该属性或属性的处理成功的情况下, 客户端应用程序可以继续。 仅当在封装块解码过程中出现问题时, 才会发生此异常。 如果在此解码过程中出现错误, 则 MAPI_E_UNABLE_TO_COMPLETE 可以作为[SCODE](scode.md)在结构中返回。 在这种情况下, 将停止对与块相对应的组件进行解码, 并在另一个组件中继续解码。 
   
 ## <a name="see-also"></a>另请参阅
 

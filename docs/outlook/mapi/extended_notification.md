@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: de9b5e377840b1fbfa3b6dd73fd952c0c72efeb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8b49d0b80102f6295f3f717fb123a6581854d5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341116"
 ---
 # <a name="extendednotification"></a>EXTENDED_NOTIFICATION
 
@@ -25,11 +25,11 @@ ms.locfileid: "22580640"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍与服务提供程序特定的事件相关的信息。 
+介绍与特定于服务提供程序的事件相关的信息。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _EXTENDED_NOTIFICATION
@@ -45,37 +45,37 @@ typedef struct _EXTENDED_NOTIFICATION
 
  **ulEvent**
   
-> 定义服务提供商的扩展的事件代码。
+> 由提供程序定义的扩展事件代码。
     
  **cb**
   
-> 由**pbEventParameters**指向特定于事件的参数中的字节数。 
+> 由**pbEventParameters**指向的事件特定参数中的字节数。 
     
  **pbEventParameters**
   
-> 指向特定于事件的参数。 使用的参数的类型取决于**ulEvent**成员; 的值这些参数由的提供程序发出事件记录。 
+> 指向事件特定参数的指针。 使用的参数类型取决于**ulEvent**成员的值;这些参数由发出事件的提供程序记录。 
     
 ## <a name="remarks"></a>注解
 
-**EXTENDED_NOTIFICATION**结构是联合的结构[通知](notification.md)结构的**信息**成员中包含的成员之一。 如果**通知**结构的**信息**成员包含**EXTENDED_NOTIFICATION**结构，**通知**结构的**ulEventType**成员设置为_fnevExtended_。
+**EXTENDED_NOTIFICATION**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 当**通知**结构的**info**成员包含**EXTENDED_NOTIFICATION**结构时,**通知**结构的**ulEventType**成员将设置为_fnevExtended_。
   
-由表示的更改不能包含的任何其他预定义事件类型的服务提供程序定义扩展的事件。 只有知道他们注册服务提供商支持扩展的事件之前的客户端可以注册的事件。 不能为客户端确定高级不知情的情况下，如果服务提供商支持的扩展的事件。 如果服务提供商支持的扩展的事件，它演示如何处理接收时的事件。
+扩展事件由服务提供程序定义, 以表示不能由任何其他预定义事件覆盖的更改类型。 只有在注册服务提供程序之前知道的客户端支持扩展事件才能为该事件注册。 如果服务提供程序支持一个扩展事件, 则客户端不能确定没有高级知识的情况。 如果服务提供程序支持一个扩展事件, 它将显示如何在收到此类事件时对其进行处理。
   
-由客户端注销的会话发送一扩展的通知。 通过调用不带_lpEntryID_参数设置为 NULL 和_cbEntryID_参数设置为零[IMAPISession::Advise](imapisession-advise.md)注册此通知。 
+当客户端注销时, 会话将发送一个扩展通知。 通过调用[IMAPISession:: 建议](imapisession-advise.md)将_lpEntryID_参数设置为 NULL 并将_cbEntryID_参数设置为零, 注册此通知。 
   
-有关通知的详细信息，请参阅下表中所述的主题。
+有关通知的详细信息, 请参阅下表中所述的主题。
   
 |**主题**|**说明**|
 |:-----|:-----|
 |[MAPI 中的事件通知](event-notification-in-mapi.md) <br/> |通知和通知事件的一般概述。  <br/> |
-|[处理通知](handling-notifications.md) <br/> |讨论了客户端应如何处理通知。  <br/> |
-|[支持事件通知](supporting-event-notification.md) <br/> |讨论的服务提供程序如何使用[IMAPISupport](imapisupportiunknown.md)方法生成通知。  <br/> |
+|[处理通知](handling-notifications.md) <br/> |讨论客户端应如何处理通知。  <br/> |
+|[支持事件通知](supporting-event-notification.md) <br/> |讨论了如何使用[IMAPISupport](imapisupportiunknown.md)方法生成通知的服务提供商。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-[通知](notification.md)
+[NOTIFICATION](notification.md)
 
 
 [MAPI 结构](mapi-structures.md)

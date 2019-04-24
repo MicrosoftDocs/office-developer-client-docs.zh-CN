@@ -1,30 +1,30 @@
 ---
-title: “Change Shape Behavior”部分
+title: "\"更改形状行为\" 部分"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a9e97f45-2a5c-40c3-8282-a345ae6249d9
-description: 决定转给从旧的形状的替换形状替换操作期间的属性。 值替换为相应的形状读取形状替换操作期间的主控形状更改形状行为部分中的单元格。
-ms.openlocfilehash: 3b4b3cac37b8415309a2433c19c2b420fd652df7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定在替换操作过程中从旧形状转移到替换形状的属性。 替换主控形状的 "更改形状行为" 部分中的单元格的值是在形状替换操作过程中读取的。
+ms.openlocfilehash: 74519b27ab5b2b5bafc7c00010a65769061bf691
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341921"
 ---
-# <a name="change-shape-behavior-section"></a>“Change Shape Behavior”部分
+# <a name="change-shape-behavior-section"></a>"更改形状行为" 部分
 
-决定转给从旧的形状的替换形状替换操作期间的属性。 值替换为相应的形状读取形状替换操作期间的主控形状**更改形状行为**部分中的单元格。 
+确定在替换操作过程中从旧形状转移到替换形状的属性。 替换主控形状的 "**更改形状行为**" 部分中的单元格的值是在形状替换操作过程中读取的。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-通过在**更改形状行为**部分中设置单元格，您可以确保替换操作期间的替换形状的某些属性保持不变。 在操作过程中，从旧的形状的本地形状值更新不受保护的属性。 
+通过设置 "**更改形状行为**" 部分中的单元格, 可以确保替换形状的某些属性在替换操作过程中保持不变。 在操作过程中, 不受保护的属性将使用旧形状的本地形状值进行更新。 
   
-您可以更改替换为通过编辑主控形状的主控形状的行为设置形状 （在**形状**窗口中，右键单击形状，指向**编辑主控形状**，然后单击**编辑主控形状**） 和更改[的值ReplaceCopyCells](replacecopycells-cell-change-shape-behavior-section.md)， [ReplaceLockFormat](replacelockformat-cell-change-shape-behavior-section.md)、 [ReplaceLockShapeData](replacelockshapedata-cell-change-shape-behavior-section.md)和[ReplaceLockText](replacelocktext-cell-change-shape-behavior-section.md)主控形状的 ShapeSheet 中的单元格。 
+您可以通过编辑主控形状来更改主控形状的替换行为设置 (在 "**形状**" 窗口中, 右键单击该形状, 指向 "**编辑主控**形状", 然后单击 "**编辑主控形状**"), 然后更改[](replacecopycells-cell-change-shape-behavior-section.md)主控形状 ShapeSheet 中的 ReplaceCopyCells、 [ReplaceLockFormat](replacelockformat-cell-change-shape-behavior-section.md)、 [ReplaceLockShapeData](replacelockshapedata-cell-change-shape-behavior-section.md)和[ReplaceLockText](replacelocktext-cell-change-shape-behavior-section.md)单元格。 
   
 > [!NOTE]
-> 不能更改 Microsoft Visio 2013 中的内置模具中包含的形状的形状替换行为。 若要修改内置 Visio 形状的形状替换行为，创建的新模具，并添加您想要修改的新模具的形状。 
+> 您不能在 Microsoft Visio 2013 中更改内置模具附带的形状的形状替换行为。 若要修改内置 Visio 形状的形状替换行为, 请创建一个新模具, 并将您要修改的形状添加到新模具中。 
   
 

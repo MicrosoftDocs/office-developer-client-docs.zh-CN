@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d51120f7-df80-f0bb-8af9-751d3c59f045
 description: 将数字向下舍入到下一个整数。
-ms.openlocfilehash: 4f8e2ab1666642dc8d45e035288820696740e832
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6acc150e5291093bc7436c1d8e915b28e4840ca3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335299"
 ---
 # <a name="int-function"></a>INT 函数
 
@@ -22,23 +22,23 @@ ms.locfileid: "19780476"
   
 ## <a name="syntax"></a>语法
 
-INT (* **数量** *) 
+INT (* **数字** *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |必需  <br/> |**编号** <br/> |要向下舍入的数。  <br/> |
+| _number_ <br/> |必需  <br/> |**Number** <br/> |要向下舍入的数。  <br/> |
    
 ## <a name="example-1"></a>示例 1
 
-INT(7.2)
+INT (7.2)
   
 返回 7。
   
 ## <a name="example-2"></a>示例 2
 
-INT(-7.2)
+INT (-7.2)
   
 返回 -8。
   

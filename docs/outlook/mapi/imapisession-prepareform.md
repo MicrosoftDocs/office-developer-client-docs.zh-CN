@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3d8b1901123743b25b5bb9df174b297398c953b8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335760"
 ---
 # <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "25393234"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建数值令牌[IMAPISession::ShowForm](imapisession-showform.md)方法用来访问的消息。 
+创建[IMAPISession:: ShowForm](imapisession-showform.md)方法用于访问邮件的数字标记。 
   
 ```cpp
 HRESULT PrepareForm(
@@ -39,29 +39,29 @@ HRESULT PrepareForm(
 
  _lpInterface_
   
-> [in]指向接口标识 (IID) 值，该值代表要用于访问邮件的接口的指针。 传递**null**将导致标准界面或[IMessage](imessageimapiprop.md)，正在使用。 _LpInterface_参数必须为**null**或 IID_IMessage。 
+> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示要用于访问邮件的接口。 在使用的标准接口或[IMessage](imessageimapiprop.md)中传递**null**结果。 _lpInterface_参数必须为**null**或 IID_IMessage。 
     
  _lpMessage_
   
-> [in]一个指向窗体中显示的消息。
+> 实时指向要在表单中显示的邮件的指针。
     
  _lpulMessageToken_
   
-> [输出]指向**IMAPISession::ShowForm**方法用于访问由_lpMessage_指向邮件消息令牌的指针。
+> 排除指向邮件令牌的指针, **IMAPISession:: ShowForm**方法使用该指针访问_lpMessage_指向的邮件。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 窗体准备已成功。
+> 表单准备成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**IMAPISession::PrepareForm**方法创建邮件标记为_lpMessage_参数指向邮件，并调用消息的[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法。 此标记_ulMessageToken_参数中传递给**IMAPISession::ShowForm**。 
+**IMAPISession::P repareform**方法为_lpMessage_参数所指向的邮件创建一个邮件令牌, 并调用邮件的[IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法。 此令牌在_ulMessageToken_参数中传递到**IMAPISession:: ShowForm**。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-如果**PrepareForm**调用成功，请通过调用其[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法之前调用**ShowForm** _lpMessage_指向将邮件释放。 未能将邮件释放调用**ShowForm**之前可能会导致内存泄漏。 
+如果对**PrepareForm**的调用成功, 请通过在调用**ShowForm**之前调用其[IUnknown:: release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法来释放_lpMessage_所指向的消息。 调用**ShowForm**之前无法释放邮件可能会导致内存泄漏。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -69,7 +69,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI 使用**IMAPISession::PrepareForm**方法，以及**IMAPISession::ShowForm**，窗体模式中显示一条消息。  <br/> |
+|MAPIFormFunctions  <br/> |OpenMessageModal  <br/> |MFCMAPI 使用**IMAPISession::P repareform**方法以及**IMAPISession:: ShowForm**在模式窗体中显示消息。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

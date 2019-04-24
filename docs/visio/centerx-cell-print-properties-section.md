@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 890e2537-66a5-2863-c78d-320b42565ea7
 description: 确定该绘图页是否在打印纸上水平居中。
-ms.openlocfilehash: a12b60f7d183a27d938bd18a1f571ef01af455d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 13b05ed71248a3f8fada947fca6b203c6ab19c6d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341893"
 ---
-# <a name="centerx-cell-print-properties-section"></a>CenterX 单元格（“Print Properties”部分）
+# <a name="centerx-cell-print-properties-section"></a>CenterX 单元格（“Print Properties”内容）
 
 确定该绘图页是否在打印纸上水平居中。 
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 使绘图页在打印纸上水平居中。  <br/> |
 | FALSE  <br/> | 使绘图页在打印纸上不水平居中（默认值）。  <br/> |
    
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 默认情况下，绘图页与打印纸的左上角对齐。将 CenterX 单元格和 CenterY 单元格设置为 TRUE，可以将绘图页放置在打印纸的中心（如果需要平铺，则放置在多张打印纸的中心）。 
   

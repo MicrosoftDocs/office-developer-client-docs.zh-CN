@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 69d56a0e-4cac-4fef-81fb-2cc5874ec799
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: af61eff0fd3b3784d7901e550d611b590a1b966a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400360"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336797"
 ---
 # <a name="pidtagconflictentryid-canonical-property"></a>PidTagConflictEntryId 规范属性
 
@@ -25,12 +25,12 @@ ms.locfileid: "25400360"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含冲突解决消息的 EntryID。
+包含冲突解决邮件的 EntryID。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONFLICT_ENTRYID  <br/> |
-|标识符：  <br/> |0x3FF0  <br/> |
+|标识符:  <br/> |0x3FF0  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |增量更改同步 (ICS)  <br/> |
    
@@ -38,23 +38,23 @@ ms.locfileid: "25400360"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 定义由 MS OXO 前缀文档描述的对象中的使用每个属性。
+> 定义在由 OXO-前缀的文档描述的对象中使用的每个属性。
     
-[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 同步服务器和客户端之间的消息对象数据的句柄。
+> 处理服务器和客户端之间的同步邮件对象数据。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

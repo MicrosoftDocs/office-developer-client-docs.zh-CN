@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 64e39e51-566a-b6ad-9096-7b7749642d34
-description: 返回 color1 和 color2 之间的饱和度的差异。
-ms.openlocfilehash: d25606533ba3b0fe9e3effdbd43e4efe9cf63afe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回 color1 和 color2 之间的饱和度差异。
+ms.openlocfilehash: d379333b312fc99d4766f973297d63ba5c6da911
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341760"
 ---
 # <a name="satdiff-function"></a>SATDIFF 函数
 
-返回_color1_和_color2_之间的饱和度的差异。
+返回_color1_和_color2_之间的饱和度差异。
   
 ## <a name="syntax"></a>语法
 
-SATDIFF (* * *color1* * *，* * *color2* * *) 
+SATDIFF (* * *color1* * *, * * *color2* * *) 
   
 ### <a name="parameters"></a>参数
 

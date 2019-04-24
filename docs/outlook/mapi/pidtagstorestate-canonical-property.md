@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 36e49cf5-1411-42c5-9112-09958243996d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8f00addf7abdd765d97c54350e46979f788f06ba
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341151"
 ---
 # <a name="pidtagstorestate-canonical-property"></a>PidTagStoreState 规范属性
 
@@ -25,46 +25,46 @@ ms.locfileid: "25399009"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含描述消息存储库的状态标志。 
+包含描述邮件存储的状态的标志。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_STORE_STATE  <br/> |
-|标识符：  <br/> |0x340E  <br/> |
+|标识符:  <br/> |0x340E  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性为动态，并且可以更改基于用户操作，与**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性不同。 
+此属性是动态的, 并且可以根据用户操作更改, 这与**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性不同。 
   
-可以设置以下值：
+可以设置以下值:
   
 STORE_HAS_SEARCHES 
   
-> 用户存储中创建一个或多个活动搜索。
+> 用户已在存储区中创建了一个或多个活动搜索。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+[[毫秒-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> 指定允许的操作的核心消息存储对象。
+> 指定核心邮件存储对象的允许操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

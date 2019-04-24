@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bcc0cda0-02bc-49a5-9fb9-850b4c2867c1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 90e5b370dace12dbe529465259b8551516fda491
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386367"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338057"
 ---
 # <a name="pidnamekeywords-canonical-property"></a>PidNameKeywords 规范属性
 
@@ -25,39 +25,39 @@ ms.locfileid: "25386367"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含关键字或 message 对象的类别。
+包含 message 对象的关键字或类别。
   
 |||
 |:-----|:-----|
-|友好名称：  <br/> |无  <br/> |
-|属性进行设置：  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|属性名称：  <br/> |Keywords  <br/> |
+|友好名称:  <br/> |无  <br/> |
+|属性集:  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|属性名称:  <br/> |关键字  <br/> |
 |数据类型：  <br/> |PT_MV_UNICODE  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-多字符串值，该值指定的类别的消息对象，在此属性多值字符串，每个字符串的长度必须少于 256。
+指定邮件对象的类别的多字符串值 (此属性中的多值字符串中的每个字符串的长度) 必须小于256。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
-[[MS OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[毫秒-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> 指定的属性和允许对文档的操作。
+> 指定在文档中允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

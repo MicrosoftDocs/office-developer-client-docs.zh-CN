@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 8674b288-43a3-6376-35ca-9dbaa3a1851e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a89f6dd14e8bbea9d0d4145dc05bf332af95234a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8a6546c38c629c193c1978998c95918943fe5c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336629"
 ---
 # <a name="iconvertersessionsettextwrapping"></a>IConverterSession::SetTextWrapping
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-设置的文字环绕转换器将返回在[IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)MIME 流宽度。
+设置转换器将在[IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md)中返回的 MIME 流的文本换行宽度。
   
 ```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
@@ -38,26 +38,26 @@ HRESULT IConverterSession::SetTextWrapping (
 
  *fWrapText* 
   
-> [in]是否换行文本。
+> 实时是否环绕文本。
     
  *ulWrapWidth* 
   
-> [in]文字环绕要使用的宽度。
+> 实时要使用的文字环绕宽度。
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 呼叫成功。
+> 调用成功。
     
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 EML 文件转换为 MAPI 邮件。  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将转换为 EML 文件的 MAPI 邮件。  <br/> |
+|MapiMime  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 .eml 文件转换为 MAPI 邮件。  <br/> |
+|MapiMime  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 .eml 文件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

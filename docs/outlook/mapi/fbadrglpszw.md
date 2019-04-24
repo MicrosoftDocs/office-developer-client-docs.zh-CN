@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 880eb35d-7045-4fdd-bb33-0f14557a7316
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3b3b6b5ca0b06fc55a60e035ffd9118391cab8f9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ca436bc83d5170d55475c1dd9702a9d54e4b9d5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341053"
 ---
 # <a name="fbadrglpszw"></a>FBadRglpszW
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-验证的 Unicode 字符串数组中的所有字符串。 
+验证 Unicode 字符串数组中的所有字符串。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapival.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |服务提供商  <br/> |
+|标头文件：  <br/> |Mapival.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |服务提供程序  <br/> |
    
 ```cpp
 BOOL FBadRglpszW(
@@ -44,20 +44,20 @@ BOOL FBadRglpszW(
 
  _lppszW_
   
-> [in]指向 null 结尾的 Unicode 字符串数组。 
+> 实时指向以 null 结尾的 Unicode 字符串数组的指针。 
     
- _Cstring_
+ _cStrings_
   
-> [in]由_lppszW_参数指向的字符串数组中的计数。 
+> 实时由_lppszW_参数指向的数组中的字符串计数。 
     
 ## <a name="return-value"></a>返回值
 
 TRUE 
   
-> 一个或多个指定的数组中的字符串是无效。 
+> 指定数组中的一个或多个字符串无效。 
     
 FALSE 
   
-> 指定数组中的字符串是有效的。
+> 指定数组中的字符串有效。
     
 

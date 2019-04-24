@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 25af3683-3a65-2d39-6f6e-76c8d36f866d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 14b2904e57852c564395f4b27c9d5270afd1454a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336657"
 ---
 # <a name="iconvertersessionsetcharset"></a>IConverterSession::SetCharSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "25385723"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定一个可选的字符的 MAPI 时设置为 MIME 转换器使用将 MAPI 邮件转换为 MIME 流。
+指定 mapi 到 mime 转换器在将 mapi 邮件转换为 mime 流时使用的一组可选字符集。
   
 ```cpp
 HRESULT SetCharset( 
@@ -38,21 +38,21 @@ HRESULT SetCharset(
 
  _fApply_
   
-> [in]指示是否使用转换为特定字符集。 此参数设置为**true**可应用后续转换中的字符集。 如果您不再希望应用任何特定的字符集，并返回到后续的消息的默认值，请将此参数设置为**false** 。 
+> 实时指示是否对转换使用特定的字符集。 将此参数设置为**true**可在后续转换中应用字符集。 如果您不再希望应用任何特定的字符集, 并返回到后续邮件的默认设置, 请将此参数设置为**false** 。 
     
  _hcharset_
   
-> [in]设置 Windows Mail 的 mimeole.h 中定义的字符句柄。 指定**null**以指定您不希望应用任何特定的字符集。 对于非**null**值，使用如[MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx)函数获取句柄的字符集。 
+> 实时在 Windows Mail mimeole 中定义的字符集的句柄。 指定**null**以指定不希望应用任何特定的字符集。 对于非**null**值, 请使用函数 (如[MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) ) 获取字符集的句柄。 
     
  _csetapplytype_
   
-> [in]指示如何应用转换一条消息，根据定义设置 Windows Mail 的 mimeole.h 中的字符。
+> 实时指示如何应用字符集以转换邮件, 如 mimeole 中的 Windows Mail 中所定义。
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 成功函数调用。
+> 函数调用成功。
     
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -60,8 +60,8 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 EML 文件转换为 MAPI 邮件。  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将转换为 EML 文件的 MAPI 邮件。  <br/> |
+|MapiMime  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 .eml 文件转换为 MAPI 邮件。  <br/> |
+|MapiMime  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 .eml 文件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

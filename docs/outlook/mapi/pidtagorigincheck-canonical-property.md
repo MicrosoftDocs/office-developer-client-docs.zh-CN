@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 27e0ab2f-b373-41ae-b922-2f45f9671ac6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 27b967b885ef35c04d52699c289dd60248e9abd5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a82b1351c9d2d19c32e34b03a537a12bf93deb8a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335523"
 ---
 # <a name="pidtagorigincheck-canonical-property"></a>PidTagOriginCheck 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个二进制验证值，它使验证原点的原始邮件送达报告收件人。
+包含一个二进制验证值, 它使送达报告收件人能够验证原始邮件的来源。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ORIGIN_CHECK  <br/> |
-|标识符：  <br/> |0x0027 表示  <br/> |
+|标识符:  <br/> |0x0027  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |Server  <br/> |
+|区域：  <br/> |服务器  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性为第三方，例如邮件传输代理 (MTA) 或消息用户接收的送达报告中，验证已提交的邮件来源提供一种方法。 如果存在接收的消息，此属性应复制到任何响应邮件生成的送达报告。
+此属性为第三方提供一种方法, 如邮件传输代理 (MTA) 或邮件用户接收传递报告, 以验证提交的邮件的来源。 如果收到的邮件中有此属性, 应将此属性复制到为响应邮件而生成的任何送达报告中。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

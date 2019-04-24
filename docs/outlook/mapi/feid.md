@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2dde7eec-df3d-723c-db08-7ff0b6107a0b
-description: 上次修改时间： 2012 年 7 月 2 日
-ms.openlocfilehash: 3e534f91863e2a1300e03d112d1f532f486eedd9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '上次修改时间: 2012 年7月2日'
+ms.openlocfilehash: 88716719857cfd623d30a3684fc997ea8019455e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334837"
 ---
 # <a name="feid"></a>FEID
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-文件夹的标识符。 它包含的项标识符以及其他相关信息。
+文件夹的标识符。 它包含条目标识符和其他相关信息。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -35,19 +35,19 @@ struct FEID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
  _abFlags_
   
-> 4 字节条目的文件夹的标识符。 有关 MAPI 项标识符的详细信息，请参阅**[ENTRYID](entryid.md)**。 
+> 4字节的文件夹的条目标识符。 有关 MAPI 条目标识符的详细信息, 请参阅**[ENTRYID](entryid.md)**。 
     
  _muid_
   
-> 标识的存储提供程序的 GUID。 请参阅 mapidefs.h **MAPIUID**的类型定义。 
+> 标识存储提供程序的 GUID。 有关**MAPIUID**的类型定义, 请参阅 mapidefs.h。 
     
  _占位符_
   
-> 此成员仅供内部使用的 Outlook，不支持。
+> 此成员是为内部使用 Outlook 而保留的, 不受支持。
     
  _ltid_
   
@@ -57,7 +57,7 @@ struct FEID
 
 
 
-[关于复制状态计算机](about-the-replication-state-machine.md)
+[关于复制状态机](about-the-replication-state-machine.md)
   
 [MAPI 常量](mapi-constants.md)
   
@@ -65,5 +65,5 @@ struct FEID
   
 [UPFLD](upfld.md)
   
-[SYNC](sync.md)
+[同步](sync.md)
 
