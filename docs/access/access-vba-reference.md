@@ -5,25 +5,25 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a7b2d1c-35c5-41b0-920c-d78606e71ec1
 description: '{插入摘要}'
-ms.openlocfilehash: b4bd45b06536a59b96cf03f66ae151c41ec6ee4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d1d70acd372dc4a26cd09ffe2fce018f71bf1572
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773405"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280366"
 ---
-# <a name="access-vba-reference"></a><span data-ttu-id="f27f6-103">[Access VBA 参考]</span><span class="sxs-lookup"><span data-stu-id="f27f6-103">[Access VBA reference]</span></span>
+# <a name="access-vba-reference"></a><span data-ttu-id="b7e55-103">[Access VBA 参考]</span><span class="sxs-lookup"><span data-stu-id="b7e55-103">[Access VBA reference]</span></span>
 
-<span data-ttu-id="f27f6-104">{插入摘要}</span><span class="sxs-lookup"><span data-stu-id="f27f6-104">{insert summary}</span></span>
+<span data-ttu-id="b7e55-104">{插入摘要}</span><span class="sxs-lookup"><span data-stu-id="b7e55-104">{insert summary}</span></span>
   
-<span data-ttu-id="f27f6-105">{插入介绍性内容}</span><span class="sxs-lookup"><span data-stu-id="f27f6-105">{insert introductory content}</span></span>
+<span data-ttu-id="b7e55-105">{插入介绍性内容}</span><span class="sxs-lookup"><span data-stu-id="b7e55-105">{insert introductory content}</span></span>
   
-## <a name="insert-section-title-text"></a><span data-ttu-id="f27f6-106">{插入章节标题文本}</span><span class="sxs-lookup"><span data-stu-id="f27f6-106">{insert section title text}</span></span>
+## <a name="insert-section-title-text"></a><span data-ttu-id="b7e55-106">{insert section title text}</span><span class="sxs-lookup"><span data-stu-id="b7e55-106">{insert section title text}</span></span>
 
-<span data-ttu-id="f27f6-107">{insert body text}</span><span class="sxs-lookup"><span data-stu-id="f27f6-107">{insert body text}</span></span>
+<span data-ttu-id="b7e55-107">{插入正文文本}</span><span class="sxs-lookup"><span data-stu-id="b7e55-107">{insert body text}</span></span>
   
-### <a name="insert-subsection-title-text"></a><span data-ttu-id="f27f6-108">{插入子节标题文本}</span><span class="sxs-lookup"><span data-stu-id="f27f6-108">{insert subsection title text}</span></span>
+### <a name="insert-subsection-title-text"></a><span data-ttu-id="b7e55-108">{insert subsection title text}</span><span class="sxs-lookup"><span data-stu-id="b7e55-108">{insert subsection title text}</span></span>
 
-<span data-ttu-id="f27f6-109">{insert body text}</span><span class="sxs-lookup"><span data-stu-id="f27f6-109">{insert body text}</span></span>
+<span data-ttu-id="b7e55-109">{insert body text}</span><span class="sxs-lookup"><span data-stu-id="b7e55-109">{insert body text}</span></span>
   
 

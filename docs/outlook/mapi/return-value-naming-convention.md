@@ -7,22 +7,22 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2c1cdd7b-82f1-46f2-a7ce-e0efe857b7cd
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4d7a95e4681370e1aaf4f8b4c4b7ca0814b3aae7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 6786e1ca901215abd709a11401c3026d62c6ffc8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581844"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279823"
 ---
-# <a name="return-value-naming-convention"></a><span data-ttu-id="25b0c-103">返回值命名约定</span><span class="sxs-lookup"><span data-stu-id="25b0c-103">Return Value Naming Convention</span></span>
+# <a name="return-value-naming-convention"></a><span data-ttu-id="555d2-103">返回值命名约定</span><span class="sxs-lookup"><span data-stu-id="555d2-103">Return Value Naming Convention</span></span>
 
   
   
-<span data-ttu-id="25b0c-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="25b0c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="555d2-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="555d2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="25b0c-105">MAPICODE。H 头文件中包含许多客户端或服务提供程序可能会返回从接口方法实现或可能会看到呼叫从返回的值。</span><span class="sxs-lookup"><span data-stu-id="25b0c-105">The MAPICODE.H header file contains many of the values that a client or service provider might return from an interface method implementation or might see returned from a call.</span></span>
+<span data-ttu-id="555d2-105">MAPICODE。H 头文件包含客户端或服务提供程序可能从接口方法实现中返回的很多值, 或者可能看到从调用返回的一些值。</span><span class="sxs-lookup"><span data-stu-id="555d2-105">The MAPICODE.H header file contains many of the values that a client or service provider might return from an interface method implementation or might see returned from a call.</span></span>
   
-<span data-ttu-id="25b0c-106">表示警告和失败情况的代码按照不同的命名约定的开头的前缀 MAPI、 下划线和 W 或 E，指示的代码的类型。</span><span class="sxs-lookup"><span data-stu-id="25b0c-106">The codes to represent warning and failure conditions follow a different naming convention that begins with the prefix MAPI, an underscore, and either a W or an E to indicate the type of code.</span></span> <span data-ttu-id="25b0c-107">代码的其余是一个简短的字符串，以描述此条件。</span><span class="sxs-lookup"><span data-stu-id="25b0c-107">The rest of the code is a short character string to describe the condition.</span></span> <span data-ttu-id="25b0c-108">由下划线分隔字符串中的每个单词。</span><span class="sxs-lookup"><span data-stu-id="25b0c-108">Each word in the string is separated by an underscore.</span></span> <span data-ttu-id="25b0c-109">例如，错误值 MAPI_E_TOO_COMPLEX 指示实现无法处理呼叫中要请求的内容。</span><span class="sxs-lookup"><span data-stu-id="25b0c-109">For example, the error value MAPI_E_TOO_COMPLEX indicates that the implementation could not handle whatever was being requested in the call.</span></span> <span data-ttu-id="25b0c-110">警告值 MAPI_W_PARTIAL_COMPLETION 指示的调用成功，但时出现问题。</span><span class="sxs-lookup"><span data-stu-id="25b0c-110">The warning value MAPI_W_PARTIAL_COMPLETION indicates that the call succeeded, but that there were problems.</span></span> <span data-ttu-id="25b0c-111">成功完成仅操作的一部分。</span><span class="sxs-lookup"><span data-stu-id="25b0c-111">Only part of the operation was completed successfully.</span></span>
+<span data-ttu-id="555d2-106">代表警告和失败条件的代码遵循以前缀 MAPI、下划线和 W 或 E 开头的不同命名约定, 以指示代码的类型。</span><span class="sxs-lookup"><span data-stu-id="555d2-106">The codes to represent warning and failure conditions follow a different naming convention that begins with the prefix MAPI, an underscore, and either a W or an E to indicate the type of code.</span></span> <span data-ttu-id="555d2-107">代码的其余部分是用于描述条件的短字符字符串。</span><span class="sxs-lookup"><span data-stu-id="555d2-107">The rest of the code is a short character string to describe the condition.</span></span> <span data-ttu-id="555d2-108">字符串中的每个单词都用下划线分隔。</span><span class="sxs-lookup"><span data-stu-id="555d2-108">Each word in the string is separated by an underscore.</span></span> <span data-ttu-id="555d2-109">例如, 错误值 MAPI_E_TOO_COMPLEX 指示实现无法处理在调用中请求的任何内容。</span><span class="sxs-lookup"><span data-stu-id="555d2-109">For example, the error value MAPI_E_TOO_COMPLEX indicates that the implementation could not handle whatever was being requested in the call.</span></span> <span data-ttu-id="555d2-110">警告值 MAPI_W_PARTIAL_COMPLETION 指示调用成功, 但出现问题。</span><span class="sxs-lookup"><span data-stu-id="555d2-110">The warning value MAPI_W_PARTIAL_COMPLETION indicates that the call succeeded, but that there were problems.</span></span> <span data-ttu-id="555d2-111">仅成功完成部分操作。</span><span class="sxs-lookup"><span data-stu-id="555d2-111">Only part of the operation was completed successfully.</span></span>
   
 
