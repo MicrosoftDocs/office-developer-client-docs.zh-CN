@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8c6e7ca2-1824-4cca-bf69-3c1ea52727de
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4984055d370f3f8ab617b11b2d834ba277ef105a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391393"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282359"
 ---
 # <a name="pidtagadditionalrenentryids-canonical-property"></a>PidTagAdditionalRenEntryIds 规范属性
 
@@ -25,18 +25,18 @@ ms.locfileid: "25391393"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含的条目 Id 的某些特殊文件夹。 
+包含某些特殊文件夹的条目 id。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ADDITIONAL_REN_ENTRYIDS  <br/> |
-|标识符：  <br/> |0x36D8  <br/> |
+|标识符:  <br/> |0x36D8  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |Outlook 应用程序  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此多值属性的前五个条目于以下特殊文件夹，如果存在存储中：
+此多值属性的前五个条目适用于以下特殊文件夹 (如果它们存在于存储中):
   
 0-冲突文件夹
   
@@ -52,29 +52,29 @@ ms.locfileid: "25391393"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[毫秒-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> 指定的属性和用于创建和邮箱中查找的特殊文件夹的操作。
+> 指定用于创建和定位邮箱中的特殊文件夹的属性和操作。
     
-[[MS OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[毫秒-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> 标识，并将标记旨在到非可靠来源欺骗透露敏感信息 （如密码和其他个人信息） 的收件人的电子邮件。
+> 标识和标记旨在欺骗收件人的电子邮件, 以将敏感信息 (如密码和其他个人信息) 泄漏到非信任源。
     
-[[MS OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[毫秒-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> 允许处理的允许/阻止列表，并确定的垃圾邮件。
+> 启用对允许/阻止列表的处理以及确定垃圾邮件。
     
 ### <a name="header-files"></a>头文件
 
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
@@ -89,5 +89,5 @@ Mapidefs.h
 [将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 
 
-[关于存储区 API](https://msdn.microsoft.com/library/aa192884.aspx)
+[关于存储 API](https://msdn.microsoft.com/library/aa192884.aspx)
 

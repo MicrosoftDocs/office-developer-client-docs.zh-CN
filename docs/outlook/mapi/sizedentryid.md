@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: 491170af-db35-4d7e-a912-44ffe8c7506b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d797acdbf2abfb88151d69d0c93e743f07afc5c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 88cf91330dea82dda490b81cc8de6fea0504baf7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563868"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282682"
 ---
 # <a name="sizedentryid"></a>SizedENTRYID
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建包含的指定大小**ab**成员的命名的[ENTRYID](entryid.md)结构。 
+创建一个命名的[ENTRYID](entryid.md)结构, 其中包含指定大小的**ab**成员。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**ENTRYID** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 SizedENTRYID (_cb, _name)
@@ -38,17 +38,17 @@ SizedENTRYID (_cb, _name)
 
 __cb_
   
-> 在新结构的**ab**成员的字节数。 
+> 新结构的**ab**成员中的字节数。 
     
 __名称_
   
-> 新结构的的名称。
+> 新结构的名称。
     
 ## <a name="remarks"></a>注解
 
-**SizedENTRYID**宏允许您定义的项标识符后已知数组长度要求。 使用此宏来使用显式边界创建的项标识符。 
+**SizedENTRYID**宏允许您在已知数组长度要求后定义条目标识符。 使用此宏创建具有显式界限的条目标识符。 
   
-若要使用新结构的结果从**SizedENTRYID**宏作为指针指向**ENTRYID**结构，执行下列转换： 
+若要使用作为指向**ENTRYID**结构的指针的**SizedENTRYID**宏生成的新结构, 请执行以下转换: 
   
 ```cpp
 lpENTRYID = (LPENTRYID) &SizedENTRYID;

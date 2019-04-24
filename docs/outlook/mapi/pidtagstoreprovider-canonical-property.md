@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 6f6cc66f-a08e-4f8e-b33a-d3674319248e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 02d2c30fede7e554910a1bedb01b79c488447bb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6266c9293f54ce764c5b5b0e41d43767490abcf7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278706"
 ---
 # <a name="pidtagstoreprovider-canonical-property"></a>PidTagStoreProvider 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个提供程序定义[MAPIUID](mapiuid.md)结构，指示邮件存储的类型。 
+包含提供程序定义的[MAPIUID](mapiuid.md)结构, 该结构指示邮件存储区的类型。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_MDB_PROVIDER  <br/> |
-|标识符：  <br/> |0x3414  <br/> |
+|标识符:  <br/> |0x3414  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
 ## <a name="remarks"></a>注解
 
-[MAPIUID](mapiuid.md)结构标识消息存储库的类型。 此值计算的消息存储对象上的消息存储提供程序，并且是唯一的每个提供程序。 它通常用于浏览消息存储表如公用文件夹中查找所需类型的存储区。 
+[MAPIUID](mapiuid.md)结构标识邮件存储的类型。 值由邮件存储区对象的邮件存储提供程序计算, 并且每个提供程序都是唯一的。 它通常用于浏览邮件存储区表以查找所需类型的存储, 例如公用文件夹。 
   
-此属性是类似于通讯簿的**PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) 属性。 
+此属性类似于通讯簿的**PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) 属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

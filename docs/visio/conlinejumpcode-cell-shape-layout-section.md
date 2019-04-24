@@ -9,32 +9,28 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: af85588e-8e83-5168-7a8c-d7e8b4af5c27
 description: 确定连接线何时跨线。
-ms.openlocfilehash: 002f628841356ec8a22afbb9d4aeca8236058222
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28bf506b8d3729fefec438d259746661fd28586e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284086"
 ---
-# <a name="conlinejumpcode-cell-shape-layout-section"></a>ConLineJumpCode 单元格（“Shape Layout”部分）
+# <a name="conlinejumpcode-cell-shape-layout-section"></a>ConLineJumpCode 单元格（“Shape Layout”内容）
 
 确定连接线何时跨线。
   
-|**值**|**说明**|**自动常量**|
+|**Value**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
-|0  <br/> |
-          按照页面上指定的那样：在 **“设计”** 选项卡上，单击 **“页面设置”** 组中的箭头，然后单击 **“布局与排列”** 选项卡，查看页面规格
-  <br/> |**visSLOJumpDefault** <br/> |
-|1  <br/> |从不  <br/> |**visSLOJumpNever** <br/> |
-|2  <br/> |两者都显示  <br/> |**visSLOJumpAlways** <br/> |
-|3  <br/> |其他连接线跨线  <br/> |**visSLOJumpOther** <br/> |
-|4  <br/> |
-          两条连接线都不跨线
-  <br/> |**visSLOJumpNeither** <br/> |
+|0  <br/> |按照页面上指定的那样：在 **“设计”** 选项卡上，单击 **“页面设置”** 组中的箭头，然后单击 **“布局与排列”** 选项卡，查看页面规格  <br/> |**visSLOJumpDefault** <br/> |
+|1  <br/> |Never  <br/> |**visSLOJumpNever** <br/> |
+|双面  <br/> |Always  <br/> |**visSLOJumpAlways** <br/> |
+|第三章  <br/> |其他连接线跨线  <br/> |**visSLOJumpOther** <br/> |
+|4  <br/> |两条连接线都不跨线  <br/> |**visSLOJumpNeither** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-您还可以设置此单元格的值选择动态连接线，在[开发人员](run-in-developer-mode-display-the-developer-tab.md)选项卡上的**形状设计**组中单击**行为**，然后单击**连接器**选项卡。 
+您还可以通过以下方法设置此单元格的值: 选择动态连接线, 在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中单击 "**行为**", 然后单击 "**连接线**" 选项卡。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ConLineJumpCode 单元格的引用，请使用： 
   

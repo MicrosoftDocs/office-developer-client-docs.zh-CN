@@ -12,46 +12,46 @@ api_type:
 - COM
 ms.assetid: 4d24ecaf-11d0-4362-8207-be3407736d7b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ecfbf33641c86d4f162c521466ca2bf0b79a61d5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 46f4e3fc8f554f332ab9b1d8a6cb33e9e21dd9a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581403"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282794"
 ---
 # <a name="ixplogon--iunknown"></a>IXPLogon : IUnknown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 后台处理程序访问提供传输提供程序。 
+为 MAPI 后台处理程序提供对传输提供程序的访问权限。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapispi.h  <br/> |
-|由公开：  <br/> |传输登录对象  <br/> |
-|通过实现：  <br/> |传输提供程序  <br/> |
-|调用：  <br/> |MAPI 后台处理程序  <br/> |
-|接口标识符：  <br/> |IID_IXPLogon  <br/> |
-|指针类型：  <br/> |LXPLOGON  <br/> |
+|标头文件：  <br/> |Mapispi  <br/> |
+|公开者:  <br/> |传输登录对象  <br/> |
+|实现者：  <br/> |传输提供程序  <br/> |
+|调用者：  <br/> |MAPI 后台处理程序  <br/> |
+|接口标识符:  <br/> |IID_IXPLogon  <br/> |
+|指针类型:  <br/> |LXPLOGON  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[AddressTypes](ixplogon-addresstypes.md) <br/> |返回的收件人的传输提供程序处理的类型。  <br/> |
-|**RegisterOptions** <br/> | *不受支持或记录。*  <br/> |
-|[TransportNotify](ixplogon-transportnotify.md) <br/> |信号传输提供程序有关哪些请求发送通知的事件的匹配项。  <br/> |
-|[空闲时间](ixplogon-idle.md) <br/> |指示系统空闲，启用传输提供程序执行低优先级操作。  <br/> |
+|[AddressTypes](ixplogon-addresstypes.md) <br/> |返回传输提供程序处理的收件人的类型。  <br/> |
+|**RegisterOptions** <br/> | *不支持或记录。*  <br/> |
+|[TransportNotify](ixplogon-transportnotify.md) <br/> |指示发生了传输提供程序请求通知的事件。  <br/> |
+|[待机](ixplogon-idle.md) <br/> |指示系统处于空闲状态, 使传输提供程序能够执行低优先级操作。  <br/> |
 |[TransportLogoff](ixplogon-transportlogoff.md) <br/> |启动注销过程。  <br/> |
-|[SubmitMessage](ixplogon-submitmessage.md) <br/> |指示 MAPI 后台处理程序都有要提供的传输提供程序的消息。  <br/> |
-|[EndMessage](ixplogon-endmessage.md) <br/> |通知传输提供程序 MAPI 后台处理程序完成对出站邮件及其处理。  <br/> |
-|[投票](ixplogon-poll.md) <br/> |指示的传输提供程序是否已接收到一个或多个入站的邮件。  <br/> |
-|[StartMessage](ixplogon-startmessage.md) <br/> |启动入站邮件传输提供程序传输到 MAPI 后台处理程序。  <br/> |
-|[OpenStatusEntry](ixplogon-openstatusentry.md) <br/> |打开传输提供程序的状态对象。  <br/> |
+|[SubmitMessage](ixplogon-submitmessage.md) <br/> |指示 MAPI 后台处理程序有要传递的传输提供程序的消息。  <br/> |
+|[EndMessage](ixplogon-endmessage.md) <br/> |通知传输提供程序 MAPI 后台处理程序已完成对出站邮件的处理。  <br/> |
+|[轮询](ixplogon-poll.md) <br/> |指示传输提供程序是否已收到一个或多个入站邮件。  <br/> |
+|[StartMessage](ixplogon-startmessage.md) <br/> |启动从传输提供程序到 MAPI 后台处理程序的入站邮件传输。  <br/> |
+|[OpenStatusEntry](ixplogon-openstatusentry.md) <br/> |打开传输提供程序的 status 对象。  <br/> |
 |[ValidateState](ixplogon-validatestate.md) <br/> |检查传输提供程序的外部状态。  <br/> |
-|[FlushQueues](ixplogon-flushqueues.md) <br/> |传输提供程序立即提供所有挂起的入站或出站消息的请求。  <br/> |
+|[FlushQueues](ixplogon-flushqueues.md) <br/> |请求传输提供程序立即传递所有挂起的入站或出站邮件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

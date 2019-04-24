@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4e6bfbc7-7586-43cc-9380-daa0fe3d85a5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e057ab2ca0c75d5c0d749ebde8f1bdfb4f1ae66a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278877"
 ---
 # <a name="pidtaglistunsubscribe-canonical-property"></a>PidTagListUnsubscribe 规范属性
 
@@ -25,46 +25,46 @@ ms.locfileid: "25390595"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含多用途 Internet 邮件扩展 (MIME) 消息的列表取消标头字段的值。
+包含多用途 Internet 邮件扩展 (MIME) 邮件的列表取消订阅标头字段的值。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_LIST_UNSUBSCRIBE，PR_LIST_UNSUBSCRIBE_A，PR_LIST_UNSUBSCRIBE_W  <br/> |
-|标识符：  <br/> |0x1045  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_LIST_UNSUBSCRIBE、PR_LIST_UNSUBSCRIBE_A、PR_LIST_UNSUBSCRIBE_W  <br/> |
+|标识符:  <br/> |0x1045  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-若要生成列表取消头字段中，客户端必须将这些属性设置为所需的值。 MIME 作者必须将这些属性的值复制到列表取消标头字段。
+若要生成列表取消订阅标头字段, 客户端必须将这些属性设置为所需的值。 MIME 编写器必须将这些属性的值复制到列表取消订阅标头字段。
   
-若要设置这些列表与服务器相关属性的值，MIME 客户端必须编写指定下表中的标题字段。
+若要设置这些列表服务器相关属性的值, MIME 客户端必须按下表所指定的方式写入头字段。
   
-|**属性**|**首选标头字段名称**|**备用标头字段名称**|
+|**Property**|**首选标头字段名称**|**备用标头字段名称**|
 |:-----|:-----|:-----|
-|**PR_LIST_UNSUBSCRIBE** <br/> |取消列表订阅  <br/> |X 列表取消订阅  <br/> |
+|**PR_LIST_UNSUBSCRIBE** <br/> |列表-取消订阅  <br/> |X-列表-取消订阅  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> 从 Internet 标准电子邮件约定转换为消息对象。
+> 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

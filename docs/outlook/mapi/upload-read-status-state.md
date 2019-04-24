@@ -1,43 +1,43 @@
 ---
-title: 上传“读取状态”状态
+title: 上载读取状态状态
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 41815a88fe1215d2a85a38592e04b0d0bbd43cc6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e8ad2acf019df3f07060c8e8c71a62afd3fca03c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573045"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282661"
 ---
-# <a name="upload-read-status-state"></a>上传“读取状态”状态
+# <a name="upload-read-status-state"></a>上载读取状态状态
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
- 本主题介绍上载读取的复制状态机状态状态期间出现的情况。 
+ 本主题介绍复制状态机的上载读取状态状态期间发生的情况。 
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|状态标识符：  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |
-|相关的数据结构：  <br/> |**[UPREAD](upread.md)** <br/> |
-|从此状态：  <br/> |[上载表状态](upload-table-state.md) <br/> |
-|为此状态：  <br/> |上载表状态  <br/> |
+|状态标识符:  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |
+|相关数据结构:  <br/> |**[UPREAD](upread.md)** <br/> |
+|从此状态:  <br/> |[上传表状态](upload-table-state.md) <br/> |
+|到此状态:  <br/> |上传表状态  <br/> |
    
 > [!NOTE]
-> 复制状态机是确定性状态机。 从一种状态传出到另一个客户端从后者必须最终返回到前者。 
+> 复制状态计算机是确定的状态机。 客户端从一个状态传出到另一个状态最终必须返回到前者的前一项。 
   
 ## <a name="description"></a>说明
 
-此状态启动上载读取中前面的上载表状态指定文件夹中的项目的状态。 在此状态下，Outlook 初始化为其读取的状态已更改的文件夹中的那些项目的信息的关联的**UPREAD**数据结构。 然后，客户端更新读取为读或未读的服务器上对这些项目的状态。 
+此状态将启动上传表状态中指定的文件夹中项目的读取状态的上载。 在此状态下, Outlook 将关联的**UPREAD**数据结构与已更改其读取状态的文件夹中的项目的信息进行初始化。 然后, 客户端将服务器上这些项目的读取状态更新为 "已读" 或 "未读"。 
   
-此状态结束时，Outlook 将清除的内部的项读取状态信息防止再次上载的项读取的状态。 本地存储返回到上载表状态。
+当此状态结束时, Outlook 将清除有关项目读取状态的内部信息, 以防止再次上载项目的读取状态。 本地存储将返回到上传表状态。
   
 ## <a name="see-also"></a>另请参阅
 
@@ -47,7 +47,7 @@ ms.locfileid: "22573045"
   
 [MAPI 常量](mapi-constants.md)
   
-[关于复制状态计算机](about-the-replication-state-machine.md)
+[关于复制状态机](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

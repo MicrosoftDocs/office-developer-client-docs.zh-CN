@@ -12,87 +12,87 @@ api_type:
 - COM
 ms.assetid: e29190c5-52c3-4ef7-98db-699487c54325
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a60bc55686e883cabd144af3a9badfb55f835472
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 751be8abe02dfb1d5bab2bcbbbc0cbd2a8243f85
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278755"
 ---
 # <a name="pidtagstatuscode-canonical-property"></a>PidTagStatusCode 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含这些标志指示会话资源的当前状态的位掩码。 所有服务提供商都设置状态代码一样 MAPI 子系统、 MAPI 后台处理程序和集成的通讯簿的状态报告。
+包含指示会话资源的当前状态的标志的位掩码。 所有服务提供程序都会将状态代码设置为 mapi, 以报告子系统的状态、MAPI 后台处理程序和集成的通讯簿。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_STATUS_CODE  <br/> |
-|标识符：  <br/> |0x3E04  <br/> |
+|标识符:  <br/> |0x3E04  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
 ## <a name="remarks"></a>注解
 
-状态代码必须 Mapisvc.inf 文件中出现的所有提供商。 
+状态代码必须出现在所有提供程序的 mapisvc.inf 文件中。 
   
-通过 MAPI 和所有服务提供商实现状态对象。 有两组状态代码、 的所有状态对象的一组和传输提供程序的另一组有效的值。 所有状态对象可以将此属性都设置为下列值：
+Status 对象由 MAPI 和所有服务提供商实现。 状态代码有两组有效值, 一组用于所有状态对象, 另一组用于传输提供程序。 所有 status 对象均可将此属性设置为以下值:
   
 STATUS_AVAILABLE 
   
-> 指示资源正常工作。
+> 指示资源是可操作的。
     
 STATUS_FAILURE 
   
-> 指示资源遇到问题。 服务提供程序 STATUS_FAILURE 指示提供程序可能很快将关闭结束当前会话。
+> 指示资源遇到问题。 对于服务提供程序, STATUS_FAILURE 指示可能很快会关闭提供程序以结束当前会话。
     
 STATUS_OFFLINE 
   
-> 指示仅本地数据或服务都是可用。
+> 指示仅本地数据或服务可用。
     
-传输提供程序还可以设置其状态对象的**PR_STATUS_CODE**属性为下列值： 
+传输提供程序还可以将其 status 对象的**PR_STATUS_CODE**属性设置为以下值: 
   
 STATUS_INBOUND_ACTIVE 
   
-> 指示的传输提供程序接收的入站的邮件。 
+> 指示传输提供程序正在接收入站邮件。 
     
 STATUS_INBOUND_ENABLED 
   
-> 指示的传输提供程序可接受入站的邮件。
+> 指示传输提供程序可以接收入站邮件。
     
 STATUS_INBOUND_FLUSH 
   
-> 指示的传输提供程序从入站队列中下载邮件。
+> 指示传输提供程序正在从入站队列下载邮件。
     
 STATUS_OUTBOUND_ACTIVE 
   
-> 指示的传输提供程序接收出站邮件。 
+> 指示传输提供程序正在接收出站邮件。 
     
 STATUS_OUTBOUND_ENABLED 
   
-> 指示的传输提供程序可以处理出站邮件。
+> 指示传输提供程序可以处理出站邮件。
     
 STATUS_OUTBOUND_FLUSH 
   
-> 指示的传输提供程序为上载从其出站队列的消息。
+> 指示传输提供程序正在从其出站队列中上载邮件。
     
 STATUS_REMOTE_ACCESS 
   
-> 指示的传输提供程序支持远程访问。
+> 指示传输提供程序支持远程访问。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

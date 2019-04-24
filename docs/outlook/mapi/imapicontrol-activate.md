@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b641030-2429-4217-a648-0a9f3d1a1b29
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7f330ef3099175dde88bec2de3512a3c4af1db49
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: d3b47e423daf428c67761d13deef1ae0858c91c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280200"
 ---
 # <a name="imapicontrolactivate"></a>IMAPIControl::Activate
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-执行显示一个对话框，或在客户端应用程序用户单击按钮控件时启动编程操作等任务。
+在客户端应用程序用户单击 "按钮" 控件时执行一种任务, 如显示对话框或启动编程操作。
   
 ```cpp
 HRESULT Activate(
@@ -38,23 +38,23 @@ HRESULT Activate(
 
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
  _ulUIParam_
   
-> [in]按钮控件将显示的对话框中的父窗口的句柄。
+> 实时显示按钮控件的对话框的父窗口的句柄。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功激活按钮控件。
+> 按钮控件已成功激活。
     
 ## <a name="remarks"></a>注解
 
-**IMAPIControl::Activate**方法执行关注的用户单击按钮控件的任务。 单击显示表中，处理的一部分发生后 MAPI 调用**激活**后第一个调用[IMAPIControl::GetState](imapicontrol-getstate.md)以确定能否启用按钮。 
+**IMAPIControl:: Activate**方法在用户单击按钮控件后执行任务。 在显示表的处理过程中, MAPI 在第一次调用[IMAPIControl:: GetState](imapicontrol-getstate.md)以确定按钮是否已启用之后, 会调用**激活**。 
   
-有关如何实施**激活**和其他详细信息[IMAPIControl: IUnknown](imapicontroliunknown.md)方法，请参阅[控件对象实现](control-object-implementation.md)。
+有关如何实现**Activate**和其他[IMAPIControl: IUnknown](imapicontroliunknown.md)方法的详细信息, 请参阅[Control Object 实现](control-object-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

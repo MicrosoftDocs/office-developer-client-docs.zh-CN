@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: f8270ef2-56d4-4b47-bdda-a39c966bbcba
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fb0b66cbf0de1ac351bb2026a48e0154de779206
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b396cd326dd25fd72346f9f8037e8a712b84a196
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278870"
 ---
 # <a name="pidtagmailpermission-canonical-property"></a>PidTagMailPermission 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含 TRUE，则允许消息的用户发送和接收消息。 
+如果允许邮件用户发送和接收邮件, 则该参数为 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_MAIL_PERMISSION  <br/> |
-|标识符：  <br/> |0x3A0E  <br/> |
+|标识符:  <br/> |0x3A0E  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>注解
 
-如果未设置此属性，MAPI 会将其视为 TRUE 值。 
+如果未设置此属性, 则 MAPI 会将其视为具有真正的值。 
   
-其中某些条目不启用电子邮件的此属性设置为 FALSE 企业目录中。 
+将此属性设置为 FALSE, 其中某些条目未启用电子邮件的公司目录。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

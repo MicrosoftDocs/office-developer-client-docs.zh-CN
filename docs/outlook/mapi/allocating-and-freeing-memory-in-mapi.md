@@ -1,5 +1,5 @@
 ---
-title: 分配和释放 MAPI 中的内存
+title: 在 MAPI 中分配和释放内存
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,31 +8,31 @@ api_type:
 - COM
 ms.assetid: e238f6bc-e9f6-4ea4-a2e4-ff5da2a04bd5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2ec5c2604c72d41078aa467764463e2659c62e65
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 68250c5cbeaa366ed4555bb469c4e68d62302f28
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281583"
 ---
-# <a name="allocating-and-freeing-memory-in-mapi"></a>分配和释放 MAPI 中的内存
+# <a name="allocating-and-freeing-memory-in-mapi"></a>在 MAPI 中分配和释放内存
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-除了指定如何分配和释放内存，MAPI 定义了解时应释放调用的公共接口方法和 API 函数之间传递内存模型。 模型仅适用于参数不是到接口，如字符串和结构的指针的指针分配内存。 接口指针使用引用计数通过**IUnknown**实现的机制。 分配和释放非 MAPI 相关的内部在客户端应用程序或服务提供商的内存时, 使用任何机制有意义。 
+除了指定如何分配和释放内存之外, MAPI 还定义一个模型, 以了解在何时释放公共接口方法和 API 函数调用之间传递的内存。 模型仅适用于为不是指向接口的指针 (如字符串和指向结构的指针) 的参数分配的内存。 接口指针使用通过**IUnknown**实现的引用计数机制。 在客户端应用程序或服务提供程序内部分配和释放与非 MAPI 相关的内存时, 请使用任何有意义的机制。 
   
-模型定义参数为三种类型之一。 可以输入参数，将呼叫者与信息用于通过调用的函数或方法，将设置输出参数、 通过调用的函数或方法设置和返回给调用方或输入输出参数，两种类型的组合。 输出参数通常是指向数据或指向数据的指针的指针。 尽管调用的函数，负责为输出参数分配数据，呼叫者的指针分配的内存。 
+模型将参数定义为以下三种类型之一。 它们可以是输入参数, 由调用方设置, 由调用的函数或方法、输出参数、被调用的函数或方法设置并返回给调用方或输入输出参数 (这两种类型的组合) 所使用的信息。 输出参数通常是指向数据的数据或指向数据的指针的指针。 虽然被调用的函数负责为输出参数分配数据, 但调用方为指针分配内存。 
   
-下表介绍分配和释放内存为这些类型的参数的规则。
+下表介绍了为这些类型的参数分配和释放内存的规则。
   
-|**类型**|**内存分配**|**内存发行版**|
+|**Type**|**内存分配**|**内存释放**|
 |:-----|:-----|:-----|
-|输入  <br/> |呼叫者负责，并且可以使用任何机制。  <br/> |呼叫者负责，并且可以使用任何机制。  <br/> |
-|输出  <br/> |调用的函数负责，且必须使用**MAPIAllocateBuffer**。 有关详细信息，请参阅[MAPIAllocateBuffer](mapiallocatebuffer.md)。  <br/> |呼叫者负责，且必须使用**MAPIFreeBuffer**。 有关详细信息，请参阅[MAPIFreeBuffer](mapifreebuffer.md)。  <br/> |
-|输入输出  <br/> |呼叫者负责的初始分配和调用的函数可以重新分配必要使用**MAPIAllocateBuffer**。  <br/> |必要时重新分配的初始释放调用的函数。 呼叫者必须释放的最终的返回值。  <br/> |
+|Input  <br/> |呼叫者负责, 并且可以使用任何机制。  <br/> |呼叫者负责, 并且可以使用任何机制。  <br/> |
+|Output  <br/> |被叫函数负责, 必须使用**MAPIAllocateBuffer**。 有关详细信息, 请参阅[MAPIAllocateBuffer](mapiallocatebuffer.md)。  <br/> |呼叫者负责, 必须使用**MAPIFreeBuffer**。 有关详细信息, 请参阅[MAPIFreeBuffer](mapifreebuffer.md)。  <br/> |
+|输入输出  <br/> |如果需要, 调用方负责使用**MAPIAllocateBuffer**来重新分配初始分配和被调用函数。  <br/> |如果需要重新分配, 则调用的函数负责初始化释放。 调用方必须释放最终返回值。  <br/> |
    
-在故障情形接口方法的实施者需要特别注意输出和输入输出参数，因为呼叫者通常无法清除它们。 如果将返回错误，然后每个输出或输入输出参数必须也将保留在初始化呼叫者或设置一个值，而无需任何操作需要呼叫者可以清理为的值。 例如，输出指针-参数的`void ** ppv`它已输入，也可以是设置为 NULL，则必须将保留 ( `*ppv = NULL`)。
+在失败情况下, 接口方法的实现者需要注意输出和输入输出参数, 因为调用方通常无法清除它们。 如果返回错误, 则必须将每个输出或输入输出参数保留为调用方初始化的值, 或设置为一个可清除的值, 而不是调用方的任何操作。 例如, 的`void ** ppv`输出指针参数必须保留在输入中, 或可设置为 NULL ( `*ppv = NULL`)。
   
 

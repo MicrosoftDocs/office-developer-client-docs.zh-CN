@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 534e404f-54c6-4d2b-a8d0-d2ee990a972f
-description: 获取一个字符串，表示对于给定的社交网络连接的唯一的社交网络标识符。
-ms.openlocfilehash: eb618ba8e8bb37278c1fdb09d984fba141a9d686
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 获取一个字符串, 表示给定的社交网络连接的唯一社交网络标识符。
+ms.openlocfilehash: 3051abd6dcccec878e8c53332980731772d543eb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285335"
 ---
 # <a name="isocialsessiongetnetworkidentifier"></a>ISocialSession::GetNetworkIdentifier
 
-获取一个字符串，表示对于给定的社交网络连接的唯一的社交网络标识符。 
+获取一个字符串, 表示给定的社交网络连接的唯一社交网络标识符。 
   
 ```cpp
 HRESULT _stdcall GetNetworkIdentifier([out, retval] BSTR* networkIdentifier);
@@ -27,11 +27,11 @@ HRESULT _stdcall GetNetworkIdentifier([out, retval] BSTR* networkIdentifier);
 
 _networkIdentifier_
   
-> [输出]一个字符串，包含一个唯一的社交网络的标识符。
+> 排除包含唯一社交网络标识符的字符串。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-一个唯一的网络标识符是一个字符串，标识 Outlook Social Connector (OSC) 提供程序社交网络。 此方法还可以返回 E_NOTIMPL。
+唯一的网络标识符是一个标识 Outlook social Connector (.osc) 提供商社交网络的字符串。 此方法还可以返回 E_NOTIMPL。
   
 ## <a name="see-also"></a>另请参阅
 

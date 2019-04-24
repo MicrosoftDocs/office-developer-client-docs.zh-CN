@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 287577babc9a40b771aa9917211ba5dcbf8190ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4ca828c3e03cbff886230f2af63485f7b15e8b35
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280104"
 ---
 # <a name="imapifolderemptyfolder"></a>IMAPIFolder::EmptyFolder
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-删除所有消息和子文件夹从文件夹而不删除该文件夹本身。
+删除文件夹中的所有邮件和子文件夹, 而不删除该文件夹本身。
   
 ```cpp
 HRESULT EmptyFolder(
@@ -39,69 +39,69 @@ HRESULT EmptyFolder(
 
  _ulUIParam_
   
-> [in]进度指示器的父窗口句柄。 除非 FOLDER_DIALOG 标志设置_ulFlags_参数中，将忽略该_ulUIParam_参数。 
+> 实时进度指示器的父窗口的句柄。 除非在_ulFlags_参数中设置了 FOLDER_DIALOG 标志, 否则将忽略_ulUIParam_参数。 
     
  _lpProgress_
   
-> [in]指向显示进度指示器进度对象的指针。 如果在_lpProgress_传递 NULL，则消息存储提供程序将使用 MAPI 进度对象实现显示进度指示器。 除非 FOLDER_DIALOG 标志设置_ulFlags_参数中，将忽略该_lpProgress_参数。 
+> 实时指向显示进度指示器的进度对象的指针。 如果在_lpProgress_中传递 NULL, 则邮件存储提供程序将使用 MAPI 进度对象实现来显示进度指示器。 除非在_ulFlags_参数中设置了 FOLDER_DIALOG 标志, 否则将忽略_lpProgress_参数。 
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何清空文件夹。 可以设置以下标志：
+> 实时用于控制文件夹如何清空的标志的位掩码。 可以设置以下标志:
     
 DEL_ASSOCIATED 
   
-> 删除所有子文件夹，包括子文件夹包含具有关联的内容的消息。 只对该呼叫会影响的顶级文件夹已 DEL_ASSOCIATED 标志。
+> 删除所有子文件夹, 包括包含相关内容的邮件的子文件夹。 DEL_ASSOCIATED 标志仅对调用操作所针对的顶级文件夹有意义。
     
 DELETE_HARD_DELETE
   
-> 永久删除所有邮件，包括软删除的。
+> 永久删除所有邮件, 包括软删除的邮件。
     
 FOLDER_DIALOG 
   
-> 时需执行的操作，则显示进度指示器。
+> 在操作继续时显示进度指示器。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功清空文件夹。
+> 已成功清空该文件夹。
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> 调用成功，但不是完全清空文件夹。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
+> 调用成功, 但未完全清空该文件夹。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
 ## <a name="remarks"></a>注解
 
-**IMAPIFolder::EmptyFolder**方法将删除所有文件夹的内容而不删除该文件夹本身。 
+**IMAPIFolder:: EmptyFolder**方法删除文件夹中的所有内容, 而不删除文件夹本身。 
   
-**EmptyFolder**呼叫期间，不会删除提交的邮件。 
+在**EmptyFolder**呼叫过程中, 不会删除已提交的邮件。 
   
-文件夹关联的内容包括消息，用于描述视图、 规则、 自定义表单和自定义解决方案存储区，并且还可以包含表单定义。 
+文件夹的关联内容包括用于描述视图、规则、自定义表单和自定义解决方案存储的邮件, 还可以包括表单定义。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-不要调用[IMsgStore::AbortSubmit](imsgstore-abortsubmit.md)方法的文件夹中的已提交的邮件。 不会删除提交的邮件。 
+请勿为已提交的文件夹中的邮件调用[IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md)方法。 已提交的邮件不会被删除。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-希望在下列情况下的这些返回值。
+在下列情况下, 需要这些返回值。
   
-|**条件**|**返回值**|
+|**Condition**|**返回值**|
 |:-----|:-----|
 |**EmptyFolder**已成功清空文件夹。  <br/> |S_OK  <br/> |
 |**EmptyFolder**无法完全清空文件夹。  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
 |**EmptyFolder**无法完成。  <br/> |任何错误值  <br/> |
    
-无法完成**EmptyFolder**时，不假定任何工作已完成。 **EmptyFolder**可能已经能够删除该文件夹的内容的一些前遇到错误。 
+当**EmptyFolder**无法完成时, 请不要假定没有任何工作已完成。 **EmptyFolder**可能已能够在遇到此错误之前删除部分文件夹内容。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnEmptyFolder  <br/> |MFCMAPI 使用**IMAPIFolder::EmptyFolder**方法删除指定的文件夹中的内容。  <br/> |
+|MsgStoreDlg  <br/> |CMsgStoreDlg:: OnEmptyFolder  <br/> |MFCMAPI 使用**IMAPIFolder:: EmptyFolder**方法删除指定文件夹的内容。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

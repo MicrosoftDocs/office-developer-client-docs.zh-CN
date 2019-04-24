@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 5a647e15-ba22-4a7c-b235-75cd76b77c1a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 80acb1a1e4663a68efc4692ab67ec27bc369f4b0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8dce1415ef8d18f4b786e92324c888f9a0845162
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280139"
 ---
 # <a name="imapicontrol--iunknown"></a>IMAPIControl : IUnknown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-启用和禁用按钮控件，并执行任务时客户端应用程序的用户单击已启用的控件。 服务提供商实现控件对象上对话框，例如配置的属性页，通过使用显示表定义创建自定义按钮。 
+启用和禁用按钮控件, 并在客户端应用程序的用户单击启用的控件时执行任务。 服务提供程序实现控制对象, 以在对话框 (如配置属性表) 上创建使用显示表定义的自定义按钮。 
   
-有关如何使用显示表格和控制对象的详细信息，请参阅[显示表](display-tables.md)。
+有关如何处理显示表和控件对象的详细信息, 请参阅[显示表](display-tables.md)。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|由公开：  <br/> |控件对象  <br/> |
-|通过实现：  <br/> |服务提供商  <br/> |
-|调用：  <br/> |MAPI  <br/> |
-|接口标识符：  <br/> |IID_IMAPIControl  <br/> |
-|指针类型：  <br/> |LPMAPICONTROL  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|公开者:  <br/> |控件对象  <br/> |
+|实现者：  <br/> |服务提供程序  <br/> |
+|调用者：  <br/> |MAPI  <br/> |
+|接口标识符:  <br/> |IID_IMAPIControl  <br/> |
+|指针类型:  <br/> |LPMAPICONTROL  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[时出错](imapicontrol-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前一个按钮控件错误的信息。  <br/> |
-|[Activate](imapicontrol-activate.md) <br/> |执行显示一个对话框，或在客户端应用程序用户单击按钮控件时启动编程操作等任务。  <br/> |
-|[GetState](imapicontrol-getstate.md) <br/> |检索值，该值指示是否启用或禁用按钮控件。  <br/> |
+|[GetLastError](imapicontrol-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构, 该结构包含上一个按钮控件错误的相关信息。  <br/> |
+|[Activate](imapicontrol-activate.md) <br/> |在客户端应用程序用户单击 "按钮" 控件时执行一种任务, 如显示对话框或启动编程操作。  <br/> |
+|[GetState](imapicontrol-getstate.md) <br/> |检索一个值, 该值指示按钮控件是否已启用或已禁用。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

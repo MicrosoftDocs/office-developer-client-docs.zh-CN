@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 39854c320078d2e2ca2365244f094e28962380d0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8861c8f86eaab6defb270b673e0ee200446aedb3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282822"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个名为的结构包含用于描述组合框控件和最大可以关联的编辑控件中输入的字符数[DTBLCOMBOBOX](dtblcombobox.md)结构。 
+创建一个命名的结构, 其中包含用于描述组合框控件的[DTBLCOMBOBOX](dtblcombobox.md)结构, 以及可在关联的编辑控件中输入的最大字符数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**DTBLCOMBOBOX** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**DTBLCOMBOBOX** <br/> |
    
 ```cpp
 SizedDtblComboBox (n, u)
@@ -38,15 +38,15 @@ SizedDtblComboBox (n, u)
 
 _n_
   
-> 可以在组合框中输入的字符数编辑控件。 
+> 可在组合框的编辑控件中输入的字符数。 
     
 _u_
   
-> 新结构的的名称。
+> 新结构的名称。
     
 ## <a name="remarks"></a>注解
 
-**SizedDtblComboBox**宏允许您定义组合框时已知启用的字符串的长度。 使用下列成员来创建新的结构： 
+**SizedDtblComboBox**宏允许您在已知启用的字符字符串的长度时定义组合框。 新结构是使用以下成员创建的: 
   
 ```cpp
 DTBLCOMBOBOX dtblcombobox;
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-若要将指针生成结构从**SizedDtblComboBox**宏作为**DTBLCOMBOBOX**结构指针，执行以下的强制转换： 
+若要将指向**SizedDtblComboBox**宏的结果结构的指针用作**DTBLCOMBOBOX**结构指针, 请执行以下转换: 
   
 ```cpp
 lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;

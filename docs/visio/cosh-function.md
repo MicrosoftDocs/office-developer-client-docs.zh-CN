@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 70b3788d-d8cf-79bb-d929-86aceba49345
 description: 返回角度的双曲余弦值。
-ms.openlocfilehash: dea8da40f72884b52dd6d845f9ed3d49f7310b3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49582ba4b441b3eea1f860c3109b8d8d632e07b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282934"
 ---
 # <a name="cosh-function"></a>COSH 函数
 
@@ -22,17 +22,17 @@ ms.locfileid: "19780021"
   
 ## <a name="syntax"></a>语法
 
-COSH （*角度*） 
+COSH ( *angle*) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _角度_ <br/> |必需  <br/> |**Numeric** <br/> |要获取其双曲余弦值的角度。  <br/> |
+| _angle_ <br/> |必需  <br/> |**Numeric** <br/> |要获取其双曲余弦值的角度。  <br/> |
    
 ## <a name="remarks"></a>注解
 
-COSH 函数使用弧度，除非在*angle*中指定不同的度量单位。 
+COSH 函数使用弧度, 除非您以*角度*指定不同的度量单位。 
   
 ## <a name="example"></a>示例
 

@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: 7ca01bf7-5185-41cc-907e-01f256345997
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 882638d5359154a56fa4438e7a62f213159f916d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a9bda8831f4a38b62d71a54115c40bb3374d97d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282731"
 ---
 # <a name="sizeddtblgroupbox"></a>SizedDtblGroupBox
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个名为的结构包含用于描述组框控件和一个指定长度的标签[DTBLGROUPBOX](dtblgroupbox.md)结构。 
+创建一个命名结构, 其中包含一个用于描述分组框控件和一个指定长度的标签的[DTBLGROUPBOX](dtblgroupbox.md)结构。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**DTBLGROUPBOX** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**DTBLGROUPBOX** <br/> |
    
 ```cpp
 SizedDtblGroupBox (n, u)
@@ -38,15 +38,15 @@ SizedDtblGroupBox (n, u)
 
 _n_
   
-> 组框标签的长度。 
+> 分组框标签的长度。 
     
 _u_
   
-> 新结构的的名称。
+> 新结构的名称。
     
 ## <a name="remarks"></a>注解
 
-**SizedDtblGroupBox**宏允许您定义一个组框控件时已知标签的长度。 使用下列成员来创建新的结构： 
+**SizedDtblGroupBox**宏允许您在标签的长度已知时定义一个分组框控件。 新结构是使用以下成员创建的: 
   
 ```cpp
 DTBLGROUPBOX dtblgroupbox;
@@ -54,7 +54,7 @@ TCHAR lpszLabel[n];
 
 ```
 
-若要将指针生成结构从**SizedDtblGroupBox**宏作为**DTBLGROUPBOX**结构指针，执行以下的强制转换： 
+若要将指向**SizedDtblGroupBox**宏的结果结构的指针用作**DTBLGROUPBOX**结构指针, 请执行以下转换: 
   
 ```cpp
 lpDtblGroupBox = (LPDTBLGROUPBOX) &SizedDtblGroupBox;

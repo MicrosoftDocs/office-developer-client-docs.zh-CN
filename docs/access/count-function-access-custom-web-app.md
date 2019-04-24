@@ -1,19 +1,19 @@
 ---
-title: Count 函数 （访问自定义 web 应用程序）
+title: Count 函数 (Access 自定义 web 应用程序)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d931535b-428f-4300-93bf-cfe0ebcc2ac9
 description: 返回查询或表中的记录数。
-ms.openlocfilehash: 300fcbfd2aa927dd19516355ae28eec2adadf521
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 98dbed393bf2f6dc401119f6c5dc7ab6b5ff7864
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282234"
 ---
-# <a name="count-function-access-custom-web-app"></a>Count 函数 （访问自定义 web 应用程序）
+# <a name="count-function-access-custom-web-app"></a>Count 函数 (Access 自定义 web 应用程序)
 
 返回查询或表中的记录数。
   
@@ -22,17 +22,17 @@ ms.locfileid: "19773458"
   
 ## <a name="syntax"></a>语法
 
-**计数**（*表达式*） 
+**计数**(*表达式*) 
   
 **Count**函数包含以下参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|
-| *Expression*  <br/> |标识了包含数据的字段的字符串表达式要计数或表达式的计算使用字段中的数据。 *表达式*中的操作数可以包括表字段或函数 （这可能是固有或用户定义但不是其他 SQL 聚合函数） 的名称。 可以计算包括文本在内的任何类型数据。  <br/> |
+| *Expression*  <br/> |字符串表达式, 用于标识包含要计数的数据的字段, 或使用字段中的数据执行计算的表达式。 *表达式*中的操作数可以包括表字段或函数的名称 (可以是固有的, 也可以是用户定义的, 但不能是其他 SQL 聚合函数)。 可以计算包括文本在内的任何类型数据。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-可以使用 Count 来统计基本查询的记录数。 例如，可以使用 Count 来计算发往的特定国家或地区的订单数。
+可以使用 Count 来统计基本查询的记录数。 例如, 可以使用 count 计算发往特定国家或地区的订单数。
   
 **计数**(\*) 返回组中的项目数。 这包括 NULL 值和重复项。 
   

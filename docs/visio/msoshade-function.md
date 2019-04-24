@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 905cd1cc-14d3-5d37-89c4-f8461a03dda2
 description: 通过将颜色的发光度降低指定的百分比来修改颜色。
-ms.openlocfilehash: f5f6eb0b6009473dcec017e951cca2f90b6c4d55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 207893552c7378589d4a648bf29ed88fcfd15224
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283708"
 ---
 # <a name="msoshade-function"></a>MSOSHADE 函数
 
@@ -25,17 +25,17 @@ ms.locfileid: "19780780"
   
 ## <a name="syntax"></a>语法
 
-MSOSHADE (* **颜色** *，* * *-deltaLum* * *) 
+MSOSHADE (* * *color* * *, * * *-deltaLum* * *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |必需  <br/> |**RGB** <br/> |标准 RGB（红、绿、蓝）颜色值或对颜色的引用。  <br/> |
-| _-deltaLum_ <br/> |必需  <br/> |**Integer** <br/> |更改百分比白色 (-100%) 或黑色 （100%)_颜色_值。  <br/> |
+| _-deltaLum_ <br/> |必需  <br/> |**Integer** <br/> |白色的百分比变化 (-100%)或黑色 (100%)从_颜色_值。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-越接近_color_值越接近白色或黑色，对底纹由特定 _-deltaLum_值所产生的较小的更改。 
+_颜色_值越接近白色或黑色, 对由特定_deltaLum_值生成的底纹的更改越小。 
   
 

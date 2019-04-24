@@ -7,31 +7,31 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ed0c14f9-3dcf-49ad-928e-ba872d4d6b5a
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5125fc8f3e36087a05802c38127a8402ae67d468
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 5d4653492028151d7e19a5d5490c8c8949002a4f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283084"
 ---
 # <a name="saving-mapi-properties"></a>保存 MAPI 属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-很多对象支持事务处理，对属性的更改不会成为永久性直到提交稍后由此模型。 由[IMAPIProp::SetProps](imapiprop-setprops.md)和[IMAPIProp::DeleteProps](imapiprop-deleteprops.md)方法处理对属性的更改，而是由[IMAPIProp::SaveChanges](imapiprop-savechanges.md)处理提交步骤。 此文件不成功调用**SaveChanges**可访问对象的属性的最新版本之后。 
+许多对象支持处理的事务模型, 对属性所做的更改不会永久成为永久更改, 除非在以后提交它们。 而对属性的更改由[IMAPIProp:: SetProps](imapiprop-setprops.md)和[IMAPIProp::D eleteprops](imapiprop-deleteprops.md)方法处理, 则 commit 步骤将由[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)处理。 在成功调用某个对象的属性的**** 最新版本之前, 此方法不会一直发生。 
   
-当**SaveChanges**将返回错误值 MAPI_E_OBJECT_CHANGED 时，这是一条警告，另一个客户端同时将对对象提交的更改。 有可能，具体取决于提供程序成功实现多个客户端到该对象，通过调用设置了 MAPI_MODIFY 标志其**OpenEntry**方法授予他们读/写访问权限打开对象。 返回从例如**OpenEntry**呼叫是存储数据的快照的对象。 每个后续尝试更改此数据可以覆盖上一次尝试。 
+当**SaveChanges**返回错误值 MAPI_E_OBJECT_CHANGED 时, 这是一个警告, 指出另一个客户端同时提交对该对象的更改。 根据实现对象的提供程序的不同, 多个客户端可以通过调用其**OpenEntry**方法并设置 MAPI_MODIFY 标志来成功打开对象, 从而为它们提供读/写访问权限。 从这样的**OpenEntry**调用返回的对象是存储数据的快照。 随后每次尝试更改此数据时, 都可能会覆盖之前的尝试。 
   
-在从**SaveChanges**收到 MAPI_E_OBJECT_CHANGED，客户端还提供了选项： 
+在从**SaveChanges**接收 MAPI_E_OBJECT_CHANGED 时, 客户端可以选择执行以下操作: 
   
-- 创建要保存所做的更改的对象的副本。
+- 创建对象的副本以保存所做的更改。
     
-- 发起**SaveChanges**，指定 FORCE_SAVE 到另一个呼叫。 
+- 对**SaveChanges**调用另一个调用, 指定 FORCE_SAVE。 
     
-使用 FORCE_SAVE 标志调用**SaveChanges**覆盖以前保存，并使客户端的更改永久。 
+使用 FORCE_SAVE 标志调用**SaveChanges**将覆盖上一次保存, 并使客户端的更改永久化。 
   
 ## <a name="see-also"></a>另请参阅
 

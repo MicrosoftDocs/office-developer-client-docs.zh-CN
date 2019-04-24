@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0d705667-19f4-4eda-a068-e65ea8f00d9b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7dc8ea74d36dd8aee4acec426e97d8b5e3ba2234
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278748"
 ---
 # <a name="pidtagstoreentryid-canonical-property"></a>PidTagStoreEntryId 规范属性
 
@@ -25,54 +25,54 @@ ms.locfileid: "25392947"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息存储对象所在的位置的唯一项标识符。
+包含对象所在的邮件存储区的唯一条目标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_STORE_ENTRYID  <br/> |
-|标识符：  <br/> |0x0FFB  <br/> |
+|标识符:  <br/> |0x0FFB  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性用于与[IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)方法打开的消息存储。 它还用于打开拥有的任何对象的消息存储库。 
+此属性用于使用[IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md)方法打开邮件存储区。 它还用于打开邮件存储区所拥有的任何对象。 
   
-消息存储区，该属性等同于存储自己**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。 使用[IMAPISession::CompareEntryIDs](imapisession-compareentryids.md)方法的两个属性，可以将进行比较的客户端应用程序。 
+对于邮件存储区, 此属性与存储区自己的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性相同。 客户端应用程序可以使用[IMAPISession:: CompareEntryIDs](imapisession-compareentryids.md)方法比较这两个属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
-[[MS OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[毫秒-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> IETF RFC2445、 RFC2446，和 RFC2447，和约会和会议对象之间进行转换。
+> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间进行转换。
     
-[[MS OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> 指定的属性和与标记的操作。
+> 指定与标记相关的属性和操作。
     
-[[MS OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[毫秒-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> 共享客户端之间的邮箱文件夹。
+> 在客户端之间共享邮箱文件夹。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

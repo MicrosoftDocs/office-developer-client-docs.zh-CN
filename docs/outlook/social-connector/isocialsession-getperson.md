@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2d0a2945-54d7-417f-b5c6-2647c70263cf
-description: 获取基于用户 Id 参数 ISocialPerson 接口。
-ms.openlocfilehash: 5769f4c41bb97f45ab722f1b3a3febe24c8a7ab2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 获取基于 userID 参数的 ISocialPerson 接口。
+ms.openlocfilehash: b54e39b3712fb57d89d03787f1e5fa0ff50ff84a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779231"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285328"
 ---
 # <a name="isocialsessiongetperson"></a>ISocialSession::GetPerson
 
-获取基于_用户 Id_参数[ISocialPerson](isocialpersoniunknown.md)接口。 
+获取基于_userID_参数的[ISocialPerson](isocialpersoniunknown.md)接口。 
   
 ```cpp
 HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** result);
@@ -27,15 +27,15 @@ HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** resul
 
 _userId_
   
-> [in]一个字符串，包含用户 ID 或 SMTP 地址的联系人。
+> 实时包含人员的用户 ID 或 SMTP 地址的字符串。
     
 _result_
   
-> [输出]**ISocialPerson**接口。 
+> 排除一个**ISocialPerson**接口。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-_UserID_参数必须为该用户的 ID 或 SMTP 地址。 
+_userID_参数必须为用户 ID 或 SMTP 地址。 
   
 ## <a name="see-also"></a>另请参阅
 

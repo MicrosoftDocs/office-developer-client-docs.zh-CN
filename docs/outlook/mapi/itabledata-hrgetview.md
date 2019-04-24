@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e2a47be-497b-4031-87ce-60b2635e25f7
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 375a0f1d39b09b7ad453120f20752e00ffda0e15
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278713"
 ---
 # <a name="itabledatahrgetview"></a>ITableData::HrGetView
 
@@ -25,7 +25,7 @@ ms.locfileid: "25398708"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建表视图中，返回到[IMAPITable](imapitableiunknown.md)实现的指针。 
+创建一个表视图, 并返回指向[IMAPITable](imapitableiunknown.md)实现的指针。 
   
 ```cpp
 HRESULT HrGetView(
@@ -40,33 +40,33 @@ HRESULT HrGetView(
 
  _lpSSortOrderSet_
   
-> [in]指向介绍表视图的排序顺序排序顺序结构的指针。 如果_lpSSortOrderSet_参数中传递 NULL，则视图未排序。 
+> 实时指向描述表格视图的排序顺序的排序顺序结构的指针。 如果在_lpSSortOrderSet_参数中传递 NULL, 则不会对视图进行排序。 
     
  _lpfCallerRelease_
   
-> [in]指向[CALLERRELEASE](callerrelease.md)原型 MAPI 调用时释放视图所基于的回调函数的指针。 如果_lpfCallerRelease_参数中传递 NULL，则没有函数调用上的视图的版本。 
+> 实时一个指向回调函数的指针, 该函数基于 MAPI 在释放视图时调用的[CALLERRELEASE](callerrelease.md)原型。 如果在_lpfCallerRelease_参数中传递 NULL, 则在视图发布时不会调用任何函数。 
     
  _ulCallerData_
   
-> [in]必须使用新的视图保存并传递给回调函数使用的数据所指的_lpfCallerRelease_。
+> 实时必须与新视图一起保存并传递给_lpfCallerRelease_指向的回调函数的数据。
     
  _lppMAPITable_
   
-> [输出]为指向新创建的视图的指针。
+> 排除指向新创建的视图的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功创建的视图。
+> 已成功创建视图。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**ITableData::HrGetView**方法在表中， _lpSSortOrderSet_参数指向的顺序排序创建只读视图的数据。 光标置于视图中的第一行开头处。 返回**IMAPITable**接口实现用于访问该视图。 
+**ITableData:: HrGetView**方法创建表中数据的只读视图, 按_lpSSortOrderSet_参数所指向的顺序进行排序。 光标位于视图中第一行的开头。 返回用于访问视图的**IMAPITable**接口实现。 
   
-服务提供商调用**HrGetView**时所需向表格的客户端访问。 **HrGetView**创建视图，并返回**IMAPITable**指针。 服务提供商反过来传递到客户端的指针。 当客户端完成使用表后，并将调用其[IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx)方法时， **HrGetView**调用_lpfCallerRelease_参数指向的回调函数。 
+当服务提供商需要提供对表的客户端访问权限时, 请调用**HrGetView** 。 **HrGetView**将创建视图并返回**IMAPITable**指针。 服务提供程序反过来将指针传递到客户端。 当客户端使用完表并调用其[IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx)方法时, **HrGetView**将调用_lpfCallerRelease_参数指向的回调函数。 
   
-如果服务提供商需要具有一个自定义的列设置的视图返回到客户端或限制，提供程序可以调用视图的[IMAPITable::SetColumns](imapitable-setcolumns.md)和[IMAPITable::Restrict](imapitable-restrict.md)方法才允许客户端访问。 
+如果服务提供商需要向客户端返回一个具有自定义列集或限制的视图, 则提供程序可以调用视图的[IMAPITable:: SetColumns](imapitable-setcolumns.md)和[IMAPITable:: Restrict](imapitable-restrict.md)方法, 然后允许客户端访问。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 849d33e0-922f-49fe-bf2a-460329f0570d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3b0679c37b04b05f240d8cea1b777a430c66d18e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c6a2206cf75308ad7fb955283f22eca3be9e0b3a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283168"
 ---
 # <a name="pidtagcontactversion-canonical-property"></a>PidTagContactVersion 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含收件人的联系人信息的版本。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTACT_VERSION  <br/> |
-|标识符：  <br/> |0x3A52  <br/> |
+|标识符:  <br/> |0x3A52  <br/> |
 |数据类型：  <br/> |PT_CLSID  <br/> |
-|区域：  <br/> |联系人  <br/> |
+|区域：  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性是提供标识和访问有关收件人信息的属性之一。 由收件人和收件人的组织定义这些属性。
+此属性是提供有关收件人的标识和访问信息的属性之一。 这些属性由收件人和收件人的组织定义。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

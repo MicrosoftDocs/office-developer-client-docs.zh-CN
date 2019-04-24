@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dc4d3a7a827e728dfd6725ac269350067d4530cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a7d62d29638ae234667eb33a8103fb3a716afc32
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282759"
 ---
 # <a name="sizeddtblbutton"></a>SizedDtblButton
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个名为的结构包含用于描述一个按钮和一个指定长度的标签[DTBLBUTTON](dtblbutton.md)结构。 
+创建一个命名的结构, 其中包含用于描述按钮和指定长度的标签的[DTBLBUTTON](dtblbutton.md)结构。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**DTBLBUTTON** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**DTBLBUTTON** <br/> |
    
 ```cpp
 SizedDtblButton (n, u)
@@ -40,15 +40,15 @@ SizedDtblButton (n, u)
 
  _n_
   
-> 标签的新结构中包含的长度。
+> 要包含在新结构中的标签的长度。
     
  _u_
   
-> 新结构的的名称。
+> 新结构的名称。
     
 ## <a name="remarks"></a>注解
 
-使用下列成员来创建新的结构：
+新结构是使用以下成员创建的:
   
 ```
 DTBLBUTTON dtblbutton;

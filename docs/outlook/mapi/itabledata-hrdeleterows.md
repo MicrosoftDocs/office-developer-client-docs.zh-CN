@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 753067c8c0af15a44e0f3b71f6122d8683db4a98
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: fdd6f40b4d7aa7f65bf1a46d3d9a4f18472b19f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278945"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 删除多个表行。
   
@@ -39,35 +39,35 @@ HRESULT HrDeleteRows(
 
  _ulFlags_
   
-> [in]位掩码的标志控制删除的。 可以设置以下标记：
+> 实时用于控制删除的标志的位掩码。 可以设置以下标志:
     
 TAD_ALL_ROWS 
   
-> 从表和发送单个 TABLE_RELOAD 通知的所有相应的视图中删除所有行。
+> 删除表中的所有行和所有对应的视图, 并发送一个 TABLE_RELOAD 通知。
     
  _lprowsetToDelete_
   
-> [in]一个指向介绍要删除的行的行集。 _LprowsetToDelete_参数可以是 NULL，如果_ulFlags_参数中设置 TAD_ALL_ROWS 标志。 
+> 实时指向描述要删除的行的行集的指针。 如果在_ulFlags_参数中设置 TAD_ALL_ROWS 标志, 则_lprowsetToDelete_参数可以为 NULL。 
     
  _cRowsDeleted_
   
-> [输出]已删除的行数。
+> 排除已删除行的计数。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功删除的表格行。
+> 已成功删除表行。
     
 ## <a name="remarks"></a>注解
 
-**ITableData::HrDeleteRows**方法查找并删除包含匹配指向按行中每个**aRow**条目的**lpProps**成员设置的属性的列的表格行。 索引列用于标识每一行;此列必须具有相同的属性标记为对[CreateTable](createtable.md)函数的调用中_ulPropTagIndexColumn_参数中传递的属性标记。 
+**ITableData:: HrDeleteRows**方法查找并删除包含与行集中每个**aRow**条目的**lpProps**成员所指向的属性的列相匹配的表格行。 索引列用于标识每一行;在对[CreateTable](createtable.md)函数的调用中, 此列必须具有与在_ulPropTagIndexColumn_参数中传递的属性标记相同的属性标记。 
   
-_CRowsDeleted_返回的实际已删除的行数。 如果找不到一个或多个行，则不返回任何错误。 
+实际删除的行数在_cRowsDeleted_中返回。 如果找不到一个或多个行, 则不会返回错误。 
   
-删除行之后，通知便发送至所有客户端或服务提供商的具有查看表的和已在调用表的[IMAPITable::Advise](imapitable-advise.md)方法注册的通知。 
+删除行后, 会将通知发送到具有表视图且已调用表的[IMAPITable:: Advise](imapitable-advise.md)方法以注册通知的所有客户端或服务提供程序。 
   
-删除行不会降低到现有表视图中可用的列或随后打开表视图，即使已删除的行的最后一个具有特定的列的值。
+删除行并不会减小现有的表视图或后续打开的表视图的可用列, 即使删除的行是具有特定列的值的最后, 也是如此。
   
 ## <a name="see-also"></a>另请参阅
 

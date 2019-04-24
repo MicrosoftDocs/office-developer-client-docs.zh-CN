@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9aa038958e26652ae7ead728ab15d068e080dc69
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 2709ac612fc9e2edaa57b280d52c0a5229ee9978
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278804"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-插入表格行。 
+插入一个表格行。 
   
 ```cpp
 HRESULT HrInsertRow(
@@ -38,33 +38,33 @@ HRESULT HrInsertRow(
 
  _uliRow_
   
-> [in]代表对特定行顺序的行号。 将数字表示的行后面放置新行。 _UliRow_参数可以包含从 0 到 n 的行号，其中 n 是表中的行的总数。 _UliRow_中传递 n 追加表末尾的行。 
+> 实时一个表示特定行的按顺序的行号。 新行将放置在该数字所指示的行之后。 _uliRow_参数可以包含从0到 n 的行号, 其中 n 是表中的总行数。 在_uliRow_中传递 n 会将行追加到表的末尾。 
     
  _lpSRow_
   
-> [in]一个指向[SRow](srow.md)结构，描述要插入的行。 
+> 实时指向描述要插入的行的[SRow](srow.md)结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功插入行。
+> 已成功插入该行。
     
 MAPI_E_INVALID_PARAMETER 
   
-> 都有其索引列的值相同，如下表中存在已插入的行的行。
+> 与要插入的行在表中已存在的索引列具有相同值的行。
     
 ## <a name="remarks"></a>注解
 
-**ITableData::HrInsertRow**方法插入表格中的特定位置插入一行。 _UliRow_参数指定的位置中的行后面插入新行。 
+**ITableData:: HrInsertRow**方法在表中的特定位置插入一行。 在_uliRow_参数所指定的位置中的行之后插入新行。 
   
-_UliRow_设置为表中的行数，如果新行所追加到末尾的表。 
+如果将_uliRow_设置为表格中的行数, 则新行将追加到表的末尾。 
   
-[SRow](srow.md)结构_lpSRow_参数指向的**lpProps**成员必须包含充当表的索引列的属性。 此索引属性，通常**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))，用于唯一标识未来的维护任务的行。
+充当表的索引列的属性必须包含在_lpSRow_参数指向的[SRow](srow.md)结构的**lpProps**成员中。 此索引属性 (通常为**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))) 用于唯一标识该行, 以用于将来的维护任务。
   
-**SRow**结构中的属性列不必为表中的属性列的顺序相同。 
+**SRow**结构中的属性列不必与表中的属性列的顺序相同。 
   
-插入行之后，通知便发送至所有客户端或服务提供商的具有查看表的和已在调用表的[IMAPITable::Advise](imapitable-advise.md)方法注册的通知。 如果由于限制的视图中不包含插入的行，则不发送任何通知。 
+在插入行后, 会将通知发送到具有表视图且已调用表的[IMAPITable:: Advise](imapitable-advise.md)方法以注册通知的所有客户端或服务提供程序。 如果由于限制而在视图中不包含所插入的行, 则不会发送任何通知。 
   
 ## <a name="see-also"></a>另请参阅
 

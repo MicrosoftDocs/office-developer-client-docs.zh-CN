@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 6c2e64bc-786e-4867-a504-46f4d1214337
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3640ec4471b72dea81d56cc2c462ef145095480f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 77ca51ae5a0e7e1d5a9be8f4ca05a1187fe71694
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590923"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279850"
 ---
 # <a name="pidtaglatestdeliverytime-canonical-property"></a>PidTagLatestDeliveryTime 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含的最新的日期和时间时邮件传输代理 (MTA) 应将邮件传递。 
+包含邮件传输代理 (MTA) 应在何时传递邮件的最新日期和时间。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_LATEST_DELIVERY_TIME  <br/> |
 |标识符:  <br/> |0x0019  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
 ## <a name="remarks"></a>注解
 
-如果按此属性指定的时间，MTA 无法传送一条消息，它会取消没有传递的邮件。 
+如果 MTA 无法通过此属性指定的时间传递邮件, 它将取消邮件而不进行传递。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

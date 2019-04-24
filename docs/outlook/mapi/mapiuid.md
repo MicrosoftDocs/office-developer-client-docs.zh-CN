@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f7ec60768ab07c56969f538f196a1f9df5dbed17
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da314205f7d2dd746b72aa7e2b5ff2a13bb0c21b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587164"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269921"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-用于唯一标识服务提供商的[GUID](guid.md)结构字节顺序独立版本。 
+用于唯一标识服务提供程序的[GUID](guid.md)结构的字节顺序独立版本。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的宏：  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关宏:  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
    
 ```cpp
 typedef struct _MAPIUID
@@ -44,27 +44,27 @@ typedef struct _MAPIUID
 
  **ab**
   
-> 包含一个 16 字节标识符的数组。
+> 包含16字节标识符的数组。
     
 ## <a name="remarks"></a>注解
 
-**MAPIUID**结构是置于 Intel® 处理器字节顺序的**GUID**结构。 
+**MAPIUID**结构是一个添加到英特尔®处理器字节顺序的**GUID**结构。 
   
-MAPI 以使它很少见这两个不同项具有相同标识符的一种创建**MAPIUID**结构。 可以存储**MAPIUID**结构中作为二进制属性或文件，而不考虑计算机存储或访问信息的字节排序。 
+MAPI 创建**MAPIUID**结构的方式非常少导致两个不同的项具有相同的标识符。 **MAPIUID**结构可以存储为二进制属性或文件, 而无需考虑存储或访问信息的计算机的字节排序。 
   
- 使用**MAPIUID**结构： 
+ 使用**MAPIUID**结构: 
   
-- 若要确定配置文件一节。
+- 标识配置文件部分。
     
-- 项标识符的消息中存储和通讯簿对象，用于标识负责服务提供商。
+- 在邮件存储区和通讯簿对象的条目标识符中, 用于标识负责的服务提供程序。
     
-- 在邮件的**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性。
+- 在邮件的**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性中。
     
-若要生成搜索关键字的**MAPIUID**标识符，服务提供商，请调用[IMAPISupport::NewUID](imapisupport-newuid.md)。
+若要生成搜索密钥的**MAPIUID**标识符, 服务提供程序调用[IMAPISupport:: NewUID](imapisupport-newuid.md)。
   
-当客户端通过网络传输一条消息时，它应使用不会更改**MAPIUID**数据的字节顺序的协议或传输格式。 
+当客户端通过网络传输邮件时, 它应使用不会更改**MAPIUID**数据字节顺序的协议或传输格式。 
   
-有关如何使用**MAPIUID**结构的详细信息，请参阅以下主题： 
+有关如何使用**MAPIUID**结构的详细信息, 请参阅下列主题: 
   
 [注册服务提供程序唯一标识符](registering-service-provider-unique-identifiers.md)
   

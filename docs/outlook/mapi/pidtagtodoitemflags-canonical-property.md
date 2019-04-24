@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6ddc7231afef0a224b92be7fe86216e56200ab70
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284481"
 ---
 # <a name="pidtagtodoitemflags-canonical-property"></a>PidTagToDoItemFlags 规范属性
 
@@ -25,49 +25,49 @@ ms.locfileid: "25400279"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-代表一个待办事项已标记的条件。
+表示待办事项的标记条件。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_TODO_ITEM_FLAGS  <br/> |
-|标识符：  <br/> |0x0E2B  <br/> |
+|标识符:  <br/> |0x0E2B  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性是在其中的每个位应设置为 1 如果关联的条件下表中应用，否则为 0 位字段。
+此属性是一个位域, 如果下表中的关联条件适用, 则每个位应设置为 1, 否则为0。
   
 ||||
 |:-----|:-----|:-----|
-|数值  <br/> |名称  <br/> |说明  <br/> |
-|不存在  <br/> |不适用  <br/> |未标记  <br/> |
-|1  <br/> |todoTimeFlagged  <br/> |对象为标记的时间  <br/> |
-|8  <br/> |todoRecipientFlagged  <br/> |只应在草稿 message 对象，设置和意味着对象进行了标记的收件人。  <br/> |
+|数字值  <br/> |名称  <br/> |说明  <br/> |
+|不存在  <br/> |不适用  <br/> |标记  <br/> |
+|1  <br/> |todoTimeFlagged  <br/> |对象已标记时间  <br/> |
+|utf-8  <br/> |todoRecipientFlagged  <br/> |只应对草稿邮件对象设置, 这意味着该对象会被标记为收件人。  <br/> |
    
-保留所有未指定表中的位。 它们必须被忽略，但如果已设置应保留。
+未在表中指定的所有位都将保留。 必须忽略它们, 如果设置它们, 应将其保留。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> 指定的属性和与标记的操作。
+> 指定与标记相关的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

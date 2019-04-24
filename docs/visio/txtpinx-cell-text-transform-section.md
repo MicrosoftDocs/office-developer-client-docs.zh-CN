@@ -8,21 +8,21 @@ f1_keywords:
 - vis_sdr.chm1040
 localization_priority: Normal
 ms.assetid: d0c0fe52-6a9e-e40e-394e-83a851db55a4
-description: 确定 x-文本块的相对于原点形状的旋转中心的坐标。 默认公式为：
-ms.openlocfilehash: df103557d103dbde7e4a1c8d67cabe37a0af9311
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定文本块的旋转中心相对于形状原点的 x 轴坐标值。 默认公式为：
+ms.openlocfilehash: 836f5c807d0c0e53efc825f62f60429274282165
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282297"
 ---
-# <a name="txtpinx-cell-text-transform-section"></a>TxtPinX 单元格（“Text Transform”部分）
+# <a name="txtpinx-cell-text-transform-section"></a>TxtPinX 单元格（“Text Transform”内容）
 
-确定*x* -文本块的相对于原点形状的旋转中心的坐标。 默认公式为： 
+确定文本块的旋转中心相对于形状原点的*x*轴坐标值。 默认公式为： 
   
-= 宽度\*0.5
+= 宽度\* 0。5
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 TxtPinX 单元格的引用，请使用： 
   

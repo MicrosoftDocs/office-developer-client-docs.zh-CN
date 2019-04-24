@@ -1,5 +1,5 @@
 ---
-title: 活动源的 XML 示例
+title: 活动源 XML 示例
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,33 +7,33 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa50ca36-8d01-4770-9d9c-30a5baa146ff
-description: 本主题中的 XML 示例为活动源后它为社交网络调用 ISocialSession2::GetActivitiesEx 方法返回 Outlook Social Connector (OSC) 到的 XML 字符串。
+description: '本主题中的 XML 示例是在为社交网络调用 ISocialSession2:: GetActivitiesEx 方法后返回到 Outlook Social Connector (.osc) 的活动源 XML 字符串。'
 ms.openlocfilehash: 6370b559c5160bfa48d32afa77715e9a7c126aab
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281330"
 ---
-# <a name="activity-feed-xml-example"></a>活动源的 XML 示例
+# <a name="activity-feed-xml-example"></a>活动源 XML 示例
 
-本主题中的 XML 示例为活动源后它为社交网络调用[ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md)方法返回 Outlook Social Connector (OSC) 到的 XML 字符串。 
+本主题中的 XML 示例是在为社交网络调用[ISocialSession2:: GetActivitiesEx](isocialsession2-getactivitiesex.md)方法后返回到 Outlook Social Connector (.osc) 的活动源 XML 字符串。 
   
-该示例演示**activityFeed**包含以下四个活动的 XML，每个分隔**activityDetails**元素和匹配的模板显示目的： 
+该示例显示包含以下四个活动的**microsoft.office.server.activityfeed** XML, 每个活动都由**activityDetails**元素分隔并匹配用于显示目的的模板: 
   
-- 通过 Melissa Macbeth，其**ownerID**社交网络上是 4667647 更新配置文件图片。 此活动指定三个模板变量类型**publisherVariable**、 **listVariable**，和**pictureVariable** （这在**listVariable**括起来）。 这些变量指定发布活动源项目，并图片 （通过使用**pictureVariable**的**名称**、**值**、 **altText**和**href**子元素） 更新的信息的人员。
+- 由 Melissa Macbeth 的配置文件图片更新, 其在社交网络上的**ownerID**为4667647。 此活动指定**publisherVariable**、 **listVariable**和**pictureVariable**类型的三个模板变量 (包含在**listVariable**中)。 这些变量指定发布活动源项目的人员, 以及要更新的图片的信息 (使用**pictureVariable**的**name**、 **value**、 **altText**和**href**子元素)。
     
-- 通过在社交网络其**ownerID**是 5015012 Michael Affronti 更新配置文件图片。 最后一次活动类似，此活动指定类型**publisherVariable**、 **listVariable**和**pictureVariable**的三个模板变量。 这些变量指定发布活动源项目和图片要更新的信息的人员。
+- 由 Michael Affronti 的配置文件图片更新, 其社会网络上的**ownerID**为5015012。 与最后一个活动类似, 此活动指定**publisherVariable**、 **listVariable**和**pictureVariable**类型的三个模板变量。 这些变量指定发布活动源项目的人员以及要更新的图片的信息。
     
-- 通过 Michael Affronti，显示同一**ownerID** 5015012 的最后一次活动为状态更新。 此活动指定两个模板的变量类型**publisherVariable**和**textVariable**。 **publisherVariable**指定用户发布的活动源项目，并**textVariable**包括状态行**值**`is hiking on Mount Rainier this weekend!`
+- 迈克尔• Affronti 的状态更新, 显示与最后一个活动相同的 5015012 **ownerID** 。 此活动指定**publisherVariable**和**textVariable**类型的两个模板变量。 **publisherVariable**指定发布活动源项目的人员, 并**textVariable**包含状态行的**值**`is hiking on Mount Rainier this weekend!`
     
-- Michael Affronti，显示同一**ownerID**的 5015012 作为最后两个活动的博客文章。 此活动指定两个模板的变量类型**publisherVariable**和**linkVariable**。 **publisherVariable**指定用户发布的活动订阅源，并**linkVariable**进一步包括 （由**linkVariable**的**名称**、**文本**和**值**子元素指定） 的信息有关的博客文章。
+- 迈克尔• Affronti 中的博客文章, 显示与最后两个活动相同的 5015012 **ownerID** 。 此活动指定**publisherVariable**和**linkVariable**类型的两个模板变量。 **publisherVariable**指定发布活动源项目的人员, 并**linkVariable**包含详细信息 (由**linkVariable**的**name**、 **text**和**value**子元素指定)关于博客文章。
     
-指定一个**templateID**值，该值匹配**模板**元素所指定的三个模板的一个每四个活动。 每个模板都由一个**templateID**值，也可用于显示活动具有相同的**templateID**值标识自己**activityTemplateContainer**元素中。 
+这四个活动中的每一个都指定一个**templateID**值, 该值与**templates**元素指定的三个模板之一相匹配。 每个模板都位于其自己的**activityTemplateContainer**元素中, 该元素由另一个**templateID**值标识, 该值也用于显示具有相同**templateID**值的活动。 
   
-在示例中使用的 XML 元素的详细说明，请参阅下列主题： 
+有关本示例中使用的 XML 元素的详细说明, 请参阅下列主题: 
   
-- [概述 XML 的活动订阅源](overview-of-xml-for-an-activity-feed-item.md)
+- [活动源项目的 XML 概述](overview-of-xml-for-an-activity-feed-item.md)
     
 - [activityDetails 元素](activitydetails-element.md)
     
@@ -43,7 +43,7 @@ ms.locfileid: "25390462"
     
 ## <a name="xml-example"></a>XML 示例
 
-下面的示例演示**activityFeed**四项活动的 XML： 两个配置文件图片更新、 状态更新和博客文章。 XML 还会指定用于显示相应的活动的三个活动显示模板。 
+以下示例显示了四个活动的**microsoft.office.server.activityfeed** XML: 两个配置文件图片更新、一个状态更新和一个博客文章。 XML 还指定三个活动显示模板, 用于显示相应的活动。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -180,9 +180,9 @@ ms.locfileid: "25390462"
 
 ## <a name="see-also"></a>另请参阅
 
-- [OSC 提供程序 XML 示例](osc-provider-xml-examples.md)  
-- [活动的 XML](xml-for-activities.md) 
+- [.osc 提供程序 XML 示例](osc-provider-xml-examples.md)  
+- [适用于活动的 XML](xml-for-activities.md) 
 - [功能 XML 示例](capabilities-xml-example.md)  
-- [朋友 XML 示例](friends-xml-example.md)
-- [Outlook Social Connector 提供程序的 XML 架构](outlook-social-connector-provider-xml-schema.md)
+- [友元 XML 示例](friends-xml-example.md)
+- [Outlook Social Connector 提供程序 XML 架构](outlook-social-connector-provider-xml-schema.md)
 

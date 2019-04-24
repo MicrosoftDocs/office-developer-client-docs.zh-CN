@@ -1,42 +1,42 @@
 ---
-title: 合并函数 （访问自定义 web 应用程序）
+title: 合并函数 (Access 自定义 web 应用程序)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 92a7cc0a-1f9f-4969-8439-56a8d18e1347
-description: 返回不为 NULL 从参数列表的第一个表达式。
-ms.openlocfilehash: cfe6f59c22a89b2a6d211e5f05c2dbf275d8da11
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回参数列表中的第一个不为 NULL 的表达式。
+ms.openlocfilehash: af309d2330f5c3b3999a4d99d8f2ab2d6d7d61db
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282269"
 ---
-# <a name="coalesce-function-access-custom-web-app"></a>合并函数 （访问自定义 web 应用程序）
+# <a name="coalesce-function-access-custom-web-app"></a>合并函数 (Access 自定义 web 应用程序)
 
-返回不为 NULL 从参数列表的第一个表达式。
+返回参数列表中的第一个不为 NULL 的表达式。
   
 > [!NOTE]
-> 本文中所述的云存储功能不再支持在 Office 2013 和 Office 2016 中，可能会导致以下错误： >*对不起，我们在遇到服务器问题，因此我们不能添加\<服务\>立即。请稍后重试。* > 的 Office Online、 iOS，面向 Office 和 Office for Android 云存储，您可以查看到我们[Office 云存储合作伙伴计划](https://dev.office.com/programs/officecloudstorage)。 
+> 本文介绍的云存储功能在 Office 2013 和 Office 2016 中不再受支持，并且可能会导致以下错误：> *抱歉，遇到服务器问题，暂时无法添加 \<service\>。请稍后重试。* > 对于面向 Office Online、Office for iOS 和 Office for Android 的云存储，可以查看我们的 [Office 云存储合作伙伴计划](https://dev.office.com/programs/officecloudstorage)。 
   
 ## <a name="syntax"></a>语法
 
-**合并**（*值*，[*值*]，...，[*值*]） 
+**合并**(*Value*, [*value*], ..., [*Value*]) 
   
 **联合**函数包含以下参数 
   
 |**参数名称**|**说明**|
 |:-----|:-----|
-| *Value*  <br/> |一个表达式。  <br/> |
+| *值*  <br/> |一个表达式。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果所有参数都均为空，**联合**将返回 NULL。 
+如果所有参数均为 null, 则**合并**将返回 null。 
   
 ## <a name="example"></a>示例
 
-以下表达式用作表格的有效性规则。 表达式可确保提交记录之前的项所做的名字，最后一个名称，电子邮件，移动电话，工作电话，家庭电话、 和公司字段中。 如果任一列出的字段为空，则**联合**函数将返回 Null，违反有效性规则。 
+下面的表达式用作表的有效性规则。 表达式可确保在提交记录之前, 在 "名字"、"姓"、"电子邮件"、"移动电话"、"工作电话"、"住宅电话" 和 "公司" 字段中进行输入。 如果任何列出的字段保留为空, 则**联合**函数将返回 Null, 这违反了有效性规则。 
   
 ```vb
 Coalesce([First Name],[Last Name],[Email],[Mobile Phone],[Work Phone],[Home Phone],[Company]) Is Not Null

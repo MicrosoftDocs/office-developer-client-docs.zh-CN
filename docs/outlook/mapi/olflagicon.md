@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3dc2c0f-b1fd-d758-e847-a0f101efe7f1
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3dffb65ea4f2c19966962a7f58cfc33f767fca83
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 05312e62d6bcc1a4ddb2ece170a6c0c0bfbe5f3f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279648"
 ---
 # <a name="olflagicon"></a>OlFlagIcon
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指定是否已标记某个项目，并且如果，与标志的项目相关联的颜色。
+指定是否标记项目, 如果是, 则为与已标记的项目相关联的颜色。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -38,35 +38,35 @@ enum OlFlagIcon {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
  _olNoFlagIcon_
   
-> 无标志已经与项目相关联。
+> 没有与该项目相关联的标志。
     
  _olPurpleFlagIcon_
   
-> 紫色已与已标记的项相关联。
+> 紫色已与带标志的项目相关联。
     
  _olOrangeFlagIcon_
   
-> 橙色已与已标记的项相关联。
+> 橙色已与带标志的项相关联。
     
  _olGreenFlagIcon_
   
-> 绿色已与已标记的项相关联。
+> 绿色已与已标记的项目相关联。
     
  _olYellowFlagIcon_
   
-> 黄色已与已标记的项相关联。
+> 黄色已与带标志的项相关联。
     
  _olBlueFlagIcon_
   
-> 蓝色已与已标记的项相关联。
+> 蓝色已与标记的项目相关联。
     
  _olRedFlagIcon_
   
-> 红色已与已标记的项相关联。
+> 红色与已标记的项目相关联。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 34f649c8-29bf-470f-9b05-31b69d069259
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7219a8936381c498e7b27898f5efae8e40697b59
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fb40e2c191056fe164c6a06bfdcf4b8e3d6eb92c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283196"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmask-canonical-property"></a>PidTagContactAddressBookStoreSupportMask 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含从包含联系人文件夹的存储区获得的**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) 属性。
+包含从包含 "联系人" 文件夹的存储区获取的**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) 属性。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTAB_STORE_SUPPORT_MASK  <br/> |
-|标识符：  <br/> |0x6611  <br/> |
+|标识符:  <br/> |0x6611  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
 ## <a name="remarks"></a>注解
 
-联系人通讯簿提供程序使用此属性来评估适用性的存储支持的功能。 这是联系人通讯簿容器和联系人通讯簿容器的表中的列上的属性。
+联系人通讯簿提供程序使用此属性来评估存储区支持的功能是否够用。 这是联系人通讯簿容器的属性, 以及联系人通讯簿容器表中的列。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

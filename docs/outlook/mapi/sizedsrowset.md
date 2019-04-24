@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: 419e2c6d-ac3b-46c6-9a12-33f51f6d7f12
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b8c70c8b13025f196fdebb2956939bec840a96f5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cb1e19a3f3703dc4943a5f6c322f1c8b429da5fa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282640"
 ---
 # <a name="sizedsrowset"></a>SizedSRowSet
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建命名的[SRowSet](srowset.md)结构，其中包含指定的行数。 
+创建一个包含指定数量的行的命名[SRowSet](srowset.md)结构。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**SRowSet** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**SRowSet** <br/> |
    
 ```cpp
 SizedSRowSet (_crow, _name)
@@ -36,17 +36,17 @@ SizedSRowSet (_crow, _name)
 
 ## <a name="parameters"></a>参数
 
-__crow_
+__鱼尾纹_
   
-> 要包含的新结构中的行数的计数。
+> 要包含在新结构中的行数的计数。
     
 __名称_
   
-> 新结构的的名称。
+> 新结构的名称。
     
 ## <a name="remarks"></a>注解
 
-若要使用新结构的结果从**SizedSRowSet**宏作为指针指向**SRowSet**结构，执行下列转换： 
+若要使用作为指向**SRowSet**结构的指针的**SizedSRowSet**宏生成的新结构, 请执行以下转换: 
   
 ```cpp
 lpSRowSet = (LPSRowSet) &SizedSRowSet;

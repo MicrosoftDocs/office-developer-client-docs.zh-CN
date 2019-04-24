@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1b4e82ed-c207-4828-8a5b-0ef312962355
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6d284782de86b603e6bbe190931a85cd9196c88b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270012"
 ---
 # <a name="pidtagdefaultviewentryid-canonical-property"></a>PidTagDefaultViewEntryId 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25393514"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含某个文件夹的默认视图的项的标识符。
+包含文件夹的默认视图的条目标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DEFAULT_VIEW_ENTRYID  <br/> |
-|标识符：  <br/> |0x3616  <br/> |
+|标识符:  <br/> |0x3616  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性是应设置为初始视图的文件夹视图的项标识符。 如果"Normal"视图是要用作初始视图，则不需要设置属性。
+此属性是应设置为初始视图的文件夹视图的条目标识符。 如果将 "普通" 视图用作初始视图, 则不需要设置该属性。
   
-客户端应用程序可以获取此属性在打开时文件夹和实现显著提高性能。 此属性可以作为快捷方式，用于获取默认视图，而不是打开的关联的内容表并提交限制。
+客户端应用程序可以在打开文件夹时获取该属性, 从而实现显著的性能提升。 此属性可用作获取默认视图的快捷方式, 而无需打开关联的内容表并提交限制。
   
-在复制文件夹时， [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md)方法的服务提供程序实现可以复制此属性。 
+[IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md)方法的服务提供程序实现可以在复制文件夹时复制该属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[毫秒-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> 处理文件夹的操作。
+> 处理文件夹操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

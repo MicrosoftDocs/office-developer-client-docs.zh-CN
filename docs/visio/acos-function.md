@@ -8,29 +8,29 @@ f1_keywords:
 - Vis_DSS.chm82251394
 localization_priority: Normal
 ms.assetid: 75807d66-6483-2785-567c-d238067e1e52
-description: 返回反余弦值的数目，例如，余弦值为 number 的角度。
-ms.openlocfilehash: 53dbf70793b463193fb038cdc5e51991b4332c16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回数字的反余弦值, 例如, 余弦值为数字的角度。
+ms.openlocfilehash: fbfb5f6d9879e2e398fb2ae66d8b5c8a76f9251c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283098"
 ---
 # <a name="acos-function"></a>ACOS 函数
 
-返回反余弦值的数目，例如，余弦为*数字*的角度。 
+返回数字的反余弦值, 例如, 余弦值为*数字*的角度。 
   
 ## <a name="syntax"></a>语法
 
-ACOS （*数量*） 
+ACOS (*数字*) 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-输入的值必须位于范围介于-1 \<= 号码\<= 1 或 #NUM ！ 将返回错误。 生成的角度是在 0 \<= 角度\<= π (0 \<= 角度\<= 180 度)。
+输入值必须介于-1 \<= number \<= 1, 或 #NUM! 错误。 生成的\<角度介于 0 = angle \<= PI 弧度 (0 \<= angle \<= 180 度) 之间。
   
 ## <a name="example"></a>示例
 
-ACOS(0) 
+ACOS (0) 
   
 返回 90 度 
   

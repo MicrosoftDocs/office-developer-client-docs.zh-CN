@@ -1,35 +1,35 @@
 ---
-title: 和 （访问自定义 web 应用程序）
+title: 和 (Access 自定义 web 应用程序)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 44c11a0b-abca-4ea8-8770-f5c1375d8d76
-description: 合并两个 Boolean 表达式并当两个表达式都为 TRUE 时返回 TRUE。
-ms.openlocfilehash: 04f7d3be3b0b0e00aeea1b1ae96b473b9b44fbad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 将两个表达式组合在一起, 并在两个表达式均为 true 时返回 true。
+ms.openlocfilehash: 247b15b9f8039d06d08c0ce9b2fcb443e3212350
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270173"
 ---
-# <a name="and-access-custom-web-app"></a>和 （访问自定义 web 应用程序）
+# <a name="and-access-custom-web-app"></a>和 (Access 自定义 web 应用程序)
 
-合并两个 Boolean 表达式并当两个表达式都为 TRUE 时返回 TRUE。 
+将两个表达式组合在一起, 并在两个表达式均为 true 时返回 true。 
   
 > [!IMPORTANT]
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
- *boolean_expression***AND***boolean_expression* 
+ *boolean_expression***,***boolean_expression* 
   
 ## <a name="return-value"></a>返回值
 
-当两个表达式都为 TRUE 时，则返回 TRUE。
+如果两个表达式均为 true, 则返回 true。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-在语句中使用多个逻辑运算符时，先评估 AND 运算符。 通过使用括号，可以更改求值的顺序。
+当在一个语句中使用多个逻辑运算符时, 先计算 AND 运算符。 您可以使用括号更改求值的顺序。
   
 

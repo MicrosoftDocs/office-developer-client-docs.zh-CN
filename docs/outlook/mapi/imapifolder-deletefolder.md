@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 02815c60b6bfc9809871af19e922913622588fc9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a476607927f3563ede94a04ccfe4f7a3749c978e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280069"
 ---
 # <a name="imapifolderdeletefolder"></a>IMAPIFolder::DeleteFolder
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 删除子文件夹。
   
@@ -41,35 +41,35 @@ HRESULT DeleteFolder(
 
  _cbEntryID_
   
-> [in]在_lpEntryID_参数指向的项标识符的字节数。 
+> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
     
  _lpEntryID_
   
-> [in]指向要删除的子文件夹的项标识符的指针。
+> 实时指向要删除的子文件夹的条目标识符的指针。
     
  _ulUIParam_
   
-> [in]进度指示器的父窗口句柄。 除非 FOLDER_DIALOG 标志设置_ulFlags_参数中，将忽略该_ulUIParam_参数。 
+> 实时进度指示器的父窗口的句柄。 除非在_ulFlags_参数中设置了 FOLDER_DIALOG 标志, 否则将忽略_ulUIParam_参数。 
     
  _lpProgress_
   
-> [in]指向显示进度指示器进度对象的指针。 如果在_lpProgress_传递 NULL，则消息存储提供程序将使用 MAPI 进度对象实现显示进度指示器。 除非_ulFlags_中设置了 FOLDER_DIALOG 标志，则将忽略该_lpProgress_参数。
+> 实时指向显示进度指示器的进度对象的指针。 如果在_lpProgress_中传递 NULL, 则邮件存储提供程序将使用 MAPI 进度对象实现来显示进度指示器。 除非在_ulFlags_中设置了 FOLDER_DIALOG 标志, 否则_lpProgress_参数将被忽略。
     
  _ulFlags_
   
-> [in]位掩码的标志控制删除的子文件夹。 可以设置以下标志：
+> 实时用于控制删除子文件夹的标志的位掩码。 可以设置以下标志:
     
 DEL_FOLDERS 
   
-> 应删除的子文件夹指向的_lpEntryID_的所有子文件夹。 
+> 应删除_lpEntryID_指向的子文件夹的所有子文件夹。 
     
 DEL_MESSAGES 
   
-> 应删除指向_lpEntryID_的子文件夹中的所有邮件。 
+> 应删除由_lpEntryID_指向的子文件夹中的所有邮件。 
     
 FOLDER_DIALOG 
   
-> 继续操作时，应显示进度指示器。
+> 操作继续时应显示进度指示器。
     
 ## <a name="return-value"></a>返回值
 
@@ -79,45 +79,45 @@ S_OK
     
 MAPI_E_HAS_FOLDERS 
   
-> 正在删除的子文件夹包含子文件夹，并且未设置 DEL_FOLDERS 标志。 子文件夹未被删除。
+> 要删除的子文件夹包含子文件夹, 且未设置 DEL_FOLDERS 标志。 子文件夹未被删除。
     
 MAPI_E_HAS_MESSAGES 
   
-> 正在删除的子文件夹包含邮件和未设置 DEL_MESSAGES 标志。 未删除子文件夹。
+> 要删除的子文件夹包含邮件, 且未设置 DEL_MESSAGES 标志。 未删除子文件夹。
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> 调用成功，但不是所有项都已成功删除。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
+> 呼叫成功, 但未成功删除所有条目。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
 ## <a name="remarks"></a>注解
 
-**IMAPIFolder::DeleteFolder**方法删除子文件夹。 默认情况下**DeleteFolder**运行只能在空文件夹，但您可以使用它成功对非空文件夹通过设置两个标志： DEL_FOLDERS 和 DEL_MESSAGES。 可以删除仅空文件夹或**DeleteFolder**呼叫的设置的 DEL_FOLDERS 和 DEL_MESSAGES 标志设置的文件夹。 DEL_FOLDERS 使所有文件夹的子文件夹要删除;DEL_MESSAGES 启用的所有文件夹的邮件中删除。 
+**IMAPIFolder::D eletefolder**方法删除子文件夹。 默认情况下, **DeleteFolder**仅对空文件夹进行操作, 但您可以通过设置两个标志: DEL_FOLDERS 和 DEL_MESSAGES, 在非空文件夹上成功地使用它。 只能删除在**DeleteFolder**调用中设置 DEL_FOLDERS 和 DEL_MESSAGES 标志的空文件夹或文件夹。 DEL_FOLDERS 启用要删除的文件夹的所有子文件夹。DEL_MESSAGES 启用要删除的所有文件夹的邮件。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-当删除操作涉及多个文件夹时，每个文件夹尽可能完整执行操作。 有时之一要删除的文件夹不存在或已移动或复制到其他位置。 不停止操作提前除非超过了您的控件，如运行内存不足、 不足磁盘空间或损坏消息存储区中的出现故障。
+如果删除操作涉及多个文件夹, 请尽可能完全地对每个文件夹执行此操作。 有时要删除的一个文件夹不存在或已移动或复制到其他位置。 请勿提前停止操作, 除非发生超出控制范围的故障 (如内存不足、磁盘空间不足或邮件存储区损坏)。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-希望在下列情况下的这些返回值。
+在下列情况下, 需要这些返回值。
   
-|**条件**|**返回值**|
+|**Condition**|**返回值**|
 |:-----|:-----|
-|**DeleteFolder**已成功删除每封邮件和子文件夹。  <br/> |S_OK  <br/> |
-|**DeleteFolder**程序无法成功删除每封邮件和子文件夹。  <br/> |MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND  <br/> |
-|**DeleteFolder**无法完成。  <br/> |除 MAPI_E_NOT_FOUND 任何错误值  <br/> |
+|**DeleteFolder**已成功删除每个邮件和子文件夹。  <br/> |S_OK  <br/> |
+|**DeleteFolder**无法成功删除每个邮件和子文件夹。  <br/> |MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND  <br/> |
+|**DeleteFolder**无法完成。  <br/> |除 MAPI_E_NOT_FOUND 外的任何错误值  <br/> |
    
-**DeleteFolder**无法完成后，请假定已完成任何工时。 **DeleteFolder**可能已经能够删除一个或多个邮件和子文件夹，然后再遇到错误。 
+当**DeleteFolder**无法完成时, 请不要假定没有任何工作已完成。 **DeleteFolder**可能已能够在遇到错误之前删除一个或多个邮件和子文件夹。 
   
-如果不能删除一个或多个子文件夹， **DeleteFolder**返回 MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND，具体取决于消息存储提供程序的实现。 
+如果无法删除一个或多个子文件夹, **DeleteFolder**将返回 MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND, 具体取决于邮件存储提供程序的实现。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDeleteSelectedItem  <br/> |MFCMAPI 使用**IMAPIFolder::DeleteFolder**方法删除文件夹。  <br/> |
+|MsgStoreDlg  <br/> |CMsgStoreDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI 使用**IMAPIFolder::D eletefolder**方法删除文件夹。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

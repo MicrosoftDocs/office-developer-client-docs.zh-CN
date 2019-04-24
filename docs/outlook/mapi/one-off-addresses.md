@@ -8,49 +8,49 @@ api_type:
 - COM
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 504ae8dddbddb1c7049574b1bdcc575a10a62c8f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e6bda55951d8df5c5da272750c631ec105b2ccf2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279634"
 ---
 # <a name="one-off-addresses"></a>一次性地址
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-一次性地址用于向一次性收件人，没有任何会话的通讯簿容器中的相应条目的收件人发送邮件。 新条目添加到通讯簿或新收件人的传出邮件的收件人列表中时，客户端可以创建一次性地址。 可以是一次性地址添加到任何容器的可修改。
+一次性地址用于向一次性收件人 (在任何会话的通讯簿容器中没有相应条目的收件人) 发送邮件。 客户端可以在向通讯簿添加新条目或向传出邮件的收件人列表中添加新条目时创建一次性地址。 可以将一次性地址添加到任何可修改的容器中。
   
-若要创建一个一次性地址，客户端，请使用特殊模板包含编辑控件以输入所有构成一次性地址的信息。 一次性地址，如地址的其他类型，使用预定义的格式。 一次性地址的格式，如下所示由 MAPI 进行定义：
+若要创建一次性地址, 客户端应使用包含编辑控件的特殊模板, 以输入构成一次性地址的所有信息。 一次性地址, 如其他类型的地址, 使用预定义的格式。 一次性地址格式由 MAPI 定义, 如下所示:
   
 `Display name[Address type:Email address]`
   
-没有为此格式的六个组件和有关报价字符某些规则。 下表中介绍的组件。
+此格式有六个组件和一些关于引号字符的规则。 下表中介绍了这些组件。
   
-|**组件**|**使用情况**|**说明**|
+|**组件**|**用法**|**说明**|
 |:-----|:-----|:-----|
-|显示名称  <br/> |可选  <br/> |如果不存在，则**IAddrBook::ResolveName**使用的电子邮件地址的可见部分用作显示名称。 可能包括空格。 有关详细信息，请参阅[IAddrBook::ResolveName](iaddrbook-resolvename.md)。  <br/> |
-|[  <br/> |必需  <br/> |描绘的类型和地址信息的开头。  <br/> |
-|]  <br/> |必需  <br/> |描绘的类型和地址信息的末尾。 如果此字符后面空格以外的任何内容，输入不被视为一个自定义收件人。  <br/> |
-|地址类型  <br/> |必需  <br/> |地址; 类型映射到特定地址格式。 有关详细信息，请参阅[MAPI 地址类型](mapi-address-types.md)。  <br/> |
-|:  <br/> |必需  <br/> |开来的电子邮件地址的地址类型。  <br/> |
-|电子邮件地址  <br/> |必需  <br/> |收件人地址。 可能包括空格。  <br/> |
+|可分辨名称 (DN)  <br/> |可选  <br/> |如果不存在, 则**IAddrBook:: ResolveName**使用电子邮件地址的可见部分作为显示名称。 可能包含空格。 有关详细信息, 请参阅[IAddrBook:: ResolveName](iaddrbook-resolvename.md)。  <br/> |
+|[  <br/> |必需  <br/> |描述了类型和地址信息的开头。  <br/> |
+|]  <br/> |必需  <br/> |描述了键入和地址信息的结尾。 如果除空格之外的任何内容都跟在此字符之后, 则不会将该条目视为自定义收件人。  <br/> |
+|地址类型  <br/> |必需  <br/> |地址类型;映射到特定地址格式。 有关详细信息, 请参阅[MAPI 地址类型](mapi-address-types.md)。  <br/> |
+|:  <br/> |必需  <br/> |将地址类型与电子邮件地址分隔开。  <br/> |
+|电子邮件地址  <br/> |必需  <br/> |收件人的地址。 可能包含空格。  <br/> |
    
-MAPI 使用报价字符的特定集允许地址包含左方括号 ([])，如逗号 （，） 的特殊字符和冒号 （:） 和一些 untypeable 字符，例如回车返回或线条源或任何其他十六进制等效。 报价字符是反斜杠 (\)。 因此，如果客户端或提供程序必须在地址插入反斜杠，它们必须低于它的报价字符 ("\\")。
+MAPI 使用特定的一组引用字符来允许地址包含特殊字符, 如逗号 (,)、左方括号 ([) 和冒号 (:)以及一些 untypeable 字符 (如回车符或换行符) 或任何其他十六进制等效项。 引号字符是反斜杠 (\)。 因此, 如果客户端或提供程序必须在地址中插入反斜杠, 则必须使用引号字符 ("\\") 将其 preceed。
   
-客户端和服务提供商可以使用此报价技术中的任何 nonfixed，可键入字段。 例如，以下条目转换为用作显示名称，作为地址类型，MSPEER Bill 李和\\billll\in 作为电子邮件地址：
+客户端和服务提供商可以在任何 nonfixed (种) 字段中使用此报价技术。 例如, 以下条目转换为 "记帐名称"、"MSPEER" 作为 "地址类型" 和\\"billll\in" 作为电子邮件地址:
   
 `Bill Lee[MSPEER:\\\\billl\in]`
 
-要插入特殊 nontypeable 字符，客户端和服务提供商使用报价字符后跟 x 和两个十六进制数字表示等效其十六进制值。 例如，如果某个地址具有等同于回车符 nontypeable 字符返回，(\0d) 十六进制数，在客户端应输入为：
+若要插入特殊的 nontypeable 字符, 客户端和服务提供程序使用带引号的字符, 后跟 x 和2个十六进制数字来表示它们的十六进制等效项。 例如, 如果地址的 nontypeable 字符等于回车 (\0d), 则客户端会输入以下字符:
   
 `Fax Recipient[fax:recipient\x0dbuilding\x0doffice\x0d555-1212\x0d]`
 
-**IAddrBook::ResolveName**还会自动分析大多数 SMTP 地址，查找具有以下格式的地址： 
+**IAddrBook:: ResolveName**还会自动分析大多数 SMTP 地址, 查找具有以下格式的地址: 
   
 `XXX@YYY.ZZZ`
 
-尽管不是所有可能的附加了 RFC822 格式进行处理，此自动分析足以满足大多数用户。 **ResolveName**包括此功能，以使用户可以直接在消息输入 SMTP 地址并转到 Internet 用户的消息。 XXX、 YYY 和 ZZZ 组件的地址可以是一个或多个字符。 At 符号 (@) 不能包含在地址 XXX、 YYY 或 ZZZ 组件和 YYY 组件也不能包含时间段。 由于以下字符是 SMTP 地址中的特殊字符，MAPI 自动转换为一次性地址包含这些字符的显示名称： 
+虽然并非所有可能的/rfc822 格式都得到处理, 但这种自动分析足以满足大多数用户的情况。 **ResolveName**包括此功能, 使用户能够直接在邮件中输入 SMTP 地址, 并让该邮件转到 Internet 用户。 XXX、YYY 和 ZZZ 组件的地址可以是一个或多个字符。 at 符号 (@) 不能包含在 XXX、yyy 或 ZZZ 地址组件中, YYY 组件也不能包含句点。 由于以下字符是 SMTP 地址中的特殊字符, 因此 MAPI 会自动将包含这些字符的显示名称转换为一次性地址: 
   
 - \>\>
     
@@ -60,23 +60,23 @@ MAPI 使用报价字符的特定集允许地址包含左方括号 ([])，如逗�
     
 - .
     
-每个一次性地址分配相应的一次性条目标识符。 若要使此工作分配，客户端调用**IAddrBook::CreateOneOff**和传输提供程序调用**IMAPISupport::CreateOneOff**。 有关详细信息，请参阅[IAddrBook::CreateOneOff](iaddrbook-createoneoff.md)和[IMAPISupport::CreateOneOff](imapisupport-createoneoff.md)。 处理传入消息时, 传输提供程序创建一次性条目标识符网关地址和传输类型的关联的通讯簿提供程序无法处理的地址。 传输提供程序检查邮件以确定它可以由传输类型相关联的通讯簿提供程序来处理中每个地址的类型。 如果它无法传输提供程序调用**IMAPISupport::CreateOneOff**一次性条目标识符与关联的地址。 
+为每个一次性地址分配一个对应的一次性条目标识符。 若要进行此分配, 客户端可以调用**IAddrBook:: CreateOneOff**和 transport providers, 调用**IMAPISupport:: CreateOneOff**。 有关详细信息, 请参阅[IAddrBook:: CreateOneOff](iaddrbook-createoneoff.md)和[IMAPISupport:: CreateOneOff](imapisupport-createoneoff.md)。 在处理传入邮件时, 传输提供程序为网关地址和传输的关联通讯簿提供程序无法处理的地址创建一次性条目标识符。 传输提供程序检查邮件中每个地址的类型, 以确定是否可以通过与传输关联的通讯簿提供程序进行处理。 如果不能, 传输提供程序将调用**IMAPISupport:: CreateOneOff**以将地址与一次性条目标识符相关联。 
   
-一次性条目标识符按以下顺序包括以下信息：
+一次性条目标识符按以下顺序包含以下信息:
   
 1. **MAPIUID**
     
-2. 版本
+2. Version
     
 3. Flags
     
-4. 显示名称
+4. 可分辨名称 (DN)
     
 5. 地址类型
     
 6. 电子邮件地址
     
-在调用**IAddrBook::CreateOneOff**和**IMAPISupport::CreateOneOff**，客户端和传输提供程序可以设置一个标志，指示由一次性地址的收件人可以处理带格式的文本或嵌入 OLE对象。 指示收件人可以处理带格式的文本和 OLE 对象，客户端和传输提供程序集_ulFlags_参数中的 MAPI_SEND_NO_RICH_INFO 标志。 然后，MAPI 将一次性收件人的**PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) 属性设置为 FALSE。 当未设置此标志时，MAPI 设为 TRUE **PR_SEND_RICH_INFO** ，除非一次性地址被解释为 SMTP 地址。 在本例一个**PR_SEND_RICH_INFO**默认为 FALSE。 
+在对**IAddrBook:: CreateOneOff**和**IMAPISupport:: CreateOneOff**、客户端和传输提供程序的调用中, 可以设置一个标志, 该标志指示由一次性地址表示的收件人是否可以处理格式化文本或嵌入的 OLE对象. 若要指示收件人可以处理带格式的文本和 OLE 对象, 客户端和传输提供程序在_ulFlags_参数中设置 MAPI_SEND_NO_RICH_INFO 标志。 MAPI 然后将一次性收件人的**PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) 属性设置为 FALSE。 如果未设置此标志, 则 MAPI 会将**PR_SEND_RICH_INFO**设置为 TRUE, 除非将一次性地址解释为 SMTP 地址。 在这种情况下, **PR_SEND_RICH_INFO**默认为 FALSE。 
   
 ## <a name="see-also"></a>另请参阅
 

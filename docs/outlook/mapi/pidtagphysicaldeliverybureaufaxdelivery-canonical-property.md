@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: c20e4ff2-ef55-4455-86ab-3bd47ddfefb2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c77792c1e33f9b0aed1bb0e5d109a0339fa0fe6e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 64f389bc45f88b1fd0e516c92c8eec1e0998a298
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279620"
 ---
 # <a name="pidtagphysicaldeliverybureaufaxdelivery-canonical-property"></a>PidTagPhysicalDeliveryBureauFaxDelivery 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含 TRUE，则在邮件系统应使用传真局物理传送此消息。
+如果邮件系统应使用传真部门来物理传递此邮件, 则该参数为 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY  <br/> |
-|标识符：  <br/> |0x0C0A  <br/> |
+|标识符:  <br/> |0x0C0A  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
@@ -38,13 +38,13 @@ ms.locfileid: "22587171"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

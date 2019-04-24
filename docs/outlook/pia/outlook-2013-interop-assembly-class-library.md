@@ -8,11 +8,11 @@ ms.date: 09/02/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 50a4fdc9d86175768b470d7215a2cf1a150efb32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269914"
 ---
 # <a name="outlook-2013-interop-assembly-class-library"></a>Outlook 2013 互操作程序集类库
 

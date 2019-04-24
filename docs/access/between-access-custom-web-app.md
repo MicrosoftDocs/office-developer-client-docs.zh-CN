@@ -1,19 +1,19 @@
 ---
-title: 之间 （访问自定义 web 应用程序）
+title: BETWEEN (Access 自定义 web 应用)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9dcb32c6-ed9b-4a09-9e6a-48cc50063a6f
 description: 指定要测试的范围。
-ms.openlocfilehash: 0ef3384d6a29826968220f8d6cfc0d2f85e1131c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd67d1163f6a39779e0202b5ca1ba998ba8650a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280741"
 ---
-# <a name="between-access-custom-web-app"></a>之间 （访问自定义 web 应用程序）
+# <a name="between-access-custom-web-app"></a>BETWEEN (Access 自定义 web 应用)
 
 指定要测试的范围。
   
@@ -22,28 +22,28 @@ ms.locfileid: "19773449"
   
 ## <a name="syntax"></a>语法
 
- *test_expression* [NOT]**BETWEEN***begin_expression***AND***end_expression* 
+ *test_expression* 不要**介于***begin_expression***,***end_expression* 
   
 **Between**运算符包含下列参数。 
   
-|**参数**|**必需**|**说明**|
+|**参数**|**必需**|**描述**|
 |:-----|:-----|:-----|
-| *test_expression*  <br/> |可访问  <br/> |要测试定义*begin_expression*和*end_expression*的范围中的表达式。 必须为*begin_expression*和*end_expression*同一字段数据类型。  <br/> |
-| *NOT*  <br/> |否  <br/> |指定否定谓词的结果。  <br/> |
-| *begin_expression*  <br/> |可访问  <br/> |一个有效表达式。 必须为*test_expression*和*end_expression*同一字段数据类型。  <br/> |
-| *end_expression*  <br/> |可访问  <br/> |一个有效表达式。 必须为*test_expression*和*begin_expression*同一字段数据类型。  <br/> |
-| *AND*  <br/> |可访问  <br/> |指示*test_expression*应由*begin_expression*和*end_expression*指示范围内。  <br/> |
+| *test_expression*  <br/> |是  <br/> |要在*begin_expression*和*end_expression*定义的范围内进行测试的表达式。 必须与*begin_expression*和*end_expression*的数据类型相同。  <br/> |
+| *NOT*  <br/> |否  <br/> |指定将谓词的结果取反。  <br/> |
+| *begin_expression*  <br/> |是  <br/> |一个有效的表达式。 必须与*test_expression*和*end_expression*的数据类型相同。  <br/> |
+| *end_expression*  <br/> |是  <br/> |一个有效的表达式。 必须与*test_expression*和*begin_expression*的数据类型相同。  <br/> |
+| *AND*  <br/> |是  <br/> |指示*test_expression*应位于*begin_expression*和*end_expression*指示的范围内。  <br/> |
    
 ## <a name="result-type"></a>结果类型
 
  **Boolean**
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
- **BETWEEN**返回**TRUE** ，如果*test_expression*值大于或等于*begin_expression*值且小于或等于*end_expression*的值。 
+ **BETWEEN**如果*test_expression*的值大于或等于*begin_expression*的值, 小于或等于*end_expression*的值,**则返回 TRUE** 。 
   
- **之间不**返回**TRUE** ，如果*test_expression*的值小于 value *begin_expression*或大于*end_expression*的值。 
+ **NOT BETWEEN**如果*test_expression*的值小于*begin_expression*的值或大于*end_expression*的值,**则返回 TRUE** 。 
   
-要指定排除范围，请使用大于比 (\>) 且小于运算符 (\<)。
+若要指定独占区域, 请使用大于号 (\>) 和小于运算符 (\<)。
   
 

@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 77892ec7-4c6a-78a5-5af4-5b6be7709e77
 description: 确定在尚未应用本地跨线方向的绘图页内水平动态连接线上的跨线方向。
-ms.openlocfilehash: d414313e98107790f9236c0afabdc5747c6a2a10
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e1213990877e1260cc8cecd5a55beda4592a844
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283735"
 ---
-# <a name="pagelinejumpdirx-cell-page-layout-section"></a>PageLineJumpDirX 单元格（“Page Layout”部分）
+# <a name="pagelinejumpdirx-cell-page-layout-section"></a>PageLineJumpDirX 单元格（“Page Layout”内容）
 
 确定在尚未应用本地跨线方向的绘图页内水平动态连接线上的跨线方向。
   
@@ -24,9 +24,9 @@ ms.locfileid: "19780830"
 |:-----|:-----|:-----|
 | 0  <br/> | 默认值；向左或形状的页面设置  <br/> |**visLOJumpDirXDefault** <br/> |
 | 1  <br/> | 向上  <br/> |**visLOJumpDirXUp** <br/> |
-| 2  <br/> | 向下  <br/> |**visLOJumpDirXDown** <br/> |
+| 双面  <br/> | 向下  <br/> |**visLOJumpDirXDown** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 PageLineJumpDirX 单元格的引用，请使用： 
   

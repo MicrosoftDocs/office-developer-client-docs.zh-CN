@@ -12,35 +12,35 @@ api_type:
 - COM
 ms.assetid: a593d2a1-29f8-7e23-85bf-02fa3cfebe1b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: adcb8e78d4e85e19d4102795aa4d43f06a7f86ba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 940cf0cf377f1b38071df5e3c300ccb7d685e5a2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270306"
 ---
 # <a name="imapiofflinenotify--iunknown"></a>IMAPIOfflineNotify : IUnknown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-支持 Microsoft Outlook 2010 和 Microsoft Outlook 2013 中向客户端发送通知回调。
+支持在向客户端发送通知回调时使用 microsoft outlook 2010 和 microsoft outlook 2013。
   
 |||
 |:-----|:-----|
 |提供者：  <br/> |客户端  <br/> |
-|接口标识符：  <br/> |IID_IMAPIOfflineNotify  <br/> |
+|接口标识符:  <br/> |IID_IMAPIOfflineNotify  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[Notify](imapiofflinenotify-notify.md) <br/> |将通知发送到客户端有关连接状态的变化。  <br/> |
+|[Notify](imapiofflinenotify-notify.md) <br/> |向客户端发送有关连接状态更改的通知。  <br/> |
    
 ## <a name="remarks"></a>注解
 
-客户端必须实现此接口，并将指针传递给它为**[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** 中的成员设置使用**[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** 回调时。 随后，Outlook 2010 或 Outlook 2013 都将能够使用此接口到客户端发送通知回调。 
+在设置使用**[IMAPIOfflineMgr:: 建议](imapiofflinemgr-advise.md)** 的回调时, 客户端必须实现此接口并将指针作为**[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** 中的成员进行传递。 随后, outlook 2010 或 outlook 2013 将能够使用此接口向客户端发送通知回调。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6f2d84fd-27eb-4c2f-a2e1-43d20e0c78be
 description: 删除文本中的所有空格，单词之间的单个空格除外。
-ms.openlocfilehash: b396572041e880451ceb1ec6f0508528c0807bfc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b947c9500012d0ceefe3e8044be387f7b810dda9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280841"
 ---
 # <a name="trim-function"></a>TRIM 函数
 
@@ -22,13 +22,13 @@ ms.locfileid: "19781565"
   
 ## <a name="syntax"></a>语法
 
-修整 (* **文本** *) 
+TRIM (* * *text* * *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |必需  <br/> |**字符串** <br/> |要从中删除空格的文本。  <br/> |
+| _text_ <br/> |必需  <br/> |**String** <br/> |要从中删除空格的文本。  <br/> |
    
 ### <a name="return-value"></a>返回值
 

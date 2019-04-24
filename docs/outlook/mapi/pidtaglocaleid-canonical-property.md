@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9e4d1554-a47f-461c-8f79-0604d5542e8d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e4211f65cd526503f1fac9f990d28ace7e2f935a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278812"
 ---
 # <a name="pidtaglocaleid-canonical-property"></a>PidTagLocaleId 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25389853"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-建立翻译系统生成的邮件，例如送达报告的语言区域设置。
+建立用于转换系统生成的邮件的语言区域设置, 例如传递报告。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_LOCALE_ID  <br/> |
-|标识符：  <br/> |0x66A1  <br/> |
+|标识符:  <br/> |0x66A1  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性是可在专用邮箱登录。
+此属性在专用邮箱登录上可用。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+[[毫秒-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> 指定允许的操作的核心消息存储对象。
+> 指定核心邮件存储对象的允许操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

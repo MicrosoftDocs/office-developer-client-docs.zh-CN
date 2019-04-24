@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e1d86df1-3712-39cc-ad63-4c41f81a8f9d
 description: 返回包含成员形式的形状（包括嵌套关系）的容器的总数。
-ms.openlocfilehash: eee8fc1b31bafa424c09464a1451c4f30ba9b461
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 377ba8590cbe987a1c1ecc2e7d51fbd7dc027f5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282983"
 ---
 # <a name="containercount-function"></a>CONTAINERCOUNT 函数
 
@@ -25,7 +25,7 @@ ms.locfileid: "19779971"
   
 ## <a name="syntax"></a>语法
 
-CONTAINERCOUNT()
+CONTAINERCOUNT ()
   
 ### <a name="return-value"></a>返回值
 

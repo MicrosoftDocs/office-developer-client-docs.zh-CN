@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: f0b9c2f4-7011-414d-8e6c-ab22893ef132
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7622baaebf6918cf84c48e53291cf5ec2c0b1a4a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 60a335f85eea8778580e0bd74693a5c28591103c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282626"
 ---
 # <a name="sizedssortorderset"></a>SizedSSortOrderSet
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建命名的[SSortOrderSet](ssortorderset.md)结构，其中包含指定的数目的排序次序。 
+创建一个包含指定数量的排序次序的命名[SSortOrderSet](ssortorderset.md)结构。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**SSortOrderSet** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 SizedSSortOrderSet (_csort,_name)
@@ -38,17 +38,17 @@ SizedSSortOrderSet (_csort,_name)
 
 __csort_
   
-> 排序次序要包含的新结构中的计数。
+> 要包含在新结构中的排序顺序的计数。
     
 __名称_
   
-> 新结构的的名称。
+> 新结构的名称。
     
 ## <a name="remarks"></a>注解
 
-使用**SizedSSortOrderSet**宏来创建使用显式边界设置排序顺序。 
+使用**SizedSSortOrderSet**宏创建具有显式边界的排序次序集。 
   
-若要使用新结构的结果从**SizedSSortOrderSet**宏作为指针指向**SSortOrderSet**结构，执行下列转换： 
+若要使用作为指向**SSortOrderSet**结构的指针的**SizedSSortOrderSet**宏生成的新结构, 请执行以下转换: 
   
 ```cpp
 lpSSortOrderSet = (LPSSortOrderSet) &SizedSSortOrderSet;

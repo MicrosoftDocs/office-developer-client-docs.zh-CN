@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54377ab4-8c69-4d7a-b9b7-278241823c8d
-description: 返回一个字符串，表示当前已登录的用户的社交网络用户 ID。
-ms.openlocfilehash: dcc81d7acf8a839e7fe3249cc0eb06f96c113b56
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回一个字符串, 表示当前登录的用户的社交网络用户 ID。
+ms.openlocfilehash: edb61569829f7690c2284a083d2cbd5cfe2d32a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285284"
 ---
 # <a name="isocialsessionloggedonuserid"></a>ISocialSession::LoggedOnUserID
 
-返回一个字符串，表示当前已登录的用户的社交网络用户 ID。 
+返回一个字符串, 表示当前登录的用户的社交网络用户 ID。 
   
 ```cpp
 [propget] HRESULT _stdcall LoggedOnUserID([out, retval] BSTR* result);
@@ -25,7 +25,7 @@ ms.locfileid: "19779234"
 
 ## <a name="property-value"></a>属性值
 
-一个字符串，包含登录用户的社交网络用户 ID。
+一个包含已登录用户的社交网络用户 ID 的字符串。
   
 ## <a name="see-also"></a>另请参阅
 

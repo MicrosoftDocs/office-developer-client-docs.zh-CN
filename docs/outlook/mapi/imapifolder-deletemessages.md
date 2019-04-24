@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5a16e62b-9d33-41cd-af2b-9abd403b6f2e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bd0439c71df7083e3c4787a5d317fa11d2b99c61
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0f0523c01e163b57d9ed37d9b324ec858adbd685
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280118"
 ---
 # <a name="imapifolderdeletemessages"></a>IMAPIFolder::DeleteMessages
 
@@ -40,67 +40,67 @@ HRESULT DeleteMessages(
 
  _lpMsgList_
   
-> [in]一个指向[ENTRYLIST](entrylist.md)结构，其中包含要删除的消息的数目和确定邮件的[ENTRYID](entryid.md)结构的数组。 
+> 实时指向[ENTRYLIST](entrylist.md)结构的指针, 该结构包含要删除的邮件数以及标识这些邮件的[ENTRYID](entryid.md)结构的数组。 
     
  _ulUIParam_
   
-> [in]进度指示器的父窗口句柄。 除非 MESSAGE_DIALOG 标志设置_ulFlags_参数中，将忽略该_ulUIParam_参数。 
+> 实时进度指示器的父窗口的句柄。 除非在_ulFlags_参数中设置了 MESSAGE_DIALOG 标志, 否则将忽略_ulUIParam_参数。 
     
  _lpProgress_
   
-> [in]指向显示进度指示器进度对象的指针。 如果在_lpProgress_传递 NULL，则消息存储提供程序将使用 MAPI 进度对象实现显示进度指示器。 除非 MESSAGE_DIALOG 标志设置_ulFlags_参数中，将忽略该_lpProgress_参数。 
+> 实时指向显示进度指示器的进度对象的指针。 如果在_lpProgress_中传递 NULL, 则邮件存储提供程序将使用 MAPI 进度对象实现来显示进度指示器。 除非在_ulFlags_参数中设置了 MESSAGE_DIALOG 标志, 否则将忽略_lpProgress_参数。 
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何删除邮件。 可以设置以下标志：
+> 实时用于控制如何删除邮件的标志的位掩码。 可以设置以下标志:
     
 DELETE_HARD_DELETE
   
-> 永久删除所有邮件，包括软删除的。
+> 永久删除所有邮件, 包括软删除的邮件。
     
 MESSAGE_DIALOG 
   
-> 随着进行操作，则显示进度指示器。
+> 在操作继续时显示进度指示器。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 指定的邮件或消息已成功删除。
+> 已成功删除指定的一个或一条消息。
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> 调用成功，但不是所有的邮件已成功删除。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
+> 呼叫成功, 但未成功删除所有邮件。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
 ## <a name="remarks"></a>注解
 
-**IMAPIFolder::DeleteMessages**方法从文件夹中删除邮件。 无法删除的邮件的不存在、 已在其他地方移动的、 具有读/写权限打开或当前提交。 
+**IMAPIFolder::D eletemessages**方法删除文件夹中的邮件。 不存在、已移动到其他位置、以读/写权限打开, 或当前已提交的邮件无法被删除。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-时删除操作涉及多个邮件，执行操作完全尽可能对于每个文件夹中，即使不能删除一个或多条消息。 不停止操作提前除非超过了您的控件，如运行内存不足、 不足磁盘空间或损坏消息存储区中的出现故障。
+当删除操作涉及多封邮件时, 应尽可能完全地对每个文件夹执行此操作, 即使无法删除一个或多个邮件也是如此。 请勿提前停止操作, 除非发生超出控制范围的故障 (如内存不足、磁盘空间不足或邮件存储区损坏)。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-希望在下列情况下的这些返回值。
+在下列情况下, 需要这些返回值。
   
-|**条件**|**返回值**|
+|**Condition**|**返回值**|
 |:-----|:-----|
-|**DeleteMessages**已成功删除每条消息。  <br/> |S_OK  <br/> |
-|**DeleteMessages**程序无法成功删除每封邮件和子文件夹。  <br/> |MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND  <br/> |
-|**DeleteMessages**无法完成。  <br/> |除 MAPI_E_NOT_FOUND 任何错误值  <br/> |
+|**DeleteMessages**已成功删除每封邮件。  <br/> |S_OK  <br/> |
+|**DeleteMessages**无法成功删除每个邮件和子文件夹。  <br/> |MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND  <br/> |
+|**DeleteMessages**无法完成。  <br/> |除 MAPI_E_NOT_FOUND 外的任何错误值  <br/> |
    
-无法完成**DeleteMessages**时，不假定任何工作已完成。 **DeleteMessages**可能已经能够删除一个或多条消息，然后再遇到错误。 
+当**DeleteMessages**无法完成时, 请不要假定没有任何工作已完成。 **DeleteMessages**可能已能够在遇到错误之前删除一个或多个邮件。 
   
- **DeleteMessages**返回 MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND，具体取决于邮件存储的实现。 
+ **DeleteMessages**返回 MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND, 具体取决于邮件存储区的实现。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnDeleteSelectedItem  <br/> |MFCMAPI 使用**IMAPIFolder::DeleteMessages**方法删除指定的邮件。  <br/> |
+|FolderDlg  <br/> |CFolderDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI 使用**IMAPIFolder::D eletemessages**方法删除指定的邮件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

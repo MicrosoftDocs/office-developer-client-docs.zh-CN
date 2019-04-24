@@ -9,22 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5b265356-1602-4241-fbe1-4d5a55392a52
 description: 确定图层颜色的透明度级别。
-ms.openlocfilehash: 5537cbdcd49c66f3bc28a58051f6e2888a290cd3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: defe5307e57c433fcf85a4132939d08cb1ddec77
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280974"
 ---
-# <a name="transparency-cell-image-properties-section"></a>Transparency 单元格（“Image Properties”部分）
+# <a name="transparency-cell-image-properties-section"></a>Transparency 单元格（“Image Properties”内容）
 
 确定图层颜色的透明度级别。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
-|
-          0 - 100
-  <br/> |表示透明度的百分比。默认值为 0%（完全不透明）。  <br/> |
+|0 - 100  <br/> |表示透明度的百分比。默认值为 0%（完全不透明）。  <br/> |
    
 ## <a name="remarks"></a>注解
 

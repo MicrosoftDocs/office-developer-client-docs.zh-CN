@@ -1,5 +1,5 @@
 ---
-title: “Action Tag”部分
+title: "\"操作标记\" 部分"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a05d668f-70c9-b6fa-cac1-462af37b4f8f
 description: 包含与为形状或页定义的每个动作标记相对应的行。
-ms.openlocfilehash: fe422ea0b7b2ff423fdbfa4e42634c417ec241b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8d8307abe14058be27e805a191243db8002b4c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283035"
 ---
-# <a name="action-tag-section"></a>“Action Tag”部分
+# <a name="action-tag-section"></a>"操作标记" 部分
 
 包含与为形状或页定义的每个动作标记相对应的行。
   
@@ -25,12 +25,12 @@ ms.locfileid: "19779616"
   
 ## <a name="remarks"></a>注解
 
-**动作标记**内容控件的外观和绘图中的动作标记的位置。 使用**TagName**单元格，您可以使用一行或多行的操作部分，其中定义动作标记菜单显示的菜单项关联每个动作标记。 
+**操作标记**部分控制动作标签在绘图中的外观和位置。 使用**TagName**单元格, 您可以将每个操作标记与 "操作" 部分中的一行或多行相关联, 其中显示在操作标记菜单上的菜单项已定义。 
   
  一个形状或页面可以包含多个动作标记。 
   
 如果某个动作标记没有匹配动作，则该动作标记按钮仍会按照定义方式显示和消失，但其菜单为空白。
   
-仅可以在 ShapeSheet 窗口中插入**动作标记**节 （右键单击在 ShapeSheet 窗口中，单击**插入节**，，然后选择**动作标记**复选框）。 要将某个动作标记添加到现有**动作标记**节，右击该行，，然后单击快捷菜单上的**插入行**。 
+您只能在 shapesheet 窗口中插入**Action 标记**部分 (右键单击 shapesheet 窗口, 单击 "**插入内容**", 然后选中 "**操作标记**" 复选框)。 若要将操作标记添加到现有的**操作标记**部分, 请右键单击某一行, 然后单击快捷菜单上的 "**插入行**"。 
   
 

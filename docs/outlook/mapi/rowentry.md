@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd6c0d8e-68cc-4d60-9029-13ed81c816cd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fb0bfaba1ca0a0d7d34096b3b0b1db9863207097
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 243ab1e926171ee66b95cfd8e969cd77e2b31faf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279599"
 ---
 # <a name="rowentry"></a>ROWENTRY
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含的行和通过[IExchangeModifyTable](iexchangemodifytableiunknown.md)界面表中的行执行的操作。 
+包含通过[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口在表的行上执行的行和操作。 
   
 ```cpp
 typedef struct
@@ -38,31 +38,31 @@ typedef struct
 
 **ulRowFlags**
   
-> 对数据执行以下操作之一： 
+> 要对数据执行以下操作之一: 
     
-  - ROW_ADD： 将数据添加到表作为新行。
+  - ROW_ADD: 将数据作为新行添加到表中。
       
-  - ROW_MODIFY： 修改此表中的行。
+  - ROW_MODIFY: 修改表中的此行。
       
-  - ROW_REMOVE： 从表中删除此行。
+  - ROW_REMOVE: 从表中删除此行。
       
-  - ROW_EMPTY： 不要向表中添加行数据。 （行为空。）
+  - ROW_EMPTY: 不要将行数据添加到表中。 (行是空的。)
     
 **cValues**
   
-> **RgPropvals**中的属性值的数目。
+> **rgPropvals**中的属性值的数目。
     
 **rgPropVals**
   
-> [SPropValue](spropvalue.md)结构表示要插入到表的列值的数组。 
+> [SPropValue](spropvalue.md)结构的数组, 这些结构表示要插入到表中的列的值。 
     
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |用于生成的后续**ModifyTable**操作选定的规则列表。  <br/> |
+|RulesDlg  <br/> |CRulesDlg:: GetSelectedItems  <br/> |用于为后续**ModifyTable**操作生成选定规则的列表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
   

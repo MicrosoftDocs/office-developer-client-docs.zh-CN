@@ -7,23 +7,23 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
-description: 本主题中的 XML 示例是在其调用 ISocialPerson::GetFriendsAndColleagues 方法后返回 Outlook Social Connector (OSC) 到一个朋友 XML 字符串。 该示例演示朋友 XML 的两个朋友每分隔 person 元素。 每个朋友社交网络上指定 userID 元素的唯一值。
+description: '本主题中的 XML 示例是在调用 ISocialPerson:: GetFriendsAndColleagues 方法后返回到 Outlook Social Connector (.osc) 的友元 xml 字符串。 该示例显示了两个好友的好友 XML, 每个好友由 person 元素分隔。 每个友元指定社交网络上 userID 元素的唯一值。'
 ms.openlocfilehash: 5dbda1e4439f807ccc6e7abddd0ef654ae801fe0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280957"
 ---
 # <a name="friends-xml-example"></a>好友 XML 示例
 
-本主题中的 XML 示例是在其调用[ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)方法后返回 Outlook Social Connector (OSC) 到一个朋友 XML 字符串。 该示例演示**朋友**XML 的两个朋友每分隔**person**元素。 每个朋友社交网络上指定**userID**元素的唯一值。 
+本主题中的 XML 示例是在调用[ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)方法后返回到 Outlook Social Connector (.osc) 的友元 xml 字符串。 该示例显示了两个好友的**好友**XML, 每个好友由**person**元素分隔。 每个友元指定社交网络上**userID**元素的唯一值。 
   
-**朋友**XML 的其余元素具有很容易理解的名称。 有关这些元素的详细说明，请参阅[朋友的 XML](xml-for-friends.md)。 
+**友元**XML 的其余元素具有自解释的名称。 有关这些元素的详细说明, 请参阅[适用于好友的 XML](xml-for-friends.md)。 
   
 ## <a name="xml-example"></a>XML 示例
 
-下面的示例显示社交网络上的两个人员**朋友**XML。 
+下面的示例展示了社交网络中两个人的**好友**XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -80,8 +80,8 @@ ms.locfileid: "25395208"
 
 ## <a name="see-also"></a>另请参阅
 
-- [OSC 提供程序 XML 示例](osc-provider-xml-examples.md)  
+- [.osc 提供程序 XML 示例](osc-provider-xml-examples.md)  
 - [功能 XML 示例](capabilities-xml-example.md) 
-- [活动源的 XML 示例](activity-feed-xml-example.md) 
-- [Outlook Social Connector 提供程序的 XML 架构](outlook-social-connector-provider-xml-schema.md)
+- [活动源 XML 示例](activity-feed-xml-example.md) 
+- [Outlook Social Connector 提供程序 XML 架构](outlook-social-connector-provider-xml-schema.md)
 

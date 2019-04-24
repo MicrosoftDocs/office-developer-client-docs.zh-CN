@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 28611e442f816e4d091cc6b29e2ee69195a63d09
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 08cf1faa0c3cc4cf61e2253b0026361704fdd0e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269935"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>PidTagCreateTemplates 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含嵌入的 table 对象，其中包含对话框框模板条目标识符。 
+包含嵌入的 table 对象, 其中包含对话框模板条目标识符。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CREATE_TEMPLATES  <br/> |
-|标识符：  <br/> |0x3604  <br/> |
+|标识符:  <br/> |0x3604  <br/> |
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
 ## <a name="remarks"></a>注解
 
-若要了解哪些对象可以创建在容器内的模板，请在该属性调用[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法。 生成的对象是一次性的表，使您可以创建在容器内的所有模板的项标识符。 
+若要了解可以在容器中创建的模板对象, 请对该属性调用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法。 生成的对象是一个一次性表, 该表为您可以在容器中创建的所有模板提供条目标识符。 
   
-若要创建的模板对象，请从一次性表上**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 列的值调用容器对象的**CreateEntry**方法。
+若要创建模板对象, 请从一次性表中的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 列值调用容器对象的**CreateEntry**方法。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

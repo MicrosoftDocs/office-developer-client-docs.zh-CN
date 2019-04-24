@@ -1,32 +1,32 @@
 ---
-title: BevelBottomHeight 单元格（“Bevel Properties”部分）
+title: BevelBottomHeight 单元格 ("棱台属性" 部分)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ff681afd-c058-4fce-855f-5075b8c680c2
-description: 确定形状的底部凹凸效果，以磅为单位的高度。
-ms.openlocfilehash: 4ff422a885dba214559792e17407b349223e9633
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定形状的底部棱台的高度 (以磅为单位)。
+ms.openlocfilehash: f0bed55f5ddeb8676b2b2bc2bf0cddad779b011c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283021"
 ---
-# <a name="bevelbottomheight-cell-bevel-properties-section"></a>BevelBottomHeight 单元格（“Bevel Properties”部分）
+# <a name="bevelbottomheight-cell-bevel-properties-section"></a>BevelBottomHeight 单元格 ("棱台属性" 部分)
 
-确定形状的底部凹凸效果，以磅为单位的高度。 
+确定形状的底部棱台的高度 (以磅为单位)。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**BevelBottomHeight**单元格的引用，请使用： 
+若要从另一个公式按名称获取对**BevelBottomHeight**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | BevelBottomHeight  <br/> |
    
-若要从某个程序按索引获取对**BevelBottomHeight**单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对**BevelBottomHeight**单元格的引用, 请使用带下列参数的**CellsSRC**属性: 
   
 |||
 |:-----|:-----|

@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: 0f4e54dc-80e5-49a7-9703-0225d8133492
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f95c86a137e7253f3445123c23f2dc0d76b6d87a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f7339588bcc6815545e7341eafffe9cf001c1d76
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270026"
 ---
 # <a name="mapiuninitialize"></a>MAPIUninitialize
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-减少引用计数，清理，并删除每个实例全局数据的 MAPI DLL。 
+递减 MAPI DLL 的引用计数、清除和删除每个实例的全局数据。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapix.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
+|标头文件：  <br/> |Mapix  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
    
 ```cpp
 void MAPIUninitialize ( void );
@@ -47,11 +47,11 @@ void MAPIUninitialize ( void );
   
 ## <a name="remarks"></a>注解
 
-客户端应用程序调用**MAPIUninitialize**函数结束与 MAPI，与调用[MAPIInitialize](mapiinitialize.md)函数开始与其进行交互。 调用**MAPIUninitialize**后，可以由客户端不进行任何其他 MAPI 呼叫。 
+客户端应用程序调用**MAPIUninitialize**函数来结束它与 MAPI 的交互, 并在调用[MAPIInitialize](mapiinitialize.md)函数时开始。 在调用**MAPIUninitialize**后, 客户端不能发出其他 MAPI 调用。 
   
- **MAPIUninitialize**减少引用计数，并相应**MAPIInitialize**函数增加引用计数。 因此，一个函数调用次数必须等于到其他呼叫的数目。 
+ **MAPIUninitialize**递减引用计数, 相应的**MAPIInitialize**函数将递增引用计数。 因此, 对一个函数的调用次数必须等于对另一个函数的调用次数。 
   
 > [!NOTE]
-> 不能调用**MAPIInitialize**或从**MAPIUninitialize** Win32 **DllMain**函数或创建或终止线程的任何其他函数中。 有关详细信息，请参阅[使用线程安全对象](using-thread-safe-objects.md)。 
+> 无法从 Win32 **DllMain**函数或任何其他创建或终止线程的函数中调用**MAPIInitialize**或**MAPIUninitialize** 。 有关详细信息, 请参阅[使用线程安全对象](using-thread-safe-objects.md)。 
   
 

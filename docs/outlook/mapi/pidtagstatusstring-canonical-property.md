@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 42cd946c-c55a-4371-99ee-05e2248fdd5f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e8370a613162e3bc8d4395a18e9a7e177255b9b3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9b4510a32fe14e4316a6bcddafcc163ee899436e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278891"
 ---
 # <a name="pidtagstatusstring-canonical-property"></a>PidTagStatusString 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一条消息，指示会话资源的当前状态。 
+包含指示会话资源的当前状态的消息。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_STATUS_STRING，PR_STATUS_STRING_A，PR_STATUS_STRING_W  <br/> |
-|标识符：  <br/> |0x3E08  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_STATUS_STRING、PR_STATUS_STRING_A、PR_STATUS_STRING_W  <br/> |
+|标识符:  <br/> |0x3E08  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
 ## <a name="remarks"></a>注解
 
-这些属性授予服务提供商和 MAPI 能够提供有关状态的会话资源，如集成的通讯簿或特定服务提供商的特定信息。 此属性说明，并提供其他信息的状态代码或**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) 属性。 **PR_STATUS_CODE**是必需的所有状态对象， **PR_STATUS_STRING**和关联的属性是可选的。 传输提供程序不会提供一个值，当 MAPI 后台处理程序提供的默认值。 
+这些属性使服务提供商和 MAPI 能够提供有关会话资源状态的特定信息, 如集成的通讯簿或特定的服务提供商。 此属性说明并提供有关状态代码或**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) 属性的其他信息。 尽管**PR_STATUS_CODE**是所有 STATUS 对象所必需的, 但**PR_STATUS_STRING**和关联属性是可选的。 如果传输提供程序未提供值, 则 MAPI 后台处理程序将提供默认值。 
   
-在与 MAPI 后台处理程序; 远程过程调用的相同端上生成字符串通过共享的内存，而不是跨进程边界被封送传输。
+该字符串在作为 MAPI 后台处理程序的远程过程调用的同一端生成;它通过共享内存传播, 而不是跨进程边界封送。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 20a46c69-d6ae-7d17-f8af-12952867d342
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 82869fa479ebe8a4d7b1881cec5d5c243b7d7957
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 3cb110fdcbbd88e494c44ba2ed73cc26674638ca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270033"
 ---
 # <a name="mapiofflineadviseinfo"></a>MAPIOFFLINE_ADVISEINFO
  
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-向**[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** 注册回调脱机对象提供信息。 
+向**[IMAPIOfflineMgr:: 建议](imapiofflinemgr-advise.md)** 为脱机对象注册回调的信息。 
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅**IMAPIOfflineMgr::Advise**。 
+请参阅**IMAPIOfflineMgr:: Advise**。 
   
 ```cpp
 typedef struct 
@@ -41,19 +41,19 @@ typedef struct
 
 _ulSize_: **MAPIOFFLINE_ADVISEINFO**的大小。 
     
-_ulClientToken_： 定义由客户端有关回调令牌。 它是传递给**[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)** **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** 结构的*ulClientToken*成员。 
+_ulClientToken_: 客户端定义的有关回调的令牌。 它是传递给**[IMAPIOfflineNotify:: NOTIFY](imapiofflinenotify-notify.md)** 的**[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** 结构的*ulClientToken*成员。 
     
-_CallbackType_： 回调进行的类型。
+_CallbackType_: 要进行的回调类型。
     
    -  MAPIOFFLINE_CALLBACK_TYPE_NOTIFY 
     
-   - 回调的类型是由通知。 这是回调的唯一受支持类型。  *pCallback*必须指明**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** 的接口。 
+   - 回调的类型为 "通知"。 这是唯一受支持的回调类型。  *pCallback*必须指示接口**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**。 
     
-_pCallback_： 接口用于回调。 这是**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** 的客户端的实现。 
+_pCallback_: 用于回呼的接口。 这是客户端的**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** 实现。 
     
-_ulAdviseTypes_: advise，如标识的条件的建议的类型。 MAPIOFFLINE_ADVISE_TYPE_STATECHANGE 唯一支持的类型。
+_ulAdviseTypes_: 建议的类型, 由建议的条件标识。 唯一受支持的类型为 MAPIOFFLINE_ADVISE_TYPE_STATECHANGE。
     
-_ulStateMask_： 只有受支持的状态是 MAPIOFFLINE_STATE_ALL。
+_ulStateMask_: 唯一受支持的状态是 MAPIOFFLINE_STATE_ALL。
     
 ## <a name="see-also"></a>另请参阅
 

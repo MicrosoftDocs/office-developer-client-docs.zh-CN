@@ -13,11 +13,11 @@ api_type:
 ms.assetid: eb326037-bc44-4b04-812c-7d1adf854cc9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 042a91132ff34005fc92ae331667c8c1df989d6e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278860"
 ---
 # <a name="pidtagrulename-canonical-property"></a>PidTagRuleName 规范属性
 
@@ -25,12 +25,12 @@ ms.locfileid: "25384519"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定用户可读规则的名称。
+指定该规则的用户可读名称。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RULE_NAME  <br/> |
-|标识符：  <br/> |0x6682  <br/> |
+|标识符:  <br/> |0x6682  <br/> |
 |数据类型：  <br/> |PT_STRING8  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
@@ -38,27 +38,27 @@ ms.locfileid: "25384519"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[毫秒-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> 处理传入的电子邮件服务器上。
+> 在服务器上操纵传入电子邮件。
     
-[[MS OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[毫秒-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> 指定连接到和配置为代理人，以及与邮件和日历项目交互的邮箱，当这些代表其他用户操作的方法。
+> 指定用于连接邮箱和将邮箱配置为代理的方法, 以及当邮件和日历项目代表另一个用户操作时与之进行交互的方法。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

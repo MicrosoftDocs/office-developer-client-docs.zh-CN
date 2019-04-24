@@ -1,19 +1,19 @@
 ---
-title: DeleteRecord 数据宏操作 （访问自定义 web 应用程序）
+title: DeleteRecord 数据宏操作 (Access 自定义 web 应用程序)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f6b68a9a-e04a-476e-a407-b1779fea1953
 description: 可以使用 DeleteRecord 操作删除记录。
-ms.openlocfilehash: 64742d73ec57b94474c8e27822fd3946c7673336
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0e8a658b944e894e4d4014fb3d3d9a583efbee8d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773404"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282113"
 ---
-# <a name="deleterecord-data-macro-action-access-custom-web-app"></a>DeleteRecord 数据宏操作 （访问自定义 web 应用程序）
+# <a name="deleterecord-data-macro-action-access-custom-web-app"></a>DeleteRecord 数据宏操作 (Access 自定义 web 应用程序)
 
 可以使用 **DeleteRecord** 操作删除记录。 
   
@@ -26,11 +26,11 @@ ms.locfileid: "19773404"
   
 |**参数**|**说明**|
 |:-----|:-----|
-|**Record Alias** <br/> |一个字符串，标识要删除的记录。 如果未指定*别名*参数，将删除当前记录。  <br/> |
+|**Record Alias** <br/> |一个用于标识要删除的记录的字符串。 如果未指定*Alias*参数, 则删除当前记录。  <br/> |
    
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
-您可以使用 **LastCreateRecordIdentity** 本地变量来处理在 **CreateRecord** 数据块中创建的最后一条记录。 例如，使用以下语法引用最近创建的记录： 
+您可以使用 **LastCreateRecordIdentity** 本地变量来处理在 **CreateRecord** 数据块中创建的最后一条记录。 例如, 使用以下语法来引用最近创建的记录: 
   
 `[LastCreateRecordIdentity]`
 

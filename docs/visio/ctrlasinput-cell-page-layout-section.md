@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c6fd0aba-7c33-b77f-207b-ba704b3e0756
 description: 确定使用带有控制手柄的形状时哪个形状是父级。该单元格设置绘图页上所有形状的行为。
-ms.openlocfilehash: a87ba7451d73af50de4a110ecdc12b3e23e14d5d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a530c48156043bec0cd58d79aead1a403c17ddce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282906"
 ---
-# <a name="ctrlasinput-cell-page-layout-section"></a>CtrlAsInput 单元格（“Page Layout”部分）
+# <a name="ctrlasinput-cell-page-layout-section"></a>CtrlAsInput 单元格（“Page Layout”内容）
 
 确定使用带有控制手柄的形状时哪个形状是父级。该单元格设置绘图页上所有形状的行为。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 将控制手柄连接到的形状设置为父级。  <br/> |
 | FALSE  <br/> | 默认值。将包含控制手柄的形状设置为父级。  <br/> |
    
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 CtrlAsInput 单元格的引用，请使用： 
   

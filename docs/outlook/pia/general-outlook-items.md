@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4133baf2a1b8c84ab887896e4c563fe0f8ece533
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269954"
 ---
 # <a name="general-outlook-items"></a>常规 Outlook 项
 
@@ -30,7 +30,7 @@ ms.locfileid: "28701471"
 ## <a name="see-also"></a>另请参阅
 
 - [打开并显示 iCalendar 文件内容](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
-- [向项分配类别](how-to-assign-categories-to-an-item.md)
+- [将类别分配给项目](how-to-assign-categories-to-an-item.md)
 - [为检查器实现包装器并在每个检查器中跟踪项级事件](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
 - [我如何...（Outlook 2013 PIA 参考）](how-do-i-outlook-2013-pia-reference.md)
 

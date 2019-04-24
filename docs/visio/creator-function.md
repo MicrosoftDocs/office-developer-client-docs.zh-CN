@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 30384098-09e9-95a3-aefd-9bda3ff1b699
 description: 返回文档属性的“作者”域中的文本。
-ms.openlocfilehash: 9608c1cd4da0d3e60e15aa0b67b4d4ebf80cb802
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d87543391f3880ac42253791e3720bdd57805bdc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282941"
 ---
 # <a name="creator-function"></a>CREATOR 函数
 

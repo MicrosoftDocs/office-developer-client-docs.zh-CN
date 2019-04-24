@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm82251454
 localization_priority: Normal
 ms.assetid: 1265e4d6-58c7-896d-0d13-12944f96cf35
-description: '返回数字的自然对数。该数字必须为正数，否则 LN 将返回错误值 #NUM。'
-ms.openlocfilehash: 0f742159fc4c77196b3aca80893e5f7abd6d70c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: '返回数字的自然对数。 该数字必须为正数，否则 LN 将返回错误值 #NUM。'
+ms.openlocfilehash: 867e487d369a7f042c3be297abd1b29e931ffea6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284170"
 ---
 # <a name="ln-function"></a>LN 函数
 
-返回数字的自然对数。该数字必须为正数，否则 LN 将返回错误值 #NUM。
+返回数字的自然对数。 该数字必须为正数，否则 LN 将返回错误值 #NUM。
   
 ## <a name="syntax"></a>语法
 
-LN (* **数量** *) 
+LN (* **数字** *) 
   
 ### <a name="parameters"></a>参数
 
@@ -36,7 +36,7 @@ Numeric
   
 ## <a name="example"></a>示例
 
-LN(42) 
+LN (42) 
   
 返回 3.7377。 
   

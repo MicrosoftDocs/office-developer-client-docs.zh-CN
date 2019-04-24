@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: 2fc3febb-8c69-4315-a112-a28eee98013d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bbced8412c2c3438c58af74ef072a46606b59ddc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b3818e5e1429c7e2b7d5f7533db733ba29e672c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282689"
 ---
 # <a name="sizedspropproblemarray"></a>SizedSPropProblemArray
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建包含指定的数目的[SPropProblem](spropproblem.md)结构的命名的[SPropProblemArray](spropproblemarray.md)结构。 
+创建一个包含指定数量的[SPropProblem](spropproblem.md)结构的命名[SPropProblemArray](spropproblemarray.md)结构。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**SPropProblemArray** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 SizedSPropProblemArray(_cprob, _name)
@@ -38,15 +38,15 @@ SizedSPropProblemArray(_cprob, _name)
 
 __cprob_
   
-> 要包含在新结构**SPropProblem**结构的计数。 
+> 要包含在新结构中的**SPropProblem**结构的计数。 
     
 __名称_
   
-> 新结构的的名称。
+> 新结构的名称。
     
 ## <a name="remarks"></a>注解
 
-使用**SizedSPropProblemArray**宏来使用显式边界创建属性问题数组。 若要使用新结构的结果从**SizedSPropProblemArray**宏作为指针指向**SPropProblemArray**结构，执行下列转换： 
+使用**SizedSPropProblemArray**宏创建具有显式界限的属性问题数组。 若要使用作为指向**SPropProblemArray**结构的指针的**SizedSPropProblemArray**宏生成的新结构, 请执行以下转换: 
   
 ```cpp
 lpPropProbArray = (LPSPropProblemArray) &SizedSPropProblemArray;
