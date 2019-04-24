@@ -7,47 +7,47 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b60b3634-4c8b-4273-97a0-0a8a5a8a5342
-description: 本主题介绍安装 Outlook Social Connector (OSC) 提供程序时所使用的 Windows 注册表位置。
-ms.openlocfilehash: 3ec594ec94b045d2ceb583144781a5746b945b5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 本主题介绍在安装 Outlook Social Connector (.osc) 提供程序时使用的 Windows 注册表位置。
+ms.openlocfilehash: a5f76850f9bebcba3c2bff31e799a3b012d6b91a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779321"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329209"
 ---
-# <a name="registering-a-provider"></a><span data-ttu-id="64456-103">注册提供程序</span><span class="sxs-lookup"><span data-stu-id="64456-103">Registering a provider</span></span>
+# <a name="registering-a-provider"></a><span data-ttu-id="224ae-103">注册提供程序</span><span class="sxs-lookup"><span data-stu-id="224ae-103">Registering a provider</span></span>
 
-<span data-ttu-id="64456-104">本主题介绍安装 Outlook Social Connector (OSC) 提供程序时所使用的 Windows 注册表位置。</span><span class="sxs-lookup"><span data-stu-id="64456-104">This topic describes the Windows registry locations that are used when you install an Outlook Social Connector (OSC) provider.</span></span>
+<span data-ttu-id="224ae-104">本主题介绍在安装 Outlook Social Connector (.osc) 提供程序时使用的 Windows 注册表位置。</span><span class="sxs-lookup"><span data-stu-id="224ae-104">This topic describes the Windows registry locations that are used when you install an Outlook Social Connector (OSC) provider.</span></span>
   
-## <a name="com-registration"></a><span data-ttu-id="64456-105">COM 注册</span><span class="sxs-lookup"><span data-stu-id="64456-105">COM registration</span></span>
+## <a name="com-registration"></a><span data-ttu-id="224ae-105">COM 注册</span><span class="sxs-lookup"><span data-stu-id="224ae-105">COM registration</span></span>
 
-<span data-ttu-id="64456-106">您必须配置 OSC 提供程序注册安装过程中使用 COM 注册或 regsvr32 的 DLL。</span><span class="sxs-lookup"><span data-stu-id="64456-106">You must configure the OSC provider DLL to register using COM self-registration or regsvr32 during installation.</span></span> <span data-ttu-id="64456-107">COM 注册提供程序 DLL 的注册下的 OSC 提供程序`HKEY_CLASSES_ROOT`注册表配置单元。</span><span class="sxs-lookup"><span data-stu-id="64456-107">COM registration of the provider DLL registers the OSC provider under the `HKEY_CLASSES_ROOT` registry hive.</span></span> 
+<span data-ttu-id="224ae-106">您必须将 .osc 提供程序 DLL 配置为在安装过程中使用 COM 自注册或 regsvr32 进行注册。</span><span class="sxs-lookup"><span data-stu-id="224ae-106">You must configure the OSC provider DLL to register using COM self-registration or regsvr32 during installation.</span></span> <span data-ttu-id="224ae-107">提供程序 DLL 的 COM 注册在`HKEY_CLASSES_ROOT`注册表配置单元下注册 .osc 提供程序。</span><span class="sxs-lookup"><span data-stu-id="224ae-107">COM registration of the provider DLL registers the OSC provider under the `HKEY_CLASSES_ROOT` registry hive.</span></span> 
   
-<span data-ttu-id="64456-108">在托管代码开发 OSC 提供程序具有 COM 可见的提供程序程序集。</span><span class="sxs-lookup"><span data-stu-id="64456-108">An OSC provider developed in managed code has a COM-visible provider assembly.</span></span> <span data-ttu-id="64456-109">提供程序组件，您应使用单独的应用程序域。</span><span class="sxs-lookup"><span data-stu-id="64456-109">You should use a separate application domain for the provider component.</span></span> <span data-ttu-id="64456-110">否则为 OSC 提供程序使用的默认共享应用程序域由其他组件，并提供程序可能不会按预期。</span><span class="sxs-lookup"><span data-stu-id="64456-110">Otherwise, the OSC provider uses the default shared application domain that is used by other components, and the provider may not operate as expected.</span></span>
+<span data-ttu-id="224ae-108">在托管代码中开发的 .osc 提供程序具有 COM 可见的提供程序程序集。</span><span class="sxs-lookup"><span data-stu-id="224ae-108">An OSC provider developed in managed code has a COM-visible provider assembly.</span></span> <span data-ttu-id="224ae-109">应将单独的应用程序域用于提供程序组件。</span><span class="sxs-lookup"><span data-stu-id="224ae-109">You should use a separate application domain for the provider component.</span></span> <span data-ttu-id="224ae-110">否则, .osc 提供程序将使用其他组件使用的默认共享应用程序域, 并且提供程序可能无法按预期运行。</span><span class="sxs-lookup"><span data-stu-id="224ae-110">Otherwise, the OSC provider uses the default shared application domain that is used by other components, and the provider may not operate as expected.</span></span>
   
-## <a name="registering-provider-progid"></a><span data-ttu-id="64456-111">注册提供程序 ProgID</span><span class="sxs-lookup"><span data-stu-id="64456-111">Registering provider ProgID</span></span>
+## <a name="registering-provider-progid"></a><span data-ttu-id="224ae-111">注册提供程序 ProgID</span><span class="sxs-lookup"><span data-stu-id="224ae-111">Registering provider ProgID</span></span>
 
-<span data-ttu-id="64456-112">每个 OSC 提供程序必须注册的编程标识符 (`ProgID`)。</span><span class="sxs-lookup"><span data-stu-id="64456-112">Each OSC provider must register a programmatic identifier (`ProgID`).</span></span> <span data-ttu-id="64456-113">提供程序安装程序可以选择要添加或删除的以下位置之一`ProgID`:</span><span class="sxs-lookup"><span data-stu-id="64456-113">The provider installer can choose one of the following locations to add or remove the `ProgID`:</span></span>
+<span data-ttu-id="224ae-112">每个 .osc 提供程序都必须注册一个`ProgID`编程标识符 ()。</span><span class="sxs-lookup"><span data-stu-id="224ae-112">Each OSC provider must register a programmatic identifier (`ProgID`).</span></span> <span data-ttu-id="224ae-113">提供程序安装程序可以选择以下位置之一来添加或删除`ProgID`:</span><span class="sxs-lookup"><span data-stu-id="224ae-113">The provider installer can choose one of the following locations to add or remove the `ProgID`:</span></span>
   
-- <span data-ttu-id="64456-114">`HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`&ndash;如果提供程序安装仅为当前登录的用户提供程序安装程序应使用此位置。</span><span class="sxs-lookup"><span data-stu-id="64456-114">`HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders` &ndash; Your provider installer should use this location if the provider is installed for only the currently logged-on user.</span></span>
+- <span data-ttu-id="224ae-114">`HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`&ndash;如果仅为当前登录的用户安装了提供程序, 则提供程序安装程序应使用此位置。</span><span class="sxs-lookup"><span data-stu-id="224ae-114">`HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders` &ndash; Your provider installer should use this location if the provider is installed for only the currently logged-on user.</span></span>
     
-- <span data-ttu-id="64456-115">`HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`&ndash;如果提供程序为所有用户的计算机上安装的提供程序安装程序应使用此位置。</span><span class="sxs-lookup"><span data-stu-id="64456-115">`HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders` &ndash; Your provider installer should use this location if the provider is installed for all users on the computer.</span></span>
+- <span data-ttu-id="224ae-115">`HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`&ndash;如果为计算机上的所有用户安装了提供程序, 则提供程序安装程序应使用此位置。</span><span class="sxs-lookup"><span data-stu-id="224ae-115">`HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders` &ndash; Your provider installer should use this location if the provider is installed for all users on the computer.</span></span>
     
-<span data-ttu-id="64456-116">OSC 提供程序查找`ProgID`在上面的位置，除非客户端计算机具有 32 位 Outlook 在 64 位 Windows 操作系统上运行。</span><span class="sxs-lookup"><span data-stu-id="64456-116">The OSC looks for the provider  `ProgID` in the above locations, unless the client computer has 32-bit Outlook running on a 64-bit Windows operating system.</span></span> <span data-ttu-id="64456-117">在这种情况下，提供程序安装程序应选择中的以下位置之一`HKEY_CURRENT_USER`或`HKEY_LOCAL_MACHINE`配置单元：</span><span class="sxs-lookup"><span data-stu-id="64456-117">In such a case, your provider installer should choose one of the following locations in the  `HKEY_CURRENT_USER` or  `HKEY_LOCAL_MACHINE` hive:</span></span> 
+<span data-ttu-id="224ae-116">.osc 在上述位置查找提供`ProgID`程序, 除非客户端计算机在64位 Windows 操作系统上运行32位 Outlook。</span><span class="sxs-lookup"><span data-stu-id="224ae-116">The OSC looks for the provider  `ProgID` in the above locations, unless the client computer has 32-bit Outlook running on a 64-bit Windows operating system.</span></span> <span data-ttu-id="224ae-117">在这种情况下, 提供程序安装程序应选择`HKEY_CURRENT_USER`或`HKEY_LOCAL_MACHINE`配置单元中的以下位置之一:</span><span class="sxs-lookup"><span data-stu-id="224ae-117">In such a case, your provider installer should choose one of the following locations in the  `HKEY_CURRENT_USER` or  `HKEY_LOCAL_MACHINE` hive:</span></span> 
   
 - `HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Office\Outlook\SocialConnector\SocialProviders`
     
 - `HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Office\Outlook\SocialConnector\SocialProviders`
     
-<span data-ttu-id="64456-118">单击即点即用版本的 Office，提供程序安装程序应选择在以下位置之一在 HKEY_CURRENT_USER 或 HKEY_LOCAL_MACHINE 配置单元：</span><span class="sxs-lookup"><span data-stu-id="64456-118">For a Click-to-Run version of Office, your provider installer should choose one of the following locations in the HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE hive:</span></span>
+<span data-ttu-id="224ae-118">对于即点即用版本的 Office, 提供程序安装程序应选择 HKEY_CURRENT_USER 或 HKEY_LOCAL_MACHINE 配置单元中的以下位置之一:</span><span class="sxs-lookup"><span data-stu-id="224ae-118">For a Click-to-Run version of Office, your provider installer should choose one of the following locations in the HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE hive:</span></span>
   
 - `HKEY_CURRENT_USER\Software\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`
     
 - `HKEY_LOCAL_MACHINE\Software\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Outlook\SocialConnector\SocialProviders`
     
-## <a name="see-also"></a><span data-ttu-id="64456-119">另请参阅</span><span class="sxs-lookup"><span data-stu-id="64456-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="224ae-119">另请参阅</span><span class="sxs-lookup"><span data-stu-id="224ae-119">See also</span></span>
 
-- [<span data-ttu-id="64456-120">安装清单</span><span class="sxs-lookup"><span data-stu-id="64456-120">Installation Checklist</span></span>](installation-checklist.md)
-- [<span data-ttu-id="64456-121">快速学习开发提供程序的步骤</span><span class="sxs-lookup"><span data-stu-id="64456-121">Quick Steps for Learning to Develop a Provider</span></span>](quick-steps-for-learning-to-develop-a-provider.md)
-- [<span data-ttu-id="64456-122">部署提供程序</span><span class="sxs-lookup"><span data-stu-id="64456-122">Deploying a Provider</span></span>](deploying-a-provider.md)
+- [<span data-ttu-id="224ae-120">安装清单</span><span class="sxs-lookup"><span data-stu-id="224ae-120">Installation Checklist</span></span>](installation-checklist.md)
+- [<span data-ttu-id="224ae-121">学习开发提供程序的快速步骤</span><span class="sxs-lookup"><span data-stu-id="224ae-121">Quick Steps for Learning to Develop a Provider</span></span>](quick-steps-for-learning-to-develop-a-provider.md)
+- [<span data-ttu-id="224ae-122">部署提供程序</span><span class="sxs-lookup"><span data-stu-id="224ae-122">Deploying a Provider</span></span>](deploying-a-provider.md)
 

@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e83e409c-f201-df9d-5e30-879adf15318d
-description: 跳过指定的数量的枚举中的帐户。
-ms.openlocfilehash: 2791f1204cedf5e91d13923e50dfc45b981b7e26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 在枚举数中跳过指定数量的帐户。
+ms.openlocfilehash: d4063b0ff4852e6932cf50789eea3caa81d4d586
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321985"
 ---
-# <a name="iolkenumskip"></a><span data-ttu-id="d678c-103">IOlkEnum::Skip</span><span class="sxs-lookup"><span data-stu-id="d678c-103">IOlkEnum::Skip</span></span>
+# <a name="iolkenumskip"></a><span data-ttu-id="a9575-103">IOlkEnum::Skip</span><span class="sxs-lookup"><span data-stu-id="a9575-103">IOlkEnum::Skip</span></span>
 
-<span data-ttu-id="d678c-104">跳过指定的数量的枚举中的帐户。</span><span class="sxs-lookup"><span data-stu-id="d678c-104">Skips a specified number of accounts in the enumerator.</span></span>
+<span data-ttu-id="a9575-104">在枚举数中跳过指定数量的帐户。</span><span class="sxs-lookup"><span data-stu-id="a9575-104">Skips a specified number of accounts in the enumerator.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="d678c-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="d678c-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="a9575-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="a9575-105">Quick info</span></span>
 
-<span data-ttu-id="d678c-106">请参阅[IOlkEnum](iolkenum.md)。</span><span class="sxs-lookup"><span data-stu-id="d678c-106">See [IOlkEnum](iolkenum.md).</span></span>
+<span data-ttu-id="a9575-106">请参阅[IOlkEnum](iolkenum.md)。</span><span class="sxs-lookup"><span data-stu-id="a9575-106">See [IOlkEnum](iolkenum.md).</span></span>
   
 ```cpp
 HRESULT IOlkEnum::Skip(  
@@ -28,19 +28,19 @@ HRESULT IOlkEnum::Skip(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d678c-107">参数</span><span class="sxs-lookup"><span data-stu-id="d678c-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a9575-107">参数</span><span class="sxs-lookup"><span data-stu-id="a9575-107">Parameters</span></span>
 
-<span data-ttu-id="d678c-108">_cSkip_</span><span class="sxs-lookup"><span data-stu-id="d678c-108">_cSkip_</span></span>
+<span data-ttu-id="a9575-108">_cSkip_</span><span class="sxs-lookup"><span data-stu-id="a9575-108">_cSkip_</span></span>
   
-> <span data-ttu-id="d678c-109">[in]要跳过的帐户数。</span><span class="sxs-lookup"><span data-stu-id="d678c-109">[in] The number of accounts to be skipped.</span></span>
+> <span data-ttu-id="a9575-109">实时要跳过的帐户数。</span><span class="sxs-lookup"><span data-stu-id="a9575-109">[in] The number of accounts to be skipped.</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="d678c-110">返回值</span><span class="sxs-lookup"><span data-stu-id="d678c-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="a9575-110">返回值</span><span class="sxs-lookup"><span data-stu-id="a9575-110">Return values</span></span>
 
-<span data-ttu-id="d678c-111">如果该调用成功，则返回 S_OK否则为一个错误代码。</span><span class="sxs-lookup"><span data-stu-id="d678c-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="a9575-111">如果该调用成功，则返回 S_OK否则为一个错误代码。</span><span class="sxs-lookup"><span data-stu-id="a9575-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="d678c-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d678c-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a9575-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a9575-112">See also</span></span>
 
-- [<span data-ttu-id="d678c-113">IOlkEnum::GetCount</span><span class="sxs-lookup"><span data-stu-id="d678c-113">IOlkEnum::GetCount</span></span>](iolkenum-getcount.md) 
-- [<span data-ttu-id="d678c-114">IOlkEnum::GetNext</span><span class="sxs-lookup"><span data-stu-id="d678c-114">IOlkEnum::GetNext</span></span>](iolkenum-getnext.md)  
-- [<span data-ttu-id="d678c-115">IOlkEnum::Reset</span><span class="sxs-lookup"><span data-stu-id="d678c-115">IOlkEnum::Reset</span></span>](iolkenum-reset.md)
+- [<span data-ttu-id="a9575-113">IOlkEnum::GetCount</span><span class="sxs-lookup"><span data-stu-id="a9575-113">IOlkEnum::GetCount</span></span>](iolkenum-getcount.md) 
+- [<span data-ttu-id="a9575-114">IOlkEnum::GetNext</span><span class="sxs-lookup"><span data-stu-id="a9575-114">IOlkEnum::GetNext</span></span>](iolkenum-getnext.md)  
+- [<span data-ttu-id="a9575-115">IOlkEnum::Reset</span><span class="sxs-lookup"><span data-stu-id="a9575-115">IOlkEnum::Reset</span></span>](iolkenum-reset.md)
 

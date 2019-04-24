@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 3ede1a35-4acc-4b8f-a1bd-027f35798a37
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7b29eab30677dae7f720cecd9fde71e8bbbf752c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f2669f703827924493387c4beac0b64b25672860
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329573"
 ---
-# <a name="validateparms"></a><span data-ttu-id="470fd-103">ValidateParms</span><span class="sxs-lookup"><span data-stu-id="470fd-103">ValidateParms</span></span>
+# <a name="validateparms"></a><span data-ttu-id="7c90c-103">ValidateParms</span><span class="sxs-lookup"><span data-stu-id="7c90c-103">ValidateParms</span></span>
 
   
   
-<span data-ttu-id="470fd-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="470fd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7c90c-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7c90c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="470fd-105">调用检查参数客户端应用程序已传递给服务提供商的内部函数。</span><span class="sxs-lookup"><span data-stu-id="470fd-105">Calls an internal function to check the parameters client applications have passed to service providers.</span></span> 
+<span data-ttu-id="7c90c-105">调用内部函数以检查客户端应用程序已传递给服务提供程序的参数。</span><span class="sxs-lookup"><span data-stu-id="7c90c-105">Calls an internal function to check the parameters client applications have passed to service providers.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="470fd-106">头文件：</span><span class="sxs-lookup"><span data-stu-id="470fd-106">Header file:</span></span>  <br/> |<span data-ttu-id="470fd-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="470fd-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="470fd-108">通过实现：</span><span class="sxs-lookup"><span data-stu-id="470fd-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="470fd-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="470fd-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="470fd-110">调用：</span><span class="sxs-lookup"><span data-stu-id="470fd-110">Called by:</span></span>  <br/> |<span data-ttu-id="470fd-111">服务提供商</span><span class="sxs-lookup"><span data-stu-id="470fd-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="7c90c-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="7c90c-106">Header file:</span></span>  <br/> |<span data-ttu-id="7c90c-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="7c90c-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="7c90c-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="7c90c-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="7c90c-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="7c90c-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="7c90c-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="7c90c-110">Called by:</span></span>  <br/> |<span data-ttu-id="7c90c-111">服务提供程序</span><span class="sxs-lookup"><span data-stu-id="7c90c-111">Service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT ValidateParms(
@@ -40,59 +40,59 @@ HRESULT ValidateParms(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="470fd-112">参数</span><span class="sxs-lookup"><span data-stu-id="470fd-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7c90c-112">参数</span><span class="sxs-lookup"><span data-stu-id="7c90c-112">Parameters</span></span>
 
- <span data-ttu-id="470fd-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="470fd-113">_eMethod_</span></span>
+ <span data-ttu-id="7c90c-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="7c90c-113">_eMethod_</span></span>
   
-> <span data-ttu-id="470fd-114">[in]通过枚举，指定要验证的方法。</span><span class="sxs-lookup"><span data-stu-id="470fd-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
+> <span data-ttu-id="7c90c-114">实时通过枚举指定要验证的方法。</span><span class="sxs-lookup"><span data-stu-id="7c90c-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
     
- <span data-ttu-id="470fd-115">_第一_</span><span class="sxs-lookup"><span data-stu-id="470fd-115">_First_</span></span>
+ <span data-ttu-id="7c90c-115">_第一_</span><span class="sxs-lookup"><span data-stu-id="7c90c-115">_First_</span></span>
   
-> <span data-ttu-id="470fd-116">[in]堆栈上第一个参数的指针。</span><span class="sxs-lookup"><span data-stu-id="470fd-116">[in] Pointer to the first argument on the stack.</span></span>
+> <span data-ttu-id="7c90c-116">实时指向堆栈上第一个参数的指针。</span><span class="sxs-lookup"><span data-stu-id="7c90c-116">[in] Pointer to the first argument on the stack.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="470fd-117">返回值</span><span class="sxs-lookup"><span data-stu-id="470fd-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7c90c-117">返回值</span><span class="sxs-lookup"><span data-stu-id="7c90c-117">Return value</span></span>
 
-<span data-ttu-id="470fd-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="470fd-118">S_OK</span></span> 
+<span data-ttu-id="7c90c-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="7c90c-118">S_OK</span></span> 
   
-> <span data-ttu-id="470fd-119">所有参数都是有效的。</span><span class="sxs-lookup"><span data-stu-id="470fd-119">All of the parameters are valid.</span></span> 
+> <span data-ttu-id="7c90c-119">所有参数都有效。</span><span class="sxs-lookup"><span data-stu-id="7c90c-119">All of the parameters are valid.</span></span> 
     
-<span data-ttu-id="470fd-120">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="470fd-120">MAPI_E_CALL_FAILED</span></span> 
+<span data-ttu-id="7c90c-120">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="7c90c-120">MAPI_E_CALL_FAILED</span></span> 
   
-> <span data-ttu-id="470fd-121">一个或多个参数不是有效的。</span><span class="sxs-lookup"><span data-stu-id="470fd-121">One or more of the parameters are not valid.</span></span>
+> <span data-ttu-id="7c90c-121">一个或多个参数无效。</span><span class="sxs-lookup"><span data-stu-id="7c90c-121">One or more of the parameters are not valid.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="470fd-122">注解</span><span class="sxs-lookup"><span data-stu-id="470fd-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7c90c-122">注解</span><span class="sxs-lookup"><span data-stu-id="7c90c-122">Remarks</span></span>
 
-<span data-ttu-id="470fd-123">MAPI 和服务之间传递参数提供程序将假定它们正确，且经过仅调试验证与[CheckParms](checkparms.md)宏。</span><span class="sxs-lookup"><span data-stu-id="470fd-123">Parameters passed between MAPI and service providers are assumed to be correct and undergo only debug validation with the [CheckParms](checkparms.md) macro.</span></span> <span data-ttu-id="470fd-124">提供程序应检查所有参数中传递的客户端应用程序，但客户端应假定 MAPI 和提供程序参数正确。</span><span class="sxs-lookup"><span data-stu-id="470fd-124">Providers should check all parameters passed in by client applications, but clients should assume that MAPI and provider parameters are correct.</span></span> <span data-ttu-id="470fd-125">使用**HR_FAILED**宏来测试返回值。</span><span class="sxs-lookup"><span data-stu-id="470fd-125">Use the **HR_FAILED** macro to test return values.</span></span> 
+<span data-ttu-id="7c90c-123">假定在 MAPI 和服务提供程序之间传递的参数是正确的, 并且仅使用[CheckParms](checkparms.md)宏进行调试验证。</span><span class="sxs-lookup"><span data-stu-id="7c90c-123">Parameters passed between MAPI and service providers are assumed to be correct and undergo only debug validation with the [CheckParms](checkparms.md) macro.</span></span> <span data-ttu-id="7c90c-124">提供程序应检查客户端应用程序传入的所有参数, 但客户端应假定 MAPI 和提供程序参数正确。</span><span class="sxs-lookup"><span data-stu-id="7c90c-124">Providers should check all parameters passed in by client applications, but clients should assume that MAPI and provider parameters are correct.</span></span> <span data-ttu-id="7c90c-125">使用**HR_FAILED**宏可测试返回值。</span><span class="sxs-lookup"><span data-stu-id="7c90c-125">Use the **HR_FAILED** macro to test return values.</span></span> 
   
- <span data-ttu-id="470fd-126">**ValidateParms**称为根据调用的代码是否为 C 或 c + + 的不同。</span><span class="sxs-lookup"><span data-stu-id="470fd-126">**ValidateParms** is called differently depending on whether the calling code is C or C++.</span></span> <span data-ttu-id="470fd-127">C + + 将传递到每个方法的调用，以将成为显式 c，是对象的地址称为，_此_隐式参数。</span><span class="sxs-lookup"><span data-stu-id="470fd-127">C++ passes an implicit parameter known as  _this_ to each method call, which becomes explicit in C and is the address of the object.</span></span> <span data-ttu-id="470fd-128">第一个参数， _eMethod_，是从接口和正在进行验证的方法进行的枚举和告知所期望堆栈上找到的参数。</span><span class="sxs-lookup"><span data-stu-id="470fd-128">The first parameter,  _eMethod_, is an enumerator made from the interface and method being validated and tells what parameters to expect to find on the stack.</span></span> <span data-ttu-id="470fd-129">第二个参数是不同的 C 和 c + +。</span><span class="sxs-lookup"><span data-stu-id="470fd-129">The second parameter is different for C and C++.</span></span> <span data-ttu-id="470fd-130">在 c + + 调用_第一个_，并且正在进行验证的方法的第一个参数。</span><span class="sxs-lookup"><span data-stu-id="470fd-130">In C++ it is called  _First_, and it is the first parameter to the method being validated.</span></span> <span data-ttu-id="470fd-131">C 语言， _ppThis_，第二个参数是第一个参数方法它始终是对象指针的地址。</span><span class="sxs-lookup"><span data-stu-id="470fd-131">The second parameter for the C language,  _ppThis_, is the address of the first parameter to the method which is always an object pointer.</span></span> <span data-ttu-id="470fd-132">在这两种情况下，第二个参数提供的方法的参数列表的开头的地址和基于_eMethod_、 下移堆栈和验证参数。</span><span class="sxs-lookup"><span data-stu-id="470fd-132">In both cases, the second parameter gives the address of the beginning of the method's parameter list, and based on  _eMethod_, moves down the stack and validates the parameters.</span></span> 
+ <span data-ttu-id="7c90c-126">根据调用代码是 c 还是 c + +, 将以不同的方式调用**ValidateParms** 。</span><span class="sxs-lookup"><span data-stu-id="7c90c-126">**ValidateParms** is called differently depending on whether the calling code is C or C++.</span></span> <span data-ttu-id="7c90c-127">c + + 将一个称为_this_的隐式参数传递给每个方法调用, 这将在 C 中变为显式, 而是对象的地址。</span><span class="sxs-lookup"><span data-stu-id="7c90c-127">C++ passes an implicit parameter known as  _this_ to each method call, which becomes explicit in C and is the address of the object.</span></span> <span data-ttu-id="7c90c-128">第一个参数_eMethod_是从要验证的接口和方法中获取的枚举器, 它指示要在堆栈上查找的参数。</span><span class="sxs-lookup"><span data-stu-id="7c90c-128">The first parameter,  _eMethod_, is an enumerator made from the interface and method being validated and tells what parameters to expect to find on the stack.</span></span> <span data-ttu-id="7c90c-129">第二个参数对于 C 和 c + + 是不同的。</span><span class="sxs-lookup"><span data-stu-id="7c90c-129">The second parameter is different for C and C++.</span></span> <span data-ttu-id="7c90c-130">在 c + + 中,_首先_调用它, 并且是要验证的方法的第一个参数。</span><span class="sxs-lookup"><span data-stu-id="7c90c-130">In C++ it is called  _First_, and it is the first parameter to the method being validated.</span></span> <span data-ttu-id="7c90c-131">C 语言_ppThis_的第二个参数是方法的第一个参数的地址, 它始终是对象指针。</span><span class="sxs-lookup"><span data-stu-id="7c90c-131">The second parameter for the C language,  _ppThis_, is the address of the first parameter to the method which is always an object pointer.</span></span> <span data-ttu-id="7c90c-132">在这两种情况下, 第二个参数都提供方法的参数列表开头的地址, 基于_eMethod_, 在堆栈中向下移动并验证参数。</span><span class="sxs-lookup"><span data-stu-id="7c90c-132">In both cases, the second parameter gives the address of the beginning of the method's parameter list, and based on  _eMethod_, moves down the stack and validates the parameters.</span></span> 
   
-<span data-ttu-id="470fd-133">提供程序实现**IMAPIProp** **IMAPITable**等公共接口应始终检查以确保一致性使跨所有提供商使用**ValidateParms**函数的参数。</span><span class="sxs-lookup"><span data-stu-id="470fd-133">Providers implementing common interfaces such as **IMAPITable** and **IMAPIProp** should always check parameters using the **ValidateParms** function in order to make sure consistency across all providers.</span></span> <span data-ttu-id="470fd-134">对于某些复杂参数类型，而是根据使用已定义其他参数验证函数。</span><span class="sxs-lookup"><span data-stu-id="470fd-134">Additional parameter validation functions have been defined for some complex parameter types to be used instead as appropriate.</span></span> <span data-ttu-id="470fd-135">请参阅以下功能的参考主题：</span><span class="sxs-lookup"><span data-stu-id="470fd-135">See the reference topics for the following functions:</span></span> 
+<span data-ttu-id="7c90c-133">实现通用接口 (如**IMAPITable**和**IMAPIProp** ) 的提供程序应始终使用**ValidateParms**函数检查参数, 以确保所有提供程序的一致性。</span><span class="sxs-lookup"><span data-stu-id="7c90c-133">Providers implementing common interfaces such as **IMAPITable** and **IMAPIProp** should always check parameters using the **ValidateParms** function in order to make sure consistency across all providers.</span></span> <span data-ttu-id="7c90c-134">已为某些复杂参数类型定义了其他参数验证函数, 这些函数将根据需要改用。</span><span class="sxs-lookup"><span data-stu-id="7c90c-134">Additional parameter validation functions have been defined for some complex parameter types to be used instead as appropriate.</span></span> <span data-ttu-id="7c90c-135">请参阅以下函数的参考主题:</span><span class="sxs-lookup"><span data-stu-id="7c90c-135">See the reference topics for the following functions:</span></span> 
   
-- [<span data-ttu-id="470fd-136">FBadColumnSet</span><span class="sxs-lookup"><span data-stu-id="470fd-136">FBadColumnSet</span></span>](fbadcolumnset.md)
+- [<span data-ttu-id="7c90c-136">FBadColumnSet</span><span class="sxs-lookup"><span data-stu-id="7c90c-136">FBadColumnSet</span></span>](fbadcolumnset.md)
     
-- [<span data-ttu-id="470fd-137">FBadEntryList</span><span class="sxs-lookup"><span data-stu-id="470fd-137">FBadEntryList</span></span>](fbadentrylist.md)
+- [<span data-ttu-id="7c90c-137">FBadEntryList</span><span class="sxs-lookup"><span data-stu-id="7c90c-137">FBadEntryList</span></span>](fbadentrylist.md)
     
-- [<span data-ttu-id="470fd-138">FBadProp</span><span class="sxs-lookup"><span data-stu-id="470fd-138">FBadProp</span></span>](fbadprop.md)
+- [<span data-ttu-id="7c90c-138">FBadProp</span><span class="sxs-lookup"><span data-stu-id="7c90c-138">FBadProp</span></span>](fbadprop.md)
     
-- [<span data-ttu-id="470fd-139">FBadProp</span><span class="sxs-lookup"><span data-stu-id="470fd-139">FBadProp</span></span>](fbadprop.md)
+- [<span data-ttu-id="7c90c-139">FBadProp</span><span class="sxs-lookup"><span data-stu-id="7c90c-139">FBadProp</span></span>](fbadprop.md)
     
-- [<span data-ttu-id="470fd-140">FBadRestriction</span><span class="sxs-lookup"><span data-stu-id="470fd-140">FBadRestriction</span></span>](fbadrestriction.md)
+- [<span data-ttu-id="7c90c-140">FBadRestriction</span><span class="sxs-lookup"><span data-stu-id="7c90c-140">FBadRestriction</span></span>](fbadrestriction.md)
     
-- [<span data-ttu-id="470fd-141">FBadRestriction</span><span class="sxs-lookup"><span data-stu-id="470fd-141">FBadRestriction</span></span>](fbadrestriction.md)
+- [<span data-ttu-id="7c90c-141">FBadRestriction</span><span class="sxs-lookup"><span data-stu-id="7c90c-141">FBadRestriction</span></span>](fbadrestriction.md)
     
-- [<span data-ttu-id="470fd-142">FBadRglpszW</span><span class="sxs-lookup"><span data-stu-id="470fd-142">FBadRglpszW</span></span>](fbadrglpszw.md)
+- [<span data-ttu-id="7c90c-142">FBadRglpszW</span><span class="sxs-lookup"><span data-stu-id="7c90c-142">FBadRglpszW</span></span>](fbadrglpszw.md)
     
-- [<span data-ttu-id="470fd-143">FBadRow</span><span class="sxs-lookup"><span data-stu-id="470fd-143">FBadRow</span></span>](fbadrow.md)
+- [<span data-ttu-id="7c90c-143">FBadRow</span><span class="sxs-lookup"><span data-stu-id="7c90c-143">FBadRow</span></span>](fbadrow.md)
     
-- [<span data-ttu-id="470fd-144">FBadRowSet</span><span class="sxs-lookup"><span data-stu-id="470fd-144">FBadRowSet</span></span>](fbadrowset.md)
+- [<span data-ttu-id="7c90c-144">FBadRowSet</span><span class="sxs-lookup"><span data-stu-id="7c90c-144">FBadRowSet</span></span>](fbadrowset.md)
     
-- [<span data-ttu-id="470fd-145">FBadSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="470fd-145">FBadSortOrderSet</span></span>](fbadsortorderset.md)
+- [<span data-ttu-id="7c90c-145">FBadSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="7c90c-145">FBadSortOrderSet</span></span>](fbadsortorderset.md)
     
-<span data-ttu-id="470fd-146">继承的方法将相同参数验证用作它们所继承的接口。</span><span class="sxs-lookup"><span data-stu-id="470fd-146">Inherited methods use the same parameter validation as the interface from which they inherit.</span></span> <span data-ttu-id="470fd-147">例如，检查**IMessage**和**IMAPIProp**参数应是相同。</span><span class="sxs-lookup"><span data-stu-id="470fd-147">For example, the parameter checking for **IMessage** and **IMAPIProp** should be the same.</span></span> 
+<span data-ttu-id="7c90c-146">继承的方法使用与它们继承的接口相同的参数验证。</span><span class="sxs-lookup"><span data-stu-id="7c90c-146">Inherited methods use the same parameter validation as the interface from which they inherit.</span></span> <span data-ttu-id="7c90c-147">例如, **IMessage**和**IMAPIProp**的参数检查应相同。</span><span class="sxs-lookup"><span data-stu-id="7c90c-147">For example, the parameter checking for **IMessage** and **IMAPIProp** should be the same.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="470fd-148">另请参阅</span><span class="sxs-lookup"><span data-stu-id="470fd-148">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7c90c-148">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7c90c-148">See also</span></span>
 
 
 
-[<span data-ttu-id="470fd-149">UlValidateParms</span><span class="sxs-lookup"><span data-stu-id="470fd-149">UlValidateParms</span></span>](ulvalidateparms.md)
+[<span data-ttu-id="7c90c-149">UlValidateParms</span><span class="sxs-lookup"><span data-stu-id="7c90c-149">UlValidateParms</span></span>](ulvalidateparms.md)
 

@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 194d5beb-c705-f567-84de-8305c41081a8
 description: 确定以绘图单位表示的形状的高度。
-ms.openlocfilehash: c9f6282e9a2be161a4338043925d88cee672d5ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f08fec0ec09e4ba77296495defc91b0f1f3a4c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329986"
 ---
-# <a name="height-cell-shape-transform-section"></a><span data-ttu-id="8e957-103">Height 单元格（“Shape Transform”部分）</span><span class="sxs-lookup"><span data-stu-id="8e957-103">Height Cell (Shape Transform Section)</span></span>
+# <a name="height-cell-shape-transform-section"></a><span data-ttu-id="44286-103">Height 单元格（“Shape Transform”内容）</span><span class="sxs-lookup"><span data-stu-id="44286-103">Height Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="8e957-104">确定以绘图单位表示的形状的高度。</span><span class="sxs-lookup"><span data-stu-id="8e957-104">Determines the height of the shape in drawing units.</span></span>
+<span data-ttu-id="44286-104">确定以绘图单位表示的形状的高度。</span><span class="sxs-lookup"><span data-stu-id="44286-104">Determines the height of the shape in drawing units.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="8e957-105">注释</span><span class="sxs-lookup"><span data-stu-id="8e957-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="44286-105">注解</span><span class="sxs-lookup"><span data-stu-id="44286-105">Remarks</span></span>
 
-<span data-ttu-id="8e957-106">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Height 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="8e957-106">To get a reference to the Height cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="44286-106">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Height 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="44286-106">To get a reference to the Height cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="8e957-107">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="8e957-107">Cell name:</span></span>  <br/> | <span data-ttu-id="8e957-108">Height</span><span class="sxs-lookup"><span data-stu-id="8e957-108">Height</span></span>  <br/> |
+| <span data-ttu-id="44286-107">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="44286-107">Cell name:</span></span>  <br/> | <span data-ttu-id="44286-108">Height</span><span class="sxs-lookup"><span data-stu-id="44286-108">Height</span></span>  <br/> |
    
-<span data-ttu-id="8e957-109">要从某个程序按索引获取对 Height 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="8e957-109">To get a reference to the Height cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="44286-109">要从某个程序按索引获取对 Height 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="44286-109">To get a reference to the Height cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="8e957-110">内容索引：</span><span class="sxs-lookup"><span data-stu-id="8e957-110">Section index:</span></span>  <br/> |<span data-ttu-id="8e957-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="8e957-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="8e957-112">行索引：</span><span class="sxs-lookup"><span data-stu-id="8e957-112">Row index:</span></span>  <br/> |<span data-ttu-id="8e957-113">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="8e957-113">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="8e957-114">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="8e957-114">Cell index:</span></span>  <br/> |<span data-ttu-id="8e957-115">**visXFormHeight**</span><span class="sxs-lookup"><span data-stu-id="8e957-115">**visXFormHeight**</span></span> <br/> |
+| <span data-ttu-id="44286-110">内容索引：</span><span class="sxs-lookup"><span data-stu-id="44286-110">Section index:</span></span>  <br/> |<span data-ttu-id="44286-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="44286-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="44286-112">行索引：</span><span class="sxs-lookup"><span data-stu-id="44286-112">Row index:</span></span>  <br/> |<span data-ttu-id="44286-113">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="44286-113">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="44286-114">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="44286-114">Cell index:</span></span>  <br/> |<span data-ttu-id="44286-115">**visXFormHeight**</span><span class="sxs-lookup"><span data-stu-id="44286-115">**visXFormHeight**</span></span> <br/> |
    
 

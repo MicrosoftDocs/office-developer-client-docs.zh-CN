@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 832e2c18-ddba-4d18-a391-710d21fe23e6
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 8b7b1db5bcc718858b01f122f53406c885998741
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 2444ea7e05367423e7920be3a871c2ab68aad76d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328998"
 ---
-# <a name="imapitablegetlasterror"></a><span data-ttu-id="59c9f-103">IMAPITable::GetLastError</span><span class="sxs-lookup"><span data-stu-id="59c9f-103">IMAPITable::GetLastError</span></span>
+# <a name="imapitablegetlasterror"></a><span data-ttu-id="28139-103">IMAPITable::GetLastError</span><span class="sxs-lookup"><span data-stu-id="28139-103">IMAPITable::GetLastError</span></span>
 
   
   
-<span data-ttu-id="59c9f-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="59c9f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="28139-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="28139-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="59c9f-105">返回[MAPIERROR](mapierror.md)结构包含有关在表格的上一个错误。</span><span class="sxs-lookup"><span data-stu-id="59c9f-105">Returns a [MAPIERROR](mapierror.md) structure containing information about the previous error on the table.</span></span> 
+<span data-ttu-id="28139-105">返回一个[MAPIERROR](mapierror.md)结构, 其中包含有关表格上一个错误的信息。</span><span class="sxs-lookup"><span data-stu-id="28139-105">Returns a [MAPIERROR](mapierror.md) structure containing information about the previous error on the table.</span></span> 
   
 ```cpp
 HRESULT GetLastError(
@@ -35,55 +35,55 @@ LPMAPIERROR FAR * lppMAPIError
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="59c9f-106">参数</span><span class="sxs-lookup"><span data-stu-id="59c9f-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="28139-106">参数</span><span class="sxs-lookup"><span data-stu-id="28139-106">Parameters</span></span>
 
- <span data-ttu-id="59c9f-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="59c9f-107">_hResult_</span></span>
+ <span data-ttu-id="28139-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="28139-107">_hResult_</span></span>
   
-> <span data-ttu-id="59c9f-108">[in]HRESULT 包含在前面的方法调用中生成错误。</span><span class="sxs-lookup"><span data-stu-id="59c9f-108">[in] HRESULT containing the error generated in the previous method call.</span></span>
+> <span data-ttu-id="28139-108">实时HRESULT 包含在上一方法调用中生成的错误。</span><span class="sxs-lookup"><span data-stu-id="28139-108">[in] HRESULT containing the error generated in the previous method call.</span></span>
     
- <span data-ttu-id="59c9f-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="59c9f-109">_ulFlags_</span></span>
+ <span data-ttu-id="28139-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="28139-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="59c9f-110">[in]位掩码的标志，控制返回的字符串的类型。</span><span class="sxs-lookup"><span data-stu-id="59c9f-110">[in] Bitmask of flags that controls the type of the returned strings.</span></span> <span data-ttu-id="59c9f-111">可以设置以下标记：</span><span class="sxs-lookup"><span data-stu-id="59c9f-111">The following flag can be set:</span></span>
+> <span data-ttu-id="28139-110">实时用于控制返回的字符串的类型的标志的位掩码。</span><span class="sxs-lookup"><span data-stu-id="28139-110">[in] Bitmask of flags that controls the type of the returned strings.</span></span> <span data-ttu-id="28139-111">可以设置以下标志:</span><span class="sxs-lookup"><span data-stu-id="28139-111">The following flag can be set:</span></span>
     
-<span data-ttu-id="59c9f-112">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="59c9f-112">MAPI_UNICODE</span></span> 
+<span data-ttu-id="28139-112">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="28139-112">MAPI_UNICODE</span></span> 
   
-> <span data-ttu-id="59c9f-113">返回_lppMAPIError_参数中的**MAPIERROR**结构中的字符串采用 Unicode 格式。</span><span class="sxs-lookup"><span data-stu-id="59c9f-113">The strings in the **MAPIERROR** structure returned in the  _lppMAPIError_ parameter are in Unicode format.</span></span> <span data-ttu-id="59c9f-114">如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。</span><span class="sxs-lookup"><span data-stu-id="59c9f-114">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span> 
+> <span data-ttu-id="28139-113">在_lppMAPIError_参数中返回的**MAPIERROR**结构中的字符串采用 Unicode 格式。</span><span class="sxs-lookup"><span data-stu-id="28139-113">The strings in the **MAPIERROR** structure returned in the  _lppMAPIError_ parameter are in Unicode format.</span></span> <span data-ttu-id="28139-114">如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。</span><span class="sxs-lookup"><span data-stu-id="28139-114">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span> 
     
- <span data-ttu-id="59c9f-115">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="59c9f-115">_lppMAPIError_</span></span>
+ <span data-ttu-id="28139-115">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="28139-115">_lppMAPIError_</span></span>
   
-> <span data-ttu-id="59c9f-116">[输出]为包含用于错误的版本、 组件及上下文信息的返回**MAPIERROR**结构指针的指针。</span><span class="sxs-lookup"><span data-stu-id="59c9f-116">[out] Pointer to a pointer to the returned **MAPIERROR** structure containing version, component, and context information for the error.</span></span> <span data-ttu-id="59c9f-117">_LppMAPIError_参数可以设置为 NULL，如果不能提供一个**MAPIERROR**相应的信息。</span><span class="sxs-lookup"><span data-stu-id="59c9f-117">The  _lppMAPIError_ parameter can be set to NULL if a **MAPIERROR** structure with appropriate information cannot be provided.</span></span> 
+> <span data-ttu-id="28139-116">排除指向指向包含错误的版本、组件和上下文信息的返回的**MAPIERROR**结构的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="28139-116">[out] Pointer to a pointer to the returned **MAPIERROR** structure containing version, component, and context information for the error.</span></span> <span data-ttu-id="28139-117">如果无法提供具有相应信息的**MAPIERROR**结构, 则可以将_lppMAPIError_参数设置为 NULL。</span><span class="sxs-lookup"><span data-stu-id="28139-117">The  _lppMAPIError_ parameter can be set to NULL if a **MAPIERROR** structure with appropriate information cannot be provided.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="59c9f-118">返回值</span><span class="sxs-lookup"><span data-stu-id="59c9f-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="28139-118">返回值</span><span class="sxs-lookup"><span data-stu-id="28139-118">Return value</span></span>
 
-<span data-ttu-id="59c9f-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="59c9f-119">S_OK</span></span> 
+<span data-ttu-id="28139-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="28139-119">S_OK</span></span> 
   
-> <span data-ttu-id="59c9f-120">呼叫成功或多个预期值返回。</span><span class="sxs-lookup"><span data-stu-id="59c9f-120">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="28139-120">调用成功, 并返回了所需的值或值。</span><span class="sxs-lookup"><span data-stu-id="28139-120">The call succeeded and has returned the expected value or values.</span></span>
     
-<span data-ttu-id="59c9f-121">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="59c9f-121">MAPI_E_BAD_CHARWIDTH</span></span> 
+<span data-ttu-id="28139-121">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="28139-121">MAPI_E_BAD_CHARWIDTH</span></span> 
   
-> <span data-ttu-id="59c9f-122">既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现仅支持 Unicode。</span><span class="sxs-lookup"><span data-stu-id="59c9f-122">Either the MAPI_UNICODE flag was set and the implementation does not support Unicode, or MAPI_UNICODE was not set and the implementation only supports Unicode.</span></span>
+> <span data-ttu-id="28139-122">设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。</span><span class="sxs-lookup"><span data-stu-id="28139-122">Either the MAPI_UNICODE flag was set and the implementation does not support Unicode, or MAPI_UNICODE was not set and the implementation only supports Unicode.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="59c9f-123">注解</span><span class="sxs-lookup"><span data-stu-id="59c9f-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="28139-123">注解</span><span class="sxs-lookup"><span data-stu-id="28139-123">Remarks</span></span>
 
-<span data-ttu-id="59c9f-124">**IMAPITable::GetLastError**方法返回的详细的信息，如果可用，有关失败的前一个方法调用。</span><span class="sxs-lookup"><span data-stu-id="59c9f-124">The **IMAPITable::GetLastError** method returns detailed information, if available, about a prior method call that failed.</span></span> <span data-ttu-id="59c9f-125">可以在一条消息或对话框中显示此信息。</span><span class="sxs-lookup"><span data-stu-id="59c9f-125">This information can be displayed in a message or a dialog box.</span></span> 
+<span data-ttu-id="28139-124">**IMAPITable:: GetLastError**方法返回有关以前的方法调用失败的详细信息 (如果有)。</span><span class="sxs-lookup"><span data-stu-id="28139-124">The **IMAPITable::GetLastError** method returns detailed information, if available, about a prior method call that failed.</span></span> <span data-ttu-id="28139-125">此信息可以显示在邮件或对话框中。</span><span class="sxs-lookup"><span data-stu-id="28139-125">This information can be displayed in a message or a dialog box.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="59c9f-126">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="59c9f-126">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="28139-126">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="28139-126">Notes to callers</span></span>
 
-<span data-ttu-id="59c9f-127">无论何时需要向用户显示错误的信息，请调用**时出错**。</span><span class="sxs-lookup"><span data-stu-id="59c9f-127">Call **GetLastError** whenever you need to display information about an error to the user.</span></span> 
+<span data-ttu-id="28139-127">在需要向用户显示有关错误的信息时, 请调用**GetLastError** 。</span><span class="sxs-lookup"><span data-stu-id="28139-127">Call **GetLastError** whenever you need to display information about an error to the user.</span></span> 
   
-<span data-ttu-id="59c9f-128">您可以利用[MAPIERROR](mapierror.md)结构_lppMAPIError_参数指向如果 table 对象提供一个仅当**时出错**，则返回 S_OK。</span><span class="sxs-lookup"><span data-stu-id="59c9f-128">You can make use of the [MAPIERROR](mapierror.md) structure pointed to by the  _lppMAPIError_ parameter if the table object supplies one only if **GetLastError** returns S_OK.</span></span> <span data-ttu-id="59c9f-129">有时表实现无法确定最后一个错误已或某种更多有关错误报告。</span><span class="sxs-lookup"><span data-stu-id="59c9f-129">Sometimes the table implementation cannot determine what the last error was or has nothing more to report about the error.</span></span> <span data-ttu-id="59c9f-130">在此情况下，在_lppMAPIError_指针设置为 NULL。</span><span class="sxs-lookup"><span data-stu-id="59c9f-130">In this situation, the pointer at  _lppMAPIError_ is set to NULL.</span></span> 
+<span data-ttu-id="28139-128">如果 table 对象仅在**GetLastError**返回 S_OK 时仅提供一个 MAPIERROR 结构, 则可以使用_lppMAPIError_参数所指向的[](mapierror.md)结构。</span><span class="sxs-lookup"><span data-stu-id="28139-128">You can make use of the [MAPIERROR](mapierror.md) structure pointed to by the  _lppMAPIError_ parameter if the table object supplies one only if **GetLastError** returns S_OK.</span></span> <span data-ttu-id="28139-129">有时, 表实现无法确定最后一个错误是什么, 或者对错误报告没有什么更多的报告。</span><span class="sxs-lookup"><span data-stu-id="28139-129">Sometimes the table implementation cannot determine what the last error was or has nothing more to report about the error.</span></span> <span data-ttu-id="28139-130">在这种情况下, _lppMAPIError_中的指针设置为 NULL。</span><span class="sxs-lookup"><span data-stu-id="28139-130">In this situation, the pointer at  _lppMAPIError_ is set to NULL.</span></span> 
   
-<span data-ttu-id="59c9f-131">若要解除所有**MAPIERROR**结构分配的内存，调用[MAPIFreeBuffer](mapifreebuffer.md)函数。</span><span class="sxs-lookup"><span data-stu-id="59c9f-131">To release all the memory allocated for the **MAPIERROR** structure, call the [MAPIFreeBuffer](mapifreebuffer.md) function.</span></span> 
+<span data-ttu-id="28139-131">若要释放为**MAPIERROR**结构分配的所有内存, 请调用[MAPIFreeBuffer](mapifreebuffer.md)函数。</span><span class="sxs-lookup"><span data-stu-id="28139-131">To release all the memory allocated for the **MAPIERROR** structure, call the [MAPIFreeBuffer](mapifreebuffer.md) function.</span></span> 
   
-<span data-ttu-id="59c9f-132">有关**GetLastError**方法的详细信息，请参阅[MAPI 扩展错误](mapi-extended-errors.md)。</span><span class="sxs-lookup"><span data-stu-id="59c9f-132">For more information about the **GetLastError** method, see [MAPI Extended Errors](mapi-extended-errors.md).</span></span>
+<span data-ttu-id="28139-132">有关**GetLastError**方法的详细信息, 请参阅[MAPI 扩展错误](mapi-extended-errors.md)。</span><span class="sxs-lookup"><span data-stu-id="28139-132">For more information about the **GetLastError** method, see [MAPI Extended Errors](mapi-extended-errors.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="59c9f-133">另请参阅</span><span class="sxs-lookup"><span data-stu-id="59c9f-133">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="28139-133">另请参阅</span><span class="sxs-lookup"><span data-stu-id="28139-133">See also</span></span>
 
 
 
-[<span data-ttu-id="59c9f-134">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="59c9f-134">MAPIERROR</span></span>](mapierror.md)
+[<span data-ttu-id="28139-134">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="28139-134">MAPIERROR</span></span>](mapierror.md)
   
-[<span data-ttu-id="59c9f-135">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="59c9f-135">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
+[<span data-ttu-id="28139-135">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="28139-135">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
   
-[<span data-ttu-id="59c9f-136">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="59c9f-136">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
+[<span data-ttu-id="28139-136">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="28139-136">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
 

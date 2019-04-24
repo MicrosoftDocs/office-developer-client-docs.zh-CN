@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 341ad06b-1caa-49bb-b859-cb512f6fb55d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4b02fc316001ae11d64988cc29d0e62e9adde55e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cb20469adec938817fedf1b00789304625b388c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328005"
 ---
-# <a name="ftaddft"></a><span data-ttu-id="2e1f7-103">FtAddFt</span><span class="sxs-lookup"><span data-stu-id="2e1f7-103">FtAddFt</span></span>
+# <a name="ftaddft"></a><span data-ttu-id="47367-103">FtAddFt</span><span class="sxs-lookup"><span data-stu-id="47367-103">FtAddFt</span></span>
 
   
   
-<span data-ttu-id="2e1f7-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2e1f7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="47367-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="47367-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2e1f7-105">添加到另一个无符号的 64 位整数。</span><span class="sxs-lookup"><span data-stu-id="2e1f7-105">Adds one unsigned 64-bit integer to another.</span></span>
+<span data-ttu-id="47367-105">将一个无符号64位整数添加到另一个。</span><span class="sxs-lookup"><span data-stu-id="47367-105">Adds one unsigned 64-bit integer to another.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2e1f7-106">头文件：</span><span class="sxs-lookup"><span data-stu-id="2e1f7-106">Header file:</span></span>  <br/> |<span data-ttu-id="2e1f7-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="2e1f7-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="2e1f7-108">通过实现：</span><span class="sxs-lookup"><span data-stu-id="2e1f7-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="2e1f7-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="2e1f7-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="2e1f7-110">调用：</span><span class="sxs-lookup"><span data-stu-id="2e1f7-110">Called by:</span></span>  <br/> |<span data-ttu-id="2e1f7-111">客户端应用程序和服务提供商</span><span class="sxs-lookup"><span data-stu-id="2e1f7-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="47367-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="47367-106">Header file:</span></span>  <br/> |<span data-ttu-id="47367-107">Mapiutil</span><span class="sxs-lookup"><span data-stu-id="47367-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="47367-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="47367-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="47367-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="47367-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="47367-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="47367-110">Called by:</span></span>  <br/> |<span data-ttu-id="47367-111">客户端应用程序和服务提供程序</span><span class="sxs-lookup"><span data-stu-id="47367-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 FILETIME FtAddFt(
@@ -40,18 +40,18 @@ FILETIME FtAddFt(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2e1f7-112">参数</span><span class="sxs-lookup"><span data-stu-id="2e1f7-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="47367-112">参数</span><span class="sxs-lookup"><span data-stu-id="47367-112">Parameters</span></span>
 
- <span data-ttu-id="2e1f7-113">_Addend1_</span><span class="sxs-lookup"><span data-stu-id="2e1f7-113">_Addend1_</span></span>
+ <span data-ttu-id="47367-113">_Addend1_</span><span class="sxs-lookup"><span data-stu-id="47367-113">_Addend1_</span></span>
   
-> <span data-ttu-id="2e1f7-114">[in]包含的第一个无符号的 64 位整数，要添加的[FILETIME](filetime.md)结构。</span><span class="sxs-lookup"><span data-stu-id="2e1f7-114">[in] A [FILETIME](filetime.md) structure that contains the first unsigned 64-bit integer to be added.</span></span> 
+> <span data-ttu-id="47367-114">实时一个[FILETIME](filetime.md)结构, 其中包含要添加的第一个不带符号的64位整数。</span><span class="sxs-lookup"><span data-stu-id="47367-114">[in] A [FILETIME](filetime.md) structure that contains the first unsigned 64-bit integer to be added.</span></span> 
     
- <span data-ttu-id="2e1f7-115">_Addend2_</span><span class="sxs-lookup"><span data-stu-id="2e1f7-115">_Addend2_</span></span>
+ <span data-ttu-id="47367-115">_Addend2_</span><span class="sxs-lookup"><span data-stu-id="47367-115">_Addend2_</span></span>
   
-> <span data-ttu-id="2e1f7-116">[in]包含的第二个无符号的 64 位整数，要添加的**FILETIME**结构。</span><span class="sxs-lookup"><span data-stu-id="2e1f7-116">[in] A **FILETIME** structure that contains the second unsigned 64-bit integer to be added.</span></span> 
+> <span data-ttu-id="47367-116">实时一个**FILETIME**结构, 其中包含要添加的第二个带符号的64位整数。</span><span class="sxs-lookup"><span data-stu-id="47367-116">[in] A **FILETIME** structure that contains the second unsigned 64-bit integer to be added.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="2e1f7-117">返回值</span><span class="sxs-lookup"><span data-stu-id="2e1f7-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="47367-117">返回值</span><span class="sxs-lookup"><span data-stu-id="47367-117">Return value</span></span>
 
-<span data-ttu-id="2e1f7-118">**FtAddFt**函数将返回一个**FILETIME**结构，其中包含两个包含整数的总和。</span><span class="sxs-lookup"><span data-stu-id="2e1f7-118">The **FtAddFt** function returns a **FILETIME** structure that contains the sum of the two integers.</span></span> <span data-ttu-id="2e1f7-119">两个输入的参数保持不变。</span><span class="sxs-lookup"><span data-stu-id="2e1f7-119">The two input parameters remain unchanged.</span></span> 
+<span data-ttu-id="47367-118">**FtAddFt**函数返回一个**FILETIME**结构, 其中包含两个整数的和。</span><span class="sxs-lookup"><span data-stu-id="47367-118">The **FtAddFt** function returns a **FILETIME** structure that contains the sum of the two integers.</span></span> <span data-ttu-id="47367-119">这两个输入参数保持不变。</span><span class="sxs-lookup"><span data-stu-id="47367-119">The two input parameters remain unchanged.</span></span> 
   
 

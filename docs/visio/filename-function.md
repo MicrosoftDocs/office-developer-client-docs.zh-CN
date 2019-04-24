@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251591
 localization_priority: Normal
 ms.assetid: 03423eb8-160b-2877-de61-f0cc53ae51a1
-description: 作为字符串返回文档的文件名。
-ms.openlocfilehash: 6a5f535cc047bb5f83992854afb0600cfe5c9823
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 以字符串的形式返回文档的文件名。
+ms.openlocfilehash: 41ea7e8bc8f2402435f8df22c77d23c60a61e03d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780244"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322517"
 ---
-# <a name="filename-function"></a><span data-ttu-id="3c5fb-103">FILENAME 函数</span><span class="sxs-lookup"><span data-stu-id="3c5fb-103">FILENAME Function</span></span>
+# <a name="filename-function"></a><span data-ttu-id="42bdc-103">FILENAME 函数</span><span class="sxs-lookup"><span data-stu-id="42bdc-103">FILENAME Function</span></span>
 
-<span data-ttu-id="3c5fb-104">作为字符串返回文档的文件名。</span><span class="sxs-lookup"><span data-stu-id="3c5fb-104">Returns a document's file name as a string.</span></span>
+<span data-ttu-id="42bdc-104">以字符串的形式返回文档的文件名。</span><span class="sxs-lookup"><span data-stu-id="42bdc-104">Returns a document's file name as a string.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="3c5fb-105">语法</span><span class="sxs-lookup"><span data-stu-id="3c5fb-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="42bdc-105">语法</span><span class="sxs-lookup"><span data-stu-id="42bdc-105">Syntax</span></span>
 
-<span data-ttu-id="3c5fb-106">FILENAME ()</span><span class="sxs-lookup"><span data-stu-id="3c5fb-106">FILENAME ()</span></span>
+<span data-ttu-id="42bdc-106">FILENAME ()</span><span class="sxs-lookup"><span data-stu-id="42bdc-106">FILENAME ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="3c5fb-107">返回值</span><span class="sxs-lookup"><span data-stu-id="3c5fb-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="42bdc-107">返回值</span><span class="sxs-lookup"><span data-stu-id="42bdc-107">Return value</span></span>
 
-<span data-ttu-id="3c5fb-108">String</span><span class="sxs-lookup"><span data-stu-id="3c5fb-108">String</span></span>
+<span data-ttu-id="42bdc-108">String</span><span class="sxs-lookup"><span data-stu-id="42bdc-108">String</span></span>
   
 
