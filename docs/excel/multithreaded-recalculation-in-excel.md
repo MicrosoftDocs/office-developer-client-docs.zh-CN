@@ -10,11 +10,11 @@ ms.assetid: c6c831f1-4be1-4dcc-a0fa-c26052ec53c9
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 localization_priority: Priority
 ms.openlocfilehash: f0b6f3d7310cac6d141fc74652a3333f70bda8e9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310500"
 ---
 # <a name="multithreaded-recalculation-in-excel"></a>Excel 中的多线程重新计算
 
@@ -228,5 +228,5 @@ Excel Services UDF 是使用 Microsoft .NET Framework 托管代码创建而成�
 - [Excel 中的内存管理](memory-management-in-excel.md) 
 - [在 Excel 中访问 XLL 代码](accessing-xll-code-in-excel.md)  
 - [Excel 编程概念](excel-programming-concepts.md)  
-- [Excel XLL SDK API 函数参考](excel-xll-sdk-api-function-reference.md)
+- [Excel XLL SDK API 函数引用](excel-xll-sdk-api-function-reference.md)
 

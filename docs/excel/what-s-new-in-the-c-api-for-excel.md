@@ -5,41 +5,41 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- c api [excel 2007]，新增功能
+- c api [excel 2007], 新增功能
 localization_priority: Normal
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: e80b667296af59f4d3f18238cd498830fcdc35a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 64e3933ec25f0771db5bd36bbf57f3f259cdc8a1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19773817"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310267"
 ---
 # <a name="whats-new-in-the-c-api-for-excel"></a>适用于 Excel 的 C API 中的新增功能
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-与 Microsoft Excel 2013 一起使用，Microsoft Excel 2013 XLL 软件开发工具包 (SDK) 包括支持以下功能。
+microsoft excel 2013 XLL 软件开发工具包 (SDK) 与 microsoft excel 2013 联合提供了对以下功能的支持。
   
-- **新功能**
+- **新函数**
     
-    Microsoft Excel 2013 XLL SDK 支持 Excel 2013 中的新工作表功能的所有回调。 有关调用 Excel 2013 函数的详细信息，请参阅[Excel 从 DLL 或 XLL 调用](calling-into-excel-from-the-dll-or-xll.md)。
+    Microsoft excel 2013 XLL SDK 支持回调到 Excel 2013 中的所有新工作表函数。 有关调用 excel 2013 函数的详细信息, 请参阅[从 DLL 或 XLL 调用 Excel](calling-into-excel-from-the-dll-or-xll.md)。
     
-- **异步的用户定义函数**
+- **异步用户定义函数**
     
-    Excel 2013 支持异步调用用户定义函数 (UDF) 通过启用多个计算同时运行这可以提高性能。 有关异步 Udf 的详细信息，请参阅[Asynchronous User-Defined 函数](asynchronous-user-defined-functions.md)。
+    Excel 2013 支持异步调用用户定义的函数 (UDF), 这可以通过启用多个计算同时运行来提高性能。 有关异步 udf 的详细信息, 请参阅[异步用户定义函数](asynchronous-user-defined-functions.md)。
     
 - **群集连接器**
     
-    群集连接器启用 Udf 高性能计算群集上运行。 有关创建群集连接器的详细信息，请参阅[开发 Excel 群集连接器](developing-excel-cluster-connectors.md)。
+    群集连接器使 udf 能够在高性能计算群集上运行。 有关创建群集连接器的详细信息, 请参阅[开发 Excel 群集连接器](developing-excel-cluster-connectors.md)。
     
     > [!NOTE]
-    > XLL 加载项您打算在计算群集上运行的必须调用仅群集安全函数。 有关功能的详细信息，您可以使用，请参阅[Excel XLL SDK API 函数参考](excel-xll-sdk-api-function-reference.md)和[群集安全函数](cluster-safe-functions.md)。 
+    > 您打算在计算群集上运行的 XLL 加载项必须仅调用群集安全函数。 有关可以使用的函数的详细信息, 请参阅[Excel XLL SDK API 函数引用](excel-xll-sdk-api-function-reference.md)和[群集安全函数](cluster-safe-functions.md)。 
   
-- **64 位支持**
+- **64位支持**
     
-    您现在可以编译并链接 32 位和 64 位 xll （英文）。 有关详细信息，请参阅[创建 xll （英文）](creating-xlls.md)。
+    现在可以编译和链接32位和64位 xll。 有关详细信息, 请参阅[创建 xll](creating-xlls.md)。
     
 ## <a name="see-also"></a>另请参阅
 
@@ -47,10 +47,10 @@ ms.locfileid: "19773817"
 
 [Developing Excel XLLs](developing-excel-xlls.md)
   
-[�� Excel ��ʹ�� C API ���б��](programming-with-the-c-api-in-excel.md)
+[在 Excel 中使用 C API 进行编程](programming-with-the-c-api-in-excel.md)
   
-[Excel 中的多线程处理和内存争用](multithreading-and-memory-contention-in-excel.md)
+[Excel 中的多线程和内存争用](multithreading-and-memory-contention-in-excel.md)
 
 
-[Excel XLL SDK 入门](getting-started-with-the-excel-xll-sdk.md)
+[Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
 

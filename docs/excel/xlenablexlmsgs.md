@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1a7eeaf9-8603-446e-9393-5560e88b3a32
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: bedc39ba83a9b393cc987e79e1b68168716838a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62c666c081ef06d40d54af9cec9850600066b3f6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310204"
 ---
 # <a name="xlenablexlmsgs"></a>xlEnableXLMsgs
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-此函数已被弃用，并且不再需要调用。
+此函数已弃用，因此无需再调用。
   
 ```cs
 Excel12(xlEnableXLMsgs, 0, 0);

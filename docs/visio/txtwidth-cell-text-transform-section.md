@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm82251270
 localization_priority: Normal
 ms.assetid: e2215c67-25fa-1d75-9cce-f126bb8760a1
-description: 确定文本块的宽度。默认公式为：
-ms.openlocfilehash: ecba66aaf1f7eeb6d16c6b0d4c6569aed051910f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定文本块的宽度。 默认公式为：
+ms.openlocfilehash: 806307166035ebc2f8e20e7025d5ecb03c4d6e79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316000"
 ---
-# <a name="txtwidth-cell-text-transform-section"></a>TxtWidth 单元格（“Text Transform”部分）
+# <a name="txtwidth-cell-text-transform-section"></a>TxtWidth 单元格（“Text Transform”内容）
 
-确定文本块的宽度。默认公式为：
+确定文本块的宽度。 默认公式为：
   
-= 宽度\*1
+= Width \* 1
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 TxtWidth 单元格的引用，请使用： 
   

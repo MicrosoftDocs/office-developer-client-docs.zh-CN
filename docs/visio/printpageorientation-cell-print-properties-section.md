@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f8354d0d-0ce2-fb33-ddf7-611a2c24a8be
 description: 确定是纵向打印页面还是横向打印页面。
-ms.openlocfilehash: 2adc7dadcb3702e6c5307bb569b2ae1df7aee54e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7e73bea5120d878a1b2dbf553a66b349d247fce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315181"
 ---
-# <a name="printpageorientation-cell-print-properties-section"></a>PrintPageOrientation 单元格（“Print Properties”部分）
+# <a name="printpageorientation-cell-print-properties-section"></a>PrintPageOrientation 单元格（“Print Properties”内容）
 
 确定是纵向打印页面还是横向打印页面。
   
 |**值**|**Orientation**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 同于打印机  <br/> |**visPPOSameAsPrinter** <br/> |
-| 1  <br/> | 纵向  <br/> |**visPPOPortrait** <br/> |
-|2  <br/> |横向  <br/> |**visPPOLandscape** <br/> |
+| 1  <br/> | Portrait  <br/> |**visPPOPortrait** <br/> |
+|双面  <br/> |现状  <br/> |**visPPOLandscape** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-当在文档中插入新的页面时，此设置将默认为活动页中的设置。
+当您在文档中插入新页面时, 此设置默认为活动页面中的设置。
   
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 PrintPageOrientation 单元格的引用，请使用： 
   

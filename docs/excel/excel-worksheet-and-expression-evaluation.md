@@ -1,5 +1,5 @@
 ---
-title: Excel 工作表和表达式计算
+title: Excel ������ͱ��ʽ��ֵ
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 47b46a7d-6cfb-4f5b-946d-e0164d18512a
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 543ff7fcbc88253dafd7fc6e7000bf9657d8c258
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: cf1e0539136435f7d7df6ef348fc92ec4380e132
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310981"
 ---
 # <a name="excel-worksheet-and-expression-evaluation"></a>Excel 工作表和表达式计算
 
@@ -32,7 +32,7 @@ Microsoft Excel 工作表单元格内容计算为以下四种基本数据类型�
     
 包含这些类型的混合类型数组也可以作为函数的自变量输入到公式中，或者作为跨越多个单元格的值输入到数组公式中。
   
-当用户（或命令宏）在单元格中输入内容时，Excel 会尝试解释输入内容，在无法解释的情况下将显示错误消息。 如果输入内容以字符串前缀（单引号）开头，Excel 会将所有输入字符按提供时的原样放入单元格中，不进行任何修改。 （此字符串前缀不显示）。如果输入内容以 **=**、**+** 或 **-** 开头，Excel 会尝试将输入内容解释为公式。 如果语法不正确或计算停止，则会显示错误，并将单元格置于编辑模式。 否则，Excel 会尝试识别、转换和计算运算符和函数名称及其自变量。 
+When a user (or a command macro) enters something into a cell, Excel tries to interpret the input and displays an error message if it cannot. If the input starts with a string prefix (a single quotation mark) Excel places all the input characters in the cell as provided, with no modification. (The string prefix is not displayed.) If the input begins with **=**, **+**, or **-**, Excel tries to interpret the input as a formula. If the syntax is incorrect or evaluation is stopped, an error is displayed, and the cell is put in edit mode. Otherwise, Excel tries to identify, convert, and evaluate operators and function names and their arguments. 
   
 在应用运算符之前，先从左到右对操作数进行计算。从最高优先级运算符和最内层（嵌套最深处）开始计算函数。如果函数自变量或操作数无法转换为预期的类型，则计算将失败并导致 **#VALUE!** 错误。未将标记（不是文字值）识别为函数或已定义名称或标签时，计算将失败并导致 **#NAME?** 错误。 
   
@@ -54,7 +54,7 @@ Excel 中的所有工作表数字在内部表示为 8 字节双精度浮点数�
    
 Excel 工作表不支持 IEEE 次正规数（即 2.2250738585072009E-308 到 4.9406564584124654E-324 范围内的数字），但 VBA 双精度类型则支持这类数字。
   
-如果 DLL 函数返回 IEEE +/- 无穷大值或无效双精度值，则 Excel 会将其转换为 **#NUM!**。 所有次正规数和小于 Excel 最小正正规数的数字都将转换为正零。 IEEE 负零受支持，即可由 DLL 函数返回并显示为 **-0**。 （**\<** 运算符不会检查负零，因此，如果 A1 包含负零，**=A1\<0** 计算结果为 **TRUE**）。 
+If a DLL function returns IEEE +/- infinity or an invalid double, Excel converts it to **#NUM!**. All subnormal numbers and numbers smaller than the minimum positive normal in Excel are converted to positive zero. IEEE negative zero is supported, that is, it can be returned by a DLL function and is displayed as **-0**. (The **\<** operator does not check for negative zero, and so **=A1\<0** evaluates to **TRUE** if A1 contains negative zero). 
   
 请注意，某些数字格式的限制比上述情况更严格，例如日期和时间。实际上，整数除法为浮点除法，在极端情况下可能产生非整数结果，此时的精确结果应为整数。
   
@@ -119,5 +119,5 @@ Excel 无法将函数或运算符自变量转换为正确的类型时，或无�
   
 [评估名称和其他工作表公式表达式](evaluating-names-and-other-worksheet-formula-expressions.md)
   
-[Excel XLL SDK API 函数引用](excel-xll-sdk-api-function-reference.md)
+[Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
 

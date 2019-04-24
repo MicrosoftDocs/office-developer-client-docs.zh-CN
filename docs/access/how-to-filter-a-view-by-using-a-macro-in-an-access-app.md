@@ -8,11 +8,11 @@ ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: 了解如何在 Access 应用程序中使用 RequeryRecords 宏操作和数据宏来筛选视图。
 localization_priority: Priority
 ms.openlocfilehash: 861851a3497f290fe0bcda38e51794194fbe7bbe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302662"
 ---
 # <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>通过在 Access 应用程序中使用宏来筛选视图
 
@@ -43,7 +43,7 @@ ms.locfileid: "28726398"
 
 1. 打开 Access 并选择“**自定义 Web 应用程序**”。
     
-2. 输入你的应用的名称和 Web 位置。 你也可以从“**位置**”列表中选择一个位置并选择“**创建**”。
+2. 输入一个名称和您的应用程序的 Web 位置。您也可以从“位置”列表中选择一个位置并选择“创建”。
     
 3. 在“**搜索**”框中键入**任务**，然后按 ENTER。 
     

@@ -10,11 +10,11 @@ ms.assetid: 6e4bf1f3-8eca-4be5-9632-75355ac31d61
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 localization_priority: Priority
 ms.openlocfilehash: d1332b0dffc052404c75c4ec51d94879457c3da0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304184"
 ---
 # <a name="accessing-xll-code-in-excel"></a>在 Excel 中访问 XLL 代码
 

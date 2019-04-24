@@ -10,11 +10,11 @@ ms.assetid: f572a0d4-631a-4adc-a1a3-714d96ff6b39
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 localization_priority: Priority
 ms.openlocfilehash: 13f99e3d4154516071fe42dcb27beb944ce384f4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310890"
 ---
 # <a name="excel-programming-concepts"></a>Excel 编程概念
 

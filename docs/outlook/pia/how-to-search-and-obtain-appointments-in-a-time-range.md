@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9088da5f2deb4b3d4ccb1c2bc5409e0ff280ed24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316086"
 ---
 # <a name="search-and-obtain-appointments-in-a-time-range"></a>搜索并获取某个时间范围内的约会
 
@@ -63,7 +63,7 @@ string filter = "[Start] <= '"
     + startTime.ToString("g") + "'";
 ```
 
-以下代码展示了完整的示例。 如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，而且这两个语句必须后跟公共类声明。 下面几行代码展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。
+以下代码展示了完整的示例。 如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。 下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

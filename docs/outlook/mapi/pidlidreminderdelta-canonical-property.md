@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 011d73d0-8b38-4a4e-a56f-92dec451946a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 86a0203f930661452bb143e247c17ef6da8ed436
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315888"
 ---
 # <a name="pidlidreminderdelta-canonical-property"></a>PidLidReminderDelta 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25398002"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定以分钟为单位，当提醒前变为过期的时间和开始时间的日历对象之间的间隔。
+指定提醒第一次过期时与 calendar 对象的开始时间之间的时间间隔 (以分钟为单位)。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidReminderDelta  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x00008501  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x00008501  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |Reminder  <br/> |
+|区域：  <br/> |提醒  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性必须设置对日历对象。 对于所有非日历对象，此属性应设置为"0x00000000"，并将被忽略。 时的定期 calendar 对象的一个实例消除提醒下, 一实例的信号时间的计算中使用此属性的值。 有关创建日历对象的详细信息，请参阅[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) 。 
+必须在 calendar 对象上设置此属性。 对于所有非日历对象, 应将此属性设置为 "0x00000000", 并将其忽略。 当定期日历对象的一个实例消除提醒时, 将在下一个实例的信号时间计算中使用此属性的值。 有关创建日历对象的详细信息, 请参阅[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) 。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[毫秒-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> 指定属性和电子邮件和其他对象提醒的交互模型。
+> 指定用于电子邮件和其他对象提醒的属性和交互模型。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

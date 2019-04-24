@@ -11,31 +11,31 @@ keywords:
 localization_priority: Normal
 ms.assetid: de4b119c-ae2e-4207-9783-8d5692a4d052
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 92d2d1877d7b315d178ef1fa36b47bd5f9f8e661
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb788375504cefab75fde9513147c1d54acdaa07
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310225"
 ---
 # <a name="xlfcaller"></a>xlfCaller
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-返回有关单元格、 单元格、 命令范围在菜单上，在工具栏上或调用 DLL 命令或函数当前正在运行的对象上的工具的信息。
+返回有关单元格、单元格区域、菜单上的命令、工具栏上的工具或调用了当前正在运行的 DLL 命令或函数的对象的信息。
   
-|**从代码调用**|**返回**|
+|**调用的代码**|**返回**|
 |:-----|:-----|
-|DLL  <br/> |注册 id。  <br/> |
-|单个单元格  <br/> |单个单元格的引用。  <br/> |
-|多单元格的数组公式  <br/> |一个多单元格的引用。  <br/> |
-|条件格式表达式  <br/> |对条件格式应用于的单元格的引用。  <br/> |
-|菜单  <br/> | 四个元素单行数组：  <br/>  条形图的 id。  <br/>  菜单位置。  <br/>  子菜单位置。  <br/>  命令位置。  <br/> |
-|工具栏  <br/> | 两个元素的单行数组：  <br/>  内置工具栏或自定义工具栏的工具栏名称工具栏数。  <br/>  在工具栏上的位置。  <br/> |
-|Graphic 对象  <br/> |对象标识符 （对象名称） 中。  <br/> |
-|在与 xlcOnEnter，关联的命令。输入，事件陷阱  <br/> |对正在输入的单元格的单元格的引用。  <br/> |
-|在与 xlcOnDoubleclick，关联的命令。DOUBLECLICK，事件陷阱。  <br/> |单元格，双击 （不一定是活动单元格）。  <br/> |
-|Auto_Open、 AutoClose、 Auto_Activate 或 Auto_Deactivate 宏  <br/> |调用的工作表的名称。  <br/> |
+|DLL  <br/> |注册 ID。  <br/> |
+|单个单元格  <br/> |单个单元格引用。  <br/> |
+|多单元格数组公式  <br/> |多单元格引用。  <br/> |
+|条件格式表达式  <br/> |对应用了格式设置条件的单元格的引用。  <br/> |
+|一个菜单  <br/> | 四元素单行数组:  <br/>  条形图 ID。  <br/>  菜单位置。  <br/>  子菜单位置。  <br/>  命令位置。  <br/> |
+|一个工具栏  <br/> | 一个双元素单行数组:  <br/>  内置工具栏或自定义工具栏的工具栏名称的工具栏编号。  <br/>  工具栏上的位置。  <br/> |
+|一个图形对象  <br/> |对象标识符 (对象名称)。  <br/> |
+|与 xlcOnEnter 相关联的命令。ENTER、事件陷阱  <br/> |对所输入的一个或多个单元格的引用。  <br/> |
+|与 xlcOnDoubleclick 相关联的命令。DOUBLECLICK, 事件陷阱。  <br/> |双击的单元格 (不一定是活动单元格)。  <br/> |
+|Auto_Open、AutoClose、Auto_Activate 或 Auto_Deactivate 宏  <br/> |调用工作表的名称。  <br/> |
 |未列出的其他方法  <br/> |#REF! 错误。  <br/> |
    
 ```cs
@@ -44,17 +44,17 @@ Excel12(xlfCaller, (LPXLOPER12) pxRes,0);
 
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-返回值是以下**XLOPER**之一/ **XLOPER12**数据类型： **xltypeRef**、 **xltypeSRef**、 **xltypeNum**、 **xltypeStr**、 **xltypeErr**或**xltypeMulti**。 由于这些类型的三个指向分配的内存， **xlfCaller**的返回值应总是释放[xlFree 函数](xlfree.md)调用中，当不再需要时。 
+返回值是以下**XLOPER**/ **XLOPER12**数据类型之一: **xltypeRef**、 **xltypeSRef**、 **xltypeNum**、 **xltypeStr**、 **xltypeErr**或**xltypeMulti**。 由于其中三个类型都指向分配的内存, 因此**xlfCaller**的返回值应始终在对[xlFree 函数](xlfree.md)的调用中释放, 如果不再需要它。 
   
-有关**XLOPERs**/ **XLOPER12s** ，请参阅[在 Excel 中进行内存管理](memory-management-in-excel.md)。
+有关**XLOPERs**/ **XLOPER12s**的详细信息, 请参阅[Excel 中的内存管理](memory-management-in-excel.md)。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此函数是可从 DLL/XLL 工作表函数调用仅非-工作表函数。 只能从命令或宏表等效调用其他 XLM 信息函数函数。
+此函数是唯一可从 DLL/XLL 工作表函数调用的非工作表函数。 其他 XLM 信息函数只能从命令或宏工作表等效函数中调用。
   
 ## <a name="example"></a>示例
 
- `\SAMPLES\EXAMPLE\EXAMPLE.C`. 此函数调用命令宏 (xlcSelect)，并将正常工作，仅当调用从宏表。
+ `\SAMPLES\EXAMPLE\EXAMPLE.C`. 此函数调用命令宏 (xlcSelect), 并且只有在从宏表中调用时才能正常工作。
   
 ```cs
 short WINAPI CallerExample(void)
@@ -71,5 +71,5 @@ short WINAPI CallerExample(void)
 
 
 
-[基本的有用 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
+[实用的基本 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
 

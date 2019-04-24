@@ -8,22 +8,22 @@ f1_keywords:
 - TempErr
 - TempErr12
 keywords:
-- temperr 函数 [excel 2007，] TempErr12 函数 [Excel 2007]
+- temperr 函数 [excel 2007], TempErr12 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: cf8c26b2-ca2b-4dda-a02d-0ccbeac19106
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 22c0ff1b8259fc0e5ee70edb06bb3db53781ff8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68a0addc36ecf1b4491ab1e4f5b10f359bbc59c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773812"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310344"
 ---
 # <a name="temperrtemperr12"></a>TempErr/TempErr12
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-创建临时**XLOPER**的框架库函数/ **XLOPER12**包含 Microsoft Excel 工作表错误。 
+Framework library 函数, 用于创建一个包含 Microsoft Excel 工作表错误的临时**XLOPER**/ **XLOPER12** 。 
   
 ```cs
 LPXLOPER TempErr(WORD err);
@@ -34,28 +34,28 @@ LPXLOPER12 TempErr12(BOOL err);
 
  _err_
   
-所需的错误代码或其文字等价数值下, 表中所示。
+所需的错误代码或其常数值等效项, 如下表所示。
   
-|**Error**|**XLCALL 中定义的错误代码。H**|**十进制等效项**|
+|**Error**|**xlcall.h 中定义的错误代码。水平**|**十进制等效项**|
 |:-----|:-----|:-----|
 |#NULL  <br/> |**xlerrNull** <br/> |0  <br/> |
-|#DIV/0!  <br/> |**xlerrDiv0** <br/> |7  <br/> |
-|#VALUE!  <br/> |**xlerrValue** <br/> |15  <br/> |
-|#REF!  <br/> |**xlerrRef** <br/> |23  <br/> |
+|#DIV/0!  <br/> |**xlerrDiv0** <br/> |步  <br/> |
+|#VALUE!  <br/> |**xlerrValue** <br/> |个  <br/> |
+|#REF!  <br/> |**xlerrRef** <br/> |上午  <br/> |
 |#NAME?  <br/> |**xlerrName** <br/> |29  <br/> |
 |#NUM!  <br/> |**xlerrNum** <br/> |36  <br/> |
 |#N/A  <br/> |**xlerrNA** <br/> |42  <br/> |
    
 ## <a name="return-value"></a>返回值
 
-返回一个**xltypeBool**包含的错误代码中传递。 
+返回一个**xltypeBool** , 其中包含传入的错误代码。 
   
 ## <a name="example"></a>示例
 
-本示例使用**TempErr12**函数返回 #VALUE ！ 到 Excel 时出错。 
+此示例使用**TempErr12**函数返回 #VALUE! 对 Excel 的错误。 
   
 > [!NOTE]
-> Framework 库函数**TempErr12**从内部缓冲区，通常被释放调用框架函数**Excel12f**时分配内存。 如果没有**Excel12f**调用重复调用此示例函数，则将发生内存泄漏。 
+> 框架库函数**TempErr12**从内部缓冲区分配内存, 该缓冲区通常在调用 Framework 函数**Excel12f**时释放。 如果在未调用**Excel12f**的情况下重复调用此示例函数, 则会发生内存泄漏。 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f92891188e7c317465ce70fede1dedca7f6344fe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316063"
 ---
 # <a name="display-the-select-names-dialog-box-to-resolve-recipients"></a>显示“选择姓名”对话框以解析收件人
 

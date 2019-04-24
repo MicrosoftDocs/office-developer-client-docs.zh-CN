@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251475
 localization_priority: Normal
 ms.assetid: 8df34463-0238-0b0d-9f99-ea912a644f56
-description: 打开形状的文本块，以便能够编辑文本。
-ms.openlocfilehash: 40cc2ab417be8a1ac9750d5faeac20cbec65f753
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 打开形状的文本块, 以便可以对文本进行编辑。
+ms.openlocfilehash: f182943b8ef01ff78c2f606cd0f925110ce83fef
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315664"
 ---
 # <a name="opentextwin-function"></a>OPENTEXTWIN 函数
 
-打开形状的文本块，以便能够编辑文本。
+打开形状的文本块, 以便可以对文本进行编辑。
   
 ## <a name="syntax"></a>语法
 

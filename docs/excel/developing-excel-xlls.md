@@ -10,11 +10,11 @@ ms.assetid: dd27ae4d-ef97-47db-885c-ddd955816900
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 localization_priority: Priority
 ms.openlocfilehash: d05041f2629694c4a96240ea83b6e84b17f9be38
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301657"
 ---
 # <a name="developing-excel-xlls"></a>开发 Excel XLL
 

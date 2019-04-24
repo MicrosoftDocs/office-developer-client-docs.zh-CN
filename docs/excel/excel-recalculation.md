@@ -10,11 +10,11 @@ ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 localization_priority: Priority
 ms.openlocfilehash: 07deec5ad104c59074567725d6abf9b66711e351
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703347"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304114"
 ---
 # <a name="excel-recalculation"></a>Excel 重新计算
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 079b54757cfcd5c9b38365abc5a6d901e2b06724
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 024583926b5d0be638b33b1b60c5d4c5dc74d05b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315090"
 ---
 # <a name="ipstxemulatespooler"></a>IPSTX::EmulateSpooler
 
@@ -25,7 +25,7 @@ ms.locfileid: "22580717"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-设置要模拟 Outlook 协议管理器后台打印到的服务器的传出邮件的本地存储。
+将本地存储设置为模拟 Outlook 协议管理器以将传出邮件后台处理到服务器。
   
 ```cpp
 HRESULT EmulateSpooler( 
@@ -35,18 +35,18 @@ HRESULT EmulateSpooler(
 
  _fEmulate_
   
->  [in]将此参数设置为 True，如果本地存储应模拟后台处理程序;将其设置为 false，则如果不需要。 
+>  实时如果本地存储应模拟后台处理程序, 则将此参数设置为 True;如果不是, 则将其设置为 False。 
     
 ## <a name="remarks"></a>注解
 
-本地存储调用**IPSTX::EmulateSpooler**操作作为 Outlook 协议管理器中，为后端服务器 （例如，MSN 服务器或 AOL 服务器） 进行处理传出队列中的后台打印邮件。 存储同步过程中模拟后台处理程序，然后调用这两种方法： 
+本地存储调用**IPSTX:: EmulateSpooler**作为 Outlook 协议管理器, 将传出队列中的邮件后台打印到后端服务器 (例如, MSN server 或 AOL server) 进行处理。 在同步期间模拟后台打印程序时, 存储将调用以下两种方法: 
   
-1. **[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** ，以获取存储中的传出消息的队列。 此方法成功，仅当存储在模拟 Outlook 协议管理器。 
+1. **[IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** 获取存储中的邮件的传出队列。 仅当存储模拟 Outlook 协议管理器时, 此方法才会成功。 
     
-2. **[IMsgStore::SetLockState](imsgstore-setlockstate.md)** 保护之前将其发送到服务器的唯一的访问权传出队列中的邮件。 此方法成功，仅当存储在模拟 Outlook 协议管理器。 发送消息后, 存储调用此方法再次来释放唯一访问它。 
+2. **[IMsgStore:: SetLockState](imsgstore-setlockstate.md)** 在将邮件发送到服务器之前, 仅保护对传出队列中的邮件的唯一访问权限。 仅当存储模拟 Outlook 协议管理器时, 此方法才会成功。 发送邮件后, store 再次调用此方法以释放对它的唯一访问权限。 
     
 > [!NOTE]
-> Outlook 2002 相 Outlook 协议经理替换 MAPI 后台处理程序和变为负责对后端服务器进行后台打印传出邮件。 
+> 由于 outlook 2002, outlook 协议管理器将替换 MAPI 后台处理程序, 并负责将传出邮件假脱机到后端服务器。 
   
 ## <a name="see-also"></a>另请参阅
 

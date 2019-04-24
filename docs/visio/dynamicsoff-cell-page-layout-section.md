@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 055764aa-9681-ffb0-83ce-fdd612fe37af
 description: 确定是否移动可放置的形状并让连接线围绕绘图页上的其他形状和连接线重排。
-ms.openlocfilehash: 72d65860d1a2ee37efd5287ae3f4baf54bd3addb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d1075ab1b0512d5db1c7b7a5f2895305318dae7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315717"
 ---
-# <a name="dynamicsoff-cell-page-layout-section"></a>DynamicsOff 单元格（“Page Layout”部分）
+# <a name="dynamicsoff-cell-page-layout-section"></a>DynamicsOff 单元格（“Page Layout”内容）
 
 确定是否移动可放置的形状并让连接线围绕绘图页上的其他形状和连接线重排。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 禁用动态特性。  <br/> |
 | FALSE  <br/> | 启用动态特性。  <br/> |
    
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 您可以禁用动态特性来提高解决方案的性能。例如，如果您的解决方案要将可放置的形状添加到绘图中，而您又不希望应用程序在每添加一个形状后都重排连接线和移动形状的位置，就可以禁用动态特性。在您的解决方案添加完所有形状之后，再重新启用动态特性。
   

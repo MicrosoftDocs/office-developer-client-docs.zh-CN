@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 748cecb6-61d0-496b-a1a4-a73d22eb29e2
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: bf64841cbd75e25443abe5cfc7d3d7419757e245
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf02f71458f2f4d8514f69a6b6f0921b5318303a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310288"
 ---
 # <a name="xlautoopen"></a>xlAutoOpen
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-必须实现和每个有效 XLL 导出的回调函数。 **XlAutoOpen**函数是从何处到注册 XLL 函数和命令的建议的位置、 初始化数据结构、 自定义用户界面，等等。 
+必须由每个有效 XLL 实现和导出的回调函数。 在注册 XLL 函数和命令、初始化数据结构、自定义用户界面等的地方, 建议使用**xlAutoOpen**函数。 
   
 ```cs
 int WINAPI xlAutoOpen(void);
@@ -38,27 +38,27 @@ int WINAPI xlAutoOpen(void);
   
 ## <a name="remarks"></a>说明
 
-Microsoft Excel 每当激活 XLL 调用**xlAutoOpen** 。 XLL 激活在下列情况下： 
+每次激活 XLL 时, Microsoft Excel 都会调用**xlAutoOpen** 。 在下列情况下, 将激活 XLL: 
   
-- 如果活动通常结束最后一个 Excel 会话中的 Excel 会话开头。
+- 在 excel 会话开始时, 如果它在正常结束的最后一个 excel 会话中处于活动状态。
     
-- 如果加载 Excel 会话过程中。
+- 如果在 Excel 会话过程中加载。
     
-- 以下几种方式，可加载 XLL:
+- 可以通过以下几种方式加载 XLL:
     
-- 通过在**文件**菜单 （其中的 Excel 版本支持此方法的加载 xll （英文）） 中选择**打开**。 
+- 通过选择 "**文件**" 菜单上的 "**打开**" (Excel 版本支持这种加载 xll 的方法)。 
     
 - 使用加载项管理器。
     
-- 从另一个 XLL 调用[xlfRegister](xlfregister-form-1.md)与此 DLL 作为唯一参数的名称。 
+- 使用此 DLL 的名称作为唯一参数调用[xlfRegister](xlfregister-form-1.md)的另一个 XLL。 
     
-- 从 XLM 宏工作表的调用[注册](xlfregister-form-1.md)的此 DLL 名称作为唯一的参数。 
+- 从以该 DLL 的名称作为唯一参数调用[REGISTER](xlfregister-form-1.md)的 XLM 宏工作表。 
     
-- 外接程序是停用和重新激活 Excel 会话期间，如果是在重新激活上调用此函数。
+- 如果外接程序在 Excel 会话期间停用并重新激活, 则会在重新激活时调用此函数。
     
 ### <a name="example"></a>示例
 
-请参阅文件`SAMPLES\EXAMPLE\EXAMPLE.C`和`SAMPLES\GENERIC\GENERIC.C`，和例如实现此函数。
+请参阅文件`SAMPLES\EXAMPLE\EXAMPLE.C`和`SAMPLES\GENERIC\GENERIC.C`, 以及此函数的示例实现。
   
 ## <a name="see-also"></a>另请参阅
 

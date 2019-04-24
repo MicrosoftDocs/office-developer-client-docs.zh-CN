@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: e4e184d4e456ffe26292fe31b1b41463834216f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2ca1bb478c5c985ad7032e30ed0cfe3aef31406
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310302"
 ---
 # <a name="xlsheetid"></a>xlSheetId
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-若要构建外部引用查找命名工作表的工作表 ID。
+查找命名工作表的工作表 ID, 以便构造外部引用。
   
 ```cs
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
@@ -32,18 +32,18 @@ Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 
 _pxSheetName_(**xltypeStr**)
   
-（可选）。 要了解有关簿和工作表的名称。 如果省略，则**xlSheetId**函数将返回活动 （前端） 工作表的工作表 ID。 
+(可选)。 要查找的简介册和工作表的名称。 如果省略, 则**xlSheetId**函数返回活动 (前) 工作表的工作表 ID。 
   
 ## <a name="return-value"></a>返回值
 
-返回中的工作表 ID _pxRes-\>val.mref.idSheet_。 
+返回_pxRes-\>mref_中的工作表 ID。 
   
 > [!NOTE]
-> _PxRes-\>val.mref.lpmref_数组指针设置为 NULL 此呼叫后，以便不需要调用**xlFree**释放内存中通常包含此类型，尽管完全可以安全地这样做。 
+> 在此调用之后, _pxRes\>_ 数组指针将设置为 NULL, 这样就无需调用**xlFree**来释放该类型通常包含的内存, 尽管这样做是完全安全的。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-包含指定的工作表的工作簿必须打开要使用此函数。 没有方法来构造向未打开工作簿从 DLL 的引用。 有关使用**xlSheetId**构造引用的详细信息，请参阅[在 Excel 中进行内存管理](memory-management-in-excel.md) **xltypeRef**构造的示例。 
+必须打开包含指定工作表的工作簿, 才能使用此函数。 无法从 DLL 构造对未打开的工作簿的引用。 有关使用**xlSheetId**构建引用的详细信息, 请参阅[Excel 中的内存管理](memory-management-in-excel.md), 了解**xltypeRef**构造的示例。 
   
 ## <a name="example"></a>示例
 

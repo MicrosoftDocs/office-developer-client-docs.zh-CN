@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: ca2bbfab-6f4f-4a9a-b3ef-61d7c41e4767
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9c3260e51d9a52de13a187110eb50334c601fc86
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7e3ee8abcf15c8b7697a29e844d838891fe22310
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316259"
 ---
 # <a name="pidtagformclassid-canonical-property"></a>PidTagFormClassId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含的 128 位对象链接和嵌入 (OLE) 全局唯一标识符 (GUID) 窗体。 
+包含128位对象的链接和嵌入 (OLE) 窗体的全局唯一标识符 (GUID)。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FORM_CLSID  <br/> |
-|标识符：  <br/> |0x3302  <br/> |
+|标识符:  <br/> |0x3302  <br/> |
 |数据类型：  <br/> |PT_CLSID  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
 ## <a name="remarks"></a>注解
 
-[MAPIUID](mapiuid.md)结构包含定义的唯一标识符。 
+[MAPIUID](mapiuid.md)结构包含唯一标识符的定义。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

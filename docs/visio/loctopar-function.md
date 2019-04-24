@@ -8,29 +8,29 @@ f1_keywords:
 - Vis_DSS.chm82251585
 localization_priority: Normal
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
-description: 在目标坐标系统中的父坐标返回已转换的点。
-ms.openlocfilehash: 7d882ec34de93db2828fc751f99d87fc3e961d64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回在目标坐标系中的父坐标中转换的点。
+ms.openlocfilehash: 65a08837d7d026836ebc8d5e35938ea049d005e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314845"
 ---
 # <a name="loctopar-function"></a>LOCTOPAR 函数
 
-在目标坐标系统中的父坐标返回已转换的点。
+返回在目标坐标系中的父坐标中转换的点。
   
 ## <a name="syntax"></a>语法
 
-LOCTOPAR (* * *srcPoint* * *，* * *srcRef* * *，* * *dstRef* * *) 
+LOCTOPAR (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _srcPoint_ <br/> |必需  <br/> |**字符串** <br/> | 用源坐标系中的本地坐标表示的点。  <br/> |
-| _srcRef_ <br/> |必需  <br/> |**字符串** <br/> | 对源对象中的单元格的引用。  <br/> |
-| _dstRef_ <br/> |必需  <br/> |**字符串** <br/> | 对目标对象中的单元格的引用。  <br/> |
+| _srcPoint_ <br/> |必需  <br/> |**String** <br/> | 用源坐标系中的本地坐标表示的点。  <br/> |
+| _srcRef_ <br/> |必需  <br/> |**String** <br/> | 对源对象中的单元格的引用。  <br/> |
+| _dstRef_ <br/> |必需  <br/> |**String** <br/> | 对目标对象中的单元格的引用。  <br/> |
    
 ### <a name="return-value"></a>返回值
 

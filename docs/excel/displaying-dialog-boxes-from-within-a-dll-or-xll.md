@@ -1,30 +1,30 @@
 ---
-title: 从 DLL 或 XLL 内显示对话框
+title: 在 DLL 或 XLL 中显示对话框
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- xll [excel 2007]，显示对话框中，对话框 [Excel 2007]，显示从 DLL 或 XLL，显示对话框从 Dll [Excel 2007]
+- xll [excel 2007], 显示对话框 from、对话框 [excel 2007]、从 DLL 或 XLL 显示对话框、dll [excel 2007]、显示对话框
 localization_priority: Normal
 ms.assetid: e77ac555-331d-41c8-a000-7b178959754d
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: afb21125bc54a2607a997c7b2f7c73ef2f528f28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7b00430b047fe792afef701d210ccde06dd16216
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310933"
 ---
-# <a name="displaying-dialog-boxes-from-within-a-dll-or-xll"></a>从 DLL 或 XLL 内显示对话框
+# <a name="displaying-dialog-boxes-from-within-a-dll-or-xll"></a>在 DLL 或 XLL 中显示对话框
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-若要显示 Win32 对话框中使用，例如 Windows SDK 函数**DialogBox**，首先必须适用于 Excel 获取完整的 32 位实例和主窗口句柄。 有关详细信息，请参阅[访问 Excel 实例，主窗口句柄](how-to-access-excel-instance-and-main-window-handles.md)。 
+若要显示 Win32 对话框 (例如, 使用 Windows SDK 函数**video.dialogbox.html**), 必须首先获取 Excel 的完整32位实例和主窗口句柄。 有关详细信息, 请参阅[Access Excel 实例和主窗口句柄](how-to-access-excel-instance-and-main-window-handles.md)。 
   
-假定您的项目包含对话框资源，必须执行以下几个步骤以设置为的新显示的对话框中的消息处理例程并恢复 Excel 邮件处理例程时关闭对话框。 通用项目中的示例命令[fShowDialog](fshowdialog.md)演示了 Windows 函数以正确执行此操作。 
+假定您的项目包含对话框资源, 则必须执行几个步骤, 将消息处理例程设置为新显示的对话框, 并在关闭该对话框时还原 Excel 消息处理例程。 通用项目中的示例命令[fShowDialog](fshowdialog.md)演示如何使用 Windows 函数来正确执行此操作。 
   
-您还可以显示对话框，而无需使用 Windows SDK 函数中使用 C API。 但是，C API 的对话框框功能是非常有限与 Windows、 Visual Basic for Applications (VBA) 或 Microsoft 基础类 (MFC) 的比较。 （例如，C API 对话框始终是有模式）。
+您还可以使用 C API 显示对话框, 而无需使用 Windows SDK 函数。 但是, 与 Windows、Visual Basic for Applications (VBA) 或 Microsoft 基础类 (MFC) 相比, C API 的对话框功能非常有限。 (例如, C API 对话框始终是模式的)。
   
 ## <a name="see-also"></a>另请参阅
 

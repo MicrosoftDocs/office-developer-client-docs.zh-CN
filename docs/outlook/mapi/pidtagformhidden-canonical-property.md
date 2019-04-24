@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 79cb1fa5-9a32-4872-9806-ecd664022234
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 89eb6f0b8248fb0113356e60e0b94e4762c2a11a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cda969b43cba9431b986b24ec64ca26f245b7676
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316238"
 ---
 # <a name="pidtagformhidden-canonical-property"></a>PidTagFormHidden 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-如果窗体是要取消显示从包含 TRUE 的撰写菜单和对话框。 
+如果要通过撰写菜单和对话框禁止显示窗体, 则该参数为 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FORM_HIDDEN  <br/> |
-|标识符：  <br/> |0x3307  <br/> |
+|标识符:  <br/> |0x3307  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
 ## <a name="remarks"></a>注解
 
-与表单相关的属性是只读的。 
+与窗体相关的属性是只读的。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

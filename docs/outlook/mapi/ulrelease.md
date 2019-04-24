@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 95db96ef-f95f-41da-b216-f717c23bffd2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 46c37dbcf1aa3b0469281b8db99f210bda0918be
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 288e34a159db48b1344524b87f02b045259f1565
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315293"
 ---
 # <a name="ulrelease"></a>UlRelease
 
@@ -25,13 +25,13 @@ ms.locfileid: "22582299"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供一种方法来调用 OLE 方法**IUnknown::Release**。 
+提供调用 OLE 方法**IUnknown:: Release**的另一种方法。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 ULONG UlRelease(
@@ -43,26 +43,26 @@ ULONG UlRelease(
 
  _punk_
   
-> [in]从**IUnknown**接口，换句话说任何 MAPI 接口派生的接口的指针。 
+> 实时指向从**IUnknown**接口派生的接口的指针, 换句话说, 是任何 MAPI 接口。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。 
+> 调用成功, 并返回了所需的值或值。 
     
 MAPI_E_CALL_FAILED 
   
-> 意外或未知的原点出现错误，无法完成操作。
+> 意外或未知来源的错误阻止操作完成。
     
 ## <a name="remarks"></a>注解
 
-引用计数是现有指向必须释放的对象数。 
+引用计数是指向要释放的对象的现有指针的数目。 
   
-如果_punk_参数为 NULL，则函数返回立即而无需调用**IUnknown::Release**
+如果_punk_参数为 NULL, 则该函数将立即返回, 而不调用**IUnknown:: Release**
   
- **UlRelease**返回返回**IUnknown::Release**方法，该数据库可以等于必须释放的对象的引用计数的值。 
+ **UlRelease**返回由**IUnknown:: Release**方法返回的值, 它可以等于要释放的对象的引用数。 
   
-有关**IUnknown::Release**的详细信息，请参阅[实现 IUnknown 接口](implementing-the-iunknown-interface.md)。 
+有关**IUnknown:: Release**的详细信息, 请参阅[实现 IUnknown 接口](implementing-the-iunknown-interface.md)。 
   
 

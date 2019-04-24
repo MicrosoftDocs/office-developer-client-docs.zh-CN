@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1394039b-d509-49a5-8421-b7362d906879
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: f85b662b7fe710c66a2e69dd3cd3db22e3283ddb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309721"
 ---
 # <a name="imsgstoreunadvise"></a>IMsgStore::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "25398015"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-取消发送通知之前设置与对[IMsgStore::Advise](imsgstore-advise.md)方法的调用。 
+取消之前通过调用[IMsgStore:: Advise](imsgstore-advise.md)方法设置的通知发送。 
   
 ```cpp
 HRESULT Unadvise(
@@ -37,19 +37,19 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> [in]与活动通知注册连接数。 必须在之前调用**IMsgStore::Advise**方法返回的_ulConnection_值。 
+> 实时与活动通知注册相关联的连接号码。 _ulConnection_的值必须已由以前对**IMsgStore:: Advise**方法的调用返回。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功取消注册。
+> 已成功取消注册。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**IMsgStore::Unadvise**方法取消注册的通知。 呼叫者到其指针告知接收器，它用于注册的**Advise**调用中接收**Unadvise**版本。 
+**IMsgStore:: Unadvise**方法取消注册通知。 **Unadvise**释放其指向呼叫者通知接收器的指针, 该接收器在用于注册的**通知**呼叫中收到。 
   
-通常， **Unadvise** **Unadvise**呼叫过程中调用通知接收器[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法。 但是，如果另一个线程的过程中调用通知接收器[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法，直至**OnNotify**方法返回延迟**释放**调用。 
+通常情况下, **Unadvise**在**Unadvise**调用过程中调用通知接收器的[IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法。 但是, 如果另一个线程正在调用通知接收器的[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法, 则**释放**调用将延迟到**OnNotify**方法返回为止。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -10,11 +10,11 @@ ms.assetid: 8740a8fb-ad67-4232-a49b-d78967a786c2
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 localization_priority: Priority
 ms.openlocfilehash: c546fc80b212301689744d3279a59733d9cc5524
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710606"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310904"
 ---
 # <a name="data-types-used-by-excel"></a>Excel 使用的数据类型
 

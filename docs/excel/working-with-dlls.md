@@ -7,36 +7,36 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: b2522b47-5260-4e32-ad57-96dec4a0e3f9
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 4db54c2b25d88156511b3939048a712d687728ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38d4f2b39c9771a4e70a28a698588f25f67ae5b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310260"
 ---
 # <a name="working-with-dlls"></a>使用 DLL
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-本节包括有关创建和调用 Dll，使用 Microsoft Excel 的信息。
+本节包含有关创建和调用使用 Microsoft Excel 的 dll 的信息。
   
 ## <a name="in-this-section"></a>本节内容
 
 [开发 DLL](developing-dlls.md)
   
-> 介绍使用 Dll 和如何创建它们的好处。
+> 介绍使用 dll 以及如何创建它们的好处。
     
 [在 Excel 中访问 DLL](how-to-access-dlls-in-excel.md)
   
-> 介绍如何为 Applications (VBA) 代码模块中，调用 DLL 函数和命令通过 Visual Basic，直接从工作表或 Excel 用户界面。 
+> 介绍如何通过 Visual Basic for Applications (VBA) 代码模块直接从工作表或从 Excel 用户界面调用 DLL 函数和命令。 
     
-[从 DLL 调用用户定义的函数](calling-user-defined-functions-from-dlls.md)
+[从 dll 调用用户定义的函数](calling-user-defined-functions-from-dlls.md)
   
-> 介绍如何启用 Dll 调用用户定义函数。
+> 介绍如何启用 dll 以调用用户定义的函数。
     
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Developing Excel XLLs](developing-excel-xlls.md)
+[开发 Excel XLL](developing-excel-xlls.md)
 

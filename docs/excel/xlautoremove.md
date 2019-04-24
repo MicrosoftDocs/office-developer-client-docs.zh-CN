@@ -11,22 +11,22 @@ keywords:
 localization_priority: Normal
 ms.assetid: fff0de4d-605d-49e6-a5be-a000410c09d8
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 6e5daac21a6d89472a7d84a25e9aeaea56db1ae1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af8bd2d44883b1820be42b82d4fe4794fa29caab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310281"
 ---
 # <a name="xlautoremove"></a>xlAutoRemove
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-由 Microsoft Excel 每当用户将停用 XLL Excel 会话过程中使用加载项管理器调用。 Excel 关闭会话时，通常或异常，与安装的加载项时，不会调用此函数。
+当用户使用外接程序管理器在 excel 会话期间停用 XLL 时, 由 Microsoft Excel 调用。 如果在已安装加载项的情况下 Excel 会话正常或异常关闭，则不会调用此函数。
   
-可以使用此函数，以显示自定义对话框告知用户的外接程序已停用，或进行读取或写入到注册表，例如。
+此函数可用于显示一个自定义对话框, 告诉用户外接程序已停用, 或者读取或写入注册表, 例如。
   
-Excel 不需要 XLL 实施和导出此函数。 
+Excel 不需要 XLL 即可实现和导出此函数。 
   
 ```cs
 int WINAPI xlAutoRemove(void);
@@ -42,7 +42,7 @@ int WINAPI xlAutoRemove(void);
   
 ## <a name="remarks"></a>说明
 
-如果您 XLL 需要完成任何任务加载项管理器中删除时，请使用此函数。
+如果您的 XLL 需要在加载项管理器删除任何任务时完成任何任务, 请使用此函数。
   
 ## <a name="example"></a>示例
 

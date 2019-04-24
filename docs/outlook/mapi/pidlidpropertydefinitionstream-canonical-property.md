@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ead35049-e60e-4b46-bf12-f73d77cd36b2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b5ddb87111cfb0039cb1150338945615bbd5afc5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315937"
 ---
 # <a name="pidlidpropertydefinitionstream-canonical-property"></a>PidLidPropertyDefinitionStream 规范属性
 
@@ -25,33 +25,33 @@ ms.locfileid: "25393269"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-代表用户定义的字段的定义和消息的内置字段的数据绑定设置。
+表示邮件的内置字段的用户定义字段和数据绑定设置的定义。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidPropDefStream  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x00008540  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x00008540  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-邮件的自定义窗体定义的一部分保存**PidLidPropertyDefinitionStream**属性的值。 
+**PidLidPropertyDefinitionStream**属性的值保存为邮件的自定义表单定义的一部分。 
   
-此属性的值是二进制流。 有关此流的结构的信息，请参阅[属性定义流结构](propertydefinition-stream-structure.md)。 
+此属性的值为二进制流。 有关此流的结构的信息, 请参阅[PropertyDefinition stream structure](propertydefinition-stream-structure.md)。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
@@ -59,9 +59,9 @@ Mapidefs.h
 
 
 
-[Outlook 项和字段](outlook-items-and-fields.md)
+[Outlook 项目和字段](outlook-items-and-fields.md)
   
-[为新的用户定义字段添加定义](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[为新的用户定义的字段添加定义](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [PropertyDefinition 流示例](propertydefinition-stream-sample.md)
   

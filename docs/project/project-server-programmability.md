@@ -26,11 +26,11 @@ ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: 了解 Project Server 2013 中的主要可编程性功能。 本文包括有关移植为早期版本的 Project Server 构建的应用程序的信息。
 localization_priority: Priority
 ms.openlocfilehash: 6df7b149b1e87c74efd8d90db8ece625a39ec185
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726391"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301528"
 ---
 # <a name="project-server-programmability"></a>Project Server 可编程性
 

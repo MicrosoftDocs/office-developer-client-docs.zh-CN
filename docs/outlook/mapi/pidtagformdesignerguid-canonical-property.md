@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 30c8f31c104be52da2900eb81c7b7c29dfa55015
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b0e0847a3a9e21f080a852738ec8afbc98a2263f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316231"
 ---
 # <a name="pidtagformdesignerguid-canonical-property"></a>PidTagFormDesignerGuid 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于设计窗体的对象的唯一标识符。
+包含用于设计表单的对象的唯一标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FORM_DESIGNER_GUID  <br/> |
-|标识符：  <br/> |0x3309  <br/> |
+|标识符:  <br/> |0x3309  <br/> |
 |数据类型：  <br/> |PT_GUID  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
 ## <a name="remarks"></a>注解
 
 此属性通常包含用于创建窗体的设计程序的全局唯一标识符 (GUID)。 此属性可以为空。 
   
-[MAPIUID](mapiuid.md)结构包含定义的唯一标识符。 
+[MAPIUID](mapiuid.md)结构包含唯一标识符的定义。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

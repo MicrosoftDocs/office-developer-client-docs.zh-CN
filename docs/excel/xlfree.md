@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 2dd61ee5cd0e2e671cc47425689287b8a437732f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de1c75ad65acacd44644e9bfb111b30abd0a578e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310218"
 ---
 # <a name="xlfree"></a>xlFree
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-使用以释放内存资源分配由 Microsoft Excel 时创建返回值**XLOPER**/ **XLOPER12** [Excel4](excel4-excel12.md)、 [Excel4v](excel4v-excel12v.md)、 [Excel12](excel4-excel12.md)或[Excel12v](excel4v-excel12v.md)将调用。 **XlFree**函数释放的辅助内存和将指针重置为**空**，但不会销毁**XLOPER**其他部件/ **XLOPER12**。
+用于在[Excel4](excel4-excel12.md)、 [Excel4v](excel4v-excel12v.md)、 [Excel12](excel4-excel12.md)或[Excel12v](excel4v-excel12v.md)的调用中创建返回值**XLOPER**/ **XLOPER12**时, 释放 Microsoft Excel 分配的内存资源。 **xlFree**函数释放辅助内存, 并将指针重置为**NULL** , 但不会销毁**XLOPER**/ **XLOPER12**的其他部分。
   
 ```cs
 Excel4(xlFree, 0, n, LPXLOPER px_1, ..., LPXLOPER px_n);
@@ -31,23 +31,23 @@ Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 
 ## <a name="parameters"></a>参数
 
- _px_1，...px_n_
+ _px_1, ..., px_n_
   
-一个或多个**XLOPER**/ **XLOPER12**s 要释放。 在 Excel 版本中最多为 2003年，可以传递的指针的最大数量为 30。 从 Excel 2007 开始，这被增加到 255。
+一个或多个要释放的**XLOPER**/ **XLOPER12**s。 在 Excel 版本中, 最多为2003个, 可以传递的最大指针数为30个。 从 Excel 2007 开始, 这会增加到255。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
 此函数不返回值。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-您必须释放返回值从**Excel4**或**Excel4v**获取每个**XLOPER**和返回值将从**Excel12**或获得**Excel12v**如果下列类型之一的每个**XLOPER12** : **xltypeStr**， **xltypeMulti**或**xltypeRef**。 始终是安全忙其他类型，即使它们不使用辅助内存，只要从**Excel4**或**Excel12**处获得。
+您必须释放作为返回值从**Excel4**或**Excel4v**中获取的每个**XLOPER** , 以及从**Excel12**或**Excel12v**获取为返回值的每个**XLOPER12** , 如果它们是以下类型之一: **xltypeStr**、 **xltypeMulti**或**xltypeRef**。 即使您从**Excel4**或**Excel12**中获取了这些类型, 也始终可以安全地释放其他类型, 即使它们不使用辅助内存也是如此。
   
-其中您返回到 Excel 指向**XLOPER**/ **XLOPER12**仍包含 Excel 分配内存要释放，必须设置**xlbitXLFree**以确保内存的 Excel 版本。 
+若要返回到 excel 的指针指向的**XLOPER**/ **XLOPER12**仍包含要释放的 Excel 分配内存, 则必须设置**xlbitXLFree**以确保 excel 释放内存。 
   
 ## <a name="example"></a>示例
 
-此示例调用**获取。WORKSPACE(1)** 返回哪些 Excel 当前正在运行字符串形式的平台。 代码将复制此返回到供以后使用缓冲区的字符串。 该代码将缓冲区放回**XLOPER12**更高版本用于 Excel 函数。 最后，代码在警告框中显示的字符串。 
+此示例调用**GET。工作区 (1)** 以返回 Excel 当前以字符串形式运行的平台。 代码将返回的字符串复制到缓冲区中, 以供将来使用。 该代码将缓冲区放回**XLOPER12**中, 以供以后用于 Excel 函数。 最后, 代码在警告框中显示字符串。 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

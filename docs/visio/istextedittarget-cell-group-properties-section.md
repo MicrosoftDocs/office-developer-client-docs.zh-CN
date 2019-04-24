@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 355cef8b-9213-479a-af95-b591f4bc51ad
 description: 确定组合的文本分配。
-ms.openlocfilehash: 65baf90254f6b213efea04739d8e4a66952b2856
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78a70dc0398745765bca12a1e768390b35fce8ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314915"
 ---
-# <a name="istextedittarget-cell-group-properties-section"></a>IsTextEditTarget 单元格（“Group Properties”部分）
+# <a name="istextedittarget-cell-group-properties-section"></a>IsTextEditTarget 单元格（“Group Properties”内容）
 
 确定组合的文本分配。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |文本被添加到组合形状中。  <br/> |
 |FALSE  <br/> |文本被添加到位于堆放顺序顶端的组合的形状中。  <br/> |
@@ -35,7 +35,7 @@ ms.locfileid: "19780508"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |Istextedittarget 的值  <br/> |
+|单元格名称：  <br/> |IsTextEditTarget  <br/> |
    
 若要从某个程序按索引获取对 IsTextEditTarget 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   

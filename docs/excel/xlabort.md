@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: e90cbe496404b4cc602dee1ad21c91c8f5f91bfd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08ab69252520e76a5631c5e32a3970d2d95b1ff4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310253"
 ---
 # <a name="xlabort"></a>xlAbort
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-在系统中生成处理器到其他任务，并检查用户是否已按**ESC**键取消宏。 如果用户已工作簿重新计算过程中按**ESC** ，它可以还通过检测到从工作表函数中调用此函数。 
+将处理器生成到系统中的其他任务, 并检查用户是否已按**ESC**取消宏。 如果用户在重新计算工作簿期间按下了**ESC** , 也可以通过调用此函数从工作表函数中检测到。 
   
 ```cs
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
@@ -32,27 +32,27 @@ Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 
  _pxRetain_(**xltypeBool**)
   
-（可选）。 如果**FALSE**，此函数，检查中断条件，并清除任何待定的中断。 这就使用户得以继续中断条件。 如果此参数被省略，或为**TRUE**，则函数检查用户中止而不清除。
+(可选)。 如果**为 FALSE**, 则此函数将检查中断条件并清除任何挂起的中断。 这使用户可以在中断条件的情况继续进行。 如果此参数被省略或为**TRUE**, 则函数将检查用户中止而不清除它。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果用户已按**ESC**，则返回**TRUE** (**xltypeBool**)。
+如果用户按**ESC 键**,**则返回 TRUE** (**xltypeBool**)。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 ### 
 
-#### <a name="frequent-calls-may-be-needed"></a>可能需要常用的呼叫
+#### <a name="frequent-calls-may-be-needed"></a>可能需要频繁的呼叫
 
-功能和可能需要很长时间的命令应调用此函数经常以在系统中产生向其他任务处理器。
+可能需要很长时间的函数和命令应经常调用此函数, 以使处理器进入系统中的其他任务。
   
-#### <a name="avoid-sensitive-language"></a>避免敏感的语言
+#### <a name="avoid-sensitive-language"></a>避免敏感语言
 
-避免使用术语"中止"用户界面中。 请考虑使用"取消""停止，""中断"或"Stop"改为。
+避免在用户界面中使用 "Abort" 一词。 请考虑改为使用 "取消"、"暂停"、"中断" 或 "停止"。
   
 ## <a name="example"></a>示例
 
-下面的代码重复发生将活动单元格移动工作表上直到经过一分钟或用户按**ESC**。 有时，它调用函数**xlAbort** 。 这会产生处理器，减轻协作式多任务。 
+以下代码将重复移动工作表上的活动单元格, 直到一分钟之后或用户按**ESC**。 它偶尔调用函数**xlAbort** 。 这将生成处理器, 从而简化合作多任务。 
   
  `\SAMPLES\GENERIC\GENERIC.C`
   

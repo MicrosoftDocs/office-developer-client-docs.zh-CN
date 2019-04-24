@@ -8,18 +8,18 @@ ms.assetid: b941a0c7-9753-4920-bb6d-cbba94ba9422
 description: 确定指定的表达式是否为 NULL。
 localization_priority: Priority
 ms.openlocfilehash: fe6a0fe4f182a1385304b783e7cfaaf515f732d4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311135"
 ---
 # <a name="is-not-null-access-custom-web-app"></a>IS [NOT] NULL（Access 自定义 Web 应用）
 
 确定指定的表达式是否为 NULL。
   
 > [!IMPORTANT]
-> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-CN/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 

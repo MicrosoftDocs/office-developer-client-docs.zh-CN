@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: f2220060-65ea-4969-88d7-8348bd5aa242
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8017094f6af95940aab8352d52cd1160f0b7a827
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ec806ed3ab871d6a36778b0898b2977628ccdcec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573759"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316203"
 ---
 # <a name="pidtagformversion-canonical-property"></a>PidTagFormVersion 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含为表单的版本。 
+包含表单的版本。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_FORM_VERSION，PR_FORM_VERSION_A，PR_FORM_VERSION_W  <br/> |
-|标识符：  <br/> |0x3301  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|相关属性：  <br/> |PR_FORM_VERSION、PR_FORM_VERSION_A、PR_FORM_VERSION_W  <br/> |
+|标识符:  <br/> |0x3301  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
 ## <a name="remarks"></a>注解
 
-这些属性指示哪些设计版本是当前在窗体的效果。 定义和维护表单版本的设计器，并不一定与任何 MAPI 组件版本。 
+这些属性指示当前对窗体有效的设计版本。 版本由窗体的设计器定义和维护, 并不一定与任何 MAPI 组件版本相关。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

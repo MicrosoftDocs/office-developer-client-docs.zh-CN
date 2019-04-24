@@ -7,11 +7,11 @@ ms.assetid: 6828485c-040b-4278-923f-4cc7c8fe0fb1
 description: 客户端对象模型 (CSOM) 是一组适用于 Project Server 2013 的 API，它们设计为在专为电脑、移动设备和平板电脑开发的应用程序中联机和本地使用。 本文包含一些使用 CSOM 的典型应用场景，并且还列出了 CSOM 的限制。
 localization_priority: Priority
 ms.openlocfilehash: 6cdcb72c24e352365b6dcc9268ddf0bd249369af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723045"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315223"
 ---
 # <a name="what-the-csom-does-and-does-not-do"></a>CSOM 执行和不执行的操作
 

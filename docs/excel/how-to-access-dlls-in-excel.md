@@ -10,11 +10,11 @@ ms.assetid: e2bfd6ea-efa3-45c1-a5b8-2ccb8650c6ab
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 localization_priority: Priority
 ms.openlocfilehash: fac4ad30048aa1bf3879009bc97ea46a112a9ce5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304009"
 ---
 # <a name="access-dlls-in-excel"></a>在 Excel 中访问 DLL
 

@@ -1,51 +1,51 @@
 ---
-title: BevelLightingType 单元格（“Bevel Properties”部分）
+title: BevelLightingType 单元格 ("棱台属性" 部分)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7fbb4b16-fe54-42d6-803a-c9980897166d
-description: 确定照明使用棱台效果的类型。
-ms.openlocfilehash: a8e7c2340f96362965d5ecb890fb47427be9e752
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定凹凸效果使用的光的类型。
+ms.openlocfilehash: 6d92c56b01d192c1df04eecdaca4eb915baebcae
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315769"
 ---
-# <a name="bevellightingtype-cell-bevel-properties-section"></a>BevelLightingType 单元格（“Bevel Properties”部分）
+# <a name="bevellightingtype-cell-bevel-properties-section"></a>BevelLightingType 单元格 ("棱台属性" 部分)
 
-确定照明使用棱台效果的类型。
+确定凹凸效果使用的光的类型。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
-|0  <br/> |没有照明  <br/> |
+|0  <br/> |无照明  <br/> |
 |1  <br/> |三个点  <br/> |
-|2  <br/> |平衡  <br/> |
-|3  <br/> |软  <br/> |
-|4  <br/> |恶劣  <br/> |
-|5  <br/> |淹没  <br/> |
-|6  <br/> |对比  <br/> |
-|7  <br/> |老板  <br/> |
-|8  <br/> |日出  <br/> |
-|9  <br/> |日落  <br/> |
+|双面  <br/> |恰好  <br/> |
+|第三章  <br/> |柔化  <br/> |
+|4  <br/> |苛刻  <br/> |
+|5  <br/> |过重  <br/> |
+|型  <br/> |鲜明  <br/> |
+|步  <br/> |早  <br/> |
+|utf-8  <br/> |日出  <br/> |
+|第  <br/> |日落  <br/> |
 |10  <br/> |Chilly  <br/> |
-|11  <br/> |冻结  <br/> |
+|11x17  <br/> |锁定  <br/> |
 |12  <br/> |平面  <br/> |
 |13  <br/> |两个点  <br/> |
-|14  <br/> |发光  <br/> |
-|15  <br/> |鲜会议室  <br/> |
+|日  <br/> |Glow  <br/> |
+|个  <br/> |明亮聊天室  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**BevelLightingType**单元格的引用，请使用： 
+若要从另一个公式按名称获取对**BevelLightingType**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |BevelLightingType  <br/> |
    
-若要从某个程序按索引获取对**BevelLightingType**单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对**BevelLightingType**单元格的引用, 请使用带下列参数的**CellsSRC**属性: 
   
 |||
 |:-----|:-----|

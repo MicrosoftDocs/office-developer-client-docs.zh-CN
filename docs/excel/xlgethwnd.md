@@ -11,12 +11,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: be33b097-812b-4f5c-81be-4d9673e95b0b
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: a22365d6c945aaa5995e2c519c757a1a7515655a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab4ac1bc040ef2ea9bca182624111e03722c5200
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310064"
 ---
 # <a name="xlgethwnd"></a>xlGetHwnd
 
@@ -31,21 +31,21 @@ Excel12(xlGetHwnd, LPXLOPER12 pxRes, 0); /* returns full handle */
 
 ## <a name="parameters"></a>参数
 
-此函数具有任何参数。
+此函数没有参数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-包含**val.w**字段中的窗口句柄 (**xltypeInt**)。 
+在 " **w** " 字段中包含窗口句柄 (**xltypeInt**)。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此函数可用于编写 Windows API 代码。
+此函数对于编写 Windows API 代码很有用。
   
-返回的 XLOPER integer 变量时调用此函数使用[Excel4](excel4-excel12.md)或[Excel4v](excel4v-excel12v.md)，为签名的 16 位短 int。这是只可以包含低 16 位的 32 位 Windows 句柄。 若要查找的高的部件，您的代码必须循环查找与低的部件的匹配的所有打开的窗口。 从 Excel 2007 开始， **XLOPER12**整数变量是带符号的 32 位 int 和因此包含整个窗口的句，而不必循环访问所有打开的窗口。 
+使用[Excel4](excel4-excel12.md)或[Excel4v](excel4v-excel12v.md)调用此函数时, 返回的 XLOPER 整数变量是带符号的16位短整型。这只能包含32位 Windows 句柄的低16位。 若要查找高部分, 您的代码必须循环访问所有打开的窗口, 查找低部分的匹配项。 从 Excel 2007 开始, **XLOPER12**的整数变量是一个有符号的32位 int, 因此包含整个句柄, 从而消除了对所有打开的窗口进行迭代的需求。 
   
 ### <a name="example"></a>示例
 
-请参阅[fShowDialog 函数](fshowdialog.md)中的代码`SAMPLES\GENERIC\GENERIC.C`。
+请参阅中`SAMPLES\GENERIC\GENERIC.C`的[fShowDialog 函数](fshowdialog.md)的代码。
   
 ## <a name="see-also"></a>另请参阅
 

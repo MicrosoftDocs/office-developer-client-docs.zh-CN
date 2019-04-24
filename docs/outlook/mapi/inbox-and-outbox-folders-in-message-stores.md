@@ -1,5 +1,5 @@
 ---
-title: 邮件存储区的收件箱和发件箱文件夹
+title: 邮件存储区中的收件箱和发件箱文件夹
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,29 +7,29 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8e4ce129-137d-4618-80a6-88781a578d01
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6781209cd1bf87f4becf1893b7cba5618549fbce
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 95a2b7b9bac11404817fb6848d58c45251c141f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582887"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309672"
 ---
-# <a name="inbox-and-outbox-folders-in-message-stores"></a>邮件存储区的收件箱和发件箱文件夹
+# <a name="inbox-and-outbox-folders-in-message-stores"></a>邮件存储区中的收件箱和发件箱文件夹
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-若要将默认邮件存储区，消息存储提供程序必须实现收件箱并发件箱文件夹。 他们通常存储在消息存储的 IPM 子树。 这些文件夹是特殊的它们被指定为邮件传递到并发送，但没有特殊功能都是必需的它们的文件夹。 发送和接收消息发生通过客户端应用程序、 MAPI 后台处理程序，和的消息存储提供程序之间定义的调用序列。 收件箱和发件箱文件夹是只用于期间那些举行邮件的文件夹调用序列 （英文）。 重要的一点不是文件夹是特殊，或偶数收件箱和发件箱; 已命名重要的一点是，消息存储提供程序使用这些作为其支持的一部分的发送和接收消息。
+若要成为默认邮件存储区, 邮件存储提供程序必须实现 "收件箱" 和 "发件箱" 文件夹。 它们通常存储在邮件存储区的 IPM 子树中。 这些文件夹是特殊的, 因为它们被指定为邮件传递到和发送的文件夹, 但不需要特殊的功能。 通过在客户端应用程序、MAPI 后台处理程序和邮件存储提供程序之间定义呼叫序列的方式发送和接收邮件。 "收件箱" 和 "发件箱" 文件夹只是用于在这些呼叫序列中保存邮件的文件夹。 重要的一点是, 这些文件夹是特殊的, 甚至它们被命名为 "收件箱" 和 "发件箱";重要的是, 邮件存储区提供程序将其作为支持发送和接收邮件的一部分使用。
   
-若要支持接收邮件，消息存储提供程序必须实现的[IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md)和[IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md)方法。 有关详细信息，请参阅[通过使用消息存储提供程序接收的消息](receiving-messages-by-using-message-store-providers.md)。
+若要支持接收邮件, 邮件存储提供程序必须实现[IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md)和[IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md)方法。 有关详细信息, 请参阅[使用邮件存储提供程序接收邮件](receiving-messages-by-using-message-store-providers.md)。
   
-若要支持发送消息，消息存储提供程序必须支持的[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)方法，除了过程消息发送过程中使用 MAPI 后台处理程序的其他方法。 消息存储库的传出队列不必对应于消息存储库文件夹树中的任意位置实际文件夹。 但是，就的消息存储提供程序，在发件箱文件夹中中, 显示的传出消息队列的内容，如果有习惯。 这样做为客户端应用程序提供方便地指示用户已发送的邮件的状态，因为可以一起消息存储区中的所有其他文件夹显示发件箱文件夹。 有关详细信息，请参阅[通过使用消息存储提供程序发送的邮件](sending-messages-by-using-message-store-providers.md)。
+若要支持发送邮件, 邮件存储提供程序必须支持[IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md)方法, 以及邮件发送过程中 MAPI 后台处理程序使用的其他方法。 邮件存储的传出队列并不一定对应于邮件存储区的文件夹树中的实际文件夹。 但是, 邮件存储提供程序在 "发件箱" 文件夹中显示传出邮件队列的内容 (如果有的话) 是习惯的。 这样做使客户端应用程序能够方便地指示用户已发送的邮件的状态, 因为 "发件箱" 文件夹可以与邮件存储区中的所有其他文件夹一起显示。 有关详细信息, 请参阅[使用邮件存储提供程序发送邮件](sending-messages-by-using-message-store-providers.md)。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[实现邮件存储区中的文件夹](implementing-folders-in-message-stores.md)
+[实现邮件存储中的文件夹](implementing-folders-in-message-stores.md)
 

@@ -7,11 +7,11 @@ ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: Project Server 2013 在整个 SharePoint 场中集成项目管理功能，并支持结合使用 Project Online 与客户端对象模型 (CSOM) 和用于报告数据的 OData 接口。
 localization_priority: Priority
 ms.openlocfilehash: db4dd0eed9c043021f586041fa0e28708fdbd243
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301588"
 ---
 # <a name="project-server-architecture"></a>Project Server 体系结构
 
@@ -97,9 +97,9 @@ Project Server 在可完全控制时维护项目；Project Professional 将数�
 
 下面是图 3 的一般性注释：
   
-- **Project Online：** 可以创建使用 CSOM、REST 和 OData 接口的应用。 应用包还可以在本地服务器、Azure 服务器或 Microsoft Azure 上的自定义 Web 服务中安装远程事件接收器。 Project Online 不支持第三方本地解决方案、WCF 接口、ASMX 接口或本地事件处理程序。 
+- **Project Online：** 可以创建使用 CSOM、REST 和 OData 接口的应用。应用包还可以在本地服务器、Azure 服务器或 Microsoft Azure 上的自定义 Web 服务中安装远程事件接收器。 Project Online 不支持第三方本地解决方案、WCF 接口、ASMX 接口或本地事件处理程序。 
     
-- **事件接收器：** 事件接收器亦称为“事件处理程序”。 Project Online 支持注册远程 Project Server 事件接收器，以供云中的 Project Web App 实例或本地 Project Server 安装使用。 本地 Project Server 安装支持远程事件接收器和本地完全信任事件处理程序。 
+- **事件接收器：** 事件接收器也可以称为"事件处理程序"。Project Online 支持注册远程 Project Server 事件接收器，可供云中的 Project Web App 实例或本地 Project Server 安装使用。本地 Project Server 安装支持远程事件接收器和本地完全信任事件处理程序。 
     
 - **浏览器：** 查看一些 Project Web App 页时，没有跨浏览器限制，就像在 Project Server 2010 中一样。 支持充分结合使用以下浏览器和 Project Web App： 
     
@@ -113,7 +113,7 @@ Project Server 在可完全控制时维护项目；Project Professional 将数�
     > [!NOTE]
     > 用于 PSI 中 Web 服务的基于 SOAP 的 ASMX 接口虽然在 Project Server 2013 中仍可用，但已遭弃用。 
   
-    用于报告的 OData 服务由内部 OData.svc WCF 服务实现。 可使用 `https://ServerName/ProjectServerName/_api/ProjectData/$metadata` 获取报告数据的服务元数据文档。 
+    用于报表的 OData 服务由内部 OData.svc WCF 服务实现。可以使用  `https://ServerName/ProjectServerName/_api/ProjectData/$metadata` 为报表数据获取服务元数据文档。 
     
     用于 CSOM 的 OData 服务旨在用于 Windows RT、iOS 和 Android 等平台。在这些平台中，可以在 HTML 页中结合使用 REST 接口和 JavaScript。 
     
@@ -128,7 +128,7 @@ Project Server 在可完全控制时维护项目；Project Professional 将数�
     
 - **SharePoint Web 服务：** 图 3 并未展示 SharePoint 基础结构，如属于 SharePoint Server 2013 的后端 SharePoint Web 服务应用。 在你安装 Project Server 后，Project Service Application 就会被添加到 SharePoint Web 服务中。 
     
-前端层包括第三方应用、Project Professional 和 Project Web App。 浏览器在 Project Web App 中显示 ASP.NET 4.0 页（.aspx 页）。 Project Web App 页既使用与 PSI 通信的 Project Server Web 部件，也使用标准 SharePoint Web 部件。 
+前端层包括第三方应用程序、Project Professional 和 Project Web App。浏览器在 Project Web App 中显示 ASP.NET 4.0 页面（.aspx 页面）。Project Web App 页面使用与 PSI 通信的 Project Server Web 部件，并使用标准 SharePoint Web 部件。 
   
 中间层包括 PSI 和业务对象层，其中包含表示 Project Server 业务实体的逻辑对象。 业务实体包括项目、任务、资源、作业等。 PSI 和业务对象层紧密结合，且位于同一服务器上。 客户端应用通过可用接口之一调用 PSI，PSI 调用业务对象。 为了提升性能，Project Server 2013 的 WFE 包括一些业务对象，适用于不使用 Project Server 队列系统或不需要 Project Calculation Service 的请求。 WFE 业务对象直接与 Project 数据库通信。
   

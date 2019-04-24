@@ -1,32 +1,32 @@
 ---
-title: GlowColor 单元格（“Additional Effect Properties”部分）
+title: GlowColor 单元格 ("其他效果属性" 部分)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 640d18c0-5b6a-4a2f-9c81-f74de5ba9eb1
-description: 确定用于外部发光应用于形状，以 RGB 或主题值的笔画的颜色。
-ms.openlocfilehash: 167b08815f345903aed7ff1e92dd750461839dcf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定用于将用于形状的外部发光的描边的颜色, 如 RGB 或主题值。
+ms.openlocfilehash: 726dbef7ae006af1a6ff9956d16eb73cfdd02974
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780337"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314950"
 ---
-# <a name="glowcolor-cell-additional-effect-properties-section"></a>GlowColor 单元格（“Additional Effect Properties”部分）
+# <a name="glowcolor-cell-additional-effect-properties-section"></a>GlowColor 单元格 ("其他效果属性" 部分)
 
-确定用于外部发光应用于形状，以 RGB 或主题值的笔画的颜色。
+确定用于将用于形状的外部发光的描边的颜色, 如 RGB 或主题值。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**GlowColor**单元格的引用，请使用： 
+若要从另一个公式按名称获取对**GlowColor**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | GlowColor  <br/> |
    
-若要从某个程序按索引获取对**GlowColor**单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对**GlowColor**单元格的引用, 请使用带下列参数的**CellsSRC**属性: 
   
 |||
 |:-----|:-----|

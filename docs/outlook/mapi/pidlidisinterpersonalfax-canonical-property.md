@@ -12,40 +12,40 @@ api_type:
 - COM
 ms.assetid: 061c83ae-f561-41d8-a575-ef27e65c7f97
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f35780540f42fd4d3777b9fdd89c6795c97d98fe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: becb058fc6434765c238421f59a8775fb76c2d2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315440"
 ---
 # <a name="pidlidisinterpersonalfax-canonical-property"></a>PidLidIsInterpersonalFax 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指示项目是否为 internet 传真项目。
+指示项目是否为 internet 传真项。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidIsIPFax  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x0000859B  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x0000859B  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

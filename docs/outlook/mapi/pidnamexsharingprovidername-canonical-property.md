@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4d385754-5132-4ae3-9e5d-686d58857b5b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a56a93f425ccba36229e262c0e93815ffc998017
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315881"
 ---
 # <a name="pidnamexsharingprovidername-canonical-property"></a>PidNameXSharingProviderName 规范属性
 
@@ -25,13 +25,13 @@ ms.locfileid: "25390875"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-代表由**dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) 属性标识的共享提供程序的用户可显示名称。
+表示由**dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) 属性标识的共享提供程序的用户可显示名称。
   
 |||
 |:-----|:-----|
-|友好名称：  <br/> |无  <br/> |
-|属性进行设置：  <br/> |PS_INTERNET_HEADERS  <br/> |
-|属性名称：  <br/> |X-共享的提供程序的名称  <br/> |
+|友好名称:  <br/> |无  <br/> |
+|属性集:  <br/> |PS_INTERNET_HEADERS  <br/> |
+|属性名称:  <br/> |X 共享-提供程序名称  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
@@ -39,17 +39,17 @@ ms.locfileid: "25390875"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[毫秒-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> 共享客户端之间的邮箱文件夹。
+> 在客户端之间共享邮箱文件夹。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

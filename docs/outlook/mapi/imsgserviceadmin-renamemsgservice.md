@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: eba0e7f2-03c1-4713-aa36-3d0b398cd197
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a6eba20fb346f53052808abf8fcae8993d423d34
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 2f0f1fb94ea36512bbc40df8a4877e89d2613a25
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309980"
 ---
 # <a name="imsgserviceadminrenamemsgservice"></a>IMsgServiceAdmin::RenameMsgService
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-已弃用。 将新的名称分配给邮件服务。 
+已弃用。 为邮件服务分配一个新名称。 
   
 ```cpp
 HRESULT RenameMsgService(
@@ -39,25 +39,25 @@ HRESULT RenameMsgService(
 
  _lpUID_
   
-> [in]一个指向[MAPIUID](mapiuid.md)结构，其中包含要重命名的消息服务的唯一标识符。 
+> 实时指向[MAPIUID](mapiuid.md)结构的指针, 该结构包含要重命名的邮件服务的唯一标识符。 
     
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
  _lpszDisplayName_
   
-> [in]一个指向邮件服务的新名称。
+> 实时指向邮件服务的新名称的指针。
     
 ## <a name="return-value"></a>返回值
 
 MAPI_E_NO_SUPPORT 
   
-> MAPI 不支持重命名此消息服务。 **RenameMsgService**始终返回此值。 
+> MAPI 不支持重命名此邮件服务。 **RenameMsgService**始终返回此值。 
     
 ## <a name="remarks"></a>注解
 
-分配给消息服务的新名称，客户端应使用消息服务的**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) 属性。 消息服务中的服务提供商的名称将存储在其**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。 
+若要将新名称分配给邮件服务, 客户端应使用邮件服务的**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) 属性。 邮件服务中的服务提供程序的名称存储在其**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性中。 
   
 ## <a name="see-also"></a>另请参阅
 

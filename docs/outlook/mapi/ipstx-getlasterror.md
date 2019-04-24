@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 68dc0ecc-881e-de69-faaa-90acb9857031
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f45b070464fe1b3c177088ff6aa3295f961d45f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 1d0fb16ba63548a44dba3920670c0e65f8c700a1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315097"
 ---
 # <a name="ipstxgetlasterror"></a>IPSTX::GetLastError
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-获取有关扩展的信息的最后一个错误。
+获取有关上一个错误的扩展信息。
   
 ```cpp
 HRESULT GetLastError( 
@@ -39,15 +39,15 @@ HRESULT GetLastError(
 
  _hResult_
   
->  [in]错误代码。 
+>  实时错误代码。 
     
  _ulFlags_
   
->  [] in若要修改行为的标志。 这必须是 0。 
+>  [] in若要修改行为的标志。 该值必须为0。 
     
  _lppMAPIError_
   
->  [输出]指向包含错误的扩展的信息**MAPIERROR**结构。 请参阅 mapidefs.h **LPMAPIERROR**的类型定义。 
+>  排除指向包含错误的扩展信息的**MAPIERROR**结构的指针。 有关**LPMAPIERROR**的类型定义, 请参阅 mapidefs.h。 
     
 ## <a name="see-also"></a>另请参阅
 

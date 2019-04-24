@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0de9d4e2-eb3f-40e7-aa24-f430892eb9ec
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 65d4257037b18c8fa68cabe0c08091ec67343fa5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 882458ab096cbced8e0635dab65fe0b1d680388f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310995"
 ---
 # <a name="canceloutstandingrequests"></a>CancelOutstandingRequests
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-通知的 Excel 计算已被取消，因此所有挂起的会话中的函数调用可能会取消以及群集连接器 （和 Excel 并不需要其结果的回调）。
+通知群集连接器已取消某个 Excel 计算, 因此该会话中的所有挂起的函数调用也可能会被取消 (并且 Excel 不希望回调与其结果一起)。
   
 ```cpp
 int CancelOutstandingRequests(int SessionId)
@@ -28,15 +28,15 @@ int CancelOutstandingRequests(int SessionId)
 
 _SessionID_
   
-> 使用已取消计算会话的 ID。 此值匹配[OpenSession](opensession.md)返回的值。
+> 已取消的计算所使用的会话的 ID。 此值与[OpenSession](opensession.md)返回的值相匹配。
     
 ## <a name="return-value"></a>返回值
 
-**xlHpcRetSuccess** _SessionId_参数是否有效;**xlHpcRetInvalidSessionId** _SessionId_参数无效; 如果有关其他故障**xlHpcRetCallFailed** 。 
+如果_SessionId_参数有效, 则为**xlHpcRetSuccess** , 否则为 false。**xlHpcRetInvalidSessionId**如果_SessionId_参数无效, 则为有关其他故障的**xlHpcRetCallFailed** 。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-实施应以提高性能，作为此呼叫将被丢弃由 Excel 之后收到任何结果会话停止所有进程。
+实施者应停止会话的所有进程以提高性能, 因为 Excel 将放弃在此调用之后收到的任何结果。
   
 ## <a name="see-also"></a>另请参阅
 

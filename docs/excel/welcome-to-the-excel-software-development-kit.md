@@ -1,5 +1,5 @@
 ---
-title: 欢迎使用 Excel 软件开发工具包
+title: ��ӭʹ�� Excel ����������߰�
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,11 +10,11 @@ ms.assetid: abfc9d76-6f22-49b9-ba45-eb7a54b082e0
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 localization_priority: Priority
 ms.openlocfilehash: 365aea48cd520cd368c2a118c832aa705280a308
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310295"
 ---
 # <a name="welcome-to-the-excel-software-development-kit"></a>欢迎使用 Excel 软件开发工具包
 

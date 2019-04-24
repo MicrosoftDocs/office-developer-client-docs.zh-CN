@@ -7,11 +7,11 @@ ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: 本文介绍如何配置即时消息 (IM) 客户端应用程序，以便它与 Office 2013 中的社交功能集成，包括显示状态并从联系人卡片发送即时消息。
 localization_priority: Priority
 ms.openlocfilehash: b3add86f011e016b1b6ea1a74f425f3f1deab002
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270112"
 ---
 # <a name="integrating-im-applications-with-office"></a>将 IM 应用程序与 Office 集成
 

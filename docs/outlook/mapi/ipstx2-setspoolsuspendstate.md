@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 396db029-1d4a-203d-2256-3353d03c6767
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b6a36c1e0c3854342b627b6fddd6eb5459211f62
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: e988114e8e71ad1f80d20ab0d5a30c37425f5952
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315055"
 ---
 # <a name="ipstx2setspoolsuspendstate"></a>IPSTX2::SetSpoolSuspendState
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-在后台处理程序上设置的挂起的状态。
+设置后台处理程序的挂起状态。
   
 ```cpp
 void SetSpoolSuspendState( 
@@ -37,7 +37,7 @@ void SetSpoolSuspendState(
 
  _ulState_
   
-> [in]要设置为后台处理程序的状态。 它必须是下列值之一：
+> 实时要将后台打印程序设置为的状态。 它必须是下列值之一:
     
  **SS_ACTIVE**
   

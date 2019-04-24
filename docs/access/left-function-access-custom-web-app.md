@@ -1,35 +1,35 @@
 ---
-title: Left 函数 （访问自定义 web 应用程序）
+title: Left 函数 (Access 自定义 web 应用程序)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d2c726a3-29b2-491b-9c14-b4523f7f08f2
-description: 返回指定数量的字符的字符串的左侧的部分。
-ms.openlocfilehash: c1204173ff5eceef9584aadc794227034214380f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回字符串中指定数量的字符的左侧部分。
+ms.openlocfilehash: 6a2ba6f43701552a2dba2b983f405d4f3d898bad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311100"
 ---
-# <a name="left-function-access-custom-web-app"></a>Left 函数 （访问自定义 web 应用程序）
+# <a name="left-function-access-custom-web-app"></a>Left 函数 (Access 自定义 web 应用程序)
 
-返回指定数量的字符的字符串的左侧的部分。
+返回字符串中指定数量的字符的左侧部分。
   
 > [!IMPORTANT]
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
- **左**(*TextExpression*，*长度*) 
+ **Left**(*TextExpression*, *Length*) 
   
-**Left**函数包含以下参数。 
+**Left**函数包含下列参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|
 | *TextExpression*  <br/> |文本表达式。  <br/> |
-| *Length*  <br/> |是一个正整数，指定返回的*TextExpression*字符数。  <br/> |
+| *Length*  <br/> |是一个正整数, 指定返回*TextExpression*的多少个字符。  <br/> |
    
 

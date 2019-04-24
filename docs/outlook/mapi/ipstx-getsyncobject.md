@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: b93dae79-4305-9a3a-7b93-42319f7e26ba
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e0e27d86098ec55849fa96cc150c60934ef2810b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 31ef1f5c6af498f042ab766ae90fcfbce805700a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315083"
 ---
 # <a name="ipstxgetsyncobject"></a>IPSTX::GetSyncObject
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-启动同步会话，并获取相关联的**[IOSTX](iostxiunknown.md)** 接口。 
+启动同步会话并获取关联的**[IOSTX](iostxiunknown.md)** 接口。 
   
 ```cpp
 HRESULT GetSyncObject( 
@@ -37,11 +37,11 @@ HRESULT GetSyncObject(
 
  _ppostx_
   
->  [输出]指向要获取的**IOSTX**接口的指针。 
+>  排除指向要获取的**IOSTX**接口的指针。 
     
 ## <a name="remarks"></a>注解
 
-呼叫者必须确保同时在多个线程上不同步的相同的文件夹。
+调用方必须确保同一个文件夹不会同时在多个线程上同步。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a61b50fe-eacb-b3d4-0e4e-ab3e7c972ee9
 description: 确定形状的文本块中文本的大小。
-ms.openlocfilehash: f3077441844b859cf224eccc8180d0d56cce851f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ea747620301a07cafaf179106b54510edb95f7ed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781366"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314796"
 ---
-# <a name="size-cell-character-section"></a>Size 单元格（“Character”部分）
+# <a name="size-cell-character-section"></a>Size 单元格（“Character”内容）
 
 确定形状的文本块中文本的大小。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 文本大小与绘图比例无关。即使绘图比例进行调整，文本大小仍然保持不变。
   
@@ -28,14 +28,14 @@ ms.locfileid: "19781366"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | Char.Size [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
+| 单元格名称：  <br/> | Char. Size [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
    
 要从某个程序按索引获取对 Size 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionCharacter** <br/> |
-| 行索引：  <br/> |**visRowCharacter** +  *i*其中*i* = 0、 1、 2...  <br/> |
+| 行索引：  <br/> |**visRowCharacter** +  *i* = ** 0、1、2 .。。  <br/> |
 | 单元格索引：  <br/> |**visCharacterSize** <br/> |
    
 

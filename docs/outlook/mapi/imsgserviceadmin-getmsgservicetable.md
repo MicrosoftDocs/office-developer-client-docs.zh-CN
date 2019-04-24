@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 064dd5ca-0108-4045-b17b-0bb29cb93346
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5d8e91490cc39c3f259d35a923bb3bcbb2bf6011
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fcaebb96d4dca4e6bfbee7491dabeafcbd93a2eb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309973"
 ---
 # <a name="imsgserviceadmingetmsgservicetable"></a>IMsgServiceAdmin::GetMsgServiceTable
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-提供对邮件服务表，该配置文件中的消息服务的列表的访问。
+提供对邮件服务表 (配置文件中的邮件服务列表) 的访问权限。
   
 ```cpp
 HRESULT GetMsgServiceTable(
@@ -38,31 +38,31 @@ HRESULT GetMsgServiceTable(
 
  _ulFlags_
   
-> [in]始终为 NULL。
+> 实时始终为 NULL。
     
  _lppTable_
   
-> [输出]指向邮件服务表的指针的指针。
+> 排除指向邮件服务表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回邮件服务表。
+> 成功返回邮件服务表。
     
 ## <a name="remarks"></a>注解
 
-**IMsgServiceAdmin::GetMsgServiceTable**方法提供对邮件服务表，一个表，MAPI 维护列出当前在会话配置中安装的消息服务的访问。 邮件服务表中的列的完整列表，请参阅[邮件服务表](message-service-tables.md)。
+**IMsgServiceAdmin:: GetMsgServiceTable**方法提供对邮件服务表的访问, MAPI 维护的表列出了当前安装在会话配置文件中的邮件服务。 有关邮件服务表中的列的完整列表, 请参阅[message service 表](message-service-tables.md)。
   
-邮件服务表是静态的。 客户端具有已向其授予访问后，后续消息服务添加或删除操作不会影响它。 如果当前配置文件中没有邮件服务， **GetMsgServiceTable**返回具有零个行的表。 
+邮件服务表是静态的。 客户端被授予访问权限后, 后续的邮件服务添加或删除操作不会影响它。 如果当前配置文件中没有任何邮件服务, **GetMsgServiceTable**将返回一个包含零行的表。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnRefreshView  <br/> |MFCMAPI 使用**IMsgServiceAdmin::GetMsgServiceTable**方法加载配置文件以呈现在视图中的服务的表。  <br/> |
+|MsgServiceTableDlg  <br/> |CMsgServiceTableDlg:: OnRefreshView  <br/> |MFCMAPI 使用**IMsgServiceAdmin:: GetMsgServiceTable**方法加载要在视图中呈现的配置文件中的服务表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

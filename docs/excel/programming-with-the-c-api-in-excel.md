@@ -1,5 +1,5 @@
 ---
-title: 在 Excel 中使用 C API 进行编程
+title: �� Excel ��ʹ�� C API ���б��
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,11 +10,11 @@ ms.assetid: 142bc0ce-7d16-4b69-9799-ce6558da2def
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 localization_priority: Priority
 ms.openlocfilehash: d07217fe410fedb18da4600ab07078d1aaf5d083
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310463"
 ---
 # <a name="programming-with-the-c-api-in-excel"></a>在 Excel 中使用 C API 进行编程
 

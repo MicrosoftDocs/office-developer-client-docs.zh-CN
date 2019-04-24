@@ -1,51 +1,51 @@
 ---
-title: 像 （访问自定义 web 应用程序）
+title: LIKE (Access 自定义 web 应用)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: decdd8fc-2184-4d97-b918-3ef6ab1ab40b
-description: 确定特定字符串是否与指定的模式匹配。 模式可以包含常规字符和通配符。 模式匹配时，常规字符必须完全匹配字符串中指定的字符。 但是，通配符可以与字符串的任意部分相匹配。 使用通配符可使 LIKE 运算符比使用 = 更灵活和 ！ = 字符串比较运算符。
-ms.openlocfilehash: d3224647c621b05a08bdc863939d0cccae214463
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定特定字符串是否与指定的模式相匹配。 模式可以包含常规字符和通配符字符。 在模式匹配期间, 常规字符必须与字符字符串中指定的字符完全匹配。 但是, 通配符可以与字符串的任意段相匹配。 与使用 = 和! = 字符串比较运算符相比, 使用通配符可使 LIKE 运算符更灵活。
+ms.openlocfilehash: 02d1e4f8fc61335e828a1f77579c14b1c7577485
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773487"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311079"
 ---
-# <a name="like-access-custom-web-app"></a>像 （访问自定义 web 应用程序）
+# <a name="like-access-custom-web-app"></a>LIKE (Access 自定义 web 应用)
 
-确定特定字符串是否与指定的模式匹配。 模式可以包含常规字符和通配符。 模式匹配时，常规字符必须完全匹配字符串中指定的字符。 但是，通配符可以与字符串的任意部分相匹配。 使用通配符可使**LIKE**运算符比使用 = 更灵活和 ！ = 字符串比较运算符。 
+确定特定字符串是否与指定的模式相匹配。 模式可以包含常规字符和通配符字符。 在模式匹配期间, 常规字符必须与字符字符串中指定的字符完全匹配。 但是, 通配符可以与字符串的任意段相匹配。 与使用 = 和! = 字符串比较运算符相比, 使用通配符可使**LIKE**运算符更灵活。 
   
 > [!IMPORTANT]
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
- *表达式* [NOT]**像***模式* [转义*EscapeChar* ] 
+ *表达式* 不要**LIKE***模式* [ESCAPE *EscapeChar* ] 
   
 **LIKE**运算符包含以下参数 
   
-|**参数名称**|**必需**|**说明**|
+|**参数名称**|**必需**|**描述**|
 |:-----|:-----|:-----|
-| *Expression*  <br/> |可访问  <br/> |一个有效表达式。  <br/> |
-| *Pattern*  <br/> |可访问  <br/> |要在*表达式*中搜索特定字符串。 可以包含通配符字符。 引用一组有效通配符字符的备注。  <br/> |
-| *EscapeChar*  <br/> |否  <br/> |应解释通配符放置通配符来指示前面的字符，为常规字符，而不是通配符。  *EscapeChar*是没有默认值和计算结果必须为只有一个字符的字符表达式。  <br/> |
+| *Expression*  <br/> |是  <br/> |一个有效的表达式。  <br/> |
+| *Pattern*  <br/> |是  <br/> |要在*表达式*中搜索的特定字符串的字符。 可以包含通配符字符。 请参阅备注获取有效通配符字符的列表。  <br/> |
+| *EscapeChar*  <br/> |否  <br/> |放在通配符前面的字符, 用于指示通配符应被解释为常规字符, 而不是通配符。  *EscapeChar*是一个不含默认值的字符表达式, 并且必须仅取值为一个字符。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-下表包含有效的*模式*参数中使用通配符。 
+下表包含可在*Pattern*参数中使用的有效通配符字符。 
   
 |**通配符**|**说明**|**示例**|
 |:-----|:-----|:-----|
-|%  <br/> |零个或多个字符的任意字符串。  <br/> | *其中 title '%计算机 %' 像*查找的单词计算机的所有书名任意位置中书籍标题。  <br/> |
-|_（下划线字符）  <br/> |任意单个字符。  <br/> | *像 _ean WHERE au_fname*查找 ean （Dean、 Sean，等等） 结尾的所有四个字母第一个名称。  <br/> |
-|[]  <br/> |任何单个字符指定区域 ([a-f]) 中或设置 (例如 [abcdef])。  <br/> | *位置 au_lname 类似 [C-P] arsen*查找创作姓氏结尾 arsen 和启动之间有任意单个字符 C 和 P，例如 Carsen，Larsen，Karsen，等等。  <br/> |
-|[^]  <br/> |任何单个字符不在指定范围内的 ([^ 为 a-f]) 或设置 ([^ abcdef])。  <br/> | *如位置 au_lname de [^ l] %'* 所有作者开头 de 和以下号不 l 的最后一个姓名。  <br/> |
+|%  <br/> |任何零个或多个字符的字符串。  <br/> | *其中标题 (如 "% computer%"* ) 查找书名中带有 "computer" 一词的所有书籍标题。  <br/> |
+|_（下划线字符）  <br/> |任意单个字符。  <br/> | *其中, au_fname (如 "_ean"* ) 查找以 ean (Dean、小红等) 结尾的所有四个字母的名字。  <br/> |
+|[]  <br/> |指定范围内的任意单个字符 ([a-f]) 或 set ([abcdef])。  <br/> | *其中 au_lname LIKE "[C-P] arsen"* 查找作者姓以 arsen 开头, 并以 C 和 P 之间的任何单个字符开始, 例如 Carsen、Larsen、Karsen 等等。  <br/> |
+|[^]  <br/> |不在指定范围 ([^ a-f]) 或 set ([^ abcdef]) 内的任何单个字符。  <br/> | *其中, au_lname (如 "de [^ l]%")* 所有作者姓以 de 开头, 并且在以下字母不是 l。  <br/> |
    
-时使用**如**执行字符串比较，模式字符串中的所有字符都都有意义。 这包括前导或尾随空格。 如果要在查询中的比较返回所有行，**如**字符串 abc (abc 跟一个空格)，则不返回的行顺序的列的值是 abc (abc 后没有空格)。 但是，向其匹配模式，该表达式中的尾随空格将被忽略。 如果在查询中的比较是所有一起返回行**类似**的字符串 abc (不带空格的 abc)，则返回所有行的开头 abc 和具有零个或多个尾随空格。 
+使用**LIKE**执行字符串比较时, 模式字符串中的所有字符都非常重要。 这包括前导空格或尾随空格。 如果查询中的比较结果是返回一个字符串 (abc 后跟**** 一个空格) 的所有行, 则不返回该列的值为 abc (abc 不带空格) 的行。 但是, 将忽略模式与之匹配的表达式中的尾随空白。 如果查询中的比较结果是返回字符串中包含 "abc" **** (abc 不带空格) 的所有行, 则返回以 "abc" 开头且具有零个或多个尾随空格的所有行。 
   
-如果任一参数不是字符串数据类型，它转换为 string 数据类型，如果可能。
+如果任何一个参数不是 string 数据类型, 则会将其转换为 string 数据类型 (如果可能)。
   
 

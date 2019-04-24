@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 94580044-9497-425f-a31e-53bb4d94dc30
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: f2830633482e5329d285907b610386b708c406a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 530cb9cce5b0023318ff6b8a0ff73472f8250aa3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310988"
 ---
 # <a name="convertxlreftoxlref12"></a>ConvertXLRefToXLRef12
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-尝试**XLREF**转换**XLREF12**的框架函数。
+试图将**XLREF**转换为**XLREF12**的 Framework 函数。
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF pxRef, LPXLREF12 pxRef12);
@@ -32,19 +32,19 @@ BOOL ConvertXLRefToXLRef12(LPXLREF pxRef, LPXLREF12 pxRef12);
 
  _pxRef_(**LPXLREF**)
   
-指向源引用结构。
+指向源引用结构的指针。
   
  _pxRef12_(**LPXLREF12**)
   
-转换后的值是放置到其中的目标引用结构的指针。
+指向将在其中放置转换后的值的目标参考结构的指针。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
- 如果为**TRUE**转换成功， **FALSE**否则。 
+ 如果转换成功,**则为 TRUE** , 否则为**FALSE** 。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-传入的**XLREF**是有效的则此操作应始终为成功。 相比之下，转换的其他方式从**XLREF12** **XLREF**，由[ConvertXLRef12ToXLRef](convertxlref12toxlref.md)，执行失败提供的引用引用的 Excel 2007 工作表中不支持早期版本中的一部分。
+如果传入的**XLREF**是有效的, 则此操作应始终成功。 相比之下, 如果所提供的引用引用的是早期版本中不支持的 Excel 2007 工作表的一部分, 则通过[ConvertXLRef12ToXLRef](convertxlref12toxlref.md)执行的另一种从**XLREF12**到**XLREF**的转换将失败。
   
 ## <a name="example"></a>示例
 

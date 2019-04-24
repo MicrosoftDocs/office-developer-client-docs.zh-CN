@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a79a139a-6813-49f6-b622-bb66d62c4462
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b8ce3898ac021bc6eec2af6220889d71ff5a18dc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316154"
 ---
 # <a name="pidtaggender-canonical-property"></a>PidTagGender 规范属性
 
@@ -25,52 +25,52 @@ ms.locfileid: "25386612"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息的用户的性别。
+包含邮件用户的性别。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_GENDER  <br/> |
-|标识符：  <br/> |0x3A4D  <br/> |
+|标识符:  <br/> |0x3A4D  <br/> |
 |数据类型：  <br/> |PT_I2  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性提供标识和访问有关消息的用户信息并且其内容。 按消息的用户和邮件用户的组织定义的内容。 
+此属性提供有关邮件用户和内容的标识和访问信息。 内容由邮件用户和邮件用户的组织定义。 
   
-此属性的可能值是性别枚举中定义的。 排列，如下所示：
+此属性的可能值是在性别枚举中定义的。 它们按如下方式列出:
   
-|**性别枚举**|**值**|**说明**|
+|**性别枚举**|**Value**|**说明**|
 |:-----|:-----|:-----|
 |genderUnspecified  <br/> |0x0000  <br/> |未指定联系人的性别。  <br/> |
-|genderFemale  <br/> |0x0001  <br/> |联系人正在女。  <br/> |
-|genderMale  <br/> |0x0002  <br/> |联系人正在男性。  <br/> |
+|genderFemale  <br/> |0x0001  <br/> |联系人为 "女"。  <br/> |
+|genderMale  <br/> |0x0002  <br/> |联系人是男。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定允许用于联系人和个人通讯组列表的属性和操作。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和用户、 联系人、 组和资源的操作列表。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

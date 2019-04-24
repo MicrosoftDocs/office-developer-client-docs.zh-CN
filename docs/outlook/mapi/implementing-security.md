@@ -7,32 +7,32 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 62db34a0-887c-4607-94ad-d8cae68b35c2
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c2926e7c94178d5a3135f34e2ab3b3ae11d145dd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: c430160ee508a86f36d840c7916c0516cfc10fbd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310057"
 ---
 # <a name="implementing-security"></a>实现安全性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-如果消息的系统要求，传输提供程序负责为实现适当的访问邮件系统的安全级别。 通过传输提供程序通过 MAPI 后台处理程序发送的每个传入或传出邮件处理提供程序的登录会话的上下文中。 传输提供程序可以向建立此类连接前提示用户的凭据的用户显示的登录对话框。 此外，传输提供程序可以存储安全属性范围内配置文件一节中的用户的以前输入的凭据，并使用它们的访问而不提示。
+如果邮件系统需要它, 则传输提供程序负责实现相应的安全级别, 以访问邮件系统。 MAPI 后台处理程序通过传输提供程序发送的每封传入或传出邮件在提供程序登录会话的上下文中进行处理。 在建立此类连接之前, 传输提供程序可以向用户显示登录对话框, 以提示输入用户的凭据。 或者, 传输提供程序可以将用户以前输入的凭据存储在 profile 节内的安全属性范围中, 并将其用于 access, 而无需提示。
   
-实现传输提供程序的安全时, 考虑以下事项：
+在实现传输提供程序的安全性时, 请考虑以下事项:
   
-- 与多个安装的服务提供程序，可以有大量的用户名和密码与用户关联。
+- 在安装了多个服务提供程序的情况下, 可能会有许多与用户相关联的名称和密码。
     
-- MAPI 允许与多个身份的多个会话。 提供程序鼓励支持多个会话，但不是需要这样做。
+- MAPI 允许多个会话具有多个标识。 鼓励提供商支持多个会话, 但这不是必需的。
     
-- 与用户的配置文件中的离散节，每个会话与传输提供程序相关联 MAPI。 传输提供程序可以使用[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)方法可访问此部分中，可用于存储与此会话，包括凭据关联的任何信息。 
+- 与传输提供程序的每个会话都与用户配置文件中的离散部分的 MAPI 关联。 传输提供程序可以使用[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)方法获取对此部分的访问权限, 这可用于存储与此会话相关联的任何信息, 包括凭据。 
     
-- 与多个已安装的传输提供程序，就不一定是 true 用户仅有单个电子邮件地址。 用户可以为每个已安装的传输提供程序具有单独的电子邮件地址，或为每个会话在单个提供程序可以具有不同的地址。
+- 如果有多个已安装的传输提供程序, 则不一定是用户只能有一个电子邮件地址。 用户可以为每个已安装的传输提供程序提供单独的电子邮件地址, 也可以为单个提供程序上的每个会话提供不同的地址。
     
-有关将凭据存储在配置文件部分的详细信息，请参阅[消息服务和配置文件](message-services-and-profiles.md)和[IProfSect: IMAPIProp](iprofsectimapiprop.md)。
+有关在 profile 节中存储凭据的详细信息, 请参阅[Message Services and](message-services-and-profiles.md) profile and [IProfSect: IMAPIProp](iprofsectimapiprop.md)。
   
 

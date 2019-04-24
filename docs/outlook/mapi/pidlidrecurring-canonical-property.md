@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3d39a053-277f-4d59-ab2e-cee81710f2ab
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 85e78695a7c4fca5a1e5cd28b0254d4559be0c13
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315916"
 ---
 # <a name="pidlidrecurring-canonical-property"></a>PidLidRecurring 规范属性
 
@@ -25,37 +25,37 @@ ms.locfileid: "25399478"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定是否定期约会消息。
+指定是否反复出现约会邮件。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidRecurring  <br/> |
-|属性进行设置：  <br/> |PSETID_Appointment  <br/> |
-|长 ID （盖）：  <br/> |0x00008223  <br/> |
+|属性集:  <br/> |PSETID_Appointment  <br/> |
+|长 ID (盖子):  <br/> |0x00008223  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果约会的定期约会，并且如果它不定期为 FALSE，则此属性为 TRUE。
+如果约会是定期约会, 则此属性为 TRUE, 如果不是定期约会, 则为 FALSE。
   
-此属性指定对象代表定期系列。 TRUE 表示该对象代表定期系列。 值为 FALSE 或不存在此属性，指示该对象表示单个实例或异常 （包括孤立实例）。 请注意此属性与**LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) 属性之间的差异。
+此属性指定对象是否表示定期系列。 如果值为 TRUE, 则表示对象表示定期系列。 值为 FALSE, 或缺少此属性时, 表示对象表示单个实例或异常 (包括孤立实例)。 请注意此属性与**LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) 属性之间的差异。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

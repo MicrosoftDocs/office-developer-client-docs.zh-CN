@@ -7,44 +7,44 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a4c71b08-c47a-4421-8603-d5356d32dca9
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 489a5888014fa9299b407ebf91759627427b69bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 15c1d502947865c02973f4950b6b6fa8109b8e78
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571386"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310078"
 ---
 # <a name="implementing-name-resolution"></a>实现名称解析
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-通讯簿提供程序负责支持名称解析 — 将条目标识符显示名称相关联的过程。 客户端启动名称解析致电[IAddrBook::ResolveName](iaddrbook-resolvename.md)以确保每个成员的传出邮件的收件人列表对应于有效的地址。 
+通讯簿提供程序负责支持名称解析, 即将条目标识符与显示名称关联的过程。 客户端在调用[IAddrBook:: ResolveName](iaddrbook-resolvename.md)时启动名称解析, 以确保传出邮件的收件人列表的每个成员都对应于一个有效的地址。 
   
-您的提供商可以支持名称解析的：
+提供程序可以通过以下方式支持名称解析:
   
-- 支持**PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) 属性限制，所有通讯簿容器的要求。
+- 支持**PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) 属性限制, 这是对所有通讯簿容器的要求。
     
-- 实现[IABContainer::ResolveNames](iabcontainer-resolvenames.md)方法，用于所有通讯簿容器的选项。 
+- 实现[IABContainer:: ResolveNames](iabcontainer-resolvenames.md)方法, 一个适用于所有通讯簿容器的选项。 
     
-如果您选择支持**IABContainer::ResolveNames**，尝试在使用_lpAdrList_参数传递的[ADRLIST](adrlist.md)结构中找到的每个未解析的显示名称的准确匹配。 您可以标识未解析的显示名称，因为它缺少**ADRLIST**结构中的其**aEntries**成员中的属性值数组中的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。 忽略具有零个属性及其相关联的任何项。 
+如果选择支持**IABContainer:: ResolveNames**, 请尝试查找与使用_lpAdrList_参数传入的[ADRLIST](adrlist.md)结构中的每个未解析的显示名称完全匹配的项。 您可以 identifiy 一个未解析的显示名称, 因为它在**ADRLIST**结构的**aEntries**成员的属性值数组中缺少**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。 忽略任何与零属性相关联的条目。 
   
-报告您尝试分辨率_lpFlagList_参数，对应于_lpAdrList_中的显示名称的数组的标志数组中的结果。 Flags 位置以便第一个标志对应于**ADRLIST**结构中的第一个**aEntries**成员，第二个标志对应于第二个**aEntries**成员，依此类推。 
+报告_lpFlagList_参数中的解析结果, 即与_lpAdrList_中的显示名称数组相对应的标志数组。 这些标志的位置如下: 第一个标志对应于**ADRLIST**结构中的第一个**aEntries**成员, 第二个标志对应于第二个**aEntries**成员, 依此类推。 
   
-有三种可能的结果，为每个未解析的项：
+每个未解析的条目都有三个可能的结果:
   
-- 未找到匹配，这意味着无容器条目中的条目匹配**ADRLIST**结构中的条目。 设置 MAPI_UNRESOLVED 的_lpFlagList_参数中的相应项。 
+- 找不到匹配项, 这意味着容器条目中的任何条目都与**ADRLIST**结构中的条目不匹配。 将_lpFlagList_参数中对应的条目设置为 MAPI_UNRESOLVED。 
     
-- 可以找到多个匹配，这意味着有多个容器条目相匹配的**ADRLIST**结构中的条目。 设置 MAPI_AMBIGUOUS 的_lpFlagList_参数中的相应项。 不要更改**ADRLIST**结构中的条目数。 
+- 可以找到多个匹配项, 这意味着有多个容器条目与**ADRLIST**结构中的条目相匹配。 将_lpFlagList_参数中对应的条目设置为 MAPI_AMBIGUOUS。 请勿更改**ADRLIST**结构中的条目数。 
     
-- 可以找到精确的匹配，这意味着只有一个容器条目相匹配的**ADRLIST**结构中的条目。 MAPI_RESOLVED _lpFlagList_参数中设置的相应成员并将条目标识符添加到与**ADRLIST**条目关联的属性的数组。 
+- 可以找到完全匹配的, 这意味着只有一个容器条目与**ADRLIST**结构中的条目相匹配。 将_lpFlagList_参数中对应的成员设置为 MAPI_RESOLVED, 并将条目标识符添加到与**ADRLIST**条目关联的属性数组中。 
     
-如果您选择不支持**IABContainer::ResolveNames**，返回 MAPI_E_NO_SUPPORT 从您的实现。
+如果您选择不支持**IABContainer:: ResolveNames**, 请从您的实现返回 MAPI_E_NO_SUPPORT。
   
-所有通讯簿提供程序都需要支持模糊名称解析- **PR_ANR**属性限制 — 对其容器的内容表。 提供支持，请通过执行搜索，针对一个或多个提供程序有意义的特定属性的匹配"最佳猜测"类型处理的[IMAPITable::Restrict](imapitable-restrict.md)实现中 PR_ANR 限制。 您可以选择使用同一个或多个属性每次时，如**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 或**PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md))，或允许管理员可供选择的可接受的属性的列表。 
+所有通讯簿提供程序都需要在其容器的内容表上支持不明确的名称解析 ( **PR_ANR**属性限制)。 若要提供此支持, 请在您的[IMAPITable:: Restrict](imapitable-restrict.md)中通过执行 "最佳推测" 类型的搜索来处理 PR_ANR 限制, 使其与对您的提供商有意义的一个或多个特定属性相匹配。 您可以选择每次使用相同的属性或属性, 例如**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 或**PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)), 或允许管理员从可接受的属性列表中进行选择。 
   
-尽管大多数提供程序提供自己的内容表实现，可以自定义由 MAPI 提供通过[CreateTable](createtable.md)函数的实现。 但是，由于 MAPI 实现不支持任何类型的限制，您必须创建包装对象包含截取调用的**限制**的自定义的版本。 
+尽管大多数提供程序都提供其自己的内容表实现, 但您可以通过[CreateTable](createtable.md)函数自定义 MAPI 提供的实现。 但是, 由于 MAPI 实现不支持任何种类的限制, 因此您必须创建一个包装对象, 以包含截获该调用的自定义版本的**限制**。 
   
 

@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a166f39c-f10b-4e56-8b5d-e6a54ee08c8f
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 7cc07093e5db335d01fe85527746594d34d4d938
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd4b4ad5bf52f29384ef7e0ba738c350189f471e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310050"
 ---
 # <a name="xlgetinstptr"></a>xlGetInstPtr
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-返回当前正在呼叫 DLL 的 Microsoft Excel 实例的实例句柄。
+返回当前正在调用 DLL 的 Microsoft Excel 实例的实例句柄。
   
 ```cs
 Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 0);
@@ -26,23 +26,23 @@ Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 
 
 ## <a name="parameters"></a>参数
 
-此函数具有任何参数。
+此函数没有参数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-在**val.bigdata.h.hdata**字段将实例句柄 (**xltypeBigData**)。 
+实例句柄 (**xltypeBigData**) 将位于**bigdata**字段中。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-用于区分多个运行实例 Excel 的 DLL 调用此函数。
+此函数可用于区分调用 DLL 的 Excel 的多个运行实例。
   
-此函数返回与 32 位和 64 位版本的 Excel 的正确值。 它引入了 Excel 2010 中作为扩展到[xlGetInst](xlgetinst.md)函数，仅与 32 位版本的 Excel 一起正常运行。 
+此函数将返回包含32位和64位版本的 Excel 的正确值。 它在 excel 2010 中引入, 作为[xlGetInst](xlgetinst.md)函数的扩展, 它只能在32位版本的 Excel 中正常运行。 
   
-因为**XLOPER**和**XLOPER12**具有相同的结构支持**xltypeBigData**值使用的 API 回调函数中， [Excel4 和 Excel12](excel4-excel12.md)类别调用时此函数的运行正常类型。 
+在使用 API 回调函数的[Excel4 和 Excel12](excel4-excel12.md)种类的情况调用此函数时, 该函数将正常运行, 因为**XLOPER**和**XLOPER12**都具有支持**xltypeBigData**值的相同结构类型. 
   
 ## <a name="example"></a>示例
 
-下面的示例将实例调用于调用它的 Excel 的当前副本的 Excel 的最后一个副本进行比较。 如果它们是相同的则将返回 1;如果没有，则返回 0;如果函数失败，则返回-1。 此示例使用 32 位和 64 位版本的 Excel 工作正常。
+下面的示例将调用它的 excel 的最后一个副本的实例与调用它的 excel 的当前副本进行比较。 如果它们相同, 则返回 1; 否则返回1。如果不是, 则返回 0;如果函数失败, 则返回-1。 此示例适用于32位和64位版本的 Excel。
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

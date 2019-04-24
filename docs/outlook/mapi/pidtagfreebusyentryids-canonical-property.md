@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8bc40ebf-76f2-49dd-af4b-4095bc07c639
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 57b65f8423cbbc48e3eac066c45cab0fcc90fe18
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316196"
 ---
 # <a name="pidtagfreebusyentryids-canonical-property"></a>PidTagFreeBusyEntryIds 规范属性
 
@@ -25,12 +25,12 @@ ms.locfileid: "25389013"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含**Entryid**委托信息消息、 登录的用户，以及其**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 等于"FreeBusy 数据。"文件夹的忙/闲消息
+包含代理信息消息的**entryid** 、登录用户的忙/闲消息以及其**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 等于 "FreeBusy Data" 的文件夹。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FREEBUSY_ENTRYIDS  <br/> |
-|标识符：  <br/> |0x36E4  <br/> |
+|标识符:  <br/> |0x36E4  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
@@ -38,31 +38,31 @@ ms.locfileid: "25389013"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[毫秒-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
-> 发布的用户或资源的可用性。
+> 发布用户或资源的可用性。
     
-[[MS OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[毫秒-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> 指定连接到和配置为代理人，以及与邮件和日历项目交互的邮箱，当这些代表其他用户操作的方法。
+> 指定用于连接邮箱和将邮箱配置为代理的方法, 以及当邮件和日历项目代表另一个用户操作时与之进行交互的方法。
     
-[[MS OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[毫秒-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> 指定的属性和用于创建和邮箱中查找的特殊文件夹的操作。
+> 指定用于创建和定位邮箱中的特殊文件夹的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

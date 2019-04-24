@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
-description: 上次修改时间： 2011 年 11 月 8 日
-ms.openlocfilehash: 3592584a08bf14725c0289831740e91fb8f1a5b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '上次修改时间: 2011 年11月8日'
+ms.openlocfilehash: 6583765d4df7c7bfae9e7a62606beaa857874954
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315475"
 ---
 # <a name="ipstoverride1setpersistedregistrations"></a>IPSTOVERRIDE1::SetPersistedRegistrations
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-避免进一步调用 HrTrustedPSTOverrideHandlerCallback 注册自动解锁个人文件夹 (.pst) 文件。
+为自动解锁注册个人文件夹 (.pst) 文件, 以避免对 HrTrustedPSTOverrideHandlerCallback 的进一步调用。
   
 ```cpp
 HRESULT SetPersistedRegistrations(
@@ -35,14 +35,14 @@ HRESULT SetPersistedRegistrations(
 
 _pmval_
   
-> [in][SPropValue](spropvalue.md)结构，其中包含一个指向动态链接库 (DLL) 注册的路径。 结构具有以下特征： 
+> 实时一个[SPropValue](spropvalue.md)结构, 其中包含指向要注册的动态链接库 (DLL) 的路径的指针。 结构具有以下特征: 
     
-   - [PROP_TAG](prop_tag.md)（PT_MV_UNICODE、 PROP_ID_NULL） ulPropTag。
+   - [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL) 的 ulPropTag。
     
-   - 设置为 null 结尾的 Unicode 字符字符串数组 MVszW value 属性。 有关详细信息，请参阅[SWStringArray](swstringarray.md)主题。 
+   - 一个 MVszW 值属性, 该属性设置为以 null 结尾的 Unicode 字符串的数组。 有关详细信息, 请参阅[SWStringArray](swstringarray.md)主题。 
     
 > [!NOTE]
-> SPropValue 存储在 PST 的内部区域中的 MAPI 属性中。 此属性为普通的 MAPI 应用程序无法访问。 
+> SPropValue 存储在 PST 的内部范围内的 MAPI 属性中。 普通 MAPI 应用程序无法访问此属性。 
   
 ## <a name="return-value"></a>返回值
 
@@ -52,10 +52,10 @@ S_OK
     
 ## <a name="remarks"></a>注解
 
-持久化的注册可能会影响应用程序的性能，如 Outlook 和 Windows 桌面搜索，打开 Pst 的。 请考虑使用或展开持久化注册的使用情况时的性能影响。
+持久化注册可能会对打开 pst 的应用程序 (如 Outlook 和 Windows 桌面搜索) 的性能产生不利影响。 在使用或扩展持久化注册的使用情况时, 请考虑性能影响。
   
 > [!IMPORTANT]
-> 此方法仅实现为 Unicode。 此外，它将预先失败如果任何路径数组中没有的.dll 文件扩展名。 
+> 仅为 Unicode 实现此方法。 此外, 如果数组中的任何路径的文件扩展名均不为 .dll, 则 preemptively 将失败。 
   
 ## <a name="see-also"></a>另请参阅
 

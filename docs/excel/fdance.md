@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: b7a2fbdf723d06dcf9b02789178d7d12d0515884
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a191c07d2a06a1cb6123c235e8fac69d90426758
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311037"
 ---
 # <a name="fdance"></a>fDance
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-示例用户定义直到用户按**ESC**更改所选单元格周围活动工作表上的命令。 当加载 GENERIC.xll 时，它会创建用户定义的菜单中，一般，通过其访问此命令。
+用于更改活动工作表上的选定单元格的用户定义命令的示例, 直到用户按**ESC**。 当加载了 generic xll 时, 它将创建一个用户定义的菜单 (通用), 通过该菜单可访问此命令。
   
 ```cs
 int WINAPI fDance(void);
@@ -30,19 +30,19 @@ int WINAPI fDance(void);
 
 ## <a name="parameters"></a>参数
 
-函数没有参数。
+函数不采用任何参数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-此函数始终返回 1。
+函数总是返回1。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这是较长操作的示例。 有时，它调用函数[xlAbort](xlabort.md) 。 这会产生处理器 （与协作式多任务帮助），并检查用户是否已按**esc 键**以取消操作。 如果是这样，它会向用户提供有机会在取消中止。 
+这是一个漫长的操作示例。 它偶尔调用函数[xlAbort](xlabort.md) 。 这将生成处理器 (帮助协作多任务), 并检查用户是否已按**ESC**取消操作。 如果是这样, 它向用户提供了取消中止的机会。 
   
 ### <a name="example"></a>示例
 
-请参阅`\SAMPLES\GENERIC\GENERIC.C`的此函数的源代码。 
+有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
   
 ## <a name="see-also"></a>另请参阅
 

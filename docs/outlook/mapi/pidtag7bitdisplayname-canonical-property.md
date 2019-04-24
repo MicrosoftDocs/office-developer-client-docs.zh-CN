@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 803d7c4e-ed80-4d5b-988f-27068a8ccd63
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e5177d47749c2f60a883bd12fbba27045114c601
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315811"
 ---
 # <a name="pidtag7bitdisplayname-canonical-property"></a>PidTag7BitDisplayName 规范属性
 
@@ -25,54 +25,54 @@ ms.locfileid: "25401067"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件用户的名称的 7 位 ASCII 表示形式。 
+包含消息用户名称的7位 ASCII 表示形式。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_7BIT_DISPLAY_NAME，PR_7BIT_DISPLAY_NAME_A，PR_7BIT_DISPLAY_NAME_W  <br/> |
-|标识符：  <br/> |0x39FF  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_7BIT_DISPLAY_NAME、PR_7BIT_DISPLAY_NAME_A、PR_7BIT_DISPLAY_NAME_W  <br/> |
+|标识符:  <br/> |0x39FF  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这些属性映射到 7 位字符集**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。 某些消息系统，如 Internet 和某些 X.400 链接被限制为 128 个字符 7 位 ASCII 代码集。 与此类邮件系统的网关可提高性能，通过调用[IAddrBook::PrepareRecips](iaddrbook-preparerecips.md)方法直接检索此属性，从而避免额外处理代码转换。 
+这些属性将**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性映射到7位字符集中。 某些邮件系统 (如 Internet 和某些 x-blade 链接) 限制为128个字符的7位 ASCII 码集。 此类邮件系统的网关可以通过调用[IAddrBook::P reparerecips](iaddrbook-preparerecips.md)方法直接检索此属性, 从而避免额外的代码转换处理, 从而提高其性能。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和操作对列表的用户、 联系人、 组和资源。
+> 指定对用户、联系人、组和资源列表的属性和操作。
     
-[[MS NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
+[[毫秒-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> 处理与 NSPI 服务器的客户端的通信。
+> 处理客户与 NSPI 服务器的通信。
     
-[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理用于客户端和服务器之间传输数据顺序和数据流。
+> 处理用于在客户端和服务器之间传输数据的顺序和数据流。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和电子邮件中允许的操作。
+> 指定在电子邮件中允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 8fd82432-9fd9-49ed-aa52-72109db04dc9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0abb3cba2b72c18a2bc1a43a07130509ba29b56c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8bfb7e5af2e2e5e1a51225dc1cf20baf897752c1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316210"
 ---
 # <a name="pidtagformmessagebehavior-canonical-property"></a>PidTagFormMessageBehavior 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含 TRUE 如果应在当前文件夹中包含一条消息。 
+如果应在当前文件夹中撰写邮件, 则该参数包含 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FORM_MESSAGE_BEHAVIOR  <br/> |
-|标识符：  <br/> |0x330A  <br/> |
+|标识符:  <br/> |0x330A  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
 ## <a name="remarks"></a>注解
 
-值为 FALSE 指示的邮件应由为任何其他人际邮件时，即发件箱文件夹中。 
+值为 FALSE 表示邮件应撰写为其他任何其他人际邮件, 即在 "发件箱" 文件夹中。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

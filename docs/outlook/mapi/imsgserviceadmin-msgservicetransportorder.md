@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 559f1c609000608d0eb920a0240ac8848e4bc2a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 3d532e0eb46daa412711344421936a58da309b7b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310001"
 ---
 # <a name="imsgserviceadminmsgservicetransportorder"></a>IMsgServiceAdmin::MsgServiceTransportOrder
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-设置中的传输提供程序调用将邮件传递的顺序。
+设置用于传递邮件的传输提供程序的调用顺序。
   
 ```cpp
 HRESULT MsgServiceTransportOrder(
@@ -39,15 +39,15 @@ HRESULT MsgServiceTransportOrder(
 
  _cUID_
   
-> [in]_LpUIDList_参数中的唯一标识符的计数。 
+> 实时_lpUIDList_参数中的唯一标识符的计数。 
     
  _lpUIDList_
   
-> [in]一个指向代表传输提供程序的唯一标识符的数组。 该数组中的当前配置文件配置每个传输提供程序包含一个标识符。
+> 实时指向代表传输提供程序的唯一标识符数组的指针。 对于在当前配置文件中配置的每个传输提供程序, 该数组都包含一个标识符。
     
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
 ## <a name="return-value"></a>返回值
 
@@ -57,17 +57,17 @@ S_OK
     
 MAPI_E_BUSY 
   
-> _CUID_参数中的值不同于实际配置文件中的传输提供程序的数目。 
+> _cUID_参数中的值不同于配置文件中实际的传输提供程序的数量。 
     
 MAPI_E_NOT_FOUND 
   
-> 一个或多个_lpUIDList_参数中传递的[MAPIUID](mapiuid.md)结构不引用当前配置文件中的传输提供程序。 
+> 传递到_lpUIDList_参数中的一个或多个[MAPIUID](mapiuid.md)结构不引用当前位于配置文件中的传输提供程序。 
     
 ## <a name="remarks"></a>注解
 
-**IMsgServiceAdmin::MsgServiceTransportOrder**方法设置配置文件中的传输提供程序传递的顺序。 _LpUIDList_参数必须包含传输提供程序条目标识符从[IMsgServiceAdmin 从返回的表的**PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) 属性获取一个已排序的列表：GetProviderTable](imsgserviceadmin-getprovidertable.md)方法。 客户端应用程序必须_lpUIDList_中传递的完整列表。
+**IMsgServiceAdmin:: MsgServiceTransportOrder**方法设置传输提供程序在配置文件中的传递顺序。 _lpUIDList_参数必须包含从 IMsgServiceAdmin 返回的表的**PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) 属性获取的传输提供程序条目标识符的排序列表[::GetProviderTable](imsgserviceadmin-getprovidertable.md)方法。 客户端应用程序必须在_lpUIDList_中传递完整列表。
   
- **SetTransportOrder**覆盖传输提供程序首选项，如**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 属性中设置 STATUS_XP_PREFER_LAST 标志。 
+ **SetTransportOrder**将覆盖传输提供程序首选项, 如**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 属性中设置的 STATUS_XP_PREFER_LAST 标志。 
   
 ## <a name="see-also"></a>另请参阅
 

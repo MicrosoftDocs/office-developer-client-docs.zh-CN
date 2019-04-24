@@ -8,22 +8,22 @@ f1_keywords:
 - TempActiveRow
 - TempActiveRow12
 keywords:
-- tempactiverow 函数 [excel 2007，] TempActiveRow12 函数 [Excel 2007]
+- tempactiverow 函数 [excel 2007], TempActiveRow12 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: cbb9181c-59b0-4133-a085-94a94ac3f229
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: a406d6e5a8ffa91e103276cb39230058b4840614
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f89c458a521b41e4f172f8a6c53526440bb472b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310414"
 ---
 # <a name="tempactiverowtempactiverow12"></a>TempActiveRow/TempActiveRow12
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-创建临时**XLOPER**的框架库函数/ **XLOPER12**包含对活动工作表的整行的外部引用。 
+框架库函数, 用于创建一个临时的**XLOPER**/ **XLOPER12** , 其中包含对活动工作表中整行的外部引用。 
   
 ```cs
 LPXLOPER TempActiveRow(WORD row);
@@ -32,9 +32,9 @@ LPXLOPER12 TempActiveRow12(ROW row);
 
 ## <a name="parameters"></a>参数
 
- _row_
+ _行_
   
-要引用的行。 行参数是从零开始的所以第 1 行传递为 0。 在 Microsoft Office Excel 2003 和早期版本，以及开始在兼容模式下运行的工作簿的 Excel 2007 中的最大值是 65535 = 2 ^16-1，WORD 整数可以采取的最大值。 启动运行工作簿的 Excel 2007 中的最大值是 1048575 = 2 ^20-1。 RW 被定义为 XLCALL 中的 32 位有符号整数。H。
+要引用的行。 行参数从零开始, 以便将行1作为0传递。 在 Microsoft Office Excel 2003 及更早版本中, 在兼容模式下运行工作簿的 excel 2007 中, 最大值为 65535 = 2 ^ 16-1, 是单词整数可以采用的最大值。 从运行工作簿的 Excel 2007 开始, 最大值为 1048575 = 2 ^ 20-1。 RW 在 xlcall.h 中定义为32位有符号整数。水平.
   
 ## <a name="return-value"></a>返回值
 
@@ -42,7 +42,7 @@ LPXLOPER12 TempActiveRow12(ROW row);
   
 ## <a name="example"></a>示例
 
-本示例使用**TempActiveRow12**函数选择行 113。 
+此示例使用**TempActiveRow12**函数选择行113。 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

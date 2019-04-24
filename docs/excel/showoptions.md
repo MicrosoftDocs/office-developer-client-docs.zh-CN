@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 51acac58-ec39-488f-979c-1887dc2ab94b
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: dbf6f0f50e9f7fa988e83f3b58012e9deac13eac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b58b71dc4f2441448eb3e0dac2c3c5763675927
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310425"
 ---
 # <a name="showoptions"></a>ShowOptions
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-显示一个模式对话框，以从用户处收集信息。 用户单击选定的群集连接器 （在**公式**部分下的**高级**类别中） 在**Excel 选项**对话框**群集类型**框旁边的**选项**按钮时调用此入口点。 群集连接器是负责实现自己选项对话框接口并存储在注册表中或其他位置的相关的数据。 选项都是内部人员到群集连接器。 Excel 不了解它们。 
+显示一个模式对话框, 以收集用户的信息。 当用户单击 " **Excel 选项**" 对话框 (在 "**公式**" 部分下的 "**高级**" 类别中) 的 "**群集类型**" 框旁边的 "**选项**" 按钮时, 将调用此入口点。 群集连接器负责实现其自己的 "选项" 对话框界面以及将相关数据存储在注册表或其他地方。 选项是群集连接器的内部选项。 Excel 并不知道它们。 
   
 ```cpp
 int ShowOptions(HWND hWndParent)
@@ -32,11 +32,11 @@ _hWndParent_
     
 ## <a name="return-value"></a>返回值
 
-**xlHpcRetSuccess**如果对话框已显示;**xlHpcRetCallFailed**如果它不显示。 
+如果显示对话框, 则为**xlHpcRetSuccess** ;如果未显示**xlHpcRetCallFailed** , 则为。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-群集连接器可以使用此对话框中获取信息，例如，若要使用，从用户哪些群集服务器。
+群集连接器可以使用此对话框从用户处获取信息 (如要使用哪个群集服务器)。
   
 ## <a name="see-also"></a>另请参阅
 

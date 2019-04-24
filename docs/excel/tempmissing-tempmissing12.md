@@ -8,22 +8,22 @@ f1_keywords:
 - TempMissing
 - TempMissing12
 keywords:
-- tempmissing 函数 [excel 2007，] TempMissing12 函数 [Excel 2007]
+- tempmissing 函数 [excel 2007], TempMissing12 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: a6db2e1f2917ecd9361043577f4bf203b3267a5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 37c127b2252f18643b34dfc72fd9929885a68d01
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310491"
 ---
 # <a name="tempmissingtempmissing12"></a>TempMissing/TempMissing12
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-创建临时**XLOPER**的框架库函数/ **XLOPER12**的类型**xltypeMissing**。
+创建**xltypeMissing**类型的临时**XLOPER**/ **XLOPER12**的框架库函数。
   
 ```cs
 LPXLOPER TempMissing(void);
@@ -36,11 +36,11 @@ LPXLOPER12 TempMissing12(void);
   
 ## <a name="return-value"></a>返回值
 
-返回一个指向**xltypeMissing** **XLOPER**/ **XLOPER12**。
+返回指向**xltypeMissing** **XLOPER**/ **XLOPER12**的指针。
   
 ## <a name="example"></a>示例
 
-此示例使用**TempMissing12**提供三个缺少参数**xlcWorkspace**跟**布尔值** **FALSE**可禁止显示工作表的滚动条。 前三个参数对应于其他工作区设置其不会受到影响。 
+此示例使用**TempMissing12**为**xlcWorkspace**提供了三个缺少的参数, 后跟一个**布尔** **FALSE** , 以禁止显示工作表滚动条。 前三个参数对应于不受影响的其他工作区设置。 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

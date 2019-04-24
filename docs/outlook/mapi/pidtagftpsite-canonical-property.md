@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d94087c2-a996-45b0-b5ed-0293d8a47d9b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 78e8688a80fa5f1f7d0ac0f63526b5c49d66863e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316140"
 ---
 # <a name="pidtagftpsite-canonical-property"></a>PidTagFtpSite 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25400633"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含联系人的文件传输协议 (FTP) URL。 FTP 是用于传输数据，[RFC959] 中指定的协议。
+包含联系人的文件传输协议 (FTP) URL。 FTP 是一种用于传输数据的协议, 如 [RFC959] 中所指定。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_FTP_SITE，PR_FTP_SITE_A，PR_FTP_SITE_W  <br/> |
-|标识符：  <br/> |0x3A4C  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_FTP_SITE、PR_FTP_SITE_A、PR_FTP_SITE_W  <br/> |
+|标识符:  <br/> |0x3A4C  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定允许用于联系人和个人通讯组列表的属性和操作。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和用户、 联系人、 组和资源的操作列表。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

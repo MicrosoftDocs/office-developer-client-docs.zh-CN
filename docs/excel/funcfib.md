@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 6a719f04-b2d1-4f87-a227-be561cbd3e49
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 8d1c97ea57e968aaedffca6b37ded3d875e87413
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb8f0c12c27fb2c95007eb5006c1d8b90970f3ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310834"
 ---
 # <a name="funcfib"></a>FuncFib
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-示例计算第 n 个 Fibonacci 数的用户定义的工作表函数。 加载 GENERIC.xll 时，以便它可以调用从工作表中注册此函数。
+用于计算第 n 个斐波纳契数的用户定义的工作表函数示例。 当加载了 GENERIC xll 时, 它将注册此函数, 以便可以从工作表中调用它。
   
 ```cs
 LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
@@ -32,21 +32,21 @@ LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
 
  _pxN_(**LPXLOPER12**)
   
-N 需要第 n 个 Fibonacci 数的值。
+n 的值为 n, 其中必须有第 n 个斐波纳契数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-（**xltypeNum LPXLOPER12**如果成功或**xltypeErr**否则为） 
+(如果成功, 则为**xltypeNum LPXLOPER12** , 否则为**xltypeErr** ) 
   
-第 n 个 Fibonacci 数。
+第 n 个斐波纳契号码。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-该函数使用的函数块内定义为**XLOPER12**的返回值的静态变量。 这不是线程安全的，因此此函数中，并使用此策略对返回**XLOPER**s 或**XLOPER12**s 进行任何工作表函数不应注册为安全启动 Excel 2007 中的线程。
+函数使用在函数块中定义的静态变量作为返回值**XLOPER12**。 这不是线程安全的, 因此此函数以及使用此策略以返回**XLOPER**s 或**XLOPER12**s 的任何工作表函数都不应注册为 Excel 2007 中的线程安全。
   
 ### <a name="example"></a>示例
 
-请参阅`\SAMPLES\GENERIC\GENERIC.C`的此函数的源代码。 
+有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
   
 ## <a name="see-also"></a>另请参阅
 

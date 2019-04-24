@@ -7,40 +7,40 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 92070b45-33cf-4b19-a899-7956bda79752
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 52adb2b4e09b520eda956891974e6d8e434422ff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: e5279bb2d948e1b1f5ab252e49e766ebc0f1845a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315111"
 ---
 # <a name="creating-outlook-items-by-using-mapi"></a>使用 MAPI 创建 Outlook 项目
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-本节中的主题演示如何创建使用 MAPI 的 Outlook 项目。
+本节中的主题演示如何使用 MAPI 创建 Outlook 项目。
   
 - [安装本部分中使用的示例](how-to-install-the-samples-used-in-this-section.md)
     
-    本主题演示如何安装和查看本节中讨论的示例。
+    本主题说明如何安装和查看本节中讨论的示例。
     
 - [创建简单邮件项](how-to-create-a-simple-mail-item.md)
     
-    本主题演示如何创建简单的邮件项目请求已读的回执。
+    本主题演示如何创建一个请求已读回执的简单邮件项目。
     
-- [创建简单重复任务项](how-to-create-a-simple-recurrent-task-item.md)
+- [创建简单的重复性任务项](how-to-create-a-simple-recurrent-task-item.md)
     
-    本主题演示如何创建简单的任务项目的每周，发生此事件。
+    本主题演示如何创建一个在每周发生的简单任务项。
     
-- [创建复杂重复约会项](how-to-create-a-complex-recurrent-appointment-item.md)
+- [创建复杂的定期约会项目](how-to-create-a-complex-recurrent-appointment-item.md)
     
-    本主题演示如何创建的每周定期约会项，还考虑到考虑与时区相关的问题。
+    本主题演示如何创建每周重复的约会项目, 还将考虑与时区相关的问题。
     
 - [读取和分析定期模式](how-to-read-and-parse-a-recurrence-pattern.md)
     
-    本主题演示如何读取并分析的定期模式的约会项目。
+    本主题演示如何读取和分析约会项目的定期模式。
     
 

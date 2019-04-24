@@ -7,11 +7,11 @@ ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4
 description: 了解如何通过创建用户定义的数字格式控制数字的显示方式。
 localization_priority: Priority
 ms.openlocfilehash: b23b1f7ee806a03df8f1c0d6ec1de0f3282b427b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282199"
 ---
 # <a name="custom-numeric-formats-for-the-format-function-access-custom-web-app"></a>Format 函数的自定义数值格式（Access 自定义 Web 应用）
 
