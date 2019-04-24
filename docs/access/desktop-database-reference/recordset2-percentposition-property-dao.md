@@ -1,5 +1,5 @@
 ---
-title: Recordset2.PercentPosition 属性 (DAO)
+title: PercentPosition 属性 (DAO) Recordset2
 TOCTitle: PercentPosition Property
 ms:assetid: 830a7d26-6817-233f-ce24-80b572c1c100
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196732(v=office.15)
@@ -12,40 +12,40 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7b0a086004d987a73e6dfb18fe5f919c239fb66c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307222"
 ---
-# <a name="recordset2percentposition-property-dao"></a><span data-ttu-id="20fcf-102">Recordset2.PercentPosition 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="20fcf-102">Recordset2.PercentPosition property (DAO)</span></span>
+# <a name="recordset2percentposition-property-dao"></a><span data-ttu-id="a3714-102">PercentPosition 属性 (DAO) Recordset2</span><span class="sxs-lookup"><span data-stu-id="a3714-102">Recordset2.PercentPosition property (DAO)</span></span>
 
-<span data-ttu-id="20fcf-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="20fcf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a3714-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3714-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="20fcf-104">设置或返回一个值，用于根据 [Recordset](recordset-object-dao.md) 中的记录百分比指示 \*\*\*\*Recordset\*\*\*\* 对象中当前记录的大概位置。</span><span class="sxs-lookup"><span data-stu-id="20fcf-104">Sets or returns a value indicating the approximate location of the current record in the **[Recordset](recordset-object-dao.md)** object based on a percentage of the records in the **Recordset**.</span></span>
+<span data-ttu-id="a3714-104">设置或返回一个值, 该值基于**recordset**中记录的百分比指示**[recordset](recordset-object-dao.md)** 对象中当前记录的大概位置。</span><span class="sxs-lookup"><span data-stu-id="a3714-104">Sets or returns a value indicating the approximate location of the current record in the **[Recordset](recordset-object-dao.md)** object based on a percentage of the records in the **Recordset**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="20fcf-105">语法</span><span class="sxs-lookup"><span data-stu-id="20fcf-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a3714-105">语法</span><span class="sxs-lookup"><span data-stu-id="a3714-105">Syntax</span></span>
 
-<span data-ttu-id="20fcf-106">*表达式*。PercentPosition</span><span class="sxs-lookup"><span data-stu-id="20fcf-106">*expression* .PercentPosition</span></span>
+<span data-ttu-id="a3714-106">*表达式*。PercentPosition</span><span class="sxs-lookup"><span data-stu-id="a3714-106">*expression* .PercentPosition</span></span>
 
-<span data-ttu-id="20fcf-107">*表达式*一个表示**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="20fcf-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="a3714-107">*表达式*一个代表**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="a3714-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="20fcf-108">注解</span><span class="sxs-lookup"><span data-stu-id="20fcf-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a3714-108">注解</span><span class="sxs-lookup"><span data-stu-id="a3714-108">Remarks</span></span>
 
-<span data-ttu-id="20fcf-p101">若要指示或更改 **Recordset** 对象中的当前记录的大概位置，可以检查或设置 **PercentPosition** 属性。当使用从基表直接打开的动态集类型或快照类型的 **Recordset** 对象时，在设置或检查 **PercentPosition** 属性之前，请首先通过移动到最后一条记录来填充 **Recordset** 对象。如果在完全填充 **Recordset** 对象之前使用 **PercentPosition** 属性，则移动量与 **[RecordCount](recordset2-recordcount-property-dao.md)** 属性设置所指定的访问记录数相关。您可以使用 **[MoveLast](recordset2-movelast-method-dao.md)** 方法来移动到最后一条记录。</span><span class="sxs-lookup"><span data-stu-id="20fcf-p101">To indicate or change the approximate position of the current record in a **Recordset** object, you can check or set the **PercentPosition** property. When working with a dynaset- or snapshot-type **Recordset** object opened directly from a base table, first populate the **Recordset** object by moving to the last record before you set or check the **PercentPosition** property. If you use the **PercentPosition** property before fully populating the **Recordset** object, the amount of movement is relative to the number of records accessed as indicated by the **[RecordCount](recordset2-recordcount-property-dao.md)** property setting. You can move to the last record by using the **[MoveLast](recordset2-movelast-method-dao.md)** method.</span></span>
+<span data-ttu-id="a3714-p101">若要指示或更改 **Recordset** 对象中当前记录的大概位置，可以检查或设置 **PercentPosition** 属性。当使用直接从基表打开的动态集类型或快照类型的 **Recordset** 对象时，在设置或检查 **PercentPosition** 属性之前，首先通过移动到最后一条记录来填充 **Recordset** 对象。如果在完全填充 **Recordset** 对象之前使用 **PercentPosition** 属性，则移动量与 **[RecordCount](recordset2-recordcount-property-dao.md)** 属性设置所指示的访问记录数相关。您可以使用 **[MoveLast](recordset2-movelast-method-dao.md)** 方法移动到最后一条记录。</span><span class="sxs-lookup"><span data-stu-id="a3714-p101">To indicate or change the approximate position of the current record in a **Recordset** object, you can check or set the **PercentPosition** property. When working with a dynaset- or snapshot-type **Recordset** object opened directly from a base table, first populate the **Recordset** object by moving to the last record before you set or check the **PercentPosition** property. If you use the **PercentPosition** property before fully populating the **Recordset** object, the amount of movement is relative to the number of records accessed as indicated by the **[RecordCount](recordset2-recordcount-property-dao.md)** property setting. You can move to the last record by using the **[MoveLast](recordset2-movelast-method-dao.md)** method.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="20fcf-113">不建议使用**PercentPosition**属性将当前记录移动到**Recordset**对象中的特定记录。</span><span class="sxs-lookup"><span data-stu-id="20fcf-113">Using the **PercentPosition** property to move the current record to a specific record in a **Recordset** object isn't recommended.</span></span> <span data-ttu-id="20fcf-114">**[Bookmark](recordset2-bookmark-property-dao.md)** 属性是更适合此任务。</span><span class="sxs-lookup"><span data-stu-id="20fcf-114">The **[Bookmark](recordset2-bookmark-property-dao.md)** property is better suited for this task.</span></span>
+> <span data-ttu-id="a3714-113">不建议使用**PercentPosition**属性将当前记录移动到**Recordset**对象中的特定记录。</span><span class="sxs-lookup"><span data-stu-id="a3714-113">Using the **PercentPosition** property to move the current record to a specific record in a **Recordset** object isn't recommended.</span></span> <span data-ttu-id="a3714-114">**[Bookmark](recordset2-bookmark-property-dao.md)** 属性更适合此任务。</span><span class="sxs-lookup"><span data-stu-id="a3714-114">The **[Bookmark](recordset2-bookmark-property-dao.md)** property is better suited for this task.</span></span>
 
-<span data-ttu-id="20fcf-p103">一旦将 **PercentPosition** 属性设置为某个值，与该值对应的大概位置处的记录就成为当前记录，且 **PercentPosition** 属性重置为反映当前记录的大概位置的值。例如，如果 **Recordset** 对象只包含五条记录，而您将其 **PercentPosition** 属性值设置为 77，则从 **PercentPosition** 属性返回的值可能是 80，而不是 77。</span><span class="sxs-lookup"><span data-stu-id="20fcf-p103">Once you set the **PercentPosition** property to a value, the record at the approximate position corresponding to that value becomes current, and the **PercentPosition** property is reset to a value that reflects the approximate position of the current record. For example, if your **Recordset** object contains only five records, and you set its **PercentPosition** property value to 77, the value returned from the **PercentPosition** property may be 80, not 77.</span></span>
+<span data-ttu-id="a3714-p103">一旦将 **PercentPosition** 属性设置为某个值，与该值对应的大概位置处的记录就成为当前记录，且 **PercentPosition** 属性重置为反映当前记录的大概位置的值。例如，如果 **Recordset** 对象只包含五条记录，而您将其 **PercentPosition** 属性值设置为 77，则从 **PercentPosition** 属性返回的值可能是 80，而不是 77。</span><span class="sxs-lookup"><span data-stu-id="a3714-p103">Once you set the **PercentPosition** property to a value, the record at the approximate position corresponding to that value becomes current, and the **PercentPosition** property is reset to a value that reflects the approximate position of the current record. For example, if your **Recordset** object contains only five records, and you set its **PercentPosition** property value to 77, the value returned from the **PercentPosition** property may be 80, not 77.</span></span>
 
-<span data-ttu-id="20fcf-117">**PercentPosition**属性应用于所有类型的**Recordset**对象，但仅向前类型**Recordset**对象或从针对远程数据库的传递查询打开的**Recordset**对象除外。</span><span class="sxs-lookup"><span data-stu-id="20fcf-117">The **PercentPosition** property applies to all types of **Recordset** objects except for forward–only–type **Recordset** objects or **Recordset** objects opened from pass-through queries against remote databases.</span></span>
+<span data-ttu-id="a3714-117">**PercentPosition**属性应用于所有类型的**recordset**对象, 但仅向前–类型的**recordset**对象或从传递查询对远程数据库打开的**recordset**对象除外。</span><span class="sxs-lookup"><span data-stu-id="a3714-117">The **PercentPosition** property applies to all types of **Recordset** objects except for forward–only–type **Recordset** objects or **Recordset** objects opened from pass-through queries against remote databases.</span></span>
 
-<span data-ttu-id="20fcf-118">您可以将 **PercentPosition** 属性用于窗体或文本框上的滚动条，以指示 **Recordset** 对象中当前记录的位置。</span><span class="sxs-lookup"><span data-stu-id="20fcf-118">You can use the **PercentPosition** property with a scroll bar on a form or text box to indicate the location of the current record in a **Recordset** object.</span></span>
+<span data-ttu-id="a3714-118">您可以将 **PercentPosition** 属性用于窗体或文本框上的滚动条，以指示 **Recordset** 对象中当前记录的位置。</span><span class="sxs-lookup"><span data-stu-id="a3714-118">You can use the **PercentPosition** property with a scroll bar on a form or text box to indicate the location of the current record in a **Recordset** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="20fcf-119">示例</span><span class="sxs-lookup"><span data-stu-id="20fcf-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a3714-119">示例</span><span class="sxs-lookup"><span data-stu-id="a3714-119">Example</span></span>
 
-<span data-ttu-id="20fcf-120">以下示例使用 **PercentPosition** 属性显示当前记录指针相对于 **Recordset** 起点的位置。</span><span class="sxs-lookup"><span data-stu-id="20fcf-120">This example uses the **PercentPosition** property to show the position of the current record pointer relative to the beginning of the **Recordset**.</span></span>
+<span data-ttu-id="a3714-120">以下示例使用 **PercentPosition** 属性显示当前记录指针相对于 **Recordset** 起点的位置。</span><span class="sxs-lookup"><span data-stu-id="a3714-120">This example uses the **PercentPosition** property to show the position of the current record pointer relative to the beginning of the **Recordset**.</span></span>
 
 ```vb
     Sub PercentPositionX() 

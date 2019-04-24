@@ -1,5 +1,5 @@
 ---
-title: Columns 和 Tables 的 Append 方法、 Name 属性示例 (VB)
+title: Columns 和 Tables 的 Append 方法、Name 属性示例 (VB)
 TOCTitle: Columns and Tables Append Methods, Name property example (VB)
 ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d68078c24f2bee9f935b71d60cb15986d26d00ac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296225"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="016de-102">Columns 和 Tables 的 Append 方法、 Name 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="016de-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="10f07-102">Columns 和 Tables 的 Append 方法、Name 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="10f07-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
 
 
-<span data-ttu-id="016de-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="016de-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="10f07-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="10f07-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="016de-104">下面的代码演示如何创建新表。</span><span class="sxs-lookup"><span data-stu-id="016de-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="10f07-104">下面的代码演示如何创建新表。</span><span class="sxs-lookup"><span data-stu-id="10f07-104">The following code demonstrates how to create a new table.</span></span>
 
 ```vb 
  

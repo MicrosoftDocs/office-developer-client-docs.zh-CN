@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4046c3142721ebb59d0ad467689e92e4ac587d74
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302763"
 ---
-# <a name="views-delete-method-example-vb"></a><span data-ttu-id="1689b-102">Views 的 Delete 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="1689b-102">Views Delete method example (VB)</span></span>
+# <a name="views-delete-method-example-vb"></a><span data-ttu-id="778d0-102">Views 的 Delete 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="778d0-102">Views Delete method example (VB)</span></span>
 
 
-<span data-ttu-id="1689b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1689b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="778d0-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="778d0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1689b-104">下面的代码演示如何使用 [Delete](delete-method-adox-collections.md) 方法从目录中删除视图。</span><span class="sxs-lookup"><span data-stu-id="1689b-104">The following code shows how to use the [Delete](delete-method-adox-collections.md) method to delete a view from the catalog.</span></span>
+<span data-ttu-id="778d0-104">下面的代码演示如何使用 [Delete](delete-method-adox-collections.md) 方法从目录中删除视图。</span><span class="sxs-lookup"><span data-stu-id="778d0-104">The following code shows how to use the [Delete](delete-method-adox-collections.md) method to delete a view from the catalog.</span></span>
 
 ```vb 
  

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8722276f7c927d5ac452100da55395cb2de7cf70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296806"
 ---
-# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="7292b-102">BOF、EOF 和 Bookmark 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7292b-102">BOF, EOF, and Bookmark properties example (VJ++)</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="5f599-102">BOF、EOF 和 Bookmark 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="5f599-102">BOF, EOF, and Bookmark properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="7292b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="7292b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5f599-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="5f599-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7292b-p101">此示例使用 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性在用户尝试移动到 [Recordset](recordset-object-ado.md) 的第一条或最后一条记录之外的位置时显示一条消息。它使用 [Bookmark](bookmark-property-ado.md) 属性来让用户对 **Recordset** 中的记录加标记并稍后返回到此记录。</span><span class="sxs-lookup"><span data-stu-id="7292b-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="5f599-p101">此示例使用 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性在用户尝试移动到 [Recordset](recordset-object-ado.md) 的第一条或最后一条记录之外的位置时显示一条消息。它使用 [Bookmark](bookmark-property-ado.md) 属性来让用户对 **Recordset** 中的记录加标记并稍后返回到此记录。</span><span class="sxs-lookup"><span data-stu-id="5f599-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```java 
  

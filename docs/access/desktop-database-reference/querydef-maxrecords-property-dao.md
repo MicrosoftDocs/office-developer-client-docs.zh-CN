@@ -1,5 +1,5 @@
 ---
-title: QueryDef.MaxRecords 属性 (DAO)
+title: MaxRecords 属性 (DAO)
 TOCTitle: MaxRecords Property
 ms:assetid: 7492cde9-be30-3473-dabc-9602465910d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195877(v=office.15)
@@ -12,36 +12,36 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6738762ba18289293c67392d47e278066ead071d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301076"
 ---
-# <a name="querydefmaxrecords-property-dao"></a><span data-ttu-id="6094e-102">QueryDef.MaxRecords 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="6094e-102">QueryDef.MaxRecords property (DAO)</span></span>
+# <a name="querydefmaxrecords-property-dao"></a><span data-ttu-id="180e9-102">MaxRecords 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="180e9-102">QueryDef.MaxRecords property (DAO)</span></span>
 
-<span data-ttu-id="6094e-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6094e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="180e9-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="180e9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6094e-104">设置或返回针对 ODBC 数据源的查询所返回的最大记录数。</span><span class="sxs-lookup"><span data-stu-id="6094e-104">Sets or returns the maximum number of records to return from a query against an ODBC data source.</span></span>
+<span data-ttu-id="180e9-104">设置或返回针对 ODBC 数据源的查询所返回的最大记录数。</span><span class="sxs-lookup"><span data-stu-id="180e9-104">Sets or returns the maximum number of records to return from a query against an ODBC data source.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6094e-105">语法</span><span class="sxs-lookup"><span data-stu-id="6094e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="180e9-105">语法</span><span class="sxs-lookup"><span data-stu-id="180e9-105">Syntax</span></span>
 
-<span data-ttu-id="6094e-106">*表达式*。MaxRecords</span><span class="sxs-lookup"><span data-stu-id="6094e-106">*expression* .MaxRecords</span></span>
+<span data-ttu-id="180e9-106">*表达式*。MaxRecords</span><span class="sxs-lookup"><span data-stu-id="180e9-106">*expression* .MaxRecords</span></span>
 
-<span data-ttu-id="6094e-107">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="6094e-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="180e9-107">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="180e9-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6094e-108">注解</span><span class="sxs-lookup"><span data-stu-id="6094e-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="180e9-108">注解</span><span class="sxs-lookup"><span data-stu-id="180e9-108">Remarks</span></span>
 
-<span data-ttu-id="6094e-109">默认值为 0，表示不限制返回记录的数目。</span><span class="sxs-lookup"><span data-stu-id="6094e-109">The default value is 0, indicating no limit on the number of records returned.</span></span>
+<span data-ttu-id="180e9-109">默认值为 0，表示不限制返回记录的数目。</span><span class="sxs-lookup"><span data-stu-id="180e9-109">The default value is 0, indicating no limit on the number of records returned.</span></span>
 
-<span data-ttu-id="6094e-p101">将 **MaxRecords** 指定的行数返回到 **[Recordset](recordset-object-dao.md)** 中的应用程序后，查询处理器将停止返回其他记录，即使有更多的记录符合列入 **Recordset** 的条件，也是如此。如果有限的客户端资源阻止了对大量记录的管理，该属性将十分有用。</span><span class="sxs-lookup"><span data-stu-id="6094e-p101">Once the number of rows specified by **MaxRecords** is returned to your application in a **[Recordset](recordset-object-dao.md)**, the query processor will stop returning additional records even if more records would qualify for inclusion in the **Recordset**. This property is useful in situations where limited client resources prohibit management of large numbers of records.</span></span>
+<span data-ttu-id="180e9-p101">将 **MaxRecords** 指定的行数返回到 **[Recordset](recordset-object-dao.md)** 中的应用程序后，查询处理器将停止返回其他记录，即使有更多的记录符合列入 **Recordset** 的条件，也是如此。如果有限的客户端资源阻止了对大量记录的管理，该属性将十分有用。</span><span class="sxs-lookup"><span data-stu-id="180e9-p101">Once the number of rows specified by **MaxRecords** is returned to your application in a **[Recordset](recordset-object-dao.md)**, the query processor will stop returning additional records even if more records would qualify for inclusion in the **Recordset**. This property is useful in situations where limited client resources prohibit management of large numbers of records.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="6094e-112">[!注释] **MaxRecords** 属性只能用于 ODBC 数据源。</span><span class="sxs-lookup"><span data-stu-id="6094e-112">The **MaxRecords** property can only be used with an ODBC data source.</span></span>
+> <span data-ttu-id="180e9-112">[!注释] **MaxRecords** 属性只能用于 ODBC 数据源。</span><span class="sxs-lookup"><span data-stu-id="180e9-112">The **MaxRecords** property can only be used with an ODBC data source.</span></span>
 
-## <a name="example"></a><span data-ttu-id="6094e-113">示例</span><span class="sxs-lookup"><span data-stu-id="6094e-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="180e9-113">示例</span><span class="sxs-lookup"><span data-stu-id="180e9-113">Example</span></span>
 
-<span data-ttu-id="6094e-114">以下示例使用 **MaxRecords** 属性设置对 ODBC 数据源上的查询返回的记录数的限制。</span><span class="sxs-lookup"><span data-stu-id="6094e-114">This example uses the **MaxRecords** property to set a limit on how many records are returned by a query on an ODBC data source.</span></span>
+<span data-ttu-id="180e9-114">以下示例使用 **MaxRecords** 属性设置对 ODBC 数据源上的查询返回的记录数的限制。</span><span class="sxs-lookup"><span data-stu-id="180e9-114">This example uses the **MaxRecords** property to set a limit on how many records are returned by a query on an ODBC data source.</span></span>
 
 ```vb 
 Sub MaxRecordsX() 

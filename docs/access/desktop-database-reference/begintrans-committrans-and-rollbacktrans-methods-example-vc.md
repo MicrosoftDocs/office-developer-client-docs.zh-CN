@@ -1,5 +1,5 @@
 ---
-title: BeginTrans，CommitTrans RollbackTrans 方法示例 （VC + +）
+title: BeginTrans、CommitTrans、RollbackTrans 方法示例 (VC + +)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)
 ms:assetid: b2e53b79-4f10-f9cc-59f7-61c9557e5ef2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249853(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 37a716a60b902556c1e392fe9df5f1e104acffcd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296834"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a><span data-ttu-id="6140f-102">BeginTrans、CommitTrans 和 RollbackTrans 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="6140f-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)</span></span>
+# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a><span data-ttu-id="fa21e-102">BeginTrans、CommitTrans 和 RollbackTrans 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="fa21e-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)</span></span>
 
 
-<span data-ttu-id="6140f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6140f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fa21e-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa21e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6140f-p101">以下示例更改数据库 ***Titles（标题）*** 表中所有心理学书籍的书籍类型。首先用 [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法启动一个事务，隔离对 ***Titles（标题）*** 表进行的所有更改，然后用 [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法保存更改。可以使用 [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法撤消用 [Update](update-method-ado.md) 方法保存的更改。</span><span class="sxs-lookup"><span data-stu-id="6140f-p101">This example changes the book type of all psychology books in the ***Titles*** table of the database. After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes. You can use the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
+<span data-ttu-id="fa21e-104">以下示例更改数据库 ***Titles（标题）*** 表中所有心理学书籍的书籍类型。</span><span class="sxs-lookup"><span data-stu-id="fa21e-104">This example changes the book type of all psychology books in the ***Titles*** table of the database.</span></span> <span data-ttu-id="fa21e-105">首先用 [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法启动一个事务，隔离对 ***Titles（标题）*** 表进行的所有更改，然后用 [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法保存更改。</span><span class="sxs-lookup"><span data-stu-id="fa21e-105">After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes.</span></span> <span data-ttu-id="fa21e-106">可以使用 [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法撤消用 [Update](update-method-ado.md) 方法保存的更改。</span><span class="sxs-lookup"><span data-stu-id="fa21e-106">You can use the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
 
 ```cpp 
  
@@ -277,7 +277,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBeginTransCpp 
 ```
 
-<span data-ttu-id="6140f-107">**BeginTransX.h**</span><span class="sxs-lookup"><span data-stu-id="6140f-107">**BeginTransX.h**</span></span>
+<span data-ttu-id="fa21e-107">**BeginTransX**</span><span class="sxs-lookup"><span data-stu-id="fa21e-107">**BeginTransX.h**</span></span>
 
 ```cpp 
  

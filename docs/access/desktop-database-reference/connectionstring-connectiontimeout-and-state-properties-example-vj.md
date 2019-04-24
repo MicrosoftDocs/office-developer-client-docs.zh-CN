@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 81d4fa54d966d04e17ccbdadee52303f857c024b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295721"
 ---
-# <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a><span data-ttu-id="242f4-102">ConnectionString、ConnectionTimeout 和 State 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="242f4-102">ConnectionString, ConnectionTimeout, and State properties example (VJ++)</span></span>
+# <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a><span data-ttu-id="860a9-102">ConnectionString、ConnectionTimeout 和 State 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="860a9-102">ConnectionString, ConnectionTimeout, and State properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="242f4-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="242f4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="860a9-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="860a9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="242f4-p101">此示例演示使用 [ConnectionString](connectionstring-property-ado.md) 属性打开 [Connection](connection-object-ado.md) 对象的不同方式。它还使用 [ConnectionTimeout](connectiontimeout-property-ado.md) 属性设置一个连接超时时间，并使用 [State](state-property-ado.md) 属性来检查连接的状态。若要运行此过程，必须使用 GetState 函数。</span><span class="sxs-lookup"><span data-stu-id="242f4-p101">This example demonstrates different ways of using the [ConnectionString](connectionstring-property-ado.md) property to open a [Connection](connection-object-ado.md) object. It also uses the [ConnectionTimeout](connectiontimeout-property-ado.md) property to set a connection timeout period, and the [State](state-property-ado.md) property to check the state of the connections. The GetState function is required for this procedure to run.</span></span>
+<span data-ttu-id="860a9-p101">此示例演示使用 [ConnectionString](connectionstring-property-ado.md) 属性打开 [Connection](connection-object-ado.md) 对象的不同方式。它还使用 [ConnectionTimeout](connectiontimeout-property-ado.md) 属性设置一个连接超时时间，并使用 [State](state-property-ado.md) 属性来检查连接的状态。若要运行此过程，必须使用 GetState 函数。</span><span class="sxs-lookup"><span data-stu-id="860a9-p101">This example demonstrates different ways of using the [ConnectionString](connectionstring-property-ado.md) property to open a [Connection](connection-object-ado.md) object. It also uses the [ConnectionTimeout](connectiontimeout-property-ado.md) property to set a connection timeout period, and the [State](state-property-ado.md) property to check the state of the connections. The GetState function is required for this procedure to run.</span></span>
 
 ```java 
  

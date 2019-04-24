@@ -1,5 +1,5 @@
 ---
-title: Recordset2.CancelUpdate 方法 (DAO)
+title: CancelUpdate 方法 (DAO) Recordset2
 TOCTitle: CancelUpdate Method
 ms:assetid: f741dec1-b9a4-506e-74ec-2bc309b0918e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836907(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 90378dc61d12485a290bbd7857d026a46cd9da96
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721372"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307397"
 ---
-# <a name="recordset2cancelupdate-method-dao"></a><span data-ttu-id="80d15-102">Recordset2.CancelUpdate 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="80d15-102">Recordset2.CancelUpdate method (DAO)</span></span>
+# <a name="recordset2cancelupdate-method-dao"></a><span data-ttu-id="8f7d2-102">CancelUpdate 方法 (DAO) Recordset2</span><span class="sxs-lookup"><span data-stu-id="8f7d2-102">Recordset2.CancelUpdate method (DAO)</span></span>
 
-<span data-ttu-id="80d15-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="80d15-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8f7d2-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="8f7d2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="80d15-104">取消 **[Recordset](recordset-object-dao.md)** 对象的任何待定更新。</span><span class="sxs-lookup"><span data-stu-id="80d15-104">Cancels any pending updates for a **[Recordset](recordset-object-dao.md)** object.</span></span>
+<span data-ttu-id="8f7d2-104">取消 **[Recordset](recordset-object-dao.md)** 对象的任何待定更新。</span><span class="sxs-lookup"><span data-stu-id="8f7d2-104">Cancels any pending updates for a **[Recordset](recordset-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="80d15-105">语法</span><span class="sxs-lookup"><span data-stu-id="80d15-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8f7d2-105">语法</span><span class="sxs-lookup"><span data-stu-id="8f7d2-105">Syntax</span></span>
 
-<span data-ttu-id="80d15-106">*表达式*。CancelUpdate (***UpdateType***)</span><span class="sxs-lookup"><span data-stu-id="80d15-106">*expression* .CancelUpdate(***UpdateType***)</span></span>
+<span data-ttu-id="8f7d2-106">*表达式*。CancelUpdate (***UpdateType***)</span><span class="sxs-lookup"><span data-stu-id="8f7d2-106">*expression* .CancelUpdate(***UpdateType***)</span></span>
 
-<span data-ttu-id="80d15-107">*表达式*一个表示**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="80d15-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="8f7d2-107">*表达式*一个代表**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="8f7d2-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="80d15-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="80d15-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8f7d2-108">参数</span><span class="sxs-lookup"><span data-stu-id="8f7d2-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,36 +37,36 @@ ms.locfileid: "28721372"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="80d15-109">Name</span><span class="sxs-lookup"><span data-stu-id="80d15-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="80d15-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="80d15-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="80d15-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="80d15-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="80d15-112">说明</span><span class="sxs-lookup"><span data-stu-id="80d15-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="8f7d2-109">名称</span><span class="sxs-lookup"><span data-stu-id="8f7d2-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="8f7d2-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="8f7d2-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="8f7d2-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="8f7d2-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="8f7d2-112">说明</span><span class="sxs-lookup"><span data-stu-id="8f7d2-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="80d15-113"><em>UpdateType</em></span><span class="sxs-lookup"><span data-stu-id="80d15-113"><em>UpdateType</em></span></span></p></td>
-<td><p><span data-ttu-id="80d15-114">可选</span><span class="sxs-lookup"><span data-stu-id="80d15-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="80d15-115"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="80d15-115"><strong>Long</strong></span></span></p></td>
-<td><p><span data-ttu-id="80d15-116">设置为<strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong>值之一。</span><span class="sxs-lookup"><span data-stu-id="80d15-116">Set to one of the <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> values.</span></span></p><p><span data-ttu-id="80d15-117"><strong>注意</strong>： <EM>dbUpdateRegular</EM>和<EM>dbUpdateBatch</EM>值是仅当批更新启用有效。</span><span class="sxs-lookup"><span data-stu-id="80d15-117"><strong>NOTE</strong>: The <EM>dbUpdateRegular</EM> and <EM>dbUpdateBatch</EM> values are valid only if batch updating is enabled.</span></span></p>
+<td><p><span data-ttu-id="8f7d2-113"><em>UpdateType</em></span><span class="sxs-lookup"><span data-stu-id="8f7d2-113"><em>UpdateType</em></span></span></p></td>
+<td><p><span data-ttu-id="8f7d2-114">可选</span><span class="sxs-lookup"><span data-stu-id="8f7d2-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="8f7d2-115"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="8f7d2-115"><strong>Long</strong></span></span></p></td>
+<td><p><span data-ttu-id="8f7d2-116">设置为<strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong>值之一。</span><span class="sxs-lookup"><span data-stu-id="8f7d2-116">Set to one of the <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> values.</span></span></p><p><span data-ttu-id="8f7d2-117"><strong>注意</strong>: <EM>dbUpdateRegular</EM>和<EM>dbUpdateBatch</EM>值仅在启用批更新时有效。</span><span class="sxs-lookup"><span data-stu-id="8f7d2-117"><strong>NOTE</strong>: The <EM>dbUpdateRegular</EM> and <EM>dbUpdateBatch</EM> values are valid only if batch updating is enabled.</span></span></p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="80d15-118">注解</span><span class="sxs-lookup"><span data-stu-id="80d15-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8f7d2-118">注解</span><span class="sxs-lookup"><span data-stu-id="8f7d2-118">Remarks</span></span>
 
-<span data-ttu-id="80d15-p101">可以使用 **CancelUpdate** 方法取消执行 **[Edit](recordset2-edit-method-dao.md)** 或 **[AddNew](recordset2-addnew-method-dao.md)** 操作后得到的任何待定更新。例如，如果用户调用了 **Edit** 或 **AddNew** 方法，但尚未调用 **Update** 方法， **CancelUpdate** 将取消 **Edit** 或 **AddNew** 被调用之后所做的任何更改。</span><span class="sxs-lookup"><span data-stu-id="80d15-p101">You can use the **CancelUpdate** method to cancel any pending updates resulting from an **[Edit](recordset2-edit-method-dao.md)** or **[AddNew](recordset2-addnew-method-dao.md)** operation. For example, if a user invokes the **Edit** or **AddNew** method and hasn't yet invoked the **Update** method, **CancelUpdate** cancels any changes made after **Edit** or **AddNew** was invoked.</span></span>
+<span data-ttu-id="8f7d2-p101">可以使用 **CancelUpdate** 方法取消执行 **[Edit](recordset2-edit-method-dao.md)** 或 **[AddNew](recordset2-addnew-method-dao.md)** 操作后得到的任何待定更新。例如，如果用户调用了 **Edit** 或 **AddNew** 方法，但尚未调用 **Update** 方法， **CancelUpdate** 将取消 **Edit** 或 **AddNew** 被调用之后所做的任何更改。</span><span class="sxs-lookup"><span data-stu-id="8f7d2-p101">You can use the **CancelUpdate** method to cancel any pending updates resulting from an **[Edit](recordset2-edit-method-dao.md)** or **[AddNew](recordset2-addnew-method-dao.md)** operation. For example, if a user invokes the **Edit** or **AddNew** method and hasn't yet invoked the **Update** method, **CancelUpdate** cancels any changes made after **Edit** or **AddNew** was invoked.</span></span>
 
-<span data-ttu-id="80d15-121">检查 [Recordset](recordset2-editmode-property-dao.md) 的 \*\*\*\*EditMode\*\*\*\* 属性，以确定是否存在可以取消的待定操作。</span><span class="sxs-lookup"><span data-stu-id="80d15-121">Check the **[EditMode](recordset2-editmode-property-dao.md)** property of the **Recordset** to determine if there is a pending operation that can be canceled.</span></span>
+<span data-ttu-id="8f7d2-121">检查**Recordset**的**[EditMode](recordset2-editmode-property-dao.md)** 属性, 以确定是否存在可以取消的挂起操作。</span><span class="sxs-lookup"><span data-stu-id="8f7d2-121">Check the **[EditMode](recordset2-editmode-property-dao.md)** property of the **Recordset** to determine if there is a pending operation that can be canceled.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="80d15-122">[!注释] 使用 **CancelUpdate** 方法的效果与在不使用 **[Update](recordset2-update-method-dao.md)** 方法的情况下移到另一条记录的效果相同，但是当前记录不发生更改，且不更新各个属性（例如 **[BOF](recordset2-bof-property-dao.md)** 和 **[EOF](recordset2-eof-property-dao.md)** ）。</span><span class="sxs-lookup"><span data-stu-id="80d15-122">Using the **CancelUpdate** method has the same effect as moving to another record without using the **[Update](recordset2-update-method-dao.md)** method, except that the current record doesn't change, and various properties, such as **[BOF](recordset2-bof-property-dao.md)** and **[EOF](recordset2-eof-property-dao.md)**, aren't updated.</span></span>
+> <span data-ttu-id="8f7d2-122">[!注释] 使用 **CancelUpdate** 方法的效果与在不使用 **[Update](recordset2-update-method-dao.md)** 方法的情况下移到另一条记录的效果相同，但是当前记录不发生更改，且不更新各个属性（例如 **[BOF](recordset2-bof-property-dao.md)** 和 **[EOF](recordset2-eof-property-dao.md)** ）。</span><span class="sxs-lookup"><span data-stu-id="8f7d2-122">Using the **CancelUpdate** method has the same effect as moving to another record without using the **[Update](recordset2-update-method-dao.md)** method, except that the current record doesn't change, and various properties, such as **[BOF](recordset2-bof-property-dao.md)** and **[EOF](recordset2-eof-property-dao.md)**, aren't updated.</span></span>
 
-## <a name="example"></a><span data-ttu-id="80d15-123">示例</span><span class="sxs-lookup"><span data-stu-id="80d15-123">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8f7d2-123">示例</span><span class="sxs-lookup"><span data-stu-id="8f7d2-123">Example</span></span>
 
-<span data-ttu-id="80d15-124">以下示例演示如何将 **CancelUpdate** 方法与 **AddNew** 方法一起使用。</span><span class="sxs-lookup"><span data-stu-id="80d15-124">This example shows how the **CancelUpdate** method is used with the **AddNew** method.</span></span>
+<span data-ttu-id="8f7d2-124">以下示例演示如何将 **CancelUpdate** 方法与 **AddNew** 方法一起使用。</span><span class="sxs-lookup"><span data-stu-id="8f7d2-124">This example shows how the **CancelUpdate** method is used with the **AddNew** method.</span></span>
 
 ```vb
     Sub CancelUpdateX() 
@@ -105,7 +105,7 @@ ms.locfileid: "28721372"
 
 <br/>
 
-<span data-ttu-id="80d15-125">以下示例演示如何将 **CancelUpdate** 方法与 **Edit** 方法一起使用。</span><span class="sxs-lookup"><span data-stu-id="80d15-125">This example shows how the **CancelUpdate** method is used with the **Edit** method.</span></span>
+<span data-ttu-id="8f7d2-125">以下示例演示如何将 **CancelUpdate** 方法与 **Edit** 方法一起使用。</span><span class="sxs-lookup"><span data-stu-id="8f7d2-125">This example shows how the **CancelUpdate** method is used with the **Edit** method.</span></span>
 
 ```vb
 Sub CancelUpdateX2() 

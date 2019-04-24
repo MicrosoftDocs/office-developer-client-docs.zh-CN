@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: db0c522866b6402217a2f875d02b56b8ee291850
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296687"
 ---
-# <a name="cancel-method-example-vb"></a><span data-ttu-id="eca00-102">Cancel 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="eca00-102">Cancel method example (VB)</span></span>
+# <a name="cancel-method-example-vb"></a><span data-ttu-id="34434-102">Cancel 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="34434-102">Cancel method example (VB)</span></span>
 
 
-<span data-ttu-id="eca00-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="eca00-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="34434-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="34434-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="eca00-104">以下示例使用 [Cancel](cancel-method-ado.md) 方法取消当连接处于忙碌状态时对 [Connection](connection-object-ado.md) 对象执行的命令。</span><span class="sxs-lookup"><span data-stu-id="eca00-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="34434-104">以下示例使用 [Cancel](cancel-method-ado.md) 方法取消当连接处于忙碌状态时对 [Connection](connection-object-ado.md) 对象执行的命令。</span><span class="sxs-lookup"><span data-stu-id="34434-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```vb 
  

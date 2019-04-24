@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9d151d30ad376698d7b54b0795844210a41e701c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297030"
 ---
-# <a name="appendchunk-and-getchunk-methods-example-vj"></a><span data-ttu-id="8c85a-102">AppendChunk 和 GetChunk 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="8c85a-102">AppendChunk and GetChunk methods example (VJ++)</span></span>
+# <a name="appendchunk-and-getchunk-methods-example-vj"></a><span data-ttu-id="b6dd0-102">AppendChunk 和 GetChunk 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b6dd0-102">AppendChunk and GetChunk methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="8c85a-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="8c85a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b6dd0-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="b6dd0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8c85a-104">以下示例使用 [AppendChunk](appendchunk-method-ado.md) 和 [GetChunk](getchunk-method-ado.md) 方法，用来自其他记录的数据填充图像字段。</span><span class="sxs-lookup"><span data-stu-id="8c85a-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
+<span data-ttu-id="b6dd0-104">以下示例使用 [AppendChunk](appendchunk-method-ado.md) 和 [GetChunk](getchunk-method-ado.md) 方法，用来自其他记录的数据填充图像字段。</span><span class="sxs-lookup"><span data-stu-id="b6dd0-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
 
 ```java 
  

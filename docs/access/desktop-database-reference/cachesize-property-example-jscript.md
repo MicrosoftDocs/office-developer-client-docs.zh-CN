@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c660d2b0f1d3545b6e7c2cbab72c42056d9ded99
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296736"
 ---
-# <a name="cachesize-property-example-jscript"></a><span data-ttu-id="91a4f-102">CacheSize 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="91a4f-102">CacheSize property example (JScript)</span></span>
+# <a name="cachesize-property-example-jscript"></a><span data-ttu-id="e7252-102">CacheSize 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="e7252-102">CacheSize property example (JScript)</span></span>
 
 
-<span data-ttu-id="91a4f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="91a4f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e7252-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="e7252-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="91a4f-p101">此示例使用 [CacheSize](cachesize-property-ado.md) 属性显示在使用和不使用 30 条记录大小的缓存的情况下执行一个操作时的性能差异。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **CacheSizeJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="91a4f-p101">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache. Cut and paste the following code to Notepad or another text editor, and save it as **CacheSizeJS.asp**.</span></span>
+<span data-ttu-id="e7252-p101">此示例使用 [CacheSize](cachesize-property-ado.md) 属性显示在使用和不使用 30 条记录大小的缓存的情况下执行一个操作时的性能差异。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **CacheSizeJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="e7252-p101">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache. Cut and paste the following code to Notepad or another text editor, and save it as **CacheSizeJS.asp**.</span></span>
 
 ```javascript 
  

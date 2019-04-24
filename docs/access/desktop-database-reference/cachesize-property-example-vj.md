@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 373ee7720f706bae1db2f446a407c89f2a7f3baf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296694"
 ---
-# <a name="cachesize-property-example-vj"></a><span data-ttu-id="16694-102">CacheSize 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="16694-102">CacheSize property example (VJ++)</span></span>
+# <a name="cachesize-property-example-vj"></a><span data-ttu-id="1c73b-102">CacheSize 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1c73b-102">CacheSize property example (VJ++)</span></span>
 
 
-<span data-ttu-id="16694-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="16694-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1c73b-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c73b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="16694-104">此示例使用 [CacheSize](cachesize-property-ado.md) 属性显示在使用和不使用 30 条记录大小的缓存的情况下执行一个操作时的性能差异。</span><span class="sxs-lookup"><span data-stu-id="16694-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
+<span data-ttu-id="1c73b-104">此示例使用 [CacheSize](cachesize-property-ado.md) 属性显示在使用和不使用 30 条记录大小的缓存的情况下执行一个操作时的性能差异。</span><span class="sxs-lookup"><span data-stu-id="1c73b-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
 
 ```java 
  

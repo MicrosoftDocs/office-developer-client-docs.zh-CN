@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 921396edd480e06194d1c3dcbb683aa8556553e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306004"
 ---
-# <a name="workflowtasks-macro-action"></a><span data-ttu-id="d5c04-102">WorkflowTasks 宏操作</span><span class="sxs-lookup"><span data-stu-id="d5c04-102">WorkflowTasks macro action</span></span>
+# <a name="workflowtasks-macro-action"></a><span data-ttu-id="d3d4c-102">WorkflowTasks 宏操作</span><span class="sxs-lookup"><span data-stu-id="d3d4c-102">WorkflowTasks macro action</span></span>
 
 
-<span data-ttu-id="d5c04-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5c04-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d3d4c-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="d3d4c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d5c04-104">可以使用 **WorkflowTasks** 操作显示 **"工作流任务"** 对话框。</span><span class="sxs-lookup"><span data-stu-id="d5c04-104">You can use the **WorkflowTasks** action to display the **Workflow Task** dialog box.</span></span>
+<span data-ttu-id="d3d4c-104">可以使用 **WorkflowTasks** 操作显示 **“工作流任务”** 对话框。</span><span class="sxs-lookup"><span data-stu-id="d3d4c-104">You can use the **WorkflowTasks** action to display the **Workflow Task** dialog box.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="d5c04-105">设置</span><span class="sxs-lookup"><span data-stu-id="d5c04-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="d3d4c-105">Setting</span><span class="sxs-lookup"><span data-stu-id="d3d4c-105">Setting</span></span>
 
-<span data-ttu-id="d5c04-106">**WorkflowTasks** 操作具有以下参数。</span><span class="sxs-lookup"><span data-stu-id="d5c04-106">The **WorkflowTasks** action has the following argument.</span></span>
+<span data-ttu-id="d3d4c-106">**WorkflowTasks** 操作具有以下参数。</span><span class="sxs-lookup"><span data-stu-id="d3d4c-106">The **WorkflowTasks** action has the following argument.</span></span>
 
 <table>
 <colgroup>
@@ -36,26 +36,26 @@ ms.locfileid: "28721855"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d5c04-107">操作参数</span><span class="sxs-lookup"><span data-stu-id="d5c04-107">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="d5c04-108">说明</span><span class="sxs-lookup"><span data-stu-id="d5c04-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="d3d4c-107">操作参数</span><span class="sxs-lookup"><span data-stu-id="d3d4c-107">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="d3d4c-108">说明</span><span class="sxs-lookup"><span data-stu-id="d3d4c-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d5c04-109"><strong>记录号</strong></span><span class="sxs-lookup"><span data-stu-id="d5c04-109"><strong>Record Number</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5c04-110">在 Microsoft SharePoint Foundation 列表中，启动与列表中的第一项<strong>1</strong> 、 <strong>2</strong>的第二个项目，依次类推项的位置。</span><span class="sxs-lookup"><span data-stu-id="d5c04-110">The position of the item in the Microsoft SharePoint Foundation list, starting with <strong>1</strong> for the first item in the list, <strong>2</strong> for the second item, and so on.</span></span> <span data-ttu-id="d5c04-111">您还可以输入一个表达式为此参数。</span><span class="sxs-lookup"><span data-stu-id="d5c04-111">You can also enter an expression for this argument.</span></span></p></td>
+<td><p><span data-ttu-id="d3d4c-109"><strong>记录号</strong></span><span class="sxs-lookup"><span data-stu-id="d3d4c-109"><strong>Record Number</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3d4c-110">项目在 Microsoft SharePoint Foundation 列表中的位置, 从<strong>1</strong>开始, 列表中的第一个项目开始, 第二个项目为<strong>2</strong> , 依此类推。</span><span class="sxs-lookup"><span data-stu-id="d3d4c-110">The position of the item in the Microsoft SharePoint Foundation list, starting with <strong>1</strong> for the first item in the list, <strong>2</strong> for the second item, and so on.</span></span> <span data-ttu-id="d3d4c-111">也可以为此参数输入表达式。</span><span class="sxs-lookup"><span data-stu-id="d3d4c-111">You can also enter an expression for this argument.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="d5c04-112">说明</span><span class="sxs-lookup"><span data-stu-id="d5c04-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d3d4c-112">注解</span><span class="sxs-lookup"><span data-stu-id="d3d4c-112">Remarks</span></span>
 
-  - <span data-ttu-id="d5c04-p102">**WorkflowTasks** 操作可打开 **"工作流任务"** 对话框。此对话框显示可用于指定的项的所有任务。必须为 SharePoint Foundation 中的列表定义工作流。</span><span class="sxs-lookup"><span data-stu-id="d5c04-p102">The **WorkflowTasks** action opens the **Workflow Tasks** dialog box. This dialog box displays all tasks that are available for the specified item. A workflow must be defined for the list in SharePoint Foundation.</span></span>
+  - <span data-ttu-id="d3d4c-p102">**WorkflowTasks** 操作可打开 **"工作流任务"** 对话框。此对话框显示可用于指定的项的所有任务。必须为 SharePoint Foundation 中的列表定义工作流。</span><span class="sxs-lookup"><span data-stu-id="d3d4c-p102">The **WorkflowTasks** action opens the **Workflow Tasks** dialog box. This dialog box displays all tasks that are available for the specified item. A workflow must be defined for the list in SharePoint Foundation.</span></span>
 
-  - <span data-ttu-id="d5c04-p103">只有在打开并选择了链接的 SharePoint Foundation 列表后，才可以使用 **WorkflowTasks** 操作。若要打开并选择链接的列表，请使用 **OpenTable** 操作。如果该列表已经打开，请使用 **SelectObject** 操作选择它。</span><span class="sxs-lookup"><span data-stu-id="d5c04-p103">The **WorkflowTasks** action can only be used after a linked SharePoint Foundation list has been opened and selected. To open and select the linked list, use the **OpenTable** action. If the list is already open, use the **SelectObject** action to select it.</span></span>
+  - <span data-ttu-id="d3d4c-p103">只有在打开并选择了链接的 SharePoint Foundation 列表后，才可以使用 **WorkflowTasks** 操作。若要打开并选择链接的列表，请使用 **OpenTable** 操作。如果该列表已经打开，请使用 **SelectObject** 操作选择它。</span><span class="sxs-lookup"><span data-stu-id="d3d4c-p103">The **WorkflowTasks** action can only be used after a linked SharePoint Foundation list has been opened and selected. To open and select the linked list, use the **OpenTable** action. If the list is already open, use the **SelectObject** action to select it.</span></span>
 
-  - <span data-ttu-id="d5c04-119">**WorkflowTasks** 操作等效于以下操作：当链接的 SharePoint Foundation 列表在数据表视图中处于打开状态时右键单击其中的任意单元格，指向 **"工作流"**，然后单击 **"工作流任务"**。</span><span class="sxs-lookup"><span data-stu-id="d5c04-119">The **WorkflowTasks** action has the same effect as right-clicking any cell in a linked SharePoint Foundation list while it is open in datasheet view, pointing to **Workflow**, and then clicking **Workflow Tasks**.</span></span>
+  - <span data-ttu-id="d3d4c-119">**WorkflowTasks** 操作等效于以下操作：当链接的 SharePoint Foundation 列表在数据表视图中处于打开状态时右键单击其中的任意单元格，指向 **"工作流"**，然后单击 **"工作流任务"**。</span><span class="sxs-lookup"><span data-stu-id="d3d4c-119">The **WorkflowTasks** action has the same effect as right-clicking any cell in a linked SharePoint Foundation list while it is open in datasheet view, pointing to **Workflow**, and then clicking **Workflow Tasks**.</span></span>
 
-  - <span data-ttu-id="d5c04-120">要在 VBA 模块中运行 **WorkflowTasks** 操作，请使用 **DoCmd** 对象的 **WorkflowTasks** 方法。</span><span class="sxs-lookup"><span data-stu-id="d5c04-120">To run the **WorkflowTasks** action in a VBA module, use the **WorkflowTasks** method of the **DoCmd** object.</span></span>
+  - <span data-ttu-id="d3d4c-120">要在 VBA 模块中运行 **WorkflowTasks** 操作，请使用 **DoCmd** 对象的 **WorkflowTasks** 方法。</span><span class="sxs-lookup"><span data-stu-id="d3d4c-120">To run the **WorkflowTasks** action in a VBA module, use the **WorkflowTasks** method of the **DoCmd** object.</span></span>
 

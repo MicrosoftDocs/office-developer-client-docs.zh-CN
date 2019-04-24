@@ -1,5 +1,5 @@
 ---
-title: Connection.OpenRecordset 方法 (DAO)
+title: OpenRecordset 方法 (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: 584a3e00-7589-90f1-aa6a-5d6116f0b5b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: abbb7a4f58714aef0e085d0f37b5ee49378e0f51
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295847"
 ---
-# <a name="connectionopenrecordset-method-dao"></a><span data-ttu-id="03eec-102">Connection.OpenRecordset 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="03eec-102">Connection.OpenRecordset method (DAO)</span></span>
+# <a name="connectionopenrecordset-method-dao"></a><span data-ttu-id="8068f-102">OpenRecordset 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="8068f-102">Connection.OpenRecordset method (DAO)</span></span>
 
-<span data-ttu-id="03eec-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="03eec-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8068f-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="8068f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="03eec-104">创建一个新的 **[Recordset](recordset-object-dao.md)** 对象，并将其追加到 **Recordsets** 集合。</span><span class="sxs-lookup"><span data-stu-id="03eec-104">Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to the **Recordsets** collection.</span></span>
+<span data-ttu-id="8068f-104">创建一个新的 **[Recordset](recordset-object-dao.md)** 对象，并将其追加到 **Recordsets** 集合。</span><span class="sxs-lookup"><span data-stu-id="8068f-104">Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to the **Recordsets** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="03eec-105">语法</span><span class="sxs-lookup"><span data-stu-id="03eec-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8068f-105">语法</span><span class="sxs-lookup"><span data-stu-id="8068f-105">Syntax</span></span>
 
-<span data-ttu-id="03eec-106">*表达式*。OpenRecordset （***名称***、***类型***、***选项***、 ***LockEdit***）</span><span class="sxs-lookup"><span data-stu-id="03eec-106">*expression* .OpenRecordset(***Name***, ***Type***, ***Options***, ***LockEdit***)</span></span>
+<span data-ttu-id="8068f-106">*表达式*。OpenRecordset (***Name***、 ***Type***、 ***Options***、 ***LockEdit***)</span><span class="sxs-lookup"><span data-stu-id="8068f-106">*expression* .OpenRecordset(***Name***, ***Type***, ***Options***, ***LockEdit***)</span></span>
 
-<span data-ttu-id="03eec-107">*表达式*代表**Connection**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="03eec-107">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="8068f-107">*表达式*一个代表**Connection**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="8068f-107">*expression* A variable that represents a **Connection** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="03eec-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="03eec-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8068f-108">参数</span><span class="sxs-lookup"><span data-stu-id="8068f-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,59 +37,59 @@ ms.locfileid: "28708877"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="03eec-109">Name</span><span class="sxs-lookup"><span data-stu-id="03eec-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="03eec-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="03eec-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="03eec-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="03eec-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="03eec-112">说明</span><span class="sxs-lookup"><span data-stu-id="03eec-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="8068f-109">名称</span><span class="sxs-lookup"><span data-stu-id="8068f-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="8068f-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="8068f-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="8068f-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="8068f-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="8068f-112">说明</span><span class="sxs-lookup"><span data-stu-id="8068f-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="03eec-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="03eec-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="03eec-114">必需</span><span class="sxs-lookup"><span data-stu-id="03eec-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="03eec-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="03eec-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="03eec-p101">新的 <strong>Recordset</strong> 的记录源。该源可能是表名、查询名或返回记录的 SQL 语句。对于 Microsoft Access 数据库引擎数据库中的表类型 <strong>Recordset</strong> 对象，该源只能是表名。  </span><span class="sxs-lookup"><span data-stu-id="03eec-p101">The source of the records for the new <strong>Recordset</strong>. The source can be a table name, a query name, or an SQL statement that returns records. For table-type <strong>Recordset</strong> objects in Microsoft Access database engine databases, the source can only be a table name.</span></span></p></td>
+<td><p><span data-ttu-id="8068f-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="8068f-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="8068f-114">必需</span><span class="sxs-lookup"><span data-stu-id="8068f-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="8068f-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="8068f-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="8068f-p101">新的 <strong>Recordset</strong> 的记录源。该源可能是表名、查询名或返回记录的 SQL 语句。对于 Microsoft Access 数据库引擎数据库中的表类型 <strong>Recordset</strong> 对象，该源只能是表名。  </span><span class="sxs-lookup"><span data-stu-id="8068f-p101">The source of the records for the new <strong>Recordset</strong>. The source can be a table name, a query name, or an SQL statement that returns records. For table-type <strong>Recordset</strong> objects in Microsoft Access database engine databases, the source can only be a table name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="03eec-119"><em>Type</em></span><span class="sxs-lookup"><span data-stu-id="03eec-119"><em>Type</em></span></span></p></td>
-<td><p><span data-ttu-id="03eec-120">可选</span><span class="sxs-lookup"><span data-stu-id="03eec-120">Optional</span></span></p></td>
-<td><p><span data-ttu-id="03eec-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="03eec-121"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="03eec-122"><strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> 常量，可指示要打开的 <strong>Recordset</strong> 的类型。</span><span class="sxs-lookup"><span data-stu-id="03eec-122">A <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> constant that indicates the type of <strong>Recordset</strong> to open.</span></span></p><p><span data-ttu-id="03eec-123"><strong>注意</strong>： 如果在 Microsoft Access 工作区中打开<strong>Recordset</strong>时未指定类型， <strong>OpenRecordset</strong>创建表类型<strong>Recordset</strong>，如果可能。</span><span class="sxs-lookup"><span data-stu-id="03eec-123"><strong>NOTE</strong>: If you open a <strong>Recordset</strong> in a Microsoft Access workspace and you don't specify a type, <strong>OpenRecordset</strong> creates a table-type <strong>Recordset</strong>, if possible.</span></span> <span data-ttu-id="03eec-124">如果您指定的链接的表或查询， <strong>OpenRecordset</strong>创建动态集类型<strong>Recordset</strong>。</span><span class="sxs-lookup"><span data-stu-id="03eec-124">If you specify a linked table or query, <strong>OpenRecordset</strong> creates a dynaset-type <strong>Recordset</strong>.</span></span></p>
+<td><p><span data-ttu-id="8068f-119"><em>Type</em></span><span class="sxs-lookup"><span data-stu-id="8068f-119"><em>Type</em></span></span></p></td>
+<td><p><span data-ttu-id="8068f-120">可选</span><span class="sxs-lookup"><span data-stu-id="8068f-120">Optional</span></span></p></td>
+<td><p><span data-ttu-id="8068f-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="8068f-121"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="8068f-122"><strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> 常量，可指示要打开的 <strong>Recordset</strong> 的类型。</span><span class="sxs-lookup"><span data-stu-id="8068f-122">A <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> constant that indicates the type of <strong>Recordset</strong> to open.</span></span></p><p><span data-ttu-id="8068f-123"><strong>注意</strong>: 如果在 Microsoft Access 工作区中打开<strong>Recordset</strong> , 但未指定类型, 则<strong>OpenRecordset</strong>将创建表类型的<strong>recordset</strong>(如果可能)。</span><span class="sxs-lookup"><span data-stu-id="8068f-123"><strong>NOTE</strong>: If you open a <strong>Recordset</strong> in a Microsoft Access workspace and you don't specify a type, <strong>OpenRecordset</strong> creates a table-type <strong>Recordset</strong>, if possible.</span></span> <span data-ttu-id="8068f-124">If you specify a linked table or query, <strong>OpenRecordset</strong> creates a dynaset-type <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="8068f-124">If you specify a linked table or query, <strong>OpenRecordset</strong> creates a dynaset-type <strong>Recordset</strong>.</span></span></p>
 </td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="03eec-125"><em>Options</em></span><span class="sxs-lookup"><span data-stu-id="03eec-125"><em>Options</em></span></span></p></td>
-<td><p><span data-ttu-id="03eec-126">可选</span><span class="sxs-lookup"><span data-stu-id="03eec-126">Optional</span></span></p></td>
-<td><p><span data-ttu-id="03eec-127"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="03eec-127"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="03eec-128"><strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> 常量的组合，可指定新 <strong>Recordset</strong> 的特性。</span><span class="sxs-lookup"><span data-stu-id="03eec-128">A combination of <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> constants that specify characteristics of the new <strong>Recordset</strong>.</span></span></p><p><span data-ttu-id="03eec-129"><strong>注意</strong>： 常量<strong>dbConsistent</strong>和<strong>dbInconsistent</strong>是互斥的并且在同时使用将导致出错。</span><span class="sxs-lookup"><span data-stu-id="03eec-129"><strong>NOTE</strong>: The constants <strong>dbConsistent</strong> and <strong>dbInconsistent</strong> are mutually exclusive, and using both causes an error.</span></span> <span data-ttu-id="03eec-130">提供 lockedits 实参选项使用<strong>dbReadOnly</strong>常量时还会导致错误。</span><span class="sxs-lookup"><span data-stu-id="03eec-130">Supplying a lockedits argument when options use the <strong>dbReadOnly</strong> constant also causes an error.</span></span></p>
+<td><p><span data-ttu-id="8068f-125"><em>Options</em></span><span class="sxs-lookup"><span data-stu-id="8068f-125"><em>Options</em></span></span></p></td>
+<td><p><span data-ttu-id="8068f-126">可选</span><span class="sxs-lookup"><span data-stu-id="8068f-126">Optional</span></span></p></td>
+<td><p><span data-ttu-id="8068f-127"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="8068f-127"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="8068f-128"><strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> 常量的组合，可指定新 <strong>Recordset</strong> 的特性。</span><span class="sxs-lookup"><span data-stu-id="8068f-128">A combination of <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> constants that specify characteristics of the new <strong>Recordset</strong>.</span></span></p><p><span data-ttu-id="8068f-129"><strong>注意</strong>: 常量<strong>dbConsistent</strong>和<strong>dbInconsistent</strong>是互斥的, 同时使用 both 会导致错误。</span><span class="sxs-lookup"><span data-stu-id="8068f-129"><strong>NOTE</strong>: The constants <strong>dbConsistent</strong> and <strong>dbInconsistent</strong> are mutually exclusive, and using both causes an error.</span></span> <span data-ttu-id="8068f-130">当选项使用<strong>dbReadOnly</strong>常量时提供 lockedits 参数也会导致错误。</span><span class="sxs-lookup"><span data-stu-id="8068f-130">Supplying a lockedits argument when options use the <strong>dbReadOnly</strong> constant also causes an error.</span></span></p>
 </td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="03eec-131"><em>LockEdit</em></span><span class="sxs-lookup"><span data-stu-id="03eec-131"><em>LockEdit</em></span></span></p></td>
-<td><p><span data-ttu-id="03eec-132">可选</span><span class="sxs-lookup"><span data-stu-id="03eec-132">Optional</span></span></p></td>
-<td><p><span data-ttu-id="03eec-133"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="03eec-133"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="03eec-134"><strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> 常量，可确定 <strong>Recordset</strong> 是否锁定。</span><span class="sxs-lookup"><span data-stu-id="03eec-134">A <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> constant that determines the locking for the <strong>Recordset</strong>.</span></span></p><p><span data-ttu-id="03eec-135"><strong>注意</strong>： 您可以使用<strong>dbReadOnly</strong> options 参数或 lockedits 参数，但不是能同时中。</span><span class="sxs-lookup"><span data-stu-id="03eec-135"><strong>NOTE</strong>: You can use <strong>dbReadOnly</strong> in either the options argument or the lockedits argument, but not both.</span></span> <span data-ttu-id="03eec-136">如果您使用它为两个参数，将发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="03eec-136">If you use it for both arguments, a run-time error occurs.</span></span></p>
+<td><p><span data-ttu-id="8068f-131"><em>LockEdit</em></span><span class="sxs-lookup"><span data-stu-id="8068f-131"><em>LockEdit</em></span></span></p></td>
+<td><p><span data-ttu-id="8068f-132">可选</span><span class="sxs-lookup"><span data-stu-id="8068f-132">Optional</span></span></p></td>
+<td><p><span data-ttu-id="8068f-133"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="8068f-133"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="8068f-134"><strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> 常量，可确定 <strong>Recordset</strong> 是否锁定。</span><span class="sxs-lookup"><span data-stu-id="8068f-134">A <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> constant that determines the locking for the <strong>Recordset</strong>.</span></span></p><p><span data-ttu-id="8068f-135"><strong>注意</strong>: 可以在 options 参数或 lockedits 参数中使用<strong>dbReadOnly</strong> , 但不能同时使用这两者。</span><span class="sxs-lookup"><span data-stu-id="8068f-135"><strong>NOTE</strong>: You can use <strong>dbReadOnly</strong> in either the options argument or the lockedits argument, but not both.</span></span> <span data-ttu-id="8068f-136">If you use it for both arguments, a run-time error occurs.</span><span class="sxs-lookup"><span data-stu-id="8068f-136">If you use it for both arguments, a run-time error occurs.</span></span></p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="03eec-137">返回值</span><span class="sxs-lookup"><span data-stu-id="03eec-137">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8068f-137">返回值</span><span class="sxs-lookup"><span data-stu-id="8068f-137">Return value</span></span>
 
-<span data-ttu-id="03eec-138">Recordset</span><span class="sxs-lookup"><span data-stu-id="03eec-138">Recordset</span></span>
+<span data-ttu-id="8068f-138">Recordset</span><span class="sxs-lookup"><span data-stu-id="8068f-138">Recordset</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="03eec-139">注解</span><span class="sxs-lookup"><span data-stu-id="03eec-139">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8068f-139">注解</span><span class="sxs-lookup"><span data-stu-id="8068f-139">Remarks</span></span>
 
-<span data-ttu-id="03eec-p105">通常，如果用户在更新记录时接收到此错误，代码应刷新字段的内容，然后检索最近修改的值。如果在删除记录时出错，代码应向用户显示新记录数据，同时显示一则消息，指示最近更改了数据。此时，代码可能会请求确认用户是否仍要删除记录。</span><span class="sxs-lookup"><span data-stu-id="03eec-p105">Typically, if the user gets this error while updating a record, your code should refresh the contents of the fields and retrieve the newly modified values. If the error occurs while deleting a record, your code could display the new record data to the user and a message indicating that the data has recently changed. At this point, your code can request a confirmation that the user still wants to delete the record.</span></span>
+<span data-ttu-id="8068f-p105">通常，如果用户在更新记录时接收到此错误，代码应刷新字段的内容，然后检索最近修改的值。如果在删除记录时出错，代码应向用户显示新记录数据，同时显示一则消息，指示最近更改了数据。此时，代码可能会请求确认用户是否仍要删除记录。</span><span class="sxs-lookup"><span data-stu-id="8068f-p105">Typically, if the user gets this error while updating a record, your code should refresh the contents of the fields and retrieve the newly modified values. If the error occurs while deleting a record, your code could display the new record data to the user and a message indicating that the data has recently changed. At this point, your code can request a confirmation that the user still wants to delete the record.</span></span>
 
-<span data-ttu-id="03eec-143">如果在 Microsoft Access 数据库引擎连接的 ODBC 工作区中，对包含 IDENTITY 列的 Microsoft SQL Server 6.0（或更新版本）表打开了 **Recordset**，则还应该使用 **dbSeeChanges** 常量，否则会导致出错。</span><span class="sxs-lookup"><span data-stu-id="03eec-143">You should also use the **dbSeeChanges** constant if you open a **Recordset** in a Microsoft Access database engine-connected ODBC workspace against a Microsoft SQL Server 6.0 (or later) table that has an IDENTITY column, otherwise an error may result.</span></span>
+<span data-ttu-id="8068f-143">如果在 Microsoft Access 数据库引擎连接的 ODBC 工作区中，对包含 IDENTITY 列的 Microsoft SQL Server 6.0（或更新版本）表打开了 **Recordset** ，则还应该使用 **dbSeeChanges** 常量，否则会导致出错。</span><span class="sxs-lookup"><span data-stu-id="8068f-143">You should also use the **dbSeeChanges** constant if you open a **Recordset** in a Microsoft Access database engine-connected ODBC workspace against a Microsoft SQL Server 6.0 (or later) table that has an IDENTITY column, otherwise an error may result.</span></span>
 
-<span data-ttu-id="03eec-p106">对一个 ODBC 数据源打开多个 **Recordset** 可能会失败，因为连接正被 **OpenRecordset** 调用占用。解决此问题的一种方法是在打开 **Recordset** 后立即使用 **MoveLast** 方法，以完全填充 **Recordset**。</span><span class="sxs-lookup"><span data-stu-id="03eec-p106">Opening more than one **Recordset** on an ODBC data source may fail because the connection is busy with a prior **OpenRecordset** call. One way around this is to fully populate the **Recordset** by using the **MoveLast** method as soon as the **Recordset** is opened.</span></span>
+<span data-ttu-id="8068f-p106">对一个 ODBC 数据源打开多个 **Recordset** 可能会失败，因为连接正被 **OpenRecordset** 调用占用。解决此问题的一种方法是在打开 **Recordset** 后立即使用 **MoveLast** 方法，以完全填充 **Recordset** 。</span><span class="sxs-lookup"><span data-stu-id="8068f-p106">Opening more than one **Recordset** on an ODBC data source may fail because the connection is busy with a prior **OpenRecordset** call. One way around this is to fully populate the **Recordset** by using the **MoveLast** method as soon as the **Recordset** is opened.</span></span>
 
-<span data-ttu-id="03eec-146">使用 [**Close**](connection-close-method-dao.md) 方法关闭 **Recordset** 会自动从 **Recordsets** 集合中将其删除。</span><span class="sxs-lookup"><span data-stu-id="03eec-146">Closing a **Recordset** with the **[Close](connection-close-method-dao.md)** method automatically deletes it from the **Recordsets** collection.</span></span>
+<span data-ttu-id="8068f-146">使用 [**Close**](connection-close-method-dao.md) 方法关闭 **Recordset** 会自动从 **Recordsets** 集合中将其删除。</span><span class="sxs-lookup"><span data-stu-id="8068f-146">Closing a **Recordset** with the **[Close](connection-close-method-dao.md)** method automatically deletes it from the **Recordsets** collection.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="03eec-147">如果*源*是指的 SQL 语句组成非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strSQL ="价格&gt;" &amp; lngPrice，和 lngPrice =125,50)，当您尝试打开**Recordset**时就会出错。</span><span class="sxs-lookup"><span data-stu-id="03eec-147">If *source* refers to an SQL statement composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE &gt; " &amp; lngPrice, and lngPrice = 125,50), an error occurs when you try to open the **Recordset**.</span></span> <span data-ttu-id="03eec-148">这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 SQL 只接受美国格式的小数字符。</span><span class="sxs-lookup"><span data-stu-id="03eec-148">This is because during concatenation, the number will be converted to a string using your system's default decimal character, and SQL only accepts U.S. decimal characters.</span></span>
+> <span data-ttu-id="8068f-147">如果*source*引用由与非整数值串联的字符串组成的 SQL 语句, 并且系统参数指定一个非美国十进制字符 (如逗号) (例如, strSQL = "PRICE &gt; " &amp; lngPrice 和 lngPrice =125, 50), 当您尝试打开**Recordset**时, 将发生错误。</span><span class="sxs-lookup"><span data-stu-id="8068f-147">If *source* refers to an SQL statement composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE &gt; " &amp; lngPrice, and lngPrice = 125,50), an error occurs when you try to open the **Recordset**.</span></span> <span data-ttu-id="8068f-148">这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 SQL 只接受美国格式的小数字符。</span><span class="sxs-lookup"><span data-stu-id="8068f-148">This is because during concatenation, the number will be converted to a string using your system's default decimal character, and SQL only accepts U.S. decimal characters.</span></span>
 
 

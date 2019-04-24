@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ee1aaceac3402b878d63ddccb6eb0641c47d918e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308377"
 ---
-# <a name="update-and-cancelupdate-methods-example-vj"></a><span data-ttu-id="53685-102">Update 和 CancelUpdate 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="53685-102">Update and CancelUpdate methods example (VJ++)</span></span>
+# <a name="update-and-cancelupdate-methods-example-vj"></a><span data-ttu-id="fc2b2-102">Update 和 CancelUpdate 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="fc2b2-102">Update and CancelUpdate methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="53685-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="53685-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc2b2-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc2b2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="53685-104">以下示例演示了如何结合使用 [Update](update-method-ado.md) 方法和 [CancelUpdate](cancelupdate-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="53685-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
+<span data-ttu-id="fc2b2-104">以下示例演示了如何结合使用 [Update](update-method-ado.md) 方法和 [CancelUpdate](cancelupdate-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="fc2b2-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
 
 ```java 
  
