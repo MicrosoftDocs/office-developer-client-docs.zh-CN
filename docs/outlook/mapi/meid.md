@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
-description: 上次修改时间： 2012 年 7 月 3 日
-ms.openlocfilehash: 24cc4b00f02c61395565fb7ddeb6a5b5a62afdc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间:03 月3日, 2012
+ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356971"
 ---
 # <a name="meid"></a>MEID
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-某个 Outlook 项目的的标识符。 它包含的项标识符以及其他相关信息。
+Outlook 项目的标识符。 它包含条目标识符和其他相关信息。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -36,19 +36,19 @@ struct MEID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
  _abFlags_
   
-> 对 Outlook 项目的 4 字节条目标识符。 有关 MAPI 项标识符的详细信息，请参阅**[ENTRYID](entryid.md)**。 
+> 4字节的 Outlook 项目标识符。 有关 MAPI 条目标识符的详细信息, 请参阅**[ENTRYID](entryid.md)**。 
     
  _muid_
   
-> 标识的存储提供程序的 GUID。 请参阅 mapidefs.h **MAPIUID**的类型定义。 
+> 标识存储提供程序的 GUID。 有关**MAPIUID**的类型定义, 请参阅 mapidefs.h。 
     
  _占位符_
   
-> 此成员仅供内部使用的 Outlook，不支持。
+> 此成员是为内部使用 Outlook 而保留的, 不受支持。
     
  _ltidFld_
   
@@ -64,11 +64,11 @@ struct MEID
 
 [关于复制 API](about-the-replication-api.md)
   
-[关于复制状态计算机](about-the-replication-state-machine.md)
+[关于复制状态机](about-the-replication-state-machine.md)
   
 [LTID](ltid.md)
   
-[SYNC](sync.md)
+[同步](sync.md)
   
 [UPMSG](upmsg.md)
 

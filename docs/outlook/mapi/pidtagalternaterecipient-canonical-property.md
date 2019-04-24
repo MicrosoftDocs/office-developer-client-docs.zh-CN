@@ -13,11 +13,11 @@ api_type:
 ms.assetid: df787b60-2f53-42ac-89b5-1b52c906f472
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7c304de3184e49044d3f83cef1f1ebaac019b2ee
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392779"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360093"
 ---
 # <a name="pidtagalternaterecipient-canonical-property"></a>PidTagAlternateRecipient 规范属性
 
@@ -25,46 +25,46 @@ ms.locfileid: "25392779"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含由原始收件人指定的备用收件人的项标识符的列表。 
+包含原始收件人指定的备用收件人的条目标识符列表。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ALTERNATE_RECIPIENT  <br/> |
-|标识符：  <br/> |0x3A01  <br/> |
+|标识符:  <br/> |0x3A01  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性用于自动转发邮件。 它包含的备用收件人[FLATENTRYLIST](flatentrylist.md)结构。 如果不允许自动转接，或者如果已不指定任何备用收件人，则生成原件报表。 
+此属性用于自动转发的邮件。 它包含备用收件人的[FLATENTRYLIST](flatentrylist.md)结构。 如果不允许 autoforwarding, 或者未指定备用收件人, 则将生成 nondelivery 报告。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理顺序和客户端和服务器之间的数据传输的流。
+> 处理客户端与服务器之间的数据传输的顺序和流。
     
-[[MS OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[毫秒-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> IETF RFC2445、 RFC2446，和 RFC2447，和约会和会议对象之间进行转换。
+> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间进行转换。
     
-[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[毫秒-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> 进行编码和解码为有效的流表示形式的消息和附件对象。
+> 将邮件和附件对象编码并解码为高效流表示形式。
     
 ### <a name="header-files"></a>头文件
 
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

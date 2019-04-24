@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3e526b93-1f64-41ea-b43c-5b03fe1c56ed
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: dcbf8a323f5178a5a2e39d0963dd19415ab835bd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342692"
 ---
 # <a name="pidtagmemberrights-canonical-property"></a>PidTagMemberRights 规范属性
 
@@ -25,22 +25,22 @@ ms.locfileid: "25397336"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一组所指示文件夹或邮箱上的此成员的权限的位。
+包含一组指示此成员在文件夹或邮箱中的权限的位。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_MEMBER_RIGHTS  <br/> |
-|标识符：  <br/> |0x6673  <br/> |
+|标识符:  <br/> |0x6673  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |访问控制  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性由[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口用于在文件夹中定义的成员的权限。 可以显示和修改这些权限。 下面的值为此属性定义的权限。 
+[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口使用此属性定义对文件夹上的成员的权限。 可以显示和修改这些权限。 以下值是为此属性定义的权限。 
   
 frightsReadAny
   
-> 成员可以读取任何消息。
+> Member 可以读取任何邮件。
     
 frightsCreate
   
@@ -48,81 +48,81 @@ frightsCreate
     
 frightsEditOwned
   
-> 成员可以编辑用户所拥有的任何消息。
+> Member 可以编辑用户拥有的任何邮件。
     
 frightsDeleteOwned
   
-> 成员可以删除用户所拥有的任何消息。
+> Member 可删除用户拥有的任何邮件。
     
 frightsEditAny
   
-> 成员可以编辑任何消息。
+> Member 可以编辑任何邮件。
     
 frightsDeleteAny
   
-> 成员可以删除任何消息。
+> Member 可以删除任何邮件。
     
 frightsCreateSubfolder
   
-> 成员可以创建子文件夹。
+> Member 可以为文件夹创建子文件夹。
     
 frightsOwner
   
-> 成员具有的文件夹的所有以前的权限。
+> 成员拥有对该文件夹的所有以前的权限。
     
 frightsContact
   
-> 成员可以具有您显示为的文件夹的联系人的姓名。
+> 成员可以让您的姓名显示为文件夹中的联系人。
     
 frightsVisible
   
-> 成员都能看到该文件夹存在。
+> 成员可查看该文件夹是否存在。
     
 rightsNone
   
-> 成员的文件夹没有权限。
+> 成员对该文件夹没有权限。
     
 rightsReadOnly
   
-> 成员可以读取的文件夹中的任何消息。
+> Member 可以读取文件夹中的任何邮件。
     
 rightsReadWrite
   
-> 成员可以读取和写入到的文件夹中的任何消息。
+> Member 可以对文件夹中的任何邮件进行读取和写入。
     
 rightsAll
   
-> 成员具有的文件夹的所有以前的权限。
+> 成员拥有对该文件夹的所有以前的权限。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[毫秒-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> 处理文件夹的操作。
+> 处理文件夹操作。
     
-[[MS OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
+[[毫秒-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> 处理检索存储在服务器的文件夹的权限列表。
+> 处理存储在服务器上的文件夹权限列表的检索。
     
-[[MS OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[毫秒-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> 指定连接到和配置为代理人，以及与邮件和日历项目交互的邮箱，当这些代表其他用户操作的方法。
+> 指定用于连接邮箱和将邮箱配置为代理的方法, 以及当邮件和日历项目代表另一个用户操作时与之进行交互的方法。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8733aab9-3a8e-4924-b62f-4e871d991c72
-description: 返回一个字符串，包含一人和图片 personsAddresses 参数指定用户的详细信息。
-ms.openlocfilehash: 756f8de3a0615420826fe725528c92351d521832
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回一个字符串, 其中包含 personsAddresses 参数所指定用户的人员和图片详细信息的集合。
+ms.openlocfilehash: 08b6eca193da59bbdc3c9d21d4dc9b6d0e0c884f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779246"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344868"
 ---
 # <a name="isocialsession2getpeopledetails"></a>ISocialSession2::GetPeopleDetails
 
-返回一个字符串，包含一人和图片_personsAddresses_参数指定用户的详细信息。 
+返回一个字符串, 其中包含_personsAddresses_参数所指定用户的人员和图片详细信息的集合。 
   
 ```cpp
 HRESULT _stdcall GetPeopleDetails([in] BSTR personsAddresses, [out, retval] BSTR* personsCollection);
@@ -27,22 +27,22 @@ HRESULT _stdcall GetPeopleDetails([in] BSTR personsAddresses, [out, retval] BSTR
 
 _personsAddresses_
   
-> [in]指定一组用户的哈希的 SMTP 地址一个 XML 字符串。
+> 实时一个 XML 字符串, 指定一组用户的哈希 SMTP 地址。
     
 _personsCollection_
   
-> [输出]一个 XML 字符串，包含人和图片的详细信息的集合。
+> 排除包含人员集合和图片详细信息的 XML 字符串。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-Outlook Social Connector (OSC) 调用**GetPeopleDetails**如果 OSC 提供程序支持的朋友和非朋友点播或混合同步。 
+如果 .osc 提供商支持朋友和非好友的按需或混合同步, Outlook Social Connector (.osc) 将呼叫**GetPeopleDetails** 。 
   
-OSC 提供程序扩展性的架构中定义， _personsAddresses_参数必须符合**hashedAddresses**，架构定义。 _PersonsAddresses_字符串表示为人员窗格中显示每个用户的哈希 SMTP 地址的一组。 用户不必是由[ISocialSession::LoggedOnUserName](isocialsession-loggedonusername.md)属性表示的登录用户的好帮手。 使用提供程序的**功能**XML 中指定**hashFunction**元素的哈希函数进行加密的哈希的 SMTP 地址。 OSC 标识与**索引**元素_personAddresses_集合中每个**hashedAddress** 。 提供程序必须使用**索引**元素时它返回**朋友**XML **GetPeopleDetails**标识收件人的**人员**XML。 如果收件人不是注册的用户社交网络上，提供的收件人必须不返回任何**人**XML。 由**人员**XML 每个网络用户的**索引**元素中_personsAddresses_收件人对应的**索引**元素。
+_personsAddresses_参数必须符合用于 .osc 提供程序可扩展性架构中定义的**hashedAddresses**的架构定义。 _personsAddresses_字符串代表 "人员" 窗格中显示的每个用户的一组哈希 SMTP 地址。 用户不必是[ISocialSession:: LoggedOnUserName](isocialsession-loggedonusername.md)属性所表示的已登录用户的友元。 哈希 SMTP 地址通过使用提供程序的**功能**XML 中的**hashFunction**元素指定的哈希函数进行加密。 .osc 使用**index**元素标识_personAddresses_集合中的每个**hashedAddress** 。 提供程序在返回**GetPeopleDetails**的**好友**xml 时, 必须使用**** **index**元素来标识收件人的 xml。 如果收件人不是社交网络中已注册的用户, 则提供程序不得为该收件人返回任何**人员**XML。 **人员**XML 表示的每个网络用户的**index**元素对应于_personsAddresses_中的收件人的**index**元素。
   
-OSC 存储在内存中_personsCollection_参数返回的信息。 OSC 提供程序扩展性的架构中定义， _personsCollection_ XML 字符串必须符合**朋友**架构定义。 有关如何 OSC 使用和更新内存中的此信息的详细信息，请参阅[同步朋友和活动](synchronizing-friends-and-activities.md)。
+.osc 将_personsCollection_参数返回的信息存储在内存中。 _personsCollection_ XML 字符串必须符合针对在 .osc 提供程序扩展性架构中定义的**友元**的架构定义。 有关 .osc 如何在内存中使用和更新此信息的详细信息, 请参阅[同步好友和活动](synchronizing-friends-and-activities.md)。
   
 ## <a name="see-also"></a>另请参阅
 
 - [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
-- [同步朋友和活动](synchronizing-friends-and-activities.md)
+- [同步好友和活动](synchronizing-friends-and-activities.md)
 

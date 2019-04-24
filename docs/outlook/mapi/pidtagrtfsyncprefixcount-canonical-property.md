@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c2b15ac5-9e89-4ee2-812d-102d0b2ac56e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 61683534504b7451f126591af149d11306cff1bd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357860"
 ---
 # <a name="pidtagrtfsyncprefixcount-canonical-property"></a>PidTagRtfSyncPrefixCount 规范属性
 
@@ -25,42 +25,42 @@ ms.locfileid: "25389811"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含可忽略出现在邮件的重要字符之前的字符数。
+包含显示在邮件的有效字符前面的可忽略字符的计数。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RTF_SYNC_PREFIX_COUNT  <br/> |
-|标识符：  <br/> |0x1010  <br/> |
+|标识符:  <br/> |0x1010  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-前缀字符数不包括空格。
+前缀字符的计数不包括空格。
   
-此属性是一个富文本格式 (RTF) 辅助属性。 RTF 辅助属性使用[RTFSync](rtfsync.md)函数和不能直接使用客户端应用程序。 
+此属性是 rtf 格式 (rtf) 辅助属性。 RTF 辅助属性由[RTFSync](rtfsync.md)函数使用, 不应由客户端应用程序直接使用。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[毫秒-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> 进行编码和解码为有效的流表示形式的消息和附件对象。
+> 将邮件和附件对象编码并解码为高效流表示形式。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

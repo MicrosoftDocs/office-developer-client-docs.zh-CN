@@ -8,26 +8,26 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 27741887-8405-49ed-b080-613613faf91b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cb4f38615ac6cacb3acbaa456f0992bf55c3653d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 47cf87fce0af3b866018bf03a34a05ea42cef82c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347843"
 ---
 # <a name="hrdoabdetailswithprovideruid"></a>HrDoABDetailsWithProviderUID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-确保**OpenEntry**方法打开的预期的 Exchange 通讯簿提供程序。 此函数工作方式与[IAddrBook::Details](iaddrbook-details.md)类似，但打开**entryID**使用由_pEmsabpUID_标识 Exchange 通讯簿。
+确保**OpenEntry**方法由预期的 Exchange 通讯簿提供程序打开。 此函数的工作方式类似于[IAddrBook::D etails](iaddrbook-details.md) , 但使用_pEmsabpUID_标识的 Exchange 通讯簿打开**entryID** 。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |abhelp.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |abhelp  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 HRESULT HrDoABDetailsWithProviderUID(
@@ -49,62 +49,62 @@ HRESULT HrDoABDetailsWithProviderUID(
 
  _pEmsabpUID_
   
-> [in]指向_emsabpUID_标识 Exchange 通讯簿提供程序的此函数应使用要显示的项标识符的详细信息。 如果传入的项标识符不是 Exchange 通讯簿提供程序条目标识符，则忽略此参数和函数调用并且与[IAddrBook::Details](iaddrbook-details.md)完全一样。 如果此参数为 NULL 或零 MAPIUID，此函数的还行为与[IAddrBook::Details](iaddrbook-details.md)完全相同。
+> 实时一个指向标识 Exchange 通讯簿提供程序的_emsabpUID_的指针。该函数应使用它来显示有关条目标识符的详细信息。 如果传入条目标识符不是 Exchange 通讯簿提供程序条目标识符, 则此参数将被忽略, 并且函数调用的行为完全像[IAddrBook::D etails](iaddrbook-details.md)。 如果此参数为 NULL 或零 MAPIUID, 则此函数也相当于[IAddrBook::D etails](iaddrbook-details.md)。
     
  _pAddrBook_
   
-> [in]通讯簿用于打开的项标识符。 它不能为 NULL。
+> 实时用于打开条目标识符的通讯簿。 它不能为 NULL。
     
  _lpulUIParam_
   
-> [输出]对话框中的父窗口句柄。
+> 排除对话框的父窗口的句柄。
     
  _lpfnDismiss_
   
-> [in]一个指向基于**DISMISSMODELESS**原型或为空的一个函数指针。 此成员仅适用于无模式版本的对话框中，如标志所指示的 DIALOG_SDI 设置。 MAPI 调用的**DISMISSMODELESS**函数时在用户关闭无模式的地址对话框中，告知客户端的呼叫详细信息对话框中不再处于活动状态。 
+> 实时指向基于**DISMISSMODELESS**原型的函数的指针或 NULL。 此成员仅适用于对话框的无模式版本, 正如设置的 DIALOG_SDI 标志所指示的那样。 MAPI 在用户消除无模式地址对话框时调用**DISMISSMODELESS**函数, 告知客户端正在调用对话框中不再处于活动状态的详细信息。 
     
  _lpvDismissContext_
   
-> [in]指向上下文信息传递给**DISMISSMODELESS**函数_lpfnDismiss_参数指向的指针。 此参数仅适用于无模式对话框中的版本通过_ulFlags_参数中包括**DIALOG_SDI**标志。 
+> 实时指向传递给_lpfnDismiss_参数指向的**DISMISSMODELESS**函数的上下文信息的指针。 此参数仅适用于对话框的无模式版本, 方法是在_ulFlags_参数中包含**DIALOG_SDI**标志。 
     
  _cbEntryID_
   
-> [in]_LpEntryID_参数指定的项标识符的字节数。 
+> 实时由_lpEntryID_参数指定的条目标识符的字节数。 
     
  _lpEntryID_
   
-> [in]一个指向代表打开的通讯簿条目的项标识符。
+> 实时指向表示要打开的通讯簿条目的条目标识符的指针。
     
  _lpfButtonCallback_
   
-> [in]基于**LPFNBUTTON**函数原型函数指针。 **LPFNBUTTON**函数将按钮添加到详细信息对话框。 
+> 实时指向基于**LPFNBUTTON**函数原型的函数的指针。 **LPFNBUTTON**函数将按钮添加到 "详细信息" 对话框中。 
     
  _lpvButtonContext_
   
-> [in]指向作为参数指定由_lpfButtonCallback_参数的函数使用的数据的指针。 
+> 实时指向用作_lpfButtonCallback_参数所指定函数的参数的数据的指针。 
     
  _lpszButtonText_
   
-> [in]指向一个字符串，包含要应用于添加按钮，文本是否可扩展该按钮的指针。 不需要的可扩展按钮时， _lpszButtonText_参数应为 NULL。 
+> 实时指向一个字符串的指针, 该字符串包含要应用于已添加按钮的文本 (如果该按钮是可扩展的)。 当不需要可扩展按钮时, _lpszButtonText_参数应为 NULL。 
     
  _ulFlags_
   
-> [in]位掩码的标志的控制_lpszButtonText_参数的文本的类型。 可以设置以下标志： 
+> 实时用于控制_lpszButtonText_参数文本类型的标志的位掩码。 可以设置以下标志: 
     
 AB_TELL_DETAILS_CHANGE
   
-> 指示详细信息返回 TRUE 是否进行了更改实际的地址;否则，详细信息将返回 FALSE。
+> 指示如果实际对地址进行了更改, 则详细信息返回 TRUE; 否则返回 false。否则, 详细信息将返回 FALSE。
     
 DIALOG_MODAL
   
-> 显示模式版本的通用的地址对话框。 此标志是与 DIALOG_SDI 互斥。
+> 显示 "常用地址" 对话框的模式版本。 此标志与 DIALOG_SDI 互斥。
     
 DIALOG_SDI
   
-> 显示通用的地址对话框的无模式版本。 此标志是与 DIALOG_MODAL 互斥。
+> 显示 "常用地址" 对话框的无模式版本。 此标志与 DIALOG_MODAL 互斥。
     
 MAPI_UNICODE
   
-> 传入的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。
+> 传入的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
     
 

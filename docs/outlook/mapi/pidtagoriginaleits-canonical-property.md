@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 9908039e-6b88-428f-b241-b04144cbcf5c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ed0f4f624314b2531f77751ae60def8982757ce2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cdfbf0e8c5118f87ac058d56ebc8f85369bd5494
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594787"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342642"
 ---
 # <a name="pidtagoriginaleits-canonical-property"></a>PidTagOriginalEits 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息文本的原始编码的信息类型 (EITs) 的副本。
+包含邮件文本的原始编码信息类型 (EITs) 的副本。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ORIGINAL_EITS  <br/> |
-|标识符：  <br/> |0x0021  <br/> |
+|标识符:  <br/> |0x0021  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |Server  <br/> |
+|区域：  <br/> |服务器  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

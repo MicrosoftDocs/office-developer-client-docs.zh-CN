@@ -8,19 +8,19 @@ f1_keywords:
 - Vis_DSS.chm82251642
 localization_priority: Normal
 ms.assetid: bfea4ef4-1b30-eb22-215d-3b9b73098da9
-description: 确定在“配置布局”对话框中配置布局时应用程序是否根据内部不可见的页面网格排放形状。（在“设计”选项卡上的“布局”组中，单击“重新布局页面”，然后单击“其他布局选项”。）
-ms.openlocfilehash: 3371767343132219ebc38134b93afd1da46c7a45
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定在 "配置布局" 对话框中配置布局时, 应用程序是否基于内部不可见的页面网格排放形状。 (在 "设计" 选项卡上的 "布局" 组中, 单击 "重新布局页面", 然后单击 "其他布局选项"。)
+ms.openlocfilehash: 11299ca7c9b0ea050542baf97e2cab3a27fa52ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345554"
 ---
-# <a name="enablegrid-cell-page-layout-section"></a>EnableGrid 单元格（“Page Layout”部分）
+# <a name="enablegrid-cell-page-layout-section"></a>EnableGrid 单元格（“Page Layout”内容）
 
 确定在 **“配置布局”** 对话框中配置布局时应用程序是否根据内部不可见的页面网格排放形状。（在 **“设计”** 选项卡上的 **“布局”** 组中，单击 **“重新布局页面”**，然后单击 **“其他布局选项”**。）
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |使用内部页网格。  <br/> |
 |FALSE  <br/> |不使用内部页网格。  <br/> |

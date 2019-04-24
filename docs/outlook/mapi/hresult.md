@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: b248ed11-3d8a-4d4c-9b84-fa5bee7979c7
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a3e46732f9b74b9cdf2dc4c961e7b6b66e3d91d4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 64fcbebbd71bc3f478f36c711e49db9a3518ef9a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347794"
 ---
 # <a name="hresult"></a>HRESULT
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-一个 32 位值，用来描述错误或警告。
+一个用于描述错误或警告的32位值。
   
 ```cpp
 typedef LONG HRESULT;
@@ -33,24 +33,24 @@ typedef LONG HRESULT;
 
 ## <a name="remarks"></a>注解
 
-[SCODE](scode.md)数据类型相同的**HRESULT**数据类型。 
+**HRESULT**数据类型与[SCODE](scode.md)数据类型相同。 
   
-**HRESULT**值包含以下字段： 
+**HRESULT**值包含以下字段: 
   
-- 指示严重级别 1 位代码，其中零表示成功，1 代表失败。
+- 表示严重度的1位代码, 其中0表示成功, 1 表示失败。
     
-- 4 位保留的值。
+- 一个4位保留值。
     
-- 11 位代码，指示错误或警告，也称为设施代码的责任。
+- 11位代码, 用于指示对错误或警告 (也称为设施代码) 的责任。
     
-- 一个 16 位代码描述该错误或警告。
+- 一个用于描述错误或警告的16位代码。
     
-大多数 MAPI 接口方法和函数返回可提供详细的原因构成的**HRESULT**值。 在 OLE 接口方法还广泛使用**HRESULT**值。 OLE 提供几个宏的**HRESULT**值和**SCODE**值之间进行转换的错误处理其他常见的数据类型。 
+大多数 MAPI 接口方法和函数返回**HRESULT**值, 以提供详细的原因构成。 **HRESULT**值也在 OLE 接口方法中广泛使用。 OLE 提供了几个用于在**HRESULT**值和**SCODE**值之间进行转换的宏, 这是用于错误处理的另一种常见数据类型。 
   
 > [!NOTE]
-> 64 位 MAPI 中**HRESULT**仍是 32 位值之一。 
+> 在64位 MAPI 中, **HRESULT**仍为32位值。 
   
-有关 OLE 使用的**HRESULT**值的信息，请参阅*OLE 程序员参考*。 有关使用 MAPI 中的这些值的详细信息，请参阅[错误处理](error-handling-in-mapi.md)及任何以下接口方法： 
+若要了解有关**HRESULT**值的 OLE 用法的信息, 请参阅*ole 程序员参考*。 有关在 MAPI 中使用这些值的详细信息, 请参阅[错误处理](error-handling-in-mapi.md)和以下任何接口方法: 
   
 [IABLogon::GetLastError](iablogon-getlasterror.md)
   

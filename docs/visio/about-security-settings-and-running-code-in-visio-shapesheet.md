@@ -1,5 +1,5 @@
 ---
-title: 关于安全设置和运行 Visio (ShapeSheet) 中的代码
+title: 关于 Visio 中的安全设置和运行代码 (ShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,19 +8,19 @@ f1_keywords:
 - Vis_DSS.chm1042370
 localization_priority: Normal
 ms.assetid: 506b3d81-9c93-aeff-f5b2-3354ffd3e075
-description: 创建安全的应用程序是一个主要解决方案开发人员所面临的挑战。 用户、 管理员和开发人员都日益认识不知情的情况下运行的代码可对其计算机有害的潜在。 很多重要比以往帮助确保您的应用程序的完整性。
+description: 解决方案开发人员面对的主要挑战之一便是创建安全的应用程序。 用户、管理员和开发人员越来越多地意识到在不知情的情况下可能会对其计算机造成危害的代码。 帮助您确保应用程序的完整性正变得前所未有的重要。
 ms.openlocfilehash: 72b4a45faa46778b7a369cfe458ee4e0e9ea71bb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345022"
 ---
-# <a name="about-security-settings-and-running-code-in-visio-shapesheet"></a>关于安全设置和运行 Visio (ShapeSheet) 中的代码
+# <a name="about-security-settings-and-running-code-in-visio-shapesheet"></a>关于 Visio 中的安全设置和运行代码 (ShapeSheet)
 
- 创建安全的应用程序是一个主要解决方案开发人员所面临的挑战。 用户、 管理员和开发人员都日益认识不知情的情况下运行的代码可对其计算机有害的潜在。 很多重要比以往帮助确保您的应用程序的完整性。 
+ 解决方案开发人员面对的主要挑战之一便是创建安全的应用程序。 用户、管理员和开发人员越来越多地意识到在不知情的情况下可能会对其计算机造成危害的代码。 帮助您确保应用程序的完整性正变得前所未有的重要。 
   
-Office 范围和在**信任中心**设置所有安全设置 （单击**文件**选项卡，单击**选项**，然后单击**信任中心**）。 受影响的设置包括：
+所有安全设置都是 Office 范围的, 并在**信任中心**(单击 "**文件**" 选项卡, 单击 "**选项**", 然后单击 "**信任中心**") 进行设置。 受影响的设置包括以下各项:
   
 - 指定可靠发行商
     
@@ -32,18 +32,18 @@ Office 范围和在**信任中心**设置所有安全设置 （单击**文件**�
     
 - 加载 VBA 宏
     
-在 Visio 以前的版本，在**安全**对话框和**选项**对话框的**工具**菜单的**安全**选项卡中进行设置。 Office Visio 2007 截止淘汰了这些对话框，并从 Microsoft Visio 2010，Visio 工具栏和菜单已替换为功能区。 
+在以前的 Visio 版本中，在 **“安全性”** 对话框和 **“选项”** 对话框（**“工具”** 菜单）的 **“安全性”** 选项卡中进行设置。 从 Office visio 2007, 这些对话框已被消除, 而在 Microsoft Visio 2010 中, visio 工具栏和菜单已由功能区取代。 
   
-有关 Office**信任中心**中设置的详细信息，请参阅[Microsoft Office 解决方案开发人员安全备注](https://msdn.microsoft.com/en-us/library/aa433259.aspx)。
+有关 Office**信任中心**中的设置的详细信息, 请参阅[Microsoft Office 解决方案开发人员的安全说明](https://msdn.microsoft.com/en-us/library/aa433259.aspx)。
   
- 有关代码进行数字签名以及可靠的来源和发行商的信息，搜索"代码签名"MSDN，Microsoft Developer Network 网站上。 
+ 有关数字签名代码和受信任源和发布者的信息, 请在 MSDN (Microsoft Developer Network 网站) 上搜索 "代码签名"。 
   
 有关优秀安全设计行为和技术的详细信息，请在 MSDN 上搜索“security”（安全）。 
   
 ## <a name="additional-visio-resources"></a>其他 Visio 资源
 
-- 若要了解有关 Visio 加载项和 COM 加载项的详细信息，请参阅 MSDN 文章[概述的加载项和 COM 加载项在 Visio 2007 中](https://msdn.microsoft.com/library/bb851468.aspx)。
+- 若要了解有关 visio 加载项和 com 加载项的详细信息, 请参阅 MSDN 文章: [visio 2007 中的加载项和 COM 加载项概述](https://msdn.microsoft.com/library/bb851468.aspx)。
     
-- 若要了解有关 RUNADDON 函数和**AddonName**属性的详细信息，请参阅 MSDN 文章[RUNADDON 函数和 AddOnName 属性的 Visio 2002 中的更改](https://msdn.microsoft.com/library/aa140368%28office.10%29.aspx)。
+- 若要了解有关 RUNADDON 函数和**AddonName**属性的详细信息, 请参阅 MSDN 文章[在 RUNADDON 函数中的更改和 Visio 2002 的 AddonName 属性](https://msdn.microsoft.com/library/aa140368%28office.10%29.aspx)。
     
 

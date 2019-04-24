@@ -8,19 +8,19 @@ f1_keywords:
 - Vis_DSS.chm790
 localization_priority: Normal
 ms.assetid: dd88fb8d-3ec3-476a-870d-6642b191496f
-description: 代表 x 的形状的旋转中心点 （旋转中心） 相对于其父级的原点坐标。
-ms.openlocfilehash: 74e98732f1e0c44fa20c159070198ed4f98cee92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 表示形状的旋转中心点 (旋转中心) 相对于其父级原点的 x 坐标。
+ms.openlocfilehash: de12b379d5f345209a468298174634ff4f9cd639
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19780852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346751"
 ---
-# <a name="pinx-cell-shape-transform-section"></a>PinX 单元格（“Shape Transform”部分）
+# <a name="pinx-cell-shape-transform-section"></a>PinX 单元格（“Shape Transform”内容）
 
-代表*x*的形状的旋转中心点 （旋转中心） 相对于其父级的原点坐标。 
+表示形状的旋转中心点 (旋转中心) 相对于其父级原点的*x*坐标。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 PinX 单元格的引用，请使用： 
   

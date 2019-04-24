@@ -8,16 +8,16 @@ f1_keywords:
 - Vis_DSS.chm2040
 localization_priority: Normal
 ms.assetid: e994372e-533a-32d0-ff2b-7fb7d6e8274e
-description: 包含控制形状事件的公式。仅在事件发生时（而非输入公式后）才对 event 单元格求值。
-ms.openlocfilehash: d442b32e004ac558407f361461ef7343f30a8cbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 包含控制形状事件的公式。 仅在事件发生时（而非输入公式后）才对 event 单元格求值。
+ms.openlocfilehash: d86a8b56414c7854e4b781d5457ac4b47a585b6c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350993"
 ---
-# <a name="events-section"></a>“Events”部分
+# <a name="events-section"></a>“Events”内容
 
-包含控制形状事件的公式。仅在事件发生时（而非输入公式后）才对 event 单元格求值。
+包含控制形状事件的公式。 仅在事件发生时（而非输入公式后）才对 event 单元格求值。
   
 

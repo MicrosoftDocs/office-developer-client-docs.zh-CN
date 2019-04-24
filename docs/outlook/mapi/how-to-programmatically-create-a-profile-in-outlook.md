@@ -1,5 +1,5 @@
 ---
-title: 在 Outlook 中以编程方式创建配置文件
+title: 以编程方式创建 Outlook 配置文件
 manager: soliver
 ms.date: 06/02/2016
 ms.audience: Developer
@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870
 description: 本主题介绍如何以编程方式通过向配置文件对象的 emsuid 部分添加 MAPI 属性来更新 Outlook 2016 中的配置文件。
 ms.openlocfilehash: 85d084705c1e36f5fe3b0ed268094f86b38d6383
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345939"
 ---
 # <a name="programmatically-create-a-profile-in-outlook"></a>在 Outlook 中以编程方式创建配置文件
 

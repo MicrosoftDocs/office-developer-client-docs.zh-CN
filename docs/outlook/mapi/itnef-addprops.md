@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6a7bb7265d29d2acfce17a1a09c95f7f7b539064
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348620"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
@@ -25,7 +25,7 @@ ms.locfileid: "25396314"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-允许将属性添加到邮件或附件封装调用服务提供商或网关。 
+启用呼叫服务提供程序或网关以将属性添加到邮件或附件的封装。 
   
 ```cpp
 HRESULT AddProps(
@@ -40,57 +40,57 @@ HRESULT AddProps(
 
  _ulFlags_
   
-> [in]位掩码的标志，控制如何中包括还是排除在封装属性。 可以设置以下标志：
+> 实时用于控制如何在封装中包含或排除属性的标志的位掩码。 可以设置以下标志:
     
 TNEF_PROP_ATTACHMENTS_ONLY 
   
-> 对仅_lpPropList_参数中的属性属于邮件中的附件进行编码。 
+> 仅对_lpPropList_参数中作为邮件附件的一部分的属性进行编码。 
     
 TNEF_PROP_CONTAINED 
   
-> 将编码仅从附件_ulElemID_参数指定的属性。 如果_lpvData_参数不是 NULL，则指向数据写入由**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)) 属性指示文件中的附件的封装。
+> 仅对_ulElemID_参数所指定的附件中的属性进行编码。 如果_lpvData_参数不为 NULL, 则指向的数据将写入到附件在**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)) 属性指示的文件中的封装中。
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> 将编码仅从邮件或附件_ulElemID_参数指定的属性。 如果设置此标志， _lpvData_中的值必须是[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)指针。 
+> 仅对_ulElemID_参数所指定的邮件或附件中的属性进行编码。 如果设置了此标志, 则_lpvData_中的值必须是[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)指针。 
     
 TNEF_PROP_EXCLUDE 
   
-> 将编码不_lpPropList_参数中指定的所有属性。 
+> 对未在_lpPropList_参数中指定的所有属性进行编码。 
     
 TNEF_PROP_INCLUDE 
   
-> 将编码_lpPropList_中指定的所有属性。 
+> 对在_lpPropList_中指定的所有属性进行编码。 
     
 TNEF_PROP_MESSAGE_ONLY 
   
-> 对仅这些属性中_lpPropList_指定消息本身的一部分进行编码。 
+> 仅对在_lpPropList_中指定的那些属于邮件本身的属性进行编码。 
     
  _ulElemID_
   
-> [in]附件的**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性，其中包含一个数字唯一地标识其父邮件中的附件。 特殊处理请求的附件时使用_ulElemID_参数。 除非_ulFlags_参数中设置了 TNEF_PROP_CONTAINED 或 TNEF_PROP_CONTAINED_TNEF 标志， _ulElemID_参数应为 0。 
+> 实时附件的**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性, 其中包含一个在其父邮件中唯一标识附件的编号。 当请求附件的特殊处理时, 使用_ulElemID_参数。 除非在_ulFlags_参数中设置了 TNEF_PROP_CONTAINED 或 TNEF_PROP_CONTAINED_TNEF 标志, 否则_ulElemID_参数应为0。 
     
  _lpvData_
   
-> [in]指向用于替换附件_ulElemID_中指定的数据的附件数据的指针。 除非 TNEF_PROP_CONTAINED 或 TNEF_PROP_CONTAINED_TNEF 设置中_ulFlags_， _lpvData_参数应为 NULL。
+> 实时指向用于替换在_ulElemID_中指定的附件数据的附件数据的指针。 除非在_ulFlags_中设置了 TNEF_PROP_CONTAINED 或 TNEF_PROP_CONTAINED_TNEF, 否则_lpvData_参数应为 NULL。
     
  _lpPropList_
   
-> [in]指向要在包含或排除封装的属性列表的指针。
+> 实时指向要包含在封装中或从封装中排除的属性列表的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-传输提供程序、 消息存储提供程序，和网关呼叫**ITnef::AddProps**方法列表属性中包含或排除在邮件或附件的传输中性封装格式 (TNEF) 处理。 通过使用后续呼叫，提供程序或网关可以指定的属性添加和编码或排除要编码的列表。 提供程序和网关还可以使用**AddProps**提供，应注意任何特殊处理附件有关的信息。 
+传输提供程序、邮件存储提供程序和网关调用**ITnef:: AddProps**方法, 以列出要包含或排除在邮件或附件的传输中性封装格式 (TNEF) 处理中的属性。 通过使用连续调用, 提供程序或网关可以指定要添加和编码或从编码中排除的属性的列表。 提供程序和网关也可以使用**AddProps**提供有关应提供的任何特殊处理附件的信息。 
   
- **AddProps**仅支持使用 TNEF_ENCODE 标志[OpenTnefStream](opentnefstream.md)或[OpenTnefStreamEx](opentnefstreamex.md)函数打开的 TNEF 对象。 
+ 仅在使用[OpenTnefStream](opentnefstream.md)或[OpenTnefStreamEx](opentnefstreamex.md)函数的 TNEF_ENCODE 标志打开的 TNEF 对象中支持**AddProps** 。 
   
-请注意[ITnef::Finish](itnef-finish.md)方法调用之前对**AddProps**时发生的任何实际 TNEF 编码。 此功能的含义，**完成**呼叫后，指针传递给**AddProps**必须保持才有效。 此时，所有对象和传入**AddProps**呼叫数据可以发布或释放。 
+请注意, 在调用[ITnef:: Finish](itnef-finish.md)方法之前, 不会对**AddProps**进行实际的 TNEF 编码。 此功能意味着传递到**AddProps**的指针必须一直保持有效, 直到对完成的调用**完成**。 在这种情况下, 可以释放或释放使用**AddProps**调用传入的所有对象和数据。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -98,7 +98,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI 使用**ITnef::AddProps**方法将属性从邮件复制到 TNEF 流。  <br/> |
+|文件 .cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI 使用**ITnef:: AddProps**方法将邮件中的属性复制到 TNEF 流。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

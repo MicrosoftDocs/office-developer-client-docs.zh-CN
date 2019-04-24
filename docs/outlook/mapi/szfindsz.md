@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f4584569-1246-4ac9-a404-48284e4920d7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0075db0a515166c5185657daf3fc6b1e121d6672
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9fc21a27cb6c9041bdd8976ce5f030f0ab9eb57f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345743"
 ---
 # <a name="szfindsz"></a>SzFindSz
 
@@ -25,13 +25,13 @@ ms.locfileid: "22585120"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在以 null 结尾的字符串中查找第一个出现的以 null 结尾的子字符串。 
+在以 null 结尾的字符串中查找以 null 结尾的子字符串的第一个匹配项。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 LPSTR SzFindCh(
@@ -44,18 +44,18 @@ LPSTR SzFindCh(
 
  _lpsz_
   
-> [in]指向以 null 结尾的字符串，要搜索的指针。 _Lpsz_参数不能超过 65536 个字符。 
+> 实时指向要搜索的以 null 结尾的字符串的指针。 _lpsz_参数不能超过65536个字符。 
     
  _lpszKey_
   
-> [in]指向 null 结尾的子字符串搜索的指针。 _LpszKey_参数不能超过 65536 个字符。 
+> 实时指向要搜索的以 null 结尾的子字符串的指针。 _lpszKey_参数不能超过65536个字符。 
     
 ## <a name="return-value"></a>返回值
 
- **SzFindSz**返回字符串中的子字符串的第一个匹配项的第一个字符的指针。 如果子字符串不会发生无处不在字符串中，如果_lpszKey_大于_lpsz_，或者如果任一参数为 NULL，则返回 NULL 值。 
+ **SzFindSz**返回一个指针, 指向字符串中的子字符串的第一个匹配项的第一个字符。 如果子字符串不出现在字符串中的任何位置, 如果_lpszKey_大于_lpsz_, 或者任一参数为 null, 则返回 null 值。 
   
 ## <a name="remarks"></a>注解
 
-**SzFindSz**功能将搜索完全匹配只;它是敏感案例和发音差异。 支持 Unicode 和 DBCS 格式的搜索。 以字符为单位，不必字节有两个参数的长度限制。 
+**SzFindSz**函数仅搜索完全匹配项;区分大小写和变音差异。 支持以 Unicode 和 DBCS 格式搜索。 这两个参数的长度限制为字符, 而不一定是字节。 
   
 

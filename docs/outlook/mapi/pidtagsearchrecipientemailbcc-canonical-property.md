@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d9561d13-8d52-500c-5369-15a2cf5c92c3
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5b0db4b3bc7903aae74fa7275d3e27e22d628514
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387746"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359155"
 ---
 # <a name="pidtagsearchrecipientemailbcc-canonical-property"></a>PidTagSearchRecipientEmailBcc 规范属性
 
@@ -21,45 +21,45 @@ ms.locfileid: "25387746"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含所查询的电子邮件地址或显示名称的存储区上的未发送邮件**密件抄送**行中的收件人列表中的 Unicode 字符串。 
+包含在电子邮件地址列表中查询的 Unicode 字符串或在存储区上未发送邮件的 **"密件抄送**" 行中寻址的收件人姓名。 
   
 ## 
 
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SEARCH_RECIP_EMAIL_BCC_W  <br/> |
-|标识符：  <br/> |0x0EA8  <br/> |
+|标识符:  <br/> |0x0EA8  <br/> |
 |属性类型  <br/> |PT_UNICODE  <br/> |
 |访问权限  <br/> |搜索  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性才相关的尚未发送，存储区上的邮件，因为已发送或接收的消息不包含密件抄送信息。
+此属性仅与存储区上尚未发送的邮件相关, 因为发送或接收的邮件不包含 BCC 信息。
   
 > [!NOTE]
-> 未可能在您当前拥有的可下载的头文件中定义搜索电子邮件地址或显示名称为密件抄送副本，发送邮件时使用此 MAPI 限制标记。 您可以将其添加到您的代码通过使用以下值： >`#define PR_SEARCH_RECIP_EMAIL_BCC_W PROP_TAG(PT_UNICODE, 0x0EA8)`
+> 在您当前拥有的可下载头文件中搜索将邮件作为密件抄送发送的电子邮件地址或显示名称时, 将使用此 MAPI 限制标记。 您可以使用以下值将其添加到代码中: >`#define PR_SEARCH_RECIP_EMAIL_BCC_W PROP_TAG(PT_UNICODE, 0x0EA8)`
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Microsoft Exchange Server 协议规范参考。
+> 提供对相关 Microsoft Exchange Server 协议规范的引用。
     
-[[MS OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[毫秒-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> 指定的属性和操作的搜索文件夹列表配置的操作。
+> 指定用于操作搜索文件夹列表配置的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

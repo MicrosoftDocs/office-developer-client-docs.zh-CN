@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2401662-1ddc-40d8-a5a7-ceca24442bd4
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2aa1aca2816b8f0e148d35d1fcec761f621a2239
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: ebde06d0d22320ecb5edb633cf8d04aaeec2a841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351168"
 ---
 # <a name="imapiviewadvisesinkonsubmitted"></a>IMAPIViewAdviseSink::OnSubmitted
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-通知表单查看器的当前消息，已提交到 MAPI 后台处理程序。
+通知表单查看器当前邮件已提交到 MAPI 后台处理程序。
   
 ```cpp
 HRESULT OnSubmitted( void );
@@ -43,13 +43,13 @@ S_OK
     
 ## <a name="remarks"></a>注解
 
-Form 对象调用**IMAPIViewAdviseSink::OnSubmitted**方法对[IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md)的调用返回了成功之后。 
+在对[IMAPIMessageSite:: SubmitMessage](imapimessagesite-submitmessage.md)的调用成功返回后, form 对象调用**IMAPIViewAdviseSink:: OnSubmitted**方法。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-调用**OnSubmitted**后，您可以继续在假设邮件已更新。 更新您的 windows，以反映发生任何更改。 
+在调用**OnSubmitted**后, 您可以继续假设邮件已更新。 更新 windows 以反映已发生的任何更改。 
   
-有关窗体通知的详细信息，请参阅[发送和接收窗体通知](sending-and-receiving-form-notifications.md)。
+有关表单通知的详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
   
 ## <a name="see-also"></a>另请参阅
 

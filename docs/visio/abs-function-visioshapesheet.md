@@ -1,5 +1,5 @@
 ---
-title: ABS Function (VisioShapeSheet)
+title: ABS 函数 (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c9ed37ba-019c-b11e-c803-4669e6a248d1
 description: 返回数字的绝对值。
-ms.openlocfilehash: 8b1a87872de2869abc36ba4466668ddedd403b5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d3d79aab65e34ad36890e56568b043bab327919
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345288"
 ---
-# <a name="abs-function-visioshapesheet"></a>ABS Function (VisioShapeSheet)
+# <a name="abs-function-visioshapesheet"></a>ABS 函数 (VisioShapeSheet)
 
 返回数字的绝对值。
   
 ## <a name="syntax"></a>语法
 
-ABS （*数量*） 
+ABS (*数字*) 
   
 ### <a name="parameters"></a>参数
 
@@ -32,7 +32,7 @@ ABS （*数量*）
    
 ## <a name="example"></a>示例
 
-ABS(-1.24) 
+ABS (-1.24) 
   
 返回 1.24。
   

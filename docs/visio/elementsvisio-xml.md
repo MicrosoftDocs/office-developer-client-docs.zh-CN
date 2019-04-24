@@ -1,22 +1,22 @@
 ---
-title: 元素 (Visio XML)
+title: 元素 ("Visio XML")
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cffc4005-e260-38ab-7142-47f949cc7494
-description: 本主题列出了在 Visio 2013 文件格式的 XML 架构中的元素。
-ms.openlocfilehash: 1bddf5191a726217db58dd2e064739e885b71232
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 本主题列出了 Visio 2013 文件格式 XML 架构中的元素。
+ms.openlocfilehash: 19dc710c9a76938f7ed02dec9b2e8e3a7c48f5b6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345638"
 ---
-# <a name="elements-visio-xml"></a>元素 (Visio XML)
+# <a name="elements-visio-xml"></a>元素 ("Visio XML")
 
-本主题列出了在 Visio 2013 文件格式的 XML 架构中的元素。
+本主题列出了 Visio 2013 文件格式 XML 架构中的元素。
   
 - [AttachedToolbars 元素](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md)
     
@@ -28,13 +28,13 @@ ms.locfileid: "19780186"
     
 - [Cell 元素](cell-elementvisio-xml.md)
     
-- [Cell 元素（“Action Tag”部分）](cell-element-action-tag-sectionvisio-xml.md)
+- [Cell 元素 ("Action Tag" 部分)](cell-element-action-tag-sectionvisio-xml.md)
     
 - [Cell 元素（“Actions”行）](cell-element-actions-rowvisio-xml.md)
     
 - [Cell 元素（“ArcTo”行）](cell-element-arcto-rowvisio-xml.md)
     
-- [Cell 元素（“Character”部分）](cell-element-character-sectionvisio-xml.md)
+- [Cell 元素 ("字符" 部分)](cell-element-character-sectionvisio-xml.md)
     
 - [Cell 元素（“Connection”行）](cell-element-connection-rowvisio-xml.md)
     
@@ -44,19 +44,19 @@ ms.locfileid: "19780186"
     
 - [Cell 元素（“EllipticalArcTo”行）](cell-element-ellipticalarcto-rowvisio-xml.md)
     
-- [Cell 元素（“Field”部分）](cell-element-field-sectionvisio-xml.md)
+- [Cell 元素 ("字段" 部分)](cell-element-field-sectionvisio-xml.md)
     
-- [Cell 元素（“Fill Gradient”部分）](cell-element-fill-gradient-sectionvisio-xml.md)
+- [Cell 元素 ("填充渐变" 部分)](cell-element-fill-gradient-sectionvisio-xml.md)
     
-- [Cell 元素（“Geometry”部分）](cell-element-geometry-sectionvisio-xml.md)
+- [Cell 元素 ("Geometry" 内容)](cell-element-geometry-sectionvisio-xml.md)
     
 - [Cell 元素（“Hyperlink”行）](cell-element-hyperlink-rowvisio-xml.md)
     
 - [Cell 元素（“InfiniteLine”行）](cell-element-infiniteline-rowvisio-xml.md)
     
-- [Cell 元素（“Layer”部分）](cell-element-layer-sectionvisio-xml.md)
+- [Cell 元素 ("Layer" 部分)](cell-element-layer-sectionvisio-xml.md)
     
-- [Cell 元素（“Line Gradient”部分）](cell-element-line-gradient-sectionvisio-xml.md)
+- [Cell 元素 ("线条渐变" 部分)](cell-element-line-gradient-sectionvisio-xml.md)
     
 - [Cell 元素（“LineTo”行）](cell-element-lineto-rowvisio-xml.md)
     
@@ -64,7 +64,7 @@ ms.locfileid: "19780186"
     
 - [Cell 元素（“NURBSTo”行）](cell-element-nurbsto-rowvisio-xml.md)
     
-- [Cell 元素（“Paragraph”部分）](cell-element-paragraph-sectionvisio-xml.md)
+- [Cell 元素 ("段落" 部分)](cell-element-paragraph-sectionvisio-xml.md)
     
 - [Cell 元素（“PolyLineTo”行）](cell-element-polylineto-rowvisio-xml.md)
     
@@ -78,17 +78,17 @@ ms.locfileid: "19780186"
     
 - [Cell 元素（“RelQuadBezTo”行）](cell-element-relquadbezto-rowvisio-xml.md)
     
-- [Cell 元素（“Scratch”部分）](cell-element-scratch-sectionvisio-xml.md)
+- [Cell 元素 ("草稿" 部分)](cell-element-scratch-sectionvisio-xml.md)
     
-- [Cell 元素（“Shape Data”部分）](cell-element-shape-data-sectionvisio-xml.md)
+- [Cell 元素 ("Shape Data" 内容)](cell-element-shape-data-sectionvisio-xml.md)
     
 - [Cell 元素（“SplineKnot”行）](cell-element-splineknot-rowvisio-xml.md)
     
 - [Cell 元素（“SplineStart”行）](cell-element-splinestart-rowvisio-xml.md)
     
-- [Cell 元素（“Tabs”部分）](cell-element-tabs-sectionvisio-xml.md)
+- [Cell 元素 ("Tabs" 部分)](cell-element-tabs-sectionvisio-xml.md)
     
-- [Cell 元素（“User-defined Cells”部分）](cell-element-user-defined-cells-sectionvisio-xml.md)
+- [Cell 元素 ("用户定义的单元格" 部分)](cell-element-user-defined-cells-sectionvisio-xml.md)
     
 - [ColorEntry 元素](colorentry-element-colors_type-complextypevisio-xml.md)
     
@@ -234,37 +234,37 @@ ms.locfileid: "19780186"
     
 - [Rel 元素 (Solution_Type complexType)](rel-element-solution_type-complextypevisio-xml.md)
     
-- [Row 元素（“Actions”部分）](row-element-actions-sectionvisio-xml.md)
+- [Row 元素 ("Actions" 内容)](row-element-actions-sectionvisio-xml.md)
     
-- [Row 元素（“Action Tag”部分）](row-element-action-tag-sectionvisio-xml.md)
+- [Row 元素 ("操作标记" 部分)](row-element-action-tag-sectionvisio-xml.md)
     
-- [Row 元素（“Character”部分）](row-element-character-sectionvisio-xml.md)
+- [Row 元素 ("字符" 部分)](row-element-character-sectionvisio-xml.md)
     
-- [Row 元素（“Connection”部分）](row-element-connection-sectionvisio-xml.md)
+- [Row 元素 ("Connection" 内容)](row-element-connection-sectionvisio-xml.md)
     
-- [Row 元素（“Controls”部分）](row-element-controls-sectionvisio-xml.md)
+- [Row 元素 ("Controls" 内容)](row-element-controls-sectionvisio-xml.md)
     
-- [Row 元素（“Field”部分）](row-element-field-sectionvisio-xml.md)
+- [Row 元素 ("字段" 部分)](row-element-field-sectionvisio-xml.md)
     
-- [Row 元素（“Fill Gradient”部分）](row-element-fill-gradient-sectionvisio-xml.md)
+- [Row 元素 ("填充渐变" 部分)](row-element-fill-gradient-sectionvisio-xml.md)
     
-- [Row 元素（“Geometry”部分）](row-element-geometry-sectionvisio-xml.md)
+- [Row 元素 ("Geometry" 部分)](row-element-geometry-sectionvisio-xml.md)
     
-- [Row 元素（“Hyperlink”部分）](row-element-hyperlink-sectionvisio-xml.md)
+- [Row 元素 ("超链接" 部分)](row-element-hyperlink-sectionvisio-xml.md)
     
-- [Row 元素（“Layer”部分）](row-element-layer-sectionvisio-xml.md)
+- [Row 元素 ("层" 部分)](row-element-layer-sectionvisio-xml.md)
     
-- [Row 元素（“Line Gradient”部分）](row-element-line-gradient-sectionvisio-xml.md)
+- [Row 元素 ("线条渐变" 部分)](row-element-line-gradient-sectionvisio-xml.md)
     
-- [Row 元素（“Paragraph”部分）](row-element-paragraph-sectionvisio-xml.md)
+- [Row 元素 ("段落" 部分)](row-element-paragraph-sectionvisio-xml.md)
     
-- [Row 元素（“Scratch”部分）](row-element-scratch-sectionvisio-xml.md)
+- [Row 元素 ("草稿" 部分)](row-element-scratch-sectionvisio-xml.md)
     
-- [Row 元素（“Shape Data”部分）](row-element-shape-data-sectionvisio-xml.md)
+- [Row 元素 ("Shape Data" 内容)](row-element-shape-data-sectionvisio-xml.md)
     
-- [Row 元素（“Tabs”部分）](row-element-tabs-sectionvisio-xml.md)
+- [Row 元素 ("Tabs" 部分)](row-element-tabs-sectionvisio-xml.md)
     
-- [Row 元素（“User-defined Cells”部分）](row-element-user-defined-cells-sectionvisio-xml.md)
+- [Row 元素 ("用户定义的单元格" 部分)](row-element-user-defined-cells-sectionvisio-xml.md)
     
 - [RowKeyValue 元素](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md)
     

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 73089431569cce3480967b05910df0b7bcf187eb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355781"
 ---
 # <a name="pidnamephishingstamp-canonical-property"></a>PidNamePhishingStamp 规范属性
 
@@ -25,13 +25,13 @@ ms.locfileid: "25392940"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息值，该值标识和，可能需要网络钓鱼的标记邮件。
+包含用于标识和标记可能是网络钓鱼的邮件的消息值。
   
 |||
 |:-----|:-----|
-|友好名称：  <br/> |无  <br/> |
-|属性进行设置：  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|属性名称：  <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|友好名称:  <br/> |无  <br/> |
+|属性集:  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|属性名称:  <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |安全邮件  <br/> |
    
@@ -39,17 +39,17 @@ ms.locfileid: "25392940"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[毫秒-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> 标识，并将标记旨在到非可靠来源欺骗透露敏感信息 （如密码和其他个人信息） 的收件人的电子邮件。
+> 标识和标记旨在欺骗收件人的电子邮件, 以将敏感信息 (如密码和其他个人信息) 泄漏到非信任源。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

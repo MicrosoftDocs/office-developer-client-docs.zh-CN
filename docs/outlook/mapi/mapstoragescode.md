@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: f686a2bc-aba5-4ea3-9963-76d0e96eab50
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8dbb871a234d94f8bb2e21b15ce5de6f0db0e4ee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5dce5de820c07e1fa7b25b87d87993a30961b3f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357629"
 ---
 # <a name="mapstoragescode"></a>MapStorageSCode
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-地图 SCODE 向 HRESULT 类型返回从 OLE 存储对象的值。 
+将 SCODE 返回值从 OLE 存储对象映射到 HRESULT 类型。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Imessage.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Imessage  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 SCODE MapStorageSCode(
@@ -43,22 +43,22 @@ SCODE MapStorageSCode(
 
  _StgSCode_
   
-> [in]MAPI SCODE 值从 OLE 存储对象返回要映射到 HRESULT 值。
+> 实时MAPI SCODE 从 OLE 存储对象返回要映射到 HRESULT 值的值。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功，并返回预期值。
+> 调用成功, 并返回所需的值。
     
 MAPI_E_CALL_FAILED 
   
-> 该函数找不到匹配值。
+> 函数找不到匹配的值。
     
 ## <a name="remarks"></a>注解
 
-MAPI 内部使用的基础上消息 DLL 其消息实现的 MAPI 组件提供了**MapStorageSCode**函数。 由于这些组件中打开 OLE 存储本身，它们必须能够映射 HRESULT 值问题与 OLE 存储返回错误值。 
+mapi 提供了**MapStorageSCode**函数, 用于在邮件 DLL 中基于其邮件实现的 MAPI 组件的内部使用。 由于这些组件本身打开的是 ole 存储, 因此它们必须能够将 OLE 存储问题返回的错误值映射到 HRESULT 值。 
   
-有关详细信息，请参阅[结构化存储文件](structured-storage-in-mapi.md)。 
+有关详细信息, 请参阅[结构化存储](structured-storage-in-mapi.md)。 
   
 

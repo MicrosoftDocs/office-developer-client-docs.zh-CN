@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7622b531-cc4d-4146-8a57-5a3356de3b45
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9684b9f44f6a3fec976bc2da25749ba639929e09
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: bb0fef84bd09ba0f81d5f60300c3b38a7f226853
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348928"
 ---
 # <a name="operating-environment-issues"></a>操作环境问题
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-当 MAPI 开发人员选择开发环境和 Windows SDK 安装环境时，很重要的操作系统和操作环境问题。
+当 MAPI 开发人员选择开发环境和 Windows SDK 安装环境时, 操作系统和操作环境的问题非常重要。
   
-MAPI 开发人员必须知道这些选项会影响其组件将运行的操作系统和组件，他们将能够目标的范围。
+MAPI 开发人员必须知道, 这些选择会影响其组件将在其上运行的操作系统以及它们将能够定位的组件范围。
   
 ## <a name="see-also"></a>另请参阅
 

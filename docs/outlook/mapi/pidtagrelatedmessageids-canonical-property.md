@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 51f0eb8a-0a16-4b45-9380-28caddecf955
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0c3b200c416a21dab00e1ad31e70b58fbdbf845e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d909a121bdc528a04d0f400555a6f98f29da8f0c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355158"
 ---
 # <a name="pidtagrelatedmessageids-canonical-property"></a>PidTagRelatedMessageIds 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含与邮件相关的消息的标识符的列表。
+包含与邮件相关的邮件的标识符列表。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RELATED_IPMS  <br/> |
-|标识符：  <br/> |0x002D  <br/> |
+|标识符:  <br/> |0x002D  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
 ## <a name="remarks"></a>注解
 
-标识符使用相同的特定构造规则，如用于**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性。
+标识符使用的构造规则与用于**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性的特定构造规则相同。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

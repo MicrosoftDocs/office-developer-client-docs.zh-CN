@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ea153390-631d-79fd-c1ba-4c281239a24e
 description: 确定用于形状的投影填充图案的前景（划线）的颜色。
-ms.openlocfilehash: f39109a296949d23142017661bb55f0708402d8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 602df83dcb88d4137b0609f9a8b1084a40148a10
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349103"
 ---
-# <a name="shdwforegnd-cell-fill-format-section"></a>ShdwForegnd 单元格（“Fill Format”部分）
+# <a name="shdwforegnd-cell-fill-format-section"></a>ShdwForegnd 单元格（“Fill Format”内容）
 
 确定用于形状的投影填充图案的前景（划线）的颜色。
   
@@ -24,7 +24,7 @@ ms.locfileid: "19781331"
 
 若要设置颜色，请输入 0 到 23 之间的一个数字，该数字是颜色集合中的一个索引。
   
-若要输入自定义颜色，使用 RGB 或 HSL 函数。 自定义颜色的值为 RGB 颜色，并且 RGB （ *r、 g、 b*），而不是一个号码，将显示在 ShapeSheet 窗口中。 当使用中的数字运算，自定义颜色具有值将大于或等于，共 24 部分。 
+若要输入自定义颜色，请使用 RGB 或 HSL 函数。 自定义颜色的值是其 RGB 颜色, 而 rgb ( *r, g, b*), 而不是数字, 将显示在 ShapeSheet 窗口中。 在数值运算中使用自定义颜色时，其值将大于或等于 24。 
   
 您可以在 ShdwForegndTrans 单元格中设置形状的投影填充图案前景色的透明度。
   

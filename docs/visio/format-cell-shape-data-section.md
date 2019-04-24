@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c36fc895-5577-59f6-0ff5-5892ca81a58f
 description: 指定形状数据项的格式，这些数据项是字符串、固定列表、数字、可变列表、日期或时间、持续时间或货币。
-ms.openlocfilehash: 48342f21a107ff78fed2347fb679ed8199526056
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb02cfefd6dc93798ca5e2b0c657e4616515fd0e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346023"
 ---
-# <a name="format-cell-shape-data-section"></a>Format 单元格（“Shape Data”部分）
+# <a name="format-cell-shape-data-section"></a>Format 单元格（“Shape Data”内容）
 
 指定形状数据项的格式，这些数据项是字符串、固定列表、数字、可变列表、日期或时间、持续时间或货币。
   
@@ -26,11 +26,11 @@ ms.locfileid: "19780327"
 |:-----|:-----|:-----|
 | 字符串  <br/> | 0  <br/> | 适合该数据类型的格式图片。  <br/> |
 | 固定列表  <br/> | 1  <br/> | 要显示在列表中的项，以分号分隔。  <br/> |
-| 数字  <br/> | 2  <br/> | 适合该数据类型的格式图片。  <br/> |
+| 帐号  <br/> | 双面  <br/> | 适合该数据类型的格式图片。  <br/> |
 | 可变列表  <br/> | 4  <br/> | 要显示在列表中的项，以分号分隔。  <br/> |
 | 日期或时间  <br/> | 5  <br/> | 适合该数据类型的格式图片。  <br/> |
-| 持续时间  <br/> | 6  <br/> | 适合该数据类型的格式图片。  <br/> |
-| 货币  <br/> | 7  <br/> | 适合该数据类型的格式图片。  <br/> |
+| 持续时间  <br/> | 型  <br/> | 适合该数据类型的格式图片。  <br/> |
+| 货币  <br/> | 步  <br/> | 适合该数据类型的格式图片。  <br/> |
    
 以指定适合该数据类型的格式图片为例，格式图片“# #/4 UU”将数字 12.43 in. 设置为 12 2/4 INCHES 格式。有关指定格式图片的详细信息，请参见[关于格式图片](about-format-pictures.md)。
   
@@ -44,14 +44,14 @@ ms.locfileid: "19780327"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | 属性。 *名称*。格式其中属性。 *name*是行名称  <br/> |
+| 单元格名称：  <br/> | 片. *名称*。格式的格式。 *名称*是行名称  <br/> |
    
 要从某个程序按索引获取对 Format 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionProp** <br/> |
-| 行索引：  <br/> |**visRowProp** +  *i*其中*i* = 0、 1、 2...  <br/> |
+| 行索引：  <br/> |**visRowProp** +  *i* = ** 0、1、2 .。。  <br/> |
 | 单元格索引：  <br/> |**visCustPropsFormat** <br/> |
    
 

@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7f32145e0947411c48e1e6c3a941c9913a08709c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c35220529fb88b470c563a0b004bfcf7e63ef76
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345645"
 ---
 # <a name="tablenotification"></a>TABLE_NOTIFICATION
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-介绍受某些类型的事件，如错误或更改表中的行。 这会导致表通知要生成。 
+描述已受某种类型的事件 (如更改或错误) 影响的表中的行。 这将导致生成表通知。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _TABLE_NOTIFICATION
@@ -45,15 +45,15 @@ typedef struct _TABLE_NOTIFICATION
 
 **ulTableEvent**
   
-> 用于表示表事件类型的标志位掩码。 可以设置以下标志：
+> 用于表示表事件类型的标志的位掩码。 可以设置以下标志:
     
 TABLE_CHANGED 
   
-> 指示在高级别已更改内容的表。 表的状态是前的事件。 这意味着所有**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 属性、 书签、 当前定位和用户界面选择都仍然有效。 通过重新读取表处理此事件。 要实现富表通知的服务提供商发送 TABLE_CHANGED 事件，而不是更详细的事件，以指示特定类型的更改。 
+> 指示在较高级别上, 关于表的某项已更改。 表的状态与事件之前的状态相同。 这意味着所有**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 属性、书签、当前定位和用户界面选择仍然有效。 通过并表格处理此事件。 不希望实现丰富表通知的服务提供程序发送 TABLE_CHANGED 事件, 而不是更详细的事件来指示特定类型的更改。 
     
 TABLE_ERROR 
   
-> 出错，通常在异步操作的处理。 错误处理过程中的以下方法可以生成此事件： 
+> 发生错误, 通常是在处理异步操作的过程中。 处理以下方法时出现的错误可能会生成此事件: 
     
    - [IMAPITable::SortTable](imapitable-sorttable.md)
     
@@ -61,41 +61,41 @@ TABLE_ERROR
     
    - [IMAPITable::Restrict](imapitable-restrict.md)
     
-   接收 TABLE_ERROR 事件之后, 客户端不能依赖目录的准确性。 此外，待处理的有关其他更改的通知可能会丢失。 [IMAPITable::GetLastError](imapitable-getlasterror.md)方法可能提供有关错误的任何其他信息，因为它已生成以前点，不一定是从最后一个方法调用。 
+   在接收到 TABLE_ERROR 事件之后, 客户端将无法依赖表内容的准确性。 此外, 有关其他更改的挂起通知可能会丢失。 [IMAPITable:: GetLastError](imapitable-getlasterror.md)方法可能不提供有关错误的任何其他信息, 因为它是在之前的某个点生成的, 而不一定是从最后的方法调用生成的。 
     
 TABLE_RELOAD 
   
-> 应重新加载表中的数据。 服务提供商发送 TABLE_RELOAD 时，例如，基础数据存储在数据库和数据库已替换为。 假定 nothing 有关表是仍然有效和重新读取表处理此事件。 所有书签、 实例项、 状态和位置信息都是无效。
+> 应重新加载表中的数据。 服务提供程序发送 TABLE_RELOAD, 例如, 基础数据存储在数据库中, 而数据库被替换。 通过假定表中的任何内容仍然有效并并表来处理此事件。 所有书签、实例键、状态和定位信息都无效。
     
 TABLE_RESTRICT_DONE 
   
-> 启动**IMAPITable::Restrict**方法调用的限制操作已完成。 
+> 已完成使用**IMAPITable:: Restrict**方法调用启动的限制操作。 
     
 TABLE_ROW_ADDED 
   
-> 新行已添加到表并保存相应对象。 调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法后会生成 TABLE_ROW_ADDED 事件。 
+> 已将新的行添加到表中, 并保存了对应的对象。 TABLE_ROW_ADDED 事件是在调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法之后生成的。 
     
 TABLE_ROW_DELETED 
   
-> 从表中已被删除行。 **PropPrior**成员设置为 NULL。 
+> 已从表中删除了行。 **propPrior**成员设置为 NULL。 
     
 TABLE_ROW_MODIFIED 
   
-> 已更改的行。 **行**成员包含行受影响的属性。 多个 TABLE_ROW_MODIFIED 事件发送它们在表视图中显示的顺序。 
+> 行已更改。 **行**成员包含受影响的行属性。 多个 TABLE_ROW_MODIFIED 事件按其在表视图中的显示顺序发送。 
     
-  TABLE_ROW_MODIFIED 事件发送后已经与调用**IMAPIProp::SaveChanges**方法提交到相应的对象的更改。 如果已修改的行现在是表中的第一行， **propPrior**成员中的属性标记的值为**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md))。
+  在使用对**IMAPIProp:: SaveChanges**方法的调用提交对相应对象的更改之后, 将发送 TABLE_ROW_MODIFIED 事件。 如果已修改的行现在是表中的第一行, 则**propPrior**成员中的属性标记的值是**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md))。
     
 TABLE_SETCOL_DONE 
   
-> 启动**IMAPITable::SetColumns**方法调用列设置操作已完成。 
+> 已完成使用**IMAPITable:: SetColumns**方法调用启动的列设置操作。 
     
 TABLE_SORT_DONE 
   
-> 已完成，表的排序操作启动**IMAPITable::SortTable**方法调用。 
+> 已完成使用**IMAPITable:: SortTable**方法调用启动的表排序操作。 
     
 **hResult**
   
-> 如果设置为 TABLE_ERROR **ulTableEvent**成员已发生的错误的 HRESULT 值。 
+> 如果将**ulTableEvent**成员设置为 TABLE_ERROR, 则为已发生的错误的 HRESULT 值。 
     
 **propIndex**
   
@@ -103,31 +103,31 @@ TABLE_SORT_DONE
     
 **propPrior**
   
-> 受影响的一个之前的行的**PR_INSTANCE_KEY**属性**SPropValue**结构。 如果受影响的行，表中的第一行**propPrior**必须设置为**PR_NULL**和不为零。 零不是有效属性标记。 
+> 受影响的行前面的**PR_INSTANCE_KEY**属性的**SPropValue**结构。 如果受影响的行是表中的第一行, 则**propPrior**必须设置为**PR_NULL** , 而不是零。 零不是有效的属性标记。 
     
-**row**
+**行**
   
-> [SRow](srow.md)结构，描述受影响的行。 为所有表通知事件填充该结构。 对于不传递行数据的表通知事件， **SRow**结构的**cValues**成员设置为零， **lpProps**成员设置为 NULL。 因为此**SRow**结构是只读的。如果他们想要进行修改，客户端必须创建它的一个副本。 [ScDupPropset](scduppropset.md)函数可用于创建副本。 
+> 描述受影响的行的[SRow](srow.md)结构。 此结构是为所有表通知事件而填充的。 对于不传递行数据的表通知事件, **SRow**结构的**cValues**成员设置为零, **lpProps**成员设置为 NULL。 由于此**SRow**结构是只读的;如果客户端要进行修改, 则必须为其创建副本。 [ScDupPropset](scduppropset.md)函数可用于制作副本。 
     
 ## <a name="remarks"></a>注解
 
-**表\_通知**结构是结构[通知](notification.md)结构的**信息**成员中包含的联合的成员之一。 **Info**成员包括**表\_通知**结构结构中的**ulEventType**成员设置为_fnevTableModified_时。
+**表\_通知**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 当结构的**ulEventType**成员设置为_fnevTableModified_时, **info**成员包含一个**表\_通知**结构。
   
-顺序和行成员中的列类型反映的顺序和生效时所处的生成通知的类型。 顺序和时生成通知的类型不一定相同时通知已送达。 
+行成员中的列的顺序和类型反映生成通知时有效的顺序和类型。 通知生成时的顺序和类型不一定与传递通知的时间相同。 
   
-有关通知的详细信息，请参阅下表中所述的主题。
+有关通知的详细信息, 请参阅下表中所述的主题。
   
 |**主题**|**说明**|
 |:-----|:-----|
 |[MAPI 中的事件通知](event-notification-in-mapi.md) <br/> |通知和通知事件的一般概述。  <br/> |
-|[处理通知](handling-notifications.md) <br/> |讨论了客户端应如何处理通知。  <br/> |
-|[支持事件通知](supporting-event-notification.md) <br/> |讨论的服务提供程序如何使用**IMAPISupport**方法生成通知。  <br/> |
+|[处理通知](handling-notifications.md) <br/> |讨论客户端应如何处理通知。  <br/> |
+|[支持事件通知](supporting-event-notification.md) <br/> |讨论了如何使用**IMAPISupport**方法生成通知的服务提供商。  <br/> |
    
-表通知是异步的因为客户端可以接收有关通过其他方式添加学习之后添加一行的通知。 可以接收 TABLE_ERROR 事件在**IMAPITable::Sort**、 **IMAPITable::Restrict**或**IMAPITable::SetColumns**方法时出现错误或进程时基础尝试更新一个表格，例如，新时或修改后的行。 
+由于表通知是异步的, 因此, 客户端可以在了解通过另一种方法添加的信息后接收已添加的行的通知。 如果**IMAPITable:: Sort**、 **IMAPITable:: Restrict**或**IMAPITable:: SetColumns**方法中出现错误, 或者基础进程尝试更新表 (例如 new 或 TABLE_ERROR), 则可能会收到一个 "" 事件。修改的行。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [通知](notification.md) 
+- [NOTIFICATION](notification.md) 
 - [ScDupPropset](scduppropset.md)
 - [SRow](srow.md)
 - [SPropValue](spropvalue.md)

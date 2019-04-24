@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 3ddbb129-5d6b-4eca-aba0-3620609ed0c1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8e5ccadbd6df664b6650487f340508ae4548a1c2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 621c20376cc671a2ff9d1406bfb6248846e1bc81
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350951"
 ---
 # <a name="imapifoldergetmessagestatus"></a>IMAPIFolder::GetMessageStatus
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-获取与特定的文件夹中的邮件 （例如，无论该邮件被标记为删除） 的状态。
+获取与特定文件夹中的邮件相关联的状态 (例如, 是否将该邮件标记为删除)。
   
 ```cpp
 HRESULT GetMessageStatus(
@@ -40,43 +40,43 @@ HRESULT GetMessageStatus(
 
  _cbEntryID_
   
-> [in]在_lpEntryID_参数指向的项标识符的字节数。 
+> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
     
  _lpEntryID_
   
-> [in]指向获得其状态的消息的项标识符的指针。
+> 实时指向已获取其状态的邮件的条目标识符的指针。
     
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
  _lpulMessageStatus_
   
-> [输出]指向指示邮件的状态标志的位掩码的指针的指针。 0 到 15 位保留，必须为零;位到 31 16 是可用于特定于实现的。 可以设置以下标志：
+> 排除指向指示邮件状态的标志位掩码的指针。 0到15位是保留的, 并且必须为零。16到31位可用于特定于实现的用途。 可以设置以下标志:
     
 MSGSTATUS_DELMARKED 
   
-> 邮件已标记为删除。
+> 邮件已被标记为删除。
     
 MSGSTATUS_HIDDEN 
   
-> 邮件是不显示。 
+> 不显示该邮件。 
     
 MSGSTATUS_HIGHLIGHTED 
   
-> 邮件是显示突出显示。
+> 将突出显示该消息。
     
 MSGSTATUS_REMOTE_DELETE 
   
-> 邮件已标记为删除远程邮件存储在无须下载到本地客户端。
+> 已将邮件标记为在远程邮件存储库中删除, 而不会将其下载到本地客户端。
     
 MSGSTATUS_REMOTE_DOWNLOAD 
   
-> 已从远程邮件存储下载到本地客户端标记邮件。
+> 已将邮件标记为从远程邮件存储下载到本地客户端。
     
 MSGSTATUS_TAGGED 
   
-> 邮件已标记的客户端定义用途。
+> 已针对客户端定义的目的对邮件进行了标记。
     
 ## <a name="return-value"></a>返回值
 
@@ -86,20 +86,20 @@ S_OK
     
 ## <a name="remarks"></a>注解
 
-**IMAPIFolder::GetMessageStatus**方法返回一条消息，的状态。 邮件状态存储在消息的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性中。 
+**IMAPIFolder:: GetMessageStatus**方法返回邮件的状态。 邮件状态存储在邮件的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性中。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如何设置、 清除状态，以及使用消息状态位完全取决于您的实现，只不过 0 到 15 位保留，必须为零。 如果将消息存储 IPM 子树中，MAPI 保留 IPM 客户端通过使用 31 16 位。 如果将消息存储在其他子树中，您可用于通过 31 16 位自己的目的。
+如何设置、清除和使用邮件状态位完全取决于您的实现, 只保留0到15位, 并且必须为零。 如果将邮件存储在 IPM 子树中, MAPI 将保留位16到31以供 IPM 客户端使用。 如果将邮件存储在其他子树中, 则可以使用 bits 16 到31来实现自己的目的。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetNextMessage  <br/> |MFCMAPI 使用**IMAPIFolder::GetMessageStatus**方法来获取的状态将显示下一条消息。  <br/> |
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal 和 OpenMessageModal  <br/> |MFCMAPI 使用**IMAPIFolder::GetMessageStatus**方法来获取要传递给表单查看器中，即 CMyMAPIFormViewer 或[IMAPISession::ShowForm](imapisession-showform.md)要显示的消息的状态。  <br/> |
+|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetNextMessage  <br/> |MFCMAPI 使用**IMAPIFolder:: GetMessageStatus**方法获取要显示的下一封邮件的状态。  <br/> |
+|MAPIFormFunctions  <br/> |OpenMessageNonModal 和 OpenMessageModal  <br/> |MFCMAPI 使用**IMAPIFolder:: GetMessageStatus**方法获取要显示的消息的状态, 以传递给表单查看器, 即 CMyMAPIFormViewer 或[IMAPISession:: ShowForm](imapisession-showform.md)。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

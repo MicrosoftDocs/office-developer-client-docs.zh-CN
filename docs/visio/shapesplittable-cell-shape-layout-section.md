@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6330304a-71f3-62b4-1b27-14495e3f12c3
 description: 指示此一维形状是否可以拆分。
-ms.openlocfilehash: e2db881465a19b34d5788f1621f15c4d7d15c293
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f92cf7d147be8e59d860bcc8a958bf0cdc008c6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349152"
 ---
-# <a name="shapesplittable-cell-shape-layout-section"></a>ShapeSplittable 单元格（“Shape Layout”部分）
+# <a name="shapesplittable-cell-shape-layout-section"></a>ShapeSplittable 单元格（“Shape Layout”内容）
 
 指示此一维形状是否可以拆分。 
   
-|**值**|**说明**|**自动常量**|
+|**Value**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 不允许拆分此形状。  <br/> |**visSLOSplittableNone** <br/> |
 | 1  <br/> | 允许拆分此形状。  <br/> |**visSLOSplittableAllow** <br/> |
@@ -31,13 +31,13 @@ ms.locfileid: "19781304"
   
 形状的自动拆分是在三个不同级别上启用和禁用的：应用程序、页面和形状。默认情况下，在应用程序和页面级别上启用拆分。 
   
-若要启用或禁用应用程序级别拆分，请使用**启用连接线拆分**设置**Visio 选项**对话框的**高级**选项卡 （**文件**选项卡，单击**选项**，然后单击**高级**)。 
+若要在应用程序级别启用或禁用拆分, 请使用 " **Visio 选项**" 对话框的 "**高级**" 选项卡上的 "**启用连接线拆分**" 设置 (单击 "**文件**" 选项卡, 单击 "**选项**", 然后单击**高级**)。 
   
-若要启用或禁用页面拆分，请参阅[PageShapeSplit](pageshapesplit-cell-page-layout-section.md)单元格。 
+若要启用/禁用页面拆分，请参阅 [PageShapeSplit](pageshapesplit-cell-page-layout-section.md) 单元格。 
   
 若要使某个形状可以拆分其他一维可拆分形状，请参阅 [ShapeSplit](shapesplit-cell-shape-layout-section.md) 单元格。 
   
-若要获取对 ShapeSplittable 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或从使用**CellsU**属性的某个程序按名称获取对 ShapeSplittable 单元格的引用, 请使用: 
   
 |||
 |:-----|:-----|

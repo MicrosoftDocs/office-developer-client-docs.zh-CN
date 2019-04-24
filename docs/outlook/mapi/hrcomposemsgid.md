@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: bb76b147-6552-4cc4-920f-699170aea17f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3bcad4c236f71390f7a048eb66860720e9180e06
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c035780d3d790d94551860a418401e63da1c2151
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348046"
 ---
 # <a name="hrcomposemsgid"></a>HrComposeMsgID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建表示一个对象，通常一条消息的消息存储的复合条目标识符 ASCII 字符串。 
+创建一个 ASCII 字符串, 该字符串表示对象的复合条目标识符, 通常是邮件存储区中的邮件。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
    
 ```cpp
 HrComposeMsgID(
@@ -48,27 +48,27 @@ HrComposeMsgID(
 
  _psession_
   
-> [in]加入会话，使用客户端应用程序的指针。 
+> 实时指向客户端应用程序正在使用的会话的指针。 
     
  _cbStoreRecordKey_
   
-> [in]大小 （以字节为单位，消息存储库包含邮件或其他对象的记录项）。 如果_cbStoreRecordKey_参数中传递零，则该_pszMsgID_参数指向副本的项标识符的转换为文本。 
+> 实时包含邮件或其他对象的邮件存储区的记录键的大小 (以字节为单位)。 如果在_cbStoreRecordKey_参数中传递零, 则_pszMsgID_参数指向已转换为 text 的条目标识符的副本。 
     
  _pStoreRecordKey_
   
-> [in]向记录项的消息存储库包含邮件或其他对象的指针。 
+> 实时指向邮件存储区中包含邮件或其他对象的记录键的指针。 
     
  _cbMsgEID_
   
-> [in]大小，以字节为单位的项标识符的邮件或其他对象。 
+> 实时邮件或其他对象的条目标识符的大小 (以字节为单位)。 
     
  _pMsgEID_
   
-> [in]指向对象的项标识符的指针。 
+> 实时指向对象的条目标识符的指针。 
     
  _pszMsgID_
   
-> [输出]指向返回 ASCII 字符串。 如果_cbStoreRecordKey_参数大于零，为复合项标识符的_pszMsgID_参数点转换为文本。 如果_cbStoreRecordKey_为零，为非复合条目标识符_pszMsgID_磅转换为文本。 
+> 排除指向返回的 ASCII 字符串的指针。 如果_cbStoreRecordKey_参数大于零, 则_pszMsgID_参数指向转换为 text 的复合条目标识符。 如果_cbStoreRecordKey_为零, 则_pszMsgID_指向已转换为 text 的 noncompound 条目标识符。 
     
 ## <a name="return-value"></a>返回值
 
@@ -76,10 +76,10 @@ HrComposeMsgID(
   
 ## <a name="remarks"></a>注解
 
-如果邮件或其他对象为其创建的复合条目标识符位于的消息存储，标识符字符串创建从对象的项标识符的存储记录的键。 如果对象不是存储区中，即，如果_cbStoreRecordKey_参数中传递的存储记录密钥的字节数为零，对象的项标识符只需复制并转换为字符串。 
+如果要为其创建复合条目标识符的邮件或其他对象驻留在邮件存储区中, 则将从该对象的条目标识符和存储的记录密钥创建标识符字符串。 如果对象不在 store 中 (即, 如果在_cbStoreRecordKey_参数中传递的 store 记录关键字的字节数为零), 则只会复制对象的条目标识符, 并将其转换为字符串。 
   
-调用**HrComposeMsgID**函数等效于调用[HrComposeEID](hrcomposeeid.md)函数，然后选择[HrSzFromEntryID](hrszfromentryid.md)函数。 
+调用**HrComposeMsgID**函数等效于调用[HrComposeEID](hrcomposeeid.md)函数, 然后调用[HrSzFromEntryID](hrszfromentryid.md)函数。 
   
- **HrComposeMsgID**使客户端应用程序以使用复合条目标识符使用的多个存储区中的对象。 应用程序可以调用[HrDecomposeMsgID](hrdecomposemsgid.md)函数拆分到其原始构成的复合条目标识符。 
+ **HrComposeMsgID**使客户端应用程序能够通过使用复合条目标识符来处理多个存储中的对象。 应用程序可以调用[HrDecomposeMsgID](hrdecomposemsgid.md)函数, 以将复合条目标识符拆分为其原始要素。 
   
 

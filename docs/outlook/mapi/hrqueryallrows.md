@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c165bcaedfc3dbab0c950d0674228b15dfeee958
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0f09304f21180d9ebc2a1e1dcc54ebadd3622804
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348242"
 ---
 # <a name="hrqueryallrows"></a>HrQueryAllRows
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-检索表中的所有行。 
+检索表的所有行。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 HRESULT HrQueryAllRows(
@@ -48,44 +48,44 @@ HRESULT HrQueryAllRows(
 
  _ptable_
   
-> [in]指向从中检索行的 MAPI 表。 
+> 实时指向从中检索行的 MAPI 表的指针。 
     
  _ptaga_
   
-> [in]指向包含属性的数组[SPropTagArray](sproptagarray.md)结构标记指示表格列。 这些标记用于选择要检索的特定列。 如果_ptaga_参数为 NULL，则**HrQueryAllRows**检索当前表视图_ptable_参数中传递的整个列集。 
+> 实时指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含指示表列的属性标记的数组。 这些标记用于选择要检索的特定列。 如果_ptaga_参数为 NULL, 则**HrQueryAllRows**将检索在_ptable_参数中传递的当前表格视图的整个列集。 
     
  _展示_
   
-> [in]指向包含检索限制[SRestriction](srestriction.md)结构。 如果_展示_参数为 NULL，则**HrQueryAllRows**使没有限制。 
+> 实时指向包含检索限制的[SRestriction](srestriction.md)结构的指针。 如果_展示_参数为 NULL, 则**HrQueryAllRows**不会产生任何限制。 
     
  _pso_
   
-> [in]标识要检索列的排序顺序[SSortOrderSet](ssortorderset.md)结构的指针。 如果_pso_参数为 NULL，则使用表的默认排序次序。 
+> 实时指向[SSortOrderSet](ssortorderset.md)结构的指针, 该结构标识要检索的列的排序顺序。 如果_pso_参数为 NULL, 则使用表的默认排序顺序。 
     
  _crowsMax_
   
-> [in]要检索的行的最大数量。 如果_crowsMax_参数的值为零，检索的行数不限制设置。 
+> 实时要检索的最大行数。 如果_crowsMax_参数的值为零, 则对检索到的行数的限制不会设置。 
     
  _pprows_
   
-> [输出]为包含指向检索到的表格行的指针数组返回[SRowSet](srowset.md)结构指针的指针。 
+> 排除指向指向返回的[SRowSet](srowset.md)结构的指针的指针, 该结构包含指向检索到的表格行的指针数组。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫检索预期的表格行。 
+> 调用检索到表的预期行。 
     
 MAPI_E_TABLE_TOO_BIG 
   
-> 值大于数为_crowsMax_参数传递的表中的行数。 
+> 表中的行数大于为_crowsMax_参数传递的数目。 
     
 ## <a name="remarks"></a>注解
 
-客户端应用程序或服务提供商具有不能控制**HrQueryAllRows**尝试检索，以外通过提出限制_展示_参数指向的行数。 _CrowsMax_参数不会限制为特定的表格行数检索但而定义最大可用来保存所有检索的行的内存量。 仅针对大规模内存溢出保护是通过设置_crowsMax_提供应急功能。 错误返回 MAPI_E_TABLE_TOO_BIG 意味着表包含太多行一次性彻底保留在内存中。 
+客户端应用程序或服务提供程序不能控制**HrQueryAllRows**尝试检索的行数, 而不是通过限制_展示_参数所指向的限制。 _crowsMax_参数不会将检索限制为一定数量的表行, 而是定义可用于保存所有检索到的行的最大内存量。 对对大量内存溢出的唯一保护是通过设置_crowsMax_提供的 stopgap 功能。 错误返回 MAPI_E_TABLE_TOO_BIG 表示该表包含的行太多, 无法同时保留在内存中。 
   
-表的通常较小，如消息存储表或提供程序表中，通常可以安全地检索与**HrQueryAllRows**。 应在使用[IMAPITable::QueryRows](imapitable-queryrows.md)方法的小节遍历危险的太大，内容或甚至收件人目录，如表。 
+通常情况下, 可以使用**HrQueryAllRows**安全地检索通常很小的表 (如邮件存储表或提供程序表)。 应使用[IMAPITable:: QueryRows](imapitable-queryrows.md)方法在子部分中遍历非常大的风险 (如内容表甚至收件人表) 中的表。 
   
-如果调用**HrQueryAllRows**时未定义任何表属性，也会返回与属性类型 PT_NULL 属性标识符 PROP_ID_NULL 
+如果在调用**HrQueryAllRows**时未定义任何表属性, 则将使用属性类型 PT_NULL 和属性标识符返回它们 PROP_ID_NULL 
   
 

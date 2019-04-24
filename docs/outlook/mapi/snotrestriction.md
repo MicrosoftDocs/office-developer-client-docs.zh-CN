@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: e86ca032-d973-4b79-976e-5240ab38a0da
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 174da93e7682246565b12c4fc4ffa6d1a9de065c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 07a1a0a1953d136da534fbdc6339d326c877bebf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575061"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344539"
 ---
 # <a name="snotrestriction"></a>SNotRestriction
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-介绍**不**限制，用来将逻辑**NOT**操作应用于限制。 
+描述用于将逻辑**非**操作应用于限制的**非**限制。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _SNotRestriction
@@ -44,15 +44,15 @@ typedef struct _SNotRestriction
 
  **ulReserved**
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
  **lpRes**
   
-> 指向[SRestriction](srestriction.md)结构，描述要加入到逻辑**NOT**运算符的限制。 
+> 指向描述要联接到逻辑**NOT**运算符的限制的[SRestriction](srestriction.md)结构的指针。 
     
 ## <a name="remarks"></a>注解
 
-有关**SNotRestriction**结构的详细信息，请参阅[有关限制](about-restrictions.md)。 
+有关**SNotRestriction**结构的详细信息, 请参阅[关于限制](about-restrictions.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

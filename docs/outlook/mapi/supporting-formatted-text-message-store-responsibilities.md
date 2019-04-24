@@ -1,5 +1,5 @@
 ---
-title: 支持格式化的文本消息存储职责
+title: 支持格式化的短信存储任务
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,43 +8,43 @@ api_type:
 - COM
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d5f4be5a8593cfc483dfed1cffbb59f596e2e408
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 502ba82279664638c8e7e4ae68f74df74758918d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350678"
 ---
-# <a name="supporting-formatted-text-message-store-responsibilities"></a>支持格式化文本：邮件存储区责任
+# <a name="supporting-formatted-text-message-store-responsibilities"></a>支持格式化文本: 邮件存储责任
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-消息存储提供程序使用**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性可发布是否能够处理富文本格式 (RTF)、 HTML 文本和 RTF 感知时是否它们存储中的格式化的文本压缩或未压缩格式。 消息存储提供程序指示它们是 RTF 感知通过设置 STORE_RTF_OK 位以及它们存储格式化的文本未压缩窗体中通过设置 STORE_UNCOMPRESSED_RTF 位。 消息存储提供程序表明它们是 HTML 感知通过设置 STORE_HTML_OK 位。
+邮件存储提供程序使用**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性来发布它们是否可以处理 rtf 格式 (rtf)、HTML 文本, 如果它们是 rtf 格式, 则无论它们是否将格式化文本存储在压缩或解压缩格式。 邮件存储提供程序通过设置 STORE_RTF_OK 位来指示它们是 RTF 感知的, 并通过设置 STORE_UNCOMPRESSED_RTF 位将格式文本存储在未压缩的表单中。 邮件存储提供程序通过设置 STORE_HTML_OK 位来指示它们是 HTML 感知的。
   
-重要要检查的位以确定的消息存储支持 RTF STORE_RTF_OK RTF 感知客户端时，就不需要对客户端关心 RTF 感知存储格式化文本的格式。 
+虽然支持 rtf 的客户端检查 STORE_RTF_OK 位以确定邮件存储区是否支持 RTF, 这一点很重要, 但客户并不需要考虑 rtf 感知存储的格式化文本的格式。 
   
-所有邮件存储必须都支持非 RTF 感知客户端。 非 RTF 注意消息存储必须消息的[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法在呼叫过程中删除**PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) 属性，如果客户端已而不更改**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md))更新**PR_RTF_IN_SYNC**或**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md))。 删除**PR_RTF_IN_SYNC**使重新计算**PR_BODY**属性中的下次 RTF 感知客户端调用[RTFSync](rtfsync.md) **PR_RTF_COMPRESSED**属性。 
+所有邮件存储区都必须支持非 RTF 感知客户端。 如果客户端已更改**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), 则非 RTF 邮件存储必须在调用邮件的[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法过程中删除**PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) 属性, 而不更新**PR_RTF_IN_SYNC**或**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md))。 删除**PR_RTF_IN_SYNC**将导致**PR_RTF_COMPRESSED**属性在下次调用 RTF 的客户端时从**PR_BODY**属性重新计算。 [](rtfsync.md) 
   
-大多数 RTF 感知的消息存储由客户端; 不是授予消息文本它必须请求计算。 因为此计算非常耗时且成本低，客户端应使用**PR_RTF_COMPRESSED**尽可能。 若要计算的**PR_BODY**属性，消息存储提供程序必须解压缩**PR_RTF_COMPRESSED**属性的内容并删除格式文本格式。 不支持**PR_RTF_COMPRESSED**属性的客户端需要对每个消息执行此计算。 
+大多数 RTF 感知邮件存储都不是由客户端提供的邮件文本;必须按要求计算。 由于此计算耗费时间且成本高昂, 因此客户端应尽可能使用**PR_RTF_COMPRESSED** 。 若要计算**PR_BODY**属性, 邮件存储提供程序必须对**PR_RTF_COMPRESSED**属性的内容进行解压缩并删除 rtf 格式。 不支持**PR_RTF_COMPRESSED**属性的客户端要求对每封邮件进行此计算。 
   
-当复制邮件，消息存储提供程序不使用运行的与任何内容创建一条消息，如果其实现排除**PR_BODY**风险**IMAPISupport::DoCopyProps**或**IMAPISupport::DoCopyTo**方法属性和依赖于**PR_RTF_COMPRESSED**。 很可能已损坏的**PR_RTF_COMPRESSED**属性中的数据。 之前不包括复制操作这些消息内容属性之一，检查已损坏，如下所示： 
+在复制邮件时, 不使用 IMAPISupport 的邮件存储提供程序 **::D ocopyprops**或**IMAPISupport::D ocopyto**方法运行创建不包含内容的邮件的风险 (如果其实现排除了**PR_BODY** )。属性并依赖**PR_RTF_COMPRESSED**。 **PR_RTF_COMPRESSED**属性中的数据可能已损坏。 在复制操作中排除这些邮件内容的任何属性之前, 请检查是否有损坏, 如下所示: 
   
-1. 如果不大于压缩 RTF **PR_RTF_COMPRESSED**的值，该属性已损坏。 
+1. 如果**PR_RTF_COMPRESSED**的值不大于压缩的 RTF, 则该属性已损坏。 
     
-2. 如果在 RTF 标题魔术值不是_dwMagicCompressedRTF_或_dwMagicUncompressedRTF_，该属性已损坏。
+2. 如果 RTF 标头中的幻值不是_dwMagicCompressedRTF_或_dwMagicUncompressedRTF_, 则该属性已损坏。
     
-消息存储提供程序使用方法需要不考虑实现**PR_RTF_COMPRESSED**损坏; 检查的支持MAPI 确保的相应属性存在，且有效。 
+使用支持方法的邮件存储提供程序不需要考虑为**PR_RTF_COMPRESSED**损坏实施检查;MAPI 可确保适当的属性存在且有效。 
   
-有三个不同级别的消息存储提供程序可以实现; RTF 支持MAPI 建议 RTF 感知消息存储提供程序实施他们的支持在中间或最高级别。 所有 RTF 感知消息存储提供程序的传出邮件**PR_RTF_COMPRESSED**中包括的数据从生成**PR_BODY**和**RTFSync**调用同步文本和传入消息的格式。 
+邮件存储提供程序可以实现三种不同级别的 RTF 支持;MAPI 建议 RTF 感知邮件存储提供程序在中间或最高级别实现其支持。 所有 RTF 感知邮件存储区提供程序负责从**PR_RTF_COMPRESSED**中包含的数据生成**PR_BODY** , 并调用**RTFSync**以同步传入邮件上的文本和格式设置。 
   
-以下三个级别之间的差异如下表所述。 
+下表介绍了这三种级别之间的差异。 
   
-|**支持级别**|**说明**|
+|**支持级别**|**Description**|
 |:-----|:-----|
-|Low  <br/> |消息存储提供程序调用**RTFSync** ，只要更改将保存到一条消息，并从**PR_RTF_COMPRESSED**而不是要求客户端将其设置为提取**PR_BODY**属性的数据。 **PR_BODY**和**PR_RTF_COMPRESSED**存储。  <br/> |
-|居中  <br/> |消息存储提供程序存储仅**PR_RTF_COMPRESSED**属性，计算**PR_BODY**在必要时。  <br/> |
-|High  <br/> |消息存储提供程序存储区，既未**PR_BODY**或辅助 RTF 属性。 **RTFSync**称为已更改消息文本和格式保持不变时或下载新邮件时由传输提供程序。  <br/> |
+|低  <br/> |只要将更改保存到邮件并从**PR_RTF_COMPRESSED**中提取**PR_BODY**属性的数据, 邮件存储提供程序就会调用**RTFSync** , 而不是要求客户端对其进行设置。 同时存储**PR_BODY**和**PR_RTF_COMPRESSED** 。  <br/> |
+|中间  <br/> |邮件存储提供程序仅存储**PR_RTF_COMPRESSED**属性 (必要时计算**PR_BODY** )。  <br/> |
+|高  <br/> |邮件存储提供程序既不存储**PR_BODY** , 也不存储辅助 RTF 属性。 当邮件文本已更改且格式设置保持不变或在传输提供程序下载新邮件时, 将调用**RTFSync** 。  <br/> |
    
 

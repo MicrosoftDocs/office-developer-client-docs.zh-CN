@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: fcb93346-db92-44b5-a447-59fd95f98f45
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6b5def94096f7664169935a062d3b28171fb2919
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2d832b3a53f8056c034b5e87f1f309fa3058173d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355802"
 ---
 # <a name="pidtagmessagetoken-canonical-property"></a>PidTagMessageToken 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件 ASN.1 安全令牌。
+包含一个 ASN. 1 邮件的安全令牌。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_MESSAGE_TOKEN  <br/> |
-|标识符：  <br/> |0x0C03  <br/> |
+|标识符:  <br/> |0x0C03  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |安全邮件属性  <br/> |
+|区域：  <br/> |安全邮件传递属性  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性传达受保护与安全相关信息从其原始发件人向其收件人。 与**PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)) 属性一起使用，则保证与邮件内容的标签的关联。 在与**PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)) 属性一起使用，它验证的消息内容未更改。
+此属性可将受保护的与安全相关的信息从其原始发件人传达给收件人。 与**PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)) 属性结合使用时, 它可保证标签与邮件内容的关联。 与**PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)) 属性结合使用时, 它将验证邮件内容是否保持不变。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

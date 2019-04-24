@@ -1,31 +1,31 @@
 ---
-title: Outlook 时在缓存 Exchange 模式下打开存储在远程服务器
+title: 当 Outlook 处于缓存 Exchange 模式下时, 打开远程服务器上的存储区
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
-description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: 7c1b3d3d5eed6bc991f8e4fd702fa197d610c104
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2012 年 6 月 25 日
+ms.openlocfilehash: 419c9ae734e8b58d0958970e7127b94d220b8382
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584798"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345946"
 ---
-# <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Outlook 时在缓存 Exchange 模式下打开存储在远程服务器
+# <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>当 Outlook 处于缓存 Exchange 模式下时, 打开远程服务器上的存储区
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-本主题包含演示如何使用**MDB_ONLINE**标志远程服务器上的消息存储时打开 Microsoft Outlook 2010 或 Microsoft Outlook 2013 缓存 Exchange 模式下的 c + + 中的代码示例。 
+本主题包含 c + + 中的代码示例, 说明在 microsoft outlook 2010 或 microsoft outlook 2013 处于缓存 Exchange 模式下时, 如何使用**MDB_ONLINE**标志打开远程服务器上的邮件存储区。 
   
-缓存的 Exchange 模式允许 Outlook 2010 和 Outlook 2013 以使用用户的邮箱的本地副本，而 Outlook 2010 或 Outlook 2013 保持联机连接到的远程副本的远程 Exchange 服务器上的用户的邮箱。 在 Outlook 2010 或 Outlook 2013 中运行时缓存 Exchange 模式，默认情况下，登录到同一个会话任何 MAPI 解决方案还会连接到缓存的邮件存储区。 对邮箱的本地副本进行访问的任何数据和所做的任何更改。
+缓存 Exchange 模式允许 outlook 2010 和 outlook 2013 使用用户邮箱的本地副本, 而 outlook 2010 或 outlook 2013 维护与远程 Exchange 服务器上的用户邮箱远程副本的联机连接。 当 outlook 2010 或 outlook 2013 在缓存 Exchange 模式下运行时, 默认情况下, 登录到同一会话的任何 MAPI 解决方案也将连接到缓存的邮件存储区。 访问的任何数据和所做的任何更改都将针对邮箱的本地副本进行。
   
-客户端或服务提供程序可以重写与本地消息存储库的连接，并打开远程服务器上的存储通过调用[IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)时为**MDB_ONLINE** *ulFlags*参数中设置了位。 存储已成功打开远程服务器上为该会话后，您可以使用[IMAPISession::OpenEntry](imapisession-openentry.md)打开项目或对远程存储的文件夹。 
+客户端或服务提供程序可以通过在调用[IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md)时为*ulFlags*参数中的**MDB_ONLINE**设置重写与本地邮件存储区的连接并在远程服务器上打开存储区。 在该会话的远程服务器上成功打开存储后, 您可以使用[IMAPISession:: OpenEntry](imapisession-openentry.md)打开远程存储上的项目或文件夹。 
   
-在缓存模式和非缓存模式下在同一 MAPI 会话中的同一时间，您无法打开 Exchange 存储。 如果您已经打开的缓存的消息存储之前，必须也关闭存储打开与此标志，或打开新其中可以使用此标志打开 Exchange 存储的远程服务器上的 MAPI 会话。
+无法同时在缓存模式和非缓存模式下打开同一 MAPI 会话中的 Exchange 存储。 如果已经打开缓存的邮件存储区，或者必须使用此标记关闭存储，或打开新的 MAPI 会话，可以使用此标记在远程服务器上打开 Exchange 存储。
   
-下面的代码示例演示如何使用*ulFlags*参数中的设置以打开远程服务器上的默认存储**MDB_ONLINE**标志调用**IMAPISession::OpenMsgStore** 。 
+下面的代码示例演示如何使用*ulFlags*参数中设置的**MDB_ONLINE**标志调用**IMAPISession:: OpenMsgStore** , 以打开远程服务器上的默认存储区。 
   
 ```cpp
 HRESULT HrRemoteMessageStore( 

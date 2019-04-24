@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d94c740f-29e1-1e7f-39f6-8aa215f3111d
 description: 要将数字设为货币格式，可以使用 CY 函数并传递一个可选常量来指定要使用哪个国家（地区）的货币。货币常量可以指定为对应于一个国家（地区）的 ID 号，或者指定为对应于 ISO 4217 三字符缩写的字符串（将该字符串括在引号内）。
-ms.openlocfilehash: ce27cbcb03b4c41cce3cf08fbcd234678fcdc773
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4492f4901779d94a32b881c973eab9e32a9c0514
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344584"
 ---
 # <a name="about-currency-constants"></a>关于货币常量
 
@@ -24,33 +24,33 @@ ms.locfileid: "19779620"
   
 ## <a name="ids-and-abbreviations"></a>ID 和缩写
 
-|**标识**|**Abbreviation**|**Currency**|
+|**ID**|**Abbreviation**|**Currency**|
 |:-----|:-----|:-----|
-| 0  <br/> | SYS  <br/> | 使用系统设置  <br/> |
-| 1  <br/> | XXX  <br/> | 采用数字格式  <br/> |
-| 2-9  <br/> | 保留  <br/> |
+| 0  <br/> | http.sys  <br/> | 使用系统设置  <br/> |
+| 1  <br/> | 美元  <br/> | 采用数字格式  <br/> |
+| 2 - 9  <br/> | Reserved  <br/> |
 | 10  <br/> | EUR  <br/> | 欧元  <br/> |
-| 11  <br/> | USD  <br/> | 美元  <br/> |
+| 11x17  <br/> | 美元  <br/> | 美元  <br/> |
 | 12  <br/> | ATS  <br/> | 奥地利先令  <br/> |
 | 13  <br/> | AUD  <br/> | 澳大利亚元  <br/> |
-| 14  <br/> | BEF  <br/> | 比利时法郎  <br/> |
-| 15  <br/> | CAD  <br/> | 加拿大元  <br/> |
-| 16  <br/> | CHF  <br/> | 瑞士法郎  <br/> |
-| 17  <br/> | CNY  <br/> | 中国人民币元  <br/> |
+| 日  <br/> | BEF  <br/> | 比利时法郎  <br/> |
+| 个  <br/> | CAD  <br/> | 加拿大元  <br/> |
+| 位  <br/> | CHF  <br/> | 瑞士法郎  <br/> |
+| ×  <br/> | CNY  <br/> | 中国人民币元  <br/> |
 | 18  <br/> | DEM  <br/> | 德国马克  <br/> |
-| 19  <br/> | DKK  <br/> | 丹麦克朗  <br/> |
+| 合  <br/> | DKK  <br/> | 丹麦克朗  <br/> |
 | 20  <br/> | ESP  <br/> | 西班牙比塞塔  <br/> |
-| 21  <br/> | FIM  <br/> | 芬兰马克  <br/> |
+| 不足  <br/> | FIM  <br/> | 芬兰马克  <br/> |
 | 22  <br/> | FRF  <br/> | 法国法郎  <br/> |
-| 23  <br/> | GBP  <br/> | 英国英镑  <br/> |
+| 上午  <br/> | GBP  <br/> | 英国英镑  <br/> |
 | 24  <br/> | GRD  <br/> | 希腊德拉克马  <br/> |
-| 25  <br/> | HKD  <br/> | 香港特别行政区 (SAR) 元  <br/> |
+| word  <br/> | HKD  <br/> | 香港特别行政区 (SAR) 元  <br/> |
 | 26  <br/> | HUF  <br/> | 匈牙利福林  <br/> |
 | 27  <br/> | IDR  <br/> | 印度尼西亚卢比  <br/> |
 | 28  <br/> | IEP  <br/> | 爱尔兰镑  <br/> |
 | 29  <br/> | ILS  <br/> | 以色列谢克尔  <br/> |
 | 30  <br/> | ITL  <br/> | 意大利里拉  <br/> |
-| 31  <br/> | JPY  <br/> | 日元  <br/> |
+| 31  <br/> | 您  <br/> | 日元  <br/> |
 | 32  <br/> | KRW  <br/> | 朝鲜元  <br/> |
 | 33  <br/> | LUF  <br/> | 卢森堡法郎  <br/> |
 | 34  <br/> | MXN  <br/> | 墨西哥比索  <br/> |
@@ -70,7 +70,7 @@ ms.locfileid: "19779620"
 | 48  <br/> | XEU（被 EUR 取代。）  <br/> | 欧洲货币单位（1998 年以前）  <br/> |
 | 49  <br/> | YUN（被 YUM 取代。）  <br/> | 南斯拉夫第纳尔  <br/> |
 | 50  <br/> | ZAR  <br/> | 南非兰特  <br/> |
-| 51-55  <br/> | 保留  <br/> |
+| 51 - 55  <br/> | Reserved  <br/> |
 | 56  <br/> | ARS  <br/> | 阿根廷比索  <br/> |
 | 57  <br/> | BMD  <br/> | 百慕大元  <br/> |
 | 58  <br/> | BOB  <br/> | 玻利维亚玻利瓦  <br/> |
@@ -90,19 +90,19 @@ ms.locfileid: "19779620"
 | 72  <br/> | KWD  <br/> | 科威特第纳尔  <br/> |
 | 73  <br/> | MOP  <br/> | 澳门特别行政区元  <br/> |
 | 74  <br/> | NIO  <br/> | 尼加拉瓜金科多巴  <br/> |
-| 75  <br/> | PAB  <br/> | 巴拿马巴波亚  <br/> |
-| 76  <br/> | PEN  <br/> | 秘鲁索尔  <br/> |
+| 75  <br/> | .pab  <br/> | 巴拿马巴波亚  <br/> |
+| 76  <br/> | 笔尖  <br/> | 秘鲁索尔  <br/> |
 | 77  <br/> | PKR  <br/> | 巴基斯坦卢比  <br/> |
 | 78  <br/> | PYG  <br/> | 巴拉圭瓜拉尼  <br/> |
 | 79  <br/> | SAR  <br/> | 沙特阿拉伯里亚尔  <br/> |
-| 80  <br/> | SIT  <br/> | 斯洛文尼亚托拉尔  <br/> |
+| 80  <br/> | 等待  <br/> | 斯洛文尼亚托拉尔  <br/> |
 | 81  <br/> | SKK  <br/> | 斯洛伐克克朗  <br/> |
-| 82  <br/> | SVC  <br/> | 萨尔瓦多科郎  <br/> |
+| 82  <br/> | .svc  <br/> | 萨尔瓦多科郎  <br/> |
 | 83  <br/> | TRY  <br/> | 新土耳其里拉  <br/> |
 | 84  <br/> | TTD  <br/> | 特立尼达和多巴哥元  <br/> |
 | 85  <br/> | UYU  <br/> | 乌拉圭比索  <br/> |
 | 86  <br/> | VEB  <br/> | 委内瑞拉玻利瓦  <br/> |
-| 87  <br/> | VND  <br/> | 越南盾  <br/> |
+| 87  <br/> | vnd.ms-excel  <br/> | 越南盾  <br/> |
 | 88  <br/> | BRL  <br/> | 巴西雷亚尔  <br/> |
 | 89  <br/> | PLN  <br/> | 波兰兹罗提  <br/> |
 | 90  <br/> | RUB  <br/> | 俄罗斯卢布  <br/> |
@@ -110,7 +110,7 @@ ms.locfileid: "19779620"
 | 92  <br/> | BYB（被 BYR 取代。）  <br/> | 白俄罗斯卢布  <br/> |
 | 93  <br/> | UAH  <br/> | 乌克兰戈里夫纳  <br/> |
 | 94  <br/> | AFA  <br/> | 阿富汗尼（在 Visio 2002 中已加入）  <br/> |
-| 95  <br/> | ALL  <br/> | 列克（在 Visio 2002 中已加入）  <br/> |
+| 95  <br/> | 全部  <br/> | 列克（在 Visio 2002 中已加入）  <br/> |
 | 96  <br/> | DZD  <br/> | 阿尔及利亚第纳尔（在 Visio 2002 中已加入）  <br/> |
 | 97  <br/> | ADP  <br/> | 安道尔比塞塔（在 Visio 2002 中已加入）  <br/> |
 | 98  <br/> | AOA  <br/> | 宽扎（在 Visio 2002 中已加入）  <br/> |
@@ -128,7 +128,7 @@ ms.locfileid: "19779620"
 | 110  <br/> | BAM  <br/> | 自由兑换马克（在 Visio 2002 中已加入）  <br/> |
 | 111  <br/> | BWP  <br/> | 普拉（在 Visio 2002 中已加入）  <br/> |
 | 112  <br/> | BND  <br/> | 文莱元（在 Visio 2002 中已加入）  <br/> |
-| 113  <br/> | BGL（被 BGN 取代。）  <br/> | 列弗  <br/> |
+| 113  <br/> | BGL（被 BGN 取代。）  <br/> | Lev  <br/> |
 | 114  <br/> | BGN  <br/> | 保加利亚列弗（在 Visio 2002 中已加入）  <br/> |
 | 115  <br/> | BIF  <br/> | 布隆迪法郎（在 Visio 2002 中已加入）  <br/> |
 | 116  <br/> | KHR  <br/> | 瑞尔（在 Visio 2002 中已加入）  <br/> |
@@ -138,7 +138,7 @@ ms.locfileid: "19779620"
 | 120  <br/> | KMF  <br/> | 科摩罗法郎（在 Visio 2002 中已加入）  <br/> |
 | 121  <br/> | CDF  <br/> | 刚果法郎（在 Visio 2002 中已加入）  <br/> |
 | 122  <br/> | HRK  <br/> | 克罗地亚库纳（在 Visio 2002 中已加入）  <br/> |
-| 123  <br/> | CUP  <br/> | 古巴比索（在 Visio 2002 中已加入）  <br/> |
+| 123  <br/> | cup of  <br/> | 古巴比索（在 Visio 2002 中已加入）  <br/> |
 | 124  <br/> | CYP  <br/> | 塞浦路斯镑（在 Visio 2002 中已加入）  <br/> |
 | 125  <br/> | DJF  <br/> | 吉布提法郎（在 Visio 2002 中已加入）  <br/> |
 | 126  <br/> | TPE  <br/> | 帝汶埃斯库多（在 Visio 2002 中已加入）  <br/> |
@@ -166,7 +166,7 @@ ms.locfileid: "19779620"
 | 147  <br/> | KPW  <br/> | 朝鲜元（在 Visio 2002 中已加入）  <br/> |
 | 148  <br/> | KGS  <br/> | 索姆（在 Visio 2002 中已加入）  <br/> |
 | 149  <br/> | LAK  <br/> | 基普（在 Visio 2002 中已加入）  <br/> |
-| 150  <br/> | 级别 （历史。 使用 eur。）  <br/> | 拉脱维亚拉特（在 Visio 2002 中已加入）  <br/> |
+| 150  <br/> | LVL (历史)。 ）  <br/> | 拉脱维亚拉特（在 Visio 2002 中已加入）  <br/> |
 | 151  <br/> | LBP  <br/> | 黎巴嫩镑（在 Visio 2002 中已加入）  <br/> |
 | 152  <br/> | LSL  <br/> | 洛蒂（在 Visio 2002 中已加入）  <br/> |
 | 153  <br/> | LRD  <br/> | 利比里亚元（在 Visio 2002 中已加入）  <br/> |
@@ -181,7 +181,7 @@ ms.locfileid: "19779620"
 | 162  <br/> | MUR  <br/> | 毛里求斯卢比（在 Visio 2002 中已加入）  <br/> |
 | 163  <br/> | MDL  <br/> | 摩尔多瓦列伊（在 Visio 2002 中已加入）  <br/> |
 | 164  <br/> | MNT  <br/> | 图格里克（在 Visio 2002 中已加入）  <br/> |
-| 165  <br/> | MAD  <br/> | 摩洛哥迪拉姆（在 Visio 2002 中已加入）  <br/> |
+| 165  <br/> | 出色  <br/> | 摩洛哥迪拉姆（在 Visio 2002 中已加入）  <br/> |
 | 166  <br/> | MZM  <br/> | 梅蒂卡尔（在 Visio 2002 中已加入）  <br/> |
 | 167  <br/> | MMK  <br/> | 缅甸元（在 Visio 2002 中已加入）  <br/> |
 | 168  <br/> | NAD  <br/> | 纳米比亚元（在 Visio 2002 中已加入）  <br/> |
@@ -195,7 +195,7 @@ ms.locfileid: "19779620"
 | 176  <br/> | SHP  <br/> | 圣赫勒拿镑（在 Visio 2002 中已加入）  <br/> |
 | 177  <br/> | WST  <br/> | 塔拉（在 Visio 2002 中已加入）  <br/> |
 | 178  <br/> | STD  <br/> | 多布拉（在 Visio 2002 中已加入）  <br/> |
-| 179  <br/> | SCR  <br/> | 塞舌尔卢比（在 Visio 2002 中已加入）  <br/> |
+| 179  <br/> | .scr  <br/> | 塞舌尔卢比（在 Visio 2002 中已加入）  <br/> |
 | 180  <br/> | SLL  <br/> | 利昂（在 Visio 2002 中已加入）  <br/> |
 | 181  <br/> | SBD  <br/> | 索罗门群岛元（在 Visio 2002 中已加入）  <br/> |
 | 182  <br/> | SOS  <br/> | 索马里先令（在 Visio 2002 中已加入）  <br/> |
@@ -207,7 +207,7 @@ ms.locfileid: "19779620"
 | 188  <br/> | TJR（被 TJS 取代。）  <br/> | 塔吉克卢布  <br/> |
 | 189  <br/> | TJS  <br/> | 塔吉克萨马尼（在 Visio 2002 中已加入）  <br/> |
 | 190  <br/> | TZS  <br/> | 坦桑尼亚先令（在 Visio 2002 中已加入）  <br/> |
-| 191  <br/> | TOP  <br/> | 潘加（在 Visio 2002 中已加入）  <br/> |
+| 191  <br/> | 返回页首  <br/> | 潘加（在 Visio 2002 中已加入）  <br/> |
 | 192  <br/> | TND  <br/> | 突尼斯第纳尔（在 Visio 2002 中已加入）  <br/> |
 | 193  <br/> | TMM  <br/> | 马纳特（在 Visio 2002 中已加入）  <br/> |
 | 194  <br/> | UGX  <br/> | 乌干达先令（在 Visio 2002 中已加入）  <br/> |
@@ -219,7 +219,7 @@ ms.locfileid: "19779620"
 | 200  <br/> | ZWD  <br/> | 津巴布韦元（在 Visio 2002 中已加入）  <br/> |
 |201  <br/> |VEF  <br/> |委内瑞拉玻利瓦（在 Visio 2010 中已加入）  <br/> |
 |202  <br/> |MGA  <br/> |马达加斯加阿里亚里（在 Visio 2010 中已加入）  <br/> |
-|203  <br/> |RSD  <br/> |塞尔维亚第纳尔（在 Visio 2010 中已加入）  <br/> |
+|203  <br/> |会面  <br/> |塞尔维亚第纳尔（在 Visio 2010 中已加入）  <br/> |
 |204  <br/> |CSD（被 RSD 取代。）  <br/> |塞尔维亚第纳尔（在 Visio 2010 中已加入）  <br/> |
    
 

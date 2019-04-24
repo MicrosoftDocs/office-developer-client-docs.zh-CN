@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 185db683-301a-4d91-a583-6959853fa1ad
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d0ae319a6b5fa4c901ec7d318c7ebdd216a2adeb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357937"
 ---
 # <a name="pidlidtaskmode-canonical-property"></a>PidLidTaskMode 规范属性
 
@@ -25,44 +25,44 @@ ms.locfileid: "25398967"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定任务的工作分配状态。
+指定任务的分配状态。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskMode  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x00008518  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x00008518  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |Task  <br/> |
+|区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-值必须是下列选项之一。
+值必须是下列值之一。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
-|0x00000000  <br/> |未分配的任务。  <br/> |
-|0x00000001  <br/> |任务请求中嵌入任务。  <br/> |
-|0x00000002  <br/> |任务已接受任务受理人。  <br/> |
-|0x00000003  <br/> |任务工作负责人被拒绝任务。  <br/> |
-|0x00000004  <br/> |任务更新中嵌入任务。  <br/> |
-|0x00000005  <br/> |任务已分配给任务分配人。  <br/> |
+|0x00000000  <br/> |未分配任务。  <br/> |
+|0x00000001  <br/> |任务嵌入在任务请求中。  <br/> |
+|0x00000002  <br/> |任务受托人接受了该任务。  <br/> |
+|0x00000003  <br/> |任务受托人拒绝了该任务。  <br/> |
+|0x00000004  <br/> |任务已嵌入任务更新中。  <br/> |
+|0x00000005  <br/> |任务已分配给任务 assigner。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义模型的任务、 任务分配和任务更新电子等效项的多个对象。
+> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

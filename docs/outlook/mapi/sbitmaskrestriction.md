@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: ddd42180-6e4f-410c-9f78-d868a91452dc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c9197201388530bd7755eb1987ecc863220e3847
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: afac8c352ad0a07fcb1cd98683b6a5c87940ab4d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566605"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357524"
 ---
 # <a name="sbitmaskrestriction"></a>SBitMaskRestriction
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-描述一个位掩码限制，用来执行按位**AND**操作和测试结果。 
+介绍用于执行按位**and**运算并测试结果的位掩码限制。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _SBitMaskRestriction
@@ -45,29 +45,29 @@ typedef struct _SBitMaskRestriction
 
  **relBMR**
   
-> 介绍如何在**ulMask**成员中指定的掩码应应用到属性标记的关系运算符。 可能值如下所示： 
+> 描述**ulMask**成员中指定的掩码应如何应用于属性标记的关系运算符。 可能的值如下所示: 
     
 BMR_EQZ 
   
-> 使用由**ulPropTag**成员和检验值等于零的属性**ulMask**成员中执行按位**AND**运算的掩码。 
+> 使用**ulPropTag**成员表示的属性对**ulMask**成员中的掩码执行按位 "**与**" 运算, 并测试是否等于零。 
     
 BMR_NEZ 
   
-> 使用由**ulPropTag**成员和测试的值不等于零的属性**ulMask**成员中执行按位**AND**运算的掩码。 
+> 对**ulMask**成员中的掩码执行按位**and**运算, 该属性由**ulPropTag**成员表示, 并测试为不等于零。 
     
  **ulPropTag**
   
-> 属性标记的位掩码应用到的属性。
+> 要应用位掩码的属性的属性标记。
     
  **ulMask**
   
-> 要应用于由**ulPropTag**标识属性的位掩码。
+> 应用于由**ulPropTag**标识的属性的位掩码。
     
 ## <a name="remarks"></a>注解
 
-**SBitMaskRestriction**结构执行按位**AND**操作使用**ulMask**成员和描述**ulPropTag**成员属性的值中所述的位掩码。 如果结果为零，则满足 BMR_EQZ。 如果不为零，也就是说，如果该属性值有至少一个相同位设置为**ulMask**，然后 BMR_NEZ 被满足。
+**SBitMaskRestriction**结构使用**ulMask**成员中描述的位掩码和**ulPropTag**成员描述的属性值执行按位**and**运算。 如果结果为零, 则表示已满足 BMR_EQZ。 如果该属性值为非零, 即如果属性值至少有一个相同的位设置为**ulMask**, 则满足 BMR_NEZ。
   
-有关**SBitMaskRestriction**结构和限制的详细信息，请参阅[有关限制](about-restrictions.md)。
+有关**SBitMaskRestriction**结构和限制的详细信息, 请参阅[关于限制](about-restrictions.md)。
   
 ## <a name="see-also"></a>另请参阅
 

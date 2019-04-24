@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 02c66b46-1f01-43fb-832c-bac27aaae19f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b71d1f477435b4a9327b4156560d1aa2e6079536
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e0cdcb92238dd4dffbcd6514e698e5511b05bf45
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360492"
 ---
 # <a name="ulvalidateparms"></a>UlValidateParms
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-调用检查参数客户端应用程序已传递给服务提供商和 MAPI 内部函数。 
+调用内部函数以检查客户端应用程序已传递给服务提供程序和 MAPI 的参数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapival.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |服务提供商  <br/> |
+|标头文件：  <br/> |Mapival.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |服务提供程序  <br/> |
    
 ```cpp
 HRESULT UlValidateParms(
@@ -44,26 +44,26 @@ HRESULT UlValidateParms(
 
  _eMethod_
   
-> [in]通过枚举，指定要验证的方法。 
+> 实时通过枚举指定要验证的方法。 
     
  _第一_
   
-> [in]堆栈上第一个参数的指针。
+> 实时指向堆栈上第一个参数的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。 
+> 调用成功, 并返回了所需的值或值。 
     
 MAPI_E_CALL_FAILED 
   
-> 出现错误，无法完成操作。
+> 错误阻止操作完成。
     
 ## <a name="remarks"></a>注解
 
-MAPI 和服务之间传递参数提供程序将假定它们正确，且经过仅调试验证与[CheckParms](checkparms.md)宏。 提供程序应检查所有参数中传递的客户端应用程序，但客户端应假定 MAPI 和提供程序参数正确。 使用**HR_FAILED**宏来测试返回值。 
+假定在 MAPI 和服务提供程序之间传递的参数是正确的, 并且仅使用[CheckParms](checkparms.md)宏进行调试验证。 提供程序应检查客户端应用程序传入的所有参数, 但客户端应假定 MAPI 和提供程序参数正确。 使用**HR_FAILED**宏可测试返回值。 
   
-根据调用的代码是否为 C 或 c + + 不同调用**UlValidateParms**宏。 使用此宏来验证返回 ULONG 而不是 HRESULT 值; 几**IUnknown**和 MAPI 方法的参数[ValidateParms](validateparms.md)宏适用于所有其他人。 
+**UlValidateParms**宏的调用方式取决于调用代码是否为 c 或 c + +。 此宏用于验证几个**IUnknown**和 MAPI 方法的参数, 这些方法返回 ULONG 而不是 HRESULT 值;[ValidateParms](validateparms.md)宏适用于所有其他宏。 
   
 

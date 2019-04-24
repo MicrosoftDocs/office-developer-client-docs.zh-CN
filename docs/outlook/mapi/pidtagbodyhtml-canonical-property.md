@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 93b9215a-5900-411c-a0ae-6bba62cd5a1e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6ed59228ee06a1d3e362115a99bf4b859dfeb698
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359043"
 ---
 # <a name="pidtagbodyhtml-canonical-property"></a>PidTagBodyHtml 规范属性
 
@@ -25,44 +25,44 @@ ms.locfileid: "25384967"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息文本的超文本标记语言 (HTML) 版本。 
+包含邮件文本的超文本标记语言 (HTML) 版本。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_BODY_HTML，PR_BODY_HTML_A，PR_BODY_HTML_W  <br/> |
-|标识符：  <br/> |0x1013  <br/> |
-|数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|相关属性：  <br/> |PR_BODY_HTML、PR_BODY_HTML_A、PR_BODY_HTML_W  <br/> |
+|标识符:  <br/> |0x1013  <br/> |
+|数据类型：  <br/> |PT_UNICODE、PT_STRING8  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这些属性包含相同的消息文本**PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md))，但在 HTML。 
+这些属性包含的邮件文本与**PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)) 相同, 但在 HTML 中。 
   
-支持 HTML 的消息存储指示这可以通过在其**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 中设置**STORE_HTML_OK**标志。 
+支持 HTML 的邮件存储区通过在其**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 中设置**STORE_HTML_OK**标志来指示这一点。 
   
- **注释****STORE_HTML_OK** Mapidefs.h 包含使用 Microsoft® Exchange 2000 Server 或更早版本中未定义。 如果未定义**STORE_HTML_OK** ，改用 0x00010000 的值。 
+ **注释****STORE_HTML_OK**不是在 Microsoft ® Exchange 2000 Server 及更早版本附带的 mapidefs.h 版本中定义的。 如果未定义**STORE_HTML_OK** , 请改用值0x00010000。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

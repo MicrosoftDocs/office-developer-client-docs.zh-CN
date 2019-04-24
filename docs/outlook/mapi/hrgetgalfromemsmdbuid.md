@@ -8,26 +8,26 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9b824e70-ed9a-490c-b777-8902a793fece
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4b05baf1f819a821da3496cc63c2b2980894efd7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b9a31fec93ec7fafc4d1565d63e4bc427ba4050e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347829"
 ---
 # <a name="hrgetgalfromemsmdbuid"></a>HrGetGALFromEmsmdbUID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回标识_pEmsmdbUID_的 Exchange 服务的全局通讯簿条目标识符。 应使用[MAPIFreeBuffer](mapifreebuffer.md)释放返回的项标识符。
+返回由_pEmsmdbUID_标识的 Exchange 服务的全局通讯簿的条目标识符。 应使用[MAPIFreeBuffer](mapifreebuffer.md)释放返回的条目标识符。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |abhelp.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |abhelp  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 HRESULT HrGetGALFromEmsmdbUID(
@@ -43,22 +43,22 @@ HRESULT HrGetGALFromEmsmdbUID(
 
  _pSess_
   
-> [in]登录 IMAPISession。 它不能为 NULL。
+> 实时登录的 IMAPISession。 它不能为 NULL。
     
  _pAddrBook_
   
-> [in]通讯簿用于打开的项标识符。 它不能为 NULL。
+> 实时用于打开条目标识符的通讯簿。 它不能为 NULL。
     
  _pEmsmdbUID_
   
-> [in]标识要检索的 Exchange 服务 GAL **emsmdbUID**指向的指针。 如果_pEmsmdbUID_为 NULL 或零 UID，此函数获取旧 GAL 的 Exchange 服务。 
+> 实时指向标识要检索的 Exchange 服务的 GAL 的**emsmdbUID**的指针。 如果_pEmsmdbUID_为 NULL 或 0 UID, 则此函数将获取 Exchange 服务的旧版 GAL。 
     
  _lpcbeid_
   
-> [输出]一个指向全局地址列表的项标识符的字节数。
+> 排除一个指针, 指向全局地址列表的条目标识符的字节数。
     
  _lppeid_
   
-> [输出]一个指向全局地址列表的项标识符。 应使用[MAPIFreeBuffer](mapifreebuffer.md)释放这。
+> 排除指向全局地址列表的条目标识符的指针。 应使用[MAPIFreeBuffer](mapifreebuffer.md)对此进行释放。
     
 

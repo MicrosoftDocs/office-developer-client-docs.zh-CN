@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 3d9bc643-332f-4c8e-83e6-ce9b15711945
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 59e9cf23aed2a389384318468c3853cd41c9ec1e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96da91acec741322e6c07c64555171d35f0f7e00
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342768"
 ---
 # <a name="mtsid"></a>MTSID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含 X.400 邮件传输系统 (MTS) 条目标识符。 
+包含 X. 400 邮件传输系统 (MTS) 条目标识符。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的宏：  <br/> |[CbMTSID](cbmtsid.md) [CbNewMTSID](cbnewmtsid.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关宏:  <br/> |[CbMTSID](cbmtsid.md)、 [CbNewMTSID](cbnewmtsid.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,7 +45,7 @@ typedef struct
 
  **cb**
   
-> 描述**abEntry**成员数组中的字节数。 
+> 数组中由**abEntry**成员描述的字节数。 
     
  **abEntry**
   
@@ -53,9 +53,9 @@ typedef struct
     
 ## <a name="remarks"></a>注解
 
-**MTSID**结构仅用于 X.400 映射的 MAPI 条目标识符。 对应于 MAPI [FLATENTRY](flatentry.md)结构。 
+**MTSID**结构仅用于 MAPI 条目标识符的 X. 400 映射。 它对应于 MAPI [FLATENTRY](flatentry.md)结构。 
   
-MTS 标识符具有与 MAPI 条目标识符或二进制属性值相同的格式。 MTS 标识符可以取消延迟的消息特别有用。 
+MTS 标识符的格式与 MAPI 条目标识符或二进制属性值相同。 MTS 标识符在取消延迟的邮件时尤其有用。 
   
 ## <a name="see-also"></a>另请参阅
 

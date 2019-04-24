@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f0b8b27eb65ef32f95d5529879dde2721e280e26
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349516"
 ---
 # <a name="create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject"></a>创建根据主题中的多个字词为邮件项分配类别的规则
 
@@ -31,7 +31,7 @@ ms.locfileid: "28706196"
 
 在下面的代码示例中，CreateTextAndCategoryRule 使用 CategoryExists 方法，检查用户邮箱项中是否有任何包含 **Categories** 集合中名称“Office”或“Outlook”的类别。 如果找不到任何类别，便会添加这些类别。 然后，此代码示例创建包含“Office”、“Outlook”和“2007”的字符串数组。 此数组表示要计算的条件。 然后，CreateTextAndCategoryRule 创建以下规则：使用 **TextRuleCondition** 对象的 **Text** 属性和 [RuleConditions](https://msdn.microsoft.com/library/bb610965\(v=office.15\)) 集合的 [BodyOrSubject](https://msdn.microsoft.com/library/bb612744\(v=office.15\)) 属性，检查主题中是否包含此数组中的任何条件，以分配类别。 如果满足条件，则会使用 [RuleActions](https://msdn.microsoft.com/library/bb623146\(v=office.15\)) 对象的 [AssignToCategory](https://msdn.microsoft.com/library/bb610113\(v=office.15\)) 方法将类别 Office 和 Outlook 分配给相应项目。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

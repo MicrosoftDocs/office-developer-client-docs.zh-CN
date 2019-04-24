@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e2e00af3-1fb3-4314-936a-f480674d3d83
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 921d7d8defbdae66bc48072d757f4f58b7d656f0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345414"
 ---
 # <a name="pidlidappointmentsubtype-canonical-property"></a>PidLidAppointmentSubType 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25385877"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定的事件是全天。
+指定事件是否为全天。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidApptSubType  <br/> |
-|属性进行设置：  <br/> |PSETID_Appointment  <br/> |
-|长 ID （盖）：  <br/> |0x00008215  <br/> |
+|属性集:  <br/> |PSETID_Appointment  <br/> |
+|长 ID (盖子):  <br/> |0x00008215  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性指定的事件是全天事件，指定的用户。 值为 TRUE 指示事件是全天事件，在这种情况下的开始时间和结束时间必须午夜以便持续时间为 24 小时的倍数，并为至少 24 个小时。 值为 FALSE 或不存在此属性指示该事件不是全天事件。 在客户端或服务器必须时用户碰巧创建 24 小时的事件，即使事件开始和结束午夜推断的值为 TRUE。
+此属性指定事件是否为由用户指定的全天事件。 如果值为 TRUE, 则表示事件为全天事件, 在这种情况下, 开始时间和结束时间必须为午夜, 以便持续时间为24小时的倍数, 且至少为24小时。 如果值为 FALSE 或缺少此属性, 则表示事件不是全天事件。 当用户创建一个24小时的事件时, 客户端或服务器不能将此值推断为 TRUE, 即使事件在午夜开始和结束时也不会如此。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

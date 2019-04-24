@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 13e80bdc-cb59-47a5-8de0-404e22f87f82
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 923864c625cb032c3b351bb999ff7cc782eae588
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f5298620239d1e42e4ba613c22a98f0cf6f7d457
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351369"
 ---
 # <a name="sccountnotifications"></a>ScCountNotifications
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-确定大小，以字节为单位的数组的事件通知，并验证与数组关联的内存。
+确定事件通知数组的大小 (以字节为单位), 并验证与该数组关联的内存。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 SCODE ScCountNotifications(
@@ -45,21 +45,21 @@ SCODE ScCountNotifications(
 
  _cntf_
   
-> [in][通知](notification.md)结构由_rgntf_参数指示在阵列中的计数。 
+> 实时由_rgntf_参数指示的数组中的[通知](notification.md)结构的计数。 
     
  _rgntf_
   
-> [in]指向其大小是确定**通知**结构的数组的指针。 
+> 实时指向要确定其大小的**通知**结构数组的指针。 
     
  _pcb_
   
-> [输出]指向的大小，以字节为单位的数组_rgntf_参数指向的可选指针。 如果为空，则**ScCountNotifications**验证通知的数组。 
+> 排除可选指针, 指向由_rgntf_参数指向的数组的大小 (以字节为单位)。 如果为 NULL, 则**ScCountNotifications**验证通知数组。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 已成功确定计数。
+> 已成功确定 Count。
     
 MAPI_E_INVALID_PARAMETER
   
@@ -67,6 +67,6 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>注解
 
-如果_pcb_参数中传递 NULL，则**ScCountNotifications**函数仅验证通知的数组，但没有计数完成;如果在_pcb_传递一个非空值，则**ScCountNotifications**确定数组的大小，并将存储原因_pcb_。 _Pcb_参数必须为足够大，使其包含整个数组。 
+如果在_pcb_参数中传递 NULL, 则**ScCountNotifications**函数仅验证通知数组, 但不会进行计数。如果在_pcb_中传递非 null 值, **ScCountNotifications**将确定数组的大小并存储原因_pcb_。 _pcb_参数的大小必须足以包含整个数组。 
   
 

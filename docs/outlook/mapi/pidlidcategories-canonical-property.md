@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6ad2aedc-405b-475e-ac76-7ecbbef28f73
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b2047f04f3f4a8d2b3e58e07a71e7e2463eff9cf
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344973"
 ---
 # <a name="pidlidcategories-canonical-property"></a>PidLidCategories 规范属性
 
@@ -25,37 +25,37 @@ ms.locfileid: "25386241"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定项目类别的列表。
+指定项的类别列表。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidCategories  <br/> |
-|属性进行设置：  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|长 ID （盖）：  <br/> |0x00002328  <br/> |
+|属性集:  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|长 ID (盖子):  <br/> |0x00002328  <br/> |
 |数据类型：  <br/> |PT_MV_UNICODE  <br/> |
-|区域：  <br/> |Common  <br/> |
+|区域：  <br/> |常见  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-若要生成一个关键字标头字段，客户端必须设置为所需的值的此属性的值。 此属性包含多个字符串;每个类别应映射到单个关键字。
+若要生成关键字标头字段, 客户端必须将此属性的值设置为所需的值。 此属性包含多个字符串;应将每个类别映射到单个关键字。
   
-多用途 Internet 邮件扩展 (MIME) 编写器应将此属性的每个子值复制到单独关键字的关键字标头字段中，使用逗号分隔 (U + 002 C) 和空间 (U + 0020) 分隔每个关键字。 MIME 作者可能会丢失而不是将其复制到关键字标头字段中，为了避免冲突之间的不同组织中的类别的不同设置此属性。
+多用途 Internet 邮件扩展 (MIME) 编写器应将此属性的每个子值复制到关键字标头字段中的单独关键字中, 并用逗号 (u + 002C) 和空格 (u + 0020) 分隔每个关键字。 MIME 编写器可能会删除该属性, 而不是将其复制到关键字标头字段, 以避免不同组织中不同类别集之间发生冲突。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> 从 Internet 标准电子邮件约定转换为消息对象。
+> 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

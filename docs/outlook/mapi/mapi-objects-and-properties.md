@@ -7,49 +7,49 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0aebf536-dcfb-406d-86ac-65db98c78139
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7ba58cc87b0eefe6c6ff70994d887d7f83e713b3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 7fef84b7519c7a9d6373198283e903fba4fd0780
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345806"
 ---
 # <a name="mapi-objects-and-properties"></a>MAPI 对象和属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-支持许多不同类型的对象的一些属性。 使用多个对象的属性的示例，以下属性：
+许多不同类型的对象都支持某些属性。 以下属性是多个对象使用的属性示例:
   
 - **PR_ENTRYID**([PidTagEntryId](pidtagentryid-canonical-property.md)) 是用于打开对象的二进制标识符。
     
-- **PR_OBJECT_TYPE**([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 是对象的用于标识类型的常量。
+- **PR_OBJECT_TYPE**([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 是一个常量, 用于标识对象的类型。
     
-- **PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 是一个字符串，用于描述用户对象。
+- **PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 是用于向用户描述对象的字符字符串。
     
-其他属性对单个对象的类型有意义。 适用于一种类型的对象的属性的示例，以下属性：
+其他属性对一种类型的对象很有意义。 以下属性是应用于一种类型的对象的属性示例:
   
-- **PR_MESSAGE_CLASS**([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 是邮件的一个字符串，用于描述的类型。
+- **PR_MESSAGE_CLASS**([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 是用于描述邮件类型的字符字符串。
     
-- **PR_ROWID**([PidTagRowid](pidtagrowid-canonical-property.md)) 是整数，用于标识表中的行。
+- **PR_ROWID**([PidTagRowid](pidtagrowid-canonical-property.md)) 是用于标识表中的行的整数。
     
-- **PR_ATTACH_SIZE**([PidTagAttachSize](pidtagattachsize-canonical-property.md)) 是用于存储附件中的字节数的整数。
+- **PR_ATTACH_SIZE**([PidTagAttachSize](pidtagattachsize-canonical-property.md)) 是一个整数, 用于存储附件中的字节数。
     
-仍其他属性是仅适用于单个中特定状态对象的类型。 此类型的属性通常是邮件属性。 首次创建一条消息，及其属性集时非常小。 它是由客户端发送给邮件系统通过收件人，增加属性所需描述的消息的数目。 其中一些新增了属性显示仅在邮件上是时其他人显示仅对邮件发送它时被传递。 消息也有与他们所属的类关联的属性。 报告消息，例如，具有不受支持的其他类，如说明消息的消息的属性。 
+仍有一些其他属性仅适用于特定状态中的一种类型的对象。 此类型的属性通常是邮件属性。 首次创建邮件时, 它的一组属性非常小。 当客户端通过邮件系统发送给收件人时, 描述邮件所需的属性数会增加。 某些添加的属性仅在邮件传递过程中显示在邮件中, 而其他属性仅在邮件发送时显示在邮件上。 邮件还具有与它们所属的类关联的属性。 例如, 报告邮件具有其他类的邮件不支持的属性, 如注释消息。 
   
-每个对象都具有一些必需的属性和可能或可能没有其他可选属性。 必须先对象可以使用其[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法成功保存在对象存在的属性所需的属性。 客户端或使用对象的服务提供商可以取决于所需的属性的可用性**SaveChanges**调用后。 即，它们可以确保将成功对对象的[IMAPIProp::GetProps](imapiprop-getprops.md)方法或[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法的调用，以检索这些属性。 
+每个对象都有一些必需的属性, 并且可能有也可能不包含其他可选属性。 必需属性是对象在可以使用其[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法成功保存之前必须存在于对象上的属性。 使用对象的客户端或服务提供程序可以依赖于**SaveChanges**调用之后所需属性的可用性。 也就是说, 它们可以确保对对象的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法或[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法的调用, 以检索这些属性将会成功。 
   
-可选属性是，具体取决于对象的实施，也可能不支持由对象的属性。 使用对象的客户端或服务提供程序无法预期可选属性，可通过**GetProps**或**OpenProperty**方法并设置为有效的值。 
+可选属性是一些属性, 取决于对象的实施者, 对象可能支持也可能不支持这些属性。 使用该对象的客户端或服务提供程序不能预期可通过**GetProps**或**OpenProperty**方法使用的可选属性并将其设置为有效的值。 
   
-列表或在此属性的引用，请参阅[MAPI 属性](mapi-properties.md)。 属于邮件的每个属性的说明存储和对象的标准接口的讨论中找不到地址簿对象。 例如，文件夹属性将讨论与**IMAPIFolder**并且与**IMailUser**讨论消息的用户属性。 与**IMessage**和[消息属性概述 （英文）](message-properties-overview.md)中描述了消息属性，包括报表消息属性。 相应的[MAPI 表](mapi-tables.md)主题描述了属于每个表的不同类型的属性。 例如，层次结构表属性详见[层次结构表](hierarchy-tables.md)。 在[选择窗体的属性设置](choosing-a-form-s-property-set.md)描述属于窗体服务器的属性。
+有关此引用中的列表或属性, 请参阅[MAPI 属性](mapi-properties.md)。 有关每个邮件存储和通讯簿对象的属性的说明, 可参阅对象的标准界面的讨论。 例如, **IMAPIFolder**和消息用户属性与**IMailUser**讨论的文件夹属性一起讨论。 邮件属性 (包括报告邮件属性) 在**IMessage**和[邮件属性概述](message-properties-overview.md)中进行了介绍。 在相应的[MAPI 表](mapi-tables.md)主题中介绍了属于每种不同类型的表的属性。 例如, 层次结构表中介绍了层次[](hierarchy-tables.md)结构表属性。 属于表单服务器的属性在[选择窗体的属性集](choosing-a-form-s-property-set.md)中进行描述。
   
-当客户端或服务提供程序调用对象的**GetProps**方法来检索多个其属性，这些属性是不可用**GetProps**返回警告 MAPI_W_ERRORS_RETURNED。 呼叫被视为是成功，因为返回的一些属性。 不可用的客户端或服务提供程序调用**OpenProperty**和目标属性时，该方法将失败错误 MAPI_E_NOT_FOUND。 请务必选中，然后再尝试使用它返回请求的属性。 
+当客户端或服务提供程序调用对象的**GetProps**方法以检索它的多个属性, 并且其中一个属性不可用时, **GetProps**将返回警告 MAPI_W_ERRORS_RETURNED。 由于返回了一些属性, 因此该调用被认为是成功的。 当客户端或服务提供程序调用**OpenProperty**且 target 属性不可用时, 该方法将失败, 并出现错误 MAPI_E_NOT_FOUND。 在尝试使用请求的属性之前, 务必先检查该属性是否返回。 
   
-根据该对象，提供了实现和属性，服务提供商属性可以具有读/写或只读权限。 读/写权限允许客户端或服务提供商使用的属性来更改其值;只读权限允许仅服务提供商拥有对象进行更改。 
+根据对象、提供实现的服务提供程序和属性, 属性可以具有读/写权限或只读权限。 读/写权限允许客户端或服务提供程序使用属性更改其值;只读权限仅允许拥有该对象的服务提供程序进行更改。 
   
-若要找出完全哪些属性当前设置的对象，请调用[IMAPIProp::GetPropList](imapiprop-getproplist.md)。 **GetPropList**方法，可以找出了之前尝试打开可能不存在的属性进行的呼叫者。 因为没有任何标准的特定类型的所有对象都支持的属性集，所以不可能猜测对象支持某个特定的属性。 调用**GetPropList**消除了猜测工作。 
+若要准确了解当前为对象设置的属性, 请调用[IMAPIProp:: GetPropList](imapiprop-getproplist.md)。 使用**GetPropList**方法, 调用方可以找出在尝试打开可能不存在的属性之前可用的内容。 由于不存在特定类型的所有对象都支持的标准属性集, 因此无法猜测对象是否支持特定属性。 调用**GetPropList**可消除猜测工作。 
   
 ## <a name="see-also"></a>另请参阅
 

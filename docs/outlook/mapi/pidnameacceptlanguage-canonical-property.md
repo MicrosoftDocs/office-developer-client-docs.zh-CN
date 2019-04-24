@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4b202bc1-f718-446a-950f-634ffee47baf
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 855610c43cfaa64fa69e6987743b137b188d84a4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387242"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360940"
 ---
 # <a name="pidnameacceptlanguage-canonical-property"></a>PidNameAcceptLanguage 规范属性
 
@@ -29,31 +29,31 @@ ms.locfileid: "25387242"
   
 |||
 |:-----|:-----|
-|友好名称：  <br/> |AcceptLanguage  <br/> |
-|属性进行设置：  <br/> |PS_INTERNET_HEADERS  <br/> |
-|属性名称：  <br/> |接受语言  <br/> |
+|友好名称:  <br/> |AcceptLanguage  <br/> |
+|属性集:  <br/> |PS_INTERNET_HEADERS  <br/> |
+|属性名称:  <br/> |Accept-Language  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-若要设置此属性的值，多用途 Internet 邮件扩展 (MIME) 客户端应编写将接受语言标头字段与所需的值。 MIME 客户端可能会改为编写 X 接受语言标头字段。 MIME 读者应将任一标头字段的值复制到此属性的值。 如果存在两个标头字段时，MIME 读者应使用接受语言标头字段。
+若要设置此属性的值, 多用途 Internet 邮件扩展 (MIME) 客户端应使用所需的值来编写接受语言标头字段。 MIME 客户端可以改为写入 X-接受语言的标头字段。 MIME 阅读器应将任一头字段的值复制到该属性的值。 如果同时存在这两个标头字段, 则 MIME 阅读器应使用 Accept a Language 标头字段。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> 从 Internet 标准电子邮件约定转换为消息对象。
+> 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

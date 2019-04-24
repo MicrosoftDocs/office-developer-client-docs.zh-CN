@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: 1dd460e6-ce95-4fef-bb5e-8d778c9716d5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d5cb43bfa3acd912e397644657223c177d6afb30
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7f9873fe8e1825c68d4540cc1d093171e9f95727
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348214"
 ---
 # <a name="hrallocadvisesink"></a>HrAllocAdviseSink
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建 advise 接收器对象，由指定的呼叫的实现，回调函数以触发的事件通知的上下文。 
+在给定调用实现指定的上下文和事件通知触发的回调函数的情况下, 创建一个建议接收器对象。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 STDAPI HrAllocAdviseSink(
@@ -45,15 +45,15 @@ STDAPI HrAllocAdviseSink(
 
  _lpfnCallback_
   
-> [in]指向[NOTIFCALLBACK](notifcallback.md)原型的 MAPI 调用的新创建的通知事件发生时所基于的回调函数建议接收器。 
+> 实时指向基于[NOTIFCALLBACK](notifcallback.md)原型的回调函数的指针, 新创建的通知接收器的通知事件发生时, MAPI 将调用此函数。 
     
  _lpvContext_
   
-> [in]MAPI 调用它时，呼叫者数据的指针传递给回调函数。 呼叫者数据可以表示为客户端或提供程序的有效位倍数的地址。 通常情况下，c + + 代码_lpvContext_参数为地址的对象表示的指针。 
+> 实时指向在 MAPI 调用回调函数时传递给该函数的调用方数据的指针。 呼叫者数据可以表示对客户端或提供程序的重要性的地址。 通常, 对于 c + + 代码, _lpvContext_参数表示指向对象地址的指针。 
     
  _lppAdviseSink_
   
-> [输出]指向 advise 接收器对象的指针的指针。
+> 排除指向建议接收器对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -61,11 +61,11 @@ STDAPI HrAllocAdviseSink(
   
 ## <a name="remarks"></a>注解
 
-若要使用**HrAllocAdviseSink**函数，客户端应用程序或服务提供商创建一个对象，以接收通知，创建基于[NOTIFCALLBACK](notifcallback.md)函数原型对象，该对象与对应的通知回调函数和一个指针传递给作为_lpvContext_值的**HrAllocAdviseSink**函数中的对象。 这样执行通知;并作为通知过程的一部分，MAPI 调用的回调函数与作为上下文的对象指针。 
+若要使用**HrAllocAdviseSink**函数, 客户端应用程序或服务提供程序将创建一个用于接收通知的对象, 基于与该对象一起使用的[NOTIFCALLBACK](notifcallback.md)函数原型创建一个通知回调函数。并将指向**HrAllocAdviseSink**函数中的对象的指针作为_lpvContext_值传递。 执行此操作将执行通知;作为通知过程的一部分, MAPI 将调用回调函数, 并将对象指针作为上下文。 
   
-MAPI 异步实现其通知引擎。 在 c + +，通知回调可以是对象的方法。 如果生成通知的对象不存在，客户端或提供程序请求通知必须保留的对象的对象的单独引用计数建议接收器。 
+MAPI 以异步方式实现其通知引擎。 在 c + + 中, 通知回调可以是对象方法。 如果生成通知的对象不存在, 则请求通知的客户端或提供程序必须为该对象的通知接收器保留一个单独的引用计数。 
   
 > [!CAUTION]
-> 应谨慎; 使用**HrAllocAdviseSink**它是为客户端创建自己的 advise 接收器更安全。 
+> 应谨慎使用**HrAllocAdviseSink** ;客户端更安全地创建自己的建议接收器。 
   
 

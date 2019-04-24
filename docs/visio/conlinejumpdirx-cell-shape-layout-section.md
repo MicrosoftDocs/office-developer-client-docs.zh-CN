@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f0671835-8d48-907a-eca6-43953658f800
 description: 确定出现在形状的水平动态连接线上的跨线的方向。
-ms.openlocfilehash: 396830d0da22c15f036f95808b3a94c33e9dc5bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 22b9366b750a85a76498b83880aac2b9b974e1ac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342747"
 ---
-# <a name="conlinejumpdirx-cell-shape-layout-section"></a>ConLineJumpDirX 单元格（“Shape Layout”部分）
+# <a name="conlinejumpdirx-cell-shape-layout-section"></a>ConLineJumpDirX 单元格（“Shape Layout”内容）
 
 确定出现在形状的水平动态连接线上的跨线的方向。
   
@@ -24,11 +24,11 @@ ms.locfileid: "19779950"
 |:-----|:-----|:-----|
 | 0  <br/> | 页面默认值  <br/> |**visLOJumpDirXDefault** <br/> |
 | 1  <br/> | 向上  <br/> |**visLOJumpDirXUp** <br/> |
-| 2  <br/> | 向下  <br/> |**visLOJumpDirXDown** <br/> |
+| 双面  <br/> | 向下  <br/> |**visLOJumpDirXDown** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-设置默认水平方向*所有*连接器的跨线的页上，使用 Page Layout 内容中的 PageLineJumpDirX 单元格。 
+若要设置页面上*所有*连接线跨线的默认水平方向, 请使用 "页面布局" 部分中的 "PageLineJumpDirX" 单元格。 
   
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ConLineJumpDirX 单元格的引用，请使用： 
   

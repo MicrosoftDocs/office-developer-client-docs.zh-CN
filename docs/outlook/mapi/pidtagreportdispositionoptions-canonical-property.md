@@ -10,45 +10,45 @@ api_type:
 - COM
 ms.assetid: bf37786a-b6bd-48a6-a2ec-6a739a8ba0d7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cefb7948071b37a5a91bb87cb96a29c23ba5f3cd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12cc9ad950b7173fe95cf44e5e179710ee98e9fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346345"
 ---
 # <a name="pidtagreportdispositionoptions-canonical-property"></a>PidTagReportDispositionOptions 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-映射到请求收款的消息的 MIME 处置选项标题。 此属性的值应为空字符串。
+映射到请求回执的邮件的 MIME 处置选项标头。 此属性的值应为空字符串。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_REPORT_DISPOSITION_OPTIONS，PR_REPORT_DISPOSITION_OPTIONS_A，PR_REPORT_DISPOSITION_OPTIONS_W  <br/> |
-|标识符：  <br/> |0x0085  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_REPORT_DISPOSITION_OPTIONS、PR_REPORT_DISPOSITION_OPTIONS_A、PR_REPORT_DISPOSITION_OPTIONS_W  <br/> |
+|标识符:  <br/> |0x0085  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

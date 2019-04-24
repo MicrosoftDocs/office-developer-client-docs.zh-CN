@@ -9,53 +9,53 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6788bc96-cc86-5f21-781f-67274e7f605a
 description: 将数值向 0（零）舍入为下一个整数或 multiple 的下一个实例。
-ms.openlocfilehash: f66b993e3ab48fd1abc685b7db5889d5bf24fbfc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a16a77a990180f34dd7a5706c24ec3232438467
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346177"
 ---
 # <a name="floor-function"></a>FLOOR 函数
 
-舍入沿靠近 0 （零） 到下一个整数，或_多个_的下一个实例。
+将数字向 0 (零) 舍入为下一个整数或下一个实例的_倍数_。
   
 ## <a name="syntax"></a>语法
 
-FLOOR (* **数量** *，* **多个** *) 
+基底 (* **数字** *、* **多** *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |必需  <br/> |**编号** <br/> |要舍入的数值。  <br/> |
-| _多个_ <br/> |必需  <br/> |**编号** <br/> |要舍入到的倍数。  <br/> |
+| _number_ <br/> |必需  <br/> |**Number** <br/> |要舍入的数字。  <br/> |
+| _多位_ <br/> |必需  <br/> |**Number** <br/> |要舍入到的倍数。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-Number
+帐号
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果未指定_multiple_ ，则数字将沿靠近 0 到下一个整数舍入。 
+如果未指定_多个_, 则数字将向0舍入到下一个整数。 
   
- _号码_和_多个_必须具有相同的迹象或 #NUM ！ 将返回错误。 如果_号码_或_多个_不能转换为一个值，#VALUE ！ 将返回错误。 如果_号码_或_多个_为 0，则结果为 0。 
+ _数字_和_多个_必须具有相同的符号或 #NUM! 错误。 如果_number_或_倍数_无法转换为值, #VALUE! 错误。 如果有一个_数_或_多个_值为 0, 则结果为0。 
   
 ## <a name="example-1"></a>示例 1
 
-FLOOR(3.7)
+基底 (3.7)
   
 返回 3。
   
 ## <a name="example-2"></a>示例 2
 
-FLOOR(-3.7)
+基底 (-3.7)
   
 返回 -3。
   
 ## <a name="example-3"></a>示例 3
 
-FLOOR(3.7, 0.5)
+基底 (3.7, 0.5)
   
 返回 3.5。
   

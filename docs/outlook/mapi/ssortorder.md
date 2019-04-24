@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: fe181b9a-5903-4cc0-bcd5-2061b440b5b1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 331dc05b30390bb803d186f157e0fe9edb779ab0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f9d38c90fa5795d34f78c61ce0faa5f76d8f740d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344546"
 ---
 # <a name="ssortorder"></a>SSortOrder
  
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-定义如何对表，用于排序的方向排序项，以及哪些列的行进行排序。 
+定义如何对表的行、要用作排序关键字的列以及排序的方向进行排序。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _SSortOrder
@@ -42,27 +42,27 @@ typedef struct _SSortOrder
 
 **ulPropTag**
   
-> 属性标识键的或对分类进行排序，类别列的排序标记。
+> 用于标识排序关键字的属性标记, 对于分类的排序, 则为分类列。
     
 **ulOrder**
   
-> 在其中数据的排序顺序。 可能值如下所示：
+> 对数据进行排序所依据的顺序。 可能的值如下所示:
     
-  - TABLE_SORT_ASCEND： 表格应以升序排序。
+  - TABLE_SORT_ASCEND: 应按升序对表进行排序。
       
-  - TABLE_SORT_COMBINE： 排序操作应创建结合使用，标识为排序键列**ulPropTag**成员中与在以前的**SSortOrder**结构中指定的排序键列的属性的类别。 
+  - TABLE_SORT_COMBINE: SORT 操作应创建一个类别, 该类别将**ulPropTag**成员中标识为 "排序关键字" 列的属性与上一**SSortOrder**结构中指定的 "排序" 关键字列组合在一起。 
       
-    正在**SSortOrder**结构用作[SSortOrderSet](ssortorderset.md)结构中的条目，以指定多个排序顺序对分类进行排序时，可以仅使用 TABLE_SORT_COMBINE。 TABLE_SORT_COMBINE 不能使用**SSortOrderSet**结构中的第一个**SSortOrder**结构中。 
+    仅当**SSortOrder**结构用作[SSortOrderSet](ssortorderset.md)结构中的条目以指定已分类排序的多个排序次序时, 才能使用 TABLE_SORT_COMBINE。 TABLE_SORT_COMBINE 不能在**SSortOrderSet**结构中的第一个**SSortOrder**结构中使用。 
       
-  - TABLE_SORT_DESCEND： 表格应按降序排序。
+  - TABLE_SORT_DESCEND: 应按降序顺序对表进行排序。
       
-  - TABLE_SORT_CATEG_MAX： 表格应根据**SSortOrderSet**结构中的上一排序次序由指定的类别中的数据行的**ulPropTag**成员的最大值排序。 
+  - TABLE_SORT_CATEG_MAX: 表应按由**SSortOrderSet**结构中的前一排序**** 顺序指定的类别中的数据行的最大值进行排序。 
       
-  - TABLE_SORT_CATEG_MIN： 表格应在以前的排序顺序在**SSortOrderSet**结构中所指定的类别中的数据行的**ulPropTag**成员的最小值排序。 
+  - TABLE_SORT_CATEG_MIN: 应按照在**SSortOrderSet**结构中的上一排序次序**** 指定的类别中的数据行的最小值对表进行排序。 
     
 ## <a name="remarks"></a>注解
 
-**SSortOrder**结构用于说明如何执行标准排序操作或分类的排序操作。 **SSortOrder**结构通常组合成**SSortOrderSet**结构来描述多个排序关键字和方向。 使用以下函数和接口方法中使用**SSortOrderSet**结构： 
+**SSortOrder**结构用于描述如何执行标准排序操作或已分类的排序操作。 **SSortOrder**结构通常组合到**SSortOrderSet**结构中, 以描述多个排序键和方向。 在以下函数和接口方法中使用**SSortOrderSet**结构: 
   
 - [ITableData::HrGetView](itabledata-hrgetview.md)
     
@@ -76,18 +76,18 @@ typedef struct _SSortOrder
     
 - [HrQueryAllRows](hrqueryallrows.md)
     
-允许表中的列的可用作排序关键字范围取决于提供程序。 当前的列集一部分的列始终可以用作排序关键字。 但是，每个提供商决定是否可以使用当前列中不包含的可用列定义排序关键字。 可用栏是设置 TBL_ALL_COLUMNS 标志时从[IMAPITable::QueryColumns](imapitable-querycolumns.md)返回的列。 
+可用作排序关键字的表中允许的列的范围取决于提供程序。 作为当前列集一部分的列始终可用作排序关键字。 但是, 每个提供程序确定是否可以使用不在当前列集中的可用列来定义排序键。 "可用列" 是设置 TBL_ALL_COLUMNS 标志时从[IMAPITable:: QueryColumns](imapitable-querycolumns.md)返回的列。 
   
-**UlOrder**成员方向的顺序和分类信息，例如，指示按对话 ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md))，即交谈线程，这是一系列邮件和答复。 可以按升序或降序顺序与所有 NULL 条目放置在上次对行进行排序。 
+**ulOrder**成员指示方向性订单和分类信息, 例如, 通过对话 ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)), 即会话线程, 这是一系列邮件和回复。 可以按升序或降序顺序对行进行排序, 并将所有 NULL 项放置在最后。 
   
-TABLE_SORT_COMBINE 值指示**ulPropTag**中指定的列应结合以前的类别列以形成复合类别。 即，而不是分类的单个列的唯一值，TABLE_SORT_COMBINE 允许分类的列的组合唯一值。 例如，无法对来自特定主题上特定发件人邮件进行分组定义单个类别。 将值设置为 TABLE_SORT_COMBINE 减少显示的类别行数。 
+TABLE_SORT_COMBINE 值指示在**ulPropTag**中指定的列应与上一个 category 列组合, 以构成一个复合类别。 也就是说, TABLE_SORT_COMBINE 允许对列组合的唯一值进行分类, 而不是对单个列的唯一值进行分类。 例如, 可以将单个类别定义为对来自特定主题的特定发件人收到的邮件进行分组。 将值设置为 TABLE_SORT_COMBINE 可减少显示的类别行的数量。 
   
-所有表实现不通用支持对多值列进行排序。 如果受支持，应用**ulPropTag**成员中使用属性标记为 MVI_PROP 宏来标识为多值列的排序关键字 MV_FLAG。 对多值列排序取决于使用的单个值。 
+并非所有表实现都普遍支持对多值列进行排序。 如果支持, 请使用 MVI_PROP 宏将 MV_FLAG 应用于**ulPropTag**成员中的属性标记, 以将排序关键字标识为多值列。 对多值列进行排序基于使用各个值。 
   
 > [!IMPORTANT]
-> TABLE_SORT_CATEG_MAX TABLE_SORT_CATEG_MIN 可能不定义和可下载头文件中的**ulOrder**成员值后，在这种情况下您可以将其添加到代码中使用以下值： >`#define TABLE_SORT_CATEG_MAX ((ULONG) 0x00000004)`>  `#define TABLE_SORT_CATEG_MIN ((ULONG) 0x00000008)`
+> **ulOrder**成员值 TABLE_SORT_CATEG_MAX 和 TABLE_SORT_CATEG_MIN 可能未在您当前拥有的可下载头文件中定义, 在这种情况下, 您可以使用以下值将其添加到代码中: >`#define TABLE_SORT_CATEG_MAX ((ULONG) 0x00000004)`>  `#define TABLE_SORT_CATEG_MIN ((ULONG) 0x00000008)`
   
-有关 standard 和分类排序的详细信息，请参阅[排序和分类](sorting-and-categorization.md)。 
+有关标准排序和已分类排序的详细信息, 请参阅[排序和分类](sorting-and-categorization.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

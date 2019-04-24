@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: c6cb5a86-0105-4743-9f8e-b832e898da52
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7635dd24f4fbc5128d3d96556802ab2e3fe56e35
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a0e18ef529b65317abd9446408ed73638c792809
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346604"
 ---
 # <a name="pidtagimplicitconversionprohibited-canonical-property"></a>PidTagImplicitConversionProhibited 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件传输代理 (MTA) 禁止发出隐式消息文本转换，包含 TRUE。
+如果禁止邮件传输代理 (MTA) 进行隐式邮件文本转换, 则该参数为 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_IMPLICIT_CONVERSION_PROHIBITED  <br/> |
-|标识符：  <br/> |0x0016  <br/> |
+|标识符:  <br/> |0x0016  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |Server  <br/> |
+|区域：  <br/> |服务器  <br/> |
    
 ## <a name="remarks"></a>注解
 
-如果此属性为 TRUE，则在邮件系统必须不执行任何内容转换对邮件除非明确请求**PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)) 属性分别为每个收件人。
+如果此属性为 TRUE, 则邮件系统不得对邮件执行任何内容转换, 除非使用**PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)) 属性在每个收件人的基础上显式请求。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

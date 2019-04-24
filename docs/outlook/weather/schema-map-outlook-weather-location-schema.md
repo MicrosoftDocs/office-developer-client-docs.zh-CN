@@ -1,5 +1,5 @@
 ---
-title: 架构映射 （Outlook 天气位置架构）
+title: 架构映射 (Outlook 天气位置架构)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
-description: 本主题演示 Outlook 天气位置 XML 架构的架构定义。
+description: 本主题显示 Outlook 天气位置 XML 架构的架构定义。
 ms.openlocfilehash: fa14fd05a26bd89820c18e8d6523d80e60616f0f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355137"
 ---
-# <a name="schema-map-outlook-weather-location-schema"></a>架构映射 （Outlook 天气位置架构）
+# <a name="schema-map-outlook-weather-location-schema"></a>架构映射 (Outlook 天气位置架构)
 
-本主题演示 Outlook 天气位置 XML 架构的架构定义。
+本主题显示 Outlook 天气位置 XML 架构的架构定义。
   
 ```XML
 <?xml version="1.0" ?>

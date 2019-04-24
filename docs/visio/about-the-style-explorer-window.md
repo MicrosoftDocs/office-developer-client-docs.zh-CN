@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bfdc1a63-c355-c759-bdfa-ce27e3ad10e7
 description: 借助“样式资源管理器”窗口，形状开发人员可以迅速判断出哪些形状单元格继承了给定样式，或者给定单元格继承了其值的样式。
-ms.openlocfilehash: 25af478b8ac4e35c7ae0b88bf69aad21d679da17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55800b692443bae3720b433e5a6178f2709d3675
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345344"
 ---
-# <a name="about-the-style-explorer-window"></a>关于样式资源管理器窗口
+# <a name="about-the-style-explorer-window"></a>关于“样式资源管理器”窗口
 
 借助 **“样式资源管理器”** 窗口，形状开发人员可以迅速判断出哪些形状单元格继承了给定样式，或者给定单元格继承了其值的样式。 
   
@@ -24,14 +24,14 @@ ms.locfileid: "19779602"
   
 与将格式属性分别应用于形状不同，从样式获取格式的形状不仅可以确保一致性，还能在创建、移动、缩放或旋转时更好地进行响应。 
   
-**样式资源管理器**窗口提供您需要更好地理解对形状所作的更改的含义的信息。 
+"**样式资源管理器**" 窗口提供了您需要了解的信息, 以便更好地了解对形状所做更改的影响。 
   
 > [!NOTE]
 > ShapeSheet 窗口中黑色的单元格值是继承而来；而蓝色的值是局部的。 
   
 ## <a name="using-the-style-explorer-window"></a>使用“样式资源管理器”窗口
 
-若要查看**样式资源管理器**窗口中的，在 ShapeSheet 窗口处于活动状态，在**ShapeSheet 工具设计**选项卡上**视图**组中，选择**样式资源管理器**。 **样式资源管理器**窗口停靠在 ShapeSheet 窗口中默认情况下显示，但可停靠锚定的窗口浮动，或与其他可用锚定 ShapeSheet 窗口，例如，**公式跟踪**窗口合并。 在**样式资源管理器**窗口中包含显示定义当前绘图中的所有样式的树视图。 
+若要查看 "**样式资源管理器**" 窗口, 在 shapesheet 窗口处于活动状态时, 在 " **shapesheet 工具设计**" 选项卡上的 "**视图**" 组中选择 "**样式资源管理器**" 默认情况下, "**样式资源管理器**" 窗口显示为停靠在 ShapeSheet 窗口中, 但它是一个锚定窗口, 可停靠、浮动或与其他可用的定位 ShapeSheet 窗口合并, 例如, "**公式跟踪**" 窗口。 **“样式资源管理器”** 窗口显示当前绘图中定义的所有样式的树视图。 
   
 > [!NOTE]
 > 要获取关于某种样式的信息，您可以在 **“样式资源管理器”** 窗口中右击该样式，以查看其 ShapeSheet。 

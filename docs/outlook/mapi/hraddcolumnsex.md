@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 566a9d23c46ec717eb5eed711fff801b15d49fc1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9ca34fb2cce6e86c42e8e9525cd213f1008997d6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348368"
 ---
 # <a name="hraddcolumnsex"></a>HrAddColumnsEx
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-添加或移到现有表的起点的列。 
+将列添加或移动到现有表的开头。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 HRESULT HrAddColumnsEx(
@@ -48,47 +48,47 @@ HRESULT HrAddColumnsEx(
 
  _lptbl_
   
-> [in]指向受影响的 MAPI 表。 
+> 实时指向受影响的 MAPI 表的指针。 
     
  _lpproptagColumnsNew_
   
-> [in]指向[SPropTagArray](sproptagarray.md)结构，其中包含要添加或移至表格的开头的属性的属性标记的数组。 
+> 实时指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含要添加或移动到表开头的属性的属性标记数组。 
     
  _lpAllocateBuffer_
   
-> [in]指向[MAPIAllocateBuffer](mapiallocatebuffer.md)函数，以用于分配内存。 
+> 实时指向用于分配内存的[MAPIAllocateBuffer](mapiallocatebuffer.md)函数的指针。 
     
  _lpFreeBuffer_
   
-> [in]指向[MAPIFreeBuffer](mapifreebuffer.md)函数，以用于释放内存。 
+> 实时指向用于释放内存的[MAPIFreeBuffer](mapifreebuffer.md)函数的指针。 
     
  _lpfnFilterColumns_
   
-> [in]指向提供呼叫者的回调函数的指针。 如果_lpfnFilterColumns_参数设置为 NULL，则进行不回拨。 
+> 实时指向由调用方提供的回调函数的指针。 如果将_lpfnFilterColumns_参数设置为 NULL, 则不会进行任何回调。 
     
  _ptaga_
   
-> [in]指向包含属性标记之前添加或移至开头属性表中已存在数组[SPropTagArray](sproptagarray.md)结构。 **HrAddColumnsEx**传递给回调函数的参数为此指针指向_lpfnFilterColumns_。
+> 实时指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含在添加属性或将属性移到开头之前表中已存在的属性标记的数组。 **HrAddColumnsEx**将此指针作为参数传递给由_lpfnFilterColumns_指向的回调函数。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功，并指定的列已移动或添加。
+> 调用成功, 并已移动或添加指定的列。
     
 ## <a name="remarks"></a>注解
 
-传递给**HrAddColumnsEx**使用_lpproptagColumnsNew_参数的属性将成为公开上后续调用[IMAPITable::QueryRows](imapitable-queryrows.md)方法的第一个属性。 前面的表的_lpproptagColumnsNew_参数中未指定任何属性公开后的添加和移动的所有属性。 
+使用_lpproptagColumnsNew_参数传递给**HrAddColumnsEx**的属性成为对[IMAPITable:: QueryRows](imapitable-queryrows.md)方法的后续调用中公开的第一个属性。 在表中先前未在_lpproptagColumnsNew_参数中指定的任何属性都将在所有添加和移动的属性之后公开。 
   
-如果调用**QueryRows**时未定义任何表属性，也会返回与属性类型 PT_NULL 属性标识符 PROP_ID_NULL。 
+如果在调用**QueryRows**时未定义任何表属性, 则将使用属性类型 PT_NULL 和属性标识符 PROP_ID_NULL 返回它们。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-**HrAddColumnsEx**函数允许呼叫者提供了一个回调函数来筛选表中，例如将字符串转换为 PT_STRING8 属性类型 PT_UNICODE 中已存在的列。 **HrAddColumnsEx**将指针传递到以前的现有列将作为参数设置为的回调函数中。 回调函数可以更改属性标记数组中的数据，但不能添加新的标签。 
+**HrAddColumnsEx**函数允许调用方提供一个回调函数, 以筛选表中已存在的列, 例如, 将字符串从属性类型 PT_UNICODE 转换为 PT_STRING8。 **HrAddColumnsEx**将一个指针传递给之前的现有列, 并将其设置为回调函数的参数。 回调函数可以更改属性标记数组中的数据, 但不能添加新标记。 
   
- 如果一个提供，然后添加或移动指定的列，并且最后调用[IMAPITable::SetColumns](imapitable-setcolumns.md)， **HrAddColumnsEx**首先调用的回调函数。 
+ **HrAddColumnsEx**首先调用回调函数 (如果提供了一个), 然后添加或移动指定的列, 最后调用[IMAPITable:: SetColumns](imapitable-setcolumns.md)。 
   
-_LpAllocateBuffer_和_lpFreeBuffer_输入的参数分别指向[MAPIAllocateBuffer](mapiallocatebuffer.md)和[MAPIFreeBuffer](mapifreebuffer.md)函数。 传递给**HrAddColumnsEx**的指针的确切值取决于呼叫者是否位于客户端应用程序或服务提供商。 客户端将指针传递到具有指定名称的 MAPI 功能。 服务提供商将传递它在其初始化呼叫中收到或通过调用[IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md)方法检索的指针。 
+_lpAllocateBuffer_和_lpFreeBuffer_输入参数分别指向[MAPIAllocateBuffer](mapiallocatebuffer.md)和[MAPIFreeBuffer](mapifreebuffer.md)函数。 传递给**HrAddColumnsEx**的指针的确切值取决于调用方是客户端应用程序还是服务提供程序。 客户端将指向 MAPI 函数的指针传递给指定的名称。 服务提供程序在其初始化调用中传递接收到的指针, 或通过调用[IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md)方法来检索它们。 
   
 ## <a name="see-also"></a>另请参阅
 

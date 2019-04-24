@@ -1,5 +1,5 @@
 ---
-title: MAPI 功能、 回调和宏
+title: MAPI 函数、回调和宏
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -9,21 +9,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
-description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: 239a77a7660f255fcfc147996f4727c62bb86c69
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2015 年 12 月 7 日
+ms.openlocfilehash: 2474e5b66e9c8147a1e8a554dea21d541c430edf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346758"
 ---
-# <a name="mapi-functions-callbacks-and-macros"></a>MAPI 功能、 回调和宏
+# <a name="mapi-functions-callbacks-and-macros"></a>MAPI 函数、回调和宏
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-下面的字母条目包含 MAPI 函数、 回调和宏的文档。 
+以下字母条目包含 MAPI 函数、回调和宏的相关文档。 
   
 |||
 |:-----|:-----|

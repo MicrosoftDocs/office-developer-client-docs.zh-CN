@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: df014b98-cfd5-b6d3-4b8a-b0acb3b94412
 description: 确定在使用“配置布局”对话框（在“设计”选项卡上的“布局”组中，单击“重新布局页面”，然后单击“其他布局选项”）时可放置形状在页面上如何翻转和/或旋转。
-ms.openlocfilehash: fb16849c7a496a4277133c68453d94d6fd2e67f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d1c31654782012b3536d35f3a12a923c2cc7a8f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346870"
 ---
-# <a name="placeflip-cell-page-layout-section"></a>PlaceFlip 单元格（“Page Layout”部分）
+# <a name="placeflip-cell-page-layout-section"></a>PlaceFlip 单元格（“Page Layout”内容）
 
 确定在使用 **“配置布局”** 对话框（在 **“设计”** 选项卡上的 **“布局”** 组中，单击 **“重新布局页面”**，然后单击 **“其他布局选项”**）时可放置形状在页面上如何翻转和/或旋转。
   
-|**值**|**说明**|**自动常量**|
+|**Value**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
-|&amp;H0  <br/> |默认值。不翻转。  <br/> |**visLOFlipDefault** <br/> |
+|&amp;H0  <br/> |默认值。 不翻转。  <br/> |**visLOFlipDefault** <br/> |
 |&amp;H1  <br/> |水平翻转。  <br/> |**visLOFlipX** <br/> |
 |&amp;H2  <br/> |垂直翻转。  <br/> |**visLOFlipY** <br/> |
 |&amp;H4  <br/> |翻转以 90 度为增量进行。  <br/> |**visLOFlipRotate** <br/> |

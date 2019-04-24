@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 8350a37c-6f42-4bef-82e0-35aa12b09fcf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 73ed7213ea2bd5079458ccc237b65590f06e8d53
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7d261ac0e9aaf36f2333b04b45edfaf8e24fa30d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350692"
 ---
 # <a name="pidtagviewsentryid-canonical-property"></a>PidTagViewsEntryId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含用户定义的视图文件夹的项标识符。
+包含用户定义的视图文件夹的条目标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_VIEWS_ENTRYID  <br/> |
-|标识符：  <br/> |0x35E5  <br/> |
+|标识符:  <br/> |0x35E5  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
 ## <a name="remarks"></a>注解
 
-公共视图文件夹包含一组预定义的标准视图说明符，而视图文件夹包含由消息的用户定义的说明符。 这些文件夹，不可见人际邮件 (IPM) 层次结构中，可以包含多个视图说明符，每个存储为邮件。 客户端应用程序可以选择合并两个说明符集并使其同时可用。
+公共视图文件夹包含一组预定义的标准视图说明符, 而 view 文件夹包含由邮件用户定义的说明符。 这些文件夹在人际邮件 (IPM) 层次结构中不可见, 可以包含多个视图说明符, 每个都存储为一条消息。 客户端应用程序可以选择合并两组说明符, 并使它们都可用。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

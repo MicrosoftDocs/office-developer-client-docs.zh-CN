@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4e7340d1-3cb9-4276-b83f-1c8f94acb909
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 990fe49d39a73c5bf80b9fdda96d2e5997869edf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 24ceb7b5358447de3a240756227b86224d2c354c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344476"
 ---
 # <a name="ssizerestriction"></a>SSizeRestriction
 
@@ -25,11 +25,11 @@ ms.locfileid: "22595417"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍了用于测试的属性值的大小的大小限制。 
+介绍用于测试属性值大小的大小限制。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _SSizeRestriction
@@ -45,39 +45,39 @@ typedef struct _SSizeRestriction
 
  **relop**
   
-> 是用于大小比较关系运算符。 可能值如下所示： 
+> 大小比较中使用的关系运算符。 可能的值如下所示: 
     
 RELOP_GE 
   
-> 基于大于或等于的第一个值进行比较。
+> 根据大于或等于的第一个值进行比较。
     
 RELOP_GT 
   
-> 基于更高版本的第一个值进行比较。
+> 根据更大的第一个值进行比较。
     
 RELOP_LE 
   
-> 基于小于或等于的第一个值进行比较。
+> 根据值小于或等于的第一个值进行比较。
     
 RELOP_LT 
   
-> 在较小的第一个值进行比较。
+> 根据较小的第一个值进行比较。
     
 RELOP_NE 
   
-> 基于不相等的值进行比较。
+> 根据不相等的值进行比较。
     
 RELOP_RE 
   
-> 基于类似 （正则表达式） 值进行比较。
+> 根据 LIKE (正则表达式) 值进行比较。
     
 RELOP_EQ 
   
-> 基于相等的值进行比较。
+> 根据相等的值进行比较。
     
  **ulPropTag**
   
-> 属性标记标识要测试的属性。
+> 标识要测试的属性的属性标记。
     
  **cb**
   
@@ -85,7 +85,7 @@ RELOP_EQ
     
 ## <a name="remarks"></a>注解
 
-有关限制的工作方式的一般讨论，请参阅[有关限制](about-restrictions.md)。 
+有关限制的工作原理的一般讨论, 请参阅[关于限制](about-restrictions.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

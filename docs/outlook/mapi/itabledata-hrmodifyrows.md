@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: d295c896-9882-4d6f-9689-5cf40db208c0
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 06356d60b43d7e5be61d944c07001570bdd5c678
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: d0074dd006fda6d44252011d0b979169e0c3d4cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348669"
 ---
 # <a name="itabledatahrmodifyrows"></a>ITableData::HrModifyRows
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-插入多个表行，原因可能替换现有行。
+插入多个表行, 这些行可能会替换现有行。
   
 ```cpp
 HRESULT HrModifyRows(
@@ -38,31 +38,31 @@ HRESULT HrModifyRows(
 
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
  _lpSRowSet_
   
-> [in]指向[SRowSet](srowset.md)结构的指针，包含要添加的行集替换现有行，如有必要。 一个指向按行中每个[SRow](srow.md)结构的**lpProps**成员设置的属性值结构应包含索引列中，已对[的调用中的_ulPropTagIndexColumn_参数中指定的相同值CreateTable](createtable.md)函数。 
+> 实时指向包含要添加的行集的[SRowSet](srowset.md)结构的指针, 如有必要, 替换现有行。 行集中每个[SRow](srow.md)结构的**lpProps**成员所指向的某个属性值结构中应包含索引列, 该值与调用__ [中的 ulPropTagIndexColumn 参数中指定的值相同。CreateTable](createtable.md)函数。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功插入或修改行。
+> 行已成功插入或修改。
     
 MAPI_E_INVALID_PARAMETER 
   
-> 一个或多个传入的行不具有索引列。 如果将返回此错误，不更改任何行。
+> 一个或多个传入的行没有索引列。 如果返回此错误, 则不会更改任何行。
     
 ## <a name="remarks"></a>注解
 
-**ITableData::HrModifyRows**方法插入_lpSRowSet_参数指向[SRowSet](srowset.md)结构所描述的行。 如果在行集中的行的索引列值与现有行表中的值相匹配，将替换现有行。 如果没有行存在相匹配的**SRowSet**结构中包含的一个， **HrModifyRows**表末尾添加行。 
+**ITableData:: HrModifyRows**方法插入由_lpSRowSet_参数指向的[SRowSet](srowset.md)结构所描述的行。 如果行中某一行的索引列值与表中现有行的值相匹配, 则将替换现有行。 如果不存在与**SRowSet**结构中包含的行相匹配的行, 则**HrModifyRows**会将该行添加到表的末尾。 
   
-修改表的所有视图以包括指向_lpSRowSet_的行。 但是，如果视图中排除行的位置有限制，则它可能不对用户可见。 
+将修改表的所有视图, 以包括由_lpSRowSet_指向的行。 但是, 如果视图具有排除行的限制, 则用户可能对其不可见。 
   
-指向_lpSRowSet_的行中的列不需要在表中的列的顺序相同。 呼叫者还可以包括为当前不是表中的列属性。 对于现有视图， **HrModifyRows**使这些新列可用，但不包括其当前列集合中。 对于将来视图**HrModifyRows**列设置中包括的新列。 
+_lpSRowSet_指向的行中的列不必与表中的列的顺序相同。 调用方还可以包含表中当前不包含的列属性。 对于现有视图, **HrModifyRows**使这些新列可用, 但不将其包含在当前列集中。 对于将来的视图, **HrModifyRows**包含列集中的新列。 
   
-**HrModifyRows**已添加行之后，通知便发送至所有客户端或服务提供商的具有查看表的和已在调用表的[IMAPITable::Advise](imapitable-advise.md)方法注册的通知。 MAPI 发送每一行，最多八个行的 TABLE_ROW_ADDED 或 TABLE_ROW_MODIFIED 的通知。 如果不会影响八个以上的行由**HrModifyRows**呼叫，MAPI 发送单个 TABLE_CHANGED 通知相反。 
+在**HrModifyRows**添加行后, 通知将发送到具有表视图且已调用表的[IMAPITable:: Advise](imapitable-advise.md)方法以注册通知的所有客户端或服务提供程序。 MAPI 为每个行 (最多八行) 发送 TABLE_ROW_ADDED 或 TABLE_ROW_MODIFIED 通知。 如果**HrModifyRows**调用影响八行以上, MAPI 将发送单个 TABLE_CHANGED 通知。 
   
 ## <a name="see-also"></a>另请参阅
 

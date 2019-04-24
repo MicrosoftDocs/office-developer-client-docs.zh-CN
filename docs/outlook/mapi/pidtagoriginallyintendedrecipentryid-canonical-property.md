@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: fc288a7a-1927-484e-b860-9cc118672ed2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4e7d97f4b2043c9ca08e487e52d58fb534c7abef
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cf9a070e8f892cb7bd4668b3f92397070e5b2284
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342523"
 ---
 # <a name="pidtagoriginallyintendedrecipentryid-canonical-property"></a>PidTagOriginallyIntendedRecipEntryId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含自动转发邮件的最初预期接收人的项标识符。
+包含自动转发邮件最初预期收件人的条目标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ORIGINALLY_INTENDED_RECIP_ENTRYID  <br/> |
-|标识符：  <br/> |0x1012  <br/> |
+|标识符:  <br/> |0x1012  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |Server  <br/> |
+|区域：  <br/> |服务器  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性是在最初预期的邮件收件人的地址属性之一。 它必须已转发邮件的自动代理设置。
+此属性是最初预期的邮件收件人的地址属性之一。 必须由已转发邮件的自动代理进行设置。
   
-此属性对应于 X.400 报告每个收件人属性。
+此属性对应于每个收件人的400个报告属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

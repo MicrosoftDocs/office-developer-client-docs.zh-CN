@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: aefc34c5-1beb-44cf-a455-90f466e157ce
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 34f61f3ef64e5751f9be3df534c4379583447799
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6fabb03d552f195c200b0ecbd8fd69f470c0e1fd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592694"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344889"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflag-canonical-property"></a>PidTagContactAddressBookMultipleAddressFlag 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个提供程序支持每个联系人项目的多个电子邮件地址时为 TRUE 的标志。
+包含一个标志, 当提供程序支持每个联系人项目的多个电子邮件地址时, 该标志为 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTAB_MULTI_ADDR_FLAG  <br/> |
-|标识符：  <br/> |0x6614  <br/> |
+|标识符:  <br/> |0x6614  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
 ## <a name="remarks"></a>注解
 
-如果此属性为 TRUE，则提供程序不允许没有电子邮件地址的联系人。 如果为 FALSE，提供程序将显示所有联系人拥有主电子邮件地址。 将有效仅的主电子邮件地址。 这是联系人通讯簿容器和联系人通讯簿容器的表中的列上的属性。
+如果此属性为 TRUE, 则提供程序不允许没有电子邮件地址的联系人。 如果为 FALSE, 则提供程序将显示所有联系人, 无论其是否有主电子邮件地址。 只有主电子邮件地址将生效。 这是联系人通讯簿容器的属性, 以及联系人通讯簿容器表中的列。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

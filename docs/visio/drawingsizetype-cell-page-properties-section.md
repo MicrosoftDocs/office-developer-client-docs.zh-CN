@@ -9,29 +9,29 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7fe270e8-0dff-bf1f-dfc0-c0608af79f59
 description: 确定绘图的大小。
-ms.openlocfilehash: a87f37ac79d00aeb064072389db432421b33d2d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33c85b6c2f0587654038eaec1a9490ca8bd8301b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351455"
 ---
-# <a name="drawingsizetype-cell-page-properties-section"></a>DrawingSizeType 单元格（“Page Properties”部分）
+# <a name="drawingsizetype-cell-page-properties-section"></a>DrawingSizeType 单元格（“Page Properties”内容）
 
 确定绘图的大小。
   
-|**值**|**说明**|**自动常量**|
+|**Value**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |同于打印机  <br/> |**visPrintSetup** <br/> |
 |1  <br/> |调整页面大小以适合绘图内容  <br/> |**visTight** <br/> |
-|2  <br/> |标准  <br/> |**visStandard** <br/> |
-|3  <br/> |自定义页大小  <br/> |**visCustom** <br/> |
+|双面  <br/> |标准  <br/> |**visStandard** <br/> |
+|第三章  <br/> |自定义页大小  <br/> |**visCustom** <br/> |
 |4  <br/> |自定义缩放比例的绘图大小  <br/> |**visLogical** <br/> |
 |5  <br/> |公制 (ISO)  <br/> |**visDSMetric** <br/> |
-|6  <br/> |ANSI 工程  <br/> |**visDSEngr** <br/> |
-|7  <br/> |ANSI 结构  <br/> |**visDSArch** <br/> |
+|型  <br/> |ANSI 工程  <br/> |**visDSEngr** <br/> |
+|步  <br/> |ANSI 结构  <br/> |**visDSArch** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要设置绘图大小，请使用 **“页面设置”** 对话框（单击 **“设计”** 选项卡上的 **“页面设置”** 箭头）或用鼠标手动调整页面大小。 
   

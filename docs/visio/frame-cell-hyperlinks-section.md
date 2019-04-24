@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f71d8737-92ef-1124-ba4a-b7e17305bd0a
 description: 代表当应用程序作为活动文档在某一容器应用程序中打开时的目标框架名。默认值为空字符串。
-ms.openlocfilehash: b94e5efd4a3fdf53e01f7518252852214a72c766
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8f41e5bf854e31e1f17eabb2aecbded55175ebaf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344848"
 ---
-# <a name="frame-cell-hyperlinks-section"></a>Frame 单元格（“Hyperlinks”部分）
+# <a name="frame-cell-hyperlinks-section"></a>Frame 单元格（“Hyperlinks”内容）
 
 代表当应用程序作为活动文档在某一容器应用程序中打开时的目标框架名。默认值为空字符串。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Frame 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | 超链接。  *名称*。框位置的超链接。  *name*是行名称  <br/> |
+| 单元格名称：  <br/> | 超链接。  *名称*。超链接的帧。  *名称*是行名称  <br/> |
    
 要从某个程序按索引获取对 Frame 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionHyperlink** <br/> |
-| 行索引：  <br/> |**visRow1stHyperlink** +  *i*其中*i* = 0、 1、 2...  <br/> |
+| 行索引：  <br/> |**visRow1stHyperlink** +  *i* = ** 0、1、2 .。。  <br/> |
 | 单元格索引：  <br/> |**visHLinkFrame** <br/> |
    
 

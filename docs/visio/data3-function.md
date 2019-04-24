@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251597
 localization_priority: Normal
 ms.assetid: c3a72b48-5edf-221e-0508-bab6cbbe64fa
-description: 返回形状在形状名对话框的数据 3 框中的文本 （在开发人员选项卡，单击形状名），为 string。
-ms.openlocfilehash: cb86293dd8dc425ee224bf04423e14f755832677
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回形状的 "形状名称" 对话框 (在 "开发工具" 选项卡上, 单击 "形状名称") 中的 "数据 3" 框中的文本, 作为字符串。
+ms.openlocfilehash: 982b6eaa241e6a13137549ad191a62360bfff38e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344679"
 ---
 # <a name="data3-function"></a>DATA3 函数
 
-返回形状在**形状名**对话框的**数据 3**框中的文本 （在**开发人员**选项卡，单击**形状名**），为 string。 
+返回形状的 "**形状名称**" 对话框 (在 "**开发工具**" 选项卡上, 单击 "**形状名称**") 中的 "**数据 3** " 框中的文本, 作为字符串。 
   
 ## <a name="syntax"></a>语法
 

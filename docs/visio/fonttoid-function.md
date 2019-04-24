@@ -7,19 +7,19 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 58bde69d-4654-681c-d9bb-d4b776ddb4c5
 description: 返回指定字体的标识符 (ID)。
-ms.openlocfilehash: 6e20723b6f17714a9acf215e63d444e3533ba3b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 720f07d8df51877e864a8ab9ba9df3a08836e1cd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780291"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346093"
 ---
 # <a name="fonttoid-function"></a>FONTTOID 函数
 
 返回指定字体的标识符 (ID)。
   
 > [!NOTE]
-> 建议使用[字体](font-function.md)函数，类似于**FONTTOID**函数。 Microsoft Visio 2013 中引入的**字体**函数替换**FONTTOID**。 
+> 建议使用[FONT](font-function.md)函数, 它类似于**FONTTOID**函数。 在 Microsoft Visio 2013 中, 引入了**FONT**函数来替换**FONTTOID**。 
   
 ## <a name="syntax"></a>语法
 

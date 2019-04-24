@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 245166ce-1cb6-634b-c763-bb717a940eec
-description: 此导航页面包含指向有关在 Visio 中的可编程性的概述主题的链接。 单击下面的链接，或者使用目录浏览到以下主题：
-ms.openlocfilehash: b385eb3228b015a1dca3df9defa5579e3d7da533
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 本导航页包含一些链接，这些链接指向有关 Visio 中可编程性的概述主题。 单击下面的链接或者使用目录可浏览相应的主题：
+ms.openlocfilehash: fef26adf718b883ef2dbc75fc1f3b9cf1b143386
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358616"
 ---
 # <a name="concepts-visio-shapesheet"></a>概念 (Visio ShapeSheet)
 
-此导航页面包含指向有关在 Visio 中的可编程性的概述主题的链接。 单击下面的链接，或者使用目录浏览到以下主题：
+本导航页包含一些链接，这些链接指向有关 Visio 中可编程性的概述主题。 单击下面的链接或者使用目录可浏览相应的主题：
   
 - [关于单元格引用](about-cell-references.md)
     
@@ -26,7 +26,7 @@ ms.locfileid: "19779935"
     
 - [关于错误值](about-error-values.md)
     
-- [关于格式图片](about-format-pictures.md)
+- [关于设置图片格式](about-format-pictures.md)
     
 - [关于公式](about-formulas.md)
     

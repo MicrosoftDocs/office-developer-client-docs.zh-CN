@@ -8,17 +8,17 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4a710baa4d70ac69b67d2a06fe694998884fd835
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356404"
 ---
 # <a name="determine-whether-outlook-is-a-click-to-run-application-on-a-computer"></a>确定 Outlook 是否是计算机上的即点即用应用程序
 
 即点即用是一种适用于 Office 2010 及更高版本的软件分发和更新机制。 通过即点即用分发的产品在本地操作系统上的虚拟应用程序环境中执行。 这意味着这些产品具有其文件和设置的私有副本，并且它们所做的任何更改会在虚拟环境中捕获到。
 
-即点即用速度快，即表示用户在很短时间内就能开始运行应用程序，而不用等待完整产品完成安装。 更新会在后台自动运行，无需用户首先移除安装或手动安装更新。 即点即用产品进行了虚拟化，不会与其他已安装软件发生冲突。 不过，由于通过即点即用分发的产品有所有文件和注册的私有副本，因此加载项开发人员无法确定这种产品的存在方式是否与客户端计算机硬盘上已安装的产品相同。 自 Outlook 2010 起，加载项开发人员应验证是否已安装 Outlook，并验证 Outlook 是否已作为即点即用产品分发。
+即点即用速度快，即表示用户在很短时间内就能开始运行应用程序，而不用等待完整产品完成安装。 更新会在后台自动运行，无需用户首先移除安装或手动安装更新。 即点即用产品是虚拟化的，不会与其他已安装的软件冲突。 不过，由于通过即点即用分发的产品有所有文件和注册的私有副本，因此加载项开发人员无法确定这种产品的存在方式是否与客户端计算机硬盘上已安装的产品相同。 自 Outlook 2010 起，加载项开发人员应验证是否已安装 Outlook，并验证 Outlook 是否已作为即点即用产品分发。
 
 
 > [!NOTE]

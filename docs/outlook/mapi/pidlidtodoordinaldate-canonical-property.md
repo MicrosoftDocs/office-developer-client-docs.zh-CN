@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b6a500fc-07f4-4788-ae46-d179a96a48e2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b0c5e3019efeeb0b9788d81e8730e976bfcc9d75
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345274"
 ---
 # <a name="pidlidtodoordinaldate-canonical-property"></a>PidLidToDoOrdinalDate 规范属性
 
@@ -25,39 +25,39 @@ ms.locfileid: "25401585"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-确定合并待办事项列表中的对象的排序顺序。
+确定合并的待办任务列表中的对象的排序顺序。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidToDoOrdinalDate  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x000085A0  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x000085A0  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
-|区域：  <br/> |Task  <br/> |
+|区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-标记对象后，此属性应设置为当前时间以协调世界时 (UTC)。 
+对对象进行标记时, 应将此属性设置为当前时间 (采用协调世界时 (UTC))。 
   
-如果客户端允许用户重新排序通过拖动合并的任务列表或其他机制中的任务，这些用户可以使用任何合适的算法，以便此属性用作 sor 在正确的位置显示任务确定此属性的新值做到的一字段。
+如果客户端允许用户通过拖动或其他机制对合并任务列表中的任务进行重新排序, 则可以使用任何合适的算法来确定该属性的新值, 以便在将此属性用作 sor 时任务显示在正确的位置。ting 域。
   
-当此属性用于对对象和领结排序结果进行排序时， **dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) 属性用作领结分词系统。
+当此属性用于对对象和排序结果进行排序时, 将**dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) 属性用作一个关联断开器。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> 指定的属性和与标记的操作。
+> 指定与标记相关的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

@@ -10,39 +10,39 @@ api_type:
 - COM
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1e84308f3a9f9457c5db23c1ad9d42d6e856519e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dae31959cddad7ad61ea32f2372ea34bdbff658e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583629"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346352"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>PidTagReportDisposition 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指示请求收款的消息的回执状态。 
+指示请求回执的邮件的回执状态。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_REPORT_DISPOSITION，PR_REPORT_DISPOSITION_A，PR_REPORT_DISPOSITION_W  <br/> |
-|标识符：  <br/> |0x0080  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_REPORT_DISPOSITION、PR_REPORT_DISPOSITION_A、PR_REPORT_DISPOSITION_W  <br/> |
+|标识符:  <br/> |0x0080  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
 ## <a name="remarks"></a>注解
 
-有效值如下：
+下面是有效值：
   
-- "已删除"
+- 已
     
-- "处理"
+- 处理
     
-- "发送"
+- 分派
     
-- "拒绝"
+- 否决
     
 - "failed"
     
@@ -50,19 +50,19 @@ ms.locfileid: "22583629"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

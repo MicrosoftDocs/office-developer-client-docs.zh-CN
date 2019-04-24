@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 99b63e7b0b31a603bf372b1d52e83af39784b628
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e5adc7d0c317d8b803645d78227777998d7d241f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347836"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-从属性界面，即接口派生自[IMAPIProp](imapipropiunknown.md)检索单个属性的值。 
+从属性接口检索单个属性的值, 即从[IMAPIProp](imapipropiunknown.md)派生的接口。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 HrGetOneProp(
@@ -45,35 +45,35 @@ HrGetOneProp(
 
  _pmp_
   
-> [in]是要检索属性值的[IMAPIProp](imapipropiunknown.md)接口的指针。 
+> 实时指向要从中检索属性值的[IMAPIProp](imapipropiunknown.md)接口的指针。 
     
  _ulPropTag_
   
-> [in]要检索的属性的属性标记。 
+> 实时要检索的属性的属性标记。 
     
  _ppprop_
   
-> [输出]返回[SPropValue](spropvalue.md)结构定义检索的属性值为指针的指针。 
+> 排除指向用于定义检索到的属性值的返回的[SPropValue](spropvalue.md)结构的指针的指针。 
     
 ## <a name="return-value"></a>返回值
 
 MAPI_E_NOT_FOUND 
   
-> 从指定的接口请求的属性不可用。
+> 请求的属性在指定的接口中不可用。
     
 ## <a name="remarks"></a>注解
 
-不同的[IMAPIProp::GetProps](imapiprop-getprops.md)方法， **HrGetOneProp**函数永远不会返回任何警告。 检索只有一个属性，因为它只是成功或失败。 用于检索多个属性， **GetProps**是更快。 
+与[IMAPIProp:: GetProps](imapiprop-getprops.md)方法不同, **HrGetOneProp**函数永远不会返回任何警告。 由于它只检索一个属性, 它只是成功或失败。 若要检索多个属性, **GetProps**速度更快。 
   
-您可以设置或更改单个属性与[HrSetOneProp](hrsetoneprop.md)函数。 
+您可以使用[HrSetOneProp](hrsetoneprop.md)函数设置或更改单个属性。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI 使用**HrGetOneProp**方法检索的对象的类型。  <br/> |
+|MAPIFunctions  <br/> |GetMAPIObjectType  <br/> |MFCMAPI 使用**HrGetOneProp**方法来检索对象的类型。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

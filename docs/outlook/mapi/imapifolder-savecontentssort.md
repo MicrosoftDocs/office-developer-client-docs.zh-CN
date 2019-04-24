@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ae3fdf0-6193-4c1f-bd2e-d69c56d69773
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1f79265c4356747e64aa8102dd4486db229baf5a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: c142424bb050ae287f54a87ea8a5e0ea45acb12c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351203"
 ---
 # <a name="imapifoldersavecontentssort"></a>IMAPIFolder::SaveContentsSort
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-设置某个文件夹的内容表的默认排序次序。
+设置文件夹的内容表的默认排序顺序。
   
 ```cpp
 HRESULT SaveContentsSort(
@@ -38,31 +38,31 @@ HRESULT SaveContentsSort(
 
  _lpSortCriteria_
   
-> [in]一个指向[SSortOrderSet](ssortorderset.md)结构，其中包含的默认排序次序。 
+> 实时指向包含默认排序顺序的[SSortOrderSet](ssortorderset.md)结构的指针。 
     
  _ulFlags_
   
-> [in]设置控制默认排序顺序的方式的标志位掩码。 可以设置以下标记：
+> 实时用于控制如何设置默认排序顺序的标志的位掩码。 可以设置以下标志:
     
 RECURSIVE_SORT 
   
-> 设置的默认排序顺序适用于指示的文件夹和所有子文件夹。
+> 默认的排序次序将应用于指定的文件夹及其所有子文件夹。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功保存的排序次序。
+> 已成功保存排序顺序。
     
 MAPI_E_NO_SUPPORT 
   
-> 消息存储提供程序不支持保存其文件夹内容表的排序次序。
+> 邮件存储区提供程序不支持保存其文件夹内容表的排序顺序。
     
 ## <a name="remarks"></a>注解
 
-**IMAPIFolder::SaveContentsSort**方法可创建一个文件夹内容表的默认排序次序。 即，当客户端代码调用**SaveContentsSort**后调用该文件夹的[IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md)方法，将建立**SaveContentsSort**顺序出现返回的内容表中的行。
+**IMAPIFolder:: SaveContentsSort**方法为文件夹的内容表建立默认的排序顺序。 也就是说, 当客户端在代码调用**SaveContentsSort**后调用文件夹的[IMAPIContainer:: GetContentsTable](imapicontainer-getcontentstable.md)方法时, 返回的内容表中的行将按**SaveContentsSort**建立的顺序显示。
   
-并非所有的消息存储提供程序支持**SaveContentsSort**;它是适用于从**SaveContentsSort**方法返回 MAPI_E_NO_SUPPORT 的消息存储提供程序。 
+并非所有邮件存储提供程序都支持**SaveContentsSort**;邮件存储提供程序从**SaveContentsSort**方法返回 MAPI_E_NO_SUPPORT 是可接受的。 
   
 ## <a name="see-also"></a>另请参阅
 

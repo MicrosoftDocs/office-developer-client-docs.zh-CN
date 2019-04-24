@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 66ce8f36-2b2b-4a8e-b9b2-43782d8357a1
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ef0dc212a6a6f761cd8dd0cae5312c548c02ae50
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: da41fadc9a71a410dd115e28ce2cf9c81442b104
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583818"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348641"
 ---
 # <a name="itabledatahrqueryrow"></a>ITableData::HrQueryRow
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-检索表格行。
+检索表行。
   
 ```cpp
 HRESULT HrQueryRow(
@@ -39,31 +39,31 @@ HRESULT HrQueryRow(
 
  _lpSPropValue_
   
-> [in]指向描述要检索的行的索引列的属性值结构的指针。 属性值结构的**ulPropTag**成员应包含作为_ulPropTagIndexColumn_参数从访问[ITableData](itabledataiunknown.md)实现[CreateTable](createtable.md)函数调用的相同属性标记。 
+> 实时一个指向属性值结构的指针, 该结构描述要检索的行的索引列。 属性值结构的**ulPropTag**成员应包含与_ulPropTagIndexColumn_参数相同的属性标记, 从调用[CreateTable](createtable.md)函数, 后者访问[ITableData](itabledataiunknown.md)实现。 
     
  _lppSRow_
   
-> [输出]指向到检索行的指针的指针。 
+> 排除指向检索到的行的指针的指针。 
     
  _lpuliRow_
   
-> [传入、 传出]在输入、 有效的指针或 NULL，表示不需要返回任何信息。 在输出中、 有效的指针指向行的行号，标识表中的行的位置的顺序编号。
+> [in, out]在输入时, 是有效的指针或 NULL, 它指示无需返回任何信息。 在输出中, 指向行的行号的有效指针, 用于标识行在表中的位置的顺序编号。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功检索行。
+> 已成功检索该行。
     
 MAPI_E_INVALID_PARAMETER 
   
-> [SPropValue](spropvalue.md)结构不包含索引列属性的_lpSPropValue_点。 
+> _lpSPropValue_指向的[SPropValue](spropvalue.md)结构不包含 index 列属性。 
     
 ## <a name="remarks"></a>注解
 
-**ITableData::HrQueryRow**方法检索的所有行已索引列包含指向_lpSPropValue_属性结构中的索引列的值相匹配的属性。 **HrQueryRow**还返回行数，如果呼叫者请求其标识表中的行的位置。 
+**ITableData:: HrQueryRow**方法检索索引列与由_lpSPropValue_指向的属性结构中包含的索引列相匹配的行的所有属性。 如果调用方请求行号, 则**HrQueryRow**也会返回行号, 用于标识行在表中的位置。 
   
-因为**HrQueryRow**不修改所指的_lpSPropValue_ **SPropValue**结构，呼叫者时**HrQueryRow**返回必须释放结构。 呼叫者还必须释放**SRow**结构包含检索的行。 
+由于**HrQueryRow**不会修改_lpSPropValue_指向的**SPropValue**结构, 因此在**HrQueryRow**返回时, 调用方必须释放结构。 调用方还必须释放包含检索到的行的**SRow**结构。 
   
 ## <a name="see-also"></a>另请参阅
 

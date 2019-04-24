@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 93f82ae0-3442-fac1-9906-b84afef85f5c
 description: 确定出现在形状的垂直动态连接线上的跨线的跨线方向。
-ms.openlocfilehash: 2d0c0964b52c9afbccc9cb507024825434702b6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f86c77da62042d1bc2c0274564efa9fdb0887971
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342740"
 ---
-# <a name="conlinejumpdiry-cell-shape-layout-section"></a>ConLineJumpDirY 单元格（“Shape Layout”部分）
+# <a name="conlinejumpdiry-cell-shape-layout-section"></a>ConLineJumpDirY 单元格（“Shape Layout”内容）
 
 确定出现在形状的垂直动态连接线上的跨线的跨线方向。
   
@@ -24,11 +24,11 @@ ms.locfileid: "19779938"
 |:-----|:-----|:-----|
 | 0  <br/> | 页面默认值  <br/> |**visLOJumpDirYDefault** <br/> |
 | 1  <br/> | 左侧  <br/> |**visLOJumpDirYLeft** <br/> |
-| 2  <br/> | 右侧  <br/> |**visLOJumpDirYRight** <br/> |
+| 双面  <br/> | 右侧  <br/> |**visLOJumpDirYRight** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-设置默认垂直方向*所有*连接器的跨线的页上，使用 Page Layout 内容中的 PageLineJumpDirY 单元格。 
+若要设置页面上*所有*连接线跨线的默认垂直方向, 请使用 "页面布局" 部分中的 "PageLineJumpDirY" 单元格。 
   
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ConLineJumpDirY 单元格的引用，请使用： 
   

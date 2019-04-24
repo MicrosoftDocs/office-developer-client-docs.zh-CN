@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: df4be986-62a8-49d6-8eca-25b55c74f830
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5165867e46d3d86d65932e7ae432b446efbd8fff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3753177552d45e32e53ae192a9dfae15b601afcc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359470"
 ---
 # <a name="pidtagservicesupportfiles-canonical-property"></a>PidTagServiceSupportFiles 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含属于邮件服务的文件列表。
+包含属于邮件服务的文件的列表。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_SERVICE_SUPPORT_FILES，PR_SERVICE_SUPPORT_FILES_A，PR_SERVICE_SUPPORT_FILES_W  <br/> |
-|标识符：  <br/> |0x3D0F  <br/> |
-|数据类型：  <br/> |PT_MV_STRING8 PT_MV_UNICODE  <br/> |
+|相关属性：  <br/> |PR_SERVICE_SUPPORT_FILES、PR_SERVICE_SUPPORT_FILES_A、PR_SERVICE_SUPPORT_FILES_W  <br/> |
+|标识符:  <br/> |0x3D0F  <br/> |
+|数据类型：  <br/> |PT_MV_STRING8、PT_MV_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
 ## <a name="remarks"></a>注解
 
-使用控制面板中的对话框，用户可以获得的文件属于邮件服务的列表。 例如，用户可以获得的所有动态链接库 (Dll) 属于该服务的名称。 然后，用户可以查找有关指定的文件，如名称和版本号的所有 Dll 的其他详细信息。 MAPI 使用这些属性在消息用户所选内容的对话框中创建支持文件列表。
+通过在控制面板小程序中使用对话框, 用户可以获取属于邮件服务的文件的列表。 例如, 用户可以获取属于该服务的所有动态链接库 (dll) 的名称。 然后, 用户可以查找有关指定文件的其他详细信息, 如所有 dll 的名称和版本号。 MAPI 使用这些属性在用于邮件用户选择的对话框中创建支持文件列表。
   
-MAPI 仅适用于文件名，并在其他字符串传递给它，在 Active Directory 服务接口 (ANSI) 字符集。 使用文件名的原始设备制造商 (OEM) 字符集中的客户端应用程序必须将其转换为 ANSI 调用 MAPI 之前。
+MAPI 仅适用于在 Active Directory 服务接口 (ANSI) 字符集中的文件名和传递给它的其他字符串。 使用原始设备制造商 (OEM) 字符集中的文件名的客户端应用程序必须先将其转换为 ANSI, 然后再调用 MAPI。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

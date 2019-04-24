@@ -1,27 +1,27 @@
 ---
-title: Outlook 配置文件中检测 Exchange Server 的版本
+title: 在 Outlook 配置文件中检测 Exchange Server 版本
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e2d8d8a9-7e8f-9cf0-56a8-d8a6281ad589
-description: 上次修改时间： 2012 年 7 月 3 日
-ms.openlocfilehash: b6c1482554cfb1e756266eb31f992b81bc34bb51
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间:03 月3日, 2012
+ms.openlocfilehash: c6aaac128e1a3e1a8d77d3fa8b6c50a335348b71
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345540"
 ---
-# <a name="detect-the-version-of-exchange-server-in-an-outlook-profile"></a>Outlook 配置文件中检测 Exchange Server 的版本
+# <a name="detect-the-version-of-exchange-server-in-an-outlook-profile"></a>在 Outlook 配置文件中检测 Exchange Server 版本
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-本主题演示如何使用**[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** 属性和**[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** 属性来获取活动帐户是在 Microsoft Exchange Server 版本信息的 c + + 中包含的代码示例连接到。 
+本主题包含 c + + 中的代码示例, 演示如何使用**[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** 属性和**[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** 属性获取 Microsoft Exchange SERVER 的版本信息。活动帐户已连接到。 
   
-`GetProfileServiceVersion`函数中的代码示例接受一个配置文件作为输入参数。 根据是否**PR_PROFILE_SERVER_VERSION**属性和**PR_PROFILE_SERVER_FULL_VERSION**属性中存在的给定配置文件，该函数获取每个属性，并返回作为输出的适当版本信息参数。 
+代码`GetProfileServiceVersion`示例中的函数接受一个配置文件作为输入参数。 根据**PR_PROFILE_SERVER_VERSION**属性和**PR_PROFILE_SERVER_FULL_VERSION**属性在给定的配置文件中是否存在, 该函数将获取每个属性, 并以输出的形式返回适当的版本信息。实参. 
   
-`GetProfileServiceVersion`首先调用**[MAPIAdminProfiles](mapiadminprofiles.md)** 函数以创建配置文件管理对象。 然后使用配置文件管理对象调用**[IProfAdmin::AdminServices](iprofadmin-adminservices.md)** 获取消息服务管理对象。 使用邮件服务管理对象，它调用**[IMsgServiceAdmin::OpenProfileSection](imsgserviceadmin-openprofilesection.md)** 获取当前配置文件的一部分，然后调用**[HrGetOneProp](hrgetoneprop.md)** 以验证是否每两个属性的那一节中存在配置文件，并如果是这样，在相应的输出参数中设置的版本信息。 
+`GetProfileServiceVersion`首先调用**[MAPIAdminProfiles](mapiadminprofiles.md)** 函数来创建配置文件管理对象。 然后, 它使用配置文件管理对象调用**[IProfAdmin:: AdminServices](iprofadmin-adminservices.md)** 以获取邮件服务管理对象。 使用邮件服务管理对象, 它调用**[IMsgServiceAdmin:: OpenProfileSection](imsgserviceadmin-openprofilesection.md)** 获取当前配置文件的一部分, 然后调用**[HrGetOneProp](hrgetoneprop.md)** 以验证这两个属性中的每个属性是否都存在于配置文件, 如果是, 则在相应的输出参数中设置版本信息。 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 278bb9e4-3ff6-4bef-b208-7924f7a5e9b1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4e6446283116c39080271e5c2fb3ec128b25d32e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360716"
 ---
 # <a name="pidtaguserx509certificate-canonical-property"></a>PidTagUserX509Certificate 规范属性
 
@@ -25,42 +25,42 @@ ms.locfileid: "25385534"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息的用户的 X.509 版本 3 安全证书。 
+包含用于邮件用户的 x.509 版本3安全证书。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_USER_X509_CERTIFICATE  <br/> |
-|标识符：  <br/> |0x3A70  <br/> |
+|标识符:  <br/> |0x3A70  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-利用公钥安全的应用程序使用此属性。 它包含一个或多个 X.509 版本 3 安全证书的二进制表示形式。 
+此属性由利用公钥安全性的应用程序使用。 它包含一个或多个 x.509 版本3安全证书的二进制表示形式。 
   
-对于自己的安全证书，各种应用程序和客户端可以使用此属性。 X.509 数据的二进制格式可以因供应商。 
+不同的应用程序和客户端可以将此属性用于其自己的安全证书。 x.509 数据的二进制格式在供应商之间可能有所不同。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和用户、 联系人、 组和资源的操作列表。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

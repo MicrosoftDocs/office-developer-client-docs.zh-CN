@@ -7,22 +7,22 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 97ff2733-a2b1-4da0-b628-00850fc7925b
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 38011c02791688ce5b1c291a1355ccaececd43fd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: e9c10f78af6dff2e0d0c59d0bfe59be07dccd4b2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574732"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351476"
 ---
 # <a name="mapi-forms-notifications"></a>MAPI 表单通知
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-注册有关和处理来自窗体对象通知其他 MAPI 对象不同于进程。 **IMAPIViewAdviseSink**或**IMAPIFormAdviseSink**接口而不是**IMAPIAdviseSink**也建议的窗体通知实现接收器。 [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)和[IMAPIFormAdviseSink: IUnknown](imapiformadvisesinkiunknown.md)每个具有多个方法，一个用于每个可能的事件的相应告知源是能够生成。 例如， **IMAPIFormAdviseSink**具有两个方法： [IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md)处理对表单查看器的状态和[IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md)显示新消息与正确的表单的更改。 
+在表单对象中注册和处理通知与其他 MAPI 对象的过程不同。 窗体通知的通知接收器实现**IMAPIViewAdviseSink**或**IMAPIFormAdviseSink**接口, 而不是**IMAPIAdviseSink**。 [IMAPIViewAdviseSink: iunknown](imapiviewadvisesinkiunknown.md)和[IMAPIFormAdviseSink: iunknown](imapiformadvisesinkiunknown.md)都有多个方法, 每个方法对应于相应的建议源能够生成的每个可能的事件一个。 例如, **IMAPIFormAdviseSink**有两种方法: [IMAPIFormAdviseSink:: OnChange](imapiformadvisesink-onchange.md)以处理对表单查看器状态的更改, 并[IMAPIFormAdviseSink:: OnActivateNext](imapiformadvisesink-onactivatenext.md)以使用正确的格式显示新邮件。 
   
-类似于处理 OLE 中实现的策略的事件的事件处理表单的策略。 客户端不注册为特定事件类型的大多数 MAPI 对象一样。 假设是事件的，将通知注册使他们能够接收任何类型的特定 advise 源可以生成。 由于**IMAPIAdviseSink::OnNotify**必须编写以便处理所有已注册的事件，实现它可以复杂的客户端的多个不同事件注册。 因为窗体中的方法告知接收器对象目标单个事件，实现这些方法是简单。 
+窗体的事件处理策略类似于在 OLE 中实现的事件处理策略。 客户端不会对对大多数 MAPI 对象的特定事件类型进行注册。 假定注册通知使其能够接收可由特定通知源生成的任何类型的事件。 由于必须写入**IMAPIAdviseSink:: OnNotify**以处理所有已注册的事件, 因此实现它对于注册许多不同事件的客户端来说可能非常复杂。 由于 "建议接收器对象" 中的方法面向单个事件, 因此实现这些方法更简单。 
   
 

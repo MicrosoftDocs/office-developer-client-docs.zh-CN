@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a9230a63af66e8143a7da488ce41dadafe359429
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356425"
 ---
 # <a name="display-a-shared-calendar-of-a-recipient"></a>显示收件人的共享日历
 
@@ -30,11 +30,11 @@ ms.locfileid: "28709213"
 
 > [!NOTE]
 > [!注释] 在使用 **Namespace** 对象的 **CreateRecipient** 方法或 **Recipients** 集合的 [Add(String)](https://msdn.microsoft.com/library/bb612668(v=office.15)) 方法创建 **Recipient** 对象时，必须提供收件人名称。 然后，此代码示例根据这个名称解析 **Recipient**。 收件人姓名可采用下列任一格式：
-> - 显示名称
+> - 名称
 > - Alias
 > - 简单邮件传输协议 (SMTP) 地址
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

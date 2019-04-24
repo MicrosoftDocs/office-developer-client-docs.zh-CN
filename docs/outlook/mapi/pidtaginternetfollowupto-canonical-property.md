@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: 15a91ba5-f317-4f62-826b-4d6f9b41cd4a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: af6eb9ad3332f094d5abfa3d1571714c7f5583ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e2ca25e814e814819632614c1b43620f82062c3c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583286"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358589"
 ---
 # <a name="pidtaginternetfollowupto-canonical-property"></a>PidTagInternetFollowupTo 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-映射到 MIME 后续-到标头。
+映射到 MIME 后续标头。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_INTERNET_FOLLOWUP_TO，PR_INTERNET_FOLLOWUP_TO_A，PR_INTERNET_FOLLOWUP_TO_W  <br/> |
-|标识符：  <br/> |0x1033  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_INTERNET_FOLLOWUP_TO、PR_INTERNET_FOLLOWUP_TO_A、PR_INTERNET_FOLLOWUP_TO_W  <br/> |
+|标识符:  <br/> |0x1033  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

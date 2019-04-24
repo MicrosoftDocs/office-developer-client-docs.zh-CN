@@ -1,5 +1,5 @@
 ---
-title: MAPI 邮件类
+title: MAPI 邮件类别
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,37 +7,37 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 64ef2bbb-585c-4908-8ad4-a1c954057e9b
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: eecbbb3b806ecaee6c7ceba5c92bd4b713ad1075
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: b2ab5d56c53216152a83ca207ff5ba1d53c9049d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345891"
 ---
-# <a name="mapi-message-classes"></a>MAPI 邮件类
+# <a name="mapi-message-classes"></a>MAPI 邮件类别
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-每个邮件具有邮件类属性， **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))，它标识类型、 目的或消息的内容。 **PR_MESSAGE_CLASS**是必需的属性对所有新邮件。 邮件类决定用于向用户和发出传入消息的文件夹的邮件的形式。 
+每封邮件都有一个消息类属性**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), 该属性标识邮件的类型、目的或内容。 **PR_MESSAGE_CLASS**是所有新邮件的必需属性。 邮件的类决定了用于向用户显示邮件的窗体和用于放置传入邮件的文件夹。 
   
-邮件类是区分大小写的字符串，包含 ASCII 字符到 127 32 和用句点，分隔，但他们不能以句点结尾。 每个字符串表示的子类，级别和允许的级别数为没有限制。 
+邮件类是区分大小写的字符字符串, 其中包含 ASCII 字符32到127并由句点分隔, 但不能以句点结尾。 每个字符串表示一个级别的子类, 并且对允许的级别数没有限制。 
   
-例如，最多邮件客户端应用程序发送和接收分为**IPM**邮件类时，广，它介绍了所有人际邮件 (也就是说，为了按人员的用户，而不是以编程方式通过读取的消息计算机）。 消息存储提供程序更精确地介绍了通过创建**IPM**子类的 IPM 消息。 **IPM**子类继承**IPM**邮件类的属性。 通过连接到 IPM 标识符，如**IPM 其他字符的字符串被命名**IPM**类的子类。注意**来描述说明消息和**IPM。联系人**描述联系人的邮件。 
+例如, 客户端应用程序发送和接收的大多数邮件都属于**IPM**邮件类, 这是一个描述所有人际邮件 (即应由人为用户阅读的邮件, 而不是以编程方式通过计算机)。 邮件存储提供程序通过创建**ipm**子类更准确地描述 ipm 邮件。 **ipm**子类继承了**ipm**邮件类的属性。 **ipm**类的子类通过将其他字符字符串串联到 ipm 标识符 (如 ipm) 来命名 **。注释**: 说明注释消息和**IPM。联系**以描述联系人消息。 
   
-若要处理的显示和管理 IPM 消息，客户端可以使用 MAPI 提供了对标准窗体。 若要处理的显示和管理新的邮件类，您作为客户端应用程序开发人员具有两个选项：
+若要处理 IPM 邮件的显示和管理, 客户端可以使用 MAPI 提供的标准表单。 若要处理新邮件类的显示和管理, 您作为客户端应用程序开发人员有两个选项:
   
-1. 通过使用标准的客户端可以使用的 MAPI 定义窗体接口的组，可以创建新表单。
+1. 您可以使用标准客户端可以使用的由 MAPI 定义的表单界面集来创建新的表单。
     
-2. 您可以编写自己的客户端通过实施一个完整、 独立的应用程序。 
+2. 您可以通过实现完整的独立应用程序来编写自己的客户端。 
     
-客户端应将每个传出 message **PR_MESSAGE_CLASS**属性设置为**IPM**或**IPC**的一个子类，尽管消息存储提供程序具有其设置的 ultimate 责任。 因此，如果客户端发送一条消息，而不设置其邮件类别，消息存储提供程序将其设置为适当的客户端类型的适当的默认值。 人际邮件客户端的默认邮件类别是**IPM**;进程间的通信客户端的默认邮件类别是**IPC**。 
+虽然客户端应将每个传出邮件的**PR_MESSAGE_CLASS**属性设置为**IPM**或**IPC**的子类, 但邮件存储区提供程序对设置它的最终责任是最大的。 因此, 如果客户端发送邮件时未设置其邮件类别, 则邮件存储提供程序会将其设置为适当类型的客户端的相应默认值。 人际邮件客户端的默认邮件类为**IPM**;进程间通信客户端的默认邮件类为**IPC**。 
   
-邮件类具有长度限制为 255 个字符。 但是，邮件类不应超过 127 个字符，以支持报告中所使用的邮件类。 报告邮件类基于的原始邮件，两个内容类： 前缀和后缀。 前缀报告指示邮件是报表，并且后缀指示的报告类型： 灾难恢复 （送达报告）、 NDR （原件报告）、 IPNRN （阅读报告） 或 IPNNRN （nonread 报告）。 请注意，这些长度限制授予以字符;使用双字节字符集的平台上, 实际的字节数可能更高版本。 
+邮件类别的长度限制为255个字符。 但是, 邮件类别不应超过127个字符以支持在报告中使用的邮件类。 报告邮件类基于原始邮件的类, 其中包含两个添加项: 前缀和后缀。 前缀报告指示邮件是一个报告, 后缀指示报告类型: DR (传递报告)、NDR (nondelivery report)、IPNRN (read report) 或 IPNNRN (未读 report)。 请注意, 这些长度限制是在字符中提供的;在使用双字节字符集的平台上, 实际字节计数可能会更高。 
   
-客户端尝试分配的字符串超出其邮件类别的允许限制时，消息存储提供程序应从其[IMAPIProp::SetProps](imapiprop-setprops.md)方法实现返回 MAPI_E_INVALID_PARAMETER。 
+当客户端尝试分配超过其邮件类别允许的限制的字符串时, 邮件存储提供程序应从其[IMAPIProp:: SetProps](imapiprop-setprops.md)方法实现中返回 MAPI_E_INVALID_PARAMETER。 
   
 ## <a name="see-also"></a>另请参阅
 

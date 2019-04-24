@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2d97b31d-9008-307d-273a-1726007eeb34
 description: 锁定二维形状，以免它随旋转手柄或者“向左旋转 90°”或“向右旋转 90°”命令旋转。
-ms.openlocfilehash: 450fe4786594472d018b705df4678fe636390ac3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36da1868e4f974bd19d00e86e31bea96eb8ad5bf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348270"
 ---
-# <a name="lockrotate-cell-protection-section"></a>LockRotate 单元格（“Protection”部分）
+# <a name="lockrotate-cell-protection-section"></a>LockRotate 单元格（“Protection”内容）
 
 锁定二维形状，以免它随旋转手柄或者 **“向左旋转 90°”** 或 **“向右旋转 90°”** 命令旋转。 
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 不能旋转形状。  <br/> |
 | FALSE  <br/> | 可以旋转形状（默认值）。  <br/> |

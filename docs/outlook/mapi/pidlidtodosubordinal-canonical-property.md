@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e3bc15ef-155e-49fd-88e5-64713df9b939
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c4ea125a5bde89e0885be4c04e3f106f202b1e18
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344917"
 ---
 # <a name="pidlidtodosubordinal-canonical-property"></a>PidLidToDoSubOrdinal 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25384561"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-**DispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) 属性排序对象和领结结果时，作为领结分词系统。
+当**dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) 属性对对象进行排序, 并对其产生的关联时, 充当关联断开项。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidToDoSubOrdinal  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x000085A1  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x000085A1  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
-|区域：  <br/> |Task  <br/> |
+|区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果使用，必须按字典序按此属性。 字符串的组件字符必须包含仅数字 0 到 9。 此属性应最初设置为"5555555"。 此属性的长度不得超过 254 个字符 （不包括 NULL 终止符）。
+如果使用此属性, 则必须对 lexicographically 进行排序。 字符串的组件字符必须仅包含从0到9的数字。 此属性最初应设置为 "5555555"。 此属性的长度不得超过254个字符 (终止的 NULL 字符除外)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> 指定的属性和与标记的操作。
+> 指定与标记相关的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

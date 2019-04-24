@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 2b2d6b8e-e3dd-4a9b-8bb5-53add675605d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d43a0229f232f9437d1746799534c0f2d6fba83f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346310"
 ---
 # <a name="pidtagspamthreshold-canonical-property"></a>PidTagSpamThreshold 规范属性
 
@@ -21,47 +21,47 @@ ms.locfileid: "25392821"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-Long 值，该值指示垃圾邮件筛选的级别。
+long 值, 用于指示垃圾邮件筛选的级别。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SPAM_THRESHOLD  <br/> |
-|长 ID （盖）：  <br/> | 0x041B  <br/> |
+|长 ID (盖子):  <br/> | 0x041B  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |垃圾邮件  <br/> |
    
-## <a name="values"></a>Values
+## <a name="values"></a>值
 
-垃圾邮件筛选的值如下所示：
+垃圾邮件筛选的值如下所示:
   
 |**垃圾邮件级别**|**值**|
 |:-----|:-----|
 |无  <br/> |0xFFFFFFFF  <br/> |
-|Low  <br/> |0x00000006  <br/> |
-|Medium  <br/> |0x00000005  <br/> |
-|High  <br/> |0x00000003  <br/> |
+|低  <br/> |0x00000006  <br/> |
+|中等  <br/> |0x00000005  <br/> |
+|高  <br/> |0x00000003  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Microsoft Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Microsoft Exchange Server 协议规范的引用。
     
-[[MS OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[毫秒-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> 允许处理的允许/阻止列表，并确定的垃圾邮件。
+> 启用对允许/阻止列表的处理以及确定垃圾邮件。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

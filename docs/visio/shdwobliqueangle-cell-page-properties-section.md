@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2e0b9754-3e3b-3a26-4e1a-e09102055c20
 description: 包含指定应用默认页面阴影类型时的倾斜方向角度的数字。
-ms.openlocfilehash: 4549ce7b5202b4649a925b04ea54c0d5df569599
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2eca29bbc735c7101ca82a2f26db30b2e344b8e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781343"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349061"
 ---
-# <a name="shdwobliqueangle-cell-page-properties-section"></a>ShdwObliqueAngle 单元格（“Page Properties”部分）
+# <a name="shdwobliqueangle-cell-page-properties-section"></a>ShdwObliqueAngle 单元格（“Page Properties”内容）
 
 包含指定应用默认页面阴影类型时的倾斜方向角度的数字。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 此单元格中的值为零 (0) 时表示角度方向为垂直向上，并且按照顺时针度量。
   
- ShapeShdwType 单元格 （页上的形状的阴影类型） 设置为页面默认值 (**visFSTPageDefault** )，以及是倾斜的阴影类型使用此单元格中描述的角度。 ShdwType 单元格中定义的默认页面阴影类型。 
+ 只要 ShapeShdwType 单元格 (页面上的形状的阴影类型) 设置为 "页面默认值" (**visFSTPageDefault** ), 且阴影类型为倾斜, 则使用此单元格中描述的角度。 默认的页面阴影类型是在 ShdwType 单元格中定义的。 
   
 要为单个形状设置此行为，请使用“Fill Format”内容中的 ShapeShdwObliqueAngle 单元格。
   

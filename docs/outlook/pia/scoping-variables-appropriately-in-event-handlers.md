@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c8a1a418a315167cc96be5b9b5f65a0f4cd9ce44
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342250"
 ---
 # <a name="scoping-variables-appropriately-in-event-handlers"></a>在事件处理程序中适当设定变量作用范围
 

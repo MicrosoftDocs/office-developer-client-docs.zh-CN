@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9169a5be-21dd-4938-8db3-522bea165c92
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0765e46a6f0545682b16e484d08d296ea13e2136
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 5a01c65bbec061248537558257c66d1a90128b5e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348648"
 ---
 # <a name="itnefextractprops"></a>ITnef::ExtractProps
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-从 TNEF 封装提取属性。 
+从 TNEF 封装中提取属性。 
   
 ```cpp
 HRESULT ExtractProps(
@@ -39,52 +39,52 @@ HRESULT ExtractProps(
 
  _ulFlags_
   
-> [in]位掩码的标志，控制如何能够解码属性。 可以设置以下标志：
+> 实时用于控制如何对属性进行解码的标志的位掩码。 可以设置以下标志:
     
 TNEF_PROP_EXCLUDE 
   
-> 解码未在_lpPropList_参数中指定的所有属性。 
+> 对未在_lpPropList_参数中指定的所有属性进行解码。 
     
 TNEF_PROP_INCLUDE 
   
-> 解码_lpPropList_中指定的所有属性。
+> 对在_lpPropList_中指定的所有属性进行解码。
     
  _lpPropList_
   
-> [in]一个指向属性中包含或排除解码操作的列表。
+> 实时一个指针, 指向要在解码操作中包含或排除的属性的列表。
     
  _lpProblems_
   
-> [输出]指向返回[STnefProblemArray](stnefproblemarray.md)结构指针的指针。 **STnefProblemArray**结构表明哪些属性中，如果有，已未编码的正确。 如果_lpProblems_参数中传递了 NULL，则返回没有属性问题数组。 
+> 排除指向返回的[STnefProblemArray](stnefproblemarray.md)结构的指针的指针。 **STnefProblemArray**结构指示哪些属性 (如果有) 未正确编码。 如果在_lpProblems_参数中传递 NULL, 则不返回属性问题数组。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功，并返回预期的值。
+> 调用成功, 并返回了所需的一个或一些值。
     
 MAPI_E_CORRUPT_DATA 
   
-> 正在为流解码的数据已损坏。
+> 解码为流的数据已损坏。
     
 ## <a name="remarks"></a>注解
 
-传输提供程序、 消息存储提供程序，和网关调用**ITnef::ExtractProps**方法以提取 （即，解码） 从邮件或附件已传递给[OpenTnefStream](opentnefstream.md)函数封装的属性。 呼叫提供商或网关可以指定要解码属性的列表。 提供程序和网关还可以使用**ExtractProps**提供信息的附件的任何特殊处理。 
+传输提供程序、邮件存储提供程序和网关调用**ITnef:: ExtractProps**方法从传递给[OpenTnefStream](opentnefstream.md)函数的邮件或附件的封装中提取 (即解码) 属性。 调用提供程序或网关可以指定要解码的属性列表。 提供程序和网关也可以使用**ExtractProps**来提供有关附件的任何特殊处理的信息。 
   
- **ExtractProps**填充原始邮件传递到**OpenTnefStream**具有已解码的属性。 后续**ExtractProps**调用返回到邮件并提取的属性的新列表。 
+ **ExtractProps**使用已解码的属性填充传递给**OpenTnefStream**的原始邮件。 随后的**ExtractProps**调用将返回到邮件并提取新的属性列表。 
   
-与[ITnef::AddProps](itnef-addprops.md)方法，调用**ITnef::Finish**方法之前，队列将请求操作，不同**ExtractProps**方法在被调用时立即解码封装的属性。 因此，用于封装解码的目标消息应为相对空。 通过封装属性来覆盖目标邮件中的现有属性。 
+与[ITnef:: AddProps](itnef-addprops.md)方法 (该方法在调用**ITnef:: Finish**方法之前对所请求的操作进行排队) 不同, **ExtractProps**方法会在调用时立即对封装的属性进行解码。 因此, 封装解码的目标邮件应相对空。 目标邮件中的现有属性将被封装属性覆盖。 
   
- **ExtractProps**仅支持使用 TNEF_DECODE 标志**OpenTnefStream**或[OpenTnefStreamEx](opentnefstreamex.md)函数打开的对象。 
+ 仅在使用**OpenTnefStream**或[OpenTnefStreamEx](opentnefstreamex.md)函数的 TNEF_DECODE 标志打开的对象中, 才支持**ExtractProps** 。 
   
-TNEF 实现报告而不停止**ExtractProps**进程 TNEF 流编码问题。 返回在_lpProblems_ [STnefProblemArray](stnefproblemarray.md)结构指示哪些 TNEF 属性或 MAPI 属性，如果有，无法进行处理。 在**STnefProblemArray**中包含的**STnefProblem**结构之一的**scode**成员中返回的值指示特定问题。 所有属性或特性**ExtractProps**不会返回问题报告都已成功都处理假定可以处理提供程序或网关。 
+tnef 实现在不停止**ExtractProps**进程的情况下报告 TNEF 流编码问题。 _lpProblems_中返回的[STnefProblemArray](stnefproblemarray.md)结构指示无法处理 TNEF 属性或 MAPI 属性 (如果有)。 在**STnefProblemArray**中包含的**STnefProblem**结构之一的**scode**成员中返回的值指出了具体的问题。 提供程序或网关可以在假定**ExtractProps**未返回问题报告的所有属性或属性已成功处理时进行工作。 
   
 > [!NOTE]
-> 如果 MAPI 封装块中的属性不能处理，并保持流解码 TNEF 流过程不可靠，解码封装块的已停止并报告问题。 此类型的问题的问题数组包含 0 L **ulPropTag**成员，`attMAPIProps`或`attAttachment` **ulAttribute**成员和 MAPI_E_UNABLE_TO_COMPLETE **scode**成员。 请注意，流的解码不停止，只需解码的 MAPI 封装块。 流解码继续下一个属性块。 
+> 如果无法处理 MAPI 封装块中的某个属性, 并且在解码 TNEF 流的过程中使该流不可靠, 则会停止对封装块进行解码, 并报告问题。 此类问题的问题数组中`attMAPIProps` `attAttachment`包含**ulPropTag**成员的0L 或**ulAttribute**成员的问题, 以及**scode**成员的 MAPI_E_UNABLE_TO_COMPLETE。 请注意, 流的解码不会暂停, 只是对 MAPI 封装块进行解码。 流解码将继续进行下一个属性块。 
   
-如果提供程序或网关不适用于问题数组，它可以在_lppProblems_; 传递 NULL在这种情况下，则返回没有问题数组。 
+如果提供程序或网关无法处理问题数组, 则它可以在_lppProblems_中传递 NULL;在这种情况下, 不会返回任何问题数组。 
   
-仅当呼叫，则返回 S_OK 有效_lpProblems_中返回的值。 返回 S_OK 时，提供程序或网关应检查**STnefProblemArray**结构中返回的值。 如果在调用出错， **STnefProblemArray**结构未填写并调用提供程序或网关不应使用或释放结构。 如果在调用不产生任何错误，呼叫提供商或网关必须通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数释放**STnefProblemArray**结构的内存。 
+仅当调用返回 S_OK 时, _lpProblems_中返回的值才有效。 当返回 S_OK 时, 提供程序或网关应检查**STnefProblemArray**结构中返回的值。 如果调用时出现错误, 则不会填写**STnefProblemArray**结构, 并且调用提供程序或网关不应使用或释放结构。 如果调用中没有发生错误, 则调用提供程序或网关必须通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数来释放**STnefProblemArray**结构的内存。 
   
 ## <a name="see-also"></a>另请参阅
 

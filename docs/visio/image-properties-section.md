@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2a032f5f-1094-f536-cbd8-7e791b7fa55d
 description: 包含位图（由像素组成的图像）的伽玛值、亮度、对比度、虚化、锐化和去除杂色值，并且仅为上述对象在 ShapeSheet 窗口中显示。
-ms.openlocfilehash: e35b9bacb3154d051249aa38113b78a6bb4e2a90
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32d16e7d7fb308c211c9493720d8a972202d1a71
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344742"
 ---
-# <a name="image-properties-section"></a>“Image Properties”部分
+# <a name="image-properties-section"></a>“Image Properties”内容
 
 包含位图（由像素组成的图像）的伽玛值、亮度、对比度、虚化、锐化和去除杂色值，并且仅为上述对象在 ShapeSheet 窗口中显示。
   

@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm60104
 localization_priority: Normal
 ms.assetid: e7a62a86-36bf-31d3-a33b-2444f72d60fe
-description: 文本字符串中返回字符的数。
-ms.openlocfilehash: 7cc3ffe46c3e47961a687557fc5b4c9aa3c94828
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回文本字符串中的字符数。
+ms.openlocfilehash: 5d0dd56014e1e9965359814fa4de35efd5f385ac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359369"
 ---
 # <a name="len-function-visioshapesheet"></a>LEN 函数 (VisioShapeSheet)
 
-文本字符串中返回字符的数。
+返回文本字符串中的字符数。
   
 ## <a name="syntax"></a>语法
 
-LEN (* **文本** *) 
+LEN (* * *text* * *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |必需  <br/> |**字符串** <br/> |要查找其长度的字符串。  <br/> |
+| _text_ <br/> |必需  <br/> |**String** <br/> |要查找其长度的字符串。  <br/> |
    
 ### <a name="return-value"></a>返回值
 

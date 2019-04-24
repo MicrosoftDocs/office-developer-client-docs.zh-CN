@@ -1,42 +1,42 @@
 ---
-title: 获取默认邮件客户端的特定版本的 MAPI 路径
+title: 获取默认邮件客户端的特定 MAPI 版本的路径
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 1992e34a684a6b5894963eae0c299b21c064578c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346457"
 ---
-# <a name="get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client"></a>获取默认邮件客户端的特定版本的 MAPI 路径
+# <a name="get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client"></a>获取默认邮件客户端的特定 MAPI 版本的路径
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题演示如何获取 MAPI 的计算机上的默认邮件客户端使用的特定版本的路径的 c + + 中包括的代码示例。 MAPI 邮件客户端有一个选项以指定自定义的 DLL 的 MAPI 存根库应加载并调度 MAPI 呼叫到注册表中。 对于此自定义 DLL 设置的默认邮件客户端的注册表项下的默认邮件客户端的**HKLM\Software\Clients\Mail**项是**MSIComponentID**。 [FGetComponentPath](fgetcomponentpath.md)函数，通过 MAPI 存根库，导出 mapistub.dll，可以返回到自定义版本的 MAPI **MSIComponentID**注册表项所指定的路径。 
+本主题包含 c + + 中的代码示例, 说明如何获取计算机上默认邮件客户端使用的特定 MAPI 版本的路径。 mapi 邮件客户端具有一个选项, 可用于在注册表中指定 mapi 存根库应将 mapi 调用加载并将其发送到的自定义 DLL。 为默认邮件客户端的此自定义 DLL 设置的注册表项是**MSIComponentID**, 在默认邮件客户端的**HKLM\Software\Clients\Mail**项下。 由 mapi 存根库 mapistub 导出的[FGetComponentPath](fgetcomponentpath.md)函数可以返回由**MSIComponentID**注册表项指定的自定义版本的 mapi 的路径。 
   
-此代码示例包含两个函数：`HrGetRegMultiSZValueA`和`GetMAPISVCPath`。 `GetMAPISVCPath`函数使用[FGetComponentPath](fgetcomponentpath.md)获取自定义版本的 MAPI 的路径。 它假定的默认邮件客户端是 Microsoft Office Outlook 2007，并将值，传递给**FGetComponentPath** `{FF1D0740-D227-11D1-A4B0-006008AF820E}`，Outlook 2007 作为组件 ID 的 MAPI **MSIComponentID**注册表项设置。 
+此代码示例包括两个函数`HrGetRegMultiSZValueA` : `GetMAPISVCPath`和。 `GetMAPISVCPath`函数使用[FGetComponentPath](fgetcomponentpath.md)获取自定义版本的 MAPI 的路径。 它假定默认邮件客户端为 Microsoft Office Outlook 2007, 并传递到**FGetComponentPath**的值`{FF1D0740-D227-11D1-A4B0-006008AF820E}`, 即 Outlook 2007 设置为**MSIComponentID**注册表项的 MAPI 的组件 ID。 
   
 > [!NOTE]
-> 实际上，不应假定值， `{FF1D0740-D227-11D1-A4B0-006008AF820E}`、 始终是组件 ID 的 MAPI，并直接将其传递给**FGetComponentPath**。 若要可靠地找出哪些版本的 MAPI Outlook 使用的计算机上，必须从注册表中读取的**MSIComponentID**值并将其传递给**FGetComponentPath**。 
+> 实际上, 您不应假定值是 MAPI 的`{FF1D0740-D227-11D1-A4B0-006008AF820E}`组件 ID, 而是直接将其传递给**FGetComponentPath**。 若要可靠地了解计算机上使用的 MAPI Outlook 的版本, 您必须从注册表中读取**MSIComponentID**的值, 并将其传递给**FGetComponentPath**。 
   
-下面的步骤介绍如何`GetMAPISVCPath`执行此操作。 
+下面的步骤介绍了`GetMAPISVCPath`如何执行此操作。 
   
-1. 从系统目录中加载的 MAPI 存根库 mapistub.dll。
+1. 从系统目录中加载 MAPI 存根库 mapistub。
     
-2. 假定 mapistub.dll 导出**FGetComponentPath**函数，它会尝试从 mapistub.dll 获取此函数的地址。 
+2. 假定 mapistub 导出**FGetComponentPath**函数, 它会尝试从 mapistub 获取此函数的地址。 
     
-3. 如果从 mapistub.dll 失败获取地址，它会尝试从 mapi32.dll 获取的地址。
+3. 如果从 mapistub 获取地址失败, 它将尝试从 mapi32 获取地址。
     
-4. 如果获取地址的**FGetComponentPath**成功，则打开注册表，并使用`HrGetRegMultiSZValueA`函数读取下**HKLM\Software\Clients\Mail\Microsoft Outlook**的注册表值。 
+4. 如果获取**FGetComponentPath**的地址成功, 它将打开注册表并使用`HrGetRegMultiSZValueA`函数读取**HKLM\Software\Clients\Mail\Microsoft Outlook**下的注册表值。 
     
-5. 调用**FGetComponentPath**，指定的值， `{FF1D0740-D227-11D1-A4B0-006008AF820E}`，以获取版本的 Outlook 2007 中使用的 MAPI 的路径。
+5. 调用**FGetComponentPath**, 并指定值`{FF1D0740-D227-11D1-A4B0-006008AF820E}`, 以获取 Outlook 2007 使用的 MAPI 版本的路径。
     
-请注意，以支持英语和非英语区域设置的 MAPI 本地化的副本，该代码示例读取**MSIApplicationLCID**和**MSIOfficeLCID**子项的值并调用**FGetComponentPath**，首先指定**MSIApplicationLCID**以及*szQualifier* ，然后再次指定**MSIOfficeLCID**作为*szQualifier* 。 支持非英语语言的邮件客户端的注册表项的详细信息，请参阅[设置 Up MSI 的快捷键 Your MAPI DLL](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)。
+请注意, 若要支持针对英语和非英语区域设置的 MAPI 的本地化副本, 该代码示例将读取**MSIApplicationLCID**和**MSIOfficeLCID**子项的值并调用**FGetComponentPath**, 首先指定**MSIApplicationLCID**作为*szQualifier* , 然后再次将**MSIOfficeLCID**指定为*szQualifier* 。 有关支持非英语语言的邮件客户端的注册表项的详细信息, 请参阅[设置 MAPI DLL 的 MSI 密钥](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)。
   
 ```cpp
 // HrGetRegMultiSZValueA 

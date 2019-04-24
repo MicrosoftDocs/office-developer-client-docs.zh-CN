@@ -8,27 +8,27 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b1ebf5c-3355-4691-bf7b-164d0c411d0c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 526cb55ab8efd2ccd05c1ed5bc91b871ee5b8280
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1ddd8812962fa962f4f2958b5ef3d817f6d2142c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356656"
 ---
 # <a name="pidtagservertypedisplayname-canonical-property"></a>PidTagServerTypeDisplayName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指定要使用此属性的状态栏中显示的 Unicode 字符串。
+指定要在状态栏中显示的使用此属性的 Unicode 字符串。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SERVER_TYPE_DISPLAY_NAME  <br/> |
-|标识符：  <br/> |0x341D  <br/> |
+|标识符:  <br/> |0x341D  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |Common  <br/> |
+|区域：  <br/> |常见  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

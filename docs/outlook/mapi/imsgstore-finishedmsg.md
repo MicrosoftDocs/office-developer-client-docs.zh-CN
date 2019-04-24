@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8b15f12c9a7ac2041c895b935098f9681e4b3a3c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9e7d7ba91791258eca93a2b8bedf95cf121062c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348760"
 ---
 # <a name="imsgstorefinishedmsg"></a>IMsgStore::FinishedMsg
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-启用对已发送的邮件执行处理的消息存储提供程序。 只能通过 MAPI 后台处理程序调用此方法。
+使邮件存储提供程序能够对已发送的邮件执行处理。 此方法仅由 MAPI 后台处理程序调用。
   
 ```cpp
 HRESULT FinishedMsg(
@@ -39,44 +39,44 @@ HRESULT FinishedMsg(
 
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
  _cbEntryID_
   
-> [in]在_lpEntryID_参数指向的项标识符的字节数。 
+> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
     
  _lpEntryID_
   
-> [in]指向要处理的消息的项标识符的指针。
+> 实时指向要处理的邮件的条目标识符的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 在已发送的邮件处理成功。
+> 对已发送邮件的处理已成功。
     
 MAPI_E_NO_SUPPORT 
   
-> 消息存储提供程序不支持已发送的邮件处理。 如果呼叫者不是 MAPI 后台处理程序，则返回此错误值。
+> 邮件存储区提供程序不支持发送的邮件处理。 如果调用方不是 MAPI 后台处理程序, 将返回此错误值。
     
 ## <a name="remarks"></a>注解
 
-**IMsgStore::FinishedMsg**方法对已发送的邮件执行处理。 此过程可涉及删除邮件，并将其移动到另一个文件夹或两种操作。 处理的类型取决于是否设置**PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) 和**PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) 属性。 
+**IMsgStore:: FinishedMsg**方法对已发送的邮件执行处理。 此处理可能涉及删除邮件、将邮件移动到其他文件夹或两种操作。 处理的类型取决于是否设置了**PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) 和**PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) 属性。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-**FinishedMsg**在实现，解除锁定邮件由_lpEntryID_标识，并执行相应的处理。 目标邮件总是被锁定;MAPI 后台处理程序永远不会将解除锁定的消息的项标识符传递给**FinishedMsg**。
+在**FinishedMsg**的实现中, 解锁_lpEntryID_标识的邮件并执行相应的处理。 目标邮件将始终处于锁定状态;MAPI 后台处理程序从不将未锁定邮件的条目标识符传递给**FinishedMsg**。
   
-很可能，既不设置**PR_DELETE_AFTER_SUBMIT**或**PR_SENTMAIL_ENTRYID** 、 两者都设置，或设置一个或另一个。 下表介绍您应执行的操作基于在设置: 
+**PR_DELETE_AFTER_SUBMIT**或**PR_SENTMAIL_ENTRYID**的设置可能既不是已设置的, 也可能是一个或另一个设置。 下表描述了应基于设置执行的操作: 
   
 |||
 |:-----|:-----|
-|如果既属性设置：  <br/> |将邮件保留从中发送 （通常发件箱） 的文件夹中。  <br/> |
-|如果设置两个属性：  <br/> |将邮件移动到指定的文件夹中，如果需要，并将其删除。  <br/> |
-|如果设置 PR_SENTMAIL_ENTRYID:  <br/> |将邮件移动到指定的文件夹。  <br/> |
-|如果设置 PR_DELETE_AFTER_SUBMIT:  <br/> |删除邮件。  <br/> |
+|如果两个属性都不设置:  <br/> |将邮件保留在发送邮件的文件夹中 (通常为 "发件箱")。  <br/> |
+|如果同时设置这两个属性:  <br/> |如果需要, 将邮件移至指定的文件夹, 然后将其删除。  <br/> |
+|如果设置了 PR_SENTMAIL_ENTRYID:  <br/> |将邮件移动到指定的文件夹。  <br/> |
+|如果设置了 PR_DELETE_AFTER_SUBMIT:  <br/> |删除邮件。  <br/> |
    
-您已采取任何操作适合后，调用[IMAPISupport::DoSentMail](imapisupport-dosentmail.md)方法。 
+采取任何适合的操作后, 请调用[IMAPISupport::D osentmail](imapisupport-dosentmail.md)方法。 
   
 ## <a name="see-also"></a>另请参阅
 

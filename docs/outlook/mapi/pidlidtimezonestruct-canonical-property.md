@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2acf0036-2f3e-4f90-8614-7aa667860f74
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b9c2a1bbf519379c1735c489c2dcd3fcfb395a60
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346373"
 ---
 # <a name="pidlidtimezonestruct-canonical-property"></a>PidLidTimeZoneStruct 规范属性
 
@@ -25,21 +25,21 @@ ms.locfileid: "25401613"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含映射到[TZREG](https://msdn.microsoft.com/library/bb820983%28v=office.12%29.aspx)结构，其中介绍了用于定期约会或会议请求的开始和结束时间的时区的持久化格式的流。 
+包含映射到[TZREG](https://msdn.microsoft.com/library/bb820983%28v=office.12%29.aspx)结构的保留格式的流, 该格式描述要用于定期约会或会议请求的开始和结束时间的时区。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTimeZoneStruct  <br/> |
-|属性进行设置：  <br/> |PSETID_Appointment  <br/> |
-|长 ID （盖）：  <br/> |0x00008233  <br/> |
+|属性集:  <br/> |PSETID_Appointment  <br/> |
+|长 ID (盖子):  <br/> |0x00008233  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-Microsoft Office Outlook 2003，早期版本的 Outlook 和应用程序上协作数据对象 (CDO) 1.21 基于其用户还未运行 Outlook 或 Exchange Server 提供的日历更新工具存储的开始时间和结束时间定期约会或会议请求为相对的时间，并将存储其中**dispidTimeZoneStruct**中创建约会或会议请求的时区。 但是，将忽略此方案，随时间推移，时区规则可以更改，导致某些约会和会议安排规则更改，并在不正确的时间之前该用户。 用户和用户未运行 Windows Vista 或那些没有开启自动更新的管理员应使用定位提供 Outlook 或 Exchange Server 调整此类约会和会议请求的时间的工具的日历。 有关这些日历调整工具和重定日历基值的 Api 的详细信息，请参阅[关于编程方式为夏时制调整日历](https://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx)
+Microsoft Office Outlook 2003, 早期版本的 Outlook, 以及基于协作数据对象 (CDO) 1.21 的应用程序, 其用户未运行 Outlook 或 Exchange Server 存储提供的日历更新工具的开始时间和结束时间相对于相对时间的定期约会或会议请求, 并存储在**dispidTimeZoneStruct**中创建约会或会议请求的时区。 但是, 这种方案将忽略这一段时间, 时区规则可能会更改, 从而导致在规则发生更改并在不正确的时间发生之前计划用户的一些约会和会议。 未运行 Windows Vista 或未启用自动更新的用户和管理员应使用 Outlook 或 Exchange Server 提供的日历重定工具来调整此类约会和会议请求的时间。 有关可变基日历的这些日历重定工具和 api 的详细信息, 请参阅 "[关于以编程方式重定日历" 以实现夏时制](https://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx)
   
-使用以下-little-endian 格式时分析流持久化到流**TZREG**结构时所获得从**dispidTimeZoneStruct**，或提交到**dispidTimeZoneStruct**二进制属性。 
+在分析从**dispidTimeZoneStruct**获取的流时, 或者在将**TZREG**结构保留为要提交到**dispidTimeZoneStruct**二进制属性的流时, 使用以下小字节格式的格式。 
   
 ```cpp
 long        lBias;           // offset from GMT
@@ -51,23 +51,23 @@ WORD        wDaylightYear;      // matches the stDaylightDate's wYear field
 SYSTEMTIME  stDaylightDate;  // time to switch to daylight time
 ```
 
-此属性设置为定期系列上指定时区信息，并指定如何转换本地时间与协调世界时 (UTC) 之间的时间字段。
+此属性在定期系列上设置, 以指定时区信息, 并指定如何在本地时间与协调通用时间 (UTC) 之间转换时间字段。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

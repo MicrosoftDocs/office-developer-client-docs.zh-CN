@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01bd3235-22cc-4ff3-b2b6-341ce622128b
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d7886d08c21e8fff9aceb3437ecb6bbbd970ed7b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 4e478c9e8978125a37691ee5bd97fa9f1cbce077
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348690"
 ---
 # <a name="ipropdatahrsetobjaccess"></a>IPropData::HrSetObjAccess
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-设置该对象的访问级别。
+设置对象的访问级别。
   
 ```cpp
 HRESULT HrSetObjAccess(
@@ -37,33 +37,33 @@ HRESULT HrSetObjAccess(
 
  _ulAccess_
   
-> [in]位掩码的标志，指定对象的访问级别。 可以设置以下标志之一：
+> 实时指定对象的访问级别的标志的位掩码。 可以设置下列标志之一:
     
 IPROP_READONLY 
   
-> 将对象的访问级别设置为只读的。 
+> 将对象的访问级别设置为只读。 
     
 IPROP_READWRITE 
   
-> 设置对象的访问级别，以读/写。
+> 将对象的访问级别设置为 "读/写"。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功将对象的访问级别设置。
+> 已成功设置对象的访问级别。
     
 ## <a name="remarks"></a>注解
 
-**IPropData::HrSetObjAccess**方法将设置为整个对象，而不是为各个属性的访问级别。 **HrSetObjAccess**可用于更改时创建的对象已建立的访问级别。 
+**IPropData:: HrSetObjAccess**方法设置整个对象的访问级别, 而不是设置各个属性的访问级别。 **HrSetObjAccess**可用于更改创建对象时建立的访问级别。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要设置属性的某个访问级别，请首先调用_ulAccess_参数中的设置以使该对象可修改了 IPROP_READWRITE 标记**HrSetObjAccess** 。 然后调用[IPropData::HrSetPropAccess](ipropdata-hrsetpropaccess.md)方法， _lpPropTagArray_参数指向该数组中指定的目标属性。 
+若要设置属性的访问级别, 请先使用_ulAccess_参数中设置的 IPROP_READWRITE 标志调用**HrSetObjAccess** , 使该对象可修改。 然后, 调用[IPropData:: HrSetPropAccess](ipropdata-hrsetpropaccess.md)方法, 在由_lpPropTagArray_参数指向的数组中指定目标属性。 
   
-只读向客户端将与创建对象，创建读/写对象和添加必需属性，然后调用**HrSetObjAccess**更改为只读的对象的访问。 
+若要创建具有对客户端只读属性的对象, 请创建一个读/写对象, 添加所需的属性, 然后调用**HrSetObjAccess**将该对象的访问权限更改为只读。 
   
-您可以使用**HrSetObjAccess**以防止客户端创建新的属性。 
+您还可以使用**HrSetObjAccess**来阻止客户端创建新属性。 
   
 ## <a name="see-also"></a>另请参阅
 

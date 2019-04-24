@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8b3b9c80-f7f4-4f37-bd6b-323469d020f1
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 70aeda8789665a3f35bf75f83f32a92dbeedc8de
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 9f9daa2169a087cf962d09a7c135e2829c7cd1ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346744"
 ---
 # <a name="mapi-hidden-folders"></a>MAPI 隐藏文件夹
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-隐藏的文件夹是通用的客户端创建根文件夹的消息存储库，而不是人际邮件 (IPM) 子树的根文件夹中。 由于这些文件夹不放置在 IPM 子树中，它们是通常从视图中隐藏用户的消息存储提供程序。 隐藏的文件夹通常包含相关的消息存储到但不向用户相关的信息。 客户端创建隐藏的文件夹来存储，例如，要保存与文件夹层次结构的其余部分的其他信息。
+隐藏文件夹是客户端在邮件存储区的根文件夹中创建的通用文件夹, 而不是在人际邮件 (IPM) 子树的根文件夹中创建的文件夹。 由于这些文件夹不放置在 IPM 子树中, 因此邮件存储提供程序通常会将这些文件夹隐藏在用户的视图中。 隐藏的文件夹通常包含与邮件存储区相关但与用户无关的信息。 客户端创建用于存储的隐藏文件夹, 例如, 与文件夹层次结构的其余部分一起保存的附加信息。
   
-MAPI 需要所有客户端能够显示、 创建、 修改和删除 IPM 子树中的文件夹。 使用其他树中的文件夹的支持会被视为是可选的。 但是，可用于为默认存储和的可以发送和接收邮件的所有邮件存储应完全都支持隐藏的文件夹。
+MAPI 要求所有客户端都能够显示、创建、修改和删除 IPM 子树中的文件夹。 对在其他树中使用文件夹的支持被认为是可选的。 但是, 所有可用作默认存储的邮件存储以及可以发送和接收邮件的所有邮件都应完全支持隐藏文件夹。
   
 ## <a name="see-also"></a>另请参阅
 

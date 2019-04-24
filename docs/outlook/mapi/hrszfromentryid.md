@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 5e3ed6b2-8eaf-44ab-bc6a-d3faabe84a93
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 366208b8288aeb61bf1bb78f2c9f10b400a3dc26
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4020a9161a51994ebe5b7e339d26f7612ad47361
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346415"
 ---
 # <a name="hrszfromentryid"></a>HrSzFromEntryID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-编码为 ASCII 字符串的项标识符。 
+将条目标识符编码为 ASCII 字符串。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
    
 ```cpp
 HrSzFromEntryID(
@@ -45,15 +45,15 @@ HrSzFromEntryID(
 
  _cb_
   
-> [in]大小，以字节为单位_pentry_参数指向的项标识符。 
+> 实时由_pentry_参数指向的条目标识符的大小 (以字节为单位)。 
     
  _pentry_
   
-> [in]指向[ENTRYID](entryid.md)结构，其中包含要编码的项标识符的指针。 
+> 实时指向包含要编码的条目标识符的[ENTRYID](entryid.md)结构的指针。 
     
  _psz_
   
-> [输出]指向返回 ASCII 字符串。
+> 排除指向返回的 ASCII 字符串的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -61,10 +61,10 @@ HrSzFromEntryID(
   
 ## <a name="remarks"></a>注解
 
-[HrEntryIDFromSz](hrentryidfromsz.md)和**HrSzFromEntryID**函数提供的字符串和项标识符的二进制格式之间的转换。 使用 MAPI，应使用二进制数据结构。 
+[HrEntryIDFromSz](hrentryidfromsz.md)和**HrSzFromEntryID**函数提供条目标识符的字符串和二进制格式之间的转换。 使用 MAPI 时, 应使用二进制数据的结构。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-**HrSzFromEntryID**函数使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数的 ASCII 字符串分配内存。 
+**HrSzFromEntryID**函数使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数为 ASCII 字符串分配内存。 
   
 

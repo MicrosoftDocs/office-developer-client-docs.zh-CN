@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 02e18d97-25d2-49a3-a63d-26a70895e21c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fbadc9407a181ba58b4bcd726df05465b11dc789
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 04d97dfeeef28aac1d0bbf963074b4262d4fed3d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570944"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346303"
 ---
 # <a name="pidtagreportingmessagetransferagentcertificate-canonical-property"></a>PidTagReportingMessageTransferAgentCertificate 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含生成报告的邮件传输代理的标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_REPORTING_MTA_CERTIFICATE  <br/> |
-|标识符：  <br/> |0x1004  <br/> |
+|标识符:  <br/> |0x1004  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性对应于 X.400 报告每封邮件属性。
+此属性对应于每个邮件一个 X. 400 报告属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

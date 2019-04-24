@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c18955c8-d653-c29d-d3da-9d3cd0241e17
 description: 确定文本范围下是否带有双下划线。
-ms.openlocfilehash: d0a07d8c86bd7e9ed3eb14074dda164f82c92475
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2708e7f55e1fd04d5fb902b3d382035790cbbcc2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357461"
 ---
-# <a name="doubleuline-cell-character-section"></a>DoubleULine 单元格（“Character”部分）
+# <a name="doubleuline-cell-character-section"></a>DoubleULine 单元格（“Character”内容）
 
 确定文本范围下是否带有双下划线。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |文本下带有双下划线。  <br/> |
 |FALSE  <br/> |文本下不带双下划线。  <br/> |
@@ -35,14 +35,14 @@ ms.locfileid: "19780146"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |Char.DblUnderline [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
+|单元格名称：  <br/> |DblUnderline [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
    
 若要从某个程序按索引获取对 DoubleULine 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionCharacter** <br/> |
-|行索引：  <br/> |**visRowCharacter** +  *i*其中*i* = 0、 1、 2...  <br/> |
+|行索引：  <br/> |**visRowCharacter** +  *i* = ** 0、1、2 .。。  <br/> |
 |单元格索引：  <br/> |**visCharacterDblUnderline** <br/> |
    
 

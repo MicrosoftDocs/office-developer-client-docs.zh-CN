@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f8d0b7b9-2798-4d29-99e4-17da99039361
-description: 上次修改时间： 2012 年 2 月 20 日
+description: '上次修改时间: 2012 年2月20日'
 ms.openlocfilehash: dbb18ce712d7900106f2c8dd18404e47d8bdbdb7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356845"
 ---
 # <a name="mnlscomparestringw"></a>MNLS_CompareStringW
 
@@ -37,35 +37,35 @@ int MNLS_CompareStringW (
 
  _lcid_
   
-> [in]区域设置标识符。 有关详细的定义，请参阅_Locale_参数的[CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)。
+> 实时区域设置标识符。 有关详细的定义, 请参阅[CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)的_Locale_参数。
     
  _dwFlags_
   
-> [in]要忽略大小写和音调符号的标志。 有关详细的定义，请参阅[CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)的_dwCmpFlags_参数。
+> 实时用于忽略大小写和音调符号的标志。 有关详细的定义, 请参阅[CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)的_dwCmpFlags_参数。
     
  _pstr1_
   
-> [in]指向要比较的第一个 Unicode 字符串。
+> 实时指向要比较的第一个 Unicode 字符串的指针。
     
  _cch1_
   
-> [in]以字符数计不包括 null 终止符的第一个 Unicode 字符串的长度。 如果 string 是 null 结尾，应用程序可以提供一个负值。 在这种情况下， **MNLS_CompareStringW**函数将自动确定长度。 
+> 实时第一个 Unicode 字符串的长度 (以字符为单位), 不包括终止的 null 字符。 如果字符串是以 null 结尾的, 则应用程序可以提供一个负值值。 在这种情况下, **MNLS_CompareStringW**函数将自动确定长度。 
     
  _pstr2_
   
-> [in]指向要比较的第二个 Unicode 字符串。
+> 实时指向要比较的第二个 Unicode 字符串的指针。
     
  _cch2_
   
-> [in]在不包括 null 终止符的第二个 Unicode 字符串的字符的长度。 如果 string 是 null 结尾，应用程序可以提供一个负值。 在这种情况下，该函数将自动确定长度。
+> 实时第二个 Unicode 字符串的长度 (以字符为单位), 不包括终止的 null 字符。 如果字符串是以 null 结尾的, 则应用程序可以提供一个负值值。 在这种情况下, 函数将自动确定长度。
     
 ## <a name="return-value"></a>返回值
 
-返回 for [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)所述的值。
+返回为[CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)描述的值。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此函数的换行[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)。 **MNLS_CompareStringW**采用相同参数具有[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)相同的行为。
+此函数将包装[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)。 **MNLS_CompareStringW**采用相同的参数, 并具有与[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)相同的行为。
   
 ## <a name="see-also"></a>另请参阅
 

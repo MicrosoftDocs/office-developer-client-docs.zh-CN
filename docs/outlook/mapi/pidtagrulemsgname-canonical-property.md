@@ -13,11 +13,11 @@ api_type:
 ms.assetid: eefbcdd4-9841-4742-b976-e85c8e686dda
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bd47674def00aef5879707d5a37c2ca3c389f386
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384337"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359519"
 ---
 # <a name="pidtagrulemsgname-canonical-property"></a>PidTagRuleMsgName 规范属性
 
@@ -30,31 +30,31 @@ ms.locfileid: "25384337"
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RULE_MSG_NAME  <br/> |
-|标识符：  <br/> |0x65EC  <br/> |
+|标识符:  <br/> |0x65EC  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
-|区域：  <br/> |Rules  <br/> |
+|区域：  <br/> |规则  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[毫秒-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> 处理传入的电子邮件服务器上。
+> 在服务器上操纵传入电子邮件。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

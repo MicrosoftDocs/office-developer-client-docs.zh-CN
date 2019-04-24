@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: eb3b3b3c9c2e9cffb77febf9c96baed40ce3f9e8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1afd922459be2ec4bbbd27a61fdf6fcb425548c9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351329"
 ---
 # <a name="sccopyprops"></a>ScCopyProps
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-复制到新目标[SPropValue](spropvalue.md)结构的数组定义的属性。 
+将由[SPropValue](spropvalue.md)结构数组定义的属性复制到新目标。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 SCODE ScCopyProps(
@@ -46,19 +46,19 @@ SCODE ScCopyProps(
 
  _cprop_
   
-> [in]要复制的属性的计数。 
+> 实时要复制的属性的计数。 
     
  _rgprop_
   
-> [in]为数组定义要复制的属性的[SPropValue](spropvalue.md)结构的指针。 _Rgprop_参数没有为指向开始的数组，但它必须指向某数组中的**SPropValue**结构开始处。 
+> 实时指向定义要复制的属性的[SPropValue](spropvalue.md)结构数组的指针。 _rgprop_参数不必指向数组的开头, 但它必须指向数组中的一个**SPropValue**结构的开始位置。 
     
  _pvDst_
   
-> [in]指向此函数将属性复制到内存中的初始位置的指针。 
+> 实时指向此函数将在其中复制属性的内存中的初始位置的指针。 
     
  _pcb_
   
-> [输出]指向的大小，以字节为单位的内存_pvDst_参数指向的块的可选指针。 
+> 排除可选指针, 指向由_pvDst_参数指向的内存块的大小 (以字节为单位)。 
     
 ## <a name="return-value"></a>返回值
 
@@ -68,15 +68,15 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER
   
-> 遇到了未知的属性类型。
+> 遇到未知的属性类型。
     
 ## <a name="remarks"></a>注解
 
-新的数组和其数据驻留在创建一个分配，与缓冲区和[ScRelocProps](screlocprops.md)函数可用于调整中的单个[SPropValue](spropvalue.md)结构的指针。 在此调整之前, 指针是有效。 
+新数组及其数据驻留在通过单个分配创建的缓冲区中, [ScRelocProps](screlocprops.md)函数可用于调整各个[SPropValue](spropvalue.md)结构中的指针。 在此调整之前, 指针有效。 
   
- **ScCopyProps**维持复制的属性数组的原始属性顺序。 
+ **ScCopyProps**维护复制的属性数组的原始属性顺序。 
   
-_Pcb_参数是可选的。如果不为 NULL，则将其设置为_pvDst_参数中存储的字节数。 
+_pcb_参数是可选的;如果不为 NULL, 则将其设置为_pvDst_参数中存储的字节数。 
   
 ## <a name="see-also"></a>另请参阅
 

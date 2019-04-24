@@ -8,11 +8,11 @@ ms.assetid: 69736f40-8f67-46c2-abf6-82dffecb2274
 description: 了解 Visio 2013 中的新文件格式，探索以编程方式处理 Visio 2013 文件格式的一些高级概念，并创建一个用于检查 Visio 2013 文件的简单控制台应用程序。
 localization_priority: Priority
 ms.openlocfilehash: 74c0f05a1db280386f3dc9dfd23da73a9b2daaf5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357272"
 ---
 # <a name="introduction-to-the-visio-file-format-vsdx"></a>Visio 文件格式 (.vsdx) 简介
 
@@ -290,6 +290,6 @@ XML 绘图格式和 Visio 2013 文件格式之间的最大区别是打包。 可
     
 - [开放打包约定的基础知识](https://msdn.microsoft.com/library/ee361919.aspx)
     
-- [Office (2007) Open XML 文件格式简介](https://msdn.microsoft.com/library/aa338205.aspx)
+- [Office (2007) Open XML 文件格式](https://msdn.microsoft.com/library/aa338205.aspx)
     
 

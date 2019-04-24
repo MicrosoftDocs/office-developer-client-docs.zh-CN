@@ -1,5 +1,5 @@
 ---
-title: 读取并分析的定期模式
+title: 读取和分析定期模式
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,39 +7,39 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: c226fe79fd002cda3c557fc8416c25f98ad33626
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345925"
 ---
-# <a name="read-and-parse-a-recurrence-pattern"></a>读取并分析的定期模式
+# <a name="read-and-parse-a-recurrence-pattern"></a>读取和分析定期模式
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 可用于读取并分析的定期模式的约会。
+MAPI 可用于读取和分析约会的定期模式。
   
-有关如何下载、 查看和从本主题中所述的 MFCMAPI 应用程序项目运行代码的信息，请参阅[安装使用本节中的示例](how-to-install-the-samples-used-in-this-section.md)。
+有关如何从本主题所引用的 MFCMAPI 应用程序项目中下载、查看和运行代码的信息, 请参阅[Install the 本节中使用的示例](how-to-install-the-samples-used-in-this-section.md)。
 
 ### <a name="to-parse-a-recurrence-blob"></a>分析定期 blob
 
-1. 打开一个约会项目。 有关打开的消息的信息，请参阅[打开一条消息](opening-a-message.md)。
+1. 打开约会项目。 有关打开邮件的信息, 请参阅[打开邮件](opening-a-message.md)。
     
-2. 检索命名的属性**dispidApptRecur** （[PidLidAppointmentRecur 规范属性](pidlidappointmentrecur-canonical-property.md)）。 有关检索名为属性的信息，请参阅[MAPI 命名属性](mapi-named-properties.md)。
+2. 检索命名属性**dispidApptRecur** ([PidLidAppointmentRecur 规范属性](pidlidappointmentrecur-canonical-property.md))。 有关检索命名属性的信息, 请参阅[MAPI 命名属性](mapi-named-properties.md)。
     
-3. 按照[[MS OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx)读取约会定期模式结构中的指南。 
+3. 按照[[OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx)中的指导操作, 以读取约会定期模式结构。 
     
-MFCMAPI 参考应用程序演示与的最后一步`BinToAppointmentRecurrencePatternStruct`MFCMapi 项目的 InterpretProp2.cpp 源文件中的函数。 `BinToAppointmentRecurrencePatternStruct`函数指针作为参数的内存的缓冲区中。 MFCMAPI 应用程序通过第一个映射**dispidApptRecur**命名属性设为一个属性标记，然后通过请求属性的值使用[IMAPIProp::GetProps](imapiprop-getprops.md)方法来获取此缓冲区。 如果该属性是太大，无法检索使用**GetProps**方法，MFCMAPI 打开的流界面检索使用[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法的属性。 然后，MFCMAPI 应用程序读取超出要构建缓冲区的流数据。 
+MFCMAPI 参考应用程序演示在 MFCMAPI 项目的 InterpretProp2 `BinToAppointmentRecurrencePatternStruct`源文件中, 函数的最后一步。 `BinToAppointmentRecurrencePatternStruct`函数采用指向内存中的缓冲区的指针作为参数。 MFCMAPI 应用程序通过先将**dispidApptRecur**命名属性映射到一个属性标记, 然后通过使用[IMAPIProp:: GetProps](imapiprop-getprops.md)方法请求属性的值, 来获取此缓冲区。 如果属性太大, 无法使用**GetProps**方法检索, MFCMAPI 将打开 stream 接口, 以使用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法检索属性。 然后, MFCMAPI 应用程序将数据从流中读取, 以生成缓冲区。 
   
-缓冲区的格式的信息，请参阅[PidLidAppointmentRecur 规范属性](pidlidappointmentrecur-canonical-property.md)。 批量缓冲区中的数据包含的固定数量的字节，必须读取逐个字段。 其他字段包含某些值，并且某些字段的大小可能依赖的其他字段的值时，才会存在这些字段。 分析要读取的各个字段的缓冲区涉及大量的记帐。 MFCMAPI 使用名为内部帮助器类`CBinaryParser`来封装此记帐。 例如，`CBinaryParser::GetDWORD`函数检查是否足够的字节数保留在缓冲区读取一个 DWORD，然后读取值并更新指针。 
+有关缓冲区格式的信息, 请参阅[PidLidAppointmentRecur 规范属性](pidlidappointmentrecur-canonical-property.md)。 缓冲区中的数据量由固定字节数的字段组成, 这些字段必须在另一项之后读取。 某些字段仅在其他字段包含特定值时显示, 并且某些字段的大小可能取决于其他字段的值。 分析缓冲区以读取不同的字段会涉及大量的簿记。 MFCMAPI 使用名`CBinaryParser`为的内部帮助程序类来封装此簿记。 例如, 函数将`CBinaryParser::GetDWORD`检查缓冲区中是否留有足够的字节来读取 DWORD, 然后读取值并更新指针。 
   
-缓冲区分析成一个结构后，使用 MFCMAPI 应用程序`AppointmentRecurrencePatternStructToString`函数将结构转换为要向用户显示的字符串。 这不是 Outlook 会显示，而是在其 Outlook 构建其逻辑数据的原始视图相同的字符串。 
+将缓冲区解析为结构后, MFCMAPI 应用程序将使用`AppointmentRecurrencePatternStructToString`函数将结构转换为要向用户显示的字符串。 这并不是 outlook 将显示的字符串, 而是 outlook 生成其逻辑的数据的原始视图。 
   
-很可能会遇到的缓冲区其中包含已损坏的数据或更多数据不需要进行编码的定期模式。 为了帮助确定这些方案，MFCMAPI 应用程序保留多少数据已成功解析和多少保留在缓冲区中的跟踪。 如果分析完成后，数据仍保留在缓冲区，MFCMAPI 包含结构中此"垃圾邮件数据"，因此它可以检查。
+可以遇到包含损坏的数据或更多数据的缓冲区, 而不是对定期模式进行编码所需的数据。 为了帮助确定这些方案, MFCMAPI 应用程序将跟踪已成功分析的数据量以及缓冲区中剩余的数据量。 如果分析完成后数据仍保留在缓冲区中, 则 MFCMAPI 会在结构中包含此 "垃圾数据", 以便可以对其进行检查。
   
-下面是的完整列表`BinToAppointmentRecurrencePatternStruct`函数。 
+下面是该`BinToAppointmentRecurrencePatternStruct`函数的完整列表。 
   
 ```cpp
 AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULONG cbBin, LPBYTE lpBin)
@@ -212,5 +212,5 @@ AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULON
 
 ## <a name="see-also"></a>另请参阅
 
-- [使用 MAPI 创建 Outlook 2007 项](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
+- [使用 MAPI 创建 Outlook 2007 项目](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

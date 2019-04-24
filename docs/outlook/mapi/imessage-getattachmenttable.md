@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e568917e-6085-4094-8728-89ba90a78c40
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bf100ed916080a91366062f45b9e3349516bdb98
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 9a77d335f3c8980de29dab6e14079c83bd711b43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349271"
 ---
 # <a name="imessagegetattachmenttable"></a>IMessage::GetAttachmentTable
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 返回邮件的附件表。
   
@@ -38,19 +38,19 @@ HRESULT GetAttachmentTable(
 
  _ulFlags_
   
-> [in]创建表与相关的标志的位掩码。 可以设置以下标记： 
+> 实时与表创建相关的标志的位掩码。 可以设置以下标志: 
     
 MAPI_UNICODE 
   
-> 字符串列的 Unicode 格式。 如果未设置 MAPI_UNICODE 标志，字符串列的 ANSI 格式。
+> 字符串列采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串列的格式为 ANSI。
     
 MAPI_DEFERRED_ERRORS 
   
-> 允许**GetAttachmentTable**返回成功，原因可能是完全可调用客户端表之前。 如果表不可用，请进行后续呼叫到它会导致出错。 
+> 允许**GetAttachmentTable**成功返回, 这可能在表完全可用于调用客户端之前。 如果该表不可用, 则对其进行后续调用可能会导致出错。 
     
  _lppTable_
   
-> [输出]为附件表指针的指针。
+> 排除指向附件表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -60,25 +60,25 @@ S_OK
     
 ## <a name="remarks"></a>注解
 
-**IMessage::GetAttachmentTable**方法返回到邮件的附件表，其中包括有关的所有附件信息消息中的指针。 客户端可以获取对仅通过附件表附件的访问。 通过检索的附件数其**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性客户端可以使用几个**IMessage**方法来处理附件。 
+**IMessage:: GetAttachmentTable**方法返回指向邮件附件表的指针, 其中包含有关邮件中所有附件的信息。 客户端只能通过附件表获取附件的访问权限。 通过检索附件编号的**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性, 客户端可以使用多个**IMessage**方法来处理附件。 
   
-没有每个附件的一行。 附件表中的列的完整列表，请参阅[附件表](attachment-tables.md)。
+每个附件都有一个行。 有关附件表中的列的完整列表, 请参阅[附件表](attachment-tables.md)。
   
-附件通常不显示附件表中直到附件，邮件已保存到[IMAPIProp::SaveChanges](imapiprop-savechanges.md)呼叫。 附件表是动态的。 如果客户端创建一个新附件、 删除现有附件，或更改一个或多个属性，对邮件附件进行了**SaveChanges**呼叫后，将更新附件表，以反映新的信息。 
+附件通常不会显示在附件表格中, 直到附件和邮件均已通过调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)保存。 附件表是动态的。 如果客户端创建新附件、删除现有附件或更改一个或多个属性, 则在对邮件上的附件进行**SaveChanges**调用之后, 附件表将进行更新以反映新的信息。 
   
-某些附件表支持多种限制;有些则没有。 限制对支持取决于消息存储提供程序的实现。 
+某些附件表支持各种限制;而不是其他人。 对限制的支持取决于邮件存储提供程序的实现。 
   
-最初打开时，附件表不一定是任何特定顺序排序。 
+最初打开时, 附件表不一定以任何特定的顺序进行排序。 
   
-_UlFlags_参数中设置 MAPI_UNICODE 标志会影响对附件表的以下调用： 
+在_ulFlags_参数中设置 MAPI_UNICODE 标志将影响对附件表的以下调用: 
   
-- [IMAPITable::QueryColumns](imapitable-querycolumns.md)检索列集。 
+- [IMAPITable:: QueryColumns](imapitable-querycolumns.md)检索列集。 
     
-- [IMAPITable::QueryRows](imapitable-queryrows.md)检索行。 
+- [IMAPITable:: QueryRows](imapitable-queryrows.md)检索行。 
     
-- [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) ，若要检索的排序次序。 
+- [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md)检索排序顺序。 
     
-设置与这些呼叫返回任何字符串列的信息将 Unicode 格式的 Unicode 标志请求。 但是，因为不是所有的消息存储提供程序支持 Unicode，设置此标志是仅的请求。
+设置 unicode 标志请求从这些调用返回的任何字符串列的信息都是 Unicode 格式。 但是, 由于并非所有邮件存储提供程序都支持 Unicode, 因此设置此标志只是一个请求。
   
 ## <a name="see-also"></a>另请参阅
 

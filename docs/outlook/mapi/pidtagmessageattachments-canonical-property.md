@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 975f52e6ea0ca7a469a027565f845f9dc0f9c2cf
-ms.sourcegitcommit: 43cff5789e0a0a8cda11277c1a636c8b32d28cdb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30413971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342565"
 ---
 # <a name="pidtagmessageattachments-canonical-property"></a>PidTagMessageAttachments 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "30413971"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性可以排除在[IMAPIProp:: CopyTo](imapiprop-copyto.md)操作中, 也可以包含在[IMAPIProp:: CopyProps](imapiprop-copyprops.md)操作中。 作为 PT_OBJECT 类型的属性, [IMAPIProp:: GetProps](imapiprop-getprops.md)方法无法成功检索它。 其内容应由[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法访问, 请求**IID_IMAPITable**接口标识符。 如果设置了服务提供程序, 则必须将其报告给[IMAPIProp:: GetPropList](imapiprop-getproplist.md)方法, 但如果未设置, 则可能需要报告它。 
   

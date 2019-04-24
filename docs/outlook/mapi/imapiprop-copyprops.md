@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f65da1c8-d49b-44e8-8c66-9c53d088d334
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7319f1abb4a74ee17b0a4a1220215c29434d256b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345505"
 ---
 # <a name="imapipropcopyprops"></a>IMAPIProp::CopyProps
 
@@ -25,7 +25,7 @@ ms.locfileid: "25398400"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-复制或移动所选的属性。 
+复制或移动选定的属性。 
   
 ```cpp
 HRESULT CopyProps(
@@ -43,31 +43,31 @@ HRESULT CopyProps(
 
  _lpIncludeProps_
   
-> [in]一个指向属性标记数组，它指定要复制或移动的属性。 **PR_NULL**不能包含数组 ([PidTagNull](pidtagnull-canonical-property.md))。 _LpIncludeProps_参数不能为**null**。
+> 实时指向指定要复制或移动的属性的属性标记数组的指针。 **PR_NULL**([PidTagNull](pidtagnull-canonical-property.md)) 不能包含在数组中。 _lpIncludeProps_参数不能为**null**。
     
  _ulUIParam_
   
-> [in]进度指示器的父窗口句柄。 
+> 实时进度指示器的父窗口的句柄。 
     
  _lpProgress_
   
-> [in]一个指向进度指示器的实现。 如果_lpProgress_参数中传递**null** ，是通过使用 MAPI 实现显示进度指示器。 除非 MAPI_DIALOG 标志设置_ulFlags_参数中，将忽略该_lpProgress_参数。 
+> 实时指向进度指示器的实现的指针。 如果在_lpProgress_参数中传递**null** , 则将使用 MAPI 实现显示进度指示器。 除非在_ulFlags_参数中设置了 MAPI_DIALOG 标志, 否则将忽略_lpProgress_参数。 
     
  _lpInterface_
   
-> [in]指向接口标识 (IID) 表示必须用于访问_lpDestObj_参数指向的对象的接口的指针。 _LpInterface_参数不为**null**。
+> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示必须用于访问_lpDestObj_参数所指向的对象的接口。 _lpInterface_参数不能为**null**。
     
  _lpDestObj_
   
-> [in]指向要接收复制或移动属性的对象的指针。
+> 实时指向接收复制或移动的属性的对象的指针。
     
  _ulFlags_
   
-> [in]位掩码的标志，用于控制复制或移动操作。 可以设置以下标志：
+> 实时用于控制复制或移动操作的标志的位掩码。 可以设置以下标志:
     
 MAPI_DECLINE_OK 
   
-> 如果**CopyProps**调用[IMAPISupport::DoCopyProps](imapisupport-docopyprops.md)方法来处理复制或移动操作，则应改为错误值 MAPI_E_DECLINE_COPY 立即返回。 MAPI 设置 MAPI_DECLINE_OK 标志来限制递归。 客户端未设置此标志。 
+> 如果**CopyProps**调用[IMAPISupport::D ocopyprops](imapisupport-docopyprops.md)方法来处理复制或移动操作, 则应立即返回错误值 MAPI_E_DECLINE_COPY。 MAPI_DECLINE_OK 标志由 MAPI 设置以限制递归。 客户端不设置此标志。 
     
 MAPI_DIALOG 
   
@@ -75,51 +75,51 @@ MAPI_DIALOG
     
 MAPI_MOVE 
   
-> **CopyProps**应执行移动操作而不是复制操作。 当未设置此标志时， **CopyProps**执行复制操作。 
+> **CopyProps**应执行移动操作, 而不是复制操作。 如果未设置此标志, **CopyProps**将执行复制操作。 
     
 MAPI_NOREPLACE 
   
-> 不应覆盖目标对象中的现有属性。 如果未设置此标志， **CopyProps**会覆盖现有属性。 
+> 不应覆盖目标对象中的现有属性。 如果未设置此标志, **CopyProps**将覆盖现有属性。 
     
  _lppProblems_
   
-> [传入、 传出]在输入时，为[SPropProblemArray](spropproblemarray.md)结构; 指针的指针否则为**为 null**，指示存在错误信息不需要。 如果_lppProblems_上输入, 的有效指针**CopyProps**中复制一个或多个属性返回有关错误的详细的信息。 
+> [in, out]在输入时, 指向指向[SPropProblemArray](spropproblemarray.md)结构的指针的指针;否则**为 null**, 表示无需提供错误信息。 如果_lppProblems_是有效的输入指针, **CopyProps**将返回有关复制一个或多个属性中的错误的详细信息。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 属性已成功复制或移动。
+> 已成功复制或移动属性。
     
 MAPI_E_COLLISION 
   
-> 不能复制的子对象，因为目标对象中已存在具有相同的显示名称，由**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性中，定义的子对象。 
+> 无法复制子对象, 因为**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性所定义的具有相同显示名称的子对象已经存在于目标对象中。 
     
 MAPI_E_DECLINE_COPY 
   
-> 服务提供商不实现复制操作。
+> 服务提供程序不实施复制操作。
     
 MAPI_E_FOLDER_CYCLE 
   
-> 直接或间接执行复制或移动操作的源对象包含的目标对象。 重要工作可能已执行之前已发现这种情况，所以可能部分修改的源和目标对象。 
+> 执行复制或移动操作直接或间接包含目标对象的源对象。 在发现此条件之前, 可能已经执行了大量的工作, 因此源和目标对象可能被部分修改。 
     
 MAPI_E_INTERFACE_NOT_SUPPORTED 
   
-> 由目标对象不支持_lpInterface_参数标识的接口。 
+> 目标对象不支持由_lpInterface_参数标识的接口。 
     
 MAPI_E_NO_ACCESS 
   
-> 尝试访问其呼叫者没有足够的权限的对象。 如果目标对象是对源对象相同，则返回此错误。
+> 试图访问呼叫者没有足够权限的对象。 如果目标对象与源对象相同, 则返回此错误。
     
-可以为**CopyProps**中返回在**SPropProblemArray**结构中，但不是返回值是以下值。 这些错误应用于单个属性。
+以下值可在**SPropProblemArray**结构中返回, 但不能在**CopyProps**的返回值中返回。 这些错误适用于单个属性。
   
 MAPI_E_BAD_CHARWIDTH 
   
-> 可以设置该 MAPI_UNICODE 标记**CopyProps**不支持 Unicode，或未设置 MAPI_UNICODE 和**CopyProps**支持仅 Unicode。 
+> 设置了 MAPI_UNICODE 标志, 并且**CopyProps**不支持 unicode, 或者未设置 MAPI_UNICODE, 且**CopyProps**仅支持 UNICODE。 
     
 MAPI_E_COMPUTED 
   
-> 该属性不能修改呼叫者，因为它是只读属性，计算目标对象的所有者。 此错误不是严重性。呼叫者应允许复制操作继续。
+> 调用程序无法修改该属性, 因为它是由目标对象的所有者计算的只读属性。 此错误不严重;呼叫者应允许复制操作继续进行。
     
 MAPI_E_INVALID_TYPE 
   
@@ -127,43 +127,43 @@ MAPI_E_INVALID_TYPE
     
 MAPI_E_UNEXPECTED_TYPE 
   
-> 属性类型不需要呼叫者的类型。
+> 属性类型不是调用方预期的类型。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**IMAPIProp::CopyProps**方法复制，或将所选的属性从当前对象移动到目标对象。 **CopyProps**主要用于答复或转发的邮件，其中只将某些从原始邮件属性的差旅与答复或转发副本。 
+**IMAPIProp:: CopyProps**方法将当前对象的选定属性复制或移动到目标对象。 **CopyProps**主要用于答复和转发邮件, 其中只有一些来自原始邮件的属性携带在答复或转发副本中。 
   
-源对象中的任何子对象自动包括在操作并复制或移动全部，无论使用了由[SPropTagArray](sproptagarray.md)结构指示的属性。 默认情况下**CopyProps**覆盖目标对象的匹配从源对象的属性的任何属性。 如果任一复制或移动属性已经存在于目标对象，除非 MAPI_NOREPLACE 标志设置_ulFlags_参数中通过新的属性，来覆盖现有属性。 保持不变，不会被覆盖的目标对象中的现有信息。 
+无论使用由[SPropTagArray](sproptagarray.md)结构指示的属性, 源对象中的任何子对象都会自动包含在操作中并复制或移动到整个中。 默认情况下, **CopyProps**会覆盖目标对象中与源对象的属性匹配的任何属性。 如果目标对象中已存在任何复制或移动的属性, 则新属性将覆盖现有属性, 除非在_ulFlags_参数中设置 MAPI_NOREPLACE 标志。 不会覆盖的目标对象中的现有信息将保持不变。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-您可以提供**CopyProps**完全实现或依赖 MAPI 提供其支持对象中的实现。 如果您想要使用的 MAPI 实现，调用**IMAPISupport::DoCopyProps**方法。 但是，如果您执行委派到**DoCopyProps**处理和传递 MAPI_DECLINE_OK 标志，避免支持呼叫并改为返回 MAPI_E_DECLINE_COPY。 您将使用此标志由调用 MAPI 以避免可能递归复制文件夹时可能发生的。 
+您可以提供**CopyProps**的完全实现, 也可以依赖 MAPI 在其支持对象中提供的实现。 如果要使用 MAPI 实现, 请调用**IMAPISupport::D ocopyprops**方法。 但是, 如果您将处理委派给**DoCopyProps** , 并且您已传递 MAPI_DECLINE_OK 标志, 请避免支持呼叫, 而改为返回 MAPI_E_DECLINE_COPY。 你将通过 MAPI 使用此标志调用, 以避免在复制文件夹时可能发生的递归。 
   
-因为复制操作可能很长，您应显示进度指示器。 如果存在，请使用_lpProgress_参数中传递的[IMAPIProgress](imapiprogressiunknown.md)实现。 如果_lpProgress_为**null**，调用[IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md)方法使用 MAPI 实现。 
+由于复制操作可能很长, 因此应显示进度指示器。 使用在_lpProgress_参数中传递的[IMAPIProgress](imapiprogressiunknown.md)实现 (如果有的话)。 如果_lpProgress_为**null**, 则调用[IMAPISupport::D oprogressdialog](imapisupport-doprogressdialog.md)方法以使用 MAPI 实现。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-不设置 MAPI_DECLINE_OK 标志;它用于通过 MAPI 其呼叫消息存储提供程序**CopyProps**实现。 
+请勿设置 MAPI_DECLINE_OK 标志;它由 MAPI 在其对邮件存储提供程序**CopyProps**实现的调用中使用。 
   
-因为复制和移动操作可能需要花费时间，则最好通过设置 MAPI_DIALOG 标志请求的进度指示器显示。 您可以将_lpProgress_参数设置的**IMAPIProgress**，如果您没有实现或**null**。 如果_lpProgress_为**null**， **CopyProps**将使用 MAPI 提供默认进度指示器。 
+由于复制和移动操作可能需要一些时间, 因此最好通过设置 MAPI_DIALOG 标志来请求显示进度指示器。 您可以将_lpProgress_参数设置为**IMAPIProgress**的实现, 如果有, 则设置为**null**。 如果_lpProgress_为**null**, 则**CopyProps**将使用 MAPI 提供的默认进度指示器。 
   
-您可以通过不设置 MAPI_DIALOG 标志来禁止显示进度指示器。 **CopyProps**将忽略的_ulUIParam_和_lpProgress_参数，并避免显示指示器。 
+您可以通过不设置 MAPI_DIALOG 标志来禁止显示进度指示器。 **CopyProps**将忽略_ulUIParam_和_lpProgress_参数, 并避免显示指示器。 
   
- **CopyProps**可以报告全局和单个错误，或者与一个或多个属性发生的错误。 这些单个错误保持**SPropProblemArray**结构中。 您可以隐藏错误属性级别通过传递**null**，而不是有效的指针，property 问题数组结构参数的报告。 
+ **CopyProps**可以报告一个或多个属性出现的全局和各个错误。 这些单独的错误放在**SPropProblemArray**结构中。 您可以通过为属性问题数组结构参数传递**null**(而不是有效的指针) 来抑制属性级别的错误报告。 
   
-如果您想要接收有关错误的信息，请在_lppProblems_参数中传递一个有效的**SPropProblemArray**结构指针。 时**CopyProps** ，则返回 S_OK，检查与结构中的各个属性的可能错误。 当**CopyProps**返回错误时， **SPropProblemArray**结构中不返回任何信息。 相反，调用[IMAPIProp::GetLastError](imapiprop-getlasterror.md)方法检索详细的错误信息。 
+如果要接收有关错误的信息, 请在_lppProblems_参数中传递有效的**SPropProblemArray**结构指针。 当**CopyProps**返回 S_OK 时, 检查结构中的各个属性可能存在的错误。 当**CopyProps**返回错误时, **SPropProblemArray**结构中不返回任何信息。 相反, 请调用[IMAPIProp:: GetLastError](imapiprop-getlasterror.md)方法以检索详细的错误消息。 
   
-如果**CopyProps** ，则返回 S_OK，通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数释放返回的**SPropProblemArray**结构。 
+如果**CopyProps**返回 S_OK, 请通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数释放返回的**SPropProblemArray**结构。 
   
-如果要复制对源对象类型是唯一的属性，您必须确保目标对象属于同一类型。 **CopyProps**不阻止您关联通常属于一种类型的对象与其他类型的对象的属性。 由您要复制对目标对象有意义的属性。 例如，不应将消息属性复制到通讯簿容器。 
+如果要复制源对象类型所特有的属性, 则必须确保目标对象的类型相同。 **CopyProps**不会阻止您将通常属于一种类型的对象的属性与另一种类型的对象相关联。 您将由您来复制对目标对象有意义的属性。 例如, 不应将邮件属性复制到通讯簿容器。 
   
-若要确保您要复制的相同类型的对象之间，检查源和目标对象相同的类型，通过比较对象指针或调用[IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx)方法。 设置所指的源对象的标准接口_lpInterface_接口标识符。 此外，还要确保**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 属性的对象类型是相同的两个对象。 例如，如果您从一条消息中进行复制，则可设置为 IID_IMessage 和**PR_OBJECT_TYPE** MAPI_MESSAGE 这两个对象的_lpInterface_ 。 
+若要确保在同一类型的对象之间进行复制, 请通过比较对象指针或调用[IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx)方法来检查源和目标对象的类型是否相同。 将_lpInterface_指向的接口标识符设置为源对象的标准接口。 此外, 请确保这两个对象的对象类型或**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 属性相同。 例如, 如果要从邮件中进行复制, 请将这两个对象的_lpInterface_设置为 IID_IMessage, 并将这两个对象的**PR_OBJECT_TYPE**设置为 MAPI_MESSAGE。 
   
-如果_lpDestObj_参数中传递了无效的指针，则结果将无法预料。 
+如果在_lpDestObj_参数中传递无效的指针, 则结果是不可预知的。 
   
-要复制邮件的收件人列表，请调用消息的**CopyProps**方法和属性标记数组中包含的**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 属性。 若要复制邮件的附件，包括**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) 属性。 
+若要复制邮件的收件人列表, 请调用邮件的**CopyProps**方法, 并在属性标记数组中包含**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 属性。 若要复制邮件的附件, 请包含**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) 属性。 
   
-要复制的文件夹或通讯簿容器层次结构或内容表，包含**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) 或**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) 中的属性属性标记数组。 若要包含的文件夹关联的内容表，该数组中包括**PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) 属性。 
+若要复制文件夹或通讯簿容器的层次结构或内容表, 请在**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) 或**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) 属性中添加属性标记数组。 若要包含文件夹的关联内容表, 请在数组中包含**PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) 属性。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -171,8 +171,8 @@ MAPI_E_UNEXPECTED_TYPE
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CopyNamedProps  <br/> |MFCMAPI 使用**IMAPIProp::CopyProps**方法将命名的属性复制到另一条消息。  <br/> |
-|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::OnPasteProperty  <br/> |MFCMAPI 使用**IMAPIProp::CopyProps**方法粘贴已复制从另一个对象的属性。  <br/> |
+|MAPIFunctions  <br/> |CopyNamedProps  <br/> |MFCMAPI 使用**IMAPIProp:: CopyProps**方法将命名属性从一个邮件复制到另一个邮件。  <br/> |
+|SingleMAPIPropListCtrl  <br/> |CSingleMAPIPropListCtrl:: OnPasteProperty  <br/> |MFCMAPI 使用**IMAPIProp:: CopyProps**方法粘贴已从另一个对象复制的属性。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d4ece3af-cb54-4727-8072-0c055381ec11
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: fcd85bf518f4e6466bf15a09e417767bc34df78d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345785"
 ---
 # <a name="mapi-object-and-interface-overview"></a>MAPI 对象和接口概述
 
@@ -21,13 +21,13 @@ ms.locfileid: "25390987"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-C + + 对象类或 C 数据结构从一个或多个 MAPI 接口或相关的函数集继承，MAPI 对象。 下面这些集合相关函数称为于 c + + 开发人员纯虚函数。 对于纯虚函数，MAPI 提供仅函数原型，不实现。 预计的客户端应用程序、 服务提供商或 MAPI 将通过创建继承自接口，且符合的消息的 api 功能描述对象类提供此实现。 只能通过继承的类，可以实例化 MAPI 接口。
+MAPI 对象是从一个或多个 MAPI 接口或相关函数集合继承的 c + + 对象类或 C 数据结构。 这些相关函数集合是 c + + 开发人员已知的纯虚函数。 对于纯虚函数, MAPI 仅提供函数原型, 而不提供实现。 预计客户端应用程序、服务提供程序或 MAPI 将通过以下方式提供此实现: 创建一个继承自接口的对象类, 并符合消息传递 API 的函数说明。 只能通过继承的类来实例化 MAPI 接口。
   
-有许多不同的 MAPI 对象，每个对象继承最终从[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx)接口继承的接口。 **IUnknown**是 OLE 组件对象模型 (COM) 基接口。 它为 MAPI 对象提供的标准机制通信和控件。 COM 规定对象实施如何处理如内存管理、 参数管理、 问题和多线程。 通过与此模型，对象实施符合指定合同由对象中包含的接口。 
+有许多不同的 MAPI 对象, 从最终继承自[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx)接口的接口继承的每个对象。 **IUnknown**是 OLE 组件对象模型 (COM) 基接口。 它为 MAPI 对象提供了用于通信和控制的标准机制。 COM 决定了对象实施者如何处理内存管理、参数管理和多线程等问题。 通过符合此模型, 对象实施者遵循对象中包含的接口指定的协定。 
   
-许多 MAPI 接口继承直接从**IUnknown**，而其他人通过其他两个基本接口之一间接继承： [IMAPIProp: IUnknown](imapipropiunknown.md)属性管理和[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)文件夹和通讯簿访问。 作为独立的独立对象; 从不实现基接口始终实现这些其他对象的一部分，实现的对象派生的接口。 
+许多 MAPI 接口直接从**IUnknown**继承, 而另一些则是通过两个其他基本接口之一间接继承: [IMAPIProp:](imapipropiunknown.md) property management 和 IMAPIContainer 的 IUnknown: [IMAPIProp](imapicontainerimapiprop.md) for folder and通讯簿访问。 基接口永远不会作为单独的独立对象实现;它们始终作为其他对象 (实现派生接口的对象) 的一部分实现。 
   
-MAPI 定义许多类型的对象，每个由一个或多个 MAPI 组件实现。 由客户端实现的对象习惯通过 MAPI、 服务提供商，以及自定义表单组件。 MAPI 和客户端，通常使用由服务提供商实现的对象。 对象实现由表单库提供程序以及其他窗体组件和客户端使用窗体服务器。 
+MAPI 定义了许多类型的对象, 每个对象都由一个或多个 MAPI 组件实现。 由 MAPI、服务提供商和自定义表单组件使用由客户端实现的对象。 由服务提供程序实现的对象通常由 MAPI 和客户端使用。 由窗体库提供程序和窗体服务器实现的对象由其他表单组件和客户端使用。 
   
 ## <a name="see-also"></a>另请参阅
 

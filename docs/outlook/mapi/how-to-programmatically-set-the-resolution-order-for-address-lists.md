@@ -1,57 +1,57 @@
 ---
-title: 以编程方式设置地址列表的解决方案顺序
+title: 以编程方式设置地址列表的解析顺序
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
-description: 上次修改时间： 2012 年 7 月 6 日
+description: '上次修改时间: 2006 年7月2012'
 ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345959"
 ---
-# <a name="programmatically-set-the-resolution-order-for-address-lists"></a>以编程方式设置地址列表的解决方案顺序
+# <a name="programmatically-set-the-resolution-order-for-address-lists"></a>以编程方式设置地址列表的解析顺序
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题包含在以编程方式设置消息和会议请求中的与会者都已解析通过电子邮件中的收件人的地址列表的顺序的 c + + 代码示例。
+本主题包含一个 c + + 中的代码示例, 该示例以编程方式设置电子邮件中的收件人和会议请求中的与会者解析的地址列表的顺序。
   
-MAPI 中, 每个配置文件可以支持多个地址列表和每个地址列表位于其自己的容器。 MAPI 中，您可以用于名称解析配置文件中设置新的搜索路径的接口支持**[SetSearchPath](https://support.microsoft.com/kb/292590)** 方法。 若要使用的**IAddrBook::SetSearchPath**方法，您必须按所需的顺序，包含相关的通讯簿容器**[SRowSet](srowset.md)** 数组中定义所需要的分辨率顺序，然后将该数组指定为*lpSearchPath* 参数。 为每个项**SRowSet**数组中的第一个属性必须是相应的通讯簿的**[PR_ENTRYID](pidtagentryid-canonical-property.md)** 属性。 
+在 MAPI 中, 每个配置文件都可以支持多个地址列表, 每个地址列表都驻留在其自己的容器中。 MAPI 支持接口中的**[SetSearchPath](https://support.microsoft.com/kb/292590)** 方法, 该方法允许您在用于名称解析的配置文件中设置新的搜索路径。 若要使用**IAddrBook:: SetSearchPath**方法, 您必须在包含相关通讯簿容器的**[SRowSet](srowset.md)** 数组中定义所需的解析顺序, 并以所需的顺序保存该数组, 然后将该数组指定为*lpSearchPath* 参数. **SRowSet**数组中每个条目的第一个属性必须是相应通讯簿的**[PR_ENTRYID](pidtagentryid-canonical-property.md)** 属性。 
   
-代码示例设置解析顺序执行以下步骤：
+代码示例按以下步骤设置解决顺序:
   
-1. 初始化`numANR`的容器，若要匹配，数，并指定的名称和解决方案中的所需的地址列表中的顺序`ANROrder`数组。 
+1. 初始化`numANR`为要匹配的容器的数目, 并在`ANROrder`数组中指定所需地址列表的名称和解析顺序。 
     
 2. 使用**MAPIInitialize**函数初始化 MAPI。 
     
-3.  登录到 MAPI，并允许用户选择一个配置文件。 
+3.  登录到 MAPI 并允许用户选择配置文件。 
     
-4.  从当前会话中获取对通讯簿的指针。 
+4.  从当前会话中获取指向通讯簿的指针。 
     
 5. 打开通讯簿。
     
 6. 打开根通讯簿的容器。
     
-7. 打开根通讯簿容器层次结构的表。
+7. 打开根通讯簿容器的层次结构表。
     
-8. 获取列表地址簿容器层次结构中。
+8. 获取层次结构中的通讯簿容器的列表。
     
-9. 通过比较名称中的所需的地址列表的查找所需的地址列表的条目 Id`ANROrder`到通讯簿层次结构中现有的名称。 
+9. 通过`ANROrder`将所需地址列表的名称与通讯簿层次结构中的现有名称相比较, 查找所需地址列表的条目 id。 
     
-10. 将相应的条目 Id 设置为**SRowSet**数组， `pNewRows`。
+10. 将适当的条目 id 设置到**SRowSet**数组中`pNewRows`。
     
-11. 调用，并传递`pNewRows`作为**IAddrBook::SetSearchPath**设置的搜索路径*lpSearchPath*参数。 
+11. 调用并作为`pNewRows` *lpSearchPath*参数传递到**IAddrBook:: SetSearchPath**以设置搜索路径。 
     
 12. 清理内部缓冲区和指针。
     
-13. MAPI 关闭日志。
+13. 从 MAPI 注销。
     
 14. Uninitalizes MAPI。
     
-本代码示例使用默认安装的 Microsoft Office Outlook 中可用的地址列表：**所有联系人**、**所有组**和**联系人**。 Outlook 启动并运行已初始化的配置文件后，您必须运行示例。 该示例适用于一种语言中的名称 （例如，所有名称都均为英语）。 它不是以在多语言部署中，例如**联系人**文件夹本地化运行非英语 Outlook 生成的用户。 
+此代码示例使用 Microsoft Office Outlook 的默认安装中提供的地址列表:**所有联系人**、**所有组**和**联系人**。 启动 Outlook 并在已初始化的配置文件上运行后, 必须运行该示例。 示例适用于采用一种语言的名称 (例如, 所有名称均为英文)。 它不适合在多语言部署中工作, 例如, 为运行非英语版 Outlook 内部版本的用户本地化的 "**联系人**" 文件夹。 
   
 ```cpp
 #include "stdafx.h" 
@@ -266,5 +266,5 @@ STDMETHODIMP CopySBinary(
 
 ## <a name="see-also"></a>另请参阅
 
-- [关于在 Outlook 中设置地址列表的解析顺序](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
+- [关于设置在 Outlook 中地址列表的解析顺序](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

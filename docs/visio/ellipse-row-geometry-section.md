@@ -8,28 +8,28 @@ f1_keywords:
 - vis_sdr.chm3010
 localization_priority: Normal
 ms.assetid: 183fb303-4acb-a486-7b97-f11f7ae3978f
-description: 包含 x 和 y-椭圆中心点和椭圆上的两个点的坐标。
-ms.openlocfilehash: 0a2acb0efa20f67d04581f827edbfc4fb4a2d6b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 包含椭圆中心点和椭圆上的两个点的 x 坐标和 y 坐标。
+ms.openlocfilehash: 5121ba0c7bf97eaeaaf8a438dd40eccddada4362
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345680"
 ---
-# <a name="ellipse-row-geometry-section"></a>Ellipse 行（“Geometry”部分）
+# <a name="ellipse-row-geometry-section"></a>Ellipse 行（“Geometry”内容）
 
-包含*x*和*y* -椭圆中心点和椭圆上的两个点的坐标。 
+包含椭圆中心点和椭圆上的两个点的*x*坐标和*y*坐标。 
   
 Ellipse 行包含以下单元格。
   
-|**Cell**|**说明**|
+|**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -中心点的坐标。  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -中心点的坐标。  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |椭圆; 上某个点的 x 坐标与*y*配对-B 单元格所表示的坐标。  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |*Y* -椭圆; 上某个点的坐标与 A 单元格所表示的 x 轴坐标配对。  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |*X* -; 椭圆上另一个点的坐标与*y*配对-D 单元格所表示的坐标。  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |*Y* -; 椭圆上另一个点的坐标与*y*配对-C 单元格所表示的坐标。  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |中心点的*x*坐标。  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |中心点的*y*坐标。  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |椭圆上的一个点的 x 坐标;与 B 单元格所表示的*y*坐标配对。  <br/> |
+|[黑白](b-cell-geometry-section.md) <br/> |椭圆上某一点的*y*轴坐标值。与 A 单元格所表示的 x 坐标配对。  <br/> |
+|[lc](c-cell-geometry-section.md) <br/> |椭圆上另一个点的*x*坐标;与 D 单元格所表示的*y*坐标配对。  <br/> |
+|[D](d-cell-geometry-section.md) <br/> |椭圆上另一个点的*y*坐标;与 C 单元格所表示的*y*坐标配对。  <br/> |
    
 ## <a name="remarks"></a>注解
 

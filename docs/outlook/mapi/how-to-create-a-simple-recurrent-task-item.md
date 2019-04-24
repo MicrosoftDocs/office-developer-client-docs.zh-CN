@@ -1,5 +1,5 @@
 ---
-title: 创建简单的重复性任务项目
+title: 创建简单定期任务项
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,48 +7,48 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: be765915b729824b8c8b4209f125f354b02bad2b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394338"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345470"
 ---
-# <a name="create-a-simple-recurrent-task-item"></a>创建简单的重复性任务项目
+# <a name="create-a-simple-recurrent-task-item"></a>创建简单定期任务项
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-可以使用 MAPI 创建创建任务项目。 本主题介绍如何创建简单的重复性任务项。
+MAPI 可用于创建任务项。 本主题介绍如何创建简单的重复性任务项。
   
-有关如何下载、 查看和 MFCMAPI 应用程序和此主题中所述的 CreateOutlookItemsAddin 项目从运行代码的信息，请参阅[安装使用本节中的示例](how-to-install-the-samples-used-in-this-section.md)。
+有关如何从本主题所引用的 MFCMAPI 应用程序和 CreateOutlookItemsAddin 项目中下载、查看和运行代码的信息, 请参阅[Install the 本节中使用的示例](how-to-install-the-samples-used-in-this-section.md)。
 
-### <a name="to-create-a-task-item"></a>若要创建任务项目
+### <a name="to-create-a-task-item"></a>创建任务项
 
-1. 打开的消息存储。 如何打开的消息存储的信息，请参阅[打开邮件存储区](opening-a-message-store.md)。
+1. 打开邮件存储区。 有关如何打开邮件存储区的信息, 请参阅[打开邮件存储](opening-a-message-store.md)。
     
-2. 消息存储库中打开任务文件夹。 有关详细信息，请参阅**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))。
+2. 打开邮件存储区中的 "任务" 文件夹。 有关详细信息, 请参阅**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))。
     
-3. 在任务文件夹，创建新任务项上调用[IMAPIFolder::CreateMessage](imapifolder-createmessage.md)方法。 
+3. 在 "任务" 文件夹中调用[IMAPIFolder:: CreateMessage](imapifolder-createmessage.md)方法, 以创建新的任务项。 
     
-4. **DispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) 和创建重复性任务所需的其他与任务相关属性设置。
+4. 设置**dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) 属性以及创建重复性任务所需的其他与任务相关的属性。
     
-5. 保存新任务项。
+5. 保存新的任务项。
     
-`AddTask` CreateOutlookItemsAddin 项目的 Tasks.cpp 源文件中的函数演示了这些步骤。 `AddTask`函数采用参数从 MFCMAPI 示例应用程序中的**加载项**菜单上单击**添加任务**时显示**添加任务**对话框。 `DisplayAddTaskDialog`中 Tasks.cpp 函数显示对话框，并将值传递从对话框到`AddTask`函数。 `DisplayAddTaskDialog`函数直接与创建任务项目使用 MAPI，因此它不在此处列出是无关。 
+CreateOutlookItemsAddin `AddTask`项目的任务 .cpp 源文件中的函数演示这些步骤。 `AddTask`函数采用 "**添加任务**" 对话框中的参数, 当您在 MFCMAPI 示例应用程序中的 " **Addins** " 菜单上单击 "**添加任务**" 时, 将显示此对话框。 Tasks `DisplayAddTaskDialog`中的函数显示对话框, 并将对话框中的值传递给`AddTask`函数。 该`DisplayAddTaskDialog`函数与使用 MAPI 创建任务项不直接相关, 因此此处未列出它。 
   
 > [!IMPORTANT]
-> MFCMAPI 应用程序中的代码不能确保具有已选中**任务**文件夹，当您单击**加载项**菜单上的**添加任务**命令。 在**任务**文件夹之外的文件夹中创建任务项目可能会导致未定义的行为。 请确保您已使用 MFCMAPI 应用程序中**添加任务**命令之前选择**任务**文件夹。 
+> 当您单击**Addins**菜单上的 "**添加任务**" 命令时, MFCMAPI 应用程序中的代码不会确保已选择 "**任务**" 文件夹。 在除 "**任务**" 文件夹之外的文件夹中创建任务项可能会导致未定义的行为。 在 MFCMAPI 应用程序中使用 "**添加任务**" 命令之前, 请确保已选择 "**任务**" 文件夹。 
   
-`AddTask`下面列出了函数。 请注意， _lpFolder_参数传递给`AddTask`函数是代表在其中创建新任务的文件夹的[IMAPIFolder](imapifolderimapicontainer.md)接口的指针。 给定_lpFolder_值，该值代表**IMAPIFolder**接口，代码调用[IMAPIFolder::CreateMessage](imapifolder-createmessage.md)方法。 **CreateMessage**方法返回到指向**IMessage**接口的指针成功代码和一个指针。 大多数的`AddTask`的函数代码处理的指定属性中调用[IMAPIProp::SetProps](imapiprop-setprops.md)方法的准备工作。 如果对**SetProps**方法的调用成功，调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法将更改提交到存储并创建新的任务项。 
+`AddTask`函数如下所示。 请注意, __ 传递给`AddTask`函数的 lpFolder 参数是指向[IMAPIFolder](imapifolderimapicontainer.md)接口的指针, 该接口表示创建新任务的文件夹。 给定表示**IMAPIFolder**接口的_lpFolder_ , 该代码调用[IMAPIFolder:: CreateMessage](imapifolder-createmessage.md)方法。 **CreateMessage**方法返回一个成功代码和一个指向**IMessage**接口的指针的指针。 大部分`AddTask`函数代码处理指定属性的工作, 以准备调用[IMAPIProp:: SetProps](imapiprop-setprops.md)方法。 如果对**SetProps**方法的调用成功, 则调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法以提交对存储的更改, 并创建新的任务项。 
   
-`AddTask`函数设置大量的命名属性。 命名的属性和如何创建这些信息，请参阅[创建 Outlook 2007 项使用 MAPI](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)。 使用任务项目的命名的属性占用多个属性集，因为必须小心构建参数时要传递给[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)方法。 
+`AddTask`函数设置许多命名属性。 有关命名属性及其创建方式的信息, 请参阅[使用 MAPI 创建 Outlook 2007 项目](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)。 由于用于任务项的命名属性占用了多个属性集, 因此在生成参数以传递给[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)方法时必须小心谨慎。 
   
-`AddTask`函数使用`BuildWeeklyTaskRecurrencePattern`helper 函数来构建表示**dispidTaskRecur**属性设置为任务周期的结构。 有关任务定期结构信息`BuildWeeklyTaskRecurrencePattern`函数生成，请参阅[PidLidTaskRecurrence 规范属性](pidlidtaskrecurrence-canonical-property.md)和[PidLidRecurrencePattern 规范属性](pidlidrecurrencepattern-canonical-property.md)。 
+`AddTask`函数使用`BuildWeeklyTaskRecurrencePattern` helper 函数生成一个结构, 该结构表示设置**dispidTaskRecur**属性的任务周期。 有关`BuildWeeklyTaskRecurrencePattern`函数生成的任务定期结构的信息, 请参阅[PidLidTaskRecurrence 规范属性](pidlidtaskrecurrence-canonical-property.md)和[PidLidRecurrencePattern 规范属性](pidlidrecurrencepattern-canonical-property.md)。 
 
-请注意，尽管大量不同的定期模式是可能的`BuildWeeklyTaskRecurrencePattern`函数仅生成每周定期模式。 还有硬编码假设，例如日历类型 （公历） （星期日） 的一周的第一天许多和修改或删除实例 （无） 数。 更多通用定期模式创建功能需要接受这些各种作为参数的变量。 
+请注意, 尽管可以使用大量的定期模式, 但该`BuildWeeklyTaskRecurrencePattern`函数只生成每周定期模式。 它也是硬编码的一些假设, 例如日历类型 (公历)、一周的第一天 (星期日) 以及已修改或已删除的实例数 (无)。 更常规用途的定期模式创建函数需要接受这些种类的变量作为参数。 
   
-下面是的完整列表`AddTask`函数。 
+下面是该`AddTask`函数的完整列表。 
   
 ```cpp
 HRESULT AddTask(LPMAPIFOLDER lpFolder,
@@ -178,5 +178,5 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
 
 ## <a name="see-also"></a>另请参阅
 
-- [使用 MAPI 创建 Outlook 2007 项](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
+- [使用 MAPI 创建 Outlook 2007 项目](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

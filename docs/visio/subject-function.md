@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm82251575
 localization_priority: Normal
 ms.assetid: c19efa2e-8249-d589-3f93-26c22dc4f4e7
-description: 从主题字段中的文档属性返回的文本。
-ms.openlocfilehash: b0a32b8e032792704bdd067ab07a86b5c84ef5b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回文档属性的 "主题" 字段中的文本。
+ms.openlocfilehash: 39413620e94a33726088e2a0e90989b1ccbbdabc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346828"
 ---
 # <a name="subject-function"></a>SUBJECT 函数
 
-从**主题**字段中的文档属性返回的文本。 
+返回文档属性的 "**主题**" 字段中的文本。 
   
 ## <a name="syntax"></a>语法
 
-主题 （)
+SUBJECT ()
   
 ### <a name="return-value"></a>返回值
 

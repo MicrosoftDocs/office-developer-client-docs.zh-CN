@@ -7,31 +7,31 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
-description: 上次修改时间： 2011 年 11 月 8 日
-ms.openlocfilehash: 12668cb87f21b56cd398a7b5375f6a4b40c65829
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '上次修改时间: 2011 年11月8日'
+ms.openlocfilehash: 8a5a07cdeb7f000c9a7da24dbea1a42a6f9fc185
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581529"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344504"
 ---
 # <a name="sorting-and-categorization"></a>排序和分类
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-对表进行排序顺序为其查看器有意义放置行。 例如，一个查看器可能更愿意按邮件主题，以便的对话的所有线程都在一起时另一个查看器可能希望在按发件人名称的消息的文件夹的内容表，请参阅。 新实例化的表一定不按任何特定的顺序。 
+对表进行排序时, 会按对其查看器有意义的顺序放置行。 例如, 一个查看者可能更愿意查看按邮件主题排序的文件夹的内容表, 以便会话的所有线程都在一起, 而另一个查看器可能希望邮件按发件人的姓名进行排序。 新实例化的表不一定以任何特定的顺序进行排序。 
   
-有两种类型的排序：
+有两种类型的排序:
   
 - 标准排序
     
 - 分类排序 
     
-使用标准排序的所有行使用一个或多个列作为排序关键字一个平面列表中显示。 与已分类排序，将行显示按层次结构与一个或多个列作为排序关键字。 在每个类别中，没有包含以下列特殊的标题行。
+使用标准排序, 所有行都显示在简单列表中, 使用一个或多个列作为排序关键字。 通过分类排序, 行以分层方式显示, 并显示一个或多个列作为排序关键字。 在每个类别中, 都有一个特殊的标题行, 其中包含以下列。
   
-- 构成排序关键字的列
+- 组成排序关键字的一个或多个列
     
 - **PR_CONTENT_COUNT**([PidTagContentCount](pidtagcontentcount-canonical-property.md))
     
@@ -43,17 +43,17 @@ ms.locfileid: "22581529"
     
 - **PR_ROW_TYPE**([PidTagRowType](pidtagrowtype-canonical-property.md)) 
     
-标题行下缩进的表中包含值与相匹配的排序关键字列的所有行。 这些行称为叶行。 叶行包含设置减去排序键列列中的所有列。 
+在标题行下缩进是表中的所有行, 其中包含值与排序关键字相匹配的列。 这些行称为叶行。 叶行包含列集中的所有列减去排序关键字列。 
   
-文件夹的内容表通常支持除了标准排序分类排序。 通讯簿容器的内容表通常支持仅标准排序。 
+除了标准排序之外, 文件夹的内容表通常支持分类排序。 通讯簿容器的内容表通常只支持标准排序。 
   
-某个类别可有两种状态： 折叠和展开。 折叠状态类别时，从[IMAPITable::QueryRows](imapitable-queryrows.md)返回仅标题行。 展开状态类别时，将返回所有与类别相关的行。 这包括标题行和叶行。 
+一个类别可以有两种状态: 折叠和展开。 当类别处于折叠状态时, 仅从[IMAPITable:: QueryRows](imapitable-queryrows.md)返回标题行。 当类别处于展开状态时, 将返回与该类别相关的所有行。 这包括标题行和叶行。 
   
-可展开或折叠独立表视图中的每个类别。 即，并非所有类别都必须位于相同的状态在同一时间;某些类别可以折叠时其他人扩展。 
+表视图中的每个类别都可以单独展开或折叠。 也就是说, 并非所有类别都必须处于相同的状态。某些类别可以折叠, 而其他类别则展开。 
   
-分类表的用户决定显示方式。 一个常见选项是使用 Windows SDK 调用 treeview 控件中提供的控件。 Treeview 控件是在树状结构中支持信息的列表框。 处于展开状态的类别的标题行标记有减号时处于折叠状态的类别的标题行标记带加号。 扩展的类别显示带有标题行下缩进的叶行。 
+已分类的表格的用户决定它的显示方式。 一个常见的选项是使用 Windows SDK 中提供的一个名为 treeview 控件的控件。 Treeview 控件是支持树状结构中的信息的列表框。 展开状态中的类别的标题行标记为负号, 而折叠状态中的类别的标题行标有加号。 展开的类别将显示在标题行下缩进的叶行。 
   
-若要折叠和展开类别，客户端应用程序或服务提供商使用以下[IMAPITable: IUnknown](imapitableiunknown.md)方法： 
+若要折叠和展开类别, 客户端应用程序或服务提供程序使用以下[IMAPITable: IUnknown](imapitableiunknown.md)方法: 
   
 - [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md)
     
@@ -63,7 +63,7 @@ ms.locfileid: "22581529"
     
 - [IMAPITable::CollapseRow](imapitable-collapserow.md)
     
-有关排序的详细信息的对话线程，请参阅以下主题：
+有关对对话的线程进行排序的详细信息, 请参阅下列主题:
   
 - [SSortOrder](ssortorder.md)
     

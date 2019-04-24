@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 5a7c596d-a8e1-46df-aabe-ac96027876eb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2c1119ea2b1b8db0f4671894730dce76b18b4f5c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: daccc16e314be865c5f0f152a9a1b746e0978869
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342488"
 ---
 # <a name="pidtagorgemailaddress-canonical-property"></a>PidTagOrgEmailAddress 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含发起的电子邮件帐户的电子邮件地址。
+包含原始电子邮件帐户的电子邮件地址。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_ORG_EMAIL_ADDRESS，PR_ORG_EMAIL_ADDRESS_A，PR_ORG_EMAIL_ADDRESS_W  <br/> |
-|标识符：  <br/> |待定  <br/> |
-|数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
+|相关属性：  <br/> |PR_ORG_EMAIL_ADDRESS、PR_ORG_EMAIL_ADDRESS_A、PR_ORG_EMAIL_ADDRESS_W  <br/> |
+|标识符:  <br/> |待定  <br/> |
+|数据类型：  <br/> |PT_UNICODE、PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

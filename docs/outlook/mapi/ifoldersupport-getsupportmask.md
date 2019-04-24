@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d8aaeb7-57d7-ba4c-95d1-a5368cfc4afe
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c51f4a7266e67be08f31daa5afbf23ce0b256252
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 1c27bdc52ebe725c40cbf318fab0678f41cdc287
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350832"
 ---
 # <a name="ifoldersupportgetsupportmask"></a>IFolderSupport::GetSupportMask
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-获取共享文件夹的支持的信息。
+获取有关文件夹支持共享的信息。
   
 ```cpp
 HRESULT GetSupportMask( 
@@ -37,11 +37,11 @@ HRESULT GetSupportMask(
 
  _pdwSupportMask_
   
-> [输出]表示文件夹是否支持共享的位掩码。
+> 排除表示文件夹是否支持共享的位掩码。
     
  **FS_NONE**
   
-> 指示该文件夹不支持共享。
+> 指示文件夹不支持共享。
     
  **FS_SUPPORTS_SHARING**
   
@@ -51,6 +51,6 @@ HRESULT GetSupportMask(
 
 S_OK 
   
-> 呼叫成功。
+> 调用成功。
     
 

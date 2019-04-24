@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 3406d060-bfea-4cea-8253-2a9aeb9e8147
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8426f782eb5fbf8a125833c51b25ccd605acbd64
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 522c67b19656c00ea169def98a42ca2b3c1db840
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345239"
 ---
 # <a name="szfindch"></a>SzFindCh
  
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-搜索的以 null 结尾的字符串中的字符的第一个匹配项。 
+在以 null 结尾的字符串中搜索字符的第一个匹配项。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 LPSTR SzFindCh(
@@ -42,18 +42,18 @@ LPSTR SzFindCh(
 
 _lpsz_
   
-> [in]指向以 null 结尾的字符串，要搜索的指针。 
+> 实时指向要搜索的以 null 结尾的字符串的指针。 
     
-_频道_
+_章_
   
-> [in]要搜索的字符。
+> 实时要搜索的字符。
     
 ## <a name="return-value"></a>返回值
 
-**SzFindCh**返回到字符串中的字符的第一个匹配项的指针。 如果字符，不会发生无处不在字符串中，或者如果_lpsz_参数为 NULL，则返回 NULL 的值。 
+**SzFindCh**返回一个指针, 指向字符串中字符的第一个匹配项。 如果该字符未出现在字符串中的任何位置, 或者如果_lpsz_参数为 null, 则返回值 null。 
   
 ## <a name="remarks"></a>注解
 
-**SzFindCh**功能将搜索完全匹配只;它是敏感案例和发音差异。 支持 Unicode 和 DBCS 格式的搜索。 
+**SzFindCh**函数仅搜索完全匹配项;区分大小写和变音差异。 支持在 Unicode 和 DBCS 格式的搜索中进行搜索。 
   
 

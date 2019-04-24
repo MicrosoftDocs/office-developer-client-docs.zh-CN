@@ -1,37 +1,37 @@
 ---
-title: 获取给定联系人通讯簿条目联系人邮件
+title: 在给定联系人通讯簿条目的情况中获取联系人邮件
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a263894b-b3da-f1e4-a7da-ca3695bddc94
-description: 上次修改时间： 2013 年 8 月 13 日
-ms.openlocfilehash: 472b5847053c0a18026c76b8055a26551331d8dd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '上次修改时间: 2013 年8月13日'
+ms.openlocfilehash: be988a3036c2d882f65e2e588cc9a40bfda146a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345953"
 ---
-# <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>获取给定联系人通讯簿条目联系人邮件
+# <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>在给定联系人通讯簿条目的情况中获取联系人邮件
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-本主题包含在 c + +，示例`HrOpenContact`，显示如何使用标识获取关联的 MAPI 联系人邮件联系人通讯簿中的条目的[CONTAB_ENTRYID](contab_entryid.md)结构。 
+本主题包含一个 c + + `HrOpenContact`中的示例, 该示例演示如何使用标识联系人通讯簿中的条目的[CONTAB_ENTRYID](contab_entryid.md)结构来获取关联的 MAPI 联系人邮件。 
   
-`HrOpenContact`具有以下参数： 
+`HrOpenContact`具有以下参数: 
   
--  *lpSession*为输入的参数表示当前会话。 **LPMAPISESSION** MAPI 头文件 mapix.h 中定义为一个指向[IMAPISession: IUnknown](imapisessioniunknown.md)。
+-  *lpSession*是表示当前会话的输入参数。 **LPMAPISESSION**在 MAPI 头文件 mapix 中定义为指向[IMAPISession: IUnknown](imapisessioniunknown.md)的指针。
     
--  *cbEntryID*为输入的参数表示与*lpEntryID*关联的项标识符的大小。 
+-  *cbEntryID*是一个输入参数, 表示与*lpEntryID*关联的条目标识符的大小。 
     
--  *lpEntryID*为输入的参数表示指向联系人通讯簿中的条目的项标识符。 
+-  *lpEntryID*是一个输入参数, 表示指向联系人通讯簿中条目的条目标识符的指针。 
     
--  *ulFlags*为输入的参数表示包含到 MAPI 联系人邮件对象访问标志位掩码。 
+-  *ulFlags*是一个输入参数, 表示包含 MAPI 联系人消息的对象访问标志的位掩码。 
     
--  *lpContactMessage*是表示指向到 MAPI 联系人邮件输出参数。 
+-  *lpContactMessage*是一个输出参数, 表示指向 MAPI 联系人消息的指针。 
     
-若要打开基础的 MAPI 联系人邮件，`HrOpenContact`首先将强制转换为**CONTAB_ENTRYID**指针*lpEntryID* 。 然后，它调用[IMAPISession::OpenEntry](imapisession-openentry.md)获取 MAPI 联系人邮件中，将作为参数传递联系人通讯簿中的条目标识分别的项标识符的大小的*cbeid*和*abeid*字段和MAPI 联系人消息的项标识符。 
+若要打开基础 MAPI 联系人消息, `HrOpenContact`请首先将*lpEntryID*转换为指向**CONTAB_ENTRYID**的指针。 然后, 它调用[IMAPISession:: OpenEntry](imapisession-openentry.md)以获取 MAPI 联系人消息, 将联系人通讯簿中的条目的*cbeid*和*abeid*字段作为参数进行传递, 该条目将分别标识条目标识符的大小和MAPI 联系人邮件的条目标识符。 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

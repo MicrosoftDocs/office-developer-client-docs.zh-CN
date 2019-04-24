@@ -10,43 +10,43 @@ api_type:
 - COM
 ms.assetid: fc520720-8190-4dff-8f6c-1bebf7080b57
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4b4b60084b8cb53a0a245b502b8fe70241fb4eb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e1c670cd566e838104ae3d5480c2297f8632d899
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348557"
 ---
 # <a name="pidtagrulestable-canonical-property"></a>PidTagRulesTable 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-与所有规则应用于文件夹中包含的表。
+包含一个表, 其中包含应用于文件夹的所有规则。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RULES_TABLE  <br/> |
-|标识符：  <br/> |0x3FE1  <br/> |
+|标识符:  <br/> |0x3FE1  <br/> |
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性是位于 Exchange 服务器上具有规则的所有 folder 对象。 包含此属性的值用于读取和修改的规则。 您可以使用具有**IID_IExchangeModifyTable**接口标识符[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法获取[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)接口到的文件夹的规则表。 您可以使用此接口读取和修改这些规则。 
+此属性存在于具有规则的 Exchange 服务器上的所有 folder 对象上。 此属性中包含的值用于读取和修改规则。 可以将[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法与**IID_IExchangeModifyTable**接口标识符一起使用, 以获取指向文件夹中的 rules 表的[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)接口。 您可以使用此接口读取和修改这些规则。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。 
+> 包含列为关联属性的属性的定义。 
     
 ## <a name="see-also"></a>另请参阅
 

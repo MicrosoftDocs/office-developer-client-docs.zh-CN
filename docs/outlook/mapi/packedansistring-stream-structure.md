@@ -5,41 +5,41 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ada86f04-e81b-4f97-b9c1-1c8ec5e1a5dd
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4e919270efb196cda845581830cc4a918012b385
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 3e48e57deba5c274982eeb515d27f203ec5ac7fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348508"
 ---
 # <a name="packedansistring-stream-structure"></a>PackedAnsiString 流结构
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-PackedAnsiString 流结构包含 ANSI 字符串表示形式，根据在其上运行 Microsoft Outlook 的计算机的 ANSI 代码页。 未通过空字符终止此字符串。 此流中的数据元素存储在-little-endian 字节的顺序，紧跟彼此下面列出的顺序。 存在的实际数据元素取决于 ANSI 表示中字符串的长度。
+PackedAnsiString 流结构包含字符串的 ansi 表示形式, 它基于运行 Microsoft Outlook 的计算机的 ansi 代码页。 此字符串不是由 null 字符终止的。 此流中的数据元素存储在小端字节序的字节顺序中, 紧跟在下面列出的顺序后续。 现有的实际数据元素取决于 ANSI 表示形式的字符串的长度。
   
-- 一个字符串，其 ANSI 表示包含不超过 255 个字节，数据要素如下所示：
+- 对于 ANSI 表示形式包含小于255个字节的字符串, 数据元素如下所示:
     
-  - 时长： 字节 （1 个字节），ANSI 字符串表示形式的长度，以字节为单位数。
+  - length: BYTE (1 个字节), 字符串的 ANSI 表示形式的长度 (以字节为单位)。
     
-  - 字符数： CHAR 的数组。 此数组的计数等于长度数据元素。 数组中的数据是 ANSI 字符串表示形式。
+  - 字符: 字符数组。 此数组的计数等于 Length 数据元素。 数组中的数据是字符串的 ANSI 表示形式。
     
-- 一个字符串，其 ANSI 表示包含 255 到 65535 字节，数据要素如下所示：
+- 对于 ANSI 表示形式包含255到65535字节的字符串, 数据元素如下所示:
     
-  - 前缀： 字节 （1 个字节），255 之间的值 (0xff)。
+  - Prefix: BYTE (1 个字节), 值为 255 (0xff)。
     
-  - 时长： 单词 （2 个字节），ANSI 字符串表示形式的长度，以字节为单位数。
+  - length: WORD (2 个字节), 字符串的 ANSI 表示形式的长度 (以字节为单位)。
     
-  - 字符数： CHAR 的数组。 此数组的计数等于长度数据元素。 数组中的数据是 ANSI 字符串表示形式。
+  - 字符: 字符数组。 此数组的计数等于 Length 数据元素。 数组中的数据是字符串的 ANSI 表示形式。
     
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Outlook 项和字段](outlook-items-and-fields.md)
+[Outlook 项目和字段](outlook-items-and-fields.md)
   
 [流结构](stream-structures.md)
   

@@ -12,49 +12,49 @@ api_type:
 - COM
 ms.assetid: a10d86fc-3a73-49dc-b974-ed852ec715e9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d04144a4f5ef714b59b608bfe19367bcb3c1ced8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 426d26cae147faf3f843ac547de9d205d766ac44
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348207"
 ---
 # <a name="pidtagspoolerstatus-canonical-property"></a>PidTagSpoolerStatus 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含基于可供 MAPI 后台处理程序的信息消息的状态。
+包含邮件的状态, 该邮件基于可用于 MAPI 后台处理程序的信息。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SPOOLER_STATUS  <br/> |
-|标识符：  <br/> |0x0E10  <br/> |
+|标识符:  <br/> |0x0E10  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性在消息对象上通过 MAPI 计算。
+此属性由 MAPI 对邮件对象计算。
   
-此属性仅入站邮件上的显示，并保留其他所有情况下。 表示一条消息，指示已传递给其最终位置或是否消息挂接提供程序可能已删除邮件重新路由它时。
+此属性仅在入站邮件中显示, 并在所有其他情况下保留。 它指示是否已将邮件传递到其最终位置, 或者消息传递挂钩提供程序在重新路由邮件时是否可能删除邮件。
   
-客户端应用程序应永远不会将该属性。 入站邮件，客户端或服务提供程序可以调用此属性可以确定邮件状态[IMAPIProp::GetProps](imapiprop-getprops.md) 。 值 S_OK 指示邮件已成功递送到消息存储库。 值 MAPI_E_OBJECT_DELETED 指示邮件已被删除，永远不会被提交到存储区。 
+客户端应用程序永远不应设置此属性。 对于入站邮件, 客户端或服务提供商可以对此属性调用[IMAPIProp:: GetProps](imapiprop-getprops.md)以确定邮件状态。 值 S_OK 指示邮件已成功传递到邮件存储区。 值 MAPI_E_OBJECT_DELETED 指示邮件已被删除且从未提交到存储区。 
   
-消息存储提供程序应在邮件、 收件人表和传出队列表支持此属性。 客户端和提供程序应能够在传出队列表上设置列方法和 restrict 基于此属性。
+邮件存储提供程序应支持邮件、收件人表和传出队列表上的此属性。 客户端和提供程序应能够对传出队列表设置列, 并根据此属性进行限制。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

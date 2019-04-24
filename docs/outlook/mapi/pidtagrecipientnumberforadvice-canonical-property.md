@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 636c1e75-3024-43ca-a7dd-1bb480dfbb5b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3f23a332ee6778f71ce0809dfae8c0b6a92246a8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 79ef85955f15e0ca829ac6f206dddc17031b0562
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356691"
 ---
 # <a name="pidtagrecipientnumberforadvice-canonical-property"></a>PidTagRecipientNumberForAdvice 规范属性
 
@@ -25,30 +25,30 @@ ms.locfileid: "22595144"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-此属性包含要呼叫的物理传送一条消息告知的邮件收件人的电话号码。
+此属性包含一个邮件收件人的电话号码, 以通知邮件的物理传递。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_RECIPIENT_NUMBER_FOR_ADVICE，PR_RECIPIENT_NUMBER_FOR_ADVICE_A，PR_RECIPIENT_NUMBER_FOR_ADVICE_W  <br/> |
-|标识符：  <br/> |0x0C14  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_RECIPIENT_NUMBER_FOR_ADVICE、PR_RECIPIENT_NUMBER_FOR_ADVICE_A、PR_RECIPIENT_NUMBER_FOR_ADVICE_W  <br/> |
+|标识符:  <br/> |0x0C14  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
 ## <a name="remarks"></a>注解
 
-这些属性是为了时 human 收件人不应存在于传递与传递到物理目标，而不是电子邮箱，配合使用。 例如，传真封面工作表上的电话号码。
+这些属性将与传递到物理目标 (而不是电子邮箱) 一起使用, 以便在传递时不应存在人的收件人。 例如, 传真封面页上的电话号码。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

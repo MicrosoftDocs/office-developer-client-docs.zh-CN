@@ -7,29 +7,29 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 142c4975-08df-4501-9996-557aa44eafb3
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e0701e64469576a8241002a6ff11299d1c343556
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: bf633a971f7e3077ce2f418021ef183a36db8cc8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348606"
 ---
 # <a name="opening-a-message"></a>打开邮件
  
 **适用于**：Outlook 2013 | Outlook 2016 
   
-### <a name="to-open-a-message"></a>要打开邮件
+### <a name="to-open-a-message"></a>打开邮件
   
-1. 从以下来源之一检索消息的项标识符：
+1. 从以下源之一检索消息的条目标识符:
     
-   - 表示其父文件夹的内容表中的消息的行。 有关使用文件夹内容表的详细信息，请参阅[内容表](contents-tables.md)。
+   - 表示其父文件夹的内容表中的邮件的行。 有关使用文件夹内容表的详细信息, 请参阅[内容表](contents-tables.md)。
     
-   - 发送新邮件通知的[NEWMAIL_NOTIFICATION](newmail_notification.md)结构**lpEntryID**成员。 有关接收和处理通知的详细信息，请参阅[处理通知](handling-notifications.md)。
+   - 与新邮件通知一起发送的[NEWMAIL_NOTIFICATION](newmail_notification.md)结构的**lpEntryID**成员。 有关接收和处理通知的详细信息, 请参阅[处理通知](handling-notifications.md)。
     
-   - 对请求的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性的消息的[IMAPIProp::GetProps](imapiprop-getprops.md)方法的调用。 
+   - 对邮件的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法的调用, 请求**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。 
     
-2. 调用下列**OpenEntry**方法打开邮件，设置_lpEntryID_消息的项标识符之一： 
+2. 调用以下**OpenEntry**方法之一以打开邮件, 并将_lpEntryID_设置为邮件的条目标识符: 
     
    - [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)
     
@@ -37,14 +37,14 @@ ms.locfileid: "22582978"
     
    - [IMAPISession::OpenEntry](imapisession-openentry.md)
     
-  最快方法仅用于传入消息是可用，并涉及到调用的接收文件夹**IMAPIFolder::OpenEntry**方法。 是最慢的方法，调用**IMAPISession::OpenEntry**下一个最快方法，调用的消息存储**IMsgStore::OpenEntry**方法，可用于所有邮件。
+  最快的方法仅适用于传入的邮件, 并且需要调用 receive 文件夹的**IMAPIFolder:: OpenEntry**方法。 下一种最快的方法是调用邮件存储区的**IMsgStore:: OpenEntry**方法, 使其可用于所有邮件, 这是调用**IMAPISession:: OpenEntry**的最慢方法。
     
 > [!NOTE]
-> 文件夹和其内容表可以关闭随时而不会产生不利影响任何已在这些时打开的消息。 
+> 可以随时关闭文件夹及其内容表, 而不会对其内部打开的任何邮件产生不利影响。 
   
-### <a name="to-open-a-message-that-has-been-saved-on-disk"></a>打开一条消息，保存在磁盘上
+### <a name="to-open-a-message-that-has-been-saved-on-disk"></a>打开已保存在磁盘上的邮件
   
-1. 调用**StgOpenStorage**检索**IStorage**接口的指针，将消息文件_pwcsName_参数的名称传递。 
+1. 调用**StgOpenStorage**以检索**IStorage**接口指针, 并为_pwcsName_参数传递邮件文件的名称。 
     
    ```cpp
     LPSTORAGE pStorage = NULL;
@@ -56,7 +56,7 @@ ms.locfileid: "22582978"
     
    ```
 
-2. 调用**OpenIMsgOnIStg**检索**IMessage**接口指针访问邮件。 
+2. 调用**OpenIMsgOnIStg**以检索用于访问邮件的**IMessage**接口指针。 
     
    ```cpp
     LPMESSAGE pMessage = NULL;

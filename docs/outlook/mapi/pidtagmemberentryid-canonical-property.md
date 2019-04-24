@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: b1e166fd-7e15-4371-8510-63001317fb90
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 27659b69e0ae050206de18c1258ee593737fbd3b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 83a645b49e5bb48051bbaedb26058d2da053348b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342495"
 ---
 # <a name="pidtagmemberentryid-canonical-property"></a>PidTagMemberEntryId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含系统访问控制列表 (SACL) 表成员的目录对象条目标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_MEMBER_ENTRYID  <br/> |
-|标识符：  <br/> |0x0FFF  <br/> |
+|标识符:  <br/> |0x0FFF  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性由[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口用于唯一标识的人员或角色 SACL 应用于其。 SACL 表中创建的成员后，不能更改**ENTRYID** 。 若要更改它，必须删除表成员，并使用不同的**ENTRYID**重新创建它。
+[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口使用此属性来唯一标识对其应用了 SACL 的个人或角色。 在 SACL 表中创建成员后, 不能更改**ENTRYID** 。 若要对其进行更改, 必须删除该表成员并使用不同的**ENTRYID**重新创建它。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

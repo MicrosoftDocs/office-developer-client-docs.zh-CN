@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f60c65e3-b55f-cb68-746e-d0a8cd862d4d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a74a6639023ae6ffddeabd03970b609e7b7babe1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 042216df309e98f35ed0ad71742e46300ebb06da
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342579"
 ---
 # <a name="gender"></a>Gender
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定邮件用户的性别的可能值。
   
@@ -37,31 +37,31 @@ enum Gender {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
  _genderMin_
   
-> 支持的性别的不同值的最小数目。
+> 为性别支持的最小不同值数。
     
  _genderUnspecified_
   
-> 未指定邮件用户的性别。
+> 不指定邮件用户的性别。
     
  _genderFemale_
   
-> 女消息用户。
+> 邮件用户是女。
     
  _genderMale_
   
-> 男性消息用户。
+> 邮件用户是男。
     
  _genderCount_
   
-> 支持的性别的不同值的数目。
+> 性别支持的不同值的数量。
     
  _genderMax_
   
-> 支持的性别的不同值的最大数目。
+> 性别支持的最大不同值数。
     
 ## <a name="see-also"></a>另请参阅
 

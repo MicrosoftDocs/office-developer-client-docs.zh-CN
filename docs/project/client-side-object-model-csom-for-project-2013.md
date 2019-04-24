@@ -7,11 +7,11 @@ ms.assetid: 716325eb-b092-4934-921f-84129d0a1f5f
 description: Project Server 2013 客户端对象模型 (CSOM) 实施常见服务器功能。 Project Server CSOM 包括 Microsoft .NET CSOM、Microsoft Silverlight CSOM、Windows Phone 8 CSOM 和 JavaScript 对象模型 (JSOM)。 此外，CSOM 还包括支持 REST 接口的 OData 服务。 REST 接口主要用于在非 Windows 平台（如 iOS 和 Android）上开发应用。
 localization_priority: Priority
 ms.openlocfilehash: b722e316f5cb2054eb6522297c5c5ef3e75f9fa4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355200"
 ---
 # <a name="client-side-object-model-csom-for-project-2013"></a>Project 2013 的客户端对象模型 (CSOM)
 

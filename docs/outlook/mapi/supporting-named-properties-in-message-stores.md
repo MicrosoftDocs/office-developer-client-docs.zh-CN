@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a1c73bb5-b44a-4ec6-89e4-0e2228572b2d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 235683d8565732034f868dd71e4f2047ffe76f09
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 7e33c49d1ed211abf70e04a8bd3c06ca62e88572
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349642"
 ---
 # <a name="supporting-named-properties-in-message-stores"></a>支持邮件存储区中的命名属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-消息对象可在其集合中的定义的 MAPI 属性不具有属性。 此类属性可未命名的或名为。 未命名的属性必须驻留在范围定义的 MAPI 属性标识符。 命名自定义属性位于不同范围的定义的 MAPI 属性标识符。 他们通常使用自定义消息类型。 消息存储提供程序必须支持命名的属性，它是否要用作默认邮件存储区。 支持命名属性是指实现[IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md)和[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)方法和实现确定哪些名称的一个或多个映射签名转与哪些属性标识符。 有关详细信息，请参阅[定义新的 MAPI 属性](defining-new-mapi-properties.md)和[支持命名属性](supporting-named-properties.md)。
+Message 对象的属性可能不在 MAPI 定义的属性集中。 此类属性可以是未命名的或命名的。 未命名属性必须驻留在由 MAPI 定义的属性标识符区域中。 命名的自定义属性驻留在由 MAPI 定义的不同范围的属性标识符中。 它们通常由自定义邮件类型使用。 如果要将其用作默认邮件存储区, 则您的邮件存储区提供程序必须支持命名属性。 支持命名属性意味着实现[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)和[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)方法, 并实现一个或多个映射签名, 这些映射签名可标识名称与属性标识符的不同之处。 有关详细信息, 请参阅[定义新的 MAPI 属性](defining-new-mapi-properties.md)和[支持命名属性](supporting-named-properties.md)。
   
-大多数消息存储提供程序支持的名为属性使用的单个映射签名的消息存储区中的所有对象。 这有两个好处。 首先，它是实现映射签名，如果只有一个以跟踪变得简单。 其次，如果邮件存储区中的所有对象都使用相同的映射签名，客户端应用程序并能保证邮件存储区中的邮件的所有属性标识符实际都引用相同的命名属性。 这样，客户端应用程序在其文件夹视图界面中显示的命名属性的列。
+大多数支持命名属性的邮件存储提供程序对邮件存储区中的所有对象使用单个映射签名。 这有两个优点。 首先, 如果只有一个签名可供跟踪, 则实现映射签名更简单。 其次, 如果邮件存储区中的所有对象都使用相同的映射签名, 客户端应用程序可确保邮件存储区中的邮件的所有属性标识符实际引用相同的命名属性。 这使客户端应用程序能够在其文件夹视图界面中显示命名属性的列。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[实现邮件存储区中的邮件](implementing-messages-in-message-stores.md)
+[实现邮件存储中的邮件](implementing-messages-in-message-stores.md)
 

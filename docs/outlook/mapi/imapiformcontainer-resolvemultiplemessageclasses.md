@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: f18c2dd1-366f-48b4-b335-ebbc0651f467
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 002dbf3e898fc0388d535e3087d17ba37d63201e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0730da9c3877985853e2cd0a55420e64fbd98e0c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342180"
 ---
 # <a name="imapiformcontainerresolvemultiplemessageclasses"></a>IMAPIFormContainer::ResolveMultipleMessageClasses
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-解析为其在窗体容器中的窗体的邮件类的一组，并返回这些表单的信息对象的窗体的数组。
+将一组消息类解析为表单容器中的窗体, 并返回这些窗体的窗体信息对象的数组。
   
 ```cpp
 HRESULT ResolveMultipleMessageClasses(
@@ -39,43 +39,43 @@ HRESULT ResolveMultipleMessageClasses(
 
  _pMsgClassArray_
   
-> [in]一个指向数组，其中包含的邮件类来解析名称。 邮件类名称始终都是 ANSI 字符串，从不 Unicode。
+> 实时指向包含要解析的邮件类的名称的数组的指针。 邮件类名称始终为 ANSI 字符串, 决不能为 Unicode。
     
  _ulFlags_
   
-> [in]位掩码的标志的控制解析的邮件类的方式。 可以设置以下标记：
+> 实时用于控制如何解析邮件类别的标志的位掩码。 可以设置以下标志:
     
 MAPIFORM_EXACTMATCH 
   
-> 应解决仅邮件类的字符串完全匹配。
+> 应解析完全匹配的邮件类字符串。
     
  _ppfrminfoarray_
   
-> [输出]指向为数组表单信息对象的指针的指针。 如果客户端应用程序中的_pMsgClassArray_参数传递 NULL，则_ppfrminfoarray_参数包含容器中的所有窗体的窗体信息对象。 
+> 排除指向指向表单信息对象数组的指针的指针。 如果客户端应用程序在_pMsgClassArray_参数中传递了 NULL, 则_ppfrminfoarray_参数将包含容器中所有窗体的窗体信息对象。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-客户端应用程序调用**IMAPIFormContainer::ResolveMultipleMessageClasses**方法解析为窗体容器内的窗体的邮件类的组。 返回_ppfrminfoarray_参数中的窗体信息对象的数组进一步提供对每个窗体的属性的访问。 
+客户端应用程序调用**IMAPIFormContainer:: ResolveMultipleMessageClasses**方法将一组邮件类解析为表单容器中的表单。 _ppfrminfoarray_参数中返回的窗体信息对象的数组提供了对每个窗体属性的进一步访问。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要解决窗体的邮件类的组，传递数组中的邮件类名称解析。 强制为完全的分辨率 (即，以防止对的邮件类的基类的分辨率)，可以_ulFlags_参数中传递 MAPIFORM_EXACTMATCH 标志。 
+若要将一组邮件类解析为表单, 请传入要解析的邮件类名称的数组。 若要强制解决是精确的 (即, 若要防止解析邮件类的基类), 可以在_ulFlags_参数中传递 MAPIFORM_EXACTMATCH 标志。 
   
-如果邮件类无法解析到窗体，窗体信息数组中的邮件类将返回 NULL。 因此，即使该方法返回 S_OK，不要假定已成功解析的所有邮件类。 相反，检查返回的数组中的值。
+如果无法将邮件类别解析为表单, 则在表单信息数组中返回该邮件类别的 NULL。 因此, 即使方法返回 S_OK, 也不要假定已成功解决所有邮件类。 而是检查返回的数组中的值。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnResolveMultipleMessageClasses  <br/> |MFCMAPI 使用**IMAPIFormContainer::ResolveMultipleMessageClasses**方法查找与一组的邮件类关联的表单。  <br/> |
+|FormContainerDlg  <br/> |CFormContainerDlg:: OnResolveMultipleMessageClasses  <br/> |MFCMAPI 使用**IMAPIFormContainer:: ResolveMultipleMessageClasses**方法来查找与一组邮件类关联的窗体。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

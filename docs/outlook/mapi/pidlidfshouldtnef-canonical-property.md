@@ -12,44 +12,44 @@ api_type:
 - COM
 ms.assetid: 3cab23b6-f0e3-4703-a83b-12a617537651
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ad9d81342ed749b6b1b640fd8118519aae7469a4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8f88e4b41ab455c55bfd1cb36b73ce7ef0383b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348991"
 ---
 # <a name="pidlidfshouldtnef-canonical-property"></a>PidLidFShouldTNEF 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指示是否对项目使用传输中性封装格式 (TNEF) 编码。 
+指示是否使用传输中性封装格式 (TNEF) 对项目进行编码。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidFShouldTNEF  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x000085A5  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x000085A5  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性设置 Microsoft Word 设置为电子邮件编辑器，然后发送富文本格式 (RTF) 流中嵌入的 OLE 对象时。
+在将 Microsoft Word 设置为电子邮件编辑器, 并发送嵌入在 rtf 格式 (rtf) 流中的 OLE 对象时, 将设置此属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

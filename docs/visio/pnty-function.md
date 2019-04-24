@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251482
 localization_priority: Normal
 ms.assetid: 8436cbe6-e0f6-ddbb-9489-21027e31bd51
-description: 返回一个点的 y 坐标。
-ms.openlocfilehash: 317a6e4e769f6e82985e19357545ce96c870b069
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回点的 y 坐标。
+ms.openlocfilehash: 39f71dccd95602fe9578d09e941f360c82c48a3e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780887"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348291"
 ---
 # <a name="pnty-function"></a>PNTY 函数
 
-返回_y_-点的坐标。
+返回点的_y_坐标。
   
 ## <a name="syntax"></a>语法
 
-PNTX (* **指向** *) 
+PNTX (* **点** *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _磅_ <br/> |必需  <br/> |**编号** <br/> |_Y_-点的坐标。  <br/> |
+| _鼠标_ <br/> |必需  <br/> |**Number** <br/> |点的_y_坐标。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-Number
+帐号
   
 ## <a name="example"></a>示例
 
-PNTY(PNT(7,12)) 
+PNTY (PNT (7, 12)) 
   
 返回 12。 
   

@@ -8,39 +8,39 @@ api_type:
 - COM
 ms.assetid: 5a473c40-6e94-48aa-b040-8308d17efbe8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 63c1ca2277a65698ee341c56c27cb451d2b1d87c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 09da335f8024e81e478ffdef5309707490ca0f1e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348536"
 ---
 # <a name="optional-report-message-properties"></a>可选的报告邮件属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-与报告消息有时显示以下属性：
+以下属性有时与报告邮件一起显示:
   
 **表标题**
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**PR_ORIGINAL_AUTHOR_ADDRTYPE**([PidTagOriginalAuthorAddressType](pidtagoriginalauthoraddresstype-canonical-property.md))  <br/> |包含一条消息，即，邮件转发或答复之前的第一个版本的作者的地址类型。  <br/> |
-|**PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS**([PidTagOriginalAuthorEmailAddress](pidtagoriginalauthoremailaddress-canonical-property.md))  <br/> |包含一条消息，即，邮件转发或答复之前的第一个版本的作者的电子邮件地址。  <br/> |
-|**PR_ORIGINAL_AUTHOR_ENTRYID**([PidTagOriginalAuthorEntryId](pidtagoriginalauthorentryid-canonical-property.md))  <br/> |包含一条消息，即，邮件转发或答复之前的第一个版本的作者的项标识符。  <br/> |
-|**PR_ORIGINAL_AUTHOR_NAME**([PidTagOriginalAuthorName](pidtagoriginalauthorname-canonical-property.md))  <br/> |包含一条消息，即，邮件转发或答复之前的第一个版本的作者的显示名称。  <br/> |
-|**PR_ORIGINAL_AUTHOR_SEARCH_KEY**([PidTagOriginalAuthorSearchKey](pidtagoriginalauthorsearchkey-canonical-property.md))  <br/> |包含搜索关键字的作者的消息，即，邮件转发或答复之前的第一版。  <br/> |
-|**PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE**([PidTagOriginalSentRepresentingAddressType](pidtagoriginalsentrepresentingaddresstype-canonical-property.md))  <br/> |包含的名义原始邮件已发送的邮件用户的地址类型。  <br/> |
-|**PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS**([PidTagOriginalSentRepresentingEmailAddress](pidtagoriginalsentrepresentingemailaddress-canonical-property.md))  <br/> |包含的名义原始邮件已发送的邮件用户的电子邮件地址。  <br/> |
-|**PR_ORIGINAL_SENT_REPRESENTING_ENTRYID**([PidTagOriginalSentRepresentingEntryId](pidtagoriginalsentrepresentingentryid-canonical-property.md))  <br/> |包含的名义原始邮件已发送的邮件用户的项标识符。  <br/> |
-|**PR_ORIGINAL_SENT_REPRESENTING_NAME**([PidTagOriginalSentRepresentingName](pidtagoriginalsentrepresentingname-canonical-property.md))  <br/> |包含的名义原始邮件已发送的邮件用户的显示名称。  <br/> |
-|**PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY**([PidTagOriginalSentRepresentingSearchKey](pidtagoriginalsentrepresentingsearchkey-canonical-property.md))  <br/> |包含搜索关键字的名义原始邮件已发送的消息用户。  <br/> |
-|**PR_ORIGINAL_SENDER_ADDRTYPE**([PidTagOriginalSenderAddressType](pidtagoriginalsenderaddresstype-canonical-property.md))  <br/> |包含一条消息，即，邮件转发或答复之前的第一个版本的发件人的地址类型。  <br/> |
-|**PR_ORIGINAL_SENDER_EMAIL_ADDRESS**([PidTagOriginalSenderEmailAddress](pidtagoriginalsenderemailaddress-canonical-property.md))  <br/> |包含一条消息，即，邮件转发或答复之前的第一个版本的发件人的电子邮件地址。  <br/> |
-|**PR_ORIGINAL_SENDER_ENTRYID**([PidTagOriginalSenderEntryId](pidtagoriginalsenderentryid-canonical-property.md))  <br/> |包含一条消息，即，邮件转发或答复之前的第一个版本的发件人的项标识符。  <br/> |
-|**PR_ORIGINAL_SENDER_NAME**([PidTagOriginalSenderName](pidtagoriginalsendername-canonical-property.md))  <br/> |包含一条消息，即，邮件转发或答复之前的第一个版本的发件人的显示名称。  <br/> |
-|**PR_ORIGINAL_SENDER_SEARCH_KEY**([PidTagOriginalSenderSearchKey](pidtagoriginalsendersearchkey-canonical-property.md))  <br/> |包含一条消息，即，邮件转发或答复之前的第一个版本的发件人的搜索关键字。  <br/> |
+|**PR_ORIGINAL_AUTHOR_ADDRTYPE**([PidTagOriginalAuthorAddressType](pidtagoriginalauthoraddresstype-canonical-property.md))  <br/> |包含邮件的首个版本的作者地址类型, 即邮件在转发或答复之前的地址类型。  <br/> |
+|**PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS**([PidTagOriginalAuthorEmailAddress](pidtagoriginalauthoremailaddress-canonical-property.md))  <br/> |包含邮件第一版的作者的电子邮件地址, 即邮件转发或答复前的邮件地址。  <br/> |
+|**PR_ORIGINAL_AUTHOR_ENTRYID**([PidTagOriginalAuthorEntryId](pidtagoriginalauthorentryid-canonical-property.md))  <br/> |包含邮件的首个版本的作者的条目标识符, 即邮件转发或答复前的邮件。  <br/> |
+|**PR_ORIGINAL_AUTHOR_NAME**([PidTagOriginalAuthorName](pidtagoriginalauthorname-canonical-property.md))  <br/> |包含邮件的首个版本的作者的显示名称, 即邮件在转发或答复之前的显示名称。  <br/> |
+|**PR_ORIGINAL_AUTHOR_SEARCH_KEY**([PidTagOriginalAuthorSearchKey](pidtagoriginalauthorsearchkey-canonical-property.md))  <br/> |包含邮件第一版的作者的搜索关键字, 即邮件转发或答复前的邮件。  <br/> |
+|**PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE**([PidTagOriginalSentRepresentingAddressType](pidtagoriginalsentrepresentingaddresstype-canonical-property.md))  <br/> |包含邮件用户的地址类型, 该用户代表其发送原始邮件的邮件。  <br/> |
+|**PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS**([PidTagOriginalSentRepresentingEmailAddress](pidtagoriginalsentrepresentingemailaddress-canonical-property.md))  <br/> |包含邮件用户的电子邮件地址, 该用户代表其发送原始邮件的邮件。  <br/> |
+|**PR_ORIGINAL_SENT_REPRESENTING_ENTRYID**([PidTagOriginalSentRepresentingEntryId](pidtagoriginalsentrepresentingentryid-canonical-property.md))  <br/> |包含邮件用户的条目标识符, 该用户代表其发送原始邮件的邮件。  <br/> |
+|**PR_ORIGINAL_SENT_REPRESENTING_NAME**([PidTagOriginalSentRepresentingName](pidtagoriginalsentrepresentingname-canonical-property.md))  <br/> |包含邮件用户的显示名称, 该用户代表其发送原始邮件的邮件。  <br/> |
+|**PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY**([PidTagOriginalSentRepresentingSearchKey](pidtagoriginalsentrepresentingsearchkey-canonical-property.md))  <br/> |包含邮件用户的搜索关键字, 该用户代表发送原始邮件的邮件。  <br/> |
+|**PR_ORIGINAL_SENDER_ADDRTYPE**([PidTagOriginalSenderAddressType](pidtagoriginalsenderaddresstype-canonical-property.md))  <br/> |包含邮件第一版的发件人地址类型, 即邮件转发或答复前的邮件。  <br/> |
+|**PR_ORIGINAL_SENDER_EMAIL_ADDRESS**([PidTagOriginalSenderEmailAddress](pidtagoriginalsenderemailaddress-canonical-property.md))  <br/> |包含邮件第一版的发件人的电子邮件地址, 即邮件转发或答复前的邮件地址。  <br/> |
+|**PR_ORIGINAL_SENDER_ENTRYID**([PidTagOriginalSenderEntryId](pidtagoriginalsenderentryid-canonical-property.md))  <br/> |包含邮件的第一种版本的发件人的条目标识符, 即邮件转发或答复前的邮件。  <br/> |
+|**PR_ORIGINAL_SENDER_NAME**([PidTagOriginalSenderName](pidtagoriginalsendername-canonical-property.md))  <br/> |包含邮件的第一种版本的发件人的显示名称, 即邮件在转发或答复之前的显示名称。  <br/> |
+|**PR_ORIGINAL_SENDER_SEARCH_KEY**([PidTagOriginalSenderSearchKey](pidtagoriginalsendersearchkey-canonical-property.md))  <br/> |包含邮件的第一种版本的发件人的搜索关键字, 即邮件转发或答复前的邮件。  <br/> |
    
 

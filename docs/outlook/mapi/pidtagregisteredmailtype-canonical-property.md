@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: f75f2a21-a17c-4d8b-9055-c51d4c1888d0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5ceb02fcf94a04b045a8ef387fc87b161a5515a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1d3eceae1e358f5716f46f33edcd0b2aae4e4a93
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355095"
 ---
 # <a name="pidtagregisteredmailtype-canonical-property"></a>PidTagRegisteredMailType 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-此属性包含注册用于物理邮件传递的类型。
+此属性包含用于实际传递邮件的注册类型。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_REGISTERED_MAIL_TYPE  <br/> |
-|标识符：  <br/> |0x0C16  <br/> |
+|标识符:  <br/> |0x0C16  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
@@ -38,13 +38,13 @@ ms.locfileid: "22583300"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 42981aac-f9e7-45dd-91a2-15d9784f30aa
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d494f1f14daff75be55e910da56204ecb3dbcf83
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345797"
 ---
 # <a name="pidtagattachmentflags-canonical-property"></a>PidTagAttachmentFlags 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25400710"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示此 Attachment 对象的特殊处理。
+指示此附件对象的特殊处理。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ATTACHMENT_FLAGS  <br/> |
-|标识符：  <br/> |0x7FFD  <br/> |
+|标识符:  <br/> |0x7FFD  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-必须 0x00000000，除非由其他协议的扩展邮件和附件对象协议[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)中所述重写
+必须为 0x00000000, 除非由扩展邮件和附件对象协议的其他协议替代[[OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)中所述
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

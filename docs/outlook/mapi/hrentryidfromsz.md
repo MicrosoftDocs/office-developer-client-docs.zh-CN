@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a524a7eb40c33d6de2f64cd5373c9a39a8a1e3df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ac59aeb3d650c0fbeb5bcdb580e0401cbab58ee6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565296"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347808"
 ---
 # <a name="hrentryidfromsz"></a>HrEntryIDFromSz
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-重新创建从其 ASCII 编码的项标识符。 
+从其 ASCII 编码重新创建条目标识符。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
    
 ```cpp
 HRESULT HrEntryIDFromSz(
@@ -45,21 +45,21 @@ HRESULT HrEntryIDFromSz(
 
  _sz_
   
-> [in]指向 ASCII 字符串从中创建的项标识符的指针。 
+> 实时指向从中创建条目标识符的 ASCII 字符串的指针。 
     
  _pcb_
   
-> [输出]指向的大小，以字节为单位_ppentry_参数指向的项标识符的指针。 
+> 排除指向由_ppentry_参数指向的条目标识符的大小 (以字节为单位) 的指针。 
     
  _ppentry_
   
-> [输出]返回包含新的项标识符的[ENTRYID](entryid.md)结构为指针的指针。 
+> 排除指向指向包含新条目标识符的返回[ENTRYID](entryid.md)结构的指针的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 重新创建已成功。
+> 重新创建成功。
     
 MAPI_E_INVALID_ENTRYID
   
@@ -67,10 +67,10 @@ MAPI_E_INVALID_ENTRYID
     
 ## <a name="remarks"></a>注解
 
-**HrEntryIDFromSz**和[HrSzFromEntryID](hrszfromentryid.md)函数提供的字符串和项标识符的二进制格式之间的转换。 
+**HrEntryIDFromSz**和[HrSzFromEntryID](hrszfromentryid.md)函数提供条目标识符的字符串和二进制格式之间的转换。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-**HrEntryIDFromSz**函数使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数的 ASCII 字符串分配内存。 
+**HrEntryIDFromSz**函数使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数为 ASCII 字符串分配内存。 
   
 

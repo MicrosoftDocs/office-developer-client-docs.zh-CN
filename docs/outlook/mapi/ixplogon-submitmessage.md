@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: a261ba0d-cb56-4935-b745-1d4bbd0b8b9d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 28e7874d1e61c0a4fe0ad702f206ca03a9a1096a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: ae124cb94cff5be0a655386d31f1bf2c82f66a85
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351588"
 ---
 # <a name="ixplogonsubmitmessage"></a>IXPLogon::SubmitMessage
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指示 MAPI 后台处理程序都有要提供的传输提供程序的消息。
+指示 MAPI 后台处理程序有要传递的传输提供程序的消息。
   
 ```cpp
 HRESULT SubmitMessage(
@@ -40,79 +40,79 @@ HRESULT SubmitMessage(
 
  _ulFlags_
   
-> [in]位掩码的标志，控制如何提交邮件。 可以设置以下标记：
+> 实时用于控制如何提交邮件的标志的位掩码。 可以设置以下标志:
     
 BEGIN_DEFERRED 
   
-> MAPI 后台处理程序调用以前推迟一条消息的传输提供程序。 邮件的项标识符时相同它已被延迟。 邮件已被延迟通过将其条目标识符传递回 MAPI 后台处理程序[IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)方法使用 NOTIFY_SENTDEFERRED 标志。 
+> MAPI 后台处理程序正在使用以前延迟的邮件调用传输提供程序。 邮件的条目标识符与延迟时相同。 通过使用[IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md)方法和 NOTIFY_SENTDEFERRED 标志将其条目标识符传递回 MAPI 后台处理程序, 从而推迟了邮件。 
     
  _lpMessage_
   
-> [in]一个指向 message 对象 （表示要发送的消息） 具有读/写权限，传输提供程序使用来访问和处理该邮件。 传输提供程序返回从后续调用[IXPLogon::EndMessage](ixplogon-endmessage.md)方法后，该对象保持有效之前。 
+> 实时一个指针, 指向具有读/写权限的邮件对象 (表示要传递的邮件), 传输提供程序使用该对象来访问和操作该邮件。 此对象将一直保持有效, 直到传输提供程序从对[IXPLogon:: EndMessage](ixplogon-endmessage.md)方法的后续调用返回。 
     
  _lpulMsgRef_
   
-> [输出]指向中传输提供程序返回其分配给此消息的参考值变量的指针。 MAPI 后台处理程序中后续呼叫，此消息传递参考该值。 MAPI 后台处理程序返回到传输提供程序之前初始化为 0 的值。
+> 排除一个指针, 指向传输提供程序在其中返回其分配给此邮件的引用值的变量。 MAPI 后台处理程序在此邮件的后续调用中传递此引用值。 MAPI 后台处理程序将此值初始化为 0, 然后再将其返回到传输提供程序。
     
  _lpulReturnParm_
   
-> [输出]指向由**SubmitMessage**返回的 MAPI_E_WAIT 或 MAPI_E_NETWORK_ERROR 错误值对应一个变量的指针。
+> 排除指向与**SubmitMessage**返回的 MAPI_E_WAIT 或 MAPI_E_NETWORK_ERROR 错误值相对应的变量的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功，并返回预期的值。
+> 调用成功, 并返回了所需的一个或一些值。
     
 MAPI_E_BUSY 
   
-> 传输提供程序无法处理邮件，因为它执行其他操作。 提供程序应使用此返回的值，以指示不会处理出现和 MAPI 后台处理程序不应调用**EndMessage**。 MAPI 后台处理程序将稍后再试**SubmitMessage**呼叫。 
+> 传输提供程序无法处理邮件, 因为它正在执行其他操作。 提供程序应使用此返回值指示未发生任何处理, MAPI 后台处理程序不应调用**EndMessage**。 MAPI 后台处理程序将稍后再次尝试**SubmitMessage**调用。 
     
 MAPI_E_CANCEL 
   
-> 尽管传输提供程序请求 MAPI 后台处理程序重新提交邮件在以前**SpoolerNotify**呼叫，此后更改条件，并且应不重新发送邮件。 MAPI 后台处理程序将继续处理其他内容。 
+> 尽管传输提供程序请求 MAPI 后台处理程序重新提交以前的**SpoolerNotify**调用的邮件, 但条件已更改, 不应重发邮件。 MAPI 后台处理程序将继续处理其他内容。 
     
 MAPI_E_NETWORK_ERROR 
   
-> 网络错误阻止操作成功的完成。 _LpulReturnParm_参数应设置为的 MAPI 后台处理程序重新提交邮件之前所经过的秒数。 
+> 网络错误阻止操作成功完成。 应将_lpulReturnParm_参数设置为 MAPI 后台处理程序重新提交邮件之前所经过的秒数。 
     
 MAPI_E_NOT_ME 
   
-> 传输提供程序无法处理此消息。 MAPI 后台处理程序应尝试查找另一个传输提供程序。 提供程序应使用此返回的值，以指示不会处理出现和 MAPI 后台处理程序不应调用**EndMessage**。
+> 传输提供程序无法处理此邮件。 MAPI 后台处理程序应尝试为其查找其他传输提供程序。 提供程序应使用此返回值指示未发生任何处理, MAPI 后台处理程序不应调用**EndMessage**。
     
 MAPI_E_WAIT 
   
-> 暂时出现问题阻止传输提供程序处理邮件。 _LpulReturnParm_参数应设置为的 MAPI 后台处理程序重新提交邮件之前所经过的秒数。 
+> 临时问题会阻止传输提供程序处理邮件。 应将_lpulReturnParm_参数设置为 MAPI 后台处理程序重新提交邮件之前所经过的秒数。 
     
 ## <a name="remarks"></a>注解
 
-MAPI 后台处理程序调用**IXPLogon::SubmitMessage**方法时要提供的传输提供程序的消息。 通过使用_lpMessage_参数情况下，邮件传递到传输提供程序。 
+MAPI 后台处理程序调用**IXPLogon:: SubmitMessage**方法, 以使传输提供程序能够传递邮件。 通过使用_lpMessage_参数将邮件传递给传输提供程序。 
   
-如果已准备好接受消息提供程序，它应通过_lpulMsgRef_参数，过程传递的对象，返回的引用值并返回相应的值 (通常 S_OK)。 如果不准备处理传输提供程序，它应返回错误值，并 （可选），另一个 MAPI 返回中_lpulReturnParm_以指示 MAPI 后台处理程序重新提交邮件之前应等待的时间长度值。 
+如果提供程序准备好接受邮件, 则应使用_lpulMsgRef_参数返回一个引用值, 处理传递的对象, 然后返回适当的值 (通常为 S_OK)。 如果提供程序未准备好处理传输, 它应返回一个错误值, 也可以返回_lpulReturnParm_中的另一个 MAPI 返回值, 以指示 mapi 后台处理程序在重新提交邮件之前应等待的时间。 
   
-传输提供程序实现此方法可以执行以下操作：
+此方法的传输提供程序的实现可以执行以下操作:
   
-- 邮件置于内部队列等待传输，原因可能将邮件复制到本地存储，并返回。
+- 将邮件放入内部队列以等待传输, 可能将邮件复制到本地存储, 并返回。
     
-- 尝试执行的实际传输和返回传输完成后，成功或失败。
+- 尝试在传输完成 (无论成功还是失败) 时执行实际传输并返回。
     
-- 确定是否检查所涉及的资源后发送邮件。 在这种情况下，如果资源是免费的提供程序可以锁定资源、 准备邮件，并将其提交。 如果资源正忙，提供程序可以准备邮件并推迟到以后某个时间发送。
+- 确定在检查所涉及的资源后是否发送邮件。 在这种情况下, 如果资源是免费的, 则提供程序可以锁定资源、准备邮件并提交邮件。 如果资源处于忙碌状态, 则提供程序可以准备邮件并推迟发送到稍后的时间。
     
-邮件传输的首选的方法取决于传输提供程序和预期的数量的流程争夺系统资源。 
+邮件传输的首选技术取决于传输提供程序和争用系统资源的预期进程数。 
   
-**SubmitMessage**呼叫期间，传输提供程序控制传输的消息数据从 message 对象。 但是，传输提供程序应将引用值分配给邮件，向其返回一个指向在_lpulMsgRef_之前传输数据。 它因此因为可以在任何点在过程中，调用 MAPI 后台处理程序将[IXPLogon::TransportNotify](ixplogon-transportnotify.md)方法与 NOTIFY_CANCEL_MESSAGE 标志设置为信号提供程序，它应释放任何打开的对象并停止邮件传输。 
+在**SubmitMessage**呼叫过程中, 传输提供程序控制邮件对象的邮件数据传输。 但是, 传输提供程序应在_lpulMsgRef_中向其返回指针的消息分配一个引用值, 然后再传输数据。 这是因为在过程中的任何时刻, MAPI 后台处理程序都可以调用[IXPLogon:: TransportNotify](ixplogon-transportnotify.md)方法并设置 NOTIFY_CANCEL_MESSAGE 标志, 以向提供程序发出通知, 告知其应释放任何打开的对象并停止邮件传输。 
   
-传输提供程序不应发送消息的任何 nontransmittable 属性。 如果找到此类属性，它应继续处理的下一个属性。 提供程序应尽力不传输的消息内容; 的一部分显示 MAPI_P1 收件人信息提供程序应仅对寻址目的使用此收件人的信息。 MAPI_P1 收件人是内部生成的用于重新发送消息;他们应不会传输。 相反，使用其他收件人的传输收件人的信息。 这种排列的用途是允许重新发送收件人为原始收件人看到完全相同的收件人表。
+传输提供程序不应发送邮件的任何 nontransmittable 属性。 当找到此类属性时, 它应继续处理下一个属性。 提供程序应尽一切努力将 MAPI_P1 收件人信息显示为传输的邮件内容的一部分;提供程序应仅出于寻址目的而使用此收件人信息。 MAPI_P1 收件人是内部生成的用于重新发送邮件的收件人;不应传输它们。 而是使用其他收件人传输收件人信息。 这种安排的目的是允许重发收件人查看与原始收件人完全相同的收件人表。
   
-**SubmitMessage**调用，过程中 MAPI 后台处理程序处理的邮件传输过程中打开的对象的方法以及处理任何附件。 此处理花费很长时间。 传输提供程序可以发布的其他系统任务的 CPU 时间此处理过程中经常调用了的 MAPI 后台处理程序的[IMAPISupport::SpoolerYield](imapisupport-spooleryield.md)方法。 
+在**SubmitMessage**呼叫过程中, MAPI 后台处理程序将处理在邮件传输过程中打开的对象的方法, 并处理所有附件。 此处理可能需要很长时间。 在此处理过程中, 传输提供程序可以为 MAPI 后台处理程序调用[IMAPISupport:: SpoolerYield](imapisupport-spooleryield.md)方法, 以在其他系统任务中释放 CPU 时间。 
   
-所有收件人都都能看到收件人的 MAPI 后台处理程序最初传递的消息表中。 传输提供程序应处理只有它可以处理这些收件人 — 基于条目标识符、 地址类型，或同时 — 和尚未其**PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) 属性设置为 TRUE。 如果**PR_RESPONSIBILITY**已设置为 TRUE，另一个传输提供程序已经处理该收件人。 提供程序完成后足够处理的以确定是否可以为该收件人处理邮件的收件人，它应将该收件人**PR_RESPONSIBILITY**属性设置为 TRUE 传递的消息。 通常，提供程序进行此项确定邮件传递完成之后。 
+MAPI 后台处理程序最初传递的邮件的收件人表中显示所有邮件收件人。 传输提供程序应仅处理其可处理的收件人 (基于条目标识符、地址类型或两者), 且尚未将其**PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) 属性设置为 TRUE。 如果**PR_RESPONSIBILITY**已设置为 TRUE, 则另一个传输提供程序已处理该收件人。 当提供程序完成对收件人的足够处理以确定是否可以处理该收件人的邮件时, 应将该收件人的**PR_RESPONSIBILITY**属性设置为 TRUE, 并在传递的邮件中。 通常, 提供程序在邮件传递完成后进行此确定。 
   
-通常，传输提供程序不返回**SubmitMessage**调用直到它完成传输邮件数据。 如果不返回任何错误，来自 MAPI 后台处理程序向提供程序的下一个呼叫是对[IXPLogon::EndMessage](ixplogon-endmessage.md)方法的调用。 
+通常情况下, 传输提供程序在完成邮件数据的传输之前不会从**SubmitMessage**调用返回。 如果没有返回错误, 则从 MAPI 后台处理程序到提供程序的下一个调用是对[IXPLogon:: EndMessage](ixplogon-endmessage.md)方法的调用。 
   
-如果**SubmitMessage**将返回错误，MAPI 后台处理程序将释放而不保存更改的过程中的消息。 如果传输提供程序所需的消息将更改保存，它必须返回之前对邮件调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法。 
+如果**SubmitMessage**返回错误, MAPI 后台处理程序将在不保存更改的情况下释放邮件。 如果传输提供程序要求保存邮件更改, 则必须在返回前对邮件调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法。 
   
-由于传输问题出现的错误，显示 MAPI 后台处理程序保持在原有的邮件，但不是延迟重新提交的邮件传输提供程序基于_lpulReturnParm_中返回的值。 如果从**SubmitMessage**其返回值是 MAPI_E_WAIT 或 MAPI_E_NETWORK_ERROR，传输提供程序必须填写该值。 如果出现严重错误情况，传输提供程序必须调用带 NOTIFY_CRITICAL_ERROR 标志的[IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)方法。 
+如果传输问题导致出现错误, MAPI 后台处理程序将保留邮件, 但会根据_lpulReturnParm_中返回的值, 延迟将邮件重新提交到传输提供程序。 如果**SubmitMessage**的返回值是 MAPI_E_WAIT 或 MAPI_E_NETWORK_ERROR, 则传输提供程序必须填写该值。 如果发生严重错误, 则传输提供程序必须使用 NOTIFY_CRITICAL_ERROR 标记调用[IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md)方法。 
   
 ## <a name="see-also"></a>另请参阅
 

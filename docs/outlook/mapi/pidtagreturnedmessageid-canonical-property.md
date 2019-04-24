@@ -10,43 +10,43 @@ api_type:
 - COM
 ms.assetid: 1f0f13e2-7554-41fc-a7a9-a90c34181c96
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 38d357fa87a8781173be118fdd2cd26f57e814df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e56d7851b1fe28ddea1703d9ec3ffb7737abeda6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583622"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345253"
 ---
 # <a name="pidtagreturnedmessageid-canonical-property"></a>PidTagReturnedMessageid 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-如果使用 nonread 报告返回原始邮件，则，包含 TRUE。
+如果原始邮件是使用未读报告返回的, 则为 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RETURNED_IPM  <br/> |
-|标识符：  <br/> |0x0033  <br/> |
+|标识符:  <br/> |0x0033  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
 ## <a name="remarks"></a>注解
 
-X.400 传输提供程序的未读报告中设置此属性。
+X. 400 传输提供程序在未读报告中设置此属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

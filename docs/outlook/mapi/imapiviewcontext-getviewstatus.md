@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 2e5ec914-7171-41ce-a6fe-78dd80ac32ff
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 992d51526c45334f6db3738e36994f4bb9c07c6e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bb8699746b3f4207ee70edd4e56d0ec6041beac2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351175"
 ---
 # <a name="imapiviewcontextgetviewstatus"></a>IMAPIViewContext::GetViewStatus
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-检索当前的查看器状态。 
+检索当前查看器状态。 
   
 ```cpp
 HRESULT GetViewStatus(
@@ -37,61 +37,61 @@ ULONG FAR * lpulStatus
 
  _lpulStatus_
   
-> [输出]指向提供查看器的状态标志的位掩码。 可以设置以下标志：
+> 排除指向提供查看器状态的标志的位掩码的指针。 可以设置以下标志:
     
 VCSTATUS_CATEGORY 
   
-> 在其他类别没有下一个或上一条消息。 
+> 另一个类别中有下一个或上一个邮件。 
     
 VCSTATUS_DELETE 
   
-> 窗体允许要移除的消息。 
+> 该窗体允许删除邮件。 
     
 VCSTATUS_INTERACTIVE 
   
-> 表单应显示的用户界面。 如果未设置此标志，表单应禁止显示用户界面，即使在响应通常会导致用户界面将显示动词。 
+> 表单应显示用户界面。 如果未设置此标志, 则表单应禁止显示用户界面, 即使是响应通常会导致显示用户界面的动作也是如此。 
     
 VCSTATUS_MODAL 
   
-> 窗体是模式到查看器。 
+> 窗体是查看器的模式。 
     
 VCSTATUS_NEXT 
   
-> 在视图中没有下一条消息。 
+> 视图中存在下一条消息。 
     
 VCSTATUS_PREV 
   
-> 在视图中没有上一条消息。 
+> 视图中有上一封邮件。 
     
 VCSTATUS_READONLY 
   
-> 邮件是以只读模式打开。 删除、 提交，和移动操作应被禁用。 
+> 将在只读模式下打开邮件。 应禁用删除、提交和移动操作。 
     
 VCSTATUS_UNREAD 
   
-> 在视图中没有下一页或上一页未读的邮件。
+> 视图中存在下一个或上一个未读邮件。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功返回将查看器的状态。
+> 已成功返回查看器的状态。
     
 ## <a name="remarks"></a>注解
 
-表单对象调用**IMAPIViewContext::GetViewStatus**方法以确定是否在窗体视图中要激活的更多邮件或两个方向，即方向**下一步**命令在其中激活消息，请在方向**上一个**命令中激活邮件，或在两个方向。 指向_lpulStatus_参数的值用于确定是否有效的[IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)VCSTATUS_NEXT 和 VCSTATUS_PREV 标志。 如果设置，但不是 VCSTATUS_READONLY 标志 VCSTATUS_DELETE 标志，然后可以使用[IMAPIMessageSite::DeleteMessage](imapimessagesite-deletemessage.md)方法删除邮件。 
+表单对象调用**IMAPIViewContext:: GetViewStatus**方法, 以确定在一种或两种方向的 "窗体" 视图中是否有更多的要激活的邮件, 这些方向是在 "**下一步**" 命令激活邮件的方向, 在上一个命令激活邮件的方向, 或在两个方向**上**激活邮件的方向。 _lpulStatus_参数所指向的值用于确定 VCSTATUS_NEXT 和 VCSTATUS_PREV 标志对[IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md)是否有效。 如果设置了 VCSTATUS_DELETE 标志, 而不是 VCSTATUS_READONLY 标志, 则可以使用[IMAPIMessageSite::D eletemessage](imapimessagesite-deletemessage.md)方法删除邮件。 
   
-通常情况下，窗体禁用菜单命令和按钮如果不是有效的查看者的上下文。 查看器可以通过调用其[IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md)方法通知状态更改的表单。 
+通常, 如果窗体对查看者的上下文无效, 则会禁用菜单命令和按钮。 查看者可以通过调用其[IMAPIFormAdviseSink:: OnChange](imapiformadvisesink-onchange.md)方法, 将窗体的状态更改警告到状态更改。 
   
-如果该窗体必须模式窗口的句柄传递设置 VCSTATUS_MODAL 标志早期[IMAPIForm::DoVerb](imapiform-doverb.md)呼叫中。 如果设置 VCSTATUS_MODAL，表单可以使用窗体关闭之前在其进行**DoVerb**通话的线程。 如果未设置 VCSTATUS_MODAL，窗体不应在此窗口模式，并不得使用线程。 
+如果窗体必须是在之前的 IMAPIForm 中传递的句柄所在窗口的模式, 则设置 VCSTATUS_MODAL 标志[::D overb](imapiform-doverb.md)调用。 如果设置了 VCSTATUS_MODAL, 则表单可以使用在其上进行**DoVerb**调用的线程, 直到窗体关闭。 如果未设置 VCSTATUS_MODAL, 则该窗体不应为此窗口的模式, 并且不得使用该线程。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetViewStatus  <br/> |MFCMAPI 此函数中实现**IMAPIViewContext::GetViewStatus**方法。  <br/> |
+|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetViewStatus  <br/> |MFCMAPI 实现此函数中的**IMAPIViewContext:: GetViewStatus**方法。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -7,26 +7,26 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a0cbbc93-8074-4e86-b660-ee7bab910587
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f7b2baa8cd78fbb8ace72fd0edb7c77f4c02a4c8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 656f696c58e9b62e7e601d7f531870b8c385e862
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345652"
 ---
 # <a name="table-positioning"></a>表定位
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-始终由游标表示表格中的当前位置。 没有为表; 每个视图的一个游标其值由表的实施者设置。 当使用表的客户端或服务提供程序的调用可以更改表的位置时，将重置的游标的值。 可以使用更改表的位置：
+表中的当前位置始终由游标指示。 对于表的每个视图, 都有一个游标;它的值由表的实施者设置。 当使用表的客户端或服务提供程序进行调用以更改表的位置时, 游标的值将重置。 可以通过以下方式更改表的位置:
   
 - 书签。
     
-- 分数的值。
+- 小数值。
     
-- 筛选器。
+- 一个筛选器。
     
 

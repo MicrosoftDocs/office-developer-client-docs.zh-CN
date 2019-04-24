@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bfddb829-6e13-7d74-b9b9-2cb5c0937bae
 description: 确定线条起始处的箭头大小。
-ms.openlocfilehash: b38e4a0685fce6d7f4aea2192ed123665eacf40a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c1288ced747c4e16090013cc043b040f1fbb59c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779665"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346226"
 ---
-# <a name="beginarrowsize-cell-line-format-section"></a>BeginArrowSize 单元格（“Line Format”部分）
+# <a name="beginarrowsize-cell-line-format-section"></a>BeginArrowSize 单元格（“Line Format”内容）
 
 确定线条起始处的箭头大小。
   
@@ -24,13 +24,13 @@ ms.locfileid: "19779665"
 |:-----|:-----|:-----|
 | 0  <br/> | 非常小  <br/> |**visArrowSizeVerySmall** <br/> |
 | 1  <br/> | 小  <br/> |**visArrowSizeSmall** <br/> |
-| 2  <br/> | 中等  <br/> |**visArrowSizeMedium** <br/> |
-| 3  <br/> | 大  <br/> |**visArrowSizeLarge** <br/> |
+| 双面  <br/> | 中等  <br/> |**visArrowSizeMedium** <br/> |
+| 第三章  <br/> | 大  <br/> |**visArrowSizeLarge** <br/> |
 | 4  <br/> | 非常大  <br/> |**visArrowSizeVeryLarge** <br/> |
-| 5  <br/> | 极大  <br/> |**visArrowSizeJumbo** <br/> |
-| 6  <br/> | 超大  <br/> |**visArrowSizeColossal** <br/> |
+| 5  <br/> | 超长  <br/> |**visArrowSizeJumbo** <br/> |
+| 型  <br/> | Colossal  <br/> |**visArrowSizeColossal** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 您还可以在 **“线条”** 对话框中设置箭头的大小。 
   

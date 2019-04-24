@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 6454c1fa-5216-4934-a908-48c634ac4a07
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2625b148d15c2f5ccf65eedf3a1b1f2c9d0d133e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6cf51985e534434c584eff4d63dfbf239121ee85
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592043"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346765"
 ---
 # <a name="hrvalidateipmsubtree"></a>HrValidateIPMSubtree
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-将标准人际邮件 (IPM) 文件夹添加到的消息存储。 
+将标准人际邮件 (IPM) 文件夹添加到邮件存储区。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
    
 ```cpp
 HrValidateIPMSubtree(
@@ -47,23 +47,23 @@ HrValidateIPMSubtree(
 
  _lpMDB_
   
-> [in]指向邮件存储要向其中添加文件夹的对象。 
+> 实时指向要向其添加文件夹的邮件存储对象的指针。 
     
  _ulFlags_
   
-> [in]用于控制如何创建的文件夹的标志位掩码。 可以设置以下标志：
+> 实时用于控制创建文件夹的标志的位掩码。 可以设置以下标志:
     
 MAPI_FORCE_CREATE 
   
-> 之前创建，应验证文件夹，即使它们是有效的消息存储库属性指示。 一个错误，指示已损坏的现有文件夹结构时，客户端应用程序通常设置此标志。 
+> 应在创建文件夹之前对其进行验证, 即使邮件存储库属性指示它们是有效的也是如此。 当错误指示现有文件夹的结构已损坏时, 客户端应用程序通常会设置此标志。 
     
 MAPI_FULL_IPM_TREE 
   
-> 消息存储库的根文件夹中，应创建整套 IPM 文件夹。 层次结构中的文件夹标题是：
+> 应在邮件存储区的根文件夹中创建完整的 IPM 文件夹集。 层次结构中的文件夹标题为:
     
     - 文件夹视图
     
-    - 公共视图
+    - 常用视图
     
     - 搜索根\*
     
@@ -73,23 +73,23 @@ MAPI_FULL_IPM_TREE
     
     - 发件箱
     
-    - 已删除的项目\*
+    - 已删除项目\*
     
-    - 已发送的邮件
+    - 已发送邮件
     
-    三个文件夹与标记的位置\*是最小集创建即使 MAPI_FULL_IPM_TREE 标志尚未设置。 客户端应用程序通常将在其中的文件夹是要创建的消息存储时的默认存储设置此标志。
+    其中, 使用\*标记的三个文件夹是创建的最小集, 即使尚未设置 MAPI_FULL_IPM_TREE 标志也是如此。 当要在其中创建文件夹的邮件存储是默认存储时, 客户端应用程序通常会设置此标志。
     
  _lpcValues_
   
-> [传入、 传出]指向[SPropValue](spropvalue.md)结构_lppProps_参数中返回的数组中的编号的指针。 _LpcValues_参数的值可以是零，如果_lppProps_为 NULL。 
+> [in, out]一个指针, 指向_lppProps_参数中返回的数组中的[SPropValue](spropvalue.md)结构的数目。 如果_lppProps_为 NULL, 则_lpcValues_参数的值可以为零。 
     
  _lppProps_
   
-> [传入、 传出]为指向包含属性值为**PR_VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) 属性以及相应的文件夹条目标识符属性的**SPropValue**结构数组的指针。 如果**HrValidateIPMSubtree**消息存储库中创建收件箱， **SPropValue**数组包括收件箱条目标识符，其中编码为一个特殊属性标记`PROP_TAG(PT_BINARY, PROP_ID_NULL)`。 _LppProps_参数可以是 NULL，表明调用实现不需要返回**SPropValue**数组。 
+> [in, out]指向**SPropValue**结构数组的指针, 该数组包含**PR_VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) 属性和相应的文件夹项标识符属性的属性值。 如果**HrValidateIPMSubtree**在邮件存储区中创建收件箱, 则**SPropValue**数组包含一个带有编码为`PROP_TAG(PT_BINARY, PROP_ID_NULL)`的特殊属性标记的收件箱条目标识符。 _lppProps_参数可以为 NULL, 指示调用实现不要求返回**SPropValue**数组。 
     
  _lppMapiError_
   
-> [输出]为包含错误的版本、 组件及上下文信息[MAPIERROR](mapierror.md)结构指针的指针。 如果不返回任何**MAPIERROR**结构_lppMAPIError_参数设置为 NULL。 
+> 排除指向包含错误的版本、组件和上下文信息的[MAPIERROR](mapierror.md)结构的指针的指针。 如果不返回**MAPIERROR**结构, 则将_lppMAPIError_参数设置为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
@@ -97,13 +97,13 @@ MAPI_FULL_IPM_TREE
   
 ## <a name="remarks"></a>注解
 
-MAPI 内部使用**HrValidateIPMSubtree**函数来构造中的消息存储的标准 IPM 子树时首先打开的存储，或者存储区进行的默认存储。 此函数还可通过客户端应用程序以验证或修复标准邮件文件夹。 
+MAPI 在内部使用**HrValidateIPMSubtree**函数在首次打开存储库时或在将存储创建为默认存储时在邮件存储中构建标准的 IPM 子树。 客户端应用程序还可以使用此函数验证或修复标准邮件文件夹。 
   
- **HrValidateIPMSubtree**始终存储的根文件夹和 IPM 子树文件夹中的已删除邮件文件夹中创建的搜索根和 IPM 子树文件夹。 IPM 子树的文件夹是该消息存储中 IPM 层次结构的根。 搜索根文件夹可以用作搜索结果文件夹的子树的根。 
+ **HrValidateIPMSubtree**始终在存储区的根文件夹和 ipm 子树文件夹中的 "已删除邮件" 文件夹中创建搜索根和 IPM 子树文件夹。 ipm 子树文件夹是该邮件存储区中 ipm 层次结构的根。 搜索根文件夹可用作搜索结果文件夹的子树的根文件夹。 
   
-IPM 客户端应该显示开头 IPM 子树的根文件夹和显示在它下面的文件夹的子其文件夹视图。 在客户端的用户界面中不应出现的消息存储的根文件夹中的信息。 此功能意味着，如果客户端必须隐藏信息，请信息可以放置在 IPM 子树的根目录，其中不对用户可见。 相比之下，需要邮件和文件夹，使其与用户，例如基于服务器的邮件存储区中，不可见的非 IPM 应用程序可以将它们放外 IPM 层次结构。 
+IPM 客户端应显示其文件夹视图 (从 IPM 子树根文件夹开始, 并在其下显示子文件夹)。 邮件存储区的根文件夹中的信息不应出现在客户端的用户界面中。 此功能意味着, 如果客户端必须隐藏信息, 则可以将信息放在 IPM 子树根目录中, 该目录对用户是不可见的。 相比之下, 要求邮件和文件夹对用户不可见的非 IPM 应用程序 (例如, 在基于服务器的邮件存储区中) 可以将它们放在 IPM 层次结构之外。 
   
- **HrValidateIPMSubtree**设置**PR_VALID_FOLDER_MASK**属性，以指示它创建每个 IPM 文件夹是否具有有效项标识符。 消息存储库的下列条目标识符属性设置为相应的文件夹中的项标识符，以及**PR_VALID_FOLDER_MASK** _lppProps_参数中返回： 
+ **HrValidateIPMSubtree**设置**PR_VALID_FOLDER_MASK**属性, 以指示它所创建的每个 IPM 文件夹是否都有一个有效的条目标识符。 邮件存储区的以下条目标识符属性将设置为相应文件夹的条目标识符, 并在_lppProps_参数中返回, 以及**PR_VALID_FOLDER_MASK**: 
   
  **PR_COMMON_VIEWS_ENTRYID**([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
   
@@ -119,15 +119,15 @@ IPM 客户端应该显示开头 IPM 子树的根文件夹和显示在它下面�
   
 > **PR_VIEWS_ENTRYID**([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md))
   
-> 占位符[PROP_TAG](prop_tag.md) IPM 收件箱 （PT_BINARY、 PROP_ID_NULL）。 
+> 用于 IPM 收件箱的占位符[PROP_TAG](prop_tag.md) (PT_BINARY, PROP_ID_NULL)。 
     
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MstStoreDlg.cpp  <br/> |CMsgStoreDlg::OnValidateIPMSubtree  <br/> |MFCMAPI 使用**HrValidateIPMSubtree**方法将标准文件夹添加到的消息存储。  <br/> |
+|MstStoreDlg  <br/> |CMsgStoreDlg:: OnValidateIPMSubtree  <br/> |MFCMAPI 使用**HrValidateIPMSubtree**方法将标准文件夹添加到邮件存储区。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

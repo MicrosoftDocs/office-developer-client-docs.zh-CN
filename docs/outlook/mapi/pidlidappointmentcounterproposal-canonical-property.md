@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f510af2d-92b3-4c98-bdf4-8aca8e8b80d1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3f1328704f07a7fd92744b4efef983b9faef32fb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345365"
 ---
 # <a name="pidlidappointmentcounterproposal-canonical-property"></a>PidLidAppointmentCounterProposal 规范属性
 
@@ -25,13 +25,13 @@ ms.locfileid: "25399751"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示此会议响应计数器建议。
+指示此会议响应是一个计数器建议。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidApptCounterProposal  <br/> |
-|属性进行设置：  <br/> |PSETID_Appointment  <br/> |
-|长 ID （盖）：  <br/> |0x00008257  <br/> |
+|属性集:  <br/> |PSETID_Appointment  <br/> |
+|长 ID (盖子):  <br/> |0x00008257  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
@@ -39,17 +39,17 @@ ms.locfileid: "25399751"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

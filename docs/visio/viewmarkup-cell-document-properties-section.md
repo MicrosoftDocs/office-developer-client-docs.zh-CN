@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6c956266-8266-3312-5a68-cc9d8bdb8cd9
 description: 确定绘图窗口中是否显示标记。
-ms.openlocfilehash: dda908595b243878ec755cf73351ec1fd672dc55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eeccdd0d14bf28630937b0e480822abb6fb19da5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781649"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355823"
 ---
-# <a name="viewmarkup-cell-document-properties-section"></a>ViewMarkup 单元格（“Document Properties”部分）
+# <a name="viewmarkup-cell-document-properties-section"></a>ViewMarkup 单元格（“Document Properties”内容）
 
 确定绘图窗口中是否显示标记。 
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |在绘图上显示标记。  <br/> |
 |FALSE  <br/> |不显示标记（默认值）。  <br/> |
    
 ## <a name="remarks"></a>注解
 
- 当打开标记跟踪 （AddMarkup 单元格为 TRUE），ViewMarkup 单元格会自动设置为 TRUE，并且保留为 TRUE，即使已禁用跟踪标记 （AddMarkup 单元格为 FALSE）。 AddMarkup 单元格为 TRUE 时，将忽略 ViewMarkup 单元格中的值。 
+ 标记跟踪打开时 (AddMarkup 单元格为 true), 即使关闭了标记跟踪 (AddMarkup 单元格为 FALSE), ViewMarkup 单元格也会自动设置为 true, 并且仍为 true。 当 AddMarkup 单元格为 TRUE 时，将忽略 ViewMarkup 单元格中的值。 
   
 在绘图中插入注释时，ViewMarkup 单元格也将设置为 TRUE（无论是否启用标记跟踪），并且必须设置为 TRUE 才能在绘图中看到注释。
   

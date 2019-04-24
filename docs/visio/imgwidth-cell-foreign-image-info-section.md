@@ -8,23 +8,23 @@ f1_keywords:
 - vis_sdr.chm460
 localization_priority: Normal
 ms.assetid: b57fb962-0b3e-f2e5-3b88-3edf33e40496
-description: 确定对象的图像在其边框内的宽度。默认公式为：
-ms.openlocfilehash: 3aab65d27d426287060f7572dad15174acb93199
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定对象的图像在其边框内的宽度。 默认公式为：
+ms.openlocfilehash: 9da5e06a7fbf6ae77a49fb0410aefb406e2afecb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344721"
 ---
-# <a name="imgwidth-cell-foreign-image-info-section"></a>ImgWidth 单元格（“Foreign Image Info”部分）
+# <a name="imgwidth-cell-foreign-image-info-section"></a>ImgWidth 单元格（“Foreign Image Info”内容）
 
-确定对象的图像在其边框内的宽度。默认公式为：
+确定对象的图像在其边框内的宽度。 默认公式为：
   
-= 宽度\*1
+= Width \* 1
   
 剪裁对象将更改与 Width 相乘的乘数。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ImgWidth 单元格的引用，请使用： 
   

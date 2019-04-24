@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: ce0be0d5-4962-4d53-828f-c93d1c5aae32
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4cbaf08c58a98be45ad33aebb8f230fb53c234f3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c13b741b1e0ddfd964b9325d736a26dac4bff2af
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346296"
 ---
 # <a name="rowlist"></a>ROWLIST
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个表示行和通过[IExchangeModifyTable](iexchangemodifytableiunknown.md)界面表格中的行上执行的操作的[ROWENTRY](rowentry.md)结构数组。 
+包含[ROWENTRY](rowentry.md)结构的数组, 这些结构表示通过[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口对表中的这些行执行的行和操作。 
   
 ```cpp
 typedef struct
@@ -40,19 +40,19 @@ typedef struct
 
  **cEntries**
   
-> 指定由**aEntries**成员的数组中的条目的计数。 
+> 由**aEntries**成员指定的数组中的条目数。 
     
  **aEntries [MAPI_DIM]**
   
-> **ROWENTRY**结构数组，其中包含的行和表中的行上执行的操作。 
+> **ROWENTRY**结构的数组, 其中包含在表中对这些行执行的行和操作。 
     
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |用于生成的后续**ModifyTable**操作选定的规则列表。  <br/> |
+|RulesDlg  <br/> |CRulesDlg:: GetSelectedItems  <br/> |用于为后续**ModifyTable**操作生成选定规则的列表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

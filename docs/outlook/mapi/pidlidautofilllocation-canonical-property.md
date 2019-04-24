@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e4db6cae-4730-45d0-8b8a-9bd484c8bd3f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2d1edf371486c5db0aa8b869726c8a9a7b62ab06
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344994"
 ---
 # <a name="pidlidautofilllocation-canonical-property"></a>PidLidAutoFillLocation 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25389440"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示从表示的资源 RecipientRow **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) 属性的值设置为**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。
+指示**dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) 属性的值设置为 RecipientRow 中的**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性, 该属性表示资源。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidAutoFillLocation  <br/> |
-|属性进行设置：  <br/> |PSETID_Appointment  <br/> |
-|长 ID （盖）：  <br/> |0x0000823A  <br/> |
+|属性集:  <br/> |PSETID_Appointment  <br/> |
+|长 ID (盖子):  <br/> |0x0000823A  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-RecipientRow 的详细信息，请参阅[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)中指定的邮件和附件对象协议。
+有关 RecipientRow 的更多详细信息, 请参阅 Message and 附件对象协议 (如[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)中所指定)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

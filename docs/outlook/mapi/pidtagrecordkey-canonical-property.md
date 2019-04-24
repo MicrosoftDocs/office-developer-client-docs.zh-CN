@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a12fb9a2-799d-4112-b26c-4b2854c47cc2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7a3ae7db1fb97e97f7d0939b67f139af62477bf7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401697"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355263"
 ---
 # <a name="pidtagrecordkey-canonical-property"></a>PidTagRecordKey 规范属性
 
@@ -25,73 +25,73 @@ ms.locfileid: "25401697"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含特定对象的唯一的二进制相当标识符。
+包含特定对象的唯一的二进制可比较标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RECORD_KEY  <br/> |
-|标识符：  <br/> |0x0FF9  <br/> |
+|标识符:  <br/> |0x0FF9  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-该属性从而便于查找引用对象，如内容表中查找其所在行。 此属性不能用于打开对象;使用此目的的项标识符。
+此属性有利于查找对某个对象的引用, 例如, 在内容表中查找其行。 此属性不能用于打开对象;为该目的使用条目标识符。
   
-附件子对象应唯一标识邮件中，此属性。 此标识符是保证保持不变后关闭并重新打开该邮件的唯一附件特征。 存储提供程序必须各个会话，以确保此保证保留此属性。
+应通过此属性在邮件中唯一标识附件子属性。 此标识符是在关闭并重新打开邮件后, 保证其保持不变的唯一附件特征。 存储提供程序必须跨会话保留此属性, 以确保此保证。
   
-对于文件夹，此属性包含在文件夹层次结构表中使用的密钥。 通常，这是由**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性提供的相同的值。
+对于文件夹, 此属性包含在文件夹层次结构表中使用的密钥。 通常情况下, 这与**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性提供的值相同。
   
-对于邮件存储区，该属性等同于**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md)) 属性。
+对于邮件存储区, 此属性与**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md)) 属性相同。
   
-在消息存储对象中，此属性应是唯一的跨所有存储提供程序。 一种方法执行此操作是用[GUID](guid.md)结构或其他特有的特定邮件存储的值组合 （特有的提供程序类型） 的存储的**PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) 属性的值。 
+在邮件存储对象中, 此属性在所有存储提供程序中应是唯一的。 执行此操作的一种方法是, 将**PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) 属性的值与特定邮件存储区的[GUID](guid.md)结构或其他值进行合并 (该提供程序类型唯一) 的值。 
   
-此属性始终是可通过以下方法[IMAPIProp::SaveChanges](imapiprop-savechanges.md)第一次调用[IMAPIProp::GetProps](imapiprop-getprops.md)方法。 某些提供程序可以使其可实例化后立即。 
+在第一次调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法后, 此属性始终可通过[IMAPIProp:: GetProps](imapiprop-getprops.md)方法使用。 某些提供程序可使其在实例化后立即可用。 
   
-客户端或服务提供程序可以将此属性的值进行比较使用 memcmp。 此方法不可行的条目标识符值。 但是，保证此属性是唯一的相同的消息存储中或通讯簿容器;从不同的容器的两个对象可以具有相同的此属性的值。
+客户端或服务提供程序可以使用 memcmp 比较此属性中的值。 对于条目标识符值, 这是不可能的。 但是, 此属性在同一邮件存储或通讯簿容器中保证是唯一的;来自不同容器的两个对象可以具有该属性的相同值。
   
-一个记录和搜索键之间的区别是记录密钥是特定于该对象，而搜索关键字可以复制到其他对象。 例如，两个对象的副本可以具有相同的**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 值，但必须具有不同的值，此属性。
+记录和搜索关键字之间的一种区别在于, 该记录键是特定于该对象的, 而搜索关键字可以复制到其他对象。 例如, 两个对象副本可以具有相同的**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 值, 但必须具有此属性的不同值。
   
-下表总结了**PR_ENTRYID**、 **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 和此属性之间的重要不同之处。 
+下表汇总了**PR_ENTRYID**、 **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 和此属性之间的重要区别。 
   
 |**特征**|**PR_ENTRYID**|**PR_RECORD_KEY**|**PR_SEARCH_KEY**|
 |:-----|:-----|:-----|:-----|
-|Attachment 对象上所需  <br/> |否  <br/> |是  <br/> |否  <br/> |
-|需要对文件夹对象  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|消息存储对象上所需  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|状态对象上所需  <br/> |是  <br/> |否  <br/> |否  <br/> |
-|可创建由客户端  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|**SaveChanges**调用前可用 <br/> |也许  <br/> |也许  <br/> |邮件可能是其他人  <br/> |
-|复制操作中发生的更改  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|可更改后副本的客户端  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|中的唯一...  <br/> |整个 world  <br/> |提供程序实例  <br/> |整个 world  <br/> |
-|二进制 （与 memcmp) 相当  <br/> |否 — 使用**IMAPISupport:: CompareEntryIDs** <br/> |是  <br/> |是  <br/> |
+|对附件对象是必需的  <br/> |否  <br/> |是  <br/> |否  <br/> |
+|对 folder 对象是必需的  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|对邮件存储对象是必需的  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|对状态对象是必需的  <br/> |是  <br/> |否  <br/> |否  <br/> |
+|可由客户端创建  <br/> |否  <br/> |否  <br/> |是  <br/> |
+|在调用**SaveChanges**之前可用 <br/> |也  <br/> |也  <br/> |邮件是其他可能的  <br/> |
+|在复制操作中更改  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|在复制后, 客户端可对其进行更改  <br/> |否  <br/> |否  <br/> |是  <br/> |
+|中的唯一 .。。  <br/> |整个世界  <br/> |提供程序实例  <br/> |整个世界  <br/> |
+|二进制可比较 (与 memcmp 一样)  <br/> |No--use **IMAPISupport:: CompareEntryIDs** <br/> |是  <br/> |是  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和用户、 联系人、 组和资源的操作列表。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

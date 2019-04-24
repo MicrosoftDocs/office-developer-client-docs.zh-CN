@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 56c64e23-4a99-4f80-ba06-dfae2a5fe961
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4414ae866dece0654131d1575fe699676892709f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345428"
 ---
 # <a name="pidlidappointmentauxiliaryflags-canonical-property"></a>PidLidAppointmentAuxiliaryFlags 规范属性
 
@@ -25,47 +25,47 @@ ms.locfileid: "25396832"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定的描述对象的辅助状态位字段。
+指定一个用于描述对象的辅助状态的位域。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidApptAuxFlags  <br/> |
-|属性进行设置：  <br/> |PSETID_Appointment  <br/> |
-|长 ID （盖）：  <br/> |0x00008207  <br/> |
+|属性集:  <br/> |PSETID_Appointment  <br/> |
+|长 ID (盖子):  <br/> |0x00008207  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性不是必需的。 下面是可以设置的单个标记。
+此属性不是必需的。 以下是可以设置的各个标志。
   
-C (auxApptFlagCopied，0x00000001)
+C (auxApptFlagCopied, 0x00000001)
   
-> 此标志指示 calendar 对象已复制从另一个日历文件夹。
+> 此标志指示 calendar 对象是从另一个 "日历" 文件夹中复制的。
     
-R (auxApptFlagForceMtgResponse，0x00000002:uc)
+R (auxApptFlagForceMtgResponse、0x00000002)
   
-> 在会议请求此标志指示客户端或服务器应发送回组织者的会议响应，如果选择响应。
+> 会议请求上的此标志表示客户端或服务器在选择响应时, 应将会议响应发送回组织者。
     
-F (auxApptFlagForwarded，0x00000004)
+F (auxApptFlagForwarded, 0x00000004)
   
-> 在会议请求此标志指示它已转发 （包括由组织者转发的），而不是组织者的邀请。
+> 会议请求上的此标志表明它已被转发 (包括由组织者转发), 而不是来自组织者的邀请。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

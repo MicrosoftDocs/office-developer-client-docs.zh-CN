@@ -1,22 +1,22 @@
 ---
-title: FooterLeft 元素 （HeaderFooter_Type 复杂类型） (Visio XML)
+title: FooterLeft 元素 (HeaderFooter_Type 复杂类型) ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 994d29c1-deca-6036-fdb1-12da945b29f2
-description: 包含的文档的页脚部分中显示的文本字符串。
+description: 包含显示在文档页脚左侧部分的文本字符串。
 ms.openlocfilehash: 4ad4c6b4bb8323e9270d5615c5f814caadc4f35b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346072"
 ---
-# <a name="footerleft-element-headerfootertype-complextype-visio-xml"></a>FooterLeft 元素 （HeaderFooter_Type 复杂类型） (Visio XML)
+# <a name="footerleft-element-headerfootertype-complextype-visio-xml"></a>FooterLeft 元素 (HeaderFooter_Type 复杂类型) ("Visio XML")
 
-包含的文档的页脚部分中显示的文本字符串。
+包含显示在文档页脚左侧部分的文本字符串。
   
 ## <a name="element-information"></a>元素信息
 
@@ -24,8 +24,8 @@ ms.locfileid: "25400556"
 |:-----|:-----|
 |**元素类型** <br/> |[FooterLeft_Type](footerleft_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
-|**文档部件** <br/> |document.xml  <br/> |
+|**架构文件** <br/> |VisioSchema15  <br/> |
+|**文档部件** <br/> |document .xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,7 +36,7 @@ ms.locfileid: "25400556"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
   
 ### <a name="parent-elements"></a>父元素
 
@@ -48,7 +48,7 @@ ms.locfileid: "25400556"
 
 无。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

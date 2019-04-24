@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1d486344ab20ef49488dbb911f3dd7000d64942e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 8611249207811446ae47f056486ec498bf1e7eab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349306"
 ---
 # <a name="iaddrbooksetsearchpath"></a>IAddrBook::SetSearchPath
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-设置中的配置文件的名称解析过程使用新的搜索路径。 
+在用于名称解析过程的配置文件中设置新的搜索路径。 
   
 ```cpp
 HRESULT SetSearchPath(
@@ -38,27 +38,27 @@ HRESULT SetSearchPath(
 
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
  _lpSearchPath_
   
-> [in]指向用于保留搜索路径[SRowSet](srowset.md)结构的指针。 对于每个**aRow**成员**SRowSet**中的第一个属性必须**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))。
+> 实时指向用于保存搜索路径的[SRowSet](srowset.md)结构的指针。 **SRowSet**中每个**aRow**成员的第一个属性必须为**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功设置的搜索路径。
+> 成功设置了搜索路径。
     
 MAPI_E_MISSING_REQUIRED_COLUMN 
   
-> 一个**SRowSet**结构中所述的容器不包括其**PR_ENTRYID**属性。 
+> **SRowSet**结构中所述的一个容器不包含其**PR_ENTRYID**属性。 
     
 ## <a name="remarks"></a>注解
 
-客户端和服务提供商调用**SetSearchPath**方法以保存所做的用于将名称解析使用[IAddrBook::ResolveName](iaddrbook-resolvename.md)方法的容器搜索顺序的更改。 会话的实例之间保存搜索路径。 
+客户端和服务提供程序调用**SetSearchPath**方法, 以保存对用于使用[IAddrBook:: ResolveName](iaddrbook-resolvename.md)方法解析名称的容器搜索顺序所做的更改。 在会话实例之间保存搜索路径。 
   
-客户端和提供程序不需要调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法进行永久搜索路径更改。 
+客户端和提供程序无需调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法以使搜索路径更改永久。 
   
 ## <a name="see-also"></a>另请参阅
 

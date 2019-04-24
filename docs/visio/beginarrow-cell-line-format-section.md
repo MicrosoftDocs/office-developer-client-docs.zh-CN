@@ -8,22 +8,22 @@ f1_keywords:
 - Vis_DSS.chm51105
 localization_priority: Normal
 ms.assetid: 0ab4044e-2d77-1fbe-ef20-5d029bc064ba
-description: 指明线条的第一个顶点是否有箭头或其他线端格式。输入介于 0 到 45 之间的数字或带有自定义线端名的 USE 函数，或使用“线条”对话框。
-ms.openlocfilehash: c6d5a66d76cfea61b1c9923c5b904dadec5495f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 指明线条的第一个顶点是否有箭头或其他线端格式。 输入介于 0 到 45 之间的数字或带有自定义线端名的 USE 函数，或使用“线条”对话框。
+ms.openlocfilehash: cf5a512dabd0e6296b83fa7bfd2a2a6134143d50
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346233"
 ---
-# <a name="beginarrow-cell-line-format-section"></a>BeginArrow 单元格（“Line Format”部分）
+# <a name="beginarrow-cell-line-format-section"></a>BeginArrow 单元格（“Line Format”内容）
 
 指明线条的第一个顶点是否有箭头或其他线端格式。输入介于 0 到 45 之间的数字或带有自定义线端名的 USE 函数，或使用 **“线条”** 对话框。 
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | 0  <br/> | 无箭头。  <br/> |
-| 1-45  <br/> | 各种类型的箭头样式，与 **“线条”** 对话框中的索引项相对应。  <br/> |
+| 1 - 45  <br/> | 各种类型的箭头样式，与 **“线条”** 对话框中的索引项相对应。  <br/> |
    
 ## <a name="remarks"></a>注解
 

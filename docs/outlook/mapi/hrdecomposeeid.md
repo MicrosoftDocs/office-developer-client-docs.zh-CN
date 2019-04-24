@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 4847838a-2ad8-4927-8f78-7fa5c8eb54eb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7cae156e29503c8b50755c99023805aa6d14e704
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d3ef8b61b6042d9c3e715168d9131a74facef000
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573367"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348067"
 ---
 # <a name="hrdecomposeeid"></a>HrDecomposeEID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-将一个对象，通常一条消息的消息存储的复合条目标识符分为存储区中对象的项标识符和存储的项标识符。
+将对象的复合条目标识符 (通常是邮件存储区中的邮件) 分隔到存储区中该对象的条目标识符和存储的条目标识符中。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
    
 ```cpp
 HrDecomposeEID(
@@ -49,31 +49,31 @@ HrDecomposeEID(
 
  _psession_
   
-> [in]加入会话，使用客户端应用程序的指针。 
+> 实时指向客户端应用程序正在使用的会话的指针。 
     
  _cbEID_
   
-> [in]大小 （以字节为单位的复合条目标识符来分隔）。 
+> 实时要分隔的复合条目标识符的大小 (以字节为单位)。 
     
  _pEID_
   
-> [in]指向要分隔的复合项标识符的指针。 
+> 实时指向要分隔的复合条目标识符的指针。 
     
  _pcbStoreEID_
   
-> [输出]指向返回的大小，以字节为单位的项标识符的消息存储库包含对象的指针。 如果_pEID_参数指向的非复合条目标识符， _pcbStoreEID_参数指向值为零。 
+> 排除指向包含该对象的邮件存储区的条目标识符的返回大小 (以字节为单位)。 如果_pEID_参数指向 noncompound 条目标识符, 则_pcbStoreEID_参数将指向值0。 
     
  _ppStoreEID_
   
-> [输出]为返回的项标识符的消息存储库包含对象的指针的指针。 如果_pEID_参数指向的非复合条目标识符，则_ppStoreEID_参数中返回 NULL。 
+> 排除指向指向包含该对象的邮件存储区的返回项标识符的指针的指针。 如果_pEID_参数指向 noncompound 条目标识符, 则在_ppStoreEID_参数中返回 NULL。 
     
  _pcbMsgEID_
   
-> [输出]指向返回的大小，以字节为单位的对象的项标识符的指针。 如果_pEID_参数指向的非复合条目标识符， _pcbMsgEID_参数等于_cbEID_参数的值。 
+> 排除指向对象的条目标识符的返回大小 (以字节为单位) 的指针。 如果_pEID_参数指向 noncompound 条目标识符, 则_pcbMsgEID_参数等于_cbEID_参数的值。 
     
  _ppMsgEID_
   
-> [输出]指向与返回的项标识符的对象的指针的指针。 如果_pEID_参数指向的非复合条目标识符， _ppMsgEID_指向到非复合项标识符的副本的指针。 
+> 排除指向指向对象的返回项标识符的指针的指针。 如果_pEID_参数指向 noncompound 条目标识符, 则_ppMsgEID_会指向指向 noncompound 条目标识符副本的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -81,10 +81,10 @@ HrDecomposeEID(
   
 ## <a name="remarks"></a>注解
 
-如果复合_pEID_参数指定的标识符，它被拆分对象在其消息存储库中的项标识符和存储的项标识符。 非复合条目标识符字符串是简单复制。 要分隔的复合标识符通常是一个[HrComposeEID](hrcomposeeid.md)函数创建。 
+如果_pEID_参数指定的标识符是复合的, 则会将其拆分为其邮件存储区中的对象的条目标识符和存储的条目标识符。 Noncompound 条目标识符字符串只是复制的。 要分隔的复合标识符通常是由[HrComposeEID](hrcomposeeid.md)函数创建的。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-成功完成此函数时释放保留_pEID_参数的内存。 调用实现负责释放内存输出参数。 
+在成功完成此函数后, 将释放保留_pEID_参数的内存。 调用实现负责为输出参数释放内存。 
   
 

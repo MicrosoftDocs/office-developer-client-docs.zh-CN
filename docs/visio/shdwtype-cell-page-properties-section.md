@@ -9,28 +9,28 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 551166d0-3aaa-0fd7-e742-cf3450ba90ed
 description: 指示页面的默认阴影类型。
-ms.openlocfilehash: 1fc5c31a723d5d409110d94ff543a45dadabf264
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f1fc72484d94788ca2798760ca935c89c3e841ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342887"
 ---
-# <a name="shdwtype-cell-page-properties-section"></a>ShdwType 单元格（“Page Properties”部分）
+# <a name="shdwtype-cell-page-properties-section"></a>ShdwType 单元格（“Page Properties”内容）
 
 指示页面的默认阴影类型。
   
-|**值**|**说明**|**自动常量**|
+|**Value**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 1  <br/> | 简单  <br/> |**visFSTSimple** <br/> |
-| 2  <br/> | 倾斜  <br/> |**visFSTOblique** <br/> |
-|3  <br/> |内部  <br/> |**visFSTInner** <br/> |
+| 双面  <br/> | 偏  <br/> |**visFSTOblique** <br/> |
+|第三章  <br/> |Inner  <br/> |**visFSTInner** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
- ShapeShdwType 单元格 （页上的单个形状的阴影类型） 设置为页面默认值 (**visFSTPageDefault** ) 时使用此单元格中描述的阴影类型。 
+ 只要 ShapeShdwType 单元格 (页面上的单个形状的阴影类型) 设置为 "页面默认值" (**visFSTPageDefault** ), 此单元格中所述的阴影类型将被使用。 
   
-用户界面 (UI) 中的偏移阴影介绍简单阴影类型。 简单阴影效果的形状的阴影投射到位于其背后一些距离并行平面。 倾斜阴影倾斜阴影在 UI 中所述，并为被强制转换到平面上垂直到形状的阴影效果。 
+简单阴影类型是指用户界面 (UI) 中的偏移阴影。 简单阴影的效果是将形状的阴影投射到形状背后一段距离的并行面上。 倾斜阴影是指 UI 中的倾斜阴影，其效果是将阴影投射到与形状垂直的面上。 
   
 有关预定义的简单阴影类型和倾斜阴影类型的列表，请查看 **“页面设置”** 对话框（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头）的 **“阴影”** 选项卡上的 **“样式”** 列表。 
   
