@@ -8,23 +8,23 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cdd9654187685ceab1062fb4ae1882b2d48c68d4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349537"
 ---
-# <a name="create-a-mail-item-by-using-a-message-template"></a><span data-ttu-id="f1070-102">使用邮件模板创建邮件项</span><span class="sxs-lookup"><span data-stu-id="f1070-102">Create a mail item by using a message template</span></span>
+# <a name="create-a-mail-item-by-using-a-message-template"></a><span data-ttu-id="72518-102">使用邮件模板创建邮件项</span><span class="sxs-lookup"><span data-stu-id="72518-102">Create a mail item by using a message template</span></span>
 
-<span data-ttu-id="f1070-103">此示例使用 [CreateItemFromTemplate](https://msdn.microsoft.com/library/bb611329\(v=office.15\)) 方法创建邮件项。</span><span class="sxs-lookup"><span data-stu-id="f1070-103">This example creates a mail item by using the [CreateItemFromTemplate](https://msdn.microsoft.com/library/bb611329\(v=office.15\)) method.</span></span>
+<span data-ttu-id="72518-103">此示例使用 [CreateItemFromTemplate](https://msdn.microsoft.com/library/bb611329\(v=office.15\)) 方法创建邮件项。</span><span class="sxs-lookup"><span data-stu-id="72518-103">This example creates a mail item by using the [CreateItemFromTemplate](https://msdn.microsoft.com/library/bb611329\(v=office.15\)) method.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f1070-104">示例</span><span class="sxs-lookup"><span data-stu-id="f1070-104">Example</span></span>
+## <a name="example"></a><span data-ttu-id="72518-104">示例</span><span class="sxs-lookup"><span data-stu-id="72518-104">Example</span></span>
 
-<span data-ttu-id="f1070-105">该代码示例打开 Ivy.oft 模板文件，分配一个主题，然后将邮件存入"草稿"文件夹。</span><span class="sxs-lookup"><span data-stu-id="f1070-105">This code sample opens the Ivy.oft template file, assigns a subject, and then saves the message to the Drafts folder.</span></span>
+<span data-ttu-id="72518-105">该代码示例打开 Ivy.oft 模板文件，分配一个主题，然后将邮件存入"草稿"文件夹。</span><span class="sxs-lookup"><span data-stu-id="72518-105">This code sample opens the Ivy.oft template file, assigns a subject, and then saves the message to the Drafts folder.</span></span>
 
-<span data-ttu-id="f1070-p101">如果您在磁盘上存储了一个希望用作邮件模板的 Outlook 窗体模板文件 (.oft)，则 **CreateItemFromTemplate** 方法很有用。此模板文件可以包含您希望包括在邮件中的具有预设格式的文本、信纸或图像。但是，如果模板文件包含的代码位于窗体之后，则窗体代码将不运行。</span><span class="sxs-lookup"><span data-stu-id="f1070-p101">The **CreateItemFromTemplate** method is useful if you have an Outlook form template file (.oft) stored on disk that you want to use as a message template. The template file can contain preformatted text, stationery, or images that you want to include in the message. However, if the template file contains code behind the form, the form code will not run.</span></span>
+<span data-ttu-id="72518-p101">如果您在磁盘上存储了一个希望用作邮件模板的 Outlook 窗体模板文件 (.oft)，则 **CreateItemFromTemplate** 方法很有用。此模板文件可以包含您希望包括在邮件中的具有预设格式的文本、信纸或图像。但是，如果模板文件包含的代码位于窗体之后，则窗体代码将不运行。</span><span class="sxs-lookup"><span data-stu-id="72518-p101">The **CreateItemFromTemplate** method is useful if you have an Outlook form template file (.oft) stored on disk that you want to use as a message template. The template file can contain preformatted text, stationery, or images that you want to include in the message. However, if the template file contains code behind the form, the form code will not run.</span></span>
 
-<span data-ttu-id="f1070-109">如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。</span><span class="sxs-lookup"><span data-stu-id="f1070-109">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="f1070-110">不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。</span><span class="sxs-lookup"><span data-stu-id="f1070-110">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="f1070-111">下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。</span><span class="sxs-lookup"><span data-stu-id="f1070-111">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
+<span data-ttu-id="72518-109">如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。</span><span class="sxs-lookup"><span data-stu-id="72518-109">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="72518-110">不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。</span><span class="sxs-lookup"><span data-stu-id="72518-110">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="72518-111">下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。</span><span class="sxs-lookup"><span data-stu-id="72518-111">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -64,7 +64,7 @@ private void CreateItemFromTemplate()
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="f1070-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f1070-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="72518-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="72518-112">See also</span></span>
 
-- [<span data-ttu-id="f1070-113">邮件</span><span class="sxs-lookup"><span data-stu-id="f1070-113">Mail</span></span>](mail.md)
+- [<span data-ttu-id="72518-113">邮件</span><span class="sxs-lookup"><span data-stu-id="72518-113">Mail</span></span>](mail.md)
 

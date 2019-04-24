@@ -10,49 +10,48 @@ localization_priority: Normal
 ms.assetid: 4a27663a-9d37-2ac4-5856-edeb0880f16e
 description: 用不同的文本字符串替换文本字符串的一部分。
 ms.openlocfilehash: fc12ab30ec9c509e2f126931bee837f518e96f3a
-ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26643211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346821"
 ---
-# <a name="substitute-function"></a><span data-ttu-id="ec019-103">SUBSTITUTE 函数</span><span class="sxs-lookup"><span data-stu-id="ec019-103">SUBSTITUTE Function</span></span>
+# <a name="substitute-function"></a><span data-ttu-id="c341c-103">SUBSTITUTE 函数</span><span class="sxs-lookup"><span data-stu-id="c341c-103">SUBSTITUTE Function</span></span>
 
-<span data-ttu-id="ec019-104">用不同的文本字符串替换文本字符串的一部分。</span><span class="sxs-lookup"><span data-stu-id="ec019-104">Replaces part of a text string with a different text string.</span></span> 
+<span data-ttu-id="c341c-104">用不同的文本字符串替换文本字符串的一部分。</span><span class="sxs-lookup"><span data-stu-id="c341c-104">Replaces part of a text string with a different text string.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="ec019-105">语法</span><span class="sxs-lookup"><span data-stu-id="ec019-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c341c-105">语法</span><span class="sxs-lookup"><span data-stu-id="c341c-105">Syntax</span></span>
 
- <span data-ttu-id="ec019-106">替代 (\* **文本** *，* \* *old_text* \* *，* \* *new_text* \* \* [，\* \* *start_num* \* *] [，* \* *ignore_case_opt* \* \*)</span><span class="sxs-lookup"><span data-stu-id="ec019-106">SUBSTITUTE (\*\* *text* \*\*, \*\* *old_text* \*\*, \*\* *new_text* \*\* [, \*\* *start_num* \*\* ][, \*\* *ignore_case_opt* \*\* )</span></span> 
+ <span data-ttu-id="c341c-106">替换 (\* \* *text* \* \*, \* \* *old_text* \* \*, \* \* *new_text* \* \* [, \* \* *start_num* \* \*] [, \* \* *ignore_case_opt* \* \*)</span><span class="sxs-lookup"><span data-stu-id="c341c-106">SUBSTITUTE (\*\* *text* \*\*, \*\* *old_text* \*\*, \*\* *new_text* \*\* [, \*\* *start_num* \*\* ][, \*\* *ignore_case_opt* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="ec019-107">参数</span><span class="sxs-lookup"><span data-stu-id="ec019-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="c341c-107">参数</span><span class="sxs-lookup"><span data-stu-id="c341c-107">Parameters</span></span>
 
-|<span data-ttu-id="ec019-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="ec019-108">**Name**</span></span>|<span data-ttu-id="ec019-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="ec019-109">**Required/Optional**</span></span>|<span data-ttu-id="ec019-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="ec019-110">**Data Type**</span></span>|<span data-ttu-id="ec019-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="ec019-111">**Description**</span></span>|
+|<span data-ttu-id="c341c-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="c341c-108">**Name**</span></span>|<span data-ttu-id="c341c-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="c341c-109">**Required/Optional**</span></span>|<span data-ttu-id="c341c-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="c341c-110">**Data Type**</span></span>|<span data-ttu-id="c341c-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="c341c-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="ec019-112">_text_</span><span class="sxs-lookup"><span data-stu-id="ec019-112">_text_</span></span> <br/> |<span data-ttu-id="ec019-113">必需</span><span class="sxs-lookup"><span data-stu-id="ec019-113">Required</span></span>  <br/> |<span data-ttu-id="ec019-114">**String**</span><span class="sxs-lookup"><span data-stu-id="ec019-114">**String**</span></span> <br/> | <span data-ttu-id="ec019-115">要替换其字符的文本或对包含要替换其字符的文本的单元格的引用。</span><span class="sxs-lookup"><span data-stu-id="ec019-115">The text or the reference to a cell containing text for which you want to substitute characters.</span></span>  <br/> |
-| <span data-ttu-id="ec019-116">_old_text_</span><span class="sxs-lookup"><span data-stu-id="ec019-116">_old_text_</span></span> <br/> |<span data-ttu-id="ec019-117">必需</span><span class="sxs-lookup"><span data-stu-id="ec019-117">Required</span></span>  <br/> |<span data-ttu-id="ec019-118">**String**</span><span class="sxs-lookup"><span data-stu-id="ec019-118">**String**</span></span> <br/> | <span data-ttu-id="ec019-119">要替换的文本。 
-</span><span class="sxs-lookup"><span data-stu-id="ec019-119">The text you want to replace.</span></span>  <br/> |
-| <span data-ttu-id="ec019-120">_new_text_</span><span class="sxs-lookup"><span data-stu-id="ec019-120">_new_text_</span></span> <br/> |<span data-ttu-id="ec019-121">必需</span><span class="sxs-lookup"><span data-stu-id="ec019-121">Required</span></span>  <br/> |<span data-ttu-id="ec019-122">**String**</span><span class="sxs-lookup"><span data-stu-id="ec019-122">**String**</span></span> <br/> | <span data-ttu-id="ec019-123">您想要用于替换_old_text_的文本。</span><span class="sxs-lookup"><span data-stu-id="ec019-123">The text you want to use to replace  _old_text_.</span></span>  <br/> |
-| <span data-ttu-id="ec019-124">_start_num_opt_</span><span class="sxs-lookup"><span data-stu-id="ec019-124">_start_num_opt_</span></span> <br/> |<span data-ttu-id="ec019-125">可选</span><span class="sxs-lookup"><span data-stu-id="ec019-125">Optional</span></span>  <br/> |<span data-ttu-id="ec019-126">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="ec019-126">**Numeric**</span></span> <br/> |<span data-ttu-id="ec019-127">指定要替换 old_text 的哪个匹配项。</span><span class="sxs-lookup"><span data-stu-id="ec019-127">Specifies which occurrences of old_text to replace.</span></span>  <br/> |
-| <span data-ttu-id="ec019-128">_ignore_case_opt_</span><span class="sxs-lookup"><span data-stu-id="ec019-128">_ignore_case_opt_</span></span> <br/> |<span data-ttu-id="ec019-129">可选</span><span class="sxs-lookup"><span data-stu-id="ec019-129">Optional</span></span>  <br/> |<span data-ttu-id="ec019-130">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="ec019-130">**Boolean**</span></span> <br/> |<span data-ttu-id="ec019-p101">如果区分大小写，则其值为 FALSE；否则为 TRUE。默认值为 FALSE。</span><span class="sxs-lookup"><span data-stu-id="ec019-p101">FALSE if case-sensitive; otherwise, TRUE. The default is FALSE.</span></span>  <br/> |
+| <span data-ttu-id="c341c-112">_text_</span><span class="sxs-lookup"><span data-stu-id="c341c-112">_text_</span></span> <br/> |<span data-ttu-id="c341c-113">必需</span><span class="sxs-lookup"><span data-stu-id="c341c-113">Required</span></span>  <br/> |<span data-ttu-id="c341c-114">**String**</span><span class="sxs-lookup"><span data-stu-id="c341c-114">**String**</span></span> <br/> | <span data-ttu-id="c341c-115">要替换其字符的文本或对包含要替换其字符的文本的单元格的引用。</span><span class="sxs-lookup"><span data-stu-id="c341c-115">The text or the reference to a cell containing text for which you want to substitute characters.</span></span>  <br/> |
+| <span data-ttu-id="c341c-116">_old_text_</span><span class="sxs-lookup"><span data-stu-id="c341c-116">_old_text_</span></span> <br/> |<span data-ttu-id="c341c-117">必需</span><span class="sxs-lookup"><span data-stu-id="c341c-117">Required</span></span>  <br/> |<span data-ttu-id="c341c-118">**String**</span><span class="sxs-lookup"><span data-stu-id="c341c-118">**String**</span></span> <br/> | <span data-ttu-id="c341c-119">要替换的文本。</span><span class="sxs-lookup"><span data-stu-id="c341c-119">The text you want to replace.</span></span>  <br/> |
+| <span data-ttu-id="c341c-120">_new_text_</span><span class="sxs-lookup"><span data-stu-id="c341c-120">_new_text_</span></span> <br/> |<span data-ttu-id="c341c-121">必需</span><span class="sxs-lookup"><span data-stu-id="c341c-121">Required</span></span>  <br/> |<span data-ttu-id="c341c-122">**String**</span><span class="sxs-lookup"><span data-stu-id="c341c-122">**String**</span></span> <br/> | <span data-ttu-id="c341c-123">要用于替换_old_text_的文本。</span><span class="sxs-lookup"><span data-stu-id="c341c-123">The text you want to use to replace  _old_text_.</span></span>  <br/> |
+| <span data-ttu-id="c341c-124">_start_num_opt_</span><span class="sxs-lookup"><span data-stu-id="c341c-124">_start_num_opt_</span></span> <br/> |<span data-ttu-id="c341c-125">可选</span><span class="sxs-lookup"><span data-stu-id="c341c-125">Optional</span></span>  <br/> |<span data-ttu-id="c341c-126">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="c341c-126">**Numeric**</span></span> <br/> |<span data-ttu-id="c341c-127">指定要替换的 old_text 的匹配项。</span><span class="sxs-lookup"><span data-stu-id="c341c-127">Specifies which occurrences of old_text to replace.</span></span>  <br/> |
+| <span data-ttu-id="c341c-128">_ignore_case_opt_</span><span class="sxs-lookup"><span data-stu-id="c341c-128">_ignore_case_opt_</span></span> <br/> |<span data-ttu-id="c341c-129">可选</span><span class="sxs-lookup"><span data-stu-id="c341c-129">Optional</span></span>  <br/> |<span data-ttu-id="c341c-130">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="c341c-130">**Boolean**</span></span> <br/> |<span data-ttu-id="c341c-131">如果区分大小写，则其值为 FALSE；否则为 TRUE。</span><span class="sxs-lookup"><span data-stu-id="c341c-131">FALSE if case-sensitive; otherwise, TRUE.</span></span> <span data-ttu-id="c341c-132">默认值为 FALSE。</span><span class="sxs-lookup"><span data-stu-id="c341c-132">The default is FALSE.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="ec019-133">返回值</span><span class="sxs-lookup"><span data-stu-id="ec019-133">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="c341c-133">返回值</span><span class="sxs-lookup"><span data-stu-id="c341c-133">Return value</span></span>
 
-<span data-ttu-id="ec019-134">字符串</span><span class="sxs-lookup"><span data-stu-id="ec019-134">String</span></span>
+<span data-ttu-id="c341c-134">字符串</span><span class="sxs-lookup"><span data-stu-id="c341c-134">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ec019-135">说明</span><span class="sxs-lookup"><span data-stu-id="ec019-135">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c341c-135">注解</span><span class="sxs-lookup"><span data-stu-id="c341c-135">Remarks</span></span>
 
- <span data-ttu-id="ec019-136">如果指定_start_num_opt_，替换仅的_old_text_中的匹配项。</span><span class="sxs-lookup"><span data-stu-id="ec019-136">If you specify  _start_num_opt_, only that occurrence of  _old_text_ is replaced.</span></span> <span data-ttu-id="ec019-137">否则，将每一处的_old_text_中_的文本_更改为_new_text。_</span><span class="sxs-lookup"><span data-stu-id="ec019-137">Otherwise, every occurrence of  _old_text_ in  _text_ is changed to  _new_text._</span></span>
+ <span data-ttu-id="c341c-136">如果指定_start_num_opt_, 则仅替换_old_text_的匹配项。</span><span class="sxs-lookup"><span data-stu-id="c341c-136">If you specify  _start_num_opt_, only that occurrence of  _old_text_ is replaced.</span></span> <span data-ttu-id="c341c-137">否则,_文本_中_old_text_的每个匹配项都将更改为_new_text。_</span><span class="sxs-lookup"><span data-stu-id="c341c-137">Otherwise, every occurrence of  _old_text_ in  _text_ is changed to  _new_text._</span></span>
   
-<span data-ttu-id="ec019-p103">如果要替换文本字符串中的特定文本，请使用 SUBSTITUTE 函数。如果要替换在文本字符串中的特定位置出现的文本，请使用 REPLACE 函数。</span><span class="sxs-lookup"><span data-stu-id="ec019-p103">Use the SUBSTITUTE function when you want to replace specific text in a text string. If you want to replace text that occurs in a specific location in a text string, use the REPLACE function.</span></span>
+<span data-ttu-id="c341c-p103">如果要替换文本字符串中的特定文本，请使用 SUBSTITUTE 函数。如果要替换在文本字符串中的特定位置出现的文本，请使用 REPLACE 函数。</span><span class="sxs-lookup"><span data-stu-id="c341c-p103">Use the SUBSTITUTE function when you want to replace specific text in a text string. If you want to replace text that occurs in a specific location in a text string, use the REPLACE function.</span></span>
   
-## <a name="example"></a><span data-ttu-id="ec019-140">示例</span><span class="sxs-lookup"><span data-stu-id="ec019-140">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c341c-140">示例</span><span class="sxs-lookup"><span data-stu-id="c341c-140">Example</span></span>
 
-<span data-ttu-id="ec019-141">SUBSTITUTE ("1 January 2003", "January", "JAN")</span><span class="sxs-lookup"><span data-stu-id="ec019-141">SUBSTITUTE ("1 January 2003", "January", "JAN")</span></span> 
+<span data-ttu-id="c341c-141">SUBSTITUTE ("1 January 2003", "January", "JAN")</span><span class="sxs-lookup"><span data-stu-id="c341c-141">SUBSTITUTE ("1 January 2003", "January", "JAN")</span></span> 
   
-<span data-ttu-id="ec019-142">返回“1 JAN 2003”。</span><span class="sxs-lookup"><span data-stu-id="ec019-142">Returns "1 JAN 2003".</span></span> 
+<span data-ttu-id="c341c-142">返回“1 JAN 2003”。</span><span class="sxs-lookup"><span data-stu-id="c341c-142">Returns "1 JAN 2003".</span></span> 
   
-<span data-ttu-id="ec019-143">SUBSTITUTE ("1 January 2003","january","JAN")</span><span class="sxs-lookup"><span data-stu-id="ec019-143">SUBSTITUTE ("1 January 2003","january","JAN")</span></span> 
+<span data-ttu-id="c341c-143">SUBSTITUTE ("1 January 2003","january","JAN")</span><span class="sxs-lookup"><span data-stu-id="c341c-143">SUBSTITUTE ("1 January 2003","january","JAN")</span></span> 
   
-<span data-ttu-id="ec019-p104">返回“1 January 2003”。不会进行任何更改，因为文本搜索区分大小写。</span><span class="sxs-lookup"><span data-stu-id="ec019-p104">Returns "1 January 2003". No change is made because the text search is case-sensitive.</span></span> 
+<span data-ttu-id="c341c-p104">返回“1 January 2003”。不会进行任何更改，因为文本搜索区分大小写。</span><span class="sxs-lookup"><span data-stu-id="c341c-p104">Returns "1 January 2003". No change is made because the text search is case-sensitive.</span></span> 
   
 

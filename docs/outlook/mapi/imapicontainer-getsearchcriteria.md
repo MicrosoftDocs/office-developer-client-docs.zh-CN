@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4ca565f97851a2efe2f3279f062f6ea89a4c6326
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7845238722ce81b84210b6f4fc33f9df0abacc07
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349292"
 ---
-# <a name="imapicontainergetsearchcriteria"></a><span data-ttu-id="70c07-103">IMAPIContainer::GetSearchCriteria</span><span class="sxs-lookup"><span data-stu-id="70c07-103">IMAPIContainer::GetSearchCriteria</span></span>
+# <a name="imapicontainergetsearchcriteria"></a><span data-ttu-id="ebbec-103">IMAPIContainer::GetSearchCriteria</span><span class="sxs-lookup"><span data-stu-id="ebbec-103">IMAPIContainer::GetSearchCriteria</span></span>
 
   
   
-<span data-ttu-id="70c07-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="70c07-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ebbec-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ebbec-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="70c07-105">获取容器的搜索条件。</span><span class="sxs-lookup"><span data-stu-id="70c07-105">Obtains the search criteria for the container.</span></span>
+<span data-ttu-id="ebbec-105">获取容器的搜索条件。</span><span class="sxs-lookup"><span data-stu-id="ebbec-105">Obtains the search criteria for the container.</span></span>
   
 ```cpp
 HRESULT GetSearchCriteria(
@@ -36,92 +36,92 @@ HRESULT GetSearchCriteria(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="70c07-106">参数</span><span class="sxs-lookup"><span data-stu-id="70c07-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ebbec-106">参数</span><span class="sxs-lookup"><span data-stu-id="ebbec-106">Parameters</span></span>
 
- <span data-ttu-id="70c07-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="70c07-107">_ulFlags_</span></span>
+ <span data-ttu-id="ebbec-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="ebbec-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="70c07-108">[in]位掩码的标志的控制传入的字符串的类型。</span><span class="sxs-lookup"><span data-stu-id="70c07-108">[in] A bitmask of flags that controls the type of the passed-in strings.</span></span> <span data-ttu-id="70c07-109">可以设置以下标记：</span><span class="sxs-lookup"><span data-stu-id="70c07-109">The following flag can be set:</span></span>
+> <span data-ttu-id="ebbec-108">实时标志的位掩码, 用于控制传入的字符串的类型。</span><span class="sxs-lookup"><span data-stu-id="ebbec-108">[in] A bitmask of flags that controls the type of the passed-in strings.</span></span> <span data-ttu-id="ebbec-109">可以设置以下标志:</span><span class="sxs-lookup"><span data-stu-id="ebbec-109">The following flag can be set:</span></span>
     
-<span data-ttu-id="70c07-110">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="70c07-110">MAPI_UNICODE</span></span> 
+<span data-ttu-id="ebbec-110">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="ebbec-110">MAPI_UNICODE</span></span> 
   
-> <span data-ttu-id="70c07-111">传入的字符串采用 Unicode 格式。</span><span class="sxs-lookup"><span data-stu-id="70c07-111">The passed-in strings are in Unicode format.</span></span> <span data-ttu-id="70c07-112">如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。</span><span class="sxs-lookup"><span data-stu-id="70c07-112">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
+> <span data-ttu-id="ebbec-111">传入的字符串采用 Unicode 格式。</span><span class="sxs-lookup"><span data-stu-id="ebbec-111">The passed-in strings are in Unicode format.</span></span> <span data-ttu-id="ebbec-112">如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。</span><span class="sxs-lookup"><span data-stu-id="ebbec-112">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
     
- <span data-ttu-id="70c07-113">_lppRestriction_</span><span class="sxs-lookup"><span data-stu-id="70c07-113">_lppRestriction_</span></span>
+ <span data-ttu-id="ebbec-113">_lppRestriction_</span><span class="sxs-lookup"><span data-stu-id="ebbec-113">_lppRestriction_</span></span>
   
-> <span data-ttu-id="70c07-114">[输出]指向[SRestriction](srestriction.md)结构，定义的搜索条件的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="70c07-114">[out] A pointer to a pointer to an [SRestriction](srestriction.md) structure that defines the search criteria.</span></span> <span data-ttu-id="70c07-115">如果客户端应用程序中的_lppRestriction_参数传递 NULL， **GetSearchCriteria**不返回**SRestriction**结构。</span><span class="sxs-lookup"><span data-stu-id="70c07-115">If a client application passes NULL in the  _lppRestriction_ parameter, **GetSearchCriteria** does not return an **SRestriction** structure.</span></span> 
+> <span data-ttu-id="ebbec-114">排除指向定义搜索条件的[SRestriction](srestriction.md)结构的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="ebbec-114">[out] A pointer to a pointer to an [SRestriction](srestriction.md) structure that defines the search criteria.</span></span> <span data-ttu-id="ebbec-115">如果客户端应用程序在_lppRestriction_参数中传递了 NULL, 则**GetSearchCriteria**不会返回**SRestriction**结构。</span><span class="sxs-lookup"><span data-stu-id="ebbec-115">If a client application passes NULL in the  _lppRestriction_ parameter, **GetSearchCriteria** does not return an **SRestriction** structure.</span></span> 
     
- <span data-ttu-id="70c07-116">_lppContainerList_</span><span class="sxs-lookup"><span data-stu-id="70c07-116">_lppContainerList_</span></span>
+ <span data-ttu-id="ebbec-116">_lppContainerList_</span><span class="sxs-lookup"><span data-stu-id="ebbec-116">_lppContainerList_</span></span>
   
-> <span data-ttu-id="70c07-117">[输出]指向为数组表示容器要包括在搜索中的项标识符的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="70c07-117">[out] A pointer to a pointer to an array of entry identifiers that represent containers to be included in the search.</span></span> <span data-ttu-id="70c07-118">如果客户端中_lppContainerList_参数传递 NULL， **GetSearchCriteria**不返回项标识符的数组。</span><span class="sxs-lookup"><span data-stu-id="70c07-118">If a client passes NULL in the  _lppContainerList_ parameter, **GetSearchCriteria** does not return an array of entry identifiers.</span></span> 
+> <span data-ttu-id="ebbec-117">排除指向代表要包括在搜索中的容器的条目标识符数组的指针。</span><span class="sxs-lookup"><span data-stu-id="ebbec-117">[out] A pointer to a pointer to an array of entry identifiers that represent containers to be included in the search.</span></span> <span data-ttu-id="ebbec-118">如果客户端在_lppContainerList_参数中传递了 NULL, 则**GetSearchCriteria**不会返回条目标识符的数组。</span><span class="sxs-lookup"><span data-stu-id="ebbec-118">If a client passes NULL in the  _lppContainerList_ parameter, **GetSearchCriteria** does not return an array of entry identifiers.</span></span> 
     
- <span data-ttu-id="70c07-119">_lpulSearchState_</span><span class="sxs-lookup"><span data-stu-id="70c07-119">_lpulSearchState_</span></span>
+ <span data-ttu-id="ebbec-119">_lpulSearchState_</span><span class="sxs-lookup"><span data-stu-id="ebbec-119">_lpulSearchState_</span></span>
   
-> <span data-ttu-id="70c07-120">[输出]一个指向用于指示搜索的当前状态标志的位掩码。</span><span class="sxs-lookup"><span data-stu-id="70c07-120">[out] A pointer to a bitmask of flags used to indicate the current state of the search.</span></span> <span data-ttu-id="70c07-121">如果客户端中_lpulSearchState_参数传递 NULL， **GetSearchCriteria**返回任何标志。</span><span class="sxs-lookup"><span data-stu-id="70c07-121">If a client passes NULL in the  _lpulSearchState_ parameter, **GetSearchCriteria** returns no flags.</span></span> <span data-ttu-id="70c07-122">可以设置以下标志：</span><span class="sxs-lookup"><span data-stu-id="70c07-122">The following flags can be set:</span></span> 
+> <span data-ttu-id="ebbec-120">排除指向用于指示当前搜索状态的标志位掩码的指针。</span><span class="sxs-lookup"><span data-stu-id="ebbec-120">[out] A pointer to a bitmask of flags used to indicate the current state of the search.</span></span> <span data-ttu-id="ebbec-121">如果客户端在_lpulSearchState_参数中传递了 NULL, 则**GetSearchCriteria**不会返回任何标志。</span><span class="sxs-lookup"><span data-stu-id="ebbec-121">If a client passes NULL in the  _lpulSearchState_ parameter, **GetSearchCriteria** returns no flags.</span></span> <span data-ttu-id="ebbec-122">可以设置以下标志:</span><span class="sxs-lookup"><span data-stu-id="ebbec-122">The following flags can be set:</span></span> 
     
-<span data-ttu-id="70c07-123">SEARCH_FOREGROUND</span><span class="sxs-lookup"><span data-stu-id="70c07-123">SEARCH_FOREGROUND</span></span> 
+<span data-ttu-id="ebbec-123">SEARCH_FOREGROUND</span><span class="sxs-lookup"><span data-stu-id="ebbec-123">SEARCH_FOREGROUND</span></span> 
   
-> <span data-ttu-id="70c07-124">搜索应运行在相对于其他搜索高优先级。</span><span class="sxs-lookup"><span data-stu-id="70c07-124">The search should run at high priority relative to other searches.</span></span> <span data-ttu-id="70c07-125">如果未设置此标志，则在相对于其他搜索正常优先级运行搜索。</span><span class="sxs-lookup"><span data-stu-id="70c07-125">If this flag is not set, the search runs at normal priority relative to other searches.</span></span>
+> <span data-ttu-id="ebbec-124">搜索应以高优先级运行, 相对于其他搜索。</span><span class="sxs-lookup"><span data-stu-id="ebbec-124">The search should run at high priority relative to other searches.</span></span> <span data-ttu-id="ebbec-125">如果未设置此标志, 则搜索将以常规优先级 (相对于其他搜索) 运行。</span><span class="sxs-lookup"><span data-stu-id="ebbec-125">If this flag is not set, the search runs at normal priority relative to other searches.</span></span>
     
-<span data-ttu-id="70c07-126">SEARCH_REBUILD</span><span class="sxs-lookup"><span data-stu-id="70c07-126">SEARCH_REBUILD</span></span> 
+<span data-ttu-id="ebbec-126">SEARCH_REBUILD</span><span class="sxs-lookup"><span data-stu-id="ebbec-126">SEARCH_REBUILD</span></span> 
   
-> <span data-ttu-id="70c07-127">搜索是 CPU 密集型模式操作，尝试查找符合条件的邮件中。</span><span class="sxs-lookup"><span data-stu-id="70c07-127">The search is in the CPU-intensive mode of its operation, trying to locate messages that match the criteria.</span></span> <span data-ttu-id="70c07-128">如果未设置此标志，搜索操作的 CPU 密集型部分是通过。</span><span class="sxs-lookup"><span data-stu-id="70c07-128">If this flag is not set, the CPU-intensive part of the search's operation is over.</span></span> <span data-ttu-id="70c07-129">此标志仅当有意义搜索处于活动状态 （也就是说，如果设置了 SEARCH_RUNNING 标志）。</span><span class="sxs-lookup"><span data-stu-id="70c07-129">This flag has meaning only if the search is active (that is, if the SEARCH_RUNNING flag is set).</span></span>
+> <span data-ttu-id="ebbec-127">搜索处于 CPU 密集型模式的操作中, 尝试查找符合条件的邮件。</span><span class="sxs-lookup"><span data-stu-id="ebbec-127">The search is in the CPU-intensive mode of its operation, trying to locate messages that match the criteria.</span></span> <span data-ttu-id="ebbec-128">如果未设置此标志, 则搜索操作的 CPU 密集型部分将结束。</span><span class="sxs-lookup"><span data-stu-id="ebbec-128">If this flag is not set, the CPU-intensive part of the search's operation is over.</span></span> <span data-ttu-id="ebbec-129">只有在搜索处于活动状态 (即, 如果设置了 SEARCH_RUNNING 标志) 时, 此标志才有意义。</span><span class="sxs-lookup"><span data-stu-id="ebbec-129">This flag has meaning only if the search is active (that is, if the SEARCH_RUNNING flag is set).</span></span>
     
-<span data-ttu-id="70c07-130">SEARCH_RECURSIVE</span><span class="sxs-lookup"><span data-stu-id="70c07-130">SEARCH_RECURSIVE</span></span> 
+<span data-ttu-id="ebbec-130">SEARCH_RECURSIVE</span><span class="sxs-lookup"><span data-stu-id="ebbec-130">SEARCH_RECURSIVE</span></span> 
   
-> <span data-ttu-id="70c07-131">搜索查找指定的容器的匹配项的所有及其子容器中。</span><span class="sxs-lookup"><span data-stu-id="70c07-131">The search is looking in specified containers and all their child containers for matching entries.</span></span> <span data-ttu-id="70c07-132">如果未设置此标志，正在搜索仅[IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md)方法的最后一个呼叫中明确包括的容器。</span><span class="sxs-lookup"><span data-stu-id="70c07-132">If this flag is not set, only the containers explicitly included in the last call to the [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) method are being searched.</span></span> 
+> <span data-ttu-id="ebbec-131">搜索将在指定的容器及其所有子容器中查找匹配的条目。</span><span class="sxs-lookup"><span data-stu-id="ebbec-131">The search is looking in specified containers and all their child containers for matching entries.</span></span> <span data-ttu-id="ebbec-132">如果未设置此标志, 则仅搜索在对[IMAPIContainer:: SetSearchCriteria](imapicontainer-setsearchcriteria.md)方法的最后一次调用中显式包含的容器。</span><span class="sxs-lookup"><span data-stu-id="ebbec-132">If this flag is not set, only the containers explicitly included in the last call to the [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) method are being searched.</span></span> 
     
-<span data-ttu-id="70c07-133">SEARCH_RUNNING</span><span class="sxs-lookup"><span data-stu-id="70c07-133">SEARCH_RUNNING</span></span> 
+<span data-ttu-id="ebbec-133">SEARCH_RUNNING</span><span class="sxs-lookup"><span data-stu-id="ebbec-133">SEARCH_RUNNING</span></span> 
   
-> <span data-ttu-id="70c07-134">搜索处于活动状态且容器的内容表正在更新以反映邮件存储区中的更改或通讯簿。</span><span class="sxs-lookup"><span data-stu-id="70c07-134">The search is active and the container's contents table is being updated to reflect changes in the message store or address book.</span></span> <span data-ttu-id="70c07-135">如果未设置此标志，搜索处于非活动状态并将目录是静态的。</span><span class="sxs-lookup"><span data-stu-id="70c07-135">If this flag is not set, the search is inactive and the contents table is static.</span></span>
+> <span data-ttu-id="ebbec-134">搜索处于活动状态, 并且正在更新容器的内容表, 以反映邮件存储或通讯簿中的更改。</span><span class="sxs-lookup"><span data-stu-id="ebbec-134">The search is active and the container's contents table is being updated to reflect changes in the message store or address book.</span></span> <span data-ttu-id="ebbec-135">如果未设置此标志, 则搜索将处于非活动状态, 并且内容表是静态的。</span><span class="sxs-lookup"><span data-stu-id="ebbec-135">If this flag is not set, the search is inactive and the contents table is static.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="70c07-136">返回值</span><span class="sxs-lookup"><span data-stu-id="70c07-136">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ebbec-136">返回值</span><span class="sxs-lookup"><span data-stu-id="ebbec-136">Return value</span></span>
 
-<span data-ttu-id="70c07-137">S_OK</span><span class="sxs-lookup"><span data-stu-id="70c07-137">S_OK</span></span> 
+<span data-ttu-id="ebbec-137">S_OK</span><span class="sxs-lookup"><span data-stu-id="ebbec-137">S_OK</span></span> 
   
-> <span data-ttu-id="70c07-138">成功获取的搜索条件。</span><span class="sxs-lookup"><span data-stu-id="70c07-138">The search criteria was successfully obtained.</span></span>
+> <span data-ttu-id="ebbec-138">已成功获取搜索条件。</span><span class="sxs-lookup"><span data-stu-id="ebbec-138">The search criteria was successfully obtained.</span></span>
     
-<span data-ttu-id="70c07-139">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="70c07-139">MAPI_E_BAD_CHARWIDTH</span></span> 
+<span data-ttu-id="ebbec-139">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="ebbec-139">MAPI_E_BAD_CHARWIDTH</span></span> 
   
-> <span data-ttu-id="70c07-140">既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。</span><span class="sxs-lookup"><span data-stu-id="70c07-140">Either the MAPI_UNICODE flag was set and the implementation does not support Unicode, or MAPI_UNICODE was not set and the implementation supports only Unicode.</span></span>
+> <span data-ttu-id="ebbec-140">设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。</span><span class="sxs-lookup"><span data-stu-id="ebbec-140">Either the MAPI_UNICODE flag was set and the implementation does not support Unicode, or MAPI_UNICODE was not set and the implementation supports only Unicode.</span></span>
     
-<span data-ttu-id="70c07-141">MAPI_E_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="70c07-141">MAPI_E_NOT_INITIALIZED</span></span> 
+<span data-ttu-id="ebbec-141">MAPI_E_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="ebbec-141">MAPI_E_NOT_INITIALIZED</span></span> 
   
-> <span data-ttu-id="70c07-142">搜索条件从不已建立的容器。</span><span class="sxs-lookup"><span data-stu-id="70c07-142">Search criteria were never established for the container.</span></span>
+> <span data-ttu-id="ebbec-142">从不为容器建立搜索条件。</span><span class="sxs-lookup"><span data-stu-id="ebbec-142">Search criteria were never established for the container.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="70c07-143">注解</span><span class="sxs-lookup"><span data-stu-id="70c07-143">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ebbec-143">注解</span><span class="sxs-lookup"><span data-stu-id="ebbec-143">Remarks</span></span>
 
-<span data-ttu-id="70c07-144">**IMAPIContainer::GetSearchCriteria**方法获取支持搜索，通常为一个搜索结果文件夹的容器中的搜索条件。</span><span class="sxs-lookup"><span data-stu-id="70c07-144">The **IMAPIContainer::GetSearchCriteria** method obtains the search criteria for a container that supports searches, typically a search-results folder.</span></span> <span data-ttu-id="70c07-145">通过调用容器的**IMAPIContainer::SetSearchCriteria**方法创建搜索条件。</span><span class="sxs-lookup"><span data-stu-id="70c07-145">You create search criteria by calling a container's **IMAPIContainer::SetSearchCriteria** method.</span></span> 
+<span data-ttu-id="ebbec-144">**IMAPIContainer:: GetSearchCriteria**方法获取支持搜索的容器的搜索条件, 通常是搜索结果文件夹。</span><span class="sxs-lookup"><span data-stu-id="ebbec-144">The **IMAPIContainer::GetSearchCriteria** method obtains the search criteria for a container that supports searches, typically a search-results folder.</span></span> <span data-ttu-id="ebbec-145">通过调用容器的**IMAPIContainer:: SetSearchCriteria**方法来创建搜索条件。</span><span class="sxs-lookup"><span data-stu-id="ebbec-145">You create search criteria by calling a container's **IMAPIContainer::SetSearchCriteria** method.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="70c07-146">针对实施者的注释</span><span class="sxs-lookup"><span data-stu-id="70c07-146">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="ebbec-146">针对实现者的说明</span><span class="sxs-lookup"><span data-stu-id="ebbec-146">Notes to implementers</span></span>
 
-<span data-ttu-id="70c07-147">通讯簿容器可能需要支持**GetSearchCriteria** ，仅当它们提供与**PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) 属性关联的高级的搜索功能。</span><span class="sxs-lookup"><span data-stu-id="70c07-147">Address book containers may need to support **GetSearchCriteria** only if they provide the advanced search capabilities associated with the **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) property.</span></span> <span data-ttu-id="70c07-148">有关如何实施通讯簿容器的高级的搜索功能的详细信息，请参阅[实现高级搜索](implementing-advanced-searching.md)。</span><span class="sxs-lookup"><span data-stu-id="70c07-148">For more information about how to implement the advanced search feature for address book containers, see [Implementing Advanced Searching](implementing-advanced-searching.md).</span></span>
+<span data-ttu-id="ebbec-147">仅当通讯簿容器提供与**PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) 属性相关联的高级搜索功能时, 才需要支持**GetSearchCriteria** 。</span><span class="sxs-lookup"><span data-stu-id="ebbec-147">Address book containers may need to support **GetSearchCriteria** only if they provide the advanced search capabilities associated with the **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) property.</span></span> <span data-ttu-id="ebbec-148">有关如何为通讯簿容器实施高级搜索功能的详细信息, 请参阅[实施高级搜索](implementing-advanced-searching.md)。</span><span class="sxs-lookup"><span data-stu-id="ebbec-148">For more information about how to implement the advanced search feature for address book containers, see [Implementing Advanced Searching](implementing-advanced-searching.md).</span></span>
   
-## <a name="notes-to-callers"></a><span data-ttu-id="70c07-149">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="70c07-149">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="ebbec-149">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="ebbec-149">Notes to callers</span></span>
 
-<span data-ttu-id="70c07-150">在完成时与指向由_lppRestriction_和_lppContainerList_参数的数据结构，调用[MAPIFreeBuffer](mapifreebuffer.md)一次为每个结构必须释放。</span><span class="sxs-lookup"><span data-stu-id="70c07-150">When you are finished with the data structures pointed to by the  _lppRestriction_ and  _lppContainerList_ parameters, call [MAPIFreeBuffer](mapifreebuffer.md) once for each structure to be released.</span></span> 
+<span data-ttu-id="ebbec-150">完成_lppRestriction_和_lppContainerList_参数指向的数据结构后, 对每个要释放的结构调用[MAPIFreeBuffer](mapifreebuffer.md)一次。</span><span class="sxs-lookup"><span data-stu-id="ebbec-150">When you are finished with the data structures pointed to by the  _lppRestriction_ and  _lppContainerList_ parameters, call [MAPIFreeBuffer](mapifreebuffer.md) once for each structure to be released.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="70c07-151">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="70c07-151">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="ebbec-151">MFCMAPI 引用</span><span class="sxs-lookup"><span data-stu-id="ebbec-151">MFCMAPI reference</span></span>
 
-<span data-ttu-id="70c07-152">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="70c07-152">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="ebbec-152">有关 MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="ebbec-152">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="70c07-153">**文件**</span><span class="sxs-lookup"><span data-stu-id="70c07-153">**File**</span></span>|<span data-ttu-id="70c07-154">**函数**</span><span class="sxs-lookup"><span data-stu-id="70c07-154">**Function**</span></span>|<span data-ttu-id="70c07-155">**Comment**</span><span class="sxs-lookup"><span data-stu-id="70c07-155">**Comment**</span></span>|
+|<span data-ttu-id="ebbec-153">**文件**</span><span class="sxs-lookup"><span data-stu-id="ebbec-153">**File**</span></span>|<span data-ttu-id="ebbec-154">**函数**</span><span class="sxs-lookup"><span data-stu-id="ebbec-154">**Function**</span></span>|<span data-ttu-id="ebbec-155">**备注**</span><span class="sxs-lookup"><span data-stu-id="ebbec-155">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="70c07-156">HierarchyTableDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="70c07-156">HierarchyTableDlg.cpp</span></span>  <br/> |<span data-ttu-id="70c07-157">CHierarchyTableDlg::OnEditSearchCriteria</span><span class="sxs-lookup"><span data-stu-id="70c07-157">CHierarchyTableDlg::OnEditSearchCriteria</span></span>  <br/> |<span data-ttu-id="70c07-158">MFCMAPI 使用**IMAPIContainer::GetSearchCriteria**方法获取从文件夹显示的搜索条件。</span><span class="sxs-lookup"><span data-stu-id="70c07-158">MFCMAPI uses the **IMAPIContainer::GetSearchCriteria** method to obtain search criteria from a folder to display.</span></span>  <br/> |
+|<span data-ttu-id="ebbec-156">HierarchyTableDlg</span><span class="sxs-lookup"><span data-stu-id="ebbec-156">HierarchyTableDlg.cpp</span></span>  <br/> |<span data-ttu-id="ebbec-157">CHierarchyTableDlg:: OnEditSearchCriteria</span><span class="sxs-lookup"><span data-stu-id="ebbec-157">CHierarchyTableDlg::OnEditSearchCriteria</span></span>  <br/> |<span data-ttu-id="ebbec-158">MFCMAPI 使用**IMAPIContainer:: GetSearchCriteria**方法从要显示的文件夹中获取搜索条件。</span><span class="sxs-lookup"><span data-stu-id="ebbec-158">MFCMAPI uses the **IMAPIContainer::GetSearchCriteria** method to obtain search criteria from a folder to display.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="70c07-159">另请参阅</span><span class="sxs-lookup"><span data-stu-id="70c07-159">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ebbec-159">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ebbec-159">See also</span></span>
 
 
 
-[<span data-ttu-id="70c07-160">IMAPIContainer::SetSearchCriteria</span><span class="sxs-lookup"><span data-stu-id="70c07-160">IMAPIContainer::SetSearchCriteria</span></span>](imapicontainer-setsearchcriteria.md)
+[<span data-ttu-id="ebbec-160">IMAPIContainer::SetSearchCriteria</span><span class="sxs-lookup"><span data-stu-id="ebbec-160">IMAPIContainer::SetSearchCriteria</span></span>](imapicontainer-setsearchcriteria.md)
   
-[<span data-ttu-id="70c07-161">IMAPIFolder::CreateFolder</span><span class="sxs-lookup"><span data-stu-id="70c07-161">IMAPIFolder::CreateFolder</span></span>](imapifolder-createfolder.md)
+[<span data-ttu-id="ebbec-161">IMAPIFolder::CreateFolder</span><span class="sxs-lookup"><span data-stu-id="ebbec-161">IMAPIFolder::CreateFolder</span></span>](imapifolder-createfolder.md)
   
-[<span data-ttu-id="70c07-162">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="70c07-162">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
+[<span data-ttu-id="ebbec-162">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="ebbec-162">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
   
-[<span data-ttu-id="70c07-163">PidTagSearch 规范属性</span><span class="sxs-lookup"><span data-stu-id="70c07-163">PidTagSearch Canonical Property</span></span>](pidtagsearch-canonical-property.md)
+[<span data-ttu-id="ebbec-163">PidTagSearch 规范属性</span><span class="sxs-lookup"><span data-stu-id="ebbec-163">PidTagSearch Canonical Property</span></span>](pidtagsearch-canonical-property.md)
   
-[<span data-ttu-id="70c07-164">IMAPIContainer : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="70c07-164">IMAPIContainer : IMAPIProp</span></span>](imapicontainerimapiprop.md)
+[<span data-ttu-id="ebbec-164">IMAPIContainer : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="ebbec-164">IMAPIContainer : IMAPIProp</span></span>](imapicontainerimapiprop.md)
 
 
-[<span data-ttu-id="70c07-165">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="70c07-165">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="ebbec-165">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="ebbec-165">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

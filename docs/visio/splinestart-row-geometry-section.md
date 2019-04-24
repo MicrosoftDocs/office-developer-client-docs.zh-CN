@@ -8,31 +8,31 @@ f1_keywords:
 - vis_sdr.chm3055
 localization_priority: Normal
 ms.assetid: 8e327e00-0844-efa4-900b-6954d3b009bb
-description: 包含 x 和 y-坐标样条的第二个控制点、 它的第二个节点、 第一个节点、 最后一个节点和样条的度数。
-ms.openlocfilehash: 0944da12e6090fde41dc5927b5705e103d29f76d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 包含样条第二个控制点的 x 坐标和 y 坐标、第二个节点、第一个节点、最后一个节点和样条的角度。
+ms.openlocfilehash: 2ec06619770af4e5dbcc1a763595b6e01a39052b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358791"
 ---
-# <a name="splinestart-row-geometry-section"></a><span data-ttu-id="59652-103">SplineStart 行（“Geometry”部分）</span><span class="sxs-lookup"><span data-stu-id="59652-103">SplineStart Row (Geometry Section)</span></span>
+# <a name="splinestart-row-geometry-section"></a><span data-ttu-id="4a66c-103">SplineStart 行（“Geometry”内容）</span><span class="sxs-lookup"><span data-stu-id="4a66c-103">SplineStart Row (Geometry Section)</span></span>
 
-<span data-ttu-id="59652-104">包含*x*和*y* -坐标样条的第二个控制点、 它的第二个节点、 第一个节点、 最后一个节点和样条的度数。</span><span class="sxs-lookup"><span data-stu-id="59652-104">Contains  *x*  - and  *y*  -coordinates for a spline's second control point, its second knot, its first knot, the last knot, and the degree of the spline.</span></span> 
+<span data-ttu-id="4a66c-104">包含样条第二个控制点的*x*坐标和*y*坐标、第二个节点、第一个节点、最后一个节点和样条的角度。</span><span class="sxs-lookup"><span data-stu-id="4a66c-104">Contains  *x*  - and  *y*  -coordinates for a spline's second control point, its second knot, its first knot, the last knot, and the degree of the spline.</span></span> 
   
-<span data-ttu-id="59652-105">SplineStart 行包含以下单元格。</span><span class="sxs-lookup"><span data-stu-id="59652-105">A SplineStart row contains the following cells.</span></span>
+<span data-ttu-id="4a66c-105">SplineStart 行包含以下单元格。</span><span class="sxs-lookup"><span data-stu-id="4a66c-105">A SplineStart row contains the following cells.</span></span>
   
-|<span data-ttu-id="59652-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="59652-106">**Cell**</span></span>|<span data-ttu-id="59652-107">**说明**</span><span class="sxs-lookup"><span data-stu-id="59652-107">**Description**</span></span>|
+|<span data-ttu-id="4a66c-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="4a66c-106">**Cell**</span></span>|<span data-ttu-id="4a66c-107">**Description**</span><span class="sxs-lookup"><span data-stu-id="4a66c-107">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="59652-108">X</span><span class="sxs-lookup"><span data-stu-id="59652-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="59652-109">*X* -样条的第二个控制点的坐标。</span><span class="sxs-lookup"><span data-stu-id="59652-109">The  *x*  -coordinate of a spline's second control point.</span></span>  <br/> |
-|[<span data-ttu-id="59652-110">Y</span><span class="sxs-lookup"><span data-stu-id="59652-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="59652-111">*Y* -样条的第二个控制点的坐标。</span><span class="sxs-lookup"><span data-stu-id="59652-111">The  *y*  -coordinate of a spline's second control point.</span></span>  <br/> |
-|[<span data-ttu-id="59652-112">A</span><span class="sxs-lookup"><span data-stu-id="59652-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="59652-113">样条的第二个节点。</span><span class="sxs-lookup"><span data-stu-id="59652-113">The second knot of the spline.</span></span>  <br/> |
-|[<span data-ttu-id="59652-114">B</span><span class="sxs-lookup"><span data-stu-id="59652-114">B</span></span>](b-cell-geometry-section.md) <br/> |<span data-ttu-id="59652-115">样条的第一个节点。</span><span class="sxs-lookup"><span data-stu-id="59652-115">The first knot of a spline.</span></span>  <br/> |
-|[<span data-ttu-id="59652-116">C</span><span class="sxs-lookup"><span data-stu-id="59652-116">C</span></span>](c-cell-geometry-section.md) <br/> |<span data-ttu-id="59652-117">样条的最后一个节点。</span><span class="sxs-lookup"><span data-stu-id="59652-117">The last knot of a spline.</span></span>  <br/> |
-|[<span data-ttu-id="59652-118">D</span><span class="sxs-lookup"><span data-stu-id="59652-118">D</span></span>](d-cell-geometry-section.md) <br/> |<span data-ttu-id="59652-119">样条的角度（从 1 到 25 的整数）。</span><span class="sxs-lookup"><span data-stu-id="59652-119">The degree of a spline (an integer from 1 to 25).</span></span>  <br/> |
+|[<span data-ttu-id="4a66c-108">X</span><span class="sxs-lookup"><span data-stu-id="4a66c-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="4a66c-109">样条第二个控制点的*x*坐标。</span><span class="sxs-lookup"><span data-stu-id="4a66c-109">The  *x*  -coordinate of a spline's second control point.</span></span>  <br/> |
+|[<span data-ttu-id="4a66c-110">Y</span><span class="sxs-lookup"><span data-stu-id="4a66c-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="4a66c-111">样条第二个控制点的*y*坐标。</span><span class="sxs-lookup"><span data-stu-id="4a66c-111">The  *y*  -coordinate of a spline's second control point.</span></span>  <br/> |
+|[<span data-ttu-id="4a66c-112">A</span><span class="sxs-lookup"><span data-stu-id="4a66c-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="4a66c-113">样条的第二个节点。</span><span class="sxs-lookup"><span data-stu-id="4a66c-113">The second knot of the spline.</span></span>  <br/> |
+|[<span data-ttu-id="4a66c-114">黑白</span><span class="sxs-lookup"><span data-stu-id="4a66c-114">B</span></span>](b-cell-geometry-section.md) <br/> |<span data-ttu-id="4a66c-115">样条的第一个节点。</span><span class="sxs-lookup"><span data-stu-id="4a66c-115">The first knot of a spline.</span></span>  <br/> |
+|[<span data-ttu-id="4a66c-116">lc</span><span class="sxs-lookup"><span data-stu-id="4a66c-116">C</span></span>](c-cell-geometry-section.md) <br/> |<span data-ttu-id="4a66c-117">样条的最后一个节点。</span><span class="sxs-lookup"><span data-stu-id="4a66c-117">The last knot of a spline.</span></span>  <br/> |
+|[<span data-ttu-id="4a66c-118">D</span><span class="sxs-lookup"><span data-stu-id="4a66c-118">D</span></span>](d-cell-geometry-section.md) <br/> |<span data-ttu-id="4a66c-119">样条的角度（从 1 到 25 的整数）。</span><span class="sxs-lookup"><span data-stu-id="4a66c-119">The degree of a spline (an integer from 1 to 25).</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="59652-120">注解</span><span class="sxs-lookup"><span data-stu-id="59652-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4a66c-120">注解</span><span class="sxs-lookup"><span data-stu-id="4a66c-120">Remarks</span></span>
 
-<span data-ttu-id="59652-p101">Visio 在“Geometry”内容中显示样条的定义，其中包含 SplineStart 行以及其后的一个或多个 SplineKnot 行。SplineStart 行前面必须有其他类型的行（如 MoveTo 行），以指示样条的第一个控制点。如果样条前有相应类型的线段，则前面的行可以是 LineTo、ArcTo、NURBSTo、PolylineTo 或 EllipticalArcTo 行。</span><span class="sxs-lookup"><span data-stu-id="59652-p101">Visio displays the definition of a spline in a Geometry section that contains a SplineStart row followed by one or more SplineKnot rows. The SplineStart row must be preceded by another kind of row, such as a MoveTo row, to indicate the first control point of the spline. The preceding row can be a LineTo, ArcTo, NURBSTo, PolylineTo, or EllipticalArcTo row if the spline follows a segment of that type.</span></span>
+<span data-ttu-id="4a66c-p101">Visio 在“Geometry”内容中显示样条的定义，其中包含 SplineStart 行以及其后的一个或多个 SplineKnot 行。SplineStart 行前面必须有其他类型的行（如 MoveTo 行），以指示样条的第一个控制点。如果样条前有相应类型的线段，则前面的行可以是 LineTo、ArcTo、NURBSTo、PolylineTo 或 EllipticalArcTo 行。</span><span class="sxs-lookup"><span data-stu-id="4a66c-p101">Visio displays the definition of a spline in a Geometry section that contains a SplineStart row followed by one or more SplineKnot rows. The SplineStart row must be preceded by another kind of row, such as a MoveTo row, to indicate the first control point of the spline. The preceding row can be a LineTo, ArcTo, NURBSTo, PolylineTo, or EllipticalArcTo row if the spline follows a segment of that type.</span></span>
   
 

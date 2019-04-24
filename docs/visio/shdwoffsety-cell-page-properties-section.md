@@ -9,33 +9,33 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f3f53a7d-7450-b2b0-b508-6044a87450d9
 description: 确定形状的投影与该形状垂直偏移的距离（按页面单位）。
-ms.openlocfilehash: 0228fef00230dd1517d20067fda855225cef5533
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: be7ec4cccd53cc9d74811e2e45122c8bc29497d3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349054"
 ---
-# <a name="shdwoffsety-cell-page-properties-section"></a><span data-ttu-id="68442-103">ShdwOffsetY 单元格（“Page Properties”部分）</span><span class="sxs-lookup"><span data-stu-id="68442-103">ShdwOffsetY Cell (Page Properties Section)</span></span>
+# <a name="shdwoffsety-cell-page-properties-section"></a><span data-ttu-id="8b159-103">ShdwOffsetY 单元格（“Page Properties”内容）</span><span class="sxs-lookup"><span data-stu-id="8b159-103">ShdwOffsetY Cell (Page Properties Section)</span></span>
 
-<span data-ttu-id="68442-104">确定形状的投影与该形状垂直偏移的距离（按页面单位）。</span><span class="sxs-lookup"><span data-stu-id="68442-104">Determines the distance in page units that a shape's drop shadow is offset vertically from the shape.</span></span>
+<span data-ttu-id="8b159-104">确定形状的投影与该形状垂直偏移的距离（按页面单位）。</span><span class="sxs-lookup"><span data-stu-id="8b159-104">Determines the distance in page units that a shape's drop shadow is offset vertically from the shape.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="68442-105">注解</span><span class="sxs-lookup"><span data-stu-id="68442-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8b159-105">注解</span><span class="sxs-lookup"><span data-stu-id="8b159-105">Remarks</span></span>
 
-<span data-ttu-id="68442-p101">此值在 **“页面设置”** 对话框（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头）中设置。此值与绘图的缩放比例无关。即使绘图按比例缩放，阴影偏移量也仍保持不变。</span><span class="sxs-lookup"><span data-stu-id="68442-p101">This value is set in the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow). This value is independent of the scale of the drawing. If the drawing is scaled, the shadow offset remains the same.</span></span> 
+<span data-ttu-id="8b159-p101">此值在 **“页面设置”** 对话框（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头）中设置。此值与绘图的缩放比例无关。即使绘图按比例缩放，阴影偏移量也仍保持不变。</span><span class="sxs-lookup"><span data-stu-id="8b159-p101">This value is set in the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow). This value is independent of the scale of the drawing. If the drawing is scaled, the shadow offset remains the same.</span></span> 
   
-<span data-ttu-id="68442-109">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShdwOffsetY 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="68442-109">To get a reference to the ShdwOffsetY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="8b159-109">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShdwOffsetY 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="8b159-109">To get a reference to the ShdwOffsetY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="68442-110">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="68442-110">Cell name:</span></span>  <br/> | <span data-ttu-id="68442-111">ShdwOffsetY</span><span class="sxs-lookup"><span data-stu-id="68442-111">ShdwOffsetY</span></span>  <br/> |
+| <span data-ttu-id="8b159-110">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="8b159-110">Cell name:</span></span>  <br/> | <span data-ttu-id="8b159-111">ShdwOffsetY</span><span class="sxs-lookup"><span data-stu-id="8b159-111">ShdwOffsetY</span></span>  <br/> |
    
-<span data-ttu-id="68442-112">若要从某个程序按索引获取对 ShdwOffsetY 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="68442-112">To get a reference to the ShdwOffsetY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="8b159-112">若要从某个程序按索引获取对 ShdwOffsetY 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="8b159-112">To get a reference to the ShdwOffsetY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="68442-113">内容索引：</span><span class="sxs-lookup"><span data-stu-id="68442-113">Section index:</span></span>  <br/> |<span data-ttu-id="68442-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="68442-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="68442-115">行索引：</span><span class="sxs-lookup"><span data-stu-id="68442-115">Row index:</span></span>  <br/> |<span data-ttu-id="68442-116">**visRowPage**</span><span class="sxs-lookup"><span data-stu-id="68442-116">**visRowPage**</span></span> <br/> |
-| <span data-ttu-id="68442-117">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="68442-117">Cell index:</span></span>  <br/> |<span data-ttu-id="68442-118">**visPageShdwOffsetY**</span><span class="sxs-lookup"><span data-stu-id="68442-118">**visPageShdwOffsetY**</span></span> <br/> |
+| <span data-ttu-id="8b159-113">内容索引：</span><span class="sxs-lookup"><span data-stu-id="8b159-113">Section index:</span></span>  <br/> |<span data-ttu-id="8b159-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="8b159-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="8b159-115">行索引：</span><span class="sxs-lookup"><span data-stu-id="8b159-115">Row index:</span></span>  <br/> |<span data-ttu-id="8b159-116">**visRowPage**</span><span class="sxs-lookup"><span data-stu-id="8b159-116">**visRowPage**</span></span> <br/> |
+| <span data-ttu-id="8b159-117">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="8b159-117">Cell index:</span></span>  <br/> |<span data-ttu-id="8b159-118">**visPageShdwOffsetY**</span><span class="sxs-lookup"><span data-stu-id="8b159-118">**visPageShdwOffsetY**</span></span> <br/> |
    
 

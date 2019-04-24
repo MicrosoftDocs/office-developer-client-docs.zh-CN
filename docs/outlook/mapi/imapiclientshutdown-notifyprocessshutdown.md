@@ -11,42 +11,42 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42dd7889-5e00-419a-91e7-8350be4efd35
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1c66032788758b04558a37a4c35ff4dd6c702fa2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 6eef3047368caca5bd932e19738b1d996c3ff28a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351357"
 ---
-# <a name="imapiclientshutdownnotifyprocessshutdown"></a><span data-ttu-id="f8e3f-103">IMAPIClientShutdown::NotifyProcessShutdown</span><span class="sxs-lookup"><span data-stu-id="f8e3f-103">IMAPIClientShutdown::NotifyProcessShutdown</span></span>
+# <a name="imapiclientshutdownnotifyprocessshutdown"></a><span data-ttu-id="7f9e0-103">IMAPIClientShutdown::NotifyProcessShutdown</span><span class="sxs-lookup"><span data-stu-id="7f9e0-103">IMAPIClientShutdown::NotifyProcessShutdown</span></span>
 
   
   
-<span data-ttu-id="f8e3f-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f8e3f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7f9e0-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7f9e0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f8e3f-105">表示的 MAPI 客户端的目的，继续执行关闭。</span><span class="sxs-lookup"><span data-stu-id="f8e3f-105">Indicates the intention of the MAPI client to proceed with shut down.</span></span>
+<span data-ttu-id="7f9e0-105">指示 MAPI 客户端的意向继续关闭。</span><span class="sxs-lookup"><span data-stu-id="7f9e0-105">Indicates the intention of the MAPI client to proceed with shut down.</span></span>
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
 ```
 
-## <a name="return-value"></a><span data-ttu-id="f8e3f-106">返回值</span><span class="sxs-lookup"><span data-stu-id="f8e3f-106">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7f9e0-106">返回值</span><span class="sxs-lookup"><span data-stu-id="7f9e0-106">Return value</span></span>
 
-<span data-ttu-id="f8e3f-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="f8e3f-107">S_OK</span></span>
+<span data-ttu-id="7f9e0-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="7f9e0-107">S_OK</span></span>
   
-> <span data-ttu-id="f8e3f-108">MAPI 子系统试图通知 MAPI 客户端正在进行快速关闭加载的 MAPI 提供程序。</span><span class="sxs-lookup"><span data-stu-id="f8e3f-108">The MAPI subsystem has attempted to notify loaded MAPI providers that the MAPI client is going to do a fast shutdown.</span></span>
+> <span data-ttu-id="7f9e0-108">mapi 子系统已尝试通知加载的 mapi 提供程序, mapi 客户端即将执行快速关闭。</span><span class="sxs-lookup"><span data-stu-id="7f9e0-108">The MAPI subsystem has attempted to notify loaded MAPI providers that the MAPI client is going to do a fast shutdown.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="f8e3f-109">注解</span><span class="sxs-lookup"><span data-stu-id="f8e3f-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7f9e0-109">注解</span><span class="sxs-lookup"><span data-stu-id="7f9e0-109">Remarks</span></span>
 
-<span data-ttu-id="f8e3f-110">若要避免从 MAPI 客户端快速关闭数据丢失，MAPI 客户端应调用基于 MAPI 子系统中返回 S_OK 结果的**IMAPIClientShutdown::NotifyProcessShutdown**和[IMAPIClientShutdown::DoFastShutdown](imapiclientshutdown-dofastshutdown.md)方法[IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方法中。</span><span class="sxs-lookup"><span data-stu-id="f8e3f-110">To avoid data loss from the fast shutdown of a MAPI client, MAPI clients should call the **IMAPIClientShutdown::NotifyProcessShutdown** and [IMAPIClientShutdown::DoFastShutdown](imapiclientshutdown-dofastshutdown.md) methods based on the S_OK result returned by the MAPI subsystem in the [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) method.</span></span> <span data-ttu-id="f8e3f-111">有关详细信息，请参阅[Fast 关闭的最佳实践](best-practices-for-fast-shutdown.md)。</span><span class="sxs-lookup"><span data-stu-id="f8e3f-111">For more information, see [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).</span></span>
+<span data-ttu-id="7f9e0-110">为了避免从 mapi 客户端的快速关闭中丢失数据, mapi 客户端应调用**IMAPIClientShutdown:: NotifyProcessShutdown**和[IMAPIClientShutdown::D](imapiclientshutdown-dofastshutdown.md)基于 MAPI 子系统返回的 S_OK 结果的 ofastshutdown 方法[IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方法。</span><span class="sxs-lookup"><span data-stu-id="7f9e0-110">To avoid data loss from the fast shutdown of a MAPI client, MAPI clients should call the **IMAPIClientShutdown::NotifyProcessShutdown** and [IMAPIClientShutdown::DoFastShutdown](imapiclientshutdown-dofastshutdown.md) methods based on the S_OK result returned by the MAPI subsystem in the [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) method.</span></span> <span data-ttu-id="7f9e0-111">有关详细信息, 请参阅[Fast Shutdown 的最佳实践](best-practices-for-fast-shutdown.md)。</span><span class="sxs-lookup"><span data-stu-id="7f9e0-111">For more information, see [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="f8e3f-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f8e3f-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7f9e0-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7f9e0-112">See also</span></span>
 
 
 
-[<span data-ttu-id="f8e3f-113">IMAPIClientShutdown : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f8e3f-113">IMAPIClientShutdown : IUnknown</span></span>](imapiclientshutdowniunknown.md)
+[<span data-ttu-id="7f9e0-113">IMAPIClientShutdown : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7f9e0-113">IMAPIClientShutdown : IUnknown</span></span>](imapiclientshutdowniunknown.md)
 
 
-[<span data-ttu-id="f8e3f-114">MAPI 中的客户端关闭</span><span class="sxs-lookup"><span data-stu-id="f8e3f-114">Client Shutdown in MAPI</span></span>](client-shutdown-in-mapi.md)
+[<span data-ttu-id="7f9e0-114">MAPI 中的客户端关闭</span><span class="sxs-lookup"><span data-stu-id="7f9e0-114">Client Shutdown in MAPI</span></span>](client-shutdown-in-mapi.md)
 

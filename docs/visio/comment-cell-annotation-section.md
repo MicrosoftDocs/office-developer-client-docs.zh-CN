@@ -9,34 +9,34 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b367841a-f31c-4b55-4491-2abab5811dbe
 description: 包含出现在注释中的文本。
-ms.openlocfilehash: 443a229058a9ca910ba5b38b093706c9c2e3e95b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd9dce2618c0b8c967b794b0beea8b772a231003
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779897"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359036"
 ---
-# <a name="comment-cell-annotation-section"></a><span data-ttu-id="91b01-103">Comment 单元格（“Annotation”部分）</span><span class="sxs-lookup"><span data-stu-id="91b01-103">Comment Cell (Annotation Section)</span></span>
+# <a name="comment-cell-annotation-section"></a><span data-ttu-id="5ed60-103">Comment 单元格（“Annotation”内容）</span><span class="sxs-lookup"><span data-stu-id="5ed60-103">Comment Cell (Annotation Section)</span></span>
 
-<span data-ttu-id="91b01-104">包含出现在注释中的文本。</span><span class="sxs-lookup"><span data-stu-id="91b01-104">Contains the text that appears in a comment.</span></span>
+<span data-ttu-id="5ed60-104">包含出现在注释中的文本。</span><span class="sxs-lookup"><span data-stu-id="5ed60-104">Contains the text that appears in a comment.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="91b01-105">此单元格用于跟踪注释，仅当打开 Microsoft Visio 2013 中的.vsd 文件或.vsd 文件格式保存.vsdx 文件时。</span><span class="sxs-lookup"><span data-stu-id="91b01-105">This cell is used for tracking comments only when opening a .vsd file in Microsoft Visio 2013 or when saving a .vsdx file in the .vsd file format.</span></span> <span data-ttu-id="91b01-106">它不用于跟踪.vsdx Visio 2013 中的文档中的注释。</span><span class="sxs-lookup"><span data-stu-id="91b01-106">It is not used for tracking comments in .vsdx documents in Visio 2013.</span></span> 
+> <span data-ttu-id="5ed60-105">仅当在 Microsoft Visio 2013 中打开 .vsd 文件或以 .vsd 文件格式保存 .vsdx 文件时, 才会使用此单元格进行跟踪注释。</span><span class="sxs-lookup"><span data-stu-id="5ed60-105">This cell is used for tracking comments only when opening a .vsd file in Microsoft Visio 2013 or when saving a .vsdx file in the .vsd file format.</span></span> <span data-ttu-id="5ed60-106">它不用于跟踪在 Visio 2013 中的 .vsdx 文档中的注释。</span><span class="sxs-lookup"><span data-stu-id="5ed60-106">It is not used for tracking comments in .vsdx documents in Visio 2013.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="91b01-107">说明</span><span class="sxs-lookup"><span data-stu-id="91b01-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5ed60-107">注解</span><span class="sxs-lookup"><span data-stu-id="5ed60-107">Remarks</span></span>
 
-<span data-ttu-id="91b01-108">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Comment 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="91b01-108">To get a reference to the Comment cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="5ed60-108">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Comment 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="5ed60-108">To get a reference to the Comment cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="91b01-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="91b01-109">Cell name:</span></span>  <br/> | <span data-ttu-id="91b01-110">Annotation.Comment [ *i* ] 其中*i* = < 1 >，2，3...</span><span class="sxs-lookup"><span data-stu-id="91b01-110">Annotation.Comment[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="5ed60-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="5ed60-109">Cell name:</span></span>  <br/> | <span data-ttu-id="5ed60-110">注释 [ *i* ] 其中*i* = <1>, 2, 3 .。。</span><span class="sxs-lookup"><span data-stu-id="5ed60-110">Annotation.Comment[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="91b01-111">要从某个程序按索引获取对 Comment 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="91b01-111">To get a reference to the Comment cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="5ed60-111">要从某个程序按索引获取对 Comment 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="5ed60-111">To get a reference to the Comment cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="91b01-112">内容索引：</span><span class="sxs-lookup"><span data-stu-id="91b01-112">Section index:</span></span>  <br/> |<span data-ttu-id="91b01-113">**visSectionAnnotation**</span><span class="sxs-lookup"><span data-stu-id="91b01-113">**visSectionAnnotation**</span></span> <br/> |
-| <span data-ttu-id="91b01-114">行索引：</span><span class="sxs-lookup"><span data-stu-id="91b01-114">Row index:</span></span>  <br/> |<span data-ttu-id="91b01-115">**visRowAnnotation** +  *i*其中*i* = 0、 1、 2...</span><span class="sxs-lookup"><span data-stu-id="91b01-115">**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="91b01-116">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="91b01-116">Cell index:</span></span>  <br/> |<span data-ttu-id="91b01-117">**visAnnotationComment**</span><span class="sxs-lookup"><span data-stu-id="91b01-117">**visAnnotationComment**</span></span> <br/> |
+| <span data-ttu-id="5ed60-112">内容索引：</span><span class="sxs-lookup"><span data-stu-id="5ed60-112">Section index:</span></span>  <br/> |<span data-ttu-id="5ed60-113">**visSectionAnnotation**</span><span class="sxs-lookup"><span data-stu-id="5ed60-113">**visSectionAnnotation**</span></span> <br/> |
+| <span data-ttu-id="5ed60-114">行索引：</span><span class="sxs-lookup"><span data-stu-id="5ed60-114">Row index:</span></span>  <br/> |<span data-ttu-id="5ed60-115">**visRowAnnotation** +  *i* = \*\* 0、1、2 .。。</span><span class="sxs-lookup"><span data-stu-id="5ed60-115">**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="5ed60-116">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="5ed60-116">Cell index:</span></span>  <br/> |<span data-ttu-id="5ed60-117">**visAnnotationComment**</span><span class="sxs-lookup"><span data-stu-id="5ed60-117">**visAnnotationComment**</span></span> <br/> |
    
 
