@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3b302de68f27e85c67430f82bd3e2c33009600e9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 804bd23a148b942fd4580d1e3465fc1f65ff5978
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357440"
 ---
 # <a name="lpfnbutton"></a>LPFNBUTTON
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-定义一个 MAPI 调用激活通讯簿对话框中的一个可选的按钮控件的回调函数。 此按钮通常是一个**详细信息**按钮。 
+定义用于在通讯簿对话框中激活可选按钮控件的 MAPI 调用的回调函数。 此按钮通常为 "**详细信息**" 按钮。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|通过实施定义的函数：  <br/> |服务提供商  <br/> |
-|定义的函数调用：  <br/> |MAPI  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|定义的函数实现者:  <br/> |服务提供程序  <br/> |
+|定义的函数调用者:  <br/> |MAPI  <br/> |
    
 ```cpp
 SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
@@ -47,37 +47,37 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
 
  _ulUIParam_
   
-> [in]任何对话框的父窗口或该函数将显示的窗口的句柄。
+> 实时此函数显示的任何对话框或窗口的父窗口的句柄。
     
  _lpvContext_
   
-> [in]MAPI 调用它时，为任意值的指针传递给回调函数。 此值可表示的客户端应用程序的有效位倍数的地址。 通常，c + + 代码_lpvContext_对 c + + 对象表示的指针。 
+> 实时指向在 MAPI 调用回调函数时传递给该函数的任意值的指针。 此值可以表示对客户端应用程序的重要性的地址。 通常, 对于 c + + 代码, _lpvContext_表示指向 c + + 对象的指针。 
     
  _cbEntryID_
   
-> [in]大小，以字节为单位_lpSelection_参数指向的项标识符。 
+> 实时由_lpSelection_参数指向的条目标识符的大小 (以字节为单位)。 
     
  _lpSelection_
   
-> [in]在对话框中定义所选内容的项标识符的指针。
+> 实时指向定义对话框中所选内容的条目标识符的指针。
     
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-客户端应用程序调用基于**LPFNBUTTON**原型，用于定义按钮，在详细信息对话框的回调函数。 客户端将指针传递给回调函数中调用[IAddrBook::Details](iaddrbook-details.md)方法。 
+客户端应用程序调用基于**LPFNBUTTON**原型的回调函数, 以在 "详细信息" 对话框中定义按钮。 客户端在对[IAddrBook::D etails](iaddrbook-details.md)方法的调用中传递指向回调函数的指针。 
   
-服务提供商调用挂接函数基于**LPFNBUTTON**原型，用于定义在详细信息对话框中的按钮。 提供程序将指针传递给此挂接函数中调用[IMAPISupport::Details](imapisupport-details.md)方法。 
+服务提供程序调用基于**LPFNBUTTON**原型的挂钩函数, 以在 "详细信息" 对话框中定义按钮。 提供程序在对[IMAPISupport::D etails](imapisupport-details.md)方法的调用中传递指向此挂接函数的指针。 
   
-在这两种情况下，当显示对话框，用户选择定义按钮，MAPI 调用**LPFNBUTTON**。 
+在这两种情况下, 当显示对话框且用户选择已定义的按钮时, MAPI 将调用**LPFNBUTTON**。 
   
 ## <a name="see-also"></a>另请参阅
 

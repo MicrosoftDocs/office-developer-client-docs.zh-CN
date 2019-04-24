@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 274899cc-2894-4d99-84ec-f18121e856a0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 28dd45f29610b7ad56b4d3302715311569d497c4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cbdfba68490b1e756f277c6e552235368a86f310
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348851"
 ---
 # <a name="iprofadmin--iunknown"></a>IProfAdmin : IUnknown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 支持配置文件的管理。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapix.h  <br/> |
-|由公开：  <br/> |配置文件管理对象  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
-|接口标识符：  <br/> |IID_IProfAdmin  <br/> |
-|指针类型：  <br/> |LPPROFADMIN  <br/> |
+|标头文件：  <br/> |Mapix  <br/> |
+|公开者:  <br/> |Profile administration 对象  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
+|接口标识符:  <br/> |IID_IProfAdmin  <br/> |
+|指针类型:  <br/> |LPPROFADMIN  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[时出错](iprofadmin-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前面的配置文件管理对象发生的错误的信息。  <br/> |
-|[GetProfileTable](iprofadmin-getprofiletable.md) <br/> |提供对配置文件表中，一个表，包含有关所有可用的配置文件信息的访问。  <br/> |
+|[GetLastError](iprofadmin-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构, 该结构包含有关配置文件管理对象中发生的上一个错误的信息。  <br/> |
+|[GetProfileTable](iprofadmin-getprofiletable.md) <br/> |提供对配置文件表 (包含所有可用配置文件的相关信息的表) 的访问权限。  <br/> |
 |[CreateProfile](iprofadmin-createprofile.md) <br/> |创建新的配置文件。  <br/> |
 |[DeleteProfile](iprofadmin-deleteprofile.md) <br/> |删除配置文件。  <br/> |
 |[ChangeProfilePassword](iprofadmin-changeprofilepassword.md) <br/> |已弃用。 更改配置文件的密码。  <br/> |
-|[CopyProfile](iprofadmin-copyprofile.md) <br/> |一个配置文件的副本。  <br/> |
-|[RenameProfile](iprofadmin-renameprofile.md) <br/> |向一个配置文件分配一个新名称。  <br/> |
+|[CopyProfile](iprofadmin-copyprofile.md) <br/> |复制配置文件。  <br/> |
+|[RenameProfile](iprofadmin-renameprofile.md) <br/> |为配置文件分配一个新名称。  <br/> |
 |[SetDefaultProfile](iprofadmin-setdefaultprofile.md) <br/> |设置或清除客户端的默认配置文件。  <br/> |
-|[AdminServices](iprofadmin-adminservices.md) <br/> |提供对邮件服务管理对象的更改配置文件中的消息服务的访问。  <br/> |
+|[AdminServices](iprofadmin-adminservices.md) <br/> |提供对邮件服务管理对象的访问权限, 以对配置文件中的邮件服务进行更改。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

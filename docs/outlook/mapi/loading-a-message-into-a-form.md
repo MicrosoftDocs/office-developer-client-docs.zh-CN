@@ -1,5 +1,5 @@
 ---
-title: 将邮件加载到表单
+title: 将邮件加载到表单中
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,32 +7,32 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4bdbe021-d694-4967-a105-4b24f1eebc44
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6e65311187ba96abde31a4779ebba371b3d02084
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: afecd3b334dd2cf7b2953916872982e6459a8434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355742"
 ---
-# <a name="loading-a-message-into-a-form"></a>将邮件加载到表单
+# <a name="loading-a-message-into-a-form"></a>将邮件加载到表单中
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-若要使用表单服务器表单加载现有消息，请使用以下策略之一。
+若要使用窗体服务器将现有邮件加载到表单中, 请使用以下策略之一。
   
-- 调用[IMAPISession::PrepareForm](imapisession-prepareform.md)创建令牌，然后[IMAPISession::ShowForm](imapisession-showform.md)显示窗体。 
+- 调用[IMAPISession::P repareform](imapisession-prepareform.md)以创建令牌, 然后[IMAPISession:: ShowForm](imapisession-showform.md)以显示表单。 
     
-- 调用[IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md)。 
+- 调用[IMAPIFormMgr:: LoadForm](imapiformmgr-loadform.md)。 
     
-使用的**PrepareForm**和**ShowForm**策略而言容易，但其结果是相对于您的客户端模式的窗体中。 这是因为**ShowForm**将呼叫不会返回直到窗体已退出。 如果您需要异步处理窗体，请不要使用此策略。 
+[! 注意] 使用**PrepareForm**和**ShowForm**策略相对简单, 但它会生成与客户端相关的模式窗体。 这是因为在窗体退出之前, 对**ShowForm**的调用不会返回。 如果需要异步处理窗体, 请不要使用此策略。 
   
-使用**LoadForm**策略是更加难以，因为方法需要多个参数。 这些参数指示窗体管理器启动正确的上下文中的正确表单服务器并显示正确的消息。 如果已运行窗体服务器，窗体管理器将加载邮件到窗体服务器无需启动的窗体服务器的新实例。 
+使用**LoadForm**策略更加困难, 因为方法需要多个参数。 这些参数指示表单管理器在正确的上下文中启动正确的表单服务器, 并显示正确的消息。 如果表单服务器已在运行, 则表单管理器会将邮件加载到表单服务器中, 而不会启动新的表单服务器实例。 
   
-指定要启动，则传递的邮件类的窗体服务器处理_lpszMessageClass_参数的内容中的目标服务器。 可以通过检索邮件要加载的**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性确定适当的邮件类。 有时没有窗体服务器指定的邮件类仅窗体服务器的处理属于消息的超类别的邮件。 如果您愿意加载只能通过专门为了处理邮件的类的窗体服务器的邮件，，设置 MAPIFORM_EXACTMATCH 标志**LoadForm**呼叫中。 有关详细信息，请参阅[MAPI 邮件类](mapi-message-classes.md)。
+若要指定要启动的窗体服务器, 请在_lpszMessageClass_参数的内容中传递由目标服务器处理的邮件类。 可以通过检索要加载的邮件的**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性来确定相应的邮件类。 有时指定的邮件类别没有窗体服务器, 只是处理属于邮件超类的邮件的窗体服务器。 如果您想要仅由窗体服务器加载的邮件专门用于处理该类的邮件, 请在**LoadForm**调用中设置 MAPIFORM_EXACTMATCH 标志。 有关详细信息, 请参阅[MAPI 邮件类别](mapi-message-classes.md)。
   
- **LoadForm**还需要为查看者的消息网站和视图上下文，将值的指针的目标消息的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 和**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))属性。
+ **LoadForm**还需要指向查看器的消息网站和查看上下文以及目标消息的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 和**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 的值的指针属性.
   
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7c5c749e-5463-4935-85b5-32219d06f782
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 464db3d360f6e872ac28f8d7cbec842d8b521f7e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c659b77767fddc4c783732082c2eb65c68af8dbf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356712"
 ---
 # <a name="pidtagrecipientcertificate-canonical-property"></a>PidTagRecipientCertificate 规范属性
 
@@ -25,30 +25,30 @@ ms.locfileid: "22585113"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于报告的邮件收件人的 ASN.1 证书。
+包含一个邮件收件人的 ASN. 1 个用于报表的证书。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RECIPIENT_CERTIFICATE  <br/> |
-|标识符：  <br/> |0x0C13  <br/> |
+|标识符:  <br/> |0x0C13  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性是收件人的**PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) 属性用于在报表中的副本。 它可以用于发起方证明收件人实际接收邮件的送达报告不一定表示。
+此属性是收件人的**PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) 属性的副本, 用于在报表中使用。 它可用于向发信人证明收件人实际收到的邮件, 但传递报告并不一定表示。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

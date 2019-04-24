@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1524eb06-7492-42de-b455-e0982bda7ece
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3426854e727ebce7a2ac2243491994ce0e066ac6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 3e68c564357880b623e02081a228e881c084fa94
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351609"
 ---
 # <a name="ixplogonpoll"></a>IXPLogon::Poll
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指示的传输提供程序是否已接收到一个或多个入站的邮件。
+指示传输提供程序是否已收到一个或多个入站邮件。
   
 ```cpp
 HRESULT Poll(
@@ -37,17 +37,17 @@ HRESULT Poll(
 
  _lpulIncoming_
   
-> [输出]一个值，指示存在入站邮件。 为非零值指示存在入站的邮件。
+> 排除一个指示是否存在入站邮件的值。 非零值表示有入站邮件。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-如果传输提供程序指示它必须轮询新邮件，提供程序会通过传递 LOGON_SP_POLL 标记对[IXPProvider::TransportLogon](ixpprovider-transportlogon.md)调用 MAPI 后台处理程序将定期调用**IXPLogon::Poll**方法会话开头的方法。 如果有一个**投票**呼叫的响应中指示的传输提供程序或入站的邮件更多可用的过程，MAPI 后台处理程序调用[IXPLogon::StartMessage](ixplogon-startmessage.md)方法，以允许对第一个过程的提供程序的入站邮件消息。 传输提供程序值设置为非零值_lpulIncoming_参数中指示入站的邮件。 
+MAPI 后台处理程序定期调用**IXPLogon::P oll**方法如果传输提供程序指示它必须通过将 LOGON_SP_POLL 标志传递给[IXPProvider:: TransportLogon](ixpprovider-transportlogon.md)的新邮件进行轮询::会话开始时的方法。 如果传输提供程序指示有一个或多个可供其处理的入站邮件的**轮询**呼叫响应, MAPI 后台处理程序将调用[IXPLogon:: StartMessage](ixplogon-startmessage.md)方法, 以允许提供程序处理第一个入站消息。 传输提供程序通过将_lpulIncoming_参数中的值设置为非零值来指示入站邮件。 
   
 ## <a name="see-also"></a>另请参阅
 

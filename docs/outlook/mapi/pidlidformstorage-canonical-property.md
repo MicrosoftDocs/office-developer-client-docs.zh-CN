@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4f6847f3-157d-4ff0-abab-90d73a893ecf
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5e1b99c49523e668cb6ea7143ce3ae93baddaeed
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357755"
 ---
 # <a name="pidlidformstorage-canonical-property"></a>PidLidFormStorage 规范属性
 
@@ -25,13 +25,13 @@ ms.locfileid: "25394109"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-表示与邮件相关联的窗体的属性。
+表示与邮件关联的窗体的属性。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidFormStorage  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x0000850F  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x0000850F  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
@@ -39,13 +39,13 @@ ms.locfileid: "25394109"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

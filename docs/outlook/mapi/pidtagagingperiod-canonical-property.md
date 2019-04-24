@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 762020d1-4bc8-d60d-0f66-3929aae24bfb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d42b58bf4fd445f34064b179c873c8bc15b11b3f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360114"
 ---
 # <a name="pidtagagingperiod-canonical-property"></a>PidTagAgingPeriod 规范属性
 
@@ -25,58 +25,58 @@ ms.locfileid: "25391176"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-代表用于确定的项目之前的项目存档文件夹中保留的时间长度的时间单位数。
+表示用于确定项目在存档项目之前保留在该文件夹中的时间长度的时间单位数。
   
 ## 
 
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_AGING_PERIOD  <br/> |
-|标识符：  <br/> |0x36EC  <br/> |
+|标识符:  <br/> |0x36EC  <br/> |
 |属性类型  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-由两个属性， **PR_AGING_PERIOD**和**[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)** 确定的项目之前的项目存档文件夹中保留的时间长度。 **PR_AGING_GRANULARITY**表示用于**PR_AGING_PERIOD**表示，确定此时间长度时的时间单位。 
+项目在存档项目之前保留在文件夹中的时间长度由两个属性**PR_AGING_PERIOD**和**[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)** 确定。 **PR_AGING_GRANULARITY**表示在确定此时间长度时表示**PR_AGING_PERIOD**表示的时间单位。 
   
-**PR_AGING_GRANULARITY**的可能值可以是下列选项之一。 
+**PR_AGING_GRANULARITY**的可能值可以是下列值之一。 
   
 ****
 
 |**名称**|**说明**|
 |:-----|:-----|
-|**AG_MONTHS** <br/> |**PR_AGING_PERIOD**定义中的月数。  <br/> |
-|**AG_WEEKS** <br/> |**PR_AGING_PERIOD**定义中的周数。  <br/> |
-|**AG_DAYS** <br/> |**PR_AGING_PERIOD**定义中的天数。  <br/> |
+|**AG_MONTHS** <br/> |**PR_AGING_PERIOD**是在月数内定义的。  <br/> |
+|**AG_WEEKS** <br/> |**PR_AGING_PERIOD**是在周数内定义的。  <br/> |
+|**AG_DAYS** <br/> |**PR_AGING_PERIOD**是在天数内定义的。  <br/> |
    
-例如，如果项目仅后已项目的文件夹中的两周，然后**PR_AGING_GRANULARITY**文件夹存档**AG_WEEKS**和**PR_AGING_PERIOD**为 2。 
+例如, 如果某个文件夹只在项目在文件夹中的两周内存档项目, 则**PR_AGING_GRANULARITY**为**AG_WEEKS** , **PR_AGING_PERIOD**为2。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     
-[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 定义所使用的基本的数据结构中远程操作。
+> 定义在远程操作中使用的基本数据结构。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和电子邮件消息对象允许的操作。
+> 指定允许的电子邮件对象的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

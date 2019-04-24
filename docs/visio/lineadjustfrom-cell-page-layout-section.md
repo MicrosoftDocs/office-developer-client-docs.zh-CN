@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6949c717-dc69-1d17-5215-eb6efce56fcb
 description: 确定在出现动态连接线彼此重叠的情况下应用程序将分隔哪些动态连接线。
-ms.openlocfilehash: ee3a107f7e19b53017c2ea24c94babceb49620d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3eb9f5513ee3ce2f5dce96cb47c356bca29a289c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359323"
 ---
-# <a name="lineadjustfrom-cell-page-layout-section"></a>LineAdjustFrom 单元格（“Page Layout”部分）
+# <a name="lineadjustfrom-cell-page-layout-section"></a>LineAdjustFrom 单元格（“Page Layout”内容）
 
 确定在出现动态连接线彼此重叠的情况下应用程序将分隔哪些动态连接线。
   
-|**值**|**调整**|**自动常量**|
+|**值**|**调**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |无关的线条  <br/> |**visPLOLineAdjustFromNotRelated** <br/> |
 |1  <br/> |所有线条  <br/> |**visPLOLineAdjustFromAll** <br/> |
-|2  <br/> |无线条  <br/> |**visPLOLineAdjustFromNone** <br/> |
-|3  <br/> |默认的排列样式  <br/> |**visPLOLineAdjustFromRoutingDefault** <br/> |
+|双面  <br/> |无线条  <br/> |**visPLOLineAdjustFromNone** <br/> |
+|第三章  <br/> |默认的排列样式  <br/> |**visPLOLineAdjustFromRoutingDefault** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 还可以在 **“页面设置”** 对话框中的 **“布局与排列”** 选项卡（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后单击 **“布局与排列”**）上设置此单元格的值。
   

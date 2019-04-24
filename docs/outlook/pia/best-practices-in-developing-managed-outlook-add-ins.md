@@ -1,5 +1,5 @@
 ---
-title: 开发托管 Outlook 加载项的最佳做法
+title: 托管 Outlook 加载项开发最佳做法
 TOCTitle: Best practices in developing managed Outlook add-ins
 ms:assetid: a03246f6-2ca5-4fcb-8e63-a11cfbc8d9a0
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb611563(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 474a43c17360979b4b25ccb55c0ed48b2c9d2ef7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359078"
 ---
 # <a name="best-practices-in-developing-managed-outlook-add-ins"></a>开发托管 Outlook 加载项的最佳做法
 

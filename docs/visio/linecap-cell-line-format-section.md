@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3519216b-b6cf-2e8c-e20f-adfa373c9028
 description: 指示线端形状是圆形、方形还是扩展式。
-ms.openlocfilehash: 1bd427801e6d95ce6167fa9681da2c567307f072
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44de4bff87fd3d121dfce9eec934ec39bc61065a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359316"
 ---
-# <a name="linecap-cell-line-format-section"></a>LineCap 单元格（“Line Format”部分）
+# <a name="linecap-cell-line-format-section"></a>LineCap 单元格（“Line Format”内容）
 
 指示线端形状是圆形、方形还是扩展式。
   
 |**值**|**线端样式**|
 |:-----|:-----|
-|0  <br/> |圆形  <br/> |
+|0  <br/> |四舍五入  <br/> |
 |1  <br/> |正方形  <br/> |
-|2  <br/> |扩展式  <br/> |
+|双面  <br/> |扩展  <br/> |
    
 ## <a name="remarks"></a>注解
 

@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b0f8d8f0-fed7-4a7c-bc40-e935f159591d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 26d9982248fde015a584eb79cc248bafc5afc6bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 5987111844f087801c63989b905992900ff6909c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356607"
 ---
 # <a name="transport-provider-and-mapi-spooler-operational-model"></a>传输提供程序和 MAPI 后台处理程序操作模型
 
@@ -21,24 +21,24 @@ ms.locfileid: "22594031"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-传输提供程序初始化、 启动、 处理、 关机和取消初始化通过一系列调用从 MAPI 后台打印到传输提供程序。 呼叫顺序编排会出现，如下所示：
+传输提供程序初始化、启动、处理、关闭和 deinitialization 都是通过从 MAPI 后台处理程序到传输提供程序的一系列呼叫来完成的。 这些调用的序列化如下所示:
   
-1. MAPI 后台处理程序调用[XPProviderInit](xpproviderinit.md)函数，将支持对象传递，获取提供商对象，并检查传输提供程序和 MAPI 后台处理程序支持兼容的 MAPI 版本号。 
+1. MAPI 后台处理程序调用[XPProviderInit](xpproviderinit.md)函数, 传递支持对象, 获取 provider 对象, 并检查传输提供程序和 mapi 后台处理程序是否支持 mapi 版本号的兼容范围。 
     
-2. MAPI 后台处理程序调用的[IXPProvider::TransportLogon](ixpprovider-transportlogon.md)方法[IXPProvider: IUnknown](ixpprovideriunknown.md)接口。 MAPI 后台处理程序和配置文件的当前节中的凭据与传输提供程序之间建立会话。 传输提供程序返回登录对象。 
+2. MAPI 后台处理程序调用[IXPProvider: IUnknown](ixpprovideriunknown.md)接口的[IXPProvider:: TransportLogon](ixpprovider-transportlogon.md)方法。 在 MAPI 后台处理程序和传输提供程序之间, 将在配置文件的当前节中的凭据之间建立会话。 传输提供程序返回一个登录对象。 
     
-3. MAPI 后台处理程序调用[IXPLogon::AddressTypes](ixplogon-addresstypes.md)方法。 传输提供程序返回唯一标识符 (Uid) 及其将接受的电子邮件地址类型的列表。 
+3. MAPI 后台处理程序调用[IXPLogon:: AddressTypes](ixplogon-addresstypes.md)方法。 传输提供程序将返回它将接受的唯一标识符 (uid) 和电子邮件地址类型的列表。 
     
-4. 传输提供程序调用[IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md)方法来创建 MAPI 状态表中其所在行。 
+4. 传输提供程序调用[IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md)方法来创建其在 MAPI 状态表中的行。 
     
-5. MAPI 后台处理程序调用[IXPLogon::TransportNotify](ixplogon-transportnotify.md)方法来启用邮件的传输和接收。 
+5. MAPI 后台处理程序调用[IXPLogon:: TransportNotify](ixplogon-transportnotify.md)方法来启用邮件传输和接收。 
     
-6. 如果请求**TransportLogon**呼叫其返回传输提供程序，MAPI 后台处理程序定期调用[IXPLogon::Idle](ixplogon-idle.md)方法。 如果传输提供程序需要轮询新邮件基础邮件系统或执行其他低优先级任务有用空闲时间处理。 
+6. 如果传输提供程序在其返回的**TransportLogon**呼叫中请求, MAPI 后台处理程序将定期调用[IXPLogon:: Idle](ixplogon-idle.md)方法。 如果传输提供程序需要轮询基础邮件系统中的新邮件或执行其他低优先级任务, 空闲处理将非常有用。 
     
-7. MAPI 后台处理程序和传输提供程序发送和接收消息。 有关详细信息，请参阅[消息提交模型](message-submission-model.md)和[消息接收模型](message-reception-model.md)。 MAPI 后台处理程序传输请求提供服务，并支持、 消息和附件对象上调用。
+7. MAPI 后台处理程序和传输提供程序发送和接收邮件。 有关详细信息, 请参阅[邮件提交模型](message-submission-model.md)和[邮件接收模型](message-reception-model.md)。 MAPI 后台处理程序服务传输请求和对支持、消息和附件对象的调用。
     
-8. MAPI 后台处理程序调用**TransportNotify**方法来禁用邮件传输和接收。 
+8. MAPI 后台处理程序调用**TransportNotify**方法以禁用邮件传输和接收。 
     
-9. MAPI 后台处理程序释放的登录和提供程序的对象。 有关详细信息，请参阅[IXPProvider::Shutdown](ixpprovider-shutdown.md)方法。 
+9. MAPI 后台处理程序释放登录和提供程序对象。 有关详细信息, 请参阅[IXPProvider:: Shutdown](ixpprovider-shutdown.md)方法。 
     
 

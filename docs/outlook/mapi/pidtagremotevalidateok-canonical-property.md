@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: e336d2ec-57cb-4d08-bd6e-330ef7d9939e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9b06ebbe8cb162d77d60cfffa866438567c84c27
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b5c9e5bb2aa915d4b76d9998baaf504e7929b78
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355613"
 ---
 # <a name="pidtagremotevalidateok-canonical-property"></a>PidTagRemoteValidateOk 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-此属性包含 TRUE 如果允许远程查看器调用[IMAPIStatus::ValidateState](imapistatus-validatestate.md)方法。 
+如果允许远程查看器调用[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法, 则此属性包含 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_REMOTE_VALIDATE_OK  <br/> |
-|标识符：  <br/> |0x3E0D  <br/> |
+|标识符:  <br/> |0x3E0D  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性将状态表中显示，并提供一些控制传输性能。 它可以将其视为另一种用于为空闲远程查看器。 当设置为 TRUE 时，远程查看器可以根据需要通常调用**IMAPIStatus::ValidateState** 。 值为 FALSE 指示远程查看器无法进行任何其他呼叫。 
+此属性将显示在状态表中, 并提供对传输性能的一些控制。 可将其视为将远程查看器定向为空闲的另一种方法。 当它设置为 TRUE 时, 远程查看器可以按需要的频率调用**IMAPIStatus:: ValidateState** 。 如果值为 FALSE, 则表示远程查看器不能进行任何调用。 
   
-传输提供程序通常将该属性设置动态，值设置为 FALSE 可禁用其他呼叫时的传输提供程序具有足够的执行的处理。 完成传输提供程序后，它然后将值设置为 TRUE 以允许客户端应用程序进行进一步**IMAPIStatus::ValidateState**呼叫。 
+传输提供程序通常会将此属性设置为 FALSE, 以便在传输提供程序有足够的处理要执行的大量处理时, 将该值设置为 FALSE, 以禁用其他调用。 在传输提供程序完成后, 它会将值设置为 TRUE, 以允许客户端应用程序进一步**IMAPIStatus:: ValidateState**调用。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -6,11 +6,11 @@ ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: 了解 32 位版 Office 如何与 64 位版 Office 保持兼容。
 localization_priority: Priority
 ms.openlocfilehash: b03323b37b242c9992c47cd737ae54f3f9bbf2ca
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359820"
 ---
 # <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>32 位版 Office 与 64 位版 Office 的兼容性
 

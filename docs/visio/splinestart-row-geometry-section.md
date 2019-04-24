@@ -8,27 +8,27 @@ f1_keywords:
 - vis_sdr.chm3055
 localization_priority: Normal
 ms.assetid: 8e327e00-0844-efa4-900b-6954d3b009bb
-description: 包含 x 和 y-坐标样条的第二个控制点、 它的第二个节点、 第一个节点、 最后一个节点和样条的度数。
-ms.openlocfilehash: 0944da12e6090fde41dc5927b5705e103d29f76d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 包含样条第二个控制点的 x 坐标和 y 坐标、第二个节点、第一个节点、最后一个节点和样条的角度。
+ms.openlocfilehash: 2ec06619770af4e5dbcc1a763595b6e01a39052b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358791"
 ---
-# <a name="splinestart-row-geometry-section"></a>SplineStart 行（“Geometry”部分）
+# <a name="splinestart-row-geometry-section"></a>SplineStart 行（“Geometry”内容）
 
-包含*x*和*y* -坐标样条的第二个控制点、 它的第二个节点、 第一个节点、 最后一个节点和样条的度数。 
+包含样条第二个控制点的*x*坐标和*y*坐标、第二个节点、第一个节点、最后一个节点和样条的角度。 
   
 SplineStart 行包含以下单元格。
   
-|**Cell**|**说明**|
+|**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -样条的第二个控制点的坐标。  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -样条的第二个控制点的坐标。  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |样条第二个控制点的*x*坐标。  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |样条第二个控制点的*y*坐标。  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |样条的第二个节点。  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |样条的第一个节点。  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |样条的最后一个节点。  <br/> |
+|[黑白](b-cell-geometry-section.md) <br/> |样条的第一个节点。  <br/> |
+|[lc](c-cell-geometry-section.md) <br/> |样条的最后一个节点。  <br/> |
 |[D](d-cell-geometry-section.md) <br/> |样条的角度（从 1 到 25 的整数）。  <br/> |
    
 ## <a name="remarks"></a>注解

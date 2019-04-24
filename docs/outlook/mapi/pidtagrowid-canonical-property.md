@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0fdcb55a-2971-4c7d-b61e-7ada2d19d0e6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8d58342e0460352bd9d260cb6e73de358cb2fc23
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359533"
 ---
 # <a name="pidtagrowid-canonical-property"></a>PidTagRowid 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25387718"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含的收件人的表或状态表中的收件人的唯一标识符。
+包含收件人表或状态表中的收件人的唯一标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ROWID  <br/> |
-|标识符：  <br/> |0x3000  <br/> |
+|标识符:  <br/> |0x3000  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性是对象的仅对拥有表的生存期内有效临时值。 它显示为表的列，但不是存储。
+此属性是一个仅在拥有该表的对象的生命周期内有效的临时值。 它显示为表的一列, 但未存储。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理顺序和客户端和服务器之间的数据传输的流。
+> 处理客户端与服务器之间的数据传输的顺序和流。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

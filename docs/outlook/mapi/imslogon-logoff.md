@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1b0d1b52-6651-4de3-9381-86772d9d52a1
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 66ba27d1d333be3217f2a22ca5d53449372c1f31
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348872"
 ---
 # <a name="imslogonlogoff"></a>IMSLogon::Logoff
 
@@ -25,7 +25,7 @@ ms.locfileid: "25399233"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-注销一条消息存储提供程序。 
+注销邮件存储提供程序。 
   
 ```cpp
 HRESULT Logoff(
@@ -37,21 +37,21 @@ HRESULT Logoff(
 
  _lpulFlags_
   
-> [in]保留;必须为零的指针。
+> 实时保留必须是指向零的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-消息存储提供程序实现**IMSLogon::Logoff**方法以强制关闭消息存储提供程序。 在下列情况下调用**IMSLogon::Logoff** : 
+邮件存储提供程序实现**IMSLogon:: 注销**方法以强制关闭邮件存储提供程序。 **IMSLogon::** 在以下情况下会调用注销: 
   
-- 同时给[IMAPISession::Logoff](imapisession-logoff.md)方法调用后 MAPI 正在注销客户端。 
+- 尽管 MAPI 在调用[IMAPISession:: 注销](imapisession-logoff.md)方法后注销客户端。 
     
-- MAPI 注销消息存储提供程序时。 在这种情况下， **IMSLogon::Logoff**称为 MAPI 处理的消息存储提供程序创建处理[IMsgStore::StoreLogoff](imsgstore-storelogoff.md)或**IUnknown 时支持对象的[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法的一部分::发行版**消息存储对象上的方法调用。 
+- MAPI 注销邮件存储提供程序时。 在这种情况下, **IMSLogon:: 注销**在处理[IMsgStore:: StoreLogoff](imsgstore-storelogoff.md)或 IUnknown 时创建的支持对象的[IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法是邮件存储提供程序在处理:: 或 IUnknown 过程中创建的支持对象的 Release 方法: **** 对邮件存储对象的 Release 方法调用。 
     
 ## <a name="see-also"></a>另请参阅
 

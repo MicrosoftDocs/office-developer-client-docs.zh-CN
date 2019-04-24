@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bd3e4568-9730-4648-ba31-28813b5bb471
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 827e797377f07e4de5ace069c4783a0b9d7d687a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345736"
 ---
 # <a name="pidtagbusinesshomepage-canonical-property"></a>PidTagBusinessHomePage 规范属性
 
@@ -29,40 +29,40 @@ ms.locfileid: "25386234"
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_BUSINESS_HOME_PAGE，PR_BUSINESS_HOME_PAGE_A，PR_BUSINESS_HOME_PAGE_W  <br/> |
-|标识符：  <br/> |0x3A51  <br/> |
-|数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
-|区域：  <br/> |联系人  <br/> |
+|相关属性：  <br/> |PR_BUSINESS_HOME_PAGE、PR_BUSINESS_HOME_PAGE_A、PR_BUSINESS_HOME_PAGE_W  <br/> |
+|标识符:  <br/> |0x3A51  <br/> |
+|数据类型：  <br/> |PT_UNICODE、PT_STRING8  <br/> |
+|区域：  <br/> |Contact  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这些属性用作指向该联系人的业务主页的链接。
+这些属性被用作联系人的公司主页的链接。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和允许的联系人和个人通讯组列表对象的操作。
+> 指定允许用于联系人和个人通讯组列表对象的属性和操作。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和用户、 联系人、 组和资源的操作列表。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

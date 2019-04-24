@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 30511e6e-aba2-4f47-bdc7-1256b23382c5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 224bf8fa29da63bc96e4d86551545ce83fc411d6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f44f453a24b647e66ae49202fa1910dfdff10cda
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350825"
 ---
 # <a name="pidtagproofofsubmission-canonical-property"></a>PidTagProofOfSubmission 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-此属性包含 TRUE 如果邮件发件人请求证明邮件传输系统已提交的邮件传递到最初预期接收人。
+如果邮件发件人请求证明邮件传输系统已提交邮件以传递给最初的预期收件人, 则此属性包含 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROOF_OF_SUBMISSION  <br/> |
-|标识符：  <br/> |0x0E26  <br/> |
+|标识符:  <br/> |0x0E26  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

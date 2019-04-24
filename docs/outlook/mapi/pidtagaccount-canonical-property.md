@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bec199b5-abfd-4686-ad59-21092212e1a5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2962f973aa87b88f237ded69573df9ef312a7bc5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359776"
 ---
 # <a name="pidtagaccount-canonical-property"></a>PidTagAccount 规范属性
 
@@ -29,40 +29,40 @@ ms.locfileid: "25401102"
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_ACCOUNT，PR_ACCOUNT_A，PR_ACCOUNT_W  <br/> |
-|标识符：  <br/> |0x3A00  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_ACCOUNT、PR_ACCOUNT_A、PR_ACCOUNT_W  <br/> |
+|标识符:  <br/> |0x3A00  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这些属性提供标识和访问收件人的信息。 它们是按收件人和组织定义的。
+这些属性可提供收件人的标识和访问信息。 它们由收件人及其组织定义。
   
-这些属性通常包含收件人的电子邮件名，即，唯一标识本地组织中的收件人的电子邮件地址的最后一个组件。 电子邮件名称对应于 X.400 可分辨名称，这意味着要一定要为特定邮件的域中唯一的短名称。
+这些属性通常包含收件人的电子邮件名称, 即电子邮件地址的最终组件, 用于唯一标识本地组织中的收件人。 电子邮件名称对应于可确保在某个邮件域中具有唯一性的短名称的 "400. 400" 可分辨名称。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定允许用于联系人和个人通讯组列表的属性和操作。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和用户、 联系人、 组和资源的操作列表。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapitags.h
+mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
-mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

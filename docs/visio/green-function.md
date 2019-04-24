@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251434
 localization_priority: Normal
 ms.assetid: eccec432-32d3-15c2-06b3-dd02b6313d4c
-description: 返回一种颜色的绿色成分。
-ms.openlocfilehash: 04bdadc0fa34dc4f51061d428b9366a433b669a5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回颜色的绿色成分。
+ms.openlocfilehash: 0412e4519c2964b05d7663805d7773e8dc5deaab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360205"
 ---
 # <a name="green-function"></a>GREEN 函数
 
-返回一种颜色的绿色成分。
+返回颜色的绿色成分。
   
 ## <a name="syntax"></a>语法
 
@@ -28,25 +28,25 @@ ms.locfileid: "19780387"
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |必需  <br/> |**因情况而异** <br/> |文档颜色表，将解析为自定义颜色 （如 RGB 或 HSL） 或对包含颜色索引或颜色结果的单元格的引用的表达式中的颜色索引。  <br/> |
+| _expression_ <br/> |必需  <br/> |**相同** <br/> |文档颜色表中颜色的索引、解析为自定义颜色的表达式 (如 RGB 或 HSL), 或者是对包含颜色索引或颜色结果的单元格的引用。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-Integer
+整数
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-返回值是 0 到 255，包括的数字或解析为索引的单元格引用。 如果*表达式*无效，则返回 0 （黑色）。 
+返回值是 0 至 255（包括 0 和 255）之间的数字，或解析为索引值的单元格引用。 如果*表达式*无效, 则返回 0 (黑色)。 
   
 ## <a name="example-1"></a>示例 1
 
-绿色 (Sheet.4 ！FillForegnd)
+绿色 (Sheet 4!FillForegnd
   
 返回 Sheet.4 的填充前景色的绿色成分。
   
 ## <a name="example-2"></a>示例 2
 
-GREEN(11)
+绿色 (11)
   
 如果文档使用默认的 Visio 调色板（其中深黄色是索引值为 11 的颜色），则返回 128。
   

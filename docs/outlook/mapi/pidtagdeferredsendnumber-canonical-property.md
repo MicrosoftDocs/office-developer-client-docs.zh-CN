@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8ada5c9b-bec5-42d8-bc58-f0411ec4e88b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9e3a30dad433b255573e4e3f041e6475b9227a54
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357734"
 ---
 # <a name="pidtagdeferredsendnumber-canonical-property"></a>PidTagDeferredSendNumber 规范属性
 
@@ -25,38 +25,38 @@ ms.locfileid: "25398022"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含可用于计算延期发送一条消息的数目。
+包含可用于计算发送邮件的延期的号码。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DEFERRED_SEND_NUMBER  <br/> |
-|标识符：  <br/> |0x3FEB  <br/> |
+|标识符:  <br/> |0x3FEB  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性用于计算**PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) 属性时不存在。 当推迟发送一条消息时， **PR_DEFERRED_SEND_NUMBER**属性应设置以及**PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) 属性中，如果**PR_DEFERRED_SEND_TIME**属性不存在。 
+此属性用于在**PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) 属性不存在时对其进行计算。 当延迟发送邮件时, 如果**PR_DEFERRED_SEND_TIME**属性不存在, 则**PR_DEFERRED_SEND_NUMBER**属性应与**PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) 属性一起设置。 
   
-**PR_DEFERRED_SEND_NUMBER**值必须介于 0 到 999 之间设置。 
+必须在0和999之间设置**PR_DEFERRED_SEND_NUMBER**值。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的电子邮件消息对象。
+> 指定允许用于电子邮件对象的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

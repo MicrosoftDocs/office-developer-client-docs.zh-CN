@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251435
 localization_priority: Normal
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
-description: 保护表达式被删除和更改执行的动作在绘图窗口，例如，移动，尺寸调整、 分组或取消组合形状。
-ms.openlocfilehash: fd5fcfbe11eb054dfa625834640c0280cae96c3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 通过在绘图窗口中执行的操作 (例如移动、调整大小、组合或取消组合形状) 防止删除和更改表达式。
+ms.openlocfilehash: 0bdfa023d53e739a970cab65b1dbd67bc1a44461
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780362"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360191"
 ---
 # <a name="guard-function"></a>GUARD 函数
 
-保护*表达式*被删除和更改执行的动作在绘图窗口，例如，移动，尺寸调整、 分组或取消组合形状。 
+通过在绘图窗口中执行的操作 (例如移动、调整大小、组合或取消组合形状) 防止删除和更改*表达式*。 
   
 ## <a name="syntax"></a>语法
 
@@ -28,7 +28,7 @@ GUARD (* **表达式** *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |必需  <br/> |**字符串** <br/> |常量、运算符、函数和对 ShapeSheet 单元格的引用的组合，其结果为一个值。  <br/> |
+| _expression_ <br/> |必需  <br/> |**String** <br/> |常量、运算符、函数和对 ShapeSheet 单元格的引用的组合，其结果为一个值。  <br/> |
    
 ## <a name="remarks"></a>注解
 

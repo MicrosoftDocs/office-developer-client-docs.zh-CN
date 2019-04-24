@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 94a16356-68ad-4c47-04f9-b7a81e99e61d
 description: 返回与当前处于活动状态的 Microsoft Visio 应用程序的主版本匹配的整数。
-ms.openlocfilehash: 7e0312f7acdf3037e0a8a60c84d06de539128b08
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6f7f19fd0e59b1d808300c3d9fbe39eedee2ef4f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357825"
 ---
 # <a name="version-function"></a>VERSION 函数
 
@@ -25,11 +25,11 @@ ms.locfileid: "19781641"
   
 ## <a name="syntax"></a>语法
 
-VERSION()
+版本 ()
   
 ### <a name="return-value"></a>返回值
 
-Integer
+整数
   
 ## <a name="remarks"></a>注解
 

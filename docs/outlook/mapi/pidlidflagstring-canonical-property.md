@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4cf1e08b-c869-4965-a1e4-512a0684700f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b3cd88db7e93b53990cf0181af623ebca75f0c6e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357783"
 ---
 # <a name="pidlidflagstring-canonical-property"></a>PidLidFlagString 规范属性
 
@@ -25,64 +25,64 @@ ms.locfileid: "25395579"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含标识之一的一组预定义的文本字符串标志相关联的索引。
+包含标识与标志关联的一组预定义的文本字符串之一的索引。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidFlagStringEnum  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x000085C0  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x000085C0  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |Task  <br/> |
+|区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果设置此属性，客户端应下表中 （例如，若要替换的字符串转换为当前用户的语言），使用相应的字符串值，并应忽略**dispidFlagRequest** ([中设置的值PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) 和**dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md))。 
+如果设置了此属性, 客户端应使用下表中相应的字符串值 (例如, 替换转换为当前用户语言的字符串), 并且应忽略**dispidFlagRequest**中设置的值 ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) 和**dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md))。 
   
-建议为用户联系人对象的默认值如下所示：
+为联系人对象的用户建议的默认值如下所示:
   
-|**值**|**英语字符串**|
+|**值**|**英文字符串**|
 |:-----|:-----|
-|0x00000000 或不存在  <br/> | 按照与显示**dispidFlagRequest**相关的指南。  <br/> |
-|0x0000006E  <br/> |"跟踪"  <br/> |
-|0x0000006F  <br/> |"呼叫"  <br/> |
+|0x00000000 或不存在  <br/> | 按照与显示**dispidFlagRequest**相关的指导进行操作。  <br/> |
+|0x0000006E  <br/> |"后续"  <br/> |
+|0x0000006F  <br/> |对  <br/> |
 |0x00000070  <br/> |"安排会议"  <br/> |
 |0x00000071  <br/> |"发送电子邮件"  <br/> |
-|0x00000072  <br/> |"发送字母"  <br/> |
+|0x00000072  <br/> |"发送信件"  <br/> |
    
-建议对所有其他消息对象的用户的默认值如下所示：
+为用户建议的所有其他 message 对象的默认值如下所示:
   
-|**值**|**英语字符串**|
+|**值**|**英文字符串**|
 |:-----|:-----|
-|0x00000000 或不存在  <br/> | 按照与显示**dispidFlagRequest**相关的指南。  <br/> |
-|0x00000001  <br/> |"呼叫"  <br/> |
+|0x00000000 或不存在  <br/> | 按照与显示**dispidFlagRequest**相关的指导进行操作。  <br/> |
+|0x00000001  <br/> |对  <br/> |
 |0x00000002  <br/> |"不要转发"  <br/> |
-|0x00000003  <br/> |"跟踪"  <br/> |
-|0x00000004  <br/> |"为您的信息"  <br/> |
-|0x00000005  <br/> |"转接"  <br/> |
-|0x00000006  <br/> |"不需要响应"  <br/> |
-|0x00000007  <br/> |"Read"  <br/> |
-|0x00000008  <br/> |"答复"  <br/> |
+|0x00000003  <br/> |"后续"  <br/> |
+|0x00000004  <br/> |"获取信息"  <br/> |
+|0x00000005  <br/> |前后  <br/> |
+|0x00000006  <br/> |"无需响应"  <br/> |
+|0x00000007  <br/> |自述  <br/> |
+|0x00000008  <br/> |响应  <br/> |
 |0x00000009  <br/> |"全部答复"  <br/> |
-|0x0000000A  <br/> |"审阅"  <br/> |
+|0x0000000A  <br/> |概述  <br/> |
    
-上面指定的所有字符串可以都转换到用户的语言，如果适用。
+如果需要, 可以将上面指定的所有字符串转换为用户的语言。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> 指定的属性和与标记的操作。
+> 指定与标记相关的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

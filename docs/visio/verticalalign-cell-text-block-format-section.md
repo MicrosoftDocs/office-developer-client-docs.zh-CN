@@ -9,24 +9,24 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ff34a23b-2881-864f-42e4-871c4fde0992
 description: 确定文本块内文本的垂直对齐方式。
-ms.openlocfilehash: cfd34f17eec597c306b69f76929877013b39015e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 954a0cf0b80d6b675dcc016997f1923041069eac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781637"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356139"
 ---
-# <a name="verticalalign-cell-text-block-format-section"></a>VerticalAlign 单元格（“Text Block Format”部分）
+# <a name="verticalalign-cell-text-block-format-section"></a>VerticalAlign 单元格（“Text Block Format”内容）
 
 确定文本块内文本的垂直对齐方式。
   
-|**值**|**说明**|**自动常量**|
+|**Value**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
-| 0  <br/> | 靠上  <br/> |**visVertTop** <br/> |
-| 1  <br/> | 居中  <br/> |**visVertMiddle** <br/> |
-| 2  <br/> | 靠下  <br/> |**visVertBottom** <br/> |
+| 0  <br/> | Top  <br/> |**visVertTop** <br/> |
+| 1  <br/> | 中间  <br/> |**visVertMiddle** <br/> |
+| 双面  <br/> | 向下  <br/> |**visVertBottom** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 VerticalAlign 单元格的引用，请使用： 
   

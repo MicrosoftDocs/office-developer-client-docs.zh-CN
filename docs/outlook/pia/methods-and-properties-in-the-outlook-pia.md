@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 90c13559094fbffd2dbe9a99602ee235c92d9445
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351030"
 ---
 # <a name="methods-and-properties-in-the-outlook-pia"></a>Outlook PIA 中的方法和属性
 
@@ -38,7 +38,7 @@ TLBIMP 导入每个对象的主接口和事件接口，并创建众多接口、�
 
 继续以 **FormRegion** 对象为例，以下列表检查上述各个接口和类包含的内容。
 
-- \_FormRegion 接口定义 FormRegion 的所有方法和属性。 除下面讨论的一个情况外，通常不在代码中使用此接口。
+- \_FormRegion 接口定义 FormRegion 的所有方法和属性。 通常不在代码中使用此接口，除非是下面讨论的情况。
 
 - **FormRegionEvents** 接口定义映射到 FormRegion 的事件的方法。 请勿在代码中使用此接口。
 

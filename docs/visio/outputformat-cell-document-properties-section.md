@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm82251617
 localization_priority: Normal
 ms.assetid: 17238019-c800-5d3a-32f6-fb0008d4e25f
-description: 确定绘图的输出格式。绘图页的格式通常是为打印而设置的（默认值）；不过您也可以选择其他输出格式。
-ms.openlocfilehash: 7103fa5c2bc721add3496b7a497989d6632d58f1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定绘图的输出格式。 绘图页的格式通常是为打印而设置的（默认值）；不过您也可以选择其他输出格式。
+ms.openlocfilehash: 09fa34095772936ab1c6a3025ed1884a533f55e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359281"
 ---
-# <a name="outputformat-cell-document-properties-section"></a>OutputFormat 单元格（“Document Properties”部分）
+# <a name="outputformat-cell-document-properties-section"></a>OutputFormat 单元格（“Document Properties”内容）
 
-确定绘图的输出格式。绘图页的格式通常是为打印而设置的（默认值）；不过您也可以选择其他输出格式。
+确定绘图的输出格式。 绘图页的格式通常是为打印而设置的（默认值）；不过您也可以选择其他输出格式。
   
 |**值**|**输出格式**|
 |:-----|:-----|
 | 0  <br/> | 打印（默认值）  <br/> |
 | 1  <br/> | PowerPoint 幻灯片放映  <br/> |
-| 2  <br/> | HTML 或 GIF 输出  <br/> |
+| 双面  <br/> | HTML 或 GIF 输出  <br/> |
    
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 OutputFormat 单元格的引用，请使用： 
   

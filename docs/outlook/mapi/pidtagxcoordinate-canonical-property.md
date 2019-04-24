@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 030d5c21-ab02-4047-bf2d-9a402a1e9102
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e600d309a5b545ddd46f93f68d7bcb23b763ca24
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87df676dccdb067302d62da2bd1fda6b634ed4f8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350657"
 ---
 # <a name="pidtagxcoordinate-canonical-property"></a>PidTagXCoordinate 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含的起始位置 （左上角） 对话框控件，以标准 Windows 对话框单位表示的 x 坐标。
+包含对话框控件的起始位置 (左上角) 的 x 坐标 (以标准 Windows 对话框的单位表示)。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_XPOS  <br/> |
-|标识符：  <br/> |0x3F05  <br/> |
+|标识符:  <br/> |0x3F05  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性、 **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md))、 **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) 和**PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) 属性定位并调整大小对话框控件。
+此属性、 **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md))、 **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) 和**PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) 属性定位并调整对话框控件的大小。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

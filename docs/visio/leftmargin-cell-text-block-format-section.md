@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 47d84d7d-08a0-1934-d156-702da848e01c
 description: 确定文本块左边框和它所包含的文本之间的距离。默认值是 0.1 英寸。此值与绘图比例无关。即使绘图比例进行调整，左边距仍保持不变。
-ms.openlocfilehash: d24ba33bffea1529490b49e105fec5d01cd828b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fee8eca8b5730e40518babe0c76549e10bebd902
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359386"
 ---
-# <a name="leftmargin-cell-text-block-format-section"></a>LeftMargin 单元格（“Text Block Format”部分）
+# <a name="leftmargin-cell-text-block-format-section"></a>LeftMargin 单元格（“Text Block Format”内容）
 
 确定文本块左边框和它所包含的文本之间的距离。默认值是 0.1 英寸。此值与绘图比例无关。即使绘图比例进行调整，左边距仍保持不变。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LeftMargin 单元格的引用，请使用： 
   

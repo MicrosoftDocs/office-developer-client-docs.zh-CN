@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 70e491069fd3f178371e9e8e3e6bcd8dc08e729e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356432"
 ---
 # <a name="create-an-exception-appointment-in-a-recurring-appointment-series"></a>在定期约会系列中创建例外约会
 
@@ -33,7 +33,7 @@ ms.locfileid: "28721841"
 
 在下面的代码示例中，CreateExceptionExample 更改在主题[在定期约会系列中查找特定约会](how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md)中创建的定期约会的主题，再使用生成的 Exception 对象的 AppointmentItem 属性，以检索与约会例外对应的 AppointmentItem。 然后，CreateExceptionExample 更改约会例外的开始时间和结束时间。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

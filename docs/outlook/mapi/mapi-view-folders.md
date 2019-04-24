@@ -1,5 +1,5 @@
 ---
-title: MAPI 查看文件夹
+title: MAPI 视图文件夹
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a1936ec2-bf8a-4242-a41d-64d26b813bd0
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3a89588294f07dca97fb48e56d2cde890c3f80ae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: ca9e5138d3ded13dfe33037f75e43ef1098f3c2d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568817"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357335"
 ---
-# <a name="mapi-view-folders"></a>MAPI 查看文件夹
+# <a name="mapi-view-folders"></a>MAPI 视图文件夹
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-查看文件夹是根文件夹，包含定义替代显示布局人际邮件 (IPM) 文件夹的内容的相关的信息。 查看文件夹位于邮件存储的根目录下，因此，不可见的典型的客户端应用程序中。 不是每个消息存储包括查看文件夹;仅配置为默认的邮件存储用作会话的消息存储必须包括它们。  
+查看文件夹是包含相关信息的根文件夹, 用于定义人际邮件 (IPM) 文件夹的内容的替代显示布局。 View 文件夹驻留在邮件存储区的根目录下, 因此, 在典型的客户端应用程序中不可见。 并不是每个邮件存储都包含查看文件夹;只有配置为可用作会话的默认邮件存储的邮件存储必须包含它们。  
   
-MAPI 支持两个视图文件夹：
+MAPI 支持两个视图文件夹:
   
-- 常见 — 公共视图文件夹中包含的是标准的消息存储库的并且可供客户端访问的消息存储的任何用户视图。 存储在的存储**PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)) 属性中的公共视图文件夹的项标识符。
+- 常用视图文件夹包含为邮件存储库的标准视图, 可供访问邮件存储区的客户端的任何用户使用。 公用视图文件夹的条目标识符存储在存储的**PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)) 属性中。
     
-- 个人 — 个人视图文件夹包含由特定用户定义的视图。 MAPI 定义按住个人视图文件夹的项标识符的**PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) 属性。 使用个人视图，例如，一个用户无法查看一组按发件人，列出仅邮件主题和回执日期; 的消息另一个用户无法查看同一组按日期排序，列出的主题、 发件人和邮件大小。
+- 个人-"个人视图" 文件夹包含由特定用户定义的视图。 MAPI 定义了**PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) 属性, 用于保存个人视图文件夹的条目标识符。 例如, 使用个人视图, 一个用户可以查看按发件人排序的一组邮件, 仅列出邮件主题和接收日期;另一个用户可以查看按日期排序的相同组, 并列出主题、发件人和邮件大小。
     
 ## <a name="see-also"></a>另请参阅
 

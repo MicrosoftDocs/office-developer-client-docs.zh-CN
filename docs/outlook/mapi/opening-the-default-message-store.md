@@ -1,5 +1,5 @@
 ---
-title: 打开默认的邮件存储
+title: 打开默认邮件存储
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,35 +7,35 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 670fb896-9aaf-4a96-83f7-76237409e956
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0366e889f1c63e5fe40760ca80cec701cd6b3713
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: d8e620516e2b3e61cd07f3a08af989cc4ed5b61e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348599"
 ---
-# <a name="opening-the-default-message-store"></a>打开默认的邮件存储
+# <a name="opening-the-default-message-store"></a>打开默认邮件存储
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-在任何特定的会话中一个消息存储用作默认邮件存储区。 默认邮件存储区具有以下特征：
+在任何特定的会话中, 一个邮件存储将充当默认邮件存储区。 默认邮件存储区具有以下特征:
   
 - **PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) 属性设置为 TRUE。
     
-- **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 属性中设置了 STATUS_DEFAULT_STORE 标志。
+- 在**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 属性中设置 STATUS_DEFAULT_STORE 标志。
     
-- 打开消息存储库时，MAPI 自动创建 IPM 子树和搜索结果、 公共视图和个人视图的根文件夹。 有关这些文件夹的详细信息，请参阅[IPM 子树](ipm-subtree.md)和[MAPI 特殊文件夹](mapi-special-folders.md)。 
+- MAPI 在打开邮件库时, 会自动为搜索结果、常见视图和个人视图创建 IPM 子树和根文件夹。 有关这些文件夹的详细信息, 请参阅[IPM 子树](ipm-subtree.md)和[MAPI 特殊文件夹](mapi-special-folders.md)。 
     
-若要检索默认的邮件存储的项标识符，必须调用[IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md)打开的消息存储表格并应用[HrQueryAllRows](hrqueryallrows.md)将调用适当的限制。 **HrQueryAllRows**将返回的行集与表示默认的邮件存储的一个行。 传递给**HrQueryAllRows**限制可以采用以下形式之一： 
+若要检索默认邮件存储的条目标识符, 必须调用[IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md)打开邮件存储表, 并在对[HrQueryAllRows](hrqueryallrows.md)的调用中应用适当的限制。 **HrQueryAllRows**将返回行集, 其中的一行表示默认邮件存储区。 传递给**HrQueryAllRows**的限制可采用以下形式之一: 
   
-1. 使用**SAndRestriction**结构组合**和**限制： 
+1. 一个**和**限制, 它使用**SAndRestriction**结构来进行组合: 
     
-   - 存在使用**SExistRestriction**结构**PR_DEFAULT_STORE**属性是否存在测试的限制。 
+   - 存在一个限制, 它使用**SExistRestriction**结构来测试**PR_DEFAULT_STORE**属性是否存在。 
     
-   - 使用[SPropertyRestriction](spropertyrestriction.md)结构**PR_DEFAULT_STORE**属性中的则返回 TRUE 值来检查属性限制。 
+   - 使用[SPropertyRestriction](spropertyrestriction.md)结构检查**PR_DEFAULT_STORE**属性中的 TRUE 值的属性限制。 
     
-2. 位掩码限制为针对**PR_RESOURCE_FLAGS**属性掩码应用 STATUS_DEFAULT_STORE 使用[SBitMaskRestriction](sbitmaskrestriction.md)结构。 
+2. 一个位掩码限制, 它使用[SBitMaskRestriction](sbitmaskrestriction.md)结构将 STATUS_DEFAULT_STORE 应用于**PR_RESOURCE_FLAGS**属性的掩码。 
     
 ## <a name="see-also"></a>另请参阅
 

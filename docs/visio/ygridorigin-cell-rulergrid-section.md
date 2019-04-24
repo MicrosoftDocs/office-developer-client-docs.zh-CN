@@ -1,5 +1,5 @@
 ---
-title: YGridOrigin 单元格（“Ruler &amp; Grid”部分）
+title: YGridOrigin 单元格 ( &amp; "标尺网格" 部分)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: eeec59f8-f301-5639-ffd6-8a36b2bf9c8f
 description: 指定网格的垂直起点。
-ms.openlocfilehash: 2d914fc15df8a100066ad17a2e35001fe8a4d587
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa8ee15d5ef2b5d581a9532336d3983bed17b1dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351672"
 ---
-# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>YGridOrigin 单元格（“Ruler &amp; Grid”部分）
+# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>YGridOrigin 单元格 ( &amp; "标尺网格" 部分)
 
 指定网格的垂直起点。
   
 ## <a name="remarks"></a>注解
 
-此单元格对应于垂直**网格原点**选项中**标尺&amp;网格**对话框 （在**视图**选项卡上，单击**显示**箭头）。 
+此单元格对应于 "**标尺&amp;网格**" 对话框 (在 "**视图**" 选项卡上, 单击 "**显示**" 箭头) 中的 "垂直**网格起点**" 选项。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 YGridOrigin 单元格的引用，请使用： 
   

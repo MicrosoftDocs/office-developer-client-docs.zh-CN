@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42dd7889-5e00-419a-91e7-8350be4efd35
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1c66032788758b04558a37a4c35ff4dd6c702fa2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 6eef3047368caca5bd932e19738b1d996c3ff28a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351357"
 ---
 # <a name="imapiclientshutdownnotifyprocessshutdown"></a>IMAPIClientShutdown::NotifyProcessShutdown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-表示的 MAPI 客户端的目的，继续执行关闭。
+指示 MAPI 客户端的意向继续关闭。
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
@@ -35,11 +35,11 @@ HRESULT NotifyProcessShutdown ();
 
 S_OK
   
-> MAPI 子系统试图通知 MAPI 客户端正在进行快速关闭加载的 MAPI 提供程序。
+> mapi 子系统已尝试通知加载的 mapi 提供程序, mapi 客户端即将执行快速关闭。
     
 ## <a name="remarks"></a>注解
 
-若要避免从 MAPI 客户端快速关闭数据丢失，MAPI 客户端应调用基于 MAPI 子系统中返回 S_OK 结果的**IMAPIClientShutdown::NotifyProcessShutdown**和[IMAPIClientShutdown::DoFastShutdown](imapiclientshutdown-dofastshutdown.md)方法[IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方法中。 有关详细信息，请参阅[Fast 关闭的最佳实践](best-practices-for-fast-shutdown.md)。
+为了避免从 mapi 客户端的快速关闭中丢失数据, mapi 客户端应调用**IMAPIClientShutdown:: NotifyProcessShutdown**和[IMAPIClientShutdown::D](imapiclientshutdown-dofastshutdown.md)基于 MAPI 子系统返回的 S_OK 结果的 ofastshutdown 方法[IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方法。 有关详细信息, 请参阅[Fast Shutdown 的最佳实践](best-practices-for-fast-shutdown.md)。
   
 ## <a name="see-also"></a>另请参阅
 

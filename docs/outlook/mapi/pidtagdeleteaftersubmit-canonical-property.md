@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ba69a557-120c-4b1e-bbb7-0e901e7d1ebf
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2708d89e2572e8820de0b525b4f53ccd309ae2a0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383868"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359911"
 ---
 # <a name="pidtagdeleteaftersubmit-canonical-property"></a>PidTagDeleteAfterSubmit 规范属性
 
@@ -25,44 +25,44 @@ ms.locfileid: "25383868"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果客户端应用程序提交后删除关联的邮件的 MAPI，包含 TRUE。 
+如果客户端应用程序希望 MAPI 在提交后删除关联的邮件, 则该参数包含 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DELETE_AFTER_SUBMIT  <br/> |
-|标识符：  <br/> |0x0E01  <br/> |
+|标识符:  <br/> |0x0E01  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-客户端应用程序使用此属性与**PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) 属性控制提交后，一条消息，会发生什么情况。 设置，但不是能同时，应为一个或多。 
+客户端应用程序将此属性与**PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) 属性一起使用, 以控制邮件提交后对邮件所发生的操作。 应设置其中一个或多个, 但不能同时设置这两者。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+[[毫秒-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> 指定允许的操作的核心消息存储对象。
+> 指定核心邮件存储对象的允许操作。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的电子邮件消息对象。
+> 指定允许用于电子邮件对象的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

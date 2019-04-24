@@ -12,35 +12,35 @@ api_type:
 - COM
 ms.assetid: f598fc57-75d3-473b-8eb0-9d8a3b92e9f2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b9244e28337c74487562ec235f246559a49a390d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d537184f427b2ef240dd2a9a59ab2f624f8f75d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350916"
 ---
 # <a name="imapiadvisesink--iunknown"></a>IMAPIAdviseSink : IUnknown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-实现用于处理通知 advise 接收器对象。 指向 advise 接收器对象的指针传递给服务提供商的**Advise**方法，用于注册通知的机制呼叫中。 
+实现用于处理通知的通知接收器对象。 指向通知接收器对象的指针在对服务提供程序的**advise**方法的调用中传递, 用于注册通知的机制。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|由公开：  <br/> |建议接收器对象  <br/> |
-|通过实现：  <br/> |客户端应用程序和 MAPI  <br/> |
-|调用：  <br/> |服务提供商和 MAPI  <br/> |
-|接口标识符：  <br/> |IID_IMAPIAdviseSink  <br/> |
-|指针类型：  <br/> |LPMAPIADVISESINK  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|公开者:  <br/> |通知接收器对象  <br/> |
+|实现者：  <br/> |客户端应用程序和 MAPI  <br/> |
+|调用者：  <br/> |服务提供商和 MAPI  <br/> |
+|接口标识符:  <br/> |IID_IMAPIAdviseSink  <br/> |
+|指针类型:  <br/> |LPMAPIADVISESINK  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[OnNotify](imapiadvisesink-onnotify.md) <br/> |通过执行一个或多个任务响应通知。 执行的任务取决于事件以及生成通知的对象类型。  <br/> |
+|[OnNotify](imapiadvisesink-onnotify.md) <br/> |通过执行一个或多个任务来响应通知。 执行的任务取决于事件的类型和生成通知的对象。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

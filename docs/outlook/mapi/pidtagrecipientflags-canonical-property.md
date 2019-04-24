@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9fbe537f-b5fe-48a2-803c-653c50c82efd
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7b791d75c2a76ea1a504c0d8862dd20f5365b475
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356698"
 ---
 # <a name="pidtagrecipientflags-canonical-property"></a>PidTagRecipientFlags 规范属性
 
@@ -25,51 +25,51 @@ ms.locfileid: "25394039"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定一个位字段，介绍了在收件人的状态。
+指定一个用于描述收件人状态的位域。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RECIPIENT_FLAGS  <br/> |
-|标识符：  <br/> |0x5FFD  <br/> |
+|标识符:  <br/> |0x5FFD  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |传输收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性不是必需的。 以下是可以设置的单个标记。
+此属性不是必需的。 以下是可以设置的单个标志。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
-|S (recipSendable，0x00000001)  <br/> |收件人是**Sendable**与会者。 **DispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)) 属性中仅使用此标志。  <br/> |
-|O (recipOrganizer，0x0000002)  <br/> |设置了此标志**RecipientRow**表示会议组织者。  <br/> |
-|紧急 (recipExceptionalResponse，0x00000010)  <br/> |指示与会者此**RecipientRow**所在异常赋予响应。 组织者的会议对象的异常邮件嵌入对象**RecipientRow**中仅使用此标志。  <br/> |
-|ED (recipExceptionalDeleted，0x00000020)  <br/> |指示，虽然**RecipientRow**存在，它应被视为未显示相应的收件人。 组织者的会议对象的异常邮件嵌入对象**RecipientRow**中仅使用此标志。  <br/> |
-|X (保留，0x00000040)  <br/> |不能设置。  <br/> |
-|X (保留，0x00000080)  <br/> |不能设置。  <br/> |
-|G (recipOriginal，0x00000100)  <br/> |指示收件人是原始与会者。 **DispidApptUnsendableRecips**属性中仅使用此标志。  <br/> |
-|X (保留，0x00000200)  <br/> |保留。  <br/> |
+|S (recipSendable, 0x00000001)  <br/> |收件人是**可发送**的与会者。 此标志仅在**dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)) 属性中使用。  <br/> |
+|O (recipOrganizer, 0x0000002)  <br/> |在其上设置此标志的**RecipientRow**代表会议组织者。  <br/> |
+|ER (recipExceptionalResponse, 0x00000010)  <br/> |指示与会者为此**RecipientRow**所驻留的异常提供响应。 此标志仅用于组织者的会议对象的异常嵌入邮件对象的**RecipientRow** 。  <br/> |
+|ED (recipExceptionalDeleted, 0x00000020)  <br/> |指示尽管**RecipientRow**存在, 但应将其视为相应的收件人不是。 此标志仅用于组织者的会议对象的异常嵌入邮件对象的**RecipientRow** 。  <br/> |
+|X (reserved, 0x00000040)  <br/> |不得设置。  <br/> |
+|X (reserved, 0x00000080)  <br/> |不得设置。  <br/> |
+|G (recipOriginal, 0x00000100)  <br/> |指示收件人是原始与会者。 此标志仅在**dispidApptUnsendableRecips**属性中使用。  <br/> |
+|X (reserved, 0x00000200)  <br/> |保留。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

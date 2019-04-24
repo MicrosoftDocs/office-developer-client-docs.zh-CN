@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cc4abf1a-c08c-4462-9d7c-6af506dc07c9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: faba91d813d27f7ea45e978724ce0d4707803cba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b53dd9aaaf18dba5c7e33e0bc7d984de757634a4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358770"
 ---
 # <a name="scuncfromlocalpath"></a>ScUNCFromLocalPath
 
@@ -25,13 +25,13 @@ ms.locfileid: "22590104"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-查找通用命名约定 (UNC) 路径对应的给定的本地路径。
+查找给定本地路径对应的通用命名约定 (UNC) 路径。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 SCODE ScUNCFromLocalPath(
@@ -45,33 +45,33 @@ SCODE ScUNCFromLocalPath(
 
  _szLocal_
   
-> [in]格式中的路径 [_驱动器：_]\[ _路径_] 的文件或目录。
+> 实时文件或目录的格式 [_驱动器:_]\[ _路径_] 中的路径。
     
  _szUNC_
   
-> [输出]格式中的路径\\[_服务器_]\[ _共享_]\[ _路径_] 的相同的文件或目录相同_szLocal_参数。 
+> 排除与_szLocal_参数的文件\\或目录的格式 [ _server_]\[ _share_]\[ _path_] 中的路径。 
     
  _cchUNC_
   
-> [in]输出字符串缓冲区的大小。
+> 实时输出字符串的缓冲区大小。
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> UNC 路径相应已成功找到。
+> 已成功找到对应的 UNC 路径。
     
 MAPI_E_INVALID_PARAMETER
   
-> 一个或多个参数均无效。
+> 一个或多个参数无效。
     
 MAPI_E_TOO_BIG
   
->  _szUNC_未足以容纳结果。 
+>  _szUNC_的大小不足以容纳结果。 
     
 S_FALSE
   
-> 本地路径已经存在 UNC 字符串。
+> 本地路径已是 UNC 字符串。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 284b5001-5de6-4c4e-8e5c-0593ae1b301f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 47458e2468215c6539ad07533c36564d37da8b96
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359917"
 ---
 # <a name="pidtagdelegatedbyrule-canonical-property"></a>PidTagDelegatedByRule 规范属性
 
@@ -25,12 +25,12 @@ ms.locfileid: "25382601"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示是否将某个文件夹的邮件委派的规则。
+指示是否由规则委托文件夹的邮件。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DELEGATED_BY_RULE  <br/> |
-|标识符：  <br/> |0x3FE3  <br/> |
+|标识符:  <br/> |0x3FE3  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
@@ -38,23 +38,23 @@ ms.locfileid: "25382601"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[毫秒-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> 指定用于连接到和它们代表另一个用户操作时，作为代理人，以及与邮件和日历的对象交互配置邮箱的方法。
+> 指定用于连接邮箱和将邮箱配置为代理的方法, 以及当邮件和日历对象代表其他用户操作时与这些对象的交互。
     
-[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[毫秒-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> 处理传入的电子邮件服务器上。
+> 在服务器上操纵传入电子邮件。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

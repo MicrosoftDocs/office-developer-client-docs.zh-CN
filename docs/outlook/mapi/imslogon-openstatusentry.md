@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 850e256b-6b50-428c-aede-287edaf7b005
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a48d8248878c64de827bb09030073e6becba3024
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: f50c0eb9e3af68e206eaa5bcc51cefa923c30f72
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348697"
 ---
 # <a name="imslogonopenstatusentry"></a>IMSLogon::OpenStatusEntry
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-打开状态对象。
+打开一个 status 对象。
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,33 +40,33 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> [in]指向要打开的状态对象的界面标识符 (IID) 的指针。 传递 NULL 指示对象的标准接口返回 （在本例中为[IMAPIStatus](imapistatusimapiprop.md)接口）。 _LpInterface_参数还可以设置为适当的接口的对象的标识符。 
+> 实时指向要打开的 status 对象的接口标识符 (IID) 的指针。 传递 NULL 表示返回对象的标准接口 (在此示例中为[IMAPIStatus](imapistatusimapiprop.md)接口)。 也可以将_lpInterface_参数设置为对象的相应接口的标识符。 
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何打开状态对象。 可以设置以下标记：
+> 实时标志的位掩码, 用于控制状态对象的打开方式。 可以设置以下标志:
     
 MAPI_MODIFY 
   
-> 请求读/写权限。 默认情况下，对象在创建具有只读权限，并以为，读/写权限授予客户端应用程序不起作用。 
+> 请求读取/写入权限。 默认情况下, 创建具有只读权限的对象, 并且客户端应用程序不应在假定已授予读/写权限时才起作用。 
     
  _lpulObjType_
   
-> [输出]一个指向打开的对象的类型。
+> 排除一个指针, 指向打开的对象的类型。
     
  _lppEntry_
   
-> [输出]指向打开的对象的指针的指针。
+> 排除指向指向已打开对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-消息存储提供程序实现**IMSLogon::OpenStatusEntry**方法打开状态对象。 此状态对象然后用于启用客户端调用[IMAPIStatus](imapistatusimapiprop.md)方法。 例如，客户端可以使用[IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md)方法重新配置消息存储登录会话或[IMAPIStatus::ValidateState](imapistatus-validatestate.md)方法以验证邮件存储登录会话的状态。 
+邮件存储提供程序实现**IMSLogon:: OpenStatusEntry**方法以打开 status 对象。 此状态对象随后用于使客户端可以调用[IMAPIStatus](imapistatusimapiprop.md)方法。 例如, 客户端可以使用[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)方法重新配置邮件存储登录会话或[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法以验证邮件存储登录会话的状态。 
   
 ## <a name="see-also"></a>另请参阅
 

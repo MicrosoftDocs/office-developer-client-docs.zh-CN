@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 513302d3-3be8-882f-5258-95529098f95d
 description: 返回数字的平方根。
-ms.openlocfilehash: 020a286c3e652c7b135a1013cee61e7b39cc9b94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9f31b9360248f002cac74dfb87ac3b292d34620
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349355"
 ---
 # <a name="sqrt-function"></a>SQRT 函数
 
@@ -22,7 +22,7 @@ ms.locfileid: "19781444"
   
 ## <a name="syntax"></a>语法
 
-SQRT (* **数量** *) 
+SQRT (* **数字** *) 
   
 ### <a name="parameters"></a>参数
 
@@ -36,11 +36,11 @@ Numeric
   
 ## <a name="remarks"></a>注解
 
-如果_number_为负数，则 SQRT 函数将返回错误值 #NUM ！。 
+如果_number_为负值, SQRT 函数将返回错误值 #NUM!。 
   
 ## <a name="example"></a>示例
 
-SQRT(2) 
+SQRT (2) 
   
 返回 1.4142。 
   

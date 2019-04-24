@@ -1,32 +1,32 @@
 ---
-title: ColorSchemeIndex 单元格（“Theme Properties”部分）
+title: ColorSchemeIndex 单元格 ("主题属性" 部分)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fb84f71e-59c4-43d4-a28b-c3d6f267d2ae
-description: 确定形状的配色方案接受后，作为整数的主题的索引。
-ms.openlocfilehash: 03f354890c8dbce74da6b1171b3b3aaf4bf73ad3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定形状的配色方案在其后面采用的主题的索引 (作为整数)。
+ms.openlocfilehash: d67363b48454a717914b8ff9e39952609d848118
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779909"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357097"
 ---
-# <a name="colorschemeindex-cell-theme-properties-section"></a>ColorSchemeIndex 单元格（“Theme Properties”部分）
+# <a name="colorschemeindex-cell-theme-properties-section"></a>ColorSchemeIndex 单元格 ("主题属性" 部分)
 
-确定形状的配色方案接受后，作为整数的主题的索引。
+确定形状的配色方案在其后面采用的主题的索引 (作为整数)。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**ColorSchemeIndex**单元格的引用，请使用： 
+若要从另一个公式按名称获取对**ColorSchemeIndex**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | ColorSchemeIndex  <br/> |
    
-若要从某个程序按索引获取对**ColorSchemeIndex**单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对**ColorSchemeIndex**单元格的引用, 请使用带下列参数的**CellsSRC**属性: 
   
 |||
 |:-----|:-----|

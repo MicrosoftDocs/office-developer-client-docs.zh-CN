@@ -9,22 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b68054b5-7efd-1156-9dc1-5ec94e18d227
 description: 确定形状的线条颜色的透明度级别。
-ms.openlocfilehash: 81c23b77c4663158819f9d5fe53765860183e039
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 555ea15de0279a37bcf67de7374d922b8692ce02
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359295"
 ---
-# <a name="linecolortrans-cell-line-format-section"></a>LineColorTrans 单元格（“Line Format”部分）
+# <a name="linecolortrans-cell-line-format-section"></a>LineColorTrans 单元格（“Line Format”内容）
 
 确定形状的线条颜色的透明度级别。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
-|
-          0 - 100
-  <br/> |表示透明度的百分比。默认值为 0%（完全不透明）。  <br/> |
+|0 - 100  <br/> |表示透明度的百分比。默认值为 0%（完全不透明）。  <br/> |
    
 ## <a name="remarks"></a>注解
 

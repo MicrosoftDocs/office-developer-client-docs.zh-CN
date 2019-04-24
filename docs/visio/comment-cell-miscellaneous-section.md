@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6f52ed60-d58b-86e6-f7e2-2ef19d4afa75
 description: 包含形状的字符串格式的注释文本。
-ms.openlocfilehash: f5222836b29a26cc26ca8093576d0962f0592fae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6f21875928bce31dc2004d88f2d281e31265d65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357111"
 ---
-# <a name="comment-cell-miscellaneous-section"></a>Comment 单元格（“Miscellaneous”部分）
+# <a name="comment-cell-miscellaneous-section"></a>Comment 单元格（“Miscellaneous”内容）
 
 包含形状的字符串格式的注释文本。
   

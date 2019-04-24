@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e9a1b9d5f65d8683c08821d4cf0851f599f32030
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349453"
 ---
 # <a name="create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone"></a>创建开始时采用太平洋时区且结束时采用东部时区的约会
 
@@ -20,13 +20,13 @@ ms.locfileid: "28698713"
 
 ## <a name="example"></a>示例
 
-该代码示例使用表示 Microsoft Windows 中识别的所有时区的 [TimeZones](https://msdn.microsoft.com/library/bb611081\(v=office.15\)) 对象。它还使用 [TimeZone](https://msdn.microsoft.com/library/bb646259\(v=office.15\)) 对象来设置或获取 [AppointmentItem](https://msdn.microsoft.com/library/bb623657\(v=office.15\)) 对象上的 [StartTimeZone](https://msdn.microsoft.com/library/bb612198\(v=office.15\)) 属性和 [EndTimeZone](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) 属性。
+此代码示例使用[TimeZones](https://msdn.microsoft.com/library/bb611081\(v=office.15\))对象, 该对象表示在 Microsoft Windows 中识别的所有时区。 它还使用 "[时区](https://msdn.microsoft.com/library/bb646259\(v=office.15\))" 对象来设置或获取[AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\))对象上的[StartTimeZone](https://msdn.microsoft.com/library/bb623657\(v=office.15\))属性和[EndTimeZone](https://msdn.microsoft.com/library/bb612198\(v=office.15\))属性。
 
-Outlook 采用本地时间显示所有日期，本地时间按用户的当前时区（由 Windows 控制面板中的用户设置控制）表示。 Outlook 也设置或获取采用本地时间的属性（如 [Start](https://msdn.microsoft.com/library/bb647263\(v=office.15\)) 和 [End](https://msdn.microsoft.com/library/bb623715\(v=office.15\))）。 不过，Outlook 将日期和时间值存储为协调世界时 (UTC)，而不是本地时间。 如果您使用 PropertyAccessor 对象检查 [Appointment.Start](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) 的内部值，您会发现内部日期和时间值与转换为对应的 UTC 日期和时间值的本地日期和时间值相等。
+Outlook 采用本地时间显示所有日期，本地时间按用户的当前时区（由 Windows 控制面板中的用户设置控制）表示。 Outlook 还会设置或获取本地时间中的属性, 如[Start](https://msdn.microsoft.com/library/bb647263\(v=office.15\))和[End](https://msdn.microsoft.com/library/bb623715\(v=office.15\))。 但是，Outlook 将日期和时间值存储为协调世界时 (UTC) 而非本地时间。 如果检查约会的内部值。从使用[PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\))对象开始, 您会发现内部日期和时间值等于转换为等效 UTC 日期和时间值的本地日期和时间值。
 
-Outlook 在保存约会时，使用时区信息将约会映射到正确的 UTC 时间；在日历中显示项目时，映射到正确的本地时间。 更改 StartTimeZone 会影响 Appointment.Start 值，此值始终采用本地时区（由 [TimeZones](https://msdn.microsoft.com/library/bb645170\(v=office.15\)) 返回的对象的 [CurrentTimeZone](https://msdn.microsoft.com/library/bb612024\(v=office.15\)) 属性表示）。 类似地，更改 EndTimeZone 会影响 Appointment.End 的值，该值总是采用本地时区表示，本地时区由 Application.TimeZones 返回的对象的 CurrentTimeZone 属性表示。
+Outlook 在保存约会时，使用时区信息将约会映射到正确的 UTC 时间；在日历中显示项目时，映射到正确的本地时间。 更改 StartTimeZone 会影响 "约会" 的值。 "开始" (始终以本地时区表示) 由[TimeZones](https://msdn.microsoft.com/library/bb645170\(v=office.15\))返回的对象的[CurrentTimeZone](https://msdn.microsoft.com/library/bb612024\(v=office.15\))属性表示。 类似地，更改 EndTimeZone 会影响 Appointment.End 的值，该值总是采用本地时区表示，本地时区由 Application.TimeZones 返回的对象的 CurrentTimeZone 属性表示。
 
-可以使用 Windows 注册表中与区域设置无关的时区键，检索 TimeZones 对象中的特定时区。 下列路径下列出了与区域设置无关的时区键：`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\TimeZones`。
+可以通过使用 Windows 注册表中与区域设置无关的 TimeZone 项，从 TimeZones 对象中检索特定 TimeZone。 以下项下面列出了与区域设置无关的时区键`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\TimeZones`:。
 
 如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。 下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a436b590-63f3-413c-a9c2-7664567e0ff0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5514e0553f719e2e875aad7001bb38a6a52e8e08
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ea7f9e0ed57c56b48399b9ffd1ea42db28daf249
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356229"
 ---
 # <a name="pidtagminiicon-canonical-property"></a>PidTagMiniIcon 规范属性
 
@@ -25,32 +25,32 @@ ms.locfileid: "22589775"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含半尺寸图标的窗体的位图。
+包含窗体的半尺寸图标的位图。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_MINI_ICON  <br/> |
-|标识符：  <br/> |0x0FFC  <br/> |
+|标识符:  <br/> |0x0FFC  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性包含一个图标，相同的内容的 32 × 32 像素图像。ICO 文件，但只有左上方 16x16 像素视为重要。 此属性通常从复制。ICO SmallIcon 行的窗体配置文件的适当 [描述] 节中指定的文件。
+此属性包含一个图标的32×32像素的图像, 其内容与 a 的内容相同。.ico 文件, 但只有左上的16×16像素被视为有效。 此属性通常是从复制的。在表单配置文件的相应 [Description] 部分的 SmallIcon 行中指定的 .ico 文件。
   
- **注释**某些平台执行不支持 16x16 像素的图标。 此属性的 32 × 32 格式是这种情况下可用，但客户端应用程序应注意的显示不一致。 
+ **注释**有些平台不支持16×16像素图标。 此属性的32×32格式在这种情况下可用, 但客户端应用程序应了解显示不一致。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

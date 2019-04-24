@@ -12,34 +12,34 @@ api_type:
 - COM
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7a6971504ec8f4f5ac8593b6b78777a12ff92b3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a0e109fe95120483e700bab5b82f6d7cb75e2e28
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351394"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-提供了许多属性与邮件用户关联的访问权限。 **IMailUser**接口实现消息用户对象。 继承自**IMailUser** [IMAPIProp: IUnknown](imapipropiunknown.md)接口，并具有其自己的方法都不唯一。 
+提供对与邮件用户关联的许多属性的访问权限。 **IMailUser**接口由邮件用户对象实现。 **IMailUser**继承自[IMAPIProp: IUnknown](imapipropiunknown.md)接口, 并且没有其自己的唯一方法。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|由公开：  <br/> |消息的用户对象  <br/> |
-|通过实现：  <br/> |通讯簿提供程序  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
-|接口标识符：  <br/> |IID_IMailUser  <br/> |
-|指针类型：  <br/> |LPMAILUSER  <br/> |
-|事务模型：  <br/> |事务处理  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|公开者:  <br/> |邮件用户对象  <br/> |
+|实现者：  <br/> |通讯簿提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
+|接口标识符:  <br/> |IID_IMailUser  <br/> |
+|指针类型:  <br/> |LPMAILUSER  <br/> |
+|事务模型:  <br/> |事务  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
-此接口不具有任何唯一的方法。
+此接口没有任何唯一的方法。
   
 |**必需属性**|**Access**|
 |:-----|:-----|
@@ -54,7 +54,7 @@ ms.locfileid: "22564561"
    
 ## <a name="remarks"></a>注解
 
-必需的属性的第五个称为基址属性的收件人：
+5个必需属性称为收件人的基本地址属性:
   
 - **PR_ADDRTYPE**
     
@@ -66,11 +66,11 @@ ms.locfileid: "22564561"
     
 - **PR_SEARCH_KEY**
     
-因为相似属性的许多其他组建立在此基本组，这些属性被视为特殊。 其他组用于描述的收件人的各种角色，如一条消息的原始或委派发件人。 有关这些属性以及如何使用它们的详细信息，请参阅[MAPI 地址类型](mapi-address-types.md)。
+这些属性被视为特殊属性, 因为在此基础组上建立了许多其他类似属性的组。 其他组用于描述不同角色中的收件人, 如邮件的原始发件人或委派发件人。 有关这些属性以及如何使用它们的详细信息, 请参阅[MAPI 地址类型](mapi-address-types.md)。
   
-消息用户可以通过支持**PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) 属性中显示其属性的集合。 **PR_DETAILS_TABLE**是一个显示表，描述布局的详细信息对话框或选项卡式的属性页，显示收件人的属性信息。 客户端呼叫[IAddrBook::Details](iaddrbook-details.md)方法时，MAPI 创建详细信息对话框。 
+邮件传递用户可以通过支持**PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) 属性来显示其属性的集合。 **PR_DETAILS_TABLE**是一个显示表, 该表格描述了显示收件人属性信息的详细信息对话框或选项卡式属性页的布局。 当客户端调用 IAddrBook 时, MAPI 会创建详细信息对话框[::D etails](iaddrbook-details.md)方法。 
   
-消息用户对象可以具有与其相关的其他可选属性。 MAPI 定义许多属性提供有关邮件用户的其他寻址信息。 所有这些属性是字符串。 以下列表显示了多种常用的属性：
+邮件传递用户对象可以具有与之关联的其他可选属性。 MAPI 定义了许多可提供有关邮件用户的其他寻址信息的属性。 所有这些属性都是字符串。 下面的列表显示了更为常用的属性:
   
 - **PR_ACCOUNT**([PidTagAccount](pidtagaccount-canonical-property.md)) 
     
@@ -86,7 +86,7 @@ ms.locfileid: "22564561"
     
 - **PR_POSTAL_ADDRESS**([PidTagPostalAddress](pidtagpostaladdress-canonical-property.md)) 
     
-属性的完整列表，请参阅[到 MAPI 名称映射规范属性名称](mapping-canonical-property-names-to-mapi-names.md)。
+有关属性的完整列表, 请参阅[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)。
   
 ## <a name="see-also"></a>另请参阅
 

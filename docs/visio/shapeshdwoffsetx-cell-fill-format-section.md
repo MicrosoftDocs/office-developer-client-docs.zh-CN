@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a426f471-d35f-ef87-4c59-2c007ec2653f
 description: 确定形状的阴影与该形状水平偏移的距离（按页面单位）。
-ms.openlocfilehash: 12512ce9edf49f91c786c3cd50baa8d07498a3de
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c3f994f0ceba84c86585a76c7a67667a0c20a53
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349124"
 ---
-# <a name="shapeshdwoffsetx-cell-fill-format-section"></a>ShapeShdwOffsetX 单元格（“Fill Format”部分）
+# <a name="shapeshdwoffsetx-cell-fill-format-section"></a>ShapeShdwOffsetX 单元格（“Fill Format”内容）
 
 确定形状的阴影与该形状水平偏移的距离（按页面单位）。
   

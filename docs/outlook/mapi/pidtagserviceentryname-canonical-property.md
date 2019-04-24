@@ -12,47 +12,47 @@ api_type:
 - COM
 ms.assetid: 783f08aa-fb5a-432d-b8bd-48d69f0e5c38
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3988596cc0b9c01d526354dabef3a6e7fdefc3b6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2c771f1d97305271b70102c148e62f30512974fb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351070"
 ---
 # <a name="pidtagserviceentryname-canonical-property"></a>PidTagServiceEntryName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息服务的配置的入口点函数的名称。
+包含用于配置邮件服务的入口点函数的名称。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SERVICE_ENTRY_NAME  <br/> |
-|标识符：  <br/> |0x3D0B  <br/> |
+|标识符:  <br/> |0x3D0B  <br/> |
 |数据类型：  <br/> |PT_STRING8  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
 ## <a name="remarks"></a>注解
 
-建议的消息服务实施提供邮件服务入口点，但的入口点，则不需要。 但是，仅当存在相关的配置属性，则应提供的入口点。 如果不存在这些属性，MAPI 假定原样的入口点。
+建议邮件服务实现者提供邮件服务入口点, 但不需要该入口点。 但是, 仅当存在相关的配置属性时, 才应提供入口点。 如果这些属性不存在, MAPI 将假定未提供入口点。
   
-动态链接库 (DLL) 中的入口点函数显示名为**PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) 属性。
+入口点函数显示的动态链接库 (DLL) 由**PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) 属性命名。
   
-消息服务入口点的详细信息，请参阅[实现服务提供程序入口点函数](implementing-a-service-provider-entry-point-function.md)。
+有关邮件服务入口点的详细信息, 请参阅[实现服务提供程序入口点函数](implementing-a-service-provider-entry-point-function.md)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

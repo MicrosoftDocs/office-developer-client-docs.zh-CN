@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4b1176ec-4126-43f5-856d-cbab8d622825
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2efee531e277b6295b7d4bc299eefc789a805d34
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 9eeede2a430f5186daf429dd6ed59f312ae334be
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348746"
 ---
 # <a name="imsgstoresetlockstate"></a>IMsgStore::SetLockState
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-锁定或解除锁定一条消息。 只能通过 MAPI 后台处理程序调用此方法。
+锁定或解除锁定邮件。 此方法仅由 MAPI 后台处理程序调用。
   
 ```cpp
 HRESULT SetLockState(
@@ -38,37 +38,37 @@ HRESULT SetLockState(
 
  _lpMessage_
   
-> [in]指向要锁定或解锁的消息的指针。
+> 实时指向要锁定或解锁的邮件的指针。
     
  _ulLockState_
   
-> [in]一个值，指示是否应在锁定或解锁邮件。 下列值之一是有效的：
+> 实时一个值, 指示是否应锁定或解除锁定邮件。 以下值之一是有效的:
     
 MSG_LOCKED 
   
-> 邮件应被锁定。 
+> 应锁定邮件。 
     
 MSG_UNLOCKED 
   
-> 邮件应为解除锁定。
+> 应解锁邮件。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功设置消息的锁定状态。
+> 已成功设置邮件的锁定状态。
     
 ## <a name="remarks"></a>注解
 
-**IMsgStore::SetLockState**方法锁定或解除锁定一条消息。 可以通过 MAPI 后台处理程序调用**SetLockState** ，其发送邮件时。 
+**IMsgStore:: SetLockState**方法锁定或解除锁定邮件。 在发送邮件时, **SetLockState**只能由 MAPI 后台处理程序调用。 
   
-通常，当 MAPI 后台处理程序调用**SetLockState**锁定一条消息，其锁定只有最早邮件 （即下, 一条消息排队 MAPI 后台处理程序发送的）。 如果最早的消息队列中等待暂时不可用的传输提供程序，并在下一步消息队列中的使用不同的传输提供程序，MAPI 后台处理程序可以开始处理更高版本的消息。 通过使用**SetLockState**锁定邮件开始处理。
+通常情况下, 当 MAPI 后台处理程序调用**SetLockState**以锁定邮件时, 它将仅锁定最旧的邮件 (即, 在排队等待 MAPI 后台处理程序发送的下一封邮件)。 如果队列中的最旧邮件等待暂时不可用的传输提供程序, 并且队列中的下一封邮件使用不同的传输提供程序, 则 MAPI 后台处理程序可以开始处理后续邮件。 它通过使用**SetLockState**锁定邮件来开始处理。
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-MAPI 后台处理程序已与_ulLockState_参数设置为 MSG_LOCKED 调用**SetLockState**后，必须先对[IMsgStore::AbortSubmit](imsgstore-abortsubmit.md)方法的调用，以取消消息的传输。 
+MAPI 后台处理程序在将_ulLockState_参数设置为 MSG_LOCKED 的情况下调用**SetLockState**后, 调用[IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md)方法以取消邮件的传输必须失败。 
   
-调用**SetLockState**实现中的消息的[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法，以便保存之前收到**SetLockState**呼叫到邮件所做的任何更改。 
+在**SetLockState**实现中调用邮件的[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法, 以便在收到**SetLockState**调用之前对邮件所做的任何更改都将被保存。 
   
 ## <a name="see-also"></a>另请参阅
 

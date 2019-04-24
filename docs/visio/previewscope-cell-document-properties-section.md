@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d03ae1b3-da6c-56d3-4f96-6e131c04e93e
 description: 确定您的绘图是否包含预览。如果绘图中确实包含预览，则确定该预览是只显示绘图中的第一页还是显示所有页。
-ms.openlocfilehash: 865da052f710481c146d3c2692ddf506018be789
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34dbc9ac02032b2cb5cb6373c3c6361e3d822312
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356110"
 ---
-# <a name="previewscope-cell-document-properties-section"></a>PreviewScope 单元格（“Document Properties”部分）
+# <a name="previewscope-cell-document-properties-section"></a>PreviewScope 单元格（“Document Properties”内容）
 
 确定您的绘图是否包含预览。如果绘图中确实包含预览，则确定该预览是只显示绘图中的第一页还是显示所有页。
   
@@ -24,11 +24,11 @@ ms.locfileid: "19780967"
 |:-----|:-----|:-----|
 | 0  <br/> | 第一页  <br/> |**visDocPreviewScope1stPage** <br/> |
 | 1  <br/> | 无  <br/> |**visDocPreviewScopeNone** <br/> |
-| 2  <br/> | 所有页  <br/> |**visDocPreviewScopeAllPages** <br/> |
+| 双面  <br/> | 所有页  <br/> |**visDocPreviewScopeAllPages** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-您还可以在**属性**对话框中的**摘要**选项卡上设置此值 （单击**Office**按钮，单击**信息**选项卡，单击**文档属性**，然后单击**高级属性**）。
+您还可以在 "**属性**" 对话框中的 "**摘要**" 选项卡 (单击 " **Office** " 按钮, 依次单击 "**信息**" 选项卡、"**文档属性**" 和 "**高级属性**") 中设置此值。
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 PreviewScope 单元格的引用，请使用： 
   

@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm82251420
 localization_priority: Normal
 ms.assetid: 8fcfcfdd-69e2-b061-fdb6-d29389d14403
-description: 创建一个单元格引用相关性。
-ms.openlocfilehash: 07c0d79668230cbf2b1e8d51b50e67835c87e2f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 创建单元格引用依赖关系。
+ms.openlocfilehash: 26e7f5fb0620a5f1812d878f02d5bedd43afe524
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360228"
 ---
 # <a name="dependson-function"></a>DEPENDSON 函数
 
-创建一个单元格引用相关性。
+创建单元格引用依赖关系。
   
 ## <a name="syntax"></a>语法
 
-DEPENDSON (* * *cellref* * * [，* * *cellref2* * *，...]) 
+DEPENDSON (* * *cellref* * * [, * * *cellref2* * *,...]) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _cellref_ <br/> |必需  <br/> |**字符串** <br/> |第一个单元格引用。  <br/> |
+| _cellref_ <br/> |必需  <br/> |**String** <br/> |第一个单元格引用。  <br/> |
 | _cellref2_ <br/> |可选  <br/> |**字符串** <br/> |第二个单元格引用。  <br/> |
    
 ## <a name="remarks"></a>注解

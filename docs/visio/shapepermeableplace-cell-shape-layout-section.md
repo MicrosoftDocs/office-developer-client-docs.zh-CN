@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b647cbb5-2769-068d-bbda-2dc983c47ac9
 description: 确定在“配置布局”对话框（在“设计”选项卡上的“布局”组中，单击“重新布局页面”，然后单击“其他布局选项”）中排放形状时，可放置形状是否可以放置在某个形状的顶部。
-ms.openlocfilehash: 1873575eb4322d31f81c0dd34557c6167750ce82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ceecfa25c66c3ba261865d0131a3f55ef444d5e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357055"
 ---
-# <a name="shapepermeableplace-cell-shape-layout-section"></a>ShapePermeablePlace 单元格（“Shape Layout”部分）
+# <a name="shapepermeableplace-cell-shape-layout-section"></a>ShapePermeablePlace 单元格（“Shape Layout”内容）
 
 确定在 **“配置布局”** 对话框（在 **“设计”** 选项卡上的 **“布局”** 组中，单击 **“重新布局页面”**，然后单击 **“其他布局选项”**）中排放形状时，可放置形状是否可以放置在某个形状的顶部。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |使形状能够放置在某个形状的顶部。  <br/> |
 |FALSE  <br/> |使形状不能放置在某个形状的顶部。  <br/> |
    
 ## <a name="remarks"></a>注解
 
-您还可以在**行为**对话框中的**位置**选项卡上设置此单元格的值 （与选定形状，在[开发人员](run-in-developer-mode-display-the-developer-tab.md)选项卡的**形状设计**组中，单击**行为**，，然后单击**位置**选项卡). 
+您还可以在 "**行为**" 对话框 (在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中, 单击 "**行为**", 然后单击 "**位置**" 选项卡) 中的 "**放置**" 选项卡上设置此单元格的值。). 
   
 在 Visio 2000 之前的版本中，您可以使用“Miscellaneous”内容中的 ObjInteract 单元格设置此行为。
   

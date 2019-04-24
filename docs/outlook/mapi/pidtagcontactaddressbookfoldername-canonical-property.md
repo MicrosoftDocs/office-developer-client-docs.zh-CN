@@ -12,31 +12,31 @@ api_type:
 - HeaderDef
 ms.assetid: 6149da2f-6e42-429c-bcdb-d517d21df720
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3d131681ab9a49f1d25d14641855fb19c2456b0c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0068b579bb570e49c4403baa017c550814af8f9a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357923"
 ---
 # <a name="pidtagcontactaddressbookfoldername-canonical-property"></a>PidTagContactAddressBookFolderName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含用于通讯簿条目的文件夹名称。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_CONTAB_FOLDER_NAME PR_CONTAB_FOLDER_NAME_W  <br/> |
-|标识符：  <br/> |0x6613  <br/> |
-|数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
+|相关属性：  <br/> |PR_CONTAB_FOLDER_NAME、PR_CONTAB_FOLDER_NAME_W  <br/> |
+|标识符:  <br/> |0x6613  <br/> |
+|数据类型：  <br/> |PT_UNICODE、PT_STRING8  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
 ## <a name="remarks"></a>注解
 
-文件夹名称中不能使用以下字符：
+文件夹名称中不能使用以下字符:
   
 [ ] / \ &amp; ~ ? \* | \<\> " ; : +
   
@@ -44,13 +44,13 @@ ms.locfileid: "22565408"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

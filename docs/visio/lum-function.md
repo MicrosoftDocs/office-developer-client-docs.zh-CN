@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm82251460
 localization_priority: Normal
 ms.assetid: 38e6bba7-1bf2-3d31-0912-707002454f5d
-description: 返回一种颜色的发光度组件的值。
-ms.openlocfilehash: 9c9594aff0149a54d7faacdf8295e6c214c43348
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回颜色发光度组件的值。
+ms.openlocfilehash: 17fa43f8e2cd7422428f92724e351436233c2d62
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357979"
 ---
 # <a name="lum-function"></a>LUM 函数
 
-返回一种颜色的发光度组件的值。
+返回颜色发光度组件的值。
   
 ## <a name="syntax"></a>语法
 
-LUM (* **表达式** *) 
+亮度 (* **表达式** *) 
   
 ### <a name="parameters"></a>参数
 
@@ -32,7 +32,7 @@ LUM (* **表达式** *)
    
 ### <a name="return-value"></a>返回值
 
-Number
+帐号
   
 ## <a name="remarks"></a>注解
 
@@ -40,13 +40,13 @@ Number
   
 ## <a name="example-1"></a>示例 1
 
-LUM (Sheet.4 ！FillForegnd)
+亮度 (Sheet. 4!FillForegnd
   
 返回 Sheet.4 的填充前景色的发光度。
   
 ## <a name="example-2"></a>示例 2
 
-LUM(6)
+亮度 (6)
   
 如果文档使用默认的 Visio 调色板，其中洋红是索引值为 6 的颜色，则返回 120。
   

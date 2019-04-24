@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 569106ff-440b-4376-9608-afc8d4dba3e4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ffb7d73a80fce5316e5b948c0ca317501a15daa3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7603fbd99f959108b0db8bda000da4cdf2c90f67
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585995"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358938"
 ---
 # <a name="pidtagconvertedeits-canonical-property"></a>PidTagConvertedEits 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含转换后的消息中的文本类型的标识符。
+在转换后包含邮件中的文本类型的标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONVERTED_EITS  <br/> |
-|标识符：  <br/> |0x000E  <br/> |
+|标识符:  <br/> |0x000E  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性指示哪些编码的信息类型 (EITs) 用于转换的邮件的文本组件。
+此属性指示用于转换邮件的文本组件的编码信息类型 (EITs)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

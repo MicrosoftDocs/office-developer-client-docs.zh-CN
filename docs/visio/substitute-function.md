@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4a27663a-9d37-2ac4-5856-edeb0880f16e
 description: 用不同的文本字符串替换文本字符串的一部分。
 ms.openlocfilehash: fc12ab30ec9c509e2f126931bee837f518e96f3a
-ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26643211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346821"
 ---
 # <a name="substitute-function"></a>SUBSTITUTE 函数
 
@@ -22,26 +22,25 @@ ms.locfileid: "26643211"
   
 ## <a name="syntax"></a>语法
 
- 替代 (* **文本** *，* * *old_text* * *，* * *new_text* * * [，* * *start_num* * *] [，* * *ignore_case_opt* * *) 
+ 替换 (* * *text* * *, * * *old_text* * *, * * *new_text* * * [, * * *start_num* * *] [, * * *ignore_case_opt* * *) 
   
 ### <a name="parameters"></a>参数
 
-|**Name**|**必需/可选**|**数据类型**|**Description**|
+|**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |必需  <br/> |**String** <br/> | 要替换其字符的文本或对包含要替换其字符的文本的单元格的引用。  <br/> |
-| _old_text_ <br/> |必需  <br/> |**String** <br/> | 要替换的文本。 
-  <br/> |
-| _new_text_ <br/> |必需  <br/> |**String** <br/> | 您想要用于替换_old_text_的文本。  <br/> |
-| _start_num_opt_ <br/> |可选  <br/> |**Numeric** <br/> |指定要替换 old_text 的哪个匹配项。  <br/> |
-| _ignore_case_opt_ <br/> |可选  <br/> |**Boolean** <br/> |如果区分大小写，则其值为 FALSE；否则为 TRUE。默认值为 FALSE。  <br/> |
+| _old_text_ <br/> |必需  <br/> |**String** <br/> | 要替换的文本。  <br/> |
+| _new_text_ <br/> |必需  <br/> |**String** <br/> | 要用于替换_old_text_的文本。  <br/> |
+| _start_num_opt_ <br/> |可选  <br/> |**Numeric** <br/> |指定要替换的 old_text 的匹配项。  <br/> |
+| _ignore_case_opt_ <br/> |可选  <br/> |**Boolean** <br/> |如果区分大小写，则其值为 FALSE；否则为 TRUE。 默认值为 FALSE。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
 字符串
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
- 如果指定_start_num_opt_，替换仅的_old_text_中的匹配项。 否则，将每一处的_old_text_中_的文本_更改为_new_text。_
+ 如果指定_start_num_opt_, 则仅替换_old_text_的匹配项。 否则,_文本_中_old_text_的每个匹配项都将更改为_new_text。_
   
 如果要替换文本字符串中的特定文本，请使用 SUBSTITUTE 函数。如果要替换在文本字符串中的特定位置出现的文本，请使用 REPLACE 函数。
   

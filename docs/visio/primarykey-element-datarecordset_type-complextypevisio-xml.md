@@ -1,22 +1,22 @@
 ---
-title: PrimaryKey 元素 （DataRecordSet_Type 复杂类型） (Visio XML)
+title: PrimaryKey 元素 (DataRecordSet_Type 复杂类型) ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 47533e6e-0a48-af61-a0c2-b2cec140ae4b
-description: 标识数据记录集中的一个或多个主键列。
+description: 标识数据记录集中的一个或多个主关键字列。
 ms.openlocfilehash: c001c343c33e65c3990744b885f1c345575b1ab3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355993"
 ---
-# <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>PrimaryKey 元素 （DataRecordSet_Type 复杂类型） (Visio XML)
+# <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>PrimaryKey 元素 (DataRecordSet_Type 复杂类型) ("Visio XML")
 
-标识数据记录集中的一个或多个主键列。
+标识数据记录集中的一个或多个主关键字列。
   
 ## <a name="element-information"></a>元素信息
 
@@ -24,8 +24,8 @@ ms.locfileid: "25396356"
 |:-----|:-----|
 |**元素类型** <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
-|**文档部件** <br/> |recordsets.xml  <br/> |
+|**架构文件** <br/> |VisioSchema15  <br/> |
+|**文档部件** <br/> |记录集 .xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,24 +36,24 @@ ms.locfileid: "25396356"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
   
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[数据记录集](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |在 Microsoft Visio 中对从数据库中查询的数据进行存储、格式设置、刷新和公开操作。  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |在 Microsoft Visio 中对从数据库中查询的数据进行存储、格式设置、刷新和公开操作。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |指定此组件的记录集的各个行的主关键字的值。 必须有至少一个匹配项的此子元素。  <br/> |
+|[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |为 recordset 的单个行指定主键的此部分的值。 此子元素必须至少有一个匹配项。  <br/> |
    
-### <a name="attributes"></a>Attributes
+### <a name="attributes"></a>属性
 
-|**属性**|**类型**|**必需**|**说明**|**可能的值**|
+|**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnNameID  <br/> |xsd: string  <br/> |可选  <br/> |指定是主键的一个组件的域的名称。 它必须是正在指定其主键 DataRecordSet_Type DataColumn_Type 后代元素的**ColumnNameID**属性的值。  <br/> |Xsd: string 类型的值。  <br/> |
+|ColumnNameID  <br/> |xsd: string  <br/> |可选  <br/> |指定作为主键的组成部分的字段的名称。 它必须是要指定其主键的 DataRecordSet_Type 的 DataColumn_Type 后代元素的**ColumnNameID**属性的值。  <br/> |xsd: string 类型的值。  <br/> |
    
 

@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a8d6b622-60b3-e43f-b6a1-55db561204ed
 description: 确定形状的文本块中文本的水平对齐方式。
-ms.openlocfilehash: 224e495e8aea70c418a0ab7f5a7d56975d9868e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a48619e2531c0a69ad63af3b88ae9f019019b1fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360177"
 ---
-# <a name="halign-cell-paragraph-section"></a>HAlign 单元格（“Paragraph”部分）
+# <a name="halign-cell-paragraph-section"></a>HAlign 单元格（“Paragraph”内容）
 
 确定形状的文本块中文本的水平对齐方式。
   
-|**值**|**说明**|**自动常量**|
+|**Value**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 左对齐  <br/> |**visHorzLeft** <br/> |
 | 1  <br/> | 居中  <br/> |**visHorzCenter** <br/> |
-| 2  <br/> | 右对齐  <br/> |**visHorzRight** <br/> |
-| 3  <br/> | 两端对齐  <br/> |**visHorzJustify** <br/> |
+| 双面  <br/> | 右对齐  <br/> |**visHorzRight** <br/> |
+| 第三章  <br/> | Justify  <br/> |**visHorzJustify** <br/> |
 | 4  <br/> | 强制对齐  <br/> |**visHorzForce** <br/> |
    
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 两端对齐就是在段落中每一行（最后一行除外）的字与字之间添加空格，以便文本的左右两端都与边缘对齐。
   
@@ -38,14 +38,14 @@ ms.locfileid: "19780385"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | Para.HorzAlign [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
+| 单元格名称：  <br/> | HorzAlign [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
    
 要从某个程序按索引获取对 HAlign 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionParagraph** <br/> |
-| 行索引：  <br/> |**visRowParagraph** +  *i*其中*i* = 0、 1、 2...  <br/> |
+| 行索引：  <br/> |**visRowParagraph** +  *i* = ** 0、1、2 .。。  <br/> |
 | 单元格索引：  <br/> |**visHorzAlign** <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: YRulerDensity 单元格（“Ruler &amp; Grid”部分）
+title: YRulerDensity 单元格 ( &amp; "标尺网格" 部分)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: aebcd321-9d1c-e04e-7c85-3ec1ed851561
 description: 指定页面标尺上的垂直细分线。
-ms.openlocfilehash: 4b5dcba7a5cb1a588f742b1c2ea6b430cb2af12c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c92c48f6c86fc794cf6f53a87fdb99e67a73b9f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357202"
 ---
-# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>YRulerDensity 单元格（“Ruler &amp; Grid”部分）
+# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>YRulerDensity 单元格 ( &amp; "标尺网格" 部分)
 
 指定页面标尺上的垂直细分线。
   
-|**值**|**说明**|**自动常量**|
+|**Value**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
-|0  <br/> |固定  <br/> |**visRulerFixed** <br/> |
-|8 (&amp;H8)  <br/> |粗糙  <br/> |**visRulerCoarse** <br/> |
+|0  <br/> |Fixed  <br/> |**visRulerFixed** <br/> |
+|8 (&amp;H8)  <br/> |粗  <br/> |**visRulerCoarse** <br/> |
 |16 (&amp;H10)  <br/> |标准（默认）  <br/> |**visRulerNormal** <br/> |
-|32 (&amp;H20)  <br/> |精细  <br/> |**visRulerFine** <br/> |
+|32 (&amp;H20)  <br/> |细化  <br/> |**visRulerFine** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此单元格对应于在垂直**细分线**选项**标尺&amp;网格**对话框 （在**视图**选项卡上，单击**显示**箭头）。 
+此单元格对应于 "**标尺&amp;网格**" 对话框 (在 "**视图**" 选项卡上, 单击 "**显示**" 箭头) 中的 "垂直**细分**" 选项。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 YRulerDensity 单元格的引用，请使用： 
   

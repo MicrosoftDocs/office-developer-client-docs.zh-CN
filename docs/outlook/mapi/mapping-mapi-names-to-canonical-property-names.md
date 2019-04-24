@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 38376abb-60de-40f1-9bc9-d8c4f9e3368b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 693ea848d6870c443ad69fbb795f7520ecb5ee24
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397574"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357664"
 ---
 # <a name="mapping-mapi-names-to-canonical-property-names"></a>将 MAPI 名称映射到规范属性名称
 
@@ -21,13 +21,13 @@ ms.locfileid: "25397574"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题将每个 MAPI 属性映射到相应的规范属性名称。 主题包含三个表： 与的数字标识符的命名属性表，第二个表的字符串标识符使用的命名属性和第三个表的已标记的属性。
+本主题将每个 MAPI 属性映射到相应的规范属性名称。 主题包含三个表: 一个包含数字标识符的命名属性的表, 第二个表用于带有字符串标识符的命名属性, 第三个表用于标记属性。
   
-有关如何规范属性与 MAPI 属性，请参阅[MAPI 规范属性](mapi-canonical-properties.md)。
+有关规范化属性与 MAPI 属性的关系的详细信息, 请参阅[MAPI 规范属性](mapi-canonical-properties.md)。
   
-## <a name="named-properties-with-numerical-identifiers"></a>与数字标识符的命名的属性
+## <a name="named-properties-with-numerical-identifiers"></a>带有数值标识符的命名属性
 
-|**实际的命名的属性**|**规范属性名称**|
+|**实际命名属性**|**规范属性名称**|
 |:-----|:-----|
 |dispidABPArrayType  <br/> |[PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md) <br/> |
 |dispidABPEmailList  <br/> |[PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md) <br/> |
@@ -304,23 +304,23 @@ ms.locfileid: "25397574"
 |LID_TIME_ZONE  <br/> |[PidLidTimeZone](pidlidtimezone-canonical-property.md) <br/> |
 |LID_WHERE  <br/> |[PidLidWhere](pidlidwhere-canonical-property.md) <br/> |
    
-## <a name="named-properties-with-string-identifiers"></a>名为使用字符串标识符属性
+## <a name="named-properties-with-string-identifiers"></a>带有字符串标识符的命名属性
 
-|**实际的命名的属性**|**规范属性名称**|
+|**实际命名属性**|**规范属性名称**|
 |:-----|:-----|
-|接受语言  <br/> |[PidNameAcceptLanguage](pidnameacceptlanguage-canonical-property.md) <br/> |
-|应用程序名称  <br/> |[PidNameApplicationName](pidnameapplicationname-canonical-property.md) <br/> |
+|Accept-Language  <br/> |[PidNameAcceptLanguage](pidnameacceptlanguage-canonical-property.md) <br/> |
+|AppName  <br/> |[PidNameApplicationName](pidnameapplicationname-canonical-property.md) <br/> |
 |AttachmentMacContentType  <br/> |[PidNameAttachmentMacContentType](pidnameattachmentmaccontenttype-canonical-property.md) <br/> |
 |AttachmentMacInfo  <br/> |[PidNameAttachmentMacInfo](pidnameattachmentmacinfo-canonical-property.md) <br/> |
 |作者  <br/> |[PidNameAuthor](pidnameauthor-canonical-property.md) <br/> |
 |ByteCount  <br/> |[PidNameByteCount](pidnamebytecount-canonical-property.md) <br/> |
-|Category  <br/> |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |
+|类别  <br/> |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |
 |CharCount  <br/> |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |
-|注释  <br/> |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |
+|备注  <br/> |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |
 |公司  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
-|内容库  <br/> |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |
-|Content-Class  <br/> |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |
-|内容传送编码  <br/> |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |
+|Content-Base  <br/> |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |
+|Content 类  <br/> |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |
+|Content-Transfer-Encoding  <br/> |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |
 |Content-Type  <br/> |[PidNameContentType](pidnamecontenttype-canonical-property.md) <br/> |
 |CreateDtmRo  <br/> |[PidNameCreateDateTimeReadOnly](pidnamecreatedatetimereadonly-canonical-property.md) <br/> |
 |DRMLicense  <br/> |[PidNameRightsManagementLicense](pidnamerightsmanagementlicense-canonical-property.md) <br/> |
@@ -328,7 +328,7 @@ ms.locfileid: "25397574"
 |HiddenCount  <br/> |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |
 |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |
 |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |
-|Keywords  <br/> |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |
+|关键字  <br/> |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |
 |LastAuthor  <br/> |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |
 |LastPrinted  <br/> |[PidNameLastPrinted](pidnamelastprinted-canonical-property.md) <br/> |
 |LastSaveDtm  <br/> |[PidNameLastSaveDateTime](pidnamelastsavedatetime-canonical-property.md) <br/> |
@@ -340,29 +340,29 @@ ms.locfileid: "25397574"
 |ParCount  <br/> |[PidNameParagraphCount](pidnameparagraphcount-canonical-property.md) <br/> |
 |PresFormat  <br/> |[PidNamePresentationFormat](pidnamepresentationformat-canonical-property.md) <br/> |
 |RevNumber  <br/> |[PidNameRevisionNumber](pidnamerevisionnumber-canonical-property.md) <br/> |
-|安全  <br/> |[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |
-|SlideCount  <br/> |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |
+|安全性  <br/> |[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |
+|并 slidecount  <br/> |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |
 |Subject  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
-|Template  <br/> |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |
-|Title  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
+|模板  <br/> |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |
+|标题  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
 |UMAudioNotes  <br/> |[PidNameAudioNotes](pidnameaudionotes-canonical-property.md) <br/> |
-|字数统计  <br/> |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |
-|X 共享功能  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
-|X-共享-Config-Url  <br/> |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |
-|X 共享风格  <br/> |[PidNameXSharingFlavor](pidnamexsharingflavor-canonical-property.md) <br/> |
-|X-共享-本地-类型  <br/> |[PidNameXSharingLocalType](pidnamexsharinglocaltype-canonical-property.md) <br/> |
-|X-共享的提供程序的 Guid  <br/> |[PidNameXSharingProviderGuid](pidnamexsharingproviderguid-canonical-property.md) <br/> |
-|X-共享的提供程序的名称  <br/> |[PidNameXSharingProviderName](pidnamexsharingprovidername-canonical-property.md) <br/> |
-|X-共享的提供程序的 Url  <br/> |[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |
-|X-共享-远程-Name  <br/> |[PidNameXSharingRemoteName](pidnamexsharingremotename-canonical-property.md) <br/> |
-|X-共享-远程-存储-Uid  <br/> |[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |
-|X-共享-远程-类型  <br/> |[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |
-|X-共享-远程-Uid  <br/> |[PidNameXSharingRemoteUid](pidnamexsharingremoteuid-canonical-property.md) <br/> |
+|WordCount  <br/> |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |
+|X-共享功能  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
+|X 共享-配置-Url  <br/> |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |
+|X 共享-风格  <br/> |[PidNameXSharingFlavor](pidnamexsharingflavor-canonical-property.md) <br/> |
+|X 共享-本地类型  <br/> |[PidNameXSharingLocalType](pidnamexsharinglocaltype-canonical-property.md) <br/> |
+|X-共享-提供程序-Guid  <br/> |[PidNameXSharingProviderGuid](pidnamexsharingproviderguid-canonical-property.md) <br/> |
+|X 共享-提供程序名称  <br/> |[PidNameXSharingProviderName](pidnamexsharingprovidername-canonical-property.md) <br/> |
+|X-共享-提供程序-Url  <br/> |[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |
+|X 共享-远程名称  <br/> |[PidNameXSharingRemoteName](pidnamexsharingremotename-canonical-property.md) <br/> |
+|X 共享-远程存储-Uid  <br/> |[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |
+|X 共享-远程类型  <br/> |[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |
+|X 共享-远程 Uid  <br/> |[PidNameXSharingRemoteUid](pidnamexsharingremoteuid-canonical-property.md) <br/> |
 |Xref  <br/> |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |
    
-## <a name="tagged-properties"></a>标记的属性
+## <a name="tagged-properties"></a>标记属性
 
-|**实际的已标记的属性**|**规范属性名称**|
+|**实际标记属性**|**规范属性名称**|
 |:-----|:-----|
 |PR_7BIT_DISPLAY_NAME_A  <br/> |[PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |
 |PR_7BIT_DISPLAY_NAME_W  <br/> |[PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |
@@ -510,7 +510,7 @@ ms.locfileid: "25397574"
 |PR_CHILDRENS_NAMES_A  <br/> |[PidTagChildrensNames](pidtagchildrensnames-canonical-property.md) <br/> |
 |PR_CHILDRENS_NAMES_W  <br/> |[PidTagChildrensNames](pidtagchildrensnames-canonical-property.md) <br/> |
 |PR_CHILDRENS_NAMES  <br/> |[PidTagChildrensNames](pidtagchildrensnames-canonical-property.md) <br/> |
-|期限  <br/> |[PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md) <br/> |
+|PR_CLIENT_SUBMIT_TIME  <br/> |[PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md) <br/> |
 |PR_COMMENT_A  <br/> |[PidTagComment](pidtagcomment-canonical-property.md) <br/> |
 |PR_COMMENT_W  <br/> |[PidTagComment](pidtagcomment-canonical-property.md) <br/> |
 |PR_COMMENT  <br/> |[PidTagComment](pidtagcomment-canonical-property.md) <br/> |
@@ -624,7 +624,7 @@ ms.locfileid: "25397574"
 |PR_DISPLAY_NAME  <br/> |[PidTagDisplayName](pidtagdisplayname-canonical-property.md) <br/> |
 |PR_DISPLAY_TO_A  <br/> |[PidTagDisplayTo](pidtagdisplayto-canonical-property.md) <br/> |
 |PR_DISPLAY_TO_W  <br/> |[PidTagDisplayTo](pidtagdisplayto-canonical-property.md) <br/> |
-|仅包含显示名称  <br/> |[PidTagDisplayTo](pidtagdisplayto-canonical-property.md) <br/> |
+|PR_DISPLAY_TO  <br/> |[PidTagDisplayTo](pidtagdisplayto-canonical-property.md) <br/> |
 |PR_DISPLAY_TYPE_EX  <br/> |[PidTagDisplayTypeEx](pidtagdisplaytypeex-canonical-property.md) <br/> |
 |PR_DISPLAY_TYPE  <br/> |[PidTagDisplayType](pidtagdisplaytype-canonical-property.md) <br/> |
 |PR_DL_EXPANSION_HISTORY  <br/> |[PidTagDistributionListExpansionHistory](pidtagdistributionlistexpansionhistory-canonical-property.md) <br/> |
@@ -965,7 +965,7 @@ ms.locfileid: "25397574"
 |PR_ORIGINATING_MTA_CERTIFICATE  <br/> |[PidTagOriginatingMtaCertificate](pidtagoriginatingmtacertificate-canonical-property.md) <br/> |
 |PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY  <br/> |[PidTagOriginatorAndDistributionListExpansionHistory](pidtagoriginatoranddistributionlistexpansionhistory-canonical-property.md) <br/> |
 |PR_ORIGINATOR_CERTIFICATE  <br/> |[PidTagOriginatorCertificate](pidtagoriginatorcertificate-canonical-property.md) <br/> |
-|邮件已被阅读  <br/> |[PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md) <br/> |
+|PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED  <br/> |[PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md) <br/> |
 |PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED  <br/> |[PidTagOriginatorNonDeliveryReportRequested](pidtagoriginatornondeliveryreportrequested-canonical-property.md) <br/> |
 |PR_ORIGINATOR_REQUESTED_ALTERNATE_RECIPIENT  <br/> |[PidTagOriginatorRequestedAlternateRecipient](pidtagoriginatorrequestedalternaterecipient-canonical-property.md) <br/> |
 |PR_ORIGINATOR_RETURN_ADDRESS  <br/> |[PidTagOriginatorReturnAddress](pidtagoriginatorreturnaddress-canonical-property.md) <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2386be9f-18c9-4949-a2aa-efc8e212801c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: becc076efe0f4f805eb2a8db071b70ad731ee256
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359904"
 ---
 # <a name="pidtagdeferredsendunits-canonical-property"></a>PidTagDeferredSendUnits 规范属性
 
@@ -25,44 +25,44 @@ ms.locfileid: "25385682"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定应相乘**PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) 属性值的时间单位。
+指定**PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) 属性值应相乘的时间单位。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DEFERRED_SEND_UNITS  <br/> |
-|标识符：  <br/> |0x3FEC  <br/> |
+|标识符:  <br/> |0x3FEC  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果设置，此属性必须具有下列值之一：
+如果设置, 则此属性必须具有下列值之一:
   
 |||
 |:-----|:-----|
 |**PidTagDeferredSendUnits** <br/> |说明  <br/> |
-|0  <br/> |分钟时间，例如 60 秒  <br/> |
-|1  <br/> |小时，例如 60 x 60 秒  <br/> |
-|2  <br/> |天，例如 24 x 60 x 60 秒  <br/> |
-|3  <br/> |周，例如 7x24x60x60 秒  <br/> |
+|0  <br/> |分钟, 例如, 60 秒  <br/> |
+|1  <br/> |小时数, 例如60x60 秒  <br/> |
+|双面  <br/> |天, 例如24x60x60 秒  <br/> |
+|第三章  <br/> |周, 例如7x24x60x60 秒  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的电子邮件消息对象。
+> 指定允许用于电子邮件对象的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

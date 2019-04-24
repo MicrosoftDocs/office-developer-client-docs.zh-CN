@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 9be6b88e-2510-4b82-8b35-5f20a0f99fc0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a176b51577c7d4616d988a0b28f2afcfb554e9f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1486730dfa2d76bf8e97439213851b195504962f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348816"
 ---
 # <a name="imsgstoreabortsubmit"></a>IMsgStore::AbortSubmit
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-尝试从传出队列中删除一条消息。
+尝试从传出队列中删除邮件。
   
 ```cpp
 AbortSubmit(
@@ -39,45 +39,45 @@ AbortSubmit(
 
  _cbEntryID_
   
-> [in]在_lpEntryID_参数指向的项标识符的字节数。 
+> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
     
  _lpEntryID_
   
-> [in]指向要从传出队列中移除的消息的项标识符的指针。 
+> 实时指向要从传出队列中删除的邮件的条目标识符的指针。 
     
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 邮件已成功删除传出队列中。
+> 邮件已成功从传出队列中删除。
     
 MAPI_E_NOT_IN_QUEUE 
   
-> 由_lpEntryID_标识邮件不再在传出队列中的消息存储，通常是因为已发送。 
+> 由_lpEntryID_标识的邮件不再位于邮件存储区的传出队列中, 通常是因为它已被发送。 
     
 MAPI_E_UNABLE_TO_ABORT 
   
-> 由_lpEntryID_标识邮件已被锁定通过 MAPI 后台处理程序，且不能中止操作。 
+> 由_lpEntryID_标识的邮件被 MAPI 后台处理程序锁定, 无法中止该操作。 
     
 ## <a name="remarks"></a>注解
 
-**IMsgStore::AbortSubmit**方法尝试删除的消息存储传出队列中的已提交的邮件。 
+**IMsgStore:: AbortSubmit**方法尝试从邮件存储区的传出队列中删除已提交的邮件。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-邮件提交后，通过调用**AbortSubmit**中止提交是唯一可以对邮件执行的操作。 不希望**AbortSubmit**总是成功。 根据实现基础邮件系统的方式，它可能不是邮件的可以取消发送。 
+提交邮件后, 通过调用**AbortSubmit**来中止提交操作是可对邮件执行的唯一操作。 不希望**AbortSubmit**总是成功。 根据基础邮件系统的实现方式, 可能无法取消邮件的发送。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnAbortSubmit  <br/> |MFCMAPI 使用**IMsgStore::AbortSubmit**方法中止的所选消息提交。  <br/> |
+|FolderDlg  <br/> |CFolderDlg:: OnAbortSubmit  <br/> |MFCMAPI 使用**IMsgStore:: AbortSubmit**方法中止所选邮件的提交。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

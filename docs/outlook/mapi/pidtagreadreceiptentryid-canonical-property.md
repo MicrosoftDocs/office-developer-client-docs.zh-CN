@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 141d49c8-87cf-4d80-a33b-ccbf3eeae19e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 662c191f36f9ca30dcdf0f559ea5385bfe5fd305
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356504"
 ---
 # <a name="pidtagreadreceiptentryid-canonical-property"></a>PidTagReadReceiptEntryId 规范属性
 
@@ -25,42 +25,42 @@ ms.locfileid: "25396433"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息用户其中邮件系统应直接读取此消息的报表的项标识符。
+包含邮件用户的条目标识符, 邮件系统应在其中为此邮件定向到阅读报告。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_READ_RECEIPT_ENTRYID  <br/> |
-|标识符：  <br/> |0x0046  <br/> |
+|标识符:  <br/> |0x0046  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-除非**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性设置为 TRUE，则忽略此属性。
+除非将**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性设置为 TRUE, 否则将忽略此属性。
   
-如果希望接收客户端应用程序读取报告本身，它可以将此属性未设置，或将其设置为消息提交次**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) 属性中包含的项标识符。
+如果客户端应用程序要接收读取报告本身, 则可以将此属性设置为未设置, 或将其设置为邮件提交时**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) 属性中包含的条目标识符。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和电子邮件消息对象在允许的操作。
+> 指定在电子邮件对象上允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

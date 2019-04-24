@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: b850dc08-73c3-4b19-ae29-1892d6a2ff2f
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f0d2ad118346dd06788af972b64b10d6f6f6d0fc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 8d5d4895e4440945896ee4f2212c5fca6da8610d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350860"
 ---
 # <a name="iexchangemodifytablegetlasterror"></a>IExchangeModifyTable::GetLastError
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个 table 对象中上次发生的错误有关的信息。
+返回有关在 table 对象中发生的最后一个错误的信息。
   
 ```cpp
 HRESULT GetLastError( 
@@ -39,15 +39,15 @@ HRESULT GetLastError(
 
  _hResult_
   
-> [in]从失败的方法返回的值。
+> 实时失败方法的返回值。
     
  _ulFlags_
   
-> [in]未使用，设置为 0 （零）。
+> 实时未使用, 设置为 0 (零)。
     
  _lppMAPIError_
   
-> [输出]指向 MAPI [MAPIERROR](mapierror.md)结构，其中包含有关最后一个 table 对象发生的错误的信息。 
+> 排除指向包含有关 table 对象的最后一个错误的信息的 MAPI [MAPIERROR](mapierror.md)结构。 
     
 ## <a name="see-also"></a>另请参阅
 

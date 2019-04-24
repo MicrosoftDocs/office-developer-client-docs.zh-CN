@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e255b3e-dd17-4528-ba4e-c3a1aef32b04
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5ef210aedc884e5c09eca6335199e2ef284b901c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 44ecf095ad24dd266dc5f603ace9c7b9f21c1b41
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348662"
 ---
 # <a name="itabledatahrmodifyrow"></a>ITableData::HrModifyRow
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-插入一个新的表格行，原因可能替换现有行。
+插入一个新的表格行, 可能会替换现有行。
   
 ```cpp
 HRESULT HrModifyRow(
@@ -37,27 +37,27 @@ HRESULT HrModifyRow(
 
  _lpSRow_
   
-> [in]一个指向[SRow](srow.md)结构，描述要添加或替换现有行的行。 一个指向由**SRow**结构**lpProps**成员的属性值结构应包含索引列中，已对[CreateTable 的调用中的_ulPropTagIndexColumn_参数中指定的相同值](createtable.md)函数。 
+> 实时指向描述要添加的行或要替换现有行的[SRow](srow.md)结构的指针。 **SRow**结构的**lpProps**成员所指向的某个属性值结构应包含索引列, 在对 CreateTable 的调用中的_ulPropTagIndexColumn_参数中指定的值相同。 [](createtable.md)函数。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 行成功插入或修改。
+> 行已成功插入或修改。
     
 MAPI_E_INVALID_PARAMETER 
   
-> 传入的行不具有索引列。
+> 传入的行没有索引列。
     
 ## <a name="remarks"></a>注解
 
-**ITableData::HrModifyRow**方法插入_lpSRow_参数指向**SRow**结构所描述的行。 如果该行的行及其索引列的相同的值的_lpSRow_点表中已存在，将替换现有行。 如果没有行存在相匹配的**SRow**结构中包含的一个， **HrModifyRow**表末尾添加行。 
+**ITableData:: HrModifyRow**方法插入由_lpSRow_参数指向的**SRow**结构所描述的行。 如果与_lpSRow_指向的行在表中已存在具有相同的 index 列值的行, 则将替换现有行。 如果不存在与**SRow**结构中包含的行相匹配的行, 则**HrModifyRow**会将该行添加到表的末尾。 
   
-修改表的所有视图以包括指向_lpSRow_的行。 但是，如果视图中排除行的位置有限制，则它可能不对用户可见。 
+将修改表的所有视图, 以包括由_lpSRow_指向的行。 但是, 如果视图具有排除行的限制, 则用户可能对其不可见。 
   
-指的_lpSRow_行中的列不需要在表中的列的顺序相同。 呼叫者还可以包括为当前不是表中的列属性。 对于现有视图， **HrModifyRow**使这些新列可用，但不包括其当前列集合中。 对于将来视图**HrModifyRow**列设置中包括的新列。 
+_lpSRow_所指向的行中的列不必与表中的列的顺序相同。 调用方还可以包含表中当前不包含的列属性。 对于现有视图, **HrModifyRow**使这些新列可用, 但不将其包含在当前列集中。 对于将来的视图, **HrModifyRow**包含列集中的新列。 
   
-**HrModifyRow**添加行之后，通知便发送至所有客户端或服务提供商的具有查看表的和已在调用表的[IMAPITable::Advise](imapitable-advise.md)方法注册的通知。 
+在**HrModifyRow**添加行后, 会将通知发送到具有表视图且已调用表的[IMAPITable:: Advise](imapitable-advise.md)方法以注册通知的所有客户端或服务提供程序。 
   
 ## <a name="see-also"></a>另请参阅
 

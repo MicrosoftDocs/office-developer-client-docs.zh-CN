@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: c327e31a-7b62-4e21-9b69-b27442f1eaca
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1ae94b40d984adee0f3c888f69dfdbffb1e352e1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 2ec78331fd013777f001d39bd7e978a67abb5342
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351196"
 ---
 # <a name="imapiviewadvisesinkonsaved"></a>IMAPIViewAdviseSink::OnSaved
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-通知已保存窗体中的当前消息表单查看器。
+通知表单查看器表单中的当前邮件已保存。
   
 ```cpp
 HRESULT OnSaved( void );
@@ -39,13 +39,13 @@ HRESULT OnSaved( void );
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-Form 对象调用**IMAPIViewAdviseSink::OnSaved**方法后已成功保存窗体中的当前消息。 这样就可以查看器更新以反映邮件及其窗口。 
+窗体对象在成功保存窗体中的当前邮件后调用**IMAPIViewAdviseSink:: OnSaved**方法。 这样做将允许查看者更新其窗口, 以反映对邮件的更改。 
   
-有关窗体通知的详细信息，请参阅[发送和接收窗体通知](sending-and-receiving-form-notifications.md)。
+有关表单通知的详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -8,56 +8,56 @@ api_type:
 - COM
 ms.assetid: f2aa2376-b293-4d05-9104-218cc1fe1758
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 396a6c01d0b9cd867706a7dd4997bd6ddd7fd147
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa221510a5f6a8c8be24b4869960d1770cef5882
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357356"
 ---
 # <a name="mapi-special-folders"></a>MAPI 特殊文件夹
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 定义几个是特殊的因为它们提供作为默认文件夹的预定义的角色的某些类型的邮件的文件夹。 通常不能删除这些特殊文件夹，并且其特殊的项标识符的属性。
+MAPI 定义了一些特殊的文件夹, 因为它们为特定类型的邮件提供了预定义角色作为默认文件夹。 这些特殊文件夹通常不能删除, 并且它们具有特殊的条目标识符属性。
   
-有八个特殊文件夹的一部分的人际邮件 (IPM) 子树。 MAPI 客户端获得访问其消息存储库，其后客户端可能导致无法删除文件夹，如有必要之前创建这些文件夹。 某些消息存储提供程序允许删除，而有些则没有。 下表介绍这些文件夹。
+有八个特殊文件夹, 一些是人际邮件 (IPM) 子树的一部分。 MAPI 会在客户端访问其邮件存储区之前创建这些文件夹, 如果需要, 客户端可能能够删除这些文件夹。 某些邮件存储提供程序允许删除, 而其他则不是。 下表介绍了这些文件夹。
   
 **MAPI 文件夹**
 
-|**Folder**|**说明**|
+|**Folder**|**Description**|
 |:-----|:-----|
-|发件箱文件夹  <br/> |包含传出 IPM 消息。  <br/> |
-|已删除的项目文件夹  <br/> |包含 IPM 邮件标记为删除。  <br/> |
-|发送的项目文件夹  <br/> |包含 IPM 已发送的邮件。  <br/> |
-|IPM 根文件夹  <br/> |包含用于管理 IPM 邮件文件夹。  <br/> |
-|接收文件夹  <br/> |包含为特定邮件类的传入消息。  <br/> |
-|搜索结果的根文件夹  <br/> |包含用于管理搜索结果的文件夹。  <br/> |
-|常见视图的根文件夹  <br/> |包含用于管理消息存储库视图的文件夹。  <br/> |
-|个人视图的根文件夹  <br/> |包含用于管理特定用户的视图的文件夹。  <br/> |
+|发件箱文件夹  <br/> |包含传出的 IPM 邮件。  <br/> |
+|“已删除邮件”文件夹  <br/> |包含标记为要删除的 IPM 邮件。  <br/> |
+|"已发送邮件" 文件夹  <br/> |包含已发送的 IPM 邮件。  <br/> |
+|IPM 根文件夹  <br/> |包含用于管理 IPM 邮件的文件夹。  <br/> |
+|接收文件夹  <br/> |包含特定邮件类别的传入邮件。  <br/> |
+|搜索结果根文件夹  <br/> |包含用于管理搜索结果的文件夹。  <br/> |
+|常见的视图根文件夹  <br/> |包含用于管理邮件存储的视图的文件夹。  <br/> |
+|个人-视图根文件夹  <br/> |包含用于管理特定用户的视图的文件夹。  <br/> |
    
-与 IPM 子树，MAPI 创建初始化的消息存储时的文件夹的树相关的前四个文件夹。 交互式消息客户端的默认邮件存储始终包括 IPM 文件夹子树和其他特殊文件夹，其文件夹层次结构中。 非默认的消息存储仅需要支持的搜索结果的根文件夹、 IPM 子树的根文件夹、 已删除邮件文件夹中和接收文件夹。 若要确保 IPM 子树文件夹存在和有效，客户端可以调用[HrValidateIPMSubtree](hrvalidateipmsubtree.md)函数。 **HrValidateIPMSubtree**检查文件夹，并重新创建这些问题时。 
+前四个文件夹与 IPM 子树相关, 在初始化邮件存储时 MAPI 创建的文件夹树。 交互邮件客户端的默认邮件存储总是在其文件夹层次结构中包含 IPM 文件夹子树和其他特殊文件夹。 仅支持搜索结果根文件夹、IPM 子树根文件夹、"已删除邮件" 文件夹和 "接收" 文件夹时, 才需要非默认邮件存储。 若要确保 IPM 子树文件夹存在且有效, 客户端可以调用[HrValidateIPMSubtree](hrvalidateipmsubtree.md)函数。 **HrValidateIPMSubtree**检查文件夹并在出现问题时重新创建它们。 
   
-不属于 IPM 子树; 搜索结果、 公共视图和个人视图的根文件夹。消息存储库的根文件夹中创建这些文件夹。 搜索结果的根文件夹包含支持内容表包含符合搜索条件的一组的邮件的文件夹。 允许的客户端在任何文件夹中创建搜索结果文件夹，尽管大多数客户端指定要将所有搜索结果的父对象的单个根文件夹在会话过程中创建的文件夹。 
+搜索结果、常见视图和个人视图的根文件夹不是 IPM 子树的一部分;这些文件夹是在邮件存储区的根文件夹中创建的。 搜索结果根文件夹包含的文件夹支持具有符合一组搜索条件的邮件的内容表格。 尽管允许客户端在任何文件夹中创建搜索结果文件夹, 但大多数客户端都将单个根文件夹指定为在会话期间创建的所有搜索结果文件夹的父文件夹。 
   
-公共视图和个人视图的根文件夹包含描述视图或来显示邮件和文件夹的数据的首选的方法的消息。 常见视图根文件夹中包含的客户端可以使用任何文件夹中的消息存储; 视图个人视图文件夹包含由特定用户的特定文件夹或文件夹已定义的视图。
+常见视图和个人视图根文件夹包含描述视图的消息, 或用于显示邮件和文件夹数据的首选方法。 常见视图根文件夹包含客户端可用于邮件存储区中的任何文件夹的视图。"个人视图" 文件夹包含已由特定用户为特定文件夹或文件夹定义的视图。
   
-处理 IPM 邮件的客户端应创建的所有文件夹和 IPM 子树的根文件夹，而不是邮件存储区的根文件夹下的邮件。 这种非 IPM 客户端 — 客户端计算机之间人和计算机或之间交换消息处理 — 用于隐藏 IPM 客户端从其邮件简便方法。 
+使用 ipm 邮件的客户端应在 IPM 子树根文件夹下创建所有文件夹和邮件, 而不是邮件存储区的根文件夹。 这将为非 ipm 客户端—处理在计算机之间或在人类和计算机之间交换的邮件的客户端, 这是一种从 IPM 客户端隐藏邮件的简单方法。 
   
-MAPI 将这些特殊文件夹的标识符属性分配特殊的条目。 特殊文件夹项标识符的列表，请参阅[打开邮件存储文件夹](opening-a-message-store-folder.md)。
+MAPI 为这些特殊文件夹分配特殊的条目标识符属性。 有关特殊文件夹项标识符的列表, 请参阅[打开邮件存储文件夹](opening-a-message-store-folder.md)。
   
 ### <a name="outlook-special-folders"></a>Outlook 特殊文件夹
 
-由其条目存储在收件箱文件夹和消息存储库的根文件夹中的 Id 标识 outlook 特殊文件夹。
+Outlook 特殊文件夹由其在 "收件箱" 文件夹和邮件存储区的根文件夹中存储的条目 id 标识。
   
 |**Folder**|**要设置的属性**|
 |:-----|:-----|
 |日历  <br/> |**PR_IPM_APPOINTMENT_ENTRYID**([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
 |联系人  <br/> |**PR_IPM_CONTACT_ENTRYID**([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
-|日记  <br/> |**PR_IPM_JOURNAL_ENTRYID**([PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
-|笔记  <br/> |**PR_IPM_NOTE_ENTRYID**([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
+|分类账  <br/> |**PR_IPM_JOURNAL_ENTRYID**([PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
+|备注  <br/> |**PR_IPM_NOTE_ENTRYID**([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
 |任务  <br/> |**PR_IPM_TASK_ENTRYID**([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
 |草稿  <br/> |**PR_IPM_DRAFTS_ENTRYID**([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
    

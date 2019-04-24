@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: b9a745cc-260d-4a1c-896e-6a038ab3cfb9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b801bdc06317738448a2205b60b94e1c9707d4f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 46bb9b2cc1a4d54807d6929b4e1439b58fb3a531
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350839"
 ---
 # <a name="iexchangemodifytablemodifytable"></a>IExchangeModifyTable::ModifyTable
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-更新 MAPI table 对象。
+更新 MAPI 表对象。
   
 ```cpp
 HRESULT ModifyTable( 
@@ -39,7 +39,7 @@ HRESULT ModifyTable(
 
  _ulFlags_
   
-> [in]使用下列值之一： 
+> 实时使用下列值之一: 
     
 0（零）
   
@@ -47,31 +47,31 @@ HRESULT ModifyTable(
     
 ACLTABLE_FREEBUSY
   
-> 设置新的权限。
+> 设置新权限。
     
 frightsFreeBusyDetailed
   
-> 当 ACLTABLE_FREEBUSY 传递时，提供了详细的显示新的忙/闲信息的权限。
+> 当传递 ACLTABLE_FREEBUSY 时, 提供新的忙/闲权限的详细显示。
     
 frightsFreeBusySimple
   
-> 当 ACLTABLE_FREEBUSY 传递时，提供新忙/闲信息的权限的简单的显示。
+> 当传递 ACLTABLE_FREEBUSY 时, 将提供新的忙/闲权限的简单显示。
     
 ROWLIST_REPLACE
   
-> 将表中的所有行。
+> 替换表中的所有行。
     
  _lpMods_
   
-> [in]指向包含 table 对象的属性的[ROWLIST](rowlist.md)结构。 
+> 实时指向一个[ROWLIST](rowlist.md)结构, 其中包含 table 对象的属性。 
     
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI 使用**IExchangeModifyTable::ModifyTable**方法修改的规则写回表中的规则。  <br/> |
+|RulesDlg  <br/> |CRulesDlg:: OnModifySelectedItem  <br/> |MFCMAPI 使用**IExchangeModifyTable:: ModifyTable**方法将修改的规则写回到规则表中。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

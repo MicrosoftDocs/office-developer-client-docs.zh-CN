@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: feb29b91-0f6e-6353-3dd0-7a280843a517
 description: 包含描述动作标记的字符串。当用户将鼠标指针悬停于动作标记上时，此字符串以工具提示的形式显示。
-ms.openlocfilehash: 3c365d24170f912624a2abdeeadd75140bea9a85
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00c7a4c1547927b8d1a979b8ae074f96f26dc17c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360227"
 ---
-# <a name="description-cell-action-tags-section"></a>Description 单元格（“Action Tags”部分）
+# <a name="description-cell-action-tags-section"></a>Description 单元格（“Action Tags”内容）
 
 包含描述动作标记的字符串。当用户将鼠标指针悬停于动作标记上时，此字符串以工具提示的形式显示。
   
@@ -26,14 +26,14 @@ ms.locfileid: "19780092"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | 智能标记。  *名称*。说明其中智能标记。 *name*是动作标记行的名称  <br/> |
+| 单元格名称：  <br/> | SmartTags.  *名称*。智能标记的说明。 *name*是操作标记行的名称  <br/> |
    
 要从某个程序按索引获取对 Description 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionSmartTag** <br/> |
-| 行索引：  <br/> |**visRowSmartTag** +  *i*其中*i* = 0、 1、 2...  <br/> |
+| 行索引：  <br/> |**visRowSmartTag** +  *i* = ** 0、1、2 .。。  <br/> |
 | 单元格索引：  <br/> |**visSmartTagDescription** <br/> |
    
 

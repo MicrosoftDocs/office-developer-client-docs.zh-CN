@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f5ae6124-3e44-400f-95c2-24b19f3085b5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 02dcbcccd003fb0b53356da11a3b90b38e632c2a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355172"
 ---
 # <a name="pidtagreplyrecipientnames-canonical-property"></a>PidTagReplyRecipientNames 规范属性
 
@@ -25,48 +25,48 @@ ms.locfileid: "25401634"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含要获取回复的收件人的显示名称的列表。
+包含要获取答复的收件人的显示名称列表。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_REPLY_RECIPIENT_NAMES，PR_REPLY_RECIPIENT_NAMES_A，PR_REPLY_RECIPIENT_NAMES_W  <br/> |
-|标识符：  <br/> |0x0050  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_REPLY_RECIPIENT_NAMES、PR_REPLY_RECIPIENT_NAMES_A、PR_REPLY_RECIPIENT_NAMES_W  <br/> |
+|标识符:  <br/> |0x0050  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这些属性包含由分号分隔的显示名称。
+这些属性包含以分号分隔的显示名称。
   
-当此属性不存在时，仅对**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) 属性标识的用户发送答复。 定义了**PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) 和这些属性，向所有由这两个属性标识的收件人发送答复。 传输提供程序使用这些属性重写通常的应答逻辑。
+如果此属性不存在, 则会将答复仅发送给**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) 属性所标识的用户。 如果定义了**PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) 和这些属性, 则会将答复发送到由这两个属性标识的所有收件人。 传输提供程序使用这些属性替代常见的答复逻辑。
   
-如果设置**PR_REPLY_RECIPIENT_ENTRIES**或这些属性，还必须设置其他属性。 这些属性必须包含相同数量的收件人，并且它们必须包含它们的顺序。 遵守这些要求会导致无法预料的结果。 
+如果设置了**PR_REPLY_RECIPIENT_ENTRIES**或这些属性, 则还必须设置另一个属性。 这些属性必须包含相同数量的收件人, 并且必须以相同的顺序包含它们。 如果无法遵守这些要求, 可能会导致不可预知的结果。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和电子邮件中允许的操作。
+> 指定在电子邮件中允许的属性和操作。
     
-[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> 从 Internet 标准电子邮件约定转换为消息对象。
+> 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

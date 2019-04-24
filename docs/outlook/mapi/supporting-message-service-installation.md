@@ -7,38 +7,38 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 822e07bc-0bca-4485-8938-2264315161e2
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1f82741e3c44c589a18a1428fd68cebe6a501d5c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 328884e8758e679eb1c9d968547cba02c01d4d47
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350629"
 ---
 # <a name="supporting-message-service-installation"></a>支持邮件服务安装
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-安装您的消息服务的安装程序应执行以下操作：
+安装邮件服务的安装程序应执行以下操作:
   
-1. 将邮件服务文件，如消息服务和服务提供商 Dll，从 CD 或磁盘，复制到本地驱动器工作站上。 需要将复制的文件取决于您的消息服务。 通常将复制至少一个 DLL。
+1. 将邮件服务文件 (如邮件服务和服务提供程序 dll) 从 CD 或磁盘复制到工作站上的本地驱动器。 需要复制的文件取决于您的邮件服务。 通常情况下, 至少要复制一个 DLL。
     
-2. 将项添加到 Mapisvc.inf 配置文件。 有关如何修改此文件以在邮件服务中支持的服务提供程序的详细信息，请参阅[的 MapiSvc.inf 文件格式](file-format-of-mapisvc-inf.md)。
+2. 将条目添加到 mapisvc.inf 配置文件。 有关如何修改此文件以支持邮件服务中的服务提供程序的详细信息, 请参阅[mapisvc.inf 的文件格式](file-format-of-mapisvc-inf.md)。
     
-3. 根据需要对系统注册表对邮件服务添加条目。 有关条目应在系统注册表中的显示方式的详细信息，请参阅[安装 MAPI 子系统](installing-the-mapi-subsystem.md)。
+3. 根据需要将条目添加到邮件服务的系统注册表中。 有关这些条目应如何显示在系统注册表中的详细信息, 请参阅[安装 MAPI 子系统](installing-the-mapi-subsystem.md)。
     
-4. 创建默认配置文件，如果一个尚不存在使用以下各项之一：
+4. 如果一个默认配置文件尚不存在, 请使用以下项目之一创建该配置文件:
     
-  - 要使用的对话框一系列用户交互创建一个配置文件的配置文件向导。 有关使用配置文件向导的详细信息，请参阅[创建一个配置文件使用配置文件向导](creating-a-profile-by-using-the-profile-wizard.md)。
+  - 配置文件向导通过使用用户在一系列对话框中进行交互来创建配置文件。 有关使用配置文件向导的详细信息, 请参阅[使用配置文件向导创建配置文件](creating-a-profile-by-using-the-profile-wizard.md)。
     
-  - 创建配置文件使用用户交互 Control Panel。 控制面板中，向用户提供用于配置消息服务和设置配置文件属性配置文件向导比更大的灵活性。 
+  - 使用 "用户交互" 创建配置文件的 "控制面板"。 "控制面板" 提供的用户比配置邮件服务和设置配置文件属性的配置文件向导具有更大的灵活性。 
     
-将指定的公共目录中安装程序。 这是目录的重要，因为大多数配置客户端，如控制面板中，要求用户输入的名称。 当用户单击**添加**按钮，调用**从磁盘**对话框中，并指定该程序的路径，则控制面板调用安装程序。 控制面板运行程序，并调用_ulContext_参数设置为 MSG_SERVICE_INSTALL 消息服务的入口点函数。 
+将安装程序放在指定的公用目录中。 这一点很重要, 因为大多数配置客户端 (如控制面板) 要求用户输入目录的名称。 当用户单击 "**添加**" 按钮时, 控制面板将调用安装程序, 同时调用 "**有磁盘**" 对话框, 并指定程序的路径。 "控制面板" 运行程序, 并调用您的邮件服务的入口点函数, 并将_ulContext_参数设置为 MSG_SERVICE_INSTALL。 
   
 > [!CAUTION]
-> 由于配置文件的 MAPI 体系结构可丢弃组成部分，确保您的安装程序不存储任何很难重新创建默认配置文件中。 有配置文件恢复的、 用于将配置文件从一台计算机移到另一个、 脱机备份或个人或全局备份副本还原为未实用程序。 
+> 由于配置文件是 MAPI 体系结构的一个 expendable 部分, 因此, 请确保您的安装程序不会在默认配置文件中存储难以重新创建的任何内容。 没有用于配置文件恢复的实用程序, 用于将配置文件从一台计算机移动到另一台计算机, 用于脱机备份, 或从备份副本进行个人或全局还原。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -12,25 +12,25 @@ api_type:
 - HeaderDef
 ms.assetid: bfbbbb76-796a-4ee8-8410-0d17edb349b5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fe6c756c8ba5cefbcb2878b75db1c465c861fd24
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87c8ab6a06d830d9d509c1dd1c6f5af1a0de654b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358591"
 ---
 # <a name="pidtaginternetlines-canonical-property"></a>PidTagInternetLines 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 映射到 MIME 行标题。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_INTERNET_LINES  <br/> |
-|标识符：  <br/> |0x1034  <br/> |
+|标识符:  <br/> |0x1034  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
@@ -38,19 +38,19 @@ ms.locfileid: "22565415"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

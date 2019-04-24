@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7cee8024a622e98be667b9e05ceba63ad79b1edf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359400"
 ---
 # <a name="create-a-helper-class-to-access-common-outlook-item-members"></a>创建用于访问常见 Outlook 项成员的帮助程序类
 
@@ -30,7 +30,7 @@ ms.locfileid: "28710270"
 
 OutlookItem 帮助程序类使用反射来显示所有项的通用属性和方法。 这种类可帮助你将对象转换至确切类型，而且方便直接在 **OutlookItem** 对象上使用通用项属性或方法。 这是一种非常有用的技术，而且**另请参阅**部分列出的几个其他有关操作方法的主题均利用了此帮助程序类。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，而且这两个语句必须后跟公共类声明。 下面几行代码展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。 下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

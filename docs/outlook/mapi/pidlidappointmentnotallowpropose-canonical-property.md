@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8be9e2aa-2dc1-406d-8864-7f556de22809
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: aa9aacd8a1d75ed4c14a980e162a68c47995a55c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356355"
 ---
 # <a name="pidlidappointmentnotallowpropose-canonical-property"></a>PidLidAppointmentNotAllowPropose 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25385415"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示是否与会者不允许建议新会议的日期/时间。
+指示是否不允许与会者为会议建议新的日期/时间。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidApptNotAllowPropose  <br/> |
-|属性进行设置：  <br/> |PSETID_Appointment  <br/> |
-|长 ID （盖）：  <br/> |0x0000825A  <br/> |
+|属性集:  <br/> |PSETID_Appointment  <br/> |
+|长 ID (盖子):  <br/> |0x0000825A  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-值为 FALSE 或不存在此属性指示允许与会者建议新的日期/时间。
+值为 FALSE, 或缺少此属性表示允许与会者建议新的日期/时间。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

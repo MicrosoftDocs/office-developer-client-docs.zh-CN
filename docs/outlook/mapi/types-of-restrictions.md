@@ -1,5 +1,5 @@
 ---
-title: 限制的类型
+title: 限制类型
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,44 +8,44 @@ api_type:
 - COM
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 85cf254c9ea23ecbd6f311ba012d2e048a0b2a6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 28159dfb947b4fb0ea54680627588b7c10bee3b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356565"
 ---
-# <a name="types-of-restrictions"></a>限制的类型
+# <a name="types-of-restrictions"></a>限制类型
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-有许多类型的限制，一些该焦点特定的列。 所有表实现都需要支持当前列集合中的列上的限制。 但是，要添加值，表实施者还可以支持基于当前未在表视图中的对象属性限制。
+有多种类型的限制, 有些是重点关注特定的列。 所有表实现都应支持对当前列集中的列的限制。 但是, 若要添加值, 表实施者还可以基于当前不在表视图中的对象属性支持限制。
   
-可以使用限制的执行逻辑**AND**，**或者**，或**不**运算组合一些限制。 例如，必须使用加入限制的大多数属性都存在使用**和**限制的限制。 有一些例外，如使用属性限制中的属性时**PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) 属性时，或者在它是表中所需的列。 构建限制的客户端限制其视图应使用存在其属性限制的限制因为 MAPI 不指定如何服务提供商应评估属性限制当属性不存在。 很合理，建议使用的服务提供商失败此限制，但没有要求。 
+可以使用执行逻辑**AND**、 **or**或**NOT**运算的限制组合一些限制。 例如, 大多数属性限制必须使用**和**限制加入存在的限制。 有一些例外情况, 例如, 在属性限制中使用的属性是**PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) 属性或表中的必需列。 客户端生成限制以限制其视图应使用存在的限制及其属性限制, 因为 MAPI 不指定当属性不存在时服务提供程序应如何评估属性限制。 合理且建议服务提供商失败限制, 但没有任何要求。 
   
-使用[SRestriction](srestriction.md)数据结构，其中包含的更多专用限制结构联合和联合中包含的结构的类型的指示符定义限制。 
+限制是使用[SRestriction](srestriction.md)数据结构定义的, 其中包含更多专用限制结构的联合以及联合中包含的结构类型的指示器。 
   
-每个合并区域中的专用的限制结构表示不同类型的限制。 限制和其关联的数据结构的类型包括：
+union 中的每个专用限制结构都代表不同类型的限制。 限制的类型及其关联的数据结构为:
   
-|**类型的限制**|**关联的数据结构**|**说明**|
+|**限制的类型**|**关联的数据结构**|**Description**|
 |:-----|:-----|:-----|
-|比较属性  <br/> |[SComparePropsRestriction](scomparepropsrestriction.md) <br/> |比较两个相同类型的属性。  <br/> |
-|**AND** <br/> |[SAndRestriction](sandrestriction.md) <br/> |执行两个或多个限制的逻辑**和**操作。  <br/> |
-|**或** <br/> |[SOrRestriction](sorrestriction.md) <br/> |执行两个或多个限制逻辑**或**运算。  <br/> |
-|**NOT** <br/> |[SNotRestriction](snotrestriction.md) <br/> |执行两个或多个限制逻辑**NOT**操作。  <br/> |
-|Content  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |查找指定的数据。  <br/> |
-|属性  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |指定特定属性值为匹配条件。 可用于，例如，搜索特定类型的附件。  <br/> |
-|Bitmask  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |应用于一个位掩码 PT_LONG 属性，通常以确定是否设置特定的标志。  <br/> |
-|Size  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |测试使用标准关系运算符属性的大小。  <br/> |
-|存在  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |测试是否拥有的对象的属性的值。  <br/> |
-|子对象  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |用于搜索通过子对象或无法访问与条目标识符，如收件人和附件的对象。 可用，例如，若要查找特定的收件人的邮件。  <br/> |
-|Comment  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |将对象与一组命名属性。  <br/> |
+|Compare 属性  <br/> |[SComparePropsRestriction](scomparepropsrestriction.md) <br/> |比较同一类型的两个属性。  <br/> |
+|**AND** <br/> |[SAndRestriction](sandrestriction.md) <br/> |对两个或更多个限制执行逻辑**AND**运算。  <br/> |
+|**或** <br/> |[SOrRestriction](sorrestriction.md) <br/> |对两个或更多个限制执行逻辑**OR**运算。  <br/> |
+|**NOT** <br/> |[SNotRestriction](snotrestriction.md) <br/> |对两个或更多个限制执行逻辑**非**运算。  <br/> |
+|内容  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |查找指定数据。  <br/> |
+|属性  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |将特定的属性值指定为匹配的条件。 例如, 可用于搜索特定类型的附件。  <br/> |
+|Bitmask  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |将位掩码应用于 PT_LONG 属性, 通常用于确定是否设置了特定的标志。  <br/> |
+|大小  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |使用标准关系运算符测试属性的大小。  <br/> |
+|尚  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |测试对象是否具有属性的值。  <br/> |
+|子  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |用于搜索子对象, 或使用条目标识符无法访问的对象, 例如收件人和附件。 例如, 可用于查找特定收件人的邮件。  <br/> |
+|Comment  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |将对象与一组命名属性相关联。  <br/> |
    
-一些限制使用正则表达式，并 MAPI 支持有限的窗体使用的多个文本应用程序中的样式表示法的正则表达式。
+某些限制使用正则表达式, 而 MAPI 在使用许多文本应用程序的样式中支持有限形式的正则表达式表示法。
   
-若要保留限制特定于应用程序的信息的磁盘保存限制的客户端使用注释限制。 例如，保存在属性限制中使用的命名属性的名称的客户端可以这样做了一条注释限制。 保存该名称不能在属性限制;[SPropertyRestriction](spropertyrestriction.md)数据结构包含仅属性标记。 注释限制将忽略[IMAPITable::Restrict](imapitable-restrict.md) ，拥有[IMAPITable::QueryRows](imapitable-queryrows.md) **Restrict**呼叫后返回的行没有影响。 
+在磁盘上保存限制的客户端使用注释限制, 以保留特定于应用程序的信息和限制。 例如, 在属性限制中保存所使用的命名属性的名称的客户端可以使用注释限制执行此操作。 在属性限制中不能保存名称;[SPropertyRestriction](spropertyrestriction.md)数据结构仅保存属性标记。 [IMAPITable:: restrict](imapitable-restrict.md)将忽略注释限制, 使其对[imapitable:: QueryRows](imapitable-queryrows.md)返回的行不起作用。在进行**限制**调用之后。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 380ea11c-b1ac-4f54-9034-c52edec4f700
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e986313ccac7533178e2c6b466053d5665b9e7e7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ae4993f46e10b29ad29a88b7b8b1c54151f5efa7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355249"
 ---
 # <a name="pidtagredirectionhistory-canonical-property"></a>PidTagRedirectionHistory 规范属性
 
@@ -25,30 +25,30 @@ ms.locfileid: "22574522"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含有关涵盖邮件已送达路由的信息。
+包含有关已传递邮件所覆盖的路由的信息。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_REDIRECTION_HISTORY  <br/> |
-|标识符：  <br/> |0x002C  <br/> |
+|标识符:  <br/> |0x002C  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性是一条消息时自动转发自动代理使用。
+自动代理 autoforwarded 邮件时使用此属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

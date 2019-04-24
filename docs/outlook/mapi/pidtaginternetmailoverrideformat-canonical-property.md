@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4b57dbad-19b8-4357-b8b1-11f735eafcca
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4845c413232938319d2c6013d334137ebd2a8716
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358602"
 ---
 # <a name="pidtaginternetmailoverrideformat-canonical-property"></a>PidTagInternetMailOverrideFormat 规范属性
 
@@ -25,44 +25,44 @@ ms.locfileid: "25384932"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示的编码方法和 HTML 包含应该设置传出邮件上的附件。
+指示应对传出邮件设置的附件的编码方法和 HTML 包含。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_INETMAIL_OVERRIDE_FORMAT  <br/> |
-|标识符：  <br/> |0x5902  <br/> |
+|标识符:  <br/> |0x5902  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-有关此属性划分到其中的子部分的信息，请参阅[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)。 
+有关此属性被分解到的子部分的信息, 请参阅[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
-[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> 从 Internet 标准电子邮件约定转换为消息对象。
+> 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

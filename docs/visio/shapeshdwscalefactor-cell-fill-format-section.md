@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 94ec06c5-8d2f-dd27-1eed-1abaf93daba8
 description: 指定形状阴影可放大或缩小的百分比。
-ms.openlocfilehash: 0b6392030e7efc8ea36c8d728b99c9b82482840b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5862b61ca1f5df25ca97bf8742b9e20bf45091a9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349159"
 ---
-# <a name="shapeshdwscalefactor-cell-fill-format-section"></a>ShapeShdwScaleFactor 单元格（“Fill Format”部分）
+# <a name="shapeshdwscalefactor-cell-fill-format-section"></a>ShapeShdwScaleFactor 单元格（“Fill Format”内容）
 
 指定形状阴影可放大或缩小的百分比。
   
 ## <a name="remarks"></a>注解
 
-每个阴影具有一个带阴影的 pin 位置，即对应于形状的旋转中心点的阴影上某个点。 例如，如果形状的旋转中心点在形状的中心，则隐藏的 pin 位置就是阴影中心中的点。 阴影方块的 pin 位置中; 将扩展应用于简单阴影，居中显示比例将范围应用于倾斜阴影，显示比例应用倾斜方向。 
+每个阴影都有一个阴影的固定位置, 这是阴影上与形状的旋转点相对应的点。 例如, 如果形状的旋转中心位于形状的中心, 则阴影的固定位置将成为阴影中心的点。 将 "缩放" 应用于简单阴影时, 放大率以阴影的固定位置为中心。将缩放比例应用到倾斜阴影时, 将以倾斜方向应用放大率。 
   
 要设置一页中所有形状的这个值，请使用“Page Properties”内容中的 ShdwScaleFactor 单元格。
   

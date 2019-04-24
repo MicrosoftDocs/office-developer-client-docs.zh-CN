@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 59fe0887-2092-4fad-ea38-2aba354f3b92
 description: 切换选中形状的打印状态 - 启用或禁用。
-ms.openlocfilehash: ab00914a9c59cfe94b3f7273f89684f43328b4d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c3e1fc1b2d91fa4808f8ea89c904218c2236f5b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357230"
 ---
-# <a name="nonprinting-cell-miscellaneous-section"></a>NonPrinting 单元格（“Miscellaneous”部分）
+# <a name="nonprinting-cell-miscellaneous-section"></a>NonPrinting 单元格（“Miscellaneous”内容）
 
 切换选中形状的打印状态 - 启用或禁用。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 禁用打印，但形状将显示在绘图窗口中。  <br/> |
 | FALSE  <br/> | 启用打印。  <br/> |
@@ -33,7 +33,7 @@ ms.locfileid: "19780791"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | NonPrinting  <br/> |
+| 单元格名称：  <br/> | 打印  <br/> |
    
 要从某个程序按索引获取对 NonPrinting 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   

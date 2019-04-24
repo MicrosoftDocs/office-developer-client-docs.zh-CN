@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7fb1d8a1-8892-f489-2f58-0008b5b750f5
 description: 包含一行，其中列出了该形状所分配到的各个图层。
-ms.openlocfilehash: 5f522e31916ad276e15ac23e5149407dd67eb9cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e7e07ba14147abc8cdfd8b8544e4ee8f34b2be06
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780551"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359008"
 ---
-# <a name="layer-membership-section"></a>“Layer Membership”部分
+# <a name="layer-membership-section"></a>“Layer Membership”内容
 
 包含一行，其中列出了该形状所分配到的各个图层。
   
@@ -26,6 +26,6 @@ ms.locfileid: "19780551"
   
 如果某一形状被分配给多个图层，则每个图层索引都会显示在 Layer Membership 单元格中，并用分号隔开。
   
-要引用 Layer Membership 单元格公式中的值，请使用名称**LayerMember**。
+若要引用公式中的 "Layer 成员资格" 单元格的值, 请使用名称**LayerMember**。
   
 

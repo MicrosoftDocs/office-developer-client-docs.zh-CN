@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: 82a9e379-39e4-4257-8cba-a6758f431cdc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 843eed06f30dcca530cf4306c9e03bbffbb05af5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e5043a614ccd94994fe86838f15aa1a43f22733e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357328"
 ---
 # <a name="mapiadminprofiles"></a>MAPIAdminProfiles
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个配置文件管理对象。 
+创建配置文件管理对象。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapix.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
+|标头文件：  <br/> |Mapix  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
    
 ```cpp
 HRESULT MAPIAdminProfiles(
@@ -44,25 +44,25 @@ HRESULT MAPIAdminProfiles(
 
  _ulFlags_
   
-> [in]标志指示的服务项功能的选项的位掩码。 
+> 实时指示服务输入函数选项的标志的位掩码。 
     
  _lppProfAdmin_
   
-> [输出]为指向新的配置文件管理对象的指针。
+> 排除指向新的配置文件管理对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI 使用**MAPIAdminProfiles**方法来获取配置文件管理对象。  <br/> |
+|MAPIObjects  <br/> |CMapiObjects:: GetProfAdmin  <br/> |MFCMAPI 使用**MAPIAdminProfiles**方法获取配置文件管理对象。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ad8d6934b5e57429de5039e9420742caa9dd4294
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397693"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356726"
 ---
 # <a name="pidtagicon-canonical-property"></a>PidTagIcon 规范属性
 
@@ -25,36 +25,36 @@ ms.locfileid: "25397693"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含窗体的完整大小的图标的位图。 
+包含窗体的完整大小图标的位图。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ICON  <br/> |
-|标识符：  <br/> |0x0FFD  <br/> |
+|标识符:  <br/> |0x0FFD  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性包含一个图标，相同的内容的 32 × 32 像素图像。ICO 文件。 此属性通常从复制。ICO 文件指定相应的窗体配置文件的 [描述] 部分的视图行中。 
+此属性包含一个图标的32×32像素的图像, 其内容与 a 的内容相同。.ico 文件。 此属性通常是从复制的。在表单配置文件的相应 [Description] 部分的 LargeIcon 行中指定的 .ico 文件。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8d88838893836c550136be9556299258b44e3e49
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359491"
 ---
 # <a name="pidtagruleid-canonical-property"></a>PidTagRuleId 规范属性
 
@@ -25,42 +25,42 @@ ms.locfileid: "25398057"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定首次创建规则时，消息服务器将生成的每个规则的唯一标识符。 
+指定邮件服务器在首次创建规则时为每个规则生成的唯一标识符。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RULE_ID  <br/> |
-|标识符：  <br/> |0x6674  <br/> |
+|标识符:  <br/> |0x6674  <br/> |
 |数据类型：  <br/> |PT_I8  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-客户端不能指定此属性时创建一个新规则，但必须指定时修改或删除规则。
+在创建新规则时, 客户端不能指定此属性, 但必须在修改或删除规则时指定该属性。
   
-如果删除规则，传递客户端必须仅属性为**PR_RULE_ID** ，并不应将传递中任何其他属性。 服务器必须忽略此属性之外的属性。 当添加规则中**PR_RULE_ID**, 不传递客户端，必须时，它必须**PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md))、 **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) 和**PR_RULE_PROVIDER** ([中传递PidTagRuleProvider](pidtagruleprovider-canonical-property.md)) 属性。 修改的规则时, 客户端中**PR_RULE_ID**必须经过，并应传入需要进行修改的属性的其余部分。 
+删除规则时, 客户端必须传递的唯一属性是**PR_RULE_ID** , 不应传入任何其他属性。 服务器必须忽略此属性以外的属性。 添加规则时, 客户端不得传入**PR_RULE_ID**, 它必须传入**PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md))、 **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) 和**PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md)) 属性。 修改规则时, 客户端必须传递**PR_RULE_ID** , 并应传递需要修改的其他属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[毫秒-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> 处理传入的电子邮件服务器上。
+> 在服务器上操纵传入电子邮件。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

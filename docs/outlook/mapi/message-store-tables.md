@@ -1,5 +1,5 @@
 ---
-title: 邮件存储区表
+title: 邮件存储表
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: cdb7d8c5-8e35-47ff-8be7-2cb17e341ad3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 735c778cd8e6ccb41de3d3d8cb0fdc163493f712
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dd28c146f6b05b2dea03f73fab7131f23ca99e5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356894"
 ---
-# <a name="message-store-tables"></a>邮件存储区表
+# <a name="message-store-tables"></a>邮件存储表
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-消息存储表包含有关当前配置文件中的消息存储提供程序的信息。 没有为每个 MAPI 会话，由 MAPI 实现和客户端使用的一个消息存储表。 客户端可以使用此表中，例如，来查找特定提供程序的所有实例，或查找特定的邮件存储区。 
+邮件存储表包含有关当前配置文件中的邮件存储提供程序的信息。 每个 mapi 会话都有一个邮件存储表, 由 mapi 实现并由客户端使用。 例如, 客户端可以使用此表查找特定提供程序的所有实例或查找特定的邮件存储。 
   
-消息存储表是动态的。 如果客户端应用程序的用户编辑配置文件更改默认的邮件存储，例如**PR_DEFAULT_STORE**值受影响的邮件存储的属性将立即更新。 
+邮件存储表是动态的。 如果客户端应用程序的用户编辑配置文件, 则更改默认邮件存储 (例如, 受影响的邮件存储的**PR_DEFAULT_STORE**属性的值) 会立即更新。 
   
-客户端通过调用[IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md)方法访问消息存储表。 
+客户端通过调用[IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md)方法访问邮件存储库表。 
   
-以下属性构成设置消息存储表中所需的列：
+以下属性构成了在邮件存储库表中设置的必需列:
   
 |||
 |:-----|:-----|

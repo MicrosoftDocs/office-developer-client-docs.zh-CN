@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 917431a9-fd90-4b4d-b042-886e3dbf47c0
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7af30866a5fd2846327223b7a58c6de91f5fef7a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355704"
 ---
 # <a name="pidlidfileunderid-canonical-property"></a>PidLidFileUnderId 规范属性
 
@@ -25,60 +25,60 @@ ms.locfileid: "25397189"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定如何生成和其他联系人命名属性更改时，重新计算**dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) 属性的值。
+指定当其他联系人名称属性发生更改时, 如何生成和重新计算**dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) 属性的值。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidFileUnderId  <br/> |
-|属性进行设置：  <br/> |PSETID_Address  <br/> |
-|长 ID （盖）：  <br/> |0x00008006  <br/> |
+|属性集:  <br/> |PSETID_Address  <br/> |
+|长 ID (盖子):  <br/> |0x00008006  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |联系人  <br/> |
+|区域：  <br/> |Contact  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果此属性缺失或设置为不具体的下表中或在[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)的值，该应用程序可以选择自己的逻辑重新计算的其他联系人姓名属性更改为**dispidFileUnder**值。 
+如果此属性缺失或设置为下表或[[OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)中未详细说明的值, 则应用程序可以选择自己的逻辑, 以重新计算**dispidFileUnder**的值, 因为其他联系人名称属性发生变化。 
   
-在下面的表中，表示法<PropertyName>用于指定"的值的属性名称"。 例如，如果**PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) 属性的值是"Smith"，并且**PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) 属性的值为"Ben"，然后"<PidTagGivenName> <PidTagSurname>"指定"Ben Smith"的字符串。 在表中，"\r"指定回车符，"\n"指定换行字符，并且<space>表示空格字符。
+下表中的表示法<PropertyName>用于指定 "PropertyName 的值"。 例如, 如果**PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) 属性的值为 "Smith", 而**PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) 属性的值为 "ben", 则 "<PidTagGivenName> <PidTagSurname>" 指定字符串 "Ben Smith"。 在表中, "\r" 指定一个回车符, "\n" 指定换行符, 并<space>代表一个空格字符。
   
-|****DispidFileUnderId**属性的值**|****DispidFileUnder**属性的说明**|
+|****dispidFileUnderId**属性的值**|****dispidFileUnder**属性的说明**|
 |:-----|:-----|
 |0x00000000  <br/> |空 PT_UNICODE。  <br/> |
 |0x00003001  <br/> |"\<PidTagDisplayName\>"  <br/> |
 |0x00003A06  <br/> |"\<PidTagGivenName\>"  <br/> |
 |0x00003A11  <br/> |"\<PidTagSurname\>"  <br/> |
 |0x00003A16  <br/> |"\<PidTagCompanyName\>"  <br/> |
-|0x00008017  <br/> |"\<PidTagSurname\>，\<空间\>\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>"  <br/> |
-|0x00008018  <br/> |"\<PidTagCompanyName\>\r\n\<PidTagSurname\>，\<空间\>\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>"  <br/> |
-|0x00008019  <br/> |"\<PidTagSurname\>，\<空间\>\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>\r\n\<PidTagCompanyName\>"  <br/> |
-|0x00008030  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>"  <br/> |
-|0x00008031  <br/> |"\<PidTagSurname\>\<空间\>\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>"  <br/> |
-|0x00008032  <br/> |"\<PidTagCompanyName\>\r\n\<PidTagSurname\>\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>"  <br/> |
-|0x00008033  <br/> |"\<PidTagCompanyName\>\r\n\<PidTagSurname\>\<空间\>\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>"  <br/> |
-|0x00008034  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>\r\n\<PidTagCompanyName\>"  <br/> |
-|0x00008035  <br/> |"\<PidTagSurname\>\<空间\>\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>\r\n\<PidTagCompanyName\>"  <br/> |
-|0x00008036  <br/> |"\<PidTagSurname\>\<空间\>\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>\<空间\>\<PidTagGeneration\>"  <br/> |
-|0x00008037  <br/> |"\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>\<空间\>\<PidTagSurname\>\<空间\>\<PidTagGeneration\>"  <br/> |
-|0x00008038  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\<空间\>\<PidTagMiddleName\>\<空间\>\<PidTagGeneration\>"  <br/> |
-|0xfffffffd  <br/> |指定，显示该联系人时, 应用程序应尝试使用**dispidFileUnder**和其他联系人属性的当前值的"最佳匹配"查找**dispidFileUnderId**此表中，以前的值之一。  <br/> |
-|0xfffffffe  <br/> |指定时显示该联系人，应用程序应为**dispidFileUnderId**选择适当的默认值 （根据语言区域设置） 并更新**dispidFileUnder**匹配选项。  <br/> |
-|0xffffffff  <br/> |**dispidFileUnder**为用户提供 PT_UNICODE，并另一个联系人姓名属性更改时不应被更改。  <br/> |
+|0x00008017  <br/> |"\<PidTagSurname\>,\<space\>\<PidTagGivenName\>\<space\>"\<\>  <br/> |
+|0x00008018  <br/> |"\<PidTagCompanyName\>\r\n\<PidTagSurname\>,\<space\>\<PidTagGivenName\>\<space\>"\<\>  <br/> |
+|0x00008019  <br/> |"\<PidTagSurname\>,\<space\>\<PidTagGivenName\>\>space PidTagMiddleName\>\r\n\<PidTagCompanyName\>"\<\<  <br/> |
+|0x00008030  <br/> |"\<PidTagSurname\>\<\>PidTagGivenName\<space\>PidTagMiddleName\>"\<  <br/> |
+|0x00008031  <br/> |"\<PidTagSurname\>\<space\>\<PidTagGivenName space\>PidTagMiddleName\>"\<\>\<  <br/> |
+|0x00008032  <br/> |"\<PidTagCompanyName\>\r\n\<PidTagSurname\>\<PidTagGivenName\>\<space\>"\<\>  <br/> |
+|0x00008033  <br/> |"\<PidTagCompanyName\>\r\n\<PidTagSurname\>\<space\>\<PidTagGivenName space\>PidTagMiddleName\>"\<\>\<  <br/> |
+|0x00008034  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\>space PidTagMiddleName\>\r\n\<PidTagCompanyName\>"\<\<  <br/> |
+|0x00008035  <br/> |"\<PidTagSurname\>\<space\>\<\>PidTagGivenName space\>PidTagMiddleName \r\n PidTagCompanyName"\<\>\<\>\<  <br/> |
+|0x00008036  <br/> |"\<PidTagSurname\>\<space\>\>\>PidTagGivenName\>space PidTagMiddleName\>space\>PidTagGeneration\<"\<\<\<\<  <br/> |
+|0x00008037  <br/> |"\<PidTagGivenName\>\<space\>\>\>PidTagMiddleName\>space PidTagSurname\>space\>PidTagGeneration\<"\<\<\<\<  <br/> |
+|0x00008038  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\>space\>PidTagMiddleName\>space\>PidTagGeneration"\<\<\<\<  <br/> |
+|0xfffffffd  <br/> |指定在显示联系人时, 应用程序应尝试使用**dispidFileUnder**和其他联系人属性的当前值, 以查找此表中以前的值之一的**dispidFileUnderId**的 "最佳匹配"。  <br/> |
+|0xfffffffe  <br/> |指定在显示联系人时, 应用程序应选择**dispidFileUnderId**的适当默认值 (根据语言区域设置), 并更新**dispidFileUnder**以匹配选择。  <br/> |
+|0xffffffff  <br/> |**dispidFileUnder**是用户提供的 PT_UNICODE, 不应在其他联系人名称属性更改时更改。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定允许用于联系人和个人通讯组列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

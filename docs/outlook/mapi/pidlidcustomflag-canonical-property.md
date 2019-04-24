@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bfb7fd1e-774f-9a2f-fbbe-ba7f68ed8663
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9a131c633b8dcf9b0e5070f01de8fcab90a18ade
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357615"
 ---
 # <a name="pidlidcustomflag-canonical-property"></a>PidLidCustomFlag 规范属性
 
@@ -25,21 +25,21 @@ ms.locfileid: "25384197"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定一条消息自定义方式，例如，使用自定义属性保存的位掩码。
+一个位掩码, 指定如何自定义邮件 (例如, 使用自定义属性保存)。
   
 ## 
 
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidCustomFlag  <br/> |
-|长 ID （盖）：  <br/> |0x00008251  <br/> |
+|长 ID (盖子):  <br/> |0x00008251  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-若要检索此属性的值，首先使用**[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** 获取的属性标记，然后指定**[IMAPIProp::GetProps](imapiprop-getprops.md)** 获取值中的此属性标记。 
+若要检索此属性的值, 请先使用**[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)** 获取属性标记, 然后在**[IMAPIProp:: GetProps](imapiprop-getprops.md)** 中指定此属性标记以获取值。 
   
-可能的标志如下所示：
+可能的标志如下所示:
   
 ****
 
@@ -48,7 +48,7 @@ ms.locfileid: "25384197"
 |INSP_ONEOFFFLAGS  <br/> |0x0D000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x02000000  <br/> |
    
-当调用**IMAPIProp::GetIDsFromNames**，指定以下值所指的输入的参数*lppPropNames* **[MAPINAMEID](mapinameid.md)** 结构。 
+调用**IMAPIProp:: GetIDsFromNames**时, 为输入参数*lppPropNames*指向的**[MAPINAMEID](mapinameid.md)** 结构指定以下值。 
   
 ****
 
@@ -56,25 +56,25 @@ ms.locfileid: "25384197"
 |:-----|:-----|
 |lpGuid:  <br/> |PSETID_Common  <br/> |
 |ulKind:  <br/> |MNID_ID  <br/> |
-|Kind.lID:  <br/> |dispidCustomFlag  <br/> |
+|类型盖子:  <br/> |dispidCustomFlag  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

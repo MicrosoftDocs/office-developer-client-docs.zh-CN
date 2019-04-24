@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01711aca-c598-438c-88d7-0719b6691e34
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9cc2f5f3880466c0a70febedbc7aaec987b62bb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: f534912377aadb3c342030fc02fce26693857476
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351112"
 ---
 # <a name="imessagecreateattach"></a>IMessage::CreateAttach
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个新附件。
+创建新附件。
   
 ```cpp
 HRESULT CreateAttach(
@@ -40,35 +40,35 @@ LPATTACH FAR * lppAttach
 
  _lpInterface_
   
-> [in]表示要用于访问邮件的接口的界面标识符 (IID) 的指针。 传递 NULL 将导致消息的标准界面或**IMessage**，返回。 
+> 实时指向接口标识符 (IID) 的指针, 该接口标识符代表要用于访问邮件的接口。 在返回的消息的标准接口 (或**IMessage**) 中传递 NULL 结果。 
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何创建附件。 可以设置以下标记：
+> 实时用于控制附件创建方式的标志的位掩码。 可以设置以下标志:
     
 MAPI_DEFERRED_ERRORS 
   
-> 允许**CreateAttach**返回成功，可能之前附件是完全可调用客户端。 如果附件不可访问，则进行后续呼叫到它会导致错误。 
+> 允许**CreateAttach**成功返回, 这可能是在将附件完全访问呼叫客户端之前。 如果附件不可访问, 则对其进行后续调用可能会导致错误。 
     
  _lpulAttachmentNum_
   
-> [输出]指向标识新创建的附件的索引号。 仅当邮件处于打开状态，并且基础的附件的**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性时，此数字是有效。
+> 排除指向标识新创建的附件的索引号的指针。 此号码仅在邮件打开时有效, 并且是附件的**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性的基础。
     
  _lppAttach_
   
-> [输出]指向打开附件对象的指针的指针。
+> 排除指向打开的附件对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 附件已成功创建。
+> 已成功创建附件。
     
 ## <a name="remarks"></a>注解
 
-**IMessage::CreateAttach**方法创建一个新附件的邮件。 客户端具有调用附件的[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法和消息的**IMAPIProp::SaveChanges**方法之前，新的附件和该设置的任何属性不可用。 
+**IMessage:: CreateAttach**方法在邮件上创建新附件。 在客户端已调用附件的[IMAPIProp:: savechanges](imapiprop-savechanges.md)方法和 message 的**IMAPIProp:: savechanges**方法之前, 将无法使用为其设置的新附件和任何属性。 
   
-指向_lpulAttachmentNum_的附件数是唯一的并且只在邮件的上下文中有效。 即两个不同的邮件中的两个附件可以具有相同数量，而不能在同一消息中的两个附件。 
+_lpulAttachmentNum_指向的附件编号是唯一的, 并且仅在邮件的上下文中有效。 也就是说, 两个不同邮件中的两个附件可以具有相同的号码, 而同一邮件中的两个附件不能相同。 
   
 ## <a name="see-also"></a>另请参阅
 

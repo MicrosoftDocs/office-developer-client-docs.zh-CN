@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 008cadb1-4c8e-4ef7-a072-aa1d75a448cf
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 62b58a271f8c1b230131cebdc9166e149245dc60
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356320"
 ---
 # <a name="pidnamecontenttransferencoding-canonical-property"></a>PidNameContentTransferEncoding 规范属性
 
@@ -25,13 +25,13 @@ ms.locfileid: "25386752"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 [RFC3282] 内容传输编码标头字段值。
+包含 [RFC3282] 内容传送编码的标头字段值。
   
 |||
 |:-----|:-----|
-|友好名称：  <br/> |无  <br/> |
-|属性进行设置：  <br/> |PS_INTERNET_HEADERS  <br/> |
-|属性名称：  <br/> |内容传送编码  <br/> |
+|友好名称:  <br/> |无  <br/> |
+|属性集:  <br/> |PS_INTERNET_HEADERS  <br/> |
+|属性名称:  <br/> |Content-Transfer-Encoding  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
@@ -39,17 +39,17 @@ ms.locfileid: "25386752"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[毫秒-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> IETF RFC2445、 RFC2446，和 RFC2447，和约会和会议对象之间进行转换。
+> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间进行转换。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

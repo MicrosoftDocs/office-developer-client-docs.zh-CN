@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: b25d9f2b-9454-4983-98f7-6a051a3b8a04
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 140efe0b2d1b428a94b5bb2919d461779613932a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 50fd96acd0989459c9887770ec5a3a236f182da5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348893"
 ---
 # <a name="itabledatahrenumrow"></a>ITableData::HrEnumRow
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-检索根据其位置表中的行。 
+根据行在表中的位置对其进行检索。 
   
 ```cpp
 HRESULT HrEnumRow(
@@ -38,27 +38,27 @@ HRESULT HrEnumRow(
 
  _ulRowNumber_
   
-> [in]要为其返回属性的行数。 _UlRowNumber_参数中的值可以是 0，表示在表中，通过 n-1，这表明表中的最后一行的第一行中的任何值。 
+> 实时要为其返回属性的行的编号。 _ulRowNumber_参数中的值可以是0中的任何值, 它指示表中的第一行, 即表示表中的最后一行的 n-1。 
     
  _lppSRow_
   
-> [输出]指向介绍目标行[SRow](srow.md)结构的指针的指针。 
+> 排除指向描述目标行的[SRow](srow.md)结构的指针的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功检索行或_ulRowNumber_参数指定的行号行不存在。 
+> 已成功检索行, 或_ulRowNumber_参数所指定的行号的行不存在。 
     
 ## <a name="remarks"></a>注解
 
-**ITableData::HrEnumRow**方法检索行基于序列号。 这个数字表示插入的顺序 （0 表示的第一行和减 1 之间的行数指示最后一行）。 MAPI 维护表数据对象的生存期内行插入此时间顺序。 
+**ITableData:: HrEnumRow**方法根据顺序编号检索行。 此数字表示插入顺序 (0 表示第一行, 行数减1表示最后一行)。 MAPI 在表数据对象的生存期内保持行插入的时间顺序。 
   
-如果号码中指定的_ulRowNumber_不对应于表中的行， **HrEnumRow** ，则返回 S_OK 和_lppSRow_参数设置为 NULL。 
+如果_ulRowNumber_中指定的数字不对应于表中的行, 则**HrEnumRow**将返回 S_OK, 并将_lppSRow_参数设置为 NULL。 
   
-MAPI 创建表格数据对象时使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数返回**SRow**结构分配内存。 呼叫者必须通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数释放此内存。 
+在创建 table data 对象时, MAPI 使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数为返回的**SRow**结构分配内存。 调用方必须通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数来释放此内存。 
   
-若要检索行从表格中插入了它们的顺序，表数据对象的用户，请调用**HrEnumRow**方法。 
+若要按插入顺序检索表中的行, 则表数据对象用户调用**HrEnumRow**方法。 
   
 ## <a name="see-also"></a>另请参阅
 

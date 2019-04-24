@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 165ffbd0-54aa-4692-8bd1-09e6ff3762df
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8bbe8aa00ce446d228c23e1d474fa5140ae7b40a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 77a376bba8d65737be84e2af62e65e0419d20957
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351266"
 ---
 # <a name="scduppropset"></a>ScDupPropset
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-复制一个独立的 MAPI 内存组合的[ScCopyProps](sccopyprops.md)和[ScCountProps](sccountprops.md)函数的操作块中的属性值数组。 
+在单个 MAPI 内存块中复制属性值数组, 以组合[ScCopyProps](sccopyprops.md)和[ScCountProps](sccountprops.md)函数的操作。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 SCODE ScDupPropset(
@@ -46,24 +46,24 @@ SCODE ScDupPropset(
 
  _cprop_
   
-> [in]由_rgprop_参数指示在阵列中的属性值的计数。 
+> 实时由_rgprop_参数指示的数组中的属性值的计数。 
     
  _rgprop_
   
-> [in]指向[SPropValue](spropvalue.md)结构定义要重复的属性值的数组。 
+> 实时指向定义要复制的属性值的[SPropValue](spropvalue.md)结构数组的指针。 
     
  _lpAllocateBuffer_
   
-> [in]指向[MAPIAllocateBuffer](mapiallocatebuffer.md)函数，以用于重复数组分配内存。 
+> 实时指向[MAPIAllocateBuffer](mapiallocatebuffer.md)函数的指针, 该函数用于为重复的数组分配内存。 
     
  _prgprop_
   
-> [输出]为在内存中存储的**SPropValue**结构重复返回的数组的初始位置的指针。 
+> 排除指向存储返回的**SPropValue**结构的重复数组的内存中的初始位置的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 

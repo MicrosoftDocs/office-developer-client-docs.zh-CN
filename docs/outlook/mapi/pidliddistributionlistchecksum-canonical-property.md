@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bd50ab34-caae-4258-8afc-769e3cbc5220
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ac1f0d839b1ea059ec2b8d94556808bea3850862
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383903"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357608"
 ---
 # <a name="pidliddistributionlistchecksum-canonical-property"></a>PidLidDistributionListChecksum 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25383903"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定的 32 位循环冗余复选 (CRC-32) 多项式校验和个人通讯组列表。
+指定个人通讯组列表的32位循环冗余检查 (CRC-32) 多项式校验和。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidDLChecksum  <br/> |
-|属性进行设置：  <br/> |PSETID_Address  <br/> |
-|长 ID （盖）：  <br/> |0x0000804C  <br/> |
+|属性集:  <br/> |PSETID_Address  <br/> |
+|长 ID (盖子):  <br/> |0x0000804C  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |联系人  <br/> |
+|区域：  <br/> |Contact  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性的值可用于检测何时**dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) 属性已更新而不是通过计算 CRC-32 上现有更新其他个人通讯组列表成员属性**dispidDLMembers** 、 将其与**dispidDLChecksum**属性的值进行比较的值。 
+此属性的值可用于检测**dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) 属性何时更新, 而不更新其他个人通讯组列表成员属性, 方法是在现有计算机上计算 CRC-32**dispidDLMembers**的值, 并将其与**dispidDLChecksum**属性的值进行比较。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定允许用于联系人和个人通讯组列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

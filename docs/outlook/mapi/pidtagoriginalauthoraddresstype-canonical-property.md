@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 7cdedb1a-e441-469b-be50-2f18203eb30d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bc3c06c38f8ff8121a8503341cdd1084c036e52d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 596e416624fb6f2bf1fdaef64c2179feb7787815
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356215"
 ---
 # <a name="pidtagoriginalauthoraddresstype-canonical-property"></a>PidTagOriginalAuthorAddressType 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一条消息，即之前正在转发或答复邮件的第一个版本的作者的地址类型。
+包含邮件的首个版本的作者地址类型, 即邮件在转发或答复之前的地址类型。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_ORIGINAL_AUTHOR_ADDRTYPE，PR_ORIGINAL_AUTHOR_ADDRTYPE_A，PR_ORIGINAL_AUTHOR_ADDRTYPE_W  <br/> |
-|标识符：  <br/> |0x0079  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |Server  <br/> |
+|相关属性：  <br/> |PR_ORIGINAL_AUTHOR_ADDRTYPE、PR_ORIGINAL_AUTHOR_ADDRTYPE_A、PR_ORIGINAL_AUTHOR_ADDRTYPE_W  <br/> |
+|标识符:  <br/> |0x0079  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |服务器  <br/> |
    
 ## <a name="remarks"></a>注解
 
-这些属性是邮件的作者的地址属性的示例。 在首次提交邮件，客户端应用程序应将此属性设置为**PR_SENDER_ADDRTYPE** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)) 属性的值。 当转发或答复邮件永远不会更改它。
+这些属性是邮件作者地址属性的示例。 首次提交邮件时, 客户端应用程序应将此属性设置为**PR_SENDER_ADDRTYPE** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)) 属性的值。 转发或答复邮件时, 它永远不会更改。
   
-原始作者属性允许保留来自域外部的本地消息的信息。 当邮件到达从其他邮件的域时，如从 Internet，这些属性提供一种方法，以确保原始信息不会丢失。
+原始作者属性允许保留本地邮件域外部的信息。 当邮件到达其他邮件域 (例如从 Internet) 时, 这些属性提供了一种确保原始信息不会丢失的方法。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

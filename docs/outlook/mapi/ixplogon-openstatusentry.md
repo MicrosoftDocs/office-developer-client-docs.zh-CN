@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 261d5f7c-bb61-4e1d-aa41-cca224c63f8e
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7cb77308ebc7229adcab290fc8e1f9e11ce45065
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: d9e09de1064a0ae034bb3618f0e5b3719a82c163
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356026"
 ---
 # <a name="ixplogonopenstatusentry"></a>IXPLogon::OpenStatusEntry
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-打开传输提供程序的状态对象。
+打开传输提供程序的 status 对象。
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,33 +40,33 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> [in]指向传输登录对象的界面标识符 (IID) 的指针。 如果传递 NULL 返回[IMAPIStatus](imapistatusimapiprop.md)接口。 _LpInterface_参数还可以设置为对象的接口的标识符。 
+> 实时指向传输登录对象的接口标识符 (IID) 的指针。 传递 NULL 将返回[IMAPIStatus](imapistatusimapiprop.md)接口。 也可以将_lpInterface_参数设置为对象接口的标识符。 
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何打开状态对象。 可以设置以下标记：
+> 实时标志的位掩码, 用于控制状态对象的打开方式。 可以设置以下标志:
     
 MAPI_MODIFY 
   
-> 请求读/写权限。 默认接口是只读的。 
+> 请求读取/写入权限。 默认接口是只读的。 
     
  _lpulObjType_
   
-> [输出]一个指向打开的对象的类型。
+> 排除一个指针, 指向打开的对象的类型。
     
  _lppEntry_
   
-> [输出]指向打开的状态对象的指针的指针。
+> 排除指向打开的状态对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功，并返回预期的值。
+> 调用成功, 并返回了所需的一个或一些值。
     
 ## <a name="remarks"></a>注解
 
-客户端应用程序的传输提供程序的状态表格行中的项标识符调用**OpenEntry**方法时，MAPI 后台处理程序调用**IXPLogon::OpenStatusEntry**方法。 **OpenStatusEntry**打开与此特定传输提供程序的登录关联的**IMAPIStatus**接口的对象。 此对象然后用于启用客户端应用程序调用**IMAPIStatus**方法 （例如，若要重新登录会话配置使用[IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md)方法，或使用[验证登录会话的状态IMAPIStatus::ValidateState](imapistatus-validatestate.md)方法)。 
+当客户端应用程序在传输提供程序的状态表行中为条目标识符调用**OpenEntry**方法时, MAPI 后台处理程序将调用**IXPLogon:: OpenStatusEntry**方法。 **OpenStatusEntry**将打开一个对象, 其中包含与此特定传输提供程序登录相关联的**IMAPIStatus**接口。 然后, 使用此对象来启用客户端应用程序, 以调用**IMAPIStatus**方法 (例如, 使用[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)方法重新配置登录会话, 或使用[验证登录会话的状态。IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法)。 
   
 ## <a name="see-also"></a>另请参阅
 

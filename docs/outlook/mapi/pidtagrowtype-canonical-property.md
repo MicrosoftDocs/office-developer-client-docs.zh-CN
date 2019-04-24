@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d57ce5c8-1f60-4709-b86a-4468c4208dfe
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 962e8c92ae61e8b60862a3ae26a7cdfbf5034e89
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359512"
 ---
 # <a name="pidtagrowtype-canonical-property"></a>PidTagRowType 规范属性
 
@@ -25,24 +25,24 @@ ms.locfileid: "25383063"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个值，指示的表中的行类型。
+包含一个值, 该值指示表中的行的类型。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ROW_TYPE  <br/> |
-|标识符：  <br/> |0x0FF5  <br/> |
+|标识符:  <br/> |0x0FF5  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性仅在内容表上显示。 类别仅存在时，该项目。
+此属性仅在内容表上显示。 仅当类别包含项目时才存在。
   
-此属性可以具有完全下列值之一：
+此属性可以具有下列值之一:
   
 TBL_LEAF_ROW 
   
-> 代表实际数据，而不是类别行。
+> 表示实际数据, 而不是类别行。
     
 TBL_EMPTY_CATEGORY 
   
@@ -50,29 +50,29 @@ TBL_EMPTY_CATEGORY
     
 TBL_EXPANDED_CATEGORY 
   
-> 展开类别;用户界面通常显示此旁边其减号 （-）。
+> 该类别已展开;用户界面通常会显示此标记, 旁边有减号 (-)。
     
 TBL_COLLAPSED_CATEGORY 
   
-> 折叠类别;用户界面通常显示此它旁边的加号 （+）。
+> 已折叠类别;用户界面通常会显示此标记, 旁边有加号 (+)。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
+[[毫秒-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> 包含允许的操作的核心 table 对象。
+> 包括核心表对象的允许操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

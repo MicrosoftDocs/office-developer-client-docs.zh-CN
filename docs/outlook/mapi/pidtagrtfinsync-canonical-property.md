@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 443cc68e-7898-4285-a606-f916fcd18554
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ed038faf44f350b041191373cf573e7e185337c7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357874"
 ---
 # <a name="pidtagrtfinsync-canonical-property"></a>PidTagRtfInSync 规范属性
 
@@ -25,48 +25,48 @@ ms.locfileid: "25383056"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性具有相同的文本内容此消息的**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性，包含 TRUE。
+如果**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性的文本内容与此邮件的**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性相同, 则该参数为 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RTF_IN_SYNC  <br/> |
-|标识符：  <br/> |0x0E1F  <br/> |
+|标识符:  <br/> |0x0E1F  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-值为 TRUE 表示**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性，此消息的纯文本版本和**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性，富文本格式 (RTF) 版本中，完全相同的除外**PR_BODY**和中**PR_RTF_COMPRESSED**格式中的空格。 两个版本中的文本包含的顺序相同的字符。
+如果值为 TRUE, 则表示**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性、此邮件的纯文本版本和**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性, rtf 格式 (rtf) 版本完全相同, 但**PR_RTF_COMPRESSED**中的**PR_BODY**和格式的空格。 这两个版本中的文本由相同序列中的相同字符组成。
   
-值为 FALSE 表示的两个版本不同步的文本内容，但能够在同步[RTFSync](rtfsync.md)函数。 已更改一个版本和其他版本却没有。 
+如果值为 FALSE, 则表示两个版本不同步文本内容, 但可以通过[RTFSync](rtfsync.md)函数进行同步。 一个版本已更改, 另一个版本未更改。 
   
-没有值表示的两个版本中，如果同时存在或以往任何时候都存在，无法同步。 已删除或修改大大同步不再可能一个版本。
+"无值" 表示两个版本 (如果存在或都已存在) 无法同步。 一个版本已被删除或更改, 因此不再可能进行同步。
   
-已修改**PR_RTF_COMPRESSED**客户端应用程序应设置的值为 FALSE 以强制执行同步此属性中。 RTF 感知消息存储应执行[IMAPIProp::SaveChanges](imapiprop-savechanges.md)呼叫期间使用**RTFSync**同步。 RTF 感知客户端应检查**PR_RTF_IN_SYNC**阅读**PR_RTF_COMPRESSED**之前, 的设置，并首先呼叫**RTFSync** ，如有必要。 
+已修改**PR_RTF_COMPRESSED**的客户端应用程序应将此属性中的值设置为 FALSE, 以强制进行同步。 RTF 感知邮件存储应在[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)调用过程中使用**RTFSync**执行同步。 RTF 感知客户端应先检查**PR_RTF_IN_SYNC**的设置, 然后再读取**PR_RTF_COMPRESSED**, 并在必要时先调用**RTFSync** 。 
   
-如果**PR_BODY**已为其空格以外的任何修改，消息存储库必须删除**PR_RTF_IN_SYNC**终止同步。 
+如果**PR_BODY**对非空白区域的任何内容进行了修改, 邮件存储必须删除**PR_RTF_IN_SYNC**以终止同步。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 4799084a-b5d1-48c3-a889-b2f0e9d68c30
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 555bb4820dc36934fb28197b7e222633a5248125
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7ee641214e1eaae667af356fd8dbe51ff7dc7982
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351189"
 ---
 # <a name="imapiviewcontextsetadvisesink"></a>IMAPIViewContext::SetAdviseSink
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-管理窗体的注册中查看者接收有关更改的通知。 
+管理表单注册, 以便在查看器中接收有关更改的通知。 
   
 ```cpp
 HRESULT SetAdviseSink(
@@ -37,31 +37,31 @@ LPMAPIFORMADVISESINK pmvns
 
  _pmvns_
   
-> [in]向窗体的指针建议接收器对象或 NULL。
+> 实时指向表单建议接收器对象或空值的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功注册或取消的窗体通知。
+> 表单通知的注册或取消已成功。
     
 ## <a name="remarks"></a>注解
 
-表单对象调用任一注册，以了解有关表单查看器中更改或取消预先注册到**IMAPIViewContext::SetAdviseSink**方法。 当_pmvns_设置为 NULL 时，表单想要取消注册。 时有效的窗体的_pmvns_指向告知接收器，窗体想要注册将来的通知。 
+表单对象调用**IMAPIViewContext:: SetAdviseSink**方法以注册, 以了解有关表单查看器中的更改或取消之前的注册。 当_pmvns_设置为 NULL 时, 窗体要取消注册。 当_pmvns_指向有效的窗体建议接收器时, 该表单希望注册将来的通知。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果**SetAdviseSink**包含窗体告知接收器指针，请继续对它的引用，直到进行另一个**SetAdviseSink**调用取消通知。 在您查看器和所加载新消息时，将发生更改时发送通知。 
+当**SetAdviseSink**包含窗体建议接收器指针时, 保留对它的引用, 直到再次调用**SetAdviseSink**以取消通知。 在查看器中发生更改时, 以及在加载新邮件时发送通知。 
   
-有关详细信息，请参阅[发送和接收窗体通知](sending-and-receiving-form-notifications.md)。
+有关详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SetAdviseSink  <br/> |MFCMAPI 此函数中实现**IMAPIViewContext::SetAdviseSink**方法。  <br/> |
+|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: SetAdviseSink  <br/> |MFCMAPI 实现此函数中的**IMAPIViewContext:: SetAdviseSink**方法。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

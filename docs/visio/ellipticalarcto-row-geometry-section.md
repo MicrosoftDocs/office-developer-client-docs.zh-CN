@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm3015
 localization_priority: Normal
 ms.assetid: 7ceb30a8-1d05-feff-35d8-08a198784a27
-description: 包含 x 和 y-的椭圆弧终结点、 x 和 y 坐标-、 弧形上的控件点的坐标从 x angle-椭圆的长轴和比率椭圆的主要和次要刻度轴的轴。
-ms.openlocfilehash: 9a356429f14a20b72a8bd55689855e2954d4a807
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 包含椭圆弧端点的 x 坐标和 y 坐标、弧形上控制点的 x 坐标和 y 坐标、从 x 轴到椭圆主轴的夹角以及椭圆主要和次要轴的比率。
+ms.openlocfilehash: c6db7560a05652ca3bfcadb2fd4857ac39370562
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345673"
 ---
-# <a name="ellipticalarcto-row-geometry-section"></a>EllipticalArcTo 行（“Geometry”部分）
+# <a name="ellipticalarcto-row-geometry-section"></a>EllipticalArcTo 行（“Geometry”内容）
 
-包含*x*和*y*坐标的椭圆弧终结点， *x* -和*y* -、 弧形上的控件点的坐标从*x* angle-轴椭圆的长轴和椭圆的主要和 mino 比率r 坐标轴。 
+包含椭圆弧端点的*x*坐标和*y*坐标、弧形上控制点的*x*坐标和*y*坐标、从*x*轴到椭圆主轴的夹角以及椭圆的主要和 mino 之间的比率。r 轴。 
   
 EllipticalArcTo 行包含以下单元格。
   
-|**Cell**|**说明**|
+|**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -弧形上的终顶点的坐标。  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -弧形上的终顶点的坐标。  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |*X* -坐标的弧的控制点;弧形上某个点。是最好位于之间的开始和结束顶点的一半的控制点。否则，以便通过的控制点，无法预料的结果的极大增长可能弧。  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |*Y* -弧形的控制点的坐标。  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |弧形的长轴相对于*x*角度-其父级的轴。  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |弧形上的终顶点的*x*坐标。  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |弧形上的终顶点的*y*坐标。  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |弧形的控制点的*x*坐标;弧形上的一点。控制点最适合弧的起始和结束顶点之间的中间点。否则, 弧的大小可能会增大到极大的大小, 以便通过控制点, 从而导致不可预知的结果。  <br/> |
+|[黑白](b-cell-geometry-section.md) <br/> |弧形的控制点的*y*坐标。  <br/> |
+|[lc](c-cell-geometry-section.md) <br/> |弧形的长轴相对于其父级的*x*轴的角度。  <br/> |
 |[D](d-cell-geometry-section.md) <br/> |弧形的长短轴之比。尽管每一词都有其本义，但在此处“长”轴却并不一定大于“短”轴，所以此比值也就不一定大于 1。如果将此单元格设置为小于等于 0 或大于 1000 的值，可能导致无法预料的结果。  <br/> |
    
 

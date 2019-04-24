@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bce46687-17dc-4a3f-96be-303d8755158e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d463be4a14ecf478bdcbddc50b4ad9360829befc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355151"
 ---
 # <a name="pidtagrenderingposition-canonical-property"></a>PidTagRenderingPosition 规范属性
 
@@ -25,46 +25,46 @@ ms.locfileid: "25396195"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含偏移量，以字符，用于在呈现主消息文本中的附件。
+包含在主邮件文本中呈现附件时要使用的偏移量 (以字符为单位)。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RENDERING_POSITION  <br/> |
-|标识符：  <br/> |0x370B  <br/> |
+|标识符:  <br/> |0x370B  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-时提供的偏移量为-1 (0xFFFFFFFF)，则不使用此属性中呈现附件。 -1 以外的所有值都指示频率附件是要呈现的**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性中的位置。
+当提供的偏移量为-1 (0xffffffff) 时, 不使用此属性呈现附件。 -1 以外的所有值指示要在**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性中呈现附件的位置。
   
- **注释**附件被替换**PR_BODY**中此属性指定的字符。 通常该字符为一个空格，但也可以使用特殊的占位符。 
+ **注释**由**PR_BODY**中的此属性指示的字符将替换为附件。 通常, 此字符是一个空格, 尽管也可以使用一个特殊的占位符字符。 
   
-此属性以字符为单位。 在某些字符集这是不等于字节。 Unicode 应用程序可以计算基于双字节字符的位置。 双字节字符集 (DBCS) 应用程序必须扫描的文本，最多为此属性值，因为其字符表示形式而异每个字符的一和第二个字节。
+此属性以字符表示。 在某些字符集中, 这与字节不等效。 Unicode 应用程序可以基于双字节字符计算位置。 双字节字符集 (DBCS) 应用程序必须将文本扫描到此属性值, 因为它们的字符表示形式在每个字符的1到2个字节之间有所不同。
   
-使用富文本格式 (RTF) 文本，不应使用此属性。 呈现位置的转义序列调用对象的附件占位符指示以 rtf 格式。 此序列包含字符串`\objattph`跟单个字符，通常空格将替换为附件呈现。 
+此属性不应用于 rtf 格式文本。 呈现位置通过称为对象附件占位符的转义序列以 RTF 表示。 此序列由后跟单个`\objattph`字符 (通常为空格) 的字符串组成, 附件呈现将替换该字符串。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

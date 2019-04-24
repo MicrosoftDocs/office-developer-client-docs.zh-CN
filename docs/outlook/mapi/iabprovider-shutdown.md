@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1fbe6dc1-254b-4557-92c8-9fa42a8efd64
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0a93dd44960a01996672a55501a7626d0ff56986
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 8b2190f77c7575d3d4f5e25fa0863bec844158bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567886"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348900"
 ---
 # <a name="iabprovidershutdown"></a>IABProvider::Shutdown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-取消活动会话的连接。
+取消与活动会话的连接。
   
 ```cpp
 HRESULT Shutdown(
@@ -37,17 +37,17 @@ HRESULT Shutdown(
 
  _lpulFlags_
   
-> [In]保留;必须为零的指针。
+> 实时保留必须是指向零的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 连接成功已取消。
+> 已成功取消连接。
     
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-**Shutdown**方法的实现中, 执行考虑所需的任何任务。 只有在已发布您的所有登录对象后，MAPI 调用**Shutdown**方法。 
+在您的**Shutdown**方法实现中, 执行您认为必要的任何任务。 只有在发布了所有的登录对象之后, MAPI 才会调用您的**关闭**方法。 
   
 ## <a name="see-also"></a>另请参阅
 

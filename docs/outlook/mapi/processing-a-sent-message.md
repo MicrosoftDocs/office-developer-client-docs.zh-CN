@@ -8,35 +8,35 @@ api_type:
 - COM
 ms.assetid: 55b3e692-753d-45e9-a40d-22adc81b75da
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bd86e5d06e868ebc540d8eb779c059089045cd8a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 880731bf204778cde21da6cd9024a3ca86c6f6a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351063"
 ---
 # <a name="processing-a-sent-message"></a>处理已发送的邮件
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-传出消息后被发送，可以处于发件箱文件夹，移动到文件夹指定用于保存已发送邮件，或删除。 处理的类型取决于已设置属性存储的邮件：
+发送的邮件在发送之后可以保留在 "发件箱" 文件夹中, 移动到指定用于保留已发送邮件的文件夹中, 或被删除。 处理的类型取决于是否设置了邮件存储库属性:
   
 - **PR_DELETE_AFTER_SUBMIT**([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) 
     
 - **PR_SENTMAIL_ENTRYID**([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) 
     
- **PR_DELETE_AFTER_SUBMIT**为布尔值属性，否则设置为 TRUE 如果应在后发送，删除消息和 FALSE。 **PR_SENTMAIL_ENTRYID**是文件夹的项标识符。 当设置此属性时，您应将已发送的邮件移动到表示此项标识符的文件夹。 保存的邮件通常具有标识的最后一个消息存储或传输提供程序将发送给他们。 
+ **PR_DELETE_AFTER_SUBMIT**是一个布尔属性, 如果邮件发送后应将其删除, 则设置为 TRUE, 否则设置为 FALSE。 **PR_SENTMAIL_ENTRYID**是文件夹的条目标识符。 设置此属性时, 应将已发送的邮件移动到此条目标识符所表示的文件夹中。 保存的邮件通常具有最后的邮件存储或传输提供程序的标识, 以发送它们。 
   
-一个或其他，或两个属性都不应设置，但不是能同时。 但是，如果您设置**PR_SENTMAIL_ENTRYID**，它必须包含一个有效项标识符。 
+应设置其中一个或多个属性, 但不能同时设置这两个属性中的任何一个。 但是, 如果设置**PR_SENTMAIL_ENTRYID**, 则它必须包含有效的条目标识符。 
   
-下表描述了这些属性如何影响您对于已发送邮件的处理。
+下表描述了这些属性如何影响您对已发送邮件所执行的操作。
   
 |||
 |:-----|:-----|
-|如果既属性设置：  <br/> |将邮件保留从中发送 （通常发件箱） 的文件夹中。  <br/> |
-|如果设置**PR_SENTMAIL_ENTRYID** :  <br/> |将邮件移动到指定的文件夹。  <br/> |
-|如果设置**PR_DELETE_AFTER_SUBMIT** :  <br/> |删除邮件。  <br/> |
+|如果两个属性都不设置:  <br/> |将邮件保留在发送邮件的文件夹中 (通常为 "发件箱")。  <br/> |
+|如果设置了**PR_SENTMAIL_ENTRYID** :  <br/> |将邮件移动到指定的文件夹。  <br/> |
+|如果设置了**PR_DELETE_AFTER_SUBMIT** :  <br/> |删除邮件。  <br/> |
    
 

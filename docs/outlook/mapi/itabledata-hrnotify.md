@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98548b50-342e-434a-9ad3-c37ba418c5ce
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 20831901567f177ada70a6cea94db0537786db94
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: aa2170bf4bedfb441ad4808f774f6f71d5caf85e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348634"
 ---
 # <a name="itabledatahrnotify"></a>ITableData::HrNotify
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-发送通知的表格行。
+为表行发送通知。
   
 ```cpp
 HRESULT HrNotify(
@@ -39,25 +39,25 @@ HRESULT HrNotify(
 
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
  _cValues_
   
-> [in]_LpSPropValue_参数指向[SPropValue](spropvalue.md)结构中的属性值的计数。 
+> 实时由_lpSPropValue_参数指向的[SPropValue](spropvalue.md)结构中的属性值的计数。 
     
  _lpSPropValue_
   
-> [in]指向介绍的目标行中的列的值的**SPropValue**结构的指针。 
+> 实时指向描述目标行中各列的值的**SPropValue**结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-**ITableData::HrNotify**方法发送 TABLE_ROW_MODIFIED 通知匹配_lpSPropValue_参数指向属性并由它们所述的行的行。 **HrNotify**发送无论是否发生了更改行的通知。 所有客户端和视图的表的和具有其视图上的通知调用[IMAPITable::Advise](imapitable-advise.md)注册的服务提供商收到此通知。 
+**ITableData:: HrNotify**方法发送与_lpSPropValue_参数所指向的属性所描述的行相匹配的行的 TABLE_ROW_MODIFIED 通知。 **HrNotify**发送通知, 无论行是否发生了更改。 所有具有表视图且已调用[IMAPITable:: 建议](imapitable-advise.md)在其视图中注册通知的客户端和服务提供程序都会收到此通知。 
   
 ## <a name="see-also"></a>另请参阅
 

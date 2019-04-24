@@ -8,26 +8,26 @@ f1_keywords:
 - vis_sdr.chm60042
 localization_priority: Normal
 ms.assetid: 8927f811-7d8e-ed54-9eec-b86a781168dd
-ms.openlocfilehash: a586cca497e1ba04848142917a84c3aa8a25d081
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 17c597df3d9e7e741d902fd566cc9a5de1f31ea0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359659"
 ---
-# <a name="droponpagescale-cell-miscellaneous-section"></a>DropOnPageScale 单元格（“Miscellaneous”部分）
+# <a name="droponpagescale-cell-miscellaneous-section"></a>DropOnPageScale 单元格（“Miscellaneous”内容）
 
 包含形状在绘图页上放下时缩放比例的百分比。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 在下面两种情况下，Visio 将缩放形状，以使其适当地显示在绘图页上：
   
 - 将不可测量的形状放在有比例的绘图上时。
     
-- 测量的形状放在上时无比例的绘图。
+- 将已测量的形状放在不成比例的绘图上时。
     
-DropOnPageScale 单元格中的百分比指示 Visio 缩放形状，或者 up 因子 (\>100) 或向下 (\<100)。 计算硬编码值时，您可以使用此号码作为因素。 
+DropOnPageScale 单元格中的百分比指示 Visio 将形状放大 (\>100) 或下移 (\<100) 的因子。 在计算硬编码值时，您可以使用此数字作为因数。 
   
 对于有比例绘图上的可测量形状或无比例绘图上的不可测量形状，此值是 100%。 
   

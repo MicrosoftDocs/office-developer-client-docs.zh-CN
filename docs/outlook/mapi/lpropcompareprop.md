@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: f14ad568-fe45-4875-957d-415d39dc6f28
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0985ed0c5d4482bb22f46bdc9198afc343c61e5f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7417ddeb814cafb954d5ab80a6dae771fd0f7a79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357433"
 ---
 # <a name="lpropcompareprop"></a>LPropCompareProp
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-比较两个属性值来确定它们是否相等。 
+对两个属性值进行比较, 以确定它们是否相等。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 LONG LPropCompareProp(
@@ -44,30 +44,30 @@ LONG LPropCompareProp(
 
  _lpSPropValueA_
   
-> [in]指向[SPropValue](spropvalue.md)结构定义要进行比较的第一个属性值的指针。 
+> 实时指向一个[SPropValue](spropvalue.md)结构的指针, 该结构定义要比较的第一个属性值。 
     
  _lpSPropValueB_
   
-> [in]指向**SPropValue**结构定义要进行比较的第二个属性值的指针。 
+> 实时指向一个**SPropValue**结构的指针, 该结构定义要比较的第二个属性值。 
     
 ## <a name="return-value"></a>返回值
 
- **LPropCompareProp**返回大多数属性类型的下列值之一： 
+ 对于大多数属性类型, **LPropCompareProp**返回以下值之一: 
   
-- 小于零值由_lpSPropValueA_参数小于的_lpSPropValueB_参数指示。 
+- 如果_lpSPropValueA_参数指示的值小于_lpSPropValueB_参数所指定的值, 则小于零。 
     
-- 大于零，如果值由_lpSPropValueA_为大于由_lpSPropValueB_。
+- 如果_lpSPropValueA_指示的值大于_lpSPropValueB_所指示的值, 则大于零。
     
-- 零，如果值由_lpSPropValueA_等于指示_lpSPropValueB_的值。 
+- 如果_lpSPropValueA_指示的值等于_lpSPropValueB_指示的值, 则为零。 
     
-对于具有任何固有排序，如布尔值的属性类型或错误类型， **LPropCompareProp**函数返回未定义的值，如果两个属性值不相等。 未定义的该值是跨呼叫非零值和一致。 
+对于没有内在排序的属性类型 (如 Boolean 或错误类型), 如果两个属性值不相等, **LPropCompareProp**函数将返回一个未定义的值。 此未定义的值在各个调用中是非零和一致的。 
   
 ## <a name="remarks"></a>注解
 
-仅当要进行比较的两个属性的类型都是相同，请使用**LPropCompareProp**函数。 
+仅当要比较的两个属性的类型相同时, 才使用**LPropCompareProp**函数。 
   
-调用之前**LPropCompareProp**，客户端应用程序或服务提供商必须先检索对[IMAPIProp::GetProps](imapiprop-getprops.md)方法的调用与比较的属性。 客户端或提供程序的调用**LPropCompareProp**，该函数首先检查属性标记以确保属性值的比较结果时有效。 然后，该函数比较返回相应值的属性值。 
+在调用**LPropCompareProp**之前, 客户端应用程序或服务提供程序必须先检索属性以与对[IMAPIProp:: GetProps](imapiprop-getprops.md)方法的调用进行比较。 当客户端或提供程序调用**LPropCompareProp**时, 该函数将首先检查属性标记, 以确保属性值的比较有效。 然后, 该函数将比较属性值, 并返回适当的值。 
   
-如果属性值不相等， **LPropCompareProp**确定哪一种更高版本。 **LPropCompareProp**比较的属性没有属于相同的对象。 
+如果属性值不相等, **LPropCompareProp**将确定哪一个是较大的值。 **LPropCompareProp**比较的属性不必属于同一个对象。 
   
 

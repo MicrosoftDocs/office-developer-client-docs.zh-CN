@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3befe70363d1e2226b8a3a3a6ebb8db39aa2c6ef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359722"
 ---
 # <a name="add-voting-options-to-a-mail-item"></a>向邮件项添加投票选项
 
@@ -28,7 +28,7 @@ ms.locfileid: "28725992"
 
 在下面的代码示例中，OrderPizza 在新邮件中创建投票选项。 OrderPizza 先创建 **MailItem**，再将 **VotingOptions** 属性设置为“Cheese; Mushroom; Sausage; Combo; Veg Combo”，并将 [Subject](https://msdn.microsoft.com/library/bb611353\(v=office.15\)) 属性设置为“Pizza Order”。 在发送的“披萨订单”邮件中，收件人看到投票选项。 对于收到的每个答复，收件人的选择记录在发件人“已发送邮件”文件夹中邮件的“跟踪”**** 页上。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

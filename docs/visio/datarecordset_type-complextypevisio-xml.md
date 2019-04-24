@@ -1,5 +1,5 @@
 ---
-title: DataRecordSet_Type 复杂类型 (Visio XML)
+title: DataRecordSet_Type 复杂类型 ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,20 +7,20 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 59544910-6bd5-2c89-71b3-5c8ee91a1dea
 ms.openlocfilehash: 36d6cf3b34ad0aa81f7b097d6452c46679342a02
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360358"
 ---
-# <a name="datarecordsettype-complextype-visio-xml"></a>DataRecordSet_Type 复杂类型 (Visio XML)
+# <a name="datarecordsettype-complextype-visio-xml"></a>DataRecordSet_Type 复杂类型 ("Visio XML")
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
 |**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**架构文件** <br/> |VisioSchema15 2012 06 05.xsd  <br/> |
+|**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
 ## <a name="definition"></a>定义
@@ -112,7 +112,7 @@ ms.locfileid: "25395474"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
   
 ### <a name="child-elements"></a>子元素
 
@@ -120,27 +120,27 @@ ms.locfileid: "25395474"
 |:-----|:-----|:-----|
 |[AutoLinkComparison](autolinkcomparison-element-datarecordset_type-complextypevisio-xml.md) <br/> |[AutoLinkComparison_Type](autolinkcomparison_type-complextypevisio-xml.md) <br/> ||
 |[DataColumns](datacolumns-element-datarecordset_type-complextypevisio-xml.md) <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> ||
-|[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> ||
+|[关键字](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> ||
 |[RefreshConflict](refreshconflict-element-datarecordset_type-complextypevisio-xml.md) <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> ||
-|[Rel](rel-element-datarecordset_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
+|[相对](rel-element-datarecordset_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
 |[RowMap](rowmap-element-datarecordset_type-complextypevisio-xml.md) <br/> |[RowMap_Type](rowmap_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>Attributes
+### <a name="attributes"></a>属性
 
-|**属性**|**类型**|**必需**|**说明**|**可能的值**|
+|**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|校验和  <br/> |xsd:unsignedInt  <br/> |可选  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
-|命令  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
-|ConnectionID  <br/> |xsd:unsignedInt  <br/> |可选  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |必需  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
-|名称  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
-|NextRowID  <br/> |xsd:unsignedInt  <br/> |可选  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
-|选项  <br/> |xsd:unsignedInt  <br/> |可选  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
-|RefreshInterval  <br/> |xsd:unsignedInt  <br/> |可选  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
-|RefreshNoReconciliationUI  <br/> |化  <br/> |可选  <br/> ||化类型的值。  <br/> |
-|RefreshOverwriteAll  <br/> |化  <br/> |可选  <br/> ||化类型的值。  <br/> |
-|ReplaceLinks  <br/> |xsd:unsignedInt  <br/> |可选  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
-|RowOrder  <br/> |化  <br/> |可选  <br/> ||化类型的值。  <br/> |
-|TimeRefreshed  <br/> |化  <br/> |可选  <br/> ||化类型的值。  <br/> |
+|校验和  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
+|Command  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
+|ConnectionID  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
+|名称  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
+|NextRowID  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
+|选项  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
+|RefreshInterval  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
+|RefreshNoReconciliationUI  <br/> |xsd: boolean  <br/> |可选  <br/> ||xsd: boolean 类型的值。  <br/> |
+|RefreshOverwriteAll  <br/> |xsd: boolean  <br/> |可选  <br/> ||xsd: boolean 类型的值。  <br/> |
+|ReplaceLinks  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
+|RowOrder  <br/> |xsd: boolean  <br/> |可选  <br/> ||xsd: boolean 类型的值。  <br/> |
+|TimeRefreshed  <br/> |xsd: dateTime  <br/> |可选  <br/> ||xsd: dateTime 类型的值。  <br/> |
    
 

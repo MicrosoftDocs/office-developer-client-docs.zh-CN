@@ -1,22 +1,22 @@
 ---
-title: Colors 元素 （VisioDocument_Type 复杂类型） (Visio XML)
+title: Colors 元素 (VisioDocument_Type 复杂类型) ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f439c2d-78be-5f2e-fa5a-f3feb83a0234
-description: 包含文档颜色表。
+description: 包含文档的颜色表。
 ms.openlocfilehash: bd46f58dfbb8a596717662b9a0524d59bb508270
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358756"
 ---
-# <a name="colors-element-visiodocumenttype-complextype-visio-xml"></a>Colors 元素 （VisioDocument_Type 复杂类型） (Visio XML)
+# <a name="colors-element-visiodocumenttype-complextype-visio-xml"></a>Colors 元素 (VisioDocument_Type 复杂类型) ("Visio XML")
 
-包含文档颜色表。
+包含文档的颜色表。
   
 ## <a name="element-information"></a>元素信息
 
@@ -24,8 +24,8 @@ ms.locfileid: "25400528"
 |:-----|:-----|
 |**元素类型** <br/> |[Colors_Type](colors_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
-|**文档部件** <br/> |document.xml  <br/> |
+|**架构文件** <br/> |VisioSchema15  <br/> |
+|**文档部件** <br/> |document .xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,7 +36,7 @@ ms.locfileid: "25400528"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
   
 ### <a name="parent-elements"></a>父元素
 

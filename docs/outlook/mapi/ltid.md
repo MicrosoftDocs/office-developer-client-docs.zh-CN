@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17a412ba-3f74-ba94-0ffa-01dae63fc157
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 29dd2e3b47d0f43df7824274d2fdcc4f7f16eeb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 2ea877c9328279322de0f15e5755096e74819425
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357412"
 ---
 # <a name="ltid"></a>LTID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-Outlook 存储区中某个对象的通用长术语 ID。
+Outlook 应用商店中的对象的常规长期术语 ID。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -34,19 +34,19 @@ struct LTID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
  _guid_
   
-- [输出]创建对象的服务器的 GUID。
+- 排除创建该对象的服务器的 GUID。
     
  _globcnt_
   
-- [输出]标识的 Outlook 存储中的对象的 6 个字节唯一编号。
+- 排除一个6字节的唯一编号, 用于标识 Outlook 存储中的对象。
     
  _wLevel_
   
-- [输出]Exchange 喜欢公用文件夹的条目 ID 层次结构级别。
+- 排除Exchange 收藏的公用文件夹的条目 ID 的层次结构级别。
     
 ## <a name="see-also"></a>另请参阅
 
@@ -54,7 +54,7 @@ struct LTID
 
 [关于复制 API](about-the-replication-api.md)
   
-[关于复制状态计算机](about-the-replication-state-machine.md)
+[关于复制状态机](about-the-replication-state-machine.md)
   
 [FEID](feid.md)
 

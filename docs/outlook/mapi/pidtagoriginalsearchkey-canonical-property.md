@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ac5eb91d-31c9-459b-bb22-f4ccfc92d1db
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d106a216e8d72c126f3293f9d492db73992c3872
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355291"
 ---
 # <a name="pidtagoriginalsearchkey-canonical-property"></a>PidTagOriginalSearchKey 规范属性
 
@@ -25,42 +25,42 @@ ms.locfileid: "25384169"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含原始搜索密钥复制到个人通讯簿通讯簿或其他写通讯簿中的条目。
+包含从通讯簿复制到个人通讯簿或其他可写通讯簿的条目的原始搜索关键字。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ORIGINAL_SEARCH_KEY  <br/> |
-|标识符：  <br/> |0x3A14  <br/> |
+|标识符:  <br/> |0x3A14  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性是包含有关复制条目的原始源的信息的属性之一。
+此属性是包含有关复制的条目的原始源的信息的属性之一。
   
-对于 nonread 报表，此属性包含搜索关键字的原始邮件收件人为其生成报告的副本。 原始收件人是通讯组列表的一部分，当报表保留通讯组列表的搜索键。
+对于未读报告, 此属性包含为其生成报告的原始邮件收件人的搜索键的副本。 当原始收件人是通讯组列表的一部分时, 将为该报告保留通讯组列表的搜索关键字。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和用户、 联系人、 组和资源的操作列表。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

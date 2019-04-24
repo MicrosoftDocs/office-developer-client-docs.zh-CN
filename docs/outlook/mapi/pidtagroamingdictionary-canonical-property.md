@@ -13,28 +13,28 @@ api_type:
 ms.assetid: 40b50181-f88c-40ee-b3d0-a36dd36c158e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4b2aa12b1b81dfd218781a839f5f84881763ef06
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400325"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359547"
 ---
 # <a name="pidtagroamingdictionary-canonical-property"></a>PidTagRoamingDictionary 规范属性
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含描述漫游字典 XML 文档。
+包含描述漫游词典的 XML 文档。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ROAMING_DICTIONARY  <br/> |
-|标识符：  <br/> |0x7C07  <br/> |
+|标识符:  <br/> |0x7C07  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |Configuration  <br/> |
+|区域：  <br/> |配置  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性包含一个使用 UTF8 编码的 UNICODE XML 文档。 具有词典流一条消息必须设置此属性与下面的架构：
+此属性包含使用 UTF8 编码的 UNICODE XML 文档。 带有字典流的邮件必须使用以下架构设置此属性:
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?> 
@@ -50,7 +50,7 @@ ms.locfileid: "25400325"
    </xs:complexType>
 ```
 
-以下是存储在配置数据邮件此属性的示例 XML 文档： 
+以下是在配置数据消息上存储在此属性中的示例 XML 文档: 
   
 ```xml
 <?xml version="1.0"?> 
@@ -68,23 +68,23 @@ ms.locfileid: "25400325"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[毫秒-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> 指定的位置和客户端和服务器配置数据，如共享的类别列表和工作时间的属性。
+> 指定客户端和服务器配置数据的位置和属性, 如共享类别列表和工作时间。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

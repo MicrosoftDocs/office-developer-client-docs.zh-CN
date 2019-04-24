@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0b7ffe39-ee6c-71eb-355c-9bb4660260f1
 description: 包含由应用程序生成的触发器公式，该公式确定是否移动一维形状的起点以便保持其与另一个形状的连接。
-ms.openlocfilehash: 5dec179f1847c30c6ef563d866360b6dd31a1d88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b401d349119337016a96b5fffbc26f7be2891864
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360352"
 ---
-# <a name="begtrigger-cell-glue-info-section"></a>BegTrigger 单元格（“Glue Info”部分）
+# <a name="begtrigger-cell-glue-info-section"></a>BegTrigger 单元格（“Glue Info”内容）
 
 包含由应用程序生成的触发器公式，该公式确定是否移动一维形状的起点以便保持其与另一个形状的连接。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 当使用动态粘附将一维形状粘附到另一个形状时，应用程序会生成一个公式，公式中引用其他形状的 EventXFMod 单元格。当更改该形状时，Visio 会重新计算引用其 EventXFMod 单元格的任何公式，包括 BegTrigger 单元格中的公式。该一维形状的其他公式引用 BegTrigger 单元格并根据需要移动一维形状的起点或变更形状。
   

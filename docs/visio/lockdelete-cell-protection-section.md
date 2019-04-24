@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 596c62b7-8d42-1854-d709-592db09a6a84
 description: 锁定形状，使它不能被删除。
-ms.openlocfilehash: 00229dcabf45d2a3435039ffe05fd7eb4de75808
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0819969c9ba17a52de19341b359b33ceae5b44d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359617"
 ---
-# <a name="lockdelete-cell-protection-section"></a>LockDelete 单元格（“Protection”部分）
+# <a name="lockdelete-cell-protection-section"></a>LockDelete 单元格（“Protection”内容）
 
 锁定形状，使它不能被删除。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 不能删除形状  <br/> |
 | FALSE  <br/> | 能够删除形状。  <br/> |
    
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LockDelete 单元格的引用，请使用： 
   

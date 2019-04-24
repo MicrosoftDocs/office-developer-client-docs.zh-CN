@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 58f0bae4-0c05-421e-9890-7ac929fe1435
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 851a4a959c8eb43edd33505c18577b0523c640ff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1866260a17958d85578fe9670f95ada815429394
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359939"
 ---
 # <a name="pidlidremotetransfertime-canonical-property"></a>PidLidRemoteTransferTime 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指示的传输时间，以秒为单位的远程项目。
+指示远程项目的传输时间 (以秒为单位)。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidRemoteXferTime  <br/> |
-|属性进行设置：  <br/> |PSETID_Remote  <br/> |
-|长 ID （盖）：  <br/> |0x00008F04  <br/> |
+|属性集:  <br/> |PSETID_Remote  <br/> |
+|长 ID (盖子):  <br/> |0x00008F04  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |远程邮件  <br/> |
    
@@ -39,13 +39,13 @@ ms.locfileid: "22586562"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

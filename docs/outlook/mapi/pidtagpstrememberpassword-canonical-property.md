@@ -10,25 +10,25 @@ api_type:
 - COM
 ms.assetid: 2f8eff88-848c-4ad4-a6be-b1744a0ce4ce
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e747034d64d83105de6413fe7546235cabb5d491
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4688c706629368be0c2a56490020a0cab17c5bf1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356503"
 ---
 # <a name="pidtagpstrememberpassword-canonical-property"></a>PidTagPstRememberPassword 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-确定是否要记住的配置文件中的密码。
+确定是否记住配置文件中的密码。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PST_REMEMBER_PW  <br/> |
-|标识符：  <br/> |0x6701  <br/> |
+|标识符:  <br/> |0x6701  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |个人存储表 (.pst) 内部  <br/> |
    
@@ -36,19 +36,19 @@ ms.locfileid: "22585470"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

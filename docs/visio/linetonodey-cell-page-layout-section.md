@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 49d649e8-1603-192b-2984-e5d0b713da89
 description: 确定在绘图页上所有连接线和形状之间的垂直间距。
-ms.openlocfilehash: bd5216a68abc4bcd8c3ef807b98280edb0ad29b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2a5e4469fae2fb3142db2745f26c2009d42c0d2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359183"
 ---
-# <a name="linetonodey-cell-page-layout-section"></a>LineToNodeY 单元格（“Page Layout”部分）
+# <a name="linetonodey-cell-page-layout-section"></a>LineToNodeY 单元格（“Page Layout”内容）
 
 确定在绘图页上所有连接线和形状之间的垂直间距。
   

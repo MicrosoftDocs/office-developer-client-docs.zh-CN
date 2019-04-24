@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9b804728541b0f2a0499bbf0078bfee2e5aed6ee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab4a06a20c71943f9b649d8f22377f59223e9717
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355809"
 ---
 # <a name="imapimessagesitegetsitestatus"></a>IMAPIMessageSite::GetSiteStatus
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回信息有关邮件消息网站对象中为当前消息的网站的功能。
+从邮件网站对象返回有关当前邮件的邮件网站功能的信息。
   
 ```cpp
 HRESULT GetSiteStatus(
@@ -37,7 +37,7 @@ HRESULT GetSiteStatus(
 
  _lpulStatus_
   
-> [输出]一个指向提供有关邮件状态信息的标志位掩码。 可以设置以下标志：
+> 排除指向提供有关邮件状态的信息的标志的位掩码的指针。 可以设置以下标志:
     
 VCSTATUS_COPY 
   
@@ -49,19 +49,19 @@ VCSTATUS_DELETE
     
 VCSTATUS_DELETE_IS_MOVE 
   
-> 删除时，邮件移动到而不是从其消息存储库立即删除其消息存储库中的**已删除邮件**文件夹。 
+> 删除后, 邮件将移到其邮件存储区中的 "**已删除**邮件" 文件夹中, 而不是立即从邮件存储库中删除。 
     
 VCSTATUS_MOVE 
   
-> 邮件可被移动。
+> 可以移动邮件。
     
 VCSTATUS_NEW_MESSAGE 
   
-> 可以创建一个新的邮件。
+> 可以创建新邮件。
     
 VCSTATUS_SAVE 
   
-> 可以保存该邮件。
+> 可以保存邮件。
     
 VCSTATUS_SUBMIT 
   
@@ -71,25 +71,25 @@ VCSTATUS_SUBMIT
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-表单对象调用**IMAPIMessageSite::GetSiteStatus**方法获取当前消息的消息网站对象的功能。 _LpulStatus_参数中返回的标志提供有关邮件网站的信息。 通常情况下，窗体启用或禁用菜单命令，具体取决于标志提供有关功能的信息的邮件网站实现。 如果新邮件[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)方法或[IPersistMessage::Load](ipersistmessage-load.md)方法加载到窗体时，必须检查状态标志。 某些消息网站对象，尤其是只读的对象，不允许保存或删除的邮件。 
+表单对象调用**IMAPIMessageSite:: GetSiteStatus**方法来获取当前邮件的邮件网站对象的功能。 _lpulStatus_参数中返回的标志提供有关邮件网站的信息。 通常情况下, 窗体启用或禁用菜单命令, 具体取决于标志提供的有关邮件网站实现功能的信息。 如果通过[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md)方法或[IPersistMessage:: Load](ipersistmessage-load.md)方法将新邮件加载到表单中, 则必须选中状态标志。 某些邮件网站对象 (尤其是只读对象) 不允许保存或删除邮件。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-**IMAPIMessageSite::GetSiteStatus**方法可能需要进行一些计算，以确定操作可以或不能对当前邮件执行客户端应用程序。 通常情况下，涉及的当前消息的消息存储提供程序，看的状态行或查询的存储提供程序，以确定哪些操作的客户端应用程序可以执行使用的消息存储。 例如，若要确定是否返回 MAPI_DELETE_IS_MOVE 标志，检查消息存储对象**PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) 属性以查看是否存在中的**已删除邮件**文件夹邮件存储区。 
+**IMAPIMessageSite:: GetSiteStatus**方法可能需要客户端应用程序执行某些计算, 以确定可以或无法对当前邮件执行的操作。 通常, 这涉及查看当前邮件的邮件存储提供程序的状态行, 或查询存储提供程序, 以确定客户端应用程序可以使用邮件存储执行的操作。 例如, 若要确定是否返回 MAPI_DELETE_IS_MOVE 标志, 请检查邮件存储对象的**PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) 属性, 以查看是否有 "**已删除邮件**" 文件夹在邮件存储区。 
   
-有关与窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSiteStatus  <br/> |MFCMAPI 使用**IMAPIMessageSite::GetSiteStatus**方法获取指定网站的状态。 它可以返回 VCSTATUS_NEW_MESSAGE、 VCSTATUS_SAVE 或 VCSTATUS_SUBMIT。  <br/> |
+|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetSiteStatus  <br/> |MFCMAPI 使用**IMAPIMessageSite:: GetSiteStatus**方法获取指定网站的状态。 它可以返回 VCSTATUS_NEW_MESSAGE、VCSTATUS_SAVE 或 VCSTATUS_SUBMIT。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

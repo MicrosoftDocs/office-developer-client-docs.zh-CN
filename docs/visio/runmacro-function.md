@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm1033809
 localization_priority: Normal
 ms.assetid: 86b0f071-5e0b-56de-ff5b-63c114ad823a
-description: 调用宏在 Microsoft Visual Basic for Applications (VBA) 项目。
-ms.openlocfilehash: e3dd989956ce9c5f795ae3ef0d8535ab2776d6d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 调用 Microsoft Visual Basic for Applications (VBA) 项目中的宏。
+ms.openlocfilehash: 77045bd67fe9be9aab14e73199b33b93c6d70c2c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355711"
 ---
 # <a name="runmacro-function"></a>RUNMACRO 函数
 
-调用宏在 Microsoft Visual Basic for Applications (VBA) 项目。 
+调用 Microsoft Visual Basic for Applications (VBA) 项目中的宏。 
   
 ## <a name="syntax"></a>语法
 
-RUNMACRO (* * *macroname* * * [，* * *projname_opt* * *]) 
+RUNMACRO (* * *macroname* * * [, * * *projname_opt* * *]) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _macroname_ <br/> |必需  <br/> |**字符串** <br/> |要调用的宏的名称。  <br/> |
+| _macroname_ <br/> |必需  <br/> |**String** <br/> |要调用的宏的名称。  <br/> |
 | _projname_opt_ <br/> |可选  <br/> |**字符串** <br/> | 包含宏的项目。  <br/> |
    
 ## <a name="remarks"></a>注解
 
-如果指定一个项目，则 Microsoft Visio 将扫描一个包含_projname_opt_和呼叫_macroname_该项目中的所有打开的文档。 如果_projname_opt_被省略或 null ("")，则假定_macroname_可在 VBA 项目中的文档的包含 RUNMACRO 公式进行计算。 
+如果指定了一个项目, Microsoft Visio 将扫描所有打开的文档, 其中包含_projname_opt_并调用该项目中的_macroname_ 。 如果_projname_opt_被省略或为空 (""), 则假定_macroname_在包含所评估的 RUNMACRO 公式的文档的 VBA 项目中。 
   
-RUNMACRO 函数与 CALLTHIS 函数不同，不传递到拥有对_macroname_计算的公式的形状的引用。 CALLTHIS，如 RUNMACRO 函数不需要对_projname_opt_调用它的引用。 
+RUNMACRO 函数与 CALLTHIS 函数的不同之处在于, 它不会传递对将计算结果为_macroname_的公式的形状的引用。 与 CALLTHIS 一样, RUNMACRO 函数不需要对_projname_opt_的引用即可对其进行调用。 
   
  在 Visio 实例对公式中的 RUNMACRO 函数求值时所调用的 VBA 代码不应关闭包含使用该函数的单元格的文档，因为这样会导致应用程序出错，并且 Visio 将终止。 
   

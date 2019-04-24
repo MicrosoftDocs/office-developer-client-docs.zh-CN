@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 9830e09c-700f-469b-a54d-4e4e0583aa84
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1f93ee653c9365488432c4e797b171a199c30107
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c565c088fd4ef7d5df141bf770c560f79535998
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349299"
 ---
 # <a name="iaddrbookgetpab"></a>IAddrBook::GetPAB
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回的项标识符指定为个人通讯簿 (PAB) 的容器。
+返回指定为 "个人通讯簿" (PAB) 的容器的条目标识符。
   
 ```cpp
 HRESULT GetPAB(
@@ -38,29 +38,29 @@ HRESULT GetPAB(
 
  _lpcbEntryID_
   
-> [输出]一个指向_lppEntryID_参数指向该条目标识符中的字节数。 
+> 排除指向条目标识符中由_lppEntryID_参数指向的字节计数的指针。 
     
  _lppEntryID_
   
-> [输出]指向 PAB 的项标识符的指针的指针。 如果没有容器被指定为 PAB， _lppEntryID_参数包含零。 
+> 排除指向 PAB 条目标识符的指针的指针。 如果没有指定为 PAB 的容器, 则_lppEntryID_参数包含零。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回 PAB 的项标识符。
+> 已成功返回 PAB 的条目标识符。
     
 ## <a name="remarks"></a>注解
 
-客户端调用**GetPAB**方法检索的项标识符指定为 PAB 的容器。 如果尚未配置文件中建立 PAB，MAPI 选择作为 PAB 第一个容器允许进行修改的通讯簿层次结构中。 
+客户端调用**GetPAB**方法以检索被指定为 PAB 的容器的条目标识符。 如果未在配置文件中建立 pab, MAPI 将选择 pab 通讯簿层次结构中允许修改的第一个容器。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenPAB  <br/> |MFCMAPI 使用**GetPAB**方法来获取用户的个人通讯簿的 ID。  <br/> |
+|MainDlg  <br/> |CMainDlg:: OnOpenPAB  <br/> |MFCMAPI 使用**GetPAB**方法获取用户的个人通讯簿的 ID。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

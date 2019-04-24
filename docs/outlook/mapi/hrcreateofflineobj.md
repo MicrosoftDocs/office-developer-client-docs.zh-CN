@@ -8,24 +8,24 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 04d57c1d-ce91-42ce-9f0f-00563092f6f4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f86266f192ffb1c86ca48f0fd5f99559737a9e76
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a34c441a473154a43a107b4236ccc259d327dba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348053"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
- 创建一个 MAPI 脱机对象，以便通知 MAPI，当对象联机和脱机，使用提供程序和存储 
+ 创建一个 MAPI 脱机对象, 该对象由提供程序和存储区使用, 以便在对象处于联机和脱机状态时通知 MAPI。 
   
 |||
 |:-----|:-----|
-|导出：  <br/> |Msmapi32.dll  <br/> |
-|通过实现：  <br/> |Outlook  <br/> |
-|调用：  <br/> |客户端  <br/> |
+|导出者:  <br/> |Msmapi32  <br/> |
+|实现者：  <br/> |Outlook  <br/> |
+|调用者：  <br/> |客户端  <br/> |
    
 ```cpp
 STDAPI HrCreateOfflineObj(
@@ -39,15 +39,15 @@ IMAPIOfflineMgr** ppOffline
 
 _ulFlags_
   
-> [in]它必须是 0。
+> 实时它必须为0。
     
 _pCreateInfo_
   
-> [in]一个指向**MAPIOFFLINE_CREATEINFO**结构，其中包含创建脱机对象所需的信息。 
+> 实时指向**MAPIOFFLINE_CREATEINFO**结构的指针, 该结构包含创建脱机对象所需的信息。 
     
 _ppOffline_
   
-> [输出]指向**IMAPIOfflineMgr**接口的指针。 
+> 排除指向**IMAPIOfflineMgr**接口的指针。 
     
 ## <a name="return-value"></a>返回值
 

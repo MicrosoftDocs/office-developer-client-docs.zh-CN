@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e9a640f4-0af0-317c-b77b-f32c651e87b4
 description: 锁定形状的格式，使它无法更改。
-ms.openlocfilehash: c3e4d5be848e91554406e709ce6872ae49b5f38d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0d1bb8a65b8087136e57bb46ad9f5363da30030
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780622"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359611"
 ---
-# <a name="lockformat-cell-protection-section"></a>LockFormat 单元格（“Protection”部分）
+# <a name="lockformat-cell-protection-section"></a>LockFormat 单元格（“Protection”内容）
 
 锁定形状的格式，使它无法更改。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 不能更改格式。  <br/> |
 | FALSE  <br/> | 能够更改格式。  <br/> |
    
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LockFormat 单元格的引用，请使用： 
   

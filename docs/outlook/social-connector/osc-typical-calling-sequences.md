@@ -7,33 +7,33 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f61960f7-e018-4d2e-8e32-426ed46d9064
-description: 本节介绍 Outlook Social Connector (OSC) 典型调用序列 OSC 提供程序实现的 OSC 提供程序扩展性接口中的成员。
-ms.openlocfilehash: 4a79e27fadb78933f41f26818cfab8b7f4a5aae7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 本节介绍了在 .osc 提供商实施的 .osc 提供程序扩展性接口中的 Outlook Social Connector (.osc) 典型的成员呼叫序列。
+ms.openlocfilehash: f7829b710d6840ccd1fa0f990d6e03b2eb879431
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356264"
 ---
 # <a name="osc-typical-calling-sequences"></a>OSC 典型调用序列
 
-本节介绍 Outlook Social Connector (OSC) 典型调用序列 OSC 提供程序实现的 OSC 提供程序扩展性接口中的成员。 典型调用序列说明如何以及何时 OSC 使用此类接口和方法，让您更好地确定如何在提供程序扩展性接口实现给定的成员。 实际的调用序列取决于[ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md)方法返回的功能。 功能的示例包括： 
+本节介绍了在 .osc 提供商实施的 .osc 提供程序扩展性接口中的 Outlook Social Connector (.osc) 典型的成员呼叫序列。 典型的呼叫序列说明了 .osc 如何以及何时使用这些接口和方法, 以便更好地确定如何在提供程序扩展性接口上实现给定成员。 实际调用顺序可能因[ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md)方法返回的功能而异。 这些功能的示例包括: 
   
-- 获取、 缓存，或动态查找朋友和活动从社交网络支持提供程序。
+- 从社交网络获取、缓存或动态查找好友和活动的提供程序支持。
     
-- OSC 应显示为用户登录用户界面。
+- 供用户登录时, .osc 应显示的用户界面。
     
-- OSC 应使用的身份验证类型 （例如，基于表单的身份验证）。
+- .osc 应使用的身份验证类型 (例如, 基于表单的身份验证)。
     
 ## <a name="in-this-section"></a>本节内容
 
-- [基本身份验证](basic-authentication.md)： 介绍了支持的 Office 用户登录到社交网络中，如果 OSC 提供程序支持基本身份验证 OSC 典型调用序列。
+- [基本身份验证](basic-authentication.md): 介绍在 .osc 提供商支持基本身份验证的情况下, 要支持登录到社交网络的 Office 用户, 您的 .osc 的典型呼叫序列。
     
-- [基于表单的身份验证](forms-based-authentication.md)： 介绍了支持的 Office 用户登录到社交网络中，如果 OSC 提供程序支持基于表单的身份验证 OSC 典型调用序列。
+- [基于表单的身份验证](forms-based-authentication.md): 介绍在 .osc 提供程序支持基于表单的身份验证的情况下, 用于支持登录到社交网络的 Office 用户的 .osc 的典型呼叫顺序。
     
-- [获取活动](getting-activities.md)： 介绍同步的从社交网络的 Office 用户的好友的活动 OSC 典型调用序列，如果社交网络 OSC 提供程序支持的活动同步。
+- [获取活动](getting-activities.md): 介绍在社交网络 .osc 提供商支持活动同步的情况下, 从社交网络同步 Office 用户好友活动的 .osc 的典型呼叫顺序。
     
-- [获取好友信息](getting-friends-information.md)： 如果社交网络 OSC 提供程序支持的联系人的缓存的同步介绍同步社交网络中，从 Office 用户朋友列表 OSC 典型调用序列。
+- [获取朋友信息](getting-friends-information.md): 如果社交网络 .osc 提供商支持对联系人的缓存同步, 则介绍了 .osc 的典型呼叫顺序, 以便从社交网络同步 Office 用户的好友列表。
     
 ## <a name="reference"></a>参考
 
@@ -43,17 +43,17 @@ ms.locfileid: "19779320"
 
 - [Outlook Social Connector 提供程序开发入门（英文）](getting-started-with-developing-an-outlook-social-connector-provider.md)
   
-- [OSC 示例模板](osc-sample-templates.md)
+- [.osc 示例模板](osc-sample-templates.md)
   
-- [开发 OSC XML 架构的提供程序](developing-a-provider-with-the-osc-xml-schema.md)
+- [使用 .osc XML 架构开发提供程序](developing-a-provider-with-the-osc-xml-schema.md)
   
 - [调试提供程序](debugging-a-provider.md)
   
 - [部署提供程序](deploying-a-provider.md)
   
-- [开发提供程序的最佳做法](best-practices-for-developing-a-provider.md)
+- [开发提供程序的最佳实践](best-practices-for-developing-a-provider.md)
   
 ## <a name="see-also"></a>另请参阅
 
-- [功能 XML](xml-for-capabilities.md)
+- [XML 的功能](xml-for-capabilities.md)
 

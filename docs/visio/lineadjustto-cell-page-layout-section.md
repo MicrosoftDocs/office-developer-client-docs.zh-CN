@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 81cd9670-8a6f-824b-528c-e9b88c86f525
 description: 确定哪些动态连接线要彼此重叠。
-ms.openlocfilehash: 13540f9dc5e6e6861d3f3679bcf49204d553397a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4fb32c0fcb488173324ea597edc2c9d13f6bfca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359309"
 ---
-# <a name="lineadjustto-cell-page-layout-section"></a>LineAdjustTo 单元格（“Page Layout”部分）
+# <a name="lineadjustto-cell-page-layout-section"></a>LineAdjustTo 单元格（“Page Layout”内容）
 
 确定哪些动态连接线要彼此重叠。
   
-|**值**|**调整**|**自动常量**|
+|**值**|**调**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |默认的排列样式  <br/> |**visPLOLineAdjustToDefault** <br/> |
 |1  <br/> |彼此紧邻的线条  <br/> |**visPLOLineAdjustToAll** <br/> |
-|2  <br/> |无线条  <br/> |**visPLOLineAdjustToNone** <br/> |
-|3  <br/> |相关线条  <br/> |**visPLOLineAdjustToRelated** <br/> |
+|双面  <br/> |无线条  <br/> |**visPLOLineAdjustToNone** <br/> |
+|第三章  <br/> |相关线条  <br/> |**visPLOLineAdjustToRelated** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 还可以在 **“页面设置”** 对话框中的 **“布局与排列”** 选项卡（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后单击 **“布局与排列”**）上设置此单元格的值。
   

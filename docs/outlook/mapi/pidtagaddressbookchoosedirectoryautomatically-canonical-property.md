@@ -8,41 +8,41 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cecd0679-4bc2-4399-8f89-a4e17bb909a0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b685fd0ebe4a2d0bfcfd8aab3015602b84932db7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 41fdaf333084b7d567f4e67ae9fd2638a1731349
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359785"
 ---
 # <a name="pidtagaddressbookchoosedirectoryautomatically-canonical-property"></a>PidTagAddressBookChooseDirectoryAutomatically 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-启用 Microsoft Outlook 2010 和 Microsoft Outlook 2013，选择最合适的全局地址列表 (GAL) 或联系人的当前邮箱文件夹。
+启用 microsoft outlook 2010 和 microsoft outlook 2013 以选择最适合的全局地址列表 (GAL) 或当前邮箱的联系人文件夹。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY  <br/> |
-|标识符：  <br/> |0x3D1C000B  <br/> |
+|标识符:  <br/> |0x3D1C000B  <br/> |
 |属性类型  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性对应于通讯簿选项对话框中的**自动选择**设置。 当此属性存在 IID_CAPONE_PROF 配置文件一节，并设置为**true**，通讯簿对话框不再默认为[SetDefaultDir](iaddrbook-setdefaultdir.md)方法中，指定的容器，但选择通讯簿的 Outlook 2010 或 Outlook 2013考虑适用于在其中显示对话框中的上下文。 请注意，这可能会导致不好的体验的第三方通讯簿提供程序。 
+此属性对应于 "通讯簿选项" 对话框中的 "**自动选择**" 设置。 当 IID_CAPONE_PROF 配置文件部分中存在此属性并将其设置为**true**时, 通讯簿对话框不再默认为[SetDefaultDir](iaddrbook-setdefaultdir.md)方法指定的容器, 而是选择 outlook 2010 或 outlook 2013 的通讯簿。考虑适合显示对话框的上下文。 请注意, 这可能会导致第三方通讯簿提供程序的体验不佳。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

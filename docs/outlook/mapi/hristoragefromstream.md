@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: 1cdc95b8-a156-4600-9e20-caaa02680e87
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 39f28d5a8e9c8c7f3dfc6a8d09cf022cea08800c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1362b1131d937ef240aa1962db8c1b5116786c67
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563919"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347780"
 ---
 # <a name="hristoragefromstream"></a>HrIStorageFromStream
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-Layers **IStorage**接口到**IStream**对象。 
+将**IStorage**接口分层到**IStream**对象。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 HRESULT HrIStorageFromStream(
@@ -46,44 +46,44 @@ HRESULT HrIStorageFromStream(
 
  _lpUnkIn_
   
-> [in]为实现**IStream**的**IUnknown**对象的指针。 
+> 实时指向实现**IStream**的**IUnknown**对象的指针。 
     
  _lpInterface_
   
-> [in]Stream 对象的接口标识符 (IID) 的指针。 可以在_lpInterface_参数中传递的任何以下值： NULL、 IID_IStream 或 IID_ILockBytes。 在_lpInterface_传递 NULL 是传递 IID_IStream 相同。 
+> 实时指向 stream 对象的接口标识符 (IID) 的指针。 以下任何值都可以在_lpInterface_参数中传递: NULL、IID_IStream 或 IID_ILockBytes。 在_lpInterface_中传递 NULL 与传递 IID_IStream 相同。 
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何存储对象是相对于流创建。 默认设置是 STGSTRM_RESET，其中提供存储对象的只读访问并在位置零流的启动它。 可以在以下标志设置以任意组合，除所述：
+> 实时标志的位掩码, 用于控制存储对象相对于流的创建方式。 默认设置为 STGSTRM_RESET, 它将为存储对象提供只读访问权限, 并在流的位置0处启动该对象。 可以任意组合设置以下标志, 除了所述:
     
 STGSTRM_CREATE 
   
-> 创建新的存储对象的 stream 对象。 如果设置了 STGSTRM_RESET 标志，则不能设置此标志。 
+> 为 stream 对象创建一个新的存储对象。 如果设置了 STGSTRM_RESET 标志, 则不能设置此标志。 
     
 STGSTRM_CURRENT 
   
-> 启动存储 stream 的当前的位置。 如果设置了 STGSTRM_RESET 标志，则不能设置此标志。 
+> 在流的当前位置启动存储。 如果设置了 STGSTRM_RESET 标志, 则不能设置此标志。 
     
 STGSTRM_MODIFY 
   
-> 允许写入返回的存储调用服务提供程序。 如果设置了 STGSTRM_RESET 标志，则不能设置此标志。 
+> 允许呼叫服务提供程序对返回的存储进行写入。 如果设置了 STGSTRM_RESET 标志, 则不能设置此标志。 
     
 STGSTRM_RESET 
   
-> 启动存储位置为零。 如果设置了任何其他标志，则不能设置此标志。 
+> 在位置零处启动存储。 如果设置了任何其他标志, 则不能设置此标志。 
     
  _lppStorageOut_
   
-> [输出]为返回**IStorage**对象指针的指针。 
+> 排除指向返回的**IStorage**对象的指针的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-消息存储提供程序支持的附件使用**IStorage**接口的**HrIStorageFromStream**函数。 存储提供程序必须实现**IStream**接口。 **HrIStorageFromStream** **IStream**对象提供的**IStorage**接口。 就可以传递**ILockBytes**或中_lpUnkIn_ **IStream**接口。 
+邮件存储提供程序支持附件使用**IStorage**接口的**HrIStorageFromStream**函数。 存储提供程序必须实现**IStream**接口。 **HrIStorageFromStream**为**IStream**对象提供**IStorage**接口。 可以在_lpUnkIn_中传递**ILockBytes**或**IStream**接口。 
   
 

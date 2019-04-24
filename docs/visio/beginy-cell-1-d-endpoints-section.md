@@ -8,19 +8,19 @@ f1_keywords:
 - Vis_DSS.chm95
 localization_priority: Normal
 ms.assetid: b2518a70-5755-a15a-a238-bac2ae64a75a
-description: 代表 y-相对于其父级的原点一维形状的起始点的坐标。
-ms.openlocfilehash: aa45b7bf366a4e8091546963968d8930f21100e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 代表一维形状的起点相对于其父级原点的 y 轴坐标值。
+ms.openlocfilehash: dbe1cca3a3b969b14b62cb613359d014c7933bd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360380"
 ---
-# <a name="beginy-cell-1-d-endpoints-section"></a>BeginY 单元格（“1-D Endpoints”部分）
+# <a name="beginy-cell-1-d-endpoints-section"></a>BeginY 单元格（“1-D Endpoints”内容）
 
-代表*y* -相对于其父级的原点一维形状的起始点的坐标。 
+代表一维形状的起点相对于其父级原点的*y*轴坐标值。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 BeginY 单元格的引用，请使用： 
   

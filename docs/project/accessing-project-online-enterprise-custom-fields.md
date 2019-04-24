@@ -7,11 +7,11 @@ ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: Project Online 是 Office 365 服务，公司可以通过扩展此服务来满足业务需求。 其中一个扩展区域是企业自定义域 (ECF)。 ECF 是可添加到项目、资源和任务的类型化值域。 下表列出了与项目、资源和任务相关联的 ECF，并提供了相应 ECF 实例的值示例：
 localization_priority: Priority
 ms.openlocfilehash: 9f754f1446890ae021bf6f7000ffba11e2a2df33
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355081"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>访问 Project Online 企业自定义域
 

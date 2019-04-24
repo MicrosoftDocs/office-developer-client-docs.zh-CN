@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3b3e458a-206c-8699-8bf7-da80f4350706
 description: 确定默认制表位在文本块中的间隔。
-ms.openlocfilehash: 2b9c2c5b03da98b30e338a250b56091479067955
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ae923f6373b9cee76238b1fb27ec5eb3acb43ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360268"
 ---
-# <a name="defaulttabstop-cell-text-block-format-section"></a>DefaultTabstop 单元格（“Text Block Format”部分）
+# <a name="defaulttabstop-cell-text-block-format-section"></a>DefaultTabstop 单元格（“Text Block Format”内容）
 
 确定默认制表位在文本块中的间隔。 
   

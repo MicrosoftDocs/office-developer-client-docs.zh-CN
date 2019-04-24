@@ -13,36 +13,36 @@ api_type:
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0905fbe2ba584aef49c50152aaf448267d477c10
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348956"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供对通讯簿容器的访问。 MAPI 和客户端应用程序调用**IABContainer**执行名称解析和创建、 复制方法，并删除收件人。 
+提供对通讯簿容器的访问权限。 MAPI 和客户端应用程序调用**IABContainer**方法来执行名称解析以及创建、复制和删除收件人。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapidefs.h  <br/> |
-|由公开：  <br/> |通讯簿容器对象  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|公开者:  <br/> |通讯簿容器对象  <br/> |
 |实现者：  <br/> |通讯簿提供程序  <br/> |
 |调用者：  <br/> |MAPI 和客户端应用程序  <br/> |
-|接口标识符：  <br/> |IID_IABContainer  <br/> |
-|指针类型：  <br/> |LPABCONT  <br/> |
-|事务模型：  <br/> |事务处理  <br/> |
+|接口标识符:  <br/> |IID_IABContainer  <br/> |
+|指针类型:  <br/> |LPABCONT  <br/> |
+|事务模型:  <br/> |事务  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[CreateEntry](iabcontainer-createentry.md) <br/> |创建一个新项，可以是邮件用户、 通讯组列表或其他容器。  <br/> |
-|[CopyEntries](iabcontainer-copyentries.md) <br/> |复制一个或多个条目，通常消息的用户或通讯组列表。  <br/> |
-|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |删除一个或多个条目，通常消息的用户、 通讯组列表或其他容器。  <br/> |
-|[ResolveNames](iabcontainer-resolvenames.md) <br/> |执行一个或多个收件人的条目的名称解析。  <br/> |
+|[CreateEntry](iabcontainer-createentry.md) <br/> |创建一个新的条目, 该条目可以是邮件用户、通讯组列表或其他容器。  <br/> |
+|[CopyEntries](iabcontainer-copyentries.md) <br/> |复制一个或多个条目, 通常是邮件用户或通讯组列表。  <br/> |
+|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |删除一个或多个条目, 通常是邮件用户、通讯组列表或其他容器。  <br/> |
+|[ResolveNames](iabcontainer-resolvenames.md) <br/> |为一个或多个收件人条目执行名称解析。  <br/> |
    
 |**必需属性**|**Access**|
 |:-----|:-----|
@@ -60,13 +60,13 @@ ms.locfileid: "25392184"
 |**PR_DEF_CREATE_MAILUSER**([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md))  <br/> |只读  <br/> |
 |**PR_DISPLAY_TYPE**([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**IABContainer**接口从[IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx)接口通过间接继承[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)和[IMAPIProp: IUnknown](imapipropiunknown.md)接口。 通讯簿提供程序实现**IABContainer**接口。 
+**IABContainer**接口通过[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)和[IMAPIProp: IUnknown](imapipropiunknown.md)接口间接继承自[IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx)接口。 通讯簿提供程序实现**IABContainer**接口。 
   
-通讯簿容器中存在可以任意数量的消息的用户对象、 通讯组列表和其他通讯簿容器。 与任何容器，客户端或服务提供商可以使用通讯簿容器来打开其项之一或检索层次结构表或内容表。 通讯的簿容器还提供名称解析，取决于提供程序，可以添加、 删除或修改条目。
+通讯簿容器中可以存在任意数量的邮件用户对象、通讯组列表和其他通讯簿容器。 与任何容器一样, 客户端或服务提供程序可以使用通讯簿容器打开其中一个条目或检索层次结构表或内容表。 通讯簿容器还提供名称解析, 具体取决于提供程序、添加、删除或修改条目的功能。
   
-MAPI 定义名为容纳从其他容器复制的项的个人通讯簿 (PAB) 特殊通讯簿容器。 PAB 始终是修改的。 用户通常填充其 PAB 指定与他们通常通信的收件人的条目。 PAB 也可以容纳一次性地址和新的收件人尚未任何通讯簿容器的一部分。
+MAPI 定义了一个名为 "个人通讯簿 (PAB)" 的特殊通讯簿容器, 该容器保留从其他容器复制的条目。 PAB 始终是可修改的。 用户通常用其自己的 PAB 填充其 PAB, 以指定他们最常与之通信的收件人。 PAB 也可以保留一次性地址和新的收件人, 而不是任何通讯簿容器的一部分。
   
 ## <a name="see-also"></a>另请参阅
 

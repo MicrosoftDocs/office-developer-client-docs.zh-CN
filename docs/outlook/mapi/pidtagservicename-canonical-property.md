@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d950ee21c0c4c41e84c0fe1f8104219e63f84cec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e5659113b1c6579913042ae0c8dfcd03e9802621
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359477"
 ---
 # <a name="pidtagservicename-canonical-property"></a>PidTagServiceName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含由 MapiSvc.inf 文件中的用户设置消息服务的名称。
+包含由用户在 mapisvc.inf 文件中设置的邮件服务的名称。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_SERVICE_NAME，PR_SERVICE_NAME_A，PR_SERVICE_NAME_W  <br/> |
-|标识符：  <br/> |0x3D09  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_SERVICE_NAME、PR_SERVICE_NAME_A、PR_SERVICE_NAME_W  <br/> |
+|标识符:  <br/> |0x3D09  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
 ## <a name="remarks"></a>注解
 
-这些属性中包含的名称是特定于邮件服务。 来自 MapiSvc.inf 中的 [服务] 一节。
+这些属性中包含的名称特定于邮件服务。 它来自 mapisvc.inf 中的 "服务" 部分。
   
-这些属性显示为邮件服务表中的列，并且可用于筛选的服务。 因为它用于标识和筛选服务，不应本地化值。
+这些属性在邮件服务表中显示为一列, 可用于筛选服务。 由于它用于标识和筛选服务, 因此不应本地化该值。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

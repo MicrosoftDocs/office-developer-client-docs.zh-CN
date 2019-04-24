@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 55943197-fd11-442d-bb4b-0bff565b846e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7c19cce33ec351a5627870782ebb4fe509a98be2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b3a0872c94459fc7c24d13e35adf335ef8012182
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357846"
 ---
 # <a name="spropproblem"></a>SPropProblem
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-介绍错误与涉及属性的操作。
+描述与涉及属性的操作相关的错误。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _SPropProblem
@@ -45,19 +45,19 @@ typedef struct _SPropProblem
 
  **ulIndex**
   
-> 属性标记的数组中的索引。
+> 属性标记数组中的索引。
     
  **ulPropTag**
   
-> 属性标记具有错误的属性。
+> 包含错误的属性的属性标记。
     
  **scode**
   
-> 描述属性的问题的错误值。 此值可以是任何 MAPI [SCODE](scode.md)值。 
+> 描述属性问题的错误值。 此值可以是任何 MAPI [SCODE](scode.md)值。 
     
 ## <a name="remarks"></a>注解
 
-从以下方法，则返回**SPropProblem**结构的数组： 
+从以下方法返回**SPropProblem**结构的数组: 
   
 - [IMAPISupport::DoCopyTo](imapisupport-docopyto.md)
     
@@ -73,9 +73,9 @@ typedef struct _SPropProblem
     
 - [IPropData::HrAddObjProps](ipropdata-hraddobjprops.md)
     
-**SPropProblem**结构包含尝试修改或删除的 MAPI 属性的操作的结果**SCODE**错误值。 
+**SPropProblem**结构包含一个由尝试修改或删除 MAPI 属性的操作产生的**SCODE**错误值。 
   
-有关如何与错误相关属性结合使用**SPropProblem**结构的详细信息，请参阅[MAPI 命名属性](mapi-named-properties.md)。 
+有关**SPropProblem**结构如何处理与属性相关的错误的详细信息, 请参阅[MAPI 命名属性](mapi-named-properties.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 91cde601-dca9-4737-afe1-bdf76638dfe3
-description: 返回一个 Boolean 值，该值形状是否含有向其应用了主题。
-ms.openlocfilehash: 4311780d8686b5792e999c204ec182d23efb723c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回一个布尔值, 该值指示是否对形状应用了主题。
+ms.openlocfilehash: 49f53eaaacbdc86a633703d6ef847e38097f5122
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357510"
 ---
 # <a name="isthemed-function"></a>ISTHEMED 函数
 
-返回一个 Boolean 值，该值形状是否含有向其应用了主题。 
+返回一个布尔值, 该值指示是否对形状应用了主题。 
   
 ## <a name="version-information"></a>版本信息
 
@@ -29,23 +29,23 @@ ms.locfileid: "19780515"
   
 ## <a name="return-value"></a>返回值
 
-Boolean
+布尔值
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 > [!NOTE]
-> Visio 2013 中的**ISTHEMED**函数替换为从早期版本的 Visio **CELLISTHEMED**函数。 
+> visio 2013 中的**ISTHEMED**函数将替换以前版本的 visio 中的**CELLISTHEMED**函数。 
   
-**ISTHEMED**函数，可以向形状分配相应部分的主题格式，但保留重写该主题的格式与手动应用格式的其他部分的能力。 如果您随后重新应用主题，任何手动格式将被覆盖并形状承担的所有主题的格式。 
+**ISTHEMED**函数允许您将主题格式的相应部分分配给形状, 但仍可以使用手动应用的格式替代主题格式设置的其他部分。 如果您随后重新应用主题, 则任何手动的格式都将被覆盖, 并且形状将采用主题的所有格式。 
   
- **ISTHEMED**计算结果为形状中的[ColorSchemeIndex](colorschemeindex-cell-theme-properties-section.md)单元格为大于 0 时为 TRUE。 如果此单元格等于 0，然后**ISTHEMED**计算结果为 FALSE。 主题的 DocumentSheet 和 PageSheet 不会影响在 ShapeSheet 中使用**ISTHEMED**函数的值。 仅当**ISTHEMED**函数中显示 PageSheet 执行的页面的主题专家。 
+ 如果形状中的[ColorSchemeIndex](colorschemeindex-cell-theme-properties-section.md)单元格大于 0, 则**ISTHEMED**的计算结果为 TRUE。 如果此单元格等于 0, 则**ISTHEMED**的计算结果为 FALSE。 DocumentSheet 和 PageSheet 的主题不会影响 ShapeSheet 中使用的**ISTHEMED**函数的值。 仅当**ISTHEMED**函数在 PageSheet 中显示时, 才会执行页面的主题事务。 
   
 ## <a name="example"></a>示例
 
 ||||
 |:-----|:-----|:-----|
-|单元格  <br/> |公式  <br/> |结果  <br/> |
-|Char.Font  <br/> |IF(ISTHEMED()，THEMEVAL()，FONT("Calibri"))  <br/> |如果应用了主题应用于该形状，形状文本接受的字体格式设置的主题。 如果形状不是应用了主题，"宋体"字体格式形状文本。  <br/> |
-|LineColor  <br/> |如果 (ISTHEMED，RGB （255，0，0）、 RGB （0、 255，0）)  <br/> |如果应用了主题应用于该形状，该形状的线条颜色为红色。 如果形状不是应用了主题的该形状的线条颜色为绿色。  <br/> |
+|Cell  <br/> |Formula  <br/> |结果  <br/> |
+|字符。字体  <br/> |IF (ISTHEMED ()、THEMEVAL () 和 FONT ("Calibri"))  <br/> |如果形状应用了主题, 则形状文本接受主题中的字体格式。 如果形状没有主题, 则形状文本的格式为 "Calibri" 字体。  <br/> |
+|LineColor  <br/> |IF (ISTHEMED, rgb (255, 0, 0), RGB (0, 255, 0))  <br/> |如果形状应用了主题, 则该形状的线条颜色为红色。 如果形状没有主题, 则形状的线条颜色为绿色。  <br/> |
    
 

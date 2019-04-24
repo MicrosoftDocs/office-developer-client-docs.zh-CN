@@ -1,37 +1,37 @@
 ---
-title: LockThemeIndex 单元格（“Protection”部分）
+title: LockThemeIndex 单元格 ("Protection" 部分)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7b781727-267b-4589-ab40-cfc79bb96c2d
-description: 防止被更改通过应用新主题，或选择新连接器方案 ThemeIndex 主题属性行中的单元格。 不阻止用户手动编辑 ShapeSheet 中的此值。
-ms.openlocfilehash: 4bef3eb799c943ff89027e69ae8580c9c0e51243
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 通过应用新主题或选择新的连接器方案, 防止主题属性行中的 ThemeIndex 单元格被更改。 不会阻止用户在 ShapeSheet 中手动编辑此值。
+ms.openlocfilehash: 519c17f6e00c9aad2b5522bc66b41c0ceb75911b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358077"
 ---
-# <a name="lockthemeindex-cell-protection-section"></a>LockThemeIndex 单元格（“Protection”部分）
+# <a name="lockthemeindex-cell-protection-section"></a>LockThemeIndex 单元格 ("Protection" 部分)
 
-防止被更改通过应用新主题，或选择新连接器方案**ThemeIndex** **主题属性**行中的单元格。 不阻止用户手动编辑 ShapeSheet 中的此值。 
+通过应用新主题或选择新的连接器方案, 防止**主题属性**行中的**ThemeIndex**单元格被更改。 不会阻止用户在 ShapeSheet 中手动编辑此值。 
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
-|TRUE  <br/> |无法从其当前值更改**ThemeIndex**单元格，除非直接 ShapeSheet 中的更改。  <br/> |
-|FALSE  <br/> |主题发生更改时，可以从其当前值更改**ThemeIndex**单元格。  <br/> |
+|TRUE  <br/> |除非直接在 ShapeSheet 中进行更改, 否则无法更改**ThemeIndex**单元格的当前值。  <br/> |
+|FALSE  <br/> |当主题发生更改时, **ThemeIndex**单元格可以从其当前值更改。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**LockThemeIndex**单元格的引用，请使用： 
+若要从另一个公式按名称获取对**LockThemeIndex**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | LockThemeIndex  <br/> |
    
-若要从某个程序按索引获取对**LockThemeIndex**单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对**LockThemeIndex**单元格的引用, 请使用带下列参数的**CellsSRC**属性: 
   
 |||
 |:-----|:-----|

@@ -17,11 +17,11 @@ ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
 description: 查找文档、代码示例、操作方法文章和编程参考以帮助构建针对 Office 应用商店的应用程序或私有应用程序目录，以及自定义 Project Server 和 Project 客户端并将其与各种其他桌面应用程序和业务应用程序集成以进行企业项目管理。
 localization_priority: Priority
 ms.openlocfilehash: cb4dd31a76b897bb5dba39e6b20d0a238bd95293
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707820"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357041"
 ---
 # <a name="project-2013-developer-documentation"></a>Project 2013 开发人员文档
 

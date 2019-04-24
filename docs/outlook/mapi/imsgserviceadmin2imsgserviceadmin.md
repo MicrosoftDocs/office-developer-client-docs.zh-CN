@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 14654259-e884-46bf-84ff-9e3c1a8cd60d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f501ffc9fdb708604e3e64769de16081f87a2450
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2b1e00938800fb6517e634c3ba365276e0e76bd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348837"
 ---
 # <a name="imsgserviceadmin2--imsgserviceadmin"></a>IMsgServiceAdmin2 : IMsgServiceAdmin
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-对配置文件中的消息服务进行更改。
+对配置文件中的邮件服务进行更改。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiaux.h  <br/> |
-|由公开：  <br/> |消息服务管理对象  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
-|接口标识符：  <br/> |IID_IMsgServiceAdmin2  <br/> |
-|指针类型：  <br/> |LPSERVICEADMIN2  <br/> |
+|标头文件：  <br/> |Mapiaux  <br/> |
+|公开者:  <br/> |邮件服务管理对象  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
+|接口标识符:  <br/> |IID_IMsgServiceAdmin2  <br/> |
+|指针类型:  <br/> |LPSERVICEADMIN2  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |向当前配置文件和新添加的服务 UID 的返回的消息服务。  <br/> |
+|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |将邮件服务添加到当前配置文件, 并返回新添加的服务 UID。  <br/> |
    
 ## <a name="remarks"></a>注解
 
-**IMsgServiceAdmin2**接口公开相同的对象的公开[IMsgServiceAdmin](imsgserviceadminiunknown.md)接口，并且已可使用的 MAPI 子系统相 Microsoft Outlook 2003 的 Outlook 的实现。 
+**IMsgServiceAdmin2**接口由公开[IMsgServiceAdmin](imsgserviceadminiunknown.md)接口的相同对象公开, 并可使用 Outlook 的 MAPI 子系统实现自 Microsoft Outlook 2003。 
   
 ## <a name="see-also"></a>另请参阅
 

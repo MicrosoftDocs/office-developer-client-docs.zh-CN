@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251596
 localization_priority: Normal
 ms.assetid: ecc79998-b207-edb0-cbcb-2b91e3ff825f
-description: 从说明字段中的文档属性返回的文本。
-ms.openlocfilehash: 53c06d7bad3d52f6205b0c78abc2a20f0cac4dd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回文档属性的 "说明" 字段中的文本。
+ms.openlocfilehash: 6d172680e50714bbc2493ae527df918f80498cef
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360212"
 ---
 # <a name="description-function"></a>DESCRIPTION 函数
 
-从**说明**字段中的文档属性返回的文本。 
+返回文档属性的 "**说明**" 字段中的文本。 
   
 ## <a name="syntax"></a>语法
 

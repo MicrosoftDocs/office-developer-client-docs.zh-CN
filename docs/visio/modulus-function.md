@@ -8,32 +8,32 @@ f1_keywords:
 - Vis_DSS.chm82251465
 localization_priority: Normal
 ms.assetid: cb6326a5-1bf8-b6a3-5c0d-d38c071353a5
-description: 返回的结果时数除以除数的余数 （模）。
-ms.openlocfilehash: 4e2ef7acf9dc04e788cb2b8a0ff737f12a79c61a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回一个数除以一个除数时产生的余数 (模数)。
+ms.openlocfilehash: f6b713b1b3a9d2afa85f49de9d451642a00d8dad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356992"
 ---
 # <a name="modulus-function"></a>MODULUS 函数
 
-返回的结果时数除以除数的余数 （模）。
+返回一个数除以一个除数时产生的余数 (模数)。
   
 ## <a name="syntax"></a>语法
 
-模数 (* **数量** *，* **除数** *) 
+模数 (* * *number* * *、* **约数** *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |必需  <br/> |**编号** <br/> |被除数。  <br/> |
-| _除数_ <br/> |必需  <br/> |**编号** <br/> |除数。  <br/> |
+| _number_ <br/> |必需  <br/> |**Number** <br/> |被除数。  <br/> |
+| _除法_ <br/> |必需  <br/> |**Number** <br/> |除数。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-Number
+帐号
   
 ## <a name="remarks"></a>注解
 

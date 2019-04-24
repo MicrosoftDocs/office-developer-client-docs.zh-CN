@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 17c8db96-80dd-4a7a-9a1b-ab1b37ba616c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 71a0a50f26b26d65ed34f38c2a0c7f930e6082a8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349180"
 ---
 # <a name="pidlidclipend-canonical-property"></a>PidLidClipEnd 规范属性
 
@@ -25,19 +25,19 @@ ms.locfileid: "25386066"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-单个实例 calendar 对象指定的结束日期和时间事件以协调世界时 (UTC)。 
+指定单个实例日历对象的事件的结束日期和时间 (以协调世界时 (UTC) 表示)。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidClipEnd  <br/> |
-|属性进行设置：  <br/> |PSETID_Appointment  <br/> |
-|长 ID （盖）：  <br/> |0x00008236  <br/> |
+|属性集:  <br/> |PSETID_Appointment  <br/> |
+|长 ID (盖子):  <br/> |0x00008236  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-对于单实例 calendar 对象，它采用 UTC 指定的结束日期和时间的事件。 对于定期系列，此属性指定午夜采用 UTC，定期系列的最后一个实例的日期除非定期系列有无结束时，在其中案例值必须为 31 年 8 月 4500，11:59
+对于单实例日历对象, 它指定事件的结束日期和时间 (UTC)。 对于定期系列, 此属性指定以 UTC 表示的定期系列的最后一个实例的日期的午夜, 除非定期系列没有结束, 在这种情况下, 该值必须为31年8月4500日下午11:59 点。
   
 此属性的值必须设置为**dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) 的值。
   
@@ -45,17 +45,17 @@ ms.locfileid: "25386066"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

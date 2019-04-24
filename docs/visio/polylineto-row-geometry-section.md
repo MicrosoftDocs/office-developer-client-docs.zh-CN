@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251757
 localization_priority: Normal
 ms.assetid: b78a993f-4165-438d-39cf-9461b2877f17
-description: 包含 x 和 y-折线以及折线公式的最后一个点的坐标。
-ms.openlocfilehash: 56cecb2eeaa1702461b1096fe468974f2f0b1f52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 包含折线的最后一个点和折线公式的 x 坐标和 y 坐标。
+ms.openlocfilehash: 13e5bd7138103094f0f00ad0512e33e9e6ad5e7f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359827"
 ---
-# <a name="polylineto-row-geometry-section"></a>PolylineTo 行（“Geometry”部分）
+# <a name="polylineto-row-geometry-section"></a>PolylineTo 行（“Geometry”内容）
 
-包含*x*和*y* -折线以及折线公式的最后一个点的坐标。 
+包含折线的最后一个点和折线公式的*x*坐标和*y*坐标。 
   
 PolylineTo 行包含以下单元格。
   
-|**Cell**|**说明**|
+|**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -折线终顶点的坐标。  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -折线终顶点的坐标。  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |折线终顶点的*x*坐标。  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |折线终顶点的*y*坐标。  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |折线公式。  <br/> |
    
 ## <a name="remarks"></a>注解

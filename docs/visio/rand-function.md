@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 482497ee-fe19-c2fa-53ce-bdb27b5d28bc
 description: 返回从 0.0 至 1.0 的随机浮点数。每次计算函数时（根据系统时钟，每分钟计算一次），函数都会返回一个不同数值。
-ms.openlocfilehash: 4b164e90c6d6b81764d2763bef04d836cae52c1b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bab2fd74aff85be85f886e3ac8fe7df113664ae5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360002"
 ---
 # <a name="rand-function"></a>RAND 函数
 
@@ -26,7 +26,7 @@ RAND( )
   
 ### <a name="return-value"></a>返回值
 
-Float
+点数
   
 ## <a name="remarks"></a>注解
 

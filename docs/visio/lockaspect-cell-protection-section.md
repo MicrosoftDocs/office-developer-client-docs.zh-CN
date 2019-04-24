@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e9bfced5-af29-f86c-8604-44ec9a573229
 description: 锁定形状的纵横比，使形状只能按比例调整大小，而不能单维度调整大小。
-ms.openlocfilehash: fb5736add65f548f06697077bc539ec7fac5feb2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 83ce1aaf555cfaaa0109423e74ae930450b4c1e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359638"
 ---
-# <a name="lockaspect-cell-protection-section"></a>LockAspect 单元格（“Protection”部分）
+# <a name="lockaspect-cell-protection-section"></a>LockAspect 单元格（“Protection”内容）
 
 锁定形状的纵横比，使形状只能按比例调整大小，而不能单维度调整大小。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 已锁定纵横比。  <br/> |
 | FALSE  <br/> | 未锁定纵横比。  <br/> |

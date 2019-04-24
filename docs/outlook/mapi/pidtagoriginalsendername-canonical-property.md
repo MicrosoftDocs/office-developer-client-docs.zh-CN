@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5e3b7764-b122-4405-be4f-7fec571c7dfc
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 521fb544152dcb903450ff7dbd05ecbac808afe0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342607"
 ---
 # <a name="pidtagoriginalsendername-canonical-property"></a>PidTagOriginalSenderName 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25391015"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一条消息，即之前正在转发或答复邮件的第一个版本的发件人的显示名称。
+包含邮件的第一种版本的发件人的显示名称, 即邮件在转发或答复之前的显示名称。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_ORIGINAL_SENDER_NAME，PR_ORIGINAL_SENDER_NAME_A，PR_ORIGINAL_SENDER_NAME_W  <br/> |
-|标识符：  <br/> |0x005A  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|相关属性：  <br/> |PR_ORIGINAL_SENDER_NAME、PR_ORIGINAL_SENDER_NAME_A、PR_ORIGINAL_SENDER_NAME_W  <br/> |
+|标识符:  <br/> |0x005A  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-这些属性是一条消息的原始发件人的地址属性的示例。 在首次提交邮件，客户端应用程序应将这些属性设置为**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) 属性的值。 当转发或答复邮件永远不会更改它。
+这些属性是邮件原始发件人的地址属性的示例。 首次提交邮件时, 客户端应用程序应将这些属性设置为**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) 属性的值。 转发或答复邮件时, 它永远不会更改。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和电子邮件消息对象在允许的操作。
+> 指定在电子邮件对象上允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

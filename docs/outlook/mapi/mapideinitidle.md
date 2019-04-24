@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: f7b04486-bc48-4ba4-9f35-f021e06124bf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 33f4634623662b7bc09e0830e8bd0b51adc7799d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74bba3ea9982838f0d010bbf106c1132df1c2c25
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357321"
 ---
 # <a name="mapideinitidle"></a>MAPIDeInitIdle
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-关闭调用应用程序的 MAPI 空闲引擎。 
+关闭呼叫应用程序的 MAPI 空闲引擎。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 void MAPIDeInitIdle( void );
@@ -47,21 +47,21 @@ void MAPIDeInitIdle( void );
   
 ## <a name="remarks"></a>注解
 
-客户端应用程序或服务提供商应**MAPIDeInitIdle**需要时调用不再空闲引擎，例如，当要停止处理。 
+客户端应用程序或服务提供商应在不再需要空闲引擎时调用**MAPIDeInitIdle** , 例如, 当即将停止处理时。 
   
-每次调用[MAPIInitIdle](mapiinitidle.md)必须匹配通过后续调用**MAPIDeInitIdle**，或空闲引擎仍在运行调用应用程序。 
+每次调用[MAPIInitIdle](mapiinitidle.md)时, 都必须通过对**MAPIDeInitIdle**的后续调用进行匹配, 否则会为调用应用程序保持空闲引擎的运行状态。 
   
-下面的函数处理与 MAPI 空闲引擎和基于[FNIDLE](fnidle.md)函数原型的空闲例程： 
+以下函数处理 MAPI 空闲引擎和基于[FNIDLE](fnidle.md)函数原型的空闲例程: 
   
-|**空闲例行函数**|**使用情况**|
+|**Idle 例程函数**|**使用**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |更改已注册的空闲例程的特征。  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |从 MAPI 系统中删除已注册的空闲例程。  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |禁用或重新启用注册空闲例程，但不从 MAPI 系统中移除它。  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |将一个空闲例程添加到 MAPI 系统，使用或不启用它。  <br/> |
-|**MAPIDeInitIdle** <br/> |关闭调用应用程序的 MAPI 空闲引擎。  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |禁用或重新启用已注册的空闲例程, 而不将其从 MAPI 系统中删除。  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |将空闲例程添加到 MAPI 系统中 (无论是否启用)。  <br/> |
+|**MAPIDeInitIdle** <br/> |关闭呼叫应用程序的 MAPI 空闲引擎。  <br/> |
 |[MAPIInitIdle](mapiinitidle.md) <br/> |初始化调用应用程序的 MAPI 空闲引擎。  <br/> |
    
-当平台的所有前景任务都变为空闲时，MAPI 空闲引擎将调用已准备好执行的最高优先级空闲例程。 不没有呼叫之间空闲例程的相同的优先级顺序不做任何担保。 
+当平台的所有前台任务都变为空闲时, MAPI 空闲引擎将调用准备执行的最高优先级空闲例程。 在具有相同优先级的空闲例程之间, 不能保证呼叫顺序。 
   
 

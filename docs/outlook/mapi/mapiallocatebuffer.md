@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: f1fc7fc5-c71f-44f7-930a-571773eb6809
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0520b219c87207a54555ba74050761f6ecc4854a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 589ad42199e6f2ec1039499dfd9beda044ccc3dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357307"
 ---
 # <a name="mapiallocatebuffer"></a>MAPIAllocateBuffer
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 分配内存缓冲区。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapix.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapix  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 SCODE MAPIAllocateBuffer(
@@ -44,23 +44,23 @@ SCODE MAPIAllocateBuffer(
 
  _cbSize_
   
-> [in]以字节为单位，要分配的缓冲区的大小。 
+> 实时要分配的缓冲区的大小 (以字节为单位)。 
     
  _lppBuffer_
   
-> [输出]指向返回分配缓冲区。
+> 排除指向返回的已分配缓冲区的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功，并具有返回请求的内存缓冲区。
+> 调用成功, 并返回请求的内存缓冲区。
     
 ## <a name="remarks"></a>注解
 
-期间**MAPIAllocateBuffer**呼叫处理中，调用实现获取从操作系统的内存块。 内存缓冲区分配偶数字节的地址。 长整型访问其中是更高效的平台上, 操作系统分配其以字节为单位的大小是四个倍数的地址上的缓冲区。 
+在**MAPIAllocateBuffer**呼叫处理过程中, 呼叫实现将从操作系统中获取内存块。 内存缓冲区分配在偶数字节地址上。 在较长整数访问效率更高的平台上, 操作系统在大小为4个字节的地址上分配缓冲区。 
   
-调用[MAPIFreeBuffer](mapifreebuffer.md)函数版本由**MAPIAllocateBuffer**，通过调用[MAPIAllocateMore](mapiallocatemore.md)函数和任何缓冲区分配内存缓冲区链接到，，当不再需要的内存。 
+调用[MAPIFreeBuffer](mapifreebuffer.md)函数将释放**MAPIAllocateBuffer**分配的内存缓冲区, 方法是在不再需要内存时调用[MAPIAllocateMore](mapiallocatemore.md)函数以及链接到它的任何缓冲区。 
   
 ## <a name="see-also"></a>另请参阅
 

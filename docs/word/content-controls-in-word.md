@@ -9,11 +9,11 @@ ms.assetid: c0e6dd3b-fae1-453d-a9b4-7f456b5172db
 description: 了解 Microsoft Word 2013 内容控件如何启用较大范围的结构化文档方案。
 localization_priority: Priority
 ms.openlocfilehash: 4234425cc8398d87b72108d389953fc0eb802c87
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358645"
 ---
 # <a name="content-controls-in-word"></a>Word 中的内容控件
 
@@ -225,7 +225,7 @@ Word 2013 可帮助你将格式文本内容控件和文档构建基块内容控�
 
 当添加或删除内部节的一个项时，在表中紧密地嵌套重复节内容控件（例如，当父和子的重复节内容控件的末尾位于同一单元格时）会导致删除外部重复节。
   
-你可以通过在一个重复节内容控件的末尾和下一个重复节内容控件之间添加一个段落标记来防止这一情况发生。 要隐藏段落标记，请在功能区的“**主页**”选项卡上取消选中“**显示/隐藏**”。 
+您可以通过在一个重复节内容控件的末尾和下一个重复节内容控件之间添加一个段落标记来防止这一情况发生。要隐藏段落标记，请取消选中功能区“主页”选项卡上的“显示/隐藏”。 
   
 ### <a name="open-xml-file-format-schema-additions"></a>Open XML 文件格式架构的添加项
 <a name="WordCC"> </a>

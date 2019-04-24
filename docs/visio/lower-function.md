@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm82251459
 localization_priority: Normal
 ms.assetid: 1d198ea6-49e0-e462-b2cf-b65fbb920b55
-description: 返回一个字符串转换为小写形式。
-ms.openlocfilehash: da626ee0bb0474fceafcf93ed5c835aacd0034fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回一个转换为小写形式的字符串。
+ms.openlocfilehash: 275e5cc40bed5c3ca7d6f40b0882f523334611c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358014"
 ---
 # <a name="lower-function"></a>LOWER 函数
 
-返回一个字符串转换为小写形式。
+返回一个转换为小写形式的字符串。
   
 ## <a name="syntax"></a>语法
 
-低 (* **表达式** *) 
+下限 (* **表达式** *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |必需  <br/> |**因情况而异** <br/> | 字符串、单元格引用或表达式；结果转换为字符串，然后再转换为小写形式。  <br/> |
+| _expression_ <br/> |必需  <br/> |**相同** <br/> | 字符串、单元格引用或表达式；结果转换为字符串，然后再转换为小写形式。  <br/> |
    
 ### <a name="return-value"></a>返回值
 

@@ -7,11 +7,11 @@ ms.assetid: dd279238-ae75-4ad9-b9e5-364924090485
 description: 获取有关遥测日志中显示的关于 Office 产品中可能存在的兼容性问题的详细信息。
 localization_priority: Priority
 ms.openlocfilehash: f0c2462662121ee6ec7944dde5a01e2964fc28cf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357503"
 ---
 # <a name="compatibility-issues-in-office"></a>Office 中的兼容性问题
 
@@ -33,7 +33,7 @@ ms.locfileid: "28720791"
 |10000  <br/> |Office 2013  <br/> |所有 Office 2013  <br/> ||警告：Visual Basic 6.0 控件  <br/> |文件使用不适用于 64 位版本的 Office 或 32 位版本的 Office（它们在使用 ARM 处理器的设备上运行）的 Visual Basic 6.0 控件。如果您希望控件在这些环境中对 Office 应用程序可用，请将控件替换为受支持的控件。  <br/> |
 |10001  <br/> |Office 2013  <br/> |所有 Office 2013  <br/> |[链接](https://msdn.microsoft.com/vbasic/ms788708.aspx) <br/> |控件：64 位操作系统上的 Visual Basic 6.0 控件  <br/> |文件使用不适用于 64 位版本的 Office 的 Visual Basic 6.0 控件。Visual Basic 6.0 运行时文件是 32 位的且仅在 32 位操作系统或 WOW 模拟环境中受支持。  <br/> |
 |10002  <br/> |Office 2013  <br/> |所有 Office 2013  <br/> |[链接](https://msdn.microsoft.com/vbasic/ms788708.aspx) <br/> |控件：带 ARM 处理器的设备上的 Visual Basic 6.0 控件  <br/> |文件使用不适用于带 ARM 处理器的设备的 Visual Basic 6.0 控件。  <br/> |
-|10003  <br/> |Office 2013  <br/> |所有 Office 2013  <br/> |[链接](https://technet.microsoft.com/en-us/library/cc179181.aspx) <br/> |控件：Microsoft 日历控件  <br/> |文件使用 Microsoft 日历控件 (Mscal.ocx)，它是早期版本的 Access 的一项功能，此功能在 Office 2013 中不可用。此控件将无法运行，因为它未安装到主机上。将其他日期选取器控件用作备选项，如 **Date Picker Content Control**（在 Word 2013 中）或 Windows **DatePicker** 控件（在 Windows 公共控件中）。  <br/> 有关详细信息，请参阅[替换 Access 2010 应用程序中的日历控件](https://msdn.microsoft.com/library/dc6ba80d-b1fa-4596-b484-5e729cae4d70)。  <br/> |
+|10003  <br/> |Office 2013  <br/> |所有 Office 2013  <br/> |[链接](https://technet.microsoft.com/zh-CN/library/cc179181.aspx) <br/> |控件：Microsoft 日历控件  <br/> |文件使用 Microsoft 日历控件 (Mscal.ocx)，它是早期版本的 Access 的一项功能，此功能在 Office 2013 中不可用。此控件将无法运行，因为它未安装到主机上。将其他日期选取器控件用作备选项，如 **Date Picker Content Control**（在 Word 2013 中）或 Windows **DatePicker** 控件（在 Windows 公共控件中）。  <br/> 有关详细信息，请参阅[替换 Access 2010 应用程序中的日历控件](https://msdn.microsoft.com/library/dc6ba80d-b1fa-4596-b484-5e729cae4d70)。  <br/> |
 |10004  <br/> |Office 2013  <br/> |所有 Office 2013  <br/> |[链接](https://support.microsoft.com/kb/972129) <br/> |Office Web 组件  <br/> |文件使用 Office Web 组件 (MSOWC.dll) 控件。此控件将无法运行，因为 Office Web 组件未安装到此计算机上且未随 Office 2013 附带。若要使用此控件，请单独安装 Office Web 组件。  <br/> 有关详细信息，请参阅[查找 Office Web 组件编程文档和示例](https://support.microsoft.com/kb/319793) <br/> |
 |10005  <br/> |Office 2013  <br/> |所有 Office 2013  <br/> |[链接](https://office.microsoft.com/en-us/access-help/embedded-object-and-activex-control-policy-settings-error-HA101825674.aspx?CTT=1) <br/> |控件：已注销 ActiveX 控件  <br/> |文件使用未在主机上注册的 ActiveX 控件。若要使用此控件，请在主机上注册它。  <br/> |
    

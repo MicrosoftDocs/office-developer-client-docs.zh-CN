@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 73064a22-68bf-4d3f-91f5-1eec807debf8
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e7483d887a7033b8137ce9861ff0d9513fe32904
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358000"
 ---
 # <a name="pidlidoldwhenstartwhole-canonical-property"></a>PidLidOldWhenStartWhole 规范属性
 
@@ -25,17 +25,17 @@ ms.locfileid: "25398099"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示会议更新之前的**dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) 属性的原始值。
+指示会议更新前的**dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) 属性的原始值。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidOldWhenStartWhole  <br/> |
-|属性进行设置：  <br/> |PSETID_Meeting  <br/> |
-|长 ID （盖）：  <br/> |0x00000029  <br/> |
+|属性集:  <br/> |PSETID_Meeting  <br/> |
+|长 ID (盖子):  <br/> |0x00000029  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性不是必需的。
   
@@ -43,17 +43,17 @@ ms.locfileid: "25398099"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

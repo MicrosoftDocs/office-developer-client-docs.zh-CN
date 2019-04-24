@@ -9,23 +9,21 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d1c23f1d-485d-a897-594d-15d6e8d0fb3c
 description: 确定用户是否可以使用“定义形状数据”对话框或“形状数据”窗口的快捷菜单在用户界面 (UI) 中添加、删除或修改形状数据。
-ms.openlocfilehash: a88da9e4973f819b398b5bdeda434ede14640797
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 001123f3bd08d35f6f8e4874e20f2ee073835494
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359604"
 ---
-# <a name="lockcustprop-cell-protection-section"></a>LockCustProp 单元格（“Protection”部分）
+# <a name="lockcustprop-cell-protection-section"></a>LockCustProp 单元格（“Protection”内容）
 
 确定用户是否可以使用 **“定义形状数据”** 对话框或 **“形状数据”** 窗口的快捷菜单在用户界面 (UI) 中添加、删除或修改形状数据。 
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
-|TRUE  <br/> |**“形状数据”** 窗口中的快捷菜单上的 **“定义形状数据”** 命令被禁用。
-  <br/> |
-|FALSE  <br/> |**“形状数据”** 窗口中的快捷菜单上的 **“定义形状数据”** 命令被启用（默认值）。
-  <br/> |
+|TRUE  <br/> |**“形状数据”** 窗口中的快捷菜单上的 **“定义形状数据”** 命令被禁用。  <br/> |
+|FALSE  <br/> |**“形状数据”** 窗口中的快捷菜单上的 **“定义形状数据”** 命令被启用（默认值）。  <br/> |
    
 ## <a name="remarks"></a>注解
 

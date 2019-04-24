@@ -1,5 +1,5 @@
 ---
-title: 存储
+title: 存储区
 TOCTitle: Stores
 ms:assetid: ce5d8e58-7753-485c-b400-4f00f6c6935b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184642(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2e0e8699dc64f00cca365ae2bd9ae84edab96c52
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357678"
 ---
 # <a name="stores"></a>存储
 

@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: 319be396-89fe-48a6-a229-c62ad48b1692
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 19a6341f8800bf44f3e763b47ee487cd09f20fdd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 215e52dd7dd346ef598a8e99cedcc1edda15a7ed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358784"
 ---
 # <a name="pidtaginternetapproved-canonical-property"></a>PidTagInternetApproved 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-映射到批准 MIME 标头。
+映射到 MIME 批准的标题。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_INTERNET_APPROVED，PR_INTERNET_APPROVED_A，PR_INTERNET_APPROVED_W  <br/> |
-|标识符：  <br/> |0x1030  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_INTERNET_APPROVED、PR_INTERNET_APPROVED_A、PR_INTERNET_APPROVED_W  <br/> |
+|标识符:  <br/> |0x1030  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

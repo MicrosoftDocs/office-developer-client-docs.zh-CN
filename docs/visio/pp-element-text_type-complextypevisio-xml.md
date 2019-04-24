@@ -1,22 +1,22 @@
 ---
-title: pp 元素 （Text_Type 复杂类型） (Visio XML)
+title: pp 元素 (Text_Type 复杂类型) ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5444543-fcd9-91cc-e7f8-cf860caa9fcc
-description: 指定段落属性开始运行。 到末尾的文字或直到下一个标记定义运行。
+description: 指定段落属性的开头。 运行被定义为文本的末尾或直到下一个标记。
 ms.openlocfilehash: bb2b0ab7a76c142b810ecd02dbc1b5ba7463520a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356075"
 ---
-# <a name="pp-element-texttype-complextype-visio-xml"></a>pp 元素 （Text_Type 复杂类型） (Visio XML)
+# <a name="pp-element-texttype-complextype-visio-xml"></a>pp 元素 (Text_Type 复杂类型) ("Visio XML")
 
-指定段落属性开始运行。 到末尾的文字或直到下一个标记定义运行。
+指定段落属性的开头。 运行被定义为文本的末尾或直到下一个标记。
   
 ## <a name="element-information"></a>元素信息
 
@@ -24,8 +24,8 @@ ms.locfileid: "25400097"
 |:-----|:-----|
 |**元素类型** <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
-|**文档部件** <br/> |页面 #.xml、 母版页 #.xml  <br/> |
+|**架构文件** <br/> |VisioSchema15  <br/> |
+|**文档部件** <br/> |页面 # .xml、master # .xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,7 +36,7 @@ ms.locfileid: "25400097"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
   
 ### <a name="parent-elements"></a>父元素
 
@@ -50,8 +50,8 @@ ms.locfileid: "25400097"
   
 ### <a name="attributes"></a>属性
 
-|**属性**|**类型**|**必需**|**说明**|**可能的值**|
+|**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |必需  <br/> |指定的格式应用于此运行**段落**元素的索引。  <br/> |Xsd:unsignedInt 类型的值。  <br/> |
+|IX  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |**段落**元素的索引, 该元素指定应用于此运行的格式。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
    
 

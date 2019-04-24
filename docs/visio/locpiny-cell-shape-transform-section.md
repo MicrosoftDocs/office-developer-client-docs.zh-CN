@@ -8,21 +8,21 @@ f1_keywords:
 - vis_sdr.chm685
 localization_priority: Normal
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
-description: 代表 y-形状的旋转中心点 （旋转中心） 相对于形状的原点坐标。 用于确定 LocPinY 默认公式为：
-ms.openlocfilehash: 8d98906e8082af0fc54bc01fe3a8537b66ac56b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 表示形状的旋转中心点 (旋转中心) 相对于形状原点的 y 轴坐标值。 确定 LocPinY 的默认公式为：
+ms.openlocfilehash: e65bfec8fdcf2be1ee92c23b7afcb183c95ea9fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358042"
 ---
-# <a name="locpiny-cell-shape-transform-section"></a>LocPinY 单元格（“Shape Transform”部分）
+# <a name="locpiny-cell-shape-transform-section"></a>LocPinY 单元格（“Shape Transform”内容）
 
-代表*y* -形状的旋转中心点 （旋转中心） 相对于形状的原点坐标。 用于确定 LocPinY 默认公式为： 
+表示形状的旋转中心点 (旋转中心) 相对于形状原点的*y*轴坐标值。 确定 LocPinY 的默认公式为： 
   
-= 高度\*0.5
+= 高度\* 0。5
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LocPinY 单元格的引用，请使用： 
   
