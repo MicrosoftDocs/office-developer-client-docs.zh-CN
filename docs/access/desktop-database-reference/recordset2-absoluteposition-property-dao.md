@@ -1,5 +1,5 @@
 ---
-title: Recordset2.AbsolutePosition 属性 (DAO)
+title: AbsolutePosition 属性 (DAO) Recordset2
 TOCTitle: AbsolutePosition Property
 ms:assetid: 91ca203f-0c80-67f4-e180-415b6af05030
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197637(v=office.15)
@@ -12,41 +12,41 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4de869866e2aeb28032553be78bee7af16f60402
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307509"
 ---
-# <a name="recordset2absoluteposition-property-dao"></a><span data-ttu-id="18db9-102">Recordset2.AbsolutePosition 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="18db9-102">Recordset2.AbsolutePosition property (DAO)</span></span>
+# <a name="recordset2absoluteposition-property-dao"></a><span data-ttu-id="d41a6-102">AbsolutePosition 属性 (DAO) Recordset2</span><span class="sxs-lookup"><span data-stu-id="d41a6-102">Recordset2.AbsolutePosition property (DAO)</span></span>
 
-<span data-ttu-id="18db9-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="18db9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d41a6-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="d41a6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="18db9-104">设置或返回 **Recordset2** 对象的当前记录的相对记录编号。</span><span class="sxs-lookup"><span data-stu-id="18db9-104">Sets or returns the relative record number of a **Recordset2** object's current record.</span></span>
+<span data-ttu-id="d41a6-104">设置或返回 **Recordset2** 对象的当前记录的相对记录编号。</span><span class="sxs-lookup"><span data-stu-id="d41a6-104">Sets or returns the relative record number of a **Recordset2** object's current record.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="18db9-105">语法</span><span class="sxs-lookup"><span data-stu-id="18db9-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d41a6-105">语法</span><span class="sxs-lookup"><span data-stu-id="d41a6-105">Syntax</span></span>
 
-<span data-ttu-id="18db9-106">*表达式*。AbsolutePosition</span><span class="sxs-lookup"><span data-stu-id="18db9-106">*expression* .AbsolutePosition</span></span>
+<span data-ttu-id="d41a6-106">*表达式*。AbsolutePosition</span><span class="sxs-lookup"><span data-stu-id="d41a6-106">*expression* .AbsolutePosition</span></span>
 
-<span data-ttu-id="18db9-107">*表达式*一个表示**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="18db9-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="d41a6-107">*表达式*一个代表**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="d41a6-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="18db9-108">注解</span><span class="sxs-lookup"><span data-stu-id="18db9-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d41a6-108">注解</span><span class="sxs-lookup"><span data-stu-id="d41a6-108">Remarks</span></span>
 
-<span data-ttu-id="18db9-p101">可以根据特定记录在动态集类型或快照类型 **Recordset2** 对象中的序号位置，使用 **AbsolutePosition** 属性将当前记录指针定位到该特定记录。还可以通过检查 **AbsolutePosition** 属性设置来确定当前记录编号。</span><span class="sxs-lookup"><span data-stu-id="18db9-p101">You can use the **AbsolutePosition** property to position the current record pointer to a specific record based on its ordinal position in a dynaset- or snapshot-type **Recordset2** object. You can also determine the current record number by checking the **AbsolutePosition** property setting.</span></span>
+<span data-ttu-id="d41a6-p101">可以根据特定记录在动态集类型或快照类型 **Recordset2** 对象中的序号位置，使用 **AbsolutePosition** 属性将当前记录指针定位到该特定记录。还可以通过检查 **AbsolutePosition** 属性设置来确定当前记录编号。</span><span class="sxs-lookup"><span data-stu-id="d41a6-p101">You can use the **AbsolutePosition** property to position the current record pointer to a specific record based on its ordinal position in a dynaset- or snapshot-type **Recordset2** object. You can also determine the current record number by checking the **AbsolutePosition** property setting.</span></span>
 
-<span data-ttu-id="18db9-p102">由于 **AbsolutePosition** 属性值从零开始（即设置 0 引用 **Recordset2** 对象中的第一条记录），因此您不能将其设置为大于或等于填充记录数的值；如果这样做，会导致可捕获的错误。您可以通过检查 **RecordCount** 属性设置来确定 **Recordset2** 对象中填充的记录数。 **AbsolutePosition** 属性的最大允许设置为 **RecordCount** 属性的值减 1。</span><span class="sxs-lookup"><span data-stu-id="18db9-p102">Because the **AbsolutePosition** property value is zero-based (that is, a setting of 0 refers to the first record in the **Recordset2** object), you cannot set it to a value greater than or equal to the number of populated records; doing so causes a trappable error. You can determine the number of populated records in the **Recordset2** object by checking the **RecordCount** property setting. The maximum allowable setting for the **AbsolutePosition** property is the value of the **RecordCount** property minus 1.</span></span>
+<span data-ttu-id="d41a6-p102">由于 **AbsolutePosition** 属性值从零开始（即设置 0 引用 **Recordset2** 对象中的第一条记录），因此您不能将其设置为大于或等于填充记录数的值；如果这样做，会导致可捕获的错误。您可以通过检查 **RecordCount** 属性设置来确定 **Recordset2** 对象中填充的记录数。 **AbsolutePosition** 属性的最大允许设置为 **RecordCount** 属性的值减 1。</span><span class="sxs-lookup"><span data-stu-id="d41a6-p102">Because the **AbsolutePosition** property value is zero-based (that is, a setting of 0 refers to the first record in the **Recordset2** object), you cannot set it to a value greater than or equal to the number of populated records; doing so causes a trappable error. You can determine the number of populated records in the **Recordset2** object by checking the **RecordCount** property setting. The maximum allowable setting for the **AbsolutePosition** property is the value of the **RecordCount** property minus 1.</span></span>
 
-<span data-ttu-id="18db9-114">如果没有当前记录，作为**Recordset2**对象中任何记录时， **AbsolutePosition**返回-1。</span><span class="sxs-lookup"><span data-stu-id="18db9-114">If there is no current record, as when there are no records in the **Recordset2** object, **AbsolutePosition** returns –1.</span></span> <span data-ttu-id="18db9-115">如果删除了当前记录，则 **AbsolutePosition** 属性值将是不确定的，并且，当引用该记录时将会发生可捕获的错误。</span><span class="sxs-lookup"><span data-stu-id="18db9-115">If the current record is deleted, the **AbsolutePosition** property value isn't defined, and a trappable error occurs if it's referenced.</span></span> <span data-ttu-id="18db9-116">新记录将添加到序列的末尾。</span><span class="sxs-lookup"><span data-stu-id="18db9-116">New records are added to the end of the sequence.</span></span>
+<span data-ttu-id="d41a6-114">如果没有当前记录, 则**Recordset2**对象中没有记录时, **AbsolutePosition**将返回–1。</span><span class="sxs-lookup"><span data-stu-id="d41a6-114">If there is no current record, as when there are no records in the **Recordset2** object, **AbsolutePosition** returns –1.</span></span> <span data-ttu-id="d41a6-115">如果删除了当前记录，则 **AbsolutePosition** 属性值将是不确定的，并且，当引用该记录时将会发生可捕获的错误。</span><span class="sxs-lookup"><span data-stu-id="d41a6-115">If the current record is deleted, the **AbsolutePosition** property value isn't defined, and a trappable error occurs if it's referenced.</span></span> <span data-ttu-id="d41a6-116">新记录将添加到序列的末尾。</span><span class="sxs-lookup"><span data-stu-id="d41a6-116">New records are added to the end of the sequence.</span></span>
 
-<span data-ttu-id="18db9-p104">不应将该属性用作代理记录编号。仍然建议采用书签保留和返回到给定位置，而且这是在所有类型的 **Recordset2** 对象之间定位当前记录的唯一方法。特别是，当某记录之前的一条或多条记录被删除时，该记录的位置就会更改。如果再次重新创建 **Recordset2** 对象，也无法保证记录具有相同的绝对位置，这是因为除非使用带有 ORDER BY 子句的 SQL 语句来创建 **Recordset** 对象，否则该对象中的各个记录的顺序将是无法保证的。</span><span class="sxs-lookup"><span data-stu-id="18db9-p104">You shouldn't use this property as a surrogate record number. Bookmarks are still the recommended way of retaining and returning to a given position and are the only way to position the current record across all types of **Recordset2** objects. In particular, the position of a record changes when one or more records preceding it are deleted. There is also no assurance that a record will have the same absolute position if the **Recordset2** object is re-created again because the order of individual records within a **Recordset** object isn't guaranteed unless it's created with an SQL statement by using an ORDER BY clause.</span></span>
+<span data-ttu-id="d41a6-p104">不应将该属性用作代理记录编号。仍然建议采用书签保留和返回到给定位置，而且这是在所有类型的 **Recordset2** 对象之间定位当前记录的唯一方法。特别是，当某记录之前的一条或多条记录被删除时，该记录的位置就会更改。如果再次重新创建 **Recordset2** 对象，也无法保证记录具有相同的绝对位置，这是因为除非使用带有 ORDER BY 子句的 SQL 语句来创建 **Recordset** 对象，否则该对象中的各个记录的顺序将是无法保证的。</span><span class="sxs-lookup"><span data-stu-id="d41a6-p104">You shouldn't use this property as a surrogate record number. Bookmarks are still the recommended way of retaining and returning to a given position and are the only way to position the current record across all types of **Recordset2** objects. In particular, the position of a record changes when one or more records preceding it are deleted. There is also no assurance that a record will have the same absolute position if the **Recordset2** object is re-created again because the order of individual records within a **Recordset** object isn't guaranteed unless it's created with an SQL statement by using an ORDER BY clause.</span></span>
 
 > [!NOTE]
-> - <span data-ttu-id="18db9-p105">对于新打开但尚未填充的 **Recordset2** 对象，如果将 **AbsolutePosition** 属性设置为大于零的值，则会导致可捕获的错误。请首先使用 **MoveLast** 方法填充 **Recordset2** 对象。</span><span class="sxs-lookup"><span data-stu-id="18db9-p105">Setting the **AbsolutePosition** property to a value greater than zero on a newly opened but unpopulated **Recordset2** object causes a trappable error. Populate the **Recordset2** object first with the **MoveLast** method.</span></span>
-> - <span data-ttu-id="18db9-123">仅向前类型**Recordset2**对象，或者对于从针对 Microsoft Access 数据库引擎连接的 ODBC 数据库的传递查询打开的**Recordset2**对象， **AbsolutePosition**属性不可用。</span><span class="sxs-lookup"><span data-stu-id="18db9-123">The **AbsolutePosition** property isn't available on forward–only–type **Recordset2** objects, or on **Recordset2** objects opened from pass-through queries against Microsoft Access database engine-connected ODBC databases.</span></span>
+> - <span data-ttu-id="d41a6-p105">对于新打开但尚未填充的 **Recordset2** 对象，如果将 **AbsolutePosition** 属性设置为大于零的值，则会导致可捕获的错误。请首先使用 **MoveLast** 方法填充 **Recordset2** 对象。</span><span class="sxs-lookup"><span data-stu-id="d41a6-p105">Setting the **AbsolutePosition** property to a value greater than zero on a newly opened but unpopulated **Recordset2** object causes a trappable error. Populate the **Recordset2** object first with the **MoveLast** method.</span></span>
+> - <span data-ttu-id="d41a6-123">对于仅向前类型的 **Recordset2** 对象，或者对于从针对 Microsoft Access 数据库引擎连接的 ODBC 数据库的传递查询中打开的 **Recordset2** 对象，**AbsolutePosition** 属性不可用。</span><span class="sxs-lookup"><span data-stu-id="d41a6-123">The **AbsolutePosition** property isn't available on forward–only–type **Recordset2** objects, or on **Recordset2** objects opened from pass-through queries against Microsoft Access database engine-connected ODBC databases.</span></span>
 
-## <a name="example"></a><span data-ttu-id="18db9-124">示例</span><span class="sxs-lookup"><span data-stu-id="18db9-124">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d41a6-124">示例</span><span class="sxs-lookup"><span data-stu-id="d41a6-124">Example</span></span>
 
-<span data-ttu-id="18db9-125">以下示例使用 **AbsolutePosition** 属性跟踪枚举 **Recordset2** 的所有记录的循环的进度。</span><span class="sxs-lookup"><span data-stu-id="18db9-125">This example uses the **AbsolutePosition** property to track the progress of a loop that enumerates all the records of a **Recordset2**.</span></span>
+<span data-ttu-id="d41a6-125">以下示例使用 **AbsolutePosition** 属性跟踪枚举 **Recordset2** 的所有记录的循环的进度。</span><span class="sxs-lookup"><span data-stu-id="d41a6-125">This example uses the **AbsolutePosition** property to track the progress of a loop that enumerates all the records of a **Recordset2**.</span></span>
 
 ```vb
     Sub AbsolutePositionX() 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 314cf74e1213d48bf9a12beeb90d06ce021a95a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296323"
 ---
-# <a name="clone-method-example-vj"></a><span data-ttu-id="1c426-102">Clone 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1c426-102">Clone method example (VJ++)</span></span>
+# <a name="clone-method-example-vj"></a><span data-ttu-id="7506b-102">Clone 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7506b-102">Clone method example (VJ++)</span></span>
 
 
-<span data-ttu-id="1c426-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c426-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7506b-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="7506b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1c426-104">以下示例使用 [Clone](clone-method-ado.md) 方法创建 [Recordset](recordset-object-ado.md) 的副本，然后让用户单独定位每个副本的记录指针。</span><span class="sxs-lookup"><span data-stu-id="1c426-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="7506b-104">以下示例使用 [Clone](clone-method-ado.md) 方法创建 [Recordset](recordset-object-ado.md) 的副本，然后让用户单独定位每个副本的记录指针。</span><span class="sxs-lookup"><span data-stu-id="7506b-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
 ```java 
  

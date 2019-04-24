@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8839d436359a9d08c3ec1d31b1187d74701daac9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718908"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296596"
 ---
-# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="4660b-102">Catalog 的 ActiveConnection 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="4660b-102">Catalog ActiveConnection property example (VC++)</span></span>
+# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="08b37-102">Catalog 的 ActiveConnection 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="08b37-102">Catalog ActiveConnection property example (VC++)</span></span>
 
 
-<span data-ttu-id="4660b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="4660b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="08b37-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="08b37-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4660b-p101">将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为有效的打开连接将"打开"目录。从打开的目录中，可以访问该目录中包含的架构对象。</span><span class="sxs-lookup"><span data-stu-id="4660b-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
+<span data-ttu-id="08b37-p101">将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为有效的打开连接将"打开"目录。从打开的目录中，可以访问该目录中包含的架构对象。</span><span class="sxs-lookup"><span data-stu-id="08b37-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
 
 ```cpp 
  

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 05b92b6f38c9f97bcf49075a7d0f7df14084211a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293796"
 ---
-# <a name="document-methods-dao"></a><span data-ttu-id="43dd8-102">文档方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="43dd8-102">Document methods (DAO)</span></span>
+# <a name="document-methods-dao"></a><span data-ttu-id="4c9cc-102">文档方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c9cc-102">Document methods (DAO)</span></span>
 
 
-<span data-ttu-id="43dd8-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="43dd8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4c9cc-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="4c9cc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="43dd8-104">Document.CreateProperty 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="43dd8-104">Document.CreateProperty method (DAO)</span></span>](document-createproperty-method-dao.md)
+- [<span data-ttu-id="4c9cc-104">CreateProperty 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c9cc-104">Document.CreateProperty method (DAO)</span></span>](document-createproperty-method-dao.md)
 

@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8ae259589cc8d4945068901c59105425599edc64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295133"
 ---
-# <a name="customization-file-sql-section"></a><span data-ttu-id="87f0d-102">自定义文件 SQL 部分</span><span class="sxs-lookup"><span data-stu-id="87f0d-102">Customization File SQL section</span></span>
+# <a name="customization-file-sql-section"></a><span data-ttu-id="30449-102">自定义文件 SQL 部分</span><span class="sxs-lookup"><span data-stu-id="30449-102">Customization File SQL section</span></span>
 
 
-<span data-ttu-id="87f0d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="87f0d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="30449-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="30449-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="87f0d-p101">**sql** 节可以包含新的 SQL 字符串，该字符串用于替换客户端命令字符串。如果节中没有 SQL 字符串，将忽略该节。</span><span class="sxs-lookup"><span data-stu-id="87f0d-p101">The **sql** section can contain a new SQL string that replaces the client command string. If there is no SQL string in the section, the section will be ignored.</span></span>
+<span data-ttu-id="30449-p101">**sql** 节可以包含新的 SQL 字符串，该字符串用于替换客户端命令字符串。如果节中没有 SQL 字符串，将忽略该节。</span><span class="sxs-lookup"><span data-stu-id="30449-p101">The **sql** section can contain a new SQL string that replaces the client command string. If there is no SQL string in the section, the section will be ignored.</span></span>
 
-<span data-ttu-id="87f0d-p102">新的 SQL 字符串可能是*参数化的*。就是说，**sql** 节 SQL 字符串（由“?”字符指定）中的参数可以替换为客户端命令字符串（由括号中的以逗号分隔的列表指定）中的 *identifier* 中的相应参数。标识符和参数列表的行为类似函数调用。</span><span class="sxs-lookup"><span data-stu-id="87f0d-p102">The new SQL string may be *parameterized*. That is, parameters in the **sql** section SQL string (designated by the '?' character) can be replaced by corresponding arguments in an *identifier* in the client command string (designated by a comma-delimited list in parentheses). The identifier and argument list behave like a function call.</span></span>
+<span data-ttu-id="30449-p102">新的 SQL 字符串可能是*参数化的*。就是说，**sql** 节 SQL 字符串（由“?”字符指定）中的参数可以替换为客户端命令字符串（由括号中的以逗号分隔的列表指定）中的 *identifier* 中的相应参数。标识符和参数列表的行为类似函数调用。</span><span class="sxs-lookup"><span data-stu-id="30449-p102">The new SQL string may be *parameterized*. That is, parameters in the **sql** section SQL string (designated by the '?' character) can be replaced by corresponding arguments in an *identifier* in the client command string (designated by a comma-delimited list in parentheses). The identifier and argument list behave like a function call.</span></span>
 
-<span data-ttu-id="87f0d-109">例如，假定客户端命令字符串为"CustomerByID(4)"，SQL 节标头为\[SQL CustomerByID\] ，和新的 SQL 节字符串是"选择\*FROM Customers WHERE CustomerID = ?"。</span><span class="sxs-lookup"><span data-stu-id="87f0d-109">For example, assume the client command string is "CustomerByID(4)" , the SQL section header is \[SQL CustomerByID\] , and the new SQL section string is "SELECT \* FROM Customers WHERE CustomerID = ?".</span></span> <span data-ttu-id="87f0d-110">处理程序将生成、 SQL 节标头是\[SQL CustomerByID\] ，和新的 SQL 节字符串是"选择\*FROM Customers WHERE CustomerID = ?"。</span><span class="sxs-lookup"><span data-stu-id="87f0d-110">The Handler will generate , the SQL section header is \[SQL CustomerByID\] , and the new SQL section string is "SELECT \* FROM Customers WHERE CustomerID = ?".</span></span> <span data-ttu-id="87f0d-111">处理程序将生成"选择\*FROM Customers WHERE CustomerID = 4"并使用该字符串来查询数据源。</span><span class="sxs-lookup"><span data-stu-id="87f0d-111">The Handler will generate "SELECT \* FROM Customers WHERE CustomerID = 4" and use that string to query the data source.</span></span>
+<span data-ttu-id="30449-109">例如, 假设客户端命令字符串是 "CustomerByID (4)", 则 sql 节标头为\[sql CustomerByID\] , 而新的 SQL 部分字符串为 "从\* CustomerID = ? 的客户中选择"。</span><span class="sxs-lookup"><span data-stu-id="30449-109">For example, assume the client command string is "CustomerByID(4)" , the SQL section header is \[SQL CustomerByID\] , and the new SQL section string is "SELECT \* FROM Customers WHERE CustomerID = ?".</span></span> <span data-ttu-id="30449-110">该处理程序将生成, sql 节标头\[为 sql\] CustomerByID, 新的 sql 节字符串为 "从\* CustomerID = ? 的客户中选择"。</span><span class="sxs-lookup"><span data-stu-id="30449-110">The Handler will generate , the SQL section header is \[SQL CustomerByID\] , and the new SQL section string is "SELECT \* FROM Customers WHERE CustomerID = ?".</span></span> <span data-ttu-id="30449-111">该处理程序将生成 " \*从客户 id 中选择, 其中的客户 id 为 4", 并使用该字符串查询数据源。</span><span class="sxs-lookup"><span data-stu-id="30449-111">The Handler will generate "SELECT \* FROM Customers WHERE CustomerID = 4" and use that string to query the data source.</span></span>
 
-<span data-ttu-id="87f0d-112">如果新的 SQL 语句是空字符串 ("")，将忽略该节。</span><span class="sxs-lookup"><span data-stu-id="87f0d-112">If the new SQL statement is the null string (""), then the section is ignored.</span></span>
+<span data-ttu-id="30449-112">如果新的 SQL 语句是空字符串 ("")，将忽略该节。</span><span class="sxs-lookup"><span data-stu-id="30449-112">If the new SQL statement is the null string (""), then the section is ignored.</span></span>
 
-<span data-ttu-id="87f0d-p104">如果新的 SQL 语句字符串无效，则语句的执行将失败。实际上会忽略客户端参数。您可以有意这样做，以便"关闭"所有客户端 SQL 命令，如下所示：</span><span class="sxs-lookup"><span data-stu-id="87f0d-p104">If the new SQL statement string is not valid, then the execution of the statement will fail. The client parameter is effectively ignored. You can do this intentionally to "turn off" all client SQL commands by specifying:</span></span>
+<span data-ttu-id="30449-p104">如果新的 SQL 语句字符串无效，则语句的执行将失败。实际上会忽略客户端参数。您可以有意这样做，以便"关闭"所有客户端 SQL 命令，如下所示：</span><span class="sxs-lookup"><span data-stu-id="30449-p104">If the new SQL statement string is not valid, then the execution of the statement will fail. The client parameter is effectively ignored. You can do this intentionally to "turn off" all client SQL commands by specifying:</span></span>
 
 ```sql 
  
@@ -35,11 +35,11 @@ ms.locfileid: "28712993"
 SQL = " " 
 ```
 
-## <a name="syntax"></a><span data-ttu-id="87f0d-116">语法</span><span class="sxs-lookup"><span data-stu-id="87f0d-116">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="30449-116">语法</span><span class="sxs-lookup"><span data-stu-id="30449-116">Syntax</span></span>
 
-<span data-ttu-id="87f0d-117">替换 SQL 字符串项的格式为：</span><span class="sxs-lookup"><span data-stu-id="87f0d-117">A replacement SQL string entry is of the form:</span></span>
+<span data-ttu-id="30449-117">替换 SQL 字符串项的格式为：</span><span class="sxs-lookup"><span data-stu-id="30449-117">A replacement SQL string entry is of the form:</span></span>
 
-<span data-ttu-id="87f0d-118">**SQL = \* sqlString**\*</span><span class="sxs-lookup"><span data-stu-id="87f0d-118">**SQL=\*sqlString**\*</span></span>
+<span data-ttu-id="30449-118">**SQL = \* sqlString**\*</span><span class="sxs-lookup"><span data-stu-id="30449-118">**SQL=\*sqlString**\*</span></span>
 
 <table>
 <colgroup>
@@ -48,18 +48,18 @@ SQL = " "
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="87f0d-119">部分</span><span class="sxs-lookup"><span data-stu-id="87f0d-119">Part</span></span></p></th>
-<th><p><span data-ttu-id="87f0d-120">说明</span><span class="sxs-lookup"><span data-stu-id="87f0d-120">Description</span></span></p></th>
+<th><p><span data-ttu-id="30449-119">Part</span><span class="sxs-lookup"><span data-stu-id="30449-119">Part</span></span></p></th>
+<th><p><span data-ttu-id="30449-120">说明</span><span class="sxs-lookup"><span data-stu-id="30449-120">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="87f0d-121"><strong>SQL</strong></span><span class="sxs-lookup"><span data-stu-id="87f0d-121"><strong>SQL</strong></span></span></p></td>
-<td><p><span data-ttu-id="87f0d-122">字面字符串，用于指示这是 SQL 节项。</span><span class="sxs-lookup"><span data-stu-id="87f0d-122">A literal string that indicates this is an SQL section entry.</span></span></p></td>
+<td><p><span data-ttu-id="30449-121"><strong>SQL</strong></span><span class="sxs-lookup"><span data-stu-id="30449-121"><strong>SQL</strong></span></span></p></td>
+<td><p><span data-ttu-id="30449-122">字面字符串，用于指示这是 SQL 节项。</span><span class="sxs-lookup"><span data-stu-id="30449-122">A literal string that indicates this is an SQL section entry.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="87f0d-123"><strong><em>sqlString</em></strong></span><span class="sxs-lookup"><span data-stu-id="87f0d-123"><strong><em>sqlString</em></strong></span></span></p></td>
-<td><p><span data-ttu-id="87f0d-124">SQL 字符串，用于替换客户端字符串。</span><span class="sxs-lookup"><span data-stu-id="87f0d-124">An SQL string that replaces the client string.</span></span></p></td>
+<td><p><span data-ttu-id="30449-123"><strong><em>sqlString</em></strong></span><span class="sxs-lookup"><span data-stu-id="30449-123"><strong><em>sqlString</em></strong></span></span></p></td>
+<td><p><span data-ttu-id="30449-124">SQL 字符串，用于替换客户端字符串。</span><span class="sxs-lookup"><span data-stu-id="30449-124">An SQL string that replaces the client string.</span></span></p></td>
 </tr>
 </tbody>
 </table>

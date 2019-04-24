@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a39cf987682ad919422b50a299f6cd2bea0f4fd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291595"
 ---
-# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="e4657-102">Indexes 的 Append 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="e4657-102">Indexes Append method example (VC++)</span></span>
+# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="03fe8-102">Indexes 的 Append 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="03fe8-102">Indexes Append method example (VC++)</span></span>
 
 
-<span data-ttu-id="e4657-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e4657-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="03fe8-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="03fe8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e4657-p101">下面的代码示例演示如何创建新索引。该索引针对表中的两列而编制。</span><span class="sxs-lookup"><span data-stu-id="e4657-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
+<span data-ttu-id="03fe8-p101">下面的代码示例演示如何创建新索引。该索引针对表中的两列而编制。</span><span class="sxs-lookup"><span data-stu-id="03fe8-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
 
 ```cpp 
  

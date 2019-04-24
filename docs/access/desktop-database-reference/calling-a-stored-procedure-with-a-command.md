@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6578dbfc50ae8ffeaa31f49b694b37ba5fd534e8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296708"
 ---
-# <a name="calling-a-stored-procedure-with-a-command"></a><span data-ttu-id="9b8d5-102">使用 command 调用存储过程</span><span class="sxs-lookup"><span data-stu-id="9b8d5-102">Calling a stored procedure with a command</span></span>
+# <a name="calling-a-stored-procedure-with-a-command"></a><span data-ttu-id="5738f-102">使用 command 调用存储过程</span><span class="sxs-lookup"><span data-stu-id="5738f-102">Calling a stored procedure with a command</span></span>
 
 
-<span data-ttu-id="9b8d5-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b8d5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5738f-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="5738f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9b8d5-p101">还可以在调用存储过程时使用命令。以下代码调用罗斯文示例数据库中名为 CustOrdersOrders 的存储过程，定义如下：</span><span class="sxs-lookup"><span data-stu-id="9b8d5-p101">You can also use a command when calling a stored procedure. The following code calls a stored procedure in the Northwind sample database, called CustOrdersOrders, which is defined as follows:</span></span>
+<span data-ttu-id="5738f-p101">还可以在调用存储过程时使用命令。以下代码调用罗斯文示例数据库中名为 CustOrdersOrders 的存储过程，定义如下：</span><span class="sxs-lookup"><span data-stu-id="5738f-p101">You can also use a command when calling a stored procedure. The following code calls a stored procedure in the Northwind sample database, called CustOrdersOrders, which is defined as follows:</span></span>
 
 ```vb 
  
@@ -30,11 +30,11 @@ WHERE CustomerID = @CustomerID
 ORDER BY OrderID 
 ```
 
-<span data-ttu-id="9b8d5-p102">此存储过程类似于 [Command 对象参数](command-object-parameters.md)中使用的命令，在该参数中它获取客户 ID 参数并返回有关该客户订单的信息。以下代码将此存储过程作为 ADO **Recordset** 的源。</span><span class="sxs-lookup"><span data-stu-id="9b8d5-p102">This stored procedure is similar to the command used in [Command Object Parameters](command-object-parameters.md), in that it takes a customer ID parameter and returns information about that customer's orders. The code below uses this stored procedure as the source for an ADO **Recordset**.</span></span>
+<span data-ttu-id="5738f-p102">此存储过程类似于 [Command 对象参数](command-object-parameters.md)中使用的命令，在该参数中它获取客户 ID 参数并返回有关该客户订单的信息。以下代码将此存储过程作为 ADO **Recordset** 的源。</span><span class="sxs-lookup"><span data-stu-id="5738f-p102">This stored procedure is similar to the command used in [Command Object Parameters](command-object-parameters.md), in that it takes a customer ID parameter and returns information about that customer's orders. The code below uses this stored procedure as the source for an ADO **Recordset**.</span></span>
 
-<span data-ttu-id="9b8d5-p103">使用该存储过程可以访问另一 ADO 功能： **Parameters** 集合的 **Refresh** 方法。通过使用此方法，ADO 可以自动填写在该命令运行时所需参数的所有信息。使用此技术时存在性能损失，因为 ADO 必须查询数据源才能获得有关参数的信息。</span><span class="sxs-lookup"><span data-stu-id="9b8d5-p103">Using the stored procedure allows you to access another capability of ADO: the **Parameters** collection **Refresh** method. By using this method, ADO can automatically fill in all information about the parameters required by the command at run time. There is a performance penalty in using this technique, because ADO must query the data source for the information about the parameters.</span></span>
+<span data-ttu-id="5738f-p103">使用该存储过程可以访问另一 ADO 功能： **Parameters** 集合的 **Refresh** 方法。通过使用此方法，ADO 可以自动填写在该命令运行时所需参数的所有信息。使用此技术时存在性能损失，因为 ADO 必须查询数据源才能获得有关参数的信息。</span><span class="sxs-lookup"><span data-stu-id="5738f-p103">Using the stored procedure allows you to access another capability of ADO: the **Parameters** collection **Refresh** method. By using this method, ADO can automatically fill in all information about the parameters required by the command at run time. There is a performance penalty in using this technique, because ADO must query the data source for the information about the parameters.</span></span>
 
-<span data-ttu-id="9b8d5-p104">以下代码和 [Command 对象参数](command-object-parameters.md)中的代码之间存在一些其他重要差异（后者的参数是手动输入的）。首先，此代码没有将 **Prepared** 属性设置为 **True** ，因为它是 SQL Server 存储过程且已按定义进行了预编译。其次，在第二个示例中， **Command** 对象的 **CommandType** 属性更改为 **adCmdStoredProc** ，以通知 ADO 该命令是存储过程。</span><span class="sxs-lookup"><span data-stu-id="9b8d5-p104">Other important differences exist between the code below and the code in [Command Object Parameters](command-object-parameters.md), where the parameters were entered manually. First, this code does not set the **Prepared** property to **True** because it is a SQL Server stored procedure and is precompiled by definition. Second, the **CommandType** property of the **Command** object changed to **adCmdStoredProc** in the second example to inform ADO that the command was a stored procedure.</span></span>
+<span data-ttu-id="5738f-p104">以下代码和 [Command 对象参数](command-object-parameters.md)中的代码之间存在一些其他重要差异（后者的参数是手动输入的）。首先，此代码没有将 **Prepared** 属性设置为 **True** ，因为它是 SQL Server 存储过程且已按定义进行了预编译。其次，在第二个示例中， **Command** 对象的 **CommandType** 属性更改为 **adCmdStoredProc** ，以通知 ADO 该命令是存储过程。</span><span class="sxs-lookup"><span data-stu-id="5738f-p104">Other important differences exist between the code below and the code in [Command Object Parameters](command-object-parameters.md), where the parameters were entered manually. First, this code does not set the **Prepared** property to **True** because it is a SQL Server stored procedure and is precompiled by definition. Second, the **CommandType** property of the **Command** object changed to **adCmdStoredProc** in the second example to inform ADO that the command was a stored procedure.</span></span>
 
 ```vb 
  

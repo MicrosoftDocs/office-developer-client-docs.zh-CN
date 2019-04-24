@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9fcf837a02c40d11fecfa56b8aa34ac80a848411
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296456"
 ---
-# <a name="chapter-3-examining-data"></a><span data-ttu-id="aaa51-102">第 3 章：检查数据</span><span class="sxs-lookup"><span data-stu-id="aaa51-102">Chapter 3: Examining data</span></span>
+# <a name="chapter-3-examining-data"></a><span data-ttu-id="87909-102">第 3 章：检查数据</span><span class="sxs-lookup"><span data-stu-id="87909-102">Chapter 3: Examining data</span></span>
 
-<span data-ttu-id="aaa51-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="aaa51-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="87909-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="87909-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="aaa51-p101">第 2 章介绍了如何从作为 **Recordset** 对象的数据源中检索数据。本章将更深入地讨论 **Recordset** ，包括如何在 **Recordset** 中导航并查看其中的数据。</span><span class="sxs-lookup"><span data-stu-id="aaa51-p101">Chapter 2 explained how to retrieve data from a data source as a **Recordset** object. This chapter will discuss the **Recordset** in more detail, including how to navigate through the **Recordset** and view its data.</span></span>
+<span data-ttu-id="87909-p101">第 2 章介绍了如何从作为 **Recordset** 对象的数据源中检索数据。本章将更深入地讨论 **Recordset** ，包括如何在 **Recordset** 中导航并查看其中的数据。</span><span class="sxs-lookup"><span data-stu-id="87909-p101">Chapter 2 explained how to retrieve data from a data source as a **Recordset** object. This chapter will discuss the **Recordset** in more detail, including how to navigate through the **Recordset** and view its data.</span></span>
 
-<span data-ttu-id="aaa51-p102">**Recordsets** 具有旨在便于浏览和查看其中内容的方法和属性。取决于提供程序支持的功能，某些 **Recordset** 方法或属性可能不可用。若要继续研究 **Recordset** 对象，请考虑将从 Microsoft SQL Server 2000 上的罗斯文示例数据库返回的 **Recordset** ，使用以下代码：</span><span class="sxs-lookup"><span data-stu-id="aaa51-p102">**Recordsets** have methods and properties designed to make it easy to move through them and examine their contents. Depending on the functionality supported by the provider, some **Recordset** methods or properties might not be available. To continue exploring the **Recordset** object, consider a **Recordset** that would be returned from the Northwind sample database on Microsoft SQL Server 2000, using the following code:</span></span>
+<span data-ttu-id="87909-p102">**Recordsets** 具有旨在便于浏览和查看其中内容的方法和属性。取决于提供程序支持的功能，某些 **Recordset** 方法或属性可能不可用。若要继续研究 **Recordset** 对象，请考虑将从 Microsoft SQL Server 2000 上的罗斯文示例数据库返回的 **Recordset** ，使用以下代码：</span><span class="sxs-lookup"><span data-stu-id="87909-p102">**Recordsets** have methods and properties designed to make it easy to move through them and examine their contents. Depending on the functionality supported by the provider, some **Recordset** methods or properties might not be available. To continue exploring the **Recordset** object, consider a **Recordset** that would be returned from the Northwind sample database on Microsoft SQL Server 2000, using the following code:</span></span>
 
 ```vb 
  
@@ -57,7 +57,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="aaa51-p103">以下 SQL 查询返回一个具有五行（记录）和三列（字段）的 **Recordset** 。下表中显示了各行的值。</span><span class="sxs-lookup"><span data-stu-id="aaa51-p103">This SQL query returns a **Recordset** with five rows (records) and three columns (fields). The values for each row are shown in the following table.</span></span>
+<span data-ttu-id="87909-p103">以下 SQL 查询返回一个具有五行（记录）和三列（字段）的 **Recordset** 。下表中显示了各行的值。</span><span class="sxs-lookup"><span data-stu-id="87909-p103">This SQL query returns a **Recordset** with five rows (records) and three columns (fields). The values for each row are shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -67,48 +67,48 @@ End Sub
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="aaa51-111">字段 0</span><span class="sxs-lookup"><span data-stu-id="aaa51-111">FIELD 0</span></span><br />
-<span data-ttu-id="aaa51-112">名称 = 产品 Id</span><span class="sxs-lookup"><span data-stu-id="aaa51-112">Name = ProductID</span></span></p></th>
-<th><p><span data-ttu-id="aaa51-113">字段 1</span><span class="sxs-lookup"><span data-stu-id="aaa51-113">FIELD 1</span></span><br />
-<span data-ttu-id="aaa51-114">名称 = 产品名</span><span class="sxs-lookup"><span data-stu-id="aaa51-114">Name = ProductName</span></span></p></th>
-<th><p><span data-ttu-id="aaa51-115">字段 2</span><span class="sxs-lookup"><span data-stu-id="aaa51-115">FIELD 2</span></span><br />
-<span data-ttu-id="aaa51-116">名称 = 单价</span><span class="sxs-lookup"><span data-stu-id="aaa51-116">Name = UnitPrice</span></span></p></th>
+<th><p><span data-ttu-id="87909-111">字段0</span><span class="sxs-lookup"><span data-stu-id="87909-111">FIELD 0</span></span><br />
+<span data-ttu-id="87909-112">Name = ProductID</span><span class="sxs-lookup"><span data-stu-id="87909-112">Name = ProductID</span></span></p></th>
+<th><p><span data-ttu-id="87909-113">字段1</span><span class="sxs-lookup"><span data-stu-id="87909-113">FIELD 1</span></span><br />
+<span data-ttu-id="87909-114">Name = ProductName</span><span class="sxs-lookup"><span data-stu-id="87909-114">Name = ProductName</span></span></p></th>
+<th><p><span data-ttu-id="87909-115">字段2</span><span class="sxs-lookup"><span data-stu-id="87909-115">FIELD 2</span></span><br />
+<span data-ttu-id="87909-116">Name = 单价</span><span class="sxs-lookup"><span data-stu-id="87909-116">Name = UnitPrice</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="aaa51-117">7</span><span class="sxs-lookup"><span data-stu-id="aaa51-117">7</span></span></p></td>
-<td><p><span data-ttu-id="aaa51-118">海鲜粉</span><span class="sxs-lookup"><span data-stu-id="aaa51-118">Uncle Bob's Organic Dried Pears</span></span></p></td>
-<td><p><span data-ttu-id="aaa51-119">30.0000</span><span class="sxs-lookup"><span data-stu-id="aaa51-119">30.0000</span></span></p></td>
+<td><p><span data-ttu-id="87909-117">步</span><span class="sxs-lookup"><span data-stu-id="87909-117">7</span></span></p></td>
+<td><p><span data-ttu-id="87909-118">Uncle Bob's Organic Dried Pears</span><span class="sxs-lookup"><span data-stu-id="87909-118">Uncle Bob's Organic Dried Pears</span></span></p></td>
+<td><p><span data-ttu-id="87909-119">30.0000</span><span class="sxs-lookup"><span data-stu-id="87909-119">30.0000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aaa51-120">14</span><span class="sxs-lookup"><span data-stu-id="aaa51-120">14</span></span></p></td>
-<td><p><span data-ttu-id="aaa51-121">沙茶</span><span class="sxs-lookup"><span data-stu-id="aaa51-121">Tofu</span></span></p></td>
-<td><p><span data-ttu-id="aaa51-122">23.2500</span><span class="sxs-lookup"><span data-stu-id="aaa51-122">23.2500</span></span></p></td>
+<td><p><span data-ttu-id="87909-120">日</span><span class="sxs-lookup"><span data-stu-id="87909-120">14</span></span></p></td>
+<td><p><span data-ttu-id="87909-121">精</span><span class="sxs-lookup"><span data-stu-id="87909-121">Tofu</span></span></p></td>
+<td><p><span data-ttu-id="87909-122">23.2500</span><span class="sxs-lookup"><span data-stu-id="87909-122">23.2500</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aaa51-123">28</span><span class="sxs-lookup"><span data-stu-id="aaa51-123">28</span></span></p></td>
-<td><p><span data-ttu-id="aaa51-124">烤肉酱</span><span class="sxs-lookup"><span data-stu-id="aaa51-124">Rssle Sauerkraut</span></span></p></td>
-<td><p><span data-ttu-id="aaa51-125">45.6000</span><span class="sxs-lookup"><span data-stu-id="aaa51-125">45.6000</span></span></p></td>
+<td><p><span data-ttu-id="87909-123">28</span><span class="sxs-lookup"><span data-stu-id="87909-123">28</span></span></p></td>
+<td><p><span data-ttu-id="87909-124">Rssle Sauerkraut</span><span class="sxs-lookup"><span data-stu-id="87909-124">Rssle Sauerkraut</span></span></p></td>
+<td><p><span data-ttu-id="87909-125">45.6000</span><span class="sxs-lookup"><span data-stu-id="87909-125">45.6000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aaa51-126">51</span><span class="sxs-lookup"><span data-stu-id="aaa51-126">51</span></span></p></td>
-<td><p><span data-ttu-id="aaa51-127">猪肉干</span><span class="sxs-lookup"><span data-stu-id="aaa51-127">Manjimup Dried Apples</span></span></p></td>
-<td><p><span data-ttu-id="aaa51-128">53.0000</span><span class="sxs-lookup"><span data-stu-id="aaa51-128">53.0000</span></span></p></td>
+<td><p><span data-ttu-id="87909-126">51</span><span class="sxs-lookup"><span data-stu-id="87909-126">51</span></span></p></td>
+<td><p><span data-ttu-id="87909-127">Manjimup Dried Apples</span><span class="sxs-lookup"><span data-stu-id="87909-127">Manjimup Dried Apples</span></span></p></td>
+<td><p><span data-ttu-id="87909-128">53.0000</span><span class="sxs-lookup"><span data-stu-id="87909-128">53.0000</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aaa51-129">74</span><span class="sxs-lookup"><span data-stu-id="aaa51-129">74</span></span></p></td>
-<td><p><span data-ttu-id="aaa51-130">鸡精</span><span class="sxs-lookup"><span data-stu-id="aaa51-130">Longlife Tofu</span></span></p></td>
-<td><p><span data-ttu-id="aaa51-131">10.0000</span><span class="sxs-lookup"><span data-stu-id="aaa51-131">10.0000</span></span></p></td>
+<td><p><span data-ttu-id="87909-129">74</span><span class="sxs-lookup"><span data-stu-id="87909-129">74</span></span></p></td>
+<td><p><span data-ttu-id="87909-130">Longlife Tofu</span><span class="sxs-lookup"><span data-stu-id="87909-130">Longlife Tofu</span></span></p></td>
+<td><p><span data-ttu-id="87909-131">10.0000</span><span class="sxs-lookup"><span data-stu-id="87909-131">10.0000</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="aaa51-132">下一节介绍如何在此示例**Recordset**中找到指针的当前位置。</span><span class="sxs-lookup"><span data-stu-id="aaa51-132">The next section explains how to locate the current position of the cursor in this sample **Recordset**.</span></span>
+<span data-ttu-id="87909-132">下一节介绍如何在此示例**Recordset**中查找游标的当前位置。</span><span class="sxs-lookup"><span data-stu-id="87909-132">The next section explains how to locate the current position of the cursor in this sample **Recordset**.</span></span>
 
-<span data-ttu-id="aaa51-133">本章包含以下主题：</span><span class="sxs-lookup"><span data-stu-id="aaa51-133">This chapter covers the following topics:</span></span>
+<span data-ttu-id="87909-133">本章包含以下主题：</span><span class="sxs-lookup"><span data-stu-id="87909-133">This chapter covers the following topics:</span></span>
 
-- [<span data-ttu-id="aaa51-134">定位当前记录 (ADO)</span><span class="sxs-lookup"><span data-stu-id="aaa51-134">Locating the current record (ADO)</span></span>](locating-the-current-record.md)
-- [<span data-ttu-id="aaa51-135">导航数据 (ADO)</span><span class="sxs-lookup"><span data-stu-id="aaa51-135">Navigating through the data (ADO)</span></span>](navigating-through-the-data.md)
-- [<span data-ttu-id="aaa51-136">了解记录集结构 (ADO)</span><span class="sxs-lookup"><span data-stu-id="aaa51-136">Understanding Recordset structure (ADO)</span></span>](understanding-recordset-structure.md)
+- [<span data-ttu-id="87909-134">查找当前记录 (ADO)</span><span class="sxs-lookup"><span data-stu-id="87909-134">Locating the current record (ADO)</span></span>](locating-the-current-record.md)
+- [<span data-ttu-id="87909-135">在数据中导航 (ADO)</span><span class="sxs-lookup"><span data-stu-id="87909-135">Navigating through the data (ADO)</span></span>](navigating-through-the-data.md)
+- [<span data-ttu-id="87909-136">了解 Recordset 结构 (ADO)</span><span class="sxs-lookup"><span data-stu-id="87909-136">Understanding Recordset structure (ADO)</span></span>](understanding-recordset-structure.md)

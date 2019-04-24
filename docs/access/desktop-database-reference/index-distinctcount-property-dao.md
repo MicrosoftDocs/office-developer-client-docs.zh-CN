@@ -1,5 +1,5 @@
 ---
-title: Index.DistinctCount 属性 (DAO)
+title: DistinctCount 属性 (DAO)
 TOCTitle: DistinctCount Property
 ms:assetid: 24cb7247-76b4-1fce-c3c4-892f16634eff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191836(v=office.15)
@@ -12,33 +12,33 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3264ea010db12f3fee6c16bd82fb19ed9bda1992
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291843"
 ---
-# <a name="indexdistinctcount-property-dao"></a><span data-ttu-id="37976-102">Index.DistinctCount 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="37976-102">Index.DistinctCount property (DAO)</span></span>
+# <a name="indexdistinctcount-property-dao"></a><span data-ttu-id="cad38-102">DistinctCount 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="cad38-102">Index.DistinctCount property (DAO)</span></span>
 
-<span data-ttu-id="37976-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="37976-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cad38-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="cad38-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="37976-104">返回一个值，该值指示 **[Index](index-object-dao.md)** 对象中的、包含在关联表中的唯一值的数目（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="37976-104">Returns a value that indicates the number of unique values for the **[Index](index-object-dao.md)** object that are included in the associated table (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="cad38-104">返回一个值，该值指示 **[Index](index-object-dao.md)** 对象中的、包含在关联表中的唯一值的数目（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="cad38-104">Returns a value that indicates the number of unique values for the **[Index](index-object-dao.md)** object that are included in the associated table (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="37976-105">语法</span><span class="sxs-lookup"><span data-stu-id="37976-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cad38-105">语法</span><span class="sxs-lookup"><span data-stu-id="cad38-105">Syntax</span></span>
 
-<span data-ttu-id="37976-106">*表达式*。DistinctCount</span><span class="sxs-lookup"><span data-stu-id="37976-106">*expression* .DistinctCount</span></span>
+<span data-ttu-id="cad38-106">*表达式*。DistinctCount</span><span class="sxs-lookup"><span data-stu-id="cad38-106">*expression* .DistinctCount</span></span>
 
-<span data-ttu-id="37976-107">*表达式*一个代表**Index**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="37976-107">*expression* A variable that represents an **Index** object.</span></span>
+<span data-ttu-id="cad38-107">*表达式*一个代表**Index**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="cad38-107">*expression* A variable that represents an **Index** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="37976-108">注解</span><span class="sxs-lookup"><span data-stu-id="37976-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cad38-108">注解</span><span class="sxs-lookup"><span data-stu-id="cad38-108">Remarks</span></span>
 
-<span data-ttu-id="37976-p101">检查 **DistinctCount** 属性，以确定索引中唯一值或键的数目。即使在索引允许重复值的情况下可能出现该值的多个重复项，任何一个键也只统计一次。在试图通过评估索引信息来优化数据访问的应用程序中，该信息十分有用。唯一值的数目亦称 **Index** 对象的基数。</span><span class="sxs-lookup"><span data-stu-id="37976-p101">Check the **DistinctCount** property to determine the number of unique values, or keys, in an index. Any key is counted only once, even though there may be multiple occurrences of that value if the index permits duplicate values. This information is useful in applications that attempt to optimize data access by evaluating index information. The number of unique values is also known as the cardinality of an **Index** object.</span></span>
+<span data-ttu-id="cad38-p101">检查 **DistinctCount** 属性，以确定索引中唯一值或键的数目。即使在索引允许重复值的情况下可能出现该值的多个重复项，任何一个键也只统计一次。在试图通过评估索引信息来优化数据访问的应用程序中，该信息十分有用。唯一值的数目亦称 **Index** 对象的基数。</span><span class="sxs-lookup"><span data-stu-id="cad38-p101">Check the **DistinctCount** property to determine the number of unique values, or keys, in an index. Any key is counted only once, even though there may be multiple occurrences of that value if the index permits duplicate values. This information is useful in applications that attempt to optimize data access by evaluating index information. The number of unique values is also known as the cardinality of an **Index** object.</span></span>
 
-<span data-ttu-id="37976-p102">**DistinctCount** 属性不一定总会反映特定时间的实际键数。例如， **DistinctCount** 属性中就不会立即反映回滚的事务导致的更改。 **DistinctCount** 属性值也有可能不会反映包含唯一键的记录的删除。使用 **[CreateIndex](tabledef-createindex-method-dao.md)** 方法之后，该数字立即变准确。</span><span class="sxs-lookup"><span data-stu-id="37976-p102">The **DistinctCount** property won't always reflect the actual number of keys at a particular time. For example, a change caused by a rolled back transaction won't be reflected immediately in the **DistinctCount** property. The **DistinctCount** property value also may not reflect the deletion of records with unique keys. The number will be accurate immediately after you use the **[CreateIndex](tabledef-createindex-method-dao.md)** method.</span></span>
+<span data-ttu-id="cad38-p102">**DistinctCount** 属性不一定总会反映特定时间的实际键数。例如， **DistinctCount** 属性中就不会立即反映回滚的事务导致的更改。 **DistinctCount** 属性值也有可能不会反映包含唯一键的记录的删除。使用 **[CreateIndex](tabledef-createindex-method-dao.md)** 方法之后，该数字立即变准确。</span><span class="sxs-lookup"><span data-stu-id="cad38-p102">The **DistinctCount** property won't always reflect the actual number of keys at a particular time. For example, a change caused by a rolled back transaction won't be reflected immediately in the **DistinctCount** property. The **DistinctCount** property value also may not reflect the deletion of records with unique keys. The number will be accurate immediately after you use the **[CreateIndex](tabledef-createindex-method-dao.md)** method.</span></span>
 
-## <a name="example"></a><span data-ttu-id="37976-117">示例</span><span class="sxs-lookup"><span data-stu-id="37976-117">Example</span></span>
+## <a name="example"></a><span data-ttu-id="cad38-117">示例</span><span class="sxs-lookup"><span data-stu-id="cad38-117">Example</span></span>
 
-<span data-ttu-id="37976-p103">以下示例使用 **DistinctCount** 属性演示如何确定 **Index** 对象中唯一值的数目。但是，只是在创建了 **Index** 之后，该值才立即变准确。如果没有任何键发生更改，或者添加了新键且没有删除任何旧键，该值将保持为准确值；否则，该值是不可靠的。（如果该过程已运行数次，则可以在现有 Index 对象的 **DistinctCount** 属性值上见证这种效果。）</span><span class="sxs-lookup"><span data-stu-id="37976-p103">This example uses the **DistinctCount** property to show how you can determine the number of unique values in an **Index** object. However, this value is only accurate immediately after creating the **Index**. It will remain accurate if no keys change, or if new keys are added and no old keys are deleted; otherwise, it will not be reliable. (If this procedure is run several times, you can see the effect on the **DistinctCount** property values of the existing Index objects.)</span></span>
+<span data-ttu-id="cad38-p103">以下示例使用 **DistinctCount** 属性演示如何确定 **Index** 对象中唯一值的数目。但是，只是在创建了 **Index** 之后，该值才立即变准确。如果没有任何键发生更改，或者添加了新键且没有删除任何旧键，该值将保持为准确值；否则，该值是不可靠的。（如果该过程已运行数次，则可以在现有 Index 对象的 **DistinctCount** 属性值上见证这种效果。）</span><span class="sxs-lookup"><span data-stu-id="cad38-p103">This example uses the **DistinctCount** property to show how you can determine the number of unique values in an **Index** object. However, this value is only accurate immediately after creating the **Index**. It will remain accurate if no keys change, or if new keys are added and no old keys are deleted; otherwise, it will not be reliable. (If this procedure is run several times, you can see the effect on the **DistinctCount** property values of the existing Index objects.)</span></span>
 
 ```vb
     Sub DistinctCountX() 
