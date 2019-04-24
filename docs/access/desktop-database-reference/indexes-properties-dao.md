@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0d809094e75424b5d68ba370486ec676411fe7d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717997"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291488"
 ---
-# <a name="indexes-properties-dao"></a><span data-ttu-id="e7fa6-102">索引属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="e7fa6-102">Indexes properties (DAO)</span></span>
+# <a name="indexes-properties-dao"></a><span data-ttu-id="48fda-102">索引属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="48fda-102">Indexes properties (DAO)</span></span>
 
-<span data-ttu-id="e7fa6-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e7fa6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="48fda-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="48fda-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e7fa6-104">Indexes.Count 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="e7fa6-104">Indexes.Count property (DAO)</span></span>](indexes-count-property-dao.md)
+- [<span data-ttu-id="48fda-104">索引号属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="48fda-104">Indexes.Count property (DAO)</span></span>](indexes-count-property-dao.md)
 

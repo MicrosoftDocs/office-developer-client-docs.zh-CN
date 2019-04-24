@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1fa0ca559c63e1786f55607d94b45f3cc01503dc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294020"
 ---
-# <a name="deleterecord-and-moverecord-methods-example-vb"></a><span data-ttu-id="8faca-102">DeleteRecord 和 MoveRecord 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="8faca-102">DeleteRecord and MoveRecord methods example (VB)</span></span>
+# <a name="deleterecord-and-moverecord-methods-example-vb"></a><span data-ttu-id="89e28-102">DeleteRecord 和 MoveRecord 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="89e28-102">DeleteRecord and MoveRecord methods example (VB)</span></span>
 
 
-<span data-ttu-id="8faca-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="8faca-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="89e28-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="89e28-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8faca-104">本示例演示如何将复制、 移动、 编辑和删除文本文件发布到 web 文件夹的内容。</span><span class="sxs-lookup"><span data-stu-id="8faca-104">This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a web folder.</span></span> <span data-ttu-id="8faca-105">使用的其他属性和方法包括 [GetChildren](getchildren-method-ado.md)、[ParentURL](parenturl-property-ado.md)、[Source](source-property-ado-record.md) 和 [Flush](flush-method-ado.md)。</span><span class="sxs-lookup"><span data-stu-id="8faca-105">Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).</span></span>
+<span data-ttu-id="89e28-104">本示例演示如何复制、移动、编辑和删除发布到 web 文件夹的文本文件的内容。</span><span class="sxs-lookup"><span data-stu-id="89e28-104">This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a web folder.</span></span> <span data-ttu-id="89e28-105">使用的其他属性和方法包括 [GetChildren](getchildren-method-ado.md)、[ParentURL](parenturl-property-ado.md)、[Source](source-property-ado-record.md) 和 [Flush](flush-method-ado.md)。</span><span class="sxs-lookup"><span data-stu-id="89e28-105">Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).</span></span>
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: Workspace.DefaultCursorDriver 属性 (DAO)
+title: DefaultCursorDriver 属性 (DAO)
 TOCTitle: DefaultCursorDriver Property
 ms:assetid: 15a8356d-7ae0-3c8e-fbb7-2d8ad6d9a582
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845499(v=office.15)
@@ -12,33 +12,33 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 73567aae9bc332c7113f9128dedc1e2cc8893cab
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305927"
 ---
-# <a name="workspacedefaultcursordriver-property-dao"></a><span data-ttu-id="45114-102">Workspace.DefaultCursorDriver 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="45114-102">Workspace.DefaultCursorDriver property (DAO)</span></span>
+# <a name="workspacedefaultcursordriver-property-dao"></a><span data-ttu-id="11f64-102">DefaultCursorDriver 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="11f64-102">Workspace.DefaultCursorDriver property (DAO)</span></span>
 
 
-<span data-ttu-id="45114-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="45114-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="11f64-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="11f64-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-## <a name="syntax"></a><span data-ttu-id="45114-104">语法</span><span class="sxs-lookup"><span data-stu-id="45114-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="11f64-104">语法</span><span class="sxs-lookup"><span data-stu-id="11f64-104">Syntax</span></span>
 
-<span data-ttu-id="45114-105">*表达式*。DefaultCursorDriver</span><span class="sxs-lookup"><span data-stu-id="45114-105">*expression* .DefaultCursorDriver</span></span>
+<span data-ttu-id="11f64-105">*表达式*。DefaultCursorDriver</span><span class="sxs-lookup"><span data-stu-id="11f64-105">*expression* .DefaultCursorDriver</span></span>
 
-<span data-ttu-id="45114-106">*表达式*一个代表**Workspace**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="45114-106">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="11f64-106">*表达式*一个代表**Workspace**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="11f64-106">*expression* A variable that represents a **Workspace** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="45114-107">注解</span><span class="sxs-lookup"><span data-stu-id="45114-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="11f64-107">注解</span><span class="sxs-lookup"><span data-stu-id="11f64-107">Remarks</span></span>
 
-<span data-ttu-id="45114-108">可以将该设置值或返回值设置为 **[CursorDriverEnum](cursordriverenum-enumeration-dao.md)** 常量之一。</span><span class="sxs-lookup"><span data-stu-id="45114-108">The setting or return value can be set to one of the **[CursorDriverEnum](cursordriverenum-enumeration-dao.md)** constants.</span></span>
+<span data-ttu-id="11f64-108">可以将该设置值或返回值设置为 **[CursorDriverEnum](cursordriverenum-enumeration-dao.md)** 常量之一。</span><span class="sxs-lookup"><span data-stu-id="11f64-108">The setting or return value can be set to one of the **[CursorDriverEnum](cursordriverenum-enumeration-dao.md)** constants.</span></span>
 
-<span data-ttu-id="45114-p101">该属性设置仅影响在设置了该属性后建立的连接。更改 **DefaultCursorDriver** 属性对现有的连接没有影响。</span><span class="sxs-lookup"><span data-stu-id="45114-p101">This property setting only affects connections established after the property has been set. Changing the **DefaultCursorDriver** property has no effect on existing connections.</span></span>
+<span data-ttu-id="11f64-p101">该属性设置仅影响在设置了该属性后建立的连接。更改 **DefaultCursorDriver** 属性对现有的连接没有影响。</span><span class="sxs-lookup"><span data-stu-id="11f64-p101">This property setting only affects connections established after the property has been set. Changing the **DefaultCursorDriver** property has no effect on existing connections.</span></span>
 
-## <a name="example"></a><span data-ttu-id="45114-111">示例</span><span class="sxs-lookup"><span data-stu-id="45114-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="11f64-111">示例</span><span class="sxs-lookup"><span data-stu-id="11f64-111">Example</span></span>
 
-<span data-ttu-id="45114-p102">以下示例使用 **NextRecordset** 方法查看 SELECT 复合查询中的数据。在执行此类查询时， **DefaultCursorDriver** 属性必须设置为 **dbUseODBCCursor**。即使部分或全部 SELECT 语句返回零记录， **NextRecordset** 方法也会返回 **True**；仅当检查了所有单个 SQL 子句后，它才返回 **False**。</span><span class="sxs-lookup"><span data-stu-id="45114-p102">This example uses the **NextRecordset** method to view the data from a compound SELECT query. The **DefaultCursorDriver** property must be set to **dbUseODBCCursor** when executing such queries. The **NextRecordset** method will return **True** even if some or all of the SELECT statements return zero records; it will return **False** only after all the individual SQL clauses have been checked.</span></span>
+<span data-ttu-id="11f64-p102">以下示例使用 **NextRecordset** 方法查看 SELECT 复合查询中的数据。在执行此类查询时， **DefaultCursorDriver** 属性必须设置为 **dbUseODBCCursor**。即使部分或全部 SELECT 语句返回零记录， **NextRecordset** 方法也会返回 **True**；仅当检查了所有单个 SQL 子句后，它才返回 **False**。</span><span class="sxs-lookup"><span data-stu-id="11f64-p102">This example uses the **NextRecordset** method to view the data from a compound SELECT query. The **DefaultCursorDriver** property must be set to **dbUseODBCCursor** when executing such queries. The **NextRecordset** method will return **True** even if some or all of the SELECT statements return zero records; it will return **False** only after all the individual SQL clauses have been checked.</span></span>
 
 ```vb
     Sub NextRecordsetX() 
@@ -95,7 +95,7 @@ ms.locfileid: "28721134"
 
 <br/>
 
-<span data-ttu-id="45114-p103">完成同一任务的另一种方法是创建一个包含 SQL 复合语句的预备语句。 **QueryDef** 对象的 **CacheSize** 属性必须设置为 1， **Recordset** 对象必须为仅向前类型，并且是只读的。</span><span class="sxs-lookup"><span data-stu-id="45114-p103">Another way to accomplish the same task would be to create a prepared statement containing the compound SQL statement. The **CacheSize** property of the **QueryDef** object must be set to 1, and the **Recordset** object must be forward-only and read-only.</span></span>
+<span data-ttu-id="11f64-p103">完成同一任务的另一种方法是创建一个包含 SQL 复合语句的预备语句。 **QueryDef** 对象的 **CacheSize** 属性必须设置为 1， **Recordset** 对象必须为仅向前类型，并且是只读的。</span><span class="sxs-lookup"><span data-stu-id="11f64-p103">Another way to accomplish the same task would be to create a prepared statement containing the compound SQL statement. The **CacheSize** property of the **QueryDef** object must be set to 1, and the **Recordset** object must be forward-only and read-only.</span></span>
 
 ```vb 
 Sub NextRecordsetX2() 
@@ -161,7 +161,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="45114-p104">以下示例使用 **RecordStatus** 和 **DefaultCursorDriver** 属性演示如何在批更新中跟踪对本地 **Recordset** 的更改。若要使该过程运行，需要使用 RecordStatusOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="45114-p104">This example uses the **RecordStatus** and **DefaultCursorDriver** properties to show how changes to a local **Recordset** are tracked during batch updating. The RecordStatusOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="11f64-p104">以下示例使用 **RecordStatus** 和 **DefaultCursorDriver** 属性演示如何在批更新中跟踪对本地 **Recordset** 的更改。若要使该过程运行，需要使用 RecordStatusOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="11f64-p104">This example uses the **RecordStatus** and **DefaultCursorDriver** properties to show how changes to a local **Recordset** are tracked during batch updating. The RecordStatusOutput function is required for this procedure to run.</span></span>
 
 ```vb 
 Sub RecordStatusX() 

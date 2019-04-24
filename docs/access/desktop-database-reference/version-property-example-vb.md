@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f76455c78c7c58b81a327d883cdd47821f42ac6d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312073"
 ---
-# <a name="version-property-example-vb"></a><span data-ttu-id="9ecab-102">Version 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="9ecab-102">Version property example (VB)</span></span>
+# <a name="version-property-example-vb"></a><span data-ttu-id="0edfd-102">Version 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="0edfd-102">Version property example (VB)</span></span>
 
 
-<span data-ttu-id="9ecab-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="9ecab-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0edfd-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="0edfd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9ecab-p101">此示例使用 [Connection](version-property-ado.md) 对象的 [Version](connection-object-ado.md) 属性来显示当前的 ADO 版本。它还使用多个动态属性来显示以下内容：</span><span class="sxs-lookup"><span data-stu-id="9ecab-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
+<span data-ttu-id="0edfd-p101">此示例使用 [Connection](version-property-ado.md) 对象的 [Version](connection-object-ado.md) 属性来显示当前的 ADO 版本。它还使用多个动态属性来显示以下内容：</span><span class="sxs-lookup"><span data-stu-id="0edfd-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
 
-  - <span data-ttu-id="9ecab-106">当前的 DBMS 名称和版本。</span><span class="sxs-lookup"><span data-stu-id="9ecab-106">the current DBMS name and version.</span></span>
+  - <span data-ttu-id="0edfd-106">当前的 DBMS 名称和版本。</span><span class="sxs-lookup"><span data-stu-id="0edfd-106">the current DBMS name and version.</span></span>
 
-  - <span data-ttu-id="9ecab-107">OLE DB 版本。</span><span class="sxs-lookup"><span data-stu-id="9ecab-107">OLE DB version.</span></span>
+  - <span data-ttu-id="0edfd-107">OLE DB 版本。</span><span class="sxs-lookup"><span data-stu-id="0edfd-107">OLE DB version.</span></span>
 
-  - <span data-ttu-id="9ecab-108">提供程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="9ecab-108">provider name and version.</span></span>
+  - <span data-ttu-id="0edfd-108">提供程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="0edfd-108">provider name and version.</span></span>
 
-  - <span data-ttu-id="9ecab-109">ODBC 版本。</span><span class="sxs-lookup"><span data-stu-id="9ecab-109">ODBC version.</span></span>
+  - <span data-ttu-id="0edfd-109">ODBC 版本。</span><span class="sxs-lookup"><span data-stu-id="0edfd-109">ODBC version.</span></span>
 
-  - <span data-ttu-id="9ecab-110">ODBC 驱动程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="9ecab-110">ODBC driver name and version.</span></span>
+  - <span data-ttu-id="0edfd-110">ODBC 驱动程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="0edfd-110">ODBC driver name and version.</span></span>
 
 <!-- end list -->
 

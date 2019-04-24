@@ -1,5 +1,5 @@
 ---
-title: Keys 的 Append 方法，密钥类型 RelatedColumn 属性示例 （VC + +）
+title: Keys Append 方法、Key Type、RelatedColumn 属性示例 (VC + +)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
 ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: edbb25c9eda48a33f659e577882e40cc67a07190
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290636"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="dee87-102">Keys 的 Append 方法，密钥类型 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="dee87-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="43686-102">Keys Append 方法、Key Type、RelatedColumn、RelatedTable 和 UpdateRule 属性示例 (VC + +)</span><span class="sxs-lookup"><span data-stu-id="43686-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
 
 
-<span data-ttu-id="dee87-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="dee87-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="43686-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="43686-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dee87-p101">下面的代码演示如何创建新的外键。它假设有两个表：Customers（客户）和 Orders（订单）。</span><span class="sxs-lookup"><span data-stu-id="dee87-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
+<span data-ttu-id="43686-p101">下面的代码演示如何创建新的外键。它假设有两个表：Customers（客户）和 Orders（订单）。</span><span class="sxs-lookup"><span data-stu-id="43686-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
 
 ```cpp 
  

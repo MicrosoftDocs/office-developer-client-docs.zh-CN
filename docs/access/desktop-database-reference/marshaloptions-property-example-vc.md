@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f2ae878b12fdfe05c25d820f56e9e1862fa01e06
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289761"
 ---
-# <a name="marshaloptions-property-example-vc"></a><span data-ttu-id="2b9d6-102">MarshalOptions 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="2b9d6-102">MarshalOptions property example (VC++)</span></span>
+# <a name="marshaloptions-property-example-vc"></a><span data-ttu-id="11e05-102">MarshalOptions 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="11e05-102">MarshalOptions property example (VC++)</span></span>
 
 
-<span data-ttu-id="2b9d6-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b9d6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="11e05-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="11e05-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2b9d6-104">本示例使用 [MarshalOptions](marshaloptions-property-ado.md) 属性指定要发送回服务器的行  所有行或仅已修改的行。</span><span class="sxs-lookup"><span data-stu-id="2b9d6-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
+<span data-ttu-id="11e05-104">本示例使用 [MarshalOptions](marshaloptions-property-ado.md) 属性指定要发送回服务器的行  所有行或仅已修改的行。</span><span class="sxs-lookup"><span data-stu-id="11e05-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
 
 ```cpp 
  
@@ -274,7 +274,7 @@ void PrintComError(_com_error &e)
 // EndMarshalOptionsCpp 
 ```
 
-<span data-ttu-id="2b9d6-105">**MarshalOptionsX.h**</span><span class="sxs-lookup"><span data-stu-id="2b9d6-105">**MarshalOptionsX.h**</span></span>
+<span data-ttu-id="11e05-105">**MarshalOptionsX**</span><span class="sxs-lookup"><span data-stu-id="11e05-105">**MarshalOptionsX.h**</span></span>
 
 ```cpp 
  

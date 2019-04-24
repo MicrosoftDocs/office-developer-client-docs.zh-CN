@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 26c259452e23bed8d2937f9d86c78d4d52be2993
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294083"
 ---
-# <a name="delete-method-example-vbscript"></a><span data-ttu-id="f6ed9-102">Delete 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="f6ed9-102">Delete method example (VBScript)</span></span>
+# <a name="delete-method-example-vbscript"></a><span data-ttu-id="45331-102">Delete 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="45331-102">Delete method example (VBScript)</span></span>
 
 
-<span data-ttu-id="f6ed9-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f6ed9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="45331-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="45331-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f6ed9-104">本示例使用 [Delete](delete-method-ado-recordset.md) 方法从 [Recordset](recordset-object-ado.md) 中删除指定的记录。</span><span class="sxs-lookup"><span data-stu-id="f6ed9-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="45331-104">本示例使用 [Delete](delete-method-ado-recordset.md) 方法从 [Recordset](recordset-object-ado.md) 中删除指定的记录。</span><span class="sxs-lookup"><span data-stu-id="45331-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="f6ed9-105">在 Active Server Page (ASP) 中使用下面的示例。</span><span class="sxs-lookup"><span data-stu-id="f6ed9-105">Use the following example in an Active Server Page (ASP).</span></span>
+<span data-ttu-id="45331-105">在 Active Server Page (ASP) 中使用下面的示例。</span><span class="sxs-lookup"><span data-stu-id="45331-105">Use the following example in an Active Server Page (ASP).</span></span>
 
-<span data-ttu-id="f6ed9-p101">使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **DeleteVBS.asp** 。您可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="f6ed9-p101">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **DeleteVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="45331-p101">使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **DeleteVBS.asp** 。您可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="45331-p101">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **DeleteVBS.asp**. You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="f6ed9-p102">若要演练本示例，请首先尝试使用 [AddNew](addnew-method-example-vbscript.md) 示例添加一些记录。然后可以尝试删除这些记录。可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="f6ed9-p102">To exercise the example, try using the [AddNew](addnew-method-example-vbscript.md) example first to add some records. Then you can try to delete them. View the result in any client browser.</span></span>
+<span data-ttu-id="45331-p102">若要演练本示例，请首先尝试使用 [AddNew](addnew-method-example-vbscript.md) 示例添加一些记录。然后可以尝试删除这些记录。可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="45331-p102">To exercise the example, try using the [AddNew](addnew-method-example-vbscript.md) example first to add some records. Then you can try to delete them. View the result in any client browser.</span></span>
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: Visual c + + （访问桌面数据库参考 （英文）
+title: Visual c + + (Access 桌面数据库参考)
 TOCTitle: Visual C++
 ms:assetid: 31d27968-e7bd-02fa-efad-26039bea30b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249091(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 082790c33840bfeacf0c1a6bd38af34c0617f4fe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303400"
 ---
-# <a name="visual-c"></a><span data-ttu-id="04e49-102">Visual C++</span><span class="sxs-lookup"><span data-stu-id="04e49-102">Visual C++</span></span>
+# <a name="visual-c"></a><span data-ttu-id="b144c-102">Visual C++</span><span class="sxs-lookup"><span data-stu-id="b144c-102">Visual C++</span></span>
 
 
-<span data-ttu-id="04e49-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="04e49-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b144c-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="b144c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="04e49-104">这是如何在 Microsoft Visual C++ 中实例化 ADO 事件的架构说明。</span><span class="sxs-lookup"><span data-stu-id="04e49-104">This is a schematic description of how to instantiate ADO events in Microsoft Visual C++.</span></span> <span data-ttu-id="04e49-105">有关的完整说明，请参阅[ADO 事件模型示例 （VC + +）](ado-events-model-example-vc.md) 。</span><span class="sxs-lookup"><span data-stu-id="04e49-105">See [ADO Events Model example (VC++)](ado-events-model-example-vc.md) for a complete description.</span></span>
+<span data-ttu-id="b144c-104">这是如何在 Microsoft Visual C++ 中实例化 ADO 事件的架构说明。</span><span class="sxs-lookup"><span data-stu-id="b144c-104">This is a schematic description of how to instantiate ADO events in Microsoft Visual C++.</span></span> <span data-ttu-id="b144c-105">有关完整说明, 请参阅[ADO 事件模型示例 (VC + +)](ado-events-model-example-vc.md) 。</span><span class="sxs-lookup"><span data-stu-id="b144c-105">See [ADO Events Model example (VC++)](ado-events-model-example-vc.md) for a complete description.</span></span>
 
-<span data-ttu-id="04e49-106">创建从在文件 adoint.h 中找到的 **ConnectionEventsVt** 和 **RecordsetEventsVt** 接口派生的类。</span><span class="sxs-lookup"><span data-stu-id="04e49-106">Create classes derived from the **ConnectionEventsVt** and **RecordsetEventsVt** interfaces found in the file adoint.h.</span></span>
+<span data-ttu-id="b144c-106">创建从在文件 adoint.h 中找到的 **ConnectionEventsVt** 和 **RecordsetEventsVt** 接口派生的类。</span><span class="sxs-lookup"><span data-stu-id="b144c-106">Create classes derived from the **ConnectionEventsVt** and **RecordsetEventsVt** interfaces found in the file adoint.h.</span></span>
 
 ```cpp 
  
@@ -49,7 +49,7 @@ class CRstEvent : public RecordsetEventsVt
 // EndEventExampleVC01 
 ```
 
-<span data-ttu-id="04e49-107">在两个类中都实现了每个事件处理程序方法。</span><span class="sxs-lookup"><span data-stu-id="04e49-107">Implement each of the event-handler methods in both classes.</span></span> <span data-ttu-id="04e49-108">就足够每种方法只是返回 HRESULT S\_确定。</span><span class="sxs-lookup"><span data-stu-id="04e49-108">It is sufficient that each method merely return an HRESULT of S\_OK.</span></span> <span data-ttu-id="04e49-109">但是，当您通知事件处理程序可用时，默认情况下它们将被连续调用。</span><span class="sxs-lookup"><span data-stu-id="04e49-109">However, when you make it known that your event handlers are available, they will be called continuously by default.</span></span> <span data-ttu-id="04e49-110">而您可能希望通过将 **adStatus** 设置为 **adStatusUnwantedEvent** ，以便在第一次通知之后不再请求进一步的通知。</span><span class="sxs-lookup"><span data-stu-id="04e49-110">Instead, you might want to request no further notification after the first time by setting **adStatus** to **adStatusUnwantedEvent**.</span></span>
+<span data-ttu-id="b144c-107">在两个类中都实现了每个事件处理程序方法。</span><span class="sxs-lookup"><span data-stu-id="b144c-107">Implement each of the event-handler methods in both classes.</span></span> <span data-ttu-id="b144c-108">每个方法只返回 S\_OK 的 HRESULT 就足够了。</span><span class="sxs-lookup"><span data-stu-id="b144c-108">It is sufficient that each method merely return an HRESULT of S\_OK.</span></span> <span data-ttu-id="b144c-109">但是，当您通知事件处理程序可用时，默认情况下它们将被连续调用。</span><span class="sxs-lookup"><span data-stu-id="b144c-109">However, when you make it known that your event handlers are available, they will be called continuously by default.</span></span> <span data-ttu-id="b144c-110">而您可能希望通过将 **adStatus** 设置为 **adStatusUnwantedEvent**，以便在第一次通知之后不再请求进一步的通知。</span><span class="sxs-lookup"><span data-stu-id="b144c-110">Instead, you might want to request no further notification after the first time by setting **adStatus** to **adStatusUnwantedEvent**.</span></span>
 
 ```cpp 
  
@@ -66,11 +66,11 @@ STDMETHODIMP CConnEvent::ConnectComplete(
 // EndEventExampleVC02 
 ```
 
-<span data-ttu-id="04e49-p103">事件类继承自 **IUnknown** ，所以还必须实现 **QueryInterface** 、 **AddRef** 和 **Release** 方法。还要实现类构造函数和析构函数。请选择您最熟悉的 Visual C++ 工具来简化这部分任务。</span><span class="sxs-lookup"><span data-stu-id="04e49-p103">The event classes inherit from **IUnknown**, so you must also implement the **QueryInterface**, **AddRef**, and **Release** methods. Also implement class constructors and destructors. Choose the Visual C++ tools with which you are most comfortable to simplify this part of the task.</span></span>
+<span data-ttu-id="b144c-p103">事件类继承自 **IUnknown** ，所以还必须实现 **QueryInterface** 、 **AddRef** 和 **Release** 方法。还要实现类构造函数和析构函数。请选择您最熟悉的 Visual C++ 工具来简化这部分任务。</span><span class="sxs-lookup"><span data-stu-id="b144c-p103">The event classes inherit from **IUnknown**, so you must also implement the **QueryInterface**, **AddRef**, and **Release** methods. Also implement class constructors and destructors. Choose the Visual C++ tools with which you are most comfortable to simplify this part of the task.</span></span>
 
-<span data-ttu-id="04e49-p104">通过发出 **Recordset** 和 [Connection](recordset-object-ado.md) 对象的 [QueryInterface](connection-object-ado.md) 来获取 **IConnectionPointContainer** 和 **IConnectionPoint** 接口，以便通知事件处理程序可用。然后对每个类发出 **IConnectionPoint::Advise** 。</span><span class="sxs-lookup"><span data-stu-id="04e49-p104">Make it known that your event handlers are available by issuing **QueryInterface** on the [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects for the **IConnectionPointContainer** and **IConnectionPoint** interfaces. Then issue **IConnectionPoint::Advise** for each class.</span></span>
+<span data-ttu-id="b144c-p104">通过发出 **Recordset** 和 [Connection](recordset-object-ado.md) 对象的 [QueryInterface](connection-object-ado.md) 来获取 **IConnectionPointContainer** 和 **IConnectionPoint** 接口，以便通知事件处理程序可用。然后对每个类发出 **IConnectionPoint::Advise** 。</span><span class="sxs-lookup"><span data-stu-id="b144c-p104">Make it known that your event handlers are available by issuing **QueryInterface** on the [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects for the **IConnectionPointContainer** and **IConnectionPoint** interfaces. Then issue **IConnectionPoint::Advise** for each class.</span></span>
 
-<span data-ttu-id="04e49-116">例如，假设您正在使用返回 **True** 的布尔函数，如果它成功，将通知 **Recordset** 对象您的事件处理程序已经可用。</span><span class="sxs-lookup"><span data-stu-id="04e49-116">For example, assume you are using a Boolean function that returns **True** if it successfully informs a **Recordset** object that you have event handlers available.</span></span>
+<span data-ttu-id="b144c-116">例如，假设您正在使用返回 **True** 的布尔函数，如果它成功，将通知 **Recordset** 对象您的事件处理程序已经可用。</span><span class="sxs-lookup"><span data-stu-id="b144c-116">For example, assume you are using a Boolean function that returns **True** if it successfully informs a **Recordset** object that you have event handlers available.</span></span>
 
 ```cpp 
  
@@ -100,9 +100,9 @@ return TRUE;
 // EndEventExampleVC03 
 ```
 
-<span data-ttu-id="04e49-117">在这里，将启用 **RecordsetEvent** 系列的事件，在发生 **Recordset** 事件时将调用您的方法。</span><span class="sxs-lookup"><span data-stu-id="04e49-117">At this point, events for the **RecordsetEvent** family are enabled and your methods will be called as **Recordset** events occur.</span></span>
+<span data-ttu-id="b144c-117">在这里，将启用 **RecordsetEvent** 系列的事件，在发生 **Recordset** 事件时将调用您的方法。</span><span class="sxs-lookup"><span data-stu-id="b144c-117">At this point, events for the **RecordsetEvent** family are enabled and your methods will be called as **Recordset** events occur.</span></span>
 
-<span data-ttu-id="04e49-118">随后，如果希望使事件处理程序不可用，请再次获取连接点，并发出 **IConnectionPoint::Unadvise** 方法。</span><span class="sxs-lookup"><span data-stu-id="04e49-118">Later, when you want to make your event handlers unavailable, get the connection point again and issue the **IConnectionPoint::Unadvise** method.</span></span>
+<span data-ttu-id="b144c-118">随后，如果希望使事件处理程序不可用，请再次获取连接点，并发出 **IConnectionPoint::Unadvise** 方法。</span><span class="sxs-lookup"><span data-stu-id="b144c-118">Later, when you want to make your event handlers unavailable, get the connection point again and issue the **IConnectionPoint::Unadvise** method.</span></span>
 
 ```cpp 
  
@@ -115,9 +115,9 @@ if (FAILED(hr)) return FALSE;
 // EndEventExampleVC04 
 ```
 
-<span data-ttu-id="04e49-119">必须在合适的时候释放接口并销毁类对象。</span><span class="sxs-lookup"><span data-stu-id="04e49-119">You must release interfaces and destroy class objects as appropriate.</span></span>
+<span data-ttu-id="b144c-119">必须在合适的时候释放接口并销毁类对象。</span><span class="sxs-lookup"><span data-stu-id="b144c-119">You must release interfaces and destroy class objects as appropriate.</span></span>
 
-<span data-ttu-id="04e49-120">以下代码显示 **Recordset** 事件接收器类的完整示例。</span><span class="sxs-lookup"><span data-stu-id="04e49-120">The following code shows a complete example of a **Recordset** Event sink class.</span></span>
+<span data-ttu-id="b144c-120">以下代码显示 **Recordset** 事件接收器类的完整示例。</span><span class="sxs-lookup"><span data-stu-id="b144c-120">The following code shows a complete example of a **Recordset** Event sink class.</span></span>
 
 ```vb 
  

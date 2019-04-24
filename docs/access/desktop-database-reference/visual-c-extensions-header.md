@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 60dbf94824c5563196c549e2276b903ea814b1fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311323"
 ---
-# <a name="visual-c-extensions-header"></a><span data-ttu-id="fa3a5-102">Visual C++ 扩展头</span><span class="sxs-lookup"><span data-stu-id="fa3a5-102">Visual C++ Extensions header</span></span>
+# <a name="visual-c-extensions-header"></a><span data-ttu-id="ac874-102">Visual C++ 扩展头</span><span class="sxs-lookup"><span data-stu-id="ac874-102">Visual C++ Extensions header</span></span>
 
 
-<span data-ttu-id="fa3a5-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa3a5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ac874-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac874-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fa3a5-p101">以下头 **icrsint.h** 详细描述了一个接口，客户端可以通过该接口从 **Recordset** 中检索字段，然后将这些字段赋予在从 **CADORecordBinding** 派生的类中定义的变量。必须为要访问的每个字段指定一个 ADO 绑定宏。</span><span class="sxs-lookup"><span data-stu-id="fa3a5-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
+<span data-ttu-id="ac874-p101">以下头 **icrsint.h** 详细描述了一个接口，客户端可以通过该接口从 **Recordset** 中检索字段，然后将这些字段赋予在从 **CADORecordBinding** 派生的类中定义的变量。必须为要访问的每个字段指定一个 ADO 绑定宏。</span><span class="sxs-lookup"><span data-stu-id="ac874-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
 
 ```cpp 
  

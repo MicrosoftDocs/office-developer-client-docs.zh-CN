@@ -1,5 +1,5 @@
 ---
-title: Visual J + + （访问桌面数据库参考 （英文）
+title: Visual j + + (Access 桌面数据库参考)
 TOCTitle: Visual J++
 ms:assetid: 5c05db85-cdf2-9a73-fbc5-3dbfa6752376
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249320(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: da13ae0f10e2338b961f2f12686bd378580a69d7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311331"
 ---
-# <a name="visual-j"></a><span data-ttu-id="ad81b-102">Visual J++</span><span class="sxs-lookup"><span data-stu-id="ad81b-102">Visual J++</span></span>
+# <a name="visual-j"></a><span data-ttu-id="623ca-102">Visual J++</span><span class="sxs-lookup"><span data-stu-id="623ca-102">Visual J++</span></span>
 
 
-<span data-ttu-id="ad81b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad81b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="623ca-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="623ca-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ad81b-104">此简短 Microsoft Visual J++ 示例显示如何将您自己的函数与特定事件关联。</span><span class="sxs-lookup"><span data-stu-id="ad81b-104">This short Microsoft Visual J++ example shows how you can associate your own function with a particular event.</span></span>
+<span data-ttu-id="623ca-104">此简短 Microsoft Visual J++ 示例显示如何将您自己的函数与特定事件关联。</span><span class="sxs-lookup"><span data-stu-id="623ca-104">This short Microsoft Visual J++ example shows how you can associate your own function with a particular event.</span></span>
 
 ```java 
  
@@ -53,7 +53,7 @@ public class EventExampleVJ
 // EndEventExampleVJ 
 ```
 
-<span data-ttu-id="ad81b-105">首先，类方法*onConnectionComplete*创建新的**ConnectionEventHandler**对象并将*onConnectComplete*函数分配给该对象是与**ConnectionComplete**事件关联。</span><span class="sxs-lookup"><span data-stu-id="ad81b-105">First, the class method *onConnectionComplete* is associated with the **ConnectionComplete** event by creating a new **ConnectionEventHandler** object and assigning the *onConnectComplete* function to the object.</span></span>
+<span data-ttu-id="623ca-105">首先，通过创建新的 **ConnectionEventHandler** 对象并将 *onConnectComplete* 函数分配给该对象，使类方法 *onConnectionComplete* 与 **ConnectionComplete** 事件关联。</span><span class="sxs-lookup"><span data-stu-id="623ca-105">First, the class method *onConnectionComplete* is associated with the **ConnectionComplete** event by creating a new **ConnectionEventHandler** object and assigning the *onConnectComplete* function to the object.</span></span>
 
-<span data-ttu-id="ad81b-106">然后， *main*函数创建**Connection**对象，并启用事件处理通过调用**addOnConnectComplete**方法并将*handler*函数的地址传递给它。</span><span class="sxs-lookup"><span data-stu-id="ad81b-106">The *main* function then creates a **Connection** object and enables event handling by calling the **addOnConnectComplete** method and passing it the address of the *handler* function.</span></span>
+<span data-ttu-id="623ca-106">然后，*main* 函数创建 **Connection** 对象，并通过调用 **addOnConnectComplete** 方法然后将 *handler* 函数的地址传递给它来启用事件处理。</span><span class="sxs-lookup"><span data-stu-id="623ca-106">The *main* function then creates a **Connection** object and enables event handling by calling the **addOnConnectComplete** method and passing it the address of the *handler* function.</span></span>
 

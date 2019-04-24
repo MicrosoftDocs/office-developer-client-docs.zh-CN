@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3f3da0d9e68024d7da9a0bcfca0fef30c7f646ed
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292046"
 ---
-# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="5fd24-102">处理 VBScript 中的错误</span><span class="sxs-lookup"><span data-stu-id="5fd24-102">Handling errors in VBScript</span></span>
+# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="0b09e-102">处理 VBScript 中的错误</span><span class="sxs-lookup"><span data-stu-id="0b09e-102">Handling errors in VBScript</span></span>
 
 
-<span data-ttu-id="5fd24-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="5fd24-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0b09e-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="0b09e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5fd24-104">在 Visual Basic 中与在 VBScript 中所使用的方法几乎没有差异。</span><span class="sxs-lookup"><span data-stu-id="5fd24-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="5fd24-105">主要的差异是，VBScript 不支持错误处理的概念，而是在一个标签位置继续执行。</span><span class="sxs-lookup"><span data-stu-id="5fd24-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="5fd24-106">换句话说，不能在 VBScript 中使用 On Error GoTo。</span><span class="sxs-lookup"><span data-stu-id="5fd24-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="5fd24-107">在 VBScript 中，而是使用。</span><span class="sxs-lookup"><span data-stu-id="5fd24-107">Instead, use in VBScript.</span></span> <span data-ttu-id="5fd24-108">而使用上错误继续下一步，然后检查**Err.Number**和**Count**属性， **Errors**集合，如下面的示例中所示：</span><span class="sxs-lookup"><span data-stu-id="5fd24-108">Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
+<span data-ttu-id="0b09e-104">在 Visual Basic 中与在 VBScript 中所使用的方法几乎没有差异。</span><span class="sxs-lookup"><span data-stu-id="0b09e-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="0b09e-105">主要的差异是，VBScript 不支持错误处理的概念，而是在一个标签位置继续执行。</span><span class="sxs-lookup"><span data-stu-id="0b09e-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="0b09e-106">也就是说, 不能在 VBScript 中使用错误 GoTo。</span><span class="sxs-lookup"><span data-stu-id="0b09e-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="0b09e-107">而是在 VBScript 中使用。</span><span class="sxs-lookup"><span data-stu-id="0b09e-107">Instead, use in VBScript.</span></span> <span data-ttu-id="0b09e-108">请改为使用 "在错误继续" 下一步, 然后检查**Errors**集合的**Number**和**Count**属性, 如以下示例所示:</span><span class="sxs-lookup"><span data-stu-id="0b09e-108">Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
 
 ```vb 
  

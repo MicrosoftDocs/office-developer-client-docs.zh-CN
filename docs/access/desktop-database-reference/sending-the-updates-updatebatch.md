@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ca97f3ec2cbddfae4d62a72e5e6148a57abb4325
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308713"
 ---
-# <a name="sending-the-updates-updatebatch"></a><span data-ttu-id="cb89d-102">发送更新：UpdateBatch</span><span class="sxs-lookup"><span data-stu-id="cb89d-102">Sending the updates: UpdateBatch</span></span>
+# <a name="sending-the-updates-updatebatch"></a><span data-ttu-id="8b2ad-102">发送更新：UpdateBatch</span><span class="sxs-lookup"><span data-stu-id="8b2ad-102">Sending the updates: UpdateBatch</span></span>
 
 
-<span data-ttu-id="cb89d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb89d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8b2ad-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b2ad-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="sending-the-updates-updatebatch-method"></a><span data-ttu-id="cb89d-104">发送更新：UpdateBatch</span><span class="sxs-lookup"><span data-stu-id="cb89d-104">Sending the Updates: UpdateBatch Method</span></span>
+## <a name="sending-the-updates-updatebatch-method"></a><span data-ttu-id="8b2ad-104">发送更新：UpdateBatch</span><span class="sxs-lookup"><span data-stu-id="8b2ad-104">Sending the Updates: UpdateBatch Method</span></span>
 
-<span data-ttu-id="cb89d-p101">以下代码通过将 **LockType** 属性设置为 **adLockBatchOptimistic** 并将 **CursorLocation** 设置为 **adUseClient** 来成批打开 **Recordset** 。该代码添加了两个新记录并更改现有记录中某个字段的值，保存初始值，然后调用 **UpdateBatch** 将所做的更改发回到数据源。</span><span class="sxs-lookup"><span data-stu-id="cb89d-p101">The following code opens a **Recordset** in batch mode by setting the **LockType** property to **adLockBatchOptimistic** and the **CursorLocation** to **adUseClient**. It adds two new records and changes the value of a field in an existing record, saving the original values, and then calls **UpdateBatch** to send the changes back to the data source.</span></span>
+<span data-ttu-id="8b2ad-p101">以下代码通过将 **LockType** 属性设置为 **adLockBatchOptimistic** 并将 **CursorLocation** 设置为 **adUseClient** 来成批打开 **Recordset**。该代码添加了两个新记录并更改现有记录中某个字段的值，保存初始值，然后调用 **UpdateBatch** 将所做的更改发回到数据源。</span><span class="sxs-lookup"><span data-stu-id="8b2ad-p101">The following code opens a **Recordset** in batch mode by setting the **LockType** property to **adLockBatchOptimistic** and the **CursorLocation** to **adUseClient**. It adds two new records and changes the value of a field in an existing record, saving the original values, and then calls **UpdateBatch** to send the changes back to the data source.</span></span>
 
 ```vb 
  
@@ -50,5 +50,5 @@ ms.locfileid: "28718978"
 'EndBatchUpdate 
 ```
 
-<span data-ttu-id="cb89d-107">如果您在调用 **UpdateBatch** 方法时正在编辑当前的记录或者正在添加新记录，ADO 在将批更改传输给提供程序之前，会自动调用 **Update** 方法来保存对当前记录进行的任何未决更改。</span><span class="sxs-lookup"><span data-stu-id="cb89d-107">If you are editing the current record or adding a new record when you call the **UpdateBatch** method, ADO will automatically call the **Update** method to save any pending changes to the current record before transmitting the batched changes to the provider.</span></span>
+<span data-ttu-id="8b2ad-107">如果您在调用 **UpdateBatch** 方法时正在编辑当前的记录或者正在添加新记录，ADO 在将批更改传输给提供程序之前，会自动调用 **Update** 方法来保存对当前记录进行的任何未决更改。</span><span class="sxs-lookup"><span data-stu-id="8b2ad-107">If you are editing the current record or adding a new record when you call the **UpdateBatch** method, ADO will automatically call the **Update** method to save any pending changes to the current record before transmitting the batched changes to the provider.</span></span>
 

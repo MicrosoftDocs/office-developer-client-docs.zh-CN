@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2afdd172b8e2c01eddb3c6aaf0d9aaa17fbb7122
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703095"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291502"
 ---
-# <a name="indexes-methods-dao"></a><span data-ttu-id="59fb2-102">索引方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="59fb2-102">Indexes methods (DAO)</span></span>
+# <a name="indexes-methods-dao"></a><span data-ttu-id="b4dc9-102">索引方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="b4dc9-102">Indexes methods (DAO)</span></span>
 
-<span data-ttu-id="59fb2-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="59fb2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b4dc9-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="b4dc9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="59fb2-104">Indexes.Append 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="59fb2-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
-- [<span data-ttu-id="59fb2-105">Indexes.Delete 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="59fb2-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
-- [<span data-ttu-id="59fb2-106">Indexes.Refresh 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="59fb2-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
+- [<span data-ttu-id="b4dc9-104">索引 Append 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="b4dc9-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
+- [<span data-ttu-id="b4dc9-105">索引: Delete 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="b4dc9-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
+- [<span data-ttu-id="b4dc9-106">索引: Refresh 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="b4dc9-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: daecca6a8d2997fefdca4736cc8325733a2b9188
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292298"
 ---
-# <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a><span data-ttu-id="f7276-102">GetObjectOwner 和 SetObjectOwner 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="f7276-102">GetObjectOwner and SetObjectOwner methods example (VB)</span></span>
+# <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a><span data-ttu-id="80759-102">GetObjectOwner 和 SetObjectOwner 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="80759-102">GetObjectOwner and SetObjectOwner methods example (VB)</span></span>
 
 
-<span data-ttu-id="f7276-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7276-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="80759-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="80759-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f7276-104">本示例演示 [GetObjectOwner](getobjectowner-method-adox.md) 和 [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) 方法。</span><span class="sxs-lookup"><span data-stu-id="f7276-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods.</span></span> <span data-ttu-id="f7276-105">此代码假定存在的组 Accounting （请参阅[组和用户 Append、 ChangePassword 方法示例 (VB)](groups-and-users-append-changepassword-methods-example-vb.md)以了解如何将该组添加到系统）。</span><span class="sxs-lookup"><span data-stu-id="f7276-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VB)](groups-and-users-append-changepassword-methods-example-vb.md) to see how to add this group to the system).</span></span> <span data-ttu-id="f7276-106">Categories（类别）表的所有者设置为 Accounting。</span><span class="sxs-lookup"><span data-stu-id="f7276-106">The owner of the Categories table is set to Accounting.</span></span>
+<span data-ttu-id="80759-104">本示例演示 [GetObjectOwner](getobjectowner-method-adox.md) 和 [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) 方法。</span><span class="sxs-lookup"><span data-stu-id="80759-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods.</span></span> <span data-ttu-id="80759-105">此代码假定存在组记帐 (请参阅[Groups 和 Users 的 Append、ChangePassword 方法示例 (VB)](groups-and-users-append-changepassword-methods-example-vb.md)以了解如何将此组添加到系统)。</span><span class="sxs-lookup"><span data-stu-id="80759-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VB)](groups-and-users-append-changepassword-methods-example-vb.md) to see how to add this group to the system).</span></span> <span data-ttu-id="80759-106">Categories（类别）表的所有者设置为 Accounting。</span><span class="sxs-lookup"><span data-stu-id="80759-106">The owner of the Categories table is set to Accounting.</span></span>
 
 ```vb 
  

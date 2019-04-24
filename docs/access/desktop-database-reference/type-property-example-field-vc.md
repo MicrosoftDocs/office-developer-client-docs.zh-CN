@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f4646326469b4db688277885c31b5629aba8d408
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314090"
 ---
-# <a name="type-property-example-field-vc"></a><span data-ttu-id="755be-102">Type 属性示例 (Field) (VC++)</span><span class="sxs-lookup"><span data-stu-id="755be-102">Type property example (Field) (VC++)</span></span>
+# <a name="type-property-example-field-vc"></a><span data-ttu-id="0a121-102">Type 属性示例 (Field) (VC++)</span><span class="sxs-lookup"><span data-stu-id="0a121-102">Type property example (Field) (VC++)</span></span>
 
 
-<span data-ttu-id="755be-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="755be-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0a121-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="0a121-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="755be-p101">此示例通过显示与 ***Employees***（雇员）表中的所有 [Field](field-object-ado.md) 对象的 [Type](type-property-ado.md) 属性值对应的常量名称来演示 **Type** 属性。若要运行此过程，必须使用 FieldType 函数。</span><span class="sxs-lookup"><span data-stu-id="755be-p101">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](field-object-ado.md) objects in the ***Employees*** table. The FieldType function is required for this procedure to run.</span></span>
+<span data-ttu-id="0a121-104">此示例通过显示与 ***Employees***（雇员）表中的所有 [Field](field-object-ado.md) 对象的 [Type](type-property-ado.md) 属性值对应的常量名称来演示 **Type** 属性。</span><span class="sxs-lookup"><span data-stu-id="0a121-104">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](field-object-ado.md) objects in the ***Employees*** table.</span></span> <span data-ttu-id="0a121-105">若要运行此过程，必须使用 FieldType 函数。</span><span class="sxs-lookup"><span data-stu-id="0a121-105">The FieldType function is required for this procedure to run.</span></span>
 
 ```cpp 
  

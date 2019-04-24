@@ -8,47 +8,47 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88c8b7ff347235bbdc29745e9f5383933d3d1dda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292760"
 ---
-# <a name="field2-object-dao"></a><span data-ttu-id="379c1-102">Field2 对象 (DAO)</span><span class="sxs-lookup"><span data-stu-id="379c1-102">Field2 object (DAO)</span></span>
+# <a name="field2-object-dao"></a><span data-ttu-id="8a561-102">Field2 对象 (DAO)</span><span class="sxs-lookup"><span data-stu-id="8a561-102">Field2 object (DAO)</span></span>
 
-<span data-ttu-id="379c1-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="379c1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8a561-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="8a561-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="379c1-104">**Field2** 对象代表具有普通数据类型和普通属性集的数据列。</span><span class="sxs-lookup"><span data-stu-id="379c1-104">A **Field2** object represents a column of data with a common data type and a common set of properties.</span></span>
+<span data-ttu-id="8a561-104">**Field2** 对象代表具有普通数据类型和普通属性集的数据列。</span><span class="sxs-lookup"><span data-stu-id="8a561-104">A **Field2** object represents a column of data with a common data type and a common set of properties.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="379c1-105">注解</span><span class="sxs-lookup"><span data-stu-id="379c1-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8a561-105">注解</span><span class="sxs-lookup"><span data-stu-id="8a561-105">Remarks</span></span>
 
-<span data-ttu-id="379c1-p101">**Field2** 对象包含与 **[Field](field-object-dao.md)** 对象相同的所有属性和方法，并且 **Field2** 对象还包含几个支持多值字段类型的新增属性和方法。这几个新属性和方法是：</span><span class="sxs-lookup"><span data-stu-id="379c1-p101">A **Field2** object is contains all of the same properties and methods as the **[Field](field-object-dao.md)** object. The **Field2** object contains several new properties and methods that support multi-valued field types. The new properties and methods are:</span></span>
+<span data-ttu-id="8a561-p101">**Field2** 对象包含与 **[Field](field-object-dao.md)** 对象相同的所有属性和方法，并且 **Field2** 对象还包含几个支持多值字段类型的新增属性和方法。这几个新属性和方法是：</span><span class="sxs-lookup"><span data-stu-id="8a561-p101">A **Field2** object is contains all of the same properties and methods as the **[Field](field-object-dao.md)** object. The **Field2** object contains several new properties and methods that support multi-valued field types. The new properties and methods are:</span></span>
 
-- <span data-ttu-id="379c1-109">**[AppendOnly](field2-appendonly-property-dao.md)** 属性</span><span class="sxs-lookup"><span data-stu-id="379c1-109">**[AppendOnly](field2-appendonly-property-dao.md)** property</span></span>
+- <span data-ttu-id="8a561-109">**[AppendOnly](field2-appendonly-property-dao.md)** 属性</span><span class="sxs-lookup"><span data-stu-id="8a561-109">**[AppendOnly](field2-appendonly-property-dao.md)** property</span></span>
 
-- <span data-ttu-id="379c1-110">**[ComplexType](field2-complextype-property-dao.md)** 属性</span><span class="sxs-lookup"><span data-stu-id="379c1-110">**[ComplexType](field2-complextype-property-dao.md)** property</span></span>
+- <span data-ttu-id="8a561-110">**[ComplexType](field2-complextype-property-dao.md)** 属性</span><span class="sxs-lookup"><span data-stu-id="8a561-110">**[ComplexType](field2-complextype-property-dao.md)** property</span></span>
 
-- <span data-ttu-id="379c1-111">**[IsComplex](field2-iscomplex-property-dao.md)** 属性</span><span class="sxs-lookup"><span data-stu-id="379c1-111">**[IsComplex](field2-iscomplex-property-dao.md)** property</span></span>
+- <span data-ttu-id="8a561-111">**[IsComplex](field2-iscomplex-property-dao.md)** 属性</span><span class="sxs-lookup"><span data-stu-id="8a561-111">**[IsComplex](field2-iscomplex-property-dao.md)** property</span></span>
 
-- <span data-ttu-id="379c1-112">**[LoadFromFile](field2-loadfromfile-method-dao.md)** 方法</span><span class="sxs-lookup"><span data-stu-id="379c1-112">**[LoadFromFile](field2-loadfromfile-method-dao.md)** method</span></span>
+- <span data-ttu-id="8a561-112">**[LoadFromFile](field2-loadfromfile-method-dao.md)** 方法</span><span class="sxs-lookup"><span data-stu-id="8a561-112">**[LoadFromFile](field2-loadfromfile-method-dao.md)** method</span></span>
 
-- <span data-ttu-id="379c1-113">**[SaveToFile](field2-savetofile-method-dao.md)** 方法</span><span class="sxs-lookup"><span data-stu-id="379c1-113">**[SaveToFile](field2-savetofile-method-dao.md)** method</span></span>
+- <span data-ttu-id="8a561-113">**[SaveToFile](field2-savetofile-method-dao.md)** 方法</span><span class="sxs-lookup"><span data-stu-id="8a561-113">**[SaveToFile](field2-savetofile-method-dao.md)** method</span></span>
 
-<span data-ttu-id="379c1-114">若要按照序号或 **Name** 属性设置来引用集合中的 **Field2** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="379c1-114">To refer to a **Field2** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="8a561-114">若要按照序号或 **Name** 属性设置来引用集合中的 **Field2** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="8a561-114">To refer to a **Field2** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="379c1-115">**Fields**(0)</span><span class="sxs-lookup"><span data-stu-id="379c1-115">**Fields**(0)</span></span>
+<span data-ttu-id="8a561-115">**字段**0</span><span class="sxs-lookup"><span data-stu-id="8a561-115">**Fields**(0)</span></span>
 
-<span data-ttu-id="379c1-116">**字段**("name")</span><span class="sxs-lookup"><span data-stu-id="379c1-116">**Fields**("name")</span></span>
+<span data-ttu-id="8a561-116">**字段**("名称")</span><span class="sxs-lookup"><span data-stu-id="8a561-116">**Fields**("name")</span></span>
 
-<span data-ttu-id="379c1-117">**字段**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="379c1-117">**Fields**\!\[name\]</span></span>
+<span data-ttu-id="8a561-117">\*\*\*\*\!Fields\[名称\]</span><span class="sxs-lookup"><span data-stu-id="8a561-117">**Fields**\!\[name\]</span></span>
 
-<span data-ttu-id="379c1-p102">还可以使用相同的语法形式，引用创建并追加到 **Fields** 集合中的 **Field2** 对象的 **Value** 属性。字段引用的上下文将确定引用的是 **Field2** 对象还是 **Field** 对象的 **Value** 属性。</span><span class="sxs-lookup"><span data-stu-id="379c1-p102">With the same syntax forms, you can also refer to the **Value** property of a **Field2** object that you create and append to a **Fields** collection. The context of the field reference will determine whether you are referring to the **Field2** object or the **Value** property of the **Field** object.</span></span>
+<span data-ttu-id="8a561-p102">还可以使用相同的语法形式，引用创建并追加到 **Fields** 集合中的 **Field2** 对象的 **Value** 属性。字段引用的上下文将确定引用的是 **Field2** 对象还是 **Field** 对象的 **Value** 属性。</span><span class="sxs-lookup"><span data-stu-id="8a561-p102">With the same syntax forms, you can also refer to the **Value** property of a **Field2** object that you create and append to a **Fields** collection. The context of the field reference will determine whether you are referring to the **Field2** object or the **Value** property of the **Field** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="379c1-120">示例</span><span class="sxs-lookup"><span data-stu-id="379c1-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8a561-120">示例</span><span class="sxs-lookup"><span data-stu-id="8a561-120">Example</span></span>
 
-<span data-ttu-id="379c1-121">下面的示例演示如何导航记录集包含一个多值字段。</span><span class="sxs-lookup"><span data-stu-id="379c1-121">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
+<span data-ttu-id="8a561-121">下面的示例演示如何导航包含多值字段的 Recordset。</span><span class="sxs-lookup"><span data-stu-id="8a561-121">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
 
-<span data-ttu-id="379c1-122">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="379c1-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="8a561-122">**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="8a561-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -112,7 +112,7 @@ ms.locfileid: "28713140"
 
 <br/>
 
-<span data-ttu-id="379c1-123">下面的示例演示如何导航附件字段中的文件。</span><span class="sxs-lookup"><span data-stu-id="379c1-123">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="379c1-124">在即时窗口中打印的文件类型和每个附件的文件名。</span><span class="sxs-lookup"><span data-stu-id="379c1-124">The file type and filename of each attachment is printed in the Immediate window.</span></span>
+<span data-ttu-id="8a561-123">下面的示例演示如何在 "附件" 字段中导航文件。</span><span class="sxs-lookup"><span data-stu-id="8a561-123">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="8a561-124">将在 "即时" 窗口中打印每个附件的文件类型和文件名。</span><span class="sxs-lookup"><span data-stu-id="8a561-124">The file type and filename of each attachment is printed in the Immediate window.</span></span>
 
 ```vb
     Sub ListAttachments()
@@ -162,7 +162,7 @@ ms.locfileid: "28713140"
 
 <br/>
 
-<span data-ttu-id="379c1-125">下面的示例演示如何将文件从指定的文件夹路径添加到附件字段。</span><span class="sxs-lookup"><span data-stu-id="379c1-125">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
+<span data-ttu-id="8a561-125">下面的示例演示如何将文件从指定的文件夹路径添加到附件字段。</span><span class="sxs-lookup"><span data-stu-id="8a561-125">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -219,7 +219,7 @@ ms.locfileid: "28713140"
 
 <br/>
 
-<span data-ttu-id="379c1-126">下面的示例演示如何将保存到指定的文件夹路径附件字段中存储的文件。</span><span class="sxs-lookup"><span data-stu-id="379c1-126">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
+<span data-ttu-id="8a561-126">下面的示例演示如何将存储在 "附件" 字段中的文件保存到指定的文件夹路径。</span><span class="sxs-lookup"><span data-stu-id="8a561-126">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -275,7 +275,7 @@ ms.locfileid: "28713140"
 
 <br/>
 
-<span data-ttu-id="379c1-127">下面的示例演示如何删除附件字段中存储的文件。</span><span class="sxs-lookup"><span data-stu-id="379c1-127">The following example shows how to delete a file stored in an attachment field.</span></span>
+<span data-ttu-id="8a561-127">下面的示例演示如何删除附件字段中存储的文件。</span><span class="sxs-lookup"><span data-stu-id="8a561-127">The following example shows how to delete a file stored in an attachment field.</span></span>
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

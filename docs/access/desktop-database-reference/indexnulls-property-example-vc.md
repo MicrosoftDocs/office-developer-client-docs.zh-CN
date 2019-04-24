@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c94ef7da07a9d68fe04dade18e1e54f8277ace6c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291426"
 ---
-# <a name="indexnulls-property-example-vc"></a><span data-ttu-id="0c1ab-102">IndexNulls 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="0c1ab-102">IndexNulls property example (VC++)</span></span>
+# <a name="indexnulls-property-example-vc"></a><span data-ttu-id="3f7ff-102">IndexNulls 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="3f7ff-102">IndexNulls property example (VC++)</span></span>
 
 
-<span data-ttu-id="0c1ab-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="0c1ab-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3f7ff-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f7ff-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0c1ab-104">本示例演示 [Index](indexnulls-property-adox.md) 的 [IndexNulls](index-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="0c1ab-104">This example demonstrates the [IndexNulls](indexnulls-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="0c1ab-105">代码创建新的索引，并根据用户输入设置 **IndexNulls** 的值。</span><span class="sxs-lookup"><span data-stu-id="0c1ab-105">The code creates a new index and sets the value of **IndexNulls** based on user input.</span></span> <span data-ttu-id="0c1ab-106">然后，**索引**追加到*罗斯文*[目录](catalog-object-adox.md)中的**Employees** [表](table-object-adox.md)。</span><span class="sxs-lookup"><span data-stu-id="0c1ab-106">Then, the **Index** is appended to the **Employees** [Table](table-object-adox.md) in the *Northwind* [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="0c1ab-107">新的 **Index** 应用于基于 [Employees](recordset-object-ado.md) （雇员）表的 **Recordset**，并且该 **Recordset** 被打开。</span><span class="sxs-lookup"><span data-stu-id="0c1ab-107">The new **Index** is applied to a [Recordset](recordset-object-ado.md) based on the **Employees** table, and the **Recordset** is opened.</span></span> <span data-ttu-id="0c1ab-108">有一条新记录添加到 **Employees** （雇员）表中，并且索引字段为 **Null** 值。</span><span class="sxs-lookup"><span data-stu-id="0c1ab-108">A new record is added to the **Employees** table, with a **Null** value in the indexed field.</span></span> <span data-ttu-id="0c1ab-109">此新记录是否显示取决于 **IndexNulls** 属性的设置。</span><span class="sxs-lookup"><span data-stu-id="0c1ab-109">Whether this new record is displayed depends on the setting of the **IndexNulls** property.</span></span>
+<span data-ttu-id="3f7ff-104">本示例演示 [Index](indexnulls-property-adox.md) 的 [IndexNulls](index-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="3f7ff-104">This example demonstrates the [IndexNulls](indexnulls-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="3f7ff-105">代码创建新的索引，并根据用户输入设置 **IndexNulls** 的值。</span><span class="sxs-lookup"><span data-stu-id="3f7ff-105">The code creates a new index and sets the value of **IndexNulls** based on user input.</span></span> <span data-ttu-id="3f7ff-106">然后, 将**索引**追加到*Northwind* [目录](catalog-object-adox.md)中的**Employees** [表](table-object-adox.md)。</span><span class="sxs-lookup"><span data-stu-id="3f7ff-106">Then, the **Index** is appended to the **Employees** [Table](table-object-adox.md) in the *Northwind* [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="3f7ff-107">新的 **Index** 应用于基于 [Employees](recordset-object-ado.md) （雇员）表的 **Recordset**，并且该 **Recordset** 被打开。</span><span class="sxs-lookup"><span data-stu-id="3f7ff-107">The new **Index** is applied to a [Recordset](recordset-object-ado.md) based on the **Employees** table, and the **Recordset** is opened.</span></span> <span data-ttu-id="3f7ff-108">有一条新记录添加到 **Employees** （雇员）表中，并且索引字段为 **Null** 值。</span><span class="sxs-lookup"><span data-stu-id="3f7ff-108">A new record is added to the **Employees** table, with a **Null** value in the indexed field.</span></span> <span data-ttu-id="3f7ff-109">此新记录是否显示取决于 **IndexNulls** 属性的设置。</span><span class="sxs-lookup"><span data-stu-id="3f7ff-109">Whether this new record is displayed depends on the setting of the **IndexNulls** property.</span></span>
 
 ```cpp 
  
@@ -216,7 +216,7 @@ void IndexNullsX(_bstr_t strSel)
 
 <br/>
 
-<span data-ttu-id="0c1ab-110">**IndexNullX.h**</span><span class="sxs-lookup"><span data-stu-id="0c1ab-110">**IndexNullX.h**</span></span>
+<span data-ttu-id="3f7ff-110">**IndexNullX**</span><span class="sxs-lookup"><span data-stu-id="3f7ff-110">**IndexNullX.h**</span></span>
 
 ```cpp
     // BeginIndexNullsH 

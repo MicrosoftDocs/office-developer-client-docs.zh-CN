@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0556c40823facf5bdddbbe67874d6417b416674e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293257"
 ---
-# <a name="execute-requery-and-clear-methods-example-jscript"></a><span data-ttu-id="a55dd-102">Execute、Requery 和 Clear 方法示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="a55dd-102">Execute, Requery, and Clear methods example (JScript)</span></span>
+# <a name="execute-requery-and-clear-methods-example-jscript"></a><span data-ttu-id="ddada-102">Execute、Requery 和 Clear 方法示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="ddada-102">Execute, Requery, and Clear methods example (JScript)</span></span>
 
 
-<span data-ttu-id="a55dd-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a55dd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ddada-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="ddada-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a55dd-p101">本示例演示同时从 **Command** 对象和 [Connection](command-object-ado.md) 对象运行时的 [Execute](connection-object-ado.md) 方法。本示例还使用 [Requery](requery-method-ado.md) 方法来检索 [Recordset](recordset-object-ado.md) 中的当前数据，并使用 [Clear](clear-method-ado.md) 方法来清除 [Errors](errors-collection-ado.md) 集合的内容。（可以通过 **Recordset** 的 **ActiveConnection** 属性的 [Connection](activeconnection-property-ado.md) 对象访问 [Errors](recordset-object-ado.md) 集合。）将文件命名为 **ExecuteJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="a55dd-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [Recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. (The **Errors** collection is accessed via the **Connection** object of the [ActiveConnection](activeconnection-property-ado.md) property of the [Recordset](recordset-object-ado.md).) Name the file **ExecuteJS.asp**.</span></span>
+<span data-ttu-id="ddada-p101">本示例演示同时从 **Command** 对象和 [Connection](command-object-ado.md) 对象运行时的 [Execute](connection-object-ado.md) 方法。本示例还使用 [Requery](requery-method-ado.md) 方法来检索 [Recordset](recordset-object-ado.md) 中的当前数据，并使用 [Clear](clear-method-ado.md) 方法来清除 [Errors](errors-collection-ado.md) 集合的内容。（可以通过 **Recordset** 的 **ActiveConnection** 属性的 [Connection](activeconnection-property-ado.md) 对象访问 [Errors](recordset-object-ado.md) 集合。）将文件命名为 **ExecuteJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="ddada-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [Recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. (The **Errors** collection is accessed via the **Connection** object of the [ActiveConnection](activeconnection-property-ado.md) property of the [Recordset](recordset-object-ado.md).) Name the file **ExecuteJS.asp**.</span></span>
 
 ```javascript 
  
