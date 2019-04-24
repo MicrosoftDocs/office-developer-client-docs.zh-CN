@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: cce99321-9b6a-4b1a-b19f-a82ca9ba6a30
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1c5295b07c6ed1e70bc2686b7e5ae0393de2b467
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0eb92008e7eff00388e85c5badbdc97a4c6dda12
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331722"
 ---
 # <a name="pidtagcontactaddressbookdisplaynames-canonical-property"></a>PidTagContactAddressBookDisplayNames 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息联系人通讯簿中的用户的显示名称的列表。
+包含联系人通讯簿中的邮件用户的显示名称列表。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_CONTAB_DISPLAY_NAMES，PR_CONTAB_DISPLAY_NAMES_A，PR_CONTAB_DISPLAY_NAMES_W  <br/> |
-|标识符：  <br/> |0x6624  <br/> |
-|数据类型：  <br/> |PT_MV_UNICODE PT_MV_STRING8  <br/> |
+|相关属性：  <br/> |PR_CONTAB_DISPLAY_NAMES、PR_CONTAB_DISPLAY_NAMES_A、PR_CONTAB_DISPLAY_NAMES_W  <br/> |
+|标识符:  <br/> |0x6624  <br/> |
+|数据类型：  <br/> |PT_MV_UNICODE、PT_MV_STRING8  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
 ## <a name="remarks"></a>注解
 
-由用户和用户的组织定义这些属性。
+这些属性由用户和用户的组织定义。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

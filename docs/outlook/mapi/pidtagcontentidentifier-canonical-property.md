@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 33bf8251-37d5-47d0-88d2-5088bfaa147a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 57f036872276ed2ff85bf6f8a53801f3af605607
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 312253f0ea4b115018cbe71522782ea21579fa4d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331897"
 ---
 # <a name="pidtagcontentidentifier-canonical-property"></a>PidTagContentIdentifier 规范属性
 
@@ -25,26 +25,26 @@ ms.locfileid: "22576188"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个关键的值，以确定其内容在邮件收件人。
+包含一个键值, 该键值使邮件收件人能够识别其内容。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_CONTENT_IDENTIFIER，PR_CONTENT_IDENTIFIER_A，PR_CONTENT_IDENTIFIER_W  <br/> |
-|标识符：  <br/> |0x0008  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_CONTENT_IDENTIFIER、PR_CONTENT_IDENTIFIER_A、PR_CONTENT_IDENTIFIER_W  <br/> |
+|标识符:  <br/> |0x0008  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

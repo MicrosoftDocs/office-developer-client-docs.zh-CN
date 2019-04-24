@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a0b586cd-65f6-4792-851c-4d36eaeec56d
-description: 确定指定的用户是否朋友。
-ms.openlocfilehash: 17e7864dc60bf99df2028e5f6c57f0619d880a8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定指定的用户是否为朋友。
+ms.openlocfilehash: 183e47bea70ed378947afb6a1d0e5561fb9307f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331666"
 ---
 # <a name="isocialprofilearefriendsorcolleagues"></a>ISocialProfile::AreFriendsOrColleagues
 
-确定指定的用户是否朋友。
+确定指定的用户是否为朋友。
   
 ```cpp
 HRESULT _stdcall AreFriendsOrColleagues(SAFEARRAY(BSTR) userIds, [out, retval] SAFEARRAY(VARIANT_BOOL)* results);
@@ -27,15 +27,15 @@ HRESULT _stdcall AreFriendsOrColleagues(SAFEARRAY(BSTR) userIds, [out, retval] S
 
 _userIds_
   
-> [in]一个指定的对应一封社交网络上的用户 ID 值的数组的结构。
+> 实时一个结构, 指定与社交网络上的一组人员相对应的用户 ID 值的数组。
     
-_结果_
+_引起_
   
-> [输出]一个指向指定布尔值，指示_userIds_数组中的相应人员是否朋友数组的结构。 
+> 排除指向指定布尔值数组的结构的指针, 指示_userIds_数组中的相应人员是否为友元。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-对于表示_userIds_参数的输入数组中每个用户，此方法设置输出_结果_参数数组中对应的元素。 **true**指示人员朋友，并且该人员不朋友**false**指示。 
+对于_userIds_参数的输入数组中表示的每个人员, 此方法设置_结果_参数的输出数组中对应的元素。 **如果为 true** , 则表示此人为朋友, **false**表示该人员不是朋友。 
   
 ## <a name="see-also"></a>另请参阅
 

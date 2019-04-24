@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: de58523e663349c43cc358f5b76896987a0f23b3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332114"
 ---
 # <a name="create-a-recurring-appointment-by-using-the-default-recurrence-pattern"></a>使用默认定期模式创建定期约会
 
@@ -34,7 +34,7 @@ ms.locfileid: "28722814"
 
 在下面的代码示例中，CreateRecurringAppointment 创建 **AppointmentItem** 对象。 然后，它调用 GetRecurrencePattern。 GetRecurrencePattern 返回 RecurrencePattern 对象，并保存 AppointmentItem。 这会创建使用默认定期模式的定期约会。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

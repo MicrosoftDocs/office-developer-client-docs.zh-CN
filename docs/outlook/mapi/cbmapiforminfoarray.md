@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 449a94d3-6610-4434-a705-4a739339053d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 57544507d47a846831293e80337f500efd9ed717
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f0f820de17e6acc445489a3116164d2521564c12
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331612"
 ---
 # <a name="cbmapiforminfoarray"></a>CbMAPIFormInfoArray
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-计算中包含指定的数目的窗体信息对象的现有[SMAPIFormInfoArray](smapiforminfoarray.md)结构的字节数。 
+计算现有[SMAPIFormInfoArray](smapiforminfoarray.md)结构中包含指定数量的表单信息对象的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiform.h  <br/> |
-|相关的结构：  <br/> |**SMAPIFormInfoArray** <br/> |
+|标头文件：  <br/> |Mapiform  <br/> |
+|相关结构:  <br/> |**SMAPIFormInfoArray** <br/> |
    
 ```cpp
 CbMAPIFormInfoArray (_c)
@@ -40,7 +40,7 @@ CbMAPIFormInfoArray (_c)
 
  __c_
   
-> 窗体中的现有**SMAPIFormInfoArray**结构的信息对象的计数。 
+> 现有**SMAPIFormInfoArray**结构中的表单信息对象的计数。 
     
 ## <a name="see-also"></a>另请参阅
 

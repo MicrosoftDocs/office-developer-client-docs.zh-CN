@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 6da78f1a-6423-460c-b3a9-fd6441df9cef
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ea4b90bf1190fd71701f82d43aaee384c7987ed0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331309"
 ---
 # <a name="pidtagrpcoverhttpproxyauthscheme-canonical-property"></a>PidTagRpcOverHttpProxyAuthScheme 规范属性
 
@@ -21,20 +21,20 @@ ms.locfileid: "25387193"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-代表要用于此配置文件的身份验证协议。
+表示要用于此配置文件的身份验证协议。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ROH_PROXY_AUTH_SCHEME  <br/> |
-|标识符：  <br/> |0x6627  <br/> |
+|标识符:  <br/> |0x6627  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性可为基本身份验证或 NT LAN Manager (NTLM) 身份验证设置。 此属性的可能值如下所示。
+此属性可以设置为基本身份验证或 NT LAN Manager (NTLM) 身份验证。 此属性的可能值如下所示。
   
-|**名称**|**值**|**说明**|
+|**Name**|**Value**|**说明**|
 |:-----|:-----|:-----|
 |**ROHAUTH_BASIC** <br/> |0x1  <br/> |基本身份验证  <br/> |
 |**ROHAUTH_NTLM** <br/> |0x2  <br/> |NTLM 身份验证  <br/> |
@@ -43,27 +43,27 @@ ms.locfileid: "25387193"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 定义所使用的基本的数据结构中远程操作。
+> 定义在远程操作中使用的基本数据结构。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的电子邮件消息对象。
+> 指定允许用于电子邮件对象的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

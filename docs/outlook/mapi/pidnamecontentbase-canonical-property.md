@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ab197ace-6e7d-4ec5-9f6d-4a63a1eda11c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 501b54cfb7846a91aec7172cbe1d846c24704923
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331498"
 ---
 # <a name="pidnamecontentbase-canonical-property"></a>PidNameContentBase 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25397791"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 [RFC3282] 内容库标头字段值。
+包含 [RFC3282] Content Base 头字段值。
   
 |||
 |:-----|:-----|
-|友好名称：  <br/> |BodyContentBase  <br/> |
-|属性进行设置：  <br/> |PS_INTERNET_HEADERS  <br/> |
-|属性名称：  <br/> |内容库  <br/> |
+|友好名称:  <br/> |BodyContentBase  <br/> |
+|属性集:  <br/> |PS_INTERNET_HEADERS  <br/> |
+|属性名称:  <br/> |Content-Base  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-若要设置此属性的值，多用途 Internet 邮件扩展 (MIME) 客户端必须所需的值都写入到内容库头字段映射到邮件正文 MIME 实体。 MIME 读者必须将此类的 MIME 实体的内容库标头字段的值复制到此属性的值。
+若要设置此属性的值, 多用途 Internet 邮件扩展 (MIME) 客户端必须向映射到邮件正文的 MIME 实体上的内容基头字段写入所需的值。 mime 读取器必须将此类 MIME 实体上 Content Base 头字段的值复制到此属性的值。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> 从 Internet 标准电子邮件约定转换为消息对象。
+> 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

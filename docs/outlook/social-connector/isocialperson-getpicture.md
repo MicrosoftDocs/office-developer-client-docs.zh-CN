@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 02fcaf25-42b5-4584-95c6-d44a3d035128
-description: 获取包含此人的图片资源的字节数组。
-ms.openlocfilehash: dcb0da5bc36c2166d569c770d1f182cd21339435
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 获取包含人员的图片资源的字节数组。
+ms.openlocfilehash: 755e2138378136a3c1d810a1957923f4e8db721d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331652"
 ---
 # <a name="isocialpersongetpicture"></a>ISocialPerson::GetPicture
 
-获取包含此人的图片资源的字节数组。 
+获取包含人员的图片资源的字节数组。 
   
 ```cpp
 HRESULT _stdcall GetPicture([out, retval] SAFEARRAY(unsigned char)* picture);
@@ -25,13 +25,13 @@ HRESULT _stdcall GetPicture([out, retval] SAFEARRAY(unsigned char)* picture);
 
 ## <a name="parameters"></a>参数
 
-_图片_
+_头像_
   
-> [输出]一个指向指定一个表示图片资源的人员的字节数组的结构。
+> 排除指向结构的指针, 该结构指定代表人员的图片资源的字节数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-支持资源是.bmp、.jpeg 或.png 格式中的图片。
+支持的图片资源采用 .bmp、jpeg 或 .png 格式。
   
 ## <a name="see-also"></a>另请参阅
 

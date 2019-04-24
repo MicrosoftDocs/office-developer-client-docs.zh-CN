@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: f85bd23d-c285-4448-a946-7ab4fc0f03be
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a60fe565992756163eaf19b84e36c03acb66cc73
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 704935e5863d789ee1120ddde8d4eb42edbec573
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331946"
 ---
 # <a name="cbmapiformproparray"></a>CbMAPIFormPropArray
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-计算中包含指定的数目的[SMAPIFormProp](smapiformprop.md)结构的现有[SMAPIFormPropArray](smapiformproparray.md)结构的字节数。 
+计算包含指定数量的[SMAPIFormProp](smapiformprop.md)结构的现有[SMAPIFormPropArray](smapiformproparray.md)结构中的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiform.h  <br/> |
-|相关的结构：  <br/> |**SMAPIFormPropArray** <br/> |
+|标头文件：  <br/> |Mapiform  <br/> |
+|相关结构:  <br/> |**SMAPIFormPropArray** <br/> |
    
 ```cpp
 CbMAPIFormPropArray (_c)
@@ -40,7 +40,7 @@ CbMAPIFormPropArray (_c)
 
  __c_
   
-> **SMAPIFormProp**结构问题**SMAPIFormPropArray**结构中的计数。 
+> 有问题的**SMAPIFormPropArray**结构中的**SMAPIFormProp**结构的计数。 
     
 ## <a name="see-also"></a>另请参阅
 

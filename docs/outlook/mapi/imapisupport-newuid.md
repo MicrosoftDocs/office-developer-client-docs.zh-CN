@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7994477d-5207-4335-b538-69c98782d52d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 244087c41e33e470c42434e9d57cee7317bcb78c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: a38f7ea475f8a5cbad4f1cc295c3e2550ea8cd66
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330196"
 ---
 # <a name="imapisupportnewuid"></a>IMAPISupport::NewUID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个新的[MAPIUID](mapiuid.md)结构用作唯一标识符。 
+创建要用作唯一标识符的新[MAPIUID](mapiuid.md)结构。 
   
 ```cpp
 HRESULT NewUID(
@@ -37,21 +37,21 @@ LPMAPIUID lpMuid
 
  _lpMuid_
   
-> 指向新**MAPIUID**结构的指针。 
+> 指向新的**MAPIUID**结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 创建新的**MAPIUID**结构。 
+> 已创建新的**MAPIUID**结构。 
     
 ## <a name="remarks"></a>注解
 
-对于所有支持对象实现**IMAPISupport::NewUID**方法。 服务提供商和消息服务调用**NewUID** ，只要他们需要生成的长期的唯一标识符。 消息存储提供程序，例如，可能会调用**NewUID**获取**MAPIUID**将放入新创建的消息的**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性。
+**IMAPISupport:: NewUID**方法是为所有支持对象实现的。 每当服务提供程序和邮件服务需要生成长期唯一标识符时, 都会调用**NewUID** 。 例如, 邮件存储提供程序可能会调用**NewUID**以获取**MAPIUID**以放置在新创建的邮件的**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性中。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-请勿将在登录时与**NewUID**方法创建的**MAPIUID**结构注册**MAPIUID**结构混淆。 注册调用[IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md)方法时**MAPIUID**结构表示通讯簿或消息存储到 MAPI 提供程序和用于区分不同的提供程序创建的项标识符。 此**MAPIUID**结构应硬编码，并通过**NewUID**调用未获得。
+请勿将在登录时注册的**MAPIUID**结构与**NewUID**方法创建的**MAPIUID**结构相混淆。 您在调用[IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md)方法时注册的**MAPIUID**结构表示您的通讯簿或邮件存储提供程序到 MAPI, 用于区分不同提供程序创建的条目标识符。 此**MAPIUID**结构应是硬编码的, 不能通过调用**NewUID**获取。
   
 ## <a name="see-also"></a>另请参阅
 

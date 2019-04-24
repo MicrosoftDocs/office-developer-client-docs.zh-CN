@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 0101d291-00ca-4f66-b857-75d74b9f91a1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 64b0c0501a6ef4471f97e82b231ef430681f1306
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e36cf12b7a5b1643f5a0ec97223030718195a7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331589"
 ---
 # <a name="ipropdatahrgetpropaccess"></a>IPropData::HrGetPropAccess
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-检索的访问级别和一个或多个对象的属性的状态。
+检索一个或多个对象属性的访问级别和状态。
   
 ```cpp
 HRESULT HrGetPropAccess(
@@ -38,40 +38,40 @@ HRESULT HrGetPropAccess(
 
  _lppPropTagArray_
   
-> [传入、 传出]在输入数组属性标记，指示要为其检索访问级别和状态; 属性否则为为 NULL，表明**HrGetPropAccess**应检索访问级别和的所有属性的状态的指针。 输出，检索到数组属性标记为哪些访问和状态标志。 Flags 存储在_lprgulAccess_参数指向的数组。 
+> [in, out]在输入时, 指明要检索其访问级别和状态的属性的一组属性标记。否则为指向 NULL 的指针, 指示**HrGetPropAccess**应检索所有属性的访问级别和状态。 在输出时, 为其检索访问和状态标志的一组属性标记。 这些标志存储在由_lprgulAccess_参数指向的数组中。 
     
  _lprgulAccess_
   
-> [输出]一个指向数组标志位掩码。 每位掩码指示的访问级别或状态，或同时为每个标识_lpPropTagArray_参数指向该数组中的属性。 两个数组是位置_lprgulAccess_指向介绍的第一个属性的第一个位掩码的_lpPropTagArray_ points 为，依此类推。 对于每个属性标记，可以设置以下标志： 
+> 排除指向标志位掩码数组的指针。 每个位掩码表示由_lpPropTagArray_参数所指向的数组中标识的每个属性的访问级别或状态。 这两个数组的位置是_lprgulAccess_指向的第一个位掩码, 它描述_lpPropTagArray_指向的第一个属性, 依此类推。 对于每个属性标记, 可以设置以下标志: 
     
 |**访问级别标志**|**状态标志**|
 |:-----|:-----|
-|IPROP_READONLY，指示无法修改的属性。  <br/> |IPROP_CLEAN，这表明该属性不被修改。  <br/> |
-|IPROP_READWRITE，指示可以修改的属性。  <br/> |IPROP_DIRTY，这表明该属性已修改。  <br/> |
+|IPROP_READONLY, 指示属性不能修改。  <br/> |IPROP_CLEAN, 指示属性尚未修改。  <br/> |
+|IPROP_READWRITE, 指示可以修改属性。  <br/> |IPROP_DIRTY, 指示属性已被修改。  <br/> |
    
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回的属性的访问级别和状态标志。
+> 成功返回属性的访问级别和状态标志。
     
 ## <a name="remarks"></a>注解
 
-**IPropData::HrGetPropAccess**方法检索一组标志指示的访问级别和一个或多个属性的状态。 
+**IPropData:: HrGetPropAccess**方法检索一组标志, 这些标志指示一个或多个属性的访问级别和状态。 
   
-## <a name="notes-to-callers"></a>调用方注释：
+## <a name="notes-to-callers"></a>调用者注意：
 
-您可以使用**HrGetPropAccess**出于以下目的： 
+您可以使用**HrGetPropAccess**来实现以下目的: 
   
-- 若要确定客户端是否更改或删除可写属性。
+- 确定客户端是否更改或删除了可写属性。
     
-- 若要防止更改或删除属性使用[IMAPIProp](imapipropiunknown.md)方法客户端。 
+- 若要防止客户端使用[IMAPIProp](imapipropiunknown.md)方法来更改或删除属性。 
     
-如果一个指向_lppPropTagArray_属性标记数组中的属性已被删除， **HrGetPropAccess**设置为 0 具有输出的数组项。 如果_lppPropTagArray_设为 NULL，一个对象的属性已被删除时，则数组中返回的已删除的属性。 
+如果_lppPropTagArray_所指向的属性标记数组中的某个属性已被删除, 则**HrGetPropAccess**会在输出中将数组项设置为0。 如果将_lppPropTagArray_设置为 NULL, 并且已删除某个对象的属性, 则会在数组中返回 deleted 属性。 
   
-如果已修改的属性，其 IPROP_DIRTY 标志设置在数组中对应的项的_lprgulAccess_点为。 IPROP_READONLY 和 IPROP_READWRITE 都不会将设置。 
+如果已修改某个属性, 则会在_lprgulAccess_指向的数组中对应的条目中设置其 IPROP_DIRTY 标志。 不会设置 IPROP_READONLY, 也不会设置 IPROP_READWRITE。 
   
-如果未修改或删除属性，将设置仅 IPROP_READONLY 或 IPROP_READWRITE 标志。 
+如果尚未修改或删除某个属性, 将仅设置 IPROP_READONLY 或 IPROP_READWRITE 标志。 
   
 ## <a name="see-also"></a>另请参阅
 

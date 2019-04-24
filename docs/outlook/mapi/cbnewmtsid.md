@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: fd5ef226-39e6-4604-a751-2f6cc49c4895
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7be2c8176e890e71963fa9c58ebea6b5bb510fe1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8ffff7958ab405e488ac2ce45bae43b78da7b0f4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331596"
 ---
 # <a name="cbnewmtsid"></a>CbNewMTSID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-计算指定大小的邮件传输代理标识符与新[MTSID](mtsid.md)结构应分配的字节数。 
+计算应为具有指定大小的邮件传输代理标识符的新[MTSID](mtsid.md)结构分配的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**MTSID** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**MTSID** <br/> |
    
 ```cpp
 CbNewMTSID (_cb)
@@ -40,7 +40,7 @@ CbNewMTSID (_cb)
 
  __cb_
   
-> 要包含在新的**MTSID**结构中的消息传输代理标识符的字节数。 
+> 要包含在新的**MTSID**结构中的邮件传输代理标识符的字节数。 
     
 ## <a name="see-also"></a>另请参阅
 

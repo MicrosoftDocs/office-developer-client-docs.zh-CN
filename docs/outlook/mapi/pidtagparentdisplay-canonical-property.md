@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 6a36f4fb-17c0-4271-87d4-a92895f35f23
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 910a62a660ea17992aa391d7453919d9fbb53c86
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7aef4c1d83672033662502ad0950b7bac9f58c52
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331512"
 ---
 # <a name="pidtagparentdisplay-canonical-property"></a>PidTagParentDisplay 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一条消息，在其中搜索过程中发现的文件夹的显示名称。
+包含在搜索过程中找到邮件的文件夹的显示名称。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_PARENT_DISPLAY，PR_PARENT_DISPLAY_A，PR_PARENT_DISPLAY_W  <br/> |
-|标识符：  <br/> |0x0E05  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|相关属性：  <br/> |PR_PARENT_DISPLAY、PR_PARENT_DISPLAY_A、PR_PARENT_DISPLAY_W  <br/> |
+|标识符:  <br/> |0x0E05  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
 ## <a name="remarks"></a>注解
 
-对任何对象，这些属性不是。 它们仅可以显示搜索结果文件夹的内容表中。
+这些属性不在任何对象上。 它们只能出现在搜索结果文件夹的内容表中。
   
-这些属性和**PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) 属性不与每个其他相关。 他们所属完全不同的上下文。
+这些属性和**PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) 属性不相互关联。 它们属于完全不同的上下文。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

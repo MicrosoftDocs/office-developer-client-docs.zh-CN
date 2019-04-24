@@ -12,25 +12,25 @@ api_type:
 - HeaderDef
 ms.assetid: c9ceca01-9c4e-4b59-8171-a4c2d6aca45d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f310439b3a1d8a45215b220dcd7565e821d81f01
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f2110682be9296a874e6f42d40a375b69d201431
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331883"
 ---
 # <a name="pidtagcontentlength-canonical-property"></a>PidTagContentLength 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息长度，以字节为单位，传递给客户端应用程序或服务提供商，以确定是否可以发送消息的长度。 
+包含传递给客户端应用程序或服务提供程序以确定是否可以传递该长度的消息的消息长度 (以字节为单位)。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTENT_LENGTH  <br/> |
-|标识符：  <br/> |0x0009  <br/> |
+|标识符:  <br/> |0x0009  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
@@ -38,13 +38,13 @@ ms.locfileid: "22572800"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -7,20 +7,20 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b6de594f-e331-4421-956b-86ee0b5518fe
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9245d4913c2832b8c942093e65cf088643a1947c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 614bb3d142b7aaabe89223b6ce3552469edfce27
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331621"
 ---
-# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>避免使用 IStream::SetSize 来扩展流
+# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>避免使用 IStream:: SetSize 扩展流
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-写入流，时，有时不必放大它们，因为其初始大小不再足够。 使用**IStream::Write**的 OLE 方法实现这一点而不是**IStream::SetSize**。 **IStream::Write**自动扩展流，使 * * IStream::SetSize * * 不必要。 调用不带**IStream::SetSize** **IStream::Write**可以比进行**写入**之前调用**SetSize**速度更快是三倍。
+在写入流时, 有时需要将其放大, 因为它们的初始大小已不再足够。 使用 OLE 方法**IStream:: Write**实现此目的, 而不是**IStream:: SetSize**。 **IStream:: Write**自动扩展流, 将 * * IStream:: SetSize * * 设为不必要。 调用**IStream::** 不带**IStream:: SetSize**的写入速度可比在**写入**前进行**SetSize**调用的速度快三倍。
   
 

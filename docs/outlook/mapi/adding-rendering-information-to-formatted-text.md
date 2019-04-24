@@ -1,5 +1,5 @@
 ---
-title: 将生成的信息添加到格式化文本
+title: 将呈现信息添加到格式化文本
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,26 +7,26 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 790180f9-8864-47d4-97fb-35fe16b957c0
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a6018c05d1191211242066425e4ae546c1618094
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: a67fc7cbb3be5c7a23cb85e60dc33d853614cda2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331120"
 ---
-# <a name="adding-rendering-information-to-formatted-text"></a>将生成的信息添加到格式化文本
+# <a name="adding-rendering-information-to-formatted-text"></a>将呈现信息添加到格式化文本
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示附件呈现的位置中带格式的文本的位置，则必须将占位符字符序列的插入消息的**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性中。 占位符序列构成下列字符： `\objattph`。
+若要指示呈现附件的格式化文本中的位置, 必须在邮件的**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性中插入占位符字符序列。 占位符序列由以下字符组成: `\objattph`。
   
- **将呈现信息添加到带格式的消息文本**
+ **将呈现信息添加到格式化的邮件文本中**
   
-- 时的文本流写入消息的**PR_RTF_COMPRESSED**属性，来呈现附件的位置的位置插入占位符序列和空格字符。 
+- 将文本流写入邮件的**PR_RTF_COMPRESSED**属性时, 请在应呈现附件的位置插入占位符序列和空格字符。 
     
-- 设置为数值的每个附件的**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性。 最小值应分配给第一个附件的**PR_RENDERING_POSITION**属性，显示中的格式化文本;最高的值，到最后一个附件。 
+- 将每个附件的**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性设置为一个数字值。 应将最低值分配给首个附件的**PR_RENDERING_POSITION**属性, 以显示在格式化文本中;最后一个附件的最大值。 
     
 

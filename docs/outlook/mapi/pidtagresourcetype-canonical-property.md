@@ -12,31 +12,31 @@ api_type:
 - COM
 ms.assetid: 48b634d7-deea-422b-8944-a8d929d83838
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 56f14488812842d5e9fe63ae228c325059ebe679
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1c7a35ded4861d724520b02ec5d61246774ca5cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330126"
 ---
 # <a name="pidtagresourcetype-canonical-property"></a>PidTagResourceType 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个值，指示的服务提供程序类型。
+包含指示服务提供程序类型的值。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RESOURCE_TYPE  <br/> |
-|标识符：  <br/> |0x3E03  <br/> |
+|标识符:  <br/> |0x3E03  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性可以具有完全下列值之一：
+此属性可以具有下列值之一:
   
 MAPI_AB 
   
@@ -48,7 +48,7 @@ MAPI_AB_PROVIDER
     
 MAPI_HOOK_PROVIDER 
   
-> 后台处理程序挂接提供程序
+> 后台打印程序挂钩提供程序
     
 MAPI_PROFILE_PROVIDER 
   
@@ -56,11 +56,11 @@ MAPI_PROFILE_PROVIDER
     
 MAPI_SPOOLER 
   
-> 消息后台处理程序
+> 邮件后台处理程序
     
 MAPI_STORE_PROVIDER 
   
-> 消息存储提供程序
+> 邮件存储区提供程序
     
 MAPI_SUBSYSTEM 
   
@@ -74,13 +74,13 @@ MAPI_TRANSPORT_PROVIDER
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

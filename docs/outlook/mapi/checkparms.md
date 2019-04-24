@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 328f12f0-e4e7-407f-8eb8-0d4bf543962d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5732dd3c1587c127cf153ebcadd9b791e6abb9ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ffa1b596b2f60bce35f24df8a20326502be8165a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331799"
 ---
 # <a name="checkparms"></a>CheckParms
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-调用的内部函数，以验证调试参数调用 MAPI 服务提供程序方法。 
+调用内部函数来验证 MAPI 调用的服务提供程序方法的调试参数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapival.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |服务提供商  <br/> |
+|标头文件：  <br/> |Mapival.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |服务提供程序  <br/> |
    
 ```cpp
 HRESULT CheckParms(
@@ -44,11 +44,11 @@ HRESULT CheckParms(
 
  _eMethod_
   
-> [in]通过枚举，指定要验证的方法。 
+> 实时通过枚举指定要验证的方法。 
     
  _第一_
   
-> [in]堆栈上第一个参数的指针。
+> 实时指向堆栈上第一个参数的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -58,6 +58,6 @@ S_OK
     
 ## <a name="remarks"></a>注解
 
-与[ValidateParms](validateparms.md)和[UlValidateParms](ulvalidateparms.md)宏**CheckParms**宏不执行完整参数验证。 MAPI 和服务之间传递参数提供程序假定已正确，因此**CheckParms**执行调试验证。 
+与[ValidateParms](validateparms.md)和[UlValidateParms](ulvalidateparms.md)宏相反, **CheckParms**宏不执行完整参数验证。 假定在 MAPI 和服务提供程序之间传递的参数是正确的, 因此**CheckParms**仅执行调试验证。 
   
 

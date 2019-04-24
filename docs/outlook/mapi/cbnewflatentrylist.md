@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: f7182631-7f0e-4f4a-995d-22c0bedd7b6a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c976375d428e477de688f42eaa3ff8396fcfd4fc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2780f33744cacf07671aa70f1d5b4af49e95da43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571351"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331827"
 ---
 # <a name="cbnewflatentrylist"></a>CbNewFLATENTRYLIST
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-计算应包含几个[FLATENTRY](flatentry.md)结构指定大小的新[FLATENTRYLIST](flatentrylist.md)结构分配的字节数。 
+计算应为包含多个指定大小的[FLATENTRY](flatentry.md)结构的新[FLATENTRYLIST](flatentrylist.md)结构分配的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**FLATENTRYLIST** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**FLATENTRYLIST** <br/> |
    
 ```cpp
 CbNewFLATENTRY (_cb)
@@ -40,7 +40,7 @@ CbNewFLATENTRY (_cb)
 
  __cb_
   
-> 要包含在新的**FLATENTRYLIST**结构**FLATENTRY**结构中的字节数。 
+> 要包含在新**FLATENTRYLIST**结构中的**FLATENTRY**结构中的字节数。 
     
 ## <a name="see-also"></a>另请参阅
 

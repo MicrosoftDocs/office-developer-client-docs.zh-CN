@@ -1,34 +1,34 @@
 ---
-title: 用于计算存储区哈希数的算法
+title: 用于计算存储哈希数的算法
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 84065c1441008732380e68d9786d7844dbb64cb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 12797c2ed96ba2db493b5cf425423ffe97fc7a5d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331582"
 ---
-# <a name="algorithm-to-calculate-the-store-hash-number"></a>用于计算存储区哈希数的算法
+# <a name="algorithm-to-calculate-the-store-hash-number"></a>用于计算存储哈希数的算法
  
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-作为一部分的 MAPI 统一资源定位器 (URL)，存储提供程序将存储哈希编号发送到 MAPI 协议处理程序，以确定已准备好进行索引的对象。 MAPI 协议处理程序使用此存储哈希号码来标识存储区。 一般情况下，存储提供程序计算基于存储映射签名，如果对存储在全局配置文件部分中定义的**[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** 属性存储哈希数。 否则，存储提供程序使用存储条目 id。 要计算的存储哈希算法必须减少不明确问题标识存储区。 
+作为 mapi 统一资源定位器 (URL) 的一部分, 存储提供程序会将存储哈希号发送到 mapi 协议处理程序, 以标识已准备好编制索引的对象。 MAPI 协议处理程序使用此存储哈希号来标识存储区。 通常, 如果存储区具有在全局配置文件部分中定义的**[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** 属性, 则存储提供程序将基于存储映射签名计算存储哈希数。 否则, 存储提供程序将使用存储区条目 ID。 用于计算存储哈希数的算法必须最大限度地减少标识存储区的多义性。 
   
-本主题介绍算法的 Microsoft Office Outlook 中用来计算存储哈希号码基于存储映射签名或条目 ID 和存储文件的名称。 
+本主题介绍了 Microsoft Office Outlook 根据存储映射签名或条目 ID 和存储文件名计算存储哈希数的算法。 
   
-要编码二进制 blob 存储在大多数情况下的 PR_ENTRYID 但的缓存的 Exchange 存储区，公共和私有、 二进制 blob 应 PR_MAPPING_SIGNATURE，找到配置文件中。
+要编码的二进制 blob 是存储在大多数情况下的 PR_ENTRYID, 但对于缓存的 Exchange 存储 (公用和专用), 二进制 blob 应为 PR_MAPPING_SIGNATURE, 在配置文件中找到。
   
-后计算哈希公用文件夹存储二进制 blob，但先哈希值计算项 OST 路径，0x2E505542，该常量代表字符串"。PUB"，则哈希中以确保它是唯一的这是不同的专用存储哈希值。
+在计算公用文件夹存储的二进制 blob 的哈希值之后, 但在 OST 路径中进行哈希计算之前, 常量 0x2E505542, 它表示字符串 "。PUB "的哈希值, 以确保它是唯一的, 即与专用存储的哈希不同。
   
-支持代码 culls 到 OST 相关位从配置文件，可用于确定存储区是公共或专用，如果它缓存，以及的路径。 若要将此代码项目中的，调用的函数 ComputeStoreHash，将作为其输入会话指针以及 PR\_ENTRYID、 PR\_SERVICE_UID 和 PR\_MDB_PROVIDER 从邮件存储表。 它需要的信息的其余部分获取从配置文件。 输出，此函数返回哈希值计算出 PR 从\_如果存储是缓存的 Exchange 存储中或哈希值计算出从 PR MAPPING_SIGNATURE\_ENTRYID。
+支持代码 culls 配置文件中的相关位, 可用于确定存储区是公共的还是私人的、是否已缓存、是否已缓存以及 OST 的路径。 若要将此代码包含在项目中, 请调用函数 ComputeStoreHash, 该函数将作为其输入, 作为其在\_邮件存储表\_中的会话指针\_以及 pr ENTRYID、pr SERVICE_UID 和 pr MDB_PROVIDER。 从配置文件获取所需的其他信息。 对于 output, 如果存储是缓存的 Exchange 存储或从\_pr\_ENTRYID 中计算出的哈希值, 则此函数将返回从 PR MAPPING_SIGNATURE 计算得出的哈希值。
   
 > [!NOTE]
-> HrEmsmdbUIDFromStore 支持功能是[多个 Exchange 帐户](using-multiple-exchange-accounts.md)-注意替换使用 pbGlobalProfileSectionGuid 打开 Exchange 邮箱的配置文件一节。 
+> HrEmsmdbUIDFromStore 支持函数是一个可供使用 pbGlobalProfileSectionGuid 打开 exchange 邮箱的 "配置文件" 部分的[多 Exchange 帐户](using-multiple-exchange-accounts.md)感知替换。 
   
 ```cpp
 #define PR_PROFILE_OFFLINE_STORE_PATH_A PROP_TAG(PT_STRING8, 0x6610)
@@ -238,10 +238,10 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
 ```
 
 > [!TIP]
-> HrEmsmdbUIDFromStore 函数工作，而不必真正打开存储，因此很好的通用方法。 但是，如果您已有指向存储对象的指针，您还可以检索配置文件部分 GUID 直接从消息存储通过读取 PR_EMSMDB_SECTION_UID 属性。 
+> HrEmsmdbUIDFromStore 函数在不实际打开存储区的情况下运行, 因此它是一个理想的通用方法。 但是, 如果您已经有一个指向 store 对象的指针, 则还可以通过读取 PR_EMSMDB_SECTION_UID 属性直接从邮件存储区检索配置文件部分 GUID。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [关于基于通知的存储区索引](about-notification-based-store-indexing.md)
-- [关于基于通知的索引的 MAPI URL](about-mapi-urls-for-notification-based-indexing.md)
+- [关于基于通知的存储索引](about-notification-based-store-indexing.md)
+- [关于基于通知的索引的 MAPI url](about-mapi-urls-for-notification-based-indexing.md)
 

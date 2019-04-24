@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: c7f10b8a-6b20-44cf-bde6-8d2b711c1c14
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 53226daafd1c0a53f96db5af3432d6f34738fd93
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 30ed8053c9c3d77f4831da37ddd2456ad0564a5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331890"
 ---
 # <a name="pidtagcontentintegritycheck-canonical-property"></a>PidTagContentIntegrityCheck 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含允许的邮件发件人，以防止泄露消息内容到未经授权的收件人 ASN.1 内容的完整性检查值。
+包含一个 ASN. 1 内容完整性检查值, 允许邮件发件人将邮件内容泄露给未授权的收件人。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTENT_INTEGRITY_CHECK  <br/> |
-|标识符：  <br/> |0x0C00  <br/> |
+|标识符:  <br/> |0x0C00  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性提供的不可否认性的消息内容。 与**PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) 一起使用，它可以确保一条消息的内容到达目标不变。
+此属性提供对邮件内容的不可否认性的提供。 与**PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) 结合使用, 可确保邮件的内容在其目标处不变。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

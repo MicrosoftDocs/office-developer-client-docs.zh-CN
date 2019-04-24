@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 08f3f3f937320d8a986b2002c761a37f0f749227
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330175"
 ---
 # <a name="implementing-iunknown-in-c"></a>使用 C++ 实现 IUnknown
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在 c + + 中实现的[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)接口[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)、 [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)和[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法是相当简单。 后的参数中传递的一些标准验证， **QueryInterface**实现检查的受支持接口的列表对请求的接口的标识符。 如果之间所支持的请求的标识符， **AddRef**称为，则返回**此**指针。 如果请求的标识符不在受支持的列表中，将输出指针设置为 NULL，并返回 MAPI_E_INTERFACE_NOT_SUPPORTED 值。 
+在 c + + 中实现[iunknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)、 [iunknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)和[iunknown::](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) [iunknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)接口的 Release 方法相当简单。 在对传入的参数进行一些标准验证之后, **QueryInterface**的实现将对照受支持接口的列表检查请求的接口的标识符。 如果请求的标识符在受支持的标识符中, 则会调用**AddRef**并返回**this**指针。 如果请求的标识符不在受支持的列表中, 则输出指针将设置为 NULL, 并返回 MAPI_E_INTERFACE_NOT_SUPPORTED 值。 
   
-下面的代码示例演示如何实现**QueryInterface** c + + 中对于状态对象，一个对象，它的一个子类[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口。 **IMAPIStatus**继承通过的**IUnknown** [IMAPIProp: IUnknown](imapipropiunknown.md)。 因此，如果呼叫者要求的任何这些接口，**该**指针可以返回，因为通过继承相关的接口。 
+下面的代码示例演示如何在 c + + 中为 status 对象实现**QueryInterface** , 该对象是[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口的子类。 **IMAPIStatus**从**iunknown**继承到[IMAPIProp: IUnknown](imapipropiunknown.md)。 因此, 如果呼叫者请求这些接口中的任何一个, 则可以返回**this**指针, 因为这些接口是通过继承相关的。 
   
 ```cpp
 HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
@@ -44,7 +44,7 @@ HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
 
 ```
 
-下面的代码示例演示如何实现**AddRef**和**Release**的方法，用于`CMyMAPIObject`对象。 由于实现**AddRef**和**Release**很简单，许多服务提供商选择实现它们内嵌。 对**InterlockedIncrement**和**InterlockedDecrement** Win32 函数的调用确保线程安全。 通过对析构函数，调用**Release**方法删除该对象时释放对象的内存。 
+下面的代码示例演示如何实现`CMyMAPIObject`对象的**AddRef**和**Release**方法。 由于实现**AddRef**和**发布**非常简单, 因此许多服务提供商选择以内嵌方式实施它们。 对 Win32 函数**InterlockedIncrement**和**InterlockedDecrement**的调用可确保线程安全性。 该对象的内存由析构函数释放, 该析构函数在**Release**方法删除对象时调用。 
   
 ```cpp
 ULONG CMyMAPIObject::AddRef()
@@ -68,5 +68,5 @@ ULONG CMyMAPIObject::Release()
 ## <a name="see-also"></a>另请参阅
 
 - [实现 MAPI 对象](implementing-mapi-objects.md)
-- [实施 IUnknown 接口](implementing-the-iunknown-interface.md)
+- [实现 IUnknown 接口](implementing-the-iunknown-interface.md)
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 30d23c19-e0da-4511-9361-761153259216
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 14bb31ae9aebbb6441948b5756b426508107c9f0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394900"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331400"
 ---
 # <a name="pidtagresolvemethod-canonical-property"></a>PidTagResolveMethod 规范属性
 
@@ -25,48 +25,48 @@ ms.locfileid: "25394900"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含某个文件夹的冲突解决值。
+包含文件夹的冲突解决值。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RESOLVE_METHOD  <br/> |
-|标识符：  <br/> |0x3FE7  <br/> |
+|标识符:  <br/> |0x3FE7  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性包含冲突解决消息的文件夹将指示如何解决冲突。 此属性不是必需的。 但是，如果设置，则之外以下标志不必须存在：
+包含冲突解决邮件的文件夹上的此属性将指示如何解决冲突。 此属性不是必需的。 但是, 如果设置了, 则不能有以下标志:
   
 |||
 |:-----|:-----|
-|RESOLVE_METHOD_DEFAULT (0X00000000)  <br/> |冲突解决应生成消息。  <br/> |
-|RESOLVE_METHOD_LAST_WRITER_WINS (0X00000001)  <br/> |用当前应用的更改覆盖目标邮件。  <br/> |
-|RESOLVE_NO_CONFLICT_NOTIFICATION (0X00000002:UC)  <br/> |时生成冲突解决公用文件夹中的消息，则不发送冲突通知消息。  <br/> |
+|RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |应生成冲突解决消息。  <br/> |
+|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |使用当前正在应用的更改覆盖目标邮件。  <br/> |
+|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |在公用文件夹中生成冲突解决邮件时不发送冲突通知消息。  <br/> |
    
-客户端或服务器一定不会产生冲突解决消息关联邮件。 通过使用**RESOLVE_METHOD_LAST_WRITER_WINS**语义，必须解决这些消息。 
+客户端或服务器不能为关联的邮件生成冲突解决消息。 必须使用**RESOLVE_METHOD_LAST_WRITER_WINS**语义解决这些邮件。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCSYNC]](https://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
+[[毫秒-OXCSYNC]](https://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
   
-> 同步服务器和客户端之间的消息对象数据的句柄。
+> 处理服务器和客户端之间的同步邮件对象数据。
     
-[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 定义所使用的基本的数据结构中远程操作。
+> 定义在远程操作中使用的基本数据结构。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

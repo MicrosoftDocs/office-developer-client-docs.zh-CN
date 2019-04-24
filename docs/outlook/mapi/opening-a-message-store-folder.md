@@ -8,46 +8,46 @@ api_type:
 - COM
 ms.assetid: d858e4fe-822e-4330-9ed3-4b7d22fa51dc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2ac4a30d6afc7e5245441bfe2d501169dd3a9447
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: df7db013cb435484c721388abab51ab4ba43828f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331372"
 ---
 # <a name="opening-a-message-store-folder"></a>打开邮件存储文件夹
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-可打开任何文件夹之前，必须提供其条目标识符。 对于大多数文件夹，这意味着检索其**PR_ENTRYID**属性。 对于特殊文件夹，如的一些 IPM 子树文件夹和其他根文件夹，MAPI 定义通过调用的消息存储**IMAPIProp::GetProps**方法可访问的特殊条目标识符属性。 这些条目标识符始终是长期和名，如下所示： 
+在可以打开任何文件夹之前, 必须提供其条目标识符。 对于大多数文件夹, 这意味着检索其**PR_ENTRYID**属性。 对于特殊文件夹 (如一些 IPM 子树文件夹和其他根文件夹), MAPI 定义了可通过调用邮件存储区的**IMAPIProp:: GetProps**方法访问的特殊条目标识符属性。 这些条目标识符始终为长期, 并按如下方式命名: 
   
-|**Folder**|**项标识符属性**|
+|**Folder**|**条目标识符属性**|
 |:-----|:-----|
-|发件箱文件夹  <br/> |**PR_IPM_OUTBOX_ENTRYID**([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md))（仅适用于 IPM 之前的邮件类）  <br/> |
-|已删除的项目文件夹  <br/> |**PR_IPM_WASTEBASKET_ENTRYID**([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md))  <br/> |
-|发送的项目文件夹  <br/> |**PR_IPM_SENTMAIL_ENTRYID**([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md))  <br/> |
+|发件箱文件夹  <br/> |**PR_IPM_OUTBOX_ENTRYID**([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md))(仅限 IPM 邮件类)  <br/> |
+|“已删除邮件”文件夹  <br/> |**PR_IPM_WASTEBASKET_ENTRYID**([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md))  <br/> |
+|"已发送邮件" 文件夹  <br/> |**PR_IPM_SENTMAIL_ENTRYID**([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md))  <br/> |
 |IPM 根文件夹  <br/> |**PR_IPM_SUBTREE_ENTRYID**([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md))  <br/> |
-|搜索结果的根文件夹  <br/> |**PR_FINDER_ENTRYID**([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md))  <br/> |
-|常见的视图的根文件夹  <br/> |**PR_COMMON_VIEWS_ENTRYID**([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))  <br/> |
-|个人视图的根文件夹  <br/> |**PR_VIEWS_ENTRYID**([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md))  <br/> |
-|根联系人文件夹  <br/> |**PR_IPM_CONTACT_ENTRYID**([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
-|根草稿文件夹  <br/> |**PR_IPM_DRAFTS_ENTRYID**([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
+|搜索结果根文件夹  <br/> |**PR_FINDER_ENTRYID**([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md))  <br/> |
+|公用视图根文件夹  <br/> |**PR_COMMON_VIEWS_ENTRYID**([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))  <br/> |
+|个人视图根文件夹  <br/> |**PR_VIEWS_ENTRYID**([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md))  <br/> |
+|联系人根文件夹  <br/> |**PR_IPM_CONTACT_ENTRYID**([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
+|草稿根文件夹  <br/> |**PR_IPM_DRAFTS_ENTRYID**([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
 |日记根文件夹  <br/> |**PR_IPM_JOURNAL_ENTRYID**([PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
-|根日历文件夹  <br/> |**PR_IPM_APPOINTMENT_ENTRYID**([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
-|Notes 根文件夹  <br/> |**PR_IPM_NOTE_ENTRYID**([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
-|任务的根文件夹  <br/> |**PR_IPM_TASK_ENTRYID**([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
+|日历根文件夹  <br/> |**PR_IPM_APPOINTMENT_ENTRYID**([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
+|备注根文件夹  <br/> |**PR_IPM_NOTE_ENTRYID**([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
+|任务根文件夹  <br/> |**PR_IPM_TASK_ENTRYID**([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
    
-您尝试检索这些特殊条目标识符之一之前，检索**PR\_VALID_FOLDER_MASK**消息存储 ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) 属性。 **PR\_VALID_FOLDER_MASK**是标识哪些特殊的项标识符中存在一个位掩码。 没有为每个特殊文件夹的一位。 如果设置了位，它指示的相应文件夹支持并且有一个有效项标识符。 例如，如果已删除邮件文件夹存在，但具有有效项标识符，该文件夹\_IPM_WASTEBASKET_VALID 位将在**PR_VALID_FOLDER_MASK**中进行设置。 
+在尝试检索这些特殊条目标识符之一之前, 请先检索邮件存储区的**\_PR VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) 属性。 **PR\_VALID_FOLDER_MASK**是标识存在哪些特殊条目标识符的位掩码。 每个特殊文件夹都有一个位。 如果设置了位, 则表明相应的文件夹受支持且具有有效的条目标识符。 例如, 如果 "已删除邮件" 文件夹存在且具有有效的条目标识符, 则\_将在**PR_VALID_FOLDER_MASK**中设置文件夹 IPM_WASTEBASKET_VALID 位。 
   
-## <a name="open-the-folder-where-all-incoming-messages-of-a-particular-class-are-placed"></a>打开放置的特定类的所有传入邮件的文件夹
+## <a name="open-the-folder-where-all-incoming-messages-of-a-particular-class-are-placed"></a>打开在其中放置特定类的所有传入邮件的文件夹
   
-1. 调用[IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md)检索其条目标识符，以指向标识的邮件类的字符字符串_lpszMessageClass_参数设置。 例如，如果您想要打开您 IPM 子树的收件箱，指向_lpszMessageClass_ IPM。 如果您想要打开 IPC 邮件的接收文件夹，请将其指向 IPC 设置。 
+1. 调用[IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md)以检索其条目标识符, 并将_lpszMessageClass_参数设置为指向标识邮件类的字符字符串。 例如, 如果要打开 ipm 子树的收件箱, 请将_lpszMessageClass_指向 ipm。 如果要打开接收文件夹中的 IPC 消息, 请将其设置为指向 "ipc"。 
 
-   如果没有任何已注册的接收文件夹的邮件类， **GetReceiveFolder**选择其关联的邮件类别匹配的邮件类的最长可能前缀的接收文件夹中传递。 有关详细信息，请参阅[MAPI 接收文件夹](mapi-receive-folders.md)。 
+   如果邮件类别没有已注册的接收文件夹, **GetReceiveFolder**将选择其关联邮件类别与传入的邮件类别的最长可能前缀相匹配的接收文件夹。 有关详细信息, 请参阅[MAPI 接收文件夹](mapi-receive-folders.md)。 
    
-   请注意， **PR_IPM_OUTBOX_ENTRYID**属性用于打开仅对 IPM 邮件发件箱文件夹。 如果您打开 IPC 邮件发件箱，而是使用的项标识符其接收文件夹。 传入和传出 IPC 邮件被置于的接收文件夹。 
+   请注意, **PR_IPM_OUTBOX_ENTRYID**属性仅用于为 IPM 邮件打开 "发件箱" 文件夹。 如果要打开 IPC 邮件的发件箱, 请改用其接收文件夹的条目标识符。 传入和传出的 IPC 消息都放在接收文件夹中。 
     
-2. 调用四个**OpenEntry**方法，以打开文件夹，并返回可用于访问该接口指针之一。 您可以调用以下方法以打开一个文件夹中的任何一个： 
+2. 调用四个**OpenEntry**方法之一以打开文件夹, 并返回可用于访问该文件夹的接口指针。 您可以调用下列任意一种方法来打开文件夹: 
     
    - [IMAPISession::OpenEntry](imapisession-openentry.md)
     
@@ -57,15 +57,15 @@ ms.locfileid: "22586121"
     
    - [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)
     
-   您选择特定的方法取决于打开的文件夹和时可用的对象。 因为**IMAPISession**方法可以打开任何消息存储的所有文件夹的当前配置文件中，调用此**OpenEntry**时您不知道有关打开的文件夹的任何内容。 如果您知道哪些消息存储库拥有该文件夹，并且您具有对消息存储的指针，调用**IMsgStore::OpenEntry**。 
+   您选择的具体方法取决于要打开的文件夹以及在该时间可用的对象。 由于**IMAPISession**方法可以打开当前配置文件中任何邮件存储区的任何文件夹, 因此当您不知道要打开的文件夹的任何内容时, 请调用此**OpenEntry** 。 如果您知道哪个邮件存储区拥有该文件夹, 并且您具有指向邮件存储区的指针, 则调用**IMsgStore:: OpenEntry**。 
     
-   例如，使用**IMsgStore**方法打开接收文件夹。 如果您有指向消息存储提供程序的登录对象的指针，调用**IMSLogon::OpenEntry**。 因为这些呼叫转直接向消息存储提供程序，而不是通过 MAPI，处理速度更快。 如果您打开的文件夹是已打开文件夹的子文件夹，调用打开文件夹的**IMAPIContainer::OpenEntry**方法。 **IMAPIContainer**方法仅打开当前打开的文件夹的子文件夹并仅方法保证处理短期条目标识符。 
+   例如, 使用**IMsgStore**方法打开接收文件夹。 如果您有一个指向邮件存储提供程序的登录对象的指针, 则调用**IMSLogon:: OpenEntry**。 由于这些呼叫直接转到邮件存储提供程序 (而不是通过 MAPI), 因此处理速度更快。 如果要打开的文件夹是已打开的文件夹的子文件夹, 请调用 open 文件夹的**IMAPIContainer:: OpenEntry**方法。 **IMAPIContainer**方法仅打开当前打开的文件夹的子文件夹, 并且是保证使用短期输入标识符的唯一方法。 
     
-3. 如果您希望能够更改以打开文件夹，指定一个访问级别通过设置任一 MAPI\_最佳\_访问或 MAPI\_ **OpenEntry**呼叫中的修改标志。 这些标志为到的消息存储提供程序的建议的 MAPI 授予的访问，最高级别\_最佳\_访问或读/写访问，MAPI 的\_修改，请打开该文件夹时。 
+3. 如果您\_希望能够对要打开的文件夹进行更改, 请通过在**OpenEntry**调用中设置 mapi 最佳\_访问或 mapi\_修改标志来指定访问级别。 这些标志是邮件存储提供程序的建议, 用于在打开文件夹时授予最高级别的\_访问\_权限、mapi 最佳访问或读/写访问\_权限 (用于 mapi 修改)。 
 
-   由于这些标志是只建议，该文件夹可能或不能打开与您预期的访问级别。 通过检索**PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) 属性，您可以确定可以在打开文件夹中执行的操作的范围。 
+   由于这些标志只是建议, 因此可能会打开文件夹, 也可能无法使用所需的访问级别打开文件夹。 通过检索**PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) 属性, 可以确定可在打开的文件夹上执行的操作的范围。 
     
-   但是，因为许多消息存储提供程序计算需求，而不是支持它作为文件夹属性或作为其层次结构表中的列上的此属性的值，它检索费时。 另一种策略是尝试执行和返回错误，如有必要所需的任何操作。
+   但是, 由于许多邮件存储提供程序都按需计算此属性的值, 而不是将其作为 folder 属性或作为其层次结构表中的列进行支持, 因此检索它可能非常耗时。 另一种策略是尝试执行所需的任何操作, 并在必要时返回一个错误。
     
 ## <a name="see-also"></a>另请参阅
 

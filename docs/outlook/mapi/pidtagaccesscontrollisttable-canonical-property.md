@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 48667fda-ddc4-42ac-9231-761db0a4c1a9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 40a2bc8a27ec3ce3df610b9c7364719c2b5ee750
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9c71a2b806b810906c13ea4750e5491b1544f640
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332002"
 ---
 # <a name="pidtagaccesscontrollisttable-canonical-property"></a>PidTagAccessControlListTable 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含表组成的所有系统访问控制列表 (SACL) 应用到的文件夹。
+包含一个表, 该表由应用于文件夹的所有系统访问控制列表 (SACL) 组成。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ACL_TABLE  <br/> |
-|标识符：  <br/> |0x3FE0  <br/> |
+|标识符:  <br/> |0x3FE0  <br/> |
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |访问控制  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性是位于 Exchange 服务器上的所有 folder 对象。 包含此属性的值用于以进行读取和修改访问控制列表 (Acl) 的文件夹。 您可以使用具有**IID_IExchangeModifyTable**接口标识符[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法获取[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)到文件夹上的 ACL 表格的接口。 此接口可用于读取和修改这些 Acl。 
+此属性在 Exchange 服务器上的所有 folder 对象上都存在。 此属性中包含的值用于读取和修改文件夹的访问控制列表 (acl)。 您可以将[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法与**IID_IExchangeModifyTable**接口标识符一起使用, 以获取文件夹上的 ACL 表的[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)接口。 您可以使用此接口读取和修改这些 acl。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

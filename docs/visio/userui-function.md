@@ -8,38 +8,38 @@ f1_keywords:
 - Vis_DSS.chm82251511
 localization_priority: Normal
 ms.assetid: c01dd938-677c-b2ba-8f56-4638e7e988fd
-description: 计算的状态的两个表达式根据值之一。
-ms.openlocfilehash: 2cfdf23986a06dcc109106bd50a1a38e5af91313
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 根据 state 的值计算两个表达式中的一个。
+ms.openlocfilehash: 544bb2b19dc610591afc78c407301098fac9c7c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331323"
 ---
 # <a name="userui-function"></a>USERUI 函数
 
-计算的_状态_的两个表达式根据值之一。
+根据_state_的值计算两个表达式中的一个。
   
 ## <a name="syntax"></a>语法
 
-USERUI (* **状态** *，* * *defaultexpression* * *，* * *userexpression* * *) 
+USERUI (* * *state* * *, * * *defaultexpression* * *, * * *userexpression* * *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _state_ <br/> |必需  <br/> |**Boolean** <br/> |确定要计算的表达式。  <br/> |
-| _defaultexpression_ <br/> |必需  <br/> |**字符串** <br/> |默认表达式。  <br/> |
-| _userexpression_ <br/> |必需  <br/> |**字符串** <br/> |为用户提供一个表达式。  <br/> |
+| _defaultexpression_ <br/> |必需  <br/> |**String** <br/> |默认表达式。  <br/> |
+| _userexpression_ <br/> |必需  <br/> |**String** <br/> |用户提供的表达式。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果_状态_为 0，则 USERUI 函数计算_defaultexpression_。 如果_状态_为 1，则其值_userexpression_。
+如果_state_为 0, 则 USERUI 函数将计算_defaultexpression_。 如果_state_为 1, 则计算_userexpression_。
   
 ## <a name="example"></a>示例
 
-USERUI (1，如果 (宽度\>6 中、 6 英寸，宽度)，宽度\*0.75) 
+USERUI (1, 如果 (Width\>6in, 6in, width), width\*0.75) 
   
-计算表达式 Width\*.075，并返回结果。 
+计算表达式 Width\*. 075 并返回结果。 
   
 

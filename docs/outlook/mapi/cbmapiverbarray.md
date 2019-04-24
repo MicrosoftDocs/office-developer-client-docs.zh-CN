@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: c1b746e6-c9df-4e92-a8b8-7a00b2de53e7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8ae4326cedf7e4fa4c3218d30255a9473ab7fbe0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e0087cdffe04bdb5de7ffcfa295a5ac84bf03bd1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331610"
 ---
 # <a name="cbmapiverbarray"></a>CbMAPIVerbArray
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-计算中包含指定的数目的[SMAPIVerb](smapiverb.md)结构的现有[SMAPIVerbArray](smapiverbarray.md)结构的字节数。 
+计算包含指定数量的[SMAPIVerb](smapiverb.md)结构的现有[SMAPIVerbArray](smapiverbarray.md)结构中的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiform.h  <br/> |
-|相关的结构：  <br/> |**SMAPIVerbArray** <br/> |
+|标头文件：  <br/> |Mapiform  <br/> |
+|相关结构:  <br/> |**SMAPIVerbArray** <br/> |
    
 ```cpp
 int CbMAPIVerbArray (_c)
@@ -40,7 +40,7 @@ int CbMAPIVerbArray (_c)
 
  __c_
   
-> 在现有**SMAPIVerbArray**结构**SMAPIVerb**结构的计数。 
+> 现有**SMAPIVerbArray**结构中的**SMAPIVerb**结构的计数。 
     
 ## <a name="see-also"></a>另请参阅
 

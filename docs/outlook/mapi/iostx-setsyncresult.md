@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f083ee0-bf36-0059-1589-66e454fe0098
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f8982bafc0678378ae46dc31a9417cc11bb695a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 78ccf72f17ec350d77f2d22d0e6d2fa7c3d97543
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332142"
 ---
 # <a name="iostxsetsyncresult"></a>IOSTX::SetSyncResult
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 设置同步的结果。
   
@@ -37,11 +37,11 @@ HRESULT SetSyncResult(
 
  _hrSync_
   
->  [in]同步的结果。 
+>  实时同步的结果。 
     
 ## <a name="remarks"></a>注解
 
-调用**IOSTX::SyncEnd** ，告知本地存储的结果的同步之前调用**IOSTX::SetSyncResult** 。 
+调用**IOSTX:: SetSyncResult**之前调用**IOSTX:: SyncEnd**将同步结果的本地存储通知给本地存储。 
   
 ## <a name="see-also"></a>另请参阅
 

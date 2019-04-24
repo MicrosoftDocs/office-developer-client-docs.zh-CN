@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 581bf372-8705-4617-aaa4-a1d761eb9b58
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 870fbf2228206253261124907d6bd420f95fb7c1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331428"
 ---
 # <a name="pidtagreporttag-canonical-property"></a>PidTagReportTag 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25384841"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含在邮件系统应将复制到生成的邮件的所有报告的二进制标记值。 
+包含一个二进制标记值, 邮件系统应将此值复制到为该邮件生成的任何报告。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_REPORT_TAG  <br/> |
-|标识符：  <br/> |0x0031  <br/> |
+|标识符:  <br/> |0x0031  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性，如**PR_SUBJECT_IPM** ([PidTagSubjectMessageId](pidtagsubjectmessageid-canonical-property.md)) 属性，用于将报告与原始邮件相关联。 
+此属性 (如**PR_SUBJECT_IPM** ([PidTagSubjectMessageId](pidtagsubjectmessageid-canonical-property.md)) 属性) 用于将报告与原始邮件关联。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和电子邮件中允许的操作。
+> 指定在电子邮件中允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

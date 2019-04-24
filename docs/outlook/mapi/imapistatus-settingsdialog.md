@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: e931246e-7fff-4116-a9fc-f685988e21e8
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a21feb474ef69da9ec8e36e06c8649b9d0f93981
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 1e9d390a895490f2f7445c5f1ed6e0bde3a87639
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331540"
 ---
 # <a name="imapistatussettingsdialog"></a>IMAPIStatus::SettingsDialog
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-显示使用户能够更改服务提供商的配置中 MAPI 实现的状态对象不支持此方法的属性表。
+显示允许用户更改服务提供程序配置的属性表。 MAPI 实现的 status 对象中不支持此方法。
   
 ```cpp
 HRESULT SettingsDialog(
@@ -38,61 +38,61 @@ HRESULT SettingsDialog(
 
  _ulUIParam_
   
-> [in]配置属性表的父窗口句柄。
+> 实时配置属性表的父窗口的句柄。
     
  _ulFlags_
   
-> [in]位掩码的标志的控件显示的属性表。 可以设置以下标记：
+> 实时用于控制属性表的显示的标志的位掩码。 可以设置以下标志:
     
 UI_READONLY 
   
-> 建议的提供程序不应使用户能够更改配置属性。 此标志为只建议;可以忽略它。
+> 建议提供程序不应使用户能够更改配置属性。 此标志只是一个建议;可以忽略它。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 配置属性表显示成功。
+> 已成功显示配置属性表。
     
 MAPI_E_NO_SUPPORT 
   
-> 状态对象不支持此方法，由 STATUS_SETTINGS_DIALOG 标志**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中不存在。
+> status 对象不支持此方法, 正如**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中缺少 STATUS_SETTINGS_DIALOG 标志所指示的那样。
     
 ## <a name="remarks"></a>注解
 
-**IMAPIStatus::SettingsDialog**方法显示配置属性表。 所有服务提供商应都支持**留待**方法，但不是必需的。 服务提供商可以实现自己的属性表或使用支持对象的[IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md)方法中提供的实现。 **DoConfigPropsheet**生成读/写属性表。 
+**IMAPIStatus:: SettingsDialog**方法显示一个配置属性表。 所有服务提供程序都应支持**SettingsDialog**方法, 但这并不是必需的。 服务提供程序可以实现自己的属性表, 也可以使用支持对象的 IMAPISupport 中提供的实现[::D oconfigpropsheet](imapisupport-doconfigpropsheet.md)方法。 **DoConfigPropsheet**生成读/写属性表。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果远程传输提供程序的任何设置，它应执行以下操作：
+如果远程传输提供程序具有任何设置, 则应执行以下操作:
   
-- 打开传输提供程序的配置文件部分。
+- 打开传输提供程序的 "配置文件" 部分。
     
-- 获取从配置文件的传输提供程序的属性设置。
+- 从配置文件中获取传输提供程序的属性设置。
     
-- 在对话框中显示的属性设置。
+- 在对话框中显示属性设置。
     
-- 如果在对话框中，编辑属性设置的检查新的设置有效，并将它们存储返回在传输提供程序的配置文件部分。
+- 如果对话框允许编辑属性设置, 请检查新设置是否有效, 并将其重新存储在传输提供程序的配置文件部分中。
     
-- 返回 S_OK 或在前面步骤中返回的任何错误值。
+- 返回 S_OK 或在前面的步骤中返回的任何错误值。
     
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-属性表通过**留待**显示可用于执行各种任务，如下所示： 
+您可以使用通过**SettingsDialog**显示的属性表执行各种任务, 如以下操作: 
   
-- 指定默认邮件存储区。
+- 指定默认邮件存储。
     
 - 指定传输顺序。
     
-- 指定用于浏览默认通讯簿容器。
+- 指定用于浏览的默认通讯簿容器。
     
-- 指定搜索顺序解决不明确的名称。
+- 指定用于解析不明确名称的搜索顺序。
     
-- 指定默认个人通讯簿。
+- 指定默认的个人通讯簿。
     
-为读/写，只读的的属性表或混合的权限，具体取决于该属性，可以实现服务提供商。 服务提供商可以通过设置属性限制单个属性实现不同的权限。 属性表的默认模式是可读写。 您可以通过在您调用**留待**中设置 UI_READONLY 标志请求只读属性表。 能够实现只读属性页的服务提供商可以这样做。 但是，因为某些服务提供程序无法重写默认模式，您必须是准备处理任一类型的属性表。 
+服务提供程序可以实现可读写、只读或混合权限的属性表, 具体取决于属性。 服务提供程序可以通过设置属性限制对各个属性实现不同的权限。 属性表的默认模式为 "读/写"。 您可以通过在对**SettingsDialog**的调用中设置 UI_READONLY 标志来请求只读属性表。 能够实现只读属性表的服务提供程序可以执行此操作。 但是, 由于某些服务提供程序无法覆盖默认模式, 因此必须准备好处理任一类型的属性表。 
   
-由于始终在此操作中涉及的用户界面，则仅交互式客户端应调用**留待**。
+由于用户界面始终包含在此操作中, 因此只有交互客户端才应调用**SettingsDialog**。
   
 ## <a name="see-also"></a>另请参阅
 

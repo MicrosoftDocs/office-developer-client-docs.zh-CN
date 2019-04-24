@@ -7,28 +7,28 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f724cac8-2d5d-42bc-a15e-99f77a99ce21
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a32552343fa90dfbbb3571f50846976a5f5f5edd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 2944a53d27bc916ccafcfa649d79e3c00afaf622
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331239"
 ---
 # <a name="accessing-the-members-of-a-distribution-list"></a>访问通讯组列表的成员
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
- **若要获取的通讯组列表成员**
+ **获取通讯组列表的成员**
   
-1. 创建具有您想要检索，如**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))、 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 和**PR_DISPLAY_TYPE** ([的成员属性的大小的属性标记数组PidTagDisplayType](pidtagdisplaytype-canonical-property.md))。
+1. 使用要检索的成员的属性创建大小的属性标记数组, 如**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))、 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 和**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))。
     
-2. 调用[IAddrBook::OpenEntry](iaddrbook-openentry.md)打开通讯组列表。 
+2. 调用[IAddrBook:: OpenEntry](iaddrbook-openentry.md)以打开通讯组列表。 
     
-3. 调用该通讯组列表**IABContainer::GetContentsTable**方法，以访问其内容表。 
+3. 调用通讯组列表的**IABContainer:: GetContentsTable**方法以访问其内容表。 
     
-4. 调用[HrQueryAllRows](hrqueryallrows.md)检索所有表的行代表通讯组列表的成员。 
+4. 调用[HrQueryAllRows](hrqueryallrows.md)以检索表示通讯组列表成员的所有表的行。 
     
 

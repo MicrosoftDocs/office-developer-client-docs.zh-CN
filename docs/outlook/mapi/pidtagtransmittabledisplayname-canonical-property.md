@@ -13,11 +13,11 @@ api_type:
 ms.assetid: aadd9086-b936-4067-bf7d-f54fc50e3c83
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e66fe8d3621c122ccc19bdde169f20f7d47a148d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331855"
 ---
 # <a name="pidtagtransmittabledisplayname-canonical-property"></a>PidTagTransmittableDisplayName 规范属性
 
@@ -25,54 +25,54 @@ ms.locfileid: "25396881"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含不能更改安全窗体中的收件人的显示名称。
+在安全窗体中包含收件人的显示名称, 该名称不能更改。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_TRANSMITABLE_DISPLAY_NAME，PR_TRANSMITABLE_DISPLAY_NAME_A，PR_TRANSMITABLE_DISPLAY_NAME_W  <br/> |
-|标识符：  <br/> |0x3A20  <br/> |
-|数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
+|相关属性：  <br/> |PR_TRANSMITABLE_DISPLAY_NAME、PR_TRANSMITABLE_DISPLAY_NAME_A、PR_TRANSMITABLE_DISPLAY_NAME_W  <br/> |
+|标识符:  <br/> |0x3A20  <br/> |
+|数据类型：  <br/> |PT_UNICODE、PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-应通过所有通讯簿提供程序实现这些属性。 它们包含传输邮件的收件人的显示名称的版本。 对于大多数通讯簿提供程序这些属性具有相同的值的**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。 没有返回 PT_ERROR 和 MAPI 更改的显示名称通过添加引号将名称括起来的安全的显示名称的提供程序。
+这些属性应由所有通讯簿提供程序实现。 它们包含与邮件一起传输的收件人的显示名称的版本。 对于大多数通讯簿提供程序, 这些属性的值与**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性的值相同。 没有安全显示名称的提供程序返回 PT_ERROR, MAPI 通过在名称的两边添加引号来更改显示名称。
   
-客户端应用程序可以使用此属性，防止篡改或"假"的项。 欺骗的示例作为 (什么 Guy) John Doe 传输 John Doe。
+客户端应用程序可以使用此属性来防止对条目进行更改或 "欺骗"。 哄骗的一个示例是, 将 john Doe 视为 john (专家) doe。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和用户、 联系人、 组和资源的操作列表。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
-[[MS NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
+[[毫秒-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> 处理与名称服务提供程序界面 (NSPI) 服务器的客户端的通信。
+> 处理客户端与名称服务提供程序接口 (NSPI) 服务器的通信。
     
-[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理顺序和客户端和服务器之间的数据传输的流。
+> 处理客户端与服务器之间的数据传输的顺序和流。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

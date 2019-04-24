@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 23663cea49c50f3f584d6b06e331545320e8283b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f90cf661c069ecd476bd02c5719147633a8392e0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331526"
 ---
 # <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-提供有关 MAPI 子系统、 集成的通讯簿中，和 MAPI 后台处理程序的状态信息。 服务提供商实现**IMAPIStatus**可提供有关其自身的状态信息。 
+提供有关 mapi 子系统、集成的通讯簿和 MAPI 后台处理程序的状态信息。 服务提供程序实现**IMAPIStatus** , 以提供有关其自己的状态的信息。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|由公开：  <br/> |状态对象  <br/> |
-|通过实现：  <br/> |服务提供商和 MAPI  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
-|接口标识符：  <br/> |IID_IMAPIStatus  <br/> |
-|指针类型：  <br/> |LPMAPISTATUS  <br/> |
-|事务模型：  <br/> |Nontransacted  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|公开者:  <br/> |状态对象  <br/> |
+|实现者：  <br/> |服务提供商和 MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
+|接口标识符:  <br/> |IID_IMAPIStatus  <br/> |
+|指针类型:  <br/> |LPMAPISTATUS  <br/> |
+|事务模型:  <br/> |Nontransacted  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[ValidateState](imapistatus-validatestate.md) <br/> |确认可供 MAPI 资源或服务提供商的外部状态信息。  <br/> |
-|[留待](imapistatus-settingsdialog.md) <br/> |显示使用户能够更改服务提供商的配置的属性表。  <br/> |
-|[ChangePassword](imapistatus-changepassword.md) <br/> |不显示用户界面中修改服务提供商的密码。  <br/> |
-|[FlushQueues](imapistatus-flushqueues.md) <br/> |强制等待发送或接收立即上载或下载的所有邮件。  <br/> |
+|[ValidateState](imapistatus-validatestate.md) <br/> |确认可用于 MAPI 资源或服务提供商的外部状态信息。  <br/> |
+|[SettingsDialog](imapistatus-settingsdialog.md) <br/> |显示使用户能够更改服务提供程序的配置的属性表。  <br/> |
+|[ChangePassword](imapistatus-changepassword.md) <br/> |在不显示用户界面的情况下修改服务提供程序的密码。  <br/> |
+|[FlushQueues](imapistatus-flushqueues.md) <br/> |强制立即上载或下载所有等待发送或接收的邮件。  <br/> |
    
 |**必需属性**|**Access**|
 |:-----|:-----|
@@ -58,17 +58,17 @@ ms.locfileid: "22565380"
    
 ## <a name="remarks"></a>注解
 
-MAPI 实现的状态对象支持下列方法：
+MAPI 实现的 status 对象支持以下方法:
   
-|**状态对象**|**受支持的方法**|
+|**Status 对象**|**支持的方法**|
 |:-----|:-----|
 |MAPI 子系统  <br/> |仅**ValidateState**  <br/> |
 |MAPI 通讯簿  <br/> |仅**ValidateState**  <br/> |
 |MAPI 后台处理程序  <br/> |**ValidateState**和**FlushQueues** <br/> |
    
-MAPI 实现的状态对象所需具有[IMAPIProp](imapipropiunknown.md)接口的方法的只读版本和以支持**ValidateState**方法。 传输提供程序还应支持**FlushQueues**。 所有提供程序应支持**留待**;支持**ChangePassword**是可选的。 
+MAPI 实现的 status 对象必须具有[IMAPIProp](imapipropiunknown.md)接口的只读版本的方法, 并支持**ValidateState**方法。 传输提供程序还应支持**FlushQueues**。 所有提供程序都应支持**SettingsDialog**;对**ChangePassword**的支持是可选的。 
   
-客户端使用状态对象执行配置并了解会话的状态。 他们可以通过调用服务提供商登录对象的**OpenStatusEntry**方法或[IMAPISession::GetStatusTable](imapisession-getstatustable.md)方法来检索状态对象访问状态对象。 
+客户端使用 status 对象执行配置, 并了解会话的状态。 它们通过调用服务提供程序登录对象或[IMAPISession:: GetStatusTable](imapisession-getstatustable.md)方法的**OpenStatusEntry**方法来访问 status 对象, 以检索 status 对象。 
   
 ## <a name="see-also"></a>另请参阅
 

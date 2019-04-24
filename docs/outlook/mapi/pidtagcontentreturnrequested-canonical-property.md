@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: f86f7c59-42ab-4ac0-80fe-c985103e6bd6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9db28f282baf18ec983f6f51c989bacea4cf76f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c64288f393f15ee330065a43a92930f2e6f4e134
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331904"
 ---
 # <a name="pidtagcontentreturnrequested-canonical-property"></a>PidTagContentReturnRequested 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含 TRUE，则应与原件报告返回一条消息。 
+如果邮件应返回 nondelivery 报告, 则该参数包含 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTENT_RETURN_REQUESTED  <br/> |
-|标识符：  <br/> |0x000A  <br/> |
+|标识符:  <br/> |0x000A  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |Report  <br/> |
+|区域：  <br/> |报表  <br/> |
    
 ## <a name="remarks"></a>注解
 
-如果未设置此属性，MAPI 会将其视为 TRUE 值。 
+如果未设置此属性, 则 MAPI 会将其视为具有真正的值。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

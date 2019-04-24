@@ -7,20 +7,20 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c510b7a5-0f55-46af-bddb-40a8195a84d4
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a006c126ec5e0fb86847226195efd03f7ae5351f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: d58fc0eae5401773d28f5bbe510913ff381ade8d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331911"
 ---
 # <a name="attattachrenddata"></a>attAttachRenddata
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-**AttAttachRenddata**属性被编码为**RENDDATA**结构，描述如何和附件呈现消息文本中的位置。 **RENDDATA**结构是只需编码 TNEF 用于将 stream 中为**sizeof(RENDDATA)** 字节开头**RENDDATA**结构中的第一个成员。 如果**RENDDATA**结构的**dwFlags**成员的值设置为**MAC_BINARY**，以下附件的数据存储在 MacBinary 格式;否则，像往常一样编码附件数据。
+**attAttachRenddata**属性被编码为**RENDDATA**结构, 该结构描述了邮件文本中的附件呈现方式和位置。 **RENDDATA**结构简单地在 TNEF 流中编码为从**RENDDATA**结构的第一个成员开始的**sizeof (RENDDATA)** 字节。 如果**RENDDATA**结构的**dwFlags**成员的值设置为**MAC_BINARY**, 则以下附件的数据将存储为 MacBinary 格式;否则, 附件数据将按通常方式进行编码。
   
 
