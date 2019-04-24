@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 78fb610c5afc3cac4f6de84240f734e5ae196110
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 24461099877af683109c8627eacd22a657d6e156
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321383"
 ---
-# <a name="imapimessagesitegetfolder"></a><span data-ttu-id="ef602-103">IMAPIMessageSite::GetFolder</span><span class="sxs-lookup"><span data-stu-id="ef602-103">IMAPIMessageSite::GetFolder</span></span>
+# <a name="imapimessagesitegetfolder"></a><span data-ttu-id="5be9f-103">IMAPIMessageSite::GetFolder</span><span class="sxs-lookup"><span data-stu-id="5be9f-103">IMAPIMessageSite::GetFolder</span></span>
 
   
   
-<span data-ttu-id="ef602-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ef602-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5be9f-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5be9f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ef602-105">如果存在此类的文件夹，则返回已创建或打开，当前邮件文件夹。</span><span class="sxs-lookup"><span data-stu-id="ef602-105">Returns the folder in which the current message was created or opened, if such a folder exists.</span></span> <span data-ttu-id="ef602-106">此方法中嵌入的邮件，不直接在文件夹中存储的_ppFolder_参数返回 NULL。</span><span class="sxs-lookup"><span data-stu-id="ef602-106">This method returns NULL in the  _ppFolder_ parameter for embedded messages, which are not stored directly in a folder.</span></span> 
+<span data-ttu-id="5be9f-105">返回在其中创建或打开当前邮件的文件夹 (如果存在这样的文件夹)。</span><span class="sxs-lookup"><span data-stu-id="5be9f-105">Returns the folder in which the current message was created or opened, if such a folder exists.</span></span> <span data-ttu-id="5be9f-106">此方法在嵌入邮件的_ppFolder_参数中返回 NULL, 这些嵌入邮件不会直接存储在文件夹中。</span><span class="sxs-lookup"><span data-stu-id="5be9f-106">This method returns NULL in the  _ppFolder_ parameter for embedded messages, which are not stored directly in a folder.</span></span> 
   
 ```cpp
 HRESULT GetFolder(
@@ -33,42 +33,42 @@ HRESULT GetFolder(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ef602-107">参数</span><span class="sxs-lookup"><span data-stu-id="ef602-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5be9f-107">参数</span><span class="sxs-lookup"><span data-stu-id="5be9f-107">Parameters</span></span>
 
- <span data-ttu-id="ef602-108">_ppFolder_</span><span class="sxs-lookup"><span data-stu-id="ef602-108">_ppFolder_</span></span>
+ <span data-ttu-id="5be9f-108">_ppFolder_</span><span class="sxs-lookup"><span data-stu-id="5be9f-108">_ppFolder_</span></span>
   
-> <span data-ttu-id="ef602-109">[输出]指向返回文件夹指向的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="ef602-109">[out] A pointer to a pointer to the returned folder.</span></span>
+> <span data-ttu-id="5be9f-109">排除指向指向返回的文件夹的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="5be9f-109">[out] A pointer to a pointer to the returned folder.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ef602-110">返回值</span><span class="sxs-lookup"><span data-stu-id="ef602-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5be9f-110">返回值</span><span class="sxs-lookup"><span data-stu-id="5be9f-110">Return value</span></span>
 
-<span data-ttu-id="ef602-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="ef602-111">S_OK</span></span> 
+<span data-ttu-id="5be9f-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="5be9f-111">S_OK</span></span> 
   
-> <span data-ttu-id="ef602-112">呼叫成功或多个预期值返回。</span><span class="sxs-lookup"><span data-stu-id="ef602-112">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="5be9f-112">调用成功, 并返回了所需的值或值。</span><span class="sxs-lookup"><span data-stu-id="5be9f-112">The call succeeded and has returned the expected value or values.</span></span>
     
-<span data-ttu-id="ef602-113">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="ef602-113">S_FALSE</span></span> 
+<span data-ttu-id="5be9f-113">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="5be9f-113">S_FALSE</span></span> 
   
-> <span data-ttu-id="ef602-114">不存在文件夹的邮件。</span><span class="sxs-lookup"><span data-stu-id="ef602-114">No folder exists for the message.</span></span>
+> <span data-ttu-id="5be9f-114">邮件的文件夹不存在。</span><span class="sxs-lookup"><span data-stu-id="5be9f-114">No folder exists for the message.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="ef602-115">注解</span><span class="sxs-lookup"><span data-stu-id="ef602-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5be9f-115">注解</span><span class="sxs-lookup"><span data-stu-id="5be9f-115">Remarks</span></span>
 
-<span data-ttu-id="ef602-116">向窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。</span><span class="sxs-lookup"><span data-stu-id="ef602-116">For a list of interfaces that are related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
+<span data-ttu-id="5be9f-116">有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。</span><span class="sxs-lookup"><span data-stu-id="5be9f-116">For a list of interfaces that are related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="ef602-117">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="ef602-117">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="5be9f-117">MFCMAPI 引用</span><span class="sxs-lookup"><span data-stu-id="5be9f-117">MFCMAPI reference</span></span>
 
-<span data-ttu-id="ef602-118">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="ef602-118">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="5be9f-118">有关 MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="5be9f-118">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="ef602-119">**文件**</span><span class="sxs-lookup"><span data-stu-id="ef602-119">**File**</span></span>|<span data-ttu-id="ef602-120">**函数**</span><span class="sxs-lookup"><span data-stu-id="ef602-120">**Function**</span></span>|<span data-ttu-id="ef602-121">**Comment**</span><span class="sxs-lookup"><span data-stu-id="ef602-121">**Comment**</span></span>|
+|<span data-ttu-id="5be9f-119">**文件**</span><span class="sxs-lookup"><span data-stu-id="5be9f-119">**File**</span></span>|<span data-ttu-id="5be9f-120">**函数**</span><span class="sxs-lookup"><span data-stu-id="5be9f-120">**Function**</span></span>|<span data-ttu-id="5be9f-121">**备注**</span><span class="sxs-lookup"><span data-stu-id="5be9f-121">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="ef602-122">MyMAPIFormViewer.cpp</span><span class="sxs-lookup"><span data-stu-id="ef602-122">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="ef602-123">CMyMAPIFormViewer::GetFolder</span><span class="sxs-lookup"><span data-stu-id="ef602-123">CMyMAPIFormViewer::GetFolder</span></span>  <br/> |<span data-ttu-id="ef602-124">MFCMAPI 使用**IMAPIMessageSite::GetFolder**方法将当前缓存的指针返回到指定的文件夹。</span><span class="sxs-lookup"><span data-stu-id="ef602-124">MFCMAPI uses the **IMAPIMessageSite::GetFolder** method to return the currently cached pointer to the specified folder.</span></span>  <br/> |
+|<span data-ttu-id="5be9f-122">MyMAPIFormViewer</span><span class="sxs-lookup"><span data-stu-id="5be9f-122">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="5be9f-123">CMyMAPIFormViewer:: GetFolder</span><span class="sxs-lookup"><span data-stu-id="5be9f-123">CMyMAPIFormViewer::GetFolder</span></span>  <br/> |<span data-ttu-id="5be9f-124">MFCMAPI 使用**IMAPIMessageSite:: GetFolder**方法将当前缓存的指针返回到指定的文件夹。</span><span class="sxs-lookup"><span data-stu-id="5be9f-124">MFCMAPI uses the **IMAPIMessageSite::GetFolder** method to return the currently cached pointer to the specified folder.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="ef602-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ef602-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5be9f-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5be9f-125">See also</span></span>
 
 
 
-[<span data-ttu-id="ef602-126">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ef602-126">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
+[<span data-ttu-id="5be9f-126">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="5be9f-126">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
 
 
-[<span data-ttu-id="ef602-127">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="ef602-127">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="5be9f-127">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="5be9f-127">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="ef602-128">MAPI 表单接口</span><span class="sxs-lookup"><span data-stu-id="ef602-128">MAPI Form Interfaces</span></span>](mapi-form-interfaces.md)
+[<span data-ttu-id="5be9f-128">MAPI 表单接口</span><span class="sxs-lookup"><span data-stu-id="5be9f-128">MAPI Form Interfaces</span></span>](mapi-form-interfaces.md)
 

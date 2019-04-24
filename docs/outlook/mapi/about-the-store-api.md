@@ -1,77 +1,77 @@
 ---
-title: 关于存储区 API
+title: 关于存储 API
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 166a8e60-e09d-7473-b61b-35d78a863192
-description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: d72df30eab5fde4288b5feba1d7045da05117bde
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2012 年 6 月 25 日
+ms.openlocfilehash: fb9b0a4c8ac1a2f41a0fddcd746dba5fc4bae1a2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321747"
 ---
-# <a name="about-the-store-api"></a><span data-ttu-id="53990-103">关于存储区 API</span><span class="sxs-lookup"><span data-stu-id="53990-103">About the Store API</span></span>
+# <a name="about-the-store-api"></a><span data-ttu-id="1e16c-103">关于存储 API</span><span class="sxs-lookup"><span data-stu-id="1e16c-103">About the Store API</span></span>
 
   
   
-<span data-ttu-id="53990-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="53990-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1e16c-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1e16c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="53990-105">存储 API 提供了 miscellaneous 存储功能存储提供程序。</span><span class="sxs-lookup"><span data-stu-id="53990-105">The Store API provides miscellaneous store functionality to store providers.</span></span> <span data-ttu-id="53990-106">它提供了以下定义、 数据类型、 属性和接口。</span><span class="sxs-lookup"><span data-stu-id="53990-106">It provides the following defintions, data types, properties, and interfaces.</span></span>
+<span data-ttu-id="1e16c-105">store API 提供了各种存储提供程序的其他存储功能。</span><span class="sxs-lookup"><span data-stu-id="1e16c-105">The Store API provides miscellaneous store functionality to store providers.</span></span> <span data-ttu-id="1e16c-106">它提供以下 defintions、数据类型、属性和接口。</span><span class="sxs-lookup"><span data-stu-id="1e16c-106">It provides the following defintions, data types, properties, and interfaces.</span></span>
   
-<span data-ttu-id="53990-107">定义：</span><span class="sxs-lookup"><span data-stu-id="53990-107">Definitions:</span></span>
+<span data-ttu-id="1e16c-107">定义：</span><span class="sxs-lookup"><span data-stu-id="1e16c-107">Definitions:</span></span>
   
-- [<span data-ttu-id="53990-108">存储区 API 常量</span><span class="sxs-lookup"><span data-stu-id="53990-108">Constants for the Store API</span></span>](mapi-constants.md)
+- [<span data-ttu-id="1e16c-108">Store API 的常量</span><span class="sxs-lookup"><span data-stu-id="1e16c-108">Constants for the Store API</span></span>](mapi-constants.md)
     
-<span data-ttu-id="53990-109">数据类型：</span><span class="sxs-lookup"><span data-stu-id="53990-109">Data types:</span></span>
+<span data-ttu-id="1e16c-109">数据类型:</span><span class="sxs-lookup"><span data-stu-id="1e16c-109">Data types:</span></span>
   
-- <span data-ttu-id="53990-110">**[INDEX_SEARCH_PUSHER_PROCESS](index_search_pusher_process.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-110">**[INDEX_SEARCH_PUSHER_PROCESS](index_search_pusher_process.md)**</span></span>
+- <span data-ttu-id="1e16c-110">**[INDEX_SEARCH_PUSHER_PROCESS](index_search_pusher_process.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-110">**[INDEX_SEARCH_PUSHER_PROCESS](index_search_pusher_process.md)**</span></span>
     
-- <span data-ttu-id="53990-111">**[MSCAP_SELECTOR](mscap_selector.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-111">**[MSCAP_SELECTOR](mscap_selector.md)**</span></span>
+- <span data-ttu-id="1e16c-111">**[MSCAP_SELECTOR](mscap_selector.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-111">**[MSCAP_SELECTOR](mscap_selector.md)**</span></span>
     
-<span data-ttu-id="53990-112">命名的属性：</span><span class="sxs-lookup"><span data-stu-id="53990-112">Named Properties:</span></span>
+<span data-ttu-id="1e16c-112">命名属性:</span><span class="sxs-lookup"><span data-stu-id="1e16c-112">Named Properties:</span></span>
   
-- <span data-ttu-id="53990-113">**[ArchiveSourceSupportMask](archivesourcesupportmask.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-113">**[ArchiveSourceSupportMask](archivesourcesupportmask.md)**</span></span>
+- <span data-ttu-id="1e16c-113">**[ArchiveSourceSupportMask](archivesourcesupportmask.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-113">**[ArchiveSourceSupportMask](archivesourcesupportmask.md)**</span></span>
     
-- <span data-ttu-id="53990-114">**[CrawlSourceSupportMask](crawlsourcesupportmask.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-114">**[CrawlSourceSupportMask](crawlsourcesupportmask.md)**</span></span>
+- <span data-ttu-id="1e16c-114">**[CrawlSourceSupportMask](crawlsourcesupportmask.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-114">**[CrawlSourceSupportMask](crawlsourcesupportmask.md)**</span></span>
     
-- <span data-ttu-id="53990-115">**[显示服务器文件夹大小](display-server-folder-sizes-property.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-115">**[Display Server Folder Sizes](display-server-folder-sizes-property.md)**</span></span>
+- <span data-ttu-id="1e16c-115">**[显示服务器文件夹大小](display-server-folder-sizes-property.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-115">**[Display Server Folder Sizes](display-server-folder-sizes-property.md)**</span></span>
     
-- <span data-ttu-id="53990-116">**[隐藏会议更新选项](hide-meeting-update-option-property.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-116">**[Hide Meeting Update Option](hide-meeting-update-option-property.md)**</span></span>
+- <span data-ttu-id="1e16c-116">**[隐藏会议更新选项](hide-meeting-update-option-property.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-116">**[Hide Meeting Update Option](hide-meeting-update-option-property.md)**</span></span>
     
-- <span data-ttu-id="53990-117">**[使存储类型专用](make-store-type-private-property.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-117">**[Make Store Type Private](make-store-type-private-property.md)**</span></span>
+- <span data-ttu-id="1e16c-117">**[将商店类型设为私有](make-store-type-private-property.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-117">**[Make Store Type Private](make-store-type-private-property.md)**</span></span>
     
-- <span data-ttu-id="53990-118">**[NoFolderScan](nofolderscan.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-118">**[NoFolderScan](nofolderscan.md)**</span></span>
+- <span data-ttu-id="1e16c-118">**[NoFolderScan](nofolderscan.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-118">**[NoFolderScan](nofolderscan.md)**</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="53990-119">不需要的任何功能提供这些命名属性的存储提供程序可以简单地忽略它们并不在**IMAPIProp**接口中实现支持。</span><span class="sxs-lookup"><span data-stu-id="53990-119">Store providers that do not require any of the functionality offered by these named properties can simply ignore them and not implement support in the **IMAPIProp** interface.</span></span> <span data-ttu-id="53990-120">启动 Microsoft Outlook 2003 Service Pack 1 中提供了这些属性，因为将其添加到 Microsoft Outlook 的早期版本中存储不起作用。</span><span class="sxs-lookup"><span data-stu-id="53990-120">Because these properties are provided starting in Microsoft Outlook 2003 Service Pack 1, adding them to a store in an earlier version of Microsoft Outlook has no effect.</span></span> <span data-ttu-id="53990-121">如果不存在，或其值为**false**，则将忽略它们。</span><span class="sxs-lookup"><span data-stu-id="53990-121">They are ignored if they do not exist or if their value is **false**.</span></span> 
+> <span data-ttu-id="1e16c-119">不需要这些命名属性提供的任何功能的存储提供程序只需忽略它们, 而不能在**IMAPIProp**接口中实现支持。</span><span class="sxs-lookup"><span data-stu-id="1e16c-119">Store providers that do not require any of the functionality offered by these named properties can simply ignore them and not implement support in the **IMAPIProp** interface.</span></span> <span data-ttu-id="1e16c-120">由于这些属性是在 microsoft outlook 2003 Service Pack 1 中开始提供的, 因此在 microsoft outlook 的早期版本中将其添加到存储中不起作用。</span><span class="sxs-lookup"><span data-stu-id="1e16c-120">Because these properties are provided starting in Microsoft Outlook 2003 Service Pack 1, adding them to a store in an earlier version of Microsoft Outlook has no effect.</span></span> <span data-ttu-id="1e16c-121">如果它们不存在或其值为**false**, 则忽略它们。</span><span class="sxs-lookup"><span data-stu-id="1e16c-121">They are ignored if they do not exist or if their value is **false**.</span></span> 
   
-<span data-ttu-id="53990-122">属性：</span><span class="sxs-lookup"><span data-stu-id="53990-122">Properties:</span></span>
+<span data-ttu-id="1e16c-122">属性：</span><span class="sxs-lookup"><span data-stu-id="1e16c-122">Properties:</span></span>
   
-- <span data-ttu-id="53990-123">**[PR_ADDITIONAL_REN_ENTRYIDS](pidtagadditionalrenentryids-canonical-property.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-123">**[PR_ADDITIONAL_REN_ENTRYIDS](pidtagadditionalrenentryids-canonical-property.md)**</span></span>
+- <span data-ttu-id="1e16c-123">**[PR_ADDITIONAL_REN_ENTRYIDS](pidtagadditionalrenentryids-canonical-property.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-123">**[PR_ADDITIONAL_REN_ENTRYIDS](pidtagadditionalrenentryids-canonical-property.md)**</span></span>
     
-- <span data-ttu-id="53990-124">**[PR_PROVIDER_ITEMID](pidtagprovideritemid-canonical-property.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-124">**[PR_PROVIDER_ITEMID](pidtagprovideritemid-canonical-property.md)**</span></span>
+- <span data-ttu-id="1e16c-124">**[PR_PROVIDER_ITEMID](pidtagprovideritemid-canonical-property.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-124">**[PR_PROVIDER_ITEMID](pidtagprovideritemid-canonical-property.md)**</span></span>
     
-- <span data-ttu-id="53990-125">**[PR_PROVIDER_PARENT_ITEMID](pidtagproviderparentitemid-canonical-property.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-125">**[PR_PROVIDER_PARENT_ITEMID](pidtagproviderparentitemid-canonical-property.md)**</span></span>
+- <span data-ttu-id="1e16c-125">**[PR_PROVIDER_PARENT_ITEMID](pidtagproviderparentitemid-canonical-property.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-125">**[PR_PROVIDER_PARENT_ITEMID](pidtagproviderparentitemid-canonical-property.md)**</span></span>
     
-- <span data-ttu-id="53990-126">**[PR_SEARCH_OWNER_ID](pidtagsearchownerid-canonical-property.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-126">**[PR_SEARCH_OWNER_ID](pidtagsearchownerid-canonical-property.md)**</span></span>
+- <span data-ttu-id="1e16c-126">**[PR_SEARCH_OWNER_ID](pidtagsearchownerid-canonical-property.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-126">**[PR_SEARCH_OWNER_ID](pidtagsearchownerid-canonical-property.md)**</span></span>
     
-<span data-ttu-id="53990-127">接口：</span><span class="sxs-lookup"><span data-stu-id="53990-127">Interfaces:</span></span>
+<span data-ttu-id="1e16c-127">接口：</span><span class="sxs-lookup"><span data-stu-id="1e16c-127">Interfaces:</span></span>
   
-- <span data-ttu-id="53990-128">**[IFolderSupport](ifoldersupportiunknown.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-128">**[IFolderSupport](ifoldersupportiunknown.md)**</span></span>
+- <span data-ttu-id="1e16c-128">**[IFolderSupport](ifoldersupportiunknown.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-128">**[IFolderSupport](ifoldersupportiunknown.md)**</span></span>
     
-- <span data-ttu-id="53990-129">**[IMSCapabilities](imscapabilitiesiunknown.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-129">**[IMSCapabilities](imscapabilitiesiunknown.md)**</span></span>
+- <span data-ttu-id="1e16c-129">**[IMSCapabilities](imscapabilitiesiunknown.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-129">**[IMSCapabilities](imscapabilitiesiunknown.md)**</span></span>
     
-- <span data-ttu-id="53990-130">**[IProxyStoreObject](iproxystoreobject.md)**</span><span class="sxs-lookup"><span data-stu-id="53990-130">**[IProxyStoreObject](iproxystoreobject.md)**</span></span>
+- <span data-ttu-id="1e16c-130">**[IProxyStoreObject](iproxystoreobject.md)**</span><span class="sxs-lookup"><span data-stu-id="1e16c-130">**[IProxyStoreObject](iproxystoreobject.md)**</span></span>
     
-## <a name="registering-stores-for-indexing"></a><span data-ttu-id="53990-131">注册的索引的存储</span><span class="sxs-lookup"><span data-stu-id="53990-131">Registering Stores for Indexing</span></span>
+## <a name="registering-stores-for-indexing"></a><span data-ttu-id="1e16c-131">为索引注册存储</span><span class="sxs-lookup"><span data-stu-id="1e16c-131">Registering Stores for Indexing</span></span>
 
-<span data-ttu-id="53990-132">MAPI 协议处理程序检查 Windows 注册表中以便它应该索引搜索目的的存储。</span><span class="sxs-lookup"><span data-stu-id="53990-132">The MAPI Protocol Handler checks the Windows registry for stores that it should index for search purposes.</span></span> <span data-ttu-id="53990-133">想要编制索引的存储提供程序必须在 Windows 注册表中注册。</span><span class="sxs-lookup"><span data-stu-id="53990-133">Store providers that want to be indexed must be registered in the Windows registry.</span></span> <span data-ttu-id="53990-134">有关注册为进行索引在 Outlook 2013 或 Outlook 2010 中的存储提供程序的详细信息，请参阅[有关注册存储索引](about-registering-stores-for-indexing.md)。</span><span class="sxs-lookup"><span data-stu-id="53990-134">For more information about registering store providers for indexing in Outlook 2013 or Outlook 2010, see [About Registering Stores for Indexing](about-registering-stores-for-indexing.md).</span></span>
+<span data-ttu-id="1e16c-132">MAPI 协议处理程序将检查 Windows 注册表, 以查找它应为搜索而编制索引的存储。</span><span class="sxs-lookup"><span data-stu-id="1e16c-132">The MAPI Protocol Handler checks the Windows registry for stores that it should index for search purposes.</span></span> <span data-ttu-id="1e16c-133">必须在 Windows 注册表中注册要编制索引的存储提供程序。</span><span class="sxs-lookup"><span data-stu-id="1e16c-133">Store providers that want to be indexed must be registered in the Windows registry.</span></span> <span data-ttu-id="1e16c-134">有关在 outlook 2013 或 outlook 2010 中为编制索引注册存储提供程序的详细信息, 请参阅[关于注册索引存储区](about-registering-stores-for-indexing.md)。</span><span class="sxs-lookup"><span data-stu-id="1e16c-134">For more information about registering store providers for indexing in Outlook 2013 or Outlook 2010, see [About Registering Stores for Indexing](about-registering-stores-for-indexing.md).</span></span>
   
-## <a name="indexing-stores"></a><span data-ttu-id="53990-135">索引的存储区</span><span class="sxs-lookup"><span data-stu-id="53990-135">Indexing Stores</span></span>
+## <a name="indexing-stores"></a><span data-ttu-id="1e16c-135">索引存储</span><span class="sxs-lookup"><span data-stu-id="1e16c-135">Indexing Stores</span></span>
 
-<span data-ttu-id="53990-136">MAPI 存储提供程序可以选择允许 MAPI 协议处理程序在存储中的爬网和索引的邮件或将通知发送到索引器中，仅当邮件编制索引。</span><span class="sxs-lookup"><span data-stu-id="53990-136">MAPI store providers can choose to allow the MAPI Protocol Handler to crawl and index messages in the store, or send notifications to the indexer only when there are messages to be indexed.</span></span> <span data-ttu-id="53990-137">有关基于通知的索引的详细信息，请参阅[About Notification-Based 存储索引](about-notification-based-store-indexing.md)。</span><span class="sxs-lookup"><span data-stu-id="53990-137">For more information about notifications-based indexing, see [About Notification-Based Store Indexing](about-notification-based-store-indexing.md).</span></span>
+<span data-ttu-id="1e16c-136">mapi 存储提供程序可以选择允许 MAPI 协议处理程序对存储区中的邮件进行爬网和索引, 或仅当存在要编制索引的邮件时才将通知发送到索引器。</span><span class="sxs-lookup"><span data-stu-id="1e16c-136">MAPI store providers can choose to allow the MAPI Protocol Handler to crawl and index messages in the store, or send notifications to the indexer only when there are messages to be indexed.</span></span> <span data-ttu-id="1e16c-137">有关基于通知的索引的详细信息, 请参阅[关于基于通知的存储索引](about-notification-based-store-indexing.md)。</span><span class="sxs-lookup"><span data-stu-id="1e16c-137">For more information about notifications-based indexing, see [About Notification-Based Store Indexing](about-notification-based-store-indexing.md).</span></span>
   
 

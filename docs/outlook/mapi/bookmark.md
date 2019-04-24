@@ -1,5 +1,5 @@
 ---
-title: BOOKMARK
+title: 书签
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,60 +12,60 @@ api_type:
 - COM
 ms.assetid: 678bdc52-3404-48b2-9154-64ce2a941555
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: be41a9916b6b231d5715cf18fe2b0d804434f2ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 069cb41ceac70a2eaaa08440e43745605890f071
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318037"
 ---
-# <a name="bookmark"></a><span data-ttu-id="38574-103">BOOKMARK</span><span class="sxs-lookup"><span data-stu-id="38574-103">BOOKMARK</span></span>
+# <a name="bookmark"></a><span data-ttu-id="8cab2-103">书签</span><span class="sxs-lookup"><span data-stu-id="8cab2-103">BOOKMARK</span></span>
 
   
   
-<span data-ttu-id="38574-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="38574-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8cab2-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8cab2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="38574-105">定义书签数据记住表中的位置。</span><span class="sxs-lookup"><span data-stu-id="38574-105">Defines bookmarks data for remembering a position in a table.</span></span> 
+<span data-ttu-id="8cab2-105">定义用于记住表中某个位置的书签数据。</span><span class="sxs-lookup"><span data-stu-id="8cab2-105">Defines bookmarks data for remembering a position in a table.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="38574-106">头文件：</span><span class="sxs-lookup"><span data-stu-id="38574-106">Header file:</span></span>  <br/> |<span data-ttu-id="38574-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="38574-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="38574-108">相关的方法：</span><span class="sxs-lookup"><span data-stu-id="38574-108">Related methods:</span></span>  <br/> |<span data-ttu-id="38574-109">[IMAPITable::CreateBookmark](imapitable-createbookmark.md)[IMAPITable::FreeBookmark](imapitable-freebookmark.md)</span><span class="sxs-lookup"><span data-stu-id="38574-109">[IMAPITable::CreateBookmark](imapitable-createbookmark.md)[IMAPITable::FreeBookmark](imapitable-freebookmark.md)</span></span> <br/> |
+|<span data-ttu-id="8cab2-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="8cab2-106">Header file:</span></span>  <br/> |<span data-ttu-id="8cab2-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="8cab2-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="8cab2-108">相关方法:</span><span class="sxs-lookup"><span data-stu-id="8cab2-108">Related methods:</span></span>  <br/> |<span data-ttu-id="8cab2-109">[IMAPITable:: CreateBookmark](imapitable-createbookmark.md)[IMAPITable:: FreeBookmark](imapitable-freebookmark.md)</span><span class="sxs-lookup"><span data-stu-id="8cab2-109">[IMAPITable::CreateBookmark](imapitable-createbookmark.md)[IMAPITable::FreeBookmark](imapitable-freebookmark.md)</span></span> <br/> |
    
 ```cpp
 typedef ULONG_PTR BOOKMARK;
 ```
 
-## <a name="remarks"></a><span data-ttu-id="38574-110">注解</span><span class="sxs-lookup"><span data-stu-id="38574-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8cab2-110">注解</span><span class="sxs-lookup"><span data-stu-id="8cab2-110">Remarks</span></span>
 
-<span data-ttu-id="38574-111">MAPI 定义三个书签，列出，如下所示：</span><span class="sxs-lookup"><span data-stu-id="38574-111">MAPI defines three bookmarks, listed as follows:</span></span>
+<span data-ttu-id="8cab2-111">MAPI 定义了三个书签, 如下所示:</span><span class="sxs-lookup"><span data-stu-id="8cab2-111">MAPI defines three bookmarks, listed as follows:</span></span>
   
-<span data-ttu-id="38574-112">BOOKMARK_BEGINNING</span><span class="sxs-lookup"><span data-stu-id="38574-112">BOOKMARK_BEGINNING</span></span> 
+<span data-ttu-id="8cab2-112">BOOKMARK_BEGINNING</span><span class="sxs-lookup"><span data-stu-id="8cab2-112">BOOKMARK_BEGINNING</span></span> 
   
-> <span data-ttu-id="38574-113">记住表的起始位置。</span><span class="sxs-lookup"><span data-stu-id="38574-113">Remembers the starting position of the table.</span></span> 
+> <span data-ttu-id="8cab2-113">记住表的起始位置。</span><span class="sxs-lookup"><span data-stu-id="8cab2-113">Remembers the starting position of the table.</span></span> 
     
-<span data-ttu-id="38574-114">BOOKMARK_CURRENT</span><span class="sxs-lookup"><span data-stu-id="38574-114">BOOKMARK_CURRENT</span></span> 
+<span data-ttu-id="8cab2-114">BOOKMARK_CURRENT</span><span class="sxs-lookup"><span data-stu-id="8cab2-114">BOOKMARK_CURRENT</span></span> 
   
-> <span data-ttu-id="38574-115">记住表的当前位置。</span><span class="sxs-lookup"><span data-stu-id="38574-115">Remembers the current position of the table.</span></span>
+> <span data-ttu-id="8cab2-115">记住表的当前位置。</span><span class="sxs-lookup"><span data-stu-id="8cab2-115">Remembers the current position of the table.</span></span>
     
-<span data-ttu-id="38574-116">BOOKMARK_END</span><span class="sxs-lookup"><span data-stu-id="38574-116">BOOKMARK_END</span></span> 
+<span data-ttu-id="8cab2-116">BOOKMARK_END</span><span class="sxs-lookup"><span data-stu-id="8cab2-116">BOOKMARK_END</span></span> 
   
-> <span data-ttu-id="38574-117">记住表的结束位置。</span><span class="sxs-lookup"><span data-stu-id="38574-117">Remembers the ending position of the table.</span></span>
+> <span data-ttu-id="8cab2-117">记住表的结束位置。</span><span class="sxs-lookup"><span data-stu-id="8cab2-117">Remembers the ending position of the table.</span></span>
     
-<span data-ttu-id="38574-118">客户端可以创建其他书签记忆其他表的位置。</span><span class="sxs-lookup"><span data-stu-id="38574-118">Clients can create other bookmarks for remembering other table positions.</span></span> <span data-ttu-id="38574-119">书签是仅当打开表时才有效。</span><span class="sxs-lookup"><span data-stu-id="38574-119">Bookmarks are valid only when the table is open.</span></span> <span data-ttu-id="38574-120">客户端必须释放他们关闭关联的表之前创建的所有书签。</span><span class="sxs-lookup"><span data-stu-id="38574-120">Clients must free any bookmarks that they have created before closing the associated table.</span></span> 
+<span data-ttu-id="8cab2-118">客户端可以创建其他书签来记住其他表位置。</span><span class="sxs-lookup"><span data-stu-id="8cab2-118">Clients can create other bookmarks for remembering other table positions.</span></span> <span data-ttu-id="8cab2-119">书签仅在表打开时有效。</span><span class="sxs-lookup"><span data-stu-id="8cab2-119">Bookmarks are valid only when the table is open.</span></span> <span data-ttu-id="8cab2-120">客户端必须释放已创建的任何书签, 然后再关闭相关联的表。</span><span class="sxs-lookup"><span data-stu-id="8cab2-120">Clients must free any bookmarks that they have created before closing the associated table.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="38574-121">另请参阅</span><span class="sxs-lookup"><span data-stu-id="38574-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8cab2-121">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8cab2-121">See also</span></span>
 
 
 
-[<span data-ttu-id="38574-122">IMAPITable::CreateBookmark</span><span class="sxs-lookup"><span data-stu-id="38574-122">IMAPITable::CreateBookmark</span></span>](imapitable-createbookmark.md)
+[<span data-ttu-id="8cab2-122">IMAPITable::CreateBookmark</span><span class="sxs-lookup"><span data-stu-id="8cab2-122">IMAPITable::CreateBookmark</span></span>](imapitable-createbookmark.md)
   
-[<span data-ttu-id="38574-123">IMAPITable::FindRow</span><span class="sxs-lookup"><span data-stu-id="38574-123">IMAPITable::FindRow</span></span>](imapitable-findrow.md)
+[<span data-ttu-id="8cab2-123">IMAPITable::FindRow</span><span class="sxs-lookup"><span data-stu-id="8cab2-123">IMAPITable::FindRow</span></span>](imapitable-findrow.md)
   
-[<span data-ttu-id="38574-124">IMAPITable::FreeBookmark</span><span class="sxs-lookup"><span data-stu-id="38574-124">IMAPITable::FreeBookmark</span></span>](imapitable-freebookmark.md)
+[<span data-ttu-id="8cab2-124">IMAPITable::FreeBookmark</span><span class="sxs-lookup"><span data-stu-id="8cab2-124">IMAPITable::FreeBookmark</span></span>](imapitable-freebookmark.md)
   
-[<span data-ttu-id="38574-125">IMAPITable::SeekRow</span><span class="sxs-lookup"><span data-stu-id="38574-125">IMAPITable::SeekRow</span></span>](imapitable-seekrow.md)
+[<span data-ttu-id="8cab2-125">IMAPITable::SeekRow</span><span class="sxs-lookup"><span data-stu-id="8cab2-125">IMAPITable::SeekRow</span></span>](imapitable-seekrow.md)
 
 
-[<span data-ttu-id="38574-126">MAPI 数据类型</span><span class="sxs-lookup"><span data-stu-id="38574-126">MAPI Data Types</span></span>](mapi-data-types.md)
+[<span data-ttu-id="8cab2-126">MAPI 数据类型</span><span class="sxs-lookup"><span data-stu-id="8cab2-126">MAPI Data Types</span></span>](mapi-data-types.md)
 

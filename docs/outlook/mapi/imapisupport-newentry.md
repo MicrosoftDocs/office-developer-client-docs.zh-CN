@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 588d002b-8412-4ab9-9757-04ad89e0a6f8
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d978b7a6bd8af9a505fa025aef2e5da68308468f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 3468e4a92787e440f230d60ab31f37526fe7d5e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316639"
 ---
-# <a name="imapisupportnewentry"></a><span data-ttu-id="f08e5-103">IMAPISupport::NewEntry</span><span class="sxs-lookup"><span data-stu-id="f08e5-103">IMAPISupport::NewEntry</span></span>
+# <a name="imapisupportnewentry"></a><span data-ttu-id="52243-103">IMAPISupport::NewEntry</span><span class="sxs-lookup"><span data-stu-id="52243-103">IMAPISupport::NewEntry</span></span>
 
   
   
-<span data-ttu-id="f08e5-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f08e5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="52243-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="52243-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f08e5-105">直接到通讯簿容器或传出邮件的收件人列表中添加一个新收件人。</span><span class="sxs-lookup"><span data-stu-id="f08e5-105">Adds a new recipient directly to an address book container or to the recipient list of an outgoing message.</span></span>
+<span data-ttu-id="52243-105">将新的收件人直接添加到通讯簿容器或传出邮件的收件人列表中。</span><span class="sxs-lookup"><span data-stu-id="52243-105">Adds a new recipient directly to an address book container or to the recipient list of an outgoing message.</span></span>
   
 ```cpp
 HRESULT NewEntry(
@@ -40,79 +40,79 @@ HRESULT NewEntry(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f08e5-106">参数</span><span class="sxs-lookup"><span data-stu-id="f08e5-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="52243-106">参数</span><span class="sxs-lookup"><span data-stu-id="52243-106">Parameters</span></span>
 
- <span data-ttu-id="f08e5-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="f08e5-107">_ulUIParam_</span></span>
+ <span data-ttu-id="52243-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="52243-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="f08e5-108">[in]对话框中的父窗口的句柄。</span><span class="sxs-lookup"><span data-stu-id="f08e5-108">[in] A handle to the parent window of the dialog box.</span></span>
+> <span data-ttu-id="52243-108">实时对话框的父窗口的句柄。</span><span class="sxs-lookup"><span data-stu-id="52243-108">[in] A handle to the parent window of the dialog box.</span></span>
     
- <span data-ttu-id="f08e5-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="f08e5-109">_ulFlags_</span></span>
+ <span data-ttu-id="52243-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="52243-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="f08e5-110">[in]保留;必须为零。</span><span class="sxs-lookup"><span data-stu-id="f08e5-110">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="52243-110">实时保留必须为零。</span><span class="sxs-lookup"><span data-stu-id="52243-110">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="f08e5-111">_cbEIDContainer_</span><span class="sxs-lookup"><span data-stu-id="f08e5-111">_cbEIDContainer_</span></span>
+ <span data-ttu-id="52243-111">_cbEIDContainer_</span><span class="sxs-lookup"><span data-stu-id="52243-111">_cbEIDContainer_</span></span>
   
-> <span data-ttu-id="f08e5-112">[in]在_lpEIDContainer_参数指向的项标识符的字节数。</span><span class="sxs-lookup"><span data-stu-id="f08e5-112">[in] The byte count in the entry identifier pointed to by the  _lpEIDContainer_ parameter.</span></span> 
+> <span data-ttu-id="52243-112">实时条目标识符中由_lpEIDContainer_参数指向的字节数。</span><span class="sxs-lookup"><span data-stu-id="52243-112">[in] The byte count in the entry identifier pointed to by the  _lpEIDContainer_ parameter.</span></span> 
     
- <span data-ttu-id="f08e5-113">_lpEIDContainer_</span><span class="sxs-lookup"><span data-stu-id="f08e5-113">_lpEIDContainer_</span></span>
+ <span data-ttu-id="52243-113">_lpEIDContainer_</span><span class="sxs-lookup"><span data-stu-id="52243-113">_lpEIDContainer_</span></span>
   
-> <span data-ttu-id="f08e5-114">[in]指向容器接收新条目的项标识符的指针。</span><span class="sxs-lookup"><span data-stu-id="f08e5-114">[in] A pointer to the entry identifier of the container to receive the new entry.</span></span> <span data-ttu-id="f08e5-115">如果_cbEIDContainer_为 0，那么_lpEIDContainer_为 NULL， **NewEntry**创建是相同的类型，如调用[IMAPISupport::CreateOneOff](imapisupport-createoneoff.md)方法生成一个一次性条目标识符。</span><span class="sxs-lookup"><span data-stu-id="f08e5-115">If  _cbEIDContainer_ is 0 and  _lpEIDContainer_ is NULL, **NewEntry** creates a one-off entry identifier that is the same type as is generated by a call to the [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md) method.</span></span> 
+> <span data-ttu-id="52243-114">实时指向接收新条目的容器的条目标识符的指针。</span><span class="sxs-lookup"><span data-stu-id="52243-114">[in] A pointer to the entry identifier of the container to receive the new entry.</span></span> <span data-ttu-id="52243-115">如果_cbEIDContainer_为 0, 并且_lpEIDContainer_为 NULL, 则**NewEntry**将创建一个与调用[IMAPISupport:: CreateOneOff](imapisupport-createoneoff.md)方法时生成的一次性条目标识符。</span><span class="sxs-lookup"><span data-stu-id="52243-115">If  _cbEIDContainer_ is 0 and  _lpEIDContainer_ is NULL, **NewEntry** creates a one-off entry identifier that is the same type as is generated by a call to the [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md) method.</span></span> 
     
- <span data-ttu-id="f08e5-116">_cbEIDNewEntryTpl_</span><span class="sxs-lookup"><span data-stu-id="f08e5-116">_cbEIDNewEntryTpl_</span></span>
+ <span data-ttu-id="52243-116">_cbEIDNewEntryTpl_</span><span class="sxs-lookup"><span data-stu-id="52243-116">_cbEIDNewEntryTpl_</span></span>
   
-> <span data-ttu-id="f08e5-117">[in]在_lpEIDNewEntryTpl_参数指向的项标识符的字节数。</span><span class="sxs-lookup"><span data-stu-id="f08e5-117">[in] The byte count in the entry identifier pointed to by the  _lpEIDNewEntryTpl_ parameter.</span></span> 
+> <span data-ttu-id="52243-117">实时条目标识符中由_lpEIDNewEntryTpl_参数指向的字节数。</span><span class="sxs-lookup"><span data-stu-id="52243-117">[in] The byte count in the entry identifier pointed to by the  _lpEIDNewEntryTpl_ parameter.</span></span> 
     
- <span data-ttu-id="f08e5-118">_lpEIDNewEntryTpl_</span><span class="sxs-lookup"><span data-stu-id="f08e5-118">_lpEIDNewEntryTpl_</span></span>
+ <span data-ttu-id="52243-118">_lpEIDNewEntryTpl_</span><span class="sxs-lookup"><span data-stu-id="52243-118">_lpEIDNewEntryTpl_</span></span>
   
-> <span data-ttu-id="f08e5-119">[in]指向要用于创建新项的模板的项标识符的指针。</span><span class="sxs-lookup"><span data-stu-id="f08e5-119">[in] A pointer to the entry identifier of the template to be used to create the new entry.</span></span> <span data-ttu-id="f08e5-120">如果_cbEIDNewEntryTpl_为 0，那么_lpEIDNewEntryTpl_为 NULL，则**NewEntry**显示一个对话框，使用户能够从模板用于添加新条目的列表中选择。</span><span class="sxs-lookup"><span data-stu-id="f08e5-120">If  _cbEIDNewEntryTpl_ is 0 and  _lpEIDNewEntryTpl_ is NULL, **NewEntry** displays a dialog box that enables the user to select from a list of templates for adding new entries.</span></span> 
+> <span data-ttu-id="52243-119">实时指向要用于创建新条目的模板的条目标识符的指针。</span><span class="sxs-lookup"><span data-stu-id="52243-119">[in] A pointer to the entry identifier of the template to be used to create the new entry.</span></span> <span data-ttu-id="52243-120">如果_cbEIDNewEntryTpl_为 0, 并且_lpEIDNewEntryTpl_为 NULL, 则**NewEntry**将显示一个对话框, 使用户可以从用于添加新条目的模板列表中进行选择。</span><span class="sxs-lookup"><span data-stu-id="52243-120">If  _cbEIDNewEntryTpl_ is 0 and  _lpEIDNewEntryTpl_ is NULL, **NewEntry** displays a dialog box that enables the user to select from a list of templates for adding new entries.</span></span> 
     
- <span data-ttu-id="f08e5-121">_lpcbEIDNewEntry_</span><span class="sxs-lookup"><span data-stu-id="f08e5-121">_lpcbEIDNewEntry_</span></span>
+ <span data-ttu-id="52243-121">_lpcbEIDNewEntry_</span><span class="sxs-lookup"><span data-stu-id="52243-121">_lpcbEIDNewEntry_</span></span>
   
-> <span data-ttu-id="f08e5-122">[输出]一个指向_lppEIDNewEntry_参数指向该条目标识符中的字节数。</span><span class="sxs-lookup"><span data-stu-id="f08e5-122">[out] A pointer to the byte count in the entry identifier pointed to by the  _lppEIDNewEntry_ parameter.</span></span> 
+> <span data-ttu-id="52243-122">排除指向条目标识符中由_lppEIDNewEntry_参数指向的字节计数的指针。</span><span class="sxs-lookup"><span data-stu-id="52243-122">[out] A pointer to the byte count in the entry identifier pointed to by the  _lppEIDNewEntry_ parameter.</span></span> 
     
- <span data-ttu-id="f08e5-123">_lppEIDNewEntry_</span><span class="sxs-lookup"><span data-stu-id="f08e5-123">_lppEIDNewEntry_</span></span>
+ <span data-ttu-id="52243-123">_lppEIDNewEntry_</span><span class="sxs-lookup"><span data-stu-id="52243-123">_lppEIDNewEntry_</span></span>
   
-> <span data-ttu-id="f08e5-124">[输出]指向新创建的项的项标识符的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="f08e5-124">[out] A pointer to a pointer to the entry identifier of the newly created entry.</span></span>
+> <span data-ttu-id="52243-124">排除指向新创建条目的条目标识符的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="52243-124">[out] A pointer to a pointer to the entry identifier of the newly created entry.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f08e5-125">返回值</span><span class="sxs-lookup"><span data-stu-id="f08e5-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="52243-125">返回值</span><span class="sxs-lookup"><span data-stu-id="52243-125">Return value</span></span>
 
-<span data-ttu-id="f08e5-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="f08e5-126">S_OK</span></span> 
+<span data-ttu-id="52243-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="52243-126">S_OK</span></span> 
   
-> <span data-ttu-id="f08e5-127">已成功创建新条目。</span><span class="sxs-lookup"><span data-stu-id="f08e5-127">The new entry was successfully created.</span></span>
+> <span data-ttu-id="52243-127">已成功创建新条目。</span><span class="sxs-lookup"><span data-stu-id="52243-127">The new entry was successfully created.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="f08e5-128">注解</span><span class="sxs-lookup"><span data-stu-id="f08e5-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="52243-128">注解</span><span class="sxs-lookup"><span data-stu-id="52243-128">Remarks</span></span>
 
-<span data-ttu-id="f08e5-129">对于通讯簿提供程序支持对象实现**IMAPISupport::NewEntry**方法。</span><span class="sxs-lookup"><span data-stu-id="f08e5-129">The **IMAPISupport::NewEntry** method is implemented for address book provider support objects.</span></span> <span data-ttu-id="f08e5-130">通讯簿提供程序调用**NewEntry**创建新的通讯簿条目，直接将容器添加或要用于传出邮件地址。</span><span class="sxs-lookup"><span data-stu-id="f08e5-130">Address book providers call **NewEntry** to create a new address book entry to be added directly into a container or to be used to address an outgoing message.</span></span> 
+<span data-ttu-id="52243-129">为通讯簿提供程序支持对象实现了**IMAPISupport:: NewEntry**方法。</span><span class="sxs-lookup"><span data-stu-id="52243-129">The **IMAPISupport::NewEntry** method is implemented for address book provider support objects.</span></span> <span data-ttu-id="52243-130">通讯簿提供程序调用**NewEntry**以创建要直接添加到容器中的新通讯簿条目, 或用于处理传出邮件。</span><span class="sxs-lookup"><span data-stu-id="52243-130">Address book providers call **NewEntry** to create a new address book entry to be added directly into a container or to be used to address an outgoing message.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="f08e5-131">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="f08e5-131">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="52243-131">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="52243-131">Notes to callers</span></span>
 
-<span data-ttu-id="f08e5-132">如果您希望新条目添加到特定的容器，设置为容器的项标识符和_cbEIDContainer_中的项标识符的字节数为_lpEIDContainer_ 。</span><span class="sxs-lookup"><span data-stu-id="f08e5-132">If you want the new entry to be added to a specific container, set  _lpEIDContainer_ to the container's entry identifier and  _cbEIDContainer_ to the byte count in the entry identifier.</span></span> 
+<span data-ttu-id="52243-132">如果要将新项添加到特定容器, 请将_lpEIDContainer_的条目标识符和_cbEIDContainer_设置为条目标识符中的字节数。</span><span class="sxs-lookup"><span data-stu-id="52243-132">If you want the new entry to be added to a specific container, set  _lpEIDContainer_ to the container's entry identifier and  _cbEIDContainer_ to the byte count in the entry identifier.</span></span> 
   
-<span data-ttu-id="f08e5-133">如果您希望添加到的传出邮件的收件人列表的新项，设置为空，并且为 0 _cbEIDContainer_ _lpEIDContainer_ 。</span><span class="sxs-lookup"><span data-stu-id="f08e5-133">If you want the new entry to be added to the recipient list of an outgoing message, set  _lpEIDContainer_ to NULL and  _cbEIDContainer_ to 0.</span></span> 
+<span data-ttu-id="52243-133">如果要将新条目添加到传出邮件的收件人列表中, 请将_lpEIDContainer_设置为 NULL, 并将_cbEIDContainer_设置为0。</span><span class="sxs-lookup"><span data-stu-id="52243-133">If you want the new entry to be added to the recipient list of an outgoing message, set  _lpEIDContainer_ to NULL and  _cbEIDContainer_ to 0.</span></span> 
   
-<span data-ttu-id="f08e5-134">如果您想要允许客户端应用程序选择项的类型的用户创建，传递 0 _cbEIDNewEntryTpl_和_lpEIDNewEntryTpl_中的 NULL。</span><span class="sxs-lookup"><span data-stu-id="f08e5-134">If you want to allow the user of a client application to select the type of entry to be created, pass 0 in  _cbEIDNewEntryTpl_ and NULL in  _lpEIDNewEntryTpl_.</span></span> <span data-ttu-id="f08e5-135">**NewEntry**显示 MAPI 一次性表，MAPI 和每个会话中的地址簿提供程序支持的模板的列表。</span><span class="sxs-lookup"><span data-stu-id="f08e5-135">**NewEntry** displays the MAPI one-off table, a list of templates that MAPI and each of the address book providers in the session support.</span></span> <span data-ttu-id="f08e5-136">每个模板可以创建一个或多个地址类型的收件人条目。</span><span class="sxs-lookup"><span data-stu-id="f08e5-136">Each template can create a recipient entry for one or more address types.</span></span> 
+<span data-ttu-id="52243-134">如果要允许客户端应用程序的用户选择要创建的条目的类型, 请在_cbEIDNewEntryTpl_中传递 0, 在_lpEIDNewEntryTpl_中为 NULL。</span><span class="sxs-lookup"><span data-stu-id="52243-134">If you want to allow the user of a client application to select the type of entry to be created, pass 0 in  _cbEIDNewEntryTpl_ and NULL in  _lpEIDNewEntryTpl_.</span></span> <span data-ttu-id="52243-135">**NewEntry**显示 mapi 一次性表, 即 mapi 和会话支持中的每个通讯簿提供程序的模板列表。</span><span class="sxs-lookup"><span data-stu-id="52243-135">**NewEntry** displays the MAPI one-off table, a list of templates that MAPI and each of the address book providers in the session support.</span></span> <span data-ttu-id="52243-136">每个模板都可以为一个或多个地址类型创建收件人条目。</span><span class="sxs-lookup"><span data-stu-id="52243-136">Each template can create a recipient entry for one or more address types.</span></span> 
   
-<span data-ttu-id="f08e5-137">如果您想要保留的新条目的项标识符，在_lpcbEIDNewEntry_和_lppEIDNewEntry_参数中传递有效的指针。</span><span class="sxs-lookup"><span data-stu-id="f08e5-137">If you want to retain the entry identifier of the new entry, pass valid pointers in the  _lpcbEIDNewEntry_ and  _lppEIDNewEntry_ parameters.</span></span> <span data-ttu-id="f08e5-138">您负责完与其通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数释放此条目标识符。</span><span class="sxs-lookup"><span data-stu-id="f08e5-138">You are responsible for freeing this entry identifier when you are finished with it by calling the [MAPIFreeBuffer](mapifreebuffer.md) function.</span></span> 
+<span data-ttu-id="52243-137">如果要保留新条目的条目标识符, 请在_lpcbEIDNewEntry_和_lppEIDNewEntry_参数中传递有效的指针。</span><span class="sxs-lookup"><span data-stu-id="52243-137">If you want to retain the entry identifier of the new entry, pass valid pointers in the  _lpcbEIDNewEntry_ and  _lppEIDNewEntry_ parameters.</span></span> <span data-ttu-id="52243-138">通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数, 您负责在完成此条目标识符后释放此条目标识符。</span><span class="sxs-lookup"><span data-stu-id="52243-138">You are responsible for freeing this entry identifier when you are finished with it by calling the [MAPIFreeBuffer](mapifreebuffer.md) function.</span></span> 
   
-<span data-ttu-id="f08e5-139">若要使用特定模板可修改容器中添加一个新项，请使用以下过程：</span><span class="sxs-lookup"><span data-stu-id="f08e5-139">To use a particular template to add a new entry to a modifiable container, use the following procedure:</span></span>
+<span data-ttu-id="52243-139">若要使用特定模板将新条目添加到可修改容器中, 请使用以下过程:</span><span class="sxs-lookup"><span data-stu-id="52243-139">To use a particular template to add a new entry to a modifiable container, use the following procedure:</span></span>
   
-1. <span data-ttu-id="f08e5-140">调用[IMAPISupport::OpenEntry](imapisupport-openentry.md)方法以打开目标容器中，并将_lpEntryID_参数设置为容器的项标识符。</span><span class="sxs-lookup"><span data-stu-id="f08e5-140">Call the [IMAPISupport::OpenEntry](imapisupport-openentry.md) method to open the destination container, and set the  _lpEntryID_ parameter to the entry identifier of the container.</span></span> 
+1. <span data-ttu-id="52243-140">调用[IMAPISupport:: OpenEntry](imapisupport-openentry.md)方法打开目标容器, 并将_lpEntryID_参数设置为容器的条目标识符。</span><span class="sxs-lookup"><span data-stu-id="52243-140">Call the [IMAPISupport::OpenEntry](imapisupport-openentry.md) method to open the destination container, and set the  _lpEntryID_ parameter to the entry identifier of the container.</span></span> 
     
-2. <span data-ttu-id="f08e5-141">调用目标容器[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法，并将**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) _ulPropTag_参数和_lpiid_参数设置为 IID_IMAPITable。</span><span class="sxs-lookup"><span data-stu-id="f08e5-141">Call the destination container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method, and set the  _ulPropTag_ parameter to **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) and the  _lpiid_ parameter to IID_IMAPITable.</span></span> <span data-ttu-id="f08e5-142">容器将返回一次性表，其中列出的所有模板它支持创建新条目。</span><span class="sxs-lookup"><span data-stu-id="f08e5-142">The container will return a one-off table that lists all of the templates that it supports for creating new entries.</span></span> 
+2. <span data-ttu-id="52243-141">调用目标容器的[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法, 并将_ulPropTag_参数设置为**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)), 并将_lpiid_参数设置为 IID_IMAPITable。</span><span class="sxs-lookup"><span data-stu-id="52243-141">Call the destination container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method, and set the  _ulPropTag_ parameter to **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) and the  _lpiid_ parameter to IID_IMAPITable.</span></span> <span data-ttu-id="52243-142">容器将返回一个一次性表格, 其中列出了创建新条目所支持的所有模板。</span><span class="sxs-lookup"><span data-stu-id="52243-142">The container will return a one-off table that lists all of the templates that it supports for creating new entries.</span></span> 
     
-3. <span data-ttu-id="f08e5-143">检索表示您想要创建的项的特定类型的模板的行。</span><span class="sxs-lookup"><span data-stu-id="f08e5-143">Retrieve the row that represents the template for the particular type of entry you want to create.</span></span> <span data-ttu-id="f08e5-144">**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) 列指示由模板支持的地址类型。</span><span class="sxs-lookup"><span data-stu-id="f08e5-144">The **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) column indicates the address type that is supported by the template.</span></span> 
+3. <span data-ttu-id="52243-143">检索表示要创建的特定类型的条目的模板的行。</span><span class="sxs-lookup"><span data-stu-id="52243-143">Retrieve the row that represents the template for the particular type of entry you want to create.</span></span> <span data-ttu-id="52243-144">" **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))" 列指示模板支持的地址类型。</span><span class="sxs-lookup"><span data-stu-id="52243-144">The **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) column indicates the address type that is supported by the template.</span></span> 
     
-4. <span data-ttu-id="f08e5-145">调用**IMAPISupport::NewEntry**并_lpEIDNewEntryTpl_参数设置为所选模板的项标识符。</span><span class="sxs-lookup"><span data-stu-id="f08e5-145">Call **IMAPISupport::NewEntry** and set the  _lpEIDNewEntryTpl_ parameter to the entry identifier of the selected template.</span></span> <span data-ttu-id="f08e5-146">项标识符是一次性的表中的模板的行中的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 列。</span><span class="sxs-lookup"><span data-stu-id="f08e5-146">The entry identifier is the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) column from the template's row in the one-off table.</span></span> <span data-ttu-id="f08e5-147">传递 0 _cbEIDContainer_和_lpEIDContainer_中的 NULL。</span><span class="sxs-lookup"><span data-stu-id="f08e5-147">Pass 0 in  _cbEIDContainer_ and NULL in  _lpEIDContainer_.</span></span> <span data-ttu-id="f08e5-148">如果您想要保留的新条目的项标识符，请在_lppEIDNewEntry_参数中传递一个有效的指针。</span><span class="sxs-lookup"><span data-stu-id="f08e5-148">Pass a valid pointer in the  _lppEIDNewEntry_ parameter if you want to retain the new entry's entry identifier.</span></span> 
+4. <span data-ttu-id="52243-145">调用**IMAPISupport:: NewEntry**并将_lpEIDNewEntryTpl_参数设置为选定模板的条目标识符。</span><span class="sxs-lookup"><span data-stu-id="52243-145">Call **IMAPISupport::NewEntry** and set the  _lpEIDNewEntryTpl_ parameter to the entry identifier of the selected template.</span></span> <span data-ttu-id="52243-146">条目标识符是来自一次性表中的模板行的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 列。</span><span class="sxs-lookup"><span data-stu-id="52243-146">The entry identifier is the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) column from the template's row in the one-off table.</span></span> <span data-ttu-id="52243-147">在_lpEIDContainer_中传递_cbEIDContainer_中的0和 NULL。</span><span class="sxs-lookup"><span data-stu-id="52243-147">Pass 0 in  _cbEIDContainer_ and NULL in  _lpEIDContainer_.</span></span> <span data-ttu-id="52243-148">如果要保留新条目的条目标识符, 请在_lppEIDNewEntry_参数中传递有效的指针。</span><span class="sxs-lookup"><span data-stu-id="52243-148">Pass a valid pointer in the  _lppEIDNewEntry_ parameter if you want to retain the new entry's entry identifier.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="f08e5-149">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f08e5-149">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="52243-149">另请参阅</span><span class="sxs-lookup"><span data-stu-id="52243-149">See also</span></span>
 
 
 
-[<span data-ttu-id="f08e5-150">IMAPIProp::OpenProperty</span><span class="sxs-lookup"><span data-stu-id="f08e5-150">IMAPIProp::OpenProperty</span></span>](imapiprop-openproperty.md)
+[<span data-ttu-id="52243-150">IMAPIProp::OpenProperty</span><span class="sxs-lookup"><span data-stu-id="52243-150">IMAPIProp::OpenProperty</span></span>](imapiprop-openproperty.md)
   
-[<span data-ttu-id="f08e5-151">IMAPISupport::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="f08e5-151">IMAPISupport::OpenEntry</span></span>](imapisupport-openentry.md)
+[<span data-ttu-id="52243-151">IMAPISupport::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="52243-151">IMAPISupport::OpenEntry</span></span>](imapisupport-openentry.md)
   
-[<span data-ttu-id="f08e5-152">PidTagCreateTemplates 规范属性</span><span class="sxs-lookup"><span data-stu-id="f08e5-152">PidTagCreateTemplates Canonical Property</span></span>](pidtagcreatetemplates-canonical-property.md)
+[<span data-ttu-id="52243-152">PidTagCreateTemplates 规范属性</span><span class="sxs-lookup"><span data-stu-id="52243-152">PidTagCreateTemplates Canonical Property</span></span>](pidtagcreatetemplates-canonical-property.md)
   
-[<span data-ttu-id="f08e5-153">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f08e5-153">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="52243-153">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="52243-153">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 

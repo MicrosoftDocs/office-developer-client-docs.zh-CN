@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4664df83-cf81-36d4-189d-4a09be371638
-description: 此数据类型变量包含的一个属性，它是 variant 数据类型的值。
-ms.openlocfilehash: c85af4bd4fefffb4fadf671bb7cf5b7f072d5e95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 此数据类型的变量包含一个 variant 数据类型的属性值。
+ms.openlocfilehash: 124cfaef40e63d60e2e9c6681884bfb57a043dde
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316917"
 ---
-# <a name="acctvariant"></a><span data-ttu-id="f62a0-103">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="f62a0-103">ACCT_VARIANT</span></span>
+# <a name="acctvariant"></a><span data-ttu-id="cb981-103">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="cb981-103">ACCT_VARIANT</span></span>
 
-<span data-ttu-id="f62a0-104">此数据类型变量包含的一个属性，它是 variant 数据类型的值。</span><span class="sxs-lookup"><span data-stu-id="f62a0-104">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>
+<span data-ttu-id="cb981-104">此数据类型的变量包含一个 variant 数据类型的属性值。</span><span class="sxs-lookup"><span data-stu-id="cb981-104">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="f62a0-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="f62a0-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="cb981-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="cb981-105">Quick info</span></span>
 
 ```cpp
 typedef struct 
@@ -34,28 +34,28 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="f62a0-106">Members</span><span class="sxs-lookup"><span data-stu-id="f62a0-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="cb981-106">成员</span><span class="sxs-lookup"><span data-stu-id="cb981-106">Members</span></span>
 
-<span data-ttu-id="f62a0-107">_dwType_</span><span class="sxs-lookup"><span data-stu-id="f62a0-107">_dwType_</span></span>
+<span data-ttu-id="cb981-107">_dwType_</span><span class="sxs-lookup"><span data-stu-id="cb981-107">_dwType_</span></span>
   
-> <span data-ttu-id="f62a0-108">Variant 类型：</span><span class="sxs-lookup"><span data-stu-id="f62a0-108">Type of variant:</span></span>
+> <span data-ttu-id="cb981-108">变量类型:</span><span class="sxs-lookup"><span data-stu-id="cb981-108">Type of variant:</span></span>
     
-    - <span data-ttu-id="f62a0-109">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="f62a0-109">PT_LONG</span></span>
+    - <span data-ttu-id="cb981-109">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="cb981-109">PT_LONG</span></span>
     
-    - <span data-ttu-id="f62a0-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="f62a0-110">PT_UNICODE</span></span>
+    - <span data-ttu-id="cb981-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="cb981-110">PT_UNICODE</span></span>
     
-    - <span data-ttu-id="f62a0-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="f62a0-111">PT_BINARY</span></span>
+    - <span data-ttu-id="cb981-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="cb981-111">PT_BINARY</span></span>
     
-<span data-ttu-id="f62a0-112">_数据仓库_</span><span class="sxs-lookup"><span data-stu-id="f62a0-112">_dw_</span></span>
+<span data-ttu-id="cb981-112">_仓库_</span><span class="sxs-lookup"><span data-stu-id="cb981-112">_dw_</span></span>
   
-> <span data-ttu-id="f62a0-113">Variant 的 DWORD 值。</span><span class="sxs-lookup"><span data-stu-id="f62a0-113">DWORD value of variant.</span></span>
+> <span data-ttu-id="cb981-113">variant 的 DWORD 值。</span><span class="sxs-lookup"><span data-stu-id="cb981-113">DWORD value of variant.</span></span>
     
-<span data-ttu-id="f62a0-114">_pwsz_</span><span class="sxs-lookup"><span data-stu-id="f62a0-114">_pwsz_</span></span>
+<span data-ttu-id="cb981-114">_pwsz_</span><span class="sxs-lookup"><span data-stu-id="cb981-114">_pwsz_</span></span>
   
-> <span data-ttu-id="f62a0-115">Variant 类型的值的字符串值。</span><span class="sxs-lookup"><span data-stu-id="f62a0-115">String value of variant.</span></span>
+> <span data-ttu-id="cb981-115">variant 的字符串值。</span><span class="sxs-lookup"><span data-stu-id="cb981-115">String value of variant.</span></span>
     
-<span data-ttu-id="f62a0-116">_回收站_</span><span class="sxs-lookup"><span data-stu-id="f62a0-116">_bin_</span></span>
+<span data-ttu-id="cb981-116">_区间_</span><span class="sxs-lookup"><span data-stu-id="cb981-116">_bin_</span></span>
   
-> <span data-ttu-id="f62a0-117">二进制值的 variant。</span><span class="sxs-lookup"><span data-stu-id="f62a0-117">Binary value of the variant.</span></span>
+> <span data-ttu-id="cb981-117">变量的二进制值。</span><span class="sxs-lookup"><span data-stu-id="cb981-117">Binary value of the variant.</span></span>
     
 

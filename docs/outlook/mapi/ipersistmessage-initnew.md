@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4bf37c35-4f72-438a-912c-402f3711a5ea
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 9f70b178e7c30e1cdf94b485c77f80374113211c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317148"
 ---
-# <a name="ipersistmessageinitnew"></a><span data-ttu-id="1d394-103">IPersistMessage::InitNew</span><span class="sxs-lookup"><span data-stu-id="1d394-103">IPersistMessage::InitNew</span></span>
+# <a name="ipersistmessageinitnew"></a><span data-ttu-id="3299f-103">IPersistMessage::InitNew</span><span class="sxs-lookup"><span data-stu-id="3299f-103">IPersistMessage::InitNew</span></span>
 
   
   
-<span data-ttu-id="1d394-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1d394-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3299f-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3299f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1d394-105">初始化新邮件。</span><span class="sxs-lookup"><span data-stu-id="1d394-105">Initializes a new message.</span></span>
+<span data-ttu-id="3299f-105">初始化新邮件。</span><span class="sxs-lookup"><span data-stu-id="3299f-105">Initializes a new message.</span></span>
   
 ```cpp
 HRESULT InitNew(
@@ -34,63 +34,63 @@ HRESULT InitNew(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1d394-106">参数</span><span class="sxs-lookup"><span data-stu-id="1d394-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3299f-106">参数</span><span class="sxs-lookup"><span data-stu-id="3299f-106">Parameters</span></span>
 
- <span data-ttu-id="1d394-107">_pMessageSite_</span><span class="sxs-lookup"><span data-stu-id="1d394-107">_pMessageSite_</span></span>
+ <span data-ttu-id="3299f-107">_pMessageSite_</span><span class="sxs-lookup"><span data-stu-id="3299f-107">_pMessageSite_</span></span>
   
-> <span data-ttu-id="1d394-108">[in]表单将用于处理查看器中邮件消息站点链接。</span><span class="sxs-lookup"><span data-stu-id="1d394-108">[in] A pointer to the message site that the form will use to work with the message in the viewer.</span></span>
+> <span data-ttu-id="3299f-108">实时一个指针, 指向表单将用于处理查看器中的邮件的邮件网站。</span><span class="sxs-lookup"><span data-stu-id="3299f-108">[in] A pointer to the message site that the form will use to work with the message in the viewer.</span></span>
     
- <span data-ttu-id="1d394-109">_pMessage_</span><span class="sxs-lookup"><span data-stu-id="1d394-109">_pMessage_</span></span>
+ <span data-ttu-id="3299f-109">_pMessage_</span><span class="sxs-lookup"><span data-stu-id="3299f-109">_pMessage_</span></span>
   
-> <span data-ttu-id="1d394-110">[in]一个指向新邮件。</span><span class="sxs-lookup"><span data-stu-id="1d394-110">[in] A pointer to the new message.</span></span>
+> <span data-ttu-id="3299f-110">实时指向新邮件的指针。</span><span class="sxs-lookup"><span data-stu-id="3299f-110">[in] A pointer to the new message.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="1d394-111">返回值</span><span class="sxs-lookup"><span data-stu-id="1d394-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3299f-111">返回值</span><span class="sxs-lookup"><span data-stu-id="3299f-111">Return value</span></span>
 
-<span data-ttu-id="1d394-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="1d394-112">S_OK</span></span> 
+<span data-ttu-id="3299f-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="3299f-112">S_OK</span></span> 
   
-> <span data-ttu-id="1d394-113">已成功初始化新邮件。</span><span class="sxs-lookup"><span data-stu-id="1d394-113">The new message was successfully initialized.</span></span>
+> <span data-ttu-id="3299f-113">已成功初始化新邮件。</span><span class="sxs-lookup"><span data-stu-id="3299f-113">The new message was successfully initialized.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="1d394-114">说明</span><span class="sxs-lookup"><span data-stu-id="1d394-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3299f-114">注解</span><span class="sxs-lookup"><span data-stu-id="3299f-114">Remarks</span></span>
 
-<span data-ttu-id="1d394-115">当用户写入属于窗体处理邮件类的新消息时，表单查看器调用**IPersistMessage::InitNew**方法。</span><span class="sxs-lookup"><span data-stu-id="1d394-115">Form viewers call the **IPersistMessage::InitNew** method when the user writes a new message that belongs to a message class that the form handles.</span></span> <span data-ttu-id="1d394-116">如果窗体对象具有一个有效的用户界面指针，应显示的消息对象的用户界面。</span><span class="sxs-lookup"><span data-stu-id="1d394-116">If the form object has a valid user interface pointer, the user interface for the message object should be displayed.</span></span> 
+<span data-ttu-id="3299f-115">表单查看者在用户写入属于表单所处理的邮件类的新邮件时, 调用**IPersistMessage:: InitNew**方法。</span><span class="sxs-lookup"><span data-stu-id="3299f-115">Form viewers call the **IPersistMessage::InitNew** method when the user writes a new message that belongs to a message class that the form handles.</span></span> <span data-ttu-id="3299f-116">如果 form 对象具有有效的用户界面指针, 则应显示 message 对象的用户界面。</span><span class="sxs-lookup"><span data-stu-id="3299f-116">If the form object has a valid user interface pointer, the user interface for the message object should be displayed.</span></span> 
   
- <span data-ttu-id="1d394-117">仅当表单处于[未初始化](uninitialized-state.md)状态以外的所有状态时，不应调用**丢失**。</span><span class="sxs-lookup"><span data-stu-id="1d394-117">**InitNew** should not be called when your form is in any state except the [Uninitialized](uninitialized-state.md) state.</span></span> <span data-ttu-id="1d394-118">如果表单没有其他状态之一，调用**丢失**时，返回 E_UNEXPECTED。</span><span class="sxs-lookup"><span data-stu-id="1d394-118">If the form is in one of the other states when **InitNew** is called, return E_UNEXPECTED.</span></span> 
+ <span data-ttu-id="3299f-117">当窗体处于[未初始化](uninitialized-state.md)状态之外的任何状态时, 不应调用**InitNew** 。</span><span class="sxs-lookup"><span data-stu-id="3299f-117">**InitNew** should not be called when your form is in any state except the [Uninitialized](uninitialized-state.md) state.</span></span> <span data-ttu-id="3299f-118">如果在调用**InitNew**时窗体处于其他状态之一, 则返回 E_UNEXPECTED。</span><span class="sxs-lookup"><span data-stu-id="3299f-118">If the form is in one of the other states when **InitNew** is called, return E_UNEXPECTED.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="1d394-119">针对实现者的说明</span><span class="sxs-lookup"><span data-stu-id="1d394-119">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="3299f-119">针对实现者的说明</span><span class="sxs-lookup"><span data-stu-id="3299f-119">Notes to implementers</span></span>
 
-<span data-ttu-id="1d394-120">通常情况下，有未保存的属性的邮件被标记为修改，以便客户端可以显示一个对话框，提示用户是否应该保存这些属性。</span><span class="sxs-lookup"><span data-stu-id="1d394-120">Typically, messages that have unsaved properties are marked as modified so that the client can display a dialog box that prompts the user whether these properties should be saved.</span></span> <span data-ttu-id="1d394-121">如果用户指示应保存一条消息，保存数据、 邮件标记为干净，并正常退出。</span><span class="sxs-lookup"><span data-stu-id="1d394-121">If the user indicates that a message should be saved, save the data, mark the message as clean, and exit normally.</span></span>
+<span data-ttu-id="3299f-120">通常情况下, 具有未保存属性的邮件将被标记为已修改, 以便客户端可以显示一个对话框, 提示用户是否应保存这些属性。</span><span class="sxs-lookup"><span data-stu-id="3299f-120">Typically, messages that have unsaved properties are marked as modified so that the client can display a dialog box that prompts the user whether these properties should be saved.</span></span> <span data-ttu-id="3299f-121">如果用户指示应保存某封邮件, 请保存数据, 将邮件标记为 "干净", 并正常退出。</span><span class="sxs-lookup"><span data-stu-id="3299f-121">If the user indicates that a message should be saved, save the data, mark the message as clean, and exit normally.</span></span>
   
-<span data-ttu-id="1d394-122">但是，如果新初始化邮件处理包括设置其中一个或多计算属性，并且一点很重要保存这些属性，不要将邮件标记为已修改。</span><span class="sxs-lookup"><span data-stu-id="1d394-122">However, if processing for your newly initialized messages includes setting one or more computed properties, and it is important for those properties to be saved, do not mark the messages as modified.</span></span> <span data-ttu-id="1d394-123">因为计算属性应为对用户不可见，应不显示任何对话框。</span><span class="sxs-lookup"><span data-stu-id="1d394-123">Because computed properties should be invisible to users, no dialog box should be displayed.</span></span>
+<span data-ttu-id="3299f-122">但是, 如果处理新初始化的邮件包括设置一个或多个计算属性, 并且要保存这些属性, 请不要将邮件标记为 "已修改"。</span><span class="sxs-lookup"><span data-stu-id="3299f-122">However, if processing for your newly initialized messages includes setting one or more computed properties, and it is important for those properties to be saved, do not mark the messages as modified.</span></span> <span data-ttu-id="3299f-123">由于计算属性对用户是不可见的, 因此不应显示任何对话框。</span><span class="sxs-lookup"><span data-stu-id="3299f-123">Because computed properties should be invisible to users, no dialog box should be displayed.</span></span>
   
-<span data-ttu-id="1d394-124">如果窗体有一个引用传递到**丢失**以外的活动邮件网站，释放原始网站，因为不再使用它。</span><span class="sxs-lookup"><span data-stu-id="1d394-124">If your form has a reference to an active message site other than the one that is passed into **InitNew**, release the original site because it will no longer be used.</span></span> <span data-ttu-id="1d394-125">存储从_pMessageSite_和_pMessage_参数的消息网站和消息的指针和调用这两个对象的[IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法，以增加其引用计数。</span><span class="sxs-lookup"><span data-stu-id="1d394-125">Store the pointers to the message site and message from the  _pMessageSite_ and  _pMessage_ parameters and call both objects' [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) methods to increment their reference counts.</span></span> 
+<span data-ttu-id="3299f-124">如果您的表单具有对传递到**InitNew**中的活动邮件网站的引用, 请释放原始网站, 因为它将不再使用。</span><span class="sxs-lookup"><span data-stu-id="3299f-124">If your form has a reference to an active message site other than the one that is passed into **InitNew**, release the original site because it will no longer be used.</span></span> <span data-ttu-id="3299f-125">将指针存储到邮件网站和来自_pMessageSite_和_pMessage_参数的消息, 并调用两个对象的[IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法以增加其引用计数。</span><span class="sxs-lookup"><span data-stu-id="3299f-125">Store the pointers to the message site and message from the  _pMessageSite_ and  _pMessage_ parameters and call both objects' [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) methods to increment their reference counts.</span></span> 
   
-<span data-ttu-id="1d394-126">设置为适合于您的邮件类的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 和新邮件的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性。</span><span class="sxs-lookup"><span data-stu-id="1d394-126">Set the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) and **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) properties for the new message to something appropriate for your message class.</span></span> <span data-ttu-id="1d394-127">多个邮件类别，例如，设置**PR_MESSAGE_FLAGS**为 MSGFLAG_UNSENT 新邮件。</span><span class="sxs-lookup"><span data-stu-id="1d394-127">Many message classes, for example, set **PR_MESSAGE_FLAGS** to MSGFLAG_UNSENT for new messages.</span></span> 
+<span data-ttu-id="3299f-126">将新邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 和**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性设置为适合您的邮件类的内容。</span><span class="sxs-lookup"><span data-stu-id="3299f-126">Set the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) and **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) properties for the new message to something appropriate for your message class.</span></span> <span data-ttu-id="3299f-127">例如, 许多邮件类将**PR_MESSAGE_FLAGS**设置为 MSGFLAG_UNSENT, 以查找新邮件。</span><span class="sxs-lookup"><span data-stu-id="3299f-127">Many message classes, for example, set **PR_MESSAGE_FLAGS** to MSGFLAG_UNSENT for new messages.</span></span> 
   
-<span data-ttu-id="1d394-128">返回之前, 出现转换为[普通](normal-state.md)状态，如果没有错误窗体。</span><span class="sxs-lookup"><span data-stu-id="1d394-128">Before returning, transition the form to the [Normal](normal-state.md) state if no errors have occurred.</span></span> <span data-ttu-id="1d394-129">通过调用其[IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md)方法向所有已注册的查看者发送新邮件通知，并返回 S_OK。</span><span class="sxs-lookup"><span data-stu-id="1d394-129">Send a new message notification to all registered viewers by calling their [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) methods and return S_OK.</span></span> 
+<span data-ttu-id="3299f-128">返回之前, 如果没有出现任何错误, 则将窗体转换为[正常](normal-state.md)状态。</span><span class="sxs-lookup"><span data-stu-id="3299f-128">Before returning, transition the form to the [Normal](normal-state.md) state if no errors have occurred.</span></span> <span data-ttu-id="3299f-129">通过调用[IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md)方法并返回 S_OK, 向所有注册的查看器发送新的邮件通知。</span><span class="sxs-lookup"><span data-stu-id="3299f-129">Send a new message notification to all registered viewers by calling their [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) methods and return S_OK.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="1d394-130">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="1d394-130">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="3299f-130">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="3299f-130">Notes to callers</span></span>
 
-<span data-ttu-id="1d394-131">所做的**丢失**成功调用后，可以假定以下必需的属性，或任何其他已设置的表单：</span><span class="sxs-lookup"><span data-stu-id="1d394-131">After you have made a successful call to **InitNew**, you can assume that the following required properties, and no others, have been set for the form:</span></span>
+<span data-ttu-id="3299f-131">成功调用**InitNew**后, 可以假定已为表单设置了以下必需属性, 而不是其他属性:</span><span class="sxs-lookup"><span data-stu-id="3299f-131">After you have made a successful call to **InitNew**, you can assume that the following required properties, and no others, have been set for the form:</span></span>
   
- <span data-ttu-id="1d394-132">**PR_DELETE_AFTER_SUBMIT**([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="1d394-132">**PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))</span></span>
+ <span data-ttu-id="3299f-132">**PR_DELETE_AFTER_SUBMIT**([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="3299f-132">**PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))</span></span>
   
- <span data-ttu-id="1d394-133">**PR_IMPORTANCE**([PidTagImportance](pidtagimportance-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="1d394-133">**PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md))</span></span>
+ <span data-ttu-id="3299f-133">**PR_IMPORTANCE**([PidTagImportance](pidtagimportance-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="3299f-133">**PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md))</span></span>
   
- <span data-ttu-id="1d394-134">**邮件已被阅读**([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="1d394-134">**PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md))</span></span>
+ <span data-ttu-id="3299f-134">**PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED**([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="3299f-134">**PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md))</span></span>
   
- <span data-ttu-id="1d394-135">**PR_PRIORITY**([PidTagPriority](pidtagpriority-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="1d394-135">**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))</span></span>
+ <span data-ttu-id="3299f-135">**PR_PRIORITY**([PidTagPriority](pidtagpriority-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="3299f-135">**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))</span></span>
   
- <span data-ttu-id="1d394-136">**PR_READ_RECEIPT_REQUESTED**([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="1d394-136">**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md))</span></span>
+ <span data-ttu-id="3299f-136">**PR_READ_RECEIPT_REQUESTED**([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="3299f-136">**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md))</span></span>
   
- <span data-ttu-id="1d394-137">**PR_SENSITIVITY**([PidTagSensitivity](pidtagsensitivity-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="1d394-137">**PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))</span></span>
+ <span data-ttu-id="3299f-137">**PR_SENSITIVITY**([PidTagSensitivity](pidtagsensitivity-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="3299f-137">**PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))</span></span>
   
- <span data-ttu-id="1d394-138">**PR_SENTMAIL_ENTRYID**([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="1d394-138">**PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))</span></span>
+ <span data-ttu-id="3299f-138">**PR_SENTMAIL_ENTRYID**([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="3299f-138">**PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))</span></span>
   
-<span data-ttu-id="1d394-139">有关窗体的状态的详细信息，请参阅[窗体状态](form-states.md)。</span><span class="sxs-lookup"><span data-stu-id="1d394-139">For more information about the states of forms, see [Form States](form-states.md).</span></span> <span data-ttu-id="1d394-140">有关如何初始化存储对象的详细信息，请参阅[IPersistStorage::InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx)方法。</span><span class="sxs-lookup"><span data-stu-id="1d394-140">For more information about how storage objects are initialized, see the [IPersistStorage::InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) method.</span></span> 
+<span data-ttu-id="3299f-139">有关窗体状态的详细信息, 请参阅[表单状态](form-states.md)。</span><span class="sxs-lookup"><span data-stu-id="3299f-139">For more information about the states of forms, see [Form States](form-states.md).</span></span> <span data-ttu-id="3299f-140">有关如何初始化存储对象的详细信息, 请参阅[IPersistStorage:: InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx)方法。</span><span class="sxs-lookup"><span data-stu-id="3299f-140">For more information about how storage objects are initialized, see the [IPersistStorage::InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) method.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="1d394-141">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1d394-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3299f-141">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3299f-141">See also</span></span>
 
 
 
-[<span data-ttu-id="1d394-142">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1d394-142">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
+[<span data-ttu-id="3299f-142">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3299f-142">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
 

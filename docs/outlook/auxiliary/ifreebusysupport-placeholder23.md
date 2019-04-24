@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7d35a1d0-2267-86d9-2bf4-b3f95b3693e1
-description: 此成员是一个占位符，不支持。
-ms.openlocfilehash: c2bf3135e8a6b6f90a4f71017016d6cba2eedea9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 此成员是占位符, 不受支持。
+ms.openlocfilehash: f4a3fc0950bc92f62ca724baf6f88cea68f753e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319381"
 ---
-# <a name="ifreebusysupportplaceholder23"></a><span data-ttu-id="178b0-103">IFreeBusySupport::Placeholder23</span><span class="sxs-lookup"><span data-stu-id="178b0-103">IFreeBusySupport::Placeholder23</span></span>
+# <a name="ifreebusysupportplaceholder23"></a><span data-ttu-id="b2a1a-103">IFreeBusySupport::Placeholder23</span><span class="sxs-lookup"><span data-stu-id="b2a1a-103">IFreeBusySupport::Placeholder23</span></span>
 
-<span data-ttu-id="178b0-104">此成员是一个占位符，不支持。</span><span class="sxs-lookup"><span data-stu-id="178b0-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="b2a1a-104">此成员是占位符, 不受支持。</span><span class="sxs-lookup"><span data-stu-id="b2a1a-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="178b0-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="178b0-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="b2a1a-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="b2a1a-105">Quick info</span></span>
 
-<span data-ttu-id="178b0-106">请参阅[IFreeBusySupport](ifreebusysupport.md)。</span><span class="sxs-lookup"><span data-stu-id="178b0-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
+<span data-ttu-id="b2a1a-106">请参阅[IFreeBusySupport](ifreebusysupport.md)。</span><span class="sxs-lookup"><span data-stu-id="b2a1a-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
   
 ```cpp
 HRESULT Placeholder23( 
@@ -32,16 +32,16 @@ HRESULT Placeholder23(
 );
 ```
 
-## <a name="return-values"></a><span data-ttu-id="178b0-107">返回值</span><span class="sxs-lookup"><span data-stu-id="178b0-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="b2a1a-107">返回值</span><span class="sxs-lookup"><span data-stu-id="b2a1a-107">Return values</span></span>
 
-<span data-ttu-id="178b0-108">始终 E_NOTIMPL，因为此成员是一个占位符，并且不受支持。</span><span class="sxs-lookup"><span data-stu-id="178b0-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="b2a1a-108">始终 E_NOTIMPL, 因为此成员是占位符, 不受支持。</span><span class="sxs-lookup"><span data-stu-id="b2a1a-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="178b0-109">说明</span><span class="sxs-lookup"><span data-stu-id="178b0-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b2a1a-109">注解</span><span class="sxs-lookup"><span data-stu-id="b2a1a-109">Remarks</span></span>
 
-<span data-ttu-id="178b0-110">此成员必须返回 E_NOTIMPL。</span><span class="sxs-lookup"><span data-stu-id="178b0-110">This member must return E_NOTIMPL.</span></span>
+<span data-ttu-id="b2a1a-110">此成员必须返回 E_NOTIMPL。</span><span class="sxs-lookup"><span data-stu-id="b2a1a-110">This member must return E_NOTIMPL.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="178b0-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="178b0-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b2a1a-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b2a1a-111">See also</span></span>
 
-- [<span data-ttu-id="178b0-112">常量 (忙/闲 API)</span><span class="sxs-lookup"><span data-stu-id="178b0-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md) 
-- [<span data-ttu-id="178b0-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="178b0-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
+- [<span data-ttu-id="b2a1a-112">常量 (忙/闲 API)</span><span class="sxs-lookup"><span data-stu-id="b2a1a-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md) 
+- [<span data-ttu-id="b2a1a-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="b2a1a-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
 

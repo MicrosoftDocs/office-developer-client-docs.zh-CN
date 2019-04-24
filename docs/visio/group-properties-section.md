@@ -9,19 +9,19 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: fb422d46-0b4d-3bf7-73aa-6b01e2454a84
 description: 包含用于组合的单元格，这些单元格控制如何向组合添加形状、移动组合成员和选择组合。
-ms.openlocfilehash: 63bc2717d838174080d3bd13da07e5f9d6929767
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb5d0bccd21e192ed4aff244929d2dbb507ae40b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317071"
 ---
-# <a name="group-properties-section"></a><span data-ttu-id="6eb6f-103">“Group Properties”部分</span><span class="sxs-lookup"><span data-stu-id="6eb6f-103">Group Properties Section</span></span>
+# <a name="group-properties-section"></a><span data-ttu-id="f8da3-103">“Group Properties”内容</span><span class="sxs-lookup"><span data-stu-id="f8da3-103">Group Properties Section</span></span>
 
-<span data-ttu-id="6eb6f-104">包含用于组合的单元格，这些单元格控制如何向组合添加形状、移动组合成员和选择组合。</span><span class="sxs-lookup"><span data-stu-id="6eb6f-104">Contains cells for a group that control how you add shapes to a group, move members of a group, and select groups.</span></span> 
+<span data-ttu-id="f8da3-104">包含用于组合的单元格，这些单元格控制如何向组合添加形状、移动组合成员和选择组合。</span><span class="sxs-lookup"><span data-stu-id="f8da3-104">Contains cells for a group that control how you add shapes to a group, move members of a group, and select groups.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="6eb6f-105">注解</span><span class="sxs-lookup"><span data-stu-id="6eb6f-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f8da3-105">注解</span><span class="sxs-lookup"><span data-stu-id="f8da3-105">Remarks</span></span>
 
-<span data-ttu-id="6eb6f-106">还可以在 **“行为”** 对话框（在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上的 **“形状设计”** 组中单击**行为**）中的 **“行为”** 选项卡上设置这些值。</span><span class="sxs-lookup"><span data-stu-id="6eb6f-106">You can also set these values on the **Behavior** tab in the **Behavior** dialog box (click **Behavior** in the **Shape Design** group on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab).</span></span> 
+<span data-ttu-id="f8da3-106">还可以在 **“行为”** 对话框（在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上的 **“形状设计”** 组中单击**行为**）中的 **“行为”** 选项卡上设置这些值。</span><span class="sxs-lookup"><span data-stu-id="f8da3-106">You can also set these values on the **Behavior** tab in the **Behavior** dialog box (click **Behavior** in the **Shape Design** group on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab).</span></span> 
   
 
