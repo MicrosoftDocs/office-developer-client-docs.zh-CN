@@ -9,33 +9,33 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0dddef20-c58e-2306-ab8e-6cac8e159f61
 description: 确定在早于 Visio 2000 的 Visio 版本中插入的域的格式。
-ms.openlocfilehash: e9506404e8ccd6ae4452c10ecdcce2d4dfd7ac2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 16cefc5f45d6b5f0f677e35bd5d0937d48fb2680
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337140"
 ---
-# <a name="uiformat-cell-text-fields-section"></a><span data-ttu-id="fb692-103">UIFormat 单元格（“Text Fields”部分）</span><span class="sxs-lookup"><span data-stu-id="fb692-103">UIFormat Cell (Text Fields Section)</span></span>
+# <a name="uiformat-cell-text-fields-section"></a><span data-ttu-id="951d7-103">UIFormat 单元格（“Text Fields”内容）</span><span class="sxs-lookup"><span data-stu-id="951d7-103">UIFormat Cell (Text Fields Section)</span></span>
 
-<span data-ttu-id="fb692-104">确定在早于 Visio 2000 的 Visio 版本中插入的域的格式。</span><span class="sxs-lookup"><span data-stu-id="fb692-104">Determines the format of an inserted field in versions of Visio earlier than Visio 2000.</span></span>
+<span data-ttu-id="951d7-104">确定在早于 Visio 2000 的 Visio 版本中插入的域的格式。</span><span class="sxs-lookup"><span data-stu-id="951d7-104">Determines the format of an inserted field in versions of Visio earlier than Visio 2000.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="fb692-105">注释</span><span class="sxs-lookup"><span data-stu-id="fb692-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="951d7-105">注解</span><span class="sxs-lookup"><span data-stu-id="951d7-105">Remarks</span></span>
 
-<span data-ttu-id="fb692-p101">此单元格不显示在 ShapeSheet 窗口中。如果需要处理向后兼容问题，例如以 Visio 5.0 版文件格式保存 Visio 2000 版绘图，则使用此单元格。</span><span class="sxs-lookup"><span data-stu-id="fb692-p101">This cell does not appear in the ShapeSheet window. Use this cell if you need to deal with backward capability issues, such as saving a Visio version 2000 drawing in Visio version 5.0 file format.</span></span>
+<span data-ttu-id="951d7-p101">此单元格不显示在 ShapeSheet 窗口中。如果需要处理向后兼容问题，例如以 Visio 5.0 版文件格式保存 Visio 2000 版绘图，则使用此单元格。</span><span class="sxs-lookup"><span data-stu-id="951d7-p101">This cell does not appear in the ShapeSheet window. Use this cell if you need to deal with backward capability issues, such as saving a Visio version 2000 drawing in Visio version 5.0 file format.</span></span>
   
-<span data-ttu-id="fb692-108">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 UIFormat 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="fb692-108">To get a reference to the UIFormat cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="951d7-108">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 UIFormat 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="951d7-108">To get a reference to the UIFormat cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="fb692-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="fb692-109">Cell name:</span></span>  <br/> | <span data-ttu-id="fb692-110">Fields.UIFmt [ *i* ] 其中*i* = < 1 >，2，3...</span><span class="sxs-lookup"><span data-stu-id="fb692-110">Fields.UIFmt[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="951d7-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="951d7-109">Cell name:</span></span>  <br/> | <span data-ttu-id="951d7-110">UIFmt [ *i* ] 其中*i* = <1>, 2, 3 .。。</span><span class="sxs-lookup"><span data-stu-id="951d7-110">Fields.UIFmt[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="fb692-111">要从某个程序按索引获取对 UIFormat 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="fb692-111">To get a reference to the UIFormat cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="951d7-111">要从某个程序按索引获取对 UIFormat 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="951d7-111">To get a reference to the UIFormat cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="fb692-112">内容索引：</span><span class="sxs-lookup"><span data-stu-id="fb692-112">Section index:</span></span>  <br/> |<span data-ttu-id="fb692-113">**visSectionTextField**</span><span class="sxs-lookup"><span data-stu-id="fb692-113">**visSectionTextField**</span></span> <br/> |
-| <span data-ttu-id="fb692-114">行索引：</span><span class="sxs-lookup"><span data-stu-id="fb692-114">Row index:</span></span>  <br/> |<span data-ttu-id="fb692-115">**visRowField** +  *i*其中*i* = 0、 1、 2...</span><span class="sxs-lookup"><span data-stu-id="fb692-115">**visRowField** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="fb692-116">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="fb692-116">Cell index:</span></span>  <br/> |<span data-ttu-id="fb692-117">**visFieldUIFormat**</span><span class="sxs-lookup"><span data-stu-id="fb692-117">**visFieldUIFormat**</span></span> <br/> |
+| <span data-ttu-id="951d7-112">内容索引：</span><span class="sxs-lookup"><span data-stu-id="951d7-112">Section index:</span></span>  <br/> |<span data-ttu-id="951d7-113">**visSectionTextField**</span><span class="sxs-lookup"><span data-stu-id="951d7-113">**visSectionTextField**</span></span> <br/> |
+| <span data-ttu-id="951d7-114">行索引：</span><span class="sxs-lookup"><span data-stu-id="951d7-114">Row index:</span></span>  <br/> |<span data-ttu-id="951d7-115">**visRowField** +  *i* = \*\* 0、1、2 .。。</span><span class="sxs-lookup"><span data-stu-id="951d7-115">**visRowField** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="951d7-116">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="951d7-116">Cell index:</span></span>  <br/> |<span data-ttu-id="951d7-117">**visFieldUIFormat**</span><span class="sxs-lookup"><span data-stu-id="951d7-117">**visFieldUIFormat**</span></span> <br/> |
    
 

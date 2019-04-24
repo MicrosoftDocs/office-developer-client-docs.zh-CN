@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 456c207f-5d41-4d0c-94b6-0c58893a6bed
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c7eda7089515942cb38a941bab863b3adf971bdc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f4ff2a3897306ebe4f77c08630782c5f2c7d5d3d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335803"
 ---
-# <a name="imapisessionsetdefaultstore"></a><span data-ttu-id="495ba-103">IMAPISession::SetDefaultStore</span><span class="sxs-lookup"><span data-stu-id="495ba-103">IMAPISession::SetDefaultStore</span></span>
+# <a name="imapisessionsetdefaultstore"></a><span data-ttu-id="d94db-103">IMAPISession::SetDefaultStore</span><span class="sxs-lookup"><span data-stu-id="d94db-103">IMAPISession::SetDefaultStore</span></span>
 
   
   
-<span data-ttu-id="495ba-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="495ba-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d94db-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d94db-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="495ba-105">建立会话，作为默认的邮件存储的消息存储。</span><span class="sxs-lookup"><span data-stu-id="495ba-105">Establishes a message store as the default message store for the session.</span></span>
+<span data-ttu-id="d94db-105">将邮件存储区建立为会话的默认邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="d94db-105">Establishes a message store as the default message store for the session.</span></span>
   
 ```cpp
 HRESULT SetDefaultStore(
@@ -35,96 +35,96 @@ HRESULT SetDefaultStore(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="495ba-106">参数</span><span class="sxs-lookup"><span data-stu-id="495ba-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d94db-106">参数</span><span class="sxs-lookup"><span data-stu-id="d94db-106">Parameters</span></span>
 
- <span data-ttu-id="495ba-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="495ba-107">_ulFlags_</span></span>
+ <span data-ttu-id="d94db-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="d94db-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="495ba-108">[in]位掩码的标志控制默认的邮件存储的设置的。</span><span class="sxs-lookup"><span data-stu-id="495ba-108">[in] A bitmask of flags that controls the setting of the default message store.</span></span> <span data-ttu-id="495ba-109">这些标志为相互排斥;可以设置以下标志的唯一之一：</span><span class="sxs-lookup"><span data-stu-id="495ba-109">These flags are mutually exclusive; only one of the following flags can be set:</span></span>
+> <span data-ttu-id="d94db-108">实时用于控制默认邮件存储的设置的标志的位掩码。</span><span class="sxs-lookup"><span data-stu-id="d94db-108">[in] A bitmask of flags that controls the setting of the default message store.</span></span> <span data-ttu-id="d94db-109">这些标志是互斥的;只能设置下列标志之一:</span><span class="sxs-lookup"><span data-stu-id="d94db-109">These flags are mutually exclusive; only one of the following flags can be set:</span></span>
     
-<span data-ttu-id="495ba-110">MAPI_DEFAULT_STORE</span><span class="sxs-lookup"><span data-stu-id="495ba-110">MAPI_DEFAULT_STORE</span></span>
+<span data-ttu-id="d94db-110">MAPI_DEFAULT_STORE</span><span class="sxs-lookup"><span data-stu-id="d94db-110">MAPI_DEFAULT_STORE</span></span>
   
-> <span data-ttu-id="495ba-111">为会话默认建立的邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="495ba-111">Establishes the message store as the session default.</span></span> <span data-ttu-id="495ba-112">通过设置 STATUS_DEFAULT_STORE 标志**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 列中更新的消息存储状态表格行。</span><span class="sxs-lookup"><span data-stu-id="495ba-112">Updates the message store's status table row by setting the STATUS_DEFAULT_STORE flag in the **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) column.</span></span>
+> <span data-ttu-id="d94db-111">将邮件存储区建立为会话默认值。</span><span class="sxs-lookup"><span data-stu-id="d94db-111">Establishes the message store as the session default.</span></span> <span data-ttu-id="d94db-112">通过在**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 列中设置 STATUS_DEFAULT_STORE 标志来更新邮件存储区的状态表行。</span><span class="sxs-lookup"><span data-stu-id="d94db-112">Updates the message store's status table row by setting the STATUS_DEFAULT_STORE flag in the **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) column.</span></span>
     
-<span data-ttu-id="495ba-113">MAPI_PRIMARY_STORE</span><span class="sxs-lookup"><span data-stu-id="495ba-113">MAPI_PRIMARY_STORE</span></span>
+<span data-ttu-id="d94db-113">MAPI_PRIMARY_STORE</span><span class="sxs-lookup"><span data-stu-id="d94db-113">MAPI_PRIMARY_STORE</span></span>
   
-> <span data-ttu-id="495ba-114">作为存储用于登录建立的邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="495ba-114">Establishes the message store as the store to be used at logon.</span></span> <span data-ttu-id="495ba-115">如果消息存储不是默认存储，客户端应使其默认值。</span><span class="sxs-lookup"><span data-stu-id="495ba-115">If the message store is not the default store, clients should make it the default.</span></span> <span data-ttu-id="495ba-116">通过设置 STATUS_PRIMARY_STORE 标志**PR_RESOURCE_FLAGS**列中更新的消息存储状态表格行。</span><span class="sxs-lookup"><span data-stu-id="495ba-116">Updates the message store's status table row by setting the STATUS_PRIMARY_STORE flag in the **PR_RESOURCE_FLAGS** column.</span></span> 
+> <span data-ttu-id="d94db-114">建立要在登录时使用的存储区的邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="d94db-114">Establishes the message store as the store to be used at logon.</span></span> <span data-ttu-id="d94db-115">如果邮件存储不是默认存储, 客户端应将其设为默认值。</span><span class="sxs-lookup"><span data-stu-id="d94db-115">If the message store is not the default store, clients should make it the default.</span></span> <span data-ttu-id="d94db-116">通过在**PR_RESOURCE_FLAGS**列中设置 STATUS_PRIMARY_STORE 标志来更新邮件存储区的状态表行。</span><span class="sxs-lookup"><span data-stu-id="d94db-116">Updates the message store's status table row by setting the STATUS_PRIMARY_STORE flag in the **PR_RESOURCE_FLAGS** column.</span></span> 
     
-<span data-ttu-id="495ba-117">MAPI_SECONDARY_STORE</span><span class="sxs-lookup"><span data-stu-id="495ba-117">MAPI_SECONDARY_STORE</span></span>
+<span data-ttu-id="d94db-117">MAPI_SECONDARY_STORE</span><span class="sxs-lookup"><span data-stu-id="d94db-117">MAPI_SECONDARY_STORE</span></span>
   
-> <span data-ttu-id="495ba-118">建立的邮件存储组作为存储用于登录时如果主消息存储不可用。</span><span class="sxs-lookup"><span data-stu-id="495ba-118">Establishes the message store as the store to be used at logon if the primary message store is not available.</span></span> <span data-ttu-id="495ba-119">如果客户端无法打开主存储区，它应打开辅助存储，并将其设置为默认值。</span><span class="sxs-lookup"><span data-stu-id="495ba-119">If a client cannot open the primary store, it should open the secondary store and set it as the default.</span></span> <span data-ttu-id="495ba-120">通过设置 STATUS_SECONDARY_STORE 标志**PR_RESOURCE_FLAGS**列中更新的消息存储状态表格行。</span><span class="sxs-lookup"><span data-stu-id="495ba-120">Updates the message store's status table row by setting the STATUS_SECONDARY_STORE flag in the **PR_RESOURCE_FLAGS** column.</span></span> 
+> <span data-ttu-id="d94db-118">将邮件存储区建立为当主邮件存储不可用时在登录时使用的存储区。</span><span class="sxs-lookup"><span data-stu-id="d94db-118">Establishes the message store as the store to be used at logon if the primary message store is not available.</span></span> <span data-ttu-id="d94db-119">如果客户端无法打开主存储, 则应打开辅助存储并将其设置为默认存储。</span><span class="sxs-lookup"><span data-stu-id="d94db-119">If a client cannot open the primary store, it should open the secondary store and set it as the default.</span></span> <span data-ttu-id="d94db-120">通过在**PR_RESOURCE_FLAGS**列中设置 STATUS_SECONDARY_STORE 标志来更新邮件存储区的状态表行。</span><span class="sxs-lookup"><span data-stu-id="d94db-120">Updates the message store's status table row by setting the STATUS_SECONDARY_STORE flag in the **PR_RESOURCE_FLAGS** column.</span></span> 
     
-<span data-ttu-id="495ba-121">MAPI_SIMPLE_STORE_PERMANENT</span><span class="sxs-lookup"><span data-stu-id="495ba-121">MAPI_SIMPLE_STORE_PERMANENT</span></span>
+<span data-ttu-id="d94db-121">MAPI_SIMPLE_STORE_PERMANENT</span><span class="sxs-lookup"><span data-stu-id="d94db-121">MAPI_SIMPLE_STORE_PERMANENT</span></span>
   
-> <span data-ttu-id="495ba-122">消息存储表格行，其状态表格行和会话配置文件中的消息存储**PR_RESOURCE_FLAGS**属性中设置 STATUS_SIMPLE_STORE 标志。</span><span class="sxs-lookup"><span data-stu-id="495ba-122">Sets the STATUS_SIMPLE_STORE flag in the message store's **PR_RESOURCE_FLAGS** property in its status table row, message store table row, and in the session profile.</span></span> 
+> <span data-ttu-id="d94db-122">在邮件存储区的**PR_RESOURCE_FLAGS**属性中设置其状态表行、邮件存储表行和会话配置文件中的 STATUS_SIMPLE_STORE 标志。</span><span class="sxs-lookup"><span data-stu-id="d94db-122">Sets the STATUS_SIMPLE_STORE flag in the message store's **PR_RESOURCE_FLAGS** property in its status table row, message store table row, and in the session profile.</span></span> 
     
-<span data-ttu-id="495ba-123">MAPI_SIMPLE_STORE_TEMPORARY</span><span class="sxs-lookup"><span data-stu-id="495ba-123">MAPI_SIMPLE_STORE_TEMPORARY</span></span>
+<span data-ttu-id="d94db-123">MAPI_SIMPLE_STORE_TEMPORARY</span><span class="sxs-lookup"><span data-stu-id="d94db-123">MAPI_SIMPLE_STORE_TEMPORARY</span></span>
   
-> <span data-ttu-id="495ba-124">其状态表行和消息存储表行中的消息存储**PR_RESOURCE_FLAGS**属性中设置 STATUS_SIMPLE_STORE 标志。</span><span class="sxs-lookup"><span data-stu-id="495ba-124">Sets the STATUS_SIMPLE_STORE flag in the message store's **PR_RESOURCE_FLAGS** property in its status table row and message store table row.</span></span> <span data-ttu-id="495ba-125">未修改配置文件。</span><span class="sxs-lookup"><span data-stu-id="495ba-125">The profile is not modified.</span></span> 
+> <span data-ttu-id="d94db-124">在邮件存储的**PR_RESOURCE_FLAGS**属性中的状态表格行和邮件存储表行中设置 STATUS_SIMPLE_STORE 标志。</span><span class="sxs-lookup"><span data-stu-id="d94db-124">Sets the STATUS_SIMPLE_STORE flag in the message store's **PR_RESOURCE_FLAGS** property in its status table row and message store table row.</span></span> <span data-ttu-id="d94db-125">不修改配置文件。</span><span class="sxs-lookup"><span data-stu-id="d94db-125">The profile is not modified.</span></span> 
     
- <span data-ttu-id="495ba-126">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="495ba-126">_cbEntryID_</span></span>
+ <span data-ttu-id="d94db-126">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="d94db-126">_cbEntryID_</span></span>
   
-> <span data-ttu-id="495ba-127">[in]在_lpEntryID_参数指向的项标识符的字节数。</span><span class="sxs-lookup"><span data-stu-id="495ba-127">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
+> <span data-ttu-id="d94db-127">实时条目标识符中由_lpEntryID_参数指向的字节数。</span><span class="sxs-lookup"><span data-stu-id="d94db-127">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="495ba-128">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="495ba-128">_lpEntryID_</span></span>
+ <span data-ttu-id="d94db-128">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="d94db-128">_lpEntryID_</span></span>
   
-> <span data-ttu-id="495ba-129">[in]指向专为默认的消息存储的项标识符的指针。</span><span class="sxs-lookup"><span data-stu-id="495ba-129">[in] A pointer to the entry identifier of the message store that is intended as the default.</span></span> <span data-ttu-id="495ba-130">如果客户端传入_lpEntryID_NULL，没有消息存储在为默认情况下处于选中状态。</span><span class="sxs-lookup"><span data-stu-id="495ba-130">If a client passes NULL in  _lpEntryID_, no message store is selected as the default.</span></span>
+> <span data-ttu-id="d94db-129">实时指向邮件存储的条目标识符的指针, 该邮件存储将作为默认值。</span><span class="sxs-lookup"><span data-stu-id="d94db-129">[in] A pointer to the entry identifier of the message store that is intended as the default.</span></span> <span data-ttu-id="d94db-130">如果客户端在_lpEntryID_中传递了 NULL, 则不会选择任何邮件存储区作为默认值。</span><span class="sxs-lookup"><span data-stu-id="d94db-130">If a client passes NULL in  _lpEntryID_, no message store is selected as the default.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="495ba-131">返回值</span><span class="sxs-lookup"><span data-stu-id="495ba-131">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d94db-131">返回值</span><span class="sxs-lookup"><span data-stu-id="d94db-131">Return value</span></span>
 
-<span data-ttu-id="495ba-132">S_OK</span><span class="sxs-lookup"><span data-stu-id="495ba-132">S_OK</span></span> 
+<span data-ttu-id="d94db-132">S_OK</span><span class="sxs-lookup"><span data-stu-id="d94db-132">S_OK</span></span> 
   
-> <span data-ttu-id="495ba-133">呼叫成功，并返回预期的值。</span><span class="sxs-lookup"><span data-stu-id="495ba-133">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="d94db-133">调用成功, 并返回了所需的一个或一些值。</span><span class="sxs-lookup"><span data-stu-id="d94db-133">The call succeeded and returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="495ba-134">注解</span><span class="sxs-lookup"><span data-stu-id="495ba-134">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d94db-134">注解</span><span class="sxs-lookup"><span data-stu-id="d94db-134">Remarks</span></span>
 
-<span data-ttu-id="495ba-135">**IMAPISession::SetDefaultStore**方法建立的消息存储为下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="495ba-135">The **IMAPISession::SetDefaultStore** method establishes a message store as one of the following:</span></span> 
+<span data-ttu-id="d94db-135">**IMAPISession:: SetDefaultStore**方法将邮件存储区建立为以下内容之一:</span><span class="sxs-lookup"><span data-stu-id="d94db-135">The **IMAPISession::SetDefaultStore** method establishes a message store as one of the following:</span></span> 
   
-- <span data-ttu-id="495ba-136">默认的邮件存储会话。</span><span class="sxs-lookup"><span data-stu-id="495ba-136">The default message store for the session.</span></span>
+- <span data-ttu-id="d94db-136">会话的默认邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="d94db-136">The default message store for the session.</span></span>
     
-- <span data-ttu-id="495ba-137">用于会话的主邮件存储。</span><span class="sxs-lookup"><span data-stu-id="495ba-137">The primary message store for the session.</span></span>
+- <span data-ttu-id="d94db-137">会话的主邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="d94db-137">The primary message store for the session.</span></span>
     
-- <span data-ttu-id="495ba-138">会话辅助消息存储。</span><span class="sxs-lookup"><span data-stu-id="495ba-138">The secondary message store for the session.</span></span>
+- <span data-ttu-id="d94db-138">会话的辅助邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="d94db-138">The secondary message store for the session.</span></span>
     
-<span data-ttu-id="495ba-139">要建立为默认的消息存储，消息存储库必须具有以下标志在其**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性中设置：</span><span class="sxs-lookup"><span data-stu-id="495ba-139">To establish a message store as the default, the message store must have the following flags set in its **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property:</span></span>
+<span data-ttu-id="d94db-139">若要将邮件存储区设置为默认值, 邮件存储区的**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性中必须设置以下标志:</span><span class="sxs-lookup"><span data-stu-id="d94db-139">To establish a message store as the default, the message store must have the following flags set in its **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property:</span></span>
   
-- <span data-ttu-id="495ba-140">STORE_SUBMIT_OK</span><span class="sxs-lookup"><span data-stu-id="495ba-140">STORE_SUBMIT_OK</span></span>
+- <span data-ttu-id="d94db-140">STORE_SUBMIT_OK</span><span class="sxs-lookup"><span data-stu-id="d94db-140">STORE_SUBMIT_OK</span></span>
     
-- <span data-ttu-id="495ba-141">STORE_CREATE_OK</span><span class="sxs-lookup"><span data-stu-id="495ba-141">STORE_CREATE_OK</span></span>
+- <span data-ttu-id="d94db-141">STORE_CREATE_OK</span><span class="sxs-lookup"><span data-stu-id="d94db-141">STORE_CREATE_OK</span></span>
     
-- <span data-ttu-id="495ba-142">STORE_MODIFY_OK</span><span class="sxs-lookup"><span data-stu-id="495ba-142">STORE_MODIFY_OK</span></span>
+- <span data-ttu-id="d94db-142">STORE_MODIFY_OK</span><span class="sxs-lookup"><span data-stu-id="d94db-142">STORE_MODIFY_OK</span></span>
     
-## <a name="notes-to-callers"></a><span data-ttu-id="495ba-143">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="495ba-143">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="d94db-143">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="d94db-143">Notes to callers</span></span>
 
-<span data-ttu-id="495ba-144">您可以通过检索状态表和搜索**PR_RESOURCE_FLAGS**列中的 STATUS_DEFAULT_STORE 标志设置为会话确定默认邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="495ba-144">You can determine the default message store for the session by retrieving the status table and searching for the setting of the STATUS_DEFAULT_STORE flag in the **PR_RESOURCE_FLAGS** column.</span></span> <span data-ttu-id="495ba-145">此设置的行代表被指定为会话默认的消息存储。</span><span class="sxs-lookup"><span data-stu-id="495ba-145">The row that has this setting represents the message store that is designated as the session default.</span></span> 
+<span data-ttu-id="d94db-144">您可以通过检索状态表并在**PR_RESOURCE_FLAGS**列中搜索 STATUS_DEFAULT_STORE 标志的设置来确定会话的默认邮件存储。</span><span class="sxs-lookup"><span data-stu-id="d94db-144">You can determine the default message store for the session by retrieving the status table and searching for the setting of the STATUS_DEFAULT_STORE flag in the **PR_RESOURCE_FLAGS** column.</span></span> <span data-ttu-id="d94db-145">具有此设置的行表示指定为会话默认值的邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="d94db-145">The row that has this setting represents the message store that is designated as the session default.</span></span> 
   
-<span data-ttu-id="495ba-146">当设置 MAPI_DEFAULT_STORE 或 MAPI_SIMPLE_STORE_PERMANENT 标志时，MAPI 更新配置文件、 消息存储表和状态表。</span><span class="sxs-lookup"><span data-stu-id="495ba-146">When either the MAPI_DEFAULT_STORE or the MAPI_SIMPLE_STORE_PERMANENT flag is set, MAPI updates the profile, message store table, and status table.</span></span> 
+<span data-ttu-id="d94db-146">如果设置了 MAPI_DEFAULT_STORE 或 MAPI_SIMPLE_STORE_PERMANENT 标志, MAPI 将更新配置文件、邮件存储表和状态表。</span><span class="sxs-lookup"><span data-stu-id="d94db-146">When either the MAPI_DEFAULT_STORE or the MAPI_SIMPLE_STORE_PERMANENT flag is set, MAPI updates the profile, message store table, and status table.</span></span> 
   
-<span data-ttu-id="495ba-147">消息存储默认设置进行更改时，只要将生成以下通知：</span><span class="sxs-lookup"><span data-stu-id="495ba-147">Whenever a change is made to the message store default setting, the following notifications are generated:</span></span>
+<span data-ttu-id="d94db-147">每当对邮件存储库默认设置进行更改时, 都会生成以下通知:</span><span class="sxs-lookup"><span data-stu-id="d94db-147">Whenever a change is made to the message store default setting, the following notifications are generated:</span></span>
   
-- <span data-ttu-id="495ba-148">**FnevTableModified**事件通知发出的消息存储和状态表中的每个受影响的行。</span><span class="sxs-lookup"><span data-stu-id="495ba-148">An **fnevTableModified** event notification is issued for each affected row in both the message store and status table.</span></span> 
+- <span data-ttu-id="d94db-148">对于邮件存储和状态表中的每个受影响的行, 都会发出一个**fnevTableModified**事件通知。</span><span class="sxs-lookup"><span data-stu-id="d94db-148">An **fnevTableModified** event notification is issued for each affected row in both the message store and status table.</span></span> 
     
-- <span data-ttu-id="495ba-149">内部通知颁发给 MAPI 后台处理程序。</span><span class="sxs-lookup"><span data-stu-id="495ba-149">An internal notification is issued to the MAPI spooler.</span></span> <span data-ttu-id="495ba-150">正在进行的操作完成后，无更改;新的默认存储处理涉及默认的邮件存储，如消息下载的新操作。</span><span class="sxs-lookup"><span data-stu-id="495ba-150">Operations already in progress are completed without change; new operations that involve the default message store, such as message downloading, are processed for the new default store.</span></span>
+- <span data-ttu-id="d94db-149">向 MAPI 后台处理程序发出内部通知。</span><span class="sxs-lookup"><span data-stu-id="d94db-149">An internal notification is issued to the MAPI spooler.</span></span> <span data-ttu-id="d94db-150">已在进行中的操作已完成, 无需更改;将为新的默认存储区处理涉及默认邮件存储 (如邮件下载) 的新操作。</span><span class="sxs-lookup"><span data-stu-id="d94db-150">Operations already in progress are completed without change; new operations that involve the default message store, such as message downloading, are processed for the new default store.</span></span>
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="495ba-151">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="495ba-151">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="d94db-151">MFCMAPI 引用</span><span class="sxs-lookup"><span data-stu-id="d94db-151">MFCMAPI reference</span></span>
 
-<span data-ttu-id="495ba-152">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="495ba-152">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="d94db-152">有关 MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="d94db-152">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="495ba-153">**文件**</span><span class="sxs-lookup"><span data-stu-id="495ba-153">**File**</span></span>|<span data-ttu-id="495ba-154">**函数**</span><span class="sxs-lookup"><span data-stu-id="495ba-154">**Function**</span></span>|<span data-ttu-id="495ba-155">**Comment**</span><span class="sxs-lookup"><span data-stu-id="495ba-155">**Comment**</span></span>|
+|<span data-ttu-id="d94db-153">**文件**</span><span class="sxs-lookup"><span data-stu-id="d94db-153">**File**</span></span>|<span data-ttu-id="d94db-154">**函数**</span><span class="sxs-lookup"><span data-stu-id="d94db-154">**Function**</span></span>|<span data-ttu-id="d94db-155">**备注**</span><span class="sxs-lookup"><span data-stu-id="d94db-155">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="495ba-156">MainDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="495ba-156">MainDlg.cpp</span></span>  <br/> |<span data-ttu-id="495ba-157">CMainDlg::OnSetDefaultStore</span><span class="sxs-lookup"><span data-stu-id="495ba-157">CMainDlg::OnSetDefaultStore</span></span>  <br/> |<span data-ttu-id="495ba-158">MFCMAPI 使用**IMAPISession::SetDefaultStore**方法将所选的商店设置为默认存储。</span><span class="sxs-lookup"><span data-stu-id="495ba-158">MFCMAPI uses the **IMAPISession::SetDefaultStore** method to set the selected store as the default store.</span></span>  <br/> |
+|<span data-ttu-id="d94db-156">MainDlg</span><span class="sxs-lookup"><span data-stu-id="d94db-156">MainDlg.cpp</span></span>  <br/> |<span data-ttu-id="d94db-157">CMainDlg:: OnSetDefaultStore</span><span class="sxs-lookup"><span data-stu-id="d94db-157">CMainDlg::OnSetDefaultStore</span></span>  <br/> |<span data-ttu-id="d94db-158">MFCMAPI 使用**IMAPISession:: SetDefaultStore**方法将选定存储区设置为默认存储区。</span><span class="sxs-lookup"><span data-stu-id="d94db-158">MFCMAPI uses the **IMAPISession::SetDefaultStore** method to set the selected store as the default store.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="495ba-159">另请参阅</span><span class="sxs-lookup"><span data-stu-id="495ba-159">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d94db-159">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d94db-159">See also</span></span>
 
 
 
-[<span data-ttu-id="495ba-160">PidTagResourceFlags 规范属性</span><span class="sxs-lookup"><span data-stu-id="495ba-160">PidTagResourceFlags Canonical Property</span></span>](pidtagresourceflags-canonical-property.md)
+[<span data-ttu-id="d94db-160">PidTagResourceFlags 规范属性</span><span class="sxs-lookup"><span data-stu-id="d94db-160">PidTagResourceFlags Canonical Property</span></span>](pidtagresourceflags-canonical-property.md)
   
-[<span data-ttu-id="495ba-161">PidTagStoreSupportMask 规范属性</span><span class="sxs-lookup"><span data-stu-id="495ba-161">PidTagStoreSupportMask Canonical Property</span></span>](pidtagstoresupportmask-canonical-property.md)
+[<span data-ttu-id="d94db-161">PidTagStoreSupportMask 规范属性</span><span class="sxs-lookup"><span data-stu-id="d94db-161">PidTagStoreSupportMask Canonical Property</span></span>](pidtagstoresupportmask-canonical-property.md)
   
-[<span data-ttu-id="495ba-162">TABLE_NOTIFICATION</span><span class="sxs-lookup"><span data-stu-id="495ba-162">TABLE_NOTIFICATION</span></span>](table_notification.md)
+[<span data-ttu-id="d94db-162">TABLE_NOTIFICATION</span><span class="sxs-lookup"><span data-stu-id="d94db-162">TABLE_NOTIFICATION</span></span>](table_notification.md)
   
-[<span data-ttu-id="495ba-163">IMAPISession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="495ba-163">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
+[<span data-ttu-id="d94db-163">IMAPISession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="d94db-163">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
 
 
-[<span data-ttu-id="495ba-164">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="495ba-164">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="d94db-164">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="d94db-164">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

@@ -9,36 +9,36 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c0c4b668-f31b-336f-4434-e94a4804ff7c
 description: 确定动作在快捷菜单或动作标记菜单上显示的顺序的数字。
-ms.openlocfilehash: 5a5db1276d1f2544b5b2b76301c30a2bedd4be63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d4eb98055f199f603003b068dca9fa7b4e377e52
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334522"
 ---
-# <a name="sortkey-cell-actions-section"></a><span data-ttu-id="4737b-103">SortKey 单元格（“Actions”部分）</span><span class="sxs-lookup"><span data-stu-id="4737b-103">SortKey Cell (Actions Section)</span></span>
+# <a name="sortkey-cell-actions-section"></a><span data-ttu-id="69ccc-103">SortKey 单元格（“Actions”内容）</span><span class="sxs-lookup"><span data-stu-id="69ccc-103">SortKey Cell (Actions Section)</span></span>
 
-<span data-ttu-id="4737b-104">确定动作在快捷菜单或动作标记菜单上显示的顺序的数字。</span><span class="sxs-lookup"><span data-stu-id="4737b-104">A number that determines the order of actions that appear on a shortcut or action tag menu.</span></span>
+<span data-ttu-id="69ccc-104">确定动作在快捷菜单或动作标记菜单上显示的顺序的数字。</span><span class="sxs-lookup"><span data-stu-id="69ccc-104">A number that determines the order of actions that appear on a shortcut or action tag menu.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="4737b-105">在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。</span><span class="sxs-lookup"><span data-stu-id="4737b-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
+> <span data-ttu-id="69ccc-105">在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。</span><span class="sxs-lookup"><span data-stu-id="69ccc-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="4737b-106">注解</span><span class="sxs-lookup"><span data-stu-id="4737b-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="69ccc-106">注解</span><span class="sxs-lookup"><span data-stu-id="69ccc-106">Remarks</span></span>
 
-<span data-ttu-id="4737b-p101">动作按照从低到高的顺序在动作标记菜单或快捷菜单上显示，最低的数字显示在菜单的顶部。如果两个动作行具有相同的 SortKey 单元格值，则顺序由物理行顺序确定。默认值为 0（零）。</span><span class="sxs-lookup"><span data-stu-id="4737b-p101">The actions on an action tag or shortcut menu appear on the menu sorted from lowest to highest, with lower numbers appearing at the top of the menu. If two action rows have the same SortKey cell value, the order is determined by physical row order. The default is 0 (zero).</span></span>
+<span data-ttu-id="69ccc-p101">动作按照从低到高的顺序在动作标记菜单或快捷菜单上显示，最低的数字显示在菜单的顶部。如果两个动作行具有相同的 SortKey 单元格值，则顺序由物理行顺序确定。默认值为 0（零）。</span><span class="sxs-lookup"><span data-stu-id="69ccc-p101">The actions on an action tag or shortcut menu appear on the menu sorted from lowest to highest, with lower numbers appearing at the top of the menu. If two action rows have the same SortKey cell value, the order is determined by physical row order. The default is 0 (zero).</span></span>
   
-<span data-ttu-id="4737b-110">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 SortKey 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="4737b-110">To get a reference to the SortKey cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="69ccc-110">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 SortKey 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="69ccc-110">To get a reference to the SortKey cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4737b-111">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="4737b-111">Cell name:</span></span>  <br/> |<span data-ttu-id="4737b-112">操作。</span><span class="sxs-lookup"><span data-stu-id="4737b-112">Actions.</span></span> <span data-ttu-id="4737b-113">*名称*。SortKeywhere 操作。</span><span class="sxs-lookup"><span data-stu-id="4737b-113">*name*  .SortKeywhere Actions.</span></span>  <span data-ttu-id="4737b-114">*name*是 Actions 行的名称</span><span class="sxs-lookup"><span data-stu-id="4737b-114">*name*  is the name of the Actions row</span></span>  <br/> |
+|<span data-ttu-id="69ccc-111">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="69ccc-111">Cell name:</span></span>  <br/> |<span data-ttu-id="69ccc-112">操作.</span><span class="sxs-lookup"><span data-stu-id="69ccc-112">Actions.</span></span> <span data-ttu-id="69ccc-113">*名称*。SortKeywhere 操作。</span><span class="sxs-lookup"><span data-stu-id="69ccc-113">*name*  .SortKeywhere Actions.</span></span>  <span data-ttu-id="69ccc-114">*name*是操作行的名称</span><span class="sxs-lookup"><span data-stu-id="69ccc-114">*name*  is the name of the Actions row</span></span>  <br/> |
    
-<span data-ttu-id="4737b-115">若要从某个程序按索引获取对 SortKey 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="4737b-115">To get a reference to the SortKey cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="69ccc-115">若要从某个程序按索引获取对 SortKey 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="69ccc-115">To get a reference to the SortKey cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4737b-116">内容索引：</span><span class="sxs-lookup"><span data-stu-id="4737b-116">Section index:</span></span>  <br/> |<span data-ttu-id="4737b-117">**visSectionAction**</span><span class="sxs-lookup"><span data-stu-id="4737b-117">**visSectionAction**</span></span> <br/> |
-|<span data-ttu-id="4737b-118">行索引：</span><span class="sxs-lookup"><span data-stu-id="4737b-118">Row index:</span></span>  <br/> |<span data-ttu-id="4737b-119">**visRowAction** +  *i*其中*i* = 0、 1、 2...</span><span class="sxs-lookup"><span data-stu-id="4737b-119">**visRowAction** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="4737b-120">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="4737b-120">Cell index:</span></span>  <br/> |<span data-ttu-id="4737b-121">**visActionSortKey**</span><span class="sxs-lookup"><span data-stu-id="4737b-121">**visActionSortKey**</span></span> <br/> |
+|<span data-ttu-id="69ccc-116">内容索引：</span><span class="sxs-lookup"><span data-stu-id="69ccc-116">Section index:</span></span>  <br/> |<span data-ttu-id="69ccc-117">**visSectionAction**</span><span class="sxs-lookup"><span data-stu-id="69ccc-117">**visSectionAction**</span></span> <br/> |
+|<span data-ttu-id="69ccc-118">行索引：</span><span class="sxs-lookup"><span data-stu-id="69ccc-118">Row index:</span></span>  <br/> |<span data-ttu-id="69ccc-119">**visRowAction** +  *i* = \*\* 0、1、2 .。。</span><span class="sxs-lookup"><span data-stu-id="69ccc-119">**visRowAction** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="69ccc-120">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="69ccc-120">Cell index:</span></span>  <br/> |<span data-ttu-id="69ccc-121">**visActionSortKey**</span><span class="sxs-lookup"><span data-stu-id="69ccc-121">**visActionSortKey**</span></span> <br/> |
    
 

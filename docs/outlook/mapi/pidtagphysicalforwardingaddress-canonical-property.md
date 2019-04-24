@@ -12,49 +12,49 @@ api_type:
 - COM
 ms.assetid: f9506faf-a75a-47a9-b32b-00780e1c5df4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7aa56e8c472da4d597733393313e44dbf1c1028f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ec578df320c76014adde468cb7e86a0c4ab40bd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569629"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338267"
 ---
-# <a name="pidtagphysicalforwardingaddress-canonical-property"></a><span data-ttu-id="906da-103">PidTagPhysicalForwardingAddress 规范属性</span><span class="sxs-lookup"><span data-stu-id="906da-103">PidTagPhysicalForwardingAddress Canonical Property</span></span>
+# <a name="pidtagphysicalforwardingaddress-canonical-property"></a><span data-ttu-id="fe083-103">PidTagPhysicalForwardingAddress 规范属性</span><span class="sxs-lookup"><span data-stu-id="fe083-103">PidTagPhysicalForwardingAddress Canonical Property</span></span>
 
   
   
-<span data-ttu-id="906da-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="906da-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fe083-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fe083-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="906da-105">包含邮件收件人的物理转发地址和仅用于邮件报告。</span><span class="sxs-lookup"><span data-stu-id="906da-105">Contains the physical forwarding address of a message recipient and is used only with message reports.</span></span>
+<span data-ttu-id="fe083-105">包含邮件收件人的物理转发地址, 并且仅与邮件报告一起使用。</span><span class="sxs-lookup"><span data-stu-id="fe083-105">Contains the physical forwarding address of a message recipient and is used only with message reports.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="906da-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="906da-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="906da-107">PR_PHYSICAL_FORWARDING_ADDRESS</span><span class="sxs-lookup"><span data-stu-id="906da-107">PR_PHYSICAL_FORWARDING_ADDRESS</span></span>  <br/> |
-|<span data-ttu-id="906da-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="906da-108">Identifier:</span></span>  <br/> |<span data-ttu-id="906da-109">0x0C0D</span><span class="sxs-lookup"><span data-stu-id="906da-109">0x0C0D</span></span>  <br/> |
-|<span data-ttu-id="906da-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="906da-110">Data type:</span></span>  <br/> |<span data-ttu-id="906da-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="906da-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="906da-112">区域：</span><span class="sxs-lookup"><span data-stu-id="906da-112">Area:</span></span>  <br/> |<span data-ttu-id="906da-113">MAPI 收件人</span><span class="sxs-lookup"><span data-stu-id="906da-113">MAPI Recipient</span></span>  <br/> |
+|<span data-ttu-id="fe083-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="fe083-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="fe083-107">PR_PHYSICAL_FORWARDING_ADDRESS</span><span class="sxs-lookup"><span data-stu-id="fe083-107">PR_PHYSICAL_FORWARDING_ADDRESS</span></span>  <br/> |
+|<span data-ttu-id="fe083-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="fe083-108">Identifier:</span></span>  <br/> |<span data-ttu-id="fe083-109">0x0C0D</span><span class="sxs-lookup"><span data-stu-id="fe083-109">0x0C0D</span></span>  <br/> |
+|<span data-ttu-id="fe083-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="fe083-110">Data type:</span></span>  <br/> |<span data-ttu-id="fe083-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="fe083-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="fe083-112">区域：</span><span class="sxs-lookup"><span data-stu-id="fe083-112">Area:</span></span>  <br/> |<span data-ttu-id="fe083-113">MAPI 收件人</span><span class="sxs-lookup"><span data-stu-id="fe083-113">MAPI Recipient</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="906da-114">相关资源</span><span class="sxs-lookup"><span data-stu-id="906da-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="fe083-114">相关资源</span><span class="sxs-lookup"><span data-stu-id="fe083-114">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="906da-115">头文件</span><span class="sxs-lookup"><span data-stu-id="906da-115">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="fe083-115">头文件</span><span class="sxs-lookup"><span data-stu-id="fe083-115">Header files</span></span>
 
-<span data-ttu-id="906da-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="906da-116">Mapidefs.h</span></span>
+<span data-ttu-id="fe083-116">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="fe083-116">Mapidefs.h</span></span>
   
-> <span data-ttu-id="906da-117">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="906da-117">Provides data type definitions.</span></span>
+> <span data-ttu-id="fe083-117">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="fe083-117">Provides data type definitions.</span></span>
     
-<span data-ttu-id="906da-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="906da-118">Mapitags.h</span></span>
+<span data-ttu-id="fe083-118">Mapitags</span><span class="sxs-lookup"><span data-stu-id="fe083-118">Mapitags.h</span></span>
   
-> <span data-ttu-id="906da-119">包含列为相关属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="906da-119">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="fe083-119">包含列为关联属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="fe083-119">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="906da-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="906da-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fe083-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="fe083-120">See also</span></span>
 
 
 
-[<span data-ttu-id="906da-121">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="906da-121">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="fe083-121">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="fe083-121">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="906da-122">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="906da-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="fe083-122">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="fe083-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="906da-123">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="906da-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="fe083-123">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="fe083-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="906da-124">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="906da-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="fe083-124">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="fe083-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
