@@ -1,5 +1,5 @@
 ---
-title: Recordset2.LastModified 属性 (DAO)
+title: LastModified 属性 (DAO) Recordset2
 TOCTitle: LastModified Property
 ms:assetid: 1c13cb43-23b5-73b6-af00-a3676cc37cc7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845726(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c3d9337c36a2b126f4ce6d9a27ae6d26712a7b6a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309423"
 ---
-# <a name="recordset2lastmodified-property-dao"></a>Recordset2.LastModified 属性 (DAO)
+# <a name="recordset2lastmodified-property-dao"></a>LastModified 属性 (DAO) Recordset2
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 返回一个书签，该书签指示最近添加或更改的记录。
 
@@ -25,7 +25,7 @@ ms.locfileid: "28712860"
 
 *表达式*。LastModified
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 

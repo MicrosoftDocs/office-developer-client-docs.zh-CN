@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0f82ace31a991a6700417d4c0d66bf775fcb7b26
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293775"
 ---
 # <a name="document-object-dao"></a>Document 对象 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Document** 对象包含有关对象实例的信息。该对象可以是数据库、保存的表、查询或关系（仅适用于 Microsoft Access 数据库引擎数据库）。
 
@@ -39,8 +39,8 @@ ms.locfileid: "28710795"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Database</p></td>
-<td><p>Databases</p></td>
+<td><p>数据库</p></td>
+<td><p>数据库</p></td>
 <td><p>保存的数据库</p></td>
 </tr>
 <tr class="even">
@@ -49,7 +49,7 @@ ms.locfileid: "28710795"
 <td><p>保存的表或查询</p></td>
 </tr>
 <tr class="odd">
-<td><p>Relationship</p></td>
+<td><p>关系</p></td>
 <td><p>Relations</p></td>
 <td><p>保存的关系</p></td>
 </tr>
@@ -75,9 +75,9 @@ ms.locfileid: "28710795"
 
 - **Documents**(0)
 
-- **文档**（"*name*"）
+- **文档**("*名称*")
 
-- **文档**\!\[*名称*\]
+- ****\!文档\[*名称*\]
 
 ## <a name="example"></a>示例
 

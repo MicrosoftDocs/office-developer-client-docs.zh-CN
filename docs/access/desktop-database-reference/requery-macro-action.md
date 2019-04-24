@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8b90af8d1cda073ffa37022bb5db5e8cf8e3b978
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306704"
 ---
 # <a name="requery-macro-action"></a>Requery 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **Requery** 操作通过重新查询控件的数据源来更新活动数据库对象上指定控件中的数据。如果未指定任何控件，此操作将重新查询对象的数据源本身。使用此操作可以确保活动对象或它的其中一个控件显示的是最新数据。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **Requery** 操作具有以下参数。
 
@@ -48,7 +48,7 @@ ms.locfileid: "28705986"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **Requery** 操作执行下列操作之一：
 
@@ -57,24 +57,24 @@ ms.locfileid: "28705986"
 - 显示所有新的或更改的记录，并从控件或对象所基于的表中删除所有已删除的记录。
 
 > [!NOTE]
-> [!注释] **Requery** 操作不影响记录指针的位置。
+> **Requery** 操作不影响记录指针的位置。
 
 基于查询或表的控件包括：
 
 - 列表框和组合框。
 
-- 子窗体/子报表控件。
+- 子窗体控件。
 
 - OLE 对象，如图表。
 
-- 包含域聚合函数的控件，如 **DSum** 。
+- 包含域聚合函数的控件，如 **DSum**。
 
 如果指定的控件并不基于查询或表，此操作将强行对该控件进行重新计算。
 
-如果将**控件名称**参数留空，则**Requery**操作具有对象具有焦点时按 SHIFT + F9 相同的效果。 如果子窗体控件具有焦点，该操作将只重新查询子窗体的数据源（就像按 Shift+F9 一样）。
+If you leave the **Control Name** argument blank, the **Requery** action has the same effect as pressing SHIFT+F9 when the object has the focus. If a subform control has the focus, this action requeries only the source of the subform (just as pressing SHIFT+F9 does).
 
 > [!NOTE]
 > [!注释] **Requery** 操作重新查询控件或对象的数据源。而 **RepaintObject** 操作重画则指定对象中的控件，但不重新查询数据库或者显示新记录。 **ShowAllRecords** 操作不仅重新查询活动对象，它还删除所有已应用的筛选，而 **Requery** 操作不这么做。
 
-如果要重新查询的控件不在活动对象上，则必须在 Visual Basic for Applications (VBA) 模块中使用 **Requery** 方法，而不是使用 **Requery** 操作或者与之对应的 **DoCmd** 对象的 **Requery** 方法。 VBA 中的 **Requery** 方法比 **Requery** 操作或 **DoCmd.Requery** 方法更快。 此外，在使用 **Requery** 操作或 **DoCmd.Requery** 方法时，Microsoft Access 会关闭查询并从数据库中重新加载它，但在使用 **Requery** 方法时，Access 会重新运行查询，而不关闭并重新加载它。 请注意，ActiveX 数据对象 (ADO) **Requery**方法访问**Requery**方法方式相同。
+如果要重新查询的控件不在活动对象上，则必须在 Visual Basic for Applications (VBA) 模块中使用 **Requery** 方法，而不是使用 **Requery** 操作或者与之对应的 **DoCmd** 对象的 **Requery** 方法。 VBA 中的 **Requery** 方法比 **Requery** 操作或 **DoCmd.Requery** 方法更快。 此外，在使用 **Requery** 操作或 **DoCmd.Requery** 方法时，Microsoft Access 会关闭查询并从数据库中重新加载它，但在使用 **Requery** 方法时，Access 会重新运行查询，而不关闭并重新加载它。 请注意, ActiveX 数据对象 (ADO) **Requery**方法的工作方式与 Access **Requery**方法的工作方式相同。
 

@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5b294af16498778eae94b38a7a31b93fd029585e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295378"
 ---
 # <a name="create-user-or-group-statement-microsoft-access-sql"></a>CREATE USER 或 GROUP 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 新建一个或多个用户或组。
 
@@ -24,11 +24,11 @@ ms.locfileid: "28710921"
 
 ### <a name="create-a-user"></a>创建用户
 
-CREATE USER *user* *密码 pid* \[，*用户**密码 pid*，...\]
+创建用户*用户**密码 pid* \[,*用户**密码 pid*, .。。\]
 
 ### <a name="create-a-group"></a>创建组
 
-创建组*组* *pid*\[，*组* *pid*，...\]
+创建组*组* *pid*\[,*组* *pid*, .。。\]
 
 CREATE USER 或 GROUP 语句包含以下部分：
 
@@ -39,13 +39,13 @@ CREATE USER 或 GROUP 语句包含以下部分：
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>用户</em></p></td>
+<td><p><em>user</em></p></td>
 <td><p>要添加到工作组信息文件中的用户的名称。</p></td>
 </tr>
 <tr class="even">
@@ -53,7 +53,7 @@ CREATE USER 或 GROUP 语句包含以下部分：
 <td><p>要添加到工作组信息文件中的组的名称。</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>password</em></p></td>
+<td><p><em>口令</em></p></td>
 <td><p>与指定的 <em>user</em> 名称相关联的密码。</p></td>
 </tr>
 <tr class="even">
@@ -64,9 +64,9 @@ CREATE USER 或 GROUP 语句包含以下部分：
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-*用户*和*组*不能具有相同的名称。
+*user* 和 *group* 不能同名。
 
-*密码*，则需要为每个*用户*或*组*的创建。
+所创建的每个 *user* 或 *group* 必须要有 *password*。
 

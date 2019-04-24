@@ -1,5 +1,5 @@
 ---
-title: Recordset2.GetRows 方法 (DAO)
+title: Recordset2 方法 (DAO)
 TOCTitle: GetRows Method
 ms:assetid: e5c0a082-e9d2-359f-fed5-835ab91d2311
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835959(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d7b20e2f41074e9f12198477a6abf2f1f1f9f719
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309413"
 ---
-# <a name="recordset2getrows-method-dao"></a>Recordset2.GetRows 方法 (DAO)
+# <a name="recordset2getrows-method-dao"></a>Recordset2 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 检索 **[Recordset](recordset-object-dao.md)** 对象中的多行。
 
@@ -24,9 +24,9 @@ ms.locfileid: "28699105"
 
 *表达式*。GetRows (***NumRows***)
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ ms.locfileid: "28699105"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -60,7 +60,7 @@ Variant
 
 ## <a name="remarks"></a>注解
 
-使用 **GetRows** 方法从 **Recordset** 复制记录。 **GetRows** 返回二维数组。 第一个下标标识字段，第二个下标标识行号。 例如，`intField`代表字段和`intRecord`标识行号：
+使用 **GetRows** 方法从 **Recordset** 复制记录。 **GetRows** 返回二维数组。 第一个下标标识字段，第二个下标标识行号。 例如, `intField`表示字段, 并`intRecord`标识行号:
 
 `avarRecords(intField, intRecord)`
 
@@ -74,15 +74,15 @@ Variant
 
 **GetRows** 返回数据后，avarRecords 变量自动成为二维数组。
 
-如果请求的行数多于可用行数，则 **GetRows** 仅返回可用行的数目。 由于数组的大小进行了调整以适合返回的行数，因此可以使用 Visual Basic for Applications **UBound** 函数确定 **GetRows** 实际上检索了多少行。 例如，如果将结果返回到**Variant**调用 varA 时，您可以使用下面的代码来确定实际返回多少行：
+如果请求的行数多于可用行数，则 **GetRows** 仅返回可用行的数目。 由于数组的大小进行了调整以适合返回的行数，因此可以使用 Visual Basic for Applications **UBound** 函数确定 **GetRows** 实际上检索了多少行。 例如, 如果您将结果返回到一个名为 varA 的**Variant** , 则可以使用以下代码来确定实际返回的行数:
 
 `numReturned = UBound(varA,2) + 1`
 
-需要使用 "+ 1"，因为返回的第一行位于数组的 0 元素中。可以检索的行数受可用内存量的限制。如果表较大的话，不应使用 **GetRows** 将整个表检索到数组中。
+需要使用 "+ 1"，因为返回的第一行位于数组的 0 元素中。 可以检索的行数受可用内存量的限制。 如果表较大的话，不应使用 **GetRows** 将整个表检索到数组中。
 
 由于 **GetRows** 将 **Recordset** 的所有字段返回到包括"备注"和"长二进制"型字段的数组中，因此可能需要使用能够限制返回字段的查询。
 
-调用 **GetRows** 后，当前记录将被定位在下一个未读行上。 即**GetRows**具有**移动**numrows 对当前记录相同的效果。
+调用 **GetRows** 后，当前记录将被定位在下一个未读行上。 即, **GetRows**对当前记录具有与**Move**numrows 相同的效果。
 
 如果尝试使用多个 **GetRows** 调用检索所有行，请使用 **[EOF](recordset2-eof-property-dao.md)** 属性，以确保位于 **Recordset** 的末尾。如果 **GetRows** 位于 **Recordset** 的末尾，或者无法在请求的范围内检索到某行，那么它返回的结果数将少于请求数目。例如，如果您尝试检索 10 条记录，但是无法检索第 5 条记录， **GetRows** 将返回 4 条记录，同时将第 5 条记录设置为当前记录。这不会生成运行时错误。如果另一个用户删除了动态集类型 **Recordset** 中的某条记录，则可能发生这种情况。有关如何处理这种情况的演示，请参阅示例。
 

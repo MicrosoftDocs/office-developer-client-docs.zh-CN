@@ -1,5 +1,5 @@
 ---
-title: Field2.OrdinalPosition 属性 (DAO)
+title: OrdinalPosition 属性 (DAO)
 TOCTitle: OrdinalPosition Property
 ms:assetid: 55d89611-ad07-990d-fc33-f81d59472430
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194179(v=office.15)
@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 26d37bfda90f2ab4e2627b936d3cf37b5be811d5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292725"
 ---
-# <a name="field2ordinalposition-property-dao"></a>Field2.OrdinalPosition 属性 (DAO)
+# <a name="field2ordinalposition-property-dao"></a>OrdinalPosition 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
-设置或返回 **Field2** 对象在 **[Fields](fields-collection-dao.md)** 集合中的相对位置。
+设置或返回**Field2**对象在**[Fields](fields-collection-dao.md)** 集合中的相对位置。 .
 
 ## <a name="syntax"></a>语法
 
@@ -48,38 +48,37 @@ ms.locfileid: "28726328"
 <thead>
 <tr class="header">
 <th><p>如果 Fields 集合属于</p></th>
-<th><p>
-则 OrdinalPosition</p></th>
+<th><p>则 OrdinalPosition</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Index</strong>对象</p></td>
+<td><p><strong>Index</strong> 对象</p></td>
 <td><p>不支持</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong>对象</p></td>
+<td><p><strong>QueryDef</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong>对象</p></td>
+<td><p><strong>Recordset</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong>对象</p></td>
-<td><p>不支持</p></td>
+<td><p><strong>Relation</strong> 对象</p></td>
+<td><p>不受支持</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TableDef</strong>对象</p></td>
+<td><p><strong>TableDef</strong> 对象</p></td>
 <td><p>读/写</p></td>
 </tr>
 </tbody>
 </table>
 
 
-一般而言，追加到集合中的对象的排序位置取决于追加对象时遵循的顺序。第一个追加的对象位于第一个位置 (0)，第二个追加的对象位于第二个位置 (1)，以此类推。最后一个追加的对象位于排序位置 count - 1 的位置，其中 count 是集合中的对象数，该数目由 **[Count](containers-count-property-dao.md)** 属性设置指定。
+一般而言，追加到集合中的对象的排序位置取决于追加对象时遵循的顺序。 第一个追加的对象位于第一个位置 (0)，第二个追加的对象位于第二个位置 (1)，以此类推。 最后追加的对象的序号位置计数-1, 其中 count 是集合中的对象数, 由**[count](containers-count-property-dao.md)** 属性设置指定。
 
-可以使用 **OrdinalPosition** 属性，为新的 **Field2** 对象指定一个与将这些对象追加到集合时的顺序不同的排序位置。 这样，当您在应用程序中使用表、查询和记录集时，可以为它们指定字段顺序。 例如，在选择返回字段的顺序\*查询由当前**OrdinalPosition**属性值。
+可以使用 **OrdinalPosition** 属性，为新的 **Field2** 对象指定一个与将这些对象追加到集合时的顺序不同的排序位置。 这样，当您在应用程序中使用表、查询和记录集时，可以为它们指定字段顺序。 例如, 在选择\*查询中返回字段的顺序由当前的**OrdinalPosition**属性值决定。
 
 可通过将 **OrdinalPosition** 属性设置为任何正整数，永久地重置在记录集中返回字段时遵循的顺序。
 
@@ -89,7 +88,7 @@ ms.locfileid: "28726328"
 
 
 > [!NOTE]
-> 即使尚未刷新**[TableDef](tabledef-object-dao.md)** 对象的**Fields**集合，从**TableDef**打开**[Recordset](recordset-object-dao.md)** 中的字段顺序将反映**TableDef**对象的**OrdinalPosition**数据。 表类型 **Recordset** 与基础表具有相同的 **OrdinalPosition** 数据，但是其他任何类型的 **Recordset** 将具有新的 **OrdinalPosition** 数据（由 0 开始），并且该数据遵循 **TableDef** 的 **OrdinalPosition** 数据确定的顺序。
+> 即使未刷新**[TableDef](tabledef-object-dao.md)** 对象的**Fields**集合, 从**TableDef**中打开的**[Recordset](recordset-object-dao.md)** 中的字段顺序也将反映**TableDef**对象的**OrdinalPosition**数据。 表类型 **Recordset** 与基础表具有相同的 **OrdinalPosition** 数据，但是其他任何类型的 **Recordset** 将具有新的 **OrdinalPosition** 数据（由 0 开始），并且该数据遵循 **TableDef** 的 **OrdinalPosition** 数据确定的顺序。
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: QueryDef.Prepare 属性 (DAO)
+title: QueryDef 属性 (DAO)
 TOCTitle: Prepare Property
 ms:assetid: d5a285c4-bd00-028b-b785-f1890db29bab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835035(v=office.15)
@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ac05510a218d1cf4cf925acc2ca8908b7bcbcd03
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303267"
 ---
-# <a name="querydefprepare-property-dao"></a>QueryDef.Prepare 属性 (DAO)
+# <a name="querydefprepare-property-dao"></a>QueryDef 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="syntax"></a>语法
 
-*表达式*。准备
+*表达式*。份
 
 *表达式*一个代表**QueryDef**对象的变量。
 
@@ -34,7 +34,7 @@ ms.locfileid: "28704726"
 
 创建存储过程可能降低初始操作的速度，但是提高了对该查询的所有后续引用的性能。不过，某些查询不能以存储过程的形式来执行。在这种情况下，您必须将 **Prepare** 属性设置为 **dbQUnprepare**。
 
-如果**Prepare**设置为**dbQPrepare**，这可以通过将**[Execute](querydef-execute-method-dao.md)** 方法的 options 参数设置为**一设置**执行查询时覆盖。
+如果**Prepare**设置为**dbQPrepare**, 则可以在执行查询时通过将**[Execute](querydef-execute-method-dao.md)** 方法的 options 参数设置为**这一设置**来覆盖此设置。
 
 > [!NOTE]
 > [!注释] 一旦设置了 DAO [**SQL**](querydef-sql-property-dao.md) 属性，就会调用 ODBC **SQLPrepare** API。因此，如果您希望使用 **dbQUnprepare** 选项来提高性能，则必须在设置 **SQL** 属性之前设置 **Prepare** 属性。

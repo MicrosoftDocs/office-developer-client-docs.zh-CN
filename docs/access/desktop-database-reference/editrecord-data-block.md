@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 32ddfbbf21e62d5967fa1f2f31bab0222664eb39
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293593"
 ---
 # <a name="editrecord-data-block"></a>EditRecord 数据块
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 您可以使用 **EditRecord** 数据块更改现有记录中包含的值。
 
 > [!NOTE]
-> [!注释] **EditRecord** 数据块仅适用于数据宏。
+> **EditRecord** 数据块仅适用于数据宏。
 
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **EditRecord** 数据块具有以下参数。
 
@@ -42,12 +42,12 @@ ms.locfileid: "28715751"
 <tbody>
 <tr class="odd">
 <td><p><strong>Alias</strong></p></td>
-<td><p>一个用于标识要编辑的记录的字符串。如果未指定 <em>Alias</em> 参数，则编辑当前记录。</p></td>
+<td><p>一个用于标识要编辑的记录的字符串。 如果未指定 <em>Alias</em> 参数，则编辑当前记录。</p></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 可在 **EditRecord** 语句之后插入将在提交记录更改之前执行的命令块。以下操作适用于 **EditRecord** 数据块。
 
@@ -66,7 +66,7 @@ ms.locfileid: "28715751"
 <td><p><a href="group-macro-statement.md">Group 宏语句</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">如果...然后...Else 宏语句</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If .。。然后 .。。Else 宏语句</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">SetField 宏操作</a></p></td>
@@ -83,7 +83,7 @@ ms.locfileid: "28715751"
 
 若要取消编辑记录，可使用 **CancelRecordChange** 操作。此操作将阻止提交更改并退出 **EditRecord** 数据块。
 
-您可以使用 **LastCreateRecordIdentity** 本地变量来处理在 **CreateRecord** 数据块中创建的最后一条记录。 例如，使用以下语法引用 AssignedTo 字段的最近创建的记录：
+您可以使用 **LastCreateRecordIdentity** 本地变量来处理在 **CreateRecord** 数据块中创建的最后一条记录。 例如, 使用以下语法来引用最近创建的记录的 "分配给" 字段:
 
 `[LastCreateRecordIdentity].[AssignedTo]`
 

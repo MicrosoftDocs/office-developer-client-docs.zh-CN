@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8ef030ff22bd323fbbb9b080c84878f98c587fcd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300915"
 ---
 # <a name="querydeftypeenum-enumeration-dao"></a>QueryDefTypeEnum 枚举 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 与 **Type** 属性一起用来指定 **QueryDef** 对象的类型。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28704796"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>值</p></th>
 <th><p>说明</p></th>
 </tr>
@@ -52,7 +52,7 @@ ms.locfileid: "28704796"
 </tr>
 <tr class="even">
 <td><p>dbQCrosstab</p></td>
-<td><p>16</p></td>
+<td><p>位</p></td>
 <td><p>交叉表查询</p></td>
 </tr>
 <tr class="odd">

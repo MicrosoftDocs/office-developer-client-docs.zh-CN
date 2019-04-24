@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e7825d55c6f0c2f900f61a325265dce048f965e5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308279"
 ---
 # <a name="xml-persistence-format"></a>XML 暂留格式
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="xml-persistence-format"></a>XML 持久化格式
 
@@ -66,7 +66,7 @@ xmlns:z="#RowsetSchema">
 
 架构定义遵循 XML 数据规范，而且可以进行充分验证（但在 Internet Explorer 5 中无法进行验证）。您可以访问 [W3C XMLData 说明](https://www.w3.org/TR/1998/NOTE-XML-data-0105/)来查看此规范。目前，XML 数据是 **Recordset** 持久化所支持的唯一架构格式。
 
-数据节中有三行包含有关货主的信息。 一个空的行集的数据部分可以为空，但`<rs:data>`标记必须存在。 任何数据，您可以编写标记简写，只需`<rs:data>`。 以"rs"开头的任何标记指示它位于由 urn:schemas-microsoft-com:rowset 定义的命名空间中。 此架构的完整定义在本文档的附录部分中进行了定义。
+数据节中有三行包含有关货主的信息。 对于空的行集, data 节可能为空, 但必须`<rs:data>`存在标记。 如果没有数据, 则可以简单地`<rs:data>`编写标记简写。 以“rs”开头的任何标记指示它位于由 urn:schemas-microsoft-com:rowset 定义的命名空间中。 此架构的完整定义在本文档的附录部分中进行了定义。
 
 ## <a name="xml-persistence-format"></a>XML 持久化格式
 
@@ -116,5 +116,5 @@ xmlns:z="#RowsetSchema">
 
 架构定义遵循 XML 数据规范，而且可以进行充分验证（但在 Internet Explorer 5 中无法进行验证）。您可以访问 [W3C XMLData 说明](https://www.w3.org/TR/1998/NOTE-XML-data-0105/)来查看此规范。目前，XML 数据是 **Recordset** 持久化所支持的唯一架构格式。
 
-数据节中有三行包含有关货主的信息。 一个空的行集的数据部分可以为空，但`<rs:data>`标记必须存在。 任何数据，您可以编写标记简写，只需`<rs:data>`。 以"rs"开头的任何标记指示它位于由 urn:schemas-microsoft-com:rowset 定义的命名空间中。 此架构的完整定义在本文档的附录部分中进行了定义。
+数据节中有三行包含有关货主的信息。 对于空的行集, data 节可能为空, 但必须`<rs:data>`存在标记。 如果没有数据, 则可以简单地`<rs:data>`编写标记简写。 以“rs”开头的任何标记指示它位于由 urn:schemas-microsoft-com:rowset 定义的命名空间中。 此架构的完整定义在本文档的附录部分中进行了定义。
 

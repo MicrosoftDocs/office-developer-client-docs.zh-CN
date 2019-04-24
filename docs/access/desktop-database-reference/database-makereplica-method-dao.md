@@ -1,5 +1,5 @@
 ---
-title: Database.MakeReplica 方法 (DAO)
+title: MakeReplica 方法 (DAO)
 TOCTitle: MakeReplica Method
 ms:assetid: b6bf4982-0804-12ce-849f-d2b4ac2e48a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822413(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 9b9e2eac360d157f28b986b6598ade58b8c34ec6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294916"
 ---
-# <a name="databasemakereplica-method-dao"></a>Database.MakeReplica 方法 (DAO)
+# <a name="databasemakereplica-method-dao"></a>MakeReplica 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 根据另一个数据库副本制作一个新的副本（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。MakeReplica （***路径名***，在***说明***中，***选项***）
+*表达式*。MakeReplica (***PathName***,***说明***,***选项***)
 
 *表达式*一个代表**Database**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28711964"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -52,10 +52,10 @@ ms.locfileid: "28711964"
 <td><p><em>PathName</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>新副本的路径和文件名。如果 replica 是一个现有的文件名，则会发生错误。</p></td>
+<td><p>新副本的路径和文件名。 如果 replica 是一个现有的文件名，则会发生错误。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>说明</em></p></td>
+<td><p><em>Description</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>一个 <strong>String</strong>，用于描述所创建的副本</p></td>
@@ -64,7 +64,7 @@ ms.locfileid: "28711964"
 <td><p><em>Options</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>一个<strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong>常量，指定要创建的副本的特征。</p></td>
+<td><p>一个<strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong>常量, 指定要创建的副本的特征。</p></td>
 </tr>
 </tbody>
 </table>
@@ -76,7 +76,7 @@ ms.locfileid: "28711964"
 
 ## <a name="example"></a>示例
 
-此函数使用 **MakeReplica** 方法创建现有设计母版的附加副本。 IntOptions 参数可以是组合的常量**dbRepMakeReadOnly**和**dbRepMakePartial**，也可以是 0。 例如，若要创建只读的部分副本，您应传递值**dbRepMakeReadOnly** + **dbRepMakePartial**作为 intOptions 的值。
+此函数使用 **MakeReplica** 方法创建现有设计母版的附加副本。 intOptions 参数可以是常量**dbRepMakeReadOnly**和**dbRepMakePartial**的组合, 也可以是0。 例如, 若要创建只读的部分副本, 应将值**dbRepMakeReadOnly** + **dbRepMakePartial**作为 intOptions 的值传递。
 
 ```vb 
 Function MakeAdditionalReplica(strReplicableDB As _ 

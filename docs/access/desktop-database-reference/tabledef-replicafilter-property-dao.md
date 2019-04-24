@@ -1,5 +1,5 @@
 ---
-title: TableDef.ReplicaFilter 属性 (DAO)
+title: ReplicaFilter 属性 (DAO) TableDef
 TOCTitle: ReplicaFilter Property
 ms:assetid: f44273de-2b6a-750f-cb7c-12c3ac2da503
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836681(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ba296701faebb32696741a742b7fe01660b74c46
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302784"
 ---
-# <a name="tabledefreplicafilter-property-dao"></a>TableDef.ReplicaFilter 属性 (DAO)
+# <a name="tabledefreplicafilter-property-dao"></a>ReplicaFilter 属性 (DAO) TableDef
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 设置或返回部分副本中的 **[TableDef](tabledef-object-dao.md)** 对象中的一个值，用于指示哪部分记录从完全副本复制到该表中（仅适用于 Microsoft Access 工作区）。
 

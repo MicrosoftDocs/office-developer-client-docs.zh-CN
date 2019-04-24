@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: dae5718e7b4cb609cb50bd65ee6e2486f4ebaab6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294027"
 ---
 # <a name="deleteobject-macro-action"></a>DeleteObject 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **DeleteObject** 操作删除指定的数据库对象。
 
@@ -49,15 +49,15 @@ ms.locfileid: "28700092"
 </tr>
 <tr class="even">
 <td><p><strong>对象名称</strong></p></td>
-<td><p>要删除的对象的名称。 <strong>对象名称</strong>框中显示<strong>对象类型</strong>参数所选类型的数据库中的所有对象。 如果<strong>对象类型</strong>框为空，还应将此框留空。 如果在类库数据库中运行包含 <strong>DeleteObject</strong> 操作的宏，Microsoft Office Access 2007 将先在该类库数据库中查找具有此名称的对象，然后再在当前数据库中查找。</p></td>
+<td><p>要删除的对象的名称。 “对象名称”<strong></strong>框会显示数据库中属于“对象类型”<strong></strong>参数所选的类型的所有对象。 如果将“对象类型”<strong></strong>框留空，请将此框也留空。 如果在类库数据库中运行包含 <strong>DeleteObject</strong> 操作的宏，Microsoft Office Access 2007 将先在该类库数据库中查找具有此名称的对象，然后再在当前数据库中查找。</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!WARNING]
-> 如果**对象类型**和**对象名称**框为空，则 Access 将删除而不在遇到**DeleteObject**操作时显示一条警告消息在导航窗格中选择的对象。
+> If you leave the **Object Type** and **Object Name** boxes blank, Access deletes the object selected in the Navigation Pane without displaying a warning message when it encounters the **DeleteObject** action.
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 可以使用 **DeleteObject** 操作删除在运行宏期间创建的临时对象。例如，可以使用 **OpenQuery** 操作运行创建临时表的生成表查询。在使用完临时表后，可以使用 **DeleteObject** 操作将其删除。
 

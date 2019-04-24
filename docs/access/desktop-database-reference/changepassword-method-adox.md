@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: df67774b9b38b5fbcc836a2ea0dfc17886d67107
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296526"
 ---
 # <a name="changepassword-method-adox"></a>ChangePassword 方法 (ADOX)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 更改用户帐户的密码。
 
 ## <a name="syntax"></a>语法
 
-*用户*。ChangePassword*旧密码* *NewPassword*
+*用户*。ChangePassword*OldPassword*, *NewPassword*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
-|*旧密码* |一个指定用户现有密码的 **String** 值。如果该用户当前没有密码，则使用空字符串 ("") 作为 *OldPassword*。|
-|*新密码* |一个指定新密码的 **String** 值。|
+|*OldPassword* |一个指定用户现有密码的 **String** 值。 如果该用户当前没有密码，则使用空字符串 ("") 作为 *OldPassword*。|
+|*NewPassword* |一个指定新密码的 **String** 值。|
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 出于安全原因，除了新密码之外还必须指定旧密码。
 

@@ -1,5 +1,5 @@
 ---
-title: Field2.Type 属性 (DAO)
+title: Field2 属性 (DAO)
 TOCTitle: Type Property
 ms:assetid: 057d6ec9-b72c-cee6-005a-6d916e3dda29
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844921(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4da32f18a2b3e9dddbb0ae04e3257de34ba09761
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292662"
 ---
-# <a name="field2type-property-dao"></a>Field2.Type 属性 (DAO)
+# <a name="field2type-property-dao"></a>Field2 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-设置或返回一个值，该值指示对象的操作类型或数据类型。可读写 **Integer**。
+设置或返回一个值，该值指示对象的操作类型或数据类型。 可读/写 **Integer** 类型。
 
 ## <a name="syntax"></a>语法
 
@@ -63,7 +63,7 @@ ms.locfileid: "28699784"
 </tr>
 <tr class="odd">
 <td><p><strong>dbChar</strong></p></td>
-<td><p>字符</p></td>
+<td><p>Char</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbCurrency</strong></p></td>
@@ -79,11 +79,11 @@ ms.locfileid: "28699784"
 </tr>
 <tr class="odd">
 <td><p><strong>dbDouble</strong></p></td>
-<td><p>Double</p></td>
+<td><p>双精度</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
-<td><p>Float</p></td>
+<td><p>点数</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
@@ -103,7 +103,7 @@ ms.locfileid: "28699784"
 </tr>
 <tr class="odd">
 <td><p><strong>dbMemo</strong></p></td>
-<td><p>Memo</p></td>
+<td><p>备注</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbNumeric</strong></p></td>
@@ -111,7 +111,7 @@ ms.locfileid: "28699784"
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
-<td><p>Single</p></td>
+<td><p>单倍行距</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbText</strong></p></td>
@@ -119,7 +119,7 @@ ms.locfileid: "28699784"
 </tr>
 <tr class="odd">
 <td><p><strong>dbTime</strong></p></td>
-<td><p>时间</p></td>
+<td><p>Time</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>

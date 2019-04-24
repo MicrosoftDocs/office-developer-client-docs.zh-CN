@@ -1,5 +1,5 @@
 ---
-title: 错误成员 (DAO)
+title: Errors 成员 (DAO)
 TOCTitle: Errors Members
 ms:assetid: 7e7eb080-16dc-c873-af80-6286222cd5b3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196446(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 78e4f74c353990a07ff8c84fa8d984c169d62db9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293383"
 ---
-# <a name="errors-members-dao"></a>错误成员 (DAO)
+# <a name="errors-members-dao"></a>Errors 成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Errors 集合包含所有存储的 Error 对象，这些对象中的每一个都与一个涉及 DAO 的操作有关。
 
@@ -58,8 +58,8 @@ Errors 集合包含所有存储的 Error 对象，这些对象中的每一个都
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="errors-count-property-dao.md">计数</a></strong></p></td>
-<td><p>返回指定集合中的对象数。只读。</p></td>
+<td><p><strong><a href="errors-count-property-dao.md">Count</a></strong></p></td>
+<td><p>返回指定集合中的对象数。 只读。</p></td>
 </tr>
 </tbody>
 </table>

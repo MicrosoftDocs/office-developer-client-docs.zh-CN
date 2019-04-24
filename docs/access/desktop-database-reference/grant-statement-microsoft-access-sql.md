@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4357099f8bcb9b2308b5cda3543949765b8c3420
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292130"
 ---
 # <a name="grant-statement-microsoft-access-sql"></a>GRANT 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 为现有用户或组授予指定的特权。
 
 ## <a name="syntax"></a>语法
 
-GRANT {*privilege*\[， *privilege*，...\]} ON {表*表*|对象*对象*|
+授予 {*特权*\[,*特权*, .。。\]} ON {TABLE *table* |object*对象*|
 
-CONTAINER *container* } TO {*authorizationname*\[， *authorizationname*，...\]}
+容器*容器*} TO {*authorizationname*\[, *authorizationname*, .。。\]}
 
 GRANT 语句包含以下部分：
 
@@ -39,25 +39,25 @@ GRANT 语句包含以下部分：
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>privilege</em></p></td>
-<td><p>要授予的权限。 使用以下关键字指定权限： 选择、 删除、 插入、 更新、 投递、 SELECTSECURITY、 UPDATESECURITY、 DBPASSWORD、 UPDATEIDENTITY、 CREATE、 SELECTSCHEMA、 架构和 UPDATEOWNER。</p></td>
+<td><p><em>小特权</em></p></td>
+<td><p>要授予的特权。 使用以下关键字指定权限: SELECT、DELETE、INSERT、UPDATE、DROP、SELECTSECURITY、UPDATESECURITY、DBPASSWORD、UPDATEIDENTITY、CREATE、SELECTSCHEMA、SCHEMA 和 UPDATEOWNER。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>tablename</em></p></td>
+<td><p><em>名</em></p></td>
 <td><p>任何有效的表名。</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>object</em></p></td>
-<td><p>可以包含任何非表对象。存储查询（视图或过程）就是一个示例。</p></td>
+<td><p>可以包含任何非表对象。 存储查询（视图或过程）就是一个示例。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>container</em></p></td>
+<td><p><em>箱</em></p></td>
 <td><p>有效容器的名称。</p></td>
 </tr>
 <tr class="odd">

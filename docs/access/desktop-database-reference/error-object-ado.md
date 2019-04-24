@@ -1,5 +1,5 @@
 ---
-title: Error 对象的 ActiveX 数据对象 (ADO)
+title: Error 对象-ActiveX 数据对象 (ADO)
 TOCTitle: Error object (ADO)
 ms:assetid: 97e478bf-8b25-03a8-9358-abba5069cba3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249678(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a7c77a59368851f43b5e7bf2275f9f282546fb4b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293481"
 ---
 # <a name="error-object-ado"></a>Error 对象 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 包含有关数据访问错误的详细信息，该错误与涉及提供程序的单个操作相关。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 任何涉及 ADO 对象的操作都可能生成一个或多个提供程序错误。每个错误发生时，系统会将一个或多个 **Error** 对象放在 [Connection](errors-collection-ado.md) 对象的 [Errors](connection-object-ado.md) 集合中。当另一个 ADO 操作生成错误时，系统会清空 **Errors** 集合，并在 **Errors** 集合中放入新的 **Error** 对象集。
 
@@ -40,7 +40,7 @@ ms.locfileid: "28699224"
 
 发生提供程序错误时，该错误会被放入 **Connection** 对象的 **Errors** 集合中。ADO 支持通过一个 ADO 操作返回多个错误，以允许特定于该提供程序的错误信息。若要获取错误处理程序中的这些丰富错误信息，可使用语言或环境的相应错误捕获功能，然后使用嵌套循环来枚举 **Errors** 集合中每个 **Error** 对象的属性。
 
-**Microsoft Visual Basic 和 VBScript 用户**如果没有任何有效的**Connection**对象，您将需要从**Error**对象中检索错误信息。
+**Microsoft Visual Basic 和 VBScript 用户**如果没有有效的**Connection**对象, 则需要从**error**对象中检索错误消息。
 
 就像提供程序一样，ADO 会在进行可能产生新提供程序错误的调用之前，会清除 **OLE Error Info** 对象。但是，只有在提供程序生成新错误时，或者调用 **Clear** 方法时，才会清空 **Connection** 对象的 [Errors](clear-method-ado.md) 集合。
 

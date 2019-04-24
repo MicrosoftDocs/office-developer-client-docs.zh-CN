@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b68d550137e1523cb929aaaaa97e62231331c439
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291284"
 ---
 # <a name="internet-explorer-error-codes"></a>Internet Explorer 错误代码
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 下表列出了与远程数据服务用法有关的 Microsoft Internet Explorer 错误代码，其中显示了两个低位字节的正十进制换算值、完整错误代码的负十进制换算值和十六进制值。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28714890"
 <thead>
 <tr class="header">
 <th><p>Internet Explorer (Wininet) 错误</p></th>
-<th><p>编号</p></th>
+<th><p>帐号</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>

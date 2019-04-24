@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be7d03a4f35cf7b1e1f12126231e4e47013eb78b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703529"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305948"
 ---
 # <a name="windows-registry-settings-for-external-data-sources"></a>外部数据源的 Windows 注册表设置
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 - [自定义 Microsoft Access 数据库引擎的 Windows 注册表设置](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
 - [初始化 Microsoft Excel 驱动程序](initializing-the-microsoft-excel-driver.md)

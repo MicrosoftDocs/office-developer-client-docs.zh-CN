@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 095191bbfe55f2c38529cb1c260979c48dd2d5f1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296344"
 ---
 # <a name="clone-method-ado"></a>Clone 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-用于从现有 [Recordset](recordset-object-ado.md) 对象创建重复的 **Recordset** 对象。还可以指定克隆为只读状态。
+用于从现有 [Recordset](recordset-object-ado.md) 对象创建重复的 **Recordset** 对象。 还可以指定克隆为只读状态。
 
 ## <a name="syntax"></a>语法
 
-**设置***rstDuplicate* =  *rstOriginal*。克隆 (*LockType*)
+**Set***rstDuplicate* =  *rstOriginal*。Clone (*LockType*)
 
 ## <a name="return-value"></a>返回值
 
@@ -30,13 +30,13 @@ ms.locfileid: "28702962"
 
 ## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*rstDuplicate* |一个标识要创建的重复 **Recordset** 对象的对象变量。|
 |*rstOriginal* |对象变量，用于标识要重复的 **Recordset** 对象。|
 |*LockType* |可选。[LockTypeEnum](locktypeenum.md) 值，用于指定原始 **Recordset** 或只读 **Recordset** 的锁类型。有效值为 **adLockUnspecified** 或 **adLockReadOnly** 。|
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 可以使用 **Clone** 方法创建多个重复的 **Recordset** 对象，尤其是要在给定记录集中保留多个当前记录时。使用 **Clone** 方法比采用与原始对象相同的定义创建和打开一个新的 **Recordset** 对象效率更高。
 
@@ -52,7 +52,7 @@ ms.locfileid: "28702962"
 
 触发的某些 **Recordset** 事件也将在所有 **Recordset** 克隆中激发。不过，由于克隆的 **Recordset** 之间的当前记录不同，对于某些克隆而言事件可能无效。
 
-例如，如果更改字段值，则在更改的 [Recordset](willchangefield-and-fieldchangecomplete-events-ado.md) 和所有克隆中都将发生 **WillChangeField** 事件。 （其中不进行更改） 克隆**Recordset**的**WillChangeField**事件的*字段*参数将只需引用克隆，这可能比当前另一条记录成为当前记录的字段的记录原始**Recordset**发生更改。
+例如，如果更改字段值，则在更改的 **Recordset** 和所有克隆中都将发生 [WillChangeField](willchangefield-and-fieldchangecomplete-events-ado.md) 事件。克隆的 **Recordset**（未进行更改）的 **WillChangeField** 事件的 *Fields* 参数只是指克隆的当前记录的字段，该记录可能与发生更改的原始 **Recordset** 的当前记录不同。
 
 下表提供了所有 **Recordset** 事件的完整列表，并指示这些事件是否有效和对于用 **Clone** 方法生成的任何记录集克隆是否会触发这些事件。
 
@@ -105,7 +105,7 @@ ms.locfileid: "28702962"
 <td><p>是</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">在 WillChangeRecordset</a></p></td>
+<td><p><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset</a></p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="odd">

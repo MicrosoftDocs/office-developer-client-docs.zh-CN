@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2229c7580acc6848551103d83b7bfcf981d37bef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295315"
 ---
 # <a name="creating-and-executing-a-simple-command"></a>创建和执行简单的命令
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下代码演示使用 **Command** 对象针对数据源执行命令的基本方法，尽管这不是 **Command** 对象的典型用法。在这种情况下，它是返回行的命令，因此它将命令的执行结果返回到 **Recordset** 对象中。
 
@@ -83,7 +83,7 @@ ErrHandler:
 
 
 > [!NOTE]
-> 本节中的几个示例调用的实用工具函数， **GetNewConnection**，建立与数据提供程序的连接。 若要避免冗余，它列出了仅执行一次：
+> 本节中的几个示例调用实用工具函数**GetNewConnection**, 以与数据提供程序建立连接。 为避免冗余, 仅列出一次:
 
 ```vb 
  

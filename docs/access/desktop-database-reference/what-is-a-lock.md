@@ -1,5 +1,5 @@
 ---
-title: 什么是锁定？ （访问桌面数据库参考 （英文）
+title: 什么是锁定？ (Access desktop database reference)
 TOCTitle: What is a Lock?
 ms:assetid: 9ddc3198-1531-1d8f-153d-fc79847e388a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5e503fd15d9864cc6ab007de031493e321622246
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306760"
 ---
 # <a name="what-is-a-lock"></a>什么是锁定？
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 锁定是一个进程，DBMS 在多用户环境中通过它来限制对行的访问。当某个用户以独占方式锁定行或列时，将不允许其他用户访问锁定数据，直到该锁定被解除。这可确保两个用户不能同时更新某一行中的同一列。
 
@@ -33,7 +33,7 @@ ms.locfileid: "28713420"
 
 当 **Recordset** 处于关闭状态时， **LockType** 属性是可读/写的，当记录集处于打开状态时，该属性是只读的。
 
-本节包括下列主题：
+本部分包含以下主题:
 
 - [锁定的类型](types-of-locks.md)
 

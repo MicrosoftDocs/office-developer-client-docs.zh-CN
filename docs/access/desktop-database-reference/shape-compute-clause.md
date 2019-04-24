@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eadc448d59814f0573a959c6c1038f9c4afdbac9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306452"
 ---
 # <a name="shape-compute-clause"></a>Shape Compute 子句
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-shape COMPUTE 子句可以生成父 **Recordset** ，该记录集的列由以下项组成：对子 **Recordset** 的引用；其内容为章节列、新列或计算列的可选列，或者是对子 **Recordset** 或以前定形的 **Recordset** 执行聚合函数的结果；以及在可选的 BY 子句中列出的子 **Recordset** 中的任何列。
+shape COMPUTE 子句可以生成父 **Recordset**，该记录集的列由以下项组成：对子 **Recordset** 的引用；其内容为章节列、新列或计算列的可选列，或者是对子 **Recordset** 或以前定形的 **Recordset** 执行聚合函数的结果；以及在可选的 BY 子句中列出的子 **Recordset** 中的任何列。
 
 ## <a name="syntax"></a>语法
 
@@ -37,7 +37,7 @@ SHAPE child-command [AS] child-alias
 
   - 由下列各项之一组成：
     
-    - 返回子 {} 对象的查询命令，放在大括号（"****"）中。该命令向基础数据提供程序发出，其语法取决于该提供程序的要求。这通常是 SQL 语言，但 ADO 不需要任何特定的查询语言。
+    - 一个返回子**Recordset**对象的大括号{}("") 内的查询命令。 该命令向基础数据提供程序发出，其语法取决于该提供程序的要求。 这通常是 SQL 语言，但 ADO 不需要任何特定的查询语言。
     
     - 现有已构形 **Recordset** 的名称。
     
@@ -47,7 +47,7 @@ SHAPE child-command [AS] child-alias
 
 - *child-alias*
 
-  - 用于引用**Recordset**的别名返回*子命令。* *子别名*所需的 COMPUTE 子句中的列的列表中，并定义父和子**Recordset**对象之间的关系。
+  - 别名，用于引用由 *child-command* 返回的 **Recordset**。*child-alias* 在 COMPUTE 子句的列的列表中是必需的，它定义了父和子 **Recordset** 对象之间的关系。
 
 - *appended-column-list*
 
@@ -55,7 +55,7 @@ SHAPE child-command [AS] child-alias
 
 - *grp-field-list*
 
-  - 父和子 **Recordset** 对象中列的列表，用于指定在子记录集中应当如何对行进行分组。 对于*组字段列表*中的每个列在子和父**Recordset**对象中没有对应的列。 *组字段列表*列的父**Recordset**中的各行，具有唯一值和的子**记录集**由父行引用只包含子行其*组字段列表*列具有相同的值父行。
+  - 父和子 **Recordset** 对象中列的列表，用于指定在子记录集中应当如何对行进行分组。 对于 *grp-field-list* 中的每个列，在子和父 **Recordset** 对象中都有相应的列。 对于父 **Recordset** 中的每个行，*grp-field-list* 列都有唯一的值，父行所引用的子 **Recordset** 仅由其 *grp-field-list* 列与父行具有相同值的子行组成。
 
 如果包含 BY 子句，将基于 COMPUTE 子句中的列对子 **Recordset** 的行进行分组。对于子 **Recordset** 中的每一组行，父 **Recordset** 将相应包含一行。
 
@@ -68,11 +68,11 @@ SHAPE child-command [AS] child-alias
        COMPUTE orders, SUM(orders.OrderAmount) as TotalSales
 ```
 
-不管采用什么方式形成父 **Recordset** （使用 COMPUTE 或使用 APPEND），它都将包含用来将它与子 **Recordset** 相关的章节列。如果愿意，父 **Recordset** 所包含的列还可能包含针对子行的聚合（SUM、MIN、MAX 等）。父和子 **Recordset** 所包含的列都可能包含针对 **Recordset** 中的行的表达式，以及最初为空的新列。
+不管采用什么方式形成父 **Recordset**（使用 COMPUTE 或使用 APPEND），它都将包含用来将它与子 **Recordset** 相关的章节列。如果愿意，父 **Recordset** 所包含的列还可能包含针对子行的聚合（SUM、MIN、MAX 等）。父和子 **Recordset** 所包含的列都可能包含针对 **Recordset** 中的行的表达式，以及最初为空的新列。
 
-## <a name="operation"></a>操作
+## <a name="operation"></a>Operation
 
-*子命令*颁发给提供程序，返回子**Recordset**。
+*child-command* 向提供程序发出，提供程序则返回子 **Recordset**。
 
 COMPUTE 子句指定父 **Recordset** 的列，而父记录集则可能是以下项：对子 **Recordset** 的引用、一个或多个聚合、计算表达式或新列。如果有 BY 子句，则它定义的列也将追加到父 **Recordset** 中。BY 子句指定如何对子 **Recordset** 的行进行分组。
 
@@ -86,41 +86,41 @@ COMPUTE 子句指定父 **Recordset** 的列，而父记录集则可能是以下
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>省/市/自治区</p></th>
-<th><p>市/县</p></th>
-<th><p>人口</p></th>
+<th><p>状态</p></th>
+<th><p>城市</p></th>
+<th><p>带来</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>WA</p></td>
-<td><p>Seattle</p></td>
+<td><p>」</p></td>
 <td><p>700000</p></td>
 </tr>
 <tr class="even">
 <td><p>OR</p></td>
 <td><p>Medford</p></td>
-<td><p>200000</p></td>
+<td><p>200,000</p></td>
 </tr>
 <tr class="odd">
 <td><p>OR</p></td>
-<td><p>Portland</p></td>
+<td><p>波特兰</p></td>
 <td><p>400,000</p></td>
 </tr>
 <tr class="even">
-<td><p>CA</p></td>
+<td><p>证书</p></td>
 <td><p>Los Angeles</p></td>
 <td><p>800000</p></td>
 </tr>
 <tr class="odd">
-<td><p>CA</p></td>
+<td><p>证书</p></td>
 <td><p>San Diego</p></td>
 <td><p>600,000</p></td>
 </tr>
 <tr class="even">
 <td><p>WA</p></td>
 <td><p>Tacoma</p></td>
-<td><p>500,000 个</p></td>
+<td><p>500,000</p></td>
 </tr>
 <tr class="odd">
 <td><p>OR</p></td>
@@ -140,7 +140,7 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
            objConnection 
 ```
 
-此命令将打开一个具有两个级别的已构形 **Recordset** 。 父级别是与聚合列 (SUM(rs.population))、 引用子**Recordset** (rs) 的列和分组的子**Recordset** （状态） 的列生成的**Recordset** 。 子层是由查询命令 （）、 引用子**Recordset** (rs) 的列和分组的子**Recordset** （状态） 的列返回的**Recordset** 。 子层是由查询命令返回的**Recordset** (选择\*从人口统计)。
+此命令将打开一个具有两个级别的已构形 **Recordset** 。 父级别是一个生成的**记录集**, 其中包含聚合列 (SUM (rs-232c))、引用子**recordset**的列 (rs) 以及用于对子**recordset**进行分组的列 (state)。 子级别是查询命令 ()、引用子**recordset** (rs) 的列和用于对子**recordset**进行分组的列 (状态) 的**记录集**。 子级别是查询命令**** (从人口统计中选择\* ) 返回的 Recordset。
 
 子 **Recordset** 明细行将按省/市/自治区进行分组，但在其他情况下并没有特定的顺序。就是说，组将不以字母或数字顺序分组。如果想让父 **Recordset** 排序，可以使用 **Recordset** 的 **Sort** 方法对父 **Recordset** 进行排序。
 
@@ -160,22 +160,22 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
 <tr class="header">
 <th><p>SUM (rs.Population)</p></th>
 <th><p>rs</p></th>
-<th><p>省/市/自治区</p></th>
+<th><p>状态</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1,300,000</p></td>
+<td><p>1300000</p></td>
 <td><p>引用 child1</p></td>
-<td><p>CA</p></td>
+<td><p>证书</p></td>
 </tr>
 <tr class="even">
-<td><p>总共花费 1200000</p></td>
+<td><p>1200000</p></td>
 <td><p>引用 child2</p></td>
 <td><p>WA</p></td>
 </tr>
 <tr class="odd">
-<td><p>1,100,000</p></td>
+<td><p>1100000</p></td>
 <td><p>引用 child3</p></td>
 <td><p>OR</p></td>
 </tr>
@@ -193,19 +193,19 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>省/市/自治区</p></th>
-<th><p>市/县</p></th>
-<th><p>人口</p></th>
+<th><p>状态</p></th>
+<th><p>城市</p></th>
+<th><p>带来</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>CA</p></td>
+<td><p>证书</p></td>
 <td><p>Los Angeles</p></td>
 <td><p>800000</p></td>
 </tr>
 <tr class="even">
-<td><p>CA</p></td>
+<td><p>证书</p></td>
 <td><p>San Diego</p></td>
 <td><p>600,000</p></td>
 </tr>
@@ -223,21 +223,21 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>省/市/自治区</p></th>
-<th><p>市/县</p></th>
-<th><p>人口</p></th>
+<th><p>状态</p></th>
+<th><p>城市</p></th>
+<th><p>带来</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>WA</p></td>
-<td><p>Seattle</p></td>
+<td><p>」</p></td>
 <td><p>700000</p></td>
 </tr>
 <tr class="even">
 <td><p>WA</p></td>
 <td><p>Tacoma</p></td>
-<td><p>500,000 个</p></td>
+<td><p>500,000</p></td>
 </tr>
 </tbody>
 </table>
@@ -253,20 +253,20 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>省/市/自治区</p></th>
-<th><p>市/县</p></th>
-<th><p>人口</p></th>
+<th><p>状态</p></th>
+<th><p>城市</p></th>
+<th><p>带来</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>OR</p></td>
 <td><p>Medford</p></td>
-<td><p>200000</p></td>
+<td><p>200,000</p></td>
 </tr>
 <tr class="even">
 <td><p>OR</p></td>
-<td><p>Portland</p></td>
+<td><p>波特兰</p></td>
 <td><p>400,000</p></td>
 </tr>
 <tr class="odd">

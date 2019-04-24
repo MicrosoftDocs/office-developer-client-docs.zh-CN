@@ -1,5 +1,5 @@
 ---
-title: Field2.GetChunk 方法 (DAO)
+title: GetChunk 方法 (DAO)
 TOCTitle: GetChunk method
 ms:assetid: 5d3a66c0-8216-d701-0a91-b79fbbc822b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6a4b850658ca4ab36b0d4f4cbed7266d39b4ff8d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292774"
 ---
-# <a name="field2getchunk-method-dao"></a>Field2.GetChunk 方法 (DAO)
+# <a name="field2getchunk-method-dao"></a>GetChunk 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-返回所有或一部分的**[Recordset](recordset-object-dao.md)** 对象的**[Fields](fields-collection-dao.md)** 集合中的**Memo**或**Long BinaryField2**对象的内容。
+返回**[Recordset](recordset-object-dao.md)** 对象的**[Fields](fields-collection-dao.md)** 集合中的**Memo**或**Long BinaryField2**对象的全部或部分内容。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。GetChunk***偏移***(***字节***）
+*表达式*。GetChunk (***偏移量***、***字节数***)
 
 *表达式*一个代表**Field2**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ ms.locfileid: "28722856"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -51,7 +51,7 @@ ms.locfileid: "28722856"
 <td><p>开始复制前要跳过的字节数。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>字节数</em></p></td>
+<td><p><em>单位</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>要返回的字节数。</p></td>
@@ -68,12 +68,12 @@ Variant
 
 将 **GetChunk** 返回的字节指定给变量。使用 **GetChunk** 每次返回总数据值的一部分。可以使用 **[AppendChunk](field-appendchunk-method-dao.md)** 方法重新组装片段。
 
-如果 offset 为**0,getchunk**将从字段的第一个字节开始。
+如果 offset 为 0, **GetChunk**将从字段的第一个字节开始复制。
 
-如果 numbytes 大于字段中的字节数， **GetChunk**将返回字段中的实际剩余的字节数。
+如果 numbytes 大于字段中的字节数, 则**GetChunk**将返回字段中剩余的实际字节数。
 
 > [!NOTE]
-> [!注释] 对文本使用 **Memo** 字段，只能在 **Long Binary** 字段中放置二进制数据。否则会导致不合需要的结果。
+> [!注释] 对文本使用 **Memo** 字段，只能在 **Long Binary** 字段中放置二进制数据。 否则会导致不合需要的结果。
 
 ## <a name="example"></a>示例
 

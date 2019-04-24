@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 01ca42ff738afe3a35cab6263cdae32ac256f3d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294146"
 ---
 # <a name="defaultdatabase-property-ado"></a>DefaultDatabase 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示 [Connection](connection-object-ado.md) 对象的默认数据库。
 
@@ -25,7 +25,7 @@ ms.locfileid: "28702640"
 
 设置或返回一个 **String** 值，该值可计算为提供程序中可用的数据库的名称。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用 **DefaultDatabase** 属性可以设置或返回特定 **Connection** 对象上的默认数据库的名称。
 
@@ -33,5 +33,5 @@ ms.locfileid: "28702640"
 
 某些数据源和提供程序可能不支持此功能，会返回错误或空字符串。
 
-**远程数据服务用法**此属性不是在客户端**Connection**对象上可用。
+**远程数据服务使用情况**此属性在客户端**Connection**对象上不可用。
 

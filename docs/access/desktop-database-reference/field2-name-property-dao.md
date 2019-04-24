@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 494f8c7fe93d2014db75c30254786e3665981f20
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292753"
 ---
 # <a name="field2name-property-dao"></a>Field2.Name 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 返回或设置指定对象的名称。对于尚未追加到集合中的对象，该属性为可读/写 **String** 类型；对于已追加到集合中的对象，该属性为只读 **String** 类型。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。名称
+*表达式*。别名
 
 *表达式*一个代表**Field2**对象的变量。
 

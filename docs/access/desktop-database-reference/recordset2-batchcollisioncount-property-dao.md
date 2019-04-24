@@ -1,5 +1,5 @@
 ---
-title: Recordset2.BatchCollisionCount 属性 (DAO)
+title: BatchCollisionCount 属性 (DAO) Recordset2
 TOCTitle: BatchCollisionCount Property
 ms:assetid: 997dfbb3-673c-8813-f51b-ab8d95093c4f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197961(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 33650b9fdbaf7fbc9266c8c778199e1138cd5b21
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307481"
 ---
-# <a name="recordset2batchcollisioncount-property-dao"></a>Recordset2.BatchCollisionCount 属性 (DAO)
+# <a name="recordset2batchcollisioncount-property-dao"></a>BatchCollisionCount 属性 (DAO) Recordset2
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="syntax"></a>语法
 
 *表达式*。BatchCollisionCount
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 

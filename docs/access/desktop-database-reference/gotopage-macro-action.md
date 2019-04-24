@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 10d55b435a59594eaf3e8380b6690ebbda63a258
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292158"
 ---
 # <a name="gotopage-macro-action"></a>GoToPage 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **GoToPage** 操作将焦点从活动窗体中移至指定页上的第一个控件上。如果您创建了一个包含若干组相关信息的分页窗体，则可以使用此操作。例如，您可能有一个"员工"窗体，第一页上是个人信息，第二页上是办公室信息，第三页上是销售信息。您可以使用 **GoToPage** 操作移到所需的页。也可以使用选项卡控件将多页信息呈现在单个窗体上。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **GoToPage** 操作具有下列参数。
 
@@ -42,27 +42,27 @@ ms.locfileid: "28712370"
 <tbody>
 <tr class="odd">
 <td><p><strong>页码</strong></p></td>
-<td><p>您想要将焦点移到的页的页码。 在宏生成器窗格的<strong>操作参数</strong>部分的<strong>页码</strong>框中输入的页号。 如果将此参数留空，焦点将停留在当前页上。 <strong>右</strong>和<strong>关闭</strong>参数可用于显示您想要查看页上的一部分。</p></td>
+<td><p>要将焦点移到的页码。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“页码”</strong>框中输入页码。如果将此参数留空，焦点将留在当前页上。可以使用“右”<strong></strong>和“下”<strong></strong>参数显示要查看的页部分。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Right</strong></p></td>
-<td><p>在页上，从页所在窗口，显示在窗口的左边缘的左边缘开始算起的点的水平位置。 如果指定的<strong>向下</strong>参数，这是必需的。</p></td>
+<td><p>显示在窗口左边缘的页中的点的水平位置，此值从所在窗口的左边缘开始测量。如果指定了“下”<strong></strong>参数，则此参数为必选参数。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Down</strong></p></td>
-<td><p>在页上，从页所在窗口，要显示在窗口的上边缘的上边缘开始算起的点的垂直位置。 如果指定<strong>右</strong>参数，这是必需的。</p></td>
+<td><p>显示在窗口上边缘的页中的点的垂直位置，此值从所在窗口的上边缘开始测量。如果指定了“右”<strong></strong>参数，则此参数为必选参数。</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> **右**和**关闭**参数的测量以英寸或厘米，具体取决于 Windows 控制面板中的区域设置。
+> “右”**** 和“下”**** 参数的测量单位是英寸或厘米，具体取决于 Windows 控制面板中的区域设置。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 可以使用此操作选择指定页上的第一个控件（由窗体的 Tab 键次序定义）。使用 **GoToControl** 操作可移至窗体上的特定控件。
 
-可以在页面大于在 Access 窗口中使用窗体**右**和**关闭**的参数。 **页码**参数用于将移动到所需的页，然后使用**右**和**关闭**参数以显示您想要查看页上的一部分。 Access 将显示其左上角存在一定偏移的指定页面的左上角距离页上的一部分。
+您可以对页面大小大于 Access 窗口的窗体使用**右**和**下**参数。 Use the **Page Number** argument to move to the desired page, and then use the **Right** and **Down** arguments to display the part of the page you want to see. Access displays the part of the page whose upper-left corner is offset the specified distance from the upper-left corner of the page.
 
 在以下情况下，不能使用 **GoToPage** 操作：
 

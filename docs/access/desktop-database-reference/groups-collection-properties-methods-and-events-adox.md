@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3c5ba167d659c4448b5fe48ea267ff1d993ba8c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292053"
 ---
 # <a name="groups-collection-properties-methods-and-events-adox"></a>Groups 集合的属性、方法和事件 (ADOX)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="properties"></a>属性
 
@@ -26,8 +26,8 @@ ms.locfileid: "28712398"
 
 ## <a name="methods"></a>方法
 
-- [Append 方法 （组）](append-method-adox-groups.md)
-- [Delete 方法 （集）](delete-method-adox-collections.md)
+- [Append 方法 (Groups)](append-method-adox-groups.md)
+- [Delete 方法 (集合)](delete-method-adox-collections.md)
 - [Refresh 方法](refresh-method-ado.md)
 
 ## <a name="events"></a>事件

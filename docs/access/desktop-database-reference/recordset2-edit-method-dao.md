@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Edit 方法 (DAO)
+title: Recordset2 方法 (DAO)
 TOCTitle: Edit method
 ms:assetid: 34c51eee-274d-3511-b5e2-cb74e4925ec8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192452(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2742b6558c555673937666ea7d27cae1a54fdf73
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309434"
 ---
-# <a name="recordset2edit-method-dao"></a>Recordset2.Edit 方法 (DAO)
+# <a name="recordset2edit-method-dao"></a>Recordset2 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 将当前记录从可更新的 **[Recordset](recordset-object-dao.md)** 对象复制到复制缓冲区，以进行后续编辑。
 
@@ -28,7 +28,7 @@ ms.locfileid: "28707743"
 
 *表达式*。编辑
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 
@@ -37,7 +37,7 @@ ms.locfileid: "28707743"
 使用 **Edit** 方法后，当前记录仍为当前记录。
 
 > [!NOTE]
-> [!注释] 如果在编辑某条记录后执行了转移到另一条记录的任何操作，但是没有事先使用 **Update**，则更改将会丢失且不发出警告。 此外，如果您关闭 recordset 或结束声明**记录集**或父**[数据库](database-object-dao.md)** 或**[连接](connection-object-dao.md)** 对象的过程，您已编辑的记录将不警告的情况下被丢弃。
+> [!注释] 如果在编辑某条记录后执行了转移到另一条记录的任何操作，但是没有事先使用 **Update**，则更改将会丢失且不发出警告。 此外, 如果关闭 recordset 或结束声明**recordset**或父**[数据库](database-object-dao.md)** 或**[连接](connection-object-dao.md)** 对象的过程, 则会放弃所编辑的记录, 而不发出警告。
 
 在以下条件下，使用 **Edit** 将产生错误：
 

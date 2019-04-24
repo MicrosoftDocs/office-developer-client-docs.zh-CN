@@ -1,5 +1,5 @@
 ---
-title: Databases 集合 (DAO)
+title: 数据库集合 (DAO)
 TOCTitle: Databases Collection
 ms:assetid: 988ae6f5-ec15-cd1c-191d-f295624425f4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197944(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dbaa0fe7aaa50c8aec582e2f03cd2849268816b9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294643"
 ---
-# <a name="databases-collection-dao"></a>Databases 集合 (DAO)
+# <a name="databases-collection-dao"></a>数据库集合 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Databases** 集合包含在 **Workspace** 对象中打开或创建的所有打开的 **Database** 对象。
 
@@ -28,11 +28,11 @@ ms.locfileid: "28715548"
 
 若要按照序号或 **Name** 属性设置来引用集合中的 **Database** 对象，可以使用下列任何一种语法形式：
 
-- **Databases**(0)
+- **数据库**0
 
-- **数据库**（"*name*"）
+- **数据库**("*名称*")
 
-- **数据库**\!\[*名称*\]
+- ****\!数据库\[*名称*\]
 
 > [!NOTE]
 > [!注释] 可以多次打开同一个数据源或数据库，这样会在 **Databases** 集合中创建重复的名称。应当将 **Database** 对象分配给对象变量，并通过变量名来引用它们。

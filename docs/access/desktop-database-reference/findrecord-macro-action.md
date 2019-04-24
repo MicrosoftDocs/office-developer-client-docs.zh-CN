@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 086993095daef3ff4ad87aed9f572a09124a9d31
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292370"
 ---
 # <a name="findrecord-macro-action"></a>FindRecord 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **FindRecord** 操作查找符合由 **FindRecord** 参数指定的条件的第一个数据实例。此数据可能在当前记录中，也可能在当前记录之前或之后的记录中，或者在第一条记录中。您可以在活动表数据表、查询数据表、窗体数据表或窗体中查找记录。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **FindRecord** 操作具有下列参数。
 
@@ -42,7 +42,7 @@ ms.locfileid: "28709969"
 <tbody>
 <tr class="odd">
 <td><p><strong>查找内容</strong></p></td>
-<td><p>指定要在记录中查找的数据。 输入文本、 数字或日期您想要查找或键入一个表达式，前面带有等号 (<strong>=</strong>)，在宏生成器窗格的<strong>操作参数</strong>部分的<strong>查找内容</strong>框中。 可以使用通配符。 这是一个必选参数。</p></td>
+<td><p>指定要在记录中查找的数据。 在 "宏生成器" 窗格的 "<strong>操作参数</strong>" 部分的 "查找内容" 框中, 输入要查找的文本<strong>=</strong>、数字或日期, 或在 "<strong>查找内容</strong>" 框中键入一个以等号 () 开头的表达式。 可以使用通配符。 这是一个必选参数。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>匹配</strong></p></td>
@@ -58,9 +58,9 @@ ms.locfileid: "28709969"
 </tr>
 <tr class="odd">
 <td><p><strong>格式化搜索</strong></p></td>
-<td><p>指定搜索是否包括带格式的数据。 单击<strong>是</strong>（Microsoft Office Access 2007 将按其格式并显示在字段中搜索数据） 或<strong>否</strong>（存储在数据库中，这并不总是相同显示时，访问数据的搜索）。 默认值为 <strong>"否"</strong>。 此功能可用于将搜索限制为特定格式的数据。 例如，单击<strong>是</strong>，并在<strong>查找内容</strong>参数来查找格式设置为包含逗号分隔的字段的值为 1234 键入<strong>1234</strong> 。 如果您想要键入<strong>1234年</strong>以搜索此字段中的数据，请单击<strong>否</strong>。 要搜索日期，请单击<strong>是</strong>以查找完全按照它的格式设置，如 2003 年 7 月-08-的日期。 如果您单击<strong>否</strong>，在 Windows 控制面板中的区域设置中设置的格式输入<strong>查找内容</strong>参数的日期。 在区域设置中的<strong>日期</strong>选项卡上找到的<strong>短日期格式</strong>框中显示此格式。 例如，如果<strong>短日期格式</strong>框设置为<strong>d/yy</strong>，可以输入 7/8/03，并对应于 2003 年 7 月 8 日，无论该字段的格式的日期字段中，Access 将查找的所有条目。</p>
-<p><strong>注意</strong>：<strong>格式搜索</strong>参数才会生效，仅在当前字段是绑定的控件，如果<strong>匹配</strong>参数设置为<strong>整个字段</strong>，<strong>只搜索当前字段</strong>参数设置为<strong>是</strong>，和<strong>匹配案例</strong>参数设置为<strong>否</strong>。</p>
-<p>如果您设置为<strong>是</strong>或<strong>只搜索当前字段</strong>为<strong>否</strong><strong>区分大小写</strong>，还必须设置<strong>格式搜索</strong>为<strong>是</strong>。</p></td>
+<td><p>Specifies whether the search includes formatted data. Click <strong>Yes</strong> (Microsoft Office Access 2007 searches for the data as it is formatted and displayed in the field) or <strong>No</strong> (Access searches for the data as it is stored in the database, which isn't always the same as it's displayed). The default is <strong>No</strong>. You can use this feature to restrict the search to data in a particular format. For example, click <strong>Yes</strong> and type <strong>1,234</strong> in the <strong>Find What</strong> argument to find a value of 1,234 in a field formatted to include commas. Click <strong>No</strong> if you want to type <strong>1234</strong> to search for the data in this field. To search for dates, click <strong>Yes</strong> to find a date exactly as it is formatted, such as 08-July-2003. If you click <strong>No</strong>, enter the date for the <strong>Find What</strong> argument in the format that is set in the regional settings in Windows Control Panel. This format is shown in the <strong>Short date format</strong> box found on the <strong>Date</strong> tab in the regional settings. For example, if the <strong>Short date format</strong> box is set to <strong>M/d/yy</strong>, you can enter 7/8/03, and Access will find all entries in a Date field that correspond to July 8, 2003, regardless of how this field is formatted.  </p>
+<p><strong>注意</strong>: 仅当当前字段是绑定控件、 <strong>Match</strong>参数设置为 "<strong>整个字段</strong>"、"<strong>仅当前字段</strong>" 参数设置为<strong>"是</strong>" 和 "匹配" 时, "<strong>按格式搜索</strong>" 参数才会生效。 <strong>Case</strong>参数设置为 "<strong>否</strong>"。</p>
+<p>If you set <strong>Match Case</strong> to <strong>Yes</strong> or <strong>Only Current Field</strong> to <strong>No</strong>, you must also set <strong>Search As Formatted</strong> to <strong>Yes</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>只搜索当前字段</strong></p></td>
@@ -74,9 +74,9 @@ ms.locfileid: "28709969"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-当宏运行**FindRecord**操作时，访问搜索 （由**搜索**参数的设置确定的顺序搜索） 的记录中指定的数据。 当访问找到指定的数据时，记录中选定的数据。
+When a macro runs the **FindRecord** action, Access searches for the specified data in the records (the order of the search is determined by the setting of the **Search** argument). When Access finds the specified data, the data is selected in the record.
 
 **FindRecord** 操作等效于在 **"开始"** 选项卡上单击 **"查找"**，其参数与 **"查找和替换"** 对话框中的选项相同。如果在"宏生成器"窗格中设置了 **FindRecord** 参数，然后运行宏，则您将看到单击 **"查找"** 时 **"查找和替换"** 对话框中选择的相应选项。
 
@@ -94,14 +94,12 @@ ms.locfileid: "28709969"
 <table>
 <thead>
 <tr class="header">
-<th><img src="media/access-alert-security.gif" title="安全说明" alt="Security note" /><strong>安全注释</strong></th>
+<th><img src="media/access-alert-security.gif" title="安全注释" alt="Security note" /><strong>安全说明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-      避免使用 <strong>SendKeys</strong> 语句或带敏感或机密信息的 AutoKeys 宏。恶意用户可能会拦截键击并损害您的计算机和数据的安全性。
-</td>
+<td>避免使用带敏感信息或机密信息的 <strong>SendKeys</strong> 语句或 AutoKeys 宏。恶意用户会截取键击，从而危及计算机和数据的安全性。</td>
 </tr>
 </tbody>
 </table>

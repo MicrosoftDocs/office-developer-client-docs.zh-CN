@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8cc5153d851a4dc17ef690421d1080ddf91fc3bf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292473"
 ---
 # <a name="filter-property-ado"></a>Filter 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示 [Recordset](recordset-object-ado.md) 中数据的筛选条件。
 
@@ -31,17 +31,17 @@ ms.locfileid: "28701800"
 
   - 一个 [FilterGroupEnum](filtergroupenum.md) 值。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用 **Filter** 属性可以有选择地屏蔽 **Recordset** 对象中的记录。经过筛选的 **Recordset** 成为当前游标。这将影响基于当前游标返回值的其他属性，如 [AbsolutePosition](absoluteposition-property-ado.md)、[AbsolutePage](absolutepage-property-ado.md)、[RecordCount](recordcount-property-ado.md) 和 [PageCount](pagecount-property-ado.md)。因为将 **Filter** 属性设置为特定值将移动当前记录使其成为满足新值的第一条记录。
 
-条件字符串由*FieldName 运算符值*形式的子句组成 (例如，"LastName = 'Smith'")。 您可以通过将单个子句与**和**创建复合子句 (例如，"LastName = 'Smith' 和 FirstName = John") 或**OR** (例如，")。 您可以通过将单个子句与**和**创建复合子句 (例如，"LastName = 'Smith' 和 FirstName = John") 或**OR** (例如，"LastName = 'Smith' 或姓氏 = Jones")。 对条件字符串使用以下准则：
+条件字符串由*FieldName 运算符值*形式的子句组成 (例如, "LastName = ' Smith '")。 您可以通过将各个子句与**AND**串联 (例如, "LastName = ' Smith" 和 "FirstName = ' John '") 或**or** (例如, ") 来创建复合子句。 您可以通过将各个子句与**AND**串联 (例如, "lastname = ' smith" 和 "FirstName = ' John '") 或**or** (例如, "lastname = ' smith" 或 LastName = "置 '") 来创建复合子句。 条件字符串的使用准则如下：
 
-  - *FieldName*必须是有效的字段名称从**记录集**。 如果字段名中包含空格，则必须用方括号将字段名括起来。
+  - *FieldName* 必须是 **Recordset** 中的有效字段名。如果字段名中包含空格，则必须用方括号将字段名括起来。
 
-  - *Operator*必须是以下项之一： \<， \>， \<= \>= \< \>，=，或**类似**。
+  - *运算符*必须为以下项\<之一:、 \>、 \<=、 \>=、 \< \>、= 或**LIKE**。
 
-  - *值*是将与其比较的字段值的值 (例如，'Smith'， \#8/24/95\#，12.345 或 $50.00)。 单引号使用字符串和井号 (\#) 与日期。 对于数字，可以使用小数点、美元符号和科学记数法。 如果*运算符***类似**，*值*可以使用通配符。 仅星号 (\*) 和百分号 （%） 允许使用通配符，并且它们必须在字符串中的最后一个字符。 *值*不能为 null。
+  - *value*是用于比较字段值的值 (例如, "Smith"、 \#8/24/95\#、12.345 或 $50.00)。 对字符串使用单引号, 使用带日期的\#井号 ()。 对于数字，可以使用小数点、美元符和科学记数法。 如果 *Operator* 为 **LIKE**，则 *Value* 可以使用通配符。 仅星号 (\*) 和百分比符号 (%)允许使用通配符, 并且这些卡片必须是字符串中的最后一个字符。 *Value* 不能为空。
 
     > [!NOTE]
     > [!注释] 若要在筛选值中包含单引号 (')，则用两个单引号表示一个单引号。例如，若要筛选 O'Malley，则条件字符串应为 "col1 = 'O''Malley'"。若要在筛选值的开始和末尾均包含单引号，则使用井号 (#) 包围该字符串。例如，若要筛选 '1'，则条件字符串应为 "col1 = #'1'#"。
@@ -50,7 +50,7 @@ ms.locfileid: "28701800"
 
   - 可以按如下方法构造此筛选条件
 
-  - 在**LIKE**子句，您可以使用的开头和模式的末尾使用通配符 (例如，LastName Like '\*mit\*)，也可以只在模式的结尾 (例如，LastName Like' Smit\*)。
+  - 在**LIKE**子句中, 可以在模式的开头和结尾使用通配符 (例如, lastname like '\*mit\*'), 也可以仅在模式的结尾处使用通配符 (例如, lastname 类似于 ' Smit\*')。
 
 通过仅允许查看，例如仅允许查看上次调用 [UpdateBatch](updatebatch-method-ado.md) 方法的过程中涉及到的记录，筛选常量更便于解决批更新模式中的各个记录冲突。
 
@@ -62,7 +62,7 @@ ms.locfileid: "28701800"
 
 有关可与 [Filter](bookmark-property-ado.md) 属性一起用来生成数组的书签值的说明，请参阅 **Bookmark** 属性。
 
-仅**筛选器**条件字符串的形式 (如订购日期\>"12/31/1999年 ') 影响**Recordset**的内容。 通过 **Bookmark** 数组或使用 **FilterGroupEnum** 中的值创建的 **Filter** 不会影响持久 Recordset 的内容。 这些规则适用于通过客户端或服务器端游标创建的 **Recordset** 。
+只有条件字符串形式的**筛选器**(例如, "日期\> 12/31/1999") 会影响持久化**Recordset**的内容。 通过 **Bookmark** 数组或使用 **FilterGroupEnum** 中的值创建的 **Filter** 不会影响持久 Recordset 的内容。 这些规则适用于通过客户端或服务器端游标创建的 **Recordset** 。
 
 > [!NOTE]
 > [!注释] 在批更新模式下，将 **adFilterPendingRecords** 标记应用于筛选和修改的 **Recordset** 时，如果筛选是基于单键表的键字段并且对该键字段值进行修改，则得到的 **Recordset** 将为空。如果满足以下条件之一，得到的 **Recordset** 就不为空：
@@ -100,7 +100,7 @@ ms.locfileid: "28701800"
 <td><p>单键</p></td>
 <td><p>+</p></td>
 <td><p>-</p></td>
-<td><p>N/A</p></td>
+<td><p>不适用</p></td>
 </tr>
 <tr class="odd">
 <td><p>多键</p></td>

@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 15cb7d6c422a9d7b0fae17ab649b6cfbc1b497a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293565"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EMailDatabaseObject 宏操作
 
-**适用于：** Access 2013 |Office 2013
+**适用于:** Access 2013 |Office 2013
 
 可以使用 **EMailDatabaseObject** 操作在电子邮件中包含指定的 Microsoft Access 数据表、窗体、报表、模块或数据访问页，并且可以在电子邮件中查看和转发这些对象。
 
@@ -45,27 +45,27 @@ ms.locfileid: "28699917"
 <tbody>
 <tr class="odd">
 <td><p><strong>对象类型</strong></p></td>
-<td><p>要在邮件中包含的对象类型。 单击 （对于表数据表） 的<strong>表</strong>、<strong>查询</strong>（用于查询数据表）、 （对于窗体或窗体数据表） 的<strong>窗体</strong>、<strong>报表</strong>、<strong>模块</strong>或<strong>数据访问页</strong>、<strong>服务器视图</strong>、<strong>存储过程</strong>或<strong>函数</strong>宏生成器窗格的<strong>操作参数</strong>部分的<strong>对象类型</strong>框中。 您不能发送宏。 如果您想要包括的活动对象，请选择与此参数，其类型，但将<strong>对象名称</strong>参数留空。</p></td>
+<td><p>要包含在邮件中的对象的类型。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“对象类型”</strong>框中单击<strong>“表”</strong>（对于表数据表）、<strong>“查询”</strong>（对于查询数据表）、<strong>“窗体”</strong>（对于窗体或窗体数据表）、<strong>“报表”</strong>、<strong>“模块”</strong>、<strong>“数据访问页”</strong>、<strong>“服务器视图”</strong>、<strong>“存储过程”</strong>或<strong>“函数”</strong>。不能发送宏。如果想包含活动对象，请使用此参数选择其类型，但要将“对象名称”<strong></strong>参数留空。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>对象名称</strong></p></td>
-<td><p>要在邮件中包含的对象的名称。 <strong>对象名称</strong>框中显示<strong>对象类型</strong>参数所选类型的数据库中的所有对象。 如果将<strong>对象类型</strong>和<strong>对象名称</strong>参数留空，Access 会向不带任何数据库对象的邮件应用程序发送一条消息。 如果在类库数据库中运行包含 <strong>EMailDatabaseObject</strong> 操作的宏，Access 将先在该类库数据库中查找具有此名称的对象，然后再在当前数据库中查找。</p></td>
+<td><p>要包含在邮件中的对象的名称。 <strong>“对象名称”</strong>框会显示数据库中属于“对象类型”<strong></strong>参数所选的类型的所有对象。 如果将“对象类型”<strong></strong>和“对象名称”<strong></strong>参数都留空，Access 会向邮件应用程序发送一封邮件但其中不包含任何数据库对象。 如果在类库数据库中运行包含 <strong>EMailDatabaseObject</strong> 操作的宏，Access 将先在该类库数据库中查找具有此名称的对象，然后再在当前数据库中查找。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>输出格式</strong></p></td>
-<td><p>您希望用于包含的对象的格式的类型。 可以从选择的格式的列表将根据您所选择的<strong>对象类型</strong>参数。 <strong>Excel 97-Excel 2003 工作簿 (*.xls)</strong>、 <strong>Excel 二进制工作簿 (*.xlsb)</strong>、 <strong>Excel 工作簿 (*.xlsx)</strong>，可能包括可用格式<strong>HTML (*.htm，*.html)</strong>， <strong>Microsoft Excel 5.0/95 工作簿 (*.xls)</strong>， <strong>PDF 格式</strong>，<strong>格式文本设置 (*.rtf)</strong>、<strong>文本文件 (*.txt)</strong>或<strong>XPS 格式 (*.xps)</strong>。 在<strong>输出格式</strong>框中。 可以仅以文本格式发送模块。 只能以 HTML 格式发送数据访问页。 如果将此参数留空，则 Access 将提示您为输出格式。</p></td>
+<td><p>要用于所包含对象的格式的类型。 您可以从中进行选择的格式列表将根据您为<strong>对象类型</strong>参数选择的内容而变化。 可用格式可能包括<strong>excel 97-excel 2003 工作簿 (* .xls)</strong>、 <strong>excel 二进制工作簿 (* xlsb)</strong>、 <strong>Excel 工作簿 (* .xlsx</strong>)、 <strong>HTML (* .htm、* .html</strong>)、 <strong>Microsoft Excel 5.0/95 工作簿 (* .xls)</strong>、 <strong>PDF 格式</strong>、<strong>格式文本设置 (* .rtf)</strong>、<strong>文本文件 (* .txt)</strong>或<strong>XPS 格式 (* .xps)</strong>。 在 "<strong>输出格式</strong>" 框中。 模块只能以文本格式发送。 只有 HTML 格式的数据访问页才能发送。 如果将此参数留空，Access 将提示您提供输出格式。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
-<td><p>您想要放在邮件中的<strong>到</strong>行上将其姓名的收件人。 如果将此参数留空，则 Access 将提示您的收件人的名称。 用分号 （;） 或 Microsoft 中的<strong>区域设置属性</strong>对话框<strong>编号</strong>选项卡上设置的列表分隔符指定此参数中 （以及<strong>Cc</strong>和<strong>Bcc</strong>参数） 的收件人的姓名Windows<strong>控制面板</strong>。 如果邮件应用程序无法识别的收件人的姓名，不发送消息和发生错误。</p></td>
+<td><p>邮件的收件人，您要将其姓名放在邮件的<strong>“收件人”</strong>行。 如果将此参数留空，Access 会提示您输入收件人的姓名。 用分号 (;) 将在此参数中（以及在<strong>“抄送”</strong>和<strong>“密件抄送”</strong>参数中）指定的收件人姓名隔开，或者使用在 Microsoft Windows<strong>“控制面板”</strong>的<strong>“区域设置属性”</strong>对话框的<strong>“数字”</strong>选项卡上设置的列表分隔符将它们隔开。 如果邮件应用程序无法识别收件人姓名，该邮件将不会被发送，而且会发生错误。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Cc</strong></p></td>
-<td><p>邮件的收件人，您想要置于<strong>抄送</strong>将其姓名 (&quot;抄送&quot;) 行中的邮件。 如果将此参数留空，邮件中的“抄送”<strong></strong>行为空。</p></td>
+<td><p>要将其姓名放在邮件的<strong>"抄送</strong>" (&quot;抄送&quot;) 行中的邮件收件人。 如果将此参数留空，邮件中的“抄送”<strong></strong>行为空。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Bcc</strong></p></td>
-<td><p>邮件的收件人，您想要置于<strong>密件抄送</strong>将其姓名 (&quot;密件抄送副本&quot;) 行中的邮件。 如果将此参数留空，邮件中的“密件抄送”<strong></strong>行为空。</p></td>
+<td><p>要将其姓名置于邮件的<strong>"密件抄送</strong>" (&quot;密件抄送&quot;) 行中的邮件收件人。 如果将此参数留空，邮件中的“密件抄送”<strong></strong>行为空。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Subject</strong></p></td>
@@ -73,7 +73,7 @@ ms.locfileid: "28699917"
 </tr>
 <tr class="even">
 <td><p><strong>消息文本</strong></p></td>
-<td><p>要在邮件中的数据库对象除了包含任何文本。 此文本的邮件正文中出现对象之后。 如果将此参数留空，则邮件中不包含任何其他文本。 如果将<strong>对象类型</strong>和<strong>对象名称</strong>参数留空，您可以使用此参数发送一封邮件没有数据库对象。</p></td>
+<td><p>除数据库对象之外，您要包含在邮件中的任意文本。此文本出现在邮件正文中，位于对象之后。如果将此参数留空，则邮件中不包含任何其他文本。如果将“对象类型”<strong></strong>和“对象名称”<strong></strong>参数留空，则可以使用此参数发送不含数据库对象的邮件。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>编辑邮件</strong></p></td>
@@ -87,7 +87,7 @@ ms.locfileid: "28699917"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 邮件中的对象采用所选的输出格式。双击该对象时，相应的软件启动并且该对象打开。
 
@@ -111,9 +111,9 @@ ms.locfileid: "28699917"
 
 ### <a name="about-the-contributor"></a>参与者简介
 
-**通过提供的链接**Luke Chung、 [FMS，Inc.](https://www.fmsinc.com/)、 的创始人兼总裁 FMS，inc.，自定义数据库解决方案和开发人员工具的领先提供商。
+**链接提供者**Luke Chung, [FMS, inc.](https://www.fmsinc.com/), FMS, inc. 的创始人和总统, 是自定义数据库解决方案和开发人员工具的领先提供商。
 
-- [功能和使用 SendObject 方法发送到的限制](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
+- [使用 SendObject 方法发送的功能和限制](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 
 
 

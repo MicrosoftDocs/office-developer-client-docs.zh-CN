@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 65eaafe805eabbac1681aa6dcd08b6b99bb056fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292291"
 ---
 # <a name="forward-only-cursors"></a>仅向前游标
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 典型的默认游标类型称为仅向前型（或不可滚动）游标，它只能在结果集中向前移动。仅向前型游标不支持滚动（在结果集中向前和向后移动的能力）；它只支持从结果集的开头到末尾提取行。利用某些仅向前型游标（例如，SQL Server 游标库中的游标），当前用户所发出的（或其他用户提交的）、影响到结果集中的行的所有插入、更新和删除语句在提取这些行时都是可见的。但是，由于游标无法向后滚动，将无法通过游标看见在提取数据库中的行之后对这些行所做的更改。
 

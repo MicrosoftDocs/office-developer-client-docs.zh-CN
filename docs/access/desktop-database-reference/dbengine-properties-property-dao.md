@@ -1,5 +1,5 @@
 ---
-title: DBEngine.Properties 属性 (DAO)
+title: DBEngine 属性 (DAO)
 TOCTitle: Properties Property
 ms:assetid: 603e1bd9-53e5-00cd-f6a7-c3dac7c0ff1a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194802(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9aa743a4602ef86c36e284d0a02139d52c570227
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294237"
 ---
-# <a name="dbengineproperties-property-dao"></a>DBEngine.Properties 属性 (DAO)
+# <a name="dbengineproperties-property-dao"></a>DBEngine 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-返回指定对象的 **[Properties](properties-collection-dao.md)** 集合。只读。
+返回指定对象的 **[Properties](properties-collection-dao.md)** 集合。 此为只读属性。
 
 ## <a name="syntax"></a>语法
 

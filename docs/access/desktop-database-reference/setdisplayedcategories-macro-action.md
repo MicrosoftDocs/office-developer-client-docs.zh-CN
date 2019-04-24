@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f08b9a8980fc6f08a9f91366d38f65e4365a037e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711418"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314622"
 ---
 # <a name="setdisplayedcategories-macro-action"></a>SetDisplayedCategories 宏操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **SetDisplayedCategories** 操作指定哪些类别在导航窗格标题栏中的 **"浏览类别"** 下显示。例如，如果希望阻止用户切换导航窗格，以便显示按 **"创建日期"** 排序的对象，则可以使用此操作在标题栏的下拉列表中隐藏该选项。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **SetDisplayedCategories** 操作具有下列参数。
 
@@ -43,19 +43,19 @@ ms.locfileid: "28711418"
 <tbody>
 <tr class="odd">
 <td><p><strong>Show</strong></p></td>
-<td><p>选择<strong>“是”</strong>可显示一个或多个类别。选择<strong>“否”</strong>可隐藏类别。</p></td>
+<td><p>选择<strong>“是”</strong>可显示一个或多个类别。 选择<strong>“否”</strong>可隐藏类别。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>类别</strong></p></td>
-<td><p>请输入或选择要显示或隐藏的类别的名称。将此参数留空可显示或隐藏所有类别。</p></td>
+<td><p>请输入或选择要显示或隐藏的类别的名称。 将此参数留空可显示或隐藏所有类别。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-  - 导航窗格的标题栏中的标题指示哪种筛选（如果有）当前处于活动状态。请单击标题栏的任意位置以显示下拉列表。此宏操作控制的项会在 **"浏览类别"** 下列出。
+  - 导航窗格的标题栏中的标题指示哪种筛选（如果有）当前处于活动状态。请单击标题栏的任意位置以显示下拉列表。此宏操作控制的项会在 **“浏览类别”** 下列出。
 
   - 此操作仅启用或禁用指定的一个或多个类别的显示；它不执行在任何导航窗格显示之间的切换。例如，如果正在显示按 **"创建日期"** 排序的对象并且使用 **SetDisplayedCategories** 操作禁用 **"创建日期"** 选项，则 Access 不会将导航窗格切换到其他类别。
 

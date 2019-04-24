@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2e4eff3eae32cf4d910a44eca5a733ac044a7829
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308979"
 ---
 # <a name="save-and-open-methods-example-vb"></a>Save 和 Open 方法示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下三个示例演示了如何将 [Save](save-method-ado.md) 和 [Open](open-method-ado-recordset.md) 方法结合起来使用。
 
@@ -83,7 +83,7 @@ End Sub
 
 <br/>
 
-此时，您已经到达目的地。 您将作为本地断开连接**记录集**访问***作者***表。 不要忘记访问已保存的文件中，使用您的计算机上必须**MSPersist**提供程序答：\\Pubs.xml。
+此时，您已经到达目的地。 您将 ***Authors***（作者）表作为本地的已断开 **Recordset** 进行访问。 别忘了, 您必须在所使用的计算机上具有**MSPersist**提供程序, 才能访问保存的文件:\\Pubs。
 
 ```vb 
  
@@ -133,7 +133,7 @@ End Sub
 
 <br/>
 
-最后，您返回家中。现在用所做的更改来更新数据库。
+最后，您返回家中。 现在用所做的更改来更新数据库。
 
 ```vb 
  

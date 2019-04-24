@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 527f680ca43bf1735e273b23545514f084a69a0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294118"
 ---
 # <a name="definedsize-property-example-vb"></a>DefinedSize 属性示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-本示例演示 [Column](definedsize-property-adox.md) 的 [DefinedSize](column-object-adox.md) 属性。 代码会重新定义的 FirstName 列中的**Employees**表*Northwind*数据库的大小。 然后，基于 [Employees](field-object-ado.md) （雇员）表的 [Recordset](recordset-object-ado.md) 的 FirstName（名字） **Field** 中值的变化将显现出来。 注意，默认情况下，在重新定义 **DefinedSize** 属性之后，FirstName（名字）字段中将填补空格。
+本示例演示 [Column](column-object-adox.md) 的 [DefinedSize](definedsize-property-adox.md) 属性。代码将重新定义 *Northwind* 数据库 **Employees**（雇员）表的 FirstName（名字）列的大小。然后，基于 **Employees**（雇员）表的 [Recordset](recordset-object-ado.md) 的 FirstName（名字）[Field](field-object-ado.md) 中值的变化将显现出来。注意，默认情况下，在重新定义 **DefinedSize** 属性之后，FirstName（名字）字段中将填补空格。
 
 ```vb 
  

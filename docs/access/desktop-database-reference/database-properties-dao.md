@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3bf7b42163915bab3ac53ed716d30549c06794c9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294818"
 ---
 # <a name="database-properties-dao"></a>数据库属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-- [Database.CollatingOrder 属性 (DAO)](database-collatingorder-property-dao.md)
-- [Database.Connect 属性 (DAO)](database-connect-property-dao.md)
-- [Database.Connection 属性 (DAO)](database-connection-property-dao.md)
-- [Database.Containers 属性 (DAO)](database-containers-property-dao.md)
-- [Database.DesignMasterID 属性 (DAO)](database-designmasterid-property-dao.md)
+- [CollatingOrder 属性 (DAO)](database-collatingorder-property-dao.md)
+- [Database. Connect 属性 (DAO)](database-connect-property-dao.md)
+- [Database. Connection 属性 (DAO)](database-connection-property-dao.md)
+- ["数据库容器" 属性 (DAO)](database-containers-property-dao.md)
+- [DesignMasterID 属性 (DAO)](database-designmasterid-property-dao.md)
 - [Database.Name 属性 (DAO)](database-name-property-dao.md)
-- [Database.Properties 属性 (DAO)](database-properties-property-dao.md)
-- [Database.QueryDefs 属性 (DAO)](database-querydefs-property-dao.md)
-- [Database.QueryTimeout 属性 (DAO)](database-querytimeout-property-dao.md)
-- [Database.RecordsAffected 属性 (DAO)](database-recordsaffected-property-dao.md)
-- [Database.Recordsets 属性 (DAO)](database-recordsets-property-dao.md)
-- [Database.Relations 属性 (DAO)](database-relations-property-dao.md)
-- [Database.ReplicaID 属性 (DAO)](database-replicaid-property-dao.md)
-- [Database.TableDefs 属性 (DAO)](database-tabledefs-property-dao.md)
-- [Database.Transactions 属性 (DAO)](database-transactions-property-dao.md)
-- [Database.Updatable 属性 (DAO)](database-updatable-property-dao.md)
-- [Database.Version 属性 (DAO)](database-version-property-dao.md)
+- ["Database. Properties" 属性 (DAO)](database-properties-property-dao.md)
+- [QueryDefs 属性 (DAO)](database-querydefs-property-dao.md)
+- [QueryTimeout 属性 (DAO)](database-querytimeout-property-dao.md)
+- [RecordsAffected 属性 (DAO)](database-recordsaffected-property-dao.md)
+- [Database. recordset 属性 (DAO)](database-recordsets-property-dao.md)
+- [数据库关系属性 (DAO)](database-relations-property-dao.md)
+- [Database ReplicaID 属性 (DAO)](database-replicaid-property-dao.md)
+- [TableDefs 属性 (DAO)](database-tabledefs-property-dao.md)
+- [Database. 事务属性 (DAO)](database-transactions-property-dao.md)
+- [数据库可更新属性 (DAO)](database-updatable-property-dao.md)
+- [数据库版本属性 (DAO)](database-version-property-dao.md)
 
 

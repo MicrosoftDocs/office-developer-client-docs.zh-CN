@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3b201fd952587f634387876fb7aef995eccc8c58
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306228"
 ---
 # <a name="using-ado-with-microsoft-visual-j"></a>将 ADO 与 Microsoft Visual J++ 结合使用
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 您可以按照以下方式使用 Visual J++ 来实现 ADO：
 

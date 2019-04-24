@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a5fc1c284ee7aae77c4fb067ad57d50200119594
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294502"
 ---
 # <a name="datafactory-customization"></a>DataFactory 自定义
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 远程数据服务 (RDS) 使您能够在三层客户端/服务器系统中很容易地执行数据访问。客户端数据控件可以指定连接和命令字符串参数，以便对远程数据源执行查询，或者指定连接字符串和 [Recordset](recordset-object-ado.md) 对象参数，以执行更新。
 
@@ -32,9 +32,9 @@ ms.locfileid: "28700022"
 有关自定义 **DataFactory** 对象的详细信息，请参阅以下主题：
 
 - [了解自定义文件](understanding-the-customization-file.md)
-- [自定义文件 Connect 节](customization-file-connect-section.md)
+- [自定义文件 Connect 部分](customization-file-connect-section.md)
 - [自定义文件 SQL 部分](customization-file-sql-section.md)
 - [自定义文件 UserList 部分](customization-file-userlist-section.md)
 - [自定义文件 Logs 部分](customization-file-logs-section.md)
 - [必需的客户端设置](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
-- [编写您自己的自定义处理程序](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+- [编写自己的自定义处理程序](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

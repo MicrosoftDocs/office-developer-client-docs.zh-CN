@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2d1fb13d04691b7bf5e0aafcc484cfc4f471e1e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295490"
 ---
 # <a name="copyobject-macro-action"></a>CopyObject 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **CopyObject** 操作将指定的数据库对象复制到另一个数据库中，或使用新名称将其复制到同一个数据库或 Microsoft Access 项目中。例如，您可以将现有对象复制或备份到另一个数据库中，也可以快速创建略有更改的类似对象。
 
 > [!NOTE]
-> [!注释] 如果数据库不受信任，将不允许此操作。 
+> 如果数据库不受信任，则不允许执行此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -45,14 +45,12 @@ ms.locfileid: "28715884"
 <tbody>
 <tr class="odd">
 <td><p><strong>目标数据库</strong></p></td>
-<td><p>目标数据库的有效路径和文件名。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“目标数据库”</strong>框中输入路径和文件名。如果要选择当前数据库，请将此参数留空。 
-
-</p><p><strong>注意</strong>： 此参数才 Access 数据库环境中可用。 在 Access 项目 (.adp) 环境中使用此操作时，目标数据库参数必须为空。</p>
+<td><p>目标数据库的有效路径和文件名。 请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“目标数据库”</strong>框中输入路径和文件名。 如果要选择当前数据库，请将此参数留空。</p><p><strong>注意</strong>: 此参数仅在 Access 数据库环境中可用。 在 Access 项目环境 (.adp) 中使用此操作时，“目标数据库”参数必须为空。</p>
 <p>如果在类库数据库中运行包含 <strong>CopyObject</strong> 操作的宏并将此参数留空，Microsoft Office Access 2007 就会将该对象复制到类库数据库中。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>新名称</strong></p></td>
-<td><p>对象的新名称。在将对象复制到另一个数据库中时，将此参数留空可使名称保持不变。</p></td>
+<td><p>对象的新名称。 在将对象复制到另一个数据库中时，将此参数留空可使名称保持不变。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>源对象类型</strong></p></td>
@@ -60,17 +58,17 @@ ms.locfileid: "28715884"
 </tr>
 <tr class="even">
 <td><p><strong>源对象名称</strong></p></td>
-<td><p>要复制的对象的名称。 <strong>源对象名称</strong>框中显示的<strong>源对象类型</strong>参数所选类型的数据库中的所有对象。 在<strong>源对象名称</strong>框中，单击要复制的对象。 如果将<strong>源对象类型</strong>参数留空，还应将此参数留空。 如果在类库数据库中运行包含 <strong>CopyObject</strong> 操作的宏，Access 将先在该类库数据库中查找具有此名称的对象，然后再在当前数据库中查找。</p></td>
+<td><p>要复制的对象的名称。 <strong>“源对象名称”</strong>框显示数据库中属于“源对象类型”<strong></strong>参数所选的类型的所有对象。 在<strong>“源对象名称”</strong>框中，单击要复制的对象。 如果将“源对象类型”<strong></strong>参数留空，则也要将此参数留空。 如果在类库数据库中运行包含 <strong>CopyObject</strong> 操作的宏，Access 将先在该类库数据库中查找具有此名称的对象，然后再在当前数据库中查找。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-您必须输入的一个或两个**目标数据库**和**新名称**的参数，此操作的值。
+在此操作中，必须为“目标数据库”**** 和“新名称”**** 参数之一输入值，或同时为这两个参数输入值。
 
-如果将**源对象类型**和**源对象名称**参数留空，Access 将复制的导航窗格中选择的对象。 若要在导航窗格中选择一个对象，可以在导航窗格中参数设置为**是**使用**SelectObject**操作。
+If you leave the **Source Object Type** and **Source Object Name** arguments blank, Access copies the object selected in the Navigation Pane. To select an object in the Navigation Pane, you can use the **SelectObject** action with the In Navigation Pane argument set to **Yes**.
 
 **CopyObject** 操作类似于手动执行下列步骤：
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6414c9dd4c3218c2c2bf90f39d0cfb950e6e1018
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293572"
 ---
 # <a name="ensuring-sufficient-tempdb-space"></a>确保有足够的 TempDB 空间
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 如果在处理需要 Microsoft SQL Server 6.5 处理空间的 [Recordset](recordset-object-ado.md) 对象时出错，则可能需要增加 TempDB 的大小。（某些查询需要临时处理空间；例如，带 ORDER BY 子句的查询需要一种 **Recordset** ，而这需要一些临时空间。）
 
@@ -33,19 +33,19 @@ ms.locfileid: "28715765"
 
 1.  启动 Microsoft SQL Server 企业管理器，打开"服务器"树，然后打开"数据库设备"树。
 
-2.  选择一个 （物理） 设备，以展开，如主控形状，并双击该设备以打开**编辑数据库设备**对话框。 此对话框中显示当前数据库使用的空间大小。
+2.  Select a (physical) device to expand, such as Master, and double-click the device to open the **Edit Database Device** dialog box. This dialog box shows how much space the current databases are using.
 
-3.  在**大小**框中，将增加到所需量 (例如，50 mb 硬盘空间) 设备。
+3.  In the **Size** box, increase the device to the desired amount (for example, 50 megabytes (MB) of hard disk space).
 
-4.  单击**立即更改**以增加 （逻辑） TempDB 可以扩展到的空间量。
+4.  单击****“立即更改”以增加（逻辑）TempDB 可以扩展到的空间大小。
 
-5.  打开在服务器上，在数据库树，然后双击**TempDB**以打开**编辑数据库**对话框。 **数据库**选项卡列出当前分配给 TempDB （**数据大小**） 的空间量。 默认情况下，这是 2 MB。
+5.  打开服务器上的“数据库”树，然后双击****“TempDB”以打开****“编辑数据库”对话框。****“数据库”选项卡列出了当前分配给 TempDB 的空间大小（****“数据大小”）。默认情况下是 2 MB。
 
-6.  在**大小**组中，单击**扩展**。 关系图显示在每台物理设备上的可用且已分配的空间。 中褐紫红色颜色条表示可用空间。
+6.  Under the **Size** group, click **Expand**. The graphs show the available and allocated space on each of the physical devices. The bars in maroon color represent available space.
 
-7.  选择一个**日志设备**，如，Master，在**大小 (MB)** 框中显示的可用大小。
+7.  Select a **Log Device**, such as Master, to display the available size in the **Size (MB)** box.
 
-8.  单击**展开现在**即可将分配给 TempDB 数据库的空间。 **编辑数据库**对话框显示 TempDB 新分配的大小。
+8.  Click **Expand Now** to allocate that space to the TempDB database. The **Edit Database** dialog box displays the new allocated size for TempDB.
 
 有关本主题的详细信息，请在 Microsoft SQL Server 企业管理器帮助文件中搜索"扩展数据库对话框"。
 

@@ -1,5 +1,5 @@
 ---
-title: Error 对象的数据访问对象 (DAO)
+title: Error 对象-数据访问对象 (DAO)
 TOCTitle: Error Object
 ms:assetid: e2608bc9-bece-9b47-4562-7a2689601f75
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835711(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3fdfe2091dc2be562f60e5e9cc1935291a74a11d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293474"
 ---
 # <a name="error-object-dao"></a>Error 对象 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Error** 对象包含有关数据访问错误的详细信息，其中每种错误都关系到与 DAO 有关的单个操作。
 
@@ -27,7 +27,7 @@ ms.locfileid: "28710942"
 
 如果后续的 DAO 操作产生了错误，将会清除 **Errors** 集合，同时将一个或多个新的 **Error** 对象放入 **Errors** 集合中。不生成错误的 DAO 操作对 **Errors** 集合没有影响。
 
-**Errors** 集合中的 **Error** 对象集描述一个错误。第一个 **Error** 对象是最低级别的错误（始发错误），第二个为高一个级别的错误，以此类推。例如，如果在尝试打开某个 **[Recordset](recordset-object-dao.md)** 对象时发生 ODBC 错误，则第一个 **Error** 对象（即 **Errors**(0)）包含最低级别的 ODBC 错误；后续错误包含 ODBC 各个层返回的 ODBC 错误。在这种情况下，ODBC 驱动程序管理器（且有可能是驱动程序本身）将返回不同的 **Error** 对象。最后一个 **Error** 对象（即 **Errors.Count-** 1）包含指示无法打开该对象的 DAO 错误。
+**Errors** 集合中的 **Error** 对象集描述一个错误。 第一个 **Error** 对象是最低级别的错误（始发错误），第二个为高一个级别的错误，以此类推。 例如，如果在尝试打开某个 **[Recordset](recordset-object-dao.md)** 对象时发生 ODBC 错误，则第一个 **Error** 对象（即 **Errors**(0)）包含最低级别的 ODBC 错误；后续错误包含 ODBC 各个层返回的 ODBC 错误。 在这种情况下，ODBC 驱动程序管理器（且有可能是驱动程序本身）将返回不同的 **Error** 对象。 最后一个**Error**对象 ( **Errors-** 1) 包含 DAO 错误, 指示对象无法打开。
 
 通过枚举 **Errors** 集合中的特定错误，您的错误处理例程可以更精确地确定错误的原因和根源，并采取相应的步骤进行恢复。可以通过了解 **Error** 对象的属性来获取与每个错误有关的特定详细信息，包括：
 
@@ -41,15 +41,15 @@ ms.locfileid: "28710942"
     
 
     > [!NOTE]
-    > [!注释] 在 Microsoft Visual Basic for Applications (VBA) 中编程时，如果使用 **New** 关键字创建了一个对象，并且以后该对象被追加到集合之前会导致出错，那么 **DBEngine** 对象的 **Errors** 集合将不包含该对象的错误的项，因为新对象与 **DBEngine** 对象不关联。 但是，VBA **Err** 对象中包含错误信息。 只要您预计可能存在数据访问错误，就应使 VBA 错误处理代码检查 **Errors** 集合。 
+    > 在 Microsoft Visual Basic for Applications (VBA) 中编程时，如果使用 **New** 关键字创建了一个对象，并且以后该对象被追加到集合之前会导致出错，那么 **DBEngine** 对象的 **Errors** 集合将不包含该对象的错误的项，因为新对象与 **DBEngine** 对象不关联。 但是，VBA **Err** 对象中包含错误信息。 只要您预计可能存在数据访问错误，就应使 VBA 错误处理代码检查 **Errors** 集合。 
     > 
-    > 在编写集中式错误处理程序时，应测试 VBA **Err** 对象，以确定 **Errors** 集合中的错误信息是否有效。 如果**Errors**集合 (DBEngine.Errors.Count-1) 的最后一个元素的**编号**属性和**Err**对象匹配的值，然后可以使用一系列**Select Case**语句来标识的特定的 DAO 错误或发生的错误。 如果两者不匹配，请对 [Errors](errors-refresh-method-dao.md) 集合使用 **Refresh** 方法。
+    > 在编写集中式错误处理程序时，应测试 VBA **Err** 对象，以确定 **Errors** 集合中的错误信息是否有效。 如果**Errors**集合中的最后一个元素的**Number**属性 (DBEngine-1) 和**Err**对象的值匹配, 则可以使用一系列**Select Case**语句来标识特定的 DAO 错误或发生的错误。 如果两者不匹配，请对 Errors 集合使用 [**Refresh**](errors-refresh-method-dao.md) 方法。
 
 
 
 ## <a name="example"></a>示例
 
-以下示例强制生成一个错误，然后捕获错误，并显示生成的 **Error** 对象的 **Description**、 **Number**、 **Source**、 **HelpContext** 和 **HelpFile** 属性。
+以下示例强制生成一个错误，然后捕获错误，并显示生成的 **Error** 对象的 **Description**、**Number**、**Source**、**HelpContext** 和 **HelpFile** 属性。
 
 ```vb 
 Sub DescriptionX() 

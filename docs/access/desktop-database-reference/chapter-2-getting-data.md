@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f059e5dfe064442f10972fd36344e64f84fe7ea5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296442"
 ---
 # <a name="chapter-2-getting-data"></a>第 2 章：获取数据
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 前一章介绍了在创建 ADO 应用程序时涉及的四个主要操作：获取数据、检查数据、编辑数据和更新数据。本章将重点介绍与第一个操作（获取数据）相关的概念的详细信息。
 
 若干 ADO 对象可以在此操作中发挥作用。首先，需要使用 ADO **Connection** 对象（有时会隐式创建该对象）连接到数据源。然后，使用 ADO **Command** 对象（也可以隐式创建它）将指令传递给数据源，告诉它您希望做什么。在将命令传递给数据源并接收其响应后，通常将在 ADO **Recordset** 对象中显示相应结果。
 
-若要获取数据，应用程序必须与诸如 DBMS、文件存储或逗号分隔的文本文件这样的数据源进行通信。 此通信代表一个*连接*— 交换数据所必需的环境。
+若要获取数据，应用程序必须与诸如 DBMS、文件存储或逗号分隔的文本文件这样的数据源进行通信。此通信代表一个*连接*，即交换数据所必需的环境。
 
 ADO 对象模型用 **Connection** 对象来表示连接的概念 - 这是建立很多 ADO 功能的基础。 **Connection** 对象的用途是：
 

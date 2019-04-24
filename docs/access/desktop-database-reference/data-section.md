@@ -1,5 +1,5 @@
 ---
-title: 数据节 （Access 桌面数据库参考 （英文）
+title: Data 节 (Access desktop database reference)
 TOCTitle: Data section
 ms:assetid: fd8d31aa-af13-a52f-5e91-20225b8df175
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1b8e3baf4d147edcc739e59933da4697c08cdef0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700771"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295042"
 ---
 # <a name="data-section"></a>数据部分
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 数据节定义了行集的数据以及任何挂起的更新、插入或删除。数据节可能包含零行或更多行。它可能只包含由架构定义行的一个行集内的数据。而且，如前所述，没有任何数据的列可能被省略。如果在数据节中使用属性或子元素，并且尚未在架构节中定义该构造，那么它将被静默忽略。
 
@@ -28,21 +28,21 @@ ms.locfileid: "28700771"
 <z:row CompanyName="Joe&apos;s Garage"/> 
 ```
 
-以下字符是 XML 保留字符，必须将替换为字符实体: {'，"，&，\<，\>}。
+以下字符是在 XML 中保留的, 必须替换为字符实体: {', ", &,\<,\>}。
 
-## <a name="binary"></a>二进制
+## <a name="binary"></a>Binary
 
 二进制数据采用 bin.hex 编码（即一个字节映射到两个字符，每半个字节一个字符）。
 
 ## <a name="datetime"></a>日期/时间
 
-Variant VT\_XML 数据的数据类型不直接支持日期格式。 Yyyy-月-日**T**mm: ss 正确的格式的日期与日期和时间的组件。
+XML 数据数据\_类型不直接支持 variant VT 日期格式。 同时包含数据和时间成分的日期的正确格式是 yyyy-mm-dd**T**hh:mm:ss。
 
-有关指定的 XML 日期格式的详细信息，请参阅[W3C XMLData 说明](https://www.w3.org/TR/1998/NOTE-XML-data-0105/)。
+有关 XML 所指定的日期格式的详细信息, 请参阅[W3C XMLData 注释](https://www.w3.org/TR/1998/NOTE-XML-data-0105/)。
 
 XML-Data 规范定义两个等价数据类型时（例如，i4 == int），ADO 将写出友好名称，但二者都会读入。
 
-## <a name="managing-pending-changes"></a>管理挂起更改
+## <a name="managing-pending-changes"></a>管理挂起的更改
 
 可以在立即或批更新模式下打开 **Recordset** 。以客户端游标在批更新模式下打开时，对 **Recordset** 的所有更改都将处于挂起状态，直到调用 **UpdateBatch** 方法。如果保存 **Recordset** ，则挂起的更改也将持久化。在 XML 中，通过使用在 urn:schemas-microsoft-com:rowset 中定义的"update"元素来表示挂起更改。此外，如果行集可以更新，则必须在行的定义中将可更新的属性设置为 True。例如，若要定义一个包含挂起更改的 Shippers（货主）表，则行定义会类似如下：
 

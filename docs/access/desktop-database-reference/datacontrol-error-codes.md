@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 387f37e180d346c09cf3dadbf66f665cb83dbd0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294541"
 ---
 # <a name="datacontrol-error-codes"></a>DataControl 错误代码
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 下表列出了 [RDS.DataControl](datacontrol-object-rds.md) 对象的错误代码。其中显示了两个低位字节的正十进制换算值、完整错误代码的负十进制换算值和十六进制值。
 
@@ -30,7 +30,7 @@ ms.locfileid: "28707638"
 <thead>
 <tr class="header">
 <th><p>RDS.DataControl 错误代码</p></th>
-<th><p>编号</p></th>
+<th><p>帐号</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -82,14 +82,14 @@ ms.locfileid: "28707638"
 <td><p>4112<br />
 -2146824170<br />
 0x800A1016</p></td>
-<td><p>其他域上的数据访问此页。 若要允许此吗？ 要避免出现此消息在 Internet Explorer 中的，可以安全网站添加到受信任的站点区域上的<strong>Internet 选项</strong>对话框的<strong>安全</strong>选项卡。</p></td>
+<td><p>此数据访问页位于另一个域中。 是否允许这种操作？ 若要在 internet Explorer 中避免出现此消息, 您可以在 " <strong>Internet 选项</strong>" 对话框的 "<strong>安全</strong>" 选项卡上将安全网站添加到受信任的网站区域。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_InvalidADCClientVersion</strong></p></td>
 <td><p>4106<br />
 -2146824176<br />
 0x800A1010</p></td>
-<td><p>RDS 客户端版本无效 — 客户端是较服务器。</p></td>
+<td><p>RDS 客户端版本无效-客户端比服务器的版本更新。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_INVALIDARG</strong></p></td>

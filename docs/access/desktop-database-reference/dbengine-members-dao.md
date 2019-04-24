@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1128b27385ef9f8c898fb79d05ae28d596c4af6a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712622"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294279"
 ---
 # <a name="dbengine-members-dao"></a>DBEngine 成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 DBEngine 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
 
@@ -37,7 +37,7 @@ DBEngine 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="dbengine-begintrans-method-dao.md">BeginTrans</a></strong></p></td>
-<td><p>开始新的事务。可读写 <strong>Database</strong>。</p></td>
+<td><p>开始新的事务。 可读写 <strong>Database</strong>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-committrans-method-dao.md">CommitTrans</a></strong></p></td>
@@ -45,24 +45,24 @@ DBEngine 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></p></td>
-<td><p>复制并压缩关闭的数据库，使您可以选择更改其版本、整理顺序和加密设置。（仅适用于 Microsoft Access 工作区。）</p></td>
+<td><p>复制并压缩关闭的数据库，使您可以选择更改其版本、整理顺序和加密设置。 （仅适用于 Microsoft Access 工作区。 .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
-<td><p>创建一个新的 <strong><a href="database-object-dao.md">Database</a></strong> 对象，将数据库保存到磁盘，然后返回一个打开的 <strong>Database</strong> 对象（仅适用于 Microsoft Access 工作区）。</p></td>
+<td><p>创建一个新的 <strong><a href="database-object-dao.md">Database</a></strong> 对象，将数据库保存到磁盘，然后返回一个打开的 <strong>Database</strong> 对象（仅适用于 Microsoft Access 工作区）。 .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-createworkspace-method-dao.md">CreateWorkspace</a></strong></p></td>
 <td><p>创建新的 <strong><a href="workspace-object-dao.md">Workspace</a></strong> 对象。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-idle-method-dao.md">空闲时间</a></strong></p></td>
+<td><p><strong><a href="dbengine-idle-method-dao.md">待机</a></strong></p></td>
 <td><p>挂起数据处理，使 Microsoft Access 数据库引擎完成任何待定任务，例如内存优化或页面超时（仅适用于 Microsoft Access 工作区）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
 <td><p><strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong>值之一。</p>
-<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
+<td><p><strong>注意</strong>: Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>打开 ODBC 数据源上的 <strong><a href="connection-object-dao.md">Connection</a></strong> 对象（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="even">
@@ -101,7 +101,7 @@ DBEngine 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="dbengine-defaultpassword-property-dao.md">DefaultPassword</a></strong></p></td>
-<td><p>设置初始化 <strong>Workspace</strong> 时创建其默认值所使用的密码。可读/写 <strong>String</strong> 类型。</p></td>
+<td><p>设置初始化 <strong>Workspace</strong> 时创建其默认值所使用的密码。 读/写 <strong>String</strong>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-defaulttype-property-dao.md">DefaultType</a></strong></p></td>
@@ -109,11 +109,11 @@ DBEngine 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-defaultuser-property-dao.md">DefaultUser</a></strong></p></td>
-<td><p>设置初始化 <strong>Workspace</strong> 时创建其默认值所使用的用户名。可读/写 <strong>String</strong> 类型。</p></td>
+<td><p>设置初始化 <strong>Workspace</strong> 时创建其默认值所使用的用户名。 可读/写 <strong>String</strong> 类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-errors-property-dao.md">Errors</a></strong></p></td>
-<td><p>返回一个 <strong>Errors</strong> 集合，该集合包含指定对象的所有存储的 <strong>Error</strong> 对象。只读。</p></td>
+<td><p>返回一个 <strong>Errors</strong> 集合，该集合包含指定对象的所有存储的 <strong>Error</strong> 对象。 只读。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-inipath-property-dao.md">IniPath</a></strong></p></td>
@@ -125,15 +125,15 @@ DBEngine 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-properties-property-dao.md">属性</a></strong></p></td>
-<td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</p></td>
+<td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。 只读。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-version-property-dao.md">Version</a></strong></p></td>
-<td><p>返回当前使用的 DAO 版本。只读 <strong>String</strong>。</p></td>
+<td><p>返回当前使用的 DAO 版本。 只读 <strong>String</strong>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-workspaces-property-dao.md">Workspaces</a></strong></p></td>
-<td><p>返回一个 <strong>Workspaces</strong> 集合，该集合包含所有可见的活动 <strong>Workspace</strong> 对象。只读。</p></td>
+<td><p>返回一个 <strong>Workspaces</strong> 集合，该集合包含所有可见的活动 <strong>Workspace</strong> 对象。 只读。</p></td>
 </tr>
 </tbody>
 </table>

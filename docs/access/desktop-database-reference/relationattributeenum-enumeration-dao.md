@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dbb8ca2e1a63154f17bd814a26fe79ed405765cb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711117"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306977"
 ---
 # <a name="relationattributeenum-enumeration-dao"></a>RelationAttributeEnum 枚举 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 与 **Attributes** 属性一起用来确定 **Relation** 对象的属性。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28711117"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>值</p></th>
 <th><p>说明</p></th>
 </tr>
@@ -42,7 +42,7 @@ ms.locfileid: "28711117"
 </tr>
 <tr class="even">
 <td><p>dbRelationDontEnforce</p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>不实施关系（无参照完整性）</p></td>
 </tr>
 <tr class="odd">
@@ -66,7 +66,7 @@ ms.locfileid: "28711117"
 <td><p>一对一关系</p></td>
 </tr>
 <tr class="odd">
-<td><p>两</p></td>
+<td><p>dbRelationUpdateCascade</p></td>
 <td><p>256</p></td>
 <td><p>级联更新</p></td>
 </tr>

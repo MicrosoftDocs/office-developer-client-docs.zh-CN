@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1d334c42aa2ddb9658fc860dfcebbac2b0ae80ac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294608"
 ---
 # <a name="databases-members-dao"></a>数据库成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Databases 集合包含在 Workspace 对象中打开或创建的所有打开的 Database 对象。
 
@@ -58,8 +58,8 @@ Databases 集合包含在 Workspace 对象中打开或创建的所有打开的 D
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="databases-count-property-dao.md">计数</a></strong></p></td>
-<td><p>返回指定集合中的对象数。只读。</p></td>
+<td><p><strong><a href="databases-count-property-dao.md">Count</a></strong></p></td>
+<td><p>返回指定集合中的对象数。 只读。</p></td>
 </tr>
 </tbody>
 </table>

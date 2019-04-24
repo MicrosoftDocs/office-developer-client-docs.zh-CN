@@ -1,5 +1,5 @@
 ---
-title: Field.DefaultValue 属性 (DAO)
+title: Field 属性 (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 8a1c558b-c8f6-757d-c595-4e50b9b6ae3f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 18fb4d3a4427db2b407b6a20507339fe83665c97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293117"
 ---
-# <a name="fielddefaultvalue-property-dao"></a>Field.DefaultValue 属性 (DAO)
+# <a name="fielddefaultvalue-property-dao"></a>Field 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 设置或返回 **[Field](field-object-dao.md)** 对象的默认值。对于尚未追加到 [**Fields**](fields-collection-dao.md) 集合的 **Field** 对象，该属性是可读写的（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。DefaultValue
+*表达式*。默认
 
 *表达式*一个代表**Field**对象的变量。
 
@@ -34,7 +34,7 @@ ms.locfileid: "28711733"
 
 
 > [!NOTE]
-> [!注释] 还可以将 ****TableDef**** 对象上的 [Field](tabledef-object-dao.md) 对象的 DefaultValue 属性设置为称作"GenUniqueID( )"的特殊值。这样，只要添加或创建了新记录，就会将一个随机数分配给该字段，因而可以给每条记录指定一个唯一标识符。该字段的 [Type](field-type-property-dao.md) 属性必须为 **Long** 类型。
+> 您还可以将[TableDef](tabledef-object-dao.md)对象上**Field**对象的**DefaultValue**属性设置为称为 "GenUniqueID ()" 的特殊值。 这样，只要添加或创建了新记录，就会将一个随机数分配给该字段，因而可以给每条记录指定一个唯一标识符。 该字段的 [Type](field-type-property-dao.md) 属性必须为 **Long** 类型。
 
 
 **DefaultValue** 属性的可用性取决于包含 **Fields** 集合的对象，如下表所示。
@@ -53,7 +53,7 @@ ms.locfileid: "28711733"
 <tbody>
 <tr class="odd">
 <td><p>Index 对象</p></td>
-<td><p>不受支持</p></td>
+<td><p>不支持</p></td>
 </tr>
 <tr class="even">
 <td><p>QueryDef 对象</p></td>
@@ -69,7 +69,7 @@ ms.locfileid: "28711733"
 </tr>
 <tr class="odd">
 <td><p>TableDef 对象</p></td>
-<td><p>可读写</p></td>
+<td><p>读/写</p></td>
 </tr>
 </tbody>
 </table>

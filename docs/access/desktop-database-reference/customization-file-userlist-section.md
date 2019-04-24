@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ecaf77765051a202925449d0221f0a68a2a06622
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295154"
 ---
 # <a name="customization-file-userlist-section"></a>自定义文件 UserList 部分
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Userlist**节与具有相同节*identifier*参数的**连接**部分。
+**userlist** 节与具有相同节 *identifier* 参数的 **connect** 节相关。
 
-此节可以包含一个*用户访问项*，后者指定指定用户的访问权限，并替代匹配的**连接**部分中的*默认**访问项*。
+此节可以包含*用户访问项*, 该条目指定指定用户的访问权限, 并替代匹配**connect**节中的*默认**访问项*。
 
 ## <a name="syntax"></a>语法
 
 用户访问项的格式为：
 
-*用户名 *** =* accessRights ***
+*userName * * * =* accessRights * * *
 
 <table>
 <colgroup>
@@ -36,19 +36,18 @@ ms.locfileid: "28721498"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>userName</em></p></td>
-<td><p>使用此连接的人员的<em>用户名</em>。 有效的用户名建立与 IIS<strong>服务管理器</strong>对话框。</p></td>
+<td><p>表示使用此连接的用户的<em>用户名称</em>。 有效的用户名称是用 IIS“服务管理器”<strong></strong>对话框建立的。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><em>accessRights</em></strong></p></td>
-<td><p>表示下列访问权之一：
-<br />
+<td><p>表示下列访问权之一：<br />
 </p>
 <ul>
 <li><p><strong>NoAccess</strong> - 用户无法访问数据源。</p></li>

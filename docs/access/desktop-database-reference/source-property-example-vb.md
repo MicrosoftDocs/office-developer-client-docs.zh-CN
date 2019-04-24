@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4e14eeee7c8ea31cf21b045b1d355d7a30ddf96b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306403"
 ---
 # <a name="source-property-example-vb"></a>Source 属性示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-本示例通过打开三个基于不同数据源的 [Recordset](source-property-ado-recordset.md) 对象来演示 [Source](recordset-object-ado.md) 属性。
+本示例通过打开三个基于不同数据源的 [Recordset](recordset-object-ado.md) 对象来演示 [Source](source-property-ado-recordset.md) 属性。
 
 ```vb 
  

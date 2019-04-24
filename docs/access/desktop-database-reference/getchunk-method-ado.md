@@ -8,33 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 44cd0cb5632e64811de14f9abd3c78aac9203705
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292284"
 ---
 # <a name="getchunk-method-ado"></a>GetChunk 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 用于返回较大文本或二进制数据 [Field](field-object-ado.md) 对象的全部内容或部分内容。
 
 ## <a name="syntax"></a>语法
 
-*变量* = *字段*。GetChunk （*大小*）
+*变量* = *字段*。GetChunk (*大小*)
 
 ## <a name="return-value"></a>返回值
 
-返回 **变量型** 值。
+返回**变量型**值。
 
 ## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*Size* |**长整型** 表达式，等于您要检索的字节数或字符数。|
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 对 **Field** 对象使用 **GetChunk** 方法可以检索其部分或全部长整型二进制数据或字符数据。如果系统内存有限，则可以使用 **GetChunk** 方法对部分（而不是全部）长整型值进行操作。
 

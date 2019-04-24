@@ -1,5 +1,5 @@
 ---
-title: Error.Description 属性 (DAO)
+title: 错误。 Description 属性 (DAO)
 TOCTitle: Description Property
 ms:assetid: 47a84bec-3258-f2c7-e1af-239da39844dc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193218(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 1d7e949771e764c22e93ef56059930ccf39584ab
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293502"
 ---
-# <a name="errordescription-property-dao"></a>Error.Description 属性 (DAO)
+# <a name="errordescription-property-dao"></a>错误。 Description 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
  
 
-返回与某个错误关联的描述性字符串。这是 **Error** 对象的默认属性。
+返回与某个错误关联的描述性字符串。 这是 **Error** 对象的默认属性。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。说明
+*表达式*。产品介绍
 
 *表达式*一个代表**Error**对象的变量。
 

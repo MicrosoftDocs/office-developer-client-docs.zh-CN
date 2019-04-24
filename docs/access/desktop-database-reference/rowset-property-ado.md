@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be2a4855b3411a11ddd5a76225acaa52344877a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306739"
 ---
 # <a name="rowset-property-ado"></a>Rowset 属性 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-通过 **ADORecordsetConstruction** 对象获取或设置一个 OLE DB **Rowset** 对象。 当您使用 put\_行集，行集转换为 ADO **Recordset**对象。
+通过 **ADORecordsetConstruction** 对象获取或设置一个 OLE DB **Rowset** 对象。 使用 put\_行集时, 行集将转换为 ADO **Recordset**对象。
 
 读/写。
 
 ## <a name="syntax"></a>语法
 
-HRESULT get\_行集 (\[out，retval\] IUnknown\* \* ppRowset);
+HRESULT get\_Rowset (\[out, retval\] IUnknown\* \* ppRowset);
 
-HRESULT 放置\_行集 (\[的\]IUnknown\* pRowset);
+HRESULT put\_行集\[(\]在\* IUnknown pRowset 中);
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*ppRowset* |指向 OLE DB **Rowset** 对象的指针。|
 |*PRowset* |一个 OLE DB **Rowset** 对象。|
 
 ## <a name="return-values"></a>返回值
 
-此属性方法返回标准 HRESULT 值，包括 S\_确定和 E\_失败。
+此属性方法返回标准的 HRESULT 值, 包括 S\_OK 和 E\_FAIL。
 
 ## <a name="applies-to"></a>适用于
 

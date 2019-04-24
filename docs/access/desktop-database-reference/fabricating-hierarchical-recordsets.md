@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f644f25a04c5573a93aa106884473fed6b45440e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293201"
 ---
 # <a name="fabricating-hierarchical-recordsets"></a>构建层次记录集
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 下面的示例演示如何通过使用 Data Shaping 语法来定义父级、子级和孙级 **Recordset** 的列，从而构建没有基础数据源的分层 Recordset。
 
@@ -48,5 +48,5 @@ ms.locfileid: "28715576"
     rsCustomers.Open strShape, cn, adOpenStatic, adLockOptimistic, -1
 ```
 
-**记录集**具有构建后，它可以填充、 操作，或保存到文件。
+构建完**Recordset**后, 可以对其进行填充、操作或将其保存到文件中。
 

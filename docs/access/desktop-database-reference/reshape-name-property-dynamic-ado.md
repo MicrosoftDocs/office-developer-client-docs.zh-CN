@@ -1,5 +1,5 @@
 ---
-title: Reshape Name 动态属性 (ADO)
+title: 重新调整名称动态属性 (ADO)
 TOCTitle: Reshape Name dynamic property (ADO)
 ms:assetid: 59ef99c8-da40-5cf6-b987-d47ea1433f45
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249307(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b606960238e2f9a08d034ed92a79f7a767a1a5f7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306599"
 ---
-# <a name="reshape-name-dynamic-property-ado"></a>Reshape Name 动态属性 (ADO)
+# <a name="reshape-name-dynamic-property-ado"></a>重新调整名称动态属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 [Recordset](recordset-object-ado.md) 对象的名称。
 
@@ -25,7 +25,7 @@ ms.locfileid: "28714974"
 
 返回一个表示 **Recordset** 的名称的 **String** 值。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 名称会在连接持续期间保持，或一直保持到 **Recordset** 关闭为止。
 

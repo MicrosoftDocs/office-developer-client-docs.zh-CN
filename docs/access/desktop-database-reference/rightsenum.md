@@ -1,5 +1,5 @@
 ---
-title: RightsEnum （访问桌面数据库参考 （英文）
+title: 个 rightsenum (Access desktop database reference)
 TOCTitle: RightsEnum
 ms:assetid: 7647b9d5-5271-fdcf-489d-5a8beb931ca5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249485(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3c7bf2f88632265cda7537215f2ea3c68507f16f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306487"
 ---
 # <a name="rightsenum"></a>RightsEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定组或用户对某个对象的权限。
 
@@ -80,8 +80,8 @@ ms.locfileid: "28706602"
 </tr>
 <tr class="even">
 <td><p><strong>adRightMaximumAllowed</strong></p></td>
-<td><p>33554432 (&amp;h 2000000)</p></td>
-<td><p>用户或组拥有提供程序所允许的最大数量的权限。特定权限与提供程序有关。</p></td>
+<td><p>33554432 (&amp;H2000000)</p></td>
+<td><p>用户或组拥有提供程序所允许的最大数量的权限。 特定权限与提供程序有关。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRightNone</strong></p></td>
@@ -91,7 +91,7 @@ ms.locfileid: "28706602"
 <tr class="even">
 <td><p><strong>adRightRead</strong></p></td>
 <td><p>-2147483648<br />
-(&amp;H 80000000)</p></td>
+(&amp;H80000000)</p></td>
 <td><p>用户或组拥有读取该对象的权限。对于 <a href="table-object-adox.md">Table</a> 之类的对象，用户拥有读取表中数据的权限。</p></td>
 </tr>
 <tr class="odd">

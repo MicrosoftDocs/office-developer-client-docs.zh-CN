@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 25fd81acee3c541c8a3f315f96fa69241272a655
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295218"
 ---
 # <a name="cursorlocation-property-ado"></a>CursorLocation 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示游标服务的位置。
 
@@ -25,7 +25,7 @@ ms.locfileid: "28708611"
 
 设置或返回一个 **Long** 值，该值可以设置为 [CursorLocationEnum](cursorlocationenum.md) 值之一。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此属性允许在提供程序可访问的各种游标库间进行选择。通常，可以选择使用客户端游标库或位于服务器上的游标库。
 
@@ -35,5 +35,5 @@ ms.locfileid: "28708611"
 
 此属性在 [Connection](connection-object-ado.md) 或已关闭的 [Recordset](recordset-object-ado.md) 上为可读/写属性，而在打开的 **Recordset** 上为只读属性。
 
-**远程数据服务用法**客户端**Recordset**或**Connection**对象上时，**会在 CursorLocation**属性可以仅将设置为**adUseClient**。
+**远程数据服务使用情况**在客户端**Recordset**或**Connection**对象上使用时, **CursorLocation**属性仅可设置为**adUseClient**。
 

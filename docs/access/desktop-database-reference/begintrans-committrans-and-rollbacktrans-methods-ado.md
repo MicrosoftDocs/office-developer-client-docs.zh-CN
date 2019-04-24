@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8d9dc28bd64966e85d16ee2d8cb62fdebc3ba942
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296869"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans、CommitTrans 和 RollbackTrans 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下事务方法用于管理 [Connection](connection-object-ado.md) 对象中的事务处理：
 
@@ -28,7 +28,7 @@ ms.locfileid: "28720329"
 
 ## <a name="syntax"></a>语法
 
-*级别* = *对象*。BeginTrans()
+*level* = *对象*。BeginTrans ()
 
 *对象*。BeginTrans
 
@@ -38,11 +38,11 @@ ms.locfileid: "28720329"
 
 ## <a name="return-value"></a>返回值
 
-**BeginTrans** 可以作为函数调用，返回一个 **长整型** 变量，用以指示事务的嵌套级别。
+**BeginTrans** 可以作为函数调用，返回一个**长整型**变量，用以指示事务的嵌套级别。
 
 ## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*object* |**Connection** 对象。|
 
@@ -51,7 +51,7 @@ ms.locfileid: "28720329"
 如果要将对源数据所做的一系更改列作为一个整体进行保存或取消，那么可以对 **Connection** 对象使用这些方法。例如，若要在帐户之间转账，那么可以从一个帐户中减去该笔金额，并在另一个帐户中增加相同的金额。如果其中任意一个更新失败，那么这两个帐户之间将不再平衡。若在打开的事务中进行这些更改，即可确保所有更改全部生效或全都无效。
 
 > [!NOTE]
-> [!注释] 并非所有的提供程序都支持事务。 验证提供程序定义的属性**事务 DDL**显示在**Connection**对象的[Properties](properties-collection-ado.md)集合，指示提供程序支持事务。 如果提供程序不支持事务，则调用其中的任一方法将返回错误。
+> [!注释] 并非所有的提供程序都支持事务。 验证提供程序定义的属性**事务 DDL**是否出现在**Connection**对象的[Properties](properties-collection-ado.md)集合中, 指示提供程序支持事务。 如果提供程序不支持事务，则调用其中的任一方法将返回错误。
 
 调用 **BeginTrans** 方法之后，提供程序将不再即时提交所做的更改，直至调用 **CommitTrans** 或 **RollbackTrans** 结束事务。
 
@@ -63,5 +63,5 @@ ms.locfileid: "28720329"
 
 ### <a name="remote-data-service"></a>远程数据服务
 
-对于客户端 **Connection** 对象， **BeginTrans** 、 **CommitTrans** 和 **RollbackTrans** 方法不可用。
+对于客户端 **Connection** 对象，**BeginTrans**、**CommitTrans** 和 **RollbackTrans** 方法不可用。
 

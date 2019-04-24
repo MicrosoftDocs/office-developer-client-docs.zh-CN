@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ba6d05aa1bfb626520af60a30279983bae6fa566
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293929"
 ---
 # <a name="description-property-ado"></a>Description 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 描述 [Error](error-object-ado.md) 对象。
 
@@ -25,7 +25,7 @@ ms.locfileid: "28698930"
 
 返回一个包含错误说明的 **String** 值。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用 **Description** 属性可以获得错误的简短说明。对于无法处理或不希望处理的错误，可以显示此属性来向用户发出警告。该字符串将来自 ADO 或提供程序。
 

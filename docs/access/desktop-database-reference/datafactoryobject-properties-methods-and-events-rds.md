@@ -1,5 +1,5 @@
 ---
-title: DataFactory 属性、 方法和事件 (RDS)
+title: DataFactory 属性、方法和事件 (RDS)
 TOCTitle: Properties, methods, and events
 ms:assetid: d5df9160-2931-7773-f75a-8065881d9487
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3febbf56077ad1961ee0e0dd122ef2d0508d6878
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294510"
 ---
-# <a name="datafactory-properties-methods-and-events-rds"></a>DataFactory 属性、 方法和事件 (RDS)
+# <a name="datafactory-properties-methods-and-events-rds"></a>DataFactory 属性、方法和事件 (RDS)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 
 ## <a name="properties"></a>属性
 
-无。
+表示组件的一个实例，这是运行时对用户的指定组件的实例化。对象包含实验室特定运行的组件的已翻译视图。
 
 ## <a name="methods"></a>方法
 

@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fe61a3368813ba3420920909f818beee2029d993
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308678"
 ---
 # <a name="setmenuitem-macro-action"></a>SetMenuItem 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **SetMenuItem** 操作设置 **"加载项"** 选项卡上的自定义菜单或全局菜单上的菜单项的状态（已启用或已禁用、已选择或未选择）。
 
 > [!NOTE]
-> **SetMenuItem**操作仅适用于使用菜单宏创建的自定义和全局菜单。 仅为与早期版本兼容的 Microsoft Access 包含**SetMenuItem**操作。 不适用于命令栏功能。 但是，您可以使用在 Visual Basic for Applications (VBA) 模块禁用或启用并选择或取消选择快捷菜单上的项目中**启用**和**状态**属性或自定义或全局菜单。
+> The **SetMenuItem** action works only with custom and global menus created by using menu macros. The **SetMenuItem** action is included in Microsoft Access only for compatibility with previous versions. It does not work with the command bar functionality. However, you can use the **Enabled** and **State** properties in a Visual Basic for Applications (VBA) module to disable or enable and select or unselect items on shortcut menus or custom or global menus.
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **SetMenuItem** 操作具有下列参数。
 
@@ -45,15 +45,15 @@ ms.locfileid: "28709423"
 <tbody>
 <tr class="odd">
 <td><p><strong>菜单索引</strong></p></td>
-<td><p>包含您要为其设置的状态的命令的菜单的索引。 输入从 0，需菜单自定义或全局菜单中的索引的整数值。 在宏生成器窗格的<strong>操作参数</strong>部分的<strong>菜单索引</strong>框中输入的索引值。 索引是相对于菜单宏自定义或全局菜单 （此菜单<strong>AddMenu</strong>操作在菜单宏，从 0 开始计数的位置） 中的菜单上的位置。 菜单的显示可能有所不同，因为您可以在菜单宏中使用条件表达式，隐藏或显示自定义菜单项。 这是必需参数。 如果您选择菜单与此参数，并将<strong>命令索引</strong>和<strong>子命令索引</strong>参数留空，您可以启用或禁用菜单名称本身。 但是，不能选择或取消选择菜单名称 （访问忽略菜单名为<strong>标志</strong>参数<strong>检查</strong>和<strong>取消选中</strong>设置）。</p></td>
+<td><p>包含要设置其状态的命令的菜单的索引。 在自定义或全局菜单中，为所需菜单的索引输入 Integer 数据类型的值（从 0 开始）。 请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“菜单索引”</strong>框中输入索引值。 该索引相对于菜单在自定义菜单或全局菜单的菜单宏中的位置（此菜单的 <strong>AddMenu</strong> 操作在菜单宏中的位置，从 0 开始计数）。 由于您可以在菜单宏中使用条件表达式来隐藏或显示自定义菜单项，因此菜单的显示可能会稍有不同。 这是一个必选参数。 如果您选择带有此参数的菜单并将“命令索引”<strong></strong>和“子命令索引”<strong></strong>参数留空，则您可以启用或禁用菜单名称本身。 但您无法选择或取消选择菜单名称（Access 将忽略菜单名称的“标志”<strong></strong>参数的“选取”<strong></strong>和“不选取”<strong></strong>设置）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>命令索引</strong></p></td>
-<td><p>您要为其设置的状态命令的索引。 输入所需的命令通过<strong>菜单索引</strong>参数选定的菜单中的索引为 0，启动一个整数值。 索引是宏的相对于定义自定义或全局菜单 （宏组中，从 0 开始计数中该命令的位置） 的所选的菜单宏组中的命令的位置。 菜单的显示可能有所不同，因为您可以在菜单的宏组中使用条件表达式可隐藏或显示自定义菜单命令。</p></td>
+<td><p>要设置其状态的命令的索引。请在通过“菜单索引”<strong></strong>参数选择的菜单中输入所需命令索引的整数值（从 0 开始）。索引相对于命令在为自定义或全局菜单定义选择的菜单的宏组中位置（此命令的宏在宏组中的位置，从 0 开始计数）。由于您可以在菜单的宏组中使用条件表达式来隐藏或显示自定义菜单命令，因此菜单的显示可能会稍有不同。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>子命令索引</strong></p></td>
-<td><p>您要为其设置的状态的子命令索引。 这仅适用于所需的命令具有子菜单。 输入所需子<strong>命令索引</strong>参数选择子菜单中的索引为 0，启动一个整数值。 索引是宏的相对于定义自定义或全局菜单 （从 0 开始计数的宏组中的此子命令位置） 所选子菜单宏组中的子命令的位置。</p></td>
+<td><p>要设置其状态的子命令的索引。仅当所需的命令有子菜单时，此参数才适用。在通过“命令索引”<strong></strong>参数选择的子菜单中，输入所需子命令索引的整数值（从 0 开始）。索引相对于子命令在为自定义或全局菜单定义选择的子菜单的宏组中的位置（此子命令的宏在宏组中的位置，从 0 开始计数）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Flag</strong></p></td>
@@ -63,7 +63,7 @@ ms.locfileid: "28709423"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SetMenuItem** 操作仅适用于自定义菜单或全局菜单。如果活动窗口没有自定义菜单或全局菜单，则运行包含 **SetMenuItem** 操作的宏会导致运行时错误。
 

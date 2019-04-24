@@ -1,5 +1,5 @@
 ---
-title: Resync Command 动态属性 (ADO)
+title: Resync Command dynamic 属性 (ADO)
 TOCTitle: Resync Command dynamic property (ADO)
 ms:assetid: 5c0c0819-620a-6eb0-a217-69113ec8d094
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aa1fe05e6aa7edf04ad74864eb30a03403323c8e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306578"
 ---
-# <a name="resync-command-dynamic-property-ado"></a>Resync Command 动态属性 (ADO)
+# <a name="resync-command-dynamic-property-ado"></a>Resync Command dynamic 属性 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定一个用户提供的命令字符串，[Resync](resync-method-ado.md) 方法会发出此命令字符串以刷新 [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) 动态属性中指定的表中的数据。
 
@@ -24,9 +24,9 @@ ms.locfileid: "28713329"
 
 设置或返回一个 **String** 值，该值为一个命令字符串。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-[Recordset](recordset-object-ado.md) 对象是在多个基表上执行的 JOIN 操作的结果。 受影响的行取决于[Resync](resync-method-ado.md)方法的*AffectRecords*参数。 如果未设置 **Unique Table** 和 [Resync Command](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) 属性，则将执行标准 **Resync** 方法。
+[Recordset](recordset-object-ado.md) 对象是在多个基表上执行的 JOIN 操作的结果。受影响的行取决于 [Resync](resync-method-ado.md) 方法的 *AffectRecords* 参数。如果未设置 [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) 和 **Resync Command** 属性，则将执行标准 **Resync** 方法。
 
 **Resync Command** 属性的命令字符串是唯一标识要刷新的行的参数化命令或存储过程，并返回单个行，其中包含的列与要被刷新的行中的列的数量和顺序都相同。对于 **Unique Table** 中的每个主键列，命令字符串都应包含一个对应的参数；否则将返回运行时错误。将自动使用要被刷新的行中的主键值对参数进行填充。
 
@@ -77,5 +77,5 @@ ms.locfileid: "28713329"
 
 同样，**Unique Table** 也是 *Orders*（订单），其主键 *OrderID* 将被参数化。
 
-**Resync Command** 是一个动态属性，会在 **CursorLocation** 属性设置为 [adUseClient](properties-collection-ado.md) 时追加到 [Recordset](cursorlocation-property-ado.md) 对象的 **Properties** 集合中。
+**Resync Command** 是一个动态属性，会在 [CursorLocation](cursorlocation-property-ado.md) 属性设置为 **adUseClient** 时追加到 **Recordset** 对象的 [Properties](properties-collection-ado.md) 集合中。
 

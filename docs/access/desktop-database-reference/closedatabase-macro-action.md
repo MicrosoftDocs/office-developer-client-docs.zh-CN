@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ac29cbdae8c162a992f2763530514150ca0240ea
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296295"
 ---
 # <a name="closedatabase-macro-action"></a>CloseDatabase 宏操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **CloseDatabase** 操作关闭当前数据库。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **CloseDatabase** 操作不具有任何参数。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
   - Access 将不会运行宏中位于 **CloseDatabase** 操作之后的任何操作。
 
-  - 此操作具有相同的效果单击**文件**选项卡，然后单击**关闭数据库**。 在运行 **CloseDatabase** 操作时，如果有任何未保存的对象处于打开状态，则显示的对话框将与单击 **"关闭数据库"** 时显示的对话框相同。
+  - 此操作等效于单击 "**文件**" 选项卡, 然后单击 "**关闭数据库**"。 在运行 **CloseDatabase** 操作时，如果有任何未保存的对象处于打开状态，则显示的对话框将与单击 **"关闭数据库"** 时显示的对话框相同。
 
   - 要在 Visual Basic for Applications (VBA) 模块中运行 **CloseDatabase** 操作，请使用 **DoCmd** 对象的 **CloseDatabase** 方法。
 

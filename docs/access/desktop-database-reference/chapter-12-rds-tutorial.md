@@ -1,5 +1,5 @@
 ---
-title: 第 12 章： 远程数据服务 (RDS) 教程
+title: '第12章: 远程数据服务 (RDS) 教程'
 TOCTitle: 'Chapter 12: RDS tutorial'
 ms:assetid: fa44a5e8-e4df-dfdd-d7a1-a870ec3cabdd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250277(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aca77ac08688e643327bdbf229ab6c1dec40d109
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704803"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296477"
 ---
-# <a name="chapter-12-remote-data-service-rds-tutorial"></a>第 12 章： 远程数据服务 (RDS) 教程
+# <a name="chapter-12-remote-data-service-rds-tutorial"></a>第12章: 远程数据服务 (RDS) 教程
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-本教程演示如何使用 RDS 编程模型查询和更新数据源 首先，它介绍完成此任务所需的步骤。 然后，可在 Microsoft Visual Basic Scripting Edition 和 Microsoft Visual J + + 中，其中 ADO for Windows Foundation Classes (ADO/WFC) 重复教程。
+本教程演示了如何使用 RDS 编程模型来查询和更新数据源。 首先, 它描述完成此任务所需的步骤。 然后在 microsoft visual Basic 脚本编写版和 microsoft visual j + + 中重复教程, 采用 ado for Windows Foundation 类 (ado/WFC)。
 
 本教程使用不同语言的代码，主要有以下两个原因：
 
@@ -46,7 +46,7 @@ ms.locfileid: "28704803"
 
 - 将对于 **Recordset** 对象进行的更改发回到服务器并将其用于更新数据源。
 
-## <a name="step-1-specify-a-server-program"></a>步骤 1： 指定服务器程序
+## <a name="step-1-specify-a-server-program"></a>步骤 1: 指定服务器程序
 
 在大多数情况下，使用 [RDS.DataSpace](dataspace-object-rds.md) 对象的 [CreateObject](createobject-method-rds.md) 方法指定默认服务器程序 [RDSServer.DataFactory](datafactory-object-rdsserver.md) 或自定义服务器程序（业务对象）。服务器程序在服务器上实例化，返回的是对服务器程序的引用（即*代理*）。
 
@@ -61,23 +61,23 @@ Sub RDSTutorial1()
 ... 
 ``` 
 
-## <a name="step-2-invoke-the-server-program"></a>步骤 2： 调用服务器程序 
+## <a name="step-2-invoke-the-server-program"></a>步骤 2: 调用服务器程序 
 
 当调用客户端*代理*上的某种方法时，服务器上的实际程序将执行该方法。在该步骤中，将在服务器上执行查询。
 
-### <a name="part-a"></a>部分 A
+### <a name="part-a"></a>A 部分
 
-如果您没有在本教程使用[RDSServer.DataFactory](datafactory-object-rdsserver.md) ，最方便的方式执行此步骤是使用[rds.DataControl](datacontrol-object-rds.md)对象。 **RDS.DataControl** 将该步骤与上一步（创建代理）合并，用于发出查询。
+如果您在本教程中没有使用[rdsserver.datafactory](datafactory-object-rdsserver.md) , 则执行此步骤的最简便方法是使用[RDS。rds.datacontrol](datacontrol-object-rds.md)对象。 **RDS.DataControl** 将该步骤与上一步（创建代理）合并，用于发出查询。
 
-1. 设置**rds.DataControl**对象[服务器](server-property-rds.md)属性来确定应实例化服务器程序。
+1. 设置**RDS。rds.datacontrol**对象[服务器](server-property-rds.md)属性来标识应实例化服务器程序的位置。
 
-2. 设置[Connect](connect-property-rds.md)属性来指定要访问数据源的连接字符串。
+2. 设置[connect](connect-property-rds.md)属性以指定用于访问数据源的连接字符串。
 
-3. 设置[SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado)属性指定的查询命令文本。 
+3. 设置[SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado)属性以指定查询命令文本。 
 
-4. 问题的[Refresh](refresh-method-rds.md)方法会导致服务器程序连接到数据源，检索指定的查询中的行，并返回到客户端**Recordset**对象。
+4. 发出[Refresh](refresh-method-rds.md)方法, 以使服务器程序能够连接到数据源, 检索查询指定的行, 并将**Recordset**对象返回到客户端。
 
-本教程不使用 **RDS.DataControl** ，但在这里给出了它的形式：
+本教程不使用 **RDS.DataControl**，但在这里给出了它的形式：
 
 ```vb 
  
@@ -101,9 +101,9 @@ rs.Open "SELECT * FROM Authors","Provider=MS Remote;Data Source=Pubs;" & _
 "Remote Server=https://yourServer;Remote Provider=SQLOLEDB;" 
 ```
 
-### <a name="part-b"></a>部分 B
+### <a name="part-b"></a>部件 B
 
-执行此步骤的常规方法是调用**RDSServer.DataFactory**对象的[Query](query-method-rds.md)方法。 该方法使用一个连接字符串（用来连接到数据源）和一个命令文本（用来指定要从数据源中返回的行）。
+执行此步骤的常规方法是调用**rdsserver.datafactory**对象[查询](query-method-rds.md)方法。 该方法使用一个连接字符串（用来连接到数据源）和一个命令文本（用来指定要从数据源中返回的行）。
 
 本教程使用 **DataFactory** 对象的 **Query** 方法：
 
@@ -118,7 +118,7 @@ Sub RDSTutorial2B()
 ... 
 ```
 
-## <a name="step-3-server-obtains-a-recordset"></a>步骤 3： 服务器获取 Recordset 
+## <a name="step-3-server-obtains-a-recordset"></a>步骤 3: 服务器获取 Recordset 
 
 服务器程序使用连接字符串和命令文本在数据源中查询所需的行。尽管也可以使用其他 Microsoft 数据访问接口（如 OLE DB），但通常使用 ADO 来检索该 **Recordset** 。
 
@@ -135,11 +135,11 @@ Dim rs as New ADODB.Recordset
 End Function 
 ```
 
-## <a name="step-4-server-returns-the-recordset"></a>步骤 4： 服务器返回 Recordset 
+## <a name="step-4-server-returns-the-recordset"></a>步骤 4: 服务器返回 Recordset 
 
 RDS 将检索到的 **Recordset** 对象转换为可以发回到客户端的形式（即，它*封送 ***Recordset**）。转换的确切形式及其发送方式取决于服务器是位于 Internet、Intranet 还是局域网上，或者服务器是否为动态链接库。但是，该细节并不是关键；RDS 将 **Recordset** 发回到客户端才是关键。
 
-在客户端上， **Recordset** 对象返回，并被分配给本地变量。
+在客户端上，**Recordset** 对象返回，并被分配给本地变量。
 
 ```vb 
  
@@ -152,13 +152,13 @@ Sub RDSTutorial4()
 ... 
 ```
 
-## <a name="step-5-datacontrol-is-made-usable"></a>步骤 5: DataControl 由可用 
+## <a name="step-5-datacontrol-is-made-usable"></a>第5步: rds.datacontrol 可供使用 
 
-所返回的 **Recordset** 对象已经可以使用。可以像对任何其他 **Recordset** 一样检查、定位或编辑该对象。对 **Recordset** 可以执行的操作取决于相应的环境。Visual Basic 和 Visual C++ 具有一些可视控件，这些控件可以直接或通过启用数据控件间接使用 **Recordset** 。
+所返回的 **Recordset** 对象已经可以使用。可以像对任何其他 **Recordset** 一样检查、定位或编辑该对象。对 **Recordset** 可以执行的操作取决于相应的环境。Visual Basic 和 Visual C++ 具有一些可视控件，这些控件可以直接或通过启用数据控件间接使用 **Recordset**。
 
-例如，如果您要显示在 Internet Explorer 中的网页，您可能想要在可视控件中显示的**Recordset**对象的数据。 网页上的可视控件不能直接访问**Recordset**对象。 但是，它们可以通过 **RDS.DataControl** 访问 [Recordset](datacontrol-object-rds.md) 对象。 当 **RDS.DataControl** 的 [SourceRecordset](recordset-sourcerecordset-properties-rds.md) 属性设置为 **Recordset** 对象时，RDS.DataControl 便可被可视控件使用。
+例如, 如果要在 Internet Explorer 中显示网页, 您可能希望在可视化控件中显示**Recordset**对象数据。 网页上的可视控件不能直接访问**Recordset**对象。 但是，它们可以通过 [RDS.DataControl](datacontrol-object-rds.md) 访问 **Recordset** 对象。 当 **RDS.DataControl** 的 [SourceRecordset](recordset-sourcerecordset-properties-rds.md) 属性设置为 **Recordset** 对象时，RDS.DataControl 便可被可视控件使用。
 
-可视控件对象的 **DATASRC** 参数必须设置为 **RDS.DataControl** ，它的 **DATAFLD** 属性必须设置为 **Recordset** 对象字段（列）。
+可视控件对象的 **DATASRC** 参数必须设置为 **RDS.DataControl**，它的 **DATAFLD** 属性必须设置为 **Recordset** 对象字段（列）。
 
 在本教程中，设置 **SourceRecordset** 属性：
 
@@ -175,11 +175,11 @@ Sub RDSTutorial5()
 ... 
 ```
 
-## <a name="step-6-changes-are-sent-to-the-server"></a>步骤 6： 将更改发送到服务器
+## <a name="step-6-changes-are-sent-to-the-server"></a>步骤 6: 将更改发送到服务器
 
 如果对 **Recordset** 对象进行编辑，则可以将任何更改（即，对行进行地添加、更改或删除）发回到服务器。
 
-[!注释] RDS 的默认行为可通过 ADO 对象和 Microsoft OLE DB Remoting Provider 隐式调用。 查询可以返回**记录集**，并将已编辑的**记录集**可以更新数据源。 本教程不通过 ADO 对象调用 RDS，但在这里给出了它的形式：
+[!注释] RDS 的默认行为可通过 ADO 对象和 Microsoft OLE DB Remoting Provider 隐式调用。 查询可以返回**recordset**, 并且已编辑的**记录集**可以更新数据源。 本教程不通过 ADO 对象调用 RDS，但在这里给出了它的形式：
 
 ```vb 
  
@@ -191,9 +191,9 @@ rs.UpdateBatch ' The equivalent of SubmitChanges.
 ... 
 ```
 
-### <a name="part-a"></a>部分 A
+### <a name="part-a"></a>A 部分
 
-假设这种情况下，仅使用[rds.DataControl](datacontrol-object-rds.md)和**Recordset**对象是否立即与**rds.DataControl**。 如果 [Server](submitchanges-method-rds.md) 和 **Connect** 属性已设置， [SubmitChanges](server-property-rds.md) 方法将用对 [Recordset](connect-property-rds.md) 对象进行的任何更改来更新数据源。
+假定在这种情况下, 您只使用[RDS。rds.datacontrol](datacontrol-object-rds.md)以及**Recordset**对象现在是否与 RDS 相关联 **。rds.datacontrol**。 如果 [Server](submitchanges-method-rds.md) 和 **Connect** 属性已设置， [SubmitChanges](server-property-rds.md) 方法将用对 [Recordset](connect-property-rds.md) 对象进行的任何更改来更新数据源。
 
 ```vb 
  
@@ -212,9 +212,9 @@ DC.SubmitChanges
 ... 
 ```
 
-### <a name="part-b"></a>部分 B
+### <a name="part-b"></a>部件 B
 
-此外，您无法使用[RDSServer.DataFactory](datafactory-object-rdsserver.md)对象，指定连接和**Recordset**对象更新服务器。
+或者, 您可以使用[rdsserver.datafactory](datafactory-object-rdsserver.md)对象 (指定连接和**Recordset**对象) 来更新服务器。
 
 ```vb 
  
@@ -233,13 +233,13 @@ End Sub
 ```
 
 
-## <a name="appendix-a-rds-tutorial-vbscript"></a>附录 a: RDS 教程 (VBScript)
+## <a name="appendix-a-rds-tutorial-vbscript"></a>附录 A: RDS 教程 (VBScript)
 
-这是在 Microsoft Visual Basic Scripting Edition 编写的 RDS 教程。 本教程的用途的说明，请参阅本主题介绍。
+这是在 Microsoft Visual Basic 脚本编写版中编写的 RDS 教程。 有关本教程目的的说明, 请参阅本主题的简介。
 
-在本教程中， [rds.DataControl](datacontrol-object-rds.md)和[rds.DataSpace](dataspace-object-rds.md)在设计时; 创建即是与 object 标记中定义的。 另外，它们也可以在运行时通过 **Server.CreateObject** 方法创建。 
+在本教程中, [RDS。rds.datacontrol](datacontrol-object-rds.md)和[RDS。](dataspace-object-rds.md)在设计时创建空间,也就是说, 它们是使用对象标记进行定义的。 另外，它们也可以在运行时通过 **Server.CreateObject** 方法创建。 
 
-例如， **RDS.DataControl** 对象可以按如下方式创建：
+例如，**RDS.DataControl** 对象可以按如下方式创建：
 
 ```vb
     Set DC = Server.CreateObject("RDS.DataControl") 
@@ -260,26 +260,26 @@ End Sub
      Dim DF1 
 ```
 
-### <a name="step-1-specify-a-server-program"></a>步骤 1： 指定服务器程序
+### <a name="step-1-specify-a-server-program"></a>步骤 1: 指定服务器程序
 
-VBScript 可以发现 IIS web 服务器通过访问供 Active Server Pages 的 VBScript **Request.ServerVariables**方法运行的名称：
+vbscript 可以通过访问可用于 Active server Pages 的 vbscript **request.servervariables**方法来发现正在运行的 IIS web 服务器的名称:
 
 ```vb 
  
 "https://<%=Request.ServerVariables("SERVER_NAME")%>" 
 ```
 
-但是，本教程使用虚构服务器"yourServer"。
+但是, 对于本教程, 请使用假想服务器 "yourServer"。
 
 > [!NOTE]
-> [!注释] 请留意 **ByRef** 参数的数据类型。VBScript 不允许指定变量类型，因此必须始终传递变量。使用 HTTP 时，如果您用 **RDS.DataSpace** 对象的 [CreateObject](createobject-method-rds.md) 方法调用服务器程序，RDS 将允许您向应该使用非变量的方法传递变量。在使用 DCOM 或进程内服务器时，必须使客户端与服务器端的参数类型相匹配，否则将会产生"类型不匹配"错误。
+> 请留意 **ByRef** 参数的数据类型。VBScript 不允许指定变量类型，因此必须始终传递变量。使用 HTTP 时，如果您用 **RDS.DataSpace** 对象的 [CreateObject](createobject-method-rds.md) 方法调用服务器程序，RDS 将允许您向应该使用非变量的方法传递变量。在使用 DCOM 或进程内服务器时，必须使客户端与服务器端的参数类型相匹配，否则将会产生“类型不匹配”错误。
 
 ```vb
  
 Set DF1 = DS1.CreateObject("RDSServer.DataFactory", "https://yourServer") 
 ```
 
-### <a name="step-2-part-a-invoke-the-server-program-with-rdsdatacontrol"></a>步骤 2，部件答： 调用服务器程序与 rds.DataControl
+### <a name="step-2-part-a-invoke-the-server-program-with-rdsdatacontrol"></a>第2部分: 使用 RDS 调用服务器程序。rds.datacontrol
 
 以下示例只是注释，演示 **RDS.DataControl** 的默认行为是执行指定的查询。
 
@@ -300,16 +300,16 @@ Sub RDSTutorial2A()
 ... 
 ```
 
-跳到下面的步骤。
+跳到以下步骤。
 
-### <a name="step-4-server-returns-the-recordset"></a>步骤 4： 服务器返回 Recordset
+### <a name="step-4-server-returns-the-recordset"></a>步骤 4: 服务器返回 Recordset
 
 ```vb
  
 Set RS = DF1.Query("DSN=Pubs;", "SELECT * FROM Authors") 
 ```
 
-### <a name="step-5-datacontrol-is-made-usable-by-visual-controls"></a>步骤 5: DataControl 进行可用可视控件
+### <a name="step-5-datacontrol-is-made-usable-by-visual-controls"></a>第5步: rds.datacontrol 可供可视控件使用
 
 ```vb
  
@@ -318,7 +318,7 @@ Set RS = DF1.Query("DSN=Pubs;", "SELECT * FROM Authors")
 DC1.SourceRecordset = RS 
 ```
 
-### <a name="step-6-part-a-changes-are-sent-to-the-server-with-rdsdatacontrol"></a>步骤 6，部件答： 更改发送到的服务器与 rds.DataControl
+### <a name="step-6-part-a-changes-are-sent-to-the-server-with-rdsdatacontrol"></a>第6步: 第 A 部分: 使用 RDS 将更改发送到服务器。rds.datacontrol
 
 以下示例只是一个注释，演示 **RDS.DataControl** 如何执行更新。
 
@@ -344,7 +344,7 @@ Set DC1.SourceRecordset = RS
 DC1.SubmitChanges 
 ```
 
-### <a name="step-6-part-b-changes-are-sent-to-the-server-with-rdsserverdatafactory"></a>步骤 6，部件 b： 将更改发送到使用 RDSServer.DataFactory 服务器
+### <a name="step-6-part-b-changes-are-sent-to-the-server-with-rdsserverdatafactory"></a>步骤6中, 第 B 部分: 使用 rdsserver.datafactory 将更改发送到服务器。 DataFactory
 
 ```vb
  
@@ -356,7 +356,7 @@ End Sub
 </HTML> 
 ```
 
-## <a name="appendix-b-rds-tutorial-visual-j"></a>附录 b: RDS 教程 （Visual J + +）
+## <a name="appendix-b-rds-tutorial-visual-j"></a>附录 B: RDS 教程 (Visual j + +)
 
 ADO/WFC 不完全遵循 RDS 对象模型，因为它不实现 [RDS.DataControl](datacontrol-object-rds.md) 对象。ADO/WFC 仅实现客户端类 [RDS.DataSpace](dataspace-object-rds.md)。
 

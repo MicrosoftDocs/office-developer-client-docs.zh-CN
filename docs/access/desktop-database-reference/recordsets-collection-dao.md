@@ -1,5 +1,5 @@
 ---
-title: Recordsets 集合 (DAO)
+title: recordset 集合 (DAO)
 TOCTitle: Recordsets Collection
 ms:assetid: 246d9a78-4ce8-6393-982b-77ac00cd85bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191819(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3b935e05264497c7ad09ada4a8c50c775845857b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309299"
 ---
-# <a name="recordsets-collection-dao"></a>Recordsets 集合 (DAO)
+# <a name="recordsets-collection-dao"></a>recordset 集合 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Recordsets** 集合包含 **Connection** 或 **Database** 对象中所有打开的 **Recordset** 对象。
 
@@ -32,7 +32,7 @@ ms.locfileid: "28718761"
 
 - **Recordsets**(0)
 
-- **记录集**("name")
+- **recordset**("名称")
 
 - **记录集**\!\[名称\]
 

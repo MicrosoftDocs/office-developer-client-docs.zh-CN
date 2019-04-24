@@ -1,5 +1,5 @@
 ---
-title: 使用书签 （访问桌面数据库参考 （英文）
+title: 使用书签 (Access 桌面数据库参考)
 TOCTitle: Using Bookmarks
 ms:assetid: fe6333ef-c9d9-1e84-2252-d27edc676e97
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250306(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 469d8a0cc9b644fe434770d51c21d8210c8038d0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706316"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306305"
 ---
 # <a name="using-bookmarks"></a>使用书签
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 通常需要在 **Recordset** 中移动到其他位置之后直接返回到特定记录，而不用滚动经过每个记录并比较值。例如，如果试图使用 **Find** 方法搜索记录但搜索没有返回记录，您将自动位于 **Recordset** 的末尾。如果提供程序支持，则在使用 **Find** 方法之前，可以用书签来标记您的位置，以便可以返回该位置。书签是 **变量型** 类型值，它可以唯一标识 **Recordset** 对象中的记录。
 

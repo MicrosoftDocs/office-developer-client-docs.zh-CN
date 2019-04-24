@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Restartable 属性 (DAO)
+title: Recordset2 属性 (DAO)
 TOCTitle: Restartable Property
 ms:assetid: 9b1c40f8-5a33-2527-a7b6-bef4cb991d7e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198019(v=office.15)
@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 873911ff8475a0b37f3f67d9cb2c01afc577487d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309076"
 ---
-# <a name="recordset2restartable-property-dao"></a>Recordset2.Restartable 属性 (DAO)
+# <a name="recordset2restartable-property-dao"></a>Recordset2 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 返回一个值，该值表示 **[Recordset](recordset-object-dao.md)** 对象是否支持 **[Requery](recordset2-requery-method-dao.md)** 方法，该方法重新执行 **Recordset** 对象所基于的查询。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。可重新启动
+*表达式*。合用
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 

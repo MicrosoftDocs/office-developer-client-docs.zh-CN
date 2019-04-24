@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eb1637d1757a8507c6b6abb2a0c71867e3d1177b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703844"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295483"
 ---
 # <a name="copyrecordoptionsenum"></a>CopyRecordOptionsEnum
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 [CopyRecord](copyrecord-method-ado.md) 方法的行为。
 
@@ -42,7 +42,7 @@ ms.locfileid: "28703844"
 </tr>
 <tr class="even">
 <td><p><strong>adCopyNonRecursive</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>将当前目录（但不包括其任何子目录）复制到目标。此复制操作不是递归的。</p></td>
 </tr>
 <tr class="odd">
@@ -59,7 +59,7 @@ ms.locfileid: "28703844"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
 这些常量没有 ADO/WFC 等效值。
 

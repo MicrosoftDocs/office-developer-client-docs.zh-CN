@@ -1,5 +1,5 @@
 ---
-title: Field2.Attributes 属性 (DAO)
+title: Field2 属性 (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 08ae9b6b-21e4-9b7e-0852-cfc6639027a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845025(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a655cfa5c6f0427b1a26a01f01e991564ab8e387
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292886"
 ---
-# <a name="field2attributes-property-dao"></a>Field2.Attributes 属性 (DAO)
+# <a name="field2attributes-property-dao"></a>Field2 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 设置或返回一个值，该值指示 **Field2** 对象的一个或多个特征。 **Long** 类型，可读写。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。属性
+*表达式*。诸如
 
 *表达式*一个代表**Field2**对象的变量。
 
@@ -54,7 +54,7 @@ ms.locfileid: "28700715"
 </tr>
 <tr class="even">
 <td><p><strong>dbDescending</strong></p></td>
-<td><p>字段将以降序（Z 到 A，或 100 到 0）排序；此选项只适用于 <strong>Index</strong> 对象的 <strong>Fields</strong> 集合中的 <strong>Field2</strong> 对象。如果省略此常量，将以升序（A 到 Z，或 0 到 100）排序。这是 <strong>Index</strong> 和 <strong>TableDef</strong> 字段的默认值（仅适用于 Microsoft Access 工作区）。.</p></td>
+<td><p>字段按降序 (Z 到 A 或100到 0) 排序;此选项仅适用于<strong>Index</strong>对象的<strong>Fields</strong>集合中的<strong>Field2</strong>对象。 如果省略此常量, 则将按升序 (A 到 Z 或0到 100) 顺序对字段进行排序。 这是<strong>Index</strong>和<strong>TableDef</strong>字段的默认值 (仅适用于 Microsoft Access 工作区)。。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbFixedField</strong></p></td>
@@ -99,20 +99,20 @@ ms.locfileid: "28700715"
 <td><p>将 <strong>Index</strong> 所要追加到的 <strong>TableDef</strong> 对象追加到 <strong>Database</strong> 对象之前是可读写的；追加后，该属性是只读的。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong>对象</p></td>
+<td><p><strong>QueryDef</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong>对象</p></td>
+<td><p><strong>Recordset</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong>对象</p></td>
-<td><p>不支持</p></td>
+<td><p><strong>Relation</strong> 对象</p></td>
+<td><p>不受支持</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TableDef</strong>对象</p></td>
-<td><p>可读写</p></td>
+<td><p><strong>TableDef</strong> 对象</p></td>
+<td><p>读/写</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6287bc8a66858d51d65c37477eed7a86cd7839af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721848"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308727"
 ---
 # <a name="selectobject-macro-action"></a>SelectObject 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **SelectObject** 操作选择指定的数据库对象。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **SelectObject** 操作具有下列参数。
 
@@ -46,7 +46,7 @@ ms.locfileid: "28721848"
 </tr>
 <tr class="even">
 <td><p><strong>对象名称</strong></p></td>
-<td><p>要选择的对象的名称。 <strong>对象名称</strong>框中显示<strong>对象类型</strong>参数所选类型的数据库中的所有对象。 这是一个必需的参数，除非您将在导航窗格中参数设置为<strong>是</strong>。</p><p><strong>注意</strong>：<STRONG>服务器视图</STRONG>、<STRONG>图表</STRONG>或<STRONG>存储过程</STRONG>的对象的对象名称并不会显示在<STRONG>对象名称</STRONG>框中的 Access 项目 (.adp)。</p></td>
+<td><p>要选择的对象的名称。<strong>“对象名称”</strong>框会显示数据库中属于“对象类型”<strong></strong>参数所选的类型的所有对象。除非您将“在导航窗格中”参数设置为<strong>“是”</strong>，否则此参数是必选参数。</p><p><strong>注意</strong>:<STRONG>服务器视图</STRONG>、<STRONG>图表</STRONG>或<STRONG>存储过程</STRONG>对象的对象名称不会显示在 Access 项目 (.adp) 的 "<STRONG>对象名称</STRONG>" 框中。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>在导航窗格中</strong></p></td>
@@ -56,11 +56,11 @@ ms.locfileid: "28721848"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**SelectObject**操作适用于可接收焦点任何访问对象。 此操作使指定的对象获得焦点，显示对象如果它处于隐藏状态。 如果对象是窗体， **SelectObject**操作将窗体的**Visible**属性设置为**是**，并让窗体返回其窗体属性 （例如，为模式或弹出式窗体） 设置的模式。
+**SelectObject** 操作适用于可以接收焦点的任何 Access 对象。此操作将焦点移到指定的对象上，如果对象是隐藏的，还将显示该对象。如果该对象为窗体，**SelectObject** 操作会将窗体的“可见”**** 属性设置为“是”****，并将窗体返回到通过其窗体属性设置的模式（例如，模式或弹出式窗体）。
 
-如果在一个其他 Access 窗口中，该对象未打开，您可以通过**在导航窗格中**参数设置为**是**导航窗格中选择它。 如果将**在导航窗格中**参数设置为**否**，，当您尝试选择未打开对象时，但未出现错误消息。
+If the object isn't open in one of the other Access windows, you can select it in the Navigation Pane by setting the **In Navigation Pane** argument to **Yes**. If you set the **In Navigation Pane** argument to **No**, an error message appears when you try to select an object that isn't open.
 
 通常，您可能会使用此操作来选择要对其执行其他操作的对象。例如，如果您将 Access 配置为使用重叠窗口，而不是使用选项卡式文档，您可能需要还原已经最小化的对象（使用 **RestoreWindow** 操作）或最大化包含您要使用的对象的窗口（使用 **MaximizeWindow** 操作）。
 

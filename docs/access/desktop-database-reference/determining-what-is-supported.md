@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3abef84f05ad279edba1fcc753f0b412a807a7b9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293908"
 ---
 # <a name="determining-what-is-supported"></a>确定什么受支持
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Supports** 方法用于确定指定的 **Recordset** 对象是否支持特定类型的功能。它的语法如下：
+**Supports** 方法用于确定指定的 **Recordset** 对象是否支持特定类型的功能。 它的语法如下：
 
 `boolean = recordset.Supports( CursorOptions )`
 

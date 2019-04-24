@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: adcc8a2a9462509f4b37d2dbdaf824387ae52a26
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309170"
 ---
 # <a name="runsavedimportexport-macro-action"></a>RunSavedImportExport 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **RunSavedImportExport** 操作运行用"导入向导"或"导出向导"创建的已保存的导入或导出规格。
 
@@ -51,13 +51,13 @@ ms.locfileid: "28717879"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 - 此宏操作等效于在 Access 中执行以下过程：
     
-  1.  在 **"外部数据"** 选项卡上，单击 **"已保存的导入"** 或 **"已保存的导出"**。
+  1.  在 **“外部数据”** 选项卡上，单击 **“已保存的导入”** 或 **“已保存的导出”**。
     
-  2.  在 **"管理数据任务"** 对话框的 **"已保存的导入"** 或 **"已保存的导出"** 选项卡（取决于前面步骤中的选择）上，单击要运行的规格。
+  2.  在 **“管理数据任务”** 对话框的 **“已保存的导入”** 或 **“已保存的导出”** 选项卡（取决于前面步骤中的选择)上，单击要运行的规格。
     
   3.  单击 **"运行"**。
 
@@ -65,5 +65,5 @@ ms.locfileid: "28717879"
 
 - 在 **请参阅**部分中可以找到有关保存和运行导入规格和导出规格的详细信息的链接。
 
-- 如果保存的导入或导出的规格您选择的创建宏后，将删除**保存导入/导出名称**参数，Access 将显示以下错误消息时运行宏：**具有指定索引规范执行不存在。指定一个不同的索引。*** 规范名称 ***'。**
+- 如果在创建宏后, 为**保存的导入导出名称**参数选择的已保存的导入或导出规格已删除, 则在运行该宏时, Access 将显示以下错误消息:**具有指定索引的规范将执行不存在。指定一个不同的索引。' * * * * * 规范名称 * *** * * * '。
 

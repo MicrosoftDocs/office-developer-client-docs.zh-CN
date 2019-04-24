@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c378ba722af1266cf7e68c60d52592059ef45ce4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308454"
 ---
 # <a name="supports-method-example-vc"></a>Supports 方法示例 (VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下示例使用 [Supports](supports-method-ado.md) 方法显示用不同游标类型打开的记录集所支持的选项。此示例需要使用 DisplaySupport 函数才能运行。
 

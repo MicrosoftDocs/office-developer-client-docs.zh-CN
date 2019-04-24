@@ -1,5 +1,5 @@
 ---
-title: Relation.Table 属性 (DAO)
+title: 关系. 表属性 (DAO)
 TOCTitle: Table Property
 ms:assetid: cc4f64ef-c4e9-1a14-9263-5f8220d89840
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834423(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 91a3262d92350618c2385013983020669b28ea5c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306991"
 ---
-# <a name="relationtable-property-dao"></a>Relation.Table 属性 (DAO)
+# <a name="relationtable-property-dao"></a>关系. 表属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示 **[Relation](relation-object-dao.md)** 对象的主表的名称。该属性应当等同于 **[TableDef](connection-name-property-dao.md)** 或 **[QueryDef](tabledef-object-dao.md)** 对象的 **[Name](querydef-object-dao.md)** 属性设置（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。表
+*表达式*。型
 
 *表达式*一个代表**Relation**对象的变量。
 
@@ -39,7 +39,7 @@ ms.locfileid: "28708359"
 
 例如，如果您有一个存储在 ValidParts 表中的有效部件代码列表（这些代码存储在名为 PartNo 的字段中），则可以与 OrderItem 表建立一对多关系，这样一来，如果部件代码输入到 OrderItem 表中，它就会出现在 ValidParts 表中。如果部件代码不存在于 ValidParts 表中，并且您未将 **Relation** 对象的 **Attributes** 属性设置为 **dbRelationDontEnforce**，就会发生可捕获的错误。
 
-在本例中，ValidParts 表是主表，所以 **Relation** 对象的 **Table** 属性将设置为 ValidParts， **Relation** 对象的 **ForeignTable** 属性将设置为 OrderItem。 **Relation** 对象的 [**Fields**](field-object-dao.md) 集合中的 ****Field**** 对象的 [Name](fields-collection-dao.md) 和 **ForeignName** 属性将设置为 PartNo。
+在此例中，ValidParts 表是主表，所以 **Relation** 对象的 **Table** 属性将设置为 ValidParts， **Relation** 对象的 **ForeignTable** 属性将设置为 OrderItem。 **Relation**对象的**[Fields](fields-collection-dao.md)** 集合中的**[Field](field-object-dao.md)** 对象的**Name**和**ForeignName**属性将设置为 PartNo。
 
 ## <a name="example"></a>示例
 

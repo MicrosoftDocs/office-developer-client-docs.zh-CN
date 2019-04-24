@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0970fbb60d7e4c87685441ea893a44cf7ecb9cde
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296274"
 ---
 # <a name="clustered-property-example-vc"></a>Clustered 属性示例 (VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-本示例演示 [Index](clustered-property-adox.md) 的 [Clustered](index-object-adox.md) 属性。 请注意，Microsoft Jet 数据库不支持聚簇的索引，因此本示例将返回**False**的**Clustered**属性的*Northwind*数据库中的所有索引。
+本示例演示 [Index](index-object-adox.md) 的 [Clustered](clustered-property-adox.md) 属性。注意，Microsoft Jet 数据库不支持聚集索引，因此本示例对于 *Northwind* 数据库中的所有索引的 **Clustered** 属性返回 **False**。
 
 ```cpp 
  
