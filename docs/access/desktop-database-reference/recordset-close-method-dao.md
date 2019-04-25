@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f7cbd94bfacc91bfe080d33807ca7989c1dca661
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300551"
 ---
-# <a name="recordsetclose-method-dao"></a><span data-ttu-id="d8fe0-102">Recordset.Close 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="d8fe0-102">Recordset.Close method (DAO)</span></span>
+# <a name="recordsetclose-method-dao"></a><span data-ttu-id="fb538-102">Recordset.Close 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="fb538-102">Recordset.Close method (DAO)</span></span>
 
 
-<span data-ttu-id="d8fe0-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8fe0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fb538-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="fb538-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d8fe0-104">关闭已打开的 **Recordset**。</span><span class="sxs-lookup"><span data-stu-id="d8fe0-104">Closes an open **Recordset**.</span></span>
+<span data-ttu-id="fb538-104">关闭一个打开的**Recordset**。</span><span class="sxs-lookup"><span data-stu-id="fb538-104">Closes an open **Recordset**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d8fe0-105">语法</span><span class="sxs-lookup"><span data-stu-id="d8fe0-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fb538-105">语法</span><span class="sxs-lookup"><span data-stu-id="fb538-105">Syntax</span></span>
 
-<span data-ttu-id="d8fe0-106">*表达式*。关闭</span><span class="sxs-lookup"><span data-stu-id="d8fe0-106">*expression* .Close</span></span>
+<span data-ttu-id="fb538-106">*表达式* .Close</span><span class="sxs-lookup"><span data-stu-id="fb538-106">expression  . Close</span></span>
 
-<span data-ttu-id="d8fe0-107">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="d8fe0-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="fb538-107">*表达式* 一个表示 **Recordset** 对象的变量。</span><span class="sxs-lookup"><span data-stu-id="fb538-107">*expression*  A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d8fe0-108">注解</span><span class="sxs-lookup"><span data-stu-id="d8fe0-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fb538-108">说明</span><span class="sxs-lookup"><span data-stu-id="fb538-108">Remarks</span></span>
 
-<span data-ttu-id="d8fe0-109">如果使用 **Close** 时 **Recordset** 对象已被关闭，将发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="d8fe0-109">If the **Recordset** object is already closed when you use **Close**, a run-time error occurs.</span></span>
+<span data-ttu-id="fb538-109">如果使用 **Close** 时 **Recordset** 对象已被关闭，将发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="fb538-109">If the **Recordset** object is already closed when you use **Close**, a run-time error occurs.</span></span>
 
-<span data-ttu-id="d8fe0-p101">如果尝试关闭的 **Connection** 对象具有任何打开的 **Recordset** 对象，则会关闭 **Recordset** 对象，同时取消任何待定的更新或编辑。同样，如果尝试关闭的 **Workspace** 对象具有任何打开的 **Connection** 对象，则会关闭那些 **Connection** 对象，这样就可以关闭它们的 **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="d8fe0-p101">If you try to close a **Connection** object while it has any open **Recordset** objects, the **Recordset** objects will be closed and any pending updates or edits will be canceled. Similarly, if you try to close a **Workspace** object while it has any open **Connection** objects, those **Connection** objects will be closed, which will close their **Recordset** objects.</span></span>
+<span data-ttu-id="fb538-p101">如果尝试关闭的 **Connection** 对象具有任何打开的 **Recordset** 对象，则会关闭 **Recordset** 对象，同时取消任何待定的更新或编辑。同样，如果尝试关闭的 **Workspace** 对象具有任何打开的 **Connection** 对象，则会关闭那些 **Connection** 对象，这样就可以关闭它们的 **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="fb538-p101">If you try to close a **Connection** object while it has any open **Recordset** objects, the **Recordset** objects will be closed and any pending updates or edits will be canceled. Similarly, if you try to close a **Workspace** object while it has any open **Connection** objects, those **Connection** objects will be closed, which will close their **Recordset** objects.</span></span>
 
-<span data-ttu-id="d8fe0-112">**Close**方法的替代方法是将对象变量的值设置为**Nothing** (Set dbsTemp = Nothing)。</span><span class="sxs-lookup"><span data-stu-id="d8fe0-112">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
+<span data-ttu-id="fb538-112">**Close** 方法的替代方法是将对象变量的值设置为 **Nothing** (Set dbsTemp = Nothing)。</span><span class="sxs-lookup"><span data-stu-id="fb538-112">An alternative to the Close method is to set the value of an object variable to Nothing (Set dbsTemp = Nothing).</span></span>
 

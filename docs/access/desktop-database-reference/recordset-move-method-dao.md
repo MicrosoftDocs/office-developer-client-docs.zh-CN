@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 1f10b5b779141189f114e420b3f7d4827e701161
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284797"
 ---
-# <a name="recordsetmove-method-dao"></a><span data-ttu-id="72459-102">Recordset.Move 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="72459-102">Recordset.Move method (DAO)</span></span>
+# <a name="recordsetmove-method-dao"></a><span data-ttu-id="27831-102">Recordset.Move 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="27831-102">Recordset.Move method (DAO)</span></span>
 
-<span data-ttu-id="72459-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="72459-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="27831-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="27831-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="72459-104">移动 **[Recordset](recordset-object-dao.md)** 对象中的当前记录的位置。</span><span class="sxs-lookup"><span data-stu-id="72459-104">Moves the position of the current record in a **[Recordset](recordset-object-dao.md)** object.</span></span>
+<span data-ttu-id="27831-104">移动 **[Recordset](recordset-object-dao.md)** 对象中当前记录的位置。</span><span class="sxs-lookup"><span data-stu-id="27831-104">Moves the position of the current record in a **[Recordset](recordset-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="72459-105">语法</span><span class="sxs-lookup"><span data-stu-id="72459-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="27831-105">语法</span><span class="sxs-lookup"><span data-stu-id="27831-105">Syntax</span></span>
 
-<span data-ttu-id="72459-106">*表达式*。移动 （***行***、 ***StartBookmark***）</span><span class="sxs-lookup"><span data-stu-id="72459-106">*expression* .Move(***Rows***, ***StartBookmark***)</span></span>
+<span data-ttu-id="27831-106">*表达式* .Move(***Rows***, ***StartBookmark***)</span><span class="sxs-lookup"><span data-stu-id="27831-106">*expression* .Move(***Rows***, ***StartBookmark***)</span></span>
 
-<span data-ttu-id="72459-107">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="72459-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="27831-107">*表达式* 一个表示 **Recordset** 对象的变量。</span><span class="sxs-lookup"><span data-stu-id="27831-107">*expression*  A variable that represents a **Recordset** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="72459-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="72459-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="27831-108">参数</span><span class="sxs-lookup"><span data-stu-id="27831-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,46 +41,46 @@ ms.locfileid: "28709660"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="72459-109">Name</span><span class="sxs-lookup"><span data-stu-id="72459-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="72459-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="72459-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="72459-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="72459-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="72459-112">说明</span><span class="sxs-lookup"><span data-stu-id="72459-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="27831-109">名称</span><span class="sxs-lookup"><span data-stu-id="27831-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="27831-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="27831-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="27831-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="27831-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="27831-112">说明</span><span class="sxs-lookup"><span data-stu-id="27831-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="72459-113"><em>Rows</em></span><span class="sxs-lookup"><span data-stu-id="72459-113"><em>Rows</em></span></span></p></td>
-<td><p><span data-ttu-id="72459-114">必需</span><span class="sxs-lookup"><span data-stu-id="72459-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="72459-115"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="72459-115"><strong>Long</strong></span></span></p></td>
-<td><p><span data-ttu-id="72459-p101">位置移动的行数。如果 rows 大于 0，则位置向前移（向文件的末尾处移动）。如果 rows 小于 0，则位置向后移（向文件的开头处移动）。</span><span class="sxs-lookup"><span data-stu-id="72459-p101">The number of rows the position will move. If rows is greater than 0, the position is moved forward (toward the end of the file). If rows is less than 0, the position is moved backward (toward the beginning of the file).</span></span></p></td>
+<td><p><span data-ttu-id="27831-113"><em>Rows</em></span><span class="sxs-lookup"><span data-stu-id="27831-113"><em>Rows</em></span></span></p></td>
+<td><p><span data-ttu-id="27831-114">必需</span><span class="sxs-lookup"><span data-stu-id="27831-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="27831-115"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="27831-115"><strong>Long</strong></span></span></p></td>
+<td><p><span data-ttu-id="27831-116">位置移动的行数。</span><span class="sxs-lookup"><span data-stu-id="27831-116">The number of rows the position will move.</span></span> <span data-ttu-id="27831-117">如果行数大于 0，则向前移动位置（朝着文件末尾移动）。</span><span class="sxs-lookup"><span data-stu-id="27831-117">If rows is greater than 0, the position is moved forward (toward the end of the file).</span></span> <span data-ttu-id="27831-118">如果行数小于 0，则向后移动位置（朝着文件开头移动）。</span><span class="sxs-lookup"><span data-stu-id="27831-118">If rows is less than 0, the position is moved backward (toward the beginning of the file).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="72459-119"><em>StartBookmark</em></span><span class="sxs-lookup"><span data-stu-id="72459-119"><em>StartBookmark</em></span></span></p></td>
-<td><p><span data-ttu-id="72459-120">可选</span><span class="sxs-lookup"><span data-stu-id="72459-120">Optional</span></span></p></td>
-<td><p><span data-ttu-id="72459-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="72459-121"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="72459-p102">一个标识书签的值。如果指定了 startbookmark，则相对于此书签开始移动。否则，从当前记录开始移动。</span><span class="sxs-lookup"><span data-stu-id="72459-p102">A value identifying a bookmark. If you specify startbookmark, the move begins relative to this bookmark. Otherwise, Move begins from the current record.</span></span></p></td>
+<td><p><span data-ttu-id="27831-119"><em>StartBookmark</em></span><span class="sxs-lookup"><span data-stu-id="27831-119"><em>StartBookmark</em></span></span></p></td>
+<td><p><span data-ttu-id="27831-120">可选</span><span class="sxs-lookup"><span data-stu-id="27831-120">Optional</span></span></p></td>
+<td><p><span data-ttu-id="27831-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="27831-121"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="27831-122">一个用于标识书签的值。</span><span class="sxs-lookup"><span data-stu-id="27831-122">A value identifying a bookmark.</span></span> <span data-ttu-id="27831-123">如果指定 StartBookmark，则会相对此书签开始移动。</span><span class="sxs-lookup"><span data-stu-id="27831-123">If you specify startbookmark, the move begins relative to this bookmark.</span></span> <span data-ttu-id="27831-124">否则，从当前记录开始移动。</span><span class="sxs-lookup"><span data-stu-id="27831-124">Otherwise, Move begins from the current record.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="72459-125">注解</span><span class="sxs-lookup"><span data-stu-id="72459-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="27831-125">说明</span><span class="sxs-lookup"><span data-stu-id="27831-125">Remarks</span></span>
 
-<span data-ttu-id="72459-p103">如果使用 **Move** 将当前记录指针定位在第一条记录之前，当前记录指针将移到文件的开头。如果 **Recordset** 不包含记录，并且它的 **[BOF](recordset-bof-property-dao.md)** 属性为 **True**，则使用此方法后移会导致错误。</span><span class="sxs-lookup"><span data-stu-id="72459-p103">If you use **Move** to position the current record pointer before the first record, the current record pointer moves to the beginning of the file. If the **Recordset** contains no records and its **[BOF](recordset-bof-property-dao.md)** property is **True**, using this method to move backward causes an error.</span></span>
+<span data-ttu-id="27831-p103">如果使用 **Move** 将当前记录指针定位在第一条记录之前，当前记录指针将移到文件的开头。如果 **Recordset** 不包含记录，并且它的 **[BOF](recordset-bof-property-dao.md)** 属性为 **True**，则使用此方法后移会导致错误。</span><span class="sxs-lookup"><span data-stu-id="27831-p103">If you use **Move** to position the current record pointer before the first record, the current record pointer moves to the beginning of the file. If the **Recordset** contains no records and its **[BOF](recordset-bof-property-dao.md)** property is **True**, using this method to move backward causes an error.</span></span>
 
-<span data-ttu-id="72459-p104">如果使用 **Move** 将当前记录指针定位在最后一条记录之后，当前记录指针将移到文件的末尾。如果 **Recordset** 不包含记录，并且它的 **[EOF](recordset-eof-property-dao.md)** 属性为 **True**，则使用此方法前移会导致错误。</span><span class="sxs-lookup"><span data-stu-id="72459-p104">If you use **Move** to position the current record pointer after the last record, the current record pointer position moves to the end of the file. If the **Recordset** contains no records and its **[EOF](recordset-eof-property-dao.md)** property is **True**, then using this method to move forward causes an error.</span></span>
+<span data-ttu-id="27831-p104">如果使用 **Move** 将当前记录指针定位在最后一条记录之后，当前记录指针将移到文件的末尾。如果 **Recordset** 不包含记录，并且它的 **[EOF](recordset-eof-property-dao.md)** 属性为 **True**，则使用此方法前移会导致错误。</span><span class="sxs-lookup"><span data-stu-id="27831-p104">If you use **Move** to position the current record pointer after the last record, the current record pointer position moves to the end of the file. If the **Recordset** contains no records and its **[EOF](recordset-eof-property-dao.md)** property is **True**, then using this method to move forward causes an error.</span></span>
 
-<span data-ttu-id="72459-130">如果 **BOF** 和 **EOF** 属性中的一个为 **True**，并且您试图在不使用有效书签的情况下使用 **Move** 方法，将会发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="72459-130">If either the **BOF** or **EOF** property is **True** and you attempt to use the **Move** method without a valid bookmark, a run-time error occurs.</span></span>
+<span data-ttu-id="27831-130">如果 **BOF** 和 **EOF** 属性中的一个为 **True**，并且您试图在不使用有效书签的情况下使用 **Move** 方法，将会发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="27831-130">If either the **BOF** or **EOF** property is **True** and you attempt to use the **Move** method without a valid bookmark, a run-time error occurs.</span></span>
 
 > [!NOTE]
-> - <span data-ttu-id="72459-p105">如果对仅向前类型的 **Recordset** 对象使用 **Move**，则行参数必须是正整数，并且不允许使用书签。这意识着您只能前移。</span><span class="sxs-lookup"><span data-stu-id="72459-p105">When you use **Move** on a forward-only-type **Recordset** object, the rows argument must be a positive integer and bookmarks aren't allowed. This means you can only move forward.</span></span>
-> - <span data-ttu-id="72459-133">若要使 **Recordset** 中的第一条、最后一条、下一条或上一条记录成为当前记录，请使用 **MoveFirst**、 **MoveLast**、 **MoveNext** 和 **MovePrevious** 方法之一。</span><span class="sxs-lookup"><span data-stu-id="72459-133">To make the first, last, next, or previous record in a **Recordset** the current record, use either the **MoveFirst**, **MoveLast**, **MoveNext**, or **MovePrevious** method.</span></span>
-> - <span data-ttu-id="72459-p106">在行等于 0 的情况下使用 **Move** 是检索当前记录的基础数据的简易方法。如果要确保当前记录具有基表中的最新数据，使用此方法十分有用。它还会取消任何待定的 **[Edit](recordset2-edit-method-dao.md)** 或 **[AddNew](recordset-addnew-method-dao.md)** 调用。</span><span class="sxs-lookup"><span data-stu-id="72459-p106">Using **Move** with rows equal to 0 is an easy way to retrieve the underlying data for the current record. This is useful if you want to make sure that the current record has the most recent data from the base tables. It will also cancel any pending **[Edit](recordset2-edit-method-dao.md)** or **[AddNew](recordset-addnew-method-dao.md)** calls.</span></span>
+> - <span data-ttu-id="27831-p105">如果对仅向前类型的 **Recordset** 对象使用 **Move**，则行参数必须是正整数，并且不允许使用书签。这意识着您只能前移。</span><span class="sxs-lookup"><span data-stu-id="27831-p105">When you use **Move** on a forward-only-type **Recordset** object, the rows argument must be a positive integer and bookmarks aren't allowed. This means you can only move forward.</span></span>
+> - <span data-ttu-id="27831-133">若要使 **Recordset** 中的第一条、最后一条、下一条或上一条记录成为当前记录，请使用 **MoveFirst**、 **MoveLast**、 **MoveNext** 和 **MovePrevious** 方法之一。</span><span class="sxs-lookup"><span data-stu-id="27831-133">To make the first, last, next, or previous record in a **Recordset** the current record, use either the **MoveFirst**, **MoveLast**, **MoveNext**, or **MovePrevious** method.</span></span>
+> - <span data-ttu-id="27831-p106">在行等于 0 的情况下使用 **Move** 是检索当前记录的基础数据的简易方法。如果要确保当前记录具有基表中的最新数据，使用此方法十分有用。它还会取消任何待定的 **[Edit](recordset2-edit-method-dao.md)** 或 **[AddNew](recordset-addnew-method-dao.md)** 调用。</span><span class="sxs-lookup"><span data-stu-id="27831-p106">Using **Move** with rows equal to 0 is an easy way to retrieve the underlying data for the current record. This is useful if you want to make sure that the current record has the most recent data from the base tables. It will also cancel any pending **[Edit](recordset2-edit-method-dao.md)** or **[AddNew](recordset-addnew-method-dao.md)** calls.</span></span>
 
 
-## <a name="example"></a><span data-ttu-id="72459-137">示例</span><span class="sxs-lookup"><span data-stu-id="72459-137">Example</span></span>
+## <a name="example"></a><span data-ttu-id="27831-137">示例</span><span class="sxs-lookup"><span data-stu-id="27831-137">Example</span></span>
 
-<span data-ttu-id="72459-138">以下示例使用 **Move** 方法基于用户输入来定位记录指针。</span><span class="sxs-lookup"><span data-stu-id="72459-138">This example uses the **Move** method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="27831-138">以下示例使用 **Move** 方法基于用户输入来定位记录指针。</span><span class="sxs-lookup"><span data-stu-id="27831-138">This example uses the **Move** method to position the record pointer based on user input.</span></span>
 
 ```vb
     Sub MoveX() 

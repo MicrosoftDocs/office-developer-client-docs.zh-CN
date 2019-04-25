@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c19ef8ab8ef2e937ba7467b3695f9aa5780c21c0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294979"
 ---
-# <a name="databasecreatequerydef-method-dao"></a><span data-ttu-id="1243a-102">Database.CreateQueryDef 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="1243a-102">Database.CreateQueryDef method (DAO)</span></span>
+# <a name="databasecreatequerydef-method-dao"></a><span data-ttu-id="210f1-102">Database.CreateQueryDef 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="210f1-102">Database.CreateQueryDef method (DAO)</span></span>
 
-<span data-ttu-id="1243a-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1243a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="210f1-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="210f1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1243a-104">创建新的 **[QueryDef](querydef-object-dao.md)** 对象。</span><span class="sxs-lookup"><span data-stu-id="1243a-104">Creates a new **[QueryDef](querydef-object-dao.md)** object.</span></span>
+<span data-ttu-id="210f1-104">创建一个新的 **[QueryDef](querydef-object-dao.md)** 对象。</span><span class="sxs-lookup"><span data-stu-id="210f1-104">Creates a new **[QueryDef](querydef-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1243a-105">语法</span><span class="sxs-lookup"><span data-stu-id="1243a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="210f1-105">语法</span><span class="sxs-lookup"><span data-stu-id="210f1-105">Syntax</span></span>
 
-<span data-ttu-id="1243a-106">*表达式*。CreateQueryDef （***名称***、 ***SQLText***）</span><span class="sxs-lookup"><span data-stu-id="1243a-106">*expression* .CreateQueryDef(***Name***, ***SQLText***)</span></span>
+<span data-ttu-id="210f1-106">*表达式* .CreateQueryDef(***Name***, ***SQLText***)</span><span class="sxs-lookup"><span data-stu-id="210f1-106">*expression* .CreateQueryDef(***Name***, ***SQLText***)</span></span>
 
-<span data-ttu-id="1243a-107">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="1243a-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="210f1-107">*表达式* 一个代表 **Database** 对象的变量。</span><span class="sxs-lookup"><span data-stu-id="210f1-107">*expression*  A variable that represents a **Database** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="1243a-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="1243a-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="210f1-108">参数</span><span class="sxs-lookup"><span data-stu-id="210f1-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,50 +37,50 @@ ms.locfileid: "28711110"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="1243a-109">Name</span><span class="sxs-lookup"><span data-stu-id="1243a-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="1243a-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="1243a-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="1243a-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="1243a-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="1243a-112">说明</span><span class="sxs-lookup"><span data-stu-id="1243a-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="210f1-109">名称</span><span class="sxs-lookup"><span data-stu-id="210f1-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="210f1-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="210f1-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="210f1-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="210f1-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="210f1-112">说明</span><span class="sxs-lookup"><span data-stu-id="210f1-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1243a-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="1243a-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="1243a-114">可选</span><span class="sxs-lookup"><span data-stu-id="1243a-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="1243a-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="1243a-115"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="1243a-116">对新的 <strong>QueryDef</strong> 进行唯一命名的 <strong>Variant</strong>（<strong>String</strong> 子类型）。</span><span class="sxs-lookup"><span data-stu-id="1243a-116">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>QueryDef</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="210f1-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="210f1-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="210f1-114">可选</span><span class="sxs-lookup"><span data-stu-id="210f1-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="210f1-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="210f1-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="210f1-116">一个<strong>变量</strong>（<strong>String</strong> 子类型），它唯一命名新的 <strong>QueryDef</strong>。</span><span class="sxs-lookup"><span data-stu-id="210f1-116">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>QueryDef</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1243a-117"><em>SQLText</em></span><span class="sxs-lookup"><span data-stu-id="1243a-117"><em>SQLText</em></span></span></p></td>
-<td><p><span data-ttu-id="1243a-118">可选</span><span class="sxs-lookup"><span data-stu-id="1243a-118">Optional</span></span></p></td>
-<td><p><span data-ttu-id="1243a-119"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="1243a-119"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="1243a-p101">一个 <strong>Variant</strong>（<strong>String</strong> 子类型）类型的值，它是一个定义 <strong>QueryDef</strong> 的 SQL 语句。如果省略此参数，则可以通过在将 <strong>QueryDef</strong> 追加到集合之前或之后设置它的 <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> 属性对其进行定义。</span><span class="sxs-lookup"><span data-stu-id="1243a-p101">A <strong>Variant</strong> (<strong>String</strong> subtype) that is an SQL statement defining the <strong>QueryDef</strong>. If you omit this argument, you can define the <strong>QueryDef</strong> by setting its <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> property before or after you append it to a collection.</span></span></p></td>
+<td><p><span data-ttu-id="210f1-117"><em>SQLText</em></span><span class="sxs-lookup"><span data-stu-id="210f1-117"><em>SQLText</em></span></span></p></td>
+<td><p><span data-ttu-id="210f1-118">可选</span><span class="sxs-lookup"><span data-stu-id="210f1-118">Optional</span></span></p></td>
+<td><p><span data-ttu-id="210f1-119"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="210f1-119"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="210f1-120">一个<strong>变量</strong>（<strong>String</strong> 子类型），它是定义 <strong>QueryDef</strong> 的 SQL 语句。</span><span class="sxs-lookup"><span data-stu-id="210f1-120">A <strong>Variant</strong> (<strong>String</strong> subtype) that is an SQL statement defining the <strong>QueryDef</strong>.</span></span> <span data-ttu-id="210f1-121">如果省略此参数，则可以通过在将 <strong>QueryDef</strong> 追加到集合之前或之后设置它的 <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> 属性对其进行定义。</span><span class="sxs-lookup"><span data-stu-id="210f1-121">If you omit this argument, you can define the <strong>QueryDef</strong> by setting its <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> property before or after you append it to a collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="1243a-122">返回值</span><span class="sxs-lookup"><span data-stu-id="1243a-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="210f1-122">返回值</span><span class="sxs-lookup"><span data-stu-id="210f1-122">Return value</span></span>
 
-<span data-ttu-id="1243a-123">QueryDef</span><span class="sxs-lookup"><span data-stu-id="1243a-123">QueryDef</span></span>
+<span data-ttu-id="210f1-123">QueryDef</span><span class="sxs-lookup"><span data-stu-id="210f1-123">QueryDef</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1243a-124">注解</span><span class="sxs-lookup"><span data-stu-id="1243a-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="210f1-124">说明</span><span class="sxs-lookup"><span data-stu-id="210f1-124">Remarks</span></span>
 
-<span data-ttu-id="1243a-125">在 Microsoft Access 工作区中，如果在创建 **QueryDef** 时为名称提供了除零长度字符串之外的信息，产生的 **QueryDef** 对象将自动追加到 **[QueryDefs](querydefs-collection-dao.md)** 集合。</span><span class="sxs-lookup"><span data-stu-id="1243a-125">In a Microsoft Access workspace, if you provide anything other than a zero-length string for the name when you create a **QueryDef**, the resulting **QueryDef** object is automatically appended to the **[QueryDefs](querydefs-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="210f1-125">在 Microsoft Access 工作区中，如果在创建 **QueryDef** 时为名称提供了除零长度字符串之外的信息，产生的 **QueryDef** 对象将自动追加到 **[QueryDefs](querydefs-collection-dao.md)** 集合。</span><span class="sxs-lookup"><span data-stu-id="210f1-125">In a Microsoft Access workspace, if you provide anything other than a zero-length string for the name when you create a **QueryDef**, the resulting **QueryDef** object is automatically appended to the **[QueryDefs](querydefs-collection-dao.md)** collection.</span></span>
 
-<span data-ttu-id="1243a-126">如果按名称指定的对象已**QueryDefs**集合的成员，将发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="1243a-126">If the object specified by name is already a member of the **QueryDefs** collection, a run-time error occurs.</span></span> <span data-ttu-id="1243a-127">您可以通过执行**CreateQueryDef**方法时的名称参数使用一个零长度字符串创建临时**QueryDef** 。</span><span class="sxs-lookup"><span data-stu-id="1243a-127">You can create a temporary **QueryDef** by using a zero-length string for the name argument when you execute the **CreateQueryDef** method.</span></span> <span data-ttu-id="1243a-128">还可以通过将新建的 [QueryDef](querydef-name-property-dao.md) 的 \*\*\*\*Name\*\*\*\* 属性设置为零长度字符串 ("") 来完成此操作。</span><span class="sxs-lookup"><span data-stu-id="1243a-128">You can also accomplish this by setting the **[Name](querydef-name-property-dao.md)** property of a newly created **QueryDef** to a zero-length string ("").</span></span> 
+<span data-ttu-id="210f1-126">如果由名称指定的对象已经是 **QueryDefs** 集合的成员，则会发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="210f1-126">If the object specified by name is already a member of the **QueryDefs** collection, a run-time error occurs.</span></span> <span data-ttu-id="210f1-127">可以创建临时 **QueryDef**，方法是在执行 **CreateQueryDef** 方法时，将零长度字符串用于名称参数。</span><span class="sxs-lookup"><span data-stu-id="210f1-127">You can create a temporary **QueryDef** by using a zero-length string for the name argument when you execute the **CreateQueryDef** method.</span></span> <span data-ttu-id="210f1-128">还可以通过将新建的 **QueryDef** 的 **[Name](querydef-name-property-dao.md)** 属性设置为零长度字符串 ("") 来完成此操作。</span><span class="sxs-lookup"><span data-stu-id="210f1-128">You can also accomplish this by setting the [**Name**](querydef-name-property-dao.md) property of a newly created **QueryDef** to a zero-length string ("").</span></span> 
 
-<span data-ttu-id="1243a-129">如果您希望反复使用动态 SQL 语句，且不必在 **QueryDefs** 集合中创建任何新的永久对象，则使用临时的 **QueryDef** 对象十分有帮助。</span><span class="sxs-lookup"><span data-stu-id="1243a-129">Temporary **QueryDef** objects are useful if you want to repeatedly use dynamic SQL statements without having to create any new permanent objects in the **QueryDefs** collection.</span></span> <span data-ttu-id="1243a-130">不能将临时的 **QueryDef** 追加到任何集合，因为零长度字符串对永久的 **QueryDef** 对象来说是无效名称。</span><span class="sxs-lookup"><span data-stu-id="1243a-130">You can't append a temporary **QueryDef** to any collection because a zero-length string isn't a valid name for a permanent **QueryDef** object.</span></span> <span data-ttu-id="1243a-131">始终可以设置新建 **QueryDef** 的 **Name** 和 **SQL** 属性，然后将 **QueryDef** 追加到 **QueryDefs** 集合。</span><span class="sxs-lookup"><span data-stu-id="1243a-131">You can always set the **Name** and **SQL** properties of the newly created **QueryDef** object and subsequently append the **QueryDef** to the **QueryDefs** collection.</span></span>
+<span data-ttu-id="210f1-129">如果您希望反复使用动态 SQL 语句，且不必在 **QueryDefs** 集合中创建任何新的永久对象，则使用临时的 **QueryDef** 对象十分有帮助。</span><span class="sxs-lookup"><span data-stu-id="210f1-129">Temporary **QueryDef** objects are useful if you want to repeatedly use dynamic SQL statements without having to create any new permanent objects in the **QueryDefs** collection.</span></span> <span data-ttu-id="210f1-130">不能将临时 **QueryDef** 追加到任何集合，因为零长度字符串不是永久 **QueryDef** 对象的有效名称。</span><span class="sxs-lookup"><span data-stu-id="210f1-130">You can't append a temporary **QueryDef** to any collection because a zero-length string isn't a valid name for a permanent **QueryDef** object.</span></span> <span data-ttu-id="210f1-131">始终可以设置新建 **QueryDef** 的 **Name** 和 **SQL** 属性，然后将 **QueryDef** 追加到 **QueryDefs** 集合。</span><span class="sxs-lookup"><span data-stu-id="210f1-131">You can always set the **Name** and **SQL** properties of the newly created **QueryDef** object and subsequently append the **QueryDef** to the **QueryDefs** collection.</span></span>
 
-<span data-ttu-id="1243a-132">若要在 **QueryDef** 对象中运行 SQL 语句，请使用 **[Execute](querydef-execute-method-dao.md)** 或 **[OpenRecordset](database-openrecordset-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="1243a-132">To run the SQL statement in a **QueryDef** object, use the **[Execute](querydef-execute-method-dao.md)** or **[OpenRecordset](database-openrecordset-method-dao.md)** method.</span></span>
+<span data-ttu-id="210f1-132">若要在 **QueryDef** 对象中运行 SQL 语句，请使用 **[Execute](querydef-execute-method-dao.md)** 或 **[OpenRecordset](database-openrecordset-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="210f1-132">To run the SQL statement in a **QueryDef** object, use the **[Execute](querydef-execute-method-dao.md)** or **[OpenRecordset](database-openrecordset-method-dao.md)** method.</span></span>
 
-<span data-ttu-id="1243a-133">使用 **QueryDef** 对象是对 ODBC 数据库执行 SQL 传递查询的首选方法。</span><span class="sxs-lookup"><span data-stu-id="1243a-133">Using a **QueryDef** object is the preferred way to perform SQL pass-through queries with ODBC databases.</span></span>
+<span data-ttu-id="210f1-133">使用 **QueryDef** 对象是对 ODBC 数据库执行 SQL 传递查询的首选方法。</span><span class="sxs-lookup"><span data-stu-id="210f1-133">Using a **QueryDef** object is the preferred way to perform SQL pass-through queries with ODBC databases.</span></span>
 
-<span data-ttu-id="1243a-134">若要从 Microsoft Access 数据库引擎数据库中的 **QueryDefs** 集合中删除一个 **QueryDef** 对象，请对该集合使用 **[Delete](querydefs-delete-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="1243a-134">To remove a **QueryDef** object from a **QueryDefs** collection in a Microsoft Access database engine database, use the **[Delete](querydefs-delete-method-dao.md)** method on the collection.</span></span>
+<span data-ttu-id="210f1-134">若要从 Microsoft Access 数据库引擎数据库中的 **QueryDefs** 集合中删除一个 **QueryDef** 对象，请对该集合使用 **[Delete](querydefs-delete-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="210f1-134">To remove a **QueryDef** object from a **QueryDefs** collection in a Microsoft Access database engine database, use the **[Delete](querydefs-delete-method-dao.md)** method on the collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1243a-135">示例</span><span class="sxs-lookup"><span data-stu-id="1243a-135">Example</span></span>
+## <a name="example"></a><span data-ttu-id="210f1-135">示例</span><span class="sxs-lookup"><span data-stu-id="210f1-135">Example</span></span>
 
-<span data-ttu-id="1243a-p104">以下示例使用 **CreateQueryDef** 方法创建并执行临时和永久的 **QueryDef**。若要使该过程运行，需要使用 GetrstTemp 函数。</span><span class="sxs-lookup"><span data-stu-id="1243a-p104">This example uses the **CreateQueryDef** method to create and execute both a temporary and a permanent **QueryDef**. The GetrstTemp function is required for this procedure to run.</span></span>
+<span data-ttu-id="210f1-p104">以下示例使用 **CreateQueryDef** 方法创建并执行临时和永久的 **QueryDef**。若要使该过程运行，需要使用 GetrstTemp 函数。</span><span class="sxs-lookup"><span data-stu-id="210f1-p104">This example uses the **CreateQueryDef** method to create and execute both a temporary and a permanent **QueryDef**. The GetrstTemp function is required for this procedure to run.</span></span>
 
 ```vb
     Sub CreateQueryDefX() 
@@ -135,7 +135,7 @@ ms.locfileid: "28711110"
 
 <br/>
 
-<span data-ttu-id="1243a-p105">以下示例使用 **CreateQueryDef** 和 **OpenRecordset** 方法以及 **SQL** 属性，查询 Microsoft SQL Server 示例数据库 Pubs 中的书名表，并返回最畅销书籍的书名和书名标识符。然后查询作者表，并指示用户根据每个作者的版税份额向其发送红利支票（总红利为 ￥1,000，每个作者应收到该金额的一定份额）。</span><span class="sxs-lookup"><span data-stu-id="1243a-p105">This example uses the **CreateQueryDef** and **OpenRecordset** methods and the **SQL** property to query the table of titles in the Microsoft SQL Server sample database Pubs and return the title and title identifier of the best-selling book. The example then queries the table of authors and instructs the user to send a bonus check to each author based on his or her royalty share (the total bonus is $1,000 and each author should receive a percentage of that amount).</span></span>
+<span data-ttu-id="210f1-p105">以下示例使用 **CreateQueryDef** 和 **OpenRecordset** 方法以及 **SQL** 属性，查询 Microsoft SQL Server 示例数据库 Pubs 中的书名表，并返回最畅销书籍的书名和书名标识符。然后查询作者表，并指示用户根据每个作者的版税份额向其发送红利支票（总红利为 ￥1,000，每个作者应收到该金额的一定份额）。</span><span class="sxs-lookup"><span data-stu-id="210f1-p105">This example uses the **CreateQueryDef** and **OpenRecordset** methods and the **SQL** property to query the table of titles in the Microsoft SQL Server sample database Pubs and return the title and title identifier of the best-selling book. The example then queries the table of authors and instructs the user to send a bonus check to each author based on his or her royalty share (the total bonus is $1,000 and each author should receive a percentage of that amount).</span></span>
 
 ```vb 
 Sub ClientServerX2() 
@@ -203,9 +203,9 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="1243a-140">下面的示例演示如何创建参数查询。</span><span class="sxs-lookup"><span data-stu-id="1243a-140">The following example shows how to create a parameter query.</span></span> <span data-ttu-id="1243a-141">两个参数，名为 Param1 和 Param2 创建名为**myQuery**的查询。</span><span class="sxs-lookup"><span data-stu-id="1243a-141">A query named **myQuery** is created with two parameters, named Param1 and Param2.</span></span> <span data-ttu-id="1243a-142">若要执行此操作，查询的 SQL 属性设置为定义的参数的结构化查询语言 (SQL) 语句。</span><span class="sxs-lookup"><span data-stu-id="1243a-142">To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.</span></span>
+<span data-ttu-id="210f1-140">以下示例演示如何创建参数查询。</span><span class="sxs-lookup"><span data-stu-id="210f1-140">The following example shows how to pass data with a query parameter:</span></span> <span data-ttu-id="210f1-141">名为 **myQuery** 的查询通过两个参数（命名为 Param1 和 Param2）创建。</span><span class="sxs-lookup"><span data-stu-id="210f1-141">A query named **myQuery** is created with two parameters, named Param1 and Param2.</span></span> <span data-ttu-id="210f1-142">要执行此操作，查询的 SQL 属性设置为定义参数的结构化查询语言 (SQL) 语句。</span><span class="sxs-lookup"><span data-stu-id="210f1-142">To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.</span></span>
 
-<span data-ttu-id="1243a-143">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="1243a-143">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="210f1-143">**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="210f1-143">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub CreateQueryWithParameters()
