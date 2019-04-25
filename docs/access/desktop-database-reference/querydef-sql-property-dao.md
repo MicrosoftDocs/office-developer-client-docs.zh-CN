@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c51f0da8541cf0ba2790827c58a0b017bd6ed875
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712629"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300978"
 ---
 # <a name="querydefsql-property-dao"></a>QueryDef.SQL 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-设置或返回定义 **[QueryDef](querydef-object-dao.md)** 对象所执行的查询的 SQL 语句。
+设置或返回定义由 **[QueryDef](querydef-object-dao.md)** 对象执行的查询的 SQL 语句。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。SQL
+*表达式* .SQL
 
-*表达式*一个代表**QueryDef**对象的变量。
+*表达式* 一个表示 **QueryDef** 对象的变量。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SQL** 属性包含用于确定当您执行查询时如何对记录进行选择、分组和排序的 SQL 语句。您可以使用查询选择要在 **[Recordset](recordset-object-dao.md)** 对象中包括的记录。还可以定义动作查询，以便在不返回记录的情况下修改数据。
 
@@ -38,10 +38,10 @@ ms.locfileid: "28712629"
 
 如果 SQL 语句包含查询的参数，您必须在执行操作之前设置这些参数。除非您重置了参数，否则每次执行查询时，都将应用相同的参数值。
 
-在 Microsoft Access 工作区中，在对 Microsoft Access 数据库引擎连接的 ODBC 数据源执行 SQL 传递操作时，最好使用 **QueryDef** 对象。 通过将**QueryDef**对象的**[Connect](querydef-connect-property-dao.md)** 属性设置为 ODBC 数据源，您可以使用非 – Microsoft – Access – 数据库 SQL 查询中的传递给外部服务器。 例如，对于 Microsoft SQL Server 或 Sybase SQL Server 数据库，可以使用 TRANSACT SQL 语句，Microsoft Access 数据库引擎不对其进行处理。
+在 Microsoft Access 工作区中，在对 Microsoft Access 数据库引擎连接的 ODBC 数据源执行 SQL 传递操作时，最好使用 **QueryDef** 对象。 通过将 **QueryDef** 对象的 **[Connect](querydef-connect-property-dao.md)** 属性设置为 ODBC 数据源，可以在要传递到外部服务器的查询中使用非 Microsoft Access 数据库 SQL。 例如，对于 Microsoft SQL Server 或 Sybase SQL Server 数据库，可以使用 TRANSACT SQL 语句，Microsoft Access 数据库引擎不对其进行处理。
 
 > [!NOTE]
-> 如果属性设置为非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如， `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50`)，当您尝试在 Microsoft 执行**QueryDef**对象时，将导致错误Access 数据库引擎数据库。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 Microsoft Access SQL 只接受美国格式的小数字符。
+> [!注释] 如果将该属性设置为连接了非整数值的字符串，并且系统参数指定了诸如逗号的非美国格式小数字符（例如 `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50`），那么当尝试在 Microsoft Access 数据库引擎数据库中执行 **QueryDef** 对象时会发生错误。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 Microsoft Access SQL 只接受美国格式的小数字符。
 
 ## <a name="example"></a>示例
 
@@ -126,7 +126,7 @@ ms.locfileid: "28712629"
 
 <br/>
 
-以下示例演示 CopyQueryNew() 可能的用法。 
+本示例演示 CopyQueryNew() 的可能使用情况。 
      
 ```vb
     Sub CopyQueryDefX() 
@@ -254,9 +254,9 @@ ms.locfileid: "28712629"
 
 <br/>
 
-下面的示例演示如何创建参数查询。 两个参数，名为 Param1 和 Param2 创建名为**myQuery**的查询。 若要执行此操作，查询的 SQL 属性设置为定义的参数的结构化查询语言 (SQL) 语句。
+以下示例演示如何创建参数查询。 名为 **myQuery** 的查询通过两个参数（命名为 Param1 和 Param2）创建。 要执行此操作，查询的 SQL 属性设置为定义参数的结构化查询语言 (SQL) 语句。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Sub CreateQueryWithParameters()
@@ -283,7 +283,7 @@ ms.locfileid: "28712629"
 
 <br/>
 
-下面的示例演示如何替换已保存的查询中的结构化查询语言 (SQL) 语句。
+以下示例演示如何替换保存的查询中的结构化查询语言 (SQL) 语句。
 
 ```vb
     Dim qdf as QueryDef

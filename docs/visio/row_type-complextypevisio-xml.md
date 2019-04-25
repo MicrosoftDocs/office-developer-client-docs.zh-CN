@@ -7,10 +7,10 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5e5c420e-f384-7b62-c862-35aea16e6d55
 ms.openlocfilehash: ebd3b666590e6144d2a3cb6e0059b64eb6e8dab5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 04/24/2019
 ms.locfileid: "32331645"
 ---
 # <a name="rowtype-complextype-visio-xml"></a>Row_Type 复杂类型 ("Visio XML")

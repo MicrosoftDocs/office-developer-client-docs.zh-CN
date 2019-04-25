@@ -1,5 +1,5 @@
 ---
-title: Microsoft ActiveX 数据对象引用
+title: Microsoft ActiveX 数据对象参考
 TOCTitle: Microsoft ActiveX Data Objects Reference
 ms:assetid: 235fc575-8a2e-913c-fa3d-bb86256733f9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249010(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c1fee657c0d6ecd319157f704df2b1c5a900be3b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289117"
 ---
-# <a name="microsoft-activex-data-objects-reference"></a>Microsoft ActiveX 数据对象引用
+# <a name="microsoft-activex-data-objects-reference"></a>Microsoft ActiveX 数据对象参考
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-## <a name="purpose"></a>目的
+## <a name="purpose"></a>用途
 
-Microsoft ActiveX 数据对象 (ADO) 使您的客户端应用程序可以通过 OLE DB 提供程序访问和操控数据库服务器中的数据。 它的主要优点是简单易用、高速、内存开销低和磁盘占用小。 ADO 支持用于生成客户端/服务器和基于 web 的应用程序的主要功能。
+Microsoft ActiveX 数据对象 (ADO) 使您的客户端应用程序可以通过 OLE DB 提供程序访问和操控数据库服务器中的数据。 它的主要优点是简单易用、高速、内存开销低和磁盘占用小。 ADO 支持用于构建客户端/服务器和基于 Web 的应用程序的关键功能。
 
 ## <a name="rds"></a>RDS
 
-ADO 还提供了远程数据服务 (RDS)，可以通过其移动数据从服务器到客户端应用程序或网页，操作在客户端上的数据和往返返回到在单个服务器的更新。
+ADO 还提供了远程数据服务 (RDS)，利用它可以将数据从服务器移动到客户端应用程序或网页，在客户端上操控数据，然后在单个来回行程中将更新返回给服务器。
 
 ## <a name="ado-md"></a>ADO MD
 
@@ -40,9 +40,9 @@ ADOX 是核心 ADO 对象的配套库。它提供了用于创建、修改和删�
 
 ## <a name="ado-25-main-components"></a>ADO 2.5 主要组件
 
-- [程序员指南](ado-programmer-s-guide.md)： 使用 ADO、 RDS、 ADO MD 和 ADOX 的介绍。
+- [程序员指南](ado-programmer-s-guide.md)：有关使用 ADO、RDS、ADO MD 和 ADOX 的介绍。
 
-- [程序员参考](ado-programmer-s-reference-topics.md)： ADO 文档中的此部分包含的每个 ADO、 RDS、 ADO MD 和 ADOX 对象的集合、 属性、 动态属性、 方法、 事件和枚举的主题。
+- [程序员参考](ado-programmer-s-reference-topics.md)：此部分 ADO 文档包含介绍每个 ADO、RDS、ADO MD 和 ADOX 对象、集合、属性、动态属性、方法、事件以及枚举的主题。
 
 ## <a name="feedback"></a>反馈
 

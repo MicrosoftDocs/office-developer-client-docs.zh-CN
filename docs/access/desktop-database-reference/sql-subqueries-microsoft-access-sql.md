@@ -14,28 +14,28 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 7beda04d1f18014101f00078de1d125c1fd67a69
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314565"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>SQL 子查询 (Microsoft Access SQL)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-子查询是一个 [SELECT](select-statement-microsoft-access-sql.md) 语句，它嵌套在 SELECT、 [SELECT...INTO](select-into-statement-microsoft-access-sql.md)、[INSERT...INTO](insert-into-statement-microsoft-access-sql.md)、[DELETE](delete-statement-microsoft-access-sql.md) 或 [UPDATE](update-statement-microsoft-access-sql.md) 语句中，或嵌套在另一个子查询中。
+子查询是一个 [SELECT](select-statement-microsoft-access-sql.md) 语句，它嵌套在 SELECT、[SELECT...INTO](select-into-statement-microsoft-access-sql.md)、[INSERT...INTO](insert-into-statement-microsoft-access-sql.md)、[DELETE](delete-statement-microsoft-access-sql.md) 或 [UPDATE](update-statement-microsoft-access-sql.md) 语句中，或嵌套在另一个子查询中。
 
 ## <a name="syntax"></a>语法
 
 可以通过三种语法形式来创建子查询：
 
-*比较*\[ANY |所有 |一些\](*sqlstatement*)
+*comparison* \[ANY | ALL | SOME\] (*sqlstatement*)
 
-*表达式*\[不\]中 (*sqlstatement*)
+*expression* \[NOT\] IN (*sqlstatement*)
 
-\[不\]EXISTS (*sqlstatement*)
+\[NOT\] EXISTS (*sqlstatement*)
 
 子查询语句包含了以下部分：
 
@@ -46,7 +46,7 @@ ms.locfileid: "28722870"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -61,13 +61,13 @@ ms.locfileid: "28722870"
 </tr>
 <tr class="odd">
 <td><p><em>sqlstatement</em></p></td>
-<td><p>SELECT 语句，遵循和任何其他 SELECT 语句一样的格式和规则。它必须用圆括号括起来。</p></td>
+<td><p>SELECT 语句，遵循和任何其他 SELECT 语句一样的格式和规则。 它必须用圆括号括起来。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以在 SELECT 语句的字段列表中、在 [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) 子句中或在 [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql) 子句中使用子查询来代替表达式。在子查询中，可以使用 SELECT 语句来提供一组要在 WHERE 或 HAVING 子句表达式中计算的一个或多个特定值。
 
@@ -112,7 +112,7 @@ WHERE T1.Title = Employees.Title) Order by Title;
 
 ## <a name="example"></a>示例
 
-以下示例列出在 1995 年第二季度下过订单的每个客户的名称和联系人。 它调用 EnumFields 过程，您可以在 SELECT 语句示例中找到。
+以下示例列出在 1995 年第二季度下过订单的每个客户的名称和联系人。 它调用 EnumFields 过程，您可以在 SELECT 语句示例中找到该过程。
 
 ```vb
     Sub SubQueryX() 

@@ -15,11 +15,11 @@ ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: 本主题包含 Project Server 2013 中 Project Server Interface (PSI) 的错误代码表。 表按功能区和错误代码范围排列。
 localization_priority: Priority
 ms.openlocfilehash: c61821bcb85fa3bd83601659850577eaa93eda61
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301475"
 ---
 # <a name="project-server-error-codes"></a>Project Server 错误代码
 

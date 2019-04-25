@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 79c8691fcea7cf04bac7d6cd05711730b510e215
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300642"
 ---
 # <a name="recordsetaddnew-method-dao"></a>Recordset.AddNew 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 为可更新的 **[Recordset](recordset-object-dao.md)** 对象创建新记录。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。AddNew
+*expression* .AddNew
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式* 一个表示 **Recordset** 对象的变量。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用 **AddNew** 方法在记录集命名的 **Recordset** 对象中创建和添加新记录。此方法将字段设置为默认值，如果未指定默认值，它将字段设置为 Null（为表类型 **Recordset** 指定的默认值）。
 

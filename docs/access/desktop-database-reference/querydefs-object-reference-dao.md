@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c532ed1062fd7ceb4c078c6715947414f7ed0dbc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300908"
 ---
 # <a name="querydefs-object-reference-dao"></a>QueryDefs 对象引用 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 - [QueryDefs 集合 (DAO)](querydefs-collection-dao.md)
 - [QueryDefs 成员 (DAO)](querydefs-members-dao.md)

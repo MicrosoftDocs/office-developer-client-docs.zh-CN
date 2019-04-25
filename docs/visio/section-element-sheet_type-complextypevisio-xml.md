@@ -8,10 +8,10 @@ localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: 指定相关属性的集合。
 ms.openlocfilehash: e20d076d4e1958cce29554d728b64385c2f8adef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 04/24/2019
 ms.locfileid: "32326080"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Section 元素 (Sheet_Type 复杂类型) ("Visio XML")
@@ -64,13 +64,13 @@ ms.locfileid: "32326080"
 |IX  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定元素的从零开始的索引。 它必须在包含**Sheet_Type**的具有相同**N**个属性的所有**Section_Type**元素之间是唯一的。 它必须大于任何前面的**Section_Type**元素的**IX**属性, 其中包含**Sheet_Type**的同一个**N**属性。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
 |N  <br/> |xsd: string  <br/> |必需  <br/> |指定属性集合的独立于语言的名称。 它必须在包含**Sheet_Type**元素的所有**Section_Type**元素之间是唯一的, 除非它等于 "Geometry"。 它必须等于**节**中的副标题。  <br/> |xsd: string 类型的值。  <br/> |
    
-### <a name="remarks"></a>注解
+### <a name="remarks"></a>说明
 
 此**节**元素的**N**属性必须是与**ShapeSheet**单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**节**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
-|操作  <br/> |用于计算公式的属性的集合。 它必须具有**ShapeSheet_Type**或**PageSheet_Type**父元素。  <br/> |[Actions Section](actions-section.md) <br/> |
+|Actions  <br/> |用于计算公式的属性的集合。 它必须具有**ShapeSheet_Type**或**PageSheet_Type**父元素。  <br/> |[Actions Section](actions-section.md) <br/> |
 |ActionTag  <br/> |仅用于计算公式的属性的集合。 它必须具有**ShapeSheet_Type**或**PageSheet_Type**父元素。  <br/> |[Action Tag Section](action-tag-section.md) <br/> |
 |Connections  <br/> |仅用于计算公式的属性的集合。 它必须具有一个**ShapeSheet_Type**父元素。  <br/> ||
 |控件  <br/> |仅用于计算公式的属性的集合。 它必须具有一个**ShapeSheet_Type**父元素。  <br/> |[Controls Section](controls-section.md) <br/> |
@@ -80,7 +80,7 @@ ms.locfileid: "32326080"
    
 此**节**元素的**IX**属性必须是与**ShapeSheet**单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**节**元素允许的**IX**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |Annotation  <br/> |包含有关插入到文档页面中的注释的信息的属性的集合。  <br/> |[Annotation Section](annotation-section.md) <br/> |
 |字符  <br/> |指定形状的文本的字符属性的相关属性的集合。 它必须具有**ShapeSheet_Type**父元素或**StyleSheet_Type**父元素。  <br/> |[Character Section](character-section.md) <br/> |

@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 2c734d5e0f022faec4ebb9efe2dfc2f7dd7b7979
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308356"
 ---
 # <a name="workspace-object-dao"></a>Workspace 对象 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Workspace** 对象可以为用户定义一个命名的会话。该对象包含打开的数据库，并为同步事务处理提供机制，在 Microsoft Access 工作区中，它可以提供启用安全措施的工作组支持。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **Workspace** 为非永久对象，可定义应用程序通过使用 Microsoft Access 数据库引擎与数据进行交互的方式。使用 **Workspace** 对象可以管理当前会话或启动其他会话。在会话中，可以打开多个数据库或连接，并管理事务。例如，您可以进行下列操作：
 
@@ -32,7 +32,7 @@ ms.locfileid: "28711579"
 
 - 使用 **BeginTrans**、 **CommitTrans** 和 **Rollback** 方法管理 **Workspace** 中的嵌套事务处理，并使用多个 **Workspace** 对象处理多个同步且重叠的事务。
 
-当您首次引用，或者使用**Workspace**对象时，您将自动创建默认工作区，DBEngine.Workspaces(0)。 默认工作区的**名称**和**UserName**属性的设置"\#默认工作区\#"和"Admin，"分别。 如果启用了安全性，则 **UserName** 属性设置就是登录用户的名称。
+首次引用或使用 **Workspace** 对象时，将自动创建默认工作区 DBEngine.Workspaces(0)。 默认工作区的 **Name** 和 **UserName** 属性设置分别是“\#Default Workspace\#”和“Admin”。 如果启用了安全性，则 **UserName** 属性设置就是登录用户的名称。
 
 使用事务后，指定的 **Workspace** 中的所有数据库都将受到影响 - 即使在 **Workspace** 中打开了多个 **Database** 对象也是如此。例如，您使用 **BeginTrans** 方法更新某个数据库中的多条记录，然后删除另一个数据库中的记录。如果随后再使用 **Rollback** 方法，则更新和删除操作都将被取消和回滚。可以创建额外的 **Workspace** 对象来跨 **Database** 对象对事务进行独立管理。
 
@@ -42,14 +42,14 @@ ms.locfileid: "28711579"
 
 若要按照序号或 **Name** 属性设置来引用集合中的 **Workspace** 对象，可以使用下列任何一种语法形式：
 
-**DBEngine**。**工作区**(0)
+**DBEngine**.**Workspaces**(0)
 
-**DBEngine**。**工作区**("name")
+**DBEngine**.**Workspaces**("name")
 
-**DBEngine**。**工作区**\!\[名称\]
+**DBEngine**.**Workspaces**\!\[name\]
 
 > [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
+> Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 
 ## <a name="example"></a>示例
@@ -89,7 +89,7 @@ End Sub
 
 <br/>
 
-该示例使用 **CreateWorkspace** 方法创建一个 Microsoft Access 工作区，然后列出该工作区的属性。
+此示例使用 **CreateWorkspace** 方法创建 Microsoft Access 工作区。 然后它列出工作区的属性。
 
 ```vb 
 Sub CreateWorkspaceX() 
@@ -130,9 +130,9 @@ End Sub
 
 <br/>
 
-下面的示例演示如何使用数据访问对象 (DAO) 工作区中的事务处理。
+以下示例演示如何在 Data Access Objects (DAO) 工作区中使用事务。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 
 ```vb
