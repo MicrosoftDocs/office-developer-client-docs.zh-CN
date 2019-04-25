@@ -12,28 +12,28 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: b50cb0453df1fa357fbd0b089af2e74fdd4b4c1e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294335"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>DBEngine.CompactDatabase 方法 (DAO)
 
-**适用于**： Access 2013 |访问 2016
+**适用于：** Access 2013 | Access 2016
 
 复制并压缩关闭的数据库，使您可以选择更改其版本、整理顺序和加密设置。 （仅适用于 Microsoft Access 工作区。
 
 > [!NOTE]
-> 在操作、 更新和 [如更新 SQL 语句 (CurrentDb.Execute"更新...")] SQL 查询使用加密的链接的表，必须提供加密密钥。 此外，链接的表有 19 个字符限制的加密密钥。 请参阅本主题末尾的**加密链接表**部分。
+> 使用加密链接的表来执行操作、更新和 SQL 查询 [例如 SQL UPDATE 语句 (CurrentDb.Execute "UPDATE...")] 时，您必须提供加密密钥。 此外，链接的表有加密密钥的 19 字符限制。 请参阅本主题结尾的**加密链接的表**部分。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。CompactDatabase （***SrcName*** ***DstName***、 ***DstLocale***、***选项***、***密码***）
+*expression* .CompactDatabase(***SrcName***, ***DstName***, ***DstLocale***, ***Options***, ***password***)
 
-*表达式*一个返回**DBEngine**对象的表达式。
+*expression*一个返回 **DBEngine** 对象的表达式。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -44,7 +44,7 @@ ms.locfileid: "28714057"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -55,45 +55,45 @@ ms.locfileid: "28714057"
 <td><p><em>SrcName</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>标识现有、 关闭数据库。 它可以完整路径和文件名，如&quot;C:\db1.mdb&quot;。 如果文件名具有扩展名，则必须指定它。 如果您的网络支持，您还可以指定一个网络路径，如&quot; \\server1\share1\dir1\db1.mdb&quot;</p></td>
+<td><p>识别现有的已关闭数据库。 可以是完整路径和文件名，例如 &quot;C:\db1.mdb&quot;。 如果文件名称有扩展名，必须指定。 如果网络支持的话，还可以指定网络路径，例如&quot;\\server1\share1\dir1\db1.mdb&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p><em>DstName</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>正在创建的压缩数据库的文件名 （和路径）。 您还可以指定的网络路径。 此参数不能用于 srcname 指定的相同的数据库文件。</p></td>
+<td><p>您要创建的压缩数据库的文件名（和路径）。 还可以指定网络路径。 不能使用此参数指定与 SrcName 相同的数据库文件。</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>DstLocale</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>指定用于创建 DstName 的整理顺序（根据“说明”中的指定）的字符串表达式。</p>
+<td><p>指定用于创建 DstName 整理顺序的字符串表达式，如“备注”中指定。</p>
 <ul>
-<li><p>如果省略此参数，则 DstName 的区域设置与 SrcName 的区域设置相同。</p></li>
-<li><p>您还可以创建密码 dstname 通过将密码字符串 (开头&quot;; pwd =&quot;) 与 DstLocale 参数，如下所示中的一个常量： dbLangSpanish &amp; &quot;; pwd = NewPassword&quot;。</p></li>
-<li><p>如果您想要使用相同的 DstLocale srcname （默认值），但指定新密码，只需 dstlocale 输入密码字符串： &quot;; pwd = NewPassword&quot;</p></li>
+<li><p>如果省略此参数，则 DstName 区域设置与 SrcName 相同。</p></li>
+<li><p>还可以通过将密码字符串（以&quot;;pwd=&quot;开头）与 DstLocale 参数中的常量相连（例如 dbLangSpanish &amp; &quot;;pwd=NewPassword&quot;）创建 DstName 的密码。</p></li>
+<li><p>如果要使用与 SrcName 相同的 DstLocale（默认值），但指定新密码，只需输入 DstLocale 的密码字符串：&quot;;pwd=NewPassword&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><em>Options</em></p></td>
+<td><p><em>选项</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>可选。一个常量或常量的组合，用于指示一个或多个选项（根据“说明”中的指定）。可通过对相应的常量求和来组合选项。</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>密码</em></p></td>
+<td><p><em>password</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>包含加密密钥，如果数据库加密字符串表达式。 字符串&quot;; pwd =&quot;必须前面的实际密码。 如果您 DstLocale 中包括的密码设置，则忽略此设置。</p><p><strong>注意</strong>： 这是已弃用的参数，不支持。ACCDB 格式。 进行加密。ACCDB 文件，使用"pwd ="选项的字符串。 使用混合大小写字母、数字和符号的强密码。 弱密码不混合使用这些元素。 例如，强密码：Y6dh!et5。 弱密码：House27。 请使用可以记住的强密码，这样就不必记录密码了。</p>
+<td><p>包含加密密钥的字符串表达式（若数据库加密）。 字符串&quot;; pwd =&quot;必须位于实际密码之前。 如果在 DstLocale 中包括密码设置，则忽略此设置。</p><p><strong>注释</strong>：这是已弃用的参数, 不支持 .ACCDB 格式。 要加密 .ACCDB 文件，请使用 "pwd =" 选项字符串。 使用混合大小写字母、数字和符号的强密码。 弱密码不混合使用这些元素。 例如，强密码：Y6dh!et5。 弱密码：House27。 请使用可以记住的强密码，这样就不必记录密码了。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-可以使用 DstLocale 参数的下列常量之一，指定用于文本的字符串比较的 **CollatingOrder** 属性。
+可以使用 DstLocale 参数的下列常量之一来指定文本字符串比较的**CollatingOrder**属性。
 
 <table>
 <colgroup>
@@ -199,7 +199,7 @@ ms.locfileid: "28714057"
 可以在 options 参数中使用以下常量之一来指定在压缩数据库时对数据库进行加密还是解密。
 
 > [!NOTE]
-> 常量 dbEncrypt 和 dbDecrypt 是弃用，不支持。ACCDB 文件格式。
+> 常量 dbEncrypt 和 dbDecrypt 已弃用，不支持 .ACCDB 文件格式。
 
 <table>
 <colgroup>
@@ -219,16 +219,16 @@ ms.locfileid: "28714057"
 </tr>
 <tr class="even">
 <td><p><strong>dbDecrypt</strong></p></td>
-<td><p>压缩时解密数据库。</p></td>
+<td><p>压缩操作时解密数据库。</p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-如果省略加密常量或包括**dbDecrypt**和**dbEncrypt**，DstName 将具有 srcname 相同的加密。
+如果省略加密常量或同时包括 **dbDecrypt** 和 **dbEncrypt**，DstName 将与 SrcName 具有相同的加密。
 
-可以在 options 参数中使用下列常量之一来指定压缩数据库的数据格式的版本。此常量仅影响 DstName 的数据格式的版本，而不会影响任何 Microsoft Access 定义的对象（例如窗体和报表）的版本。
+可以在 options 参数中使用下列常量之一来指定压缩数据库的数据格式的版本。 此常量仅影响 DstName 的数据格式的版本，而不会影响任何 Microsoft Access 定义的对象（例如窗体和报表）的版本。
 
 <table>
 <colgroup>
@@ -264,34 +264,34 @@ ms.locfileid: "28714057"
 </tr>
 <tr class="even">
 <td><p><strong>dbVersion120</strong></p></td>
-<td><p>在压缩时创建一个使用 Microsoft Access 数据库引擎 12.0 版文件格式的数据库。</p></td>
+<td><p>创建一个压缩时使用 Microsoft Access 数据库引擎版本 12.0 文件格式的数据库。</p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-您只能指定一个版本常量。 如果省略版本常量，DstName 将具有与 SrcName 相同的版本。 您可以仅对相同的版本压缩 DstName 或更高版本相比 SrcName。
+只能指定一个版本常量。 如果省略版本常量，DstName 将与 SrcName 具有相同的版本。 只能将 DstName 压缩为等于或高于 SrcName 版本的版本。
 
 更改数据库中的数据时，数据库文件中会产生碎片，并使用多于所需量的磁盘空间。您可以定期使用 **CompactDatabase** 方法来压缩数据库，对数据库文件进行碎片整理。压缩的数据库通常更小且运行速度更快。在复制和压缩数据库时，还可以更改整理顺序、加密或数据格式的版本。
 
-压缩它之前，您必须关闭 SrcName。 在多用户环境中，其他用户不能具有 SrcName 打开时您正在压缩。 如果 SrcName 不关闭或不可用独占使用，将发生错误。
+压缩 SrcName 之前，必须关闭它。 在多用户环境中，在您压缩 SrcName 时，其他用户不能打开它。 如果 SrcName 未关闭或者不能被独占使用，将会发生错误。
 
-由于 **CompactDatabase** 会创建数据库的副本，因此您必须为原始数据库和复制数据库提供足够的磁盘空间。 如果没有足够的可用磁盘空间，压缩操作将失败。 DstName 重复数据库不一定要 srcname 相同磁盘上。 后成功压缩数据库时，您可以删除 SrcName 文件，并将压缩的 DstName 文件重命名为原始文件名称。
+由于 **CompactDatabase** 会创建数据库的副本，因此您必须为原始数据库和复制数据库提供足够的磁盘空间。 如果没有足够的可用磁盘空间，压缩操作将失败。 DstName 复制数据库不必与 SrcName 位于同一个磁盘上。 在成功压缩数据库之后，可以删除 SrcName 文件，并将压缩的 DstName 文件重命名为原始文件名。
 
-**CompactDatabase**方法从由 SrcName 指定到由 DstName 指定的数据库的数据库复制所有数据和安全权限设置。
-
-> [!NOTE]
-> [!注释] 由于 **CompactDatabase** 方法不会转换 Microsoft Access 对象，因此不应使用 **CompactDatabase** 来转换包含此类对象的数据库。
-
-## <a name="encrypted-linked-tables"></a>加密的链接的表
-
-加密的密码是数据库的取决于您使用的文件格式。 如果您使用的是 Access 2003 (.mdb) 或更早版本数据库，您将具有一个密码以保护数据库和单独的密码进行加密数据库。 Access 2007 (.accdb) 和更高版本 (.mdb) 数据库，唯一的选项是加密和保护数据库使用一个密码，如已有两个不同的密码的选项。
+**CompactDatabase** 方法将所有数据和安全权限设置从由 SrcName 指定的数据库复制到由 DstName 指定的数据库。
 
 > [!NOTE]
-> Access 2007 (.accdb) 数据库密码是加密密钥
+> 因为**CompactDatabase**方法不能转换 Microsoft Access 对象，所以请不要使用**CompactDatabase**来转换包含此类对象的数据库。
 
-命令按钮，可以使用下面的示例 VBA 代码：
+## <a name="encrypted-linked-tables"></a>加密链接的表
+
+加密密码都依赖于正在使用的数据库的文件格式。 如果使用 Access 2003 (.mdb) 或早期数据库，会有一个密码来保护数据库，另一个单独密码来加密数据库。 对于 Access 2007 (.accdb) 和更高版本 (.mdb) 数据库，唯一选项就是使用同一个密码来加密和保护数据库，因为拥有两个单独密码的选项已删除。
+
+> [!NOTE]
+> 对于 Access 2007 (.accdb) 数据库，密码就是加密密钥
+
+对于命令按钮可以使用以下示例 VBA 代码：
 
 ```vb
     Private Sub Command0_Click()
@@ -318,7 +318,7 @@ ms.locfileid: "28714057"
 
 <br/>
 
-下面的代码示例演示如何使用密码 （加密密钥） 使用 CompactDatabase，然后链接到该压缩数据库中的表。 请注意，必须提供密码。
+下面代码示例演示如何借助密码 （加密密钥） 来使用 CompactDatabase，然后将其链接到该压缩数据库的表中。 请注意必须提供密码。
 
 ```vb
     Private Sub CompactAndLink_Click() 
