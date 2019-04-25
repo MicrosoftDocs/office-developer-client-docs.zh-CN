@@ -1,5 +1,5 @@
 ---
-title: After Insert 宏事件
+title: “插入后”宏事件
 TOCTitle: After Insert macro event
 ms:assetid: 78013896-ee07-6979-96f7-fa0f3490419e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196099(v=office.15)
@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c84a737d08b791bfe560bfe6af6bcc59a14d2678
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297219"
 ---
-# <a name="after-insert-macro-event"></a>After Insert 宏事件
+# <a name="after-insert-macro-event"></a>“插入后”宏事件
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-添加一条记录之后，发生此事件的**插入后**事件。
+在添加记录之后会发生“插入后”**** 事件。
 
 > [!NOTE]
-> 在**插入后**事件仅适用于数据宏。
+> ****“插入后”事件仅适用于数据宏。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-使用**插入后**事件执行您想要将记录添加到表时，会发生任何操作。 **插入后**的常见用途包括强制实施业务规则，工作流、 更新聚合总数，以及发送通知。
+使用“插入后”**** 事件可以执行您希望在向表中添加记录时发生的任何操作。“插入后”**** 通常用于强制实施业务规则、工作流，更新聚合总计和发送通知。
 
-可以使用 **Updated("*Field Name*")** 函数确定某个字段是否已更改。下面的代码示例演示了如何使用 **If** 语句来确定 PaidInFull 字段是否已更改。
+可以使用 **Updated("*Field Name*")** 函数确定某个字段是否已更改。 下面的代码示例演示了如何使用 **If** 语句来确定 PaidInFull 字段是否已更改。
 
 ```vb 
  
@@ -43,7 +43,7 @@ End If
  
 ```
 
-下表列出了可在**插入后**事件中使用的宏命令。
+下表列出了可在“插入后”**** 事件中使用的宏命令。
 
 <table>
 <colgroup>
@@ -141,9 +141,9 @@ End If
 </table>
 
 
-若要创建可捕获**插入后**事件的数据宏，请使用以下步骤。
+若要创建可捕获“插入后”**** 事件的数据宏，请执行以下步骤。
 
-1.  打开要为其捕获**插入后**事件的表格。
+1.  打开要捕获其“插入后”**** 事件的表格。
 
 2.  在 **“表格”** 选项卡上的 **“后期事件”** 组中，单击 **“插入后”**。
 
@@ -151,13 +151,13 @@ End If
 
 ## <a name="example"></a>示例
 
-下面的代码示例使用**插入后**事件执行一些处理，当记录被添加到捐赠表。 当记录被添加时，捐赠量添加到活动表中的 DonationsReceived 字段和 TotalDonatedField 赞助商表中。
+以下代码示例使用**插入后**事件在将记录添加到 Donations 表时执行某些处理。 添加记录时，将向 Campaigns 表中的 DonationsReceived 字段和 Donors 表中的 TotalDonated 字段中添加捐赠金额。
 
-**单击此处查看您可以将其粘贴到宏设计器的宏副本。**
+**单击此处查看可以粘贴到宏设计器中的宏副本。**
 
 若要在宏设计器查看此示例，请执行以下步骤：
 
-1.  打开要为其捕获**插入后**事件的表格。
+1.  打开要捕获其“插入后”**** 事件的表格。
 
 2.  在 **“表格”** 选项卡上的 **“后期事件”** 组中，单击 **“插入后”**。
 
