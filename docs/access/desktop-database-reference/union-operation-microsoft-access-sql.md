@@ -14,23 +14,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: f842e662f2576d8aab5f3857877f45e380d3d3b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314698"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>UNION 操作 (Microsoft Access SQL)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 创建联合查询，该查询将两个或两个以上的独立查询或表的结果组合在一起。
 
 ## <a name="syntax"></a>语法
 
-\[表\] *query1*联合\[所有\]\[表\] *query2* \[联合\[所有\]\[表\] *queryn* \[ ... \]\]
+\[TABLE\] *query1* UNION \[ALL\] \[TABLE\] *query2* \[UNION \[ALL\] \[TABLE\] *queryn* \[ … \]\]
 
-UNION 操作包含以下部分：
+合并操作包含以下部分：
 
 <table>
 <colgroup>
@@ -39,7 +39,7 @@ UNION 操作包含以下部分：
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -52,9 +52,9 @@ UNION 操作包含以下部分：
 </table>
 
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-可以在单个 UNION 操作中以任何组合方式合并两个或两个以上的查询、表和 SELECT 语句的结果。下面的示例将一个名为 New Accounts 的现有表和一个 SELECT 语句进行合并：
+可在单个合并操作中任意合并两个或多个查询的结果、表和 SELECT 语句。以下示例合并名为新建账户的现有表和 SELECT 语句：
 
 ```sql
 TABLE [New Accounts] UNION ALL 
@@ -67,15 +67,15 @@ WHERE OrderAmount > 1000;
 
 在 UNION 操作中的所有查询必须请求相同数量的字段；但是，这些字段不必都具有相同的大小或数据类型。
 
-请只在第一个 SELECT 语句中使用别名，因为别名在其他语句中会被忽略。在 ORDER BY 子句中，请根据第一个 SELECT 语句中使用的字段名来引用该字段。
+仅在第一个 SELECT 语句中使用别名，因为在任何其他语句中，别名将被忽略。在 ORDER BY 子句中，通过字段在第一个 SELECT 语句中的名称来引用字段。
 
 > [!NOTE]
-> - 您可以使用[GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql)或[HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql)子句中每个*query*参数返回的数据进行分组。
-> - 可以使用在最后一个*query*参数的末尾的[ORDER BY](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/order-by-clause-microsoft-access-sql)子句中指定的顺序显示返回的数据。
+> - 可以在每个 *query* 参数中使用 [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) 或 [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql) 子句，以便对返回的数据进行分组。
+> - 可以在最后一个 *query* 参数的末尾使用 [ORDER BY](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/order-by-clause-microsoft-access-sql) 子句，以便按指定顺序显示返回数据。
 
 ## <a name="example"></a>示例
 
-以下示例检索巴西的所有供应商和客户的名称和所在城市。 它调用 EnumFields 过程，您可以在 SELECT 语句示例中找到。
+此示例检索巴西所有供应商和客户的名称和城市。 它调用 EnumFields 过程，你可以在 SELECT 语句示例中找到该过程。
 
 ```vb
     Sub UnionX() 

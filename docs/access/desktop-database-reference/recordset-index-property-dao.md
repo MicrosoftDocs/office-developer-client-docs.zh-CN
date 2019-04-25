@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: f475635424cfb9ed8ddab4025d6a944bdedd39fd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300523"
 ---
 # <a name="recordsetindex-property-dao"></a>Recordset.Index 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-设置或返回一个值，该值指示表类型 **[Recordset](index-object-dao.md)** 对象中的当前 **[Index](recordset-object-dao.md)** 对象的名称（仅适用于 Microsoft Access 工作区）。
+设置或返回指示表类型 **[Recordset](recordset-object-dao.md)** 对象中当前 **[Index](index-object-dao.md)** 对象名称的一个值（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。索引
+*表达式* .Index
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式* 一个表示 **Recordset** 对象的变量。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 基表中的记录不按任何特定顺序存储。设置 **Index** 属性会更改从数据库返回的记录的顺序；它不影响存储记录的顺序。
 
@@ -40,20 +40,20 @@ ms.locfileid: "28702724"
 
 可以为表创建新的索引，方法是创建新的 **Index** 对象，设置其属性，将其追加到基础 **TableDef** 对象的 **Indexes** 集合中，然后重新打开 **Recordset** 对象。
 
-从表类型 **Recordset** 对象返回的记录只能按为基础 **TableDef** 对象定义的索引进行排序。 要排序一些其他顺序的记录，可以通过使用 ORDER BY 子句的 SQL 语句打开动态集类型、 快照类型或仅向前类型**Recordset**对象。
+从表类型 **Recordset** 对象返回的记录只能按为基础 **TableDef** 对象定义的索引进行排序。 若要按其他顺序对记录进行排序，可以使用带有 ORDER BY 子句的 SQL 语句打开动态集类型、快照类型或仅向前类型的 **Recordset** 对象。
 
 
 > [!NOTE]
 > - 您不必为表创建索引。对于大型的未编制索引的表，访问特定记录或创建 **Recordset** 对象可能花费很长时间。另一方面，由于所有索引都是自动更新的，创建太多索引会降低更新、追加和删除操作的速度。
 > - 从不含索引的表中读取的记录没有特定返回顺序。
-> - [Index](field-attributes-property-dao.md) 对象中每个 [**Field**](field-object-dao.md) 对象的 ****Attributes**** 属性决定了记录的顺序，因此决定了对该索引使用的访问技术。
+> - **Index** 对象中的每个 **[Field](field-object-dao.md)** 对象的 **[Attributes](field-attributes-property-dao.md)** 属性决定了记录的顺序，因此决定了对该索引使用的访问技术。
 > - 唯一索引有助于优化记录的查找。
-> - 索引不会影响基表，如何只记录由访问表类型**Recordset**对象时选择特定的索引，或打开**Recordset**时的索引影响物理的顺序。
+> - 索引不影响基表的实际顺序，只影响当选择特定索引或打开 **Recordset** 时表类型 **Recordset** 对象访问记录的方式。
 
 
 ## <a name="example"></a>示例
 
-以下示例使用 **Index** 属性来设置表类型 **Recordset** 的不同记录顺序。
+本示例使用 **Index** 属性设置表类型 **Recordset** 的不同记录顺序。
 
 ```vb
     Sub IndexPropertyX() 
@@ -97,7 +97,7 @@ ms.locfileid: "28702724"
 
 <br/>
 
-以下示例通过允许用户根据 ID 编号搜索产品，来演示 **Seek** 方法。
+本示例演示了 **Seek** 方法，允许用户基于 ID 号码搜索产品。
 
 ```vb
     Sub SeekX() 
@@ -159,9 +159,9 @@ ms.locfileid: "28702724"
 
 <br/>
 
-下面的示例演示如何使用 Seek 方法来查找链接表中的记录。
+以下示例说明如何使用 Seek 方法在链接的表中查找记录。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Sub TestSeek()

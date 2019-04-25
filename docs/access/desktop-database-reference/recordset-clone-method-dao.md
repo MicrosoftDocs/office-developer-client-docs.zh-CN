@@ -12,29 +12,29 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: ecc5592893c1caee16f0a00687ce50f68b05e9c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300656"
 ---
 # <a name="recordsetclone-method-dao"></a>Recordset.Clone 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-创建一个引用原始 [Recordset](recordset-object-dao.md) 对象的复制 ****Recordset**** 对象。
+创建一个引用原始 **Recordset** 对象的重复 **[Recordset](recordset-object-dao.md)** 对象。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。克隆
+*表达式* .Clone
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式* 一个表示 **Recordset** 对象的变量。
 
 ## <a name="return-value"></a>返回值
 
 Recordset
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用 **Clone** 方法可以创建多个重复的 **Recordset** 对象。每个 **Recordset** 都可以具有其自身的当前记录。使用 **Clone** 自身并不会更改对象中的数据或对象基础结构中的数据。使用 **Clone** 方法时，可以在两个或更多个 **Recordset** 对象之间共享书签，因为这些对象的书签是可以交换的。
 

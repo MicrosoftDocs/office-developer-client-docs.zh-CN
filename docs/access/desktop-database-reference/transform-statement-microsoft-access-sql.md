@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 9abe91d4ce6996a725e246da6922015d15a8bd39
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314040"
 ---
 # <a name="transform-statement-microsoft-access-sql"></a>TRANSFORM 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 创建交叉表查询。
 
 ## <a name="syntax"></a>语法
 
-TRANSFORM *aggfunctionselectstatement* PIVOT *pivotfield* \[IN (*value1*\[， *value2*\[，...\]\])\]
+TRANSFORM *aggfunctionselectstatement* PIVOT *pivotfield* \[IN (*value1*\[, *value2*\[, …\]\])\]
 
 TRANSFORM 语句包含以下部分：
 
@@ -37,7 +37,7 @@ TRANSFORM 语句包含以下部分：
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -55,7 +55,7 @@ TRANSFORM 语句包含以下部分：
 <td><p>希望用于创建查询结果集中列标题的字段或表达式。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>value1</em>、<em>value2</em></p></td>
+<td><p><em>value1</em>, <em>value2</em></p></td>
 <td><p>用于创建列标题的固定值。</p></td>
 </tr>
 </tbody>
@@ -67,7 +67,8 @@ TRANSFORM 语句包含以下部分：
 
 TRANSFORM 是可选的，但如果包括它，则应为 SQL 字符串中的第一个语句。它在指定作为行标题的字段的 SELECT 语句之前，在指定行分组方法的 [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) 子句之前。您也可以包含其他子句（例如。指定其他选择或排序条件的 [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql)）。还可以在交叉表查询中使用子查询作为谓词，特别是在 WHERE 子句中。
 
-*pivotfield* 中返回的值作为查询结果集中的列标题。例如，在交叉表查询中如果依据月销售量来透视销售数据，将会创建 12 个列。可以约束 *pivotfield* 以便从可选 IN 子句中所列出的固定值（*value1*，*value2*）内选择标题。也可以包含固定值用于没有数据来创建其他列的情况。
+
+            *pivotfield* 中返回的值用作查询结果集中的列标题。例如，在交叉表查询中切换销售月份的销售图表将创建 12 列。可将 *pivotfield* 限制为基于可选 IN 子句中列出的固定值（*value1*、*value2*）创建标题。还可以包含不存在数据的固定值以创建其他列。
 
 ## <a name="example"></a>示例
 

@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f31067c96c19804352ca74957e064f9338b49260
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293649"
 ---
 # <a name="drop-statement-microsoft-access-sql"></a>DROP 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-删除数据库中现有的表、过程或视图，或者删除表中现有的索引。
+从数据库中删除现有表、过程或视图，或从表中删除现有索引。
 
 > [!NOTE]
 > [!注释] Microsoft Access 数据库引擎不支持将 DROP 或任何 DDL 语句用于非 Microsoft Access 数据库引擎数据库。可以改用 **Delete** 方法。
@@ -36,14 +36,14 @@ DROP 语句包含以下部分：
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>table</em></p></td>
-<td><p>要删除的表的名称，或者要从中删除索引的表的名称。</p></td>
+<td><p>要删除的表或要从中删除索引的表的名称。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>procedure</em></p></td>
@@ -55,7 +55,7 @@ DROP 语句包含以下部分：
 </tr>
 <tr class="even">
 <td><p><em>index</em></p></td>
-<td><p>要从 <em>table</em> 中删除的索引的名称。</p></td>
+<td><p>要从<em>表</em>中删除的索引的名称。</p></td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +63,7 @@ DROP 语句包含以下部分：
 
 ## <a name="remarks"></a>说明
 
-在删除表或从表中删除索引之前，必须先关闭该表。
+必须先关闭表才可删除该表或从其中删除索引。
 
 还可以使用 [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) 语句从表中删除索引。
 

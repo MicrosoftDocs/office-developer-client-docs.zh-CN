@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: e54f8c51787e51785bdaacaecd28a8d24e2cb5b1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300425"
 ---
 # <a name="recordsetnomatch-property-dao"></a>Recordset.NoMatch 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-指示在使用 **[Seek](recordset-seek-method-dao.md)** 方法或 **[Find](recordset-findfirst-method-dao.md)** 方法之一后，是否找到了特定的记录（仅适用于 Microsoft Access 工作区）。
+指示特定记录是通过使用 **[Seek](recordset-seek-method-dao.md)** 方法还是 **[Find](recordset-findfirst-method-dao.md)** 方法找到的（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。NoMatch
+*表达式* .NoMatch
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式* 一个表示 **Recordset** 对象的变量。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 打开或创建 **[Recordset](recordset-object-dao.md)** 对象时，其 **NoMatch** 属性设置为 **False**。
 
@@ -40,7 +40,7 @@ ms.locfileid: "28702626"
 
 
 > [!NOTE]
-> [!注释] 对 [Recordset](recordset-movefirst-method-dao.md) 对象使用任何 ****Move**** 方法将不会影响其 **NoMatch** 属性设置。
+> 对 **Recordset** 对象使用任何 **[Move](recordset-movefirst-method-dao.md)** 方法将不会影响其 **NoMatch** 属性设置。
 
 
 ## <a name="example"></a>示例
@@ -168,9 +168,9 @@ ms.locfileid: "28702626"
 
 <br/>
 
-下面的示例演示如何使用 Seek 方法来查找链接表中的记录。
+以下示例说明如何使用 Seek 方法在链接的表中查找记录。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Sub TestSeek()

@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 7ef7f61ef632617b8d64a3fd9c34e5887e50065c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302959"
 ---
 # <a name="querydefexecute-method-dao"></a>QueryDef.Execute 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 对指定的对象执行 SQL 语句。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。执行 （***选项***）
+*表达式* .Execute(***Options***)
 
-*表达式*一个代表**QueryDef**对象的变量。
+*表达式* 一个表示 **QueryDef** 对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28709535"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -49,7 +49,7 @@ ms.locfileid: "28709535"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Options</em></p></td>
+<td><p><em>选项</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p></p></td>
@@ -58,9 +58,9 @@ ms.locfileid: "28709535"
 </table>
 
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-为选项，可以使用以下**[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** 常量。
+可以为 Options 使用以下 **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** 常量。
 
 <table>
 <colgroup>
@@ -88,7 +88,7 @@ ms.locfileid: "28709535"
 </tr>
 <tr class="even">
 <td><p><strong>dbSQLPassThrough</strong></p></td>
-<td><p>执行 SQL 传递查询。设置此选项会将 SQL 语句传递给 ODBC 数据库以进行处理（仅适用于 Microsoft Access 工作区）。</p></td>
+<td><p>执行 SQL 传递查询。 设置此选项会将 SQL 语句传递给 ODBC 数据库以进行处理（仅适用于 Microsoft Access 工作区）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbFailOnError</strong></p></td>
@@ -103,15 +103,15 @@ ms.locfileid: "28709535"
 <td><p>异步执行查询（仅适用于 ODBCDirect Connection 和 QueryDef 对象）。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>一设置</strong></p></td>
-<td><p>在不首先调用 SQLPrepare ODBC API 函数的情况下，执行语句（仅适用于 ODBCDirect Connection 和 QueryDef 对象）。</p></td>
+<td><p><strong>dbExecDirect</strong></p></td>
+<td><p>在不首先调用 SQLPrepare ODBC API 函数（仅 ODBCDirect Connection 和 QueryDef 对象）的情况下，执行该语句。</p></td>
 </tr>
 </tbody>
 </table>
 
 
 > [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
+> Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 > [!NOTE]
 > [!注释] 常量 **dbConsistent** 和 **dbInconsistent** 是互斥的。可以在 **OpenRecordset** 的给定实例中使用其中的某一个，但不能同时使用此两者。同时使用 **dbConsistent** 和 **dbInconsistent** 会导致出错。
@@ -122,7 +122,7 @@ ms.locfileid: "28709535"
 
 在早期版本的 Microsoft Jet 数据库引擎中，SQL 语句自动嵌入到隐式事务中。如果使用 **dbFailOnError** 执行的语句的一部分失败，则整个语句都会回滚。为了改善性能，从版本 3.5 开始，删除了这些隐式事务。如果要更新早期的 DAO 代码，请务必考虑对 **Execute** 语句使用显式事务。
 
-为了在 Microsoft Access 工作区中，特别是在多用户环境中获取最佳性能，请将 **Execute** 方法嵌套在事务中。对当前的 **[Workspace](workspace-begintrans-method-dao.md)** 对象使用 **[BeginTrans](workspace-object-dao.md)** 方法，然后使用 **Execute** 方法，再对 [Workspace](workspace-committrans-method-dao.md) 使用 ****CommitTrans**** 方法完成事务。这样可以保存磁盘上的更改，并且释放任何在运行查询时放置的锁定。
+为了在 Microsoft Access 工作区中（特别是在多用户环境中）获得最佳性能，请在事务中嵌套 **Execute** 方法。 对当前的 **[Workspace](workspace-object-dao.md)** 对象使用 **[BeginTrans](workspace-begintrans-method-dao.md)** 方法，然后使用 **Execute** 方法，再对 **Workspace** 使用 **[CommitTrans](workspace-committrans-method-dao.md)** 方法完成事务。 这样可以保存磁盘上的更改，并且释放任何在运行查询时放置的锁定。
 
 ## <a name="example"></a>示例
 
@@ -243,9 +243,9 @@ ms.locfileid: "28709535"
 
 <br/>
 
-下面的示例演示如何执行参数查询。 Parameters 集合用于设置 myActionQuery 查询的 Organization 参数之前执行查询。
+以下示例演示如何执行参数查询。 参数集合用于在执行查询前设置 myActionQuery 查询的 Organization 参数。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Public Sub ExecParameterQuery()

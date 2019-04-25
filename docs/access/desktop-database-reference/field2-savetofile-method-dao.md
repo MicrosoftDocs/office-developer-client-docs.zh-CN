@@ -12,29 +12,29 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 78b08575b1fde304dc47b8219c1143cda265baf8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706980"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292704"
 ---
 # <a name="field2savetofile-method-dao"></a>Field2.SaveToFile 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-将保存到磁盘上的附件。
+将附件保存到磁盘。
 
 ## <a name="version-information"></a>版本信息
 
-添加的版本： Access 2007
+添加的版本：Access 2007
 
 ## <a name="syntax"></a>语法
 
-*表达式*。SaveToFile (***文件名***)
+*表达式* .SaveToFile(***FileName***)
 
-*表达式*一个代表**Field2**对象的变量。
+*表达式* 一个表示 **Field2** 对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ ms.locfileid: "28706980"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -87,9 +87,9 @@ ms.locfileid: "28706980"
 
 <br/>
 
-下面的示例演示如何将保存到指定的文件夹路径附件字段中存储的文件。
+以下示例演示如何将存储在附件字段中的文件保存到指定的文件夹路径。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

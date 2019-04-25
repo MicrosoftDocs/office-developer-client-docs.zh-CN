@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: bd6f2fdf7d1f8ba9fc47c6223a8f872a655a1e3f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307621"
 ---
 # <a name="recordsetrequery-method-dao"></a>Recordset.Requery 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-通过重新执行对象所基于的查询，更新 **[Recordset](recordset-object-dao.md)** 对象中的数据。
+通过重新执行 **[Recordset](recordset-object-dao.md)** 对象所基于的查询来更新该对象中的数据。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。Requery (***NewQueryDef***)
+*表达式* .Requery(***NewQueryDef***)
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式* 一个表示 **Recordset** 对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ ms.locfileid: "28710781"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -54,25 +54,25 @@ ms.locfileid: "28710781"
 </table>
 
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-使用此方法可确保 **Recordset** 包含最新的数据。 此方法重新填充当前**Recordset**使用当前查询参数或由 newquerydef 参数提供新的 （在 Microsoft Access 工作区）。
+使用此方法可以确保 **Recordset** 包含最新数据。 此方法通过使用当前查询参数或（在 Microsoft Access 工作区中）newquerydef 参数提供的新参数重新填充当前的 **Recordset**。
 
-如果不指定 newquerydef 参数， **Recordset**重新填充基于相同的查询定义和使用最初填充**Recordset**的参数。 在此重新填充期间，将反映对基础数据所做的任何更改。 如果没有使用 **QueryDef** 创建 **Recordset**，将从头重新创建 **Recordset**。
+如果不指定 newquerydef 参数，将根据最初用于填充 **Recordset** 的相同查询定义和参数重新填充 **Recordset**。 在此重新填充期间，将反映对基础数据所做的任何更改。 如果没有使用 **QueryDef** 创建 **Recordset**，将从头重新创建 **Recordset**。
 
-如果 newquerydef 参数中指定原始**QueryDef** ， **Recordset**被重新使用指定的**QueryDef**的参数。 在此重新填充期间，将反映对基础数据所做的任何更改。 以反映对**Recordset**中的查询参数值的任何更改，必须提供 newquerydef 的参数。
+如果在 newquerydef 参数中指定了原始的 **QueryDef**，则会使用 **QueryDef** 指定的参数重新查询 **Recordset**。 在此重新填充期间将会反映对基础数据所做的所有更改。 若要反映对 **Recordset** 中的查询参数值所做的更改，必须提供 newquerydef 参数。
 
 如果指定的与最初用来创建 **Recordset** 的 **QueryDef** 不相同，将从头重新创建 **Recordset**。
 
 如果使用 **Requery**， **Recordset** 中的第一条记录将成为当前记录。
 
-不能对 ****Restartable**** 属性设置为 [False](recordset-restartable-property-dao.md) 的动态集类型或快照类型的 **Recordset** 对象使用 **Requery** 方法。 但是，如果您提供可选 newquerydef 参数，**一个可重启**属性将被忽略。
+对于 **[Restartable](recordset-restartable-property-dao.md)** 属性设置为 **False** 的动态集类型或快照类型 **Recordset** 对象，不能使用 **Requery** 方法。 但是，如果提供可选的 newquerydef 参数，则会忽略 **Restartable** 属性。
 
-使用 [Requery](recordset-bof-property-dao.md) 方法后，如果 **Recordset** 对象的 **[BOF](recordset-eof-property-dao.md)** 和 ****EOF**** 属性设置均为 **True**，则表示查询没有返回任何记录，并且 **Recordset** 不包含数据。
+使用 **Requery** 方法后，如果 **Recordset** 对象的 **[BOF](recordset-bof-property-dao.md)** 和 **[EOF](recordset-eof-property-dao.md)** 属性设置均为 **True**，则表示查询没有返回任何记录，并且 **Recordset** 不包含数据。
 
 ## <a name="example"></a>示例
 
-以下示例演示如何在更改基础数据之后，使用 **Requery** 方法刷新查询。
+以下示例演示如何在更改基础数据后，使用 **Requery** 方法刷新查询。
 
 ```vb
     Sub RequeryX() 

@@ -1,5 +1,5 @@
 ---
-title: SQL 保留字 （访问桌面数据库参考 （英文）
+title: SQL 保留字（Access 桌面数据库参考）
 TOCTitle: SQL reserved words
 ms:assetid: 1a074927-64df-d645-99ce-95d9826c5a46
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845663(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 43fa81fa2f175c7b67c5de4cfda5158cc067bbac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308559"
 ---
 # <a name="sql-reserved-words"></a>SQL 保留字
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-下表包含了 Microsoft Access 数据库引擎用于 SQL 语句的所有保留字。 
+以下列表列出了 Microsoft Access 数据库引擎用于 SQL 语句的所有保留字。 
 
-- 列表中没有全部采用大写字母的保留字也是其他应用程序的保留字。 所以，这些保留字的各个帮助主题只提供一般性说明，而不是着重说明 SQL 用法。
+- 列表中未完全采用大写形式的保留字也是其他应用程序的保留字。 因此，这些保留字的相关帮助主题提供常规说明，而不只是针对 SQL。
 
-- 后面标有星号 （*） 的单词被保留，但当前 Microsoft Access SQL 语句 （例如，**级别**和**TableID**） 的上下文中没有任何意义。 
+- 后跟星号 (*) 的词也是保留字，但当前在 Microsoft Access SQL 语句（例如 **Level** 和 **TableID**）的上下文中没有任何意义。 
 
-- 不加下划线的保留字没有链接的解释。
+- 无下划线的词没有链接说明。
 
 ## <a name="a"></a>A
 
@@ -43,7 +43,7 @@ ms.locfileid: "28718250"
 <td><p><a href="sql-subqueries-microsoft-access-sql.md">ANY</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="alter-table-statement-microsoft-access-sql.md">添加</a></p></td>
+<td><p><a href="alter-table-statement-microsoft-access-sql.md">ADD</a></p></td>
 <td><p>ARE</p></td>
 </tr>
 <tr class="odd">
@@ -87,20 +87,20 @@ ms.locfileid: "28718250"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="transaction-statement-microsoft-access-sql.md">开始</a></p></td>
+<td><p><a href="transaction-statement-microsoft-access-sql.md">BEGIN</a></p></td>
 <td><p>COLLATION</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">之间</a></strong></p></td>
-<td><p><a href="alter-table-statement-microsoft-access-sql.md">列</a></p></td>
+<td><p><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">Between</a></strong></p></td>
+<td><p><a href="alter-table-statement-microsoft-access-sql.md">COLUMN</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">二进制</a></p></td>
-<td><p><a href="transaction-statement-microsoft-access-sql.md">提交</a></p></td>
+<td><p><a href="sql-data-types.md">BINARY</a></p></td>
+<td><p><a href="transaction-statement-microsoft-access-sql.md">COMMIT</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="sql-data-types.md">位</a></p></td>
-<td><p><a href="create-table-statement-microsoft-access-sql.md">COMP 压缩</a></p></td>
+<td><p><a href="sql-data-types.md">BIT</a></p></td>
+<td><p><a href="create-table-statement-microsoft-access-sql.md">COMP、COMPRESSION</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>BIT_LENGTH</p></td>
@@ -112,18 +112,18 @@ ms.locfileid: "28718250"
 </tr>
 <tr class="odd">
 <td><p>BOTH</p></td>
-<td><p><a href="constraint-clause-microsoft-access-sql.md">约束约束</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT 和 CONSTRAINTS</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">BY</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">CONTAINER</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">字节</a></p></td>
+<td><p><a href="sql-data-types.md">BYTE</a></p></td>
 <td><p>CONTAINS</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="constraint-clause-microsoft-access-sql.md">级联</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">CASCADE</a></p></td>
 <td><p>CONVERT</p></td>
 </tr>
 <tr class="odd">
@@ -132,7 +132,7 @@ ms.locfileid: "28718250"
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHAR 和 CHARACTER</a>，请参阅 TEXT</p></td>
-<td><p><a href="sql-data-types.md">计数器</a></p></td>
+<td><p><a href="sql-data-types.md">COUNTER</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHAR_LENGTH</a></p></td>
@@ -140,7 +140,7 @@ ms.locfileid: "28718250"
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHARACTER_LENGTH</a></p></td>
-<td><p><a href="sql-data-types.md">货币</a></p></td>
+<td><p><a href="sql-data-types.md">CURRENCY</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>CHECK</p></td>
@@ -175,8 +175,8 @@ ms.locfileid: "28718250"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">数据库</a></p></td>
-<td><p><a href="create-index-statement-microsoft-access-sql.md">不允许</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">DATABASE</a></p></td>
+<td><p><a href="create-index-statement-microsoft-access-sql.md">DISALLOW</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">DATE</a>，请参阅 DATETIME</p></td>
@@ -191,12 +191,12 @@ ms.locfileid: "28718250"
 <td><p><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">DISTINCTROW</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">12 月十进制</a></p></td>
+<td><p><a href="sql-data-types.md">DEC、DECIMAL</a></p></td>
 <td><p>DOMAIN</p></td>
 </tr>
 <tr class="even">
 <td><p>DECLARE</p></td>
-<td><p><a href="sql-data-types.md">双</a></p></td>
+<td><p><a href="sql-data-types.md">DOUBLE</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/library/ff192454(v=office.15)">DELETE</a></p></td>
@@ -220,27 +220,27 @@ ms.locfileid: "28718250"
 <tbody>
 <tr class="odd">
 <td><p><strong>Eqv</strong></p></td>
-<td><p><a href="constraint-clause-microsoft-access-sql.md">外</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">FOREIGN</a></p></td>
 </tr>
 <tr class="even">
 <td><p>EXCLUSIVECONNECT</p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">FROM</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>EXEC 和 EXECUTE</p></td>
+<td><p>EXEC、EXECUTE</p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff836674(v=office.15)">FROM 子句</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="sql-subqueries-microsoft-access-sql.md">存在</a></p></td>
+<td><p><a href="sql-subqueries-microsoft-access-sql.md">EXISTS</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">GENERAL</a>，请参阅 LONGBINARY</p></td>
 </tr>
 <tr class="odd">
 <td><p>EXTRACT</p></td>
-<td><p><a href="grant-statement-microsoft-access-sql.md">授予</a></p></td>
+<td><p><a href="grant-statement-microsoft-access-sql.md">GRANT</a></p></td>
 </tr>
 <tr class="even">
 <td><p>FALSE</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff837271(v=office.15)">组</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>FETCH</p></td>
@@ -271,7 +271,7 @@ ms.locfileid: "28718250"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">标识</a></p></td>
+<td><p><a href="sql-data-types.md">IDENTITY</a></p></td>
 <td><p>INPUT</p></td>
 </tr>
 <tr class="even">
@@ -283,11 +283,11 @@ ms.locfileid: "28718250"
 <td><p><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSERT</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-index-statement-microsoft-access-sql.md">忽略</a></p></td>
+<td><p><a href="create-index-statement-microsoft-access-sql.md">IGNORE</a></p></td>
 <td><p><a href="insert-into-statement-microsoft-access-sql.md">INSERT INTO</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">图像</a></p></td>
+<td><p><a href="sql-data-types.md">IMAGE</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">INT、INTEGER 和 INTEGER4</a>，请参阅 LONG</p></td>
 </tr>
 <tr class="even">
@@ -295,12 +295,12 @@ ms.locfileid: "28718250"
 <td><p><a href="equivalent-ansi-sql-data-types.md">INTEGER1</a>，请参阅 BYTE</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="https://msdn.microsoft.com/library/ff836369(v=office.15)">中</a></strong></p></td>
+<td><p><strong><a href="https://msdn.microsoft.com/library/ff836369(v=office.15)">In</a></strong></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">INTEGER2</a>，请参阅 SHORT</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/library/ff197682(v=office.15)">IN</a></p></td>
-<td><p><a href="equivalent-ansi-sql-data-types.md">间隔</a></p></td>
+<td><p><a href="equivalent-ansi-sql-data-types.md">INTERVAL</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">INDEX</a></p></td>
@@ -311,7 +311,7 @@ ms.locfileid: "28718250"
 <td><p><strong>Is</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="inner-join-operation-microsoft-access-sql.md">内部</a></p></td>
+<td><p><a href="inner-join-operation-microsoft-access-sql.md">INNER</a></p></td>
 <td><p>ISOLATION</p></td>
 </tr>
 </tbody>
@@ -331,7 +331,7 @@ ms.locfileid: "28718250"
 <td><p><a href="sql-data-types.md">LONGTEXT</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="constraint-clause-microsoft-access-sql.md">键</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">KEY</a></p></td>
 <td><p>LOWER</p></td>
 </tr>
 <tr class="odd">
@@ -343,15 +343,15 @@ ms.locfileid: "28718250"
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Max</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="left-join-right-join-operations-microsoft-access-sql.md">左</a></p></td>
+<td><p><a href="left-join-right-join-operations-microsoft-access-sql.md">LEFT</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">MEMO</a>，请参阅 LONGTEXT</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>级别</strong>*</p></td>
+<td><p><strong>Level</strong>*</p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Min</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="https://msdn.microsoft.com/library/ff195752(v=office.15)">类似于</a></strong></p></td>
+<td><p><strong><a href="https://msdn.microsoft.com/library/ff195752(v=office.15)">Like</a></strong></p></td>
 <td><p>MINUTE</p></td>
 </tr>
 <tr class="even">
@@ -359,7 +359,7 @@ ms.locfileid: "28718250"
 <td><p><strong>Mod</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">长</a></p></td>
+<td><p><a href="sql-data-types.md">LONG</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">MONEY</a>，请参阅 CURRENCY</p></td>
 </tr>
 <tr class="even">
@@ -383,8 +383,8 @@ ms.locfileid: "28718250"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="equivalent-ansi-sql-data-types.md">国家/地区</a></p></td>
-<td><p><strong>外部</strong>*</p></td>
+<td><p><a href="equivalent-ansi-sql-data-types.md">NATIONAL</a></p></td>
+<td><p><strong>Outer</strong>*</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="constraint-clause-microsoft-access-sql.md">NCHAR</a></p></td>
@@ -395,12 +395,12 @@ ms.locfileid: "28718250"
 <td><p><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OWNERACCESS</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>not</strong></p></td>
+<td><p><strong>Not</strong></p></td>
 <td><p>PAD</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">NTEXT</a></p></td>
-<td><p><a href="parameters-declaration-microsoft-access-sql.md">参数</a></p></td>
+<td><p><a href="parameters-declaration-microsoft-access-sql.md">PARAMETERS</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="create-index-statement-microsoft-access-sql.md">NULL</a></p></td>
@@ -412,11 +412,11 @@ ms.locfileid: "28718250"
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">NUMERIC</a>，请参阅 DECIMAL</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">%</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">PERCENT</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">NVARCHAR</a></p></td>
-<td><p><a href="transform-statement-microsoft-access-sql.md">数据透视表</a></p></td>
+<td><p><a href="transform-statement-microsoft-access-sql.md">PIVOT</a></p></td>
 </tr>
 <tr class="even">
 <td><p>OCTET_LENGTH</p></td>
@@ -432,18 +432,18 @@ ms.locfileid: "28718250"
 </tr>
 <tr class="odd">
 <td><p>OPEN</p></td>
-<td><p><a href="constraint-clause-microsoft-access-sql.md">主</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">PRIMARY</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">选项</a></p></td>
+<td><p><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OPTION</a></p></td>
 <td><p>PRIVILEGES</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>或</strong></p></td>
-<td><p><a href="procedure-clause-microsoft-access-sql.md">进程内过程</a></p></td>
+<td><p><strong>Or</strong></p></td>
+<td><p><a href="procedure-clause-microsoft-access-sql.md">PROC、PROCEDURE</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff198293(v=office.15)">顺序</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER</a></p></td>
 <td><p>PUBLIC</p></td>
 </tr>
 </tbody>
@@ -463,7 +463,7 @@ ms.locfileid: "28718250"
 <td><p>SMALLDATETIME</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="constraint-clause-microsoft-access-sql.md">引用</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">REFERENCES</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">SMALLINT</a>，请参阅 SHORT</p></td>
 </tr>
 <tr class="odd">
@@ -472,19 +472,19 @@ ms.locfileid: "28718250"
 </tr>
 <tr class="even">
 <td><p><a href="revoke-statement-microsoft-access-sql.md">REVOKE</a></p></td>
-<td><p><a href="sql-subqueries-microsoft-access-sql.md">某些</a></p></td>
+<td><p><a href="sql-subqueries-microsoft-access-sql.md">SOME</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="left-join-right-join-operations-microsoft-access-sql.md">右</a></p></td>
+<td><p><a href="left-join-right-join-operations-microsoft-access-sql.md">RIGHT</a></p></td>
 <td><p>SPACE</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="transaction-statement-microsoft-access-sql.md">回滚</a></p></td>
+<td><p><a href="transaction-statement-microsoft-access-sql.md">ROLLBACK</a></p></td>
 <td><p>SQL</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">SCHEMA</a></p></td>
-<td><p>SQLCODE、SQLERROR 和 SQLSTATE</p></td>
+<td><p>SQLCODE、SQLERROR、SQLSTATE</p></td>
 </tr>
 <tr class="even">
 <td><p>SECOND</p></td>
@@ -503,15 +503,15 @@ ms.locfileid: "28718250"
 <td><p>SUBSTRING</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="update-statement-microsoft-access-sql.md">设置</a></p></td>
+<td><p><a href="update-statement-microsoft-access-sql.md">SET</a></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff844764(v=office.15)">Sum</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">短</a></p></td>
+<td><p><a href="sql-data-types.md">SHORT</a></p></td>
 <td><p>SYSNAME</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="sql-data-types.md">单个</a></p></td>
+<td><p><a href="sql-data-types.md">SINGLE</a></p></td>
 <td><p>SYSTEM_USER</p></td>
 </tr>
 <tr class="odd">
@@ -539,11 +539,11 @@ ms.locfileid: "28718250"
 <td><p><a href="https://msdn.microsoft.com/library/ff198241(v=office.15)">UPDATESECURITY</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="create-table-statement-microsoft-access-sql.md">临时</a></p></td>
+<td><p><a href="create-table-statement-microsoft-access-sql.md">TEMPORARY</a></p></td>
 <td><p>UPPER</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="sql-data-types.md">文本</a></p></td>
+<td><p><a href="sql-data-types.md">TEXT</a></p></td>
 <td><p>USAGE</p></td>
 </tr>
 <tr class="odd">
@@ -551,16 +551,16 @@ ms.locfileid: "28718250"
 <td><p><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">USER</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="equivalent-ansi-sql-data-types.md">时间戳</a></p></td>
+<td><p><a href="equivalent-ansi-sql-data-types.md">TIMESTAMP</a></p></td>
 <td><p>USING</p></td>
 </tr>
 <tr class="odd">
 <td><p>TIMEZONE_HOUR</p></td>
-<td><p><a href="sql-data-types.md">值</a></p></td>
+<td><p><a href="sql-data-types.md">VALUE</a></p></td>
 </tr>
 <tr class="even">
 <td><p>TIMEZONE_MINUTE</p></td>
-<td><p><a href="insert-into-statement-microsoft-access-sql.md">值</a></p></td>
+<td><p><a href="insert-into-statement-microsoft-access-sql.md">VALUES</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="sql-data-types.md">TINYINT</a></p></td>
@@ -571,7 +571,7 @@ ms.locfileid: "28718250"
 <td><p><a href="equivalent-ansi-sql-data-types.md">VARBINARY</a>，请参阅 BINARY</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">返回页首</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">TOP</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">VARCHAR</a>，请参阅 TEXT</p></td>
 </tr>
 <tr class="even">
@@ -579,11 +579,11 @@ ms.locfileid: "28718250"
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">VarP</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="transaction-statement-microsoft-access-sql.md">事务</a></p></td>
+<td><p><a href="transaction-statement-microsoft-access-sql.md">TRANSACTION</a></p></td>
 <td><p><a href="constraint-clause-microsoft-access-sql.md">VARYING</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="transform-statement-microsoft-access-sql.md">转换</a></p></td>
+<td><p><a href="transform-statement-microsoft-access-sql.md">TRANSFORM</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">VIEW</a></p></td>
 </tr>
 <tr class="odd">
@@ -603,11 +603,11 @@ ms.locfileid: "28718250"
 <td><p><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">WITH</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="union-operation-microsoft-access-sql.md">联合</a></p></td>
-<td><p><a href="transaction-statement-microsoft-access-sql.md">工作</a></p></td>
+<td><p><a href="union-operation-microsoft-access-sql.md">UNION</a></p></td>
+<td><p><a href="transaction-statement-microsoft-access-sql.md">WORK</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="constraint-clause-microsoft-access-sql.md">唯一</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">UNIQUE</a></p></td>
 <td><p><strong>Xor</strong></p></td>
 </tr>
 <tr class="odd">

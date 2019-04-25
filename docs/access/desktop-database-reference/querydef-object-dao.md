@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a94d34a2dbe8043e6db637b649f59047cf3f1dda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301055"
 ---
 # <a name="querydef-object-dao"></a>QueryDef 对象 (DAO)
 
-**适用于：** Access 2013 |Office 2013 
+**适用于**：Access 2013 | Office 2013 
 
-**QueryDef** 对象是 Microsoft Access 数据库引擎数据库中某个查询的存储定义。
+**QueryDef** 对象是 Microsoft Access 数据库引擎数据库中的查询的存储定义。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以使用 **QueryDef** 对象定义查询。例如，您可以进行下列操作：
 
@@ -44,7 +44,7 @@ ms.locfileid: "28713553"
 
 使用通过 Microsoft Access 数据库引擎访问的外部数据库引擎的本地 SQL 方言的首选方法是使用 **QueryDef** 对象。例如，可以创建一个 Microsoft SQL Server 查询，并将其存储在 **QueryDef** 对象中。如果需要使用非 Microsoft Access 数据库引擎 SQL 查询，必须提供一个指向外部数据源的 **Connect** 属性字符串。具有有效 **Connect** 属性的查询将绕过 Microsoft Access 数据库引擎，并将查询直接传递给外部数据库服务器，以进行处理。
 
-若要创建新的 **QueryDef** 对象，请使用 **CreateQueryDef** 方法。 在 Microsoft Access 工作区中，如果您提供名称参数的字符串或明确将新的**QueryDef**对象的**Name**属性设置为非 – 零长度字符串，您将创建自动将永久**QueryDef**追加到**QueryDefs**集合并保存到磁盘。 提供一个零长度字符串作为名称参数或明确将**名称**属性设置为零长度字符串将导致临时**QueryDef**对象。
+要新建 **QueryDef** 对象，请使用 **CreateQueryDef** 方法。 在 Microsoft Access 工作区中，如果为  name 参数提供了字符串，或者将新的 **QueryDef** 对象的 **Name** 属性显式设置为非零长度字符串，那么将创建一个会自动追加到 **QueryDefs** 集合并保存到磁盘的永久 **QueryDef**。 提供零长度字符串作为  name 参数或将 **Name** 属性显式设置为零长度字符串将导致生成临时的 **QueryDef** 对象。
 
 若要按照序号或 **Name** 属性设置来引用集合中的 **QueryDef** 对象，可以使用下列任何一种语法形式：
 
@@ -52,13 +52,13 @@ QueryDefs(0)
 
 QueryDefs("name")
 
-QueryDefs\! \[名称\]
+QueryDefs\!\[ name\]
 
-只能按分配给临时 **QueryDef** 对象的对象变量来引用这些临时对象。
+仅可以按照分配给临时 **QueryDef** 对象的对象变量来引用这些对象。
 
-**链接提供** [UtterAccess](https://www.utteraccess.com)社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
+**链接提供者：**[UtterAccess](https://www.utteraccess.com) 社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
 
-- [查询： SQL 到 Word 文档](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
+- [查询：文档 SQL 到 Word](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
 
 ## <a name="example"></a>示例
 
@@ -168,9 +168,9 @@ QueryDefs\! \[名称\]
 
 <br/>
 
-下面的示例演示如何替换已保存的查询中的结构化查询语言 (SQL) 语句。
+以下示例演示如何替换保存的查询中的结构化查询语言 (SQL) 语句。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     ‘To change the Where clause in a saved query  

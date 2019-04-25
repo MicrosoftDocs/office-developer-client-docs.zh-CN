@@ -1,7 +1,7 @@
 ---
 title: Access 启动时隐藏功能区
 TOCTitle: Hide the ribbon when Access starts
-description: 如何将加载自定义功能区隐藏所有 Access 2013 中的内置选项卡。
+description: 如何加载可隐藏 Access 2013 中所有内置选项卡的自定义功能区。
 ms:assetid: f98bab58-8094-1c56-f70b-ced2e7849574
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
 ms:contentKeyID: 48548817
@@ -9,21 +9,21 @@ ms.date: 10/16/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 4ce9327790f620ba9163f5cdbe7b5c8900de4341
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291936"
 ---
 # <a name="hide-the-ribbon-when-access-starts"></a>Access 启动时隐藏功能区
 
-**适用于：** Access 2013 |Office 2013
+**适用于**：Access 2013 | Office 2013
 
 默认情况下，Microsoft Access 不提供用于隐藏功能区的方法。本主题介绍如何加载可隐藏所有的内置选项卡的自定义功能区。
 
 要在 Access 启动时加载自定义的功能区，应将其设置存储在一个名为 **USysRibbons** 的表中。
 
-必须使用功能区自定义项的特定的列名称必须创建**USysRibbons**表。 
+必须使用特定的列名创建 **USysRibbons** 表才能实现功能区自定义。 
 
 下表列出了创建 **USysRibbons** 表时要使用的设置。
 
@@ -48,8 +48,8 @@ ms.locfileid: "28704103"
 </tr>
 <tr class="even">
 <td><p><strong>RibbonXML</strong></p></td>
-<td><p>Memo</p></td>
-<td><p>包含功能区扩展性 XML (RibbonX) 定义功能区自定义项。</p></td>
+<td><p>备注</p></td>
+<td><p>包含定义功能区自定义的功能区扩展性 XML (RibbonX)。</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,21 +64,21 @@ ms.locfileid: "28704103"
 |**RibbonXML**|`<CustomUI xmlns="https://schemas.microsoft.com/office/2006/01/CustomUI"> <ribbon startFromScratch="true"/></CustomUI>`|
 
 
-## <a name="apply-a-custom-ribbon-when-access-starts"></a>在 Access 启动时应用自定义功能区
+## <a name="apply-a-custom-ribbon-when-access-starts"></a>Access 启动时应用自定义功能区
 
 若要应用自定义功能区以使它在应用程序启动时可用，请执行以下过程：
 
-1.  按照前面描述的过程使自定义功能区可供应用程序使用。
+1.  按照先前描述的过程将自定义的功能区提供给该应用程序使用。
 
 2.  关闭应用程序，然后重新启动它。
 
-3.  选择**Microsoft Office 按钮**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102")，然后选择**访问选项**。
+3.  选择 **Microsoft Office 按钮**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102")，然后选择“**Access 选项**”。
 
-4.  选择**当前数据库**选项，且然后，在**功能区和工具栏选项**部分中，选择**功能区名称**列表，然后选择**HideTheRibbon**。
+4.  选择“**当前数据库**”选项，然后在“**功能区和工具栏选项**”部分，选择“**功能区名称**”列表，然后选择“**HideTheRibbon**”。
 
-5.  关闭应用程序，然后重新启动它。
+5.  关闭再重新启动应用程序。
 
 > [!NOTE]
-> [!注释] For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
+> 有关其他 Office 应用程序中的功能区 UI 的详细信息，请参阅 [Office Fluent 功能区概述](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon)。
 
 

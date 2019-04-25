@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f16f44b57a690aa58efdff9b00341df5023c293f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314173"
 ---
 # <a name="tabledefs-collection-dao"></a>TableDefs 集合 (DAO)
 
-**适用于：** Access 2013 |Office 2013
+**适用于**：Access 2013 | Office 2013
 
 **TableDefs** 集合包含数据库中所有存储的 **TableDef** 对象（仅适用于 Microsoft Access 工作区）。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通过使用 **TableDef** 对象及其方法和属性来操作表定义。
 
@@ -32,13 +32,13 @@ ms.locfileid: "28702878"
 
 **TableDefs**("name")
 
-**TableDefs**\!\[名称\]
+**TableDefs**\!\[name\]
 
 **链接提供方：**[UtterAccess](https://www.utteraccess.com) 社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
 
-  - [重新链接器多 Backends](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
+  - [重链接器多后端](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
 
-  - [LIVE、 测试和本地数据之间交换/重新链接](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
+  - [在 LIVE、TEST 和 LOCAL 数据之间交换/重新链接](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
 
 ## <a name="example"></a>示例
 
@@ -95,7 +95,7 @@ ms.locfileid: "28702878"
 
 <br/>
 
-以下示例在 Northwind 数据库中创建一个新的 **TableDef** 对象。
+此示例将在 Northwind 数据库中新建一个 **TableDef** 对象。
 
 ```vb 
 Sub CreateTableDefX() 

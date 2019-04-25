@@ -1,5 +1,5 @@
 ---
-title: 等价的 ANSI SQL 数据类型
+title: 等效的 ANSI SQL 数据类型
 TOCTitle: Equivalent ANSI SQL data types
 ms:assetid: 720abf59-f9ef-4e14-4223-c873f604ad58
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195814(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 3ea0641c7325bfcb4339572bc8b50724115af8d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293509"
 ---
-# <a name="equivalent-ansi-sql-data-types"></a>等价的 ANSI SQL 数据类型
+# <a name="equivalent-ansi-sql-data-types"></a>等效的 ANSI SQL 数据类型
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-下表列出了 ANSI SQL 数据类型、它们的等价 Microsoft Access 数据库引擎 SQL 数据类型及其有效的同义词。 它还列出了等效 Microsoft SQL Server™ 数据类型。
+下表列出了 ANSI SQL 数据类型、它们的等效 Microsoft Access 数据库引擎 SQL 数据类型以及它们的有效同义词。 表中还列出了等效的 Microsoft SQL Server™ 数据类型。
 
 <table>
 <colgroup>
@@ -36,8 +36,7 @@ ms.locfileid: "28699378"
 <tr class="header">
 <th><p>ANSI SQL 数据类型</p></th>
 <th><p>Microsoft Access SQL 数据类型</p></th>
-<th><p>
-同义词</p></th>
+<th><p>同义词</p></th>
 <th><p>Microsoft SQL Server 数据类型</p></th>
 </tr>
 </thead>
@@ -45,7 +44,7 @@ ms.locfileid: "28699378"
 <tr class="odd">
 <td><p>BIT 和 BIT VARYING</p></td>
 <td><p>BINARY（请参阅“注释”）</p></td>
-<td><p>VARBINARY、 BINARY VARYING 和 BIT VARYING</p></td>
+<td><p>VARBINARY、BINARY VARYING 和 BIT VARYING</p></td>
 <td><p>BINARY 和 VARBINARY</p></td>
 </tr>
 <tr class="even">
@@ -64,7 +63,7 @@ ms.locfileid: "28699378"
 <td><p>不支持</p></td>
 <td><p>COUNTER（请参阅“注释”）</p></td>
 <td><p>AUTOINCREMENT</p></td>
-<td><p>（请参阅“注释”）</p></td>
+<td><p>（参见注释）</p></td>
 </tr>
 <tr class="odd">
 <td><p>不支持</p></td>
@@ -75,7 +74,7 @@ ms.locfileid: "28699378"
 <tr class="even">
 <td><p>DATE、TIME 和 TIMESTAMP</p></td>
 <td><p>DATETIME</p></td>
-<td><p>DATE、 TIME （参见注意）</p></td>
+<td><p>DATE 和 TIME（请参阅“注释”）</p></td>
 <td><p>DATETIME</p></td>
 </tr>
 <tr class="odd">
@@ -123,19 +122,19 @@ ms.locfileid: "28699378"
 <tr class="even">
 <td><p>不支持</p></td>
 <td><p>IMAGE</p></td>
-<td><p>LONGBINARY、 GENERAL 和 OLEOBJECT</p></td>
+<td><p>LONGBINARY、GENERAL 和 OLEOBJECT</p></td>
 <td><p>IMAGE</p></td>
 </tr>
 <tr class="odd">
 <td><p>不支持</p></td>
-<td><p>文本 （参见注意）</p></td>
+<td><p>TEXT（请参阅“注释”）</p></td>
 <td><p>LONGTEXT、LONGCHAR、MEMO、NOTE 和 NTEXT（请参阅“注释”）</p></td>
 <td><p>TEXT</p></td>
 </tr>
 <tr class="even">
 <td><p>CHARACTER、CHARACTER VARYING、NATIONAL CHARACTER 和 NATIONAL CHARACTER VARYING</p></td>
 <td><p>CHAR（请参阅“注释”）</p></td>
-<td><p>TEXT(n)，ALPHANUMERIC、 CHARACTER、 STRING、 VARCHAR、 CHARACTER VARYING、 NCHAR、 NATIONAL CHARACTER、 NATIONAL CHAR、 NATIONAL CHARACTER VARYING、 NATIONAL CHAR VARYING （参见注意）</p></td>
+<td><p>TEXT(n)、ALPHANUMERIC、CHARACTER、STRING、VARCHAR、CHARACTER VARYING、NCHAR、NATIONAL CHARACTER、NATIONAL CHAR、NATIONAL CHARACTER VARYING 和 NATIONAL CHAR VARYING（请参阅“注释”）</p></td>
 <td><p>CHAR、VARCHAR、NCHAR 和 NVARCHAR</p></td>
 </tr>
 </tbody>

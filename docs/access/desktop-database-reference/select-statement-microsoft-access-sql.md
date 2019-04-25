@@ -10,21 +10,21 @@ dev_langs:
 - sql
 localization_priority: Priority
 ms.openlocfilehash: 962e425c2c69511b6d7770fb03e954588249cf2a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314635"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>SELECT 语句 (Microsoft Access SQL)
 
-**适用于：** Access 2013 |Office 2013
+**适用于**：Access 2013 | Office 2013
 
 指示 Microsoft Access 数据库引擎将数据库中的信息作为一组记录返回。
 
 ## <a name="syntax"></a>语法
 
-选择\[*谓词*\] { \*  | *表*。\* |  \[*表*。\] *field1* \[作为*alias1* \] \[， \[*表*。\] *field2* \[作为*和 alias2* \] \[，...\] \]} FROM *tableexpression* \[，...\] \[IN *externaldatabase* \] \[其中... \]\[的组... \]\[HAVING... \]\[的 ORDER BY... \]\[与 OWNERACCESS OPTION\]
+SELECT \[*predicate*\] { \* | *table*.\* | \[*table*.\]*field1* \[AS *alias1*\] \[, \[*table*.\]*field2* \[AS *alias2*\] \[, …\]\]} FROM *tableexpression* \[, …\] \[IN *externaldatabase*\] \[WHERE… \] \[GROUP BY… \] \[HAVING… \] \[ORDER BY… \] \[WITH OWNERACCESS OPTION\]
 
 SELECT 语句包含以下部分：
 
@@ -41,8 +41,8 @@ SELECT 语句包含以下部分：
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>predicate</em></p></td>
-<td><p>下列谓词之一：<a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL、DISTINCT、DISTINCTROW 或 TOP</a>。可以使用谓词来限定返回记录的数量。如果没有指定谓词，则默认值为 ALL。  </p></td>
+<td><p><em>谓词</em></p></td>
+<td><p>下列谓词之一：<a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL、DISTINCT、DISTINCTROW 或 TOP</a>。可以使用谓词来限定返回记录的数量。如果没有指定谓词，则默认值为 ALL。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>*</em></p></td>
@@ -66,15 +66,15 @@ SELECT 语句包含以下部分：
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>如果当前数据库中不包含<em>tableexpression</em>中的表的数据库的名称。</p></td>
+<td><p>如果 <em>tableexpression</em> 中的表不在当前数据库中，则使用该参数指定该数据库名。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-若要执行此操作，Microsoft Jet 数据库引擎搜索指定的表、 提取选的列、 选择到指定的顺序满足的条件，和排序或组生成的行的行。
+若要执行此项操作，Microsoft Jet 数据库引擎会搜索指定的一个或多个表，提取选定的列，选择符合条件的行，然后按指定的顺序对得到的行进行排序或分组。
 
 SELECT 语句不会更改数据库中的数据。
 
@@ -82,7 +82,7 @@ SELECT 通常是 SQL 语句中的第一个词。大多数 SQL 语句都是 SELEC
 
 SELECT 语句最简化的语法为：
 
-SELECT *fields* FROM*表*
+SELECT *fields* FROM *table*
 
 可以通过星号 (\*) 来选择表中所有的字段。以下的示例选择在 Employees 表中的所有字段：
 
@@ -90,7 +90,7 @@ SELECT *fields* FROM*表*
 SELECT * FROM Employees;
 ```
 
-如果一个字段名包括于 FROM 子句内的多个表中，请在该字段前面加上表名和 **.** （圆点）号。在下面的示例中，Department 字段同时存在于 Employees 表和 Supervisors 表中。SQL 语句从 Employees 表中选择出部门并从 Supervisors 表中选择出主管名：
+如果一个字段名包括于 FROM 子句内的多个表中，请在该字段前面加上表名和 **.**（圆点）号。在下面的示例中，Department 字段同时存在于 Employees 表和 Supervisors 表中。SQL 语句从 Employees 表中选择出部门并从 Supervisors 表中选择出主管名：
 
 ```sql
 SELECT Employees.Department, Supervisors.SupvName 
@@ -124,7 +124,7 @@ AS HeadCount FROM Employees;
 
 下面的一些示例假定 Employees 表中存在一个假想的 Salary 字段。请注意，该字段实际并不存在于罗斯文数据库的 Employees 表中。
 
-本示例创建一个动态集类型**Recordset** ，基于的 SQL 语句中的 Employees 表中选择的所有记录的 LastName 和 FirstName 字段。 调用 EnumFields 过程，打印到**调试**窗口的**Recordset**对象的内容。
+本例基于 SQL 语句创建一个动态集类型的 **Recordset**，该语句选择 Employees 表中所有记录的 LastName 和 FirstName 字段。它调用 EnumFields 过程，该过程将 **Recordset** 对象的内容显示到调试窗口****。
 
 ```sql
     Sub SelectX1() 
@@ -217,7 +217,7 @@ AS HeadCount FROM Employees;
 
 <br/>
 
-**Sub**过程 EnumFields 从调用过程传递**Recordset**对象。 过程然后格式，并打印到**调试**窗口的**Recordset**的字段。 该变量是所需的打印的字段宽度。 某些字段可能被截断。
+The **Sub** procedure EnumFields is passed a **Recordset** object from the calling procedure. The procedure then formats and prints the fields of the **Recordset** to the **Debug** window. The variable is the desired printed field width. Some fields may be truncated.
 
 ```sql
     Sub EnumFields(rst As Recordset, intFldLen As Integer) 

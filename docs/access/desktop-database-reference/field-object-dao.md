@@ -1,5 +1,5 @@
 ---
-title: Field 对象的数据访问对象 (DAO)
+title: Field 对象 - 数据访问对象 (DAO)
 TOCTitle: Field Object
 ms:assetid: 47282ce2-9b49-ccf9-ad37-c4bb25cfd037
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193203(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c58896fb0d0a5c5a28844fdd3a6df922dd587f32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293040"
 ---
 # <a name="field-object-dao"></a>Field 对象 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Field** 对象代表具有普通数据类型和普通属性集的数据列。
+**Field** 对象表示具有公共数据类型和一组公共属性的数据列。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **Index**、 **QueryDef**、 **Relation** 和 **TableDef** 对象的 **Fields** 集合包含这些对象代表的字段的规范。 **Recordset** 对象的 **Fields** 集合代表数据行中或记录中的 **Field** 对象。可使用 **Recordset** 对象中的 **Field** 对象读取和设置 **Recordset** 对象的当前记录中的字段的值。
 
@@ -50,9 +50,9 @@ ms.locfileid: "28703641"
 
 - **Fields**(0)
 
-- **字段**("name")
+- **Fields**("name")
 
-- **字段**\!\[名称\]
+- **Fields**\!\[name\]
 
 还可以使用相同的语法形式，引用创建并追加到 **Fields** 集合中的 **Field** 对象的 **Value** 属性。字段引用的上下文将确定引用的是 **Field** 对象还是 **Field** 对象的 **Value** 属性。
 

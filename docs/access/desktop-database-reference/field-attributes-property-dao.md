@@ -8,29 +8,29 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 010c7a2aea777a93d1ced2d33d8743320dd05ada
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293152"
 ---
 # <a name="fieldattributes-property-dao"></a>Field.Attributes 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
-设置或返回 **[Field](field-object-dao.md)** 对象的一个或多个特征。 **Long** 类型，可读写。
+设置或返回 **[Field](field-object-dao.md)** 对象的一个或多个特征。 读/写 **Long**。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。属性
+*表达式* .Attributes
 
-*表达式*一个代表**Field**对象的变量。
+*表达式* 一个表示 **Field** 对象的变量。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-此值指定 **Field** 对象所代表的字段的特征，并且可以是这些常量的组合。
+该值指定 **Field** 对象表示的字段的特性，并且可以是以下常量的组合。
 
 <table>
 <colgroup>
@@ -50,27 +50,27 @@ ms.locfileid: "28715310"
 </tr>
 <tr class="even">
 <td><p><strong>dbDescending</strong></p></td>
-<td><p>字段将以降序（Z 到 A，或 100 到 0）排序；此选项只适用于 <strong>Index</strong> 对象的 <strong>Fields</strong> 集合中的 <strong>Field</strong> 对象。如果省略此常量，将以升序（A 到 Z，或 0 到 100）排序。这是 <strong>Index</strong> 和 <strong>TableDef</strong> 字段的默认值（仅适用于 Microsoft Access 工作区）。.</p></td>
+<td><p>字段按降序（Z 到 A 或 100 至 0）排序；此选项仅适用于 <strong>Index</strong> 对象的 <strong>Fields</strong> 集合中的 <strong>Field</strong> 对象。 如果省略此常量，字段将按升序（A 到 Z 或 0 到 100）排序。 这是 <strong>Index</strong> 和 <strong>TableDef</strong> 字段的默认值（仅适用于 Microsoft Access 工作区）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbFixedField</strong></p></td>
-<td><p>该字段大小是固定的（“数字”字段的默认值）。</p></td>
+<td><p>字段大小为固定值（数值字段的默认设置）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbHyperlinkField</strong></p></td>
-<td><p>该字段包含超链接信息（仅适用于“备注”字段）。</p></td>
+<td><p>字段包含超链接信息（仅限备注字段）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSystemField</strong></p></td>
-<td><p>该字段存储副本的复制信息；不能删除此字段类型（仅适用于 Microsoft Access 工作区）。</p></td>
+<td><p>字段将存储副本的复制信息；不能删除这种类型的字段（仅适用于 Microsoft Access 工作区）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbUpdatableField</strong></p></td>
-<td><p>可以更改该字段值。</p></td>
+<td><p>可以更改字段值。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVariableField</strong></p></td>
-<td><p>该字段大小可变（仅适用于“文本”字段）。</p></td>
+<td><p>字段大小是可变值（仅限文本字段）。</p></td>
 </tr>
 </tbody>
 </table>
@@ -92,23 +92,23 @@ ms.locfileid: "28715310"
 <tbody>
 <tr class="odd">
 <td><p><strong>Index</strong> 对象</p></td>
-<td><p>将 <strong>Index</strong> 所要追加到的 <strong>TableDef</strong> 对象追加到 <strong>Database</strong> 对象之前是可读写的；追加后，该属性是只读的。</p></td>
+<td><p>读/写，直至 <strong>Index</strong> 对象追加到的 <strong>TableDef</strong> 对象追加到 <strong>Database</strong> 对象；然后该属性变为只读。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong>对象</p></td>
+<td><p><strong>QueryDef</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong>对象</p></td>
+<td><p><strong>Recordset</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong>对象</p></td>
+<td><p><strong>Relation</strong> 对象</p></td>
 <td><p>不支持</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TableDef</strong>对象</p></td>
-<td><p>可读写</p></td>
+<td><p><strong>TableDef</strong> 对象</p></td>
+<td><p>读/写</p></td>
 </tr>
 </tbody>
 </table>

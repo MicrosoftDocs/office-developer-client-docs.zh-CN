@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c8f212c5e1f10f4270987c9453802575d88cebfa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292949"
 ---
 # <a name="fieldtype-property-dao"></a>Field.Type 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-设置或返回一个值，该值指示对象的操作类型或数据类型。可读写 **Integer**。
+设置或返回一个值，该值指示对象的操作类型或数据类型。 **Integer** 型，可读/写。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。类型
+*表达式* .Type
 
-*表达式*一个代表**Field**对象的变量。
+*表达式* 一个表示 **Field** 对象的变量。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 设置或返回值是一个指示操作类型或数据类型的常量。对于 **Field** 对象，该属性是可读写的，直到该对象追加到集合或另一个对象中，该属性才变为只读。
 
@@ -51,11 +51,11 @@ ms.locfileid: "28709479"
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Binary</p></td>
+<td><p>二进制</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
-<td><p>Boolean</p></td>
+<td><p>布尔值</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbByte</strong></p></td>
@@ -75,15 +75,15 @@ ms.locfileid: "28709479"
 </tr>
 <tr class="even">
 <td><p><strong>dbDecimal</strong></p></td>
-<td><p>小数</p></td>
+<td><p>十进制</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbDouble</strong></p></td>
-<td><p>Double</p></td>
+<td><p>双精度</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
-<td><p>Float</p></td>
+<td><p>浮点</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
@@ -95,7 +95,7 @@ ms.locfileid: "28709479"
 </tr>
 <tr class="odd">
 <td><p><strong>dbLong</strong></p></td>
-<td><p>Long</p></td>
+<td><p>长型</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLongBinary</strong></p></td>
@@ -103,15 +103,15 @@ ms.locfileid: "28709479"
 </tr>
 <tr class="odd">
 <td><p><strong>dbMemo</strong></p></td>
-<td><p>Memo</p></td>
+<td><p>备注</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbNumeric</strong></p></td>
-<td><p>Numeric</p></td>
+<td><p>数值</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
-<td><p>Single</p></td>
+<td><p>单精度</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbText</strong></p></td>
