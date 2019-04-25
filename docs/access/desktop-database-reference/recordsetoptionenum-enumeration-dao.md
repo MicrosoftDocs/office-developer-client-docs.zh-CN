@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: b9e2a69f6952feb892de736e7ff3c3ca94e9da64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307180"
 ---
 # <a name="recordsetoptionenum-enumeration-dao"></a>RecordsetOptionEnum 枚举 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-与 **OpenRecordset** 方法一起用来指定新 **Recordset** 对象的特征。
+结合使用 **OpenRecordset** 方法来指定新的 **Recordset** 对象的特征。
 
 <table>
 <colgroup>
@@ -29,7 +29,7 @@ ms.locfileid: "28717277"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>值</p></th>
 <th><p>说明</p></th>
 </tr>
@@ -48,7 +48,7 @@ ms.locfileid: "28717277"
 <tr class="odd">
 <td><p>dbDenyRead</p></td>
 <td><p>2</p></td>
-<td><p>防止其他用户读取记录集记录 （仅限表类型）。</p></td>
+<td><p>禁止其他用户读取记录集记录（仅适用于表类型）。</p></td>
 </tr>
 <tr class="even">
 <td><p>dbDenyWrite</p></td>
@@ -56,7 +56,7 @@ ms.locfileid: "28717277"
 <td><p>禁止其他用户更改记录集记录。</p></td>
 </tr>
 <tr class="odd">
-<td><p>一设置</p></td>
+<td><p>dbExecDirect</p></td>
 <td><p>2048</p></td>
 <td><p>在不首先调用 SQLPrepare ODBC 函数的情况下执行查询。</p></td>
 </tr>

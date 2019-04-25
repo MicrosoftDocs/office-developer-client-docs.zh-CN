@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 19999159f7987be87031f88d1eec87980585f369
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284516"
 ---
 # <a name="recordset-object-dao"></a>Recordset 对象 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Recordset** 对象代表基表中的记录或通过运行查询得到的记录。
+**Recordset** 对象表示基表中的记录或运行查询所生成的记录。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用 **Recordset** 对象在记录级别处理数据库中的数据。使用 DAO 对象时，几乎可以完全使用 **Recordset** 对象处理数据。所有 **Recordset** 对象都是使用记录（行）和字段（列）构建的。共有五种类型的 **Recordset** 对象：
 
@@ -35,13 +35,13 @@ ms.locfileid: "28699742"
 - 动态类型 Recordset - 一个或多个基表中的查询结果集，可以在该基表中添加、更改或删除行返回查询产生的记录。此外，其他用户在基表中添加、删除或编辑的记录也出现在 **Recordset** 中。此类型对应于 ODBC 动态游标（仅适用于 ODBCDirect 工作区）。
 
 > [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
+> Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果希望在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，可使用 ADO。
 
-您可以选择您想要创建使用**OpenRecordset**方法的 type 参数的**Recordset**对象的类型。
+可以使用 **OpenRecordset** 方法的 type 参数选择要创建的 **Recordset** 对象的类型。
 
-在 Microsoft Access 工作区中，如果未指定类型，DAO 尝试创建**Recordset**的类型有可用的大多数功能开头表。 如果此类型不可用，DAO 将尝试动态集类型，其次为快照类型，最后为仅向前类型的 **Recordset** 对象。
+在 Microsoft Access 工作区中，如果不指定类型，DAO 将从表类型开始，尝试创建可用功能最多的 **Recordset** 类型。 如果这种类型不可用，DAO 将首先尝试动态集，然后是快照，最后是仅向前类型 **Recordset** 对象。
 
-在适用于 ODBCDirect 工作区中，如果未指定类型，DAO 尝试使用的最快的查询响应，创建**Recordset**的类型开头仅向前型。 如果此类型不可用，DAO 将尝试快照类型，其次为动态集类型，最后为动态类型的 **Recordset** 对象。
+在 ODBCDirect 工作区中，如果不指定类型，DAO 将从仅向前类型开始，尝试创建查询响应速度最快的 **Recordset** 类型。 如果此类型不可用，DAO 将尝试快照类型，其次为动态集类型，最后为动态类型的 **Recordset** 对象。
 
 使用 Microsoft Access 工作区中的非链接 [**TableDef**](tabledef-object-dao.md) 对象创建 **Recordset** 对象时，将创建表类型 **Recordset** 对象。使用链接表或连接到 Microsoft Access 数据库引擎的 ODBC 数据库中的表只能创建动态集类型或快照类型 **Recordset** 对象。
 
@@ -52,13 +52,13 @@ ms.locfileid: "28699742"
 
 可根据需要创建任意数目的 **Recordset** 对象变量。不同的 **Recordset** 对象可以在不发生冲突的情况下访问相同的表、查询和字段。
 
-动态集类型、 快照和仅向前类型**Recordset**对象存储在本地内存中。 如果本地内存的空间不足以存储数据，Microsoft Access 数据库引擎会将额外的数据保存到 TEMP 磁盘空间。 如果此空间已耗尽，将发生可捕获的错误。
+动态集、快照和仅向前类型 **Recordset** 对象存储在本地内存中。 如果本地内存的空间不足以存储数据，Microsoft Access 数据库引擎会将额外的数据保存到 TEMP 磁盘空间。 如果此空间已耗尽，将发生可捕获的错误。
 
 **Recordset** 对象的默认集合为 **Fields** 集合， **[Field](field-object-dao.md)** 对象的默认属性为 **[Value](field-value-property-dao.md)** 属性。可使用这些默认值简化代码。
 
 在创建 **Recordset** 对象时，如果存在任何记录的话，当前记录将定位到第一条记录。如果不存在任何记录， **RecordCount** 属性设置为 0，并且 **BOF** 和 **EOF** 属性设置为 **True**。
 
-可以使用 **MoveNext**、 **MovePrevious**、 **MoveFirst** 和 **MoveLast** 方法重新定位当前记录。 仅向前类型**Recordset**对象才支持仅**MoveNext**方法。 在使用 Move 方法访问每条记录（或"遍历" **Recordset**）时，可以使用 **BOF** 和 **EOF** 属性检查 **Recordset** 对象的开头或结尾。
+可以使用 **MoveNext**、**MovePrevious**、**MoveFirst** 和 **MoveLast** 方法来将重新定位当前记录。 仅向前类型 **Recordset** 对象只支持 **MoveNext** 方法。 在使用 Move 方法访问每条记录（或"遍历" **Recordset**）时，可以使用 **BOF** 和 **EOF** 属性检查 **Recordset** 对象的开头或结尾。
 
 对于 Microsoft Access 工作区中的动态集类型和快照类型 **Recordset** 对象，还可以使用 Find 方法（例如 **FindFirst**）根据条件查找特定的记录。如果未找到记录， **NoMatch** 属性将设置为 **True**。对于表类型 **Recordset** 对象，可以使用 **Seek** 方法扫描记录。
 
@@ -70,9 +70,9 @@ ms.locfileid: "28699742"
 
 - **Recordsets**(0)
 
-- **记录集**("name")
+- **Recordsets**("name")
 
-- **记录集**\!\[名称\]
+- **Recordsets**\!\[name\]
 
 > [!NOTE]
 > [!注释] 可以多次打开同一个数据源或数据库中的 **Recordset** 对象，并在 **Recordsets** 集合中创建重复的名称。应该将 **Recordset** 对象分配给对象变量，并通过变量名来引用它们。
@@ -231,7 +231,7 @@ ms.locfileid: "28699742"
 
 <br/>
 
-以下示例打开一个动态类型 **Recordset** 对象，然后枚举其记录。
+本示例将打开动态类型 **Recordset** 对象并枚举其记录。
 
 ```vb
     Sub dbOpenDynamicX() 
@@ -281,7 +281,7 @@ ms.locfileid: "28699742"
 
 <br/>
 
-以下示例打开一个动态集类型 **Recordset**，然后显示其字段的可更新程度。
+本示例将打开动态集类型 **Recordset** 并显示其字段可更新的范围。
 
 ```vb
     Sub dbOpenDynasetX() 
@@ -321,7 +321,7 @@ ms.locfileid: "28699742"
 
 <br/>
 
-以下示例打开一个仅向前类型 **Recordset**，演示其只读特征，然后使用 **MoveNext** 方法遍历 **Recordset**。
+本示例将打开仅向前类型 **Recordset**、演示其只读特性，并通过 **MoveNext** 方法在 **Recordset** 中步进。
 
 ```vb 
 Sub dbOpenForwardOnlyX() 
@@ -368,7 +368,7 @@ End Sub
 
 <br/>
 
-以下示例打开一个快照类型 **Recordset**，演示其只读特征。
+本示例将打开快照类型 **Recordset** 并演示其只读特性。
 
 ```vb
     Sub dbOpenSnapshotX() 
@@ -407,7 +407,7 @@ End Sub
 
 <br/>
 
-以下示例打开一个表类型 **Recordset**，并设置其 **Index** 属性，然后枚举其记录。
+本示例将打开表类型 **Recordset**、设置其 **Index** 属性并枚举其记录。
 
 ```vb
     Sub dbOpenTableX() 
@@ -444,9 +444,9 @@ End Sub
 
 <br/>
 
-下面的示例演示如何使用 Seek 方法来查找链接表中的记录。
+以下示例说明如何使用 Seek 方法在链接的表中查找记录。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 
 ```vb
@@ -551,7 +551,7 @@ End Sub
 
 <br/>
 
-下面的示例演示如何使用 FindFirst 和 FindNext 方法在记录集中查找记录。
+以下示例说明如何使用 FindFirst 和 FindNext 方法在 Recordset 中查找记录。
 
 ```vb
     Sub FindOrgName()
@@ -590,7 +590,7 @@ End Sub
 
 <br/>
 
-下面的示例演示如何将查询的结果复制到新的 Microsoft Excel 工作簿中的工作表。
+以下示例说明如何将查询结果复制到新的 Microsoft Excel 工作簿中的工作表。
 
 ```vb
     Public Sub CopyDataFromQuery( _

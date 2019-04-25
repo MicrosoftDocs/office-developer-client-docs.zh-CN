@@ -8,24 +8,24 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 73fac5ff9dd1f5cf277b8cb241044af23609b764
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295364"
 ---
 # <a name="create-view-statement-microsoft-access-sql"></a>CREATE VIEW 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 创建新视图。
 
 > [!NOTE]
-> [!注释] Microsoft Access 数据库引擎不支持对非 Microsoft Access 数据库引擎数据库使用 CREATE VIEW 语句或任何 DDL 语句。
+> Microsoft Access 数据库引擎不支持将 CREATE VIEW 或任何 DDL 语句与非 Microsoft Access 数据库引擎数据库结合使用。
 
 ## <a name="syntax"></a>语法
 
-CREATE VIEW*视图* \[(*field1*\[， *field2*\[，...\] \])\]作为*selectstatement*
+CREATE VIEW *view* \[(*field1*\[, *field2*\[, …\]\])\] AS *selectstatement*
 
 CREATE VIEW 语句包含以下部分：
 
@@ -36,36 +36,37 @@ CREATE VIEW 语句包含以下部分：
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>view</em></p></td>
-<td><p>要新建的视图的名称。</p></td>
+<td><p>要创建的视图的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>field1</em>、<em>field2</em></p></td>
-<td><p><em>selectstatement</em> 中所指定的相应字段的字段名称。</p></td>
+<td><p><em>field1</em>, <em>field2</em></p></td>
+<td><p>
+            <em>selectstatement</em> 中指定的字段的对应字段的名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>selectstatement</em></p></td>
-<td><p>SQL SELECT 语句。 有关详细信息，请参阅<a href="select-statement-microsoft-access-sql.md">SELECT 语句</a>。</p></td>
+<td><p>SQL SELECT 语句。 有关详细信息，请参阅 <a href="select-statement-microsoft-access-sql.md">SELECT 语句</a>。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 定义视图的 SELECT 语句不能是 [SELECT INTO](select-into-statement-microsoft-access-sql.md) 语句。
 
 定义视图的 SELECT 语句不能包含任何参数。
 
-视图的名称不能和现有表的名称相同。
+视图名称不能与现有表的名称相同。
 
-如果可更新的 SELECT 语句定义的查询，视图还会可更新。 否则，视图是只读的。
+如果 SELECT 语句定义的查询可更新，则视图也可更新。 否则视图为只读。
 
-如果 SELECT 语句定义的查询中有任何两个字段同名，那么视图定义必须包括一个字段列表来为查询中的每个字段指定唯一的名称。
+如果 SELECT 语句定义的查询中有任何两个字段具有相同的名称，则视图定义必须包含一个字段列表，该列表为查询中的每个字段指定唯一名称。
 

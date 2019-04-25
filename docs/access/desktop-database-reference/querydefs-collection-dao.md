@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 3543d882e0584c35c88a5475032d9fe5505f516c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303232"
 ---
 # <a name="querydefs-collection-dao"></a>QueryDefs 集合 (DAO)
 
-**适用于**： Access 2013、 Office 2013 
+**适用于**：Access 2013、Office 2013 
 
-**QueryDefs** 集合包含 Microsoft Access 数据库引擎数据库中 **Database** 对象的所有 **QueryDef** 对象。
+**QueryDefs** 集合包含 Microsoft Access 数据库引擎数据库中的 **Database** 对象的所有 **QueryDef** 对象。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-若要创建新的 **QueryDef** 对象，请使用 **CreateQueryDef** 方法。 在 Microsoft Access 工作区中，如果您提供名称参数的字符串或明确将新的**QueryDef**对象的**Name**属性设置为非 – 零长度字符串，您将创建自动将永久**QueryDef**追加到**QueryDefs**集合并保存到磁盘。 提供一个零长度字符串作为名称参数或明确将**名称**属性设置为零长度字符串将导致临时**QueryDef**对象。
+要新建 **QueryDef** 对象，请使用 **CreateQueryDef** 方法。 在 Microsoft Access 工作区中，如果为  name 参数提供了字符串，或者将新的 **QueryDef** 对象的 **Name** 属性显式设置为非零长度字符串，那么将创建一个会自动追加到 **QueryDefs** 集合并保存到磁盘的永久 **QueryDef**。 提供零长度字符串作为  name 参数或将 **Name** 属性显式设置为零长度字符串将导致生成临时的 **QueryDef** 对象。
 
 若要按照序号或 **Name** 属性设置来引用集合中的 **QueryDef** 对象，可以使用下列任何一种语法形式：
 
@@ -30,9 +30,9 @@ ms.locfileid: "28705979"
 
 **QueryDefs**("name")
 
-**QueryDefs**\!\[名称\]
+**QueryDefs**\!\[name\]
 
-只能按分配给临时 **QueryDef** 对象的对象变量来引用这些临时对象。
+仅可以按照分配给临时 **QueryDef** 对象的对象变量引用这些对象。
 
 ## <a name="example"></a>示例
 
@@ -142,9 +142,9 @@ ms.locfileid: "28705979"
 
 <br/>
 
-下面的示例演示如何执行参数查询。 Parameters 集合用于设置 myActionQuery 查询的 Organization 参数之前执行查询。
+以下示例演示如何执行参数查询。 参数集合用于在执行查询前设置 myActionQuery 查询的 Organization 参数。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Public Sub ExecParameterQuery()

@@ -1,5 +1,5 @@
 ---
-title: Access 宏操作 （访问开发人员参考 （英文）
+title: Access 宏操作（Access 开发人员参考）
 TOCTitle: Access macro actions
 ms:assetid: bea73e66-2fd7-41a0-af62-c246c088a2ea
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161227(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: ccf94d51160aebcae8644def4433ace4f369b205
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280620"
 ---
-# <a name="access-macro-actions-access-developer-reference"></a>Access 宏操作 （访问开发人员参考 （英文）
+# <a name="access-macro-actions-access-developer-reference"></a>Access 宏操作（Access 开发人员参考）
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 - [ADP 对象](adp-objects.md)
 - [数据操作](data-actions.md)

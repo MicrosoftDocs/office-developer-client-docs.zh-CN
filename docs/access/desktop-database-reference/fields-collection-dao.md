@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: d87d1535afeaf0740627a7af3852b1929a0e6d50
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292529"
 ---
 # <a name="fields-collection-dao"></a>Fields 集合 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Fields** 集合包含 **Index**、 **QueryDef**、 **Recordset**、 **Relation** 或 **TableDef** 对象的所有存储的 **Field** 对象。
+**Fields** 集合包含 **Index**、**QueryDef**、**Recordset**、**Relation** 或 **TableDef** 对象的所有存储 **Field** 对象。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **Index**、 **QueryDef**、 **Relation** 和 **TableDef** 对象的 **Fields** 集合包含这些对象代表的字段的规范。 **Recordset** 对象的 **Fields** 集合代表数据行中或记录中的 **Field** 对象。可使用 **Recordset** 对象中的 **Field** 对象读取和设置 **Recordset** 对象的当前记录中的字段的值。
 
@@ -29,9 +29,9 @@ ms.locfileid: "28713280"
 
 **Fields**(0)
 
-**字段**("name")
+**Fields**("name")
 
-**字段**\!\[名称\]
+**Fields**\!\[name\]
 
 还可以使用相同的语法形式，引用创建并追加到 **Fields** 集合中的 **Field** 对象的 **Value** 属性。字段引用的上下文将确定引用的是 **Field** 对象还是 **Field** 对象的 **Value** 属性。
 

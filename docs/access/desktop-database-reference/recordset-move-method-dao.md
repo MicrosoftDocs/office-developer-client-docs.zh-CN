@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 1f10b5b779141189f114e420b3f7d4827e701161
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284797"
 ---
 # <a name="recordsetmove-method-dao"></a>Recordset.Move 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-移动 **[Recordset](recordset-object-dao.md)** 对象中的当前记录的位置。
+移动 **[Recordset](recordset-object-dao.md)** 对象中当前记录的位置。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。移动 （***行***、 ***StartBookmark***）
+*表达式* .Move(***Rows***, ***StartBookmark***)
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式* 一个表示 **Recordset** 对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28709660"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -52,19 +52,19 @@ ms.locfileid: "28709660"
 <td><p><em>Rows</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>位置移动的行数。如果 rows 大于 0，则位置向前移（向文件的末尾处移动）。如果 rows 小于 0，则位置向后移（向文件的开头处移动）。</p></td>
+<td><p>位置移动的行数。 如果行数大于 0，则向前移动位置（朝着文件末尾移动）。 如果行数小于 0，则向后移动位置（朝着文件开头移动）。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>StartBookmark</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>一个标识书签的值。如果指定了 startbookmark，则相对于此书签开始移动。否则，从当前记录开始移动。</p></td>
+<td><p>一个用于标识书签的值。 如果指定 StartBookmark，则会相对此书签开始移动。 否则，从当前记录开始移动。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果使用 **Move** 将当前记录指针定位在第一条记录之前，当前记录指针将移到文件的开头。如果 **Recordset** 不包含记录，并且它的 **[BOF](recordset-bof-property-dao.md)** 属性为 **True**，则使用此方法后移会导致错误。
 

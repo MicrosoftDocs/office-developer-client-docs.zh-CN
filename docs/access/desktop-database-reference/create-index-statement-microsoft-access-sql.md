@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 46bc0a50e31555189c069e0ee09c4c84349c04c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295427"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>CREATE INDEX 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-对现有表创建一个新索引。
+对现有表创建新索引。
 
 > [!NOTE]
-> 对于 Microsoft Access 数据库引擎数据库，Microsoft Access 数据库引擎不支持使用 CREATE INDEX （除以创建一个 ODBC 链接表伪索引） 或任何数据定义语言 (DDL) 语句。 而是使用 DAO**创建**方法。 有关详细信息，请参阅"备注"部分。
+> [!注释] 对于非 Microsoft Access 数据库引擎的数据库，Microsoft Access 数据库引擎不支持使用 CREATE INDEX 语句（除了对 ODBC 链接表创建伪索引外）或者任何数据定义语言 (DDL) 语句。 请改为使用 DAO **Create** 方法。 有关详细信息，请参阅"备注"部分。
 
 ## <a name="syntax"></a>语法
 
-创建\[唯一\]索引*索引*ON*表*(*域* \[ASC |DESC\]\[，*字段* \[ASC |DESC\]，...\]) \[WITH {主 |不允许 NULL |忽略 NULL}\]
+CREATE \[ UNIQUE \] INDEX *index* ON *table* (*field* \[ASC|DESC\]\[, *field* \[ASC|DESC\], …\]) \[WITH { PRIMARY | DISALLOW NULL | IGNORE NULL }\]
 
 CREATE INDEX 语句包含以下部分：
 
@@ -40,18 +40,18 @@ CREATE INDEX 语句包含以下部分：
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>index</em></p></td>
-<td><p>将要创建的索引的名称。</p></td>
+<td><p>要创建的索引的名称。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>table</em></p></td>
-<td><p>将包含该索引的现有表的名称。</p></td>
+<td><p>将包含索引的现有表的名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>field</em></p></td>
@@ -61,24 +61,24 @@ CREATE INDEX 语句包含以下部分：
 </table>
 
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-若要禁止在不同记录的被索引字段中的值重复，请使用 UNIQUE 保留字。
+若要禁止不同记录的索引字段中出现重复值，请使用 UNIQUE 保留字。
 
-在与子句可选，您可以实施数据验证规则。 您可以：
+在可选的 WITH 子句中，可以强制执行数据验证规则。 您可以进行以下操作：
 
-- 使用 DISALLOW NULL 选项，以禁止在新记录的被索引字段中出现 Null 条目。
+- 通过使用 DISALLOW NULL 选项禁止新纪录的索引字段中使用 Null 项。
 
-- 使用 IGNORE NULL 选项，以防止被索引字段中含有 **NULL** 值的记录被包含在索引中。
+- 通过使用 IGNORE NULL 选项防止索引字段值为 **Null** 的记录包含在索引中。
 
 - 使用 PRIMARY 保留字，将被索引字段指定为主键。这意味着该键是唯一的，所以可以省略 UNIQUE 保留字。
 
-CREATE INDEX 用于 ODBC 数据源，例如 Microsoft SQL Server，尚不具有索引中的链接表上创建伪索引。 创建伪索引不需要得到授权或者访问远程服务器，并且远程数据库不知情也不会受伪索引的影响。 可以对链接表或本地表使用相同的语法。 对通常为只读的表创建伪索引会很有用。
+可以使用 CREATE INDEX 对 ODBC 数据源（如 Microsoft SQL Server）中不包含索引的链接表创建伪索引。 不需要针对远程服务器的权限或访问权限即可创建伪索引，远程数据库不会觉察到伪索引且不受其影响。 对链接表和本地表使用相同的语法。 对通常为只读状态的表创建伪索引非常有用。
 
 也可以使用 [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) 语句向表中添加单字段索引或多字段索引，还可以使用 ALTER TABLE 语句或 [DROP](drop-statement-microsoft-access-sql.md) 语句删除用 ALTER TABLE 或 CREATE INDEX 语句创建的索引。
 
 > [!NOTE]
-> [!注释] 如果对已包含主键的表创建一个新索引，请不要使用 PRIMARY 保留字；如果这样做，就会产生错误。
+> 对已有主键的表创建新索引时，请勿使用 PRIMARY 保留字；这样做会出现错误。
 
 ## <a name="example"></a>示例
 

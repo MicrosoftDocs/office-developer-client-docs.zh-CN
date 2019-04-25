@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a25e980660e1ab098d15b66b17678ef4111ee215
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307229"
 ---
 # <a name="recordset2-object-dao"></a>Recordset2 对象 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Recordset2** 对象代表基表中的记录或通过运行查询得到的记录。
+**Recordset2** 对象表示基表中的记录或运行查询所生成的记录。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **Recordset2** 对象包含所有与 **[Recordset](recordset-object-dao.md)** 对象相同的属性和方法，并且 **Recordset2** 对象还包含一个支持多值字段类型的新属性： **[ParentRecordset](recordset2-parentrecordset-property-dao.md)** 。
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何导航记录集包含一个多值字段。
+以下示例演示如何导航包含多值字段的 Recordset。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -92,7 +92,7 @@ ms.locfileid: "28718341"
 
 <br/>
 
-下面的示例演示如何导航附件字段中的文件。 在即时窗口中打印的文件类型和每个附件的文件名。
+以下示例显示如何导航附件字段中的文件。 每个附件的文件类型和文件名在 Immediate 窗口中输出。
 
 ```vb
     Sub ListAttachments()
@@ -142,7 +142,7 @@ ms.locfileid: "28718341"
 
 <br/>
 
-下面的示例演示如何将文件从指定的文件夹路径添加到附件字段。
+以下示例演示如何将文件从指定的文件夹路径添加到附件字段。
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -199,7 +199,7 @@ ms.locfileid: "28718341"
 
 <br/>
 
-下面的示例演示如何将保存到指定的文件夹路径附件字段中存储的文件。
+以下示例演示如何将存储在附件字段中的文件保存到指定的文件夹路径。
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -255,7 +255,7 @@ ms.locfileid: "28718341"
 
 <br/>
 
-下面的示例演示如何删除附件字段中存储的文件。
+以下示例演示如何删除存储在附件字段中的文件。
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

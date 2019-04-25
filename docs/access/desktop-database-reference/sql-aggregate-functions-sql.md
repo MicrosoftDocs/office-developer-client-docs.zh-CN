@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: fdfcc9be363e2338a8889dbde4f56d56fce5eb67
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306431"
 ---
 # <a name="sql-aggregate-functions-sql"></a>SQL 聚合函数 (SQL)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 通过使用 SQL 聚合函数，可以确定数值集合的各种统计值。可以在 **QueryDef** 对象的 **SQL** 属性中的查询和聚合表达式内使用这些函数，或者在基于 SQL 查询创建 **Recordset** 对象时使用这些函数。
 

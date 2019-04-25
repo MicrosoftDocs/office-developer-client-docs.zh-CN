@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 73bb48db5b47ff1824e962ac44324a17ae0636ad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294833"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Database.OpenRecordset 方法 (DAO)
 
-**适用于：** Access 2013 |Office 2013
+**适用于**：Access 2013 | Office 2013
 
 创建一个新的 **[Recordset](recordset-object-dao.md)** 对象，并将其追加到 **Recordsets** 集合。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。OpenRecordset （_**名称**_、_**类型**_、_**选项**_、 _**LockEdit**_）
+*表达式* .OpenRecordset(_**Name**_, _**Type**_, _**Options**_, _**LockEdit**_)
 
-*表达式*一个代表**Database**对象的变量。
+*表达式* 一个代表 **Database** 对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -52,27 +52,33 @@ ms.locfileid: "28707680"
 <td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>新的 <strong>Recordset</strong> 的记录源。该源可能是表名、查询名或返回记录的 SQL 语句。对于 Microsoft Access 数据库引擎数据库中的表类型 <strong>Recordset</strong> 对象，该源只能是表名。  </p></td>
+<td><p>新的 <strong>Recordset</strong> 的记录源。该源可能是表名、查询名或返回记录的 SQL 语句。对于 Microsoft Access 数据库引擎数据库中的表类型 <strong>Recordset</strong> 对象，该源只能是表名。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Type</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> 常量，可指示要打开的 <strong>Recordset</strong> 的类型。</p><p><strong>注意</strong>： 如果在 Microsoft Access 工作区中打开<strong>Recordset</strong>时未指定类型， <strong>OpenRecordset</strong>创建表类型<strong>Recordset</strong>，如果可能。 如果您指定的链接的表或查询， <strong>OpenRecordset</strong>创建动态集类型<strong>Recordset</strong>。</p>
+<td><p>
+            <strong>
+            <a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> 常量，可指示要打开的 <strong>Recordset</strong> 的类型。</p><p><strong>注意</strong>：如果在 Microsoft Access 工作区中打开 <strong>Recordset</strong>，并且不指定类型，<strong>OpenRecordset</strong> 会创建一个表类型 <strong>Recordset</strong>（如果可以）。 If you specify a linked table or query, <strong>OpenRecordset</strong> creates a dynaset-type <strong>Recordset</strong>.</p>
 </td>
 </tr>
 <tr class="odd">
-<td><p><em>Options</em></p></td>
+<td><p><em>选项</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> 常量的组合，可指定新 <strong>Recordset</strong> 的特性。</p><p><strong>注意</strong>： 常量<strong>dbConsistent</strong>和<strong>dbInconsistent</strong>是互斥的并且在同时使用将导致出错。 提供 LockEdit 实参，当选项使用<strong>dbReadOnly</strong>常量还会导致错误。</p>
+<td><p>
+            <strong>
+            <a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> 常量的组合，可指定新 <strong>Recordset</strong> 的特性。</p><p><strong>注意</strong>：常量 <strong>dbConsistent</strong> 和 <strong>dbInconsistent</strong> 相互排斥，同时使用两者会产生错误。 当 Options 使用 <strong>dbReadOnly</strong> 常量时提供 LockEdit 参数也会导致错误。</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><em>LockEdit</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> 常量，可确定 <strong>Recordset</strong> 是否锁定。</p><p><strong>注意</strong>： 您可以使用<strong>dbReadOnly</strong> Options 参数或 LockedEdit 参数，但不是能同时中。 如果您使用它为两个参数，将发生运行时错误。</p>
+<td><p>
+            <strong>
+            <a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> 常量，可确定 <strong>Recordset</strong> 是否锁定。</p><p><strong>注意</strong>：可以在 Options 参数或 LockedEdit 参数中使用 <strong>dbReadOnly</strong>，但不能同时在两个参数中使用。 如果将其同时用于这两个参数，将出现运行时错误。</p>
 </td>
 </tr>
 </tbody>
@@ -91,13 +97,13 @@ Recordset
 
 对一个 ODBC 数据源打开多个 **Recordset** 可能会失败，因为连接正被 **OpenRecordset** 调用占用。解决此问题的一种方法是在打开 **Recordset** 后立即使用 **MoveLast** 方法，以完全填充 **Recordset**。
 
-使用 [**Close**](connection-close-method-dao.md) 方法关闭 **Recordset** 会自动从 **Recordsets** 集合中将其删除。
+使用 **[Close](connection-close-method-dao.md)** 方法关闭 **Recordset** 会自动从 **Recordsets** 集合中将其删除。
 
 
 > [!NOTE]
-> 如果*源*是指的 SQL 语句组成非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strSQL ="价格&gt;" &amp; lngPrice，和 lngPrice =125,50)，当您尝试打开**Recordset**时就会出错。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 SQL 只接受美国格式的小数字符。
+> 如果*源*引用了一个由连接了非整数值的字符串组成的 SQL 语句，并且系统参数指定了诸如逗号的非美国格式小数字符（例如 strSQL = "PRICE &gt; " &amp; lngPrice 和 lngPrice = 125,50），那么在尝试打开 **Recordset** 时会发生错误。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 SQL 只接受美国格式的小数字符。
 
-**链接提供** [UtterAccess](https://www.utteraccess.com)社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
+**链接提供者：**[UtterAccess](https://www.utteraccess.com) 社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
 
 - [将数据从 Access 传输到 Excel](https://www.utteraccess.com/forum/transfer-data-access-ex-t1672619.html)
 
@@ -105,7 +111,7 @@ Recordset
 
 以下示例说明如何打开基于参数查询的 Recordset。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Dim dbs As DAO.Database

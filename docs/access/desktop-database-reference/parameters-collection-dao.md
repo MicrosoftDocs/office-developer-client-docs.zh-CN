@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 09f60cb8dde407aacbb19e6b2124151dbbf9b3c5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287893"
 ---
 # <a name="parameters-collection-dao"></a>Parameters 集合 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Parameters** 集合包含 **QueryDef** 对象的所有 **Parameter** 对象。
+**Parameters** 集合包含 **QueryDef** 对象所有 **Parameter** 对象。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-**Parameters** 集合仅提供有关现有参数的信息。您不能向 **Parameters** 集合追加对象或从中删除对象。
+**Parameters** 集合仅提供有关现有参数的信息。 您不能向 **Parameters** 集合追加对象或从中删除对象。
 
 ## <a name="example"></a>示例
 
@@ -94,9 +94,9 @@ ms.locfileid: "28721743"
 
 <br/>
 
-下面的示例演示如何创建参数查询。 两个参数，名为 Param1 和 Param2 创建名为**myQuery**的查询。 若要执行此操作，查询的 SQL 属性设置为定义的参数的结构化查询语言 (SQL) 语句。
+以下示例说明如何创建参数查询。 名为 **myQuery** 的查询通过两个参数（命名为 Param1 和 Param2）创建而成。 为此，该查询的 SQL 属性设置为定义参数的结构化查询语言 (SQL) 语句。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Sub CreateQueryWithParameters()
@@ -123,7 +123,7 @@ ms.locfileid: "28721743"
 
 <br/>
 
-下面的示例演示如何执行参数查询。 Parameters 集合用于设置 myActionQuery 查询的 Organization 参数之前执行查询。
+以下示例说明如何执行参数查询。 Parameters 集合用于在执行查询前设置 myActionQuery 查询的 Organization 参数。
 
 ```vb
     Public Sub ExecParameterQuery()

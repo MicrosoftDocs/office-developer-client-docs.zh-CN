@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c19ef8ab8ef2e937ba7467b3695f9aa5780c21c0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294979"
 ---
 # <a name="databasecreatequerydef-method-dao"></a>Database.CreateQueryDef 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-创建新的 **[QueryDef](querydef-object-dao.md)** 对象。
+创建一个新的 **[QueryDef](querydef-object-dao.md)** 对象。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。CreateQueryDef （***名称***、 ***SQLText***）
+*表达式* .CreateQueryDef(***Name***, ***SQLText***)
 
-*表达式*一个代表**Database**对象的变量。
+*表达式* 一个代表 **Database** 对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ ms.locfileid: "28711110"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -48,13 +48,13 @@ ms.locfileid: "28711110"
 <td><p><em>Name</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>对新的 <strong>QueryDef</strong> 进行唯一命名的 <strong>Variant</strong>（<strong>String</strong> 子类型）。</p></td>
+<td><p>一个<strong>变量</strong>（<strong>String</strong> 子类型），它唯一命名新的 <strong>QueryDef</strong>。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>SQLText</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型）类型的值，它是一个定义 <strong>QueryDef</strong> 的 SQL 语句。如果省略此参数，则可以通过在将 <strong>QueryDef</strong> 追加到集合之前或之后设置它的 <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> 属性对其进行定义。</p></td>
+<td><p>一个<strong>变量</strong>（<strong>String</strong> 子类型），它是定义 <strong>QueryDef</strong> 的 SQL 语句。 如果省略此参数，则可以通过在将 <strong>QueryDef</strong> 追加到集合之前或之后设置它的 <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> 属性对其进行定义。</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,13 +64,13 @@ ms.locfileid: "28711110"
 
 QueryDef
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在 Microsoft Access 工作区中，如果在创建 **QueryDef** 时为名称提供了除零长度字符串之外的信息，产生的 **QueryDef** 对象将自动追加到 **[QueryDefs](querydefs-collection-dao.md)** 集合。
 
-如果按名称指定的对象已**QueryDefs**集合的成员，将发生运行时错误。 您可以通过执行**CreateQueryDef**方法时的名称参数使用一个零长度字符串创建临时**QueryDef** 。 还可以通过将新建的 [QueryDef](querydef-name-property-dao.md) 的 ****Name**** 属性设置为零长度字符串 ("") 来完成此操作。 
+如果由名称指定的对象已经是 **QueryDefs** 集合的成员，则会发生运行时错误。 可以创建临时 **QueryDef**，方法是在执行 **CreateQueryDef** 方法时，将零长度字符串用于名称参数。 还可以通过将新建的 **QueryDef** 的 **[Name](querydef-name-property-dao.md)** 属性设置为零长度字符串 ("") 来完成此操作。 
 
-如果您希望反复使用动态 SQL 语句，且不必在 **QueryDefs** 集合中创建任何新的永久对象，则使用临时的 **QueryDef** 对象十分有帮助。 不能将临时的 **QueryDef** 追加到任何集合，因为零长度字符串对永久的 **QueryDef** 对象来说是无效名称。 始终可以设置新建 **QueryDef** 的 **Name** 和 **SQL** 属性，然后将 **QueryDef** 追加到 **QueryDefs** 集合。
+如果您希望反复使用动态 SQL 语句，且不必在 **QueryDefs** 集合中创建任何新的永久对象，则使用临时的 **QueryDef** 对象十分有帮助。 不能将临时 **QueryDef** 追加到任何集合，因为零长度字符串不是永久 **QueryDef** 对象的有效名称。 始终可以设置新建 **QueryDef** 的 **Name** 和 **SQL** 属性，然后将 **QueryDef** 追加到 **QueryDefs** 集合。
 
 若要在 **QueryDef** 对象中运行 SQL 语句，请使用 **[Execute](querydef-execute-method-dao.md)** 或 **[OpenRecordset](database-openrecordset-method-dao.md)** 方法。
 
@@ -203,9 +203,9 @@ End Sub
 
 <br/>
 
-下面的示例演示如何创建参数查询。 两个参数，名为 Param1 和 Param2 创建名为**myQuery**的查询。 若要执行此操作，查询的 SQL 属性设置为定义的参数的结构化查询语言 (SQL) 语句。
+以下示例演示如何创建参数查询。 名为 **myQuery** 的查询通过两个参数（命名为 Param1 和 Param2）创建。 要执行此操作，查询的 SQL 属性设置为定义参数的结构化查询语言 (SQL) 语句。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Sub CreateQueryWithParameters()
