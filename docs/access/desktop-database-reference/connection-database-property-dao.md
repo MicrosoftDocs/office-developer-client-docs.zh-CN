@@ -12,28 +12,28 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 7033c612642aa3ae6ce6c6175560438c893cde6d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295917"
 ---
 # <a name="connectiondatabase-property-dao"></a>Connection.Database 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 
 ## <a name="syntax"></a>语法
 
-*表达式*。数据库
+*表达式* .Database
 
-*表达式*代表**Connection**对象的变量。
+*表达式* 一个表示 **Connection** 对象的变量。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-对于 **[Connection](connection-object-dao.md)** 对象，使用 **Database** 属性可以获取指向对应于 **Connection** 的 **Database** 对象的引用。在 DAO 中， **Connection** 对象及其对应的 **Database** 对象只是指向相同对象的两个不同的对象变量引用。使用 **Connection** 对象的 **Database** 属性和 [Database](database-connection-property-dao.md) 对象的 ****Connection**** 属性可以更轻松地将通过 Microsoft Access 数据库引擎与 ODBC 数据源建立的连接更改为使用 ODBCDirect。
+对于 **[Connection](connection-object-dao.md)** 对象，使用 **Database** 属性可以获取指向对应于 **Connection** 的 **Database** 对象的引用。 在 DAO 中，**Connection** 对象及其对应的 **Database** 对象只是对同一对象的两个不同对象变量引用。 使用 **Connection** 对象的 **Database** 属性和 **Database** 对象的 **[Connection](database-connection-property-dao.md)** 属性可以更轻松地将通过 Microsoft Access 数据库引擎与 ODBC 数据源建立的连接更改为使用 ODBCDirect。
 
 ## <a name="example"></a>示例
 

@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c23772c54f2f980b8d10d4afc352687935840752
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707785"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294834"
 ---
 # <a name="database-object-dao"></a>Database 对象 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Database** 对象代表打开的数据库。
+**Database** 对象表示打开的数据库。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可使用 **Database** 对象及其方法和属性处理打开的数据库。在任何类型的数据库中，您可以进行下列操作：
 
@@ -60,7 +60,7 @@ ms.locfileid: "28707785"
 
 如果已执行声明 **Database** 对象的过程，本地 **Database** 对象将连同任何打开的 **Recordset** 对象一起关闭。任何待定的更新都会丢失，同时任何待定的事务都将回滚，但是不发生可捕获的错误。应显式完成任何待定的事务或编辑，再关闭 **Recordset** 对象和 **Database** 对象，然后退出在本地声明这些对象变量的过程。
 
-如果对 **Workspace** 对象使用事务方法（**BeginTrans**、**CommitTrans** 或 **Rollback**）之一，那么这些事务可应用到在 **Workspace**（从其中打开了 **Database** 对象）上打开的所有数据库。如果需要使用独立的事务，首先必须打开一个额外的 **Workspace** 对象，然后打开该 **Workspace** 对象中的另一个 **Database** 对象。
+如果对 **Workspace** 对象使用事务方法（**BeginTrans**、**CommitTrans** 或 **Rollback**）之一，那么这些事务可应用到在 **Workspace**（从其中打开了 **Database** 对象）上打开的所有数据库。 如果需要使用独立的事务，首先必须打开一个额外的 **Workspace** 对象，然后打开该 **Workspace** 对象中的另一个 **Database** 对象。
 
 
 > [!NOTE]

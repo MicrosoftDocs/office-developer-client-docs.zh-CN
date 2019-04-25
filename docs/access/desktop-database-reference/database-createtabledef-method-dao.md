@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c986f0a96c14dac8a9ee4f3c7fded5a049fa451e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294944"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-创建一个新的 **[TableDef](tabledef-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。
+创建一个新的 **[TableDef](tabledef-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区） 。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。CreateTableDef （***名称***、***属性***、 ***SourceTableName***、***连接***）
+*表达式* .CreateTableDef(***Name***, ***Attributes***, ***SourceTableName***, ***Connect***)
 
-*表达式*一个代表**Database**对象的变量。
+*表达式* 一个表示 **Database** 对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -52,25 +52,25 @@ ms.locfileid: "28718488"
 <td><p><em>Name</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于对新的 <strong>TableDef</strong> 对象进行唯一命名。有关有效 <strong>TableDef</strong> 名称的详细信息，请参阅 <strong><a href="tabledef-name-property-dao.md">Name</a></strong> 属性。</p></td>
+<td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于唯一指定新的 <strong>TableDef</strong> 对象。 有关有效 <strong>TableDef</strong> 名称的详细信息，请参阅 <strong><a href="tabledef-name-property-dao.md">Name</a></strong> 属性。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Attributes</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>一个常量或常量组合，指示新的 <strong>TableDef</strong> 对象的一个或多个特征。有关详细信息，请参阅 <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> 属性。</p></td>
+<td><p>一个常量或常量组合，用于表示新的 <strong>TableDef</strong> 对象的一个或多个特性。 有关详细信息，请参阅 <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> 属性。</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>SourceTableName</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），包含作为数据原始来源的外部数据库中的表名。source 字符串成为新的 <strong>TableDef</strong> 对象的 <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> 属性设置。</p></td>
+<td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），包含作为数据原始来源的外部数据库中表的名称。 源字符串将成为新的 <strong>TableDef</strong> 对象的 <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> 属性设置。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），包含有关打开数据库（在传递查询或链接表中使用的数据库）的源的信息。有关有效的连接字符串的详细信息，请参阅 <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> 属性。</p></td>
+<td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），包含有关打开数据库（在传递查询或链接表中使用的数据库）的源的信息。 有关有效的连接字符串的详细信息，请参阅 <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> 属性。</p></td>
 </tr>
 </tbody>
 </table>
@@ -80,17 +80,17 @@ ms.locfileid: "28718488"
 
 TableDef
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果使用 **CreateTableDef** 方法时省略了一个或多个可选部分，则可以在将新对象追加到集合之前，使用适当的赋值语句设置或重置相应的属性。追加对象后，可以改动此对象的某些（但不是所有）属性。有关详细信息，请参阅各个属性主题。
 
-如果名称引用已经是集合成员的对象或要追加的**TableDef**或**[Field](field-object-dao.md)** 对象中指定无效的属性，当您使用**[Append](tabledefs-append-method-dao.md)** 方法时，发生此事件运行时错误。 另外，除非为 **TableDef** 对象定义了至少一个 **Field**，否则不能将 **TableDef** 对象追加到 **TableDefs** 集合。
+如果 Name 引用一个已经是集合成员的对象，或者如果在要追加的 **TableDef** 或 **[Field](field-object-dao.md)** 对象中指定无效的属性，则使用 **[Append](tabledefs-append-method-dao.md)** 方法时将发生运行时错误。 另外，除非为 **TableDef** 对象定义了至少一个 **Field**，否则不能将 **TableDef** 对象追加到 **TableDefs** 集合。
 
 若要从 [**TableDefs**](tabledefs-collection-dao.md) 集合中删除 **TableDef** 对象，请对集合使用 **[Delete](tabledefs-delete-method-dao.md)** 方法。
 
 ## <a name="example"></a>示例
 
-以下示例在 Northwind 数据库中创建一个新的 **TableDef** 对象。
+此示例将在 Northwind 数据库中新建一个 **TableDef** 对象。
 
 ```vb
     Sub CreateTableDefX() 

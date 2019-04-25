@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 479eff80d25279a1c5e918a3b639443ad3b25c6c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703683"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294272"
 ---
 # <a name="dbengine-object-dao"></a>DBEngine 对象 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**DBEngine** 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
+**DBEngine** 对象是 DAO 对象模型中的顶级对象。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DBEngine** 对象包含和控制 DAO 对象层次结构中的所有其他对象。不能创建额外的 **DBEngine** 对象，并且 **DBEngine** 对象不是任何集合的元素。
 
@@ -54,7 +54,7 @@ ms.locfileid: "28703683"
 
 要引用一个属于 **DBEngine** 对象的集合，或引用一个应用到该对象的方法或属性，请使用以下语法：
 
-\[**DBEngine**。\]\[集合 |方法 |属性\]
+\[**DBEngine**.\]\[collection | method | property\]
 
 ## <a name="example"></a>示例
 

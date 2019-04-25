@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 296e1405245d6204d136888e78b6a3846b468a1f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295357"
 ---
 # <a name="create-table-statement-microsoft-access-sql"></a>CREATE TABLE 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-新建一个表。
+创建一个新表。
 
 > [!NOTE]
-> [!注释] Microsoft Access 数据库引擎不支持对非 Microsoft Access 数据库引擎数据库使用 CREATE TABLE 或者任何 DDL 语句。 而是使用 DAO**创建**方法。
+> Microsoft Access 数据库引擎不支持将 CREATE TABLE 或任何 DDL 语句与非 Microsoft Access 数据库引擎数据库结合使用。 请改用 DAO **Create** 方法。
 
 ## <a name="syntax"></a>语法
 
-创建\[临时\]表*表*(*field1 type* \[（*大小*）\] \[NOT NULL\] \[WITH COMPRESSION |与 COMP\] \[ *index1* \] \[， *field2* *类型* \[（*大小*）\] \[NOT NULL\] \[ *index2* \] \[，...\] \] \[，CONSTRAINT *multifieldindex* \[，...\]\])
+CREATE \[TEMPORARY\] TABLE *table* (*field1 type* \[(*size*)\] \[NOT NULL\] \[WITH COMPRESSION | WITH COMP\] \[*index1*\] \[, *field2* *type* \[(*size*)\] \[NOT NULL\] \[*index2*\] \[, …\]\] \[, CONSTRAINT *multifieldindex* \[, …\]\])
 
 CREATE TABLE 语句包含以下部分：
 
@@ -40,7 +40,7 @@ CREATE TABLE 语句包含以下部分：
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -50,24 +50,24 @@ CREATE TABLE 语句包含以下部分：
 <td><p>要创建的表的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>field1</em>、<em>field2</em></p></td>
-<td><p>要在新表中创建的字段的名称。必须创建至少一个字段。</p></td>
+<td><p><em>field1</em>, <em>field2</em></p></td>
+<td><p>字段或要在新表中创建的字段的名称。必须至少创建一个字段。</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>type</em></p></td>
-<td><p>在新表中 <em>field</em> 的数据类型。</p></td>
+<td><p>新表中<em>字段</em>的数据类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>size</em></p></td>
 <td><p>以字符为单位的字段大小（仅限于文本和二进制字段）。</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>index1</em>、<em>index2</em></p></td>
-<td><p>CONSTRAINT 子句定义单字段索引。 有关如何创建此索引的详细信息，请参阅<a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT 子句</a>。</p></td>
+<td><p><em>index1</em>, <em>index2</em></p></td>
+<td><p>定义单字段索引的 CONSTRAINT 子句。 有关如何创建此索引的详细信息，请参阅 <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT 子句</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>multifieldindex</em></p></td>
-<td><p>CONSTRAINT 子句定义多字段索引。 有关如何创建此索引的详细信息，请参阅<a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT 子句</a>。</p></td>
+<td><p>定义多字段索引的 CONSTRAINT 子句。 有关如何创建此索引的详细信息，请参阅 <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT 子句</a>。</p></td>
 </tr>
 </tbody>
 </table>
@@ -75,19 +75,19 @@ CREATE TABLE 语句包含以下部分：
 
 ## <a name="remarks"></a>说明
 
-使用 CREATE TABLE 语句可以定义一个新表及其字段和字段约束。 如果没有为字段指定 NULL，新记录所需的字段中具有有效的数据。
+使用 CREATE TABLE 语句定义新表以及其字段和字段约束。 如果对字段指定了 NOT NULL，则新记录必须包含该字段的有效数据。
 
 CONSTRAINT 子句可建立对字段的各种约束，并且可用于建立主键。也可以使用 [CREATE INDEX](create-index-statement-microsoft-access-sql.md) 语句对现有表创建主键或其他索引。
 
-在一个字段或一个名为 CONSTRAINT 的子句中可以使用 NOT NULL，该子句既可应用于单字段索引，也可应用于名为 CONSTRAINT 的多字段索引。但是，NOT NULL 限制一次只能应用于一个字段。多次应用此限制将导致运行时错误。
+可以对单个字段或在应用于单个字段或多字段的命名 CONSTRAINT 的命名 CONSTRAINT 子句中使用 NOT NULL。但是，仅可以对字段应用一次 NOT NULL 限制。尝试多次应用此限制将造成运行时错误。
 
-创建一个临时表后，它是可见的仅在其中创建会话中。 当会话终止时，该表会被自动删除。 临时表能够被多个用户访问。
+创建 TEMPORARY 表时，该表只能在创建它的会话中可见。 在会话终止后它会被自动删除。 临时表可由多名用户访问。
 
-WITH COMPRESSION 属性只能用于 CHARACTER 和 MEMO（也叫做 TEXT）数据类型以及它们的同义词。
+WITH COMPRESSION 特性仅能与 CHARACTER 和 MEMO（也称为 TEXT）数据类型和其同义词结合使用。
 
-由于 Unicode 字符表示格式发生的更改，属性 WITH COMPRESSION 被添加到 CHARACTER 列上。 Unicode 字符中每个字符一律需要两个字节。 对于包含主要用于字符数据的现有 Microsoft Jet 数据库，这可能意味着几乎双数据库文件会转换为 Microsoft Access 数据库引擎格式时的大小。 但是，可以很容易压缩的许多字符集，以前表示为单字节字符设置 (SBCS)，Unicode 表示形式，成一个字节。 如果使用该属性定义 CHARACTER 列，在该列中存储数据时，数据会自动进行压缩；从该列检索数据时，数据会自动解压缩。
+由于 Unicode 字符表示格式的更改，因此已为 CHARACTER 列添加了 WITH COMPRESSION 特性。 Unicode 字符一律需要要求每个字符具有两个字节。 对于主要包含字符数据的现有 Microsoft Jet 数据库，这可能意味着当转换为 Microsoft Access 数据库引擎格式时，数据库文件大小几乎会增大到两倍。 然而，许多以前称为单字节字符集 (SBCS) 的字符集的 Unicode 表示法能够被轻易地压缩成为单字节。 如果使用此属性定义 CHARACTER 列，存储数据时将自动压缩数据，从列中检索数据时则将自动解压。
 
-MEMO 列也能定义为以压缩的格式来存储数据。但是，这样做是有限制的。进行压缩时，只有 MEMO 列实例的大小在 4096 字节以内，它才会被压缩。所有其他 MEMO 列实例仍然保持为未压缩格式。这意味着，对于指定表中的一个给定的 MEMO 列，一些数据可能被压缩，而一些数据则可能是未压缩的。
+也可以定义 MEMO 列以压缩格式存储数据。但是，此操作有一个限制。只有在压缩后的大小在 4096 字节内或更少的 MEMO 列的实例将会被压缩。MEMO 列的其他所有实例将保留为未压缩状态。这意味着在给定表内对于给定的 MEMO 列，一些数据可能会被压缩，而一些则不会被压缩。
 
 ## <a name="example"></a>示例
 

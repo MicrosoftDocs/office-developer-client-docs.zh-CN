@@ -10,45 +10,44 @@ dev_langs:
 - sql
 localization_priority: Priority
 ms.openlocfilehash: f223e164bd36a6a1a76140a28dd57cd2005e4a20
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295400"
 ---
 # <a name="create-procedure-statement-microsoft-access-sql"></a>CREATE PROCEDURE 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013、 Office 2013 
+**适用于**：Access 2013、Office 2013 
 
 创建存储过程。
 
 > [!NOTE]
-> [!注释] Microsoft Access 数据库引擎不支持对非 Microsoft Jet 数据库引擎的数据库使用 CREATE PROCEDURE 语句或者任何 DDL 语句。
+> Microsoft Access 数据库引擎不支持对非 Microsoft Jet 数据库引擎的数据库使用 CREATE PROCEDURE 语句或者任何 DDL 语句。
 
 ## <a name="syntax"></a>语法
 
-CREATE PROCEDURE*过程* \[ *param1 datatype*\[， *param2 datatype*\[，...\] \]为 sqlstatement
+CREATE PROCEDURE *procedure* \[*param1 datatype*\[, *param2 datatype*\[, …\]\] AS sqlstatement
 
 CREATE PROCEDURE 语句包含以下部分：
 
-|部分|说明|
+|Part|说明|
 |:---|:----------|
-|*procedure*|过程名称。它必须遵循标准命名规则。|
-|*param1*、*param2*|1 到 255 个字段名称或参数。例如：
-<br/><br/>`CREATE PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>有关参数的详细信息，请参阅[PARAMETERS](parameters-declaration-microsoft-access-sql.md)。|
-|*数据类型*|主要 [Microsoft Access SQL 数据类型](sql-data-types.md)或其同义词之一。|
-|*sqlstatement*|SQL 语句，如 SELECT、UPDATE、DELETE、INSERT、CREATE TABLE 和 DROP TABLE 等等。|
+|*procedure*|过程的名称。 它必须遵循标准命名规则。|
+|*param1*、*param2*|从 1 到 255 个字段名或参数。 例如：<br/><br/>`CREATE PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>有关参数的详细信息，请参阅 [PARAMETERS](parameters-declaration-microsoft-access-sql.md)。|
+|*datatype*|主要 [Microsoft Access SQL 数据类型](sql-data-types.md)或其同义词之一。|
+|*sqlstatement*|SQL 语句，如 SELECT、UPDATE、DELETE、INSERT、CREATE TABLE、DROP TABLE 等。|
 
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-SQL 过程由用于指定过程名的 PROCEDURE 子句、可选的参数定义列表和一个 SQL 语句组成。
+SQL 过程包含一个 PROCEDURE 子句（该子句指定过程的名称）、参数定义的可选列表和单个 SQL 语句。
 
-过程名不能和现有表的名称相同。
+过程名称不能与现有表的名称相同。
 
 ## <a name="example"></a>示例
 
-本示例将查询命名为 CategoryList，并调用 EnumFields 过程，您可以在 SELECT 语句示例中找到。
+本示例将查询命名为 CategoryList，并调用 EnumFields 过程，您可以在 SELECT 语句示例中找到该过程。
 
 ```vb
     Sub ProcedureX() 

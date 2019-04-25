@@ -14,23 +14,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 6ff2ad40d318801ecec2332b53b41f327c20fbc5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291398"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>INNER JOIN 操作 (Microsoft Access SQL)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
-只要两个表的公共字段有匹配值，就将这两个表中的记录组合起来。
+当通用字段中存在匹配值时从两个表中合并记录。
 
 ## <a name="syntax"></a>语法
 
-从*table1* INNER JOIN *table2*对*表 1*。*field1**compopr table2*。*field2*
+FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr table2*.*field2*
 
 INNER JOIN 操作包含以下部分：
 
@@ -41,14 +41,14 @@ INNER JOIN 操作包含以下部分：
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>table1</em>、<em>table2</em></p></td>
-<td><p>要组合其中记录的表的名称。</p></td>
+<td><p>对其中的记录进行组合的表的名称。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>field1</em>、<em>field2</em></p></td>
@@ -56,7 +56,7 @@ INNER JOIN 操作包含以下部分：
 </tr>
 <tr class="odd">
 <td><p><em>compopr</em></p></td>
-<td><p>任何关系比较运算符： &quot;= 和&quot; &quot; &lt;，&quot; &quot; &gt;，&quot; &quot; &lt;=&quot; &quot; &gt;=&quot;或&quot; &lt; &gt;。&quot;</p></td>
+<td><p>任何关系比较运算符：“=”、“&quot;”、“&quot;”、“&lt;=”、“&gt;=”或“&lt;&gt;”。</p></td>
 </tr>
 </tbody>
 </table>
@@ -68,11 +68,11 @@ INNER JOIN 操作包含以下部分：
 
 可以将 INNER JOIN 用于 Departments 及 Employees 表，以选择每个部门的所有雇员。相反，选择所有部门（即使某些部门中并没有分配雇员）或者所有雇员（即使某些雇员没有分配到任何部门），则可以使用 [LEFT JOIN 或 RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) 操作来创建外部联接。
 
-如果试图联接包含 Memo 或 OLE 对象数据的字段，将产生错误。
+如果尝试联接包含 Memo 或 OLE 对象数据的字段，则会出错。
 
-可以联接任何两个相似类型的数字字段。例如，可以联接自动编号和长整型字段，因为它们均是相似类型。然而，不能联接单精度型和双精度型类型字段。
+可以联接 like 类型的任何两个数值字段。例如，可以联接 AutoNumber 和 Long 字段，因为它们为 like 类型。但是，无法联接 Single 和 Double 类型的字段。
 
-以下示例演示如何通过 CategoryID 字段联接 Categories 和 Products 表：
+以下示例显示如何在 CategoryID 字段上联接“类别”和“产品”表：
 
 ```sql
 SELECT CategoryName, ProductName 
@@ -80,17 +80,17 @@ FROM Categories INNER JOIN Products
 ON Categories.CategoryID = Products.CategoryID;
 ```
 
-在前面的示例中，CategoryID 是联接字段，但是它不包含在查询输出中，因为它不包含在 [SELECT](select-statement-microsoft-access-sql.md) 语句中。 若要包含的联接的字段，包括字段名称的 SELECT 语句中，在此情况下，Categories.CategoryID。
+在前面的示例中，CategoryID 是联接字段，但是它不包含在查询输出中，因为它不包含在 [SELECT](select-statement-microsoft-access-sql.md) 语句中。 若要包含联接字段，请在 SELECT 语句中包含该字段名，在本例中为 Categories.CategoryID。
 
-也可以在 JOIN 语句中链接多个 ON 子句，请使用如下语法：
+也可以使用以下语法在 JOIN 语句中链接一些 ON 子句：
 
-选择*fields* FROM *table1* INNER JOIN *table2* ON *table1*。*field1**compopr**表 2*。*field1*和对*表 1*。*field2**compopr**表 2*。*field2*)或对*表 1*。*field3**compopr**表 2*。*field3*)\];
+SELECT *fields* FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr* *table2*.*field1* AND ON *table1*.*field2* *compopr* *table2*.*field2*) OR ON *table1*.*field3* *compopr* *table2*.*field3*)\];
 
-也可以通过如下语法嵌套 JOIN 语句：
+也可以使用以下语法嵌套 JOIN 语句：
 
-选择*fields* FROM *table1* INNER JOIN (*table2* INNER JOIN \[( \] *table3* \[INNER JOIN \[( \] *tablex* \[INNER JOIN...)\]上*table3*。*field3**compopr**tablex*。*fieldx*)\]上*表 2*。*field2**compopr**table3*。*field3*)对*表 1*。*field1**compopr**表 2*。*field2*;
+SELECT *fields* FROM *table1* INNER JOIN (*table2* INNER JOIN \[( \]*table3* \[INNER JOIN \[( \]*tablex* \[INNER JOIN …)\] ON *table3*.*field3* *compopr* *tablex*.*fieldx*)\] ON *table2*.*field2* *compopr* *table3*.*field3*) ON *table1*.*field1* *compopr* *table2*.*field2*;
 
-LEFT JOIN 或 RIGHT JOIN 可以嵌套在 INNER JOIN 之中，但是 INNER JOIN 不能嵌套于 LEFT JOIN 或 RIGHT JOIN 之中。
+LEFT JOIN 或 RIGHT JOIN 可以嵌套在 INNER JOIN 中，但 INNER JOIN 无法嵌套在 LEFT JOIN 或 RIGHT JOIN 中。
 
 ## <a name="example"></a>示例
 

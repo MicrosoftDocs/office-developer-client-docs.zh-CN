@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 7832be1c02fd7ef9a2de74c20507999ca626e1f2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295091"
 ---
 # <a name="data-definition-language-microsoft-access-sql"></a>数据定义语言 (Microsoft Access SQL)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 - [ADD USER 语句](add-user-statement-microsoft-access-sql.md)
 - [ALTER TABLE 语句](alter-table-statement-microsoft-access-sql.md)

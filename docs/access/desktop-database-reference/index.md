@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 8d34553c4229c8ad737853439342a24ed3afd181
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291683"
 ---
 # <a name="access-desktop-database-reference"></a>Access 桌面数据库参考
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 - [概念](concepts.md)
-- [Microsoft 数据访问对象引用](microsoft-data-access-objects-reference.md)
-- [Microsoft ActiveX 数据对象引用](microsoft-activex-data-objects-reference.md)
-- [Microsoft Access SQL 引用](microsoft-access-sql-reference.md)
+- [Microsoft 数据访问对象参考](microsoft-data-access-objects-reference.md)
+- [Microsoft ActiveX 数据对象参考](microsoft-activex-data-objects-reference.md)
+- [Microsoft Access SQL 参考](microsoft-access-sql-reference.md)
 - [Access 宏操作](access-macro-actions-access-developer-reference.md)
 
 ## <a name="see-also"></a>另请参阅

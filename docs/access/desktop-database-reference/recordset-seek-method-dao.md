@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: db2c90d42feacee58af9eea30a2d99439cb4ddaf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307600"
 ---
 # <a name="recordsetseek-method-dao"></a>Recordset.Seek 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 在已建立索引的表类型 **Recordset** 对象中查找符合当前索引的指定条件的记录，并使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。Seek （***比较*** ***Key1***、 ***Key2***、 ***Key3***、 ***Key4***、 ***Key5***、 ***Key6***、 ***Key7***、 ***Key8***、 ***Key9***、 ***Key10***、 ***Key11***、 ***Key12***、 ***Key13***）
+*expression* .Seek(***Comparison***, ***Key1***, ***Key2***, ***Key3***, ***Key4***, ***Key5***, ***Key6***, ***Key7***, ***Key8***, ***Key9***, ***Key10***, ***Key11***, ***Key12***, ***Key13***)
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式* 一个表示 **Recordset** 对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28708891"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -49,34 +49,34 @@ ms.locfileid: "28708891"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Comparison</em></p></td>
+<td><p><em>比较</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>下列字符串表达式之一： &lt;， &lt;=、 =、 &gt;=，或&gt;。</p></td>
+<td><p>下列字符表串达式之一：&lt;, &lt;=, =, &gt;=, 或 &gt;。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Key1，Key2...Key13</em></p></td>
+<td><p><em>Key1, Key2...Key13</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>与 <strong>Recordset</strong> 对象当前索引中的字段对应的一个或多个值，该索引由它的 <strong>Index</strong> 属性设置指定。最多可使用 13 个 key 参数。</p></td>
+<td><p><strong>Recordset</strong>对象当前索引中的字段对应一个或多个值，由其<strong>Index</strong>属性设置指定。 可以使用最多 13 个键参数。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在使用 **Seek** 之前，必须使用 **Index** 属性设置当前索引。如果索引标识了一个非唯一的键字段， **Seek** 将查找第一个符合条件的记录。
 
-**Seek**方法通过指定的键字段搜索，并查找满足指定相比较的条件和 key1 的第一个记录。 一旦找到，它就会使该记录成为当前记录，同时将 **NoMatch** 属性设置为 **False**。 如果 **Seek** 方法未能找到匹配项， **NoMatch** 属性将设置为 **True**，并且当前记录不确定。
+**Seek** 方法将在指定的键字段中搜索，并查找第一个符合 comparison 和 key1 指定的条件的记录。 一旦找到，它就会使该记录成为当前记录，同时将 **NoMatch** 属性设置为 **False**。 如果 **Seek** 方法未能找到匹配项， **NoMatch** 属性将设置为 **True**，并且当前记录不确定。
 
-如果 comparison 是等于 （=），大于或等于 (\>=)，或大于 (\>)、 从索引的开头开始**Seek**和向前搜索。
+如果 comparison 是等于 (=)、大于等于 (\>=) 或大于 (\>)， **Seek** 将从索引的开头开始往前搜索。
 
-如果 comparison 是小于 (\<) 或小于或等于 (\<=)， **Seek**启动末尾的索引和往回搜索。 但是，如果索引的末尾有重复的索引项， **Seek** 将从重复项中的任一项开始往后搜索。
+如果 comparison 是小于 (\<) 或小于等于 (\<=)，**Seek** 将从索引的末尾开始往后搜索。 但是，如果索引的末尾有重复的索引项， **Seek** 将从重复项中的任一项开始往后搜索。
 
-必须为索引中定义的所有字段指定值。 如果将 **Seek** 用于多列索引，并且没有为索引中的每个字段指定 comparison 值，则无法在 comparison 中使用等于 (=) 运算符。 这是因为某些条件字段 （key2、 key3，等等） 将默认为 Null，可能不匹配。 因此，仅当除查找的键字段外，所有字段均为 **null** 的记录时，等于运算符才能正常工作。 建议您使用大于或等于 (\>=) 运算符相反。
+必须为索引中定义的所有字段指定值。 如果将 **Seek** 用于多列索引，并且没有为索引中的每个字段指定 comparison 值，则无法在 comparison 中使用等于 (=) 运算符。 这是因为某些条件字段（key2、 key3 等）默认为 Null，可能不匹配。 因此，当且仅当您有一条记录，除了您要查找的键以外都是**null**时，等号运算符才能正常工作。 建议改用大于等于 (\>=) 运算符。
 
-在 key1 参数必须是当前索引中的对应字段的字段数据类型相同。 例如，如果当前索引引用 （如雇员 ID) 的数字字段，key1 必须为数字。 同样，如果当前索引引用 （如姓氏） 的文本字段，key1 必须是字符串。
+key1 参数必须与当前索引中的相应字段属于同一字段数据类型。 例如，如果当前索引引用了一个数字字段（例如“员工 ID”），则 key1 必须为数字。 同样，如果当前索引引用了一个文本字段（例如"姓"），key1 必须为字符串。
 
 使用 **Seek** 时不一定要有当前记录。
 
@@ -88,7 +88,7 @@ ms.locfileid: "28708891"
 
 ## <a name="example"></a>示例
 
-以下示例通过允许用户根据 ID 编号搜索产品，来演示 **Seek** 方法。
+此示例演示**Seek**方法，通过允许用户基于 ID 号码搜索产品。
 
 ```vb
     Sub SeekX() 
@@ -273,9 +273,9 @@ ms.locfileid: "28708891"
 
 <br/>
 
-下面的示例演示如何使用 Seek 方法来查找链接表中的记录。
+以下示例说明如何使用 Seek 方法在链接的表中查找记录。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Sub TestSeek()
