@@ -8,41 +8,41 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f16f44b57a690aa58efdff9b00341df5023c293f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314173"
 ---
-# <a name="tabledefs-collection-dao"></a><span data-ttu-id="1cff8-102">TableDefs 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="1cff8-102">TableDefs collection (DAO)</span></span>
+# <a name="tabledefs-collection-dao"></a><span data-ttu-id="967c6-102">TableDefs 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="967c6-102">TableDefs collection (DAO)</span></span>
 
-<span data-ttu-id="1cff8-103">**适用于：** Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="1cff8-103">**Applies to:** Access 2013 | Office 2013</span></span>
+<span data-ttu-id="967c6-103">**适用于**：Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="967c6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1cff8-104">**TableDefs** 集合包含数据库中所有存储的 **TableDef** 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1cff8-104">A **TableDefs** collection contains all stored **TableDef** objects in a database (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="967c6-104">**TableDefs** 集合包含数据库中所有存储的 **TableDef** 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="967c6-104">A **TableDefs** collection contains all stored **TableDef** objects in a database (Microsoft Access workspaces only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1cff8-105">注解</span><span class="sxs-lookup"><span data-stu-id="1cff8-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="967c6-105">说明</span><span class="sxs-lookup"><span data-stu-id="967c6-105">Remarks</span></span>
 
-<span data-ttu-id="1cff8-106">通过使用 **TableDef** 对象及其方法和属性来操作表定义。</span><span class="sxs-lookup"><span data-stu-id="1cff8-106">You manipulate a table definition using a **TableDef** object and its methods and properties.</span></span>
+<span data-ttu-id="967c6-106">通过使用 **TableDef** 对象及其方法和属性来操作表定义。</span><span class="sxs-lookup"><span data-stu-id="967c6-106">You manipulate a table definition using a **TableDef** object and its methods and properties.</span></span>
 
-<span data-ttu-id="1cff8-107">**Database** 对象的默认集合为 **TableDefs** 集合。</span><span class="sxs-lookup"><span data-stu-id="1cff8-107">The default collection of a **Database** object is the **TableDefs** collection.</span></span>
+<span data-ttu-id="967c6-107">**Database** 对象的默认集合为 **TableDefs** 集合。</span><span class="sxs-lookup"><span data-stu-id="967c6-107">The default collection of a **Database** object is the **TableDefs** collection.</span></span>
 
-<span data-ttu-id="1cff8-108">若要按照序号或 **Name** 属性设置来引用集合中的 **TableDef** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="1cff8-108">To refer to a **TableDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="967c6-108">若要按照序号或 **Name** 属性设置来引用集合中的 **TableDef** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="967c6-108">To refer to a **TableDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="1cff8-109">**TableDefs**(0)</span><span class="sxs-lookup"><span data-stu-id="1cff8-109">**TableDefs**(0)</span></span>
+<span data-ttu-id="967c6-109">**TableDefs**(0)</span><span class="sxs-lookup"><span data-stu-id="967c6-109">**TableDefs**(0)</span></span>
 
-<span data-ttu-id="1cff8-110">**TableDefs**("name")</span><span class="sxs-lookup"><span data-stu-id="1cff8-110">**TableDefs**("name")</span></span>
+<span data-ttu-id="967c6-110">**TableDefs**("name")</span><span class="sxs-lookup"><span data-stu-id="967c6-110">**TableDefs**("name")</span></span>
 
-<span data-ttu-id="1cff8-111">**TableDefs**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="1cff8-111">**TableDefs**\!\[name\]</span></span>
+<span data-ttu-id="967c6-111">**TableDefs**\!\[name\]</span><span class="sxs-lookup"><span data-stu-id="967c6-111">**TableDefs**\!\[name\]</span></span>
 
-<span data-ttu-id="1cff8-112">**链接提供方：**[UtterAccess](https://www.utteraccess.com) 社区。</span><span class="sxs-lookup"><span data-stu-id="1cff8-112">**Links provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="1cff8-113">UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。</span><span class="sxs-lookup"><span data-stu-id="1cff8-113">UtterAccess is the premier Microsoft Access wiki and help forum.</span></span>
+<span data-ttu-id="967c6-112">**链接提供方：**[UtterAccess](https://www.utteraccess.com) 社区。</span><span class="sxs-lookup"><span data-stu-id="967c6-112">**Links provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="967c6-113">UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。</span><span class="sxs-lookup"><span data-stu-id="967c6-113">UtterAccess is the premier Microsoft Access wiki and help forum.</span></span>
 
-  - [<span data-ttu-id="1cff8-114">重新链接器多 Backends</span><span class="sxs-lookup"><span data-stu-id="1cff8-114">Re-Linker Multi-Backends</span></span>](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
+  - [<span data-ttu-id="967c6-114">重链接器多后端</span><span class="sxs-lookup"><span data-stu-id="967c6-114">Re-Linker Multi-Backends</span></span>](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
 
-  - [<span data-ttu-id="1cff8-115">LIVE、 测试和本地数据之间交换/重新链接</span><span class="sxs-lookup"><span data-stu-id="1cff8-115">Swap/Relink Between LIVE, TEST and LOCAL Data</span></span>](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
+  - [<span data-ttu-id="967c6-115">在 LIVE、TEST 和 LOCAL 数据之间交换/重新链接</span><span class="sxs-lookup"><span data-stu-id="967c6-115">Swap/Relink Between LIVE, TEST and LOCAL Data</span></span>](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
 
-## <a name="example"></a><span data-ttu-id="1cff8-116">示例</span><span class="sxs-lookup"><span data-stu-id="1cff8-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="967c6-116">示例</span><span class="sxs-lookup"><span data-stu-id="967c6-116">Example</span></span>
 
-<span data-ttu-id="1cff8-p102">以下示例创建一个新的 **TableDef** 对象，并将其追加到 Northwind Database 对象的 **TableDefs** 集合。然后，该示例枚举 **TableDefs** 集合和新 **TableDef** 的 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="1cff8-p102">This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object. It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.</span></span>
+<span data-ttu-id="967c6-p102">以下示例创建一个新的 **TableDef** 对象，并将其追加到 Northwind Database 对象的 **TableDefs** 集合。然后，该示例枚举 **TableDefs** 集合和新 **TableDef** 的 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="967c6-p102">This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object. It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.</span></span>
 
 ```vb
     Sub TableDefX() 
@@ -95,7 +95,7 @@ ms.locfileid: "28702878"
 
 <br/>
 
-<span data-ttu-id="1cff8-119">以下示例在 Northwind 数据库中创建一个新的 **TableDef** 对象。</span><span class="sxs-lookup"><span data-stu-id="1cff8-119">This example creates a new **TableDef** object in the Northwind database.</span></span>
+<span data-ttu-id="967c6-119">此示例将在 Northwind 数据库中新建一个 **TableDef** 对象。</span><span class="sxs-lookup"><span data-stu-id="967c6-119">This example creates a new **TableDef** object in the Northwind database.</span></span>
 
 ```vb 
 Sub CreateTableDefX() 
