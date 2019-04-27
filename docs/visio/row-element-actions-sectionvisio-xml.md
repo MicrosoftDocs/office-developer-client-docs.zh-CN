@@ -8,10 +8,10 @@ localization_priority: Normal
 ms.assetid: 5141589b-10f3-f908-56d2-206244f449fb
 description: 包含描述形状或页的快捷菜单或动作标记菜单上的菜单项的行。
 ms.openlocfilehash: 509fd06a77419bf684b214ff5a5d16f24a1f4a84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 04/26/2019
 ms.locfileid: "32356418"
 ---
 # <a name="row-element-actions-section-visio-xml"></a>Row 元素 ("Actions" 内容) ("Visio XML")
@@ -48,7 +48,7 @@ ms.locfileid: "32356418"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-actions-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |指定与快捷菜单或动作标记菜单上的自定义命令相关联的操作的一个属性。  <br/> |
+|[单元格](cell-element-actions-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |指定与快捷菜单或动作标记菜单上的自定义命令相关联的操作的一个属性。  <br/> |
    
 ### <a name="attributes"></a>属性
 
