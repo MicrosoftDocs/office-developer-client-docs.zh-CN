@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 53579e0e-fcec-e745-0207-3861b5efa333
 description: 基于系统的区域和语言设置, 返回由 datetime 或 expression 表示的时间值。
 ms.openlocfilehash: 61eeafac64ce199eba0f9032c42474d2b44febce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361108"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432322"
 ---
 # <a name="timevalue-function-visioshapesheet"></a>TIMEVALUE 函数 (VisioShapeSheet)
 
@@ -32,7 +32,7 @@ TIMEVALUE ("* * *datetime* * *" |* **表达式** * [, * * *lcid* * *])
 | _expression_ <br/> |必需  <br/> |**相同** <br/> | 任何生成日期和时间的表达式。  <br/> |
 | _lcid_ <br/> |可选  <br/> |**Number** <br/> |用于计算非本地日期时间的区域设置标识符。 区域设置标识符是系统头文件中描述的一个数字。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _datetime_或_expression_中的任何日期部分都将被丢弃。 
   

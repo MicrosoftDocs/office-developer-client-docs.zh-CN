@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 4bcd19f6-c225-43ac-8c27-c46388e9097a
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 090a765fd6c758e5f146caa0e7f36276b052f69e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356873"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421121"
 ---
 # <a name="message-submission-model"></a>邮件提交模型
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ef457ad5-f5a0-7bb1-ba0a-2dd8ea733df2
 description: 此成员是占位符, 不受支持。
 ms.openlocfilehash: fedc15f8f84e1b7a0b8b74c0b66ae31db10f5fe4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319094"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433239"
 ---
 # <a name="ifreebusysupportplaceholder7"></a>IFreeBusySupport::Placeholder7
 
@@ -32,7 +32,7 @@ HRESULT Placeholder7(
 
 始终 E_NOTIMPL, 因为此成员是占位符, 不受支持。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此成员必须返回 E_NOTIMPL。
   

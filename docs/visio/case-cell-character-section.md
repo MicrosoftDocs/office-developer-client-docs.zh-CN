@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: cf063c05-5789-e037-700b-1e70df00e254
 description: 确定形状文本的大小写。全部大写字母 (1) 和首字母大写字母 (2) 都不会更改以全部大写字母输入的文本的外观。只有文本是以小写字母输入时，这些选项才有效。
 ms.openlocfilehash: 50ceaa1188caded40d36b8837c346fbbba2e14d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337231"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434345"
 ---
 # <a name="case-cell-character-section"></a>Case 单元格（“Character”内容）
 
 确定形状文本的大小写。全部大写字母 (1) 和首字母大写字母 (2) 都不会更改以全部大写字母输入的文本的外观。只有文本是以小写字母输入时，这些选项才有效。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 普通大小写  <br/> |**visCaseNormal** <br/> |
 | 1  <br/> | 全部大写字母  <br/> |**visCaseAllCaps** <br/> |
 | 双面  <br/> | 仅首字母大写字母  <br/> |**visCaseInitialCaps** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Case 单元格的引用，请使用： 
   

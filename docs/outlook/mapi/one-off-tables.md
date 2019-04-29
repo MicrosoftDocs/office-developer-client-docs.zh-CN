@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 0f2040b7-9b6c-4eae-aa68-29c4f7b8bd76
 description: '上次修改时间: 2011 年11月8日'
 ms.openlocfilehash: 8719536efa9bffb1226f8fb665b912eb872227f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336482"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439525"
 ---
 # <a name="one-off-tables"></a>一次性表
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3c1845ea-e291-4855-9afd-51d2c64d7e85
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 0a9b88d762ca88cebd6d9acecf06db53a0b778f6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348942"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423858"
 ---
 # <a name="iablogonpreparerecips"></a>IABLogon::PrepareRecips
 

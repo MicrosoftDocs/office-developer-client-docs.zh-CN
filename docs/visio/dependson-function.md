@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8fcfcfdd-69e2-b061-fdb6-d29389d14403
 description: 创建单元格引用依赖关系。
 ms.openlocfilehash: 26e7f5fb0620a5f1812d878f02d5bedd43afe524
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360228"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423466"
 ---
 # <a name="dependson-function"></a>DEPENDSON 函数
 
@@ -31,7 +31,7 @@ DEPENDSON (* * *cellref* * * [, * * *cellref2* * *,...])
 | _cellref_ <br/> |必需  <br/> |**String** <br/> |第一个单元格引用。  <br/> |
 | _cellref2_ <br/> |可选  <br/> |**字符串** <br/> |第二个单元格引用。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此函数总是返回 FALSE。在 Event 行或 Action 单元格中使用时不起任何作用。 
   

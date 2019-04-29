@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 01cae79e-5b56-4cd4-83a6-f0956ff539fb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a5a9d0796bc92514ae6d990b7328364b85bc55cd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335432"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439840"
 ---
 # <a name="pidtagremoteprogress-canonical-property"></a>PidTagRemoteProgress 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32335432"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果没有进行传输, 应将此属性设置为1。 如果正在进行传送, 则应将其设置为介于0到100之间的值, 表示传输完成百分比。
   

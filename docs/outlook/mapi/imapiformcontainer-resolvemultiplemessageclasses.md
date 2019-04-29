@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f18c2dd1-366f-48b4-b335-ebbc0651f467
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0730da9c3877985853e2cd0a55420e64fbd98e0c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342180"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412539"
 ---
 # <a name="imapiformcontainerresolvemultiplemessageclasses"></a>IMAPIFormContainer::ResolveMultipleMessageClasses
 
@@ -59,7 +59,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序调用**IMAPIFormContainer:: ResolveMultipleMessageClasses**方法将一组邮件类解析为表单容器中的表单。 _ppfrminfoarray_参数中返回的窗体信息对象的数组提供了对每个窗体属性的进一步访问。 
   

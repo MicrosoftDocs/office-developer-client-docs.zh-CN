@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 7fbb4b16-fe54-42d6-803a-c9980897166d
 description: 确定凹凸效果使用的光的类型。
 ms.openlocfilehash: 6d92c56b01d192c1df04eecdaca4eb915baebcae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315769"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433960"
 ---
 # <a name="bevellightingtype-cell-bevel-properties-section"></a>BevelLightingType 单元格 ("棱台属性" 部分)
 
 确定凹凸效果使用的光的类型。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |无照明  <br/> |
 |1  <br/> |三个点  <br/> |
@@ -30,14 +30,14 @@ ms.locfileid: "32315769"
 |步  <br/> |早  <br/> |
 |utf-8  <br/> |日出  <br/> |
 |第  <br/> |日落  <br/> |
-|10  <br/> |Chilly  <br/> |
-|11x17  <br/> |锁定  <br/> |
-|12  <br/> |平面  <br/> |
-|13  <br/> |两个点  <br/> |
-|日  <br/> |Glow  <br/> |
-|个  <br/> |明亮聊天室  <br/> |
+|10   <br/> |Chilly  <br/> |
+|11   <br/> |锁定  <br/> |
+|12   <br/> |平面  <br/> |
+|13   <br/> |两个点  <br/> |
+|14   <br/> |Glow  <br/> |
+|15   <br/> |明亮聊天室  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**BevelLightingType**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3ef284a2c036abb9eac10ecf33de4adbf61f3c54
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309483"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410957"
 ---
 # <a name="smapiverb"></a>SMAPIVerb
 
@@ -69,7 +69,7 @@ MAPI_UNICODE
   
 > 显示名称为 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则显示名称为 ANSI 格式。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在以下方法中, **SMAPIVerb**结构作为参数传递: 
   

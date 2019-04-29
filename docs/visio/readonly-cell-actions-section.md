@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 158b4188-570c-3817-bf34-8dc0c64befa5
 description: 控制动作标记菜单或快捷菜单上的动作是否为只读。
 ms.openlocfilehash: f45f22001a4d7275bb9367414c8b04ea3c0d9c6e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359988"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434233"
 ---
 # <a name="readonly-cell-actions-section"></a>ReadOnly 单元格（“Actions”内容）
 
@@ -23,12 +23,12 @@ ms.locfileid: "32359988"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |动作在菜单上显示，但为只读的。  <br/> |
 |FALSE  <br/> |动作在菜单上显示并且可以选择（默认值）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果显示在动作标记或快捷菜单上的某个动作是只读的，便不能选取它。 它不会灰显而是背景呈彩色，类似标签。 若要使菜单项灰显，请使用 Disabled 单元格。 
   

@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 2f9c11ba-a316-bc34-60d4-0a41b2af486f
 description: 指出线条末端是箭头还是其他线端格式。
 ms.openlocfilehash: 54ef11125a8774914a60897850fb75cd4ab949a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328901"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434681"
 ---
 # <a name="endarrow-cell-line-format-section"></a>EndArrow 单元格（“Line Format”内容）
 
 指出线条末端是箭头还是其他线端格式。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |无箭头。  <br/> |
 |1 - 45  <br/> |各种类型的箭头样式，与 **“线条”** 对话框中的索引项相对应。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 **“线条”** 对话框中设置此值（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“线条”**，指向 **“箭头”**，然后单击 **“其他箭头”**）。 箭头的大小在 EndArrowSize 单元格中设置。
   

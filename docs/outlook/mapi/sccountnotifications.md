@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 13e80bdc-cb59-47a5-8de0-404e22f87f82
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f5298620239d1e42e4ba613c22a98f0cf6f7d457
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351369"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437992"
 ---
 # <a name="sccountnotifications"></a>ScCountNotifications
 
@@ -65,7 +65,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 遇到无效的通知。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果在_pcb_参数中传递 NULL, 则**ScCountNotifications**函数仅验证通知数组, 但不会进行计数。如果在_pcb_中传递非 null 值, **ScCountNotifications**将确定数组的大小并存储原因_pcb_。 _pcb_参数的大小必须足以包含整个数组。 
   

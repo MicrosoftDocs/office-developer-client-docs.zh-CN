@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 2b9db404-a56a-efeb-90bc-669b61483f81
 description: 本主题列出了 Visio 2013 文件格式 XML 架构中的类型。
 ms.openlocfilehash: 1aef5ba241b74c434e54e296d93b3d5c98d5c163
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307712"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422430"
 ---
 # <a name="types-visio-xml"></a>类型 ("Visio XML")
 

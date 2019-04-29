@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e5659113b1c6579913042ae0c8dfcd03e9802621
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359477"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438958"
 ---
 # <a name="pidtagservicename-canonical-property"></a>PidTagServiceName 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32359477"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性中包含的名称特定于邮件服务。 它来自 mapisvc.inf 中的 "服务" 部分。
   

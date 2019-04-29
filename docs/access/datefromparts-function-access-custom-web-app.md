@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 4fa49d5f-12ea-4d14-9a03-28418f01746c
 description: 返回指定的年、月和日的日期值。
 ms.openlocfilehash: 7d47fe93d1990365f1db5885a3ea8fc056aabb9f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282120"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423221"
 ---
 # <a name="datefromparts-function-access-custom-web-app"></a>DateFromParts 函数 (Access 自定义 web 应用程序)
 
@@ -32,7 +32,7 @@ ms.locfileid: "32282120"
 | *Month*  <br/> |指定1到12之间的月份的整数表达式。  <br/> |
 | *Day*  <br/> |指定一天的整数表达式。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DateFromParts**返回日期部分设置为指定的年、月和日以及将时间部分设置为默认值的 date 值。 如果参数无效, 则会引发错误。 如果必需的参数为 null, 则返回 null。 
   

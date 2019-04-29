@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4a67faa2-8c2e-49a7-8c92-690a0a65c8f7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9947558975098316a547abfaefcdf5e7d4cd2f41
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346534"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439007"
 ---
 # <a name="ufromsz"></a>UFromSz
 
@@ -49,7 +49,7 @@ UINT UFromSz(
 
  **UFromSz**返回一个无符号整数。 如果字符串不以至少一个十进制数字开头, 则返回零。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **UFromSz**函数在到达不是十进制数字的字符串中的第一个字符时停止转换。 例如, 在给定字符串 "55" 的情况下, **UFromSz**返回整数值55。 在给定字符串 "5a5b" 的情况下, 函数返回整数值5。 在给定字符串 "a5b5" 的情况下, **UFromSz**返回零。 
   

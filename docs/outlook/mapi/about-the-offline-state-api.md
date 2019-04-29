@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 18b0d284-c224-a022-47d9-b2d82a32f996
 description: 上次修改时间：2012 年 6 月 25 日
 ms.openlocfilehash: 56793ae0d2c2ce76c89c7cda4985618e3a40ccfd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321782"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410481"
 ---
 # <a name="about-the-offline-state-api"></a>关于脱机状态 API
 

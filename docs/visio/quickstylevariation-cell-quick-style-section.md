@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: e3b58a19-9f1a-4f2b-9fe2-45cbb7ec6898
 description: 确定是否使用与图表背景对比的颜色来替代文本、线条和填充颜色的公式和值 (或这些属性的组合)。 值为0、1、2、4和8的按位 "或"。
 ms.openlocfilehash: 736e2287c00c24774ef8b677613235d642697f4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360011"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433792"
 ---
 # <a name="quickstylevariation-cell-quick-style-section"></a>QuickStyleVariation 单元格 ("快速样式" 部分)
 
 确定是否使用与图表背景对比的颜色来替代文本、线条和填充颜色的公式和值 (或这些属性的组合)。 值为0、1、2、4和8的按位 "或"。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |请勿改变形状的文本、线条或填充颜色 (或这些属性的任何组合), 使其对给定的背景色保持可见。  <br/> |
 |1  <br/> |请勿改变形状的文本、线条或填充颜色 (或这些属性的任何组合), 使其对给定的背景色保持可见。  <br/> |
@@ -26,7 +26,7 @@ ms.locfileid: "32360011"
 |4  <br/> |如有必要, 请改变形状的线条颜色, 以使其对特定主题的背景色保持可见。  <br/> |
 |utf-8  <br/> |如有必要, 请更改形状的填充颜色, 以使其对特定主题的背景色保持可见。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当文本或行位于任何可见的形状几何图形之外时 (例如, 在其 textbox 位于形状底部下方的形状中, 例如网络图中的形状), 使用 QuickStyleVariation 单元格保证可见性。 单元格的默认值为 0, 表示其行为处于非活动状态。 任何其他值将触发单元格的行为。
   

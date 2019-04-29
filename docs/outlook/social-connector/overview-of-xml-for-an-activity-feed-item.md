@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 366550fa-e787-4ca0-bfe1-a7890dfc27c6
 description: '活动源由社交网络中发生的一个或多个活动组成。 每个活动源均由一个 microsoft.office.server.activityfeed 元素表示, 并由以下三条信息组成:'
 ms.openlocfilehash: 971c54cf69a65bebbe4fd04e8608e88b89145bb4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329288"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439945"
 ---
 # <a name="overview-of-xml-for-an-activity-feed-item"></a>活动源项的 XML 概述
 

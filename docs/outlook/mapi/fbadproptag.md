@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 143bd3c6-5a55-4122-8522-9c48473aa781
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9764be2788db8d2649be8708cad4ec67a85af845
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340997"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433645"
 ---
 # <a name="fbadproptag"></a>FBadPropTag
 
@@ -55,7 +55,7 @@ FALSE
   
 > 指定的属性标记是一个有效的 MAPI 属性标记。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **FBadPropTag**函数根据 MAPI 定义验证指定的属性标记。 它使 sures 属性类型是 MAPI 定义的类型之一, 并且属性标识符定义为该类型。 
   

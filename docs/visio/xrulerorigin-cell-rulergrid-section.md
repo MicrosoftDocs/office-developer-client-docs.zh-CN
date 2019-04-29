@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 328f8ab5-217f-0336-0d56-611eff509fe8
 description: 指定页面 x 轴标尺上的零点。
 ms.openlocfilehash: d66fd324718ec46b1209c4726eeb2d27c21db8b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346450"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435325"
 ---
 # <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>XRulerOrigin 单元格 ( &amp; "标尺网格" 部分)
 
 指定页面 x 轴标尺上的零点。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此单元格对应于 "**标尺&amp;网格**" 对话框 (在 "**视图**" 选项卡上, 单击 "**显示**" 箭头) 中的 "水平**标尺零点**" 选项。 
   

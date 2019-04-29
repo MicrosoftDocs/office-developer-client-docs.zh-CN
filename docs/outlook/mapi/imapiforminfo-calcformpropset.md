@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cc3ffb8d-9cc4-47d3-9aa9-02c3a5b7775c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0b62c21348da71c1ee863f70d6e6a549a5d10003
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342124"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438069"
 ---
 # <a name="imapiforminfocalcformpropset"></a>IMAPIFormInfo::CalcFormPropSet
 

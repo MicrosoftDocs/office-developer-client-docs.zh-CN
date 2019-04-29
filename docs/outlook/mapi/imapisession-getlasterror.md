@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 38cb3692-a5f8-403a-9615-9bd5868af23c
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 7477213ee854be1ae71b47a0c1b339c4c13b6f04
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338680"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435577"
 ---
 # <a name="imapisessiongetlasterror"></a>IMAPISession::GetLastError
 
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 已设置 MAPI_UNICODE 标志, 且会话不支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISession:: GetLastError**方法检索**IMAPISession**方法调用返回的上一个错误的相关信息。 通过在对话框中包含此信息, 客户端可以向其用户提供有关错误的详细信息。 
   

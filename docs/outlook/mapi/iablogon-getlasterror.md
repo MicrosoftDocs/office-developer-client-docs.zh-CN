@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d157e29e-7731-4e47-b4a7-e8622b223001
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 311299b00143667b3f2fb22bd7be6c3a52c7141d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349026"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434247"
 ---
 # <a name="iablogongetlasterror"></a>IABLogon::GetLastError
 
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志, 且通讯簿提供程序不支持 unicode, 或者未设置 MAPI_UNICODE, 并且通讯簿提供程序仅支持 unicode。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通讯簿提供程序实现了**GetLastError**方法, 以提供有关失败的上一个方法调用的信息。 通过在对话框中包含**MAPIERROR**结构中的数据, 呼叫者可以向其用户提供有关错误的详细信息。 
   

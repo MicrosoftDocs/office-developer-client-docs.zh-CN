@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: f71d8737-92ef-1124-ba4a-b7e17305bd0a
 description: 代表当应用程序作为活动文档在某一容器应用程序中打开时的目标框架名。默认值为空字符串。
 ms.openlocfilehash: 8f41e5bf854e31e1f17eabb2aecbded55175ebaf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344848"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432854"
 ---
 # <a name="frame-cell-hyperlinks-section"></a>Frame 单元格（“Hyperlinks”内容）
 
 代表当应用程序作为活动文档在某一容器应用程序中打开时的目标框架名。默认值为空字符串。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Frame 单元格的引用，请使用： 
   

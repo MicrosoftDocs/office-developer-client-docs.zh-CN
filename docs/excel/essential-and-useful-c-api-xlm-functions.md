@@ -8,17 +8,17 @@ keywords:
 - 函数 [excel 2007], c api xlm
 localization_priority: Normal
 ms.assetid: dc80cb3d-0d7e-4cb9-9870-3acc84eeca82
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: d6acd5bb171fb2494f2adb23584f4e7f088e1b83
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311121"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434513"
 ---
 # <a name="essential-and-useful-c-api-xlm-functions"></a>基本和有用的 C API XLM 函数
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 本节中介绍的函数是 Microsoft Excel 回调函数, 对于 DLL 和 XLL 开发人员尤其有用。 在这些情况下, **xlfRegister**函数对于要注册其函数和命令的 xll 和 dll 是必需的, 以便可以直接从 Excel 中调用它们。 函数**xlfUnregister**和**xlfSetName**结合使用, 以注销 DLL 和 XLL 函数和命令。 
   

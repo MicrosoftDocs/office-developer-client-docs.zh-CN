@@ -10,17 +10,17 @@ keywords:
 - quitframework 函数
 localization_priority: Normal
 ms.assetid: d17a3efe-c278-4ef1-b8f9-b958ae012361
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 9408a7938927214802935e54ec8e53b1469e5016
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301622"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408570"
 ---
 # <a name="quitframework"></a>QuitFramework
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 framework library 函数, 它 uninitializes 框架库, 该函数简单地重新初始化临时**XLOPER**/ **XLOPER12**内存数据结构, 从而释放已分配的所有内存。 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6c286821-67d6-4d96-973a-bca7934c7672
 description: 可以使用 GoToControl 操作将焦点移动到打开视图的当前记录中的指定控件。
 ms.openlocfilehash: 2368933a6277615554a565d3bdd973f7d1f366f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302574"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436473"
 ---
 # <a name="gotocontrol-macro-action-access-custom-web-app"></a>GoToControl 宏操作（Access 自定义 Web 应用）
 

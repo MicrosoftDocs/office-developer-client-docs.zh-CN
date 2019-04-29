@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 01fa459f-597d-4b16-b340-a79fb270cd71
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b05f5b30eceb7df1bed76c64f4bdda87ede0e463
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348627"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439091"
 ---
 # <a name="openstreamonfile"></a>OpenStreamOnFile
 
@@ -104,7 +104,7 @@ MAPI_E_NOT_FOUND
   
 > 指定的文件不存在。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **OpenStreamOnFile**函数有两个重要的用途, 它们由 SOF_UNIQUEFILENAME 标志的设置加以区分。 如果未设置此标志, 则**OpenStreamOnFile**将在现有文件上打开**IStream**对象, 例如将其内容复制到使用 IStream 的附件的**PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) 属性。 **:: CopyTo**方法。 在这种情况下, _lpszFileName_参数指定文件的路径和文件名。 
   

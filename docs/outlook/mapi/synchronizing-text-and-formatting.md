@@ -9,11 +9,11 @@ api_type:
 ms.assetid: d7e166f0-1214-4571-b9a8-366960772a7a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 852ef988566ade8fca6551bea0d618199319d1d4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346597"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435101"
 ---
 # <a name="synchronizing-text-and-formatting"></a>同步文本和格式设置
 
@@ -29,7 +29,7 @@ ms.locfileid: "32346597"
     
 **RTFSync**中发生的同步过程是邮件文本的复杂循环冗余检查 (CRC), 它会忽略某些字符并转换其他字符。 由传输提供程序添加的最可能的字符将被忽略。 MAPI 定义了几个用于处理 RTF 的属性, 如下表所述。 
   
-|**RTF 属性**|**Description**|
+|**RTF 属性**|**说明**|
 |:-----|:-----|
 |**PR_RTF_SYNC_BODY_TAG**([PidTagRtfSyncBodyTag](pidtagrtfsyncbodytag-canonical-property.md))  <br/> |指示实际邮件文本的开头。  <br/> |
 |**PR_RTF_SYNC_BODY_CRC**([PidTagRtfSyncBodyCrc](pidtagrtfsyncbodycrc-canonical-property.md))  <br/> |包含邮件文本的循环冗余检查的结果。  <br/> |

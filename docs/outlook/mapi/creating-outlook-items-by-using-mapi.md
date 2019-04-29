@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 92070b45-33cf-4b19-a899-7956bda79752
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: e5279bb2d948e1b1f5ab252e49e766ebc0f1845a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315111"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409858"
 ---
 # <a name="creating-outlook-items-by-using-mapi"></a>使用 MAPI 创建 Outlook 项目
 

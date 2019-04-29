@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 355cef8b-9213-479a-af95-b591f4bc51ad
 description: 确定组合的文本分配。
 ms.openlocfilehash: 78a70dc0398745765bca12a1e768390b35fce8ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314915"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432644"
 ---
 # <a name="istextedittarget-cell-group-properties-section"></a>IsTextEditTarget 单元格（“Group Properties”内容）
 
 确定组合的文本分配。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |文本被添加到组合形状中。  <br/> |
 |FALSE  <br/> |文本被添加到位于堆放顺序顶端的组合的形状中。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以采用以下方法设置此值：选择该组合，在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上单击 **“行为”**，然后选中 **“编辑组合文本”** 复选框。 
   

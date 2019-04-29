@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 71768db3-a107-47c6-8e6b-775e8d40ac36
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: ddd0c1419531b0822bb98df51f47e12e63dcf242
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328677"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432665"
 ---
 # <a name="resending-an-undelivered-message"></a>重新发送未送达的邮件
   

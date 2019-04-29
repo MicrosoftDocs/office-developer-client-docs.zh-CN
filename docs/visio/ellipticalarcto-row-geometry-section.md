@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7ceb30a8-1d05-feff-35d8-08a198784a27
 description: 包含椭圆弧端点的 x 坐标和 y 坐标、弧形上控制点的 x 坐标和 y 坐标、从 x 轴到椭圆主轴的夹角以及椭圆主要和次要轴的比率。
 ms.openlocfilehash: c6db7560a05652ca3bfcadb2fd4857ac39370562
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345673"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421401"
 ---
 # <a name="ellipticalarcto-row-geometry-section"></a>EllipticalArcTo 行（“Geometry”内容）
 
@@ -22,7 +22,7 @@ ms.locfileid: "32345673"
   
 EllipticalArcTo 行包含以下单元格。
   
-|**Cell**|**Description**|
+|**单元格**|**说明**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |弧形上的终顶点的*x*坐标。  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |弧形上的终顶点的*y*坐标。  <br/> |

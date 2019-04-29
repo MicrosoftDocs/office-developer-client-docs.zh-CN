@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a53b5787-f419-7a36-3c04-c63b3c173ac7
 description: 表示在本地坐标系中形状上的 y 坐标。 该表基于 y 单元格所在的行对它进行说明。
 ms.openlocfilehash: 9e823b8d21682b419a70ce498016abf575f36f6b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342810"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420939"
 ---
 # <a name="y-cell-geometry-section"></a>Y 单元格（“Geometry”内容）
 
 表示在本地坐标系中形状上的*y*坐标。 该表基于 y 单元格所在的行对它进行说明。 
   
-|**行**|**Description**|
+|**行**|**说明**|
 |:-----|:-----|
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | 如果 MoveTo 行是该内容中的第一行, 则 Y 单元格表示路径的第一个顶点的*Y*坐标。 如果 MoveTo 行出现在两行之间, 则 Y 单元格表示路径中断开处后的第一个顶点的*y*坐标。  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> | 直线段终顶点的*y*坐标。  <br/> |
@@ -33,7 +33,7 @@ ms.locfileid: "32342810"
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | 无限长线上某个点的*y*坐标。  <br/> |
 |[椭圆](ellipse-row-geometry-section.md) <br/> | 椭圆中心的*y*轴坐标值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Y 单元格的引用，请使用： 
   

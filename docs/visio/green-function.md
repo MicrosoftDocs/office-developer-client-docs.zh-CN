@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: eccec432-32d3-15c2-06b3-dd02b6313d4c
 description: 返回颜色的绿色成分。
 ms.openlocfilehash: 0412e4519c2964b05d7663805d7773e8dc5deaab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360205"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438104"
 ---
 # <a name="green-function"></a>GREEN 函数
 
@@ -34,7 +34,7 @@ ms.locfileid: "32360205"
 
 整数
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 返回值是 0 至 255（包括 0 和 255）之间的数字，或解析为索引值的单元格引用。 如果*表达式*无效, 则返回 0 (黑色)。 
   

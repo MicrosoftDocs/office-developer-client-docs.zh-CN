@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 783f08aa-fb5a-432d-b8bd-48d69f0e5c38
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2c771f1d97305271b70102c148e62f30512974fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351070"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432469"
 ---
 # <a name="pidtagserviceentryname-canonical-property"></a>PidTagServiceEntryName 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32351070"
 |数据类型：  <br/> |PT_STRING8  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 建议邮件服务实现者提供邮件服务入口点, 但不需要该入口点。 但是, 仅当存在相关的配置属性时, 才应提供入口点。 如果这些属性不存在, MAPI 将假定未提供入口点。
   

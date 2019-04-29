@@ -10,17 +10,17 @@ keywords:
 - xlfevaluate 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 527f7e932a41103c374e327a1bd0dd4c7d8e92a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303925"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439182"
 ---
 # <a name="xlfevaluate"></a>xlfEvaluate
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 使用 Microsoft Excel 分析器和函数计算器计算可在工作表单元格中输入的任何表达式。
   
@@ -38,7 +38,7 @@ Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 
 返回计算字符串的结果, 可以是**xltypeNum**、 **xltypeStr**、 **xltypeBool**、 **xltypeErr**、 **xltypeNil**、 **xltypeMulti**的任意类型。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 该字符串只能包含函数, 而不能包含命令等效项。 它等效于在编辑栏上按**F9** 。 如果从已注册为线程安全的 XLL 工作表函数调用**xlfEvaluate** , 则该表达式必须只包含线程安全函数。 
   

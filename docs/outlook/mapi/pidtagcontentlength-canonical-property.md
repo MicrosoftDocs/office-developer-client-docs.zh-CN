@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c9ceca01-9c4e-4b59-8171-a4c2d6aca45d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f2110682be9296a874e6f42d40a375b69d201431
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331883"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435150"
 ---
 # <a name="pidtagcontentlength-canonical-property"></a>PidTagContentLength 规范属性
 

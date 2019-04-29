@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a4ffbd02-eed7-43ed-9da2-f0d1ff5d8014
 description: 您可以使用 SetVariable 操作创建一个临时变量并将其设置为特定值。 然后, 可以将该变量用作后续操作中的条件或参数, 也可以在另一个用户界面 (UI) 宏中使用该变量。
 ms.openlocfilehash: 54c23868a5bfb66a2fb08465361583c6e9b5ed49
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307924"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433918"
 ---
 # <a name="setvariable-macro-action-access-custom-web-app"></a>SetVariable 宏操作 (Access 自定义 web 应用程序)
 

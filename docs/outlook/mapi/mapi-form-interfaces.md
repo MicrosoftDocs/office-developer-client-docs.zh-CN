@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 611213c9-e758-4366-b193-fc62181d3d1f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f207f9550c61ad69fd1fc560cdb2084b7bb56c6f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351539"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412343"
 ---
 # <a name="mapi-form-interfaces"></a>MAPI 表单接口
 
@@ -23,7 +23,7 @@ ms.locfileid: "32351539"
   
 MAPI 定义了与表单相关的下列接口。
   
-|**接口名称**|**Description**|
+|**接口名称**|**说明**|
 |:-----|:-----|
 |[IMAPIForm](imapiformiunknown.md) <br/> |操纵窗体对象并处理窗体对象命令。  <br/> |
 |[IMAPIFormAdviseSink](imapiformadvisesinkiunknown.md) <br/> |确定窗体对象是否可以处理下一封邮件, 并更改该窗体对象的下一个或上一个状态。  <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1c22f842-d0e7-44f0-a7d5-c9c2aa6b8820
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ae8f3ab28837bf0579549ead46c28477f815f35c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338274"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439700"
 ---
 # <a name="dtblmvlistbox"></a>DTBLMVLISTBOX
 
@@ -50,7 +50,7 @@ typedef struct _DTBLMVLISTBOX
   
 > 类型为 PT_MV_TSTRING 的多值属性的属性标记。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTBLMVLISTBOX**结构描述具有项的只读列表的标准多值列表。 通过使用标准的多值列表, 这些值会立即显示出来。 
   

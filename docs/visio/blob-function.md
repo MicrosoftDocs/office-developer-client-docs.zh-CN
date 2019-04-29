@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f9d4ee2d-c7da-d969-4457-e37384768ac5
 description: 对 base64 字符串进行解码，并将其存储为二进制数据。
 ms.openlocfilehash: 3dedbbe80f1ffab04ef6dd2b2cacf79da374a6ae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317960"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438223"
 ---
 # <a name="blob-function"></a>BLOB 函数
 

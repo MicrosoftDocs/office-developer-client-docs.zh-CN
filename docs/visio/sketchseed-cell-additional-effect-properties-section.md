@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 6f62650d-36f8-4c6e-b79f-c9c397a5954d
 description: 表示用于确定草图效果几何图形的随机值, 以正整数表示。 将草图效果应用于形状时, 会随机创建 SketchSeed 单元格的值。
 ms.openlocfilehash: 3ec58fbfa183d1a6d7bb6960672658f9a6cca073
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315146"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434394"
 ---
 # <a name="sketchseed-cell-additional-effect-properties-section"></a>SketchSeed 单元格 ("其他效果属性" 部分)
 
 表示用于确定草图效果几何图形的随机值, 以正整数表示。 将草图效果应用于形状时, 会随机创建**SketchSeed**单元格的值。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**SketchSeed**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

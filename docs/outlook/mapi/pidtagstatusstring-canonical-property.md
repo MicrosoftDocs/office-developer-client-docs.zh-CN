@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 42cd946c-c55a-4371-99ee-05e2248fdd5f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9b4510a32fe14e4316a6bcddafcc163ee899436e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278891"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421562"
 ---
 # <a name="pidtagstatusstring-canonical-property"></a>PidTagStatusString 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32278891"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性使服务提供商和 MAPI 能够提供有关会话资源状态的特定信息, 如集成的通讯簿或特定的服务提供商。 此属性说明并提供有关状态代码或**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) 属性的其他信息。 尽管**PR_STATUS_CODE**是所有 STATUS 对象所必需的, 但**PR_STATUS_STRING**和关联属性是可选的。 如果传输提供程序未提供值, 则 MAPI 后台处理程序将提供默认值。 
   

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 7525eee1-4016-49b8-9509-5ebbe1db819f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 282b1866699b695c647caedd130ce5abc1bcbc2c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316693"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439000"
 ---
 # <a name="developing-a-tnef-enabled-transport-provider"></a>开发启用了 TNEF 的传输提供程序
 

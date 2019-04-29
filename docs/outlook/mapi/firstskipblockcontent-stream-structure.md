@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 89814eec-67c1-40b6-91d9-a58c3da0f15e
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 4804f2c6633095ea9eb38bec990cb1554240f6e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337063"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433925"
 ---
 # <a name="firstskipblockcontent-stream-structure"></a>FirstSkipBlockContent 流结构
 

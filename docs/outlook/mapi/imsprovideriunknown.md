@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0f17aa44-abcb-4732-b013-d91652847cf6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c5305ddd20b690f5c2e5807fb7ce2410549f7124
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317247"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412861"
 ---
 # <a name="imsprovider--iunknown"></a>IMSProvider : IUnknown
 
@@ -45,7 +45,7 @@ ms.locfileid: "32317247"
 |[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |将 MAPI 后台处理程序记录到邮件存储区。  <br/> |
 |[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |比较两个邮件存储区条目标识符, 以确定它们是否引用同一个存储对象。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 无论由存储提供程序打开多少个邮件存储区, MAPI 都会对每个会话使用一个邮件存储提供程序对象。 如果第二个 mapi 会话登录到任何打开的存储, 则 MAPI 会再次调用**MSProviderInit**以创建一个新的邮件存储提供程序对象, 以供该会话使用。 
   

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: a70c1445-03d5-9585-2bdb-d03c608b313b
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 6b8b3e8a41c52fef5b3ff4050292740a01216761
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322146"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438874"
 ---
 # <a name="about-the-attachment-security-api"></a>关于附件安全 API
 

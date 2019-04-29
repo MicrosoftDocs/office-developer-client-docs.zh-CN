@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e3f501a4-a8ee-43d7-bd83-c94e7980c398
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 28880b818bc80e31cae0c695d4aac92eb9555cac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314838"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433582"
 ---
 # <a name="imapipropgetidsfromnames"></a>IMAPIProp::GetIDsFromNames
 
@@ -80,7 +80,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用全部成功, 但无法返回一个或多个属性标识符。 每个不可用属性的相应属性类型都设置为**PT_ERROR** , 其标识符设置为零。 返回此警告时, 请将呼叫处理为成功。 若要测试此警告, 请使用**HR_FAILED**宏。 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIProp:: GetIDsFromNames**方法检索包含一个或多个命名属性的属性标识符的属性标记的数组。 可以调用**IMAPIProp:: GetIDsFromNames**以执行以下操作: 
   

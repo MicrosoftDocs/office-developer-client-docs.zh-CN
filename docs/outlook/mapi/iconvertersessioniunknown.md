@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 24f7a14a-aa6f-4045-054b-4a7aefef25e4
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2db55d6318cf02dd131d07b34841922e61605147
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336685"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432315"
 ---
 # <a name="iconvertersession--iunknown"></a>IConverterSession : IUnknown
 
@@ -49,7 +49,7 @@ ms.locfileid: "32336685"
 | *占位符成员*  <br/> | *不支持或记录。*  <br/> |
 |**[SetCharSet](iconvertersession-setcharset.md)** <br/> |指定 mapi 到 mime 转换器在将 mapi 邮件转换为 mime 流时使用的可选字符集。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在使用**MAPIToMIMEStm**执行转换之前调用**SetEncoding** 。 
   

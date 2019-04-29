@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 63444a65-d56a-4dbd-9aa6-e60f18ba8104
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 8dc82a99ee088d42c076ca9a3a75eac6553f7d35
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331876"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421338"
 ---
 # <a name="adding-address-book-entries"></a>添加通讯簿条目
 

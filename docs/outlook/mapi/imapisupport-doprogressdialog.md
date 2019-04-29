@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 74c52b96-e903-444b-8bda-73a08f278c22
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 3de29e9af5caa82d2e57c8fcbbdab7d5ddb19dd9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285204"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432581"
 ---
 # <a name="imapisupportdoprogressdialog"></a>IMAPISupport::DoProgressDialog
 
@@ -59,7 +59,7 @@ S_OK
   
 > 已成功检索进度对象。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport::D oprogressdialog**方法是为通讯簿和邮件存储提供程序支持对象实现的。 这些提供程序调用**DoProgressDialog**以访问[IMAPIProgress](imapiprogressiunknown.md)接口的 MAPI 实现, 这将计算进度信息并显示标准对话框。 
   

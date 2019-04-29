@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: f6010ac5-6c08-4c1b-a811-ff81b30ed5f0
 description: 您可以使用 RunDataMacro 操作来运行独立的数据宏。
 ms.openlocfilehash: 68c0e5a3837039bdab1165e686adb3bdf2a5b6f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304240"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439343"
 ---
 # <a name="rundatamacro-macro-action-access-custom-web-app"></a>RunDataMacro 宏操作 (Access 自定义 web 应用程序)
 
@@ -29,7 +29,7 @@ ms.locfileid: "32304240"
 |:-----|:-----|
 | _宏名_ <br/> |要运行的数据宏的名称。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当您选择要在宏设计器中运行的数据宏时，Access 将确定该数据宏是否需要参数。 如果数据宏需要参数, 则将显示文本框, 您可以在其中键入参数。
   

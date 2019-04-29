@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 01b6e695-a649-4efd-a893-7586b476467e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a3235c2305d61318f482943167e5f307e5da0d70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280097"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432875"
 ---
 # <a name="notification"></a>NOTIFICATION
  
@@ -96,7 +96,7 @@ typedef struct
   
 > 通知结构的联合, 用于描述特定类型事件的受影响数据。 **info**成员中包含的结构取决于**ulEventType**成员的值。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 每次调用已注册的通知接收器的[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法时, 都会将一个或多个**通知**结构作为输入参数进行传递。 **通知**结构包含有关已发生的特定事件的信息, 并描述受影响的对象。 
   

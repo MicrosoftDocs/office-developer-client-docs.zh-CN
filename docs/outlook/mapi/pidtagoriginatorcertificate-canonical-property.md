@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 65f890d8-9d25-408e-ab29-89991278b92d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d367073de2134ff766cbae3d4f6bcfa30b862122
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351105"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438937"
 ---
 # <a name="pidtagoriginatorcertificate-canonical-property"></a>PidTagOriginatorCertificate 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32351105"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是发起方的**PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) 属性的副本。
   

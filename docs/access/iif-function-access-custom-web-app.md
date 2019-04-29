@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 58a24f46-c61d-432a-a957-d831e960795d
 description: 检查是否满足某个条件, 如果另一个条件为 FALSE, 则返回一个值。
 ms.openlocfilehash: 274a923a96b58421f365b03c566a3a1c16b7c48c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301860"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439077"
 ---
 # <a name="iif-function-access-custom-web-app"></a>IIf 函数 (Access 自定义 web 应用程序)
 

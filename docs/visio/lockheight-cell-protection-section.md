@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 218b957e-5af6-e53b-1453-a84164ae456e
 description: 锁定形状的高度，以便在调整该形状的大小时使其高度保持不变。
 ms.openlocfilehash: 099f6597656d4389476818253f34e741ddd404de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341774"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432084"
 ---
 # <a name="lockheight-cell-protection-section"></a>LockHeight 单元格（“Protection”内容）
 
 锁定形状的高度，以便在调整该形状的大小时使其高度保持不变。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 已锁定高度。  <br/> |
 | FALSE  <br/> | 未锁定高度。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LockHeight 单元格的引用，请使用： 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5e444b62-d6b6-4cfc-8601-d34aa004c1e6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 324cfe9d7c412b3bb0e3150b8eec51aaeb6a0e93
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338659"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438391"
 ---
 # <a name="dtblgroupbox"></a>DTBLGROUPBOX
 
@@ -55,7 +55,7 @@ MAPI_UNICODE
   
 > 标签采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则标签将采用 ANSI 格式。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTBLGROUPBOX**结构描述了用于在对话框中以可视方式关联其他控件的分组框控件。 突出显示技术涉及到围绕其他控件的框。 
   

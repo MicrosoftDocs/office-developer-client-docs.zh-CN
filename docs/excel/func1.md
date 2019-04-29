@@ -10,17 +10,17 @@ keywords:
 - func1 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: a3d3c6bbd529f43bd75b31b9348498928390a8f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304079"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408913"
 ---
 # <a name="func1"></a>Func1
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 用户定义的工作表函数示例演示了静态字符串值的返回。 当加载了 GENERIC xll 时, 它将注册此函数, 以便可以从工作表中调用它。
   

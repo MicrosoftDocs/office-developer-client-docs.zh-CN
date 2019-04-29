@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d7f07524-6935-4a60-aaf3-3f753ea8d86a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 087d38face72e1e067350b1959b37313ebbd7c44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326290"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410677"
 ---
 # <a name="mviprop"></a>MVI_PROP
 
@@ -42,7 +42,7 @@ MVI_PROP (tag)
   
 > 要修改的属性标记。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MVI_FLAG 结合了 MV_FLAG 的设置、将属性标识为多值和 MV_INSTANCE, 请求多值属性以多行的形式显示在表中。 将修改受影响的属性的属性类型, 但标识符保持不变。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c3649daa-cba1-48e3-9ffb-069c1bcf8228
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: a3469e6baacb52938b870ca87d824bf640a8a88f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351567"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439483"
 ---
 # <a name="ixplogonvalidatestate"></a>IXPLogon::ValidateState
 
@@ -90,7 +90,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序调用**IXPLogon:: ValidateState**方法, 以支持对 status 对象的[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法的调用。 传输提供程序应将**IXPLogon:: ValidateState**调用完全按照 MAPI 后台处理程序打开当前登录会话的状态对象, 然后对该对象调用**IMAPIStatus:: ValidateState** 。 
   

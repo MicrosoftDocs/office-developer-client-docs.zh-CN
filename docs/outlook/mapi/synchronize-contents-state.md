@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 52216bc3-8cbd-3856-ea46-78f7d0dd66ff
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3ebe1f5f48f9becdf01ea184c2b76fa2c8fa21e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349565"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438468"
 ---
 # <a name="synchronize-contents-state"></a>同步内容状态
 

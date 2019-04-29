@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: f5dcc6d9-474a-9ecb-21f5-56415d934890
 description: 确定当数据类型为日期时用于形状数据的日历。
 ms.openlocfilehash: 2ddbd578053e2ae37514194450bd95dc9cdf441d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337504"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432756"
 ---
 # <a name="calendar-cell-shape-data-section"></a>Calendar 单元格（“Shape Data”内容）
 
 确定当数据类型为日期时用于形状数据的日历。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可能的值为：0（公历）、1（阿拉伯回历）、2（希伯来农历）、3（台历）、4（日本年号）、5（泰国佛历）、6（朝鲜檀纪历）、7（萨卡时代日历）、8（英语转译）和 9（法语转译）。 
   

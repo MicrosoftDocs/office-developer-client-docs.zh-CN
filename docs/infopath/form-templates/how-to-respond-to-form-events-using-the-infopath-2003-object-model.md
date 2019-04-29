@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 59e9c1ed-32a8-4bcd-bdfc-9aa568a34d2a
 description: 可以编写代码来响应用户填写表单时可能发生的各种事件。若要在 InfoPath 中处理事件，则应在 InfoPath Designer 中创建事件处理程序。
 ms.openlocfilehash: b7347f882df991e64bdf4e76c471b1220a84dc58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300096"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433491"
 ---
 # <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型响应表单事件
 

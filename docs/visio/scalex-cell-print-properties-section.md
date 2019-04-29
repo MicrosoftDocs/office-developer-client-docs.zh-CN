@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5916eadc-37f8-47af-fe54-f6062aea318f
 description: 指定绘图页在打印纸上的比例百分比。
 ms.openlocfilehash: d1c2f6c184f987e1e7190b1c208310b83a823ee3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326710"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410208"
 ---
 # <a name="scalex-cell-print-properties-section"></a>ScaleX 单元格（“Print Properties”内容）
 
 指定绘图页在打印纸上的比例百分比。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 只有在 OnPage 单元格的值为 FALSE 时才使用此值。 ScaleX 和 ScaleY 单元格的值始终相同, 这与 "**页面设置**" 对话框 (在 "**设计**" 选项卡上, 单击 "**页面设置**" 箭头) 的 "**打印设置**" 选项卡上的 "**调整为**" 设置中的值相对应。 
   

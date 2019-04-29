@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 88950eda-85ae-ad7a-46c6-0e1933d35e04
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: bf60b12a6e4575d3504a112aa2b54fb8c4ae23c7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287033"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433722"
 ---
 # <a name="exchangestoreversionnum"></a>EXCHANGE_STORE_VERSION_NUM
 

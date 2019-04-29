@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d2607bdd-6694-4b37-983e-020e175d230a
 description: 返回将大写字符数据转换为小写后的字符表达式。
 ms.openlocfilehash: 17d53706eb6c6089e9f7f99a4b26f10776b9cb08
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301811"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434408"
 ---
 # <a name="lower-function-access-custom-web-app"></a>Lower 函数 (Access 自定义 web 应用)
 

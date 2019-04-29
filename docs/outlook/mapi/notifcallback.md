@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 416008b4-13aa-4387-8c12-f8f2ca252391
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0e2a1a582894e082722d73422fc8bafe34c4230c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334473"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434016"
 ---
 # <a name="notifcallback"></a>NOTIFCALLBACK
 
@@ -59,7 +59,7 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
 
 **NOTIFCALLBACK**函数原型的有效返回值集取决于函数是否由客户端应用程序或服务提供程序实现。 客户端应始终返回 S_OK。 提供程序可以返回 S_OK 或 CALLBACK_DISCONTINUE。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 CALLBACK_DISCONTINUE 是仅适用于同步回调函数的有效返回值;它请求 MAPI 立即停止处理此通知的回调。 当返回 CALLBACK_DISCONTINUE 时, MAPI 在从[IMAPISupport:: NOTIFY](imapisupport-notify.md)返回时将_lpUlFlags_参数设置为 NOTIFY_CANCELED。 
   

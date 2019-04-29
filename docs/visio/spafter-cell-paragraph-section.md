@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 2dd56ae5-300e-ba09-a73a-83c2b6c2a0ef
 description: 确定除了在 SpLine 单元格（如果段落为文本块的最后一段，则由 BottomMargin 单元格指定）中指定的任何空间量外还需要在形状的文本块中每个段落后插入的空间量。
 ms.openlocfilehash: 2b8fe7e2b0df09561d0db4367f917c8f4b71335d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335222"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439833"
 ---
 # <a name="spafter-cell-paragraph-section"></a>SpAfter 单元格（“Paragraph”内容）
 
 确定除了在 SpLine 单元格（如果段落为文本块的最后一段，则由 BottomMargin 单元格指定）中指定的任何空间量外还需要在形状的文本块中每个段落后插入的空间量。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此值与绘图比例无关。即使绘图比例进行调整，“段后空间”设置仍保持不变。
   

@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: e9bfced5-af29-f86c-8604-44ec9a573229
 description: 锁定形状的纵横比，使形状只能按比例调整大小，而不能单维度调整大小。
 ms.openlocfilehash: 83ce1aaf555cfaaa0109423e74ae930450b4c1e2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359638"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411580"
 ---
 # <a name="lockaspect-cell-protection-section"></a>LockAspect 单元格（“Protection”内容）
 
 锁定形状的纵横比，使形状只能按比例调整大小，而不能单维度调整大小。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 已锁定纵横比。  <br/> |
 | FALSE  <br/> | 未锁定纵横比。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 LockAspect 单元格的引用，请使用： 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4838a9af-7818-49aa-ace8-cb94dda8471f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0fb688e2a845186224c1802f9df2ac537d5bb4d9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328726"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422304"
 ---
 # <a name="pidtagserviceextrauids-canonical-property"></a>PidTagServiceExtraUids 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32328726"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以为每个邮件筛选器创建新的配置文件节。 当要将有关邮件服务的信息复制到另一个配置文件时, 还必须复制筛选器的其他配置文件部分。 使用其他配置文件节的服务提供程序可以将这些配置文件节的**MAPIUID**结构存储在**PR_SERVICE_EXTRA_UIDS**中, 这允许 MAPI 复制其他邮件服务信息。
   

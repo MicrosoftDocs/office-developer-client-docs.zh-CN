@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 47bb268f-acdd-7369-716c-bd51a32b8a49
 description: 指定是否锁定属于该图层的形状，以免选取或编辑这些形状。
 ms.openlocfilehash: d548a6f0fe0cac10d80d73c904739b2979ecf27f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359680"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438825"
 ---
 # <a name="lock-cell-layers-section"></a>Lock 单元格（“Layers”内容）
 
 指定是否锁定属于该图层的形状，以免选取或编辑这些形状。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |锁定形状。  <br/> |
 |FALSE  <br/> |不锁定形状。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 还可以通过在 **“图层属性”** 对话框（在 **“开始”** 选项卡上的 **“编辑”** 组中，单击 **“图层”**，然后单击 **“图层属性”**）中选择 **“锁定”** 来设置此值。
   

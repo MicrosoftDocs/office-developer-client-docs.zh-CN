@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 50937e29-eaa1-0cd0-53cc-dc17e7793e55
 description: 指示是否在快捷菜单或动作标记菜单上选取了某项。
 ms.openlocfilehash: 870823f28d802e7cafa81efbe5617f27b6714885
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341844"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438328"
 ---
 # <a name="checked-cell-actions-section"></a>Checked 单元格（“Actions”内容）
 
@@ -23,12 +23,12 @@ ms.locfileid: "32341844"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |显示复选标记。  <br/> |
 |FALSE  <br/> |不显示复选标记（默认值）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Checked 单元格的引用，请使用： 
   

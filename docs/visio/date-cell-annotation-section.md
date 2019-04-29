@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f1f11803-614b-a40d-0a2d-131093e7609e
 description: 包含最后编辑注释的日期和时间。
 ms.openlocfilehash: 60fd726db1056075f96519050cffa67c76977126
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360338"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423879"
 ---
 # <a name="date-cell-annotation-section"></a>Date 单元格（“Annotation”内容）
 
@@ -23,7 +23,7 @@ ms.locfileid: "32360338"
 > [!NOTE]
 > 仅当在 Microsoft Visio 2013 中打开 .vsd 文件或以 .vsd 文件格式保存 .vsdx 文件时, 才会使用此单元格进行跟踪注释。 它不用于跟踪在 Visio 2013 中的 .vsdx 文档中的注释。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 该日期仅出现在用户界面的注释框中。
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 1d9717c1-4310-0d62-874f-4df77cd81627
 description: 确定在早于 Visio 2000 的 Visio 版本中插入的域的代码。
 ms.openlocfilehash: 293451b61def59ccfdf849dc597def9521fd22e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327341"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422213"
 ---
 # <a name="uicode-cell-text-fields-section"></a>UICode 单元格（“Text Fields”内容）
 
 确定在早于 Visio 2000 的 Visio 版本中插入的域的代码。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此单元格不显示在 ShapeSheet 窗口中。如果需要处理向后兼容问题，例如以 Visio 5.0 版文件格式保存 Visio 2000 版绘图，则使用此单元格。
   

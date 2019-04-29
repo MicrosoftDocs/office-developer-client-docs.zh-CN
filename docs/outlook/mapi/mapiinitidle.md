@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b6de7c6a-f2e7-4248-adea-d354924a8bbf
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b07c40882c0b9974c71eeb03123e7025b948a75e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346653"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432441"
 ---
 # <a name="mapiinitidle"></a>MAPIInitIdle
 
@@ -49,7 +49,7 @@ LONG MAPIInitIdle(
 
 如果初始化成功, 则**MAPIInitIdle**函数返回零, 否则返回1。 如果多次调用**MAPIInitIdle** , 则所有其他调用都将成功, 但会被忽略, 除非递增引用计数。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在调用任何其他 idle 引擎函数之前, 客户端应用程序或服务提供程序必须调用**MAPIInitIdle** 。 
   

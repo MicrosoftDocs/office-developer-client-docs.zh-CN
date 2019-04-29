@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6c2154fa-4190-0699-61f7-f2bdf87173ec
 description: 如果任何作为参数传递的逻辑表达式为 TRUE，则返回 TRUE (1)。
 ms.openlocfilehash: 175a1c72f5109caca786b823966f07836f4737f0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337210"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433505"
 ---
 # <a name="or-function"></a>OR 函数
 
@@ -36,7 +36,7 @@ OR (* * *logicalexpression1* * *, * * *logicalexpression2* * *,..., * * *logical
 
 布尔值
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 任何计算为非零值的表达式都被视为 TRUE。如果所有逻辑表达式都为 FALSE 或等于 0，则此函数将返回 FALSE。 
   

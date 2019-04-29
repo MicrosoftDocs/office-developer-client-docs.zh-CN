@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0101d291-00ca-4f66-b857-75d74b9f91a1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5e36cf12b7a5b1643f5a0ec97223030718195a7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331589"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433435"
 ---
 # <a name="ipropdatahrgetpropaccess"></a>IPropData::HrGetPropAccess
 
@@ -55,7 +55,7 @@ S_OK
   
 > 成功返回属性的访问级别和状态标志。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IPropData:: HrGetPropAccess**方法检索一组标志, 这些标志指示一个或多个属性的访问级别和状态。 
   

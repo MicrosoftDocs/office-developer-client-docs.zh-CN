@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1dab102f-24af-4984-8020-a9fb06355639
 description: 您可以使用 RequeryRecords 操作通过重新查询视图的源来刷新、排序和筛选活动视图中的数据。
 ms.openlocfilehash: 69d88401abc0de417f7dc58e275c66f2037212aa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311009"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439245"
 ---
 # <a name="requeryrecords-macro-action-access-custom-web-app"></a>RequeryRecords 宏操作 (Access 自定义 web 应用程序)
 
@@ -30,7 +30,7 @@ ms.locfileid: "32311009"
 |**Where =** <br/> |否  <br/> |限制视图中的记录的 SQL WHERE 子句。 默认情况下, 此参数为空。  <br/> |
 |**OrderBy** <br/> |否  <br/> |一个字符串表达式，包含作为记录排序依据的一个或多个字段的名称或可选的 ASC 或 DESC 关键字。 默认情况下, 此参数为空。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 调用**RequeryRecords**操作时, 将清除用户应用的任何排序或筛选。 
   

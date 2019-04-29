@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0f5c6097-eef5-5f58-e2ef-2c348e42dc9a
 description: 返回颜色色调组件的值。
 ms.openlocfilehash: 39fdd160f5cd792e95930a3e7c7cea3c37ed16c1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329909"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439490"
 ---
 # <a name="hue-function"></a>HUE 函数
 
@@ -32,9 +32,9 @@ ms.locfileid: "32329909"
    
 ### <a name="return-value"></a>返回值
 
-帐号
+数字
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 返回值是 0 至 239 之间的数字（包括 0 和 239）。输入内容为文档颜色表中某颜色的索引值、解析为自定义颜色的表达式（如 RGB 或 HSL），或者是对某个包含颜色索引值或颜色结果的单元格的引用。对于无效输入，该函数将返回 0。 
   

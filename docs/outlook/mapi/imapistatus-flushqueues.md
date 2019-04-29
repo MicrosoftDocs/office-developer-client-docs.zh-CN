@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d6b01a91-b452-4b2c-9802-698e7b0f4169
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 5f8396ca84192e485d33fb5a96f641361b717584
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328192"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432602"
 ---
 # <a name="imapistatusflushqueues"></a>IMAPIStatus::FlushQueues
 
@@ -88,7 +88,7 @@ MAPI_E_NO_SUPPORT
   
 > status 对象不支持此操作, 正如 status 对象的**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中缺少 STATUS_FLUSH_QUEUES 标志所指示的那样。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIStatus:: FlushQueues**方法请求 MAPI 后台处理程序或传输提供程序立即发送传出队列中的所有邮件或接收传入队列中的所有邮件。 **FlushQueues**仅由 MAPI 后台处理程序状态对象和传输提供程序提供的 status 对象实现。 
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a75ff1f3-2f4d-89e3-108b-e16a34f5184f
 description: 表示当指定了自定义项目符号字符串并且 Bullet 单元格中的值不为零时，用于设置文字格式的字体编号。
 ms.openlocfilehash: 1cf04917bb7dfa68ee9395abb66ffe9e150f0273
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337553"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438461"
 ---
 # <a name="bulletfont-cell-paragraph-section"></a>BulletFont 单元格（“Paragraph”内容）
 
 表示当指定了自定义项目符号字符串并且 Bullet 单元格中的值不为零时，用于设置文字格式的字体编号。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 根据您的系统上安装的字体，字体编号会有所不同。如果该值是 0 并且有自定义项目符号字符串，则所使用的字体与该段落的第一个字符的字体相同。
   

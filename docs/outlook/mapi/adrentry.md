@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5fa091a4-3a84-4881-91b3-e34fd9ca6f38
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 36e0218c9e4e312a138bef7517242f74079212c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330224"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421436"
 ---
 # <a name="adrentry"></a>ADRENTRY
 
@@ -55,7 +55,7 @@ typedef struct _ADRENTRY
   
 > 指向描述收件人属性的属性值数组的指针。 **rgPropVals**成员可以为 NULL。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ADRENTRY**结构描述属于单个收件人的属性。 通常用于描述收件人的属性包括以下各项: 
   

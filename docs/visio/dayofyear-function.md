@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 154d76a2-81f5-d8b1-b665-26dbae5da615
 description: 返回一个介于1到366之间的整数, 该整数表示日期时间或表达式中的一年中的连续日期。 DAYOFYEAR 函数使用公历日历。
 ms.openlocfilehash: 30c0331a57282baee97e81689b6a8f362581b8f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360290"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439449"
 ---
 # <a name="dayofyear-function"></a>DAYOFYEAR 函数
 
@@ -36,7 +36,7 @@ DAYOFYEAR ("* * *datetime* * *" |* **表达式** * [, * * *lcid* * *])
 
 整数
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _datetime_或_expression_中的任何时间组件都将被丢弃。 
   

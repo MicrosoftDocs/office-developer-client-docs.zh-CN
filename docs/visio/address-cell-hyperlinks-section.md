@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3864aadd-3f86-c20e-1a74-b0aaff5106f7
 description: 指定要跳转到的 URL 地址、文件名或 UNC 路径。
 ms.openlocfilehash: 0fbb89e18a2d7a849e2369c0d41aac4a647f067b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338547"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438034"
 ---
 # <a name="address-cell-hyperlinks-section"></a>Address 单元格（“Hyperlinks”内容）
 
@@ -22,7 +22,7 @@ ms.locfileid: "32338547"
   
 您可以根据在 "**属性**" 对话框 (依次单击 "**文件**" 选项卡、"**信息**"、"属性" 和 "属性") 的 "**摘要**" 选项卡上为文档定义的基准路径, 将地址指定为相对路径。 ****, 然后单击 "**高级属性**")。 如果文档没有基础路径，则应用程序会基于文档路径导航。 如果未保存文档，则超链接尚未定义。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 **“超链接”** 对话框（在 **“插入”** 选项卡上单击 **“超链接”**）中设置 Address 单元格的值。 
   

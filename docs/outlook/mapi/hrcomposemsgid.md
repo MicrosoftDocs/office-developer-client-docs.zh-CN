@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bb76b147-6552-4cc4-920f-699170aea17f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c035780d3d790d94551860a418401e63da1c2151
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348046"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424061"
 ---
 # <a name="hrcomposemsgid"></a>HrComposeMsgID
 
@@ -74,7 +74,7 @@ HrComposeMsgID(
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果要为其创建复合条目标识符的邮件或其他对象驻留在邮件存储区中, 则将从该对象的条目标识符和存储的记录密钥创建标识符字符串。 如果对象不在 store 中 (即, 如果在_cbStoreRecordKey_参数中传递的 store 记录关键字的字节数为零), 则只会复制对象的条目标识符, 并将其转换为字符串。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4e7340d1-3cb9-4276-b83f-1c8f94acb909
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 24ceb7b5358447de3a240756227b86224d2c354c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344476"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439084"
 ---
 # <a name="ssizerestriction"></a>SSizeRestriction
 
@@ -83,7 +83,7 @@ RELOP_EQ
   
 > 属性值中的字节数。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 有关限制的工作原理的一般讨论, 请参阅[关于限制](about-restrictions.md)。 
   

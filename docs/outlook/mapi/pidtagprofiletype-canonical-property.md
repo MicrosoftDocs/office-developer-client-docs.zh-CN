@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9cc1a1fa-62a7-411b-9b2b-c49d24a38a61
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e2d69a7d67d0a09f2155bcfc255c3e0bf8cb0ebe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286547"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433890"
 ---
 # <a name="pidtagprofiletype-canonical-property"></a>PidTagProfileType 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32286547"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性的可能值为：
   

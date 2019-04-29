@@ -13,11 +13,11 @@ api_type:
 ms.assetid: aa8dc48b-9e1c-8da0-9579-10b7174e99de
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 48d59d17d81da2ae78348a57ad8b1cb75486b1a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321313"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433372"
 ---
 # <a name="imapiofflinegetcapabilities"></a>IMAPIOffline::GetCapabilities
 
@@ -47,7 +47,7 @@ MAPIOFFLINE_CAPABILITY_ONLINE
   
 > 脱机对象能够提供联机通知。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在使用**[HrOpenOfflineObj](hropenofflineobj.md)** 打开脱机对象时, 客户端可以查询[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)以获取指向**IMAPIOffline**接口的指针, 并调用**IMAPIOffline:: GetCapabilities**以查找支持的回调对象。 然后, 客户端可以选择使用**IMAPIOfflineMgr**设置回调。
   

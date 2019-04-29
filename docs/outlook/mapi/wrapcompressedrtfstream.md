@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 710e0e2fc334194e33c6d8ba1296e4c7b1938bc0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325625"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439798"
 ---
 # <a name="wrapcompressedrtfstream"></a>WrapCompressedRTFStream
 
@@ -69,7 +69,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果在_ulFlags_参数中传递了 MAPI_MODIFY 标志, 则必须已打开_lpCompressedRTFStream_参数以进行读取和写入。 新的、未压缩的 RTF 文本应写入_lpUncompressedRTFStream_中返回的 stream 接口。 由于无法追加现有流, 因此必须写入整个消息文本。 
   

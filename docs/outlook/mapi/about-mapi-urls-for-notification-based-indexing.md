@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: '上次修改时间: 2011 年11月8日'
 ms.openlocfilehash: 5a3e45809f36b71968560a4b239e268addf00474
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322230"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422479"
 ---
 # <a name="about-mapi-urls-for-notification-based-indexing"></a>关于基于通知的索引的 MAPI url
 
@@ -82,7 +82,7 @@ WCHAR  wszProviderItemID
 |Part | 说明|
 |:----|:-----------|  
 |*dwVersion* |这是要发送的数据的版本。 当前此值为1。|
-|*dwFlags* |保留以供将来使用。 当前此值应为0。|
+|*dwFlags* |保留供以后使用。 当前此值应为0。|
 |*cbProfileName* |配置文件名称的大小 (以字节为单位)。 此信息对 MAPI 协议处理程序很有用, 以知道在对项目编制索引时要使用哪个配置文件。|
 |*wszProfileName* |以 Null 结尾的 Unicode 字符串, 其中包含配置文件名称。|
 |*cbProviderItemID* |提供程序项目 ID 的大小 (以字节为单位)。 存储提供程序应仅发送文件夹的提供程序项目 ID, 以防止打开其他文件夹获取此信息。|

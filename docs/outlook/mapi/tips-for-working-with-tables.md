@@ -9,11 +9,11 @@ api_type:
 ms.assetid: adb4d589-7e03-4222-8717-898ef397c6b6
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 8f310c6331df941d3093b276b6dec47f740412e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339646"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439735"
 ---
 # <a name="tips-for-working-with-tables"></a>使用表格的提示
 

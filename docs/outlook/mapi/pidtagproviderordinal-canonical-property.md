@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d062b54d-7c32-4369-ab69-f7193773a1c0
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fbeb63bbae23f8f7f78c92d3abed6bea1c3ac85d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286437"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438349"
 ---
 # <a name="pidtagproviderordinal-canonical-property"></a>PidTagProviderOrdinal 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32286437"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性由 MAPI 计算。
   

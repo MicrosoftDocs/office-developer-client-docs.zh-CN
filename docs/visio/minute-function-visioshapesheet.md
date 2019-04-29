@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5a90cb16-7eef-8876-8e25-408787b16f58
 description: 返回一个介于0到59之间的整数, 该整数表示 datetime 或 expression 的分钟部分。
 ms.openlocfilehash: 35fe1dc8d4026dd6c829a38504d9ba82d64edda2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283970"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436564"
 ---
 # <a name="minute-function-visioshapesheet"></a>MINUTE 函数 (VisioShapeSheet)
 
@@ -36,7 +36,7 @@ MINUTE (" *datetime* " | *表达式* [, *lcid* ])
 
 整数
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _datetime_和_expression_中的日期部分将被丢弃。 
   

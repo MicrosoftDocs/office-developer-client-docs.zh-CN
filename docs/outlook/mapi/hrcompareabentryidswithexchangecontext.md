@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: e537c25f-51b5-4f06-a20a-44ee540b9a1f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4bada5913623e2eb463a9e72347bd31eb22c414b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348074"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436431"
 ---
 # <a name="hrcompareabentryidswithexchangecontext"></a>HrCompareABEntryIDsWithExchangeContext
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6d1ed913-8329-3bb9-d275-9b76597781ee
 description: ''
 ms.openlocfilehash: 213436da43ef66bc85b0caf6bef20fb9972edc19
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327354"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439826"
 ---
 # <a name="edit-a-part-of-a-formula"></a>编辑公式的某一部分
 

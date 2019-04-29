@@ -9,11 +9,11 @@ api_type:
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: a5636cad7cad23bb5114bdbd34aff48c3639773b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298124"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407863"
 ---
 # <a name="managing-memory-for-adrlist-and-srowset-structures"></a>管理 ADRLIST 和 SRowSet 结构的内存
 

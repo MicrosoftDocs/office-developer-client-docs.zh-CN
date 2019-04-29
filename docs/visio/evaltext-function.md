@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c9b5b96c-d8c8-6119-e3f1-a2ce9d7c043e
 description: 评估 shapename 中的文本, 就好像它是一个公式并返回结果。
 ms.openlocfilehash: 6600d9d6ddaf630a93fdb5c37639ce50a21a4307
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329048"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438356"
 ---
 # <a name="evaltext-function"></a>EVALTEXT 函数
 
@@ -32,9 +32,9 @@ EVALTEXT (* * *shapename! theText* * *)
    
 ### <a name="return-value"></a>返回值
 
-字符串
+String
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  _shapename_ 可用来指代某形状（不是当前形状）的文本。 
   

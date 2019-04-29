@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: ea153390-631d-79fd-c1ba-4c281239a24e
 description: 确定用于形状的投影填充图案的前景（划线）的颜色。
 ms.openlocfilehash: 602df83dcb88d4137b0609f9a8b1084a40148a10
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349103"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422248"
 ---
 # <a name="shdwforegnd-cell-fill-format-section"></a>ShdwForegnd 单元格（“Fill Format”内容）
 
 确定用于形状的投影填充图案的前景（划线）的颜色。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要设置颜色，请输入 0 到 23 之间的一个数字，该数字是颜色集合中的一个索引。
   

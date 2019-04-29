@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4864ebc2-fee6-2415-7c59-e0af8611f8d6
 description: 如果 cellreference 的值为任何错误类型, 则返回 TRUE; 否则返回 false。否则, 它将返回 FALSE。 ISERROR 函数在引用其他单元格的公式中使用。
 ms.openlocfilehash: a07b2345858e36dc2e4514d7e4f0f0d653491b50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317889"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421541"
 ---
 # <a name="iserror-function-visioshapesheet"></a>ISERROR 函数 (VisioShapeSheet)
 
@@ -32,7 +32,7 @@ ISERROR (* * *cellreference* * *)
    
 ## <a name="example-1"></a>示例 1
 
-|**Cell**|**Formula**|**返回的值**|
+|**单元格**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |草稿。 A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |草稿 B1  <br/> |= ISERROR (的 A1)  <br/> |TRUE  <br/> |
@@ -41,7 +41,7 @@ ISERROR (* * *cellreference* * *)
   
 ## <a name="example-2"></a>示例 2
 
-|**Cell**|**Formula**|**返回的值**|
+|**单元格**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |暂存. X1  <br/> |= "房子"  <br/> |#VALUE!  <br/> |
 |草稿 B1  <br/> |= ISERROR (X1)  <br/> |TRUE  <br/> |

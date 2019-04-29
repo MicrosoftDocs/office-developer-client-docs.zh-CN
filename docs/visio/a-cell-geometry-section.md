@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6853df0f-d22e-89ca-7d34-342b9c0bea23
 description: 在不同行中表示不同的信息。 此表根据 A 单元格所在的行对 A 单元格进行了说明。
 ms.openlocfilehash: 42f346b06cad827cfe56fc113a8387d1a31a6867
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341585"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432917"
 ---
 # <a name="a-cell-geometry-section"></a>A 单元格（“Geometry”内容）
 
 在不同行中表示不同的信息。 此表根据 A 单元格所在的行对 A 单元格进行了说明。
   
-|**行**|**Description**|
+|**行**|**说明**|
 |:-----|:-----|
 |[ArcTo](arcto-row-geometry-section.md) <br/> | 从弧形的中点到对应的弦的中点的距离。  <br/> |
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | 弧形的控制点 (弧形上的一个点) 的*x*坐标。控制点最适合弧的起始和结束顶点之间的中间点。否则, 弧的大小可能会增大到极大的大小, 以便通过控制点, 从而导致不可预知的结果。  <br/> |
@@ -31,7 +31,7 @@ ms.locfileid: "32341585"
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | 无限长线上某个点的*x*坐标;与[B](b-cell-geometry-section.md)单元格所表示的*y*坐标配对。  <br/> |
 |[椭圆](ellipse-row-geometry-section.md) <br/> | 椭圆上某个点的*x*坐标;与[B](b-cell-geometry-section.md)单元格所表示的*y*坐标配对。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或程序使用 **CellsU** 属性按名称获取对 A 单元格的引用，请使用： 
   

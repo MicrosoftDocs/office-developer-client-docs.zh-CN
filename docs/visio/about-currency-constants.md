@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d94c740f-29e1-1e7f-39f6-8aa215f3111d
 description: 要将数字设为货币格式，可以使用 CY 函数并传递一个可选常量来指定要使用哪个国家（地区）的货币。货币常量可以指定为对应于一个国家（地区）的 ID 号，或者指定为对应于 ISO 4217 三字符缩写的字符串（将该字符串括在引号内）。
 ms.openlocfilehash: 4492f4901779d94a32b881c973eab9e32a9c0514
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344584"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421793"
 ---
 # <a name="about-currency-constants"></a>关于货币常量
 
@@ -29,13 +29,13 @@ ms.locfileid: "32344584"
 | 0  <br/> | http.sys  <br/> | 使用系统设置  <br/> |
 | 1  <br/> | 美元  <br/> | 采用数字格式  <br/> |
 | 2 - 9  <br/> | Reserved  <br/> |
-| 10  <br/> | EUR  <br/> | 欧元  <br/> |
-| 11x17  <br/> | 美元  <br/> | 美元  <br/> |
-| 12  <br/> | ATS  <br/> | 奥地利先令  <br/> |
-| 13  <br/> | AUD  <br/> | 澳大利亚元  <br/> |
-| 日  <br/> | BEF  <br/> | 比利时法郎  <br/> |
-| 个  <br/> | CAD  <br/> | 加拿大元  <br/> |
-| 位  <br/> | CHF  <br/> | 瑞士法郎  <br/> |
+| 10   <br/> | EUR  <br/> | 欧元  <br/> |
+| 11   <br/> | 美元  <br/> | 美元  <br/> |
+| 12   <br/> | ATS  <br/> | 奥地利先令  <br/> |
+| 13   <br/> | AUD  <br/> | 澳大利亚元  <br/> |
+| 14   <br/> | BEF  <br/> | 比利时法郎  <br/> |
+| 15   <br/> | CAD  <br/> | 加拿大元  <br/> |
+| 16   <br/> | CHF  <br/> | 瑞士法郎  <br/> |
 | ×  <br/> | CNY  <br/> | 中国人民币元  <br/> |
 | 18  <br/> | DEM  <br/> | 德国马克  <br/> |
 | 合  <br/> | DKK  <br/> | 丹麦克朗  <br/> |

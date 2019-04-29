@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: f9624af2-c087-3dde-9140-339c438b3652
 description: 确定是否围绕路径的边界来绘制线条。
 ms.openlocfilehash: ad3744ae8deb4ffb4dd2282e50590439c4b218a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357279"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433750"
 ---
 # <a name="noline-cell-geometry-section"></a>NoLine 单元格（“Geometry”内容）
 
 确定是否围绕路径的边界来绘制线条。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 不围绕路径的边界绘制线条，该路径是填充区域的边界。  <br/> |
 | FALSE  <br/> | 围绕路径的边界绘制线条。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在您将线条的颜色改为白色后，尽管在白色的背景下看不到它，但该线条仍然是存在的。如果将此单元格的值设置为 TRUE，则不绘制任何线条。
   

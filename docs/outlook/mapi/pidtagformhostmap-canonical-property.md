@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 92742747-cce0-4c54-9ece-1fcf652ac498
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 346776635fc36ffd8efd10cb232846831add20f7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316224"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433764"
 ---
 # <a name="pidtagformhostmap-canonical-property"></a>PidTagFormHostMap 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32316224"
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当更改**IMAPIFormProp**接口中的基础结构时, 客户端应用程序应更新此属性以及**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。 
   

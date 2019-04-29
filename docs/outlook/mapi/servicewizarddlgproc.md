@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3e2d5190-e67a-470d-8177-0f0ba20c7b82
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e43a1d7c57668ba930b4c4af7194bd298971e6ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356411"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432378"
 ---
 # <a name="servicewizarddlgproc"></a>SERVICEWIZARDDLGPROC
  
@@ -99,7 +99,7 @@ FALSE
   
 > 服务提供程序尚未处理收到的窗口消息。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当用户从一个属性页移到另一个时, 提供程序负责隐藏旧页面的控件, 并显示下一页或上一页的控件。 当用户单击 "**下一步**" 按钮时, 将在_wParam_参数中使用 WM_COMMAND 消息和 WIZ_NEXT 调用基于**SERVICEWIZARDDLGPROC**的函数。 以下步骤描述了用户单击 "**下一步**" 和第一个提供程序的配置页面呈现时间之间发生的情况。 
   

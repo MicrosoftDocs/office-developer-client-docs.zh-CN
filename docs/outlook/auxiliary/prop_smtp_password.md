@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: dcbab309-8754-40d8-94d1-5567f2989487
 description: 表示 SMTP 帐户的密码。
 ms.openlocfilehash: a22e2e6e449403abbd5751b4e7fc14c1a6ea0650
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326556"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435948"
 ---
 # <a name="propsmtppassword"></a>PROP_SMTP_PASSWORD
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c59a6ce9-6b1f-4395-961e-c3af2945f05e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d573916682e4857b367a898d22f2cff5af47ef27
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327221"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435381"
 ---
 # <a name="pidtagpreprocess-canonical-property"></a>PidTagPreprocess 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32327221"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 非传输  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 > [!IMPORTANT]
 > 不要使用此属性。 它保留供 MAPI 使用。 

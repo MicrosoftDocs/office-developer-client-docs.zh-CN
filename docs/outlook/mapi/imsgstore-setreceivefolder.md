@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 469f0412-1343-47ce-b6e8-e0d5e56c29bb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: efa5d60098fd5f16328669249a8445a124d9878b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317337"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434086"
 ---
 # <a name="imsgstoresetreceivefolder"></a>IMsgStore::SetReceiveFolder
 
@@ -64,7 +64,7 @@ S_OK
   
 > 已成功建立接收文件夹。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgStore:: SetReceiveFolder**方法设置或更改特定邮件类别的接收文件夹。 使用**SetReceiveFolder**, 客户端可以通过使用连续调用为每个定义的邮件类别指定不同的接收文件夹, 或指定所有邮件类别的传入邮件都将转到同一文件夹。 例如, 客户端可以让其自己的邮件类到达自己的文件夹中。 传真应用程序可以指定一个文件夹, 其中存储提供程序将传入传真和另一个文件夹放置在其中, 提供程序将传出传真放在其中。
   

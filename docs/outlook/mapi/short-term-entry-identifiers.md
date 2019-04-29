@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 948e007a-ad68-4abd-9720-204c6584beb5
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 1b361e025b631418eb63c5c74da264beadec2974
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339191"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439560"
 ---
 # <a name="short-term-entry-identifiers"></a>短期条目标识符
 

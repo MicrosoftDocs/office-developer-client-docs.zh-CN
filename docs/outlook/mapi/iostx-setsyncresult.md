@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7f083ee0-bf36-0059-1589-66e454fe0098
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 78ccf72f17ec350d77f2d22d0e6d2fa7c3d97543
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332142"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432868"
 ---
 # <a name="iostxsetsyncresult"></a>IOSTX::SetSyncResult
 
@@ -39,7 +39,7 @@ HRESULT SetSyncResult(
   
 >  实时同步的结果。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 调用**IOSTX:: SetSyncResult**之前调用**IOSTX:: SyncEnd**将同步结果的本地存储通知给本地存储。 
   

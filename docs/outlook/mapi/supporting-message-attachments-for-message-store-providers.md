@@ -9,11 +9,11 @@ api_type:
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
 description: 上次修改时间：2015 年 12 月 7 日
 ms.openlocfilehash: 69d1df5bf206cddd0d25698665c9fd87b81e4ea5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350622"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412133"
 ---
 # <a name="supporting-message-attachments-for-message-store-providers"></a>支持邮件存储提供程序的邮件附件
 

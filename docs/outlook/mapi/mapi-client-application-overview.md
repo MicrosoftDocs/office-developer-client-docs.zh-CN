@@ -9,11 +9,11 @@ api_type:
 ms.assetid: ad2e1f2d-57c3-4fb5-9e0f-db51640df84d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 100d1339ade8e5983c89695afbd85592cc2a4e43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318968"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411279"
 ---
 # <a name="mapi-client-application-overview"></a>MAPI 客户端应用程序概述
 

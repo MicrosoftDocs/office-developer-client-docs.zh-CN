@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5b4290d9-230f-416a-9644-188578565c7b
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: c34c175c43ada03e982f08a27f675448ea24a567
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316589"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438545"
 ---
 # <a name="imapisupportgetlasterror"></a>IMAPISupport::GetLastError
 
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志且 mapi 不支持 unicode, 或者未设置 MAPI_UNICODE, 且 mapi 仅支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: GetLastError**方法是为所有支持对象实现的。 通过在对话框中包含**MAPIERROR**结构中的数据, 呼叫者可以向其用户提供有关错误的详细信息。 
   

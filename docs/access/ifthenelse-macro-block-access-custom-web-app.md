@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 18d28dc1-c41f-47c6-b5c7-258d5f877d01
 description: 可以使用 If 宏程序块，根据表达式的值有条件地执行一组操作。
 ms.openlocfilehash: 6fe82e2c42f8e5d93cdc26798e7572e32d6cdc7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304261"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434492"
 ---
 # <a name="ifthenelse-macro-block-access-custom-web-app"></a>If .。。然后 .。。Else 宏块 (Access 自定义 web 应用程序)
 
@@ -41,7 +41,7 @@ End If
 |:-----|:-----|
 |**Expression** <br/> |要测试的条件。 它必须是一个计算结果为 True 或 False 的表达式。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当您选择 **If** 宏程序块时，会出现一个文本框，可在其中输入代表要测试的条件的表达式。此外，还会出现一个可插入宏操作的组合框，它下面会自动显示文本"End If"。If 和 End If 括起一个区域，可在其中输入操作组或块。仅当您输入的表达式为 True 时，该块才会执行。 
   

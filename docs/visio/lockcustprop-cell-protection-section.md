@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: d1c23f1d-485d-a897-594d-15d6e8d0fb3c
 description: 确定用户是否可以使用“定义形状数据”对话框或“形状数据”窗口的快捷菜单在用户界面 (UI) 中添加、删除或修改形状数据。
 ms.openlocfilehash: 001123f3bd08d35f6f8e4874e20f2ee073835494
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359604"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422521"
 ---
 # <a name="lockcustprop-cell-protection-section"></a>LockCustProp 单元格（“Protection”内容）
 
 确定用户是否可以使用 **“定义形状数据”** 对话框或 **“形状数据”** 窗口的快捷菜单在用户界面 (UI) 中添加、删除或修改形状数据。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |**“形状数据”** 窗口中的快捷菜单上的 **“定义形状数据”** 命令被禁用。  <br/> |
 |FALSE  <br/> |**“形状数据”** 窗口中的快捷菜单上的 **“定义形状数据”** 命令被启用（默认值）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 值为 TRUE 则表示不禁止用户更改形状数据项的值，或者不禁止用户在 ShapeSheet 窗口中更改“Shape Data”内容。 
   

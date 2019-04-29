@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 495b2aec-e197-75eb-9974-e7c92d26546f
 description: 为相应的用户定义的单元格指定值。
 ms.openlocfilehash: 137d22430829f96a9c6ad69a73a6b44e964d5f4f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355893"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422986"
 ---
 # <a name="value-cell-user-defined-cells-section"></a>Value 单元格（“User-Defined Cells”内容）
 
 为相应的用户定义的单元格指定值。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要在其他单元格中引用该值，请指定在行标签 User.Row 中输入的用户定义的名称。
   

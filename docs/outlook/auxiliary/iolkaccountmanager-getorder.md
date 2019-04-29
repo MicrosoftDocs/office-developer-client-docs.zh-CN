@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: bd22026c-e4f7-2f25-0ef2-5d9539fd7eee
 description: 获取指定的帐户类别的排序。
 ms.openlocfilehash: 3eb6dd96caa43f81eba86a389c938ef90c9533b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322027"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424621"
 ---
 # <a name="iolkaccountmanagergetorder"></a>IOlkAccountManager::GetOrder
 
@@ -58,7 +58,7 @@ _prgAccts_
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |帐户管理器已初始化，不能使用。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 调用此方法之前, 调用方仅分配一个数组指针*prgAccts* , 但在该数组处没有*prgAccts*点的内存。 此方法返回后, 调用方必须使用[IOlkAccountManager:: FreeMemory](iolkaccountmanager-freememory.md)来释放为*prgAccts*分配的内存。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9c34538e-5ba4-47c8-8002-85afa9d6c067
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 39d8786bf558ade4599d69e0a764f87fe60d99f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341767"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408766"
 ---
 # <a name="imapisupportstatusrecips"></a>IMAPISupport::StatusRecips
 
@@ -54,7 +54,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 呼叫全部成功, 但此类型的收件人没有收件人选项。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为传输提供程序支持对象实现了**IMAPISupport:: StatusRecips**方法。 传输提供程序调用**StatusRecips**以请求 MAPI 向一组或多封邮件的一个或多个收件人发送传递或 nondelivery 报告。 
   

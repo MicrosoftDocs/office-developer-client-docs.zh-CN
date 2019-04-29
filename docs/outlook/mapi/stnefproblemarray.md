@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 115d845b-4168-4d49-b880-219ee28baa9a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 721b14f101e87299f654507f94d4a957f905cac1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336496"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434261"
 ---
 # <a name="stnefproblemarray"></a>STnefProblemArray
 
@@ -50,7 +50,7 @@ typedef struct _STnefProblemArray
   
 > [STnefProblem](stnefproblem.md)结构的数组。 每个结构都包含有关属性或属性处理问题的信息。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果在属性或属性处理过程中出现问题, 则[ITnef:: ExtractProps](itnef-extractprops.md)方法和[ITnef:: Finish](itnef-finish.md)方法中的 output 参数都会收到指向**STnefProblemArray**结构和 ExtractProps 的指针**** 并**完成**每个返回值 MAPI_W_ERRORS_RETURNED。 此错误值指示在处理过程中出现问题并生成**STnefProblemArray**结构。 
   

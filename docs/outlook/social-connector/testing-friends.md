@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 109c34b6-911b-4dfc-9799-aadf47172e84
 description: 本主题介绍测试和方案, 以验证 Outlook Social Connector (.osc) 提供程序是否根据提供程序支持的同步模式, 适当地返回了朋友和非朋友的数据 (如果适用)。
 ms.openlocfilehash: 1c97342fd5b219b15b1f58dbc065fc268f8e81d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338785"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433666"
 ---
 # <a name="testing-friends"></a>测试好友
 
@@ -60,7 +60,7 @@ ms.locfileid: "32338785"
 
 若要验证您的提供商是否已正确提供有关好友和非好友的信息, 请测试以下方案。
   
-|**应用场景**|**预期行为**|
+|**方案**|**预期行为**|
 |:-----|:-----|
 |在 "人员" 窗格中选择的人是社交网络中已登录用户的好友。  <br/> |"人员" 窗格在社交网络上显示此人的活动。  <br/> |
 |在 "人员" 窗格中选择的人是社交网络中已登录用户的非朋友, 但允许非好友查看他或她的活动。  <br/> |"人员" 窗格在社交网络上显示此人的活动。  <br/> |

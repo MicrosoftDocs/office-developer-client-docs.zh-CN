@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ed3c997b-0a58-0432-c468-a24614b67f2e
 description: 如果形状的类别列表中包含指定的字符串，则返回 TRUE。
 ms.openlocfilehash: 902819f981b53aed96695e181ab556d3841d97c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360163"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433351"
 ---
 # <a name="hascategory-function"></a>HASCATEGORY 函数
 
@@ -37,7 +37,7 @@ HASCATEGORY (* * *category* * *)
 
  **Boolean**
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
  *类别*是用户定义的字符串, 可用于对形状进行分类。 可以在形状 ShapeSheet 的 User.msvShapeCategories 单元格中定义类别。 可以通过用分号分隔类别来为形状定义多个类别。 
   

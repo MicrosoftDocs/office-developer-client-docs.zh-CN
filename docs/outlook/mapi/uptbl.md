@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 39d9ad3b-ff4b-8378-a3ac-d5621c7ef7f1
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: b401f54df020fb6553cbdcc5b85206ee422a8429
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338855"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438111"
 ---
 # <a name="uptbl"></a>UPTBL
 

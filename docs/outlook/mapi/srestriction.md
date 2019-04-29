@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c12b4409-da6f-480b-87af-1e5baea2e8bd
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a2a6d273495df52adb83393dc5549b0872c8f6f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341739"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439357"
 ---
 # <a name="srestriction"></a>SRestriction
 
@@ -122,7 +122,7 @@ RES_SUBRESTRICTION
 |RES_SIZE  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |
 |RES_SUBRESTRICTION  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端使用**SRestriction**结构来限制其表视图中的行数和类型, 并在文件夹中搜索特定邮件。 若要对表施加限制, 客户端可以调用[IMAPITable:: Restrict](imapitable-restrict.md)或[IMAPITable:: FindRow](imapitable-findrow.md)。 若要对文件夹施加限制, 客户端可以调用文件夹的[IMAPIContainer:: SetSearchCriteria](imapicontainer-setsearchcriteria.md)方法。 
   

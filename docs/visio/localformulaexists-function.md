@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2b757c8d-7732-0f9b-c836-ef755dd1c673
 description: 指示引用的单元格是否包含局部公式。
 ms.openlocfilehash: bd0a5dafecf1bd8dca1567392d880ecaaa3e0374
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344462"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433288"
 ---
 # <a name="localformulaexists-function"></a>LOCALFORMULAEXISTS 函数
 
@@ -34,7 +34,7 @@ LOCALFORMULAEXISTS (* * *cellref* * *)
 
 布尔值
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 如果单元格中包含本地公式，则 LOCALFORMULAEXISTS 函数返回 1；如果没有公式或公式是继承而来的，则返回 0（零）。 
   

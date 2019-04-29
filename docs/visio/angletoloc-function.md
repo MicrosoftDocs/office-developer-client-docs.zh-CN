@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ee5e3898-bb49-57c6-0ebe-12e1fe388e55
 description: 使用目标形状的本地坐标系返回一个转换过的角度。 它将一个角度从源形状中的本地坐标转换到目标形状中的本地坐标。
 ms.openlocfilehash: 804faeb24932e414ad03bc9e8487c62ca08bd7d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341473"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433568"
 ---
 # <a name="angletoloc-function"></a>ANGLETOLOC 函数
 
@@ -28,11 +28,11 @@ ANGLETOLOC (* * *srcAngle* * *, * * *srcRef* * *, * * *dstRef* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _srcAngle_ <br/> |必需  <br/> |**Numeric** <br/> |源坐标系中的角度。  <br/> |
+| _srcAngle_ <br/> |必需  <br/> |**数值** <br/> |源坐标系中的角度。  <br/> |
 | _srcRef_ <br/> |必需  <br/> |**String** <br/> | 对源对象（如形状、组合、页等）中的单元格的引用。  <br/> |
 | _dstRef_ <br/> |必需  <br/> |**String** <br/> |对目标对象（如形状、组合、页等）中的单元格的引用。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以使用 ANGLETOLOC 函数来按照另一个坐标空间中的角度设置形状中的本地角度单元格。
   

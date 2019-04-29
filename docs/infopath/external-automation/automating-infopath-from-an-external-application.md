@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 4d2248d9-ab20-bcaa-d75b-62876c5e95eb
 description: Microsoft InfoPath 通过使用 application 对象和 XDocuments 集合的方法, 从使用 COM 和脚本编写的代码中提供应用程序自动化。
 ms.openlocfilehash: 7eccbca34b93aff7909de92eebc04d012d4dd97c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303806"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412665"
 ---
 # <a name="automating-infopath-from-an-external-application"></a>从外部应用程序自动执行 InfoPath
 

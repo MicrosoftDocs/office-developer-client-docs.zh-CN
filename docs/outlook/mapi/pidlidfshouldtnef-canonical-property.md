@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3cab23b6-f0e3-4703-a83b-12a617537651
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a8f88e4b41ab455c55bfd1cb36b73ce7ef0383b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348991"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438965"
 ---
 # <a name="pidlidfshouldtnef-canonical-property"></a>PidLidFShouldTNEF 规范属性
 
@@ -35,7 +35,7 @@ ms.locfileid: "32348991"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在将 Microsoft Word 设置为电子邮件编辑器, 并发送嵌入在 rtf 格式 (rtf) 流中的 OLE 对象时, 将设置此属性。
   

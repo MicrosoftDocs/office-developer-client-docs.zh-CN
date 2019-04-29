@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8316ff89-104d-43fd-902b-476fe567e23b
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 8ccb732dd587b2e5107290b2db7c48e85d0145d4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317330"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434149"
 ---
 # <a name="imsgstoregetoutgoingqueue"></a>IMsgStore::GetOutgoingQueue
 
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功返回传出队列表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgStore:: GetOutgoingQueue**方法为 MAPI 后台处理程序提供对显示邮件存储的传出邮件队列的表的访问权限。 通常情况下, 在调用[IMessage:: SubmitMessage](imessage-submitmessage.md)方法后, 邮件将放入传出队列表中。 但是, 由于提交顺序影响了预处理和提交到传输提供程序的顺序, 因此一些已标记为发送的邮件可能不会立即显示在传出队列表中。 
   

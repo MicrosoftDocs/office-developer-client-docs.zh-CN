@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 023686702b76b5b29acf4304fcfdb3377e8cfcff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332863"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436291"
 ---
 # <a name="implementing-a-provider-one-off-table"></a>实现提供程序一次性表
 

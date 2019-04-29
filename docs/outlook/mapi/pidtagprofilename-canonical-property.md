@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 13ca726d-ae7a-4da9-9c8e-3db3c479f839
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 992b3a6a30e15d267ffeda11ec98c7b4aeacb2c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341648"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435647"
 ---
 # <a name="pidtagprofilename-canonical-property"></a>PidTagProfileName 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32341648"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性由服务提供程序进行计算。 提供程序的**ServiceEntry**函数实现可以使用这些属性来发现配置文件名称。 
   

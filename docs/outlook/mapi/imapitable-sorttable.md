@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ff5f78ac-06cf-46fb-93da-5f4a3a5d1b22
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: f16ba9164d55fdb7bd688d4068f99dc4407e5413
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328852"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432364"
 ---
 # <a name="imapitablesorttable"></a>IMAPITable::SortTable
 
@@ -84,7 +84,7 @@ MAPI_E_TOO_COMPLEX
     
    - 除从**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性前进到表的过程之外的排序操作仅为支持此类型排序的附件表指定。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: SortTable**方法对表格视图中的行进行排序。 有些表支持对各种排序键列进行标准和分类排序, 而其他表在支持方面更受限制。 通讯簿提供程序通常不支持表排序。 邮件存储提供程序通常支持对其保存在完整的表 (不受限制的表) 进行排序时结果的排序顺序的范围进行排序。 
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 0edea0ea-58dd-15da-6d4f-185d40133452
 description: 确定形状或页的默认超链接。将此单元格的值设置为 TRUE 可以将一个超链接设置为默认超链接。
 ms.openlocfilehash: 9991bd0e241c5dfd4fda65aeff8b6cc203ad3458
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360275"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434352"
 ---
 # <a name="default-cell-hyperlinks-section"></a>Default 单元格（“Hyperlinks”内容）
 
 确定形状或页的默认超链接。将此单元格的值设置为 TRUE 可以将一个超链接设置为默认超链接。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以使用以下方法设置默认超链接：选择一个形状，在 **“插入”** 选项卡上单击 **“超链接”**，选择一个超链接，然后单击 **“默认值”**。默认的超链接以粗体文本显示。
   

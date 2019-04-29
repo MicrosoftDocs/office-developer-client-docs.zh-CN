@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 79bbdd84-a3a7-4472-9447-8b0ddbf163ef
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f301bb50cc0d28126040a80cccb5d4e5566aebac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339919"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421317"
 ---
 # <a name="pidtagassociatedcontentcount-canonical-property"></a>PidTagAssociatedContentCount 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32339919"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性包含文件夹的内容表中的条目数。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ea56996ad56bb4ce93d103a75eba2c29e6059a87
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328040"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432629"
 ---
 # <a name="fpropcontainsprop"></a>FPropContainsProp
 
@@ -79,7 +79,7 @@ FALSE
   
 > 要比较的属性值不是类型 PT_STRING8 或 PT_BINARY, 属性值的类型不同, 或者_lpSPropValueSrc_搜索字符串不包含在_lpSPropValueDst_属性值中指定的情况下。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 比较方法取决于在[SPropValue](spropvalue.md)属性定义中指定的属性类型以及_ulFuzzyLevel_参数中提供的模糊级别试探法。 [FPropCompareProp](fpropcompareprop.md)和**FPropContainsProp**函数可用于准备生成表的限制。 
   

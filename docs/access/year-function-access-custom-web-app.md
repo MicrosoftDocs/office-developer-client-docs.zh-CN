@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a70751eb-bfde-4f7d-ad90-a1e4cca25dbc
 description: 返回一个数值, 表示公历中指定日期的年份。
 ms.openlocfilehash: 1400c352bcc070035d15b46f8e547e4637364299
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301664"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433120"
 ---
 # <a name="year-function-access-custom-web-app"></a>Year 函数 (Access 自定义 web 应用)
 
@@ -31,7 +31,7 @@ ms.locfileid: "32301664"
 |:-----|:-----|
 | *Date*  <br/> |可以解析为日期/时间值的表达式。 *日期*参数表达式、列表达式、用户定义的变量或字符串文本。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 由**Year**、 **Month**和**Day**函数返回的值将为公历值, 而不考虑提供的日期值的显示格式。 例如, 如果所提供日期的显示格式使用阿拉伯回历日历, 则**Year**、 **Month**和**Day**函数的返回值将是与等效公历日期相关联的值。 
   

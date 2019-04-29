@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 08cf1faa0c3cc4cf61e2253b0026361704fdd0e2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269935"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438181"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>PidTagCreateTemplates 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32269935"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要了解可以在容器中创建的模板对象, 请对该属性调用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法。 生成的对象是一个一次性表, 该表为您可以在容器中创建的所有模板提供条目标识符。 
   

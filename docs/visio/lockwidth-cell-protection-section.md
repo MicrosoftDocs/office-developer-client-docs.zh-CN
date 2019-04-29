@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: fef022ea-38ab-2b66-60c8-b94a6b0bdfbf
 description: 锁定形状的宽度，以便在调整该形状的大小时使其宽度保持不变。
 ms.openlocfilehash: 84c89b5f264c00d6fe5f95cb27eae74b91b88dc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314831"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439805"
 ---
 # <a name="lockwidth-cell-protection-section"></a>LockWidth 单元格（“Protection”内容）
 
 锁定形状的宽度，以便在调整该形状的大小时使其宽度保持不变。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 已锁定宽度。  <br/> |
 | FALSE  <br/> | 未锁定宽度。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LockWidth 单元格的引用，请使用： 
   

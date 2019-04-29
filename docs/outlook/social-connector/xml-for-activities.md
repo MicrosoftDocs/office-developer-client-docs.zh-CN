@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: acc4a555-a3bf-4a79-86dc-aba6477733b8
 description: 本主题包含一个示例方案, 显示了 .osc 提供商实施的 Outlook Social Connector (.osc) 提供程序扩展性 API 调用以及 .osc 获取活动信息的情况。 信息以符合 .osc 提供程序 XML 架构的 XML 字符串表示。
 ms.openlocfilehash: a4f1c6ce1f33b59811f6a6fecb737cd1f737946b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329118"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409627"
 ---
 # <a name="xml-for-activities"></a>活动的 XML
 

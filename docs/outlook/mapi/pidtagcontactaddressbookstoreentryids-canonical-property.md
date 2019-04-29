@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b0f5393b-f923-4802-8ea0-daf58cd4bace
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0a93105f01502ae5b12e0bc8c6f2daa63693959b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334354"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435850"
 ---
 # <a name="pidtagcontactaddressbookstoreentryids-canonical-property"></a>PidTagContactAddressBookStoreEntryIds 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32334354"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这是联系人通讯簿配置文件部分的属性。
   

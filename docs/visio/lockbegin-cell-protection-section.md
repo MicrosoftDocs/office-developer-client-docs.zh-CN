@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: cce34aba-caae-51ee-992e-92a490b68ea5
 description: 将一维形状的起点 (BeginX, BeginY) 锁定在特定位置上。
 ms.openlocfilehash: 2e6c6284ff82a88677eb46bb13b8ab8afa986584
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359645"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407758"
 ---
 # <a name="lockbegin-cell-protection-section"></a>LockBegin 单元格（“Protection”内容）
 
 将一维形状的起点 (BeginX, BeginY) 锁定在特定位置上。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 已锁定起点。  <br/> |
 | FALSE  <br/> | 未锁定起点。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LockBegin 单元格的引用，请使用： 
   

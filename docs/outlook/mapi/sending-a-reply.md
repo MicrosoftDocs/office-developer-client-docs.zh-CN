@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 90dafeae-6b61-40e3-8341-d6a11799d0f2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f47741369b1091c0dd24358e063de8f4675000fa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339779"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437446"
 ---
 # <a name="sending-a-reply"></a>发送答复
 

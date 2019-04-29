@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e219adf6-e591-72e6-b9bd-2fc62eb5142d
 description: 修改指定帐户类别的顺序。
 ms.openlocfilehash: 29dfe4fd1bda9e323481297167361650c3b3a173
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322041"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422857"
 ---
 # <a name="iolkaccountmanagersetorder"></a>IOlkAccountManager::SetOrder
 
@@ -58,7 +58,7 @@ _rgAccts_
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |帐户管理器已初始化，不能使用。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 调用方为数组指针_prgAccts_分配内存, 并为_prgAccts_点分配数组。 
   

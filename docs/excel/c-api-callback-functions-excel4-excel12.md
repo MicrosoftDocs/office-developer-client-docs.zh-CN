@@ -8,17 +8,17 @@ keywords:
 - 函数 [excel 2007], c api 回调
 localization_priority: Normal
 ms.assetid: 0f3ae86d-329a-4177-a65b-6288c248297e
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 5fe5eb7486f12d75ce7e42ad57141480ec735c54
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304177"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434429"
 ---
 # <a name="c-api-callback-functions-excel4-excel12"></a>C API 回调函数 Excel4、Excel12
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 提供**Excel4**和**Excel12**函数以使 dll 能够调用内部 Microsoft Excel 工作表函数、宏工作表函数或命令, 或仅 XLL 特殊函数或命令。 Excel 的所有最新版本都支持**Excel4**函数。 在 Excel 2007 中启动支持**Excel12**函数。 这两个函数都以两种形式提供: 
   

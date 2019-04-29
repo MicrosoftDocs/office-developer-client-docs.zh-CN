@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 87235fd2-6527-41a1-98ba-b951632a1c81
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2c504f98655e35af62810dd428e8e04878a36dec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309595"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422080"
 ---
 # <a name="iprofadminadminservices"></a>IProfAdmin::AdminServices
 
@@ -81,7 +81,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IProfAdmin:: AdminServices**方法提供对邮件服务管理对象的访问权限, 以便对配置文件中的邮件服务进行配置更改。 
   

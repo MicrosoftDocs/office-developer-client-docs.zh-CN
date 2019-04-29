@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 57933d44-d47a-4e7f-ba95-b49b4934d0a5
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: c29feae84d81874988997409fd229b042a701640
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310127"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421639"
 ---
 # <a name="implementing-one-off-tables"></a>实现一次性表
 

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: a263894b-b3da-f1e4-a7da-ca3695bddc94
 description: '上次修改时间: 2013 年8月13日'
 ms.openlocfilehash: be988a3036c2d882f65e2e588cc9a40bfda146a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345953"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437789"
 ---
 # <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>在给定联系人通讯簿条目的情况中获取联系人邮件
 

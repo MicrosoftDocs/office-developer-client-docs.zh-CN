@@ -9,11 +9,11 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 48e143f5-838d-af1d-01c2-3fac4395e03c
 ms.openlocfilehash: 83791fde1139670ffbcd21b520aaf2a5779ffc05
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319003"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438790"
 ---
 # <a name="run-in-developer-mode-display-the-developer-tab"></a>以开发人员模式运行（显示“开发工具”选项卡）
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3231a91a-1ef2-4dd8-9f3e-79ca56d2eae9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 513ec0db4e99e687d8aeb9e1d6acdef73df4d158
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351287"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33440001"
 ---
 # <a name="scomparepropsrestriction"></a>SComparePropsRestriction
 
@@ -67,7 +67,7 @@ typedef struct _SComparePropsRestriction
   
 > 要比较的第二个属性的属性标记。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 比较顺序为 _(属性标记 1) (关系运算符) (属性标记 2)_。 要进行比较的属性必须具有相同的类型。 尝试比较不同类型的属性会导致 MAPI 或服务提供程序返回错误值 MAPI_E_TOO_COMPLEX 从将结构作为参数传递到的[IMAPITable](imapitableiunknown.md)方法。 
   

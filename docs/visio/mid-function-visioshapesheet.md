@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5041d957-1bd9-4d76-cf43-7b4fcd1e7dec
 description: 根据指定的字符数, 从指定的位置开始, 返回文本字符串中的特定数量的字符。
 ms.openlocfilehash: 58d5e784e49c8e9fba0bf668626049298783c158
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360660"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410264"
 ---
 # <a name="mid-function-visioshapesheet"></a>MID 函数 (VisioShapeSheet)
 
@@ -34,9 +34,9 @@ MID (* * *text* * *、* * *start_num* * *、* * *num_chars* * *)
    
 ### <a name="return-value"></a>返回值
 
-字符串
+String
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果*start_num*为: 
   

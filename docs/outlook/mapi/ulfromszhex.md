@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e2d6b6bf-f96d-460c-859a-21961ac9237c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 950f5513696a9dd9d52db7b7ee912d3f7d12cc48
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315363"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433050"
 ---
 # <a name="ulfromszhex"></a>UlFromSzHex
 
@@ -49,7 +49,7 @@ LPCSTR lpsz
 
  **UlFromSzHex**返回一个无符号的长整型值。 如果字符串不以至少一个十六进制数字开头, 则返回零。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **UlFromSzHex**函数在到达不是十六进制数字的字符串中的第一个字符时停止转换。 例如, 给定字符串 "5a", **UlFromSzHex**返回整数值90。 在给定字符串 "5g5h" 的情况下, 函数返回整数值5。 在给定字符串 "g5h5" 的情况下, **UlFromSzHex**返回零。 
   

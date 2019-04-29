@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ccd9d623-a3cb-4e66-9649-78c3887cb726
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ab21dcfb9011b675e3db4e4df29cb6ecafa6e7c6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348774"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435346"
 ---
 # <a name="imsgstoregetreceivefolder"></a>IMsgStore::GetReceiveFolder
 
@@ -69,7 +69,7 @@ S_OK
   
 > 已成功返回接收文件夹。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgStore:: GetReceiveFolder**方法获取接收文件夹的条目标识符, 该文件夹是指定用于接收特定邮件类别的传入邮件的文件夹。 调用方可以在_lpszMessageClass_参数中指定邮件类或 NULL。 如果_lpszMessageClass_为 NULL, 则**GetReceiveFolder**将返回以下值: 
   

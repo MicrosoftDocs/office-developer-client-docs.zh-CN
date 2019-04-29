@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: c251dacce0d4e1743a74f1ba45e395b6e1c05064
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329006"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408822"
 ---
 # <a name="imapitablecreatebookmark"></a>IMAPITable::CreateBookmark
 
@@ -49,7 +49,7 @@ MAPI_E_UNABLE_TO_COMPLETE
   
 > 无法完成请求的操作。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: CreateBookmark**方法通过创建一个称为书签的值来标记表位置。 书签可用于返回到由书签标识的位置。 加书签的位置与表中该行的对象相关联。 
   

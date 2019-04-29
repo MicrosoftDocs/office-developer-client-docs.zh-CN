@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b08a6558-519f-44e0-aeff-9919544d515e
 description: 确定是否可以将文档中的页面复制为布尔值。
 ms.openlocfilehash: 3f3274c6cfadb81ef514a179279bdaed3543b654
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338540"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439658"
 ---
 # <a name="doclockduplicatepage-cell-document-properties-section"></a>DocLockDuplicatePage 单元格 ("Document Properties" 内容)
 
@@ -23,7 +23,7 @@ ms.locfileid: "32338540"
 |TRUE  <br/> |**** 在页面快捷菜单和页面中重复 **。重复**的自动化方法均被禁用。  <br/> |
 |FALSE  <br/> |可以复制页面。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**DocLockDuplicatePage**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bb27b28a-b2bd-4d4a-b0bb-0692f3de8e16
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 16e85eabc067bd82f5fb89c917afaf2831c75673
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300467"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439994"
 ---
 # <a name="getattribimsgonistg"></a>GetAttribIMsgOnIStg
 
@@ -65,7 +65,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用全部成功, 但无法访问一个或多个属性, 并使用 PT_ERROR 的属性类型返回。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 只能在属性对象 (即实现[IMAPIProp: IUnknown](imapipropiunknown.md)接口的对象) 上访问属性属性。 若要使 MAPI 属性在 ole 结构化存储对象上可用, [OpenIMsgOnIStg](openimsgonistg.md)在 ole **IStorage**对象的顶部生成[IMessage: IMAPIProp](imessageimapiprop.md)对象。 此类对象上的属性属性可以使用[SetAttribIMsgOnIStg](setattribimsgonistg.md)进行设置或更改, 并可使用**GetAttribIMsgOnIStg**进行检索。 
   

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 57219d96-bd9e-4e9a-b34a-dd3aad97bfd9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: eebc04e2263b4a2037e167bd464a31d298b84664
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329015"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439567"
 ---
 # <a name="about-asynchronous-table-operations"></a>关于异步表操作
  

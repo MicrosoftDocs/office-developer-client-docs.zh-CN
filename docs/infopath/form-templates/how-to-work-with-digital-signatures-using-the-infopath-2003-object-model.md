@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d6318238-fd45-4854-a3c9-c27c5685bd6b
 description: InfoPath 2003 兼容对象模型提供了以编程方式处理数字签名的功能。
 ms.openlocfilehash: 86e2c85c7515c896612df09b6186462480ceff61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299906"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433442"
 ---
 # <a name="work-with-digital-signatures-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型处理数字签名
 

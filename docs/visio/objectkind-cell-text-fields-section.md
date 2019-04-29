@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: cc4c373c-f073-e3c9-3aaa-a4abf050cd20
 description: 指示文本域的类型。
 ms.openlocfilehash: c2f891620f704a3c48861124b886e49d356960ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360989"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438510"
 ---
 # <a name="objectkind-cell-text-fields-section"></a>ObjectKind 单元格（“Text Fields”内容）
 
 指示文本域的类型。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 标准  <br/> |**visTFOKStandard** <br/> |
 | 1  <br/> |纵横混排  <br/> |**visTFOKHorizontaInVertical** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 文本域可以是以下类型之一：
   

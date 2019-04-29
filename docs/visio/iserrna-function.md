@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6ee7dc3d-efe9-c862-f71d-034b3d9c3ec6
 description: '如果 cellreference 的值为错误类型 #N/a!, 则返回 TRUE。 (不可用);否则, 它将返回 FALSE。 ISERRNA 函数在引用其他单元格的公式中使用。'
 ms.openlocfilehash: 8a398eca6da659a6b8f29e4ef8e31b18abf56fde
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357258"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432112"
 ---
 # <a name="iserrna-function"></a>ISERRNA 函数
 
@@ -32,7 +32,7 @@ ISERRNA (* * *cellreference* * *)
    
 ## <a name="example-1"></a>示例 1
 
-|**Cell**|**Formula**|**返回的值**|
+|**单元格**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |草稿。 A1  <br/> |="5 + 3"  <br/> |utf-8  <br/> |
 |草稿 B1  <br/> |= ISERRNA (的 A1)  <br/> |FALSE  <br/> |
@@ -41,7 +41,7 @@ ISERRNA (* * *cellreference* * *)
   
 ## <a name="example-2"></a>示例 2
 
-|**Cell**|**Formula**|**返回的值**|
+|**单元格**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |草稿。 A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |草稿 B1  <br/> |= ISERRNA (的 A1)  <br/> |TRUE  <br/> |

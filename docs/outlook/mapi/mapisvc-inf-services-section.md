@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 99f8e623-3138-4def-9778-5580326111a5
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: e5bf5242ef673976ebda928d6ce4862e3e7dd072
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270019"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434779"
 ---
 # <a name="mapisvcinf-services-section"></a>mapisvc.inf [服务] 部分
 

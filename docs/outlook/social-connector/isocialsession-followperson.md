@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: de7f56e2-c131-4955-b945-0a72043e0f5a
 description: 将 emailAddress 参数标识的人员添加为社交网络上已登录用户的友元。
 ms.openlocfilehash: 849085bd40788039a96ac159fd76a5e252395916
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285362"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423256"
 ---
 # <a name="isocialsessionfollowperson"></a>ISocialSession::FollowPerson
 
@@ -29,7 +29,7 @@ _emailAddress_
   
 > 实时包含某人的电子邮件地址的字符串。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _emailAddress_参数必须是有效的 SMTP 地址。 如果 Outlook Social Connector (.osc) 提供程序在**功能**中将**followPerson**方法设置为**true** , 并且_emailAddress_的参数与网络上的用户不匹配, 则该提供程序必须返回 OSC_E_NOT_FOUND误差. 如果提供程序在**功能**中将**followPerson**设置为**false** , 则提供程序应返回 OSC_E_FAIL 错误。
   

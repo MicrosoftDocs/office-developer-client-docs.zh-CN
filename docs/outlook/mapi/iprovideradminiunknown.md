@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bdb4cdca-8dfd-4f90-9467-ec31cea3f518
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bedec72e8371d0e8aa69415d2f0dc77b4c62ff76
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315524"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437530"
 ---
 # <a name="iprovideradmin--iunknown"></a>IProviderAdmin : IUnknown
 
@@ -46,7 +46,7 @@ ms.locfileid: "32315524"
 |[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |从邮件服务中删除服务提供程序。  <br/> |
 |[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |从当前配置文件打开一个配置文件部分, 并返回一个[IProfSect](iprofsectimapiprop.md)指针以供进一步访问。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端可以通过调用[IMsgServiceAdmin:: AdminProviders](imsgserviceadmin-adminproviders.md)方法获取指向**IProviderAdmin**接口的指针;调用服务提供程序的消息服务入口点函数时, 会向其传递**IProviderAdmin**指针。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 15be5a8c-4299-4434-b521-c901215b9dda
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b0260ffe5dc4806cb627fd71c78866bf96796455
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341004"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434716"
 ---
 # <a name="fbadcolumnset"></a>FBadColumnSet
 
@@ -55,7 +55,7 @@ FALSE
   
 > 指定的列集有效。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **FBadColumnSet**函数将类型为 PT_ERROR 的列视为无效, 并将类型为 PT_NULL 的列视为有效。 
   
