@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bb29e6a0-7a92-46eb-bbeb-6f2df6ac6d21
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 03eccfe27c6f93e42ee01a34fbf5df766c145cf1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357349"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414156"
 ---
 # <a name="ixplogonendmessage"></a>IXPLogon::EndMessage
 
@@ -62,7 +62,7 @@ S_OK
   
 > 调用成功, 并返回了所需的一个或一些值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序在提供扩展传递或 nondelivery 信息的处理过程完成后, 调用**IXPLogon:: EndMessage**方法。 
   

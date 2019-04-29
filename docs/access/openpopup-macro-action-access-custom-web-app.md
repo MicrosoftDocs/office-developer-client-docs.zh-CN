@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 850de802-e417-4884-8d14-571de52aa391
 description: 在弹出窗口中打开指定的视图。
 ms.openlocfilehash: 2a8b67fcbf31c42f13b36f06d14d9d046be68c68
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308111"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427386"
 ---
 # <a name="openpopup-macro-action-access-custom-web-app"></a>OpenPopup 宏操作 (Access 自定义 web 应用程序)
 
@@ -33,7 +33,7 @@ ms.locfileid: "32308111"
 | *Where =*  <br/> |限制视图中的记录的有效 SQL WHERE 子句 (不带 word WHERE)。  <br/> |
 | *Order By*  <br/> |一个字符串表达式，包含作为记录排序依据的一个或多个字段的名称或可选的 ASC 或 DESC 关键字。 默认情况下, 此参数为空。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 处理完**OpenPopup**操作后, 当前宏即会结束。 
   

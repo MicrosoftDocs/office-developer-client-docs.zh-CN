@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3773c98e-531e-4bdc-a39a-2c3bb7378cd3
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: be11c536804682d1baec8188b6d7487c71d411e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348739"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424334"
 ---
 # <a name="imsgstorestorelogoff"></a>IMsgStore::StoreLogoff
 
@@ -79,7 +79,7 @@ S_OK
   
 > 已成功完成注销。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgStore:: StoreLogoff**方法 exerts 控制邮件存储和传输提供程序在注销过程中的交互。 调用**StoreLogoff**仅对仅由呼叫者使用的邮件存储区有效。 例如, 当两个客户端使用相同的邮件存储库, 并且其中一个调用**StoreLogoff**时, 邮件存储将立即发布, 并将控制权返回给呼叫客户端。
   

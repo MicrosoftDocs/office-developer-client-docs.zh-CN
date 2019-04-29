@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8c1a342c-d7ae-4e26-b327-a63cdd3c3ee6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 54561450e7d91d8a30695dacf508758623547e39
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327977"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412910"
 ---
 # <a name="ftmuldwdw"></a>FtMulDwDw
 

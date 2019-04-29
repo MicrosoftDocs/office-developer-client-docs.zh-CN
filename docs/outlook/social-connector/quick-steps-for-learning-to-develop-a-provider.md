@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 13c0ae8c-d268-4bf0-942d-2a6160142f5e
 description: 本主题建议几个步骤来了解如何开发 Outlook Social Connector (.osc) 提供程序。
 ms.openlocfilehash: 581997ab257d59062761d97bfef49a88b90bb1e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329216"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424215"
 ---
 # <a name="quick-steps-for-learning-to-develop-a-provider"></a>学习开发提供程序的快速步骤
 

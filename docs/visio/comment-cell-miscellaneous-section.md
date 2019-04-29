@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6f52ed60-d58b-86e6-f7e2-2ef19d4afa75
 description: 包含形状的字符串格式的注释文本。
 ms.openlocfilehash: e6f21875928bce31dc2004d88f2d281e31265d65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357111"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419063"
 ---
 # <a name="comment-cell-miscellaneous-section"></a>Comment 单元格（“Miscellaneous”内容）
 
 包含形状的字符串格式的注释文本。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 也可以通过单击 **“审阅”** 选项卡上的 **“新建批注”** 插入批注。 
   
@@ -28,7 +28,7 @@ ms.locfileid: "32357111"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |Comment  <br/> |
+|单元格名称：  <br/> |注释  <br/> |
    
 要从某个程序按索引获取对 Comment 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   

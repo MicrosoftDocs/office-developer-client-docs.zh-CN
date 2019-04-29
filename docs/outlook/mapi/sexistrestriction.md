@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 48d5ab42-ee70-4f6e-9184-18d22b08ea1b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6e3cdcf3579b26776d9e278bb339758d4f56d890
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339275"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418937"
 ---
 # <a name="sexistrestriction"></a>SExistRestriction
 
@@ -55,7 +55,7 @@ typedef struct _SExistRestriction
   
 > 保留必须为零。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 存在的限制用于确保对涉及属性的其他类型的限制 (如属性和内容限制) 的有意义的结果。 如果将涉及某个属性的限制传递给[IMAPITable:: Restrict](imapitable-restrict.md)或[IMAPITable:: FindRow](imapitable-findrow.md) , 并且该属性不存在, 则限制的结果将是不确定的。 通过创建**和**限制将属性限制与存在的限制联接在一起, 可以保证正确结果的调用者。 
   

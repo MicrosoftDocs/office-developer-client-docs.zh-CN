@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fbe6dc9364ee953661d574b70bcd225abcfe7a81
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321649"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413057"
 ---
 # <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 

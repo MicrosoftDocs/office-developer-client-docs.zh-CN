@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 89f16674-ee1f-f5f9-9830-7bcc52e3a068
 description: 确定在没有本地跨线样式的绘图页上，所有连接线的跨线样式。
 ms.openlocfilehash: 066c96f659061290b825684a479432e6d71f518c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316434"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427239"
 ---
 # <a name="linejumpstyle-cell-page-layout-section"></a>LineJumpStyle 单元格（“Page Layout”内容）
 
@@ -33,7 +33,7 @@ ms.locfileid: "32316434"
 |utf-8  <br/> |六个面  <br/> |**visLOJumpStyle5Point** <br/> |
 |第  <br/> |七个面  <br/> |**visLOJumpStyle6Point** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 还可以在 **“页面设置”** 对话框中的 **“布局与排列”** 选项卡（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后单击 **“布局与排列”**）上设置此单元格的值。
   

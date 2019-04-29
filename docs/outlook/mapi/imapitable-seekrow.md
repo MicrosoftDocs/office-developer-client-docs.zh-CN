@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 93ac63ae-f254-45e1-a9b1-347d69d2ed9f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fbc990a8c962883aa07987b200d1d2fd55434f93
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328824"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413043"
 ---
 # <a name="imapitableseekrow"></a>IMAPITable::SeekRow
 
@@ -79,7 +79,7 @@ MAPI_W_POSITION_CHANGED
   
 > 调用成功, 但在_bkOrigin_参数中指定的书签不再设置为与上次使用时相同的行。 如果尚未使用该书签, 它将不再位于创建时的位置。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: SeekRow**方法为游标建立了一个新的 BOOKMARK_CURRENT 位置。 _lRowCount_参数指示光标移动的行数和移动方向。 
   

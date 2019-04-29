@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a897e812-08dc-49c9-954b-e8908a0daab3
 description: 返回指定表达式的自然对数或给定底数的对数。
 ms.openlocfilehash: e2cfd1cf4ad3c1bf44778737faa0f697333f5234
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311086"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419294"
 ---
 # <a name="log-function-access-custom-web-app"></a>Log 函数 (Access 自定义 web 应用程序)
 
@@ -32,7 +32,7 @@ ms.locfileid: "32311086"
 | *NumericExpression*  <br/> |要对其进行对数的正数。  <br/> |
 | *Base*  <br/> |对数的底数。 如果省略, 则**Log**函数返回自然对数。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 函数**Log10**是类似的, 但总是返回常用对数, 即底数为10的对数。 
   

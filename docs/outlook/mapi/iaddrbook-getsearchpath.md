@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 43b51a66-71fa-4e10-93e4-d533b48af4de
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: f8c129e772870804ef464765b2035a3582317a09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341389"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412980"
 ---
 # <a name="iaddrbookgetsearchpath"></a>IAddrBook::GetSearchPath
 
@@ -54,7 +54,7 @@ S_OK
   
 > 已成功检索搜索路径。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端和服务提供程序调用**GetSearchPath**方法, 以获取用于使用**ResolveName**方法解析名称的搜索路径。 通常情况下, 客户端调用[IAddrBook:: SetSearchPath](iaddrbook-setsearchpath.md)方法在配置文件中建立容器搜索路径, 然后再调用**GetSearchPath**检索该路径。 但是, 调用**SetSearchPath**是可选的。 
   

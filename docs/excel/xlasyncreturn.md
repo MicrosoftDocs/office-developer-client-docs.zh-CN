@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 159bc9bf-8dd5-4cd2-8384-474c74a3f112
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 32d5075af34cda9753c5d082bd4ab00afab1ecff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310246"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414107"
 ---
 # <a name="xlasyncreturn"></a>xlAsyncReturn
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 用于返回异步用户定义函数 (UDF) 的结果。
   
@@ -38,7 +38,7 @@ UDF 的返回值。
 
 如果成功,**则返回 TRUE** (**xltypeBool**)。 如果不成功, 则返回**FALSE**。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **xlAsyncReturn**是 Excel 在重新计算期间允许对非计算线程执行的唯一回调。 异步 UDF 的异步部分不能执行除**xlAsyncReturn**以外的任何回调。 XLL 必须释放分配的内存以容纳返回值。
   

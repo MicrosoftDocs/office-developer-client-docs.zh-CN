@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b465d015-9b62-4986-b0df-118121f60602
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bc511ea4b3ec4eea9e38f744bcb8f277108085cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336895"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413855"
 ---
 # <a name="flatentrylist"></a>FLATENTRYLIST
 
@@ -54,7 +54,7 @@ typedef struct
   
 > 包含一个或多个**FLATENTRY**结构的字节数组, 该数组排列端到端。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在**abEntries**数组中, 每个**FLATENTRY**结构在自然对齐的边界处对齐。 填充包含额外的字节以确保任意两个**FLATENTRY**结构之间的自然对齐。 数组中的第一个**FLATENTRY**结构始终正确对齐, 因为**abEntries**成员的偏移量为8。 若要计算下一个结构的偏移量, 请使用第一项的大小向上舍入到接下来的4个。 使用[CbFLATENTRY](cbflatentry.md)宏计算**FLATENTRY**结构的大小。 
   

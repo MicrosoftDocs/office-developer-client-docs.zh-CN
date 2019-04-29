@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 72290fd3-00d7-4055-bbfa-0c47b6e0f62d
 description: '上次修改时间: 2011 年11月8日'
 ms.openlocfilehash: c5e92c44d7078560ed84d72b3477d5cf2e809353
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32333038"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413498"
 ---
 # <a name="copying-or-moving-a-message-or-a-folder"></a>复制或移动邮件或文件夹
   

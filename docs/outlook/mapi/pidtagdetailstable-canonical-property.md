@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7a0ccad3-f497-4871-b733-771e6cb8ef6a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 74eae4a4ed742c3bb90496f5975ad7dac6ff798f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360835"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419252"
 ---
 # <a name="pidtagdetailstable-canonical-property"></a>PidTagDetailsTable 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32360835"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 将此属性传递给对象的[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法将返回允许创建显示表的[IMAPITable](imapitableiunknown.md)接口。 MAPI 使用此表显示通讯簿对象的属性表以响应[IAddrBook::D etails](iaddrbook-details.md)调用。 
   

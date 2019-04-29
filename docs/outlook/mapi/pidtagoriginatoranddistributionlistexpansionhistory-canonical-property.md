@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b98e648c-e540-4cf4-8dde-e8f88b0fb3b3
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5f2c7d8b49f64e0adb66c9f6d8eae6927e656725
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340941"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437124"
 ---
 # <a name="pidtagoriginatoranddistributionlistexpansionhistory-canonical-property"></a>PidTagOriginatorAndDistributionListExpansionHistory 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32340941"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性在报告生成中使用。
   

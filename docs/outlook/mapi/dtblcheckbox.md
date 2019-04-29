@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0dd12990-5431-4768-9d64-27d4ef6b7b20
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ed0bbe986f374648e2ee85f3a0d2dfe7bc392e0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287267"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436830"
 ---
 # <a name="dtblcheckbox"></a>DTBLCHECKBOX
 
@@ -60,7 +60,7 @@ MAPI_UNICODE
   
 > 类型为 PT_BOOLEAN 的属性的属性标记。 此属性的值受复选框状态的影响。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTBLCHECKBOX**结构描述了一个复选框, 该控件反映两个状态之一: 已启用 (复选框) 或已禁用 (空框)。 
   

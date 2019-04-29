@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0b6cc5b2-342d-45dd-ba5e-aa29f1face48
 description: 在截断所有尾随空格后返回一个文本值。
 ms.openlocfilehash: 4510ccc37399e0a10504dc39c4f455461269872d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311044"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413631"
 ---
 # <a name="rtrim-function-access-custom-web-app"></a>RTrim 函数 (Access 自定义 web 应用)
 
@@ -27,7 +27,7 @@ ms.locfileid: "32311044"
   
 **RTrim**函数包含以下参数。 
   
-|**参数名称**|**Description**|
+|**参数名称**|**说明**|
 |:-----|:-----|
 | *TextExpression*  <br/> |字符串表达式。  <br/> |
    

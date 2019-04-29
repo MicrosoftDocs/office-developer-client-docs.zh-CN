@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6d5062d3-743b-8664-8ec9-5a8f11d5edf9
 description: 控制控制手柄的 y 坐标在手柄移动后将表现的行为的类型。 提供以下公式。
 ms.openlocfilehash: bf8cbd490884244c92b68784dcbf041093539c94
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360142"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413575"
 ---
 # <a name="y-behavior-cell-controls-section"></a>Y Behavior 单元格（“Controls”内容）
 
@@ -33,7 +33,7 @@ ms.locfileid: "32360142"
 | utf-8  <br/> | 中心偏移，隐藏  <br/> | 与值 3 的含义相同，但控制手柄被隐藏起来了。  <br/> |**visCtlOffsetMidHidden** <br/> |
 | 第  <br/> | 右侧偏移，隐藏  <br/> | 与值 4 的含义相同，但控制手柄被隐藏起来了。  <br/> |**visCtlOffsetMaxHidden** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Y Behavior 单元格的引用，请使用： 
   

@@ -10,17 +10,17 @@ keywords:
 - hookexcelwindow 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 13f0ae5e-9951-4e89-a245-7cf68c6f6724
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 4103bf3a95388d20efeb74fcd736aeb5520d0845
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310827"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413505"
 ---
 # <a name="hookexcelwindow"></a>HookExcelWindow
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 安装**ExcelCursorProc** , 以便在 Microsoft Excel 主**WndProc**之前调用它。
   
@@ -38,7 +38,7 @@ Excel 主窗口句柄。
 
 函数不返回值。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 函数通过使用**GetWindowLong ()** 获取 Excel **WndProc**的地址。 它将此值存储在全局中, 可用于调用默认**WndProc** , 还可以将其还原。 最后, 它使用**SetWindowLong ()** 将此地址替换为**ExcelCursorProc**的地址。
   

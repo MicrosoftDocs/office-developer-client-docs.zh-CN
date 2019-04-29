@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: da67171d-d25f-3424-1409-33189ac63a12
 description: 定义忙/闲数据块。 这是约会或会议请求所代表的日历上的项目。
 ms.openlocfilehash: 60d2ff50081a8950a397df6f2f6bbfd37d3bdb61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317666"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413197"
 ---
 # <a name="fbblock1"></a>FBBlock_1
 

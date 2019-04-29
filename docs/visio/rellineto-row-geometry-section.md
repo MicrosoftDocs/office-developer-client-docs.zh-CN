@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a900e174-d26a-4314-ae4f-d89e186350ce
 description: 包含相对于形状的宽度和高度的直线段终顶点的 x 坐标和 y 坐标。
 ms.openlocfilehash: 2e85033b4a2e16c2df09b1a09655fcd4b97dd03d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320067"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437159"
 ---
 # <a name="rellineto-row-geometry-section"></a>RelLineTo 行 ("Geometry" 部分)
 
@@ -23,12 +23,12 @@ ms.locfileid: "32320067"
   
 **RelLineTo**行包含以下单元格。 
   
-|**Cell**|**Description**|
+|**单元格**|**说明**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |直线线段终顶点相对于形状宽度的*x*坐标。  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |直线线段终顶点相对于形状高度的*y*轴坐标值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **RelLineTo**行中的值等效于[LineTo](lineto-row-geometry-section.md)行中与形状的宽度和高度相乘的值。 例如: 一个**RelLineTo**行, 其中**x**单元格的值为 "0", **Y**单元格的值是 "0.5", 可以替换为 " **LineTo** " 行, 其中**X**单元格的值是 "Width*0" 公式, **Y**单元格是 "Width 0", Y 单元格是公式 "Height*0.5"。 
   

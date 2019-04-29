@@ -9,11 +9,11 @@ api_type:
 ms.assetid: a7830d73-427c-4f8b-86f4-51e040c142c3
 description: 上次修改时间：2012 年 6 月 26 日
 ms.openlocfilehash: 8c33214b04e7c41eab173196c09f145c20ddf219
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341096"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427204"
 ---
 # <a name="fast-shutdown-overview"></a>快速关机概述
 

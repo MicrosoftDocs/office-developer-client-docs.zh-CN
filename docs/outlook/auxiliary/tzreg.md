@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a353e1a3-0187-20af-b9ba-43438f6024d5
 description: 定义夏时制的开始时间、何时返回标准时间以及夏时制转换的小时数。
 ms.openlocfilehash: 136ff6ad0c1a9bc2ad61ef7ba698d66d645165d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307838"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419364"
 ---
 # <a name="tzreg"></a>TZREG
 
@@ -53,7 +53,7 @@ _stDaylightDate_
   
 > 切换到夏时制的时间。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此结构类似于**TIME_ZONE_INFORMATION**。 这是旧版客户端用来存储定期会议的时区信息的结构。
   

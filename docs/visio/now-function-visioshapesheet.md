@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 96cac1f6-cc17-466f-23d8-a9006e7de05f
 description: 返回当前日期和时间值。
 ms.openlocfilehash: 9e28f51b0e1d1c09a70e54e432a865968c721940
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340990"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414079"
 ---
 # <a name="now-function-visioshapesheet"></a>NOW 函数 (VisioShapeSheet)
 
@@ -28,7 +28,7 @@ NOW ( )
 
 Datetime
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 NOW 每分钟自动重新计算。 
   

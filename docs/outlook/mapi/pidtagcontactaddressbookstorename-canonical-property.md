@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 84c1b0cb-91aa-4238-ac74-a129a6e2cdd6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2eb427b99ecef9a6b78b5f7bd92bfbf6e214702f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358479"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414009"
 ---
 # <a name="pidtagcontactaddressbookstorename-canonical-property"></a>PidTagContactAddressBookStoreName 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32358479"
 |数据类型：  <br/> |PT_UNICODE、PT_STRING8  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性位于联系人通讯簿容器中, 并且在联系人通讯簿容器表中的列。
   

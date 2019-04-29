@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 2eb493d7-bbd1-45b2-bd82-2bc452b2deab
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 3c9996dad1e9aa8c291f1cd593d9651994d86141
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330056"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413225"
 ---
 # <a name="tightly-coupled-message-store-providers"></a>紧密耦合的邮件存储区提供程序
 

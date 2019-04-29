@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 70c1ac24-a28f-4401-91d3-61129578bebd
 description: 从值列表中返回指定索引处的项。
 ms.openlocfilehash: e44655b9c2f4055f1f3dc57befa8adc6884c43b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282283"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414114"
 ---
 # <a name="choose-function-access-custom-web-app"></a>选择函数 (Access 自定义 web 应用程序)
 
@@ -31,7 +31,7 @@ ms.locfileid: "32282283"
 | *IndexNumber*  <br/> |一个整数表达式, 表示从1开始的索引到它后面的项的列表中。  <br/> |
 | *值*  <br/> |任何数据类型的值列表。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果提供的*IndexNumber*不是整数, 则该值将被隐式转换为整数。 
   

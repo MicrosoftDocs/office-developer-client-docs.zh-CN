@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d69393fb-fb5a-4edb-abc0-38f5d7e80bcc
 description: 本主题介绍使用 Visual Studio 2008 向 Microsoft InfoPath 托管代码表单模板中添加事件处理程序的过程。若要向表单模板中添加事件处理程序，需要先在 InfoPath Designer 中打开该表单模板，然后为要编写代码的事件选择适当的用户界面命令。在 InfoPath Designer 中为事件选择命令后，焦点会自动切换到 Visual Studio 2008 代码编辑器中该事件的框架事件处理程序。
 ms.openlocfilehash: c6406ec1604355c59f4ee4818fdaea5d70f696bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300117"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427183"
 ---
 # <a name="add-an-event-handler"></a>添加事件处理程序
 

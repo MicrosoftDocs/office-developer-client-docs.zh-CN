@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ab90b05f8bd92f4cfd90f84078691a293ae159b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350664"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436851"
 ---
 # <a name="pidtagycoordinate-canonical-property"></a>PidTagYCoordinate 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32350664"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md))、此属性、 **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) 和**PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) 属性定位并调整控件的大小。
   

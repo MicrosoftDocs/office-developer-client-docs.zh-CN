@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1d6eec99-59f9-4700-9b83-7f7f8787a9f8
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: a76d0c554d7cf06aceeaa2925c199e45411b999d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342089"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414002"
 ---
 # <a name="imapiforminfoopenformcontainer"></a>IMAPIFormInfo::OpenFormContainer
 

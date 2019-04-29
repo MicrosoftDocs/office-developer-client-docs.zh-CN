@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c53cfe28-603c-49c5-bce6-b4401c7c5091
 description: 指定是否对 SMTP 帐户使用身份验证。
 ms.openlocfilehash: c262fdbd864358d80ab8c2288181f01844194431
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328313"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413092"
 ---
 # <a name="propsmtpuseauth"></a>PROP_SMTP_USE_AUTH
 
@@ -27,7 +27,7 @@ ms.locfileid: "32328313"
 |属性标记：  <br/> |0x02030003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 零值表示不使用身份验证, 否则使用身份验证。
   

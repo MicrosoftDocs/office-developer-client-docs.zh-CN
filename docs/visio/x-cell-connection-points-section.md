@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 11c69600-4e1f-4c52-ff35-b6a7cc6c734c
 description: 表示连接点在本地坐标系中的 x 坐标。
 ms.openlocfilehash: 496e5af6ea5b7ba99730b23dcbb510db6af9b23b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339876"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436781"
 ---
 # <a name="x-cell-connection-points-section"></a>X 单元格（“Connection Points”内容）
 
 表示连接点在本地坐标系中的*x*坐标。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 X 单元格的引用，请使用： 
   

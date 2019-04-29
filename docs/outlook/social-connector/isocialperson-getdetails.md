@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 9ca3172a-82a3-4483-b0aa-4e848930f6ed
 description: 获取一个字符串, 表示人员的详细信息, 如名字、姓氏和指向个人资料图片的 URL。
 ms.openlocfilehash: 05cc2565ccd0688c7b8f4eccd6d8f42353d8743e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286141"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427330"
 ---
 # <a name="isocialpersongetdetails"></a>ISocialPerson::GetDetails
 
@@ -29,7 +29,7 @@ _details_
   
 > 排除一个 XML 字符串值, 表示人员的详细信息。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 返回的_详细信息_XML 字符串必须符合**人员**的架构定义, 如 Outlook Social Connector (.osc) 提供程序扩展性的架构中所定义。
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 38e6bba7-1bf2-3d31-0912-707002454f5d
 description: 返回颜色发光度组件的值。
 ms.openlocfilehash: 17fa43f8e2cd7422428f92724e351436233c2d62
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357979"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419336"
 ---
 # <a name="lum-function"></a>LUM 函数
 
@@ -28,13 +28,13 @@ ms.locfileid: "32357979"
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |必需  <br/> |**Numeric** <br/> |文档颜色表中的颜色索引值，或对包含颜色索引值的某单元格的引用。  <br/> |
+| _expression_ <br/> |必需  <br/> |**数值** <br/> |文档颜色表中的颜色索引值，或对包含颜色索引值的某单元格的引用。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-帐号
+数字
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 返回值是 0 至 240 之间的数字（包括 0 和 240）。对于无效输入，该函数将返回 0。 
   

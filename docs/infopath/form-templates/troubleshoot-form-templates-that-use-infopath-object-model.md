@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 5e31f5ef-6692-40ea-b737-bfd1c3775b02
 description: 本节包含在创建使用 InfoPath 2003 兼容对象模型的托管代码表单模板时可能会遇到的常见问题的解答提示。
 ms.openlocfilehash: 52f7adbe9283ac299759c2837b487e57b9640834
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303477"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413659"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model"></a>使用 InfoPath 对象模型的表单模板的疑难解答
 
@@ -25,7 +25,7 @@ ms.locfileid: "32303477"
     
 [在设计时使用 infopath 2003 对象模型的表单模板故障排除](troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md): 介绍在设计使用 InfoPath 2003 兼容对象模型的托管代码表单模板时可能出现的故障排除问题。
     
-## <a name="related-sections"></a>相关章节
+## <a name="related-sections"></a>相关部分
 
 [部署包含代码的 InfoPath 表单模板](how-to-deploy-infopath-form-templates-with-code.md): 提供有关部署解决方案的信息, 包括安全问题, 以及在选择部署模型时要考虑的问题。
     

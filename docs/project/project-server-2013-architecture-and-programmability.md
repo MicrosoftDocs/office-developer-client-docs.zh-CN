@@ -17,11 +17,11 @@ localization_priority: Normal
 ms.assetid: 9ea3b3c1-fb90-454a-b8e6-abc44fca663d
 description: 本节中的文章介绍了企业项目管理 (EPM) 解决方案的整体体系结构, 其中组合了 Project Professional 2013、project Server 2013、project Web App 和 SharePoint Server 2013。
 ms.openlocfilehash: 44cd5a32b8d3de421ffe3b2d9bf0137146bc4c4e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301468"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413785"
 ---
 # <a name="project-server-2013-architecture-and-programmability"></a>Project Server 2013 体系结构和可编程性
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 74662f25-5e18-4d0b-999c-a144427ad9e3
 description: activityTemplateContainer 元素是一个模板, 允许您设置活动源项目的格式, 并重复使用指定布局的 XML。
 ms.openlocfilehash: c2540b1d871e440e8f8f343a1788194c32d7dcc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281118"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413715"
 ---
 # <a name="activitytemplatecontainer-element"></a>activityTemplateContainer 元素
 

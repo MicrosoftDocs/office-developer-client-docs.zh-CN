@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 546dfe1d-de4f-cc53-8fb4-de7672adc9bc
 description: ''
 ms.openlocfilehash: ed130dae07257ea61c9c9ef28dafe780d6d4f4a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282619"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413449"
 ---
 # <a name="type-a-new-formula-for-a-cell"></a>为单元格键入新公式
 

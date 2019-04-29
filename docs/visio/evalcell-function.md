@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4aa3a1c9-dec9-5eb0-5743-0534c0b3bb5f
 description: 获取一个对包含自定义函数以及一个或多个作为参数传递给自定义函数的名称值对的单元格的引用 (可选)。 返回给定了指定参数和值的自定义函数的计算结果。
 ms.openlocfilehash: 4ad6645862d620a36b90e4f46d09588d7e83fcc1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329069"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418902"
 ---
 # <a name="evalcell-function"></a>EVALCELL 函数
 
@@ -34,9 +34,9 @@ EVALCELL (* * *cellRef* * *, [* * *arg1Name, arg1* * *], [* * *arg2Name, arg2* *
    
 ### <a name="return-value"></a>返回值
 
-帐号
+数字
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 调用单元格不必指定自定义函数使用的每一个参数。 
   

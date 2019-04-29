@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 461abfc1-d2cc-2354-1c2f-395c9e351a78
 description: 调用 Microsoft Visual Basic for Applications (VBA) 项目中的过程。
 ms.openlocfilehash: 7e0f0bafa39d6c1eb1fd39535506981c937ce8a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337238"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413813"
 ---
 # <a name="callthis-function"></a>CALLTHIS 函数
 
@@ -28,11 +28,11 @@ CALLTHIS ("* **过程** *", ["* **项目** *"], [* * *arg1* * *, * * *arg2* * *,
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _过程_ <br/> |必需  <br/> |**String** <br/> | 要调用的过程的名称。  <br/> |
+| _procedure_ <br/> |必需  <br/> |**String** <br/> | 要调用的过程的名称。  <br/> |
 | _项目_ <br/> |可选  <br/> |**字符串** <br/> |包含该过程的项目。  <br/> |
 | _参数_ <br/> |可选  <br/> |**Number、String、Date 或 Currency** <br/> |作为参数传递给过程。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在 VBA 项目中,*过程*定义如下: 
   

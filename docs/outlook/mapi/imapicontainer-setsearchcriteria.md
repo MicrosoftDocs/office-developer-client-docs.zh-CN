@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a6168e8fced2fff3a7f9d273e47ed2410ac4c010
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350965"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427197"
 ---
 # <a name="imapicontainersetsearchcriteria"></a>IMAPIContainer::SetSearchCriteria
 
@@ -87,7 +87,7 @@ MAPI_E_TOO_COMPLEX
   
 > 服务提供商不支持指定的搜索条件。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIContainer:: SetSearchCriteria**方法为支持搜索的容器 (通常为搜索结果文件夹) 建立搜索条件。 搜索结果文件夹包含符合搜索条件的邮件的链接;实际邮件仍存储在其原始位置。 搜索结果文件夹中唯一包含的唯一数据是其内容表格。 在应用搜索限制后, 搜索结果文件夹的 "内容" 表格具有邮件存储的合并内容。 
   

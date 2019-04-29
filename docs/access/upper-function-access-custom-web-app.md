@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7c9737cc-4da6-46da-9dfa-57dfe91641bf
 description: 返回一个转换为大写字符的小写字符数据的文本表达式。
 ms.openlocfilehash: 831e633fbb588994091fb54dcf150ba306d7f670
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304212"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413435"
 ---
 # <a name="upper-function-access-custom-web-app"></a>Upper 函数 (Access 自定义 web 应用程序)
 

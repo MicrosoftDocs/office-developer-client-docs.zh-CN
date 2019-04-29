@@ -9,11 +9,11 @@ api_type:
 ms.assetid: b2f2fb72-23ae-4e0b-a8a1-3b78a1862acb
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: c4dbe1a761a753bef77168aec8d2674a1b2b100e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318128"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436837"
 ---
 # <a name="attached-files-and-messages"></a>附加的文件和邮件
 

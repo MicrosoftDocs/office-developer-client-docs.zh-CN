@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 855292b8-028e-4c1e-87ed-3f20b9ba584a
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 3c95f6a1d4d50dd6552c6e786d17c40da14f3f3c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351483"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419105"
 ---
 # <a name="mapi-form-servers"></a>MAPI 表单服务器
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d4f0cf7a-ac4b-c914-7887-e1d65e9d59fa
 description: Visio 2013 为您的自定义绘图解决方案提供了一个功能强大的单一平台。 使用新的 ShapeSheet 单元格和函数, 以及新的自动化对象、属性、方法和事件, 可为您提供用于定义和控制解决方案中的元素行为的更多选项。
 ms.openlocfilehash: 9ab1c447e7cfdf41b8c88a85438ac2904b1395cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297205"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413323"
 ---
 # <a name="whats-new-for-visio-shapesheet-developers"></a>面向 Visio ShapeSheet 开发人员的新增功能
 
@@ -58,10 +58,10 @@ Visio 2013 为您的自定义绘图解决方案提供了一个功能强大的单
 |[LineGradientAngle](linegradientangle-cell-gradient-properties-section.md) <br/> |渐变属性  <br/> |
 |[LineGradientDir](linegradientdir-cell-gradient-properties-section.md) <br/> |渐变属性  <br/> |
 |[LineGradientEnabled](linegradientenabled-cell-gradient-properties-section.md) <br/> |渐变属性  <br/> |
-|[LockReplace](lockreplace-cell-protection-section.md) <br/> |Protection  <br/> |
-|[LockThemeConnectors](lockthemeconnectors-cell-protection-section.md) <br/> |Protection  <br/> |
-|[LockThemeFonts](lockthemefonts-cell-protection-section.md) <br/> |Protection  <br/> |
-|[LockThemeIndex](lockthemeindex-cell-protection-section.md) <br/> |Protection  <br/> |
+|[LockReplace](lockreplace-cell-protection-section.md) <br/> |保护  <br/> |
+|[LockThemeConnectors](lockthemeconnectors-cell-protection-section.md) <br/> |保护  <br/> |
+|[LockThemeFonts](lockthemefonts-cell-protection-section.md) <br/> |保护  <br/> |
+|[LockThemeIndex](lockthemeindex-cell-protection-section.md) <br/> |保护  <br/> |
 |[NoCoauth](nocoauth-cell-document-properties-section.md) <br/> |文档属性  <br/> |
 |[PageLockReplace](pagelockreplace-cell-page-properties-section.md) <br/> |页面属性  <br/> |
 |[Perspective](perspective-cell-3-d-rotation-properties-section.md) <br/> |三维旋转属性  <br/> |
@@ -100,7 +100,7 @@ Visio 2013 为您的自定义绘图解决方案提供了一个功能强大的单
    
 下表列出了已在 Visio 2013 中更改的单元格。
   
-|**更改的单元格**|**Notes**|
+|**更改的单元格**|**备注**|
 |:-----|:-----|
 |[ShdwType](shdwtype-cell-page-properties-section.md) <br/> |新值和自动化常量  <br/> |
    
@@ -128,14 +128,14 @@ Visio 2013 为您的自定义绘图解决方案提供了一个功能强大的单
 |:-----|
 |[字体](font-function.md) <br/> |
 |[ISTHEMED](isthemed-function.md) <br/> |
-|[语言](language-function.md) <br/> |
+|[LANGUAGE](language-function.md) <br/> |
 |[THEMECBV](themecbv-function.md) <br/> |
 ||
 |[THEMEVAL](themeval-function.md) <br/> |
    
 下表列出了 Visio 2013 中已弃用的函数。
   
-|**弃用的函数**|**Notes**|
+|**弃用的函数**|**备注**|
 |:-----|:-----|
 |**CELLISTHEMED** <br/> |由[ISTHEMED](isthemed-function.md)函数替换。  <br/> |
    

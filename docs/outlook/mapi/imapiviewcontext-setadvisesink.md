@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4799084a-b5d1-48c3-a889-b2f0e9d68c30
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7ee641214e1eaae667af356fd8dbe51ff7dc7982
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351189"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419392"
 ---
 # <a name="imapiviewcontextsetadvisesink"></a>IMAPIViewContext::SetAdviseSink
 
@@ -45,7 +45,7 @@ S_OK
   
 > 表单通知的注册或取消已成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单对象调用**IMAPIViewContext:: SetAdviseSink**方法以注册, 以了解有关表单查看器中的更改或取消之前的注册。 当_pmvns_设置为 NULL 时, 窗体要取消注册。 当_pmvns_指向有效的窗体建议接收器时, 该表单希望注册将来的通知。 
   

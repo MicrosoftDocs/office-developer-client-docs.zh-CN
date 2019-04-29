@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 33d70748-0d3f-4be4-bcb5-7ec048887944
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2a2439bae79b497f018391983e2c4b03a35eee70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348788"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424250"
 ---
 # <a name="imsgstorecompareentryids"></a>IMsgStore::CompareEntryIDs
 
@@ -74,7 +74,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 指定为参数的输入标识符中的一个或两个都不引用对象, 原因可能是相应的对象尚未打开, 并且目前不可用。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgStore:: CompareEntryIDs**方法对属于邮件存储的两个条目标识符进行比较, 以确定它们是否引用同一个对象。 
   

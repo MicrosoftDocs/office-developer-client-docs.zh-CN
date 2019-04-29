@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: c02186ce-6a20-fbe7-588d-d64c3ea4dec4
 description: 确定形状的文本相对于基准线的位置。
 ms.openlocfilehash: d5f6823d6f55493095d29054745f62b579a47893
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359813"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414016"
 ---
 # <a name="pos-cell-character-section"></a>Pos 单元格（“Character”内容）
 
 确定形状的文本相对于基准线的位置。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 标准位置  <br/> |**visPosNormal** <br/> |
-| 1  <br/> | Superscript  <br/> |**visPosSuper** <br/> |
-| 双面  <br/> | Subscript  <br/> |**visPosSub** <br/> |
+| 1  <br/> | 上标  <br/> |**visPosSuper** <br/> |
+| 双面  <br/> | 上标  <br/> |**visPosSub** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Pos 单元格的引用，请使用： 
   

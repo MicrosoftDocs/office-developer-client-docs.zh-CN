@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6574edeb-eb6f-afd9-89c4-eb5996dffa30
 description: 执行已确定的命令。
 ms.openlocfilehash: 9e5c02c9a90f3aab66c5d582c83d7d9d892f964c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315230"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413071"
 ---
 # <a name="docmd-function"></a>DOCMD 函数
 
@@ -30,7 +30,7 @@ ms.locfileid: "32315230"
 |:-----|:-----|:-----|:-----|
 | _commandID_ <br/> |必需  <br/> |**Number** <br/> | 要执行的命令。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 有关 DOCMD 函数支持的命令的列表, 请参阅 Microsoft Visio 2013 Automation Reference 中的 "DOCMD/DOCMD 命令" 主题。 
   

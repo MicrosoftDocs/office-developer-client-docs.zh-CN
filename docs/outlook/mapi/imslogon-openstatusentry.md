@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 850e256b-6b50-428c-aede-287edaf7b005
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: f50c0eb9e3af68e206eaa5bcc51cefa923c30f72
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348697"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413176"
 ---
 # <a name="imslogonopenstatusentry"></a>IMSLogon::OpenStatusEntry
 
@@ -64,7 +64,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 邮件存储提供程序实现**IMSLogon:: OpenStatusEntry**方法以打开 status 对象。 此状态对象随后用于使客户端可以调用[IMAPIStatus](imapistatusimapiprop.md)方法。 例如, 客户端可以使用[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)方法重新配置邮件存储登录会话或[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法以验证邮件存储登录会话的状态。 
   

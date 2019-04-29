@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 0dc4bb48-c8a1-447f-9e38-1c234a358fca
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 122e50328272a4009e5a129233d449613817dfc8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299501"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413533"
 ---
 # <a name="handing-address-book-notification"></a>处理通讯簿通知
   

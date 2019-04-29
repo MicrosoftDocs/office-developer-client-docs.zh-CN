@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0c984d53-763e-e502-b672-beffdebf73f3
 description: 返回与形状相关的标注形状总数。
 ms.openlocfilehash: f973886fba673be0a5d218f0bbc0a59338fe0f6e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337525"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418979"
 ---
 # <a name="calloutcount-function"></a>CALLOUTCOUNT 函数
 

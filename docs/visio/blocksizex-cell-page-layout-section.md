@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 253aac17-077e-48e0-39a8-a3abd5d4a257
 description: 确定水平块大小, 当您使用 "配置布局" 对话框 (在 "设计" 选项卡上的 "布局" 组中, 单击 "重新布局页面", 然后单击 "其他布局选项") 排放形状时, 绘图页上每个形状都必须符合的区域。
 ms.openlocfilehash: 8e4cee4b2059d9b8f2fe77c2d4902e67246eac2f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309476"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424187"
 ---
 # <a name="blocksizex-cell-page-layout-section"></a>BlockSizeX 单元格（“Page Layout”内容）
 
 确定水平块大小, 当您使用 "**配置布局**" 对话框 (在 "**设计**" 选项卡上的 "布局" 组中的 "**布局**" 组中, 单击 "**重新布局页面") 排放形状时, 绘图页上每个形状都必须符合的区域。**, 然后单击 "**其他布局选项**"。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 **“布局与排列间距”** 对话框（在 **“设计”** 选项卡上，单击 **“页面设置”** 组中的箭头，单击 **“布局与排列”** 选项卡，然后单击 **“间距”**）中设置此值。
   

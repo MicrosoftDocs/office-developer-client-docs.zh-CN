@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7dabc1d3-5ea4-482f-91a9-9ef3009eddd2
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: b6abecc298df7a86afff9338752a15615c73b3a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348886"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424257"
 ---
 # <a name="iaddrbookcompareentryids"></a>IAddrBook::CompareEntryIDs
 
@@ -74,7 +74,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 任何通讯簿提供程序都不能识别使用_lpEntryID1_或_lpEntryID2_参数传入的一个或两个条目标识符。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序和服务提供程序调用**CompareEntryIDs**方法来比较属于单个通讯簿提供程序的两个条目标识符, 以确定它们是否引用同一个对象。 **CompareEntryIDs**很有用, 因为一个对象可以有多个有效的条目标识符。 例如, 在安装新版本的通讯簿提供程序后, 可能会发生这种情况。 
   

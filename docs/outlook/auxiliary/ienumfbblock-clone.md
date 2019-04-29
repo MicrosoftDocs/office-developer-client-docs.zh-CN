@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5af36a87-e782-df63-4190-a608758fef50
 description: 使用相同的时间限制创建枚举数的副本, 但将游标设置为枚举器的开头。
 ms.openlocfilehash: 1a279430bf6a29611fa223bebbf8023c34967139
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317596"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413400"
 ---
 # <a name="ienumfbblockclone"></a>IEnumFBBlock::Clone
 

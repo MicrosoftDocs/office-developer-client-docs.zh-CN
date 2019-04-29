@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7726811467324242037ec11a69ae0b1b123d7f21
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328068"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427155"
 ---
 # <a name="fpropcompareprop"></a>FPropCompareProp
 
@@ -63,7 +63,7 @@ FALSE
   
 > 属性值不满足指定的关系。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 比较方法取决于在[SPropValue](spropvalue.md)属性定义中指定的属性类型。 **FPropCompareProp**和[FPropContainsProp](fpropcontainsprop.md)函数可用于准备生成表的限制。 
   

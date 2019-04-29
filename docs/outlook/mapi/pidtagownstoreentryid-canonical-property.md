@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6a82ee90-10a1-49e0-8f3a-a2cd9f490f99
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 16a23c4e711bf9f7b670dff8b3e8f65371aa6bda
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335446"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427372"
 ---
 # <a name="pidtagownstoreentryid-canonical-property"></a>PidTagOwnStoreEntryId 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32335446"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件存储库属性  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性指定紧耦合存储区的条目标识符 (如果存在)。 例如, 传输提供程序可以指定专用文件夹存储项标识符, 以便 MAPI 后台处理程序可以将传输提供程序连接到存储区。
   

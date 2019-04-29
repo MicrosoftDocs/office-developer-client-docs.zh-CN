@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9b456a87-d990-7ab2-d8a1-e91dca78650f
 description: 默认情况下, 在 Microsoft Visio 中隐藏 ShapeSheet 窗口。 若要访问 ShapeSheet, 需要在开发人员模式下运行 Visio (显示 "开发工具" 选项卡)。
 ms.openlocfilehash: b18bca69f7acea29d3c43ff57b22b132baa9c6fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360947"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419420"
 ---
 # <a name="open-the-shapesheet-for-a-shape-page-or-document"></a>打开形状、页面或文档的 ShapeSheet
 

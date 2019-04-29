@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 31325e8f-1cf9-49b2-8118-953996b0037f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 7351457dc5b72cfc4a7ef9f91e9d33a80ca98c39
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328831"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414065"
 ---
 # <a name="imapitablesetcollapsestate"></a>IMAPITable::SetCollapseState
 
@@ -68,7 +68,7 @@ MAPI_E_UNABLE_TO_COMPLETE
   
 > 表无法完成已折叠或展开的视图的重建。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: SetCollapseState**方法将重新建立表格视图的展开或折叠状态。 **SetCollapseState**和**GetCollapseState**协同工作, 如下所示: 
   

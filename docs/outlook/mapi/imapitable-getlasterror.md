@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 832e2c18-ddba-4d18-a391-710d21fe23e6
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 2444ea7e05367423e7920be3a871c2ab68aad76d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328998"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419000"
 ---
 # <a name="imapitablegetlasterror"></a>IMAPITable::GetLastError
 
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: GetLastError**方法返回有关以前的方法调用失败的详细信息 (如果有)。 此信息可以显示在邮件或对话框中。 
   

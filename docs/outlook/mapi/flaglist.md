@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a5e508f5f7e6554a115517da87a8eac39f39aecf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336937"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412973"
 ---
 # <a name="flaglist"></a>FLAGLIST
 
@@ -62,7 +62,7 @@ MAPI_UNRESOLVED
   
 > 该条目尚未解决。 其他通讯簿容器应尝试解析该收件人。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **FLAGLIST**结构用作[IABContainer:: ResolveNames](iabcontainer-resolvenames.md)的参数。 要解析的每个收件人都包含在[ADRLIST](adrlist.md)结构中。 由于通讯簿容器尝试解析每个收件人, 因此它会在**FLAGLIST**结构中的相应条目中设置适当的标志。 **FLAGLIST**结构中的所有条目的顺序与**ADRLIST**结构中的条目的顺序相同。 这样便于将标志设置与收件人相关联。 
   

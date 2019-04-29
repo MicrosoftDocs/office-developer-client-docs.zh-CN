@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9641a5a2-af6a-4999-b42b-5e9a004b47fc
 description: 指定是否对常规 Internet 邮箱使用安全密码身份验证 (SPA)。
 ms.openlocfilehash: b20bba4866ba61c66d6c79ee53ca2fe225f6d433
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326535"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413512"
 ---
 # <a name="propinetusespa"></a>PROP_INET_USE_SPA
 
@@ -27,7 +27,7 @@ ms.locfileid: "32326535"
 |属性标记：  <br/> |0x01080003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 零值表示不使用 spa, 否则使用 spa。
   

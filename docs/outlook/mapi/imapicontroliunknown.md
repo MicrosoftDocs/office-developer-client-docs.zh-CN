@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5a647e15-ba22-4a7c-b235-75cd76b77c1a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8dce1415ef8d18f4b786e92324c888f9a0845162
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280139"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414037"
 ---
 # <a name="imapicontrol--iunknown"></a>IMAPIControl : IUnknown
 

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: b51361fe-cf29-f890-9876-5aebe15c73e1
 description: Microsoft InfoPath 表单模板由结合使用的多个文件和组件组成，它们共同提供特定的功能以满足特定的最终用户方案或业务需求。InfoPath 表单在复杂性方面可能会有所变化，这取决于它们所服务的需求的类型。
 ms.openlocfilehash: 3c5adc7ec1e24af481dff7f4a8d009b2dcb6ba8a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303792"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419056"
 ---
 # <a name="about-form-template-components"></a>关于表单模板组件
 

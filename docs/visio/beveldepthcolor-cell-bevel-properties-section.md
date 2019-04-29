@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 1665774f-4049-4eda-ba7a-62314286699e
 description: 以 RGB 值或由活动主题确定的方式确定斜面深度的颜色。
 ms.openlocfilehash: 027b7b8675666b82d0ae26259fe77470708628c2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285138"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419168"
 ---
 # <a name="beveldepthcolor-cell-bevel-properties-section"></a>BevelDepthColor 单元格 ("棱台属性" 部分)
 
 以 RGB 值或由活动主题确定的方式确定斜面深度的颜色。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**BevelDepthColor**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

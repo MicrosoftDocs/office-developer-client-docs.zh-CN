@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e336d2ec-57cb-4d08-bd6e-330ef7d9939e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8b5c9e5bb2aa915d4b76d9998baaf504e7929b78
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355613"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424222"
 ---
 # <a name="pidtagremotevalidateok-canonical-property"></a>PidTagRemoteValidateOk 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32355613"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性将显示在状态表中, 并提供对传输性能的一些控制。 可将其视为将远程查看器定向为空闲的另一种方法。 当它设置为 TRUE 时, 远程查看器可以按需要的频率调用**IMAPIStatus:: ValidateState** 。 如果值为 FALSE, 则表示远程查看器不能进行任何调用。 
   

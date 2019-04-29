@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f61960f7-e018-4d2e-8e32-426ed46d9064
 description: 本节介绍了在 .osc 提供商实施的 .osc 提供程序扩展性接口中的 Outlook Social Connector (.osc) 典型的成员呼叫序列。
 ms.openlocfilehash: f7829b710d6840ccd1fa0f990d6e03b2eb879431
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356264"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413610"
 ---
 # <a name="osc-typical-calling-sequences"></a>OSC 典型调用序列
 
@@ -39,7 +39,7 @@ ms.locfileid: "32356264"
 
 - [Outlook Social Connector 提供程序参考](outlook-social-connector-provider-reference-0.md)
   
-## <a name="related-sections"></a>相关章节
+## <a name="related-sections"></a>相关部分
 
 - [Outlook Social Connector 提供程序开发入门（英文）](getting-started-with-developing-an-outlook-social-connector-provider.md)
   

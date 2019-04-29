@@ -9,11 +9,11 @@ api_type:
 ms.assetid: bb6ab537-2876-474b-be7a-84734ace2bae
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: aa1a433e90eda24f1199783bc604e047deb03ecd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350608"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418993"
 ---
 # <a name="supporting-message-service-configuration"></a>支持邮件服务配置
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7ca01bf7-5185-41cc-907e-01f256345997
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0a9bda8831f4a38b62d71a54115c40bb3374d97d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282731"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419315"
 ---
 # <a name="sizeddtblgroupbox"></a>SizedDtblGroupBox
 
@@ -44,7 +44,7 @@ _u_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SizedDtblGroupBox**宏允许您在标签的长度已知时定义一个分组框控件。 新结构是使用以下成员创建的: 
   

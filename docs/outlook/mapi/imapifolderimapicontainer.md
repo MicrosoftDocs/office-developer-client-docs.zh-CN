@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5e31896354141999e02f2cba117ef9739340be61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329489"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424236"
 ---
 # <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 
@@ -53,7 +53,7 @@ ms.locfileid: "32329489"
 |[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |设置文件夹的内容表的默认排序顺序。  <br/> |
 |[EmptyFolder](imapifolder-emptyfolder.md) <br/> |删除文件夹中的所有邮件和子文件夹, 而不删除该文件夹本身。  <br/> |
    
-|**必需属性**|**Access**|
+|**必需属性**|**访问**|
 |:-----|:-----|
 |**PR_DISPLAY_NAME**([PidTagDisplayNamePrefix](pidtagdisplaynameprefix-canonical-property.md))  <br/> |读/写  <br/> |
 |**PR_ENTRYID**([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |只读  <br/> |

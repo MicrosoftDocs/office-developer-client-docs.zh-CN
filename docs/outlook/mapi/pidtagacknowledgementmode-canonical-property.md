@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cee99b93d41ac8cd4a3dee18cad6cd4ab01cabe3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335278"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418916"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>PidTagAcknowledgementMode 规范属性
 
@@ -34,11 +34,11 @@ ms.locfileid: "32335278"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性可以具有下列值之一:
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |手动确认。  <br/> |
 |1  <br/> |自动确认。  <br/> |

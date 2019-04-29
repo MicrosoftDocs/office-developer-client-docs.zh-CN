@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bc447f22-a188-2c61-e33c-df0d401a4725
 description: 代表当前绘图比例中绘图单位的值。页面的绘图比例是 PageScale 单元格中显示的页面单位与 DrawingScale 单元格中显示的绘图单位之比。
 ms.openlocfilehash: 8a3a5f93ff096e42ba3c13b671b46bf1cf97df82
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316504"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413316"
 ---
 # <a name="drawingscale-cell-page-properties-section"></a>DrawingScale 单元格（“Page Properties”内容）
 
@@ -39,7 +39,7 @@ debug.print ActivePage.PageSheet.Cells("DrawingScale").Units = _
  visCentimeters 
 ```
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此单元格对应于 **“页面设置”** 对话框（单击 **“开始”** 选项卡上的 **“页面设置”** 箭头）中的设置。 
   

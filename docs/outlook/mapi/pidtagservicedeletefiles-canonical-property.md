@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9ec80a93-9e8f-46be-a1d4-7648aae47fec
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: da01385f83d9af9ad02eeb2fed08e3bc22d4df84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336398"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436823"
 ---
 # <a name="pidtagservicedeletefiles-canonical-property"></a>PidTagServiceDeleteFiles 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32336398"
 |数据类型：  <br/> |PT_MV_STRING8、PT_MV_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用 "控制面板" 卸载邮件服务时, 这些属性中包含的列表中的文件名将从计算机中删除。 请勿在列表中包含任何支持多个邮件服务的 DLL, 或者可能无意中删除了其他邮件服务。
   

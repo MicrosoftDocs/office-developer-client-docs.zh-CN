@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 322ea2e9-d6c9-48f9-a927-7162346d16a4
 description: 返回一个字符串数组, 这些字符串指定 Outlook Social Connector (.osc) 提供程序的网站 url。
 ms.openlocfilehash: 34d779d5eb42b81a14c5236685104e9ef4fe36f2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285854"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413771"
 ---
 # <a name="isocialproviderdefaultsiteurls"></a>ISocialProvider::DefaultSiteUrls
 
@@ -27,7 +27,7 @@ ms.locfileid: "32285854"
 
 指向结构的指针, 该结构指定代表 .osc 提供程序的网站 url 的字符串数组。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 提供程序可支持多个网站 url。 .osc 将[ISocialSession:: SiteUrl](isocialsession-siteurl.md)属性设置为通知提供程序所选的网站 URL。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 02910389-b346-431c-a282-dedbc9f7dfc6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cf91620042f916d51f27be50d15f72db537ad5f7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335243"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412945"
 ---
 # <a name="pidtagcontrolstructure-canonical-property"></a>PidTagControlStructure 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32335243"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性表示一个长指针, 该指针被转换为控件结构之一。 控制结构包括:
   

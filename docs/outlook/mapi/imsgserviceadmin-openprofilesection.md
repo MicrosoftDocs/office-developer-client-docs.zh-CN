@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7f24910a-e14e-44a1-8477-d8968130ba74
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 32ebdea3a594b5adf5d46dc081098d3628ae145b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317389"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437110"
 ---
 # <a name="imsgserviceadminopenprofilesection"></a>IMsgServiceAdmin::OpenProfileSection
 
@@ -80,7 +80,7 @@ MAPI_E_NOT_FOUND
   
 > 请求的配置文件部分不存在。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgServiceAdmin:: OpenProfileSection**方法打开一个 profile 部分, 该对象支持[IProfSect](iprofsectimapiprop.md)接口。 配置文件节用于读取信息以及将信息写入会话配置文件。 
   

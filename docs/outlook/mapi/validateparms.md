@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3ede1a35-4acc-4b8f-a1bd-027f35798a37
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f2669f703827924493387c4beac0b64b25672860
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329573"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436799"
 ---
 # <a name="validateparms"></a>ValidateParms
 
@@ -60,7 +60,7 @@ MAPI_E_CALL_FAILED
   
 > 一个或多个参数无效。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 假定在 MAPI 和服务提供程序之间传递的参数是正确的, 并且仅使用[CheckParms](checkparms.md)宏进行调试验证。 提供程序应检查客户端应用程序传入的所有参数, 但客户端应假定 MAPI 和提供程序参数正确。 使用**HR_FAILED**宏可测试返回值。 
   
