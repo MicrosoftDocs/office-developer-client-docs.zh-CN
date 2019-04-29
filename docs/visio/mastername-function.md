@@ -10,32 +10,32 @@ localization_priority: Normal
 ms.assetid: 519d79d4-9178-2231-c26d-aa7f31a43412
 description: 以字符串的形式返回工作表的主控形状名称, 如果工作表没有主控形状, 则返回字符串 "no master"。
 ms.openlocfilehash: 7732cf9e8b23e2fd0fc2e3f2cc8d9ef4f39fd67f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341788"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414751"
 ---
-# <a name="mastername-function"></a><span data-ttu-id="0c0ea-103">MASTERNAME 函数</span><span class="sxs-lookup"><span data-stu-id="0c0ea-103">MASTERNAME Function</span></span>
+# <a name="mastername-function"></a><span data-ttu-id="37355-103">MASTERNAME 函数</span><span class="sxs-lookup"><span data-stu-id="37355-103">MASTERNAME Function</span></span>
 
-<span data-ttu-id="0c0ea-104">以字符串的形式返回工作表的主控形状名称, 如果工作表\<没有主控\>形状, 则返回字符串 "no master"。</span><span class="sxs-lookup"><span data-stu-id="0c0ea-104">Returns a sheet's master name as a string, or returns the string "\<no master\>" if the sheet doesn't have a master.</span></span>
+<span data-ttu-id="37355-104">以字符串的形式返回工作表的主控形状名称, 如果工作表\<没有主控\>形状, 则返回字符串 "no master"。</span><span class="sxs-lookup"><span data-stu-id="37355-104">Returns a sheet's master name as a string, or returns the string "\<no master\>" if the sheet doesn't have a master.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="0c0ea-105">语法</span><span class="sxs-lookup"><span data-stu-id="0c0ea-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="37355-105">语法</span><span class="sxs-lookup"><span data-stu-id="37355-105">Syntax</span></span>
 
-<span data-ttu-id="0c0ea-106">MASTERNAME ([\* \* *langID_opt* \* \*])</span><span class="sxs-lookup"><span data-stu-id="0c0ea-106">MASTERNAME ([ \*\* *langID_opt* \*\* ])</span></span> 
+<span data-ttu-id="37355-106">MASTERNAME ([\* \* *langID_opt* \* \*])</span><span class="sxs-lookup"><span data-stu-id="37355-106">MASTERNAME ([ \*\* *langID_opt* \*\* ])</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="0c0ea-107">参数</span><span class="sxs-lookup"><span data-stu-id="0c0ea-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="37355-107">参数</span><span class="sxs-lookup"><span data-stu-id="37355-107">Parameters</span></span>
 
-|<span data-ttu-id="0c0ea-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="0c0ea-108">**Name**</span></span>|<span data-ttu-id="0c0ea-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="0c0ea-109">**Required/Optional**</span></span>|<span data-ttu-id="0c0ea-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="0c0ea-110">**Data Type**</span></span>|<span data-ttu-id="0c0ea-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="0c0ea-111">**Description**</span></span>|
+|<span data-ttu-id="37355-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="37355-108">**Name**</span></span>|<span data-ttu-id="37355-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="37355-109">**Required/Optional**</span></span>|<span data-ttu-id="37355-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="37355-110">**Data Type**</span></span>|<span data-ttu-id="37355-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="37355-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="0c0ea-112">_langID_opt_</span><span class="sxs-lookup"><span data-stu-id="0c0ea-112">_langID_opt_</span></span> <br/> |<span data-ttu-id="0c0ea-113">可选</span><span class="sxs-lookup"><span data-stu-id="0c0ea-113">Optional</span></span>  <br/> |<span data-ttu-id="0c0ea-114">**Number**</span><span class="sxs-lookup"><span data-stu-id="0c0ea-114">**Number**</span></span> <br/> |<span data-ttu-id="0c0ea-p101">用于指定函数所返回的字符串的语言。使用 0（默认值）可以指定本地语言。使用 750 可以指定通用语言。</span><span class="sxs-lookup"><span data-stu-id="0c0ea-p101">Use to specify a language for the string the function returns. Use 0 (default value) to specify the local language. Use 750 to specify universal language.</span></span>  <br/> |
+| <span data-ttu-id="37355-112">_langID_opt_</span><span class="sxs-lookup"><span data-stu-id="37355-112">_langID_opt_</span></span> <br/> |<span data-ttu-id="37355-113">可选</span><span class="sxs-lookup"><span data-stu-id="37355-113">Optional</span></span>  <br/> |<span data-ttu-id="37355-114">**Number**</span><span class="sxs-lookup"><span data-stu-id="37355-114">**Number**</span></span> <br/> |<span data-ttu-id="37355-p101">用于指定函数所返回的字符串的语言。使用 0（默认值）可以指定本地语言。使用 750 可以指定通用语言。</span><span class="sxs-lookup"><span data-stu-id="37355-p101">Use to specify a language for the string the function returns. Use 0 (default value) to specify the local language. Use 750 to specify universal language.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="0c0ea-118">返回值</span><span class="sxs-lookup"><span data-stu-id="0c0ea-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="37355-118">返回值</span><span class="sxs-lookup"><span data-stu-id="37355-118">Return value</span></span>
 
-<span data-ttu-id="0c0ea-119">字符串</span><span class="sxs-lookup"><span data-stu-id="0c0ea-119">String</span></span>
+<span data-ttu-id="37355-119">String</span><span class="sxs-lookup"><span data-stu-id="37355-119">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0c0ea-120">注解</span><span class="sxs-lookup"><span data-stu-id="0c0ea-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="37355-120">说明</span><span class="sxs-lookup"><span data-stu-id="37355-120">Remarks</span></span>
 
-<span data-ttu-id="0c0ea-121">如果传递了非法的语言代码，则将使用本地语言。</span><span class="sxs-lookup"><span data-stu-id="0c0ea-121">If you pass an illegal language code, the local language is used.</span></span> 
+<span data-ttu-id="37355-121">如果传递了非法的语言代码，则将使用本地语言。</span><span class="sxs-lookup"><span data-stu-id="37355-121">If you pass an illegal language code, the local language is used.</span></span> 
   
 

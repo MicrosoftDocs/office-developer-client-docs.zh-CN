@@ -9,16 +9,16 @@ api_type:
 ms.assetid: 35d68d27-7e58-4484-be55-a64f467c75cd
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: abf54a7c4c449c0e89bc1f647e7657f6850f4fd5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309994"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405959"
 ---
-# <a name="improving-client-performance"></a><span data-ttu-id="2f64a-103">提升客户端性能</span><span class="sxs-lookup"><span data-stu-id="2f64a-103">Improving client performance</span></span>
+# <a name="improving-client-performance"></a><span data-ttu-id="ec7dd-103">提升客户端性能</span><span class="sxs-lookup"><span data-stu-id="ec7dd-103">Improving client performance</span></span>
  
-<span data-ttu-id="2f64a-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2f64a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ec7dd-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ec7dd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2f64a-105">本节中的主题包含的提示可帮助您创建客户端应用程序, 从而实现最佳性能。</span><span class="sxs-lookup"><span data-stu-id="2f64a-105">The topics in this section contain tips that help you create a client application with the best possible performance.</span></span>
+<span data-ttu-id="ec7dd-105">本节中的主题包含的提示可帮助您创建客户端应用程序, 从而实现最佳性能。</span><span class="sxs-lookup"><span data-stu-id="ec7dd-105">The topics in this section contain tips that help you create a client application with the best possible performance.</span></span>
   
 

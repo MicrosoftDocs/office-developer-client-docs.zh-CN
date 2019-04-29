@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: a157c27e-afae-7c67-e96d-4ace7b7a82be
 description: 返回文档属性的关键字字段中的文本。
 ms.openlocfilehash: d5a5aa00248a016d209c17016e248a2fe93bccde
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360457"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416046"
 ---
-# <a name="keywords-function"></a><span data-ttu-id="51c3f-103">KEYWORDS 函数</span><span class="sxs-lookup"><span data-stu-id="51c3f-103">KEYWORDS Function</span></span>
+# <a name="keywords-function"></a><span data-ttu-id="94bf0-103">KEYWORDS 函数</span><span class="sxs-lookup"><span data-stu-id="94bf0-103">KEYWORDS Function</span></span>
 
-<span data-ttu-id="51c3f-104">返回文档属性的**关键字**字段中的文本。</span><span class="sxs-lookup"><span data-stu-id="51c3f-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
+<span data-ttu-id="94bf0-104">返回文档属性的**关键字**字段中的文本。</span><span class="sxs-lookup"><span data-stu-id="94bf0-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="51c3f-105">语法</span><span class="sxs-lookup"><span data-stu-id="51c3f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="94bf0-105">语法</span><span class="sxs-lookup"><span data-stu-id="94bf0-105">Syntax</span></span>
 
-<span data-ttu-id="51c3f-106">关键字 ()</span><span class="sxs-lookup"><span data-stu-id="51c3f-106">KEYWORDS ()</span></span>
+<span data-ttu-id="94bf0-106">关键字 ()</span><span class="sxs-lookup"><span data-stu-id="94bf0-106">KEYWORDS ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="51c3f-107">返回值</span><span class="sxs-lookup"><span data-stu-id="51c3f-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="94bf0-107">返回值</span><span class="sxs-lookup"><span data-stu-id="94bf0-107">Return value</span></span>
 
-<span data-ttu-id="51c3f-108">String</span><span class="sxs-lookup"><span data-stu-id="51c3f-108">String</span></span>
+<span data-ttu-id="94bf0-108">String</span><span class="sxs-lookup"><span data-stu-id="94bf0-108">String</span></span>
   
 
