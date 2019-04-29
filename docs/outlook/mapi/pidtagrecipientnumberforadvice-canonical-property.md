@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 636c1e75-3024-43ca-a7dd-1bb480dfbb5b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 79ef85955f15e0ca829ac6f206dddc17031b0562
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356691"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420638"
 ---
 # <a name="pidtagrecipientnumberforadvice-canonical-property"></a>PidTagRecipientNumberForAdvice 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32356691"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性将与传递到物理目标 (而不是电子邮箱) 一起使用, 以便在传递时不应存在人的收件人。 例如, 传真封面页上的电话号码。
   

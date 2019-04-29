@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f40d5405-12e3-475b-b731-d2223ab70c1d
 description: 获取描述提供程序功能的字符串。
 ms.openlocfilehash: cf3d1418ac0ecbfc3f67bb550a24ec71781f2637
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285761"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408101"
 ---
 # <a name="isocialprovidergetcapabilities"></a>ISocialProvider::GetCapabilities
 
@@ -29,7 +29,7 @@ _result_
   
 > 排除一个代表 Outlook Social Connector (.osc) 提供程序的功能的 XML 字符串。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 返回的_结果_XML 字符串必须符合 "**功能**" 元素的架构定义 (如在用于 .osc 提供程序扩展性的 XML 架构中定义)。 
   

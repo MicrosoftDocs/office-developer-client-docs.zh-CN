@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 537b45420390903d67722c074a1edcc04a0aede8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326297"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418832"
 ---
 # <a name="pidlidofflinestatus-canonical-property"></a>PidLidOfflineStatus 规范属性
 
@@ -35,11 +35,11 @@ ms.locfileid: "32326297"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 下表显示了此属性的可能值。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |文档未签出。  <br/> |
 |1  <br/> |将文档签出给当前用户。  <br/> |

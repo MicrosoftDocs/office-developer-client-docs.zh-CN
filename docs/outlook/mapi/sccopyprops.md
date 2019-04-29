@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1afd922459be2ec4bbbd27a61fdf6fcb425548c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351329"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411006"
 ---
 # <a name="sccopyprops"></a>ScCopyProps
 
@@ -70,7 +70,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 遇到未知的属性类型。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 新数组及其数据驻留在通过单个分配创建的缓冲区中, [ScRelocProps](screlocprops.md)函数可用于调整各个[SPropValue](spropvalue.md)结构中的指针。 在此调整之前, 指针有效。 
   

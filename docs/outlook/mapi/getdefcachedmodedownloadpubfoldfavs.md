@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 2dd95561-ed8f-8a3b-6532-b53556f16666
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5e623c9d40ffd2dd276bd9601676244644bb3402
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299886"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417705"
 ---
 # <a name="getdefcachedmodedownloadpubfoldfavs"></a>GetDefCachedModeDownloadPubFoldFavs
 
@@ -28,7 +28,7 @@ ms.locfileid: "32299886"
 |||
 |:-----|:-----|
 |导出者:  <br/> |msmapi32  <br/> |
-|调用者：  <br/> |客户端  <br/> |
+|调用者：  <br/> |Client  <br/> |
 |实现者：  <br/> |Outlook  <br/> |
    
 ```cpp

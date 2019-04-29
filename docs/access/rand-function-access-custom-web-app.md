@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6390b325-025e-4546-bb19-1cd1c45ceb5a
 description: 返回介于0和1之间的伪随机数字。
 ms.openlocfilehash: 02d914de9d74083a6ebf76f6d0e556fe51954a24
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307992"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416606"
 ---
 # <a name="rand-function-access-custom-web-app"></a>Rand 函数 (Access 自定义 web 应用程序)
 
@@ -31,7 +31,7 @@ ms.locfileid: "32307992"
 |:-----|:-----|
 | *Seed*  <br/> |提供种子值的整数表达式。 如果未指定*种子*, 则会随机分配种子值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 对具有相同种子的**Rand**函数的重复调用将返回相同的结果。 
   

@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6f7e052a-4270-4b83-b1ed-feabf6dbeaa2
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: f387d5ddb184c681ab5e005a6eb24058f6f52f9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310386"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414464"
 ---
 # <a name="multithreading-and-memory-management"></a>多线程和内存管理
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 正确处理内存对于创建适用于 Microsoft Excel 的可靠 XLL 外接程序至关重要。 如果无法分配适当的内存缓冲区, 并在不再需要它们时释放它们, 则会降低性能, 创建资源争用和 destabilizes Excel。
   

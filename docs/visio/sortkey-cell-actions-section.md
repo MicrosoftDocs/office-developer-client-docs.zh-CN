@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c0c4b668-f31b-336f-4434-e94a4804ff7c
 description: 确定动作在快捷菜单或动作标记菜单上显示的顺序的数字。
 ms.openlocfilehash: d4eb98055f199f603003b068dca9fa7b4e377e52
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334522"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419658"
 ---
 # <a name="sortkey-cell-actions-section"></a>SortKey 单元格（“Actions”内容）
 
@@ -23,7 +23,7 @@ ms.locfileid: "32334522"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 动作按照从低到高的顺序在动作标记菜单或快捷菜单上显示，最低的数字显示在菜单的顶部。如果两个动作行具有相同的 SortKey 单元格值，则顺序由物理行顺序确定。默认值为 0（零）。
   

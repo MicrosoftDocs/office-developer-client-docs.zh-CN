@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8e327e00-0844-efa4-900b-6954d3b009bb
 description: 包含样条第二个控制点的 x 坐标和 y 坐标、第二个节点、第一个节点、最后一个节点和样条的角度。
 ms.openlocfilehash: 2ec06619770af4e5dbcc1a763595b6e01a39052b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358791"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417474"
 ---
 # <a name="splinestart-row-geometry-section"></a>SplineStart 行（“Geometry”内容）
 
@@ -22,7 +22,7 @@ ms.locfileid: "32358791"
   
 SplineStart 行包含以下单元格。
   
-|**Cell**|**Description**|
+|**单元格**|**说明**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |样条第二个控制点的*x*坐标。  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |样条第二个控制点的*y*坐标。  <br/> |
@@ -31,7 +31,7 @@ SplineStart 行包含以下单元格。
 |[lc](c-cell-geometry-section.md) <br/> |样条的最后一个节点。  <br/> |
 |[D](d-cell-geometry-section.md) <br/> |样条的角度（从 1 到 25 的整数）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 Visio 在“Geometry”内容中显示样条的定义，其中包含 SplineStart 行以及其后的一个或多个 SplineKnot 行。SplineStart 行前面必须有其他类型的行（如 MoveTo 行），以指示样条的第一个控制点。如果样条前有相应类型的线段，则前面的行可以是 LineTo、ArcTo、NURBSTo、PolylineTo 或 EllipticalArcTo 行。
   

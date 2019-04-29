@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a9fda518-11ba-42aa-85ef-dd2279e0319d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3913cb04f1f2f61ba6835b704f430d872756b227
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321733"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417362"
 ---
 # <a name="imapiforminfo--imapiprop"></a>IMAPIFormInfo : IMAPIProp
 
@@ -47,7 +47,7 @@ ms.locfileid: "32321733"
 |[SaveForm](imapiforminfo-saveform.md) <br/> |在配置文件中保存特定窗体的说明。  <br/> |
 |[OpenFormContainer](imapiforminfo-openformcontainer.md) <br/> |返回一个指针, 指向在其中安装特定表单的表单容器。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 与 MapiForm 头文件中定义的大多数接口不同, **IMAPIFormInfo**继承自[IMAPIProp](imapipropiunknown.md)接口, 因为它通过调用[IMAPIProp:: GetProps](imapiprop-getprops.md)方法导出大部分表单信息。 
   

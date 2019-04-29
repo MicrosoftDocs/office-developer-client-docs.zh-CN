@@ -8,22 +8,22 @@ localization_priority: Normal
 ms.assetid: 7b781727-267b-4589-ab40-cfc79bb96c2d
 description: 通过应用新主题或选择新的连接器方案, 防止主题属性行中的 ThemeIndex 单元格被更改。 不会阻止用户在 ShapeSheet 中手动编辑此值。
 ms.openlocfilehash: 519c17f6e00c9aad2b5522bc66b41c0ceb75911b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358077"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411237"
 ---
 # <a name="lockthemeindex-cell-protection-section"></a>LockThemeIndex 单元格 ("Protection" 部分)
 
 通过应用新主题或选择新的连接器方案, 防止**主题属性**行中的**ThemeIndex**单元格被更改。 不会阻止用户在 ShapeSheet 中手动编辑此值。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |除非直接在 ShapeSheet 中进行更改, 否则无法更改**ThemeIndex**单元格的当前值。  <br/> |
 |FALSE  <br/> |当主题发生更改时, **ThemeIndex**单元格可以从其当前值更改。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**LockThemeIndex**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 66c83041-ee83-41d5-b9dc-a4dc4c670f82
 description: 删除由 userID 参数标识为社交网络上的友元的人员。
 ms.openlocfilehash: c276a9e5af18f7e4a3afbaa66d366d55de460a58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336776"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418433"
 ---
 # <a name="isocialsessionunfollowperson"></a>ISocialSession::UnFollowPerson
 
@@ -29,7 +29,7 @@ _userID_
   
 > 实时包含人员的社交网络用户 ID 的字符串。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _userID_参数必须是社交网络上的人员的有效用户 ID。 
   

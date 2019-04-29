@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c437de23-d2e0-469d-62e6-8eb8b8cfea5c
 description: 返回一个16位二进制数, 只有在 binarynumber1 和 binarynumber2 中的相应位为1时, 才将每位的二进制数设置为1。 否则, 将位设置为0。
 ms.openlocfilehash: 495ad645a422c0333d02a22c3c600dd1e0d567bd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284467"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409725"
 ---
 # <a name="bitand-function"></a>BITAND 函数
 
@@ -28,10 +28,10 @@ BITAND (* * *binarynumber1* * *, * * *binarynumber2* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _二进制数字1_ <br/> |必需  <br/> |**Numeric** <br/> |第一个 16 位二进制数。  <br/> |
-| _二进制数字2_ <br/> |必需  <br/> |**Numeric** <br/> |第二个 16 位二进制数。  <br/> |
+| _二进制数字1_ <br/> |必需  <br/> |**数值** <br/> |第一个 16 位二进制数。  <br/> |
+| _二进制数字2_ <br/> |必需  <br/> |**数值** <br/> |第二个 16 位二进制数。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可使用此函数测试和更改那些存储为位掩码（例如形状的文本格式）的形状的属性。
   

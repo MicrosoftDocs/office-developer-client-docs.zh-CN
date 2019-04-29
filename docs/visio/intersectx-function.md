@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d8dc1915-f055-e858-1323-9e8c1cb7f2f1
 description: 返回两条直线相交点的 x 轴坐标值 (在局部坐标系中)。
 ms.openlocfilehash: 857f81d667e33ad9ce79405ef5d59874903098e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335306"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418272"
 ---
 # <a name="intersectx-function"></a>INTERSECTX 函数
 
@@ -37,9 +37,9 @@ INTERSECTX (* * *x1* * *、* * *y1* * *、* * *angle1* * *、* * *x2* * *、* * 
    
 ### <a name="return-value"></a>返回值
 
-帐号
+数字
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 每一条直线都可以定义为一个点 (*x,y*) 和一个角。 
   

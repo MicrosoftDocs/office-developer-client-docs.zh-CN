@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0f55c8be-8641-476a-b0c8-c88adb2ac2b9
 description: 在 Microsoft InfoPath 中，可以使用 Visual Basic 或 C# 编写业务逻辑，方法是在 InfoPath 设计器中打开表单模板，然后使用某个用户界面命令添加事件处理程序。这将打开 Visual Studio 2012 开发环境供你编写代码。
 ms.openlocfilehash: cc09856750ced28d35c8da172a08a31c4e3cd4a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299732"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420645"
 ---
 # <a name="walkthrough-create-a-basic-form-template-with-code"></a>演练：创建包含代码的基本表单模板
 

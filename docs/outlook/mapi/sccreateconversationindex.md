@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3ccfc15d-f3c6-4c7b-b1cc-855af66036de
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 385660889c40e5f59dfc015ad92ce6a1398ab0cd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351322"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415654"
 ---
 # <a name="sccreateconversationindex"></a>ScCreateConversationIndex
 

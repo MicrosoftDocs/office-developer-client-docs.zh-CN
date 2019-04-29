@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ff74bf11-e693-11e4-23fa-67e93aa203ff
 description: Microsoft Visio 对象在内部存储为一组公式。 您可以在 ShapeSheet 窗口中通过查看 Visio 对象以查看和编辑确定其外观和行为的基本公式。
 ms.openlocfilehash: a0fd5e0305a5520638eebb34f7ec0cdcbeea17fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342817"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416669"
 ---
 # <a name="show-an-object-in-the-shapesheet-window"></a>在 ShapeSheet 窗口中显示对象
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 172f8f53-b837-4286-9236-3f72806d7f1f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: c40d853c49645638c2ec4001d86e64a1b2d2e381
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321593"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420309"
 ---
 # <a name="imapiformmgrselectmultipleforms"></a>IMAPIFormMgr::SelectMultipleForms
 
@@ -82,7 +82,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IMAPIFormMgr:: SelectMultipleForms**方法, 首先显示一个对话框, 使用户可以选择多个表单, 然后检索描述所选表单的表单信息对象的数组。 " **SelectMultipleForms** " 对话框将显示所有窗体, 无论它们是否隐藏 (即, 无论其隐藏属性是否清楚)。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f598fc57-75d3-473b-8eb0-9d8a3b92e9f2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d537184f427b2ef240dd2a9a59ab2f624f8f75d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350916"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409564"
 ---
 # <a name="imapiadvisesink--iunknown"></a>IMAPIAdviseSink : IUnknown
 

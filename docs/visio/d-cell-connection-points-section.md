@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 28b18e8d-fecf-a798-813e-c1a310002244
 description: 可用于输入或测试公式的草稿单元格。
 ms.openlocfilehash: e7bd61b8bc7a1a3b765af738681d958e2c83ba05
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345085"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408171"
 ---
 # <a name="d-cell-connection-points-section"></a>D 单元格（“Connection Points”内容）
 
 一种草稿单元格，可用于输入或测试公式。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要访问 D 单元格，可右击一行，然后单击快捷菜单上的 **“更改行类型”**。 
   

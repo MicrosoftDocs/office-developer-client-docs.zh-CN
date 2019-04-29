@@ -11,11 +11,11 @@ api_type:
 ms.assetid: e58c4954-e6b5-469d-898b-cef0a8fd612c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b334ad61f75e9c27f8981d96a19e1246eef5ed65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298500"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420582"
 ---
 # <a name="macros-related-to-structures"></a>与结构相关的宏
 

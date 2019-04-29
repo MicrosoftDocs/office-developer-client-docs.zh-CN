@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a637dcab-81e0-4195-a1d5-61d9957fcf10
 description: 显示 "帐户设置" 或 "添加新帐户" 对话框。
 ms.openlocfilehash: ecf5242fa4f224516e12e667ab66fd0adfe4a25d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322062"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415031"
 ---
 # <a name="iolkaccountmanagerdisplayaccountlist"></a>IOlkAccountManager::DisplayAccountList
 
@@ -77,7 +77,7 @@ _pclsidType_
 |MAPI_E_INVALID_PARAMETER  <br/> |_cCategories_、 _rgclsidCategories_或_pclsidType_参数为非 NULL。  <br/> |
 |MAPI_E_USER_CANCEL  <br/> |"**帐户设置**" 对话框返回一个错误。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _cCategories_、 _rgclsidCategories_和_pclsidType_参数目前不使用, 并且必须为 NULL。  _wszTitle_不使用, 也应为 NULL。 
   

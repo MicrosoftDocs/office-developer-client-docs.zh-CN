@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c01dd938-677c-b2ba-8f56-4638e7e988fd
 description: 根据 state 的值计算两个表达式中的一个。
 ms.openlocfilehash: 544bb2b19dc610591afc78c407301098fac9c7c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331323"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420344"
 ---
 # <a name="userui-function"></a>USERUI 函数
 
@@ -32,7 +32,7 @@ USERUI (* * *state* * *, * * *defaultexpression* * *, * * *userexpression* * *)
 | _defaultexpression_ <br/> |必需  <br/> |**String** <br/> |默认表达式。  <br/> |
 | _userexpression_ <br/> |必需  <br/> |**String** <br/> |用户提供的表达式。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果_state_为 0, 则 USERUI 函数将计算_defaultexpression_。 如果_state_为 1, 则计算_userexpression_。
   

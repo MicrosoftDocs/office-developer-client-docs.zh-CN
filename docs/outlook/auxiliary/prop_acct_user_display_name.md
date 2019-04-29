@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ffe48267-d6c7-c1d0-9298-272b31fd8102
 description: 返回或设置用户显示名称。
 ms.openlocfilehash: 2fb42a6f6ae9a72bc31c103af6314fcfd098439c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328241"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419469"
 ---
 # <a name="propacctuserdisplayname"></a>PROP_ACCT_USER_DISPLAY_NAME
 
@@ -29,7 +29,7 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x000B001F  <br/> |
 |访问权限  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.
   

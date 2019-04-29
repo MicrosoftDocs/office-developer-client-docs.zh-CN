@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8ba40adb-420a-4e5f-8858-d706da6cb497
 description: 将两个数字相加。 此加法算术运算符还可以向日期添加数字 (以天为单位)。
 ms.openlocfilehash: 93135f99832f517c3a0cdbd1e9c380fcce45a28e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308076"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416564"
 ---
 # <a name="-add-access-custom-web-app"></a>+ (添加) (Access 自定义 web 应用程序)
 

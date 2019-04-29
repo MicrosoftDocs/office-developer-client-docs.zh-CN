@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2a575cac-dbfd-4f42-9c10-4b7e355a065e
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 162f20485fc21cf8523b6d4a653e52c35f4b3d9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317078"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419518"
 ---
 # <a name="iprofadminrenameprofile"></a>IProfAdmin::RenameProfile
 
@@ -73,7 +73,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IProfAdmin:: RenameProfile**方法将新名称分配给配置文件 (如果有的话)。 如果调用**RenameProfile**时, 客户端正在使用重命名的配置文件, **RenameProfile**将标记配置文件并返回 S_OK, 而不是在配置文件正在使用时尝试重命名操作。 不再使用该配置文件时, **RenameProfile**会为其分配新名称。 
   

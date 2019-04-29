@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: aa6a95bc-4669-47fd-5055-a147ec55e78f
 description: 包含有关形状的常规位置信息：例如，其宽度、高度、角度以及旋转中心点；形状是否已被翻转；在组合内调整大小时，形状应如何变化。
 ms.openlocfilehash: c9d8bf44e5d897d17477cf0c4e75b5dbf063339f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325828"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419700"
 ---
 # <a name="shape-transform-section"></a>“Shape Transform”内容
 

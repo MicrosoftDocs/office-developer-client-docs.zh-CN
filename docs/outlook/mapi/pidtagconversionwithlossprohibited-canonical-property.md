@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a18b560a-e054-45b3-946d-6504465db5b7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 972df747e0ee459996b9b4da5732be1490fbd08a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334662"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417124"
 ---
 # <a name="pidtagconversionwithlossprohibited-canonical-property"></a>PidTagConversionWithLossProhibited 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32334662"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常规配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 被禁止转换的类型的一个示例是从 Unicode (每个字符的两个字节) 到单字节字符集的 "有损" 映射。 
   

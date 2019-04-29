@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d0f91e7d-2373-cfef-e105-fb17e77c7f2d
 description: 指定关于为用户定义的单元格的说明性提示或注释。 应用程序自动将提示文本括在引号 () 中, 以指示它是文本字符串。 如果键入等号 (=) 且省略引号，则可以在该单元格中输入应用程序求值的公式。
 ms.openlocfilehash: 7684025e03bd3f4f68893179b1df00cc0cb535e2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326885"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435724"
 ---
 # <a name="prompt-cell-user-defined-cells-section"></a>Prompt 单元格（“User-Defined Cells”内容）
 
 指定关于为用户定义的单元格的说明性提示或注释。应用程序自动将提示文本用引号 (" ") 引起来，以表示它是文本字符串。如果键入等号 (=) 且省略引号，则可以在该单元格中输入应用程序求值的公式。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Prompt 单元格的引用，请使用： 
   

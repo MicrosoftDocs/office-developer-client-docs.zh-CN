@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c6e18ee9f8ea1d7dc6592d576c5a1163db526639
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321663"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419847"
 ---
 # <a name="imapiformmgrcreateform"></a>IMAPIFormMgr::CreateForm
 
@@ -73,7 +73,7 @@ MAPI_E_NO_INTERFACE
   
 > 表单对象不支持所请求的接口。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IMAPIFormMgr:: CreateForm**方法打开一个窗体, 以根据窗体的邮件类创建新邮件。 **CreateForm**通过为该窗体创建窗体服务器的一个实例来打开该窗体, 如给定的窗体信息对象中所述。 如果需要, **CreateForm**调用[IMAPIFormMgr::P repareform](imapiformmgr-prepareform.md)方法将表单服务器代码下载到用户磁盘。 
   

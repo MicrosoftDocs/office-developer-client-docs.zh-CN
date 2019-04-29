@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d83b8ea8-a3b8-4038-a226-de1869c5d722
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 090a73ed908d2a647d00de27b93538a77766c258
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351259"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420589"
 ---
 # <a name="scinitmapiutil"></a>ScInitMapiUtil
 
@@ -51,7 +51,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ScInitMapiUtil**和[DeinitMapiUtil](deinitmapiutil.md)函数可共同调用和释放 select 实用工具函数, 而不是[MAPIInitialize](mapiinitialize.md), 后者调用核心以及实用工具函数。 当**ScInitMapiUtil**调用 utility 函数时, 它还会初始化所需的内存。 
   

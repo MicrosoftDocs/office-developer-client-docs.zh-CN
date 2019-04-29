@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b9584226-79d2-4d83-8f31-dbfbc50f16c5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6464f16d9ad73b332ff20dc007ef162b9525c6d5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346639"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411174"
 ---
 # <a name="mapiinitialize"></a>MAPIInitialize
 
@@ -51,7 +51,7 @@ S_OK
   
 > MAPI 子系统已成功初始化。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **MAPIInitialize**函数递增 mapi 子系统的 mapi 引用计数, [MAPIUninitialize](mapiuninitialize.md)函数递减内部引用计数。 因此, 对一个函数的调用次数必须等于对另一个函数的调用次数。 如果 MAPI 以前尚未初始化, 则**MAPIInitialize**将返回 S_OK。 
   

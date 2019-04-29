@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4af8e79a-697e-44a1-8576-fdc57726e9ef
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 00355546717ca61492750cb1dd113d20114b0695
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334809"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409501"
 ---
 # <a name="filetime"></a>FILETIME
 
@@ -50,7 +50,7 @@ typedef struct _FILETIME
   
 > 文件时间值的高序位32位。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 PT_SYSTIME 类型的属性具有其值的**FILETIME**结构。 此类属性的**值**成员在[SPropValue](spropvalue.md)结构中的定义中有一个**FILETIME**数据类型。 
   

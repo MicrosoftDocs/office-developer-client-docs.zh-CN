@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0b0c185e-eb41-417f-bfee-aeb6f0475866
 description: 本节提供了有关使用浏览器兼容的表单模板的信息，这些表单模板将部署到 Microsoft SharePoint Server 2010（带有 InfoPath Forms Services）。
 ms.openlocfilehash: a53aa12593033f4df0acc48dbc6197f096765365
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303155"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418251"
 ---
 # <a name="working-with-sharepoint-and-infopath-forms-services"></a>使用 SharePoint 和 InfoPath Forms Services
 

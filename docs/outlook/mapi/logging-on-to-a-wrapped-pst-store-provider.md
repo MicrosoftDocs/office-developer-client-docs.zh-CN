@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 364bc5fd-2199-0bb2-142b-9b3b686b2268
 description: '上次修改时间: 2012 年7月2日'
 ms.openlocfilehash: 96f472d67f144a451046ff61a3ed6c6ff2ff9acf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307817"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408984"
 ---
 # <a name="logging-on-to-a-wrapped-pst-store-provider"></a>登录包装的 PST 存储区提供程序
 

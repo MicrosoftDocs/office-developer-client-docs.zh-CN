@@ -13,11 +13,11 @@ api_type:
 ms.assetid: df4be986-62a8-49d6-8eca-25b55c74f830
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3753177552d45e32e53ae192a9dfae15b601afcc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359470"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417040"
 ---
 # <a name="pidtagservicesupportfiles-canonical-property"></a>PidTagServiceSupportFiles 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32359470"
 |数据类型：  <br/> |PT_MV_STRING8、PT_MV_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通过在控制面板小程序中使用对话框, 用户可以获取属于邮件服务的文件的列表。 例如, 用户可以获取属于该服务的所有动态链接库 (dll) 的名称。 然后, 用户可以查找有关指定文件的其他详细信息, 如所有 dll 的名称和版本号。 MAPI 使用这些属性在用于邮件用户选择的对话框中创建支持文件列表。
   

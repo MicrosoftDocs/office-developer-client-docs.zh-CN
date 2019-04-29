@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: da678213-fae0-4854-8194-762866600100
 description: 使用本主题中的链接可以快速找到有关使用 InfoPath 托管代码表单模板的最常见编程问题的解答。
 ms.openlocfilehash: 6fb2c565413b2dff67287bf659d8137306bd2860
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300201"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419497"
 ---
 # <a name="how-do-iin-infopath-form-templates-with-code"></a>在包含代码的 InfoPath 表单模板中如何...
 

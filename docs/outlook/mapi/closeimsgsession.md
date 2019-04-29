@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a0a17309-fc59-4822-be9b-b6f623b68bb1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 877bebf0a156c99907505d815ca8d36a4b398678
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334935"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412035"
 ---
 # <a name="closeimsgsession"></a>CloseIMsgSession
 
@@ -49,7 +49,7 @@ VOID CloseIMsgSession(
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序和服务提供程序使用消息会话, 以处理基于基础 OLE **IStorage**对象之上构建的多个相关 MAPI **IMessage**对象。 客户端或提供程序使用[OpenIMsgSession](openimsgsession.md)和**CloseIMsgSession**函数来包装邮件会话中的邮件的创建。 一旦打开了消息会话, 客户端或提供程序就会在调用[OpenIMsgOnIStg](openimsgonistg.md)中传递指向它的指针, 以创建新的**IMessage** **IStorage**对象。 
   

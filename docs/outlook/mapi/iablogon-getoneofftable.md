@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7ac2a8d4-6890-4346-a6b6-34deca9dab50
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 326a78ed512ec82a9f16b1540aad60954ab2d864
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338407"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411874"
 ---
 # <a name="iablogongetoneofftable"></a>IABLogon::GetOneOffTable
 
@@ -62,7 +62,7 @@ MAPI_E_NO_SUPPORT
   
 > 通讯簿提供程序不提供任何一次性模板。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 调用**GetOneOffTable**方法来创建可用的一次性模板, 以创建收件人。 新收件人将添加到传出邮件的收件人列表中。 通讯簿提供程序应支持对其一次性表发出通知, 以通知 MAPI 的模板修改。 MAPI 保持打开一个 "一次性" 表以启用动态更新。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e8b5d21e-dc14-4b61-96b3-a51bcfa0d232
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c9401c163c74ab303ec39c147e0432d1979426b8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329014"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418811"
 ---
 # <a name="imapitableadvise"></a>IMAPITable::Advise
 
@@ -61,7 +61,7 @@ MAPI_E_NO_SUPPORT
   
 > 表实现不支持对其行和列进行更改, 也不支持通知。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用**IMAPITable:: Advise**方法注册在提供程序中实现的用于通知回调的 table 对象。 每当 table 对象发生更改时, 提供程序都会检查在_ulEventMask_参数中设置的事件掩码位, 从而确定发生的更改类型。 如果设置了一个位, 则提供程序将调用由_lpAdviseSink_参数指示的[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法, 以报告事件。 通知结构中传递给**OnNotify**例程的数据描述了该事件。 
   

@@ -11,17 +11,17 @@ keywords:
 - tempmissing 函数 [excel 2007], TempMissing12 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 37c127b2252f18643b34dfc72fd9929885a68d01
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310491"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435955"
 ---
 # <a name="tempmissingtempmissing12"></a>TempMissing/TempMissing12
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 创建**xltypeMissing**类型的临时**XLOPER**/ **XLOPER12**的框架库函数。
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: a2c18b72-426b-4f63-8454-187e96d26199
 description: 本节提供有关开发 InfoPath 托管代码表单模板时常见的开发人员任务的信息。
 ms.openlocfilehash: a84bf1a70407ca87e1a83f74856d363d8860d4a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303435"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418853"
 ---
 # <a name="understanding-the-infopath-object-model-and-common-developer-tasks"></a>了解 InfoPath 对象模型和常见开发任务
 

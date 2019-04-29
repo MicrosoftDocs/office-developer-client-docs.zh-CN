@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 1087b8d6-0ac4-4290-86d2-b70d2619fd75
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 4d9dd7a6cbb6489e20e5bc7715d6a0fe29d3d33d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328089"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415101"
 ---
 # <a name="form-server-interactions"></a>表单服务器交互
 

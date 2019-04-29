@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 56f9043d-a632-65df-c710-45867cce1627
 description: 确定要向其添加跨线的连接线。
 ms.openlocfilehash: 7b5b8c8f1de160a4dc766d30a5f518c5653c270b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361115"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416249"
 ---
 # <a name="linejumpcode-cell-page-layout-section"></a>LineJumpCode 单元格（“Page Layout”内容）
 
@@ -29,7 +29,7 @@ ms.locfileid: "32361115"
 |4  <br/> |最后一个显示的线条 ( *z*顺序中的顶部形状)  <br/> |**visPLOJumpDisplayOrder** <br/> |
 |5  <br/> |第一个显示的线条 (按*z*顺序排列的底部的形状)  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 还可以在 **“页面设置”** 对话框中的 **“布局与排列”** 选项卡（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后单击 **“布局与排列”**）上设置此单元格的值。
   

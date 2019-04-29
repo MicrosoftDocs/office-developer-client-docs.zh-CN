@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 50cf1cac-c376-4bcd-9ede-8219b74ba200
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0114da6030fbe5b1fe451e0e9831746bf58cc4b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316252"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435640"
 ---
 # <a name="pidtagformcontactname-canonical-property"></a>PidTagFormContactName 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32316252"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 联系人通常包含负责维护表单的个人或别名的名称。 
   

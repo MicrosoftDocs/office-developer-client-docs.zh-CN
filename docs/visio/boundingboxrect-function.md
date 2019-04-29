@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1f66d2b2-ec9e-cd58-7642-96850fe4589e
 description: 返回形状的边界框指定边缘的坐标。
 ms.openlocfilehash: 0018118eb0991fe9dc1da0eb000566b69d8a4b4d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338050"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418069"
 ---
 # <a name="boundingboxrect-function"></a>BOUNDINGBOXRECT 函数
 
@@ -37,11 +37,11 @@ BOUNDINGBOXRECT (* **索引** *)
 
  **Number**
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  *索引*可以是下列值之一。 
   
-|**Item**|**值**|
+|**项**|**值**|
 |:-----|:-----|
 |左边缘  <br/> |0  <br/> |
 |右边缘  <br/> |1  <br/> |

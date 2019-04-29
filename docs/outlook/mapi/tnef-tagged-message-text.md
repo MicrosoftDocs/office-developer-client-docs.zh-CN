@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 8c65339e-240c-412d-9b71-69c746468bfb
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 2b4d4cd790870a024cac6f2ed9952d18a970235a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339590"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419917"
 ---
 # <a name="tnef-tagged-message-text"></a>TNEF 标记的邮件文本
 

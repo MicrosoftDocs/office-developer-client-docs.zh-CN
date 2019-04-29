@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b45b80f09efbd4f05aabc2c868d5bd8eb5fa4cce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327991"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418519"
 ---
 # <a name="ftgregisteridleroutine"></a>FtgRegisterIdleRoutine
 
@@ -95,7 +95,7 @@ _iroIdle_
 
 **FtgRegisterIdleRoutine**函数返回一个函数标记, 该标记标识已添加到 MAPI 系统中的空闲例程。 如果**FtgRegisterIdleRoutine**无法为客户端应用程序或服务提供商注册空闲例程 (例如, 由于内存问题), 它将返回 NULL。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 以下函数处理 MAPI 空闲引擎和基于[FNIDLE](fnidle.md)函数原型的空闲例程。 
   

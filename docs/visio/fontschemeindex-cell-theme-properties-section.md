@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: b832d75b-dac2-495f-b86e-d7fc5a484cab
 description: 确定应用于形状的主题的字体方案, 以整数形式表示。
 ms.openlocfilehash: 3a527b93b95f86dc1b9b92c931f3877ef28523ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346107"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420498"
 ---
 # <a name="fontschemeindex-cell-theme-properties-section"></a>FontSchemeIndex 单元格 ("主题属性" 部分
 
 确定应用于形状的主题的字体方案, 以整数形式表示。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**FontSchemeIndex**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

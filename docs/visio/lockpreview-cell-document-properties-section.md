@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 5a2bb1a7-e688-d32f-f231-ac6916d838a6
 description: 确定每次保存绘图时是否保存预览。
 ms.openlocfilehash: 91362d8a88cf6db2f4807c655a6d071ebbc731f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348326"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418860"
 ---
 # <a name="lockpreview-cell-document-properties-section"></a>LockPreview 单元格（“Document Properties”内容）
 
 确定每次保存绘图时是否保存预览。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 每次保存绘图时不保存预览。  <br/> |
 | FALSE  <br/> | 每次保存绘图时保存预览。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LockPreview 单元格的引用，请使用： 
   

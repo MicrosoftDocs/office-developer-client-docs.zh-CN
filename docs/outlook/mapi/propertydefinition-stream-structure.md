@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 479339762867aa778bc8bc8baa1f21f6bc34b441
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328481"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438587"
 ---
 # <a name="propertydefinition-stream-structure"></a>PropertyDefinition 流结构
 
@@ -27,7 +27,7 @@ PropertyDefinition 流结构中的字段定义可以是以下两种格式之一:
   
 - 版本: WORD (2 个字节), PropertyDefinition 流结构中的字段定义的格式。 下表显示可能的值。
     
-    |**Value**|**说明**|
+    |**值**|**说明**|
     |:-----|:-----|
     |0x0102  <br/> |格式为 PropDefV1。  <br/> |
     |0x0103  <br/> |格式为 PropDefV2。  <br/> |

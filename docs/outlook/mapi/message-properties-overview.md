@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 447f54de-9f0d-4f73-89b6-bed9cfea9c15
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 515b4637f99b806c5c5bc6304f107f62ca6d9091
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356929"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420246"
 ---
 # <a name="message-properties-overview"></a>邮件属性概述
 

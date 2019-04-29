@@ -13,11 +13,11 @@ api_type:
 ms.assetid: dcd786e2-5b93-4a4c-933a-df305abe4bcb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7c9048c8db43a0d9833bed8439f2517ad13623f7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358805"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417110"
 ---
 # <a name="pidlidremoteattachment-canonical-property"></a>PidLidRemoteAttachment 规范属性
 

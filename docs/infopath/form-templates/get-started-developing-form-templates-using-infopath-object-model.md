@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 45867711-3231-43ce-bae9-caf588120550
 description: 本节提供有关如何开始创建托管代码表单模板的信息，这些模板可以处理由 Microsoft.Office.Interop.InfoPath.SemiTrust 命名空间的成员提供的 InfoPath 2003 兼容对象模型。
 ms.openlocfilehash: 54d60e6d73ee224845c87c08f4de1e554e6182da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300397"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408052"
 ---
 # <a name="get-started-developing-form-templates-using-the-infopath-object-model"></a>使用 InfoPath 对象模型开始开发表单模板
 
@@ -29,7 +29,7 @@ ms.locfileid: "32300397"
     
 - [使用与 infopath 2003 不兼容的 SemiTrust 成员](how-to-use-microsoft-office-interop-infopath-semitrust-members.md)。讨论如何使用添加到 SemiTrust 命名空间中的新对象模型成员, 具体方法是在中[。](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx)Office InfoPath 2007 和 InfoPath 2010。 
     
-## <a name="related-sections"></a>相关章节
+## <a name="related-sections"></a>相关部分
 
 - [使用 infopath 2003 对象模型创建表单模板](creating-form-templates-using-the-infopath-2003-object-model.md): 讨论初始化和清理代码、如何添加事件处理程序、如何调试和部署使用 infopath 2003 兼容对象模型的 infopath 表单模板、线程支持和使用 Microsoft XML Core Services (MSXML)。
     

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cb6ec664-6062-75d0-1514-8058b98c2c36
 description: 返回基于零的索引，该索引指示子字符串 key 在 list 中的位置，或者如果目标字符串包含 delimiter，则返回 -1。
 ms.openlocfilehash: 10fc32e6e979ab819246161dedfb1183c2683a99
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358028"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410327"
 ---
 # <a name="lookup-function"></a>LOOKUP 函数
 
@@ -29,14 +29,14 @@ LOOKUP ("* * *key* * *", "* * *list* * *" [, "* **定界符** *"])
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _key_ <br/> |必需  <br/> |**String** <br/> |要查找的字符串。  <br/> |
-| _list_ <br/> |必需  <br/> |**String** <br/> | 要在其中进行搜索的列表。  <br/> |
+| _列表_ <br/> |必需  <br/> |**String** <br/> | 要在其中进行搜索的列表。  <br/> |
 | _分隔符_ <br/> |可选  <br/> |**字符串** <br/> | 要用作_列表_中的分隔符的字符串。 _分隔符_串的长度不能超过一个字符, 并且可以包含多字节字符。 默认值是一个分号。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-Numeric
+数值
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 LOOKUP 函数使用不区分大小写的搜索。如果列表以一个分隔符开始或结束，则认为在列表前或列表后存在一个空字符串。连续的分隔符表示其间为空字符串。 
   

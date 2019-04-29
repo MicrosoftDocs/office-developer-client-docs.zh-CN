@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0135f049-0311-45e5-9685-78597d599a4e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e7d30c1aba8ddc1419045c1caa8524f7d2063dc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317390"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434975"
 ---
 # <a name="imsgserviceadmincreatemsgservice"></a>IMsgServiceAdmin::CreateMsgService
 
@@ -80,7 +80,7 @@ MAPI_E_NOT_FOUND
   
 > 邮件服务名称不在 mapisvc.inf 的 "**服务**" 部分中。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgServiceAdmin:: CreateMsgService**方法将邮件服务添加到当前配置文件中。 **CreateMsgService**调用邮件服务的入口点函数以执行任何特定于服务的配置任务。 如果在_ulFlags_参数中设置了 SERVICE_UI_ALLOWED 标志, 则要安装的邮件服务可以显示属性表以使用户能够配置其设置。 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: fa68a055-9e58-40ef-886e-4e8ebb08a2a9
 description: 本节介绍了 Outlook 2013 辅助参考中的四个 api, 并提供了使用这些 api 的示例任务。
 ms.openlocfilehash: c546166c42742fc54ee43eef7d006183b7c8a40e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316854"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417915"
 ---
 # <a name="concepts-outlook-auxiliary-reference"></a>概念 (Outlook 辅助参考)
 

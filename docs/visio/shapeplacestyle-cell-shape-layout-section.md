@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29bfe8ec-ca12-8fbf-b62b-ece3710dfe2e
 description: 指定在 "配置布局" 对话框 (在 "设计" 选项卡上的 "布局" 组中, 单击 "重新布局页面", 然后单击 "其他布局选项") 中排放形状时, 形状在页面上的放置方式。 存储 VisCellIndices 中的布局样式和对齐值。
 ms.openlocfilehash: 381f74912b64395f33a2dc55c0bad24d36a16286
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326507"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418573"
 ---
 # <a name="shapeplacestyle-cell-shape-layout-section"></a>ShapePlaceStyle 单元格（“Shape Layout”内容）
 
@@ -24,14 +24,14 @@ ms.locfileid: "32326507"
 |:-----|:-----|
 |**visLOPlaceBottomToTop** <br/> |4  <br/> |
 |**visLOPlaceCircular** <br/> |型  <br/> |
-|**visLOPlaceCompactDownLeft** <br/> |日  <br/> |
+|**visLOPlaceCompactDownLeft** <br/> |14   <br/> |
 |**visLOPlaceCompactDownRight** <br/> |步  <br/> |
-|**visLOPlaceCompactLeftDown** <br/> |13  <br/> |
-|**visLOPlaceCompactLeftUp** <br/> |12  <br/> |
+|**visLOPlaceCompactLeftDown** <br/> |13   <br/> |
+|**visLOPlaceCompactLeftUp** <br/> |12   <br/> |
 |**visLOPlaceCompactRightDown** <br/> |utf-8  <br/> |
 |**visLOPlaceCompactRightUp** <br/> |第  <br/> |
-|**visLOPlaceCompactUpLeft** <br/> |11x17  <br/> |
-|**visLOPlaceCompactUpRight** <br/> |10  <br/> |
+|**visLOPlaceCompactUpLeft** <br/> |11   <br/> |
+|**visLOPlaceCompactUpRight** <br/> |10   <br/> |
 |**visLOPlaceDefault** <br/> |0  <br/> |
 |**visLOPlaceHierarchyBottomToTopCenter** <br/> |20  <br/> |
 |**visLOPlaceHierarchyBottomToTopLeft** <br/> |合  <br/> |
@@ -43,10 +43,10 @@ ms.locfileid: "32326507"
 |**visLOPlaceHierarchyRightToLeftMiddle** <br/> |26  <br/> |
 |**visLOPlaceHierarchyRightToLeftTop** <br/> |word  <br/> |
 |**visLOPlaceHierarchyTopToBottomCenter** <br/> |×  <br/> |
-|**visLOPlaceHierarchyTopToBottomLeft** <br/> |位  <br/> |
+|**visLOPlaceHierarchyTopToBottomLeft** <br/> |16   <br/> |
 |**visLOPlaceHierarchyTopToBottomRight** <br/> |18  <br/> |
 |**visLOPlaceLeftToRight** <br/> |双面  <br/> |
-|**visLOPlaceParentDefault** <br/> |个  <br/> |
+|**visLOPlaceParentDefault** <br/> |15   <br/> |
 |**visLOPlaceRadial** <br/> |第三章  <br/> |
 |**visLOPlaceRightToLeft** <br/> |5  <br/> |
 |**visLOPlaceTopToBottom** <br/> |1  <br/> |

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: acc136ef-9946-7c12-a467-9ded732a3549
 description: 返回一个 integer 类型的值, 该值代表日期时间或表达式中的公历年, 根据系统的当前区域和语言设置的短日期样式设置格式。
 ms.openlocfilehash: c9bacd34557d365841171bee5c9f4683e6a3d296
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351651"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420708"
 ---
 # <a name="year-function-visioshapesheet"></a>YEAR 函数 (VisioShapeSheet)
 
@@ -30,13 +30,13 @@ YEAR ("* * *datetime* * *" |* **表达式** * [, * * *lcid* * *])
 |:-----|:-----|:-----|:-----|
 | _datetime_ <br/> |必需  <br/> |**String** <br/> | 任何通常被识别为日期和时间的字符串或对包含日期和时间的单元格的引用。  <br/> |
 | _expression_ <br/> |必需  <br/> |**相同** <br/> |任何生成日期和时间的表达式。  <br/> |
-| _lcid_ <br/> |可选  <br/> |**Numeric** <br/> |用于计算非本地日期时间的区域设置标识符。 区域设置标识符是系统头文件中描述的一个数字。  <br/> |
+| _lcid_ <br/> |可选  <br/> |**数值** <br/> |用于计算非本地日期时间的区域设置标识符。 区域设置标识符是系统头文件中描述的一个数字。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
 整数
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _datetime_或_expression_中的时间部分将被丢弃。 
   

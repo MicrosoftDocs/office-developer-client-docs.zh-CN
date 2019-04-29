@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 61c19342-46fb-48d4-6375-c9ea8306286d
 description: 指定用于显示图层的颜色。
 ms.openlocfilehash: a2eef24187165cabfdfc8dee49747a2381562d3e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341823"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435129"
 ---
 # <a name="color-cell-layers-section"></a>Color 单元格（“Layers”内容）
 
 指定用于显示图层的颜色。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要设置该颜色，请输入一个介于 0 和 23 之间的数字。
   

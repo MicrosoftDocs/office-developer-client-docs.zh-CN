@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 2698d059-9955-4eec-85a6-79defb64e07e
 description: InfoPath 托管代码对象模型所提供的对象和集合可以用来访问有关 InfoPath 应用程序的信息，其中包括有关表单的基础 XML 文档以及表单定义 (.xsf) 文件的信息。这些数据通过 InfoPath 对象模型分层结构的顶级对象（该对象通过使用 Application 类来实例化）来访问。
 ms.openlocfilehash: 8da72313807584ee599d65701d009786dd631979
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300173"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417229"
 ---
 # <a name="access-application-data"></a>访问应用程序数据
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: c0e1cdba-ceb6-4a3f-8449-79d1a0ad1adf
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: a28e6e6f008517a6b1c2c82dfa391b478963880f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328467"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419931"
 ---
 # <a name="providing-notifications-for-message-store-providers"></a>为邮件存储提供程序提供通知
 

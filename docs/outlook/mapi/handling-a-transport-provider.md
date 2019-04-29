@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 60b3e5f4-4a9b-432f-bad4-4284225ab93f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 0fe21cea26c956f8a03a51e2f302b040fc89e751
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299494"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416536"
 ---
 # <a name="handling-a-transport-provider"></a>处理传输提供程序
   

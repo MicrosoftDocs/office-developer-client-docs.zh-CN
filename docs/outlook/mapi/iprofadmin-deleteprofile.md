@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 730af2da-4c4a-42a7-9d52-56d914107d64
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8aafb849a98028efb37646752a7b49fa5e6ef2ff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309560"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419588"
 ---
 # <a name="iprofadmindeleteprofile"></a>IProfAdmin::DeleteProfile
 
@@ -54,7 +54,7 @@ MAPI_E_NOT_FOUND
   
 > 指定的配置文件不存在。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IProfAdmin::D eleteprofile**方法删除配置文件。 如果调用**DeleteProfile**时正在使用要删除的配置文件, 则**DeleteProfile**将返回 S_OK, 但不会立即删除该配置文件。 相反, **DeleteProfile**将该配置文件标记为删除, 并在它不再使用后将其删除, 并在所有活动会话结束后将其删除。 
   

@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f496d698-7f08-69cc-4379-df18a2c2fd7e
 ms.openlocfilehash: caa86e33d0d7aa9ca31cbbf8939e17b581877669
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337189"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416718"
 ---
 # <a name="eventmultidrop-cell-events-section"></a>EventMultiDrop 单元格（“Events”内容）
 

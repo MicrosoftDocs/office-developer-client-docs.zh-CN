@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 27042b62-7623-95d7-7e10-f589d74605c7
 description: 动作标记按钮相对于由 X 单元格和 y 单元格定义的点的 y 轴偏移量。
 ms.openlocfilehash: d7a1f5c1feda3624c9f96039e7247c737a91a813
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357013"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419980"
 ---
 # <a name="y-justify-cell-action-tags-section"></a>Y Justify 单元格（“Action Tags”内容）
 
@@ -23,13 +23,13 @@ ms.locfileid: "32357013"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 靠上对齐（默认值）。  <br/> |**visSmartTagYJustifyTop** <br/> |
 | 1  <br/> | 居中。  <br/> |**visSmartTagYJustifyMiddle** <br/> |
 | 双面  <br/> | 靠下对齐。  <br/> |**visSmartTagYJustifyBottom** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 x 两端对齐和 y 调整单元格确定操作标记按钮相对于 X 和 Y 单元格定义的点的放置位置。
   

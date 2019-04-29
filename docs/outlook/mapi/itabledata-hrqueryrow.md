@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 66ce8f36-2b2b-4a8e-b9b2-43782d8357a1
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: da41fadc9a71a410dd115e28ce2cf9c81442b104
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348641"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434765"
 ---
 # <a name="itabledatahrqueryrow"></a>ITableData::HrQueryRow
 
@@ -59,7 +59,7 @@ MAPI_E_INVALID_PARAMETER
   
 > _lpSPropValue_指向的[SPropValue](spropvalue.md)结构不包含 index 列属性。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ITableData:: HrQueryRow**方法检索索引列与由_lpSPropValue_指向的属性结构中包含的索引列相匹配的行的所有属性。 如果调用方请求行号, 则**HrQueryRow**也会返回行号, 用于标识行在表中的位置。 
   

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
 description: '上次修改时间: 2011 年11月8日'
 ms.openlocfilehash: 8a5a07cdeb7f000c9a7da24dbea1a42a6f9fc185
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344504"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418482"
 ---
 # <a name="sorting-and-categorization"></a>排序和分类
 

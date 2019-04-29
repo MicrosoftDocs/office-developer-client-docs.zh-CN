@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0e6283dc-9a08-460f-9400-03f0ceb4081c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 33b4fd87f33c26db15e1a6a28f077c393168db91
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325758"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420743"
 ---
 # <a name="dtblmvddlbox"></a>DTBLMVDDLBOX
 
@@ -50,7 +50,7 @@ typedef struct _DTBLMVDDLBX
   
 > 类型为 PT_MV_TSTRING 的多值属性的属性标记。 此属性的不同值在下拉列表中显示为不同的条目。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTBLMVDDLBOX**结构描述多值下拉列表项的只读列表。 通过使用多值下拉列表, 当用户单击滚动条时, 将显示值。 
   

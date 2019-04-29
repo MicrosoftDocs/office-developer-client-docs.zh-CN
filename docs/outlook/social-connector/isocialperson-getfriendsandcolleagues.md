@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 62d5b815-f199-499e-85eb-2dff21a8216e
 description: 获取表示人员集合的字符串。
 ms.openlocfilehash: f755476f66ab2f91471b88c74baff899f31b83e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331659"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407653"
 ---
 # <a name="isocialpersongetfriendsandcolleagues"></a>ISocialPerson::GetFriendsAndColleagues
 
@@ -29,7 +29,7 @@ _personsCollection_
   
 > 排除一个 XML 字符串, 它表示人员的一组朋友, 并且符合 Outlook Social Connector (.osc) 提供程序可扩展性的 XML 架构中定义的**友元**定义。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果 .osc 提供商支持社交网络上的友元缓存或混合同步, 则 .osc 调用**GetFriendsAndColleagues** 。 当 .osc 最初调用登录到社交网络的 Outlook 用户的**GetFriendsAndColleagues**方法时, **GetFriendsAndColleagues**将返回一个代表社交网络上登录用户的好友的 XML 字符串。 XML 字符串符合**好友**XML 架构定义, 并指定每个好友的**person**元素 (也符合 .osc 提供程序架构定义)。 
   

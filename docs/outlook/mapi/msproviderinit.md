@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 230c66c4-ab04-4fa6-946f-9f4b704f2842
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9a5f8b44f9d795282ccfd61fd32a306c5478ed21
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342789"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416235"
 ---
 # <a name="msproviderinit"></a>MSProviderInit
 
@@ -99,7 +99,7 @@ MAPI_E_VERSION
   
 > MAPI 使用的 spi 版本与此提供程序使用的 spi 不兼容。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 调用入口点函数**MSProviderInit** , 以在客户端登录后初始化邮件存储提供程序。 
   

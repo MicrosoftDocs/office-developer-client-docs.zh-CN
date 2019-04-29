@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: de2aca1d-a591-cf39-990c-a24666764a6f
 description: 返回角度的双曲正弦值。
 ms.openlocfilehash: 305dd9e62a32db3a91724cd182964012e482442e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314803"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416151"
 ---
 # <a name="sinh-function"></a>SINH 函数
 
@@ -28,13 +28,13 @@ SINH (* * *angle* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |必需  <br/> |**Numeric** <br/> |要获取其双曲正弦值的角度。  <br/> |
+| _angle_ <br/> |必需  <br/> |**数值** <br/> |要获取其双曲正弦值的角度。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-帐号
+数字
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 SINH 函数使用弧度, 除非您以_角度_指定不同的度量单位。
   

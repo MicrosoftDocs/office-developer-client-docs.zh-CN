@@ -9,11 +9,11 @@ api_type:
 ms.assetid: dc23dc61-7b51-43ab-a184-ce0bdac91d03
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 381e2c9ec84811b69d666017a568e7b9cca21755
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329603"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418846"
 ---
 # <a name="verifying-service-provider-configuration"></a>验证服务提供程序配置
   

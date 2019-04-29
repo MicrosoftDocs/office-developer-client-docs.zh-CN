@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f21b5e6c-7a63-46bf-acbf-0e042e3519f7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 38263f46ccb50e1836f31d457f54f52abca7ce9f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357517"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407842"
 ---
 # <a name="sbinary"></a>SBinary
 
@@ -50,7 +50,7 @@ typedef struct _SBinary
   
 > 指向 PT_BINARY 属性值的指针。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 有关属性类型的信息, 请参阅[MAPI 属性类型概述](mapi-property-type-overview.md)。
   

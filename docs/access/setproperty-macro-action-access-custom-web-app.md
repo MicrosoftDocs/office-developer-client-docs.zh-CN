@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1e97dd95-23f6-4f49-b3b9-2c7261b3a70d
 description: 可以使用 SetProperty 操作为视图上的控件设置属性。
 ms.openlocfilehash: 1876be32606d66e0570c9e69206a508b8888b157
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307887"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438027"
 ---
 # <a name="setproperty-macro-action-access-custom-web-app"></a>SetProperty 宏操作 (Access 自定义 web 应用程序)
 
@@ -31,7 +31,7 @@ ms.locfileid: "32307887"
 | _Property_ <br/> |请选择要设置的属性。有关可以使用此操作设置的属性的列表，请参阅本文的**说明**部分。<br/> |
 | _值_ <br/> |请键入要设置的属性值。对于值为“是”或“否”的属性，使用 **-1** 代表“是”，**0** 代表“否”。<br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以使用**SetProperty**操作设置控件的下列属性: 
   

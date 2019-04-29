@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e29190c5-52c3-4ef7-98db-699487c54325
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 751be8abe02dfb1d5bab2bcbbbc0cbd2a8243f85
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278755"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418512"
 ---
 # <a name="pidtagstatuscode-canonical-property"></a>PidTagStatusCode 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32278755"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 状态代码必须出现在所有提供程序的 mapisvc.inf 文件中。 
   

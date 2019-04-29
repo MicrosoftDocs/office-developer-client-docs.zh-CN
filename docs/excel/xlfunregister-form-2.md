@@ -10,17 +10,17 @@ keywords:
 - xlfunregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 39c6eba7-ba41-4e7b-9a28-2b662378ff5a
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 8bf1151e1ba4c165e784b88dce80096a2eaa62de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310162"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419903"
 ---
 # <a name="xlfunregister-form-2"></a>xlfUnregister（窗体 2）
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 可从 DLL 或 XLL 命令调用, 该命令本身已由 Microsoft Excel 调用。 这相当于从 Excel XLM 宏表中调用 "**注销**"。 
   
@@ -46,7 +46,7 @@ DLL 的名称。
 
 如果成功,**则返回 TRUE** (**xltypeBool**)。 如果不成功, 则返回**FALSE**。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 > [!NOTE] 
 > 请勿从您的[xlAutoClose](xlautoclose.md)实现中调用这种形式的函数, 企图使用一个简单的函数调用注销 DLL 的所有资源。 这将导致递归调用**xlAutoClose**和堆栈溢出。 

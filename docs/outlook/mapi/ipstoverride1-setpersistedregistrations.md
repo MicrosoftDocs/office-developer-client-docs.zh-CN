@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
 description: '上次修改时间: 2011 年11月8日'
 ms.openlocfilehash: 6583765d4df7c7bfae9e7a62606beaa857874954
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315475"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408346"
 ---
 # <a name="ipstoverride1setpersistedregistrations"></a>IPSTOVERRIDE1::SetPersistedRegistrations
 
@@ -50,7 +50,7 @@ S_OK
   
 > 函数调用成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 持久化注册可能会对打开 pst 的应用程序 (如 Outlook 和 Windows 桌面搜索) 的性能产生不利影响。 在使用或扩展持久化注册的使用情况时, 请考虑性能影响。
   

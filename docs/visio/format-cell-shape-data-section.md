@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: c36fc895-5577-59f6-0ff5-5892ca81a58f
 description: 指定形状数据项的格式，这些数据项是字符串、固定列表、数字、可变列表、日期或时间、持续时间或货币。
 ms.openlocfilehash: bb02cfefd6dc93798ca5e2b0c657e4616515fd0e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346023"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415360"
 ---
 # <a name="format-cell-shape-data-section"></a>Format 单元格（“Shape Data”内容）
 
 指定形状数据项的格式，这些数据项是字符串、固定列表、数字、可变列表、日期或时间、持续时间或货币。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 |**形状数据项类型**|**值**|**Format 单元格内容**|
 |:-----|:-----|:-----|
-| 字符串  <br/> | 0  <br/> | 适合该数据类型的格式图片。  <br/> |
+| String  <br/> | 0  <br/> | 适合该数据类型的格式图片。  <br/> |
 | 固定列表  <br/> | 1  <br/> | 要显示在列表中的项，以分号分隔。  <br/> |
-| 帐号  <br/> | 双面  <br/> | 适合该数据类型的格式图片。  <br/> |
+| 数字  <br/> | 双面  <br/> | 适合该数据类型的格式图片。  <br/> |
 | 可变列表  <br/> | 4  <br/> | 要显示在列表中的项，以分号分隔。  <br/> |
 | 日期或时间  <br/> | 5  <br/> | 适合该数据类型的格式图片。  <br/> |
 | 持续时间  <br/> | 型  <br/> | 适合该数据类型的格式图片。  <br/> |

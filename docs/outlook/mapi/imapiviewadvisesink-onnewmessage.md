@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 6a6f8f9d675bee362b4a9f1c5b7fc544fa66d7b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328789"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419602"
 ---
 # <a name="imapiviewadvisesinkonnewmessage"></a>IMAPIViewAdviseSink::OnNewMessage
 
@@ -41,7 +41,7 @@ S_OK
   
 > 通知已成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当使用[IPersistMessage:: InitNew](ipersistmessage-initnew.md)或[IPersistMessage:: Load](ipersistmessage-load.md)方法在窗体中加载邮件时, form 对象将调用**IMAPIViewAdviseSink:: OnNewMessage**方法。 
   

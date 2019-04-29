@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 532f7af0-b2cc-49dd-b1de-e3ec1dc9a3e7
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 07aa508b473f4a87d5b4909f83771549c301a600
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326360"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418503"
 ---
 # <a name="imapisupportopentemplateid"></a>IMAPISupport::OpenTemplateID
 
@@ -83,7 +83,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 外部通讯簿提供程序不存在。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 仅对通讯簿提供程序支持对象实现**IMAPISupport:: OpenTemplateID**方法。 **OpenTemplateID**只能由通讯簿提供程序调用, 该提供程序可充当属于其他通讯簿提供程序 (也称为外部提供程序) 的条目的主机。 主机提供程序调用**OpenTemplateID**以打开外接程序, 当主机提供程序中的数据绑定到外部提供程序中的代码时, 将发生这种情况。 
   

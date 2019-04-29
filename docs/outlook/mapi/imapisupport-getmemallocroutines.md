@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 52d45876-367b-42da-b99a-29cdb71fa5a9
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 680fd16771b62d705808a04d768115a076e54750
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316554"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415535"
 ---
 # <a name="imapisupportgetmemallocroutines"></a>IMAPISupport::GetMemAllocRoutines
 
@@ -55,7 +55,7 @@ S_OK
   
 > 成功返回了函数地址。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: GetMemAllocRoutines**方法是为所有支持对象实现的。 服务提供程序调用**GetMemAllocRoutines** , 以获取传递给其初始化函数的三个内存分配函数 ( [ABProviderInit](abproviderinit.md)、 [MSProviderInit](msproviderinit.md)或[XPProviderInit](xpproviderinit.md)) 的地址。 
   

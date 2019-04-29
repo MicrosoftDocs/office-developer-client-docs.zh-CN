@@ -10,17 +10,17 @@ keywords:
 - xlfregisterid 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: d34cf20c-a5cd-45fb-9dcb-d49eac2d99dd
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 05119226d0b6190a2c4b30846c03a59b5c3cd1d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303876"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420057"
 ---
 # <a name="xlfregisterid"></a>xlfRegisterId
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 可以从已由 Microsoft Excel 调用它本身的 DLL 调用。 如果某个函数已注册, 它将返回该函数的现有 register ID, 而不 reregistering 它。 如果尚未注册某个函数, 它将注册它并返回生成的寄存器 ID。
   
@@ -46,7 +46,7 @@ _pxTypeText_(**xltypeStr**)
 
 返回函数的 register ID (**xltypeNum**), 该 ID 可在后续调用**xlfUnregister**时使用。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果您不想要维护收银机 ID, 但稍后需要对其进行注销, 则此函数很有用。 当要分配的函数位于 DLL 中时, 也可以将其分配给菜单、工具和按钮。
   

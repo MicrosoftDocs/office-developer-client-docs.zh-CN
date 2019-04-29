@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5d21b64f-a559-76ef-06df-d24c048cc6ef
 description: 指定页面 y 轴标尺上的零点。
 ms.openlocfilehash: ead9ca453bfeb86f32a943950b297b9b629de95d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284963"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420414"
 ---
 # <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>YRulerOrigin 单元格 ( &amp; "标尺网格" 部分)
 
 指定页面 y 轴标尺上的零点。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此单元格对应于 "**标尺&amp;网格**" 对话框 (在 "**视图**" 选项卡上, 单击 "**显示**" 箭头) 中的 "垂直**标尺零点**" 选项。 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 11833823-35fa-4bed-8dda-e5c74c320d46
 description: 本节介绍了 Outlook 导出的数据类型。
 ms.openlocfilehash: adca0b613adc887df7a73ea4809b61bb70cf28b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319843"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415220"
 ---
 # <a name="data-types-outlook-exported-apis"></a>数据类型 (Outlook 导出的 api)
 

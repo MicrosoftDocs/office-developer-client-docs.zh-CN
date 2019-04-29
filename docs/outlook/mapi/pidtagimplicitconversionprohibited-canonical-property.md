@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c6cb5a86-0105-4743-9f8e-b832e898da52
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a0e18ef529b65317abd9446408ed73638c792809
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346604"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420666"
 ---
 # <a name="pidtagimplicitconversionprohibited-canonical-property"></a>PidTagImplicitConversionProhibited 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32346604"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果此属性为 TRUE, 则邮件系统不得对邮件执行任何内容转换, 除非使用**PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)) 属性在每个收件人的基础上显式请求。
   

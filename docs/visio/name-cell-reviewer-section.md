@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: be39cd0b-56bf-a070-f5d8-c9a440d81ee2
 description: 包含文档审阅者的姓名。
 ms.openlocfilehash: 02f353ab8f2d39cc075211bb13157b93081e9d8f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335166"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417684"
 ---
 # <a name="name-cell-reviewer-section"></a>Name 单元格（“Reviewer”内容）
 
 包含文档审阅者的姓名。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  此值默认为在 " **Visio 选项**" 对话框 (单击 "**文件**" 选项卡, 单击 "**选项**", 然后单击 "**常规**") 的 "**常规**" 选项卡上的 "**用户名**" 框中找到的名称。 
   

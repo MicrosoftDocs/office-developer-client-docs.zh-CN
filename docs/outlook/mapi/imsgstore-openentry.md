@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a63c42cf-36af-466b-b41e-d6b53ce1c9fb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 07667558a21a9110d684164d2e6c143d6a519368
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309693"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409333"
 ---
 # <a name="imsgstoreopenentry"></a>IMsgStore::OpenEntry
 
@@ -90,7 +90,7 @@ MAPI_NO_CACHE
   
 > 在缓存模式下打开存储时, 客户端或服务提供程序可以调用**IMsgStore:: OpenEntry**, 将 MAPI_NO_CACHE 标志设置为打开远程存储上的项目或文件夹。 如果使用远程服务器上的 MDB_ONLINE 标志打开邮件存储区, 则无需使用 MAPI_NO_CACHE 标志。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgStore:: OpenEntry**方法打开一个文件夹或邮件, 并返回指向可用于进一步访问的接口的指针。 
   

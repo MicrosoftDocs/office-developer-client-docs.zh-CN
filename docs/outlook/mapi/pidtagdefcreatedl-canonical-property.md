@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 172dc15b-7bda-403f-a93a-446b2f9ff1d3
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ff5d35104e9effc27c405b716cb61cf4643677b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359953"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417789"
 ---
 # <a name="pidtagdefcreatedl-canonical-property"></a>PidTagDefCreateDl 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32359953"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序使用此属性在容器中创建通讯组列表。 对 "条目创建" 的支持对于通讯簿容器是可选的;不支持它的方法不需要公开此属性。 
   

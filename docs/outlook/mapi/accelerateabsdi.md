@@ -13,11 +13,11 @@ api_type:
 ms.assetid: da67dcf4-1411-4fc9-992c-115485019bd3
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 46e87caa68a45a188272340db408c52546f02a57
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322125"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420372"
 ---
 # <a name="accelerateabsdi"></a>ACCELERATEABSDI
  
@@ -52,7 +52,7 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
 
 带有**ACCELERATEABSDI**原型的函数将返回 TRUE (如果它处理邮件)。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 基于**ACCELERATEABSDI**原型的函数仅用于无模式对话框, 即, 仅当客户端应用程序已在[ADRPARM](adrparm.md)结构的_ulFlags_成员中设置了 DIALOG_SDI 标志时。 
   

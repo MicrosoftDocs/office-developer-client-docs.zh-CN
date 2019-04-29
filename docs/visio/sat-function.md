@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 407817fb-9e4a-d2ca-6125-2440d2a417c6
 description: 返回颜色饱和度组件的值。
 ms.openlocfilehash: 3b3fd8e13ca9af4f0aea00d2f78c7b5c27be1932
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318996"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415003"
 ---
 # <a name="sat-function"></a>SAT 函数
 
@@ -32,9 +32,9 @@ SAT (* **表达式** *)
    
 ### <a name="return-value"></a>返回值
 
-Numeric
+数值
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 返回值是 0 至 240 之间的数字（包括 0 和 240）。对于无效输入，该函数将返回 0。
   

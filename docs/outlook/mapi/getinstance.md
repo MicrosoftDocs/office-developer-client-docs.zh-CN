@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cb432d52-6c96-45d2-bbde-45b0de3f915c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 936a20c4236ab76e5acdb178737c3044d3f53bfe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299543"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418720"
 ---
 # <a name="getinstance"></a>GetInstance
 
@@ -59,7 +59,7 @@ VOID GetInstance(
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果复制的值对于分配的内存来说太大, 则**GetInstance**函数仅复制指针, 而不是分配新内存。 
   

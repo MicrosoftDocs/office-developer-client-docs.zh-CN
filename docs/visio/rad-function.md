@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f6bf2db7-c570-918d-e83e-7a6c8eb64544
 description: 将角度值从度转换为弧度。
 ms.openlocfilehash: 256e62890384791f7540c159e74a0ce75063fbc4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359995"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412203"
 ---
 # <a name="rad-function"></a>RAD 函数
 
