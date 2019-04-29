@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 030d5c21-ab02-4047-bf2d-9a402a1e9102
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 87df676dccdb067302d62da2bd1fda6b634ed4f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350657"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436193"
 ---
 # <a name="pidtagxcoordinate-canonical-property"></a>PidTagXCoordinate 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32350657"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性、 **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md))、 **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) 和**PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) 属性定位并调整对话框控件的大小。
   

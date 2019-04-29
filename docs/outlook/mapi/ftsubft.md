@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6619fc41-5518-44ce-85c1-6b0077ed5cb9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: edd789a586adc71289ff821aa7cf7a33f79fb738
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300390"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408416"
 ---
 # <a name="ftsubft"></a>FtSubFt
 

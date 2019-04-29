@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 57db0314-1df0-4fd2-b443-223b0512f1ad
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 62220794f325165e67db5397da2795d49959ef60
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344483"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409879"
 ---
 # <a name="sorting-tables-after-setting-columns-and-restrictions"></a>设置列和限制后对表排序
 

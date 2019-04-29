@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3f2870f7-1c08-4d0f-b9d8-7644f5e55b78
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: f27da216b9c474aa31503917a6d3c7a74eab9c4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341263"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421212"
 ---
 # <a name="imapisupportunsubscribe"></a>IMAPISupport::Unsubscribe
 
@@ -49,7 +49,7 @@ MAPI_E_NOT_FOUND
   
 > 在_ulConnection_参数中传递的连接号码不存在。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: 退订**方法是为所有服务提供程序支持对象实现的。 服务提供商呼叫**取消订阅**以取消之前通过**订阅**设置的通知注册。 **取消订阅**通过释放在**订阅**呼叫中传递的通知接收器指针来取消注册。 
   

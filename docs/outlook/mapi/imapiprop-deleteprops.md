@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5cc642de-21f0-4826-bf21-aac4bcfc1328
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5bfef87baa2dffa4605f9a7afa3833024f514430
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328947"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409235"
 ---
 # <a name="imapipropdeleteprops"></a>IMAPIProp::DeleteProps
 
@@ -54,7 +54,7 @@ MAPI_E_NO_ACCESS
   
 > 调用方权限不足, 无法删除属性。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIProp::D eleteprops**方法从当前对象中删除一个或多个属性。 
   

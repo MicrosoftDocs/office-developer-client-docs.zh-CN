@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 9c76bf02-7269-65bb-2fd2-920243d962ef
 description: 指定是否可打印属于该图层的形状。
 ms.openlocfilehash: f9a1dca6d45b53c02ff0ed29f921c352fc947630
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356180"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435213"
 ---
 # <a name="print-cell-layers-section"></a>Print 单元格（“Layers”内容）
 
 指定是否可打印属于该图层的形状。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |能够打印形状。  <br/> |
 |FALSE  <br/> |不能打印形状。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 还可以使用 **“图层属性”** 对话框（在 **“开始”** 选项卡上的 **“编辑”** 组中，单击 **“图层”**，然后单击 **“图层属性”**）中的 **“打印”** 选项设置此值。
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: ca949013-f998-1bce-39e5-ac6f68ab2392
 description: 一种事件单元格，双击某个形状后会对其求值。
 ms.openlocfilehash: a50e88ecd8e432629e246f7038dfcc9626725cc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337168"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438216"
 ---
 # <a name="eventdblclick-cell-events-section"></a>EventDblClick 单元格（“Events”内容）
 
 一种事件单元格，双击某个形状后会对其求值。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 只在事件发生后（而非输入公式后）才对事件单元格求值。
   

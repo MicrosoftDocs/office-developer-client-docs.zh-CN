@@ -10,17 +10,17 @@ keywords:
 - xlabort 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 08ab69252520e76a5631c5e32a3970d2d95b1ff4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310253"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436655"
 ---
 # <a name="xlabort"></a>xlAbort
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 将处理器生成到系统中的其他任务, 并检查用户是否已按**ESC**取消宏。 如果用户在重新计算工作簿期间按下了**ESC** , 也可以通过调用此函数从工作表函数中检测到。 
   
@@ -38,7 +38,7 @@ Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 
 如果用户按**ESC 键**,**则返回 TRUE** (**xltypeBool**)。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 ### 
 

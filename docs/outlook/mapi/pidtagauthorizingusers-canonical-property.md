@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d291777e-c0c6-4de2-9bf5-5c1d95f3db6c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 74ae66a4f9b8eb1c80251009441739efbd844901
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326661"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437460"
 ---
 # <a name="pidtagauthorizingusers-canonical-property"></a>PidTagAuthorizingUsers 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32326661"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 邮件存储区不维护该属性。
   

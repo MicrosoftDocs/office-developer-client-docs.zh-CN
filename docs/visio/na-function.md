@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 14268877-d791-91d1-cff6-657c01e63e0f
 description: '返回的错误值 #NA!。'
 ms.openlocfilehash: 25e7f8450b2aa379629f55e59d53e93c5f29bb51
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335145"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436060"
 ---
 # <a name="na-function"></a>NA 函数
 
@@ -28,9 +28,9 @@ NA( )
   
 ### <a name="return-value"></a>返回值
 
-字符串
+String
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 NA 是表示“没有可用值”的错误值。
   

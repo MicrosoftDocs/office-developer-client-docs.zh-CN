@@ -9,11 +9,11 @@ api_type:
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 502ba82279664638c8e7e4ae68f74df74758918d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350678"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435514"
 ---
 # <a name="supporting-formatted-text-message-store-responsibilities"></a>支持格式化文本: 邮件存储责任
 
@@ -41,7 +41,7 @@ ms.locfileid: "32350678"
   
 下表介绍了这三种级别之间的差异。 
   
-|**支持级别**|**Description**|
+|**支持级别**|**说明**|
 |:-----|:-----|
 |低  <br/> |只要将更改保存到邮件并从**PR_RTF_COMPRESSED**中提取**PR_BODY**属性的数据, 邮件存储提供程序就会调用**RTFSync** , 而不是要求客户端对其进行设置。 同时存储**PR_BODY**和**PR_RTF_COMPRESSED** 。  <br/> |
 |中间  <br/> |邮件存储提供程序仅存储**PR_RTF_COMPRESSED**属性 (必要时计算**PR_BODY** )。  <br/> |

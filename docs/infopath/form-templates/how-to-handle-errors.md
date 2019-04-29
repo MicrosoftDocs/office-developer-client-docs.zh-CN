@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 132cb698-d9a5-4767-b3d1-5dd1343a1ff4
 description: 创建自定义应用程序时，开发人员必须经常执行错误处理，这包括通过编写程序代码，检查是否存在应用程序引起的错误，或者创建和引发自定义错误。Microsoft.Office.InfoPath 命名空间提供的 InfoPath 对象模型支持通过使用与 FormErrorCollection 类关联的 FormError 类来处理错误。
 ms.openlocfilehash: 30cf649188b7e4cbc35469d2a50540bb13ecb38d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303603"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410775"
 ---
 # <a name="handle-errors"></a>处理错误
 

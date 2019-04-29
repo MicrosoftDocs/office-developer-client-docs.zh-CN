@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 69be9ad3-006a-459e-9cd4-eb3f609d71ad
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2fb9eed0beaf7269ac90a021dae650355484ebc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330182"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436228"
 ---
 # <a name="pidtagresourceflags-canonical-property"></a>PidTagResourceFlags 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32330182"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性描述邮件服务、服务提供程序或状态对象的特征。 为此属性设置的标志取决于其上下文。 例如, 一些标志仅对 status 对象和仅适用于邮件服务表中的列的其他标志有效。 
   

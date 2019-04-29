@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: f0baa310-7a53-07ee-0a7d-33dd1fb465c2
 description: 对于每个指定的用户, 返回一个用于枚举某个时间范围内的忙/闲数据块的接口。
 ms.openlocfilehash: e55f902117a20bfefaa5d9a2f3a067cb78ec86cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319402"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411230"
 ---
 # <a name="ifreebusysupportloadfreebusydata"></a>IFreeBusySupport::LoadFreeBusyData
 

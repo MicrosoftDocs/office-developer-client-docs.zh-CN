@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f6e410ef-54d5-9c08-926b-97a2a9786622
 description: 以字符串的形式返回背景页名称。
 ms.openlocfilehash: 3b628315052117fe853c8f9c0fc36572de25d871
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358539"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410313"
 ---
 # <a name="bkgpagename-function"></a>BKGPAGENAME 函数
 
@@ -28,13 +28,13 @@ BKGPAGENAME (* * *langID_opt* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _langID_opt_ <br/> |可选  <br/> |**Numeric** <br/> |用于指定函数所返回的字符串的语言。使用 0（默认值）可以指定本地语言。使用 750 可以指定通用语言。  <br/> |
+| _langID_opt_ <br/> |可选  <br/> |**数值** <br/> |用于指定函数所返回的字符串的语言。使用 0（默认值）可以指定本地语言。使用 750 可以指定通用语言。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-字符串
+String
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果要对其使用该函数的页面没有背景页, 则返回字符串 "\<无背景\>"。 
   

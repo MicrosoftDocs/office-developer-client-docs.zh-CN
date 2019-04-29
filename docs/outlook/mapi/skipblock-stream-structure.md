@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 2499587b-2a0e-4987-9bf7-591bef41b894
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 5a3367a15374234658fd9d10f3c2a5f3a191c80e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282668"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435542"
 ---
 # <a name="skipblock-stream-structure"></a>SkipBlock 流结构
 

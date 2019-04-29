@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 182ab0c6-c9d3-4cc8-892f-f6b09312ceb9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 59d0ce192605257dc0aebed46d8093a352fce05f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270236"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435283"
 ---
 # <a name="mapireallocatebuffer"></a>MAPIReallocateBuffer
 
@@ -51,7 +51,7 @@ LPVOID * lppv
   
 > 指向返回的已分配缓冲区的指针。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  **MAPIReallocateBuffer**分配一个新的请求大小内存块, 并复制传入此新内存块的缓冲区的内容。 如果传递的内存块包含内部指针, 则指针不会更改以匹配新位置。 
   

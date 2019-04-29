@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 971b4837-6823-4f28-9803-3c22b2ec091f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2bff20af2b3e9ea4e203e38ae38a8bc19074a727
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321231"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438566"
 ---
 # <a name="dtbllbx"></a>DTBLLBX
 
@@ -63,7 +63,7 @@ MAPI_NO_VBAR
   
 > 可以使用**OpenProperty**调用打开的 PT_OBJECT 类型的 table 属性的属性标记。 表应包含的列数取决于列表是单个还是多个选择列表。 如果将**ulPRSetProperty**成员设置为**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)), 则此列表允许多项选择。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTBLLBX**结构描述用于显示多个项目的控件的列表, 并允许用户选择一个或多个项目。 
   

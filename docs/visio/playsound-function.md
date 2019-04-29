@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 098d216f-e699-0e74-f702-ccfa7809c19b
 description: 播放声音文件或系统声音。
 ms.openlocfilehash: 752412aab6584d2b01235fe88644e3ec3fa5daee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346842"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435836"
 ---
 # <a name="playsound-function"></a>PLAYSOUND 函数
 
@@ -34,7 +34,7 @@ PLAYSOUND ("* * *filename* * *" | "* * *alias* * *", * * *isAlias* * *, * **提�
 | _发声_ <br/> |必需  <br/> |**Boolean** <br/> |指定在声音无法播放时，Microsoft Visio 是否发出嘟嘟声；使用非零数字来指定发出嘟嘟声。  <br/> |
 | _同步_ <br/> |必需  <br/> |**Boolean** <br/> |确定是异步 (0) 播放声音还是同步 (1) 播放声音。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通常应异步播放声音，这样 Visio 就能够在播放声音的同时继续进行处理。 若要将几种声音组合在一起，请同步播放它们，否则一些声音可能无法播放。 
   

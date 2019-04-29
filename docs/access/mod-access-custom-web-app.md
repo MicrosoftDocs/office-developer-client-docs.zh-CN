@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 561dd741-ebbb-4661-95ea-39d342c32891
 description: 返回一个数除以另一个数的余数。
 ms.openlocfilehash: 6756dd50f7e062b73d6ec9e1d9753f5b7f188058
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301706"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412504"
 ---
 # <a name="mod-access-custom-web-app"></a>Mod (Access 自定义 web 应用程序)
 

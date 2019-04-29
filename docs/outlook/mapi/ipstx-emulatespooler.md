@@ -13,11 +13,11 @@ api_type:
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 024583926b5d0be638b33b1b60c5d4c5dc74d05b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315090"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438951"
 ---
 # <a name="ipstxemulatespooler"></a>IPSTX::EmulateSpooler
 
@@ -37,7 +37,7 @@ HRESULT EmulateSpooler(
   
 >  实时如果本地存储应模拟后台处理程序, 则将此参数设置为 True;如果不是, 则将其设置为 False。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 本地存储调用**IPSTX:: EmulateSpooler**作为 Outlook 协议管理器, 将传出队列中的邮件后台打印到后端服务器 (例如, MSN server 或 AOL server) 进行处理。 在同步期间模拟后台打印程序时, 存储将调用以下两种方法: 
   

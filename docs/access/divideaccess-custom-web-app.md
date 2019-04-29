@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 3d296730-197b-44db-853b-881597dd9b48
 description: 将一个数除以另一个数。
 ms.openlocfilehash: 48d43b224743949f86c5d206d9919a9e2d6fbcae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308258"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435185"
 ---
 # <a name="-divide-access-custom-web-app"></a>/(除) (Access 自定义 web 应用程序)
 
@@ -34,7 +34,7 @@ ms.locfileid: "32308258"
   
 如果用整数** *除数*除以整数, 则结果是一个整数, 其中包含结果的任何小数部分截断。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 由/运算符返回的实际值是第一个表达式的商除以第二个表达式。
   

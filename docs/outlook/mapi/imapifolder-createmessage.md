@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e0222afa-c148-4735-a603-cac7be6c91f9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4d38648f5e3084c8342fca8d18f0bd3efc915155
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280083"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412630"
 ---
 # <a name="imapifoldercreatemessage"></a>IMAPIFolder::CreateMessage
 
@@ -67,7 +67,7 @@ S_OK
   
 > 邮件已成功创建。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFolder:: CreateMessage**方法创建一个包含常规或关联内容的新邮件, 并分配一个条目标识符。 条目标识符由表示邮件存储提供程序的部件和表示单个邮件的部件组成。 
   

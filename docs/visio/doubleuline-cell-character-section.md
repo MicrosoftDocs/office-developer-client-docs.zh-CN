@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: c18955c8-d653-c29d-d3da-9d3cd0241e17
 description: 确定文本范围下是否带有双下划线。
 ms.openlocfilehash: 2708e7f55e1fd04d5fb902b3d382035790cbbcc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357461"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438839"
 ---
 # <a name="doubleuline-cell-character-section"></a>DoubleULine 单元格（“Character”内容）
 
 确定文本范围下是否带有双下划线。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |文本下带有双下划线。  <br/> |
 |FALSE  <br/> |文本下不带双下划线。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果“Characters”内容包含多行，则 DoubleULine 单元格包含应用于某形状文本的一个子范围的格式设置信息。否则，它就包含该形状的所有文本的格式设置信息。
   

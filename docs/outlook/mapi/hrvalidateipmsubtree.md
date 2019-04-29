@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6454c1fa-5216-4934-a908-48c634ac4a07
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6cf51985e534434c584eff4d63dfbf239121ee85
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346765"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436571"
 ---
 # <a name="hrvalidateipmsubtree"></a>HrValidateIPMSubtree
 
@@ -95,7 +95,7 @@ MAPI_FULL_IPM_TREE
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 在内部使用**HrValidateIPMSubtree**函数在首次打开存储库时或在将存储创建为默认存储时在邮件存储中构建标准的 IPM 子树。 客户端应用程序还可以使用此函数验证或修复标准邮件文件夹。 
   

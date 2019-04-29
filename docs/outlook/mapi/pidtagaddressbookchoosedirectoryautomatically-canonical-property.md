@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: cecd0679-4bc2-4399-8f89-a4e17bb909a0
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 41fdaf333084b7d567f4e67ae9fd2638a1731349
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359785"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409662"
 ---
 # <a name="pidtagaddressbookchoosedirectoryautomatically-canonical-property"></a>PidTagAddressBookChooseDirectoryAutomatically 规范属性
 
@@ -30,7 +30,7 @@ ms.locfileid: "32359785"
 |属性类型  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性对应于 "通讯簿选项" 对话框中的 "**自动选择**" 设置。 当 IID_CAPONE_PROF 配置文件部分中存在此属性并将其设置为**true**时, 通讯簿对话框不再默认为[SetDefaultDir](iaddrbook-setdefaultdir.md)方法指定的容器, 而是选择 outlook 2010 或 outlook 2013 的通讯簿。考虑适合显示对话框的上下文。 请注意, 这可能会导致第三方通讯簿提供程序的体验不佳。 
   

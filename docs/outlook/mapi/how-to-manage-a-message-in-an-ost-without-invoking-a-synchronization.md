@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 3a1f0aa2-813f-222c-f871-0501de5d9dec
 description: '包含 c + + 中的代码示例, 该示例演示如何使用 IMsgStore:: OpenEntry 中的 IID_IMessageRaw 获取管理脱机文件夹文件 (OST) 中的邮件的 IMessage 接口, 而无需在客户端处于缓存 Exchange 中时强制下载整个邮件模式.'
 ms.openlocfilehash: e50637b496ff43daedad2df27d027d8a6d0dc743
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316392"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418755"
 ---
 # <a name="manage-messages-in-ost-without-invoking-a-synchronization-in-cached-exchange-mode"></a>在缓存 Exchange 模式下管理 OST 中的邮件而不调用同步
 

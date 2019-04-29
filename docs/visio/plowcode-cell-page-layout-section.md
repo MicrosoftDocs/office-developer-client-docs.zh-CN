@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: e43f3d29-7def-d36e-ac64-62f0a389d415
 description: 确定在绘图页上将一个可放置形状放到另一个可放置形状旁边时，可放置形状是否移走。
 ms.openlocfilehash: 4ea85ddbaf7662305a2a82fc7f0b814019624841
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344371"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420351"
 ---
 # <a name="plowcode-cell-page-layout-section"></a>PlowCode 单元格（“Page Layout”内容）
 
 确定在绘图页上将一个可放置形状放到另一个可放置形状旁边时，可放置形状是否移走。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |不移动形状  <br/> |**visPLOPlowNone** <br/> |
 |1  <br/> |移动形状  <br/> |**visPLOPlowAll** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 "**页面设置**" 对话框 (在 "**设计**" 选项卡上, 单击 "**页面设置**" 箭头) 中的 "**布局与排列**" 选项卡上设置此单元格的值, 方法是使用 "**放下时将其他形状移开**" 复选框。 
   

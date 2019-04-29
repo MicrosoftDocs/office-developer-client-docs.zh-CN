@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e04c2228-aa0a-4958-b5b2-6467e93ab613
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 682e75c4e0a2f60dbd46a13b0b737ca4a8e18f3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345773"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409144"
 ---
 # <a name="mapierror"></a>MAPIERROR
 
@@ -65,7 +65,7 @@ typedef struct _MAPIERROR
   
 > 表示组件中的位置的值, **lpszComponent**成员指向标识错误发生位置的位置。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **MAPIERROR**结构用于描述错误消息。 客户端和服务提供程序在[IMAPIProp:: GetLastError](imapiprop-getlasterror.md)方法的_lppMAPIError_参数中传递指向**MAPIERROR**结构的指针。 **GetLastError**返回有关对象上已发生的前一个错误的信息。 **GetLastError**的调用方通过调用[MAPIFreeBuffer](mapifreebuffer.md)来释放**MAPIERROR**结构的内存。
   

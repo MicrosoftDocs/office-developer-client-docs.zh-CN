@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 2709ac612fc9e2edaa57b280d52c0a5229ee9978
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278804"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435437"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
@@ -54,7 +54,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 与要插入的行在表中已存在的索引列具有相同值的行。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ITableData:: HrInsertRow**方法在表中的特定位置插入一行。 在_uliRow_参数所指定的位置中的行之后插入新行。 
   

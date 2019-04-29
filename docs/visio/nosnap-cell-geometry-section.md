@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 0e6c8621-868c-9eac-926b-3049f18023b0
 description: 确定其他形状是否与路径对齐。
 ms.openlocfilehash: 60a6532aee0f391eb38609f6ed87577e5558d5c2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341126"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408542"
 ---
 # <a name="nosnap-cell-geometry-section"></a>NoSnap 单元格（“Geometry”内容）
 
 确定其他形状是否与路径对齐。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 不允许其他形状与该路径对齐。  <br/> |
 | FALSE  <br/> | 允许其他形状与该路径对齐。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 NoSnap 单元格的引用，请使用： 
   

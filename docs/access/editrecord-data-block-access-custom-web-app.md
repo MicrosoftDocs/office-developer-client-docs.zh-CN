@@ -7,18 +7,18 @@ localization_priority: Normal
 ms.assetid: 54975434-78b2-4010-b2f9-f277831fa92e
 description: 您可以使用 EditRecord 数据块更改现有记录中包含的值。
 ms.openlocfilehash: 0d9ef6c7689b44a0304309a7537e744eff97c809
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302518"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418342"
 ---
 # <a name="editrecord-data-block-access-custom-web-app"></a>EditRecord 数据块 (Access 自定义 web 应用)
 
 您可以使用 **EditRecord** 数据块更改现有记录中包含的值。 
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 > [!NOTE]
 > **EditRecord** 数据块仅适用于数据宏。 
@@ -31,7 +31,7 @@ ms.locfileid: "32302518"
 |:-----|:-----|
 |**Alias** <br/> |一个用于标识要编辑的记录的字符串。 如果未指定*Alias*参数, 则编辑当前记录。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在**EditRecord**语句之后, 您可以插入将在对记录的更改提交之前执行的命令块。 可在**EditRecord**数据块中执行以下操作。 
   

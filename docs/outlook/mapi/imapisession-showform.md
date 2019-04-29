@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 233cf936-34db-42d4-b5e3-17a93acb2009
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8b90dee3958a20994f9a60d104ae714ad95307d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335663"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412525"
 ---
 # <a name="imapisessionshowform"></a>IMAPISession::ShowForm
 
@@ -107,7 +107,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISession:: ShowForm**方法显示一个已由**IMAPISession::P repareform**方法准备的邮件窗体。 
   

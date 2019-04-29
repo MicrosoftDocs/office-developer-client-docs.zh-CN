@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 964fceb4-8a1c-46c1-98e1-a325c9259f8b
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 9f4acbb06f85a88a6c057da263ae95e09f72e0bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328397"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410173"
 ---
 # <a name="registering-service-provider-unique-identifiers"></a>注册服务提供程序唯一标识符
 

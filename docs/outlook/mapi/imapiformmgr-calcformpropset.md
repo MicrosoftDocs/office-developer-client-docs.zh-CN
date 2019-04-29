@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ab302bfd-5cff-49b4-b0d2-308ae5af478d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: bf072aba27c90b7cea80c464e17fafb47524b695
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342082"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436424"
 ---
 # <a name="imapiformmgrcalcformpropset"></a>IMAPIFormMgr::CalcFormPropSet
 
@@ -71,7 +71,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IMAPIFormMgr:: CalcFormPropSet**方法以获取一组表单使用的属性的数组。 **CalcFormPropSet**采用相交或联合这些 forms 的属性集, 具体取决于在_ulFlags_参数中设置的标志, 并且它将返回一个**SMAPIFormPropArray**结构, 其中包含生成的一组属性. 
   

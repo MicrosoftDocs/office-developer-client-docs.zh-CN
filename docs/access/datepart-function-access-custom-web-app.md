@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 8936f0b6-f9b2-44ef-bf90-e482b64611cd
 description: 返回一个数值, 该值代表指定日期的指定日期部分。
 ms.openlocfilehash: 31ac6423614afd61ed943bb7ba375f14696df1ea
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280766"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411433"
 ---
 # <a name="datepart-function-access-custom-web-app"></a>DatePart 函数 (Access 自定义 web 应用)
 
@@ -31,7 +31,7 @@ ms.locfileid: "32280766"
 | *DatePart*  <br/> |将返回其整数的*日期*部分 (日期或时间值)。 有关有效缩写的列表, 请参阅 "备注" 部分。  <br/> |
 | *Date*  <br/> |可以解析为日期/时间值的表达式。 *日期*参数表达式、列表达式、用户定义的变量或字符串文本。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 下表列出了所有有效的*DatePart*参数。 
   

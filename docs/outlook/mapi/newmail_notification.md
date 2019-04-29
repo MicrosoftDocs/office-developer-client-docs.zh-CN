@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 25af1c1b05618d4f36a43721e71be6ff5c7c597f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326241"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439854"
 ---
 # <a name="newmailnotification"></a>NEWMAIL_NOTIFICATION
 
@@ -79,7 +79,7 @@ MAPI_UNICODE
   
 > 描述新到达的邮件的当前状态的标志的位掩码。 **ulMessageFlags**成员是邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性的副本。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **NEWMAIL_NOTIFICATION**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 当**通知**结构的**info**成员包含**NEWMAIL_NOTIFICATION**结构时,**通知**结构的**ulEventType**成员将设置为_fnevNewMail。_
   

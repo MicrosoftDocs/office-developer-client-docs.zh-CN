@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 36acb95d-5d3b-4d8b-9b6c-effbc78c84c2
 description: 确定应用于页面或形状的主题变体是否可更改为布尔值。
 ms.openlocfilehash: 69c991e3da7a96d6c59dc825dfb78fdad3d432e7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358063"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427925"
 ---
 # <a name="lockvariation-cell-protection-section"></a>LockVariation 单元格 ("Protection" 部分)
 
@@ -23,7 +23,7 @@ ms.locfileid: "32358063"
 |TRUE  <br/> |应用于页面或形状的当前变体无法更改。  <br/> |
 |FALSE  <br/> |可以更改页面或形状的变体。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**LockVariation**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

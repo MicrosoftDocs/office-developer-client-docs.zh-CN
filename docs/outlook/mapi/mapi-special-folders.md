@@ -9,11 +9,11 @@ api_type:
 ms.assetid: f2aa2376-b293-4d05-9104-218cc1fe1758
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fa221510a5f6a8c8be24b4869960d1770cef5882
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357356"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410922"
 ---
 # <a name="mapi-special-folders"></a>MAPI 特殊文件夹
 
@@ -27,7 +27,7 @@ MAPI 定义了一些特殊的文件夹, 因为它们为特定类型的邮件提�
   
 **MAPI 文件夹**
 
-|**Folder**|**Description**|
+|**Folder**|**说明**|
 |:-----|:-----|
 |发件箱文件夹  <br/> |包含传出的 IPM 邮件。  <br/> |
 |“已删除邮件”文件夹  <br/> |包含标记为要删除的 IPM 邮件。  <br/> |
@@ -57,7 +57,7 @@ Outlook 特殊文件夹由其在 "收件箱" 文件夹和邮件存储区的根�
 |日历  <br/> |**PR_IPM_APPOINTMENT_ENTRYID**([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
 |联系人  <br/> |**PR_IPM_CONTACT_ENTRYID**([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
 |分类账  <br/> |**PR_IPM_JOURNAL_ENTRYID**([PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
-|备注  <br/> |**PR_IPM_NOTE_ENTRYID**([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
+|注释  <br/> |**PR_IPM_NOTE_ENTRYID**([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
 |任务  <br/> |**PR_IPM_TASK_ENTRYID**([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
 |草稿  <br/> |**PR_IPM_DRAFTS_ENTRYID**([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
    

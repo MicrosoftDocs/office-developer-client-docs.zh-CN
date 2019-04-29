@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d094411e-ed65-1d0d-5c35-68b003da2696
 description: 确定形状的左边框依其对齐的垂直参考线或辅助点的水平位置（该位置是相对于其父级的原点而言的）。
 ms.openlocfilehash: 5fdf1251c8829fd644d1a4bfd5eab8890c0d3e71
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346541"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437565"
 ---
 # <a name="alignleft-cell-alignment-section"></a>AlignLeft 单元格（“Alignment”内容）
 
 确定形状的左边框依其对齐的垂直参考线或辅助点的水平位置（该位置是相对于其父级的原点而言的）。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 AlignLeft 单元格的引用，请使用： 
   

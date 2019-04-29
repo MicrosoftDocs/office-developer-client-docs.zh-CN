@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fec5d5ac-bca6-4fff-b264-45cdb6b37f55
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4eef7c0b1078cb9e7ced21e2403f0b3948362d6c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341032"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434828"
 ---
 # <a name="fbadrglpnameid"></a>FBadRglpNameID
 
@@ -60,7 +60,7 @@ FALSE
   
 > 指定的属性名称结构都是有效的。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在设置对[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)或[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)的调用时, 可以使用**FBadRglpNameID**函数。 
   

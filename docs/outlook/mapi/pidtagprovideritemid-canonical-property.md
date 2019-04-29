@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fadbf1af-32c2-43ea-8475-15b31b2a9e68
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 48653b86d625da963b655dbd1acc01a46f4687dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286472"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412119"
 ---
 # <a name="pidtagprovideritemid-canonical-property"></a>PidTagProviderItemId 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32286472"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MapiNonTransmittable  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 存储提供程序可以为文件夹或项目的此属性指定值, 但应保持会话之间的值相同。 存储提供程序使用此属性可标识从搜索引擎返回的搜索结果。
   

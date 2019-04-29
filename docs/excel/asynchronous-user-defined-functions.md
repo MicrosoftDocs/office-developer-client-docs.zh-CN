@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 142eb27e-fb6f-4da3-bfb7-a88115bbb5d5
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 7fdf3bd09914981865c911fd65a78d044ad582f4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304170"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412308"
 ---
 # <a name="asynchronous-user-defined-functions"></a>用户定义的异步函数
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel 2013 可以异步调用用户定义的函数。 通过允许多个计算同时运行, 异步调用函数可提高性能。 在计算机群集中运行用户定义函数时，异步调用函数允许使用多台计算机完成计算。
   

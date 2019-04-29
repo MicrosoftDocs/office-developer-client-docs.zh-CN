@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 325b6b47-b6a6-503e-e9bb-65ef7b73d659
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8e8a6ac07e14af52337b6e280fa58274df453c65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299704"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412742"
 ---
 # <a name="getdefcachedmode"></a>GetDefCachedMode
 
@@ -28,7 +28,7 @@ ms.locfileid: "32299704"
 |||
 |:-----|:-----|
 |导出者:  <br/> |msmapi32  <br/> |
-|调用者：  <br/> |客户端  <br/> |
+|调用者：  <br/> |Client  <br/> |
 |实现者：  <br/> |Outlook  <br/> |
    
 ```cpp

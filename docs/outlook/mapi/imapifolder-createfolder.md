@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 39d07fc8-09aa-4122-af32-b02f2c893d29
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 606d780aa59e363c30ddc7a5b562db64d845ccb0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280076"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436760"
 ---
 # <a name="imapifoldercreatefolder"></a>IMAPIFolder::CreateFolder
 
@@ -98,7 +98,7 @@ MAPI_E_COLLISION
   
 > 具有_lpszFolderName_参数中给定名称的文件夹已存在。 文件夹名称必须是唯一的。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFolder:: CreateFolder**方法在当前文件夹中创建一个子文件夹, 并将条目标识符分配给新文件夹。 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e2ecf7c0-a0e9-951f-676a-8e5857bb6544
 description: 确定线条末端的箭头大小。
 ms.openlocfilehash: 768a2b2adb05248049377eaee07194cdb89ed810
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328989"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438076"
 ---
 # <a name="endarrowsize-cell-line-format-section"></a>EndArrowSize 单元格（“Line Format”内容）
 
@@ -23,14 +23,14 @@ ms.locfileid: "32328989"
 |**值**|**Size**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |非常小  <br/> |**visArrowSizeVerySmall** <br/> |
-|1  <br/> |小  <br/> |**visArrowSizeSmall** <br/> |
+|1  <br/> |小型  <br/> |**visArrowSizeSmall** <br/> |
 |双面  <br/> |中等  <br/> |**visArrowSizeMedium** <br/> |
-|第三章  <br/> |大  <br/> |**visArrowSizeLarge** <br/> |
+|第三章  <br/> |大型  <br/> |**visArrowSizeLarge** <br/> |
 |4  <br/> |特大  <br/> |**visArrowSizeVeryLarge** <br/> |
 |5  <br/> |超长  <br/> |**visArrowSizeJumbo** <br/> |
 |型  <br/> |Colossal  <br/> |**visArrowSizeColossal** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 **“线条”** 对话框中设置此值（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“线条”**，指向 **“箭头”**，然后单击 **“其他箭头”**）。
   

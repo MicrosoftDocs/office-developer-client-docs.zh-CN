@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 4ad91898-b23e-4410-8839-a65259e53d37
 description: Microsoft InfoPath 中提供了两种信息权限管理 (IRM) 设置：一种用于保护对 InfoPath 表单模板的访问，另一种用于控制对已填好表单中包含的表单数据的访问和操作。
 ms.openlocfilehash: 6f7317cfdc4e6bfc89482e813b1670c8b8861a6b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299788"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420008"
 ---
 # <a name="work-with-information-rights-management-settings"></a>使用信息权限管理设置
 

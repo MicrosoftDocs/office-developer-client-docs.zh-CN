@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5a250d68-7583-406e-84e3-0b03bba97234
 description: 比较两个表达式。 当比较非 null 表达式时, 如果左操作数的值大于右边的操作数, 则结果为 TRUE; 否则为 false。否则, 结果为 FALSE。
 ms.openlocfilehash: aac3ee7ef575e5a982d55d2003c77cb667cc903d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302434"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407737"
 ---
 # <a name="greater-than-access-custom-web-app"></a>大于 (Access 自定义 web 应用)
 

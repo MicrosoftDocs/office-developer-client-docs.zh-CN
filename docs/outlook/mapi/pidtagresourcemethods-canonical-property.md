@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 60ebbcd5-b758-4c96-b8ec-089e0aae1a5f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e9aee3280edbed60e97ef6e00e61f3086f6f07ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330140"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436333"
 ---
 # <a name="pidtagresourcemethods-canonical-property"></a>PidTagResourceMethods 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32330140"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性指示支持在 status 对象的**IMAPIStatus**实现中的哪些方法。 Status 对象允许从不受支持的方法返回 MAPI_E_NO_SUPPORT。 
   

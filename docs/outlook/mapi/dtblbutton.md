@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6058c78b-05d4-45a3-988c-1fbf8322125e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a8fa683fecd59ec813fee0c15d5b4f08084c645d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338309"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412784"
 ---
 # <a name="dtblbutton"></a>DTBLBUTTON
 
@@ -60,7 +60,7 @@ MAPI_UNICODE
   
 > 实现[IMAPIControl](imapicontroliunknown.md)接口的类型为 PT_OBJECT 的属性的属性标记。 单击该按钮时, MAPI 将为显示表的[IMAPIProp](imapipropiunknown.md)实现调用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法来检索此属性。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTBLBUTTON**结构描述一个按钮, 单击该控件时, 用户可以开始操作。 通常情况下, 单击按钮会导致显示模式对话框或调用编程任务。 服务提供程序可以通过按钮控件实现任何内容。 如果按钮应基于其他控件的值执行任务, 则这些控件必须已设置 DT_SET_IMMEDIATE 标志。 
   

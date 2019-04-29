@@ -10,17 +10,17 @@ keywords:
 - xlfunregister 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 3f5ebc08f89651331186990d8574e3150d4f484a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303890"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410082"
 ---
 # <a name="xlfunregister-form-1"></a>xlfUnregister（窗体 1）
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 可从 DLL 或 XLL 命令调用, 该命令本身已由 Microsoft Excel 调用。 这相当于从 Excel XLM 宏表中调用 "**注销**"。 
   
@@ -48,7 +48,7 @@ _pxRegisterId_(**xltypeNum**)
 
 如果成功, 则返回**TRUE** (**xltypeBool**), 否则返回 FALSE。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 函数的注册 ID 在首次注册函数时由**xlfRegister**返回。 也可以通过调用[xlfRegisterId 函数](xlfregisterid.md)或[xlfEvaluate 函数](xlfevaluate.md)来获取它。 请注意, 如果函数尚未注册, xlfRegisterId 会尝试注册该函数。 因此, 如果您仅尝试获取 ID 以便注销该函数, 则最好通过将注册名称传递给**xlfEvaluate**来获取它。 如果函数尚未注册, **xlfEvaluate**将失败并 #NAME？误差. 
   

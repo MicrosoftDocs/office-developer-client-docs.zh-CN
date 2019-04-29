@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3fe651b7-0ddf-42fd-8277-9224505be1a8
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 19d20a3fb06f6a0a0671ba4bfd938da314001778
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336377"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435178"
 ---
 # <a name="stnefproblem"></a>STnefProblem
 
@@ -68,7 +68,7 @@ typedef struct _STnefProblem
   
 > 指示处理过程中遇到的问题的错误值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果在处理属性或属性的过程中不会生成**STnefProblem**结构, 则在假定该属性或属性的处理成功的情况下, 应用程序可以继续。 仅当在封装块解码过程中出现问题时, 才会发生此异常。 在这种情况下, 将停止对与块相对应的组件进行解码, 并在另一个组件中继续解码。 
   

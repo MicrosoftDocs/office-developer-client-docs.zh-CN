@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 8f5d34f0-4c4b-5265-83c1-5b86b73d464f
 description: 包含文档审阅者的姓名首字母缩写。
 ms.openlocfilehash: ddca3697dfcf1f422efacbe395c18f1a6b8ac48c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335292"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411503"
 ---
 # <a name="initials-cell-reviewer-section"></a>Initials 单元格（“Reviewer”内容）
 
 包含文档审阅者的姓名首字母缩写。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此值默认为 " **Visio 选项**" 对话框 (单击 "**文件**" 选项卡, 单击 "**选项**", 然后单击 "**常规**") 中 "**常规**" 选项卡上 "**缩写**" 框中的缩写。 
   

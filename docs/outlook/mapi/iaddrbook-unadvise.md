@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e0db9e86-9528-43de-b8ba-a5af8b7bda4b
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 2988f1fc149bbfc2d724b62b12bd12ae4f4664a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286981"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436151"
 ---
 # <a name="iaddrbookunadvise"></a>IAddrBook::Unadvise
 
@@ -45,7 +45,7 @@ S_OK
   
 > 已成功取消注册。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端调用**Unadvise**方法以停止接收有关特定通讯簿条目更改的通知。 当取消通知注册时, 通讯簿提供程序释放其指向呼叫者的通知接收器的指针。 但是, 如果另一个线程正在调用[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法, 则可以在**Unadvise**调用过程中或在稍后的某个时间点进行释放。 当通知正在进行时, 释放将延迟到**OnNotify**方法返回。 
   

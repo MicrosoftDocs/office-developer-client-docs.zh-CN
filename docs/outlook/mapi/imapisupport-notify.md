@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c16c668e-2c8b-4759-bbca-d0c5662b62e9
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 6160b8e75bdc9059965c2358b9fe7d296e1f66d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326367"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435934"
 ---
 # <a name="imapisupportnotify"></a>IMAPISupport::Notify
 
@@ -68,7 +68,7 @@ S_OK
   
 > 已成功生成通知。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为所有服务提供程序支持对象实现了**IMAPISupport:: Notify**方法。 服务提供程序调用**通知**请求 MAPI 为已通过**IMAPISupport:: 订阅**方法注册通知的通知接收器生成通知。 
   

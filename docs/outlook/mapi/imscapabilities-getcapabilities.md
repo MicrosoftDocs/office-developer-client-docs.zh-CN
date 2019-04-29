@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c77a8ef1-0730-d458-b35f-451d3f450fac
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: b76c55fd9ddc3aa7698f75aa6ce965544b2c9aae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317435"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409256"
 ---
 # <a name="imscapabilitiesgetcapabilities"></a>IMSCapabilities::GetCapabilities
 
@@ -49,7 +49,7 @@ MSCAP_RES_ANNOTATION
   
 > 如果限制包含任何无效参数 (如无效属性), 则存储将忽略无效参数, 并仅处理有效参数。 如果在*mscapSelector*中指定了**MSCAP_SEL_RESTRICTION** , 则可以返回此项。 
     
-不适
+NULL
   
 > 存储区不支持基于给定选择器的任何功能。
     

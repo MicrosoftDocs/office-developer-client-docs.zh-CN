@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a0e109fe95120483e700bab5b82f6d7cb75e2e28
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351394"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436592"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
@@ -41,7 +41,7 @@ ms.locfileid: "32351394"
 
 此接口没有任何唯一的方法。
   
-|**必需属性**|**Access**|
+|**必需属性**|**访问**|
 |:-----|:-----|
 |**PR_ADDRTYPE**([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |读/写  <br/> |
 |**PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |读/写  <br/> |
@@ -52,7 +52,7 @@ ms.locfileid: "32351394"
 |**PR_RECORD_KEY**([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |只读  <br/> |
 |**PR_SEARCH_KEY**([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 5个必需属性称为收件人的基本地址属性:
   

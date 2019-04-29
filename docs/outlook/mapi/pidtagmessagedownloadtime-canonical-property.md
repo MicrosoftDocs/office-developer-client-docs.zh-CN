@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f0d34dd6-7ddb-4843-b848-c89923ff80cc
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8078d31af497a437c983da7447a0aebbdfb643fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325674"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407926"
 ---
 # <a name="pidtagmessagedownloadtime-canonical-property"></a>PidTagMessageDownloadTime 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32325674"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性以秒为单位表示, 它表示将给定邮件从其当前位置下载到客户端查看头文件夹的本地邮件存储区所需时间的最佳估计。 远程传输提供程序通常通过将**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) 属性的值除以每秒的字节数的通信链路的速度来计算此属性的值。 如果提供程序无法计算下载时间, 例如, 如果不知道链接速度, 它应在头文件夹内容表中为此列提供一个**PT_ERROR**值 (如**MAPI_E_NO_SUPPORT** )。 
   

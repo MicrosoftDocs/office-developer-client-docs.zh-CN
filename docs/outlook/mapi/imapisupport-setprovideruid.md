@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 58855843-9a2b-4e5d-9332-b1bfad8b45e4
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: a60ac0d7ab139f77aea87080e1ce37fee870e97b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326311"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437537"
 ---
 # <a name="imapisupportsetprovideruid"></a>IMAPISupport::SetProviderUID
 
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功注册**MAPIUID**结构。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为通讯簿和邮件存储提供程序支持对象实现了**IMAPISupport:: SetProviderUID**方法。 这些提供程序调用**SetProviderUID**以注册_lpProviderID_指向的**MAPIUID**结构中描述的唯一标识符。 提供程序在其创建的所有条目标识符中都包含此标识符。 
   

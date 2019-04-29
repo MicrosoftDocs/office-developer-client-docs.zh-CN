@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6c48b9b3-5c62-7d5a-1c8f-fe96606f4dea
 description: 包含解决方案中所有用户定义的单元格的值和说明性提示。对于每个用户定义的值/提示单元格对，形状都包含一个与之对应的 User-defined Cells 行。
 ms.openlocfilehash: 01e2da8ef1e97e8a911df605ab6cf1e9f8a853eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337182"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420687"
 ---
 # <a name="user-defined-cells-row-user-defined-cells-section"></a>User-defined Cells 行（“User-defined Cells”内容）
 
@@ -22,12 +22,12 @@ ms.locfileid: "32337182"
   
 User-defined Cells 行被命名为 User. *名称*并包含以下单元格。 有关详细信息，请参阅特定的单元格主题。 
   
-|**Cell**|**说明**|
+|**单元格**|**说明**|
 |:-----|:-----|
 |[值](value-cell-user-defined-cells-section.md) <br/> |为相应的用户定义的单元格指定值。  <br/> |
 |[Prompt](prompt-cell-user-defined-cells-section.md) <br/> |为用户定义的单元格指定说明性提示或注释。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 用户定义的单元格可用于输入由其他单元格或加载项所引用的公式或常量。用户定义的单元格中的值是可移植的，也就是说，如果一个形状引用了某个形状中的用户定义的单元格，并且该形状被复制到另一个不含同一用户定义的单元格的形状中，则该单元格会被添加到另一个形状中。
   

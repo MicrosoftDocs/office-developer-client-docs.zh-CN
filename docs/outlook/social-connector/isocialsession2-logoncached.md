@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8cac444b-0e81-44ff-a7a0-87793b533e26
 description: 使用缓存凭据登录到社交网络网站。
 ms.openlocfilehash: b79c692c01022dd10ecb8d4085f0aedb28a810c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336503"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436620"
 ---
 # <a name="isocialsession2logoncached"></a>ISocialSession2::LogonCached
 
@@ -33,7 +33,7 @@ _userName_
   
 > 实时一个包含用户名的字符串。
     
-_口令_
+_password_
   
 > 实时一个包含用户密码的字符串。
     
@@ -41,7 +41,7 @@ _connectOut_
   
 > 排除包含凭据的不透明字符串。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 仅当[ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md)返回的**功能**XML 中的**useLogonCached**设置为**true**时, 才会调用此方法进行身份验证。
   

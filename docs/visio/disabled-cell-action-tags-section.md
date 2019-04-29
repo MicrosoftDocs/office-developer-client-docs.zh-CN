@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bf0a80c9-0fdb-e2cf-3ab0-74cb6338fdce
 description: 指示动作标记是否在绘图窗口中显示。
 ms.openlocfilehash: 867d36e27cb890509b0687500caf719362a711fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332562"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439665"
 ---
 # <a name="disabled-cell-action-tags-section"></a>Disabled 单元格（“Action Tags”内容）
 
@@ -23,12 +23,12 @@ ms.locfileid: "32332562"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 禁用动作标记。  <br/> |
 | FALSE  <br/> | 启用动作标记（默认值）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 动作标记被禁用后，在重新启用之前完全不显示。 
   

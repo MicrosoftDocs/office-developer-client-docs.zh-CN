@@ -11,11 +11,11 @@ api_type:
 ms.assetid: 1f0f13e2-7554-41fc-a7a9-a90c34181c96
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e56d7851b1fe28ddea1703d9ec3ffb7737abeda6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345253"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435626"
 ---
 # <a name="pidtagreturnedmessageid-canonical-property"></a>PidTagReturnedMessageid 规范属性
 
@@ -32,7 +32,7 @@ ms.locfileid: "32345253"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 X. 400 传输提供程序在未读报告中设置此属性。
   

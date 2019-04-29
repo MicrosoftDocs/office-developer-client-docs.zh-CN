@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ff79fe88-68bf-4f50-a110-0714268f080d
 description: 返回指定表达式中所有值的统计标准偏差。
 ms.openlocfilehash: 2d1772a84ad420bf0ef8a6f35679fc1482dcd9ca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307873"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410187"
 ---
 # <a name="stdev-function-access-custom-web-app"></a>StDev 函数 (Access 自定义 web 应用程序)
 

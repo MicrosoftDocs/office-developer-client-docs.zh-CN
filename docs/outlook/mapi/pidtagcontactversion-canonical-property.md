@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 849d33e0-922f-49fe-bf2a-460329f0570d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c6a2206cf75308ad7fb955283f22eca3be9e0b3a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283168"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407765"
 ---
 # <a name="pidtagcontactversion-canonical-property"></a>PidTagContactVersion 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32283168"
 |数据类型：  <br/> |PT_CLSID  <br/> |
 |区域：  <br/> |Contact  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是提供有关收件人的标识和访问信息的属性之一。 这些属性由收件人和收件人的组织定义。
   

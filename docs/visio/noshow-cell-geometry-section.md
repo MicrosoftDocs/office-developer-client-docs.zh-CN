@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 831075ff-2875-b598-00bb-eb8481fee57b
 description: 指明路径是否显示在绘图页上。
 ms.openlocfilehash: bd42b069e6796b107aafaea3080f6970c4f678c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341081"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410348"
 ---
 # <a name="noshow-cell-geometry-section"></a>NoShow 单元格（“Geometry”内容）
 
 指明路径是否显示在绘图页上。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 隐藏本内容所表示的路径的划线和填充。  <br/> |
 | FALSE  <br/> | 显示路径的划线和填充。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 NoShow 单元格的引用，请使用： 
   

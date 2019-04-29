@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 285abeb4-45c8-4e82-9a16-b935b4651afe
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 190c4bf12c8f5aaaf8143f59239bb53fb68046f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32333066"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418741"
 ---
 # <a name="copying-address-book-entries"></a>复制通讯簿条目
 

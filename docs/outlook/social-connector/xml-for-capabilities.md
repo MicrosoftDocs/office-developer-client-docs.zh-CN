@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: edad1223-a55f-4e4a-8e90-3471f2f559ac
 description: '(.osc) 提供程序 XML 架构中的 "功能" 元素允许 .osc 提供程序指定其功能。 此类功能包括以下内容:'
 ms.openlocfilehash: ff6abbd4d99eb542a11e3d64a2015fc0585fca79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356441"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435003"
 ---
 # <a name="xml-for-capabilities"></a>功能的 XML
 

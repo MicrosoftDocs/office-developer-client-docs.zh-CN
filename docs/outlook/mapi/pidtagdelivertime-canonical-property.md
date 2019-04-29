@@ -13,11 +13,11 @@ api_type:
 ms.assetid: da0ad17b-08ac-4c50-ac1d-13062b890dfd
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3e9318e396bf195ad701b92372a3136dee7fd0d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357720"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435276"
 ---
 # <a name="pidtagdelivertime-canonical-property"></a>PidTagDeliverTime 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32357720"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是传递报告上的每个收件人的属性, 该属性指示原始邮件传递到为其生成送达报告的邮件用户的时间。
   

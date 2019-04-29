@@ -11,11 +11,11 @@ api_type:
 ms.assetid: 9cb4af50-3735-4029-a608-a6e7927019dd
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6415ddcec2823192967b8869b46b22b58b08ba5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286355"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437306"
 ---
 # <a name="pidtagpstpathhint-canonical-property"></a>PidTagPstPathHint 规范属性
 
@@ -32,7 +32,7 @@ ms.locfileid: "32286355"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |个人存储表 (.pst) 内部  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果改为使用**PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) 属性, 则将打开 "配置" 对话框, 但不允许用户编辑路径和许多其他属性。
   

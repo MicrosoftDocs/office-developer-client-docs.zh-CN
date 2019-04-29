@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: f84afe83-8391-0c13-f442-ea8794b38642
 description: 一种事件单元格，在绘图页上放下某个形状时（或者作为实例，或者在复制或粘贴该形状时）会对其求值。
 ms.openlocfilehash: f1433394dbd58c7c4422c6bca1e79a4f2c8e0c4e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351007"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408591"
 ---
 # <a name="eventdrop-cell-events-section"></a>EventDrop 单元格（“Events”内容）
 
 一种事件单元格，在绘图页上放下某个形状时（或者作为实例，或者在复制或粘贴该形状时）会对其求值。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 只在事件发生后（而非输入公式后）才对事件单元格求值。
   

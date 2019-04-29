@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1cfb82f7-5215-4faa-af25-5b1da7e31209
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 70f61ef553350f08eed96c1ee4e9ab790359d1fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348935"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409228"
 ---
 # <a name="iablogonopenentry"></a>IABLogon::OpenEntry
 
@@ -76,7 +76,7 @@ MAPI_MODIFY
   
 > 排除指向打开的对象的指针的指针。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 S_OK 
   
@@ -94,7 +94,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > _lpEntryID_参数中的条目标识符不是通讯簿提供程序可识别的格式。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 调用**OpenEntry**方法来打开容器、邮件用户或通讯组列表。 
   

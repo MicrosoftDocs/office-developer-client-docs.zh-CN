@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 04a0ba9f-48dd-488f-9c87-3890a12adf89
 description: 包含形状的第一个顶点的 x 坐标和 y 坐标, 或路径中断开点后的第一个顶点的 x 坐标和 y 坐标 (相对于形状的高度和宽度)。
 ms.openlocfilehash: 488945dbeeea177514770da57b5f26ac947053a3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319920"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414198"
 ---
 # <a name="relmoveto-row-geometry-section"></a>RelMoveTo 行 ("Geometry" 部分)
 
@@ -23,12 +23,12 @@ ms.locfileid: "32319920"
   
 **RelMoveTo**行包含以下单元格。 
   
-|**Cell**|**Description**|
+|**单元格**|**说明**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |如果**RelMoveTo**行是该内容中的第一行, 则 X 单元格表示形状的第一个顶点相对于形状宽度的*X*坐标。 如果**RelMoveTo**行出现在两行之间, 则 X 单元格表示路径中断开处后的第一个顶点的*x*坐标。  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |如果**RelMoveTo**行是该内容中的第一行, 则 Y 单元格表示形状的第一个顶点的*Y*坐标。 如果**RelMoveTo**行出现在两行之间, 则 Y 单元格表示路径中断开处后的第一个顶点的*y*坐标。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **RelMoveTo**行中的值等效于[MoveTo](moveto-row-geometry-section.md)行中与形状的宽度和高度相乘的值。 例如: 一个**RelMoveTo**行, 其中**x**单元格的值为 "0", 而**Y**单元格的值为 "0.5", 则可以替换为**MoveTo**行, 其中**X**单元格的值为公式 "Width*0", 而**y**单元格为公式 "Height*0.5"。 
   

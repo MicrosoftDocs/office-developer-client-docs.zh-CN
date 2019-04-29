@@ -10,17 +10,17 @@ keywords:
 - xlsheetnm 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 5d62be7ebef71547de3a903db4c1a030984b8640
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303869"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437411"
 ---
 # <a name="xlsheetnm"></a>xlSheetNm
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 返回包含在外部引用中的工作表或宏表的内部表 ID 中的名称, 或当前工作表的名称 (如果传递了内部引用)。
   

@@ -8,17 +8,17 @@ keywords:
 - xlfgetname
 localization_priority: Normal
 ms.assetid: 65780435-aaa2-47af-b44f-07be7aa769ee
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: fdee0146ae2199097828e98abb96ffe43a64fc80
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303883"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436627"
 ---
 # <a name="xlfgetname"></a>xlfGetName
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 返回名称显示在 "**名称管理器**" 对话框 (在 "**公式**" 选项卡上 "**定义的名称**" 部分中单击 "**名称管理器**" 时显示) 中的 "**引用**" 列中显示的名称定义。如果定义中包含引用, 则将它们作为 R1C1 样式的引用提供。 使用**xlfGetName**检查名称定义的值。 若要获取与定义对应的名称, 请使用[xlfGetDef](xlfgetdef.md)。
   
@@ -42,7 +42,7 @@ _pxRes_(**xltypeStr**、 **xltypeBool**或**xltypeErr**)
   
 根据为_pxInfoType_传递的值, 返回指定名称 (**xltypeStr**) 的定义, 或者**TRUE**或**FALSE** (**xltypeBool**)。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果已在 "**保护工作表**" 对话框中选中 "**保护工作表和锁定的单元格内容**" 复选框, 以保护包含该名称的`#N/A`工作簿, 则**xlfGetName**将返回错误值。 若要查看**保护工作表**对话框, 请单击 "**审阅**" 选项卡的 "**更改**" 部分中的 "**保护工作表**"。 
   

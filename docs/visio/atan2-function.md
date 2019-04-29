@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 524278fb-196e-9cf9-e27b-d03642beeee4
 description: 返回由 x、y 和 x 轴方向表示的向量之间的角度。 结果是用当前的角度度量单位表示的数值。
 ms.openlocfilehash: 906c024f2a78d6e11c1bbf770c14d04299cadca8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341480"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436480"
 ---
 # <a name="atan2-function"></a>ATAN2 函数
 
@@ -28,10 +28,10 @@ ATAN2 (* * *y* * *, * * *x* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _y_ <br/> |必需  <br/> |**Numeric** <br/> |点的_y_值。  <br/> |
-| _x_ <br/> |必需  <br/> |**Numeric** <br/> |点的_x_值。  <br/> |
+| _y_ <br/> |必需  <br/> |**数值** <br/> |点的_y_值。  <br/> |
+| _x_ <br/> |必需  <br/> |**数值** <br/> |点的_x_值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 反正切值是从正*x*轴到与原点 (0, 0) 和由*x*和*y*表示的点相交的直线的逆时针测量角。 在 Microsoft Visio 中，ATAN2(0,0) 返回 0。 若要将 ATAN2 结果强制为其他角度度量单位，请使用 DEG 或 RAD 函数。 
   

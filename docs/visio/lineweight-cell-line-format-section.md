@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 16b0e293-eeef-34b4-aeb0-4472815dd543
 description: 确定形状的线条粗细。 通过输入具有有效度量单位的数字即可设置线条粗细。
 ms.openlocfilehash: 654a93f939226bedab2e40ab591dad0e3f872267
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341809"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412245"
 ---
 # <a name="lineweight-cell-line-format-section"></a>LineWeight 单元格（“Line Format”内容）
 
 确定形状的线条粗细。 通过输入具有有效度量单位的数字即可设置线条粗细。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 还可以在 **“线条”** 对话框（在 **“开始”** 选项卡上，**“形状”** 组中，单击 **“线条”**，指向 **“权重”**，然后单击 **“其他线条”**）中设置 LineWeight 的值。
   

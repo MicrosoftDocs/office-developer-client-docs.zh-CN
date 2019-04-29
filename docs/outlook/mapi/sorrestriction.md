@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6fee29ce-9a34-4e0c-bb71-03120c3f1117
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9b4ca4628f356142eb5303c064e3916474810fda
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345099"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437929"
 ---
 # <a name="sorrestriction"></a>SOrRestriction
 
@@ -50,7 +50,7 @@ typedef struct _SOrRestriction
   
 > 指向描述要使用逻辑**OR**操作联接的限制的[SRestriction](srestriction.md)结构的指针。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 有关**SOrRestriction**结构的详细信息, 请参阅[关于限制](about-restrictions.md)。 
   

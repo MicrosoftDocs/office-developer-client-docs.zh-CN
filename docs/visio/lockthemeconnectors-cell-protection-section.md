@@ -8,22 +8,22 @@ localization_priority: Normal
 ms.assetid: ae7ddd55-7bcc-4bb6-bab7-97806122f166
 description: 通过应用新主题或选择新的连接器方案, 防止主题属性行中的 ConnectorsSchemeIndex 单元格被更改。 不会阻止用户在 ShapeSheet 中手动编辑此值。
 ms.openlocfilehash: 8097e50646fd59f4ac0212cbe9ca2ecfaadab7a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348235"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438405"
 ---
 # <a name="lockthemeconnectors-cell-protection-section"></a>LockThemeConnectors 单元格 ("Protection" 部分)
 
 通过应用新主题或选择新的连接器方案, 防止**主题属性**行中的**ConnectorsSchemeIndex**单元格被更改。 不会阻止用户在 ShapeSheet 中手动编辑此值。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |除非直接在 ShapeSheet 中进行更改, 否则无法更改**ConnectorsSchemeIndex**单元格的当前值。  <br/> |
 |FALSE  <br/> |可以通过 UI 更改**ConnectorsSchemeIndex**单元格的当前值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**LockThemeConnectors**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

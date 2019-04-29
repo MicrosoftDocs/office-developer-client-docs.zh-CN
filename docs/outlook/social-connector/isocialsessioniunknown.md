@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0fe423d7-b044-479b-89ad-c39620eedd65
 description: 表示与社交网络网站的连接。
 ms.openlocfilehash: c60fab1c27d2f761db28ed06bb45080857630e8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357363"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437824"
 ---
 # <a name="isocialsession--iunknown"></a>ISocialSession : IUnknown
 
@@ -23,7 +23,7 @@ ms.locfileid: "32357363"
 
 下表显示了**ISocialSession**接口上可用的成员。 
   
-|**Name**|**成员类型**|**Description**|
+|**名称**|**成员类型**|**说明**|
 |:-----|:-----|:-----|
 |[FindPerson](isocialsession-findperson.md) <br/> |方法  <br/> |获取一个字符串, 表示与_userID_参数匹配的一个或多个人员。  <br/> |
 |[FollowPerson](isocialsession-followperson.md) <br/> |方法  <br/> |将_emailAddress_参数标识的人员添加为社交网络上已登录用户的友元。  <br/> |
@@ -39,7 +39,7 @@ ms.locfileid: "32357363"
 |[SiteUrl](isocialsession-siteurl.md) <br/> |属性  <br/> |设置社交网络网站 URL。  <br/> |
 |[UnFollowPerson](isocialsession-unfollowperson.md) <br/> |方法  <br/> |删除由_userID_参数标识为社交网络上的友元的人员。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 一个 .osc 提供程序必须实现此接口才能与 .osc 进行通信。
   

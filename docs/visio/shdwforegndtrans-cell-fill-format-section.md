@@ -10,21 +10,21 @@ localization_priority: Normal
 ms.assetid: c42d4d2e-f8f0-bc5b-6018-4bb4ffa81b64
 description: 确定用于形状的投影填充图案的前景（划线）颜色的透明度级别。
 ms.openlocfilehash: 0ef3ce525edcce4ccd61f36649ead512545eef58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349096"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435038"
 ---
 # <a name="shdwforegndtrans-cell-fill-format-section"></a>ShdwForegndTrans 单元格（“Fill Format”内容）
 
 确定用于形状的投影填充图案的前景（划线）颜色的透明度级别。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0 - 100  <br/> |表示透明度的百分比。默认值为 0%（完全不透明）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些值被四舍五入为最接近的 0.5 个百分点。 值 100% 是完全透明。 虽然具有完全透明填充的阴影在绘图页上显示为没有填充的阴影, 但它与页面上的其他对象进行交互的方式与它的透明度为 0% 的方式相同。
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a658d027-03a2-4cde-bf99-563e8521cb31
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b5b9c42d944ad9d3ce92e99d08d29964944c8028
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282801"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437642"
 ---
 # <a name="sizeddtbledit"></a>SizedDtblEdit
 
@@ -44,7 +44,7 @@ _u_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SizedDtblEdit**宏允许您在已知启用的字符数时定义编辑控件。 新结构是使用以下成员创建的: 
   

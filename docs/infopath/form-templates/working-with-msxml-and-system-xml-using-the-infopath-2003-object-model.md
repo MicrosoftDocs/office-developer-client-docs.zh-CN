@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f7a0cac5-26f9-49ed-b52c-0240ef0c9d38
 description: 使用 InfoPath 2003 对象模型的表单模板项目在内部利用 Microsoft XML Core Services (MSXML) 来处理 XML。在托管代码中，使用由 .NET Framework 类库中的 System.Xml 命名空间所提供的 XML 支持通常更加容易。由于性质决定，MSXML 和 System.Xml 不能交换对象，因此当需要在 InfoPath 与其他托管代码之间传递 XML 数据时，需要转换 XML 数据。使用本主题中的技术，您可以将 System.Xml 对象中的 XML 数据与 InfoPath 表单代码进行交换。
 ms.openlocfilehash: c56939a0cf03b5de6466de37013e154529afd1ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299718"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437397"
 ---
 # <a name="working-with-msxml-and-systemxml-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型处理 MSXML 和 System.Xml
 

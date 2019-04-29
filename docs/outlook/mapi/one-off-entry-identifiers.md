@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 741d21ae-f14a-4b7f-80aa-91d0f0ff3f34
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: abe52cb45e13e6713d28fffe379e245e2483bffa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279688"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411041"
 ---
 # <a name="one-off-entry-identifiers"></a>一次性条目标识符
   
