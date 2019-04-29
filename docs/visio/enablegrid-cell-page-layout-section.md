@@ -10,39 +10,39 @@ localization_priority: Normal
 ms.assetid: bfea4ef4-1b30-eb22-215d-3b9b73098da9
 description: 确定在 "配置布局" 对话框中配置布局时, 应用程序是否基于内部不可见的页面网格排放形状。 (在 "设计" 选项卡上的 "布局" 组中, 单击 "重新布局页面", 然后单击 "其他布局选项"。)
 ms.openlocfilehash: 11299ca7c9b0ea050542baf97e2cab3a27fa52ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345554"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424439"
 ---
-# <a name="enablegrid-cell-page-layout-section"></a><span data-ttu-id="f5bb3-104">EnableGrid 单元格（“Page Layout”内容）</span><span class="sxs-lookup"><span data-stu-id="f5bb3-104">EnableGrid Cell (Page Layout Section)</span></span>
+# <a name="enablegrid-cell-page-layout-section"></a><span data-ttu-id="a1ea4-104">EnableGrid 单元格（“Page Layout”内容）</span><span class="sxs-lookup"><span data-stu-id="a1ea4-104">EnableGrid Cell (Page Layout Section)</span></span>
 
-<span data-ttu-id="f5bb3-p102">确定在 **“配置布局”** 对话框中配置布局时应用程序是否根据内部不可见的页面网格排放形状。（在 **“设计”** 选项卡上的 **“布局”** 组中，单击 **“重新布局页面”**，然后单击 **“其他布局选项”**。）</span><span class="sxs-lookup"><span data-stu-id="f5bb3-p102">Determines whether the application lays out shapes based on an internal, invisible page grid when you configure the layout in the **Configure Layout** dialog box. (On the **Design** tab, in the **Layout** group, click **Re-Layout Page**, and then click **More Layout Options**.)</span></span>
+<span data-ttu-id="a1ea4-p102">确定在 **“配置布局”** 对话框中配置布局时应用程序是否根据内部不可见的页面网格排放形状。（在 **“设计”** 选项卡上的 **“布局”** 组中，单击 **“重新布局页面”**，然后单击 **“其他布局选项”**。）</span><span class="sxs-lookup"><span data-stu-id="a1ea4-p102">Determines whether the application lays out shapes based on an internal, invisible page grid when you configure the layout in the **Configure Layout** dialog box. (On the **Design** tab, in the **Layout** group, click **Re-Layout Page**, and then click **More Layout Options**.)</span></span>
   
-|<span data-ttu-id="f5bb3-107">**Value**</span><span class="sxs-lookup"><span data-stu-id="f5bb3-107">**Value**</span></span>|<span data-ttu-id="f5bb3-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="f5bb3-108">**Description**</span></span>|
+|<span data-ttu-id="a1ea4-107">**值**</span><span class="sxs-lookup"><span data-stu-id="a1ea4-107">**Value**</span></span>|<span data-ttu-id="a1ea4-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="a1ea4-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="f5bb3-109">TRUE</span><span class="sxs-lookup"><span data-stu-id="f5bb3-109">TRUE</span></span>  <br/> |<span data-ttu-id="f5bb3-110">使用内部页网格。</span><span class="sxs-lookup"><span data-stu-id="f5bb3-110">Use the internal page grid.</span></span>  <br/> |
-|<span data-ttu-id="f5bb3-111">FALSE</span><span class="sxs-lookup"><span data-stu-id="f5bb3-111">FALSE</span></span>  <br/> |<span data-ttu-id="f5bb3-112">不使用内部页网格。</span><span class="sxs-lookup"><span data-stu-id="f5bb3-112">Do not use the internal page grid.</span></span>  <br/> |
+|<span data-ttu-id="a1ea4-109">TRUE</span><span class="sxs-lookup"><span data-stu-id="a1ea4-109">TRUE</span></span>  <br/> |<span data-ttu-id="a1ea4-110">使用内部页网格。</span><span class="sxs-lookup"><span data-stu-id="a1ea4-110">Use the internal page grid.</span></span>  <br/> |
+|<span data-ttu-id="a1ea4-111">FALSE</span><span class="sxs-lookup"><span data-stu-id="a1ea4-111">FALSE</span></span>  <br/> |<span data-ttu-id="a1ea4-112">不使用内部页网格。</span><span class="sxs-lookup"><span data-stu-id="a1ea4-112">Do not use the internal page grid.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f5bb3-113">注解</span><span class="sxs-lookup"><span data-stu-id="f5bb3-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a1ea4-113">说明</span><span class="sxs-lookup"><span data-stu-id="a1ea4-113">Remarks</span></span>
 
-<span data-ttu-id="f5bb3-p103">可以使用 **“布局与排列间距”** 对话框中的 **“形状间的距离”** 和 **“平均形状大小”** 值创建此页面网格。（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，单击 **“布局与排列”**，然后单击 **“间距”**。）</span><span class="sxs-lookup"><span data-stu-id="f5bb3-p103">You create this page grid by using the **Space between shapes** and the **Average shape size** values in the **Layout and Routing Spacing** dialog box. (On the **Design** tab, click the **Page Setup** arrow, click **Layout and Routing**, and then click **Spacing**.)</span></span> 
+<span data-ttu-id="a1ea4-p103">可以使用 **“布局与排列间距”** 对话框中的 **“形状间的距离”** 和 **“平均形状大小”** 值创建此页面网格。（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，单击 **“布局与排列”**，然后单击 **“间距”**。）</span><span class="sxs-lookup"><span data-stu-id="a1ea4-p103">You create this page grid by using the **Space between shapes** and the **Average shape size** values in the **Layout and Routing Spacing** dialog box. (On the **Design** tab, click the **Page Setup** arrow, click **Layout and Routing**, and then click **Spacing**.)</span></span> 
   
-<span data-ttu-id="f5bb3-116">启用此功能后，应用程序会将每个可放置形状的中心点与内部页网格上的块的中心对齐。</span><span class="sxs-lookup"><span data-stu-id="f5bb3-116">When you enable this feature, the application aligns each placeable shape's center point with the center of a block on the internal page grid.</span></span> 
+<span data-ttu-id="a1ea4-116">启用此功能后，应用程序会将每个可放置形状的中心点与内部页网格上的块的中心对齐。</span><span class="sxs-lookup"><span data-stu-id="a1ea4-116">When you enable this feature, the application aligns each placeable shape's center point with the center of a block on the internal page grid.</span></span> 
   
-<span data-ttu-id="f5bb3-117">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 EnableGrid 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="f5bb3-117">To get a reference to the EnableGrid cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="a1ea4-117">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 EnableGrid 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="a1ea4-117">To get a reference to the EnableGrid cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f5bb3-118">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="f5bb3-118">Cell name:</span></span>  <br/> |<span data-ttu-id="f5bb3-119">EnableGrid</span><span class="sxs-lookup"><span data-stu-id="f5bb3-119">EnableGrid</span></span>  <br/> |
+|<span data-ttu-id="a1ea4-118">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="a1ea4-118">Cell name:</span></span>  <br/> |<span data-ttu-id="a1ea4-119">EnableGrid</span><span class="sxs-lookup"><span data-stu-id="a1ea4-119">EnableGrid</span></span>  <br/> |
    
-<span data-ttu-id="f5bb3-120">若要从某个程序按索引获取对 EnableGrid 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="f5bb3-120">To get a reference to the EnableGrid cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="a1ea4-120">若要从某个程序按索引获取对 EnableGrid 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="a1ea4-120">To get a reference to the EnableGrid cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f5bb3-121">内容索引：</span><span class="sxs-lookup"><span data-stu-id="f5bb3-121">Section index:</span></span>  <br/> |<span data-ttu-id="f5bb3-122">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="f5bb3-122">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="f5bb3-123">行索引：</span><span class="sxs-lookup"><span data-stu-id="f5bb3-123">Row index:</span></span>  <br/> |<span data-ttu-id="f5bb3-124">**visRowPageLayout**</span><span class="sxs-lookup"><span data-stu-id="f5bb3-124">**visRowPageLayout**</span></span> <br/> |
-|<span data-ttu-id="f5bb3-125">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="f5bb3-125">Cell index:</span></span>  <br/> |<span data-ttu-id="f5bb3-126">**visPLOEnableGrid**</span><span class="sxs-lookup"><span data-stu-id="f5bb3-126">**visPLOEnableGrid**</span></span> <br/> |
+|<span data-ttu-id="a1ea4-121">内容索引：</span><span class="sxs-lookup"><span data-stu-id="a1ea4-121">Section index:</span></span>  <br/> |<span data-ttu-id="a1ea4-122">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="a1ea4-122">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="a1ea4-123">行索引：</span><span class="sxs-lookup"><span data-stu-id="a1ea4-123">Row index:</span></span>  <br/> |<span data-ttu-id="a1ea4-124">**visRowPageLayout**</span><span class="sxs-lookup"><span data-stu-id="a1ea4-124">**visRowPageLayout**</span></span> <br/> |
+|<span data-ttu-id="a1ea4-125">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="a1ea4-125">Cell index:</span></span>  <br/> |<span data-ttu-id="a1ea4-126">**visPLOEnableGrid**</span><span class="sxs-lookup"><span data-stu-id="a1ea4-126">**visPLOEnableGrid**</span></span> <br/> |
    
 

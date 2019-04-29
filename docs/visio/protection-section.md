@@ -10,20 +10,20 @@ localization_priority: Normal
 ms.assetid: 3fec776a-e9a7-6774-d824-e905d427b8b4
 description: 显示通过“保护”命令（“开发工具”选项卡）设置的当前锁定设置，以及只能在 ShapeSheet 窗口中设置的少量附加锁定。
 ms.openlocfilehash: f922ba1f356a97275714eb8323b793e91f469b1f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314810"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429395"
 ---
-# <a name="protection-section"></a><span data-ttu-id="23bb9-103">“Protection”内容</span><span class="sxs-lookup"><span data-stu-id="23bb9-103">Protection Section</span></span>
+# <a name="protection-section"></a><span data-ttu-id="7f8d5-103">“Protection”内容</span><span class="sxs-lookup"><span data-stu-id="7f8d5-103">Protection Section</span></span>
 
-<span data-ttu-id="23bb9-104">显示使用 "**保护**" 命令 ("[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡) 设置的当前锁定设置, 以及只能在 ShapeSheet 窗口中设置的几个额外的锁定。</span><span class="sxs-lookup"><span data-stu-id="23bb9-104">Shows the current lock settings set with the **Protection** command ( [Developer](run-in-developer-mode-display-the-developer-tab.md) tab) plus a few additional locks that can be set only in a ShapeSheet window.</span></span> 
+<span data-ttu-id="7f8d5-104">显示使用 "**保护**" 命令 ("[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡) 设置的当前锁定设置, 以及只能在 ShapeSheet 窗口中设置的几个额外的锁定。</span><span class="sxs-lookup"><span data-stu-id="7f8d5-104">Shows the current lock settings set with the **Protection** command ( [Developer](run-in-developer-mode-display-the-developer-tab.md) tab) plus a few additional locks that can be set only in a ShapeSheet window.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="23bb9-105">注解</span><span class="sxs-lookup"><span data-stu-id="23bb9-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7f8d5-105">说明</span><span class="sxs-lookup"><span data-stu-id="7f8d5-105">Remarks</span></span>
 
-<span data-ttu-id="23bb9-p101">锁定有助于防止对形状的意外更改，但不能防止值在其他情况下被重置。它也不会防止在 ShapeSheet 窗口中进行更改。</span><span class="sxs-lookup"><span data-stu-id="23bb9-p101">Locking helps prevent inadvertent changes to the shape but does not prevent values from being reset in other circumstances. It also does not protect against changes made in the ShapeSheet window.</span></span>
+<span data-ttu-id="7f8d5-p101">锁定有助于防止对形状的意外更改，但不能防止值在其他情况下被重置。它也不会防止在 ShapeSheet 窗口中进行更改。</span><span class="sxs-lookup"><span data-stu-id="7f8d5-p101">Locking helps prevent inadvertent changes to the shape but does not prevent values from being reset in other circumstances. It also does not protect against changes made in the ShapeSheet window.</span></span>
   
-<span data-ttu-id="23bb9-108">若要保护公式不被更改, 请使用**GUARD**函数。</span><span class="sxs-lookup"><span data-stu-id="23bb9-108">To protect a formula from being changed, use the **GUARD** function.</span></span> 
+<span data-ttu-id="7f8d5-108">若要保护公式不被更改, 请使用**GUARD**函数。</span><span class="sxs-lookup"><span data-stu-id="7f8d5-108">To protect a formula from being changed, use the **GUARD** function.</span></span> 
   
 
