@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 8e0a77e4-0653-4a85-b507-13440aef195b
 description: 返回一个整数, 表示公历中指定日期的日期 (月中的某一天)。
 ms.openlocfilehash: 720adaffbd97a735f6b1395e64965f972c6099cd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280689"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417467"
 ---
 # <a name="day-function-access-custom-web-app"></a>Day 函数 (Access 自定义 web 应用)
 
@@ -30,7 +30,7 @@ ms.locfileid: "32280689"
 |:-----|:-----|
 | *Date*  <br/> |可以解析为日期/时间值的表达式。 *日期*参数表达式、列表达式、用户定义的变量或字符串文本。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **day**返回与**Datepart** (Day, date) 相同的值。 
   

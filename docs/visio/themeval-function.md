@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9eac3b8c-532c-4312-935d-fe8b63bcaf75
 description: 检索活动主题中的值。
 ms.openlocfilehash: ba95b8a920174ee44c0349d7227258d3ee8a843c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326682"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415752"
 ---
 # <a name="themeval-function"></a>THEMEVAL 函数
 
@@ -34,7 +34,7 @@ ms.locfileid: "32326682"
 | _"theme_value"_ <br/> |可选  <br/> |**字符串** <br/> |要从中获取值的主题定义中的单元格的名称。  <br/> |
 | _default_ <br/> |可选  <br/> |各种  <br/> |如果文档不具有主题 (没有主题定义), 则为默认值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果**THEMEVAL**函数不接收任何参数, 它将返回主机单元格的主题值。 这是在当前主题的定义中存储的值。 主机单元格必须能够以有主题的的的的的的返回值。如果单元格不能有主题, **THEMEVAL**将返回错误。 
   
@@ -46,7 +46,7 @@ ms.locfileid: "32326682"
   
 **"theme_value" 参数的可能参数**
 
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |深浅  <br/> |检索主题定义中的深色 RGB 颜色。  <br/> |
 |灯光  <br/> |从主题定义中检索浅 RGB 颜色。  <br/> |

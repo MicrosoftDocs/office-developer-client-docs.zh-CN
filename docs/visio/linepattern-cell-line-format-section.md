@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: a416762b-7294-c99f-d9f1-332c3ed35dff
 description: 确定形状的线型。在 LinePattern 单元格中输入的值是一个数字，此数字是线型集合中的索引。
 ms.openlocfilehash: eec5bed18777f7822f9544d59dce7722f2f732bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316441"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416753"
 ---
 # <a name="linepattern-cell-line-format-section"></a>LinePattern 单元格（“Line Format”内容）
 
 确定形状的线型。在 LinePattern 单元格中输入的值是一个数字，此数字是线型集合中的索引。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |没有线型  <br/> |
 |1  <br/> |实线  <br/> |
 |2 - 23  <br/> |各种线型  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以在 **“线条”** 对话框中查看线型集合（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“线条”**，指向 **“虚线”**，然后单击 **“其他线条”**）。
   

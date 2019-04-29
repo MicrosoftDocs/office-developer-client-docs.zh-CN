@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5e2ce756baaefef7bd0028e746b1dbe10756365e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329038"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415164"
 ---
 # <a name="imapitableexpandrow"></a>IMAPITable::ExpandRow
 
@@ -74,7 +74,7 @@ MAPI_E_NOT_FOUND
   
 > 由_pbInstanceKey_参数标识的行不存在。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: ExpandRow**方法展开一个折叠的表类别, 将属于该类别的叶或低级标题行添加到表视图中。 可以在_ulRowCount_参数中指定对_lppRows_参数中要返回的行数的限制。 如果将_ulRowCount_设置为大于零的值, 并且在_lppRows_指向的行集中返回一个或多个行, 则书签 BOOKMARK_CURRENT 的位置将移至紧跟在行集中最后一行后面的行。
   

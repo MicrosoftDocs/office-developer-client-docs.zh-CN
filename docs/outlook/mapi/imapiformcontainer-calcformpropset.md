@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 594e3aac-a00f-422e-8e7a-949e4c9a3f8d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: ec1933f80f211c7c381f9de6b15d414932b9a78e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286585"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414912"
 ---
 # <a name="imapiformcontainercalcformpropset"></a>IMAPIFormContainer::CalcFormPropSet
 
@@ -66,7 +66,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序调用**IMAPIFormContainer:: CalcFormPropSet**方法以获取在表单容器中安装的所有表单使用的属性数组。 **IMAPIFormContainer:: CalcFormPropSet**的工作方式与[IMAPIFormMgr:: CalcFormPropSet](imapiformmgr-calcformpropset.md)方法相同, 不同之处在于它在特定容器中注册的每个窗体上运行。 
   

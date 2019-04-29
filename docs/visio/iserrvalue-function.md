@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c7feec6f-f47a-60ee-b056-7b2dc51ed9a9
 description: '如果 cellreference 的值为错误类型 #VALUE, 则返回 TRUE, 其中公式中的参数的类型错误。 在引用另一个单元格的逻辑表达式中使用 ISERRVALUE 函数。'
 ms.openlocfilehash: 62058522dc8a2387aec9867e4892da740aba9b44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317883"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404426"
 ---
 # <a name="iserrvalue-function"></a>ISERRVALUE 函数
 
@@ -30,13 +30,13 @@ ISERRVALUE (* * *cellreference* * *)
 |:-----|:-----|:-----|:-----|
 | _cellreference_ <br/> |必需  <br/> |**String** <br/> |对单元格的引用。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 Scratch 单元格 A 到 D 不会返回 #VALUE! 错误，因为该公式可以在同一字符串中包含数字和字母。单元格 X 和 Y 必须只包含数字。 
   
 ## <a name="example-1"></a>示例 1
 
-|**Cell**|**Formula**|**返回的值**|
+|**单元格**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |暂存. X1  <br/> |= "House"  <br/> |#VALUE!  <br/> |
 |草稿。 A1  <br/> |= If (ISERRVALUE(Scratch.X1),2,Scratch.X1)  <br/> |双面  <br/> |
@@ -45,7 +45,7 @@ Scratch 单元格 A 到 D 不会返回 #VALUE! 错误，因为该公式可以在
   
 ## <a name="example-2"></a>示例 2
 
-|**Cell**|**Formula**|**返回的值**|
+|**单元格**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |草稿。 A1  <br/> |="5 + 7"  <br/> |5 + 7  <br/> |
 |草稿 B1  <br/> |=If (ISERRVALUE(Scratch.A1),2,Scratch.A1)  <br/> |5 + 7  <br/> |

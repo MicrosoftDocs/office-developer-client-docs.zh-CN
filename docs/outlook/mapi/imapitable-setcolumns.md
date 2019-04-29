@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9a39cf8d-df0f-493c-b272-f15c65b3f15e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 897330feb216dbc3ab143378977c77141cf488f0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328817"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416347"
 ---
 # <a name="imapitablesetcolumns"></a>IMAPITable::SetColumns
 
@@ -62,7 +62,7 @@ MAPI_E_BUSY
   
 > 正在进行另一个操作, 以防止启动列设置操作。 应允许正在进行的操作完成, 或者应已停止。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表的列集是组成表中各行的列的一组属性。 为每种类型的表设置了默认列。 默认列集由表实施者自动包括的属性组成。 表用户可以通过调用**IMAPITable:: SetColumns**方法来更改此默认集。 如果表实施者支持将列删除或列的顺序发生更改, 则用户可以请求将其他列添加到默认集。 **SetColumns**指定每行返回的列和行中这些列的顺序。 
   

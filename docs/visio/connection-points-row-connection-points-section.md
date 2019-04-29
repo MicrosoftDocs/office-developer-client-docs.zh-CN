@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: eaac62a5-f516-9b81-587a-8e0e02de59ee
 description: 包含 x 坐标和 y 坐标、水平和垂直方向以及形状上的单个连接点的类型。 连接点的坐标以形状的原点为基准进行测量。 形状上的每个连接点都包含一个 Connection Points 行。
 ms.openlocfilehash: 301ea4fb446d9acafd4b59af388c3e7b2d419e20
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361024"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415507"
 ---
 # <a name="connection-points-row-connection-points-section"></a>Connection Points 行（“Connection Points”内容）
 
@@ -22,7 +22,7 @@ ms.locfileid: "32361024"
   
 如果命名了多个 Connection Points 行，则它们的名称将以 Connections. ShapeSheet 窗口中的*名称*。 Connection Points 行包含以下单元格。 有关详细信息，请参阅特定的单元格主题。 
   
-|**Cell**|**Description**|
+|**单元格**|**说明**|
 |:-----|:-----|
 |[X](x-cell-connection-points-section.md) <br/> |连接点在本地坐标系中的*x*坐标。  <br/> |
 |[Y](y-cell-connection-points-section.md) <br/> |连接点在本地坐标系中的*y*坐标。  <br/> |
@@ -31,7 +31,7 @@ ms.locfileid: "32361024"
 |[Type/C](typec-cell-connection-points-section.md) <br/> |连接点类型（0 = 向内；1 = 向外；2 = 向内 + 向外）。  <br/> |
 |[D](d-cell-connection-points-section.md) <br/> |可用于输入或测试公式的草稿单元格。若要访问此单元格，可右击某一行，然后单击快捷菜单上的 **“更改行类型”**。<br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 Connections. "*名称*" 行标记为 DirX/A、DirY/B 和 Type/C, 因为这些行可以是扩展行, 也可以是非扩展行。 
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: e0731014-f454-4417-9f90-19f3387f5776
 description: 若要扩展 InfoPath 表单的功能，通常必须以编程方式访问与表单的基础 XML 文档有关的信息、访问 XML 文档所包含的数据或对 XML 文档执行某些操作。通过结合使用 XDocument 接口和 XDocumentsCollection 接口，InfoPath 对象模型可支持对表单的基础 XML 文档进行访问和操作。
 ms.openlocfilehash: 803122c6c377686a85f11cf48b76876c056f2ec1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303673"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416473"
 ---
 # <a name="access-form-data-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型访问表单数据
 

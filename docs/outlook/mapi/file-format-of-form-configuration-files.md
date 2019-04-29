@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 86e4ebd9-6df2-4346-9ce9-580f80a83884
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: d07d88d7b8b892a82832f91989e322ea3b32e040
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334823"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415549"
 ---
 # <a name="file-format-of-form-configuration-files"></a>表单配置文件的文件格式
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1cdc95b8-a156-4600-9e20-caaa02680e87
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1362b1131d937ef240aa1962db8c1b5116786c67
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347780"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416830"
 ---
 # <a name="hristoragefromstream"></a>HrIStorageFromStream
 
@@ -82,7 +82,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 邮件存储提供程序支持附件使用**IStorage**接口的**HrIStorageFromStream**函数。 存储提供程序必须实现**IStream**接口。 **HrIStorageFromStream**为**IStream**对象提供**IStorage**接口。 可以在_lpUnkIn_中传递**ILockBytes**或**IStream**接口。 
   

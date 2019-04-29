@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8861c8f86eaab6defb270b673e0ee200446aedb3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282822"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416263"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
@@ -44,7 +44,7 @@ _u_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SizedDtblComboBox**宏允许您在已知启用的字符字符串的长度时定义组合框。 新结构是使用以下成员创建的: 
   

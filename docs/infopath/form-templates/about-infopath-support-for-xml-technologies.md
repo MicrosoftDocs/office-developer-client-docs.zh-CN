@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 074181a2-3a75-824c-049d-549aabff0f9f
 description: Microsoft InfoPath 是一种混合式工具，它结合了传统文档编辑体验（例如字处理器或电子邮件应用程序）的优点，以及表单数据包精确的数据捕获功能。 本文描述了 InfoPath 可解决的问题，并介绍了用于解决这些问题的设计原则和 XML 行业标准。
 ms.openlocfilehash: 20831635fba8d76b9d6b45f42a5308ab7236db20
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300334"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407226"
 ---
 # <a name="about-infopath-support-for-xml-technologies"></a>关于 InfoPath 对 XML 技术的支持
 

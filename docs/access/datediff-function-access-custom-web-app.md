@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 1c58ee87-0f57-4643-be4d-62da815df705
 description: 返回在指定的开始日期和结束日期之间交叉的指定日期部分边界的计数。
 ms.openlocfilehash: 1cce8a501c5a57384372e681f903baa4f4c20bef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280720"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415612"
 ---
 # <a name="datediff-function-access-custom-web-app"></a>DateDiff 函数 (Access 自定义 web 应用程序)
 
@@ -32,7 +32,7 @@ ms.locfileid: "32280720"
 | *StartDate*  <br/> |可以解析为日期/时间值的表达式。 *日期*参数表达式、列表达式、用户定义的变量或字符串文本。  <br/> |
 | *EndDate*  <br/> |可以解析为日期/时间值的表达式。 *日期*参数表达式、列表达式、用户定义的变量或字符串文本。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 下表列出了所有有效的*DatePart*参数。 
   

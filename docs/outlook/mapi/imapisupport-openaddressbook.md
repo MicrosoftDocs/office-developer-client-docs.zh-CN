@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d8da8be1-3efe-410a-bcce-49e522602d80
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 47a62b331ff9f1c96576d42797ebb23ed61cd362
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329027"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416879"
 ---
 # <a name="imapisupportopenaddressbook"></a>IMAPISupport::OpenAddressBook
 
@@ -59,7 +59,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 呼叫成功, 但无法加载一个或多个通讯簿提供程序。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: OpenAddressBook**方法是为所有服务提供程序支持对象实现的。 服务提供商 (通常是紧密耦合的邮件存储和传输提供程序) 调用**OpenAddressBook**以获取对通讯簿的访问权限。 返回的**IAddrBook**指针可用于各种通讯簿任务, 包括打开通讯簿容器、查找邮件用户和显示地址对话框。 
   

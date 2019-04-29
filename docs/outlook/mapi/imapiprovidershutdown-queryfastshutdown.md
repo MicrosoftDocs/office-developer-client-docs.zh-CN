@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 12069912-4b87-4945-9123-51106e0d2d54
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 50b49761cf5923b11a450cbce7b7991f5ddd4d82
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338484"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418216"
 ---
 # <a name="imapiprovidershutdownqueryfastshutdown"></a>IMAPIProviderShutdown::QueryFastShutdown
 
@@ -41,7 +41,7 @@ MAPI_E_NO_SUPPORT
   
 > mapi 提供程序不支持 mapi 客户端执行快速关闭。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果 MAPI 提供程序不需要支持客户端快速关闭, 则仍应实现[IMAPIProviderShutdown](imapiprovidershutdowniunknown.md)接口, 并让**IMAPIProviderShutdown:: QueryFastShutdown**方法返回 MAPI_E_NO_SUPPORT。 对于 outlook 作为 MAPI 客户端, 这会导致 Outlook 等待所有外部引用在退出之前发布。 
   

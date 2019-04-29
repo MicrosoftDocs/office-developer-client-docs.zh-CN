@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 91cde601-dca9-4737-afe1-bdf76638dfe3
 description: 返回一个布尔值, 该值指示是否对形状应用了主题。
 ms.openlocfilehash: 49f53eaaacbdc86a633703d6ef847e38097f5122
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357510"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418118"
 ---
 # <a name="isthemed-function"></a>ISTHEMED 函数
 
@@ -31,7 +31,7 @@ ms.locfileid: "32357510"
 
 布尔值
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 > [!NOTE]
 > visio 2013 中的**ISTHEMED**函数将替换以前版本的 visio 中的**CELLISTHEMED**函数。 
@@ -44,7 +44,7 @@ ms.locfileid: "32357510"
 
 ||||
 |:-----|:-----|:-----|
-|Cell  <br/> |Formula  <br/> |结果  <br/> |
+|Cell  <br/> |公式  <br/> |结果  <br/> |
 |字符。字体  <br/> |IF (ISTHEMED ()、THEMEVAL () 和 FONT ("Calibri"))  <br/> |如果形状应用了主题, 则形状文本接受主题中的字体格式。 如果形状没有主题, 则形状文本的格式为 "Calibri" 字体。  <br/> |
 |LineColor  <br/> |IF (ISTHEMED, rgb (255, 0, 0), RGB (0, 255, 0))  <br/> |如果形状应用了主题, 则该形状的线条颜色为红色。 如果形状没有主题, 则形状的线条颜色为绿色。  <br/> |
    

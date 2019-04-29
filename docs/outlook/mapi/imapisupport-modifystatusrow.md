@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a304ca8f-e404-4535-be76-0b673f2061a0
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 8c76e6059670e782ea6530ec8e94f77abfe5b9fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316638"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417159"
 ---
 # <a name="imapisupportmodifystatusrow"></a>IMAPISupport::ModifyStatusRow
 
@@ -59,7 +59,7 @@ S_OK
   
 > 已成功更新状态表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: ModifyStatusRow**方法是为所有服务提供程序支持对象实现的。 服务提供程序在登录时调用**ModifyStatusRow**以向状态表中添加行, 并在会话过程中的其他时间将行添加到更新行。 **ModifyStatusRow**为 MAPI 提供生成状态表所需的信息。 
   

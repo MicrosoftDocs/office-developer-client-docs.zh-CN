@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: af3c1f5135e90274c0251c5a0addf339c14f36c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339296"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416396"
 ---
 # <a name="iablogonlogoff"></a>IABLogon::Logoff
 
@@ -45,7 +45,7 @@ S_OK
   
 > 已成功启动注销过程。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 注销过程通常在客户端调用[IMAPISession:: 注销](imapisession-logoff.md)方法结束会话时启动。 然后, MAPI 会调用每个通讯簿提供程序的**IABLogon:: 注销**方法, 以启动注销过程。 
   

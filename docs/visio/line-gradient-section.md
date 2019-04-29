@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 3ef39ca1-ffc0-4ec0-8697-7b4ea7406fa4
 description: 显示应用于形状的线条渐变的颜色值。
 ms.openlocfilehash: 3ebee7eb7cfcb14beb12e26508375e4488e379d5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359330"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415451"
 ---
 # <a name="line-gradient-section"></a>"线条渐变" 部分
 
 显示应用于形状的线条渐变的颜色值。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 该部分中的每个[渐变停止行 ("线条渐变" 部分)](gradient-stop-row-line-gradient-section.md)行都代表线条中的梯度停止点。 此部分可以为空。 
   

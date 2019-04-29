@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 240f1144-0805-4cd1-9e7d-f2a550a2f160
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cc1547ad7d881b707825630f96987d4c40ad4863
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315300"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416900"
 ---
 # <a name="ulpropsize"></a>UlPropSize
 
@@ -55,7 +55,7 @@ MAPI_E_CALL_FAILED
   
 > 意外或未知来源的错误阻止操作完成。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **UlPropSize**函数返回指定属性的属性值的大小 (以字节为单位)。 它不会忽略**SPropValue**结构的其余部分的大小。 
   

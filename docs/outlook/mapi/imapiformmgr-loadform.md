@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5ca500c3-c737-45a5-b0fc-473b75c1d68d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7e445646477ad1fc56b41141b541358d9b9f9616
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321689"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418783"
 ---
 # <a name="imapiformmgrloadform"></a>IMAPIFormMgr::LoadForm
 
@@ -111,7 +111,7 @@ MAPI_E_NOT_FOUND
   
 > _lpszMessageClass_中传递的邮件类与表单库中任何表单的邮件类都不匹配。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IMAPIFormMgr:: LoadForm**方法打开现有邮件的表单。 **LoadForm**打开 form 对象, 将邮件加载到 form 对象中, 并设置适当的视图上下文 (如有必要), 并返回窗体对象所请求的接口。 
   

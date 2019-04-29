@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 7d2ec869-7ffa-3b41-8126-3f4889501e0c
 description: 确定当形状是增量对齐和/或增量间距时是否可以将其放在分页符上。
 ms.openlocfilehash: 5ff5a31e26cc1ab9415eb69b76fc9f64ccd1ae7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338722"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416312"
 ---
 # <a name="avoidpagebreaks-cell-page-layout-section"></a>AvoidPageBreaks 单元格（“Page Layout”内容）
 
 确定当形状是增量对齐和/或增量间距时是否可以将其放在分页符上。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 AvoidPageBreaks 单元格的引用，请使用以下内容。 
   

@@ -8,22 +8,22 @@ localization_priority: Normal
 ms.assetid: 276a661f-d14e-404a-a494-ae36601a8ce3
 description: 确定是否为形状的线条或边框启用线条渐变。
 ms.openlocfilehash: 1d2b33275d26bb0c8e5550bcb7cf282c64d34544
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361136"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416375"
 ---
 # <a name="linegradientenabled-cell-gradient-properties-section"></a>LineGradientEnabled 单元格 ("渐变属性" 部分)
 
 确定是否为形状的线条或边框启用线条渐变。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |渐变显示在形状的线条或边框上。  <br/> |
 |FALSE  <br/> |渐变不显示在形状的线条或边框上。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**LineGradientEnabled**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

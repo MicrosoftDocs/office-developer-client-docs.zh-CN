@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 871b8601-8117-bc51-17b9-6002234b4bfb
 description: 函数用于执行单个明确任务。大多数函数都使用若干参数作为输入。虽然参数的类型和数目取决于函数，但所有函数都遵循同一通用语法：
 ms.openlocfilehash: 14995b0f7e3c1cc8346d47965038902b8ca4e8bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345057"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415976"
 ---
 # <a name="about-functions"></a>关于函数
 
@@ -22,7 +22,7 @@ ms.locfileid: "32345057"
   
  **函数 (** _argument1_、 _argument2_、.。。  _argumentN_[, _argumentA_ |  _参数_ **])**
   
-|**语法元素**|**Description**|
+|**语法元素**|**说明**|
 |:-----|:-----|
 | ( )  <br/> | 如果函数没有参数，则必须紧跟一对空括号（）。  <br/> |
 | ,  <br/> | 各参数用逗号分隔。  <br/> |

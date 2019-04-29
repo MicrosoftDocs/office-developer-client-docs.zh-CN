@@ -8,17 +8,17 @@ keywords:
 - 框架库函数 [excel 2007], 函数 [excel 2007], 框架库
 localization_priority: Normal
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 4eeb9e5db09592e98e9afb763efaa6be18eb2f7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304051"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417544"
 ---
 # <a name="functions-in-the-framework-library"></a>框架库中的函数
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 创建框架库旨在帮助简化编写 xll。 它包括用于管理**XLOPER**/ **XLOPER12**内存的简单函数、创建临时**XLOPER**/ **XLOPER12**、可靠地调用 Microsoft Excel 回调函数 (**Excel4**、 **Excel4v**、* * Excel12 * *、* * Excel12v * *), 并在附加的终端上打印调试字符串。
   
@@ -71,5 +71,5 @@ Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
   
 ## <a name="see-also"></a>另请参阅
 
-- [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
+- [Excel XLL SDK API 函数引用](excel-xll-sdk-api-function-reference.md)
 

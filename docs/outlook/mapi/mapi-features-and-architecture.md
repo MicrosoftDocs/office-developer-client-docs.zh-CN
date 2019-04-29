@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 34bae703-a979-437c-9d86-8b91e9822a54
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 8156cb53fc81f4861e4a66da4960df0458ec6c91
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351546"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418279"
 ---
 # <a name="mapi-features-and-architecture"></a>MAPI 功能和体系结构
 

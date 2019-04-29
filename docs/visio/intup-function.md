@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ce193ce1-c7fd-6609-ad37-a3a28b30a1bd
 description: 将数字向上舍入到下一个整数。
 ms.openlocfilehash: 405345ae1d22d599df85e2a640445c8c681ec2f6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357286"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416137"
 ---
 # <a name="intup-function"></a>INTUP 函数
 

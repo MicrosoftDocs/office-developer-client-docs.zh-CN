@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f089fa2c608fb9fcb7deba2e061c5cf5886aa02f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316567"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414786"
 ---
 # <a name="imapipropgetproplist"></a>IMAPIProp::GetPropList
 
@@ -58,7 +58,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIProp:: GetPropList**方法检索对象当前支持的每个属性的属性标记。 如果该对象当前不支持任何属性, 则**GetPropList**将返回**cValues**成员设置为0的属性标记数组。 
   

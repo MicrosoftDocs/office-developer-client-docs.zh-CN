@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: eaa988ea-aee1-4066-8c78-2b6c28def5e0
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b8574264bdb470906cc097cec56b39a943937d11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347759"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417642"
 ---
 # <a name="hropenabentrywithsupport"></a>HrOpenABEntryWithSupport
 

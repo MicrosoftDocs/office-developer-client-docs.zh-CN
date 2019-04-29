@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: baa05a50-97d0-3769-635e-0ea20317d59a
 description: 确定动态连接线上的跨线的跨线样式。
 ms.openlocfilehash: ae8af4e326a6c895b3617a4869f98eaf0db68db1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360058"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415990"
 ---
 # <a name="conlinejumpstyle-cell-shape-layout-section"></a>ConLineJumpStyle 单元格（“Shape Layout”内容）
 
@@ -39,7 +39,7 @@ ms.locfileid: "32360058"
 |行索引：  <br/> |**visRowShapeLayout** <br/> |
 |单元格索引：  <br/> |**visSLOJumpStyle** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以通过以下方法设置此单元格的值: 选择动态连接线, 在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中单击 "**行为**", 然后单击 "**连接线**" 选项卡。 
   

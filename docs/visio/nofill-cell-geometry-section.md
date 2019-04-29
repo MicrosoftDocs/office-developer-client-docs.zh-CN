@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 0ba7f6da-681b-b749-fe72-afbca23d7e16
 description: 指示是否可以填充路径。
 ms.openlocfilehash: 301f30b644e338ff9e597a7a7d8226b9c8a4462f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357251"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415017"
 ---
 # <a name="nofill-cell-geometry-section"></a>NoFill 单元格（“Geometry”内容）
 
 指示是否可以填充路径。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 不填充该路径，即使可填充形状中的其他路径。  <br/> |
 | FALSE  <br/> | 形状的填充适用于该路径，即使它不是封闭的路径。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果将形状的填充图案设置为非 (0)，则不填充该形状的任何路径。此单元格用于选择性地禁用形状中路径的填充方式。
   

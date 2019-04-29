@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 30766e13-c90d-62fc-9c98-35ad7b0b4056
 description: 指定固定网格中垂直线条间的距离 (YGridDensity = 0)。
 ms.openlocfilehash: fc355b4e509494e9e7570122a8a3a7a3ce2e0588
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283427"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417460"
 ---
 # <a name="ygridspacing-cell-ruler-amp-grid-section"></a>YGridSpacing 单元格 ( &amp; "标尺网格" 部分)
 
 指定固定网格中垂直线条间的距离 (YGridDensity = 0)。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 对应于 "**标尺&amp;网格**" 对话框 (在 "**视图**" 选项卡上, 单击 "**显示**" 箭头) 中的 "垂直**最小间距**" 选项。 
   

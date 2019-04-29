@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 734d4415-05dd-4c4d-763e-e035fa56dcec
 description: 确定在文档间复制时是否本地化形状。
 ms.openlocfilehash: ddd6041ec6531652deb38a0c16be2c741bac91a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344572"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405672"
 ---
 # <a name="localizemerge-cell-miscellaneous-section"></a>LocalizeMerge 单元格（“Miscellaneous”内容）
 
 确定在文档间复制时是否本地化形状。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 使用目标文档的语言本地化形状。  <br/> |
 | FALSE  <br/> | 不根据目标文档的语言本地化形状 (默认值)。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LocalizeMerge 单元格的引用，请使用： 
   

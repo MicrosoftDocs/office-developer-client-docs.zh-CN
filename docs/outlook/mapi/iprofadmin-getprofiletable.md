@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cebccd2d-8215-486e-9964-7fc42412cec6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2db7dba67e7b71df6921ecd97189255a0ef7823a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309546"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414642"
 ---
 # <a name="iprofadmingetprofiletable"></a>IProfAdmin::GetProfileTable
 
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功检索配置文件表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IProfAdmin:: GetProfileTable**方法提供对配置文件表的访问, 其中每个可用的配置文件在其中占一行。 每行中仅有两列: 配置文件的显示名称和指示是否为默认配置文件的标志。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 80f1c2e0-3567-4b16-86cb-d5e6ac95c2ee
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 968f9e1dad3a233b31f0ce29d3ce935b1257948c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309497"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416697"
 ---
 # <a name="smapiformprop"></a>SMAPIFormProp
 
@@ -102,7 +102,7 @@ FPST_ENUM_PROP
   
 > 指向**SMAPIFormPropEnumVal**结构的数组的指针, 其中每个结构都保留命名属性的值。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SMAPIFormProp**结构包含有关用作[IMAPIFormInfo](imapiforminfoimapiprop.md)接口定义的一部分的窗体属性的信息;**nSpecialType**包含适用于**u** union 的标记, 该标记是**SMAPIFormProp**的一部分。
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2b641030-2429-4217-a648-0a9f3d1a1b29
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: d3b47e423daf428c67761d13deef1ae0858c91c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280200"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418013"
 ---
 # <a name="imapicontrolactivate"></a>IMAPIControl::Activate
 
@@ -50,7 +50,7 @@ S_OK
   
 > 按钮控件已成功激活。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIControl:: Activate**方法在用户单击按钮控件后执行任务。 在显示表的处理过程中, MAPI 在第一次调用[IMAPIControl:: GetState](imapicontrol-getstate.md)以确定按钮是否已启用之后, 会调用**激活**。 
   

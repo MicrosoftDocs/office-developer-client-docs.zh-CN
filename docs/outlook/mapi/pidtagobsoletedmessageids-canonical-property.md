@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bc979398-f1ad-4496-b982-428b95719369
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1f00a57798b03edb368fb0dc59fead7a2e9f5c8f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329244"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416109"
 ---
 # <a name="pidtagobsoletedmessageids-canonical-property"></a>PidTagObsoletedMessageIds 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32329244"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性中包含的标识符是使用**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性格式的标准搜索键。
   

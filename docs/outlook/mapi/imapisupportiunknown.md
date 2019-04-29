@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6da488408d3be9464d6ae1e016d5095707d451e4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325646"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415437"
 ---
 # <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 
@@ -58,8 +58,8 @@ ms.locfileid: "32325646"
 |[OpenTemplateID](imapisupport-opentemplateid.md) <br/> |打开外部通讯簿提供程序中的收件人条目。  <br/> |
 |[OpenEntry](imapisupport-openentry.md) <br/> |打开一个对象并返回一个接口指针以供进一步访问。  <br/> |
 |[GetOneOffTable](imapisupport-getoneofftable.md) <br/> |返回指向 MAPI 一次性表 (所有通讯簿提供程序为创建新收件人所支持的模板列表) 的指针。  <br/> |
-|[Address](imapisupport-address.md) <br/> |显示 "常用地址" 对话框。  <br/> |
-|[Details](imapisupport-details.md) <br/> |显示一个对话框, 显示有关特定通讯簿条目的详细信息。  <br/> |
+|[地址](imapisupport-address.md) <br/> |显示 "常用地址" 对话框。  <br/> |
+|[详细信息](imapisupport-details.md) <br/> |显示一个对话框, 显示有关特定通讯簿条目的详细信息。  <br/> |
 |[NewEntry](imapisupport-newentry.md) <br/> |将新的收件人直接添加到通讯簿容器或传出邮件的收件人列表中。  <br/> |
 |[DoConfigPropsheet](imapisupport-doconfigpropsheet.md) <br/> |显示配置属性表。  <br/> |
 |[CopyMessages](imapisupport-copymessages.md) <br/> |将邮件从一个文件夹复制或移动到另一个文件夹。  <br/> |
@@ -80,14 +80,14 @@ ms.locfileid: "32325646"
 |[IStorageFromStream](imapisupport-istoragefromstream.md) <br/> |实现存储对象以访问流。  <br/> |
 |[GetSvcConfigSupportObj](imapisupport-getsvcconfigsupportobj.md) <br/> |创建邮件服务支持对象。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通讯簿、邮件存储、传输提供程序和邮件服务都有其自己的支持对象。 服务提供程序和邮件服务将其支持对象中的方法作为其他接口方法实现的一部分调用。 每个不同的支持对象都具有应用于其调用方的方法的完整实现;不适用的方法返回 MAPI_E_NO_SUPPORT。 通讯簿提供程序支持对象具有以下方法的实现:
   
 ||||
 |:-----|:-----|:-----|
-|**Address** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
-|**Details** <br/> |**DoConfigPropsheet** <br/> |**DoProgressDialog** <br/> |
+|**地址** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
+|**详细信息** <br/> |**DoConfigPropsheet** <br/> |**DoProgressDialog** <br/> |
 |**GetLastError** <br/> |**GetMemAllocRoutines** <br/> |**GetOneOffTable** <br/> |
 |**IStorageFromStream** <br/> |**GetSvcConfigSupportObj** <br/> |**MakeInvalid** <br/> |
 |**ModifyStatusRow** <br/> |**NewEntry** <br/> |**NewUID** <br/> |

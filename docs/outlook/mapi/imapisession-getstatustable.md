@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 53428f8d-4838-46d1-a0ab-cafb194f4cc3
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 17e936093536f548d16021523d9434f09777c6d9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338758"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407135"
 ---
 # <a name="imapisessiongetstatustable"></a>IMAPISession::GetStatusTable
 
@@ -54,7 +54,7 @@ S_OK
   
 > 成功返回表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISession:: GetStatusTable**方法提供对状态表的访问, 该表包含有关会话中所有 MAPI 资源的信息。 表中有一行, 其中包含有关 mapi 子系统的信息、mapi 后台处理程序的一行、集成的通讯簿的一行, 以及配置文件中的每个服务提供程序的一行。 
   

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 78a13bacf13b019bbf9436830ad66db7fdfaf425
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356954"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415465"
 ---
 # <a name="message-services-and-profiles"></a>邮件服务和配置文件
   

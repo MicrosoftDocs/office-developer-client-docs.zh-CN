@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 612cbab7-60cb-48bb-906e-18d9135e7a86
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 544aaaace18a9d26972e6484803b63a1ee7060fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317281"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416298"
 ---
 # <a name="imslogonopenentry"></a>IMSLogon::OpenEntry
 
@@ -82,7 +82,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 调用**IMSLogon:: OpenEntry**方法打开邮件存储中的文件夹或邮件。 MAPI 传递在要打开的对象的条目标识符中。 邮件存储区提供程序应返回一个指针, 使您能够进一步访问_lppUnk_参数中指定的对象。 
   

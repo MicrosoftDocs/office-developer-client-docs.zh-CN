@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: ada86f04-e81b-4f97-b9c1-1c8ec5e1a5dd
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 3e48e57deba5c274982eeb515d27f203ec5ac7fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348508"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404503"
 ---
 # <a name="packedansistring-stream-structure"></a>PackedAnsiString 流结构
 

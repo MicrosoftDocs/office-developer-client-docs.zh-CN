@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e6a180ceb325a705ebf226bb728c52cce7396490
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328957"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416172"
 ---
 # <a name="imapitablecollapserow"></a>IMAPITable::CollapseRow
 
@@ -68,7 +68,7 @@ MAPI_E_INVALID_ENTRYID
   
 > 由_pbInstanceKey_参数标识的行不存在。 此错误是 MAPI_E_NOT_FOUND 的替代方法;服务提供程序可以返回其中一个。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: CollapseRow**方法折叠表类别并将其从表格视图中删除。 行是从由_pbInstanceKey_参数指向的**PR_INSTANCE_KEY**属性所标识的行开始折叠的。 从视图中删除的行数在_lpulRowCount_参数的内容中返回。 
   

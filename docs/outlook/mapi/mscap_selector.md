@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f28ac144-f5ac-fd83-2b72-8d6e5fd74b6e
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 9c5d8ab5bbac91250f3b8c552ad891c62134526e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338673"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417201"
 ---
 # <a name="mscapselector"></a>MSCAP_SELECTOR
 

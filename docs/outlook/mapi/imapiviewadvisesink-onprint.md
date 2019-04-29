@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d16219a0-268c-428d-9f02-4f06eb5b6d7d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: e66315042f8b5cd5aff0e4aa076588c9f312376a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328782"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406169"
 ---
 # <a name="imapiviewadvisesinkonprint"></a>IMAPIViewAdviseSink::OnPrint
 
@@ -66,7 +66,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击对话框中的 "取消" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单对象在打印时调用**IMAPIViewAdviseSink:: OnPrint**方法, 以通知查看器打印进度。 
   

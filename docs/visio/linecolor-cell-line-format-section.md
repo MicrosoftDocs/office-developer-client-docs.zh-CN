@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d857b48b-9a3d-a1e1-5ad2-6816a492c8ab
 description: 确定形状的线条颜色。
 ms.openlocfilehash: d0b4ebee6d96bc67c9ca45e8a6194cb91ed6c7f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359302"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416935"
 ---
 # <a name="linecolor-cell-line-format-section"></a>LineColor 单元格（“Line Format”内容）
 
 确定形状的线条颜色。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要设置线条颜色，请输入一个介于 0 和 23 之间的数字，该数字是线条颜色集合中的索引。可以在 **“线条”** 对话框中查看线条颜色集合（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“线条”**，指向 **“粗细”**，然后单击 **“其他线条”**）。还可以在 **“线条”** 对话框中设置 LineColor 的值。 
   

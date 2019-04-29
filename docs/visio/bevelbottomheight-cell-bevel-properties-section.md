@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: ff681afd-c058-4fce-855f-5075b8c680c2
 description: 确定形状的底部棱台的高度 (以磅为单位)。
 ms.openlocfilehash: f0bed55f5ddeb8676b2b2bc2bf0cddad779b011c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283021"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417523"
 ---
 # <a name="bevelbottomheight-cell-bevel-properties-section"></a>BevelBottomHeight 单元格 ("棱台属性" 部分)
 
 确定形状的底部棱台的高度 (以磅为单位)。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**BevelBottomHeight**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

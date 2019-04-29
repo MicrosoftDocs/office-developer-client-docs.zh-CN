@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 04b0fa5b-1680-cfe2-6aaf-0502ad196027
 description: 锁定某组，使该组不能被取消组合。
 ms.openlocfilehash: 0cb2c0653780dcb653e5903faaaa0ebf30ea9d69
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341790"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404307"
 ---
 # <a name="lockgroup-cell-protection-section"></a>LockGroup 单元格（“Protection”内容）
 
 锁定某组，使该组不能被取消组合。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |不能取消组合。  <br/> |
 |FALSE  <br/> |能够取消组合。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 将 LockGroupCell 值设置为 TRUE 还可防止删除作为组合成员的任何形状。
   

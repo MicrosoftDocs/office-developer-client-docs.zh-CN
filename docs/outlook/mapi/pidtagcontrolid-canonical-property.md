@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b27f59e0bfdcac8eca1751af2f07139f12e2b3a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334739"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416018"
 ---
 # <a name="pidtagcontrolid-canonical-property"></a>PidTagControlId 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32334739"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性包含控件的唯一标识符。 此标识符应包含[GUID](guid.md)结构和**LONG**类型的二进制值。 对话框中的所有控件都应使用相同的**GUID**来标识服务提供程序, 并且每个控件应使用唯一的**长整型**值, 以确保控件不会发生冲突。 
   

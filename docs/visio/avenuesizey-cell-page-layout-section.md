@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 9ff2893c-afe5-505e-0b55-48ec1de08a5f
 description: 确定使用 "配置布局" 对话框 (在 "设计" 选项卡上的 "布局" 组中, 单击 "重新布局页面", 然后单击 "其他布局选项") 排放形状时, 绘图页上的形状之间的垂直间距量。
 ms.openlocfilehash: 283de8925e34c470fd1f9e78b8ae58882be8b7fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338421"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420204"
 ---
 # <a name="avenuesizey-cell-page-layout-section"></a>AvenueSizeY 单元格（“Page Layout”内容）
 
 确定使用 "**配置布局**" 对话框 (在 "**设计**" 选项卡上的 "**布局**" 组中, 单击 "**重新布局**页面", 然后单击 "其他") 排放形状时, 绘图页上形状之间的垂直间距量。 **布局选项**)。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 **“布局与排列间距”** 对话框（在 **“设计”** 选项卡上，单击 **“页面设置”** 组中的箭头，单击 **“布局与排列”** 选项卡，然后单击 **“间距”**）中设置此值。
   

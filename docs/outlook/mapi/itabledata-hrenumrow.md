@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b25d9f2b-9454-4983-98f7-6a051a3b8a04
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 50fd96acd0989459c9887770ec5a3a236f182da5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348893"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418370"
 ---
 # <a name="itabledatahrenumrow"></a>ITableData::HrEnumRow
 
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功检索行, 或_ulRowNumber_参数所指定的行号的行不存在。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ITableData:: HrEnumRow**方法根据顺序编号检索行。 此数字表示插入顺序 (0 表示第一行, 行数减1表示最后一行)。 MAPI 在表数据对象的生存期内保持行插入的时间顺序。 
   

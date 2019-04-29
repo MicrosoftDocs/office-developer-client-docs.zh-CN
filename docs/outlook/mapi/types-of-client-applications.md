@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 52ce22a9-3ec2-481c-bb91-7a5bcca817f5
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 167710243c61a7226375b88977c94ff4a517c1c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356558"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417054"
 ---
 # <a name="types-of-client-applications"></a>客户端应用程序的类型
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6c35220529fb88b470c563a0b004bfcf7e63ef76
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345645"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415955"
 ---
 # <a name="tablenotification"></a>TABLE_NOTIFICATION
 
@@ -109,7 +109,7 @@ TABLE_SORT_DONE
   
 > 描述受影响的行的[SRow](srow.md)结构。 此结构是为所有表通知事件而填充的。 对于不传递行数据的表通知事件, **SRow**结构的**cValues**成员设置为零, **lpProps**成员设置为 NULL。 由于此**SRow**结构是只读的;如果客户端要进行修改, 则必须为其创建副本。 [ScDupPropset](scduppropset.md)函数可用于制作副本。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **表\_通知**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 当结构的**ulEventType**成员设置为_fnevTableModified_时, **info**成员包含一个**表\_通知**结构。
   

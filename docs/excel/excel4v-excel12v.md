@@ -11,17 +11,17 @@ keywords:
 - excel12v 函数 [excel 2007], Excel4v 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: e3e96b98-c5a7-4625-95b6-a1e2d09c6d3d
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 11ab86a95dde2ad52840822b28ce4d74dd05d148
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310897"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414989"
 ---
 # <a name="excel4vexcel12v"></a>Excel4v/Excel12v
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 从 DLL、xll 或 code 资源中调用内部 Microsoft Excel 工作表函数、宏工作表函数或命令, 或仅 XLL 特殊函数或命令。
   
@@ -58,7 +58,7 @@ int _cdecl Excel12v(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 rgx[
 
 这些函数返回的值与**Excel4**和**Excel12**的值相同。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些函数在传递给运算符的参数数目为可变时非常有用。 例如, 在使用[xlfRegister](xlfregister-form-1.md)注册函数时, **Excel4v**和**Excel12v**是很有用的, 其中 total 参数的数目取决于所注册的函数所执行的参数数量。 当您为**Excel4**或**Excel12**编写包装函数时, **Excel4v**和**Excel12v**也很有用。 在这些情况下, 您需要将变量参数列表 (通常为**Excel4**或**Excel12**提供) 转换为使用**Excel4v**或**Excel12v**回调到 Excel 中的单个数组参数的变量大小。
   

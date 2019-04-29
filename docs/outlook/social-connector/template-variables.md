@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 6f8f6af2-c7fa-4135-9532-7af5fc643b0d
 description: template 变量的实例 (由 templateVariable 元素表示) 指定活动模板中的活动源项的数据。
 ms.openlocfilehash: 9b37665488f0f1e2bd205fb7d4a5d2201697d7c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329174"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404370"
 ---
 # <a name="template-variables"></a>模板变量
 
@@ -23,7 +23,7 @@ template 变量的实例 (由**templateVariable**元素表示) 指定活动模�
 
 下表显示了受支持的模板变量的类型, 每个都由相应的 XML 枚举值表示。
   
-|**模板变量的类型**|**Description**|
+|**模板变量的类型**|**说明**|
 |:-----|:-----|
 |**entityVariable** <br/> |个人、组或事物。  <br/> |
 |**linkVariable** <br/> |一个链接。  <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4dd58b0b-dc39-4782-a9ec-05e353c90927
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8f71b30bd02af8f768da86218456feadda8ea1b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334879"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414800"
 ---
 # <a name="fequalnames"></a>FEqualNames
 
@@ -60,7 +60,7 @@ FALSE
   
 > 这两个属性名称不相等。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **FEqualNames**函数很有用, 因为**MAPINAMEID**结构包含一个[GUID](guid.md) , 并且可以通过多种方式表示属性名称本身。 这意味着, 不能通过简单的二进制方法比较这两个结构。 
   

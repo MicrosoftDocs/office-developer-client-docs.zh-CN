@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 04952b51-f005-4933-a1d1-695c6dc736cc
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: e020c66a46f1f195a5731ef1cb3f4b0488162a2b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286571"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415668"
 ---
 # <a name="imapiformcontainergetlasterror"></a>IMAPIFormContainer::GetLastError
 
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志, 且**getlasterror**不支持 unicode, 或者未设置 MAPI_UNICODE, 且**GetLastError**仅支持 UNICODE。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFormContainer:: GetLastError**方法提供有关失败的上一个方法调用的信息。 通过在对话框中包含**MAPIERROR**结构中的数据, 呼叫者可以向其用户提供有关错误的详细信息。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a8b49d0b80102f6295f3f717fb123a6581854d5a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341116"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415717"
 ---
 # <a name="extendednotification"></a>EXTENDED_NOTIFICATION
 
@@ -55,7 +55,7 @@ typedef struct _EXTENDED_NOTIFICATION
   
 > 指向事件特定参数的指针。 使用的参数类型取决于**ulEvent**成员的值;这些参数由发出事件的提供程序记录。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **EXTENDED_NOTIFICATION**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 当**通知**结构的**info**成员包含**EXTENDED_NOTIFICATION**结构时,**通知**结构的**ulEventType**成员将设置为_fnevExtended_。
   

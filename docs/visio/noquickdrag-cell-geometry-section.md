@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 8491f459-9de2-8e75-5532-7d3bd0986734
 description: 确定当用户单击由 "Geometry" 内容定义的填充区域时, 是否可以选择或拖动形状。
 ms.openlocfilehash: d60268685d93ae88abb2840f62b093db1e688c2f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341060"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417719"
 ---
 # <a name="noquickdrag-cell-geometry-section"></a>NoQuickDrag 单元格（“Geometry”内容）
 
 确定当用户单击由 "Geometry" 内容定义的填充区域时, 是否可以选择或拖动形状。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 NoQuickDrag 单元格的引用，请使用： 
   

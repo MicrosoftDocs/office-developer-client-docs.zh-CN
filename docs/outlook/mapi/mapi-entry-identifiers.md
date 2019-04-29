@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 84c37696-da7a-42e0-b8c0-29658a6c9a48
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 4c414b9f8a1d70fd5eea94da326674a749ccefe2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297877"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414961"
 ---
 # <a name="mapi-entry-identifiers"></a>MAPI 条目标识符
 

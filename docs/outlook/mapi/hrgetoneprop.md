@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e5adc7d0c317d8b803645d78227777998d7d241f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347836"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416053"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
@@ -61,7 +61,7 @@ MAPI_E_NOT_FOUND
   
 > 请求的属性在指定的接口中不可用。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 与[IMAPIProp:: GetProps](imapiprop-getprops.md)方法不同, **HrGetOneProp**函数永远不会返回任何警告。 由于它只检索一个属性, 它只是成功或失败。 若要检索多个属性, **GetProps**速度更快。 
   
