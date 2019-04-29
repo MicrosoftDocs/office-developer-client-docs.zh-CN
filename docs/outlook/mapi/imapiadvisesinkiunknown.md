@@ -13,38 +13,38 @@ api_type:
 ms.assetid: f598fc57-75d3-473b-8eb0-9d8a3b92e9f2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d537184f427b2ef240dd2a9a59ab2f624f8f75d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350916"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409564"
 ---
-# <a name="imapiadvisesink--iunknown"></a><span data-ttu-id="8db8a-103">IMAPIAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="8db8a-103">IMAPIAdviseSink : IUnknown</span></span>
+# <a name="imapiadvisesink--iunknown"></a><span data-ttu-id="a20ac-103">IMAPIAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a20ac-103">IMAPIAdviseSink : IUnknown</span></span>
 
   
   
-<span data-ttu-id="8db8a-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8db8a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a20ac-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a20ac-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8db8a-105">实现用于处理通知的通知接收器对象。</span><span class="sxs-lookup"><span data-stu-id="8db8a-105">Implements an advise sink object for handling notification.</span></span> <span data-ttu-id="8db8a-106">指向通知接收器对象的指针在对服务提供程序的**advise**方法的调用中传递, 用于注册通知的机制。</span><span class="sxs-lookup"><span data-stu-id="8db8a-106">A pointer to an advise sink object is passed in a call to a service provider's **Advise** method, the mechanism used to register for notification.</span></span> 
+<span data-ttu-id="a20ac-105">实现用于处理通知的通知接收器对象。</span><span class="sxs-lookup"><span data-stu-id="a20ac-105">Implements an advise sink object for handling notification.</span></span> <span data-ttu-id="a20ac-106">指向通知接收器对象的指针在对服务提供程序的**advise**方法的调用中传递, 用于注册通知的机制。</span><span class="sxs-lookup"><span data-stu-id="a20ac-106">A pointer to an advise sink object is passed in a call to a service provider's **Advise** method, the mechanism used to register for notification.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8db8a-107">标头文件：</span><span class="sxs-lookup"><span data-stu-id="8db8a-107">Header file:</span></span>  <br/> |<span data-ttu-id="8db8a-108">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="8db8a-108">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="8db8a-109">公开者:</span><span class="sxs-lookup"><span data-stu-id="8db8a-109">Exposed by:</span></span>  <br/> |<span data-ttu-id="8db8a-110">通知接收器对象</span><span class="sxs-lookup"><span data-stu-id="8db8a-110">Advise sink objects</span></span>  <br/> |
-|<span data-ttu-id="8db8a-111">实现者：</span><span class="sxs-lookup"><span data-stu-id="8db8a-111">Implemented by:</span></span>  <br/> |<span data-ttu-id="8db8a-112">客户端应用程序和 MAPI</span><span class="sxs-lookup"><span data-stu-id="8db8a-112">Client applications and MAPI</span></span>  <br/> |
-|<span data-ttu-id="8db8a-113">调用者：</span><span class="sxs-lookup"><span data-stu-id="8db8a-113">Called by:</span></span>  <br/> |<span data-ttu-id="8db8a-114">服务提供商和 MAPI</span><span class="sxs-lookup"><span data-stu-id="8db8a-114">Service providers and MAPI</span></span>  <br/> |
-|<span data-ttu-id="8db8a-115">接口标识符:</span><span class="sxs-lookup"><span data-stu-id="8db8a-115">Interface identifier:</span></span>  <br/> |<span data-ttu-id="8db8a-116">IID_IMAPIAdviseSink</span><span class="sxs-lookup"><span data-stu-id="8db8a-116">IID_IMAPIAdviseSink</span></span>  <br/> |
-|<span data-ttu-id="8db8a-117">指针类型:</span><span class="sxs-lookup"><span data-stu-id="8db8a-117">Pointer type:</span></span>  <br/> |<span data-ttu-id="8db8a-118">LPMAPIADVISESINK</span><span class="sxs-lookup"><span data-stu-id="8db8a-118">LPMAPIADVISESINK</span></span>  <br/> |
+|<span data-ttu-id="a20ac-107">标头文件：</span><span class="sxs-lookup"><span data-stu-id="a20ac-107">Header file:</span></span>  <br/> |<span data-ttu-id="a20ac-108">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="a20ac-108">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="a20ac-109">公开者:</span><span class="sxs-lookup"><span data-stu-id="a20ac-109">Exposed by:</span></span>  <br/> |<span data-ttu-id="a20ac-110">通知接收器对象</span><span class="sxs-lookup"><span data-stu-id="a20ac-110">Advise sink objects</span></span>  <br/> |
+|<span data-ttu-id="a20ac-111">实现者：</span><span class="sxs-lookup"><span data-stu-id="a20ac-111">Implemented by:</span></span>  <br/> |<span data-ttu-id="a20ac-112">客户端应用程序和 MAPI</span><span class="sxs-lookup"><span data-stu-id="a20ac-112">Client applications and MAPI</span></span>  <br/> |
+|<span data-ttu-id="a20ac-113">调用者：</span><span class="sxs-lookup"><span data-stu-id="a20ac-113">Called by:</span></span>  <br/> |<span data-ttu-id="a20ac-114">服务提供商和 MAPI</span><span class="sxs-lookup"><span data-stu-id="a20ac-114">Service providers and MAPI</span></span>  <br/> |
+|<span data-ttu-id="a20ac-115">接口标识符:</span><span class="sxs-lookup"><span data-stu-id="a20ac-115">Interface identifier:</span></span>  <br/> |<span data-ttu-id="a20ac-116">IID_IMAPIAdviseSink</span><span class="sxs-lookup"><span data-stu-id="a20ac-116">IID_IMAPIAdviseSink</span></span>  <br/> |
+|<span data-ttu-id="a20ac-117">指针类型:</span><span class="sxs-lookup"><span data-stu-id="a20ac-117">Pointer type:</span></span>  <br/> |<span data-ttu-id="a20ac-118">LPMAPIADVISESINK</span><span class="sxs-lookup"><span data-stu-id="a20ac-118">LPMAPIADVISESINK</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="8db8a-119">Vtable 顺序</span><span class="sxs-lookup"><span data-stu-id="8db8a-119">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="a20ac-119">Vtable 顺序</span><span class="sxs-lookup"><span data-stu-id="a20ac-119">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="8db8a-120">OnNotify</span><span class="sxs-lookup"><span data-stu-id="8db8a-120">OnNotify</span></span>](imapiadvisesink-onnotify.md) <br/> |<span data-ttu-id="8db8a-121">通过执行一个或多个任务来响应通知。</span><span class="sxs-lookup"><span data-stu-id="8db8a-121">Responds to a notification by performing one or more tasks.</span></span> <span data-ttu-id="8db8a-122">执行的任务取决于事件的类型和生成通知的对象。</span><span class="sxs-lookup"><span data-stu-id="8db8a-122">The tasks performed depend on the type of event and the object that generates the notification.</span></span>  <br/> |
+|[<span data-ttu-id="a20ac-120">OnNotify</span><span class="sxs-lookup"><span data-stu-id="a20ac-120">OnNotify</span></span>](imapiadvisesink-onnotify.md) <br/> |<span data-ttu-id="a20ac-121">通过执行一个或多个任务来响应通知。</span><span class="sxs-lookup"><span data-stu-id="a20ac-121">Responds to a notification by performing one or more tasks.</span></span> <span data-ttu-id="a20ac-122">执行的任务取决于事件的类型和生成通知的对象。</span><span class="sxs-lookup"><span data-stu-id="a20ac-122">The tasks performed depend on the type of event and the object that generates the notification.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="8db8a-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8db8a-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a20ac-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a20ac-123">See also</span></span>
 
 
 
-[<span data-ttu-id="8db8a-124">MAPI 接口</span><span class="sxs-lookup"><span data-stu-id="8db8a-124">MAPI Interfaces</span></span>](mapi-interfaces.md)
+[<span data-ttu-id="a20ac-124">MAPI 接口</span><span class="sxs-lookup"><span data-stu-id="a20ac-124">MAPI Interfaces</span></span>](mapi-interfaces.md)
 

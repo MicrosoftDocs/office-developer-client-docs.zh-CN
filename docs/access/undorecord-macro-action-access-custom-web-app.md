@@ -8,21 +8,21 @@ localization_priority: Normal
 ms.assetid: d943560f-66d8-47c3-96d9-202c2548874f
 description: 放弃对当前记录所做的更改。
 ms.openlocfilehash: d3d666efdc6b63d2e01c23f9468f469082febd06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304220"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435689"
 ---
-# <a name="undorecord-macro-action-access-custom-web-app"></a><span data-ttu-id="a2f31-103">UndoRecord 宏操作 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="a2f31-103">UndoRecord Macro Action (Access custom web app)</span></span>
+# <a name="undorecord-macro-action-access-custom-web-app"></a><span data-ttu-id="b1180-103">UndoRecord 宏操作 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="b1180-103">UndoRecord Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="a2f31-104">放弃对当前记录所做的更改。</span><span class="sxs-lookup"><span data-stu-id="a2f31-104">Discards changes to the current record.</span></span>
+<span data-ttu-id="b1180-104">放弃对当前记录所做的更改。</span><span class="sxs-lookup"><span data-stu-id="b1180-104">Discards changes to the current record.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="a2f31-p101">[!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="a2f31-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="b1180-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="b1180-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="a2f31-107">注解</span><span class="sxs-lookup"><span data-stu-id="a2f31-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b1180-107">说明</span><span class="sxs-lookup"><span data-stu-id="b1180-107">Remarks</span></span>
 
-<span data-ttu-id="a2f31-108">**UndoRecord**操作等效于使用操作栏中的 "**取消**" 按钮放弃更改。</span><span class="sxs-lookup"><span data-stu-id="a2f31-108">The **UndoRecord** action is equivalent to using the **Cancel** button in the action bar discard changes.</span></span> 
+<span data-ttu-id="b1180-108">**UndoRecord**操作等效于使用操作栏中的 "**取消**" 按钮放弃更改。</span><span class="sxs-lookup"><span data-stu-id="b1180-108">The **UndoRecord** action is equivalent to using the **Cancel** button in the action bar discard changes.</span></span> 
   
 
