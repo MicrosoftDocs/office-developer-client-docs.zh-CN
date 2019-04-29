@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 78edd549-d557-489a-85f5-adfb5c44a7d4
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 105219fe430cd8746c3aa6cf5cd90629d5f72080
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316525"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411244"
 ---
-# <a name="imapisupportexpandrecips"></a><span data-ttu-id="6a3ae-103">IMAPISupport::ExpandRecips</span><span class="sxs-lookup"><span data-stu-id="6a3ae-103">IMAPISupport::ExpandRecips</span></span>
+# <a name="imapisupportexpandrecips"></a><span data-ttu-id="3e7c3-103">IMAPISupport::ExpandRecips</span><span class="sxs-lookup"><span data-stu-id="3e7c3-103">IMAPISupport::ExpandRecips</span></span>
 
   
   
-<span data-ttu-id="6a3ae-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6a3ae-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3e7c3-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3e7c3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6a3ae-105">完成邮件的收件人列表, 展开特定的通讯组列表。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-105">Completes a message's recipient list, expanding particular distribution lists.</span></span>
+<span data-ttu-id="3e7c3-105">完成邮件的收件人列表, 展开特定的通讯组列表。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-105">Completes a message's recipient list, expanding particular distribution lists.</span></span>
   
 ```cpp
 HRESULT ExpandRecips(
@@ -34,55 +34,55 @@ HRESULT ExpandRecips(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="6a3ae-106">参数</span><span class="sxs-lookup"><span data-stu-id="6a3ae-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3e7c3-106">参数</span><span class="sxs-lookup"><span data-stu-id="3e7c3-106">Parameters</span></span>
 
- <span data-ttu-id="6a3ae-107">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="6a3ae-107">_lpMessage_</span></span>
+ <span data-ttu-id="3e7c3-107">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="3e7c3-107">_lpMessage_</span></span>
   
-> <span data-ttu-id="6a3ae-108">实时指向包含要处理的收件人列表的邮件的指针。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-108">[in] A pointer to the message that has the recipient list to be processed.</span></span>
+> <span data-ttu-id="3e7c3-108">实时指向包含要处理的收件人列表的邮件的指针。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-108">[in] A pointer to the message that has the recipient list to be processed.</span></span>
     
- <span data-ttu-id="6a3ae-109">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="6a3ae-109">_lpulFlags_</span></span>
+ <span data-ttu-id="3e7c3-109">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="3e7c3-109">_lpulFlags_</span></span>
   
-> <span data-ttu-id="6a3ae-110">排除一个指针, 指向用于控制所发生的处理类型的标志的位掩码。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-110">[out] A pointer to a bitmask of flags that controls the type of processing that occurs.</span></span> <span data-ttu-id="6a3ae-111">可以设置以下标志:</span><span class="sxs-lookup"><span data-stu-id="6a3ae-111">The following flags can be set:</span></span>
+> <span data-ttu-id="3e7c3-110">排除一个指针, 指向用于控制所发生的处理类型的标志的位掩码。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-110">[out] A pointer to a bitmask of flags that controls the type of processing that occurs.</span></span> <span data-ttu-id="3e7c3-111">可以设置以下标志:</span><span class="sxs-lookup"><span data-stu-id="3e7c3-111">The following flags can be set:</span></span>
     
-<span data-ttu-id="6a3ae-112">NEEDS_PREPROCESSING</span><span class="sxs-lookup"><span data-stu-id="6a3ae-112">NEEDS_PREPROCESSING</span></span> 
+<span data-ttu-id="3e7c3-112">NEEDS_PREPROCESSING</span><span class="sxs-lookup"><span data-stu-id="3e7c3-112">NEEDS_PREPROCESSING</span></span> 
   
-> <span data-ttu-id="6a3ae-113">邮件在发送之前需要进行预处理。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-113">The message needs to be preprocessed before it is sent.</span></span>
+> <span data-ttu-id="3e7c3-113">邮件在发送之前需要进行预处理。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-113">The message needs to be preprocessed before it is sent.</span></span>
     
-<span data-ttu-id="6a3ae-114">NEEDS_SPOOLER</span><span class="sxs-lookup"><span data-stu-id="6a3ae-114">NEEDS_SPOOLER</span></span> 
+<span data-ttu-id="3e7c3-114">NEEDS_SPOOLER</span><span class="sxs-lookup"><span data-stu-id="3e7c3-114">NEEDS_SPOOLER</span></span> 
   
-> <span data-ttu-id="6a3ae-115">MAPI 后台处理程序 (而不是呼叫者紧密耦合的传输提供程序) 必须发送邮件。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-115">The MAPI spooler (rather than the transport provider to which the caller is tightly coupled) must send the message.</span></span>
+> <span data-ttu-id="3e7c3-115">MAPI 后台处理程序 (而不是呼叫者紧密耦合的传输提供程序) 必须发送邮件。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-115">The MAPI spooler (rather than the transport provider to which the caller is tightly coupled) must send the message.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="6a3ae-116">返回值</span><span class="sxs-lookup"><span data-stu-id="6a3ae-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3e7c3-116">返回值</span><span class="sxs-lookup"><span data-stu-id="3e7c3-116">Return value</span></span>
 
-<span data-ttu-id="6a3ae-117">S_OK</span><span class="sxs-lookup"><span data-stu-id="6a3ae-117">S_OK</span></span> 
+<span data-ttu-id="3e7c3-117">S_OK</span><span class="sxs-lookup"><span data-stu-id="3e7c3-117">S_OK</span></span> 
   
-> <span data-ttu-id="6a3ae-118">已成功处理邮件的收件人列表。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-118">The message's recipient list was successfully processed.</span></span>
+> <span data-ttu-id="3e7c3-118">已成功处理邮件的收件人列表。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-118">The message's recipient list was successfully processed.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="6a3ae-119">注解</span><span class="sxs-lookup"><span data-stu-id="6a3ae-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3e7c3-119">说明</span><span class="sxs-lookup"><span data-stu-id="3e7c3-119">Remarks</span></span>
 
-<span data-ttu-id="6a3ae-120">为邮件存储提供程序支持对象实现了**IMAPISupport:: ExpandRecips**方法。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-120">The **IMAPISupport::ExpandRecips** method is implemented for message store provider support objects.</span></span> <span data-ttu-id="6a3ae-121">邮件存储提供程序调用**ExpandRecips**以提示 MAPI 执行以下任务:</span><span class="sxs-lookup"><span data-stu-id="6a3ae-121">Message store providers call **ExpandRecips** to prompt MAPI to perform the following tasks:</span></span> 
+<span data-ttu-id="3e7c3-120">为邮件存储提供程序支持对象实现了**IMAPISupport:: ExpandRecips**方法。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-120">The **IMAPISupport::ExpandRecips** method is implemented for message store provider support objects.</span></span> <span data-ttu-id="3e7c3-121">邮件存储提供程序调用**ExpandRecips**以提示 MAPI 执行以下任务:</span><span class="sxs-lookup"><span data-stu-id="3e7c3-121">Message store providers call **ExpandRecips** to prompt MAPI to perform the following tasks:</span></span> 
   
-- <span data-ttu-id="6a3ae-122">将某些个人通讯组列表展开到其组件收件人。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-122">Expand certain personal distribution lists to their component recipients.</span></span>
+- <span data-ttu-id="3e7c3-122">将某些个人通讯组列表展开到其组件收件人。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-122">Expand certain personal distribution lists to their component recipients.</span></span>
     
-- <span data-ttu-id="6a3ae-123">使用原始名称替换已更改的所有显示名称。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-123">Replace all display names that have been changed with the original names.</span></span>
+- <span data-ttu-id="3e7c3-123">使用原始名称替换已更改的所有显示名称。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-123">Replace all display names that have been changed with the original names.</span></span>
     
-- <span data-ttu-id="6a3ae-124">标记任何重复条目。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-124">Mark any duplicate entries.</span></span>
+- <span data-ttu-id="3e7c3-124">标记任何重复条目。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-124">Mark any duplicate entries.</span></span>
     
-- <span data-ttu-id="6a3ae-125">解决所有的一次性地址。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-125">Resolve all one-off addresses.</span></span> 
+- <span data-ttu-id="3e7c3-125">解决所有的一次性地址。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-125">Resolve all one-off addresses.</span></span> 
     
-- <span data-ttu-id="6a3ae-126">检查邮件是否需要进行预处理, 如果有, 则将_lpulFlags_指向 NEEDS_PREPROCESSING 的标志设置为 ""。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-126">Check whether the message needs preprocessing and, if it does, set the flag pointed to by  _lpulFlags_ to NEEDS_PREPROCESSING.</span></span> 
+- <span data-ttu-id="3e7c3-126">检查邮件是否需要进行预处理, 如果有, 则将_lpulFlags_指向 NEEDS_PREPROCESSING 的标志设置为 ""。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-126">Check whether the message needs preprocessing and, if it does, set the flag pointed to by  _lpulFlags_ to NEEDS_PREPROCESSING.</span></span> 
     
- <span data-ttu-id="6a3ae-127">**ExpandRecips**展开邮件地址类型为 MAPIPDL 的任何通讯组列表。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-127">**ExpandRecips** expands any distribution lists that have the messaging address type of MAPIPDL.</span></span> 
+ <span data-ttu-id="3e7c3-127">**ExpandRecips**展开邮件地址类型为 MAPIPDL 的任何通讯组列表。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-127">**ExpandRecips** expands any distribution lists that have the messaging address type of MAPIPDL.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="6a3ae-128">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="6a3ae-128">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="3e7c3-128">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="3e7c3-128">Notes to callers</span></span>
 
-<span data-ttu-id="6a3ae-129">始终在邮件处理过程中调用**ExpandRecips** 。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-129">Always call **ExpandRecips** as part of your message processing.</span></span> <span data-ttu-id="6a3ae-130">调用[IMessage:: SubmitMessage](imessage-submitmessage.md)方法实现中的第一个调用的**ExpandRecips** 。</span><span class="sxs-lookup"><span data-stu-id="6a3ae-130">Make a call to **ExpandRecips** one of the first calls in your [IMessage::SubmitMessage](imessage-submitmessage.md) method implementation.</span></span> 
+<span data-ttu-id="3e7c3-129">始终在邮件处理过程中调用**ExpandRecips** 。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-129">Always call **ExpandRecips** as part of your message processing.</span></span> <span data-ttu-id="3e7c3-130">调用[IMessage:: SubmitMessage](imessage-submitmessage.md)方法实现中的第一个调用的**ExpandRecips** 。</span><span class="sxs-lookup"><span data-stu-id="3e7c3-130">Make a call to **ExpandRecips** one of the first calls in your [IMessage::SubmitMessage](imessage-submitmessage.md) method implementation.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="6a3ae-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6a3ae-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3e7c3-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3e7c3-131">See also</span></span>
 
 
 
-[<span data-ttu-id="6a3ae-132">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="6a3ae-132">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
+[<span data-ttu-id="3e7c3-132">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="3e7c3-132">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
   
-[<span data-ttu-id="6a3ae-133">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="6a3ae-133">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="3e7c3-133">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3e7c3-133">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 

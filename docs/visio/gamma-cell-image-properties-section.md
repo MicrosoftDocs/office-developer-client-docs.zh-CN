@@ -10,30 +10,30 @@ localization_priority: Normal
 ms.assetid: 3dcaee26-391c-0494-4380-890ee825dc47
 description: 调整或校正图像的亮度，使之适合特定的输出设备，如监视器或扫描仪等。默认值为 1（不校正）。
 ms.openlocfilehash: d00eb11ff1feffacf0d758bb25cdd56281e91327
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315202"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409011"
 ---
-# <a name="gamma-cell-image-properties-section"></a><span data-ttu-id="468db-104">Gamma 单元格（“Image Properties”内容）</span><span class="sxs-lookup"><span data-stu-id="468db-104">Gamma Cell (Image Properties Section)</span></span>
+# <a name="gamma-cell-image-properties-section"></a><span data-ttu-id="104e4-104">Gamma 单元格（“Image Properties”内容）</span><span class="sxs-lookup"><span data-stu-id="104e4-104">Gamma Cell (Image Properties Section)</span></span>
 
-<span data-ttu-id="468db-p102">调整或校正图像的亮度，使之适合特定的输出设备，如监视器或扫描仪等。默认值为 1（不校正）。</span><span class="sxs-lookup"><span data-stu-id="468db-p102">Adjusts or corrects the intensity of an image for a particular output device, such as a monitor or scanner. The default value is 1 (no correction).</span></span>
+<span data-ttu-id="104e4-p102">调整或校正图像的亮度，使之适合特定的输出设备，如监视器或扫描仪等。默认值为 1（不校正）。</span><span class="sxs-lookup"><span data-stu-id="104e4-p102">Adjusts or corrects the intensity of an image for a particular output device, such as a monitor or scanner. The default value is 1 (no correction).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="468db-107">注解</span><span class="sxs-lookup"><span data-stu-id="468db-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="104e4-107">说明</span><span class="sxs-lookup"><span data-stu-id="104e4-107">Remarks</span></span>
 
-<span data-ttu-id="468db-108">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Gamma 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="468db-108">To get a reference to the Gamma cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="104e4-108">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Gamma 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="104e4-108">To get a reference to the Gamma cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="468db-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="468db-109">Cell name:</span></span>  <br/> | <span data-ttu-id="468db-110">Gamma</span><span class="sxs-lookup"><span data-stu-id="468db-110">Gamma</span></span>  <br/> |
+| <span data-ttu-id="104e4-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="104e4-109">Cell name:</span></span>  <br/> | <span data-ttu-id="104e4-110">Gamma</span><span class="sxs-lookup"><span data-stu-id="104e4-110">Gamma</span></span>  <br/> |
    
-<span data-ttu-id="468db-111">要从某个程序按索引获取对 Gamma 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="468db-111">To get a reference to the Gamma cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="104e4-111">要从某个程序按索引获取对 Gamma 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="104e4-111">To get a reference to the Gamma cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="468db-112">内容索引：</span><span class="sxs-lookup"><span data-stu-id="468db-112">Section index:</span></span>  <br/> |<span data-ttu-id="468db-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="468db-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="468db-114">行索引：</span><span class="sxs-lookup"><span data-stu-id="468db-114">Row index:</span></span>  <br/> |<span data-ttu-id="468db-115">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="468db-115">**visRowImage**</span></span> <br/> |
-| <span data-ttu-id="468db-116">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="468db-116">Cell index:</span></span>  <br/> |<span data-ttu-id="468db-117">**visImageGamma**</span><span class="sxs-lookup"><span data-stu-id="468db-117">**visImageGamma**</span></span> <br/> |
+| <span data-ttu-id="104e4-112">内容索引：</span><span class="sxs-lookup"><span data-stu-id="104e4-112">Section index:</span></span>  <br/> |<span data-ttu-id="104e4-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="104e4-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="104e4-114">行索引：</span><span class="sxs-lookup"><span data-stu-id="104e4-114">Row index:</span></span>  <br/> |<span data-ttu-id="104e4-115">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="104e4-115">**visRowImage**</span></span> <br/> |
+| <span data-ttu-id="104e4-116">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="104e4-116">Cell index:</span></span>  <br/> |<span data-ttu-id="104e4-117">**visImageGamma**</span><span class="sxs-lookup"><span data-stu-id="104e4-117">**visImageGamma**</span></span> <br/> |
    
 
