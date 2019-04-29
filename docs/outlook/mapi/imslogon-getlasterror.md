@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3e296f6d-4833-4c68-9b84-df0b09878474
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 472502d0f033370b06a69596944350152ab794f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317295"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425874"
 ---
 # <a name="imslogongetlasterror"></a>IMSLogon::GetLastError
 
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用**IMSLogon:: GetLastError**方法检索信息, 以供用户显示在邮件中, 以便与邮件存储对象的方法调用中返回的最后一个错误有关。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5a16e62b-9d33-41cd-af2b-9abd403b6f2e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0f0523c01e163b57d9ed37d9b324ec858adbd685
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280118"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426070"
 ---
 # <a name="imapifolderdeletemessages"></a>IMAPIFolder::DeleteMessages
 
@@ -72,7 +72,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 呼叫成功, 但未成功删除所有邮件。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFolder::D eletemessages**方法删除文件夹中的邮件。 不存在、已移动到其他位置、以读/写权限打开, 或当前已提交的邮件无法被删除。 
   
@@ -84,7 +84,7 @@ MAPI_W_PARTIAL_COMPLETION
 
 在下列情况下, 需要这些返回值。
   
-|**Condition**|**返回值**|
+|**条件**|**返回值**|
 |:-----|:-----|
 |**DeleteMessages**已成功删除每封邮件。  <br/> |S_OK  <br/> |
 |**DeleteMessages**无法成功删除每个邮件和子文件夹。  <br/> |MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND  <br/> |

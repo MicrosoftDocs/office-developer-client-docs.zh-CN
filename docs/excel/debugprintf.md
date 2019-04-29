@@ -10,17 +10,17 @@ keywords:
 - debugprintf 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 08bde61573874c137b18856fd24d23b324a35328
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311002"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424796"
 ---
 # <a name="debugprintf"></a>debugPrintf
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 通过 Windows SDK 函数**OutputDebugStringA**将以 null 结尾的字节字符串写入活动调试器的框架库函数。 如果应用程序没有调试器, 系统调试器将显示字符串。 如果应用程序没有调试器且系统调试器未处于活动状态, 则**debugPrintf**不会执行任何操作。 
   

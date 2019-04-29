@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 35cd57b4-9901-456c-bf06-1f84e274eb4e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9663a25a50d914f47cff48124898d16318bbbc43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330217"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425895"
 ---
 # <a name="adrparm"></a>ADRPARM
 
@@ -160,7 +160,7 @@ DIALOG_SDI
   
 > 指向一个**SRestriction**结构的指针, 该结构限制可提供要在对话框中显示的地址条目的通讯簿容器。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端和服务提供程序使用**ADRPARM**结构控制 MAPI 常用地址对话框的外观和行为。 "地址" 对话框有两种种类: 无模式和模式。 **ADRPARM**结构中的某些成员适用于对话框的两个版本, 但有些仅适用于这两个版本之一。 下表将**ADRPARM**结构的成员与公用地址对话框的使用关联起来。 
   

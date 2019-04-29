@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 714f99e2-80fc-4785-b707-611d8a6c229f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: ad2732f2f8dba4f506318a1b6faefb617a60584a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328516"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427995"
 ---
 # <a name="property-entries-in-mapisvcinf-message-service-sections"></a>mapisvc.inf 邮件服务部分中的属性条目
 

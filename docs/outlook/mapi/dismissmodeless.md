@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ef93ef3d-c159-40ae-9b8d-0af8a0567565
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: dd962515a85cb6a4b8661a0fd5294cea55cd6e96
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339772"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428184"
 ---
 # <a name="dismissmodeless"></a>DISMISSMODELESS
 
@@ -54,7 +54,7 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
 
 无
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当客户端应用程序调用无模式通讯簿对话框时, 它将在其 Windows 消息循环中包含对基于[ACCELERATEABSDI](accelerateabsdi.md)原型 (检查和处理加速键) 的函数的调用。 当对话框关闭时, MAPI 将调用基于**DISMISSMODELESS**的函数, 以便客户端应用程序将停止调用基于**ACCELERATEABSDI**的函数。 
   

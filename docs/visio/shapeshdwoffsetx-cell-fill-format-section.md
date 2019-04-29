@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a426f471-d35f-ef87-4c59-2c007ec2653f
 description: 确定形状的阴影与该形状水平偏移的距离（按页面单位）。
 ms.openlocfilehash: 5c3f994f0ceba84c86585a76c7a67667a0c20a53
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349124"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426483"
 ---
 # <a name="shapeshdwoffsetx-cell-fill-format-section"></a>ShapeShdwOffsetX 单元格（“Fill Format”内容）
 
 确定形状的阴影与该形状水平偏移的距离（按页面单位）。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此值对应于 **“阴影”** 对话框（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“阴影”**，然后单击 **“阴影选项”**）中的 **“X 轴偏移”** 设置中的值。
   

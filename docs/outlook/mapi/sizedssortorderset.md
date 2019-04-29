@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f0b9c2f4-7011-414d-8e6c-ab22893ef132
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 60a335f85eea8778580e0bd74693a5c28591103c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282626"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428604"
 ---
 # <a name="sizedssortorderset"></a>SizedSSortOrderSet
 
@@ -44,7 +44,7 @@ __名称_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用**SizedSSortOrderSet**宏创建具有显式边界的排序次序集。 
   
