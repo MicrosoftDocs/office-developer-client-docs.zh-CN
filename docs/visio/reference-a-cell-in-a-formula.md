@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0766ad21-0415-c23d-407c-497fb8f9aaca
 description: ''
 ms.openlocfilehash: 6ba8d9ed2a91418e1e01283e6a9f66254d42235e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348375"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424642"
 ---
 # <a name="reference-a-cell-in-a-formula"></a>在公式中引用单元格
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4202cafc-9011-406d-90b3-8dabf531c90b
 description: 指定要用于 SMTP 帐户的身份验证方法。
 ms.openlocfilehash: bb5adeb1fe73ed8b7ab69ca584215b44e1a9e4b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326500"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434639"
 ---
 # <a name="propsmtpauthmethod"></a>PROP_SMTP_AUTH_METHOD
 
@@ -27,7 +27,7 @@ ms.locfileid: "32326500"
 |属性标记：  <br/> |0x02080003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 该值是以下常量的位掩码。 有关其值, 请参阅[常量 (帐户管理 API)](constants-account-management-api.md) 。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f4846dc3-0236-44ed-a1b1-8c13d48fb58a
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: c3c4ac10003aad8949de94e0f144410af10078b1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309567"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437236"
 ---
 # <a name="iprofadmincopyprofile"></a>IProfAdmin::CopyProfile
 
@@ -85,7 +85,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IProfAdmin:: CopyProfile**方法创建由_lpszOldProfileName_指向的配置文件的副本, 并为其提供_lpszNewProfileName_指向的名称。 复制配置文件会保留副本与原始文件相同的密码。
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6c5bb383-f8e2-4d79-bcf2-aa86c130e8b1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f8d4fb6b8cd7ad0ebf1e7660a0f3c0602274fa10
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335733"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425440"
 ---
 # <a name="errornotification"></a>ERROR_NOTIFICATION
 
@@ -68,7 +68,7 @@ MAPI_UNICODE
   
 > 指向描述错误的[MAPIERROR](mapierror.md)结构的指针。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ERROR_NOTIFICATION**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 当**通知**结构的**info**成员包含**ERROR_NOTIFICATION**结构时,**通知**结构的**ulEventType**成员将设置为_fnevCriticalError_。
   

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: c01e95bb-be25-490d-880b-60674f890258
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cdf1eae945cddf9eb76a2b7a2532d5dc6568beac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328530"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422703"
 ---
 # <a name="property-identifier-ranges"></a>属性标识符范围
 
@@ -23,7 +23,7 @@ ms.locfileid: "32328530"
   
 下表汇总了属性标识符的不同范围, 描述了每个范围中的属性的所有者。
   
-|**标识符范围**|**Description**|
+|**标识符范围**|**说明**|
 |:-----|:-----|
 |0000  <br/> |由 MAPI 为特殊值**PR_NULL**保留。  <br/> |
 |0001-0BFF  <br/> |由 MAPI 定义的邮件信封属性。  <br/> |

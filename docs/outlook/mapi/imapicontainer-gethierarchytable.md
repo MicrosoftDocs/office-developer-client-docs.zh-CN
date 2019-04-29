@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d0c54092-86a3-47e0-8133-72e119e74b65
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: efc7f7a2fa703004afe361d766e0209ba40ffe46
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286937"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426196"
 ---
 # <a name="imapicontainergethierarchytable"></a>IMAPIContainer::GetHierarchyTable
 
@@ -74,7 +74,7 @@ MAPI_E_NO_SUPPORT
   
 > 容器没有子容器, 无法提供层次结构表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIContainer:: GetHierarchyTable**方法返回指向容器的层次结构表的指针。 层次结构表包含容器中的子容器的摘要信息。 文件夹层次结构表保留有关子文件夹的信息;通讯簿层次结构表格保存有关子通讯簿容器和通讯组列表的信息。 
   

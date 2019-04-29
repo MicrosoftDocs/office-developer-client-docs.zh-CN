@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 59fe0887-2092-4fad-ea38-2aba354f3b92
 description: 切换选中形状的打印状态 - 启用或禁用。
 ms.openlocfilehash: c3e1fc1b2d91fa4808f8ea89c904218c2236f5b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357230"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437257"
 ---
 # <a name="nonprinting-cell-miscellaneous-section"></a>NonPrinting 单元格（“Miscellaneous”内容）
 
 切换选中形状的打印状态 - 启用或禁用。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 禁用打印，但形状将显示在绘图窗口中。  <br/> |
 | FALSE  <br/> | 启用打印。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以通过先选中参考线，再将其 NonPrinting 单元格的值设置为 FALSE 来打印参考线。
   

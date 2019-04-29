@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d33e7c45-55d8-4dc1-ade9-605542d87e61
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 77ecea47e06be88770dd3450a2a395cd9db30b7f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326647"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423830"
 ---
 # <a name="pidtagautoconfigurationuserpassword-canonical-property"></a>PidTagAutoConfigurationUserPassword Canonical Property
 

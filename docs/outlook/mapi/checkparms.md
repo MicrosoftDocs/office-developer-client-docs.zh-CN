@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 328f12f0-e4e7-407f-8eb8-0d4bf543962d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ffa1b596b2f60bce35f24df8a20326502be8165a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331799"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422276"
 ---
 # <a name="checkparms"></a>CheckParms
 
@@ -56,7 +56,7 @@ S_OK
   
 > 调用成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 与[ValidateParms](validateparms.md)和[UlValidateParms](ulvalidateparms.md)宏相反, **CheckParms**宏不执行完整参数验证。 假定在 MAPI 和服务提供程序之间传递的参数是正确的, 因此**CheckParms**仅执行调试验证。 
   

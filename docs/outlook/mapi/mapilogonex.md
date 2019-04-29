@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 98091e5b-1abd-4814-9c7a-583b420ee11d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9f2ec8f0ec00f7314982e9b112415f69901c358c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346646"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424117"
 ---
 # <a name="mapilogonex"></a>MAPILogonEx
 
@@ -135,7 +135,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 客户端应用程序调用 MAPILogonEx 函数, 以登录到邮件系统的会话。 传入和返回 MAPI 调用的所有字符串都以空值终止, 并且必须在当前的字符集或调用客户端或提供程序的操作系统的 "代码" 页中指定。
   

@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: ab9fcebc-1550-3b9e-e3b4-e8b92424390b
 description: 确定前景页中的形状是否与该页中的其他对象和背景页中的形状对齐。
 ms.openlocfilehash: 665130e9f9f938349028ffa1d1c06224e746de5d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335320"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426749"
 ---
 # <a name="inhibitsnap-cell-page-properties-section"></a>InhibitSnap 单元格（“Page Properties”内容）
 
 确定前景页中的形状是否与该页中的其他对象和背景页中的形状对齐。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 除对齐标尺和网格外，不对齐该页中的任何对象。  <br/> |
 | FALSE  <br/> | 启用对齐。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 InhibitSnap 单元格的引用，请使用： 
   

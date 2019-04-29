@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a335dfca-44da-452e-b16f-25d314b1758f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: ca42e91528cdb7e61ae3620989c4a89966db1061
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349278"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424607"
 ---
 # <a name="imessagegetrecipienttable"></a>IMessage::GetRecipientTable
 
@@ -58,7 +58,7 @@ S_OK
   
 > 已成功返回收件人表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMessage:: GetRecipientTable**方法返回指向邮件的收件人表的指针, 其中包含有关邮件的所有收件人的信息。 每个收件人都有一个行。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ac31cf65-a2bc-4c8e-91a4-d2903aa98776
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 08b9b954f856d64214947d81cf700adee42bcce4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357482"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435920"
 ---
 # <a name="sccopynotifications"></a>ScCopyNotifications
 
@@ -70,7 +70,7 @@ E_INVALIDARG
   
 > 遇到无效的通知。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果在_pcb_参数中传递了 NULL 值, 则不会执行任何复制;如果在_pcb_中传递一个非 null 值, 则**ScCopyNotifications**函数会将数组和数组本身的大小复制到单个内存块。 如果_pcb_不为 NULL, 则将其设置为_pvDst_参数中存储的字节数。 _pvDst_参数的大小必须足以包含整个数组。 
   

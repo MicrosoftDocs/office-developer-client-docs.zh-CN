@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 124a5ee1-6dd1-d17d-6f0e-dbaa5d95d9cd
 description: 确定项目符号的样式。
 ms.openlocfilehash: 03b7d046cd42458b614313c19b2100259730539c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338169"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422766"
 ---
 # <a name="bullet-cell-paragraph-section"></a>Bullet 单元格（“Paragraph”内容）
 
@@ -37,7 +37,7 @@ ms.locfileid: "32338169"
 |行索引：  <br/> |**visRowParagraph** +  *i* = ** 0、1、2 .。。  <br/> |
 |单元格索引：  <br/> |**visBulletIndex** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以通过以下方法设置此单元格的值：右键单击形状，指向 **“格式”**，单击 **“文本”**，然后单击 **“项目符号”** 选项卡。 
   

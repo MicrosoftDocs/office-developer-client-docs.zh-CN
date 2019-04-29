@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: b2405457-843c-0d46-5f4f-9c413826c3f1
 description: 确定该行是否为不是弹出子菜单的上一行的弹出子菜单。
 ms.openlocfilehash: 85524ea33258449f5c9ee0991ac9a64f8f0eebae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346149"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420862"
 ---
 # <a name="flyoutchild-cell-actions-section"></a>FlyoutChild 单元格（“Actions”内容）
 
 确定该行是否为不是弹出子菜单的上一行的弹出子菜单。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 FlyoutChild 单元格的引用，请使用以下内容。 
   

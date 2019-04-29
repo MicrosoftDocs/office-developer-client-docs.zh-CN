@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b86242f3-dfd7-398e-a054-93db85b69752
 description: 返回 accountsendstamp。
 ms.openlocfilehash: d860a117e4ab5470f84ff1807cb6246cd852d24b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327606"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423004"
 ---
 # <a name="propacctsendstamp"></a>PROP_ACCT_SEND_STAMP
 
@@ -29,7 +29,7 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x000E001F  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用[IOlkAccount:: GetProp](iolkaccount-getprop.md)获取此属性。 如果客户端尝试设置此属性, 则此属性返回**E_OLK_PROP_READ_ONLY**。 
   

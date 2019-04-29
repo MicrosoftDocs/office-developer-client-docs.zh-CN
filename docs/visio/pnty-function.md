@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8436cbe6-e0f6-ddbb-9489-21027e31bd51
 description: 返回点的 y 坐标。
 ms.openlocfilehash: 39f71dccd95602fe9578d09e941f360c82c48a3e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348291"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423312"
 ---
 # <a name="pnty-function"></a>PNTY 函数
 
@@ -32,7 +32,7 @@ PNTX (* **点** *)
    
 ### <a name="return-value"></a>返回值
 
-帐号
+数字
   
 ## <a name="example"></a>示例
 

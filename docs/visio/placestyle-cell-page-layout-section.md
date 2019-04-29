@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 7dcd5a35-bd3d-447f-e4aa-986091d129de
 description: 确定在“配置布局”对话框（在“设计”选项卡上的“布局”组中，单击“重新布局页面”，然后单击“其他布局选项”）中排放形状时如何在页面上放置这些形状。
 ms.openlocfilehash: b3159b765922d6656d12dd42a377322e4a91fc04
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346863"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420799"
 ---
 # <a name="placestyle-cell-page-layout-section"></a>PlaceStyle 单元格（“Page Layout”内容）
 
 确定在 **“配置布局”** 对话框（在 **“设计”** 选项卡上的 **“布局”** 组中，单击 **“重新布局页面”**，然后单击 **“其他布局选项”**）中排放形状时如何在页面上放置这些形状。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 还可以在 **“配置布局”** 对话框中设置此单元格的值。 
   

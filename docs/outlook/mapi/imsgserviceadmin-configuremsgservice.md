@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a08f5905-2585-49ca-abb7-a77f2736f604
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 87ac394f9ab77b092cdfcd44f65b040a039319e7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317407"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422185"
 ---
 # <a name="imsgserviceadminconfiguremsgservice"></a>IMsgServiceAdmin::ConfigureMsgService
 
@@ -97,7 +97,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击属性表中的 "**取消**" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgServiceAdmin:: ConfigureMsgService**方法允许使用或不使用配置属性表来配置邮件服务。 
   

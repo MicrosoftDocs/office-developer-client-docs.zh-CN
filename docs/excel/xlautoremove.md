@@ -10,17 +10,17 @@ keywords:
 - xlautoremove 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: fff0de4d-605d-49e6-a5be-a000410c09d8
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: af8bd2d44883b1820be42b82d4fe4794fa29caab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310281"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425475"
 ---
 # <a name="xlautoremove"></a>xlAutoRemove
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 当用户使用外接程序管理器在 excel 会话期间停用 XLL 时, 由 Microsoft Excel 调用。 如果在已安装加载项的情况下 Excel 会话正常或异常关闭，则不会调用此函数。
   

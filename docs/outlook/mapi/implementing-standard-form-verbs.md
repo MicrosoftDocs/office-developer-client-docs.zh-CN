@@ -9,11 +9,11 @@ api_type:
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6360b86dc23a5404b818f76cb1c2cd10747ef3cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317442"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426119"
 ---
 # <a name="implementing-standard-form-verbs"></a>实现标准窗体谓词
 
@@ -28,7 +28,7 @@ MAPI 定义了一组标准谓词, 或在用户做出菜单选择或单击按钮 
 |打开  <br/> |EXCHIVERB_OPEN  <br/> |
 |回复  <br/> |EXCHIVERB_REPLYTOSENDER  <br/> |
 |全部答复  <br/> |EXCHIVERB_REPLYTOALL  <br/> |
-|Forward  <br/> |EXCHIVERB_FORWARD  <br/> |
+|前后  <br/> |EXCHIVERB_FORWARD  <br/> |
 |Print  <br/> |EXCHIVERB_PRINT  <br/> |
 |另存为  <br/> |EXCHIVERB_SAVEAS  <br/> |
 |答复到文件夹  <br/> |EXCHIVERB_REPLYTOFOLDER  <br/> |

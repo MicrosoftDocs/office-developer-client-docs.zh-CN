@@ -13,11 +13,11 @@ api_type:
 ms.assetid: aae41f1b-19bb-40c7-8564-0c87a5a4e47c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b6900cbacc2bea6c5519efdc4281ca98629b23bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355676"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425671"
 ---
 # <a name="pidtagmessagesecuritylabel-canonical-property"></a>PidTagMessageSecurityLabel 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32355676"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性提供**PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) 属性保护邮件的基础。 令牌会保证它与邮件内容的关联。
   

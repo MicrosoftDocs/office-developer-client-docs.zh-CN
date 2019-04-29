@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: 49816e46-fa83-3ee4-1451-9c85fbd0f519
 description: 显示形状的当前调整大小行为设置。
 ms.openlocfilehash: 7e9080fcd4604e2dbdc1dae31992f05e5b512213
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326878"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421961"
 ---
 # <a name="resizemode-cell-shape-transform-section"></a>ResizeMode 单元格（“Shape Transform”内容）
 
 显示形状的当前调整大小行为设置。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |使用组合的设置。  <br/> |**visXFormResizeDontCare** <br/> |
 |1  <br/> |仅重定位。  <br/> |**visXFormResizeSpread** <br/> |
 |双面  <br/> |和组合一起缩放。  <br/> |**visXFormResizeScale** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 "**行为**" 对话框 (在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中, 单击 "**行为**") 中的 "**行为**" 选项卡上设置此值。 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ResizeMode 单元格的引用，请使用： 
   
