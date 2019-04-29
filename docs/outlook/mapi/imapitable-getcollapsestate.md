@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fd4ea496-4c83-49cd-854e-f373cc1ed2af
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 97575a65cd6825e07d6f11c813beec539f99f53a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328923"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436074"
 ---
 # <a name="imapitablegetcollapsestate"></a>IMAPITable::GetCollapseState
 
@@ -73,7 +73,7 @@ MAPI_E_NO_SUPPORT
   
 > 该表不支持分类和展开和折叠视图。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **imapitable:: GetCollapseState**方法与[imapitable:: SetCollapseState](imapitable-setcollapsestate.md)方法一起使用, 以更改用户的已分类表的视图。 **GetCollapseState**保存**SetCollapseState**所需的数据, 以重建已分类表的类别的相应视图。 服务提供商确定要保存的数据。 但是, 大多数实现**GetCollapseState**的服务提供程序都会保存以下内容: 
   

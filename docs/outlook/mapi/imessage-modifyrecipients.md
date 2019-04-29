@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 07e1c2104068a6eb242e8ba81f91655edaa92cd8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349257"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426238"
 ---
 # <a name="imessagemodifyrecipients"></a>IMessage::ModifyRecipients
 
@@ -62,7 +62,7 @@ S_OK
   
 > 已成功修改收件人列表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMessage:: ModifyRecipients**方法更改邮件的收件人列表。 它来自此列表, 并保留在[ADRLIST](adrlist.md)结构中, 收件人表已建立。 
   

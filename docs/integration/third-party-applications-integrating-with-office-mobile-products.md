@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 3ae2fc01-73a6-4d0c-a056-fe65d7fd7159
 description: 生效日期：2015 年 6 月 1 日
 ms.openlocfilehash: cf8d962e1ffa059f9dfbdbea0244f08bed2c8cb4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299830"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427505"
 ---
 # <a name="third-party-applications-integrating-with-office-mobile-products-on-windows-android-and-ios"></a>与 Windows、Android 和 iOS 上的 Office 移动产品集成的第三方应用程序
  

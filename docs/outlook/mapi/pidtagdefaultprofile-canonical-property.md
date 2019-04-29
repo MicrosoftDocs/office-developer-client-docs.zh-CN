@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 47f745a4-5a9c-42af-b076-a72548ef4d31
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8295ae6904f503ca831a00c1f35ac08596b5358c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269998"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428772"
 ---
 # <a name="pidtagdefaultprofile-canonical-property"></a>PidTagDefaultProfile 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32269998"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性不显示为任何对象的属性, 而只作为配置文件表中的一列。 客户端应用程序可以使用[IProfAdmin:: SetDefaultProfile](iprofadmin-setdefaultprofile.md)方法来指定默认配置文件。 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3519216b-b6cf-2e8c-e20f-adfa373c9028
 description: 指示线端形状是圆形、方形还是扩展式。
 ms.openlocfilehash: 44de4bff87fd3d121dfce9eec934ec39bc61065a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359316"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425195"
 ---
 # <a name="linecap-cell-line-format-section"></a>LineCap 单元格（“Line Format”内容）
 
@@ -26,7 +26,7 @@ ms.locfileid: "32359316"
 |1  <br/> |正方形  <br/> |
 |双面  <br/> |扩展  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 **“线条”** 对话框中设置此单元格的值（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“线条”**，指向 **“箭头”**，然后单击 **“其他箭头”**）。
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 09385b75-ec0e-4dde-b9c3-9ade4a7a2b74
 description: 返回指定表达式的指数值。
 ms.openlocfilehash: 30777c41005dfcf1caad896e9e60f0bcfd9d4361
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308195"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436410"
 ---
 # <a name="exp-function-access-custom-web-app"></a>Exp 函数 (Access 自定义 web 应用程序)
 
@@ -31,7 +31,7 @@ ms.locfileid: "32308195"
 |:-----|:-----|
 | *NumericExpression*  <br/> |一种类型为 double 的表达式, 或可隐式转换为双精度型的类型的表达式。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 常量**e** (2.718281 ...) 是自然对数的底数。 
   

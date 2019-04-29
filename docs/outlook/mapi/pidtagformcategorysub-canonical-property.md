@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0e654152-c850-417a-8877-29d47cf85db5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3b15cd27f6852f28e9dac113f6c45942de40ebbe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316266"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428786"
 ---
 # <a name="pidtagformcategorysub-canonical-property"></a>PidTagFormCategorySub 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32316266"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性从属于在**PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)) 属性中提供的主窗体类别。 
   

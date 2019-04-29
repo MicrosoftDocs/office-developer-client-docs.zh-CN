@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: dfdf1068caaab3894b1b489d53ccc8debe1b3a29
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316477"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436207"
 ---
 # <a name="rtfsync"></a>RTFSync
 
@@ -65,7 +65,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果**PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) 属性缺失或为 FALSE, 则在读取**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性之前, 应使用 RTFSync 调用**RTF_SYNC_BODY_** 函数已更改的标志集。 
   

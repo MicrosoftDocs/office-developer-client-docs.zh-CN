@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d276c122-6326-75a7-220c-6a78e94e0db0
 description: 执行 OLE 对象的动作。
 ms.openlocfilehash: c339d03a00afdf7f777bb0624ddb8fa75f277e05
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301489"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435660"
 ---
 # <a name="dooleverb-function"></a>DOOLEVERB 函数
 
@@ -30,7 +30,7 @@ DOOLEVERB ("* * *verb* * *")
 |:-----|:-----|:-----|:-----|
 | _动词_ <br/> |必需  <br/> |**String** <br/> |要执行的动作。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在 Visio 的早期版本中，此函数以 _DOOLEVERB 的形式出现。Visio 4.0 版和更高版本接受这两种样式中的任意一种。 
   

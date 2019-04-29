@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 44c11a0b-abca-4ea8-8770-f5c1375d8d76
 description: 将两个表达式组合在一起, 并在两个表达式均为 true 时返回 true。
 ms.openlocfilehash: 247b15b9f8039d06d08c0ce9b2fcb443e3212350
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270173"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426280"
 ---
 # <a name="and-access-custom-web-app"></a>和 (Access 自定义 web 应用程序)
 
@@ -28,7 +28,7 @@ ms.locfileid: "32270173"
 
 如果两个表达式均为 true, 则返回 true。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当在一个语句中使用多个逻辑运算符时, 先计算 AND 运算符。 您可以使用括号更改求值的顺序。
   

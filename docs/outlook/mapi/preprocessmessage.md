@@ -13,11 +13,11 @@ api_type:
 ms.assetid: dda50325-74b3-445e-986e-115f6536561f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a3982520cb1c745874a938962ece075a294b6257
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351378"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437243"
 ---
 # <a name="preprocessmessage"></a>PreprocessMessage
 
@@ -96,7 +96,7 @@ S_OK
   
 > 邮件内容已成功预处理。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 传输提供程序消息预处理器可在邮件预处理过程中显示进度指示器。 但是, 它决不应显示在邮件预处理过程中需要用户交互的对话框。 
   

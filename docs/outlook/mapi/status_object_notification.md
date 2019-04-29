@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2872130d-a36b-46ea-bfd1-4700fe3dd41b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 84b44b4b054a2b2617502a6a463a6d4a89546804
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336440"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426266"
 ---
 # <a name="statusobjectnotification"></a>STATUS_OBJECT_NOTIFICATION
 
@@ -60,7 +60,7 @@ typedef struct
   
 > 指向描述更改的状态对象的属性的**SPropValue**结构数组的指针。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **STATUS_OBJECT_NOTIFICATION**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 **STATUS_OBJECT_NOTIFICATION**结构包含在_fnevStatusObjectModified_类型的事件的状态对象通知中。 Status 对象通知是一个内部 MAPI 通知;客户端和服务提供商无法注册它, 服务提供商无法生成它。
   

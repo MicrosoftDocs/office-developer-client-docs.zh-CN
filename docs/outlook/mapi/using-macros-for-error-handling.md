@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 351405ca-b72b-4e9e-bc8e-947344588970
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9e6901d6583e7a7924a4a7c19c0a262bcef74bd3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329656"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435563"
 ---
 # <a name="using-macros-for-error-handling"></a>使用宏进行错误处理
 
@@ -29,7 +29,7 @@ ms.locfileid: "32329656"
   
 常用的宏将在下表中简要说明。
   
-|**宏**|**Description**|
+|**宏**|**说明**|
 |:-----|:-----|
 |**MAKE_HRESULT** <br/> |从其组件构造 HRESULT。  <br/> |
 |**HR_SUCCEEDED** <br/> |测试 HRESULT 的成功或警告条件。  <br/> |

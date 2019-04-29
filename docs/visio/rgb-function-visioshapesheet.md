@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f6b9f65c-6752-16cb-7eb1-44e1ce56e80b
 description: 返回一个值, 该值代表文档调色板中的索引。 它通过它的红色、绿色和蓝色分量指定颜色, 其中每个是范围为0到 255 (含) 的数字, 或者是计算结果为此类数字的表达式。
 ms.openlocfilehash: 34f9c2f2043afe6144feba561e545dc7be35a5a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326738"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426301"
 ---
 # <a name="rgb-function-visioshapesheet"></a>RGB 函数 (VisioShapeSheet)
 
@@ -34,15 +34,15 @@ RGB (* * *red* * *、* **绿色** *、* **蓝** *)
    
 ### <a name="return-value"></a>返回值
 
-帐号
+数字
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果由该函数返回的颜色在当前文档的调色板中尚不存在，则它将添加到调色板中。
   
 下表列出了一些标准颜色，以及它们的红、绿和蓝值。
   
-|**Color**|**红值**|**绿值**|**蓝值**|
+|**颜色**|**红值**|**绿值**|**蓝值**|
 |:-----|:-----|:-----|:-----|
 |黑色  <br/> |0  <br/> |0  <br/> |0  <br/> |
 |蓝色  <br/> |0  <br/> |0  <br/> |255  <br/> |

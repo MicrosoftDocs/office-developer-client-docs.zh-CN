@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: c599b444-4d0e-a855-b04b-dd9dcaedf263
 description: 确定文本块的上边界和它包含的第一行文本之间的距离。默认值是 4.0000 磅。此值与绘图比例无关。即使对绘图比例进行了调整，上边距仍保持不变。
 ms.openlocfilehash: 97d349fd4ddc3c76cda61e1ee7ce25909161e6fa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280922"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435570"
 ---
 # <a name="topmargin-cell-text-block-format-section"></a>TopMargin 单元格（“Text Block Format”内容）
 
 确定文本块的上边界和它包含的第一行文本之间的距离。默认值是 4.0000 磅。此值与绘图比例无关。即使对绘图比例进行了调整，上边距仍保持不变。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 TopMargin 单元格的引用，请使用： 
   
