@@ -8,38 +8,38 @@ keywords:
 - xll 函数 [excel 2007], 从 "替换" 对话框中调用 "替换" 对话框 [excel 2007], 调用 xll 函数, 函数向导 [excel 2007], 调用 xll 函数, XLL 函数 [excel 2007], 从函数向导调用
 localization_priority: Normal
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 11189beed13e2ceb99ef04b7a2f966cb4171915c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304016"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410747"
 ---
-# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a><span data-ttu-id="e0e7a-104">通过 "函数向导" 或 "替换" 对话框调用 XLL 函数</span><span class="sxs-lookup"><span data-stu-id="e0e7a-104">Call XLL Functions from the Function Wizard or Replace Dialog Boxes</span></span>
+# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a><span data-ttu-id="cfa02-104">通过 "函数向导" 或 "替换" 对话框调用 XLL 函数</span><span class="sxs-lookup"><span data-stu-id="cfa02-104">Call XLL Functions from the Function Wizard or Replace Dialog Boxes</span></span>
 
- <span data-ttu-id="e0e7a-105">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="e0e7a-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="cfa02-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="cfa02-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="e0e7a-106">在工作簿的正常重新计算过程中, 如果计算受宏的控制, Microsoft Excel 通常会在正常的工作簿重新计算过程中调用 XLL 函数。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-106">Microsoft Excel usually calls XLL functions during the normal recalculation of the workbook, or a part of it if the calculation is under the control of a macro.</span></span> <span data-ttu-id="e0e7a-107">请记住, 函数可能不驻留在单元格公式中, 但可能是命名区域定义的一部分, 或者是条件格式表达式的一部分。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-107">Remember that the function might not reside in a cell formula but might be part of a named range definition, or a conditional formatting expression.</span></span>
+<span data-ttu-id="cfa02-106">在工作簿的正常重新计算过程中, 如果计算受宏的控制, Microsoft Excel 通常会在正常的工作簿重新计算过程中调用 XLL 函数。</span><span class="sxs-lookup"><span data-stu-id="cfa02-106">Microsoft Excel usually calls XLL functions during the normal recalculation of the workbook, or a part of it if the calculation is under the control of a macro.</span></span> <span data-ttu-id="cfa02-107">请记住, 函数可能不驻留在单元格公式中, 但可能是命名区域定义的一部分, 或者是条件格式表达式的一部分。</span><span class="sxs-lookup"><span data-stu-id="cfa02-107">Remember that the function might not reside in a cell formula but might be part of a named range definition, or a conditional formatting expression.</span></span>
   
-<span data-ttu-id="e0e7a-108">在以下两种情况下, 可以从 Excel 对话框中调用函数。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-108">There are two circumstances where a function can be called from an Excel dialog box.</span></span> <span data-ttu-id="e0e7a-109">一个是 "**粘贴函数参数**" 对话框, 用户可以在其中一次构造一个参数的函数调用。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-109">One is the **Paste Function Arguments** dialog box, where users are able to construct a function call one argument at a time.</span></span> <span data-ttu-id="e0e7a-110">另一种情况是在修改公式时, Excel 在 "**替换**" 对话框中 reentered。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-110">The other is when formulas are being modified and reentered by Excel in the **Replace** dialog box.</span></span> <span data-ttu-id="e0e7a-111">对于 "**粘贴函数参数**" 对话框, 您可能不希望您的函数正常执行。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-111">For the **Paste Function Arguments** dialog box, you might not want your function to execute normally.</span></span> <span data-ttu-id="e0e7a-112">这可能是因为执行时间较长, 而您不希望减慢对话框的使用。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-112">This may be because it takes a long time to execute and you do not want to slow down the use of the dialog box.</span></span> 
+<span data-ttu-id="cfa02-108">在以下两种情况下, 可以从 Excel 对话框中调用函数。</span><span class="sxs-lookup"><span data-stu-id="cfa02-108">There are two circumstances where a function can be called from an Excel dialog box.</span></span> <span data-ttu-id="cfa02-109">一个是 "**粘贴函数参数**" 对话框, 用户可以在其中一次构造一个参数的函数调用。</span><span class="sxs-lookup"><span data-stu-id="cfa02-109">One is the **Paste Function Arguments** dialog box, where users are able to construct a function call one argument at a time.</span></span> <span data-ttu-id="cfa02-110">另一种情况是在修改公式时, Excel 在 "**替换**" 对话框中 reentered。</span><span class="sxs-lookup"><span data-stu-id="cfa02-110">The other is when formulas are being modified and reentered by Excel in the **Replace** dialog box.</span></span> <span data-ttu-id="cfa02-111">对于 "**粘贴函数参数**" 对话框, 您可能不希望您的函数正常执行。</span><span class="sxs-lookup"><span data-stu-id="cfa02-111">For the **Paste Function Arguments** dialog box, you might not want your function to execute normally.</span></span> <span data-ttu-id="cfa02-112">这可能是因为执行时间较长, 而您不希望减慢对话框的使用。</span><span class="sxs-lookup"><span data-stu-id="cfa02-112">This may be because it takes a long time to execute and you do not want to slow down the use of the dialog box.</span></span> 
   
-<span data-ttu-id="e0e7a-113">"**粘贴函数**" 对话框和 "**替换**" 对话框都具有 Windows 类名**bosa_sdm_XL**n, 其中 n 是一个数字。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-113">Both the **Paste Function** dialog box and the **Replace** dialog box have the Windows class name **bosa_sdm_XL**n, where n is a number.</span></span> <span data-ttu-id="e0e7a-114">windows 提供了 API 函数**GetClassName**, 该函数可从 Windows 句柄 (HWND 变量类型) 中获取此名称。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-114">Windows provides an API function, **GetClassName**, that obtains this name from a Windows handle, an HWND variable type.</span></span> <span data-ttu-id="e0e7a-115">它还提供了另一个函数**EnumWindows**, 它为当前打开的每个顶级窗口调用一次提供的回调函数 (在 DLL 中)。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-115">It also provides another function, **EnumWindows**, that calls a supplied callback function (within your DLL) once for every top-level window that is currently open.</span></span>
+<span data-ttu-id="cfa02-113">"**粘贴函数**" 对话框和 "**替换**" 对话框都具有 Windows 类名**bosa_sdm_XL**n, 其中 n 是一个数字。</span><span class="sxs-lookup"><span data-stu-id="cfa02-113">Both the **Paste Function** dialog box and the **Replace** dialog box have the Windows class name **bosa_sdm_XL**n, where n is a number.</span></span> <span data-ttu-id="cfa02-114">windows 提供了 API 函数**GetClassName**, 该函数可从 Windows 句柄 (HWND 变量类型) 中获取此名称。</span><span class="sxs-lookup"><span data-stu-id="cfa02-114">Windows provides an API function, **GetClassName**, that obtains this name from a Windows handle, an HWND variable type.</span></span> <span data-ttu-id="cfa02-115">它还提供了另一个函数**EnumWindows**, 它为当前打开的每个顶级窗口调用一次提供的回调函数 (在 DLL 中)。</span><span class="sxs-lookup"><span data-stu-id="cfa02-115">It also provides another function, **EnumWindows**, that calls a supplied callback function (within your DLL) once for every top-level window that is currently open.</span></span>
   
-<span data-ttu-id="e0e7a-116">回调函数需要执行以下步骤:</span><span class="sxs-lookup"><span data-stu-id="e0e7a-116">The callback function needs to perform only the following steps:</span></span>
+<span data-ttu-id="cfa02-116">回调函数需要执行以下步骤:</span><span class="sxs-lookup"><span data-stu-id="cfa02-116">The callback function needs to perform only the following steps:</span></span>
   
-1. <span data-ttu-id="e0e7a-117">检查此窗口的父级是否为 Excel 的当前实例 (如果有多个实例正在运行)。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-117">Check if the parent of this window is the current instance of Excel (in case there are multiple instances running).</span></span>
+1. <span data-ttu-id="cfa02-117">检查此窗口的父级是否为 Excel 的当前实例 (如果有多个实例正在运行)。</span><span class="sxs-lookup"><span data-stu-id="cfa02-117">Check if the parent of this window is the current instance of Excel (in case there are multiple instances running).</span></span>
     
-2. <span data-ttu-id="e0e7a-118">从 Windows 传入的句柄中获取类名称。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-118">Get the class name from the handle passed in by Windows.</span></span>
+2. <span data-ttu-id="cfa02-118">从 Windows 传入的句柄中获取类名称。</span><span class="sxs-lookup"><span data-stu-id="cfa02-118">Get the class name from the handle passed in by Windows.</span></span>
     
-3. <span data-ttu-id="e0e7a-119">检查类名的格式是否为**bosa_sdm_XL**n。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-119">Check if the class name is of the form **bosa_sdm_XL**n.</span></span>
+3. <span data-ttu-id="cfa02-119">检查类名的格式是否为**bosa_sdm_XL**n。</span><span class="sxs-lookup"><span data-stu-id="cfa02-119">Check if the class name is of the form **bosa_sdm_XL**n.</span></span>
     
-4. <span data-ttu-id="e0e7a-120">如果需要区分这两个对话框, 请检查对话框标题中是否包含一些标识文本。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-120">If you need to distinguish between the two dialog boxes, check if the dialog box title contains some identifying text.</span></span> <span data-ttu-id="e0e7a-121">窗口标题是使用 Windows API 调用**GetWindowText**获取的。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-121">The window title is obtained using the Windows API call **GetWindowText**.</span></span>
+4. <span data-ttu-id="cfa02-120">如果需要区分这两个对话框, 请检查对话框标题中是否包含一些标识文本。</span><span class="sxs-lookup"><span data-stu-id="cfa02-120">If you need to distinguish between the two dialog boxes, check if the dialog box title contains some identifying text.</span></span> <span data-ttu-id="cfa02-121">窗口标题是使用 Windows API 调用**GetWindowText**获取的。</span><span class="sxs-lookup"><span data-stu-id="cfa02-121">The window title is obtained using the Windows API call **GetWindowText**.</span></span>
     
-<span data-ttu-id="e0e7a-122">下面的 c + + 代码显示了要传递到执行这些步骤的 Windows 的类和回调。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-122">The following C++ code shows a class and callback to be passed to Windows that performs these steps.</span></span> <span data-ttu-id="e0e7a-123">这由针对相关对话框中的任一对话框调用 test 的函数调用。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-123">This is called by the functions that call test specifically for either of the dialog boxes concerned.</span></span> 
+<span data-ttu-id="cfa02-122">下面的 c + + 代码显示了要传递到执行这些步骤的 Windows 的类和回调。</span><span class="sxs-lookup"><span data-stu-id="cfa02-122">The following C++ code shows a class and callback to be passed to Windows that performs these steps.</span></span> <span data-ttu-id="cfa02-123">这由针对相关对话框中的任一对话框调用 test 的函数调用。</span><span class="sxs-lookup"><span data-stu-id="cfa02-123">This is called by the functions that call test specifically for either of the dialog boxes concerned.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="e0e7a-124">将来的 Excel 版本的窗口标题可能会更改, 并使此代码无效。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-124">Window titles of future Excel versions might change and invalidate this code.</span></span> <span data-ttu-id="e0e7a-125">另请注意, 将**window_title_text**设置为**NULL**会对回调搜索中忽略窗口标题产生的影响。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-125">Note also that setting **window_title_text** to **NULL** has the effect of ignoring window title in the callback search.</span></span> 
+> <span data-ttu-id="cfa02-124">将来的 Excel 版本的窗口标题可能会更改, 并使此代码无效。</span><span class="sxs-lookup"><span data-stu-id="cfa02-124">Window titles of future Excel versions might change and invalidate this code.</span></span> <span data-ttu-id="cfa02-125">另请注意, 将**window_title_text**设置为**NULL**会对回调搜索中忽略窗口标题产生的影响。</span><span class="sxs-lookup"><span data-stu-id="cfa02-125">Note also that setting **window_title_text** to **NULL** has the effect of ignoring window title in the callback search.</span></span> 
   
 ```cs
 #define CLASS_NAME_BUFFSIZE  50
@@ -98,7 +98,7 @@ BOOL CALLBACK xldlg_enum_proc(HWND hwnd, xldlg_enum_struct *p_enum)
 }
 ```
 
-<span data-ttu-id="e0e7a-126">"**粘贴函数**" 对话框没有标题, 因此下面的函数将 "" 的搜索标题字符串 (即空字符串) 传递给回调, 以指示匹配条件是窗口不应具有标题。</span><span class="sxs-lookup"><span data-stu-id="e0e7a-126">The **Paste Function** dialog box does not have a title, so the following function passes a search title string of "", that is, an empty string, to the callback to indicate that the match condition is that the window should not have a title.</span></span> 
+<span data-ttu-id="cfa02-126">"**粘贴函数**" 对话框没有标题, 因此下面的函数将 "" 的搜索标题字符串 (即空字符串) 传递给回调, 以指示匹配条件是窗口不应具有标题。</span><span class="sxs-lookup"><span data-stu-id="cfa02-126">The **Paste Function** dialog box does not have a title, so the following function passes a search title string of "", that is, an empty string, to the callback to indicate that the match condition is that the window should not have a title.</span></span> 
   
 ```cs
 bool called_from_paste_fn_dlg(void)
@@ -115,13 +115,13 @@ bool called_from_paste_fn_dlg(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="e0e7a-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e0e7a-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cfa02-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cfa02-127">See also</span></span>
 
 
 
-[<span data-ttu-id="e0e7a-128">在 Excel 中访问 XLL 代码</span><span class="sxs-lookup"><span data-stu-id="e0e7a-128">Accessing XLL Code in Excel</span></span>](accessing-xll-code-in-excel.md)
+[<span data-ttu-id="cfa02-128">在 Excel 中访问 XLL 代码</span><span class="sxs-lookup"><span data-stu-id="cfa02-128">Accessing XLL Code in Excel</span></span>](accessing-xll-code-in-excel.md)
   
-[<span data-ttu-id="e0e7a-129">从 DLL 或 XLL 调用 Excel</span><span class="sxs-lookup"><span data-stu-id="e0e7a-129">Calling into Excel from the DLL or XLL</span></span>](calling-into-excel-from-the-dll-or-xll.md)
+[<span data-ttu-id="cfa02-129">从 DLL 或 XLL 调用 Excel</span><span class="sxs-lookup"><span data-stu-id="cfa02-129">Calling into Excel from the DLL or XLL</span></span>](calling-into-excel-from-the-dll-or-xll.md)
   
-[<span data-ttu-id="e0e7a-130">开发 Excel XLL</span><span class="sxs-lookup"><span data-stu-id="e0e7a-130">Developing Excel XLLs</span></span>](developing-excel-xlls.md)
+[<span data-ttu-id="cfa02-130">开发 Excel XLL</span><span class="sxs-lookup"><span data-stu-id="cfa02-130">Developing Excel XLLs</span></span>](developing-excel-xlls.md)
 

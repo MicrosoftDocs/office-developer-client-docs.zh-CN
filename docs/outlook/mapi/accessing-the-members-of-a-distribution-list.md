@@ -9,26 +9,26 @@ api_type:
 ms.assetid: f724cac8-2d5d-42bc-a15e-99f77a99ce21
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 2944a53d27bc916ccafcfa649d79e3c00afaf622
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331239"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412385"
 ---
-# <a name="accessing-the-members-of-a-distribution-list"></a><span data-ttu-id="26f7f-103">访问通讯组列表的成员</span><span class="sxs-lookup"><span data-stu-id="26f7f-103">Accessing the Members of a Distribution List</span></span>
+# <a name="accessing-the-members-of-a-distribution-list"></a><span data-ttu-id="6eda8-103">访问通讯组列表的成员</span><span class="sxs-lookup"><span data-stu-id="6eda8-103">Accessing the Members of a Distribution List</span></span>
 
   
   
-<span data-ttu-id="26f7f-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="26f7f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6eda8-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6eda8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="26f7f-105">**获取通讯组列表的成员**</span><span class="sxs-lookup"><span data-stu-id="26f7f-105">**To get the members of a distribution list**</span></span>
+ <span data-ttu-id="6eda8-105">**获取通讯组列表的成员**</span><span class="sxs-lookup"><span data-stu-id="6eda8-105">**To get the members of a distribution list**</span></span>
   
-1. <span data-ttu-id="26f7f-106">使用要检索的成员的属性创建大小的属性标记数组, 如**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))、 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 和**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))。</span><span class="sxs-lookup"><span data-stu-id="26f7f-106">Create a sized property tag array with the properties of the members you would like to retrieve, such as **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), and **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).</span></span>
+1. <span data-ttu-id="6eda8-106">使用要检索的成员的属性创建大小的属性标记数组, 如**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))、 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 和**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))。</span><span class="sxs-lookup"><span data-stu-id="6eda8-106">Create a sized property tag array with the properties of the members you would like to retrieve, such as **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), and **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).</span></span>
     
-2. <span data-ttu-id="26f7f-107">调用[IAddrBook:: OpenEntry](iaddrbook-openentry.md)以打开通讯组列表。</span><span class="sxs-lookup"><span data-stu-id="26f7f-107">Call [IAddrBook::OpenEntry](iaddrbook-openentry.md) to open the distribution list.</span></span> 
+2. <span data-ttu-id="6eda8-107">调用[IAddrBook:: OpenEntry](iaddrbook-openentry.md)以打开通讯组列表。</span><span class="sxs-lookup"><span data-stu-id="6eda8-107">Call [IAddrBook::OpenEntry](iaddrbook-openentry.md) to open the distribution list.</span></span> 
     
-3. <span data-ttu-id="26f7f-108">调用通讯组列表的**IABContainer:: GetContentsTable**方法以访问其内容表。</span><span class="sxs-lookup"><span data-stu-id="26f7f-108">Call the distribution list's **IABContainer::GetContentsTable** method to access its contents table.</span></span> 
+3. <span data-ttu-id="6eda8-108">调用通讯组列表的**IABContainer:: GetContentsTable**方法以访问其内容表。</span><span class="sxs-lookup"><span data-stu-id="6eda8-108">Call the distribution list's **IABContainer::GetContentsTable** method to access its contents table.</span></span> 
     
-4. <span data-ttu-id="26f7f-109">调用[HrQueryAllRows](hrqueryallrows.md)以检索表示通讯组列表成员的所有表的行。</span><span class="sxs-lookup"><span data-stu-id="26f7f-109">Call [HrQueryAllRows](hrqueryallrows.md) to retrieve all of the table's rows representing the members of the distribution list.</span></span> 
+4. <span data-ttu-id="6eda8-109">调用[HrQueryAllRows](hrqueryallrows.md)以检索表示通讯组列表成员的所有表的行。</span><span class="sxs-lookup"><span data-stu-id="6eda8-109">Call [HrQueryAllRows](hrqueryallrows.md) to retrieve all of the table's rows representing the members of the distribution list.</span></span> 
     
 
