@@ -13,52 +13,52 @@ api_type:
 ms.assetid: 54361b61-de14-4409-b120-7a01a401be49
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3dba77dbd7f50693656ba5c74fcd1dd167a23d5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331708"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436767"
 ---
-# <a name="pidtagcontactaddressbookfolderentryid-canonical-property"></a><span data-ttu-id="30dbc-103">PidTagContactAddressBookFolderEntryId 规范属性</span><span class="sxs-lookup"><span data-stu-id="30dbc-103">PidTagContactAddressBookFolderEntryId Canonical Property</span></span>
+# <a name="pidtagcontactaddressbookfolderentryid-canonical-property"></a><span data-ttu-id="22b3f-103">PidTagContactAddressBookFolderEntryId 规范属性</span><span class="sxs-lookup"><span data-stu-id="22b3f-103">PidTagContactAddressBookFolderEntryId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="30dbc-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="30dbc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="22b3f-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="22b3f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="30dbc-105">包含邮件存储区中的 "联系人" 文件夹的标识符, 邮件用户将保留在其中。</span><span class="sxs-lookup"><span data-stu-id="30dbc-105">Contains an identifier for the Contacts folder in the message store where mail users are kept.</span></span> 
+<span data-ttu-id="22b3f-105">包含邮件存储区中的 "联系人" 文件夹的标识符, 邮件用户将保留在其中。</span><span class="sxs-lookup"><span data-stu-id="22b3f-105">Contains an identifier for the Contacts folder in the message store where mail users are kept.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="30dbc-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="30dbc-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="30dbc-107">PR_CONTAB_FOLDER_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="30dbc-107">PR_CONTAB_FOLDER_ENTRYID</span></span>  <br/> |
-|<span data-ttu-id="30dbc-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="30dbc-108">Identifier:</span></span>  <br/> |<span data-ttu-id="30dbc-109">0x6610</span><span class="sxs-lookup"><span data-stu-id="30dbc-109">0x6610</span></span>  <br/> |
-|<span data-ttu-id="30dbc-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="30dbc-110">Data type:</span></span>  <br/> |<span data-ttu-id="30dbc-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="30dbc-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="30dbc-112">区域：</span><span class="sxs-lookup"><span data-stu-id="30dbc-112">Area:</span></span>  <br/> |<span data-ttu-id="30dbc-113">联系人通讯簿</span><span class="sxs-lookup"><span data-stu-id="30dbc-113">Contact address book</span></span>  <br/> |
+|<span data-ttu-id="22b3f-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="22b3f-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="22b3f-107">PR_CONTAB_FOLDER_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="22b3f-107">PR_CONTAB_FOLDER_ENTRYID</span></span>  <br/> |
+|<span data-ttu-id="22b3f-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="22b3f-108">Identifier:</span></span>  <br/> |<span data-ttu-id="22b3f-109">0x6610</span><span class="sxs-lookup"><span data-stu-id="22b3f-109">0x6610</span></span>  <br/> |
+|<span data-ttu-id="22b3f-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="22b3f-110">Data type:</span></span>  <br/> |<span data-ttu-id="22b3f-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="22b3f-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="22b3f-112">区域：</span><span class="sxs-lookup"><span data-stu-id="22b3f-112">Area:</span></span>  <br/> |<span data-ttu-id="22b3f-113">联系人通讯簿</span><span class="sxs-lookup"><span data-stu-id="22b3f-113">Contact address book</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="30dbc-114">注解</span><span class="sxs-lookup"><span data-stu-id="30dbc-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="22b3f-114">说明</span><span class="sxs-lookup"><span data-stu-id="22b3f-114">Remarks</span></span>
 
-<span data-ttu-id="30dbc-115">这是联系人通讯簿容器的属性, 以及联系人通讯簿容器表中的列。</span><span class="sxs-lookup"><span data-stu-id="30dbc-115">This is a property on a Contact Address Book container, and a column in the table of Contact Address Book containers.</span></span>
+<span data-ttu-id="22b3f-115">这是联系人通讯簿容器的属性, 以及联系人通讯簿容器表中的列。</span><span class="sxs-lookup"><span data-stu-id="22b3f-115">This is a property on a Contact Address Book container, and a column in the table of Contact Address Book containers.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="30dbc-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="30dbc-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="22b3f-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="22b3f-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="30dbc-117">头文件</span><span class="sxs-lookup"><span data-stu-id="30dbc-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="22b3f-117">头文件</span><span class="sxs-lookup"><span data-stu-id="22b3f-117">Header files</span></span>
 
-<span data-ttu-id="30dbc-118">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="30dbc-118">Mapidefs.h</span></span>
+<span data-ttu-id="22b3f-118">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="22b3f-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="30dbc-119">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="30dbc-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="22b3f-119">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="22b3f-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="30dbc-120">Mapitags</span><span class="sxs-lookup"><span data-stu-id="30dbc-120">Mapitags.h</span></span>
+<span data-ttu-id="22b3f-120">Mapitags</span><span class="sxs-lookup"><span data-stu-id="22b3f-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="30dbc-121">包含列为关联属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="30dbc-121">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="22b3f-121">包含列为关联属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="22b3f-121">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="30dbc-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="30dbc-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="22b3f-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="22b3f-122">See also</span></span>
 
 
 
-[<span data-ttu-id="30dbc-123">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="30dbc-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="22b3f-123">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="22b3f-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="30dbc-124">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="30dbc-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="22b3f-124">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="22b3f-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="30dbc-125">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="30dbc-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="22b3f-125">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="22b3f-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="30dbc-126">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="30dbc-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="22b3f-126">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="22b3f-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

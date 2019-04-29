@@ -8,33 +8,33 @@ localization_priority: Normal
 ms.assetid: 70b6ecc8-6be3-0f05-3291-ac5b7f2ecfdb
 description: 返回帐户戳。
 ms.openlocfilehash: fe3c6e65e12ab62bd1c2ec0245e4a22502f610eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327592"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408248"
 ---
-# <a name="propacctstamp"></a><span data-ttu-id="ab165-103">PROP_ACCT_STAMP</span><span class="sxs-lookup"><span data-stu-id="ab165-103">PROP_ACCT_STAMP</span></span>
+# <a name="propacctstamp"></a><span data-ttu-id="bd316-103">PROP_ACCT_STAMP</span><span class="sxs-lookup"><span data-stu-id="bd316-103">PROP_ACCT_STAMP</span></span>
 
-<span data-ttu-id="ab165-104">返回帐户戳。</span><span class="sxs-lookup"><span data-stu-id="ab165-104">Returns the account stamp.</span></span>
+<span data-ttu-id="bd316-104">返回帐户戳。</span><span class="sxs-lookup"><span data-stu-id="bd316-104">Returns the account stamp.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="ab165-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="ab165-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="bd316-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="bd316-105">Quick info</span></span>
 
-<span data-ttu-id="ab165-106">See [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="ab165-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="bd316-106">See [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="bd316-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ab165-107">标识符:</span><span class="sxs-lookup"><span data-stu-id="ab165-107">Identifier:</span></span>  <br/> |<span data-ttu-id="ab165-108">0x000D</span><span class="sxs-lookup"><span data-stu-id="ab165-108">0x000D</span></span>  <br/> |
-|<span data-ttu-id="ab165-109">属性类型</span><span class="sxs-lookup"><span data-stu-id="ab165-109">Property type:</span></span>  <br/> |<span data-ttu-id="ab165-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="ab165-110">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="ab165-111">属性标记：</span><span class="sxs-lookup"><span data-stu-id="ab165-111">Property tag:</span></span>  <br/> |<span data-ttu-id="ab165-112">0x000D001F</span><span class="sxs-lookup"><span data-stu-id="ab165-112">0x000D001F</span></span>  <br/> |
-|<span data-ttu-id="ab165-113">访问权限</span><span class="sxs-lookup"><span data-stu-id="ab165-113">Access:</span></span>  <br/> |<span data-ttu-id="ab165-114">只读</span><span class="sxs-lookup"><span data-stu-id="ab165-114">Read-only</span></span>  <br/> |
+|<span data-ttu-id="bd316-107">标识符:</span><span class="sxs-lookup"><span data-stu-id="bd316-107">Identifier:</span></span>  <br/> |<span data-ttu-id="bd316-108">0x000D</span><span class="sxs-lookup"><span data-stu-id="bd316-108">0x000D</span></span>  <br/> |
+|<span data-ttu-id="bd316-109">属性类型</span><span class="sxs-lookup"><span data-stu-id="bd316-109">Property type:</span></span>  <br/> |<span data-ttu-id="bd316-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="bd316-110">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="bd316-111">属性标记：</span><span class="sxs-lookup"><span data-stu-id="bd316-111">Property tag:</span></span>  <br/> |<span data-ttu-id="bd316-112">0x000D001F</span><span class="sxs-lookup"><span data-stu-id="bd316-112">0x000D001F</span></span>  <br/> |
+|<span data-ttu-id="bd316-113">访问权限</span><span class="sxs-lookup"><span data-stu-id="bd316-113">Access:</span></span>  <br/> |<span data-ttu-id="bd316-114">只读</span><span class="sxs-lookup"><span data-stu-id="bd316-114">Read-only</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ab165-115">注解</span><span class="sxs-lookup"><span data-stu-id="ab165-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd316-115">说明</span><span class="sxs-lookup"><span data-stu-id="bd316-115">Remarks</span></span>
 
-<span data-ttu-id="ab165-116">使用[IOlkAccount:: GetProp](iolkaccount-getprop.md)获取此属性。</span><span class="sxs-lookup"><span data-stu-id="ab165-116">Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md).</span></span> <span data-ttu-id="ab165-117">如果客户端尝试设置此属性, 则此属性返回**E_OLK_PROP_READ_ONLY**。</span><span class="sxs-lookup"><span data-stu-id="ab165-117">If the client attempts to set this property, this property returns **E_OLK_PROP_READ_ONLY**.</span></span> 
+<span data-ttu-id="bd316-116">使用[IOlkAccount:: GetProp](iolkaccount-getprop.md)获取此属性。</span><span class="sxs-lookup"><span data-stu-id="bd316-116">Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md).</span></span> <span data-ttu-id="bd316-117">如果客户端尝试设置此属性, 则此属性返回**E_OLK_PROP_READ_ONLY**。</span><span class="sxs-lookup"><span data-stu-id="bd316-117">If the client attempts to set this property, this property returns **E_OLK_PROP_READ_ONLY**.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="ab165-118">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ab165-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bd316-118">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bd316-118">See also</span></span>
 
-- [<span data-ttu-id="ab165-119">有关帐户管理 API</span><span class="sxs-lookup"><span data-stu-id="ab165-119">About the Account Management API</span></span>](about-the-account-management-api.md)  
-- [<span data-ttu-id="ab165-120">常量 （帐户管理 API）</span><span class="sxs-lookup"><span data-stu-id="ab165-120">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="bd316-119">有关帐户管理 API</span><span class="sxs-lookup"><span data-stu-id="bd316-119">About the Account Management API</span></span>](about-the-account-management-api.md)  
+- [<span data-ttu-id="bd316-120">常量 （帐户管理 API）</span><span class="sxs-lookup"><span data-stu-id="bd316-120">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

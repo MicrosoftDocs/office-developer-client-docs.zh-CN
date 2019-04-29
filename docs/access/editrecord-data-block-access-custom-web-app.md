@@ -7,50 +7,50 @@ localization_priority: Normal
 ms.assetid: 54975434-78b2-4010-b2f9-f277831fa92e
 description: 您可以使用 EditRecord 数据块更改现有记录中包含的值。
 ms.openlocfilehash: 0d9ef6c7689b44a0304309a7537e744eff97c809
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302518"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418342"
 ---
-# <a name="editrecord-data-block-access-custom-web-app"></a><span data-ttu-id="830d6-103">EditRecord 数据块 (Access 自定义 web 应用)</span><span class="sxs-lookup"><span data-stu-id="830d6-103">EditRecord Data Block (Access custom web app)</span></span>
+# <a name="editrecord-data-block-access-custom-web-app"></a><span data-ttu-id="b0be0-103">EditRecord 数据块 (Access 自定义 web 应用)</span><span class="sxs-lookup"><span data-stu-id="b0be0-103">EditRecord Data Block (Access custom web app)</span></span>
 
-<span data-ttu-id="830d6-104">您可以使用 **EditRecord** 数据块更改现有记录中包含的值。</span><span class="sxs-lookup"><span data-stu-id="830d6-104">You can use the **EditRecord** data block to change the values contained in an existing record.</span></span> 
+<span data-ttu-id="b0be0-104">您可以使用 **EditRecord** 数据块更改现有记录中包含的值。</span><span class="sxs-lookup"><span data-stu-id="b0be0-104">You can use the **EditRecord** data block to change the values contained in an existing record.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="830d6-p101">[!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="830d6-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="b0be0-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="b0be0-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="830d6-107">**EditRecord** 数据块仅适用于数据宏。</span><span class="sxs-lookup"><span data-stu-id="830d6-107">The **EditRecord** data block is available only in Data Macros.</span></span> 
+> <span data-ttu-id="b0be0-107">**EditRecord** 数据块仅适用于数据宏。</span><span class="sxs-lookup"><span data-stu-id="b0be0-107">The **EditRecord** data block is available only in Data Macros.</span></span> 
   
-## <a name="setting"></a><span data-ttu-id="830d6-108">Setting</span><span class="sxs-lookup"><span data-stu-id="830d6-108">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="b0be0-108">Setting</span><span class="sxs-lookup"><span data-stu-id="b0be0-108">Setting</span></span>
 
-<span data-ttu-id="830d6-109">**EditRecord** 数据块具有以下参数。</span><span class="sxs-lookup"><span data-stu-id="830d6-109">The **EditRecord** data block has the following arguments.</span></span> 
+<span data-ttu-id="b0be0-109">**EditRecord** 数据块具有以下参数。</span><span class="sxs-lookup"><span data-stu-id="b0be0-109">The **EditRecord** data block has the following arguments.</span></span> 
   
-|<span data-ttu-id="830d6-110">**参数**</span><span class="sxs-lookup"><span data-stu-id="830d6-110">**Argument**</span></span>|<span data-ttu-id="830d6-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="830d6-111">**Description**</span></span>|
+|<span data-ttu-id="b0be0-110">**参数**</span><span class="sxs-lookup"><span data-stu-id="b0be0-110">**Argument**</span></span>|<span data-ttu-id="b0be0-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="b0be0-111">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="830d6-112">**Alias**</span><span class="sxs-lookup"><span data-stu-id="830d6-112">**Alias**</span></span> <br/> |<span data-ttu-id="830d6-113">一个用于标识要编辑的记录的字符串。</span><span class="sxs-lookup"><span data-stu-id="830d6-113">A string that identifies the record to edit.</span></span> <span data-ttu-id="830d6-114">如果未指定*Alias*参数, 则编辑当前记录。</span><span class="sxs-lookup"><span data-stu-id="830d6-114">If the  *Alias*  argument is not specified, then the current record is edited.</span></span>  <br/> |
+|<span data-ttu-id="b0be0-112">**Alias**</span><span class="sxs-lookup"><span data-stu-id="b0be0-112">**Alias**</span></span> <br/> |<span data-ttu-id="b0be0-113">一个用于标识要编辑的记录的字符串。</span><span class="sxs-lookup"><span data-stu-id="b0be0-113">A string that identifies the record to edit.</span></span> <span data-ttu-id="b0be0-114">如果未指定*Alias*参数, 则编辑当前记录。</span><span class="sxs-lookup"><span data-stu-id="b0be0-114">If the  *Alias*  argument is not specified, then the current record is edited.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="830d6-115">注解</span><span class="sxs-lookup"><span data-stu-id="830d6-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b0be0-115">说明</span><span class="sxs-lookup"><span data-stu-id="b0be0-115">Remarks</span></span>
 
-<span data-ttu-id="830d6-116">在**EditRecord**语句之后, 您可以插入将在对记录的更改提交之前执行的命令块。</span><span class="sxs-lookup"><span data-stu-id="830d6-116">After the **EditRecord** statement, you can insert a block of commands that will execute before the changes to the record are committed.</span></span> <span data-ttu-id="830d6-117">可在**EditRecord**数据块中执行以下操作。</span><span class="sxs-lookup"><span data-stu-id="830d6-117">The following actions are available in an **EditRecord** data block.</span></span> 
+<span data-ttu-id="b0be0-116">在**EditRecord**语句之后, 您可以插入将在对记录的更改提交之前执行的命令块。</span><span class="sxs-lookup"><span data-stu-id="b0be0-116">After the **EditRecord** statement, you can insert a block of commands that will execute before the changes to the record are committed.</span></span> <span data-ttu-id="b0be0-117">可在**EditRecord**数据块中执行以下操作。</span><span class="sxs-lookup"><span data-stu-id="b0be0-117">The following actions are available in an **EditRecord** data block.</span></span> 
   
 ||
 |:-----|
-|[<span data-ttu-id="830d6-118">CancelRecordChange 宏操作</span><span class="sxs-lookup"><span data-stu-id="830d6-118">CancelRecordChange Macro Action</span></span>](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
-|[<span data-ttu-id="830d6-119">Comment 宏语句</span><span class="sxs-lookup"><span data-stu-id="830d6-119">Comment Macro Statement</span></span>](comment-macro-block-access-custom-web-app.md) <br/> |
-|[<span data-ttu-id="830d6-120">Group 宏语句</span><span class="sxs-lookup"><span data-stu-id="830d6-120">Group Macro Statement</span></span>](group-macro-block-access-custom-web-app.md) <br/> |
-|[<span data-ttu-id="830d6-121">If...Then...Else 宏语句</span><span class="sxs-lookup"><span data-stu-id="830d6-121">If...Then...Else Macro Statement</span></span>](ifthenelse-macro-block-access-custom-web-app.md) <br/> |
-|[<span data-ttu-id="830d6-122">SetField 宏操作</span><span class="sxs-lookup"><span data-stu-id="830d6-122">SetField Macro Action</span></span>](setfield-macro-action-access-custom-web-app.md) <br/> |
-|[<span data-ttu-id="830d6-123">SetLocalVar 宏操作</span><span class="sxs-lookup"><span data-stu-id="830d6-123">SetLocalVar Macro Action</span></span>](setlocalvar-macro-action-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="b0be0-118">CancelRecordChange 宏操作</span><span class="sxs-lookup"><span data-stu-id="b0be0-118">CancelRecordChange Macro Action</span></span>](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="b0be0-119">Comment 宏语句</span><span class="sxs-lookup"><span data-stu-id="b0be0-119">Comment Macro Statement</span></span>](comment-macro-block-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="b0be0-120">Group 宏语句</span><span class="sxs-lookup"><span data-stu-id="b0be0-120">Group Macro Statement</span></span>](group-macro-block-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="b0be0-121">If...Then...Else 宏语句</span><span class="sxs-lookup"><span data-stu-id="b0be0-121">If...Then...Else Macro Statement</span></span>](ifthenelse-macro-block-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="b0be0-122">SetField 宏操作</span><span class="sxs-lookup"><span data-stu-id="b0be0-122">SetField Macro Action</span></span>](setfield-macro-action-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="b0be0-123">SetLocalVar 宏操作</span><span class="sxs-lookup"><span data-stu-id="b0be0-123">SetLocalVar Macro Action</span></span>](setlocalvar-macro-action-access-custom-web-app.md) <br/> |
    
-<span data-ttu-id="830d6-124">使用 **SetField** 操作可以指定已编辑记录中某一字段的新值。</span><span class="sxs-lookup"><span data-stu-id="830d6-124">Use the **SetField** action to specify the new values of a field in the edited record.</span></span> 
+<span data-ttu-id="b0be0-124">使用 **SetField** 操作可以指定已编辑记录中某一字段的新值。</span><span class="sxs-lookup"><span data-stu-id="b0be0-124">Use the **SetField** action to specify the new values of a field in the edited record.</span></span> 
   
-<span data-ttu-id="830d6-125">可以使用**If .。。然后 .。。Else**语句来执行基于条件的操作。</span><span class="sxs-lookup"><span data-stu-id="830d6-125">You can use an **If...Then...Else** statement to perform operations based on a condition.</span></span> 
+<span data-ttu-id="b0be0-125">可以使用**If .。。然后 .。。Else**语句来执行基于条件的操作。</span><span class="sxs-lookup"><span data-stu-id="b0be0-125">You can use an **If...Then...Else** statement to perform operations based on a condition.</span></span> 
   
-<span data-ttu-id="830d6-p104">若要取消编辑记录，可使用 **CancelRecordChange** 操作。此操作将阻止提交更改并退出 **EditRecord** 数据块。</span><span class="sxs-lookup"><span data-stu-id="830d6-p104">To cancel the editing of a record, use the **CancelRecordChange** action. This prevents the changes from being committed and exits the **EditRecord** data block.</span></span> 
+<span data-ttu-id="b0be0-p104">若要取消编辑记录，可使用 **CancelRecordChange** 操作。此操作将阻止提交更改并退出 **EditRecord** 数据块。</span><span class="sxs-lookup"><span data-stu-id="b0be0-p104">To cancel the editing of a record, use the **CancelRecordChange** action. This prevents the changes from being committed and exits the **EditRecord** data block.</span></span> 
   
-<span data-ttu-id="830d6-128">您可以使用 **LastCreateRecordIdentity** 本地变量来处理在 **CreateRecord** 数据块中创建的最后一条记录。</span><span class="sxs-lookup"><span data-stu-id="830d6-128">You can use the **LastCreateRecordIdentity** local variable to work with last record created in a **CreateRecord** data block.</span></span> <span data-ttu-id="830d6-129">例如, 使用以下语法来引用最近创建的记录的 "分配给" 字段:</span><span class="sxs-lookup"><span data-stu-id="830d6-129">For example, use the following syntax to refer to the AssignedTo field of the most recently created record:</span></span> 
+<span data-ttu-id="b0be0-128">您可以使用 **LastCreateRecordIdentity** 本地变量来处理在 **CreateRecord** 数据块中创建的最后一条记录。</span><span class="sxs-lookup"><span data-stu-id="b0be0-128">You can use the **LastCreateRecordIdentity** local variable to work with last record created in a **CreateRecord** data block.</span></span> <span data-ttu-id="b0be0-129">例如, 使用以下语法来引用最近创建的记录的 "分配给" 字段:</span><span class="sxs-lookup"><span data-stu-id="b0be0-129">For example, use the following syntax to refer to the AssignedTo field of the most recently created record:</span></span> 
   
 `[LastCreateRecordIdentity].[AssignedTo]`
 
