@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8dbcb871-e133-4c98-91bd-b3a00b93bc0b
 description: 返回由应用程序定义的时区中的当前日期值
 ms.openlocfilehash: 46acc3776653d7b37b2c73776a0caec3e480e551
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307845"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422122"
 ---
 # <a name="today-function-access-custom-web-app"></a>Today 函数 (Access 自定义 web 应用程序)
 
@@ -25,7 +25,7 @@ ms.locfileid: "32307845"
 
  **今天**() 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **Now**函数与此类似, 但返回确切时间, 而**Today**返回所有日期的时间值 12:00:00 PM。 
   

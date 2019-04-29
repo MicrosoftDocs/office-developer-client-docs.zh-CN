@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7b396d9f-9a47-3170-367f-5d1f0144f927
 description: 数字签名是宏或文档中使用的基于加密的安全电子身份验证戳。有效的数字签名可确保数据是来自签名人，并且自签名后未发生更改。在对文档或文档中的特定数据进行签名时，将会对签名进行计算并将其添加到文档中。这样，签名就会与签名数据如影相随了。
 ms.openlocfilehash: 6c1f5a1c14c15bc88839dc44d9a5a595d8b52893
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300243"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425097"
 ---
 # <a name="digitally-signing-data-in-infopath-forms"></a>在 InfoPath 表单中进行数字签名
 

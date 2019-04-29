@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 4d3bdf77-0ad4-86a4-d215-1d5a5fbe33f7
 description: 指示是否可以自动拆分页面上的形状。
 ms.openlocfilehash: 18a40e0876b117556a1e7ab43f640e798dc248c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301482"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422017"
 ---
 # <a name="pageshapesplit-cell-page-layout-section"></a>PageShapeSplit 单元格（“Page Layout”内容）
 
 指示是否可以自动拆分页面上的形状。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |不允许自动拆分形状。  <br/> |**visPLOSplitNone** <br/> |
 |1  <br/> |允许自动拆分形状（默认值）。  <br/> |**visPLOSplitAllow** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 形状的自动拆分是在三个不同级别上启用和禁用的：应用程序、页面和形状。默认情况下，在应用程序和页面级别上启用拆分。形状的默认设置随绘图类型的不同而不同。 
   

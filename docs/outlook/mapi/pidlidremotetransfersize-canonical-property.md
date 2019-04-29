@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 853e8d91-b599-45bb-8ac7-f7a85e8a8419
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1b29a37920d65eff32bc84446f421ddb4c2fc0ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358478"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426945"
 ---
 # <a name="pidlidremotetransfersize-canonical-property"></a>PidLidRemoteTransferSize 规范属性
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 319f10e9-db8d-4d16-aa1f-6cf5fef493eb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4dfde82aa843072168288f4e0b0084dfccd5cd2b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338456"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427813"
 ---
 # <a name="imapisessioncompareentryids"></a>IMAPISession::CompareEntryIDs
 
@@ -74,7 +74,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 指定为参数的一个或两个条目标识符不引用对象, 这可能是因为这些对象当前未打开且不可用。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISession:: CompareEntryIDs**方法对属于单个服务提供程序的两个条目标识符进行比较, 以确定它们是否引用同一个对象。 MAPI 提取条目标识符中的[MAPIUID](mapiuid.md)部分, 以确定负责对象的服务提供程序, 然后调用其登录对象的**CompareEntryIDs**方法来执行比较。 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4d8d6a34-f884-40a4-b330-5c104d16cf97
 description: 将文本字符串插入另一个文本字符串。 它在起始位置删除第一个字符串中的指定长度的字符, 然后将第二个字符串插入到第一个字符串中的起始位置。
 ms.openlocfilehash: 591823952faa0d593b6db1f5bfb00cc68a894a8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311023"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427673"
 ---
 # <a name="stuff-function-access-custom-web-app"></a>内容功能 (Access 自定义 web 应用程序)
 
@@ -34,7 +34,7 @@ ms.locfileid: "32311023"
 | *Length*  <br/> |一个整数, 指定要删除的字符数。 如果 length 比第一个*IntoTextExpression*长, 则在最后一个*IntoTextExpression*中的最后一个字符处进行删除。  <br/> |
 | *ThisTextExpression*  <br/> |文本表达式 hat 指定要插入到*IntoTextExpression*中的文本。 此表达式将替换*IntoTextExpression*从*Start 开始*的长度字符。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果*Start*或*Length*参数为负, 或者起始位置大于第一个字符串的长度, 则返回 null 字符串。 如果起始位置为 0, 则返回 null 值。 如果要删除的长度超过第一个字符串, 将被删除为第一个字符串中的第一个字符。 
   

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: aa97cbaa-8b14-42e3-a098-938ebe0769eb
 description: 返回基于指定的年、月、日和时间的日期和时间。
 ms.openlocfilehash: ee995d346ca27e683f342cf3f611c1147997d24e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282139"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422087"
 ---
 # <a name="datewithtimefromparts-function-access-custom-web-app"></a>DateWithTimeFromParts 函数 (Access 自定义 web 应用程序)
 
@@ -35,7 +35,7 @@ ms.locfileid: "32282139"
 | *Minute*  <br/> |指定分钟的整数表达式。  <br/> |
 | *Second*  <br/> |指定秒的整数表达式。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DateWithTimeFromParts**返回完全初始化的日期/时间值。 如果参数无效, 则会引发错误。 如果必需的参数为 null, 则返回 null。 
   

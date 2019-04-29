@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 21aa28e1a2c11ee7361fb4921f8d527b3e3ceb44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280125"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424453"
 ---
 # <a name="imapifoldercopymessages"></a>IMAPIFolder::CopyMessages
 
@@ -90,7 +90,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 呼叫成功, 但未成功复制或移动所有条目。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFolder:: CopyMessages**方法将邮件复制或移动到另一个文件夹。 
   
@@ -116,7 +116,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 在下列情况下, 需要这些返回值。
   
-|**Condition**|**返回值**|
+|**条件**|**返回值**|
 |:-----|:-----|
 |**IMAPIFolder:: CopyMessages**已成功复制或移动每封邮件。  <br/> |S_OK  <br/> |
 |**IMAPIFolder:: CopyMessages**无法成功复制或移动每封邮件。  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |

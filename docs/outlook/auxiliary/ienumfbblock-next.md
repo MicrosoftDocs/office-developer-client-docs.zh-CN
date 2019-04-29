@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
 description: 获取枚举中的下一个指定数量的忙/闲数据块。
 ms.openlocfilehash: f6ec49a9bac6bcf4fff67991d55c7656f6c8cce2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319591"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422136"
 ---
 # <a name="ienumfbblocknext"></a>IEnumFBBlock::Next
 

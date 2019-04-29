@@ -13,11 +13,11 @@ api_type:
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c7f4e8835831af6277cef134bf3961e9928cba33
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326584"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433526"
 ---
 # <a name="spropvalue"></a>SPropValue
 
@@ -58,12 +58,12 @@ typedef struct _SPropValue
     
 |**属性类型**|**值**|**值的数据类型**|
 |:-----|:-----|:-----|
-|PT_I2 或 PT_SHORT  <br/> |**得到** <br/> |短整型  <br/> |
-|PT_I4 或 PT_LONG (已签名)  <br/> |**l** <br/> |大量  <br/> |
+|PT_I2 或 PT_SHORT  <br/> |**i** <br/> |短整型  <br/> |
+|PT_I4 或 PT_LONG (已签名)  <br/> |**l** <br/> |LONG  <br/> |
 |PT_I4 或 PT_LONG (无符号)  <br/> |**列名** <br/> |ULONG  <br/> |
-|PT_R4 或 PT_FLOAT  <br/> |**flt** <br/> |float  <br/> |
+|PT_R4 或 PT_FLOAT  <br/> |**flt** <br/> |点数  <br/> |
 |PT_R8 或 PT_DOUBLE  <br/> |**双** <br/> |double  <br/> |
-|PT_BOOLEAN  <br/> |**黑白** <br/> |无符号短整型  <br/> |
+|PT_BOOLEAN  <br/> |**b** <br/> |无符号短整型  <br/> |
 |PT_CURRENCY  <br/> |**选用** <br/> |[CURRENCY](currency.md) <br/> |
 |PT_APPTIME  <br/> |**个** <br/> |double  <br/> |
 |PT_SYSTIME  <br/> |**ft** <br/> |[FILETIME](filetime.md) <br/> |
@@ -85,10 +85,10 @@ typedef struct _SPropValue
 |PT_MV_CLSID  <br/> |**MVguid** <br/> |[SGuidArray](sguidarray.md) <br/> |
 |PT_MV_I8  <br/> |**MVli** <br/> |[SLargeIntegerArray](slargeintegerarray.md) <br/> |
 |PT_ERROR  <br/> |**err** <br/> |[SCODE](scode.md) <br/> |
-|PT_NULL 或 PT_OBJECT  <br/> |**x** <br/> |大量  <br/> |
+|PT_NULL 或 PT_OBJECT  <br/> |**x** <br/> |LONG  <br/> |
 |PT_PTR  <br/> |**lpv** <br/> |作废\*  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ulPropTag**成员由两部分组成: 
   

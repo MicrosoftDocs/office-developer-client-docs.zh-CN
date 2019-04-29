@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 993f5bca-58a6-455d-8a25-6e08b441ad31
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0d79075ea1db451e0c3d327df9a662e5032ebb22
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286413"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422773"
 ---
 # <a name="pidtagprovideruid-canonical-property"></a>PidTagProviderUid 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32286413"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性由所有服务提供程序计算。 它包含与提供程序关联的[MAPIUID](mapiuid.md)结构, 并且通常由该提供程序进行硬编码。 它通常由仅对特定提供程序所提供的通讯簿容器感兴趣的客户端应用程序使用。 
   

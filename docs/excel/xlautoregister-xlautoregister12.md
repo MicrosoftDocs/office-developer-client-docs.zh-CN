@@ -10,17 +10,17 @@ keywords:
 - xlautoregister 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: f043558f3f642001e9ba11ee5b18a2721c3dddfb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303946"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421163"
 ---
 # <a name="xlautoregisterxlautoregister12"></a>xlAutoRegister/xlAutoRegister12
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 每当对 XLM 函数**REGISTER**或 C API 等效的[xlfRegister 函数](xlfregister-form-1.md)进行了调用时, Excel 将调用[xlAutoRegister 函数](xlautoregister-xlautoregister12.md), 其中包含要注册的函数的返回和参数类型。 它允许 XLL 搜索其导出函数和命令的内部列表, 以使用指定的参数和返回类型注册函数。
   
@@ -46,7 +46,7 @@ LPXLOPER WINAPI xlAutoRegister(LPXLOPER pxName);
 
 函数应返回尝试使用**xlfRegister**函数注册 XLL 函数_pxName_的结果。 如果指定的函数不是 XLL 的导出之一, 它应返回 **#VALUE!** 错误或**NULL** , Excel 会将其解释 **#VALUE!**。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您的**xlAutoRegister**实现应通过您在 XLL 的函数和命令导出的函数和命令的内部列表中执行不区分大小写的搜索, 以查找与传入的名称相匹配的函数和命令。 如果找到了函数或命令, **xlAutoRegister**应尝试使用**xlfRegister**函数注册它, 以确保提供一个字符串, 该字符串告诉 Excel 函数的返回类型和参数类型, 以及任何其他必需的有关函数的信息。 然后, 它应返回到 Excel 调用**xlfRegister**返回的任何内容。 如果函数已成功注册, **xlfRegister**将返回一个**xltypeNum**值, 其中包含函数的寄存器 ID。 
   

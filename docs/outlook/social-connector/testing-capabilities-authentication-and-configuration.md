@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 69e1f5bc-354c-4c33-84a1-b1aa10d4b650
 description: 本主题介绍了用于获取功能的测试, 以及有关配置帐户和对社交网络的用户进行身份验证的方案。
 ms.openlocfilehash: 218d5c564dd18e1e72820e31079011e6bb81a33c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329167"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423501"
 ---
 # <a name="testing-capabilities-authentication-and-configuration"></a>测试功能、身份验证和配置
 
@@ -54,7 +54,7 @@ Outlook Social Connector (.osc) 提供程序实现[ISocialProvider:: GetCapabili
 
 测试以下方案, 无论您的 .osc 提供程序是否支持基本身份验证或基于表单的身份验证。
   
-|**应用场景**|**预期行为**|
+|**方案**|**预期行为**|
 |:-----|:-----|
 |首次登录。  <br/> |用户可以成功登录到社交网络。  <br/> |
 |使用由各种字符 (包括标点符号和 Unicode 字符) 组成的密码登录。  <br/> |用户可以成功登录到社交网络, 而不依赖于密码中使用的字符类型。  <br/> |
@@ -66,7 +66,7 @@ Outlook Social Connector (.osc) 提供程序实现[ISocialProvider:: GetCapabili
    
 此外, 如果您的您的 .osc 提供商支持基于表单的身份验证, 也要测试以下方案。
   
-|**应用场景**|**预期行为**|
+|**方案**|**预期行为**|
 |:-----|:-----|
 |从调用[ISocialSession:: GetLogonUrl](isocialsession-getlogonurl.md)中获取用户用于登录表单的 URL 的 .osc。  <br/> |.osc 在用户的默认浏览器中打开 URL, 网页允许用户输入凭据以登录到社交网络。  <br/> |
    

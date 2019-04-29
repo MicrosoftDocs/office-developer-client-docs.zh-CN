@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 24e3cf95-88f1-444a-b9b9-738077db714a
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: e685c178a4ecf9b5526780c514fd4a0dcf6559f2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318933"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422178"
 ---
 # <a name="mapi-concepts"></a>MAPI 概念
 
@@ -29,7 +29,7 @@ ms.locfileid: "32318933"
     
 - [mapi 服务提供程序](mapi-service-providers.md): 提供有关 MAPI 服务提供程序的基本信息。
     
-## <a name="related-sections"></a>相关章节
+## <a name="related-sections"></a>相关部分
 
 - [Outlook MAPI 参考入门](getting-started-with-the-outlook-mapi-reference.md)
 - [MAPI 示例](mapi-samples.md)

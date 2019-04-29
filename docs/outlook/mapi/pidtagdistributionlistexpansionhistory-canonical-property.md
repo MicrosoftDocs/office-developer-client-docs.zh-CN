@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fc1e0162-d655-4761-92e7-b469579c270b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a172fa1e04f1ea50c29955febda47be6e52663b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360751"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422955"
 ---
 # <a name="pidtagdistributionlistexpansionhistory-canonical-property"></a>PidTagDistributionListExpansionHistory 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32360751"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果传输提供程序已对其进行设置, 则可使用此属性接收客户端应用程序。 如果邮件内容随报告一起返回, 则发送客户端也可使用它。 
   

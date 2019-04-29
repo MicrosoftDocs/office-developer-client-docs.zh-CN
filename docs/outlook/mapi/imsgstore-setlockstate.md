@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4b1176ec-4126-43f5-856d-cbab8d622825
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 9eeede2a430f5186daf429dd6ed59f312ae334be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348746"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423627"
 ---
 # <a name="imsgstoresetlockstate"></a>IMsgStore::SetLockState
 
@@ -58,7 +58,7 @@ S_OK
   
 > 已成功设置邮件的锁定状态。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgStore:: SetLockState**方法锁定或解除锁定邮件。 在发送邮件时, **SetLockState**只能由 MAPI 后台处理程序调用。 
   

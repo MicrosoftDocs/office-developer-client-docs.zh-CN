@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 70b00dd9-78d6-eb0f-b5c1-686eb397cf4b
 description: 包含有关每个文档审阅者的标识信息。
 ms.openlocfilehash: a4bed2efa738dba1ccb4a7649f1762d7dedbd6e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326836"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423473"
 ---
 # <a name="reviewer-section"></a>“Reviewer”内容
 
 包含有关每个文档审阅者的标识信息。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 对于向文档添加标记的每个审阅者，“Reviewer”内容中都包含一个与之对应的行，即使已删除了某个特定审阅者的所有标记也是如此。 
   

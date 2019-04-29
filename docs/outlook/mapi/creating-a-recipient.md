@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 586c901f-d9f9-44f2-a328-051775a81265
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e14430d1539b90e089a9dabe1315384050f3dd5e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332954"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429584"
 ---
 # <a name="creating-a-recipient"></a>创建收件人
 
@@ -33,7 +33,7 @@ ms.locfileid: "32332954"
   
 在创建要用于解决邮件或添加到容器中的收件人时, 调用**IAddrBook:: NewEntry** 。 **NewEntry**具有三对包含条目标识符的参数。 这些参数如下所述: 
   
-|**参数对**|**Description**|
+|**参数对**|**说明**|
 |:-----|:-----|
 | _cbEidContainer_和_lpEidContainer_ <br/> |应放置新条目的容器的条目标识符。  <br/> |
 | _cbEidNewEntryTpl_和_lpEidNewEntryTpl_ <br/> |用于创建新条目的模板的条目标识符。  <br/> |

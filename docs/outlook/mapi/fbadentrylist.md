@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 270c47c3-ae68-4995-b304-27f861b350d6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 21ed5a23b96dabdd594547109ecb1e6c048a4844
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341067"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427771"
 ---
 # <a name="fbadentrylist"></a>FBadEntryList
 
@@ -55,7 +55,7 @@ FALSE
   
 > 所有列出的条目标识符都是有效的。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **FBadEntryList**函数确定条目标识符列表是否已正确生成。 无效标识符的一个示例是内存分配不正确或标识符大小不正确的情况。 
   

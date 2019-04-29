@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 5874dc28-1b10-48a3-8287-9474db0b7435
 description: 当调试 InfoPath 表单模板时，将值直接记录到表单中的某个域以创建表单测试会话期间的调试数据记录，这种做法通常会很有用。下面的过程演示如何创建一个多行域，然后将帮助程序函数添加到表单代码以便使您能够将调试数据记录到该域中。
 ms.openlocfilehash: 28f2a1ad3c13aefd9f898bdf397c9103df98d3c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303575"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431811"
 ---
 # <a name="log-values-to-a-field-for-debugging"></a>将值记录到域中进行调试
 

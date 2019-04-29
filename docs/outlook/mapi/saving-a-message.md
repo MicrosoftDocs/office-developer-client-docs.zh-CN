@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 97bff16b-dc7c-4eed-8834-d0c076d83ca3
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: d5ceeb46bded101700aec696a17d690bde80ce6d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283119"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420928"
 ---
 # <a name="saving-a-message"></a>保存邮件
 

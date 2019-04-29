@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5fe55ba7-4ecd-4a43-ab5b-2ef595c2cdd9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5f5f5eaa41d6256bed69b2cd9a91208181d5bda1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346632"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423746"
 ---
 # <a name="pidtagidentitysearchkey-canonical-property"></a>PidTagIdentitySearchKey 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32346632"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性不显示为任何对象的属性, 而只是作为状态表中的一列。 它是公开状态表行的服务提供程序的标识的一部分。 提供程序的标识通常是指它在服务器上的帐户, 但可以引用在邮件系统中提供程序定义的任何表示形式。 
   

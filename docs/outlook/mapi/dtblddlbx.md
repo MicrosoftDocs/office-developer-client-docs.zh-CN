@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cf60584c-4357-44c7-9d51-f30f7e510c0c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 244aaea4902d6be8eda4cdca176436af9b002ba7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340101"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438846"
 ---
 # <a name="dtblddlbx"></a>DTBLDDLBX
 
@@ -60,7 +60,7 @@ typedef struct _DTBLDDLBX
   
 > 可以使用**OpenProperty**调用打开的 PT_OBJECT 类型的 table 属性的属性标记。 该表应具有两列: **ulPRDisplayProperty**和**ulPRSetProperty**。 表中的行应与列表中的项相对应。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTBLDDLBX**结构描述了一个下拉列表控件, 该控件显示为单个项目, 直到用户将其展开。 
   

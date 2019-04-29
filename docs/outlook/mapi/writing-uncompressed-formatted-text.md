@@ -9,11 +9,11 @@ api_type:
 ms.assetid: c78d4d00-bc31-4d0b-8af0-dd0b8f3febfe
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 7ad12fbc9671d0a21c6c6e6d4615b45a17a72fce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325751"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426322"
 ---
 # <a name="writing-uncompressed-formatted-text"></a>写入未压缩的格式化文本
 

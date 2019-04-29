@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d0a2f7ea-df6a-89e8-18c2-ac92e0a20edc
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cc3fcedb73b4acbd85529615d857403b4c268f3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32333045"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420911"
 ---
 # <a name="crawlsourcesupportmask"></a>CrawlSourceSupportMask
 
@@ -37,7 +37,7 @@ ms.locfileid: "32333045"
 |属性类型  <br/> |PT_LONG  <br/> |
 |访问类型:  <br/> |只读或读/写, 具体取决于存储提供程序  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要提供任何存储功能, 存储提供程序必须实现[IMAPIProp: IUnknown](imapipropiunknown.md) , 并返回传递给[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)调用的任何这些属性的有效属性标记。 当这些属性中任一属性的属性标记传递给[IMAPIProp:: GetProps](imapiprop-getprops.md)时, 存储提供程序还必须返回正确的属性值。 存储提供程序可以调用[HrGetOneProp](hrgetoneprop.md)和[HrSetOneProp](hrsetoneprop.md)以获取或设置这些属性。 
   

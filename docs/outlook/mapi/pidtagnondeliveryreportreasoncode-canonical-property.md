@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4b3ce80c-4245-47b0-ab10-a2e03ccb0b83
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 639409f33f080aa3369b94060ce249017006f121
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329327"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422648"
 ---
 # <a name="pidtagnondeliveryreportreasoncode-canonical-property"></a>PidTagNonDeliveryReportReasonCode 规范属性
 

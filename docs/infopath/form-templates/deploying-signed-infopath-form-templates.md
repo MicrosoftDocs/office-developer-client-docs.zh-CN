@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 8345a4bc-ad7b-d0b0-7615-f77ade35006d
 description: 在阅读本主题之前，请先查看 更多 InfoPath 表单安全性概念中的经过签名的表单模板一节，以了解已签名表单模板的安全性。还需查看安全级别、电子邮件部署和远程表单模板主题中的相关信息和讨论内容。
 ms.openlocfilehash: 76cc6dfdbd2c01827182c348281a98ad7cd17b69
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303715"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426798"
 ---
 # <a name="deploying-signed-infopath-form-templates"></a>部署已签署的 InfoPath 表单模板
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5ea20b49-8b57-4ad0-a70d-6547a01c8344
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 86258711d7cc6bc1933102f7579bb46339a138de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332016"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426588"
 ---
 # <a name="pidtagabsearchpathupdate-canonical-property"></a>PidTagAbSearchPathUpdate 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32332016"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 不要使用此属性。 它保留供 MAPI 使用。
   

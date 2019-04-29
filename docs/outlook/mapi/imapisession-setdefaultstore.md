@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 456c207f-5d41-4d0c-94b6-0c58893a6bed
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f4ff2a3897306ebe4f77c08630782c5f2c7d5d3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335803"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426105"
 ---
 # <a name="imapisessionsetdefaultstore"></a>IMAPISession::SetDefaultStore
 
@@ -75,7 +75,7 @@ S_OK
   
 > 调用成功, 并返回了所需的一个或一些值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISession:: SetDefaultStore**方法将邮件存储区建立为以下内容之一: 
   

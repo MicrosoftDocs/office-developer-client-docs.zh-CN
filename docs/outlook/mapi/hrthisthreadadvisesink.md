@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 12c07302-472f-4e4f-8087-1bdf0dc09a5a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0fb867d662064dfe5ff7759dba4b36a4635a2914
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346835"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427725"
 ---
 # <a name="hrthisthreadadvisesink"></a>HrThisThreadAdviseSink
 
@@ -54,7 +54,7 @@ HrThisThreadAdviseSink(
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 包装的目的是确保在调用**HrThisThreadAdviseSink**函数的同一线程上调用通知。 此函数用于保护必须在特定线程上运行的通知回调。 
   

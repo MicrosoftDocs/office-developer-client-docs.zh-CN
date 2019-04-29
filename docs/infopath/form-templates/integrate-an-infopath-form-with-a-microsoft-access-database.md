@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 5ec9a9c0-b348-4a31-b377-e95db2f92455
 description: Microsoft InfoPath 支持将 Microsoft Access 2010 数据库用作表单的主要数据源，或者用作表单或控件的辅助数据源。本文介绍如何使用 Access 2010 数据库作为数据源。
 ms.openlocfilehash: dbc39e0d0908214904d77b8955f3d231f0bfb20b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303512"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423109"
 ---
 # <a name="integrate-an-infopath-form-with-a-microsoft-access-database"></a>将 InfoPath 表单与 Microsoft Access 数据库集成
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: abb27f90-21b4-08cd-6995-9520fbcebd78
 description: 返回一个货币值。
 ms.openlocfilehash: 65c88d69669e2fa7f708402d9d50dfe035456edb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344987"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433554"
 ---
 # <a name="cy-function"></a>CY 函数
 
@@ -31,7 +31,7 @@ CY (* * *value* * *, * * *cyID* * *)
 | _value_ <br/> |可选  <br/> |**数字或字符串** <br/> |一个数字或字符串, 其中包括特定于货币的格式。 如果未指定, 则根据系统区域和语言设置中的货币样式设置货币值的格式。  <br/> |
 | _cyID_ <br/> |可选  <br/> |**Number** <br/> |一个数字货币 ID 或由三个字符引起来的 ISO 4217 缩写的字符串。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要指定不同的货币, 必须包含有效的_cyID_。 若要获取列表，请参阅[关于货币常量](about-currency-constants.md)。
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 17cba69b-2b25-4b99-99d9-ec68fb8a35b5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f60c4d3761694439d10b073fda5bc36443c13e43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347822"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434338"
 ---
 # <a name="hropenabentryusingdefaultcontext"></a>HrOpenABEntryUsingDefaultContext
 

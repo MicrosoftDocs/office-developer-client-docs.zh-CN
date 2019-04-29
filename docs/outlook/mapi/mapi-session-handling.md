@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 3bc4aea5-ab01-4ba5-a4ad-7a9a76c6bf55
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 98c4bd0dba630db32fdb2309be3d29ebc13b1131
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328222"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422059"
 ---
 # <a name="mapi-session-handling"></a>MAPI 会话处理
 

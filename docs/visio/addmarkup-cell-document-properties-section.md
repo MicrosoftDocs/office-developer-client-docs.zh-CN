@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 46146424-b4c9-2240-36c0-19bb35ec51d1
 description: 指示是否正对文档进行审阅以便加标记。
 ms.openlocfilehash: 4e0860639b0d89fce2c35a8947bd5ac00fcc63e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338631"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427631"
 ---
 # <a name="addmarkup-cell-document-properties-section"></a>AddMarkup 单元格（“Document Properties”内容）
 
 指示是否正对文档进行审阅以便加标记。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |正在对文档进行审阅。  <br/> |
 |FALSE  <br/> |未对文档进行审阅（默认值）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当 AddMarkup 单元格设置为 TRUE 时，审阅者正在添加标记，并且更改将应用于标记贴页而不是原始绘图页。 当 AddMarkup 单元格为 FALSE 时，将禁用标记跟踪，并且更改将应用于原始绘图页。
   

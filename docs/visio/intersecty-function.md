@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a298eead-044b-6f40-54c7-e0e6088baa19
 description: 返回两条线相交的点的 y 轴坐标值 (在本地坐标系中)。
 ms.openlocfilehash: 6fcd06e7086d52b9c45f1deb9d4c191f1a7b1fd2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335257"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426098"
 ---
 # <a name="intersecty-function"></a>INTERSECTY 函数
 
@@ -37,9 +37,9 @@ INTERSECTX (* * *x1* * *、* * *y1* * *、* * *angle1* * *、* * *x2* * *、* * 
    
 ### <a name="return-value"></a>返回值
 
-帐号
+数字
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 每一条直线都可以定义为一个点 (*x,y*) 和一个角。 
   

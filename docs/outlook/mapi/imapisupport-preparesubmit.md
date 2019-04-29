@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 467242e3-96c9-4280-9cbc-9ecfe3f279cf
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 738eb346ec5388cbd94b32598236ef2ca05740f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326318"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425734"
 ---
 # <a name="imapisupportpreparesubmit"></a>IMAPISupport::PrepareSubmit
 
@@ -50,7 +50,7 @@ S_OK
   
 > 邮件已成功准备就绪。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport::P reparesubmit**方法是为邮件存储提供程序支持对象而实现的。 邮件存储提供程序在其[IMessage:: SubmitMessage](imessage-submitmessage.md)方法的实现中调用**PrepareSubmit** , 以准备要提交到 MAPI 后台处理程序的邮件。 
   

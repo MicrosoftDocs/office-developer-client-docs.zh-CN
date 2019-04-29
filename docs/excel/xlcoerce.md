@@ -10,17 +10,17 @@ keywords:
 - xlcoerce 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 9d47c16c-a7e7-4998-b594-9cf001827b7b
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: d84839535d5eb913ca8a62d631238e3330683d0e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303960"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424831"
 ---
 # <a name="xlcoerce"></a>xlCoerce
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 将一种类型的**XLOPER**/ **XLOPER12**转换为另一种, 或在工作表上查找单元格的值。 
   
@@ -42,7 +42,7 @@ Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestTyp
 
 返回强制的值 (**xltypeStr**、 **xltypeNum**、 **xltypeBool**、 **xltypeErr**、 **xltypeNil**或**xltypeMulti**)。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  **xlCoerce**无法转换为**xltypeBigData**或**xltypeFlow**。 将**xltypeMissing**或**xltypeNil**类型作为_pxDestType_传递等效于省略该参数。 在某些情况下转换可能会失败。 例如, 某些字符串不能转换为数字, 而另一些则可以。 
   

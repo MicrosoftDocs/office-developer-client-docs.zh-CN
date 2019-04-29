@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 73dc5981-2c8c-e76e-e4bd-e65a7c8db242
 description: 返回当前用户区域设置的列表分隔符字符串。
 ms.openlocfilehash: 901442a3c2af8509855b8b038057e7f813634ea1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322342"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431405"
 ---
 # <a name="listsep-function"></a>LISTSEP 函数
 

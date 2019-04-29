@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e568917e-6085-4094-8728-89ba90a78c40
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 9a77d335f3c8980de29dab6e14079c83bd711b43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349271"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421170"
 ---
 # <a name="imessagegetattachmenttable"></a>IMessage::GetAttachmentTable
 
@@ -58,7 +58,7 @@ S_OK
   
 > 已成功检索附件表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMessage:: GetAttachmentTable**方法返回指向邮件附件表的指针, 其中包含有关邮件中所有附件的信息。 客户端只能通过附件表获取附件的访问权限。 通过检索附件编号的**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性, 客户端可以使用多个**IMessage**方法来处理附件。 
   

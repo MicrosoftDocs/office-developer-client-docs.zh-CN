@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: e0c9d25d-933c-1c46-2cdd-3fa6ba3e56af
 description: 包含与为形状定义的各连接点相对应的行和单元格。
 ms.openlocfilehash: 23d5f4a48948be517875577cd05fd253ac16ec09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318905"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422815"
 ---
 # <a name="connection-points-section"></a>“Connection Points”内容
 
 包含与为形状定义的各连接点相对应的行和单元格。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以在 ShapeSheet 窗口中的 "**连接点**" 部分中定义连接点, 也可以通过单击 "**开始**" 选项卡上的 "**连接点**" 工具来定义连接点。 
   

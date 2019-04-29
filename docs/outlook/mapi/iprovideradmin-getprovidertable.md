@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e9deaa7c-430b-4e97-8ed6-f7c615956e0f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 843a61696def4398c22a244a7f3f66d7e5dc75ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279526"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434471"
 ---
 # <a name="iprovideradmingetprovidertable"></a>IProviderAdmin::GetProviderTable
 
@@ -54,7 +54,7 @@ S_OK
   
 > 已成功返回 provider 表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IProviderAdmin:: GetProviderTable**方法检索指向邮件服务的提供程序表的指针, 该表是 MAPI 维护的, 其中包含有关邮件服务中的每个服务提供程序的信息。 
   

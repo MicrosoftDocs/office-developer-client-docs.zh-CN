@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: dd7a7e62-4cf2-bdd3-8a00-4fff5ac575d3
 description: 获取枚举数中的帐户数。
 ms.openlocfilehash: 8571d5ff01501d980c8b6543607a658ad99085ca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322013"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421821"
 ---
 # <a name="iolkenumgetcount"></a>IOlkEnum::GetCount
 

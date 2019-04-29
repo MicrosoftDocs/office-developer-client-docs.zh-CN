@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 33bef4ea-d6c0-4455-b95d-4b29edb9c0bc
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 4c296b12d2dc98c4ff8d94349298e9dda0fb9409
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316597"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419987"
 ---
 # <a name="imapisupportmodifyprofile"></a>IMAPISupport::ModifyProfile
 
@@ -49,7 +49,7 @@ S_OK
   
 > 对配置文件部分所做的更改已成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为邮件存储提供程序支持对象实现了**IMAPISupport:: ModifyProfile**方法。 邮件存储提供程序调用**ModifyProfile**以提示 MAPI 修改其配置文件信息。 
   

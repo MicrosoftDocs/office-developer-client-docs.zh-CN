@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 410c4187-21f3-d959-750e-9dc6095fba9a
 description: 当放置在 LinePattern、FillPattern、BeginArrow 或 EndArrow 单元格中时, 将线型、填充图案或线端名名称应用于形状。
 ms.openlocfilehash: ddd15c1c127fafa1a230545d544c74956f5c0262
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337147"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422822"
 ---
 # <a name="use-function"></a>USE 函数
 
@@ -32,9 +32,9 @@ USE ("* * *name* * *")
    
 ### <a name="return-value"></a>返回值
 
-帐号
+数字
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果文档的文档__ 模具中存在名为的主控形状, 则该图案将应用为线型、填充图案、开始箭头或结束箭头。 
   

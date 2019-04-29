@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: f6b68a9a-e04a-476e-a407-b1779fea1953
 description: 可以使用 DeleteRecord 操作删除记录。
 ms.openlocfilehash: 0e8a658b944e894e4d4014fb3d3d9a583efbee8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282113"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423151"
 ---
 # <a name="deleterecord-data-macro-action-access-custom-web-app"></a>DeleteRecord 数据宏操作 (Access 自定义 web 应用程序)
 
@@ -28,7 +28,7 @@ ms.locfileid: "32282113"
 |:-----|:-----|
 |**Record Alias** <br/> |一个用于标识要删除的记录的字符串。 如果未指定*Alias*参数, 则删除当前记录。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您可以使用 **LastCreateRecordIdentity** 本地变量来处理在 **CreateRecord** 数据块中创建的最后一条记录。 例如, 使用以下语法来引用最近创建的记录: 
   

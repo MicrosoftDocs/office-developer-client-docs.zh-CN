@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c85b7862-18bc-4e17-94db-9097e0ac4a02
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 45cd0e8a95f908d7ef56d03b3ecab5d5df5bcae1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341998"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437859"
 ---
 # <a name="pidtagoriginatorrequestedalternaterecipient-canonical-property"></a>PidTagOriginatorRequestedAlternateRecipient 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32341998"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性在 autoforwarded 消息中使用。 如果不允许 autoforwarding, 或者未指定备用收件人, 则应生成 nondelivery 报告。
   

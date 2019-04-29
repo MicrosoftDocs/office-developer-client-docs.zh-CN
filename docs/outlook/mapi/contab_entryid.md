@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 84251222-dac4-4f4d-97b9-aa0e2cd26c44
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a2a204f76b62c8c6bc6d8a4e793c936a0184dc65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335075"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424082"
 ---
 # <a name="contabentryid"></a>CONTAB_ENTRYID
 
@@ -77,7 +77,7 @@ typedef struct _contab_entryid
   
 > 与联系人通讯簿中的此条目相关联的联系人邮件的条目标识符。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 联系人通讯簿是一个通讯簿, 其中包含 "联系人" 文件夹中具有电子邮件地址或传真号码的所有联系人项目。 联系人通讯簿中的每个条目都与电子邮件地址或传真号码相关联。 由于联系人项目最长可包含三个电子邮件地址和三个传真号码, 因此联系人项目可以在相应联系人通讯簿中的最大6个条目中表示。
   

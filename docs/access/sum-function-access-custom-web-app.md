@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c2345092-ba5f-4030-9070-391233e70f92
 description: 返回表达式中所有值的总和。
 ms.openlocfilehash: b0fed86469b32ddcc7f60a388f5d42c7bbd48b6c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304233"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427099"
 ---
 # <a name="sum-function-access-custom-web-app"></a>Sum 函数 (Access 自定义 web 应用程序)
 
@@ -31,7 +31,7 @@ ms.locfileid: "32304233"
 |:-----|:-----|
 | *NumericExpression*  <br/> |表达式, 用于标识包含要添加的数值数据的字段, 或者是使用该字段中的数据执行计算的表达式。 *NumericExpression*中的操作数可以包括表字段、常量或函数 (可以是固有的, 也可以是用户定义的, 但不能是其他 SQL 聚合函数) 的名称。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **Sum**函数将忽略包含 Null 值的记录。 
   

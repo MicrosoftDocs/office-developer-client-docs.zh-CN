@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 6e2df265-b9dd-4e19-8ca5-3e31804e9120
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 7ff7f79b5e74412e9bbb4b4882c6a7d45e50fe6a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338491"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420848"
 ---
 # <a name="sending-messages-with-tnef"></a>使用 TNEF 发送邮件
 

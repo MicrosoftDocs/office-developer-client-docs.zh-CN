@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7db7a8ed-50a9-8495-b978-42a2fddb466a
 description: 采用一个形状的本地坐标中定义的点, 并返回以与公式相关联的形状的本地坐标表示的等效点。
 ms.openlocfilehash: 4728e5f8301c6ef10ddb0c14b6c0868a7a48b2a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344427"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422423"
 ---
 # <a name="loc-function-visioshapesheet"></a>LOC 函数 (VisioShapeSheet)
 
@@ -32,9 +32,9 @@ LOC (* **点** *)
    
 ### <a name="return-value"></a>返回值
 
-字符串
+String
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 本地坐标是以形状的选择矩形的左下角为基准测量的。两个形状必须在同一页上。
   

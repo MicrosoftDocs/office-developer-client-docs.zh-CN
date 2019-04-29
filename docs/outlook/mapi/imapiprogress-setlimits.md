@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 63c9e316-ee53-4065-8154-449639643ff7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0810ed7ce20bba95c4286e6e042065c0c2d1a802
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339863"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421464"
 ---
 # <a name="imapiprogresssetlimits"></a>IMAPIProgress::SetLimits
 
@@ -59,7 +59,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 服务提供程序调用**IMAPIProgress:: SetLimits**方法设置或清除 MAPI_TOP_LEVEL 标志并设置本地和全局最小值和最大值。 标记设置的值将影响进度对象是否理解为本地或全局的最小值和最大值。 设置 MAPI_TOP_LEVEL 标志后, 这些值被视为全局值, 用于计算整个操作的进度。 进度对象将全局最小值初始化为 1, 将全局最大值初始化为1000。 
   

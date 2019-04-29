@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 08958abb-9d66-5a83-dac3-4cbfd1f6d85e
 description: 表示段落的第一行和项目符号之间的距离。
 ms.openlocfilehash: a98967cb5f9541434745c3b3d6afafde0878074a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332283"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422150"
 ---
 # <a name="textposafterbullet-cell-paragraph-section"></a>TextPosAfterBullet 单元格（“Paragraph”内容）
 
 表示段落的第一行和项目符号之间的距离。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此距离将与 IndFirst 单元格中包含的距离（默认的左缩近）相加。此值与绘图比例无关。 
   

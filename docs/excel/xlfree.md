@@ -10,17 +10,17 @@ keywords:
 - xlfree 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: de1c75ad65acacd44644e9bfb111b30abd0a578e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310218"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424712"
 ---
 # <a name="xlfree"></a>xlFree
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 用于在[Excel4](excel4-excel12.md)、 [Excel4v](excel4v-excel12v.md)、 [Excel12](excel4-excel12.md)或[Excel12v](excel4v-excel12v.md)的调用中创建返回值**XLOPER**/ **XLOPER12**时, 释放 Microsoft Excel 分配的内存资源。 **xlFree**函数释放辅助内存, 并将指针重置为**NULL** , 但不会销毁**XLOPER**/ **XLOPER12**的其他部分。
   
@@ -39,7 +39,7 @@ Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 
 此函数不返回值。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您必须释放作为返回值从**Excel4**或**Excel4v**中获取的每个**XLOPER** , 以及从**Excel12**或**Excel12v**获取为返回值的每个**XLOPER12** , 如果它们是以下类型之一: **xltypeStr**、 **xltypeMulti**或**xltypeRef**。 即使您从**Excel4**或**Excel12**中获取了这些类型, 也始终可以安全地释放其他类型, 即使它们不使用辅助内存也是如此。
   

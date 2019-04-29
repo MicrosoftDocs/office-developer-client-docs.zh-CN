@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2a2ca1fba5dceb45b41c2f25a96e163f02c41440
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339408"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421499"
 ---
 # <a name="dtctl"></a>DTCTL
 
@@ -168,7 +168,7 @@ DT_SET_IMMEDIATE
   
 > 一个保存控件数据并与控件的**PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) 属性相对应的结构。 每种类型的控件都有一个不同的结构。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTCTL**结构描述任何类型的一个控件。 它的大多数成员用于设置控件的属性。 
   

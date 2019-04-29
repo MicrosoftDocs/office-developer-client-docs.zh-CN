@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2a21d6f9-bad6-92ab-6d36-477bcb9d7f17
 description: 返回一个整数, 0 到 23, 表示日期时间或表达式的一天中的小时数。
 ms.openlocfilehash: 1d0c6ec2bd80605401f44d2a5ef6e3d41bc72556
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329965"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429633"
 ---
 # <a name="hour-function-visioshapesheet"></a>HOUR 函数 (VisioShapeSheet)
 
@@ -32,7 +32,7 @@ HOUR ("* * *datetime* * *" |* **表达式** * [, * * *lcid* * *])
 | _expression_ <br/> |必需  <br/> |**相同** <br/> |生成日期和时间的表达式。  <br/> |
 | _lcid_ <br/> |可选  <br/> |**Number** <br/> | 用于计算非本地日期时间的区域设置标识符。 区域设置标识符是系统头文件中描述的一个数字。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 *datetime*和*expression*中的日期部分将被丢弃。 
   

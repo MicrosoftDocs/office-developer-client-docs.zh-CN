@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7cdedb1a-e441-469b-be50-2f18203eb30d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 596e416624fb6f2bf1fdaef64c2179feb7787815
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356215"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431412"
 ---
 # <a name="pidtagoriginalauthoraddresstype-canonical-property"></a>PidTagOriginalAuthorAddressType 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32356215"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性是邮件作者地址属性的示例。 首次提交邮件时, 客户端应用程序应将此属性设置为**PR_SENDER_ADDRTYPE** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)) 属性的值。 转发或答复邮件时, 它永远不会更改。
   

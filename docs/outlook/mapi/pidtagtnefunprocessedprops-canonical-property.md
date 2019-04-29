@@ -13,11 +13,11 @@ api_type:
 ms.assetid: df9cd614-1198-44a2-9bf5-36c57179a9a9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9ea9938ca9f8dd0b25cf2de5199178a76e17b6d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361178"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431321"
 ---
 # <a name="pidtagtnefunprocessedprops-canonical-property"></a>PidTagTnefUnprocessedProps 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32361178"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 非传输  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 Microsoft outlook 和 Outlook Web Access (OWA) 用于保存原始 tnef, 在 TNEF 中包含无法在存储中创建的命名属性的情况下。
   

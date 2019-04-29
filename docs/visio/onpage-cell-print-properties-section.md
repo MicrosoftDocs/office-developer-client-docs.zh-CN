@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 4015506a-e24a-0276-c854-7791a7019067
 description: 指示是否将绘图打印到指定数量的打印纸上。
 ms.openlocfilehash: 61d45a5bffdbb1afd5db9c608f80bc4f797f5191
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360982"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439602"
 ---
 # <a name="onpage-cell-print-properties-section"></a>OnPage 单元格（“Print Properties”内容）
 
 指示是否将绘图打印到指定数量的打印纸上。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |使绘图页与定义的打印机页面的数量相匹配。  <br/> |
 |FALSE  <br/> |不调整绘图页的大小以使其适合指定数量的打印纸（默认值）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果 OnPage 单元格设置为 TRUE，则 Microsoft Visio 将使用 PagesX 单元格和 PagesY 单元格来确定适合于该绘图的打印页的数目。ScaleX 单元格和 ScaleY 单元格中的值将被忽略。可以将此设置视为“自动缩放”设置。
   

@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: 84f4e5f1-7c28-9e83-8644-28d117bb10a5
 description: 确定一行文本和下一行文本之间的距离，用百分比表示，其中 100% 是文本行的高度。
 ms.openlocfilehash: 82b2604a62608c0cc4333892d678b1eb886a9c7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329860"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434912"
 ---
 # <a name="spline-cell-paragraph-section"></a>SpLine 单元格（“Paragraph”内容）
 
 确定一行文本和下一行文本之间的距离，用百分比表示，其中 100% 是文本行的高度。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | \>0  <br/> | 绝对间距，与字体大小无关  <br/> |
 | = 0  <br/> | 设置纯色（间距 = 100% 的字体大小）  <br/> |
 | \<0  <br/> | 字体大小的百分比（例如，-120% 生成 120% 间距）  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 SpLine 单元格的引用，请使用： 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fb9050c9-5797-44f0-8bf5-6264f4e6d7c3
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 465069f08e2026dcbf98e24f0f5f59e12ed17eca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315286"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431272"
 ---
 # <a name="ulvalidateparameters"></a>UlValidateParameters
 
@@ -60,7 +60,7 @@ MAPI_E_CALL_FAILED
   
 > 意外或未知来源的错误阻止操作完成。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **UlValidateParameters**宏已被[UlValidateParms](ulvalidateparms.md)宏取代。 **UlValidateParameters**不能在 RISC 平台上正常运行, 现在无法在其上进行编译。 它仍可在 Intel 平台上正常编译和工作, 但建议在所有平台上使用**UlValidateParms** 。 
   

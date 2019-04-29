@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c1cfe71b-01f3-429a-8b4c-73191a2ffea0
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c25f352e7fa607a46741164574a4ba91d4026edf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321670"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423578"
 ---
 # <a name="imapiformmgrselectform"></a>IMAPIFormMgr::SelectForm
 
@@ -77,7 +77,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IMAPIFormMgr:: SelectForm**方法, 首先显示一个对话框, 使用户能够选择表单, 然后检索描述选定表单的表单信息对象。 对话框限制用户选择单个窗体。 
   

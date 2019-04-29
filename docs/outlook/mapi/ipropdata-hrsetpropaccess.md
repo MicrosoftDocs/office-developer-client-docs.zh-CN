@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 02365050-5e8b-437c-925f-4eb0df646356
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9e443302e49bad4a586b657a6de298dafbeefab4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348676"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437852"
 ---
 # <a name="ipropdatahrsetpropaccess"></a>IPropData::HrSetPropAccess
 
@@ -63,7 +63,7 @@ MAPI_E_INVALID_PARAMETER
   
 > _rgulAccess_参数包含无效的标志组合, 如 IPROP_READONLY 和 IPROP_READWRITE。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IPropData:: HrSetPropAccess**方法更改由_lpPropTagArray_参数指向的[SPropTagArray](sproptagarray.md)结构中的属性标记所标识的属性的访问级别和状态。 对于每个属性, _rgulAccess_数组中都有对应的条目。 该条目可设置为一个指示属性的访问级别和另一个指示其状态的标志的标志。 
   

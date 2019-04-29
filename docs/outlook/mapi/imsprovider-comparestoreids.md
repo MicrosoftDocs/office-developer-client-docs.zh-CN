@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c3e3cfaa-9c4a-482a-9411-9c4ab01d312f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 734e53c1e897c902c72319aa6f2d3d7af2d23fb6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317267"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431706"
 ---
 # <a name="imsprovidercomparestoreids"></a>IMSProvider::CompareStoreIDs
 
@@ -70,7 +70,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 在处理对[IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md)方法的调用时调用**IMSProvider:: CompareStoreIDs**方法。 此时, 将调用**CompareStoreIDs** , 以确定哪个配置文件部分 (如果有) 与要打开的邮件存储区相关联。 当没有打开特定存储提供程序的邮件存储区时, 可以进行**CompareStoreIDs**调用。 此外, MAPI 还会在处理对[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)方法的存储提供程序调用时调用**CompareStoreIDs** 。 
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 98343c36-5e32-4d07-b474-adfeca693135
 description: 本主题介绍了验证 Outlook Social Connector (.osc) 提供程序是否使用按需同步以适当地返回朋友和非好友活动的测试和方案。
 ms.openlocfilehash: 0a40dca84681a9e758c2f17d2647c339ded70462
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329181"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436298"
 ---
 # <a name="testing-activities"></a>测试活动
 
@@ -39,7 +39,7 @@ ms.locfileid: "32329181"
 
 若要验证您是否正在为朋友和非好友获取适当的活动, 请测试以下方案。
   
-|**应用场景**|**预期行为**|
+|**方案**|**预期行为**|
 |:-----|:-----|
 |在 "人员" 窗格中选择的人是社交网络中已登录用户的好友。  <br/> |"人员" 窗格显示该用户的配置文件以及在社交网络中发布的个人资料图片。  <br/> |
 |在 "人员" 窗格中选择的人是社交网络中已登录用户的非朋友, 但允许非好友查看他或她的个人资料。  <br/> |"人员" 窗格显示该用户的配置文件以及在社交网络中发布的个人资料图片。  <br/> |

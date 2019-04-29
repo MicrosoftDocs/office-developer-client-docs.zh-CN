@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c20e4ff2-ef55-4455-86ab-3bd47ddfefb2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 64f389bc45f88b1fd0e516c92c8eec1e0998a298
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279620"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422717"
 ---
 # <a name="pidtagphysicaldeliverybureaufaxdelivery-canonical-property"></a>PidTagPhysicalDeliveryBureauFaxDelivery 规范属性
 

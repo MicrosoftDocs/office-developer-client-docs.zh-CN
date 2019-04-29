@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8842a555-d4c8-4528-b5f9-0ddf5691273d
 description: 返回应用程序定义的时区中的当前日期和时间值。
 ms.openlocfilehash: 74b0a124e5715036146fedc9a6079d84a39ce84a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308097"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425713"
 ---
 # <a name="now-function-access-custom-web-app"></a>Now 函数 (Access 自定义 web 应用程序)
 
@@ -25,7 +25,7 @@ ms.locfileid: "32308097"
 
  **现在**() 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **Now**函数的结果仅当刷新包含公式的列时才会更改。 它不会连续更新。 
   

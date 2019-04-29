@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ff756bf1-9395-5e50-4f55-1eb0365a84ed
 description: 本主题包含常量定义、类标识符和用于闲/忙 API 的接口标识符。
 ms.openlocfilehash: 13578617eaab45e7194d7a0d4d6995ef925e7f20
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317715"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431531"
 ---
 # <a name="constants-freebusy-api"></a>常量 (忙/闲 API)
 

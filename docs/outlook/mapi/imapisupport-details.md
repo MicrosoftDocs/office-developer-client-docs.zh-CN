@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1a62efa2-dd6b-4acb-a760-defa601c20c9
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: bdc57a6e951e54640fe3c638977c6a5f16986e68
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322356"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426777"
 ---
 # <a name="imapisupportdetails"></a>IMAPISupport::Details
 
@@ -97,7 +97,7 @@ S_OK
   
 > 已成功显示通讯簿条目的 "详细信息" 对话框。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport::D etails**方法是为通讯簿提供程序支持对象而实现的。 通讯簿提供程序调用**详细信息**以显示一个对话框, 该对话框提供有关通讯簿中的特定条目的详细信息。 _lpfButtonCallback_、 _lpvButtonContext_和_lpszButtonText_参数可用于将客户端定义的按钮添加到对话框中。 单击该按钮时, MAPI 将调用_lpfButtonCallback_指向的回调函数, 同时传递按钮的条目标识符和_lpvButtonContext_中的数据。 如果不需要可扩展按钮, _lpszButtonText_应为 NULL。 
   

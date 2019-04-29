@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: dee566ad-b46d-1015-4b0b-6c3313060142
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: dda9d23a572446a5fa79a9500eb69558b6e0debd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357706"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425839"
 ---
 # <a name="upload-delete-status-state"></a>上传删除状态状态
 

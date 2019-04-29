@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 340ed9a8-6f82-4aa8-a951-2c453b3d1ac4
 description: 在文本表达式中搜索其他文本表达式, 如果找到, 则返回其起始位置。
 ms.openlocfilehash: dc6906f70bc5bb17e12855d69946281909962988
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282605"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423130"
 ---
 # <a name="charindex-function-access-custom-web-app"></a>CharIndex 函数 (Access 自定义 web 应用程序)
 
@@ -30,7 +30,7 @@ ms.locfileid: "32282605"
 | *WithinText*  <br/> |是  <br/> |要搜索的文本表达式。  <br/> |
 | *Start*  <br/> |否  <br/> |一个整数, 指定*WithinText*中要开始搜索的位置。 如果未指定*Start* , 则为负数, 或者为 0, 则搜索将从*WithinText*的开头开始。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果*TextExpression*或*WithinText*为 null, 则*CharIndex*将返回 NULL。 
   

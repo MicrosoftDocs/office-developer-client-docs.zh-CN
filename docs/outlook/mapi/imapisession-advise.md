@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a6a6b6b1-31e2-4899-a5fe-74d5d1c2ccfc
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d5d87d7be9cb3524445107e975a298d4afd5bf98
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338617"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419833"
 ---
 # <a name="imapisessionadvise"></a>IMAPISession::Advise
 
@@ -113,7 +113,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 配置文件中的任何服务提供程序都不能处理_lpEntryID_指向的条目标识符。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISession:: Advise**方法在呼叫者的通知接收器对象、会话和服务提供商 (可选) 之间建立连接。 当在_ulEventMask_参数中指定的一个或多个事件发生于_lpEntryID_指向的对象时, 此连接用于将通知发送到通知接收器。 当_lpEntryID_为 NULL 时, 目标对象为会话, 并且仅发送严重错误和扩展事件的通知。 
   

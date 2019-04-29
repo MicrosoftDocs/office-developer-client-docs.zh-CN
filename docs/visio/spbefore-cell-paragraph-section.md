@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a7d5b0a1-3657-8211-f0e0-eaed588fa0bc
 description: 确定除了在 SpLine 单元格（如果段落为文本块的第一个段落，则由 TopMargin 单元格指定）中指定的任何空间量外还需要在形状的文本块中每个段落前插入的空间量。
 ms.openlocfilehash: 9890910a11990bb5be7fe3ee4af95e578c8d9799
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329881"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425755"
 ---
 # <a name="spbefore-cell-paragraph-section"></a>SpBefore 单元格（“Paragraph”内容）
 
 确定除了在 SpLine 单元格（如果段落为文本块的第一个段落，则由 TopMargin 单元格指定）中指定的任何空间量外还需要在形状的文本块中每个段落前插入的空间量。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此值与绘图比例无关。即使绘图比例进行调整，“段前空间”设置仍保持不变。
   

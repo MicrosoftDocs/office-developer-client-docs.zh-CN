@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 303c9dcb-f9b5-4cea-b5f2-3eba01aa3b09
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 08470a80153e42136922ae502252d83de0125512
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317232"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433141"
 ---
 # <a name="installing-a-form-into-a-library"></a>将表单安装到库中
 

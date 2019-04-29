@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b97a9e72-fbb7-49ab-a19d-5e9bd1b8a80d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 099f08876eadc83ebb66b9e4226eeeee6277bf01
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331862"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430880"
 ---
 # <a name="pidtagcontrolflags-canonical-property"></a>PidTagControlFlags 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32331862"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以为此属性设置以下一个或多个标志:
   
@@ -80,7 +80,7 @@ DT_SET_SELECTION
 |复选框  <br/> |DT_EDITABLE、DT_SET_IMMEDIATE  <br/> |
 |组合框  <br/> |DT_EDITABLE、DT_REQUIRED、DT_SET_IMMEDIATE  <br/> |
 |下拉列表框  <br/> |DT_EDITABLE、DT_SET_IMMEDIATE  <br/> |
-|编辑  <br/> |DT_ACCEPT_DBCS、DT_MULTILINE、DT_EDITABLE、DT_PASSWORD_EDIT、DT_REQUIRED、DT_SET_IMMEDIATE  <br/> |
+|Edit  <br/> |DT_ACCEPT_DBCS、DT_MULTILINE、DT_EDITABLE、DT_PASSWORD_EDIT、DT_REQUIRED、DT_SET_IMMEDIATE  <br/> |
 |分组框  <br/> |必须为零  <br/> |
 |标签  <br/> |必须为零  <br/> |
 |列表框  <br/> |必须为零  <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 44a12c92-7462-4acf-9520-5d4c2d7f1d47
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b13bf3bdd8392efc42ad189e48dffad8636f0708
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328887"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425601"
 ---
 # <a name="imapitablegetrowcount"></a>IMAPITable::GetRowCount
 
@@ -62,7 +62,7 @@ MAPI_W_APPROX_COUNT
   
 > 调用成功, 但返回了大概的行计数, 因为无法确定确切的行计数, 因为可能由于内存约束而无法确定。 若要测试此警告, 请使用**HR_FAILED**宏。 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: GetRowCount**方法检索表中的总行数。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 01a868f4-afda-43ba-bc17-c33ae56b7b7d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5b76f9daec89e9229fc7f81e1332c3075c951067
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348585"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435675"
 ---
 # <a name="itneffinish"></a>ITnef::Finish
 
@@ -55,7 +55,7 @@ S_OK
   
 > 调用成功, 并返回了所需的一个或一些值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 传输提供程序、邮件存储提供程序和网关调用**ITnef:: Finish**方法, 以执行在对[ITnef:: AddProps](itnef-addprops.md)和[ITnef:: SetProps](itnef-setprops.md)方法的调用中请求进行编码的所有属性的编码。 如果使用[OpenTnefStream](opentnefstream.md)或[OpenTnefStreamEx](opentnefstreamex.md)函数的 TNEF_ENCODE 标志打开 TNEF 对象, 则**完成**方法会将请求的属性编码到传递给该对象的封装流中。 如果使用 TNEF_DECODE 标志打开 tnef 对象, 则**完成**方法会对 TNEF 流中的属性进行解码, 并将其写回到其所属的邮件中。 
   

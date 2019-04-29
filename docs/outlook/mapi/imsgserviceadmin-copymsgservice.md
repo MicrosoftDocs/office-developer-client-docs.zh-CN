@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a13c6757-358f-421a-9a76-de7483501613
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 72b4ab1fec10b2e91c7609af6644a54d29ed5e02
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309966"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432119"
 ---
 # <a name="imsgserviceadmincopymsgservice"></a>IMsgServiceAdmin::CopyMsgService
 
@@ -87,7 +87,7 @@ MAPI_E_NOT_FOUND
   
 > _lpUID_指向的**MAPIUID**不引用现有的邮件服务。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgServiceAdmin:: CopyMsgService**方法将邮件服务复制到配置文件, 即活动配置文件或另一个配置文件。 包含要复制的邮件服务的配置文件和目标不一定是相同的配置文件, 但可以是。 
   

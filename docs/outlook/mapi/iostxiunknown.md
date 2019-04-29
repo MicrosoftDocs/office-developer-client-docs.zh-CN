@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6d7de4d6c14179ddaba4e2ad907f1acc1c53b125
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317176"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431993"
 ---
 # <a name="iostx--iunknown"></a>IOSTX : IUnknown
 
@@ -45,7 +45,7 @@ ms.locfileid: "32317176"
 |[SetSyncResult](iostx-setsyncresult.md) <br/> |设置同步的结果。  <br/> |
 | *占位符成员*  <br/> | *不支持或记录。*  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当客户端在本地存储上上载或同步文件夹和文件夹内容时, 它会将本地存储从一个状态移动到另一个状态, 如[关于复制状态机](about-the-replication-state-machine.md)中的状态转换关系图中所示。 以下是客户端将本地存储从一个状态移动到另一个状态的事件的顺序:
   

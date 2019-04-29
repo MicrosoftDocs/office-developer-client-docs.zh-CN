@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 92f59a0d-3834-424d-ad81-167fdeba9bd0
 description: 本主题列出了 Outlook Social Connector 2013 (.osc) 中的主要更改。 它对 outlook social connector 2013 与 outlook social connector 1.1 之间可用的功能进行了比较。
 ms.openlocfilehash: 6b735555d312c149d7dc8b827990b96bfc229678
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329111"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435451"
 ---
 # <a name="whats-new-for-providers"></a>提供程序的新增功能
 
@@ -38,7 +38,7 @@ Outlook Social Connector 2013 中的一些主要更改包括以下几种:
 |基于表单的身份验证  <br/> |是  <br/> |是  <br/> |
 |缓存的身份验证  <br/> |是  <br/> |是  <br/> |
 |默认存储上将好友的缓存同步到 "联系人" 文件夹  <br/> |是  <br/> |是  <br/> |
-|将朋友的缓存活动同步到隐藏的**新闻源**文件夹  <br/> |否  <br/> |是  <br/> |
+|将朋友的缓存活动同步到隐藏的**新闻源**文件夹  <br/> |否  <br/> |可访问  <br/> |
 |在网络上的朋友和非朋友的按需同步 (图片、名称、标题)  <br/> |是  <br/> |是  <br/> |
 |按需活动与网络上的朋友和非朋友同步  <br/> |是  <br/> |是  <br/> |
 |关注网络  <br/> |是  <br/> |是  <br/> |
@@ -53,13 +53,13 @@ Outlook Social Connector 2013 中的一些主要更改包括以下几种:
 
 下表显示了已添加或已从相应接口中弃用的成员。
   
-|**Interface 和 member**|**Comment**|
+|**Interface 和 member**|**备注**|
 |:-----|:-----|
 |**ISocialProfile::GetActivitiesOfFriendsAndColleagues** <br/> |在 Outlook Social Connector 2013 中已弃用。 请注意, 由于 Outlook Social Connector 1.1, **ISocialSession:: GetActivities**也已被弃用。  <br/> 若要同步活动源, 应实现[ISocialSession2:: GetActivitiesEx](isocialsession2-getactivitiesex.md)方法。 将**dynamicActivitiesLookupEx**设置为**true**, 这将提示 .osc 调用**ISocialSession2:: GetActivitiesEx**而不是。  <br/> |
    
 下表显示了已更改的架构元素。
   
-|**Schema 元素**|**Comment**|
+|**Schema 元素**|**备注**|
 |:-----|:-----|
 |**能力** <br/> |在 Outlook Social Connector 2013: **allowChangesToAutoConfigure**元素中添加。  <br/> 在 Outlook Social Connector 2013: **cacheActivities**元素中已弃用。  <br/> |
 |**person** <br/> |在 Outlook Social Connector 2013 中添加: **askmeabout**、 **businessAddress**、 **businessCity**、 **businessCountryOrRegion**、 **businessState**、 **businessZip**、**工业**、**兴趣** **location**、 **otherAddress**、 **otherCity**、 **otherCountryOrRegion**、 **otherState**、 **otherZip**、**技能**、**学校**和**网站**元素。  <br/> |

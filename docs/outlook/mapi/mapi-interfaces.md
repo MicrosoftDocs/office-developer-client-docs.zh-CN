@@ -11,11 +11,11 @@ api_type:
 ms.assetid: 34a66cf0-b4e0-4fd5-b937-cd157888961d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4f5d6a5d2dbb48a86363896bf14b61ed28118330
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346681"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422661"
 ---
 # <a name="mapi-interfaces"></a>MAPI 接口
 
@@ -39,11 +39,11 @@ ms.locfileid: "32346681"
   
 在每个接口主题之后, 将按字母顺序对接口的方法进行记录。 对于每个方法, 文档都包含一个简短的目的语句、一个语法块和以下信息。
   
-|**标题**|**Content**|
+|**标题**|**内容**|
 |:-----|:-----|
 |参数  <br/> |方法中的每个参数的说明。  <br/> |
 |返回值  <br/> |该方法可以返回的唯一值的说明。 这些是调用方在其代码中应检查的值。  <br/> |
-|注解  <br/> |描述使用方法的原因和方式。  <br/> |
+|说明  <br/> |描述使用方法的原因和方式。  <br/> |
 |另请参阅  <br/> |本参考中对其他主题的交叉引用。  <br/> |
    
 ## <a name="see-also"></a>另请参阅

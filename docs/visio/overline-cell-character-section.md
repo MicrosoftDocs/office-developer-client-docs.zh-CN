@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 102cce17-43ee-e313-3412-a72d6ee18fe6
 description: 确定在文本之上是否存在线条。
 ms.openlocfilehash: d5df39c2f12890d5fb4881346516abdb4f2b8099
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327046"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431643"
 ---
 # <a name="overline-cell-character-section"></a>Overline 单元格（“Character”内容）
 
 确定在文本之上是否存在线条。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |文本之上存在线条。  <br/> |
 |FALSE  <br/> |文本之上没有线条。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 还可以使用 **“文本”** 对话框（在 **“开始”** 选项卡上，单击 **“字体”** 箭头）设置此单元格的值。 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 87508007-8ad2-3bcf-55dc-f0207c7c6fe3
 description: '如果 cellreference 的值是除 #N/a 之外的任何错误类型, 则返回 TRUE; 否则, 返回 false。否则, 它将返回 FALSE。 ISERR 函数在引用其他单元格的公式中使用。'
 ms.openlocfilehash: e2117c38d3cad2408295ed6894aefc78e107596e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297247"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432105"
 ---
 # <a name="iserr-function"></a>ISERR 函数
 
@@ -32,7 +32,7 @@ ISERR (* * *cellreference* * *)
    
 ## <a name="example-1"></a>示例 1
 
-|**Cell**|**Formula**|**返回的值**|
+|**单元格**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |草稿。 A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |草稿 B1  <br/> |= ISERR (的 A1)  <br/> |FALSE  <br/> |
@@ -41,7 +41,7 @@ ISERR (* * *cellreference* * *)
   
 ## <a name="example-2"></a>示例 2
 
-|**Cell**|**Formula**|**返回的值**|
+|**单元格**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |暂存. X1  <br/> |= "房子"  <br/> |#VALUE!  <br/> |
 |草稿。 A1  <br/> |= ISERR (X1)  <br/> |TRUE  <br/> |

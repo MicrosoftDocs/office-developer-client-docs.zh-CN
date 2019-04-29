@@ -9,11 +9,11 @@ api_type:
 ms.assetid: eae44469-b217-4d05-b47f-5a0b1fab7056
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 5d4ef074523cd654c3db2d686494d9a4f864e7cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345871"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429311"
 ---
 # <a name="mapi-message-store-provider-overview"></a>MAPI 邮件存储区提供程序概述
   

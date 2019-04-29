@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ec2b0c67-18ff-4c3a-ae33-ce5b643b615f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 73877a146336f40d3c70511fd8caa7797370fab1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316217"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432357"
 ---
 # <a name="pidtagformdesignername-canonical-property"></a>PidTagFormDesignerName 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32316217"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性包含表单设计器对象的唯一标识符。 
   

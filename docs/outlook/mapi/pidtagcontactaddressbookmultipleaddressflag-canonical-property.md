@@ -13,11 +13,11 @@ api_type:
 ms.assetid: aefc34c5-1beb-44cf-a455-90f466e157ce
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6fabb03d552f195c200b0ecbd8fd69f470c0e1fd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344889"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431566"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflag-canonical-property"></a>PidTagContactAddressBookMultipleAddressFlag 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32344889"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果此属性为 TRUE, 则提供程序不允许没有电子邮件地址的联系人。 如果为 FALSE, 则提供程序将显示所有联系人, 无论其是否有主电子邮件地址。 只有主电子邮件地址将生效。 这是联系人通讯簿容器的属性, 以及联系人通讯簿容器表中的列。
   
