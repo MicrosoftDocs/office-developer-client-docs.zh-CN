@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 8e1c8c8f-4ed0-0f53-f93f-3a264edc02bd
 description: 切换选中形状的选择手柄的显示状态 - 显示或不显示。
 ms.openlocfilehash: e46f19d77d1743fb7223b5f7d98f80a05d8f6b07
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357237"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428653"
 ---
 # <a name="noobjhandles-cell-miscellaneous-section"></a>NoObjHandles 单元格（“Miscellaneous”内容）
 
 切换选中形状的选择手柄的显示状态 - 显示或不显示。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 选中形状后不显示选择手柄。  <br/> |
 | FALSE  <br/> | 选中形状后显示选择手柄。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 NoObjHandles 单元格的引用，请使用： 
   

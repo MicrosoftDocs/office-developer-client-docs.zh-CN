@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f8270ef2-56d4-4b47-bdda-a39c966bbcba
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b396cd326dd25fd72346f9f8037e8a712b84a196
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278870"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430173"
 ---
 # <a name="pidtagmailpermission-canonical-property"></a>PidTagMailPermission 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32278870"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果未设置此属性, 则 MAPI 会将其视为具有真正的值。 
   

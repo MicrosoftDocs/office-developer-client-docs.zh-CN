@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: da487569-f2f0-404c-b944-38ed1c1b82bb
 description: '示例 Outlook Social Connector (.osc) 提供程序模板为您提供了实现 .osc 提供程序的框架。 '
 ms.openlocfilehash: 10fb21ab640e298bc655b8cad554fae789e2ad47
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281125"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425909"
 ---
 # <a name="applying-a-sample-provider-template"></a>应用示例提供程序模板
 

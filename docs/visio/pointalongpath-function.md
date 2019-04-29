@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7f91e5d9-89b8-5a0d-e01f-aa81fbd5e1fd
 description: 返回路径上某一点的坐标或在路径中的偏离量。
 ms.openlocfilehash: ce8b54bbd821cbfa6eb1f2789193ff8d7dda42d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348256"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430481"
 ---
 # <a name="pointalongpath-function"></a>POINTALONGPATH 函数
 
@@ -40,7 +40,7 @@ POINTALONGPATH (* * *section* * *, * **差旅** * * * *[, offset]* * * * *[, seg
 
  **Point**
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果_section_或_segment_不存在, Microsoft Visio 将返回 #REF!。 
   

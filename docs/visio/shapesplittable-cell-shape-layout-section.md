@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 6330304a-71f3-62b4-1b27-14495e3f12c3
 description: 指示此一维形状是否可以拆分。
 ms.openlocfilehash: 9f92cf7d147be8e59d860bcc8a958bf0cdc008c6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349152"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427071"
 ---
 # <a name="shapesplittable-cell-shape-layout-section"></a>ShapeSplittable 单元格（“Shape Layout”内容）
 
 指示此一维形状是否可以拆分。 
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 不允许拆分此形状。  <br/> |**visSLOSplittableNone** <br/> |
 | 1  <br/> | 允许拆分此形状。  <br/> |**visSLOSplittableAllow** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 连接线和其他一维形状的默认行为取决于绘图类型。 
   

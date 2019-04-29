@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2d4231b5-4096-4c0d-b694-65e2d04172b8
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: de9635fa77cd0c282723e0f76eabd6bc0d0dbab9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339345"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429752"
 ---
 # <a name="pidtagsupplementaryinfo-canonical-property"></a>PidTagSupplementaryInfo 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32339345"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性包含邮件传输代理或与报告相关的传输提供程序生成的信息。 它通常用于传递或 nondelivery 报告文本, 这些文本源于基础邮件系统。
   

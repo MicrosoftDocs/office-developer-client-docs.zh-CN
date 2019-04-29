@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 375d65b1-607d-4e2a-8052-9bcbf08fc2ac
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4ab0e4b023e6af19f650abf421aed122dcc21879
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338575"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428226"
 ---
 # <a name="iablogonadvise"></a>IABLogon::Advise
 
@@ -86,7 +86,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 通讯簿提供程序无法处理在_lpEntryID_中传递的条目标识符。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通讯簿提供程序实现**IABLogon:: Advise**方法, 以注册呼叫者在其某个容器中的对象发生更改时收到通知。 呼叫者可以注册有关邮件用户、通讯组列表或整个容器的通知。 
   

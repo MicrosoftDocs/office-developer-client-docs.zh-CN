@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 5d07c259-0ceb-4ea5-98b4-b01720edfe2a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 86aa8451b5b127764134f1a3a905366fd014d0c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346851"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430628"
 ---
 # <a name="mapi-implemented-objects"></a>MAPI 实现的对象
   
@@ -31,7 +31,7 @@ MAPI 为服务提供程序提供了两个对象: 一个支持对象和一个 TNE
   
 下表汇总了 MAPI 实现的每个对象的用途。
   
-|**MAPI 对象**|**Description**|
+|**MAPI 对象**|**说明**|
 |:-----|:-----|
 |通讯簿  <br/> |提供对属于活动配置文件中的所有通讯簿提供程序的收件人信息的集成视图的访问。  <br/> |
 |邮件服务管理  <br/> |提供对用于配置的邮件服务信息的访问权限。  <br/> |

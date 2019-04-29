@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ef62f63f-b2ce-4d12-a294-93dbdc9a869d
 description: 返回一个 RGB 值或一个整数, 表示文档的调色板中的索引, 其中的颜色 (数字) 以参数形式传入, 并由活动主题的渐变设置中存储的指定淡色或底纹值修改。
 ms.openlocfilehash: 014dc04c5114e296cd2226f3cf04dfb729817578
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332261"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429136"
 ---
 # <a name="themecbv-function"></a>THEMECBV 函数
 
@@ -38,7 +38,7 @@ ms.locfileid: "32332261"
 
  **Number**
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 > [!NOTE]
 > 如果分配给形状的 QuickStyle 没有渐变, 则 THEMECBV 函数对作为参数传入的颜色不执行任何操作。 

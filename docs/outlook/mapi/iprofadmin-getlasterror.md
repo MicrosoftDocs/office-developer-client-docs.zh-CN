@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bb161d7b-ae5b-4f8e-a506-8346ac5e583d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: b6964ecde3a78bd1e9ce0ae1dcab0342c5a21a03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317085"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430771"
 ---
 # <a name="iprofadmingetlasterror"></a>IProfAdmin::GetLastError
 
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IProfAdmin:: GetLastError**方法检索有关从配置文件管理对象的方法调用中返回的最后一个错误的信息。 
   

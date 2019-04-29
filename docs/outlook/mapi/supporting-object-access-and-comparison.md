@@ -9,11 +9,11 @@ api_type:
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 2b62f92325fcebf8cd3f0c86d28d98e7ff511ee2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349607"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429031"
 ---
 # <a name="supporting-object-access-and-comparison"></a>支持对象访问和比较
 

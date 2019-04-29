@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7b7cb295-fc77-a8b9-aac9-e548f3b4afcb
 ms.openlocfilehash: 007a44d13565889b4775f2d3fe9979685e1878b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322272"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425062"
 ---
 # <a name="iolkaccount"></a>IOlkAccount
 
@@ -24,7 +24,7 @@ ms.locfileid: "32322272"
 |继承自:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |实现者：  <br/> |Outlook  <br/> |
 |提供者：  <br/> |[IOlkAccountManager:: FindAccount](iolkaccountmanager-findaccount.md)和[IOlkEnum:: GetNext](iolkenum-getnext.md) <br/> |
-|调用者：  <br/> |客户端  <br/> |
+|调用者：  <br/> |Client  <br/> |
 |接口标识符:  <br/> |IID_IOlkAccount  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
@@ -67,7 +67,7 @@ ms.locfileid: "32322272"
 |[PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) <br/> |检索或设置帐户的通讯簿条目 ID。  <br/> |
 |[PROP_MAPI_TRANSPORT_FLAGS](prop_mapi_transport_flags.md) <br/> |表示 Microsoft Outlook 用于确定必要的同步任务并禁用该帐户不支持的用户界面 (UI) 元素的传输设置。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当您在枚举器中获取支持**IOlkAccount**和**IOlkEnum:: GetNext**的帐户时, **IOlkAccountManager:: FindAccount**将返回此接口。 
   

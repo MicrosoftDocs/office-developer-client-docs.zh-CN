@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5905b9e9-c462-451d-a49f-1f3a8aa506a6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: aba61d4acf7c1f9a5d91fa15f1ca6b16f173bcb2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309707"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426133"
 ---
 # <a name="imsgserviceadmin--iunknown"></a>IMsgServiceAdmin : IUnknown
 
@@ -53,7 +53,7 @@ ms.locfileid: "32309707"
 |[SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) <br/> |将邮件服务指定为配置文件的主标识的供应商。  <br/> |
 |[GetProviderTable](imsgserviceadmin-getprovidertable.md) <br/> |提供对提供程序表的访问权限 (配置文件中的服务提供程序的列表)。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 实现可以通过以下两种方式获取指向**IMsgServiceAdmin**接口的指针: 调用[IMAPISession:: AdminServices](imapisession-adminservices.md)方法或调用[IProfAdmin:: AdminServices](iprofadmin-adminservices.md)方法。 对于主要关注配置文件配置的客户端, **IProfAdmin:: AdminServices**是获取**IMsgServiceAdmin**接口的首选方法, 因为它不会登录到 MAPI 会话的提供程序。 如果客户端要求对活动配置文件进行更改, 则应调用**IMAPISession:: AdminServices**以获取**IMsgServiceAdmin**指针。 请注意, 虽然 MAPI 不允许删除正在使用的配置文件, 但没有防止客户端删除配置文件中的所有邮件服务的安全措施。 
   

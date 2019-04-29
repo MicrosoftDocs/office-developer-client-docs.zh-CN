@@ -9,11 +9,11 @@ api_type:
 ms.assetid: f3475206-0237-4b5b-8efd-abd5d5e0b6c3
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 3f1c6497a182231645691f669d8900d33b495503
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328523"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430047"
 ---
 # <a name="property-sheet-implementation"></a>属性表实现
 

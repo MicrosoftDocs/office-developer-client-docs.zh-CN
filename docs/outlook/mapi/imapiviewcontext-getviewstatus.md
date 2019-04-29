@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2e5ec914-7171-41ce-a6fe-78dd80ac32ff
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bb8699746b3f4207ee70edd4e56d0ec6041beac2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351175"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429012"
 ---
 # <a name="imapiviewcontextgetviewstatus"></a>IMAPIViewContext::GetViewStatus
 
@@ -77,7 +77,7 @@ S_OK
   
 > 已成功返回查看器的状态。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单对象调用**IMAPIViewContext:: GetViewStatus**方法, 以确定在一种或两种方向的 "窗体" 视图中是否有更多的要激活的邮件, 这些方向是在 "**下一步**" 命令激活邮件的方向, 在上一个命令激活邮件的方向, 或在两个方向**上**激活邮件的方向。 _lpulStatus_参数所指向的值用于确定 VCSTATUS_NEXT 和 VCSTATUS_PREV 标志对[IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md)是否有效。 如果设置了 VCSTATUS_DELETE 标志, 而不是 VCSTATUS_READONLY 标志, 则可以使用[IMAPIMessageSite::D eletemessage](imapimessagesite-deletemessage.md)方法删除邮件。 
   

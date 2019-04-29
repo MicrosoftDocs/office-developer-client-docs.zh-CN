@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: caafab24-6413-4731-813d-cba3ae9ea97e
 description: 任何网站集管理员都可以直接从 InfoPath Designer 发布向导中将包含代码的表单发布到 SharePoint 上的表单库。代码将在沙盒环境中执行，以使恶意代码无法损害服务器。这称为发布沙盒解决方案或发布到 SharePoint 沙盒基础结构。
 ms.openlocfilehash: f8f8a48ea6810b5331198f6ddc112b3bd38ab886
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303505"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428324"
 ---
 # <a name="publishing-forms-with-code"></a>发布包含代码的表单
 

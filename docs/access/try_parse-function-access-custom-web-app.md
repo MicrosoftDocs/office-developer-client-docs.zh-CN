@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ed35263c-b0ad-4269-9caa-c0164015e980
 description: 将文本值分析为应用程序的区域性中的指定数据类型, 如果转换无效, 则返回 Null。
 ms.openlocfilehash: 5d201557607d2d18c36238d9658b705a6a49fda8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307796"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427526"
 ---
 # <a name="tryparse-function-access-custom-web-app"></a>Try_Parse 函数 (Access 自定义 web 应用程序)
 
@@ -32,7 +32,7 @@ ms.locfileid: "32307796"
 | *TextExpression*  <br/> |表示要分析为指定数据类型的格式化值的文本表达式。  <br/> |
 | *DataType*  <br/> |要在其中分析*TextExpression*的数据类型。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 仅使用**Try_Parse**将字符串转换为日期/时间和数字类型。 对于常规类型转换, 请继续使用**Convert**。 
   
