@@ -8,35 +8,35 @@ localization_priority: Normal
 ms.assetid: b3880511-dd27-4dc2-9e50-a49084ef8195
 description: 指示形状是否可以参与替换操作 (作为目标或替换形状)。
 ms.openlocfilehash: 8b0e3175cacd9b906d91a4185dcd98fad604d8bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348221"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404139"
 ---
-# <a name="lockreplace-cell-protection-section"></a><span data-ttu-id="01873-103">LockReplace 单元格 ("Protection" 部分)</span><span class="sxs-lookup"><span data-stu-id="01873-103">LockReplace Cell (Protection Section)</span></span>
+# <a name="lockreplace-cell-protection-section"></a><span data-ttu-id="99899-103">LockReplace 单元格 ("Protection" 部分)</span><span class="sxs-lookup"><span data-stu-id="99899-103">LockReplace Cell (Protection Section)</span></span>
 
-<span data-ttu-id="01873-104">指示形状是否可以参与替换操作 (作为目标或替换形状)。</span><span class="sxs-lookup"><span data-stu-id="01873-104">Indicates whether a shape can participate in a replacement operation (as either a target or a replacement shape).</span></span> 
+<span data-ttu-id="99899-104">指示形状是否可以参与替换操作 (作为目标或替换形状)。</span><span class="sxs-lookup"><span data-stu-id="99899-104">Indicates whether a shape can participate in a replacement operation (as either a target or a replacement shape).</span></span> 
   
-|<span data-ttu-id="01873-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="01873-105">**Value**</span></span>|<span data-ttu-id="01873-106">**说明**</span><span class="sxs-lookup"><span data-stu-id="01873-106">**Description**</span></span>|
+|<span data-ttu-id="99899-105">**值**</span><span class="sxs-lookup"><span data-stu-id="99899-105">**Value**</span></span>|<span data-ttu-id="99899-106">**说明**</span><span class="sxs-lookup"><span data-stu-id="99899-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="01873-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="01873-107">TRUE</span></span>  <br/> |<span data-ttu-id="01873-108">无法替换形状, 也不能将其用作替换形状。</span><span class="sxs-lookup"><span data-stu-id="01873-108">The shape cannot be replaced or be used as a replacement shape.</span></span>  <br/> <span data-ttu-id="01873-109">对于画布上的形状, 当选择该形状时, "**更改形状**" 按钮将被禁用。</span><span class="sxs-lookup"><span data-stu-id="01873-109">For a shape on the canvas, the **Change Shape** button is disabled when the shape is selected.</span></span>  <br/> <span data-ttu-id="01873-110">对于模具上的形状, 单击 "**更改形状**" 按钮时, 该形状不会显示为替换形状。</span><span class="sxs-lookup"><span data-stu-id="01873-110">For a shape on a stencil, the shape does not appear as a replacement shape when the **Change Shape** button is clicked.</span></span>  <br/> |
-|<span data-ttu-id="01873-111">FALSE</span><span class="sxs-lookup"><span data-stu-id="01873-111">FALSE</span></span>  <br/> |<span data-ttu-id="01873-112">可以将形状替换或用作替换形状。</span><span class="sxs-lookup"><span data-stu-id="01873-112">The shape can be replaced or used as a replacement shape.</span></span>  <br/> |
+|<span data-ttu-id="99899-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="99899-107">TRUE</span></span>  <br/> |<span data-ttu-id="99899-108">无法替换形状, 也不能将其用作替换形状。</span><span class="sxs-lookup"><span data-stu-id="99899-108">The shape cannot be replaced or be used as a replacement shape.</span></span>  <br/> <span data-ttu-id="99899-109">对于画布上的形状, 当选择该形状时, "**更改形状**" 按钮将被禁用。</span><span class="sxs-lookup"><span data-stu-id="99899-109">For a shape on the canvas, the **Change Shape** button is disabled when the shape is selected.</span></span>  <br/> <span data-ttu-id="99899-110">对于模具上的形状, 单击 "**更改形状**" 按钮时, 该形状不会显示为替换形状。</span><span class="sxs-lookup"><span data-stu-id="99899-110">For a shape on a stencil, the shape does not appear as a replacement shape when the **Change Shape** button is clicked.</span></span>  <br/> |
+|<span data-ttu-id="99899-111">FALSE</span><span class="sxs-lookup"><span data-stu-id="99899-111">FALSE</span></span>  <br/> |<span data-ttu-id="99899-112">可以将形状替换或用作替换形状。</span><span class="sxs-lookup"><span data-stu-id="99899-112">The shape can be replaced or used as a replacement shape.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="01873-113">注解</span><span class="sxs-lookup"><span data-stu-id="01873-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="99899-113">说明</span><span class="sxs-lookup"><span data-stu-id="99899-113">Remarks</span></span>
 
-<span data-ttu-id="01873-114">若要从另一个公式按名称获取对**LockReplace**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用:</span><span class="sxs-lookup"><span data-stu-id="01873-114">To get a reference to the **LockReplace** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="99899-114">若要从另一个公式按名称获取对**LockReplace**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用:</span><span class="sxs-lookup"><span data-stu-id="99899-114">To get a reference to the **LockReplace** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="01873-115">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="01873-115">Cell name:</span></span>  <br/> | <span data-ttu-id="01873-116">LockReplace</span><span class="sxs-lookup"><span data-stu-id="01873-116">LockReplace</span></span>  <br/> |
+| <span data-ttu-id="99899-115">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="99899-115">Cell name:</span></span>  <br/> | <span data-ttu-id="99899-116">LockReplace</span><span class="sxs-lookup"><span data-stu-id="99899-116">LockReplace</span></span>  <br/> |
    
-<span data-ttu-id="01873-117">若要从某个程序按索引获取对**LockReplace**单元格的引用, 请使用带下列参数的**CellsSRC**属性:</span><span class="sxs-lookup"><span data-stu-id="01873-117">To get a reference to the **LockReplace** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="99899-117">若要从某个程序按索引获取对**LockReplace**单元格的引用, 请使用带下列参数的**CellsSRC**属性:</span><span class="sxs-lookup"><span data-stu-id="99899-117">To get a reference to the **LockReplace** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="01873-118">内容索引：</span><span class="sxs-lookup"><span data-stu-id="01873-118">Section index:</span></span>  <br/> |<span data-ttu-id="01873-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="01873-119">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="01873-120">行索引：</span><span class="sxs-lookup"><span data-stu-id="01873-120">Row index:</span></span>  <br/> |<span data-ttu-id="01873-121">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="01873-121">**visRowLock**</span></span> <br/> |
-| <span data-ttu-id="01873-122">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="01873-122">Cell index:</span></span>  <br/> |<span data-ttu-id="01873-123">**visLockReplace**</span><span class="sxs-lookup"><span data-stu-id="01873-123">**visLockReplace**</span></span> <br/> |
+| <span data-ttu-id="99899-118">内容索引：</span><span class="sxs-lookup"><span data-stu-id="99899-118">Section index:</span></span>  <br/> |<span data-ttu-id="99899-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="99899-119">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="99899-120">行索引：</span><span class="sxs-lookup"><span data-stu-id="99899-120">Row index:</span></span>  <br/> |<span data-ttu-id="99899-121">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="99899-121">**visRowLock**</span></span> <br/> |
+| <span data-ttu-id="99899-122">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="99899-122">Cell index:</span></span>  <br/> |<span data-ttu-id="99899-123">**visLockReplace**</span><span class="sxs-lookup"><span data-stu-id="99899-123">**visLockReplace**</span></span> <br/> |
    
 

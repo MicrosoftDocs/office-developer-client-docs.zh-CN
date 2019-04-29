@@ -9,16 +9,16 @@ api_type:
 ms.assetid: a0aac5e9-4d66-41fc-a2da-dec6ab1f1035
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 145d054334a2d5a861896a2f5b6610d660000117
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318163"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404230"
 ---
-# <a name="attoriginalmessageclass"></a><span data-ttu-id="5c1c2-103">attOriginalMessageClass</span><span class="sxs-lookup"><span data-stu-id="5c1c2-103">attOriginalMessageClass</span></span>
+# <a name="attoriginalmessageclass"></a><span data-ttu-id="2c2ee-103">attOriginalMessageClass</span><span class="sxs-lookup"><span data-stu-id="2c2ee-103">attOriginalMessageClass</span></span>
 
-<span data-ttu-id="5c1c2-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5c1c2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2c2ee-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2c2ee-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5c1c2-105">邮件类别存储为字符串。</span><span class="sxs-lookup"><span data-stu-id="5c1c2-105">A message class is stored as a string.</span></span> <span data-ttu-id="5c1c2-106">已编码的字符串通常包含邮件类的 MAPI 指定名称。</span><span class="sxs-lookup"><span data-stu-id="5c1c2-106">The encoded string usually holds the MAPI-specified name of the message class.</span></span>
+<span data-ttu-id="2c2ee-105">邮件类别存储为字符串。</span><span class="sxs-lookup"><span data-stu-id="2c2ee-105">A message class is stored as a string.</span></span> <span data-ttu-id="2c2ee-106">已编码的字符串通常包含邮件类的 MAPI 指定名称。</span><span class="sxs-lookup"><span data-stu-id="2c2ee-106">The encoded string usually holds the MAPI-specified name of the message class.</span></span>
   
 

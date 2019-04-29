@@ -10,31 +10,31 @@ localization_priority: Normal
 ms.assetid: 871b8601-8117-bc51-17b9-6002234b4bfb
 description: 函数用于执行单个明确任务。大多数函数都使用若干参数作为输入。虽然参数的类型和数目取决于函数，但所有函数都遵循同一通用语法：
 ms.openlocfilehash: 14995b0f7e3c1cc8346d47965038902b8ca4e8bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345057"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415976"
 ---
-# <a name="about-functions"></a><span data-ttu-id="13b36-105">关于函数</span><span class="sxs-lookup"><span data-stu-id="13b36-105">About Functions</span></span>
+# <a name="about-functions"></a><span data-ttu-id="71694-105">关于函数</span><span class="sxs-lookup"><span data-stu-id="71694-105">About Functions</span></span>
 
-<span data-ttu-id="13b36-p102">函数用于执行单个明确任务。大多数函数都使用若干参数作为输入。虽然参数的类型和数目取决于函数，但所有函数都遵循同一通用语法：</span><span class="sxs-lookup"><span data-stu-id="13b36-p102">A function performs a single well-defined task. Most functions take a number of arguments as input. Although the type and number of arguments depend on the function, all functions have the same general syntax:</span></span>
+<span data-ttu-id="71694-p102">函数用于执行单个明确任务。大多数函数都使用若干参数作为输入。虽然参数的类型和数目取决于函数，但所有函数都遵循同一通用语法：</span><span class="sxs-lookup"><span data-stu-id="71694-p102">A function performs a single well-defined task. Most functions take a number of arguments as input. Although the type and number of arguments depend on the function, all functions have the same general syntax:</span></span>
   
- <span data-ttu-id="13b36-109">**函数 (** _argument1_、 _argument2_、.。。</span><span class="sxs-lookup"><span data-stu-id="13b36-109">**FUNCTION(** _argument1_,  _argument2_, …</span></span>  <span data-ttu-id="13b36-110">_argumentN_[, _argumentA_ |  _参数_ **])**</span><span class="sxs-lookup"><span data-stu-id="13b36-110">_argumentN_ [,  _argumentA_ |  _argument_ **])**</span></span>
+ <span data-ttu-id="71694-109">**函数 (** _argument1_、 _argument2_、.。。</span><span class="sxs-lookup"><span data-stu-id="71694-109">**FUNCTION(** _argument1_,  _argument2_, …</span></span>  <span data-ttu-id="71694-110">_argumentN_[, _argumentA_ |  _参数_ **])**</span><span class="sxs-lookup"><span data-stu-id="71694-110">_argumentN_ [,  _argumentA_ |  _argument_ **])**</span></span>
   
-|<span data-ttu-id="13b36-111">**语法元素**</span><span class="sxs-lookup"><span data-stu-id="13b36-111">**Syntax element**</span></span>|<span data-ttu-id="13b36-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="13b36-112">**Description**</span></span>|
+|<span data-ttu-id="71694-111">**语法元素**</span><span class="sxs-lookup"><span data-stu-id="71694-111">**Syntax element**</span></span>|<span data-ttu-id="71694-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="71694-112">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="13b36-113">( )</span><span class="sxs-lookup"><span data-stu-id="13b36-113"></span></span>  <br/> | <span data-ttu-id="13b36-114">如果函数没有参数，则必须紧跟一对空括号（）。</span><span class="sxs-lookup"><span data-stu-id="13b36-114">If a function takes no arguments, it must be followed by an empty set of parentheses ( ).</span></span>  <br/> |
-| <span data-ttu-id="13b36-115">,</span><span class="sxs-lookup"><span data-stu-id="13b36-115"></span></span>  <br/> | <span data-ttu-id="13b36-116">各参数用逗号分隔。</span><span class="sxs-lookup"><span data-stu-id="13b36-116">Arguments are separated by a comma.</span></span>  <br/> |
-| <span data-ttu-id="13b36-117">...</span><span class="sxs-lookup"><span data-stu-id="13b36-117"></span></span>  <br/> | <span data-ttu-id="13b36-118">仅用作注释；不纳入函数。</span><span class="sxs-lookup"><span data-stu-id="13b36-118">Used for notation only; do not include in a function.</span></span>  <br/> |
-| <span data-ttu-id="13b36-119">[ ]</span><span class="sxs-lookup"><span data-stu-id="13b36-119"></span></span>  <br/> | <span data-ttu-id="13b36-p104">可选参数。仅用作注释；不纳入函数。</span><span class="sxs-lookup"><span data-stu-id="13b36-p104">Optional argument. Used for notation only; do not include in a function.</span></span>  <br/> |
-| |  <br/> | <span data-ttu-id="13b36-122">一种选择;可以包含_argumentA_或_参数_。</span><span class="sxs-lookup"><span data-stu-id="13b36-122">A choice; you can include  _argumentA_ or  _argument_.</span></span> <span data-ttu-id="13b36-123">仅用作注释；不纳入函数。</span><span class="sxs-lookup"><span data-stu-id="13b36-123">Used for notation only; do not include in a function.</span></span>  <br/> |
+| <span data-ttu-id="71694-113">( )</span><span class="sxs-lookup"><span data-stu-id="71694-113"></span></span>  <br/> | <span data-ttu-id="71694-114">如果函数没有参数，则必须紧跟一对空括号（）。</span><span class="sxs-lookup"><span data-stu-id="71694-114">If a function takes no arguments, it must be followed by an empty set of parentheses ( ).</span></span>  <br/> |
+| <span data-ttu-id="71694-115">,</span><span class="sxs-lookup"><span data-stu-id="71694-115"></span></span>  <br/> | <span data-ttu-id="71694-116">各参数用逗号分隔。</span><span class="sxs-lookup"><span data-stu-id="71694-116">Arguments are separated by a comma.</span></span>  <br/> |
+| <span data-ttu-id="71694-117">...</span><span class="sxs-lookup"><span data-stu-id="71694-117"></span></span>  <br/> | <span data-ttu-id="71694-118">仅用作注释；不纳入函数。</span><span class="sxs-lookup"><span data-stu-id="71694-118">Used for notation only; do not include in a function.</span></span>  <br/> |
+| <span data-ttu-id="71694-119">[ ]</span><span class="sxs-lookup"><span data-stu-id="71694-119"></span></span>  <br/> | <span data-ttu-id="71694-p104">可选参数。仅用作注释；不纳入函数。</span><span class="sxs-lookup"><span data-stu-id="71694-p104">Optional argument. Used for notation only; do not include in a function.</span></span>  <br/> |
+| |  <br/> | <span data-ttu-id="71694-122">一种选择;可以包含_argumentA_或_参数_。</span><span class="sxs-lookup"><span data-stu-id="71694-122">A choice; you can include  _argumentA_ or  _argument_.</span></span> <span data-ttu-id="71694-123">仅用作注释；不纳入函数。</span><span class="sxs-lookup"><span data-stu-id="71694-123">Used for notation only; do not include in a function.</span></span>  <br/> |
    
-<span data-ttu-id="13b36-p106">在公式中可使用的很多函数都类似于您在电子表格程序中见到的函数：数学函数，如 SUM 或 SQRT；三角函数，如 SIN 或 COS；逻辑函数，如 IF 或 NOT。还有很多函数是 Microsoft Office Visio 独有的，如 GUARD、GRAVITY 和 RUNADDON。</span><span class="sxs-lookup"><span data-stu-id="13b36-p106">Many functions that you can use in formulas resemble those you have seen in spreadsheet programs: mathematical, such as SUM or SQRT; trigonometric, such as SIN or COS; or logical, such as IF or NOT. Many other functions are unique to Microsoft Office Visio, such as GUARD, GRAVITY, and RUNADDON.</span></span>
+<span data-ttu-id="71694-p106">在公式中可使用的很多函数都类似于您在电子表格程序中见到的函数：数学函数，如 SUM 或 SQRT；三角函数，如 SIN 或 COS；逻辑函数，如 IF 或 NOT。还有很多函数是 Microsoft Office Visio 独有的，如 GUARD、GRAVITY 和 RUNADDON。</span><span class="sxs-lookup"><span data-stu-id="71694-p106">Many functions that you can use in formulas resemble those you have seen in spreadsheet programs: mathematical, such as SUM or SQRT; trigonometric, such as SIN or COS; or logical, such as IF or NOT. Many other functions are unique to Microsoft Office Visio, such as GUARD, GRAVITY, and RUNADDON.</span></span>
   
-<span data-ttu-id="13b36-126">有关特定函数的详细信息，请参阅“ShapeSheet 参考”。</span><span class="sxs-lookup"><span data-stu-id="13b36-126">For more information on specific functions, see this ShapeSheet Reference.</span></span>
+<span data-ttu-id="71694-126">有关特定函数的详细信息，请参阅“ShapeSheet 参考”。</span><span class="sxs-lookup"><span data-stu-id="71694-126">For more information on specific functions, see this ShapeSheet Reference.</span></span>
   
 > [!NOTE]
->  <span data-ttu-id="13b36-127">某些函数显示在由 Visio 生成的公式中, 但不会显示在 "**编辑公式**" 对话框中, 也不会在此参考中说明, 因为它们保留供内部使用, 不应在其他公式中使用。</span><span class="sxs-lookup"><span data-stu-id="13b36-127">Certain functions appear in formulas generated by Visio, but are not shown in the **Edit Formula** dialog box or described in this reference because they are reserved for internal use and should not be used in other formulas.</span></span> <span data-ttu-id="13b36-128">这样的函数有 ELLIPSE_THETA、_ELLIPSE_ECC、_UCON_C1 和 _SHAPEMIN 等。</span><span class="sxs-lookup"><span data-stu-id="13b36-128">Following are examples: ELLIPSE_THETA, _ELLIPSE_ECC, _UCON_C1, and _SHAPEMIN.</span></span> 
+>  <span data-ttu-id="71694-127">某些函数显示在由 Visio 生成的公式中, 但不会显示在 "**编辑公式**" 对话框中, 也不会在此参考中说明, 因为它们保留供内部使用, 不应在其他公式中使用。</span><span class="sxs-lookup"><span data-stu-id="71694-127">Certain functions appear in formulas generated by Visio, but are not shown in the **Edit Formula** dialog box or described in this reference because they are reserved for internal use and should not be used in other formulas.</span></span> <span data-ttu-id="71694-128">这样的函数有 ELLIPSE_THETA、_ELLIPSE_ECC、_UCON_C1 和 _SHAPEMIN 等。</span><span class="sxs-lookup"><span data-stu-id="71694-128">Following are examples: ELLIPSE_THETA, _ELLIPSE_ECC, _UCON_C1, and _SHAPEMIN.</span></span> 
   
 
