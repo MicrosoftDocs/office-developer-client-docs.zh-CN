@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6f3d98a3133d79f78f4eb676d49ec85ef5a359f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340115"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423998"
 ---
 # <a name="dtblpage"></a>DTBLPAGE
 
@@ -65,7 +65,7 @@ MAPI_UNICODE
   
 > **ulbLpszComponent**成员定义的字符串中选项卡式页面的唯一标识符。 **ulbLpszComponent**成员和**ulContext**成员必须均为非零, "**帮助**" 按钮才能正常工作。 如果此标识符为零, 并且组件字符串为 NULL, 则没有与该页面关联的帮助。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTBLPAGE**结构描述了一个用于分隔多个相关对话框的选项卡式页面控件。 通常情况下, 这些对话框是用于显示配置、消息或收件人选项的属性表。 通过单击该选项卡, 用户可以从一张工作表切换到另一张。 
   

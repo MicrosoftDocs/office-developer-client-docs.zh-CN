@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 94c640d8-99e9-9d15-8ada-d9abeb3d66f7
 description: 返回文档属性的 "标题" 字段中的文本。
 ms.openlocfilehash: 395356fcffddfaf8d796708acc31db297ef01b35
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281026"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424411"
 ---
 # <a name="title-function"></a>TITLE 函数
 

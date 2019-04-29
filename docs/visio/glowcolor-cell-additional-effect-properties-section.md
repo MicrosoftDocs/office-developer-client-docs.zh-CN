@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 640d18c0-5b6a-4a2f-9c81-f74de5ba9eb1
 description: 确定用于将用于形状的外部发光的描边的颜色, 如 RGB 或主题值。
 ms.openlocfilehash: 726dbef7ae006af1a6ff9956d16eb73cfdd02974
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314950"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422633"
 ---
 # <a name="glowcolor-cell-additional-effect-properties-section"></a>GlowColor 单元格 ("其他效果属性" 部分)
 
 确定用于将用于形状的外部发光的描边的颜色, 如 RGB 或主题值。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**GlowColor**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

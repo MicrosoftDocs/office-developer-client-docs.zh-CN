@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: abd175af-ad4e-b84a-2687-2c9358653499
 ms.openlocfilehash: 3daeb4704a33ba836cf82c9ab3517c6ca6be8db7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359589"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426056"
 ---
 # <a name="lockfromgroupformat-cell-protection-section"></a>LockFromGroupFormat 单元格（“Protection”内容）
 

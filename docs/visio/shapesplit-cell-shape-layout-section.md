@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 96b8c503-67b3-8623-d99b-0dad7b15c224
 description: 指示此形状是否可以拆分其他可拆分的形状。
 ms.openlocfilehash: 46b42e9be070b54095d3e9a5c247d63be6348f77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349117"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423557"
 ---
 # <a name="shapesplit-cell-shape-layout-section"></a>ShapeSplit 单元格（“Shape Layout”内容）
 
 指示此形状是否可以拆分其他可拆分的形状。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 不允许此形状拆分其他形状。  <br/> |**visSLOSplitNone** <br/> |
 | 1  <br/> | 允许此形状拆分其他形状。  <br/> |**visSLOSplitAllow** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以拆分其他形状的形状必须是二维形状或一维可放置形状。 
   

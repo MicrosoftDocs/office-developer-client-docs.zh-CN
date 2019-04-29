@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 784c8a5a-493e-48e6-8784-ba8122c76e3d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 87be6df27a3e6729cb514118438521d76a66b30c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339835"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423662"
 ---
 # <a name="scontentrestriction"></a>SContentRestriction
  
@@ -69,7 +69,7 @@ typedef struct _SContentRestriction
   
 > 指向属性值结构的指针, 该结构包含要用作搜索字符串的字符串值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SContentRestriction**结构中有两个属性标记: 一个在**ulPropTag**成员中, 另一个位于**lpProp**指向的**SPropValue**结构的**ulPropTag**成员中。 在这两个标记中, MAPI 仅需要属性类型字段, 并且忽略属性标识符字段。 但是, 这两个属性类型必须匹配, 否则在对[IMAPITable:: Restrict](imapitable-restrict.md)或[imapitable:: FindRow](imapitable-findrow.md)的调用中使用限制时, 将返回错误值 MAPI_E_TOO_COMPLEX。 
   

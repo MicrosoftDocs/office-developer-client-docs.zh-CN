@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 3b20e6ef-f1ac-5bb0-5ac3-4df3ae5e9bf9
 description: 确定是否能通过将一个形状拖放到组合中的方法将形状添加到组合中。
 ms.openlocfilehash: e8cb02a66f745530f12c7c8be56b9bdd771121b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360170"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421891"
 ---
 # <a name="isdropsource-cell-miscellaneous-section"></a>IsDropSource 单元格（“Miscellaneous”内容）
 
 确定是否能通过将一个形状拖放到组合中的方法将形状添加到组合中。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |可以通过将一个形状拖放到组合中的方法将形状添加到组合中。  <br/> |
 |FALSE  <br/> |不能将形状添加到组合中。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以采用以下方法设置此值：选择该形状，在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上单击 **“行为”**，然后选中 **“放下时将形状添加到组合”** 复选框。 
   

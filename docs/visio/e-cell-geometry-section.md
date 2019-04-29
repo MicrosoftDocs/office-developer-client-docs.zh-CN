@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: bc0154b1-6930-1fe0-655c-05eab2d60230
 description: 包含非均匀有理 B 样条 (NURBS) 公式。
 ms.openlocfilehash: 5c9b3cbf96e2a218a8ed790d3a5615843360c95e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327389"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423564"
 ---
 # <a name="e-cell-geometry-section"></a>E 单元格（“Geometry”内容）
 
 包含非均匀有理 B 样条 (NURBS) 公式。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 E 单元格的引用，请使用： 
   

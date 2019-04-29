@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 930c906d-d6f0-49ad-8ed7-336e7833d672
 description: 返回查询或表中表达式中的最小值。
 ms.openlocfilehash: 95407c95dc85b83b1da784ce2ab27cba2137363d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308160"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431685"
 ---
 # <a name="min-function-access-custom-web-app"></a>Min 函数 (Access 自定义 web 应用程序)
 

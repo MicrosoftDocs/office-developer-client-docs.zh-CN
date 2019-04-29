@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: fd42a6ce-f621-4e9e-aba3-23a1b87a5651
 description: 包含与在“定义形状数据”对话框中输入的形状数据项值相同的值。
 ms.openlocfilehash: 40d9e7fdd92ac8fa800a146ea45bbcd002ace87b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355970"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431902"
 ---
 # <a name="value-cell-shape-data-section"></a>Value 单元格（“Shape Data”内容）
 
 包含与在 **“定义形状数据”** 对话框中输入的形状数据项值相同的值。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在 **“定义形状数据”** 对话框中输入的值将取代在此单元格中输入的公式。即使使用 GUARD 函数保护该公式，也同样会取代。 
   

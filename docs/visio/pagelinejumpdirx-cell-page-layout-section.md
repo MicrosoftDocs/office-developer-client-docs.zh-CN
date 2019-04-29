@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 77892ec7-4c6a-78a5-5af4-5b6be7709e77
 description: 确定在尚未应用本地跨线方向的绘图页内水平动态连接线上的跨线方向。
 ms.openlocfilehash: 4e1213990877e1260cc8cecd5a55beda4592a844
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283735"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431006"
 ---
 # <a name="pagelinejumpdirx-cell-page-layout-section"></a>PageLineJumpDirX 单元格（“Page Layout”内容）
 
@@ -26,7 +26,7 @@ ms.locfileid: "32283735"
 | 1  <br/> | 向上  <br/> |**visLOJumpDirXUp** <br/> |
 | 双面  <br/> | 向下  <br/> |**visLOJumpDirXDown** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 PageLineJumpDirX 单元格的引用，请使用： 
   

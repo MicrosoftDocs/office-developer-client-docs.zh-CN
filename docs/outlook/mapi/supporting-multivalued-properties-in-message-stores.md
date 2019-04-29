@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 1e951ef6-899d-4277-8450-eb222a3d0ebf
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 699192160b87b7e7fd50d1758036f20d96907dfe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350594"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420792"
 ---
 # <a name="supporting-multivalued-properties-in-message-stores"></a>邮件存储中的支持多值属性
 

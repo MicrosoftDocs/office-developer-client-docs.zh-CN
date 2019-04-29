@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4aafb254-6074-4a7c-b915-d3d33304ac38
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c73fb96c9620a90ab0505b394fcb9853d02dcde5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360688"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421086"
 ---
 # <a name="screlocprops"></a>ScRelocProps
 
@@ -75,7 +75,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 一个或两个参数无效, 或者遇到未知的属性类型。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ScRelocProps**函数在假设您对其调整指针的属性值数组进行操作时, 最初是在与**ScCopyProps**函数的调用类似的单个调用中分配的。 如果客户端应用程序或服务提供程序正在使用从脱节内存块生成的属性值, 则应改用[ScCopyProps](sccopyprops.md)复制属性。 
   

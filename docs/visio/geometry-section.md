@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 75601a1e-6b1a-27ee-a2bd-69e569315982
 description: 包含列出构成形状的线条和弧形的顶点坐标的行。
 ms.openlocfilehash: 32a815015c7d1764399215767b674668b7235832
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345113"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423907"
 ---
 # <a name="geometry-section"></a>“Geometry”内容
 
@@ -22,7 +22,7 @@ ms.locfileid: "32345113"
   
 可在多个 " **geometry** " 内容中表示形状的几何图形。 当多个路径具有不同的属性 (例如,[图像剪切](clippingpath-cell-foreign-image-info-section.md)路径) 时, 多个路径可能很有用。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 " **Geometry** " 内容包含以下行类型。 有关详细信息，请参阅行主题。 
   

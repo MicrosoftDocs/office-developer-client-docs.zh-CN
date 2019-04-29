@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e316a424-d789-4ce5-bcc6-263049f3659e
 description: 指定要用于 SMTP 帐户的加密连接的类型。
 ms.openlocfilehash: 67eae5c9c5ca1b7f664ceaac0463ef3f3c9a291a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328327"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421282"
 ---
 # <a name="propsmtpsecureconnection"></a>PROP_SMTP_SECURE_CONNECTION
 
@@ -27,11 +27,11 @@ ms.locfileid: "32328327"
 |属性标记：  <br/> |0x020A0003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此值可以是下列常量之一。 有关其值, 请参阅[常量 (帐户管理 API)](constants-account-management-api.md) 。 
   
-|**Constants**|**Description**|
+|**Constants**|**说明**|
 |:-----|:-----|
 |**ENCRYPT_CONN_NO_SECURITY** <br/> |请勿使用任何加密。  <br/> |
 |**ENCRYPT_CONN_SSL** <br/> |使用安全套接字层 (SSL) 加密。  <br/> |

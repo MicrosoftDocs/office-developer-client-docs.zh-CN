@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: ae24b317-f486-763a-7009-e32c5cb85b59
 description: Microsoft InfoPath 表单编辑环境可以托管在自定义 Windows 应用程序中，这样开发人员可以将 InfoPath 表单编辑环境集成到业务线应用程序中。
 ms.openlocfilehash: b85e47d506b17982bb883c9d56ea13131807d1cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303687"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422577"
 ---
 # <a name="hosting-infopath-as-an-xml-editor-in-another-application"></a>将 InfoPath 作为 XML 编辑器托管在另一个应用程序中
 

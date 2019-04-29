@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d72331d9-a8f3-4fcb-ba26-c93210b74935
 description: 可以使用 GoToRecord 操作使指定的记录成为视图中的当前记录。
 ms.openlocfilehash: 9e4049f64ab06b68fc04599c49bd56057c5c5628
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302798"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424894"
 ---
 # <a name="gotorecord-macro-action-access-custom-web-app"></a>GoToRecord 宏操作 (Access 自定义 web 应用程序)
 

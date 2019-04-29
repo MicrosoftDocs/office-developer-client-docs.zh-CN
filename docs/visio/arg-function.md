@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 781369e1-fade-ec10-7c51-0f921b5c3b76
 description: 指定调用单元格可以传递到自定义函数的参数，以及当调用单元格未传递该参数的值时自定义函数返回的默认值。返回调用单元格指定的值以及匹配的 argName 参数。
 ms.openlocfilehash: f85c3dc4a49878b034674330f272a63e79c17d49
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341431"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422724"
 ---
 # <a name="arg-function"></a>ARG 函数
 
@@ -27,9 +27,9 @@ ARG (* * *argName* * *, [* * *defaultValue* * *])
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _argName_ <br/> |必需  <br/> |**String** <br/> |调用单元格可以传递给该函数的参数的名称。  <br/> |
-| _默认值_ <br/> |可选  <br/> |**Numeric** <br/> |如果调用单元格未传入_argName_参数的值, 则由 ARG 返回的值。  <br/> |
+| _默认值_ <br/> |可选  <br/> |**数值** <br/> |如果调用单元格未传入_argName_参数的值, 则由 ARG 返回的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 作为形状开发人员，您可以通过将某个表达式放置在一个单元格中并从一个或多个其他单元格调用该表达式来创建自定义函数。该表达式可以包括文字字符串、ShapeSheet 函数和单元格引用。该表达式也可以包括由调用单元格传递的特定参数。 
   

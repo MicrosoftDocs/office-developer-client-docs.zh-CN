@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d0d003b0-f12f-4422-b71f-26886169461f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: a8ec06fd0401a129e08a06acdb1c18785f90d4a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348753"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431776"
 ---
 # <a name="imsgstorenotifynewmail"></a>IMsgStore::NotifyNewMail
 
@@ -45,7 +45,7 @@ S_OK
   
 > 成功通知邮件存储区。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序调用**IMsgStore:: NotifyNewMail**方法, 以通知邮件存储区邮件已准备好传递。 
   

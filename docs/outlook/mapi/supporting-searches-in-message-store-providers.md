@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 30a3fe28-31ca-4eb8-9353-f75f6d339dc7
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 545047e90346b0f8e4a88eabcb20573f663f6d02
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349586"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425384"
 ---
 # <a name="supporting-searches-in-message-store-providers"></a>支持在邮件存储提供程序中进行搜索
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a07c0ee3-f6f9-4ae3-81c0-accc939ca99a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8b0b55b5a769ea47c622e3e29e873afb1220dd5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326626"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430894"
 ---
 # <a name="pidtagautoforwardcomment-canonical-property"></a>PidTagAutoForwardComment 规范属性
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e807c6b5-06cd-4ade-9d9e-69ba6abd1614
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 907984a80dbb6c5464f95def1481d002f9d6638a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329552"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430677"
 ---
 # <a name="wizardentry"></a>WIZARDENTRY
 
@@ -75,7 +75,7 @@ MAPI_E_CALL_FAILED
   
 > 意外或未知来源的错误阻止操作完成。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 "配置文件向导" 在准备好显示服务提供商的配置用户界面时调用基于**WIZARDENTRY**的函数。 配置文件向导完成配置所有提供程序后, 通过调用[IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)将配置属性写入配置文件。 
   

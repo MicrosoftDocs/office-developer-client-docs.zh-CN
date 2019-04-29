@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0f09304f21180d9ebc2a1e1dcc54ebadd3622804
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348242"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422892"
 ---
 # <a name="hrqueryallrows"></a>HrQueryAllRows
 
@@ -80,7 +80,7 @@ MAPI_E_TABLE_TOO_BIG
   
 > 表中的行数大于为_crowsMax_参数传递的数目。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序或服务提供程序不能控制**HrQueryAllRows**尝试检索的行数, 而不是通过限制_展示_参数所指向的限制。 _crowsMax_参数不会将检索限制为一定数量的表行, 而是定义可用于保存所有检索到的行的最大内存量。 对对大量内存溢出的唯一保护是通过设置_crowsMax_提供的 stopgap 功能。 错误返回 MAPI_E_TABLE_TOO_BIG 表示该表包含的行太多, 无法同时保留在内存中。 
   

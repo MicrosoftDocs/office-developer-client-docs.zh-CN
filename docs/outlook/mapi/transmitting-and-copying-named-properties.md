@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 37075cfc-461d-4983-9045-d9f1da6739be
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 6534e7344a62717e406c112249d26407b0852d93
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356642"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437775"
 ---
 # <a name="transmitting-and-copying-named-properties"></a>传输和复制命名属性
 

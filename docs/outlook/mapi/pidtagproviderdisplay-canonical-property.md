@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 62e96db8-4c3e-4f73-b695-99eb4b2396fd
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 58db944720817491420f2bcb1774e51e3842b4a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286465"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421590"
 ---
 # <a name="pidtagproviderdisplay-canonical-property"></a>PidTagProviderDisplay 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32286465"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性和**PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) 仅在属于服务提供程序的配置文件节中进行定义。 它们必须存在于 mapisvc.inf 中。
   

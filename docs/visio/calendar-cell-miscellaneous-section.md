@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 7406b46d-b42d-187c-70e8-123c4da7e781
 description: 确定当单元格公式包含日期信息时所使用的日历。
 ms.openlocfilehash: f756b0d445bd3f90b67e0b1412bd7ac51a8cdb7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337511"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421814"
 ---
 # <a name="calendar-cell-miscellaneous-section"></a>Calendar 单元格（“Miscellaneous”内容）
 
 确定当单元格公式包含日期信息时所使用的日历。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可能的值为：0（公历）、1（阿拉伯回历）、2（希伯来农历）、3（台历）、4（日本年号）、5（泰国佛历）、6（朝鲜檀纪历）、7（萨卡时代日历）、8（英语转译）和 9（法语转译）。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b1e166fd-7e15-4371-8510-63001317fb90
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 83a645b49e5bb48051bbaedb26058d2da053348b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342495"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433036"
 ---
 # <a name="pidtagmemberentryid-canonical-property"></a>PidTagMemberEntryId 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32342495"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 [IExchangeModifyTable](iexchangemodifytableiunknown.md)接口使用此属性来唯一标识对其应用了 SACL 的个人或角色。 在 SACL 表中创建成员后, 不能更改**ENTRYID** 。 若要对其进行更改, 必须删除该表成员并使用不同的**ENTRYID**重新创建它。
   

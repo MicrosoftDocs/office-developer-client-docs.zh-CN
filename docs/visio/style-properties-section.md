@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 042259e6-a40a-8ee1-6bb7-f9a54c088ad3
 description: 包含控制样式行为（如样式是否包含文本、线条和填充属性）的单元格。
 ms.openlocfilehash: 92e85a2c82df839a6f866045725067bfcc9ad8c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329816"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431328"
 ---
 # <a name="style-properties-section"></a>“Style Properties”内容
 

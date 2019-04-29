@@ -8,17 +8,17 @@ keywords:
 - 函数 [excel 2007], c api 从 dll 或 xll 调用
 localization_priority: Normal
 ms.assetid: 87c9e75b-c364-4428-a169-010886313b85
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: e6d2d3c824c482e3726cdaefa869393002a80f44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301650"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423116"
 ---
 # <a name="c-api-functions-that-can-be-called-only-from-a-dll-or-xll"></a>只能从 DLL 或 XLL 调用的 C API 函数
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 C API 提供了15个 Microsoft Excel 回调函数, 只能通过使用**Excel4**、 **Excel4v**、 **Excel12**或**Excel12v**函数 (或通过使用框架函数 Excel 间接使用这些函数之一) 来调用**** 或**Excel12f**)。 这意味着只能从 DLL 或 XLL 调用它们。
   

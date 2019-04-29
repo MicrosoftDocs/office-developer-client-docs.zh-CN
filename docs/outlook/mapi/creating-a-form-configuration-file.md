@@ -9,11 +9,11 @@ api_type:
 ms.assetid: aaf3b33d-ad2d-4ef8-847f-1ab1eaf08706
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 97ecafb2e4159c680fd23607f5ed6f8ea3156de7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32333017"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425216"
 ---
 # <a name="creating-a-form-configuration-file"></a>创建表单配置文件
 
@@ -25,7 +25,7 @@ ms.locfileid: "32333017"
   
 表单配置文件是扩展名为. cfg 的文件, 其格式与 Windows 初始化文件类似。 它是一个包含多个节的纯文本文件。 每个部分都以节名称开头, 并括在方括号中。 每个部分都包含一个或多个用于定义与该节相关的值和设置的行。 值具有以下类型之一:
   
-- 字符串
+- String
     
 - 显示的字符串
     

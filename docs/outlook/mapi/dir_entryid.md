@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 9e055269-f3bf-4b64-8384-3cbc372c0b34
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e7abcb2c86ff5cabe0b8f5664ec316244617ac09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316672"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421233"
 ---
 # <a name="direntryid"></a>DIR_ENTRYID
 
@@ -68,7 +68,7 @@ typedef struct _dir_entryid
   
 > 标识登录对象的 GUID。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 除**ulType**成员之外, 结构**DIR_ENTRYID**和[CONTAB_ENTRYID](contab_entryid.md)相同。 **ulType**成员的内容确定哪种结构适用于其余字段。 
   

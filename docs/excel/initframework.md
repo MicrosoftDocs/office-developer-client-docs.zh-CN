@@ -10,17 +10,17 @@ keywords:
 - initframework 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: c472a14a-92a6-46f6-924c-db8d6199d6fb
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 34fe8f4a606956b90a0d005b0bc523cea460153f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310680"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420751"
 ---
 # <a name="initframework"></a>InitFramework
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 framework library 函数, 它初始化框架库, 它只是初始化临时**XLOPER**/ **XLOPER12**内存数据结构, 释放已分配的任何内存。 
   

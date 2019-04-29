@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 670c2291-d5b6-4dcf-9046-9125272dd8f8
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: b187cccc4505256b7ab4d580c30eeb2e15ebf574
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278857"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421674"
 ---
 # <a name="itabledatahrdeleterow"></a>ITableData::HrDeleteRow
 
@@ -49,7 +49,7 @@ MAPI_E_NOT_FOUND
   
 > _lpSPropValue_参数指向的属性不会标识表中的行。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ITableData:: HrDeleteRow**方法删除包含与_lpSPropValue_参数指向的属性的列相匹配的表格行。 将删除该行的数据, 并从所有打开的视图中删除该行。 
   

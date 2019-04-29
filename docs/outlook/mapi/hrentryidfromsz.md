@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ac59aeb3d650c0fbeb5bcdb580e0401cbab58ee6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347808"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437726"
 ---
 # <a name="hrentryidfromsz"></a>HrEntryIDFromSz
 
@@ -65,7 +65,7 @@ MAPI_E_INVALID_ENTRYID
   
 > 条目 ID 无效。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **HrEntryIDFromSz**和[HrSzFromEntryID](hrszfromentryid.md)函数提供条目标识符的字符串和二进制格式之间的转换。 
   

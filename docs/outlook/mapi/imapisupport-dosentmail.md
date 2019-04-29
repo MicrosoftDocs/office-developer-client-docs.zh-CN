@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4bb65c2a-9926-42da-9161-47836e8de40a
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 8289b8dd2e0ab3c760e77a37b821d2fe74e4abe9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315967"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423949"
 ---
 # <a name="imapisupportdosentmail"></a>IMAPISupport::DoSentMail
 
@@ -50,7 +50,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport::D osentmail**方法是为邮件存储提供程序支持对象而实现的。 邮件存储提供程序从其[IMsgStore:: FinishedMsg](imsgstore-finishedmsg.md)方法的实现调用**DoSentMail** , 这是在处理完邮件后由 MAPI 后台处理程序调用的。 **FinishedMsg**解除锁定邮件, 确保邮件的引用计数为 1, 并调用**DoSentMail**。
   

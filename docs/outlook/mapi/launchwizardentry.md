@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5778dffa-f01b-46b3-9c19-862793740918
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c1509918eb587c17deebf95317cf57b4ab19928a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270187"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437383"
 ---
 # <a name="launchwizardentry"></a>LAUNCHWIZARDENTRY
 
@@ -95,7 +95,7 @@ MAPI_E_CALL_FAILED
   
 > 意外或未知来源的错误阻止操作完成。 可能的原因包括初始化配置文件向导的 MAPI 子系统失败、无法访问默认配置文件以及从对话框返回错误。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **LAUNCHWIZARDENTRY**函数原型的 MAPI 实现是 mapi 配置文件向导应用程序的入口点。 MAPI 将此入口点命名为**LaunchWizard**。 
   

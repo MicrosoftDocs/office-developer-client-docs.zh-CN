@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 61342884-7a86-47c0-82a6-06de8076b7d0
 description: 返回当前用户的电子邮件地址。
 ms.openlocfilehash: 0baa68cb2f3dc44fc7f1059f570dc3bd4e69f820
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301685"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431160"
 ---
 # <a name="useremailaddress-function-access-custom-web-app"></a>UserEmailAddress 函数 (Access 自定义 web 应用程序)
 
@@ -25,7 +25,7 @@ ms.locfileid: "32301685"
 
  **UserEmailAddress**() 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **UserEmailAddress**函数仅适用于用户界面 (UI) 宏。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d8c9d18c-4043-41f3-8501-8be8e3a2c9ac
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7ab4e4e9e51849037a91a071f16294cfdf10870c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328565"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425881"
 ---
 # <a name="proptag"></a>PROP_TAG
 
@@ -44,7 +44,7 @@ _ulPropID_
   
 > 新属性标记的属性标识符。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 属性**\_标记**宏为类型为_ulPropType_的属性创建属性标记以及在_ulPropID_中指定的标识符。 例如, 可以使用**PROP_TAG**宏创建条目标识符的属性标记, 如下所示: 
   

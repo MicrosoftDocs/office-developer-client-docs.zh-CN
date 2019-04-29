@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: d1c4b9d9-6d64-8ed1-9fc6-2dbf829a75b5
 description: 确定在您操纵一个形状时，该形状是否动态改变大小或旋转。
 ms.openlocfilehash: e332546c1fc5dfc71dfa3b72ea5a58bfef59dc7f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340983"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421478"
 ---
 # <a name="nolivedynamics-cell-miscellaneous-section"></a>NoLiveDynamics 单元格（“Miscellaneous”内容）
 
 确定在您操纵一个形状时，该形状是否动态改变大小或旋转。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 操纵形状时不动态更新它。  <br/> |
 | FALSE  <br/> | 操纵形状时动态更新它。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当您调整不具备实时动态的二维 (2-D) 形状的大小或旋转该形状时，您将看到一个选择框。如果是一维 (1-D) 形状，您看到的是基于 DynFeedback 单元格的值的反馈。
   

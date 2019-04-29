@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 19b77fbb-32c9-4fc9-4c07-a0a713f7fdca
 description: 返回数字的反正切值，例如，正切值是 number 的角度。 计算得出的角度的范围为 -PI/2 <= 角度 <= PI/2 弧度（-90 <= 角度 <= 90 度）。
 ms.openlocfilehash: b690d1267503e704549bd74eacf06b414db98137
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341313"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434541"
 ---
 # <a name="atan-function"></a>ATAN 函数
 
@@ -28,7 +28,7 @@ ATAN (* **数字** *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |必需  <br/> |**Numeric** <br/> |角度的正切值。  <br/> |
+| _number_ <br/> |必需  <br/> |**数值** <br/> |角度的正切值。  <br/> |
    
 ## <a name="example"></a>示例
 

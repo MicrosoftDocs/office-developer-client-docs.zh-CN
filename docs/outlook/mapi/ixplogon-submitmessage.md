@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a261ba0d-cb56-4935-b745-1d4bbd0b8b9d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: ae124cb94cff5be0a655386d31f1bf2c82f66a85
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351588"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423319"
 ---
 # <a name="ixplogonsubmitmessage"></a>IXPLogon::SubmitMessage
 
@@ -84,7 +84,7 @@ MAPI_E_WAIT
   
 > 临时问题会阻止传输提供程序处理邮件。 应将_lpulReturnParm_参数设置为 MAPI 后台处理程序重新提交邮件之前所经过的秒数。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序调用**IXPLogon:: SubmitMessage**方法, 以使传输提供程序能够传递邮件。 通过使用_lpMessage_参数将邮件传递给传输提供程序。 
   

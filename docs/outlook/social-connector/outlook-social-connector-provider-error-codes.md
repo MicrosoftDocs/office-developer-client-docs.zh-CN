@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 0799243e-ba92-44c4-b687-182e50b57cb7
 description: 提供程序应使用下表中所示的错误代码之一将错误返回给调用方。
 ms.openlocfilehash: 22a6e8d4ebf87157eaee630cc47f9f363150e839
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359855"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425349"
 ---
 # <a name="outlook-social-connector-provider-error-codes"></a>Outlook Social Connector 提供程序错误代码
 
 提供程序应使用下表中所示的错误代码之一将错误返回给调用方。 
   
-|**Error**|**错误代码 (十六进制)**|**Description**|
+|**错误**|**错误代码 (十六进制)**|**说明**|
 |:-----|:-----|:-----|
 |OSC_E_AUTH_ERROR  <br/> |0x80041404  <br/> |社交网络网站的网络上的身份验证失败。  <br/> |
 |OSC_E_COULDNOTCONNECT  <br/> |0x80041402  <br/> |没有可用于连接到社交网络网站的连接。  <br/> |
@@ -34,7 +34,7 @@ ms.locfileid: "32359855"
 |OSC_E_SERVER_VERSION_NOT_SUPPORTED  <br/> |0x80041406  <br/> |不支持用于配置社交网络帐户的服务器版本。  <br/> |
 |OSC_E_VERSION  <br/> |0x80041401  <br/> |提供程序不支持此版本的 .osc 提供程序扩展性。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 成功、警告和错误值通过使用称为结果句柄的32位数字或**HRESULT**返回。 **HRESULT**不是任何内容的句柄;它只是一个32位值, 其中的多个字段都编码在值中。 正则结果表示状态为 "成功", 零结果表示 "成功" 不带状态 (S_OK), 负的结果表示 "失败"。 
   

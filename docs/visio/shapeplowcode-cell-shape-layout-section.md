@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: acf07fd7-6aa6-1a92-9b7a-bd6fea8a7cb2
 description: 确定在绘图页上在一个可放置形状旁放置另一个可放置形状时此形状是否移开。
 ms.openlocfilehash: 6e155103f7bfc70a78826297f441fc9ce78942ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325604"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423893"
 ---
 # <a name="shapeplowcode-cell-shape-layout-section"></a>ShapePlowCode 单元格（“Shape Layout”内容）
 
 确定在绘图页上在一个可放置形状旁放置另一个可放置形状时此形状是否移开。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |按页上指定绘制。  <br/> |**visSLOPlowDefault** <br/> |
 |1  <br/> |不绘制任何形状。  <br/> |**visSLOPlowNever** <br/> |
 |双面  <br/> |绘制每一个形状。  <br/> |**visSLOPlowAlways** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 "行为" 对话框中的 "**放置**" 选项卡上为特定形状设置此单元格的值 (在选定形状的**情况**下, 在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中, 单击 "**行为**", 然后单击"**放置**" 选项卡)。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b2545c7a-03da-94d9-1bad-b1637a90080f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6140166fbd9b34da48c0f8c25b5640a605908ccd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357020"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433932"
 ---
 # <a name="ipstx3--ipstx2"></a>IPSTX3 : IPSTX2
 

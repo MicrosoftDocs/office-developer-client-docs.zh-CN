@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9d04a124-54d4-43ac-967f-ea8e7a09b1d0
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6d23d56a27095497aedc64d7bbf5ffda266d0c97
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282752"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420806"
 ---
 # <a name="sizeddtblcheckbox"></a>SizedDtblCheckBox
  
@@ -44,7 +44,7 @@ _u_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SizedDtblCheckBox**宏允许您在标签字符的数目已知时定义复选框。 新结构是使用以下成员创建的: 
   

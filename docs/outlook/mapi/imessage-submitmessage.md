@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9ce93469-c55d-48d1-9abb-a637716ed4f2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 28786f483c4d2031c334d7b9697db7c5e627fe93
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349229"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437362"
 ---
 # <a name="imessagesubmitmessage"></a>IMessage::SubmitMessage
 
@@ -53,7 +53,7 @@ MAPI_E_NO_RECIPIENTS
   
 > 邮件的收件人表为空。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMessage:: SubmitMessage**方法将邮件标记为已准备好传输。 MAPI 将邮件按标记为发送的顺序传递给基础邮件系统。 由于此功能, 邮件可能会在邮件存储区中保留一段时间, 然后基础邮件系统才能对其承担责任。 目标中的收据顺序位于基础邮件系统的控制中, 并不一定与发送邮件的顺序一致。 
   

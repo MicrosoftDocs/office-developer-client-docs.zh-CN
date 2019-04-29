@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: 551166d0-3aaa-0fd7-e742-cf3450ba90ed
 description: 指示页面的默认阴影类型。
 ms.openlocfilehash: f1fc72484d94788ca2798760ca935c89c3e841ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342887"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424096"
 ---
 # <a name="shdwtype-cell-page-properties-section"></a>ShdwType 单元格（“Page Properties”内容）
 
 指示页面的默认阴影类型。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 1  <br/> | 简单  <br/> |**visFSTSimple** <br/> |
 | 双面  <br/> | 偏  <br/> |**visFSTOblique** <br/> |
 |第三章  <br/> |Inner  <br/> |**visFSTInner** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  只要 ShapeShdwType 单元格 (页面上的单个形状的阴影类型) 设置为 "页面默认值" (**visFSTPageDefault** ), 此单元格中所述的阴影类型将被使用。 
   

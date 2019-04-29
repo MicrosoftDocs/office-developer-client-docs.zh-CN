@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 0184814c-2d67-6ad4-e336-5694612e518d
 description: 包含以绘图单位表示的打印页面的高度。
 ms.openlocfilehash: ac24bee517f29da333a445f276447c1aa682f01c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334347"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427078"
 ---
 # <a name="pageheight-cell-page-properties-section"></a>PageHeight 单元格（“Page Properties”内容）
 
 包含以绘图单位表示的打印页面的高度。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 还可以在 **“页面设置”** 对话框（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头）的 **“页面尺寸”** 选项卡上设置页面高度，或使用鼠标手动调整页面大小。 
   

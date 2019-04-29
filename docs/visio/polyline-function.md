@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 10baeec9-6c9b-b4ba-3138-7d1156a9e056
 description: 返回一个折线。 此函数用于 PolyLineTo 几何图形行的的一个单元格。
 ms.openlocfilehash: d801c6f2c1a81cc5cc99b3517c4d86784421d7e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348276"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426294"
 ---
 # <a name="polyline-function"></a>POLYLINE 函数
 
@@ -33,7 +33,7 @@ ms.locfileid: "32348276"
 | _x1_ <br/> |必需  <br/> |**Number** <br/> | _x_轴坐标值。  <br/> |
 | _y1_ <br/> |必需  <br/> |**Number** <br/> |_y_轴坐标值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 对于每个*x*参数, 必须有一个*y*参数;否则, 将返回错误。 
   

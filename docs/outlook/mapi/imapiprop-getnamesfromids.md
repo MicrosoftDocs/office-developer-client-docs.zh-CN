@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f6688afde9b36a7722eaaf768f091481c15b7308
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329056"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423571"
 ---
 # <a name="imapipropgetnamesfromids"></a>IMAPIProp::GetNamesFromIDs
 
@@ -85,7 +85,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 由_lppPropTags_指向的属性标记数组中的一个或多个条目的**cValues**成员设置为0。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 虽然对大多数属性的访问都是通过属性标识符访问, 但某些属性可以通过名称访问。 可以调用**IMAPIProp:: GetNamesFromIDs**方法来执行以下操作: 
   

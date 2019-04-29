@@ -10,17 +10,17 @@ keywords:
 - excel 函数 [excel 2007], Excel12f 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 4e6a9ccc-988d-42a9-8874-01f2ee29b835
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: f7ff6afac1737ee869e69fffd3dbed36a908b376
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310911"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431671"
 ---
 # <a name="excelexcel12f"></a>Excel/Excel12f
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 框架库函数。 **Excel**是[Excel4](excel4-excel12.md)函数的包装。 **Excel12f**是[Excel12](excel4-excel12.md)函数的包装。 每个检查到查看的参数是否均为零, 这表示临时**XLOPER**或**XLOPER12**的创建失败。 如果发生错误, 每个都将打印一条调试消息。 完成后, 每个都将释放可能已为临时**XLOPER**s 和**XLOPER12**s 创建的所有临时内存。
   

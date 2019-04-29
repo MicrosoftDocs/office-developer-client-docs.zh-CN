@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 4690028e-20ac-297b-4651-801f5159c747
 description: 阅读本主题之前，请先参阅 更多 InfoPath 表单安全性概念，以便对 InfoPath 安全模型有一个大概了解。
 ms.openlocfilehash: 5108d8b1967b72ac4805f892bcf3bbae3aecccbe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299921"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437810"
 ---
 # <a name="security-guidelines-for-developing-infopath-forms"></a>开发 InfoPath 表单的安全指南
 

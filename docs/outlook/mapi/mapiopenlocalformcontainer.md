@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1c53170f-03a6-4a05-913e-de8eeadea692
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ace31079c51aac169f6091af0cb363e7f05f0d14
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270145"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427736"
 ---
 # <a name="mapiopenlocalformcontainer"></a>MAPIOpenLocalFormContainer
 
@@ -49,7 +49,7 @@ MAPIOpenLocalFormContainer(
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 第三方安装程序可使用指针返回到的接口, 将特定于应用程序的表单安装到库中, 而该程序首先不需要登录 MAPI。 
   

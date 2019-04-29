@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7174c585-86e1-42a3-bb7f-d6641001b0f2
 description: 返回一个指定的数字间隔 (正或负整数) 添加到该日期的指定日期部分的指定日期。
 ms.openlocfilehash: 7cfd68c4983eee22a5e542facd72ea083deb3184
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282178"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423200"
 ---
 # <a name="dateadd-function-access-custom-web-app"></a>DateAdd 函数 (Access 自定义 web 应用程序)
 
@@ -32,7 +32,7 @@ ms.locfileid: "32282178"
 | *Number*  <br/> |是一个表达式, 可解析为一个整数, 该整数将添加到日期的*日期**部分*。 如果指定十进制小数的值, 则分数将被截尾取整。  <br/> |
 | *Date*  <br/> |可以解析为日期/时间值的表达式。 *日期*参数表达式、列表达式、用户定义的变量或字符串文本。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 下表列出了所有有效的*DatePart*参数。 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 75b37155-4850-4dce-9490-0a48a938d847
 description: 返回当前用户的显示名称。
 ms.openlocfilehash: 25a8a7efb774a7e74e826c25d15bf20e08f15e5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304205"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421576"
 ---
 # <a name="userdisplayname-function-access-custom-web-app"></a>UserDisplayName 函数 (Access 自定义 web 应用程序)
 
@@ -25,7 +25,7 @@ ms.locfileid: "32304205"
 
  **UserDisplayName**() 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **UserDisplayName**函数仅适用于用户界面 (UI) 宏。 
   

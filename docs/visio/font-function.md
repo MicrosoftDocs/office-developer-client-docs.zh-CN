@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 20b587ee-87bf-4648-99ec-ddedd703d9fd
 description: 返回按名称指定的字体的唯一标识符的整数值。
 ms.openlocfilehash: 7ae6fe6dc8bb9c718a358d11d4a6a0227eaf18df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346135"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422171"
 ---
 # <a name="font-function"></a>FONT 函数
 
@@ -40,7 +40,7 @@ ms.locfileid: "32346135"
 
 整数
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果为*font_name_string*提供的字符串与已知字体不匹配, 则此函数将返回一个 #VALUE! 误差. 
   

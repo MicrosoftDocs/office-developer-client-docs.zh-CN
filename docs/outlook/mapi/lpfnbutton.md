@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 804bd23a148b942fd4580d1e3465fc1f65ff5978
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357440"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431510"
 ---
 # <a name="lpfnbutton"></a>LPFNBUTTON
 
@@ -71,7 +71,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序调用基于**LPFNBUTTON**原型的回调函数, 以在 "详细信息" 对话框中定义按钮。 客户端在对[IAddrBook::D etails](iaddrbook-details.md)方法的调用中传递指向回调函数的指针。 
   

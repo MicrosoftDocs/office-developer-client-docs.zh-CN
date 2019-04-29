@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e372c670-e9a0-4352-b70a-3a054b036124
 description: 允许在不同语言表示形式之间进行比较操作。 它最适用于将 Internet 工程任务组的语言标记 (BCP 47) 值转换为区域设置 id (LCID) 值。
 ms.openlocfilehash: 9c2dc96cefe7a1cfcd06947dcc54453dcef276fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327816"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424748"
 ---
 # <a name="language-function"></a>LANGUAGE 函数
 

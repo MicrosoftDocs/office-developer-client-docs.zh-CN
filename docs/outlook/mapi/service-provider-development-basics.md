@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 00efb70f-405e-4efb-94bc-b39c310332cf
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 5fcea925b5f66d7ca10c1be1817193d803633634
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356481"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437803"
 ---
 # <a name="service-provider-development-basics"></a>服务提供程序开发基础知识
 

@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: e07d97a4-9896-4b88-9e76-5a1b3f133094
 description: 确定透视旋转的角度角度 (以度为单位) (0 到 359.9)
 ms.openlocfilehash: 4cbefc2fa147a418fa792542e1dc57c39ab2490c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307768"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422528"
 ---
 # <a name="perspective-cell-3-d-rotation-properties-section"></a>透视单元格 ("三维旋转属性" 部分)
 
 确定透视旋转的角度角度 (以度为单位) (0 到 359.9)
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称从另一个公式或从使用**CellsU**属性的**** 某个程序按名称**** 获取对**透视**单元格的引用, 请使用: 
   

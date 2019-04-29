@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 434d7ceb-1050-c667-fb3d-b6634440c18e
 description: 如果提供的所有逻辑表达式都为 TRUE，则返回 TRUE (1)。如果其中有任何逻辑表达式为 FALSE 或 0，则 AND 函数返回 FALSE (0)。
 ms.openlocfilehash: 74e8301718e69a2ab61f6bf9992d0d6855bbc6f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341557"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422010"
 ---
 # <a name="and-function"></a>AND 函数
 

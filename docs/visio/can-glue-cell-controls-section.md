@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 1c4c4ae2-b3fa-ed45-c6e5-22bedb2523db
 description: 确定控制手柄能否粘附到其他形状上。
 ms.openlocfilehash: 2f5e65ab72c584f88b56e273b0d73abf969a6588
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337252"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423291"
 ---
 # <a name="can-glue-cell-controls-section"></a>Can Glue 单元格（“Controls”内容）
 
 确定控制手柄能否粘附到其他形状上。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 控制手柄能够粘附。  <br/> |
 | FALSE  <br/> | 控制手柄不能粘附。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Can Glue 单元格的引用，请使用： 
   

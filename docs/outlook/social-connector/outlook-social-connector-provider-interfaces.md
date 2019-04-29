@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8f92b2c7-9f47-4c84-874b-fec1a2a5b555
 description: Outlook Social Connector (.osc) 是 office 客户端应用程序共享的 office 功能, 用于连接到社交和业务网络, 以便用户可以在不离开 Office 的情况下与他们的网络中的人员保持联系。
 ms.openlocfilehash: 77759db34f63239473e0682cfaca720860e96768
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359848"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422808"
 ---
 # <a name="outlook-social-connector-provider-interfaces"></a>Outlook Social Connector 提供程序接口
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 482497ee-fe19-c2fa-53ce-bdb27b5d28bc
 description: 返回从 0.0 至 1.0 的随机浮点数。每次计算函数时（根据系统时钟，每分钟计算一次），函数都会返回一个不同数值。
 ms.openlocfilehash: bab2fd74aff85be85f886e3ac8fe7df113664ae5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360002"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424523"
 ---
 # <a name="rand-function"></a>RAND 函数
 
@@ -26,9 +26,9 @@ RAND( )
   
 ### <a name="return-value"></a>返回值
 
-点数
+浮点
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通过将形状的属性设置为随机值，可使用此函数创建动画效果。
   

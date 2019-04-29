@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5b358c38-6ed1-3fbe-c1d1-1a56ebbaa870
 description: 打开 HTML 帮助文件, 其中包含指定的关键字在搜索框中。
 ms.openlocfilehash: 639d10bf489d1ad09aef1522d3cbc743bbe66f6f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329972"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431335"
 ---
 # <a name="help-function"></a>HELP 函数
 
@@ -30,7 +30,7 @@ HELP ("* * *filename .chm! 关键字** *")
 |:-----|:-----|:-----|:-----|
 | _文件名 .chm! 关键字_ <br/> |必需  <br/> |**String** <br/> | 要搜索的帮助文件的文件名和关键字。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果未指定*关键字*, 则帮助函数将打开帮助文件的内容页。 
   

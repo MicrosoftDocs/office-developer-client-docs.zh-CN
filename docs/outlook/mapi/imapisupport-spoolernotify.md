@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 99377d63b4b5cf8731809446b70770f0c24231ed
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326283"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423767"
 ---
 # <a name="imapisupportspoolernotify"></a>IMAPISupport::SpoolerNotify
 
@@ -88,7 +88,7 @@ S_OK
   
 > 通知已成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为邮件存储和传输提供程序支持对象实现了**IMAPISupport:: SpoolerNotify**方法。 这些提供程序调用**SpoolerNotify**以通知 MAPI 后台处理程序的状态更改或服务请求。 **SpoolerNotify**主要由传输提供程序调用, 并可在会话期间的任何时间调用。 
   
