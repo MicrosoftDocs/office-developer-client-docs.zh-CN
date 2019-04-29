@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 47b2a69d-e902-429f-8b31-166b51aeaf7f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f14b8d7a9a73997f797f9cfa26a2e574222e839e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282655"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407443"
 ---
 # <a name="sizeddtblpage"></a>SizedDtblPage
 
@@ -48,7 +48,7 @@ _u_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SizedDtblPage**宏允许您在关联的标签和帮助文件条目中的字符数已知时定义选项卡式页面控件。 新结构是使用以下成员创建的: 
   

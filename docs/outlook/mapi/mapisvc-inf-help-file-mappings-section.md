@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 62aee641-b73f-4f53-9e8d-adf010c9ea1a
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 4760c9965975bb5d950e51b707d28bee647ef99a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269970"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407555"
 ---
 # <a name="mapisvcinf-help-file-mappings-section"></a>mapisvc.inf [帮助文件映射] 部分
 

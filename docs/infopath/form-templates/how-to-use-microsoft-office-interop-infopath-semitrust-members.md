@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d082f3a3-387a-4db1-bbad-495c326b8ee3
 description: SemiTrust 命名空间提供的对象模型包括提供添加到 Office InfoPath 2007 和 InfoPath 中的新功能的对象和成员。
 ms.openlocfilehash: 45f7607aec8ccfd653780a550df0823730835a86
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300082"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415339"
 ---
 # <a name="use-microsoftofficeinteropinfopathsemitrust-members-not-compatible-with-infopath"></a>使用与 infopath 不兼容的 SemiTrust 成员
 

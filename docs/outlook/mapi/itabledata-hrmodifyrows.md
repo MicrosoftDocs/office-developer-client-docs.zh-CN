@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d295c896-9882-4d6f-9689-5cf40db208c0
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: d0074dd006fda6d44252011d0b979169e0c3d4cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348669"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405357"
 ---
 # <a name="itabledatahrmodifyrows"></a>ITableData::HrModifyRows
 
@@ -54,7 +54,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 一个或多个传入的行没有索引列。 如果返回此错误, 则不会更改任何行。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ITableData:: HrModifyRows**方法插入由_lpSRowSet_参数指向的[SRowSet](srowset.md)结构所描述的行。 如果行中某一行的索引列值与表中现有行的值相匹配, 则将替换现有行。 如果不存在与**SRowSet**结构中包含的行相匹配的行, 则**HrModifyRows**会将该行添加到表的末尾。 
   

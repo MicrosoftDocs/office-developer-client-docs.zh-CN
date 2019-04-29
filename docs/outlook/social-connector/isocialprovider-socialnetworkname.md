@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 96f32db2-d654-4e72-88d1-ef955e3ff42b
 description: 返回一个字符串, 表示社交网络名称。
 ms.openlocfilehash: 5a6240fa6e609eec8498456fe56c83a761fadab0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285489"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406876"
 ---
 # <a name="isocialprovidersocialnetworkname"></a>ISocialProvider::SocialNetworkName
 
@@ -27,7 +27,7 @@ ms.locfileid: "32285489"
 
 包含社交网络名称的字符串。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 Outlook social Connector (.osc) 提供程序应本地化社交网络名称。
   

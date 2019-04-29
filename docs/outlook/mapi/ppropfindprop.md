@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f23dd6f4-915b-4fe8-ab3f-6d625c7d6061
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 97021128f92af0486af1ba3125c7843eaa357648
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350728"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406337"
 ---
 # <a name="ppropfindprop"></a>PpropFindProp
 
@@ -59,7 +59,7 @@ LPSPropValue PpropFindProp(
 
  **PpropFindProp**返回一个[SPropValue](spropvalue.md)结构, 该结构定义与输入属性标记相匹配的属性; 如果没有匹配项, 则返回 NULL。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果给定的属性标记指示 PT_UNSPECIFIED 类型的属性, 则**PpropFindProp**函数仅查找标记中的属性标识符的匹配项。 否则, 它找到整个属性标记的匹配项 (包括属性类型), 并返回标识的属性。 
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8733aab9-3a8e-4924-b62f-4e871d991c72
 description: 返回一个字符串, 其中包含 personsAddresses 参数所指定用户的人员和图片详细信息的集合。
 ms.openlocfilehash: 08b6eca193da59bbdc3c9d21d4dc9b6d0e0c884f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344868"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404531"
 ---
 # <a name="isocialsession2getpeopledetails"></a>ISocialSession2::GetPeopleDetails
 
@@ -33,7 +33,7 @@ _personsCollection_
   
 > 排除包含人员集合和图片详细信息的 XML 字符串。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果 .osc 提供商支持朋友和非好友的按需或混合同步, Outlook Social Connector (.osc) 将呼叫**GetPeopleDetails** 。 
   

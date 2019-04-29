@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 27474af2-29a2-4cfb-b94f-72eb91562dac
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: fac4978bef94650f85ac3179acd3858602f933ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279568"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405812"
 ---
 # <a name="iabcontainerresolvenames"></a>IABContainer::ResolveNames
 
@@ -92,7 +92,7 @@ MAPI_E_NO_SUPPORT
   
 > 通讯簿提供程序不支持通过使用此方法进行批量名称解析。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ResolveNames**方法尝试将未解析的收件人从_lpAdrList_参数中的条目数组与此通讯簿容器中的收件人进行匹配。 未解析的收件人通常仅具有**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性, 并且可能还有其他一些属性。 未解析的收件人不具有**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性, 并且_lpFlagList_参数中的相应标志设置为 MAPI_UNRESOLVED。 相反, 解析的收件人始终至少具有**PR_ENTRYID**属性和其他几个属性, 如**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))、 **PR_DISPLAY_NAME**和**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))。
   

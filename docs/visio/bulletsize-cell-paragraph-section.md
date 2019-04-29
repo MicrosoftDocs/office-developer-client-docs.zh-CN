@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6ff5d07b-17e2-f6ca-1860-5d498a9ebf06
 description: 指定项目符号的大小。
 ms.openlocfilehash: 8671bc6f5ec40814b13727bc458f74eb2893f839
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337609"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405420"
 ---
 # <a name="bulletsize-cell-paragraph-section"></a>BulletSize 单元格（“Paragraph”内容）
 
 指定项目符号的大小。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可为预定义项目符号或自定义项目符号指定此值，该值可以是百分比值也可以是具体的值。 
   

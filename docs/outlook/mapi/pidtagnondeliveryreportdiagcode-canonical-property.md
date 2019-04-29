@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a39c0f54-bdca-498f-a75c-dd8702e5385a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a3cf1d32ac4c21137e1b1cbb04f64d7efbc0729d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329349"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406232"
 ---
 # <a name="pidtagnondeliveryreportdiagcode-canonical-property"></a>PidTagNonDeliveryReportDiagCode 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32329349"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性可以具有下列值之一:
   

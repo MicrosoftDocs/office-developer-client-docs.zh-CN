@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7e3761be-afd6-46cb-9a08-25e9016c1241
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 63cef6ef2bb26e8b723c60fe01dd6771aa070ae8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341634"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407254"
 ---
 # <a name="srowset"></a>SRowSet
 
@@ -51,7 +51,7 @@ typedef struct _SRowSet
   
 > **SRow**结构的数组。 表中的每一行都有一个结构。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SRowSet**结构用于描述表中的多行数据。 除了以下函数之外, 还可以在[IAddrBook](iaddrbookimapiprop.md)、 [ITableData](itabledataiunknown.md)和[IMAPITable](imapitableiunknown.md)接口方法中使用**SRowSet**结构: 
   

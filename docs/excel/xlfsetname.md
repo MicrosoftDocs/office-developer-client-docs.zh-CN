@@ -10,17 +10,17 @@ keywords:
 - xlfsetname 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: e6327ccf2cd18e42c3ef9abe538e6f669e498352
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310274"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404258"
 ---
 # <a name="xlfsetname"></a>xlfSetName
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 用于创建和删除与 DLL 相关联的已定义名称。
   
@@ -44,7 +44,7 @@ _pxRes_(**xltypeBool**或**xltypeErr**)
   
 如果操作成功, 则为 TRUE; 如果无法创建或删除此名称, 则为 FALSE。 返回 #VALUE! 如果一个或多个参数无效。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用**xlfRegister**和有效的_pxFunctionText_参数注册函数或命令时, Excel 将创建与 DLL 资源相关联的名称。 卸载 DLL 时, 应使用[xlfSetName 函数](xlfsetname.md)删除此类名称。 但是, 由于 Excel 中的已知问题, 此删除操作将失败。 有关详细信息，请参阅 [Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)。
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: df63f08d3d453575816c4f7ab043f802023e21d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315531"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416382"
 ---
 # <a name="ipropdatahraddobjprops"></a>IPropData::HrAddObjProps
 
@@ -62,7 +62,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 添加了一些属性, 但并非全部。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IPropData:: HrAddObjProps**方法将类型为 PT_OBJECT 的一个或多个属性添加到对象中。 **HrAddObjProps**为 object 属性提供了[IMAPIProp:: SetProps](imapiprop-setprops.md)方法的替代方法, 因为不能通过调用**SetProps**来创建对象属性。 添加对象属性将导致属性标记包含在[IMAPIProp:: GetPropList](imapiprop-getproplist.md)方法返回的属性标记列表中。 
   

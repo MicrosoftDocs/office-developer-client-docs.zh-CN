@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b72124aa-2e85-057c-9343-a40af60b91a0
 description: 返回一个标识符, 用于唯一标识在其中创建帐户的配置文件中的帐户。
 ms.openlocfilehash: dcb0a7935b9b764c44088971a1acb1f3647cbdb0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327655"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407163"
 ---
 # <a name="propacctid"></a>PROP_ACCT_ID
 
@@ -29,7 +29,7 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x00010003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用[IOlkAccount:: GetProp](iolkaccount-getprop.md)获取此属性。 如果客户端尝试设置此属性, 则此属性返回**E_OLK_PROP_READ_ONLY**。 
   

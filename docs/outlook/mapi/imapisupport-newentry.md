@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 588d002b-8412-4ab9-9757-04ad89e0a6f8
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 3468e4a92787e440f230d60ab31f37526fe7d5e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316639"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405455"
 ---
 # <a name="imapisupportnewentry"></a>IMAPISupport::NewEntry
 
@@ -80,7 +80,7 @@ S_OK
   
 > 已成功创建新条目。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为通讯簿提供程序支持对象实现了**IMAPISupport:: NewEntry**方法。 通讯簿提供程序调用**NewEntry**以创建要直接添加到容器中的新通讯簿条目, 或用于处理传出邮件。 
   

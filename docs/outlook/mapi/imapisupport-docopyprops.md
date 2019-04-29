@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2446ef52-578a-4004-9719-de9b0207ccad
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 24107ae1926c8590da6a823a354eeae72d72f248
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322363"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405581"
 ---
 # <a name="imapisupportdocopyprops"></a>IMAPISupport::DoCopyProps
 
@@ -131,7 +131,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > 属性类型不是调用方预期的类型。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport::D ocopyprops**方法是为邮件存储提供程序支持对象而实现的。 邮件存储提供程序可以调用**DoCopyProps**以实现其文件夹和邮件的[IMAPIProp:: CopyProps](imapiprop-copyprops.md)方法。 **DoCopyProps**复制或移动在由_lpIncludeProps_指向的属性标记数组中标识的属性, 以及_lpSrcObj_指向的对象中存在的属性。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b93dae79-4305-9a3a-7b93-42319f7e26ba
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 31ef1f5c6af498f042ab766ae90fcfbce805700a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315083"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407107"
 ---
 # <a name="ipstxgetsyncobject"></a>IPSTX::GetSyncObject
 
@@ -39,7 +39,7 @@ HRESULT GetSyncObject(
   
 >  排除指向要获取的**IOSTX**接口的指针。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 调用方必须确保同一个文件夹不会同时在多个线程上同步。
   

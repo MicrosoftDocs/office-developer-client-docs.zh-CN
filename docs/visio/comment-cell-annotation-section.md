@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b367841a-f31c-4b55-4491-2abab5811dbe
 description: 包含出现在注释中的文本。
 ms.openlocfilehash: fd9dce2618c0b8c967b794b0beea8b772a231003
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359036"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415528"
 ---
 # <a name="comment-cell-annotation-section"></a>Comment 单元格（“Annotation”内容）
 
@@ -23,7 +23,7 @@ ms.locfileid: "32359036"
 > [!NOTE]
 > 仅当在 Microsoft Visio 2013 中打开 .vsd 文件或以 .vsd 文件格式保存 .vsdx 文件时, 才会使用此单元格进行跟踪注释。 它不用于跟踪在 Visio 2013 中的 .vsdx 文档中的注释。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Comment 单元格的引用，请使用： 
   

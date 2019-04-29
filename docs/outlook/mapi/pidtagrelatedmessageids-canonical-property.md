@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 51f0eb8a-0a16-4b45-9380-28caddecf955
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d909a121bdc528a04d0f400555a6f98f29da8f0c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355158"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406050"
 ---
 # <a name="pidtagrelatedmessageids-canonical-property"></a>PidTagRelatedMessageIds 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32355158"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 标识符使用的构造规则与用于**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性的特定构造规则相同。
   

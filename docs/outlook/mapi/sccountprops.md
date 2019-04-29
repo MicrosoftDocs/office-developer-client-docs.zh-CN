@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 76e4cc52-e1a0-4e0b-a2a6-a17644f6b2e7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 49634bda487143ddd8d8806b94f6c451ccf57b75
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351315"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404972"
 ---
 # <a name="sccountprops"></a>ScCountProps
 
@@ -65,7 +65,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 属性值数组中至少有一个属性的标识符为 PROP_ID_NULL 或 PROP_ID_INVALID, 或者属性数组包含无属性值的多值属性。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果在_pcb_参数中传递 NULL, 则**ScCountProps**函数将验证通知数组, 但不执行任何计算。 如果在_pcb_中传递非 null 值, **ScCountNotifications**函数将确定数组的大小并存储原因_pcb_。 _pcb_参数的大小必须足以包含整个数组。 
   

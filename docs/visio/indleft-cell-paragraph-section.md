@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 31a7d0d4-4666-ddef-c5eb-4d13803e6a2f
 description: 代表段落中所有文本行自该文本块的左边距始缩进的距离。此值与绘图比例无关。即使绘图比例进行调整，左缩进仍保持不变。
 ms.openlocfilehash: 2a942ef3d874b8d1ce2ef85f423c93bc0db33230
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335334"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405161"
 ---
 # <a name="indleft-cell-paragraph-section"></a>IndLeft 单元格（“Paragraph”内容）
 
 代表段落中所有文本行自该文本块的左边距始缩进的距离。此值与绘图比例无关。即使绘图比例进行调整，左缩进仍保持不变。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 IndLeft 单元格的引用，请使用： 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a95fd86d-ebc1-66b6-e7d9-9c8ea84d23ab
 description: 返回颜色的红色成分。
 ms.openlocfilehash: e8c6115ac0441b25ce8333485828e8ef0f615459
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359981"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415521"
 ---
 # <a name="red-function"></a>RED 函数
 
@@ -32,9 +32,9 @@ ms.locfileid: "32359981"
    
 ### <a name="return-value"></a>返回值
 
-帐号
+数字
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 返回值是 0 至 255（包括 0 和 255）之间的数字，或解析为索引值的单元格引用。 如果_表达式_无效, 则此函数返回 0 (黑色)。 
   

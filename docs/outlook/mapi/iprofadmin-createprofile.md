@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 10cda14a-8f93-41e0-b1fb-500098bdc392
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: b104c62eb617e6c68f85dea4ef6379c831733844
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317113"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404398"
 ---
 # <a name="iprofadmincreateprofile"></a>IProfAdmin::CreateProfile
 
@@ -72,7 +72,7 @@ MAPI_E_NO_ACCESS
   
 > 指定的新配置文件已存在。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IProfAdmin:: CreateProfile**方法创建一个新的配置文件。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7f8ca7cf-ac0b-9b77-c1dd-9f1d0871d603
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 49ef9862d5156a1bed242652df32baab9a0123fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317155"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405091"
 ---
 # <a name="iostxsynchdrbeg"></a>IOSTX::SyncHdrBeg
 
@@ -49,7 +49,7 @@ HRESULT SyncHdrBeg(
   
 >  [in]/[out] 指针, 指向邮件头的**[HDRSYNC](hdrsync.md)** 结构。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在**IOSTX:: SyncHdrBeg**中, 本地存储将转换为[下载邮件头状态](download-message-header-state.md)。 Outlook 为客户端初始化存储和父文件夹中的邮件头的当前表示形式的**HDRSYNC**结构。 然后, 客户端必须下载完整的邮件项目 (在**HDRSYNC**中为*pmsgFull* )。 如果成功, 客户端还会将**HDRSYNC**中的*ulFlags*设置为**HSF_OK**。 在**[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)** 上, Outlook 检查**HDRSYNC**中的结果, 并使用**HDRSYNC**中的信息更新本地邮件头。 
   

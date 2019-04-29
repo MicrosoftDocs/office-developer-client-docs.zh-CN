@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 519d79d4-9178-2231-c26d-aa7f31a43412
 description: 以字符串的形式返回工作表的主控形状名称, 如果工作表没有主控形状, 则返回字符串 "no master"。
 ms.openlocfilehash: 7732cf9e8b23e2fd0fc2e3f2cc8d9ef4f39fd67f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341788"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414751"
 ---
 # <a name="mastername-function"></a>MASTERNAME 函数
 
@@ -32,9 +32,9 @@ MASTERNAME ([* * *langID_opt* * *])
    
 ### <a name="return-value"></a>返回值
 
-字符串
+String
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果传递了非法的语言代码，则将使用本地语言。 
   

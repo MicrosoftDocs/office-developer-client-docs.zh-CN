@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 1e626714-52dc-4141-9741-4d801f32d294
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 30cbe49eae7b4a232efb544c7a508a36b326c6b5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328181"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407233"
 ---
 # <a name="adding-a-message-service"></a>添加邮件服务
 

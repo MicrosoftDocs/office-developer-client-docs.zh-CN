@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ec3566a0-75ad-466d-a61e-f7d61ccb946d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b07ea265b5dcc6b9a9abb15c6be7ac9e0f94e8ed
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32251596"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404678"
 ---
 # <a name="dtbledit"></a>DTBLEDIT
 
@@ -73,7 +73,7 @@ MAPI_UNICODE
   
 > 类型为 PT_TSTRING 的属性的属性标记。 **ulPropTag**成员标识其数据在编辑控件中显示和编辑的 string 属性。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTBLEDIT**结构描述了编辑控件对话框中包含字母数字信息的区域。 几乎所有对话框都有至少一个编辑控件。 编辑控件可以由用户修改, 也可以是只读控件。 
   

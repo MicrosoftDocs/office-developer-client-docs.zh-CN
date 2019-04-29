@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 73b68614-6aca-4669-b879-5631c5d6483c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5256efbff734d4555ac263dd330e3349c789cd74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287466"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406974"
 ---
 # <a name="dtblcombobox"></a>DTBLCOMBOBOX
 
@@ -78,7 +78,7 @@ MAPI_UNICODE
   
 > PT_OBJECT 类型的属性的属性标记, 可以通过**OpenProperty**调用使用**IMAPITable**接口打开该属性。 该表必须有一列的属性与**ulPRPropertyName**成员标识的属性的类型相同。 该表的行用于填充列表。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTBLCOMBOBOX**结构描述一个组合框, 该控件由一个列表和一个选择字段组成。 该列表显示用户可以从中选择的信息, 并且选择字段显示当前所选内容。 选择字段是一个编辑控件, 还可用于输入列表中尚未存在的文本。 
   

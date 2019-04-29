@@ -8,17 +8,17 @@ keywords:
 - xlabort 函数 [excel 2007], 并发任务 [excel 2007], 用户中断 [excel 2007]
 localization_priority: Normal
 ms.assetid: 0e3df597-0aa6-497f-bc52-58c7dc064538
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 650af14e4e97ebd2642a4442a87965f313d3b556
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310379"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414688"
 ---
 # <a name="permitting-user-breaks-in-lengthy-operations"></a>允许用户在漫长的操作中中断
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 尽管 Windows 使用抢先式多任务处理, 其中的函数或命令可能需要很长时间才能执行, 但很好的做法是立即为操作系统生成一些时间, 以帮助 it 计划并发任务。 使用本机 Windows 调用时, 可以通过使用 sleep 函数来执行此操作。 使用 C API, 您可以使用[xlAbort 函数](xlabort.md)执行此操作, 它不仅会生成即时处理器, 还会检查用户是否已按下 "取消" 键 ( **ESC**)。
   
@@ -36,7 +36,7 @@ ms.locfileid: "32310379"
   
 [Excel 中的多线程重新计算](multithreaded-recalculation-in-excel.md)
   
-[Developing Excel XLLs](developing-excel-xlls.md)
+[开发 Excel XLL](developing-excel-xlls.md)
   
 [访问 Excel 实例和主窗口句柄](how-to-access-excel-instance-and-main-window-handles.md)
 

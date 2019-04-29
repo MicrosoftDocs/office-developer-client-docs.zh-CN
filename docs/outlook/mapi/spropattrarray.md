@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 30dd19d9-0840-49e9-aec6-ec8d19b1f91d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 55cba4f7cfb3fa8035117348b10ab1d6d3082710
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358112"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405511"
 ---
 # <a name="spropattrarray"></a>SPropAttrArray
 
@@ -59,7 +59,7 @@ typedef struct
     
     - PROPATTR_NOT_PRESENT
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SPropAttrArray**结构由实现[IPropData: IMAPIProp](ipropdataimapiprop.md)接口的属性数据对象使用。 MAPI 的 IMAPIMessageSite (即基于结构化存储的[IUnknown](imapimessagesiteiunknown.md) ) 实现也使用它。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5f7012f7-060d-4f2d-bcff-2aa9f6980e71
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e176f280cbe15b9c15697b03eb9738887c2924c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336412"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406323"
 ---
 # <a name="ssubrestriction"></a>SSubRestriction
 
@@ -58,7 +58,7 @@ PR_MESSAGE_ATTACHMENTS
   
 > 指向[SRestriction](srestriction.md)结构的指针。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 不是所有表都支持子对象限制。 通常情况下, 只有 "文件夹内容" 表和 "搜索结果" 文件夹支持它们。 例如, 子对象限制用于查找具有特定类型的附件或收件人的邮件。 
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 45bfaaaa-52cc-f8b4-68e7-8b99e5788ce1
 description: 包含用于设置含有亚洲字符的文字格式的字体编号。根据您的系统上安装的字体，字体编号会有所不同。
 ms.openlocfilehash: 4af7e590a7bd0733ad622f3df259aa6c01837c4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341327"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406589"
 ---
 # <a name="asianfont-cell-character-section"></a>AsianFont 单元格（“Character”内容）
 
 包含用于设置含有亚洲字符的文字格式的字体编号。根据您的系统上安装的字体，字体编号会有所不同。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 亚洲字体在 **“文本”** 对话框中的 **“字体”** 选项卡（单击 **“开始”** 选项卡上的 **“字体”** 组中的箭头）上列出。只有在 **“Microsoft Office 语言首选项”** 对话框（依次单击 **“开始”**、**“所有程序”**、**“Microsoft Office”**、**“Microsoft Office 工具”** 和 **“Microsoft Office 语言首选项”**）中添加了包含亚洲或复杂文种字符的语言后，才会显示此列表。
   

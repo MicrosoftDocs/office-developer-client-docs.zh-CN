@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c8387f1c-b34c-490e-8bf9-d824bf98d826
 description: 使用带有 Visual Studio 2008 的 Microsoft InfoPath，您可以通过在预览模式下运行表单代码来进行调试。在开始调试表单代码时，系统将对项目进行编译，InfoPath 将在 InfoPath 预览窗口中显示表单。当遇到设置了断点的代码行时，焦点将移动到代码编辑器。当越过断点继续调试时，焦点将移回预览窗口。关闭预览窗口时调试也将停止。
 ms.openlocfilehash: 8f9ff97fdd5b4b016d96129304fa6f994d7b4561
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300432"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405238"
 ---
 # <a name="preview-and-debug-infopath-form-templates-with-code"></a>预览和调试包含代码的 InfoPath 表单模板
 

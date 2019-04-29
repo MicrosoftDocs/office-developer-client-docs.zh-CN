@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 93f82ae0-3442-fac1-9906-b84afef85f5c
 description: 确定出现在形状的垂直动态连接线上的跨线的跨线方向。
 ms.openlocfilehash: f86c77da62042d1bc2c0274564efa9fdb0887971
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342740"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404769"
 ---
 # <a name="conlinejumpdiry-cell-shape-layout-section"></a>ConLineJumpDirY 单元格（“Shape Layout”内容）
 
@@ -26,7 +26,7 @@ ms.locfileid: "32342740"
 | 1  <br/> | 左侧  <br/> |**visLOJumpDirYLeft** <br/> |
 | 双面  <br/> | 右侧  <br/> |**visLOJumpDirYRight** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要设置页面上*所有*连接线跨线的默认垂直方向, 请使用 "页面布局" 部分中的 "PageLineJumpDirY" 单元格。 
   

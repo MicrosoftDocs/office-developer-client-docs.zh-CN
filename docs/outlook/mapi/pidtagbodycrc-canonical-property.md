@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6efe9dc3-e988-4042-ab02-2863b5e0f294
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 416486c3b06c485a1fa6525b54c37a6e0d23f56c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350923"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415178"
 ---
 # <a name="pidtagbodycrc-canonical-property"></a>PidTagBodyCrc 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32350923"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 邮件存储区可以使用任何可生成 PT_LONG 值的 CRC 算法。 如果首次设置了**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性, 并在随后对其进行了修改, 则它必须将此属性作为[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法的一部分进行计算。
   

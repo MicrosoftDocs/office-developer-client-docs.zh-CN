@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 42f42d73-a00c-ca93-adc9-4f8869b9cd42
 description: 指定当鼠标悬停在“形状数据”窗口中的某个值上时作为提示出现的说明性文本或指导性文本。
 ms.openlocfilehash: 4ecb7eb5a1e775d2f3f5271476ef45cdf020d7c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326815"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405483"
 ---
 # <a name="prompt-cell-shape-data-section"></a>Prompt 单元格（“Shape Data”内容）
 
 指定当鼠标悬停在 **“形状数据”** 窗口中的某个值上时作为提示出现的说明性文本或指导性文本。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Prompt 单元格的引用，请使用： 
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 4168cd98-9674-1233-254f-0afe81b7245b
 description: 存储容器、列表、标注和形状之间的关系。
 ms.openlocfilehash: b270366fe1045aea3d628150c82e7fd798fa21df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359967"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406407"
 ---
 # <a name="relationships-cell-shape-layout-section"></a>Relationships 单元格（“Shape Layout”内容）
 
 存储容器、列表、标注和形状之间的关系。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  Microsoft Visio 使用 "关系" 单元格来存储涉及此形状的关系。 一系列带有所示参数的 DEPENDSON 函数用于表示与该形状的关系，如下表中所示。 
   
@@ -35,8 +35,8 @@ ms.locfileid: "32359967"
 |步  <br/> |此形状位于其左边界边缘的容器。  <br/> |
 |utf-8  <br/> |此形状位于其右边界边缘的容器。  <br/> |
 |第  <br/> |此形状位于其上边界边缘的容器。  <br/> |
-|10  <br/> |此形状位于其下边界边缘的容器。  <br/> |
-|11x17  <br/> |此列表重叠的列表。  <br/> |
+|10   <br/> |此形状位于其下边界边缘的容器。  <br/> |
+|11   <br/> |此列表重叠的列表。  <br/> |
    
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Relationships 单元格的引用，请使用： 
   

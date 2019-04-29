@@ -13,11 +13,11 @@ api_type:
 ms.assetid: be34993e-ffcc-47f5-b2d4-95ffa707bc5c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ea217808a163c7f16bbaa3c5a959fd32c8cbe10c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357916"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405217"
 ---
 # <a name="pidtagcorrelate-canonical-property"></a>PidTagCorrelate 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32357916"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性用于请求与原始已发送邮件的传入报告的关联。 当传输提供程序遇到**PR_CORRELATE**设置为 TRUE 的已提交邮件时, 它会将**PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) 属性设置为该邮件的邮件传输系统 (MTS) 标识符。
   

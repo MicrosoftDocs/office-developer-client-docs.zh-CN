@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 8e7c9080-7ef1-0696-a3d2-d8f57ea5ab9b
 description: 确定何时重排连接线。
 ms.openlocfilehash: b2b9cde309c720493f0e46962b2fe6c2e79545d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284460"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404181"
 ---
 # <a name="confixedcode-cell-shape-layout-section"></a>ConFixedCode 单元格（“Shape Layout”内容）
 
 确定何时重排连接线。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |自由重排  <br/> |**visSLOConFixedRerouteFreely** <br/> |
 |1  <br/> |根据需要重排（手动重排）  <br/> |**visSLOConFixedRerouteAsNeeded** <br/> |
@@ -30,7 +30,7 @@ ms.locfileid: "32284460"
 |5  <br/> |仅供内部使用  <br/> |**visSLOConFixedByAlgTo** <br/> |
 |型  <br/> |仅供内部使用  <br/> |**visSLOConFixedByAlgFromTo** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以通过以下方法设置此单元格的值: 选择动态连接线, 在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中单击 "**行为**", 然后单击 "**连接线**" 选项卡。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9b5659ab-2b49-41ab-92ce-ca343e35d670
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 58215de6cc4e9e68386f8f017839752acc6e1753
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326563"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404895"
 ---
 # <a name="imapisupportregisterpreprocessor"></a>IMAPISupport::RegisterPreprocessor
 
@@ -70,7 +70,7 @@ S_OK
   
 > 已成功注册预处理器函数。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 仅为传输提供程序支持对象实现了**IMAPISupport:: RegisterPreprocessor**方法。 传输提供程序调用**RegisterPreprocessor**以注册预处理器函数 (符合[PreprocessMessage](preprocessmessage.md)原型的函数)。 预处理器函数必须先注册, 然后 MAPI 后台处理程序才能调用它。 
   

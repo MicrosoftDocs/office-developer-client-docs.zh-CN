@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4172e2d3-6343-385b-c691-a64c1e198051
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9efafbac55a2925e04b533e7c08388c026540dff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357300"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407212"
 ---
 # <a name="mapicrashrecovery"></a>MAPICrashRecovery
 
@@ -30,7 +30,7 @@ ms.locfileid: "32357300"
 |||
 |:-----|:-----|
 |导出者:  <br/> |olmapi32  <br/> |
-|调用者：  <br/> |客户端  <br/> |
+|调用者：  <br/> |Client  <br/> |
 |实现者：  <br/> |Outlook  <br/> |
    
 ```cpp
@@ -49,7 +49,7 @@ _ulFlags_
     
    - **MAPICRASH\_SYSTEM_SHUTDOWN**: 如果 pst 或 OSTs 处于一致状态, 请将数据移动到磁盘, 并锁定 pst 或 OSTs 以阻止读取或写入访问。 无法使用**MAPICRASH\_CONTINUE**解锁 pst 或 OSTs。 必须与**MAPICRASH\_恢复**结合使用。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 高位字节 (0xFF000000) 是为提供程序特定的故障恢复标记保留的。
   

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: c314ff6d-3e60-4b81-87ac-6ca6753ff633
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1b94b0ea69237be3675e1ea02fc3e2bfac337025
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338554"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406218"
 ---
 # <a name="display-tables"></a>显示表
 

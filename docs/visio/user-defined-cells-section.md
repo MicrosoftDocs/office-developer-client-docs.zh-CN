@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5630b446-5668-f7c1-1e34-6d4f84600f7f
 description: 在特定于用户的单元格中输入公式（可由其他单元格和加载项工具引用）的工作区。
 ms.openlocfilehash: d10336578ae5738b5ffe06cad01ae5075d3ee3dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337133"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405574"
 ---
 # <a name="user-defined-cells-section"></a>“User-defined Cells”内容
 
 在特定于用户的单元格中输入公式（可由其他单元格和加载项工具引用）的工作区。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 与 "[草稿](scratch-section.md)" 部分一样, 您的解决方案可以以多种不同的方式使用**用户定义的单元格**部分。 "**用户定义的单元格**" 部分的优势在于可命名的单元格。无法命名 "**草稿**" 部分中的单元格。 
   

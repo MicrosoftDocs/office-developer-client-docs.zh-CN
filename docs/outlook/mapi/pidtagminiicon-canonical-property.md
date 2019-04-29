@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a436b590-63f3-413c-a9c2-7664567e0ff0
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ea7f9e0ed57c56b48399b9ffd1ea42db28daf249
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356229"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405413"
 ---
 # <a name="pidtagminiicon-canonical-property"></a>PidTagMiniIcon 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32356229"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性包含一个图标的32×32像素的图像, 其内容与 a 的内容相同。.ico 文件, 但只有左上的16×16像素被视为有效。 此属性通常是从复制的。在表单配置文件的相应 [Description] 部分的 SmallIcon 行中指定的 .ico 文件。
   

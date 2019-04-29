@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: bfe30c22-017b-42e0-93be-c85d674c07e3
 description: 获取一个字符串, 表示由 hashedAddresses 参数指定的每个用户的活动的集合。
 ms.openlocfilehash: be29d0226eb137b1ad8ed025acfe3f4958efa85f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336447"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404335"
 ---
 # <a name="isocialsession2getactivitiesex"></a>ISocialSession2::GetActivitiesEx
 
@@ -37,7 +37,7 @@ _activities_
   
 > 排除一个 XML 字符串, 表示自_startTime_以来由社交网络上的_hashedAddresses_指定的用户的一组活动。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果 .osc 提供程序支持按需同步的活动, 则 .osc 会调用**GetActivitiesEx** 。 .osc 将返回的信息存储在内存中的_活动_中。 有关 .osc 如何在内存中使用和更新此信息的详细信息, 请参阅[同步好友和活动](synchronizing-friends-and-activities.md)。
   

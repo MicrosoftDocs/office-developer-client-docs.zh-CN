@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f14ad568-fe45-4875-957d-415d39dc6f28
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7417ddeb814cafb954d5ab80a6dae771fd0f7a79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357433"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414611"
 ---
 # <a name="lpropcompareprop"></a>LPropCompareProp
 
@@ -62,7 +62,7 @@ LONG LPropCompareProp(
     
 对于没有内在排序的属性类型 (如 Boolean 或错误类型), 如果两个属性值不相等, **LPropCompareProp**函数将返回一个未定义的值。 此未定义的值在各个调用中是非零和一致的。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 仅当要比较的两个属性的类型相同时, 才使用**LPropCompareProp**函数。 
   

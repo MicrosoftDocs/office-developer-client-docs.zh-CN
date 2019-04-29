@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 22005976-37c0-d2be-8e34-8aee8458e4be
 description: 返回一个整数, 0 到 59, 表示日期时间或表达式的秒部分。
 ms.openlocfilehash: c23bbded12a3886fe3bd4dd2a3c3ba1bd6d11619
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332786"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404874"
 ---
 # <a name="second-function-visioshapesheet"></a>SECOND 函数 (VisioShapeSheet)
 
@@ -30,13 +30,13 @@ SECOND ("* * *datetime* * *" |* **表达式** * [, * * *lcid* * *])
 |:-----|:-----|:-----|:-----|
 | _datetime_ <br/> |必需  <br/> |**String** <br/> |任何通常被识别为日期和时间的字符串或对包含日期和时间的单元格的引用。  <br/> |
 | _expression_ <br/> |必需  <br/> |**String** <br/> | 任何生成日期和时间的表达式。  <br/> |
-| _lcid_ <br/> |可选  <br/> |**Numeric** <br/> |用于计算非本地_datetime_的区域设置标识符。 区域设置标识符是系统头文件中描述的一个数字。  <br/> |
+| _lcid_ <br/> |可选  <br/> |**数值** <br/> |用于计算非本地_datetime_的区域设置标识符。 区域设置标识符是系统头文件中描述的一个数字。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
 整数
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _datetime_或_expression_中的日期部分将被丢弃。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6b14c383-8bc6-4e86-bd92-0500272af40d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 496732e334d2d39672048dd1a02346aaee4b70e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321404"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417026"
 ---
 # <a name="imapimessagesitesubmitmessage"></a>IMAPIMessageSite::SubmitMessage
 
@@ -49,7 +49,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单对象调用**IMAPIMessageSite:: SubmitMessage**方法以请求将邮件排队等待传递。 邮件网站在提交邮件之前, 应调用[IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md)方法。 该邮件不需要先保存, 因为如果邮件已被修改, **SubmitMessage**应会导致保存邮件。 返回**SubmitMessage**后, 该窗体必须检查当前邮件, 然后在不存在的情况下消除自己。 
   

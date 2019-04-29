@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 57435634-202d-4998-9931-4562f1a66f5f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9b1c5a09a60240efa9d4fa117f0d8fe8113169d5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361164"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414527"
 ---
 # <a name="slongarray"></a>SLongArray
 
@@ -50,7 +50,7 @@ typedef struct _SLongArray
   
 > 指向 LONG 值数组的指针。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 有关 PT_MV_LONG 的详细信息, 请参阅[属性类型列表](property-types.md)。
   

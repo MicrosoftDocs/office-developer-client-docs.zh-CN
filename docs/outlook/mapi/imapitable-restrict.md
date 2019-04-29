@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a5bfc190-b58f-44c3-893c-8727df14ee58
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6cca6bc12fa6f100885b7bf705d79fa24a2e2f91
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328845"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414618"
 ---
 # <a name="imapitablerestrict"></a>IMAPITable::Restrict
 
@@ -66,7 +66,7 @@ MAPI_E_TOO_COMPLEX
   
 > 表无法执行此操作, 因为_lpRestriction_参数指向的特定筛选器过于复杂。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: Restrict**方法在表上建立限制或筛选器。 如果存在以前的限制, 将丢弃它并应用新的限制。 应用限制对表的基础数据没有影响。它只是通过限制可检索到包含满足限制的数据的行的行来更改视图。 
   

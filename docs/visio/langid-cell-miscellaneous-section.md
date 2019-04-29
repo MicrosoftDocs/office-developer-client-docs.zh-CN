@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 815e0df8-5ebf-ef1b-d620-bce8abb69f1a
 description: 指示创建单元格公式所使用的语言。
 ms.openlocfilehash: e1e5b92f01e97bc63003a4b195c159a50f61e77b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346499"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406673"
 ---
 # <a name="langid-cell-miscellaneous-section"></a>LangID 单元格（“Miscellaneous”内容）
 
 指示创建单元格公式所使用的语言。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 有关 Microsoft Office 应用程序所支持的语言的列表，请参阅“[DocLangID](doclangid-cell-document-properties-section.md) 单元格（‘Document Properties’内容）”这一主题。 
   

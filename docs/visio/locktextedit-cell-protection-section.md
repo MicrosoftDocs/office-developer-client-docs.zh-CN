@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: d8de5fa4-826b-e869-4d9f-997361d05fd8
 description: 锁定形状的文本，使它无法编辑。
 ms.openlocfilehash: f6e5176e3ab654b76c0641b8f642abcf6b1050dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348312"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404496"
 ---
 # <a name="locktextedit-cell-protection-section"></a>LockTextEdit 单元格（“Protection”内容）
 
 锁定形状的文本，使它无法编辑。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |不能编辑文本。  <br/> |
 | FALSE  <br/> | 能够编辑文本。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您仍然可以通过应用 **“文本”** 对话框（在 **“开始”** 选项卡上，单击 **“字体”** 箭头）中的样式来设置文本的格式。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a00d71b1-d705-40d5-b667-f91b57db85da
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 4b18cfc2191ffee936e1056d9bb656a7ad7dd3ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326388"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405245"
 ---
 # <a name="imapiprovidershutdownnotifyprocessshutdown"></a>IMAPIProviderShutdown::NotifyProcessShutdown
 

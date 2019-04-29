@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 93d7b00c-bd34-6b4e-44fe-afeb8aa9a294
 description: 确定超链接在快捷菜单上显示的顺序的数字。
 ms.openlocfilehash: 002ab036f5305aa6daa631c15b0e9eb6148a9635
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335215"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406379"
 ---
 # <a name="sortkey-cell-hyperlinks-section"></a>SortKey 单元格（“Hyperlinks”内容）
 
 确定超链接在快捷菜单上显示的顺序的数字。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 超链接按照从低到高的顺序在快捷菜单上显示，最低的数字显示在菜单的顶部。如果两个超链接行具有相同的 SortKey 单元格值，则顺序由物理行顺序确定。默认值为 0（零）。 
   

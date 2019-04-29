@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 824eb670-16b7-49bf-9992-39fe0586a552
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: aab5c76fb268729f1a50a33e4764905fe3d53405
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329741"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405763"
 ---
 # <a name="mapi-report-messages"></a>MAPI 报告邮件
 

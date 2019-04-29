@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b73cf770-8817-4a23-bd14-7b76fedef214
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b3ac1b2cf8335c5e0953fdcf61b2b5d466fbb724
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301545"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405658"
 ---
 # <a name="iprovideradminopenprofilesection"></a>IProviderAdmin::OpenProfileSection
 
@@ -80,7 +80,7 @@ MAPI_E_NOT_FOUND
   
 > 请求的配置文件部分不存在。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IProviderAdmin:: OpenProfileSection**方法打开一个配置文件部分, 使呼叫者能够从活动配置文件中读取信息, 也可能将信息写入到活动配置文件。 
   

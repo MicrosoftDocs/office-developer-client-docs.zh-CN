@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 510b2e21-ba27-47dd-87cb-2a549e31fa28
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 2e44d824bbb5cc96c51d7ca91eb639001bc52a71
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328871"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415661"
 ---
 # <a name="imapitablequeryposition"></a>IMAPITable::QueryPosition
 
@@ -55,7 +55,7 @@ S_OK
   
 > 该方法在_lpulRow_、 _lpulNumerator_和_lpulDenominator_中返回了有效值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: QueryPosition**方法确定当前行位置, 并同时返回当前行的编号和表示其在表末尾的相对位置的小数值。 MAPI 将当前行定义为要读取的下一行。 
   

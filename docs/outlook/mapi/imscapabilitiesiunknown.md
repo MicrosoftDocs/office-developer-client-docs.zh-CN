@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 18623a44-719e-f46f-0f04-d6089a19c85d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d00766d0fa85e51874357f97f60e86ee7eb1abf9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348795"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414779"
 ---
 # <a name="imscapabilities--iunknown"></a>IMSCapabilities : IUnknown
 
@@ -38,7 +38,7 @@ ms.locfileid: "32348795"
 |:-----|:-----|
 |**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |根据指定的选择返回应用商店的功能。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  **IMSCapabilities**提供了有关存储支持此接口时存储可以支持的内容的信息。 
   

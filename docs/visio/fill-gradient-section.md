@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 73e3a261-6282-4051-aec5-9f24abf32ec0
 description: 显示应用于形状的填充渐变的颜色值。
 ms.openlocfilehash: ca3aff17d184e566d4d8c054495a03770448830b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322524"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405462"
 ---
 # <a name="fill-gradient-section"></a>"填充渐变" 部分
 
 显示应用于形状的填充渐变的颜色值。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 该部分中的每个[渐变停止行 ("填充渐变" 部分)](gradient-stop-row-fill-gradient-section.md)都代表填充中的渐变光圈。 此部分可以为空。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0065b50f-95f6-4af1-81c2-a73e5111eecf
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 28dbbb98c9810bb688b9ecdd730ef6c4ada5f60b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279547"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404860"
 ---
 # <a name="iprovideradmindeleteprovider"></a>IProviderAdmin::DeleteProvider
 
@@ -49,7 +49,7 @@ MAPI_E_NOT_FOUND
   
 > 无法识别_lpUID_参数指向的**MAPIUID** 。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IProviderAdmin::D eleteprovider**方法从邮件服务中删除服务提供程序。 **DeleteProvider**确定要删除的服务提供程序, 方法是将_lpUID_所指向的**MAPIUID**结构与活动服务提供商注册的一组标识符相匹配。 
   

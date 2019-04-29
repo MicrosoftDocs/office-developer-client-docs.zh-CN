@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 38310619-1b1d-4934-8533-d0612676c0b0
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 816d1b7c9c0b8c5a80a2351580ce3224fccf0b14
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309532"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406743"
 ---
 # <a name="mapi-status-objects"></a>MAPI 状态对象
 

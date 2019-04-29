@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e7190523-87cf-4e04-aef4-d229776cd16b
 description: 组合了两个条件。 如果两个条件中的任何一个为 true, 则返回 true。
 ms.openlocfilehash: ffa605d2403c5aa8396d89f78d0bb7dd11343540
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308069"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414758"
 ---
 # <a name="or-access-custom-web-app"></a>或 (Access 自定义 web 应用程序)
 
@@ -31,7 +31,7 @@ ms.locfileid: "32308069"
 |:-----|:-----|
 | *BooleanExpression*  <br/> |返回 TRUE 或 FALSE 的任何有效表达式。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当在一个语句中使用多个逻辑运算符时,**或**在**And**运算符之后计算运算符。 不过, 您可以使用括号更改求值的顺序。 
   

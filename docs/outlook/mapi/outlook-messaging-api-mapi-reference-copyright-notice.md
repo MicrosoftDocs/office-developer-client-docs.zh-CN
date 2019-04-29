@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: e3538355-8ce9-4c79-9970-aea828818d26
 description: '上次修改时间: 2012 年6月22日'
 ms.openlocfilehash: ae04e6a7a3e359f9d2620417a2d00513bb94679a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348683"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407352"
 ---
 # <a name="outlook-messaging-api-mapi-reference-copyright-notice"></a>Outlook 消息处理 API (MAPI) 引用版权声明
 

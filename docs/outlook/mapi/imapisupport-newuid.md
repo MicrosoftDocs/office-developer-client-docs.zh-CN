@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7994477d-5207-4335-b538-69c98782d52d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: a38f7ea475f8a5cbad4f1cc295c3e2550ea8cd66
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330196"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406995"
 ---
 # <a name="imapisupportnewuid"></a>IMAPISupport::NewUID
 
@@ -45,7 +45,7 @@ S_OK
   
 > 已创建新的**MAPIUID**结构。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: NewUID**方法是为所有支持对象实现的。 每当服务提供程序和邮件服务需要生成长期唯一标识符时, 都会调用**NewUID** 。 例如, 邮件存储提供程序可能会调用**NewUID**以获取**MAPIUID**以放置在新创建的邮件的**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性中。
   

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: d983b71c7c92c395740a8ae6f6d3666a8bc2c0c7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332058"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407191"
 ---
 # <a name="choosing-a-forms-property-set"></a>选择表单的属性集
 

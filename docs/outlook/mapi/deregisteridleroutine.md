@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a8ada6fe-9963-4c25-b4b4-db77f9517368
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 62231a900dbe01ebe1e848355226c0589072cd42
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316798"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404559"
 ---
 # <a name="deregisteridleroutine"></a>DeregisterIdleRoutine
 
@@ -49,7 +49,7 @@ VOID DeregisterIdleRoutine(
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序或服务提供程序中的任何任务都可以取消注册其具有有效_ftg_参数的任何空闲例程。 特别是, 空闲例程可以自行取消注册。 
   

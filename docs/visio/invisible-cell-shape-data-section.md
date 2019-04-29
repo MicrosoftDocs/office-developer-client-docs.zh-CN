@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 5f368c2e-2a40-38ee-3568-ed5c57633345
 description: 指定形状数据项在“形状数据”窗口中是否可见。
 ms.openlocfilehash: 8671fcc249b7ca81c011f697721093e7842c1558
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357265"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405315"
 ---
 # <a name="invisible-cell-shape-data-section"></a>Invisible 单元格（“Shape Data”内容）
 
 指定形状数据项在 **“形状数据”** 窗口中是否可见。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 形状数据项不可见。  <br/> |
 | FALSE  <br/> | 形状数据项可见。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此单元格中的值对应于 **“定义形状数据”** 对话框（右键单击形状，指向 **“数据”**，然后单击 **“定义形状数据”**）中的 **“隐藏”** 复选框。
   

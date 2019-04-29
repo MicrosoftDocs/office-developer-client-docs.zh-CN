@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2def89ed-e4ce-446a-8b80-132d11ae8f8b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7abafafd3d4bd9618d85a7dac34e4556545167bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334753"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406274"
 ---
 # <a name="iaddrbookadvise"></a>IAddrBook::Advise
 
@@ -87,7 +87,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > _lpEntryID_中传递的条目标识符不能由配置文件中的任何通讯簿提供程序处理。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端和服务提供程序调用**Advise**方法以在通讯簿条目上注册特定类型或通知类型。 通知的类型由通过_ulEventMask_参数传入的事件掩码指示。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8ebb21ca-5ad1-4dcc-97b6-2390664b5d8d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c77acb5226361ce31a7f6b1694de7fe23f8dd71b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315986"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415269"
 ---
 # <a name="entryid"></a>ENTRYID
 
@@ -71,13 +71,13 @@ MAPI_THISSESSION
   
 > 指示服务提供程序使用的二进制数据数组。 客户端应用程序无法使用此数组。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 " **ENTRYID** " 结构由邮件存储和通讯簿提供程序用于为其对象构造唯一标识符。 条目标识符用于标识以下类型的对象: 
   
 - 邮件存储
     
-- 文件夹
+- Folders
     
 - 邮件
     

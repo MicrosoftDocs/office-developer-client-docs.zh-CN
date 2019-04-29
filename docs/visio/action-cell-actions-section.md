@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 435e49ee-0b51-8ce3-0589-3f0717026f4a
 description: 包含当用户选择快捷菜单或动作标记菜单上的命令时要执行的公式。
 ms.openlocfilehash: e6bc576982cad871804cbcbc5f3d9c6bceb558c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283063"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407611"
 ---
 # <a name="action-cell-actions-section"></a>Action 单元格（“Actions”内容）
 
@@ -23,7 +23,7 @@ ms.locfileid: "32283063"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 只有动作发生（而不是输入该公式）后才对 Action 单元格求值。
   

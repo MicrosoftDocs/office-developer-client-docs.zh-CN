@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9eec90d3-2369-4340-86ed-0efa58918ed5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5983ed3229f6b0053f15a614116cf5680e942587
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351441"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407359"
 ---
 # <a name="imapiadvisesinkonnotify"></a>IMAPIAdviseSink::OnNotify
 
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功处理通知。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当客户端或 MAPI 对服务提供商的**建议**方法进行注册以接收特定对象的特定类型通知时, 将启动通知过程。 **advise**方法的一个参数是指向实现[IMAPIAdviseSink](imapiadvisesinkiunknown.md)接口的通知接收器对象的指针。 当与已注册的通知相对应的目标对象发生事件时, 服务提供程序可以通过 MAPI 直接或间接地调用通知接收器的**OnNotify**方法。 
   

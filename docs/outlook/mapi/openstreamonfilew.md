@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 263b9f24-eac8-4d34-8f66-dc87024b94b9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7e67d84320b57fe6e510b70a68088f289ef6030d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348865"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406022"
 ---
 # <a name="openstreamonfilew"></a>OpenStreamOnFileW
 
@@ -104,7 +104,7 @@ MAPI_E_NOT_FOUND
   
 > 指定的文件不存在。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 除了处理具有 Unicode 名称的文件之外, **OpenStreamOnFileW**函数还有两个重要用途, 它们通过 SOF_UNIQUEFILENAME 标志的设置加以区分。 如果未设置此标志, 则**OpenStreamOnFileW**将在现有文件上打开**IStream**对象, 例如, 将其内容复制到使用**** 的[](pidtagattachdatabinary-canonical-property.md)**附件的 PR_ATTACH_DATA_BIN (PidTagAttachDataBinary) 属性。IStream:: CopyTo**方法。 在这种情况下, _lpszFileName_参数指定文件的路径和文件名。 
   

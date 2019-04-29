@@ -10,17 +10,17 @@ keywords:
 - xlset 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 0912c1d40882933778d0df927ceb9de773063444
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303855"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404601"
 ---
 # <a name="xlset"></a>xlSet
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 快速将常量值放入单元格或区域。 有关详细信息, 请参阅[Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)中的 "xlSet 和包含数组公式的工作簿"。
   
@@ -38,7 +38,7 @@ _pxValue_
   
 要放入一个或多个单元格中的值。 有关详细信息，请参阅“注解”部分。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 ### <a name="pxvalue-argument"></a>pxValue 参数
 

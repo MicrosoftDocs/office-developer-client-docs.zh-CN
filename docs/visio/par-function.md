@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9caf424d-cb70-8f1a-b984-64cf776bdfb4
 description: 返回形状的父级坐标系中某个点的 x, y 坐标。
 ms.openlocfilehash: 4e7517c4210db31f1c3f5dc8bf98185b6f4104aa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269942"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414506"
 ---
 # <a name="par-function"></a>PAR 函数
 
@@ -30,7 +30,7 @@ PAR (* **点** *)
 |:-----|:-----|:-----|:-----|
 | _鼠标_ <br/> |必需  <br/> |**Number, Number** <br/> |用当前形状的坐标系表示的点的坐标。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在 Microsoft Visio 中, 点是一个体现一对*x*和*y*坐标的单个值。 如果形状在一个组合中，则它的父级就是该组合。 如果形状不在一个组合中，则它的父级是页。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 341ad06b-1caa-49bb-b859-cb512f6fb55d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cb20469adec938817fedf1b00789304625b388c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328005"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404762"
 ---
 # <a name="ftaddft"></a>FtAddFt
 

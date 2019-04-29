@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3b2991aa-4722-fe3b-39c5-02d38c4c7efc
 description: 确定对象垂直偏离对象边框的原点的距离。 默认值为 0。 使用“剪裁”工具扫视对象将更改该值。
 ms.openlocfilehash: 908972216a24370bc48990ddc99a36da9274d648
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344735"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406736"
 ---
 # <a name="imgoffsety-cell-foreign-image-info-section"></a>ImgOffsetY 单元格（“Foreign Image Info”内容）
 
 确定对象垂直偏离对象边框的原点的距离。默认值为 0。使用 **“剪裁”** 工具扫视对象将更改该值。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ImgOffsetY 单元格的引用，请使用： 
   

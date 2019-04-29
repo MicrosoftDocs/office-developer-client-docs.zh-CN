@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 2d97b31d-9008-307d-273a-1726007eeb34
 description: 锁定二维形状，以免它随旋转手柄或者“向左旋转 90°”或“向右旋转 90°”命令旋转。
 ms.openlocfilehash: 36da1868e4f974bd19d00e86e31bea96eb8ad5bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348270"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404671"
 ---
 # <a name="lockrotate-cell-protection-section"></a>LockRotate 单元格（“Protection”内容）
 
 锁定二维形状，以免它随旋转手柄或者 **“向左旋转 90°”** 或 **“向右旋转 90°”** 命令旋转。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 不能旋转形状。  <br/> |
 | FALSE  <br/> | 可以旋转形状（默认值）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当拖动一维形状的某个端点时，LockRotate 单元格不能阻止该形状旋转。要锁定一维形状以免其旋转，请将 LockWidth 单元格设置为非零值 (TRUE)。
   

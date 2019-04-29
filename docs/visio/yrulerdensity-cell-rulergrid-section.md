@@ -10,24 +10,24 @@ localization_priority: Normal
 ms.assetid: aebcd321-9d1c-e04e-7c85-3ec1ed851561
 description: 指定页面标尺上的垂直细分线。
 ms.openlocfilehash: c92c48f6c86fc794cf6f53a87fdb99e67a73b9f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357202"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406799"
 ---
 # <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>YRulerDensity 单元格 ( &amp; "标尺网格" 部分)
 
 指定页面标尺上的垂直细分线。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |Fixed  <br/> |**visRulerFixed** <br/> |
 |8 (&amp;H8)  <br/> |粗  <br/> |**visRulerCoarse** <br/> |
 |16 (&amp;H10)  <br/> |标准（默认）  <br/> |**visRulerNormal** <br/> |
 |32 (&amp;H20)  <br/> |细化  <br/> |**visRulerFine** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此单元格对应于 "**标尺&amp;网格**" 对话框 (在 "**视图**" 选项卡上, 单击 "**显示**" 箭头) 中的 "垂直**细分**" 选项。 
   

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 71967150-1005-4c85-90f1-76fc7876c0d0
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 43b0090192a2f9b02acee4edf471c5ae6c6de7e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328488"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407051"
 ---
 # <a name="property-types"></a>属性类型
 
@@ -25,7 +25,7 @@ MAPI 支持单值和多值属性。 使用单值属性时, 属性的一个基本
   
 下表描述了 MAPI 支持的单值和多值属性类型。 对于每个具有相应的多值类型的单值类型, 多值类型将显示在单值类型后面的圆括号中。
   
-|**属性类型**|**十六进制值**|**Description**|
+|**属性类型**|**十六进制值**|**说明**|
 |:-----|:-----|:-----|
 |PT_UNSPECIFIED  <br/> |0000  <br/> |指示属性类型未知。 此属性类型保留以与接口方法一起使用。  <br/> |
 |PT_NULL  <br/> |0001  <br/> |指示无属性值。 此属性类型将保留用于接口方法, 并且与 OLE 类型 VT_NULL 相同。  <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7b4ca523-0703-417c-8586-c4324c200020
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 61991972fdf8674a9ffd2b790e26c7fa669df357
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328859"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407548"
 ---
 # <a name="imapitablequerysortorder"></a>IMAPITable::QuerySortOrder
 
@@ -49,7 +49,7 @@ MAPI_E_BUSY
   
 > 正在进行另一个操作, 以阻止排序顺序检索操作开始。 应允许正在进行的操作完成, 或者应已停止。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: QuerySortOrder**方法检索表的当前排序顺序。 排序顺序是使用[SSortOrderSet](ssortorderset.md)结构进行描述的。 
   

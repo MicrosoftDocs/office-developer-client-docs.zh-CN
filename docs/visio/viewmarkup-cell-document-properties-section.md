@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 6c956266-8266-3312-5a68-cc9d8bdb8cd9
 description: 确定绘图窗口中是否显示标记。
 ms.openlocfilehash: eeccdd0d14bf28630937b0e480822abb6fb19da5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355823"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416403"
 ---
 # <a name="viewmarkup-cell-document-properties-section"></a>ViewMarkup 单元格（“Document Properties”内容）
 
 确定绘图窗口中是否显示标记。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |在绘图上显示标记。  <br/> |
 |FALSE  <br/> |不显示标记（默认值）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  标记跟踪打开时 (AddMarkup 单元格为 true), 即使关闭了标记跟踪 (AddMarkup 单元格为 FALSE), ViewMarkup 单元格也会自动设置为 true, 并且仍为 true。 当 AddMarkup 单元格为 TRUE 时，将忽略 ViewMarkup 单元格中的值。 
   

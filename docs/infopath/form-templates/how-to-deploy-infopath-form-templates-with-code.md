@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: ab66e26d-74ee-4211-b387-1385183a6803
 description: InfoPath 托管代码表单模板的表单代码编译为在公共语言运行库 (CLR) 下运行的程序集。这意味着只要您需要对表单代码进行更改，就必须在 Visual Studio 2008 中打开其项目，在代码编辑器中进行更改，重新编译表单模板，然后重新部署该表单模板。此外，由于托管代码表单模板的专用程序集是在托管的 CLR 应用程序域中运行的，因此需要完全信任的表单的安全设置与不需要完全信任的表单模板稍有不同。
 ms.openlocfilehash: ba3629e786a224ea950e78bbec9a9fe94d4499de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303624"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406897"
 ---
 # <a name="deploy-infopath-form-templates-with-code"></a>部署包含代码的 InfoPath 表单模板
 

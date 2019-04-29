@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 133d47cf-3592-44f3-8cdd-be402d160ee4
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 827cdb919499a068f7932d8f1f7ec264ddc5b47c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328551"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404468"
 ---
 # <a name="propcopymore"></a>PropCopyMore
 
@@ -70,7 +70,7 @@ MAPI_E_NO_SUPPORT
   
 > 遇到未知的属性类型。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序或服务提供程序可以使用**PropCopyMore**函数复制即将释放的表的属性, 以便在其他位置使用该属性。 
   

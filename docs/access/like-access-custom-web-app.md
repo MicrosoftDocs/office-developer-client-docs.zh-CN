@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: decdd8fc-2184-4d97-b918-3ef6ab1ab40b
 description: 确定特定字符串是否与指定的模式相匹配。 模式可以包含常规字符和通配符字符。 在模式匹配期间, 常规字符必须与字符字符串中指定的字符完全匹配。 但是, 通配符可以与字符串的任意段相匹配。 与使用 = 和! = 字符串比较运算符相比, 使用通配符可使 LIKE 运算符更灵活。
 ms.openlocfilehash: 02d1e4f8fc61335e828a1f77579c14b1c7577485
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311079"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406113"
 ---
 # <a name="like-access-custom-web-app"></a>LIKE (Access 自定义 web 应用)
 
@@ -33,7 +33,7 @@ ms.locfileid: "32311079"
 | *Pattern*  <br/> |是  <br/> |要在*表达式*中搜索的特定字符串的字符。 可以包含通配符字符。 请参阅备注获取有效通配符字符的列表。  <br/> |
 | *EscapeChar*  <br/> |否  <br/> |放在通配符前面的字符, 用于指示通配符应被解释为常规字符, 而不是通配符。  *EscapeChar*是一个不含默认值的字符表达式, 并且必须仅取值为一个字符。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 下表包含可在*Pattern*参数中使用的有效通配符字符。 
   

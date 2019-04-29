@@ -10,17 +10,17 @@ keywords:
 - funcsum 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 934192ef-8a89-4dbb-bd37-01e92ba24256
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 14db5812165812161cf7031f75338a981251dfd2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304058"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406939"
 ---
 # <a name="funcsum"></a>FuncSum
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 示例用户定义的工作表函数, 它需要1到29个参数并计算它们的和。 每个参数都可以是单个数字、一个区域或一个数组。 当加载了 GENERIC xll 时, 它将注册此函数, 以便可以从工作表中调用它。 
   

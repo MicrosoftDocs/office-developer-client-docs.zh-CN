@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9bf68814-2564-433d-b762-3d2c83ca3c60
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e318d7a709a09e67ebf423db0263985523d2fc28
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32333031"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406806"
 ---
 # <a name="createiprop"></a>CreateIProp
 
@@ -80,7 +80,7 @@ MAPI_E_INTERFACE_NOT_SUPPORTED
   
 > 此对象不支持所请求的接口。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 " _lpAllocateBuffer_"、" _lpAllocateMore_" 和 " _lpFreeBuffer_ " 输入参数分别指向 " [MAPIAllocateBuffer](mapiallocatebuffer.md)"、" [MAPIAllocateMore](mapiallocatemore.md)" 和 " [MAPIFreeBuffer](mapifreebuffer.md) " 函数。 调用**CreateIProp**的客户端应用程序传递到刚刚命名的 MAPI 函数的指针。服务提供程序将指针传递给其在初始化调用中收到的这些函数, 或通过调用[IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md)方法检索到这些函数。 
   

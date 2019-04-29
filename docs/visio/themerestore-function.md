@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ca7e6621-f39b-64dd-3594-41d74da21a94
 description: 在应用主题时存储形状的局部格式值, 以便在用户随后删除主题时可以还原本地格式设置。
 ms.openlocfilehash: 628e246f91172f136dd1a70807fca2abc1ff5bdd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332212"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404286"
 ---
 # <a name="themerestore-function"></a>THEMERESTORE 函数
 

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 166a8e60-e09d-7473-b61b-35d78a863192
 description: 上次修改时间：2012 年 6 月 25 日
 ms.openlocfilehash: fb9b0a4c8ac1a2f41a0fddcd746dba5fc4bae1a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321747"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405553"
 ---
 # <a name="about-the-store-api"></a>关于存储 API
 

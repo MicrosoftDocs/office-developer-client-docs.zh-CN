@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bcdd0688-0897-47d7-9601-f592ba453b39
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: c8dc10bdb8bcde15dccf7bab4d9e10d2481cef11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278884"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416438"
 ---
 # <a name="itneffinishcomponent"></a>ITnef::FinishComponent
 
@@ -78,7 +78,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 传输提供程序、邮件存储提供程序和网关调用**ITnef:: FinishComponent**方法, 以执行一个组件 (由_ulFlags_参数中设置的标志所指示) 的 TNEF 处理 (无论是邮件还是附件)。 
   

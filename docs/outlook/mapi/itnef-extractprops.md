@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9169a5be-21dd-4938-8db3-522bea165c92
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 5a01c65bbec061248537558257c66d1a90128b5e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348648"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407499"
 ---
 # <a name="itnefextractprops"></a>ITnef::ExtractProps
 
@@ -67,7 +67,7 @@ MAPI_E_CORRUPT_DATA
   
 > 解码为流的数据已损坏。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 传输提供程序、邮件存储提供程序和网关调用**ITnef:: ExtractProps**方法从传递给[OpenTnefStream](opentnefstream.md)函数的邮件或附件的封装中提取 (即解码) 属性。 调用提供程序或网关可以指定要解码的属性列表。 提供程序和网关也可以使用**ExtractProps**来提供有关附件的任何特殊处理的信息。 
   

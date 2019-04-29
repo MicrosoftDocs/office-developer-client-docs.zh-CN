@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5e6a9f3e-79be-4ffd-9d42-3a14cabb1435
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bff73ee5cf02680a2376106e21e0c743b995d336
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348088"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404433"
 ---
 # <a name="hrdecomposemsgid"></a>HrDecomposeMsgID
 
@@ -74,7 +74,7 @@ HrDecomposeMsgID(
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果_szMsgID_参数指定的标识符是复合标识符, 则将其从 ASCII 转换为, 并拆分为其邮件存储区中的对象的条目标识符和存储的条目标识符。 Noncompound 条目标识符字符串是简单转换和复制的。 要分隔的复合标识符字符串通常是由[HrComposeMsgID](hrcomposemsgid.md)函数创建一个。 
   

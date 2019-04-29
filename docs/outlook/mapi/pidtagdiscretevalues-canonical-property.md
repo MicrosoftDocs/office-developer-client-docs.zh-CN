@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 958f3cf7-953a-43f4-9102-ad35edf5e813
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6d6974302e3413db3590abbbd3e6567976c6ac72
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360821"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404839"
 ---
 # <a name="pidtagdiscretevalues-canonical-property"></a>PidTagDiscreteValues 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32360821"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 非传输  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当无法将邮件传递给通讯组列表的一个或多个成员时, 将在 nondelivery 报告中使用此属性。 其目的是将重新传输尝试限制为仅对单个成员进行, 而不是将通讯组列表限制为一个整体。 
   

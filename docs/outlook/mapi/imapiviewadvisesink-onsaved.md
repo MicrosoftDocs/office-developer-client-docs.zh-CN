@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c327e31a-7b62-4e21-9b69-b27442f1eaca
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 2ec78331fd013777f001d39bd7e978a67abb5342
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351196"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407604"
 ---
 # <a name="imapiviewadvisesinkonsaved"></a>IMAPIViewAdviseSink::OnSaved
 
@@ -41,7 +41,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 窗体对象在成功保存窗体中的当前邮件后调用**IMAPIViewAdviseSink:: OnSaved**方法。 这样做将允许查看者更新其窗口, 以反映对邮件的更改。 
   

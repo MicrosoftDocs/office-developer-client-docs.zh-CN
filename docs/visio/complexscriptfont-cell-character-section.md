@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: e1cf9e97-101b-384f-65fe-0169c89dfccc
 description: 包含用于设置由复杂文种字符组成的文字的格式的字体编号。根据您的系统上安装的字体，字体编号会有所不同。
 ms.openlocfilehash: 5ec8deb59b875a01592b6d7b652204089ecf11e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359379"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404832"
 ---
 # <a name="complexscriptfont-cell-character-section"></a>ComplexScriptFont 单元格（“Character”内容）
 
 包含用于设置由复杂文种字符组成的文字的格式的字体编号。根据您的系统上安装的字体，字体编号会有所不同。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 复杂文种字体大小在 "**文本**" 对话框 (单击 "**开始**" 选项卡上 "**字体**" 组中的箭头) 的 "**字体**" 选项卡上列出。 仅当您在**Microsoft Office 语言首选项**对话框中添加了包含亚洲或复杂脚本字符的语言时, 才会显示此列表。 (依次单击 "**开始**"、"**所有程序**"、" **microsoft office**"、" **microsoft office 工具**" 和 " **microsoft office 语言首选项**"。
   

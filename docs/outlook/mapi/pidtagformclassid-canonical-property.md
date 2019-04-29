@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ca2bbfab-6f4f-4a9a-b3ef-61d7c41e4767
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7e3ee8abcf15c8b7697a29e844d838891fe22310
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316259"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404755"
 ---
 # <a name="pidtagformclassid-canonical-property"></a>PidTagFormClassId 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32316259"
 |数据类型：  <br/> |PT_CLSID  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 [MAPIUID](mapiuid.md)结构包含唯一标识符的定义。 
   

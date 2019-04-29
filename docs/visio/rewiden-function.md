@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c20842cd-86b1-83fa-49ba-118936013b6f
 description: 使用指定的字符集将生成的16位字符代码的公式转换为16位 Unicode 字符代码的字符串, 这些字符是由16位 Unicode 字符代码组成的字符串。
 ms.openlocfilehash: c885487f91e541027b7ba09812e7321a9deb00ac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326766"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405210"
 ---
 # <a name="rewiden-function"></a>REWIDEN 函数
 
@@ -32,7 +32,7 @@ REWIDEN (* * *srcCharSet* * *, * * *dstCharSet* * *, * * *text* * *)
 | _dstCharSet_ <br/> |必需  <br/> |**String** <br/> | 目标文档中的字符集。  <br/> |
 | _text_ <br/> |必需  <br/> |**String** <br/> |要转换的文本。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 REWIDEN 函数用于从 Visio 2002 文档到 Visio 2003 文档的自动转换。不建议将该函数用于其他方面。
   

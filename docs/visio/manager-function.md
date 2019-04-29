@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b2453014-7d45-f4c9-0384-def705c5c4d4
 description: 返回文档属性的 "经理" 字段中的文本。
 ms.openlocfilehash: f69666fa762a96ecedd9ab4c41a4db34ce78f2cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344784"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404538"
 ---
 # <a name="manager-function"></a>MANAGER 函数
 

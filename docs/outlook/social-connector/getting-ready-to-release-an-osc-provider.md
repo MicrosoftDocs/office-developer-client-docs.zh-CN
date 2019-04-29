@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: a7d28349-3121-49ae-ad28-043789e2d205
 description: 本节建议您在发布 Outlook Social Connector (.osc) 提供程序之前可以执行的测试。
 ms.openlocfilehash: 8a36b13f8adc42a1834481d3a5942f0350c43cc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327151"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414660"
 ---
 # <a name="getting-ready-to-release-an-osc-provider"></a>准备发布一个 .osc 提供程序
 
@@ -37,7 +37,7 @@ ms.locfileid: "32327151"
 
 - [Outlook Social Connector 提供程序参考](outlook-social-connector-provider-reference-0.md)
   
-## <a name="related-sections"></a>相关章节
+## <a name="related-sections"></a>相关部分
 
 - [.osc 示例模板](osc-sample-templates.md)
   

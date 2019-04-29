@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0a80959f-941f-451c-9049-dc661ff4930f
 description: 确定形状的阴影使用哪种主题颜色, 例如从0到7的整数。
 ms.openlocfilehash: b623eee89d214bade2706b12fcb344eccd8814b8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360033"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414954"
 ---
 # <a name="quickstyleshadowcolor-cell-quick-style-section"></a>QuickStyleShadowColor 单元格 ("快速样式" 部分)
 
@@ -30,7 +30,7 @@ ms.locfileid: "32360033"
 |型  <br/> |形状阴影颜色继承自 "强调文字颜色 5" 主题颜色。  <br/> |
 |步  <br/> |形状阴影颜色继承自 "强调文字颜色 6" 主题颜色。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**QuickStyleShadowColor**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

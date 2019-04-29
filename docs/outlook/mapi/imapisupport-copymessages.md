@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 70f67614-af0d-43f6-99f6-391a2f5673cb
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 9cc4e3ba77395e09a6b95e8381fa402fc3cdff61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356530"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405154"
 ---
 # <a name="imapisupportcopymessages"></a>IMAPISupport::CopyMessages
 
@@ -92,7 +92,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为邮件存储提供程序支持对象实现了**IMAPISupport:: CopyMessages**方法。 邮件存储提供程序可以在其[IMAPIFolder:: CopyMessages](imapifolder-copymessages.md)的实现中调用**IMAPISupport:: CopyMessages** , 将一个或多个邮件从一个文件夹复制或移动到另一个文件夹。 作为**IMAPISupport:: CopyMessages**调用的一部分, 邮件存储提供程序可以指定 MAPI 应显示进度指示器。 
   

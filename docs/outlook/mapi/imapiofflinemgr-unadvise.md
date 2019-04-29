@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 800f79179f999ba193d4177abb7341095b8b896d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321215"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404853"
 ---
 # <a name="imapiofflinemgrunadvise"></a>IMAPIOfflineMgr::Unadvise
 
@@ -50,7 +50,7 @@ S_OK
   
 > 调用成功。 此调用必须返回 S_OK。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 删除与*ulAdviseToken*相关联的回调的注册, 该回调是从以前对**[IMAPIOfflineMgr:: 建议](imapiofflinemgr-advise.md)** 的调用返回的。 使**IMAPIOfflineMgr**对象释放其对与*ulAdviseToken*相关联的**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** 对象的引用。 
   

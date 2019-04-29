@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: e67dcd83-4a88-a0f8-5c6a-dae51424edbd
 description: 指示超链接是否出现在形状或页面的快捷菜单上。
 ms.openlocfilehash: b52da8244bf31e75bacbb6f24f73eba6ee8c6e5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348333"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404629"
 ---
 # <a name="invisible-cell-hyperlinks-section"></a>Invisible 单元格（“Hyperlinks”内容）
 
 指示超链接是否出现在形状或页面的快捷菜单上。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |超链接不显示为快捷菜单上的菜单项。  <br/> |
 |FALSE  <br/> |超链接显示为快捷菜单上的菜单项（默认值）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Invisible 单元格的引用，请使用： 
   

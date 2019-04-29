@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 3e2a88ad-d92c-4550-8da3-fa7fdd032e73
 description: 确定形状的线条的复合类型。
 ms.openlocfilehash: 120975e419656234266cb8151b2fa37ef19602e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359365"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407170"
 ---
 # <a name="compoundtype-cell-line-format-section"></a>CompoundType 单元格 ("Line Format" 内容)
 
 确定形状的线条的复合类型。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |简单  <br/> |
 |1  <br/> |双精度  <br/> |
@@ -26,7 +26,7 @@ ms.locfileid: "32359365"
 |第三章  <br/> |细厚  <br/> |
 |4  <br/> |Triple  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**CompoundType**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

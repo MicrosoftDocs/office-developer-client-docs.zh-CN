@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a238bf1c-1acd-eacd-22f3-a48acaaa4549
 description: 确定一个形状的文本背景色。
 ms.openlocfilehash: 2450bf0cb0e013c0f9310eacfca0f5a20e7e6063
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332323"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406540"
 ---
 # <a name="textbkgnd-cell-text-block-format-section"></a>TextBkgnd 单元格（“Text Block Format”内容）
 
 确定一个形状的文本背景色。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 TextBkgnd 单元格的值可以是 0 到 24 之间的任意值，或者是 255。 值0和 255 ( *visTxtBlklOpaque*) 都表示透明文本背景。 
   
