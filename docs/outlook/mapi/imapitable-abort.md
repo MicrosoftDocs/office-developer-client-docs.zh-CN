@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 73291a5b-b626-494c-b5d9-f7709e34bac2
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 74c307fca27f1adec18d236792f8a58d97e33ec5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328945"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406148"
 ---
 # <a name="imapitableabort"></a>IMAPITable::Abort
 
@@ -45,7 +45,7 @@ MAPI_E_UNABLE_TO_ABORT
   
 > 正在进行异步操作, 无法停止或已完成。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: Abort**方法会停止当前正在进行的任何异步操作。 
   

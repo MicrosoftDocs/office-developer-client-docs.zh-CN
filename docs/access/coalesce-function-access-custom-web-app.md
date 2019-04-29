@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 92a7cc0a-1f9f-4969-8439-56a8d18e1347
 description: 返回参数列表中的第一个不为 NULL 的表达式。
 ms.openlocfilehash: af309d2330f5c3b3999a4d99d8f2ab2d6d7d61db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282269"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411391"
 ---
 # <a name="coalesce-function-access-custom-web-app"></a>合并函数 (Access 自定义 web 应用程序)
 
@@ -30,7 +30,7 @@ ms.locfileid: "32282269"
 |:-----|:-----|
 | *值*  <br/> |一个表达式。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果所有参数均为 null, 则**合并**将返回 null。 
   

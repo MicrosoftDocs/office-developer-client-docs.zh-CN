@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: f0891064-95d9-ae1b-28f3-3aef1406b636
 description: 代表段落中所有文本行自该文本块的右边距始缩进的距离。此值与绘图比例无关。即使绘图比例进行调整，右缩进仍保持不变。
 ms.openlocfilehash: e6529bf41cb8fdd40371d9a663291961626afb56
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335341"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408864"
 ---
 # <a name="indright-cell-paragraph-section"></a>IndRight 单元格（“Paragraph”内容）
 
 代表段落中所有文本行自该文本块的右边距始缩进的距离。此值与绘图比例无关。即使绘图比例进行调整，右缩进仍保持不变。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 IndRight 单元格的引用，请使用： 
   

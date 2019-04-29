@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3ddbb129-5d6b-4eca-aba0-3620609ed0c1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 621c20376cc671a2ff9d1406bfb6248846e1bc81
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350951"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418636"
 ---
 # <a name="imapifoldergetmessagestatus"></a>IMAPIFolder::GetMessageStatus
 
@@ -84,7 +84,7 @@ S_OK
   
 > 已成功检索邮件状态。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFolder:: GetMessageStatus**方法返回邮件的状态。 邮件状态存储在邮件的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性中。 
   

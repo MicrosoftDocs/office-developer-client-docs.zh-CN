@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 80ba893d-3380-4db1-9175-f5b84cb57def
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9a22550e60c9de38236a9f612c7e60f50f18978f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331841"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408724"
 ---
 # <a name="callerrelease"></a>CALLERRELEASE
 
@@ -59,7 +59,7 @@ void CALLERRELEASE(
 
 无 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 填充了 table data 对象的客户端应用程序或服务提供程序可以调用[ITableData:: HrGetView](itabledata-hrgetview.md)以创建表的只读、排序视图。 对**HrGetView**的调用会将指针传递给基于**CALLERRELEASE**的回调函数, 还会传递与表视图一起保存的上下文。 当表视图的引用计数返回到零, 并且正在释放视图时, **IMAPITable**实现将调用回调函数, 并在_ulCallerData_参数中传递上下文。 
   

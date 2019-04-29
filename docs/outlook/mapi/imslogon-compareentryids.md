@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 481812d6-8e94-4510-b288-55501dd5757c
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 4196ed8b949ecb9e23c4bd34380db9cc5a369e23
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348725"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410131"
 ---
 # <a name="imslogoncompareentryids"></a>IMSLogon::CompareEntryIDs
 
@@ -70,7 +70,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 邮件存储提供程序实现**IMSLogon:: CompareEntryIDs**方法, 以比较邮件存储区中给定条目的两个条目标识符, 以确定它们是否引用同一个对象。 如果两个条目标识符引用同一个对象, 则**CompareEntryIDs**会将_lpulResult_参数设置为 TRUE;如果这些对象引用不同的对象, 则**CompareEntryIDs**会将_lpulResult_设置为 FALSE。 
   

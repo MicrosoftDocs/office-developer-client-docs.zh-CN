@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 65e7882e-6397-4375-9bb4-d993d700d749
 description: 以下各节介绍在使用 infopath 托管代码表单模板时可能遇到的常见故障排除方案, 这些模板使用由 SemiTrust 提供的 infopath 2003 兼容对象模型在运行时命名空间。
 ms.openlocfilehash: c7b4b65cc722e72ef155529a0b2aa66c4f6cfcff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299795"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414443"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model-at-run-time"></a>在运行时使用 InfoPath 对象模型的表单模板的疑难解答
 

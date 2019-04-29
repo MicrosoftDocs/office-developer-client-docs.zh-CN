@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 9375b351-1c84-4728-bcdf-e3e7a44820ed
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 00b3b30101ee1efb984cf45afb35b0b085d545ac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332800"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409711"
 ---
 # <a name="implementing-an-address-book-provider-entry-point-function"></a>实现通讯簿提供程序入口点函数
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b9a745cc-260d-4a1c-896e-6a038ab3cfb9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 46bb9b2cc1a4d54807d6929b4e1439b58fb3a531
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350839"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418174"
 ---
 # <a name="iexchangemodifytablemodifytable"></a>IExchangeModifyTable::ModifyTable
 

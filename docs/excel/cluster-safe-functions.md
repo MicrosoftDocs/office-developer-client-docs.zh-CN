@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 787badaf-8782-454d-a016-7eae83bbd8a9
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: d32925fcd5c3be7fe3e615ee2290f25c7595911c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310974"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409298"
 ---
 # <a name="cluster-safe-functions"></a>群集安全函数
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 在 excel 2013 中, excel 可以通过专用群集连接器接口将用户定义的函数 (UDF) 调用卸载到高性能计算群集中。 计算群集供应商提供群集连接器。 UDF 作者可以将其 udf 声明为群集安全的, 然后在出现群集连接器时, Excel 会将对这些 udf 的调用发送到群集连接器以进行卸载。
   

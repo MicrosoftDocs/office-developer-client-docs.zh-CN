@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e2d8a025-c2a3-4edb-b6e4-022e07e854dd
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: a57a72b413ba412154a27a08244e86b117cbea7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357195"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409690"
 ---
 # <a name="ixpprovidershutdown"></a>IXPProvider::Shutdown
 
@@ -45,7 +45,7 @@ S_OK
   
 > 调用成功关闭了传输提供程序。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序在释放传输提供程序对象之前, 先调用**IXPProvider:: Shutdown**方法。 在呼叫**关闭**之前, MAPI 将释放所有登录对象的提供程序。
   

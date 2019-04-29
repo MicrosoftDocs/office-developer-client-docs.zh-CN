@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d83fdd83-3e86-43c8-a73f-8e9e01b53371
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8be3b1857d539f81e42d2ac3e5813afa73513a16
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286718"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406120"
 ---
 # <a name="imapicontainer--imapiprop"></a>IMAPIContainer : IMAPIProp
 
@@ -47,7 +47,7 @@ ms.locfileid: "32286718"
 |[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |建立容器的搜索条件。  <br/> |
 |[GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |获取容器的搜索条件。  <br/> |
    
-|**必需属性**|**Access**|
+|**必需属性**|**访问**|
 |:-----|:-----|
 |**PR_CONTAINER_HIERARCHY**([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |只读  <br/> |
 |**PR_CONTAINER_CONTENTS**([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |只读  <br/> |

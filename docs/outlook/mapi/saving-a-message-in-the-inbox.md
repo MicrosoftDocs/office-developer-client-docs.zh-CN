@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 3df04d4e-7e80-4232-aadc-c05c99ab59cb
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 672a9df55ce711b88451a517a2813c9ad8c599ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357531"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407891"
 ---
 # <a name="saving-a-message-in-the-inbox"></a>在收件箱中保存邮件
 

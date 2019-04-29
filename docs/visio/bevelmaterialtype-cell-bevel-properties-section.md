@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 30f50a94-88dc-41a3-bb46-45c92d6817a4
 description: 确定由斜角构成的材料的类型。
 ms.openlocfilehash: b8efaa1f84594c803c79be02cd88dda1a5346dc7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315762"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414583"
 ---
 # <a name="bevelmaterialtype-cell-bevel-properties-section"></a>BevelMaterialType 单元格 ("棱台属性" 部分)
 
@@ -30,10 +30,10 @@ ms.locfileid: "32315762"
 |步  <br/> |平面  <br/> |
 |utf-8  <br/> |线框  <br/> |
 |第  <br/> |浅  <br/> |
-|10  <br/> |半透明粉  <br/> |
-|11x17  <br/> |Clear  <br/> |
+|10   <br/> |半透明粉  <br/> |
+|11   <br/> |Clear  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**BevelMaterialType**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

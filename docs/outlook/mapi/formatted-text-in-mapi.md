@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 4d0ff834-253b-4e8c-a5be-6e4745a2a66c
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 7f37d65e4beb328c2c92cf0c2ab28586af6bee45
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327466"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408087"
 ---
 # <a name="formatted-text-in-mapi"></a>MAPI 中的格式化文本
 

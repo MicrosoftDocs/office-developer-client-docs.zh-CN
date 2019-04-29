@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f5c6ba8f-4ef5-4d60-b4e6-5b9160ec4e99
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: f6cdebf82d8b84ada3d029865867c5192af90b0d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329035"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409907"
 ---
 # <a name="imapisupportspooleryield"></a>IMAPISupport::SpoolerYield
 
@@ -49,7 +49,7 @@ MAPI_W_CANCEL_MESSAGE
   
 > 指示传输提供程序停止将邮件传递给尚未收到邮件的任何收件人。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为传输提供程序支持对象实现了**IMAPISupport:: SpoolerYield**方法。 传输提供程序调用**SpoolerYield**以允许 MAPI 后台处理程序完成所需的任何处理。 
   

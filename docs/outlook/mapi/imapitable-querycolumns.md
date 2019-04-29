@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d142e19fc4721cec4dde0df7fc030a001121da63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328880"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410103"
 ---
 # <a name="imapitablequerycolumns"></a>IMAPITable::QueryColumns
 
@@ -58,7 +58,7 @@ MAPI_E_BUSY
   
 > 正在进行另一个操作, 以防止启动列集检索操作。 应允许正在进行的操作完成, 或者应已停止。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以调用**IMAPITable:: QueryColumns**方法来检索: 
   

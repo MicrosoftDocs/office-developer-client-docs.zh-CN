@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: fffbefd6-8b0b-0023-6b03-026d1c6e885e
 description: 确定将一维形状粘附到另一个形状时是使用静态粘附（点到点）还是动态粘附（形状到形状）。
 ms.openlocfilehash: ae4eddf17c6e7b5e56cb3397f03d0721d965c9b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339513"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410670"
 ---
 # <a name="gluetype-cell-glue-info-section"></a>GlueType 单元格（“Glue Info”内容）
 
 确定将一维形状粘附到另一个形状时是使用静态粘附（点到点）还是动态粘附（形状到形状）。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | &amp;H0  <br/> | 默认值。 只有动态连接线可使用动态粘附；其他形状均使用静态粘附。  <br/> |**visGlueTypeDefault** <br/> |
 | &amp;H1  <br/> | 允许动态粘附。  <br/> | 在 Visio 2002 中已经放弃该功能。  <br/> |
@@ -28,7 +28,7 @@ ms.locfileid: "32339513"
 | &amp;H4  <br/> | 不允许动态粘附。  <br/> |**visGlueTypeNoWalking** <br/> |
 | &amp;H8  <br/> | 不允许使用动态粘附连接此二维形状。  <br/> |**visGlueTypeNoWalkingTo** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果此单元格包含值 1、2 或 3，则只要出现以下二者之一就将建立动态粘附：
   

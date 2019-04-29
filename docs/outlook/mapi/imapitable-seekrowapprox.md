@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ce5e8c43-06af-4afc-9138-5cc51d8fc401
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: bbb79097d03a8ea09cb4aff374231ee780e15395
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328838"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412147"
 ---
 # <a name="imapitableseekrowapprox"></a>IMAPITable::SeekRowApprox
 
@@ -54,7 +54,7 @@ MAPI_E_BUSY
   
 > 正在进行另一个操作, 以防止启动行查找操作。 应允许正在进行的操作完成, 或者应已停止。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在调用**IMAPITable:: SeekRowApprox**方法后, 表中的游标位置是分数, 可能不是确切的 heuristically。 例如, 某些提供程序可能会在二进制树的顶部实现一个表, 并将表的中间点视为树的顶部, 以提高性能原因。 如果树未平衡, 则使用的半点可能不会正好在表的一半。 
   

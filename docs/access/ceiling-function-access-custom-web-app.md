@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 0245c820-6c60-47e2-8afa-3e56679454a3
 description: 返回大于或等于指定数值表达式的最小整数。
 ms.openlocfilehash: 28d75ae3db535223566c39819dd3f5482b43002c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282325"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414205"
 ---
 # <a name="ceiling-function-access-custom-web-app"></a>天花板函数 (Access 自定义 web 应用程序)
 

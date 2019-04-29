@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 797833f7-8295-41bc-8980-977e5f5e05e8
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: a1ad209ff127a34d7da5ca8dbe1f4a6656d32876
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328924"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409452"
 ---
 # <a name="imapitablefreebookmark"></a>IMAPITable::FreeBookmark
 
@@ -49,7 +49,7 @@ MAPI_E_INVALID_BOOKMARK
   
 > 指定的书签不存在。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: FreeBookmark**方法释放不再需要的书签。 该书签在此调用后不再有效。 每当从内存释放表时, 也会释放其所有关联的书签。 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 30d8268e-0c64-401d-8799-e8e1ba78b88f
 description: 返回一个帐户标识符, 该标识符在 Outlook 配置文件中是唯一的。
 ms.openlocfilehash: 209f7dd89b8d947b999f2a068373aaf61a3e9784
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327627"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409431"
 ---
 # <a name="propacctminiuid"></a>PROP_ACCT_MINI_UID
 
@@ -29,7 +29,7 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x00030003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用[IOlkAccount:: GetProp](iolkaccount-getprop.md)获取此属性。 如果客户端尝试设置此属性, 则此属性返回**E_OLK_PROP_READ_ONLY**。 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29a7464a-b9d4-a8ea-161b-3044de32ed23
 description: 包含指定与快捷菜单或动作标记菜单上的自定义命令相关联的操作的单元格。 对于每个动作，“Actions”内容中均包含一个与其对应的 Actions 行。
 ms.openlocfilehash: 37464e98b3e4f7d07b2ae4bd391b31ec009b6726
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283042"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408003"
 ---
 # <a name="actions-row-actions-section"></a>Actions 行（“Actions”内容）
 
@@ -25,7 +25,7 @@ ms.locfileid: "32283042"
   
 Actions 行名为 Actions. *名称*并包含以下单元格。 有关详细信息，请参阅特定的单元格主题。 
   
-|**Cell**|**说明**|
+|**单元格**|**说明**|
 |:-----|:-----|
 |[Action](action-cell-actions-section.md) <br/> |包含当用户选择快捷菜单或动作标记菜单上的项时要执行的公式。  <br/> |
 |[菜单](menu-cell-actions-section.md) <br/> |定义动作标记菜单或快捷菜单上显示的菜单项的名称。  <br/> |
@@ -38,7 +38,7 @@ Actions 行名为 Actions. *名称*并包含以下单元格。 有关详细信�
 |[隐藏](invisible-cell-actions-section.md) <br/> |指示菜单项在动作标记菜单或快捷菜单上是否可见。  <br/> |
 |[BeginGroup](begingroup-cell-actions-section.md) <br/> |指示是否在菜单中的菜单项上方插入分隔符。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  可以根据需要添加任意多的 Actions.  根据需要*命名*行, 为行分配有意义的名称, 并设置单元格的值。 若要向现有的“Actions”内容添加自定义命令，请右键单击某一行，然后单击快捷菜单上的 **“插入行”**。 
   

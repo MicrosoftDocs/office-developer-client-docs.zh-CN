@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 2dde7eec-df3d-723c-db08-7ff0b6107a0b
 description: '上次修改时间: 2012 年7月2日'
 ms.openlocfilehash: 88716719857cfd623d30a3684fc997ea8019455e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334837"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409809"
 ---
 # <a name="feid"></a>FEID
 

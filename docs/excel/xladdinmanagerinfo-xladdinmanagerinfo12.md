@@ -10,17 +10,17 @@ keywords:
 - xladdinmanagerinfo 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 66d2ac05b9603d6bb587a3898bde2545c1bb844a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303994"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407793"
 ---
 # <a name="xladdinmanagerinfoxladdinmanagerinfo12"></a>xlAddInManagerInfo/xlAddInManagerInfo12
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 在 excel 会话中首次调用外接程序管理器时, 由 Microsoft Excel 调用。 此函数用于向外接程序管理器提供有关外接程序的信息。
   
@@ -47,7 +47,7 @@ Excel 所要求的信息。
   
 如果不返回字符串, Excel 将尝试将返回的值转换为字符串。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果返回的字符串指向动态分配的缓冲区, 则必须确保最终释放此缓冲区。 如果该字符串是由 Excel 分配的, 则可以通过设置**xlbitXLFree**来执行此操作。 如果该字符串是由 DLL 分配的, 则可以通过设置**xlbitDLLFree**来执行此操作, 此外, 还必须在[xlAutoFree](xlautofree-xlautofree12.md)中实现 (如果要返回**XLOPER**) 或**xlAutoFree12** (如果要返回**XLOPER12**)。
   

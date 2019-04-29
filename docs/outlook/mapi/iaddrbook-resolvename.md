@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8a6a73153b857078cb37d94a634a6b0215a0a8c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287005"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408129"
 ---
 # <a name="iaddrbookresolvename"></a>IAddrBook::ResolveName
 
@@ -84,7 +84,7 @@ MAPI_E_NOT_FOUND
   
 > _lpAdrList_参数中至少有一个收件人无法解析。 通常情况下, 在设置 MAPI_DIALOG 标志时, 将会返回此值, 禁止显示对话框。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端和服务提供程序调用**ResolveName**方法以启动名称解析过程。 未解析的条目是尚不具有条目标识符或**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性的条目。
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9412594f-8acc-4c7e-a668-4ec1da0ad9cf
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8794bb233eb69d0f246fb1019954ab718db6f464
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346660"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410551"
 ---
 # <a name="mapifreebuffer"></a>MAPIFreeBuffer
 
@@ -51,7 +51,7 @@ S_OK
   
 > 调用成功, 并释放了请求的内存。 **MAPIFreeBuffer**还可以在已释放的位置上返回 S_OK, 或者如果未使用**MAPIAllocateBuffer**和**MAPIAllocateMore**分配内存块。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通常情况下, 当客户端应用程序或服务提供程序调用[MAPIAllocateBuffer](mapiallocatebuffer.md)或[MAPIAllocateMore](mapiallocatemore.md)时, 操作系统会在一个连续的内存缓冲区中构造一个或多个具有多个指针级别的复杂结构。 当 mapi 函数或方法创建具有此类内容的缓冲区时, 客户端可以通过向**MAPIFreeBuffer**传递指向由创建该缓冲区的 MAPI 函数返回的缓冲区来释放该缓冲区中包含的所有结构。 若要使服务提供程序使用**MAPIFreeBuffer**释放内存缓冲区, 它必须将指针传递给提供程序的支持对象返回的那个缓冲区。 
   

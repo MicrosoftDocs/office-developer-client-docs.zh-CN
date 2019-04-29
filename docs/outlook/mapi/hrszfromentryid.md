@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5e3ed6b2-8eaf-44ab-bc6a-d3faabe84a93
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4020a9161a51994ebe5b7e339d26f7612ad47361
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346415"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411552"
 ---
 # <a name="hrszfromentryid"></a>HrSzFromEntryID
 
@@ -59,7 +59,7 @@ HrSzFromEntryID(
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 [HrEntryIDFromSz](hrentryidfromsz.md)和**HrSzFromEntryID**函数提供条目标识符的字符串和二进制格式之间的转换。 使用 MAPI 时, 应使用二进制数据的结构。 
   

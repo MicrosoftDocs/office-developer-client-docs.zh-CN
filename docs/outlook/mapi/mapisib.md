@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 16452798-7a95-43da-b95e-908debcea050
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cbda978a0d69367e95f9b4b1f53fd6d03b113ccc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270208"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418706"
 ---
 # <a name="mapisib"></a>MAPISIB
 

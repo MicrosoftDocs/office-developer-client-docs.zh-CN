@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 56c3bdae-a3a8-4334-b6d2-a89c6820d72e
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 6de0fed4df9d23e67c3520ffb019a961b890f988
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316555"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411307"
 ---
 # <a name="imapisupportgetsvcconfigsupportobj"></a>IMAPISupport::GetSvcConfigSupportObj
 
@@ -50,7 +50,7 @@ S_OK
   
 > 成功创建了配置支持对象。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: GetSvcConfigSupportObj**方法是为所有支持对象实现的。 服务提供程序调用**GetSvcConfigSupportObj**以创建要传递给邮件服务入口点函数的配置支持对象。 
   

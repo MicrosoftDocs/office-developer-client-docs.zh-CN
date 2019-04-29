@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 721ac58e-56d9-4e3b-93f1-849e0c94d010
 description: 编写代码以扩展使用 InfoPath 2003 对象模型的表单模板的功能时，通过对话框向用户提供信息是非常有帮助的。
 ms.openlocfilehash: 12088747250037e53a3b7d8d0577936e30d6292c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303610"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409480"
 ---
 # <a name="display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型显示警报和对话框
 

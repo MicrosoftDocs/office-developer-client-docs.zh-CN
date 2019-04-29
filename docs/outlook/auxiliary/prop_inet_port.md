@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5633d70c-ca3e-4b9d-8e85-ef98f85f1961
 description: 表示常规 Internet 邮箱的端口号。
 ms.openlocfilehash: b7870df294a5580831ffb99c59d01e8a8652b4a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327564"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409186"
 ---
 # <a name="propinetport"></a>PROP_INET_PORT
 
@@ -27,7 +27,7 @@ ms.locfileid: "32327564"
 |属性标记：  <br/> |0x01040003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 POP 帐户的示例为110。
   

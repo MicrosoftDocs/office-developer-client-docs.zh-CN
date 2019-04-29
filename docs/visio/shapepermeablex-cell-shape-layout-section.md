@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 7e27b36c-4fd1-34e0-c168-f49eb5757b0e
 description: 确定连接线是否可以水平穿绕可放置形状。
 ms.openlocfilehash: 21fa1683c4b1afd24992ec7a8a6daa52a8280825
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357048"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409473"
 ---
 # <a name="shapepermeablex-cell-shape-layout-section"></a>ShapePermeableX 单元格（“Shape Layout”内容）
 
 确定连接线是否可以水平穿绕可放置形状。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |允许连接线水平穿绕可放置形状。  <br/> |
 |FALSE  <br/> |不允许连接线水平穿绕可放置形状。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 "**行为**" 对话框 (在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中, 单击 "**行为**", 然后单击 "**位置**" 选项卡) 中的 "**放置**" 选项卡上设置此单元格的值。). 
   

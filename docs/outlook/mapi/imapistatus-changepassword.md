@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0cd1026a-342d-4d05-91ed-d3decced5bf3
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 2c824b6b994bfb31b5e6ac7fed0eeae88c47cdba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328278"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410355"
 ---
 # <a name="imapistatuschangepassword"></a>IMAPIStatus::ChangePassword
 
@@ -67,7 +67,7 @@ MAPI_E_NO_SUPPORT
   
 > status 对象不支持此操作, 正如 status 对象的**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中缺少 STATUS_CHANGE_PASSWORD 标志所指示的那样。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 并非所有 status 对象都支持**IMAPIStatus:: ChangePassword**方法。 仅需要客户端输入密码的服务提供商支持它。 MAPI 实施的所有 status 对象都不支持密码更改操作。 
   

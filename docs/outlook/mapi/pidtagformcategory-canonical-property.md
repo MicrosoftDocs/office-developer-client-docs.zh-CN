@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f4bd5ddb-f1e7-4e2a-b312-b1884f78cc1a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3b9d1d76be6f61a1b8e60c2553d74424672d1a6f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316273"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414219"
 ---
 # <a name="pidtagformcategory-canonical-property"></a>PidTagFormCategory 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32316273"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 类别名称由客户端应用程序以适合于应用程序的方式定义。 
   

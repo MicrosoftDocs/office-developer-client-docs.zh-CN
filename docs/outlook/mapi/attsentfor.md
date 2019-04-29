@@ -9,11 +9,11 @@ api_type:
 ms.assetid: aa8c8d64-d2a0-4cdf-a8aa-21c8d0a0a3fc
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: f961348e7be474202273aa97a2922566ef40c3a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318114"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408836"
 ---
 # <a name="attsentfor"></a>attSentFor
 

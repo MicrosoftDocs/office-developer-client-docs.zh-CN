@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5763fc78-5192-4162-be27-4aadc7ed65bc
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 815685696dfc93bb6241f608ca0157e87e758e7b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327857"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412728"
 ---
 # <a name="pidtagipmsubtreeentryid-canonical-property"></a>PidTagIpmSubtreeEntryId 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32327857"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性表示 IPM 层次结构的根。 IPM 客户端不应显示此属性所代表的文件夹的子文件夹的任何文件夹。
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 85f0d8a5-6dd3-4f33-b31a-246d286d6286
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 319c932862615e063a02ffac07e5541b1b20ac7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330240"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415913"
 ---
 # <a name="adrlist"></a>ADRLIST
 
@@ -49,7 +49,7 @@ typedef struct _ADRLIST
   
 > [ADRENTRY](adrentry.md)结构的数组, 每个收件人一个结构。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ADRLIST**结构包含一个或多个**ADRENTRY**结构, 每个结构描述收件人的属性。 收件人可以解析。 这意味着它在其属性值的数组中缺少条目标识符。 已解析的收件人意味着将包含 " **\_PR ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))" 属性。 通常, 解析的收件人还具有电子邮件地址**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) 属性。 但是, 电子邮件地址不是必需的。 例如, 使用**ADRLIST**结构来描述收件人列表中的传出邮件和 MAPI, 以显示通讯簿中的条目。 
   

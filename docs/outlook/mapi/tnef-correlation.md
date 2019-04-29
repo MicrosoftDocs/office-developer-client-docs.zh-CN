@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 93d1716d-a0be-45aa-85d2-6c9be65f5fd2
 description: 上次修改时间：2013 年 3 月 12 日
 ms.openlocfilehash: 8d601bb2bbc65e21c5bc83179cc29e53ddd33876
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327396"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410369"
 ---
 # <a name="tnef-correlation"></a>TNEF 关联
 

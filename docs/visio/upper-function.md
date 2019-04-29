@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ef94ee0f-dbb8-a2e1-1805-8a6609830d2a
 description: 返回一个转换为大写的字符串。
 ms.openlocfilehash: b88958526bfb5e08839077217759f7ffb50151b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327326"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415143"
 ---
 # <a name="upper-function"></a>UPPER 函数
 
@@ -30,7 +30,7 @@ UPPER (* **表达式** *)
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |必需  <br/> |**相同** <br/> | 可以是字符串、单元格引用或表达式；结果转换为字符串，然后再转换为大写形式。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 大小写转换取决于当前的用户设置，并且特定于区域设置。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 165ffbd0-54aa-4692-8bd1-09e6ff3762df
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 77a376bba8d65737be84e2af62e65e0419d20957
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351266"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406015"
 ---
 # <a name="scduppropset"></a>ScDupPropset
 

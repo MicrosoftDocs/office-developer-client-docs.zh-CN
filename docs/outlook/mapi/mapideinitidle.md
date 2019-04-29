@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f7b04486-bc48-4ba4-9f35-f021e06124bf
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 74bba3ea9982838f0d010bbf106c1132df1c2c25
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357321"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408206"
 ---
 # <a name="mapideinitidle"></a>MAPIDeInitIdle
 
@@ -45,7 +45,7 @@ void MAPIDeInitIdle( void );
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序或服务提供商应在不再需要空闲引擎时调用**MAPIDeInitIdle** , 例如, 当即将停止处理时。 
   

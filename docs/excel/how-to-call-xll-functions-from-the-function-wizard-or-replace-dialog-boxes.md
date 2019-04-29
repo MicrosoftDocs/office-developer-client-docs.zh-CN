@@ -8,17 +8,17 @@ keywords:
 - xll 函数 [excel 2007], 从 "替换" 对话框中调用 "替换" 对话框 [excel 2007], 调用 xll 函数, 函数向导 [excel 2007], 调用 xll 函数, XLL 函数 [excel 2007], 从函数向导调用
 localization_priority: Normal
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 11189beed13e2ceb99ef04b7a2f966cb4171915c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304016"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410747"
 ---
 # <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>通过 "函数向导" 或 "替换" 对话框调用 XLL 函数
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 在工作簿的正常重新计算过程中, 如果计算受宏的控制, Microsoft Excel 通常会在正常的工作簿重新计算过程中调用 XLL 函数。 请记住, 函数可能不驻留在单元格公式中, 但可能是命名区域定义的一部分, 或者是条件格式表达式的一部分。
   

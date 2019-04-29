@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c7cb8cf9-7abd-4ee3-b88c-d61695f4ed31
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1ae675d1d4adf841e18bbfc8990913136afe8b4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282703"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408612"
 ---
 # <a name="sizeddtbllabel"></a>SizedDtblLabel
 
@@ -44,7 +44,7 @@ _u_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SizedDtblLabel**宏允许您在标签中的字符数已知时定义显示表标签。 新结构是使用以下成员创建的: 
   

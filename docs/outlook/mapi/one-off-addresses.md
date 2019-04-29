@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e6bda55951d8df5c5da272750c631ec105b2ccf2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279634"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409109"
 ---
 # <a name="one-off-addresses"></a>一次性地址
 
@@ -66,7 +66,7 @@ MAPI 使用特定的一组引用字符来允许地址包含特殊字符, 如逗�
   
 1. **MAPIUID**
     
-2. Version
+2. 版本
     
 3. Flags
     

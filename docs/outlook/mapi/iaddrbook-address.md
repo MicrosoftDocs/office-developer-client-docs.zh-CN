@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ef2112c7-35cd-4106-ad18-a45e1dbe07d6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c2546fc990169526361f2c452c50212123d8284d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348844"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407905"
 ---
 # <a name="iaddrbookaddress"></a>IAddrBook::Address
 
@@ -55,7 +55,7 @@ S_OK
   
 > 已成功显示 "常用地址" 对话框。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果_lpAdrParms_参数的**ulFlags**成员设置为 DIALOG_SDI 在输出时预测无模式对话框的窗口句柄的返回, 则在 Outlook 中将被忽略;对话框的模式版本始终显示在非 Outlook 客户端中。 
   

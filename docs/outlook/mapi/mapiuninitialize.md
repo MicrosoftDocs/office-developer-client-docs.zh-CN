@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0f4e54dc-80e5-49a7-9703-0225d8133492
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f7339588bcc6815545e7341eafffe9cf001c1d76
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270026"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408521"
 ---
 # <a name="mapiuninitialize"></a>MAPIUninitialize
 
@@ -45,7 +45,7 @@ void MAPIUninitialize ( void );
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序调用**MAPIUninitialize**函数来结束它与 MAPI 的交互, 并在调用[MAPIInitialize](mapiinitialize.md)函数时开始。 在调用**MAPIUninitialize**后, 客户端不能发出其他 MAPI 调用。 
   

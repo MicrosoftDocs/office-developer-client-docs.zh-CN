@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3c07f71d-b906-4a7f-b20a-4a7f558dbf11
 description: 返回表示社交网络的唯一标识符的 GUID。
 ms.openlocfilehash: fc96799ada773cc7260e156d3e2ab8423b73884b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285510"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407870"
 ---
 # <a name="isocialprovidersocialnetworkguid"></a>ISocialProvider::SocialNetworkGuid
 
@@ -27,7 +27,7 @@ ms.locfileid: "32285510"
 
 指向表示社交网络的唯一标识符的 GUID 值的指针。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 GUID 必须是不可变的, 并且不得更改, 即使提供程序版本发生更改也是如此。
   

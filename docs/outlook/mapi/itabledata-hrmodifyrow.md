@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9e255b3e-dd17-4528-ba4e-c3a1aef32b04
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 44ecf095ad24dd266dc5f603ace9c7b9f21c1b41
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348662"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408997"
 ---
 # <a name="itabledatahrmodifyrow"></a>ITableData::HrModifyRow
 
@@ -49,7 +49,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 传入的行没有索引列。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ITableData:: HrModifyRow**方法插入由_lpSRow_参数指向的**SRow**结构所描述的行。 如果与_lpSRow_指向的行在表中已存在具有相同的 index 列值的行, 则将替换现有行。 如果不存在与**SRow**结构中包含的行相匹配的行, 则**HrModifyRow**会将该行添加到表的末尾。 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: acb67186-ab38-e918-5402-2526307a5bd0
 description: 释放由 IOlkAccountManager 接口分配的内存。
 ms.openlocfilehash: 3e680e1e26d6c9b12c2dd4a7d48df4dbeae14154
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322055"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408486"
 ---
 # <a name="iolkaccountmanagerfreememory"></a>IOlkAccountManager::FreeMemory
 
@@ -38,7 +38,7 @@ _pv_
 
 如果该调用成功，则返回 S_OK否则为一个错误代码。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用此方法可释放由[IOlkAccountManager:: GetOrder](iolkaccountmanager-getorder.md)分配的内存。
   

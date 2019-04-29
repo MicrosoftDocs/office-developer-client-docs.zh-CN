@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8316bfa1-3077-401f-aa1e-e9492aca12a8
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 68eb74f53d6cee4661c98604ec2ea37609e20ab5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351119"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408423"
 ---
 # <a name="imapiviewcontextgetsavestream"></a>IMAPIViewContext::GetSaveStream
 
@@ -67,7 +67,7 @@ S_OK
   
 > 已成功检索流。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单对象调用**IMAPIViewContext:: GetSaveStream**方法以检索 stream 一个对象, 该对象实现**IStream**接口, 以支持在表单查看器中处理 "另存为" 谓词。 [IMAPIForm::D overb](imapiform-doverb.md)方法, 该方法在表单服务器中实现并由表单查看器调用以调用谓词, 在邮件完全转换为相应的文本格式并置于相应的流中之前, 不应返回。 
   

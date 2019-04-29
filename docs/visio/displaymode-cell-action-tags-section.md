@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
 description: 决定当用户将鼠标指针移到标记上时、选择形状时, 还是在所有时间都显示动作标记。
 ms.openlocfilehash: 0254ad361c63dfdeddaf8a1c2173e99aa1c05398
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332730"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415815"
 ---
 # <a name="displaymode-cell-action-tags-section"></a>DisplayMode 单元格 ("Action Tags" 内容)
 
@@ -29,7 +29,7 @@ ms.locfileid: "32332730"
 | 1  <br/> | 选择形状后显示。  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
 | 双面  <br/> | 始终显示。  <br/> |**visSmartTagDispModeAlways** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 打印输出或发布输出上不显示动作标记。 
   

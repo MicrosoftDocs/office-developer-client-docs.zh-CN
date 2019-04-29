@@ -9,11 +9,11 @@ api_type:
 ms.assetid: bed36900-e44d-434b-a4f2-d10f2d6f70da
 description: 上次修改时间：2013 年 3 月 12 日
 ms.openlocfilehash: c5880aefe7c2dba2e5e4c5405aae2020bb86c711
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318415"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410047"
 ---
 # <a name="attconversationid-and-attparentid"></a>attConversationID and attParentID
 
@@ -24,7 +24,7 @@ Windows for 工作组3.1 邮件对话项是文本字符串。 等效的 MAPI 是
 > [!NOTE]
 > MAPI 中这些 TNEF 属性映射到的相应属性 (PR_CONVERSATION_KEY 和 PR_PARENT_KEY) 在 Microsoft Exchange Server 中已被弃用: 使用**PR_CONVERSATION_KEY**的[PidTagConversationKey 规范属性](pidtagconversationkey-canonical-property.md), 仅在 Outlook 中保持, 以查找**IPM。MessageManager**邮件。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **PR_CONVERSATION_KEY**属性是其他过时的 precursor **PR_CONVERSATION_INDEX**, [PidTagConversationIndex 规范属性](pidtagconversationindex-canonical-property.md)和**PR_CONVERSATION_TOPIC**, [PidTagConversationTopic 规范](pidtagconversationtopic-canonical-property.md)应改用的属性。
   

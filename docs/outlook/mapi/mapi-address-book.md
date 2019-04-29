@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 14f9bff8dbf55456c37e70e1ae7a0c236471b6c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298115"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410600"
 ---
 # <a name="mapi-address-book"></a>MAPI 通讯簿
 
@@ -43,7 +43,7 @@ MAPI 通讯簿在结构中类似于邮件存储区, 因为它是按层次组织�
   
 邮件用户和通讯组列表具有一组称为基本地址属性的五个属性。 这些属性是必需的属性, 如下所示进行简要说明。
   
-|**基址属性**|**Description**|
+|**基址属性**|**说明**|
 |:-----|:-----|
 |**PR_ADDRTYPE**([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |收件人的地址类型。 每种地址类型遵循一种特定的格式, 并与特定的邮件系统一起使用。  <br/> |
 |**PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |收件人的可显示名称。  <br/> |

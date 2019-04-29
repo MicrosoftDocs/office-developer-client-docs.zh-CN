@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8a8c52c9-81b9-4d10-b42b-e360c67bcf4e
 description: 返回在指定的字段上是否尝试了插入或更新操作。
 ms.openlocfilehash: 20e1b87be857f302f36244a6733625dc477da912
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307824"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410915"
 ---
 # <a name="update-function-access-custom-web-app"></a>Update 函数 (Access 自定义 web 应用程序)
 
@@ -31,7 +31,7 @@ ms.locfileid: "32307824"
 |:-----|:-----|
 | *Column*  <br/> |要检查插入或更新操作的域的名称。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **Update**函数返回 TRUE, 无论插入或更新尝试是否成功。 
   

@@ -8,17 +8,17 @@ keywords:
 - 引用 [excel 2007], 工作表, 工作表引用 [excel 2007], 外部工作表引用 [excel 2007], 活动工作表 [excel 2007], 当前工作表 [excel 2007], 内部工作表引用 [excel 2007]
 localization_priority: Normal
 ms.assetid: 53406fb8-4ca5-4204-a6ad-b21ca9e6a100
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 2944f73a3144837a4be8aff7c7fed9a8d2158203
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304023"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416459"
 ---
 # <a name="worksheet-references"></a>工作表引用
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel 中的引用是指矩形单元格块 (可以只是一个单元格) 的数据类型, 或者在某些情况下, 许多不连续的单元格块。 在内部, Excel 将对当前工作表上的单元格使用一种引用类型, 称为 "内部引用"。 不在当前工作表上的任何单元格由称为外部引用的另一种引用类型进行描述。 有关 active 和 current 的定义, 请参阅下一节。
   
@@ -50,7 +50,7 @@ Microsoft Excel 中的引用是指矩形单元格块 (可以只是一个单元�
 
 [Excel 编程概念](excel-programming-concepts.md)
   
-[评估名称和其他工作表公式表达式](evaluating-names-and-other-worksheet-formula-expressions.md)
+[求值名称和其他工作表公式表达式](evaluating-names-and-other-worksheet-formula-expressions.md)
   
 [Excel 工作表和表达式计算](excel-worksheet-and-expression-evaluation.md)
 

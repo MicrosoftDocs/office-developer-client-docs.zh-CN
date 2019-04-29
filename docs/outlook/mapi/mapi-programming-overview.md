@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 30ac637a-874f-4660-b5d0-d28d69486f64
 description: 上次修改时间：2012 年 6 月 25 日
 ms.openlocfilehash: d69d15f0f635c81bea30401b3a6d6e3ccf620112
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328271"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408339"
 ---
 # <a name="mapi-programming-overview"></a>MAPI 编程概述
 

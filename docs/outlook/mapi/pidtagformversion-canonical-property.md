@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f2220060-65ea-4969-88d7-8348bd5aa242
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ec806ed3ab871d6a36778b0898b2977628ccdcec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316203"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409865"
 ---
 # <a name="pidtagformversion-canonical-property"></a>PidTagFormVersion 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32316203"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性指示当前对窗体有效的设计版本。 版本由窗体的设计器定义和维护, 并不一定与任何 MAPI 组件版本相关。 
   

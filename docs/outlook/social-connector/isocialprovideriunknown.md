@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 1c9f4dd4-65f6-446f-8b86-a375ce402658
 description: 表示 Outlook Social Connector (.osc) 提供程序的实例。
 ms.openlocfilehash: f28b8343d92b09455b6049f421b839efbda21c1a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285482"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409956"
 ---
 # <a name="isocialprovider--iunknown"></a>ISocialProvider : IUnknown
 
@@ -23,7 +23,7 @@ ms.locfileid: "32285482"
 
 下表显示了**ISocialProvider**接口上可用的成员。 
   
-|**Name**|**成员类型**|**Description**|
+|**名称**|**成员类型**|**说明**|
 |:-----|:-----|:-----|
 |[DefaultSiteUrls](isocialprovider-defaultsiteurls.md) <br/> |属性  <br/> |返回一个字符串数组, 这些字符串指定 .osc 提供程序的网站 url。  <br/> |
 |[GetAutoConfiguredSession](isocialprovider-getautoconfiguredsession.md) <br/> |方法  <br/> |获取自动配置的 [ISocialSession](isocialsessioniunknown.md) 界面。  <br/> |
@@ -36,7 +36,7 @@ ms.locfileid: "32285482"
 |[SocialNetworkName](isocialprovider-socialnetworkname.md) <br/> |属性  <br/> |返回一个字符串, 表示社交网络名称。  <br/> |
 |[Version](isocialprovider-version.md) <br/> |属性  <br/> |返回一个 string 类型的值, 该值代表此社交网络提供程序的版本号。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 一个 .osc 提供程序必须实现此接口才能与 .osc 进行通信。
   

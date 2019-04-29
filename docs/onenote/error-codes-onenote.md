@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 390df5ce-e730-470d-b6e9-0de4a3e904f8
 description: 本主题列出OneNote 2013对象模型中的错误代码。
 ms.openlocfilehash: 83f8ad3d686693c82db1e57b8e37fa21ad140ab9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303099"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409424"
 ---
 # <a name="error-codes-onenote"></a>错误代码 (OneNote 2013)
 
 本主题列出OneNote 2013对象模型中的错误代码。
   
-|**[HRESULT]**|**Value**|**说明**|
+|**[HRESULT]**|**值**|**说明**|
 |:-----|:-----|:-----|
 |hrMalformedXML  <br/> |0x80042000  <br/> |XML 格式不正确。  <br/> |
 |hrInvalidXML  <br/> |0x80042001  <br/> |XML 无效。  <br/> |
@@ -72,7 +72,7 @@ ms.locfileid: "32303099"
    
 下面列出了OneNote 2013的新错误代码。
   
-|**[HRESULT]**|**Value**|**说明**|
+|**[HRESULT]**|**值**|**说明**|
 |:-----|:-----|:-----|
 |hrIMConversationTypeInvalid  <br/> |0x8004202F  <br/> |如果 **IMConversationType**页 node 属性已为非 0,1,2 或 3 的值由 **UpdatePageContent**返回  <br/> |
 |hrAppInModalUI  <br/> |0x80042030  <br/> |模式对话框阻止应用程序。  <br/> |

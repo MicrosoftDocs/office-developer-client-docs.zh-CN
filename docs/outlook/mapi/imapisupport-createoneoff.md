@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ee57d6e0-9de0-4427-97ce-371c1c01f3de
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 9571d51e01c2d58d9b8a9a913ba2c210ae0bd44d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322398"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411993"
 ---
 # <a name="imapisupportcreateoneoff"></a>IMAPISupport::CreateOneOff
 
@@ -78,7 +78,7 @@ S_OK
   
 > 已成功创建一次性条目标识符。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: CreateOneOff**方法是为所有服务提供程序支持对象实现的。 服务提供程序调用**CreateOneOff**为一次性收件人 (不属于任何当前已加载的通讯簿提供程序中的任何容器的收件人) 创建条目标识符。 
   

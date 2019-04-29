@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: feb29b91-0f6e-6353-3dd0-7a280843a517
 description: 包含描述动作标记的字符串。当用户将鼠标指针悬停于动作标记上时，此字符串以工具提示的形式显示。
 ms.openlocfilehash: 00c7a4c1547927b8d1a979b8ae074f96f26dc17c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360227"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415759"
 ---
 # <a name="description-cell-action-tags-section"></a>Description 单元格（“Action Tags”内容）
 
 包含描述动作标记的字符串。当用户将鼠标指针悬停于动作标记上时，此字符串以工具提示的形式显示。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Description 单元格的引用，请使用： 
   

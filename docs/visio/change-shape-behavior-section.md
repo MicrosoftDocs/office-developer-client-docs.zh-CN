@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: a9e97f45-2a5c-40c3-8282-a345ae6249d9
 description: 确定在替换操作过程中从旧形状转移到替换形状的属性。 替换主控形状的 "更改形状行为" 部分中的单元格的值是在形状替换操作过程中读取的。
 ms.openlocfilehash: 74519b27ab5b2b5bafc7c00010a65769061bf691
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341921"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418664"
 ---
 # <a name="change-shape-behavior-section"></a>"更改形状行为" 部分
 
 确定在替换操作过程中从旧形状转移到替换形状的属性。 替换主控形状的 "**更改形状行为**" 部分中的单元格的值是在形状替换操作过程中读取的。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通过设置 "**更改形状行为**" 部分中的单元格, 可以确保替换形状的某些属性在替换操作过程中保持不变。 在操作过程中, 不受保护的属性将使用旧形状的本地形状值进行更新。 
   

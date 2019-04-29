@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8f8ee2cb-1c2a-4958-b01e-2f4aab689f89
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: d0d5d8fe13a3c192dc0b0a8ddc0f5f945fa16f15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321810"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416648"
 ---
 # <a name="imapiformmgrprepareform"></a>IMAPIFormMgr::PrepareForm
 
@@ -59,7 +59,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IMAPIFormMgr::P repareform**方法从用于打开的表单容器下载表单。 大多数窗体查看器不需要调用**PrepareForm**, 因为[IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md)和[IMAPIFormMgr:: LoadForm](imapiformmgr-loadform.md)方法都调用**PrepareForm**(如有必要)。 
   

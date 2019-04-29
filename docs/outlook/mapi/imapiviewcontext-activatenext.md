@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 25ce90ac-526e-48a0-9edb-bd266375d4f4
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5b10f744e3033aab63820e4cd5e414f4c01c27cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351154"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410614"
 ---
 # <a name="imapiviewcontextactivatenext"></a>IMAPIViewContext::ActivateNext
 
@@ -70,7 +70,7 @@ S_FALSE
   
 > 邮件已成功激活, 但在进程中打开了另一种类型的窗体。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单对象调用**IMAPIViewContext:: ActivateNext**方法以更改向用户显示的消息。 在_ulDir_参数中传递的值指示应激活的邮件, 在某些情况下, 这是为什么。 VCDIR_NEXT 和 VCDIR_PREVIOUS 标志分别对应于在视图中选择**下一个**或**上**一个命令的用户。 这些操作通常对应于在表单查看器的邮件列表中上移或下移一封邮件。 
   
