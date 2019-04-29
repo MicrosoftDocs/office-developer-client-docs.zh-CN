@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 24461099877af683109c8627eacd22a657d6e156
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321383"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430565"
 ---
 # <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
 
@@ -49,7 +49,7 @@ S_FALSE
   
 > 邮件的文件夹不存在。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   

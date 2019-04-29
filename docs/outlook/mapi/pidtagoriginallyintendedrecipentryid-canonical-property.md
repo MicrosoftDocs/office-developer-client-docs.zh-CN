@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fc288a7a-1927-484e-b860-9cc118672ed2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cf9a070e8f892cb7bd4668b3f92397070e5b2284
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342523"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430138"
 ---
 # <a name="pidtagoriginallyintendedrecipentryid-canonical-property"></a>PidTagOriginallyIntendedRecipEntryId 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32342523"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是最初预期的邮件收件人的地址属性之一。 必须由已转发邮件的自动代理进行设置。
   

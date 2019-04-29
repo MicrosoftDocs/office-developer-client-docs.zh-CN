@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d370603dc7cfc015fe7b2757d1cf0525b3092c5e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299425"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428023"
 ---
 # <a name="handling-message-store-notification"></a>处理邮件存储通知
   
@@ -35,7 +35,7 @@ ms.locfileid: "32299425"
     
 由于没有说明如何为邮件存储提供程序实现事件通知的严格准则, 因此客户端无法预期一致的行为。 MAPI 确实提出了有关邮件存储提供程序如何实现事件通知的建议, 下表概述了这些建议。 按如下所示读取表: 在第一列中执行操作后, 如果已为该类型注册了第三列中列出的对象, 则预计会收到第二列中列出的类型的通知。 例如, 创建文件夹后, 只有在使用邮件存储区注册了_fnevObjectCreated_通知时, 才会收到_fnevObjectCreated_通知。 
   
-|**Operation**|**事件类型**|**建议源**|
+|**操作**|**事件类型**|**建议源**|
 |:-----|:-----|:-----|
 |创建文件夹  <br/> | _fnevObjectCreated_ <br/> |邮件存储  <br/> |
 |删除文件夹  <br/> | _fnevObjectDeleted_ <br/> |邮件存储已删除文件夹  <br/> |

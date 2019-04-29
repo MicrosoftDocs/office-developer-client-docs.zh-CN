@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d9fc2007-cc21-b20c-adee-be87cc356753
 description: 确定字符串是否相同。 如果它们相同, 则返回 TRUE, 如果不是, 则返回 FALSE。
 ms.openlocfilehash: 0f298c966ec7a3f1e23c89473fecc555ed950f79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329839"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428681"
 ---
 # <a name="strsame-function"></a>STRSAME 函数
 
@@ -36,7 +36,7 @@ STRSAME ("* * *string1* * *", "* * *string2* * *", * * *ignoreCase* * *)
 
 布尔值
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 若要比较多字节字符串或使用特定区域设置的大小写规则进行比较，请使用 STRSAMEEX 函数。
   

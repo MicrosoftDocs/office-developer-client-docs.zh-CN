@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f4217030-5fd1-4ec4-a83f-752717fbb787
 description: 使用基于表单的身份验证登录到社交网络网站。
 ms.openlocfilehash: 7ef7af8c1c2cdb783bdecd71b29635468e19dc6a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335362"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430334"
 ---
 # <a name="isocialsessionlogonweb"></a>ISocialSession::LogonWeb
 
@@ -33,7 +33,7 @@ _connectOut_
   
 > 排除包含登录凭据的字符串。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 仅当提供程序指示它支持基于表单的身份验证时, Outlook Social Connector (.osc) 才会调用**LogonWeb**方法。 提供程序指示它需要基于表单的身份验证, 具体方法是在 XML 中将**useLogonWebAuth**设置为**true** 。 **** 如果提供程序将**useLogonWebAuth**设置为**false**, 则 .osc 将使用基本身份验证, 并调用[ISocialSession:: Logon](isocialsession-logon.md)方法。 
   

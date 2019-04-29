@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d9457fea-4b1e-4cf6-9c4b-14c98fbec2a1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 574c7d305f105709aebcd41e30b034fbac1892a9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278776"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425664"
 ---
 # <a name="pidtaglongtermentryidfromtable-canonical-property"></a>PidTagLongTermEntryIdFromTable 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32278776"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |表格属性  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以在内容表中使用此属性将项的条目标识符作为长期条目标识符 (而不是短期条目标识符) 获取。 有关长期和短期标识符的信息, 请参阅**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))。
   

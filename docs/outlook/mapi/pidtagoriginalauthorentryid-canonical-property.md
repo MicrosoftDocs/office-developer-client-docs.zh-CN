@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 34654660-b003-42f5-9fcd-24ebaccd735d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 866c28bc08f669d18487c99c9a13bc7347b605fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356201"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425587"
 ---
 # <a name="pidtagoriginalauthorentryid-canonical-property"></a>PidTagOriginalAuthorEntryId 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32356201"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是邮件作者的地址属性之一。 首次提交邮件时, 客户端应用程序应将此属性设置为**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) 的值。 转发或答复邮件时, 它永远不会更改。 
   

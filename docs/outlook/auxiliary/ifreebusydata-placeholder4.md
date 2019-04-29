@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 58119969-1d56-5b38-57ac-d8adf5097ef0
 description: 此成员是占位符, 不受支持。
 ms.openlocfilehash: a7e77846538a03691c134298396cb23c42c47f15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317484"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425650"
 ---
 # <a name="ifreebusydataplaceholder4"></a>IFreeBusyData::Placeholder4
 
@@ -40,7 +40,7 @@ HRESULT Placeholder4(
 
 总是 S_OK, 因为这是一个占位符, 不受支持。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此成员必须返回 S_OK。
   

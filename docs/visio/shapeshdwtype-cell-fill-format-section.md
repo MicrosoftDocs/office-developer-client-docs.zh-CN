@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: 1461148d-90a9-6f7c-1b28-9310ffaf0e3b
 description: 指定形状的阴影类型。
 ms.openlocfilehash: 607881e4a520f1376562394c6e40ab5d2508906d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342859"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430257"
 ---
 # <a name="shapeshdwtype-cell-fill-format-section"></a>ShapeShdwType 单元格（“Fill Format”内容）
 
 指定形状的阴影类型。 
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |使用页面默认值（默认值）  <br/> |**visFSTPageDefault** <br/> |
 |1  <br/> |简单  <br/> |**visFSTSimple** <br/> |
 |双面  <br/> |偏  <br/> |**visFSTOblique** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用此单元格应用与页面默认值不同的形状阴影 (页面默认阴影类型是在 "页面属性" 部分的 "ShdwType" 单元格中定义)。
   

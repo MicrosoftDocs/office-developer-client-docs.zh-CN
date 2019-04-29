@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 655774a6-588c-44c7-903b-4497b7eccbc2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 56a5f153dbd563397b9216af32a715692d0876d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341606"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427876"
 ---
 # <a name="msgserviceentry"></a>MSGSERVICEENTRY
 
@@ -160,7 +160,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用**MSGSERVICEENTRY**函数原型定义的函数使邮件服务能够自行配置或执行其他特定于服务的操作。 该函数主要提供一个对话框, 用户可以在其中更改特定于邮件服务的设置。 它还可以使用在_lpProps_参数中传递的属性值数组支持编程配置。 编程配置是可选的, 除非服务支持配置文件向导 (需要它)。 
   

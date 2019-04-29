@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c6938986-a9f9-4ef4-9655-ded55b7357db
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f0b217372f6b4848f83c993846cd08a81c7098e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329457"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430901"
 ---
 # <a name="imapiformgetviewcontext"></a>IMAPIForm::GetViewContext
 
@@ -49,7 +49,7 @@ S_FALSE
   
 > 没有表单的视图上下文。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**GetViewContext**以获取指向在之前调用[IMAPIForm:: SetViewContext](imapiform-setviewcontext.md)时建立的视图上下文的指针。 如果之前未对**SetViewContext**进行任何调用, 则**GetViewContext**会将_ppViewContext_设置为 NULL。 
   

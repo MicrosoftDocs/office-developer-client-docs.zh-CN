@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 032f7242-5500-1e21-06d3-b2d947eb1043
 description: 上次修改时间：2012 年 6 月 25 日
 ms.openlocfilehash: fab09d0c594bac1374973f523abe6ff0b9c09dd0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344686"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429591"
 ---
 # <a name="get-the-email-address-of-a-contact-item"></a>获取联系人项的电子邮件地址
 

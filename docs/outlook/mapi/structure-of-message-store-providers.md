@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 064b2fc1-e690-43e6-95d3-a61438115de5
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: eda62a4cd31e0de695d52391a6717e7a0f5ea581
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327202"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426420"
 ---
 # <a name="structure-of-message-store-providers"></a>邮件存储提供程序的结构
   

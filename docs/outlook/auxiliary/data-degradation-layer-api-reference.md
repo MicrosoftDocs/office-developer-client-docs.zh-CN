@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c6c6bfda-5525-4618-b08c-bf85440b7415
 description: 数据降级层 API 的参考内容, 它提供了隐藏 Outlook 对象的基础本机字符格式的功能。
 ms.openlocfilehash: 4edbf09ce2b123425a271f090a466fdad770fb0b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317708"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423361"
 ---
 # <a name="data-degradation-layer-api-reference"></a>数据降级层 API 参考
 

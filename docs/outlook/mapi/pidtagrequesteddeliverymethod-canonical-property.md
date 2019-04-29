@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cc55089b-e389-405e-8174-f5b5ec352f78
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ecfed5684ba2166c1c00c1fd07fa074b4ce9fd79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331414"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434072"
 ---
 # <a name="pidtagrequesteddeliverymethod-canonical-property"></a>PidTagRequestedDeliveryMethod 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32331414"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性中包含的数组包含 ASN。1个每个服务提供程序的标识符。
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f21fba96-c5ca-4d41-9b93-c7955ab7327f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 30c91ec7a5a28b0c270da5223a2a245fb504d8c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326493"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421380"
 ---
 # <a name="imapisupportstorelogofftransports"></a>IMAPISupport::StoreLogoffTransports
 
@@ -83,7 +83,7 @@ S_OK
   
 > 注销过程成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为邮件存储提供程序支持对象实现了**IMAPISupport:: StoreLogoffTransports**方法。 邮件存储提供程序调用**StoreLogoffTransports** , 以使客户端应用程序能够控制 MAPI 处理传输提供程序活动 (作为邮件存储区的关闭) 的方式。 
   

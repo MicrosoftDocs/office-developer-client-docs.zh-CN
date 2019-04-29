@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 79d5af23-efad-4013-a330-56babfb2bb0f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 794674df38266743cac8c947ec93dc1fcfff438b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309735"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430572"
 ---
 # <a name="imsproviderspoolerlogon"></a>IMSProvider::SpoolerLogon
 
@@ -124,7 +124,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功, 但邮件存储区提供程序有可用的错误信息。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。 若要从提供程序获取错误消息, 请调用[IMAPISession:: GetLastError](imapisession-getlasterror.md)方法。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序调用**IMSProvider:: SpoolerLogon**方法以登录到邮件存储区。 在登录期间和之后, MAPI 后台处理程序应使用_lppMDB_参数中的邮件存储提供程序返回的邮件存储对象对象。 
   

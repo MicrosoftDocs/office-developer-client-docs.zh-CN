@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3be0b895-d01a-d7b7-0ccf-067ba5b39ade
 description: 本导航页包含一些链接，这些链接指向有关 Visio 中可编程性的概述主题。单击下面的链接或者使用目录可浏览到相应的主题：
 ms.openlocfilehash: 2bcf96f65c774f5b5a5e0534d75ea9605a523fed
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359340"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426973"
 ---
 # <a name="common-tasks-visio-shapesheet"></a>常见任务 (Visio ShapeSheet)
 

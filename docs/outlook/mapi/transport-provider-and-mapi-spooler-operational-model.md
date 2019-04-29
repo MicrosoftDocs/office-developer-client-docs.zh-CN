@@ -9,11 +9,11 @@ api_type:
 ms.assetid: b0f8d8f0-fed7-4a7c-bc40-e935f159591d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 5987111844f087801c63989b905992900ff6909c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356607"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426623"
 ---
 # <a name="transport-provider-and-mapi-spooler-operational-model"></a>传输提供程序和 MAPI 后台处理程序操作模型
 

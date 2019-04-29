@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: b499a5eb-db8f-ebd0-d505-c9a002205e7d
 description: 确定在创建实例或者重复或复制形状时，是否询问用户以输入该形状的形状数据。
 ms.openlocfilehash: 0aa270ff918866d8f683a6408ccd71b6a22d555d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341438"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426862"
 ---
 # <a name="ask-cell-shape-data-section"></a>Ask 单元格（“Shape Data”内容）
 
 确定在创建实例或者重复或复制形状时，是否询问用户以输入该形状的形状数据。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |要求用户要在 **“定义形状数据”** 对话框中输入形状数据。  <br/> |
 |FALSE  <br/> |不询问用户输入数据。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此单元格中的值对应于 **“定义形状数据”** 对话框（右键单击形状，指向 **“数据”**，然后单击 **“定义形状数据”**）中的 **“放置时询问”** 复选框。
   

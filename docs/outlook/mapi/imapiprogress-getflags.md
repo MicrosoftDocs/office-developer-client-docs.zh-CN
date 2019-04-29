@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 810192bfc85c9934a282f02a0839aaed539f744d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270265"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423641"
 ---
 # <a name="imapiprogressgetflags"></a>IMAPIProgress::GetFlags
 
@@ -49,7 +49,7 @@ S_OK
   
 > 已成功返回 flags 值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 使服务提供程序能够区分顶级对象和子对象与 MAPI_TOP_LEVEL 标志, 以便操作中涉及的所有对象都可以使用相同的[IMAPIProgress](imapiprogressiunknown.md)实现来显示进度。 这会使指示器显示在一个积极方向上平稳地进行。 是否设置 MAPI_TOP_LEVEL 标志确定服务提供程序如何在后续调用进度对象时设置其他参数。 
   

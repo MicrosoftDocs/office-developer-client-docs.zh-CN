@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: ab937a00-84c2-6c1c-9080-b7c95ead4f63
 description: 指定文本域的格式，该文本字段可以是字符串、数字、日期或时间、持续时间或货币。
 ms.openlocfilehash: c1c7fc7e9c699b7642369fbb979c005829b06cb8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346016"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431517"
 ---
 # <a name="format-cell-text-fields-section"></a>Format 单元格（“Text Fields”内容）
 
 指定文本域的格式，该文本字段可以是字符串、数字、日期或时间、持续时间或货币。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果 Type 单元格的值为 0、2、5、6 或 7（分别代表字符串、数字、日期或时间、持续时间或货币），请为该数据类型指定适当的格式图片。例如，格式图片“# #/4 UU”将数字 12.43 in. 设置为 12 2/4 INCHES 格式。有关指定格式图片的详细信息，请参见[关于格式图片](about-format-pictures.md)。
   

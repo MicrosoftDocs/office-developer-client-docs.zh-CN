@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d276ab19-17f4-01c7-4b44-b578e631b5fe
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7645208e6a0256957deb3a71ba3e04ad125a6b61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326892"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429192"
 ---
 # <a name="iconvertersessionsetadrbook"></a>IConverterSession::SetAdrBook
 
@@ -44,7 +44,7 @@ S_OK
   
 > 函数调用成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 将 MAPI 邮件转换为 MIME 流通常不需要登录 MAPI 配置文件。 但是, 指定要转换的 MAPI 通讯簿需要登录到配置文件才能获取通讯簿。
   

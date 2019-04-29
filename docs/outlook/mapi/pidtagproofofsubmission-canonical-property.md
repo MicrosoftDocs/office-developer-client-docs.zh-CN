@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 30511e6e-aba2-4f47-bdc7-1256b23382c5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f44f453a24b647e66ae49202fa1910dfdff10cda
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350825"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425328"
 ---
 # <a name="pidtagproofofsubmission-canonical-property"></a>PidTagProofOfSubmission 规范属性
 

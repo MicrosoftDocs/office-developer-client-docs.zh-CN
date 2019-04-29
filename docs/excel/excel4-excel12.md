@@ -11,17 +11,17 @@ keywords:
 - excel4 函数 [excel 2007], Excel12 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 7c3af5f380ae4144890b1f7b486a61a05c19de74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304107"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429444"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 从 DLL/XLL 或代码资源中调用内部 Microsoft Excel 工作表函数、宏工作表函数或命令, 或仅 XLL 特殊函数或命令。
   
@@ -65,14 +65,14 @@ int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, .
 |双面  <br/> |**xlretInvXlfn** <br/> |提供了无效的函数编号。 如果使用的是 xlcall.h 头文件中的常量, 则不应发生此情况, 除非您调用的是运行的 Excel 版本中不支持的内容。  <br/> |
 |4  <br/> |**xlretInvCount** <br/> |输入的参数数目无效。 在最高版本为 Excel 2003 的情况下, 任何函数可以执行的最大参数数为30个。 从 Excel 2007 开始, 最大数目为255。 有些参数需要固定的或最少的参数数目。  <br/> |
 |utf-8  <br/> |**xlretInvXloper** <br/> |向函数传递了无效的**XLOPER**或**XLOPER12** , 或者使用了错误类型的参数。  <br/> |
-|位  <br/> |**xlretStackOvfl** <br/> |堆栈溢出发生。 使用**xlStack**监视堆栈上留下的空间量。 尽可能避免在堆栈上分配非常大的本地 (自动) 数组和结构。使其成为静态的。 (请注意, 在未检测到堆栈溢出的情况下可能会发生。)  <br/> |
+|16   <br/> |**xlretStackOvfl** <br/> |堆栈溢出发生。 使用**xlStack**监视堆栈上留下的空间量。 尽可能避免在堆栈上分配非常大的本地 (自动) 数组和结构。使其成为静态的。 (请注意, 在未检测到堆栈溢出的情况下可能会发生。)  <br/> |
 |32  <br/> |**xlretFailed** <br/> |命令等效的函数失败。 这与显示 "宏错误警告" 对话框的宏命令是等效的。  <br/> |
 |64  <br/> |**xlretUncalced** <br/> |试图对尚未计算的单元格进行取消引用, 因为它计划在当前单元格后重新计算。 在这种情况下, DLL 应立即将控制返回到 Excel。 仅允许 DLL 在退出之前调用**xlFree** 。 不允许对 C API 进行其他所有调用。 有关哪些函数可以和无法访问尚未重新计算的单元格的值的详细信息, 请参阅[Excel 命令、函数和状态](excel-commands-functions-and-states.md)。  <br/> |
 |128  <br/> |**xlretNotThreadSafe** <br/> |试图调用在工作簿的多线程重新计算期间线程安全的函数 (或可能不是线程安全)。  <br/> 从 Excel 2007 开始, 将返回此值, 并且仅在声明为线程安全的 XLL 工作表函数中。  <br/> |
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |异步函数句柄无效。  <br/> 此值仅由 Excel 2010 使用。  <br/> |
 |512  <br/> |**xlRetNotClusterSafe** <br/> |群集上不支持该呼叫。  <br/> 此值仅由 Excel 2010 使用。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 ### <a name="valid-ifunction-values"></a>有效的 iFunction 值
 

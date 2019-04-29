@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d03ae1b3-da6c-56d3-4f96-6e131c04e93e
 description: 确定您的绘图是否包含预览。如果绘图中确实包含预览，则确定该预览是只显示绘图中的第一页还是显示所有页。
 ms.openlocfilehash: 34dbc9ac02032b2cb5cb6373c3c6361e3d822312
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356110"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426504"
 ---
 # <a name="previewscope-cell-document-properties-section"></a>PreviewScope 单元格（“Document Properties”内容）
 
@@ -26,7 +26,7 @@ ms.locfileid: "32356110"
 | 1  <br/> | 无  <br/> |**visDocPreviewScopeNone** <br/> |
 | 双面  <br/> | 所有页  <br/> |**visDocPreviewScopeAllPages** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 "**属性**" 对话框中的 "**摘要**" 选项卡 (单击 " **Office** " 按钮, 依次单击 "**信息**" 选项卡、"**文档属性**" 和 "**高级属性**") 中设置此值。
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4eee4382-98c3-4714-8920-8d72edef00b8
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5fbd20a6b5d5598b8fa51f9c369eefac9a1ea2e9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341718"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424677"
 ---
 # <a name="iaddrbookdetails"></a>IAddrBook::Details
 
@@ -101,7 +101,7 @@ S_OK
   
 > 已成功显示通讯簿条目的 "详细信息" 对话框。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序调用**详细信息**方法以显示一个对话框, 该对话框提供有关通讯簿中的特定条目的详细信息。 您可以使用_lpfButtonCallback_、 _lpvButtonContext_和_lpszButtonText_参数将客户端定义的按钮添加到对话框中。 单击该按钮时, MAPI 将调用_lpfButtonCallback_指向的回调函数, 同时传递按钮的条目标识符和_lpvButtonContext_中的数据。 如果不需要可扩展按钮, _lpszButtonText_应为 NULL。 
   

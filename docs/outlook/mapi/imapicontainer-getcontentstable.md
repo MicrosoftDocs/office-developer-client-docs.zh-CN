@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 88c7a666-875d-473a-b126-dbbb7009f7d9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 28315c5a09eba32816a0b63513cb98d1c30a96bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349285"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431104"
 ---
 # <a name="imapicontainergetcontentstable"></a>IMAPIContainer::GetContentsTable
 
@@ -78,7 +78,7 @@ MAPI_E_NO_SUPPORT
   
 > 容器没有内容, 无法提供内容表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIContainer:: GetContentsTable**方法返回指向容器的内容表的指针。 内容表包含容器中对象的摘要信息。 
   

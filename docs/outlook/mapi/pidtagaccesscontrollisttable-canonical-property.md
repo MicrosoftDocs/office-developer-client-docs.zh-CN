@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 48667fda-ddc4-42ac-9231-761db0a4c1a9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9c71a2b806b810906c13ea4750e5491b1544f640
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332002"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424502"
 ---
 # <a name="pidtagaccesscontrollisttable-canonical-property"></a>PidTagAccessControlListTable 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32332002"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |访问控制  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性在 Exchange 服务器上的所有 folder 对象上都存在。 此属性中包含的值用于读取和修改文件夹的访问控制列表 (acl)。 您可以将[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法与**IID_IExchangeModifyTable**接口标识符一起使用, 以获取文件夹上的 ACL 表的[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)接口。 您可以使用此接口读取和修改这些 acl。 
   

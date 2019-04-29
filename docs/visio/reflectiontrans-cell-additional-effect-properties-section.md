@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 1d155af5-b809-4367-b093-1218a1597656
 description: 确定反射的透明度, 以0到 100% 的百分比表示。
 ms.openlocfilehash: c8d4d83882a1e8eafcd93506f8f8b386828a89cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346485"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425678"
 ---
 # <a name="reflectiontrans-cell-additional-effect-properties-section"></a>ReflectionTrans 单元格 ("其他效果属性" 部分)
 
 确定反射的透明度, 以0到 100% 的百分比表示。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**ReflectionTrans**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

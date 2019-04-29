@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3899c49c-a0ec-4dca-92e8-e801cd4908cf
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: cd8727104af694d456074614b5ea7c222c9b91b9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322370"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429011"
 ---
 # <a name="imapisupportdoconfigpropsheet"></a>IMAPISupport::DoConfigPropsheet
 
@@ -70,7 +70,7 @@ S_OK
   
 > 显示配置属性表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport::D oconfigpropsheet**方法是为所有支持对象实现的。 **DoConfigPropSheet**提供了用于显示服务提供程序和邮件服务的属性的标准用户界面。 应将此标准对话框用于显示所有配置属性, 以便用户可以从一致的 Windows 界面中受益。 
   

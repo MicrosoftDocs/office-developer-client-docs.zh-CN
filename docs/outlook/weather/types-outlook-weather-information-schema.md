@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 1120ad84-577f-6a72-cd3d-bb9bf3ffaa08
 description: 本主题列出了 Outlook 天气信息 XML 架构中的类型。
 ms.openlocfilehash: 8c8881caec8cde94c91bcdc258647959848974d5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355046"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428674"
 ---
 # <a name="types-outlook-weather-information-schema"></a>类型 (Outlook 天气信息架构)
 

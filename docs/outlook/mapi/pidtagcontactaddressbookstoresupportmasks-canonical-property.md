@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 68f5aac1-714c-48fc-a0cf-a0c0401a6070
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e06d9a3ee2352e05e38ab1f2d86014f970160f9d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338260"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427799"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a>PidTagContactAddressBookStoreSupportMasks 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32338260"
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是从包含 "联系人" 文件夹的存储中获取的。 联系人通讯簿提供程序使用它来评估存储区支持的功能是否够用。 它是联系人通讯簿配置文件部分的属性。 
   

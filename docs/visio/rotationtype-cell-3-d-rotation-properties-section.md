@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: a8d5388a-8fd0-4c6e-9633-e1f03c5bef3b
 description: 确定形状是采用平行旋转、透视旋转还是倾斜旋转, 为0到6的整数。
 ms.openlocfilehash: 676f8a15185242aacc1affb9f1bd200ff3df454d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315671"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422941"
 ---
 # <a name="rotationtype-cell-3-d-rotation-properties-section"></a>RotationType 单元格 ("三维旋转属性" 部分)
 
 确定形状是采用平行旋转、透视旋转还是倾斜旋转, 为0到6的整数。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |形状没有任何旋转。  <br/> |
 |1  <br/> |形状具有平行旋转。  <br/> |
@@ -28,7 +28,7 @@ ms.locfileid: "32315671"
 |5  <br/> |形状具有左下角倾斜旋转。  <br/> |
 |型  <br/> |形状具有右下角倾斜旋转。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**RotationType**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

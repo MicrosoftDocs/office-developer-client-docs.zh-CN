@@ -11,17 +11,17 @@ keywords:
 - freexlopert 函数 [excel 2007], FreeXLOper12T 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 0b604cbe5cb24ac7d8de28278dfbcf0d4fd92c7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304072"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421520"
 ---
 # <a name="freexlopertfreexloper12t"></a>FreeXLOperT/FreeXLOper12T
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 可释放与**XLOPER**/ **XLOPER12**关联的内存的框架函数。 函数假定内存是使用 DLL 中的 malloc 调用分配的。 如果内存是由 Microsoft Excel 或以其他方式或其他过程分配的, 则不应使用此函数释放内存。 使用[xlFree](xlfree.md)释放由 Excel 分配给**XLOPER**/ **XLOPER12**s 的内存。 
   

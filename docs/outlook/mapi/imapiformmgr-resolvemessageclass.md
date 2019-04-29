@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c2af7516-3a97-4422-874d-b1e3a0d4f316
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: e99cff77fe872018722395c53c605e4d8fabfdde
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321607"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426392"
 ---
 # <a name="imapiformmgrresolvemessageclass"></a>IMAPIFormMgr::ResolveMessageClass
 
@@ -68,7 +68,7 @@ MAPI_E_NOT_FOUND
   
 > 在_szMsgClass_参数中传递的邮件类与表单库中任何表单的邮件类都不匹配。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IMAPIFormMgr:: ResolveMessageClass**方法将邮件类别解析为表单容器中的表单。 _ppResult_参数中返回的 form 信息对象提供了对具有给定邮件类的表单的属性的进一步访问权限。 
   

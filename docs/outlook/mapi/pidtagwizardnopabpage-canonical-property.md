@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9cec22cd-798d-41f6-9ebd-c7354f2162c2
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fc971be76dbaa83176f207411f9f125ffee386cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350650"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424460"
 ---
 # <a name="pidtagwizardnopabpage-canonical-property"></a>PidTagWizardNoPabPage 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32350650"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Exchange 管理  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 服务提供程序在调用基于[LAUNCHWIZARDENTRY](launchwizardentry.md)函数原型的函数时, 可以设置此属性。 此属性告知配置文件向导, 提供程序不希望在用户对话过程中显示 PAB 页面。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9d99a3b6-d0b4-4e8a-8f08-f46fdeb6b3e7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d5c6e1dc30c3ee7862341bce204b4a78bd6d379b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359442"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426525"
 ---
 # <a name="pidtagserviceuid-canonical-property"></a>PidTagServiceUid 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32359442"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性由 MAPI 的 profile 节对象计算。 MAPI 使用它对属于同一邮件服务的所有提供程序进行分组。 此属性作为参数提供给大多数[IMsgServiceAdmin](imsgserviceadminiunknown.md)方法。 它不得出现在 mapisvc.inf 中。 
   

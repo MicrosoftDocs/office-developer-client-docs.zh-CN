@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c5b20257-676c-279d-f730-1b6fbbe98305
 description: 包含形状的第一个顶点的 x 坐标和 y 坐标, 或表示路径中的断点后的第一个顶点的 x 坐标和 y 坐标。
 ms.openlocfilehash: fc414093348b8da04fa3503053584395976982dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283856"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429696"
 ---
 # <a name="moveto-row-geometry-section"></a>MoveTo 行（“Geometry”内容）
 
@@ -22,12 +22,12 @@ ms.locfileid: "32283856"
   
 **MoveTo**行包含以下单元格。 
   
-|**Cell**|**Description**|
+|**单元格**|**说明**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |如果**MoveTo**行是该内容中的第一行, 则 X 单元格表示形状的第一个顶点的*X*坐标。 如果**MoveTo**行出现在两行之间, 则 X 单元格表示路径中断开处后的第一个顶点的*x*坐标。  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |如果**MoveTo**行是该内容中的第一行, 则 Y 单元格表示形状的第一个顶点的*Y*坐标。 如果**MoveTo**行出现在两行之间, 则 Y 单元格表示路径中断开处后的第一个顶点的*y*坐标。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果**moveto**行是该内容中的第一行, 则**moveto**行包含形状的第一个顶点的*x*坐标和*y*坐标。 通常，这就是绘制形状时放置的第一个顶点，而且不一定与一维形状的起点相对应。 
   

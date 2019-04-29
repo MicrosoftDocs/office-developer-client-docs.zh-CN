@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e86ca032-d973-4b79-976e-5240ab38a0da
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 07a1a0a1953d136da534fbdc6339d326c877bebf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344539"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426651"
 ---
 # <a name="snotrestriction"></a>SNotRestriction
 
@@ -50,7 +50,7 @@ typedef struct _SNotRestriction
   
 > 指向描述要联接到逻辑**NOT**运算符的限制的[SRestriction](srestriction.md)结构的指针。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 有关**SNotRestriction**结构的详细信息, 请参阅[关于限制](about-restrictions.md)。 
   

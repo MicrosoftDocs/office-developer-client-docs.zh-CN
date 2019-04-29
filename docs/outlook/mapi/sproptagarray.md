@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4a9e1579-bebe-4a51-8ced-6dba9c3bcb63
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9a5be98298ab1f9333ac1c223a6ef594e60dd86a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344434"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430698"
 ---
 # <a name="sproptagarray"></a>SPropTagArray
 
@@ -51,7 +51,7 @@ typedef struct _SPropTagArray
   
 > 属性标记数组。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 属性标记是一个32位无符号整数, 由两部分组成: 
   

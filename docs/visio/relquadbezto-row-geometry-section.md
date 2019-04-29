@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5ae57707-5a50-43f0-8c78-516790b5034e
 description: 包含相对于形状的宽度和高度以及曲线相对形状的宽度和高度的控制点的 x 坐标和 y 坐标的二次贝塞尔曲线端点的 x 坐标和 y 坐标。
 ms.openlocfilehash: f517fa006c6630a26e9162adfbb1be2139487e63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319927"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423354"
 ---
 # <a name="relquadbezto-row-geometry-section"></a>RelQuadBezTo 行 ("Geometry" 部分)
 
@@ -23,7 +23,7 @@ ms.locfileid: "32319927"
   
 **RelQuadBezTo**行包含以下单元格。 
   
-|**Cell**|**Description**|
+|**单元格**|**说明**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |一条二次贝塞尔曲线终顶点相对于形状宽度的*x*坐标。  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |一条二次贝塞尔曲线终顶点的*y*坐标 (相对于形状的高度)。  <br/> |

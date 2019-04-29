@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bfdc1a63-c355-c759-bdfa-ce27e3ad10e7
 description: 借助“样式资源管理器”窗口，形状开发人员可以迅速判断出哪些形状单元格继承了给定样式，或者给定单元格继承了其值的样式。
 ms.openlocfilehash: 55800b692443bae3720b433e5a6178f2709d3675
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345344"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431783"
 ---
 # <a name="about-the-style-explorer-window"></a>关于“样式资源管理器”窗口
 

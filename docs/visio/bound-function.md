@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 36374d78-1028-bd7f-6282-66555ee31306
 description: 将某个单元格的值约束在某一范围或一组范围内。
 ms.openlocfilehash: 85fbe66d4e458ac4e42c9eb3c65b9a3a1d8211df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348949"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425958"
 ---
 # <a name="bound-function"></a>BOUND 函数
 
@@ -28,13 +28,13 @@ ms.locfileid: "32348949"
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |必需  <br/> |**Numeric** <br/> |受到约束的当前值。  <br/> |
-| _type_ <br/> |必需  <br/> |**Numeric** <br/> |约束的类型是包含 (0)、不包含 (1) 还是禁用 (2)。  <br/> |
+| _value_ <br/> |必需  <br/> |**数值** <br/> |受到约束的当前值。  <br/> |
+| _type_ <br/> |必需  <br/> |**数值** <br/> |约束的类型是包含 (0)、不包含 (1) 还是禁用 (2)。  <br/> |
 | _忽略_ <br/> |必需  <br/> |**Boolean** <br/> | 如果为 TRUE, 则忽略区域;如果为 FALSE, 则将单元格的值限定在区域中。  <br/> |
-| _value1_ <br/> |必需  <br/> |**Numeric** <br/> |范围内的第一个值。  <br/> |
-| _value2_ <br/> |必需  <br/> |**Numeric** <br/> |范围内的第二个值。  <br/> |
+| _value1_ <br/> |必需  <br/> |**数值** <br/> |范围内的第一个值。  <br/> |
+| _value2_ <br/> |必需  <br/> |**数值** <br/> |范围内的第二个值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用 BOUND 函数可以将某个单元格的值限制在上限和下限之内，例如，可以控制那些不应拉伸超过最大高度或缩短小于最小高度的对象。 对于范围，该约束可以包括范围值本身或者不包括范围值本身。 如果当前值不应受约束, 请将_type_参数设置为 2 (已禁用)。 
   

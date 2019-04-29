@@ -13,11 +13,11 @@ api_type:
 ms.assetid: eaf3bafb-975d-42c8-99ea-7f9ef9c934ba
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: a58e723113f70c10b5c8468f5bdd0d8d9014bd2c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351123"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425125"
 ---
 # <a name="imapiviewcontextgetprintsetup"></a>IMAPIViewContext::GetPrintSetup
 
@@ -54,7 +54,7 @@ S_OK
   
 > 已成功检索打印信息。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单对象调用**IMAPIViewContext:: GetPrintSetup**方法来检索有关打印机设置的信息, 然后再尝试打印当前邮件。 
   

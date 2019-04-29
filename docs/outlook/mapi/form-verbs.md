@@ -9,11 +9,11 @@ api_type:
 ms.assetid: a63bf0a7-24e6-4eef-98e8-3744ce5f9f2d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: dbd08437dfdd38c3a43cbf12eae8710cc8e3661e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327487"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424026"
 ---
 # <a name="form-verbs"></a>表单谓词
 

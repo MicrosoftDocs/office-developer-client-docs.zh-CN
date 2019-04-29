@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 0c3e275e-25f0-3681-03f4-257145c19690
 description: 确定当数据类型为日期时用于文本字段的日历。
 ms.openlocfilehash: e90f757fb176375c8f9e9d5744e09b67afaca527
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337497"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424749"
 ---
 # <a name="calendar-cell-text-fields-section"></a>Calendar 单元格（“Text Fields”内容）
 
 确定当数据类型为日期时用于文本字段的日历。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可能的值为：0（公历）、1（阿拉伯回历）、2（希伯来农历）、3（台历）、4（日本年号）、5（泰国佛历）、6（朝鲜檀纪历）、7（萨卡时代日历）、8（英语转译）和 9（法语转译）。 
   

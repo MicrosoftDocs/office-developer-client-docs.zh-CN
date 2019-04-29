@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3a223dac-538b-cb5d-a32d-61395276f9da
 description: 在没有本地排列样式的绘图页上确定所有连接线的排列样式和方向。
 ms.openlocfilehash: 38de871460c155ee5d495599a239ebeb0ff1c33d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358441"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424782"
 ---
 # <a name="routestyle-cell-page-layout-section"></a>RouteStyle 单元格（“Page Layout”内容）
 
@@ -32,13 +32,13 @@ ms.locfileid: "32358441"
 |步  <br/> |树  <br/> |从上到下  <br/> |**visLORouteTreeNS** <br/> |
 |utf-8  <br/> |树  <br/> |从左到右  <br/> |**visLORouteTreeWE** <br/> |
 |第  <br/> |网络  <br/> |无  <br/> |**visLORouteNetwork** <br/> |
-|10  <br/> |组织结构图  <br/> |从下到上  <br/> |**visLORouteOrgChartSN** <br/> |
-|11x17  <br/> |组织结构图  <br/> |从右到左  <br/> |**visLORouteOrgChartEW** <br/> |
-|12  <br/> |流程图  <br/> |从下到上  <br/> |**visLORouteFlowchartSN** <br/> |
-|13  <br/> |流程图  <br/> |从右到左  <br/> |**visLORouteFlowchartEW** <br/> |
-|日  <br/> |树  <br/> |从下到上  <br/> |**visLORouteTreeSN** <br/> |
-|个  <br/> |树  <br/> |从右到左  <br/> |**visLORouteTreeEW** <br/> |
-|位  <br/> |从中心到中心  <br/> |无  <br/> |**visLORouteCenterToCenter** <br/> |
+|10   <br/> |组织结构图  <br/> |从下到上  <br/> |**visLORouteOrgChartSN** <br/> |
+|11   <br/> |组织结构图  <br/> |从右到左  <br/> |**visLORouteOrgChartEW** <br/> |
+|12   <br/> |流程图  <br/> |从下到上  <br/> |**visLORouteFlowchartSN** <br/> |
+|13   <br/> |流程图  <br/> |从右到左  <br/> |**visLORouteFlowchartEW** <br/> |
+|14   <br/> |树  <br/> |从下到上  <br/> |**visLORouteTreeSN** <br/> |
+|15   <br/> |树  <br/> |从右到左  <br/> |**visLORouteTreeEW** <br/> |
+|16   <br/> |从中心到中心  <br/> |无  <br/> |**visLORouteCenterToCenter** <br/> |
 |×  <br/> |简单  <br/> |从上到下  <br/> |**visLORouteSimpleNS** <br/> |
 |18  <br/> |简单  <br/> |从左到右  <br/> |**visLORouteSimpleWE** <br/> |
 |合  <br/> |简单  <br/> |从下到上  <br/> |**visLORouteSimpleSN** <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "32358441"
 |不足  <br/> |简单水平 - 垂直  <br/> |无  <br/> |**visLORouteSimpleHV** <br/> |
 |22  <br/> |简单垂直 - 水平  <br/> |无  <br/> |**visLORouteSimpleVH** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 "**页面设置**" 对话框 (在 "**设计**" 选项卡上, 单击 "**页面设置**" 箭头, 单击 "**布局与排列**", 然后单击 "**间距**") 中的 "**布局与排列**" 选项卡上设置此单元格的值。 
   

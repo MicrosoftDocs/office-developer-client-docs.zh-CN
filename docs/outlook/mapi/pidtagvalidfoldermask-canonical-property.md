@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 83a44aee-5269-42a8-8078-4bc063bb6e29
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 925e0eb60d55349ded114b827b6ca67e3b5ac1ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360744"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427792"
 ---
 # <a name="pidtagvalidfoldermask-canonical-property"></a>PidTagValidFolderMask 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32360744"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果用户删除文件夹或邮件存储区损坏, 则文件夹的条目标识符可能会变得无效。
   

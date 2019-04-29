@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 8611249207811446ae47f056486ec498bf1e7eab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349306"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426203"
 ---
 # <a name="iaddrbooksetsearchpath"></a>IAddrBook::SetSearchPath
 
@@ -54,7 +54,7 @@ MAPI_E_MISSING_REQUIRED_COLUMN
   
 > **SRowSet**结构中所述的一个容器不包含其**PR_ENTRYID**属性。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端和服务提供程序调用**SetSearchPath**方法, 以保存对用于使用[IAddrBook:: ResolveName](iaddrbook-resolvename.md)方法解析名称的容器搜索顺序所做的更改。 在会话实例之间保存搜索路径。 
   

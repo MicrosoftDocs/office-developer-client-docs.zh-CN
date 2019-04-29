@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 93c8fc1d-e70c-4726-af2f-c6501d82e49b
 description: 将所有出现的指定字符串值替换为另一个字符串值。
 ms.openlocfilehash: 678cf88fe66d65be454613ce2c615bb7cb8f66d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307999"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421030"
 ---
 # <a name="replace-function-access-custom-web-app"></a>Replace 函数 (Access 自定义 web 应用程序)
 

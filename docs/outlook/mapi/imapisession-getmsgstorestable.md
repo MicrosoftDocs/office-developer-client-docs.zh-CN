@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 77db2dff-4534-440f-a05c-635711cbc2c3
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5fced633023ebf00efaf5b667dc7994eeb5de316
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338827"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428135"
 ---
 # <a name="imapisessiongetmsgstorestable"></a>IMAPISession::GetMsgStoresTable
 
@@ -58,7 +58,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 已设置 MAPI_UNICODE 标志, 且会话不支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISession:: GetMsgStoresTable**方法检索指向邮件存储表的指针, 它是由 MAPI 维护的表, 其中包含有关配置文件中每个打开的邮件存储区的信息。 
   

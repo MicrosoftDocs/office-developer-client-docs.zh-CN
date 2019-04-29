@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: eb6b921d-ecf8-3ce5-87ba-ac1632416b05
 description: '帐户管理 API 提供对帐户信息的访问权限, 并支持帐户更改的通知。 作为此 API 的客户端, 邮件提供程序执行以下操作:'
 ms.openlocfilehash: 76520b7cc7f28ede28257729e4e4fbe2d5096290
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316938"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426247"
 ---
 # <a name="about-the-account-management-api"></a>关于帐户管理 API
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 09e4b427-316b-4630-9f3d-81e74f040d7b
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: f7372830624d774fb914ae956e86a9e4476cf487
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315041"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430789"
 ---
 # <a name="itnefsetprops"></a>ITnef::SetProps
 
@@ -64,7 +64,7 @@ S_OK
   
 > 调用成功, 并返回了所需的一个或一些值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 传输提供程序、邮件存储提供程序和网关调用**ITnef:: SetProps**方法来设置要在邮件或附件的封装中包括的属性, 而不修改原始邮件或附件。 使用此调用设置的任何属性将覆盖封装的邮件中的现有属性。 
   

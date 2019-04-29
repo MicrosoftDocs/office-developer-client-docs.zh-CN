@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d0fc4e91-ed90-4d27-bd23-f01e99728e2d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 96bfc184752b6a3e15434ad67ac8c2b4b26cac4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359932"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426833"
 ---
 # <a name="pidtagcorrelatemtsid-canonical-property"></a>PidTagCorrelateMtsid 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32359932"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果传输提供程序遇到此属性设置为 TRUE 的已提交邮件, 则会将此属性设置为该邮件的 MTS 标识符。 在传输之后, 此属性将与邮件一起存储在人际邮件 (IPM) 的 "已发送邮件" 文件夹中。
   
