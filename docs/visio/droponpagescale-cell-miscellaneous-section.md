@@ -9,40 +9,40 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8927f811-7d8e-ed54-9eec-b86a781168dd
 ms.openlocfilehash: 17c597df3d9e7e741d902fd566cc9a5de1f31ea0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359659"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423760"
 ---
-# <a name="droponpagescale-cell-miscellaneous-section"></a><span data-ttu-id="3f453-102">DropOnPageScale 单元格（“Miscellaneous”内容）</span><span class="sxs-lookup"><span data-stu-id="3f453-102">DropOnPageScale Cell (Miscellaneous Section)</span></span>
+# <a name="droponpagescale-cell-miscellaneous-section"></a><span data-ttu-id="d098c-102">DropOnPageScale 单元格（“Miscellaneous”内容）</span><span class="sxs-lookup"><span data-stu-id="d098c-102">DropOnPageScale Cell (Miscellaneous Section)</span></span>
 
-<span data-ttu-id="3f453-103">包含形状在绘图页上放下时缩放比例的百分比。</span><span class="sxs-lookup"><span data-stu-id="3f453-103">Contains the percentage by which a shape is scaled when dropped on the drawing page.</span></span>
+<span data-ttu-id="d098c-103">包含形状在绘图页上放下时缩放比例的百分比。</span><span class="sxs-lookup"><span data-stu-id="d098c-103">Contains the percentage by which a shape is scaled when dropped on the drawing page.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="3f453-104">注解</span><span class="sxs-lookup"><span data-stu-id="3f453-104">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d098c-104">说明</span><span class="sxs-lookup"><span data-stu-id="d098c-104">Remarks</span></span>
 
-<span data-ttu-id="3f453-105">在下面两种情况下，Visio 将缩放形状，以使其适当地显示在绘图页上：</span><span class="sxs-lookup"><span data-stu-id="3f453-105">In the following two cases, Visio scales shapes so that they appear appropriately on the drawing page:</span></span>
+<span data-ttu-id="d098c-105">在下面两种情况下，Visio 将缩放形状，以使其适当地显示在绘图页上：</span><span class="sxs-lookup"><span data-stu-id="d098c-105">In the following two cases, Visio scales shapes so that they appear appropriately on the drawing page:</span></span>
   
-- <span data-ttu-id="3f453-106">将不可测量的形状放在有比例的绘图上时。</span><span class="sxs-lookup"><span data-stu-id="3f453-106">When unmeasured shapes are dropped onto scaled drawings.</span></span>
+- <span data-ttu-id="d098c-106">将不可测量的形状放在有比例的绘图上时。</span><span class="sxs-lookup"><span data-stu-id="d098c-106">When unmeasured shapes are dropped onto scaled drawings.</span></span>
     
-- <span data-ttu-id="3f453-107">将已测量的形状放在不成比例的绘图上时。</span><span class="sxs-lookup"><span data-stu-id="3f453-107">When measured shapes are dropped onto unscaled drawings.</span></span>
+- <span data-ttu-id="d098c-107">将已测量的形状放在不成比例的绘图上时。</span><span class="sxs-lookup"><span data-stu-id="d098c-107">When measured shapes are dropped onto unscaled drawings.</span></span>
     
-<span data-ttu-id="3f453-108">DropOnPageScale 单元格中的百分比指示 Visio 将形状放大 (\>100) 或下移 (\<100) 的因子。</span><span class="sxs-lookup"><span data-stu-id="3f453-108">The percentage in the DropOnPageScale cell indicates the factor by which Visio scaled the shape, either up (\>100) or down (\<100).</span></span> <span data-ttu-id="3f453-109">在计算硬编码值时，您可以使用此数字作为因数。</span><span class="sxs-lookup"><span data-stu-id="3f453-109">You can use this number as a factor when calculating hard-coded values.</span></span> 
+<span data-ttu-id="d098c-108">DropOnPageScale 单元格中的百分比指示 Visio 将形状放大 (\>100) 或下移 (\<100) 的因子。</span><span class="sxs-lookup"><span data-stu-id="d098c-108">The percentage in the DropOnPageScale cell indicates the factor by which Visio scaled the shape, either up (\>100) or down (\<100).</span></span> <span data-ttu-id="d098c-109">在计算硬编码值时，您可以使用此数字作为因数。</span><span class="sxs-lookup"><span data-stu-id="d098c-109">You can use this number as a factor when calculating hard-coded values.</span></span> 
   
-<span data-ttu-id="3f453-110">对于有比例绘图上的可测量形状或无比例绘图上的不可测量形状，此值是 100%。</span><span class="sxs-lookup"><span data-stu-id="3f453-110">This value is 100% for measured shapes on scaled drawings or unmeasured shapes on unscaled drawings.</span></span> 
+<span data-ttu-id="d098c-110">对于有比例绘图上的可测量形状或无比例绘图上的不可测量形状，此值是 100%。</span><span class="sxs-lookup"><span data-stu-id="d098c-110">This value is 100% for measured shapes on scaled drawings or unmeasured shapes on unscaled drawings.</span></span> 
   
-<span data-ttu-id="3f453-111">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 DropOnPageScale 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="3f453-111">To get a reference to the DropOnPageScale cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="d098c-111">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 DropOnPageScale 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="d098c-111">To get a reference to the DropOnPageScale cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3f453-112">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="3f453-112">Cell name:</span></span>  <br/> | <span data-ttu-id="3f453-113">DropOnPageScale</span><span class="sxs-lookup"><span data-stu-id="3f453-113">DropOnPageScale</span></span>  <br/> |
+| <span data-ttu-id="d098c-112">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="d098c-112">Cell name:</span></span>  <br/> | <span data-ttu-id="d098c-113">DropOnPageScale</span><span class="sxs-lookup"><span data-stu-id="d098c-113">DropOnPageScale</span></span>  <br/> |
    
-<span data-ttu-id="3f453-114">要从某个程序按索引获取对 DropOnPageScale 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="3f453-114">To get a reference to the DropOnPageScale cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="d098c-114">要从某个程序按索引获取对 DropOnPageScale 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="d098c-114">To get a reference to the DropOnPageScale cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3f453-115">内容索引：</span><span class="sxs-lookup"><span data-stu-id="3f453-115">Section index:</span></span>  <br/> |<span data-ttu-id="3f453-116">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3f453-116">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="3f453-117">行索引：</span><span class="sxs-lookup"><span data-stu-id="3f453-117">Row index:</span></span>  <br/> |<span data-ttu-id="3f453-118">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="3f453-118">**visRowMisc**</span></span> <br/> |
-| <span data-ttu-id="3f453-119">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="3f453-119">Cell index:</span></span>  <br/> |<span data-ttu-id="3f453-120">**visObjDropOnPageScale**</span><span class="sxs-lookup"><span data-stu-id="3f453-120">**visObjDropOnPageScale**</span></span> <br/> |
+| <span data-ttu-id="d098c-115">内容索引：</span><span class="sxs-lookup"><span data-stu-id="d098c-115">Section index:</span></span>  <br/> |<span data-ttu-id="d098c-116">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="d098c-116">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="d098c-117">行索引：</span><span class="sxs-lookup"><span data-stu-id="d098c-117">Row index:</span></span>  <br/> |<span data-ttu-id="d098c-118">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="d098c-118">**visRowMisc**</span></span> <br/> |
+| <span data-ttu-id="d098c-119">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="d098c-119">Cell index:</span></span>  <br/> |<span data-ttu-id="d098c-120">**visObjDropOnPageScale**</span><span class="sxs-lookup"><span data-stu-id="d098c-120">**visObjDropOnPageScale**</span></span> <br/> |
    
 

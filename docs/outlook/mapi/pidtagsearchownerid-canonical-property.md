@@ -9,29 +9,29 @@ localization_priority: Normal
 ms.assetid: 01ac66b3-1868-6b1e-7026-ab61380c8cc5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 331a56ae26cfe50a1889334dd30f1f83e90a5ae0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359484"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426490"
 ---
-# <a name="pidtagsearchownerid-canonical-property"></a><span data-ttu-id="5650a-103">PidTagSearchOwnerId 规范属性</span><span class="sxs-lookup"><span data-stu-id="5650a-103">PidTagSearchOwnerId Canonical Property</span></span>
+# <a name="pidtagsearchownerid-canonical-property"></a><span data-ttu-id="b8487-103">PidTagSearchOwnerId 规范属性</span><span class="sxs-lookup"><span data-stu-id="b8487-103">PidTagSearchOwnerId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="5650a-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5650a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b8487-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b8487-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5650a-105">包含将通知发送到索引器的进程 ID, 该进程准备好编制索引的对象。</span><span class="sxs-lookup"><span data-stu-id="5650a-105">Contains the process ID of the process that is sending notifications to the indexer about objects ready for indexing.</span></span>
+<span data-ttu-id="b8487-105">包含将通知发送到索引器的进程 ID, 该进程准备好编制索引的对象。</span><span class="sxs-lookup"><span data-stu-id="b8487-105">Contains the process ID of the process that is sending notifications to the indexer about objects ready for indexing.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="5650a-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="5650a-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="b8487-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="b8487-106">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5650a-107">相关属性：</span><span class="sxs-lookup"><span data-stu-id="5650a-107">Associated properties:</span></span>  <br/> |<span data-ttu-id="5650a-108">PR_SEARCH_OWNER_ID</span><span class="sxs-lookup"><span data-stu-id="5650a-108">PR_SEARCH_OWNER_ID</span></span>  <br/> |
-|<span data-ttu-id="5650a-109">公开者:</span><span class="sxs-lookup"><span data-stu-id="5650a-109">Exposed by:</span></span>  <br/> |<span data-ttu-id="5650a-110">邮件存储对象</span><span class="sxs-lookup"><span data-stu-id="5650a-110">Message store object</span></span>  <br/> |
-|<span data-ttu-id="5650a-111">标识符:</span><span class="sxs-lookup"><span data-stu-id="5650a-111">Identifier:</span></span>  <br/> |<span data-ttu-id="5650a-112">0x3419</span><span class="sxs-lookup"><span data-stu-id="5650a-112">0x3419</span></span>  <br/> |
-|<span data-ttu-id="5650a-113">属性类型</span><span class="sxs-lookup"><span data-stu-id="5650a-113">Property type:</span></span>  <br/> |<span data-ttu-id="5650a-114">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="5650a-114">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="5650a-115">属性标记：</span><span class="sxs-lookup"><span data-stu-id="5650a-115">Property tag:</span></span>  <br/> |<span data-ttu-id="5650a-116">0x34190003</span><span class="sxs-lookup"><span data-stu-id="5650a-116">0x34190003</span></span>  <br/> |
-|<span data-ttu-id="5650a-117">访问权限</span><span class="sxs-lookup"><span data-stu-id="5650a-117">Access:</span></span>  <br/> |<span data-ttu-id="5650a-118">只读</span><span class="sxs-lookup"><span data-stu-id="5650a-118">Read-only</span></span>  <br/> |
+|<span data-ttu-id="b8487-107">相关属性：</span><span class="sxs-lookup"><span data-stu-id="b8487-107">Associated properties:</span></span>  <br/> |<span data-ttu-id="b8487-108">PR_SEARCH_OWNER_ID</span><span class="sxs-lookup"><span data-stu-id="b8487-108">PR_SEARCH_OWNER_ID</span></span>  <br/> |
+|<span data-ttu-id="b8487-109">公开者:</span><span class="sxs-lookup"><span data-stu-id="b8487-109">Exposed by:</span></span>  <br/> |<span data-ttu-id="b8487-110">邮件存储对象</span><span class="sxs-lookup"><span data-stu-id="b8487-110">Message store object</span></span>  <br/> |
+|<span data-ttu-id="b8487-111">标识符:</span><span class="sxs-lookup"><span data-stu-id="b8487-111">Identifier:</span></span>  <br/> |<span data-ttu-id="b8487-112">0x3419</span><span class="sxs-lookup"><span data-stu-id="b8487-112">0x3419</span></span>  <br/> |
+|<span data-ttu-id="b8487-113">属性类型</span><span class="sxs-lookup"><span data-stu-id="b8487-113">Property type:</span></span>  <br/> |<span data-ttu-id="b8487-114">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="b8487-114">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="b8487-115">属性标记：</span><span class="sxs-lookup"><span data-stu-id="b8487-115">Property tag:</span></span>  <br/> |<span data-ttu-id="b8487-116">0x34190003</span><span class="sxs-lookup"><span data-stu-id="b8487-116">0x34190003</span></span>  <br/> |
+|<span data-ttu-id="b8487-117">访问权限</span><span class="sxs-lookup"><span data-stu-id="b8487-117">Access:</span></span>  <br/> |<span data-ttu-id="b8487-118">只读</span><span class="sxs-lookup"><span data-stu-id="b8487-118">Read-only</span></span>  <br/> |
    
 
