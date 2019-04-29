@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c712fc17-f436-41cf-9aa3-186c9a86d56e
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 2482dc39d3f1d1568b45dd3de88358e08d190be4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351560"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428856"
 ---
 # <a name="ixplogontransportnotify"></a>IXPLogon::TransportNotify
 
@@ -88,7 +88,7 @@ S_OK
   
 > 调用成功, 并返回了所需的一个或一些值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序调用**IXPLogon:: TransportNotify**方法向传输提供程序发出通知请求的事件。 这些事件包括取消邮件传输的 MAPI 后台处理程序请求、入站或出站传输操作的开始或结束以及清除入站或出站邮件队列的操作的开始或结束。 
   

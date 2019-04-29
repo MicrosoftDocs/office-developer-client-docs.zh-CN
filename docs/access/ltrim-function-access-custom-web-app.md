@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5a34539a-0245-4268-bcd3-90a17ee095f4
 description: 返回删除了前导空格的字符表达式。
 ms.openlocfilehash: 83dba56e4ed8b140bb9f278f9e836ab4006e0955
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301790"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430971"
 ---
 # <a name="ltrim-function-access-custom-web-app"></a>LTrim 函数 (Access 自定义 web 应用程序)
 
@@ -27,7 +27,7 @@ ms.locfileid: "32301790"
   
 **LTrim**函数包含以下参数。 
   
-|**参数名称**|**Description**|
+|**参数名称**|**说明**|
 |:-----|:-----|
 | *TextExpression*  <br/> |字符串表达式。  <br/> |
    

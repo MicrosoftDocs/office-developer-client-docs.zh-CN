@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 26372539-e9fe-464d-95c7-90b58c20b98f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: b2a1a23f073d05e85c8203826e3407c5ae193f19
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280357"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439791"
 ---
 # <a name="rendering-an-attachment-in-rtf-text"></a>在 RTF 文本中呈现附件
 

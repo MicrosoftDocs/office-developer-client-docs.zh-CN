@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 122c1d30-3cb9-7e7d-b4cc-e93ab8e4da4f
 description: 在 Microsoft Visual Basic for Applications (VBA) 项目中执行加载项或宏。
 ms.openlocfilehash: 280f6eaf1e5db045d8c1d22965df00960d188112
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319059"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432007"
 ---
 # <a name="runaddon-function"></a>RUNADDON 函数
 
@@ -30,7 +30,7 @@ RUNADDON (" *string* ")
 |:-----|:-----|:-----|:-----|
 | _string_ <br/> |必需  <br/> |**String** <br/> | **Addons** 集合中的加载项或 VBA 项目中的宏的名称。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果包含 RUNADDON 函数调用的文档项目 (或引用的其他项目) 没有名为_string_的宏 (没有参数的过程), Microsoft Visio 将运行加载项的名为_string_。 如果找不到任何附加的命名_字符串_, Visio 不会执行任何操作, 并且报告不会出错。 (可以使用**TraceFlags**属性监视 Visio 尝试运行的过程和加载项。) 
   

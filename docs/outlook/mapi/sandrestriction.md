@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1b7dfe87-f87f-43e3-8332-a0d9c3f70d16
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: da35c9c72f4cf3f076715a7a35a3e3514c672ceb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344658"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438881"
 ---
 # <a name="sandrestriction"></a>SAndRestriction
 
@@ -50,7 +50,7 @@ typedef struct _SAndRestriction
   
 > 指向将与逻辑**AND**运算组合在一起的[SRestriction](srestriction.md)结构数组的指针。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果其所有子限制的计算结果为 true, 则**SAndRestriction**的结果为 true。 如果任何子限制的计算结果为 false, 则其值为 false。 
   

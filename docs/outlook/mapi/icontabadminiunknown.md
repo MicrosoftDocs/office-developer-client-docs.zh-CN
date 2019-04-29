@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1f72ab6c-14da-47b7-97ab-f729914214ba
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1423f76b5aade400d8b828fe63a275e14b6a0c6e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337105"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439329"
 ---
 # <a name="icontabadmin--iunknown"></a>IContabAdmin : IUnknown
 

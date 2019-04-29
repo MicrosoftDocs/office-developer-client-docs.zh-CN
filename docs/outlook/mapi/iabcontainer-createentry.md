@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 9f80130279e3437dd9be947de97d3f0d4181165e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287026"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411272"
 ---
 # <a name="iabcontainercreateentry"></a>IABContainer::CreateEntry
 
@@ -72,7 +72,7 @@ S_OK
   
 > 已成功创建新条目。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IABContainer:: CreateEntry**方法在指定的容器中创建特定类型的新条目, 返回指向接口实现的指针, 以便进一步访问该条目。 通过使用已从其一次性表中发布的容器列表中选择的模板来创建新条目。 调用方通过调用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法并请求**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性来访问容器的一次性表。 
   

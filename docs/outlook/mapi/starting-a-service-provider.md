@@ -9,11 +9,11 @@ api_type:
 ms.assetid: c4b61cc3-d9fe-4616-a05c-d1e4096b5abd
 description: 上次修改时间：2015 年 12 月 7 日
 ms.openlocfilehash: f67976681ef0283c86e1c09c49e531572668ff50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341711"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439553"
 ---
 # <a name="starting-a-service-provider"></a>启动服务提供程序
 

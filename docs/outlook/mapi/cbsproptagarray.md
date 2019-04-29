@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c5053f27-e23d-4a65-b079-5f33765c33f7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1cfc88b12331e94880feaed22869bd7608fb7ca8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329496"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438426"
 ---
 # <a name="cbsproptagarray"></a>CbSPropTagArray
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d2a84f24-b4a5-4e16-9219-7a579a31a8f8
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ae9b79abea9a1b2b31867b9ed575e16e8f1c4474
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327277"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412469"
 ---
 # <a name="pidtagattachmimesequence-canonical-property"></a>PidTagAttachMimeSequence 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32327277"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件属性  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性用于 MHTML 支持。 它表示 mime 邮件的父 mime 多部分正文部分内附件的序列号。
   

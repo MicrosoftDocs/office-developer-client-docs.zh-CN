@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c3a72b48-5edf-221e-0508-bab6cbbe64fa
 description: 返回形状的 "形状名称" 对话框 (在 "开发工具" 选项卡上, 单击 "形状名称") 中的 "数据 3" 框中的文本, 作为字符串。
 ms.openlocfilehash: 982b6eaa241e6a13137549ad191a62360bfff38e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344679"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434982"
 ---
 # <a name="data3-function"></a>DATA3 函数
 
@@ -24,7 +24,7 @@ ms.locfileid: "32344679"
 
 DATA3 ()
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果该框为空，则函数返回空字符串。 
   

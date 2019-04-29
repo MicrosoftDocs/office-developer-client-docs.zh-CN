@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 27e0ab2f-b373-41ae-b922-2f45f9671ac6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a82b1351c9d2d19c32e34b03a537a12bf93deb8a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335523"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435759"
 ---
 # <a name="pidtagorigincheck-canonical-property"></a>PidTagOriginCheck 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32335523"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性为第三方提供一种方法, 如邮件传输代理 (MTA) 或邮件用户接收传递报告, 以验证提交的邮件的来源。 如果收到的邮件中有此属性, 应将此属性复制到为响应邮件而生成的任何送达报告中。
   

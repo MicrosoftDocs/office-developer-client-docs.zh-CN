@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b3ce4b0e-4f48-4a7e-a30c-c4754bccb12c
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: d8caa503e557d35e259db743505d39ea4809dbfd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348655"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437649"
 ---
 # <a name="itnefencoderecips"></a>ITnef::EncodeRecips
 
@@ -50,7 +50,7 @@ S_OK
   
 > 调用成功, 并返回了所需的一个或一些值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 传输提供程序、邮件存储提供程序和网关调用**ITnef:: EncodeRecips**方法来执行特定收件人表视图的 TNEF 编码。 例如, 如果提供程序或网关需要特定的列集、排序顺序或对收件人表的限制, 则 TNEF 编码非常有用。 
   

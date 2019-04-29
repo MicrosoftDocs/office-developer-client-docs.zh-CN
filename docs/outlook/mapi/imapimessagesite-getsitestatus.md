@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ab4a06a20c71943f9b649d8f22377f59223e9717
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355809"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430124"
 ---
 # <a name="imapimessagesitegetsitestatus"></a>IMAPIMessageSite::GetSiteStatus
 
@@ -73,7 +73,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单对象调用**IMAPIMessageSite:: GetSiteStatus**方法来获取当前邮件的邮件网站对象的功能。 _lpulStatus_参数中返回的标志提供有关邮件网站的信息。 通常情况下, 窗体启用或禁用菜单命令, 具体取决于标志提供的有关邮件网站实现功能的信息。 如果通过[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md)方法或[IPersistMessage:: Load](ipersistmessage-load.md)方法将新邮件加载到表单中, 则必须选中状态标志。 某些邮件网站对象 (尤其是只读对象) 不允许保存或删除邮件。 
   

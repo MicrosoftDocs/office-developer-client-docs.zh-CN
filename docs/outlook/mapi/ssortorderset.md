@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e7f9be6a-92e7-44a8-93ee-b087713a31df
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: db19c3908c419b98b8deb71e2a86d0aa6eebe240
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344420"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438097"
 ---
 # <a name="ssortorderset"></a>SSortOrderSet
 
@@ -61,7 +61,7 @@ typedef struct _SSortOrderSet
   
 > **SSortOrder**结构的数组, 每个结构定义一个排序顺序。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SSortOrderSet**结构用于定义标准排序和分类排序的多个排序顺序。 
   

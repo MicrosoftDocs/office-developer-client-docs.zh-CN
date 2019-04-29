@@ -10,17 +10,17 @@ keywords:
 - xlstack 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: f9f030e8-1ec9-4cbf-92e1-360526260916
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 55ceed93407b1d99e05bc20fb6ce0b22459de7df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310155"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429977"
 ---
 # <a name="xlstack"></a>xlStack
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 检查堆栈中剩余的空间量。
   
@@ -36,7 +36,7 @@ Excel12(xlStack, LPXLOPER12 pxRes, 0);
 
 返回堆栈中剩余的字节数 (**xltypeInt**)。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 最新版本的可用堆栈空间量溢出**XLOPER**的16位带符号整数。 这意味着, 当使用**XLOPER**s 和**Excel4**或**Excel4v**调用时, **xlStack**可以返回介于-32767 和32768之间的值。 若要在这种情况下获取正确的值, 必须将返回的值转换为无符号的短整型值。
   

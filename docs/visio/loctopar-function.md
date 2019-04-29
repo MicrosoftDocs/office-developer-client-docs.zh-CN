@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
 description: 返回在目标坐标系中的父坐标中转换的点。
 ms.openlocfilehash: 65a08837d7d026836ebc8d5e35938ea049d005e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314845"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439980"
 ---
 # <a name="loctopar-function"></a>LOCTOPAR 函数
 
@@ -34,9 +34,9 @@ LOCTOPAR (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *)
    
 ### <a name="return-value"></a>返回值
 
-字符串
+String
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 将用源形状中的本地坐标表示的点转换为用目标形状中的父坐标表示的点。您可以使用另一个坐标系中的另一个点，通过 LOCTOPAR 函数在单元格中设置父坐标，如形状中的 PinX、PinY、BeginX 和 BeginY。 
   

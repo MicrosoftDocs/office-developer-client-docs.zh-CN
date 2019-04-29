@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8cfd4c89-a74f-4af9-b9c3-5c1a396ee600
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 949d20d7158639a0b3e8e71f431b76edc048b38e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303022"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439154"
 ---
 # <a name="pidtagcontactaddresstypes-canonical-property"></a>PidTagContactAddressTypes 规范属性
 

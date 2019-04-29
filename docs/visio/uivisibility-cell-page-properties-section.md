@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: df7f79df-770a-4868-e7e2-05c3828e23eb
 description: 确定用户界面 (UI) 中是否显示页名称。
 ms.openlocfilehash: 51ccd34cb40c286fe6b61818aea5a6b9c0b6d1a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357216"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437327"
 ---
 # <a name="uivisibility-cell-page-properties-section"></a>UIVisibility 单元格（“Page Properties”内容）
 
 确定用户界面 (UI) 中是否显示页名称。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |在 UI 中显示页名称（默认值）。  <br/> |**visUIVNormal** <br/> |
 |1  <br/> |在 UI 中不显示页名称。  <br/> |**visUIVHidden** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通过将 UIVisibility 单元格设置为 **visUIVHidden**，可避免 UI 中在出现含有页名称的字符串的任何位置显示该页。 例如，该页不会作为 **“绘图资源管理器”** 中的选项列出，也不会在页标签上列出。 但是, 如果您使用的自动化或 UI 路径不包含页面名称, 例如 "**打印**" 命令, 则页面仍可访问。 
   

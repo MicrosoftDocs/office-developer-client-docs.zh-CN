@@ -9,11 +9,11 @@ api_type:
 ms.assetid: ecada707-2960-41ec-be7e-619cad257c57
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a76397b74642aedf9ad5c9704735d869f61db7e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321705"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410537"
 ---
 # <a name="accessing-objects-by-using-the-session"></a>使用会话访问对象
 

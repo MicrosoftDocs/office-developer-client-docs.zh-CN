@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 9d58e23e-b411-c5c1-b785-5014488d42c8
 description: 确定在绘图页上所有连接线和形状之间的水平间距。
 ms.openlocfilehash: c5a27edb25ce7b1449ad6e2988027b474bd79fdb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358931"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439707"
 ---
 # <a name="linetonodex-cell-page-layout-section"></a>LineToNodeX 单元格（“Page Layout”内容）
 
 确定在绘图页上所有连接线和形状之间的水平间距。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 **“布局与排列间距”** 对话框中设置此单元格的值。（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，再单击 **“布局与排列”**，然后单击 **“间距”**。）
   

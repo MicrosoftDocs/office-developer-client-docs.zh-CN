@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 142c4975-08df-4501-9996-557aa44eafb3
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: bf633a971f7e3077ce2f418021ef183a36db8cc8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348606"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411090"
 ---
 # <a name="opening-a-message"></a>打开邮件
  

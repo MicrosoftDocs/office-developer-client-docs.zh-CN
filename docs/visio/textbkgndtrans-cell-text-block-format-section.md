@@ -10,21 +10,21 @@ localization_priority: Normal
 ms.assetid: b2f9d317-cc42-bec5-66f9-f988bcbdcc24
 description: 确定形状的文本块背景色的透明度级别。
 ms.openlocfilehash: f4c4dc7700c553bd4c9bee337220e357c4c5538a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332318"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408689"
 ---
 # <a name="textbkgndtrans-cell-text-block-format-section"></a>TextBkgndTrans 单元格（“Text Block Format”内容）
 
 确定形状的文本块背景色的透明度级别。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0 - 100  <br/> |表示透明度的百分比。默认值为 0%（完全不透明）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些值被四舍五入为最接近的 0.5 个百分点。值 100% 是完全透明。虽然文本背景完全透明的形状在绘图页上看起来和没有文本背景的形状相同，但是它与该页上其他对象的交互方式和透明度为 0% 的形状相同。
   

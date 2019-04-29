@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0ae21571-2299-6407-807c-428668bb6798
 description: 表示包含所有历史、当前和未来时区班次规则的时区的完整时区 (夏时制)。
 ms.openlocfilehash: 5f7000ecc1fa602b330670c2ee1c39f673a11a65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328292"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429339"
 ---
 # <a name="tzdefinition"></a>TZDEFINITION
 
@@ -47,7 +47,7 @@ _rgRules_
   
 > 描述班次发生时间的规则数组。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 *rgRules*中必须至少有一个规则。 在第二个规则启动前, *rgRules*中的第一个规则被视为要使用的规则, 而不考虑第一个规则上的*stStart* 。 
   

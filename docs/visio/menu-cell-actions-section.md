@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29af746c-b081-24cf-a30d-a56353ee849e
 description: 定义形状或页的快捷菜单或动作标记菜单上显示的菜单项的名称。
 ms.openlocfilehash: adb6915c34946472ada8c4ab4d02fa88bab6651a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360653"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436326"
 ---
 # <a name="menu-cell-actions-section"></a>Menu 单元格（“Actions”内容）
 
@@ -23,7 +23,7 @@ ms.locfileid: "32360653"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要在此项之上将分隔符插入菜单，请使用 BeginGroup 单元格。要在菜单底部显示命令，请在命令名之前加百分号字符 (%) 前缀。
   

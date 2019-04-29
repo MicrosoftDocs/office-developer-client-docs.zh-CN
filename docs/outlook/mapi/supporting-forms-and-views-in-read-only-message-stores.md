@@ -9,11 +9,11 @@ api_type:
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 0b7ffe07278cfcbba95351f2720e427dd8500221
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350615"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432427"
 ---
 # <a name="supporting-forms-and-views-in-read-only-message-stores"></a>支持只读邮件存储区中的表单和视图
 

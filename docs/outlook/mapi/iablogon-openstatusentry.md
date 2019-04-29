@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 66f1e246-a67a-4f8a-ae3a-6a8ec8c2b367
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 22f98e52444b17c383737bffd1685df0fb7ba8bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349019"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410782"
 ---
 # <a name="iablogonopenstatusentry"></a>IABLogon::OpenStatusEntry
 
@@ -64,7 +64,7 @@ S_OK
   
 > 调用成功, 状态对象已打开。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通讯簿提供程序实现**OpenStatusEntry**方法, 以授予对其状态对象的访问权限。 所有通讯簿提供程序都需要实现一个 status 对象, 该对象至少支持[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法。 有关详细信息, 请参阅[Status Object 实现](status-object-implementation.md)。
   

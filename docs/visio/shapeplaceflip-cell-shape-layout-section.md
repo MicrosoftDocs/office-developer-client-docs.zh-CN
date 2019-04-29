@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 40008507-d9e4-9c0e-603f-d5e6da73a94b
 description: 确定在使用“配置布局”对话框（在“设计”选项卡上的“布局”组中，单击“重新布局页面”，然后单击“其他布局选项”）排放形状时，可放置形状在页面上如何翻转、旋转或同时翻转和旋转。
 ms.openlocfilehash: 72ef1b67dd87d842e6a4372d1eb08d614f0eb2d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332667"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429276"
 ---
 # <a name="shapeplaceflip-cell-shape-layout-section"></a>ShapePlaceFlip 单元格（“Shape Layout”内容）
 
 确定在使用 **“配置布局”** 对话框（在 **“设计”** 选项卡上的 **“布局”** 组中，单击 **“重新布局页面”**，然后单击 **“其他布局选项”**）排放形状时，可放置形状在页面上如何翻转、旋转或同时翻转和旋转。
   
-|**Value**|**说明**|**自动常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |使用页默认值。  <br/> |**visLOFlipDefault** <br/> |
 |1  <br/> |水平翻转。  <br/> |**visLOFlipX** <br/> |
@@ -28,7 +28,7 @@ ms.locfileid: "32332667"
 |4  <br/> |以 90 度为增量在 0 到 270 度之间翻转。  <br/> |**visLOFlipRotate** <br/> |
 |utf-8  <br/> |不翻转。  <br/> |**visLOFlipNone** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 ShapePlaceFlip 单元格中的值有助于将可放置形状的方向朝向它连接的下一个可放置形状。
   

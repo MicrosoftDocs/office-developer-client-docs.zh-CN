@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6a005acc-55c3-ac04-d32c-370bb2797b08
 description: '返回一个数以10为底的对数。 该数字必须为正数或 LOG10 返回 #NUM 的错误值。'
 ms.openlocfilehash: e64f1eaf0065c893a1ab62a1824587c1d255c6a8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358007"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434121"
 ---
 # <a name="log10-function"></a>LOG10 函数
 
@@ -28,11 +28,11 @@ LOG10 (* **数字** *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |必需  <br/> |**Numeric** <br/> | 要查找其以 10 为底的对数的数。  <br/> |
+| _number_ <br/> |必需  <br/> |**数值** <br/> | 要查找其以 10 为底的对数的数。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-Numeric
+数值
   
 ## <a name="example"></a>示例
 

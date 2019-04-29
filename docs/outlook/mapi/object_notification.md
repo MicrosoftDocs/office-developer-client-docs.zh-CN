@@ -13,11 +13,11 @@ api_type:
 ms.assetid: de3a2297-e0cc-427b-a978-52bade4d9bce
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c637b3b03a22f208123397f7277cf8968f2509a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279884"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430166"
 ---
 # <a name="objectnotification"></a>OBJECT_NOTIFICATION
 
@@ -134,7 +134,7 @@ MAPI_SESSION
   
 > 指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含用于标识受事件影响的属性的属性标记。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **OBJECT_NOTIFICATION**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 当**通知**结构的**info**成员包含**OBJECT_NOTIFICATION**结构时,**通知**结构的**ulEventType**成员将设置为以下事件类型之一: 
   

@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: d63fe874-1027-3436-dbc1-73e722bce22e
 description: 确定在使用“配置布局”对话框（在“设计”选项卡上的“布局”组中，单击“重新布局页面”，然后单击“其他布局选项”）排放形状后是否放大页面以装入绘图。
 ms.openlocfilehash: 8d0001ce35808f8c5f11068ed78865ce992af5cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326822"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438090"
 ---
 # <a name="resizepage-cell-page-layout-section"></a>ResizePage 单元格（“Page Layout”内容）
 
 确定在使用 "**配置布局**" 对话框 (在 "**设计**" 选项卡上的 "**布局**" 组中, 单击 "**重新布局**页面", 然后单击 "**其他布局") 排放形状后是否放大页面以将绘图放在该对话框的上方。选项**)。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 放大页面。  <br/> |
 | FALSE  <br/> | 不放大页面。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ResizePage 单元格的引用，请使用： 
   

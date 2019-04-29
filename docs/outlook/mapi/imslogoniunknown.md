@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d87093dc-f705-465f-ab3c-944ca0cd3e54
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 991e48aa458a58ad2d7d688e81dbb357ef9bda5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348711"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428877"
 ---
 # <a name="imslogon--iunknown"></a>IMSLogon : IUnknown
 
@@ -48,7 +48,7 @@ ms.locfileid: "32348711"
 |[Unadvise](imslogon-unadvise.md) <br/> |使用对**IMSLogon:: Advise**方法的调用, 删除以前建立的邮件存储区更改通知的对象注册。  <br/> |
 |[OpenStatusEntry](imslogon-openstatusentry.md) <br/> |打开一个 status 对象。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 邮件存储区登录对象是 MAPI 直接调用的打开邮件存储提供程序的一部分。 MAPI 调用的邮件存储登录对象和客户端应用程序调用的邮件存储对象之间存在一对一的对应关系;您可以将登录和存储对象视为一个公开两个接口的对象。 这两个对象一起创建并一起释放。
   

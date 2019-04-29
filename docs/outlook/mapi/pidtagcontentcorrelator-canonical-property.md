@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0bf78879-2f9f-4c29-b1f4-2f4882d8464d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 96e0e3152a70eb2913c4559afd99e25adff48ca9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331974"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438524"
 ---
 # <a name="pidtagcontentcorrelator-canonical-property"></a>PidTagContentCorrelator 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32331974"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 二进制字符串的内容由邮件原始发件人定义。 如果在传出邮件上设置, 应将此属性复制到为响应邮件而生成的任何报告中。
   

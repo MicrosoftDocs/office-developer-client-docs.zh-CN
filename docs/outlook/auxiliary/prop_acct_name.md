@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 260ee328-e73f-48bc-7762-d592b7d42afc
 description: 返回或设置帐户名称。
 ms.openlocfilehash: 90b62548694687d9357f4302af36e4c8efeb8c0c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327620"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429430"
 ---
 # <a name="propacctname"></a>PROP_ACCT_NAME
 
@@ -29,7 +29,7 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x0002001F  <br/> |
 |访问权限  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.
   

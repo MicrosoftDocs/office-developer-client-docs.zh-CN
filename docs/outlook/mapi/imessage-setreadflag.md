@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2d02ebf6-bb8b-42bb-9bd0-870dbae9aeb4
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 874dba4aa18190792a52e29064155f5afa0ef44d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349264"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439868"
 ---
 # <a name="imessagesetreadflag"></a>IMessage::SetReadFlag
 
@@ -69,7 +69,7 @@ MAPI_E_INVALID_PARAMETER
     
    - CLEAR_READ_FLAG |GENERATE_RECEIPT_ONLY
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMessage:: SetReadFlag**方法设置或清除**PR_MESSAGE_FLAGS**属性中的邮件的 MSGFLAG_READ 标记, 并调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)以保存该邮件。 设置 MSGFLAG_READ 标志将邮件标记为已阅读, 这并不一定表明预期收件人确实已阅读邮件。 
   

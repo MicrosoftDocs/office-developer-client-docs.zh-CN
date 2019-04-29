@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 02e18d97-25d2-49a3-a63d-26a70895e21c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 04d97dfeeef28aac1d0bbf963074b4262d4fed3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346303"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436585"
 ---
 # <a name="pidtagreportingmessagetransferagentcertificate-canonical-property"></a>PidTagReportingMessageTransferAgentCertificate 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32346303"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性对应于每个邮件一个 X. 400 报告属性。
   

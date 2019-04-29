@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 32c80bcd-a5d6-af32-38ba-9ca9ff148b99
 description: 您可以在 Microsoft InfoPath 表单设计器中创建可能会需要的大多数视图元素。但是，如果需要 InfoPath 无法创建的自定义视图元素，则可以手动修改 InfoPath 用于生成视图的 XSL 转换 (XSLT)。为此，请使用 Microsoft Office Backstage 的发布选项卡上的导出源文件，将表单提取到其组件文件中，然后在首选的 XML 编辑器（如 Microsoft Visual Studio 或记事本）中编辑转换。
 ms.openlocfilehash: a61980191dbedeec33b06ad8173ce50126fea781
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299900"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428268"
 ---
 # <a name="using-custom-xslt-in-infopath-form-templates"></a>在 InfoPath 表单模板中使用自定义 XSLT
 

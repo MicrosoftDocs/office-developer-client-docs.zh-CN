@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d8a56746-4de4-4f24-af32-e85079c060b8
 description: 'Outlook Social Connector (.osc) 调用 ISocialProvider:: GetCapabilities 方法来确定用于社交网络的 .osc 提供程序的功能。'
 ms.openlocfilehash: 697902631b010afab015e9cfb73fac81ac427d6e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286320"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428793"
 ---
 # <a name="getting-friends-information"></a>获取好友信息
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c820cb95-92e8-5d56-22d7-0a984acc6c59
 description: 返回一个角度的正切值。
 ms.openlocfilehash: 9ece28baa29f1fdc7d7d31938dc83d8f68f8982d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332345"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438013"
 ---
 # <a name="tan-function-visioshapesheet"></a>TAN 函数 (VisioShapeSheet)
 
@@ -28,13 +28,13 @@ TAN (* * *angle* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |必需  <br/> |**Numeric** <br/> |要获取其切线的角度。  <br/> |
+| _angle_ <br/> |必需  <br/> |**数值** <br/> |要获取其切线的角度。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-Numeric
+数值
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 TAN 函数使用弧度, 除非您以*角度*指定了不同的度量单位。 
   

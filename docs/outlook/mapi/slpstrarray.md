@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5f570d9b-eb3d-4fc7-bcbe-348a0b8fe9e9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 987020bd6fd49fcba9453075cd502bd5cea4c3a3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361150"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435906"
 ---
 # <a name="slpstrarray"></a>SLPSTRArray
 
@@ -50,7 +50,7 @@ typedef struct _SLPSTRArray
   
 > 指向空结束的8位字符字符串数组的指针。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 有关 PT_MV_STRING8 的详细信息, 请参阅[属性类型列表](property-types.md)。
   

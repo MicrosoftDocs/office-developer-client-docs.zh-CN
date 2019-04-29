@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c1f630c6-9e95-49c0-9757-4685c98184dc
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: fb26c7f366ce6a262362001773e825c60d0e4ec3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282829"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421968"
 ---
 # <a name="ixplogonflushqueues"></a>IXPLogon::FlushQueues
 
@@ -76,7 +76,7 @@ S_OK
   
 > 调用成功, 并返回了所需的一个或一些值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 mapi 后台处理程序调用**IXPLogon:: FlushQueues**方法, 以告知 MAPI 后台处理程序即将开始处理邮件的传输提供程序。 传输提供程序应调用[IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md)方法, 以在其状态行的**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) 属性中为其状态设置一个适当的位。 更新其状态行后, 传输提供程序应返回**FlushQueues**调用的 S_OK。 mapi 后台处理程序随后开始发送邮件, 并将操作同步到 MAPI 后台处理程序。 
   

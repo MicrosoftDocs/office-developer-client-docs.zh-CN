@@ -11,17 +11,17 @@ keywords:
 - temperr 函数 [excel 2007], TempErr12 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: cf8c26b2-ca2b-4dda-a02d-0ccbeac19106
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 68a0addc36ecf1b4491ab1e4f5b10f359bbc59c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310344"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410607"
 ---
 # <a name="temperrtemperr12"></a>TempErr/TempErr12
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 Framework library 函数, 用于创建一个包含 Microsoft Excel 工作表错误的临时**XLOPER**/ **XLOPER12** 。 
   
@@ -36,11 +36,11 @@ LPXLOPER12 TempErr12(BOOL err);
   
 所需的错误代码或其常数值等效项, 如下表所示。
   
-|**Error**|**xlcall.h 中定义的错误代码。水平**|**十进制等效项**|
+|**错误**|**xlcall.h 中定义的错误代码。水平**|**十进制等效项**|
 |:-----|:-----|:-----|
 |#NULL  <br/> |**xlerrNull** <br/> |0  <br/> |
 |#DIV/0!  <br/> |**xlerrDiv0** <br/> |步  <br/> |
-|#VALUE!  <br/> |**xlerrValue** <br/> |个  <br/> |
+|#VALUE!  <br/> |**xlerrValue** <br/> |15   <br/> |
 |#REF!  <br/> |**xlerrRef** <br/> |上午  <br/> |
 |#NAME?  <br/> |**xlerrName** <br/> |29  <br/> |
 |#NUM!  <br/> |**xlerrNum** <br/> |36  <br/> |

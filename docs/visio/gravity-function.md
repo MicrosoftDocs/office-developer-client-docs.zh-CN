@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: db80f147-71a0-0b23-bc7e-fe1915dfdd21
 description: 为指示的形状旋转计算文本块的正确旋转角度, 以防止文本倒置。
 ms.openlocfilehash: 77c944d954292e231f8bacbe3c8a4433aad5d689
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360184"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429283"
 ---
 # <a name="gravity-function"></a>GRAVITY 函数
 
@@ -34,9 +34,9 @@ ms.locfileid: "32360184"
    
 ### <a name="return-value"></a>返回值
 
-字符串
+String
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 GRAVITY 函数通常在 TxtAngle 单元格中使用。 
   

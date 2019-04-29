@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
 description: 返回颜色的蓝色成分。 返回值是介于0到 255 (含) 之间的整数。 对于无效输入，该函数将返回 0。
 ms.openlocfilehash: adefbe0f8c2df0ead0f3e50cd5d4945501972865
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297352"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439035"
 ---
 # <a name="blue-function"></a>BLUE 函数
 

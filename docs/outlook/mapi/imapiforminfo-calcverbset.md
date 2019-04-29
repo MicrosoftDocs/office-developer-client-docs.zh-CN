@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0170dc9d-dc72-48e2-a522-374f199b18ea
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: babff746af16d51ca154d049943f6be7e9fab589
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321690"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428779"
 ---
 # <a name="imapiforminfocalcverbset"></a>IMAPIFormInfo::CalcVerbSet
 
@@ -58,7 +58,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序调用**IMAPIFormInfo:: CalcVerbSet**方法以获取指向表单使用的一组谓词的指针。 在_ppMAPIVerbArray_参数中返回的**SMAPIVerbArray**结构中, 按照索引号的顺序返回谓词;在其**lVerb**成员中找到每个动词的索引。 客户端应用程序可以使用谓词数组来动态构建菜单、隐藏或显示按钮, 等等。 
   

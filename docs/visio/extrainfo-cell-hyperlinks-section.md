@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 55834445-8619-f79a-aea0-0f6a1780e016
 description: 表示传递解析 URL 所需信息的字符串，如图像映射的坐标。 例如, 在 ExtraInfo 单元格中, x = 41&amp;y = 7specifies 图像映射的坐标。
 ms.openlocfilehash: df2886ef7911b484cc60e8a476bfa53369fbf646
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357818"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409571"
 ---
 # <a name="extrainfo-cell-hyperlinks-section"></a>ExtraInfo 单元格（“Hyperlinks”内容）
 
 表示传递解析 URL 所需信息的字符串，如图像映射的坐标。 例如, 在 ExtraInfo 单元格中, "x = 41&amp;y = 7" 指定图像映射的坐标。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 只在事件发生后（而非输入公式后）才对事件单元格求值。
   

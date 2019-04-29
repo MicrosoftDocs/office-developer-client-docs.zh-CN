@@ -9,11 +9,11 @@ api_type:
 ms.assetid: d9167cd2-fc88-46b1-9a26-151955fb606c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 092cf56aea2e246fbb7ef2016a2662a1f67f889b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356901"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439518"
 ---
 # <a name="message-store-features"></a>邮件存储区功能
 

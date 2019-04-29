@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e931246e-7fff-4116-a9fc-f685988e21e8
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 1e9d390a895490f2f7445c5f1ed6e0bde3a87639
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331540"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439728"
 ---
 # <a name="imapistatussettingsdialog"></a>IMAPIStatus::SettingsDialog
 
@@ -58,7 +58,7 @@ MAPI_E_NO_SUPPORT
   
 > status 对象不支持此方法, 正如**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中缺少 STATUS_SETTINGS_DIALOG 标志所指示的那样。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIStatus:: SettingsDialog**方法显示一个配置属性表。 所有服务提供程序都应支持**SettingsDialog**方法, 但这并不是必需的。 服务提供程序可以实现自己的属性表, 也可以使用支持对象的 IMAPISupport 中提供的实现[::D oconfigpropsheet](imapisupport-doconfigpropsheet.md)方法。 **DoConfigPropsheet**生成读/写属性表。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b6a5096f-ad27-48b3-b569-f33efc20fa72
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 279d6109e8c29de204c4fb58da51de84b4fbe183
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350874"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435332"
 ---
 # <a name="imapiclientshutdown--iunknown"></a>IMAPIClientShutdown : IUnknown
 
@@ -44,7 +44,7 @@ ms.locfileid: "32350874"
 |[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |指示 MAPI 客户端的意向继续关闭。  <br/> |
 |[DoFastShutdown](imapiclientshutdown-dofastshutdown.md) <br/> |指示 MAPI 客户端在立即退出客户端进程的意图。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 快速关闭的目的是允许 mapi 客户端和任何已加载的 mapi 提供程序与 mapi 客户端具有活动的 mapi 会话, 以保存 mapi 设置和数据。 这使 MAPI 客户端可以断开所有外部引用并退出, 而不会导致任何数据丢失。 需要执行快速关机的 MAPI 客户端必须使用**IMAPIClientShutdown**接口。 MAPI 客户端可以通过在任何[IMAPISession](imapisessioniunknown.md)对象上调用 IUnknown:: QueryInterface 方法来获取指向此接口的指针。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c33daad6-52c4-4968-ac56-415178c9bf12
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bfddc24e6a9c7cf8bdeae1e5ea730ecdb116f564
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321586"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428590"
 ---
 # <a name="imapiformmgrselectformcontainer"></a>IMAPIFormMgr::SelectFormContainer
 
@@ -67,7 +67,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看器通常调用**IMAPIFormMgr:: SelectFormContainer**方法, 以选择要在其中安装表单的表单容器。 **SelectFormContainer**不能用于选择具有值 HFRMREG_LOCAL 的本地表单容器。 
   

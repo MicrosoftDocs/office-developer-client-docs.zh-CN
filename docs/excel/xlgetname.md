@@ -10,17 +10,17 @@ keywords:
 - xlgetname 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 350ae99baf088a36fa3e1159caa1805cdd623276
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303827"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430586"
 ---
 # <a name="xlgetname"></a>xlGetName
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 以字符串的形式返回 DLL 的完整路径和文件名。
   

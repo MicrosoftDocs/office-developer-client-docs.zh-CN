@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d1ca619e-8bdc-417b-aed6-23dd30e6eafa
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0c78574f213245a5c30ff589ade824e5c5bd84ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321432"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410467"
 ---
 # <a name="imapimessagesitegetstore"></a>IMAPIMessageSite::GetStore
 
@@ -49,7 +49,7 @@ S_FALSE
   
 > 没有包含该邮件的存储区。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   

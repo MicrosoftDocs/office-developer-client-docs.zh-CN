@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 79283301-e544-4a4d-96c2-3f81dc5b3731
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 0fa742b7ff6d98e3a0f475accbc440d22eac0919
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337056"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437509"
 ---
 # <a name="declaring-form-interfaces"></a>声明表单接口
 

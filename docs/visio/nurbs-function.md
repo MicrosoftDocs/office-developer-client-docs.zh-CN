@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f34db20d-6501-2026-a5e8-29c4d4cb2405
 description: 返回一个非均匀有理 B 样条 (NURBS)。 此函数用于 NURBSTo 几何图形行中的 E 单元格。
 ms.openlocfilehash: af92374a829c0df8e71ac81e630abc4fa64988dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340122"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438454"
 ---
 # <a name="nurbs-function"></a>NURBS 函数
 
@@ -29,15 +29,15 @@ NURBS (* * *knotLast* * *、* **度** *、* * *xType* * *、* * *yType* * *、* 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _knotLast_ <br/> |必需  <br/> |**string** <br/> | 最后一个节点。  <br/> |
-| _°_ <br/> |必需  <br/> |**Numeric** <br/> |样条的度数。  <br/> |
-| _xType_ <br/> |必需  <br/> |**Numeric** <br/> |指定如何解释_x_输入数据。 如果_xType_为 0, 则所有_x_输入数据都被解释为宽度的百分比。 如果_xType_为 1, 则所有_x_输入数据将被解释为本地坐标。  <br/> |
-| _yType_ <br/> |必需  <br/> |**Numeric** <br/> |指定如何解释_y_输入数据。 如果_yType_为 0, 则所有_y_输入数据将被解释为高度的百分比。 如果_yType_为 1, 则所有_y_输入数据将被解释为本地坐标。  <br/> |
+| _°_ <br/> |必需  <br/> |**数值** <br/> |样条的度数。  <br/> |
+| _xType_ <br/> |必需  <br/> |**数值** <br/> |指定如何解释_x_输入数据。 如果_xType_为 0, 则所有_x_输入数据都被解释为宽度的百分比。 如果_xType_为 1, 则所有_x_输入数据将被解释为本地坐标。  <br/> |
+| _yType_ <br/> |必需  <br/> |**数值** <br/> |指定如何解释_y_输入数据。 如果_yType_为 0, 则所有_y_输入数据将被解释为高度的百分比。 如果_yType_为 1, 则所有_y_输入数据将被解释为本地坐标。  <br/> |
 | _x1_ <br/> |必需  <br/> |**String** <br/> |x 坐标。  <br/> |
 | _y1_ <br/> |必需  <br/> |**String** <br/> |y 坐标。  <br/> |
 | _knot1_ <br/> |必需  <br/> |**String** <br/> |B 样条上的节点。  <br/> |
 | _weight1_ <br/> |必需  <br/> |**String** <br/> |B 样条的粗细。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 对于每个*x*参数, 必须有一个*y*参数;否则, 将返回错误。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cb4a38ff-2fdd-40ac-a613-12c3f11a1df9
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 48ddb5a7c4e013c03138b08d9dadcdc0991faeec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279606"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438370"
 ---
 # <a name="iablogoncompareentryids"></a>IABLogon::CompareEntryIDs
 
@@ -74,7 +74,7 @@ MAPI_E_INVALID_ENTRYID
   
 > 一个或两个条目标识符不属于通讯簿提供程序。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通讯簿提供程序实现**CompareEntryIDs**方法来比较两个条目标识符, 以确定它们是否引用同一个对象。 
   

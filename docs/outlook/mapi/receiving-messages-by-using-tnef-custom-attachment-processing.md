@@ -9,11 +9,11 @@ api_type:
 ms.assetid: bb5082fa-8fe3-46fe-b2de-b6dd1af79ea7
 description: 上次修改时间：2015 年 12 月 7 日
 ms.openlocfilehash: 046b537d41b318fa857ef77f1906edcf2c3aa2bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328425"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429318"
 ---
 # <a name="receiving-messages-by-using-tnef-custom-attachment-processing"></a>使用 TNEF 自定义附件处理接收邮件
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 887cea55-8f1c-45ec-3100-d03e1213d7c9
 description: 将枚举限制在指定时间段内。
 ms.openlocfilehash: e7f7a5d846d13422f9ed79ef26f1b9b0008463f6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317561"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431944"
 ---
 # <a name="ienumfbblockrestrict"></a>IEnumFBBlock::Restrict
 
@@ -44,7 +44,7 @@ _ftmEnd_
 
 如果该调用成功，则返回 S_OK否则为一个错误代码。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此方法还会重置枚举。
   

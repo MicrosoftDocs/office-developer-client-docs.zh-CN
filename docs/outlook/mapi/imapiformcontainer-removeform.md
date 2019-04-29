@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7f851ce8-bd01-4ea5-86e0-e44323cc0aab
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e53c0cbd9946ff04516594a7ce99fdc2daf4ff4d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355740"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432196"
 ---
 # <a name="imapiformcontainerremoveform"></a>IMAPIFormContainer::RemoveForm
 

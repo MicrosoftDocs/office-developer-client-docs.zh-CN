@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7f489f55-46d4-8a88-6ebe-9db6446e69a5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: da55afcabb1354959a71d6f10472c05540427b19
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298465"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428541"
 ---
 # <a name="make-store-type-private-property"></a>将存储类型设为私有属性
 
@@ -37,7 +37,7 @@ ms.locfileid: "32298465"
 |属性类型  <br/> |PT_BOOLEAN  <br/> |
 |访问类型:  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要提供任何存储功能, 存储提供程序必须实现[IMsgStore: IMAPIProp](imsgstoreimapiprop.md) , 并返回传递给[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)调用的任何这些属性的有效属性标记。 当这些属性中任一属性的属性标记传递给[IMAPIProp:: GetProps](imapiprop-getprops.md)时, 存储提供程序还必须返回正确的属性值。 存储提供程序可以调用[HrGetOneProp](hrgetoneprop.md)和[HrSetOneProp](hrsetoneprop.md)以获取或设置这些属性。 
   

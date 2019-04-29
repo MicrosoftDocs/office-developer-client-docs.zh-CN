@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 183d3b86-4506-44da-bbfc-d6242ad89e57
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 2879299d152d8fea7690162ae55a22f337f5fd59
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299067"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428163"
 ---
 # <a name="add-a-definition-for-a-new-user-defined-field"></a>为用户定义的新字段添加定义
  

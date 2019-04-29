@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: a623ef24f76dae93bfc13e6613e885a120f3278e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341284"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430446"
 ---
 # <a name="imapisupportwrapstoreentryid"></a>IMAPISupport::WrapStoreEntryID
 
@@ -60,7 +60,7 @@ S_OK
   
 > 已成功包装条目标识符。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: WrapStoreEntryID**方法是为所有服务提供程序支持对象实现的。 服务提供程序使用**WrapStoreEntryID**让 MAPI 为封装了存储区内部项标识符的邮件存储区生成条目标识符。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b0e0847a3a9e21f080a852738ec8afbc98a2263f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316231"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412238"
 ---
 # <a name="pidtagformdesignerguid-canonical-property"></a>PidTagFormDesignerGuid 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32316231"
 |数据类型：  <br/> |PT_GUID  <br/> |
 |区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性通常包含用于创建窗体的设计程序的全局唯一标识符 (GUID)。 此属性可以为空。 
   

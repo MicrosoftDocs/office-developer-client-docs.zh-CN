@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 245166ce-1cb6-634b-c763-bb717a940eec
-description: 本导航页包含一些链接，这些链接指向有关 Visio 中可编程性的概述主题。 单击下面的链接或者使用目录可浏览相应的主题：
+description: 此导航页包含有关 Visio 中可编程性的概述主题的链接。 单击下面的链接或者使用目录可浏览相应的主题：
 ms.openlocfilehash: fef26adf718b883ef2dbc75fc1f3b9cf1b143386
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358616"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438895"
 ---
 # <a name="concepts-visio-shapesheet"></a>概念 (Visio ShapeSheet)
 
-本导航页包含一些链接，这些链接指向有关 Visio 中可编程性的概述主题。 单击下面的链接或者使用目录可浏览相应的主题：
+此导航页包含有关 Visio 中可编程性的概述主题的链接。 单击下面的链接或者使用目录可浏览相应的主题：
   
 - [关于单元格引用](about-cell-references.md)
     

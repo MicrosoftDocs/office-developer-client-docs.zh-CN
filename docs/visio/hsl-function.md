@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c9314c39-1d2e-a18f-c01b-8817286099dc
 description: 返回一个值, 该值代表文档调色板中的索引。 它通过色调、饱和度和明度组件指定颜色。
 ms.openlocfilehash: 55703239395c54beedf4b7383435253f9c37006f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329923"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420960"
 ---
 # <a name="hsl-function"></a>HSL 函数
 
@@ -34,15 +34,15 @@ HSL (* **色相** *、* **饱和度** *、* **亮度** *)
    
 ### <a name="return-value"></a>返回值
 
-帐号
+数字
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果该函数返回的颜色在当前文档的调色板中尚不存在，则它将添加到该文档的可用颜色列表中。 
   
 下表列出了一些标准颜色，以及它们的色调、饱和度和发光度的值。 
   
-|**Color**|**色调值**|**饱和度值**|**发光度值**|
+|**颜色**|**色调值**|**饱和度值**|**发光度值**|
 |:-----|:-----|:-----|:-----|
 |黑色  <br/> |0  <br/> |0  <br/> |24  <br/> |
 |蓝色  <br/> |160  <br/> |240  <br/> |120  <br/> |

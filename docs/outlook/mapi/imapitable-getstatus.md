@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f114f1fa-bc05-4587-875b-71548c5912ea
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ec305fc872d1bf1718592dabdd230617d50d3f54
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328894"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434331"
 ---
 # <a name="imapitablegetstatus"></a>IMAPITable::GetStatus
 
@@ -94,7 +94,7 @@ S_OK
   
 > 成功返回表的状态。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPTable:: GetStatus**方法检索有关表的类型和当前状态的信息。 
   

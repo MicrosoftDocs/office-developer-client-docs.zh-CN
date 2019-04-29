@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 2a15e5df-b8e3-9c37-b1ee-2881d010e30b
 description: 本主题包含常量定义、类标识符和帐户管理 API 的接口标识符。
 ms.openlocfilehash: 52d6e1801ac35621179aa0cac8acc2893aeb06b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316868"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429073"
 ---
 # <a name="constants-account-management-api"></a>常量 （帐户管理 API）
 

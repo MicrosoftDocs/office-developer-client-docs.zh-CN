@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9c6cd2f4-e769-4786-b9cc-c02641fecc4f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bd332943d8264ff909c1ec36f6b7c939d597acfd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359239"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432182"
 ---
 # <a name="pidtagreceipttime-canonical-property"></a>PidTagReceiptTime 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32359239"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性必须由接收原始邮件和生成报告的邮件存储提供程序设置。 
   

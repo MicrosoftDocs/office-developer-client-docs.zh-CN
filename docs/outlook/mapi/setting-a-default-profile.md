@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 1d1e862d-ba49-48a1-bb51-0af861323b7b
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: f6bf8f88fa3e87ae619fa32d759fc182290998ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339309"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439812"
 ---
 # <a name="setting-a-default-profile"></a>设置默认配置文件
 

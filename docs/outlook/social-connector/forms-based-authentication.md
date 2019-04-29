@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 282b2377-45ba-4f0c-a7d9-830fa3505c93
 description: 'Outlook Social Connector (.osc) 调用 ISocialProvider:: GetCapabilities 方法来确定用于社交网络的 .osc 提供程序的功能。'
 ms.openlocfilehash: 420f19a8d7632f2ab9b093eb929ffe879f8a2fc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280988"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435528"
 ---
 # <a name="forms-based-authentication"></a>基于表单的身份验证
 

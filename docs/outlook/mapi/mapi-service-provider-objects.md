@@ -9,11 +9,11 @@ api_type:
 ms.assetid: f8ade454-2450-49e6-a76f-93801055a7e5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0976e986a33d8b96366a84527f227bd05ef7845e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32251603"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432266"
 ---
 # <a name="mapi-service-provider-objects"></a>MAPI 服务提供程序对象
 
@@ -23,16 +23,16 @@ ms.locfileid: "32251603"
   
 服务提供程序实现许多对象。 一些主要由 MAPI 使用, 一些由客户端应用程序使用。 一些对象由所有类型的服务提供程序实现;其余内容特定于单个提供程序类型。 下表介绍了所有服务提供程序对象。
   
-|**服务提供程序对象**|**Description**|
+|**服务提供程序对象**|**说明**|
 |:-----|:-----|
 |通讯簿容器  <br/> |包含活动配置文件中一个通讯簿提供程序的收件人信息;通讯簿提供程序可以有一个或多个通讯簿容器。  <br/> |
-|附件  <br/> |包含要与邮件相关联的其他数据 (如文件或 OLE 对象)。  <br/> |
+|Attachment  <br/> |包含要与邮件相关联的其他数据 (如文件或 OLE 对象)。  <br/> |
 |Control  <br/> |启用或禁用按钮, 并在单击按钮时启动处理。  <br/> |
 |通讯组列表  <br/> |描述单个邮件收件人的分组。  <br/> |
 |Folder  <br/> |包含邮件和其他消息容器。  <br/> |
 |登录  <br/> |处理服务提供程序事件通知和客户端请求。  <br/> |
 |邮件用户  <br/> |描述邮件的单个收件人。  <br/> |
-|消息  <br/> |包含可发送给一个或多个收件人的信息。  <br/> |
+|邮件  <br/> |包含可发送给一个或多个收件人的信息。  <br/> |
 |邮件存储  <br/> |充当以分层方式组织的邮件数据库。  <br/> |
 |提供程序  <br/> |处理服务提供程序启动和关闭。  <br/> |
 |后台打印程序挂钩  <br/> |对入站和出站邮件执行特殊处理。  <br/> |

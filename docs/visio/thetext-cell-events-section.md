@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 2d63768e-afdb-4b3f-de49-f9ba69ae5391
 description: 当形状文本或文本组成成分改变时进行求值的事件单元格。
 ms.openlocfilehash: 6aa5e14f339d0030d8421eaae62b0e481be91fc7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326675"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435164"
 ---
 # <a name="thetext-cell-events-section"></a>TheText 单元格（“Events”内容）
 
 当形状文本或文本组成成分改变时进行求值的事件单元格。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 只在事件发生后（而非输入公式后）才对事件单元格求值。您可以使用 TheText 单元格触发重新计算，例如，用 TEXTWIDTH( ) 和 TEXTHEIGHT( ) 函数重新计算文本宽度和高度。
   

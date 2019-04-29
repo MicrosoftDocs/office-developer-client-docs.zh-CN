@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: c482ddce-f2b6-222b-aa30-824b1c6f3b14
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: d24a6d93943883a5503b57ef223d9be777af13d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338813"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431300"
 ---
 # <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>使用脱机状态加载项监视连接状态更改
 

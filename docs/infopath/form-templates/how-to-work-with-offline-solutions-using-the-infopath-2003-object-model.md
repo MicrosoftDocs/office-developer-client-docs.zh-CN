@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 634ccd8c-0b5f-4161-875c-0e546a517377
 description: InfoPath 2003 兼容对象模型提供了 Application 对象的 MachineOnlineState 属性，该属性使您的表单代码可以检查用户的计算机是否已连接至网络。根据连接状态的不同，表单代码可以执行不同的操作。
 ms.openlocfilehash: 452eb0d92b09dc0c3f9b2c247f7cda243dc8eb13
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303568"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429241"
 ---
 # <a name="work-with-offline-solutions-using-the-infopath-object-model"></a>使用 InfoPath 对象模型处理脱机解决方案
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: aed9120ac264a6c47c9d02502093e56d3268d08a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279540"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435143"
 ---
 # <a name="ipropdata--imapiprop"></a>IPropData : IMAPIProp
 
@@ -46,7 +46,7 @@ ms.locfileid: "32279540"
 |[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |检索一个或多个对象属性的访问级别和状态。  <br/> |
 |[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |将 PT_OBJECT 类型的一个或多个属性添加到对象中。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IPropData:: IMAPIProp**接口由 MAPI 实现, 并且主要由可通过调用[CreateIProp](createiprop.md)函数来访问此实现的服务提供程序使用。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fe181b9a-5903-4cc0-bcd5-2061b440b5b1
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f9d38c90fa5795d34f78c61ce0faa5f76d8f740d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344546"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439721"
 ---
 # <a name="ssortorder"></a>SSortOrder
  
@@ -60,7 +60,7 @@ typedef struct _SSortOrder
       
   - TABLE_SORT_CATEG_MIN: 应按照在**SSortOrderSet**结构中的上一排序次序**** 指定的类别中的数据行的最小值对表进行排序。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SSortOrder**结构用于描述如何执行标准排序操作或已分类的排序操作。 **SSortOrder**结构通常组合到**SSortOrderSet**结构中, 以描述多个排序键和方向。 在以下函数和接口方法中使用**SSortOrderSet**结构: 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 31840923e24cddd0dc3dfa9cc67b610d0dcd7e47
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336972"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428457"
 ---
 # <a name="fbadsortorderset"></a>FBadSortOrderSet
 
@@ -55,7 +55,7 @@ FALSE
   
 > 指定的排序次序设置有效。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **FBadSortOrderSet**函数可用于准备对[IMAPITable:: SortTable](imapitable-sorttable.md)方法等 sort 方法的调用。 
   

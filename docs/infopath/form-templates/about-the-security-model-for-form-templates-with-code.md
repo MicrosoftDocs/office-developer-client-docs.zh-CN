@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 5e1c1c72-f98d-4871-9c57-82c315277aa1
 description: InfoPath 托管代码表单模板与非托管表单模板中运行的脚本支持相同的安全级别，它们还支持适用于 .NET Framework 公共语言运行库 (CLR) 下运行的托管代码的其他代码访问安全功能。
 ms.openlocfilehash: 97f0239a5bd6699b539ddaebf4d1d2ed7d1394db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303764"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436144"
 ---
 # <a name="about-the-security-model-for-form-templates-with-code"></a>关于具有代码的表单模板的安全模型
 

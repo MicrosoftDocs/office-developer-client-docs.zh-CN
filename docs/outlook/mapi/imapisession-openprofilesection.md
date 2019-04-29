@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e2757028-27e7-4fc0-9674-e8e30737ef1d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 9d7c1693dfb22ae89afed8cbe1426c1e186f8b2d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329405"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439917"
 ---
 # <a name="imapisessionopenprofilesection"></a>IMAPISession::OpenProfileSection
 
@@ -80,7 +80,7 @@ MAPI_E_NOT_FOUND
   
 > 请求的配置文件部分不存在。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISession:: OpenProfileSection**方法打开一个配置文件节或支持**IProfSect**接口的对象。 配置文件节用于读取信息以及将信息写入会话配置文件。 
   

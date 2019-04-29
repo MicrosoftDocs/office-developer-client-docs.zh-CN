@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 036b9b15-86e1-4a37-8e4b-e37b2963d8fb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: adcdf04653f8c9fed2ecc6520648abd3acd36134
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331547"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438146"
 ---
 # <a name="imapistatusvalidatestate"></a>IMAPIStatus::ValidateState
 
@@ -92,7 +92,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了验证操作, 通常是单击对话框中的 "**取消**" 按钮。 此值仅由远程传输提供程序返回。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIStatus:: ValidateState**方法检查与 status 对象相关联的资源的状态。 **ValidateState**是所有 status 对象所需的[IMAPIStatus](imapistatusimapiprop.md)接口中的唯一方法。 此方法的确切行为取决于实现。 下表介绍了每种不同类型的状态对象的实现。 
   

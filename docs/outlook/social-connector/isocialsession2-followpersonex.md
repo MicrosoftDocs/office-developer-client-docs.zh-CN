@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 17b4af7f-7967-422b-996c-792705c93ad3
 description: 将由 emailAddresses 和 displayName 参数标识的人员添加为社交网络上登录用户的友元。
 ms.openlocfilehash: b44b442ba928b48411e5b1fc8a0c8b76477022ae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339653"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429829"
 ---
 # <a name="isocialsession2followpersonex"></a>ISocialSession2::FollowPersonEx
 
@@ -33,7 +33,7 @@ _displayName_
   
 > 实时包含要作为好友添加的人员的显示名称的字符串。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果 Outlook Social Connector (.osc) 在**emailAddresses**参数的数组中提供了多个 SMTP 地址, 则 .osc 提供程序可以假定第一个元素是主 SMTP 地址。 
   

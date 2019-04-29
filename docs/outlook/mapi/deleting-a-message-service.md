@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 346608d7-f7de-497e-9852-4d4d7696177e
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 27c20242417e51886ab184b1cc87d6ebb185e4bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316861"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428121"
 ---
 # <a name="deleting-a-message-service"></a>删除邮件服务
 

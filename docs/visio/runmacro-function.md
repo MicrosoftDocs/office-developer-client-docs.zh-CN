@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 86b0f071-5e0b-56de-ff5b-63c114ad823a
 description: 调用 Microsoft Visual Basic for Applications (VBA) 项目中的宏。
 ms.openlocfilehash: 77045bd67fe9be9aab14e73199b33b93c6d70c2c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355711"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428086"
 ---
 # <a name="runmacro-function"></a>RUNMACRO 函数
 
@@ -31,7 +31,7 @@ RUNMACRO (* * *macroname* * * [, * * *projname_opt* * *])
 | _macroname_ <br/> |必需  <br/> |**String** <br/> |要调用的宏的名称。  <br/> |
 | _projname_opt_ <br/> |可选  <br/> |**字符串** <br/> | 包含宏的项目。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果指定了一个项目, Microsoft Visio 将扫描所有打开的文档, 其中包含_projname_opt_并调用该项目中的_macroname_ 。 如果_projname_opt_被省略或为空 (""), 则假定_macroname_在包含所评估的 RUNMACRO 公式的文档的 VBA 项目中。 
   

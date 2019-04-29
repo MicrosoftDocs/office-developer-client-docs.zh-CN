@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9b897cbc-90b2-4c60-b5f1-dc78e7e7952d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f9e55153830dbe41a2b4a48454157c900d96cf90
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315370"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432833"
 ---
 # <a name="uladdref"></a>UlAddRef
 
@@ -55,7 +55,7 @@ MAPI_E_CALL_FAILED
   
 > 意外或未知来源的错误阻止操作完成。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  **UlAddRef**返回由**IUnknown:: AddRef**方法返回的值, 它是接口的引用计数的新值。 值为非零值。 
   

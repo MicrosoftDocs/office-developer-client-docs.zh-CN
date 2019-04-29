@@ -13,11 +13,11 @@ api_type:
 ms.assetid: db621dfd-c6ad-42d2-8089-db40a63cab36
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d647b41018afbade91dffb2818b48b0738148855
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329433"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411762"
 ---
 # <a name="imapiformadvisesinkonactivatenext"></a>IMAPIFormAdviseSink::OnActivateNext
 
@@ -64,7 +64,7 @@ S_FALSE
   
 > 表单不处理下一封邮件的邮件类。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IMAPIFormAdviseSink:: OnActivateNext**方法, 以帮助表单确定是否可以在文件夹中显示下一封邮件。 下一封邮件可能是任何类的消息, 但通常是同一个类或相关类。 这样, 客户端应用程序可以尽可能重用表单对象, 从而使读取相同类的多个邮件的过程更为有效。 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: bdacdafc-728b-4952-b28a-b5c1fe4b4f63
 description: 可以使用 MessageBox 操作显示包含警告或信息性消息的消息框。 例如, 可以将 MessageBox 操作与验证宏一起使用。 当控件或记录未通过宏的有效性验证条件时, 消息框会显示一条错误消息, 并提供有关应输入的数据类型的说明。
 ms.openlocfilehash: 9f45101fd269ef863e60fd8e69741e5cd7c56ef1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301713"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433449"
 ---
 # <a name="messagebox-macro-action-access-custom-web-app"></a>MessageBox 宏操作 (Access 自定义 web 应用程序)
 
@@ -27,6 +27,6 @@ ms.locfileid: "32301713"
   
 |**操作参数**|**说明**|
 |:-----|:-----|
-|消息  <br/> |消息框中的文本。 最长可键入255个字符或输入一个表达式 (前面加上等号)。  <br/> |
+|邮件  <br/> |消息框中的文本。 最长可键入255个字符或输入一个表达式 (前面加上等号)。  <br/> |
    
 

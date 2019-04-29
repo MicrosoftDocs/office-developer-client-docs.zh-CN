@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6511368c-9777-497e-9eea-cf390c04b92e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a5364af229721d101f38d2f054f528169b48c09e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329076"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429570"
 ---
 # <a name="imapitablefindrow"></a>IMAPITable::FindRow
 
@@ -83,7 +83,7 @@ MAPI_W_POSITION_CHANGED
   
 > 调用成功, 但在操作中使用的书签不再设置为与上次使用时相同的行;如果书签尚未使用, 它将不再位于创建时的位置。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: FindRow**方法定位表中的第一行, 以匹配_lpRestriction_参数指向的**SRestriction**结构中所述的一组搜索条件。 
   

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 953391ce-31a2-3271-365a-284cf5e15d82
 description: 上次修改时间:03 月3日, 2012
 ms.openlocfilehash: 779dd96c4f07c0c5eee60ae046cd17db98eebfd9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329762"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432721"
 ---
 # <a name="about-the-sample-wrapped-pst-store-provider"></a>关于示例包装的 PST 存储区提供程序
 
