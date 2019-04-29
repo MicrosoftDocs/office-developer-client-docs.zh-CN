@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6d328b1c-8d92-eb1a-7317-7dd85c674ff9
 description: 指定在“形状数据”窗口中向用户显示的标签。 标签由字母数字字符组成，包括下划线 (_) 字符。
 ms.openlocfilehash: d341acfbd47446a5b6dbee51ed821d1e1f34e15d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358749"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420176"
 ---
 # <a name="label-cell-shape-data-section"></a>Label 单元格（“形状数据”内容）
 
 指定在 **“形状数据”** 窗口中向用户显示的标签。 标签由字母数字字符组成，包括下划线 (_) 字符。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 该应用程序会自动将标签字符串用引号引起来放在单元格中，但引号并不显示在 **“形状数据”** 窗口中。 
   

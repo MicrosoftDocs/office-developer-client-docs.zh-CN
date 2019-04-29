@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 14654259-e884-46bf-84ff-9e3c1a8cd60d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2b1e00938800fb6517e634c3ba365276e0e76bd9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348837"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406869"
 ---
 # <a name="imsgserviceadmin2--imsgserviceadmin"></a>IMsgServiceAdmin2 : IMsgServiceAdmin
 
@@ -42,7 +42,7 @@ ms.locfileid: "32348837"
 |:-----|:-----|
 |[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |将邮件服务添加到当前配置文件, 并返回新添加的服务 UID。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgServiceAdmin2**接口由公开[IMsgServiceAdmin](imsgserviceadminiunknown.md)接口的相同对象公开, 并可使用 Outlook 的 MAPI 子系统实现自 Microsoft Outlook 2003。 
   

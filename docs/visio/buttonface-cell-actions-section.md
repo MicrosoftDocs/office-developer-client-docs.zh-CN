@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cf15b879-a47e-a5a5-bfdd-1d7ea423742f
 description: 标识在快捷菜单或动作标记菜单上的项旁边显示的图标。
 ms.openlocfilehash: 7ee9c4e7e857acb34ce75429aa0aaf679320b0e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337546"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407373"
 ---
 # <a name="buttonface-cell-actions-section"></a>ButtonFace 单元格（“Actions”内容）
 
@@ -23,7 +23,7 @@ ms.locfileid: "32337546"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 ButtonFace 单元格中包含的字符串表示 Microsoft Office 按钮外表图像的 ID。值为零 (0) 或空白表示不显示图标。 
   

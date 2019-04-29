@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1ecfdb05-2533-470a-006b-e554026944d8
 description: 将用户界面 (UI) 中的操作或自动重定向到另一个单元格的更新值。
 ms.openlocfilehash: c4f5fe94aba90ce0a69983d6637a5399b6e42707
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326017"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416802"
 ---
 # <a name="setatref-function"></a>SETATREF 函数
 
@@ -32,7 +32,7 @@ SETATREF (* * *reference* * * [, * * *set_expression* * * [, * * *ignore_eval* *
 | _set_expression_ <br/> |可选  <br/> |**字符串** <br/> |一个分配给_reference_的表达式。  <br/> |
 | _ignore_eval_ <br/> |可选  <br/> |**Boolean** <br/> |如果为 TRUE, 则 SETATREF 函数的计算结果为 (0) 零;如果 FALSE (默认值), SETATREF 函数将计算为_reference_的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当绘图窗口中的用户操作或自动化方法导致 Microsoft Visio 更新包含 SETATREF 公式的单元格时, 该值将重定向到 SETATREF 公式 (_引用_) 所引用的单元格。 含有 SETATREF 函数的单元格中的公式将保持不变。
   

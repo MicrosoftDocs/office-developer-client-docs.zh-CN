@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 66771ad3-0fb3-68ff-81da-d1162d37c05a
 description: 如果 logicalexpression 为 TURE，则返回 valueiftrue。 否则，将返回 valueiffalse。
 ms.openlocfilehash: 8780bd3dd5ded1a950a5bf3f79333687f3b6843c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344763"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405469"
 ---
 # <a name="if-function"></a>IF 函数
 

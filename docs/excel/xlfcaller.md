@@ -10,17 +10,17 @@ keywords:
 - xlfcaller 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: de4b119c-ae2e-4207-9783-8d5692a4d052
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: fb788375504cefab75fde9513147c1d54acdaa07
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310225"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405728"
 ---
 # <a name="xlfcaller"></a>xlfCaller
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 返回有关单元格、单元格区域、菜单上的命令、工具栏上的工具或调用了当前正在运行的 DLL 命令或函数的对象的信息。
   
@@ -48,7 +48,7 @@ Excel12(xlfCaller, (LPXLOPER12) pxRes,0);
   
 有关**XLOPERs**/ **XLOPER12s**的详细信息, 请参阅[Excel 中的内存管理](memory-management-in-excel.md)。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此函数是唯一可从 DLL/XLL 工作表函数调用的非工作表函数。 其他 XLM 信息函数只能从命令或宏工作表等效函数中调用。
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7f73b5cf-7093-42e9-8acc-63d73df77cf5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 19d3df004676a71e2bf6243d9288efd824d99c33
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325765"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418020"
 ---
 # <a name="imapisessionopenmsgstore"></a>IMAPISession::OpenMsgStore
 
@@ -102,7 +102,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功, 但邮件存储区提供程序有可用的错误信息。 返回此警告时, 应以成功的方式处理该调用。 若要从提供程序获取错误消息, 请调用[IMAPISession:: GetLastError](imapisession-getlasterror.md)方法。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISession:: OpenMsgStore**方法打开特定的邮件存储区。 
   

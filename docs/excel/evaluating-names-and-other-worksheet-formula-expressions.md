@@ -8,17 +8,17 @@ keywords:
 - 表达式求值 [excel 2007], 工作表 [excel 2007], 名称求值, 计算表达式 [excel 2007], 计算工作表名称 [excel 2007], 表达式 [excel 2007], 评估, 名称 [excel 2007], 评估, 名称求值 [excel 2007], 字符串 [excel 2007], 转换为值, xlfEvaluate 函数 [Excel 2007], 工作表 [excel 2007], 表达式求值
 localization_priority: Normal
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 97328cbc57a9144a133524774e3be10a84a96bf4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311114"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406862"
 ---
 # <a name="evaluating-names-and-other-worksheet-formula-expressions"></a>评估名称和其他工作表公式表达式
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 Excel 通过 C API 公开的最重要功能之一是能够将任何可合法输入到工作表中的字符串公式转换为值或值数组。 对于必须读取已定义名称的内容的 XLL 函数和命令而言, 这是必不可少的。 此功能通过[xlfEvaluate 函数](xlfevaluate.md)公开, 如以下示例中所示。
   

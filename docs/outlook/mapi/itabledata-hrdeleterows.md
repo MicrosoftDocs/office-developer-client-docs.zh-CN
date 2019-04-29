@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: fdd6f40b4d7aa7f65bf1a46d3d9a4f18472b19f7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278945"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416452"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
@@ -59,7 +59,7 @@ S_OK
   
 > 已成功删除表行。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ITableData:: HrDeleteRows**方法查找并删除包含与行集中每个**aRow**条目的**lpProps**成员所指向的属性的列相匹配的表格行。 索引列用于标识每一行;在对[CreateTable](createtable.md)函数的调用中, 此列必须具有与在_ulPropTagIndexColumn_参数中传递的属性标记相同的属性标记。 
   

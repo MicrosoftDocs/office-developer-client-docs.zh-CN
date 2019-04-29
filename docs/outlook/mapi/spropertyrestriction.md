@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2bbf13e9-05b3-4498-8e08-d9e07505190d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 29d392eba530126e06a672c10044c5b4df0618c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357853"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406085"
 ---
 # <a name="spropertyrestriction"></a>SPropertyRestriction
 
@@ -67,7 +67,7 @@ typedef struct _SPropertyRestriction
   
 > 指向包含将在比较中使用的常量值的[SPropValue](spropvalue.md)结构的指针。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SPropertyRestriction**结构中有两个属性标记。 一个位于**ulPropTag**成员中, 另一个位于**lpProp**指向的**SPropValue**结构的**ulPropTag**成员中。 MAPI 同时需要 "属性标识符" 字段和 "属性类型" 字段。 **SPropertyRestriction**中的**ulPropTag**是要匹配的属性, 而**SPropertyRestriction**的**lpProp**指针指示 ulPropTag 的 SPropValue 类型**** 的**** 的成员值解释**lpProp**联合。 这两个属性类型必须匹配, 否则在对[IMAPITable:: Restrict](imapitable-restrict.md)或[IMAPITable:: FindRow](imapitable-findrow.md)的调用中使用限制时, 将返回错误值 MAPI_E_TOO_COMPLEX。 
   

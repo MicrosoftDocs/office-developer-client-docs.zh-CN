@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 28159dfb947b4fb0ea54680627588b7c10bee3b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356565"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416284"
 ---
 # <a name="types-of-restrictions"></a>限制类型
 
@@ -29,7 +29,7 @@ ms.locfileid: "32356565"
   
 union 中的每个专用限制结构都代表不同类型的限制。 限制的类型及其关联的数据结构为:
   
-|**限制的类型**|**关联的数据结构**|**Description**|
+|**限制的类型**|**关联的数据结构**|**说明**|
 |:-----|:-----|:-----|
 |Compare 属性  <br/> |[SComparePropsRestriction](scomparepropsrestriction.md) <br/> |比较同一类型的两个属性。  <br/> |
 |**AND** <br/> |[SAndRestriction](sandrestriction.md) <br/> |对两个或更多个限制执行逻辑**AND**运算。  <br/> |
@@ -41,7 +41,7 @@ union 中的每个专用限制结构都代表不同类型的限制。 限制的�
 |大小  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |使用标准关系运算符测试属性的大小。  <br/> |
 |尚  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |测试对象是否具有属性的值。  <br/> |
 |子  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |用于搜索子对象, 或使用条目标识符无法访问的对象, 例如收件人和附件。 例如, 可用于查找特定收件人的邮件。  <br/> |
-|Comment  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |将对象与一组命名属性相关联。  <br/> |
+|注释  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |将对象与一组命名属性相关联。  <br/> |
    
 某些限制使用正则表达式, 而 MAPI 在使用许多文本应用程序的样式中支持有限形式的正则表达式表示法。
   

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a0644e4bf5c6847d61cc59e203d50f61ad142e84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329748"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416480"
 ---
 # <a name="about-the-replication-state-machine"></a>关于复制状态机
 
@@ -49,14 +49,14 @@ ms.locfileid: "32329748"
 |**State** <br/> |**复制的数据** <br/> |**状态标识符** <br/> |**数据结构** <br/> |
 |[空闲状态](idle-state.md) <br/> | *None*  <br/> |**LR_SYNC_IDLE** <br/> | *None*  <br/> |
 |[同步状态](synchronize-state.md) <br/> |文件夹或项目  <br/> |**LR_SYNC** <br/> |**[同步](sync.md)** <br/> |
-|[上传层次结构状态](upload-hierarchy-state.md) <br/> |文件夹  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
+|[上传层次结构状态](upload-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
 |[上传文件夹状态](upload-folder-state.md) <br/> |Folder  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**[UPFLD](upfld.md)** <br/> |
 |[同步内容状态](synchronize-contents-state.md) <br/> |项目数  <br/> |**LR_SYNC_CONTENTS** <br/> |**[SYNCCONT](synccont.md)** <br/> |
 |[上传表状态](upload-table-state.md) <br/> |项目数  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |**[UPTBL](uptbl.md)** <br/> |
 |[上传邮件状态](upload-message-state.md) <br/> |Item  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |**[UPMSG](upmsg.md)** <br/> |
 |[上载读取状态状态](upload-read-status-state.md) <br/> |项目数  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |**[UPREAD](upread.md)** <br/> |
 |[上传删除状态状态](upload-delete-status-state.md) <br/> |项目数  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |**[UPDEL](updel.md)** <br/> |
-|[下载层次结构状态](download-hierarchy-state.md) <br/> |文件夹  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
+|[下载层次结构状态](download-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
 |[下载表状态](download-table-state.md) <br/> |项目数  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |**[DNTBL](dntbl.md)** <br/> |
 |[下载邮件头状态](download-message-header-state.md) <br/> |邮件头  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
    

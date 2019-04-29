@@ -8,17 +8,17 @@ keywords:
 - udf [excel 2007], 从 dll 调用, 用户定义的函数 [excel 2007], 从 dll 调用, dll [excel 2007], 调用 udf
 localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 9e2ca3f4485fb41c5ab6a48f323b4c0093e747e4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301643"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417943"
 ---
 # <a name="calling-user-defined-functions-from-dlls"></a>从 DLL 调用用户定义的函数
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 从工作表调用用户定义的函数 (udf) 就像调用内置函数一样简单: 通过单元格公式输入函数。 但是, 从 C API, 没有预定义的函数代码可用于回调。 为了使您能够调用 udf, C API 将导出仅 XLL 函数, 即[xlUDF](xludf.md)函数。 函数的第一个参数是一个字符串形式的函数名称, 而后面的参数是 UDF 通常需要的参数。 
   

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 0ffa0802-bfdd-4993-b4a3-142e5d15bfb4
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: e08f16ff60a282f1be3adf93d858471e38d19957
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339625"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406372"
 ---
 # <a name="tnef-correlation-in-x400-gateways-and-transports"></a>在 X 400 网关和传输中的 TNEF 相关性
 

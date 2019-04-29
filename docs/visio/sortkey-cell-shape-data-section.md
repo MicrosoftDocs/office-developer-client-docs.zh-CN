@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 67fa5389-f0b9-a9db-8d19-9b16e256dfa3
 description: 对影响在“形状数据”窗口中列出的项目的顺序的字符串求值。
 ms.openlocfilehash: d166ea18a36f6a4101b8933fce804be2243954bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335180"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417852"
 ---
 # <a name="sortkey-cell-shape-data-section"></a>SortKey 单元格（“Shape Data”内容）
 
 对影响在 **“形状数据”** 窗口中列出的项目的顺序的字符串求值。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 用于比较排序关键字值的计算视具体区域设置而定，并且不区分大小写。 如果排序关键字值相等，形状数据将按行顺序列出。 没有排序关键字的形状数据将列在包含排序关键字的形状数据之后。
   
@@ -28,7 +28,7 @@ ms.locfileid: "32335180"
   
  *行、标签*和*SortKey*引用形状数据行中的单元格。 在此例中，形状数据行已命名。 
   
-|**行**|**Label**|**关键字**|
+|**行**|**标签**|**关键字**|
 |:-----|:-----|:-----|
 | 项  <br/> | 项目编号  <br/> | 1  <br/> |
 | 价值。价格  <br/> | 价格  <br/> | 第三章  <br/> |

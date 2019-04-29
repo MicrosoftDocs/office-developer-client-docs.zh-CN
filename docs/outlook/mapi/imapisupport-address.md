@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8c22547e-ddf5-47f7-aed3-76e3854688df
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 7300c11d5835640fe308430c9bb08d40b397e47b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331603"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407317"
 ---
 # <a name="imapisupportaddress"></a>IMAPISupport::Address
 
@@ -55,7 +55,7 @@ S_OK
   
 > 已成功显示 "地址" 对话框。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为通讯簿提供程序支持对象实现了**IMAPISupport:: Address**方法。 通讯簿提供程序呼叫**地址**以创建或更新邮件收件人的列表。 
   

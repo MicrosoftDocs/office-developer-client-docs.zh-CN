@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a61b50fe-eacb-b3d4-0e4e-ab3e7c972ee9
 description: 确定形状的文本块中文本的大小。
 ms.openlocfilehash: ea747620301a07cafaf179106b54510edb95f7ed
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314796"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415598"
 ---
 # <a name="size-cell-character-section"></a>Size 单元格（“Character”内容）
 
 确定形状的文本块中文本的大小。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 文本大小与绘图比例无关。即使绘图比例进行调整，文本大小仍然保持不变。
   

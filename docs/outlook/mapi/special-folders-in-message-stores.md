@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 9462070e-1472-4e12-ba4e-e4ac60022892
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: ae881f56695914627e8c2f6f61f143da91cd78a8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344441"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416760"
 ---
 # <a name="special-folders-in-message-stores"></a>邮件存储区中的特殊文件夹
 

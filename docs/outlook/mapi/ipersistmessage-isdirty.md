@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 57f688db-3a1c-49ff-a15a-8508bda5de68
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 91985d3dc8a7816c3da3215e505097c57c63e035
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309609"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407569"
 ---
 # <a name="ipersistmessageisdirty"></a>IPersistMessage::IsDirty
 
@@ -45,7 +45,7 @@ S_FALSE
   
 > 表单不包含自上次保存以来所做的更改。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IPersistMessage:: IsDirty**方法, 以确定邮件是否有未保存的数据。 
   

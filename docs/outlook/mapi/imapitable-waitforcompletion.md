@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7663c640-396e-4720-9345-370d0856bd49
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 778ff8f36478740e5ee23ba439db1e328eca2e06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328810"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407058"
 ---
 # <a name="imapitablewaitforcompletion"></a>IMAPITable::WaitForCompletion
 
@@ -63,7 +63,7 @@ MAPI_E_TIMEOUT
   
 > 未在指定时间内完成异步操作或操作。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: WaitForCompletion**方法将挂起处理, 直到对表的当前正下方的任何异步操作完成。 **WaitForCompletion**可以允许异步操作完全完成或运行一定的毫秒数 (由_ulTimeout_指示), 然后才会被中断。 若要检测正在进行的异步操作, 请调用[IMAPITable:: GetStatus](imapitable-getstatus.md)方法。 
   

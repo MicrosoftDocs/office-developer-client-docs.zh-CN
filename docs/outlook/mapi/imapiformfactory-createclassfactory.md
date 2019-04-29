@@ -13,11 +13,11 @@ api_type:
 ms.assetid: dceb21b1-be5e-418d-b0c9-db39195fc82e
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 6e616a76d9665b602184e88566384506fcce5697
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342173"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416074"
 ---
 # <a name="imapiformfactorycreateclassfactory"></a>IMAPIFormFactory::CreateClassFactory
 
@@ -55,7 +55,7 @@ S_OK
   
 > 返回了 class factory 对象。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IMAPIFormFactory:: CreateClassFactory**方法以获取特定窗体的类工厂。 类工厂用于创建处理特定类的邮件并控制对这些实例的访问权限的表单的实例。 
   

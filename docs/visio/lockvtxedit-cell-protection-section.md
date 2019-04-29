@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 966cde5c-f04e-7149-3660-720ffa4f7079
 description: 锁定形状的顶点，以使它们无法编辑。
 ms.openlocfilehash: 1703769fe54171a14f7052f0f6686e1eb5ec92fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358056"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417663"
 ---
 # <a name="lockvtxedit-cell-protection-section"></a>LockVtxEdit 单元格（“Protection”内容）
 
 锁定形状的顶点，以使它们无法编辑。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |不能编辑顶点。  <br/> |
 |FALSE  <br/> |能够编辑顶点。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 LockVtxEdit 单元格的引用，请使用： 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8d2d786b-e621-456d-b087-3373df6f8ac5
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 285da82d143524d2b2cf73ed3e5f1e3aeef6f9b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336713"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405098"
 ---
 # <a name="iaddrbooknewentry"></a>IAddrBook::NewEntry
 
@@ -84,7 +84,7 @@ S_OK
   
 > 已成功创建新的通讯簿条目。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **NewEntry**方法创建一个新的通讯簿条目, 以将其直接添加到容器中或用于处理传出邮件。 
   

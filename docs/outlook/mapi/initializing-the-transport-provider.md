@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 977c18ce-ece5-4ad1-ac97-5a680846ab83
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 474a8085ca8b82d11efd68c9fd4d8719fe239207
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309679"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416599"
 ---
 # <a name="initializing-the-transport-provider"></a>初始化传输提供程序
 

@@ -11,17 +11,17 @@ keywords:
 - tempactiveref 函数 [excel 2007], TempActiveRef12 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 58feee8f43e0f90f710c9e4387684dcb6d173a7b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301566"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415542"
 ---
 # <a name="tempactivereftempactiveref12"></a>TempActiveRef/TempActiveRef12
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 Framework library 函数, 该函数创建一个临时**XLOPER**/ **XLOPER12** , 该函数包含对活动工作表上的矩形单元格块的外部引用。 
   

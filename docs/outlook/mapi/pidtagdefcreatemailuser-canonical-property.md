@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e8293dc9-f2f1-4065-89f4-e734a8db63df
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cd09c85e4f44bbea29807d72a273ccf6980ca6df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269984"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407478"
 ---
 # <a name="pidtagdefcreatemailuser-canonical-property"></a>PidTagDefCreateMailuser 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32269984"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序使用此属性在容器中创建邮件用户对象。 对 "条目创建" 的支持对于通讯簿容器是可选的;不支持它的方法不需要公开此属性。 
   

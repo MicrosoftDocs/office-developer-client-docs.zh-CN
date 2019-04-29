@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6c2e64bc-786e-4867-a504-46f4d1214337
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 77ca51ae5a0e7e1d5a9be8f4ca05a1187fe71694
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279850"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407786"
 ---
 # <a name="pidtaglatestdeliverytime-canonical-property"></a>PidTagLatestDeliveryTime 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32279850"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果 MTA 无法通过此属性指定的时间传递邮件, 它将取消邮件而不进行传递。 
   

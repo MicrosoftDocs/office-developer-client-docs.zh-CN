@@ -10,17 +10,17 @@ keywords:
 - xldisablexlmsgs 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: b29d4720-7855-4252-9dbe-b4fc4eb8f995
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 8da007535168628d46751a7fbbac5766b391eada
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303939"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415325"
 ---
 # <a name="xldisablexlmsgs"></a>xlDisableXLMsgs
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 此函数已弃用，因此无需再调用。
   

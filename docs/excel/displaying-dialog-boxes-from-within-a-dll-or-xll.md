@@ -8,17 +8,17 @@ keywords:
 - xll [excel 2007], 显示对话框 from、对话框 [excel 2007]、从 DLL 或 XLL 显示对话框、dll [excel 2007]、显示对话框
 localization_priority: Normal
 ms.assetid: e77ac555-331d-41c8-a000-7b178959754d
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 7b00430b047fe792afef701d210ccde06dd16216
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310933"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417866"
 ---
 # <a name="displaying-dialog-boxes-from-within-a-dll-or-xll"></a>在 DLL 或 XLL 中显示对话框
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 若要显示 Win32 对话框 (例如, 使用 Windows SDK 函数**video.dialogbox.html**), 必须首先获取 Excel 的完整32位实例和主窗口句柄。 有关详细信息, 请参阅[Access Excel 实例和主窗口句柄](how-to-access-excel-instance-and-main-window-handles.md)。 
   
