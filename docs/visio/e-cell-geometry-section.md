@@ -10,30 +10,30 @@ localization_priority: Normal
 ms.assetid: bc0154b1-6930-1fe0-655c-05eab2d60230
 description: 包含非均匀有理 B 样条 (NURBS) 公式。
 ms.openlocfilehash: 5c9b3cbf96e2a218a8ed790d3a5615843360c95e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327389"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423564"
 ---
-# <a name="e-cell-geometry-section"></a><span data-ttu-id="e6754-103">E 单元格（“Geometry”内容）</span><span class="sxs-lookup"><span data-stu-id="e6754-103">E Cell (Geometry Section)</span></span>
+# <a name="e-cell-geometry-section"></a><span data-ttu-id="d7528-103">E 单元格（“Geometry”内容）</span><span class="sxs-lookup"><span data-stu-id="d7528-103">E Cell (Geometry Section)</span></span>
 
-<span data-ttu-id="e6754-104">包含非均匀有理 B 样条 (NURBS) 公式。</span><span class="sxs-lookup"><span data-stu-id="e6754-104">Contains a nonuniform rational B-spline (NURBS) formula.</span></span>
+<span data-ttu-id="d7528-104">包含非均匀有理 B 样条 (NURBS) 公式。</span><span class="sxs-lookup"><span data-stu-id="d7528-104">Contains a nonuniform rational B-spline (NURBS) formula.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="e6754-105">注解</span><span class="sxs-lookup"><span data-stu-id="e6754-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d7528-105">说明</span><span class="sxs-lookup"><span data-stu-id="d7528-105">Remarks</span></span>
 
-<span data-ttu-id="e6754-106">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 E 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="e6754-106">To get a reference to the E cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="d7528-106">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 E 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="d7528-106">To get a reference to the E cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="e6754-107">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="e6754-107">Cell name:</span></span>  <br/> | <span data-ttu-id="e6754-108">几何图形*i* 。E *j*其中*i*和*j* = <1>, 2, 3 .。。</span><span class="sxs-lookup"><span data-stu-id="e6754-108">Geometry  *i*  .E  *j*            where  *i*  and  *j*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="d7528-107">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="d7528-107">Cell name:</span></span>  <br/> | <span data-ttu-id="d7528-108">几何图形*i* 。E *j*其中*i*和*j* = <1>, 2, 3 .。。</span><span class="sxs-lookup"><span data-stu-id="d7528-108">Geometry  *i*  .E  *j*            where  *i*  and  *j*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="e6754-109">要从某个程序按索引获取对 E 单元格，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="e6754-109">To get a reference to the E cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="d7528-109">要从某个程序按索引获取对 E 单元格，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="d7528-109">To get a reference to the E cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="e6754-110">内容索引：</span><span class="sxs-lookup"><span data-stu-id="e6754-110">Section index:</span></span>  <br/> |<span data-ttu-id="e6754-111">**visSectionFirstComponent** +  *i* = \*\* 0、1、2 .。。</span><span class="sxs-lookup"><span data-stu-id="e6754-111">**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="e6754-112">行索引：</span><span class="sxs-lookup"><span data-stu-id="e6754-112">Row index:</span></span>  <br/> |<span data-ttu-id="e6754-113">**visRowVertex** +  *j*其中*j* = 0, 1, 2 .。。</span><span class="sxs-lookup"><span data-stu-id="e6754-113">**visRowVertex** +  *j*            where  *j*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="e6754-114">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="e6754-114">Cell index:</span></span>  <br/> |<span data-ttu-id="e6754-115">**visNURBSData**</span><span class="sxs-lookup"><span data-stu-id="e6754-115">**visNURBSData**</span></span> <br/> |
+| <span data-ttu-id="d7528-110">内容索引：</span><span class="sxs-lookup"><span data-stu-id="d7528-110">Section index:</span></span>  <br/> |<span data-ttu-id="d7528-111">**visSectionFirstComponent** +  *i* = \*\* 0、1、2 .。。</span><span class="sxs-lookup"><span data-stu-id="d7528-111">**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="d7528-112">行索引：</span><span class="sxs-lookup"><span data-stu-id="d7528-112">Row index:</span></span>  <br/> |<span data-ttu-id="d7528-113">**visRowVertex** +  *j*其中*j* = 0, 1, 2 .。。</span><span class="sxs-lookup"><span data-stu-id="d7528-113">**visRowVertex** +  *j*            where  *j*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="d7528-114">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="d7528-114">Cell index:</span></span>  <br/> |<span data-ttu-id="d7528-115">**visNURBSData**</span><span class="sxs-lookup"><span data-stu-id="d7528-115">**visNURBSData**</span></span> <br/> |
    
 

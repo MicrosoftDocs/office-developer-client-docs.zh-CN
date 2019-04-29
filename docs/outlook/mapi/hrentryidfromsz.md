@@ -13,25 +13,25 @@ api_type:
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ac59aeb3d650c0fbeb5bcdb580e0401cbab58ee6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347808"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437726"
 ---
-# <a name="hrentryidfromsz"></a><span data-ttu-id="03acd-103">HrEntryIDFromSz</span><span class="sxs-lookup"><span data-stu-id="03acd-103">HrEntryIDFromSz</span></span>
+# <a name="hrentryidfromsz"></a><span data-ttu-id="776a3-103">HrEntryIDFromSz</span><span class="sxs-lookup"><span data-stu-id="776a3-103">HrEntryIDFromSz</span></span>
 
   
   
-<span data-ttu-id="03acd-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="03acd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="776a3-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="776a3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="03acd-105">从其 ASCII 编码重新创建条目标识符。</span><span class="sxs-lookup"><span data-stu-id="03acd-105">Recreates an entry identifier from its ASCII encoding.</span></span> 
+<span data-ttu-id="776a3-105">从其 ASCII 编码重新创建条目标识符。</span><span class="sxs-lookup"><span data-stu-id="776a3-105">Recreates an entry identifier from its ASCII encoding.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="03acd-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="03acd-106">Header file:</span></span>  <br/> |<span data-ttu-id="03acd-107">Mapiutil</span><span class="sxs-lookup"><span data-stu-id="03acd-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="03acd-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="03acd-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="03acd-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="03acd-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="03acd-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="03acd-110">Called by:</span></span>  <br/> |<span data-ttu-id="03acd-111">客户端应用程序</span><span class="sxs-lookup"><span data-stu-id="03acd-111">Client applications</span></span>  <br/> |
+|<span data-ttu-id="776a3-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="776a3-106">Header file:</span></span>  <br/> |<span data-ttu-id="776a3-107">Mapiutil</span><span class="sxs-lookup"><span data-stu-id="776a3-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="776a3-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="776a3-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="776a3-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="776a3-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="776a3-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="776a3-110">Called by:</span></span>  <br/> |<span data-ttu-id="776a3-111">客户端应用程序</span><span class="sxs-lookup"><span data-stu-id="776a3-111">Client applications</span></span>  <br/> |
    
 ```cpp
 HRESULT HrEntryIDFromSz(
@@ -41,36 +41,36 @@ HRESULT HrEntryIDFromSz(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="03acd-112">参数</span><span class="sxs-lookup"><span data-stu-id="03acd-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="776a3-112">参数</span><span class="sxs-lookup"><span data-stu-id="776a3-112">Parameters</span></span>
 
- <span data-ttu-id="03acd-113">_sz_</span><span class="sxs-lookup"><span data-stu-id="03acd-113">_sz_</span></span>
+ <span data-ttu-id="776a3-113">_sz_</span><span class="sxs-lookup"><span data-stu-id="776a3-113">_sz_</span></span>
   
-> <span data-ttu-id="03acd-114">实时指向从中创建条目标识符的 ASCII 字符串的指针。</span><span class="sxs-lookup"><span data-stu-id="03acd-114">[in] Pointer to the ASCII string from which to create an entry identifier.</span></span> 
+> <span data-ttu-id="776a3-114">实时指向从中创建条目标识符的 ASCII 字符串的指针。</span><span class="sxs-lookup"><span data-stu-id="776a3-114">[in] Pointer to the ASCII string from which to create an entry identifier.</span></span> 
     
- <span data-ttu-id="03acd-115">_pcb_</span><span class="sxs-lookup"><span data-stu-id="03acd-115">_pcb_</span></span>
+ <span data-ttu-id="776a3-115">_pcb_</span><span class="sxs-lookup"><span data-stu-id="776a3-115">_pcb_</span></span>
   
-> <span data-ttu-id="03acd-116">排除指向由_ppentry_参数指向的条目标识符的大小 (以字节为单位) 的指针。</span><span class="sxs-lookup"><span data-stu-id="03acd-116">[out] Pointer to the size, in bytes, of the entry identifier pointed to by the  _ppentry_ parameter.</span></span> 
+> <span data-ttu-id="776a3-116">排除指向由_ppentry_参数指向的条目标识符的大小 (以字节为单位) 的指针。</span><span class="sxs-lookup"><span data-stu-id="776a3-116">[out] Pointer to the size, in bytes, of the entry identifier pointed to by the  _ppentry_ parameter.</span></span> 
     
- <span data-ttu-id="03acd-117">_ppentry_</span><span class="sxs-lookup"><span data-stu-id="03acd-117">_ppentry_</span></span>
+ <span data-ttu-id="776a3-117">_ppentry_</span><span class="sxs-lookup"><span data-stu-id="776a3-117">_ppentry_</span></span>
   
-> <span data-ttu-id="03acd-118">排除指向指向包含新条目标识符的返回[ENTRYID](entryid.md)结构的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="03acd-118">[out] Pointer to a pointer to the returned [ENTRYID](entryid.md) structure that contains the new entry identifier.</span></span> 
+> <span data-ttu-id="776a3-118">排除指向指向包含新条目标识符的返回[ENTRYID](entryid.md)结构的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="776a3-118">[out] Pointer to a pointer to the returned [ENTRYID](entryid.md) structure that contains the new entry identifier.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="03acd-119">返回值</span><span class="sxs-lookup"><span data-stu-id="03acd-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="776a3-119">返回值</span><span class="sxs-lookup"><span data-stu-id="776a3-119">Return value</span></span>
 
-<span data-ttu-id="03acd-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="03acd-120">S_OK</span></span>
+<span data-ttu-id="776a3-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="776a3-120">S_OK</span></span>
   
-> <span data-ttu-id="03acd-121">重新创建成功。</span><span class="sxs-lookup"><span data-stu-id="03acd-121">The recreation was successful.</span></span>
+> <span data-ttu-id="776a3-121">重新创建成功。</span><span class="sxs-lookup"><span data-stu-id="776a3-121">The recreation was successful.</span></span>
     
-<span data-ttu-id="03acd-122">MAPI_E_INVALID_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="03acd-122">MAPI_E_INVALID_ENTRYID</span></span>
+<span data-ttu-id="776a3-122">MAPI_E_INVALID_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="776a3-122">MAPI_E_INVALID_ENTRYID</span></span>
   
-> <span data-ttu-id="03acd-123">条目 ID 无效。</span><span class="sxs-lookup"><span data-stu-id="03acd-123">The entry ID was invalid.</span></span>
+> <span data-ttu-id="776a3-123">条目 ID 无效。</span><span class="sxs-lookup"><span data-stu-id="776a3-123">The entry ID was invalid.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="03acd-124">注解</span><span class="sxs-lookup"><span data-stu-id="03acd-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="776a3-124">说明</span><span class="sxs-lookup"><span data-stu-id="776a3-124">Remarks</span></span>
 
-<span data-ttu-id="03acd-125">**HrEntryIDFromSz**和[HrSzFromEntryID](hrszfromentryid.md)函数提供条目标识符的字符串和二进制格式之间的转换。</span><span class="sxs-lookup"><span data-stu-id="03acd-125">The **HrEntryIDFromSz** and [HrSzFromEntryID](hrszfromentryid.md) functions provide conversion between the string and binary formats of entry identifiers.</span></span> 
+<span data-ttu-id="776a3-125">**HrEntryIDFromSz**和[HrSzFromEntryID](hrszfromentryid.md)函数提供条目标识符的字符串和二进制格式之间的转换。</span><span class="sxs-lookup"><span data-stu-id="776a3-125">The **HrEntryIDFromSz** and [HrSzFromEntryID](hrszfromentryid.md) functions provide conversion between the string and binary formats of entry identifiers.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="03acd-126">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="03acd-126">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="776a3-126">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="776a3-126">Notes to callers</span></span>
 
-<span data-ttu-id="03acd-127">**HrEntryIDFromSz**函数使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数为 ASCII 字符串分配内存。</span><span class="sxs-lookup"><span data-stu-id="03acd-127">The **HrEntryIDFromSz** function allocates memory for the ASCII string using the [MAPIAllocateBuffer](mapiallocatebuffer.md) function.</span></span> 
+<span data-ttu-id="776a3-127">**HrEntryIDFromSz**函数使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数为 ASCII 字符串分配内存。</span><span class="sxs-lookup"><span data-stu-id="776a3-127">The **HrEntryIDFromSz** function allocates memory for the ASCII string using the [MAPIAllocateBuffer](mapiallocatebuffer.md) function.</span></span> 
   
 
