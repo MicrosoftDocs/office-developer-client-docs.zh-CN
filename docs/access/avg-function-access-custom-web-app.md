@@ -7,33 +7,33 @@ localization_priority: Normal
 ms.assetid: d432e823-a255-4860-9c8b-201b2e0476fd
 description: 计算指定字段中包含的一组值的算术平均值。
 ms.openlocfilehash: e67cde12e66f943d3b25fe9cb2fee4fe4aea760f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282332"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426721"
 ---
-# <a name="avg-function-access-custom-web-app"></a><span data-ttu-id="39ce6-103">Avg 函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="39ce6-103">Avg Function (Access custom web app)</span></span>
+# <a name="avg-function-access-custom-web-app"></a><span data-ttu-id="a9700-103">Avg 函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="a9700-103">Avg Function (Access custom web app)</span></span>
 
-<span data-ttu-id="39ce6-104">计算指定字段中包含的一组值的算术平均值。</span><span class="sxs-lookup"><span data-stu-id="39ce6-104">Calculates the arithmetic mean of a set of values contained in a specified field.</span></span>
+<span data-ttu-id="a9700-104">计算指定字段中包含的一组值的算术平均值。</span><span class="sxs-lookup"><span data-stu-id="a9700-104">Calculates the arithmetic mean of a set of values contained in a specified field.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="39ce6-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="39ce6-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="a9700-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="a9700-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="39ce6-107">语法</span><span class="sxs-lookup"><span data-stu-id="39ce6-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a9700-107">语法</span><span class="sxs-lookup"><span data-stu-id="a9700-107">Syntax</span></span>
 
- <span data-ttu-id="39ce6-108">**Avg**(*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="39ce6-108">**Avg** (*NumericExpression*)</span></span> 
+ <span data-ttu-id="a9700-108">**Avg**(*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="a9700-108">**Avg** (*NumericExpression*)</span></span> 
   
-<span data-ttu-id="39ce6-109">**Avg**函数包含以下参数。</span><span class="sxs-lookup"><span data-stu-id="39ce6-109">The **Avg** function contains the following argument.</span></span> 
+<span data-ttu-id="a9700-109">**Avg**函数包含以下参数。</span><span class="sxs-lookup"><span data-stu-id="a9700-109">The **Avg** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="39ce6-110">**参数**</span><span class="sxs-lookup"><span data-stu-id="39ce6-110">**Argument**</span></span>|<span data-ttu-id="39ce6-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="39ce6-111">**Description**</span></span>|
+|<span data-ttu-id="a9700-110">**参数**</span><span class="sxs-lookup"><span data-stu-id="a9700-110">**Argument**</span></span>|<span data-ttu-id="a9700-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="a9700-111">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="39ce6-112">NumericExpression</span><span class="sxs-lookup"><span data-stu-id="39ce6-112">NumericExpression</span></span>  <br/> |<span data-ttu-id="39ce6-113">字符串表达式, 用于标识包含要求平均值的数值数据的字段, 或者是使用该字段中的数据执行计算的表达式。</span><span class="sxs-lookup"><span data-stu-id="39ce6-113">A string expression identifying the field that contains the numeric data you want to average or an expression that performs a calculation using the data in that field.</span></span> <span data-ttu-id="39ce6-114">*NumericExpression*中的操作数可以包括表字段、变量或函数 (可以是固有的或用户定义的函数, 但不能是其他 SQL 聚合函数) 的名称。</span><span class="sxs-lookup"><span data-stu-id="39ce6-114">Operands in  *NumericExpression*  can include the name of a table field, a variable, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).</span></span>  <br/> |
+|<span data-ttu-id="a9700-112">NumericExpression</span><span class="sxs-lookup"><span data-stu-id="a9700-112">NumericExpression</span></span>  <br/> |<span data-ttu-id="a9700-113">字符串表达式, 用于标识包含要求平均值的数值数据的字段, 或者是使用该字段中的数据执行计算的表达式。</span><span class="sxs-lookup"><span data-stu-id="a9700-113">A string expression identifying the field that contains the numeric data you want to average or an expression that performs a calculation using the data in that field.</span></span> <span data-ttu-id="a9700-114">*NumericExpression*中的操作数可以包括表字段、变量或函数 (可以是固有的或用户定义的函数, 但不能是其他 SQL 聚合函数) 的名称。</span><span class="sxs-lookup"><span data-stu-id="a9700-114">Operands in  *NumericExpression*  can include the name of a table field, a variable, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="39ce6-115">注解</span><span class="sxs-lookup"><span data-stu-id="39ce6-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a9700-115">说明</span><span class="sxs-lookup"><span data-stu-id="a9700-115">Remarks</span></span>
 
-<span data-ttu-id="39ce6-p103">使用 **Avg** 计算的平均值是算术平均值（值的总和除以值的数目）。例如，可以使用 **Avg** 计算运费的平均值。</span><span class="sxs-lookup"><span data-stu-id="39ce6-p103">The average calculated by **Avg** is the arithmetic mean (the sum of the values divided by the number of values). You could use **Avg**, for example, to calculate average freight cost.</span></span> 
+<span data-ttu-id="a9700-p103">使用 **Avg** 计算的平均值是算术平均值（值的总和除以值的数目）。例如，可以使用 **Avg** 计算运费的平均值。</span><span class="sxs-lookup"><span data-stu-id="a9700-p103">The average calculated by **Avg** is the arithmetic mean (the sum of the values divided by the number of values). You could use **Avg**, for example, to calculate average freight cost.</span></span> 
   
-<span data-ttu-id="39ce6-118">**Avg**函数不在计算中包含任何**Null**值。</span><span class="sxs-lookup"><span data-stu-id="39ce6-118">The **Avg** function does not include any **Null** values in the calculation.</span></span> 
+<span data-ttu-id="a9700-118">**Avg**函数不在计算中包含任何**Null**值。</span><span class="sxs-lookup"><span data-stu-id="a9700-118">The **Avg** function does not include any **Null** values in the calculation.</span></span> 
   
 
