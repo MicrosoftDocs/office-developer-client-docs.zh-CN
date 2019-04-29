@@ -8,19 +8,19 @@ localization_priority: Normal
 ms.assetid: 31004aec-7bd2-6e12-83eb-1a32da121c54
 description: 按属性值查找帐户。
 ms.openlocfilehash: d09bce88413f85ee3ccc332c3cb88bb545a0ccaf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322076"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428800"
 ---
-# <a name="iolkaccountmanagerfindaccount"></a><span data-ttu-id="ff764-103">IOlkAccountManager::FindAccount</span><span class="sxs-lookup"><span data-stu-id="ff764-103">IOlkAccountManager::FindAccount</span></span>
+# <a name="iolkaccountmanagerfindaccount"></a><span data-ttu-id="eef1e-103">IOlkAccountManager::FindAccount</span><span class="sxs-lookup"><span data-stu-id="eef1e-103">IOlkAccountManager::FindAccount</span></span>
 
-<span data-ttu-id="ff764-104">按属性值查找帐户。</span><span class="sxs-lookup"><span data-stu-id="ff764-104">Finds an account by property value.</span></span>
+<span data-ttu-id="eef1e-104">按属性值查找帐户。</span><span class="sxs-lookup"><span data-stu-id="eef1e-104">Finds an account by property value.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="ff764-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="ff764-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="eef1e-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="eef1e-105">Quick info</span></span>
 
-<span data-ttu-id="ff764-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="ff764-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
+<span data-ttu-id="eef1e-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="eef1e-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccountManager::FindAccount (  
@@ -30,32 +30,32 @@ HRESULT IOlkAccountManager::FindAccount (
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ff764-107">参数</span><span class="sxs-lookup"><span data-stu-id="ff764-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="eef1e-107">参数</span><span class="sxs-lookup"><span data-stu-id="eef1e-107">Parameters</span></span>
 
-<span data-ttu-id="ff764-108">_dwProp_</span><span class="sxs-lookup"><span data-stu-id="ff764-108">_dwProp_</span></span>
+<span data-ttu-id="eef1e-108">_dwProp_</span><span class="sxs-lookup"><span data-stu-id="eef1e-108">_dwProp_</span></span>
   
-> <span data-ttu-id="ff764-109">实时要搜索的属性。</span><span class="sxs-lookup"><span data-stu-id="ff764-109">[in] The property to search on.</span></span> <span data-ttu-id="ff764-110">必须为[PROP_ACCT_ID](prop_acct_id.md)或[PROP_ACCT_IS_EXCH](prop_acct_is_exch.md)。</span><span class="sxs-lookup"><span data-stu-id="ff764-110">Must be [PROP_ACCT_ID](prop_acct_id.md) or [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).</span></span>
+> <span data-ttu-id="eef1e-109">实时要搜索的属性。</span><span class="sxs-lookup"><span data-stu-id="eef1e-109">[in] The property to search on.</span></span> <span data-ttu-id="eef1e-110">必须为[PROP_ACCT_ID](prop_acct_id.md)或[PROP_ACCT_IS_EXCH](prop_acct_is_exch.md)。</span><span class="sxs-lookup"><span data-stu-id="eef1e-110">Must be [PROP_ACCT_ID](prop_acct_id.md) or [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).</span></span>
     
-<span data-ttu-id="ff764-111">_pVar_</span><span class="sxs-lookup"><span data-stu-id="ff764-111">_pVar_</span></span>
+<span data-ttu-id="eef1e-111">_pVar_</span><span class="sxs-lookup"><span data-stu-id="eef1e-111">_pVar_</span></span>
   
-> <span data-ttu-id="ff764-112">实时要匹配的值。</span><span class="sxs-lookup"><span data-stu-id="ff764-112">[in] The value to match.</span></span>
+> <span data-ttu-id="eef1e-112">实时要匹配的值。</span><span class="sxs-lookup"><span data-stu-id="eef1e-112">[in] The value to match.</span></span>
     
-<span data-ttu-id="ff764-113">_ppAccount_</span><span class="sxs-lookup"><span data-stu-id="ff764-113">_ppAccount_</span></span>
+<span data-ttu-id="eef1e-113">_ppAccount_</span><span class="sxs-lookup"><span data-stu-id="eef1e-113">_ppAccount_</span></span>
   
-> <span data-ttu-id="ff764-114">排除找到的帐户。</span><span class="sxs-lookup"><span data-stu-id="ff764-114">[out] The account found.</span></span> <span data-ttu-id="ff764-115">此对象支持[IOlkAccount](iolkaccount.md)接口。</span><span class="sxs-lookup"><span data-stu-id="ff764-115">This object supports an [IOlkAccount](iolkaccount.md) interface.</span></span> 
+> <span data-ttu-id="eef1e-114">排除找到的帐户。</span><span class="sxs-lookup"><span data-stu-id="eef1e-114">[out] The account found.</span></span> <span data-ttu-id="eef1e-115">此对象支持[IOlkAccount](iolkaccount.md)接口。</span><span class="sxs-lookup"><span data-stu-id="eef1e-115">This object supports an [IOlkAccount](iolkaccount.md) interface.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="ff764-116">返回值</span><span class="sxs-lookup"><span data-stu-id="ff764-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="eef1e-116">返回值</span><span class="sxs-lookup"><span data-stu-id="eef1e-116">Return values</span></span>
 
-|<span data-ttu-id="ff764-117">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="ff764-117">**HRESULT**</span></span>|<span data-ttu-id="ff764-118">**说明**</span><span class="sxs-lookup"><span data-stu-id="ff764-118">**Description**</span></span>|
+|<span data-ttu-id="eef1e-117">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="eef1e-117">**HRESULT**</span></span>|<span data-ttu-id="eef1e-118">**说明**</span><span class="sxs-lookup"><span data-stu-id="eef1e-118">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="ff764-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="ff764-119">S_OK</span></span>  <br/> |<span data-ttu-id="ff764-120">调用成功。</span><span class="sxs-lookup"><span data-stu-id="ff764-120">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="ff764-121">E_ACCT_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="ff764-121">E_ACCT_NOT_FOUND</span></span>  <br/> |<span data-ttu-id="ff764-122">找不到指定的帐户。</span><span class="sxs-lookup"><span data-stu-id="ff764-122">The specified account cannot be found.</span></span>  <br/> |
-|<span data-ttu-id="ff764-123">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="ff764-123">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="ff764-124">帐户管理器已初始化，不能使用。</span><span class="sxs-lookup"><span data-stu-id="ff764-124">The account manager has not been initialized for use.</span></span>  <br/> |
-|<span data-ttu-id="ff764-125">E_OLK_PARAM_NOT_SUPPORTED</span><span class="sxs-lookup"><span data-stu-id="ff764-125">E_OLK_PARAM_NOT_SUPPORTED</span></span>  <br/> |<span data-ttu-id="ff764-126">一个或多个参数无效。</span><span class="sxs-lookup"><span data-stu-id="ff764-126">One or more parameters are invalid.</span></span>  <br/> |
+|<span data-ttu-id="eef1e-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="eef1e-119">S_OK</span></span>  <br/> |<span data-ttu-id="eef1e-120">调用成功。</span><span class="sxs-lookup"><span data-stu-id="eef1e-120">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="eef1e-121">E_ACCT_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="eef1e-121">E_ACCT_NOT_FOUND</span></span>  <br/> |<span data-ttu-id="eef1e-122">找不到指定的帐户。</span><span class="sxs-lookup"><span data-stu-id="eef1e-122">The specified account cannot be found.</span></span>  <br/> |
+|<span data-ttu-id="eef1e-123">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="eef1e-123">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="eef1e-124">帐户管理器已初始化，不能使用。</span><span class="sxs-lookup"><span data-stu-id="eef1e-124">The account manager has not been initialized for use.</span></span>  <br/> |
+|<span data-ttu-id="eef1e-125">E_OLK_PARAM_NOT_SUPPORTED</span><span class="sxs-lookup"><span data-stu-id="eef1e-125">E_OLK_PARAM_NOT_SUPPORTED</span></span>  <br/> |<span data-ttu-id="eef1e-126">一个或多个参数无效。</span><span class="sxs-lookup"><span data-stu-id="eef1e-126">One or more parameters are invalid.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="ff764-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ff764-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eef1e-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="eef1e-127">See also</span></span>
 
-- [<span data-ttu-id="ff764-128">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="ff764-128">ACCT_VARIANT</span></span>](acct_variant.md)  
-- [<span data-ttu-id="ff764-129">常量 （帐户管理 API）</span><span class="sxs-lookup"><span data-stu-id="ff764-129">Constants (Account management API)</span></span>](constants-account-management-api.md)  
-- [<span data-ttu-id="ff764-130">IOlkAccountHelper</span><span class="sxs-lookup"><span data-stu-id="ff764-130">IOlkAccountHelper</span></span>](iolkaccounthelper.md)
+- [<span data-ttu-id="eef1e-128">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="eef1e-128">ACCT_VARIANT</span></span>](acct_variant.md)  
+- [<span data-ttu-id="eef1e-129">常量 （帐户管理 API）</span><span class="sxs-lookup"><span data-stu-id="eef1e-129">Constants (Account management API)</span></span>](constants-account-management-api.md)  
+- [<span data-ttu-id="eef1e-130">IOlkAccountHelper</span><span class="sxs-lookup"><span data-stu-id="eef1e-130">IOlkAccountHelper</span></span>](iolkaccounthelper.md)
 
