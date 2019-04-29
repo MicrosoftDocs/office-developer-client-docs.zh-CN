@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 569106ff-440b-4376-9608-afc8d4dba3e4
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7603fbd99f959108b0db8bda000da4cdf2c90f67
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358938"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423452"
 ---
 # <a name="pidtagconvertedeits-canonical-property"></a>PidTagConvertedEits 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32358938"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性指示用于转换邮件的文本组件的编码信息类型 (EITs)。
   

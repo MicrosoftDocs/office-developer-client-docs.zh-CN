@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 75daf9d4-6975-435f-91e5-1b41e0047ab7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 29677ce74f405e8ca03f1639f3d98288532e9653
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287012"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424614"
 ---
 # <a name="iaddrbooksetpab"></a>IAddrBook::SetPAB
 
@@ -50,7 +50,7 @@ S_OK
   
 > 指定的容器已被建立为 PAB。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端和服务提供程序调用**SetPAB**方法, 以将特定容器指定为 PAB。 PAB 是一个容器, 它由从其他容器复制的条目以及新条目组成。 
   

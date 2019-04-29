@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 62d87db9-b8ca-60b6-bf27-5168c718ec96
 description: 确定样式在 Microsoft Visio 用户界面中的显示位置。
 ms.openlocfilehash: 7b3830488770a66d7be35923e1807dbcdcd1f1c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329951"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423242"
 ---
 # <a name="hideforapply-cell-style-properties-section"></a>HideForApply 单元格（“Style Properties”内容）
 
 确定样式在 Microsoft Visio 用户界面中的显示位置。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 仅在 **“绘图资源管理器”** 中显示样式。  <br/> |
 | FALSE  <br/> | 在 **“绘图资源管理器”** 中显示样式。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果您基于某个隐藏的样式创建新样式，则新样式并不会继承此属性。
   

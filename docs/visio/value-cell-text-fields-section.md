@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3ca662c8-1ce4-89a9-3264-1ba533fcd444
 description: 包含域的函数。
 ms.openlocfilehash: d5a09dd0d59341125db897484f74addff22328de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320200"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430943"
 ---
 # <a name="value-cell-text-fields-section"></a>Value 单元格（“Text Fields”内容）
 
 包含域的函数。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您可以使用 **“域”** 对话框（在 **“插入”** 选项卡上的 **“文本”** 组中单击 **“域”**）设置此单元格的值。
   

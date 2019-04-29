@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1524eb06-7492-42de-b455-e0982bda7ece
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 3e68c564357880b623e02081a228e881c084fa94
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351609"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425272"
 ---
 # <a name="ixplogonpoll"></a>IXPLogon::Poll
 
@@ -45,7 +45,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序定期调用**IXPLogon::P oll**方法如果传输提供程序指示它必须通过将 LOGON_SP_POLL 标志传递给[IXPProvider:: TransportLogon](ixpprovider-transportlogon.md)的新邮件进行轮询::会话开始时的方法。 如果传输提供程序指示有一个或多个可供其处理的入站邮件的**轮询**呼叫响应, MAPI 后台处理程序将调用[IXPLogon:: StartMessage](ixplogon-startmessage.md)方法, 以允许提供程序处理第一个入站消息。 传输提供程序通过将_lpulIncoming_参数中的值设置为非零值来指示入站邮件。 
   

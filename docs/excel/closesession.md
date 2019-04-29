@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2c2371c8-b0e0-4992-b7ac-3949eadf1ebe
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 9186fb14c33d507b8c9ae709a67f1b43e6206d5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304135"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422535"
 ---
 # <a name="closesession"></a>CloseSession
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 结束与群集的会话。
   

@@ -11,11 +11,11 @@ api_type:
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: dae31959cddad7ad61ea32f2372ea34bdbff658e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346352"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423704"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>PidTagReportDisposition 规范属性
 
@@ -32,9 +32,9 @@ ms.locfileid: "32346352"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-下面是有效值：
+有效值如下：
   
 - 已
     
