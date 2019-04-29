@@ -13,24 +13,24 @@ api_type:
 ms.assetid: 03e53e08-9113-4101-84c9-ccf6d43127f6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e47f4e0d1ab9ab3ecfd53932b8ef26440134c603
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334816"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407240"
 ---
-# <a name="flatentry"></a><span data-ttu-id="eb4bd-103">FLATENTRY</span><span class="sxs-lookup"><span data-stu-id="eb4bd-103">FLATENTRY</span></span>
+# <a name="flatentry"></a><span data-ttu-id="da2ec-103">FLATENTRY</span><span class="sxs-lookup"><span data-stu-id="da2ec-103">FLATENTRY</span></span>
 
   
   
-<span data-ttu-id="eb4bd-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="eb4bd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="da2ec-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="da2ec-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="eb4bd-105">[entryid](entryid.md)结构加上指定**ENTRYID**结构大小的字节数。</span><span class="sxs-lookup"><span data-stu-id="eb4bd-105">An [ENTRYID](entryid.md) structure plus a byte count that specifies the size of the **ENTRYID** structure.</span></span> 
+<span data-ttu-id="da2ec-105">[entryid](entryid.md)结构加上指定**ENTRYID**结构大小的字节数。</span><span class="sxs-lookup"><span data-stu-id="da2ec-105">An [ENTRYID](entryid.md) structure plus a byte count that specifies the size of the **ENTRYID** structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="eb4bd-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="eb4bd-106">Header file:</span></span>  <br/> |<span data-ttu-id="eb4bd-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="eb4bd-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="eb4bd-108">相关宏:</span><span class="sxs-lookup"><span data-stu-id="eb4bd-108">Related macros:</span></span>  <br/> |<span data-ttu-id="eb4bd-109">[cbFLATENTRY](cbflatentry.md)、 [CbNewFLATENTRY](cbnewflatentry.md)</span><span class="sxs-lookup"><span data-stu-id="eb4bd-109">[cbFLATENTRY](cbflatentry.md), [CbNewFLATENTRY](cbnewflatentry.md)</span></span> <br/> |
+|<span data-ttu-id="da2ec-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="da2ec-106">Header file:</span></span>  <br/> |<span data-ttu-id="da2ec-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="da2ec-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="da2ec-108">相关宏:</span><span class="sxs-lookup"><span data-stu-id="da2ec-108">Related macros:</span></span>  <br/> |<span data-ttu-id="da2ec-109">[cbFLATENTRY](cbflatentry.md)、 [CbNewFLATENTRY](cbnewflatentry.md)</span><span class="sxs-lookup"><span data-stu-id="da2ec-109">[cbFLATENTRY](cbflatentry.md), [CbNewFLATENTRY](cbnewflatentry.md)</span></span> <br/> |
    
 ```cpp
 typedef struct
@@ -41,34 +41,34 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="eb4bd-110">Members</span><span class="sxs-lookup"><span data-stu-id="eb4bd-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="da2ec-110">Members</span><span class="sxs-lookup"><span data-stu-id="da2ec-110">Members</span></span>
 
- <span data-ttu-id="eb4bd-111">**cb**</span><span class="sxs-lookup"><span data-stu-id="eb4bd-111">**cb**</span></span>
+ <span data-ttu-id="da2ec-111">**cb**</span><span class="sxs-lookup"><span data-stu-id="da2ec-111">**cb**</span></span>
   
-> <span data-ttu-id="eb4bd-112">**abEntry**成员中的字节数。</span><span class="sxs-lookup"><span data-stu-id="eb4bd-112">Count of bytes in the **abEntry** member.</span></span> 
+> <span data-ttu-id="da2ec-112">**abEntry**成员中的字节数。</span><span class="sxs-lookup"><span data-stu-id="da2ec-112">Count of bytes in the **abEntry** member.</span></span> 
     
- <span data-ttu-id="eb4bd-113">**abEntry**</span><span class="sxs-lookup"><span data-stu-id="eb4bd-113">**abEntry**</span></span>
+ <span data-ttu-id="da2ec-113">**abEntry**</span><span class="sxs-lookup"><span data-stu-id="da2ec-113">**abEntry**</span></span>
   
-> <span data-ttu-id="eb4bd-114">包含标志和二进制数据数组的完整项标识符。</span><span class="sxs-lookup"><span data-stu-id="eb4bd-114">The complete entry identifier that includes the array of flags and binary data.</span></span>
+> <span data-ttu-id="da2ec-114">包含标志和二进制数据数组的完整项标识符。</span><span class="sxs-lookup"><span data-stu-id="da2ec-114">The complete entry identifier that includes the array of flags and binary data.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="eb4bd-115">注解</span><span class="sxs-lookup"><span data-stu-id="eb4bd-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="da2ec-115">说明</span><span class="sxs-lookup"><span data-stu-id="da2ec-115">Remarks</span></span>
 
-<span data-ttu-id="eb4bd-116">**FLATENTRY**结构类似于[ENTRYID](entryid.md)结构。</span><span class="sxs-lookup"><span data-stu-id="eb4bd-116">A **FLATENTRY** structure resembles an [ENTRYID](entryid.md) structure.</span></span> <span data-ttu-id="eb4bd-117">但是, 存在一些差异:</span><span class="sxs-lookup"><span data-stu-id="eb4bd-117">However, there are some differences:</span></span> 
+<span data-ttu-id="da2ec-116">**FLATENTRY**结构类似于[ENTRYID](entryid.md)结构。</span><span class="sxs-lookup"><span data-stu-id="da2ec-116">A **FLATENTRY** structure resembles an [ENTRYID](entryid.md) structure.</span></span> <span data-ttu-id="da2ec-117">但是, 存在一些差异:</span><span class="sxs-lookup"><span data-stu-id="da2ec-117">However, there are some differences:</span></span> 
   
-- <span data-ttu-id="eb4bd-118">**FLATENTRY**结构存储项标识符的大小;**ENTRYID**不会。</span><span class="sxs-lookup"><span data-stu-id="eb4bd-118">A **FLATENTRY** structure stores the size of the entry identifier; **ENTRYID** does not.</span></span> 
+- <span data-ttu-id="da2ec-118">**FLATENTRY**结构存储项标识符的大小;**ENTRYID**不会。</span><span class="sxs-lookup"><span data-stu-id="da2ec-118">A **FLATENTRY** structure stores the size of the entry identifier; **ENTRYID** does not.</span></span> 
     
-- <span data-ttu-id="eb4bd-119">**FLATENTRY**结构将标志数据与条目标识符的其余部分一起存储;**ENTRYID**单独存储它们。</span><span class="sxs-lookup"><span data-stu-id="eb4bd-119">A **FLATENTRY** structure stores the flag data together with the rest of the entry identifier; **ENTRYID** stores them separately.</span></span> 
+- <span data-ttu-id="da2ec-119">**FLATENTRY**结构将标志数据与条目标识符的其余部分一起存储;**ENTRYID**单独存储它们。</span><span class="sxs-lookup"><span data-stu-id="da2ec-119">A **FLATENTRY** structure stores the flag data together with the rest of the entry identifier; **ENTRYID** stores them separately.</span></span> 
     
-- <span data-ttu-id="eb4bd-120">**FLATENTRY**结构用于将条目标识符存储在文件中或以字节流的方式传递, 而**ENTRYID**结构由[IMAPIProp](imapipropiunknown.md)接口方法和以下**OpenEntry**方法使用: [IABLogon:: OpenEntry](iablogon-openentry.md)、 [IAddrBook:: OpenEntry](iaddrbook-openentry.md)、 [IMAPIContainer:: OpenEntry](imapicontainer-openentry.md)、 [IMAPISession:: OpenEntry](imapisession-openentry.md)、 [IMAPISupport:: OpenEntry](imapisupport-openentry.md)、 [IMsgStore:: OpenEntry](imsgstore-openentry.md)、 [IMSLogon:: OpenEntry](imslogon-openentry.md)</span><span class="sxs-lookup"><span data-stu-id="eb4bd-120">A **FLATENTRY** structure is used to store an entry identifier in a file or pass it in a stream of bytes whereas an **ENTRYID** structure is used by the [IMAPIProp](imapipropiunknown.md) interface methods and by the following **OpenEntry** methods: [IABLogon::OpenEntry](iablogon-openentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), [IMAPISupport::OpenEntry](imapisupport-openentry.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), [IMSLogon::OpenEntry](imslogon-openentry.md)</span></span>
+- <span data-ttu-id="da2ec-120">**FLATENTRY**结构用于将条目标识符存储在文件中或以字节流的方式传递, 而**ENTRYID**结构由[IMAPIProp](imapipropiunknown.md)接口方法和以下**OpenEntry**方法使用: [IABLogon:: OpenEntry](iablogon-openentry.md)、 [IAddrBook:: OpenEntry](iaddrbook-openentry.md)、 [IMAPIContainer:: OpenEntry](imapicontainer-openentry.md)、 [IMAPISession:: OpenEntry](imapisession-openentry.md)、 [IMAPISupport:: OpenEntry](imapisupport-openentry.md)、 [IMsgStore:: OpenEntry](imsgstore-openentry.md)、 [IMSLogon:: OpenEntry](imslogon-openentry.md)</span><span class="sxs-lookup"><span data-stu-id="da2ec-120">A **FLATENTRY** structure is used to store an entry identifier in a file or pass it in a stream of bytes whereas an **ENTRYID** structure is used by the [IMAPIProp](imapipropiunknown.md) interface methods and by the following **OpenEntry** methods: [IABLogon::OpenEntry](iablogon-openentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), [IMAPISupport::OpenEntry](imapisupport-openentry.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), [IMSLogon::OpenEntry](imslogon-openentry.md)</span></span>
     
-- <span data-ttu-id="eb4bd-121">**FLATENTRY**结构用于将条目标识符存储在文件中, 或将其传递到字节流中。</span><span class="sxs-lookup"><span data-stu-id="eb4bd-121">A **FLATENTRY** structure is used to store an entry identifier in a file or pass it in a stream of bytes.</span></span> <span data-ttu-id="eb4bd-122">**ENTRYID**结构用于在磁盘上存储条目标识符。</span><span class="sxs-lookup"><span data-stu-id="eb4bd-122">An **ENTRYID** structure is used to store an entry identifier on disk.</span></span> 
+- <span data-ttu-id="da2ec-121">**FLATENTRY**结构用于将条目标识符存储在文件中, 或将其传递到字节流中。</span><span class="sxs-lookup"><span data-stu-id="da2ec-121">A **FLATENTRY** structure is used to store an entry identifier in a file or pass it in a stream of bytes.</span></span> <span data-ttu-id="da2ec-122">**ENTRYID**结构用于在磁盘上存储条目标识符。</span><span class="sxs-lookup"><span data-stu-id="da2ec-122">An **ENTRYID** structure is used to store an entry identifier on disk.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="eb4bd-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="eb4bd-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="da2ec-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="da2ec-123">See also</span></span>
 
 
 
-[<span data-ttu-id="eb4bd-124">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="eb4bd-124">ENTRYID</span></span>](entryid.md)
+[<span data-ttu-id="da2ec-124">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="da2ec-124">ENTRYID</span></span>](entryid.md)
 
 
-[<span data-ttu-id="eb4bd-125">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="eb4bd-125">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="da2ec-125">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="da2ec-125">MAPI Structures</span></span>](mapi-structures.md)
 
