@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d2c726a3-29b2-491b-9c14-b4523f7f08f2
 description: 返回字符串中指定数量的字符的左侧部分。
 ms.openlocfilehash: 6a2ba6f43701552a2dba2b983f405d4f3d898bad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311100"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424166"
 ---
 # <a name="left-function-access-custom-web-app"></a>Left 函数 (Access 自定义 web 应用程序)
 

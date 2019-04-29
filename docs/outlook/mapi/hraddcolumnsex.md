@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9ca34fb2cce6e86c42e8e9525cd213f1008997d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348368"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427477"
 ---
 # <a name="hraddcolumnsex"></a>HrAddColumnsEx
 
@@ -76,7 +76,7 @@ S_OK
   
 > 调用成功, 并已移动或添加指定的列。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用_lpproptagColumnsNew_参数传递给**HrAddColumnsEx**的属性成为对[IMAPITable:: QueryRows](imapitable-queryrows.md)方法的后续调用中公开的第一个属性。 在表中先前未在_lpproptagColumnsNew_参数中指定的任何属性都将在所有添加和移动的属性之后公开。 
   

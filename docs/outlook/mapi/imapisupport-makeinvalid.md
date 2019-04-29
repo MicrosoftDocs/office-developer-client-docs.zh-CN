@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c630ecaf-b19c-4991-9779-e13cc492c755
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 84e87f8a8d3c419afc4b86e200aeaba57e6a85f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316658"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427491"
 ---
 # <a name="imapisupportmakeinvalid"></a>IMAPISupport::MakeInvalid
 
@@ -60,7 +60,7 @@ S_OK
   
 > 已成功将该对象标记为不可用。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: MakeInvalid**方法是为所有支持对象实现的。 要使其失效的对象必须从**iunknown**接口或从**iunknown**派生的接口派生。
   

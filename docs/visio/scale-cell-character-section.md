@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d6fe2574-b719-f38e-b1f1-592a812f1682
 description: 控制字体宽度。 该单元格的默认值是 100%。
 ms.openlocfilehash: 60e896772ddd1d59e1a1da7f2c0e90893658c624
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341627"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429150"
 ---
 # <a name="scale-cell-character-section"></a>Scale 单元格（“Character”内容）
 
 控制字体宽度。 该单元格的默认值是 100%。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 将百分比设置为介于 1% 和 99% 之间，可减少字体宽度。将百分比设置为介于 101% 和 600% 之间，可增加字体宽度。
   

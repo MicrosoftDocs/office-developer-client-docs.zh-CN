@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 42f4655d-b411-42be-aff6-4521a5b5290b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f8df57579b23ea660f38a0f804b3729d0c73990e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320396"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424999"
 ---
 # <a name="pidtagtransportproviders-canonical-property"></a>PidTagTransportProviders 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32320396"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 不要使用此属性。 它保留供 MAPI 使用。
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 0dddef20-c58e-2306-ab8e-6cac8e159f61
 description: 确定在早于 Visio 2000 的 Visio 版本中插入的域的格式。
 ms.openlocfilehash: 16cefc5f45d6b5f0f677e35bd5d0937d48fb2680
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337140"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426364"
 ---
 # <a name="uiformat-cell-text-fields-section"></a>UIFormat 单元格（“Text Fields”内容）
 
 确定在早于 Visio 2000 的 Visio 版本中插入的域的格式。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此单元格不显示在 ShapeSheet 窗口中。如果需要处理向后兼容问题，例如以 Visio 5.0 版文件格式保存 Visio 2000 版绘图，则使用此单元格。
   

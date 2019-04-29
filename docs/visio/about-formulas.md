@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ec0de3e1-21dc-c5d6-2c2a-d5fef80d89bd
 description: 控制形状动作的关键是编写定义所需行为的公式。您可以编辑某个单元格的公式来更改单元格的值，并因此改变某个特定形状的行为。例如，更改“Shape Transform”内容的 Height 单元格所包含的公式可以改变形状的高度。
 ms.openlocfilehash: e8e1a2b77cc355e930af6f31f0b375dfba321e74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344455"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426259"
 ---
 # <a name="about-formulas"></a>关于公式
 

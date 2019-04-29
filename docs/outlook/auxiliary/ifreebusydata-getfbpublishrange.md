@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1a8bbe0c-17d1-9349-4c63-f257faf4edda
 description: 获取用户的忙/闲数据块枚举的预设时间范围。
 ms.openlocfilehash: 26951ea6a885f8d0e5e6a2fb5bcf9a63069c7f44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317526"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430075"
 ---
 # <a name="ifreebusydatagetfbpublishrange"></a>IFreeBusyData::GetFBPublishRange
 
@@ -44,7 +44,7 @@ _prtmEnd_
 
 如果该调用成功，则返回 S_OK否则为一个错误代码。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 忙/闲提供程序调用[IFreeBusyData:: EnumBlocks](ifreebusydata-enumblocks.md)或[IFreeBusyData:: SetFBRange](ifreebusydata-setfbrange.md)设置枚举的时间范围。 如果尚未调用[IFreeBusyData:: EnumBlocks](ifreebusydata-enumblocks.md)或[IFreeBusyData:: SetFBRange](ifreebusydata-setfbrange.md) , **prtmStart**和**prtmEnd**的默认值必须设置介于 1601 00:00: 00Z 和8月31日 4500 11:59: 59Z 之间的默认值。分别. 此外, 不应将开始时间设置为大于结束时间。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 031b7e18-59b2-445c-a747-348fda92f458
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ab1586696a4b72aa9e88545c2069c3f8b5d22d72
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280045"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429626"
 ---
 # <a name="notifkey"></a>NOTIFKEY
 
@@ -50,7 +50,7 @@ typedef struct
   
 > 描述通知密钥的字节数组。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 [IMAPISupport](imapisupportiunknown.md)的[订阅](imapisupport-subscribe.md)和[通知](imapisupport-notify.md)方法使用**NOTIFKEY**结构向相应的建议接收器生成有关相应的建议源的通知。 
   

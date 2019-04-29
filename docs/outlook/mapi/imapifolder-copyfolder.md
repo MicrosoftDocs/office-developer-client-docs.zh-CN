@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2c1c25c6-1aec-4d9e-a2a3-bf1b4a2908b8
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3d9c1e88b12baf50593212a3ae3c02907ce6617b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280176"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425657"
 ---
 # <a name="imapifoldercopyfolder"></a>IMAPIFolder::CopyFolder
 
@@ -120,7 +120,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 呼叫成功, 但未成功复制所有条目。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFolder:: CopyFolder**方法将子文件夹从一个位置复制或移动到另一个位置。 要复制或移动的子文件夹作为子文件夹添加到目标文件夹中。 
   
@@ -134,7 +134,7 @@ MAPI_W_PARTIAL_COMPLETION
 
 在下列情况下, 需要这些返回值。
   
-|**Condition**|**返回值**|
+|**条件**|**返回值**|
 |:-----|:-----|
 |**CopyFolder**已成功复制或移动每个邮件和子文件夹。  <br/> |S_OK  <br/> |
 |**CopyFolder**无法成功复制或移动每个邮件和子文件夹。  <br/> |MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND  <br/> |

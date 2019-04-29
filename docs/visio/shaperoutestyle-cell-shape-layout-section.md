@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a5dcd2e0-e343-5ee2-2b63-2a1312437901
 description: 确定绘图页上所选连接线的排列样式和方向。
 ms.openlocfilehash: e5725d461a71dad4623161d99134a20250abe724
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326521"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425027"
 ---
 # <a name="shaperoutestyle-cell-shape-layout-section"></a>ShapeRouteStyle 单元格（“Shape Layout”内容）
 
@@ -32,13 +32,13 @@ ms.locfileid: "32326521"
 |步  <br/> |树  <br/> |从上到下  <br/> |**visLORouteTreeNS** <br/> |
 |utf-8  <br/> |树  <br/> |从左到右  <br/> |**visLORouteTreeWE** <br/> |
 |第  <br/> |网络  <br/> |无  <br/> |**visLORouteNetwork** <br/> |
-|10  <br/> |组织结构图  <br/> |从下到上  <br/> |**visLORouteOrgChartSN** <br/> |
-|11x17  <br/> |组织结构图  <br/> |从右到左  <br/> |**visLORouteOrgChartEW** <br/> |
-|12  <br/> |流程图  <br/> |从下到上  <br/> |**visLORouteFlowchartSN** <br/> |
-|13  <br/> |流程图  <br/> |从右到左  <br/> |**visLORouteFlowchartEW** <br/> |
-|日  <br/> |树  <br/> |从下到上  <br/> |**visLORouteTreeSN** <br/> |
-|个  <br/> |树  <br/> |从右到左  <br/> |**visLORouteTreeEW** <br/> |
-|位  <br/> |从中心到中心  <br/> |无  <br/> |**visLORouteCenterToCenter** <br/> |
+|10   <br/> |组织结构图  <br/> |从下到上  <br/> |**visLORouteOrgChartSN** <br/> |
+|11   <br/> |组织结构图  <br/> |从右到左  <br/> |**visLORouteOrgChartEW** <br/> |
+|12   <br/> |流程图  <br/> |从下到上  <br/> |**visLORouteFlowchartSN** <br/> |
+|13   <br/> |流程图  <br/> |从右到左  <br/> |**visLORouteFlowchartEW** <br/> |
+|14   <br/> |树  <br/> |从下到上  <br/> |**visLORouteTreeSN** <br/> |
+|15   <br/> |树  <br/> |从右到左  <br/> |**visLORouteTreeEW** <br/> |
+|16   <br/> |从中心到中心  <br/> |无  <br/> |**visLORouteCenterToCenter** <br/> |
 |×  <br/> |简单  <br/> |从上到下  <br/> |**visLORouteSimpleNS** <br/> |
 |18  <br/> |简单  <br/> |从左到右  <br/> |**visLORouteSimpleWE** <br/> |
 |合  <br/> |简单  <br/> |从下到上  <br/> |**visLORouteSimpleSN** <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "32326521"
 |不足  <br/> |简单水平 - 垂直  <br/> |无  <br/> |**visLORouteSimpleHV** <br/> |
 |22  <br/> |简单垂直 - 水平  <br/> |无  <br/> |**visLORouteSimpleVH** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以为 "**操作**" 对话框中的 "**连接线**" 选项卡上的特定连接线设置此单元格的值 (选定某个连接器后, 在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上单击 "**行为**", 然后单击 "**连接器**" 选项卡)。 
   

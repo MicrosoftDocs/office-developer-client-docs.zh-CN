@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 56430658-a798-c004-b4ba-363443f43ded
 description: 错误值显示在含有该单元格的错误公式的单元格中。
 ms.openlocfilehash: 5219becdd1af888e424a2fe33faa7df5a06f61fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332604"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423865"
 ---
 # <a name="about-error-values"></a>关于错误值
 

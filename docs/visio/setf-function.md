@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: fcf415c1-171f-b75f-6e40-2bbdbe8b1cfb
 description: 设置单元格的公式。
 ms.openlocfilehash: 63050de92394ebbdce6cfe053e15347ca3ce5c7f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325835"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425972"
 ---
 # <a name="setf-function"></a>SETF 函数
 
@@ -31,7 +31,7 @@ SETF (GETREF (* * *cell* * *), * * *formula* * *)
 | _单元_ <br/> |必需  <br/> |**String** <br/> |要设置其公式的单元格。  <br/> |
 | _formula_ <br/> |必需  <br/> |**String** <br/> |要使用的公式。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 当计算时, _formula_中表达式的结果将成为_单元格中_的新公式。 如果将_formula_括在引号中, 则会将引用的表达式写入_单元格_。 若要将_单元格_设置为字符串, 请将_公式_括在三个引号中。 
   

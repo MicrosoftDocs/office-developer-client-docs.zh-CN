@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bfbbbb76-796a-4ee8-8410-0d17edb349b5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 87c8ab6a06d830d9d509c1dd1c6f5af1a0de654b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358591"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425545"
 ---
 # <a name="pidtaginternetlines-canonical-property"></a>PidTagInternetLines 规范属性
 

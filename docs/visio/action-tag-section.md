@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a05d668f-70c9-b6fa-cac1-462af37b4f8f
 description: 包含与为形状或页定义的每个动作标记相对应的行。
 ms.openlocfilehash: e8d8307abe14058be27e805a191243db8002b4c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283035"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430950"
 ---
 # <a name="action-tag-section"></a>"操作标记" 部分
 
@@ -23,7 +23,7 @@ ms.locfileid: "32283035"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **操作标记**部分控制动作标签在绘图中的外观和位置。 使用**TagName**单元格, 您可以将每个操作标记与 "操作" 部分中的一行或多行相关联, 其中显示在操作标记菜单上的菜单项已定义。 
   

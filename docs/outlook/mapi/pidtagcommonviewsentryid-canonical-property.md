@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cd9e6a46-2112-4663-891e-5e57b22c0950
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e22b8905901f16606614ac918896f3afe0093752
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331743"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437341"
 ---
 # <a name="pidtagcommonviewsentryid-canonical-property"></a>PidTagCommonViewsEntryId 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32331743"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Outlook 应用程序  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 公共视图文件夹包含一组预定义的标准视图说明符, 而 view 文件夹包含由邮件用户定义的说明符。 这些文件夹在人际邮件 (IPM) 层次结构中不可见, 可以包含多个视图说明符, 每个都存储为一条消息。 客户端应用程序可以选择合并两组说明符, 并使它们都可用。 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: bbdb2dea-4f75-b73e-a98a-0031f34dff2c
 description: 返回对包含形状的指定容器的工作表引用。
 ms.openlocfilehash: 473d8c0b81ecc568c1d4f3a3b3a885e1ceb4e00d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318982"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437264"
 ---
 # <a name="containersheetref-function"></a>CONTAINERSHEETREF 函数
 
@@ -38,7 +38,7 @@ CONTAINERSHEETREF (* * *index* * * * * *[, category]* * *)
 
 ShapeSheet 参考
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 根据容器从前向后的 Z 顺序计算容器的索引。
   
