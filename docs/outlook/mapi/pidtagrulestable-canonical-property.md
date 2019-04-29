@@ -11,11 +11,11 @@ api_type:
 ms.assetid: fc520720-8190-4dff-8f6c-1bebf7080b57
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e1c670cd566e838104ae3d5480c2297f8632d899
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348557"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428499"
 ---
 # <a name="pidtagrulestable-canonical-property"></a>PidTagRulesTable 规范属性
 
@@ -32,7 +32,7 @@ ms.locfileid: "32348557"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性存在于具有规则的 Exchange 服务器上的所有 folder 对象上。 此属性中包含的值用于读取和修改规则。 可以将[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法与**IID_IExchangeModifyTable**接口标识符一起使用, 以获取指向文件夹中的 rules 表的[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)接口。 您可以使用此接口读取和修改这些规则。 
   

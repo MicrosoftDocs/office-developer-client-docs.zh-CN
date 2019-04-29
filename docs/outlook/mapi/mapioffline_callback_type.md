@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 1bafd92e-e044-c902-4fd0-df432bae777d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: f81d82a8f7336e682c4f91546ac3916810650b92
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357181"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407779"
 ---
 # <a name="mapiofflinecallbacktype"></a>MAPIOFFLINE_CALLBACK_TYPE
 

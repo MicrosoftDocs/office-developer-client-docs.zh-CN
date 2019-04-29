@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7845238722ce81b84210b6f4fc33f9df0abacc07
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349292"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412021"
 ---
 # <a name="imapicontainergetsearchcriteria"></a>IMAPIContainer::GetSearchCriteria
 
@@ -88,7 +88,7 @@ MAPI_E_NOT_INITIALIZED
   
 > 从不为容器建立搜索条件。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIContainer:: GetSearchCriteria**方法获取支持搜索的容器的搜索条件, 通常是搜索结果文件夹。 通过调用容器的**IMAPIContainer:: SetSearchCriteria**方法来创建搜索条件。 
   

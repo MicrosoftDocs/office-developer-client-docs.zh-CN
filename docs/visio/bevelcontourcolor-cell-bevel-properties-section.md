@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 90bc9be5-282e-4a84-9d8b-e11788070768
 description: 确定棱台的颜色的 RGB 值的颜色或由活动主题确定的颜色。
 ms.openlocfilehash: df22f001dc7fa85e192ab93d5ff799a0b424aefe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327144"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428380"
 ---
 # <a name="bevelcontourcolor-cell-bevel-properties-section"></a>BevelContourColor 单元格 ("棱台属性" 部分)
 
 确定棱台的颜色的 RGB 值的颜色或由活动主题确定的颜色。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**BevelContourColor**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

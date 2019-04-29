@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
 description: 保存对指定帐户所做的更改。
 ms.openlocfilehash: dbb1dffa1725e96bd2ab635341718ce53738b864
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322020"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429605"
 ---
 # <a name="iolkaccountmanagersavechanges"></a>IOlkAccountManager::SaveChanges
 
@@ -47,7 +47,7 @@ _dwFlags_
 |E_ACCT_NOT_FOUND  <br/> |找不到指定的帐户。  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |帐户管理器已初始化，不能使用。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用[IOlkAccount:: SetProp](iolkaccount-setprop.md)更改 account 属性的值后, 请使用**IOlkAccountManager:: savechanges**或[IOlkAccount:: savechanges](iolkaccount-savechanges.md)保存此类更改。 
   

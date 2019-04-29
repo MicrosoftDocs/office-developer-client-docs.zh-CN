@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
 description: 向帐户管理员注册客户端, 以获取有关所有帐户的通知。
 ms.openlocfilehash: 5460d55d906d382ce40ecd3fd9277cf370295680
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322195"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427708"
 ---
 # <a name="iolkaccountmanageradvise"></a>IOlkAccountManager::Advise
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 77777dd4-5a2c-4048-9ea4-9bd876862963
 description: 包含相对于形状的宽度和高度的三次方贝塞尔曲线终结点的 x 坐标和 y 坐标、曲线相对形状的宽度和高度起始控制点的 x 坐标和 y 坐标以及 contro 的 x 坐标和 y 坐标。曲线相对形状的宽度和高度的结束点。
 ms.openlocfilehash: cb886706c4c5cbb3488a95b57dcc84e0e45ee326
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320032"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430327"
 ---
 # <a name="relcubbezto-row-geometry-section"></a>RelCubBezTo 行 ("Geometry" 部分)
 
@@ -23,7 +23,7 @@ ms.locfileid: "32320032"
   
 **RelCubBezTo**行包含以下单元格。 
   
-|**Cell**|**Description**|
+|**单元格**|**说明**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |一条立方贝塞尔曲线终顶点相对于形状宽度的*x*坐标。  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |一条立方贝塞尔曲线终顶点的*y*坐标 (相对于形状的高度)。  <br/> |

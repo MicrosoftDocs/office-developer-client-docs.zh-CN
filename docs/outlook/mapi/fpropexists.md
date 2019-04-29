@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7190065c687524302bae362a2e25d3848e17d1bc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327270"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429486"
 ---
 # <a name="fpropexists"></a>FPropExists
 
@@ -60,7 +60,7 @@ FALSE
   
 > 找不到给定属性标记的匹配项。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果_ulPropTag_参数中的属性标记具有类型 PT_UNSPECIFIED, 则**FPropExists**函数将基于属性标识符查找匹配项。 否则, 将对整个属性标记 (包括类型) 进行匹配。 
   

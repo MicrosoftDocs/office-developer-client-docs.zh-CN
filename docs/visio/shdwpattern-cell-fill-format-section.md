@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: eca73b80-9835-9011-1dce-187ccee92e76
 description: 确定某一形状的阴影的填充图案。
 ms.openlocfilehash: c2591fbc9f208b1bf9c7d0c85e6de765cd9825f6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349040"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427610"
 ---
 # <a name="shdwpattern-cell-fill-format-section"></a>ShdwPattern 单元格（“Fill Format”内容）
 
 确定某一形状的阴影的填充图案。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |无（透明填充）  <br/> |
 |1  <br/> |前景纯色  <br/> |
 |2 - 40  <br/> |各种类型的图案  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要设置填充图案，请输入一个介于 0 和 40 之间的数字，该数字是图案集合中的索引。您可以在 **“填充”** 对话框（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“填充”**，然后单击 **“填充选项”**）中查看填充图案集合。
   

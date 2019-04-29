@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 38391818-21c9-9450-2ed1-11cc1d862310
 description: 指示文档的默认语言。
 ms.openlocfilehash: 1a4f9f353821c0b336d0a9a53b8f42b4f4abb0e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332702"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430068"
 ---
 # <a name="doclangid-cell-document-properties-section"></a>DocLangID 单元格（“Document Properties”内容）
 
 指示文档的默认语言。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 文档语言基于**Microsoft Office 语言首选项**对话框中定义的语言。 (依次单击 "**开始**"、"**所有程序**"、" **microsoft office**"、" **microsoft office 工具**" 和 " **microsoft office 语言首选项**"。
   
@@ -28,7 +28,7 @@ ms.locfileid: "32332702"
   
 下表列出了语言及其对应的 LCID。
   
-|**Language**|**LCID**|
+|**语言**|**LCID**|
 |:-----|:-----|
 |南非荷兰语  <br/> |1078  <br/> |
 |阿尔巴尼亚语  <br/> |1052  <br/> |

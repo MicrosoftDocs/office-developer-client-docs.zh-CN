@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f60c65e3-b55f-cb68-746e-d0a8cd862d4d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 042216df309e98f35ed0ad71742e46300ebb06da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342579"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428646"
 ---
 # <a name="gender"></a>Gender
 

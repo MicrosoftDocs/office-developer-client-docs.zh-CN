@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9e3c8d6e-74be-46a7-94ed-74a969caf165
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 302aebd0be78c833acf4f82d2bb815ba46ae6f77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317388"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412140"
 ---
 # <a name="imsgserviceadmingetlasterror"></a>IMsgServiceAdmin::GetLastError
 
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置了 MAPI_UNICODE 标志, 但邮件服务管理对象不支持 UNICODE。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgServiceAdmin:: GetLastError**方法检索[IMsgServiceAdmin](imsgserviceadminiunknown.md)方法调用返回的上一个错误的相关信息。 通过在对话框中包含此信息, 客户端可以向其用户提供有关错误的详细信息。 
   

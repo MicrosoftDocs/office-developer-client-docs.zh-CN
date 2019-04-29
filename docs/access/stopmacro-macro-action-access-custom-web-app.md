@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: af28534b-6f0d-43ee-ae89-ee2f85da1af1
 description: 您可以使用 StopMacro 操作来停止当前正在运行的宏。
 ms.openlocfilehash: 8b80422a297647d556fb4b20cc15fb93e8853466
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311016"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429493"
 ---
 # <a name="stopmacro-macro-action-access-custom-web-app"></a>StopMacro 宏操作 (Access 自定义 web 应用程序)
 
@@ -25,7 +25,7 @@ ms.locfileid: "32311016"
 
 **StopMacro**操作不具有任何参数。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通常在条件导致需要停止宏时使用此操作。 例如, 您可以创建一个用户界面 (UI) 宏, 该宏打开一个显示当前视图中输入日期的每日订单总数的视图。 您可以使用条件表达式, 以确保对话框上的 "排序日期" 控件包含有效的日期。 如果不是这样, 则**MessageBox**操作可以显示一条错误消息, 并且**StopMacro**操作可以停止 UI 宏。 
   

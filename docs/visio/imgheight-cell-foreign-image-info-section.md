@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: decb86a4-b711-35e1-b9dc-744a84ee177c
 description: 确定对象的图像在其边框内的高度。 默认公式为：
 ms.openlocfilehash: 956bc478604fd19d8dfdbb7079e092e9e8a16e7b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344931"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411195"
 ---
 # <a name="imgheight-cell-foreign-image-info-section"></a>ImgHeight 单元格（“Foreign Image Info”内容）
 
@@ -22,7 +22,7 @@ ms.locfileid: "32344931"
   
 = Height \* 1
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ImgHeight 单元格的引用，请使用： 
   

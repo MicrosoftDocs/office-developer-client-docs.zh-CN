@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: cd1bf05a-30df-436f-856b-d5280c20b694
 description: 表示常规 Internet 邮箱的服务器名称。
 ms.openlocfilehash: fa0ac96249b600b4e42f85a205870a15bd0f700c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327536"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417600"
 ---
 # <a name="propinetserver"></a>PROP_INET_SERVER
 

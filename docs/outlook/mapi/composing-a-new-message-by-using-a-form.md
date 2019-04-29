@@ -9,11 +9,11 @@ api_type:
 ms.assetid: c92181c4-79ca-4310-8bf1-2bc335c8e0cd
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 1c5ba8631ba39309b7131440f04564f80b5dbb57
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335124"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412798"
 ---
 # <a name="composing-a-new-message-by-using-a-form"></a>使用表单撰写新邮件
 

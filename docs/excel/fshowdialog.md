@@ -10,17 +10,17 @@ keywords:
 - fshowdialog 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 6122e4b99c69cd1bd878c9267ff85f59d0f61998
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310848"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433589"
 ---
 # <a name="fshowdialog"></a>fShowDialog
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 示例: 加载并显示 "本机 Windows" 对话框的示例用户定义命令。 当加载了 generic xll 时, 它将创建一个用户定义的菜单 (通用), 通过该菜单可访问此命令。
   
@@ -36,7 +36,7 @@ int WINAPI fShowDialog(void);
 
 函数返回整数零以指示成功完成
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 显示 "本机 Windows" 对话框的步骤如下所示:
   

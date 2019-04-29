@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e593e95d-f975-481d-69cd-619049d4427d
 description: 包含此动作所关联的动作标记的名称。
 ms.openlocfilehash: e7bf5db940934d168ac2adb86d05b0374b0fd265
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332387"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412714"
 ---
 # <a name="tagname-cell-actions-section"></a>TagName 单元格（“Actions”内容）
 
@@ -23,7 +23,7 @@ ms.locfileid: "32332387"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 “Actions”内容中的 TagName 单元格与“Action Tags”内容中的 TagName 单元格结合使用，可以将某个动作标记与其动作相关联。 
   

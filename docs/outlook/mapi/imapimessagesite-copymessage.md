@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d4e18483-409a-4d81-91dc-f4aec29a82bb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: aeb8b090997bd0c4f51f872b36d6520547846f7f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321544"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429998"
 ---
 # <a name="imapimessagesitecopymessage"></a>IMAPIMessageSite::CopyMessage
 
@@ -49,7 +49,7 @@ MAPI_E_NO_SUPPORT
   
 > 此邮件网站不支持该操作。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单对象调用**IMAPIMessageSite:: CopyMessage**方法将当前邮件复制到新文件夹。 **CopyMessage**不会更改当前向用户显示的邮件, 并且不会将新创建的邮件的任何界面返回到表单。 
   

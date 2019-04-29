@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
 description: 表示形状的旋转中心点 (旋转中心) 相对于形状原点的 y 轴坐标值。 确定 LocPinY 的默认公式为：
 ms.openlocfilehash: e65bfec8fdcf2be1ee92c23b7afcb183c95ea9fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358042"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410593"
 ---
 # <a name="locpiny-cell-shape-transform-section"></a>LocPinY 单元格（“Shape Transform”内容）
 
@@ -22,7 +22,7 @@ ms.locfileid: "32358042"
   
 = 高度\* 0。5
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LocPinY 单元格的引用，请使用： 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3f66f513cc16bc479dd24c53804d751a396141f4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351413"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430607"
 ---
 # <a name="scommentrestriction"></a>SCommentRestriction
 
@@ -55,7 +55,7 @@ typedef struct _SCommentRestriction
   
 > 指向[SPropValue](spropvalue.md)结构的数组的指针, 其中每个都包含命名属性的属性标记和值。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SCommentRestriction**结构将对象与一组命名属性相关联。 注释限制与其他限制不同, 因为它们不会进行评估。 即, [IMAPITable:: Restrict](imapitable-restrict.md)方法将忽略它们。 对 imapitable:: [QueryRows](imapitable-queryrows.md)方法返回的行在**imapitable:: Restrict**调用之后不会有任何影响。 
   

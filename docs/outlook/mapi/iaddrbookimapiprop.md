@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: da71e9dd5f2fc20bb1daf528f4466ea29507bf06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341375"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429822"
 ---
 # <a name="iaddrbook--imapiprop"></a>IAddrBook : IMAPIProp
 
@@ -48,8 +48,8 @@ ms.locfileid: "32341375"
 |[CreateOneOff](iaddrbook-createoneoff.md) <br/> |为一次性地址创建条目标识符。  <br/> |
 |[NewEntry](iaddrbook-newentry.md) <br/> |将新的收件人添加到通讯簿容器或传出邮件的收件人列表中。  <br/> |
 |[ResolveName](iaddrbook-resolvename.md) <br/> |执行名称解析, 将条目标识符分配给收件人列表中的收件人。  <br/> |
-|[Address](iaddrbook-address.md) <br/> |显示 "Outlook 通讯簿" 对话框。  <br/> |
-|[Details](iaddrbook-details.md) <br/> |显示一个对话框, 显示有关特定通讯簿条目的详细信息。  <br/> |
+|[地址](iaddrbook-address.md) <br/> |显示 "Outlook 通讯簿" 对话框。  <br/> |
+|[详细信息](iaddrbook-details.md) <br/> |显示一个对话框, 显示有关特定通讯簿条目的详细信息。  <br/> |
 |**RecipOptions** <br/> | *不支持或记录。*  <br/> |
 |**QueryDefaultRecipOpt** <br/> | *不支持或记录。*  <br/> |
 |[GetPAB](iaddrbook-getpab.md) <br/> |返回指定为 "个人通讯簿" (PAB) 的容器的条目标识符。  <br/> |

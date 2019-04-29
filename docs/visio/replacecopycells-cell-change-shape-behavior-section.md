@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 2f36aefd-da49-47ea-9b90-2fa1a2298849
 description: 指示在形状替换操作过程中从一个旧形状复制到替换形状的 ShapeSheet 中的单元格列表。
 ms.openlocfilehash: f2a7908a623c861d0284821b2d8ae5fc71690685
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320172"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409340"
 ---
 # <a name="replacecopycells-cell-change-shape-behavior-section"></a>ReplaceCopyCells 单元格 ("更改形状行为" 部分)
 
 指示在形状替换操作过程中从一个旧形状复制到替换形状的 ShapeSheet 中的单元格列表。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 替换的主控形状必须包含**ReplaceCopyCells**单元格中的**DEPENDSON**函数调用, 其中函数中的每个参数都是对单元格的引用。 将这些单元格从旧形状复制到形状替换操作产生的形状, 而不考虑它们在 ShapeSheet 中的位置。 
   

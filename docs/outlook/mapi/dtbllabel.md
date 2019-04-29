@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5837facf-acd3-48fe-9610-f88085d99aef
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: aa3345740c534b5ff156f062e731c98bc6164eed
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287158"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410684"
 ---
 # <a name="dtbllabel"></a>DTBLLABEL
 
@@ -55,7 +55,7 @@ MAPI_UNICODE
   
 > 标签采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则标签将采用 ANSI 格式。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **DTBLLABEL**结构描述了与另一种类型的控件一起显示的标签控件文本, 以向该控件添加含义。 例如, 大多数编辑控件放置在标签旁边, 以通知用户要输入的信息类型。 某些控件 (如分组框和单选按钮) 包含自己的标签。 
   

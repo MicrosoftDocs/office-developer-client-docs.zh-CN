@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5ae3fdf0-6193-4c1f-bd2e-d69c56d69773
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: c142424bb050ae287f54a87ea8a5e0ea45acb12c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351203"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411615"
 ---
 # <a name="imapifoldersavecontentssort"></a>IMAPIFolder::SaveContentsSort
 
@@ -58,7 +58,7 @@ MAPI_E_NO_SUPPORT
   
 > 邮件存储区提供程序不支持保存其文件夹内容表的排序顺序。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFolder:: SaveContentsSort**方法为文件夹的内容表建立默认的排序顺序。 也就是说, 当客户端在代码调用**SaveContentsSort**后调用文件夹的[IMAPIContainer:: GetContentsTable](imapicontainer-getcontentstable.md)方法时, 返回的内容表中的行将按**SaveContentsSort**建立的顺序显示。
   

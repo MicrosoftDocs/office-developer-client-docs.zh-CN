@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: ae05de63-b527-66e6-2c79-056c9c92ec95
 description: 锁定来自其他程序的对象，防止它被“剪裁”工具剪裁。
 ms.openlocfilehash: bfb8bebd50908387fa3f94a8ca228935ef709133
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359624"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411853"
 ---
 # <a name="lockcrop-cell-protection-section"></a>LockCrop 单元格（“Protection”内容）
 
 锁定来自其他程序的对象，防止它被 **“剪裁”** 工具剪裁。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 不能剪裁形状  <br/> |
 | FALSE  <br/> | 能够剪裁形状。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LockCrop 单元格的引用，请使用： 
   

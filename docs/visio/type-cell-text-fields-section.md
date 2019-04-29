@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 69d64520-9a47-07ca-09c7-d1e5da620348
 description: 指定文本域值的数据类型。
 ms.openlocfilehash: 91a2d60133d9a39e152656558f168742a5409883
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358924"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407982"
 ---
 # <a name="type-cell-text-fields-section"></a>Type 单元格（“Text Fields”内容）
 
 指定文本域值的数据类型。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |字符串。  <br/> |
 |双面  <br/> |数字。包括日期、时间、持续时间和货币值，以及标量、尺寸和角度。在 Format 单元格中指定格式图片。  <br/> |
@@ -28,7 +28,7 @@ ms.locfileid: "32358924"
 |型  <br/> |持续时间值。显示已经过去的时间。在 Format 单元格中指定格式图片。  <br/> |
 |步  <br/> |货币值。使用系统的当前“区域设置”。在 Format 单元格中指定格式图片。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以使用 "**域**" 对话框 (在选定形状的情况下, 在 "**插入**" 选项卡上的 "**文本**" 组中, 单击 "**域**") 设置此单元格的值。 
   

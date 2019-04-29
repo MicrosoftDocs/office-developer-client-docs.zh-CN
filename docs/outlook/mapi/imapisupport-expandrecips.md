@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 78edd549-d557-489a-85f5-adfb5c44a7d4
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 105219fe430cd8746c3aa6cf5cd90629d5f72080
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316525"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411244"
 ---
 # <a name="imapisupportexpandrecips"></a>IMAPISupport::ExpandRecips
 
@@ -58,7 +58,7 @@ S_OK
   
 > 已成功处理邮件的收件人列表。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为邮件存储提供程序支持对象实现了**IMAPISupport:: ExpandRecips**方法。 邮件存储提供程序调用**ExpandRecips**以提示 MAPI 执行以下任务: 
   

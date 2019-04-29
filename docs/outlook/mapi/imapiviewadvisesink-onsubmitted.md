@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a2401662-1ddc-40d8-a5a7-ceca24442bd4
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: ebde06d0d22320ecb5edb633cf8d04aaeec2a841
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351168"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433981"
 ---
 # <a name="imapiviewadvisesinkonsubmitted"></a>IMAPIViewAdviseSink::OnSubmitted
 
@@ -41,7 +41,7 @@ S_OK
   
 > 通知已成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在对[IMAPIMessageSite:: SubmitMessage](imapimessagesite-submitmessage.md)的调用成功返回后, form 对象调用**IMAPIViewAdviseSink:: OnSubmitted**方法。 
   

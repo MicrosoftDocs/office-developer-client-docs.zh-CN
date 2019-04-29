@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 144dd06f-7225-57db-fd19-a58d6bccf0e1
 description: 用于输入和测试可由其他单元格引用的公式的工作区。
 ms.openlocfilehash: a7d2c6762e96fc19986521c2ba164666b925c928
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344525"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411601"
 ---
 # <a name="scratch-section"></a>“Scratch”内容
 
 用于输入和测试可由其他单元格引用的公式的工作区。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以使用 **“插入内容”** 对话框添加此内容。方法是：在 ShapeSheet 窗口中单击右键，然后单击 **“插入内容”**。
   
@@ -32,7 +32,7 @@ ms.locfileid: "32344525"
   
 例如, Visio 以这三种`PNT(3,4)`方式提取公式。 
   
-|**Cell**|**输入值**|**Visio 处理方式**|**结果**|
+|**单元格**|**输入值**|**Visio 处理方式**|**结果**|
 |:-----|:-----|:-----|:-----|
 | X  <br/> | `PNT(3,4)` <br/> | `PNTX(PNT(3,4))` <br/> | 3.0000 in.  <br/> |
 | Y  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4.0000 in.  <br/> |

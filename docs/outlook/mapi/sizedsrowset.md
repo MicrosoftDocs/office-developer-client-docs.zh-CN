@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 419e2c6d-ac3b-46c6-9a12-33f51f6d7f12
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cb1e19a3f3703dc4943a5f6c322f1c8b429da5fa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282640"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410929"
 ---
 # <a name="sizedsrowset"></a>SizedSRowSet
 
@@ -44,7 +44,7 @@ __名称_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要使用作为指向**SRowSet**结构的指针的**SizedSRowSet**宏生成的新结构, 请执行以下转换: 
   

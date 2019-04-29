@@ -13,11 +13,11 @@ api_type:
 ms.assetid: be6991d9-6353-4838-bc6b-39de51a94d8d
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 6c79943792c8c17ee007c39b5c5c215a6fbc0699
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331568"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431041"
 ---
 # <a name="imapisupportcompareentryids"></a>IMAPISupport::CompareEntryIDs
 
@@ -74,7 +74,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 指定为参数的输入标识符中的一个或两个都不引用有效的对象, 这可能是因为它们当前未打开且不可用。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为通讯簿和邮件存储提供程序支持对象实现了**IMAPISupport:: CompareEntryIDs**方法。 **CompareEntryIDs**对属于单个服务提供程序的两个条目标识符进行比较, 以确定它们是否引用同一个对象。 MAPI 提取条目标识符中的[MAPIUID](mapiuid.md)部分, 以确定负责这些对象的服务提供程序。 然后, MAPI 将调用其登录对象的**CompareEntryIDs**方法来执行比较。 
   

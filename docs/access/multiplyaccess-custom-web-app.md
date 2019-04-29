@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b6bd7d2e-3cb8-4be3-9716-1a666c66561e
 description: 将两个表达式相乘。
 ms.openlocfilehash: 73c1f7ff51ba52536ca4896d3a90126377867b9b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301699"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412161"
 ---
 # <a name="multiply-access-custom-web-app"></a>乘法 (Access 自定义 web 应用程序)
 

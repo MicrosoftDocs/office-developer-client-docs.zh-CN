@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 64d62990-6275-edef-c639-b6ba8d10c38c
 description: InfoPath 提供了创建完全信任的表单的功能，这些表单的安全权限更高，可以访问用户计算机上的系统资源和其他组件。本文介绍什么是完全信任的表单以及为什么要使用这种表单，还介绍如何通过手动转换和注册标准表单或通过对标准表单进行数字签名来创建完全信任的表单。
-ms.openlocfilehash: b410d5bee0080aae5e0af9687999595655b42edf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 04560e0c844d6a6ff681fd366ca7da2e4db36ba1
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774087"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430390"
 ---
 # <a name="understanding-fully-trusted-forms"></a>了解完全信任的表单
 
@@ -21,7 +21,7 @@ InfoPath 表单模板可用各种安全级别来部署。所用级别取决于�
   
 对于要使用的表单，InfoPath 必须能够访问表单所基于的表单模板。 创建表单模板时，InfoPath 会在表单定义 (.xsf) 文件（其中包含该表单模板位置的 URL）中创建一个条目。 基于 URL 的表单称为*沙盒表单*。 当用户进行填写时，会将表单添加在本地缓存中并拒绝表单访问系统资源。 此类表单将从打开它的域中继承权限。 
   
-但您可以修改表单，使其基于统一资源名称 (URN)，从而允许其访问系统资源。 此类表单称为*完全信任的表单*。 
+但您可以修改表单，使其基于统一资源名称 (URN)，从而允许其访问系统资源。此类表单称为*完全信任的表单*。 
   
 ## <a name="why-use-a-fully-trusted-form"></a>为什么使用完全信任的表单？
 
@@ -36,7 +36,7 @@ InfoPath 表单模板可用各种安全级别来部署。所用级别取决于�
 
 创建和使用完全信任的表单时必须执行以下操作，其中涉及 InfoPath 用户界面和表单文件：
   
-- 在“信任中心”**** 对话框的“受信任的发布者”**** 类别中，使 InfoPath 允许使用完全信任的表单。 必须启用此选项，用户才能打开完全信任的表单。 
+- Enabling InfoPath to allow for the use of fully trusted forms on the **Trusted Publishers** category of the **Trust Center** dialog box. This option must be enabled for users to open fully trusted forms. 
     
 - 使用 InfoPath **Application** 对象的 **RegisterSolution** 方法在目标计算机上注册完全信任的表单。 
     
@@ -160,16 +160,16 @@ InfoPath 表单模板可用各种安全级别来部署。所用级别取决于�
 1. 在 SharePoint 文档库中，单击“填写表单”****。
     
    > [!NOTE]
-   > 使用“发布向导”**** 将表单模板发布到 SharePoint 文档库，模板不会显示为表单库中的项目。 在文档库中创建表单时，模板将默认用作新表单的模板。 
+   > After publishing the form template to a SharePoint document library using the **Publishing Wizard**, the template is not displayed as an item in the form library. When you create a form in that document library, the template will be used by default as the template for the new form. 
   
-2. 如果已对默认表单模板进行签名，则 InfoPath 会显示有关数字签名表单模板的安全警告。 选择“始终信任来自此发布者的文件并自动打开”****，然后单击“打开”****。
+2. If the default form template was digitally signed, InfoPath displays a security warning about the digitally signed form template. Select **Always trust files from this publisher and open them automatically**, and then click **Open**.
     
 ## <a name="using-a-fully-trusted-form"></a>使用完全信任的表单
 
 使用完全信任的表单与使用标准表单非常类似。仅有的显著差别在于完全信任的表单可以访问受限制的资源，并且不再显示警告。
   
 > [!NOTE]
-> 要使 InfoPath 能够使用完全信任的表单，用户必须确保在“信任中心”**** 对话框的“受信任的发布者”**** 类别中选中“允许完全信任的表单在我的计算机上运行”**** 复选框。 要打开“信任中心”**** 对话框，请依次单击“文件”**** 选项卡、“选项”****（“InfoPath”**** 选项卡下方）、“信任中心”**** 和“信任中心设置”****。 
+> To enable InfoPath to use a fully trusted form, users must ensure that the **Allow fully trusted forms to run on my computer** check box is selected on the **Trusted Publishers** category of the **Trust Center** dialog box. To open the **Trust Center** dialog box, click the **File** tab, click **Options** (below the **InfoPath** tab), click **Trust Center**, and then click **Trust Center Settings**. 
   
 可从“填写表单”**** 对话框的 InfoPath 中打开完全信任的表单。 
   

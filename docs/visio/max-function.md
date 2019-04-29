@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a17369b1-f366-3010-9e60-ae5cc101ecc8
 description: 返回列表中的最大值。 最大表示最接近正无穷大。
 ms.openlocfilehash: ed8afbcba7f4fbf60c77f6a281389132a12a8a55
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341662"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412287"
 ---
 # <a name="max-function"></a>MAX 函数
 

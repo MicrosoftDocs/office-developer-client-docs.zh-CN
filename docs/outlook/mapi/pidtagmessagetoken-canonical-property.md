@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fcb93346-db92-44b5-a447-59fd95f98f45
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2d832b3a53f8056c034b5e87f1f309fa3058173d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355802"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408185"
 ---
 # <a name="pidtagmessagetoken-canonical-property"></a>PidTagMessageToken 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32355802"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |安全邮件传递属性  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性可将受保护的与安全相关的信息从其原始发件人传达给收件人。 与**PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)) 属性结合使用时, 它可保证标签与邮件内容的关联。 与**PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)) 属性结合使用时, 它将验证邮件内容是否保持不变。
   

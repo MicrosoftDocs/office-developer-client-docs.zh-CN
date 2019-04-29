@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 146b5e36-8d73-4949-9fed-1074f707423d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 54f61eb1bf111601e8b2c889b0d2890d0c10d63b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341235"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418335"
 ---
 # <a name="imapisyncprogresscallback--iunknown"></a>IMAPISyncProgressCallback : IUnknown
 
@@ -40,7 +40,7 @@ ms.locfileid: "32341235"
 |||
 |:-----|:-----|
 |[Progress](imapisyncprogresscallback-progress.md) <br/> |存储提供程序定期调用此函数以更新 "发送/接收" 对话框中的状态。  <br/> |
-|[Error](imapisyncprogresscallback-error.md) <br/> |如果在同步过程中遇到错误, 则存储提供程序将调用此函数, 以提供在 "发送/接收" 对话框中显示的详细信息。  <br/> |
+|[错误](imapisyncprogresscallback-error.md) <br/> |如果在同步过程中遇到错误, 则存储提供程序将调用此函数, 以提供在 "发送/接收" 对话框中显示的详细信息。  <br/> |
 |[完成](imapisyncprogresscallback-done.md) <br/> |存储提供程序调用此函数来通知 Outlook 同步已完成。  <br/> |
    
 ## <a name="see-also"></a>另请参阅

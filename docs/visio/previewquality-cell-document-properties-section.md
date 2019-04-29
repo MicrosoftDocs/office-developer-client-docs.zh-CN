@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b7d90666-a1bb-f0de-32da-b2855977f648
 description: 确定是以草稿质量显示绘图预览还是以详细视图显示绘图预览。
 ms.openlocfilehash: 9db2d3e1eb829bfd2ad787fcfc94cd9ba5abaf9e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356033"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416816"
 ---
 # <a name="previewquality-cell-document-properties-section"></a>PreviewQuality 单元格（“Document Properties”内容）
 
@@ -25,7 +25,7 @@ ms.locfileid: "32356033"
 | 0  <br/> | Draft  <br/> |**visDocPreviewQualityDraft** <br/> |
 | 1  <br/> | 具体  <br/> |**visDocPreviewQualityDetailed** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以在 "**属性**" 对话框中的 "**摘要**" 选项卡 (单击 " **Office** " 按钮, 依次单击 "**信息**" 选项卡、"**文档属性**" 和 "**高级属性**") 中设置此值。
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 2b1a8902-b1d4-c3d9-8c9f-1a28fddacc59
 description: 指定网格原点的水平坐标。
 ms.openlocfilehash: ee58ea7d950dd7e422f8a60a13bac8aa4ed353a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322307"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428618"
 ---
 # <a name="xgridorigin-cell-ruler-amp-grid-section"></a>XGridOrigin 单元格 ( &amp; "标尺网格" 部分)
 
 指定网格原点的水平坐标。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此单元格对应于 "**标尺&amp;网格**" 对话框 (在 "**视图**" 选项卡上, 单击 "**显示**" 箭头) 中的 "水平**网格起点**" 选项。 
   

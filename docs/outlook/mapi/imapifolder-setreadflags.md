@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 95a40c8a-0a8b-46c7-a07a-cbc6a7de8a3c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 15504ecc88188ed7bc4eed0e64b1871dbc6a5e8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350986"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406911"
 ---
 # <a name="imapifoldersetreadflags"></a>IMAPIFolder::SetReadFlags
 
@@ -90,7 +90,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 调用成功, 但未成功处理所有邮件。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFolder:: SetReadFlags**方法设置或清除一个或多个文件夹的邮件的**PR_MESSAGE_FLAGS**属性中的 MSGFLAG_READ 标记。 设置 MSGFLAG_READ 标志将邮件标记为 "已读", 这并不一定表明预期收件人确实已阅读邮件。 
   
@@ -134,7 +134,7 @@ MAPI_W_PARTIAL_COMPLETION
 
 在下列情况下, 需要这些返回值。
   
-|**Condition**|**返回值**|
+|**条件**|**返回值**|
 |:-----|:-----|
 |**SetReadFlags**已成功处理每封邮件。  <br/> |S_OK  <br/> |
 |**SetReadFlags**无法成功处理每封邮件。  <br/> |MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND  <br/> |

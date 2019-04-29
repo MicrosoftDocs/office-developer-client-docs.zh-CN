@@ -8,17 +8,17 @@ keywords:
 - xloper12 memory [excel 2007], 管理 excel 中的内存, excel 堆栈, 字符串 [excel 2007], 管理内存, excel 中的内存管理, XLOPER memory [excel 2007], memory [excel 2007], 管理准则
 localization_priority: Normal
 ms.assetid: 3bf5195b-6235-43cf-8795-0c7b0a63a095
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: f129dac2971f01c8ada15f0028958132b1945746
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310456"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419539"
 ---
 # <a name="memory-management-in-excel"></a>Excel 中的内存管理
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 如果要创建高效而稳定的 xll, 则内存管理是最重要的考虑因素。 无法正常管理内存可能会导致 Microsoft Excel 中的一系列问题, 从很少的问题 (例如, 低内存分配和初始化和小内存泄漏) 到重大问题 (如 Excel destabilization)。
   
@@ -314,7 +314,7 @@ c/c + + 程序员最熟悉以 null 结尾的字符串。 标准 C 库设计为�
 
 |* * 字节字符串: * * XLOPER * * * *|* * 宽字符字符串: * * XLOPER12 * * * *|
 |:-----|:-----|
-|Excel 的所有版本  <br/> |在 Excel 2007 中启动  <br/> |
+|Excel 的所有版本  <br/> |自 Excel 2007 起  <br/> |
 |最大长度: 255 扩展 ASCII 字节  <br/> |最大长度 32767 Unicode 字符  <br/> |
 |First (无符号) 字节 = 长度  <br/> |第一个 Unicode 字符 = 长度  <br/> |
    

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 42ffbbe0-d678-474a-a016-91c71255613e
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: fbb05efff67fa90c68db86249d4657e489e7bd63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342775"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417271"
 ---
 # <a name="imapifoldersetmessagestatus"></a>IMAPIFolder::SetMessageStatus
 
@@ -89,7 +89,7 @@ S_OK
   
 > 已成功设置邮件状态。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFolder:: SetMessageStatus**方法将邮件状态设置为存储在其**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性中的值。 
   

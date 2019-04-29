@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 578a38a9-b8d8-42e2-b98b-5e5bb85ebe05
 description: 此主题旨在帮助您快速找到解决之道，以解决有关利用表单代码（依据 Microsoft.Office.Interop.InfoPath.SemiTrust 程序集工作）开发表单模板的常见问题。
 ms.openlocfilehash: 1c5f72a3fa22cbe54b1290357aae1d2a68dff5b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303757"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411573"
 ---
 # <a name="common-tasks-for-developing-form-templates-using-the-infopath-object-model"></a>使用 InfoPath 对象模型开发表单模板的常见任务
 

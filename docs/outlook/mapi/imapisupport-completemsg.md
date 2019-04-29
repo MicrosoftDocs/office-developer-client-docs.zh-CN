@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e7932433-abe0-4341-95e0-91b37c848145
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: e8c52d71ee47966be09c6c0806eceafae0c5ff5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331505"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411188"
 ---
 # <a name="imapisupportcompletemsg"></a>IMAPISupport::CompleteMsg
 
@@ -55,7 +55,7 @@ S_OK
   
 > 后处理成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为邮件存储提供程序支持对象实现了**IMAPISupport:: CompleteMsg**方法, 并且只能由与传输提供程序紧密结合的邮件存储提供程序调用。 紧密耦合的存储提供程序调用**IMAPISupport:: CompleteMsg**以指示 MAPI 后台处理程序后置处理邮件。 
   

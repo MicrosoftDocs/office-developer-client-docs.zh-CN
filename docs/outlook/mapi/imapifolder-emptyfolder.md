@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4ca828c3e03cbff886230f2af63485f7b15e8b35
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280104"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416781"
 ---
 # <a name="imapifolderemptyfolder"></a>IMAPIFolder::EmptyFolder
 
@@ -71,7 +71,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 调用成功, 但未完全清空该文件夹。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFolder:: EmptyFolder**方法删除文件夹中的所有内容, 而不删除文件夹本身。 
   
@@ -87,7 +87,7 @@ MAPI_W_PARTIAL_COMPLETION
 
 在下列情况下, 需要这些返回值。
   
-|**Condition**|**返回值**|
+|**条件**|**返回值**|
 |:-----|:-----|
 |**EmptyFolder**已成功清空文件夹。  <br/> |S_OK  <br/> |
 |**EmptyFolder**无法完全清空文件夹。  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |

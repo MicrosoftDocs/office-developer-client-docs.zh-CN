@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 10979706-6dfe-5241-e862-3f94716d14fa
 description: 指定放大或缩小形状阴影的百分比。
 ms.openlocfilehash: 9175e9a1148779524fdce96ff18eac22fe8dd421
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342880"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429003"
 ---
 # <a name="shdwscalefactor-cell-page-properties-section"></a>ShdwScaleFactor 单元格（“Page Properties”内容）
 
 指定放大或缩小形状阴影的百分比。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 每个阴影都有一个阴影的固定位置, 这是阴影上与形状的旋转点相对应的点。 例如, 如果形状的旋转中心位于形状的中心, 则阴影的固定位置将成为阴影中心的点。 将 "缩放" 应用于简单阴影时, 放大率以阴影的固定位置为中心。将缩放比例应用到倾斜阴影时, 将以倾斜方向应用放大率。 
   

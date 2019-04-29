@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 747f7ba8-42d3-4be3-9908-269e9a347c7f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0c6b56a786ea794587e140c9555cc88cd862b489
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329307"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419749"
 ---
 # <a name="pidtagnonreceiptnotificationrequested-canonical-property"></a>PidTagNonReceiptNotificationRequested 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32329307"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果此属性包含 FALSE 且**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性包含 TRUE, 则服务提供程序可以重写**PR_NON_RECEIPT_NOTIFICATION_REQUESTED**属性并生成未送达报告。 
   

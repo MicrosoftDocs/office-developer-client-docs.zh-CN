@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b2b368ce-4486-4f90-985f-59e50ca95229
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 78b4feeca263035b9c90184f10edd294e6cd7b10
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351581"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417859"
 ---
 # <a name="ixplogontransportlogoff"></a>IXPLogon::TransportLogoff
 
@@ -45,7 +45,7 @@ S_OK
   
 > 调用成功, 并返回了所需的一个或一些值。 如果返回 S_OK 之外的任何内容, 则将注销该提供程序。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序调用**IXPLogon:: TransportLogoff**方法, 以终止特定用户的传输提供程序会话。 在调用**TransportLogoff**之前, MAPI 后台处理程序会丢弃有关在[IXPLogon:: AddressTypes](ixplogon-addresstypes.md)方法中传递的此会话的受支持的邮件地址类型的任何数据。 
   

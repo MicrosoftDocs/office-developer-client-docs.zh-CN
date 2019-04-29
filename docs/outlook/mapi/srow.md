@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 369c2d5c-8c2b-4314-9cb2-aaa89580aa2b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2e75bc6f8e14258787a6c9d80dfbf6334ec698b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336512"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410432"
 ---
 # <a name="srow"></a>SRow
 
@@ -53,7 +53,7 @@ typedef struct _SRow
   
 > 指向描述行中各列的属性值的[SPropValue](spropvalue.md)结构数组的指针。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **SRow**结构描述表格中的行。 它包含在表通知附带的[TABLE_NOTIFICATION](table_notification.md)结构中。 
   

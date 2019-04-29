@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 83c349f7-dcac-4268-befe-fb2bc0cd9c50
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 00273d5572fa0c12a9501a1620db11ea087fd5d1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351595"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427603"
 ---
 # <a name="ixplogonstartmessage"></a>IXPLogon::StartMessage
 
@@ -55,7 +55,7 @@ S_OK
   
 > 调用成功, 并返回了所需的值或值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序调用**IXPLogon:: StartMessage**方法, 以启动从传输提供程序到 MAPI 后台处理程序的入站邮件的传输。 在传输提供程序开始使用由_lpMessage_指向的邮件之前, 它应在_lpulMsgRef_参数中存储消息引用, 以便可以调用[IXPLogon:: TransportNotify](ixplogon-transportnotify.md)方法, 以供潜在使用。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 05f8c191-db2b-4174-8b3c-a9fdabfe6ac8
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 01b42c04244d35d72dd856222b4bab543b84db45
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339660"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412693"
 ---
 # <a name="smessageclassarray"></a>SMessageClassArray
 
@@ -51,7 +51,7 @@ typedef struct
   
 > 指向邮件类字符串的指针的数组。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在以下方法中, **SMessageClassArray**结构作为参数传递: 
   

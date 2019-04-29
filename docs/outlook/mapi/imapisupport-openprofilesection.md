@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cd1fa994-9531-46c4-94e5-505e7f90b884
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: e7f13acc34a77b79057d32fd4049db7222dadf49
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326444"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411384"
 ---
 # <a name="imapisupportopenprofilesection"></a>IMAPISupport::OpenProfileSection
 
@@ -75,7 +75,7 @@ MAPI_E_UNKNOWN_FLAGS
   
 > 使用了保留或不受支持的标志, 因此操作未完成。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: OpenProfileSection**方法是为所有支持对象实现的。 服务提供程序和邮件服务调用**OpenProfileSection**以打开配置文件部分, 并检索指向其**IProfSect**接口实现的指针。 
   

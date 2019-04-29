@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 763cab41-f6f6-4cb0-8cb8-170fdf2a92e6
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: b237a57dfea020c7bfcb66d49d43428c1f6506c2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317358"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430362"
 ---
 # <a name="imsgserviceadminsetprimaryidentity"></a>IMsgServiceAdmin::SetPrimaryIdentity
 
@@ -54,7 +54,7 @@ MAPI_E_NO_ACCESS
   
 > **SetPrimaryIdentity**尝试指定在其**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 属性中设置了 SERVICE_NO_PRIMARY_IDENTITY 标志的邮件服务。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgServiceAdmin:: SetPrimaryIdentity**方法将邮件服务建立为配置文件主标识的供应商。 主要标识通常是登录到邮件服务的用户。 它由三个属性表示: 
   

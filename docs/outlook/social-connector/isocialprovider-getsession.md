@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 371b48c5-6d77-4d2d-890c-bb234c7eaabc
 description: 获取 ISocialSession 接口。
 ms.openlocfilehash: afa13bddd5cbbc53081f6ae7ddcc1671d1c40303
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285770"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419546"
 ---
 # <a name="isocialprovidergetsession"></a>ISocialProvider::GetSession
 

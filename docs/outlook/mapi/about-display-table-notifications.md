@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 41e6a2c8b6856bf072972325e7e08aabe3e17446
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326409"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430012"
 ---
 # <a name="about-display-table-notifications"></a>关于显示表通知
 
@@ -41,7 +41,7 @@ ms.locfileid: "32326409"
 |复选框  <br/> |Rereads **ulPRPropertyName**成员的值。  <br/> |
 |组合框  <br/> |重新打开与[DTBLCOMBOBOX](dtblcombobox.md)结构的**ulPRTableName**成员相关联的表。 Rereads 所有行, 包括**ulPRPropertyName**成员的值。  <br/> |
 |下拉列表框  <br/> |重新打开与[DTBLDDLBX](dtblddlbx.md)结构的**ulPRTableName**成员关联的表, 并 rereads 所有行。 调用[IMAPIProp:: GetProps](imapiprop-getprops.md)检索存储在**ulPRDisplayProperty**和**ulPRSetProperty**成员中的属性的值。  <br/> |
-|编辑  <br/> |Rereads 属性并重新所的属性。  <br/> |
+|Edit  <br/> |Rereads 属性并重新所的属性。  <br/> |
 |分组框  <br/> |忽略通知。  <br/> |
 |标签  <br/> |忽略通知。  <br/> |
 |多选列表框  <br/> |如果其中一个列是条目标识符, 则刷新列表框。 相应的对象不会关闭或重新加载。  <br/> |

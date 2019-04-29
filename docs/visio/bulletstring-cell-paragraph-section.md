@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 38285824-30ad-0cf2-07cb-0103ab3a415a
 description: 允许您创建自定义的项目符号样式。
 ms.openlocfilehash: b7a1d7f845c7b9945670240361a4ac66efa80786
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337560"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409746"
 ---
 # <a name="bulletstring-cell-paragraph-section"></a>BulletString 单元格（“Paragraph”内容）
 
 允许您创建自定义的项目符号样式。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 将样式作为字符串输入（加上引号）。例如，可输入下面的字符串：“ooo”。
   

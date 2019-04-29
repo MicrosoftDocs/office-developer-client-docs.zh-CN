@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 87ddbc35-8577-0a96-20b8-aa7734764c5b
 description: 返回对包含形状的列表容器形状的工作表引用。
 ms.openlocfilehash: 748a248f68345e97e97ca90a4603b6e164a551c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284079"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429549"
 ---
 # <a name="listsheetref-function"></a>LISTSHEETREF 函数
 
@@ -31,7 +31,7 @@ LISTMEMBERCOUNT ()
 
 ShapeSheet 参考
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果形状不是列表成员，则 LISTSHEETREF 函数返回 #REF!。
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 27732f6d-e030-4080-9684-69293a57598b
 description: 指定是否对常规 Internet 邮箱使用安全套接字层 (SSL)。
 ms.openlocfilehash: 12b6d803925b0be546273521b171d59a0a6b29d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327543"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429360"
 ---
 # <a name="propinetssl"></a>PROP_INET_SSL
 
@@ -27,7 +27,7 @@ ms.locfileid: "32327543"
 |属性标记：  <br/> |0x01050003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 零值表示不使用 ssl, 否则使用 ssl。
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9f71fdef-5df5-0892-b64c-293a2f22f5c3
 description: '释放 IOlkAccountHelper:: GetMapiSession 返回的 MAPI session 对象。'
 ms.openlocfilehash: c481cee1ecb8c2bd3997cdee8ae86c9c3b5a712e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322090"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418629"
 ---
 # <a name="iolkaccounthelperhandsoffsession"></a>IOlkAccountHelper::HandsOffSession
 

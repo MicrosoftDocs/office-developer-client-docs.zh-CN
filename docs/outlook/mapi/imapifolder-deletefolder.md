@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a476607927f3563ede94a04ccfe4f7a3749c978e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280069"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417404"
 ---
 # <a name="imapifolderdeletefolder"></a>IMAPIFolder::DeleteFolder
 
@@ -89,7 +89,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 呼叫成功, 但未成功删除所有条目。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIFolder::D eletefolder**方法删除子文件夹。 默认情况下, **DeleteFolder**仅对空文件夹进行操作, 但您可以通过设置两个标志: DEL_FOLDERS 和 DEL_MESSAGES, 在非空文件夹上成功地使用它。 只能删除在**DeleteFolder**调用中设置 DEL_FOLDERS 和 DEL_MESSAGES 标志的空文件夹或文件夹。 DEL_FOLDERS 启用要删除的文件夹的所有子文件夹。DEL_MESSAGES 启用要删除的所有文件夹的邮件。 
   
@@ -101,7 +101,7 @@ MAPI_W_PARTIAL_COMPLETION
 
 在下列情况下, 需要这些返回值。
   
-|**Condition**|**返回值**|
+|**条件**|**返回值**|
 |:-----|:-----|
 |**DeleteFolder**已成功删除每个邮件和子文件夹。  <br/> |S_OK  <br/> |
 |**DeleteFolder**无法成功删除每个邮件和子文件夹。  <br/> |MAPI_W_PARTIAL_COMPLETION 或 MAPI_E_NOT_FOUND  <br/> |

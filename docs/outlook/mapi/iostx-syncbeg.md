@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4a935df3-98c4-2742-206e-4e16eda7b9bc
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: ae4497295328155780fc5208d1699169698e02d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317169"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411937"
 ---
 # <a name="iostxsyncbeg"></a>IOSTX::SyncBeg
 
@@ -148,7 +148,7 @@ LR_SYNC_DOWNLOAD_TABLE
   
 > 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端调用**[IOSTX:: SetSyncResult](iostx-setsyncresult.md)** 设置同步的结果, 然后调用**[IOSTX:: SyncEnd](iostx-syncend.md)** 结束该状态。 客户端必须为对**IOSTX:: SyncBeg**的每个调用调用**[IOSTX:: SyncEnd](iostx-syncend.md)** , 以确定状态是否已成功复制。 确定后, Outlook 可以开始清理其内部状态。 
   

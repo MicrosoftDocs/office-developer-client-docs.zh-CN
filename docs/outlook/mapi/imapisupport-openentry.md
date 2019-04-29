@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 84662230-6a25-4403-b87e-871427a40c6e
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: cfbb799336aa1e75fa36e03e55d82c3af3409f10
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326343"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409613"
 ---
 # <a name="imapisupportopenentry"></a>IMAPISupport::OpenEntry
 
@@ -94,7 +94,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 在_lpEntryID_参数中传递的条目标识符的格式无法识别。 如果包含该对象的通讯簿提供程序未打开, 通常会返回此值。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport:: OpenEntry**方法是为所有服务提供程序支持对象实现的。 服务提供程序调用**IMAPISupport:: OpenEntry**以检索指向可用于访问特定对象的接口的指针。 
   

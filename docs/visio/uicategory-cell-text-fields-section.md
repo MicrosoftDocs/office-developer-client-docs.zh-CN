@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 365f7005-ba34-2311-4c5c-16344962fc3f
 description: 确定在早于 Visio 2000 的 Visio 版本中插入的域的类别。
 ms.openlocfilehash: c67ced9e4f731e66bce0589929ac90fb9bb8d67c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331197"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434023"
 ---
 # <a name="uicategory-cell-text-fields-section"></a>UICategory 单元格（“Text Fields”内容）
 
 确定在早于 Visio 2000 的 Visio 版本中插入的域的类别。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此单元格不显示在 ShapeSheet 窗口中。如果需要处理向后兼容问题，例如以 Visio 5.0 版文件格式保存 Visio 2000 版绘图，则使用此单元格。
   

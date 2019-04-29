@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 18a10f14-0795-4d4d-b590-f4cef4f2902a
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 391ea3ef4f44db2a9d007241232f58db27647ba2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321712"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428744"
 ---
 # <a name="imapiforminfosaveform"></a>IMAPIFormInfo::SaveForm
 
@@ -53,7 +53,7 @@ MAPI_E_NO_SUPPORT
   
 > **SaveForm**可能被称为将表单保存在本地表单容器中。 本地表单容器上不支持**SaveForm** 。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端应用程序调用**IMAPIFormInfo:: SaveForm**方法将当前表单的说明保存在具有给定文件名的文件中。 **SaveForm**创建配置文件。 
   

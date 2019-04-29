@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: feb1bfcb-1cb1-4d5c-bc84-df86a33a5934
 description: 使用 InfoPath 表单模板时，您可以编写代码来访问表单的视图，然后对视图包含的数据执行各种操作。InfoPath 2003 兼容对象模型支持通过使用 ViewObject 接口的成员来访问表单的视图。
 ms.openlocfilehash: 6a2dd408ba51e5c8394120944e0c28897e768738
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299875"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411881"
 ---
 # <a name="work-with-views-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型处理视图
 

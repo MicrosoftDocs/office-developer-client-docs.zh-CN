@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6bd2781a-d4e7-136f-8996-62ebc5f890ab
 description: 指示输入形状数据值所使用的语言。
 ms.openlocfilehash: c5a0cca5f71bc5520337ad2bdcf354a2b4affe92
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359029"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420323"
 ---
 # <a name="langid-cell-shape-data-section"></a>LangID 单元格（“Shape Data”内容）
 
 指示输入形状数据值所使用的语言。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 有关 Microsoft Office 系统应用程序所支持的语言的列表，请参阅 [DocLangID](doclangid-cell-document-properties-section.md) 单元格（“Document Properties”内容）。 
   

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6e78c80d861a5a56584bfb03bfdf2895efde8730
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319285"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412406"
 ---
 # <a name="mapi-client-objects"></a>MAPI 客户端对象
   
@@ -25,7 +25,7 @@ ms.locfileid: "32319285"
   
 下表汇总了由标准邮件客户端和支持查看自定义窗体的客户端所实现的 MAPI 对象。
   
-|**客户端对象**|**Description**|
+|**客户端对象**|**说明**|
 |:-----|:-----|
 |通知接收器  <br/> |提供用于在邮件存储区、通讯簿或会话中发生的事件的回调函数。  <br/> |
 |消息网站  <br/> |处理对 form 对象的操作。  <br/> |

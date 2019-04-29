@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9a92e9cd-8282-4cf0-93af-4089b3763594
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: baec750a460b3ba9becd2e1dddf967705424ac4e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357188"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411678"
 ---
 # <a name="mapinameid"></a>MAPINAMEID
 
@@ -79,7 +79,7 @@ MNID_STRING
   
 > 描述命名属性的名称的联合。 名称可以是整数值 (存储在**盖子**中), 也可以是存储在**lpwstrName**中的 Unicode 字符字符串。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **MAPINAMEID**结构用于描述其标识符超过0x8000 的命名属性属性。 属性集是命名属性的重要部分。 例如, PS_PUBLIC_STRINGS 或 PS_ROUTING_ADDRTYPE 是由 MAPI 定义的属性集。 
   

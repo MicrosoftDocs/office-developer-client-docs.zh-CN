@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5ca86ee8-1bf6-4ec8-95b3-575c22fbb170
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 87432d8982c5dc1f64396187739e97314edb385c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321845"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412882"
 ---
 # <a name="imapiformmgrisinconflict"></a>IMAPIFormMgr::IsInConflict
 
@@ -63,7 +63,7 @@ S_FALSE
   
 > 该表单处理自己的邮件冲突, 或者信息传递的邮件未发生冲突。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IMAPIFormMgr:: IsInConflict**方法, 以发现特定表单是否未处理自己的邮件冲突。 **IsInConflict**检查_ulMessageFlags_和_ulMessageStatus_参数中的位掩码是否存在冲突标志。 如果设置了冲突标志, **IsInConflict**将解析在_szMessageClass_参数中传递的邮件类, 如果窗体不处理自己的冲突, 则返回 S_OK。 如果窗体处理自己的冲突, **IsInConflict**将返回 S_FALSE。 
   

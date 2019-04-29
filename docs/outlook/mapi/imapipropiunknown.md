@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3c9e4e05-cd3a-4b56-9dff-879e33ff6fd5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6b0a8923ee5efe22584170ce9853698885527ee8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282469"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407660"
 ---
 # <a name="imapiprop--iunknown"></a>IMAPIProp : IUnknown
 
@@ -53,7 +53,7 @@ ms.locfileid: "32282469"
 |[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |提供与一个或多个属性标识符相对应的属性名称。  <br/> |
 |[GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |提供与一个或多个属性名称对应的属性标识符。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  **IMAPIProp**是以下接口的基接口: 
   

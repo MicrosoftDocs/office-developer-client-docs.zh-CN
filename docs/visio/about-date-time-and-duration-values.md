@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b6951a92-f32a-5829-5e07-b277b7934df3
 description: 您可以在公式中使用日期、时间和持续时间值执行运算。在 Microsoft Visio 中，日期和时间表达式可以计算为单个值。日期和时间表达式是任何公认的日期和/或时间表达式，或者是对包含日期和/或时间的单元格的引用。这里所指的日期和/或时间包括显示为日期和时间的字符串和数字，以及从函数返回的日期和时间值。
 ms.openlocfilehash: 56de919fa713c0948bb87f794d1c6e0a5d727aef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341578"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416725"
 ---
 # <a name="about-date-time-and-duration-values"></a>关于日期、时间和持续时间值
 
@@ -51,14 +51,14 @@ ms.locfileid: "32341578"
 |[NOW](now-function-visioshapesheet.md) <br/> | 以日期和时间值返回当前系统日期。  <br/> |
 |[时候](time-function-visioshapesheet.md) <br/> | 将数字转换为时间值。  <br/> |
 |[TIMEVALUE](timevalue-function-visioshapesheet.md) <br/> | 将字符串转换为时间值。  <br/> |
-|[为期](day-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的日期部分。  <br/> |
+|[DAY](day-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的日期部分。  <br/> |
 |[DAYOFYEAR](dayofyear-function.md) <br/> | 根据日期和时间表达式，返回从年初至今的天数。  <br/> |
-|[七点](hour-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的小时部分。  <br/> |
-|[还要](minute-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的分钟部分。  <br/> |
-|[本月](month-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的月部分。  <br/> |
-|[第二个](second-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的秒部分。  <br/> |
+|[HOUR](hour-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的小时部分。  <br/> |
+|[MINUTE](minute-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的分钟部分。  <br/> |
+|[MONTH](month-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的月部分。  <br/> |
+|[SECOND](second-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的秒部分。  <br/> |
 |[星期](weekday-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中一个星期中的第几天。  <br/> |
-|[本年](year-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的年部分。  <br/> |
+|[YEAR](year-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的年部分。  <br/> |
    
 ## <a name="duration"></a>持续时间
 
@@ -76,7 +76,7 @@ Visio 可识别下表中的持续时间单位。
    
 您可以将日期和时间与持续时间相加得到一个新的日期和时间。还可以用日期、时间和持续时间执行在下表中列出的运算。
   
-|**Input**|**结果**|
+|**输入**|**结果**|
 |:-----|:-----|
 | 日期时间 +/- 持续时间  <br/> | 日期和时间值  <br/> |
 | 持续时间 +/- 日期时间  <br/> | 日期和时间值  <br/> |

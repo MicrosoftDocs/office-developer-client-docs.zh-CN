@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 234e7ffa-04e3-0204-c5be-7ff7a4d0d54c
 description: 确定垂直位置，该位置是相对于其父级的原点、形状的下边框依其对齐的水平参考线或辅助点的原点而言的。
 ms.openlocfilehash: 66fea9949f2f31eb5c3aaf43804ac0ec9f7e20fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346562"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411797"
 ---
 # <a name="alignbottom-cell-alignment-section"></a>AlignBottom 单元格（“Alignment”内容）
 
 确定垂直位置，该位置是相对于其父级的原点、形状的下边框依其对齐的水平参考线或辅助点的原点而言的。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 AlignBottom 单元格的引用，请使用： 
   

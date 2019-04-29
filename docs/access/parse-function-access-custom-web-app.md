@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 09dee0ae-89b2-449c-a3c8-d6b270710b64
 description: 分析文本值, 并使用应用程序的区域性以给定的类型返回其值。
 ms.openlocfilehash: d664985ab1d7a7d33b99c52d5bab4aa714767e40
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308055"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411132"
 ---
 # <a name="parse-function-access-custom-web-app"></a>Parse 函数 (Access 自定义 web 应用程序)
 
@@ -32,7 +32,7 @@ ms.locfileid: "32308055"
 | *TextExpression*  <br/> |表示要分析为指定数据类型的格式化值的文本表达式。  <br/> |
 | *DataType*  <br/> |表示为结果请求的数据类型的文本值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 仅使用用于将字符串转换为日期/时间和数字类型的**分析**。 对于常规类型转换, 请使用**Convert**函数。 请记住, 在分析字符串值时会发生一定的性能开销。 
   

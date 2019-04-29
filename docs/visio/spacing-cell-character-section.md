@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 46feb136-01ac-1303-66ab-d772c0ec41a0
 description: 控制两个或多个字符之间的空间量。 空间量可以二十分之一磅为增量增加或减少。
 ms.openlocfilehash: 927b6203b81af453411cdd13b6f8c8342507a61b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334900"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430061"
 ---
 # <a name="spacing-cell-character-section"></a>Spacing 单元格（“Character”内容）
 
 控制两个或多个字符之间的空间量。 空间量可以二十分之一磅为增量增加或减少。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 还可以使用 **“文本”** 对话框（在 **“开始”** 选项卡上，单击 **“字体”** 箭头）设置此单元格的值。 
   

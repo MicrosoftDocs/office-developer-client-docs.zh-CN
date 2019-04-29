@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: a0b586cd-65f6-4792-851c-4d36eaeec56d
 description: 确定指定的用户是否为朋友。
 ms.openlocfilehash: 183e47bea70ed378947afb6a1d0e5561fb9307f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331666"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412560"
 ---
 # <a name="isocialprofilearefriendsorcolleagues"></a>ISocialProfile::AreFriendsOrColleagues
 
@@ -33,7 +33,7 @@ _引起_
   
 > 排除指向指定布尔值数组的结构的指针, 指示_userIds_数组中的相应人员是否为友元。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 对于_userIds_参数的输入数组中表示的每个人员, 此方法设置_结果_参数的输出数组中对应的元素。 **如果为 true** , 则表示此人为朋友, **false**表示该人员不是朋友。 
   

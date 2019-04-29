@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d700b40f-e5b2-4d37-bf1f-8fd3dfa0dda5
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 02663570e3173bbd696af732e71f060d9dee49bc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286626"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431895"
 ---
 # <a name="imapiformadvisesinkonchange"></a>IMAPIFormAdviseSink::OnChange
 
@@ -73,7 +73,7 @@ S_OK
   
 > 通知已成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看者调用**IMAPIFormAdviseSink:: OnChange**方法来通知表单查看器状态发生的更改。 通常情况下, 唯一的更改是根据查看器中的下一个或上一个邮件是否存在, 设置或清除 VCSTATUS_NEXT 或 VCSTATUS_PREVIOUS 标志。 因此, form 对象将启用或禁用它支持的任何下一个或上一个操作。 
   

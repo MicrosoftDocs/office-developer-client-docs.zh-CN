@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ac49538e-6ee8-4ab4-9d79-88a83c7d0149
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 32d150e508f5c208e15d5ee5f0b8c800a1e597f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330168"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429857"
 ---
 # <a name="pidtagresourcepath-canonical-property"></a>PidTagResourcePath 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32330168"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性中包含的路径表示用户可以在其中查找资源的建议路径。 这些属性的定义是特定于提供程序的。 例如, 计划应用程序使用这些属性为其计划应用程序文件指定建议的位置。
   

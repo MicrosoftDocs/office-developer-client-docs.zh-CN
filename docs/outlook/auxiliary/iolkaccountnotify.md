@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 360854bb-e9be-a784-e80b-3f18418ded1b
 ms.openlocfilehash: ab24feca84e7049a9800b860c332db52d19cf929
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322069"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412497"
 ---
 # <a name="iolkaccountnotify"></a>IOlkAccountNotify
 
@@ -22,7 +22,7 @@ ms.locfileid: "32322069"
 |||
 |:-----|:-----|
 |继承自:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
-|提供者：  <br/> | 客户端  <br/> |
+|提供者：  <br/> | Client  <br/> |
 |接口标识符:  <br/> |IID_IOlkAccountNotify  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
@@ -31,7 +31,7 @@ ms.locfileid: "32322069"
 |:-----|:-----|
 |[Notify](iolkaccountnotify-notify.md) <br/> |通知客户端对指定帐户所做的更改。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在设置通知时, 此接口将传递给[IOlkAccountManager:: Advise](iolkaccountmanager-advise.md) 。 
   

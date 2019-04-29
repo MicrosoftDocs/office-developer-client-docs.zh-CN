@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fa5498ab-2f8a-42f8-ba9d-1d555768594f
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 5605de7dbcc18197748713bcf909839690d7259f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336349"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411594"
 ---
 # <a name="iid"></a>IID
 
@@ -42,7 +42,7 @@ typedef struct _GUID
 
 请参阅**GUID**结构。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IID**结构用于唯一标识 MAPI 接口, 并将特定接口与对象相关联。 例如, 当客户端调用[IMAPISession:: OpenEntry](imapisession-openentry.md)打开文件夹时, 客户端会将_lpInterface_参数设置为指向表示[IMAPIFolder](imapifolderimapicontainer.md)接口的**IID** 。 MAPI 定义了要 IID_IMAPIFolder 的**IMAPIFolderIID** 。 **IID**结构也用于唯一标识 OLE 接口。 
   

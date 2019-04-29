@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b20107e3-5e23-4cde-9cd6-670c914ea70a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e797a80cf8659baa7ca935f94b3ab65c200530a3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325667"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409207"
 ---
 # <a name="wrapstoreentryid"></a>WrapStoreEntryID
 
@@ -78,7 +78,7 @@ MAPI_UNICODE
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 邮件存储对象保留内部条目标识符, 该标识符仅对与该邮件存储 coresident 的服务提供程序有意义。 对于其他邮件组件, MAPI 提供了内部条目标识符的包装版本, 使其无法识别为邮件存储区。 应始终为 Coresident 服务提供程序提供原始的已解开邮件存储项标识符;应始终为客户端应用程序提供包装版本, 然后在邮件域和其他域中的任何位置使用该版本。 
   

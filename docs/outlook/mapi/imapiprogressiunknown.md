@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7a872296-0378-456f-b4d6-cb4d96b09d6e
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3a3d54ac9485cc3915d3606bb84b4f3191d1ca5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270075"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419644"
 ---
 # <a name="imapiprogress--iunknown"></a>IMAPIProgress : IUnknown
 
@@ -46,7 +46,7 @@ ms.locfileid: "32270075"
 |[GetMin](imapiprogress-getmin.md) <br/> |返回显示其进度信息的[SetLimits](imapiprogress-setlimits.md)方法中的最小值。  <br/> |
 |[SetLimits](imapiprogress-setlimits.md) <br/> |为操作中的项目数以及控制如何为操作计算进度信息的标志设置上限和下限。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 在许多方法中都包含_lpProgress_参数, 这些方法执行可能的漫长操作。  _lpProgress_指向进度对象的客户端实现。 实现**IMAPIProgress**接口的客户端将此参数设置为指向其实现;未实现**IMAPIProgress**的客户端将参数设置为 NULL。 若要在操作的过程中显示进度指示器, 服务提供程序使用客户端提供的进度对象 (如果有) 或 MAPI 实现 (当_lpProgress_设置为 NULL 时指示)。 
   

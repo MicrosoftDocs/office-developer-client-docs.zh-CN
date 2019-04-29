@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 0504ff7f-2274-7ae3-1f4b-a3d890dbd79a
 description: 指定在打印文档页面时是否打印网格。
 ms.openlocfilehash: 9b98999cd02fa6a47ec8564bbd7337ecf8637306
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315188"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433204"
 ---
 # <a name="printgrid-cell-print-properties-section"></a>PrintGrid 单元格（“Print Properties”内容）
 
 指定在打印文档页面时是否打印网格。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |在打印此页时显示网格。  <br/> |
 |FALSE  <br/> |在打印此页时不显示网格（默认值）。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此值对应于 **“页面设置”** 对话框（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头）中 **“打印设置”** 选项卡上的 **“网格线”** 复选框。与颜色（打印出来的效果为灰色）不同的是，打印出来的网格与您在 Microsoft Visio 绘图窗口中看到的网格相同。 
   

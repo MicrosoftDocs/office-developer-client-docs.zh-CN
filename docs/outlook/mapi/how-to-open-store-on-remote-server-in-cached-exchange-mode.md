@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
 description: 上次修改时间：2012 年 6 月 25 日
 ms.openlocfilehash: 419c9ae734e8b58d0958970e7127b94d220b8382
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345946"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417817"
 ---
 # <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>当 Outlook 处于缓存 Exchange 模式下时, 打开远程服务器上的存储区
 

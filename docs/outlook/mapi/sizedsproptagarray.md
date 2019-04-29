@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f873ad5234460f9f1781c7427b60d285f7486196
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282696"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429346"
 ---
 # <a name="sizedsproptagarray"></a>SizedSPropTagArray
 
@@ -44,7 +44,7 @@ __名称_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用**SizedSPropTagArray**宏创建具有显式界限的属性标记数组。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bd8e1ddb-3027-428b-8964-81614f80282d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 463d81a6692b6071cada0ad22e7343020563e41c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350888"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431545"
 ---
 # <a name="idistlist--imapicontainer"></a>IDistList : IMAPIContainer
 
@@ -41,7 +41,7 @@ ms.locfileid: "32350888"
 
 此接口没有任何唯一的方法。
   
-|**必需属性**|**Access**|
+|**必需属性**|**访问**|
 |:-----|:-----|
 |**PR_ADDRTYPE**([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |读/写  <br/> |
 |**PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |读/写  <br/> |
@@ -49,7 +49,7 @@ ms.locfileid: "32350888"
 |**PR_OBJECT_TYPE**([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |只读  <br/> |
 |**PR_RECORD_KEY**([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IDistList**接口继承自[IMAPIContainer](imapicontainerimapiprop.md) , 并包含与通讯簿容器相同的方法。 因此, 由于**IDistList**接口的方法与[IABContainer](iabcontainerimapicontainer.md)接口的方法相同, 因此不会在此处复制它们。 
   

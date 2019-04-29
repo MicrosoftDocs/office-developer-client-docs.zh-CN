@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6ddaced5-49bb-41fe-95da-4e3300883bf7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 228ea91969b35a1608dd6b3378b751312aa9c665
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328572"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409130"
 ---
 # <a name="propid"></a>PROP_ID
 
@@ -42,7 +42,7 @@ PROP_ID (ulPropTag)
   
 > 包含要返回的标识符的属性标记。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 每个属性标记都包含低序位字 (0 到 15) 中的属性类型和高序位字 (位16到 31) 中的属性标识符。 **PROP_ID**宏提取属性标识符, 并将其放在要返回的整数的0到15位。 返回值的剩余位设置为零。 
   

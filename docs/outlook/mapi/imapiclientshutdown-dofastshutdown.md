@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 310cba9a-a343-484d-a029-fcd51b731460
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 32a0051207ae34f919523fbfe3e01601b7ea5d2a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350902"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408682"
 ---
 # <a name="imapiclientshutdowndofastshutdown"></a>IMAPIClientShutdown::DoFastShutdown
 
@@ -41,7 +41,7 @@ MAPI_E_NO_SUPPORT
   
 > MAPI 子系统不支持客户端快速关闭。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为了避免从 mapi 客户端的快速关闭中丢失数据, mapi 客户端应调用[IMAPIClientShutdown:: NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md)和**IMAPIClientShutdown::D**基于 MAPI 子系统返回的 S_OK 结果的 ofastshutdown 方法[IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方法。 有关详细信息, 请参阅[Fast Shutdown 的最佳实践](best-practices-for-fast-shutdown.md)。
   

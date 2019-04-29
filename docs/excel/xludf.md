@@ -10,17 +10,17 @@ keywords:
 - xludf 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: b608b356-ca5c-47bb-9de8-9b7e2b3924dd
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 569334847c7612b86f6ddc967f159e2ef425cbbb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303813"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430642"
 ---
 # <a name="xludf"></a>xlUDF
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 调用用户定义的函数 (UDF)。 此函数允许 DLL 调用 Visual Basic for Applications (VBA) 用户定义的函数、XLM 宏语言函数和其他加载项中包含的已注册函数。
   

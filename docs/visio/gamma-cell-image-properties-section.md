@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3dcaee26-391c-0494-4380-890ee825dc47
 description: 调整或校正图像的亮度，使之适合特定的输出设备，如监视器或扫描仪等。默认值为 1（不校正）。
 ms.openlocfilehash: d00eb11ff1feffacf0d758bb25cdd56281e91327
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315202"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409011"
 ---
 # <a name="gamma-cell-image-properties-section"></a>Gamma 单元格（“Image Properties”内容）
 
 调整或校正图像的亮度，使之适合特定的输出设备，如监视器或扫描仪等。默认值为 1（不校正）。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Gamma 单元格的引用，请使用： 
   

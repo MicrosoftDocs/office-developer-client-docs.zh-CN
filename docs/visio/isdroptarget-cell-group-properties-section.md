@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 8140fc7b-b99c-54bb-7af3-7de6fcdae7d3
 description: 确定组合是否允许您通过将形状放在该组合上来添加形状。
 ms.openlocfilehash: 50f545b3cbd4f7e1541a7f5e8ca32c34d0429c5e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297226"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410789"
 ---
 # <a name="isdroptarget-cell-group-properties-section"></a>IsDropTarget 单元格（“Group Properties”内容）
 
 确定组合是否允许您通过将形状放在该组合上来添加形状。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |可以通过将形状放在组合上来将形状添加到其中。  <br/> |
 |FALSE  <br/> |不能将形状拖放在组合上。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您还可以采用以下方法设置此值：选择该组合，在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上单击 **“行为”**，然后选中 **“接受放下的形状”** 复选框。 
   

@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: f1dcf0ec-8b4a-4ee1-9208-b1c84e30d37b
 description: 确定形状与其他形状组合在一起时是否采用渐变, 作为布尔值。 UseGroupGradient 单元格的值仅影响形状填充。
 ms.openlocfilehash: a69b48095aec93705c686a5401051f1d1e368d18
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337154"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411363"
 ---
 # <a name="usegroupgradient-cell-gradient-properties-section"></a>UseGroupGradient 单元格 ("渐变属性" 部分)
 
 确定形状与其他形状组合在一起时是否采用渐变, 作为布尔值。 **UseGroupGradient**单元格的值仅影响形状填充。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要从另一个公式按名称获取对**UseGroupGradient**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   

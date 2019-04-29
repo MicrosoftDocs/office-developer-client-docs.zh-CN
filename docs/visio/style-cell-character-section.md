@@ -10,24 +10,24 @@ localization_priority: Normal
 ms.assetid: 4372f1e1-f0a9-2f63-ff79-58f2afdceed5
 description: 显示应用于形状的文本块中一定范围内的文本的字符格式。
 ms.openlocfilehash: 349bdc42485aa511011aeb85a43f1ab3e4ea853d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329809"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411426"
 ---
 # <a name="style-cell-character-section"></a>Style 单元格（“Character”内容）
 
 显示应用于形状的文本块中一定范围内的文本的字符格式。
   
-|**Style**|**值**|**自动常量**|
+|**样式**|**值**|**自动常量**|
 |:-----|:-----|:-----|
 | 粗体  <br/> | &amp;H1  <br/> |**visBold** <br/> |
 | 斜体  <br/> | &amp;H2  <br/> |**visItalic** <br/> |
 | 下划线  <br/> | &amp;H4  <br/> |**visUnderLine** <br/> |
 | 小型大写字母  <br/> | &amp;H8  <br/> |**visSmallCaps** <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果“Character”内容包含多行，则 Style 单元格包含应用于某形状文本的一个子范围的格式编排信息。否则，它就包含该形状的所有文本的格式设置信息。
   

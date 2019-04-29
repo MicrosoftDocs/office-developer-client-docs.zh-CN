@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 92067b5badfb2aab40f3b3735a164bc09321702c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322402"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409655"
 ---
 # <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown : IUnknown
 
@@ -44,7 +44,7 @@ ms.locfileid: "32322402"
 |[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |向 mapi 提供程序指示 mapi 客户端即将执行快速关闭, 以便提供程序可以采取措施来防止数据丢失。  <br/> |
 |[DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) <br/> |向 mapi 提供程序指示 mapi 客户端立即退出, 以便 mapi 提供程序将保留所做的更改以防止数据丢失。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 Fast shutdown 允许 MAPI 客户端在短时间内退出其进程, 因此在客户端和加载的 mapi 提供程序保存了 mapi 设置和数据之后, 也是如此。 mapi 客户端总是启动快速关闭, 并应查询 mapi 子系统, 以便从加载的 MAPI 提供程序中快速关闭支持。 管理员可以在用户级别设置 Windows 注册表, 以指定允许快速关闭所有 MAPI 客户端所必需的提供程序支持级别。 有关注册表设置的详细信息, 请参阅[Fast Shutdown User Options](fast-shutdown-user-options.md)。 但是, 为了使快速关闭在不丢失数据的情况下成功进行, MAPI 提供程序应实现**IMAPIProviderShutdown**接口。 
   

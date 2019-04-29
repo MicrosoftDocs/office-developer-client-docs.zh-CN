@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 42015740-a94f-4628-bf32-b7fc2fdb9ff6
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fb4402100891df8b27c8d26900a4acd05f4183e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344560"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419623"
 ---
 # <a name="smtp-addresses"></a>SMTP 地址
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f26384f1-467e-4343-92b3-0425da9d2123
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 26d6ffe66a5e7749c9d8c4e5210e9f72de808932
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328867"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416291"
 ---
 # <a name="imapitablequeryrows"></a>IMAPITable::QueryRows
 
@@ -67,7 +67,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 将_IRowCount_参数设置为零。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPITable:: QueryRows**方法从表中获取一个或多个数据行。 _IRowCount_参数的值影响检索的起始点。 如果_IRowCount_为正数, 则从当前位置开始沿正向方向读取行。 如果_IRowCount_为负值, **QueryRows**将通过向后移动指定的行数来重置起始点。 重置游标后, 将按正向顺序读取行。 
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ec1b8e14-b27d-4a28-b9b7-f36f7c3e7427
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2edc65b4c0dad964e83b2731528124a86c87a32d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338113"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418307"
 ---
 # <a name="pidtagcontactaddressbookuid-canonical-property"></a>PidTagContactAddressBookUid 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "32338113"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果配置了多个联系人通讯簿, 则必须为每个通讯簿设置此属性。 
   

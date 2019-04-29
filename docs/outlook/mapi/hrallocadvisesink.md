@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1dd460e6-ce95-4fef-bb5e-8d778c9716d5
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7f9873fe8e1825c68d4540cc1d093171e9f95727
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348214"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428898"
 ---
 # <a name="hrallocadvisesink"></a>HrAllocAdviseSink
 
@@ -59,7 +59,7 @@ STDAPI HrAllocAdviseSink(
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要使用**HrAllocAdviseSink**函数, 客户端应用程序或服务提供程序将创建一个用于接收通知的对象, 基于与该对象一起使用的[NOTIFCALLBACK](notifcallback.md)函数原型创建一个通知回调函数。并将指向**HrAllocAdviseSink**函数中的对象的指针作为_lpvContext_值传递。 执行此操作将执行通知;作为通知过程的一部分, MAPI 将调用回调函数, 并将对象指针作为上下文。 
   

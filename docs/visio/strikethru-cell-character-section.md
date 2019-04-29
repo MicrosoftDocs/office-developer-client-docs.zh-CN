@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: b03b4415-0b1a-eb03-2b5e-373b39a0f07a
 description: 确定文本格式是否设置为带删除线。
 ms.openlocfilehash: 4a58123814a4782c279a36d202e1293ec222ef93
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349334"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412427"
 ---
 # <a name="strikethru-cell-character-section"></a>Strikethru 单元格（“Character”内容）
 
 确定文本格式是否设置为带删除线。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |将文本格式设为带删除线。  <br/> |
 |FALSE  <br/> |将文本格式设为不带删除线。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 还可以使用 **“文本”** 对话框（在 **“开始”** 选项卡上，单击 **“字体”** 箭头）设置此单元格的值。 
   

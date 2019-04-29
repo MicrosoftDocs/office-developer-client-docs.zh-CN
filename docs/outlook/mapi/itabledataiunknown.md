@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ac7ae09f-ce19-45cf-8963-fad5bba75452
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3992bea899239ee5975505dec366490d6bbe1698
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348767"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430593"
 ---
 # <a name="itabledata--iunknown"></a>ITableData : IUnknown
 
@@ -50,7 +50,7 @@ ms.locfileid: "32348767"
 |[HrModifyRows](itabledata-hrmodifyrows.md) <br/> |插入多个表行, 这些行可能会替换现有行。  <br/> |
 |[HrDeleteRows](itabledata-hrdeleterows.md) <br/> |删除多个表行。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ITableData**的 MAPI 实现通过将所有数据和任何关联的限制保留在内存中, 使其不适合用于非常大的表, 从而处理表。 不支持大型限制和复杂操作, 例如分类。 
   

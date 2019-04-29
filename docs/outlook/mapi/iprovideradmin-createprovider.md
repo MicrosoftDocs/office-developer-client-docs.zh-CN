@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 80c1449a-6cd9-4b93-a300-395979894b71
 description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 72dddca5a8079374600e05b96a24cbbc25e7f7f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279554"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430803"
 ---
 # <a name="iprovideradmincreateprovider"></a>IProviderAdmin::CreateProvider
 
@@ -76,7 +76,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IProviderAdmin:: CreateProvider**方法将服务提供程序添加到邮件服务中。 _lpszProvider_参数必须指向属于邮件服务的提供程序的名称。 **CreateProvider**不验证该名称是否与服务中的提供程序的名称匹配;如果传递的名称与服务名称不匹配, 则调用会成功, 但结果是不可预知的。 大多数邮件服务在使用配置文件时不允许添加或删除提供程序。 
   

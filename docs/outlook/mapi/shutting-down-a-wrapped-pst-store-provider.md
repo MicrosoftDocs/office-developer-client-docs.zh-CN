@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 0c9e5917-1b96-323d-bf8b-1d3aa1f677d0
 description: '上次修改时间: 2012 年7月2日'
 ms.openlocfilehash: fa918920213ee77c4d0c1d3ccc239ae7cffe81fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282780"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409942"
 ---
 # <a name="shutting-down-a-wrapped-pst-store-provider"></a>关闭打包的 PST 存储区提供程序
 
