@@ -24,7 +24,7 @@ ms.locfileid: "32300635"
 
 *expression* .FindNext(***Criteria***)
 
-*表达式* 一个表示 **Recordset** 对象的变量。
+*expression* 一个表示 **Recordset** 对象的变量。
 
 ## <a name="parameters"></a>参数
 
@@ -45,9 +45,9 @@ ms.locfileid: "32300635"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>条件</em></p></td>
+<td><p><em>Criteria</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>字符串</strong></p></td>
 <td><p>用于查找记录的字符串。 它类似于 SQL 语句中的 WHERE 子句，但不包括单词 WHERE。</p></td>
 </tr>
 </tbody>
@@ -58,9 +58,9 @@ ms.locfileid: "32300635"
 
 如果要在搜索中包括所有记录（而不仅仅是符合特定条件的记录），请使用 **Move** 方法在记录之间移动。若要在表类型的 **Recordset** 中查找记录，请使用 **Seek** 方法。
 
-如果没找到条件匹配的记录，当前记录指针未知，且**NoMatch**属性设置为**True**。 如果 recordset 包含多个符合条件的记录， **FindFirst** 将查找第一个出现的记录， **FindNext** 将查找下一个出现的记录，以此类推。
+如果没找到条件匹配的记录，当前记录指针未知，且 **NoMatch** 属性设置为 **True**。 如果记录集包含多个符合条件的记录，则 **FindFirst** 将查找第一个出现的记录，**FindNext** 将查找下一个出现的记录，以此类推。
 
-每个**Find**方法都从下表中指定的位置和方向开始搜索。
+每个 **Find** 方法都从下表中指定的位置和方向开始搜索。
 
 <table>
 <colgroup>
@@ -89,7 +89,7 @@ ms.locfileid: "32300635"
 <tr class="odd">
 <td><p><strong>FindNext</strong></p></td>
 <td><p>当前记录</p></td>
-<td><p>记录集末尾</p></td>
+<td><p>记录集结尾</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FindPrevious</strong></p></td>
@@ -100,11 +100,11 @@ ms.locfileid: "32300635"
 </table>
 
 
-但是，使用 **Find** 方法之一与使用 **Move** 方法不同，后者只是将第一条、最后一条、下一条或上一条记录设置为当前记录，而不会指定条件。可以在 Find 操作后面跟随一个 Move 操作。
+但是，使用 **Find** 方法之一与使用 **Move** 方法不同，后者只是将第一条、最后一条、下一条或上一条记录设置为当前记录，而不会指定条件。可以在 Find 操作后进行一个 Move 操作。
 
-始终检查 **NoMatch** 属性的值，以确定 Find 操作是否已成功。如果搜索成功，则 **NoMatch** 为 **False**。如果搜索失败，则 **NoMatch** 为 **True**，并且不定义当前记录。在这种情况下，必须将当前记录指针往回定位到有效的记录。
+始终检查 **NoMatch** 属性的值，以确定 Find 操作是否已成功。如果搜索成功，则 **NoMatch** 为 **False**。如果搜索失败，则 **NoMatch** 为 **True**，并且未定义当前记录。在这种情况下，必须将当前记录指针定位回有效的记录。
 
-借助 Microsoft Access 数据库引擎连接 ODBC 访问记录集使用**Find**方法效率低下。 您可能会发现，通过缩小 criteria 范围查找特定记录的速度更快，在处理大型记录集时尤其如此。
+借助 Microsoft Access 数据库引擎连接的访问 ODBC 的记录集使用**Find**方法效率低下。 你可能会发现，通过改写条件查找特定记录速度更快，在处理大型记录集时尤其如此。
 
 在 ODBCDirect 工作区中， **Find** 和 **Seek** 方法并不是对任何类型的 **Recordset** 对象可用，因为在网络上通过 ODBC 连接执行 **Find** 或 **Seek** 不是十分有效。 应该使用正确的 WHERE 子句设计查询（也就是说，对 OpenRecordset 方法使用 **source** 参数），该子句可将返回的记录限制为符合 **Find** 或 **Seek** 方法中使用的条件的那些记录。
 
@@ -117,19 +117,19 @@ ms.locfileid: "32300635"
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-如果 criteria 由连接了非整数值的字符串组成，并且系统参数指定了诸如逗号的非美国格式小数字符（例如 strSQL = "PRICE \> " & lngPrice 和 lngPrice = 125,50），那么在尝试调用此方法时发生错误。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 Microsoft Access SQL 只接受美国格式的小数字符。
+如果标准由用非整数值连接的字符串组成，并且系统参数指定了诸如逗号的非美国格式小数点字符（例如 strSQL = "PRICE \> " & lngPrice 和 lngPrice = 125,50），那么在尝试调用此方法时会发生错误。 这是因为在连接过程中，需要使用系统的默认小数点字符将数字转换为字符串，并且 Microsoft Access SQL 只接受美国格式的小数点字符。
 
 > [!NOTE]
-> - 为获取最佳性能，*criteria*应该要么是“*field* = *value*”，其中 *field*为基础基表中的索引字段；要么是“*field* LIKE *prefix*”，其中*field*是基础基表中的索引字段，*prefix*是前缀搜索字符串（例如 "ART*"）。
+> - 为获取最佳性能，*criteria*应该要么是“*field* = *value*”，其中 *field* 为基础表中的索引字段；要么是“*field* LIKE *prefix*”，其中 *field* 是基础表中的索引字段，*prefix* 是前缀搜索字符串（例如 "ART*"）。
 > 
-> - 一般而言，作为等效的搜索类型， **Seek** 方法的性能优于 **Find** 方法。这假定表类型的 **Recordset** 对象可单独满足您的需求。
+> - 一般而言，作为等效的搜索类型， **Seek** 方法的性能优于 **Find** 方法。这假定表类型的 **Recordset** 对象可单独满足你的需求。
 
 
 ## <a name="example"></a>示例
 
 以下示例说明如何使用 FindFirst 和 FindNext 方法在 Recordset 中查找记录。
 
-**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码由**[Microsoft Access 2010 程序员参考资料](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)提供。
 
 
 ```vb
