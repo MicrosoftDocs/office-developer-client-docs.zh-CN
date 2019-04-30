@@ -39,7 +39,6 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/office/client-developer/breadcrumb/toc.json",
-      "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/office-developer-client-docs",
       "extendBreadcrumb": true,
       "ms.author": "o365devx",
@@ -81,16 +80,17 @@
         "visio/**.md": "visio"
       },
       "feedback_system": {
-        "access/**/*.md": "GitHub",
-        "excel/**/*.md": "GitHub",
-        "infopath/**/*.md": "GitHub",
-        "integration/**/*.md": "GitHub",
-        "onenote/**/*.md": "GitHub",
-        "outlook/**/*.md": "GitHub",
-        "project/**/*.md": "GitHub",
-        "shared/**/*.md": "GitHub",
-        "visio/**/*.md": "GitHub",
-        "word/**/*.md": "GitHub"
+        "ddpi/**/*.md": "GitHub",
+        "access/**/*.md": "None",
+        "excel/**/*.md": "None",
+        "infopath/**/*.md": "None",
+        "integration/**/*.md": "None",
+        "onenote/**/*.md": "None",
+        "outlook/**/*.md": "None",
+        "project/**/*.md": "None",
+        "shared/**/*.md": "None",
+        "visio/**/*.md": "None",
+        "word/**/*.md": "None"
       }
     },
     "template": [],
