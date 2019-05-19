@@ -1,17 +1,17 @@
 ---
 title: Project Server 体系结构
 manager: soliver
-ms.date: 09/17/2015
+ms.date: 05/17/2019
 ms.audience: Developer
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: Project Server 2013 在整个 SharePoint 场中集成项目管理功能，并支持结合使用 Project Online 与客户端对象模型 (CSOM) 和用于报告数据的 OData 接口。
 localization_priority: Priority
-ms.openlocfilehash: db4dd0eed9c043021f586041fa0e28708fdbd243
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fd940c9ae74e04587cdfa83354b6ee71da21073c
+ms.sourcegitcommit: e2cff03cb13d6c500942897b234db00476a72f18
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301588"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34100893"
 ---
 # <a name="project-server-architecture"></a>Project Server 体系结构
 
@@ -226,7 +226,7 @@ Project Server 数据在 Project 数据库中进行分区，如下所示：
   
 每个 Project Web App 实例的 Project Server 数据存储在名称不同的各个 Project 数据库中。 有权直接访问 Project Server 的客户端应用可以直接读取报告表格和视图。 对于远程访问，客户端应用可以使用 OData 接口和 REST 接口来获取报告数据。 客户端应仅使用 CSOM 或 PSI 来访问草稿、已发布和存档表格和视图。 报告数据服务 (RDS)（图 3 中未显示）几乎实时地更新已发布数据中的报告数据。 Project 数据库可以位于独立服务器上。
   
-仅对报告表格和视图记录架构。 对于本地 Project Server 安装，可以添加 Project 数据库架构中未定义的实体的报告表格和视图。 还可以为自定义本地应用创建独立数据库。 不支持修改草稿、已发布和存档表格和视图。 由于无法在 Project Online 中直接访问 Project 数据库，因此也就无法修改报告表格和视图。 不过，如果拥有 SQL Azure 帐户，可以创建独立数据库，以自定义用于 Project Online。
+仅对报告表格和视图记录架构。 对于本地 Project Server 安装，可以添加 Project 数据库架构中未定义的实体的报告表格和视图。 还可以为自定义本地应用创建独立数据库。 不支持修改草稿、已发布和存档表格和视图。 如果你的自定义应用程序或报表需要自定义 SQL 对象（例如表格和视图），我们建议你在自定义数据库中创建这些对象。 由于无法在 Project Online 中直接访问 Project 数据库，因此也就无法修改报告表格和视图。 不过，如果拥有 SQL Azure 帐户，可以创建独立数据库，以自定义用于 Project Online。
   
 ### <a name="event-receivers"></a>事件接收器
 <a name="pj15_Architecture_EventHandlers"> </a>
