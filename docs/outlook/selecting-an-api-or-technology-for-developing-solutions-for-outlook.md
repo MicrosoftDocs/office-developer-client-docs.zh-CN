@@ -1,17 +1,17 @@
 ---
 title: 选择某个 API 或技术开发适用于 Outlook 的解决方案
 manager: soliver
-ms.date: 10/21/2016
+ms.date: 05/21/2019
 ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: 本文介绍 API 和相关技术，用户可以将它们用于扩展 Outlook 2013 和 Outlook 2016，并帮助决定适用于用户方案的 API 或技术。
 localization_priority: Priority
-ms.openlocfilehash: c744fcd834c01bd2835f88843d4be67e6122ac15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 54931ea9235e549a8fb4338c425123b99c2b11e4
+ms.sourcegitcommit: 9716521f7bcd531f93be9855ae7835be20cdd0e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279253"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34250424"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>选择某个 API 或技术开发适用于 Outlook 的解决方案
 
@@ -44,9 +44,10 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 - 对象模型和 MAPI 允许您在 Outlook 中扩展哪些项？
     
 - 如果可以使用对象模型或 MAPI 来完成任务，那么应如何决定使用哪个 API 呢？
-    
-## <a name="objective-evaluation-criteria"></a>对象评估标准
+
 <a name="OLSelectAPI_ObjectiveChar"> </a>
+
+## <a name="objective-evaluation-criteria"></a>目标评估条件
 
 此部分描述了可用于比较 Office 外接程序平台、对象模型、PIA 和 MAPI 的条件以确定哪一个可以更好地满足您的需求。不同条件的重要性的增减取决于您的项目和可用的资源。
   
@@ -59,9 +60,10 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 - 安全条件 - 介绍与技术相关的安全和权限问题。
     
 - 部署条件 - 介绍针对技术推荐的部署和分发方法。
-    
-### <a name="objective-evaluation-criteria-for-the-apps-for-office-platform"></a>适用于 Office 平台的相关应用程序的目标评估条件
+
 <a name="OLSelectAPI_ObjectiveEvalCritApps"> </a>
+
+### <a name="objective-evaluation-criteria-for-the-apps-for-office-platform"></a>适用于 Office 平台的相关应用的目标评估条件
 
 从 Office 2013 开始，开发人员可以使用 Office 外接程序平台将 Web 服务和内容扩展到 Office 富客户端和 Web 客户端的上下文环境中。Office 外接程序是一个使用常见 Web 技术开发的网页，它托管在 Office 客户端应用程序（如 Outlook）中，并可在本地或在云中运行。在几种 Office 外接程序类型当中，Outlook 支持的类型被称为邮件应用程序。虽然对象模型、PIA 和 MAPI 通常用于在应用程序级别自动化 Outlook，然而您可以使用适用于 Office 的 JavaScript API 在项目级别与电子邮件的内容和属性、会议请求或约会进行交互。您可以将邮件应用程序发布到 Office 商店或内部 Exchange 目录。 
   
@@ -118,9 +120,10 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 |客户端平台要求  <br/> |对于将运行在 Outlook 富客户端、Outlook 2013 和 Internet Explorer 9 上或运行在这些应用程序的更高版本上的邮件应用程序，要求必须安装在本地计算机上。  <br/> |
 |部署方法  <br/> |您可以将邮件应用程序发布到 Office 商店或发布到对该 Exchange Server 上的用户提供该应用程序的 Exchange 目录。然后，管理员或用户可以通过使用 Exchange 管理中心 (EAC) 或通过运行远程 Windows PowerShell cmdlet，选择从 Office 商店或 Exchange 目录安装邮件应用程序。您可以从 Outlook Backstage 视图或 Outlook Web App，或通过直接登录到您邮箱的 EAC 来访问 EAC。  <br/> 有关详细信息，请参阅[部署和安装 Outlook 外接程序以进行测试](https://msdn.microsoft.com/library/d6eea4c4-bb21-4f24-bcba-1eccbb4e12dd%28Office.15%29.aspx)。  <br/> |
 |部署说明  <br/> |一旦您在 Outlook 或 Outlook Web App 上安装了邮件应用程序，该邮件应用程序即可在这两个 Outlook 客户端上供该邮箱使用。  <br/> |
-   
-### <a name="objective-evaluation-criteria-for-the-object-model-and-pia"></a>对象模型和 PIA 的目标评估条件
+
 <a name="OLSelectAPI_ObjectiveEvalCritApps"> </a>
+
+### <a name="objective-evaluation-criteria-for-the-object-model-and-pia"></a>对象模型和 PIA 的目标评估条件
 
 在客户端计算机上运行的解决方案可以使用 Outlook 对象模型或 PIA 以编程方式访问 Outlook 项目，如联系人、邮件、日历项目、会议请求和任务。与 MAPI 不同，Outlook 对象模型和 PIA 可以提供 Outlook 用户界面更改的事件通知，例如更改当前文件夹或显示 Outlook 检查器。
   
@@ -172,9 +175,10 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 |客户端平台要求  <br/> |使用 Outlook 对象模型或 PIA 访问 Exchange 数据的应用程序要求在本地计算机上安装 Outlook。  <br/> |
 |部署方法  <br/> |使用 Outlook 对象模型或 PIA 的应用程序通过使用标准的应用程序安装软件进行分发。  <br/> |
 |部署说明  <br/> |因为不应在 Exchange Server 上安装 Outlook，所以使用 Outlook 对象模型或 PIA 的应用程序无法在 Exchange Server 上运行。  <br/> |
-   
-### <a name="objective-evaluation-criteria-for-mapi"></a>MAPI 的目标评估标准
+
 <a name="OLSelectAPI_ObjectiveEvalCritApps"> </a>
+
+### <a name="objective-evaluation-criteria-for-mapi"></a>MAPI 的目标评估标准
 
 您可以使用 MAPI 来访问公用和私人存储中的项目和文件夹，以及访问通过每个项目存储的属性。所有版本的 Outlook 都使用 MAPI。您可以创建使用 MAPI 的客户端，也可以创建 MAPI 服务器和 MAPI 窗体处理程序。此部分中的信息仅适用于 MAPI 客户端应用程序。
   
@@ -225,9 +229,10 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 |客户端平台要求  <br/> |客户端应用程序安装程序应该验证 MAPI 的正确版本是否可在计算机上使用，是否通过使用 Mapisvc.inf 文件正确完成了配置。  <br/> |
 |部署方法  <br/> |可以通过使用标准的软件分发技术将使用 MAPI 的应用程序部署到客户端计算机。  <br/> |
 |部署说明  <br/> |安装程序应该验证正确版本的 MAPI 是否可用。  <br/> |
-   
-## <a name="decision-factors-for-the-apps-for-office-platform"></a>适用于 Office 平台的应用程序的决定因素
+
 <a name="OLSelectAPI_FactorsApps"> </a>
+
+## <a name="decision-factors-for-the-apps-for-office-platform"></a>适用于 Office 平台的应用的决定因素
 
 因为 Office 外接程序使用 Web 技术，所以它们最适合连接到云或本地服务，并将服务引入富客户端和 Web 客户端的上下文环境。通过请求适当的权限，邮件应用程序还允许在邮箱中执行读取、写入或发送邮件的操作。
   
@@ -266,109 +271,103 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 - 可以在 Outlook 2013 和 Exchange Server 2013 以及 Outlook 和 Exchange 的早期版本上使用加载项。另一方面，从 Outlook 2013 和 Exchange Server 2013 开始，邮件应用程序可以使用 Outlook 和 Exchange，而不能使用它们较早的版本。
     
 有关对象模型和 PIA 支持的方案的详细信息，请参阅下一节[对象模型或 PIA 的决定因素](#OLSelectAPI_FactorsOM)。有关对 Office 外接程序平台与其他 Office 相关扩展性技术的比较，请参阅 [Office 和 SharePoint 相关应用程序的背景](https://blogs.msdn.com/b/officeapps/archive/2012/07/23/introducing-apps-for-the-new-office-and-sharepoint.aspx)。
-  
-## <a name="decision-factors-for-the-object-model-or-pia"></a>对象模型或 PIA 的决定因素
+
 <a name="OLSelectAPI_FactorsOM"> </a>
 
-通常情况下，如果您的解决方案自定义 Outlook 用户界面或依赖于 Outlook 的业务逻辑，则可以使用对象模型或 PIA。图 2 显示了 Outlook 解决方案使用对象模型或 PIA 时对应的主要基准方案。 
+## <a name="decision-factors-for-the-object-model-or-pia"></a>对象模型或 PIA 的决定因素
+
+### <a name="major-baseline-scenarios-supported-by-the-outlook-object-model-or-pia"></a>Outlook 对象模型或 PIA 支持的主要基准方案
+
+一般情况下，如果解决方案自定义 Outlook 用户界面或依赖于 Outlook 的业务逻辑，请使用对象模型或 PIA。 以下是 Outlook 解决方案使用对象模型或 PIA 时对应的主要基准方案。 
   
-> [!NOTE]
-> 有关这些方案的详细信息，请单击下图中的框。 
-  
-图 2. Outlook 对象模型或 PIA 支持的主要基准方案
-  
-[![自定义 Outlook UI](media/odc_ol15_ta_SelectingTech_Fig2-1.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_CustomizeTheOutlookInterface)[![使用 Outlook 项目](media/odc_ol15_ta_SelectingTech_Fig2-2.gif)
-  
-](https://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)[![自定义项目属性、域和表单](media/odc_ol15_ta_SelectingTech_Fig2-3.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_ItemPropFieldsForms)
-  
-[![处理 Outlook 事件](media/odc_ol15_ta_SelectingTech_Fig2-4.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Events)[![实现 Outlook 自动化](media/odc_ol15_ta_SelectingTech_Fig2-5.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_AutomateOutlook)
-  
-除了这些基准方案，如果您的 Outlook 解决方案支持图 3 中所示的方案并且您的解决方案适合运行在 Outlook 2007 或更高版本，而非早期版本上，那么您可以使用对象模型或 PIA。图 3 中指定您可以在 Outlook 对象模型中用来扩展每种方案的主对象或成员（Visual Studio 自动化对象模型中的 [IDTExtensibility2](https://msdn.microsoft.com/library/Extensibility.IDTExtensibility2.aspx) 接口和 Office 对象模型中的 [IRibbonExtensibility](https://msdn.microsoft.com/library/b27a7576-b6f5-031e-e307-78ef5f8507e0%28Office.15%29.aspx) 接口除外，您可以将这些接口与 Outlook 对象模型进行集成）。 
-  
-图 3. 自 Outlook 2007 以来对象模型或 PIA 支持的其他方案
-  
-[![自定义 Outlook UI](media/odc_ol15_ta_SelectingAPI_Fig3-1.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_CustomizeTheOutlookInterface)[![自定义表单区域](media/odc_ol15_ta_SelectingTech_Fig3-2.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_CustomFormRegions)[![使用 PropertyAccessor 访问属性](media/odc_ol15_ta_SelectingAPI_Fig3-3.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_CustomizingProperties)
-  
-[![枚举和查看文件夹中的项目](media/odc_ol15_ta_SelectingAPI_Fig3-4.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Enumerating)[![将项目标记为任务](media/odc_ol15_ta_SelectingAPI_Fig3-5.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_ItemsFlag)[![共享日历、RSS 源和文件夹](media/odc_ol15_ta_SelectingAPI_Fig3-6.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Sharing)
-  
-[![管理附件](media/odc_ol15_ta_SelectingAPI_Fig3-7.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Attachments)[![管理规则、时区和视图](media/odc_ol15_ta_SelectingAPI_Fig3-8.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Misc)[![添加或删除类别](media/odc_ol15_ta_SelectingAPI_Fig3-9.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Categories)
-  
-[![获取帐户的详细信息](media/odc_ol15_ta_SelectingAPI_Fig3-10.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_PrimaryAccount)[![管理 Exchange 分发列表和用户](media/odc_ol15_ta_SelectingAPI_Fig3-11.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_AddressBook)[![存储用于解决方案的私有数据](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_StoringData)
-  
-如果您的 Outlook 解决方案适合运行在 Outlook 2010 上，而不是早期版本上，则您可以选择使用对象模型或 PIA 支持图 4 中所示的方案。图 4 中指定您可以在 Outlook 对象模型中用来扩展每种方案的主对象或成员（Office 对象模型中的 [IRibbonControl](https://msdn.microsoft.com/library/63aef709-e1d3-b1a6-76af-b568ad0e69ae%28Office.15%29.aspx)、[IRibbonExtensibility](https://msdn.microsoft.com/library/b27a7576-b6f5-031e-e307-78ef5f8507e0%28Office.15%29.aspx) 和 [IRibbonUI](https://msdn.microsoft.com/library/d323aa21-de74-e821-c914-db71ef3b9c5e%28Office.15%29.aspx) 接口除外，您可以将这些接口与 Outlook 对象模型集成）。 
-  
-图 4. 自 Outlook 2010 以来对象模型或 PIA 支持的其他方案
-  
-[![自定义 Outlook 2010 UI](media/odc_ol15_ta_SelectingAPI_Fig4-1.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_CustomizingUIOutlook2010)[![管理会话中的项目](media/odc_ol15_ta_SelectingAPI_Fig4-2.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Conversations)[![在资源管理器中管理项目的选择](media/odc_ol15_ta_SelectingAPI_Fig4-3.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_ItemSelection)
-  
-[![在检查器中管理附件的选择](media/odc_ol15_ta_SelectingAPI_Fig4-4.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_AttachmentSelection)[![在一个配置文件中支持多个 Exchange 帐户](media/odc_ol15_ta_SelectingAPI_Fig4-5.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_MultipleAccounts)[![为地址词条创建联系人卡片](media/odc_ol15_ta_SelectingAPI_Fig4-6.gif)
-  
-](https://msdn.microsoft.com/library/d050e0e3-3c0d-bd01-f008-2628056625d1%28Office.15%29.aspx)
-  
-[![组织特定于解决方案的文件夹](media/odc_ol15_ta_SelectingAPI_Fig4-7.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Folders)
-  
-如果您的解决方案适合运行在 Outlook 2013 上，而不是早期版本上，则您可以使用对象模型或 PIA 支持图 5 中所示的方案。
-  
-图 5. 自 Outlook 2013 以来对象模型或 PIA 支持的其他方案
-  
-[![显示当前文件夹中所有联系人的视图](media/odc_ol15_ta_SelectingAPI_Fig5-1.gif)
-  
-](https://msdn.microsoft.com/library/7b569709-5da8-a950-a0fb-9d64b520a21b%28Office.15%29.aspx)[![阅读窗格中的内嵌响应](media/odc_ol15_ta_SelectingAPI_Fig5-2.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_InlineResponse)[![针对联系人显示检查地址或完整名称对话框](media/odc_ol15_ta_SelectingAPI_Fig5-3.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_ContactCheckDialogs)
-  
-[![检测是否完成读取项目属性](media/odc_ol15_ta_SelectingAPI_Fig5-4.gif)
-  
-](https://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
-  
-## <a name="decision-factors-for-mapi"></a>MAPI 的决定因素
+- [自定义 Outlook 用户界面](#OLSelectAPI_CustomizeTheOutlookInterface)
+- [添加、删除、读取、写入、筛选、搜索或排序 Outlook 项目](https://docs.microsoft.com/office/vba/outlook/How-to/Items-Folders-and-Stores/outlook-item-objects)
+- [自定义项目属性、字段和窗体](#OLSelectAPI_ItemPropFieldsForms)
+- [处理 Outlook 事件，如切换文件夹或打开项目](#OLSelectAPI_Events)
+- [自动运行 Outlook 并与其他 Office 应用程序集成](#OLSelectAPI_AutomateOutlook)
+
+<!--Images removed because we can't add a link to the images. If someone figures out a way to do this, you can add them back in but they're not really needed; I replaced them with a bulleted list here and after the next paragraph: 
+![Customize the Outlook UI](media/odc_ol15_ta_SelectingTech_Fig2-1.gif)
+![Use Outlook items](media/odc_ol15_ta_SelectingTech_Fig2-2.gif)
+![Customize item properties, fields, and forms](media/odc_ol15_ta_SelectingTech_Fig2-3.gif)
+![Process Outlook events](media/odc_ol15_ta_SelectingTech_Fig2-4.gif)
+![Automate Outlook](media/odc_ol15_ta_SelectingTech_Fig2-5.gif)-->
+
+### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>自 Outlook 2007 以来对象模型或 PIA 支持的其他方案
+
+除了这些基准方案，如果你的 Outlook 解决方案支持以下列表中的任一方案并且你的解决方案适合运行在 Outlook 2007 或更高版本，而非早期版本上，那么你可以使用对象模型或 PIA。 本节指定你可以在 Outlook 对象模型中用来扩展每种方案的主对象或成员（Visual Studio 自动化对象模型中的 [IDTExtensibility2](https://docs.microsoft.com/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017) 接口和 Office 对象模型中的 [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) 接口除外，你可以将这些接口与 Outlook 对象模型进行集成）。 
+
+- [自定义 Outlook UI：Office Fluent 功能区、导航窗格、任务窗格](#OLSelectAPI_CustomizeTheOutlookInterface)
+- [将窗体自定义为窗体区域并通过加载项进行部署](#OLSelectAPI_CustomFormRegions)
+- [设置和获取未在对象模型中公开的内置项目级属性](#OLSelectAPI_CustomizingProperties)
+- [枚举和查看文件夹中的多个项目](#OLSelectAPI_Enumerating)
+- [将项目标记为任务](#OLSelectAPI_ItemsFlag)
+- [共享日历、RSS 源和文件夹](#OLSelectAPI_Sharing)
+- [添加、删除、保存和获取区块级别、路径、大小和附件类型](#OLSelectAPI_Attachments)
+- [管理规则、时区和视图](#OLSelectAPI_Misc)
+- [向当前配置文件的主类别列表添加或删除类别](#OLSelectAPI_Categories)
+- [获取当前配置文件中帐户的详细信息](#OLSelectAPI_PrimaryAccount)
+- [将 Exchange 通讯组列表或用户的详细信息作为地址条目获取](#OLSelectAPI_AddressBook)
+- [存储解决方案的专用数据](#OLSelectAPI_StoringData)
+
+<!--More removed images
+![Customize the Outlook UI](media/odc_ol15_ta_SelectingAPI_Fig3-1.gif)
+![Customize form regions](media/odc_ol15_ta_SelectingTech_Fig3-2.gif)
+![Use PropertyAccessor to access properties](media/odc_ol15_ta_SelectingAPI_Fig3-3.gif)
+![Enumerate and view items in a folder](media/odc_ol15_ta_SelectingAPI_Fig3-4.gif)
+![Flag items as tasks](media/odc_ol15_ta_SelectingAPI_Fig3-5.gif)
+![Share calendars, RSS feeds, and folders](media/odc_ol15_ta_SelectingAPI_Fig3-6.gif)
+![Manage attachments](media/odc_ol15_ta_SelectingAPI_Fig3-7.gif)
+![Manage rules, time zones, and views](media/odc_ol15_ta_SelectingAPI_Fig3-8.gif)
+![Add or remove a category](media/odc_ol15_ta_SelectingAPI_Fig3-9.gif)
+![Get detailed information for an account](media/odc_ol15_ta_SelectingAPI_Fig3-10.gif)
+![Manage Exchange distribution lists and users](media/odc_ol15_ta_SelectingAPI_Fig3-11.gif)
+![Store private data for solutions](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
+-->
+
+### <a name="more-scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>自 Outlook 2010 以来对象模型或 PIA 支持的其他方案
+
+如果你的 Outlook 解决方案适合运行在 Outlook 2010 上，而不是早期版本上，则可以选择使用对象模型或 PIA 来支持下一节所示的方案。 本节指定你可以在 Outlook 对象模型中用来扩展每种方案的主对象或成员（Office 对象模型中的 [IRibbonControl](https://docs.microsoft.com/office/vba/api/Office.IRibbonControl)、[IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) 和 [IRibbonUI](https://docs.microsoft.com/office/vba/api/Office.IRibbonUI) 接口除外，你可以将这些接口与 Outlook 对象模型集成）。 
+   
+- [自定义 Outlook 2010 UI，如 Office Backstage 视图和上下文菜单](#OLSelectAPI_CustomizingUIOutlook2010)
+- [管理和访问对话中的异类项目](#OLSelectAPI_Conversations)
+- [在资源管理器中管理项目选择或查找所选项目](#OLSelectAPI_ItemSelection)
+- [管理检查器中的附件选择](#OLSelectAPI_AttachmentSelection)
+- [在一个配置文件中支持多个 Exchange 帐户](#OLSelectAPI_MultipleAccounts)
+- [为地址条目创建联系人卡片](https://docs.microsoft.com/office/vba/api/Outlook.NameSpace.CreateContactCard)
+- [在解决方案模块中组织特定于解决方案的文件夹](#OLSelectAPI_Folders)
+
+<!--more removed images:
+![Customize the Outlook 2010 UI](media/odc_ol15_ta_SelectingAPI_Fig4-1.gif)
+![Manage items in a conversation](media/odc_ol15_ta_SelectingAPI_Fig4-2.gif)
+![Manage selection of items in an explorer](media/odc_ol15_ta_SelectingAPI_Fig4-3.gif)
+![Manage selection of attachments in an inspector](media/odc_ol15_ta_SelectingAPI_Fig4-4.gif)
+![Support multiple Exchange accounts in one profile](media/odc_ol15_ta_SelectingAPI_Fig4-5.gif)
+![Create a contact card for an address entry](media/odc_ol15_ta_SelectingAPI_Fig4-6.gif)
+![Organize solution-specific folders](media/odc_ol15_ta_SelectingAPI_Fig4-7.gif)
+-->
+
+### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>自 Outlook 2013 以来对象模型或 PIA 支持的其他方案
+
+如果你的解决方案适合运行在 Outlook 2013 上，而不是早期版本上，则可以使用对象模型或 PIA 来支持以下资源中所示的方案。
+
+- [显示当前文件夹中所有联系人的视图](https://docs.microsoft.com/office/vba/api/Outlook.peopleview)
+- [在阅读窗格中选择内联响应](#OLSelectAPI_InlineResponse)
+- [显示联系人的检查地址或全名对话框](#OLSelectAPI_ContactCheckDialogs)
+- [检测是否已完成读取项目属性](https://docs.microsoft.com/office/vba/outlook/How-to/Items-Folders-and-Stores/outlook-item-objects)
+
+<!--more removed images:
+![Display view for all contacts in current folder](media/odc_ol15_ta_SelectingAPI_Fig5-1.gif)
+![Inline response in reading pane](media/odc_ol15_ta_SelectingAPI_Fig5-2.gif)
+![Show check address or full name dialog for contact](media/odc_ol15_ta_SelectingAPI_Fig5-3.gif)
+![Detecting reading item properties is complete](media/odc_ol15_ta_SelectingAPI_Fig5-4.gif)
+-->
+
+
+
 <a name="OLSelectAPI_FactorsMAPI"> </a>
+
+## <a name="decision-factors-for-mapi"></a>MAPI 的决定因素
 
 通常情况下，您使用 MAPI 来访问基于 MAPI 的服务器上的数据（如 Microsoft Exchange Server）并执行以下任务：
   
@@ -395,9 +394,10 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 - 管理帐户的邮件存储。
     
 从 Outlook 2007 开始，对象模型可以支持许多功能，而在 Outlook 2007 之前，开发人员将不得不求助于 MAPI 或其他 API（如 Microsoft 协作数据对象 (CDO) 1.2.1 和 Microsoft Exchange 客户端扩展）。因此如果上面列表中的任何方案适用于您的解决方案，但您的解决方案运行在 Outlook 2007 或 Outlook 2010 中，您可以并且应该使用 Outlook 对象模型或 PIA 来支持这些方案。有关可统一 Outlook 开发技术的 Outlook 2007 增强功能的详细信息，请参阅 [What's New for Developers in Outlook 2007 (Part 1 of 2)](https://msdn.microsoft.com/library/76e3f0b7-ef2b-4e9f-8515-3002d75d7721%28Office.15%29.aspx)。
-  
-## <a name="decision-factors-for-the-auxiliary-apis"></a>辅助 API 的决定因素
+
 <a name="OLSelectAPI_FactorsAux"> </a>
+
+## <a name="decision-factors-for-the-auxiliary-apis"></a>辅助 API 的决定因素
 
 在对象模型或 MAPI 不提供解决方案的某些情况下，可以将 Outlook 辅助 API 与 Outlook 业务逻辑或 MAPI 进行集成。在下列情况中使用 Outlook 辅助 API：
   
@@ -416,9 +416,10 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 - 对项目的分类：发送项目后对 Outlook 项进行分类。
     
 有关辅助 API 的详细信息，请参阅[其他资源 - 辅助 API](#OLSelectAPI_AdditionalResourcesAuxAPIs) 部分。 
-  
-## <a name="automating-outlook-by-in-process-vs-out-of-process-solutions"></a>根据进程内和进程外的解决方案自动化 Outlook
+
 <a name="OLSelectAPI_InOrOut"> </a>
+
+## <a name="automating-outlook-by-in-process-vs-out-of-process-solutions"></a>通过进程内和进程外的解决方案实现 Outlook 自动化
 
 > [!NOTE]
 > 本节和下节中对自动化 Outlook 的讨论超出了 Office 外接程序（旨在扩展 Office 客户端或 Web 应用程序功能而非实现自动执行功能）的范围。 
@@ -426,18 +427,20 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 Outlook 支持自动化，通过使用运行在与 Outlook 进程相同的前台进程中的外接程序以及通过使用运行在 Outlook 进程之外的独立进程中的独立解决方案来实现。通常，若要使 Outlook 自动运行，可以通过对象模型、PIA 或 MAPI 来使用外接程序与 Outlook 进行交互，在少数情况下，可通过辅助 API（如 [HrProcessConvActionForSentItem](auxiliary/hrprocessconvactionforsentitem.md)）进行。仅在必要时（例如，当您正在编写 MAPI 客户端应用程序 - 该应用程序使用 Tzmovelib.dll 文件重定客户的 Outlook 日历基本值；或当枚举文件夹中的多个项目并修改后台线程中用于优化性能的项目属性时）才使用进程外的解决方案。 
   
 外接程序是自动化 Outlook 的首选解决方案，因为在外接程序的 [OnConnection(Object, ext_ConnectMode, Object, Array)](https://msdn.microsoft.com/library/797003e7-ecd1-eccb-eaaf-32d6ddde8348%28Office.15%29.aspx) 事件持续进行期间，Outlook 仅信任传递给外接程序的 [Application](https://msdn.microsoft.com/library/Extensibility.IDTExtensibility2.OnConnection.aspx) 对象。您可以通过从此 **Application** 对象派生出所有对象、属性和方法来避免显示对象模型保护的安全警告。如果外接程序创建了 **Application** 对象的新实例，Outlook 将不信任该对象，即使该外接程序位于受信任的外接程序列表中。从此 **Application** 对象派生的任何对象、属性和方法都不会受到信任，被阻止的属性和方法将调用安全警告。有关 Outlook 对象模型保护的详细信息，请参阅 [Outlook 对象模型的安全行为（英文）](https://msdn.microsoft.com/library/4aa3b7c7-5f3f-41ce-bbf3-75d8ecbd6d4f%28Office.15%29.aspx)。
-  
-## <a name="automating-outlook-by-managed-vs-unmanaged-solutions"></a>根据托管和非托管解决方案自动化 Outlook
+
 <a name="OLSelectAPI_ManOrUnman"> </a>
+
+## <a name="automating-outlook-by-managed-vs-unmanaged-solutions"></a>根据托管和非托管解决方案自动化 Outlook
 
 Outlook 支持使用托管或非托管语言编写的外接程序和独立应用程序的自动化操作。使用频率较高的托管语言是 C# 和 Visual Basic。C++ 和 Delphi 工具在非托管开发中较为常见。当在托管和非托管开发之间进行选择时，可用的专业技能是一个要考虑的因素。 
   
 如果您的解决方案仅使用对象模型，则可以考虑使用 PIA 或使用 Visual Studio 中的 Office 开发工具来开发托管的解决方案。Visual Studio 中的 Office 开发工具提供了项目模板和可视化设计器，从而简化了创建自定义用户界面和开发 Office 解决方案的方法。
   
 此外，由于 MAPI 的开发比 .NET Framework 早了好几年，并且 Microsoft 不为 MAPI 提供托管的包装，因此 Microsoft 不支持在托管代码中使用 MAPI。如果您使用的是 MAPI，则必须开发非托管的解决方案。有关详细信息，请参阅[客户端邮件开发的支持准则](https://support.microsoft.com/kb/266353/en-us)。
-  
-## <a name="niche-apis-and-technologies"></a>间隙 API 和技术
+
 <a name="OLSelectAPI_NicheAPI"> </a>
+
+## <a name="niche-apis-and-technologies"></a>间隙 API 和技术
 
 Outlook Social Connector (OSC) 和天气栏支持在 Outlook 中扩展非常具体的方案。 
   
@@ -462,9 +465,10 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 在默认情况下，Outlook 使用 MSN 天气提供的天气数据。天气栏支持第三方天气数据 Web 服务，该服务需遵守已定义的与 Outlook 进行通信的协议。只要第三方天气数据服务支持该协议，则用户可以选择该天气数据服务，从而在天气栏中提供天气数据。
   
 请参阅[其他资源 - 主要引用、资源和代码示例](#OLSelectAPI_AdditionalResourcesRefCode)部分，了解有关使用 OSC 提供程序扩展和天气栏可扩展性的详细信息。 
-  
-## <a name="conclusion"></a>结论
+
 <a name="OLSelectAPI_Conclusion"> </a>
+
+## <a name="conclusion"></a>总结
 
 若要确定适用于您的解决方案的最佳 API 或技术，您必须首先定义您的解决方案的目标： 
   
@@ -485,28 +489,32 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 如果您有兴趣向天气栏插入第三方天气数据服务，您可以按照天气栏可扩展性定义的协议执行操作并提供适当的 Web 服务。您可以使用托管语言创建这些 Web 服务。
   
 在您决定在您的解决方案中使用 API 或技术之后，您可以参考[其他资源 - 主要引用、资源和代码示例](#OLSelectAPI_AdditionalResourcesRefCode)部分中的其他文档和代码示例，以了解详细信息。 
-  
-## <a name="see-also-office-add-ins"></a>另请参阅：Office 加载项
+
 <a name="OLSelectAPI_AdditionalResourcesApps"> </a>
+
+## <a name="see-also-office-add-ins"></a>另请参阅：Office 加载项
 
 [Office 加载项平台概述](https://msdn.microsoft.com/library/e64de870-ce22-4331-92e7-76d35279bf91%28Office.15%29.aspx)提供了对 Office 外接程序的详细介绍，包括体系结构和开发生命周期。 
   
 有关开发邮件应用的详细资源路线图，请参阅 [ Outlook 加载项](https://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx)。 
-  
-## <a name="see-also-object-model-and-pia"></a>另请参阅：对象模型和 PIA
+
 <a name="OLSelectAPI_AdditionalResourcesObjModelPIA"> </a>
 
+## <a name="see-also-object-model-and-pia"></a>另请参阅：对象模型和 PIA
+
 以下资源提供有关使用对象模型和 PIA 的详细信息。
-  
-### <a name="accountsprimary-exchange-account-in-profile"></a>帐户 - 配置文件中的主 Exchange 帐户
+
 <a name="OLSelectAPI_PrimaryAccount"> </a>
+
+### <a name="accountsprimary-exchange-account-in-profile"></a>帐户 - 配置文件中的主 Exchange 帐户
 
 - [Account](https://msdn.microsoft.com/library/f624438c-4e45-2822-18b6-bfe8074a33c0%28Office.15%29.aspx) 对象 
     
 - [NameSpace.Accounts](https://msdn.microsoft.com/library/80e969ea-d2cc-966d-5fe4-68d59951b5c9%28Office.15%29.aspx) 属性 
-    
-### <a name="accountsmultiple-accounts-in-profile"></a>帐户 - 配置文件中的多个帐户
+
 <a name="OLSelectAPI_MultipleAccounts"> </a>
+
+### <a name="accountsmultiple-accounts-in-profile"></a>帐户 - 配置文件中的多个帐户
 
 - [Account](https://msdn.microsoft.com/library/f624438c-4e45-2822-18b6-bfe8074a33c0%28Office.15%29.aspx) 对象 
     
@@ -515,9 +523,10 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [获取多个帐户的信息](https://msdn.microsoft.com/library/af587ee2-429a-252f-ecb6-2f058b9a37a8%28Office.15%29.aspx)
     
 - [在 Outlook 2010 中操作多个 Exchange 帐户](https://msdn.microsoft.com/library/b5a80da9-102d-4617-8a06-49ded01a237a%28Office.15%29.aspx)
-    
-### <a name="address-book-and-exchange-users"></a>通讯簿和 Exchange 用户
+
 <a name="OLSelectAPI_AddressBook"> </a>
+
+### <a name="address-book-and-exchange-users"></a>通讯簿和 Exchange 用户
 
 - [显示通讯簿中的姓名](https://msdn.microsoft.com/library/32e7179c-8133-ee20-ecf6-52c9275f205f%28Office.15%29.aspx)
     
@@ -536,13 +545,15 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [ExchangeUser](https://msdn.microsoft.com/library/6ec117d1-7fdb-aa36-b567-1242f8238df0%28Office.15%29.aspx) 对象 
     
 - [SelectNamesDialog](https://msdn.microsoft.com/library/1522736a-3cad-9f1c-4da9-b52a3a01731c%28Office.15%29.aspx) 对象 
-    
-### <a name="attachments"></a>附件
+
 <a name="OLSelectAPI_Attachments"> </a>
+
+### <a name="attachments"></a>附件
 
 - [向邮件项附加文件](https://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
-- [附件文件类型受限于 Outlook 2010](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
+- 
+  [附件文件类型受限于 Outlook 2010](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
     
 - [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx) 对象 
     
@@ -563,16 +574,18 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - 每个项目对象的 **BeforeAttachmentSave** 事件 
     
 - 每个项目对象的 **BeforeAttachmentWrite** 事件 
-    
-### <a name="attachments-selection-in-inspector"></a>附件：检查器中的所选内容
+
 <a name="OLSelectAPI_AttachmentSelection"> </a>
+
+### <a name="attachments-selection-in-inspector"></a>附件：检查器中的所选内容
 
 - [Inspector.AttachmentSelection](https://msdn.microsoft.com/library/19466ce7-def8-4cce-1776-dcea1df9f15d%28Office.15%29.aspx) 属性 
     
 - [Inspector.AttachmentSelectionChange](https://msdn.microsoft.com/library/1250045d-bcb3-b823-31d5-ec31c64ad59e%28Office.15%29.aspx) 事件 
-    
-### <a name="automating-outlook"></a>自动化 Outlook
+
 <a name="OLSelectAPI_AutomateOutlook"> </a>
+
+### <a name="automating-outlook"></a>自动化 Outlook
 
 - [使用 COM 加载项自定义 Outlook](https://msdn.microsoft.com/library/84a4f616-3ace-0139-57d5-f0c070064ab2%28Office.15%29.aspx)
     
@@ -589,25 +602,28 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [通过 Visual Basic 应用程序自动运行 Outlook](https://msdn.microsoft.com/library/623f91af-cd50-1ff0-9519-5a39cbcf5d18%28Office.15%29.aspx)
     
 - [通过其他 Office 应用程序使 Outlook 实现自动化](https://msdn.microsoft.com/library/d3e44f80-df67-2d28-94dc-14d7a8c8c26c%28Office.15%29.aspx)
-    
-### <a name="categories"></a>类别
+
 <a name="OLSelectAPI_Categories"> </a>
+
+### <a name="categories"></a>类别
 
 - [对 Outlook 项目进行分类](https://msdn.microsoft.com/library/e8cfb450-b8b0-bee6-fdf0-d0a92bf9af56%28Office.15%29.aspx)
     
 - [Category](https://msdn.microsoft.com/library/143ef095-54b0-cbe2-e356-632029061ac2%28Office.15%29.aspx) 对象 
     
 - [NameSpace.Categories](https://msdn.microsoft.com/library/3963afca-3a7e-38d7-1347-7e1467be3a10%28Office.15%29.aspx) 属性 
-    
-### <a name="contacts-check-address-and-full-name"></a>联系人：检查地址和全名
+
 <a name="OLSelectAPI_ContactCheckDialogs"> </a>
+
+### <a name="contacts-check-address-and-full-name"></a>联系人：检查地址和全名
 
 - [ContactItem.ShowCheckAddressDialog](https://msdn.microsoft.com/library/773a1a3c-1247-fd48-399a-728766e56570%28Office.15%29.aspx) 方法 
     
 - [ContactItem.ShowCheckFullNameDialog](https://msdn.microsoft.com/library/d42632e3-6f50-cce7-80c6-cf846be1f925%28Office.15%29.aspx) 方法 
-    
-### <a name="conversations"></a>对话
+
 <a name="OLSelectAPI_Conversations"> </a>
+
+### <a name="conversations"></a>对话
 
 - [管理对话形式的 Outlook 项](https://msdn.microsoft.com/library/d91959d7-07b2-7952-8e6d-a39422d355e0%28Office.15%29.aspx)
     
@@ -620,25 +636,28 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [SimpleItems](https://msdn.microsoft.com/library/b929ae28-fe5f-607e-37b5-ed6a304d4896%28Office.15%29.aspx) 对象 
     
 - 每个项目对象的 **ConversationID** 属性 
-    
-### <a name="events"></a>活动
+
 <a name="OLSelectAPI_Events"> </a>
+
+### <a name="events"></a>事件
 
 - [使用 Outlook 事件](https://msdn.microsoft.com/library/514f8f31-8047-2a9f-cbac-d0a23218f49c%28Office.15%29.aspx)
     
 - [为检查器实现包装并在每个检查器中跟踪项目级事件](https://msdn.microsoft.com/library/8021dd2b-c36c-492b-b281-783e85140ad8%28Office.15%29.aspx)
-    
-### <a name="explorer-inline-response"></a>资源管理器：内嵌响应
+
 <a name="OLSelectAPI_InlineResponse"> </a>
+
+### <a name="explorer-inline-response"></a>资源管理器：内嵌响应
 
 - [Explorer.ActiveInlineResponse](https://msdn.microsoft.com/library/fc38314d-7cff-44f4-9151-6129f918a721%28Office.15%29.aspx) 属性 
     
 - [Explorer.ActiveInlineResponseWordEditor](https://msdn.microsoft.com/library/b9058694-ab8f-4962-ab7d-afac1704dd29%28Office.15%29.aspx) 属性 
     
 - [Explorer.InlineResponse](https://msdn.microsoft.com/library/5dbaddbd-e6cd-4776-b417-c67f51b12812%28Office.15%29.aspx) 事件 
-    
-### <a name="items-basic-properties-fields-and-forms"></a>项目：基本属性、字段和表单
+
 <a name="OLSelectAPI_ItemPropFieldsForms"> </a>
+
+### <a name="items-basic-properties-fields-and-forms"></a>项目：基本属性、字段和窗体
 
 - [Outlook 项目对象](https://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
     
@@ -653,18 +672,20 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [自定义字段和数据类型概述](https://msdn.microsoft.com/library/a85a7bc2-2b85-1782-04a3-0104e0df32aa%28Office.15%29.aspx)
     
 - [自定义窗体页面和窗体区域](https://msdn.microsoft.com/library/c8c2d080-66a8-b761-bdc0-527b209e0bd1%28Office.15%29.aspx)
-    
-### <a name="items-customizing-properties"></a>项目：自定义属性
+
 <a name="OLSelectAPI_CustomizingProperties"> </a>
+
+### <a name="items-customizing-properties"></a>项目：自定义属性
 
 - [属性概述](https://msdn.microsoft.com/library/242c9e89-a0c5-ff89-0d2a-410bd42a3461%28Office.15%29.aspx)
     
 - [Efficiently Getting and Setting Custom Properties in a Contact Folder in Outlook 2010](https://msdn.microsoft.com/library/bb49f7a6-ec0a-483a-a27e-e843c6af781b%28Office.15%29.aspx)
     
 - [PropertyAccessor](https://msdn.microsoft.com/library/2fc91e13-703c-3ec9-9066-ffee7144306c%28Office.15%29.aspx) 对象 
-    
-### <a name="items-enumerating-filtering-and-sorting"></a>项目：枚举、筛选和排序
+
 <a name="OLSelectAPI_Enumerating"> </a>
+
+### <a name="items-enumerating-filtering-and-sorting"></a>项目：枚举、筛选和排序
 
 - [存储 Outlook 项目](https://msdn.microsoft.com/library/e4a639a4-10b2-7665-9261-19d6e7707e48%28Office.15%29.aspx)
     
@@ -677,9 +698,10 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [对文件夹中的项目进行排序](https://msdn.microsoft.com/library/bc3651da-cfdb-4301-4034-bb848f371e55%28Office.15%29.aspx)
     
 - [Table](https://msdn.microsoft.com/library/0affaafd-93fe-227a-acee-e09a86cadc20%28Office.15%29.aspx) 对象 
-    
-### <a name="items-flag-as-tasks"></a>项目：标记为任务的标记
+
 <a name="OLSelectAPI_ItemsFlag"> </a>
+
+### <a name="items-flag-as-tasks"></a>项目：标记为任务的标记
 
 请参阅某些项目对象（如 [MailItem](https://msdn.microsoft.com/library/14197346-05d2-0250-fa4c-4a6b07daf25f%28Office.15%29.aspx) 对象）中与任务相关的以下属性： 
   
@@ -692,16 +714,18 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [TaskSubject](https://msdn.microsoft.com/library/f7e4629f-ad47-b455-9fee-b5e537602a34%28Office.15%29.aspx) 属性 
     
 - [ToDoTaskOrdinal](https://msdn.microsoft.com/library/d1ccb01a-0792-3779-3f94-eb5195a39bb0%28Office.15%29.aspx) 属性 
-    
-### <a name="items-selection-in-explorer"></a>项目：资源管理器中的所选内容
+
 <a name="OLSelectAPI_ItemSelection"> </a>
+
+### <a name="items-selection-in-explorer"></a>项目：资源管理器中的所选内容
 
 - [Selection.GetSelection](https://msdn.microsoft.com/library/c6af6665-d97d-3833-1014-5b43282bafc2%28Office.15%29.aspx) 方法 
     
 - [Selection.Location](https://msdn.microsoft.com/library/8a2db72a-8db0-840e-349e-5d9d22f3affb%28Office.15%29.aspx) 属性 
-    
-### <a name="miscellaneous-business-cards-rules-and-views"></a>杂项：名片、规则和视图
+
 <a name="OLSelectAPI_Misc"> </a>
+
+### <a name="miscellaneous-business-cards-rules-and-views"></a>杂项：名片、规则和视图
 
 - [自定义和共享名片](https://msdn.microsoft.com/library/d29fd962-ea5f-040d-e9af-e8ab70595832%28Office.15%29.aspx)
     
@@ -720,45 +744,51 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [Outlook 视图](https://msdn.microsoft.com/library/cbaa3192-6c27-26c0-ebd6-f6489c2e812e%28Office.15%29.aspx)
     
 - [Views](https://msdn.microsoft.com/library/5dd7edc2-12a2-f4c2-d158-8053d80e8dc9%28Office.15%29.aspx) 对象 
-    
-### <a name="security"></a>安全
+
 <a name="OLSelectAPI_Misc"> </a>
+
+### <a name="security"></a>安全性
 
 - [Outlook 对象模型的安全行为（英文）](https://msdn.microsoft.com/library/4aa3b7c7-5f3f-41ce-bbf3-75d8ecbd6d4f%28Office.15%29.aspx)
     
 - [Outlook 2010 中有关关闭的更改](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
-- [受 Outlook 2010 限制的附件文件类型](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
+- 
+  [受 Outlook 2010 限制的附件文件类型](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
     
 - [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
     
 - [Code Security Changes in Outlook 2007](https://msdn.microsoft.com/library/26a9fd8f-6277-48ac-a92f-3ff46e1d883a%28Office.15%29.aspx)
-    
-### <a name="sharing"></a>共享
+
 <a name="OLSelectAPI_Sharing"> </a>
+
+### <a name="sharing"></a>共享
 
 - [共享日历](https://msdn.microsoft.com/library/03e0b693-5446-ca62-f868-69a583087966%28Office.15%29.aspx)
     
 - [共享联机日历、RSS 源、Microsoft SharePoint Foundation 文件夹和 Exchange 文件夹](https://msdn.microsoft.com/library/e579e026-bd10-37bb-eb3e-5c9f042fa0fa%28Office.15%29.aspx)
     
 - [SharingItem](https://msdn.microsoft.com/library/63dd3451-44f3-7cc4-c6e2-7dad5835a7d2%28Office.15%29.aspx) 对象 
-    
-### <a name="solutions-solution-specific-folders"></a>解决方案：特定于解决方案的文件夹
+
 <a name="OLSelectAPI_Folders"> </a>
+
+### <a name="solutions-solution-specific-folders"></a>解决方案：特定于解决方案的文件夹
 
 - [Outlook 2010 解决方案模块编程](https://msdn.microsoft.com/library/5989a3da-2f2a-4abd-87b0-cc0e1560dd59%28Office.15%29.aspx)
     
 - [SolutionsModule](https://msdn.microsoft.com/library/4597765e-a95d-bf07-2ac4-103218ebc696%28Office.15%29.aspx) 对象 
-    
-### <a name="solutions-storing-data"></a>解决方案：存储数据
+
 <a name="OLSelectAPI_StoringData"> </a>
+
+### <a name="solutions-storing-data"></a>解决方案：存储数据
 
 - [存储解决方案的数据](https://msdn.microsoft.com/library/58e69983-5718-4dde-64fc-858abd80c9e5%28Office.15%29.aspx)
     
 - [StorageItem](https://msdn.microsoft.com/library/41776bc3-b838-2755-fd6b-3b5012fb9ae5%28Office.15%29.aspx) 对象 
-    
-### <a name="user-interface-customizing-form-regions"></a>用户界面：自定义窗体区域
+
 <a name="OLSelectAPI_CustomFormRegions"> </a>
+
+### <a name="user-interface-customizing-form-regions"></a>用户界面：自定义窗体区域
 
 - [自定义窗体页面和窗体区域](https://msdn.microsoft.com/library/c8c2d080-66a8-b761-bdc0-527b209e0bd1%28Office.15%29.aspx)
     
@@ -775,9 +805,10 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [FormRegion](https://msdn.microsoft.com/library/3a0b83eb-4076-9cb3-86a9-68f9e44df89f%28Office.15%29.aspx) 对象 
     
 - [FormRegionStartup](https://msdn.microsoft.com/library/948ea6b7-2962-57e7-618d-fa0977b65651%28Office.15%29.aspx) 对象 
-    
-### <a name="user-interface-customizing-since-outlook-2007"></a>用户界面：Outlook 2007 之后的自定义
+
 <a name="OLSelectAPI_CustomizeTheOutlookInterface"> </a>
+
+### <a name="user-interface-customizing-since-outlook-2007"></a>用户界面：自 Outlook 2007 以来进行自定义
 
 - [自定义功能区概述](https://msdn.microsoft.com/library/ee49751d-9eae-357c-5fa9-0b2dd4ff0890%28Office.15%29.aspx)
     
@@ -798,9 +829,10 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [IRibbonExtensibility](https://msdn.microsoft.com/library/b27a7576-b6f5-031e-e307-78ef5f8507e0%28Office.15%29.aspx) 对象 
     
 - [NavigationPane](https://msdn.microsoft.com/library/b6538c72-6115-99fc-c926-e0532a747823%28Office.15%29.aspx) 对象 
-    
-### <a name="user-interface-customizing-since-outlook-2010"></a>用户界面：Outlook 2010 之后的自定义
+
 <a name="OLSelectAPI_CustomizingUIOutlook2010"> </a>
+
+### <a name="user-interface-customizing-since-outlook-2010"></a>用户界面：自 Outlook 2010 以来进行自定义
 
 - [在 Outlook 2010 中扩展用户界面](https://msdn.microsoft.com/library/00b504b0-e897-43b9-8615-44276166823f%28Office.15%29.aspx)
     
@@ -815,18 +847,20 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [IRibbonExtensibility](https://msdn.microsoft.com/library/b27a7576-b6f5-031e-e307-78ef5f8507e0%28Office.15%29.aspx) 对象 
     
 - [IRibbonUI](https://msdn.microsoft.com/library/d323aa21-de74-e821-c914-db71ef3b9c5e%28Office.15%29.aspx) 对象 
-    
-### <a name="user-interface-solutions-specific-folders"></a>用户界面：特定于解决方案的文件夹
+
 <a name="OLSelectAPI_CustomizingUIOutlook2010"> </a>
+
+### <a name="user-interface-solutions-specific-folders"></a>用户界面：特定于解决方案的文件夹
 
 - [Outlook 2010 解决方案模块编程](https://msdn.microsoft.com/library/5989a3da-2f2a-4abd-87b0-cc0e1560dd59%28Office.15%29.aspx)
     
 - [Adding Solution-Specific Folders to the Solutions Module in Outlook 2010](https://msdn.microsoft.com/library/9709af57-1577-4497-8c9c-3d239353e2ed%28Office.15%29.aspx)
     
 - [SolutionsModule](https://msdn.microsoft.com/library/4597765e-a95d-bf07-2ac4-103218ebc696%28Office.15%29.aspx) 对象 
-    
-## <a name="see-also-auxiliary-apis"></a>另请参阅：辅助 API
+
 <a name="OLSelectAPI_AdditionalResourcesAuxAPIs"> </a>
+
+## <a name="see-also-auxiliary-apis"></a>另请参阅：辅助 API
 
 以下资源提供有关 Outlook 辅助 API 的详细信息。
   
@@ -875,9 +909,10 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 - [分析二进制属性读取 TZREG 结构的流](auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
     
 - [从约会中读取时区属性](auxiliary/how-to-read-time-zone-properties-from-an-appointment.md)
-    
-## <a name="see-also-primary-references-resources-and-code-samples"></a>另请参阅：主引用、资源和代码示例
+
 <a name="OLSelectAPI_AdditionalResourcesRefCode"> </a>
+
+## <a name="see-also-primary-references-resources-and-code-samples"></a>另请参阅：主引用、资源和代码示例
 
 以下资源提供有关主 Outlook 引用、资源和代码示例的详细信息。
   
