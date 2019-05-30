@@ -8,24 +8,24 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
 description: 本主题显示 Outlook 天气位置 XML 架构的架构定义。
-ms.openlocfilehash: fa14fd05a26bd89820c18e8d6523d80e60616f0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e35a993c44c9f54168a7ad5c38e13e850d530a2d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355137"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541279"
 ---
-# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="fc4a2-103">架构映射 (Outlook 天气位置架构)</span><span class="sxs-lookup"><span data-stu-id="fc4a2-103">Schema map (Outlook Weather Location Schema)</span></span>
+# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="eb76a-103">架构映射 (Outlook 天气位置架构)</span><span class="sxs-lookup"><span data-stu-id="eb76a-103">Schema map (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="fc4a2-104">本主题显示 Outlook 天气位置 XML 架构的架构定义。</span><span class="sxs-lookup"><span data-stu-id="fc4a2-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
+<span data-ttu-id="eb76a-104">本主题显示 Outlook 天气位置 XML 架构的架构定义。</span><span class="sxs-lookup"><span data-stu-id="eb76a-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>
 <xs:schema
   attributeFormDefault="unqualified" elementFormDefault="qualified"
 xmlns:xs="https://www.w3.org/2001/XMLSchema"
-targetNamespace= "https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
-xmlns="https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+targetNamespace= "http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+xmlns="http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
 >
   <!-- get weather location  -->
   <!-- example query: https://weather.service.msn.com/data.aspx?outputview=search&amp;weasearchstr=tsurumi -->

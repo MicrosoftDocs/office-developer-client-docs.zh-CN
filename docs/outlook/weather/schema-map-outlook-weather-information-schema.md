@@ -8,24 +8,24 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4b2bf607-7c56-61a0-e40d-54af2b90aa6d
 description: 本主题显示 Outlook 天气信息 XML 架构的架构定义。
-ms.openlocfilehash: f2e91775b0fe0d9e9d1cfebe572ebc4aa6fa3e56
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b08d40040bc725bd02d48758697fe4657fe1dc8f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355109"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541314"
 ---
-# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="56651-103">架构映射 (Outlook 天气信息架构)</span><span class="sxs-lookup"><span data-stu-id="56651-103">Schema map (Outlook Weather Information Schema)</span></span>
+# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="dfc05-103">架构映射 (Outlook 天气信息架构)</span><span class="sxs-lookup"><span data-stu-id="dfc05-103">Schema map (Outlook Weather Information Schema)</span></span>
 
-<span data-ttu-id="56651-104">本主题显示 Outlook 天气信息 XML 架构的架构定义。</span><span class="sxs-lookup"><span data-stu-id="56651-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
+<span data-ttu-id="dfc05-104">本主题显示 Outlook 天气信息 XML 架构的架构定义。</span><span class="sxs-lookup"><span data-stu-id="dfc05-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>
 <xs:schema
   attributeFormDefault="unqualified" elementFormDefault="qualified"
 xmlns:xs="https://www.w3.org/2001/XMLSchema"
-targetNamespace="https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
-xmlns="https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
+targetNamespace="http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
+xmlns="http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
 >
   <!-- get weather info  -->
   <!-- https://weather.service.msn.com/data.aspx?src=vista&amp;weadegreetype=C&amp;culture=en-US&amp;wealocations=wc:10109953 -->
