@@ -1,25 +1,25 @@
 ---
-title: Window_Type 复杂类型 ("Visio XML")
+title: Window_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c514ce79-0920-4f1b-5332-0bdef146e802
-ms.openlocfilehash: 340326213de4029201d21e627ed4b27c53b33d1e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 08b65a5f0e108c5503e29c7e195d681d0a343521
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339926"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538450"
 ---
-# <a name="windowtype-complextype-visio-xml"></a>Window_Type 复杂类型 ("Visio XML")
+# <a name="windowtype-complextype-visio-xml"></a>Window_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
@@ -194,23 +194,23 @@ ms.locfileid: "32339926"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|Container  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|ContainerType  <br/> |xsd: token  <br/> |可选  <br/> ||xsd: 令牌类型的值。  <br/> |
-|Document  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
-|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|Master  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|Page  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|ParentWindow  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|ReadOnly  <br/> |xsd: boolean  <br/> |可选  <br/> ||xsd: boolean 类型的值。  <br/> |
-|Sheet  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|ViewCenterX  <br/> |xsd: double  <br/> |可选  <br/> ||xsd: double 类型的值。  <br/> |
-|ViewCenterY  <br/> |xsd: double  <br/> |可选  <br/> ||xsd: double 类型的值。  <br/> |
-|ViewScale  <br/> |xsd: double  <br/> |可选  <br/> ||xsd: double 类型的值。  <br/> |
-|WindowHeight  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|WindowLeft  <br/> |xsd: short  <br/> |可选  <br/> ||xsd: short 类型的值。  <br/> |
-|WindowState  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|WindowTop  <br/> |xsd: short  <br/> |可选  <br/> ||xsd: short 类型的值。  <br/> |
-|WindowType  <br/> |xsd: token  <br/> |必需  <br/> ||xsd: 令牌类型的值。  <br/> |
-|WindowWidth  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
+|Container  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|ContainerType  <br/> |xsd: token  <br/> |可选  <br/> ||Xsd: 令牌类型的值。  <br/> |
+|Document  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|Master  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|Page  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|ParentWindow  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|ReadOnly  <br/> |xsd: boolean  <br/> |可选  <br/> ||Xsd: boolean 类型的值。  <br/> |
+|Sheet  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|ViewCenterX  <br/> |xsd: double  <br/> |可选  <br/> ||Xsd: double 类型的值。  <br/> |
+|ViewCenterY  <br/> |xsd: double  <br/> |可选  <br/> ||Xsd: double 类型的值。  <br/> |
+|ViewScale  <br/> |xsd: double  <br/> |可选  <br/> ||Xsd: double 类型的值。  <br/> |
+|WindowHeight  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|WindowLeft  <br/> |xsd: short  <br/> |可选  <br/> ||Xsd: short 类型的值。  <br/> |
+|WindowState  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|WindowTop  <br/> |xsd: short  <br/> |可选  <br/> ||Xsd: short 类型的值。  <br/> |
+|WindowType  <br/> |xsd: token  <br/> |必需  <br/> ||Xsd: 令牌类型的值。  <br/> |
+|WindowWidth  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
    
 

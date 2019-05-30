@@ -1,5 +1,5 @@
 ---
-title: RefBy 元素 (Trigger_Type 复杂类型) ("Visio XML")
+title: RefBy 元素 (Trigger_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 09f2430a-184d-eaa2-2cb9-51bb24345c51
 description: 指定对绘图中页面的引用。
-ms.openlocfilehash: d987825345b64bd6e202970fc786aedaf49c6a94
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6d081ad1bf9e089a16820db33cec92694db7ac98
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348403"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538289"
 ---
-# <a name="refby-element-triggertype-complextype-visio-xml"></a>RefBy 元素 (Trigger_Type 复杂类型) ("Visio XML")
+# <a name="refby-element-triggertype-complextype-visio-xml"></a>RefBy 元素 (Trigger_Type 复杂类型) (Visio XML)
 
 指定对绘图中页面的引用。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32348403"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> ||
    
@@ -53,7 +53,7 @@ ms.locfileid: "32348403"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |指定绘图中页面的 ID 属性。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|T  <br/> |xsd: string  <br/> |必需  <br/> |指定引用类型。  <br/> |xsd: string 类型的值。  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |指定绘图中页面的 ID 属性。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|T  <br/> |xsd: string  <br/> |必需  <br/> |指定引用类型。  <br/> |Xsd: string 类型的值。  <br/> |
    
 

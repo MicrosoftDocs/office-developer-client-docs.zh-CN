@@ -1,5 +1,5 @@
 ---
-title: Cell 元素 ("填充渐变" 部分) ("Visio XML")
+title: Cell 元素 ("填充渐变" 部分) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d085f83a-f77b-9bf9-07dc-4561b83e288c
 description: 包含颜色、透明度以及填充渐变的渐变停止点的位置。
-ms.openlocfilehash: 3c4cdf1f60f68748fd2500b2dec0b5a5ad553ff5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 998c63d5273c39601e5b7293ae03eebbc3b467b2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356096"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539549"
 ---
-# <a name="cell-element-fill-gradient-section-visio-xml"></a>Cell 元素 ("填充渐变" 部分) ("Visio XML")
+# <a name="cell-element-fill-gradient-section-visio-xml"></a>Cell 元素 ("填充渐变" 部分) (Visio XML)
 
 包含颜色、透明度以及填充渐变的渐变停止点的位置。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356096"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml、master # .xml、第 .xml 页  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32356096"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |表示一个度量单位, 默认值为 DL。  <br/> |单元格的单位。  <br/> |
 |部分  <br/> |xsd: string  <br/> |可选  <br/> |表示单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**单元格**元素的**N**属性必须是与 ShapeSheet 单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**单元格**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |GradientStopColor  <br/> |渐变光圈的颜色值。 此值可表示为文档调色板中的颜色的索引号, 或者使用**RGB**、 **THEMEVAL**或**HSL**函数。  <br/> |[渐变停止行 ("填充渐变" 部分)](gradient-stop-row-fill-gradient-section.md) <br/> |
 |GradientStopColorTrans  <br/> |以百分比表示的渐变色标的透明度。  <br/> |[渐变停止行 ("填充渐变" 部分)](gradient-stop-row-fill-gradient-section.md) <br/> |

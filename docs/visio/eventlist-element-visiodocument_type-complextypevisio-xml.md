@@ -1,5 +1,5 @@
 ---
-title: EventList 元素 (VisioDocument_Type 复杂类型) ("Visio XML")
+title: EventList 元素 (VisioDocument_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 40bb8c7c-89ef-22e1-5edf-e2423fc89660
 description: 包含对象应响应的每个事件的 EventItem 元素。
-ms.openlocfilehash: 5331f1b4a510b05b862f8c7c6306c89c6be4d9f0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7b1406f56dddd8507e330aa93d5cfe9f390caf21
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351049"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541797"
 ---
-# <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>EventList 元素 (VisioDocument_Type 复杂类型) ("Visio XML")
+# <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>EventList 元素 (VisioDocument_Type 复杂类型) (Visio XML)
 
 包含对象应响应的每个事件的**EventItem**元素。 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32351049"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml  <br/> |
    

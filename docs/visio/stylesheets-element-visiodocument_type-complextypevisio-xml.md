@@ -1,5 +1,5 @@
 ---
-title: 样式表元素 (VisioDocument_Type 复杂类型) ("Visio XML")
+title: 样式表元素 (VisioDocument_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: da26de4b-3e5b-326b-de46-e8c542b74f02
 description: 包含文档的样式表元素的集合。
-ms.openlocfilehash: 4aae3bcbecec34d961f2d14fd6d3865e7cd332f6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 363cb102fb545ffd20601bf0125c22aeb06defa8
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329783"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541986"
 ---
-# <a name="stylesheets-element-visiodocumenttype-complextype-visio-xml"></a>样式表元素 (VisioDocument_Type 复杂类型) ("Visio XML")
+# <a name="stylesheets-element-visiodocumenttype-complextype-visio-xml"></a>样式表元素 (VisioDocument_Type 复杂类型) (Visio XML)
 
 包含文档的样式表元素的集合。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32329783"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml  <br/> |
    

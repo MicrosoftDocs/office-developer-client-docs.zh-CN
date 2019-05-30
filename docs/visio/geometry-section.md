@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 75601a1e-6b1a-27ee-a2bd-69e569315982
 description: 包含列出构成形状的线条和弧形的顶点坐标的行。
-ms.openlocfilehash: 32a815015c7d1764399215767b674668b7235832
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d45f960ecc697dc6f0f5a0efa18e6cbbc6e4fff0
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423907"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542280"
 ---
 # <a name="geometry-section"></a>“Geometry”内容
 
@@ -22,11 +22,11 @@ ms.locfileid: "33423907"
   
 可在多个 " **geometry** " 内容中表示形状的几何图形。 当多个路径具有不同的属性 (例如,[图像剪切](clippingpath-cell-foreign-image-info-section.md)路径) 时, 多个路径可能很有用。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 " **Geometry** " 内容包含以下行类型。 有关详细信息，请参阅行主题。 
   
-|**行**|**说明**|
+|Row|说明|
 |:-----|:-----|
 |[MoveTo](moveto-row-geometry-section.md) <br/> |移到某一坐标处。  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> |绘制一条到某坐标处的直线。  <br/> |

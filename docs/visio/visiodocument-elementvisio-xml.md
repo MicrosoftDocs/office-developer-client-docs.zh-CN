@@ -1,5 +1,5 @@
 ---
-title: VisioDocument 元素 ("Visio XML")
+title: VisioDocument 元素 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5954685-3a2d-7848-388f-5dd7e536551c
 description: Microsoft Visio 文档的根元素。
-ms.openlocfilehash: 9829fa8960d78777e0fff4306b96978da90a647d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: acb0a4e8ef1efb6d6d5872118241e36bb4e9630c
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285311"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538485"
 ---
-# <a name="visiodocument-element-visio-xml"></a>VisioDocument 元素 ("Visio XML")
+# <a name="visiodocument-element-visio-xml"></a>VisioDocument 元素 (Visio XML)
 
 Microsoft Visio 文档的根元素。
   
@@ -23,7 +23,7 @@ Microsoft Visio 文档的根元素。
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml  <br/> |
    

@@ -7,12 +7,12 @@ ms:contentKeyID: 55119884
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 35215c24a9b953bf8406b268a6169abbd536202b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e1d5b293f89c453886cafd9effc3fb5205f9696c
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320305"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542595"
 ---
 # <a name="filter-and-efficiently-enumerate-items-in-a-folder"></a>筛选并高效枚举文件夹中的项
 
@@ -39,7 +39,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 ```vb
 Private Sub DemoTableColumns()
     Const PR_HAS_ATTACH As String = _
-        "https://schemas.microsoft.com/mapi/proptag/0x0E1B000B"
+        "http://schemas.microsoft.com/mapi/proptag/0x0E1B000B"
     ' Obtain Inbox
     Dim folder As Outlook.Folder = _
         CType(Application.Session.GetDefaultFolder( _
@@ -82,7 +82,7 @@ End Sub
 private void DemoTableColumns()
 {
     const string PR_HAS_ATTACH =
-        "https://schemas.microsoft.com/mapi/proptag/0x0E1B000B";
+        "http://schemas.microsoft.com/mapi/proptag/0x0E1B000B";
     // Obtain Inbox
     Outlook.Folder folder =
         Application.Session.GetDefaultFolder(

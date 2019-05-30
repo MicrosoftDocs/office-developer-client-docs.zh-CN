@@ -1,5 +1,5 @@
 ---
-title: SnapAngles 元素 (Window_Type 复杂类型) ("Visio XML")
+title: SnapAngles 元素 (Window_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5997f374-303a-92b6-6dd3-87ef81104af4
 description: 包含 SnapAngle 元素的集合。
-ms.openlocfilehash: 09a975b280a99fdc2535503b587efdd2143cf18b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4dff3d2fa42183c11d2a0ad78e4b4b36a3ce55e2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334634"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540362"
 ---
-# <a name="snapangles-element-windowtype-complextype-visio-xml"></a>SnapAngles 元素 (Window_Type 复杂类型) ("Visio XML")
+# <a name="snapangles-element-windowtype-complextype-visio-xml"></a>SnapAngles 元素 (Window_Type 复杂类型) (Visio XML)
 
 包含**SnapAngle**元素的集合。 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32334634"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |windows .xml  <br/> |
    

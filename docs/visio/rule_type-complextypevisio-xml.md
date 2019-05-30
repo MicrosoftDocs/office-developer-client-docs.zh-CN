@@ -1,25 +1,25 @@
 ---
-title: Rule_Type 复杂类型 ("Visio XML")
+title: Rule_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d023139b-de1f-49f7-86d2-14a683bc5a46
-ms.openlocfilehash: 9af47c47137e51f7189dd3f845d7bd8f35297f0d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a1c3111458b90cd5e1b181a3b1776f64d8ec476b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283420"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541713"
 ---
-# <a name="ruletype-complextype-visio-xml"></a>Rule_Type 复杂类型 ("Visio XML")
+# <a name="ruletype-complextype-visio-xml"></a>Rule_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
@@ -81,11 +81,11 @@ ms.locfileid: "32283420"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|类别  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
-|说明  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
-|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|Ignored  <br/> |xsd: boolean  <br/> |可选  <br/> ||xsd: boolean 类型的值。  <br/> |
-|NameU  <br/> |xsd: string  <br/> |必需  <br/> ||xsd: string 类型的值。  <br/> |
-|RuleTarget  <br/> |xsd: int  <br/> |可选  <br/> ||xsd: int 类型的值。  <br/> |
+|类别  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|说明  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|Ignored  <br/> |xsd: boolean  <br/> |可选  <br/> ||Xsd: boolean 类型的值。  <br/> |
+|NameU  <br/> |xsd: string  <br/> |必需  <br/> ||Xsd: string 类型的值。  <br/> |
+|RuleTarget  <br/> |xsd: int  <br/> |可选  <br/> ||Xsd: int 类型的值。  <br/> |
    
 

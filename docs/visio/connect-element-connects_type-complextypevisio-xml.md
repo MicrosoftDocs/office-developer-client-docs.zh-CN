@@ -1,5 +1,5 @@
 ---
-title: Connect 元素 (Connects_Type 复杂类型) ("Visio XML")
+title: Connect 元素 (Connects_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e1ad47b-ee28-6b9a-f2f9-642e09ca28d4
 description: 表示绘图中的两个形状间的连接，如组织结构图中的线和框。
-ms.openlocfilehash: 82413f44f05f2ec6140e2b3981b7a1e8435becb0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3450a07e042fc633b9cd4952d9b3ad6b8190ed1e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346506"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541993"
 ---
-# <a name="connect-element-connectstype-complextype-visio-xml"></a>Connect 元素 (Connects_Type 复杂类型) ("Visio XML")
+# <a name="connect-element-connectstype-complextype-visio-xml"></a>Connect 元素 (Connects_Type 复杂类型) (Visio XML)
 
 表示绘图中的两个形状间的连接，如组织结构图中的线和框。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32346506"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |页面 # .xml、master # .xml  <br/> |
    
@@ -52,11 +52,11 @@ ms.locfileid: "32346506"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|FromCell  <br/> |xsd: string  <br/> |可选  <br/> |从中发起连接的单元格。  <br/> |xsd: string 类型的值。  <br/> |
-|FromPart  <br/> |xsd: int  <br/> |可选  <br/> |从其发起连接的形状的部件。  <br/> |xsd: int 类型的值。  <br/> |
-|FromSheet  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |从中发起连接或连接的形状的 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|ToCell  <br/> |xsd: string  <br/> |可选  <br/> |建立了连接的单元格。  <br/> |xsd: string 类型的值。  <br/> |
-|ToPart  <br/> |xsd: int  <br/> |可选  <br/> |建立了连接的形状的一部分。  <br/> |xsd: Int 类型的值。  <br/> |
-|ToSheet  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |建立了一个或多个连接的形状的 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
+|FromCell  <br/> |xsd: string  <br/> |可选  <br/> |从中发起连接的单元格。  <br/> |Xsd: string 类型的值。  <br/> |
+|FromPart  <br/> |xsd: int  <br/> |可选  <br/> |从其发起连接的形状的部件。  <br/> |Xsd: int 类型的值。  <br/> |
+|FromSheet  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |从中发起连接或连接的形状的 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|ToCell  <br/> |xsd: string  <br/> |可选  <br/> |建立了连接的单元格。  <br/> |Xsd: string 类型的值。  <br/> |
+|ToPart  <br/> |xsd: int  <br/> |可选  <br/> |建立了连接的形状的一部分。  <br/> |Xsd: Int 类型的值。  <br/> |
+|ToSheet  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |建立了一个或多个连接的形状的 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
    
 

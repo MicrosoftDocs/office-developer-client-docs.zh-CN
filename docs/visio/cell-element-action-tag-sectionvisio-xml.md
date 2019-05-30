@@ -1,5 +1,5 @@
 ---
-title: Cell 元素 ("操作标记" 部分) ("Visio XML")
+title: Cell 元素 ("Action Tag" 内容) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6210ff71-fbcd-2c97-6dde-1e334891e08d
 description: 定义形状或页面上的动作标记的一个属性。
-ms.openlocfilehash: 61fad8575532adde0106ef6db2888fe38f3ae4b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3b43206838dae432df677a3ff8792c85328db53b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337175"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538800"
 ---
-# <a name="cell-element-action-tag-section-visio-xml"></a>Cell 元素 ("操作标记" 部分) ("Visio XML")
+# <a name="cell-element-action-tag-section-visio-xml"></a>Cell 元素 ("Action Tag" 内容) (Visio XML)
 
 定义形状或页面上的动作标记的一个属性。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32337175"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |.master、主 # .xml、pages、.xml、.xml  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32337175"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |表示一个度量单位, 默认值为 DL。  <br/> |单元格的单位。  <br/> |
 |部分  <br/> |xsd: string  <br/> |可选  <br/> |表示单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**单元格**元素的**N**属性必须是与 ShapeSheet 单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**单元格**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |ButtonFace  <br/> |包含动作标记按钮上显示的按钮外表图像的 ID。  <br/> |[ButtonFace Cell (Action Tags Section)](buttonface-cell-action-tags-section.md) <br/> |
 |说明  <br/> |包含描述动作标记的字符串。当用户将鼠标指针悬停于动作标记上时，此字符串以工具提示的形式显示。  <br/> |[Description Cell (Action Tags Section)](description-cell-action-tags-section.md) <br/> |

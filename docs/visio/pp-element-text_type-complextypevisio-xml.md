@@ -1,5 +1,5 @@
 ---
-title: pp 元素 (Text_Type 复杂类型) ("Visio XML")
+title: pp 元素 (Text_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5444543-fcd9-91cc-e7f8-cf860caa9fcc
 description: 指定段落属性的开头。 运行被定义为文本的末尾或直到下一个标记。
-ms.openlocfilehash: bb2b0ab7a76c142b810ecd02dbc1b5ba7463520a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 695958c77f730abed03f50d6ad9c71f4de76dd63
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356075"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537736"
 ---
-# <a name="pp-element-texttype-complextype-visio-xml"></a>pp 元素 (Text_Type 复杂类型) ("Visio XML")
+# <a name="pp-element-texttype-complextype-visio-xml"></a>pp 元素 (Text_Type 复杂类型) (Visio XML)
 
 指定段落属性的开头。 运行被定义为文本的末尾或直到下一个标记。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356075"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |页面 # .xml、master # .xml  <br/> |
    
@@ -52,6 +52,6 @@ ms.locfileid: "32356075"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |**段落**元素的索引, 该元素指定应用于此运行的格式。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
+|IX  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |**段落**元素的索引, 该元素指定应用于此运行的格式。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
    
 

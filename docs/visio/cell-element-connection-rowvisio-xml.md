@@ -1,5 +1,5 @@
 ---
-title: Cell 元素 (连接行) ("Visio XML")
+title: Cell 元素 (连接行) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7cafaa31-c56b-ebb0-3bfb-c339cc93038e
 description: 包含形状上的单个连接点的 x 坐标或 y 坐标、水平或垂直方向或类型。
-ms.openlocfilehash: 367d7e462c1eb5b8fa6ee0572346f45ad621fa15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0c8177767d5c85d505ba8a2a430946fd29cf44aa
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356103"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541874"
 ---
-# <a name="cell-element-connection-row-visio-xml"></a>Cell 元素 (连接行) ("Visio XML")
+# <a name="cell-element-connection-row-visio-xml"></a>Cell 元素 (连接行) (Visio XML)
 
 包含形状上的单个连接点的 x 坐标或 y 坐标、水平或垂直方向或类型。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356103"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |master # .xml、第 .xml 页  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32356103"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |表示一个度量单位, 默认值为 DL。  <br/> |单元格的单位。  <br/> |
 |部分  <br/> |xsd: string  <br/> |可选  <br/> |表示单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**单元格**元素的**N**属性必须是与 ShapeSheet 单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**单元格**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |AutoGen  <br/> |指定是否自动生成连接点。 值为1表示自动生成连接点。  <br/> |无。  <br/> |
 |DirX  <br/> |确定匹配连接点所需的对齐向量的 x 分量。  <br/> |[DirX / A Cell (Connection Points Section)](dirxa-cell-connection-points-section.md) <br/> |

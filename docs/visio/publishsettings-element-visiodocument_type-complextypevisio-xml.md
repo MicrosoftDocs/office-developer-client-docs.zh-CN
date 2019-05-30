@@ -1,5 +1,5 @@
 ---
-title: PublishSettings 元素 (VisioDocument_Type 复杂类型) ("Visio XML")
+title: PublishSettings 元素 (VisioDocument_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d0a41494-ffad-c56c-2074-135b3d0bffb9
 description: 指定在 Microsoft SharePoint Server 2013 中使用 Visio Services 打开图表时使用的设置。
-ms.openlocfilehash: 7e926021180d0f32c5e8754fd856081908f4925d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 611dfe477228995bca6aedff27b468a2d57e7e85
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345456"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541356"
 ---
-# <a name="publishsettings-element-visiodocumenttype-complextype-visio-xml"></a>PublishSettings 元素 (VisioDocument_Type 复杂类型) ("Visio XML")
+# <a name="publishsettings-element-visiodocumenttype-complextype-visio-xml"></a>PublishSettings 元素 (VisioDocument_Type 复杂类型) (Visio XML)
 
 指定在 Microsoft SharePoint Server 2013 中使用 Visio Services 打开图表时使用的设置。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32345456"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml  <br/> |
    

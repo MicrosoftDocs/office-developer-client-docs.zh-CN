@@ -1,25 +1,25 @@
 ---
-title: ShowPageBreaks_Type 复杂类型 ("Visio XML")
+title: ShowPageBreaks_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c3b17b40-c955-0cdc-08d7-48773485ca53
-ms.openlocfilehash: b42ca7cc41088e8e8d6e3f46d658e2d7a6cf9ad2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e61002ddc3d6bae1a503f85c535c921493c6923a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338246"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541433"
 ---
-# <a name="showpagebreakstype-complextype-visio-xml"></a>ShowPageBreaks_Type 复杂类型 ("Visio XML")
+# <a name="showpagebreakstype-complextype-visio-xml"></a>ShowPageBreaks_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |xsd: boolean  <br/> |
    

@@ -7,12 +7,12 @@ ms:contentKeyID: 55119869
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Priority
-ms.openlocfilehash: 74adbf02180e0e993b22e35481f51d304b14e7d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 05d52f24262f08a6326d464a2dc0d57d6d0510d7
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320081"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542546"
 ---
 # <a name="get-the-smtp-address-of-the-sender-of-a-mail-item"></a>获取邮件项发件人的 SMTP 地址
 
@@ -35,7 +35,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private string GetSenderSMTPAddress(Outlook.MailItem mail)
 {
     string PR_SMTP_ADDRESS =
-        @"https://schemas.microsoft.com/mapi/proptag/0x39FE001E";
+        @"http://schemas.microsoft.com/mapi/proptag/0x39FE001E";
     if (mail == null)
     {
         throw new ArgumentNullException();

@@ -1,5 +1,5 @@
 ---
-title: Rule 元素 (RuleSet_Type 复杂类型) ("Visio XML")
+title: Rule 元素 (RuleSet_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fcd22f3a-c8e8-1133-160c-fe26e612a15d
 description: 代表图表有效性规则集中的一个有效性规则。
-ms.openlocfilehash: 92d52456164b89ff2aad31fa8d8f02f818c8bd1c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0d848ce3309d7dfc5a89b201be30ce060ec6f88f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358798"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541706"
 ---
-# <a name="rule-element-rulesettype-complextype-visio-xml"></a>Rule 元素 (RuleSet_Type 复杂类型) ("Visio XML")
+# <a name="rule-element-rulesettype-complextype-visio-xml"></a>Rule 元素 (RuleSet_Type 复杂类型) (Visio XML)
 
 代表图表有效性规则集中的一个有效性规则。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358798"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |验证 .xml  <br/> |
    
@@ -55,11 +55,11 @@ ms.locfileid: "32358798"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|类别  <br/> |xsd: string  <br/> |可选  <br/> |指定在 "问题" 窗口的 "**类别**" 列中显示的文本。 默认值为空字符串。  <br/> |xsd: string 类型的值。  <br/> |
-|说明  <br/> |xsd: string  <br/> |可选  <br/> |指定显示在用户界面中的验证规则的说明。 默认值为 "未知"。  <br/> |xsd: string 类型的值。  <br/> |
-|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |指定验证规则的唯一标识符。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|Ignored  <br/> |xsd: boolean  <br/> |可选  <br/> |指定当前是否忽略有效性规则。 默认值为 False。  <br/> |xsd: boolean 类型的值。  <br/> |
-|NameU  <br/> |xsd: string  <br/> |必需  <br/> |指定验证规则的通用名称。  <br/> |xsd: string 类型的值。  <br/> |
-|RuleTarget  <br/> |xsd: int  <br/> |可选  <br/> |指定要应用验证规则的对象的类型。  <br/> |xsd: int 类型的值。  <br/> |
+|类别  <br/> |xsd: string  <br/> |可选  <br/> |指定在 "问题" 窗口的 "**类别**" 列中显示的文本。 默认值为空字符串。  <br/> |Xsd: string 类型的值。  <br/> |
+|说明  <br/> |xsd: string  <br/> |可选  <br/> |指定显示在用户界面中的验证规则的说明。 默认值为 "未知"。  <br/> |Xsd: string 类型的值。  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |指定验证规则的唯一标识符。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|Ignored  <br/> |xsd: boolean  <br/> |可选  <br/> |指定当前是否忽略有效性规则。 默认值为 False。  <br/> |Xsd: boolean 类型的值。  <br/> |
+|NameU  <br/> |xsd: string  <br/> |必需  <br/> |指定验证规则的通用名称。  <br/> |Xsd: string 类型的值。  <br/> |
+|RuleTarget  <br/> |xsd: int  <br/> |可选  <br/> |指定要应用验证规则的对象的类型。  <br/> |Xsd: int 类型的值。  <br/> |
    
 

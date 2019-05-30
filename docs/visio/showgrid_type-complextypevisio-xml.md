@@ -1,25 +1,25 @@
 ---
-title: ShowGrid_Type 复杂类型 ("Visio XML")
+title: ShowGrid_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fb49da3a-0664-53bb-44c0-06d68a9f44c6
-ms.openlocfilehash: bcb6c36af426094a2b382b9b7c301b253954bc80
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7d23c84b74582729796efe58f4c595c49aac9e4b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340094"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542343"
 ---
-# <a name="showgridtype-complextype-visio-xml"></a>ShowGrid_Type 复杂类型 ("Visio XML")
+# <a name="showgridtype-complextype-visio-xml"></a>ShowGrid_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |xsd: boolean  <br/> |
    

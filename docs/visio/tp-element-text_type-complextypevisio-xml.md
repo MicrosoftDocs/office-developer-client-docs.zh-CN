@@ -1,5 +1,5 @@
 ---
-title: tp 元素 (Text_Type 复杂类型) ("Visio XML")
+title: tp 元素 (Text_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
 description: 指定要运行的选项卡属性的开头。 运行被定义为文本的末尾或直到下一个标记。
-ms.openlocfilehash: 3f27ea0babefa0ea69cbbc361031c57602649107
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: dad7a3de715473a75c601c1e391c9d51fc1cab85
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307698"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542973"
 ---
-# <a name="tp-element-texttype-complextype-visio-xml"></a>tp 元素 (Text_Type 复杂类型) ("Visio XML")
+# <a name="tp-element-texttype-complextype-visio-xml"></a>tp 元素 (Text_Type 复杂类型) (Visio XML)
 
 指定要运行的选项卡属性的开头。 运行被定义为文本的末尾或直到下一个标记。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32307698"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |页面 # .xml、master # .xml  <br/> |
    
@@ -51,6 +51,6 @@ ms.locfileid: "32307698"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |元素在其父元素中的从零开始的索引。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
+|IX  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |元素在其父元素中的从零开始的索引。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
    
 

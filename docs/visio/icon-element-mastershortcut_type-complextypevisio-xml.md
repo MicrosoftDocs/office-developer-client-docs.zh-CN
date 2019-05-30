@@ -1,5 +1,5 @@
 ---
-title: Icon 元素 (MasterShortcut_Type 复杂类型) ("Visio XML")
+title: Icon 元素 (MasterShortcut_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 07d8ba86-8e35-d151-e6c1-150c37cc2acd
 description: 为文档中的 MasterShortcut 元素指定 MIME (多用途 Internet 邮件扩展) 编码的二进制图标 (在 .ico 格式中)。
-ms.openlocfilehash: b2c9a662266620a10ed6d07592388f83bf2aedf6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6d223da406dd914c84aafdd3d37846c1ab30bb4e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344861"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541496"
 ---
-# <a name="icon-element-mastershortcuttype-complextype-visio-xml"></a>Icon 元素 (MasterShortcut_Type 复杂类型) ("Visio XML")
+# <a name="icon-element-mastershortcuttype-complextype-visio-xml"></a>Icon 元素 (MasterShortcut_Type 复杂类型) (Visio XML)
 
 为文档中的 MasterShortcut 元素指定 MIME (多用途 Internet 邮件扩展) 编码的二进制图标 (在 .ico 格式中)。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32344861"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |主控 xml  <br/> |
    

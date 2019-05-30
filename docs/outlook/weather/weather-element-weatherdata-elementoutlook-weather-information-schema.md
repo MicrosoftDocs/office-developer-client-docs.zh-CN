@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de3c35ef-84a3-b991-7c98-3eca720c9ba0
 description: 指定位置的天气情况。
-ms.openlocfilehash: 19e6669d51aa38d10587c6334aef0409f31baf58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 18669dfc4636c28e03a582bc0c8df512aa38a4e4
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355144"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541265"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-information-schema"></a>气象元素 (weatherdata 元素) (Outlook 天气信息架构)
 
@@ -24,7 +24,7 @@ ms.locfileid: "32355144"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**架构文件** <br/> |getweatherinfo  <br/> |
    
 ## <a name="definition"></a>定义

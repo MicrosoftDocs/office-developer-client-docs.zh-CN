@@ -1,25 +1,25 @@
 ---
-title: RelLineTo_Type 复杂类型 ("Visio XML")
+title: RelLineTo_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e5504166-653d-15d2-75eb-9b36f376b788
-ms.openlocfilehash: ca4a270b77fee05957ff04798de1dff1512e837d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8681bf819a36a8c41171d558fb48b73fc1aeb87b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319983"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542707"
 ---
-# <a name="rellinetotype-complextype-visio-xml"></a>RelLineTo_Type 复杂类型 ("Visio XML")
+# <a name="rellinetotype-complextype-visio-xml"></a>RelLineTo_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |GeometryRow_Type  <br/> |
    

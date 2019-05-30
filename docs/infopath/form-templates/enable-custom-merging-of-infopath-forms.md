@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
 description: Microsoft InfoPath 编辑器的“合并表单”功能旨在将多个表单中的数据合并到一个表单。
-ms.openlocfilehash: 598c44bfe63a31237bf82ceb2212b001fbe7cc1f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f79553f7fdf0b59c77a98fd479e0a307e4f2e6a3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303722"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537799"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>启用 InfoPath 表单的自定义合并
 
@@ -25,7 +25,7 @@ The **Merge Forms** feature of the Microsoft InfoPath editor is designed to comb
     
 ## <a name="creating-a-custom-transform"></a>创建自定义转换
 
-合并表单时的默认操作非常适合于基于相同 XML 架构的表单。但是，在某些情况下，您可能需要合并基于不同架构的表单，或者为基于相同架构的表单覆盖默认合并操作。对于这些方案，您可以创建一个 XSL 转换 (XSLT)，其中包含用于合并操作的聚合指令。将在合并时应用该转换，以创建一个 DOM 文档，该文档包含要导入的信息，以及指定如何将此信息并入目标文档的注释。这些注释是命名空间  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation` 中的 XML 属性。
+合并表单时的默认操作非常适合于基于相同 XML 架构的表单。但是，在某些情况下，您可能需要合并基于不同架构的表单，或者为基于相同架构的表单覆盖默认合并操作。对于这些方案，您可以创建一个 XSL 转换 (XSLT)，其中包含用于合并操作的聚合指令。将在合并时应用该转换，以创建一个 DOM 文档，该文档包含要导入的信息，以及指定如何将此信息并入目标文档的注释。这些注释是命名空间  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation` 中的 XML 属性。
   
 这些 XML 属性及其值充当有关如何将每个节点与目标 XML 文档合并的聚合指令。以下各节中描述了这些属性。
   
@@ -70,7 +70,7 @@ The **Merge Forms** feature of the Microsoft InfoPath editor is designed to comb
  agg:action="delete"/>
 ```
 
-结合  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation` 命名空间中指定的属性，可以使用  `https://schemas.microsoft.com/office/infopath/2003/aggregation-target` 命名空间来指示实现接口 **IXMLDOMDocument** 的 XSL 对象。此接口最有用的成员之一是方法 **get-documentElement**。
+结合  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation` 命名空间中指定的属性，可以使用  `http://schemas.microsoft.com/office/infopath/2003/aggregation-target` 命名空间来指示实现接口 **IXMLDOMDocument** 的 XSL 对象。此接口最有用的成员之一是方法 **get-documentElement**。
   
 ### <a name="get-documentelement"></a>get-documentElement
 
@@ -103,9 +103,9 @@ The **Merge Forms** feature of the Microsoft InfoPath editor is designed to comb
     ```XML
         <?xml version="1.0"?> 
         <xsl:stylesheet version="1.0" xmlns:xsl="https://www.w3.org/1999/XSL/Transform" 
-        xmlns:agg="https://schemas.microsoft.com/office/infopath/2003/aggregation" 
-        xmlns:target="https://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
-        xmlns:my="https://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
+        xmlns:agg="http://schemas.microsoft.com/office/infopath/2003/aggregation" 
+        xmlns:target="http://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
+        xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
             <xsl:template match="/"> 
                 <xsl:copy> 
                 <xsl:apply-templates select="@* | node()" /> 

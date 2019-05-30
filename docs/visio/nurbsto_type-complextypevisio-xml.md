@@ -1,25 +1,25 @@
 ---
-title: NURBSTo_Type 复杂类型 ("Visio XML")
+title: NURBSTo_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f7ae8a1d-5bb7-a92f-79d6-5a358d879c32
-ms.openlocfilehash: 47c8c552fb50c29ecf2f89325c1a818e61d60d1f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 090df2487eb6fabfba4b3917c7d938fe4f841147
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361003"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540915"
 ---
-# <a name="nurbstotype-complextype-visio-xml"></a>NURBSTo_Type 复杂类型 ("Visio XML")
+# <a name="nurbstotype-complextype-visio-xml"></a>NURBSTo_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |GeometryRow_Type  <br/> |
    

@@ -1,25 +1,25 @@
 ---
-title: SnapExtensions_Type 复杂类型 ("Visio XML")
+title: SnapExtensions_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cabfd202-9e68-5433-bb4f-b235399c528e
-ms.openlocfilehash: f43f719aaf30898bebf00c04a50067524461d586
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fd7a9ee01cbe44b9eb856b93812b705eb78e5a0a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334550"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540285"
 ---
-# <a name="snapextensionstype-complextype-visio-xml"></a>SnapExtensions_Type 复杂类型 ("Visio XML")
+# <a name="snapextensionstype-complextype-visio-xml"></a>SnapExtensions_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |xsd: int  <br/> |
    

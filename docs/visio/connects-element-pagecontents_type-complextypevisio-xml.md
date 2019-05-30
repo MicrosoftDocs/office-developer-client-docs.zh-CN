@@ -1,5 +1,5 @@
 ---
-title: 连接元素 (PageContents_Type 复杂类型) ("Visio XML")
+title: 连接元素 (PageContents_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
 description: 包含绘图中两个形状之间的每个连接的 Connect 元素。
-ms.openlocfilehash: 00bba6be8b32fc2a8e1d996e89c6983e1e61e3a8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d421068926a40a8f7c24a783388d06091700211f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318961"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538709"
 ---
-# <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>连接元素 (PageContents_Type 复杂类型) ("Visio XML")
+# <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>连接元素 (PageContents_Type 复杂类型) (Visio XML)
 
 包含绘图中两个形状之间的每个连接的**Connect**元素。 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32318961"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |页面 # .xml、master # .xml  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: AuthorList 元素 (Comments_Type 复杂类型) ("Visio XML")
+title: AuthorList 元素 (Comments_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4b6950c4-7c03-6462-eeab-3176db9a8f7e
 description: 指定绘图中注释的作者。
-ms.openlocfilehash: af1b1889fa3736931c9abde35191cf5cb3e1bbd5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c6e94c985d2728ba704a9159ec9bf3c4a2a72e95
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338414"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537855"
 ---
-# <a name="authorlist-element-commentstype-complextype-visio-xml"></a>AuthorList 元素 (Comments_Type 复杂类型) ("Visio XML")
+# <a name="authorlist-element-commentstype-complextype-visio-xml"></a>AuthorList 元素 (Comments_Type 复杂类型) (Visio XML)
 
 指定绘图中注释的作者。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32338414"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |注释 .xml  <br/> |
    

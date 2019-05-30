@@ -1,5 +1,5 @@
 ---
-title: StencilGroup 元素 (Window_Type 复杂类型) ("Visio XML")
+title: StencilGroup 元素 (Window_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 40e45007-e5c3-118c-1460-af83b461b014
 description: 指定窗口所属的合并模具窗口的组。
-ms.openlocfilehash: c90ad41faa1444875ac6225942d56519adcc0f33
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5550ed60943690a642c0bfcaa32426c599a49940
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349348"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542000"
 ---
-# <a name="stencilgroup-element-windowtype-complextype-visio-xml"></a>StencilGroup 元素 (Window_Type 复杂类型) ("Visio XML")
+# <a name="stencilgroup-element-windowtype-complextype-visio-xml"></a>StencilGroup 元素 (Window_Type 复杂类型) (Visio XML)
 
 指定窗口所属的合并模具窗口的组。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32349348"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |windows .xml  <br/> |
    

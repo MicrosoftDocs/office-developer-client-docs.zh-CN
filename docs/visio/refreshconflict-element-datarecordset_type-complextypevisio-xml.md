@@ -1,5 +1,5 @@
 ---
-title: RefreshConflict 元素 (DataRecordSet_Type 复杂类型) ("Visio XML")
+title: RefreshConflict 元素 (DataRecordSet_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 373983f7-fc0c-95f6-7665-7ed47de82e5e
 description: 指示数据记录集中的行链接到的形状在数据记录集刷新后发生冲突。
-ms.openlocfilehash: 2da6f98cf7b047564331aaf5a4167e392927a155
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f966ca4a9f23de7a96273615b2404041d1045652
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360135"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542833"
 ---
-# <a name="refreshconflict-element-datarecordsettype-complextype-visio-xml"></a>RefreshConflict 元素 (DataRecordSet_Type 复杂类型) ("Visio XML")
+# <a name="refreshconflict-element-datarecordsettype-complextype-visio-xml"></a>RefreshConflict 元素 (DataRecordSet_Type 复杂类型) (Visio XML)
 
 指示数据记录集中的行链接到的形状在数据记录集刷新后发生冲突。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32360135"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |记录集 .xml  <br/> |
    
@@ -52,8 +52,8 @@ ms.locfileid: "32360135"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |冲突中涉及的形状的页面 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|RowID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |现在, 行的原始行 ID 在刷新数据后发生冲突。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|ShapeID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |冲突中涉及的形状的形状 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
+|PageID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |冲突中涉及的形状的页面 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|RowID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |现在, 行的原始行 ID 在刷新数据后发生冲突。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|ShapeID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |冲突中涉及的形状的形状 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
    
 

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: f524a544736f68bcfa6bd15e3bcc720ffa2bc4d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5b3b2da44d817885eb6190a8cbbfc73bf99e9e0a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297212"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538233"
 ---
 # <a name="after-delete-macro-event"></a>After Delete 宏事件
 
@@ -27,13 +27,13 @@ ms.locfileid: "32297212"
 > [!NOTE]
 > ****“删除后”事件仅适用于数据宏。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 使用“删除后”**** 事件可以执行您希望在删除记录时发生的任何操作。“删除后”**** 通常用于强制实施业务规则、工作流，更新聚合总计和发送通知。
 
 当发生 "**删除后**" 事件时, 已删除记录中包含的值仍可用。 您可能需要使用已删除的值来增加或减少总计、创建审核跟踪或与*WhereCondition*参数中的现有值进行比较。
 
-您可以使用**更新的 ("*Field Name*")** 函数来确定字段是否已更改。 下面的代码示例演示了如何使用 If 语句来确定 PaidInFull 字段是否已更改。
+可以使用 **Updated("*Field Name*")** 函数确定某个字段是否已更改。 下面的代码示例演示了如何使用 If 语句来确定 PaidInFull 字段是否已更改。
 
 ```vb 
  
@@ -65,7 +65,7 @@ End If
 <thead>
 <tr class="header">
 <th><p>命令类型</p></th>
-<th><p>Command</p></th>
+<th><p>命令</p></th>
 </tr>
 </thead>
 <tbody>
@@ -165,7 +165,7 @@ End If
 
 下面的代码示例使用“删除后”**** 事件来在从“捐赠”(Donations) 表中删除记录时执行一些处理。 当记录被删除时, 捐赠量将 subracted 在 DonationsReceived 表中的 DonationsReceived 字段和捐赠人表中的 TotalDonatedField 组成。
 
-**单击此处查看可粘贴到宏设计器中的宏副本。**
+**单击此处查看可以粘贴到宏设计器中的宏副本。**
 
 若要在宏设计器查看此示例，请执行以下步骤。
 
@@ -181,7 +181,7 @@ End If
 
 ```xml
     <?xml version="1.0" encoding="UTF-16" standalone="no"?> 
-    <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+    <DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
       <DataMacro Event="AfterDelete"> 
         <Statements> 
           <Comment>Initialize a variable and assign the old</Comment> 

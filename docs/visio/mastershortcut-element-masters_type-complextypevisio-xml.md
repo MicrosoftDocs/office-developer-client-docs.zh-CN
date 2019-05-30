@@ -1,5 +1,5 @@
 ---
-title: MasterShortcut 元素 (Masters_Type 复杂类型) ("Visio XML")
+title: MasterShortcut 元素 (Masters_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 62f0e093-5385-e552-f91a-02a65eb0e6e1
 description: 指定在文档中定义的主控形状快捷方式。
-ms.openlocfilehash: 03196c6fc1f3424c61bcce406dc050f2d5a73365
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 94ac64ff0080bf7d50df67674022ce53f32339a4
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341732"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538205"
 ---
-# <a name="mastershortcut-element-masterstype-complextype-visio-xml"></a>MasterShortcut 元素 (Masters_Type 复杂类型) ("Visio XML")
+# <a name="mastershortcut-element-masterstype-complextype-visio-xml"></a>MasterShortcut 元素 (Masters_Type 复杂类型) (Visio XML)
 
 指定在文档中定义的主控形状快捷方式。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32341732"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |master # .xml  <br/> |
    
@@ -48,20 +48,20 @@ ms.locfileid: "32341732"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Icon](icon-element-mastershortcut_type-complextypevisio-xml.md) <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |为文档中的**主控形状**或**MasterShortcut**元素指定 MIME (多用途 Internet 邮件扩展) 编码的二进制图标 (在 .ico 格式中)。  <br/> |
+|[Icon](icon-element-mastershortcut_type-complextypevisio-xml.md) <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |为文档中的**主控形状**或**MASTERSHORTCUT**元素指定 MIME (多用途 Internet 邮件扩展) 编码的二进制图标 (在 .ico 格式中)。  <br/> |
    
 ### <a name="attributes"></a>属性
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|AlignName  <br/> |xsd: unsignedShort  <br/> |可选  <br/> |指定是否在模具窗口中左对齐、右对齐或居中对齐元素的文本。  <br/> |xsd: unsignedShort 类型的值。  <br/> |
-|IconSize  <br/> |xsd: unsignedShort  <br/> |可选  <br/> |元素的图标的大小。  <br/> |xsd: unsignedShort 类型的值。  <br/> |
-|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |元素在其父元素中的唯一 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|名称  <br/> |xsd: string  <br/> |可选  <br/> |元素的名称。  <br/> |xsd: string 类型的值。  <br/> |
-|NameU  <br/> |xsd: string  <br/> |可选  <br/> |元素的通用名称。  <br/> |xsd: string 类型的值。  <br/> |
-|PatternFlags  <br/> |xsd: unsignedShort  <br/> |可选  <br/> |确定主控形状是否表现为自定义图案。  <br/> |xsd: unsignedShort 类型的值。  <br/> |
-|Prompt  <br/> |xsd: string  <br/> |可选  <br/> |元素的状态栏和工具提示提示。  <br/> |xsd: string 类型的值。  <br/> |
-|ShortcutHelp  <br/> |xsd: string  <br/> |可选  <br/> |元素的帮助字符串。  <br/> |xsd: string 类型的值。  <br/> |
-|ShortcutURL  <br/> |xsd: string  <br/> |可选  <br/> |指向**MasterShortcut**元素的 URL。  <br/> |xsd: string 类型的值。  <br/> |
+|AlignName  <br/> |xsd: unsignedShort  <br/> |可选  <br/> |指定是否在模具窗口中左对齐、右对齐或居中对齐元素的文本。  <br/> |Xsd: unsignedShort 类型的值。  <br/> |
+|IconSize  <br/> |xsd: unsignedShort  <br/> |可选  <br/> |元素的图标的大小。  <br/> |Xsd: unsignedShort 类型的值。  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |元素在其父元素中的唯一 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|名称  <br/> |xsd: string  <br/> |可选  <br/> |元素的名称。  <br/> |Xsd: string 类型的值。  <br/> |
+|NameU  <br/> |xsd: string  <br/> |可选  <br/> |元素的通用名称。  <br/> |Xsd: string 类型的值。  <br/> |
+|PatternFlags  <br/> |xsd: unsignedShort  <br/> |可选  <br/> |确定主控形状是否表现为自定义图案。  <br/> |Xsd: unsignedShort 类型的值。  <br/> |
+|Prompt  <br/> |xsd: string  <br/> |可选  <br/> |元素的状态栏和工具提示提示。  <br/> |Xsd: string 类型的值。  <br/> |
+|ShortcutHelp  <br/> |xsd: string  <br/> |可选  <br/> |元素的帮助字符串。  <br/> |Xsd: string 类型的值。  <br/> |
+|ShortcutURL  <br/> |xsd: string  <br/> |可选  <br/> |指向**MasterShortcut**元素的 URL。  <br/> |Xsd: string 类型的值。  <br/> |
    
 

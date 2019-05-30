@@ -1,25 +1,25 @@
 ---
-title: IssueTarget_Type 复杂类型 ("Visio XML")
+title: IssueTarget_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7a0dde1d-5748-63ce-b0da-87f545299b38
-ms.openlocfilehash: d7b8309bb6dac9648d379c89687dc89165f44edf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 38c73e54ff75e94468cfb95258f1fde510d8019a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314922"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542140"
 ---
-# <a name="issuetargettype-complextype-visio-xml"></a>IssueTarget_Type 复杂类型 ("Visio XML")
+# <a name="issuetargettype-complextype-visio-xml"></a>IssueTarget_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
@@ -51,7 +51,7 @@ ms.locfileid: "32314922"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|ShapeID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
+|PageID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|ShapeID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
    
 

@@ -1,25 +1,25 @@
 ---
-title: ValidationProperties_Type 复杂类型 ("Visio XML")
+title: ValidationProperties_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3b0d1209-4636-ea9c-acf7-895c3300492a
-ms.openlocfilehash: 2fa6724ce6262886379f3ac22625927608184bab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d83a1ce8e7ad89155726200de2950da755e5d3db
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355977"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538513"
 ---
-# <a name="validationpropertiestype-complextype-visio-xml"></a>ValidationProperties_Type 复杂类型 ("Visio XML")
+# <a name="validationpropertiestype-complextype-visio-xml"></a>ValidationProperties_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
@@ -51,7 +51,7 @@ ms.locfileid: "32355977"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|LastValidated  <br/> |xsd: dateTime  <br/> |必需  <br/> ||xsd: dateTime 类型的值。  <br/> |
-|ShowIgnored  <br/> |xsd: boolean  <br/> |必需  <br/> ||xsd: boolean 类型的值。  <br/> |
+|LastValidated  <br/> |xsd: dateTime  <br/> |必需  <br/> ||Xsd: dateTime 类型的值。  <br/> |
+|ShowIgnored  <br/> |xsd: boolean  <br/> |必需  <br/> ||Xsd: boolean 类型的值。  <br/> |
    
 

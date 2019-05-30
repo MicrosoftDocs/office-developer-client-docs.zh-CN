@@ -1,25 +1,25 @@
 ---
-title: RuleSets_Type 复杂类型 ("Visio XML")
+title: RuleSets_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9bd05541-7cd8-321b-8dd6-fa885c269057
-ms.openlocfilehash: 41172a4f15b0d9038fd0ffb0c0a7d8c3d4078798
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3afb97b513e545774065164b0685c78ebd5a1d71
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319038"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541559"
 ---
-# <a name="rulesetstype-complextype-visio-xml"></a>RuleSets_Type 复杂类型 ("Visio XML")
+# <a name="rulesetstype-complextype-visio-xml"></a>RuleSets_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    

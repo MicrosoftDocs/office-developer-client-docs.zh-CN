@@ -1,5 +1,5 @@
 ---
-title: ShowPageBreaks 元素 (Window_Type 复杂类型) ("Visio XML")
+title: ShowPageBreaks 元素 (Window_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a8c29d9-31d9-dd77-09c5-6e9eaf870552
 description: 指定是否在窗口中显示分页符。
-ms.openlocfilehash: 323fa123db83e93c9d1ef89ba7578296d8c9697d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 85450dedcfdf07929aafb92e59c29e474a5fb626
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338120"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541440"
 ---
-# <a name="showpagebreaks-element-windowtype-complextype-visio-xml"></a>ShowPageBreaks 元素 (Window_Type 复杂类型) ("Visio XML")
+# <a name="showpagebreaks-element-windowtype-complextype-visio-xml"></a>ShowPageBreaks 元素 (Window_Type 复杂类型) (Visio XML)
 
 指定是否在窗口中显示分页符。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32338120"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[ShowPageBreaks_Type](showpagebreaks_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |windows .xml  <br/> |
    

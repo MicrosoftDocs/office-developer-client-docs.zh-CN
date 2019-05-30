@@ -1,5 +1,5 @@
 ---
-title: Cell 元素 (控件行) ("Visio XML")
+title: Cell 元素 ("Controls" 行) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3c04d243-002c-bb00-a4be-0bcb8e156402
 description: 包含为形状定义的特定控制手柄的属性。
-ms.openlocfilehash: ea54865a645486dfba53688278cb380142899d77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 662dfe730c92ae25b3d243364bf1fa22a5eb8605
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356089"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541832"
 ---
-# <a name="cell-element-controls-row-visio-xml"></a>Cell 元素 (控件行) ("Visio XML")
+# <a name="cell-element-controls-row-visio-xml"></a>Cell 元素 ("Controls" 行) (Visio XML)
 
 包含为形状定义的特定控制手柄的属性。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356089"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |master # .xml、第 .xml 页  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32356089"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |表示一个度量单位, 默认值为 DL。  <br/> |单元格的单位。  <br/> |
 |部分  <br/> |xsd: string  <br/> |可选  <br/> |表示单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**单元格**元素的**N**属性必须是与 ShapeSheet 单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**单元格**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |CanGlue  <br/> |确定控制手柄能否粘附到其他形状上。  <br/> |[Can Glue Cell (Controls Section)](can-glue-cell-controls-section.md) <br/> |
 |Prompt  <br/> |表示说明性文本字符串，用户将指针悬停于形状的控制手柄上时，此字符串以工具提示的形式显示。  <br/> |[Tip Cell (Controls Section)](tip-cell-controls-section.md) <br/> |

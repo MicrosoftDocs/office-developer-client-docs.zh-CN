@@ -1,25 +1,25 @@
 ---
-title: Rel_Type 复杂类型 ("Visio XML")
+title: Rel_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2a068773-ce82-831a-9569-01b7b14a63d3
-ms.openlocfilehash: f815c8401c0ae247b322574446fee3707f6a0bc7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f01f64753db40c1b2727da37b51dedcff38a5f6e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319990"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542742"
 ---
-# <a name="reltype-complextype-visio-xml"></a>Rel_Type 复杂类型 ("Visio XML")
+# <a name="reltype-complextype-visio-xml"></a>Rel_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    

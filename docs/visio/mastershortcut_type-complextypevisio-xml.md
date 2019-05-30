@@ -1,25 +1,25 @@
 ---
-title: MasterShortcut_Type 复杂类型 ("Visio XML")
+title: MasterShortcut_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0192c733-09b8-d9ce-1d88-b4d97e2e1a36
-ms.openlocfilehash: 23d5de92be151b9ab6819296456746087573e7c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ed8dd8ef985c814e41017526144bd7ec8cb63424
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341690"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538058"
 ---
-# <a name="mastershortcuttype-complextype-visio-xml"></a>MasterShortcut_Type 复杂类型 ("Visio XML")
+# <a name="mastershortcuttype-complextype-visio-xml"></a>MasterShortcut_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
@@ -91,17 +91,17 @@ ms.locfileid: "32341690"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|AlignName  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||xsd: unsignedShort 类型的值。  <br/> |
-|IconSize  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||xsd: unsignedShort 类型的值。  <br/> |
-|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|IsCustomName  <br/> |xsd: boolean  <br/> |可选  <br/> ||xsd: boolean 类型的值。  <br/> |
-|IsCustomNameU  <br/> |xsd: boolean  <br/> |可选  <br/> ||xsd: boolean 类型的值。  <br/> |
-|MasterType  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||xsd: unsignedShort 类型的值。  <br/> |
-|名称  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
-|NameU  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
-|PatternFlags  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||xsd: unsignedShort 类型的值。  <br/> |
-|Prompt  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
-|ShortcutHelp  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
-|ShortcutURL  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
+|AlignName  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||Xsd: unsignedShort 类型的值。  <br/> |
+|IconSize  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||Xsd: unsignedShort 类型的值。  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|IsCustomName  <br/> |xsd: boolean  <br/> |可选  <br/> ||Xsd: boolean 类型的值。  <br/> |
+|IsCustomNameU  <br/> |xsd: boolean  <br/> |可选  <br/> ||Xsd: boolean 类型的值。  <br/> |
+|MasterType  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||Xsd: unsignedShort 类型的值。  <br/> |
+|名称  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|NameU  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|PatternFlags  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||Xsd: unsignedShort 类型的值。  <br/> |
+|Prompt  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|ShortcutHelp  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|ShortcutURL  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
    
 

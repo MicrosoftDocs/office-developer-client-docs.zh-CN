@@ -1,5 +1,5 @@
 ---
-title: ShowGuides 元素 (Window_Type 复杂类型) ("Visio XML")
+title: ShowGuides 元素 (Window_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b81bc46b-6eff-c11f-f583-85959a47c313
 description: 指定是否在绘图窗口中显示参考线。
-ms.openlocfilehash: 25e630d1d6e48aef922d225924b872097e1a7aee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9f747568c664f86dd88a68b9a6e6e2f6df723f67
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325738"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542980"
 ---
-# <a name="showguides-element-windowtype-complextype-visio-xml"></a>ShowGuides 元素 (Window_Type 复杂类型) ("Visio XML")
+# <a name="showguides-element-windowtype-complextype-visio-xml"></a>ShowGuides 元素 (Window_Type 复杂类型) (Visio XML)
 
 指定是否在绘图窗口中显示参考线。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32325738"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[ShowGuides_Type](showguides_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |windows .xml  <br/> |
    

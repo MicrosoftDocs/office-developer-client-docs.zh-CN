@@ -1,5 +1,5 @@
 ---
-title: HeaderCenter 元素 (HeaderFooter_Type 复杂类型) ("Visio XML")
+title: HeaderCenter 元素 (HeaderFooter_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bd026cb1-6d35-f9dc-e9dc-f95c0a6f2ff0
 description: 包含显示在文档页眉中心部分的文本字符串。
-ms.openlocfilehash: ff9a35d3377ad0392580df0e397ac48ff1395950
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 264ca5e3019bd15acc4e9b0c67477c0fab33d017
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335649"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542161"
 ---
-# <a name="headercenter-element-headerfootertype-complextype-visio-xml"></a>HeaderCenter 元素 (HeaderFooter_Type 复杂类型) ("Visio XML")
+# <a name="headercenter-element-headerfootertype-complextype-visio-xml"></a>HeaderCenter 元素 (HeaderFooter_Type 复杂类型) (Visio XML)
 
 包含显示在文档页眉中心部分的文本字符串。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32335649"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[HeaderCenter_Type](headercenter_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml  <br/> |
    

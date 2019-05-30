@@ -1,5 +1,5 @@
 ---
-title: Rel 元素 (ForeignData_Type 复杂类型) ("Visio XML")
+title: Rel 元素 (ForeignData_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7ed604ef-e001-f379-92c3-391a18f22bb3
 description: 指定形状与包含与形状相关联的图像数据的文档部件之间的关系。
-ms.openlocfilehash: 2667d5b0b940384f10df62dfc0fbf6acfa7d4ba6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5836fd306670600f65eda1f3a998ef4c5479114b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336790"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542805"
 ---
-# <a name="rel-element-foreigndatatype-complextype-visio-xml"></a>Rel 元素 (ForeignData_Type 复杂类型) ("Visio XML")
+# <a name="rel-element-foreigndatatype-complextype-visio-xml"></a>Rel 元素 (ForeignData_Type 复杂类型) (Visio XML)
 
 指定形状与包含与形状相关联的图像数据的文档部件之间的关系。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32336790"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |pages. .xml、xml、recordset、.xml、第 .xml、master # .xml  <br/> |
    
@@ -54,9 +54,9 @@ ms.locfileid: "32336790"
 |:-----|:-----|:-----|:-----|:-----|
 |r:id  <br/> |xsd: string  <br/> 请参阅注解。  <br/> |必需  <br/> |指定与部件的关系。  <br/> |"rId #"  <br/> 请参阅注解。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**r:id**属性的值必须是**ST_RelationshipID**类型。 **ST_RelationshipID**类型是一个必须采用 "rId #" 格式的字符串, 其中最后一个字符必须是数字。 该数字在**Rel**元素的所有同辈元素中必须是唯一的。 
+**R:id**属性的值必须是**ST_RelationshipID**类型。 **ST_RelationshipID**类型是一个必须采用 "rId #" 格式的字符串, 其中最后一个字符必须是数字。 该数字在**Rel**元素的所有同辈元素中必须是唯一的。 
   
 有关 ST_RelationshipID 类型的详细信息, 请参阅[ISO/IEC 29500 第1部分规范](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750)。
   

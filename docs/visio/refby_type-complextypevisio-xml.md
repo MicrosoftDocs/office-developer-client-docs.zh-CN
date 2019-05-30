@@ -1,25 +1,25 @@
 ---
-title: RefBy_Type 复杂类型 ("Visio XML")
+title: RefBy_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e2990281-6410-5a35-2b28-3a8b33246c73
-ms.openlocfilehash: ebfc84b2e7eb88078b3b8010f0a7001e90a9cb31
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7970ae735f4933f05e71f1758912d3ecd382bf89
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348319"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538275"
 ---
-# <a name="refbytype-complextype-visio-xml"></a>RefBy_Type 复杂类型 ("Visio XML")
+# <a name="refbytype-complextype-visio-xml"></a>RefBy_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
@@ -51,7 +51,7 @@ ms.locfileid: "32348319"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|T  <br/> |xsd: string  <br/> |必需  <br/> ||xsd: string 类型的值。  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|T  <br/> |xsd: string  <br/> |必需  <br/> ||Xsd: string 类型的值。  <br/> |
    
 

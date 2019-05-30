@@ -7,23 +7,23 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ae1abafe-160c-47c0-b4d5-4a689c8c4cb1
-description: '本主题中的 xml 示例是在调用社交网络的 ISocialProvider:: GetCapabilities 方法后返回到 Outlook Social Connector (.osc) 的 xml 字符串。 XML 显示了 .osc 提供商如何为 .osc 指定其功能和要求。'
-ms.openlocfilehash: 53bd250432e7b27d984a846d206adc812c47898f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: '本主题中的 XML 示例是在调用社交网络的 ISocialProvider:: GetCapabilities 方法后返回到 Outlook Social Connector (.OSC) 的 XML 字符串。 XML 显示了 .OSC 提供商如何为 .OSC 指定其功能和要求。'
+ms.openlocfilehash: 3340f5b1e0718edd1a062ab817c6621c338bee42
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281228"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542259"
 ---
 # <a name="capabilities-xml-example"></a>功能 XML 示例
 
-本主题中的 xml 示例是在调用社交网络的[ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md)方法后返回到 Outlook Social Connector (.osc) 的 xml 字符串。 XML 显示了 .osc 提供商如何为 .osc 指定其功能和要求。 
+本主题中的 XML 示例是在调用社交网络的[ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md)方法后返回到 Outlook Social CONNECTOR (.osc) 的 xml 字符串。 XML 显示了 .OSC 提供商如何为 .OSC 指定其功能和要求。 
   
 ## <a name="capabilities-for-friends"></a>朋友的功能
 
-在此示例中, .osc 提供程序将指定以下元素, 以显示其支持好友功能的功能:
+在此示例中, .OSC 提供程序将指定以下元素, 以显示其支持好友功能的功能:
   
-- **getFriends**为**true** , 指示 .osc 提供程序支持[ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)方法以编程方式获取友元信息。 
+- **getFriends**为**TRUE** , 指示 .Osc 提供程序支持[ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)方法以编程方式获取友元信息。 
     
 - **cacheFriends**为**true** , 以支持将朋友的信息缓存在 Outlook 联系人文件夹中。 
     
@@ -31,15 +31,15 @@ ms.locfileid: "32281228"
     
 - **followPerson**为**true** , 指示在社交网络上添加好友的功能。 
     
-- **doNotFollowPerson**为**false** , 表示 .osc 提供商不支持在社交网络中删除某个人作为好友。 
+- **doNotFollowPerson**为**FALSE** , 表示 .osc 提供商不支持在社交网络中删除某个人作为好友。 
     
 - **dynamicContactsLookup**为**false** , 以指示 .osc 不应将朋友的信息存储在内存中。 
     
 ## <a name="capabilities-for-activities"></a>活动的功能
 
-.osc 提供程序指定以下元素以显示其支持活动的功能:
+.OSC 提供程序指定以下元素以显示其支持活动的功能:
   
-- **getActivities**为**true** , 以指示 .osc 提供程序支持[ISocialProfile:: GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md)方法以编程方式获取朋友的活动。 
+- **getActivities**为**true** , 以指示 .Osc 提供程序支持[ISocialProfile:: GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md)方法以编程方式获取朋友的活动。 
     
 - **cacheActivities**为**false** , 以支持隐藏的 Outlook 新闻源文件夹中的朋友的缓存活动。 
     
@@ -47,7 +47,7 @@ ms.locfileid: "32281228"
     
 ## <a name="capabilities-for-authentication-and-account-configuration"></a>身份验证和帐户配置的功能
 
-.osc 提供程序指定以下元素, 以显示其对身份验证和帐户配置的支持:
+.OSC 提供程序指定以下元素, 以显示其对身份验证和帐户配置的支持:
   
 - **useLogonWebAuth**为**false** , 以指示 .osc 提供程序支持基本身份验证。 
     
@@ -61,11 +61,11 @@ ms.locfileid: "32281228"
     
 ## <a name="xml-example"></a>XML 示例
 
-下面的示例演示了一个 .osc 提供程序的**功能**XML。 
+下面的示例演示了一个 .OSC 提供程序的**功能**XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
-<capabilities xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<capabilities xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <getFriends>true</getFriends>
   <cacheFriends>true</cacheFriends>
   <followPerson>true</followPerson>
@@ -89,7 +89,7 @@ ms.locfileid: "32281228"
 
 ## <a name="see-also"></a>另请参阅
 
-- [.osc 提供程序 XML 示例](osc-provider-xml-examples.md)  
+- [.OSC 提供程序 XML 示例](osc-provider-xml-examples.md)  
 - [XML 的功能](xml-for-capabilities.md)  
 - [友元 XML 示例](friends-xml-example.md)  
 - [活动源 XML 示例](activity-feed-xml-example.md)  

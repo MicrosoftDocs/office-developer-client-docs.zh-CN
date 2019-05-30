@@ -1,5 +1,5 @@
 ---
-title: GlueSettings 元素 (Window_Type 复杂类型) ("Visio XML")
+title: GlueSettings 元素 (Window_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b5292f82-f299-ea96-6101-ebb799bbec9a
 description: 指定在文档中启用粘附时形状粘附到的对象。
-ms.openlocfilehash: 46d1ec09729cd26cfa3fc2f78a39edb6e7b7b02f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c2966cfb8805120aca164fc2f6f28b0210923f6f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351210"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542203"
 ---
-# <a name="gluesettings-element-windowtype-complextype-visio-xml"></a>GlueSettings 元素 (Window_Type 复杂类型) ("Visio XML")
+# <a name="gluesettings-element-windowtype-complextype-visio-xml"></a>GlueSettings 元素 (Window_Type 复杂类型) (Visio XML)
 
 指定在文档中启用粘附时形状粘附到的对象。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32351210"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |windows .xml、document、.xml  <br/> |
    

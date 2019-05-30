@@ -1,5 +1,5 @@
 ---
-title: 验证元素 ("Visio XML")
+title: 验证元素 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: db6292c7-9f4c-c287-803b-64fa41c0a269
 description: 存储有关文档图表验证的信息。
-ms.openlocfilehash: 7e40cd3a79922b56800cbb566a0d88de23829cc0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b1b1bcbd70d57d7a7316e91d137cf8c3c3750722
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329079"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538548"
 ---
-# <a name="validation-element-visio-xml"></a>验证元素 ("Visio XML")
+# <a name="validation-element-visio-xml"></a>验证元素 (Visio XML)
 
 存储有关文档图表验证的信息。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32329079"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |验证 .xml  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: SnapSettings 元素 (Window_Type 复杂类型) ("Visio XML")
+title: SnapSettings 元素 (Window_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7b87a244-b331-7e93-d304-239f8ca77061
 description: 指定在窗口中的 "对齐" 处于活动状态时, 形状将对齐到的对象。
-ms.openlocfilehash: b4793c6d9c13a922db4d3ed9504a3a08e933230a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0fbe54f56f79d84e6c6bd8ddc11aa28b7e5ba1dc
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334501"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540313"
 ---
-# <a name="snapsettings-element-windowtype-complextype-visio-xml"></a>SnapSettings 元素 (Window_Type 复杂类型) ("Visio XML")
+# <a name="snapsettings-element-windowtype-complextype-visio-xml"></a>SnapSettings 元素 (Window_Type 复杂类型) (Visio XML)
 
 指定在窗口中的 "对齐" 处于活动状态时, 形状将对齐到的对象。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32334501"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |windows .xml  <br/> |
    
@@ -56,7 +56,7 @@ ms.locfileid: "32334501"
 
 该值可以是下表中的值的总和。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |不与任何内容对齐。  <br/> |
 |1  <br/> |与标尺细分线对齐。  <br/> |

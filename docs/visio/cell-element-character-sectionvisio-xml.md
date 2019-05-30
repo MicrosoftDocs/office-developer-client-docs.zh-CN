@@ -1,5 +1,5 @@
 ---
-title: Cell 元素 ("Character" 内容) ("Visio XML")
+title: Cell 元素 ("Character" 内容) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b452591-cf0c-9e1c-c203-e9cf608d3cc3
 description: 指定形状的文本运行的格式属性, 如字体、颜色、样式、大小写、相对于基线的位置或磅值。
-ms.openlocfilehash: 6dd895b33353944d27abb0d64a6a6df64ca19896
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a7d67aa3c53f3a4c673151afc991202904f0557b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356082"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540082"
 ---
-# <a name="cell-element-character-section-visio-xml"></a>Cell 元素 ("Character" 内容) ("Visio XML")
+# <a name="cell-element-character-section-visio-xml"></a>Cell 元素 ("Character" 内容) (Visio XML)
 
 指定形状的文本运行的格式属性, 如字体、颜色、样式、大小写、相对于基线的位置或磅值。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356082"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml、master # .xml、第 .xml 页  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32356082"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |表示一个度量单位, 默认值为 DL。  <br/> |单元格的单位。  <br/> |
 |部分  <br/> |xsd: string  <br/> |可选  <br/> |表示单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**单元格**元素的**N**属性必须是与 ShapeSheet 单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**单元格**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |AsianFont  <br/> |包含用于设置包含亚洲字符的文本运行的格式的字体的枚举。  <br/> |[AsianFont Cell (Character Section)](asianfont-cell-character-section.md) <br/> |
 |情况  <br/> |确定形状的文本运行的大小写。  <br/> |[Case Cell (Character Section)](case-cell-character-section.md) <br/> |

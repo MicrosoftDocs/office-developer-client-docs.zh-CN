@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1127956a-37aa-c39e-60b4-343dcc4ead82
 description: 指定要在其上报告天气的位置。
-ms.openlocfilehash: f6642b3f477b9fe45ed0e6a43efcd40e21559b7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a907fb9df02d88d317a73e409ea8738273eb2cb1
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355207"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539010"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>气象元素 (weatherdata 元素) (Outlook 天气位置架构)
 
@@ -24,7 +24,7 @@ ms.locfileid: "32355207"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**架构文件** <br/> |getweatherlocation  <br/> |
    
 ## <a name="definition"></a>定义

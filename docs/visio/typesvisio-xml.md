@@ -1,5 +1,5 @@
 ---
-title: 类型 ("Visio XML")
+title: 类型 (Visio XML)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b9db404-a56a-efeb-90bc-669b61483f81
 description: 本主题列出了 Visio 2013 文件格式 XML 架构中的类型。
-ms.openlocfilehash: 1aef5ba241b74c434e54e296d93b3d5c98d5c163
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 465204a71b991fa0402665086ca146c3e094f641
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422430"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538590"
 ---
-# <a name="types-visio-xml"></a>类型 ("Visio XML")
+# <a name="types-visio-xml"></a>类型 (Visio XML)
 
 本主题列出了 Visio 2013 文件格式 XML 架构中的类型。
   

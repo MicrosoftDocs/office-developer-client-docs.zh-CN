@@ -1,25 +1,25 @@
 ---
-title: FillGradient_Type 复杂类型 ("Visio XML")
+title: FillGradient_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 82545cdc-890d-1b2f-9c8f-4740f32d0ed7
-ms.openlocfilehash: 6ae61b730a59c5f8e6acae3b7a4c5cb8e0298f91
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 83e8eef809f566bb2a69e5b2da1d1c5d932ce54c
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322468"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539640"
 ---
-# <a name="fillgradienttype-complextype-visio-xml"></a>FillGradient_Type 复杂类型 ("Visio XML")
+# <a name="fillgradienttype-complextype-visio-xml"></a>FillGradient_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |Section_Type  <br/> |
    

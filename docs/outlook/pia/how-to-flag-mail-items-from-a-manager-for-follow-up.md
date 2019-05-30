@@ -7,12 +7,12 @@ ms:contentKeyID: 55119898
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: fa3cf00a116b51f88f47ef48eab566155626dbbe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 06e6bdd91198cabeff689681f2999d6fd2cb725a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320242"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542588"
 ---
 # <a name="flag-mail-items-from-a-manager-for-follow-up"></a>标记来自经理的邮件项以供跟进
 
@@ -32,7 +32,7 @@ Microsoft Outlook 提供了一个任务标记系统，在该系统中可以标�
 > **Importance** 属性和 **MarkAsTask** 方法是 **Item** 对象成员。
 
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -43,9 +43,9 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void DemoTaskFlagging()
 {
     const string PR_SENT_REPRESENTING_NAME =
-        "https://schemas.microsoft.com/mapi/proptag/0x0042001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x0042001E";
     const string PR_MESSAGE_CLASS =
-        "https://schemas.microsoft.com/mapi/proptag/0x001A001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x001A001E";
     Outlook.AddressEntry currentUser =
         Application.Session.CurrentUser.AddressEntry;
     if (currentUser.Type == "EX")

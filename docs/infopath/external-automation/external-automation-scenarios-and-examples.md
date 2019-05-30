@@ -4,33 +4,33 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- 自动化 infopath 2007, 表单 [infopath 2007], 以编程方式添加数据, 自动化 [infopath 2007], 外部方案
+- 自动化 infopath 2007, 表单 [InfoPath 2007], 以编程方式添加数据, 自动化 [InfoPath 2007], 外部方案
 localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
-description: Microsoft Office InfoPath 主互操作程序集 (如 "microsoft. .dll") 和 infopath XML 互操作程序集 ("microsoft. web.xml") 提供的成员支持编写托管代码以实现自动化InfoPath.
-ms.openlocfilehash: af8bfbb0322b9d70fb85ba21a757a581ba423a44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Microsoft Office InfoPath 主互操作程序集 (如 "Microsoft. .dll") 和 InfoPath XML 互操作程序集 ("Microsoft. Web.xml") 提供的成员支持编写托管代码以实现自动化InfoPath.
+ms.openlocfilehash: 79fbc56033ffce639b5007874dabf56e8e286edb
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310197"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537813"
 ---
 # <a name="external-automation-scenarios-and-examples"></a>外部自动化方案和示例
 
-Microsoft Office InfoPath 主互操作程序集 (如 "microsoft. .dll") 和 infopath XML 互操作程序集 ("microsoft. web.xml") 提供的成员支持编写托管代码以实现自动化InfoPath. 
+Microsoft Office InfoPath 主互操作程序集 (如 "Microsoft. .dll") 和 InfoPath XML 互操作程序集 ("Microsoft. Web.xml") 提供的成员支持编写托管代码以实现自动化InfoPath. 
   
 ## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>建立对 Microsoft Office InfoPath 主互操作性和 InfoPath XML 互操作程序集的引用
 
-若要编写托管代码以自动化 InfoPath, 您必须建立对 Microsoft InfoPath 主互操作和 infopath XML 互操作程序集的引用。 Microsoft InfoPath 主互操作程序集为与 IPEDITOR 公开的 COM 对象模型的互操作性提供支持。DLL 命名空间的成员使用的[](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) DLL。 infopath XML 互操作程序集支持与通过 microsoft XML Core Services (MSXML) 公开的 COM 对象模型的互操作性, 具体方法是使用[microsoft](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) xml Core Services (MSXML) 命名空间的成员。 
+若要编写托管代码以自动化 InfoPath, 您必须建立对 Microsoft InfoPath 主互操作和 InfoPath XML 互操作程序集的引用。 Microsoft InfoPath 主互操作程序集为与 IPEDITOR 公开的 COM 对象模型的互操作性提供支持。DLL 命名空间的成员使用的[](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) DLL。 InfoPath XML 互操作程序集支持与通过 microsoft XML Core Services (MSXML) 公开的 COM 对象模型的互操作性, 具体方法是使用[microsoft](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) Xml Core Services (MSXML) 命名空间的成员。 
   
 > [!IMPORTANT]
-> 自动化 infopath 的托管代码应用程序的用户必须在其计算机上安装 infopath、Microsoft Office InfoPath 主互操作程序集和 infopath XML 互操作程序集。 infopath 安装程序中的 " **.net 可编程性支持**" 选项设置为 "**从本机运行**", 以便安装 infopath 的典型安装。
+> 自动化 InfoPath 的托管代码应用程序的用户必须在其计算机上安装 InfoPath、Microsoft Office InfoPath 主互操作程序集和 InfoPath XML 互操作程序集。 InfoPath 安装程序中的 " **.Net 可编程性支持**" 选项设置为 "**从本机运行**", 以便安装 infopath 的典型安装。
 >  
-> 因此, 只要安装了 .net framework 1.1 可再发行版或 .net framework 1.1 软件开发工具包 (SDK) 或更高版本, 默认情况下也会安装这些互操作程序集。 如果这些互操作程序集在用户计算机上不可用, 则必须确认已安装 .net Framework 1.1 或更高版本, 然后运行 "**控制面板**" 中的 "**程序和功能**" 更改安装程序并设置 **.net 可编程性****从 "我的电脑" 运行**的 InfoPath 支持选项。 
+> 因此, 只要安装了 .NET Framework 1.1 可再发行版或 .NET Framework 1.1 软件开发工具包 (SDK) 或更高版本, 默认情况下也会安装这些互操作程序集。 如果这些互操作程序集在用户计算机上不可用, 则必须确认已安装 .NET Framework 1.1 或更高版本, 然后运行 "**控制面板**" 中的 "**程序和功能**" 更改安装程序并设置 **.net 可编程性****从 "我的电脑" 运行**的 InfoPath 支持选项。 
   
 以下过程介绍如何在 Visual Studio 项目中设置对 Microsoft Office InfoPath 主互操作性和 InfoPath XML 互操作程序集的引用。
   
-若要设置对 microsoft infopath 的主互操作程序集的引用, 请在 "**添加引用**" 对话框的 " **COM** " 选项卡上设置对**microsoft InfoPath 3.0 类型库**的引用。 即使您从 " **COM** " 选项卡中设置了引用, 也会为 infopath 安装程序在全局程序集缓存 (GAC) 中安装的 Microsoft. .dll 主互操作程序集建立一个引用。 
+若要设置对 Microsoft InfoPath 的主互操作程序集的引用, 请在 "**添加引用**" 对话框的 " **COM** " 选项卡上设置对**microsoft InfoPath 3.0 类型库**的引用。 即使您从 " **COM** " 选项卡中设置了引用, 也会为 infopath 安装程序在全局程序集缓存 (GAC) 中安装的 Microsoft. .dll 主互操作程序集建立一个引用。 
   
 ### <a name="set-a-reference-to-the-microsoftofficeinteropinfopath-primary-interop-assembly"></a>设置对 Microsoft. InfoPath 主互操作程序集的引用
 
@@ -40,9 +40,9 @@ Microsoft Office InfoPath 主互操作程序集 (如 "microsoft. .dll") 和 info
     
 3. 在 " **COM** " 选项卡上, 双击 " **Microsoft InfoPath 3.0 类型库**", 然后单击 **"确定"**。
     
-若要设置对 microsoft. xml 互操作程序集的引用, 请浏览到默认情况下在 < _drive_>: \Program Files\Microsoft Office\OFFICE14 文件夹中安装的 Microsoft. .xml .dll 文件。. 即使您在本地文件系统中指定了程序集的副本, 此过程也会建立对 infopath 安装程序安装在全局程序集缓存 (GAC) 中的 Microsoft. .xml .dll 程序集的引用。
+若要设置对 Microsoft. Xml 互操作程序集的引用, 请浏览到默认情况下在 < _drive_>: \Program Files\Microsoft Office\OFFICE14 文件夹中安装的 Microsoft. .xml .dll 文件。. 即使您在本地文件系统中指定了程序集的副本, 此过程也会建立对 InfoPath 安装程序安装在全局程序集缓存 (GAC) 中的 Microsoft. .Xml .dll 程序集的引用。
   
-### <a name="set-a-reference-to-the-microsoftofficeinteropinfopathxml-interop-assembly"></a>设置对 Microsoft. web.xml 互操作程序集的引用
+### <a name="set-a-reference-to-the-microsoftofficeinteropinfopathxml-interop-assembly"></a>设置对 Microsoft. Web.xml 互操作程序集的引用
 
 1. 打开或创建一个 Visual Studio 托管代码项目, 如**控制台应用程序**或**Windows 应用程序**。
     
@@ -50,11 +50,11 @@ Microsoft Office InfoPath 主互操作程序集 (如 "microsoft. .dll") 和 info
     
 3. 在 " **.net** " 选项卡上, 单击 "**浏览**", 导航到 < _drive_>: \Program Files\Microsoft Office\OFFICE14 文件夹, 然后单击 ""。
     
-4. 单击“**确定**”。
+4. 单击“确定”****。
     
 ## <a name="automate-changing-the-value-of-a-field"></a>自动更改字段的值
 
-假设 InfoPath sales report 表单模板的用户之一的客户最近将其名称从 "company A" 更改为 "company B"。 要求开发人员编写代码, 以自动更新从该表单模板保存的销售报告表单, 以反映名称的变化。 下面的方案假定表单中包含一个绑定到名为 customerName 的字段的文本框。
+假设 InfoPath sales report 表单模板的用户之一的客户最近将其名称从 "Company A" 更改为 "Company B"。 要求开发人员编写代码, 以自动更新从该表单模板保存的销售报告表单, 以反映名称的变化。 下面的方案假定表单中包含一个绑定到名为 customerName 的字段的文本框。
   
 ### <a name="create-the-sample-form-template-and-form"></a>创建示例表单模板和表单
 
@@ -70,9 +70,9 @@ Microsoft Office InfoPath 主互操作程序集 (如 "microsoft. .dll") 和 info
     
 6. 打开表单模板, 将名称 "Company A" 添加到绑定到 customerName 域的文本框, 然后将该表单另存为 "Form1"。 
     
-### <a name="create-a-managed-code-console-application-to-change-the-name-from-company-a-to-company-b"></a>创建托管代码控制台应用程序以将名称从 "company a" 更改为 "company B"
+### <a name="create-a-managed-code-console-application-to-change-the-name-from-company-a-to-company-b"></a>创建托管代码控制台应用程序以将名称从 "Company A" 更改为 "Company B"
 
-1. 打开 visual Studio, 创建一个名为 UpdateCustomer 的新 visual c # 或 visual Basic 控制台应用程序。
+1. 打开 Visual Studio, 创建一个名为 UpdateCustomer 的新 Visual c # 或 Visual Basic 控制台应用程序。
     
 2. 按照上述说明, 建立对 Microsoft Office InfoPath 主互操作性和 InfoPath XML 互操作程序集的引用。
     
@@ -109,7 +109,7 @@ Microsoft Office InfoPath 主互操作程序集 (如 "microsoft. .dll") 和 info
             // namespace of the form. IMPORTANT:Replace the namespace 
             // value below with that of your sample form.
             myXMLDoc.setProperty("SelectionNamespaces",
-    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Select all instances of customerName that contain 
             //'Company A'.
             IXMLDOMNodeList myNames = 
@@ -161,7 +161,7 @@ Microsoft Office InfoPath 主互操作程序集 (如 "microsoft. .dll") 和 info
           ' namespace of the form. IMPORTANT:Replace the namespace 
           ' value below with that of your sample form.
           myXMLDoc.setProperty("SelectionNamespaces", _
-    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Select all instances of customerName that contain 
           ''Company A'.
           Dim myNames As IXMLDOMNodeList = _
@@ -190,7 +190,7 @@ Microsoft Office InfoPath 主互操作程序集 (如 "microsoft. .dll") 和 info
 
 4. 单击 "**调试**" 菜单上的 "**启动调试**" 以编译并运行控制台应用程序。 
     
-   应用程序打开另存为 Form1 的窗体, 并循环访问包含价值公司 A 的所有 customerName 元素, 并将该值更改为 company B。操作完成后, 将表单的新副本保存为 C:\Test 文件夹中的 Form2. xml。 
+   应用程序打开另存为 Form1 的窗体, 并循环访问包含价值公司 A 的所有 customerName 元素, 并将该值更改为 Company B。操作完成后, 将表单的新副本保存为 C:\Test 文件夹中的 Form2. xml。 
     
 ## <a name="automate-opening-a-form-and-populating-field-values"></a>自动打开表单和填充字段值
 
@@ -208,11 +208,11 @@ Microsoft Office InfoPath 主互操作程序集 (如 "microsoft. .dll") 和 info
     
 5. 将表单模板发布到名为 C:\Temp 的文件夹, 并接受默认名称 Template1。
     
-6. 打开表单模板并将空白表单另存为 "Form1" 到 c:\temp。
+6. 打开表单模板并将空白表单另存为 "Form1" 到 C:\temp。
     
 ### <a name="create-a-managed-code-console-application-to-open-the-form-and-populate-the-fields"></a>创建托管代码控制台应用程序以打开表单并填充字段
 
-1. 打开 visual Studio, 创建一个新的 visual c # 或 visual Basic 控制台应用程序 (名为 OpenForm)。
+1. 打开 Visual Studio, 创建一个新的 Visual c # 或 Visual Basic 控制台应用程序 (名为 OpenForm)。
     
 2. 按照上述说明, 建立对 Microsoft Office InfoPath 主互操作性和 InfoPath XML 互操作程序集的引用。
     
@@ -247,7 +247,7 @@ Microsoft Office InfoPath 主互操作程序集 (如 "microsoft. .dll") 和 info
             // Set the MSXML SelectionNamespaces property to the my
             // namespace of the form. IMPORTANT:Replace the namespace
             // value below with that of your sample form.
-            doc.setProperty("SelectionNamespaces","xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+            doc.setProperty("SelectionNamespaces","xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Pre-populate the fields with specified values.
             doc.selectSingleNode("//my:FirstName").text="My Name";
             doc.selectSingleNode("//my:LastName").text="My LastName";
@@ -280,7 +280,7 @@ Microsoft Office InfoPath 主互操作程序集 (如 "microsoft. .dll") 和 info
           ' Set the MSXML SelectionNamespaces property to the my
           ' namespace of the form. IMPORTANT:Replace the namespace
           ' value below with that of your sample form.
-          doc.setProperty("SelectionNamespaces", "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+          doc.setProperty("SelectionNamespaces", "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Pre-populate the fields with specified values.
           doc.selectSingleNode("//my:FirstName").text = "My Name"
           doc.selectSingleNode("//my:LastName").text = "My LastName"

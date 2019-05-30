@@ -1,25 +1,25 @@
 ---
-title: FaceName_Type 复杂类型 ("Visio XML")
+title: FaceName_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d24f350c-35bf-ab16-2469-39fd5344e5fe
-ms.openlocfilehash: 8035f541e619360403336bd2fbd931cf05dbfe59
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f0a136cec6d620ba7001ed0e6fae01af82c2180d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322552"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542896"
 ---
-# <a name="facenametype-complextype-visio-xml"></a>FaceName_Type 复杂类型 ("Visio XML")
+# <a name="facenametype-complextype-visio-xml"></a>FaceName_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
@@ -62,11 +62,11 @@ ms.locfileid: "32322552"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|CharSets  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
-|Flags  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|NameU  <br/> |xsd: string  <br/> |必需  <br/> ||xsd: string 类型的值。  <br/> |
-|Panos  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
-|Panose  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
-|UnicodeRanges  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
+|CharSets  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|Flags  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|NameU  <br/> |xsd: string  <br/> |必需  <br/> ||Xsd: string 类型的值。  <br/> |
+|Panos  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|Panose  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|UnicodeRanges  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
    
 

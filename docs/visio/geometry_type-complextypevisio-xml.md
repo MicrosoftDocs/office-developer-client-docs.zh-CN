@@ -1,25 +1,25 @@
 ---
-title: Geometry_Type 复杂类型 ("Visio XML")
+title: Geometry_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 115a1499-ae55-f85c-676c-e78f478c4703
-ms.openlocfilehash: 76627f406e8a829a77658cd486b586d8eebd19b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1b16a32462f997ab80b0b6ef64df8eb202740c47
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359666"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542287"
 ---
-# <a name="geometrytype-complextype-visio-xml"></a>Geometry_Type 复杂类型 ("Visio XML")
+# <a name="geometrytype-complextype-visio-xml"></a>Geometry_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |Section_Type  <br/> |
    

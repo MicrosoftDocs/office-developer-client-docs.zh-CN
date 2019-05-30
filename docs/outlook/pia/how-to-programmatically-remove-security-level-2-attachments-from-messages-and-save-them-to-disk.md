@@ -7,12 +7,12 @@ ms:contentKeyID: 55119822
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 135f07f4bd3bdc36cee8547106b955b967150df8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 588d1db8ad222462b2648d4fdb85207fd9bdb782
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320144"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539260"
 ---
 # <a name="programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk"></a>以编程方式删除邮件的安全级别 2 附件，并将它们保存到磁盘中
 
@@ -32,7 +32,7 @@ Outlook 保护用户免遭恶意代码的危害，这些代码通过具有特定
 > 
 > 不能使用 **foreach** 语句来移除集合中的项目。而是应使用 **Index** 运算符来获取集合中的第一个项目，并删除该项目。然后使用 **while** 语句来确定您何时删除了集合中适当数目的项目。这将确保您循环访问了集合中正确数目的项目。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -55,7 +55,7 @@ private void RemoveAttachmentsAndSaveToDisk(string path,
         string filter = "@SQL=" + "\""
             + "urn:schemas:httpmail:hasattachment"
             + "\"" + " = True" + " AND " + "\""
-            + "https://schemas.microsoft.com/mapi/proptag/0x001A001E"
+            + "http://schemas.microsoft.com/mapi/proptag/0x001A001E"
             + "\"" + " = 'IPM.Note'";
         attachItems = folder.Items.Restrict(filter);
         foreach (Outlook.MailItem mail in attachItems)

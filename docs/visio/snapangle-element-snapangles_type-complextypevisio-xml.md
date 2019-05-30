@@ -1,5 +1,5 @@
 ---
-title: SnapAngle 元素 (SnapAngles_Type 复杂类型) ("Visio XML")
+title: SnapAngle 元素 (SnapAngles_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d4f93fc5-80fb-3195-d25b-9a407de7848e
 description: 包含以度为单位指定对齐角度的浮点数字。
-ms.openlocfilehash: c283be7d613c574d60412f645271d2c947ae0ffb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: be53b3fdbe7aa04b6bcdf703f1859e866f2af2c2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270061"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540453"
 ---
-# <a name="snapangle-element-snapanglestype-complextype-visio-xml"></a>SnapAngle 元素 (SnapAngles_Type 复杂类型) ("Visio XML")
+# <a name="snapangle-element-snapanglestype-complextype-visio-xml"></a>SnapAngle 元素 (SnapAngles_Type 复杂类型) (Visio XML)
 
 包含以度为单位指定对齐角度的浮点数字。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32270061"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml  <br/> |
    

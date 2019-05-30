@@ -1,25 +1,25 @@
 ---
-title: ControlRow_Type 复杂类型 ("Visio XML")
+title: ControlRow_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7f9ee251-e685-e56c-3c8a-cb727ad62064
-ms.openlocfilehash: 7cd09b4644cc72648bf880a3c187fa59274e6e02
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a6bd54f425e211716ce7dc9a7206a3d079383d5d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282969"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538667"
 ---
-# <a name="controlrowtype-complextype-visio-xml"></a>ControlRow_Type 复杂类型 ("Visio XML")
+# <a name="controlrowtype-complextype-visio-xml"></a>ControlRow_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |NamedIndexedRow_Type  <br/> |
    

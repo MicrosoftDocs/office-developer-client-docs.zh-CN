@@ -6,34 +6,34 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
 description: 在可为 Project Online 创建的三种类型的应用程序 (自动承载、提供程序托管和 SharePoint 托管) 中, SharePoint 托管的应用程序是创建和部署的最简单的。
-ms.openlocfilehash: 7a74f5b3b848f3fa238051f5b9f9f563c38417b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0af2ab51266a01f682cd16382f2cd0fdfde3a416
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325892"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540838"
 ---
 # <a name="create-a-sharepoint-hosted-project-server-add-in"></a>创建 SharePoint 托管的 Project Server 加载项
 
-在可为 Project Online 创建的三种类型的应用程序 (自动承载、提供程序托管和 SharePoint 托管) 中, SharePoint 托管的应用程序是创建和部署的最简单的。 SharePoint 承载的应用程序不需要 OAuth 身份验证, 也不会使用 Azure, 也不需要维护提供程序承载的资源的本地网站。 Visual Studio 中的 " **SharePoint 相关应用程序**" 模板是一个方便的框架, 用于开发可在 Office 应用商店中发布和销售的应用程序, 或部署到 SharePoint 上的私有应用程序目录中的应用程序。 
+在可为 Project Online 创建的三种类型的应用程序 (自动承载、提供程序托管和 SharePoint 托管) 中, SharePoint 托管的应用程序是创建和部署的最简单的。 SharePoint 承载的应用程序不需要 OAuth 身份验证, 也不会使用 Azure, 也不需要维护提供程序承载的资源的本地网站。 Visual Studio 中的 "2013 SharePoint 相关应用程序" 模板是一个方便的框架, 用于开发可在 Office 应用商店中发布和销售的应用程序, 或部署到 SharePoint 上的私有应用程序目录中的应用程序。 
   
-在 project 中, statusing 是一个过程, 工作组成员可以使用 Project Web App 中的 "任务" 页来提交分配的任务的状态, 例如, 一周中每一天的工作小时数。 工作分配所有者 (通常为项目经理) 可以批准或拒绝状态。 如果状态为 "已批准", 则 Project 将重新计算计划。 **QuickStatus**应用程序显示已分配的任务, 用户可在其中快速更新所选工作分配的完成百分比和提交状态以供审批。 [! 注意] 尽管 Project Web App 中的 "任务" 页具有更多功能, 但**QuickStatus**应用程序是一个提供简化界面的示例。 
+在 Project 中, statusing 是一个过程, 工作组成员可以使用 Project Web App 中的 "任务" 页来提交分配的任务的状态, 例如, 一周中每一天的工作小时数。 工作分配所有者 (通常为项目经理) 可以批准或拒绝状态。 如果状态为 "已批准", 则 Project 将重新计算计划。 **QuickStatus**应用程序显示已分配的任务, 用户可在其中快速更新所选工作分配的完成百分比和提交状态以供审批。 [! 注意] 尽管 Project Web App 中的 "任务" 页具有更多功能, 但**QuickStatus**应用程序是一个提供简化界面的示例。 
   
 **QuickStatus**应用程序是开发人员的示例;它不应在生产环境中使用。 主要目的是显示 Project Online 的应用程序开发示例, 而不是创建功能齐全的 statusing 应用程序。 若要获得更好的 statusing 方法, 请参阅[后续步骤](#pj15_StatusingApp_NextSteps)中的建议。
   
-有关 statusing 的一般信息, 请参阅[任务进度](https://support.office.com/article/Find-information-about-Project-Server-2013-8b08a414-15a7-4076-b2db-c90d0214ea7f?ui=en-US&rs=en-US&ad=US#BKMK_TaskProgress)。 有关开发 sharepoint 和 Project Server 外接程序的详细信息, 请参阅[SharePoint 外接程序](https://msdn.microsoft.com/library/jj163230.aspx)。
+有关 statusing 的一般信息, 请参阅[任务进度](https://support.office.com/article/Find-information-about-Project-Server-2013-8b08a414-15a7-4076-b2db-c90d0214ea7f?ui=en-US&rs=en-US&ad=US#BKMK_TaskProgress)。 有关开发 SharePoint 和 Project Server 外接程序的详细信息, 请参阅[SharePoint 外接程序](https://msdn.microsoft.com/library/jj163230.aspx)。
 
 <a name="pj15_StatusingApp_Prerequisites"> </a>
 
 ## <a name="prerequisites-for-creating-an-app-for-project-server-2013"></a>为 Project Server 2013 创建应用程序的先决条件
 
-若要开发可部署到 project Online 或本地安装的 project Server 2013 的相对简单的应用程序, 您可以使用 Napa, 它提供了联机开发环境。 对于更复杂的应用程序, 修改 Project Web App 功能区, 并在开发过程中更轻松地进行调试, 可以使用 Visual studio 2012 或 visual studio 2013。 例如, 在本地安装中, 可以手动检查 Project Server 数据库中的 "草稿" 数据表是否发生更改。 本文介绍如何使用 Visual Studio 进行应用程序开发。
+若要开发可部署到 Project Online 或本地安装的 Project Server 2013 的相对简单的应用程序, 您可以使用 Napa, 它提供了联机开发环境。 对于更复杂的应用程序, 修改 Project Web App 功能区, 并在开发过程中更轻松地进行调试, 可以使用 Visual Studio 2012 或 Visual Studio 2013。 例如, 在本地安装中, 可以手动检查 Project Server 数据库中的 "草稿" 数据表是否发生更改。 本文介绍如何使用 Visual Studio 进行应用程序开发。
   
 使用 Visual Studio 开发 Project Server 应用程序需要满足以下条件:
   
 - 确保您已在本地开发计算机上安装最新的 Service Pack 和 Windows 更新。操作系统可以是 Windows 7、Windows 8、Windows Server 2008 或 Windows Server 2012。
     
-- 您必须具有安装了 SharePoint server 2013 和 Project Server 2013 的计算机, 其中的计算机配置为应用程序隔离和应用程序旁加载。 旁加载可使 Visual Studio 暂时安装用于调试的应用程序。 您可以使用 SharePoint 和 Project Server 的本地安装。 有关详细信息, 请参阅[设置 SharePoint 相关应用程序的本地开发环境](https://msdn.microsoft.com/library/fp179923%28Office.15%29.aspx)。
+- 您必须具有安装了 SharePoint Server 2013 和 Project Server 2013 的计算机, 其中的计算机配置为应用程序隔离和应用程序旁加载。 旁加载可使 Visual Studio 暂时安装用于调试的应用程序。 您可以使用 SharePoint 和 Project Server 的本地安装。 有关详细信息, 请参阅[设置 SharePoint 相关应用程序的本地开发环境](https://msdn.microsoft.com/library/fp179923%28Office.15%29.aspx)。
     
    > [!NOTE]
    > 对于本地安装, 请先配置一个独立的应用程序域,*然后再*创建一个企业应用程序目录。 
@@ -50,7 +50,7 @@ ms.locfileid: "32325892"
 
 Visual Studio 2012 的 Office 开发人员工具包括可与 Project Server 2013 一起使用的 SharePoint 应用程序模板。 创建应用程序解决方案时, 解决方案包含自定义代码的以下文件:
   
-- **appmanifest.xml**包括应用程序标题、权限请求范围和其他属性的设置。 过程1包括使用清单设计器设置属性的步骤。 
+- **Appmanifest.xml**包括应用程序标题、权限请求范围和其他属性的设置。 过程1包括使用清单设计器设置属性的步骤。 
     
 - "页面" 文件夹中的 " **.aspx** " 是应用的主要页面。 步骤2演示如何为**QuickStatus**应用程序添加 HTML5 内容。 
     
@@ -62,13 +62,13 @@ Visual Studio 2012 的 Office 开发人员工具包括可与 Project Server 2013
     
 - Images 文件夹中的**AppIcon**是应用程序显示在 Office 应用商店或应用程序目录中的 96 x 96 图标。 
     
-若要修改 Project Web App 功能区, 可以添加功能区自定义操作。 [QuickStatus 应用程序部分的示例代码](#pj15_StatusingApp_Example)包括修改后的 default.aspx、appmanifest.xml、web.xml 和文件的完整代码的代码示例。 
+若要修改 Project Web App 功能区, 可以添加功能区自定义操作。 [QuickStatus 应用程序部分的示例代码](#pj15_StatusingApp_Example)包括修改后的 Default.aspx、appmanifest.xml、Web.xml 和文件的完整代码的代码示例。 
   
 ### <a name="procedure-1-to-create-an-app-project-in-visual-studio"></a>过程 1. 在 Visual Studio 中创建应用程序项目
 
 1. 以管理员身份运行 Visual Studio 2012, 然后在 "开始" 页上选择 "**新建项目**"。 
     
-2. 在 "**新建项目**" 对话框中, 展开 "**模板**"、" **Visual c #**" 和 " **Office/SharePoint** " 节点, 然后选择 "**应用程序**"。 在中心窗格顶部的 "目标框架" 下拉列表中, 使用默认的 **.net Framework 4.5** , 然后选择 "SharePoint 相关**应用程序 2013** " (参见图 1)。 
+2. 在 "**新建项目**" 对话框中, 展开 "**模板**"、" **Visual c #**" 和 " **Office/SharePoint** " 节点, 然后选择 "**应用程序**"。 在中心窗格顶部的 "目标框架" 下拉列表中, 使用默认的 **.Net Framework 4.5** , 然后选择 "SharePoint 相关**应用程序 2013** " (参见图 1)。 
     
 3. 在 "**名称**" 字段中, 键入 QuickStatus, 浏览到要保存应用程序的位置, 然后选择 **"确定"**。
     
@@ -78,9 +78,9 @@ Visual Studio 2012 的 Office 开发人员工具包括可与 Project Server 2013
   
 4. 在 "**新建 SharePoint 相关应用程序**" 对话框中, 填写以下三个字段: 
     
-   - 在顶部文本框中, 键入您希望应用程序在 Project Web app 中显示的名称。 例如, 键入 "快速状态更新"。
+   - 在顶部文本框中, 键入您希望应用程序在 Project Web App 中显示的名称。 例如, 键入 "快速状态更新"。
     
-   - 对于要用于调试的网站, 请键入 Project Web App 实例的 URL。 `https://ServerName/ProjectServerName`例如, 键入 (将_ServerName_和_ProjectServerName_替换为您自己的值), 然后选择 "**验证**"。 如果一切顺利, Visual Studio 会显示**连接成功**。 如果收到一条错误消息, 请确保 project Web App URL 正确无误, 并且 project Server 计算机已配置为应用程序隔离和应用程序旁加载。 有关详细信息, 请参阅[创建适用于 Project Server 2013 的应用程序](#pj15_StatusingApp_Prerequisites)一节中的先决条件。 
+   - 对于要用于调试的网站, 请键入 Project Web App 实例的 URL。 `https://ServerName/ProjectServerName`例如, 键入 (将_ServerName_和_ProjectServerName_替换为您自己的值), 然后选择 "**验证**"。 如果一切顺利, Visual Studio 会显示**连接成功**。 如果收到一条错误消息, 请确保 Project Web App URL 正确无误, 并且 Project Server 计算机已配置为应用程序隔离和应用程序旁加载。 有关详细信息, 请参阅[创建适用于 Project Server 2013 的应用程序](#pj15_StatusingApp_Prerequisites)一节中的先决条件。 
     
    - 在 "**您希望如何承载 sharepoint 相关应用程序**" 下拉列表中, 选择 " **sharepoint 托管**"。
     
@@ -89,7 +89,7 @@ Visual Studio 2012 的 Office 开发人员工具包括可与 Project Server 2013
   
 5. 选择 **"确定"** 以创建**QuickStatus**解决方案、 **QuickStatus**项目和默认文件。 
     
-6. 打开清单设计器视图 (例如, 双击 appmanifest.xml 文件)。 在 "**常规**" 选项卡上, "**标题**" 文本框应显示您在步骤4中键入的应用名称。 选择 "**权限**" 选项卡, 为应用程序添加以下权限请求 (请参阅图 2): 
+6. 打开清单设计器视图 (例如, 双击 Appmanifest.xml 文件)。 在 "**常规**" 选项卡上, "**标题**" 文本框应显示您在步骤4中键入的应用名称。 选择 "**权限**" 选项卡, 为应用程序添加以下权限请求 (请参阅图 2): 
     
    - 在 "**权限请求**" 列表的第一行中, 在 "**范围**" 列中, 在下拉列表中选择 " **Statusing** "。 在 "**权限**" 列中, 选择 " **SubmitStatus**"。
     
@@ -105,9 +105,9 @@ Visual Studio 2012 的 Office 开发人员工具包括可与 Project Server 2013
     
 - **多个项目**: 读取或写入多个项目, 其中的用户具有请求的权限。
     
-- **project Server**: 要求应用程序用户拥有 Project Web app 的管理员权限。
+- **Project Server**: 要求应用程序用户拥有 Project Web app 的管理员权限。
     
-- **报告**: 读取 project web app 的**ProjectData** OData 服务 (只需对 project web app 进行登录权限)。 
+- **报告**: 读取 Project web App 的**ProjectData** OData 服务 (只需对 project web app 进行登录权限)。 
     
 - **单个项目**: 读取或写入用户具有请求的权限的项目。
     
@@ -115,7 +115,7 @@ Visual Studio 2012 的 Office 开发人员工具包括可与 Project Server 2013
     
 - **工作流**: 如果用户有权运行 Project Server 工作流, 则应用程序将使用提升的工作流权限运行。
     
-有关 project Server 2013 的权限请求范围的详细信息, 请参阅 project*应用*程序[中面向开发人员的更新](updates-for-developers-in-project-2013.md)中的项目2013和[SharePoint 2013 中的应用程序权限](https://msdn.microsoft.com/library/fp142383.aspx)部分。
+有关 Project Server 2013 的权限请求范围的详细信息, 请参阅 project*应用*程序[中面向开发人员的更新](updates-for-developers-in-project-2013.md)中的项目2013和[SharePoint 2013 中的应用程序权限](https://msdn.microsoft.com/library/fp142383.aspx)部分。
 
 
 <a name="pj15_StatusingApp_HTML"> </a>
@@ -128,15 +128,15 @@ Visual Studio 2012 的 Office 开发人员工具包括可与 Project Server 2013
 
 ![QuickStatus 应用程序页的设计](media/pj15_CreateStatusingApp_AfterRefresh.gif "QuickStatus 应用程序页的设计")
   
-应用程序在顶部显示显示名称, 这是 appmanifest.xml 中**Title**元素的值。 
+应用程序在顶部显示显示名称, 这是 Appmanifest.xml 中**Title**元素的值。 
   
 默认情况下, 页面使用 HTML5。 以下是**QuickStatus**应用程序包含在页面正文中的主要 UI 对象的标准 HTML 元素: 
   
-- **form**元素包含所有其他 UI 元素。 
+- **Form**元素包含所有其他 UI 元素。 
     
 - **字段集**元素为工作分配表创建容器和边框;子**图例**元素为容器提供标签。 
     
-- **table**元素包含标题和表头。 JavaScript 函数更改表标题并为工作分配添加行。 
+- **Table**元素包含标题和表头。 JavaScript 函数更改表标题并为工作分配添加行。 
     
    > [!NOTE]
    > 为了方便地添加分页和排序, 生产应用程序可能会使用基于商业 jQuery 的网格控件而不是表。 
@@ -145,11 +145,11 @@ Visual Studio 2012 的 Office 开发人员工具包括可与 Project Server 2013
     
 - 文本框的**input**元素设置所有选定工作分配的完成百分比。 
     
-- **button**元素提交状态更改。 
+- **Button**元素提交状态更改。 
     
-- **button**元素刷新页面。 
+- **Button**元素刷新页面。 
     
-- **button**元素将退出应用程序, 并返回到 Project Web app 中的 "任务" 页。 
+- **Button**元素将退出应用程序, 并返回到 Project Web app 中的 "任务" 页。 
     
 底部的文本框和按钮元素位于**div**元素中, 因此, CSS 可以轻松地管理 UI 对象的位置和外观。 JavaScript 函数在页面底部添加一个段落, 其中包含状态更新成功或失败的结果。 
   
@@ -159,7 +159,7 @@ Visual Studio 2012 的 Office 开发人员工具包括可与 Project Server 2013
     
    该文件包含两个**asp: Content**元素: 具有该`ContentPlaceHolderID="PlaceHolderAdditionalPageHead"`属性的元素添加到页面页眉中, 且具有该`ContentPlaceHolderID="PlaceHolderMain"`属性的元素放置在页面**正文**元素中。 
     
-2. 在页面`<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">`页眉的控件中, 添加对 Project Server 计算机上的 .ps 文件的引用。 若要进行测试和调试, 可以使用 .ps。 
+2. 在页面`<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">`页眉的控件中, 添加对 Project Server 计算机上的 .ps 文件的引用。 若要进行测试和调试, 可以使用 .PS。 
     
    ```HTML
      <script type="text/javascript" src="/_layouts/15/ps.debug.js"></script>
@@ -170,7 +170,7 @@ Visual Studio 2012 的 Office 开发人员工具包括可与 Project Server 2013
    > [!NOTE]
    > 在部署应用程序以供生产使用之前, `.debug`请从脚本引用中删除以提高性能。 
   
-3. 在页面`<asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">`正文的控件中, 删除生成的**div**元素, 然后为 UI 对象添加 HTML 代码。 **table**元素只包含一个标题行。 "**任务名称**" 列包含一个复选框输入控件。 在 app.config 文件中, 对**getUserInfo**函数的**onGetUserNameSuccess**回调替换**caption**元素的文本。 
+3. 在页面`<asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">`正文的控件中, 删除生成的**div**元素, 然后为 UI 对象添加 HTML 代码。 **Table**元素只包含一个标题行。 "**任务名称**" 列包含一个复选框输入控件。 在 App.config 文件中, 对**getUserInfo**函数的**onGetUserNameSuccess**回调替换**caption**元素的文本。 
     
     ```HTML
     <form>
@@ -208,15 +208,15 @@ Visual Studio 2012 的 Office 开发人员工具包括可与 Project Server 2013
     </form>
     ```
 
-4. 在 app.config 文件中, 添加 UI 元素的位置和外观的 css 代码。 有关**QuickStatus**应用程序的完整 CSS 代码, 请参阅[QuickStatus 应用程序部分的代码示例](#pj15_StatusingApp_Example)。 
+4. 在 App.config 文件中, 添加 UI 元素的位置和外观的 CSS 代码。 有关**QuickStatus**应用程序的完整 CSS 代码, 请参阅[QuickStatus 应用程序部分的代码示例](#pj15_StatusingApp_Example)。 
     
-过程3添加 JavaScript 函数以读取工作分配并创建表行, 并更改和更新分配的完成百分比。 在开发应用程序时, 实际步骤更重复, 在这里您可以交替创建一些 html 代码, 添加和测试相关的样式和 JavaScript 函数, 修改或添加更多 html 代码, 然后重复该过程。
+过程3添加 JavaScript 函数以读取工作分配并创建表行, 并更改和更新分配的完成百分比。 在开发应用程序时, 实际步骤更重复, 在这里您可以交替创建一些 HTML 代码, 添加和测试相关的样式和 JavaScript 函数, 修改或添加更多 HTML 代码, 然后重复该过程。
 
 <a name="pj15_StatusingApp_JavaScript"> </a>
 
 ### <a name="creating-the-javascript-functions-for-the-quickstatus-app"></a>为 QuickStatus 应用程序创建 JavaScript 函数
 
-SharePoint 应用程序的 Visual Studio 模板包括 app.config 文件, 该文件包含用于获取 SharePoint 客户端上下文的默认初始化代码, 并演示应用程序页的基本 get 和 set 操作。 SharePoint 客户端 SP .js 库的 JavaScript 命名空间为**SP**。 由于 Project Server 应用程序使用 .ps 库, 因此应用使用**ps**命名空间获取客户端上下文, 并访问 Project Server 的 JSOM。 
+SharePoint 应用程序的 Visual Studio 模板包括 App.config 文件, 该文件包含用于获取 SharePoint 客户端上下文的默认初始化代码, 并演示应用程序页的基本 get 和 set 操作。 SharePoint 客户端 SP .js 库的 JavaScript 命名空间为**SP**。 由于 Project Server 应用程序使用 .PS 库, 因此应用使用**ps**命名空间获取客户端上下文, 并访问 Project SERVER 的 JSOM。 
   
 **QuickStatus**应用中的 JavaScript 函数包括以下各项: 
   
@@ -240,7 +240,7 @@ SharePoint 应用程序的 Visual Studio 模板包括 app.config 文件, 该文�
     
 2. 添加全局变量和文档**就绪**事件处理程序。 可以使用 jQuery 函数访问**document**对象。 
     
-   "表标题的 click 事件处理程序" 复选框设置行复选框的选中状态。 如果所有的行复选框都已选中或全部清除, 则行的 click 事件处理程序将设置 "页眉" 复选框的选中状态。 click 事件处理程序还将页面底部的结果消息设置为一个空字符串。
+   "表标题的 click 事件处理程序" 复选框设置行复选框的选中状态。 如果所有的行复选框都已选中或全部清除, 则行的 click 事件处理程序将设置 "页眉" 复选框的选中状态。 Click 事件处理程序还将页面底部的结果消息设置为一个空字符串。
     
    ```js
     var projContext;
@@ -272,7 +272,7 @@ SharePoint 应用程序的 Visual Studio 模板包括 app.config 文件, 该文�
     });
    ```
 
-3. 添加**getUserInfo**函数, 该函数将调用**onGetUserNameSuccess** (如果查询成功)。 **onGetUserNameSuccess**函数将**标题**段落的内容替换为包含用户名的表格标题。 
+3. 添加**getUserInfo**函数, 该函数将调用**onGetUserNameSuccess** (如果查询成功)。 **OnGetUserNameSuccess**函数将**标题**段落的内容替换为包含用户名的表格标题。 
     
    ```js
         // Get information about the current user.
@@ -311,10 +311,10 @@ SharePoint 应用程序的 Visual Studio 模板包括 app.config 文件, 该文�
     }
    ```
 
-5. 添加**onGetAssignmentsSuccess**函数, 该函数为表中的每个分配添加一行。 **prevProjName**变量用于确定行是否针对不同的项目。 如果是这样, 项目名称将以粗体显示;如果不是, 则将项目名称设置为空字符串。 
+5. 添加**onGetAssignmentsSuccess**函数, 该函数为表中的每个分配添加一行。 **PrevProjName**变量用于确定行是否针对不同的项目。 如果是这样, 项目名称将以粗体显示;如果不是, 则将项目名称设置为空字符串。 
     
    > [!NOTE]
-   > JSOM 不包括 CSOM 包含的**TimeSpan**属性, 例如**ActualWorkTimeSpan**。 相反, JSOM 使用属性的毫秒数, 例如[PS。actualWorkMilliseconds](https://msdn.microsoft.com/library/736bce1e-f734-0efe-6c5f-e0e891ab00ef%28Office.15%29.aspx)属性的 csom。 获取该属性的方法是**get\_actualWorkMilliseconds**, 这将返回一个整数值。 > **get_actualWork**方法返回一个字符串, 如 "3h"。 您可以使用**QuickStatus**应用中的任何一个值, 但以不同的方式显示。 "工作分配" 查询包含这两个属性, 因此您可以在调试过程中测试该值。 如果删除**actualWork**变量, 还可以在工作分配查询中删除**actualWork**属性。 
+   > JSOM 不包括 CSOM 包含的**TimeSpan**属性, 例如**ActualWorkTimeSpan**。 相反, JSOM 使用属性的毫秒数, 例如[PS。ActualWorkMilliseconds](https://msdn.microsoft.com/library/736bce1e-f734-0efe-6c5f-e0e891ab00ef%28Office.15%29.aspx)属性的 csom。 获取该属性的方法是**get\_actualWorkMilliseconds**, 这将返回一个整数值。 > **get_actualWork**方法返回一个字符串, 如 "3h"。 您可以使用**QuickStatus**应用中的任何一个值, 但以不同的方式显示。 "工作分配" 查询包含这两个属性, 因此您可以在调试过程中测试该值。 如果删除**actualWork**变量, 还可以在工作分配查询中删除**actualWork**属性。 
   
    最后, **onGetAssignmentsSuccess**函数使用 click 事件处理程序初始化 "**更新**" 按钮和 "**刷新**" 按钮。 也可以在 HTML 代码中设置 "**更新**" 按钮的文本值。 
     
@@ -375,12 +375,12 @@ SharePoint 应用程序的 Visual Studio 模板包括 app.config 文件, 该文�
         }
    ```
 
-6. 为 "**更新**" 按钮添加**updateAssignments** click 事件处理程序。 当用户更改任务的完成百分比值或在 "**百分比**" 文本框中添加值时, 可以输入几种格式的值, 例如 "60"、"60%" 或 "60%"。 **getNumericValue**方法返回输入文本的数字值。 
+6. 为 "**更新**" 按钮添加**updateAssignments** click 事件处理程序。 当用户更改任务的完成百分比值或在 "**百分比**" 文本框中添加值时, 可以输入几种格式的值, 例如 "60"、"60%" 或 "60%"。 **GetNumericValue**方法返回输入文本的数字值。 
     
    > [!NOTE]
    > 在专为生产使用而设计的应用程序中, 数值信息的输入值应包括字段验证和其他错误检查。 
   
-   **updateAssignments**示例包括一些基本的错误检查, 并在页面底部的**邮件**段落中显示信息—绿色如果更新查询成功, 如果有输入错误或更新查询, 则显示红色。多次. 
+   **UpdateAssignments**示例包括一些基本的错误检查, 并在页面底部的**邮件**段落中显示信息—绿色如果更新查询成功, 如果有输入错误或更新查询, 则显示红色。多次. 
     
    在使用**submitAllStatusUpdates**方法之前, 应用必须使用 PS 将更新保存到服务器 **。StatusAssignmentCollection**方法。 
     
@@ -446,7 +446,7 @@ SharePoint 应用程序的 Visual Studio 模板包括 app.config 文件, 该文�
 
 7. 添加**exitToPwa**函数, 该函数使用主机项目 Web App 网站的 URL 的**SPHostUrl**查询字符串参数。 若要导航回 "任务" 页, `"/Tasks.aspx"`请追加到 URL。 例如, **spHostUrl**变量将设置为`https://ServerName/ProjectServerName/Tasks.aspx`。
     
-   **getQueryStringParameter**函数拆分**QuickStatus**页面的 url, 以在 URL 选项中提取并返回指定的参数。 以下是文档的示例 **。** **QuickStatus**文档的 URL 值 (全部位于一行中): 
+   **GetQueryStringParameter**函数拆分**QUICKSTATUS**页面的 URL, 以在 URL 选项中提取并返回指定的参数。 以下是文档的示例 **。** **QuickStatus**文档的 URL 值 (全部位于一行中): 
     
    ```HTML
     https://app-ef98082fa37e3c.servername.officeapps.selfhost.corp.microsoft.com/pwa/
@@ -488,9 +488,9 @@ SharePoint 应用程序的 Visual Studio 模板包括 app.config 文件, 该文�
 
 ### <a name="adding-a-ribbon-custom-action"></a>添加功能区自定义操作
 
-project Web App 的功能区选项卡、组和控件在 pwaribbon 文件中进行指定, 该文件安装在运行 Project `[Program Files]\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\FEATURES\PWARibbon\listtemplates` Server 的计算机上的目录中。 为了帮助设计 project Web App 功能区的自定义操作, project 2013 SDK 下载包含 pwaribbon 的副本。 
+Project Web App 的功能区选项卡、组和控件在 pwaribbon 文件中进行指定, 该文件安装在运行 Project `[Program Files]\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\FEATURES\PWARibbon\listtemplates` Server 的计算机上的目录中。 为了帮助设计 Project Web App 功能区的自定义操作, Project 2013 SDK 下载包含 pwaribbon 的副本。 
   
-project web app 对 "任务" 页面使用不同的功能区定义, 具体取决于 project web app 实例是否使用单一进入模式, 使用户能够输入时间表和任务状态的值。 如果您具有 Project Web App 的管理权限, 则要确定输入模式, 请在页面右上角的下拉设置菜单中选择 " **PWA 设置**"。 在 "PWA 设置" 页上, 选择 "**时间表设置和默认值**", 然后查看页面底部的 "**单输入模式**" 复选框。 
+Project Web App 对 "任务" 页面使用不同的功能区定义, 具体取决于 Project Web App 实例是否使用单一进入模式, 使用户能够输入时间表和任务状态的值。 如果您具有 Project Web App 的管理权限, 则要确定输入模式, 请在页面右上角的下拉设置菜单中选择 " **PWA 设置**"。 在 "PWA 设置" 页上, 选择 "**时间表设置和默认值**", 然后查看页面底部的 "**单输入模式**" 复选框。 
   
 当 "单输入模式" 关闭时, "任务" 页面上的功能区由 pwaribbon 中的 "我的工作" 区域定义: 
   
@@ -513,7 +513,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
 虽然每个区域中的组和控件的外观相似, 但绑定模式的控件可以调用与非绑定模式相同的控件的不同功能。 步骤4显示当 "单输入模式" 处于关闭状态时 ("**单输入模式**" 复选框处于清除状态时) 如何添加**QuickStatus**应用的 button 控件。 
   
 > [!NOTE]
-> 有关将自定义操作添加到功能区或 sharepoint 应用程序中的菜单的常规信息, 请参阅[创建自定义操作以部署 sharepoint 相关应用](https://msdn.microsoft.com/library/jj163954.aspx)程序。 
+> 有关将自定义操作添加到功能区或 SharePoint 应用程序中的菜单的常规信息, 请参阅[创建自定义操作以部署 sharepoint 相关应用](https://msdn.microsoft.com/library/jj163954.aspx)程序。 
   
 ### <a name="procedure-4-to-add-a-ribbon-custom-action-to-the-tasks-page"></a>过程 4. 将功能区自定义操作添加到 "任务" 页
 
@@ -541,7 +541,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
     
    ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
         <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon"
                     Sequence="10001"
@@ -605,7 +605,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
 
        - 若要使按钮成为组中的第三个控件, **Sequence**属性可以是任何高于现有**发送状态**控件 (在 pwaribbon 中为**FlyoutAnchor**元素) 的`Sequence="20"`值的任何数字。 按照约定, 组和控件的序列号是`10, 20, 30, …`, 这样可以在中间位置中插入元素。
     
-       - **command**属性指定要在**CommandUIHandler**元素中运行的命令 (请参阅下面的步骤 5. d)。 您可以简化命令名称以使下一位开发人员更轻松。 例如`Command="Invoke_QuickStatus"` , 更易于读取`Command="Invoke_RibbonQuickStatusActionButtonRequest"`。
+       - **Command**属性指定要在**CommandUIHandler**元素中运行的命令 (请参阅下面的步骤 5. d)。 您可以简化命令名称以使下一位开发人员更轻松。 例如`Command="Invoke_QuickStatus"` , 更易于读取`Command="Invoke_RibbonQuickStatusActionButtonRequest"`。
     
        - 图像属性指定 "按钮" 控件的 16 x 16 像素图标和 32 x 32 像素图标。 在 default 元素 .xml 文件中, `Image32by32="_layouts/15/images/placeholder32x32.png"`指定一个橙色点。 您可以从在运行 Project Server 的计算机上的`[Program Files]\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\1033\IMAGES`目录中安装的图像映射文件 (ps16x16 和 ps32x32) 中提取图标。 例如, 32 x 32-像素图标位于左侧图标的第二列中, 从 ps32x32 图像地图顶部向下第十行 (图标的顶部位于第九行的末尾后面; 9 行 x 32 像素/行 = 288 像素)。 
     
@@ -625,7 +625,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
 在开发应用程序并添加功能区按钮时, 通常会测试应用并在 JavaScript 代码中设置断点以进行调试。 当您按**F5**启动调试时, Visual Studio 会编译应用程序, 将其部署到在**QuickStatus**项目的 "**网站 URL** " 属性中指定的网站, 并显示一页, 询问您是否信任该应用程序。 在继续操作后退出**QuickStatus**应用程序时, 它会返回到 Project Web app 中的任务页面。 
 
 > [!NOTE]
-> 图7显示功能区的 "**任务**" 选项卡上的 "**快速状态**" 按钮已禁用。 在使用 Visual Studio 进行许多调试部署后, 在同一测试服务器上继续调试或部署已发布的应用程序时, 可能会阻止自定义功能区控件。 若要启用按钮, 请删除 Visual Studio 中的**RibbonQuickStatusAction**项, 然后创建一个具有不同名称和 ID 的新的功能区操作。 如果这不能解决问题, 请尝试从 Project Web app 测试实例中删除应用程序, 然后使用不同的应用 ID 重新创建应用。 
+> 图7显示功能区的 "**任务**" 选项卡上的 "**快速状态**" 按钮已禁用。 在使用 Visual Studio 进行许多调试部署后, 在同一测试服务器上继续调试或部署已发布的应用程序时, 可能会阻止自定义功能区控件。 若要启用按钮, 请删除 Visual Studio 中的**RibbonQuickStatusAction**项, 然后创建一个具有不同名称和 ID 的新的功能区操作。 如果这不能解决问题, 请尝试从 Project Web App 测试实例中删除应用程序, 然后使用不同的应用 ID 重新创建应用。 
   
 **图7。查看已禁用的快速状态按钮的工具提示**
 
@@ -637,10 +637,10 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
 
 ## <a name="deploying-the-quickstatus-app"></a>部署 QuickStatus 应用程序
 
-有几种方法可将应用程序部署到 SharePoint web 应用程序 (如 Project web app)。 您使用哪种部署取决于您想要将应用程序发布到专用 SharePoint 目录还是发布到公共 Office 商店, 以及 SharePoint 是安装在本地还是在线租赁。 步骤5显示了如何将**QuickStatus**应用程序部署到私有应用程序目录中的本地安装。 有关详细信息, 请参阅[安装和管理 sharepoint 相关应用程序 2013](https://technet.microsoft.com/library/fp161232.aspx)和[发布 sharepoint 相关应用](https://msdn.microsoft.com/library/jj164070.aspx)程序
+有几种方法可将应用程序部署到 SharePoint web 应用程序 (如 Project Web App)。 您使用哪种部署取决于您想要将应用程序发布到专用 SharePoint 目录还是发布到公共 Office 商店, 以及 SharePoint 是安装在本地还是在线租赁。 步骤5显示了如何将**QuickStatus**应用程序部署到私有应用程序目录中的本地安装。 有关详细信息, 请参阅[安装和管理 sharepoint 相关应用程序 2013](https://technet.microsoft.com/library/fp161232.aspx)和[发布 sharepoint 相关应用](https://msdn.microsoft.com/library/jj164070.aspx)程序
   
 > [!NOTE]
-> 将应用程序添加到 sharepoint 目录需要 SharePoint 管理员权限。 
+> 将应用程序添加到 SharePoint 目录需要 SharePoint 管理员权限。 
   
 ### <a name="procedure-5-to-deploy-the-quickstatus-app"></a>过程 5. 部署 QuickStatus 应用程序
 
@@ -656,7 +656,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
     
 4. 在 SharePoint 管理中心中, 选择 "快速启动" 中的 "**应用程序**", 然后选择 "**管理应用程序目录**"。
     
-5. 如果应用程序目录不存在, 请按照在[SharePoint 2013 中管理应用程序目录](https://technet.microsoft.com/library/fp161234.aspx)中的 "*为 web 应用程序配置应用程序目录网站*" 部分, 为应用程序目录创建网站集。
+5. 如果应用程序目录不存在, 请按照在[SharePoint 2013 中管理应用程序目录](https://technet.microsoft.com/library/fp161234.aspx)中的 "*为 Web 应用程序配置应用程序目录网站*" 部分, 为应用程序目录创建网站集。
     
    如果存在应用程序目录, 则导航到 "管理应用程序目录" 页上的 "网站 URL"。 例如, 在以下步骤中, 应用程序目录网站为`https://ServerName/sites/TestApps`。
     
@@ -664,7 +664,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
     
 7. 在 "**添加文档**" 对话框中, 浏览 QuickStatus 文件, 为版本添加注释, 然后选择 **"确定"**。
     
-8. 添加应用程序时, 您还可以添加应用程序说明、图标和其他信息的本地信息。 在 " **sharepoint 相关应用程序-QuickStatus** " 对话框中, 添加要在 sharepoint 网站集中为该应用程序显示的信息。 例如, 添加以下信息: 
+8. 添加应用程序时, 您还可以添加应用程序说明、图标和其他信息的本地信息。 在 " **Sharepoint 相关应用程序-QuickStatus** " 对话框中, 添加要在 sharepoint 网站集中为该应用程序显示的信息。 例如, 添加以下信息: 
     
    1. **短说明**字段: 键入快速状态测试应用。
     
@@ -679,7 +679,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
    4. **类别**字段: 选择现有的类别, 或指定自己的值。 例如, 键入 Statusing。
     
       > [!NOTE]
-      > 名为 " **Statusing** " 的类别仅用于测试目的。 project Server 应用程序的典型类别是**项目管理**。 
+      > 名为 " **Statusing** " 的类别仅用于测试目的。 Project Server 应用程序的典型类别是**项目管理**。 
   
    5. "**发布者名称**" 字段: 键入发布服务器的名称。 在此示例中, 键入 Project SDK。
     
@@ -699,13 +699,13 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
 
    ![将 QuickStatus 应用程序添加到 Project Web app](media/pj15_CreateStatusingApp_AddAppToPWA.gif "将 QuickStatus 应用程序添加到 Project Web app")
   
-10. 在 "快速状态更新详细信息" 页上, 选择 "**添加**"。 Project Web App 显示一个对话框, 其中列出了 QuickStatus 应用程序可以执行的操作 (见图 12)。 操作列表派生自 appmanifest.xml 文件中的**AppPermissionRequest**元素。 
+10. 在 "快速状态更新详细信息" 页上, 选择 "**添加**"。 Project Web App 显示一个对话框, 其中列出了 QuickStatus 应用程序可以执行的操作 (见图 12)。 操作列表派生自 Appmanifest.xml 文件中的**AppPermissionRequest**元素。 
     
     **图12。验证您是否信任 "快速状态" 应用程序**
 
     ![验证 QuickStatus 应用程序的信任](media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif "验证 QuickStatus 应用程序的信任")
   
-11. 在 "**是否信任快速状态更新**" 对话框中, 选择 "**信任它**"。 该应用程序将添加到 Project Web app "网站内容" 页面 (见图 13)。
+11. 在 "**是否信任快速状态更新**" 对话框中, 选择 "**信任它**"。 该应用程序将添加到 Project Web App "网站内容" 页面 (见图 13)。
     
     **图13。查看 "网站内容" 页上的 "快速状态" 应用程序**
 
@@ -714,7 +714,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
 在 "网站内容" 页上, 您可以选择 "**快速状态更新**" 图标以运行应用程序。
 
 > [!NOTE]
-> 有关提供有关应用程序的信息的其他命令, 请在 "网站内容" 页上, 选择包含 "**快速状态更新**" 名称和省略号 ("...") 的区域。您可以查看应用程序的 "关于" 页、查看包含应用程序错误信息的 "应用程序详细信息" 页、查看 "应用程序权限" 页或从 Project Web app 中删除该应用程序。 
+> 有关提供有关应用程序的信息的其他命令, 请在 "网站内容" 页上, 选择包含 "**快速状态更新**" 名称和省略号 ("...") 的区域。您可以查看应用程序的 "关于" 页、查看包含应用程序错误信息的 "应用程序详细信息" 页、查看 "应用程序权限" 页或从 Project Web App 中删除该应用程序。 
   
 在 Project Web App 的 "任务" 页上 (见图 14), 应在功能区上启用 " **QuickStatus** " 按钮。 如果 "**快速状态**" 按钮处于禁用状态, 请尝试图7的注释中所述的操作。 
 
@@ -728,7 +728,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
 
 ## <a name="testing-the-quickstatus-app"></a>测试 QuickStatus 应用程序
 
-在将应用程序部署到生产服务器或 project Online 的生产租户之前, 应在 project server 的测试安装上测试用户在**QuickStatus**应用程序中可能尝试的每个操作。 通过测试安装, 您可以更改和删除用户的工作分配, 而不会影响实际项目。 测试还应涉及几个具有不同权限集的用户, 如管理员、项目经理和团队成员。 全面测试可以发现应在应用程序中进行的更改, 在开发过程中测试不明显。 过程6列出了**QuickStatus**应用程序的多个测试, 但不包括一系列详尽的测试。 
+在将应用程序部署到生产服务器或 Project Online 的生产租户之前, 应在 Project Server 的测试安装上测试用户在**QuickStatus**应用程序中可能尝试的每个操作。 通过测试安装, 您可以更改和删除用户的工作分配, 而不会影响实际项目。 测试还应涉及几个具有不同权限集的用户, 如管理员、项目经理和团队成员。 全面测试可以发现应在应用程序中进行的更改, 在开发过程中测试不明显。 过程6列出了**QuickStatus**应用程序的多个测试, 但不包括一系列详尽的测试。 
   
 ### <a name="procedure-6-to-test-the-quickstatus-app"></a>过程 6. 测试 QuickStatus 应用程序
 
@@ -741,7 +741,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
   
 2. 运行用户在多个不同的项目中有多个分配的应用程序, 并且一些工作分配不完整。 请注意应用程序的外观, 并按如下所示执行操作 (请参阅图 15):
     
-   1. **onGetAssignmentsSuccess**函数为当前用户的每个分配在表中创建一行。 项目名称仅以粗体显示一次, 每个项目中的第一个工作分配。 
+   1. **OnGetAssignmentsSuccess**函数为当前用户的每个分配在表中创建一行。 项目名称仅以粗体显示一次, 每个项目中的第一个工作分配。 
     
    2. 清除 "**任务名称**" 列标题中的复选框。 表头单击事件处理程序将清除任务行中的所有其他复选框。 
     
@@ -767,13 +767,13 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
 
       ![测试错误消息](media/pj15_CreateStatusingApp_Testing3Error.gif "测试错误消息")
   
-5. 将上一个任务更新为已完成的 80%, 然后选择 "**退出**"。 **exitToPwa**函数将浏览器窗口的位置更改为 SharePoint 主机应用程序中的任务页面 (即 URL 更改为https://ServerName/pwa/Tasks.aspx))。 图18显示了**T1**任务和**来自 PWA 任务的新任务**, 每个显示的完成百分比为 80%。 
+5. 将上一个任务更新为已完成的 80%, 然后选择 "**退出**"。 **ExitToPwa**函数将浏览器窗口的位置更改为 SharePoint 主机应用程序中的任务页面 (即 URL 更改为https://ServerName/pwa/Tasks.aspx))。 图18显示了**T1**任务和**来自 PWA 任务的新任务**, 每个显示的完成百分比为 80%。 
     
       **图18。验证 Project Web App 中的任务是否已更新**
 
       ![在 Project Web App 中验证更新的任务](media/pj15_CreateStatusingApp_TasksUpdatedInPWA.gif "在 Project Web App 中验证更新的任务")
   
-6. 在 project Professional 2013 中显示已更新的状态之前, 必须提交更改以供审批, 然后由项目经理批准。
+6. 在 Project Professional 2013 中显示已更新的状态之前, 必须提交更改以供审批, 然后由项目经理批准。
     
 测试显示了在**QuickStatus**应用程序中应进行的几个其他更改, 以提高可用性。 例如：
 
@@ -1141,7 +1141,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
   
 ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
     <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon">
         <CommandUIExtension>
@@ -1185,7 +1185,7 @@ project web app 对 "任务" 页面使用不同的功能区定义, 具体取决�
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
-    <App xmlns="https://schemas.microsoft.com/sharepoint/2012/app/manifest"
+    <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
         Name="QuickStatus"
         ProductID="{bbc497e7-1221-4d7b-a0ae-141a99546008}"
         Version="1.0.0.0"

@@ -1,25 +1,25 @@
 ---
-title: Solutions_Type 复杂类型 ("Visio XML")
+title: Solutions_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 74978183-8513-b359-0501-6094e072ac8e
-ms.openlocfilehash: bf43b971399ec69c6f73cbfaaa6cade8c583d3c2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b68955d2ed161d1ec0952b4a1b9d657fe0de81fc
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334424"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540229"
 ---
-# <a name="solutionstype-complextype-visio-xml"></a>Solutions_Type 复杂类型 ("Visio XML")
+# <a name="solutionstype-complextype-visio-xml"></a>Solutions_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    

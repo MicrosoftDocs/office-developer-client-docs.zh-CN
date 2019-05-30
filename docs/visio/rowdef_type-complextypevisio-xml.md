@@ -1,25 +1,25 @@
 ---
-title: RowDef_Type 复杂类型 ("Visio XML")
+title: RowDef_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 64897258-dd7e-a730-d4f5-d9c217308491
-ms.openlocfilehash: 11acab820fe51b6dde9cf9d57977699ca3c977cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 79a01d9fe5edf1de933f05683eca3bfd6e95e4b3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355767"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538135"
 ---
-# <a name="rowdeftype-complextype-visio-xml"></a>RowDef_Type 复杂类型 ("Visio XML")
+# <a name="rowdeftype-complextype-visio-xml"></a>RowDef_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    

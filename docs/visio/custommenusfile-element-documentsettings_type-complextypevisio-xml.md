@@ -1,5 +1,5 @@
 ---
-title: CustomMenusFile 元素 (DocumentSettings_Type 复杂类型) ("Visio XML")
+title: CustomMenusFile 元素 (DocumentSettings_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4c88bde5-45e1-8030-e72c-a735c374a5c4
 description: 包含为文档定义自定义菜单和加速器的 Microsoft Visio 用户界面 (vsu) 文件的名称。
-ms.openlocfilehash: 347660abab266493254b4dc2b47150f3b80fd371
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 69eca703acf30a10296c13452c2f3e2a11521cd4
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282899"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540523"
 ---
-# <a name="custommenusfile-element-documentsettingstype-complextype-visio-xml"></a>CustomMenusFile 元素 (DocumentSettings_Type 复杂类型) ("Visio XML")
+# <a name="custommenusfile-element-documentsettingstype-complextype-visio-xml"></a>CustomMenusFile 元素 (DocumentSettings_Type 复杂类型) (Visio XML)
 
 包含为文档定义自定义菜单和加速器的 Microsoft Visio 用户界面 (vsu) 文件的名称。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32282899"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[CustomMenusFile_Type](custommenusfile_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml  <br/> |
    

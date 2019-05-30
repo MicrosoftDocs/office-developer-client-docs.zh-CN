@@ -1,5 +1,5 @@
 ---
-title: FooterMargin 元素 (HeaderFooter_Type 复杂类型) ("Visio XML")
+title: FooterMargin 元素 (HeaderFooter_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 047f42cf-4202-50bd-40b4-a71052e2dfb3
 description: 指定文档页脚的边距。
-ms.openlocfilehash: f0c2b8ab1cc7bd1465af3281dfb51766ecba5d8c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5a147dbb8b94d9077836cb2269dd2ff72dae3b3a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346058"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538660"
 ---
-# <a name="footermargin-element-headerfootertype-complextype-visio-xml"></a>FooterMargin 元素 (HeaderFooter_Type 复杂类型) ("Visio XML")
+# <a name="footermargin-element-headerfootertype-complextype-visio-xml"></a>FooterMargin 元素 (HeaderFooter_Type 复杂类型) (Visio XML)
 
 指定文档页脚的边距。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32346058"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[FooterMargin_Type](footermargin_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml  <br/> |
    
@@ -52,6 +52,6 @@ ms.locfileid: "32346058"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|Unit  <br/> |xsd: string  <br/> |可选  <br/> |表示度量单位。 默认值为。  <br/> |xsd: string 类型的值。  <br/> |
+|Unit  <br/> |xsd: string  <br/> |可选  <br/> |表示度量单位。 默认值为。  <br/> |Xsd: string 类型的值。  <br/> |
    
 

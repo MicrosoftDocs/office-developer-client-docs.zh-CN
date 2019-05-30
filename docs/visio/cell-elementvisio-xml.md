@@ -1,5 +1,5 @@
 ---
-title: Cell 元素 ("Visio XML")
+title: Cell 元素 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: 指定可包含在 DocumentSheet、StyleSheet、PageSheet 或 ShapeSheet 中的单元格元素。
-ms.openlocfilehash: a48e440e40659209fe3a9fd30587204e3ad724ff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2b76abeb83fb7251bf492e92d8dd1a81feeab092
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327130"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542308"
 ---
-# <a name="cell-element-visio-xml"></a>Cell 元素 ("Visio XML")
+# <a name="cell-element-visio-xml"></a>Cell 元素 (Visio XML)
 
 指定可包含在 DocumentSheet、StyleSheet、PageSheet 或 ShapeSheet 中的单元格元素。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32327130"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml、web.xml、.master、.master、master # .xml 和第 .xml 页  <br/> |
    
@@ -62,11 +62,11 @@ ms.locfileid: "32327130"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |表示一个度量单位, 默认值为 DL。  <br/> |单元格的单位。  <br/> |
 |部分  <br/> |xsd: string  <br/> |可选  <br/> |表示单元格的值。  <br/> |**ShapeSheet**单元格的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**单元格**元素的**N**属性必须是与 ShapeSheet 单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**单元格**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |AddMarkup  <br/> |指示是否正对文档进行审阅以便加标记。  <br/> |[AddMarkup Cell (Document Properties Section)](addmarkup-cell-document-properties-section.md) <br/> |
 |AlignBottom  <br/> |确定垂直位置，该位置是相对于其父级的原点、形状的下边框依其对齐的水平参考线或辅助点的原点而言的。  <br/> |[AlignBottom Cell (Alignment Section)](alignbottom-cell-alignment-section.md) <br/> |
@@ -297,7 +297,7 @@ ms.locfileid: "32327130"
 |ResizeMode  <br/> |显示形状的当前调整大小行为设置。  <br/> |[ResizeMode Cell (Shape Transform Section)](resizemode-cell-shape-transform-section.md) <br/> |
 |ResizePage  <br/> |确定在使用“配置布局”对话框（在“设计”选项卡上的“布局”组中，单击“重新布局页面”，然后单击“其他布局选项”）排放形状后是否放大页面以装入绘图。  <br/> |[ResizePage Cell (Page Layout Section)](resizepage-cell-page-layout-section.md) <br/> |
 |RightMargin  <br/> |确定文本块的右边框和它所包含的文本之间的距离。 默认值是 0.1 英寸。  <br/> |[RightMargin Cell (Text Block Format Section)](rightmargin-cell-text-block-format-section.md) <br/> |
-|RotateGradientWithShape  <br/> |确定是否以布尔值的形式在2d 旋转中将填充渐变旋转。  <br/> |[RotateGradientWithShape 单元格 ("渐变属性" 部分)](rotategradientwithshape-cell-gradient-properties-section.md) <br/> |
+|RotateGradientWithShape  <br/> |确定是否以布尔值的形式在2D 旋转中将填充渐变旋转。  <br/> |[RotateGradientWithShape 单元格 ("渐变属性" 部分)](rotategradientwithshape-cell-gradient-properties-section.md) <br/> |
 |RotationType  <br/> |确定形状是采用平行旋转、透视旋转还是倾斜旋转, 为0到6的整数。  <br/> |[RotationType 单元格 ("三维旋转属性" 部分)](rotationtype-cell-3-d-rotation-properties-section.md) <br/> |
 |RotationXAngle  <br/> |确定沿 X 轴旋转的角度 (以度为单位) (0.0-359.9)。  <br/> |[RotationXAngle 单元格 ("三维旋转属性" 部分)](rotationxangle-cell-3-d-rotation-properties-section.md) <br/> |
 |RotationYAngle  <br/> |确定沿 Y 轴旋转的角度 (以度为单位) (0.0-359.9)。  <br/> |[RotationYAngle 单元格 ("三维旋转属性" 部分)](rotationyangle-cell-3-d-rotation-properties-section.md) <br/> |
@@ -344,7 +344,7 @@ ms.locfileid: "32327130"
 |TextBkgnd  <br/> |确定一个形状的文本背景色。  <br/> |[TextBkgnd Cell (Text Block Format Section)](textbkgnd-cell-text-block-format-section.md) <br/> |
 |TextBkgndTrans  <br/> |确定形状的文本块背景色的透明度级别。  <br/> |[TextBkgndTrans Cell (Text Block Format Section)](textbkgndtrans-cell-text-block-format-section.md) <br/> |
 |TextDirection  <br/> |确定文本块中字符的方向。  <br/> |[TextDirection Cell (Text Block Format Section)](textdirection-cell-text-block-format-section.md) <br/> |
-|TheData  <br/> |保留以供将来使用。  <br/> |[TheData Cell (Events Section)](thedata-cell-events-section.md) <br/> |
+|TheData  <br/> |保留供以后使用。  <br/> |[TheData Cell (Events Section)](thedata-cell-events-section.md) <br/> |
 |ThemeIndex  <br/> |将应用于文档的内置 Microsoft Visio 主题的枚举存储为一个整数。 为文档选择新主题时, 将使用内置主题的索引更新文档的 ThemeIndex 单元格以及它包含的所有页面和形状。  <br/> |[ThemeIndex 单元格 ("主题属性" 部分)](themeindex-cell-theme-properties-section.md) <br/> |
 |TheText  <br/> |当形状文本或文本组成成分改变时进行求值的事件单元格。  <br/> |[TheText Cell (Events Section)](thetext-cell-events-section.md) <br/> |
 |TopMargin  <br/> |确定文本块的上边界和它包含的第一行文本之间的距离。默认值是 4.0000 磅。此值与绘图比例无关。即使对绘图比例进行了调整，上边距仍保持不变。  <br/> |[TopMargin Cell (Text Block Format Section)](topmargin-cell-text-block-format-section.md) <br/> |

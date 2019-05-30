@@ -7,17 +7,17 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
-description: 由 .osc 提供程序扩展性方法中的 .osc 提供程序返回的所有 XML 都必须符合以下 .osc 提供程序 XML 架构。 在这里, 我们将全面复制 .osc 架构。
-ms.openlocfilehash: 578f0ea0c8df4f81c51ce71b50aa2768fe930d5c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: 由 .OSC 提供程序扩展性方法中的 .OSC 提供程序返回的所有 XML 都必须符合以下 .OSC 提供程序 XML 架构。 在这里, 我们将全面复制 .OSC 架构。
+ms.openlocfilehash: ad9b2833991997556f50a927d4552b68d2bfdb50
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329192"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541342"
 ---
 # <a name="outlook-social-connector-provider-xml-schema"></a>Outlook Social Connector 提供程序 XML 架构
 
-由 .osc 提供程序扩展性方法中的 .osc 提供程序返回的所有 XML 都必须符合以下 .osc 提供程序 XML 架构。 在这里, 我们将全面复制 .osc 架构。 此外, 本文章附带的提供程序模板的下载中也提供了当前架构定义文件 OutlookSocialProvider1_1。 有关详细信息, 请参阅[Outlook Social Connector 2013: Provider templates](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)。 
+由 .OSC 提供程序扩展性方法中的 .OSC 提供程序返回的所有 XML 都必须符合以下 .OSC 提供程序 XML 架构。 在这里, 我们将全面复制 .OSC 架构。 此外, 本文章附带的提供程序模板的下载中也提供了当前架构定义文件 OutlookSocialProvider1_1。 有关详细信息, 请参阅[Outlook Social Connector 2013: Provider templates](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -28,8 +28,8 @@ ms.locfileid: "32329192"
 -->
 <xs:schema
     xmlns:xs="https://www.w3.org/2001/XMLSchema"
-    targetNamespace="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
-    xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    targetNamespace="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
     elementFormDefault="qualified">
   <!-- Root element for the activity feed -->
   <xs:element name="activityFeed" type="activityFeedType" />

@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2416b323-e084-18e1-c9be-a797078dfab9
 description: 表示在本地坐标系中的形状的 x 坐标。 该表基于 X 单元格所在的行对它进行说明。
-ms.openlocfilehash: 6554000a86a6bf27d343a5647161bbe416725e64
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2b3303533db446780ef797844ac5e1438cec242f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423942"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538212"
 ---
 # <a name="x-cell-geometry-section"></a>X 单元格（“Geometry”内容）
 
 表示在本地坐标系中的形状的*x*坐标。 该表基于 X 单元格所在的行对它进行说明。 
   
-|**行**|**说明**|
+|Row|说明|
 |:-----|:-----|
 |[MoveTo](moveto-row-geometry-section.md) <br/> | 如果 MoveTo 行是该内容中的第一行, 则 X 单元格表示路径的第一个顶点的*X*坐标。 如果 MoveTo 行出现在两行之间, 则 X 单元格表示路径中断开处后的第一个顶点的*x*坐标。  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> | 直线段终顶点的*x*坐标。  <br/> |
@@ -33,7 +33,7 @@ ms.locfileid: "33423942"
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | 无限长线上某个点的*x*坐标。  <br/> |
 |[椭圆](ellipse-row-geometry-section.md) <br/> | 椭圆中心的*x*轴坐标值。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 X 单元格的引用，请使用： 
   

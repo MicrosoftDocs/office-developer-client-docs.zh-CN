@@ -1,25 +1,25 @@
 ---
-title: TabsRow_Type 复杂类型 ("Visio XML")
+title: TabsRow_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8b9258a0-05fa-b0b0-90ed-dc1c4faa288a
-ms.openlocfilehash: fed6c70119007164113ba76296bed5662e331c17
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d7119cc1fef637992213ce49b250291d15b66c9f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332429"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541930"
 ---
-# <a name="tabsrowtype-complextype-visio-xml"></a>TabsRow_Type 复杂类型 ("Visio XML")
+# <a name="tabsrowtype-complextype-visio-xml"></a>TabsRow_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |IndexedRow_Type  <br/> |
    

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 73089431569cce3480967b05910df0b7bcf187eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8dbede5391f6913c7869b5f93e6744e10c8081b3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355781"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540901"
 ---
 # <a name="pidnamephishingstamp-canonical-property"></a>PidNamePhishingStamp 规范属性
 
@@ -31,7 +31,7 @@ ms.locfileid: "32355781"
 |:-----|:-----|
 |友好名称:  <br/> |无  <br/> |
 |属性集:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|属性名称:  <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|属性名称:  <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |安全邮件  <br/> |
    
@@ -49,7 +49,7 @@ ms.locfileid: "32355781"
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs。h
   
 > 提供数据类型定义。
     

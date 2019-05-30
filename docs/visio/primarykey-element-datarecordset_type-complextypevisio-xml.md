@@ -1,5 +1,5 @@
 ---
-title: PrimaryKey 元素 (DataRecordSet_Type 复杂类型) ("Visio XML")
+title: PrimaryKey 元素 (DataRecordSet_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 47533e6e-0a48-af61-a0c2-b2cec140ae4b
 description: 标识数据记录集中的一个或多个主关键字列。
-ms.openlocfilehash: c001c343c33e65c3990744b885f1c345575b1ab3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bd77b1d18490695dc2b0cb43520f42bb845e91ab
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355993"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537708"
 ---
-# <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>PrimaryKey 元素 (DataRecordSet_Type 复杂类型) ("Visio XML")
+# <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>PrimaryKey 元素 (DataRecordSet_Type 复杂类型) (Visio XML)
 
 标识数据记录集中的一个或多个主关键字列。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32355993"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |记录集 .xml  <br/> |
    
@@ -54,6 +54,6 @@ ms.locfileid: "32355993"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnNameID  <br/> |xsd: string  <br/> |可选  <br/> |指定作为主键的组成部分的字段的名称。 它必须是要指定其主键的 DataRecordSet_Type 的 DataColumn_Type 后代元素的**ColumnNameID**属性的值。  <br/> |xsd: string 类型的值。  <br/> |
+|ColumnNameID  <br/> |xsd: string  <br/> |可选  <br/> |指定作为主键的组成部分的字段的名称。 它必须是要指定其主键的 DataRecordSet_Type 的 DataColumn_Type 后代元素的**ColumnNameID**属性的值。  <br/> |Xsd: string 类型的值。  <br/> |
    
 

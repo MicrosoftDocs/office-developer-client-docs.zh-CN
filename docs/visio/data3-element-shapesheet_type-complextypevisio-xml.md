@@ -1,5 +1,5 @@
 ---
-title: Data3 元素 (ShapeSheet_Type 复杂类型) ("Visio XML")
+title: Data3 元素 (ShapeSheet_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 63493467-af55-fa62-6c39-6b5896895952
 description: 包含用于提供有关形状的其他信息的任意字符串值。
-ms.openlocfilehash: a21d92e6ff8683ed3e35e233c8cce3aee015e4a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1ce286c0c8db53305f78def465ac31a3ef3afdec
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344637"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541251"
 ---
-# <a name="data3-element-shapesheettype-complextype-visio-xml"></a>Data3 元素 (ShapeSheet_Type 复杂类型) ("Visio XML")
+# <a name="data3-element-shapesheettype-complextype-visio-xml"></a>Data3 元素 (ShapeSheet_Type 复杂类型) (Visio XML)
 
 包含用于提供有关形状的其他信息的任意字符串值。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32344637"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |页面 # .xml、master # .xml  <br/> |
    

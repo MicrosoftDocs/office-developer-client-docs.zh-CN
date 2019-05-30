@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9124fa30-d58b-8354-91e9-8d2237a8251d
 description: '指定至少三天前的后续天气条件, 包括今天: 今天、明天、一天后。'
-ms.openlocfilehash: 01604796d4460cc14005ee00ea6b8f46f04d4742
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5e442ee5995bbd51c5e518162286bc199a625dbd
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339562"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540978"
 ---
 # <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>预报元素 (weatherType 复杂类型) (Outlook 天气信息架构)
 
@@ -24,7 +24,7 @@ ms.locfileid: "32339562"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**架构文件** <br/> |getweatherinfo  <br/> |
    
 ## <a name="definition"></a>定义

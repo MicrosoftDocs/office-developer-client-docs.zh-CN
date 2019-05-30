@@ -1,25 +1,25 @@
 ---
-title: LineTo_Type 复杂类型 ("Visio XML")
+title: LineTo_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 15859b84-5486-bb8c-e67e-5d0baaf59ee5
-ms.openlocfilehash: 2291d7967ff08cc7a7d949d7a40feb178f16b497
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 90d85002763f11d3bda27d41be6428824a5f0a21
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358973"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537785"
 ---
-# <a name="linetotype-complextype-visio-xml"></a>LineTo_Type 复杂类型 ("Visio XML")
+# <a name="linetotype-complextype-visio-xml"></a>LineTo_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |GeometryRow_Type  <br/> |
    

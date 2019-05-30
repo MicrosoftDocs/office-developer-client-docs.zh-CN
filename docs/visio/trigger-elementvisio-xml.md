@@ -1,5 +1,5 @@
 ---
-title: Trigger 元素 ("Visio XML")
+title: Trigger 元素 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d897d2d1-25ba-48d7-b87e-d3c533d88c15
 description: 提供 Microsoft Visio 的说明, 以重新计算 Visio 文件中的文档部件之间的关系。
-ms.openlocfilehash: a590ec1f9c19270f75d4d9e77804c0a7b45157b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e757331984586dc910ada7d14e6385761f15929f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280848"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542903"
 ---
-# <a name="trigger-element-visio-xml"></a>Trigger 元素 ("Visio XML")
+# <a name="trigger-element-visio-xml"></a>Trigger 元素 (Visio XML)
 
 提供 Microsoft Visio 的说明, 以重新计算 Visio 文件中的文档部件之间的关系。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32280848"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |master # .xml、第 .xml 页  <br/> |
    
@@ -58,13 +58,13 @@ ms.locfileid: "32280848"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|N  <br/> |xsd: string  <br/> |必需  <br/> |激活触发器时要调用的公式的名称。  <br/> 请参阅 "备注" 部分。  <br/> |xsd: string 类型的值。  <br/> |
+|N  <br/> |xsd: string  <br/> |必需  <br/> |激活触发器时要调用的公式的名称。  <br/> 请参阅 "备注" 部分。  <br/> |Xsd: string 类型的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**Trigger**元素的**N**属性必须是与触发器指令对应的一组有限的值。 请参阅下表, 以确定此**Trigger**元素允许的**N**个属性的值。 
   
-|**值**|**父元素**|**Description**|
+|**值**|**父元素**|**说明**|
 |:-----|:-----|:-----|
 |CategoryChanged  <br/> |[PageSheet (Page_Type 复杂类型)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |当存在使用**HASCATEGORIES**函数的交叉部件引用时, 将在形状上出现的触发器。  <br/> |
 |RecalcBkgPageName  <br/> |[PageSheet (Page_Type 复杂类型)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |当存在使用**BKGPAGENAME**函数的交叉部件引用时, 出现在页面上的触发器  <br/> |

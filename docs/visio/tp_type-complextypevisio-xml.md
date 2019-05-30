@@ -1,25 +1,25 @@
 ---
-title: tp_Type 复杂类型 ("Visio XML")
+title: tp_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 27a4147f-bd69-0a17-be2f-264f41e84ec1
-ms.openlocfilehash: ca8becda3898dd16cccb25568b195a8ea1dd0c55
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 218ef74ba0937cdabdd481c926f98383090aef15
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280936"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538597"
 ---
-# <a name="tptype-complextype-visio-xml"></a>tp_Type 复杂类型 ("Visio XML")
+# <a name="tptype-complextype-visio-xml"></a>tp_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
@@ -47,6 +47,6 @@ ms.locfileid: "32280936"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
+|IX  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
    
 

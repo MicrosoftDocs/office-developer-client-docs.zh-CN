@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: b37fb96ddfeaabc97c6f445f8951876e8026fbfe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a180068e805ae11883822ebf26f924e10d34bac5
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296855"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538114"
 ---
 # <a name="before-change-macro-event"></a>Before Change 宏事件
 
@@ -29,11 +29,11 @@ ms.locfileid: "32296855"
 > [!NOTE]
 > “更改前”**** 事件仅适用于数据宏。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 使用“更改前”**** 事件可以执行您希望在更改记录前发生的任何操作。“更改前”**** 通常用于执行验证和引发自定义错误消息。
 
-您可以使用**更新的 ("*Field Name*")** 函数来确定字段是否已更改。 下面的代码示例演示如何使用**If**语句来确定 PaidInFull 字段是否已更改。
+可以使用 **Updated("*Field Name*")** 函数确定某个字段是否已更改。 下面的代码示例演示如何使用**If**语句来确定 PaidInFull 字段是否已更改。
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -65,7 +65,7 @@ ms.locfileid: "32296855"
     [Old].[Field Name]
 ```
 
-例如, 若要访问 QuantityInStock 字段的以前的值, 请使用以下语法。
+例如，若要访问 QuantityInStock 字段以前的值，请使用以下语法。
 
 ```vb
     [Old].[QuantityInStock]
@@ -85,7 +85,7 @@ ms.locfileid: "32296855"
 <thead>
 <tr class="header">
 <th><p>命令类型</p></th>
-<th><p>Command</p></th>
+<th><p>命令</p></th>
 </tr>
 </thead>
 <tbody>
@@ -185,7 +185,7 @@ End If
 
 
 ```xml
-<DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+<DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
   <DataMacro Event="BeforeChange"> 
     <Statements> 
       <Comment>Check to ensure that if the bug is resloved that the user has selected a resolution </Comment> 
@@ -230,7 +230,7 @@ End If
 
 下面的示例演示如何使用 RaiseError 操作取消 Before Change data 宏事件。 更新 "分配" 字段后, 将使用 LookupRecord 数据块确定分配的技术人员当前是否已分配给打开的服务请求。 如果为 true, 则取消前更改事件, 且不更新记录。
 
-**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码由**[Microsoft Access 2010 程序员参考资料](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)提供。
 
 ```vb
     /* Get the name of the technician  */

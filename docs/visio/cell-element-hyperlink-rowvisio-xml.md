@@ -1,5 +1,5 @@
 ---
-title: Cell 元素 (超链接行) ("Visio XML")
+title: Cell 元素 ("超链接" 行) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d2089db4-39eb-06d3-d2f8-9465baef5c75
 description: 包含与形状相关联的单个超链接的信息。 对于每个超链接，形状中都将包含一个与之对应的 Hyperlink 行。
-ms.openlocfilehash: 6644dc70f3d3616e5c20587db4eabaaf773c31d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f9526b3e4bb7dc9216a0b72c0a816e136c6e89bf
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356061"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539791"
 ---
-# <a name="cell-element-hyperlink-row-visio-xml"></a>Cell 元素 (超链接行) ("Visio XML")
+# <a name="cell-element-hyperlink-row-visio-xml"></a>Cell 元素 ("超链接" 行) (Visio XML)
 
 包含与形状相关联的单个超链接的信息。 一个形状将包含每个超链接的一个**超链接**行。 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356061"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |master # .xml、第 .xml 页  <br/> |
    
@@ -60,14 +60,14 @@ ms.locfileid: "32356061"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |表示一个度量单位, 默认值为 DL。  <br/> |单元格的单位。  <br/> |
 |部分  <br/> |xsd: string  <br/> |可选  <br/> |表示单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**单元格**元素的**N**属性必须是与 ShapeSheet 单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**单元格**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |Address  <br/> |指定要跳转到的 URL 地址、文件名或 UNC 路径。  <br/> |[Address Cell (Hyperlinks Section)](address-cell-hyperlinks-section.md) <br/> |
-|默认值  <br/> |确定形状或页的默认超链接。  <br/> |[Default Cell (Hyperlinks Section)](default-cell-hyperlinks-section.md) <br/> |
+|默认  <br/> |确定形状或页的默认超链接。  <br/> |[Default Cell (Hyperlinks Section)](default-cell-hyperlinks-section.md) <br/> |
 |说明  <br/> |代表超链接的说明性文本字符串。  <br/> |[Description Cell (Hyperlinks Section)](description-cell-hyperlinks-section.md) <br/> |
 |ExtraInfo  <br/> |表示传递解析 URL 所需信息的字符串，如图像映射的坐标。  <br/> |[ExtraInfo Cell (Hyperlinks Section)](extrainfo-cell-hyperlinks-section.md) <br/> |
 |Frame  <br/> |代表当应用程序作为活动文档在某一容器应用程序中打开时的目标框架名。默认值为空字符串。  <br/> |[Frame Cell (Hyperlinks Section)](frame-cell-hyperlinks-section.md) <br/> |
