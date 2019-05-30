@@ -1,5 +1,5 @@
 ---
-title: Cell 元素 (MoveTo 行) ("Visio XML")
+title: Cell 元素 (MoveTo 行) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b3b2a08f-07a0-5f1c-4910-503229927816
 description: 包含形状的第一个顶点的 x 坐标或 y 坐标, 或表示路径中的断点后的第一个顶点的 x 坐标或 y 坐标。
-ms.openlocfilehash: 12c36b009b019592ae48d24a0e16c3edcd6110e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f0cbe7170bf4462b9aece211a149af396c132766
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318072"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539514"
 ---
-# <a name="cell-element-moveto-row-visio-xml"></a>Cell 元素 (MoveTo 行) ("Visio XML")
+# <a name="cell-element-moveto-row-visio-xml"></a>Cell 元素 (MoveTo 行) (Visio XML)
 
 包含形状的第一个顶点的 x 坐标或 y 坐标, 或表示路径中的断点后的第一个顶点的 x 坐标或 y 坐标。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32318072"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |master # .xml、第 .xml 页  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32318072"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |表示一个度量单位, 默认值为 DL。  <br/> |单元格的单位。  <br/> |
 |部分  <br/> |xsd: string  <br/> |可选  <br/> |表示单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**单元格**元素的**N**属性必须是与 ShapeSheet 单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**单元格**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |X  <br/> |如果**MoveTo**行是该内容中的第一行, 则**X**单元格表示形状的第一个顶点的 X 坐标。 如果**MoveTo**行出现在两行之间, 则**X**单元格表示路径中断开处后的第一个顶点的 x 坐标。  <br/> |[MoveTo Row (Geometry Section)](moveto-row-geometry-section.md) <br/> |
 |Y  <br/> |如果**MoveTo**行是该内容中的第一行, 则**Y**单元格表示形状的第一个顶点的 Y 坐标。 如果**MoveTo**行出现在两行之间, 则**Y**单元格表示路径中断开处后的第一个顶点的 y 坐标。  <br/> |[MoveTo Row (Geometry Section)](moveto-row-geometry-section.md) <br/> |

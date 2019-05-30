@@ -1,5 +1,5 @@
 ---
-title: Row 元素 ("Shape Data" 内容) ("Visio XML")
+title: Row 元素 ("Shape Data" 内容) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9eb74ae8-ff42-6e34-30e2-2080bf8b5754
 description: 指定一个形状数据输入, 用于将数据与形状相关联。
-ms.openlocfilehash: 7857ad8a28e11d6ed3ba34145ffc0606f306120f
-ms.sourcegitcommit: 9716521f7bcd531f93be9855ae7835be20cdd0e2
+ms.openlocfilehash: 4c5644aa2088dcaf3be81ea9aeaa549c911a31f6
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "32283484"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538268"
 ---
-# <a name="row-element-shape-data-section-visio-xml"></a>Row 元素 ("Shape Data" 内容) ("Visio XML")
+# <a name="row-element-shape-data-section-visio-xml"></a>Row 元素 ("Shape Data" 内容) (Visio XML)
 
 指定一个形状数据输入, 用于将数据与形状相关联。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32283484"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Shape Data_Type](propertyrow_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |master # .xml、第 .xml 页  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Cell 元素 ("SplineKnot" 行) ("Visio XML")
+title: Cell 元素 ("SplineKnot" 行) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 61faf0d6-c0a2-9350-8712-7a450591afad
 description: 包含样条的控制点或样条的节点的 x 轴或 y 轴坐标。
-ms.openlocfilehash: 1f2ddbcf7b750f2c2de983e16861070c7305fc3a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4eb6e2ce47adae20738c0d210ad2dc30f362200d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339786"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539367"
 ---
-# <a name="cell-element-splineknot-row-visio-xml"></a>Cell 元素 ("SplineKnot" 行) ("Visio XML")
+# <a name="cell-element-splineknot-row-visio-xml"></a>Cell 元素 ("SplineKnot" 行) (Visio XML)
 
 包含样条的控制点或样条的节点的 x 轴或 y 轴坐标。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32339786"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |master # .xml、第 .xml 页  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32339786"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |表示一个度量单位, 默认值为 DL。  <br/> |单元格的单位。  <br/> |
 |部分  <br/> |xsd: string  <br/> |可选  <br/> |表示单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**单元格**元素的**N**属性必须是与 ShapeSheet 单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**单元格**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |X  <br/> |控制点的 x 坐标。  <br/> |[SplineKnot Row (Geometry Section)](splineknot-row-geometry-section.md) <br/> |
 |Y  <br/> |控制点的 y 坐标。  <br/> |[SplineKnot Row (Geometry Section)](splineknot-row-geometry-section.md) <br/> |

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Priority
-ms.openlocfilehash: a96b46fcc78c4f93887e487f52091a77da6c0d2f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 27b4269e9718e425bc5a1307ae311ccaad89e514
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297184"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538226"
 ---
 # <a name="after-update-macro-event"></a>After Update 宏事件
 
@@ -178,7 +178,7 @@ End If
 <!-- end list -->
 
 ```xml
-    <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+    <DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
       <DataMacro Event="AfterUpdate"> 
         <Statements> 
           <ConditionalBlock> 

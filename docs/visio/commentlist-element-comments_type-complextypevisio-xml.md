@@ -1,5 +1,5 @@
 ---
-title: CommentList 元素 (Comments_Type 复杂类型) ("Visio XML")
+title: CommentList 元素 (Comments_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 49fee70d-6556-887b-003f-4f56916d541d
 description: 指定绘图中的注释。
-ms.openlocfilehash: 424eb10ab356fc2b7f07a1fae27a8e2715e3f2fd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fbbc7ea668686a8f075f3f11843b2d828c257363
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359428"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539246"
 ---
-# <a name="commentlist-element-commentstype-complextype-visio-xml"></a>CommentList 元素 (Comments_Type 复杂类型) ("Visio XML")
+# <a name="commentlist-element-commentstype-complextype-visio-xml"></a>CommentList 元素 (Comments_Type 复杂类型) (Visio XML)
 
 指定绘图中的注释。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32359428"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |注释 .xml  <br/> |
    

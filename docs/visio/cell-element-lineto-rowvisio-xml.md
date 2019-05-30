@@ -1,5 +1,5 @@
 ---
-title: Cell 元素 ("LineTo" 行) ("Visio XML")
+title: Cell 元素 ("LineTo" 行) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 64f2494d-2de7-6bc5-0db4-91b952bdcb5e
 description: 包含直线段终顶点的 x 坐标或 y 坐标。
-ms.openlocfilehash: 5b7d8128cbef57c4dd9fb69d5b82e1c1c2ccef68
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4b1628549e659712a1c2e79ae0fbf53d594e18f9
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318199"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539507"
 ---
-# <a name="cell-element-lineto-row-visio-xml"></a>Cell 元素 ("LineTo" 行) ("Visio XML")
+# <a name="cell-element-lineto-row-visio-xml"></a>Cell 元素 ("LineTo" 行) (Visio XML)
 
 包含直线段终顶点的 x 坐标或 y 坐标。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32318199"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |master # .xml、第 .xml 页  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32318199"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |表示一个度量单位, 默认值为 DL。  <br/> |单元格的单位。  <br/> |
 |部分  <br/> |xsd: string  <br/> |可选  <br/> |表示单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**单元格**元素的**N**属性必须是与 ShapeSheet 单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**单元格**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |X  <br/> |直线段终顶点的 x 坐标。  <br/> |[LineTo Row (Geometry Section)](lineto-row-geometry-section.md) <br/> |
 |Y  <br/> |直线段终顶点的 y 坐标。  <br/> |[LineTo Row (Geometry Section)](lineto-row-geometry-section.md) <br/> |

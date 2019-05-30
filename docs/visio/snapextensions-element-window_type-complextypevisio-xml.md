@@ -1,5 +1,5 @@
 ---
-title: SnapExtensions 元素 (Window_Type 复杂类型) ("Visio XML")
+title: SnapExtensions 元素 (Window_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7a12ae10-6aa4-c845-5ede-1c14c6dac80f
 description: 指定是否为活动窗口启用或禁用特定的快照扩展设置。 该值可以是下表中的值的总和。
-ms.openlocfilehash: 57fde520d3dc8e0582c0062a599d5f38a73169b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bf3a6ae8cbeaadca8d4d899d96c916ee13ce9dfc
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334417"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540320"
 ---
-# <a name="snapextensions-element-windowtype-complextype-visio-xml"></a>SnapExtensions 元素 (Window_Type 复杂类型) ("Visio XML")
+# <a name="snapextensions-element-windowtype-complextype-visio-xml"></a>SnapExtensions 元素 (Window_Type 复杂类型) (Visio XML)
 
 指定是否为活动窗口启用或禁用特定的快照扩展设置。 该值可以是下表中的值的总和。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32334417"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |windows .xml  <br/> |
    
@@ -56,7 +56,7 @@ ms.locfileid: "32334417"
 
 **SnapExtensions**元素的值可以是下表中的值的总和。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |不与任何内容对齐。  <br/> |
 |1  <br/> |与对齐框的延伸对齐。  <br/> |

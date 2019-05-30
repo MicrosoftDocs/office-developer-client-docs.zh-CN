@@ -1,25 +1,25 @@
 ---
-title: DataColumn_Type 复杂类型 ("Visio XML")
+title: DataColumn_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: bee50623-cdf7-b9d7-867a-70c86922cbac
-ms.openlocfilehash: 69f994b9516b04ddca8d26a645161772dc77c470
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7f35cd2ef1f6d710644033599fe4a90a0f2978ef
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344700"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541209"
 ---
-# <a name="datacolumntype-complextype-visio-xml"></a>DataColumn_Type 复杂类型 ("Visio XML")
+# <a name="datacolumntype-complextype-visio-xml"></a>DataColumn_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
@@ -88,19 +88,19 @@ ms.locfileid: "32344700"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|日历  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||xsd: unsignedShort 类型的值。  <br/> |
-|ColumnNameID  <br/> |xsd: string  <br/> |必需  <br/> ||xsd: string 类型的值。  <br/> |
-|货币  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||xsd: unsignedShort 类型的值。  <br/> |
-|DataType  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||xsd: unsignedShort 类型的值。  <br/> |
-|Degree  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|DisplayOrder  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|DisplayWidth  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|Hyperlink  <br/> |xsd: boolean  <br/> |可选  <br/> ||xsd: boolean 类型的值。  <br/> |
-|标签  <br/> |xsd: string  <br/> |必需  <br/> ||xsd: string 类型的值。  <br/> |
-|LangID  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||xsd: unsignedInt 类型的值。  <br/> |
-|分区  <br/> |xsd: boolean  <br/> |可选  <br/> ||xsd: boolean 类型的值。  <br/> |
-|名称  <br/> |xsd: string  <br/> |必需  <br/> ||xsd: string 类型的值。  <br/> |
-|OrigLabel  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
-|UnitType  <br/> |xsd: string  <br/> |可选  <br/> ||xsd: string 类型的值。  <br/> |
+|日历  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||Xsd: unsignedShort 类型的值。  <br/> |
+|ColumnNameID  <br/> |xsd: string  <br/> |必需  <br/> ||Xsd: string 类型的值。  <br/> |
+|货币  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||Xsd: unsignedShort 类型的值。  <br/> |
+|DataType  <br/> |xsd: unsignedShort  <br/> |可选  <br/> ||Xsd: unsignedShort 类型的值。  <br/> |
+|Degree  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|DisplayOrder  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|DisplayWidth  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|超链接  <br/> |xsd: boolean  <br/> |可选  <br/> ||Xsd: boolean 类型的值。  <br/> |
+|标签  <br/> |xsd: string  <br/> |必需  <br/> ||Xsd: string 类型的值。  <br/> |
+|LangID  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|分区  <br/> |xsd: boolean  <br/> |可选  <br/> ||Xsd: boolean 类型的值。  <br/> |
+|名称  <br/> |xsd: string  <br/> |必需  <br/> ||Xsd: string 类型的值。  <br/> |
+|OrigLabel  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|UnitType  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
    
 

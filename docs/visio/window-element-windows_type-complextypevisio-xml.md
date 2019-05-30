@@ -1,5 +1,5 @@
 ---
-title: Window 元素 (Windows_Type 复杂类型) ("Visio XML")
+title: Window 元素 (Windows_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
 description: 代表 Microsoft Visio 实例中打开的窗口。 此元素包含必要的信息, 以便在 Visio 最初打开文件时, 在应用程序工作区中完全重新创建一个用户界面窗口。
-ms.openlocfilehash: 676818ddea7747a17b0fe296da515e80c4ffd98f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2700ee7a9a17460f6ac707f5b1a8f35d622e33e3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339898"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538457"
 ---
-# <a name="window-element-windowstype-complextype-visio-xml"></a>Window 元素 (Windows_Type 复杂类型) ("Visio XML")
+# <a name="window-element-windowstype-complextype-visio-xml"></a>Window 元素 (Windows_Type 复杂类型) (Visio XML)
 
 代表 Microsoft Visio 实例中打开的窗口。 此元素包含必要的信息, 以便在 Visio 最初打开文件时, 在应用程序工作区中完全重新创建一个用户界面窗口。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32339898"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |windows .xml  <br/> |
    
@@ -66,23 +66,23 @@ ms.locfileid: "32339898"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|Container  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |容器: 页、工作表或主控形状的 ID。 仅当指定**ContainerType**时才相关且必要。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|ContainerType  <br/> |xsd: token  <br/> |可选  <br/> |可以是下列值之一: 文档、页面或主控形状。 仅在将**WindowType**指定为绘图或工作表时相关。  <br/> |xsd: 令牌类型的值。  <br/> |
-|Document  <br/> |xsd: string  <br/> |可选  <br/> |此窗口中显示的文档的文件路径。  <br/> |xsd: string 类型的值。  <br/> |
-|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |元素在其父元素中的唯一 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|Master  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |主 ID (如果此窗口显示母版)。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|Page  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |如果此窗口显示页面, 则为页面 ID。 仅当将**WindowType**指定为绘图, 并将**ContainerType**指定为页面时, 才会出现相关的情况。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|ParentWindow  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |包含此模具窗口的窗口的 ID。 仅在将**WindowType**指定为模具时相关。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|ReadOnly  <br/> |xsd: boolean  <br/> |可选  <br/> |只读标志 (如果此模具不是文档模具)。  <br/> |xsd: boolean 类型的值。  <br/> |
-|Sheet  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |容器中工作表的 ID。 仅在将容器指定为工作表时相关。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|ViewCenterX  <br/> |xsd: double  <br/> |可选  <br/> |**ViewCenterX**和**ViewCenterY**指定在最初打开时, 新视图 (窗口) 假定在页面上的中心点。  <br/> |xsd: double 类型的值。  <br/> |
-|ViewCenterY  <br/> |xsd: double  <br/> |可选  <br/> |**ViewCenterX**和**ViewCenterY**指定在最初打开时, 新视图 (窗口) 假定在页面上的中心点。  <br/> |xsd: double 类型的值。  <br/> |
-|ViewScale  <br/> |xsd: double  <br/> |可选  <br/> |打开页面的新视图 (窗口) 时使用的默认放大因子。 例如, 1 = 100%;1.5 = 150%, 依此类推。  <br/> |xsd: double 类型的值。  <br/> |
-|WindowHeight  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |窗口矩形的高度。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|WindowLeft  <br/> |xsd: short  <br/> |可选  <br/> |窗口矩形的左坐标。  <br/> |xsd: short 类型的值。  <br/> |
-|WindowState  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |一个指定位标志的整数。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|WindowTop  <br/> |xsd: short  <br/> |可选  <br/> |窗口矩形的上坐标。  <br/> |xsd: short 类型的值。  <br/> |
-|WindowType  <br/> |xsd: token  <br/> |必需  <br/> |可以是下列值之一的枚举值: 绘图、工作表、模具或图标。  <br/> |xsd: 令牌类型的值。  <br/> |
-|WindowWidth  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |窗口矩形的宽度。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
+|Container  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |容器: 页、工作表或主控形状的 ID。 仅当指定**ContainerType**时才相关且必要。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|ContainerType  <br/> |xsd: token  <br/> |可选  <br/> |可以是下列值之一: 文档、页面或主控形状。 仅在将**WindowType**指定为绘图或工作表时相关。  <br/> |Xsd: 令牌类型的值。  <br/> |
+|Document  <br/> |xsd: string  <br/> |可选  <br/> |此窗口中显示的文档的文件路径。  <br/> |Xsd: string 类型的值。  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |元素在其父元素中的唯一 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|Master  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |主 ID (如果此窗口显示母版)。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|Page  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |如果此窗口显示页面, 则为页面 ID。 仅当将**WindowType**指定为绘图, 并将**ContainerType**指定为页面时, 才会出现相关的情况。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|ParentWindow  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |包含此模具窗口的窗口的 ID。 仅在将**WindowType**指定为模具时相关。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|ReadOnly  <br/> |xsd: boolean  <br/> |可选  <br/> |只读标志 (如果此模具不是文档模具)。  <br/> |Xsd: boolean 类型的值。  <br/> |
+|Sheet  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |容器中工作表的 ID。 仅在将容器指定为工作表时相关。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|ViewCenterX  <br/> |xsd: double  <br/> |可选  <br/> |**ViewCenterX**和**ViewCenterY**指定在最初打开时, 新视图 (窗口) 假定在页面上的中心点。  <br/> |Xsd: double 类型的值。  <br/> |
+|ViewCenterY  <br/> |xsd: double  <br/> |可选  <br/> |**ViewCenterX**和**ViewCenterY**指定在最初打开时, 新视图 (窗口) 假定在页面上的中心点。  <br/> |Xsd: double 类型的值。  <br/> |
+|ViewScale  <br/> |xsd: double  <br/> |可选  <br/> |打开页面的新视图 (窗口) 时使用的默认放大因子。 例如, 1 = 100%;1.5 = 150%, 依此类推。  <br/> |Xsd: double 类型的值。  <br/> |
+|WindowHeight  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |窗口矩形的高度。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|WindowLeft  <br/> |xsd: short  <br/> |可选  <br/> |窗口矩形的左坐标。  <br/> |Xsd: short 类型的值。  <br/> |
+|WindowState  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |一个指定位标志的整数。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|WindowTop  <br/> |xsd: short  <br/> |可选  <br/> |窗口矩形的上坐标。  <br/> |Xsd: short 类型的值。  <br/> |
+|WindowType  <br/> |xsd: token  <br/> |必需  <br/> |可以是下列值之一的枚举值: 绘图、工作表、模具或图标。  <br/> |Xsd: 令牌类型的值。  <br/> |
+|WindowWidth  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |窗口矩形的宽度。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
    
 

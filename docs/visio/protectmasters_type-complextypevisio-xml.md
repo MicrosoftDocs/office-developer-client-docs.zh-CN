@@ -1,25 +1,25 @@
 ---
-title: ProtectMasters_Type 复杂类型 ("Visio XML")
+title: ProtectMasters_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d6669409-a37d-9f8e-ae40-d67a7cad3026
-ms.openlocfilehash: 2aed691b40caabf10c50b1cc65658e434b94b17c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3350468c205bc2f700f0d688a1e183770a1388dd
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315153"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540677"
 ---
-# <a name="protectmasterstype-complextype-visio-xml"></a>ProtectMasters_Type 复杂类型 ("Visio XML")
+# <a name="protectmasterstype-complextype-visio-xml"></a>ProtectMasters_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |xsd: boolean  <br/> |
    

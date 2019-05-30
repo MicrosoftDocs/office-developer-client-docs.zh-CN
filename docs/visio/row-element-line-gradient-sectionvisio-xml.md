@@ -1,5 +1,5 @@
 ---
-title: Row 元素 ("线条渐变" 部分) ("Visio XML")
+title: Row 元素 ("线条渐变" 部分) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4d823766-5cb0-925c-f622-18025f44426c
 description: 包含颜色、透明度以及线条渐变的渐变停止点的位置。
-ms.openlocfilehash: 105d93344343f223a6b5d909f1174f7df56ffb4d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bfaf3ab8cc16e11051310d7e838b9dddbf7e108d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358427"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540824"
 ---
-# <a name="row-element-line-gradient-section-visio-xml"></a>Row 元素 ("线条渐变" 部分) ("Visio XML")
+# <a name="row-element-line-gradient-section-visio-xml"></a>Row 元素 ("线条渐变" 部分) (Visio XML)
 
 包含颜色、透明度以及线条渐变的渐变停止点的位置。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358427"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[LineGradientRow_Type](linegradientrow_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml、master # .xml、第 .xml 页  <br/> |
    
@@ -54,10 +54,10 @@ ms.locfileid: "32358427"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|键  <br/> |xsd: boolean  <br/> |可选  <br/> |指定是否已删除要从主控形状继承的行。  <br/> |xsd: boolean 类型的值。  <br/> |
-|IX  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定行的从1开始的标识符。 它应是唯一, 并且大于同一节中的其他标识符。IX 属性仅用于字符、Connection、Field、FillGradient、Geometry、Layer、LineGradient、段落、审阅者、草稿和选项卡部分。 行只能具有 IX 或 N 属性中的一个。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|LocalName  <br/> |xsd: string  <br/> |可选  <br/> |指定行的与语言相关的唯一名称。  <br/> |xsd: string 类型的值。  <br/> |
-|N  <br/> |xsd: string  <br/> |可选  <br/> |指定行的与语言无关的唯一名称。N 属性仅用于用户、属性、操作、控制、Connection、Hyperlink 和 ActionTag 节。 行只能具有 IX 或 N 属性中的一个。  <br/> |xsd: string 类型的值。  <br/> |
-|T  <br/> |xsd: string  <br/> |可选  <br/> |指定由行表示并在几何图形可视化中使用的几何路径的类型。 T 属性仅用于 "Geometry" 部分。  <br/> |xsd: string 类型的值。  <br/> |
+|键  <br/> |xsd: boolean  <br/> |可选  <br/> |指定是否已删除要从主控形状继承的行。  <br/> |Xsd: boolean 类型的值。  <br/> |
+|IX  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定行的从1开始的标识符。 它应是唯一, 并且大于同一节中的其他标识符。IX 属性仅用于字符、Connection、Field、FillGradient、Geometry、Layer、LineGradient、段落、审阅者、草稿和选项卡部分。 行只能具有 IX 或 N 属性中的一个。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|LocalName  <br/> |xsd: string  <br/> |可选  <br/> |指定行的与语言相关的唯一名称。  <br/> |Xsd: string 类型的值。  <br/> |
+|N  <br/> |xsd: string  <br/> |可选  <br/> |指定行的与语言无关的唯一名称。N 属性仅用于用户、属性、操作、控制、Connection、Hyperlink 和 ActionTag 节。 行只能具有 IX 或 N 属性中的一个。  <br/> |Xsd: string 类型的值。  <br/> |
+|T  <br/> |xsd: string  <br/> |可选  <br/> |指定由行表示并在几何图形可视化中使用的几何路径的类型。 T 属性仅用于 "Geometry" 部分。  <br/> |Xsd: string 类型的值。  <br/> |
    
 

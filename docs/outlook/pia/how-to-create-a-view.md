@@ -7,12 +7,12 @@ ms:contentKeyID: 55119902
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: c91f43001d6c56ad3b4c316aede9845a5e0a0064
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 75f414d95818b618cfcae236822bb2f5dacdf5f2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349488"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540803"
 ---
 # <a name="create-a-view"></a>创建视图
 
@@ -74,7 +74,7 @@ ms.locfileid: "32349488"
 
 在下面的代码示例中，CreateMeetingRequestsView 通过将 **View** 对象转换为 **TableView** 对象，向用户的收件箱中添加一个名为“会议请求”的新视图。 然后，CreateMeetingRequestsView 会调用 **Views** 对象的 **Add** 方法，并将 *Name* 参数设置为“会议请求”、将 *ViewType* 参数设置为 **olTableView**。 将 **TableView** 对象的 [Filter](https://msdn.microsoft.com/library/bb610296\(v=office.15\)) 属性设置为 DAV 搜索和定位 (DASL) 字符串，这样，只有当项目的邮件类中包含“IPM.Schedule”时，才会显示视图。 然后，系统会保存并应用新视图。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -85,7 +85,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void CreateMeetingRequestsView()
 {
     const string PR_MESSAGE_CLASS =
-        "https://schemas.microsoft.com/mapi/proptag/0x001A001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x001A001E";
     Outlook.Views views =
         Application.Session.GetDefaultFolder(
         Outlook.OlDefaultFolders.olFolderInbox).Views;

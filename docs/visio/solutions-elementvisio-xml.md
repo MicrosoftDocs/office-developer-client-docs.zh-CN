@@ -1,5 +1,5 @@
 ---
-title: 解决方案元素 ("Visio XML")
+title: 解决方案元素 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
 description: 指定存储在文档中的解决方案的属性。
-ms.openlocfilehash: 65f6d3a34a62cd5e7b63ca0f6518a6e839b48360
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f41e448681928c515ac7cb0d820d951b21549f76
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334844"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540222"
 ---
-# <a name="solutions-element-visio-xml"></a>解决方案元素 ("Visio XML")
+# <a name="solutions-element-visio-xml"></a>解决方案元素 (Visio XML)
 
 指定存储在文档中的解决方案的属性。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32334844"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |解决方案 .xml  <br/> |
    

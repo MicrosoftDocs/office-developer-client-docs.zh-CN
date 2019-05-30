@@ -1,5 +1,5 @@
 ---
-title: PageSheet 元素 (Page_Type 复杂类型) ("Visio XML")
+title: PageSheet 元素 (Page_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 99a6549b-099b-1546-cc30-db0010fe3ce1
 description: 指定与绘图页相关联的绘图页的属性。
-ms.openlocfilehash: 8b60795c02717e4b752c09af19fa932f87924d1f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2f49d152a0fcb30e3f5aea98cdc251d3b65b8f69
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326115"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540621"
 ---
-# <a name="pagesheet-element-pagetype-complextype-visio-xml"></a>PageSheet 元素 (Page_Type 复杂类型) ("Visio XML")
+# <a name="pagesheet-element-pagetype-complextype-visio-xml"></a>PageSheet 元素 (Page_Type 复杂类型) (Visio XML)
 
 指定与绘图页相关联的绘图页的属性。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32326115"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |pages  <br/> |
    
@@ -52,9 +52,9 @@ ms.locfileid: "32326115"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定要从中继承填充格式的样式表的 ID。 它必须是与绘图中的**StyleSheet_Type**相关联的**ID**属性的值。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|LineStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定要从中继承行格式设置的样式表的 ID。 它必须是与绘图中的**StyleSheet_Type**相关联的**ID**属性的值。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|TextStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定要从中继承文本格式设置的样式表的 ID。 它必须是与绘图中的**StyleSheet_Type**相关联的**ID**属性的值。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|UniqueID  <br/> |xsd: string  <br/> |可选  <br/> |元素在其父元素中的唯一 ID。  <br/> |xsd: string 类型的值。  <br/> |
+|FillStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定要从中继承填充格式的样式表的 ID。 它必须是与绘图中的**StyleSheet_Type**相关联的**ID**属性的值。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|LineStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定要从中继承行格式设置的样式表的 ID。 它必须是与绘图中的**StyleSheet_Type**相关联的**ID**属性的值。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|TextStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定要从中继承文本格式设置的样式表的 ID。 它必须是与绘图中的**StyleSheet_Type**相关联的**ID**属性的值。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|UniqueID  <br/> |xsd: string  <br/> |可选  <br/> |元素在其父元素中的唯一 ID。  <br/> |Xsd: string 类型的值。  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: ShowGrid 元素 (Window_Type 复杂类型) ("Visio XML")
+title: ShowGrid 元素 (Window_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d0f6d0ee-ae3b-f871-11fd-dc5b955c1bf3
 description: 指定是否在绘图窗口中显示网格。
-ms.openlocfilehash: a34ba3503cc8995554f1f6d696b27a6a4be37359
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 491dc53bcf5bc49ae26d37e1380ec99e4457e285
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315139"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542994"
 ---
-# <a name="showgrid-element-windowtype-complextype-visio-xml"></a>ShowGrid 元素 (Window_Type 复杂类型) ("Visio XML")
+# <a name="showgrid-element-windowtype-complextype-visio-xml"></a>ShowGrid 元素 (Window_Type 复杂类型) (Visio XML)
 
 指定是否在绘图窗口中显示网格。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32315139"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[ShowGrid_Type](showgrid_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |windows .xml  <br/> |
    

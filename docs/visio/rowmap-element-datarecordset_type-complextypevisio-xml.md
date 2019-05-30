@@ -1,5 +1,5 @@
 ---
-title: RowMap 元素 (DataRecordSet_Type 复杂类型) ("Visio XML")
+title: RowMap 元素 (DataRecordSet_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f90dc76b-7f0b-dead-38c0-97062a7b76a6
 description: 将数据记录集行映射到形状。
-ms.openlocfilehash: 2dffa49d66e8e447b4e31d771179c74eecad21da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 178ceb06d64bfc9ef50f75dd22f8bd94f09f5c33
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332513"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540768"
 ---
-# <a name="rowmap-element-datarecordsettype-complextype-visio-xml"></a>RowMap 元素 (DataRecordSet_Type 复杂类型) ("Visio XML")
+# <a name="rowmap-element-datarecordsettype-complextype-visio-xml"></a>RowMap 元素 (DataRecordSet_Type 复杂类型) (Visio XML)
 
 将数据记录集行映射到形状。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32332513"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[RowMap_Type](rowmap_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |记录集 .xml  <br/> |
    
@@ -54,8 +54,8 @@ ms.locfileid: "32332513"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |链接到由**RowID**标识的数据记录集行中的数据的形状的页面 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|RowID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |行的行 ID, 在数据记录集中是唯一的。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|ShapeID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |链接到由**RowID**标识的数据记录集行中的数据的形状的形状 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
+|PageID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |链接到由**RowID**标识的数据记录集行中的数据的形状的页面 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|RowID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |行的行 ID, 在数据记录集中是唯一的。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|ShapeID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |链接到由**RowID**标识的数据记录集行中的数据的形状的形状 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
    
 

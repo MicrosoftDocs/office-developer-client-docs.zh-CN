@@ -1,5 +1,5 @@
 ---
-title: Cell 元素 ("段落" 部分) ("Visio XML")
+title: Cell 元素 ("段落" 部分) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: de0d3aac-1a0f-1bdf-da94-e6699a55d08e
 description: 指定形状的文本的段落格式属性, 例如段落的缩进、行间距、项目符号或水平对齐方式。
-ms.openlocfilehash: 2647ce92b38234e4d6fc4d6bc59188d468332ca8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fbb837b96d40f412ddefdf1fac9da0d31a709e39
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344840"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539479"
 ---
-# <a name="cell-element-paragraph-section-visio-xml"></a>Cell 元素 ("段落" 部分) ("Visio XML")
+# <a name="cell-element-paragraph-section-visio-xml"></a>Cell 元素 ("段落" 部分) (Visio XML)
 
 指定形状的文本的段落格式属性, 例如段落的缩进、行间距、项目符号或水平对齐方式。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32344840"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml、master # .xml、第 .xml 页  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32344840"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |表示一个度量单位, 默认值为 DL。  <br/> |单元格的单位。  <br/> |
 |部分  <br/> |xsd: string  <br/> |可选  <br/> |表示单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此**单元格**元素的**N**属性必须是与 ShapeSheet 单元格相对应的一组有限的值之一。 请参阅下表, 以确定此**单元格**元素允许的**N**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |项目符号  <br/> |确定项目符号的样式。  <br/> |[Bullet Cell (Paragraph Section)](bullet-cell-paragraph-section.md) <br/> |
 |BulletFont  <br/> |表示当指定了自定义项目符号字符串并且 Bullet 单元格中的值不为零时，用于设置文字格式的字体编号。  <br/> |[BulletFont Cell (Paragraph Section)](bulletfont-cell-paragraph-section.md) <br/> |

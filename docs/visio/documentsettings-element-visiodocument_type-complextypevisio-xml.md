@@ -1,5 +1,5 @@
 ---
-title: DocumentSettings 元素 (VisioDocument_Type 复杂类型) ("Visio XML")
+title: DocumentSettings 元素 (VisioDocument_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46712e1f-4e02-974f-c224-85db47666ae1
 description: 包含指定文档设置的元素。
-ms.openlocfilehash: e86dc5a0875006cb8bd1bbaffd36037a07fd5c0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0d8e0809afae7b3de059166343577bb58f0eb01b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315216"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540068"
 ---
-# <a name="documentsettings-element-visiodocumenttype-complextype-visio-xml"></a>DocumentSettings 元素 (VisioDocument_Type 复杂类型) ("Visio XML")
+# <a name="documentsettings-element-visiodocumenttype-complextype-visio-xml"></a>DocumentSettings 元素 (VisioDocument_Type 复杂类型) (Visio XML)
 
 包含指定文档设置的元素。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32315216"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml  <br/> |
    
@@ -65,10 +65,10 @@ ms.locfileid: "32315216"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|DefaultFillStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定**StyleSheet**元素的 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|DefaultGuideStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定**StyleSheet**元素的 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|DefaultLineStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定**StyleSheet**元素的 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|DefaultTextStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定**StyleSheet**元素的 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|TopPage  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定在 Microsoft Visio 打开文档时应显示的页面的 ID。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
+|DefaultFillStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定**StyleSheet**元素的 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|DefaultGuideStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定**StyleSheet**元素的 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|DefaultLineStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定**StyleSheet**元素的 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|DefaultTextStyle  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定**StyleSheet**元素的 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|TopPage  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定在 Microsoft Visio 打开文档时应显示的页面的 ID。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
    
 

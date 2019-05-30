@@ -1,5 +1,5 @@
 ---
-title: Row 元素 ("Geometry" 内容) ("Visio XML")
+title: Row 元素 ("Geometry" 内容) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
 description: 包含列出构成形状的线条和弧形的顶点坐标的行。
-ms.openlocfilehash: 53482b0db3f2deb3c8e2ba30f41be67f0d9e27a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6dbf18b749ed072645c4941922729010f74fc0ae
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358550"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540852"
 ---
-# <a name="row-element-geometry-section-visio-xml"></a>Row 元素 ("Geometry" 内容) ("Visio XML")
+# <a name="row-element-geometry-section-visio-xml"></a>Row 元素 ("Geometry" 内容) (Visio XML)
 
 包含列出构成形状的线条和弧形的顶点坐标的行。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358550"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[GeometryRow_Type](geometry_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |master # .xml、第 .xml 页  <br/> |
    
@@ -72,17 +72,17 @@ ms.locfileid: "32358550"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|键  <br/> |xsd: boolean  <br/> |可选  <br/> |指定是否已删除要从主控形状继承的行。  <br/> |xsd: boolean 类型的值。  <br/> |
-|IX  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定行的从1开始的标识符。 它应是唯一, 并且大于同一节中的其他标识符。IX 属性仅用于字符、Connection、Field、FillGradient、Geometry、Layer、LineGradient、段落、审阅者、草稿和选项卡部分。 行只能具有 IX 或 N 属性中的一个。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
-|LocalName  <br/> |xsd: string  <br/> |可选  <br/> |指定行的与语言相关的唯一名称。  <br/> |xsd: string 类型的值。  <br/> |
-|N  <br/> |xsd: string  <br/> |可选  <br/> |指定行的与语言无关的唯一名称。N 属性仅用于用户、属性、操作、控制、Connection、Hyperlink 和 ActionTag 节。 行只能具有 IX 或 N 属性中的一个。  <br/> |xsd: string 类型的值。  <br/> |
-|T  <br/> |xsd: string  <br/> |可选  <br/> |指定由行表示并在几何图形可视化中使用的几何路径的类型。 T 属性仅用于 "Geometry" 部分。  <br/> |xsd: string 类型的值。  <br/> |
+|键  <br/> |xsd: boolean  <br/> |可选  <br/> |指定是否已删除要从主控形状继承的行。  <br/> |Xsd: boolean 类型的值。  <br/> |
+|IX  <br/> |xsd: unsignedInt  <br/> |可选  <br/> |指定行的从1开始的标识符。 它应是唯一, 并且大于同一节中的其他标识符。IX 属性仅用于字符、Connection、Field、FillGradient、Geometry、Layer、LineGradient、段落、审阅者、草稿和选项卡部分。 行只能具有 IX 或 N 属性中的一个。  <br/> |Xsd: unsignedInt 类型的值。  <br/> |
+|LocalName  <br/> |xsd: string  <br/> |可选  <br/> |指定行的与语言相关的唯一名称。  <br/> |Xsd: string 类型的值。  <br/> |
+|N  <br/> |xsd: string  <br/> |可选  <br/> |指定行的与语言无关的唯一名称。N 属性仅用于用户、属性、操作、控制、Connection、Hyperlink 和 ActionTag 节。 行只能具有 IX 或 N 属性中的一个。  <br/> |Xsd: string 类型的值。  <br/> |
+|T  <br/> |xsd: string  <br/> |可选  <br/> |指定由行表示并在几何图形可视化中使用的几何路径的类型。 T 属性仅用于 "Geometry" 部分。  <br/> |Xsd: string 类型的值。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 **此行**元素的**T**属性必须是与 ShapeSheet 行相对应的一组有限的值之一。 请参阅下表, 以确定此**Row**元素允许的**T**属性的值。 
   
-|**Value**|**说明**|**详细信息**|
+|**值**|**说明**|**详细信息**|
 |:-----|:-----|:-----|
 |ArcTo  <br/> |包含圆弧的 x 坐标、y 坐标和弓。  <br/> |[ArcTo Row (Geometry Section)](arcto-row-geometry-section.md) <br/> |
 |椭圆  <br/> |包含椭圆中心点和椭圆上两个点的 x 坐标和 y 坐标。  <br/> |[Ellipse Row (Geometry Section)](ellipse-row-geometry-section.md) <br/> |

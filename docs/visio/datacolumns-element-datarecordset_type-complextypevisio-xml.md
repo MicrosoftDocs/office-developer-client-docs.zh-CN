@@ -1,5 +1,5 @@
 ---
-title: DataColumns 元素 (DataRecordSet_Type 复杂类型) ("Visio XML")
+title: DataColumns 元素 (DataRecordSet_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 34e25349-d0fa-b3a0-425b-778184e9f58f
 description: 包含数据记录集中的所有 DataColumn 元素。
-ms.openlocfilehash: a7a0a8faefdb965384e435ee3a9b059a3acbc3f0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e42354076c5e3e34c118145e7ec7fcdbd4977372
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345246"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541195"
 ---
-# <a name="datacolumns-element-datarecordsettype-complextype-visio-xml"></a>DataColumns 元素 (DataRecordSet_Type 复杂类型) ("Visio XML")
+# <a name="datacolumns-element-datarecordsettype-complextype-visio-xml"></a>DataColumns 元素 (DataRecordSet_Type 复杂类型) (Visio XML)
 
 包含数据记录集中的所有**DataColumn**元素。 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32345246"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |记录集 .xml  <br/> |
    
@@ -54,7 +54,7 @@ ms.locfileid: "32345246"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|SortAsc  <br/> |xsd: boolean  <br/> |可选  <br/> |对数据进行排序所依据的列。  <br/> |xsd: boolean 类型的值。  <br/> |
-|SortColumn  <br/> |xsd: string  <br/> |可选  <br/> |是按升序 (1) 还是降序 (0) 顺序对**SortColumn**列进行排序。  <br/> |xsd: string 类型的值。  <br/> |
+|SortAsc  <br/> |xsd: boolean  <br/> |可选  <br/> |对数据进行排序所依据的列。  <br/> |Xsd: boolean 类型的值。  <br/> |
+|SortColumn  <br/> |xsd: string  <br/> |可选  <br/> |是按升序 (1) 还是降序 (0) 顺序对**SortColumn**列进行排序。  <br/> |Xsd: string 类型的值。  <br/> |
    
 

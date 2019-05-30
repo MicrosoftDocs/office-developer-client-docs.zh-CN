@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7a52f46c-371c-46d0-8d66-e154482e8269
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 07acfd8715dccad8833ee14ac8e573fb995539ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 098261cd71631e4816d22272e1b1bef1d5932a94
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337945"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540943"
 ---
 # <a name="pidnameexchangejunkemailmovestamp-canonical-property"></a>PidNameExchangeJunkEmailMoveStamp 规范属性
 
@@ -31,11 +31,11 @@ ms.locfileid: "32337945"
 |:-----|:-----|
 |友好名称:  <br/> |无  <br/> |
 |属性集:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|属性名称:  <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
+|属性名称:  <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |安全邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此属性在垃圾邮件规则移动的每封邮件上标记, 或以其他方式受信任的内容。
   
@@ -57,7 +57,7 @@ ms.locfileid: "32337945"
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs。h
   
 > 提供数据类型定义。
     

@@ -1,5 +1,5 @@
 ---
-title: DynamicGridEnabled 元素 (DocumentSettings_Type 复杂类型) ("Visio XML")
+title: DynamicGridEnabled 元素 (DocumentSettings_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f18d797e-9885-f2fb-a521-5172aac7894c
 description: 指定是否对文档启用动态网格功能。
-ms.openlocfilehash: d92f717ee07118abab8b2acf81b54197afb22b45
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9f09591ddb918fa883432be0ea89e663bdfbecb7
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315713"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539998"
 ---
-# <a name="dynamicgridenabled-element-documentsettingstype-complextype-visio-xml"></a>DynamicGridEnabled 元素 (DocumentSettings_Type 复杂类型) ("Visio XML")
+# <a name="dynamicgridenabled-element-documentsettingstype-complextype-visio-xml"></a>DynamicGridEnabled 元素 (DocumentSettings_Type 复杂类型) (Visio XML)
 
 指定是否对文档启用动态网格功能。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32315713"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |windows .xml、document、.xml  <br/> |
    

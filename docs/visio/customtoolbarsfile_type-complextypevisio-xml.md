@@ -1,25 +1,25 @@
 ---
-title: CustomToolbarsFile_Type 复杂类型 ("Visio XML")
+title: CustomToolbarsFile_Type 复杂类型 (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d06324d4-3d7f-dbf3-efea-f569d25dd5d5
-ms.openlocfilehash: a761d868938900d0a0f4e3b740cbdf3dcce73219
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ad207f904b68ad253b00ae634c783c240ad81d62
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345120"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539201"
 ---
-# <a name="customtoolbarsfiletype-complextype-visio-xml"></a>CustomToolbarsFile_Type 复杂类型 ("Visio XML")
+# <a name="customtoolbarsfiletype-complextype-visio-xml"></a>CustomToolbarsFile_Type 复杂类型 (Visio XML)
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
 |**扩展基** <br/> |xsd: string  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: FooterRight 元素 (HeaderFooter_Type 复杂类型) ("Visio XML")
+title: FooterRight 元素 (HeaderFooter_Type 复杂类型) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ad752f2d-25c9-8890-885b-87266a8052b8
 description: 包含显示在文档页脚右侧部分的文本字符串。
-ms.openlocfilehash: 9977f0e86527b9e66784b2cd8ad0f2554030f7db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e3aa56790e7875ee2ef146b6234c02eafc2ede8b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346086"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538625"
 ---
-# <a name="footerright-element-headerfootertype-complextype-visio-xml"></a>FooterRight 元素 (HeaderFooter_Type 复杂类型) ("Visio XML")
+# <a name="footerright-element-headerfootertype-complextype-visio-xml"></a>FooterRight 元素 (HeaderFooter_Type 复杂类型) (Visio XML)
 
 包含显示在文档页脚右侧部分的文本字符串。
   
@@ -23,7 +23,7 @@ ms.locfileid: "32346086"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[FooterRight_Type](footerright_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15  <br/> |
 |**文档部件** <br/> |document .xml  <br/> |
    
