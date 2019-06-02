@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: 本文介绍 API 和相关技术，用户可以将它们用于扩展 Outlook 2013 和 Outlook 2016，并帮助决定适用于用户方案的 API 或技术。
 localization_priority: Priority
-ms.openlocfilehash: 54931ea9235e549a8fb4338c425123b99c2b11e4
-ms.sourcegitcommit: 9716521f7bcd531f93be9855ae7835be20cdd0e2
+ms.openlocfilehash: ac7ad2f183ed71ae893745429c6d27793a983be3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34250424"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538394"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>选择某个 API 或技术开发适用于 Outlook 的解决方案
 
@@ -293,7 +293,7 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 ![Process Outlook events](media/odc_ol15_ta_SelectingTech_Fig2-4.gif)
 ![Automate Outlook](media/odc_ol15_ta_SelectingTech_Fig2-5.gif)-->
 
-### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>自 Outlook 2007 以来对象模型或 PIA 支持的其他方案
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>从 Outlook 2007 开始，对象模型或 PIA 支持的方案
 
 除了这些基准方案，如果你的 Outlook 解决方案支持以下列表中的任一方案并且你的解决方案适合运行在 Outlook 2007 或更高版本，而非早期版本上，那么你可以使用对象模型或 PIA。 本节指定你可以在 Outlook 对象模型中用来扩展每种方案的主对象或成员（Visual Studio 自动化对象模型中的 [IDTExtensibility2](https://docs.microsoft.com/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017) 接口和 Office 对象模型中的 [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) 接口除外，你可以将这些接口与 Outlook 对象模型进行集成）。 
 
@@ -325,7 +325,7 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 ![Store private data for solutions](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
 -->
 
-### <a name="more-scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>自 Outlook 2010 以来对象模型或 PIA 支持的其他方案
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>从 Outlook 2010 开始，对象模型或 PIA 支持的方案
 
 如果你的 Outlook 解决方案适合运行在 Outlook 2010 上，而不是早期版本上，则可以选择使用对象模型或 PIA 来支持下一节所示的方案。 本节指定你可以在 Outlook 对象模型中用来扩展每种方案的主对象或成员（Office 对象模型中的 [IRibbonControl](https://docs.microsoft.com/office/vba/api/Office.IRibbonControl)、[IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) 和 [IRibbonUI](https://docs.microsoft.com/office/vba/api/Office.IRibbonUI) 接口除外，你可以将这些接口与 Outlook 对象模型集成）。 
    
@@ -347,7 +347,7 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 ![Organize solution-specific folders](media/odc_ol15_ta_SelectingAPI_Fig4-7.gif)
 -->
 
-### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>自 Outlook 2013 以来对象模型或 PIA 支持的其他方案
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>从 Outlook 2013 开始，对象模型或 PIA 支持的方案
 
 如果你的解决方案适合运行在 Outlook 2013 上，而不是早期版本上，则可以使用对象模型或 PIA 来支持以下资源中所示的方案。
 
