@@ -34,8 +34,7 @@ ms.locfileid: "32360520"
   
 ### <a name="code-samples"></a>代码示例
   
-- 
-  [Office 开发中心内的 Word 代码示例](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
+- [Office 开发中心内的 Word 代码示例](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
   
 ### <a name="other-resources"></a>其他资源
   
