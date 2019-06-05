@@ -4,15 +4,15 @@ TOCTitle: Filter Property
 ms:assetid: feffa23b-c348-9718-ba4b-65db0f739789
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837300(v=office.15)
 ms:contentKeyID: 48548953
-ms.date: 09/18/2015
+ms.date: 06/04/2019
 mtps_version: v=office.15
 localization_priority: Priority
-ms.openlocfilehash: 7ab090dd6cf0b6e2676cf05907ac77c438f22652
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 43afbfda8c560eafb90e6a53d85207e19e5b1170
+ms.sourcegitcommit: 4a570873914c58dd4cdbe97b5d9ec41866dc797c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284818"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "34675748"
 ---
 # <a name="recordsetfilter-property-dao"></a>Recordset.Filter 属性 (DAO)
 
@@ -22,7 +22,7 @@ ms.locfileid: "32284818"
 
 ## <a name="syntax"></a>语法
 
-*表达式* .Filter
+*表达式*.**Filter**
 
 *表达式* 一个返回 **Recordset** 对象的表达式。
 
@@ -56,7 +56,7 @@ ms.locfileid: "32284818"
     
     'Create the first filtered Recordset, returning customer records
     'for those visited between 30-60 days ago.
-    Set rest = dbs.OpenRecordset(_ 
+    Set rst = dbs.OpenRecordset(_ 
         "SELECT * FROM Customers WHERE LastVisitDate BETWEEN Date()-60 " & _
         "AND Date()-30 ORDER BY LastVisitDate DESC")
     
