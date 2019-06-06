@@ -25,7 +25,7 @@ ms.locfileid: "32294335"
 复制并压缩关闭的数据库，使您可以选择更改其版本、整理顺序和加密设置。 （仅适用于 Microsoft Access 工作区。
 
 > [!NOTE]
-> 使用加密链接的表来执行操作、更新和 SQL 查询 [例如 SQL UPDATE 语句 (CurrentDb.Execute "UPDATE...")] 时，您必须提供加密密钥。 此外，链接的表有加密密钥的 19 字符限制。 请参阅本主题结尾的**加密链接的表**部分。
+> 使用加密的链接表来执行操作、更新和 SQL 查询 [例如 SQL UPDATE 语句 (CurrentDb.Execute "UPDATE...")] 时，你必须提供加密密钥。 此外，链接表对加密密钥有 19 字符的限制。 请参阅本主题结尾的**加密的链接表**部分。
 
 ## <a name="syntax"></a>语法
 
@@ -55,23 +55,23 @@ ms.locfileid: "32294335"
 <td><p><em>SrcName</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>识别现有的已关闭数据库。 可以是完整路径和文件名，例如 &quot;C:\db1.mdb&quot;。 如果文件名称有扩展名，必须指定。 如果网络支持的话，还可以指定网络路径，例如&quot;\\server1\share1\dir1\db1.mdb&quot;</p></td>
+<td><p>识别现有的已关闭数据库。 可以是完整路径和文件名，例如 &quot;C:\db1.mdb&quot;。 如果文件名称有扩展名，必须指定。 如果网络支持的话，也可以指定网络路径，例如&quot;\\server1\share1\dir1\db1.mdb&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p><em>DstName</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>您要创建的压缩数据库的文件名（和路径）。 还可以指定网络路径。 不能使用此参数指定与 SrcName 相同的数据库文件。</p></td>
+<td><p>您要创建的压缩数据库的文件名（和路径）。 还可以指定网络路径。 不能使用此参数来指定与 SrcName 相同的数据库文件。</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>DstLocale</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>指定用于创建 DstName 整理顺序的字符串表达式，如“备注”中指定。</p>
+<td><p>指定用于创建 DstName 整理顺序的字符串表达式，如“备注”中所指定的。</p>
 <ul>
 <li><p>如果省略此参数，则 DstName 区域设置与 SrcName 相同。</p></li>
 <li><p>还可以通过将密码字符串（以&quot;;pwd=&quot;开头）与 DstLocale 参数中的常量相连（例如 dbLangSpanish &amp; &quot;;pwd=NewPassword&quot;）创建 DstName 的密码。</p></li>
-<li><p>如果要使用与 SrcName 相同的 DstLocale（默认值），但指定新密码，只需输入 DstLocale 的密码字符串：&quot;;pwd=NewPassword&quot;</p></li>
+<li><p>如果要使用与 SrcName 相同的 DstLocale（默认值），但指定新密码，则只需输入 DstLocale 的密码字符串即可：&quot;;pwd=NewPassword&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -93,7 +93,7 @@ ms.locfileid: "32294335"
 
 ## <a name="remarks"></a>说明
 
-可以使用 DstLocale 参数的下列常量之一来指定文本字符串比较的**CollatingOrder**属性。
+可以使用 DstLocale 参数的下列常量之一来指定用于文本字符串比较的**CollatingOrder**属性。
 
 <table>
 <colgroup>
@@ -219,7 +219,7 @@ ms.locfileid: "32294335"
 </tr>
 <tr class="even">
 <td><p><strong>dbDecrypt</strong></p></td>
-<td><p>压缩操作时解密数据库。</p></td>
+<td><p>压缩时解密数据库。</p></td>
 </tr>
 </tbody>
 </table>
@@ -275,7 +275,7 @@ ms.locfileid: "32294335"
 
 更改数据库中的数据时，数据库文件中会产生碎片，并使用多于所需量的磁盘空间。您可以定期使用 **CompactDatabase** 方法来压缩数据库，对数据库文件进行碎片整理。压缩的数据库通常更小且运行速度更快。在复制和压缩数据库时，还可以更改整理顺序、加密或数据格式的版本。
 
-压缩 SrcName 之前，必须关闭它。 在多用户环境中，在您压缩 SrcName 时，其他用户不能打开它。 如果 SrcName 未关闭或者不能被独占使用，将会发生错误。
+压缩 SrcName 之前，必须关闭它。 在多用户环境中，在你压缩 SrcName 时，其他用户不能打开它。 如果 SrcName 未关闭或者不能独占使用，将会发生错误。
 
 由于 **CompactDatabase** 会创建数据库的副本，因此您必须为原始数据库和复制数据库提供足够的磁盘空间。 如果没有足够的可用磁盘空间，压缩操作将失败。 DstName 复制数据库不必与 SrcName 位于同一个磁盘上。 在成功压缩数据库之后，可以删除 SrcName 文件，并将压缩的 DstName 文件重命名为原始文件名。
 
@@ -284,14 +284,14 @@ ms.locfileid: "32294335"
 > [!NOTE]
 > 因为**CompactDatabase**方法不能转换 Microsoft Access 对象，所以请不要使用**CompactDatabase**来转换包含此类对象的数据库。
 
-## <a name="encrypted-linked-tables"></a>加密链接的表
+## <a name="encrypted-linked-tables"></a>加密的链接表
 
-加密密码都依赖于正在使用的数据库的文件格式。 如果使用 Access 2003 (.mdb) 或早期数据库，会有一个密码来保护数据库，另一个单独密码来加密数据库。 对于 Access 2007 (.accdb) 和更高版本 (.mdb) 数据库，唯一选项就是使用同一个密码来加密和保护数据库，因为拥有两个单独密码的选项已删除。
+加密密码取决于正在使用的数据库的文件格式。 如果使用 Access 2003 (.mdb) 或早期数据库，会有一个密码来保护数据库，另一个单独密码来加密数据库。 对于 Access 2007 (.accdb) 和更高版本 (.mdb) 数据库，唯一选项就是使用同一个密码来加密和保护数据库，因为拥有两个单独密码的选项已删除。
 
 > [!NOTE]
 > 对于 Access 2007 (.accdb) 数据库，密码就是加密密钥
 
-对于命令按钮可以使用以下示例 VBA 代码：
+可以使用以下示例 VBA 代码作为命令按钮：
 
 ```vb
     Private Sub Command0_Click()
@@ -318,7 +318,7 @@ ms.locfileid: "32294335"
 
 <br/>
 
-下面代码示例演示如何借助密码 （加密密钥） 来使用 CompactDatabase，然后将其链接到该压缩数据库的表中。 请注意必须提供密码。
+下面的代码示例显示如何借助密码（加密密钥） 使用 CompactDatabase，然后将它链接到该压缩数据库中的一个表。 请注意必须提供密码。
 
 ```vb
     Private Sub CompactAndLink_Click() 

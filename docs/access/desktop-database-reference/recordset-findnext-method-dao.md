@@ -104,9 +104,9 @@ ms.locfileid: "32300635"
 
 始终检查 **NoMatch** 属性的值，以确定 Find 操作是否已成功。如果搜索成功，则 **NoMatch** 为 **False**。如果搜索失败，则 **NoMatch** 为 **True**，并且未定义当前记录。在这种情况下，必须将当前记录指针定位回有效的记录。
 
-借助 Microsoft Access 数据库引擎连接的访问 ODBC 的记录集使用**Find**方法效率低下。 你可能会发现，通过改写条件查找特定记录速度更快，在处理大型记录集时尤其如此。
+借助 Microsoft Access 数据库连接引擎且访问 ODBC 的记录集使用**Find**方法效率低下。 你可能会发现，通过改写条件查找特定记录速度更快，在处理大型记录集时尤其如此。
 
-在 ODBCDirect 工作区中， **Find** 和 **Seek** 方法并不是对任何类型的 **Recordset** 对象可用，因为在网络上通过 ODBC 连接执行 **Find** 或 **Seek** 不是十分有效。 应该使用正确的 WHERE 子句设计查询（也就是说，对 OpenRecordset 方法使用 **source** 参数），该子句可将返回的记录限制为符合 **Find** 或 **Seek** 方法中使用的条件的那些记录。
+在 ODBCDirect 工作区中， **Find** 和 **Seek** 方法并不是对任何类型的 **Recordset** 对象可用，因为在网络上通过 ODBC 连接执行 **Find** 或 **Seek** 不是十分有效。 应该使用正确的 WHERE 子句设计查询（也就是说，对 OpenRecordset 方法使用 **source** 参数），该子句可将返回的记录限制为仅符合 **Find** 或 **Seek** 方法中使用的条件的那些记录。
 
 在处理 Microsoft Access 数据库引擎连接的 ODBC 数据库以及大型动态集类型 v 对象时，可能会发现使用 **Find** 方法或使用 **Sort** 或 **Filter** 属性都比较慢。若要改善性能，请将 SQL 查询与自定义的 ORDER BY 或 WHERE 子句、参数查询或检索特定索引记录的 **QueryDef** 对象一起使用。
 
