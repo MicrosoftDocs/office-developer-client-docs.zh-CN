@@ -4,15 +4,15 @@ TOCTitle: Comparison of Microsoft Access SQL and ANSI SQL
 ms:assetid: 0686f98f-10fe-0e02-e9d1-84ff3e755b57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
-ms.date: 09/18/2015
+ms.date: 06/13/2019
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 195d9f5d882fd252b1b10e937fe851c4830c52d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4e9f30401891452970fdbe80123fc373e26f26c6
+ms.sourcegitcommit: d0e1ce095a478d90411abb8c147eb9efe19ffa5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296050"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34870855"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>比较 Microsoft Access SQL 和 ANSI SQL
 
@@ -24,7 +24,7 @@ Microsoft Access 数据库引擎 SQL 的兼容性通常为 ANSI-89 级别1。 �
 
 - Microsoft Access SQL 和 ANSI SQL 各自拥有不同的保留字和数据类型。有关详细信息，请参阅 [Microsoft Access 数据库引擎 SQL 保留字](sql-reserved-words.md)和[等价的 ANSI SQL 数据类型](equivalent-ansi-sql-data-types.md)。使用 Microsoft Access 数据库引擎 OLE DB 提供程序时，还提供其他保留字。
 
-- **[Between...And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**
+- **[Between...And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/between-and-operator)**
     
   *表达式 1*\[不\] **介于** *value1* **和** *value2*之间
     
