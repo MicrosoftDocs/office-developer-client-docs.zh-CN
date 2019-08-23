@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 7bb86fc8-d1ae-4937-9919-86c3a0f5651d
 description: 上次修改时间：2015 年 12 月 7 日
-ms.openlocfilehash: 5d26583ad7ad3b4a200daf321a8994e302b75a79
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 21aafebefcb7e10e6ba432f2eb3cc5dc04978c20
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318086"
 ---
 # <a name="avoiding-certain-methods-at-startup"></a>避免在启动时使用某些方法
 

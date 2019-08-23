@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3953dc9d-0146-3689-63f0-c6ba78566b8b
 description: 上次修改时间：2012 年 7 月 5 日
 ms.openlocfilehash: 06f30b4856fc10127aec99975652e28a5e8dda30
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337098"
 ---
 # <a name="dnhier"></a>DNHIER
 

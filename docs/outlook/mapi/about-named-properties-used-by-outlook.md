@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8c245ec2-bb18-ecf0-b4ad-8c164c5924cf
 description: 上次修改时间：2012 年 6 月 25 日
-ms.openlocfilehash: aa4d52d25f120e8b3e2a4c0dcaa4845ad576127a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 328ff423025689795669d661f529270886123a7e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322237"
 ---
 # <a name="about-named-properties-used-by-outlook"></a>关于 Outlook 使用的命名属性
 

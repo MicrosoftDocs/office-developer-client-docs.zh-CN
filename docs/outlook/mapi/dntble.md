@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 10fb1650-6c3e-f467-91cd-48e5ddd82827
 description: 上次修改时间：2012 年 7 月 5 日
 ms.openlocfilehash: 41a61bd05bd511888aeab756166016813f4dceb8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337112"
 ---
 # <a name="dntble"></a>DNTBLE
 

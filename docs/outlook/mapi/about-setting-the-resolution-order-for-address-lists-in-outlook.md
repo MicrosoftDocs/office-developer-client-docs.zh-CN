@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
 description: 上次修改时间：2012 年 7 月 5 日
 ms.openlocfilehash: 07a4c3e90f686f291f95ff87f337b54d8bf35edc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391407"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321831"
 ---
 # <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>关于设置在 Outlook 中地址列表的解析顺序
 
