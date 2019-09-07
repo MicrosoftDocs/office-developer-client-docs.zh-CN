@@ -4,19 +4,19 @@ TOCTitle: OpenRecordset Method
 ms:assetid: a243bc79-cac4-fe12-768d-d3d017954e78
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820966(v=office.15)
 ms:contentKeyID: 48546753
-ms.date: 06/04/2019
+ms.date: 09/04/2019
 mtps_version: v=office.15
 f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
 localization_priority: Priority
-ms.openlocfilehash: b13abd7f3f2c856a0f1a1288717d6f8affb81252
-ms.sourcegitcommit: 4a570873914c58dd4cdbe97b5d9ec41866dc797c
+ms.openlocfilehash: b8a6e9a2204a60ecff33555d31f39591308f9b67
+ms.sourcegitcommit: 27a9f3568318470e7ee09ad93a90c3f80d3ef0cd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "34675741"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790762"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Database.OpenRecordset 方法 (DAO)
 
@@ -121,7 +121,7 @@ Recordset
     Set dbs = CurrentDb
     
     'Get the parameter query
-    Set qfd = dbs.QueryDefs("qryMyParameterQuery")
+    Set qdf = dbs.QueryDefs("qryMyParameterQuery")
     
     'Supply the parameter value
     qdf.Parameters("EnterStartDate") = Date
