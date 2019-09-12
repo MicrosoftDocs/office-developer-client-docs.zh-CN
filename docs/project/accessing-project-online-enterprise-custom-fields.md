@@ -206,8 +206,7 @@ ListPWACustomFields 方法检索并列出项目关联的 ECF。 此方法列出�
 ## <a name="see-also"></a>另请参阅
 
 - [Project 开发门户](https://developer.microsoft.com/zh-CN/project)
-- 
-  [概述：企业自定义域和查找表](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
+- [概述：企业自定义域和查找表](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
 - [本地和企业自定义域](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
 - [在 Project Server 2013 中添加或编辑企业自定义域](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)
     

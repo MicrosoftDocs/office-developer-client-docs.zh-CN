@@ -552,8 +552,7 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 
 - [向邮件项附加文件](https://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
-- 
-  [附件文件类型受限于 Outlook 2010](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
+- [附件文件类型受限于 Outlook 2010](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
     
 - [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx) 对象 
     
@@ -753,8 +752,7 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
     
 - [Outlook 2010 中有关关闭的更改](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
-- 
-  [受 Outlook 2010 限制的附件文件类型](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
+- [受 Outlook 2010 限制的附件文件类型](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
     
 - [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
     
