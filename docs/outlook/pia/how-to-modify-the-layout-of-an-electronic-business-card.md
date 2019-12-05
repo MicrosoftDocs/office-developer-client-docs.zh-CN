@@ -2,32 +2,32 @@
 title: 修改电子名片的布局
 TOCTitle: Modify the layout of an electronic business card
 ms:assetid: f387c4a7-59c5-4b6a-b33a-1bfa7d499bbf
-ms:mtpsurl: https://msdn.microsoft.com/library/Ff184653(v=office.15)
+ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-modify-the-layout-of-an-electronic-business-card?redirectedfrom=MSDN
 ms:contentKeyID: 55119838
-ms.date: 07/24/2014
+ms.date: 12/03/2019
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 7f85324b31ae865c69e2c40806d9654a0b443f4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a0592be61def24fc1d8cd50e82ebdfea1ed9d624
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320179"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819320"
 ---
 # <a name="modify-the-layout-of-an-electronic-business-card"></a>修改电子名片的布局
 
-此代码示例展示了如何使用 [ContactItem](https://msdn.microsoft.com/library/bb644956\(v=office.15\)) 接口的 [BusinessCardLayoutXml](https://msdn.microsoft.com/library/bb624276\(v=office.15\)) 属性，修改电子名片的布局。
+此代码示例展示了如何使用 [ContactItem](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.contactitem?redirectedfrom=MSDN&view=outlook-pia) 接口的 [BusinessCardLayoutXml](https://msdn.microsoft.com/library/bb624276\(v=office.15\)) 属性，修改电子名片的布局。
 
 ## <a name="example"></a>示例
 
 > [!NOTE] 
 > 下面的代码示例摘录自 [Microsoft Office Outlook 2007 应用程序编程](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493)。
 
-电子名片提供可捕获联系人具体信息的联系人视图。 **ContactItem** 接口提供与电子名片相关的特定成员。 这些成员包括 **BusinessCardLayoutXml**、[BusinessCardType](https://msdn.microsoft.com/library/bb612276\(v=office.15\))、[AddBusinessCardLogoPicture(String)](https://msdn.microsoft.com/library/bb646681\(v=office.15\))、[ForwardAsBusinessCard()](https://msdn.microsoft.com/library/bb646342\(v=office.15\))、[ResetBusinessCard()](https://msdn.microsoft.com/library/bb644057\(v=office.15\))、[SaveBusinessCardImage(String)](https://msdn.microsoft.com/library/bb623060\(v=office.15\)) 和 [ShowBusinessCardEditor()](https://msdn.microsoft.com/library/bb646685\(v=office.15\))。
+电子名片提供可捕获联系人具体信息的联系人视图。 **ContactItem** 接口提供与电子名片相关的特定成员。 这些成员包括 **BusinessCardLayoutXml**、[BusinessCardType](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.businesscardtype?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_BusinessCardType)、[AddBusinessCardLogoPicture(String)](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.addbusinesscardlogopicture?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_AddBusinessCardLogoPicture_System_String_)、[ForwardAsBusinessCard()](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.forwardasbusinesscard?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_ForwardAsBusinessCard)、[ResetBusinessCard()](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.resetbusinesscard?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_ResetBusinessCard)、[SaveBusinessCardImage(String)](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.savebusinesscardimage?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_SaveBusinessCardImage_System_String_) 和 [ShowBusinessCardEditor()](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.showbusinesscardeditor?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_ShowBusinessCardEditor)。
 
-在下面的代码示例中，BusinessCardLayoutExample 先获取指定 **ContactItem** 对象，以修改电子名片的布局。 在此代码示例中，**ContactItem** 是 [Subject](https://msdn.microsoft.com/library/bb624088\(v=office.15\)) 属性值等于“Melissa MacBeth”的联系人。 接下来，BusinessCardLayoutExample 创建 XML 文档类 [XmlDocument](https://msdn.microsoft.com/en-us/library/6kza7w4k)，然后使用 **ContactItem** 对象的 **BusinessCardLayoutXML** 值，以字符串形式获取这个类的布局属性。 然后，名片布局从左对齐更改为右对齐。
+在下面的代码示例中，BusinessCardLayoutExample 先获取指定 **ContactItem** 对象，以修改电子名片的布局。 在此代码示例中，**ContactItem** 是 [Subject](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.subject?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_Subject) 属性值等于“Melissa MacBeth”的联系人。 接下来，BusinessCardLayoutExample 创建 XML 文档类 [XmlDocument](https://msdn.microsoft.com/en-us/library/6kza7w4k)，然后使用 **ContactItem** 对象的 **BusinessCardLayoutXML** 值，以字符串形式获取这个类的布局属性。 然后，名片布局从左对齐更改为右对齐。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
