@@ -1,7 +1,7 @@
 ---
 title: Project Server 可编程性
-manager: soliver
-ms.date: 09/17/2015
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: Developer
 f1_keywords:
 - events
@@ -25,12 +25,12 @@ keywords:
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: 了解 Project Server 2013 中的主要可编程性功能。 本文包括有关移植为早期版本的 Project Server 构建的应用程序的信息。
 localization_priority: Priority
-ms.openlocfilehash: 6df7b149b1e87c74efd8d90db8ece625a39ec185
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: db5e09ebe7a820255ba3d61c719b838289005e12
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301528"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819306"
 ---
 # <a name="project-server-programmability"></a>Project Server 可编程性
 
@@ -67,7 +67,7 @@ Project Service Application 是一个逻辑服务提供程序，可以管理 Pro
 
 由于 Project Web App 是 SharePoint 应用程序，而项目网站是 SharePoint 网站，因此你可以使用 SharePoint 包（.wsp 文件）或 SharePoint 应用程序（.spapp 文件）添加自定义应用程序、Web 部件、事件处理程序、自定义字段和其他功能。 SharePoint 包或应用程序包可能包含多个 Project Server 实体，其中实体定义已在程序包的 elements.xml 文件中指定。
   
-对于 Project Online，你可以向 Project Web App 功能区添加按钮，但无法删除或重命名现有产品按钮，也无法创建新的功能区选项卡。 有关详细信息，请参阅[创建自定义操作以部署 SharePoint 应用程序](https://msdn.microsoft.com/library/office/apps/jj163954%28v=office.15%29.aspx)。
+对于 Project Online，你可以向 Project Web App 功能区添加按钮，但无法删除或重命名现有产品按钮，也无法创建新的功能区选项卡。 有关详细信息，请参阅[创建自定义操作以部署 SharePoint 应用程序](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins)。
   
 > [!CAUTION]
 > 在安装 SharePoint 包或应用程序包时，Project Server 实体的类型必须以 PSEntityProvision.xsd 架构所指定的顺序显示，否则包的架构验证将失败且安装不会完成。 
@@ -104,14 +104,14 @@ PSEntityProvision.xsd 架构文件位于 Project 2013 SDK 下载的 `Documentati
 > [!NOTE]
 > 如果 CSOM 包含你所需的功能，我们建议你升级应用程序以使用 CSOM。 CSOM 允许在本地和在线安装的 Project Server 2013 中使用应用程序。 
   
-如果你的应用程序主要用于从 Project Server 读取数据，则对于本地方案，可以使用 Project Server 数据库中的报告表和视图。 如果你打算将该应用程序与 Project Online 一起使用，则可以将 OData 协议用于 **ProjectData** 服务，该服务提供对报告数据的本地访问和在线访问。 有关详细信息，请参阅 [ProjectData - Project OData 服务引用](https://msdn.microsoft.com/library/office/jj163015.aspx)
+如果你的应用程序主要用于从 Project Server 读取数据，则对于本地方案，可以使用 Project Server 数据库中的报告表和视图。 如果你打算将该应用程序与 Project Online 一起使用，则可以将 OData 协议用于 **ProjectData** 服务，该服务提供对报告数据的本地访问和在线访问。 有关详细信息，请参阅 [ProjectData - Project OData 服务引用](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163015(v=office.15))
   
 ### <a name="using-the-psi"></a>使用 PSI
 <a name="pj15_Programmability_PSI"> </a>
 
 PSI 允许完全信任的客户端应用程序（包括Project Professional 2013、Project Web App 和 LOB 应用程序）访问 SharePoint 场中的 Project Server 数据。 PSI 与 .NET Framework 4 一起构建和使用，并且具有优势，例如包含内置安全性的已知开发环境、错误处理和垃圾收集。
   
-可通过 WCF 服务或 ASMX Web 服务来访问 PSI。 ASMX 接口基于 WCF。 每个 PSI 服务通常都包含一个基类，它为该类中的项目使用 CRUD 方法。 这些项目由相关的 **DataSet** 类指定。 例如，**CustomFields** 服务包含 **CustomFields** 类，其中包含 [CreateCustomFields2](https://msdn.microsoft.com/library/WebSvcCustomFields.CustomFields.CreateCustomFields2.aspx) 等方法。 一个或多个企业自定义字段的数据在 **CustomFieldDataSet** 中指定。
+可通过 WCF 服务或 ASMX Web 服务来访问 PSI。 ASMX 接口基于 WCF。 每个 PSI 服务通常都包含一个基类，它为该类中的项目使用 CRUD 方法。 这些项目由相关的 **DataSet** 类指定。 例如，**CustomFields** 服务包含 **CustomFields** 类，其中包含 [CreateCustomFields2](https://docs.microsoft.com/previous-versions/office/ee767959(v=office.14)) 等方法。 一个或多个企业自定义字段的数据在 **CustomFieldDataSet** 中指定。
   
 > [!NOTE]
 > 在 Project Server 2013 中，已弃用 PSI 的 ASMX Web 服务接口。 尽管 ASMX 接口仍然可用，但使用 PSI 的新应用程序应该使用 WCF 接口，或者如果可能，新应用程序应该使用 CSOM 而不是 PSI。 未来的 Project Server 版本将要求升级基于 ASMX 的现有应用程序，以便使用 PSI 的 WCF 接口或使用 CSOM。 
@@ -133,7 +133,7 @@ Project Server 2013 使用 .NET Framework 的异常处理。 所有错误都记�
   
 - 对于 .NET Framework 4 开发，请复制 `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.ProjectServer.Client.dll` 程序集。 
     
-  有关 CSOM 类和成员的文档，请参阅 [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) 命名空间。 有关示例应用程序，请参阅 [CSOM 和 .NET 入门](getting-started-with-the-project-server-csom-and-net.md)。
+  有关 CSOM 类和成员的文档，请参阅 [Microsoft.ProjectServer.Client](https://docs.microsoft.com/previous-versions/office/dn529530(v=office.15)) 命名空间。 有关示例应用程序，请参阅 [CSOM 和 .NET 入门](getting-started-with-the-project-server-csom-and-net.md)。
     
 - 对于 Microsoft Silverlight 开发，请复制 `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\ClientBin\Microsoft.ProjectServer.Client.Silverlight.dll` 程序集。 
     
@@ -153,7 +153,7 @@ CSOM 在内部调用 PSI；因此，如果 PSI 无法工作，则 CSOM 也不能
 > [!NOTE]
 > 由于必须为 Project Server 2013 完全重新设计 PDS 应用程序，因此我们建议你使用 CSOM。 
   
-有关 PDS 兼容性的详细信息以及将 PDS 扩展移植到 PSI 的指南，请参阅 [PSI Web 服务中的 PDS 奇偶校验](https://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx)。
+有关 PDS 兼容性的详细信息以及将 PDS 扩展移植到 PSI 的指南，请参阅 [PSI Web 服务中的 PDS 奇偶校验](https://docs.microsoft.com/previous-versions/office/developer/office-2007/ms197081(v=office.12))。
   
 ### <a name="porting-applications-built-for-project-server-2007-and-project-server-2010"></a>移植为 Project Server 2007 和 Project Server 2010 构建的应用程序
 <a name="pj15_Programmability_Porting2007"> </a>
@@ -166,18 +166,18 @@ Project Server 2013 中的 PSI 是 Office Project Server 2007 和 Project Server
     
 - 对 Office 商店或私有应用程序目录中的可用应用程序使用 CSOM。
     
-- 对于修改项目计划的应用程序，请使用 CSOM，或将应用程序更改为使用 [QueueUpdateProject2](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject2.aspx) PSI 方法。 
+- 对于修改项目计划的应用程序，请使用 CSOM，或将应用程序更改为使用 [QueueUpdateProject2](https://docs.microsoft.com/previous-versions/office/project-class/jj236245(v=office.15)) PSI 方法。 
     
-- 将用户登录到 Project Web App 的不同实例的本地或 Web 应用程序应使用 CSOM 或 PSI 的 WCF 终结点编程设置。 这些方法已弃用。 应用程序应使用 OAuth 身份验证代替窗体身份验证，并与 Project Online 一起使用。 有关详细信息，请参阅 [SharePoint 2013 中应用程序的授权和身份验证](https://msdn.microsoft.com/library/fp142384%28office.15%29.aspx#FileName_uniquekeyword1)。
+- 将用户登录到 Project Web App 的不同实例的本地或 Web 应用程序应使用 CSOM 或 PSI 的 WCF 终结点编程设置。 这些方法已弃用。 应用程序应使用 OAuth 身份验证代替窗体身份验证，并与 Project Online 一起使用。 有关详细信息，请参阅 [SharePoint 2013 中应用程序的授权和身份验证](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins)。
     
 - 依赖于或修改特定 Project Server 安全设置的应用程序。
     
   > [!NOTE]
-  > Project Server 2013 的默认本地安装使用 SharePoint 权限模式，其中无法通过 PSI 访问 Project Server 安全设置。 若要更改 Project 权限模式，请参阅 [Project Server 2013 中面向 IT 专业人员的新增功能](https://technet.microsoft.com/zh-CN/library/ff631142%28office.15%29.aspx#section13)中的 *SharePoint 权限模式*部分。 
+  > Project Server 2013 的默认本地安装使用 SharePoint 权限模式，其中无法通过 PSI 访问 Project Server 安全设置。 若要更改 Project 权限模式，请参阅 [Project Server 2013 中面向 IT 专业人员的新增功能](https://docs.microsoft.com/project/what-s-new-for-it-pros-in-project-server-2016)中的 *SharePoint 权限模式*部分。 
   
-- 对于许多自定义 Project Server 工作流，你可以使用 SharePoint Designer 2013 创建声明性工作流。 对于需要额外编程的自定义工作流，你*不应该*直接使用 **Microsoft.Office.Project.Server.Workflow** 命名空间中的类或成员。 请改用 CSOM 中的 [Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx) 类。 
+- 对于许多自定义 Project Server 工作流，你可以使用 SharePoint Designer 2013 创建声明性工作流。 对于需要额外编程的自定义工作流，你*不应该*直接使用 **Microsoft.Office.Project.Server.Workflow** 命名空间中的类或成员。 请改用 CSOM 中的 [Microsoft.ProjectServer.Client.WorkflowActivities](https://docs.microsoft.com/previous-versions/office/mt780562(v=office.15)) 类。 
     
-- 通常，应该将使用模拟的应用程序重写为使用 PSI 的 WCF 接口。 为其他用户执行简单状态更新的应用程序不需要模拟。 它们可以使用 CSOM 中的 [StatusAssignment.SubmitStatusUpdates](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.StatusAssignment.SubmitStatusUpdates.aspx) 方法或 PSI 中的 [Statusing.SubmitStatusForResource](https://msdn.microsoft.com/library/WebSvcStatusing.Statusing.SubmitStatusForResource.aspx) 方法。 
+- 通常，应该将使用模拟的应用程序重写为使用 PSI 的 WCF 接口。 为其他用户执行简单状态更新的应用程序不需要模拟。 它们可以使用 CSOM 中的 [StatusAssignment.SubmitStatusUpdates](https://docs.microsoft.com/previous-versions/office/project-class/jj235883(v=office.15)) 方法或 PSI 中的 [Statusing.SubmitStatusForResource](https://docs.microsoft.com/previous-versions/office/ee755393(v=office.14)) 方法。 
     
 - 在 Project Server 计算机上运行的中间件组件只能在本地安装使用，并且必须使用 PSI 的 WCF 接口。 例如，使用 ASMX 接口在本地 Project Web App 和外部时间表应用程序之间交换数据的中间件组件必须重写为使用 PSI 的 WCF 接口。 若要使用 Project Online，必须将组件重新设计为应用程序并使用 CSOM。
     
@@ -206,14 +206,14 @@ PSI 的公共 ASMX 和 WCF 接口中的类和成员是相同的。 但是，在 
   
 - 如果你从使用 PSI 的 ASMX 接口更改为使用 WCF 接口，则可以编程方式或通过使用 app.config 中的 WFC 终结点初始化客户端类。在必须快速切换到 Project Web App 的其他实例时，或在开发使用 PSI 的 Web 部件时使用编程初始化。
     
-- Project Server 2013 的 PSI 服务中有几个新方法和数据集，并且某些 **DataRow** 类包含新属性。 例如，PSI 中的 [QueueUpdateProject2](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject2.aspx) 方法使用 Project Server 计划引擎来重新计划更新的项目，而无需在 Project Professional 2013 中打开该项目，它还允许在同一次调用中添加或删除项目实体。 
+- Project Server 2013 的 PSI 服务中有几个新方法和数据集，并且某些 **DataRow** 类包含新属性。 例如，PSI 中的 [QueueUpdateProject2](https://docs.microsoft.com/previous-versions/office/project-class/jj236245(v=office.15)) 方法使用 Project Server 计划引擎来重新计划更新的项目，而无需在 Project Professional 2013 中打开该项目，它还允许在同一次调用中添加或删除项目实体。 
     
 - 编译和测试解决方案。
     
 ## <a name="project-scheduling-on-the-server"></a>服务器上的项目计划
 <a name="pj15_Programmability_Scheduling"> </a>
 
-Project Server 2013 具有两个计划引擎。 新版计划引擎与 Project Professional 2013 中的计划引擎相同。 通过使用 Project Web App 或项目网站中的计划 Web 部件（“项目详细信息”页面）或使用 CSOM 来更改计划和发布更改时，日期、成本、工期、剩余工时、基线以及与计划相关的其他更改的计算方式与使用 Project Professional 2013 更改和发布项目时采用的方式相同。 但是，除了 [QueueUpdateProject2](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject2.aspx) 方法之外，PSI 方法可使用从 Project Server 2010 迁移的旧版计划引擎。 原因是确保旧版应用程序在 Project Server 2013 中的行为与以前相同。 
+Project Server 2013 具有两个计划引擎。 新版计划引擎与 Project Professional 2013 中的计划引擎相同。 通过使用 Project Web App 或项目网站中的计划 Web 部件（“项目详细信息”页面）或使用 CSOM 来更改计划和发布更改时，日期、成本、工期、剩余工时、基线以及与计划相关的其他更改的计算方式与使用 Project Professional 2013 更改和发布项目时采用的方式相同。 但是，除了 [QueueUpdateProject2](https://docs.microsoft.com/previous-versions/office/project-class/jj236245(v=office.15)) 方法之外，PSI 方法可使用从 Project Server 2010 迁移的旧版计划引擎。 原因是确保旧版应用程序在 Project Server 2013 中的行为与以前相同。 
   
 > [!NOTE]
 > 若要在 Project Server 2013 中使用更新的计划引擎，应用程序可使用 CSOM。 
@@ -233,7 +233,7 @@ Project Server 2013 具有两个计划引擎。 新版计划引擎与 Project Pr
   
 以下是使用旧版 Project Server 计划引擎进行 PSI 编程的问题和限制：
   
-- **更改任务的活动状态** 当你使用 [QueueUpdateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject.aspx) 方法更改任务的活动状态时，如果 **ProjectDataSet** 对象的 _dataset_ 参数存在多项更改，则旧版 Project Server 计划引擎可能会显示不一致的开始或结束时间。 如果在 **QueueUpdateProject** 的 _dataset_ 参数中，**TASK_IS_ACTIVE** 属性是唯一发生更改的属性，则你可以更新项目。
+- **更改任务的活动状态** 当你使用 [QueueUpdateProject](https://docs.microsoft.com/en-us/previous-versions/office/ms471014(v=office.14)) 方法更改任务的活动状态时，如果 **ProjectDataSet** 对象的 _dataset_ 参数存在多项更改，则旧版 Project Server 计划引擎可能会显示不一致的开始或结束时间。 如果在 **QueueUpdateProject** 的 _dataset_ 参数中，**TASK_IS_ACTIVE** 属性是唯一发生更改的属性，则你可以更新项目。
     
     有关非活动任务和旧版计划引擎的详细信息，请参阅博客文章 [Project 2010 中的非活动任务简介](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)和 [Project Server 2010：在 Web、PSI 和 Project Professional 上创建计划](https://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0)。 有关 Project Professional 2010 中的计划与 Project Server 2010 中的 Project Web App 的比较，请参阅[基于 Web 的计划管理比较](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)。
     
@@ -275,7 +275,7 @@ Project Server 2013 具有两个计划引擎。 新版计划引擎与 Project Pr
   
 出于上述所有原因，Project Professional 和 Project Web App 不会直接调用草稿、已发布或存档表；与 Project Server 集成的任何其他应用程序也不应这样做。
   
-草稿、已发布和存档表的架构未编档。 可以使用报告表来帮助生成报表，报告表和视图的架构将编档在 Project 2013 SDK 下载中。 有关报告数据的 OData 架构，请参阅 [ProjectData - Project OData 服务引用](https://msdn.microsoft.com/library/office/jj163015.aspx)。
+草稿、已发布和存档表的架构未编档。 可以使用报告表来帮助生成报表，报告表和视图的架构将编档在 Project 2013 SDK 下载中。 有关报告数据的 OData 架构，请参阅 [ProjectData - Project OData 服务引用](https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15))。
   
 ## <a name="see-also"></a>另请参阅
 
@@ -287,7 +287,7 @@ Project Server 2013 具有两个计划引擎。 新版计划引擎与 Project Pr
 - [开始开发 Project Server 工作流](getting-started-developing-project-server-workflows.md)    
 - [Project 2013 编程参考](project-2013-programming-references.md)    
 - [Project PSI 参考概述](project-psi-reference-overview.md)    
-- [创建自定义操作以部署 SharePoint 应用程序](https://msdn.microsoft.com/library/office/apps/jj163954%28v=office.15%29.aspx)    
+- [创建自定义操作以部署 SharePoint 应用程序](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins)    
 - [Project 2010 中的非活动任务简介](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)    
 - [Project Server 2010：在 Web、PSI 和 Project Professional 上创建计划](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)
 

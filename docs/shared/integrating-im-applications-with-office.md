@@ -1,31 +1,29 @@
 ---
 title: 将 IM 应用程序与 Office 集成
-manager: soliver
-ms.date: 07/25/2016
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
-description: 本文介绍如何配置即时消息 (IM) 客户端应用程序，以便它与 Office 2013 中的社交功能集成，包括显示状态并从联系人卡片发送即时消息。
+description: 本文介绍如何配置即时消息 (IM) 客户端应用程序，以便它与 Office 2013 及更高版本中的社交功能集成，例如显示状态以及从联系人卡片发送即时消息等功能。
 localization_priority: Priority
-ms.openlocfilehash: b3add86f011e016b1b6ea1a74f425f3f1deab002
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c0094b880bae5cac2cef4236d3ff3edcefd21678
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270112"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819292"
 ---
 # <a name="integrating-im-applications-with-office"></a>将 IM 应用程序与 Office 集成
 
-本文介绍如何配置即时消息 (IM) 客户端应用程序，以便它与 Office 2013 中的社交功能集成，包括显示状态并从联系人卡片发送即时消息。
-  
-如果你对本技术文章或其描述的流程有任何疑问或意见，则可以通过发送电子邮件至 [docthis@microsoft.com](mailto:docthis@microsoft.com) 来直接与 Microsoft 联系。
+本文介绍如何配置即时消息 (IM) 客户端应用程序，以便它与 Office 2013、Office 2016、Office 2019 和 Office 365 中的社交功能集成，例如显示状态以及从联系人卡片发送即时消息等功能。
   
 ## <a name="introduction"></a>简介
 <a name="off15_IMIntegration_Intro"> </a>
 
-Office 2013 提供与 IM 客户端应用程序（包括 Lync 2013）的丰富集成功能。 此集成在 Word 2013、Excel 2013、PowerPoint 2013、Outlook 2013、Visio 2013、Project 2013 和 OneNote 2013 中为用户提供了 IM 功能，并且在 SharePoint 2013 页面上提供了状态集成。 用户可以查看其联系人列表中的联系人照片、姓名、当前状态和数据。 他们可以直接从联系人卡片（Office 2013 中显示联系信息和通信选项的 UI 元素）开始 IM 会话、视频呼叫或电话呼叫。 Office 2013 可让你轻松与联系人保持联系，而无需离开你的电子邮件或文档。 
+Office 2013（及更高版本）提供与 IM 客户端应用程序（包括 Lync 2013 和 Teams）的丰富集成功能。 此集成在 Word 2013、Excel、PowerPoint 2013、Outlook、Visio、Project 和 OneNote 中为用户提供了 IM 功能，并且在 SharePoint 页面上提供了状态集成。 用户可查看其联系人列表中的联系人照片、姓名、当前状态和数据。 他们可直接从联系人卡片（Office 中显示联系信息和通信选项的 UI 元素）发起 IM 会话、视频通话或电话呼叫。 借助 Office，无需退出电子邮件或文档即可轻松与联系人保持联系。 
   
 > [!NOTE]
-> 本文使用术语 IM 客户端应用程序专门指代安装在与 IM 服务通信的用户计算机上的应用程序。 例如，可将 Lync 2013 视为 IM 客户端应用程序。 本文未提供有关 IM 客户端应用程序如何与 IM 服务进行通信或 IM 服务本身的详细信息。 
+> 本文使用术语 IM 客户端应用程序专门指代安装在与 IM 服务通信的用户计算机上的应用程序。 例如，可将 Lync 2013 和 Teams 视为 IM 客户端应用程序。 本文未提供有关 IM 客户端应用程序如何与 IM 服务进行通信或 IM 服务本身的详细信息。 
   
 你可以自定义 IM 客户端应用程序，以便它与 Office 通信。 具体来说，你可以修改 IM 应用程序，以便在 Office UI 中显示以下信息：
   
@@ -55,12 +53,12 @@ Office 2013 提供与 IM 客户端应用程序（包括 Lync 2013）的丰富集
     
 **图 1. Office 2013 中的联系人卡片**
 
-![Office 2013 中的联系人卡片](media/ocom15_peoplecard.png "Office 2013 中的联系人卡片")
+![Office 2013 中的人员卡片](media/ocom15_peoplecard.png "Office 2013 中的人员卡片")
   
-为了实现与 Office 的集成，IM 客户端应用程序必须实现由 Office 提供的一组接口才能连接到它。 用于此集成的 API 包含在 Microsoft.Office.UC.dll 文件内的 [ UCCollborationLib ](https://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) 命名空间中，该文件与包含 Lync/Skype for Business 的 Office 2013 版本安装在一起。 ** UCCollaborationLib ** 命名空间包含为与 Office 集成而必须实现的接口。 
+为了实现与 Office 的集成，IM 客户端应用程序必须实现由 Office 提供的一组接口才能连接到它。 用于此集成的 API 包含在 Microsoft.Office.UC.dll 文件内的 [ UCCollborationLib ](https://docs.microsoft.com/previous-versions/office/communications/ff398475(v=ocs.14)) 命名空间中，该文件与包含 Lync/Skype for Business 的 Office 2013 版本安装在一起。 ** UCCollaborationLib ** 命名空间包含为与 Office 集成而必须实现的接口。 
   
 > [!IMPORTANT] 
-> 所需接口的类型库嵌入在 Lync 2013/Skype for Business 中。 对于第三方集成商，仅当目标计算机上安装了 Lync 2013 和 Skype for Business 时，此方法才有效。 如果要使用 Office Standard 进行集成，则需要提取类型库并将其安装在目标计算机上。 [Lync 2013 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=36824) 包含 Microsoft.Office.UC.dll 文件。 
+> 所需接口的类型库嵌入在 Lync 2013/Skype for Business 中。 对于第三方集成商，仅当目标计算机上安装了 Lync 2013 和 Skype for Business 时，此方法才有效。 如果要使用 Office Standard 进行集成，则需要提取类型库并将其安装在目标计算机上。 [Lync 2013 SDK](https://www.microsoft.com/download/details.aspx?id=36824) 包含 Microsoft.Office.UC.dll 文件。 
   
 > [!NOTE]
 >  少数 Office 2010 应用程序可以与第三方 IM 提供商的应用程序进行类似的集成：Outlook 2010、Word 2010、Excel 2010、PowerPoint 2010 和 SharePoint Server 2010（使用 ActiveX 控件）。 与 Office 2013 集成所需的许多步骤也适用于 Office 2010。 Office 2010 与 IM 提供商的应用程序集成的方式有几个主要差异： 
@@ -72,7 +70,7 @@ Office 2013 提供与 IM 客户端应用程序（包括 Lync 2013）的丰富集
 ## <a name="how-office-integrates-with-an-im-client-application"></a>Office 如何与 IM 客户端应用程序集成
 <a name="off15_IMIntegration_How"> </a>
 
-当 Office 2013 应用程序启动时，它将完成以下流程以与默认 IM 客户端应用程序集成：
+当 Office 2013（或更高版本）应用程序启动时，它将完成以下流程，与默认 IM 客户端应用程序进行集成：
   
 1. 检查注册表以发现默认的 IM 客户端应用程序，然后连接到它。
     
@@ -84,7 +82,7 @@ Office 2013 提供与 IM 客户端应用程序（包括 Lync 2013）的丰富集
     
 5. 获取本地用户联系人的状态信息。
     
-6. 当 IM 客户端应用程序关闭时，Office 2013 应用程序将自动断开连接。
+6. 当 IM 客户端应用程序关闭时，Office 应用程序将自动断开连接。
     
 ### <a name="discovering-the-im-application"></a>发现 IM 应用程序
 
@@ -175,12 +173,12 @@ Office 应用程序将通过执行以下操作获取联系人状态（包括本�
 ### <a name="disconnecting-from-the-im-application"></a>断开与 IM 应用程序的连接
 <a name="off15_IMIntegration_HowConnect"> </a>
 
-当 Office 2013 应用程序检测到来自 IM 应用程序的 **OnShuttingDown** 事件时，它将自动断开连接。 但是，如果 Office 应用程序在 IM 应用程序之前关闭，则 Office 应用程序无法保证已清除连接。 IM 应用程序必须处理客户端连接泄漏。 
+当 Office 应用程序检测到来自 IM 应用程序的 **OnShuttingDown** 事件时，它将自动断开连接。 但是，如果 Office 应用程序在 IM 应用程序之前关闭，则 Office 应用程序无法保证已清除连接。 IM 应用程序必须处理客户端连接泄漏。 
   
 ## <a name="setting-registry-keys-and-entries"></a>设置注册表项
 <a name="off15_IMIntegration_SetRegistry"> </a>
 
-如前文所述，支持 IM 的 Office 2013 应用程序会在注册表中查找特定的注册表项、条目和值，以便发现要连接的 IM 客户端应用程序。 这些注册表值为 Office 应用程序提供了类的进程名称和 CLSID，该类充当 IM 客户端应用程序的对象模型（即实现 **IUCOfficeIntegration** 接口的类）的入口点。 Office 应用程序将协同创建该类，并作为客户端连接到 IM 客户端应用程序中的进程外 COM 服务器。 
+如前文所述，支持 IM 的 Office 应用程序会在注册表中查找特定的注册表项、条目和值，以便发现要连接的 IM 客户端应用程序。 这些注册表值为 Office 应用程序提供了类的进程名称和 CLSID，该类充当 IM 客户端应用程序的对象模型（即实现 **IUCOfficeIntegration** 接口的类）的入口点。 Office 应用程序将协同创建该类，并作为客户端连接到 IM 客户端应用程序中的进程外 COM 服务器。 
   
 使用表 1 标识必须在注册表中写入的注册表项、条目和值，以将 IM 客户端应用程序与 Office 集成。
   
@@ -304,10 +302,10 @@ public object GetInterface(string _version, OIInterface _interface)
 
 ```
 
-**GetSupportedFeatures** 方法返回有关 IM 客户端应用程序支持的 IM 功能的信息。 它为其唯一参数 _version_ 使用字符串。 当 Office 应用程序调用 **GetSupportFeatures** 方法时，该方法将返回 [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature) 枚举中的值。 返回的值用于指定 IM 客户端的功能，系统通过向此值添加标记，为 IM 应用程序指明 IM 客户端应用程序的每项功能。 
+**GetSupportedFeatures** 方法返回有关 IM 客户端应用程序支持的 IM 功能的信息。 它为其唯一参数 _version_ 使用字符串。 当 Office 应用程序调用 **GetSupportedFeatures** 方法时，该方法将返回 [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature) 枚举中的值。 返回的值用于指定 IM 客户端的功能，系统通过向此值添加标记，为 IM 应用程序指明 IM 客户端应用程序的每项功能。 
   
 > [!NOTE]
->  Office 2013 应用程序将忽略 **OIFeature** 枚举中的以下常量： 
+>  Office 2013（或更高版本）应用程序将忽略 **OIFeature** 枚举中的以下常量： 
 > - **oiFeaturePictures** (2) 
 > - **oiFeatureFreeBusyIntegration**
 > - **oiFeaturePhoneNormalization**
@@ -862,7 +860,7 @@ public class IMClientSelf : ISelf
 }
 ```
 
-### <a name="icontactmanager-and-icontactmanagerevents-interfaces"></a>IContactManager 和 _IContactManagerEvents 接口
+### <a name="icontactmanager-and-_icontactmanagerevents-interfaces"></a>IContactManager 和 _IContactManagerEvents 接口
 <a name="off15_IMIntegration_ImplementRequired_IContactManager"> </a>
 
 **IContactManager** 对象用于管理本地用户的联系人，包括本地用户自己的联系信息。 Office 应用程序使用 **IContactManager** 对象来访问与本地用户的联系人对应的 **IContact** 对象。 

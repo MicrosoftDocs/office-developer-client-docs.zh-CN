@@ -1,17 +1,17 @@
 ---
 title: 选择某个 API 或技术开发适用于 Outlook 的解决方案
-manager: soliver
-ms.date: 05/21/2019
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: 本文介绍 API 和相关技术，用户可以将它们用于扩展 Outlook 2013 和 Outlook 2016，并帮助决定适用于用户方案的 API 或技术。
 localization_priority: Priority
-ms.openlocfilehash: ac7ad2f183ed71ae893745429c6d27793a983be3
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 60e02d25b53e494f2552622321a3f68921e84000
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538394"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819313"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>选择某个 API 或技术开发适用于 Outlook 的解决方案
 
@@ -67,7 +67,7 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 
 从 Office 2013 开始，开发人员可以使用 Office 外接程序平台将 Web 服务和内容扩展到 Office 富客户端和 Web 客户端的上下文环境中。Office 外接程序是一个使用常见 Web 技术开发的网页，它托管在 Office 客户端应用程序（如 Outlook）中，并可在本地或在云中运行。在几种 Office 外接程序类型当中，Outlook 支持的类型被称为邮件应用程序。虽然对象模型、PIA 和 MAPI 通常用于在应用程序级别自动化 Outlook，然而您可以使用适用于 Office 的 JavaScript API 在项目级别与电子邮件的内容和属性、会议请求或约会进行交互。您可以将邮件应用程序发布到 Office 商店或内部 Exchange 目录。 
   
-最终用户和管理员可以在 Exchange 邮箱上安装邮件应用程序，并在 Outlook 富客户端和 Outlook Web App 中使用邮件应用程序。作为开发人员，您可以选择仅限在桌面上使用的邮件应用程序，也可选择在平板电脑或智能手机上使用。图 1 显示了在[示例：创建邮件应用程序以查看 Outlook 中的 YouTube 视频](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-01c9248f)中详细介绍的 YouTube 邮件应用程序的示例。YouTube 邮件应用程序允许最终用户选择 YouTube 视频的 URL 并在台式机或平板电脑上观看 Outlook 或 Outlook Web App 中的视频。
+最终用户和管理员可以在 Exchange 邮箱上安装邮件应用程序，并在 Outlook 富客户端和 Outlook Web App 中使用邮件应用程序。作为开发人员，您可以选择仅限在桌面上使用的邮件应用程序，也可选择在平板电脑或智能手机上使用。图 1 显示了在[示例：创建邮件应用程序以查看 Outlook 中的 YouTube 视频](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)中详细介绍的 YouTube 邮件应用程序的示例。YouTube 邮件应用程序允许最终用户选择 YouTube 视频的 URL 并在台式机或平板电脑上观看 Outlook 或 Outlook Web App 中的视频。
   
 **图 1. 选定的邮件的 YouTube 邮件应用程序处于活动状态，其中包含指向 YouTube.com 上视频的 URL**
 
@@ -149,7 +149,7 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 
 |**条件**|**Outlook 对象模型或 PIA**|
 |:-----|:-----|
-|语言和工具  <br/> |You can implement Outlook object model applications by using any COM or automation-compatible language, such as Visual Basic or C#, as well as non-COM languages, such as native C or C++. Microsoft Office development tools in Microsoft Visual Studio 2010 are the preferred tools for development of managed add-ins for Outlook 2010 and Outlook 2007. Microsoft Visual Studio 2005 Tools for the Microsoft Office System are the preferred tools for Outlook 2003. You can also use Office development tools in Visual Studio 2010 to create solutions for 32-bit and 64-bit versions of Outlook. When you build a solution in Office development tools in Visual Studio 2010 or Microsoft Visual Studio Tools for the Microsoft Office System, specifying the **Any CPU** option for the target platform results in managed solutions that work for both 32-bit and 64-bit versions of Outlook 2010.  <br/> |
+|语言和工具  <br/> |可使用任意 COM 或自动化兼容语言（例如 Visual Basic 或 C#）及非 COM 语言（例如本机 C 或 C++）实现 Outlook 对象模型应用程序。Microsoft Visual Studio 2010 中的 Microsoft Office 开发工具是用于针对 Outlook 2010 和 Outlook 2007 开发托管加载项的首选工具。适用于 Microsoft Office 系统的 Microsoft Visual Studio 2005 工具是 Outlook 2003 的首选工具。你还可使用 Visual Studio 2010 中的 Office 开发工具创建适合 32 位和 64 位版本 Outlook 的解决方案。使用 Visual Studio 2010 中的 Office 开发工具或适用于 Microsoft Office 系统的 Microsoft Visual Studio 工具构建解决方案时，请对同时适合 32 位和 64 位版本 Outlook 2010 的托管解决方案中的目标执行结果指定“**任意 CPU**”选项。<br/> |
 |托管实现  <br/> |Outlook PIA 使 Outlook 对象模型可用在托管代码环境中，它将受到一组类库和支持技术的支持，从而可处理对 VBA 和 COM 外接程序的多个限制。PIA 是充当托管环境和 COM 环境之间桥梁的 COM 包装。有关详细信息，请参阅[为什么要使用 Outlook PIA](https://msdn.microsoft.com/library/5cc9085e-7c97-4698-8cb9-e33e427c02e7%28Office.15%29.aspx)。  <br/> |
 |可脚本化  <br/> |可以在脚本中使用 Outlook 对象模型。  <br/> |
 |测试和调试工具  <br/> |使用 Outlook 对象模型或 PIA 不需要任何特殊的调试工具。另一方面，您可以使用 Visual Studio 提供方便进行应用程序测试和调试的集成开发环境。  <br/> |
@@ -426,7 +426,7 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
   
 Outlook 支持自动化，通过使用运行在与 Outlook 进程相同的前台进程中的外接程序以及通过使用运行在 Outlook 进程之外的独立进程中的独立解决方案来实现。通常，若要使 Outlook 自动运行，可以通过对象模型、PIA 或 MAPI 来使用外接程序与 Outlook 进行交互，在少数情况下，可通过辅助 API（如 [HrProcessConvActionForSentItem](auxiliary/hrprocessconvactionforsentitem.md)）进行。仅在必要时（例如，当您正在编写 MAPI 客户端应用程序 - 该应用程序使用 Tzmovelib.dll 文件重定客户的 Outlook 日历基本值；或当枚举文件夹中的多个项目并修改后台线程中用于优化性能的项目属性时）才使用进程外的解决方案。 
   
-外接程序是自动化 Outlook 的首选解决方案，因为在外接程序的 [OnConnection(Object, ext_ConnectMode, Object, Array)](https://msdn.microsoft.com/library/797003e7-ecd1-eccb-eaaf-32d6ddde8348%28Office.15%29.aspx) 事件持续进行期间，Outlook 仅信任传递给外接程序的 [Application](https://msdn.microsoft.com/library/Extensibility.IDTExtensibility2.OnConnection.aspx) 对象。您可以通过从此 **Application** 对象派生出所有对象、属性和方法来避免显示对象模型保护的安全警告。如果外接程序创建了 **Application** 对象的新实例，Outlook 将不信任该对象，即使该外接程序位于受信任的外接程序列表中。从此 **Application** 对象派生的任何对象、属性和方法都不会受到信任，被阻止的属性和方法将调用安全警告。有关 Outlook 对象模型保护的详细信息，请参阅 [Outlook 对象模型的安全行为（英文）](https://msdn.microsoft.com/library/4aa3b7c7-5f3f-41ce-bbf3-75d8ecbd6d4f%28Office.15%29.aspx)。
+外接程序是自动化 Outlook 的首选解决方案，因为在外接程序的 [OnConnection(Object, ext_ConnectMode, Object, Array)](https://msdn.microsoft.com/library/797003e7-ecd1-eccb-eaaf-32d6ddde8348%28Office.15%29.aspx) 事件持续进行期间，Outlook 仅信任传递给外接程序的 [Application](https://msdn.microsoft.com/library/Extensibility.IDTExtensibility2.OnConnection.aspx) 对象。您可以通过从此 **Application** 对象派生出所有对象、属性和方法来避免显示对象模型保护的安全警告。如果外接程序创建了 **Application** 对象的新实例，Outlook 将不信任该对象，即使该外接程序位于受信任的外接程序列表中。从此 **Application** 对象派生的任何对象、属性和方法都不会受到信任，被阻止的属性和方法将调用安全警告。有关 Outlook 对象模型保护的详细信息，请参阅 [Outlook 对象模型的安全行为](https://msdn.microsoft.com/library/4aa3b7c7-5f3f-41ce-bbf3-75d8ecbd6d4f%28Office.15%29.aspx)。
 
 <a name="OLSelectAPI_ManOrUnman"> </a>
 
@@ -435,8 +435,10 @@ Outlook 支持自动化，通过使用运行在与 Outlook 进程相同的前台
 Outlook 支持使用托管或非托管语言编写的外接程序和独立应用程序的自动化操作。使用频率较高的托管语言是 C# 和 Visual Basic。C++ 和 Delphi 工具在非托管开发中较为常见。当在托管和非托管开发之间进行选择时，可用的专业技能是一个要考虑的因素。 
   
 如果您的解决方案仅使用对象模型，则可以考虑使用 PIA 或使用 Visual Studio 中的 Office 开发工具来开发托管的解决方案。Visual Studio 中的 Office 开发工具提供了项目模板和可视化设计器，从而简化了创建自定义用户界面和开发 Office 解决方案的方法。
+
+此外，由于 MAPI 的开发比 .NET Framework 早了好几年，并且 Microsoft 不为 MAPI 提供托管的包装，因此 Microsoft 不支持在托管代码中使用 MAPI。如果您使用的是 MAPI，则必须开发非托管的解决方案。有关详细信息，请参阅[客户端邮件开发的支持准则](https://support.office.com/article/Best-practices-for-Outlook-f90e5f69-8832-4d89-95b3-bfdf76c82ef8)。
   
-此外，由于 MAPI 的开发比 .NET Framework 早了好几年，并且 Microsoft 不为 MAPI 提供托管的包装，因此 Microsoft 不支持在托管代码中使用 MAPI。如果您使用的是 MAPI，则必须开发非托管的解决方案。有关详细信息，请参阅[客户端邮件开发的支持准则](https://support.microsoft.com/kb/266353/en-us)。
+## <a name="niche-apis-and-technologies"></a>间隙 API 和技术
 
 <a name="OLSelectAPI_NicheAPI"> </a>
 
@@ -492,11 +494,11 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 
 <a name="OLSelectAPI_AdditionalResourcesApps"> </a>
 
-## <a name="see-also-office-add-ins"></a>另请参阅：Office 加载项
-
-[Office 加载项平台概述](https://msdn.microsoft.com/library/e64de870-ce22-4331-92e7-76d35279bf91%28Office.15%29.aspx)提供了对 Office 外接程序的详细介绍，包括体系结构和开发生命周期。 
+[Office 加载项平台概述](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins?redirectedfrom=MSDN)提供了对 Office 外接程序的详细介绍，包括体系结构和开发生命周期。 
   
-有关开发邮件应用的详细资源路线图，请参阅 [ Outlook 加载项](https://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx)。 
+有关开发邮件应用的详细资源路线图，请参阅 [ Outlook 加载项](https://docs.microsoft.com/outlook/add-ins/?redirectedfrom=MSDN)。 
+  
+## <a name="see-also-object-model-and-pia"></a>另请参阅：对象模型和 PIA
 
 <a name="OLSelectAPI_AdditionalResourcesObjModelPIA"> </a>
 
@@ -506,9 +508,8 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 
 <a name="OLSelectAPI_PrimaryAccount"> </a>
 
-### <a name="accountsprimary-exchange-account-in-profile"></a>帐户 - 配置文件中的主 Exchange 帐户
+- [Account](https://docs.microsoft.com/office/vba/api/Outlook.Account) 对象 
 
-- [Account](https://msdn.microsoft.com/library/f624438c-4e45-2822-18b6-bfe8074a33c0%28Office.15%29.aspx) 对象 
     
 - [NameSpace.Accounts](https://msdn.microsoft.com/library/80e969ea-d2cc-966d-5fe4-68d59951b5c9%28Office.15%29.aspx) 属性 
 
@@ -678,7 +679,7 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 
 - [属性概述](https://msdn.microsoft.com/library/242c9e89-a0c5-ff89-0d2a-410bd42a3461%28Office.15%29.aspx)
     
-- [Efficiently Getting and Setting Custom Properties in a Contact Folder in Outlook 2010](https://msdn.microsoft.com/library/bb49f7a6-ec0a-483a-a27e-e843c6af781b%28Office.15%29.aspx)
+- [Efficiently Getting and Setting Custom Properties in a Contact Folder in Outlook 2010](https://msdn.microsoft.com/library/bb49f7a6-ec0a-483a-a27e-e843c6af781b%28Office.15%29.aspx)（通过 Outlook 2010 在联系人文件夹中高效获取和设置的自定义属性）
     
 - [PropertyAccessor](https://msdn.microsoft.com/library/2fc91e13-703c-3ec9-9066-ffee7144306c%28Office.15%29.aspx) 对象 
 
@@ -690,7 +691,7 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
     
 - [Table 对象中显示的默认属性](https://msdn.microsoft.com/library/649c64f3-2d1e-23f1-bf13-3368da79e62b%28Office.15%29.aspx)
     
-- [Efficiently Filtering Contact Items in a Contact Folder in Outlook 2010](https://msdn.microsoft.com/library/b8dd39e7-d716-4acd-873b-d2b0faaff30d%28Office.15%29.aspx)
+- [Efficiently Filtering Contact Items in a Contact Folder in Outlook 2010](https://msdn.microsoft.com/library/b8dd39e7-d716-4acd-873b-d2b0faaff30d%28Office.15%29.aspx)（通过 Outlook 2010 在联系人文件夹中高效筛选联系人项）
     
 - [枚举、搜索和筛选文件夹中的项目](https://msdn.microsoft.com/library/d786d292-7a0e-0e1a-e132-affbfde37744%28Office.15%29.aspx)
     
@@ -748,13 +749,13 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 
 ### <a name="security"></a>安全性
 
-- [Outlook 对象模型的安全行为（英文）](https://msdn.microsoft.com/library/4aa3b7c7-5f3f-41ce-bbf3-75d8ecbd6d4f%28Office.15%29.aspx)
+- [Outlook 对象模型的安全行为](https://msdn.microsoft.com/library/4aa3b7c7-5f3f-41ce-bbf3-75d8ecbd6d4f%28Office.15%29.aspx)
     
 - [Outlook 2010 中有关关闭的更改](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
 - [受 Outlook 2010 限制的附件文件类型](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
     
-- [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
+- [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)（Outlook 2007 SP2 中的应用程序关闭更改）
     
 - [Code Security Changes in Outlook 2007](https://msdn.microsoft.com/library/26a9fd8f-6277-48ac-a92f-3ff46e1d883a%28Office.15%29.aspx)
 
@@ -796,9 +797,9 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
     
 - [演练：向现有窗体页添加窗体区域](https://msdn.microsoft.com/library/3c988dac-f171-966d-cf9a-17139353d604%28Office.15%29.aspx)
     
-- [Building an Outlook 2007 Form Region with a Managed Add-In](https://msdn.microsoft.com/library/cc8503c2-9e17-4718-a757-9f0b7d42f0ee%28Office.15%29.aspx)
+- [Building an Outlook 2007 Form Region with a Managed Add-In](https://msdn.microsoft.com/library/cc8503c2-9e17-4718-a757-9f0b7d42f0ee%28Office.15%29.aspx)（使用托管加载项构建 Outlook 2007 表单区域）
     
-- [Implementing a Form Region to Display Email Headers in Outlook 2010](https://msdn.microsoft.com/library/243a4e64-d4ea-4cfc-871e-af19d622fb1b%28Office.15%29.aspx)
+- [Implementing a Form Region to Display Email Headers in Outlook 2010](https://msdn.microsoft.com/library/243a4e64-d4ea-4cfc-871e-af19d622fb1b%28Office.15%29.aspx)（在 Outlook 2010 中实现表单区域以显示电子邮件头）
     
 - [FormRegion](https://msdn.microsoft.com/library/3a0b83eb-4076-9cb3-86a9-68f9e44df89f%28Office.15%29.aspx) 对象 
     
@@ -917,24 +918,24 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 ### <a name="major-references-and-resources"></a>主要引用和资源
 
 - [Office 加载项](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)   
-- [Outlook 2013 开发人员参考](https://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)   
-- [Outlook 2010 主互操作程序集引用](https://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx)   
-- [Outlook MAPI 引用](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)   
+- [Outlook 2013 开发人员参考](https://docs.microsoft.com/office/vba/api/overview/outlook)   
+- [Outlook 2010 主互操作程序集引用](https://docs.microsoft.com/office/client-developer/outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference)   
+- [Outlook MAPI 引用](https://docs.microsoft.com/office/client-developer/outlook/mapi/outlook-mapi-reference)   
 - [Outlook 2013 辅助参考](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)   
 - [Outlook Social Connector 提供程序引用](social-connector/outlook-social-connector-provider-reference.md)   
 - [扩展 Outlook 中的天气栏](weather/extending-the-weather-bar-in-outlook.md)   
 - [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)   
 - [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)   
-- [Outlook 2010 的 XML 架构中的新增功能](https://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)   
-- [Outlook 2010：XML 架构参考](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=10ca414a-6cff-46a1-a521-e42c25f079d3&amp;displaylang=en)   
-- [为 32 位和 64 位系统开发 Outlook 2010 解决方案](https://msdn.microsoft.com/library/076753e1-6252-4189-843c-7b1be1967176%28Office.15%29.aspx)
+- [Outlook 2010 的 XML 架构中的新增功能](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff697175(v=office.14))   
+- [Outlook 2010：XML 架构参考](https://www.microsoft.com/download/details.aspx?id=22609)   
+- [为 32 位和 64 位系统开发 Outlook 2010 解决方案](https://docs.microsoft.com/previous-versions/office/developer/office-2010/gg549122(v=office.14))
     
 ### <a name="code-samples"></a>代码示例
 
-- [邮件应用程序示例](https://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)   
-- 对象模型的代码示例：[如何实现...（outlook 2013 开发人员参考 （英文）](https://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)  
-- PIA 代码示例：[在 Outlook 2010 中如何实现...](https://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)  
-- [MAPI 示例（英文）](https://msdn.microsoft.com/library/641659f2-3c0a-43af-96f1-2521b4b06680%28Office.15%29.aspx)
-- 辅助 API 代码示例：[示例任务（英文）](auxiliary/sample-tasks.md)
+- [邮件应用程序示例](https://developer.microsoft.com/outlook/gallery/?filterBy=Outlook,Samples)   
+- 对象模型代码示例：[如何在 Outlook 中操作](https://docs.microsoft.com/office/vba/outlook/concepts/miscellaneous/how-do-i-outlook-vba-reference)  
+- PIA 代码示例：[在 Outlook 2010 中如何实现...](https://docs.microsoft.com/office/client-developer/outlook/pia/how-do-i-outlook-2013-pia-reference?redirectedfrom=MSDN)  
+- [MAPI 示例](https://docs.microsoft.com/office/client-developer/outlook/mapi/mapi-samples)
+- 辅助 API 代码示例：[示例任务](auxiliary/sample-tasks.md)
     
 
