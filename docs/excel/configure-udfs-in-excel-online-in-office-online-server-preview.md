@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: 在 Office Online Server 中使用 Excel Online 中的用户定义函数（Udf）调用自定义函数。
-ms.openlocfilehash: 6e16ea753090b2fefca4ae15330f1a27d53da777
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: c9ace9a678a57a0d97e2fee65ee62bf9497f4451
+ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819355"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40825763"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server"></a>在 Office Online Server 中的 Excel Online 中配置 Udf
 
@@ -87,6 +87,6 @@ Excel Online 中的用户自定义函数 (UDF) 允许您使用单元格中的公
 ## <a name="see-also"></a>另请参阅
 
 - [配置 Excel Online 管理设置](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
-- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-serverr)
+- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server)
     
 
