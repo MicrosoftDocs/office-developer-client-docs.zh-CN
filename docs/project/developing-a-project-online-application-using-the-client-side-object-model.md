@@ -1,21 +1,22 @@
 ---
 title: 使用客户端对象模型开发 Project Online 应用程序
-manager: soliver
-ms.date: 11/08/2016
+manager: lindalu
+ms.date: 12/18/2019
 ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
-description: 本文介绍了如何使用 .NET Framework 4.0 开发 Microsoft Project Online 桌面应用程序。 本文中所述的应用程序将检索托管服务器的信息。
+description: '本文介绍了如何使用 .NET Framework 4.0 和 CSOM 开发 Microsoft Project Online 应用程序。 '
 localization_priority: Priority
-ms.openlocfilehash: 3d3c2dd5b896c10dab9a0494288f38610cbc99e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 33ddafe2e3a75039bf55381524accf1a25692885
+ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322617"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40825770"
 ---
-# <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>使用客户端对象模型开发 Project Online 应用程序
+# <a name="developing-a-project-online-application-using-the-client-side-object-model-csom"></a>使用客户端对象模型开发 Project Online 应用程序（CSOM）
 
-本文介绍了如何使用 .NET Framework 4.0 开发 Microsoft Project Online 桌面应用程序。 本文中所述的应用程序将检索托管服务器的信息。 
+>[!NOTE] 
+>本文介绍了如何使用 CSOM 开发 Microsoft Project Online 应用程序。 我们建议了解如何使用[新建 Project 网页版](https://developer.microsoft.com/zh-CN/office/blogs/developing-applications-and-reports-using-the-new-project/)来开发应用程序。
   
 ## <a name="background"></a>背景
 
@@ -60,7 +61,7 @@ Project Online 具有三个在线 API 集：客户端对象模型 (CSOM)、JavaS
 
 开发 SharePoint 桌面应用程序时，首选界面为 Project 客户端对象模型 (CSOM)。 
   
-可以在 https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks 上下载完整的示例。
+可从 Office 开发人员中心的 Project 开发人员资源库中下载 [Project CSOM 示例](https://developer.microsoft.com/project/gallery/?filterBy=Samples,Project)。
   
 前两个主题涵盖了基本问题：创建具有适当命名空间和程序集的 Visual Studio 项目；访问托管服务器。 其余主题介绍通过 CSOM 检索一个和多个对象中的信息。 
   
@@ -194,7 +195,7 @@ Project Online 是一款 SharePoint 应用程序，因此，使用 SharePoint �
 
    实例化项目上下文时，应用程序需要提供项目网站集的根网站。 应用程序使用项目根网站的 URL 子字符串。 在下面的示例图中，用红色矩形突出显示了此位置的快照。 身份验证需要从开头到子字符串“pwa”的字符串。 在代码列表中，应用程序使用字符串“https://XXXXXXXX.sharepoint.com/sites/pwa”。
         
-   ![红色边框内的项目网站集的 URL 屏幕截图。](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "红色边框内的项目网站集的 URL 屏幕截图")
+   ![红色边框内项目网站集的 URL 的屏幕截图。](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "红色边框内项目网站集的 URL 的屏幕截图")
   
 3. 将密码置于安全的字符串中 -- 此操作在前面代码片段的以下代码中完成。
     
@@ -639,6 +640,6 @@ Value: Red
 
 ## <a name="see-also"></a>另请参阅
 
-有关 Project Online 和使用 CSOM 进行应用程序开发的文档和示例，请参阅 [Project 开发门户](https://developer.microsoft.com/zh-CN/project)。
+有关 Project Online 和使用 CSOM 进行应用程序开发的文档和示例，请参阅 Office 开发人员中心[Project 开发门户](https://developer.microsoft.com/project)。
     
 

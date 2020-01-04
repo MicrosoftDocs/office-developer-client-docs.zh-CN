@@ -1,7 +1,7 @@
 ---
 title: Project 2013 开发人员文档
-manager: soliver
-ms.date: 04/04/2016
+manager: lindalu
+ms.date: 12/19/2019
 ms.audience: Developer
 f1_keywords:
 - Project
@@ -14,28 +14,26 @@ f1_keywords:
 keywords:
 - sdk, project 2013, Project 2013, SDK 概述
 ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
-description: 查找文档、代码示例、操作方法文章和编程参考以帮助构建针对 Office 应用商店的应用程序或私有应用程序目录，以及自定义 Project Server 和 Project 客户端并将其与各种其他桌面应用程序和业务应用程序集成以进行企业项目管理。
+description: 查找文档、代码示例、操作方法文章和编程参考以帮助构建针对 Office 的应用程序或私有应用程序目录，以及自定义 Project Server 和 Project 客户端并将其与各种其他桌面应用程序和业务应用程序集成以进行企业项目管理。
 localization_priority: Priority
-ms.openlocfilehash: cb4dd31a76b897bb5dba39e6b20d0a238bd95293
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1b6227bb25810be04bc87abb418f9966b593bf1c
+ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357041"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40825756"
 ---
 # <a name="project-2013-developer-documentation"></a>Project 2013 开发人员文档
 
-查找文档、代码示例、操作方法文章和编程参考以帮助构建针对 Office 应用商店的应用程序或私有应用程序目录，以及自定义 Project Server 和 Project 客户端并将其与各种其他桌面应用程序和业务应用程序集成以进行企业项目管理。
-  
-欢迎使用 Microsoft Project 2013 软件开发工具包 (SDK)。 SDK 中包含文档、代码示例、操作方法文章和编程参考以帮助构建针对公共应用商店的应用程序或私有应用程序目录，以及自定义 Project Server 和 Project 客户端并将其与各种其他桌面应用程序和业务应用程序集成以进行企业项目管理。
-  
+查找文档、代码样本、操作说明文章和编程参考，有助于生成 AppSource 应用程序。 了解如何自定义 Project Server 和 Project 客户端，并将它们与其他多种桌面和商业应用程序集成，以实现企业项目管理（EPM）。
+   
 > [!NOTE]
 > Project Server 2013 基于 SharePoint Server 2013 平台，并且 Project 2013 中使用的大部分基础结构与其他 Office 2013 应用程序相同。 有关 SharePoint 加载项模型、基于 SharePoint 的工作流、Web 部件、其他 SharePoint 功能开发以及 Office 加载项的文档，请参阅 [SharePoint 加载项](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)和 [Office 加载项](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)。 
   
-## <a name="introduction-to-the-project-sdk"></a>Project SDK 简介
+## <a name="introduction-to-the-project-software-development-kit-sdk"></a>项目软件开发工具包 (SDK)简介
 <a name="pj15_Welcome_IntroToSDK"> </a>
 
-Project Server 2013 是一个平台，用于构建本地或基于云的企业项目解决方案以及用于构建最终用户可以通过公共应用商店或私有应用程序目录发现和获取的应用程序。 Project Server 2013 体系结构基于 Microsoft Office Project Server 2007 中引入的平台，具有许多新增功能和增强功能。 新增功能包括支持访问 Project Online 的客户端对象模型 (CSOM)、用于在线访问 Project Server 报告数据的 OData 服务、远程事件接收器、基于 Windows Workflow Foundation (WF4) 版本 4 和 Office 加载项的工作流体系结构，这款常用的体系结构适用于 Microsoft Office 2013 客户端应用程序中的任务窗格扩展。
+Project Server 2013 是一个平台，用于构建本地或基于云的企业项目解决方案以及用于构建最终用户可以通过 AppSource（前称 Office Store）发现和获取的应用程序。 Project Server 2013 体系结构基于 Microsoft Office Project Server 2007 中引入的平台，具有许多新增功能和增强功能。 新增功能包括支持访问 Project Online 的客户端对象模型 (CSOM)、用于在线访问 Project Server 报告数据的 OData 服务、远程事件接收器、基于 Windows Workflow Foundation (WF4) 版本 4 和 Office 加载项的工作流体系结构，这款常用的体系结构适用于 Microsoft Office 2013 客户端应用程序中的任务窗格扩展。
   
 Project Server 2013 中的主要变化在于使用单个数据库代替 Project Server 2010 中的“草稿”、“已发布”、“存档”和“报告”数据库。 有关新增功能和弃用功能的详细信息，请参阅 [Project 2013 中面向开发人员的更新](updates-for-developers-in-project-2013.md)。 有关 Project Server 平台中的变化的信息，请参阅 [Project Server 2013 体系结构](project-server-2013-architecture.md)。 有关 Project Server 2010 中存在的基于 Project Server 2013 的开发平台概述，请参阅 MSDN 上的 [Project 2010 开发入门](https://msdn.microsoft.com/library/gg607685.aspx)。 
   
@@ -114,7 +112,7 @@ Project 2013 SDK 中具有两个顶级章节：
 - [Project 2013 编程参考](project-2013-programming-references.md)介绍了 Project Server 2013 的 PSI 参考、有关 Project Server 错误代码的信息以及 **ProjectData** 服务的 OData 架构参考。 
     
 > [!NOTE]
->  以下是开发和部署与 Project Server 2013 集成的公共 Office 应用商店中的 EPM 解决方案和应用程序的要求：> 必须在开发计算机和部署计算机上安装 .NET Framework 4 或 .NET Framework 4.5。 若要确定是否安装了正确的版本，请在 Windows 控制面板中打开“**程序和功能**”。 > Visual Studio 2012 安装和使用 .NET Framework 4.5。 创建 Visual Studio 项目时，可以在”**新建项目**”对话框的下拉列表中选择 **.NET Framework 4.0** 或 **NET Framework 4.5**。 也可以在项目“**属性**”窗口的“**应用程序**”选项卡上选择“**目标框架**”。 > 对于使用 CSOM 或 PSI 的应用程序以及 Project 任务窗格应用程序，可以使用 Visual Studio 2010。 但是，Visual Studio 2010 不包含 Office 加载项模板、Office 开发工具或适用于 Office 2013 的 SharePoint 开发工具。 若要下载 Visual Studio 2012 以及包含 Office 和 SharePoint 开发工具的 Web 平台安装程序 (WebPI)，请参阅 [Office 和 SharePoint 应用程序下载](https://msdn.microsoft.com/office/apps/fp123627)。 > 建议你在测试环境中开发自定义解决方案。 如果在当前版本的 Project Server 2013 和 Project 2013 中开发解决方案，则会使用更新后的参考重新编译这些解决方案，这可能需要进行额外的更改才适用于后续版本。 针对任何预发行版本开发的解决方案可能不适用于公开发行的版本。 
+>  以下是开发和部署与 Project Server 2013 集成的 AppSource 中的 EPM 解决方案和应用程序的要求：> 必须在开发计算机和部署计算机上安装 .NET Framework 4 或 .NET Framework 4.5。 若要确定是否安装了正确的版本，请在 Windows 控制面板中打开“**程序和功能**”。 > Visual Studio 2012 安装和使用 .NET Framework 4.5。 创建 Visual Studio 项目时，可以在”**新建项目**”对话框的下拉列表中选择 **.NET Framework 4.0** 或 **NET Framework 4.5**。 也可以在项目“**属性**”窗口的“**应用程序**”选项卡上选择“**目标框架**”。 > 对于使用 CSOM 或 PSI 的应用程序以及 Project 任务窗格应用程序，可以使用 Visual Studio 2010。 但是，Visual Studio 2010 不包含 Office 加载项模板、Office 开发工具或适用于 Office 2013 的 SharePoint 开发工具。 若要下载 Visual Studio 2012 以及包含 Office 和 SharePoint 开发工具的 Web 平台安装程序 (WebPI)，请参阅 [Office 和 SharePoint 应用程序下载](https://msdn.microsoft.com/office/apps/fp123627)。 > 建议你在测试环境中开发自定义解决方案。 如果在当前版本的 Project Server 2013 和 Project 2013 中开发解决方案，则会使用更新后的参考重新编译这些解决方案，这可能需要进行额外的更改才适用于后续版本。 针对任何预发行版本开发的解决方案可能不适用于公开发行的版本。 
   
 ## <a name="see-also"></a>另请参阅
 <a name="pj15_Welcome_AR"> </a>
