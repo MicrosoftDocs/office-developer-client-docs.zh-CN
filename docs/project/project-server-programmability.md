@@ -25,12 +25,12 @@ keywords:
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: 了解 Project Server 2013 中的主要可编程性功能。 本文包括有关移植为早期版本的 Project Server 构建的应用程序的信息。
 localization_priority: Priority
-ms.openlocfilehash: db5e09ebe7a820255ba3d61c719b838289005e12
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: e6991712b87291e90c6b4f277db84686aab384e7
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819306"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773727"
 ---
 # <a name="project-server-programmability"></a>Project Server 可编程性
 
@@ -104,7 +104,7 @@ PSEntityProvision.xsd 架构文件位于 Project 2013 SDK 下载的 `Documentati
 > [!NOTE]
 > 如果 CSOM 包含你所需的功能，我们建议你升级应用程序以使用 CSOM。 CSOM 允许在本地和在线安装的 Project Server 2013 中使用应用程序。 
   
-如果你的应用程序主要用于从 Project Server 读取数据，则对于本地方案，可以使用 Project Server 数据库中的报告表和视图。 如果你打算将该应用程序与 Project Online 一起使用，则可以将 OData 协议用于 **ProjectData** 服务，该服务提供对报告数据的本地访问和在线访问。 有关详细信息，请参阅 [ProjectData - Project OData 服务引用](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163015(v=office.15))
+如果你的应用程序主要用于从 Project Server 读取数据，则对于本地方案，可以使用 Project Server 数据库中的报告表和视图。 如果你打算将该应用程序与 Project Online 一起使用，则可以将 OData 协议用于 **ProjectData** 服务，该服务提供对报告数据的本地访问和在线访问。 有关详细信息，请参阅 [ProjectData - Project OData 服务引用](https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15))
   
 ### <a name="using-the-psi"></a>使用 PSI
 <a name="pj15_Programmability_PSI"> </a>
@@ -233,7 +233,7 @@ Project Server 2013 具有两个计划引擎。 新版计划引擎与 Project Pr
   
 以下是使用旧版 Project Server 计划引擎进行 PSI 编程的问题和限制：
   
-- **更改任务的活动状态** 当你使用 [QueueUpdateProject](https://docs.microsoft.com/en-us/previous-versions/office/ms471014(v=office.14)) 方法更改任务的活动状态时，如果 **ProjectDataSet** 对象的 _dataset_ 参数存在多项更改，则旧版 Project Server 计划引擎可能会显示不一致的开始或结束时间。 如果在 **QueueUpdateProject** 的 _dataset_ 参数中，**TASK_IS_ACTIVE** 属性是唯一发生更改的属性，则你可以更新项目。
+- **更改任务的活动状态** 当你使用 [QueueUpdateProject](https://docs.microsoft.com/previous-versions/office/ms471014(v=office.14)) 方法更改任务的活动状态时，如果 **ProjectDataSet** 对象的 _dataset_ 参数存在多项更改，则旧版 Project Server 计划引擎可能会显示不一致的开始或结束时间。 如果在 **QueueUpdateProject** 的 _dataset_ 参数中，**TASK_IS_ACTIVE** 属性是唯一发生更改的属性，则你可以更新项目。
     
     有关非活动任务和旧版计划引擎的详细信息，请参阅博客文章 [Project 2010 中的非活动任务简介](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)和 [Project Server 2010：在 Web、PSI 和 Project Professional 上创建计划](https://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0)。 有关 Project Professional 2010 中的计划与 Project Server 2010 中的 Project Web App 的比较，请参阅[基于 Web 的计划管理比较](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)。
     

@@ -7,16 +7,16 @@ ms:contentKeyID: 55119926
 ms.date: 12/03/2019
 mtps_version: v=office.15
 localization_priority: Priority
-ms.openlocfilehash: edcf2053a2f678b2280e1735ee728196cc431d31
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 5bae79531e7d2be39610194e0b59477fcee28c15
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819341"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773699"
 ---
 # <a name="get-and-sign-in-to-an-instance-of-outlook"></a>获取并登录 Outlook 实例
 
-本主题介绍了如何获取表示本地计算机上正在运行的 Microsoft Outlook 有效实例的 [Application](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.application?redirectedfrom=MSDN&view=outlook-pia) 对象，或新建 Outlook 示例，然后登录默认配置文件并返回相应 Outlook 实例。
+本主题介绍了如何获取表示本地计算机上正在运行的 Microsoft Outlook 有效实例的 [Application](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.application?redirectedfrom=MSDN&view=outlook-pia) 对象，或新建 Outlook 示例，然后登录默认配置文件并返回相应 Outlook 实例。
 
 ## <a name="example"></a>示例
 
