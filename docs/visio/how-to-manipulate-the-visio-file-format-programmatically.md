@@ -1,18 +1,18 @@
 ---
 title: 以编程方式处理 Visio 文件格式
 manager: lindalu
-ms.date: 12/03/2019
+ms.date: 04/17/2019
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: 在 Visual Studio 2012 中创建解决方案以读取 Visio 2013 中的新文件格式包、选择包中的部件、更改部件中的数据以及向包中添加新部件。
 localization_priority: Priority
-ms.openlocfilehash: f54a0afec4bc45d322e3a18194eafc3bd768e0d0
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 36a621856e5d53e7b3355a39edd7b7a03636b15d
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819299"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773741"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>以编程方式处理 Visio 文件格式
 
@@ -302,8 +302,8 @@ ms.locfileid: "39819299"
  `Press any key to continue …`
   
 通常，你需要选择一个 **PackagePart**，而无需循环访问所有部件。 你可以使用它与 **Package** 或另一个 **PackagePart** 的关系，从 **Package** 中获取 **PackagePart** 对象。 Visio 2013 文件格式中的关系是一个离散实体，它描述了文档部件与文件包之间有何关联，以及两个文档部件之间相互有何关联。 例如，Visio 2013 文件包本身与其 Visio 文档部件存在关系，Visio 文档部件与 Windows 部件存在关系。 这些关系表示为 [PackageRelationship](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationship?view=netframework-4.8) 或 [PackageRelationshipCollection](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationshipcollection?view=netframework-4.8) 类的实例。 
-  
-**Package** 类公开几种用于获取其中包含的作为 **PackageRelationship** 或 **PackageRelationshipCollection** 对象的关系的方法。 你可以使用 [GetRelationshipsByType(String)](https://docs.microsoft.com/dotnet/api/system.io.packaging.package.getrelationshipsbytype?redirectedfrom=MSDN&view=netframework-4.8#System_IO_Packaging_Package_GetRelationshipsByType_System_String_) 方法，对包含单一特定类型的 **PackageRelationship** 对象的 **PackageRelationshipCollection** 对象进行实例化。 当然，使用 **Package.GetRelationshipsByType** 方法要求你已经知道所需的关系类型。 关系类型是采用 XML 命名空间格式的字符串。 例如，Visio 文档部件的关系类型为 https://schemas.microsoft.com/visio/2010/relationships/document。 
+
+**Package** 类公开几种用于获取其中包含的作为 **PackageRelationship** 或 **PackageRelationshipCollection** 对象的关系的方法。 你可以使用 [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) 方法，对包含单一特定类型的 **PackageRelationship** 对象的 **PackageRelationshipCollection** 对象进行实例化。 当然，使用 **Package.GetRelationshipsByType** 方法要求你已经知道所需的关系类型。 关系类型是采用 XML 命名空间格式的字符串。 例如，Visio 文档部件的关系类型为 https://schemas.microsoft.com/visio/2010/relationships/document。 
   
 一旦您知道 **PackagePart** 与 **Package** 或与另一个 **PackagePart** 的关系（即，您有一个 **PackageRelationship** 对象引用所需的 **PackagePart**），即可使用此关系获取该 **PackagePart** 的 URI。然后您可以将 URI 传递到 **Package.GetPart** 方法以返回 **PackagePart**。
   
