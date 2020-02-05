@@ -7,12 +7,12 @@ ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: a937a273e0735b2d14369ae8cb8127e827501160
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 3d14da44731810308d57ba0e70f9651f3105aad0
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819285"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773713"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>在文件夹中项的附件内搜索完全匹配的某短语
 
@@ -22,7 +22,7 @@ ms.locfileid: "39819285"
 
 此代码示例使用 DAV 搜索和定位 (DASL) 语法来指定查询。 为了构造筛选器，此代码示例先检查默认存储中是否已启用“即时搜索”，以确定是否使用 **ci\_phrasematch** 关键字在所有附件中搜索完全匹配的短语“office”。 然后，此代码示例将筛选器应用于收件箱的 [GetTable](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.mapifolder.gettable?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_MAPIFolder_GetTable_System_Object_System_Object_) 方法，并获取 [Table](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.table?redirectedfrom=MSDN&view=outlook-pia) 对象中的结果。 接下来，此代码示例显示 **Table** 中每个返回项的主题。
 
-此代码示例使用命名空间表示法 http://schemas.microsoft.com/mapi/proptag/0x0EA5001E 指定项的 **Attachments** 属性。 使用 **ci\_phrasematch** 关键字的语法为：
+此代码示例使用命名空间表示法 https://schemas.microsoft.com/mapi/proptag/0x0EA5001E 指定项的 **Attachments** 属性。 使用 **ci\_phrasematch** 关键字的语法为：
 
 `<PropertySchemaName> ci_phrasematch <ComparisonString>`
 

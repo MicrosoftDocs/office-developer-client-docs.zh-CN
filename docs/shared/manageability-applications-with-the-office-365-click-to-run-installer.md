@@ -1,17 +1,17 @@
 ---
 title: 将可管理性应用程序与 Office 365 即点即用安装程序集成
 manager: lindalu
-ms.date: 12/03/2019
+ms.date: 10/22/2017
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: 了解如何将 Office 365 即点即用安装程序与软件管理解决方案集成。
-ms.openlocfilehash: 62bfef0063c414fcecd0948e49dfa098b5c82bbb
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 0c695d538a0a906bce19719c2735cb39740ff6a2
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819271"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773734"
 ---
 # <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>将可管理性应用程序与 Office 365 即点即用安装程序集成
 

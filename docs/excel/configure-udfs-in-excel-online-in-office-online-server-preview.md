@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: 在 Office Online Server 中使用 Excel Online 中的用户定义函数（Udf）调用自定义函数。
-ms.openlocfilehash: c9ace9a678a57a0d97e2fee65ee62bf9497f4451
-ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
+ms.openlocfilehash: f916e56f7f79bfac1494b980a5591e4c531efea9
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40825763"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773706"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server"></a>在 Office Online Server 中的 Excel Online 中配置 Udf
 
@@ -42,7 +42,7 @@ Excel Online 中的用户自定义函数 (UDF) 允许您使用单元格中的公
   
 ## <a name="enable-udfs-on-office-online-server"></a>在 Office Online Server 上启用 Udf 
 
-当管理员使用[New-officewebappsfarm](https://technet.microsoft.com/en-us/library/jj219436.aspx) Windows PowerShell cmdlet 创建新的 Office Web Apps Server 场时，默认情况下会禁用 UDF 程序集。 **ExcelUdfsAllowed** 标记的默认值为 false。 
+当管理员使用[New-officewebappsfarm](https://docs.microsoft.com/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps) Windows PowerShell cmdlet 创建新的 Office Web Apps Server 场时，默认情况下会禁用 UDF 程序集。 **ExcelUdfsAllowed** 标记的默认值为 false。 
   
 若要启用 Udf，请在创建 Office Web Apps Server 服务器场后，在 Office Online Server 上运行以下 Windows PowerShell 命令。
   
@@ -58,7 +58,7 @@ Excel Online 中的用户自定义函数 (UDF) 允许您使用单元格中的公
     
 - **Enable**（默认设置为 False） 
     
-- **说明**
+- **Description**
     
 下列示例说明了如何创建 UDF 定义。
   
