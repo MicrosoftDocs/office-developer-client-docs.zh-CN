@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: 本文介绍 API 和相关技术，用户可以将它们用于扩展 Outlook 2013 和 Outlook 2016，并帮助决定适用于用户方案的 API 或技术。
 localization_priority: Priority
-ms.openlocfilehash: 60e02d25b53e494f2552622321a3f68921e84000
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 42ca5056c49186229ab1689c9aeeb4d34dda60fc
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819313"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773748"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>选择某个 API 或技术开发适用于 Outlook 的解决方案
 
@@ -81,7 +81,7 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 
 |**条件**|**Office 平台的应用程序中提供的邮件应用程序支持**|
 |:-----|:-----|
-|应用程序域  <br/> |The scope of activity of a mail app is virtually any supported message or appointment item in the user's Exchange mailbox that the user has selected and that satisfies the activation conditions. The permissions of a mail app determine its access to the properties and specific entities (such as an email address or telephone number) that exist for that item. For example, a mail app requesting the **read/write mailbox** permission can read and write all the properties of any item in the user's mailbox; create, read, and write to any folder or item; and send an item from that mailbox.  <br/> |
+|应用程序域  <br/> |实际上，用户所选择和满足激活条件的用户的 Exchange 邮箱中的任何受支持的邮件或约会项目就是邮件应用的活动范围。邮件应用的权限决定了对该项目的属性和特定实体（如电子邮件地址或电话号码）的访问权限。例如，请求**读/写邮箱**权限的邮件应用程序可以读取和写入用户邮箱中任何项目的所有属性；创建、读取和写入任何文件夹或项目；并从该邮箱发送项目。  <br/> |
 |主要对象  <br/> |适用于 Office 的 JavaScript API 提供了由所有类型的 Office 外接程序共享的最高级别的一些对象：[Office](https://msdn.microsoft.com/library/c490b13d-ee52-4291-af5d-f4a5a11d3af0%28Office.15%29.aspx)、[Context](https://msdn.microsoft.com/library/662883d5-b86f-4bdc-99f0-9ee9129ed16c%28Office.15%29.aspx) 和 [AysncResult](https://msdn.microsoft.com/library/540c114f-0398-425c-baf3-7363f2f6bc47%28Office.15%29.aspx)。适用且特定于邮件应用程序的 API 中的下一个级别的对象包括 [Mailbox](https://msdn.microsoft.com/library/a3880d3b-8a09-4cf9-9274-f2682cb3b769%28Office.15%29.aspx)、[Item](https://msdn.microsoft.com/library/ad288df1-3ca2-474c-bea4-c51f46e6fc43%28Office.15%29.aspx) 和 [UserProfile](https://msdn.microsoft.com/library/6d0a36ec-0d5c-40e3-9f6f-9a7fcf0ac3d8%28Office.15%29.aspx) 对象，它们支持访问有关当前在用户邮箱中选定的用户和项目的信息。在数据级别， [CustomProperties](https://msdn.microsoft.com/library/95a69bd6-c4dc-429a-8b27-e2b68f74f3e3%28Office.15%29.aspx) 和 [RoamingSettings](https://msdn.microsoft.com/library/cf21bb08-7274-4ad6-ae9e-b2c12f92abc9%28Office.15%29.aspx) 对象都支持保留邮件应用程序分别为所选的项目和用户的邮箱设置的属性。项目级对象包括从 [Item](https://msdn.microsoft.com/library/08ebffff-eb52-4e21-9d4e-8f79e426f992%28Office.15%29.aspx) 继承的 [Appointment](https://msdn.microsoft.com/library/909ad9eb-a1bc-4caa-b51e-fd59a02b9569%28Office.15%29.aspx)和 **Message** 对象，以及从 [Message](https://msdn.microsoft.com/library/c658fa3d-1138-4a67-9a4b-c9edd11f8385%28Office.15%29.aspx) 继承的 **MeetingRequest** 对象。这些表示支持邮件应用程序的 Outlook 项目的类型：约会和会议的日历项和诸如电子邮件、会议请求、响应和取消等邮件项目。API 中除此级别外，还有项目级属性（如 [Appointment.subject](https://msdn.microsoft.com/library/ffa6812c-34b8-4b0a-8f92-22c3580c8379%28Office.15%29.aspx)） 以及支持某些已知的 [Entities](https://msdn.microsoft.com/library/1a06c8d1-dafe-46f4-967e-dd9b1d5b20e9%28Office.15%29.aspx) 对象（例如 [Contact](https://msdn.microsoft.com/library/2604b44c-7b79-47f0-ac3e-7d99bc9e6751%28Office.15%29.aspx)、[MeetingSuggestion](https://msdn.microsoft.com/library/9726fbff-0f4f-4b70-8deb-effc14607d4e%28Office.15%29.aspx)、[PhoneNumber](https://msdn.microsoft.com/library/cc86426a-2730-4774-9067-0611e5c8e9c1%28Office.15%29.aspx) 和 [TaskSuggestion](https://msdn.microsoft.com/library/16b0c3d6-adf4-4a88-ad09-4bb5565816b1%28Office.15%29.aspx)）的对象和属性。  <br/> 请参阅[Outlook 外接程序体系结构和功能概述](https://msdn.microsoft.com/library/2cd5641b-492b-4431-8388-7fc589163e9c%28Office.15%29.aspx)，了解有关邮件应用程序支持的功能摘要。  <br/> |
 |数据访问模型  <br/> |适用于 Office 的 JavaScript API 表示可作为一组分层对象的下列功能：应用程序的运行时环境、用户的邮箱和配置文件和与某个项目相关的数据。  <br/> |
 |线程模型  <br/> |每个邮件应用程序都在独立于 Outlook 进程的自身进程中执行操作。  <br/> |
@@ -553,7 +553,7 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 
 - [向邮件项附加文件](https://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
-- [附件文件类型受限于 Outlook 2010](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
+- [附件文件类型受限于 Outlook 2010](https://technet.microsoft.com/library/cc179163.aspx)
     
 - [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx) 对象 
     
@@ -753,9 +753,9 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
     
 - [Outlook 2010 中有关关闭的更改](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
-- [受 Outlook 2010 限制的附件文件类型](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
+- [受 Outlook 2010 限制的附件文件类型](https://technet.microsoft.com/library/cc179163.aspx)
     
-- [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)（Outlook 2007 SP2 中的应用程序关闭更改）
+- [Outlook 2007 SP2 中的应用程序关闭更改](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
     
 - [Code Security Changes in Outlook 2007](https://msdn.microsoft.com/library/26a9fd8f-6277-48ac-a92f-3ff46e1d883a%28Office.15%29.aspx)
 

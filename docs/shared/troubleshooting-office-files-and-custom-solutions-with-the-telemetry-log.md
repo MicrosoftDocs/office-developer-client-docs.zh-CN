@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: 使用 Office 2013 遥测日志确定 Office 2013 的兼容性问题，并确定为 Office 的早期版本生成的解决方案。
 localization_priority: Priority
-ms.openlocfilehash: 3954662a9476dca0cbb9bf4b8197979783b7e11e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0ace7a39c62194816662e49580cf6868edcae295
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346284"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773720"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>疑难解答遥测日志的 Office 文件和自定义解决方案
 
@@ -96,7 +96,7 @@ Office 2013 遥测日志（基于 Excel 2013 构建的工具）帮助开发人�
   
 **图 1. Office 遥测日志**
   
-![显示记录的 Office 事件查看器。](media/off15_OfficeEventViewer_SD.png "显示记录的 Office 事件查看器")
+![显示记录的 Office 事件查看器。](media/off15_OfficeEventViewer_SD.png "显示记录的 Office 事件查看器。")
   
 > [!NOTE]
 >  遥测日志中的“系统信息”**** 工作表包含有关安装 Office 2013 的计算机的信息。 此工作表显示以下信息： 
@@ -145,6 +145,8 @@ Office 2013 遥测日志（基于 Excel 2013 构建的工具）帮助开发人�
 |18  <br/> |应用程序已成功关闭  <br/> ||主机应用程序能够成功关闭 Office 外接程序。  <br/> |
 |19  <br/> |外接程序遇到运行时错误  <br/> |关键  <br/> |Office 外接程序 遇到一个导致它失败的问题。有关详细信息，请使用遇到错误的计算机上的 Windows 事件查看器查看 Microsoft Office 警报日志。  <br/> |
 |20  <br/> |外接程序未能验证许可  <br/> |关键  <br/> |Office 外接程序 的许可信息无法验证，或者可能已过期。有关详细信息，请使用遇到错误的计算机上的 Windows 事件查看器查看 Microsoft Office 警报日志。  <br/> |
+|21 <br/>|宏遇到编译错误 <br/>|警告 <br/>| 该文件包含未能编译的宏，无法运行。 有关详细信息，请查看尝试从宏编辑器编译宏时出现的错误消息。<br/>| 
+|22 <br/>|宏遇到运行时错误<br/>| 警告 <br/>| 该文件中包含遇到运行时错误的宏。 有关详细信息，请查看尝试从宏编辑器执行宏时出现的错误消息以及[Visual Basic for Applications Reference](https://docs.microsoft.com/previous-versions/visualstudio/visual-basic-6/aa264975%28v=vs.60%29)。<br/>|
 |各种  <br/> |"OM 行为更改: ..."  <br/> |信息  <br/> |该加载项或启用了宏的文档代码使用了与在上一个 Office 版本中表现不同的对象、成员、集合、枚举或常数。<br/><br/> 有关详细信息，请参阅[Office 中的兼容性问题](compatibility-issues-in-office.md)。  <br/> |
 |各种  <br/> |"OM 已移除: …"  <br/> |关键  <br/> |加载项或启用了宏的文档代码使用了已从对象模型中删除的对象、成员、集合、枚举或常数。<br/><br/>有关详细信息，请参阅[Office 中的兼容性问题](compatibility-issues-in-office.md)。  <br/> |
 |各种  <br/> |"OM 已隐藏: …"  <br/> |信息  <br/> |加载项或启用了宏的文档代码使用了在对象模型中已隐藏的对象、成员、集合、枚举或常数。<br/><br/>有关详细信息，请参阅[Office 中的兼容性问题](compatibility-issues-in-office.md)。  <br/> |
