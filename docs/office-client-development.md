@@ -7,7 +7,7 @@ ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
 description: 查找开发解决方案和自定义 Office 的操作方法内容、示例代码、SDK 和 API 文档、VBA 参考、培训和文章。
 ms.openlocfilehash: 4ecf232e0381fec9acc55582db6c7aaacedde891
 ms.sourcegitcommit: 63e14e1e6124222a0a347aa1ad02ce1bd7e94949
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/11/2019
 ms.locfileid: "36849860"
