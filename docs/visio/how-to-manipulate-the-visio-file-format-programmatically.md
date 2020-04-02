@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: 在 Visual Studio 2012 中创建解决方案以读取 Visio 2013 中的新文件格式包、选择包中的部件、更改部件中的数据以及向包中添加新部件。
 localization_priority: Priority
-ms.openlocfilehash: 36a621856e5d53e7b3355a39edd7b7a03636b15d
-ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
+ms.openlocfilehash: 3998c0d4b97439571bd93293f5f49659580f09de
+ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41773741"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102903"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>以编程方式处理 Visio 文件格式
 
@@ -36,7 +36,7 @@ ms.locfileid: "41773741"
 |:-----|:-----|
 |[Visio 文件格式 (.vsdx) 简介](introduction-to-the-visio-file-formatvsdx.md) <br/> |此高级概述介绍了 Visio 2013 文件格式的一些主要功能。 它讨论了开放打包约定 (OPC)，因为它们已应用于 Visio 2013 文件格式。 它还列出了 Visio 2013 文件格式与以前的 Visio XML 绘图文件格式 (.vdx) 之间的一些差异。  <br/> |
 |[OPC：打包数据的新标准](https://docs.microsoft.com/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data) <br/> |此 MSDN 杂志文章将开放打包约定作为概念进行介绍。  <br/> |
-|[开放打包约定的基础知识](https://docs.microsoft.com/en-us/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Office (2007) Open XML 文件格式](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |以下两篇文章讨论了如何将开放打包约定应用于 Microsoft Office 文件。 它们提供了有关包中关系的工作方式的说明，并且包含一些代码示例。  <br/> |
+|[开放打包约定的基础知识](https://docs.microsoft.com/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Office (2007) Open XML 文件格式](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |以下两篇文章讨论了如何将开放打包约定应用于 Microsoft Office 文件。 它们提供了有关包中关系的工作方式的说明，并且包含一些代码示例。  <br/> |
    
 ## <a name="create-a-vsdx-file-and-a-new-visual-studio-solution"></a>创建 .vsdx 文件和新的 Visual Studio 解决方案
 <a name="vis15_ManipulateFF_CreateFile"> </a>

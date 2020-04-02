@@ -1,17 +1,17 @@
 ---
 title: Office 中的兼容性问题
 manager: lindalu
-ms.date: 12/03/19
+ms.date: 12/03/2019
 ms.audience: Developer
 ms.assetid: dd279238-ae75-4ad9-b9e5-364924090485
 description: 获取有关遥测日志中显示的关于 Office 产品中可能存在的兼容性问题的详细信息。
 localization_priority: Priority
-ms.openlocfilehash: b0d5b0c8fba3f96f0abba927dadab746750a95ae
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 32e0b800565e826a42a5199cfb4e3016d1f1c6f1
+ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819257"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102959"
 ---
 # <a name="compatibility-issues-in-office"></a>Office 中的兼容性问题
 

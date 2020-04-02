@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: '本文介绍了如何使用 .NET Framework 4.0 和 CSOM 开发 Microsoft Project Online 应用程序。 '
 localization_priority: Priority
-ms.openlocfilehash: 33ddafe2e3a75039bf55381524accf1a25692885
-ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
+ms.openlocfilehash: d48cf50b95ecea664cd9eae1b0e642fc2551d5be
+ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40825770"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102966"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model-csom"></a>使用客户端对象模型开发 Project Online 应用程序（CSOM）
 
@@ -50,7 +50,7 @@ Project Online 具有三个在线 API 集：客户端对象模型 (CSOM)、JavaS
     
 - SharePoint 客户端组件 SDK -- Project Online 和 Project Server 位于 SharePoint 和 SharePoint 程序集之上。 Visual Studio Professional 和 Enterprise 版中包含 SharePoint 客户端组件。 如果使用 Visual Studio Community 版，则可在以下网站上获取最新版 Office 开发人员工具 SDK：https://www.microsoft.com/en-us/download/details.aspx?id=35585
     
-- Project Online 帐户 -- 可通过该账户访问托管网站。 有关获取 Project Online 帐户的详细信息，请参阅 https://products.office.com/en-us/Project/project-online-portfolio-management
+- Project Online 帐户 -- 可通过该账户访问托管网站。 有关获取 Project Online 帐户的详细信息，请参阅 https://products.office.com/en-gb/project/project-portfolio-management
     
 - 托管网站上已填充信息的项目
     
