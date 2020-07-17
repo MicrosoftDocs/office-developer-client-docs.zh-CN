@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: 上次修改时间：2019年9月6日
-ms.openlocfilehash: f6f671cbfd5e14d602aaa31d31e54e859f068593
-ms.sourcegitcommit: 27a9f3568318470e7ee09ad93a90c3f80d3ef0cd
+ms.openlocfilehash: c9fcffa8ad4dc982e869f4ccd449e1377fb1ea57
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790769"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160284"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
@@ -60,7 +60,7 @@ CCSF_EMBEDDED_MESSAGE
     
 CCSF_SMTP
   
-> MIME 流适用于简单 MAPI 传输协议（SMTP）邮件。
+> MIME 流适用于简单邮件传输协议（SMTP）邮件。
     
 CCSF_INCLUDE_BCC
   
@@ -79,9 +79,9 @@ E_INVALIDARG
   
 > 指示_pstm_为**null**、 _pmsg_为**null**或_ulFlags_无效。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果已将**CCSF_USE_RTF**指定为_ulFlags_的一部分，且目标邮件存储库同时支持 html 和 RTF 格式，则 MAPI 邮件将转换为 html 或 rtf 格式。 如果邮件转换为 RTF 格式，则转换后的格式将被压缩为 RTF 格式，任何 HTML 将嵌入在压缩的 RTF 字符串中，并且该字符串将包含在[PidTagRtfCompressed 规范属性](pidtagrtfcompressed-canonical-property.md)中。
+如果您已将**CCSF_USE_RTF**指定为_ulFlags_的一部分，并且目标邮件存储库支持 html 和 RTF 格式，则 MAPI 邮件将转换为 html 或 rtf 格式。 如果邮件转换为 RTF 格式，则转换后的格式将被压缩为 RTF 格式，任何 HTML 将嵌入在压缩的 RTF 字符串中，并且该字符串将包含在[PidTagRtfCompressed 规范属性](pidtagrtfcompressed-canonical-property.md)中。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
