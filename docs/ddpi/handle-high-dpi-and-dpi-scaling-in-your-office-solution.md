@@ -3,12 +3,12 @@ title: 在 Office 解决方案中处理高 DPI 和 DPI 缩放
 description: 更新 Office 解决方案（如自定义任务窗格或 ActiveX 控件）以支持高 DPI 监视器。
 ms.date: 03/09/2019
 localization_priority: Normal
-ms.openlocfilehash: 0425e5e9dd0f060a6336888cfe6c236b39732080
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 78179b958bc57137c0565b8b1ca5feb40f61fe0e
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301730"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293476"
 ---
 # <a name="handle-high-dpi-and-dpi-scaling-in-your-office-solution"></a>在 Office 解决方案中处理高 DPI 和 DPI 缩放
 
@@ -41,7 +41,7 @@ DPI 缩放可能会影响以下类型的 Office 解决方案：
 |模式  |说明  |DPI 发生更改时  |
 |---------|---------|---------|
 |非 DPI 感知 |  应用程序始终呈现为如同在 DPI 值为 96 的显示器上显示。 |  应用程序在主显示器和辅助显示器上将位图拉伸到预期大小。    |
-|系统 DPI 感知 |  应用程序将在 Windows 登录时检测主连接监视器的 DPI，但无法响应 DPI 更改。 有关详细信息, 请参阅本文中的[配置 Windows 以修复模糊应用程序](#configure-windows-to-fix-blurry-apps)部分。  | 当移动到具有不同 DPI 的新显示器时，应用程序将拉伸位图。    |
+|系统 DPI 感知 |  应用程序将在 Windows 登录时检测主连接监视器的 DPI，但无法响应 DPI 更改。 有关详细信息，请参阅本文中的 [配置 Windows 以修复模糊应用程序](#configure-windows-to-fix-blurry-apps) 部分。  | 当移动到具有不同 DPI 的新显示器时，应用程序将拉伸位图。    |
 |按监视器 DPI 感知 |  应用程序能够在 DPI 发生更改时正确地进行重绘。  |   Windows 会将 DPI 通知发送到应用程序中的顶级窗口，以便在 DPI 发生更改时进行重绘。     |
 |按监视器 v2 |  应用程序能够在 DPI 发生更改时正确地进行重绘。  |   Windows 将同时向顶级窗口和子窗口发送 DPI 通知，以便应用程序能够在 DPI 发生更改时进行重绘。 |
 
@@ -237,7 +237,7 @@ inline DpiAwarenessContextBlock::~DpiAwarenessContextBlock()
 
 ![该图显示在 Windows 2018 年 4 月更新 (1803) 的“系统 DPI 感知”上下文中运行的子窗口。](./media/office-dpi-behavior-on-windows-april-2018-update.png)
 
-创建新的子窗口时，请确保它们匹配其父窗口的 DPI 感知。 你可以使用 [GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) 函数来获取父窗口的 DPI 感知。 有关 DPI 感知一致性的详细信息，请参阅 [Windows 上的高 DPI 桌面应用程序开发](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics)中的“强制重置整个进程的 DPI 感知”部分。
+创建新的子窗口时，请确保它们匹配其父窗口的 DPI 感知。 您可以使用 [GetWindowDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) 函数来获取父窗口的 DPI 感知。 有关 DPI 感知一致性的详细信息，请参阅 [Windows 上的高 DPI 桌面应用程序开发](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics)中的“强制重置整个进程的 DPI 感知”部分。
 
 > [!NOTE]
 > 你不能依赖于进程 DPI 感知，因为它可能会返回 [PROCESS_SYSTEM_DPI_AWARE](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness)，即使应用程序主线程 DPI 感知上下文为 [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context) 也是如此。 使用 [GetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) 函数获取线程 DPI 感知上下文。
@@ -250,15 +250,15 @@ inline DpiAwarenessContextBlock::~DpiAwarenessContextBlock()
 
 当移动到具有不同 DPI 缩放比例的其他屏幕时，Office 提供了用于优化兼容性的设置。 兼容模式可禁用 DPI 缩放，以便在移动到使用不同 DPI 缩放比例的显示器时，Office 中的所有内容都会进行位图拉伸。 
 
-兼容模式强制 Office 在系统 DPI 感知模式下运行。 这会导致应用程序窗口进行位图拉伸, 并且可能会产生模糊外观的负面影响。 您的 Office 解决方案无法控制此设置, 因为用户选择此设置。 使用 "显示兼容性" 模式可解决大多数绘图问题。 有关详细信息, 请参阅[适用于 high definition 显示的 Office 支持](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d)。 
+兼容模式强制 Office 在系统 DPI 感知模式下运行。 这会导致应用程序窗口进行位图拉伸，并且可能会产生模糊外观的负面影响。 您的 Office 解决方案无法控制此设置，因为用户选择此设置。 使用 "显示兼容性" 模式可解决大多数绘图问题。 有关详细信息，请参阅 [适用于 high definition 显示的 Office 支持](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d)。 
 
 ### <a name="configure-windows-to-fix-blurry-apps"></a>配置 Windows 以修复模糊应用程序
 
-Windows 10 (版本 1803) 及更高版本的设置可修复应用程序, 使其不变得模糊。 如果你的解决方案不能正确呈现, 这是另一种设置。 您的 Office 解决方案无法控制此设置, 因为用户选择此设置。 有关详细信息, 请参阅[修复在 Windows 10 中显示模糊的应用](https://support.microsoft.com/en-us/help/4091364/windows-10-fix-blurry-apps)程序。
+Windows 10 (版本 1803) 及更高版本提供了用于修复应用程序的设置，因此它们不会变得模糊。 如果你的解决方案不能正确呈现，这是另一种设置。 您的 Office 解决方案无法控制此设置，因为用户选择此设置。 有关详细信息，请参阅 [修复在 Windows 10 中显示模糊的应用](https://support.microsoft.com/en-us/help/4091364/windows-10-fix-blurry-apps)程序。
 
 ## <a name="how-to-support-dpi-scaling-in-your-solution"></a>如何支持解决方案中的 DPI 缩放
 
-某些解决方案可以接收和响应 DPI 更改。 如果用户无法接收通知, 则有一些解决办法。 下表列出了每种解决方案类型的详细信息。
+某些解决方案可以接收和响应 DPI 更改。 如果用户无法接收通知，则有一些解决办法。 下表列出了每种解决方案类型的详细信息。
 
 <table>
     <thead>
@@ -274,40 +274,40 @@ Windows 10 (版本 1803) 及更高版本的设置可修复应用程序, 使其�
         <td rowspan="2"><a href="#vsto-add-ins">VSTO 加载项</a></td>
         <td>Top 及其后代</td>
         <td>是</td>
-        <td>请参阅<a href="#vsto-add-ins">VSTO 加载项指南</a>。</td>
+        <td>请参阅 <a href="#vsto-add-ins">VSTO 加载项指南</a>。</td>
     </tr>
 <tr>
         <td>指向 Office 的子级父窗口</td>
         <td>否</td>
-        <td>请参阅<a href="#office-compatibility">配置 Office 以优化兼容性</a>。</td>
+        <td>请参阅 <a href="#office-compatibility">配置 Office 以优化兼容性</a>。</td>
 </tr>
     <tr>
         <td rowspan="2"><a href="#custom-task-panes">自定义任务窗格</a></td>
         <td>Top 及其后代</td>
         <td>是</td>
-        <td>请参阅<a href="#top-level-window-management">顶级窗口指南</a>。</td>
+        <td>请参阅 <a href="#top-level-window-management">顶级窗口指南</a>。</td>
     </tr>
 <tr>
         <td>指向 Office 的子级父窗口</td>
         <td>否</td>
-        <td>请参阅<a href="#office-compatibility">配置 Office 以优化兼容性</a>。</td>
+        <td>请参阅 <a href="#office-compatibility">配置 Office 以优化兼容性</a>。</td>
 </tr>
     <tr>
         <td rowspan="2"><a href="#com-add-ins">COM 加载项</a></td>
         <td>Top 及其后代</td>
         <td>是</td>
-        <td>请参阅<a href="#com-add-ins">COM 加载项指南</a>。</td>
+        <td>请参阅 <a href="#com-add-ins">COM 加载项指南</a>。</td>
     </tr>
 <tr>
         <td>指向 Office 的子级父窗口</td>
         <td>否</td>
-        <td>请参阅<a href="#office-compatibility">配置 Office 以优化兼容性</a>。</td>
+        <td>请参阅 <a href="#office-compatibility">配置 Office 以优化兼容性</a>。</td>
 </tr>
     <tr>
         <td rowspan="2"><a href="#activex-controls">ActiveX 控件</a></td>
         <td>Top 及其后代</td>
         <td>是</td>
-        <td>请参阅<a href="#activex-controls">ActiveX 控件指南</a>。</td>
+        <td>请参阅 <a href="#activex-controls">ActiveX 控件指南</a>。</td>
     </tr>
     <tr>
         <td>指向 Office 的子级父窗口</td>
@@ -315,30 +315,30 @@ Windows 10 (版本 1803) 及更高版本的设置可修复应用程序, 使其�
     </tr>
     <tr>
         <td><a href="#web-add-ins">Web 加载项</a></td>
-        <td>NA</td>
+        <td>不适用</td>
         <td>是</td>
-        <td>请参阅<a href="#web-add-ins">Office web 加载项指南</a>。</td>
+        <td>请参阅 <a href="#web-add-ins">Office web 加载项指南</a>。</td>
     </tr>
     <tr>
         <td><a href="#ribbon-extensibility">功能区扩展</a></td>
-        <td>不适用</td>
-        <td>不适用</td>
-        <td>请参阅<a href="#ribbon-extensibility">功能区扩展指南</a>。</td>
+        <td>NA</td>
+        <td>NA</td>
+        <td>请参阅 <a href="#ribbon-extensibility">功能区扩展指南</a>。</td>
     </tr>
     <tr>
         <td><a href="#ole">OLE 服务器或客户端</a></td>
-        <td>不适用</td>
-        <td>不适用</td>
-        <td>请参阅<a href="#ole">OLE 服务器/客户端指南</a>。</td>
+        <td>NA</td>
+        <td>NA</td>
+        <td>请参阅 <a href="#ole">OLE 服务器/客户端指南</a>。</td>
     </tr>
 </tbody>
 </table>
 
 <h3 id="vsto-add-ins">VSTO 加载项</h3>
 
-如果 VSTO 加载项创建的子窗口的父级为任何 Office 窗口, 请确保它们匹配其父窗口的 DPI 感知。 你可以使用 [GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) 函数来获取父窗口的 DPI 感知。 你的子窗口将不会获得任何 DPI 更改通知。 如果您的解决方案不能正确呈现, 则用户需要将 Office 置于兼容模式。
+如果 VSTO 加载项创建的子窗口的父级为任何 Office 窗口，请确保它们匹配其父窗口的 DPI 感知。 你可以使用 [GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) 函数来获取父窗口的 DPI 感知。 你的子窗口将不会获得任何 DPI 更改通知。 如果您的解决方案不能正确呈现，则用户需要将 Office 置于兼容模式。
 
-对于 VSTO 外接程序创建的任何顶级窗口, 都可以将其设置为任何 DPI 感知模式。 下面的示例代码演示如何设置所需的 dpi 感知, 以及如何响应 dpi 更改。 您还需要调整 app.config, 如[Windows Forms 文章中的高 DPI 支持](https://docs.microsoft.com/dotnet/framework/winforms/high-dpi-support-in-windows-forms)中所述。 
+对于 VSTO 外接程序创建的任何顶级窗口，都可以将其设置为任何 DPI 感知模式。 下面的示例代码演示如何设置所需的 DPI 感知，以及如何响应 DPI 更改。 您还需要调整您的 app.config，如 [Windows Forms 文章中的高 DPI 支持](https://docs.microsoft.com/dotnet/framework/winforms/high-dpi-support-in-windows-forms) 中所述。 
 
 ```csharp
 using System;
@@ -456,18 +456,18 @@ namespace SharedModule
 
 <h3 id="custom-task-panes">自定义任务窗格</h3>
 
-Office 将自定义任务窗格创建为子窗口。 在 Windows 秋季创意者更新 (1709) 上运行时, 自定义任务窗格将使用与 Office 相同的 DPI 感知模式运行。 在 Windows 2018 年4月的更新 (1803) 和更高版本上运行时, 自定义任务窗格将使用系统 DPI 感知模式运行。 
+Office 将自定义任务窗格创建为子窗口。 在 Windows 秋季创建者更新 (1709) 上运行时，自定义任务窗格将使用与 Office 相同的 DPI 感知模式运行。 在2018年4月运行更新 (1803) 及更高版本中，自定义任务窗格将使用系统 DPI 感知模式运行。 
 
-由于自定义任务窗格是子窗口, 因此它们无法接收 DPI 通知。 如果它们的绘制不正确, 则用户需要使用[Office DPI 兼容性模式](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d)。
-如果您的自定义任务窗格创建了顶级窗口, 则这些窗口可以在任何 DPI 感知模式下运行, 并接收 DPI 更改通知。 有关详细信息, 请参阅本文中的 "[顶级窗口管理](#top-level-window-management)" 一节。
+由于自定义任务窗格是子窗口，因此它们无法接收 DPI 通知。 如果它们的绘制不正确，则用户需要使用 [OFFICE DPI 兼容性模式](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d)。
+如果您的自定义任务窗格创建了顶级窗口，则这些窗口可以在任何 DPI 感知模式下运行，并接收 DPI 更改通知。 有关详细信息，请参阅本文中的 " [顶级窗口管理](#top-level-window-management) " 一节。
 
 <h3 id="com-add-ins">COM 加载项</h3>
 
-创建顶级窗口的 COM 加载项可以接收 DPI 通知。 应创建[上下文块](#build-a-context-block-for-incoming-thread-calls), 以将线程设置为您想要的窗口的 DPI 感知, 然后创建窗口。 正确处理 DPI 通知的过程很多, 因此请务必阅读[Windows 上的高 DPI 桌面应用程序开发](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics), 以了解更多详细信息。
+创建顶级窗口的 COM 加载项可以接收 DPI 通知。 应创建 [上下文块](#build-a-context-block-for-incoming-thread-calls) ，以将线程设置为您想要的窗口的 DPI 感知，然后创建窗口。 正确处理 DPI 通知的过程很多，因此请务必阅读 [Windows 上的高 DPI 桌面应用程序开发](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics) ，以了解更多详细信息。
 
-当窗口的 DPI 发生更改时, 将发送[WM_DPICHANGED](https://docs.microsoft.com/windows/desktop/hidpi/wm-dpichanged)消息。  在非托管代码中, 此消息由 HWND 的[窗口过程](https://docs.microsoft.com/windows/desktop/winmsg/using-window-procedures)处理。  示例 DPI 更改处理程序代码可在 WM_DPICHANGED 文章中找到。 
+当窗口的 DPI 发生更改时，将发送 [WM_DPICHANGED](https://docs.microsoft.com/windows/desktop/hidpi/wm-dpichanged) 消息。  在非托管代码中，此消息由 HWND 的 [窗口过程](https://docs.microsoft.com/windows/desktop/winmsg/using-window-procedures) 处理。  可以在 WM_DPICHANGED 文章中找到 DPI 更改处理程序代码示例。 
 
-显示为 Office 中的窗口的父级的子窗口的 COM 加载项无法接收 DPI 通知。 如果它们的绘制不正确, 则用户需要使用[Office DPI 兼容性模式](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d)。
+显示为 Office 中的窗口的父级的子窗口的 COM 加载项无法接收 DPI 通知。 如果它们的绘制不正确，则用户需要使用 [OFFICE DPI 兼容性模式](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d)。
 
 <h3 id="activex-controls">ActiveX 控件</h3>
 
@@ -475,9 +475,9 @@ Office 将自定义任务窗格创建为子窗口。 在 Windows 秋季创意者
 
 #### <a name="windowed-activex-controls"></a>窗口化 ActiveX 控件
 
-每次调整控件大小时, 窗口化 ActiveX 控件都会收到 WM_SIZE 消息。  触发此事件时, 事件处理程序代码可以使用控件的 HWND 调用[GetDpiForWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforwindow)函数, 以获取 DPI, 计算比例因子差异, 并根据需要进行调整。 
+每次调整控件大小时，窗口化 ActiveX 控件都会收到 WM_SIZE 消息。  触发此事件时，事件处理程序代码可以使用控件的 HWND 调用 [GetDpiForWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) 函数，以获取 DPI，计算比例因子差异，并根据需要进行调整。 
 
-下面的示例使基于 MFC 的 ActiveX 控件能够响应**OnSize**事件。 
+下面的示例使基于 MFC 的 ActiveX 控件能够响应 **OnSize** 事件。 
 
 ```cpp
 void ChangeWindowFontDPI(HWND hWnd, UINT dpi) 
@@ -532,45 +532,45 @@ m_currentDPI = ::GetDpiForWindow(this->GetSafeHwnd());
 
 #### <a name="windowless-activex-controls"></a>无窗口 ActiveX 控件
 
-不能保证无窗口的 ActiveX 控件具有 HWND。  将 ActiveX 控件插入到文档画布上时, 它将进入设计模式。  在 Office 应用程序中, 当控件处于设计模式时, 承载容器将返回 0, 以调用 >GetWindow () 中的 hDC--: OnDraw 事件中的 hDC-()。  在这种情况下无法检索到可靠的 DPI。 
+不能保证无窗口的 ActiveX 控件具有 HWND。  将 ActiveX 控件插入到文档画布上时，它将进入设计模式。  在 Office 应用程序中，当控件处于设计模式时，承载容器将返回0，以便调用在：： OnDraw 事件中对 hDC >GetWindow ( # A1 进行调用。  在这种情况下无法检索到可靠的 DPI。 
 
-但是, 当控件处于运行时模式时, Office 将返回要在其中绘制控件的 HWND。  在这种情况下, 控件开发人员可以调用[GetDpiForWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforwindow)并获取当前的 DPI 和缩放字体、控件等。 
+但是，当控件处于运行时模式时，Office 将返回要在其中绘制控件的 HWND。  在这种情况下，控件开发人员可以调用 [GetDpiForWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) 并获取当前的 DPI 和缩放字体、控件等。 
 
 <h3 id="ribbon-extensibility">自定义功能区扩展性</h3>
 
-来自 Office 的自定义功能区控件的任何回调都将处于 dpi 线程感知系统 dpi 感知中。  如果您的解决方案需要不同的 DPI 线程感知, 则应实现上下文块以按预期设置线程感知。 有关详细信息, 请参阅[构建上下文块](#build-a-context-block-for-incoming-thread-calls)。
+来自 Office 的自定义功能区控件的任何回调都将处于 DPI 线程感知系统 DPI 感知中。  如果您的解决方案需要不同的 DPI 线程感知，则应实现上下文块以按预期设置线程感知。 有关详细信息，请参阅 [构建上下文块](#build-a-context-block-for-incoming-thread-calls)。
 
 <h3 id="ole">OLE 客户端和服务器</h3>
 
-当 ole 服务器托管在 ole 客户端容器中时, 您当前无法提供当前或受支持的 DPI 信息。 这可能会导致出现问题, 因为当前 Windows 体系结构不支持某些父到子窗口混合模式的组合。 如果 Word 或 Excel 检测到多个监视器具有不同的 DPI 比例, 它们将不支持就地激活。 OLE 服务器将就地激活。 如果您在使用 OLE 服务器交互时遇到问题, 用户将需要使用[Office DPI 兼容性模式](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d)。
+当 OLE 服务器托管在 OLE 客户端容器中时，您当前无法提供当前或受支持的 DPI 信息。 这可能会导致出现问题，因为当前 Windows 体系结构不支持某些父到子窗口混合模式的组合。 如果 Word 或 Excel 检测到多个监视器具有不同的 DPI 比例，它们将不支持就地激活。 OLE 服务器将就地激活。 如果您在使用 OLE 服务器交互时遇到问题，用户将需要使用 [OFFICE DPI 兼容性模式](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d)。
 
 <h3 id="web-add-ins">Office Web 外接程序</h3>
 
-使用 office JavaScript API 构建的 office 外接程序在浏览器控件中运行。 您可以使用在任何 web 应用程序设计中使用的相同技术来处理 DPI 缩放。 许多联机资源可用于帮助设计网页的高分辨率屏幕。
+使用 Office JavaScript API 构建的 office 外接程序在浏览器控件中运行。 您可以使用在任何 web 应用程序设计中使用的相同技术来处理 DPI 缩放。 许多联机资源可用于帮助设计网页的高分辨率屏幕。
 
 ## <a name="verify-that-your-solution-supports-dpi-scaling"></a>验证解决方案是否支持 DPI 缩放
 
-更新应用程序以支持 DPI 缩放后, 应在混合 DPI 环境中验证所做的更改。 当解决方案的窗口从一个显示器移到另一个具有不同的 dpi 值时, 验证您的 UI 代码是否能正确响应 DPI 更改。 有关 DPI 缩放测试技术的详细信息, 请参阅[Windows 上的高 DPI 桌面应用程序开发](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics)。
+更新应用程序以支持 DPI 缩放后，应在混合 DPI 环境中验证所做的更改。 当解决方案的窗口从一个显示器移到另一个具有不同的 DPI 值时，验证您的 UI 代码是否能正确响应 DPI 更改。 有关 DPI 缩放测试技术的详细信息，请参阅 [Windows 上的高 DPI 桌面应用程序开发](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics)。
 
-此外, 您还可以找到以下更有用的技术:
+此外，您还可以找到以下更有用的技术：
 
-- 使用便携式计算机, 可以将主监视器设置为外部监视器, 然后移除便携式计算机。 这将强制主监视器更改为笔记本电脑显示器。
-- 使用开放源代码[WinSpy + + 工具](https://github.com/BissetJ/winspy/releases)来帮助进行调试。 您可以使用它来查看任何窗口的 DPI 感知设置。
-- 通过在 "显示" 选项卡上选择 "对远程会话使用我的所有监视器", 可以使用远程桌面在远程计算机上测试多台监视器, 如以下屏幕截图所示。
+- 使用便携式计算机，可以将主监视器设置为外部监视器，然后移除便携式计算机。 这将强制主监视器更改为笔记本电脑显示器。
+- 使用开放源代码 [WinSpy + + 工具](https://github.com/BissetJ/winspy/releases) 来帮助进行调试。 您可以使用它来查看任何窗口的 DPI 感知设置。
+- 通过在 "显示" 选项卡上选择 "对远程会话使用我的所有监视器"，可以使用远程桌面在远程计算机上测试多台监视器，如以下屏幕截图所示。
 
-![远程桌面连接应用程序显示 "显示" 选项卡, 并选择 "对远程会话使用我的所有监视器"。](./media/remote-desktop-use-all-monitors.png)
+![远程桌面连接应用程序显示 "显示" 选项卡，并选择 "对远程会话使用我的所有监视器"。](./media/remote-desktop-use-all-monitors.png)
 
 ## <a name="see-also"></a>另请参阅
 
 ### <a name="articles"></a>文章
 
-- [开发每个显示器 DPI 感知 WPF 应用程序](https://docs.microsoft.com/windows/desktop/hidpi/declaring-managed-apps-dpi-aware)提供了编写 Win32 桌面应用程序的一般概述和指南。 本文中介绍的许多方法都适用于 Office 扩展性解决方案。
-- [混合模式 dpi 缩放和 DPI 感知 api](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-improvements-for-desktop-applications)具有与 dpi 相关的 api 列表。
-- [开发人员指南-每个监视器 DPI-wpf 预览](https://github.com/Microsoft/WPF-Samples/blob/master/PerMonitorDPI/Developer%20Guide%20-%20Per%20Monitor%20DPI%20-%20WPF%20Preview.docx)覆盖了用于构建 DPI 感知 wpf 应用程序的 wpf 应用程序开发指南。
-- [对于高清晰度显示的 office 支持](https://support.office.com/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d)提供了有关当 DPI 更改时不正确支持 office 解决方案时, 用户如何设置 office 以优化兼容性的信息。
-- [windows 10 周年更新的显示比例更改](https://blogs.technet.microsoft.com/askcore/2016/08/16/display-scaling-changes-for-the-windows-10-anniversary-update/)是一个博客文章, 其中包含随 Windows 10 周年更新引入的更改。 
-- [DPI_AWARENESS_CONTEXT 句柄](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context)包含有关 DPI_AWARENESS_CONTEXT 值和定义的编程详细信息。
-- [Windows 上的高 DPI 桌面应用程序开发](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#testing-your-changes)包含有关测试更改部分中的测试的信息。
+- [开发每个显示器 DPI 感知 WPF 应用程序](https://docs.microsoft.com/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) 提供了编写 Win32 桌面应用程序的一般概述和指南。 本文中介绍的许多方法都适用于 Office 扩展性解决方案。
+- [混合模式 Dpi 缩放和 DPI 感知 api](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-improvements-for-desktop-applications) 具有与 dpi 相关的 api 列表。
+- [开发人员指南-每个监视器 DPI-Wpf 预览](https://github.com/Microsoft/WPF-Samples/blob/master/PerMonitorDPI/Developer%20Guide%20-%20Per%20Monitor%20DPI%20-%20WPF%20Preview.docx) 覆盖了用于构建 DPI 感知 wpf 应用程序的 wpf 应用程序开发指南。
+- [对于高清晰度显示的 office 支持](https://support.office.com/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) 提供了有关当 DPI 更改时不正确支持 office 解决方案时，用户如何设置 office 以优化兼容性的信息。
+- [Windows 10 周年更新的显示比例更改](https://blogs.technet.microsoft.com/askcore/2016/08/16/display-scaling-changes-for-the-windows-10-anniversary-update/) 是一个博客文章，其中包含随 Windows 10 周年更新引入的更改。 
+- [DPI_AWARENESS_CONTEXT 句柄](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context) 具有有关 DPI_AWARENESS_CONTEXT 值和定义的编程详细信息。
+- [Windows 上的高 DPI 桌面应用程序开发](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#testing-your-changes) 包含有关测试更改部分中的测试的信息。
 
 ### <a name="code-samples"></a>代码示例
 

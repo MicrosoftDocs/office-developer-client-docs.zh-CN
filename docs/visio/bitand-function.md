@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm82251398
 localization_priority: Normal
 ms.assetid: c437de23-d2e0-469d-62e6-8eb8b8cfea5c
-description: 返回一个16位二进制数, 只有在 binarynumber1 和 binarynumber2 中的相应位为1时, 才将每位的二进制数设置为1。 否则, 将位设置为0。
-ms.openlocfilehash: 495ad645a422c0333d02a22c3c600dd1e0d567bd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+description: 返回一个16位二进制数，只有在 binarynumber1 和 binarynumber2 中的相应位为1时，才将每位的二进制数设置为1。 否则，将位设置为0。
+ms.openlocfilehash: a3c76a9122d0f02d5ab61460cf3457bb15da4d7b
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409725"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293490"
 ---
 # <a name="bitand-function"></a>BITAND 函数
 
-返回一个16位二进制数, 只有在 binarynumber1 和 binarynumber2 中的相应位为1时, 才将每位的二进制数设置为1。 否则, 将位设置为0。 
+返回一个16位二进制数，只有在 binarynumber1 和 binarynumber2 中的相应位为1时，才将每位的二进制数设置为1。 否则，将位设置为0。 
   
 ## <a name="syntax"></a>语法
 
-BITAND (* * *binarynumber1* * *, * * *binarynumber2* * *) 
+BITAND (***binarynumber1***， ***binarynumber2*** )  
   
 ### <a name="parameters"></a>参数
 
@@ -37,7 +37,7 @@ BITAND (* * *binarynumber1* * *, * * *binarynumber2* * *)
   
 ## <a name="example"></a>示例
 
-BITAND (12, 6)
+BITAND (12，6) 
   
 返回 4。12 = 0...01100。6 = 0...00110。因此，BITAND(12,6) = 0...00100。
   

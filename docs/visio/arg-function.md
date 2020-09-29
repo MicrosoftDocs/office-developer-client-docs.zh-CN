@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 781369e1-fade-ec10-7c51-0f921b5c3b76
 description: 指定调用单元格可以传递到自定义函数的参数，以及当调用单元格未传递该参数的值时自定义函数返回的默认值。返回调用单元格指定的值以及匹配的 argName 参数。
-ms.openlocfilehash: f85c3dc4a49878b034674330f272a63e79c17d49
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3cde7fe55d7bc60d15f32d7ad954443e545af914
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422724"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293483"
 ---
 # <a name="arg-function"></a>ARG 函数
 
@@ -20,14 +20,14 @@ ms.locfileid: "33422724"
   
 ## <a name="syntax"></a>语法
 
-ARG (* * *argName* * *, [* * *defaultValue* * *]) 
+ARG (***argName***，[ ***defaultValue*** ] )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _argName_ <br/> |必需  <br/> |**String** <br/> |调用单元格可以传递给该函数的参数的名称。  <br/> |
-| _默认值_ <br/> |可选  <br/> |**数值** <br/> |如果调用单元格未传入_argName_参数的值, 则由 ARG 返回的值。  <br/> |
+| _默认值_ <br/> |可选  <br/> |**数值** <br/> |如果调用单元格未传入  _argName_ 参数的值，则由 ARG 返回的值。  <br/> |
    
 ## <a name="remarks"></a>说明
 
