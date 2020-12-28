@@ -7,12 +7,12 @@ ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 920f0830a310452962eb5dd1c21be63215bf0f03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7a5cccb77300f36f3e33cd1eccb6c6d278db3120
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289789"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734208"
 ---
 # <a name="lookuprecord-data-block"></a>LookupRecord 数据块
 
@@ -44,29 +44,29 @@ ms.locfileid: "32289789"
 <tr class="odd">
 <td><p>在</p></td>
 <td><p>是</p></td>
-<td><p>一个用于标识要对其执行操作的记录的字符串。 <em>In</em>参数可以包含表、选择查询或 SQL 语句的名称。</p><p><strong>注意</strong>: 指定的记录不能包含存储在链接表或 ODBC 数据源中的数据。</p></td>
+<td><p>一个用于标识要对其执行操作的记录的字符串。 In <em></em>参数可以包含表的名称、选择查询或 SQL 语句。</p><p><strong>注意</strong>：指定的记录不能包括链接表或 ODBC 数据源中存储的数据。</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>
 <td><p>否</p></td>
-<td><p>一个字符串表达式，用于限制对其执行 <strong>LookupRecord</strong> 数据块的数据的范围。 例如, 条件通常等效于 SQL 表达式中的 where 子句, 而不带单词 WHERE。 如果省略条件, 则<strong>LookupRecord</strong>数据块在由<em>In</em>参数指定的整个域上运行。 条件中包括的所有字段还必须是 <em>In</em> 中的字段。</p></td>
+<td><p>一个字符串表达式，用于限制对其执行 <strong>LookupRecord</strong> 数据块的数据的范围。 例如，条件通常等效于一个无单词 WHERE 的 SQL 表达式中的 WHERE 子句。 如果省略条件 <strong>，LookupRecord</strong> 数据块将运行 In 参数 <em>指定的整个域</em> 。 条件中包括的所有字段还必须是 <em>In</em> 中的字段。</p></td>
 </tr>
 <tr class="odd">
-<td><p>别名</p></td>
+<td><p>Alias</p></td>
 <td><p>否</p></td>
-<td><p>为<em>In</em>参数所指定的记录提供可选名称的字符串。 通常用于缩短后续引用的表名称，以防止可能出现的不明引用。 如果不指定 <em>Alias</em>，则会将表或查询名称用作别名。</p></td>
+<td><p>为 In 参数指定的记录提供备用 <em>名称的字符串</em> 。 通常用于缩短后续引用的表名称，以防止可能出现的不明引用。 如果不指定 <em>Alias</em>，则会将表或查询名称用作别名。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果*In*和*Where Condition*参数指定的条件指定了多条记录, **LookupRecord**数据块将只对第一条记录执行操作。
+如果 In 和Where *条件* 参数指定的条件返回多个记录 **，LookupRecord** 数据块将只对第一条记录进行操作。  如果没有与指定条件匹配的记录，Access 将跳过 **LookupRecord** 块中包含的一组操作，就像它是计算为 false 的 **[If](if-then-else-macro-block.md)** 宏块表达式一样。
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何使用 SetReturnVar 操作从已命名的数据宏中返回值。 名为**CurrentServiceRequest**的 ReturnVar 返回给宏或 Visual Basic for Applications (VBA) 子例程, 该子例程称为已命名的数据宏。
+以下示例演示如何使用 SetReturnVar 操作从命名数据宏返回值。 名为 **CurrentServiceRequest** 的 ReturnVar 将返回到宏或Visual Basic for Applications (VBA) 调用命名数据宏的子例程。
 
 **示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
@@ -85,7 +85,7 @@ ms.locfileid: "32289789"
 
 <br/>
 
-下面的示例演示如何使用 RaiseError 操作取消 Before Change data 宏事件。 更新 "分配" 字段后, 将使用 LookupRecord 数据块确定分配的技术人员当前是否已分配给打开的服务请求。 如果为 true, 则取消 "更改前" 事件且不更新记录。
+下面的示例演示如何使用 RaiseError 操作取消 Before Change 数据宏事件。 更新 AssignedTo 字段时，LookupRecord 数据块用于确定当前是否将分配的技术人员分配给打开的服务请求。 如果为 true，则取消 Before Change 事件，并且不会更新记录。
 
 ```vb
     /* Get the name of the technician  */
