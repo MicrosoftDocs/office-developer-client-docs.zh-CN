@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 7728fa2f-4a59-4e86-90f1-4384824598aa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8614441ffa60181366c860b66ef4618ce32106be
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7bdb02f72ba14a36c8a4c218cd5f0631e7145e6a
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413477"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734201"
 ---
 # <a name="pidtagcontroltype-canonical-property"></a>PidTagControlType 规范属性
 
@@ -25,7 +25,7 @@ ms.locfileid: "33413477"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个值, 该值指示对话框中使用的控件的控件类型。 
+包含一个值，该值指示对话框中使用的控件的控件类型。 
   
 |||
 |:-----|:-----|
@@ -36,67 +36,67 @@ ms.locfileid: "33413477"
    
 ## <a name="remarks"></a>说明
 
-此属性可以具有下列值之一:
+此属性可以正好具有以下值之一：
+    
+DTCT_LABEL (0x0000000000) 
   
-DTCT_BUTTON 
+> 对话框标签。
+   
+DTCT_EDIT (0x000000001) 
+  
+> 对话框编辑文本框。
+
+DTCT_LBX (0x000000002) 
+  
+> 对话框列表框。
+    
+DTCT_COMBOBOX (0x000000003) 
+  
+> 对话框组合框。
+
+DTCT_DDLBX (0x000000004) 
+  
+> 对话框下拉列表框。
+
+DTCT_CHECKBOX (0x00000005) 
+  
+> 对话框复选框。
+
+DTCT_GROUPBOX (0x000000006) 
+  
+> 对话框组框。
+  
+DTCT_BUTTON (0x000000007) 
   
 > 对话框按钮控件。
     
-DTCT_CHECKBOX 
-  
-> 对话框复选框。
-    
-DTCT_COMBOBOX 
-  
-> 对话框组合框。
-    
-DTCT_DDLBX 
-  
-> 对话框下拉列表框。
-    
-DTCT_EDIT 
-  
-> 对话框编辑文本框。
-    
-DTCT_GROUPBOX 
-  
-> 对话框分组框。
-    
-DTCT_LABEL 
-  
-> 对话框标签。
-    
-DTCT_LBX 
-  
-> 对话框列表框。
-    
-DTCT_LISTBOX 
-  
-> 对话框列表框。
-    
-DTCT_MVDDLBX 
-  
-> 由 string 类型的多值属性填充的多值列表框。
-    
-DTCT_PAGE 
+DTCT_PAGE (0x00000008) 
   
 > 对话框选项卡式页面。
     
-DTCT_RADIOBUTTON 
+DTCT_RADIOBUTTON (0x00000009) 
   
 > 对话框单选按钮。
+    
+DTCT_MVLISTBOX (0x00000000B) 
+  
+> 由字符串类型的多值属性填充的多值列表框。
+    
+DTCT_MVDDLBX (0x0000000C) 
+  
+> 由字符串类型的多值属性填充的多值下拉列表框。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-mapitags
+mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 
