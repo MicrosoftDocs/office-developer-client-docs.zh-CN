@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: 本文介绍如何配置即时消息 (IM) 客户端应用程序，以便它与 Office 2013 及更高版本中的社交功能集成，例如显示状态以及从联系人卡片发送即时消息等功能。
 localization_priority: Priority
-ms.openlocfilehash: c0094b880bae5cac2cef4236d3ff3edcefd21678
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 3494d42af82c174469272928286c3fc5f847eebc
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819292"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734229"
 ---
 # <a name="integrating-im-applications-with-office"></a>将 IM 应用程序与 Office 集成
 
@@ -55,7 +55,7 @@ Office 2013（及更高版本）提供与 IM 客户端应用程序（包括 Lync
 
 ![Office 2013 中的人员卡片](media/ocom15_peoplecard.png "Office 2013 中的人员卡片")
   
-为了实现与 Office 的集成，IM 客户端应用程序必须实现由 Office 提供的一组接口才能连接到它。 用于此集成的 API 包含在 Microsoft.Office.UC.dll 文件内的 [ UCCollborationLib ](https://docs.microsoft.com/previous-versions/office/communications/ff398475(v=ocs.14)) 命名空间中，该文件与包含 Lync/Skype for Business 的 Office 2013 版本安装在一起。 ** UCCollaborationLib ** 命名空间包含为与 Office 集成而必须实现的接口。 
+为了实现与 Office 的集成，IM 客户端应用程序必须实现由 Office 提供的一组接口才能连接到它。 用于此集成的 API 包含在 Microsoft.Office.UC.dll 文件内的 [ UCCollborationLib ](https://docs.microsoft.com/previous-versions/office/communications/ff398475(v=ocs.14)) 命名空间中，该文件与包含 Lync/Skype for Business 的 Office 2013 版本安装在一起。 **UCCollaborationLib** 命名空间包含为与 Office 集成而必须实现的接口。 
   
 > [!IMPORTANT] 
 > 所需接口的类型库嵌入在 Lync 2013/Skype for Business 中。 对于第三方集成商，仅当目标计算机上安装了 Lync 2013 和 Skype for Business 时，此方法才有效。 如果要使用 Office Standard 进行集成，则需要提取类型库并将其安装在目标计算机上。 [Lync 2013 SDK](https://www.microsoft.com/download/details.aspx?id=36824) 包含 Microsoft.Office.UC.dll 文件。 
@@ -115,7 +115,7 @@ Office 应用程序发现默认 IM 客户端应用程序的过程如下：
     `<authenticationinfo>`
     
    > [!NOTE]
-   > 由于遗留原因，如果 IM 客户端应用程序支持作为参数传入的 Office 版本，则必须将准确值 `<authenticationinfo>` 返回到对 ** GetAuthenticationInfo** 的调用。 
+   > 由于遗留原因，如果 IM 客户端应用程序支持作为参数传入的 Office 版本，则必须将准确值 `<authenticationinfo>` 返回到对 **GetAuthenticationInfo** 的调用。 
   
 4. 如果 IM 客户端应用程序无法返回值，则 Office 应用程序将重新使用下一个受支持的 Office 版本（例如，“14.0.0.0”）来调用 **GetAuthenticationInfo** 方法。 
     
@@ -308,6 +308,10 @@ public object GetInterface(string _version, OIInterface _interface)
 >  Office 2013（或更高版本）应用程序将忽略 **OIFeature** 枚举中的以下常量： 
 > - **oiFeaturePictures** (2) 
 > - **oiFeatureFreeBusyIntegration**
+> - **oiFeaturePhoneNormalization**
+>
+>  Office 365 版本 2011 （或更高版本）应用程序将忽略 **OIFeature** 枚举中的以下常量： 
+> - **oiFeaturePictures** (2) 
 > - **oiFeaturePhoneNormalization**
   
 使用以下代码示例在 IM 客户端应用程序代码中实现 **GetSupportFeatures** 方法。 
@@ -967,7 +971,7 @@ public IMClientContactSubscription CreateSubscription()
 |**AddContact** 方法  <br/> |将联系人添加到订阅对象。  <br/> |
 |**Subscribe** 方法  <br/> |帮助 IM 客户端应用程序监视联系人的状态。  <br/> |
    
-**IContactSubscription** 接口必须包含对其监视的所有 **IContact** 对象的引用（使用数组或 **List**）。 **IContactSubscription.AddContact** 方法为 **IContactSubscription** 对象的基础数据结构添加 **IContact**对象，以便添加要监视状态更改的新联系人。 
+**IContactSubscription** 接口必须包含对其监视的所有 **IContact** 对象的引用（使用数组或 **List**）。 **IContactSubscription.AddContact** 方法为 **IContactSubscription** 对象的基础数据结构添加 **IContact** 对象，以便添加要监视状态更改的新联系人。 
   
 ```cs
 // Store references to all of the IContact objects to subscribe to.
