@@ -6,23 +6,23 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5b57296c-61d7-e517-7ab7-44a9cc1f7ffc
-description: 此数据类型的变量包含二进制值。
-ms.openlocfilehash: 3dcaaf73a04ddc608e68ca7bd1f801d0a5d99bb6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+description: 此变量的数据类型二进制值。
+ms.openlocfilehash: 8299230a30b65ef8fb7856dc74618dd15ae218ac
+ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408122"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061333"
 ---
-# <a name="acctbin"></a>ACCT_BIN
+# <a name="acct_bin"></a>ACCT_BIN
 
-此数据类型的变量包含二进制值。
+此变量的数据类型二进制值。
   
 ## <a name="quick-info"></a>快速信息
 
 ```cpp
 typedef struct { 
-    DWORDcb; 
+    DWORD cb; 
     BYTE * pb; 
 } ACCT_BIN; 
 
@@ -32,7 +32,7 @@ typedef struct {
 
 _cb_
   
-> _pb_指向的字节数。 
+> pb 指向的  _字节_ 数。 
     
 _pb_
   
