@@ -8,12 +8,12 @@ api_type:
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: 上次修改时间：2011 年 7 月 23 日
 localization_priority: Priority
-ms.openlocfilehash: 934bb491c0521b1d76d5400aac4728fbd34ba625
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8b7c02f2ac39875021cd183bbb1657514912fe8d
+ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334867"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061340"
 ---
 # <a name="file-format-of-mapisvcinf"></a>MapiSvc.inf 文件格式
 
@@ -49,4 +49,7 @@ MAPI 提供了 MapiSvc.inf 文件的框架式版本，其中包含 MAPI 子系�
   
 仅将公用配置数据存储到 MapiSvc.inf 文件中。 专用信息或者需要额外保护的信息（如密码或其他凭据）应包括在此文件中。 相反，选择完全不存储此类信息，或者将其作为安全属性存储在配置文件中。 安全属性具有内置的保护功能，如加密。
   
+## <a name="reference"></a>参考
+
+若要详细了解如何在 MAPI 阻止提供商 DLL 时排除故障，请参阅 [如何允许 MAPI 加载未注册的提供商 DLL，](https://support.microsoft.com/topic/how-to-allow-mapi-to-load-unregistered-provider-dlls-18d9a1cd-d3d7-fa10-473e-5dfd62d38b0d)。
 
