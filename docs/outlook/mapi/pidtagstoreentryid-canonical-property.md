@@ -19,70 +19,70 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32278748"
 ---
-# <a name="pidtagstoreentryid-canonical-property"></a><span data-ttu-id="eb8e9-103">PidTagStoreEntryId 规范属性</span><span class="sxs-lookup"><span data-stu-id="eb8e9-103">PidTagStoreEntryId Canonical Property</span></span>
+# <a name="pidtagstoreentryid-canonical-property"></a><span data-ttu-id="ed942-103">PidTagStoreEntryId 规范属性</span><span class="sxs-lookup"><span data-stu-id="ed942-103">PidTagStoreEntryId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="eb8e9-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="eb8e9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ed942-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ed942-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="eb8e9-105">包含对象所在的邮件存储区的唯一条目标识符。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-105">Contains the unique entry identifier of the message store where an object resides.</span></span>
+<span data-ttu-id="ed942-105">包含对象所在的邮件存储的唯一条目标识符。</span><span class="sxs-lookup"><span data-stu-id="ed942-105">Contains the unique entry identifier of the message store where an object resides.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="eb8e9-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="eb8e9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="eb8e9-107">PR_STORE_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="eb8e9-107">PR_STORE_ENTRYID</span></span>  <br/> |
-|<span data-ttu-id="eb8e9-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="eb8e9-108">Identifier:</span></span>  <br/> |<span data-ttu-id="eb8e9-109">0x0FFB</span><span class="sxs-lookup"><span data-stu-id="eb8e9-109">0x0FFB</span></span>  <br/> |
-|<span data-ttu-id="eb8e9-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="eb8e9-110">Data type:</span></span>  <br/> |<span data-ttu-id="eb8e9-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="eb8e9-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="eb8e9-112">区域：</span><span class="sxs-lookup"><span data-stu-id="eb8e9-112">Area:</span></span>  <br/> |<span data-ttu-id="eb8e9-113">ID 属性</span><span class="sxs-lookup"><span data-stu-id="eb8e9-113">ID properties</span></span>  <br/> |
+|<span data-ttu-id="ed942-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="ed942-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ed942-107">PR_STORE_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="ed942-107">PR_STORE_ENTRYID</span></span>  <br/> |
+|<span data-ttu-id="ed942-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="ed942-108">Identifier:</span></span>  <br/> |<span data-ttu-id="ed942-109">0x0FFB</span><span class="sxs-lookup"><span data-stu-id="ed942-109">0x0FFB</span></span>  <br/> |
+|<span data-ttu-id="ed942-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="ed942-110">Data type:</span></span>  <br/> |<span data-ttu-id="ed942-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="ed942-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="ed942-112">区域：</span><span class="sxs-lookup"><span data-stu-id="ed942-112">Area:</span></span>  <br/> |<span data-ttu-id="ed942-113">ID 属性</span><span class="sxs-lookup"><span data-stu-id="ed942-113">ID properties</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="eb8e9-114">注解</span><span class="sxs-lookup"><span data-stu-id="eb8e9-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ed942-114">备注</span><span class="sxs-lookup"><span data-stu-id="ed942-114">Remarks</span></span>
 
-<span data-ttu-id="eb8e9-115">此属性用于使用[IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md)方法打开邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-115">This property is used to open a message store with the [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) method.</span></span> <span data-ttu-id="eb8e9-116">它还用于打开邮件存储区所拥有的任何对象。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-116">It is also used to open any object that is owned by the message store.</span></span> 
+<span data-ttu-id="ed942-115">此属性用于使用 [IMAPISession：：OpenMsgStore 方法打开邮件](imapisession-openmsgstore.md) 存储。</span><span class="sxs-lookup"><span data-stu-id="ed942-115">This property is used to open a message store with the [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) method.</span></span> <span data-ttu-id="ed942-116">它还用于打开邮件存储拥有的任何对象。</span><span class="sxs-lookup"><span data-stu-id="ed942-116">It is also used to open any object that is owned by the message store.</span></span> 
   
-<span data-ttu-id="eb8e9-117">对于邮件存储区, 此属性与存储区自己的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性相同。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-117">For a message store, this property is identical to the store's own **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property.</span></span> <span data-ttu-id="eb8e9-118">客户端应用程序可以使用[IMAPISession:: CompareEntryIDs](imapisession-compareentryids.md)方法比较这两个属性。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-118">A client application can compare the two properties using the [IMAPISession::CompareEntryIDs](imapisession-compareentryids.md) method.</span></span> 
+<span data-ttu-id="ed942-117">对于邮件存储，此属性与[PidTagEntryId](pidtagentryid-canonical-property.md)属性PR_ENTRYID (存储) 属性。</span><span class="sxs-lookup"><span data-stu-id="ed942-117">For a message store, this property is identical to the store's own **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property.</span></span> <span data-ttu-id="ed942-118">客户端应用程序可以使用 [IMAPISession：：CompareEntryIDs](imapisession-compareentryids.md) 方法比较这两个属性。</span><span class="sxs-lookup"><span data-stu-id="ed942-118">A client application can compare the two properties using the [IMAPISession::CompareEntryIDs](imapisession-compareentryids.md) method.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="eb8e9-119">相关资源</span><span class="sxs-lookup"><span data-stu-id="eb8e9-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="ed942-119">相关资源</span><span class="sxs-lookup"><span data-stu-id="ed942-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="eb8e9-120">协议规范</span><span class="sxs-lookup"><span data-stu-id="eb8e9-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="ed942-120">协议规范</span><span class="sxs-lookup"><span data-stu-id="ed942-120">Protocol specifications</span></span>
 
-<span data-ttu-id="eb8e9-121">[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="eb8e9-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ed942-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ed942-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="eb8e9-122">提供对相关 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-122">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="ed942-122">提供对相关协议Exchange Server的引用。</span><span class="sxs-lookup"><span data-stu-id="ed942-122">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="eb8e9-123">[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="eb8e9-123">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ed942-123">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ed942-123">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="eb8e9-124">处理邮件和附件对象。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-124">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="ed942-124">处理邮件和附件对象。</span><span class="sxs-lookup"><span data-stu-id="ed942-124">Handles message and attachment objects.</span></span>
     
-<span data-ttu-id="eb8e9-125">[[毫秒-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="eb8e9-125">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ed942-125">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ed942-125">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="eb8e9-126">在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间进行转换。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-126">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="ed942-126">在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间转换。</span><span class="sxs-lookup"><span data-stu-id="ed942-126">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-<span data-ttu-id="eb8e9-127">[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="eb8e9-127">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ed942-127">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ed942-127">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="eb8e9-128">指定与标记相关的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-128">Specifies the properties and operations related to flagging.</span></span>
+> <span data-ttu-id="ed942-128">指定与标记相关的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="ed942-128">Specifies the properties and operations related to flagging.</span></span>
     
-<span data-ttu-id="eb8e9-129">[[毫秒-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="eb8e9-129">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ed942-129">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ed942-129">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="eb8e9-130">在客户端之间共享邮箱文件夹。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-130">Shares mailbox folders between clients.</span></span>
+> <span data-ttu-id="ed942-130">在客户端之间共享邮箱文件夹。</span><span class="sxs-lookup"><span data-stu-id="ed942-130">Shares mailbox folders between clients.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="eb8e9-131">头文件</span><span class="sxs-lookup"><span data-stu-id="eb8e9-131">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="ed942-131">头文件</span><span class="sxs-lookup"><span data-stu-id="ed942-131">Header files</span></span>
 
-<span data-ttu-id="eb8e9-132">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="eb8e9-132">Mapidefs.h</span></span>
+<span data-ttu-id="ed942-132">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ed942-132">Mapidefs.h</span></span>
   
-> <span data-ttu-id="eb8e9-133">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-133">Provides data type definitions.</span></span>
+> <span data-ttu-id="ed942-133">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="ed942-133">Provides data type definitions.</span></span>
     
-<span data-ttu-id="eb8e9-134">Mapitags</span><span class="sxs-lookup"><span data-stu-id="eb8e9-134">Mapitags.h</span></span>
+<span data-ttu-id="ed942-134">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="ed942-134">Mapitags.h</span></span>
   
-> <span data-ttu-id="eb8e9-135">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="eb8e9-135">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="ed942-135">包含作为备用名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="ed942-135">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="eb8e9-136">另请参阅</span><span class="sxs-lookup"><span data-stu-id="eb8e9-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ed942-136">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ed942-136">See also</span></span>
 
 
 
-[<span data-ttu-id="eb8e9-137">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="eb8e9-137">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="ed942-137">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="ed942-137">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="eb8e9-138">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="eb8e9-138">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="ed942-138">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="ed942-138">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="eb8e9-139">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="eb8e9-139">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="ed942-139">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="ed942-139">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="eb8e9-140">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="eb8e9-140">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="ed942-140">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="ed942-140">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

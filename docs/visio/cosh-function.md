@@ -16,28 +16,28 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421905"
 ---
-# <a name="cosh-function"></a><span data-ttu-id="cc3d6-103">COSH 函数</span><span class="sxs-lookup"><span data-stu-id="cc3d6-103">COSH Function</span></span>
+# <a name="cosh-function"></a><span data-ttu-id="b9762-103">COSH 函数</span><span class="sxs-lookup"><span data-stu-id="b9762-103">COSH Function</span></span>
 
-<span data-ttu-id="cc3d6-104">返回角度的双曲余弦值。</span><span class="sxs-lookup"><span data-stu-id="cc3d6-104">Returns the hyperbolic cosine of an angle.</span></span>
+<span data-ttu-id="b9762-104">返回角度的双曲余弦值。</span><span class="sxs-lookup"><span data-stu-id="b9762-104">Returns the hyperbolic cosine of an angle.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="cc3d6-105">语法</span><span class="sxs-lookup"><span data-stu-id="cc3d6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b9762-105">语法</span><span class="sxs-lookup"><span data-stu-id="b9762-105">Syntax</span></span>
 
-<span data-ttu-id="cc3d6-106">COSH ( *angle*)</span><span class="sxs-lookup"><span data-stu-id="cc3d6-106">COSH( *angle*)</span></span> 
+<span data-ttu-id="b9762-106">COSH ( *角度*) </span><span class="sxs-lookup"><span data-stu-id="b9762-106">COSH( *angle*)</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="cc3d6-107">参数</span><span class="sxs-lookup"><span data-stu-id="cc3d6-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="b9762-107">参数</span><span class="sxs-lookup"><span data-stu-id="b9762-107">Parameters</span></span>
 
-|<span data-ttu-id="cc3d6-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="cc3d6-108">**Name**</span></span>|<span data-ttu-id="cc3d6-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="cc3d6-109">**Required/Optional**</span></span>|<span data-ttu-id="cc3d6-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="cc3d6-110">**Data Type**</span></span>|<span data-ttu-id="cc3d6-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="cc3d6-111">**Description**</span></span>|
+|<span data-ttu-id="b9762-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="b9762-108">**Name**</span></span>|<span data-ttu-id="b9762-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="b9762-109">**Required/Optional**</span></span>|<span data-ttu-id="b9762-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="b9762-110">**Data Type**</span></span>|<span data-ttu-id="b9762-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="b9762-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="cc3d6-112">_angle_</span><span class="sxs-lookup"><span data-stu-id="cc3d6-112">_angle_</span></span> <br/> |<span data-ttu-id="cc3d6-113">必需</span><span class="sxs-lookup"><span data-stu-id="cc3d6-113">Required</span></span>  <br/> |<span data-ttu-id="cc3d6-114">**数值**</span><span class="sxs-lookup"><span data-stu-id="cc3d6-114">**Numeric**</span></span> <br/> |<span data-ttu-id="cc3d6-115">要获取其双曲余弦值的角度。</span><span class="sxs-lookup"><span data-stu-id="cc3d6-115">The angle of which to get the hyperbolic cosine.</span></span>  <br/> |
+| <span data-ttu-id="b9762-112">_angle_</span><span class="sxs-lookup"><span data-stu-id="b9762-112">_angle_</span></span> <br/> |<span data-ttu-id="b9762-113">必需</span><span class="sxs-lookup"><span data-stu-id="b9762-113">Required</span></span>  <br/> |<span data-ttu-id="b9762-114">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="b9762-114">**Numeric**</span></span> <br/> |<span data-ttu-id="b9762-115">要获取其双曲余弦值的角度。</span><span class="sxs-lookup"><span data-stu-id="b9762-115">The angle of which to get the hyperbolic cosine.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="cc3d6-116">说明</span><span class="sxs-lookup"><span data-stu-id="cc3d6-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b9762-116">备注</span><span class="sxs-lookup"><span data-stu-id="b9762-116">Remarks</span></span>
 
-<span data-ttu-id="cc3d6-117">COSH 函数使用弧度, 除非您以*角度*指定不同的度量单位。</span><span class="sxs-lookup"><span data-stu-id="cc3d6-117">The COSH function uses radians unless you specify a different unit of measure in  *angle*  .</span></span> 
+<span data-ttu-id="b9762-117">COSH 函数使用弧度，除非你在 angle 中指定了不同的度量  *单位*  。</span><span class="sxs-lookup"><span data-stu-id="b9762-117">The COSH function uses radians unless you specify a different unit of measure in  *angle*  .</span></span> 
   
-## <a name="example"></a><span data-ttu-id="cc3d6-118">示例</span><span class="sxs-lookup"><span data-stu-id="cc3d6-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b9762-118">示例</span><span class="sxs-lookup"><span data-stu-id="b9762-118">Example</span></span>
 
-<span data-ttu-id="cc3d6-119">COSH(45 deg)</span><span class="sxs-lookup"><span data-stu-id="cc3d6-119">COSH(45 deg)</span></span> 
+<span data-ttu-id="b9762-119">COSH(45 deg)</span><span class="sxs-lookup"><span data-stu-id="b9762-119">COSH(45 deg)</span></span> 
   
-<span data-ttu-id="cc3d6-120">返回 1.3246。</span><span class="sxs-lookup"><span data-stu-id="cc3d6-120">Returns 1.3246.</span></span> 
+<span data-ttu-id="b9762-120">返回 1.3246。</span><span class="sxs-lookup"><span data-stu-id="b9762-120">Returns 1.3246.</span></span> 
   
 

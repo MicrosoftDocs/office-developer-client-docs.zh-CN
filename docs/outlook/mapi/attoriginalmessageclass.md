@@ -15,10 +15,10 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404230"
 ---
-# <a name="attoriginalmessageclass"></a><span data-ttu-id="2c2ee-103">attOriginalMessageClass</span><span class="sxs-lookup"><span data-stu-id="2c2ee-103">attOriginalMessageClass</span></span>
+# <a name="attoriginalmessageclass"></a><span data-ttu-id="c949e-103">attOriginalMessageClass</span><span class="sxs-lookup"><span data-stu-id="c949e-103">attOriginalMessageClass</span></span>
 
-<span data-ttu-id="2c2ee-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2c2ee-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c949e-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c949e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2c2ee-105">邮件类别存储为字符串。</span><span class="sxs-lookup"><span data-stu-id="2c2ee-105">A message class is stored as a string.</span></span> <span data-ttu-id="2c2ee-106">已编码的字符串通常包含邮件类的 MAPI 指定名称。</span><span class="sxs-lookup"><span data-stu-id="2c2ee-106">The encoded string usually holds the MAPI-specified name of the message class.</span></span>
+<span data-ttu-id="c949e-105">邮件类存储为字符串。</span><span class="sxs-lookup"><span data-stu-id="c949e-105">A message class is stored as a string.</span></span> <span data-ttu-id="c949e-106">编码的字符串通常包含邮件类的 MAPI 指定名称。</span><span class="sxs-lookup"><span data-stu-id="c949e-106">The encoded string usually holds the MAPI-specified name of the message class.</span></span>
   
 

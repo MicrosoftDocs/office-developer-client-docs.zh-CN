@@ -19,36 +19,36 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421912"
 ---
-# <a name="sizeddtblbutton"></a><span data-ttu-id="111f7-103">SizedDtblButton</span><span class="sxs-lookup"><span data-stu-id="111f7-103">SizedDtblButton</span></span>
+# <a name="sizeddtblbutton"></a><span data-ttu-id="8a5ab-103">SizedDtblButton</span><span class="sxs-lookup"><span data-stu-id="8a5ab-103">SizedDtblButton</span></span>
 
   
   
-<span data-ttu-id="111f7-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="111f7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8a5ab-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8a5ab-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="111f7-105">创建一个命名的结构, 其中包含用于描述按钮和指定长度的标签的[DTBLBUTTON](dtblbutton.md)结构。</span><span class="sxs-lookup"><span data-stu-id="111f7-105">Creates a named structure that includes a [DTBLBUTTON](dtblbutton.md) structure for describing a button and a label of a specified length.</span></span> 
+<span data-ttu-id="8a5ab-105">创建一个命名结构，其中包含用于描述按钮和指定长度的标签的 [DTBLBUTTON](dtblbutton.md) 结构。</span><span class="sxs-lookup"><span data-stu-id="8a5ab-105">Creates a named structure that includes a [DTBLBUTTON](dtblbutton.md) structure for describing a button and a label of a specified length.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="111f7-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="111f7-106">Header file:</span></span>  <br/> |<span data-ttu-id="111f7-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="111f7-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="111f7-108">相关结构:</span><span class="sxs-lookup"><span data-stu-id="111f7-108">Related structure:</span></span>  <br/> |<span data-ttu-id="111f7-109">**DTBLBUTTON**</span><span class="sxs-lookup"><span data-stu-id="111f7-109">**DTBLBUTTON**</span></span> <br/> |
+|<span data-ttu-id="8a5ab-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="8a5ab-106">Header file:</span></span>  <br/> |<span data-ttu-id="8a5ab-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="8a5ab-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="8a5ab-108">相关结构：</span><span class="sxs-lookup"><span data-stu-id="8a5ab-108">Related structure:</span></span>  <br/> |<span data-ttu-id="8a5ab-109">**DTBLBUTTON**</span><span class="sxs-lookup"><span data-stu-id="8a5ab-109">**DTBLBUTTON**</span></span> <br/> |
    
 ```cpp
 SizedDtblButton (n, u)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="111f7-110">参数</span><span class="sxs-lookup"><span data-stu-id="111f7-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8a5ab-110">参数</span><span class="sxs-lookup"><span data-stu-id="8a5ab-110">Parameters</span></span>
 
- <span data-ttu-id="111f7-111">_n_</span><span class="sxs-lookup"><span data-stu-id="111f7-111">_n_</span></span>
+ <span data-ttu-id="8a5ab-111">_n_</span><span class="sxs-lookup"><span data-stu-id="8a5ab-111">_n_</span></span>
   
-> <span data-ttu-id="111f7-112">要包含在新结构中的标签的长度。</span><span class="sxs-lookup"><span data-stu-id="111f7-112">Length of the label to be included in the new structure.</span></span>
+> <span data-ttu-id="8a5ab-112">要包含在新结构中的标签的长度。</span><span class="sxs-lookup"><span data-stu-id="8a5ab-112">Length of the label to be included in the new structure.</span></span>
     
- <span data-ttu-id="111f7-113">_u_</span><span class="sxs-lookup"><span data-stu-id="111f7-113">_u_</span></span>
+ <span data-ttu-id="8a5ab-113">_u_</span><span class="sxs-lookup"><span data-stu-id="8a5ab-113">_u_</span></span>
   
-> <span data-ttu-id="111f7-114">新结构的名称。</span><span class="sxs-lookup"><span data-stu-id="111f7-114">Name for the new structure.</span></span>
+> <span data-ttu-id="8a5ab-114">新结构的名称。</span><span class="sxs-lookup"><span data-stu-id="8a5ab-114">Name for the new structure.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="111f7-115">说明</span><span class="sxs-lookup"><span data-stu-id="111f7-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8a5ab-115">备注</span><span class="sxs-lookup"><span data-stu-id="8a5ab-115">Remarks</span></span>
 
-<span data-ttu-id="111f7-116">新结构是使用以下成员创建的:</span><span class="sxs-lookup"><span data-stu-id="111f7-116">The new structure is created with the following members:</span></span>
+<span data-ttu-id="8a5ab-116">新结构由以下成员创建：</span><span class="sxs-lookup"><span data-stu-id="8a5ab-116">The new structure is created with the following members:</span></span>
   
 ```
 DTBLBUTTON dtblbutton;
@@ -56,12 +56,12 @@ TCHAR lpszLabel[n];
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="111f7-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="111f7-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8a5ab-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8a5ab-117">See also</span></span>
 
 
 
-[<span data-ttu-id="111f7-118">DTBLBUTTON</span><span class="sxs-lookup"><span data-stu-id="111f7-118">DTBLBUTTON</span></span>](dtblbutton.md)
+[<span data-ttu-id="8a5ab-118">DTBLBUTTON</span><span class="sxs-lookup"><span data-stu-id="8a5ab-118">DTBLBUTTON</span></span>](dtblbutton.md)
 
 
-[<span data-ttu-id="111f7-119">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="111f7-119">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="8a5ab-119">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="8a5ab-119">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

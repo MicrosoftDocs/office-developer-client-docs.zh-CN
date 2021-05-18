@@ -15,40 +15,40 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303729"
 ---
-# <a name="developing-infopath-form-templates-with-code"></a><span data-ttu-id="5d4aa-104">开发包含代码的 InfoPath 表单模板</span><span class="sxs-lookup"><span data-stu-id="5d4aa-104">Developing InfoPath Form Templates with Code</span></span>
+# <a name="developing-infopath-form-templates-with-code"></a><span data-ttu-id="878aa-104">开发包含代码的 InfoPath 表单模板</span><span class="sxs-lookup"><span data-stu-id="878aa-104">Developing InfoPath Form Templates with Code</span></span>
 
-<span data-ttu-id="5d4aa-105">本节中的主题提供有关依据 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间的成员，创建具有用托管代码（Visual Basic 或 C#）编写的业务逻辑的表单模板的信息。</span><span class="sxs-lookup"><span data-stu-id="5d4aa-105">The topics in this section provide information about creating form templates that have business logic written in managed code (Visual Basic or C#) against members of the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace.</span></span> 
+<span data-ttu-id="878aa-105">本节中的主题提供有关依据 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间的成员，创建具有用托管代码（Visual Basic 或 C#）编写的业务逻辑的表单模板的信息。</span><span class="sxs-lookup"><span data-stu-id="878aa-105">The topics in this section provide information about creating form templates that have business logic written in managed code (Visual Basic or C#) against members of the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="5d4aa-106">本节内容</span><span class="sxs-lookup"><span data-stu-id="5d4aa-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="878aa-106">本节内容</span><span class="sxs-lookup"><span data-stu-id="878aa-106">In this section</span></span>
 
-[<span data-ttu-id="5d4aa-107">开发包含代码的表单模板入门</span><span class="sxs-lookup"><span data-stu-id="5d4aa-107">Getting Started Developing Form Templates with Code</span></span>](getting-started-developing-form-templates-with-code.md)
+[<span data-ttu-id="878aa-107">开发包含代码的表单模板入门</span><span class="sxs-lookup"><span data-stu-id="878aa-107">Getting Started Developing Form Templates with Code</span></span>](getting-started-developing-form-templates-with-code.md)
   
-> <span data-ttu-id="5d4aa-108">提供有关如何开始创建托管代码表单模板的信息，这些模板使用由 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间提供的 InfoPath 对象模型。</span><span class="sxs-lookup"><span data-stu-id="5d4aa-108">Provides information about how to start creating managed code form templates that work with the InfoPath object model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace.</span></span> 
+> <span data-ttu-id="878aa-108">提供有关如何开始创建托管代码表单模板的信息，这些模板使用由 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间提供的 InfoPath 对象模型。</span><span class="sxs-lookup"><span data-stu-id="878aa-108">Provides information about how to start creating managed code form templates that work with the InfoPath object model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace.</span></span> 
     
-[<span data-ttu-id="5d4aa-109">了解 InfoPath 对象模型和常见开发任务</span><span class="sxs-lookup"><span data-stu-id="5d4aa-109">Understanding the InfoPath Object Model and Common Developer Tasks</span></span>](understanding-the-infopath-object-model-and-common-developer-tasks.md)
+[<span data-ttu-id="878aa-109">了解 InfoPath 对象模型和常见开发任务</span><span class="sxs-lookup"><span data-stu-id="878aa-109">Understanding the InfoPath Object Model and Common Developer Tasks</span></span>](understanding-the-infopath-object-model-and-common-developer-tasks.md)
   
-> <span data-ttu-id="5d4aa-110">讨论 InfoPath 对象模型，以及与使用 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间提供的对象模型的托管代码表单模板有关的常见编程任务。</span><span class="sxs-lookup"><span data-stu-id="5d4aa-110">Discusses the InfoPath object model, and common programming tasks for managed code form templates that work with the object model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace.</span></span> 
+> <span data-ttu-id="878aa-110">讨论 InfoPath 对象模型，以及与使用 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间提供的对象模型的托管代码表单模板有关的常见编程任务。</span><span class="sxs-lookup"><span data-stu-id="878aa-110">Discusses the InfoPath object model, and common programming tasks for managed code form templates that work with the object model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace.</span></span> 
     
-[<span data-ttu-id="5d4aa-111">具有代码的 InfoPath 表单模板中的安全性</span><span class="sxs-lookup"><span data-stu-id="5d4aa-111">Security in InfoPath Form Templates with Code</span></span>](security-in-infopath-form-templates-with-code.md)
+[<span data-ttu-id="878aa-111">具有代码的 InfoPath 表单模板中的安全性</span><span class="sxs-lookup"><span data-stu-id="878aa-111">Security in InfoPath Form Templates with Code</span></span>](security-in-infopath-form-templates-with-code.md)
   
-> <span data-ttu-id="5d4aa-112">讨论使用托管代码的 InfoPath 表单模板的安全模式以及相关的安全过程。</span><span class="sxs-lookup"><span data-stu-id="5d4aa-112">Discusses the security model for InfoPath form templates that use managed code, and related security procedures.</span></span>
+> <span data-ttu-id="878aa-112">讨论使用托管代码的 InfoPath 表单模板的安全模式以及相关的安全过程。</span><span class="sxs-lookup"><span data-stu-id="878aa-112">Discusses the security model for InfoPath form templates that use managed code, and related security procedures.</span></span>
     
-[<span data-ttu-id="5d4aa-113">使用 SharePoint 和 InfoPath Forms Services</span><span class="sxs-lookup"><span data-stu-id="5d4aa-113">Working with SharePoint and InfoPath Forms Services</span></span>](working-with-sharepoint-and-infopath-forms-services.md)
+[<span data-ttu-id="878aa-113">使用 SharePoint 和 InfoPath Forms Services</span><span class="sxs-lookup"><span data-stu-id="878aa-113">Working with SharePoint and InfoPath Forms Services</span></span>](working-with-sharepoint-and-infopath-forms-services.md)
   
-> <span data-ttu-id="5d4aa-114">讨论为 InfoPath Forms Services 创建的托管代码表单模板中的对象模型支持和功能兼容性。</span><span class="sxs-lookup"><span data-stu-id="5d4aa-114">Discusses object model support and feature compatibility in managed code form templates created for InfoPath Forms Services.</span></span> 
+> <span data-ttu-id="878aa-114">讨论为 InfoPath Forms Services 创建的托管代码表单模板中的对象模型支持和功能兼容性。</span><span class="sxs-lookup"><span data-stu-id="878aa-114">Discusses object model support and feature compatibility in managed code form templates created for InfoPath Forms Services.</span></span> 
     
-[<span data-ttu-id="5d4aa-115">其他 InfoPath 开发概念</span><span class="sxs-lookup"><span data-stu-id="5d4aa-115">Additional InfoPath Development Concepts</span></span>](additional-infopath-development-concepts.md)
+[<span data-ttu-id="878aa-115">其他 InfoPath 开发概念</span><span class="sxs-lookup"><span data-stu-id="878aa-115">Additional InfoPath Development Concepts</span></span>](additional-infopath-development-concepts.md)
   
-> <span data-ttu-id="5d4aa-116">论述与 InfoPath 表单模板开发相关的其他概念。</span><span class="sxs-lookup"><span data-stu-id="5d4aa-116">Discusses additional concepts that relate to InfoPath form template development.</span></span>
+> <span data-ttu-id="878aa-116">论述与 InfoPath 表单模板开发相关的其他概念。</span><span class="sxs-lookup"><span data-stu-id="878aa-116">Discusses additional concepts that relate to InfoPath form template development.</span></span>
     
-## <a name="related-sections"></a><span data-ttu-id="5d4aa-117">相关章节</span><span class="sxs-lookup"><span data-stu-id="5d4aa-117">Related sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="878aa-117">相关章节</span><span class="sxs-lookup"><span data-stu-id="878aa-117">Related sections</span></span>
 
-[<span data-ttu-id="5d4aa-118">InfoPath 开发人员门户</span><span class="sxs-lookup"><span data-stu-id="5d4aa-118">InfoPath Developer Portal</span></span>](https://go.microsoft.com/fwlink?LinkID=11689)
+[<span data-ttu-id="878aa-118">InfoPath 开发人员门户</span><span class="sxs-lookup"><span data-stu-id="878aa-118">InfoPath Developer Portal</span></span>](https://go.microsoft.com/fwlink?LinkID=11689)
   
-> <span data-ttu-id="5d4aa-119">包含许多链接，这些链接指向有关构建自定义 InfoPath 解决方案的技术文章、代码示例、下载内容、支持以及其他 MSDN 文档。</span><span class="sxs-lookup"><span data-stu-id="5d4aa-119">Contains links to technical articles, code samples, downloads, support, and other MSDN documentation on building custom InfoPath solutions.</span></span>
+> <span data-ttu-id="878aa-119">包含许多链接，这些链接指向有关构建自定义 InfoPath 解决方案的技术文章、代码示例、下载内容、支持以及其他 MSDN 文档。</span><span class="sxs-lookup"><span data-stu-id="878aa-119">Contains links to technical articles, code samples, downloads, support, and other MSDN documentation on building custom InfoPath solutions.</span></span>
     
-[<span data-ttu-id="5d4aa-120">Microsoft Office 开发人员中心</span><span class="sxs-lookup"><span data-stu-id="5d4aa-120">Microsoft Office Developer Center</span></span>](https://go.microsoft.com/fwlink?LinkID=27128)
+[<span data-ttu-id="878aa-120">Microsoft Office 开发人员中心</span><span class="sxs-lookup"><span data-stu-id="878aa-120">Microsoft Office Developer Center</span></span>](https://go.microsoft.com/fwlink?LinkID=27128)
   
-> <span data-ttu-id="5d4aa-121">包含许多链接，这些链接指向有关构建自定义 Office 解决方案的技术文章、代码示例、下载内容、支持以及其他 MSDN 文档。</span><span class="sxs-lookup"><span data-stu-id="5d4aa-121">Contains links to technical articles, code samples, downloads, support, and other MSDN documentation on building custom Office solutions.</span></span>
+> <span data-ttu-id="878aa-121">包含许多链接，这些链接指向有关构建自定义 Office 解决方案的技术文章、代码示例、下载内容、支持以及其他 MSDN 文档。</span><span class="sxs-lookup"><span data-stu-id="878aa-121">Contains links to technical articles, code samples, downloads, support, and other MSDN documentation on building custom Office solutions.</span></span>
     
 

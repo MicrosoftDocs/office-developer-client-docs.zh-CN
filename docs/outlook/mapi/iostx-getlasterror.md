@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422297"
 ---
-# <a name="iostxgetlasterror"></a><span data-ttu-id="51f90-103">IOSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="51f90-103">IOSTX::GetLastError</span></span>
+# <a name="iostxgetlasterror"></a><span data-ttu-id="06fbf-103">IOSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="06fbf-103">IOSTX::GetLastError</span></span>
 
   
   
-<span data-ttu-id="51f90-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="51f90-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="06fbf-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="06fbf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="51f90-105">获取有关上一个错误的扩展信息。</span><span class="sxs-lookup"><span data-stu-id="51f90-105">Gets extended information about the last error.</span></span>
+<span data-ttu-id="06fbf-105">获取有关最后一个错误的扩展信息。</span><span class="sxs-lookup"><span data-stu-id="06fbf-105">Gets extended information about the last error.</span></span>
   
 ```cpp
 HRESULT GetLastError( 
@@ -35,38 +35,38 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="51f90-106">参数</span><span class="sxs-lookup"><span data-stu-id="51f90-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="06fbf-106">参数</span><span class="sxs-lookup"><span data-stu-id="06fbf-106">Parameters</span></span>
 
- <span data-ttu-id="51f90-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="51f90-107">_hResult_</span></span>
+ <span data-ttu-id="06fbf-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="06fbf-107">_hResult_</span></span>
   
->  <span data-ttu-id="51f90-108">实时错误代码。</span><span class="sxs-lookup"><span data-stu-id="51f90-108">[in] Error code.</span></span> 
+>  <span data-ttu-id="06fbf-108">[in]错误代码。</span><span class="sxs-lookup"><span data-stu-id="06fbf-108">[in] Error code.</span></span> 
     
- <span data-ttu-id="51f90-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="51f90-109">_ulFlags_</span></span>
+ <span data-ttu-id="06fbf-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="06fbf-109">_ulFlags_</span></span>
   
->  <span data-ttu-id="51f90-110">[] in若要修改行为的标志。</span><span class="sxs-lookup"><span data-stu-id="51f90-110">[in] Flags to modify behavior.</span></span> <span data-ttu-id="51f90-111">该值必须为0。</span><span class="sxs-lookup"><span data-stu-id="51f90-111">This must be 0.</span></span> 
+>  <span data-ttu-id="06fbf-110">[] in若要修改行为的标志。</span><span class="sxs-lookup"><span data-stu-id="06fbf-110">[in] Flags to modify behavior.</span></span> <span data-ttu-id="06fbf-111">这必须为 0。</span><span class="sxs-lookup"><span data-stu-id="06fbf-111">This must be 0.</span></span> 
     
- <span data-ttu-id="51f90-112">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="51f90-112">_lppMAPIError_</span></span>
+ <span data-ttu-id="06fbf-112">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="06fbf-112">_lppMAPIError_</span></span>
   
->  <span data-ttu-id="51f90-113">排除指向包含错误的扩展信息的**MAPIERROR**结构的指针。</span><span class="sxs-lookup"><span data-stu-id="51f90-113">[out] Pointer to the **MAPIERROR** structure that contains the extended information for the error.</span></span> <span data-ttu-id="51f90-114">有关**LPMAPIERROR**的类型定义, 请参阅 mapidefs.h。</span><span class="sxs-lookup"><span data-stu-id="51f90-114">See mapidefs.h for the type definition of **LPMAPIERROR**.</span></span> 
+>  <span data-ttu-id="06fbf-113">[out]指向 **MAPIERROR** 结构的指针，其中包含错误的扩展信息。</span><span class="sxs-lookup"><span data-stu-id="06fbf-113">[out] Pointer to the **MAPIERROR** structure that contains the extended information for the error.</span></span> <span data-ttu-id="06fbf-114">有关 **LPMAPIERROR** 的类型定义，请参阅 mapidefs.h。</span><span class="sxs-lookup"><span data-stu-id="06fbf-114">See mapidefs.h for the type definition of **LPMAPIERROR**.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="51f90-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="51f90-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="06fbf-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="06fbf-115">See also</span></span>
 
 
 
-[<span data-ttu-id="51f90-116">IOSTX::InitSync</span><span class="sxs-lookup"><span data-stu-id="51f90-116">IOSTX::InitSync</span></span>](iostx-initsync.md)
+[<span data-ttu-id="06fbf-116">IOSTX::InitSync</span><span class="sxs-lookup"><span data-stu-id="06fbf-116">IOSTX::InitSync</span></span>](iostx-initsync.md)
   
-[<span data-ttu-id="51f90-117">IOSTX::SetSyncResult</span><span class="sxs-lookup"><span data-stu-id="51f90-117">IOSTX::SetSyncResult</span></span>](iostx-setsyncresult.md)
+[<span data-ttu-id="06fbf-117">IOSTX::SetSyncResult</span><span class="sxs-lookup"><span data-stu-id="06fbf-117">IOSTX::SetSyncResult</span></span>](iostx-setsyncresult.md)
   
-[<span data-ttu-id="51f90-118">IOSTX::SyncBeg</span><span class="sxs-lookup"><span data-stu-id="51f90-118">IOSTX::SyncBeg</span></span>](iostx-syncbeg.md)
+[<span data-ttu-id="06fbf-118">IOSTX::SyncBeg</span><span class="sxs-lookup"><span data-stu-id="06fbf-118">IOSTX::SyncBeg</span></span>](iostx-syncbeg.md)
   
-[<span data-ttu-id="51f90-119">IOSTX::SyncEnd</span><span class="sxs-lookup"><span data-stu-id="51f90-119">IOSTX::SyncEnd</span></span>](iostx-syncend.md)
+[<span data-ttu-id="06fbf-119">IOSTX::SyncEnd</span><span class="sxs-lookup"><span data-stu-id="06fbf-119">IOSTX::SyncEnd</span></span>](iostx-syncend.md)
   
-[<span data-ttu-id="51f90-120">IOSTX::SyncHdrBeg</span><span class="sxs-lookup"><span data-stu-id="51f90-120">IOSTX::SyncHdrBeg</span></span>](iostx-synchdrbeg.md)
+[<span data-ttu-id="06fbf-120">IOSTX::SyncHdrBeg</span><span class="sxs-lookup"><span data-stu-id="06fbf-120">IOSTX::SyncHdrBeg</span></span>](iostx-synchdrbeg.md)
   
-[<span data-ttu-id="51f90-121">IOSTX::SyncHdrEnd</span><span class="sxs-lookup"><span data-stu-id="51f90-121">IOSTX::SyncHdrEnd</span></span>](iostx-synchdrend.md)
+[<span data-ttu-id="06fbf-121">IOSTX::SyncHdrEnd</span><span class="sxs-lookup"><span data-stu-id="06fbf-121">IOSTX::SyncHdrEnd</span></span>](iostx-synchdrend.md)
   
-[<span data-ttu-id="51f90-122">IOSTX : IUnknown</span><span class="sxs-lookup"><span data-stu-id="51f90-122">IOSTX : IUnknown</span></span>](iostxiunknown.md)
+[<span data-ttu-id="06fbf-122">IOSTX : IUnknown</span><span class="sxs-lookup"><span data-stu-id="06fbf-122">IOSTX : IUnknown</span></span>](iostxiunknown.md)
 
 
-[<span data-ttu-id="51f90-123">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="51f90-123">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="06fbf-123">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="06fbf-123">MAPI Constants</span></span>](mapi-constants.md)
 

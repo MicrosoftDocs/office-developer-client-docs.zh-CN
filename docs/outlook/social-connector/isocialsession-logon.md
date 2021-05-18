@@ -15,25 +15,25 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32361038"
 ---
-# <a name="isocialsessionlogon"></a><span data-ttu-id="02068-103">ISocialSession::Logon</span><span class="sxs-lookup"><span data-stu-id="02068-103">ISocialSession::Logon</span></span>
+# <a name="isocialsessionlogon"></a><span data-ttu-id="38530-103">ISocialSession::Logon</span><span class="sxs-lookup"><span data-stu-id="38530-103">ISocialSession::Logon</span></span>
 
-<span data-ttu-id="02068-104">使用指定的用户名和密码登录到社交网络网站。</span><span class="sxs-lookup"><span data-stu-id="02068-104">Logs on to the social network site by using the specified user name and password.</span></span>
+<span data-ttu-id="38530-104">使用指定的用户名和密码登录到社交网络网站。</span><span class="sxs-lookup"><span data-stu-id="38530-104">Logs on to the social network site by using the specified user name and password.</span></span>
   
 ```cpp
 HRESULT _stdcall Logon([in] BSTR username, [in] BSTR password);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="02068-105">参数</span><span class="sxs-lookup"><span data-stu-id="02068-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="38530-105">参数</span><span class="sxs-lookup"><span data-stu-id="38530-105">Parameters</span></span>
 
-<span data-ttu-id="02068-106">_根本_</span><span class="sxs-lookup"><span data-stu-id="02068-106">_username_</span></span>
+<span data-ttu-id="38530-106">_username_</span><span class="sxs-lookup"><span data-stu-id="38530-106">_username_</span></span>
   
-> <span data-ttu-id="02068-107">实时包含要登录的用户名的字符串。</span><span class="sxs-lookup"><span data-stu-id="02068-107">[in] A string that contains the user name to log on.</span></span>
+> <span data-ttu-id="38530-107">[in]包含要登录的用户名的字符串。</span><span class="sxs-lookup"><span data-stu-id="38530-107">[in] A string that contains the user name to log on.</span></span>
     
-<span data-ttu-id="02068-108">_口令_</span><span class="sxs-lookup"><span data-stu-id="02068-108">_password_</span></span>
+<span data-ttu-id="38530-108">_password_</span><span class="sxs-lookup"><span data-stu-id="38530-108">_password_</span></span>
   
-> <span data-ttu-id="02068-109">实时包含要登录的密码的字符串。</span><span class="sxs-lookup"><span data-stu-id="02068-109">[in] A string that contains the password to log on.</span></span>
+> <span data-ttu-id="38530-109">[in]包含要登录的密码的字符串。</span><span class="sxs-lookup"><span data-stu-id="38530-109">[in] A string that contains the password to log on.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="02068-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="02068-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="38530-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="38530-110">See also</span></span>
 
-- [<span data-ttu-id="02068-111">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="02068-111">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="38530-111">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="38530-111">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

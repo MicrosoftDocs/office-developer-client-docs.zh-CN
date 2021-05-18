@@ -16,24 +16,24 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404923"
 ---
-# <a name="contrast-cell-image-properties-section"></a><span data-ttu-id="ee1ce-105">Contrast 单元格（“Image Properties”内容）</span><span class="sxs-lookup"><span data-stu-id="ee1ce-105">Contrast Cell (Image Properties Section)</span></span>
+# <a name="contrast-cell-image-properties-section"></a><span data-ttu-id="fd556-105">Contrast 单元格（“Image Properties”内容）</span><span class="sxs-lookup"><span data-stu-id="fd556-105">Contrast Cell (Image Properties Section)</span></span>
 
-<span data-ttu-id="ee1ce-p102">调整位图图像的对比度。输入 0% 到 49% 之间的值，可以减小图像的对比度；输入 51% 到 100% 之间的值，可以增加图像的对比度。默认值是 50%。</span><span class="sxs-lookup"><span data-stu-id="ee1ce-p102">Adjusts the contrast of a bitmap image. Decrease the contrast of an image by entering a value between 0% and 49%, or increase the contrast by entering a value between 51% and 100%. The default value is 50%.</span></span>
+<span data-ttu-id="fd556-p102">调整位图图像的对比度。输入 0% 到 49% 之间的值，可以减小图像的对比度；输入 51% 到 100% 之间的值，可以增加图像的对比度。默认值是 50%。</span><span class="sxs-lookup"><span data-stu-id="fd556-p102">Adjusts the contrast of a bitmap image. Decrease the contrast of an image by entering a value between 0% and 49%, or increase the contrast by entering a value between 51% and 100%. The default value is 50%.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ee1ce-109">说明</span><span class="sxs-lookup"><span data-stu-id="ee1ce-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fd556-109">备注</span><span class="sxs-lookup"><span data-stu-id="fd556-109">Remarks</span></span>
 
-<span data-ttu-id="ee1ce-110">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Contrast 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="ee1ce-110">To get a reference to the Contrast cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="fd556-110">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Contrast 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="fd556-110">To get a reference to the Contrast cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ee1ce-111">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="ee1ce-111">Cell name:</span></span>  <br/> | <span data-ttu-id="ee1ce-112">对比度</span><span class="sxs-lookup"><span data-stu-id="ee1ce-112">Contrast</span></span>  <br/> |
+| <span data-ttu-id="fd556-111">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="fd556-111">Cell name:</span></span>  <br/> | <span data-ttu-id="fd556-112">对比度</span><span class="sxs-lookup"><span data-stu-id="fd556-112">Contrast</span></span>  <br/> |
    
-<span data-ttu-id="ee1ce-113">要从某个程序按索引获取对 Contrast 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="ee1ce-113">To get a reference to the Contrast cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="fd556-113">要从某个程序按索引获取对 Contrast 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="fd556-113">To get a reference to the Contrast cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ee1ce-114">内容索引：</span><span class="sxs-lookup"><span data-stu-id="ee1ce-114">Section index:</span></span>  <br/> |<span data-ttu-id="ee1ce-115">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="ee1ce-115">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="ee1ce-116">行索引：</span><span class="sxs-lookup"><span data-stu-id="ee1ce-116">Row index:</span></span>  <br/> |<span data-ttu-id="ee1ce-117">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="ee1ce-117">**visRowImage**</span></span> <br/> |
-| <span data-ttu-id="ee1ce-118">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="ee1ce-118">Cell index:</span></span>  <br/> |<span data-ttu-id="ee1ce-119">**visImageContrast**</span><span class="sxs-lookup"><span data-stu-id="ee1ce-119">**visImageContrast**</span></span> <br/> |
+| <span data-ttu-id="fd556-114">内容索引：</span><span class="sxs-lookup"><span data-stu-id="fd556-114">Section index:</span></span>  <br/> |<span data-ttu-id="fd556-115">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="fd556-115">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="fd556-116">行索引：</span><span class="sxs-lookup"><span data-stu-id="fd556-116">Row index:</span></span>  <br/> |<span data-ttu-id="fd556-117">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="fd556-117">**visRowImage**</span></span> <br/> |
+| <span data-ttu-id="fd556-118">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="fd556-118">Cell index:</span></span>  <br/> |<span data-ttu-id="fd556-119">**visImageContrast**</span><span class="sxs-lookup"><span data-stu-id="fd556-119">**visImageContrast**</span></span> <br/> |
    
 

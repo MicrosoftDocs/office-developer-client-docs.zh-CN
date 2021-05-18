@@ -19,53 +19,53 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422241"
 ---
-# <a name="pidtagabproviderid-canonical-property"></a><span data-ttu-id="b0dca-103">PidTagAbProviderId 规范属性</span><span class="sxs-lookup"><span data-stu-id="b0dca-103">PidTagAbProviderId Canonical Property</span></span>
+# <a name="pidtagabproviderid-canonical-property"></a><span data-ttu-id="1a7e9-103">PidTagAbProviderId 规范属性</span><span class="sxs-lookup"><span data-stu-id="1a7e9-103">PidTagAbProviderId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b0dca-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b0dca-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1a7e9-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1a7e9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b0dca-105">包含通讯簿提供程序的[MAPIUID](mapiuid.md)结构。</span><span class="sxs-lookup"><span data-stu-id="b0dca-105">Contains an address book provider's [MAPIUID](mapiuid.md) structure.</span></span> 
+<span data-ttu-id="1a7e9-105">包含通讯簿提供程序的 [MAPIUID](mapiuid.md) 结构。</span><span class="sxs-lookup"><span data-stu-id="1a7e9-105">Contains an address book provider's [MAPIUID](mapiuid.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b0dca-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="b0dca-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b0dca-107">PR_AB_PROVIDER_ID</span><span class="sxs-lookup"><span data-stu-id="b0dca-107">PR_AB_PROVIDER_ID</span></span>  <br/> |
-|<span data-ttu-id="b0dca-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="b0dca-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b0dca-109">0x3615</span><span class="sxs-lookup"><span data-stu-id="b0dca-109">0x3615</span></span>  <br/> |
-|<span data-ttu-id="b0dca-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="b0dca-110">Data type:</span></span>  <br/> |<span data-ttu-id="b0dca-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="b0dca-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="b0dca-112">区域：</span><span class="sxs-lookup"><span data-stu-id="b0dca-112">Area:</span></span>  <br/> |<span data-ttu-id="b0dca-113">通讯簿</span><span class="sxs-lookup"><span data-stu-id="b0dca-113">Address book</span></span>  <br/> |
+|<span data-ttu-id="1a7e9-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="1a7e9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1a7e9-107">PR_AB_PROVIDER_ID</span><span class="sxs-lookup"><span data-stu-id="1a7e9-107">PR_AB_PROVIDER_ID</span></span>  <br/> |
+|<span data-ttu-id="1a7e9-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="1a7e9-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1a7e9-109">0x3615</span><span class="sxs-lookup"><span data-stu-id="1a7e9-109">0x3615</span></span>  <br/> |
+|<span data-ttu-id="1a7e9-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="1a7e9-110">Data type:</span></span>  <br/> |<span data-ttu-id="1a7e9-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="1a7e9-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="1a7e9-112">区域：</span><span class="sxs-lookup"><span data-stu-id="1a7e9-112">Area:</span></span>  <br/> |<span data-ttu-id="1a7e9-113">通讯簿</span><span class="sxs-lookup"><span data-stu-id="1a7e9-113">Address book</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b0dca-114">说明</span><span class="sxs-lookup"><span data-stu-id="b0dca-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1a7e9-114">备注</span><span class="sxs-lookup"><span data-stu-id="1a7e9-114">Remarks</span></span>
 
-<span data-ttu-id="b0dca-115">**MAPIUID**结构标识哪个通讯簿提供程序在容器层次结构中提供此特定容器。</span><span class="sxs-lookup"><span data-stu-id="b0dca-115">The **MAPIUID** structure identifies which address book provider supplies this particular container in the container hierarchy.</span></span> <span data-ttu-id="b0dca-116">每个提供程序的值都是唯一的。</span><span class="sxs-lookup"><span data-stu-id="b0dca-116">The value is unique to each provider.</span></span> 
+<span data-ttu-id="1a7e9-115">**MAPIUID** 结构标识在容器层次结构中提供此特定容器的通讯簿提供程序。</span><span class="sxs-lookup"><span data-stu-id="1a7e9-115">The **MAPIUID** structure identifies which address book provider supplies this particular container in the container hierarchy.</span></span> <span data-ttu-id="1a7e9-116">该值对于每个提供程序都是唯一的。</span><span class="sxs-lookup"><span data-stu-id="1a7e9-116">The value is unique to each provider.</span></span> 
   
-<span data-ttu-id="b0dca-117">通讯簿提供程序可以提供一个以上的标识符。</span><span class="sxs-lookup"><span data-stu-id="b0dca-117">An address book provider can provide more than one identifier.</span></span> <span data-ttu-id="b0dca-118">例如, 提供两个不同容器的提供程序可以在每个容器的**PR_AB_PROVIDER_ID**唯一标识符中发布。</span><span class="sxs-lookup"><span data-stu-id="b0dca-118">For example, a provider that supplies two different containers can publish in **PR_AB_PROVIDER_ID** unique identifiers for each container.</span></span> 
+<span data-ttu-id="1a7e9-117">通讯簿提供程序可以提供多个标识符。</span><span class="sxs-lookup"><span data-stu-id="1a7e9-117">An address book provider can provide more than one identifier.</span></span> <span data-ttu-id="1a7e9-118">例如，提供两个不同容器的提供程序可以在每个容器PR_AB_PROVIDER_ID唯一标识符中发布。</span><span class="sxs-lookup"><span data-stu-id="1a7e9-118">For example, a provider that supplies two different containers can publish in **PR_AB_PROVIDER_ID** unique identifiers for each container.</span></span> 
   
- <span data-ttu-id="b0dca-119">**PR_AB_PROVIDER_ID**类似于邮件存储区的**PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) 属性。</span><span class="sxs-lookup"><span data-stu-id="b0dca-119">**PR_AB_PROVIDER_ID** is analogous to the **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) property for message stores.</span></span> <span data-ttu-id="b0dca-120">客户端应用程序可以使用**PR_AB_PROVIDER_ID**来查找通讯簿层次结构表中的相关行。</span><span class="sxs-lookup"><span data-stu-id="b0dca-120">Client applications can use **PR_AB_PROVIDER_ID** to find related rows in an address book hierarchy table.</span></span> 
+ <span data-ttu-id="1a7e9-119">**PR_AB_PROVIDER_ID** 邮件存储PR_MDB_PROVIDER ([PidTagStoreProvider) PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)属性。 </span><span class="sxs-lookup"><span data-stu-id="1a7e9-119">**PR_AB_PROVIDER_ID** is analogous to the **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) property for message stores.</span></span> <span data-ttu-id="1a7e9-120">客户端 **应用程序可以使用** PR_AB_PROVIDER_ID在通讯簿层次结构表中查找相关行。</span><span class="sxs-lookup"><span data-stu-id="1a7e9-120">Client applications can use **PR_AB_PROVIDER_ID** to find related rows in an address book hierarchy table.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="b0dca-121">相关资源</span><span class="sxs-lookup"><span data-stu-id="b0dca-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="1a7e9-121">相关资源</span><span class="sxs-lookup"><span data-stu-id="1a7e9-121">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="b0dca-122">头文件</span><span class="sxs-lookup"><span data-stu-id="b0dca-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="1a7e9-122">头文件</span><span class="sxs-lookup"><span data-stu-id="1a7e9-122">Header files</span></span>
 
-<span data-ttu-id="b0dca-123">Mapitags</span><span class="sxs-lookup"><span data-stu-id="b0dca-123">Mapitags.h</span></span>
+<span data-ttu-id="1a7e9-123">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="1a7e9-123">Mapitags.h</span></span>
   
-> <span data-ttu-id="b0dca-124">包含列为关联属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="b0dca-124">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="1a7e9-124">包含作为关联属性列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="1a7e9-124">Contains definitions of properties listed as associated properties.</span></span>
     
-<span data-ttu-id="b0dca-125">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="b0dca-125">Mapidefs.h</span></span>
+<span data-ttu-id="1a7e9-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1a7e9-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="b0dca-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="b0dca-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="1a7e9-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="1a7e9-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b0dca-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b0dca-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1a7e9-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1a7e9-127">See also</span></span>
 
 
 
-[<span data-ttu-id="b0dca-128">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="b0dca-128">MAPIUID</span></span>](mapiuid.md)
+[<span data-ttu-id="1a7e9-128">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="1a7e9-128">MAPIUID</span></span>](mapiuid.md)
   
-[<span data-ttu-id="b0dca-129">PidTagStoreProvider 规范属性</span><span class="sxs-lookup"><span data-stu-id="b0dca-129">PidTagStoreProvider Canonical Property</span></span>](pidtagstoreprovider-canonical-property.md)
+[<span data-ttu-id="1a7e9-129">PidTagStoreProvider 规范属性</span><span class="sxs-lookup"><span data-stu-id="1a7e9-129">PidTagStoreProvider Canonical Property</span></span>](pidtagstoreprovider-canonical-property.md)
 
 
-[<span data-ttu-id="b0dca-130">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="b0dca-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="1a7e9-130">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="1a7e9-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b0dca-131">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="b0dca-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="1a7e9-131">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="1a7e9-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b0dca-132">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="b0dca-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="1a7e9-132">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="1a7e9-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

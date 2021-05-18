@@ -19,35 +19,35 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405525"
 ---
-# <a name="cbnewentryid"></a><span data-ttu-id="969cb-103">CbNewENTRYID</span><span class="sxs-lookup"><span data-stu-id="969cb-103">CbNewENTRYID</span></span>
+# <a name="cbnewentryid"></a><span data-ttu-id="d4254-103">CbNewENTRYID</span><span class="sxs-lookup"><span data-stu-id="d4254-103">CbNewENTRYID</span></span>
 
   
   
-<span data-ttu-id="969cb-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="969cb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d4254-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d4254-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="969cb-105">计算为指定大小的新[ENTRYID](entryid.md)结构分配的字节数。</span><span class="sxs-lookup"><span data-stu-id="969cb-105">Computes the number of bytes that should be allocated for a new [ENTRYID](entryid.md) structure of a specified size.</span></span> 
+<span data-ttu-id="d4254-105">计算应为指定大小的新 [ENTRYID](entryid.md) 结构分配的字节数。</span><span class="sxs-lookup"><span data-stu-id="d4254-105">Computes the number of bytes that should be allocated for a new [ENTRYID](entryid.md) structure of a specified size.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="969cb-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="969cb-106">Header file:</span></span>  <br/> |<span data-ttu-id="969cb-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="969cb-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="969cb-108">相关结构:</span><span class="sxs-lookup"><span data-stu-id="969cb-108">Related structure:</span></span>  <br/> |<span data-ttu-id="969cb-109">**ENTRYID**</span><span class="sxs-lookup"><span data-stu-id="969cb-109">**ENTRYID**</span></span> <br/> |
+|<span data-ttu-id="d4254-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="d4254-106">Header file:</span></span>  <br/> |<span data-ttu-id="d4254-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="d4254-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="d4254-108">相关结构：</span><span class="sxs-lookup"><span data-stu-id="d4254-108">Related structure:</span></span>  <br/> |<span data-ttu-id="d4254-109">**ENTRYID**</span><span class="sxs-lookup"><span data-stu-id="d4254-109">**ENTRYID**</span></span> <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="969cb-110">参数</span><span class="sxs-lookup"><span data-stu-id="969cb-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d4254-110">参数</span><span class="sxs-lookup"><span data-stu-id="d4254-110">Parameters</span></span>
 
- <span data-ttu-id="969cb-111">__cb_</span><span class="sxs-lookup"><span data-stu-id="969cb-111">__cb_</span></span>
+ <span data-ttu-id="d4254-111">_ _cb_</span><span class="sxs-lookup"><span data-stu-id="d4254-111">_ _cb_</span></span>
   
-> <span data-ttu-id="969cb-112">要存储在新**ENTRYID**结构中的条目标识符中的字节数。</span><span class="sxs-lookup"><span data-stu-id="969cb-112">Count of bytes in the entry identifier to be stored in the new **ENTRYID** structure.</span></span> 
+> <span data-ttu-id="d4254-112">要存储在新 **ENTRYID** 结构的条目标识符中的字节数。</span><span class="sxs-lookup"><span data-stu-id="d4254-112">Count of bytes in the entry identifier to be stored in the new **ENTRYID** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="969cb-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="969cb-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d4254-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d4254-113">See also</span></span>
 
 
 
-[<span data-ttu-id="969cb-114">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="969cb-114">ENTRYID</span></span>](entryid.md)
+[<span data-ttu-id="d4254-114">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="d4254-114">ENTRYID</span></span>](entryid.md)
 
 
-[<span data-ttu-id="969cb-115">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="969cb-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="d4254-115">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="d4254-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

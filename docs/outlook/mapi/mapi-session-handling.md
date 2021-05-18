@@ -15,34 +15,34 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422059"
 ---
-# <a name="mapi-session-handling"></a><span data-ttu-id="18e34-103">MAPI 会话处理</span><span class="sxs-lookup"><span data-stu-id="18e34-103">MAPI Session Handling</span></span>
+# <a name="mapi-session-handling"></a><span data-ttu-id="c0098-103">MAPI 会话处理</span><span class="sxs-lookup"><span data-stu-id="c0098-103">MAPI Session Handling</span></span>
 
   
   
-<span data-ttu-id="18e34-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="18e34-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c0098-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c0098-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="18e34-105">您必须先建立会话, 然后才能与服务提供商和基础邮件系统通信。</span><span class="sxs-lookup"><span data-stu-id="18e34-105">Before you can communicate with service providers and an underlying messaging system, you must establish a session.</span></span> <span data-ttu-id="18e34-106">MAPI 会话是从客户端到其他 MAPI 组件的链接。</span><span class="sxs-lookup"><span data-stu-id="18e34-106">A MAPI session is a link from a client to other MAPI components.</span></span> <span data-ttu-id="18e34-107">成功启动会话后, MAPI 将向客户端返回一个指向 session 对象的指针, 该对象是一个实现**IMAPISession**接口的对象。</span><span class="sxs-lookup"><span data-stu-id="18e34-107">As the result of successfully starting a session, MAPI returns to clients a pointer to a session object — an object that implements the **IMAPISession** interface.</span></span> <span data-ttu-id="18e34-108">有关详细信息, 请参阅[IMAPISession: IUnknown](imapisessioniunknown.md)。</span><span class="sxs-lookup"><span data-stu-id="18e34-108">For more information, see [IMAPISession : IUnknown](imapisessioniunknown.md).</span></span> <span data-ttu-id="18e34-109">您可以使用**IMAPISession**接口的方法来访问通讯簿和邮件存储提供程序的对象、访问多个表、显示表单、设置传输提供程序属性, 以及执行配置文件和邮件服务管理。</span><span class="sxs-lookup"><span data-stu-id="18e34-109">You can use the methods of the **IMAPISession** interface to access the objects of address book and message store providers, access several tables, display forms, set transport provider properties, and perform profile and message service administration.</span></span> 
+<span data-ttu-id="c0098-105">必须先建立会话，然后才能与服务提供商和基础邮件系统通信。</span><span class="sxs-lookup"><span data-stu-id="c0098-105">Before you can communicate with service providers and an underlying messaging system, you must establish a session.</span></span> <span data-ttu-id="c0098-106">MAPI 会话是一个从客户端到其他 MAPI 组件的链接。</span><span class="sxs-lookup"><span data-stu-id="c0098-106">A MAPI session is a link from a client to other MAPI components.</span></span> <span data-ttu-id="c0098-107">成功启动会话后，MAPI 会向客户端返回指向会话对象的指针，即实现 **IMAPISession 接口** 的对象。</span><span class="sxs-lookup"><span data-stu-id="c0098-107">As the result of successfully starting a session, MAPI returns to clients a pointer to a session object — an object that implements the **IMAPISession** interface.</span></span> <span data-ttu-id="c0098-108">有关详细信息，请参阅 [IMAPISession ： IUnknown](imapisessioniunknown.md)。</span><span class="sxs-lookup"><span data-stu-id="c0098-108">For more information, see [IMAPISession : IUnknown](imapisessioniunknown.md).</span></span> <span data-ttu-id="c0098-109">可以使用 **IMAPISession** 接口的方法访问通讯簿和邮件存储提供程序的对象、访问多个表、显示表单、设置传输提供程序属性以及执行配置文件和邮件服务管理。</span><span class="sxs-lookup"><span data-stu-id="c0098-109">You can use the methods of the **IMAPISession** interface to access the objects of address book and message store providers, access several tables, display forms, set transport provider properties, and perform profile and message service administration.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="18e34-110">本节内容</span><span class="sxs-lookup"><span data-stu-id="18e34-110">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c0098-110">本节内容</span><span class="sxs-lookup"><span data-stu-id="c0098-110">In this section</span></span>
 
-[<span data-ttu-id="18e34-111">启动 MAPI 会话</span><span class="sxs-lookup"><span data-stu-id="18e34-111">Starting a MAPI Session</span></span>](starting-a-mapi-session.md)
+[<span data-ttu-id="c0098-111">启动 MAPI 会话</span><span class="sxs-lookup"><span data-stu-id="c0098-111">Starting a MAPI Session</span></span>](starting-a-mapi-session.md)
   
-> <span data-ttu-id="18e34-112">介绍如何启动 MAPI 会话并包含指向更详细信息的主题的链接。</span><span class="sxs-lookup"><span data-stu-id="18e34-112">Describes how to start a MAPI session and includes links to topics with more detailed information.</span></span>
+> <span data-ttu-id="c0098-112">介绍如何启动 MAPI 会话，并包括指向包含更多详细信息的主题的链接。</span><span class="sxs-lookup"><span data-stu-id="c0098-112">Describes how to start a MAPI session and includes links to topics with more detailed information.</span></span>
     
-[<span data-ttu-id="18e34-113">结束 MAPI 会话</span><span class="sxs-lookup"><span data-stu-id="18e34-113">Ending a MAPI Session</span></span>](ending-a-mapi-session.md)
+[<span data-ttu-id="c0098-113">结束 MAPI 会话</span><span class="sxs-lookup"><span data-stu-id="c0098-113">Ending a MAPI Session</span></span>](ending-a-mapi-session.md)
   
-> <span data-ttu-id="18e34-114">介绍如何结束 MAPI 会话。</span><span class="sxs-lookup"><span data-stu-id="18e34-114">Describes how to end a MAPI session.</span></span>
+> <span data-ttu-id="c0098-114">介绍如何结束 MAPI 会话。</span><span class="sxs-lookup"><span data-stu-id="c0098-114">Describes how to end a MAPI session.</span></span>
     
-[<span data-ttu-id="18e34-115">使用会话访问对象</span><span class="sxs-lookup"><span data-stu-id="18e34-115">Accessing Objects by Using the Session</span></span>](accessing-objects-by-using-the-session.md)
+[<span data-ttu-id="c0098-115">使用会话访问对象</span><span class="sxs-lookup"><span data-stu-id="c0098-115">Accessing Objects by Using the Session</span></span>](accessing-objects-by-using-the-session.md)
   
-> <span data-ttu-id="18e34-116">介绍如何使用会话指针访问 session 对象。</span><span class="sxs-lookup"><span data-stu-id="18e34-116">Describes how to use a session pointer to access session objects.</span></span>
+> <span data-ttu-id="c0098-116">介绍如何使用会话指针访问会话对象。</span><span class="sxs-lookup"><span data-stu-id="c0098-116">Describes how to use a session pointer to access session objects.</span></span>
     
-[<span data-ttu-id="18e34-117">检索主标识和提供程序标识</span><span class="sxs-lookup"><span data-stu-id="18e34-117">Retrieving Primary and Provider Identity</span></span>](retrieving-primary-and-provider-identity.md)
+[<span data-ttu-id="c0098-117">检索主标识和提供程序标识</span><span class="sxs-lookup"><span data-stu-id="c0098-117">Retrieving Primary and Provider Identity</span></span>](retrieving-primary-and-provider-identity.md)
   
-> <span data-ttu-id="18e34-118">介绍用于检索主标识和提供程序标识的属性。</span><span class="sxs-lookup"><span data-stu-id="18e34-118">Describes the properties used to retrieve primary and provider identity.</span></span>
+> <span data-ttu-id="c0098-118">描述用于检索主标识和提供程序标识的属性。</span><span class="sxs-lookup"><span data-stu-id="c0098-118">Describes the properties used to retrieve primary and provider identity.</span></span>
     
-[<span data-ttu-id="18e34-119">状态表和状态对象</span><span class="sxs-lookup"><span data-stu-id="18e34-119">Status Table and Status Objects</span></span>](status-table-and-status-objects.md)
+[<span data-ttu-id="c0098-119">状态表和状态对象</span><span class="sxs-lookup"><span data-stu-id="c0098-119">Status Table and Status Objects</span></span>](status-table-and-status-objects.md)
   
-> <span data-ttu-id="18e34-120">介绍如何访问状态表中的信息。</span><span class="sxs-lookup"><span data-stu-id="18e34-120">Describes how to access information from the status table.</span></span>
+> <span data-ttu-id="c0098-120">介绍如何从状态表访问信息。</span><span class="sxs-lookup"><span data-stu-id="c0098-120">Describes how to access information from the status table.</span></span>
     
 

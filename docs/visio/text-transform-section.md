@@ -16,12 +16,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404160"
 ---
-# <a name="text-transform-section"></a><span data-ttu-id="31aa8-103">“Text Transform”内容</span><span class="sxs-lookup"><span data-stu-id="31aa8-103">Text Transform Section</span></span>
+# <a name="text-transform-section"></a><span data-ttu-id="d652f-103">“Text Transform”内容</span><span class="sxs-lookup"><span data-stu-id="d652f-103">Text Transform Section</span></span>
 
-<span data-ttu-id="31aa8-104">包含与形状的文本块有关的位置信息。</span><span class="sxs-lookup"><span data-stu-id="31aa8-104">Contains positioning information about a shape's text block.</span></span>
+<span data-ttu-id="d652f-104">包含与形状的文本块有关的位置信息。</span><span class="sxs-lookup"><span data-stu-id="d652f-104">Contains positioning information about a shape's text block.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="31aa8-105">说明</span><span class="sxs-lookup"><span data-stu-id="31aa8-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d652f-105">备注</span><span class="sxs-lookup"><span data-stu-id="d652f-105">Remarks</span></span>
 
-<span data-ttu-id="31aa8-106">若要添加此内容，请使用 **“插入内容”** 对话框（在 ShapeSheet 窗口中单击右键，然后单击 **“插入内容”**）。</span><span class="sxs-lookup"><span data-stu-id="31aa8-106">To add this section, use the **Insert Section** dialog box (right-click in the ShapeSheet window and click **Insert Section**).</span></span> <span data-ttu-id="31aa8-107">"**文本转换**" 部分中的设置值相当于使用 "**文本块**" 工具 ("**主页**" 选项卡上的 "**工具**" 组) 使用文本块。</span><span class="sxs-lookup"><span data-stu-id="31aa8-107">Setting values in the **Text Transform** section is comparable to working with the text block by using the **Text Block** tool (the **Tools** group on the **Home** tab).</span></span> 
+<span data-ttu-id="d652f-106">若要添加此内容，请使用 **“插入内容”** 对话框（在 ShapeSheet 窗口中单击右键，然后单击 **“插入内容”**）。</span><span class="sxs-lookup"><span data-stu-id="d652f-106">To add this section, use the **Insert Section** dialog box (right-click in the ShapeSheet window and click **Insert Section**).</span></span> <span data-ttu-id="d652f-107">在"**文本转换**"部分设置值与使用文本块工具处理文本块 **("主页**"选项卡上的"工具") 。  </span><span class="sxs-lookup"><span data-stu-id="d652f-107">Setting values in the **Text Transform** section is comparable to working with the text block by using the **Text Block** tool (the **Tools** group on the **Home** tab).</span></span> 
   
 

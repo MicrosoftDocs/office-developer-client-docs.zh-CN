@@ -16,10 +16,10 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422696"
 ---
-# <a name="creator-function"></a><span data-ttu-id="82d5e-103">CREATOR 函数</span><span class="sxs-lookup"><span data-stu-id="82d5e-103">CREATOR Function</span></span>
+# <a name="creator-function"></a><span data-ttu-id="2e518-103">CREATOR 函数</span><span class="sxs-lookup"><span data-stu-id="2e518-103">CREATOR Function</span></span>
 
-<span data-ttu-id="82d5e-104">返回文档属性的 **“作者”** 域中的文本。</span><span class="sxs-lookup"><span data-stu-id="82d5e-104">Returns the text from the **Author** field of a document's properties.</span></span> 
+<span data-ttu-id="2e518-104">返回文档属性的 **“作者”** 域中的文本。</span><span class="sxs-lookup"><span data-stu-id="2e518-104">Returns the text from the **Author** field of a document's properties.</span></span> 
   
-<span data-ttu-id="82d5e-105">CREATOR ()</span><span class="sxs-lookup"><span data-stu-id="82d5e-105">CREATOR ()</span></span> 
+<span data-ttu-id="2e518-105">CREATOR ()</span><span class="sxs-lookup"><span data-stu-id="2e518-105">CREATOR ()</span></span> 
   
 
