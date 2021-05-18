@@ -25,41 +25,41 @@ ms.locfileid: "32316616"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示未来的周期性任务实例是否需要提醒, 即使**dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) 为 FALSE 也是如此。
+指示以后的定期任务实例是否需要提醒，即使 **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) 为 FALSE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskResetReminder  <br/> |
-|属性集:  <br/> |PSETID_Task  <br/> |
-|长 ID (盖子):  <br/> |0x00008107  <br/> |
+|属性集：  <br/> |PSETID_Task  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008107  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-当任务的提醒被消除时, 此值设置为 TRUE, 否则设置为 FALSE。 如果未设置, 则假定默认值为 FALSE。
+当任务的提醒消除时，此值设置为 TRUE，否则设置为 FALSE。 如果未设置，则假定为默认值 FALSE。
   
-如[[OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)中所指定的那样, **dispidReminderSet**属性指示是否在任务上设置提醒。 但是, 此属性仅指示是否存在针对单个任务的提醒。 不能单独使用它来确定未来的定期任务实例是否需要提醒。 
+如 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)中指定 **，dispidReminderSet** 属性指示是否在任务上设置提醒。 但是，此属性仅指示单个任务上存在提醒。 它不能单独用来确定定期任务的未来实例是否需要提醒。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。
+> 定义几个对象，这些对象对任务、任务分配和任务更新的电子等效项建模。
     
-[[毫秒-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> 指定用于电子邮件和其他对象提醒的属性和交互模型。
+> 指定电子邮件和其他对象提醒的属性和交互模型。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

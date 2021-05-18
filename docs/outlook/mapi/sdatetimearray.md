@@ -25,11 +25,11 @@ ms.locfileid: "33406778"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于描述类型为 PT_MV_SYSTIME 的属性的时间值数组。
+包含一个时间值数组，用于描述类型为 PT_MV_SYSTIME。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SDateTimeArray
@@ -44,15 +44,15 @@ typedef struct _SDateTimeArray
 
  **cValues**
   
-> 由**lpft**成员指向的数组中的值的计数。 
+> **lpft** 成员指向的数组中的值计数。 
     
  **lpft**
   
-> 指向包含时间值的[FILETIME](filetime.md)结构数组的指针。 
+> 指向包含时间值的 [FILETIME](filetime.md) 结构的数组的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关 PT_MV_SYSTIME 的详细信息, 请参阅[属性类型列表](property-types.md)。
+有关属性类型PT_MV_SYSTIME，请参阅 [属性类型列表](property-types.md)。
   
 ## <a name="see-also"></a>另请参阅
 

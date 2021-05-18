@@ -25,11 +25,11 @@ ms.locfileid: "33406323"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-描述用于筛选邮件的附件或收件人表的行的子对象限制。
+描述用于筛选邮件附件或收件人表的行的子对象限制。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SSubRestriction
@@ -44,7 +44,7 @@ typedef struct _SSubRestriction
 
  **ulSubObject**
   
-> 要用作限制目标的子对象的类型。 可能的值如下所示: 
+> 要用作限制目标的子对象的类型。 可能的值如下所示： 
     
 PR_MESSAGE_RECIPIENTS 
   
@@ -56,15 +56,15 @@ PR_MESSAGE_ATTACHMENTS
     
  **lpRes**
   
-> 指向[SRestriction](srestriction.md)结构的指针。 
+> 指向 [SRestriction 结构的](srestriction.md) 指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-不是所有表都支持子对象限制。 通常情况下, 只有 "文件夹内容" 表和 "搜索结果" 文件夹支持它们。 例如, 子对象限制用于查找具有特定类型的附件或收件人的邮件。 
+所有表都不支持子对象限制。 通常，仅文件夹内容表和搜索结果文件夹支持它们。 例如，子对象限制用于查找具有特定附件或收件人类型的邮件。 
   
-如果某一实现不支持子对象限制, 则它将从其[IMAPITable:: Restrict](imapitable-restrict.md)或[IMAPITable:: FindRow](imapitable-findrow.md)方法返回 MAPI_E_TOO_COMPLEX。 
+如果实现不支持子对象限制，它将从 [MAPI_E_TOO_COMPLEX：：Restrict](imapitable-restrict.md) 或 [IMAPITable：：FindRow](imapitable-findrow.md) 方法返回值。 
   
-有关限制的工作原理的一般讨论, 请参阅[关于限制](about-restrictions.md)。 
+有关限制如何工作的一般讨论，请参阅关于 [限制](about-restrictions.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

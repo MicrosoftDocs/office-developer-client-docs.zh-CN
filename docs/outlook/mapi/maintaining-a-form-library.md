@@ -21,16 +21,16 @@ ms.locfileid: "33408801"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-表单库包含有关表单的所有重要信息: 其属性、谓词和其服务器的可执行文件。 某些客户端允许其用户维护、安装或删除表单服务器。 如果要向您的用户提供此功能, 您必须具有以下权限:
+表单库包含有关表单的所有重要信息：其属性、其谓词及其服务器的可执行文件。 某些客户端允许用户维护、安装或删除表单服务器。 如果要向用户提供此功能，则必须有权访问：
   
-- 表单服务器的配置文件, 带有的文件。CFG 扩展。
+- 表单服务器的配置文件，一个包含 的文件。CFG 扩展。
     
-- 表单库的容器对象, 是一个实现[IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md)接口的对象。 
+- 表单库的容器对象，一个实现 [IMAPIFormContainer ： IUnknown 接口](imapiformcontaineriunknown.md) 的对象。 
     
-若要访问配置文件或其路径名, 请使用任何方法都方便。 通常情况下, 客户端会向用户显示一个对话框, 用于安装和删除窗体服务器, 该对话框还可用于提示用户输入配置文件的位置。
+若要访问配置文件或路径名，请使用任何方便的方式。 通常，客户端会向用户显示一个对话框，用于安装和删除表单服务器，该对话框还可用于提示用户输入配置文件的位置。
   
-若要访问表单库的容器, 请调用表单管理器的[IMAPIFormMgr:: OpenFormContainer](imapiformmgr-openformcontainer.md)方法。 传入枚举值以指定要打开的表单库, 如有必要, 将指向表单管理器打开表单库时应使用的对象的指针。 例如, 如果要打开[文件夹表单库](folder-form-libraries.md), 请传递[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)指针。 
+若要访问表单库的容器，请调用表单管理器的 [IMAPIFormMgr：：OpenFormContainer](imapiformmgr-openformcontainer.md) 方法。 传递枚举值以指定要打开的表单库，以及指向表单管理器用于打开表单库的对象的指针（如有必要）。 例如，如果要打开文件夹表单 [库](folder-form-libraries.md)，请传递 [IMAPIFolder ：IMAPIContainer](imapifolderimapicontainer.md) 指针。 
   
-在**OpenFormContainer**返回**IMAPIFormContainer**指针后, 调用[IMAPIFormContainer:: InstallForm](imapiformcontainer-installform.md)或[IMAPIFormContainer:: RemoveForm](imapiformcontainer-removeform.md), 具体取决于要执行的维护。 **InstallForm**将窗体服务器添加到库中;**RemoveForm**从库中删除表单服务器。 
+**OpenFormContainer** 返回 **IMAPIFormContainer** 指针后，根据要执行的维护调用 [IMAPIFormContainer：：InstallForm](imapiformcontainer-installform.md)或 [IMAPIFormContainer：：RemoveForm。](imapiformcontainer-removeform.md) **InstallForm** 将表单服务器添加到库中; **RemoveForm** 从库中删除表单服务器。 
   
 

@@ -1,5 +1,5 @@
 ---
-title: 上传表状态
+title: Upload表状态
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,31 +13,31 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405819"
 ---
-# <a name="upload-table-state"></a>上传表状态
+# <a name="upload-table-state"></a>Upload表状态
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
- 本主题介绍复制状态机的上载表状态过程中发生的情况。 
+ 本主题介绍复制状态机的上载表状态期间发生的情况。 
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|状态标识符:  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |
-|相关数据结构:  <br/> |**[UPTBL](uptbl.md)** <br/> |
-|从此状态:  <br/> |[同步内容状态](synchronize-contents-state.md) <br/> |
-|到此状态:  <br/> |[上载邮件状态](upload-message-state.md)、[上载删除状态状态](upload-delete-status-state.md)、[上传阅读状态状态](upload-read-status-state.md)或同步内容状态  <br/> |
+|状态标识符：  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |
+|相关数据结构：  <br/> |**[UPTBL](uptbl.md)** <br/> |
+|从此状态：  <br/> |[同步内容状态](synchronize-contents-state.md) <br/> |
+|至此状态：  <br/> |[Upload邮件状态、](upload-message-state.md)[上传删除状态、](upload-delete-status-state.md)[上传读取状态或](upload-read-status-state.md)同步内容状态  <br/> |
    
 > [!NOTE]
-> 复制状态计算机是确定的状态机。 客户端从一个状态传出到另一个状态最终必须返回到前者的前一项。 
+> 复制状态机是一个确定性状态机。 从一个状态到另一个状态的客户端最终必须从后者返回到前者。 
   
 ## <a name="description"></a>说明
 
-此状态会启动上传之前的同步内容状态中指定的文件夹的内容。 文件夹可以是 "邮件"、"日历"、"联系人"、"任务"、"便笺" 或 "日记" 文件夹。 在此状态下, Outlook 将创建已添加、修改、移动、删除或标记为已读的项目列表, 并为相应的上传邮件状态、上传删除状态状态或上传阅读状态准备相应的内部信息。状态.
+此状态将启动上载之前同步内容状态中指定的文件夹的内容。 该文件夹可以是邮件、日历、联系人、任务、便笺或日记文件夹。 在此状态中，Outlook创建已添加、修改、移动、删除或标记为已读的项目列表，并为相应的上传邮件状态、上传删除状态或上传读取状态状态准备相应的内部信息。
   
-当此状态结束时, Outlook 会将文件夹标记为同步其内容, 以便在进行其他修改之前不会再次上载内容。 本地存储将返回到同步内容状态。
+当此状态结束时，Outlook将文件夹标记为已同步其内容，以便内容不会再次上载，直到进行其他修改。 本地存储将返回同步内容状态。
   
 ## <a name="see-also"></a>另请参阅
 

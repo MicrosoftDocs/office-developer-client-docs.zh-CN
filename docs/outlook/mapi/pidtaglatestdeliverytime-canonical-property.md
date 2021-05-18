@@ -25,30 +25,30 @@ ms.locfileid: "33407786"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件传输代理 (MTA) 应在何时传递邮件的最新日期和时间。 
+包含邮件传输代理或 MTA (应传递) 的最新日期和时间。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_LATEST_DELIVERY_TIME  <br/> |
 |标识符:  <br/> |0x0019  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果 MTA 无法通过此属性指定的时间传递邮件, 它将取消邮件而不进行传递。 
+如果 MTA 在此属性指定时无法传递邮件，它将取消该邮件而不传递。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

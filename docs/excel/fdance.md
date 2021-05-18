@@ -22,7 +22,7 @@ ms.locfileid: "33409046"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-用于更改活动工作表上的选定单元格的用户定义命令的示例, 直到用户按**ESC**。 当加载了 generic xll 时, 它将创建一个用户定义的菜单 (通用), 通过该菜单可访问此命令。
+示例用户定义命令，该命令将活动工作表上的选定单元格四处更改，直到用户按 **ESC。** 加载 GENERIC.xll 时，它将创建一个用户定义的菜单 Generic，通过该菜单可以访问此命令。
   
 ```cs
 int WINAPI fDance(void);
@@ -30,19 +30,19 @@ int WINAPI fDance(void);
 
 ## <a name="parameters"></a>参数
 
-函数不采用任何参数。
+该函数不采用任何参数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-函数总是返回1。
+函数始终返回 1。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-这是一个漫长的操作示例。 它偶尔调用函数[xlAbort](xlabort.md) 。 这将生成处理器 (帮助协作多任务), 并检查用户是否已按**ESC**取消操作。 如果是这样, 它向用户提供了取消中止的机会。 
+这是一个冗长操作的示例。 它偶尔调用[函数 xlAbort。](xlabort.md) 这样，处理器 (协作多任务) ，并检查用户是否已按 **ESC** 取消操作。 如果是这样，它将为用户提供取消中止的机会。 
   
 ### <a name="example"></a>示例
 
-有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
+有关  `\SAMPLES\GENERIC\GENERIC.C` 此函数的源代码，请参阅 。 
   
 ## <a name="see-also"></a>另请参阅
 

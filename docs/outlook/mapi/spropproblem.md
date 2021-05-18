@@ -29,7 +29,7 @@ ms.locfileid: "33407772"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SPropProblem
@@ -49,15 +49,15 @@ typedef struct _SPropProblem
     
  **ulPropTag**
   
-> 包含错误的属性的属性标记。
+> 具有错误的属性的属性标记。
     
  **scode**
   
-> 描述属性问题的错误值。 此值可以是任何 MAPI [SCODE](scode.md)值。 
+> 描述属性问题的错误值。 此值可以是任何 MAPI [SCODE](scode.md) 值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-从以下方法返回**SPropProblem**结构的数组: 
+从以下方法返回一个 **SPropProblem** 结构数组： 
   
 - [IMAPISupport::DoCopyTo](imapisupport-docopyto.md)
     
@@ -73,9 +73,9 @@ typedef struct _SPropProblem
     
 - [IPropData::HrAddObjProps](ipropdata-hraddobjprops.md)
     
-**SPropProblem**结构包含一个由尝试修改或删除 MAPI 属性的操作产生的**SCODE**错误值。 
+**SPropProblem** 结构包含 **一个 SCODE** 错误值，该值由尝试修改或删除 MAPI 属性的操作导致。 
   
-有关**SPropProblem**结构如何处理与属性相关的错误的详细信息, 请参阅[MAPI 命名属性](mapi-named-properties.md)。 
+有关 **SPropProblem** 结构如何处理与属性相关的错误的详细信息，请参阅 [MAPI Named Properties](mapi-named-properties.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

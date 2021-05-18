@@ -25,7 +25,7 @@ ms.locfileid: "32320039"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件传递用户的搜索关键字, 邮件系统应将邮件的读取报告定向到该用户。
+包含邮件系统应将邮件的阅读报告发送到的邮件用户的搜索密钥。
   
 |||
 |:-----|:-----|
@@ -34,33 +34,33 @@ ms.locfileid: "32320039"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-除非将**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性设置为 TRUE, 否则将忽略此属性。
+除非[PidTagReadReceiptRequested PR_READ_RECEIPT_REQUESTED (PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性设置为 TRUE，否则将忽略此属性。 
   
-如果客户端应用程序要接收读取报告本身, 则可以将此属性设置为未设置, 或将其设置为**PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) 属性中包含的搜索关键字 (在邮件提交时)。
+如果客户端应用程序想要接收已读报告本身，它可以保持该属性未设置，或设置为邮件提交时 **包含在 PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) 属性中的搜索密钥。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定在电子邮件中允许的属性和操作。
+> 指定允许对电子邮件执行的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidef
+Mapidef.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

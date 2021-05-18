@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 364bc5fd-2199-0bb2-142b-9b3b686b2268
-description: '上次修改时间: 2012 年7月2日'
+description: 上次修改时间：2012 年 7 月 2 日
 ms.openlocfilehash: 96f472d67f144a451046ff61a3ed6c6ff2ff9acf
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,19 +17,19 @@ ms.locfileid: "33408984"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-必须先初始化和配置包装的个人文件夹文件 (PST) 存储提供程序, 然后才能将 MAPI 登录到打包的 PST 存储提供程序。 有关详细信息, 请参阅[初始化打包的 PST 存储提供程序](initializing-a-wrapped-pst-store-provider.md)。
+在可以登录到包装的 PST 存储提供程序的 MAPI 之前，您必须初始化和配置包装的个人文件夹文件 (PST) 存储提供程序。 有关详细信息，请参阅初始化 [封装的 PST 存储提供程序](initializing-a-wrapped-pst-store-provider.md)。
   
-初始化和配置打包的 PST 存储区提供程序后, 必须实现两个登录例程。 **[IMSProvider:: Logon](imsprovider-logon.md)** 函数在 MAPI 上登录到打包的 PST 存储提供程序。 **[IMSProvider:: SpoolerLogon](imsprovider-spoolerlogon.md)** 函数将 MAPI 后台处理程序登录到打包的 PST 存储提供程序。 
+初始化并配置包装的 PST 存储提供程序后，必须实现两个登录例程。 **[IMSProvider：：Logon](imsprovider-logon.md)** 函数将 MAPI 记录到包装的 PST 存储提供程序。 **[IMSProvider：：SpoolerLogon](imsprovider-spoolerlogon.md)** 函数将 MAPI 后台处理程序记录到包装的 PST 存储提供程序。 
   
-在本主题中, 通过使用示例包装的 PST 存储区提供程序中的代码示例来演示**IMSProvider:: Logon**函数和**IMSProvider:: SpoolerLogon**函数。 此示例实现了一个用于与复制 API 结合使用的打包的 PST 提供程序。 有关下载和安装示例包装的 pst 存储区提供程序的详细信息, 请参阅[安装示例包装的 pst 存储提供程序](installing-the-sample-wrapped-pst-store-provider.md)。 有关复制 api 的详细信息, 请参阅[关于复制 api](about-the-replication-api.md)。
+在本主题中，使用示例包装 PST 存储提供程序中的代码示例演示 **IMSProvider：：Logon** 函数和 **IMSProvider：：SpoolerLogon** 函数。 该示例实现一个包装的 PST 提供程序，旨在与复制 API 结合使用。 有关下载和安装包装的示例 PST 存储提供程序详细信息，请参阅安装包装的 PST 存储 [提供程序示例](installing-the-sample-wrapped-pst-store-provider.md)。 有关复制 API 的信息，请参阅[关于复制 API。](about-the-replication-api.md)
   
-mapi 和 mapi 后台处理程序登录到包装的 PST 存储提供程序后, 即可使用它。 有关详细信息, 请参阅[使用打包的 PST 存储提供程序](using-a-wrapped-pst-store-provider.md)。
+MAPI 和 MAPI 后台处理程序登录到包装的 PST 存储提供程序后，即可使用。 有关详细信息，请参阅 [使用封装的 PST 存储提供程序](using-a-wrapped-pst-store-provider.md)。
   
 ## <a name="mapi-logon-routine"></a>MAPI 登录例程
 
-在包装的 pst 存储区提供程序初始化之后, 您必须实现**[IMSProvider:: Logon](imsprovider-logon.md)** 函数以将 MAPI 登录到打包的 pst 存储。 此函数验证用户凭据并获取提供程序的配置属性。 您还必须实现该`SetOLFIInOST`函数以设置脱机文件信息 (**[OLFI](olfi.md)** )。 **OLFI**是长期 ID 结构的队列, 包装的 PST 存储提供程序使用这些结构为脱机模式中的新邮件或文件夹分配条目 id。 最后, **IMSProvider:: Logon**函数返回 MAPI 后台处理程序和客户端应用程序可以在`ppMDB`参数中登录到的邮件存储对象。 
+初始化包装的 PST 存储提供程序后，您必须实现 **[IMSProvider：：Logon](imsprovider-logon.md)** 函数以登录到包装的 PST 存储的 MAPI。 此函数验证用户凭据并获取提供程序的配置属性。 还必须实现 函数  `SetOLFIInOST` ，以设置 **[OLFI](olfi.md)** (脱机) 。 **OLFI** 是一个长期 ID 结构的队列，包装的 PST 存储提供程序使用该队列在脱机模式下分配新邮件或文件夹的条目 ID。 最后 **，IMSProvider：：Logon** 函数返回 MAPI 后台处理程序和客户端应用程序可以在 参数中登录的消息存储  `ppMDB` 对象。 
   
-### <a name="cmsproviderlogon-example"></a>CMSProvider:: Logon () 示例
+### <a name="cmsproviderlogon-example"></a>CMSProvider：：Logon () 示例
 
 ```cpp
 STDMETHODIMP CMSProvider::Logon( 
@@ -103,9 +103,9 @@ STDMETHODIMP CMSProvider::Logon(
 
 ## <a name="mapi-spooler-logon-routine"></a>MAPI 后台处理程序登录例程
 
-类似于**IMSProvider:: Logon**, 您必须实现**[IMSProvider:: SpoolerLogon](imsprovider-spoolerlogon.md)** 函数以将 MAPI 后台处理程序记录到包装的 PST 存储中。 MAPI 后台处理程序和客户端应用程序可以登录到的邮件存储对象在`ppMDB`参数中返回。 
+与 **IMSProvider：：Logon** 类似，您必须实现 **[IMSProvider：：SpoolerLogon](imsprovider-spoolerlogon.md)** 函数以将 MAPI 后台处理程序记录到包装的 PST 存储。 参数中返回 MAPI 后台处理程序和客户端应用程序可登录的邮件存储  `ppMDB` 对象。 
   
-### <a name="cmsproviderspoolerlogon-example"></a>CMSProvider:: SpoolerLogon () 示例
+### <a name="cmsproviderspoolerlogon-example"></a>CMSProvider：：SpoolerLogon () 示例
 
 ```cpp
 STDMETHODIMP CMSProvider::SpoolerLogon ( 
@@ -159,9 +159,9 @@ STDMETHODIMP CMSProvider::SpoolerLogon (
 
 ## <a name="see-also"></a>另请参阅
 
-- [关于示例包装的 PST 存储区提供程序](about-the-sample-wrapped-pst-store-provider.md) 
-- [安装示例包装的 PST 存储区提供程序](installing-the-sample-wrapped-pst-store-provider.md) 
-- [初始化打包的 PST 存储区提供程序](initializing-a-wrapped-pst-store-provider.md)
-- [使用包装的 PST 存储区提供程序](using-a-wrapped-pst-store-provider.md)
-- [关闭打包的 PST 存储区提供程序](shutting-down-a-wrapped-pst-store-provider.md)
+- [关于包装的 PST 存储提供程序示例](about-the-sample-wrapped-pst-store-provider.md) 
+- [安装包装的 PST 存储提供程序示例](installing-the-sample-wrapped-pst-store-provider.md) 
+- [初始化包装的 PST 存储提供程序](initializing-a-wrapped-pst-store-provider.md)
+- [使用包装的 PST 存储提供程序](using-a-wrapped-pst-store-provider.md)
+- [关闭包装的 PST 存储提供程序](shutting-down-a-wrapped-pst-store-provider.md)
 

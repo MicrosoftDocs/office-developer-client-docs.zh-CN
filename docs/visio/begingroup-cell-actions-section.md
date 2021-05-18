@@ -25,20 +25,20 @@ ms.locfileid: "33407835"
 |TRUE  <br/> |在此动作之上的菜单中插入分隔符。  <br/> |
 |FALSE  <br/> |未在此动作之上的菜单中插入分隔符（默认值）。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 BeginGroup 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |操作. *名称*。BeginGroup 其中的操作。 *name* 是 Actions 行的名称  <br/> |
+|单元格名称：  <br/> |操作。 *name*.BeginGroup 其中 Actions. *name* 是 Actions 行的名称  <br/> |
    
 若要从某个程序按索引获取对 BeginGroup 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionAction** <br/> |
-|行索引：  <br/> |**visRowAction** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRowAction**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 |单元格索引：  <br/> |**visActionBeginGroup** <br/> |
    
 

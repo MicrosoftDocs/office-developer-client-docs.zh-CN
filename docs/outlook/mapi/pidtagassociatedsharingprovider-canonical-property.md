@@ -21,18 +21,18 @@ ms.locfileid: "33408920"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-确定是否将个人文件夹文件 (PST) 存储提供程序配置为 Microsoft SharePoint 2010 PST。
+确定是否将 PST 存储提供程序 (个人) 文件配置为 Microsoft SharePoint 2010 PST。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ASSOCIATED_SHARING_PROVIDER  <br/> |
 |标识符:  <br/> |0x0EA00048  <br/> |
 |数据类型：  <br/> |PT_CLSID  <br/> |
-|区域：  <br/> |个人存储表 (.pst) 内部  <br/> |
+|区域：  <br/> |内部存储表 (.pst) 存储表  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性指示是否为 Microsoft SharePoint 2010 配置了 PST。 如果该属性不存在, 则 pst 尚未配置为 Microsoft SharePoint 2010 PST。
+此属性指示是否为 Microsoft 2010 SharePoint PST。 如果该属性不存在，则 PST 尚未配置为 Microsoft SharePoint 2010 PST。
   
 ## <a name="see-also"></a>另请参阅
 

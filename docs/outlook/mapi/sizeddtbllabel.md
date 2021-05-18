@@ -23,11 +23,11 @@ ms.locfileid: "33408612"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个命名的结构, 其中包含用于描述标签控件和指定长度的关联标签的[DTBLLABEL](dtbllabel.md)结构。 
+创建一个命名结构，其中包含用于描述标签控件和指定长度的关联标签的 [DTBLLABEL](dtbllabel.md) 结构。 
   
 |||
 |:-----|:-----|
-|在头文件中指定:  <br/> |mapidefs。h  <br/> |
+|在头文件中指定：  <br/> |Mapidefs.h  <br/> |
 |相关结构  <br/> |**DTBLLABEL** <br/> |
    
 ```cpp
@@ -38,22 +38,22 @@ SizedDtblLabel (n, u)
 
 _n_
   
-> 标签的长度。 这包括结尾的 NULL 字符。 
+> 标签的长度。 这包括结束 NULL 字符。 
     
 _u_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SizedDtblLabel**宏允许您在标签中的字符数已知时定义显示表标签。 新结构是使用以下成员创建的: 
+**SizedDtblLabel** 宏允许您在标签中的字符数已知时定义显示表标签。 新结构由以下成员创建： 
   
 ```cpp
 DTBLLABEL dtbllabel;
 TCHAR lpszLabelName[n];
 ```
 
-若要将指向**SizedDtblLabel**宏的结果结构的指针用作**DTBLLABEL**结构指针, 请执行以下转换: 
+若要将指向 **SizedDtblLabel** 宏生成的结构的指针用作 **DTBLLABEL** 结构指针，请执行以下转换： 
   
 ```cpp
 lpDtblLabel = (LPDTBLLABEL) &SizedDtblLabel;

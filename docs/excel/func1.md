@@ -22,7 +22,7 @@ ms.locfileid: "33408913"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-用户定义的工作表函数示例演示了静态字符串值的返回。 当加载了 GENERIC xll 时, 它将注册此函数, 以便可以从工作表中调用它。
+用户定义的工作表函数示例演示静态字符串值的返回。 当加载 GENERIC.xll 时，它会注册此函数，以便可以从工作表中调用它。
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
@@ -30,17 +30,17 @@ LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 
 ## <a name="parameters"></a>参数
 
- _px_(**LPXLOPER**)
+ _px_ (**LPXLOPER**) 
   
-此参数将被忽略, 并且仅用于触发 Microsoft Excel 以调用函数。
+此参数将被忽略，并且只能触发Microsoft Excel调用该函数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
- **LPXLOPER12**: 始终是字符串 "Func1"
+ **LPXLOPER12：** 始终为字符串"Func1"
   
 ### <a name="example"></a>示例
 
-有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
+有关  `\SAMPLES\GENERIC\GENERIC.C` 此函数的源代码，请参阅 。 
   
 ## <a name="see-also"></a>另请参阅
 

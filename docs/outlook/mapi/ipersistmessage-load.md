@@ -25,7 +25,7 @@ ms.locfileid: "32317127"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-为指定的邮件加载窗体。
+为指定邮件加载窗体。
   
 ```cpp
 HRESULT Load(
@@ -40,47 +40,47 @@ HRESULT Load(
 
  _pMessageSite_
   
-> 实时指向要加载的表单的邮件网站的指针。
+> [in]指向要加载的表单的消息网站的指针。
     
  _pMessage_
   
-> 实时指向应为其加载表单的邮件的指针。
+> [in]指向应加载表单的消息的指针。
     
  _ulMessageStatus_
   
-> 实时客户端定义或提供程序定义的标志的位掩码, 从邮件的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性中进行复制, 这些标志提供有关邮件状态的信息。
+> [in]客户端定义或提供程序定义标志的位掩码，从邮件的 **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性复制，提供有关邮件状态的信息。
     
  _ulMessageFlags_
   
-> 实时从邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性中复制的标志的位掩码, 可提供有关邮件状态的进一步信息。
+> [in]从邮件的 **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性复制的标志位掩码，提供有关邮件状态的进一步信息。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 表单已成功加载。
+> 已成功加载表单。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-表单查看者调用**IPersistMessage:: load**方法以加载现有邮件的表单。 
+表单查看器调用 **IPersistMessage：：Load** 方法来加载现有邮件的表单。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
- 仅当窗体处于以下状态之一时, 才会调用**Load** : 
+ **只有在** 表单具有以下状态之一时调用 Load： 
   
-- [即](uninitialized-state.md)
+- [未初始化](uninitialized-state.md)
     
 - [HandsOffAfterSave](handsoffaftersave-state.md)
     
 - [HandsOffFromNormal](handsofffromnormal-state.md)
     
-如果表单查看器在窗体处于任何其他状态时调用**Load** , 则该方法返回 E_UNEXPECTED。 
+如果窗体查看器在窗体位于任何其他状态时调用 **Load，** 该方法将返回E_UNEXPECTED。 
   
-如果您的表单具有对传递给**负载**的活动邮件网站的引用, 请释放原始网站, 因为它将不再使用。 将指针存储到邮件网站和来自_pMessageSite_和_pMessage_参数的消息, 并调用两个对象的[IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法以增加其引用计数。 
+如果您的表单具有对活动邮件网站的引用，而不是传递到 **Load** 的活动邮件网站，请释放原始网站，因为它将不再使用。 从  _pMessageSite_ 和  _pMessage_ 参数存储指向邮件网站和邮件的指针，并调用这两个对象的 [IUnknown：：AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) 方法来增加其引用计数。 
   
-完成**AddRef**后, 将_ulMessageStatus_和_ulMessageFlags_参数中的属性存储到窗体中。 在显示窗体之前将其转换为[正常](normal-state.md)状态, 并通过调用其[IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md)方法来通知注册的查看者。 
+**AddRef** 完成后，将 _ulMessageStatus_ 和 _ulMessageFlags_ 参数中的属性存储到表单中。 在显示表单之前，将表单转换为 [正常](normal-state.md) 状态，并调用其 [IMAPIViewAdviseSink：：OnNewMessage](imapiviewadvisesink-onnewmessage.md) 方法通知注册的查看者。 
   
-如果没有出现任何错误, 则返回 S_OK。 
+如果未发生错误，则返回S_OK。 
   
 ## <a name="see-also"></a>另请参阅
 
@@ -102,9 +102,9 @@ S_OK
 [表单状态](form-states.md)
 
 
-[IPersistStorage:: Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
+[IPersistStorage：：Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
   
-[IPersistStream:: Load](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
+[IPersistStream：：Load](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
   
-[IPersistFile:: Load](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
+[IPersistFile：：Load](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
 

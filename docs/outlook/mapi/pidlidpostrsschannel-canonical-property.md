@@ -25,13 +25,13 @@ ms.locfileid: "32315979"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含来自\<Atom 源\>或\<RSS\> \<通道\>的 XML 中的 title 字段的内容。
+包含 Atom 源或 RSS 通道 XML 中 \< \> \< \> 标题字段 \< 的内容 \> 。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidPostRssChannel  <br/> |
-|属性集:  <br/> |PSETID_PostRss  <br/> |
-|长 ID (盖子):  <br/> |0x00008904  <br/> |
+|属性集：  <br/> |PSETID_PostRss  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008904  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |RSS  <br/> |
    
@@ -39,17 +39,17 @@ ms.locfileid: "32315979"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS] ](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
+[[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
 > 指定表示 RSS 项目的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

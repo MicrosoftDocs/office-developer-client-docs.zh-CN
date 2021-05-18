@@ -19,73 +19,73 @@ ms.locfileid: "33408024"
  
 **适用于**：Outlook 2013 | Outlook 2016 
   
-若要显示进度指示器, 请调用[IMAPIProgress:: GetFlags](imapiprogress-getflags.md)以检索当前标记设置。 
+若要显示进度指示器，请调用 [IMAPIProgress：：GetFlags](imapiprogress-getflags.md) 以检索当前标志设置。 
   
-如果设置了 MAPI_TOP_LEVEL 标志, 请完成以下步骤:
+如果MAPI_TOP_LEVEL，请完成以下步骤：
   
-1. 将变量设置为与操作中要处理的总项数相同。 例如, 如果要复制文件夹的内容, 此值将等于文件夹中的子文件夹数加上邮件数。 
+1. 将变量设置为等于操作中要处理的项目总数。 例如，如果要复制文件夹的内容，则此值将等于文件夹中子文件夹的数量以及邮件数。 
     
-2. 设置一个等于1000的变量除以项目数。 
+2. 将变量设置为等于 1000 除以项目数。 
     
-3. 如果要显示子对象的进度, 请调用进度对象的[IMAPIProgress:: SetLimits](imapiprogress-setlimits.md)方法, 并为三个参数传递以下值: 
+3. 如果要显示子对象的进度，请调用进度对象的 [IMAPIProgress：：SetLimits](imapiprogress-setlimits.md) 方法，并传递以下三个参数的值： 
     
-   - 将_lpulMin_参数设置为0。 
+   - 将  _lpulMin_ 参数设置为 0。 
     
-   - 将_lpulMax_参数设置为1000。 
+   - 将  _lpulMax_ 参数设置为 1000。 
     
-   - 将_lpulFlags_参数设置为 MAPI_TOP_LEVEL。 
+   - 将  _lpulFlags_ 参数设置为 MAPI_TOP_LEVEL。 
     
-4. 对于要处理的每个对象, 请完成以下步骤:
+4. 对于要处理的每个对象，请完成以下步骤：
     
-   1. 调用**IMAPIProgress:: SetLimits**并为三个参数传递以下值: 
+   1. 调用 **IMAPIProgress：：SetLimits** 并传递以下三个参数的值： 
       
-     - 将在步骤2中设置的变量的_lpulMin_参数设置为当前项减去1的乘积。 
+     - 将  _lpulMin_ 参数设置为步骤 2 乘以当前项减 1 中设置的变量。 
       
-     - 将_lpulMax_参数设置为第2步中的变量集与当前对象的乘积。 
+     - 将  _lpulMax_ 参数设置为步骤 2 中与当前对象相乘的变量集。 
       
-     - 将_lpulFlags_参数设置为0。 
+     - 将  _lpulFlags_ 参数设置为 0。 
       
-   2. 执行应对此对象执行的任何处理。 如果这是一个子对象, 并且您想要显示子对象的进度, 请将指向该方法的_lpProgress_参数中的进度对象的指针传递给该方法。 
+   2. 对此对象执行应执行的任何处理。 如果这是一个子对象，并且您希望显示子对象上的进度，则向该方法传递指向  _lpProgress_ 参数中 progress 对象的指针。 
       
-   3. 调用[IMAPIProgress::P rogress](imapiprogress-progress.md)并为三个参数传递以下值: 
+   3. 调用 [IMAPIProgress：:P rogress](imapiprogress-progress.md) 并传递以下三个参数的值： 
       
-     - 将_ulValue_参数设置为第2步中的变量集与当前对象的乘积。 
+     - 将  _ulValue_ 参数设置为步骤 2 中与当前对象相乘的变量集。 
       
-     - 将_ulCount_参数设置为当前对象。 
+     - 将  _ulCount_ 参数设置为当前对象。 
       
-     - 将_ulTotal_参数设置为第1步中的变量集, 即对象的总数。 
+     - 将  _ulTotal_ 参数设置为步骤 1 中设置的变量（对象总数）。 
     
-如果未设置 MAPI_TOP_LEVEL 标志, 请完成以下步骤:
+如果未MAPI_TOP_LEVEL，请完成以下步骤：
   
-1. 调用进度对象的[IMAPIProgress:: GetMin](imapiprogress-getmin.md)方法以检索显示的最小值。 
+1. 调用进度对象的 [IMAPIProgress：：GetMin](imapiprogress-getmin.md) 方法来检索显示器的最小值。 
     
-2. 调用[IMAPIProgress:: GetMax](imapiprogress-getmax.md)检索显示的最大值。 
+2. 调用 [IMAPIProgress：：GetMax](imapiprogress-getmax.md) 以检索显示器的最大值。 
     
-3. 将变量设置为与要处理的对象总数相等的值。 
+3. 设置一个等于要处理的对象总数的变量。 
     
-4. 将变量设置为与最大值相减的最小值, 然后除以对象总数所得的结果。
+4. 将变量设置为等于最大值减去最小值后除以对象总数的结果。
     
-5. 对于要处理的每个对象, 请完成以下步骤:
+5. 对于要处理的每个对象，请完成以下步骤：
     
-   1. 如果提供程序显示子数据子数据的进度, 则调用**IMAPIProgress:: SetLimits** , 并为三个参数传递以下值: 
+   1. 如果提供程序显示子对象的进度，请调用 **IMAPIProgress：：SetLimits** 并传递以下三个参数的值： 
       
-     - 将_lpulMin_参数设置为最小值加上当前项目减去1乘以步骤4中的变量集。 
+     - 将  _lpulMin_ 参数设置为最小值加上当前项减去 1 乘以步骤 4 中设置的变量。 
       
-     - 将_lpulMax_参数设置为最小值加上当前单位乘以步骤4中的变量集。 
+     - 将  _lpulMax_ 参数设置为最小值加上当前单位乘以步骤 4 中设置的变量。 
       
-     - 将_lpulFlags_参数设置为0。 
+     - 将  _lpulFlags_ 参数设置为 0。 
       
-   2. 执行应对此对象执行的任何处理。 如果对象是一个子对象, 并且您的提供程序显示子对象的进度, 则将指向该方法的_lpProgress_参数中的进度对象的指针传递给该方法。 
+   2. 对此对象执行应执行的任何处理。 如果对象是子对象，并且您的提供程序显示子对象的进度，则向该方法传递指向  _lpProgress_ 参数中 progress 对象的指针。 
       
-   3. 调用[IMAPIProgress::P rogress](imapiprogress-progress.md)并为三个参数传递以下值: 
+   3. 调用 [IMAPIProgress：:P rogress](imapiprogress-progress.md) 并传递以下三个参数的值： 
       
-     - 将步骤2中的变量集的_ulValue_参数设置为当前对象的乘积。 
+     - 将  _ulValue_ 参数设置为步骤 2 中与当前对象相乘的变量集。 
       
-     - 将_ulCount_参数设置为0。 
+     - 将  _ulCount 参数_ 设置为 0。 
       
-     - 将_ulTotal_参数设置为0。 
+     - 将  _ulTotal_ 参数设置为 0。 
     
-下面的代码示例演示在复制包含五个子文件夹的文件夹内容的操作的所有级别上显示进度所需的逻辑。 
+以下代码示例演示了在复制包含五个子文件夹的文件夹的内容的操作的所有级别显示进度所需的逻辑。 
   
 ```cpp
 lpProgress->GetFlags (lpulFlags);

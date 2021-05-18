@@ -25,43 +25,43 @@ ms.locfileid: "32316623"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含提供有关定期任务的信息的 RecurrencePattern 结构。
+包含一个 RecurrencePattern 结构，该结构提供有关定期任务的信息。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskRecur  <br/> |
-|属性集:  <br/> |PSETID_Task  <br/> |
-|长 ID (盖子):  <br/> |0x00008116  <br/> |
+|属性集：  <br/> |PSETID_Task  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008116  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-有关如何创建和指定 RecurrencePattern 结构的信息, 请参阅[创建简单的重复性任务项](how-to-create-a-simple-recurrent-task-item.md)。
+若要了解如何创建和指定 RecurrencePattern 结构，请参阅创建 [简单重复性任务项](how-to-create-a-simple-recurrent-task-item.md)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议Exchange Server引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
-[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。
+> 定义几个对象，这些对象对任务、任务分配和任务更新的电子等效项建模。
     
-[[毫秒-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> 指定用于电子邮件和其他对象提醒的属性和交互模型。
+> 指定电子邮件和其他对象提醒的属性和交互模型。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

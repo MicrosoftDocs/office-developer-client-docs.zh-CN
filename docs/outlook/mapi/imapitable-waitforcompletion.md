@@ -25,7 +25,7 @@ ms.locfileid: "33407058"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在对表进行的一个或多个异步操作完成之前, 挂起处理。
+在表上的一个或多个异步操作完成之前暂停处理。
   
 ```cpp
 HRESULT WaitForCompletion(
@@ -39,15 +39,15 @@ ULONG FAR * lpulTableStatus
 
  _ulFlags_
   
-> 保留必须为零。
+> 保留;必须为零。
     
  _ulTimeout_
   
-> 实时要等待异步操作或操作完成的最大毫秒数。 若要无限期地等待完成, 请将_ulTimeout_设置为0xffffffff。 
+> [in]等待异步操作完成的最大毫秒数。 若要无限期地等待直到完成，请设置  _ulTimeout_ 以0xFFFFFFFF。 
     
  _lpulTableStatus_
   
-> [in, out]在输入时, 可以是有效的指针或 NULL。 在输出时, 如果_lpulTableStatus_是有效的指针, 则指向表的最新状态。 如果_lpulTableStatus_为 NULL, 则不返回任何状态信息。 如果**WaitForCompletion**返回的 HRESULT 值不成功, 则_lpulTableStatus_的内容未定义。 
+> [in， out]在输入时，有效指针或 NULL。 在输出上，如果  _lpulTableStatus_ 是有效的指针，则它指向表的最新状态。 如果  _lpulTableStatus_ 为 NULL，则不返回任何状态信息。 如果 **WaitForCompletion** 返回不成功的 HRESULT 值，  _则 lpulTableStatus_ 的内容未定义。 
     
 ## <a name="return-value"></a>返回值
 
@@ -57,15 +57,15 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> 该表不支持等待异步操作的完成。
+> 该表不支持等待异步操作完成。
     
 MAPI_E_TIMEOUT 
   
-> 未在指定时间内完成异步操作或操作。
+> 异步操作没有在指定的时间完成。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPITable:: WaitForCompletion**方法将挂起处理, 直到对表的当前正下方的任何异步操作完成。 **WaitForCompletion**可以允许异步操作完全完成或运行一定的毫秒数 (由_ulTimeout_指示), 然后才会被中断。 若要检测正在进行的异步操作, 请调用[IMAPITable:: GetStatus](imapitable-getstatus.md)方法。 
+**IMAPITable：：WaitForCompletion 方法将暂停** 处理，直到表当前正在执行的任何异步操作完成。 **WaitForCompletion** 可以允许异步操作完全完成或运行一定数量的毫秒，如  _ulTimeout_ 所指示，然后再中断。 若要检测正在进行中的异步操作，请调用 [IMAPITable：：GetStatus](imapitable-getstatus.md) 方法。 
   
 ## <a name="see-also"></a>另请参阅
 

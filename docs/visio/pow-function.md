@@ -22,7 +22,7 @@ ms.locfileid: "33406309"
   
 ## <a name="syntax"></a>语法
 
-POW (* * *number* * *, * **指数** *) 
+POW (** *number* **， ** *exponent* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -31,13 +31,13 @@ POW (* * *number* * *, * **指数** *)
 | _number_ <br/> |必需  <br/> |**Number** <br/> |要计算其指数次幂的数字。  <br/> |
 | _exponent_ <br/> |必需  <br/> |**Number** <br/> |指数。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-_number_和_指数_都不能为非整数, 也可以是负数。 如果_number_不是0而_指数_为 0, 则此函数返回1。 如果_number_为0而_指数_为负, 则此函数返回0.0。 如果_number_和_指数_均为 0, 或者_number_为负值且_指数_不是整数, 则此函数返回0.0。 如果_number_和_指数_均为负, 则此函数将返回-1 #IND。 
+_number_ 和 _exponent_ 可能是非整数，并且可能是负数。 如果  _number_ 不为 0，  _指数_ 为 0，则此函数返回 1。 如果  _number_ 为  _0，指数为_ 负数，则此函数返回 0.0。 如果  _number 和_  _exponent_ 都为 0，或者  _number_ 为负数且  _exponent_ 不是整数，则此函数返回 0.0。 如果  _number 和_  _exponent_ 都是负数，则此函数返回 -1.#IND。 
   
 ## <a name="example"></a>示例
 
-POW (5, 2) 
+POW (5，2)  
   
 返回 25。 
   

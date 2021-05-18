@@ -21,22 +21,22 @@ ms.locfileid: "33407233"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
- **将新的邮件服务添加到配置文件并访问新的邮件服务**
+ **向配置文件添加新邮件服务并访问新邮件服务**
   
-调用[IMsgServiceAdmin2:: CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md)。 **CreateMsgServiceEx**执行以下任务: 
+调用 [IMsgServiceAdmin2：：CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md)。 **CreateMsgServiceEx** 执行以下任务： 
   
-1. 复制 mapisvc.inf 中的邮件服务的所有相关信息。INF 文件, 为每个提供程序部分创建一个配置文件部分。
+1. 复制 MAPISVC 中邮件服务的所有相关信息。INF 文件，创建每个提供程序节的配置文件部分。
     
-2. 调用邮件服务的入口点函数**MSGSERVICEENTRY**, 并将_ulContext_参数设置为 MSG_SERVICE_CREATE。 
+2. 调用邮件服务的入口点函数 **MSGSERVICEENTRY，ulContext** 参数设置为MSG_SERVICE_CREATE。 
     
-3. 设置和检索邮件服务的**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 属性。
+3. 使用[PidTagServiceUid](pidtagserviceuid-canonical-property.md)  PR_SERVICE_UID (和检索邮件) 。
     
  **访问任何新添加的邮件服务**
   
-1. 调用[IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md)以检索邮件服务表。 
+1. 调用 [IMsgServiceAdmin：：GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) 以检索邮件服务表。 
     
-2. 调用邮件服务表的[IMAPITable:: Advise](imapitable-advise.md)方法以注册表通知。 
+2. 调用消息服务表的 [IMAPITable：：Advise](imapitable-advise.md) 方法以注册表通知。 
     
-3. 当 MAPI 发送 TABLE_ROW_ADDED 通知时, 请在[TABLE_NOTIFICATION](table_notification.md)结构中包含的[SRow](srow.md)结构中查找新添加的邮件服务的条目标识符。 
+3. 当 MAPI 发送TABLE_ROW_ADDED通知时，在邮件结构中包含的[SRow](srow.md)结构中找到新添加的邮件服务的[TABLE_NOTIFICATION标识符。](table_notification.md) 
     
 

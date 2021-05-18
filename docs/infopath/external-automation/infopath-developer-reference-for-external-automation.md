@@ -19,7 +19,7 @@ ms.locfileid: "32310141"
 
 欢迎使用 InfoPath 2013 外部自动化开发人员参考。本文档提供了概述、编程任务和类库引用信息，以帮助您创建用于从外部应用程序或加载项自动化 InfoPath 的托管代码解决方案。
   
-有关使用包含编写在托管代码中的业务逻辑的 infopath 表单模板的详细信息, 请参阅[InfoPath 2013 开发人员对表单模板的开发人员参考](https://go.microsoft.com/fwlink/?LinkId=159764)。
+有关使用包含用托管代码编写的业务逻辑的 InfoPath 表单模板详细信息，请参阅 [InfoPath 2013 开发人员参考表单模板](https://go.microsoft.com/fwlink/?LinkId=159764)。
   
 此参考的发布日期：2012 年 10 月
   

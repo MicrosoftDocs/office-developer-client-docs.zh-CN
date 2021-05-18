@@ -25,14 +25,14 @@ ms.locfileid: "33405847"
   
 ## <a name="syntax"></a>语法
 
-PATHLENGTH (* * *section* * * * * *[, segment]* * *) 
+PATHLENGTH (** *section* ** ** *[，segment]* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |必需  <br/> |**String** <br/> |Geometry 节代表路径，通过对其 Path 单元格的引用指定（例如 Geometry1.Path）。  <br/> |
-| _段落_ <br/> |可选  <br/> |**Integer** <br/> |要度量的路径段（从 1 开始）。  <br/> |
+| _segment_ <br/> |可选  <br/> |**Integer** <br/> |要度量的路径段（从 1 开始）。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
@@ -40,8 +40,8 @@ PATHLENGTH (* * *section* * * * * *[, segment]* * *)
   
 ## <a name="remarks"></a>备注
 
-如果_section_或_segment_不存在, Microsoft Visio 将返回 #REF!。 
+如果  _section_ 或  _segment_ 不存在，Microsoft Visio 将返回 #REF！。 
   
-如果包含_线段_值, 则 PATHLENGTH 仅返回该线段的长度。 
+如果  _包含段值_ ，PATHLENGTH 将仅返回该线段的长度。 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33405903"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回用于对邮件服务进行更改的[IMsgServiceAdmin](imsgserviceadminiunknown.md)指针。 
+返回一 [个 IMsgServiceAdmin](imsgserviceadminiunknown.md) 指针，用于对邮件服务进行更改。 
   
 ```cpp
 HRESULT AdminServices(
@@ -38,21 +38,21 @@ HRESULT AdminServices(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lppServiceAdmin_
   
-> 排除指向邮件服务管理对象的指针的指针。
+> [out]指向指向邮件服务管理对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功返回了指向邮件服务管理对象的指针。
+> 已成功返回指向邮件服务管理对象的指针。
     
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-**IMAPISession:: AdminServices**方法创建一个邮件服务管理对象, 该对象是一个支持**IMsgServiceAdmin**接口的对象, 并返回一个指针。 通过使用此指针, 可以调用**IMsgServiceAdmin**方法来更改会话配置文件中的任何邮件服务。 请注意, 这些更改在下次会话之前不会生效;当前会话不受影响。 
+**IMAPISession：：AdminServices** 方法创建一个邮件服务管理对象，该对象支持 **IMsgServiceAdmin** 接口并返回一个指针。 通过使用此指针，可以调用 **IMsgServiceAdmin** 方法来更改会话配置文件中的任意邮件服务。 请注意，这些更改直到下一个会话才会生效;当前会话不受影响。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -60,7 +60,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions  <br/> |GetServerName  <br/> |MFCMAPI 使用**IMAPISession:: AdminServices**方法访问配置文件以读取服务器名称。  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |GetServerName  <br/> |MFCMAPI 使用 **IMAPISession：：AdminServices** 方法访问配置文件以读取服务器名称。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

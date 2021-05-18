@@ -25,7 +25,7 @@ ms.locfileid: "33407569"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-检查表单的上次保存以来所做的更改。
+检查表单中自上次保存以来所做的更改。
   
 ```cpp
 HRESULT IsDirty( void );
@@ -39,15 +39,15 @@ HRESULT IsDirty( void );
 
 S_OK 
   
-> 表单包含自上次保存以来所做的更改。
+> 表单具有自上次保存以来所做的更改。
     
 S_FALSE 
   
-> 表单不包含自上次保存以来所做的更改。
+> 表单没有自上次保存以来所做的更改。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单查看者调用**IPersistMessage:: IsDirty**方法, 以确定邮件是否有未保存的数据。 
+表单查看器调用 **IPersistMessage：：IsDirty** 方法以确定邮件是否包含未保存的数据。 
   
 ## <a name="see-also"></a>另请参阅
 

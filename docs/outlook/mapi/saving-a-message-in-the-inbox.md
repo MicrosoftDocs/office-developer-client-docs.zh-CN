@@ -21,20 +21,20 @@ ms.locfileid: "33407891"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
- **在不带任何收件人的收件箱中存储邮件**
+ **在收件箱中存储没有任何收件人的邮件**
   
-1. 调用[IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md)以检索收件箱的条目标识符。 
+1. 调用 [IMsgStore：：GetReceiveFolder](imsgstore-getreceivefolder.md) 检索收件箱的条目标识符。 
     
-2. 调用[IMsgStore:: OpenEntry](imsgstore-openentry.md)以打开收件箱并检索指向它的指针。 
+2. 调用 [IMsgStore：：OpenEntry](imsgstore-openentry.md) 打开收件箱并检索指向它的指针。 
     
-3. 调用收件箱的[IMAPIFolder:: CreateMessage](imapifolder-createmessage.md)方法以创建邮件。 
+3. 调用收件箱的 [IMAPIFolder：：CreateMessage](imapifolder-createmessage.md) 方法来创建邮件。 
     
-4. 调用邮件的[IMAPIProp:: SetProps](imapiprop-setprops.md)方法以添加**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md))、 **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) 或**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 和**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 属性。 
+4. 调用邮件的 [IMAPIProp：：SetProps](imapiprop-setprops.md)方法以添加 **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 、PR_HTML ([PidTagHtml](pidtaghtml-canonical-property.md)) 或 **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 和 **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 属性。  
     
-5. 创建每个附件, 设置其属性, 然后保存它。 有关将附件添加到邮件的详细信息, 请参阅[创建邮件附件](creating-a-message-attachment.md)。
+5. 创建每个附件，设置其属性并保存它。 有关向邮件添加附件的详细信息，请参阅 [创建邮件附件](creating-a-message-attachment.md)。
     
-6. 调用**IMessage:: SaveChanges**以保存邮件。 此时, 它将显示在收件箱的 "内容" 表中。 
+6. 调用 **IMessage：：SaveChanges** 以保存邮件。 此时，它将显示在"收件箱"的"内容"表中。 
     
-如果要在收件箱的 "内容" 表中显示邮件 intermittantly, 请创建它, 而不是在 "IPM 子树" 的根文件夹等隐藏文件夹中进行保存, 然后将其移动到 "收件箱"。 
+如果要在邮件显示在收件箱的内容表中之前，在隐藏文件夹中（如 IPM 子树的根文件夹）创建邮件，然后移动到收件箱。 
   
 

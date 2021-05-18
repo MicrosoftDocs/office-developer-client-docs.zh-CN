@@ -1,5 +1,5 @@
 ---
-title: 为检查器实现包装器并在每个检查器中跟踪项级事件
+title: 为检查器实现包装并在每个检查器中跟踪项目级事件
 TOCTitle: Implement a wrapper for inspectors and track item-level events in each inspector
 ms:assetid: 8021dd2b-c36c-492b-b281-783e85140ad8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184620(v=office.15)
@@ -25,7 +25,7 @@ ms.locfileid: "32320123"
 
 下面的两个代码示例实现了 Connect 及 OutlookInspector 类。 第一个代码示例涉及你在 Connect 类中用来实现 **Inspectors** 集合包装的方法和事件处理程序。 第二个代码示例涉及 **OutlookInspector** 类的一个简单实现。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

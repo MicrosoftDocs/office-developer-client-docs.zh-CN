@@ -27,7 +27,7 @@ InfoPath 托管代码表单模板的表单代码编译为在公共语言运行�
 
 1. 在 Visual Studio 2008 中创建和调试表单模板。
     
-2. 如果你在 Visual Studio 2012 代码编辑器中工作，请切换到 InfoPath，单击“文件”**** 选项卡，然后在“发布”**** 选项卡上单击所需发布位置的按钮。（如果之前已发布该表单模板，则可单击“文件”**** 选项卡，再单击“快速发布”**** 将该表单模板重新发布到同一位置。） 
+2. 如果你在 Visual Studio 2012 代码编辑器中工作，请切换到 InfoPath，单击“文件”选项卡，然后在“发布”选项卡上单击所需发布位置的按钮。（如果之前已发布该表单模板，则可单击“文件”选项卡，再单击“快速发布”将该表单模板重新发布到同一位置。） 
     
     The form template is compiled and the **Publishing Wizard** is launched. Follow the steps in the **Publishing Wizard** to deploy your form to the location of your choice. For more information about using the **Publishing Wizard**, search InfoPath Help for "Publish a form template".
     
@@ -39,17 +39,17 @@ InfoPath 托管代码表单模板的表单代码编译为在公共语言运行�
 
 1. 在 Visual Studio 2008 中创建和调试表单模板。
     
-2. 如果你在 Visual Studio 2012 代码编辑器中工作，请切换到 InfoPath，然后依次单击“文件”**** 选项卡和“表单选项”****。
+2. 如果你在 Visual Studio 2012 代码编辑器中工作，请切换到 InfoPath，然后依次单击“文件”选项卡和“表单选项”。
     
-3. 单击“安全和信任”**** 类别。 
+3. 单击“安全和信任”类别。 
     
-4. 在“安全级别”**** 下，清除“自动确定安全级别”**** 复选框，然后选择“完全信任”****。
+4. 在“安全级别”下，清除“自动确定安全级别”复选框，然后选择“完全信任”。
     
-5. 在“表单模板签名”**** 下，选择“为此表单模板签名”****，单击“选择证书”****，然后指定用于对表单模板进行签名的代码签名证书。
+5. 在“表单模板签名”下，选择“为此表单模板签名”，单击“选择证书”，然后指定用于对表单模板进行签名的代码签名证书。
     
-6. 单击“确定”**** 两次以关闭“表单选项”**** 对话框，然后保存所做的更改。 
+6. 单击“确定”两次以关闭“表单选项”对话框，然后保存所做的更改。 
     
-7. 单击“发布”**** 选项卡，然后单击所需的发布位置的按钮。 
+7. 单击“发布”选项卡，然后单击所需的发布位置的按钮。 
     
 8. The form template is compiled and the **Publishing Wizard** is launched. Follow the steps in the **Publishing Wizard** to deploy your form template. For more information about using the **Publishing Wizard** to deploy a form template that requires full trust, search InfoPath Help for "Publish a form template with full trust". 
     
@@ -69,7 +69,7 @@ InfoPath 托管代码表单模板的表单代码编译为在公共语言运行�
 
 1. 在 Visual Studio 2008 中创建和调试表单模板。
     
-2. 如果你在 Visual Studio 2012 代码编辑器中工作，请切换到 InfoPath，依次单击“文件”**** 选项卡和“发布”****，然后单击所需发布位置的按钮。
+2. 如果你在 Visual Studio 2012 代码编辑器中工作，请切换到 InfoPath，依次单击“文件”选项卡和“发布”，然后单击所需发布位置的按钮。
     
     The form template is compiled and the **Publishing Wizard** is launched. Follow the steps in the **Publishing Wizard** to deploy your form template. For more information about using the **Publishing Wizard**, search InfoPath Help for "Publish a form template".
     

@@ -25,27 +25,27 @@ ms.locfileid: "33409088"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-维护并提供对邮件中附件的属性的访问。 **IAttach**接口没有自己的唯一方法。 有关如何使用附件的详细信息, 请参阅[MAPI 附件](mapi-attachments.md)和[附件表](attachment-tables.md)。 
+维护和提供对邮件中附件属性的访问权限。 **IAttach** 接口没有其自己的唯一方法。 有关如何使用附件的信息，请参阅[MAPI Attachments](mapi-attachments.md) and [Attachment Tables。](attachment-tables.md) 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|公开者:  <br/> |附件对象  <br/> |
-|实现者：  <br/> |邮件存储区提供程序  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|公开者：  <br/> |Attachment 对象  <br/> |
+|实现者：  <br/> |邮件存储提供程序  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
-|接口标识符:  <br/> |IID_IAttachment  <br/> |
-|指针类型:  <br/> |LPATTACH  <br/> |
-|事务模型:  <br/> |事务  <br/> |
+|接口标识符：  <br/> |IID_IAttachment  <br/> |
+|指针类型：  <br/> |LPATTACH  <br/> |
+|事务模型：  <br/> |Transacted  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 此接口没有任何唯一的方法。
   
-|**必需属性**|**访问**|
+|**必需属性**|**Access**|
 |:-----|:-----|
-|**PR_OBJECT_TYPE**([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_ATTACH_METHOD**([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |读/写  <br/> |
-|**PR_RENDERING_POSITION**([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |读/写  <br/> |
+|**PR_OBJECT_TYPE (** [PidTagObjectType](pidtagobjecttype-canonical-property.md))   <br/> |只读  <br/> |
+|**PR_ATTACH_METHOD (** [PidTagAttachMethod)](pidtagattachmethod-canonical-property.md)  <br/> |读/写  <br/> |
+|**PR_RENDERING_POSITION (** [PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))   <br/> |读/写  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

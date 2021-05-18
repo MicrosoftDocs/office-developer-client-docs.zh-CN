@@ -21,17 +21,17 @@ ms.locfileid: "33406477"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 发布各种配置文件的格式, 客户端和服务提供程序使用这些文件来描述邮件服务及其服务提供商和表单。
+MAPI 发布各种配置文件的格式，客户端和服务提供程序使用这些格式来描述邮件服务及其服务提供程序和表单。
   
-下表按名称或类型描述这些文件:
+下表按名称或类型描述了这些文件：
   
 |**配置文件**|**说明**|
 |:-----|:-----|
-|mapisvc.inf  <br/> |包含 MAPI 子系统、邮件服务和服务提供程序的配置信息。  <br/> |
-|扩展名为. cfg 的文件  <br/> |包含表单的配置信息。  <br/> |
+|MapiSvc.inf  <br/> |包含 MAPI 子系统、邮件服务和服务提供程序的配置信息。  <br/> |
+|扩展名为 .cfg 的文件  <br/> |包含表单的配置信息。  <br/> |
    
-有关 mapisvc.inf 的文件格式的详细信息, 请参阅[mapisvc.inf 的文件格式](file-format-of-mapisvc-inf.md)。 
+有关 MapiSvc.inf 的文件格式的详细信息，请参阅 [File Format of MapiSvc.inf](file-format-of-mapisvc-inf.md)。 
   
-有关表单配置文件的文件格式的详细信息, 请参阅[文件格式的表单配置文件](file-format-of-form-configuration-files.md)。 
+有关表单配置文件的文件格式的详细信息，请参阅 File [Format of Form Configuration Files](file-format-of-form-configuration-files.md)。 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33405812"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-为一个或多个收件人条目执行名称解析。
+对一个或多个收件人条目执行名称解析。
   
 ```cpp
 HRESULT ResolveNames(
@@ -40,79 +40,79 @@ HRESULT ResolveNames(
 
  _lpPropTagArray_
   
-> 实时一个指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含一个属性标记数组, 这些标记描述提供程序返回的[ADRLIST](adrlist.md)结构中要包含的属性。 若要请求提供程序的默认属性集, 请在_lpPropTagArray_参数中传递 NULL。 
+> [in]指向 [SPropTagArray](sproptagarray.md) 结构的指针，该结构包含一组属性标记，用于描述提供程序返回 [的 ADRLIST](adrlist.md) 结构中包含的属性。 若要请求提供程序的默认属性集，请传递  _lpPropTagArray_ 参数中的 NULL。 
     
  _ulFlags_
   
-> 实时用于控制返回的字符串中的文本类型的标志的位掩码。 可以设置以下标志:
+> [in]控制返回的字符串中的文本类型的标志位掩码。 可以设置以下标志：
     
 EMS_AB_ADDRESS_LOOKUP
   
-> 仅找到精确的代理地址匹配项;忽略部分匹配项。 仅 Exchange 通讯簿提供程序支持此标志。
+> 将仅找到确切的代理地址匹配项;部分匹配将被忽略。 此标志仅受通讯簿Exchange支持。
     
 MAPI_CACHE_ONLY
   
-> 仅将脱机通讯簿用于执行名称解析。 例如, 可以使用此标志启用客户端应用程序, 以在缓存 exchange 模式下打开全局地址列表 (GAL), 并从缓存中访问该通讯簿中的条目, 而无需在客户端和服务器之间创建流量。 仅 Exchange 通讯簿提供程序支持此标志。 
+> 只有脱机通讯簿将用于执行名称解析。 例如，您可以使用此标志使客户端应用程序在缓存 exchange 模式下打开全局地址列表 (GAL) ，并访问缓存中的该通讯簿中的条目，而无需在客户端和服务器之间创建流量。 此标志仅受通讯簿Exchange支持。 
     
 MAPI_UNICODE 
   
-> 返回的字符串属性采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 返回的字符串属性采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
  _lpAdrList_
   
-> [in, out]在输入时, 指向包含要解析的收件人列表的**ADRLIST**结构的指针。 在输出时, 指向包含解析的名称的**ADRLIST**结构的指针。 
+> [in， out]输入时，指向包含要解析的收件人列表的 **ADRLIST** 结构的指针。 输出时，指向包含已解析名称 **的 ADRLIST** 结构的指针。 
     
  _lpFlagList_
   
-> [in, out]指向标志数组的指针, 每个与_lpAdrList_参数中的[ADRENTRY](adrentry.md)结构对应的标记, 该标记提供收件人的名称解析操作的状态。 _lpFlagList_参数中的标志与_lpAdrList_中的条目的顺序相同。 可以设置以下标志:
+> [in， out]指向标志数组的指针，每个标志对应于 _lpAdrList_ 参数中的 [ADRENTRY](adrentry.md)结构，该指针为收件人提供名称解析操作的状态。 _lpFlagList_ 参数中的标志与 _lpAdrList_ 中的条目的顺序相同。 可以设置以下标志：
     
 MAPI_AMBIGUOUS 
   
-> 已解决相应的收件人, 但不是唯一的条目标识符。 其他容器不应尝试解析该收件人。 
+> 已解析相应的收件人，但没有解析为唯一条目标识符。 其他容器不应尝试解析此收件人。 
     
 MAPI_RESOLVED 
   
-> 相应的收件人已解析为唯一条目标识符。 其他容器不应尝试解析该收件人。 
+> 相应的收件人已解析为唯一条目标识符。 其他容器不应尝试解析此收件人。 
     
 MAPI_UNRESOLVED 
   
-> 尚未解析对应的条目。 其他容器应尝试解析该收件人。
+> 尚未解析相应的条目。 其他容器应尝试解析此收件人。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 名称解析过程成功完成。
+> 名称解析过程已成功。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
+> 设置 MAPI_UNICODE 标志，而实现不支持 Unicode，或者MAPI_UNICODE未设置，并且实现仅支持 Unicode。
     
 MAPI_E_NO_SUPPORT 
   
-> 通讯簿提供程序不支持通过使用此方法进行批量名称解析。
+> 通讯簿提供程序不支持使用此方法进行批量名称解析。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**ResolveNames**方法尝试将未解析的收件人从_lpAdrList_参数中的条目数组与此通讯簿容器中的收件人进行匹配。 未解析的收件人通常仅具有**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性, 并且可能还有其他一些属性。 未解析的收件人不具有**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性, 并且_lpFlagList_参数中的相应标志设置为 MAPI_UNRESOLVED。 相反, 解析的收件人始终至少具有**PR_ENTRYID**属性和其他几个属性, 如**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))、 **PR_DISPLAY_NAME**和**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))。
+**ResolveNames** 方法尝试将 _lpAdrList_ 参数中的条目数组中的未解析收件人匹配到此通讯簿容器中的收件人。 未解析的收件人通常仅具有 PR_DISPLAY_NAME  ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性和一些其他属性。 未解析的收件人没有 PR_ENTRYID  ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性，并且 _其 lpFlagList_ 参数中的相应标志设置为 MAPI_UNRESOLVED。 相反，解析的收件人始终至少具有 **PR_ENTRYID** 属性以及几个其他属性，如 **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md) **) 、PR_DISPLAY_NAME** 和 **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) 。
   
-名称解析通常在客户端调用[IAddrBook:: ResolveName](iaddrbook-resolvename.md)方法时启动。 Outlook MAPI 通过调用通讯簿搜索路径中包含的每个通讯簿容器的**ResolveNames**方法进行响应, 由**PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)) 属性指定。 _lpAdrList_参数中的条目包含已解决的收件人, 因为它们位于 MAPI 已被调用**ResolveNames**的容器中, 因为这些条目显示在搜索路径的前面。 
+名称解析通常在客户端调用 [IAddrBook：：ResolveName](iaddrbook-resolvename.md) 方法时启动。 OutlookMAPI 通过调用通讯簿搜索路径中包含的每个通讯簿容器的 **ResolveNames** 方法进行响应，该路径由 **PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)) 属性指定。 _lpAdrList_ 参数中的条目包括已解析的收件人，因为它们在 MAPI 已调用 **ResolveNames** 的容器中，因为这些条目之前显示在搜索路径中。 
   
-每个容器都尝试通过将收件人的显示名称与它的一个条目的显示名称相匹配来解析未解析的条目。 找到唯一匹配时, **ResolveNames**会将_lpPropTagArray_参数中包含的**PR_ENTRYID**属性和其他属性添加到传出**ADRLIST**结构中的相应条目。 **ResolveNames**然后将_lpFlagList_参数中的条目设置为 MAPI_RESOLVED。 存储在**PR_ENTRYID**属性中的条目标识符可以是短期的, 也可以是长期的。 
+每个容器尝试解析未解析的条目，显示名称收件人的收件人地址与显示名称条目之一匹配。 当找到唯一匹配项时 **，ResolveNames** 会将 **PR_ENTRYID** 属性和  _lpPropTagArray_ 参数中包含的其他属性添加到传出 **ADRLIST** 结构中的相应条目。 **然后 ResolveNames** 将  _lpFlagList_ 参数中的条目MAPI_RESOLVED。 存储在 PR_ENTRYID **属性中的** 条目标识符可以是短期的或长期。 
   
-在搜索路径中的所有容器都试图进行名称解析过程之后, MAPI 将打开一个对话框, 以提示用户解决其余冲突的帮助信息。 
+在搜索路径中的所有容器尝试名称解析过程后，MAPI 将打开一个对话框（如果可能）以提示用户帮助解决任何剩余的冲突。 
   
-客户端也可以在对[IMessage:: ModifyRecipients](imessage-modifyrecipients.md)方法的调用中使用返回的**ADRLIST**结构。 
+客户端还可以在调用 [IMessage：：ModifyRecipients](imessage-modifyrecipients.md)方法时使用返回的 **ADRLIST** 结构。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-不需要使用**ResolveNames**方法支持名称解析。 相反, 或者, 也可以使用**PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) 属性限制来支持它。 如果决定依赖**PR_ANR**限制进行名称解析, 则可以返回 MAPI_E_NO_SUPPORT。 有关详细信息, 请参阅[实现名称解析](implementing-name-resolution.md)。
+无需使用 **ResolveNames** 方法支持名称解析。 相反，或者另外，可以使用 PidTagAnr **PR_ANR (** [PidTagAnr](pidtaganr-canonical-property.md)) 支持它。 如果您决定依赖于名称解析 **PR_ANR** 限制，可以返回MAPI_E_NO_SUPPORT。 有关详细信息，请参阅 [实现名称解析](implementing-name-resolution.md)。
   
-如果收件人与容器的任何收件人都不匹配, 则将_lpFlagList_参数中的收件人的标志条目设置为 MAPI_UNRESOLVED。 
+在  _lpFlagList_ 参数中设置收件人的标记条目MAPI_UNRESOLVED如果收件人与容器的任何收件人都不匹配，则设置该条目。 
   
-当收件人匹配多个收件人时, 将其标志设置为 "MAPI_AMBIGUOUS", 并且不更改其**ADRENTRY**结构。 
+当收件人与多个收件人匹配时，请设置其标志MAPI_AMBIGUOUS不要更改 **其 ADRENTRY** 结构。 
   
-对于邮件的收件人列表中包含的收件人, MAPI 需要特定的属性。 您可以将它们作为名称解析过程的一部分包含在**ADRENTRY**结构中, 或等待 MAPI 请求调用[IAddrBook::P reparerecips](iaddrbook-preparerecips.md)和[IMAPISupport:: ExpandRecips](imapisupport-expandrecips.md)方法。 您可以通过在所有解析的收件人的**ADRENTRY**结构中包括以下属性来消除这些额外的调用并提高性能。 
+MAPI 要求邮件的收件人列表中包含的收件人的某些属性。 可以在名称解析过程中将它们包括在 **ADRENTRY** 结构中，或者等待 MAPI 通过调用 [IAddrBook：:P repareRecips](iaddrbook-preparerecips.md) 和 [IMAPISupport：：ExpandRecips](imapisupport-expandrecips.md) 方法来请求它们。 通过在所有解析的收件人的 **ADRENTRY** 结构中包括以下属性，可以消除这些额外的呼叫并提高性能： 
   
 - **PR_ADDRTYPE**
     
@@ -122,17 +122,17 @@ MAPI_E_NO_SUPPORT
     
 - **PR_ENTRYID**
     
-- **PR_OBJECT_TYPE**([PidTagObjectType](pidtagobjecttype-canonical-property.md))
+- **PR_OBJECT_TYPE (** [PidTagObjectType](pidtagobjecttype-canonical-property.md)) 
     
-- **PR_SEARCH_KEY**([PidTagSearchKey](pidtagsearchkey-canonical-property.md))
+- **PR_SEARCH_KEY (** [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 
     
-- **PR_TRANSMITABLE_DISPLAY_NAME**([PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md))
+- **PR_TRANSMITABLE_DISPLAY_NAME (** [PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md)) 
     
-如果_lpPropTagArray_参数中的某些属性不可用 (通常是因为容器条目不支持属性, 并且它们不包含在**ADRLIST**结构的收件人的**ADRENTRY**成员中) 中。将每个不可用属性的属性类型设置为 PT_ERROR。 
+如果 _lpPropTagArray_ 参数中的某些属性不可用（通常是因为容器条目不支持这些属性，并且这些属性不包含在 **ADRLIST** 结构中收件人的 **ADRENTRY** 成员中）将每个不可用属性的属性类型设置为 PT_ERROR。 
   
-请勿从解析的收件人的**ADRENTRY**结构中删除任何属性。 
+不要从解析的收件人的 **ADRENTRY** 结构中删除任何属性。 
   
-如果您必须替换而不是修改**ADRENTRY**结构, 请先通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数释放原始**ADRENTRY**结构, 然后将替换的**ADRENTRY**结构[分配给MAPIAllocateBuffer](mapiallocatebuffer.md)。
+如果必须替换而不是修改 **ADRENTRY** 结构，请首先通过调用 [MAPIFreeBuffer](mapifreebuffer.md)函数释放原始 **ADRENTRY** 结构，然后使用 [MAPIAllocateBuffer](mapiallocatebuffer.md)分配替换 **ADRENTRY** 结构。
   
 ## <a name="see-also"></a>另请参阅
 

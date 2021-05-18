@@ -21,23 +21,23 @@ ms.locfileid: "33405862"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-发送邮件时, 将使用与每个收件人相关的属性生成收件人列表。 在发送邮件时, 其中一个属性必须是收件人的长期条目标识符。 若要确保每个收件人都包含**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性, 请在对 IAddrBook 的调用中传递在_lpAdrList_参数的内容中描述您的收件人列表的[ADRLIST](adrlist.md)结构[::ResolveName](iaddrbook-resolvename.md)。
+当对邮件进行寻址时，会使用与每个收件人相关的属性构建收件人列表。 在发送邮件时，其中一个属性必须是收件人的长期条目标识符。 若要确保每个收件人包括 **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性，在调用 [IAddrBook：：ResolveName](iaddrbook-resolvename.md)时，在 _lpAdrList_ 参数的内容中传递描述收件人列表的 [ADRLIST](adrlist.md)结构。
   
- **ResolveName**通过忽略已解决的**ADRLIST**结构中的条目来开始处理, 如相应[ADRENTRY](adrentry.md)结构的**SPropValue**中的条目标识符的存在所示。数组. 接下来, **ResolveName**自动为两种类型的收件人分配一次性条目标识符: 
+ **ResolveName** 通过忽略 **ADRLIST** 结构中已解析的条目开始处理，如相应 [ADRENTRY](adrentry.md) 结构的 **SPropValue** 数组中是否存在条目标识符所指示。 接下来 **，ResolveName** 自动为两种类型的收件人分配一次条目标识符： 
   
-- 地址格式为 Internet 地址的收件人
+- 地址格式设置为 Internet 地址的收件人
     
-- 地址格式如下所示的收件人:
+- 地址格式如下的收件人：
     
      `displayname[address type:email address]`
     
-对于其余的所有条目, **ResolveName**在通讯簿中搜索显示名称的精确匹配项。 **ResolveName**使用**PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)) 属性确定要搜索的容器集和搜索顺序。 MAPI 调用每个容器的[IABContainer:: ResolveNames](iabcontainer-resolvenames.md)方法来尝试解析所有名称。 由于某些容器不支持**ResolveNames**, 如果容器返回 MAPI_E_NO_SUPPORT, 则 MAPI 会对其内容表应用**PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) 属性限制。 必须使用所有通讯簿容器来支持此限制中的名称解析。 解析所有名称后, 将不会再进行容器调用。 如果所有容器都已被调用, 但保留不明确或未解析的名称, MAPI 将显示一个对话框, 提示用户解决其余的名称。
+对于所有其他条目 **，ResolveName** 在通讯簿中搜索通讯簿中的完全显示名称。 **ResolveName** 使用PR_AB_SEARCH_PATH ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)) 属性来确定要搜索的容器集和搜索顺序。 MAPI 调用 [每个容器的 IABContainer：：ResolveNames](iabcontainer-resolvenames.md) 方法以尝试解析所有名称。 由于某些容器不支持 **ResolveNames，** 因此，如果容器返回 MAPI_E_NO_SUPPORT，MAPI 将 PR_ANR **(** [PidTagAnr](pidtaganr-canonical-property.md)) 内容表应用属性限制。 需要所有通讯簿容器才能支持具有此限制的名称解析。 解析所有名称后，不会进行其他容器调用。 如果已调用所有容器，但名称不明确或未解析，MAPI 将显示一个对话框（如果可能）提示用户解析其余名称。
   
-**PR_ANR**限制将**PR_ANR**属性的值与**ADRLIST**结构中的显示名称相匹配。 使用**PR_ANR**属性限制限制容器的内容表的视图会导致通讯簿提供程序执行 "最佳推测" 类型的搜索, 使其符合对提供程序有意义的属性。 例如, 一个通讯簿提供程序可能始终会将收件人列表中的名称与**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 相匹配, 而另一个通讯簿提供程序可能允许管理员选择该属性。
+the **PR_ANR** restriction matches the value of the **PR_ANR** property against the 显示名称 in the **ADRLIST** structure. 使用 **PR_ANR** 属性限制限制容器的内容表的视图将导致通讯簿提供程序执行"最佳猜测"类型的搜索，与提供程序有意义的属性相匹配。 例如，一个通讯簿提供程序可能始终将收件人列表中的名称与 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 而另一个通讯簿提供程序可能允许管理员选择属性。
   
- **在通讯簿容器的内容表上设置 PR_ANR 属性限制**
+ **设置PR_ANR对通讯簿容器的内容表设置属性限制**
   
-1. 创建[SRestriction](srestriction.md)结构, 如以下代码所示: 
+1. 创建 [SRestriction](srestriction.md) 结构，如以下代码所示： 
     
   ```cpp
   SRestriction SRestrict;
@@ -49,6 +49,6 @@ ms.locfileid: "33405862"
    
   ```
 
-2. 调用内容表的[IMAPITable:: Restrict](imapitable-restrict.md)方法, 并将**SRestriction**结构作为_lpRestriction_参数进行传递。 
+2. 调用内容表的 [IMAPITable：：Restrict](imapitable-restrict.md) 方法，将 **SRestriction** 结构作为  _lpRestriction_ 参数传递。 
     
 

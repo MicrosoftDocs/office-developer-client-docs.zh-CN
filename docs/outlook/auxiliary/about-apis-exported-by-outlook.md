@@ -44,11 +44,11 @@ Outlook 将导出下列定义、 数据结构、 函数和接口原本供内部�
   
 - [IOlkApptRebaser](iolkapptrebaser.md)
     
-### <a name="events"></a>事件
+### <a name="events"></a>活动
   
 - [可用的事件和其 dispid （Outlook 导出的 Api）](available-events-and-their-dispids-outlook-exported-apis.md)
     
-此外，使用的调度标识符、 **dispidFDirty**和 **dispidShowSenderPhoto**，您可以实现以下任务：
+此外，使用的调度标识符、 **dispidFDirty** 和 **dispidShowSenderPhoto**，您可以实现以下任务：
   
 - [确定某个 Outlook 项目是否已修改但未保存（Outlook 辅助参考）](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     

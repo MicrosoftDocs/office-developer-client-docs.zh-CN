@@ -25,7 +25,7 @@ ms.locfileid: "32319220"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含附件的基文件名和扩展名 (不包括路径)。
+包含附件的基文件名和扩展名，不包括路径。
   
 |||
 |:-----|:-----|
@@ -34,49 +34,49 @@ ms.locfileid: "32319220"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-建议附件对象公开这些属性, 这些属性与**PR_ATTACH_METHOD**的**ATTACH_BY_VALUE**、 **ATTACH_BY_REFERENCE**、 **ATTACH_BY_REF_RESOLVE**和**ATTACH_BY_REF_ONLY**值相关。([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 属性。 使用这些值中的任何一个时, **PR_ATTACH_FILENAME**和关联属性都是必需的。 
+建议 attachment 对象公开这些属性，这些属性与ATTACH_BY_VALUE、ATTACH_BY_REFERENCE、ATTACH_BY_REF_RESOLVE 和 **ATTACH_BY_REF_ONLY** PR_ATTACH_METHOD  ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 值相关。 **PR_ATTACH_FILENAME** 这些值之一时，需要指定属性和关联属性。 
   
-这些属性可用作保存附件的建议文件名, 如果未提供**PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) 属性, 则提供文件扩展名。 
+如果未提供 **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) ，则这些属性可以用作保存附件的建议文件名和提供文件扩展名。 
   
-文件名限制为八个字符加上三个字符的扩展名。 对于支持长文件名的平台, 请同时设置此属性和**PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) 属性。 
+文件名限制为 8 个字符加 3 个字符的扩展名。 对于支持长文件名的平台，请同时设置此属性和 PR_ATTACH_LONG_FILENAME ( [PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) 属性。 
   
-MAPI 仅适用于文件名以及传递给它的其他字符串 (美国国家标准协会 (ANSI) 字符集)。 使用原始设备制造商 (OEM) 字符集中的文件名称的客户端应用程序必须先将其转换为 ANSI, 然后再调用 MAPI。 
+MAPI 仅在美国国家标准协会的 ANSI 字符集内处理文件名 (传递给它的) 字符串。 使用原始设备制造商中的文件名的客户端应用程序 (OEM) 集必须先将其转换为 ANSI，然后才能调用 MAPI。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为邮件对象。
     
-[[毫秒-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > 指定权限管理编码邮件的属性。
     
-[[毫秒-OXOSMIME]](https://msdn.microsoft.com/library/bb17d126-d211-462c-8cd3-454ed33c8746%28Office.15%29.aspx)
+[[MS-OXOSMIME]](https://msdn.microsoft.com/library/bb17d126-d211-462c-8cd3-454ed33c8746%28Office.15%29.aspx)
   
 > 指定 S/MIME 签名和加密的邮件属性。
     
-[[毫秒-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> 将邮件和附件对象编码并解码为高效流表示形式。
+> 将邮件和附件对象编码和解码为有效的流表示形式。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33407604"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通知表单查看器表单中的当前邮件已保存。
+通知窗体查看器窗体中的当前邮件已保存。
   
 ```cpp
 HRESULT OnSaved( void );
@@ -39,13 +39,13 @@ HRESULT OnSaved( void );
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-窗体对象在成功保存窗体中的当前邮件后调用**IMAPIViewAdviseSink:: OnSaved**方法。 这样做将允许查看者更新其窗口, 以反映对邮件的更改。 
+表单对象在成功保存表单中的当前邮件后调用 **IMAPIViewAdviseSink：：OnSaved** 方法。 这样，查看者可以更新其窗口以反映对邮件的更改。 
   
-有关表单通知的详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
+有关表单通知详细信息，请参阅 [发送和接收表单通知](sending-and-receiving-form-notifications.md)。
   
 ## <a name="see-also"></a>另请参阅
 

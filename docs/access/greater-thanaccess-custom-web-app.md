@@ -1,12 +1,12 @@
 ---
-title: 大于 (Access 自定义 web 应用)
+title: '大于 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5a250d68-7583-406e-84e3-0b03bba97234
-description: 比较两个表达式。 当比较非 null 表达式时, 如果左操作数的值大于右边的操作数, 则结果为 TRUE; 否则为 false。否则, 结果为 FALSE。
+description: 比较两个表达式。 比较非 null 表达式时，如果左操作数值大于右操作数值，则结果为 TRUE;否则，结果为 FALSE。
 ms.openlocfilehash: aac3ee7ef575e5a982d55d2003c77cb667cc903d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407737"
 ---
-# <a name="greater-than-access-custom-web-app"></a>大于 (Access 自定义 web 应用)
+# <a name="greater-than-access-custom-web-app"></a>大于 (Access 自定义 Web 应用) 
 
-比较两个表达式。 当比较非 null 表达式时, 如果左操作数的值大于右边的操作数, 则结果为 TRUE; 否则为 false。否则, 结果为 FALSE。
+比较两个表达式。 比较非 null 表达式时，如果左操作数值大于右操作数值，则结果为 TRUE;否则，结果为 FALSE。
   
 > [!IMPORTANT]
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 

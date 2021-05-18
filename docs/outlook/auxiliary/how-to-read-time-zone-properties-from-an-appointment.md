@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: ba1b9425-6c16-cab2-da0a-a21734118098
-description: 本主题显示一个函数 ReadTimeZones, 该函数调用两个函数 BinToTZDEFINITION 和 BinToTZREG, 以便从约会中读取时区属性 PidLidAppointmentTimeZoneDefinitionStartDisplay 和 PidLidTimeZoneStruct。
+description: 本主题显示一个函数 ReadTimeZones，该函数调用两个函数 BinToTZDEFINITION 和 BinToTZREG，以从约会中读取时区属性 PidLidAppointmentTimeZoneDefinitionStartDisplay 和 PidLidTimeZoneStruct。
 ms.openlocfilehash: 67755ba49c5572005c6138e34329491148a199a1
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.locfileid: "32317617"
 ---
 # <a name="read-time-zone-properties-from-an-appointment"></a>从约会中读取时区属性
 
-本主题显示一个函数, `ReadTimeZones`该函数调用两个函数, `BinToTZDEFINITION`并`BinToTZREG`从约会中读取时区属性、 [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx)和[PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)。
+本主题显示了一个函数 ，该函数调用两个函数 和 ，以从约会中读取时区属性 `ReadTimeZones` `BinToTZDEFINITION` `BinToTZREG` [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx)和[PidLidTimeZoneStruct。](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)
   
-**PidLidAppointmentTimeZoneDefinitionStartDisplay**包含映射到[TZDEFINITION](tzdefinition.md)结构的保留格式的流, **PidLidTimeZoneStruct**包含映射到[TZREG](tzreg.md)的保留格式的流表示. 获取确切的**TZDEFINITION**和**TZREG**结构, `BinToTZDEFINITION`并`BinToTZREG`使用它们来适当地分析这些属性的流值。 这两个函数在[分析来自二进制属性的流中进行定义, 以读取 TZDEFINITION 结构](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)并[分析二进制属性中的流以读取 TZREG 结构](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)。 
+**PidLidAppointmentTimeZoneDefinitionStartDisplay** 包含映射到 [TZDEFINITION](tzdefinition.md) 结构的持久格式的流 **，PidLidTimeZoneStruct** 包含映射到 [TZREG](tzreg.md) 结构的持久格式的流。 获取确切的 **TZDEFINITION** 和 **TZREG** 结构，并用于适当地分析这些属性  `BinToTZDEFINITION`  `BinToTZREG` 的流值。 这两个函数分别在分析二进制属性中的流以读取 [TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) 结构和从二进制属性分析流以读取 [TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)结构中定义。 
   
 ```cpp
 void ReadTimeZones(LPMAPIPROP lpAppointment) 

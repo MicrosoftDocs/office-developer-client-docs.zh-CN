@@ -20,12 +20,12 @@ ms.locfileid: "33406225"
 
 确定文本块中字符的方向。
   
-|**值**|**Direction**|**自动常量**|
+|**值**|**方向**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 水平  <br/> |**visTxtBlkLeftToRight** <br/> |
 | 1  <br/> | 垂直  <br/> |**visTxtBlkTopToBottom** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 在 Visio 5.0 日语版产品中，此单元格的值存储在“Miscellaneous”内容的 VerticalText 单元格中。
   

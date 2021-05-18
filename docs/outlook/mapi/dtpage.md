@@ -25,11 +25,11 @@ ms.locfileid: "33408220"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍了通过[BuildDisplayTable](builddisplaytable.md)函数从显示表生成的对话框。 
+描述由 [BuildDisplayTable](builddisplaytable.md) 函数从显示表构建的对话框。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct DTPAGE
@@ -50,7 +50,7 @@ typedef struct DTPAGE
 
  **cctl**
   
-> 由**lpctl**成员指向的控件的计数。 
+> **lpctl** 成员指向的控件计数。 
     
  **lpszResourceName**
   
@@ -58,25 +58,25 @@ typedef struct DTPAGE
     
  **lpszComponent**
   
-> 指向 mapisvc.inf 中的 **[帮助文件映射]** 部分中显示的字符串的指针。 由于**lpszComponent**与**ulItemID**成员联合在联合中, 因此只有其中一个成员具有有效数据。 
+> 指向出现在 MAPISVC.INF **中的 [帮助文件映射]** 部分中的字符串的指针。 由于 **lpszComponent** 与 **ulItemID** 成员联合，因此只有其中一个成员具有有效数据。 
     
  **ulItemID**
   
-> 值小于或等于65535的整数资源标识符, 可从该标识符读取帮助文件名。 由于**ulItemID**与**lpszComponent**成员联合在联合中, 因此只有其中一个成员具有有效数据。 
+> 整数资源标识符，其值小于或等于 65535，可以从中读取帮助文件名。 由于 **ulItemID** 与 **lpszComponent** 成员联合在一起，因此只有其中一个成员具有有效数据。 
     
  **lpctl**
   
-> 指向[DTCTL](dtctl.md)结构的数组的指针, 页面上的每个控件对应一个。 
+> 指向 [DTCTL](dtctl.md) 结构的数组的指针，页面上每个控件一个。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-若要确定选项卡式页面的帮助文件, 请将**lpszComponent**成员设置为硬编码字符串或将**ulItemID**成员设置为整数资源标识符。 
+若要标识选项卡式页面的帮助文件，将 **lpszComponent** 成员设置为硬编码字符串或 **ulItemID** 成员设置为整数资源标识符。 
   
-mapisvc.inf 中的 **[帮助文件映射]** 部分中的每个条目。INF 包含一个组件字符串, 不超过30个字符, 位于右侧的左侧和帮助文件路径中。 在**BuildDisplayTable**的_hInstance_参数中都找到**ulItemID**和**lpszResourceName** 。 有关详细信息, 请参阅[mapisvc.inf。INF [帮助文件映射] 部分](mapisvc-inf-help-file-mappings-section.md)。
+MAPISVC **中 [帮助文件映射]** 部分的每个条目。INF 由左侧的组件字符串（不超过 30 个字符）和右侧帮助文件路径组成。 **ulItemID 和** **lpszResourceName** 都位于 **BuildDisplayTable** 的 _hInstance_ 参数中。 有关详细信息，请参阅 [MAPISVC。INF [Help File Mappings] Section](mapisvc-inf-help-file-mappings-section.md).
   
-虽然**BuildDisplayTable**使用此结构从控件资源生成显示表, 但**DTPAGE**结构从不显示在显示表本身中。 
+尽管 **BuildDisplayTable** 使用此结构从控件资源构建显示表，但 **DTPAGE** 结构永远不会显示在显示表本身中。 
   
-有关显示表的概述, 请参阅[显示表](display-tables.md)。 有关如何实现显示表的信息, 请参阅[实现显示表](display-table-implementation.md)。
+有关显示表的概述，请参阅显示 [表](display-tables.md)。 若要了解如何实现显示表，请参阅 [实现显示表](display-table-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,13 +25,13 @@ ms.locfileid: "33408724"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义在释放表视图时可释放表数据对象的回调函数。 
+定义一个回调函数，该函数可在发布表视图时释放表数据对象。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
-|定义的函数实现者:  <br/> |客户端应用程序和服务提供程序  <br/> |
-|定义的函数调用者:  <br/> |MAPI  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
+|定义的函数实现方：  <br/> |客户端应用程序和服务提供商  <br/> |
+|由调用的已定义函数：  <br/> |MAPI  <br/> |
    
 ```cpp
 void CALLERRELEASE(
@@ -45,24 +45,24 @@ void CALLERRELEASE(
 
  _ulCallerData_
   
-> 实时由 MAPI 保存在表视图中并传递给基于**CALLERRELEASE**的回调函数的调用方数据。 数据提供有关要释放的表视图的上下文。 
+> [in]MAPI 保存的调用方数据与表视图一起传递给 **基于 CALLERRELEASE** 的回调函数。 数据提供有关要发布的表视图的上下文。 
     
  _lpTblData_
   
-> 实时指向要释放的表视图基础的表数据对象的[ITableData: IUnknown](itabledataiunknown.md)接口的指针。 
+> [in]指向要发布的表视图基础的表数据对象的 [ITableData ： IUnknown](itabledataiunknown.md) 接口的指针。 
     
  _lpVue_
   
-> 实时指向要释放的表视图的[IMAPITable: IUnknown](imapitableiunknown.md)接口的指针。 这是在创建要释放的对象的[ITableData:: HrGetView](itabledata-hrgetview.md)方法的_lppMAPITable_参数中返回的 table 对象的接口。 
+> [in]指向要发布的 [表视图的 IMAPITable ： IUnknown](imapitableiunknown.md) 接口的指针。 这是创建要释放的对象的 [ITableData：：HrGetView](itabledata-hrgetview.md)方法 _的 lppMAPITable_ 参数中返回的表对象的接口。 
     
 ## <a name="return-value"></a>返回值
 
 无 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-填充了 table data 对象的客户端应用程序或服务提供程序可以调用[ITableData:: HrGetView](itabledata-hrgetview.md)以创建表的只读、排序视图。 对**HrGetView**的调用会将指针传递给基于**CALLERRELEASE**的回调函数, 还会传递与表视图一起保存的上下文。 当表视图的引用计数返回到零, 并且正在释放视图时, **IMAPITable**实现将调用回调函数, 并在_ulCallerData_参数中传递上下文。 
+已填充表数据对象的客户端应用程序或服务提供商可以调用 [ITableData：：HrGetView](itabledata-hrgetview.md) 来创建表的只读排序视图。 对 **HrGetView 的** 调用将指针传递给基于 **CALLERRELEASE** 的回调函数以及要与表视图一起保存的上下文。 当表视图的引用计数返回零并释放视图时 **，IMAPITable** 实现将调用回调函数，在  _ulCallerData_ 参数中传递上下文。 
   
-基于**CALLERRELEASE**的回调函数的常见用途是释放基础表数据对象, 而无需在后续处理期间对其进行跟踪。 
+基于 **CALLERRELEASE** 的回调函数的常见用途是释放基础表数据对象，并且不需要在后续处理过程中跟踪它。 
   
 

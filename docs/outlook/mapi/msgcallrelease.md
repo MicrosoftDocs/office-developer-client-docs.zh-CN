@@ -25,13 +25,13 @@ ms.locfileid: "33405910"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义一个回调函数, 该函数可以在使用[OpenIMsgOnIStg](openimsgonistg.md)函数的基础之上生成的**IMessage**对象的最终发布后释放**IStorage**接口。 
+定义一个回调函数，该函数可在 **IMessage** 对象最终发布后使用 [OpenIMsgOnIStg](openimsgonistg.md)函数释放 **IStorage** 接口。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Imessage  <br/> |
-|定义的函数实现者:  <br/> |客户端应用程序和服务提供程序  <br/> |
-|定义的函数调用者:  <br/> |MAPI  <br/> |
+|标头文件：  <br/> |Imessage.h  <br/> |
+|定义的函数实现方：  <br/> |客户端应用程序和服务提供商  <br/> |
+|由调用的已定义函数：  <br/> |MAPI  <br/> |
    
 ```cpp
 typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
@@ -43,11 +43,11 @@ typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
 
  _ulCallerData_
   
-> 实时包含有关**IMessage**接口的调用应用程序信息。 
+> [in]包含有关 **IMessage 接口的调用应用程序** 信息。 
     
  _lpMessage_
   
-> 实时指向顶级邮件的指针以及已发布的附件。
+> [in]指向已释放的顶级邮件和附件的指针。
     
 ## <a name="return-value"></a>返回值
 

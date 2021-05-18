@@ -23,38 +23,38 @@ ms.locfileid: "33407114"
   
  通讯簿提供程序可以使用属性页来使用户能够定义新的电子邮件收件人。 
   
-对应的显示表包含四行, 每个控件一个。 指示位置的列的值如下所示。
+相应的显示表包含四行，每个控件一行。 指示位置的列的值如下所示。
   
 |**Control**|**XPOS**|**YPOS**|**DELTAX**|**DELTAY**|
 |:-----|:-----|:-----|:-----|:-----|
-|"显示名称" 标签  <br/> |14   <br/> |18  <br/> |49  <br/> |utf-8  <br/> |
-|"显示名称" 编辑框  <br/> |76  <br/> |16   <br/> |89  <br/> |12   <br/> |
-|电子邮件地址标签  <br/> |14   <br/> |42  <br/> |50  <br/> |utf-8  <br/> |
-|"电子邮件地址" 编辑框  <br/> |76  <br/> |40  <br/> |89  <br/> |12   <br/> |
+|显示名称标签  <br/> |14   <br/> |18   <br/> |49  <br/> |8   <br/> |
+|显示名称编辑框  <br/> |76  <br/> |16   <br/> |89  <br/> |12   <br/> |
+|电子邮件地址标签  <br/> |14   <br/> |42  <br/> |50  <br/> |8   <br/> |
+|电子邮件地址编辑框  <br/> |76  <br/> |40  <br/> |89  <br/> |12   <br/> |
 |复选框  <br/> |14   <br/> |64  <br/> |90  <br/> |12   <br/> |
    
-下一个表为控件的类型、其**PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) 属性和 flags 的位掩码 ( **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) 属性) 提供了相应的值。
+下表为控件的类型、它的 **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) 属性和标志的位掩码、PR_CONTROL_FLAGS ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) 属性提供了相应的建议。 
   
-|**Control**|**Type**|**Flags**|
+|**Control**|**类型**|**Flags**|
 |:-----|:-----|:-----|
-|"显示名称" 标签  <br/> |DTCT_LABEL  <br/> |0  <br/> |
-|"显示名称" 编辑框  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
+|显示名称标签  <br/> |DTCT_LABEL  <br/> |0  <br/> |
+|显示名称编辑框  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
 |电子邮件地址标签  <br/> |DTCT_LABEL  <br/> |0  <br/> |
-|"电子邮件地址" 编辑框  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
+|电子邮件地址编辑框  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
 |复选框  <br/> |DTCT_CHECKBOX  <br/> |DT_EDITABLE  <br/> |
    
-最终表格列出了每个控件及其关联的控制结构的内容。 请注意, 每个标签控件的值将直接出现在内存中的结构后面。
+最后一个表列出了每个控件及其关联的控件结构的内容。 请注意，每个标签控件的值都直接显示在内存中结构之后。
   
 |**Control**|**结构**|
 |:-----|:-----|
-|"显示名称" 标签  <br/> |{sizeof (DTBLLABEL), 0}"显示名称:"  <br/> |
-|"显示名称" 编辑框  <br/> |{sizeof (DTBLEDIT)、0、80、PR_DISPLAY_NAME}  <br/> |
-|电子邮件地址标签  <br/> |{sizeof (DTBLLABEL), 0}"电子邮件地址:"  <br/> |
-|"电子邮件地址" 编辑框  <br/> |{sizeof (DTBLEDIT)、0、80、PR_EMAIL_ADDRESS}  <br/> |
+|显示名称标签  <br/> |{sizeof (DTBLLABEL) ， 0}"显示名称："  <br/> |
+|显示名称编辑框  <br/> |{sizeof (DTBLEDIT) ， 0， 80， PR_DISPLAY_NAME}  <br/> |
+|电子邮件地址标签  <br/> |{sizeof (DTBLLABEL) ， 0}"电子邮件地址："  <br/> |
+|电子邮件地址编辑框  <br/> |{sizeof (DTBLEDIT) ， 0， 80， PR_EMAIL_ADDRESS}  <br/> |
 |复选框  <br/> |PR_SEND_RICH_INFO  <br/> |
    
 > [!NOTE]
-> **"确定**"、"**取消**" 和 "**帮助**" 按钮不包含在显示表中。 用户界面可以通过添加不在显示表中的控件, 向对话框添加上下文。 
+> "**确定****"、"** 取消"和"帮助"按钮不包括在显示表中。 用户界面可以通过添加不在显示表中的控件来向对话框添加上下文。 
   
 ## <a name="see-also"></a>另请参阅
 

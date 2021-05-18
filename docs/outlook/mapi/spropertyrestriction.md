@@ -23,11 +23,11 @@ ms.locfileid: "33406085"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍用于将常量与属性值相匹配的属性限制。
+描述用于将常量与属性值相匹配的属性限制。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SPropertyRestriction
@@ -43,21 +43,21 @@ typedef struct _SPropertyRestriction
 
 **relop**
   
-> 将在搜索中使用的关系运算符。 可能的值如下所示:
+> 将在搜索中使用的关系运算符。 可能的值如下所示：
     
-  - RELOP_GE: 根据一个大于或等于的第一个值进行比较。
+  - RELOP_GE：比较基于大于或等于第一个值。
         
-  - RELOP_GT: 根据更大的第一个值进行比较。
+  - RELOP_GT：比较基于较大的第一个值。
         
-  - RELOP_LE: 基于一个小于或等于的第一个值进行比较。
+  - RELOP_LE：比较基于小于或等于第一个值。
         
-  - RELOP_LT: 基于较小的第一个值进行比较。
+  - RELOP_LT：比较基于第一个值较小。
         
-  - RELOP_NE: 根据不相等的值进行比较。
+  - RELOP_NE：基于数值进行比较。
         
-  - RELOP_RE: 根据 LIKE (正则表达式) 值进行比较。
+  - RELOP_RE：比较基于 LIKE (正则表达式) 值。
         
-  - RELOP_EQ: 根据相等的值进行比较。
+  - RELOP_EQ：基于相等的值进行比较。
     
 **ulPropTag**
   
@@ -65,19 +65,19 @@ typedef struct _SPropertyRestriction
     
 **lpProp**
   
-> 指向包含将在比较中使用的常量值的[SPropValue](spropvalue.md)结构的指针。 
+> 指向包含将在比较中使用的常量值的 [SPropValue](spropvalue.md) 结构的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SPropertyRestriction**结构中有两个属性标记。 一个位于**ulPropTag**成员中, 另一个位于**lpProp**指向的**SPropValue**结构的**ulPropTag**成员中。 MAPI 同时需要 "属性标识符" 字段和 "属性类型" 字段。 **SPropertyRestriction**中的**ulPropTag**是要匹配的属性, 而**SPropertyRestriction**的**lpProp**指针指示 ulPropTag 的 SPropValue 类型**** 的**** 的成员值解释**lpProp**联合。 这两个属性类型必须匹配, 否则在对[IMAPITable:: Restrict](imapitable-restrict.md)或[IMAPITable:: FindRow](imapitable-findrow.md)的调用中使用限制时, 将返回错误值 MAPI_E_TOO_COMPLEX。 
+**SPropertyRestriction 结构中有两个属性** 标记。 一个位于 **ulPropTag** 成员中，另一个位于 **lpProp** 指向的 **SPropValue** 结构的 **ulPropTag** 成员中。 MAPI 需要属性标识符字段和属性类型字段。 **SPropertyRestriction** 中的 **ulPropTag** 是要匹配的属性 **，SPropertyRestriction** 到 **ulPropTag** 的 **SPropValue** 类型的 **lpProp** 指针指示如何解释 **lpProp** 联合的成员值。 这两个属性类型必须匹配，否则在调用 [IMAPITable：：Restrict](imapitable-restrict.md) 或 [IMAPITable：：FindRow](imapitable-findrow.md)MAPI_E_TOO_COMPLEX将返回错误值 。 
   
-比较顺序为 _(属性值) (关系运算符) (常量值_)。
+比较顺序是 (_运算符)  (运算符)  (常量) 。_
   
-如果将属性限制传递给**IMAPITable:: Restrict**或**IMAPITable:: FindRow** , 且目标属性不存在, 则限制的结果将是不确定的。 通过创建**和**限制将属性限制与**存在**的限制联接在一起, 可以保证正确结果的调用者。 使用[SExistRestriction](sexistrestriction.md)结构定义**存在**限制和[SAndRestriction](sandrestriction.md)结构以定义**和**限制。 
+当属性限制传递到 **IMAPITable：：Restrict** 或 **IMAPITable：：FindRow** 并且目标属性不存在时，限制的结果将不确定。 通过创建 **将属性** 限制与 **EXIST** 限制联接在一起的 AND 限制，可以保证调用方得到准确的结果。 使用 [SExistRestriction](sexistrestriction.md) 结构定义 **EXIST** 限制，使用 [SAndRestriction](sandrestriction.md) 结构定义 **AND** 限制。 
   
-如果实现表的服务提供程序支持, 多值属性标记可在属性限制中使用。 如果支持, 多值属性标记可用于任何可使用单值属性标记的地方。 
+如果实现表的服务提供商支持多值属性标记，可以在属性限制中使用它们。 如果支持，可在可以使用单值属性标记的任何位置使用多值属性标记。 
   
-可以在以下方法中使用多值属性标记:
+多值属性标记可用于以下方法：
   
 - [IMAPIProp::SetProps](imapiprop-setprops.md)
     
@@ -90,9 +90,9 @@ typedef struct _SPropertyRestriction
 - [IMAPITable::Restrict](imapitable-restrict.md)
     
 > [!IMPORTANT]
-> 这两个属性标记不匹配的一个显著情况是, 如果对多值属性进行限制。 在这种情况下, 以下情况必须为 true。 > 如果**SPropertyRestriction**的**ulPropTag**的属性类型包含多值属性类型位标志 MV_FLAG (0x1000), 则**ulPropTag**的**SPropValue**的属性类型应与前减去 MV_ 的属性类型相匹配。标志位标志, 即它的反函数。 > 例如, 若要限制使用多值自定义字符串属性 (如具有属性标记的属性0x8012101f 的类别) (即 PROP_TAG (MV_FLAG | PT_UNICODE、0x8012)), 相应的**SPropertyRestriction**将显示为沿用. >  `SPropertyRestriction.ulPropTag = 0x8012101f; // attempt to restrict a MultiValue property`>  `SPropertyRestriction.lpProp->ulPropTag = 0x8012001f; // the lpszW member of the Value property is valid`>  `SPropertyRestriction.lpProp.Value->lpszW = L"My Category";`> 请注意, 如果**SPropValue**的**ulPropTag**的属性类型包含 MV_FLAG 位标志, 则可能返回的是 MAPI_E_TOO_COMPLEX。 
+> 两个属性标记不匹配的一个值得注意的情况是限制多值属性。 在这种情况下，必须为 true。 > 如果 **SPropertyRestriction** 的 **ulPropTag** 的属性类型包含多值属性类型位标志 MV_FLAG (0x1000) ，**则 SPropValue** 的 **ulPropTag** 的属性类型应匹配前者减去 MV_FLAG 位标志，即其反函数。 >例如，若要限制使用多值自定义字符串属性，例如属性 0x8012101f（即 PROP_TAG (MV_FLAG|PT_UNICODE、0x8012) ) ）具有属性标记的类别，对应的 **SPropertyRestriction** 将显示如下。 >  `SPropertyRestriction.ulPropTag = 0x8012101f; // attempt to restrict a MultiValue property`>  `SPropertyRestriction.lpProp->ulPropTag = 0x8012001f; // the lpszW member of the Value property is valid`>  `SPropertyRestriction.lpProp.Value->lpszW = L"My Category";`>请注意，如果 **SPropValue** **的 ulPropTag** 的属性类型包含 MV_FLAG 位标志，则可能会返回 MAPI_E_TOO_COMPLEX。 
   
-有关**SPropertyRestriction**结构的详细信息, 请参阅[关于限制](about-restrictions.md)。 
+有关 **SPropertyRestriction** 结构详细信息，请参阅关于 [限制](about-restrictions.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

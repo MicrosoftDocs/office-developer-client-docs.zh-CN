@@ -25,7 +25,7 @@ ms.locfileid: "32320151"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-获取一个指向已解开的 Internet 邮件访问协议 (IMAP) 存储对象的指针, 该对象提供对基础个人文件夹文件 (PST) 的访问权限, 而无需调用同步和下载项目。
+获取一个指向未包装的 Internet 邮件访问协议 (IMAP) 存储对象的指针，该对象提供对基础个人文件夹文件 (PST) 的访问，而无需调用同步和下载项目。
   
 ```cpp
 HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject ); 
@@ -35,19 +35,19 @@ HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject );
 
  _ppvObject_
   
-> 排除指向已解包的[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)存储对象的指针。 
+> [out]指向未包 [的 IMsgStore ： IMAPIProp](imsgstoreimapiprop.md) 存储对象的指针。 
     
 ## <a name="return-values"></a>返回值
 
 S_OK
   
-- 调用成功, 并且在_ppvObject_中返回了指向已解包接口的指针。
+- 调用成功  _，ppvObject_ 中返回了指向未包接口的指针。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果不先解包, 则访问存储区中的邮件可能会强制尝试下载整个邮件的同步。 使用已解开的存储允许在不触发下载的情况下访问当前状态的邮件。
+如果不首先解包 IMAP 存储，访问存储中的邮件可能会强制同步尝试下载整个邮件。 使用未包装存储，可以在不触发下载的情况下，以当前状态访问邮件。
   
-由于**UnwrapNoRef**不会将此新指针的引用计数增加到已解包的 store 对象, 因此在成功调用**UnwrapNoRef**后, 应调用[IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)来维护引用计数。 
+由于 **UnwrapNoRef** 不增加指向未包装存储对象的此新指针的引用计数，因此在成功调用 **UnwrapNoRef** 后，应调用 [IUnknown：：AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) 以保持引用计数。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,13 +25,13 @@ HRESULT _stdcall GetPicture([out, retval] SAFEARRAY(unsigned char)* picture);
 
 ## <a name="parameters"></a>参数
 
-_头像_
+_picture_
   
-> 排除指向结构的指针, 该结构指定代表人员的图片资源的字节数组。
+> [out]指向指定字节数组的结构的指针，该数组代表人员的图片资源。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-支持的图片资源采用 .bmp、jpeg 或 .png 格式。
+支持的图片资源采用 .bmp、.jpeg 或 .png 格式。
   
 ## <a name="see-also"></a>另请参阅
 

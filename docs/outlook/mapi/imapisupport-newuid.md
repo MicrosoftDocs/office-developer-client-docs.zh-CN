@@ -25,7 +25,7 @@ ms.locfileid: "33406995"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建要用作唯一标识符的新[MAPIUID](mapiuid.md)结构。 
+创建要用作唯一标识符的新 [MAPIUID](mapiuid.md) 结构。 
   
 ```cpp
 HRESULT NewUID(
@@ -37,21 +37,21 @@ LPMAPIUID lpMuid
 
  _lpMuid_
   
-> 指向新的**MAPIUID**结构的指针。 
+> 指向新 **MAPIUID 结构的** 指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已创建新的**MAPIUID**结构。 
+> 创建了 **新的 MAPIUID** 结构。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISupport:: NewUID**方法是为所有支持对象实现的。 每当服务提供程序和邮件服务需要生成长期唯一标识符时, 都会调用**NewUID** 。 例如, 邮件存储提供程序可能会调用**NewUID**以获取**MAPIUID**以放置在新创建的邮件的**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性中。
+**IMAPISupport：：NewUID** 方法针对所有支持对象实现。 只要服务提供程序和邮件服务需要生成长期的唯一标识符，它们就会调用 **NewUID。** 例如，邮件存储提供程序可能调用 **NewUID** 以获取 **MAPIUID，** 以放入新创建的邮件的 **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性中。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-请勿将在登录时注册的**MAPIUID**结构与**NewUID**方法创建的**MAPIUID**结构相混淆。 您在调用[IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md)方法时注册的**MAPIUID**结构表示您的通讯簿或邮件存储提供程序到 MAPI, 用于区分不同提供程序创建的条目标识符。 此**MAPIUID**结构应是硬编码的, 不能通过调用**NewUID**获取。
+请勿将登录时注册的 **MAPIUID** 结构与 **NewUID** 方法创建的 **MAPIUID** 结构相混淆。 调用 [IMAPISupport：：SetProviderUID](imapisupport-setprovideruid.md)方法时注册的 **MAPIUID** 结构表示您的通讯簿或邮件存储提供程序到 MAPI，并用于区分不同提供程序创建的条目标识符。 此 **MAPIUID** 结构应硬编码，而不是通过调用 **NewUID 来获取**。
   
 ## <a name="see-also"></a>另请参阅
 

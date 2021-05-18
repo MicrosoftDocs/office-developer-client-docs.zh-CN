@@ -32,33 +32,33 @@ ms.locfileid: "32316189"
 |相关属性：  <br/> |PR_FREEBUSY_COUNT_MONTHS  <br/> |
 |标识符:  <br/> |0x6869  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |邮件类定义的传输  <br/> |
+|区域：  <br/> |邮件类定义的可传输  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性的值必须大于或等于 0, 且小于或等于36。 这不是必需的属性。
+此属性的值必须大于或等于 0，并且小于或等于 36。 这不是必需的属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > 发布用户或资源的可用性。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

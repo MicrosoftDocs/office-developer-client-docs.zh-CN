@@ -25,7 +25,7 @@ ms.locfileid: "33406169"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将表单的打印状态通知给表单查看器。
+通知窗体查看者窗体的打印状态。
   
 ```cpp
 HRESULT OnPrint(
@@ -38,11 +38,11 @@ HRESULT hrStatus
 
  _dwPageNumber_
   
-> 实时打印的最后一页的编号。
+> [in]打印的最后一页的页码。
     
  _hrStatus_
   
-> 实时一个 HRESULT 值, 指示打印作业的状态。 可能的值是：
+> [in]一个 HRESULT 值，指示打印作业的状态。 可能的值是：
     
 S_FALSE 
   
@@ -50,31 +50,31 @@ S_FALSE
     
 S_OK 
   
-> 正在进行打印作业。
+> 打印作业正在进行中。
     
-未能 
+FAILED 
   
-> 打印作业因故障而终止。
+> 打印作业由于失败而终止。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 通知已成功。
+> 通知成功。
     
 MAPI_E_USER_CANCEL 
   
-> 用户取消了操作, 通常是单击对话框中的 "取消" 按钮。 
+> 用户通常通过单击对话框中的"取消"按钮来取消操作。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单对象在打印时调用**IMAPIViewAdviseSink:: OnPrint**方法, 以通知查看器打印进度。 
+Form 对象在打印时调用 **IMAPIViewAdviseSink：：OnPrint** 方法，以通知查看者打印进度。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-如果打印作业涉及多个页面, 则可以在打印每个页面后调用**OnPrint** 。 将_dwPageNumber_设置为当前正在打印的页面, 并将_hrStatus_设置为 S_OK。 打印作业完成后, 调用**OnPrint** , 并将_dwPageNumber_设置为打印的最后一页, _hrStatus_设置为 S_FALSE。 
+如果打印作业涉及多个页面，您可以在打印每个页面后调用 **OnPrint。** 将  _dwPageNumber_ 设置为当前正在打印的页面，将  _hrStatus_ 设置为S_OK。 打印作业完成后，调用 **OnPrint，** 将  _dwPageNumber_ 设置为打印的最后一页，  _将 hrStatus_ 设置为 S_FALSE。 
   
-有关表单通知的详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
+有关表单通知详细信息，请参阅 [发送和接收表单通知](sending-and-receiving-form-notifications.md)。
   
 ## <a name="see-also"></a>另请参阅
 

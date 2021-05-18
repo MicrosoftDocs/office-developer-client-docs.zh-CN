@@ -29,22 +29,22 @@ ms.locfileid: "33406869"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiaux  <br/> |
-|公开者:  <br/> |邮件服务管理对象  <br/> |
+|标头文件：  <br/> |Mapiaux.h  <br/> |
+|公开者：  <br/> |邮件服务管理对象  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
-|接口标识符:  <br/> |IID_IMsgServiceAdmin2  <br/> |
-|指针类型:  <br/> |LPSERVICEADMIN2  <br/> |
+|接口标识符：  <br/> |IID_IMsgServiceAdmin2  <br/> |
+|指针类型：  <br/> |LPSERVICEADMIN2  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |将邮件服务添加到当前配置文件, 并返回新添加的服务 UID。  <br/> |
+|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |将邮件服务添加到当前配置文件，并返回新添加的服务 UID。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMsgServiceAdmin2**接口由公开[IMsgServiceAdmin](imsgserviceadminiunknown.md)接口的相同对象公开, 并可使用 Outlook 的 MAPI 子系统实现自 Microsoft Outlook 2003。 
+**IMsgServiceAdmin2** 接口由公开 [IMsgServiceAdmin](imsgserviceadminiunknown.md)接口的相同对象公开，自 Microsoft Outlook 2003 以来，已使用 Outlook 的 MAPI 子系统实现。 
   
 ## <a name="see-also"></a>另请参阅
 

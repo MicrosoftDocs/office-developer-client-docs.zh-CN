@@ -1,12 +1,12 @@
 ---
-title: QuickStyleFillColor 单元格 ("快速样式" 部分)
+title: 'QuickStyleFillColor Cell (Quick Style Section) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 41250e47-404c-40e7-99be-9bb8c1ed5ba2
-description: 确定形状的填充使用的主题颜色, 作为从0到7的整数
+description: 确定形状的填充使用哪个主题颜色，作为 0 到 7 的整数
 ms.openlocfilehash: 3ace0de7e3bfc878a2101eaca3847ef079b8f919
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,31 +14,31 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407961"
 ---
-# <a name="quickstylefillcolor-cell-quick-style-section"></a>QuickStyleFillColor 单元格 ("快速样式" 部分)
+# <a name="quickstylefillcolor-cell-quick-style-section"></a>QuickStyleFillColor Cell (Quick Style Section) 
 
-确定形状的填充使用的主题颜色, 作为从0到7的整数
+确定形状的填充使用哪个主题颜色，作为 0 到 7 的整数
   
 |||
 |:-----|:-----|
 |值  <br/> |说明  <br/> |
-|0  <br/> |形状填充颜色继承自 "深色" 主题颜色。  <br/> |
+|0  <br/> |形状填充颜色继承自深色主题颜色。  <br/> |
 |1  <br/> |形状填充颜色继承自浅色主题颜色。  <br/> |
-|双面  <br/> |形状填充颜色继承自 "强调文字颜色 1" 主题颜色  <br/> |
-|第三章  <br/> |形状填充颜色继承自 "强调文字颜色 2" 主题颜色  <br/> |
-|4  <br/> |形状填充颜色继承自 "强调文字颜色 3" 主题颜色  <br/> |
-|5  <br/> |形状填充颜色继承自 "强调文字颜色 4" 主题颜色  <br/> |
-|型  <br/> |形状填充颜色继承自 "强调文字颜色 5" 主题颜色  <br/> |
-|步  <br/> |形状填充颜色继承自 "强调文字颜色 6" 主题颜色  <br/> |
+|2  <br/> |形状填充颜色继承自强调文字颜色 1 主题颜色  <br/> |
+|3  <br/> |形状填充颜色继承自强调文字颜色 2 主题颜色  <br/> |
+|4   <br/> |形状填充颜色继承自强调文字颜色 3 主题颜色  <br/> |
+|5   <br/> |形状填充颜色继承自强调文字颜色 4 主题颜色  <br/> |
+|6   <br/> |形状填充颜色继承自强调文字颜色 5 主题颜色  <br/> |
+|7   <br/> |形状填充颜色继承自强调文字颜色 6 主题颜色  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-若要从另一个公式按名称获取对**QuickStyleFillColor**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
+若要从另一个公式 **、Cell** 元素 **的 N** 属性值或使用 **CellsU** 属性从某个程序按名称获取对 **QuickStyleFillColor** 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | QuickStyleFillColor  <br/> |
    
-若要从某个程序按索引获取对**QuickStyleFillColor**单元格的引用, 请使用带下列参数的**CellsSRC**属性: 
+若要从程序按索引获取对 **QuickStyleFillColor** 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

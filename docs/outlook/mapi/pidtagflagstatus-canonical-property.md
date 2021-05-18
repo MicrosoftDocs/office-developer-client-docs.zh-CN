@@ -25,7 +25,7 @@ ms.locfileid: "32316294"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定邮件对象的标记状态。
+指定邮件对象的标志状态。
   
 |||
 |:-----|:-----|
@@ -34,37 +34,37 @@ ms.locfileid: "32316294"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性不能在与会议相关的对象上存在, 并且不应存在于任务对象上。 当对其他 message 对象进行设置时, 此属性必须设置为以下值之一:
+此属性不能存在于与会议相关的对象上，并且不应存在于任务对象上。 在其他邮件对象上设置时，此属性必须设置为下列值之一：
   
-|**数字值**|**名称**|**说明**|
+|**数值**|**名称**|**说明**|
 |:-----|:-----|:-----|
-|不存在  <br/> |不适用  <br/> |标记  <br/> |
-|0x00000001  <br/> |followupComplete  <br/> |标记完成  <br/> |
-|0x00000002  <br/> |followupFlagged  <br/> |带  <br/> |
+|不存在  <br/> |不适用  <br/> |未标记  <br/> |
+|0x00000001  <br/> |followupComplete  <br/> |已标记完成  <br/> |
+|0x00000002  <br/> |followupFlagged  <br/> |已标记  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > 指定与标记相关的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

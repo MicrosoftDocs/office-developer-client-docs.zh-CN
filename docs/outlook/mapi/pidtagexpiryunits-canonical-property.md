@@ -25,7 +25,7 @@ ms.locfileid: "32316406"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-描述**PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) 属性相乘的时间单位。
+描述[PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md) PR_EXPIRY_NUMBER (属性) 的时间单位。 
   
 |||
 |:-----|:-----|
@@ -34,35 +34,35 @@ ms.locfileid: "32316406"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果设置此属性, 则必须为下列值之一:
+此属性（如果设置）必须是下列值之一：
   
 |||
 |:-----|:-----|
-|PidTagExpiryUnits  <br/> |Description (TimeOf)  <br/> |
-|0x00000000  <br/> |分钟, 例如, 60 秒  <br/> |
-|0x00000001  <br/> |小时数, 例如60x60 秒  <br/> |
-|0x00000002  <br/> |天, 例如24x60x60 秒  <br/> |
-|0x00000003  <br/> |周, 例如7x24x60x60 秒  <br/> |
+|PidTagExpiryUnits  <br/> |Description (TimeOf)   <br/> |
+|0x00000000  <br/> |分钟，例如 60 秒  <br/> |
+|0x00000001  <br/> |小时，例如 60x60 秒  <br/> |
+|0x00000002  <br/> |天，例如 24x60x60 秒  <br/> |
+|0x00000003  <br/> |周，例如 7x24x60x60 秒  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

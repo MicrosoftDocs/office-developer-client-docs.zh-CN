@@ -1,5 +1,5 @@
 ---
-title: 筛选并显示上月修改的收件箱项
+title: 筛选并显示上月修改的收件箱项目
 TOCTitle: Filter and display Inbox items modified in the last month
 ms:assetid: ef6004dc-0b5a-4d1f-8937-1384d1dfc1ca
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424482(v=office.15)
@@ -110,7 +110,7 @@ DateTime modified = nextRow.LocalTimeUTC(“LastModificationTime”);
 
 在下面的示例中，DemoDASLDateMacro 会创建一个 DASL 查询，该查询使用 **lastmonthDateTime** 宏在用户的收件箱中筛选上个月修改的项目。 然后，它会使用该筛选器创建 **Table**，并枚举和显示受限 **Table** 对象中的各行。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

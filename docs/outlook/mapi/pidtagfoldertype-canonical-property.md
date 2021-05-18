@@ -34,49 +34,49 @@ ms.locfileid: "32316315"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性可以具有下列值之一:
+此属性可以正好具有下列值之一：
   
 FOLDER_GENERIC 
   
-> 包含邮件和其他文件夹的普通文件夹。
+> 包含邮件和其他文件夹的通用文件夹。
     
 FOLDER_ROOT 
   
-> 文件夹层次结构表的根文件夹, 即没有父文件夹的文件夹。
+> 文件夹层次结构表的根文件夹，即没有父文件夹的文件夹。
     
 FOLDER_SEARCH 
   
-> 包含搜索结果的文件夹, 格式为指向满足搜索条件的邮件的链接。
+> 包含搜索结果的文件夹，格式为指向符合搜索条件的邮件的链接。
     
-不应将邮件存储区的根与该存储中的人际邮件 (IPM) 子树的根目录相混淆。 无法通过调用[IMsgStore:: OpenEntry](imsgstore-openentry.md)方法和 null 条目标识符来获取存储区的根文件夹, 该文件夹没有父文件夹。 通过使用**OpenEntry**调用的**PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) 属性的值, 可以获取包含父级的 IPM 子树的根文件夹。 
+不应将邮件存储的根目录与 IPM 中 iPM (子树) 根混淆。 存储区的根文件夹没有父级，通过调用 [IMsgStore：：OpenEntry](imsgstore-openentry.md) 方法（具有空条目标识符）获取。 IPM 子树的根文件夹具有父级，通过使用 **OpenEntry** 调用的 **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) 属性的值获取。 
   
-MAPI 仅允许每个邮件存储一个根文件夹。 此文件夹包含邮件和其他文件夹。 根文件夹的**PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) 属性包含该文件夹自己的条目标识符。
+MAPI 只允许每个邮件存储一个根文件夹。 此文件夹包含邮件和其他文件夹。 根文件夹的 **PR_PARENT_ENTRYID (** [PidTagParentEntryId](pidtagparententryid-canonical-property.md)) 属性包含该文件夹自己的条目标识符。
   
-搜索结果文件夹中的信息主要存储在其内容表中, 其中包含与典型内容表相同的列, 以及两个额外的列来标识找到了每封邮件的文件夹: **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) (显示名称, 必需) 和此属性 (条目标识符, 可选)。
+搜索结果文件夹中的信息主要存储在其内容表中，其中包含与典型内容表相同的列，以及两个标识找到每封邮件的文件夹的额外列 **：PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md))  (显示名称、必需的) 和此属性 (条目标识符，可选) 。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > 处理文件夹操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

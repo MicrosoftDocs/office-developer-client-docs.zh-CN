@@ -25,12 +25,12 @@ ms.locfileid: "33406855"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个或多个[SPropProblem](spropproblem.md)结构的数组。 
+包含一个或多个 [SPropProblem 结构的](spropproblem.md) 数组。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关宏:  <br/> |[CbNewSPropProblemArray](cbnewspropproblemarray.md) <br/> [CbSPropProblemArray](cbspropproblemarray.md) <br/> [SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关宏：  <br/> |[CbNewSPropProblemArray](cbnewspropproblemarray.md) <br/> [CbSPropProblemArray](cbspropproblemarray.md) <br/> [SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |
    
 ```cpp
 typedef struct _SPropProblemArray
@@ -45,15 +45,15 @@ typedef struct _SPropProblemArray
 
  **cProblem**
   
-> 由**aProblem**成员指示的数组中的[SPropProblem](spropproblem.md)结构的计数。 
+> 由 [aProblem](spropproblem.md) 成员指示的数组中的 **SPropProblem 结构** 计数。 
     
  **aProblem**
   
-> **SPropProblem**结构的数组, 每个结构描述属性错误。 
+> **SPropProblem** 结构数组，每个结构描述一个属性错误。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关**SPropProblem**和**SPropProblemArray**结构如何处理与属性相关的错误的详细信息, 请参阅[MAPI 命名属性](mapi-named-properties.md)。 
+有关 **SPropProblem** 和 **SPropProblemArray** 结构如何处理与属性相关的错误的详细信息，请参阅 [MAPI Named Properties](mapi-named-properties.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

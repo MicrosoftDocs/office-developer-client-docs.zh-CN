@@ -1,5 +1,5 @@
 ---
-title: 在 X 400 网关和传输中的 TNEF 相关性
+title: X.400 网关和传输中的 TNEF 相关性
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406372"
 ---
-# <a name="tnef-correlation-in-x400-gateways-and-transports"></a>在 X 400 网关和传输中的 TNEF 相关性
+# <a name="tnef-correlation-in-x400-gateways-and-transports"></a>X.400 网关和传输中的 TNEF 相关性
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-连接到基于 X. 400 的系统的网关和传输, 请使用 IM_THIS_IPM X. 400 属性的值和**attMessageID** TNEF 属性来实现 TNEF 关联。 
+连接到基于 X.400 系统的网关和传输使用 IM_THIS_IPM X.400 属性的值和 **attMessageID** TNEF 属性的值来实现 TNEF 关联。 
   
-将出站邮件的 IM_THIS_IPM 属性的值复制到 TNEF 流中的**attMessageID** 。 IM_THIS_IPM X. 400 属性通常是一个字符串, 而**attMessageID** TNEF 属性是一个十六进制数字的字符串, 表示一个二进制值。 因此, IM_THIS_IPM X. 400 属性中的每个字符 (包括终止的 null 字符) 都必须转换为2个字符的十六进制字符串, 表示该字符的 ASCII 值。 例如, 如果 IM_THIS_IPM X. 400 属性为以下字符串: 
+出站IM_THIS_IPM的 IM_THIS_IPM 属性的值复制到 TNEF 流中的 **attMessageID。** X.400 IM_THIS_IPM X.400 属性通常是一个字符串，而 **attMessageID** TNEF 属性是一个代表二进制值的十六进制数字字符串。 因此，IM_THIS_IPM X.400 属性（包括终止 null 字符）中的每个字符都必须转换为表示该字符的 ASCII 值的 2 个字符的十六进制字符串。 例如，如果 IM_THIS_IPM X.400 属性是以下字符串： 
   
 3030322D3030312D305337533A3A3936303631312D313533373030
   
-然后, **attMessageID**的值将为以下十六进制数字序列: 
+那么 **attMessageID** 的值将是以下十六进制数字序列： 
   
 33 30 33 30 33 32 32 44
   
@@ -43,8 +43,8 @@ ms.locfileid: "33406372"
   
 33 37 33 30 33 30 00
   
-此技术由 Microsoft Exchange Server X 400 连接器使用。 此技术应由连接到 Microsoft Exchange Server 的任何 X 400 网关和传输使用, 以便最大限度地提高互操作性。
+此技术由 Microsoft Exchange Server X.400 Connector 使用。 为了最大限度地提高互操作性，连接到客户端的任何 X.400 网关和传输Microsoft Exchange Server此技术。
   
-为了在将来和提供 Microsoft 软件时实现最大的兼容性, 还应将 IM_THIS_IPM X. 400 属性复制到**PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) 属性。 但是, 由于**PR_TNEF_CORRELATION_KEY**是二进制属性, 因此不需要转换为十六进制字符串。 
+为了与未来以及当前 Microsoft 软件的最大兼容性，IM_THIS_IPM X.400 属性还应复制到 **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) 属性。 但是， **由于PR_TNEF_CORRELATION_KEY** 二进制属性，因此无需转换为十六进制字符串。 
   
 

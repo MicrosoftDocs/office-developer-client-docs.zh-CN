@@ -25,35 +25,35 @@ ms.locfileid: "32319276"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定与共享提供程序相关并由**dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) 属性标识的 URL。 这是共享邮件的属性。
+指定与共享提供程序相关且由 **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md) 属性) URL。 这是共享邮件的属性。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidSharingProviderUrl  <br/> |
-|属性集:  <br/> |PSETID_Sharing  <br/> |
-|长 ID (盖子):  <br/> |0x00008A03  <br/> |
+|属性集：  <br/> |PSETID_Sharing  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008A03  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性通常用于提供有关共享提供程序的详细信息, 但应忽略。
+此属性通常用于提供有关共享提供程序详细信息，但应忽略。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > 在客户端之间共享邮箱文件夹。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

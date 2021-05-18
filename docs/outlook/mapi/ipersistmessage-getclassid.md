@@ -25,7 +25,7 @@ ms.locfileid: "32309623"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个标识符, 表示可以管理窗体的窗体服务器。 
+返回一个标识符，该标识符代表可以管理表单的表单服务器。 
   
 ```cpp
 HRESULT GetClassID(
@@ -37,7 +37,7 @@ HRESULT GetClassID(
 
  _lpClassID_
   
-> [in, out]指向表单的类标识符 (CLSID) 的指针。
+> [in， out]指向表单的 CLSID (类) 指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -45,11 +45,11 @@ S_OK
   
 > 已成功返回类标识符。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**IPersistMessge:: GetClassID**方法将_lpClassID_参数的内容设置为窗体服务器的类标识符, 并返回 S_OK。 当表单查看器调用**GetClassID**并成功返回时, 窗体将置于[未初始化](uninitialized-state.md)状态。 
+**IPersistMessge：：GetClassID** 方法将 _lpClassID_ 参数的内容设置到表单服务器的类标识符，并返回S_OK。 当表单查看器调用 **GetClassID** 且成功返回时，表单将处于 ["未初始化"](uninitialized-state.md) 状态。 
   
-有关如何将类标识符与结构化存储对象结合使用的详细信息, 请参阅[IPersist:: GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx)方法的相关文档。 
+有关类标识符如何用于结构化存储对象的信息，请参阅 [IPersist：：GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) 方法的文档。 
   
 ## <a name="see-also"></a>另请参阅
 

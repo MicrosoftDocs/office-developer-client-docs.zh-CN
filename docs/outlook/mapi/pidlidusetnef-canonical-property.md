@@ -25,47 +25,47 @@ ms.locfileid: "32315419"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定当邮件从 MAPI 转换为多用途 Internet 邮件扩展 (MIME) 或简单邮件传输协议 (SMTP) 格式时, 是否应在邮件中包含传输中性封装格式 (TNEF)。
+指定在邮件从 MAPI 转换为多用途 Internet 邮件扩展 (MIME) 或简单邮件传输协议 (SMTP) 格式时，是否应在邮件中包含传输中性封装格式 (TNEF) 。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidUseTNEF  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x00008582  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008582  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性指定当邮件从 TNEF 格式转换为 MIME 或 SMTP 格式时是否应在邮件中包含 TNEF。 此属性可能不存在, 如果是这样, 则邮件中不能包含 TNEF。
+此属性指定当邮件从 TNEF 转换为 MIME 或 SMTP 格式时，是否应在邮件中包含 TNEF。 此属性可能不存在，如果不存在，则邮件中不得包含 TNEF。
   
-此属性仅适用于从 POP3/SMTP 邮件帐户发送邮件时, 当邮件由其他提供程序 (如 Microsoft Exchange Server) 发送时不适用的情况。
+此属性仅在邮件从 POP3/SMTP 邮件帐户发送时适用，不适用于其他提供程序（如 Microsoft Exchange Server）发送的邮件。
   
-在某些情况下, 例如在启用投票按钮或将 OLE 嵌入对象附加到邮件时, Outlook 可以将此属性设置为强制使用 TNEF。
+在某些情况下，例如启用投票按钮或将 OLE 嵌入对象附加到邮件时，Outlook设置此属性以强制使用 TNEF。
   
-**PR_MSG_EDITOR_FORMAT** ([PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)) 属性可用于在发送邮件时仅强制实现纯文本 (而不是 TNEF)。 由于**PidLidUseTNEF**会覆盖**PR_MSG_EDITOR_FORMAT**中的设置, 因此要对传出邮件强制纯文本的应用程序也应查看**PidLidUseTNEF**并将其重置为 FALSE。 此外, 外接程序必须删除需要 TNEF 的邮件功能, 以避免最终发送的邮件中出现无法使用的附件。 
+[PidTagMessageEditorFormat PR_MSG_EDITOR_FORMAT (PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)) 属性可用于在发送邮件时仅强制实施纯文本，而不是 TNEF。  因为 **PidLidUseTNEF** 会覆盖 **PR_MSG_EDITOR_FORMAT** 中的设置，所以想要对传出邮件强制使用纯文本的应用程序还应查找 **PidLidUseTNEF，** 并重置为 FALSE。 此外，外接程序必须删除需要 TNEF 的邮件功能，以避免最终发送的邮件上的附件不可用。 
   
-调用[IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md)将传出 MAPI 邮件转换为 MIME 流时, 请使用**CCSF_USE_TNEF**标志, 也可以强制 TNEF。 即使未设置**PidLidUseTNEF** , 这也适用。 
+调用[IConverterSession：：MAPIToMIMEStm](iconvertersession-mapitomimestm.md)时，使用 CCSF_USE_TNEF 标志将传出 MAPI 邮件转换为 MIME 流也可强制执行 TNEF。 即使未设置 **PidLidUseTNEF，** 这仍然适用。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
-[[毫秒-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> 将邮件和附件对象编码并解码为高效流表示形式。
+> 将邮件和附件对象编码和解码为有效的流表示形式。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm90
 localization_priority: Normal
 ms.assetid: 59d92820-3ff6-a73d-ffb7-d33096e904f7
-description: 代表一维形状的起点相对于其父级起点的 x 轴坐标值。
+description: 代表一维形状的起点相对于其父级原点的 x 坐标。
 ms.openlocfilehash: 34c1ef1b2500c78791fb4822851eb6d485d77f81
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.locfileid: "33407597"
 ---
 # <a name="beginx-cell-1-d-endpoints-section"></a>BeginX 单元格（“1-D Endpoints”内容）
 
-代表一维形状的起点相对于其父级起点的*x*轴坐标值。 
+代表一维形状的起点相对于其父级原点的  *x*  坐标。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 BeginX 单元格的引用，请使用： 
   

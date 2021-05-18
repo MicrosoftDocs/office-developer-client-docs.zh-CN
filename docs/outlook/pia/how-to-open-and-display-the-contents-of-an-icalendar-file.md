@@ -22,7 +22,7 @@ ms.locfileid: "32320018"
 
 该代码示例先尝试使用 [NameSpace](https://msdn.microsoft.com/library/bb645399\(v=office.15\)) 对象的 [OpenSharedItem](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) 方法将 iCalendar 文件作为包含单个约会的 iCalendar 文件打开。如果操作成功，将在检查器窗口中显示约会项目的详细信息，但不会将该项目复制到默认存储区中。如果示例无法将该文件作为包含单个约会的 iCalendar 文件打开，则会使用 [NameSpace](https://msdn.microsoft.com/library/bb610157\(v=office.15\)) 对象的 **OpenSharedFolder** 方法尝试将内容作为新日历导入默认存储区。如果导入成功，则会在资源管理器窗口中显示该日历。
 
-此代码示例利用[创建用于访问常见 Outlook 项成员的帮助程序类员](how-to-create-a-helper-class-to-access-common-outlook-item-members.md)中定义的 OutlookItem 帮助程序类，便捷地调用 **OutlookItem.Display** 方法来显示约会项，无需先强制转换项。
+此代码示例利用 [创建用于访问常见 Outlook 项成员的帮助程序类员](how-to-create-a-helper-class-to-access-common-outlook-item-members.md)中定义的 OutlookItem 帮助程序类，便捷地调用 **OutlookItem.Display** 方法来显示约会项，无需先强制转换项。
 
 如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。 下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。
 

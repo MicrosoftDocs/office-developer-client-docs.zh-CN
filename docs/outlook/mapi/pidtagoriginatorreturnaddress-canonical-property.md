@@ -25,7 +25,7 @@ ms.locfileid: "33406827"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件原始发件人的二进制编码的返回地址。
+包含邮件发起者二进制编码的返回地址。
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ ms.locfileid: "33406827"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

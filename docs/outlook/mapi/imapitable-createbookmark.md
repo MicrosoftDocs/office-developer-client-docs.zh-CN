@@ -37,35 +37,35 @@ BOOKMARK FAR * lpbkPosition
 
  _lpbkPosition_
   
-> 排除指向返回的32位书签值的指针。 稍后可在对[IMAPITable:: SeekRow](imapitable-seekrow.md)方法的调用中传递此书签。 
+> [out]指向返回的 32 位书签值的指针。 此书签稍后可以在对 [IMAPITable：：SeekRow](imapitable-seekrow.md) 方法的调用中传递。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
 > 无法完成请求的操作。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPITable:: CreateBookmark**方法通过创建一个称为书签的值来标记表位置。 书签可用于返回到由书签标识的位置。 加书签的位置与表中该行的对象相关联。 
+**IMAPITable：：CreateBookmark** 方法通过创建一个称为书签的值来标记表位置。 书签可用于返回书签标识的位置。 书签位置与表格中该行中的对象相关联。 
   
-**CreateBookmark**返回 MAPI_E_NO_SUPPORT 的附件表和附件表实现不支持书签。 
+书签在附件表中不受支持，并且 **CreateBookmark** 返回标记的附件表MAPI_E_NO_SUPPORT。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-由于使用书签维护光标位置的内存开销, 限制您可以创建的书签的数目。 当您达到该数目时, 将从对**CreateBookmark**的所有后续调用返回 MAPI_E_UNABLE_TO_COMPLETE。
+由于维护具有书签的游标位置的内存费用，请限制您可以创建的书签数。 当您达到该号码时，请返回MAPI_E_UNABLE_TO_COMPLETE调用 **CreateBookmark** 的所有结果。
   
-有时, 书签指向的行在表视图中不再存在。 如果呼叫者使用此类书签, 请将光标移到下一个可见的行, 并将其停止。 
+有时，书签指向不再位于表视图中的行。 如果调用方使用此类书签，将光标移到下一个可见行并停止。 
   
-当呼叫者尝试使用指向 nonvisible 行的书签, 因为它已被折叠, 请在移动书签后返回 MAPI_W_POSITION_CHANGED。 此时, 可以将该书签重新定位到下一个可见的行, 也可以重新定位在**SetCollapseState**方法中发生折叠的时间。 如果在折叠行时移动书签, 则必须在书签中保留一个指示移动书签的确切时间的位: 自上次使用后, 或者如果自创建以来从未使用过该书签。 
+当调用者试图使用由于已折叠而指向不可访问行的书签时，在MAPI_W_POSITION_CHANGED返回该书签。 此时或在 **SetCollapseState** 方法中折叠时，可以将书签重新定位到下一个可见行。 如果在折叠行时移动书签，则必须在书签中保留一个位，以准确指示书签移动的时间：自上次使用以来或自创建以来从未使用过它。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
- **CreateBookmark**为其创建的书签分配内存。 通过调用[IMAPITable:: FreeBookmark](imapitable-freebookmark.md)方法释放书签的资源。 
+ **CreateBookmark** 为其创建的书签分配内存。 通过调用 [IMAPITable：：FreeBookmark](imapitable-freebookmark.md) 方法释放书签的资源。 
   
 ## <a name="see-also"></a>另请参阅
 

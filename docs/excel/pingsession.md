@@ -18,7 +18,7 @@ ms.locfileid: "33408360"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-检查会话是否有效。 当 Excel 需要确定以前返回的会话 ID 是否仍处于活动状态且可以使用时, 通常会调用此函数。
+检查会话是否有效。 此函数通常在用户需要Excel返回的会话 ID 是否仍处于活动状态且可以使用时调用。
   
 ```cpp
 int PingSession(int SessionId)
@@ -28,11 +28,11 @@ int PingSession(int SessionId)
 
 _SessionID_
   
-> 要 ping 的会话的 ID。 此值必须与上一次调用[OpenSession](opensession.md)所返回的 ID 相匹配。
+> 要 ping 的会话的 ID。 此值必须与上一次调用 [OpenSession](opensession.md)时返回的 ID 匹配。
     
 ## <a name="return-value"></a>返回值
 
-如果_SessionId_参数有效, 则为**xlHpcRetSuccess** , 否则为 false。否则**xlHpcRetInvalidSessionId**。
+**xlHpcRetSuccess（** 如果  _SessionId_ 参数有效）;否则 **为 xlHpcRetInvalidSessionId**。
   
 ## <a name="see-also"></a>另请参阅
 

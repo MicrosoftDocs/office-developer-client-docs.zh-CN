@@ -21,6 +21,6 @@ ms.locfileid: "32317225"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果还使用 ole, 请调用 ole 函数[OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx)以初始化 ole 库。 **OleInitialize**为会话初始化全局数据, 并准备 OLE 库以接受调用。 有关调用**OleInitialize**的信息, 请参阅 Windows SDK。
+如果还使用 OLE，请调用 OLE 函数 [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) 以初始化 OLE 库。 **OleInitialize** 初始化会话的全局数据，并准备 OLE 库以接受呼叫。 有关调用 **OleInitialize 的信息**，请参阅 Windows SDK。
   
 

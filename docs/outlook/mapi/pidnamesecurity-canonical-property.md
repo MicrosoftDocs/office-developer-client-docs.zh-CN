@@ -29,9 +29,9 @@ ms.locfileid: "32314999"
   
 |||
 |:-----|:-----|
-|友好名称:  <br/> |无  <br/> |
-|属性集:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|属性名称:  <br/> |安全性  <br/> |
+|友好名称：  <br/> |无  <br/> |
+|属性集：  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|属性名称：  <br/> |安全性  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常见  <br/> |
    
@@ -39,17 +39,17 @@ ms.locfileid: "32314999"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> 指定在文档中允许的属性和操作。
+> 指定允许对文档执行的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

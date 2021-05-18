@@ -24,27 +24,27 @@ ms.locfileid: "33406246"
 |:-----|:-----|:-----|
 |0  <br/> |字符串。此为默认值。  <br/> |**visPropTypeString** <br/> |
 |1  <br/> |固定列表。在 **“定义形状数据”** 对话框中的下拉组合框中显示列表项。在 Format 单元格中指定列表项。用户只能从该列表中选择一项。<br/> |**visPropTypeListFix** <br/> |
-|双面  <br/> |数字。包括日期、时间、持续时间和货币值，以及标量、尺寸和角度。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeNumber** <br/> |
-|第三章  <br/> |布尔值。显示 FALSE 和 TRUE 项，这两项正是用户可以从 **“定义形状数据”** 对话框中的下拉列表框中选择的项。<br/> |**visPropTypeBool** <br/> |
-|4  <br/> |变量列表。在 **“定义形状数据”** 对话框中的下拉组合框中显示列表项。在 Format 单元格中指定列表项。用户可以选择列表项或在 Format 单元格中输入添加到当前列表中的新项。<br/> |**visPropTypeListVar** <br/> |
-|5  <br/> |日期或时间值。显示日、月和年，或者秒、分钟和小时，或者日期和时间的组合值。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeDate** <br/> |
-|型  <br/> |持续时间值。显示已经过去的时间。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeDuration** <br/> |
-|步  <br/> |货币值。使用系统的当前“区域设置”。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeCurrency** <br/> |
+|2  <br/> |数字。包括日期、时间、持续时间和货币值，以及标量、尺寸和角度。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeNumber** <br/> |
+|3  <br/> |布尔值。显示 FALSE 和 TRUE 项，这两项正是用户可以从 **“定义形状数据”** 对话框中的下拉列表框中选择的项。<br/> |**visPropTypeBool** <br/> |
+|4   <br/> |变量列表。在 **“定义形状数据”** 对话框中的下拉组合框中显示列表项。在 Format 单元格中指定列表项。用户可以选择列表项或在 Format 单元格中输入添加到当前列表中的新项。<br/> |**visPropTypeListVar** <br/> |
+|5   <br/> |日期或时间值。显示日、月和年，或者秒、分钟和小时，或者日期和时间的组合值。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeDate** <br/> |
+|6   <br/> |持续时间值。显示已经过去的时间。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeDuration** <br/> |
+|7   <br/> |货币值。使用系统的当前“区域设置”。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeCurrency** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Type 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |片.*名称*。键入 where。 *名称*是行名称  <br/> |
+|单元格名称：  <br/> |Prop. *Name*  .键入其中 Prop。  *Name*  是行名称  <br/> |
    
 若要从某个程序按索引获取对 Type 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionProp** <br/> |
-|行索引：  <br/> |**visRowProp** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRowProp**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 |单元格索引：  <br/> |**visCustPropsType** <br/> |
    
 

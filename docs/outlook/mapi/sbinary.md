@@ -25,11 +25,11 @@ ms.locfileid: "33407842"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-描述类型 PT_BINARY 的属性。
+描述类型为 PT_BINARY。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SBinary
@@ -44,15 +44,15 @@ typedef struct _SBinary
 
  **cb**
   
-> **lpb**成员中的字节数。 
+> **lpb 成员中的字节** 数。 
     
  **lpb**
   
 > 指向 PT_BINARY 属性值的指针。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关属性类型的信息, 请参阅[MAPI 属性类型概述](mapi-property-type-overview.md)。
+有关属性类型的信息，请参阅 [MAPI 属性类型概述](mapi-property-type-overview.md)。
   
 ## <a name="see-also"></a>另请参阅
 

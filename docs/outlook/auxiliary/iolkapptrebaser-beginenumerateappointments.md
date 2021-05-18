@@ -42,7 +42,7 @@ _ppContext_
 
 如果该调用成功，则返回 S_OK否则为一个错误代码。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 在新线程上执行此任务。
   

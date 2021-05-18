@@ -25,37 +25,37 @@ ms.locfileid: "32316679"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-用户预期开始任务的日期。
+用户期望开始任务的日期。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskStartDate  <br/> |
-|属性集:  <br/> |PSETID_Task  <br/> |
-|长 ID (盖子):  <br/> |0x00008104  <br/> |
+|属性集：  <br/> |PSETID_Task  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008104  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果不设置此属性值, 则该任务没有开始日期。 值为 "0x5AE980E0" (1525252320) 也表示该任务没有开始日期。 如果任务具有开始日期, 则该值的时间部分必须为午夜, 并且还必须设置**dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) 和**dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) 属性。
+如果此属性值未设置，则任务没有开始日期。 值"0x5AE980E0" (1，525，252，320) 还意味着任务没有开始日期。 如果任务具有开始日期，则值必须具有午夜的时间部分，并且还必须设置 **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) 和 **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) 属性。
   
-此属性由位于[[OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)中的信息标记协议规范和与任务相关的对象协议规范共享。
+此属性由信息标记协议规范以及位于 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)Task-Related对象协议规范共享。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 指定在 "联系人" 和 "个人通讯组" 列表中允许的属性和操作。
+> 指定对联系人和个人通讯组列表允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

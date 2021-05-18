@@ -25,7 +25,7 @@ ms.locfileid: "32315811"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含消息用户名称的7位 ASCII 表示形式。 
+包含消息用户名称的 7 位 ASCII 表示形式。 
   
 |||
 |:-----|:-----|
@@ -34,45 +34,45 @@ ms.locfileid: "32315811"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-这些属性将**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性映射到7位字符集中。 某些邮件系统 (如 Internet 和某些 x-blade 链接) 限制为128个字符的7位 ASCII 码集。 此类邮件系统的网关可以通过调用[IAddrBook::P reparerecips](iaddrbook-preparerecips.md)方法直接检索此属性, 从而避免额外的代码转换处理, 从而提高其性能。 
+这些属性将 [PidTagDisplayName](pidtagdisplayname-canonical-property.md) **PR_DISPLAY_NAME (** 属性) 7 位字符集。 某些邮件系统（如 Internet 和某些 X.400 链接）限制为 128 个字符的 7 位 ASCII 代码集。 通过直接调用 [IAddrBook：:P repareRecips](iaddrbook-preparerecips.md) 方法检索此属性，此类邮件系统的网关可以提高性能，从而避免代码转换的额外处理。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定对用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
-[[毫秒-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
+[[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> 处理客户与 NSPI 服务器的通信。
+> 处理客户端与 NSPI 服务器的通信。
     
-[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 处理用于在客户端和服务器之间传输数据的顺序和数据流。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定在电子邮件中允许的属性和操作。
+> 指定允许对电子邮件执行的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

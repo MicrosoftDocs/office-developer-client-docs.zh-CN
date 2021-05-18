@@ -20,7 +20,7 @@ ms.locfileid: "33406589"
 
 包含用于设置含有亚洲字符的文字格式的字体编号。根据您的系统上安装的字体，字体编号会有所不同。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 亚洲字体在 **“文本”** 对话框中的 **“字体”** 选项卡（单击 **“开始”** 选项卡上的 **“字体”** 组中的箭头）上列出。只有在 **“Microsoft Office 语言首选项”** 对话框（依次单击 **“开始”**、**“所有程序”**、**“Microsoft Office”**、**“Microsoft Office 工具”** 和 **“Microsoft Office 语言首选项”**）中添加了包含亚洲或复杂文种字符的语言后，才会显示此列表。
   
@@ -30,14 +30,14 @@ ms.locfileid: "33406589"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |AsianFont [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
+|单元格名称：  <br/> |Char.AsianFont[ *i*  ] 其中  *i*  = <1>，2， 3...  <br/> |
    
 若要从某个程序按索引获取对 AsianFont 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionCharacter** <br/> |
-|行索引：  <br/> |**visRowCharacter** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRowCharacter**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 |单元格索引：  <br/> |**visCharacterAsianFont** <br/> |
    
 

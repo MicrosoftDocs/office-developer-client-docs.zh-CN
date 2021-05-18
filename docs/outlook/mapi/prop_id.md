@@ -19,18 +19,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409130"
 ---
-# <a name="propid"></a>PROP_ID
+# <a name="prop_id"></a>PROP_ID
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回指定的属性标记的属性标识符。
+返回指定属性标记的属性标识符。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |[SPropValue](spropvalue.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 PROP_ID (ulPropTag)
@@ -42,11 +42,11 @@ PROP_ID (ulPropTag)
   
 > 包含要返回的标识符的属性标记。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-每个属性标记都包含低序位字 (0 到 15) 中的属性类型和高序位字 (位16到 31) 中的属性标识符。 **PROP_ID**宏提取属性标识符, 并将其放在要返回的整数的0到15位。 返回值的剩余位设置为零。 
+每个属性标记都包含低顺序单词 (位 0 到 15) 中的属性类型，高顺序单词的属性标识符 (位 16 到 31) 。 该 **PROP_ID** 宏提取属性标识符，并将它放在要返回的整数的位 0 到 15 中。 返回值的剩余位设置为零。 
   
-例如, 可以使用**PROP_ID**宏检索要传递给[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)的标识符。 **GetNamesFromIDs**检索与命名属性的标识符关联的属性名称。 
+例如 **PROP_ID，** 该宏可用于检索要传递给 [IMAPIProp：：GetNamesFromIDs](imapiprop-getnamesfromids.md)的标识符。 **GetNamesFromIDs** 检索与命名属性的标识符关联的属性名称。 
   
 ## <a name="see-also"></a>另请参阅
 

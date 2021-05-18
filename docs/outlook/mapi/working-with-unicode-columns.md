@@ -21,9 +21,9 @@ ms.locfileid: "33408381"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-可以使用标准的8位字符 (即属性类型 PT_STRING8 或16位 Unicode 字符, 即属性类型 PT_UNICODE) 来表示表中的字符字符串。 表实施者可以自由选择其表是否支持 Unicode 字符串。 由于 Unicode 通过扩展功能集为客户端和服务提供程序添加了值, 因此建议尽可能支持 unicode。 
+可以使用标准 8 位字符（属性类型 PT_STRING8）或 16 位 Unicode 字符（属性类型为 PT_UNICODE）来表示表中的字符串。 表实施者可以选择其表是否支持 Unicode 字符串。 由于 Unicode 通过扩展功能集为客户端和服务提供商增加了价值，因此建议尽可能支持 Unicode。 
   
-许多表方法接受一个标志, 该标志指示字符串属性值是否应为 Unicode。 在输入时, 指定 MAPI_UNICODE 标志将向表实施者指出, 与调用一起传递的所有字符串属性值都是 UNICODE 字符串, 并且属性类型为 PT_UNICODE。 在输出时, 此标志指示所有返回的字符串属性值都应为 Unicode 字符串 (如果可能)。 对于输入或输出, 该标志是否有意义取决于方法。 不支持 Unicode 并传递 MAPI_UNICODE 标志的表实施者将返回 MAPI_E_BAD_CHAR_WIDTH 值。
+许多表方法接受一个标志，指示字符串属性值预期是否是 Unicode。 在输入时，指定 MAPI_UNICODE 标志将指示表实现程序，调用传入的所有字符串属性值都是 Unicode 字符串，并且其属性类型为 PT_UNICODE。 在输出时，此标志指示所有返回的字符串属性值应为 Unicode 字符串（如果可能）。 标志是否具有输入或输出的含义取决于 方法。 不支持 Unicode 且传递给 MAPI_UNICODE 的表实现器将返回MAPI_E_BAD_CHAR_WIDTH值。
   
 ## <a name="see-also"></a>另请参阅
 

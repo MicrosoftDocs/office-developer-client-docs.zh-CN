@@ -20,7 +20,7 @@ ms.locfileid: "33408171"
 
 一种草稿单元格，可用于输入或测试公式。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要访问 D 单元格，可右击一行，然后单击快捷菜单上的 **“更改行类型”**。 
   
@@ -28,14 +28,14 @@ ms.locfileid: "33408171"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | 连接. D [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
+| 单元格名称：  <br/> | Connections.D[  *i*  ] 其中  *i*  = <1> 2， 3...  <br/> |
    
 要从某个程序按索引获取对 D 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionConnectionPts** <br/> |
-| 行索引：  <br/> |**visRowConnectionPts** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowConnectionPts**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visCnnctD** <br/> |
    
 

@@ -21,7 +21,7 @@ ms.locfileid: "33408311"
   
 每个辅助数据源均由使用 [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) 类实例化的对象代表，并且与从一些外部数据源（例如，数据库或 Web 服务查询）获得的存储数据相对应。这些数据源之所以被称为辅助数据源，是因为当用户保存 InfoPath 表单时，用户只保存主数据源中的数据，而不保存辅助数据源中的数据。与数据源的连接由使用"数据连接"类之一（例如 [WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx) 类，该类代表与 XML Web 服务的数据连接）实例化的对象代表。 
   
-已实例化的 [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) 对象代表通过数据连接（从数据库或 Web 服务查询中）返回的 XML 数据的存储位置，并且“数据连接”类代表数据连接自身（使用“数据”**** 选项卡上的“数据连接”**** 命令来定义和命名）。 
+已实例化的 [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) 对象代表通过数据连接（从数据库或 Web 服务查询中）返回的 XML 数据的存储位置，并且“数据连接”类代表数据连接自身（使用“数据”选项卡上的“数据连接”命令来定义和命名）。 
   
 通过结合使用 [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) 类和 [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) 类，InfoPath 对象模型可支持对表单的辅助数据源进行访问。 
   

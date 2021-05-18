@@ -25,7 +25,7 @@ ms.locfileid: "33409256"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-根据指定的选择器获取有关存储区可支持的内容的信息。
+根据指定的选择器，获取应用商店可以支持哪些内容的信息。
   
 ```cpp
 ULONG GetCapabilities( 
@@ -37,20 +37,20 @@ MSCAP_SELECTOR mscapSelector
 
  *mscapSelector* 
   
-> 实时指示要返回的功能的选择器。
+> [in]指示要返回的功能的选择器。
     
 ## <a name="return-value"></a>返回值
 
 MSCAP_SECURE_FOLDER_HOMEPAGES
   
-> 对非默认存储区中的文件夹主页的支持。 如果在*mscapSelector*中指定了**MSCAP_SEL_FOLDER** , 则可以返回此项。 
+> 支持非默认应用商店中的文件夹主页。 如果在 *mscapSelector* **中MSCAP_SEL_FOLDER，** 则可能会返回此参数。 
     
 MSCAP_RES_ANNOTATION
   
-> 如果限制包含任何无效参数 (如无效属性), 则存储将忽略无效参数, 并仅处理有效参数。 如果在*mscapSelector*中指定了**MSCAP_SEL_RESTRICTION** , 则可以返回此项。 
+> 如果限制包含任何无效参数（如无效属性），则存储将忽略无效参数并仅处理有效参数。 如果在 *mscapSelector* **中MSCAP_SEL_RESTRICTION，** 则可能会返回此参数。 
     
 NULL
   
-> 存储区不支持基于给定选择器的任何功能。
+> 存储不支持基于给定选择器的任何功能。
     
 

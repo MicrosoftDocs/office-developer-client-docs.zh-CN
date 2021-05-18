@@ -25,28 +25,28 @@ ms.locfileid: "32315517"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供已解开的 Internet 邮件访问协议 (IMAP) 存储对象, 并允许访问个人文件夹文件 (PST) 中的项目, 而无需调用同步并下载这些项目。
+提供一个 Internet 邮件访问协议 (IMAP) 存储对象，该对象已被取消包装，允许访问个人文件夹文件 (PST) 中的项目，而无需调用同步和下载项目。
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|继承自:  <br/> |[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) <br/> |
-|提供者:  <br/> |邮件存储区提供程序  <br/> |
-|接口标识符:  <br/> |**IID_IProxyStoreObject** <br/> |
+|继承自：  <br/> |[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) <br/> |
+|提供方：  <br/> |邮件存储提供程序  <br/> |
+|接口标识符：  <br/> |**IID_IProxyStoreObject** <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
 | *占位符成员*  <br/> | *不支持或记录。*  <br/> |
-|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |获取一个指向未解包的 IMAP 存储区的指针。  <br/> |
+|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |获取一个指向未包装的 IMAP 存储的指针。  <br/> |
 | *占位符成员*  <br/> | *不支持或记录。*  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-调用[IUnknown::](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)源邮件存储上的 QueryInterface, 以获取**IProxyStoreObject**接口。 然后, 调用**IProxyStoreObject:: UnwrapNoRef**获取未包装的 store 对象。 如果**QueryInterface**返回错误**MAPI_E_INTERFACE_NOT_SUPPORTED**, 则存储尚未被包装。 
+对 [源邮件存储调用 IUnknown：：QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) 以获取 **IProxyStoreObject** 接口。 然后调用 **IProxyStoreObject：：UnwrapNoRef** 以获取未包装存储对象。 如果 **QueryInterface** 返回错误 **MAPI_E_INTERFACE_NOT_SUPPORTED，** 则存储尚未封装。 
   
-由于**UnwrapNoRef**不会将此新指针的引用计数增加到已解包的 store 对象, 因此在成功调用**UnwrapNoRef**后, 应调用[IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)来维护引用计数。 
+由于 **UnwrapNoRef** 不增加指向未包装存储对象的此新指针的引用计数，因此在成功调用 **UnwrapNoRef** 后，应调用 [IUnknown：：AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) 以保持引用计数。 
   
 

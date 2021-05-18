@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251493
 localization_priority: Normal
 ms.assetid: c154413f-c366-a66b-94e3-ed71ad23f325
-description: 运行字符串并将命令行参数作为字符串传递给程序。
+description: 运行字符串，将命令行参数作为字符串传递给程序。
 ms.openlocfilehash: bc05a4480438875c348373059f57bf04f82c9eca
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,24 +18,24 @@ ms.locfileid: "33408703"
 ---
 # <a name="runaddonwargs-function"></a>RUNADDONWARGS 函数
 
-运行_字符串_并将命令行_参数_作为字符串传递给程序。 
+运行  _字符串_ ，将命令行  _参数_ 作为字符串传递给程序。 
   
 ## <a name="syntax"></a>语法
 
-RUNADDONWARGS ("* * *string* * *", "* * *arguments* * *") 
+RUNADDONWARGS (" ** *string* ** "，" ** *arguments* ** ")  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _string_ <br/> |必需  <br/> |**String** <br/> | 加载项的名称。  <br/> |
-| _自_ <br/> |必需  <br/> |**String** <br/> |要传递给程序的参数。  <br/> |
+| _arguments_ <br/> |必需  <br/> |**String** <br/> |要传递给程序的参数。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在实践中,_参数_应为50个字符或更少。 使用 RUNADDONWARGS 函数将一个程序（如加载项）绑定到一个单元格（例如，Action 单元格或 Events 单元格）上。 
+实际上，  _参数应_ 少于或少于 50 个字符。 使用 RUNADDONWARGS 函数将一个程序（如加载项）绑定到一个单元格（例如，Action 单元格或 Events 单元格）上。 
   
-RUNADDONWARGS 函数只能运行属于应用程序的 **Addons** 集合的成员的加载项。 要加入该集合的加载项必须是 EXE 文件或 VSL 文件，且： 
+RUNADDONWARGS 函数只能运行属于应用程序的 **Addons** 集合的成员的加载项。要加入该集合的加载项必须是 EXE 文件或 VSL 文件，且： 
   
 - 安装在应用程序的 **“Startup”** 或 **“Addons”** 路径中。 
     
@@ -47,7 +47,7 @@ RUNADDONWARGS 函数只能运行属于应用程序的 **Addons** 集合的成员
   
 ## <a name="example"></a>示例
 
-RUNADDONWARGS ("GRAPHMKR"。EXE ","/GraphMaker = Stack ") 
+RUNADDONWARGS ("GRAPHMKR.EXE"，"/GraphMaker=Stack")  
   
 启动加载项 Graphmkr.exe 并向它传递参数 /GraphMaker=Stack。 
   

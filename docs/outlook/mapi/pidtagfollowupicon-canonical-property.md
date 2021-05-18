@@ -34,41 +34,41 @@ ms.locfileid: "32316280"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |重命名邮件文件夹  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-除非**PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) 属性的值设置为 "followupFlagged", 或者 message 对象是与会议相关的对象, 否则此属性不能存在。 此属性不应存在于 task 对象上。 当对其他 message 对象进行设置时, 此属性必须设置为下列值之一。
+此属性必须不存在，除非 **PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) 属性的值设置为"followupFlagged"，或者邮件对象是会议相关的对象。 此属性不应存在于任务对象上。 在其他邮件对象上设置时，此属性必须设置为下列值之一。
   
-|**数字值**|**名称**|**说明**|
+|**数值**|**名称**|**说明**|
 |:-----|:-----|:-----|
 |不存在  <br/> |不适用  <br/> |无颜色  <br/> |
 |1  <br/> |followupIcon1  <br/> |紫色标志  <br/> |
-|双面  <br/> |followupIcon2  <br/> |橙色标志  <br/> |
-|第三章  <br/> |followupIcon3  <br/> |绿色标志  <br/> |
-|4  <br/> |followupIcon4  <br/> |黄色标志  <br/> |
-|5  <br/> |followupIcon5  <br/> |蓝色标志  <br/> |
-|型  <br/> |followupIcon6  <br/> |红色标志  <br/> |
+|2  <br/> |followupIcon2  <br/> |橙色标志  <br/> |
+|3  <br/> |followupIcon3  <br/> |绿色标志  <br/> |
+|4   <br/> |followupIcon4  <br/> |黄色标志  <br/> |
+|5   <br/> |followupIcon5  <br/> |蓝色标志  <br/> |
+|6   <br/> |followupIcon6  <br/> |红色标志  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > 指定与标记相关的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

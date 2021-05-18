@@ -25,7 +25,7 @@ ms.locfileid: "33406274"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-注册客户端或服务提供商, 以接收有关通讯簿中的一个或多个条目的更改通知。
+注册客户端或服务提供商以接收有关通讯簿中一个或多个条目更改的通知。
   
 ```cpp
 HRESULT Advise(
@@ -41,17 +41,17 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
+> [in]  _lpEntryID_ 参数指向的条目标识符中的字节计数。 
     
  _lpEntryID_
   
-> 实时指向通讯簿容器、邮件用户或通讯组列表的条目标识符的指针, 在_ulEventMask_参数中所述的类型或类型发生更改时, 将生成通知。 
+> [in]指向通讯簿容器、邮件传递用户或通讯组列表的条目标识符的指针，当  _ulEventMask_ 参数中描述的类型发生更改时将生成通知。 
     
  _ulEventMask_
   
-> 实时呼叫者注册接收的一个或多个通知事件。 每个事件都与特定的通知结构相关联, 其中包含有关所发生更改的信息。 下表列出了_ulEventMask_及其对应结构的有效值。 
+> [in]呼叫者要注册以接收的一个或多个通知事件。 每个事件都与一个特定的通知结构相关联，其中包含有关发生的更改的信息。 下表列出了  _ulEventMask_ 的有效值及其相应的结构。 
     
-|**通知事件**|**对应的结构**|
+|**通知事件**|**相应的结构**|
 |:-----|:-----|
 |**fnevCriticalError** <br/> |[ERROR_NOTIFICATION](error_notification.md) <br/> |
 |**fnevObjectCreated** <br/> |[OBJECT_NOTIFICATION](object_notification.md) <br/> |
@@ -63,43 +63,43 @@ HRESULT Advise(
    
  _lpAdviseSink_
   
-> 实时指向在请求通知的事件发生时要调用的通知接收器对象的指针。
+> [in]指向通知接收器对象的指针，当发生请求通知的事件时将调用该对象。
     
  _lpulConnection_
   
-> 排除指向代表通知注册的非零连接号的指针。
+> [out]指向表示通知注册的非零连接号的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 通知注册已成功。
+> 通知注册成功。
     
 MAPI_E_INVALID_ENTRYID 
   
-> 负责_lpEntryID_中传递的条目标识符的通讯簿提供程序无法为相应条目注册通知。 
+> 负责在  _lpEntryID_ 中传递的条目标识符的通讯簿提供程序无法为相应的条目注册通知。 
     
 MAPI_E_NO_SUPPORT 
   
-> 通讯簿提供程序不支持通知, 该通讯簿提供程序负责由_lpEntryID_参数中传递的条目标识符标识的对象。 
+> 负责由传入  _lpEntryID_ 参数中的条目标识符标识的对象的通讯簿提供程序不支持通知。 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> _lpEntryID_中传递的条目标识符不能由配置文件中的任何通讯簿提供程序处理。 
+> _lpEntryID_ 中传递的条目标识符无法由配置文件中的任一通讯簿提供程序处理。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端和服务提供程序调用**Advise**方法以在通讯簿条目上注册特定类型或通知类型。 通知的类型由通过_ulEventMask_参数传入的事件掩码指示。 
+客户端和服务提供商调用 **Advise** 方法，以注册通讯簿条目上的特定通知类型。 通知类型由使用  _ulEventMask_ 参数传入的事件掩码指示。 
   
-MAPI 将此**通知**调用转发给通讯簿提供程序, 该提供程序负责_lpEntryID_参数中的条目标识符所表示的条目。 通讯簿提供程序可以处理注册本身, 也可以调用支持方法[IMAPISupport:: 订阅](imapisupport-subscribe.md), 以提示 MAPI 注册呼叫者。 返回一个非零连接号码以表示成功注册。
+MAPI 将 **此 Advise** 调用转发到负责条目的通讯簿提供程序，如  _lpEntryID_ 参数中的条目标识符所指示。 通讯簿提供程序要么处理注册本身，要么调用支持方法 [IMAPISupport：：Subscribe](imapisupport-subscribe.md)来提示 MAPI 注册呼叫者。 返回非零连接号以表示注册成功。
   
-每当通知注册所指示的类型的项发生更改时, 通讯簿提供程序都会为_lpAdviseSink_参数中指定的建议接收器对象调用[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法。 **OnNotify**方法包含一个[通知](notification.md)结构作为输入参数, 其中包含用于描述事件的数据。 
+每当通知注册所指示类型的条目发生变化时，通讯簿提供程序都会为 _lpAdviseSink_ 参数中指定的通知接收器对象调用 [IMAPIAdviseSink：：OnNotify](imapiadvisesink-onnotify.md)方法。 **OnNotify** 方法包括 [NOTIFICATION](notification.md)结构作为输入参数，其中包含用于描述事件的数据。 
   
-根据通讯簿提供程序, 对**OnNotify**的调用可以立即发生在对已注册对象的更改之后, 或在以后发生时。 在支持多个执行线程的系统上, 对**OnNotify**的调用可以出现在任何线程上。 客户端可以通过调用[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)函数来创建传递给**advise**的建议接收器对象, 从而请求在特定线程上发生这些通知。 
+根据通讯簿提供程序，对 **OnNotify** 的调用可以在注册对象更改后立即发生，或稍后发生。 在支持多个执行线程的系统上，对 **OnNotify** 的调用可以在任何线程上发生。 客户端可以通过调用 [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) 函数来创建传递给 Advise 的建议接收对象，来请求这些通知出现在特定 **线程上**。 
   
-由于通讯簿提供程序可以在成功完成通知呼叫之后随时释放客户端传入的通知接收器对象, 并且在**** [IAddrBook:: Unadvise](iaddrbook-unadvise.md)调用取消通知之前, 客户端应释放**建议**返回时的通知接收器对象。 
+由于通讯簿提供程序可以在 **Advise** 调用成功完成后 [、IAddrBook：：Unadvise](iaddrbook-unadvise.md) 调用取消通知之前随时释放客户端传入的建议接收对象，因此当 **Advise** 返回时，客户端应释放其通知接收器对象。 
   
-有关通知过程的详细信息, 请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。
+有关通知过程详细信息，请参阅 [MAPI 中的事件通知](event-notification-in-mapi.md)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -31,7 +31,7 @@ ms.locfileid: "32320249"
 
 在下面的代码示例中，CheckOccurrenceExample 使用在[创建模式为每周一次的定期约会](how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md)的代码示例中创建的定期约会。 然后，它调用 GetOccurrence 方法，以确定定期约会的开始日期和时间是否为指定值。 为了确保过程在提供的信息与定期约会实例的开始日期和时间不匹配时仍可继续执行，此示例使用 try…catch 块。 对定期约会系列中的每个约会调用 GetOccurrence 方法后，CheckOccurrenceExample 测试 singleAppt 变量，以确定它是否设置为空引用（表明方法失败且未返回 **AppointmentItem** 对象）。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

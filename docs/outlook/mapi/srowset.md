@@ -25,12 +25,12 @@ ms.locfileid: "33407254"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含[SRow](srow.md)结构的数组。 每个**SRow**结构描述表中的行。 
+包含 [SRow 结构的](srow.md) 数组。 每个 **SRow** 结构描述表格中的一行。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关宏:  <br/> |[CbNewSRowSet](cbnewsrowset.md)、 [CbSRowSet](cbsrowset.md)、 [SizedSRowSet](sizedsrowset.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关宏：  <br/> |[CbNewsRowSet](cbnewsrowset.md) [、CbsRowSet](cbsrowset.md) [、SizedsRowSet](sizedsrowset.md) <br/> |
    
 ```cpp
 typedef struct _SRowSet
@@ -45,15 +45,15 @@ typedef struct _SRowSet
 
  **cRows**
   
-> **aRow**成员中的**SRow**结构的计数。 
+> **ARow 成员** 中的 **SRow 结构** 计数。 
     
  **aRow**
   
-> **SRow**结构的数组。 表中的每一行都有一个结构。 
+> **SRow 结构** 数组。 表格中每一行都有一个结构。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SRowSet**结构用于描述表中的多行数据。 除了以下函数之外, 还可以在[IAddrBook](iaddrbookimapiprop.md)、 [ITableData](itabledataiunknown.md)和[IMAPITable](imapitableiunknown.md)接口方法中使用**SRowSet**结构: 
+**SRowSet** 结构用于描述表中的多行数据。 **除了以下函数之外，SRowSet** 结构还用于 [IAddrBook、ITableData](iaddrbookimapiprop.md)和 [IMAPITable](imapitableiunknown.md)接口方法： [](itabledataiunknown.md) 
   
 - [HrQueryAllRows](hrqueryallrows.md)
     
@@ -61,11 +61,11 @@ typedef struct _SRowSet
     
 - [FreeProws](freeprows.md)
     
- **SRowSet**结构的定义与[ADRLIST](adrlist.md)结构相同, 以允许收件人表的行和地址列表中的条目被视为相同。 **SRowSet**结构和**ADRLIST**结构都可以传递给方法, 如[IMessage:: ModifyRecipients](imessage-modifyrecipients.md)和[IAddrBook:: Address](iaddrbook-address.md)。 
+ **SRowSet** 结构的定义与 [ADRLIST](adrlist.md) 结构相同，以允许对收件人表的行和地址列表中的条目进行相同的处理。 **SRowSet** 结构和 **ADRLIST** 结构都可以传递到 [IMessage：：ModifyRecipients](imessage-modifyrecipients.md)和 [IAddrBook：：Address 等方法](iaddrbook-address.md)。 
   
-此外, 为**SRowSet**结构分配的内存规则与**ADRLIST**结构的规则相同。 总而言之, 必须使用[MAPIAllocateBuffer](mapiallocatebuffer.md)分别分配行集中每行的**lpProps**成员所指向的数组中的每个[SPropValue](spropvalue.md)结构。 在取消分配其**SRowSet**结构之前, 还必须使用[MAPIFreeBuffer](mapifreebuffer.md)释放每个属性值结构, 这样, 指向分配的**SPropValue**结构的指针不会丢失。 然后, 可以保留行的已分配内存, 并在**SRowSet**结构的上下文外部重用它。 
+此外 **，SRowSet** 结构的内存分配规则与 **ADRLIST 结构** 的规则相同。 总之，行集每一行的 **lpProps** 成员指向的数组中的每个 [SPropValue](spropvalue.md)结构都必须使用 [MAPIAllocateBuffer](mapiallocatebuffer.md)单独分配。 在取消分配其 **SRowSet** 结构之前，还必须使用 [MAPIFreeBuffer](mapifreebuffer.md)解除分配每个属性值结构，以便指向已分配的 **SPropValue** 结构的指针不会丢失。 然后，可以在 **SRowSet** 结构的上下文之外保留和重复使用行的已分配内存。 
   
-有关应如何分配**SRowSet**结构的内存的详细信息, 请参阅[管理内存用于 ADRLIST 和 SRowSet 结构](managing-memory-for-adrlist-and-srowset-structures.md)。 
+有关应该如何分配 **SRowSet** 结构的内存的信息，请参阅 [管理 ADRLIST 和 SRowSet 结构的内存](managing-memory-for-adrlist-and-srowset-structures.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

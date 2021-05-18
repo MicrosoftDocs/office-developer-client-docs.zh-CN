@@ -19,11 +19,11 @@ ms.locfileid: "33406841"
 返回指定字体的标识符 (ID)。
   
 > [!NOTE]
-> 建议使用[FONT](font-function.md)函数, 它类似于**FONTTOID**函数。 在 Microsoft Visio 2013 中, 引入了**FONT**函数来替换**FONTTOID**。 
+> 建议使用 FONT [函数，](font-function.md) 该函数类似于 **FONTTOID** 函数。 在 Microsoft Visio 2013 中，**引入了 FONT** 函数来替换 **FONTTOID**。 
   
 ## <a name="syntax"></a>语法
 
-FONTTOID (* * *font_name* * *) 
+FONTTOID (** *font_name* ** )  
   
 ### <a name="parameters"></a>参数
 

@@ -25,7 +25,7 @@ ms.locfileid: "33407100"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含从要为其生成报告的邮件中复制的二进制值。 
+包含从生成报告的邮件复制的二进制值。 
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33407100"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性 (如**PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)) 属性) 可用于将报告与原始邮件关联。 
+此属性（如 **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)) 属性）可用于将报表与原始邮件关联。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

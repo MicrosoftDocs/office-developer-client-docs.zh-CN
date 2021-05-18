@@ -22,7 +22,7 @@ ms.locfileid: "33408570"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-framework library 函数, 它 uninitializes 框架库, 该函数简单地重新初始化临时**XLOPER**/ **XLOPER12**内存数据结构, 从而释放已分配的所有内存。 
+取消初始化框架库的框架库函数，只需重新初始化临时 **XLOPER** /  **XLOPER12** 内存数据结构，从而释放已分配的任何内存。 
   
 ```cs
 short WINAPI QuitFramework(void);

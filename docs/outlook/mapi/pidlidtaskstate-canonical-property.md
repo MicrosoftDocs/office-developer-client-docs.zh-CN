@@ -25,55 +25,55 @@ ms.locfileid: "32316532"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示任务的当前分配状态。
+指示任务的当前工作分配状态。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskState  <br/> |
-|属性集:  <br/> |PSETID_Task  <br/> |
-|长 ID (盖子):  <br/> |0x00008113  <br/> |
+|属性集：  <br/> |PSETID_Task  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008113  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此属性的值必须是下列值之一。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
-|0x00000000  <br/> |此任务已创建为对应于嵌入在任务拒绝中但未能在本地找到的任务。  <br/> |
-|0x00000001  <br/> |未分配任务。  <br/> |
-|0x00000002  <br/> |任务是分配的任务的任务受理人的副本。  <br/> |
-|0x00000003  <br/> |任务是任务 assigner 的已分配任务的副本。  <br/> |
-|0x00000004  <br/> |任务是任务 assigner 的已拒绝任务的副本。  <br/> |
+|0x00000000  <br/> |创建此任务与嵌入任务拒绝中但在本地找不到的任务相对应。  <br/> |
+|0x00000001  <br/> |任务未分配。  <br/> |
+|0x00000002  <br/> |任务是任务被分配者所分配任务的副本。  <br/> |
+|0x00000003  <br/> |任务是任务分配者所分配任务的副本。  <br/> |
+|0x00000004  <br/> |该任务是任务分配者拒绝的任务的副本。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。
+> 定义几个对象，这些对象对任务、任务分配和任务更新的电子等效项建模。
     
-[[毫秒-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> 指定用于创建和定位邮箱中的特殊文件夹的属性和操作。
+> 指定用于创建和定位邮箱中特殊文件夹的属性和操作。
     
-[[毫秒-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间进行转换。
+> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间转换。
     
-[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理客户端与服务器之间的数据传输的顺序和流。
+> 处理客户端和服务器之间数据传输的顺序和流。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

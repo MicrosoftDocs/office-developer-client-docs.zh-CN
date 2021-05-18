@@ -25,7 +25,7 @@ ms.locfileid: "33407317"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-显示 "常用地址" 对话框。 
+显示公用地址对话框。 
   
 ```cpp
 HRESULT Address(
@@ -39,51 +39,51 @@ HRESULT Address(
 
  _lpulUIParam_
   
-> [in, out]指向对话框父窗口的句柄的指针。 在输入时, 必须始终传递窗口句柄。 在输出时, 如果在[ADRPARM](adrparm.md)结构中设置了_lpAdrParms_参数指向的 DIALOG_SDI 标志, 则将返回无模式对话框的窗口句柄。 
+> [in， out]指向对话框父窗口句柄的指针。 在输入时，必须始终传递窗口句柄。 输出时，如果在 _lpAdrParms_ 参数指向的 [ADRPARM](adrparm.md)结构中设置了 DIALOG_SDI 标志，则返回无模式对话框的窗口句柄。 
     
  _lpAdrParms_
   
-> [in, out]指向控制 "地址" 对话框的外观和行为的**ADRPARM**结构的指针。 
+> [in， out]指向控制地址对话框的显示和行为 **的 ADRPARM** 结构的指针。 
     
  _lppAdrList_
   
-> [in, out]指向地址列表的指针的指针。 在输入时, 此列表是邮件中的收件人的当前列表, 如果不存在这样的列表, 则为 NULL。 在输出时, _lppAdrList_指向已更新的邮件收件人列表。 
+> [in， out]指向指向地址列表的指针的指针。 在输入时，此列表是邮件中的收件人当前列表或 NULL（如果不存在此类列表）。 在输出上  _，lppAdrList_ 指向更新的邮件收件人列表。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功显示 "地址" 对话框。
+> 已成功显示地址对话框。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-为通讯簿提供程序支持对象实现了**IMAPISupport:: Address**方法。 通讯簿提供程序呼叫**地址**以创建或更新邮件收件人的列表。 
+**为通讯簿提供程序支持对象实现 IMAPISupport：：Address** 方法。 通讯簿提供商调用 **Address** 来创建或更新邮件收件人列表。 
   
-每个收件人都在由_lppAdrList_参数指向的[ADRLIST](adrlist.md)结构中包含的[ADRENTRY](adrentry.md)结构中进行了描述。 **ADRENTRY**结构包含收件人属性值的数组, 其中一个是收件人的类型或**PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) 属性。 在对[IMessage:: ModifyRecipients](imessage-modifyrecipients.md)的调用中, 可以将此**ADRLIST**结构传递给客户端, 以用作_lpMods_参数。
+每个收件人在 [ADRENTRY](adrentry.md)结构中进行描述，该结构包含在 _lppAdrList_ 参数指向的 [ADRLIST](adrlist.md)结构中。 **ADRENTRY** 结构包含收件人属性值的数组，其中一个为收件人的类型，PR_RECIPIENT_TYPE ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) 属性。  可以将 **此 ADRLIST** 结构传递给客户端，以在 [调用 IMessage：：ModifyRecipients](imessage-modifyrecipients.md)时用作 _lpMods_ 参数。
   
-可以解析**ADRLIST**结构中的每个收件人, 这表示它的属性值之一是其**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性或未解析, 这表示**PR_ENTRYID**属性为尚. 
+**ADRLIST** 结构中的每个收件人都可以解析，这表示它的一个属性值是 **它的 PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性，或者未解析，这表示 **缺少 PR_ENTRYID** 属性。 
   
-除了**PR_ENTRYID**, 解析的收件人还包含以下属性:
+除了 **PR_ENTRYID**，已解析的收件人还包括以下属性：
   
 - **PR_RECIPIENT_TYPE**
     
-- **PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+- **PR_DISPLAY_NAME (** [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
     
-- **PR_ADDRTYPE**([PidTagAddressType](pidtagaddresstype-canonical-property.md))
+- **PR_ADDRTYPE (** [PidTagAddressType](pidtagaddresstype-canonical-property.md)) 
     
-- **PR_DISPLAY_TYPE**([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
+- **PR_DISPLAY_TYPE (** [PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) 
     
-未解析的收件人通常仅包括**PR_DISPLAY_NAME**和**PR_RECIPIENT_TYPE**。 
+未解析的收件人通常仅包括 **PR_DISPLAY_NAME** 和 **PR_RECIPIENT_TYPE**。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-调用方传入的**ADRLIST**结构的大小可能与 MAPI 返回的结构不同。 为**ADRLIST**结构分配内存时, 请单独为每个[SPropValue](spropvalue.md)结构分配内存。 
+调用方 **传递的 ADRLIST** 结构的大小可能不同于 MAPI 返回的结构。 为 **ADRLIST** 结构分配内存时，请单独为每个 [SPropValue](spropvalue.md) 结构分配内存。 
   
-使用指向传递给[ABProviderInit](abproviderinit.md)函数的 MAPI 内存分配函数的指针来分配内存。 使用**ADRLIST**的[MAPIAllocateBuffer](mapiallocatebuffer.md)函数和**ADRLIST**中的**ADRENTRY**结构中的每个属性值结构分配内存。 
+使用传递给 [ABProviderInit](abproviderinit.md) 函数的 MAPI 内存分配函数的指针分配内存。 使用 ADRLIST [的 MAPIAllocateBuffer](mapiallocatebuffer.md) 函数和 **ADRLIST** **中的 ADRENTRY** 结构的每个属性值结构分配 **内存**。 
   
-如果**address**必须返回一个更大的**ADRLIST**结构, 或者如果您为_lppAdrList_传递了 NULL, 则**address**将释放原始结构并分配一个新的结构。 **Address**还会在**ADRLIST**结构中分配其他属性值结构, 并根据需要释放旧的属性。 有关如何为**ADRLIST**结构管理内存的详细信息, 请参阅[管理内存用于 ADRLIST 和 SRowSet 结构](managing-memory-for-adrlist-and-srowset-structures.md)。
+如果 **Address** 必须返回更大的 **ADRLIST** 结构，或者如果为 _lppAdrList_ 传递了 NULL，Address 将释放原始结构并分配一个新结构。  **Address** 还会在 **ADRLIST** 结构中分配其他属性值结构，并在适当时释放旧属性值结构。 For more information about how memory is managed for **ADRLIST** structures， see [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
- 如果在_lpAdrParms_参数的**ADRPARM**结构中设置了 DIALOG_SDI 标志, 则立即返回**Address** 。 
+ **如果在** _lpAdrParms_ 参数的 **ADRPARM** 结构中设置了 DIALOG_SDI 标志，则 Address 将立即返回。 
   
 ## <a name="see-also"></a>另请参阅
 

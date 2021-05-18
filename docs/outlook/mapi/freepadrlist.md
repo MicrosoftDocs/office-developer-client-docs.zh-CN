@@ -25,13 +25,13 @@ ms.locfileid: "33408640"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-销毁[ADRLIST](adrlist.md)结构并释放关联内存, 包括为所有成员数组和结构分配的内存。 
+销毁 [ADRLIST](adrlist.md) 结构并释放关联的内存，包括分配给所有成员数组和结构的内存。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 void FreePadrlist(
@@ -43,7 +43,7 @@ void FreePadrlist(
 
  _padrlist_
   
-> 实时指向要销毁的**ADRLIST**结构的指针。 
+> [in]指向要 **销毁的 ADRLIST** 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -51,9 +51,9 @@ void FreePadrlist(
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-在**FreePadrlist**的实现过程中, MAPI 将调用[MAPIFreeBuffer](mapifreebuffer.md)函数, 以释放**ADRLIST**结构中的每个条目, 然后再释放完整的结构。 因此, 所有这样的条目都必须遵循[ADRLIST](adrlist.md)结构的分配规则, 为每个成员数组和结构使用单独的[MAPIAllocateBuffer](mapiallocatebuffer.md)调用。 
+作为 **FreePadrlist** 实现一部分 [，MAPI 调用 MAPIFreeBuffer](mapifreebuffer.md) 函数以释放 **ADRLIST** 结构的每一项，然后再释放整个结构。 因此，所有此类条目都必须遵循 [ADRLIST](adrlist.md) 结构的分配规则，并针对每个成员数组和结构使用单个 [MAPIAllocateBuffer](mapiallocatebuffer.md) 调用。 
   
-有关为**ADRLIST**和**SRowSet**结构分配内存的详细信息, 请参阅[管理 ADRLIST 和 SRowSet 结构的内存](managing-memory-for-adrlist-and-srowset-structures.md)。 
+有关为 **ADRLIST** 和 **SRowSet** 结构分配内存的信息，请参阅 [管理 ADRLIST 和 SRowSet 结构的内存](managing-memory-for-adrlist-and-srowset-structures.md)。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -61,7 +61,7 @@ void FreePadrlist(
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIABFunctions  <br/> |AddOneOffAddress  <br/> |MFCMAPI 使用**FreePadrlist**方法来释放为向邮件添加一次性地址而生成的 ADRLIST 结构。  <br/> |
+|MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI 使用 **FreePadrlist** 方法释放 ADRLIST 结构，该结构构建为向邮件添加一次地址。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

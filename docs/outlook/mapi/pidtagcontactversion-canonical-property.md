@@ -32,9 +32,9 @@ ms.locfileid: "33407765"
 |相关属性：  <br/> |PR_CONTACT_VERSION  <br/> |
 |标识符:  <br/> |0x3A52  <br/> |
 |数据类型：  <br/> |PT_CLSID  <br/> |
-|区域：  <br/> |Contact  <br/> |
+|区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 此属性是提供有关收件人的标识和访问信息的属性之一。 这些属性由收件人和收件人的组织定义。
   
@@ -42,13 +42,13 @@ ms.locfileid: "33407765"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -29,31 +29,31 @@ ms.locfileid: "32315020"
   
 |||
 |:-----|:-----|
-|友好名称:  <br/> |无  <br/> |
-|属性集:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|属性名称:  <br/> |DRMLicense  <br/> |
+|友好名称：  <br/> |无  <br/> |
+|属性集：  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|属性名称：  <br/> |DRMLicense  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
-|区域：  <br/> |安全邮件  <br/> |
+|区域：  <br/> |安全消息传递  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果权限管理的电子邮件上存在该属性, 则此多个 binary 属性的第一个值必须包含权限管理电子邮件的 ZLIB (在 [RFC1950] 中指定) 压缩使用许可证。
+如果属性存在于权限管理电子邮件上，则此多二进制属性的第一个值必须包含 ZLIB (，如 [RFC1950]) 压缩使用许可证中为权限管理电子邮件指定。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > 指定权限管理编码邮件的属性。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

@@ -57,8 +57,8 @@ string filter = "[Start] >= '"
 在 C\# 中，可以将该 Jet 筛选器表示如下。
 
 ```csharp
-string filter = "[Start] <= '"
-    + endTime.ToString("g")
+string filter = "[Start] <= '&quot;
+    + endTime.ToString(&quot;g")
     + "' AND [End] >= '"
     + startTime.ToString("g") + "'";
 ```

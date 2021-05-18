@@ -21,22 +21,22 @@ ms.locfileid: "33407009"
   
 ## <a name="members"></a>Members
 
-下表显示了**ISocialPerson**接口上可用的成员。 
+下表显示了 **ISocialPerson 接口上可用的** 成员。 
   
 |**名称**|**成员类型**|**说明**|
 |:-----|:-----|:-----|
-|[GetActivities](isocialperson-getactivities.md) <br/> |方法  <br/> |由于 Outlook Social Connector 2013, 此方法已被弃用。  <br/> |
-|[GetDetails](isocialperson-getdetails.md) <br/> |方法  <br/> |获取一个字符串, 表示人员的详细信息, 如名字、姓氏和指向个人资料图片的 URL。  <br/> |
-|[GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) <br/> |方法  <br/> |获取表示人员集合的字符串。  <br/> |
-|[GetFriendsAndColleaguesIDs](isocialperson-getfriendsandcolleaguesids.md) <br/> |方法  <br/> |目前不支持此方法。  <br/> |
+|[GetActivities](isocialperson-getactivities.md) <br/> |方法  <br/> |自 Social Connector 2013 Outlook已弃用此方法。  <br/> |
+|[GetDetails](isocialperson-getdetails.md) <br/> |方法  <br/> |获取一个字符串，代表人员的详细信息，例如名字、姓氏和个人资料图片的 URL。  <br/> |
+|[GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) <br/> |方法  <br/> |获取一个代表人员集合的字符串。  <br/> |
+|[GetFriendsAndColleaguesIDs](isocialperson-getfriendsandcolleaguesids.md) <br/> |方法  <br/> |此方法当前不受支持。  <br/> |
 |[GetPicture](isocialperson-getpicture.md) <br/> |方法  <br/> |获取包含人员的图片资源的字节数组。  <br/> |
-|[GetStatus](isocialperson-getstatus.md) <br/> |方法  <br/> |目前不支持此方法。  <br/> |
+|[GetStatus](isocialperson-getstatus.md) <br/> |方法  <br/> |此方法当前不受支持。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-Outlook Social Connector (.osc) 提供程序必须实现此接口才能与 .osc 通信。
+OSC Outlook的 (连接器) 必须实现此接口以与 OSC 通信。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Outlook Social Connector 提供程序接口](outlook-social-connector-provider-interfaces.md)
+- [OutlookSocial Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

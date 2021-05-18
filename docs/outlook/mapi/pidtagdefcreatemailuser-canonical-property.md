@@ -25,7 +25,7 @@ ms.locfileid: "33407478"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含默认邮件用户对象的模板条目标识符。 
+包含默认消息传递用户对象的模板项标识符。 
   
 |||
 |:-----|:-----|
@@ -34,23 +34,23 @@ ms.locfileid: "33407478"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端应用程序使用此属性在容器中创建邮件用户对象。 对 "条目创建" 的支持对于通讯簿容器是可选的;不支持它的方法不需要公开此属性。 
+客户端应用程序使用此属性在容器中创建消息用户对象。 对于通讯簿容器，支持条目创建是可选的;不支持此属性的项不需要公开此属性。 
   
-此属性指定可显示在邮件用户的**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性中的条目。 获取标识符后, 客户端将在调用[IABContainer:: CreateEntry](iabcontainer-createentry.md)方法时使用它。 该条目表示默认邮件用户的模板。 
+此属性指定可以在邮件用户的[PidTagCreateTemplates PR_CREATE_TEMPLATES (PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 条目。  获取标识符后，客户端在调用 [IABContainer：：CreateEntry 方法时使用它](iabcontainer-createentry.md) 。 条目表示默认邮件用户的模板。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

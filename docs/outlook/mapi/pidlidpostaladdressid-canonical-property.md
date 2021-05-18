@@ -25,42 +25,42 @@ ms.locfileid: "32315993"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定联系人的通讯地址的实际地址。
+指定哪个物理地址是联系人的通讯地址。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidPostalAddressId  <br/> |
-|属性集:  <br/> |PSETID_Address  <br/> |
-|长 ID (盖子):  <br/> |0x00008022  <br/> |
+|属性集：  <br/> |PSETID_Address  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008022  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |Contact  <br/> |
+|区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果存在, 则此属性必须具有下表中或[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)中指定的值之一。 如果未设置, 则应用程序应假定值为 "0x00000000"。
+如果存在此参数，则此属性必须具有下表或 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)中指定的值之一。 如果未设置，应用程序应假定值为"0x00000000"。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
-|0x00000000  <br/> |没有选择地址作为通讯地址。 **PR_STREET_ADDRESS**([PidTagStreetAddress](pidtagstreetaddress-canonical-property.md))、 **PR_LOCALITY** ([PidTagLocality](pidtaglocality-canonical-property.md))、 **PR_STATE_OR_PROVINCE** ([PidTagStateOrProvince](pidtagstateorprovince-canonical-property.md))、 **PR_POSTAL_CODE** ([PidTagPostalCode](pidtagpostalcode-canonical-property.md))、 **PR_COUNTRY** ([PidTagCountry](pidtagcountry-canonical-property.md))、 **dispidAddressCountryCode** ([PidLidAddressCountryCode](pidlidaddresscountrycode-canonical-property.md)) 和**PR_POSTAL_ADDRESS** ([PidTagPostalAddress](pidtagpostaladdress-canonical-property.md)) all 不得设置。  <br/> |
-|0x00000001  <br/> |住宅地址是通讯地址。 **PR_STREET_ADDRESS**、 **PR_LOCALITY**、 **PR_STATE_OR_PROVINCE**、 **PR_POSTAL_CODE**、 **PR_POST_OFFICE_BOX** ([PidTagPostOfficeBox](pidtagpostofficebox-canonical-property.md))、 **PR_COUNTRY**、dispidAddressCountryCode 的值**** 和**PR_POSTAL_ADDRESS**属性必须等于**PR_HOME_ADDRESS_STREET** ([PidTagHomeAddressStreet](pidtaghomeaddressstreet-canonical-property.md))、 **PR_HOME_ADDRESS_CITY** ([PidTagHomeAddressCity](pidtaghomeaddresscity-canonical-property.md))、PR_HOME_ 的值**ADDRESS_STATE_OR_PROVINCE** ([PidTagHomeAddressStateOrProvince](pidtaghomeaddressstateorprovince-canonical-property.md))、 **PR_HOME_ADDRESS_POSTAL_CODE** ([PidTagHomeAddressPostalCode](pidtaghomeaddresspostalcode-canonical-property.md))、 **PR_HOME_ADDRESS_POST_OFFICE_BOX** ([PidTagHomeAddressPostOfficeBox](pidtaghomeaddresspostofficebox-canonical-property.md))、 **PR_HOME_ADDRESS_COUNTRY** ([PidTagHomeAddressCountry](pidtaghomeaddresscountry-canonical-property.md))、 **dispidHomeAddressCountryCode** ([PidLidHomeAddressCountryCode](pidlidhomeaddresscountrycode-canonical-property.md)) 和**dispidHomeAddress** ([PidLidHomeAddress](pidlidhomeaddress-canonical-property.md))属性。  <br/> |
-|0x00000002  <br/> |工作地址为邮件地址。 **PR_STREET_ADDRESS**、 **PR_LOCALITY**、 **PR_STATE_OR_PROVINCE**、 **PR_POSTAL_CODE**、 **PR_POST_OFFICE_BOX**、 **PR_COUNTRY**、 **dispidAddressCountryCode**和 PR_POSTAL_ADDRESS 的值**** 属性必须等于**dispidWorkAddressStreet** ([PidLidWorkAddressStreet](pidlidworkaddressstreet-canonical-property.md))、 **dispidWorkAddressCity** ([PidLidWorkAddressCity](pidlidworkaddresscity-canonical-property.md))、 **dispidWorkAddressState**的值 ([PidLidWorkAddressState](pidlidworkaddressstate-canonical-property.md))、 **dispidWorkAddressPostalCode** ([PidLidWorkAddressPostalCode](pidlidworkaddresspostalcode-canonical-property.md))、 **dispidWorkAddressPostOfficeBox** ([PidLidWorkAddressPostOfficeBox](pidlidworkaddresspostofficebox-canonical-property.md))、 **dispidWorkAddressCountry**([PidLidWorkAddressCountry](pidlidworkaddresscountry-canonical-property.md))、 **dispidWorkAddressCountryCode** ([PidLidWorkAddressCountryCode](pidlidworkaddresscountrycode-canonical-property.md)) 和**dispidWorkAddress** ([PidLidWorkAddress](pidlidworkaddress-canonical-property.md)) 属性。  <br/> |
-|0x00000003  <br/> |另一个地址是邮件地址。 、 **PR_STREET_ADDRESS**、 **PR_LOCALITY**、 **PR_STATE_OR_PROVINCE**、 **PR_POSTAL_CODE**、 **PR_POST_OFFICE_BOX**、 **PR_COUNTRY**、 **dispidAddressCountryCode**和 PR_POSTAL_ADDRESS 的值**** 属性必须等于**PR_OTHER_ADDRESS_STREET** ([PidTagOtherAddressStreet](pidtagotheraddressstreet-canonical-property.md))、 **PR_OTHER_ADDRESS_CITY** ([PidTagOtherAddressCity](pidtagotheraddresscity-canonical-property.md))、 **PR_OTHER_ADDRESS_STATE_OR_PROVINCE**的值 ([PidTagOtherAddressStateOrProvince](pidtagotheraddressstateorprovince-canonical-property.md))、 **PR_OTHER_ADDRESS_POSTAL_CODE** ([PidTagOtherAddressPostalCode](pidtagotheraddresspostalcode-canonical-property.md))、 **PR_OTHER_ADDRESS_POST_OFFICE_BOX** ([PidTagOtherAddressPostOfficeBox](pidtagotheraddresspostofficebox-canonical-property.md))、 **** 分别是 dispidOtherAddressCountryCode ([PidLidOtherAddressCountryCode](pidlidotheraddresscountrycode-canonical-property.md)) 和**dispidOtherAddress** ([PidLidOtherAddress](pidlidotheraddress-canonical-property.md)) 属性。  <br/> |
+|0x00000000  <br/> |未选择任何地址作为通讯地址。 **PR_STREET_ADDRESS (** [PidTagStreetAddress](pidtagstreetaddress-canonical-property.md) **) 、PR_LOCALITY** ([PidTagLocality](pidtaglocality-canonical-property.md) **) 、PR_STATE_OR_PROVINCE** ([PidTagStateOrProvince](pidtagstateorprovince-canonical-property.md)) ， **PR_POSTAL_CODE** ([PidTagPostalCode](pidtagpostalcode-canonical-property.md)) 、PR_COUNTRY ( [PidTagCountry](pidtagcountry-canonical-property.md) **) 、dispidAddressCountryCode** ([PidLidAddressCountryCode](pidlidaddresscountrycode-canonical-property.md)) 和 **PR_POSTAL_ADDRESS** ([PidTagPostalAddress](pidtagpostaladdress-canonical-property.md)) 不能全部设置。  <br/> |
+|0x00000001  <br/> |"住宅地址"是邮寄地址。 PR_STREET_ADDRESS、PR_LOCALITY、PR_STATE_OR_PROVINCE、PR_POSTAL_CODE、PR_POST_OFFICE_BOX  ( [PidTagPostOfficeBox](pidtagpostofficebox-canonical-property.md)  ) 、PR_COUNTRY、dispidAddressCountryCode 和 **PR_POSTAL_ADDRESS** 属性的值必须等于 **PR_HOME_ADDRESS_STREET** (  [PidTagHomeAddressStreet](pidtaghomeaddressstreet-canonical-property.md)) ， **PR_HOME_ADDRESS_CITY (** [PidTagHomeAddressCity](pidtaghomeaddresscity-canonical-property.md) **) 、PR_HOME_ADDRESS_STATE_OR_PROVINCE** ([PidTagHomeAddressStateOrProvince](pidtaghomeaddressstateorprovince-canonical-property.md) **) 、PR_HOME_ADDRESS_POSTAL_CODE** ([PidTagHomeAddressPostalCode](pidtaghomeaddresspostalcode-canonical-property.md) **) 、PR_HOME_ADDRESS_POST_OFFICE_BOX** ([PidTagHomeAddressPostOfficeBox](pidtaghomeaddresspostofficebox-canonical-property.md)) ， **PR_HOME_ADDRESS_COUNTRY (** [PidTagHomeAddressCountry](pidtaghomeaddresscountry-canonical-property.md)) 、dispidHomeAddressCountryCode ([PidLidHomeAddressCountryCode](pidlidhomeaddresscountrycode-canonical-property.md)) 和 **dispidHomeAddress** ([PidLidHomeAddress](pidlidhomeaddress-canonical-property.md)) 属性。   <br/> |
+|0x00000002  <br/> |工作地址是通讯地址。 PR_STREET_ADDRESS、PR_LOCALITY、PR_STATE_OR_PROVINCE、PR_POSTAL_CODE、PR_POST_OFFICE_BOX、PR_COUNTRY、dispidAddressCountryCode 和   **PR_POSTAL_ADDRESS** 属性的值必须等于 **dispidWorkAddressStreet** ([PidLidWorkAddressStreet](pidlidworkaddressstreet-canonical-property.md)) ， **dispidWorkAddressCity** ([PidLidWorkAddressCity](pidlidworkaddresscity-canonical-property.md) ) 、dispidWorkAddressState ([PidLidWorkAddressState](pidlidworkaddressstate-canonical-property.md)) ， **dispidWorkAddressPostalCode** ([PidLidWorkAddressPostalCode](pidlidworkaddresspostalcode-canonical-property.md) ) 、dispidWorkAddressPostOfficeBox ([PidLidWorkAddressPostOfficeBox](pidlidworkaddresspostofficebox-canonical-property.md)) ， **dispidWorkAddressCountry** ([PidLidWorkAddressCountry](pidlidworkaddresscountry-canonical-property.md) ) 、dispidWorkAddressCountryCode ([PidLidWorkAddressCountryCode](pidlidworkaddresscountrycode-canonical-property.md)) 和 **dispidWorkAddress** ([PidLidWorkAddress](pidlidworkaddress-canonical-property.md)) 属性。    <br/> |
+|0x00000003  <br/> |"其他地址"是邮件地址。 、PR_STREET_ADDRESS、PR_LOCALITY、PR_STATE_OR_PROVINCE、PR_POSTAL_CODE、PR_POST_OFFICE_BOX、PR_COUNTRY、dispidAddressCountryCode 和 **PR_POSTAL_ADDRESS** 属性的值必须等于 **PR_OTHER_ADDRESS_STREET** ( [PidTagOtherAddressStreet](pidtagotheraddressstreet-canonical-property.md)) ， **PR_OTHER_ADDRESS_CITY (** [PidTagOtherAddressCity](pidtagotheraddresscity-canonical-property.md) ) 、PR_OTHER_ADDRESS_STATE_OR_PROVINCE ([PidTagOtherAddressStateOrProvince](pidtagotheraddressstateorprovince-canonical-property.md) ) 、PR_OTHER_ADDRESS_POSTAL_CODE ([PidTagOtherAddressPostalCode](pidtagotheraddresspostalcode-canonical-property.md)) ， **PR_OTHER_ADDRESS_POST_OFFICE_BOX (** [PidTagOtherAddressPostOfficeBox](pidtagotheraddresspostofficebox-canonical-property.md)    **) 、dispidOtherAddressCountryCode** ([PidLidOtherAddressCountryCode](pidlidotheraddresscountrycode-canonical-property.md)) 和 **dispidOtherAddress** ([PidLidOtherAddress](pidlidotheraddress-canonical-property.md)) 属性。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定允许用于联系人和个人通讯组列表的属性和操作。
+> 指定联系人和个人通讯组列表允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

@@ -25,13 +25,13 @@ ms.locfileid: "33408416"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-从一个不带符号的64位整数中减去另一个。 
+将一个无符号 64 位整数从另一个整数中减去。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 FILETIME FtSubFt(
@@ -44,14 +44,14 @@ FILETIME FtSubFt(
 
  _Minuend_
   
-> 实时一个[FILETIME](filetime.md)结构, 其中包含要从中减去_Subtrahend_参数中的值的无符号64位整数。 
+> [in]包含无符号 64 位整数的 [FILETIME](filetime.md) 结构，将从该整数中减去  _Subtrahend_ 参数中的值。 
     
  _Subtrahend_
   
-> 实时一个**FILETIME**结构, 其中包含从_Minuend_参数指示的值中减去的无符号64位整数。 
+> [in]包含无符号 64 位整数的 **FILETIME** 结构，该整数从  _Minuend_ 参数指示的值中减去。 
     
 ## <a name="return-value"></a>返回值
 
-**FtSubFt**函数返回一个**FILETIME**结构, 其中包含减法的结果。 这两个输入参数保持不变。 
+**FtSubFt** 函数返回包含减法结果的 **FILETIME** 结构。 两个输入参数保持不变。 
   
 

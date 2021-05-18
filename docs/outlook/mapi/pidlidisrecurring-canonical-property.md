@@ -25,35 +25,35 @@ ms.locfileid: "32315433"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定对象是否与定期系列相关联。
+指定对象是否与定期系列关联。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |LID_IS_RECURRING  <br/> |
-|属性集:  <br/> |PSETID_Meeting  <br/> |
-|长 ID (盖子):  <br/> |0x00000005  <br/> |
+|属性集：  <br/> |PSETID_Meeting  <br/> |
+|LONG ID (的一) ：  <br/> |0x00000005  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果值为 TRUE, 则表示对象表示定期系列或异常 (包括孤立实例)。 值为 FALSE, 或缺少此属性时, 表示对象代表单个实例。 请注意此属性与**PR_RECURRING** ([PidLidRecurring](pidlidrecurring-canonical-property.md)) 属性之间的差异。
+TRUE 值表示对象表示定期系列或异常 (包括孤立实例) 。 FALSE 值或缺少此属性，表示对象表示单个实例。 请注意此属性与[PidLidRecurring](pidlidrecurring-canonical-property.md) PR_RECURRING (值) 差异。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

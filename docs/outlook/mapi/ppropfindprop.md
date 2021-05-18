@@ -25,13 +25,13 @@ ms.locfileid: "33406337"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在属性集中搜索指定的属性。
+搜索属性集内指定的属性。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 LPSPropValue PpropFindProp(
@@ -45,23 +45,23 @@ LPSPropValue PpropFindProp(
 
  _rgprop_
   
-> 实时定义要搜索的属性的[SPropValue](spropvalue.md)结构的数组。 
+> [in] [定义要搜索的属性的 SPropValue](spropvalue.md) 结构数组。 
     
  _cprop_
   
-> 实时由_rgprop_参数指示的属性集中属性的计数。 
+> [in]  _rgprop_ 参数指示的属性集内的属性计数。 
     
  _ulPropTag_
   
-> 实时要在由_rgprop_参数指示的属性集中搜索的属性的属性标记。 
+> [in]在  _rgprop_ 参数指示的属性集内搜索的属性的属性标记。 
     
 ## <a name="return-value"></a>返回值
 
- **PpropFindProp**返回一个[SPropValue](spropvalue.md)结构, 该结构定义与输入属性标记相匹配的属性; 如果没有匹配项, 则返回 NULL。 
+ **PpropFindProp** 返回 [一个 SPropValue](spropvalue.md) 结构，该结构定义与输入属性标记匹配的属性;如果没有匹配项，则返回 NULL。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果给定的属性标记指示 PT_UNSPECIFIED 类型的属性, 则**PpropFindProp**函数仅查找标记中的属性标识符的匹配项。 否则, 它找到整个属性标记的匹配项 (包括属性类型), 并返回标识的属性。 
+如果给定的属性标记指示类型为 PT_UNSPECIFIED， **则 PpropFindProp** 函数将仅查找标记中属性标识符的匹配项。 否则，它将查找整个属性标记（包括属性类型）的匹配项，并返回标识的属性。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -69,7 +69,7 @@ LPSPropValue PpropFindProp(
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl  <br/> |CContentsTableListCtrl:: BuildDataItem  <br/> |MFCMAPI 使用**PpropFindProp**方法来查找要添加到列表中的属性集的属性。  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl：：BuildDataItem  <br/> |MFCMAPI 使用 **PpropFindProp** 方法在要添加到列表中的属性集内查找属性。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

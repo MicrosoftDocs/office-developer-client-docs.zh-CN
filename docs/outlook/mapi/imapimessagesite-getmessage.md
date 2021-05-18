@@ -37,25 +37,25 @@ HRESULT GetMessage(
 
  _ppmsg_
   
-> 排除指向指向邮件的返回接口的指针的指针。
+> [out]指向消息返回的接口的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 S_FALSE 
   
-> 当前没有适用于通话窗体的邮件。
+> 当前不存在用于调用窗体的消息。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-窗体调用**IMAPIMessageSite:: GetMessage**方法来获取当前邮件的消息接口。 当前邮件与以前在[IPersistMessage:: InitNew](ipersistmessage-initnew.md), [IPersistMessage:: Load](ipersistmessage-load.md)或[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md)方法中传递的邮件相同。 
+表单调用 **IMAPIMessageSite：：GetMessage** 方法以获取当前邮件的消息接口。 当前邮件与之前在[IPersistMessage：：InitNew、IPersistMessage：：Load](ipersistmessage-initnew.md)或[IPersistMessage：：SaveCompleted](ipersistmessage-savecompleted.md)方法中传递的邮件相同。 [](ipersistmessage-load.md) 
   
- 如果当前不存在邮件, **GetMessage**将返回 S_FALSE。 在调用[IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md)方法之前, 或在下一次调用**IPersistMessage:: Load** or **IPersistMessage:: SaveCompleted**之前, 可能会发生此状态。 
+ **如果当前不存在S_FALSE，GetMessage** 将返回一个返回消息。 在调用 [IPersistMessage：：HandsOffMessage](ipersistmessage-handsoffmessage.md) 方法之后或下次调用 **IPersistMessage：：Load** 或 **IPersistMessage：：SaveCompleted** 之前，可能会发生此状态。 
   
-有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口列表，请参阅 [MAPI Form Interfaces](mapi-form-interfaces.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -63,7 +63,7 @@ S_FALSE
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetSession  <br/> |MFCMAPI 使用**IMAPIMessageSite:: GetMessage**方法返回当前缓存的邮件指针 (如果可用)。  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer：：GetSession  <br/> |MFCMAPI 使用 **IMAPIMessageSite：：GetMessage** 方法返回当前缓存的邮件指针（如果可用）。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -25,30 +25,30 @@ ms.locfileid: "33408185"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个 ASN. 1 邮件的安全令牌。
+包含邮件的 ASN.1 安全令牌。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_MESSAGE_TOKEN  <br/> |
 |标识符:  <br/> |0x0C03  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |安全邮件传递属性  <br/> |
+|区域：  <br/> |安全邮件属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性可将受保护的与安全相关的信息从其原始发件人传达给收件人。 与**PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)) 属性结合使用时, 它可保证标签与邮件内容的关联。 与**PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)) 属性结合使用时, 它将验证邮件内容是否保持不变。
+此属性将受保护的安全相关信息从发起方传送给收件人。 结合[PidTagMessageSecurityLabel PR_MESSAGE_SECURITY_LABEL (PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)) 属性，它可确保标签与邮件内容关联。  结合[PidTagContentIntegrityCheck PR_CONTENT_INTEGRITY_CHECK (PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)) ，验证邮件内容是否未更改。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

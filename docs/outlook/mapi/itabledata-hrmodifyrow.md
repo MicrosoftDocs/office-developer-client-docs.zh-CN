@@ -25,7 +25,7 @@ ms.locfileid: "33408997"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-插入一个新的表格行, 可能会替换现有行。
+插入新的表格行，可能会替换现有的行。
   
 ```cpp
 HRESULT HrModifyRow(
@@ -37,27 +37,27 @@ HRESULT HrModifyRow(
 
  _lpSRow_
   
-> 实时指向描述要添加的行或要替换现有行的[SRow](srow.md)结构的指针。 **SRow**结构的**lpProps**成员所指向的某个属性值结构应包含索引列, 在对 CreateTable 的调用中的_ulPropTagIndexColumn_参数中指定的值相同。 [](createtable.md)函数。 
+> [in]指向描述要添加的行或替换现有行的 [SRow](srow.md) 结构的指针。 **SRow** 结构的 **lpProps** 成员指向的属性值结构之一应包含索引列，该值与调用 [CreateTable](createtable.md)函数的 _ulPropTagIndexColumn_ 参数中指定的值相同。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 行已成功插入或修改。
+> 该行已成功插入或修改。
     
 MAPI_E_INVALID_PARAMETER 
   
-> 传入的行没有索引列。
+> 传入行没有索引列。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**ITableData:: HrModifyRow**方法插入由_lpSRow_参数指向的**SRow**结构所描述的行。 如果与_lpSRow_指向的行在表中已存在具有相同的 index 列值的行, 则将替换现有行。 如果不存在与**SRow**结构中包含的行相匹配的行, 则**HrModifyRow**会将该行添加到表的末尾。 
+**ITableData：：HrModifyRow** 方法插入 _由 lpSRow_ 参数指向 **的 SRow** 结构所描述的行。 如果与  _lpSRow_ 所指向的行的索引列值相同的行在表中已存在，则替换现有行。 如果不存在与 **SRow** 结构中包含的行匹配的行， **则 HrModifyRow** 会将该行添加到表的末尾。 
   
-将修改表的所有视图, 以包括由_lpSRow_指向的行。 但是, 如果视图具有排除行的限制, 则用户可能对其不可见。 
+该表的所有视图都经过修改，以包括  _lpSRow 指向的行_。 但是，如果视图具有排除行的就地限制，则用户可能无法看到该视图。 
   
-_lpSRow_所指向的行中的列不必与表中的列的顺序相同。 调用方还可以包含表中当前不包含的列属性。 对于现有视图, **HrModifyRow**使这些新列可用, 但不将其包含在当前列集中。 对于将来的视图, **HrModifyRow**包含列集中的新列。 
+_lpSRow_ 指向的行中的列与表格中的列的顺序不一样。 调用方还可以包括为表中当前未包含的列属性。 对于现有视图 **，HrModifyRow** 使这些新列可用，但不包括在当前列集内。 对于以后的视图 **，HrModifyRow** 包括列集的新列。 
   
-在**HrModifyRow**添加行后, 会将通知发送到具有表视图且已调用表的[IMAPITable:: Advise](imapitable-advise.md)方法以注册通知的所有客户端或服务提供程序。 
+**HrModifyRow** 添加行后，通知将发送到所有具有表视图并且已调用表 [的 IMAPITable：：Advise](imapitable-advise.md)方法来注册通知的客户端或服务提供商。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -21,20 +21,20 @@ ms.locfileid: "33408408"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-您可以使用传输提供程序的状态对象来更改提供程序的一些属性。 可以更改的属性范围取决于提供程序的属性表附带的属性以及如何定义这些属性。 
+可以使用传输提供程序的状态对象更改提供程序的一些属性。 可更改的属性范围取决于提供程序的提供程序属性中包含的属性属性表定义这些属性的方式。 
   
  **重新配置活动传输提供程序**
   
-1. 调用[IMAPISession:: GetStatusTable](imapisession-getstatustable.md)以访问状态表。 
+1. 调用 [IMAPISession：：GetStatusTable](imapisession-getstatustable.md) 以访问状态表。 
     
-2. 通过创建与目标提供程序的名称相匹配的**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 的属性限制, 找到要重新配置的传输提供程序的行。 
+2. 通过创建与 PR_DISPLAY_NAME ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 与目标提供程序名称相匹配的属性限制，找到要重新配置的传输提供程序的行。 
     
-3. 调用[IMAPITable:: FindRow](imapitable-findrow.md)以检索相应的行。 
+3. 调用 [IMAPITable：：FindRow](imapitable-findrow.md) 以检索相应的行。 
     
-4. 检查目标传输提供程序的**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中是否设置了 STATUS_SETTINGS_DIALOG 和 STATUS_VALIDATE_STATE 标志。 如果未设置 STATUS_SETTINGS_DIALOG, 则传输提供程序不显示配置属性表。 如果未设置 STATUS_VALIDATE_STATE, 则无法执行动态重新配置。
+4. 检查目标STATUS_SETTINGS_DIALOG [PidTagResourceMethods](pidtagresourcemethods-canonical-property.md) STATUS_VALIDATE_STATE 属性中是否设置了PR_RESOURCE_METHODS (和) 标志。 如果未STATUS_SETTINGS_DIALOG，则传输提供程序不会显示配置属性表。 如果未STATUS_VALIDATE_STATE，则不能执行动态重新配置。
     
-5. 如果设置了 STATUS_SETTINGS_DIALOG, 则调用[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)以显示传输提供程序的属性表, 并允许用户进行更改。 
+5. 如果STATUS_SETTINGS_DIALOG，请调用 [IMAPIStatus：：SettingsDialog](imapistatus-settingsdialog.md) 以显示传输提供程序属性表并允许用户进行更改。 
     
-6. 在用户完成重新配置之后, 调用[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)如果设置了 STATUS_VALIDATE_STATE, 则传递 CONFIG_CHANGED。 
+6. 在用户完成重新配置后，如果已设置STATUS_VALIDATE_STATE，则调用[IMAPIStatus：：ValidateState，CONFIG_CHANGED。](imapistatus-validatestate.md) 
     
 

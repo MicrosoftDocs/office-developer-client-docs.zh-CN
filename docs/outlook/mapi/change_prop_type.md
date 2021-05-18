@@ -19,18 +19,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408619"
 ---
-# <a name="changeproptype"></a>CHANGE_PROP_TYPE
+# <a name="change_prop_type"></a>CHANGE_PROP_TYPE
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将属性标记的属性类型更新为指定的值。 属性标识符保持不变。 
+将属性标记的属性类型更新为指定值。 属性标识符保持不变。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |[SPropValue](spropvalue.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 CHANGE_PROP_TYPE (ulPropTag, ulPropType)

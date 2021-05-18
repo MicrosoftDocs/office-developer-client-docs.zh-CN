@@ -22,7 +22,7 @@ ms.locfileid: "33406512"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-此过程与[fShowDialog](fshowdialog.md)显示的本机 Windows 对话框相关联。 它提供 Windows 针对事件 (消息) 调用的服务例程, 这些事件在用户操作对话框的按钮、条目字段或控件之一时发生。 
+此过程与[fShowDialog](fshowdialog.md)显示的本机Windows对话框相关联。 它提供由 Windows 调用的服务例程， (用户) 按钮、输入字段或控件之一时发生的) 消息。 
   
 ```cs
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
@@ -30,27 +30,27 @@ BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lP
 
 ## <a name="parameters"></a>参数
 
- _hWndDlg_(**HWND**)
+ _hWndDlg_ (**HWND**) 
   
-包含对话框的 HWND 窗口句柄。
+包含对话框Windows HWND 对象句柄。
   
- _邮件_(**UINT**)
+ _message_ (**UINT**) 
   
 要响应的邮件。
   
- _wParam_(**WPARAM**)
+ _wParam_ (**WPARAM**) 
   
- _lParam_(**LPARAM**)
+ _lParam_ (**LPARAM**) 
   
-由 Windows 传递的参数。
+由 Windows。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
- 如果已处理邮件,**则为 TRUE** , 否则为**FALSE** 。 
+ 如果邮件已处理，则其为 **TRUE;** 如果未处理，则为 **FALSE。** 
   
 ### <a name="example"></a>示例
 
-有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
+有关  `\SAMPLES\GENERIC\GENERIC.C` 此函数的源代码，请参阅 。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -23,24 +23,24 @@ ms.locfileid: "33407373"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 ButtonFace 单元格中包含的字符串表示 Microsoft Office 按钮外表图像的 ID。值为零 (0) 或空白表示不显示图标。 
   
-ButtonFace 单元格中可以使用的 ID 与用于 **CommandBarButton** 对象的 **FaceID** 属性的 ID 相同。 有关这些 id 的更多详细信息, 请在 MSDN 上搜索 "使用命令栏按钮图像"。 
+ButtonFace 单元格中可以使用的 ID 与用于 **CommandBarButton** 对象的 **FaceID** 属性的 ID 相同。 有关这些 ID 的更多详细信息，请搜索 MSDN 上的"使用命令栏按钮图像"。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称来获取对 ButtonFace 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |**操作**。  *名称*。 **ButtonFace**其中的**操作**。  *name*是操作行的名称  <br/> |
+|单元格名称：  <br/> |**操作**。  *name*  . **ButtonFace**         其中 **Actions**.  *name*  是 actions 行的名称  <br/> |
    
 要从某个程序按索引获取有关 ButtonFace 单元格的参考内容，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionAction** <br/> |
-|行索引：  <br/> |**visRowAction** +  *i* = **** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRowAction**  +  *i* 其中 **i** = 0、1、2...  <br/> |
 |单元格索引：  <br/> |**visActionButtonFace** <br/> |
    
 

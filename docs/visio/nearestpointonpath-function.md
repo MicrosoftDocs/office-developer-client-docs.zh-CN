@@ -25,15 +25,15 @@ ms.locfileid: "33407331"
   
 ## <a name="syntax"></a>语法
 
-NEARESTPOINTONPATH (* * *section* * *, * * *x* * *, * * *y* * *) 
+NEARESTPOINTONPATH (** *section* **， ** *x* **， ** *y* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |必需  <br/> |**String** <br/> |Geometry 节代表路径，通过对其 Path 单元格的引用指定（例如 Geometry1.Path）。  <br/> |
-| _x_ <br/> |必需  <br/> |**Double** <br/> |指定点的_x_坐标。  <br/> |
-| _y_ <br/> |必需  <br/> |**Double** <br/> |指定点的_y_坐标。  <br/> |
+| _x_ <br/> |必需  <br/> |**Double** <br/> |指定点的  _x_ 坐标。  <br/> |
+| _y_ <br/> |必需  <br/> |**Double** <br/> |_指定点的 y_ 坐标。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
@@ -41,6 +41,6 @@ NEARESTPOINTONPATH (* * *section* * *, * * *x* * *, * * *y* * *)
   
 ## <a name="remarks"></a>备注
 
-如果_section_不存在, Microsoft Visio 将返回 #REF!。 
+如果 _section_ 不存在，Microsoft Visio返回 #REF！。 
   
 

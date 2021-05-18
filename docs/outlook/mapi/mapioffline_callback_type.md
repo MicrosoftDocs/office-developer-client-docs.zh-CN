@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407779"
 ---
-# <a name="mapiofflinecallbacktype"></a>MAPIOFFLINE_CALLBACK_TYPE
+# <a name="mapioffline_callback_type"></a>MAPIOFFLINE_CALLBACK_TYPE
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-枚举支持的回调类型。
+支持的回调类型的枚举。
   
 ## <a name="quick-info"></a>快速信息
 

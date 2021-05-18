@@ -1,5 +1,5 @@
 ---
-title: 常量 (数据降级层 API)
+title: '数据 (API 保护的) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408388"
 ---
-# <a name="constants-data-degradation-layer-api"></a>常量 (数据降级层 API)
+# <a name="constants-data-degradation-layer-api"></a>数据 (API 保护的) 
 
 本主题包含数据降级层 API 的常量定义。
   

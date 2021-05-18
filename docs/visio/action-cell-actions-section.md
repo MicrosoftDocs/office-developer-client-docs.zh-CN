@@ -23,7 +23,7 @@ ms.locfileid: "33407611"
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 只有动作发生（而不是输入该公式）后才对 Action 单元格求值。
   
@@ -31,14 +31,14 @@ ms.locfileid: "33407611"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | 操作.  *名称*。操作中的操作。 *name*是操作行的名称  <br/> |
+| 单元格名称：  <br/> | 操作。  *name*  .操作，其中 Actions。 *name*  是 actions 行的名称  <br/> |
    
 要从某个程序按索引获取对 Action 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionAction** <br/> |
-| 行索引：  <br/> |**visRowAction** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowAction**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visActionAction** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "33407513"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-设置后台处理程序的挂起状态。
+设置后台处理程序上的挂起状态。
   
 ```cpp
 void SetSpoolSuspendState( 
@@ -37,7 +37,7 @@ void SetSpoolSuspendState(
 
  _ulState_
   
-> 实时要将后台打印程序设置为的状态。 它必须是下列值之一:
+> [in]要设置后台处理程序的状态。 它必须是下列值之一：
     
  **SS_ACTIVE**
   

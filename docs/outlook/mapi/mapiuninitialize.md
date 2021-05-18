@@ -25,11 +25,11 @@ ms.locfileid: "33408521"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-递减 MAPI DLL 的引用计数、清除和删除每个实例的全局数据。 
+为 MAPI DLL 缩小引用计数、清理和删除每个实例的全局数据。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapix  <br/> |
+|标头文件：  <br/> |Mapix.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
    
@@ -47,11 +47,11 @@ void MAPIUninitialize ( void );
   
 ## <a name="remarks"></a>说明
 
-客户端应用程序调用**MAPIUninitialize**函数来结束它与 MAPI 的交互, 并在调用[MAPIInitialize](mapiinitialize.md)函数时开始。 在调用**MAPIUninitialize**后, 客户端不能发出其他 MAPI 调用。 
+客户端应用程序调用 **MAPIUninitialize** 函数以结束其与 MAPI 的交互，从调用 [MAPIInitialize 函数开始](mapiinitialize.md) 。 调用 **MAPIUninitialize** 后，客户端无法进行任何其他 MAPI 调用。 
   
- **MAPIUninitialize**递减引用计数, 相应的**MAPIInitialize**函数将递增引用计数。 因此, 对一个函数的调用次数必须等于对另一个函数的调用次数。 
+ **MAPIUninitialize** 会缩小引用计数，相应的 **MAPIInitialize** 函数将递增引用计数。 因此，对一个函数的调用数必须等于对另一个函数的调用数。 
   
 > [!NOTE]
-> 无法从 Win32 **DllMain**函数或任何其他创建或终止线程的函数中调用**MAPIInitialize**或**MAPIUninitialize** 。 有关详细信息, 请参阅[使用线程安全对象](using-thread-safe-objects.md)。 
+> 不能从 Win32 **DllMain** 函数或其他创建或终止线程的函数中调用 **MAPIInitialize** 或 **MAPIUninitialize。** 有关详细信息，请参阅使用对象 [Thread-Safe对象](using-thread-safe-objects.md)。 
   
 

@@ -38,29 +38,29 @@ ULONG OnNotify(
 
  _cNotif_
   
-> 实时由_lpNotifications_参数指向的[通知](notification.md)结构的计数。 
+> [in]_lpNotifications_ 参数指向的 [NOTIFICATION](notification.md)结构计数。 
     
  _lpNotifications_
   
-> 实时指向一个或多个通知结构的指针, 这些**通知**结构提供有关已发生事件的信息。 
+> [in]指向一个或多个 **NOTIFICATION** 结构的指针，该结构提供有关已发生事件的信息。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功处理通知。
+> 通知已成功处理。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-当客户端或 MAPI 对服务提供商的**建议**方法进行注册以接收特定对象的特定类型通知时, 将启动通知过程。 **advise**方法的一个参数是指向实现[IMAPIAdviseSink](imapiadvisesinkiunknown.md)接口的通知接收器对象的指针。 当与已注册的通知相对应的目标对象发生事件时, 服务提供程序可以通过 MAPI 直接或间接地调用通知接收器的**OnNotify**方法。 
+当客户端或 MAPI 调用服务提供商的 **Advise** 方法以注册以接收特定对象的特定类型通知时，通知过程将启动。 **Advise** 方法的参数之一是指向实现 [IMAPIAdviseSink](imapiadvisesinkiunknown.md)接口的 advise 接收器对象的指针。 当对应于已注册的通知的目标对象发生事件时，服务提供商会直接或间接通过 MAPI 调用通知接收器 **的 OnNotify** 方法。 
   
-对**OnNotify**的调用可能发生在导致事件的 MAPI 调用过程中或稍后某个时候。 在支持多个执行线程的系统上, 可以在用于注册的同一线程或在不同的线程上调用**OnNotify** 。 客户端可以通过创建其传递给**建议**使用[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)函数的通知接收器来确保对用于呼叫**通知**的同一线程进行**OnNotify**调用。 
+对 **OnNotify** 的调用可以在导致事件的 MAPI 调用期间或稍后发生。 在支持多个执行线程的系统上，可以在用于注册的同一线程上或其他线程上调用 **OnNotify。** 客户端可以通过创建使用 [HrThisThreadAdviseSink](hrthisthreadadvisesink.md)函数传递给 **Advise** 的建议接收器，确保在用于调用 **Advise** 的同一线程上执行 **OnNotify** 调用。 
   
-_lpNotifications_参数指向一个或多个**通知**结构, 用于描述事件过程中发生了更改的内容。 每种类型的事件都有不同类型的**通知**结构。 
+_lpNotifications_ 参数指向一个或多个 **NOTIFICATION** 结构，用于描述事件期间发生了哪些变化。 每种事件类型都有不同类型的 **NOTIFICATION** 结构。 
   
-下表列出了用于表示可能的事件类型的值, 以及与每个值关联的结构:
+下表列出了用于表示可能类型的事件的值以及与每个值关联的结构：
   
-|**通知事件类型**|**对应的结构**|
+|**通知事件类型**|**相应的结构**|
 |:-----|:-----|
 |**fnevCriticalError** <br/> |[ERROR_NOTIFICATION](error_notification.md) <br/> |
 |**fnevNewMail** <br/> |[NEWMAIL_NOTIFICATION](newmail_notification.md) <br/> |
@@ -73,21 +73,21 @@ _lpNotifications_参数指向一个或多个**通知**结构, 用于描述事件
 |**fnevStatusObjectModified** <br/> |[STATUS_OBJECT_NOTIFICATION](status_object_notification.md) <br/> |
 |**fnevExtended** <br/> |[EXTENDED_NOTIFICATION](extended_notification.md) <br/> |
    
-有关如何设置和停止通知的详细信息, 请参阅适用于以下任何接口的**Advise**和**Unadvise**方法的引用条目: [IABLogon](iablogoniunknown.md)、 [IAddrBook](iaddrbookimapiprop.md)、 [IMAPIForm](imapiformiunknown.md)、 [IMAPISession](imapisessioniunknown.md)、 [IMAPITable](imapitableiunknown.md)、 [IMsgStore](imsgstoreimapiprop.md)和[IMSLogon](imslogoniunknown.md)。 
+若要详细了解如何设置和停止通知，请参阅以下任一接口的 **Advise** 和 **Unadvise** 方法的参考条目：IABLogon、IAddrBook、IMAPIForm、IMAPISession、IMAPITable、IMsgStore [](imsgstoreimapiprop.md)和 [](imapisessioniunknown.md)[](iaddrbookimapiprop.md)[IMSLogon。](imslogoniunknown.md) [](iablogoniunknown.md) [](imapiformiunknown.md) [](imapitableiunknown.md) 
   
-有关通知过程的一般信息, 请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。 
+有关通知过程的常规信息，请参阅 [MAPI 中的事件通知](event-notification-in-mapi.md)。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-您的**OnNotify**实现通常由您预期收到的每种类型的通知的一个或多个代码块组成。 在这些代码块中, 执行您认为是对通知的响应所需的任何任务。 例如, 假设您注册接收在对话框显示中包含的文件夹上的**fnevObjectModified**通知。 在**OnNotify**方法中包含的代码块中, 若要处理**fnevObjectModified**通知, 您可能会将 Windows 消息发送到对话框, 以请求更新的显示。 
+**OnNotify** 实现通常包含预期接收的每种类型的通知的一个或多个代码块。 在这些代码块内，执行你认为作为通知响应所必需的任何任务。 例如，假设您注册以接收对话框显示中包括的文件夹上的 **fnevObjectModified** 通知。 在 **OnNotify** 方法中用于处理 **fnevObjectModified** 通知的代码块中，你可以向对话框发送 Windows 消息以请求更新的显示。 
   
-请勿修改或释放传递给**OnNotify**的**通知**结构。 结构中的数据仅在**OnNotify**返回之前有效。 
+不要修改或释放传递给 **OnNotify** 的 **NOTIFICATION** 结构。 结构中的数据仅在 **OnNotify 返回之前有效** 。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-当多个对象发生更改时, 您可以在对**OnNotify**或多个调用中的一次调用中通知已注册的通知接收器, 具体取决于内存约束。 无论更改是一个方法调用的结果还是多个, 都是如此。 例如, 对[IMAPIFolder:: CopyMessages](imapifolder-copymessages.md)的调用可能会影响多个邮件和文件夹。 作为邮件存储提供程序, 您可以使用目标文件夹的**fnevObjectModified**事件类型或多个调用 (一个针对每个邮件的影响) 对**OnNotify**调用一个调用。 同样, 如果客户端再次调用[IMAPIFolder:: CreateMessage](imapifolder-createmessage.md), 则这些调用可以合并到文件夹的一个**fnevObjectModified**事件中, 也可以分隔到每个新邮件的单个**fnevObjectCreated**事件中。 
+当对多个对象进行更改时，您可以通知注册的通知接收器，该通知接收在 **OnNotify** 的单个调用中或根据内存限制的多个调用中。 无论更改是一个方法调用还是多个方法调用的结果，都是如此。 例如，对 [IMAPIFolder：：CopyMessages](imapifolder-copymessages.md) 的调用可能会影响多个邮件和文件夹。 作为邮件存储提供程序，可以使用目标文件夹的 **fnevObjectModified** 事件类型对 **OnNotify** 进行一次调用，或多次调用，每个调用一个影响邮件。 同样，如果客户端对 [IMAPIFolder：：CreateMessage](imapifolder-createmessage.md)进行重复调用，这些调用可以组合到文件夹的一个 **fnevObjectModified** 事件，也可以分隔为每个新邮件的单个 **fnevObjectCreated** 事件。 
   
-有关如何以及何时生成通知的详细信息, 请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)和[支持事件通知](supporting-event-notification.md)。 
+若要详细了解如何以及何时生成通知，请参阅 [MAPI](event-notification-in-mapi.md) 中的事件通知 [和支持事件通知](supporting-event-notification.md)。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -95,7 +95,7 @@ _lpNotifications_参数指向一个或多个**通知**结构, 用于描述事件
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|AdviseSink 和 AdviseSink  <br/> |CAdviseSink:: OnNotifyDesc  <br/> |实现 CAdviseSink 类以处理 MFCMAPI 中的所有通知。  <br/> |
+|AdviseSink.h 和 AdviseSink.cpp  <br/> |CAdviseSink：：OnNotifyDesc  <br/> |实现 CAdviseSink 类以处理 MFCMAPI 中的所有通知。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

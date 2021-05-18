@@ -30,8 +30,8 @@ ms.locfileid: "32315965"
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidPostRssChannelLink  <br/> |
-|属性集:  <br/> |PSETID_PostRss  <br/> |
-|长 ID (盖子):  <br/> |0x00008900  <br/> |
+|属性集：  <br/> |PSETID_PostRss  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008900  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |RSS  <br/> |
    
@@ -39,17 +39,17 @@ ms.locfileid: "32315965"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议Exchange Server的引用。
     
-[[毫秒-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
+[[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
 > 指定表示 RSS 项目的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

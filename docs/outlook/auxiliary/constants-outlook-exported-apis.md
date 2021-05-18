@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
-description: 本主题包含 Outlook 导出的 api 的常量定义。
+description: 本主题包含用于导出的 API 的Outlook定义。
 ms.openlocfilehash: 65181932b858da1b32c3fbe5fd0bd7e92ca8dc9f
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "32319871"
 ---
 # <a name="constants-outlook-exported-apis"></a>（Outlook 导出的 Api） 的常量
 
-本主题包含 Outlook 导出的 api 的常量定义。
+本主题包含用于导出的 API 的Outlook定义。
   
 ## <a name="definitions-for-time-zone-support"></a>时区支持的定义
 
@@ -35,16 +35,16 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
 |:-----|:-----|
 |PCAFSIF_MSGEID_IS_SEARCH_KEY  <br/> |0x00000001  <br/> |
    
-## <a name="miscellaneous-dispatch-identifiers"></a>其他调度标识符
+## <a name="miscellaneous-dispatch-identifiers"></a>杂项调度标识符
 
-Outlook 公开以下调度标识符 (dispid), 以便开发人员可以使用[IDispatch:: Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke)访问相应的属性或方法, 或侦听相应的事件。 
+Outlook在 dispids (公开以下调度标识符) 以便开发人员可以使用[IDispatch：：Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke)访问相应的属性或方法，或侦听相应的事件。 
   
-|**关联常量**|**Dispid 值**|**Description**|**适用接口**|
+|**关联的常量**|**Dispid 值**|**说明**|**适用的接口**|
 |:-----|:-----|:-----|:-----|
-|**dispidFDirty** <br/> |0xF024  <br/> |用于调用项的相应属性, 以验证该项是否已修改, 但尚未保存。  <br/> |项目级对象  <br/> |
-|**dispidShowSenderPhoto** <br/> |0xF0D0  <br/> |用于调用资源管理器或检查器上的相应方法, 以指定是否基于给定参数显示联系人的图片。  <br/> |资源管理器或检查器  <br/> |
-|**dispidBeforePrint** <br/> |0xFC8E  <br/> |用于处理在打印操作之前触发的**IDispatch:: Invoke**函数中的事件。  <br/> |应用程序  <br/> |
-|**dispidEventReadComplete** <br/> |0xFC8F  <br/> |用于处理在 Outlook 已完成项目属性读取时触发的**IDispatch:: Invoke**函数中的事件。  <br/> |项目级对象  <br/> |
+|**dispidFDirty** <br/> |0xF024  <br/> |用于调用项目上的相应属性，以验证该项目是否已修改，但尚未保存。  <br/> |项目级对象  <br/> |
+|**dispidShowSenderPhoto** <br/> |0xF0D0  <br/> |用于调用浏览器或检查器上的相应方法，以指定是否基于给定参数显示联系人的图片。  <br/> |资源管理器或检查器  <br/> |
+|**dispidBeforePrint** <br/> |0xFC8E  <br/> |用于处理在打印操作之前触发 **的 IDispatch：：Invoke** 函数中的事件。  <br/> |应用程序  <br/> |
+|**dispidEventReadComplete** <br/> |0xFC8F  <br/> |用于处理 **IDispatch：：Invoke** 函数中的事件，该事件在用户Outlook项目属性后触发。  <br/> |项目级对象  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

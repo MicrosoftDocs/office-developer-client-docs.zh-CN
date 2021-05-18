@@ -25,7 +25,7 @@ ms.locfileid: "32316364"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将到期的发送时间与**PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)) 属性一起定义。
+与[PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)  PR_EXPIRY_UNITS (一起定义) 发送时间。
   
 |||
 |:-----|:-----|
@@ -34,27 +34,27 @@ ms.locfileid: "32316364"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性的值必须在0和 999 (含) 之间设置 (如果存在)。
+此属性的值必须设置为 0 到 999 之间（如果存在）。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

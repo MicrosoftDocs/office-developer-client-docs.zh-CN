@@ -18,7 +18,7 @@ ms.locfileid: "33407695"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-显示一个模式对话框, 以收集用户的信息。 当用户单击 " **Excel 选项**" 对话框 (在 "**公式**" 部分下的 "**高级**" 类别中) 的 "**群集类型**" 框旁边的 "**选项**" 按钮时, 将调用此入口点。 群集连接器负责实现其自己的 "选项" 对话框界面以及将相关数据存储在注册表或其他地方。 选项是群集连接器的内部选项。 Excel 并不知道它们。 
+显示从用户收集信息的模式对话框。 当用户单击"公式"部分下"高级"类别中 **" ("Excel** 选项"对话框中所选群集连接器的"群集类型"框旁边的"选项"按钮时，) 将调用此入口点。   群集连接器负责实现自己的选项对话框接口，以及将相关的数据存储在注册表或其他地方。 选项在群集连接器内部。 Excel他们。 
   
 ```cpp
 int ShowOptions(HWND hWndParent)
@@ -28,15 +28,15 @@ int ShowOptions(HWND hWndParent)
 
 _hWndParent_
   
-> Excel 窗口的句柄。
+> 窗口的Excel句柄。
     
 ## <a name="return-value"></a>返回值
 
-如果显示对话框, 则为**xlHpcRetSuccess** ;如果未显示**xlHpcRetCallFailed** , 则为。 
+**xlHpcRetSuccess（** 如果显示对话框）; **xlHpcRetCallFailed（** 如果未显示）。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-群集连接器可以使用此对话框从用户处获取信息 (如要使用哪个群集服务器)。
+群集连接器可以使用此对话框从用户获取信息，例如要使用哪些群集服务器。
   
 ## <a name="see-also"></a>另请参阅
 

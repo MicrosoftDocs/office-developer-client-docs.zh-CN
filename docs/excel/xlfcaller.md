@@ -22,19 +22,19 @@ ms.locfileid: "33405728"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-返回有关单元格、单元格区域、菜单上的命令、工具栏上的工具或调用了当前正在运行的 DLL 命令或函数的对象的信息。
+返回有关单元格、单元格区域、菜单上的命令、工具栏上的工具或调用 DLL 命令或当前正在运行的函数的对象的信息。
   
-|**调用的代码**|**返回**|
+|**从 中调用的代码**|**返回**|
 |:-----|:-----|
 |DLL  <br/> |注册 ID。  <br/> |
-|单个单元格  <br/> |单个单元格引用。  <br/> |
+|单个单元格  <br/> |单单元格引用。  <br/> |
 |多单元格数组公式  <br/> |多单元格引用。  <br/> |
-|条件格式表达式  <br/> |对应用了格式设置条件的单元格的引用。  <br/> |
-|一个菜单  <br/> | 四元素单行数组:  <br/>  条形图 ID。  <br/>  菜单位置。  <br/>  子菜单位置。  <br/>  命令位置。  <br/> |
-|一个工具栏  <br/> | 一个双元素单行数组:  <br/>  内置工具栏或自定义工具栏的工具栏名称的工具栏编号。  <br/>  工具栏上的位置。  <br/> |
-|一个图形对象  <br/> |对象标识符 (对象名称)。  <br/> |
-|与 xlcOnEnter 相关联的命令。ENTER、事件陷阱  <br/> |对所输入的一个或多个单元格的引用。  <br/> |
-|与 xlcOnDoubleclick 相关联的命令。DOUBLECLICK, 事件陷阱。  <br/> |双击的单元格 (不一定是活动单元格)。  <br/> |
+|条件格式表达式  <br/> |对应用格式条件的单元格的引用。  <br/> |
+|菜单  <br/> | 四元素单行数组：  <br/>  条形图 ID。  <br/>  菜单位置。  <br/>  子menu 位置。  <br/>  命令位置。  <br/> |
+|工具栏  <br/> | 双元素单行数组：  <br/>  内置工具栏的工具栏编号或自定义工具栏的工具栏名称。  <br/>  工具栏上的位置。  <br/> |
+|图形对象  <br/> |对象标识符 (对象名称) 。  <br/> |
+|与 xlcOnEnter 相关联的命令 ON。ENTER、事件捕获  <br/> |对要输入的一个或多个单元格的引用。  <br/> |
+|与 xlcOnDoubleclick 相关联的命令 ON。DOUBLECLICK，事件陷阱。  <br/> |双击的单元格不一 (活动单元格) 。  <br/> |
 |Auto_Open、AutoClose、Auto_Activate 或 Auto_Deactivate 宏  <br/> |调用工作表的名称。  <br/> |
 |未列出的其他方法  <br/> |#REF! 错误。  <br/> |
    
@@ -44,17 +44,17 @@ Excel12(xlfCaller, (LPXLOPER12) pxRes,0);
 
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-返回值是以下**XLOPER**/ **XLOPER12**数据类型之一: **xltypeRef**、 **xltypeSRef**、 **xltypeNum**、 **xltypeStr**、 **xltypeErr**或**xltypeMulti**。 由于其中三个类型都指向分配的内存, 因此**xlfCaller**的返回值应始终在对[xlFree 函数](xlfree.md)的调用中释放, 如果不再需要它。 
+返回值是以下 /  **XLOPER XLOPER12** 数据类型之一：xltypeRef、xltypeSRef、xltypeNum、xltypeStr、xltypeErr 或 **xltypeMulti。**     由于其中三种类型指向已分配的内存，因此当不再需要 [xlFree](xlfree.md)函数时，应始终在调用 xlFree 函数时释放 **xlfCaller** 的返回值。 
   
-有关**XLOPERs**/ **XLOPER12s**的详细信息, 请参阅[Excel 中的内存管理](memory-management-in-excel.md)。
+有关 **XLOPERs** /  **XLOPER12s** 的信息，请参阅 [Excel 中的内存管理](memory-management-in-excel.md)。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此函数是唯一可从 DLL/XLL 工作表函数调用的非工作表函数。 其他 XLM 信息函数只能从命令或宏工作表等效函数中调用。
+此函数是唯一可以从 DLL/XLL 工作表函数调用的非工作表函数。 其他 XLM 信息函数只能从命令或宏表等效函数调用。
   
 ## <a name="example"></a>示例
 
- `\SAMPLES\EXAMPLE\EXAMPLE.C`. 此函数调用命令宏 (xlcSelect), 并且只有在从宏表中调用时才能正常工作。
+ `\SAMPLES\EXAMPLE\EXAMPLE.C`. 此函数在 xlcSelect (调用命令宏) 并且仅在从宏表调用时才能正常工作。
   
 ```cs
 short WINAPI CallerExample(void)

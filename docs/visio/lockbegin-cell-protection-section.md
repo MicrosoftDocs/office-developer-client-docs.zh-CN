@@ -25,7 +25,7 @@ ms.locfileid: "33407758"
 | TRUE  <br/> | 已锁定起点。  <br/> |
 | FALSE  <br/> | 未锁定起点。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LockBegin 单元格的引用，请使用： 
   

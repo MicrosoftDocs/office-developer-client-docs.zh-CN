@@ -16,7 +16,7 @@ ms.locfileid: "33408486"
 ---
 # <a name="iolkaccountmanagerfreememory"></a>IOlkAccountManager::FreeMemory
 
-释放由[IOlkAccountManager](iolkaccountmanager.md)接口分配的内存。 
+释放由 [IOlkAccountManager](iolkaccountmanager.md) 接口分配的内存。 
   
 ## <a name="quick-info"></a>快速信息
 
@@ -32,15 +32,15 @@ HRESULT IOlkAccountManager::FreeMemory (
 
 _pv_
   
-> 实时指向要释放的内存的指针。
+> [in]指向要释放的内存的指针。
     
 ## <a name="return-values"></a>返回值
 
 如果该调用成功，则返回 S_OK否则为一个错误代码。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-使用此方法可释放由[IOlkAccountManager:: GetOrder](iolkaccountmanager-getorder.md)分配的内存。
+使用此方法释放由 [IOlkAccountManager：：GetOrder](iolkaccountmanager-getorder.md)分配的内存。
   
 ## <a name="see-also"></a>另请参阅
 

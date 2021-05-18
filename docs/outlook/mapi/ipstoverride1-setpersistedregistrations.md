@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
-description: '上次修改时间: 2011 年11月8日'
+description: 上次修改时间：2011 年 11 月 8 日
 ms.openlocfilehash: 6583765d4df7c7bfae9e7a62606beaa857874954
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "33408346"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-为自动解锁注册个人文件夹 (.pst) 文件, 以避免对 HrTrustedPSTOverrideHandlerCallback 的进一步调用。
+将个人文件夹 (.pst) 文件进行自动解锁，以避免进一步调用 HrTrustedPSTOverrideHandlerCallback。
   
 ```cpp
 HRESULT SetPersistedRegistrations(
@@ -35,14 +35,14 @@ HRESULT SetPersistedRegistrations(
 
 _pmval_
   
-> 实时一个[SPropValue](spropvalue.md)结构, 其中包含指向要注册的动态链接库 (DLL) 的路径的指针。 结构具有以下特征: 
+> [in]一 [个 SPropValue](spropvalue.md) 结构，包含指向动态链接库路径的指针 (DLL) 进行注册。 结构具有以下特征： 
     
-   - [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL) 的 ulPropTag。
+   - 一个 ulPropTag [](prop_tag.md) PROP_TAG (PT_MV_UNICODE PROP_ID_NULL) 。
     
-   - 一个 MVszW 值属性, 该属性设置为以 null 结尾的 Unicode 字符串的数组。 有关详细信息, 请参阅[SWStringArray](swstringarray.md)主题。 
+   - 一个 MVszW 值属性，设置为以 null 结束的 Unicode 字符串数组。 有关详细信息，请参阅 [SWStringArray](swstringarray.md) 主题。 
     
 > [!NOTE]
-> SPropValue 存储在 PST 的内部范围内的 MAPI 属性中。 普通 MAPI 应用程序无法访问此属性。 
+> SPropValue 存储在 PST 内部范围的 MAPI 属性中。 普通 MAPI 应用程序无法访问此属性。 
   
 ## <a name="return-value"></a>返回值
 
@@ -50,12 +50,12 @@ S_OK
   
 > 函数调用成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-持久化注册可能会对打开 pst 的应用程序 (如 Outlook 和 Windows 桌面搜索) 的性能产生不利影响。 在使用或扩展持久化注册的使用情况时, 请考虑性能影响。
+保留的注册可能会对打开 PST 的应用程序（如桌面Outlook Windows搜索）的性能产生不利影响。 在使用或扩展持续注册的使用时，请考虑性能影响。
   
 > [!IMPORTANT]
-> 仅为 Unicode 实现此方法。 此外, 如果数组中的任何路径的文件扩展名均不为 .dll, 则 preemptively 将失败。 
+> 此方法仅为 Unicode 实现。 此外，如果数组中的任一路径的文件扩展名没有扩展名.dll。 
   
 ## <a name="see-also"></a>另请参阅
 

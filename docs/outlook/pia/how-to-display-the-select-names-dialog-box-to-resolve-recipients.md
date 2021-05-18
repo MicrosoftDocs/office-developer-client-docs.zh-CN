@@ -16,11 +16,11 @@ ms.locfileid: "32316063"
 ---
 # <a name="display-the-select-names-dialog-box-to-resolve-recipients"></a>显示“选择姓名”对话框以解析收件人
 
-该示例尝试解析 *recips* 参数所提供的收件人，并为每个因不明确而无法解析的收件人显示 Outlook“选择姓名”**** 对话框。
+该示例尝试解析 *recips* 参数所提供的收件人，并为每个因不明确而无法解析的收件人显示 Outlook“选择姓名”对话框。
 
 ## <a name="example"></a>示例
 
-此代码示例调用 [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) 对象，以调出显示 Outlook 通讯簿的“选择姓名”**** 对话框。 通过此对话框，用户可以从通讯簿中选择姓名。 如果姓名无法解析，此代码示例便会从 recips 中删除相应收件人。 如果姓名已解析，此代码示例便会向 recips 返回相应收件人的 [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) 对象。
+此代码示例调用 [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) 对象，以调出显示 Outlook 通讯簿的“选择姓名”对话框。 通过此对话框，用户可以从通讯簿中选择姓名。 如果姓名无法解析，此代码示例便会从 recips 中删除相应收件人。 如果姓名已解析，此代码示例便会向 recips 返回相应收件人的 [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) 对象。
 
 如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。 下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。
 

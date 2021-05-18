@@ -23,7 +23,7 @@ ms.locfileid: "32319808"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回指向可用于访问属性的接口的指针。
+返回一个指向可用于访问属性的接口的指针。
   
 ```cpp
 HRESULT OpenProperty(
@@ -39,39 +39,39 @@ HRESULT OpenProperty(
 
  _ulPropTag_
   
-> 实时要访问的属性的属性标记。 标识符和类型都必须包含在属性标记中。
+> [in]要访问的属性的属性标记。 标识符和类型都必须包含在属性标记中。
     
  _lpiid_
   
-> 实时指向要用于访问属性的接口的标识符的指针。 _lpiid_参数不能为**null**。
+> [in]指向用于访问属性的接口的标识符的指针。 _lpiid_ 参数不能为 **null**。
     
  _ulInterfaceOptions_
   
-> 实时与_lpiid_参数标识的接口相关的数据。 
+> [in]与  _lpiid_ 参数标识的接口相关的数据。 
     
  _ulFlags_
   
-> 实时控制对属性的访问权限的标志的位掩码。 可以设置以下标志:
+> [in]控制对属性的访问的标志的位掩码。 可以设置以下标志：
     
 MAPI_CREATE 
   
-> 如果该属性不存在, 则应创建该属性。 如果属性存在, 则应放弃属性的当前值。 当呼叫者设置 MAPI_CREATE 标志时, 它还应设置 MAPI_MODIFY 标志。
+> 如果该属性不存在，应创建该属性。 如果该属性存在，应放弃该属性的当前值。 当调用方设置 MAPI_CREATE 标志时，它还应设置 MAPI_MODIFY 标志。
     
 MAPI_DEFERRED_ERRORS 
   
-> 允许**OpenProperty**成功返回, 这可能是在将对象完全提供给调用程序之前。 如果该对象不可用, 则进行后续的对象调用可能会引发错误。 
+> 允许 **OpenProperty** 在对象完全可供调用方使用之前成功返回。 如果该对象不可用，则进行后续对象调用可能会引发错误。 
     
 MAPI_MODIFY 
   
-> 在以下情况下, MAPI_MODIFY 是必需的:
+> MAPI_MODIFY需要执行以下操作：
     
-  - 打开 stream 属性 (如**IID_IStream**) 进行修改时。
+  - 打开流属性（如 **IID_IStream）** 以修改它。
     
-  - 打开嵌入的邮件附件 (如使用**IID_IMessage**打开的[PR_ATTACH_DATA_OBJ](pidtagattachdataobject-canonical-property.md)时), 以对其进行修改。
+  - 打开嵌入的邮件附件（如使用 PR_ATTACH_DATA_OBJ[](pidtagattachdataobject-canonical-property.md)打开IID_IMessage）进行修改。 
     
  _lppUnk_
   
-> 排除指向要用于属性访问的请求接口的指针。
+> [out]指向要用于属性访问的请求接口的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -81,11 +81,11 @@ S_OK
     
 MAPI_E_INTERFACE_NOT_SUPPORTED 
   
-> 此属性不支持所请求的接口。
+> 此属性不支持请求的接口。
     
 MAPI_E_NO_ACCESS 
   
-> 调用方权限不足, 无法访问属性。
+> 调用方没有足够的权限来访问属性。
     
 MAPI_E_NO_SUPPORT 
   
@@ -93,42 +93,42 @@ MAPI_E_NO_SUPPORT
     
 MAPI_E_NOT_FOUND 
   
-> 请求的属性不存在, 并且未在_ulFlags_参数中设置 MAPI_CREATE。 
+> 请求的属性不存在，并且MAPI_CREATE  _ulFlags_ 参数中未设置。 
     
 MAPI_E_INVALID_PARAMETER 
   
-> 将标记中的属性类型设置为 PT_UNSPECIFIED。
+> 标记中的属性类型设置为 PT_UNSPECIFIED。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**IMAPIProp:: OpenProperty**方法通过特定接口提供对属性的访问。 **OpenProperty**是[IMAPIProp:: GetProps](imapiprop-getprops.md)和[IMAPIProp:: SetProps](imapiprop-setprops.md)方法的替代方法。 当**GetProps**或**SetProps**由于属性太大或太复杂而失败时, 请调用**OpenProperty**。 **OpenProperty**通常用于访问 PT_OBJECT 类型的属性。 
+**IMAPIProp：：OpenProperty** 方法通过特定接口提供对属性的访问。 **OpenProperty** 是 [IMAPIProp：：GetProps](imapiprop-getprops.md) 和 [IMAPIProp：：SetProps 方法的替代方法](imapiprop-setprops.md) 。 当 **GetProps 或** **SetProps** 因属性过大或过于复杂而失败时，调用 **OpenProperty**。 **OpenProperty** 通常用于访问类型为 PT_OBJECT。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要访问邮件附件, 请使用不同的接口标识符打开**PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) 属性, 具体取决于附件的类型。 下表介绍了如何为不同类型的附件调用**OpenProperty** : 
+若要访问邮件附件，请PR_ATTACH_DATA_OBJ (不同的接口标识符打开[PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) 属性，具体取决于附件的类型。  下表介绍如何为不同类型的附件调用 **OpenProperty：** 
   
-|**附件的类型**|**要使用的接口标识符**|
+|**附件类型**|**使用的接口标识符**|
 |:-----|:-----|
-|Binary  <br/> |IID_IStream  <br/> |
-|字符串  <br/> |IID_IStream  <br/> |
-|消息  <br/> |IID_IMessage  <br/> |
-|OLE 2。0  <br/> |IID_IStreamDocfile  <br/> |
+|二进制  <br/> |IID_IStream  <br/> |
+|String  <br/> |IID_IStream  <br/> |
+|邮件  <br/> |IID_IMessage  <br/> |
+|OLE 2.0  <br/> |IID_IStreamDocfile  <br/> |
    
-**IStreamDocfile**是基于 OLE 2.0 复合文件的[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)接口的导数。 **IStreamDocfile**是访问 OLE 2.0 附件的最佳选择, 因为它涉及最少量的开销。 您可以将 IID_IStreamDocFile 用于包含通过[IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx)接口提供的结构化存储区中存储的数据的那些属性。 
+**IStreamDocfile** 是基于 OLE 2.0 复合文件的 [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) 接口的派生对象。 **IStreamDocfile** 是访问 OLE 2.0 附件的最佳选择，因为它涉及的开销最少。 您可以为IID_IStreamDocFile [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) 接口提供的结构化存储中存储的数据的属性使用数据。 
   
-有关如何将**OpenProperty**与附件一起使用的详细信息, 请参阅**PR_ATTACH_DATA_OBJ**属性和[打开附件](opening-an-attachment.md)。
+若要详细了解如何将 **OpenProperty** 与附件一同使用，请参阅 **PR_ATTACH_DATA_OBJ** 属性和 [打开附件](opening-an-attachment.md)。
   
-请勿使用您收到的**IStream**指针调用其[Seek](https://msdn.microsoft.com/library/aa380043%28v=VS.85%29.aspx)或[SetSize](https://msdn.microsoft.com/library/aa380044%28v=VS.85%29.aspx)方法, 除非您使用零位置或大小变量。 此外, 不要依赖于从**Seek**调用返回的_plibNewPosition_输出参数的值。 
+除非使用零位置或大小变量，否则请勿使用收到的 **IStream** 指针调用 [其 Seek](https://msdn.microsoft.com/library/aa380043%28v=VS.85%29.aspx) 或 [SetSize](https://msdn.microsoft.com/library/aa380044%28v=VS.85%29.aspx) 方法。 此外，不要依赖于从 Seek 调用返回  _的 plibNewPosition_ 输出 **参数** 的值。 
   
-如果调用**OpenProperty**以使用**IStream**接口访问属性, 请仅使用该接口对其进行更改。 请勿尝试使用任何其他[IMAPIProp: IUnknown](imapipropiunknown.md)方法 (如**SetProps**或[IMAPIProp::D eleteprops](imapiprop-deleteprops.md)) 更新属性。 
+如果调用 **OpenProperty** 以使用 **IStream** 接口访问属性，请仅使用该接口进行更改。 不要尝试使用任何其他 [IMAPIProp ： IUnknown](imapipropiunknown.md) 方法（如 **SetProps** 或 [IMAPIProp：:D eleteProps）更新属性](imapiprop-deleteprops.md)。 
   
-请勿尝试多次打开**OpenProperty**属性。 结果是不确定的, 因为它们可能因提供程序而异。 
+不要尝试用 **OpenProperty** 多次打开属性。 结果未定义，因为它们因提供程序而异。 
   
-如果需要修改要打开的属性, 请设置 MAPI_MODIFY 标志。 如果您不确定对象是否支持该属性, 但您认为它是应的, 请设置 MAPI_CREATE 和 MAPI_MODIFY 标志。 只要设置了 MAPI_CREATE, 也必须设置 MAPI_MODIFY。
+如果需要修改要打开的属性，请设置MAPI_MODIFY标记。 如果不确定对象是否支持 属性，但认为应该支持，请设置 MAPI_CREATE 和 MAPI_MODIFY 标志。 设置MAPI_CREATE时，MAPI_MODIFY必须同时设置该设置。
   
-您负责将_lppUnk_参数中返回的接口指针 recasting 为一个适用于_lpiid_参数中指定的接口的接口指针。 完成后, 还必须使用返回的指针调用其[IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法。 
+您负责将  _lppUnk_ 参数中返回的接口指针重新广播到适用于  _lpiid_ 参数中指定的接口的接口指针。 完成操作后，还必须使用返回的指针调用其 [IUnknown：：Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) 方法。 
   
-有时, 在_ulFlags_参数中设置标志不足以指示对所需属性的访问类型。 您可以在_ulInterfaceOptions_参数中放置其他数据 (如 flags)。 此数据依赖于接口。 某些接口 (如**IStream**) 使用它, 而其他接口则不使用。 例如, 当您打开要使用**IStream**修改的属性时, 除了 MAPI_MODIFY 之外, 还应在_ulInterfaceOptions_参数中设置 STGM_WRITE 标志。 使用[IMAPITable](imapitableiunknown.md)接口打开表格时, 可以将_ulInterfaceOptions_设置为 MAPI_UNICODE, 以指示是否保留字符串属性的表中的列应采用 UNICODE 格式。 
+有时，在  _ulFlags_ 参数中设置标志不足以指示对所需属性的访问类型。 可以将其他数据（如标志）放在  _ulInterfaceOptions_ 参数中。 此数据依赖于接口。 某些接口 (**IStream**) ，而其他接口则不使用。 例如，当您打开要通过 **IStream** 修改的属性时，除 MAPI_MODIFY 之外，在  _ulInterfaceOptions_ 参数中设置 STGM_WRITE 标记。 使用 [IMAPITable](imapitableiunknown.md) 接口打开表时，可以将  _ulInterfaceOptions_ 设置为 MAPI_UNICODE 以指示包含字符串属性的表中的列是否应该采用 Unicode 格式。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -136,7 +136,7 @@ MAPI_E_INVALID_PARAMETER
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|StreamEditor  <br/> |CStreamEditor:: ReadTextStreamFromProperty  <br/> |MFCMAPI 使用**IMAPIProp:: OpenProperty**方法检索大型 text 和 binary 属性的 stream 接口。  <br/> |
+|StreamEditor.cpp  <br/> |CStreamEditor：：ReadTextStreamFromProperty  <br/> |MFCMAPI 使用 **IMAPIProp：：OpenProperty** 方法检索大文本和二进制属性的流接口。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

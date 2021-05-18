@@ -25,31 +25,31 @@ ms.locfileid: "32315951"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示最终用户是否要从对 message 对象具有访问权限的其他用户隐藏此消息对象。
+指示最终用户是否希望对具有邮件对象访问权限的其他用户隐藏此消息对象。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidPrivate  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x00008506  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008506  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

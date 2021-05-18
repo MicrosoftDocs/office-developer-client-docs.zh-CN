@@ -25,18 +25,18 @@ ms.locfileid: "33406232"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含构成 nondelivery 报告的一部分的诊断代码。
+包含构成未送达报告的一部分的诊断代码。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_NDR_DIAG_CODE  <br/> |
 |标识符:  <br/> |0x0C05  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性可以具有下列值之一:
+此属性可以正好具有下列值之一：
   
 MAPI_DIAG_ALPHABETIC_CHARACTER_LOST 
   
@@ -234,13 +234,13 @@ MAPI_DIAG_TOO_MANY_RECIPIENTS
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

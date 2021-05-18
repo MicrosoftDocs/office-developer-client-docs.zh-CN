@@ -25,7 +25,7 @@ ms.locfileid: "32316427"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含在使用多个 Microsoft Exchange Server 帐户时用于确定帐户的动态生成的 GUID。
+包含动态生成的 GUID，用于在使用多个帐户时确定Microsoft Exchange Server帐户。
   
 |||
 |:-----|:-----|
@@ -34,15 +34,15 @@ ms.locfileid: "32316427"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |多个 Exchange 帐户  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-microsoft outlook 2010 和 microsoft outlook 2013 支持多个 exchange 帐户, 而不是一个 exchange 帐户。 为了适应多个 Exchange 帐户, MAPI 配置文件的布局已更改。 在 Microsoft Office Outlook 2007 及更低版本中, 配置文件包含专用于 Exchange 设置的固定配置文件部分, 如服务器名称、用户名和脱机文件夹文件 (.ost)。 您的位置. 这些设置通过使用唯一标识符 ( **pbGlobalProfileSectionGuid**属性) 进行标识。 用于 exchange 设置的部分称为 "exchange 全局配置文件" 部分。 
+Microsoft Outlook 2010和Microsoft Outlook 2013支持多个 Exchange 帐户，而不是一个Exchange帐户。 为了容纳多个Exchange，更改了 MAPI 配置文件布局。 在 Microsoft Office Outlook 2007 及更早版本，配置文件包含专用于 Exchange 设置（如服务器名称、用户名和脱机文件夹文件 (.ost) ）的固定配置文件部分。 location。 这些设置是使用唯一标识符 **pbGlobalProfileSectionGuid** 属性标识的。 用于全局配置文件Exchange节称为"Exchange配置文件"部分。 
   
-固定的配置文件部分位置已不再足以容纳多个 Exchange 帐户。 相反, 对于您的配置文件中的每个 Exchange 帐户, 都存在专用于该帐户设置的分区。 用于 Exchange 设置的新节由唯一标识符**emsmdbUID**标识。
+固定配置文件分区位置不再足以容纳多个Exchange帐户。 相反，对于Exchange帐户，存在专用于该帐户的设置的部分。 用于设置的新Exchange由唯一标识符 **emsmdbUID 标识**。
   
-在 Exchange 帐户的 "邮件服务配置文件" 部分, 您可以找到包含在创建帐户时动态生成的 GUID 的属性。 此 GUID 存储在**PidTagExchangeProfileSectionId**属性中。 邮件存储和通讯簿容器公开属性以确定其所属的 Exchange 帐户。 可在邮件服务表中访问, 每个 Exchange 服务公开此属性。 
+在帐户的邮件服务配置文件Exchange，您可以找到一个属性，其中包含创建帐户时动态生成的 GUID。 此 GUID 存储在 **PidTagExchangeProfileSectionId** 属性中。 邮件存储和通讯簿容器公开一个属性，以确定Exchange属于哪个帐户。 可在邮件服务表中访问，每个Exchange服务都公开此属性。 
   
-在查询以下任一接口之后, 可以通过调用[IMAPIProp:: GetProps](imapiprop-getprops.md) on **PidTagExchangeProfileSectionId**检索此属性: 
+在查询以下任何接口后，可以通过调用 **PidTagExchangeProfileSectionId** 上的 [IMAPIProp：：GetProps](imapiprop-getprops.md)来检索此属性： 
   
 - [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
     
@@ -50,25 +50,25 @@ microsoft outlook 2010 和 microsoft outlook 2013 支持多个 exchange 帐户, 
     
 - [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
     
-如果该对象不是与 Exchange 关联, 则调用将返回**MAPI_E_NOT_FOUND**。
+如果对象不与对象关联Exchange，则调用返回 **MAPI_E_NOT_FOUND**。
   
-您可以在显示通讯簿时限制**PidTagExchangeProfileSectionId**上的容器。 打开容器后, 可以从该容器中查询**emsmdbUID** 。 也值得注意的是, 如果从 Exchange 通讯簿中选择了收件人, 则收件人的属性列表中也会包含**PidTagExchangeProfileSectionId** 。 
+在显示通讯簿时，可以限制 **PidTagExchangeProfileSectionId** 上的容器。 打开容器后，可以从中查询 **emsmdbUID。** 还值得注意的是，如果从 Exchange 通讯簿中选择了收件人，则收件人的属性列表中也包含 **PidTagExchangeProfileSectionId。** 
   
 > [!NOTE]
-> 在代码示例和函数头中, 此 GUID 称为 " **emsmdbUID**"。 
+> 在整个代码示例和函数标头中，此 GUID 称为 **emsmdbUID**。 
   
-其中一个 exchange 帐户被标记为旧版 exchange 帐户。 通常情况下, 它是添加到配置文件中的第一个帐户。 对打开的**pbGlobalProfileSectionGuid**的每个调用都将重定向到旧版帐户的 Exchange 全局部分。 与非旧版 exchange 帐户交互的对象模型调用也与旧版 exchange 帐户进行交互。 
+其中一Exchange帐户标记为旧版Exchange帐户。 通常，它是添加到配置文件的第一个帐户。 每次调用打开 **pbGlobalProfileSectionGuid** 时都会重定向到Exchange帐户的全局部分。 与非旧帐户交互的对象模型调用Exchange与旧帐户Exchange交互。 
   
-旧版 Exchange 服务具有属性**PR_EMSMDB_LEGACY** (0x3D18000B), 该属性在邮件服务表中设置为**true** 。 
+旧版 Exchange服务具有 PR_EMSMDB_LEGACY (0x3D18000B) ，在邮件服务表中设置为 **true。** 
   
-旧版**emsmdbUID**也在配置文件的 "Outlook 全局配置文件" 部分中标记为 " **PidTagExchangeProfileSectionId**"。 为支持多个 Exchange 帐户而编写的代码不应检索旧版**emsmdbUID** , 因为它应获取正确的**emsmdbUID**, 具体取决于您的代码与您的代码进行交互的帐户。
+旧 **emsmdbUID** 也标记在配置文件的 Outlook 全局配置文件部分作为 **PidTagExchangeProfileSectionId**。 为支持多个 Exchange 帐户编写的代码应该不需要检索旧版 **emsmdbUID，** 因为它应获取正确的 **emsmdbUID，** 具体取决于代码与之交互的帐户。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[使用多个 Exchange 帐户](using-multiple-exchange-accounts.md)
+[使用多个Exchange帐户](using-multiple-exchange-accounts.md)
 
 
-[如何打开 "全局配置文件" 部分](https://support.microsoft.com/kb/188482)
+[如何打开"全局配置文件"部分](https://support.microsoft.com/kb/188482)
 

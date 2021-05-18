@@ -20,7 +20,7 @@ ms.locfileid: "33406673"
 
 指示创建单元格公式所使用的语言。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 有关 Microsoft Office 应用程序所支持的语言的列表，请参阅“[DocLangID](doclangid-cell-document-properties-section.md) 单元格（‘Document Properties’内容）”这一主题。 
   

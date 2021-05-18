@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1033788
 localization_priority: Normal
 ms.assetid: 02835aff-455b-ffeb-d53b-28387b6ce361
-description: 指定绘图页在打印纸上的比例百分比。
+description: 指定打印机页面上绘图页的缩放百分比。
 ms.openlocfilehash: 0f8e86675a039002b60438eac7df92f4a2b13b98
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33406988"
 ---
 # <a name="scaley-cell-print-properties-section"></a>ScaleY 单元格（“Print Properties”内容）
 
-指定绘图页在打印纸上的比例百分比。
+指定打印机页面上绘图页的缩放百分比。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-只有在 OnPage 单元格的值为 FALSE 时才使用此值。 ScaleX 和 ScaleY 单元格的值始终相同, 这与 "**页面设置**" 对话框 (在 "**设计**" 选项卡上, 单击 "**页面设置**" 箭头) 的 "**打印设置**" 选项卡上的 "**调整为**" 设置中的值相对应。 
+只有在 OnPage 单元格的值为 FALSE 时才使用此值。 ScaleX 和 ScaleY 单元格的值始终相同，对应于"设计"选项卡上 ("页面设置"对话框中"打印设置"选项卡上"调整为"设置中的值，单击"页面设置"箭头) 。  
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ScaleY 单元格的引用，请使用： 
   

@@ -23,12 +23,12 @@ ms.locfileid: "33407443"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个命名的结构, 其中包含用于描述选项卡式页面控件的标签、指定长度的标签和指定长度的帮助文件条目的[DTBLPAGE](dtblpage.md)结构。 
+创建一个命名结构，其中包含用于描述选项卡式页面控件的 [DTBLPAGE](dtblpage.md) 结构、指定长度的标签和指定长度的帮助文件条目。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**DTBLPAGE** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**DTBLPAGE** <br/> |
    
 ```cpp
 SizedDtblPage (n, n1, u)
@@ -38,19 +38,19 @@ SizedDtblPage (n, n1, u)
 
 _n_
   
-> 页面选项卡标签的长度。
+> 页面选项卡的标签长度。
     
 _n1_
   
-> 显示在 mapisvc.inf 文件中的条目的长度, 该文件标识将与选项卡式页面控件一起使用的帮助文件。
+> Mapisvc.inf 文件中用于标识将用于选项卡式页面控件的帮助文件条目的长度。
     
 _u_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SizedDtblPage**宏允许您在关联的标签和帮助文件条目中的字符数已知时定义选项卡式页面控件。 新结构是使用以下成员创建的: 
+**SizedDtblPage** 宏允许您在关联的标签和帮助文件条目中的字符数已知时定义选项卡式页面控件。 新结构由以下成员创建： 
   
 ```cpp
 DTBLPAGE dtblpage;
@@ -58,7 +58,7 @@ TCHAR lpszLabel[n];
 TCHAR lpszComponent[n1];
 ```
 
-若要将指向**SizedDtblPage**宏的结果结构的指针用作**DTBLPAGE**结构指针, 请执行以下转换: 
+若要将指向 **SizedDtblPage** 宏生成的结构的指针用作 **DTBLPAGE** 结构指针，请执行以下转换： 
   
 ```cpp
 lpDtblPage = (LPDTBLPAGE) &SizedDtblPage;

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 9e36e0d9-a28b-5978-0e23-f76e1bf506b5
-description: 本主题演示如何从二进制属性 PidLidTimeZoneStruct 中存储的持久格式中读取 TZREG 结构。
+description: 本主题演示如何从二进制属性 PidLidTimeZoneStruct 中存储的持久格式读取 TZREG 结构。
 ms.openlocfilehash: f59251ebc980ca10f4ddce76b34e700bc430540a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "32317652"
 ---
 # <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a>分析二进制属性来读取 TZREG 结构的流
 
-本主题演示如何从二进制属性[PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)中存储的持久格式中读取[TZREG](tzreg.md)结构。
+本主题演示如何从二进制属性[PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)中存储的持久格式读取[TZREG](tzreg.md)结构。
   
 ```cpp
 TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)  

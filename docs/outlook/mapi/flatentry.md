@@ -25,12 +25,12 @@ ms.locfileid: "33407240"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-[entryid](entryid.md)结构加上指定**ENTRYID**结构大小的字节数。 
+[ENTRYID](entryid.md)结构加上指定 **ENTRYID** 结构大小的字节计数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关宏:  <br/> |[cbFLATENTRY](cbflatentry.md)、 [CbNewFLATENTRY](cbnewflatentry.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关宏：  <br/> |[cbFLATENTRY](cbflatentry.md) [、CbNewFLATENTRY](cbnewflatentry.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,23 +45,23 @@ typedef struct
 
  **cb**
   
-> **abEntry**成员中的字节数。 
+> **abEntry** 成员中的字节数。 
     
  **abEntry**
   
-> 包含标志和二进制数据数组的完整项标识符。
+> 包含标志和二进制数据数组的完整条目标识符。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**FLATENTRY**结构类似于[ENTRYID](entryid.md)结构。 但是, 存在一些差异: 
+**FLATENTRY** 结构类似于 [ENTRYID](entryid.md)结构。 但是，存在一些差异： 
   
-- **FLATENTRY**结构存储项标识符的大小;**ENTRYID**不会。 
+- **FLATENTRY** 结构存储条目标识符的大小;**ENTRYID** 不会。 
     
-- **FLATENTRY**结构将标志数据与条目标识符的其余部分一起存储;**ENTRYID**单独存储它们。 
+- **FLATENTRY** 结构将标志数据与条目标识符的其余部分一起存储;**ENTRYID** 单独存储它们。 
     
-- **FLATENTRY**结构用于将条目标识符存储在文件中或以字节流的方式传递, 而**ENTRYID**结构由[IMAPIProp](imapipropiunknown.md)接口方法和以下**OpenEntry**方法使用: [IABLogon:: OpenEntry](iablogon-openentry.md)、 [IAddrBook:: OpenEntry](iaddrbook-openentry.md)、 [IMAPIContainer:: OpenEntry](imapicontainer-openentry.md)、 [IMAPISession:: OpenEntry](imapisession-openentry.md)、 [IMAPISupport:: OpenEntry](imapisupport-openentry.md)、 [IMsgStore:: OpenEntry](imsgstore-openentry.md)、 [IMSLogon:: OpenEntry](imslogon-openentry.md)
+- **FLATENTRY** 结构用于将条目标识符存储在文件中或传递到字节流中，**而 ENTRYID** 结构由 [IMAPIProp](imapipropiunknown.md)接口方法和以下 **OpenEntry** 方法使用 [：IABLogon：：OpenEntry](iablogon-openentry.md)和 [IAddrBook ：：OpenEntry](iaddrbook-openentry.md)、 [IMAPIContainer：：OpenEntry](imapicontainer-openentry.md)、 [IMAPISession：：OpenEntry](imapisession-openentry.md)、 [IMAPISupport：：OpenEntry](imapisupport-openentry.md)、 [IMsgStore：：OpenEntry](imsgstore-openentry.md)、 [IMSLogon：：OpenEntry](imslogon-openentry.md)
     
-- **FLATENTRY**结构用于将条目标识符存储在文件中, 或将其传递到字节流中。 **ENTRYID**结构用于在磁盘上存储条目标识符。 
+- **FLATENTRY** 结构用于将条目标识符存储在文件中或传递到字节流中。 **ENTRYID** 结构用于在磁盘上存储条目标识符。 
     
 ## <a name="see-also"></a>另请参阅
 

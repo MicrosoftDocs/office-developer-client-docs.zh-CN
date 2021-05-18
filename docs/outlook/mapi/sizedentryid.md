@@ -23,12 +23,12 @@ ms.locfileid: "33405707"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个命名的[ENTRYID](entryid.md)结构, 其中包含指定大小的**ab**成员。 
+创建一个命名 [ENTRYID](entryid.md) 结构，其中包含指定大小的 **ab** 成员。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**ENTRYID** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 SizedENTRYID (_cb, _name)
@@ -36,19 +36,19 @@ SizedENTRYID (_cb, _name)
 
 ## <a name="parameters"></a>参数
 
-__cb_
+_ _cb_
   
-> 新结构的**ab**成员中的字节数。 
+> 新结构的 **ab** 成员中的字节数。 
     
-__名称_
+_ _name_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SizedENTRYID**宏允许您在已知数组长度要求后定义条目标识符。 使用此宏创建具有显式界限的条目标识符。 
+**SizedENTRYID** 宏允许您在已知数组长度要求后定义条目标识符。 使用此宏创建具有显式边界的条目标识符。 
   
-若要使用作为指向**ENTRYID**结构的指针的**SizedENTRYID**宏生成的新结构, 请执行以下转换: 
+若要使用由 **SizedENTRYID** 宏产生的新结构作为 **指向 ENTRYID** 结构的指针，请执行以下转换： 
   
 ```cpp
 lpENTRYID = (LPENTRYID) &SizedENTRYID;

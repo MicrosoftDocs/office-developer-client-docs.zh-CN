@@ -17,13 +17,13 @@ ms.locfileid: "33408465"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题显示 c + + 中的代码示例, 该示例将与自定义窗体定义一起保存的邮件转换为常规邮件, 而不使用窗体定义。
+本主题显示了一个 C++ 代码示例，该示例将已使用自定义窗体定义保存的邮件转换为不带表单定义的常规邮件。
   
-在 microsoft outlook 2010 或 microsoft outlook 2013 中, 可以通过将表单发布到表单库或使用邮件保存相应的表单定义来共享包含自定义表单页面的表单。 与邮件一起保存的自定义窗体通常称为 "一次性窗体", 因为只共享该窗体以将该特定邮件作为一次性实例进行查看。 当窗体未在窗体库中发布, 但希望收件人在打开项目时使用自定义窗体时, 通常可以执行此操作。 通过选中窗体的 "**属性**" 页上的 "**将窗体定义与项目发送**" 复选框, 可以指定窗体在窗体设计器中是一次性的。 
+在 Microsoft Outlook 2010 或 Microsoft Outlook 2013 中，可以通过将包含自定义表单页的表单发布到表单库或用邮件保存相应的表单定义来共享这些表单。 与邮件一起保存的自定义窗体通常称为"一次窗体"，因为共享该窗体只能作为一次实例查看该特定邮件。 通常，当窗体未在窗体库中发布，但您希望收件人在打开项目时使用自定义窗体时，会这样做。 通过在窗体的"属性"页上选中"将窗体定义与项目一起发送"复选框，可以在窗体设计器中指定窗体为一次窗体。 
   
-包含表单页面的表单可使用 Visual Basic 脚本版本 (VBScript) 中的代码进行自定义。 与表单定义一起保存的邮件的大小通常较大。 出于安全性和存储方面的原因, Outlook 2010 和 outlook 2013 忽略与任何项目一起保存的表单定义。
+可以使用 Visual Basic Scripting Edition (VBScript) 中自定义包含表单页的表单。 与表单定义一起保存的邮件的大小通常更大。 出于安全和存储原因，Outlook 2010 和 Outlook 2013 将忽略随任何项目一起保存的表单定义。
   
-若要将使用自定义窗体定义保存的邮件转换为一个, 则必须删除四个命名属性:
+若要将随自定义窗体定义一起保存的邮件转换为不带自定义窗体定义的邮件，必须删除四个命名属性：
   
 - [PidLidFormStorage 规范属性](pidlidformstorage-canonical-property.md)
     
@@ -33,11 +33,11 @@ ms.locfileid: "33408465"
     
 - [PidLidScriptStream 规范属性](pidlidscriptstream-canonical-property.md)
     
-此外, 还应删除[PidLidPropertyDefinitionStream 规范属性](pidlidpropertydefinitionstream-canonical-property.md), 其中包含与该邮件一起保存的自定义属性的定义。 删除此属性的副作用是 outlook 2010 或 outlook 2013 对象模型和 outlook 2010 或 outlook 2013 用户界面将无法再访问已在邮件上设置的用户属性。 您仍可以通过 MAPI 访问这些属性及其值。 请注意, 如果不删除该属性, 并且该邮件与其他表单定义一起保存, 则[PidLidPropertyDefinitionStream 规范属性](pidlidpropertydefinitionstream-canonical-property.md)将被部分覆盖, 并不保证数据完整性。 
+此外，还应删除包含随邮件一起保存的自定义属性定义的 [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) 规范属性。 删除此属性的副作用是，Outlook 2010 或 Outlook 2013 对象模型和 Outlook 2010 或 Outlook 2013 用户界面将无法再访问已在邮件上设置的用户属性。 你仍然能够通过 MAPI 访问这些属性及其值。 请注意，如果不删除此属性，并且将邮件另存为另一个表单定义，则 [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) 规范属性将被新数据部分覆盖，并且无法保证数据完整性。 
   
-如果删除[PidLidPropertyDefinitionStream 规范属性](pidlidpropertydefinitionstream-canonical-property.md), 则还应从[PidLidCustomFlag 规范属性](pidlidcustomflag-canonical-property.md)中删除**INSP_PROPDEFINITION**标志。
+如果删除 [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md)规范属性，则还应从 [PidLidCustomFlag](pidlidcustomflag-canonical-property.md)规范属性 中删除 **INSP_PROPDEFINITION** 标志。
   
-以下函数, `RemoveOneOff`接受为输入参数指向邮件的指针以及是否删除[PidLidPropertyDefinitionStream 规范属性](pidlidpropertydefinitionstream-canonical-property.md)的指示器。 使用消息指针, 它调用[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)获取相应的属性标识符, 然后调用[IMAPIProp::D eleteprops](imapiprop-deleteprops.md)删除命名属性。 它还会调用[IMAPIProp:: GetProps](imapiprop-getprops.md)获取[PidLidCustomFlag 规范属性](pidlidcustomflag-canonical-property.md), 并根据该属性清除**INSP\_ONEOFFFLAGS**标志和**INSP_PROPDEFINITION**标志, 以便 Outlook 2010 和Outlook 2013 将不会查找那些已删除的已命名属性。 
+以下函数 接受 作为输入参数、指向消息的指针以及是否删除  `RemoveOneOff` [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md)规范属性的指示器。 它使用消息指针调用 [IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md) 以获取相应的属性标识符，然后调用 [IMAPIProp：:D eleteProps](imapiprop-deleteprops.md) 以删除命名属性。 它还调用 [IMAPIProp：：GetProps](imapiprop-getprops.md)获取 [PidLidCustomFlag](pidlidcustomflag-canonical-property.md)规范属性，并适当地从该属性清除 **INSP \_ ONEOFFFLAGS** 标志和 **INSP_PROPDEFINITION** 标志，以便 Outlook 2010 和 Outlook 2013 不会查找已删除的命名属性。 
   
 ```cpp
 ULONG aulOneOffIDs[] = {dispidFormStorage,  

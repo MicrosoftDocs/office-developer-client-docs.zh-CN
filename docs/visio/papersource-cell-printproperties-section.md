@@ -20,11 +20,11 @@ ms.locfileid: "33406757"
 
 确定页面的纸张来源。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 此设置对应于 **“打印设置”** 对话框中的 **“纸张来源”** 设置（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后在 **“打印设置”** 选项卡上单击 **“设置”**）。
   
-此单元格中的数值映射到为 Microsoft Windows wingdi.h 文件中的 bin 选项定义的常量 (以 DMBIN 为前缀);例如, 值7表示 DMBIN_AUTO。 
+此单元格中的数值映射到以 DMBIN (为前缀的常量) Microsoft Windows wingdi.h 文件中定义的 bin 选择;例如，值 7 表示DMBIN_AUTO。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 PaperSource 单元格的引用，请使用： 
   

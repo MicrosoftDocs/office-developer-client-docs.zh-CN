@@ -25,7 +25,7 @@ ms.locfileid: "32309721"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-取消之前通过调用[IMsgStore:: Advise](imsgstore-advise.md)方法设置的通知发送。 
+取消发送以前通过调用 [IMsgStore：：Advise](imsgstore-advise.md) 方法设置的通知。 
   
 ```cpp
 HRESULT Unadvise(
@@ -37,19 +37,19 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> 实时与活动通知注册相关联的连接号码。 _ulConnection_的值必须已由以前对**IMsgStore:: Advise**方法的调用返回。 
+> [in]与活动通知注册关联的连接号。 _ulConnection 的值必须已通过_ 对 **IMsgStore：：Advise** 方法的上一次调用返回。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功取消注册。
+> 注册已成功取消。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**IMsgStore:: Unadvise**方法取消注册通知。 **Unadvise**释放其指向呼叫者通知接收器的指针, 该接收器在用于注册的**通知**呼叫中收到。 
+**IMsgStore：：Unadvise** 方法取消通知注册。 **非advise** 将释放指向调用方的建议接收器的指针，它会在用于注册的 **Advise** 调用中收到通知接收器。 
   
-通常情况下, **Unadvise**在**Unadvise**调用过程中调用通知接收器的[IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法。 但是, 如果另一个线程正在调用通知接收器的[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法, 则**释放**调用将延迟到**OnNotify**方法返回为止。 
+通常 **，Unadvise** 在 **Unadvise** 调用期间调用通知接收器 [的 IUnknown：：Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法。 但是，如果另一个线程正在调用通知接收器 [的 IMAPIAdviseSink：：OnNotify](imapiadvisesink-onnotify.md) 方法， **则 Release** 调用将延迟到 **OnNotify** 方法返回。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -22,13 +22,13 @@ ms.locfileid: "33407793"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-在 excel 会话中首次调用外接程序管理器时, 由 Microsoft Excel 调用。 此函数用于向外接程序管理器提供有关外接程序的信息。
+当Microsoft Excel会话中首次调用加载项管理器时，由 Excel 调用。 此函数用于向Add-In管理员提供有关您的外接程序的信息。
   
-如果 XLL 导出了 Excel 2007 及更高版本, 则将首选项中的**xlAddInManagerInfo12**调用**xlAddInManagerInfo** 。 **xlAddInManagerInfo12**函数应以与**xlAddInManagerInfo**相同的方式工作, 以避免 XLL 行为中特定于版本的差异。 Excel 要求**xlAddInManagerInfo12**返回**XLOPER12**数据类型, 而**xlAddInManagerInfo**应返回一个**XLOPER**。
+Excel 2007 及更高版本调用 **xlAddInManagerInfo12，** 如果由 XLL 导出，将优先调用 **xlAddInManagerInfo。** **xlAddInManagerInfo12** 函数的运行方式应该与 **xlAddInManagerInfo** 相同，以避免 XLL 行为中特定于版本的差异。 Excel **xlAddInManagerInfo12** 返回 **XLOPER12** 数据类型，而 **xlAddInManagerInfo** 应返回 **XLOPER**。
   
-excel 2007 之前的 excel 版本不会调用**xlAddInManagerInfo12**函数, 因为它们不支持**XLOPER12**。
+**xlAddInManagerInfo12** 函数不是由 Excel 2007 Excel之前的版本调用的，这些版本不支持 **XLOPER12**。
   
-Excel 不需要 XLL 即可实现和导出这两个函数中的任何一个。
+Excel不需要 XLL 来实现和导出其中任一函数。
   
 ```cs
 LPXLOPER WINAPI xlAddInManagerInfo(LPXLOPER pxAction);
@@ -37,19 +37,19 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
 
 ## <a name="parameters"></a>参数
 
- _pxAction:_ 指向数字**XLOPER/XLOPER12** (**xltypeInt**或**xltypeNum**) 的指针。
+ _pxAction：_ 指向数值 **XLOPER/XLOPER12** (**xltypeInt** 或 **xltypeNum**) 。
   
-Excel 所要求的信息。
+用户Excel的信息。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果_pxAction_为或可以强制为数字 1, 则此函数的实现应返回一个字符串, 其中包含有关外接程序的一些信息, 通常是它的名称, 也可能是版本号。 否则, 它应返回 #VALUE!。 
+如果  _pxAction_ 是数字 1，或可以强制转换为数字 1，则此函数的实现应返回一个字符串，其中包含有关外接程序的一些信息，通常是其名称和版本号。 否则，它应返回 #VALUE！。 
   
-如果不返回字符串, Excel 将尝试将返回的值转换为字符串。
+如果不返回字符串，则Excel尝试将返回的值转换为字符串。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果返回的字符串指向动态分配的缓冲区, 则必须确保最终释放此缓冲区。 如果该字符串是由 Excel 分配的, 则可以通过设置**xlbitXLFree**来执行此操作。 如果该字符串是由 DLL 分配的, 则可以通过设置**xlbitDLLFree**来执行此操作, 此外, 还必须在[xlAutoFree](xlautofree-xlautofree12.md)中实现 (如果要返回**XLOPER**) 或**xlAutoFree12** (如果要返回**XLOPER12**)。
+如果返回的字符串指向动态分配的缓冲区，则必须确保最终释放此缓冲区。 如果字符串是由 Excel分配的，则通过设置 **xlbitXLFree 来这样做**。 如果字符串是由 DLL 分配的，则通过设置 **xlbitDLLFree** 来实现这一点，如果要返回 **XLOPER** () 或 **xlAutoFree12** (则还必须在 [xlAutoFree](xlautofree-xlautofree12.md)) 中实现。 
   
 ## <a name="example"></a>示例
 

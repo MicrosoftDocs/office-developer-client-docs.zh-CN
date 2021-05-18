@@ -23,7 +23,7 @@ ms.locfileid: "33408794"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-以下按字母顺序排列的条目包含有关 MAPI 方法、函数和结构中使用的数据类型的文档。 
+以下按字母顺序排序的条目包含 MAPI 方法、函数和结构中使用的数据类型的文档。 
   
 ||
 |:-----|
@@ -48,7 +48,7 @@ ms.locfileid: "33408794"
 |[OlFlagIcon](olflagicon.md) <br/> |
 |[SCODE](scode.md) <br/> |
 |[SKEY](skey.md) <br/> |
-|[同步](sync.md) <br/> |
+|[SYNC](sync.md) <br/> |
 |[SYNCCONT](synccont.md) <br/> |
 |[SYNCSTATE](syncstate.md) <br/> |
 |[TCHAR](tchar.md) <br/> |

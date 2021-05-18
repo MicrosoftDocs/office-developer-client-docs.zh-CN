@@ -22,7 +22,7 @@ ms.locfileid: "33406645"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-必须由每个有效 XLL 实现和导出的回调函数。 在注册 XLL 函数和命令、初始化数据结构、自定义用户界面等的地方, 建议使用**xlAutoOpen**函数。 
+必须由每个有效的 XLL 实现和导出的回调函数。 **建议使用 xlAutoOpen** 函数注册 XLL 函数和命令、初始化数据结构、自定义用户界面等。 
   
 ```cs
 int WINAPI xlAutoOpen(void);
@@ -38,27 +38,27 @@ int WINAPI xlAutoOpen(void);
   
 ## <a name="remarks"></a>说明
 
-每次激活 XLL 时, Microsoft Excel 都会调用**xlAutoOpen** 。 在下列情况下, 将激活 XLL: 
+Microsoft Excel **激活 XLL 时调用 xlAutoOpen。** 在下列情况下将激活 XLL： 
   
-- 在 excel 会话开始时, 如果它在正常结束的最后一个 excel 会话中处于活动状态。
+- 在会话会话的Excel，如果它在正常结束的上一Excel会话处于活动状态。
     
-- 如果在 Excel 会话过程中加载。
+- 如果在会话期间加载Excel会话。
     
-- 可以通过以下几种方式加载 XLL:
+- 可以通过多种方式加载 XLL：
     
-- 通过选择 "**文件**" 菜单上的 "**打开**" (Excel 版本支持这种加载 xll 的方法)。 
+- 选择"**文件**"菜单上的"打开 (，其中 Excel 支持此方法加载 XLL) 。 
     
 - 使用加载项管理器。
     
-- 使用此 DLL 的名称作为唯一参数调用[xlfRegister](xlfregister-form-1.md)的另一个 XLL。 
+- 从另一个调用 [xlfRegister](xlfregister-form-1.md) 的 XLL 中，此 DLL 的名称作为唯一参数。 
     
-- 从以该 DLL 的名称作为唯一参数调用[REGISTER](xlfregister-form-1.md)的 XLM 宏工作表。 
+- 从调用 [REGISTER](xlfregister-form-1.md) 的 XLM 宏工作表中，此 DLL 的名称作为唯一参数。 
     
-- 如果外接程序在 Excel 会话期间停用并重新激活, 则会在重新激活时调用此函数。
+- 如果在重新激活会话期间停用并重新激活Excel，则重新激活时将调用此函数。
     
 ### <a name="example"></a>示例
 
-请参阅文件`SAMPLES\EXAMPLE\EXAMPLE.C`和`SAMPLES\GENERIC\GENERIC.C`, 以及此函数的示例实现。
+请参阅 文件和  `SAMPLES\EXAMPLE\EXAMPLE.C`  `SAMPLES\GENERIC\GENERIC.C` ，有关此函数的示例实现。
   
 ## <a name="see-also"></a>另请参阅
 

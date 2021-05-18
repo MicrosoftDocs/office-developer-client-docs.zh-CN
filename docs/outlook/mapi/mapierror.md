@@ -25,11 +25,11 @@ ms.locfileid: "33409144"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供有关错误的详细信息, 通常由操作系统、MAPI 或服务提供程序生成。 
+提供有关通常由操作系统、MAPI 或服务提供商生成的错误的详细信息。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _MAPIERROR
@@ -47,33 +47,33 @@ typedef struct _MAPIERROR
 
  **ulVersion**
   
-> 结构的版本号。 **ulVersion**成员用于将来的扩展, 并且应设置为 MAPI_ERROR_VERSION, 当前定义为零。 
+> 结构的版本号。 **ulVersion** 成员用于将来的扩展，并且应设置为 MAPI_ERROR_VERSION，当前定义为零。 
     
  **lpszError**
   
-> 指向描述错误的字符串的指针。 如果使用此结构的方法的_ulFlags_参数设置为 MAPI_UNICODE, 则此字符串将采用 Unicode 格式。 
+> 指向描述错误的字符串的指针。 如果用于此结构的方法的  _ulFlags_ 参数设置为 unicode 参数，则此字符串将为 unicode MAPI_UNICODE。 
     
  **lpszComponent**
   
-> 指向描述生成错误的组件的字符串的指针。 如果使用此结构的方法的_ulFlags_参数设置为 MAPI_UNICODE, 则此字符串将采用 Unicode 格式。 
+> 指向描述生成错误的组件的字符串的指针。 如果用于此结构的方法的  _ulFlags_ 参数设置为 unicode 参数，则此字符串将为 unicode MAPI_UNICODE。 
     
  **ulLowLevelError**
   
-> 仅当要返回的错误为低级别时使用的低级错误值。
+> 低级别错误值，仅在要返回的错误为低级别错误时使用。
     
  **ulContext**
   
-> 表示组件中的位置的值, **lpszComponent**成员指向标识错误发生位置的位置。 
+> 表示 **lpszComponent** 成员指向的组件中的位置的值，该位置标识发生错误的位置。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**MAPIERROR**结构用于描述错误消息。 客户端和服务提供程序在[IMAPIProp:: GetLastError](imapiprop-getlasterror.md)方法的_lppMAPIError_参数中传递指向**MAPIERROR**结构的指针。 **GetLastError**返回有关对象上已发生的前一个错误的信息。 **GetLastError**的调用方通过调用[MAPIFreeBuffer](mapifreebuffer.md)来释放**MAPIERROR**结构的内存。
+**MAPIERROR** 结构用于描述错误信息。 客户端和服务提供商在 [IMAPIProp：：GetLastError](imapiprop-getlasterror.md)方法的 _lppMAPIError_ 参数中传递指向 **MAPIERROR** 结构的指针。 **GetLastError** 返回有关对象发生的上一个错误的信息。 **GetLastError** 的调用方通过调用 [MAPIFreeBuffer](mapifreebuffer.md)释放 **MAPIERROR** 结构的内存。
   
-**lpszComponent**成员可用于映射组件的帮助文件 (如果存在)。 服务提供程序应将组件字符串的大小限制为30个字符, 以便可以轻松地将其显示在对话框中。 **ulContext**成员还可用于引用常见错误的联机帮助主题。 
+**lpszComponent** 成员可用于映射组件的帮助文件（如果存在）。 服务提供商应将组件字符串的大小限制为 30 个字符，以便可以轻松地在对话框中显示该字符串。 **ulContext** 成员还可用于参考有关常见错误的联机帮助主题。 
   
-由于服务提供程序不需要提供详细的错误信息, 因此客户端不应期望返回的**MAPIERROR**结构的任何成员包含有效数据。 但是, 至少 MAPI 中强烈建议提供程序在**lpszComponent**和**ulContext**成员中指定信息。 
+由于服务提供商不需要提供详细的错误信息，因此客户端不应期望返回的 **MAPIERROR** 结构的任何成员包含有效数据。 但是，至少 MAPI 强烈建议提供程序在 **lpszComponent** 和 **ulContext** 成员中指定信息。 
   
-有关 MAPI 中的错误处理的详细信息, 请参阅[错误处理](error-handling-in-mapi.md)。
+有关 MAPI 中的错误处理的详细信息，请参阅 [错误处理](error-handling-in-mapi.md)。
   
 ## <a name="see-also"></a>另请参阅
 

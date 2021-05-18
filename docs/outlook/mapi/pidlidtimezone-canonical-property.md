@@ -25,35 +25,35 @@ ms.locfileid: "32319269"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定有关定期会议的时区的信息。
+指定有关定期会议时区的信息。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |LID_TIME_ZONE  <br/> |
-|属性集:  <br/> |PSETID_Meeting  <br/> |
-|长 ID (盖子):  <br/> |0x0000000C  <br/> |
+|属性集：  <br/> |PSETID_Meeting  <br/> |
+|LONG ID (的一) ：  <br/> |0x0000000C  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-仅当未设置**dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) 属性, 但如果**LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) 属性为 TRUE 且**LID_IS_EXCEPTION** ([PidLidIsException](pidlidisexception-canonical-property.md)) 属性为 FALSE。 下半个字指定包含时区信息的表中的索引。 在上面的单词中, 只读取最高位。 如果设置了该位, 则引用的时区将不会遵守夏时制 (DST), 否则将遵循[[OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)中详细介绍的 DST 日期。 
+此属性仅在未设置 **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) 属性时读取，但如果 **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) 属性为 TRUE 且 LID_IS_EXCEPTION ([PidLidIsException](pidlidisexception-canonical-property.md)) 属性为 **FALSE。** 较低的 WORD 指定包含时区信息的表中的索引。 从上 WORD 中，只读取最高位。 如果设置了该位，则引用的时区将不会遵循夏令时 (DST) ，否则将遵循 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) 中详述的 DST 日期。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

@@ -25,13 +25,13 @@ ms.locfileid: "33406015"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在单个 MAPI 内存块中复制属性值数组, 以组合[ScCopyProps](sccopyprops.md)和[ScCountProps](sccountprops.md)函数的操作。 
+将 [ScCopyProps](sccopyprops.md) 和 [ScCountProps](sccountprops.md) 函数的操作合并在一个 MAPI 内存块中复制属性值数组。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE ScDupPropset(
@@ -46,24 +46,24 @@ SCODE ScDupPropset(
 
  _cprop_
   
-> 实时由_rgprop_参数指示的数组中的属性值的计数。 
+> [in]  _rgprop_ 参数指示的数组中的属性值计数。 
     
  _rgprop_
   
-> 实时指向定义要复制的属性值的[SPropValue](spropvalue.md)结构数组的指针。 
+> [in]指向定义要复制的属性值 [的 SPropValue](spropvalue.md) 结构的数组的指针。 
     
  _lpAllocateBuffer_
   
-> 实时指向[MAPIAllocateBuffer](mapiallocatebuffer.md)函数的指针, 该函数用于为重复的数组分配内存。 
+> [in]指向 [MAPIAllocateBuffer](mapiallocatebuffer.md) 函数的指针，用于为重复的数组分配内存。 
     
  _prgprop_
   
-> 排除指向存储返回的**SPropValue**结构的重复数组的内存中的初始位置的指针。 
+> [out]指向内存中存储返回的 **SPropValue** 结构的重复数组的初始位置的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 

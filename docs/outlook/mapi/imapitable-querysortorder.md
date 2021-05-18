@@ -37,7 +37,7 @@ LPSSortOrderSet FAR * lppSortCriteria
 
  _lppSortCriteria_
   
-> 排除指向包含当前排序顺序的[SSortOrderSet](ssortorderset.md)结构的指针的指针。 
+> [out]指向保持当前排序 [顺序的 SSortOrderSet](ssortorderset.md) 结构的指针的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -47,25 +47,25 @@ S_OK
     
 MAPI_E_BUSY 
   
-> 正在进行另一个操作, 以阻止排序顺序检索操作开始。 应允许正在进行的操作完成, 或者应已停止。
+> 正在进行另一个操作，以防止排序顺序检索操作启动。 应允许完成或停止进行中的操作。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPITable:: QuerySortOrder**方法检索表的当前排序顺序。 排序顺序是使用[SSortOrderSet](ssortorderset.md)结构进行描述的。 
+**IMAPITable：：QuerySortOrder** 方法检索表的当前排序顺序。 排序顺序使用 [SSortOrderSet](ssortorderset.md) 结构进行描述。 
   
-- 如果为以下情况, **SSortOrderSet**结构的**cSorts**成员可设置为零: 
+- SSortOrderSet 结构的 **cSorts** 成员可以设置为零（如果： 
     
 - 该表未排序。
     
-- 不存在有关如何对表进行排序的信息。
+- 没有关于表的排序方式的信息。
     
-- **SSortOrderSet**结构不适合用于描述排序顺序。 
+- **SSortOrderSet** 结构不适合描述排序顺序。 
     
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果使用在排序关键字中包含零列的**SSortOrderSet**结构对[IMAPITable:: SortTable](imapitable-sorttable.md)方法进行了调用, 则删除当前排序顺序并应用默认顺序 (如果有)。 在对**QuerySortOrder**的后续调用中, 可以选择是否返回零个或多个用于排序关键字的列。 您可以返回的列数多于当前视图中的列数。
+如果对 [IMAPITable：：SortTable](imapitable-sorttable.md) 方法调用的 **SSortOrderSet** 结构在排序键中包含零列，请删除当前的排序顺序并应用默认顺序（如果有）。 在随后对 **QuerySortOrder** 的调用中，您可以选择是返回排序键的零列还是多列。 可以返回的列数多于当前视图中的列数。
   
-有关排序的详细信息, 请参阅[排序和分类](sorting-and-categorization.md)。
+有关排序详细信息，请参阅排序 [和分类](sorting-and-categorization.md)。
   
 ## <a name="see-also"></a>另请参阅
 

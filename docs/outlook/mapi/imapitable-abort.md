@@ -25,7 +25,7 @@ ms.locfileid: "33406148"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-停止当前对表进行的所有异步操作。
+停止表当前正在执行的任何异步操作。
   
 ```cpp
 HRESULT Abort( void );
@@ -43,19 +43,19 @@ S_OK
     
 MAPI_E_UNABLE_TO_ABORT 
   
-> 正在进行异步操作, 无法停止或已完成。
+> 异步操作正在进行中，无法停止或已完成。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPITable:: Abort**方法会停止当前正在进行的任何异步操作。 
+**IMAPITable：：Abort** 方法将停止当前进行的任何异步操作。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要了解是否正在进行异步操作, 请调用[IMAPITable:: GetStatus](imapitable-getstatus.md)方法。 
+若要了解异步操作是否正在进行，请调用 [IMAPITable：：GetStatus](imapitable-getstatus.md) 方法。 
   
-如果**Abort 中止**对[IMAPITable:: Restrict](imapitable-restrict.md)方法的调用的处理, 则表的状态将与处理**中止**调用时的状态相同。 
+如果 **Abort** 停止处理对 [IMAPITable：：Restrict](imapitable-restrict.md) 方法的调用，则表的状态将和 **处理 Abort** 调用时的状态一样。 
   
-如果**Abort 中止**对[IMAPITable:: SortTable](imapitable-sorttable.md)方法的调用的处理, 则表的排序顺序不受影响, 并保持在**SortTable**调用之前。 
+如果 **Abort** 停止处理对 [IMAPITable：：SortTable](imapitable-sorttable.md) 方法的调用，则表的排序顺序不受影响，并且保持与 **SortTable** 调用之前一样。 
   
 ## <a name="see-also"></a>另请参阅
 

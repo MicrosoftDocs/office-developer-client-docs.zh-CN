@@ -19,17 +19,17 @@ ms.locfileid: "33407520"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-客户端和服务提供程序可以通过调用以下内容来更新属性值:
+客户端和服务提供商可以通过调用：
   
-- 一个对象的[IMAPIProp:: SetProps](imapiprop-setprops.md)方法, 用于更新一个或多个对象属性的值。 
+- 对象的 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法，用于更新对象的一个或多个属性的值。 
     
-- [HrSetOneProp](hrsetoneprop.md)函数一次只更新一个属性。 仅当目标对象是本地对象时, 才使用**HrSetOneProp** ;在与远程对象一起使用时, 此函数可能会导致性能下降。 
+- [HrSetOneProp](hrsetoneprop.md)函数一次仅更新一个属性。 仅在目标对象是本地对象时，才使用 **HrSetOneProp;** 当与远程对象一起使用时，此函数可能会导致性能下降。 
     
-下面的过程演示如何使用**SetProps**更新邮件的邮件类或 PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性。 
+以下过程说明如何使用 **SetProps** 更新邮件的邮件类PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性。 
   
-### <a name="to-update-the-message-class-of-a-message"></a>更新邮件的邮件类别 
+### <a name="to-update-the-message-class-of-a-message"></a>更新邮件的邮件类 
   
-1. 为邮件类分配一个[SPropValue](spropvalue.md)结构, 并根据需要设置其成员。 
+1. 为邮件 [类分配 SPropValue](spropvalue.md) 结构并适当设置其成员。 
     
   ```cpp
     SPropValue spvMsgClass;
@@ -38,7 +38,7 @@ ms.locfileid: "33407520"
     
   ```
 
-2. 调用邮件的**IMAPIProp:: SetProps**方法来设置新的邮件类别。 
+2. 调用邮件的 **IMAPIProp：：SetProps** 方法来设置新邮件类。 
     
   ```cpp
     hRes = lpMessage->SetProps(1, (LPSPropValue) &spvMsgClass, NULL);

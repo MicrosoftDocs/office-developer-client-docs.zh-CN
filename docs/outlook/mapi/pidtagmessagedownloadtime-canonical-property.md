@@ -25,30 +25,30 @@ ms.locfileid: "33407926"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含从远程服务器到本地邮件存储区下载邮件的估计时间。 
+包含将邮件从远程服务器下载到本地邮件存储的估计时间。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_MESSAGE_DOWNLOAD_TIME  <br/> |
 |标识符:  <br/> |0x0E18  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性以秒为单位表示, 它表示将给定邮件从其当前位置下载到客户端查看头文件夹的本地邮件存储区所需时间的最佳估计。 远程传输提供程序通常通过将**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) 属性的值除以每秒的字节数的通信链路的速度来计算此属性的值。 如果提供程序无法计算下载时间, 例如, 如果不知道链接速度, 它应在头文件夹内容表中为此列提供一个**PT_ERROR**值 (如**MAPI_E_NO_SUPPORT** )。 
+此属性以秒表示，表示远程传输提供程序将给定邮件从当前位置下载到客户端查看头文件夹的本地邮件存储所花的最佳估计时间。 远程传输提供程序通常通过将 **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) 属性的值除以通信链接的速度（以字节/秒为单位）来计算此属性的值。 如果提供程序无法计算下载时间，例如，如果不知道链接速度，则应该提供 **PT_ERROR** 值（如 **MAPI_E_NO_SUPPORT）** 作为标题文件夹内容表中的此列。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251435
 localization_priority: Normal
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
-description: 通过在绘图窗口中执行的操作 (例如移动、调整大小、组合或取消组合形状) 防止删除和更改表达式。
+description: 防止表达式被绘图窗口中执行的操作删除和更改，例如移动形状、调整形状大小、对形状进行分组或取消组合。
 ms.openlocfilehash: 0bdfa023d53e739a970cab65b1dbd67bc1a44461
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33408150"
 ---
 # <a name="guard-function"></a>GUARD 函数
 
-通过在绘图窗口中执行的操作 (例如移动、调整大小、组合或取消组合形状) 防止删除和更改*表达式*。 
+防止  *表达式*  被绘图窗口中执行的操作删除和更改，例如移动形状、调整形状大小、对形状进行分组或取消组合。 
   
 ## <a name="syntax"></a>语法
 
-GUARD (* **表达式** *) 
+GUARD (** *expression* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -30,7 +30,7 @@ GUARD (* **表达式** *)
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |必需  <br/> |**String** <br/> |常量、运算符、函数和对 ShapeSheet 单元格的引用的组合，其结果为一个值。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 最容易受 GUARD 函数影响的单元格是“Height”、“Width”、“PinX”和“PinY”。 
   

@@ -20,7 +20,7 @@ ms.locfileid: "33406379"
 
 确定超链接在快捷菜单上显示的顺序的数字。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 超链接按照从低到高的顺序在快捷菜单上显示，最低的数字显示在菜单的顶部。如果两个超链接行具有相同的 SortKey 单元格值，则顺序由物理行顺序确定。默认值为 0（零）。 
   
@@ -28,14 +28,14 @@ ms.locfileid: "33406379"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |超链接。 *名称*。在其中的超链接的排序关键字 *。 name*为行名称  <br/> |
+|单元格名称：  <br/> |超链接。 *name*  .SortKey 其中 Hyperlink  *.name*  是行名称  <br/> |
    
 若要从某个程序按索引获取对 SortKey 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionHyperlink** <br/> |
-|行索引：  <br/> |**visRow1stHyperlink** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRow1stHyperlink**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 |单元格索引：  <br/> |**visHLinkSortKey** <br/> |
    
 

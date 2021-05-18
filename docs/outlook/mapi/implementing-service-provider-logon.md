@@ -19,51 +19,51 @@ ms.locfileid: "32310085"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 使用从入口点函数返回的指针调用提供程序对象中的方法, 以开始登录过程。 根据您的服务提供程序的类型, 此方法的不同之处如下:
+MAPI 调用提供程序对象中的方法，以使用从入口点函数返回的指针开始登录过程。 方法因服务提供商的类型而异：
   
-- [IABProvider::](iabprovider-logon.md)通讯簿提供程序的登录名 
+- [通讯簿提供程序的 IABProvider：：Logon](iabprovider-logon.md) 
     
-- [IMSProvider::](imsprovider-logon.md)针对邮件存储提供程序的登录 
+- [IMSProvider：：邮件](imsprovider-logon.md) 存储提供程序的登录 
     
-- [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md)的传输提供程序 
+- [传输提供程序的 IXPProvider：：TransportLogon](ixpprovider-transportlogon.md) 
     
-在您实施的任何登录方法中执行以下任务:
+使用您实现的任何登录方法执行以下任务：
   
-1. 通过调用其[IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法来递增作为输入参数传递的 support 对象的引用计数。 
+1. 通过调用其 [IUnknown：：AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) 方法，增加作为输入参数传递的支持对象的引用计数。 
     
-2. 调用支持对象的[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)方法以访问您的配置文件部分。 
+2. 调用支持对象的 [IMAPISupport：：OpenProfileSection](imapisupport-openprofilesection.md) 方法来访问你的配置文件部分。 
     
-3. 调用配置文件节的[IMAPIProp:: SetProps](imapiprop-setprops.md)方法以设置以下属性: 
+3. 调用配置文件节的 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法来设置以下属性： 
     
-  - **PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+  - **PR_DISPLAY_NAME (** [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
     
-  - **PR_ENTRYID**([PidTagEntryId](pidtagentryid-canonical-property.md))
+  - **PR_ENTRYID (** [PidTagEntryId](pidtagentryid-canonical-property.md)) 
     
-  - **PR_PROVIDER_DISPLAY**([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
+  - **PR_PROVIDER_DISPLAY (** [PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md)) 
     
-  - **PR_RECORD_KEY**([PidTagRecordKey](pidtagrecordkey-canonical-property.md))
+  - **PR_RECORD_KEY (** [PidTagRecordKey)](pidtagrecordkey-canonical-property.md)
     
   > [!NOTE]
-  > 请勿尝试设置 profile 节的**PR_RESOURCE_FLAGS**或**PR_PROVIDER_DLL_NAME**属性。 在登录时, 这些属性是只读的。 
+  > 不要尝试设置配置文件 **节的PR_RESOURCE_FLAGS****或PR_PROVIDER_DLL_NAME** 属性。 登录时，这些属性是只读的。 
   
-4. 检查配置所需的属性是否已存储在配置文件中, 或是否可从用户获取。 有关检查配置的详细信息, 请参阅[验证服务提供程序配置](verifying-service-provider-configuration.md)。
+4. 检查配置所需的属性是否存储在配置文件中，或是否可供用户使用。 有关检查配置的信息，请参阅验证 [服务提供程序配置](verifying-service-provider-configuration.md)。
     
-5. 如果您的提供商是通讯簿或邮件存储提供程序, 则调用支持对象的[IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md)方法以注册唯一标识符或[MAPIUID](mapiuid.md)。 当 MAPI 调用其[IXPLogon:: AddressTypes](ixplogon-addresstypes.md)方法时, 传输提供程序注册**MAPIUID**结构。 有关注册**MAPIUID**的详细信息, 请参阅[注册服务提供程序唯一标识符](registering-service-provider-unique-identifiers.md)。
+5. 如果提供程序是通讯簿或邮件存储提供程序，请调用支持对象的[IMAPISupport：：SetProviderUID](imapisupport-setprovideruid.md)方法来注册唯一标识符或[MAPIUID。](mapiuid.md) 当 MAPI 调用其 [IXPLogon：：AddressTypes](ixplogon-addresstypes.md)方法时，传输提供程序将注册 **MAPIUID** 结构。 有关注册 **MAPIUID** 的信息，请参阅注册 [服务提供程序唯一标识符](registering-service-provider-unique-identifiers.md)。
     
-6. 实例化登录对象, 并返回以下值之一:
+6. 实例化登录对象并返回以下值之一：
     
-  - S_OK 表示登录成功。
+  - S_OK以指示登录成功。
     
-  - MAPI_E_UNCONFIGURED, 以指示一个或多个配置属性不可用。
+  - MAPI_E_UNCONFIGURED指示一个或多个配置属性不可用。
     
-  - MAPI_E_USER_CANCEL 指示用户取消了 "配置" 对话框, 从而导致配置属性不可用。
+  - MAPI_E_USER_CANCEL指示用户已取消配置对话框，从而导致配置属性不可用。
     
-  - MAPI_E_FAILONEPROVIDER 指示无法配置您的提供程序, 但 MAPI 应允许使用它, 而不考虑。 登录方法应返回此值以报告非严重错误, 例如, 当提供程序需要密码时, 如果用户界面被禁用, 则不能提示用户。 
+  - MAPI_E_FAILONEPROVIDER指示无法配置提供程序，但 MAPI 应允许使用它，而不考虑。 登录方法应返回此值以报告非重装错误，例如，当提供程序需要密码并且由于用户界面被禁用而无法提示用户输入密码时。 
     
-前面的任务列表介绍了服务提供程序登录方法的最低实现。 如有必要, 可以包括其他功能。 例如, 某些提供程序调用[IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md)以在其登录方法中更新状态表。 
+前面的任务列表介绍了服务提供商登录方法的最低实现。 如有必要，可以包括其他功能。 例如，某些提供程序调用 [IMAPISupport：：ModifyStatusRow](imapisupport-modifystatusrow.md) 以更新其登录方法中的状态表。 
   
 > [!NOTE]
-> 若要在登录时获得最佳性能, 请避免调用[IMAPISupport reparesubmit](imapisupport-preparesubmit.md)或[IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md)。 必须先启动 MAPI 后台处理程序, 然后才能完成这些呼叫并将控制返回给您的登录方法。 
+> 若要在登录时获得最佳性能，请避免调用 [IMAPISupport：:P repareSubmit](imapisupport-preparesubmit.md) 或 [IMAPISupport：：SpoolerNotify](imapisupport-spoolernotify.md)。 必须先启动 MAPI 后台处理程序，然后才能完成这些调用，并返回对登录方法的控制。 
   
 ## <a name="see-also"></a>另请参阅
 

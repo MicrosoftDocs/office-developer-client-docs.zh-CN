@@ -25,7 +25,7 @@ ms.locfileid: "33407107"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-启动同步会话并获取关联的**[IOSTX](iostxiunknown.md)** 接口。 
+启动同步会话并获取关联的 **[IOSTX](iostxiunknown.md)** 接口。 
   
 ```cpp
 HRESULT GetSyncObject( 
@@ -37,11 +37,11 @@ HRESULT GetSyncObject(
 
  _ppostx_
   
->  排除指向要获取的**IOSTX**接口的指针。 
+>  [out]指向要获取的 **IOSTX** 接口的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-调用方必须确保同一个文件夹不会同时在多个线程上同步。
+调用方必须确保同一文件夹不在同一个线程上同时同步。
   
 ## <a name="see-also"></a>另请参阅
 

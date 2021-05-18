@@ -23,14 +23,14 @@ ms.locfileid: "33407212"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-**MAPICrashRecovery**函数检查个人文件夹文件 (PST) 或脱机文件夹文件 (OST) 共享内存的状态。 如果内存处于 "一致" 状态, 则**MAPICrashRecovery**函数会将数据移动到磁盘, 并在进程终止之前阻止更多的读取或写入访问。 
+**MAPICrashRecovery** 函数检查 OST 中个人文件夹文件 (PST) 或脱机文件夹 (共享) 的状态。 如果内存状态一致 **，MAPICrashRecovery** 函数会将数据移动到磁盘，并阻止进一步读取或写入访问，直到进程终止。 
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|导出者:  <br/> |olmapi32  <br/> |
-|调用者：  <br/> |Client  <br/> |
+|导出者：  <br/> |olmapi32.dll  <br/> |
+|调用者：  <br/> |客户端  <br/> |
 |实现者：  <br/> |Outlook  <br/> |
    
 ```cpp
@@ -41,19 +41,19 @@ void MAPICrashRecovery(ULONG ulFlags);
 
 _ulFlags_
   
-> 实时用于控制如何执行 MAPI 故障恢复的标志。 可以设置以下标志:
+> [in]用于控制 MAPI 崩溃恢复执行方式的标志。 可以设置以下标志：
     
-   - **MAPICRASH\_恢复**: 如果 pst 或 OSTs 处于一致状态, 请将数据移动到磁盘, 并锁定 pst 或 OSTs 以阻止读取或写入访问。
+   - **MAPICRASH \_恢复**：如果 PST 或 OST 状态一致，将数据移动到磁盘并锁定 PST 或 TS 以防止读取或写入访问。
     
-   - **MAPICRASH\_继续**: 解锁 pst 或 OSTs 以进行调试。 在使用**MAPICRASH_RECOVER**标志成功调用**MAPICrashRecovery**后, 使用**\_MAPICRASH CONTINUE**标志调用**MAPICrashRecovery** , 以允许继续进行调试。 
+   - **MAPICRASH \_CONTINUE**：解锁用于调试的 PST 或 OST。 成功调用带 **MAPICRASH_RECOVER** 标志的 **MAPICrashRecovery** 后，使用 **MAPICRASH \_ CONTINUE** 标志调用 **MAPICrashRecovery** 以允许继续调试。 
     
-   - **MAPICRASH\_SYSTEM_SHUTDOWN**: 如果 pst 或 OSTs 处于一致状态, 请将数据移动到磁盘, 并锁定 pst 或 OSTs 以阻止读取或写入访问。 无法使用**MAPICRASH\_CONTINUE**解锁 pst 或 OSTs。 必须与**MAPICRASH\_恢复**结合使用。 
+   - **MAPICRASH \_SYSTEM_SHUTDOWN：** 如果TS 或 OST 状态一致，将数据移动到磁盘并锁定TS 或 OST 以防止读取或写入访问。 无法使用 MAPICRASH CONTINUE 解锁 PST **或 \_ OST。** 必须与 **MAPICRASH \_ RECOVER 结合使用**。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-高位字节 (0xFF000000) 是为提供程序特定的故障恢复标记保留的。
+为提供程序特定的 (0xFF000000) 保留上字节标记。
   
-使用**MAPICRASH\_RECOVER**和**MAPICRASH_SYSTEM_SHUTDOWN**标记调用**MAPICrashRecovery** , 以响应**WM_ENDSESSION**邮件。 
+使用 **MAPICRASH \_ RECOVER** 和 MAPICRASH_SYSTEM_SHUTDOWN 标志调用 **MAPICrashRecovery** 以响应 **WM_ENDSESSION消息。** 
   
 ## <a name="see-also"></a>另请参阅
 

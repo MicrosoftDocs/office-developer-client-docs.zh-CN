@@ -1,5 +1,5 @@
 ---
-title: mapisvc.inf [帮助文件映射] 部分
+title: MapiSvc.inf [Help File Mappings] Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407555"
 ---
-# <a name="mapisvcinf-help-file-mappings-section"></a>mapisvc.inf [帮助文件映射] 部分
+# <a name="mapisvcinf-help-file-mappings-section"></a>MapiSvc.inf [Help File Mappings] Section
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-**[帮助文件映射]** 部分包含的条目分别对应于为该服务生成的错误提供帮助的文件中的一条邮件服务。 此部分中的条目使用以下格式: 
+**[帮助文件映射]** 部分包含条目，每个条目将一个邮件服务映射到文件，该文件为服务生成的错误提供帮助。 本节中的条目使用以下格式： 
   
- **[帮助文件映射]**_邮件服务名称_ =  _帮助文件名_
+ **[帮助文件映射]** _邮件服务名称_  =   _帮助文件名_
   
-邮件服务名称是已安装的邮件服务的名称;帮助文件名是错误信息所在的文件的名称。 下面的示例显示了一个典型的 **[帮助文件映射]** 部分, 其中包含三个服务的条目: MAPI、MsgService 服务和 MS service。 
+邮件服务名称是已安装的邮件服务的名称;帮助文件名是错误信息所在的文件的名称。 以下示例显示了一个典型的 **[帮助** 文件映射] 部分，其中包含三个服务的条目：MAPI、MsgService 服务和 MS 服务。 
   
 ```cpp
 [Help File Mappings]

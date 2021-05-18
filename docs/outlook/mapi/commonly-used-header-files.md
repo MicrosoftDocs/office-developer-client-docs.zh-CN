@@ -21,29 +21,29 @@ ms.locfileid: "33406211"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-每个参考主题都包含一个命名在其中定义 API 元素的 MAPI 头文件的表。 下表介绍了开发人员经常使用的 MAPI 头文件。
+每个参考主题包括一个表，该表命名定义了 API 元素的 MAPI 头文件。 下表介绍了开发人员经常使用的 MAPI 头文件。
   
 |**头文件**|**说明**|
 |:-----|:-----|
-|Mapi  <br/> |定义结构和常量。  <br/> |
-|Mapiaux  <br/> |定义邮件应用程序编程接口使用的其他接口、结构和常量。  <br/> |
-|Mapicode  <br/> |定义错误值的状态代码。  <br/> |
-|Mapidbg  <br/> |定义用于调试的宏。  <br/> |
-|mapidefs。h  <br/> |定义经常使用的事件类型、属性类型、标志、结构和接口。  <br/> |
-|Mapiform  <br/> |定义 forms 元素。  <br/> |
-|Mapiguid  <br/> |定义 guid。  <br/> |
-|Mapinis  <br/> |定义支持国际化的实用程序。  <br/> |
-|Mapioid  <br/> |定义 MAPI 对象标识符。  <br/> |
-|Mapispi  <br/> |定义 MAPI 为服务提供商和邮件服务实现的标志和接口。  <br/> |
-|Mapitags  <br/> |定义属性标记。  <br/> |
-|Mapiutil  <br/> |定义实用工具接口和函数。  <br/> |
+|Mapi.h  <br/> |定义结构和常量。  <br/> |
+|Mapiaux.h  <br/> |定义邮件应用程序编程接口使用的其他接口、结构和常量。  <br/> |
+|Mapicode.h  <br/> |定义错误值的状态代码。  <br/> |
+|Mapidbg.h  <br/> |定义用于调试的宏。  <br/> |
+|Mapidefs.h  <br/> |定义常用事件类型、属性类型、标志、结构和接口。  <br/> |
+|Mapiform.h  <br/> |定义表单元素。  <br/> |
+|Mapiguid.h  <br/> |定义 GUID。  <br/> |
+|Mapinis.h  <br/> |定义支持国际化的实用程序。  <br/> |
+|Mapioid.h  <br/> |定义 MAPI 对象标识符。  <br/> |
+|Mapispi.h  <br/> |定义 MAPI 为服务提供程序和邮件服务实现的标志和接口。  <br/> |
+|Mapitags.h  <br/> |定义属性标记。  <br/> |
+|Mapiutil.h  <br/> |定义实用程序接口和函数。  <br/> |
 |Mapival.h  <br/> |定义验证宏。  <br/> |
-|Mapiwin  <br/> |定义用于开发单一源服务提供程序的类型、常量、标志、函数和宏。  <br/> |
-|Mapiwz  <br/> |为提供程序向导定义原型和常量。  <br/> |
-|Mapix  <br/> |定义 MAPI 为客户端实现的标志和接口。  <br/> |
-|Mspst  <br/> |定义个人信息存储 (.pst 文件) 的属性。  <br/> |
+|Mapiwin.h  <br/> |定义用于开发单源服务提供程序的类型、常量、标志、函数和宏。  <br/> |
+|Mapiwz.h  <br/> |定义提供程序向导的原型和常量。  <br/> |
+|Mapix.h  <br/> |定义 MAPI 为客户端实现的标志和接口。  <br/> |
+|Mspst.h  <br/> |定义个人信息存储的属性 (.pst 文件) 。  <br/> |
    
-有关如何获取 mapi 头文件的信息, 请参阅[Install mapi 头文件](how-to-install-mapi-header-files.md)。
+若要了解如何获取 MAPI 头文件，请参阅安装 [MAPI 头文件](how-to-install-mapi-header-files.md)。
   
 ## <a name="see-also"></a>另请参阅
 

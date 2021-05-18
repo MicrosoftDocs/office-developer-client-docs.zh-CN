@@ -383,7 +383,7 @@ DEFINE_GUID (IID_IMessageNoProvChk, 0xC3505457, 0x7B2E, 0x4c3b, 0xA8, 0xD6, 0x6D
 
 ||||
 |:-----|:-----|:-----|
-|fnevIndexing  <br/> |((ULONG) 0x00010000)  <br/> |存储提供程序可以指定**[通知](notification.md)** 结构 **ulEventType** 成员中的 **fnevIndexing**，以通知索引器对象已准备好进行索引。 **通知**结构的 **info** 成员包含 **[EXTENDED_NOTIFICATION](extended_notification.md)** 结构。  <br/> |
+|fnevIndexing  <br/> |((ULONG) 0x00010000)  <br/> |存储提供程序可以指定 **[通知](notification.md)** 结构 **ulEventType** 成员中的 **fnevIndexing**，以通知索引器对象已准备好进行索引。 **通知** 结构的 **info** 成员包含 **[EXTENDED_NOTIFICATION](extended_notification.md)** 结构。  <br/> |
 |FS_NONE  <br/> |0x00  <br/> |客户端可以调用 **[IFolderSupport::GetSupportMask](ifoldersupport-getsupportmask.md)** 并检查返回的位掩码。 **FS_NONE** 指示文件夹不支持共享。  <br/> |
 |FS_SUPPORTS_SHARING  <br/> |0x01  <br/> |客户端可以调用 **IFolderSupport::GetSupportMask** 并检查返回的位掩码。 **FS_SUPPORTS_SHARING** 指示文件夹支持共享。  <br/> |
 |INDEXING_SEARCH_OWNER  <br/> |((ULONG) 0x00000001)  <br/> |标识将通知推送到索引器指示对象已准备好索引的进程。  <br/> |
@@ -411,7 +411,7 @@ const GUID PSETID_Meeting       = {0x6ED8DA90, 0x450B, 0x101B, {0x98, 0xDA, 0x00
 const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 ```
 
-#### <a name="mnidid-properties"></a>MNID_ID Properties
+#### <a name="mnid_id-properties"></a>MNID_ID Properties
   
 ```cpp
 // In PSETID_Address
@@ -465,7 +465,7 @@ const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00
 #define dispidTaskFRecur 0x8126
 ```
 
-#### <a name="mnidstring-properties"></a>MNID_STRING Properties
+#### <a name="mnid_string-properties"></a>MNID_STRING Properties
   
 ```cpp
 // In PS_PUBLIC_STRINGS 
@@ -529,7 +529,7 @@ DEFINE_OLEGUID(IID_IMSCapabilities, 0x00020393, 0, 0)
 |MDB_ONLINE  <br/> |0x00000100  <br/> |如果 Outlook 处于缓存 Exchange 模式，客户端或服务提供商可以调用 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) 方法，设置 _ulFlags_ 参数中的 **MDB_ONLINE** 标记，以覆盖与本地邮件存储区的连接，并打开远程服务器上的存储区。 请注意，不能在同一个 MAPI 会话中同时在缓存模式和非缓存模式下打开 Exchange 存储。 如果已经打开缓存的邮件存储区，或者必须使用此标记关闭存储，或打开新的 MAPI 会话，可以使用此标记在远程服务器上打开 Exchange 存储。  <br/> |
 |NON_EMS_XP_SAVE  <br/> |0x00001000  <br/> |客户端可以调用 [IMAPIProp::SaveChanges](imapiprop-savechanges.md) 方法，设置 _ulFlags_ 参数中的 **NON_EMS_XP_SAVE** 标记，以指示未从 Exchange 服务器传送邮件。 应将此标记与 _ulFlags_ 参数中的 **ITEMPROC_FORCE** 标记结合使用，向 PST 存储区表明，在 PST 存储区通知任何侦听客户端有关邮件到达之前，邮件有资格进行规则处理。 此规则仅适用于在除 Exchange 服务器以外的服务器上使用 [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) 创建的新邮件（这种情况下 Exchange 服务器已处理邮件上的规则）。  <br/> |
 |SPAMFILTER_ONSAVE  <br/> |0x00000080  <br/> |客户端可以调用 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)，设置 _ulFlags_ 参数中的 **SPAMFILTER_ONSAVE** 标记，以便在正在保存的邮件上启用垃圾邮件筛选。 垃圾邮件筛选支持只有在发件人的电子邮件地址类型为简单邮件传输协议 (SMTP) 且正在将邮件保存到个人文件夹文件 (PST) 存储区的情况下可用。  <br/> |
-|STORE_ITEMPROC  <br/> |0x00200000  <br/> |如果在包装的 PST 存储区的 [PidTagStoreSupportMask 规范属性](pidtagstoresupportmask-canonical-property.md)中设置此标记，它表示在新邮件到达存储区时，存储区会单独在邮件上处理规则和垃圾邮件。 存储区然后调用 [IMAPISupport::Notify](imapisupport-notify.md)，在[通知](notification.md)结构中设置作为参数传递的 **fnevNewMail**，并将新邮件的详细信息传递到侦听客户端。 随后，当侦听客户端收到通知，它不会处理邮件上的规则。  <br/> |
+|STORE_ITEMPROC  <br/> |0x00200000  <br/> |如果在包装的 PST 存储区的 [PidTagStoreSupportMask 规范属性](pidtagstoresupportmask-canonical-property.md)中设置此标记，它表示在新邮件到达存储区时，存储区会单独在邮件上处理规则和垃圾邮件。 存储区然后调用 [IMAPISupport::Notify](imapisupport-notify.md)，在 [通知](notification.md)结构中设置作为参数传递的 **fnevNewMail**，并将新邮件的详细信息传递到侦听客户端。 随后，当侦听客户端收到通知，它不会处理邮件上的规则。  <br/> |
 |STORE_UNICODE_OK  <br/> |0x00040000  <br/> |如果此标志包含在 [PidTagStoreSupportMask 规范属性](pidtagstoresupportmask-canonical-property.md)中，它表示存储支持 Unicode 存储。 客户端可以查找标记以决定是否请求或将 Unicode 信息保存到存储区。  <br/> |
    
 ### <a name="definitions-for-archiving-items-in-a-folder"></a>在文件夹中存档项目的定义
@@ -639,7 +639,7 @@ DEFINE_GUID(IID_IMAPISync, 0x5024a385, 0x2d44, 0x486a,  0x81, 0xa8, 0x8f, 0xe, 0
 DEFINE_GUID(IID_IMAPISyncProgressCallback, 0x5024a386, 0x2d44, 0x486a,  0x81, 0xa8, 0x8f, 0xe, 0xcb, 0x60, 0x71, 0xdd);
 ```
 
-#### <a name="iidicontabadmin"></a>IID_IContabAdmin
+#### <a name="iid_icontabadmin"></a>IID_IContabAdmin
   
 ```cpp
 // {CC6A3BA9-E7F5-4769-887B-34E190817BFC}
@@ -647,14 +647,14 @@ DEFINE_GUID(IID_IContabAdmin, 0xcc6a3ba9, 0xe7f5, 0x4769, 0x88, 0x7b, 0x34, 0xe1
 
 ```
 
-#### <a name="iidimapisecuremessage"></a>IID_IMAPISECUREMESSAGE
+#### <a name="iid_imapisecuremessage"></a>IID_IMAPISECUREMESSAGE
   
 ```cpp
 DEFINE_GUID(IID_IMAPISecureMessage, 0x253cc320, 0xeab6, 0x11d0, 0x82, 0x22, 0, 0x60, 0x97, 0x93, 0x87, 0xea);
 
 ```
 
-#### <a name="iidimapigetsession"></a>IID_IMAPIGetSession
+#### <a name="iid_imapigetsession"></a>IID_IMAPIGetSession
   
 ```cpp
 DEFINE_GUID(IID_IMAPIGetSession, 0x614ab435, 0x491d, 0x4f5b, 0xa8, 0xb4, 0x60, 0xeb, 0x3, 0x10, 0x30, 0xc6);
@@ -663,14 +663,14 @@ DEFINE_GUID(IID_IMAPIGetSession, 0x614ab435, 0x491d, 0x4f5b, 0xa8, 0xb4, 0x60, 0
 
 ### <a name="pst-override-handler-interface-identifiers"></a>PST 重写处理程序接口标识符
 
-#### <a name="iidipstoverridereq"></a>IID_IPSTOVERRIDEREQ
+#### <a name="iid_ipstoverridereq"></a>IID_IPSTOVERRIDEREQ
   
 ```cpp
 // {892EBC6D-24DC-4d90-BA48-C6CBEC14A86A}
 DEFINE_GUID(IID_IPSTOVERRIDEREQ, 0x892ebc6d, 0x24dc, 0x4d90, 0xba, 0x48, 0xc6, 0xcb, 0xec, 0x14, 0xa8, 0x6a);
 ```
 
-#### <a name="iidipstoverride1"></a>IID_IPSTOVERRIDE1
+#### <a name="iid_ipstoverride1"></a>IID_IPSTOVERRIDE1
   
 ```cpp
 // {FBB68D34-F561-44fb-A8CA-AE36696342CA}

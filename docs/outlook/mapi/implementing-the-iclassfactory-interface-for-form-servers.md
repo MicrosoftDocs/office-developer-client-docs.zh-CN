@@ -21,14 +21,14 @@ ms.locfileid: "32310029"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx)是客户端应用程序用于创建表单服务器的邮件类的新表单对象的 OLE 接口。 下表列出了所需的**IClassFactory**方法。 
+[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) 是客户端应用程序用于创建表单服务器的邮件类的新表单对象的 OLE 接口。 下表列出了所需的 **IClassFactory** 方法。 
   
 |**方法**|**说明**|
 |:-----|:-----|
-|[CreateInstance](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |创建新的表单对象。  <br/> |
-|[LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |锁定内存中的窗体服务器, 以便在创建多个窗体对象时可以避免启动开销。  <br/> |
+|[CreateInstance](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |创建新的窗体对象。  <br/> |
+|[LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |锁定内存中的窗体服务器，以避免创建多个表单对象时出现启动开销。  <br/> |
    
-有关实现这些方法所需的所有信息, 请参阅 Windows SDK 中的 COM 和 ActiveX 对象服务一节。
+有关实现这些方法所需的全部信息，请参阅 Windows SDK 中的 COM 和 ActiveX 对象服务部分。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -87,7 +87,7 @@ Me.ViewInfos.Initial = Me.ViewInfos["MyInitialView"];
 
 InfoPath provides two methods of the [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) class, both of which are overloaded, to programmatically select a control in the current view: the [SelectText()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) and [SelectNodes()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) methods. The [SelectText(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) method is used for data entry controls, such as a **Text Box**, while the **SelectNodes** method is used for structural controls, such as an **Optional Section**. To select a particular control in the view, you need to provide the node and, optionally, the control's ViewContext ID. The ViewContext ID is needed when you have multiple controls bound to the same node in the data source. InfoPath provides the ViewContext ID information when you design the form.
   
-控件的 ViewContext ID 显示在控件属性对话框的“高级”**** 选项卡上，访问方法为右键单击控件，再依次单击“ControlName 属性”__**** 和“高级”**** 选项卡。“高级”**** 选项卡的“代码”**** 部分中列出了控件的 ViewContext ID。 
+控件的 ViewContext ID 显示在控件属性对话框的“高级”选项卡上，访问方法为右键单击控件，再依次单击“ControlName 属性”和“高级”选项卡。“高级”选项卡的“代码”部分中列出了控件的 ViewContext ID。 
   
 ## <a name="when-to-use-selecttext-and-selectnodes"></a>何时使用 SelectText 和 SelectNodes
 
@@ -143,7 +143,7 @@ InfoPath provides two methods of the [View](https://msdn.microsoft.com/library/M
     
 ## <a name="using-the-selecttext-and-selectnodes-methods"></a>使用 SelectText 和 SelectNodes 方法
 
-在下面的示例中，**SelectText** 方法的 [SelectText(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) 重载（提供一个 _xmlNode_ 参数）用于选择绑定到“my:field1”的**文本框**。 
+在下面的示例中，**SelectText** 方法的 [SelectText(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) 重载（提供一个 _xmlNode_ 参数）用于选择绑定到“my:field1”的 **文本框**。 
   
 ```cs
 // Create XPathNavigator and select field.
