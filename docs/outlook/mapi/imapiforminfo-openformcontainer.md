@@ -25,7 +25,7 @@ ms.locfileid: "33414002"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个指针, 指向在其中安装特定表单的表单容器。
+返回一个指针，该指针指向安装了特定表单的表单容器。
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -37,13 +37,13 @@ HRESULT OpenFormContainer(
 
  _ppformcontainer_
   
-> 排除指向指向返回的表单容器对象的指针的指针。
+> [out]指向返回的表单容器对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 ## <a name="see-also"></a>另请参阅
 

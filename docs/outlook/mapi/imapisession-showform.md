@@ -47,75 +47,75 @@ HRESULT ShowForm(
 
  _ulUIParam_
   
-> 实时表单的父窗口的句柄。
+> [in]窗体父窗口的句柄。
     
  _lpMsgStore_
   
-> 实时指向邮件存储区的指针, 该邮件存储区包含由_lpParentFolder_参数指向的文件夹。 
+> [in]指向包含  _lpParentFolder_ 参数指向的文件夹的邮件存储的指针。 
     
  _lpParentFolder_
   
-> 实时一个指针, 指向在其中创建与_ulMessageToken_参数相关联的邮件的文件夹。 
+> [in]指向创建与  _ulMessageToken_ 参数关联的邮件的文件夹的指针。 
     
  _lpInterface_
   
-> 实时指向接口标识符 (IID) 的指针, 该接口标识符代表要用于访问表单中显示的邮件的接口。 _lpInterface_参数必须为 NULL 或 IID_IMessage。 在使用的标准接口[IMessage](imessageimapiprop.md)中传递 NULL 结果。 
+> [in]指向接口标识符 (IID) 表示用于访问窗体中显示的消息的接口的指针。 _lpInterface_ 参数必须为 NULL 或 IID_IMessage。 传递 NULL 会导致使用标准接口[IMessage。](imessageimapiprop.md) 
     
  _ulMessageToken_
   
-> 实时与要在表单中显示的邮件相关联的标记。 必须将_ulMessageToken_参数设置为以前对[IMAPISession::P repareform](imapisession-prepareform.md)的调用中的_lpulMessageToken_参数的内容。
+> [in]与要显示在表单中的邮件关联的令牌。 必须将 _ulMessageToken_ 参数设置为上一次对 [IMAPISession：:P repareForm](imapisession-prepareform.md)的调用中 _lpulMessageToken_ 参数的内容。
     
  _lpMessageSent_
   
-> 实时保留必须为 NULL。 
+> [in]保留;必须为 NULL。 
     
  _ulFlags_
   
-> 实时用于控制是否保存邮件以及是否保存邮件的标志的位掩码。 可以设置以下标志:
+> [in]控制邮件保存方式和保存方式的标志的位掩码。 可以设置以下标志：
     
 MAPI_NEW_MESSAGE 
   
-> 从未保存过该邮件 (即它的[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法从未被调用过)。 
+> 邮件从未保存过 (，即 [从未调用过其 IMAPIProp：：SaveChanges](imapiprop-savechanges.md)) 。 
     
 MAPI_POST_MESSAGE 
   
-> 应将邮件保存到其父文件夹中。 邮件不会被处理为发送, 而是投递到文件夹中。 如果未设置此标志, 则会将邮件复制到 "发件箱", 并将其处理为发送。 
+> 邮件应保存到其父文件夹。 邮件不会处理发送，而是发送到文件夹。 如果未设置此标志，邮件将复制到发件箱并进行处理以发送。 
     
  _ulMessageStatus_
   
-> 实时从与_ulMessageToken_参数中的标记关联的消息的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性复制的标志的位掩码。 这些标志提供有关邮件状态的信息。 
+> [in]从 _与 ulMessageToken_ 参数中的令牌关联的邮件的 **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性复制的标志的位掩码。 标志提供有关邮件状态的信息。 
     
  _ulMessageFlags_
   
-> 实时从与_ulMessageToken_参数中的标记关联的消息的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性复制的标志的位掩码。 这些标志提供有关邮件状态的详细信息。 
+> [in]从 _与 ulMessageToken_ 参数 **中的令牌** 关联的邮件的 PR_MESSAGE_FLAGS ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性复制的标志的位掩码。 这些标志提供有关邮件状态的进一步信息。 
     
  _ulAccess_
   
-> 实时指示表单中显示的邮件的权限级别的标志。 此信息从与_ulMessageToken_参数中的令牌相关联的邮件的**PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) 属性复制。 
+> [in]一个标志，指示窗体中显示的邮件的权限级别。 此信息从与 _ulMessageToken_ 参数 **中的** 令牌PR_ACCESS ([PidTagAccess](pidtagaccess-canonical-property.md)) 属性中复制。 
     
  _lpszMessageClass_
   
-> 实时指向在表单中显示的邮件的邮件类的指针, 从与_ulMessageToken_参数中的令牌相关联的邮件的**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性复制。 
+> [in]指向表单中显示的邮件的邮件类的指针，从与 _ulMessageToken_ 参数中的令牌关联的邮件的 **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性复制。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 表单已成功显示。
+> 已成功显示表单。
     
 MAPI_E_USER_CANCEL 
   
-> 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
+> 用户通常通过单击对话框中的"取消" **按钮来取消** 操作。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISession:: ShowForm**方法显示一个已由**IMAPISession::P repareform**方法准备的邮件窗体。 
+**IMAPISession：：ShowForm** 方法显示 **由 IMAPISession：:P repareForm 方法准备的消息** 表单。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-您应该只有对在**PrepareForm**方法的_lpMessage_参数中传递的邮件的单个引用。 
+应只对在 **PrepareForm** 方法的  _lpMessage_ 参数中传递的邮件进行一次引用。 
   
-请注意, 表单实现可能返回除 MAPI 记录的错误值之外的其他错误值。 如果可以使用这些错误值来更精确地确定错误条件, 请执行此操作。 否则, 请处理这些错误, 就像处理 MAPI_E_CALL_FAILED 一样。 
+请注意，表单实现可能会返回 MAPI 记录的错误值。 如果可以使用这些错误值更精确地确定错误条件，则执行上述操作。 否则，请像处理这些错误一样处理MAPI_E_CALL_FAILED。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -123,7 +123,7 @@ MAPI_E_USER_CANCEL
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions  <br/> |OpenMessageModal  <br/> |MFCMAPI 将**IMAPISession:: ShowForm**方法与**PrepareForm**方法结合使用, 以在模式窗体中显示消息。  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI 使用 **IMAPISession：：ShowForm** 方法以及 **PrepareForm** 方法在模式窗体中显示消息。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "32327249"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个在其父邮件中唯一标识附件的编号。 
+包含一个唯一标识其父邮件中的附件的编号。 
   
 |||
 |:-----|:-----|
@@ -34,31 +34,31 @@ ms.locfileid: "32327249"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-邮件存储将生成和维护此属性。 附件编号是在 "附件" 表中呈现位置之后的次要排序关键字。 
+邮件存储将生成和维护此属性。 附件编号是附件表中呈现位置后的辅助排序键。 
   
- **PR_ATTACH_NUM**用于使用[IMessage:: OpenAttach](imessage-openattach.md)方法打开附件。 在客户端应用程序的会话中, 只要附件表处于打开状态, 邮件附件的**PR_ATTACH_NUM**属性就保持不变。 
+ **PR_ATTACH_NUM** [IMessage：：OpenAttach 方法打开附件](imessage-openattach.md) 。 在客户端应用程序的会话中，只要PR_ATTACH_NUM表处于打开状态，邮件附件的 PR_ATTACH_NUM 属性就保持不变。 
   
-邮件存储将使用**IMessage:: CreateAttach**和**IMessage::D eleteattach**方法将更改传播到表。 在其选项中, 邮件存储可以在打开的附件表上生成表通知, 以便客户端可以对这些更改进行重新同步。 
+邮件存储使用 **IMessage：：CreateAttach** 和 **IMessage：:D eleteAttach** 方法将更改传播到表。 邮件存储可以选择在打开的附件表上生成表通知，以便客户端可以重新同步这些更改。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

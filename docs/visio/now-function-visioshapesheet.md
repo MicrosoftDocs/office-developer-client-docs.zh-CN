@@ -28,7 +28,7 @@ NOW ( )
 
 Datetime
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 NOW 每分钟自动重新计算。 
   
@@ -46,7 +46,7 @@ FORMAT(NOW(),"dd MMM., yyyy hh:mm")
   
 ## <a name="example-3"></a>示例 3
 
-NOW () + 2EW。
+NOW () +2EW。
   
 返回当前的日期和时间加上两周时间后的结果，如 10/11/10 12:03:30 PM。
   

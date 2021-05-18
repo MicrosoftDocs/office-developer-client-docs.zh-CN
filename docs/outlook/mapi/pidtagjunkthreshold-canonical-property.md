@@ -25,7 +25,7 @@ ms.locfileid: "32326850"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示应如何将主动传入邮件发送到 "垃圾邮件" 文件夹。
+指示应如何将主动传入的邮件发送到"垃圾邮件"文件夹。
   
 |||
 |:-----|:-----|
@@ -34,38 +34,38 @@ ms.locfileid: "32326850"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |垃圾邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性对应于 "高/低/无" 筛选器设置。 值为 "0xffffffff" 表示不应应用垃圾邮件筛选, 但仍必须应用阻止列表。 值为 "0x80000000" 表示除来自受信任的发件人列表中的发件人的邮件以外的所有邮件, 或发送给受信任收件人列表中的收件人的邮件。 其值如下所示:
+此属性对应于高/低/无筛选器设置。 值"0xFFFFFFFF"表示不应应用垃圾邮件筛选，但是仍必须应用阻止列表。 值"0x80000000"表示所有邮件都是垃圾邮件，但来自受信任发件人列表发件人的邮件或发送到受信任收件人列表上的收件人的邮件除外。 其值如下所示：
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0xFFFFFFFF  <br/> |无垃圾邮件筛选  <br/> |
 |0x00000006  <br/> |低垃圾邮件筛选  <br/> |
 |0x00000003  <br/> |高垃圾邮件筛选  <br/> |
-|0x80000000  <br/> |仅限受信任列表  <br/> |
+|0x80000000  <br/> |仅受信任列表  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> 启用对允许/阻止列表的处理以及确定垃圾邮件。
+> 允许/阻止列表的处理和垃圾邮件的确定。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

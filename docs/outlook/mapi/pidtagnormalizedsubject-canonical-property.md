@@ -25,7 +25,7 @@ ms.locfileid: "32329272"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含删除了任何前缀的邮件主题。
+包含已删除任何前缀的邮件主题。
   
 |||
 |:-----|:-----|
@@ -34,49 +34,49 @@ ms.locfileid: "32329272"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-这些属性由**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 和**PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) 属性中的邮件存储或传输提供程序按以下方式进行计算。
+这些属性由 PR_SUBJECT ([PidTagSubject](pidtagsubject-canonical-property.md) **)** 和 **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) 属性的邮件存储或传输提供程序计算。
   
-- 如果**PR_SUBJECT_PREFIX**存在, 并且是**PR_SUBJECT**的初始子字符串, 则将**PR_NORMALIZED_SUBJECT**和关联属性设置为删除了前缀的**PR_SUBJECT**的内容。 
+- 如果 **PR_SUBJECT_PREFIX** 存在，并且是 **PR_SUBJECT****的初始子** 字符串，PR_NORMALIZED_SUBJECT 和关联的属性将设置为 PR_SUBJECT，并删除前缀。  
     
-- 如果存在**PR_SUBJECT_PREFIX** , 但它不是**PR_SUBJECT**的初始子字符串, 则使用以下规则从**PR_SUBJECT**中删除并重新计算**PR_SUBJECT_PREFIX** : 如果**PR_SUBJECT**中包含的字符串。以一个到三个非数字字符开头, 后跟一个冒号和一个空格, 然后将字符串与冒号一起使用, 空将成为前缀。 数字、空格和标点字符不是有效的前缀字符。 
+- 如果 **PR_SUBJECT_PREFIX** 存在，但它不是 **PR_SUBJECT** 的初始子字符串，则使用下列规则从 **PR_SUBJECT** 中删除和重新计算 **PR_SUBJECT_PREFIX：** 如果 PR_SUBJECT 中包含的字符串以一到三个非数字字符开头，后跟冒号和空格，则包含冒号和空白的字符串将成为前缀。  数字、空白和标点符号无效前缀字符。 
     
-- 如果**PR_SUBJECT_PREFIX**不存在, 则使用上一步中所述的规则从**PR_SUBJECT**计算。 然后, 将此属性设置为删除了前缀的**PR_SUBJECT**的内容。 
+- 如果 **PR_SUBJECT_PREFIX** 不存在，则使用上一 **PR_SUBJECT概述的规则** 从以下位置计算。 然后，将此属性设置为前缀 **PR_SUBJECT** 的内容。 
     
- **注释**当**PR_SUBJECT_PREFIX**为空字符串时, **PR_SUBJECT**和此属性相同。 
+ **注意** 当 **PR_SUBJECT_PREFIX** 为空字符串 **时，PR_SUBJECT** 和此属性相同。 
   
-最终, 此属性应是前缀后面的**PR_SUBJECT**的一部分。 如果没有前缀, 则此属性将变为**PR_SUBJECT**。
+最后，此属性应该是前缀 **PR_SUBJECT部分。** 如果没有前缀，此属性将变为与 PR_SUBJECT **相同**。
   
- **PR_SUBJECT_PREFIX**和此属性应作为[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)实现的一部分进行计算。 客户端应用程序不应提示[IMAPIProp:: GetProps](imapiprop-getprops.md)方法的值, 直到它们已被**IMAPIProp:: SaveChanges**调用提交。 
+ **PR_SUBJECT_PREFIX** 和此属性应作为 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 实现一部分进行计算。 在 **IMAPIProp：：SaveChanges 调用提交 IMAPIProp：：SaveChanges** 方法之前，客户端应用程序不应提示 [IMAPIProp：：GetProps](imapiprop-getprops.md)方法提供其值。 
   
-subject 属性通常是少于256个字符的较小字符串, 而邮件存储区提供程序并不是支持其上的对象链接和嵌入 (OLE) **IStream**接口的义务。 客户端应始终先尝试通过**IMAPIProp**接口访问, 并且只有在返回 MAPI_E_NOT_ENOUGH_MEMORY 时才会转到**IStream** 。 
+主题属性通常是少于 256 个字符的小字符串，邮件存储提供程序不必支持对象链接和嵌入 (OLE) **IStream** 接口。 客户端应始终首先尝试通过 **IMAPIProp** 接口访问，并且仅在返回 IStream 时MAPI_E_NOT_ENOUGH_MEMORY **IStream。** 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定允许用于联系人和个人通讯组列表的属性和操作。
+> 指定联系人和个人通讯组列表允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

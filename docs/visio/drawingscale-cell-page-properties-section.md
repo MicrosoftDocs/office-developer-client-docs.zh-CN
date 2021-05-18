@@ -20,7 +20,7 @@ ms.locfileid: "33413316"
 
 代表当前绘图比例中绘图单位的值。页面的绘图比例是 PageScale 单元格中显示的页面单位与 DrawingScale 单元格中显示的绘图单位之比。
   
-您可以设置 DrawingScale 单元格，以便通过程序更改页上标尺的单位。 下面是一个通过程序将度量单位由英寸改为厘米的示例。 在这个例子中，使用 **ConvertResult** 方法以不同的单位保持相同的距离。 
+您可以设置 DrawingScale 单元格，以便通过程序更改页上标尺的单位。下面是一个通过程序将度量单位由英寸改为厘米的示例。在这个例子中，使用 **ConvertResult** 方法以不同的单位保持相同的距离。 
   
 ```vb
 Public Sub SetActivePageMeasurementToCM() 
@@ -32,14 +32,14 @@ Set dsCell = ActivePage.PageSheet.Cells("DrawingScale")
 End Sub 
 ```
 
-您可以通过检查 DrawingScale 单元格的 **Units** 属性来确定绘图中的度量系统。 运行上述宏后, 在 Visual Basic 编辑器的 "即时" 窗口中执行以下语句将返回*True* 。 
+您可以通过检查 DrawingScale 单元格的 **Units** 属性来确定绘图中的度量系统。 运行上述宏后，在编辑器即时窗口中执行的Visual Basic语句将返回 *True* 。 
   
 ```vb
 debug.print ActivePage.PageSheet.Cells("DrawingScale").Units = _ 
  visCentimeters 
 ```
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 此单元格对应于 **“页面设置”** 对话框（单击 **“开始”** 选项卡上的 **“页面设置”** 箭头）中的设置。 
   

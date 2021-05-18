@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm335
 localization_priority: Normal
 ms.assetid: 24261b77-e3e8-7434-a503-9f23798bdab1
-description: 代表一维形状的终点相对于其父级原点的 x 坐标。
+description: 表示一维形状的终点相对于其父级原点 x 坐标。
 ms.openlocfilehash: 4bd3099b2c13572023b0b813b1cc69a7b211546b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.locfileid: "33411566"
 ---
 # <a name="endx-cell-1-d-endpoints-section"></a>EndX 单元格（“1-D Endpoints”内容）
 
-代表一维形状的终点相对于其父级原点的*x*坐标。 
+表示  *一*  维形状的终点相对于其父级原点 x 坐标。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 EndX 单元格的引用，请使用： 
   

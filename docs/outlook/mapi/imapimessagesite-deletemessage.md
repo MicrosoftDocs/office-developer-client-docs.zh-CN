@@ -38,47 +38,47 @@ HRESULT DeleteMessage(
 
  _pViewContext_
   
-> 实时指向视图上下文对象的指针。
+> [in]指向视图上下文对象的指针。
     
  _prcPosRect_
   
-> 实时指向包含当前窗体的窗口大小和位置的[RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx)结构的指针。 下一个显示的窗体也使用此窗口矩形。 
+> [in]指向包含当前窗体的窗口大小和位置的 [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) 结构的指针。 显示的下一个窗体也使用此窗口矩形。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 MAPI_E_NO_SUPPORT 
   
-> 此邮件网站不支持该操作。
+> 此消息网站不支持该操作。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-form 对象调用**IMAPIMessageSite::D eletemessage**方法以删除表单当前显示的邮件。 
+表单对象调用 **IMAPIMessageSite：:D eleteMessage** 方法以删除表单当前显示的消息。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-在返回**DeleteMessage**后, form 对象必须检查新邮件, 如果不存在, 则消除自己。 若要确定邮件**DeleteMessage**的作用是否已被删除或移动到 "**已删除邮件**" 文件夹, 窗体对象可以调用[IMAPIMessageSite:: GetSiteStatus](imapimessagesite-getsitestatus.md)方法, 以确定是否返回了 DELETE_IS_MOVE 标志。 
+返回 **DeleteMessage** 之后，form 对象必须检查新邮件，然后在不存在邮件时自行消除。 若要确定对 **DeleteMessage** 操作的邮件是已删除还是移动到"已删除邮件"文件夹，表单对象可以调用 [IMAPIMessageSite：：GetSiteStatus](imapimessagesite-getsitestatus.md)方法以确定是否返回 DELETE_IS_MOVE 标志。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果表单查看器对**DeleteMessage**方法的实现在删除邮件后移到下一封邮件, 则该实现应调用[IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md)方法并在执行之前传递 VCDIR_DELETE 标志。实际删除。 如果表单查看器的**DeleteMessage**实现将已删除的邮件 (例如, 移到 "**已删除**邮件" 文件夹) 移动, 则在修改邮件时, 该实现必须保存对邮件所做的更改。 
+如果表单查看器的 **DeleteMessage** 方法实现在删除邮件后移至下一条消息，则实现应调用 [IMAPIViewContext：：ActivateNext](imapiviewcontext-activatenext.md) 方法，并传递 VCDIR_DELETE 标志，然后再执行实际删除。 如果表单查看器的 **DeleteMessage** 实现将已删除的邮件 (例如移动到"已删除邮件"文件夹) ，则实现必须保存对邮件所做的更改（如果邮件已修改）。 
   
-**DeleteMessage**的典型实现将执行以下任务: 
+**DeleteMessage 的典型** 实现执行以下任务： 
   
-1. 如果实现正在移动邮件, 它将调用[IPersistMessage:: Save](ipersistmessage-save.md)方法, 在_pMessage_参数中传递**null** , 在_fSameAsLoad_参数中**为 true** 。 
+1. 如果实现移动消息，它将调用 [IPersistMessage：：Save](ipersistmessage-save.md)方法，在 _pMessage_ 参数中传递 **null，** 在 _fSameAsLoad_ 参数中传递 **true。** 
     
-2. 它调用**IMAPIViewContext:: ActivateNext**方法, 并在_ulDir_参数中传递 VCDIR_DELETE 标志。 
+2. 它调用 **IMAPIViewContext：：ActivateNext** 方法，在  _ulDir_ VCDIR_DELETE传递该标记。 
     
-3. 如果**ActivateNext**调用失败, 它将返回。 如果**ActivateNext**返回 S_FALSE, 它将调用[IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md)方法。 
+3. 如果 **ActivateNext 调用** 失败，它将返回。 如果 **ActivateNext** 返回 S_FALSE，它将调用 [IPersistMessage：：HandsOffMessage](ipersistmessage-handsoffmessage.md) 方法。 
     
-4. 删除或移动邮件。
+4. 它会删除或移动邮件。
     
-若要获取窗体窗口使用的**RECT**结构, 请调用 Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519)函数。 
+若要获取窗体的窗口使用的 **RECT** 结构，请调用 Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519)函数。 
   
-有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口列表，请参阅 [MAPI Form Interfaces](mapi-form-interfaces.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -86,7 +86,7 @@ form 对象调用**IMAPIMessageSite::D eletemessage**方法以删除表单当前
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer::D eletemessage  <br/> |未实现。  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer：:D eleteMessage  <br/> |未实现。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

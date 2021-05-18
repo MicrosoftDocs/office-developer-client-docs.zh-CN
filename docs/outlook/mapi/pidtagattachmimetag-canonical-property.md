@@ -25,7 +25,7 @@ ms.locfileid: "32327242"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含有关多用途 Internet 邮件扩展 (MIME) 附件的格式信息。 
+包含有关 MIME 附件中多用途 Internet 邮件扩展 (格式) 信息。 
   
 |||
 |:-----|:-----|
@@ -34,33 +34,33 @@ ms.locfileid: "32327242"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果**PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) 属性包含值**OID_MIMETAG**, 则传输提供程序应查看这些属性以确定如何设置附件格式。 
+如果 **PR_ATTACH_TAG (** [PidTagAttachTag](pidtagattachtag-canonical-property.md)) 属性包含值 **OID_MIMETAG，** 则传输提供程序应查看这些属性以确定附件的格式设置方式。 
   
-这些属性是从入站 MIME 标头的 Content type 参数中复制的。 字符串的组成定义在 RFC 1521 文档中。 格式为类型/子类型, 如应用程序/二进制或文本/纯文本。 
+这些属性从入站 MIME 标头的 Content-type 参数复制。 字符串的组成在 RFC 1521 文档中定义。 格式为 type/subtype，如 application/binary 或 text/plain。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > 指定权限管理编码邮件的属性。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

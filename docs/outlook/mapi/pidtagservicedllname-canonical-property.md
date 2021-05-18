@@ -25,7 +25,7 @@ ms.locfileid: "32330063"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含包含要调用配置的邮件服务提供程序入口点函数的 DLL 的文件名。
+包含包含要调用配置的消息服务提供程序入口点函数的 DLL 的文件名。
   
 |||
 |:-----|:-----|
@@ -34,25 +34,25 @@ ms.locfileid: "32330063"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-当入口点函数名称显示在**PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) 方法中时, 它表示该入口点存在。
+当入口点函数名称出现在 PR_SERVICE_ENTRY_NAME ( [PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) 方法中时，它指示该入口点存在。
   
-MAPI 使用 DLL 文件命名约定。 它将字符串32追加到基 DLL 名称, 以标识在32位平台上运行的版本。 例如, 当名称为 MAPI 时。DLL 的指定, MAPI 将构造名称 MAPI32。dll 的 dll, 用于表示相应的32位版本的 dll。
+MAPI 使用 DLL 文件命名约定。 它将字符串 32 附加到基 DLL 名称以标识在 32 位平台上运行的版本。 例如，当MAPI.DLL名称时，MAPI 将构造名称MAPI32.DLL表示相应的 32 位版本的 DLL。
   
-这些属性应指定基名称。 MAPI 将根据需要追加字符串32。 作为这些属性的一部分包含字符串32将导致错误。
+这些属性应指定基本名称。 MAPI 会在适当时追加字符串 32。 将字符串 32 作为这些属性的一部分会导致错误。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

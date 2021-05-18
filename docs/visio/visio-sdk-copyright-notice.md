@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fb478151-4afc-9a06-42a2-1defa54a3c4a
-description: 本文档按原样提供。 本文档中表示的信息和视图 (包括 URL 和其他 Internet 网站引用) 可能会发生更改, 恕不另行通知。 使用本文档的风险由您自行承担。
+description: 本文档按原样提供。 本文档中表达的信息和视图（包括 URL 和其他 Internet 网站引用）可能会更改，无需另行通知。 使用本主题的风险需自行承担。
 ms.openlocfilehash: 2faffee253779cbc2c6fde0716db1ff46b1583bc
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT

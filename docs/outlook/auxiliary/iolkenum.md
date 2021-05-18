@@ -15,30 +15,30 @@ ms.locfileid: "32322097"
 ---
 # <a name="iolkenum"></a>IOlkEnum
 
-支持将帐户枚举为[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown)对象。 
+支持将帐户枚举为 [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) 对象。 
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|继承自:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
+|继承自：  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |实现者：  <br/> |Outlook  <br/> |
 |提供者：  <br/> |[IOlkAccountManager::EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |
 |调用者：  <br/> |客户端  <br/> |
-|接口标识符:  <br/> |IID_IOlkEnum  <br/> |
+|接口标识符：  <br/> |IID_IOlkEnum  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[GetCount](iolkenum-getcount.md) <br/> |获取枚举数中的帐户数。  <br/> |
-|[Reset](iolkenum-reset.md) <br/> |将枚举器重置到开头。  <br/> |
-|[GetNext](iolkenum-getnext.md) <br/> |获取枚举数中的下一个帐户。  <br/> |
-|[Skip](iolkenum-skip.md) <br/> |在枚举数中跳过指定数量的帐户。  <br/> |
+|[GetCount](iolkenum-getcount.md) <br/> |获取枚举器中的帐户数。  <br/> |
+|[Reset](iolkenum-reset.md) <br/> |将枚举器重置为开头。  <br/> |
+|[GetNext](iolkenum-getnext.md) <br/> |获取枚举器中的下一个帐户。  <br/> |
+|[Skip](iolkenum-skip.md) <br/> |跳过枚举器中的指定数目的帐户。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-在获取帐户枚举器时, **IOlkAccountManager:: EnumerateAccounts**返回此接口。 
+获取帐户的枚举器时 **，IOlkAccountManager：：EnumerateAccounts** 将返回此接口。 
   
 ## <a name="see-also"></a>另请参阅
 

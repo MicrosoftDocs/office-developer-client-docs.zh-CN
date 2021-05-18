@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251469
 localization_priority: Normal
 ms.assetid: 65873b32-2406-7c33-8e68-802461f467b2
-description: 如果 logicalexpression 为 FALSE, 则返回 TRUE (1)。 否则, 它将返回 FALSE (0)。
+description: 如果 logicalexpression (FALSE，) 1，则返回 TRUE。 否则，返回 FALSE (0) 。
 ms.openlocfilehash: 3359e21654bcc318caf31405093f851eca064119
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33413330"
 ---
 # <a name="not-function"></a>NOT 函数
 
-如果_logicalexpression_为 FALSE, 则返回 TRUE (1)。 否则, 它将返回 FALSE (0)。 
+如果  _logicalexpression_ (FALSE，) 1，则返回 TRUE。 否则，返回 FALSE (0) 。 
   
 ## <a name="syntax"></a>语法
 
-NOT (* * *logicalexpression* * *) 
+NOT (** *logicalexpression* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -36,8 +36,8 @@ NOT (* * *logicalexpression* * *)
   
 ## <a name="example"></a>示例
 
-不是 ( \>高度 0.75 in) 
+不能 (高度 \> 0.75)  
   
-如果高度小于或等于 0.75 英寸，则返回 1。 如果高度大于 0.75 英寸，则返回 0。 
+如果高度小于或等于 0.75 英寸，则返回 1。如果高度大于 0.75 英寸，则返回 0。 
   
 

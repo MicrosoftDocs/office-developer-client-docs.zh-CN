@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm445
 localization_priority: Normal
 ms.assetid: decb86a4-b711-35e1-b9dc-744a84ee177c
-description: 确定对象的图像在其边框内的高度。 默认公式为：
+description: 确定对象的图像在其边框内的高度。默认公式为：
 ms.openlocfilehash: 956bc478604fd19d8dfdbb7079e092e9e8a16e7b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33411195"
 ---
 # <a name="imgheight-cell-foreign-image-info-section"></a>ImgHeight 单元格（“Foreign Image Info”内容）
 
-确定对象的图像在其边框内的高度。 默认公式为：
+确定对象的图像在其边框内的高度。默认公式为：
   
-= Height \* 1
+= 高度 \* 1
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ImgHeight 单元格的引用，请使用： 
   

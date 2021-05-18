@@ -29,8 +29,8 @@ ms.locfileid: "33412693"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
-|相关宏:  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
+|相关宏：  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |
    
 ```cpp
 typedef struct 
@@ -45,15 +45,15 @@ typedef struct
 
  **cValues**
   
-> 数组中的邮件类字符串指针的计数。
+> 数组中邮件类字符串指针的计数。
     
  **aMessageClass**
   
-> 指向邮件类字符串的指针的数组。
+> 指向邮件类字符串的指针数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在以下方法中, **SMessageClassArray**结构作为参数传递: 
+**SMessageClassArray** 结构在下列方法中作为参数传递： 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     

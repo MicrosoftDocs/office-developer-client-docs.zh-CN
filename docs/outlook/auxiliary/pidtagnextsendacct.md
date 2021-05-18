@@ -16,7 +16,7 @@ ms.locfileid: "32327711"
 ---
 # <a name="pidtagnextsendacct"></a>PidTagNextSendAcct
 
-指定邮件的辅助帐户 "发送" 标记。
+指定邮件的辅助帐户"发送"标记。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -25,11 +25,11 @@ ms.locfileid: "32327711"
 |相关属性：  <br/> |PR_NEXT_SEND_ACCT  <br/> |
 |标识符:  <br/> |0x0E29  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
-|区域：  <br/> |Outlook 应用程序  <br/> |
+|区域：  <br/> |Outlook应用程序  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性适用于 MAPI 邮件对象。 对于收到的邮件, 第二个帐户 "发送" 标记指示转发或答复应与之一起发送的帐户 (如果无法使用主帐户发送转发或答复)。 对于传出邮件, 如果无法使用主帐户发送邮件, 则辅助帐户 "发送" 图章将决定发送邮件的帐户。 它的值是要向其发送邮件的帐户的[IOlkAccount](iolkaccount.md)接口中的[PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md)值。 
+此属性适用于 MAPI 邮件对象。 对于收到的邮件，如果转发或答复不能使用主帐户发送，则辅助帐户"发送"标记指示应发送转发或答复的帐户。 对于传出邮件，如果无法使用主帐户发送邮件，则辅助帐户"发送"标记将确定发送邮件的帐户。 其 [值为PROP_ACCT_SEND_STAMP发送](prop_acct_send_stamp.md) 邮件的帐户的 [IOlkAccount](iolkaccount.md) 接口中的值。 
   
 ## <a name="see-also"></a>另请参阅
 

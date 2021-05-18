@@ -22,7 +22,7 @@ ms.locfileid: "33413505"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-安装**ExcelCursorProc** , 以便在 Microsoft Excel 主**WndProc**之前调用它。
+安装 **ExcelCursorProc，** 以便它先于主 **WndProc** Microsoft Excel调用。
   
 ```cs
 extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
@@ -30,21 +30,21 @@ extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
 
 ## <a name="parameters"></a>参数
 
- _hWndExcel_(**句柄**)
+ _hWndExcel_ (**HANDLE**) 
   
-Excel 主窗口句柄。
+主Excel句柄Windows句柄。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
 函数不返回值。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-函数通过使用**GetWindowLong ()** 获取 Excel **WndProc**的地址。 它将此值存储在全局中, 可用于调用默认**WndProc** , 还可以将其还原。 最后, 它使用**SetWindowLong ()** 将此地址替换为**ExcelCursorProc**的地址。
+该函数使用 **GetWindowLong** Excel获取 **WndProc** () 。 它将此值存储在全局中，可用于调用默认 **WndProc** 并还原它。 最后，它将此地址替换为使用 **SetWindowLong** () 的 **ExcelCursorProc** 地址。
   
 ### <a name="example"></a>示例
 
-有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
+有关  `\SAMPLES\GENERIC\GENERIC.C` 此函数的源代码，请参阅 。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "32329419"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-打开 MAPI 集成通讯簿, 返回一个[IAddrBook](iaddrbookimapiprop.md)指针以供进一步访问。 
+打开 MAPI 集成通讯簿，返回 [IAddrBook](iaddrbookimapiprop.md) 指针以进一步访问。 
   
 ```cpp
 HRESULT OpenAddressBook(
@@ -40,43 +40,43 @@ HRESULT OpenAddressBook(
 
  _ulUIParam_
   
-> 实时公用地址对话框和其他相关显示的父窗口的句柄。
+> [in]常见地址对话框和其他相关显示器的父窗口的句柄。
     
  _lpInterface_
   
-> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示要用于访问通讯簿的接口。 传递**null**将返回指向通讯簿的标准接口 ( [IAddrBook: IMAPIProp](iaddrbookimapiprop.md)) 的指针。 
+> [in]指向接口标识符的指针 (IID) 表示用于访问通讯簿的接口。 传递 **null** 将返回一个指向通讯簿的标准接口 [IAddrBook ： IMAPIProp 的指针](iaddrbookimapiprop.md)。 
     
  _ulFlags_
   
-> 实时控制通讯簿的打开的标志的位掩码。 可以设置以下标志:
+> [in]控制通讯簿打开的标志的位掩码。 可以设置以下标志：
     
 AB_NO_DIALOG 
   
-> 禁止显示对话框。 如果未设置 AB_NO_DIALOG 标志, 则参与集成通讯簿的通讯簿提供程序可以提示用户输入任何必要的信息。 
+> 禁止显示对话框。 如果未AB_NO_DIALOG，则参与集成通讯簿的通讯簿提供程序可以提示用户输入任何必要信息。 
     
  _lppAdrBook_
   
-> 排除指向通讯簿的指针的指针。
+> [out]指向指向通讯簿的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功打开通讯簿。
+> 通讯簿已成功打开。
     
 MAPI_W_ERRORS_RETURNED 
   
-> 调用成功, 但无法打开一个或多个通讯簿提供程序的容器。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
+> 调用成功，但无法打开一个或多个通讯簿提供程序的容器。 返回此警告时，应成功处理呼叫。 若要测试此警告，请使用 **HR_FAILED** 宏。 有关详细信息，请参阅使用 [宏处理错误](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**IMAPISession:: OpenAddressBook**方法打开 MAPI 集成通讯簿, 即配置文件中所有通讯簿提供程序的顶级容器的集合。 在_lppAdrBook_参数中返回的指针提供了对通讯簿内容的进一步访问权限。 这样, 调用方可以执行以下任务: 打开单个容器、查找邮件用户和显示常用地址对话框。 
+**IMAPISession：：OpenAddressBook** 方法打开 MAPI 集成通讯簿，该通讯簿是配置文件中所有通讯簿提供程序的顶级容器的集合。 _lppAdrBook_ 参数中返回的指针提供对通讯簿内容的进一步访问。 这允许呼叫者执行任务，如打开单个容器、查找邮件用户和显示公用地址对话框。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
- 如果不能在配置文件中加载一个或多个通讯簿提供程序, **OpenAddressBook**将返回 MAPI_W_ERRORS_RETURNED。 此值是一个警告, 而不是错误值;就像 S_OK 那样处理它。 **OpenAddressBook**始终返回_lppAdrBook_参数中的有效指针, 而不考虑加载多少通讯簿提供程序无法加载。 因此, 在注销之前, 必须始终在某个时刻调用通讯簿[IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法。 
+ **OpenAddressBook** 返回MAPI_W_ERRORS_RETURNED如果无法在配置文件中加载一个或多个通讯簿提供程序，则返回该设置。 此值是警告，而不是错误值;处理它，就像处理S_OK。 **OpenAddressBook** 始终在  _lppAdrBook_ 参数中返回一个有效指针，而不管有多少通讯簿提供程序未能加载。 因此，在注销之前，必须始终在一些时候调用通讯簿的 [IUnknown：：Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) 方法。 
   
-当**OpenAddressBook**返回 MAPI_W_ERRORS_RETURNED 时, 调用[IMAPISession:: GetLastError](imapisession-getlasterror.md)获取包含有关失败的提供程序的信息的[MAPIERROR](mapierror.md)结构。 返回一个**MAPIERROR**结构, 其中包含所有提供程序提供的信息。 
+当 **OpenAddressBook** 返回MAPI_W_ERRORS_RETURNED时，调用 [IMAPISession：：GetLastError](imapisession-getlasterror.md) 以获取包含有关失败提供程序信息的 [MAPIERROR](mapierror.md) 结构。 返回一 **个 MAPIERROR** 结构，其中包含所有提供程序所提供的信息。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -84,7 +84,7 @@ MAPI_W_ERRORS_RETURNED
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIObjects  <br/> |CMapiObjects:: GetAddrBook  <br/> |MFCMAPI 使用**IMAPISession:: OpenAddressBook**方法获取集成的通讯簿。  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects：：GetAddrBook  <br/> |MFCMAPI 使用 **IMAPISession：：OpenAddressBook** 方法获取集成通讯簿。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

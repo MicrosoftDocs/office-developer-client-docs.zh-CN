@@ -18,7 +18,7 @@ ms.locfileid: "33414107"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-用于返回异步用户定义函数 (UDF) 的结果。
+用于返回 UDF 中异步用户定义函数 (的结果) 。
   
 ```cpp
 Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12 pxFunctionResult);
@@ -26,9 +26,9 @@ Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12
 
 ## <a name="parameters"></a>参数
 
-_pxAsyncHandle_(**xltypeBigData**)
+_pxAsyncHandle_ (**xltypeBigData**) 
   
-将返回其结果的 UDF 的异步句柄。
+结果返回到的 UDF 的异步句柄。
   
 _pxFunctionResult_
   
@@ -36,15 +36,15 @@ UDF 的返回值。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果成功,**则返回 TRUE** (**xltypeBool**)。 如果不成功, 则返回**FALSE**。
+如果成功，则返回 **xltypeBool** (TRUE) 。  如果失败，则返回 **FALSE**。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**xlAsyncReturn**是 Excel 在重新计算期间允许对非计算线程执行的唯一回调。 异步 UDF 的异步部分不能执行除**xlAsyncReturn**以外的任何回调。 XLL 必须释放分配的内存以容纳返回值。
+**xlAsyncReturn** 是重新计算Excel在非计算线程上唯一允许的回调模式。 异步 UDF 的异步部分不得执行 **除 xlAsyncReturn 外的任何回调**。 XLL 必须释放分配的内存以保留返回值。
   
-_pxAsyncHandle_和_pxFunctionResult_参数也可以是**xltypeMulti**类型, 用于在单个回调中返回句柄的数组和相应的值。 使用单个回调时, 传递指向 XLOPER12 结构的 LPXLOPER12, 其中包含一个包含异步句柄和返回值的维度数组。 这些数组必须具有相同的顺序, Excel 才能正确匹配异步句柄与其对应的值。 
+_当 pxAsyncHandle_ 和 _pxFunctionResult_ 参数用于在单个回调中返回句柄和相应值的数组时，其类型还可以为 **xltypeMulti。** 使用单个回调时，传递一个 LPXLOPER12，该 LPXLOPER12 指向包含包含异步句柄和返回值的一维数组的 XLOPER12 结构。 这些数组的顺序必须相同，才能Excel异步句柄及其相应值正确匹配。 
   
-下面的示例展示了如何使用**xlAsyncReturn**进行批处理调用。
+以下示例演示如何使用 **xlAsyncReturn 进行批处理调用**。
   
 ```cpp
 int batchSize = 10;

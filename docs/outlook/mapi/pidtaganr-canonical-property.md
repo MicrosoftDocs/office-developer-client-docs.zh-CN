@@ -25,7 +25,7 @@ ms.locfileid: "32327963"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于在通讯簿容器的内容表上的属性限制中使用的字符串值。 
+包含用于通讯簿容器内容表的属性限制中的字符串值。 
   
 |||
 |:-----|:-----|
@@ -34,35 +34,35 @@ ms.locfileid: "32327963"
 |数据类型：  <br/> |PT_UNICODE、PT_STRING8  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-这些属性不属于任何对象;它由[SPropertyRestriction](spropertyrestriction.md)结构中的通讯簿提供程序提供。 此属性包含一个不明确的名称解析 (ANR) 字符串, 可以对照通讯簿容器的内容表对其进行测试, 以查找相应的邮件收件人。 
+这些属性不属于任何对象;它由 [SPropertyRestriction](spropertyrestriction.md) 结构中的地址簿提供程序提供。 此属性包含一个不明确的名称解析 (ANR) 字符串，该字符串可以针对通讯簿容器的内容表进行测试以查找相应的邮件收件人。 
   
-通讯簿提供程序使用提供程序定义的匹配算法, 与内容表中的每个条目的**PR_ANR**和关联属性的值相匹配。 此匹配中使用的一个或多个列将作为算法的一部分选择提供程序。 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 列是最常使用的值;**PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) 列在包含用户的电子邮件名称时也很有用。 
+通讯簿提供程序使用提供程序定义的PR_ANR匹配算法，根据内容表中的每个条目匹配通讯簿和关联属性的值。 提供程序选择此匹配中使用的列作为算法的一部分。 **PidTagDisplay**) Name PR_DISPLAY_NAME ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)列是最常用的列;**PR_ACCOUNT (** [PidTagAccount](pidtagaccount-canonical-property.md)) 列在包含用户的电子邮件名称时也很有用。 
   
-有关模糊名称解析的详细信息, 请参阅[通讯簿限制](address-book-restrictions.md)。 
+有关模糊名称解析详细信息，请参阅 [通讯簿限制](address-book-restrictions.md)。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

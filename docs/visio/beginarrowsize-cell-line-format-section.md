@@ -20,17 +20,17 @@ ms.locfileid: "33412280"
 
 确定线条起始处的箭头大小。
   
-|**值**|**Size**|**自动常量**|
+|**值**|**大小**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 非常小  <br/> |**visArrowSizeVerySmall** <br/> |
 | 1  <br/> | 小型  <br/> |**visArrowSizeSmall** <br/> |
-| 双面  <br/> | 中等  <br/> |**visArrowSizeMedium** <br/> |
-| 第三章  <br/> | 大型  <br/> |**visArrowSizeLarge** <br/> |
-| 4  <br/> | 非常大  <br/> |**visArrowSizeVeryLarge** <br/> |
-| 5  <br/> | 超长  <br/> |**visArrowSizeJumbo** <br/> |
-| 型  <br/> | Colossal  <br/> |**visArrowSizeColossal** <br/> |
+| 2  <br/> | 中等  <br/> |**visArrowSizeMedium** <br/> |
+| 3  <br/> | 大型  <br/> |**visArrowSizeLarge** <br/> |
+| 4   <br/> | 非常大  <br/> |**visArrowSizeVeryLarge** <br/> |
+| 5   <br/> | Jumbo  <br/> |**visArrowSizeJumbo** <br/> |
+| 6   <br/> | Colossal  <br/> |**visArrowSizeColossal** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 您还可以在 **“线条”** 对话框中设置箭头的大小。 
   

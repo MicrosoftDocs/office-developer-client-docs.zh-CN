@@ -25,31 +25,31 @@ ms.locfileid: "32325723"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果通讯组列表也是部门组, 则该参数为 TRUE。 此属性仅适用于通讯组列表。
+如果通讯组列表也是部门组，则包含 TRUE。 此属性仅适用于通讯组列表。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_EMS_AB_HAB_IS_HIERARCHICAL_GROUP  <br/> |
-|属性集:  <br/> |通讯簿  <br/> |
-|长 ID (盖子):  <br/> |0x8CDD  <br/> |
+|属性集：  <br/> |通讯簿  <br/> |
+|LONG ID (的一) ：  <br/> |0x8CDD  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |Exchange 通讯簿  <br/> |
+|区域：  <br/> |Exchange通讯簿  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Microsoft Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Microsoft Exchange Server引用。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/cc433489%28v=exchg.80%29)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/cc433489%28v=exchg.80%29)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

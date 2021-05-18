@@ -25,12 +25,12 @@ ms.locfileid: "33412784"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含根据显示表生成的对话框的按钮控件的相关信息。
+包含有关从显示表构建的对话框的按钮控件的信息。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关宏:  <br/> |[SizedDtblButton](sizeddtblbutton.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关宏：  <br/> |[SizedDtblButton](sizeddtblbutton.md) <br/> |
    
 ```cpp
 typedef struct _DTBLBUTTON
@@ -46,29 +46,29 @@ typedef struct _DTBLBUTTON
 
  **ulbLpszLabel**
   
-> 按钮上显示的字符字符串在内存中的位置。
+> 在按钮上显示的字符字符串的内存中的位置。
     
  **ulFlags**
   
-> 标志的位掩码, 用于指定**ulbLpszLabel**成员指向的标签的格式。 可以设置以下标志: 
+> 用于指定 **ulbLpszLabel** 成员指向的标签格式的标志的位掩码。 可以设置以下标志： 
     
 MAPI_UNICODE 
   
-> 标签采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则标签将采用 ANSI 格式。
+> 标签采用 Unicode 格式。 如果未MAPI_UNICODE，则标签采用 ANSI 格式。
     
  **ulPRControl**
   
-> 实现[IMAPIControl](imapicontroliunknown.md)接口的类型为 PT_OBJECT 的属性的属性标记。 单击该按钮时, MAPI 将为显示表的[IMAPIProp](imapipropiunknown.md)实现调用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法来检索此属性。 
+> 实现 [IMAPIControl](imapicontroliunknown.md) 接口PT_OBJECT类型的属性的属性标记。 单击该按钮时，MAPI 将调用显示表的[IMAPIProp 实现中的 IMAPIProp：：OpenProperty](imapiprop-openproperty.md)方法以检索此属性。 [](imapipropiunknown.md) 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**DTBLBUTTON**结构描述一个按钮, 单击该控件时, 用户可以开始操作。 通常情况下, 单击按钮会导致显示模式对话框或调用编程任务。 服务提供程序可以通过按钮控件实现任何内容。 如果按钮应基于其他控件的值执行任务, 则这些控件必须已设置 DT_SET_IMMEDIATE 标志。 
+**DTBLBUTTON** 结构描述按钮控件，单击该控件时，用户可以开始操作。 通常，单击某个按钮会导致显示模式对话框或调用编程任务。 服务提供程序可以通过按钮控件实现任何内容。 如果按钮应基于其他控件的值执行任务，则这些控件必须已设置DT_SET_IMMEDIATE标志。 
   
-**ulbLpszLabel**成员是显示在按钮上的字符字符串在内存中的位置。 服务提供程序可以添加一个与号&amp;字符 (), 以指示按钮标签中的 Windows 加速器。 按加速键与单击按钮具有相同的效果。 
+**ulbLpszLabel** 成员是按钮上显示的字符字符串在内存中的位置。 服务提供商可以添加与号字符 () 按钮标签Windows &amp; 加速键。 按加速键的效果与单击按钮的效果相同。 
   
-**ulPRControl**成员描述了一个对象属性, 该属性在使用**IMAPIProp:: OpenProperty**方法打开时, 返回一个指向 control 对象的指针。 实现支持**IMAPIControl**接口的 control 对象是一种扩展 MAPI 功能集和定义单击按钮时发生的操作或任务的方法。 **IMAPIControl**提供了两种操作按钮的方法: [GetState](imapicontrol-getstate.md)可禁用或启用按钮并[激活](imapicontrol-activate.md)以处理按钮单击。 
+**ulPRControl** 成员描述一个对象属性，当使用 **IMAPIProp：：OpenProperty** 方法打开该属性时，将返回一个指向控件对象的指针。 实现支持 **IMAPIControl** 接口的控件对象是扩展 MAPI 功能集并定义单击按钮时发生的操作或任务的一种方式。 **IMAPIControl** 提供了两种操作按钮的方法：用于禁用或启用按钮的 [GetState](imapicontrol-getstate.md) 和 [用于](imapicontrol-activate.md) 处理按钮单击的激活。 
   
-有关显示表的概述, 请参阅[显示表](display-tables.md)。 有关如何实现显示表的信息, 请参阅[实现显示表](display-table-implementation.md)。
+有关显示表的概述，请参阅显示 [表](display-tables.md)。 若要了解如何实现显示表，请参阅 [实现显示表](display-table-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

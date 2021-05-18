@@ -25,12 +25,12 @@ ms.locfileid: "33413120"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算包含指定数量的邮件类的字符串指针的现有[SMessageClassArray](smessageclassarray.md)结构中的字节数。 
+计算现有 [SMessageClassArray](smessageclassarray.md) 结构中包含指定数量的邮件类字符串指针的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**SMessageClassArray** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**SMessageClassArray** <br/> |
    
 ```cpp
 CbMessageClassArray (_c)
@@ -38,9 +38,9 @@ CbMessageClassArray (_c)
 
 ## <a name="parameters"></a>参数
 
- __c_
+ _ _c_
   
-> 包含在现有**SMessageClassArray**中的邮件类的指针计数。
+> 指向现有 **SMessageClassArray** 中包含的邮件类的指针计数。
     
 ## <a name="see-also"></a>另请参阅
 

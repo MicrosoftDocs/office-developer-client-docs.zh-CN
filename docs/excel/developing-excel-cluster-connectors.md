@@ -18,24 +18,24 @@ ms.locfileid: "33412595"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-Excel 群集连接器提供了一种方法, 用于将 XLL 中的群集安全用户定义的函数调用自动卸载到群集服务器。 有关群集安全用户定义的函数的说明, 请参阅[群集安全函数](cluster-safe-functions.md)。 此卸载可以通过启用更多的计算资源来提高性能。 群集连接器通常由高性能计算群集供应商开发。
+Excel群集连接器提供了一种自动将 XLL 中的群集安全用户定义函数调用卸载到群集服务器的方式。 有关群集安全用户定义函数的说明，请参阅[群集保险箱函数](cluster-safe-functions.md)。 通过允许使用更多计算资源，此卸载可以提高性能。 群集连接器通常由高性能计算群集供应商开发。
   
 ## <a name="cluster-connectors"></a>群集连接器
 
-群集连接器是提供定义的入口点的 DLL, Excel 使用这些入口点来协调群集安全用户定义的函数调用。 它充当 excel 和高性能计算群集之间的接口, 用于实现函数调用 (通过传递完全限定的函数名称和调用的实际参数), 以及将呼叫结果返回到 Excel 的过程回调机制。
+群集连接器是一个 DLL，它提供定义的入口点Excel用于协调群集安全的用户定义函数调用。 它充当 Excel 和高性能计算群集之间的接口，用于会话管理、通过传递完全限定的函数名称和调用的实际参数) 来调用 (，以及通过回调机制将调用结果返回到 Excel。
   
-若要创建群集连接器, 请创建一个 DLL, 用于公开在[Excel 群集连接器函数](excel-cluster-connector-functions.md)中列出的入口点。
+若要创建群集连接器，请创建公开群集连接器函数 中列出的Excel [DLL。](excel-cluster-connector-functions.md)
   
 ## <a name="installing-a-cluster-connector"></a>安装群集连接器
 
-若要使群集连接器在 excel 中可用, 连接器的安装代码必须在安装了 excel 的计算机上安装连接器的 DLL。 此外, 连接器的安装程序代码必须在以下注册表项下添加连接器的条目:
+若要使群集连接器在 Excel中可用，连接器的安装代码必须在安装了该连接器Excel DLL。 此外，连接器的设置代码必须在以下注册表项下添加连接器的条目：
   
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Excel\Excel 群集连接器 \
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Excel\Excel Cluster Connectors\
   
-将节点添加到指定以下字符串的群集连接器的此项中:
+为群集连接器的此键添加一个节点，该节点指定以下字符串：
   
--  `Name`—将显示在 Excel 中的群集连接器列表中的名称。
+-  `Name`- 将在群集连接器列表中显示的名称Excel。
     
--  `Filename`— DLL 的完整路径。
+-  `Filename`- DLL 的完整路径。
     
 

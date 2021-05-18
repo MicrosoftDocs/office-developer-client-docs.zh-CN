@@ -1,5 +1,5 @@
 ---
-title: 行 (Visio ShapeSheet 参考)
+title: 'ShapeSheet (Visio行) '
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413015"
 ---
-# <a name="rows-visio-shapesheet-reference"></a>行 (Visio ShapeSheet 参考)
+# <a name="rows-visio-shapesheet-reference"></a>ShapeSheet (Visio行) 
 
 ## <a name="in-this-section"></a>本节内容
 
@@ -29,9 +29,9 @@ ms.locfileid: "33413015"
     
 - [EllipticalArcTo Row (Geometry Section)](ellipticalarcto-row-geometry-section.md)
     
-- [渐变停止行 ("填充渐变" 部分)](gradient-stop-row-fill-gradient-section.md)
+- [Gradient Stop Row (Fill Gradient Section) ](gradient-stop-row-fill-gradient-section.md)
     
-- [渐变停止行 ("线条渐变" 部分)](gradient-stop-row-line-gradient-section.md)
+- [Gradient Stop Row (Line Gradient Section) ](gradient-stop-row-line-gradient-section.md)
     
 - [Hyperlink Row (Hyperlinks Section)](hyperlink-row-hyperlinks-section.md)
     
@@ -45,15 +45,15 @@ ms.locfileid: "33413015"
     
 - [PolylineTo Row (Geometry Section)](polylineto-row-geometry-section.md)
     
-- [RelCubBezTo 行 ("Geometry" 部分)](relcubbezto-row-geometry-section.md)
+- ["Geometry"内容 (RelCubBezTo) ](relcubbezto-row-geometry-section.md)
     
-- [RelEllipticalArcTo 行 ("Geometry" 部分)](relellipticalarcto-row-geometry-section.md)
+- [RelEllipticalArcTo "Geometry" (行) ](relellipticalarcto-row-geometry-section.md)
     
-- [RelLineTo 行 ("Geometry" 部分)](rellineto-row-geometry-section.md)
+- [RelLineTo Row (Geometry Section) ](rellineto-row-geometry-section.md)
     
-- [RelMoveTo 行 ("Geometry" 部分)](relmoveto-row-geometry-section.md)
+- [RelMoveTo Row (Geometry Section) ](relmoveto-row-geometry-section.md)
     
-- [RelQuadBezTo 行 ("Geometry" 部分)](relquadbezto-row-geometry-section.md)
+- [RelQuadBezTo Row (Geometry Section) ](relquadbezto-row-geometry-section.md)
     
 - [Shape Data Row (Shape Data Section)](shape-data-row-shape-data-section.md)
     

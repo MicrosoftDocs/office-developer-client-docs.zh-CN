@@ -21,35 +21,35 @@ ms.locfileid: "33411209"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-许多不同类型的对象都支持某些属性。 以下属性是多个对象使用的属性示例:
+许多不同类型的对象支持某些属性。 下列属性是多个对象使用的属性示例：
   
-- **PR_ENTRYID**([PidTagEntryId](pidtagentryid-canonical-property.md)) 是用于打开对象的二进制标识符。
+- **PR_ENTRYID (** [PidTagEntryId](pidtagentryid-canonical-property.md)) 是一个二进制标识符，用于打开对象。
     
-- **PR_OBJECT_TYPE**([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 是一个常量, 用于标识对象的类型。
+- **PR_OBJECT_TYPE (** [PidTagObjectType](pidtagobjecttype-canonical-property.md)) 是一个用来标识对象类型的常量。
     
-- **PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 是用于向用户描述对象的字符字符串。
+- **PR_DISPLAY_NAME (** [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 是一个字符串，用于向用户描述对象。
     
-其他属性对一种类型的对象很有意义。 以下属性是应用于一种类型的对象的属性示例:
+其他属性对单一类型的对象有意义。 以下属性是应用于一种类型的对象的属性示例：
   
-- **PR_MESSAGE_CLASS**([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 是用于描述邮件类型的字符字符串。
+- **PR_MESSAGE_CLASS (** [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 是一个用于描述邮件类型的字符串。
     
-- **PR_ROWID**([PidTagRowid](pidtagrowid-canonical-property.md)) 是用于标识表中的行的整数。
+- **PR_ROWID (** [PidTagRowid](pidtagrowid-canonical-property.md)) 是一个整数，用于标识表格中的行。
     
-- **PR_ATTACH_SIZE**([PidTagAttachSize](pidtagattachsize-canonical-property.md)) 是一个整数, 用于存储附件中的字节数。
+- **PR_ATTACH_SIZE (** [PidTagAttachSize](pidtagattachsize-canonical-property.md)) 是一个整数，用于存储附件中的字节数。
     
-仍有一些其他属性仅适用于特定状态中的一种类型的对象。 此类型的属性通常是邮件属性。 首次创建邮件时, 它的一组属性非常小。 当客户端通过邮件系统发送给收件人时, 描述邮件所需的属性数会增加。 某些添加的属性仅在邮件传递过程中显示在邮件中, 而其他属性仅在邮件发送时显示在邮件上。 邮件还具有与它们所属的类关联的属性。 例如, 报告邮件具有其他类的邮件不支持的属性, 如注释消息。 
+此外，其他属性仅适用于处于特定状态中的单一类型对象。 此类型的属性通常是邮件属性。 首次创建邮件时，其属性集很小。 由于客户端通过邮件系统将邮件发送给收件人，因此描述邮件所需的属性数会增加。 其中一些添加的属性仅在邮件传递时显示，而其他属性仅在邮件发送时出现在邮件上。 邮件还具有与其所属的类关联的属性。 例如，报告邮件具有其他类的邮件不支持的属性，例如便笺邮件。 
   
-每个对象都有一些必需的属性, 并且可能有也可能不包含其他可选属性。 必需属性是对象在可以使用其[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法成功保存之前必须存在于对象上的属性。 使用对象的客户端或服务提供程序可以依赖于**SaveChanges**调用之后所需属性的可用性。 也就是说, 它们可以确保对对象的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法或[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法的调用, 以检索这些属性将会成功。 
+每个对象都有一些必需的属性，并且可能（也可能没有）其他可选属性。 必需属性是对象上必须存在的属性，然后才能使用 [对象的 IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法成功保存该对象。 使用对象的客户端或服务提供商可能依赖于 **SaveChanges** 调用后所需属性的可用性。 也就是说，他们可以确保调用对象的 [IMAPIProp：：GetProps](imapiprop-getprops.md) 方法或 [IMAPIProp：：OpenProperty](imapiprop-openproperty.md) 方法来检索这些属性将成功。 
   
-可选属性是一些属性, 取决于对象的实施者, 对象可能支持也可能不支持这些属性。 使用该对象的客户端或服务提供程序不能预期可通过**GetProps**或**OpenProperty**方法使用的可选属性并将其设置为有效的值。 
+可选属性是对象可能支持也可能不受对象支持的属性，具体取决于对象的实现者。 使用 对象的客户端或服务提供商无法期望可选属性通过 **GetProps** 或 **OpenProperty** 方法可用并设置为有效值。 
   
-有关此引用中的列表或属性, 请参阅[MAPI 属性](mapi-properties.md)。 有关每个邮件存储和通讯簿对象的属性的说明, 可参阅对象的标准界面的讨论。 例如, **IMAPIFolder**和消息用户属性与**IMailUser**讨论的文件夹属性一起讨论。 邮件属性 (包括报告邮件属性) 在**IMessage**和[邮件属性概述](message-properties-overview.md)中进行了介绍。 在相应的[MAPI 表](mapi-tables.md)主题中介绍了属于每种不同类型的表的属性。 例如, 层次结构表中介绍了层次[](hierarchy-tables.md)结构表属性。 属于表单服务器的属性在[选择窗体的属性集](choosing-a-form-s-property-set.md)中进行描述。
+有关此参考中的列表或属性，请参阅 [MAPI Properties](mapi-properties.md)。 有关属于每个邮件存储和通讯簿对象的属性的说明，请参阅对象的标准接口讨论。 例如，使用 **IMAPIFolder** 讨论文件夹属性，使用 **IMailUser** 讨论邮件用户属性。 Message properties， including report message properties， are described with **IMessage** and in [Message Properties Overview](message-properties-overview.md). 适当的 [MAPI](mapi-tables.md) 表主题中介绍了属于每种不同类型的表的属性。 例如，层次结构表属性在 [Hierarchy Tables 中进行了介绍](hierarchy-tables.md)。 Choosing [a Form's Property Set](choosing-a-form-s-property-set.md)中描述了属于表单服务器的属性。
   
-当客户端或服务提供程序调用对象的**GetProps**方法以检索它的多个属性, 并且其中一个属性不可用时, **GetProps**将返回警告 MAPI_W_ERRORS_RETURNED。 由于返回了一些属性, 因此该调用被认为是成功的。 当客户端或服务提供程序调用**OpenProperty**且 target 属性不可用时, 该方法将失败, 并出现错误 MAPI_E_NOT_FOUND。 在尝试使用请求的属性之前, 务必先检查该属性是否返回。 
+当客户端或服务提供商调用对象的 **GetProps** 方法来检索其多个属性，并且其中一个属性不可用时 **，GetProps** 将返回警告MAPI_W_ERRORS_RETURNED。 调用被视为成功，因为返回了一些属性。 当客户端或服务提供商调用 **OpenProperty** 并且目标属性不可用时，该方法将失败，并返回MAPI_E_NOT_FOUND。 在尝试使用请求的属性之前，检查是否返回了请求的属性，这一点很重要。 
   
-根据对象、提供实现的服务提供程序和属性, 属性可以具有读/写权限或只读权限。 读/写权限允许客户端或服务提供程序使用属性更改其值;只读权限仅允许拥有该对象的服务提供程序进行更改。 
+根据对象、提供实现的服务提供程序和 属性，属性可以具有读/写或只读权限。 读/写权限允许客户端或服务提供商使用 属性更改其值;只读权限仅允许拥有该对象的服务提供商进行更改。 
   
-若要准确了解当前为对象设置的属性, 请调用[IMAPIProp:: GetPropList](imapiprop-getproplist.md)。 使用**GetPropList**方法, 调用方可以找出在尝试打开可能不存在的属性之前可用的内容。 由于不存在特定类型的所有对象都支持的标准属性集, 因此无法猜测对象是否支持特定属性。 调用**GetPropList**可消除猜测工作。 
+若要准确找出当前为对象设置的属性，请调用 [IMAPIProp：：GetPropList](imapiprop-getproplist.md)。 **GetPropList** 方法允许调用方在尝试打开可能不存在的属性之前找到可用项。 由于不存在特定类型的所有对象都支持的标准属性集，因此无法猜测对象是否支持特定属性。 调用 **GetPropList** 可消除猜测工作。 
   
 ## <a name="see-also"></a>另请参阅
 

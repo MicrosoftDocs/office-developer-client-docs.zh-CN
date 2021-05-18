@@ -25,44 +25,44 @@ ms.locfileid: "32330119"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果某些传输提供程序已接受将邮件传递给此收件人的责任, 则为 TRUE; 如果 MAPI 后台处理程序认为此传输提供程序应接受责任, 则为 FALSE。
+如果某些传输提供程序已接受将邮件传送给此收件人的责任，则包含 TRUE;如果 MAPI 后台处理程序认为此传输提供程序应接受责任，则包含 FALSE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RESPONSIBILITY  <br/> |
 |标识符:  <br/> |0x0E0F  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |MAPI 非传输  <br/> |
+|区域：  <br/> |MAPI 不可传输  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-当 mapi 后台处理程序通过[IXPLogon:: SubmitMessage](ixplogon-submitmessage.md)将出站邮件提供给传输提供程序时, 它会将 mapi 后台处理程序认为该传输提供程序所负责的所有收件人的此属性设置为 FALSE, 并为所有其他收件人。 传输提供程序应尝试处理所有将**PR_RESPONSIBILITY**设置为 FALSE 的收件人。 在成功发送或最终无法发送到收件人之后, 传输提供程序应在源邮件中将此属性设置为 TRUE, 以表明它已接受该收件人的责任。 
+当 MAPI 后台处理程序通过 [IXPLogon：：SubmitMessage](ixplogon-submitmessage.md)向传输提供程序显示出站邮件时，它将 MAPI 后台处理程序认为其负责传输提供程序的所有收件人的此属性都为 FALSE，对于所有其他收件人，此属性为 TRUE。 传输提供程序应尝试处理所有收件人，PR_RESPONSIBILITY **设置为** FALSE。 成功向收件人发送或成功发送后，传输提供程序应在源邮件中将此属性设置为 TRUE，以指示其已接受该收件人的责任。 
   
-如果在检查收件人之后, 传输提供程序决定它无法处理或不应处理它, 则传输提供程序应将**PR_RESPONSIBILITY**设置为 FALSE。 MAPI 后台处理程序随后会查找另一个可处理该收件人的传输提供程序。 MAPI 后台处理程序最终会为没有任何传输提供者接受其责任的任何收件人创建一个 nondelivery 报告。 
+如果在检查收件人之后，传输提供程序决定不能或不应处理该收件人，则传输提供程序应 **PR_RESPONSIBILITY设置为** FALSE。 然后，MAPI 后台处理程序将查找另一个可以处理该收件人的传输提供程序。 MAPI 后台处理程序最终会为任何传输提供程序不承担责任的收件人创建未送达报告。 
   
-如果传输提供程序尝试并无法传递邮件, 则应调用[IMAPISupport:: StatusRecips](imapisupport-statusrecips.md)方法, 以指示 mapi 导致失败的原因, 以便 mapi 可以生成 nondelivery 报告。 
+如果传输提供程序尝试传递邮件但失败，则它应调用 [IMAPISupport：：StatusRecips](imapisupport-statusrecips.md) 方法向 MAPI 指示失败的原因，以便 MAPI 可以生成未送达报告。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理客户端与服务器之间的数据传输的顺序和流。
+> 处理客户端和服务器之间数据传输的顺序和流。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

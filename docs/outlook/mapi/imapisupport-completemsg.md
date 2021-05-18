@@ -25,7 +25,7 @@ ms.locfileid: "33411188"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-对邮件执行后处理。 
+对邮件执行后置处理。 
   
 ```cpp
 HRESULT CompleteMsg(
@@ -39,31 +39,31 @@ HRESULT CompleteMsg(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _cbEntryID_
   
-> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
+> [in]  _lpEntryID_ 参数指向的条目标识符中的字节计数。 
     
  _lpEntryID_
   
-> 实时指向要处理的邮件的条目标识符的指针。
+> [in]指向要处理的邮件的条目标识符的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 后处理成功。
+> 后置处理成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-为邮件存储提供程序支持对象实现了**IMAPISupport:: CompleteMsg**方法, 并且只能由与传输提供程序紧密结合的邮件存储提供程序调用。 紧密耦合的存储提供程序调用**IMAPISupport:: CompleteMsg**以指示 MAPI 后台处理程序后置处理邮件。 
+**IMAPISupport：：CompleteMsg** 方法针对邮件存储提供程序支持对象实现，并且仅由与传输提供程序紧密耦合的邮件存储提供程序调用。 紧密耦合存储提供程序调用 **IMAPISupport：：CompleteMsg** 以指示 MAPI 后台处理程序对消息进行后处理。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-仅限呼叫**CompleteMsg**在与传输提供程序紧密结合时, 可以处理邮件的所有收件人, 并且存在以下情况之一: 
+只有在与传输提供程序紧密结合时，才能调用 **CompleteMsg，** 才能处理邮件的所有收件人，并且存在下列条件之一： 
   
-- 已对邮件进行预处理。
+- 邮件已预处理。
     
 - 邮件需要 MAPI 后台处理程序进行后处理。
     

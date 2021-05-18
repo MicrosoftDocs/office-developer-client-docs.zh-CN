@@ -25,7 +25,7 @@ ms.locfileid: "32329454"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-请求表单执行与特定谓词相关联的任何任务。
+请求表单执行与特定动词关联的任何任务。
   
 ```cpp
 HRESULT DoVerb(
@@ -40,61 +40,61 @@ HRESULT DoVerb(
 
  _iVerb_
   
-> 实时与窗体的一个谓词相关联的数字。
+> [in]与窗体动作之一相关联的数字。
     
  _lpViewContext_
   
-> 实时指向视图上下文对象的指针。 _lpViewContext_参数可以为**null**。
+> [in]指向视图上下文对象的指针。 _lpViewContext_ 参数可以是 **null**。
     
  _hwndParent_
   
-> 实时此方法显示的任何对话框或窗口的父窗口的句柄。 如果对话框或窗口不模式, 则_hwndParent_参数应为**null** 。 
+> [in]该方法显示的任何对话框或窗口的父窗口的句柄。 如果对话框或窗口不是模式对话框或窗口，_则 hwndParent_ 参数应为 null。 
     
  _lprcPosRect_
   
-> 实时指向 Win32 [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx)结构的指针, 该结构包含窗体的窗口的大小和位置。 
+> [in]指向包含窗体窗口大小和位置的 Win32 [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功调用谓词。
+> 动词命令已成功调用。
     
 OLEOBJ_S_CANNOT_DOVERB_NOW 
   
-> 由_iVerb_参数表示的谓词是有效的, 但该窗体无法执行当前与之关联的操作。 
+> _iVerb_ 参数表示的谓词有效，但表单无法执行当前与之关联的操作。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-表单查看器调用**IMAPIForm::D overb**方法, 以请求表单执行与表单支持的每个谓词相关联的任务。 
+表单查看者调用 **IMAPIForm：:D oVerb** 方法，以请求表单执行与表单支持的每个动作关联的任务。 
   
-每个受支持的谓词都通过一个数值标识, 并传递给_iVerb_参数中的**DoVerb** 。 **DoVerb**的典型实现包含一个**switch**语句, 用于测试对窗体的_iVerb_参数有效的值。 
+每个受支持的动词都由一个数值标识，在 **iVerb** 参数中传递给 _DoVerb。_ **DoVerb 的典型** 实现包含 **一个 switch** 语句，该语句测试对表单 _的 iVerb_ 参数有效的值。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果表单查看器在_lpViewContext_参数中指定了视图上下文, 请在**DoVerb**实现中使用它, 而不是在之前调用[IMAPIForm:: SetViewContext](imapiform-setviewcontext.md)方法时传递的视图上下文。 对内部数据结构进行任何所需的更改, 并且不保存视图上下文。 
+如果表单查看器在  _lpViewContext_ 参数中指定视图上下文，请在你的 **DoVerb** 实现中使用它，而不是在之前对 [IMAPIForm：：SetViewContext](imapiform-setviewcontext.md) 方法的调用中传递的视图上下文。 对内部数据结构进行所需的任何更改，不要保存视图上下文。 
   
-在您的**DoVerb**实现中执行以下任务: 
+在 **DoVerb** 实现中执行以下任务： 
   
-- 执行与_iVerb_参数关联的特定谓词所需的任何代码。 
+- 执行与  _iVerb_ 参数关联的特定动作所需的任何代码。 
     
-- 如有必要, 请还原原始的视图上下文。
+- 如有必要，还原原始视图上下文。
     
-- 如果传入了未知动词号码, 则返回 MAPI_E_NO_SUPPORT。 否则, 根据执行的任何动作的成功或失败返回结果。
+- 如果传入了未知动词数字，则返回MAPI_E_NO_SUPPORT。 否则，根据所执行的任何动词的成功或失败返回结果。
     
-- 关闭窗体。 在**DoVerb**调用完成后, 始终负责关闭窗体。 
+- 关闭窗体。 您始终负责在 **DoVerb** 调用完成后关闭表单。 
     
-某些谓词 (如 Print) 应是有关**DoVerb**调用的模式, 也就是说, 在**DoVerb**调用返回之前, 必须完成指示的操作。 
+某些动作（如 Print）对于 **DoVerb** 调用应该具有模式，也就是说，指示的操作必须在 **DoVerb** 调用返回之前完成。 
   
-若要获取窗体窗口使用的**RECT**结构, 请调用[GetWindowRect](https://msdn.microsoft.com/library/ms633519)函数。 
+若要获取窗体窗口使用的 **RECT** 结构，请调用 [GetWindowRect](https://msdn.microsoft.com/library/ms633519) 函数。 
   
-请勿将句柄保存在_hwndParent_参数中, 因为尽管它通常在**DoVerb**完成之前一直有效, 但它可以在调用返回时立即销毁。
+不要将句柄保存在  _hwndParent_ 参数中，因为尽管它通常保持有效直到 **DoVerb** 完成，但它可以在调用返回后立即销毁。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-通过将_lpViewContext_指向从其[IMAPIViewContext:: GetViewStatus](imapiviewcontext-getviewstatus.md)方法返回 VCSTATUS_MODAL 标志的视图上下文实现, 可以使非模式谓词充当模式谓词。 
+您可以通过将  _lpViewContext_ 指向从 [IMAPIViewContext：：GetViewStatus](imapiviewcontext-getviewstatus.md) 方法返回 VCSTATUS_MODAL 标志的视图上下文实现，使非模式动词用作模式动词。 
   
-有关 MAPI 中的动词的详细信息, 请参阅[表单谓词](form-verbs.md)。 有关如何在 ole 中处理谓词的详细信息, 请参阅[ole and Data Transfer](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx)。
+有关 MAPI 中的动词功能详细信息，请参阅 [Form Verbs](form-verbs.md)。 有关在 OLE 中如何处理动作的信息，请参阅 [OLE 和数据传输](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -102,7 +102,7 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: CallDoVerb  <br/> |MFCMAPI 使用**IMAPIForm::D overb**方法调用窗体上的谓词。  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer：：CallDoVerb  <br/> |MFCMAPI 使用 **IMAPIForm：:D oVerb** 方法调用表单上的动词。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
@@ -117,5 +117,5 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
 
 [MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
   
-[表单谓词](form-verbs.md)
+[窗体动词](form-verbs.md)
 

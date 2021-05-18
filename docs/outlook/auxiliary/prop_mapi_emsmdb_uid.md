@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 8e5b42e3-844f-488c-ba6f-b74c447b1d59
-description: 表示包含 Exchange 帐户的 UID 的 ACCT_BIN 结构。
+description: 表示ACCT_BIN Exchange 帐户的 UID 的自定义结构。
 ms.openlocfilehash: 6bb529da82cc24e41ddc70c5031f84050a2ece25
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32326549"
 ---
-# <a name="propmapiemsmdbuid"></a>PROP_MAPI_EMSMDB_UID
+# <a name="prop_mapi_emsmdb_uid"></a>PROP_MAPI_EMSMDB_UID
 
-表示包含 Exchange 帐户的 UID 的[ACCT_BIN](acct_bin.md)结构。 
+表示 [ACCT_BIN](acct_bin.md) Exchange 帐户的 UID 的自定义结构。 
   
 ## <a name="quick-info"></a>快速信息
 
@@ -29,11 +29,11 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x20090102  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-使用[IOlkAccount:: GetProp](iolkaccount-getprop.md)获取此属性。
+使用 [IOlkAccount：：GetProp 获取此属性](iolkaccount-getprop.md)。
   
-使用[PROP_ACCT_IS_EXCH](prop_acct_is_exch.md)验证帐户是否为 Exchange 帐户。 如果是, 则**\_MAPI_EMSMDB_UID**是一个**ACCT_BIN** , 其中包含 Exchange 帐户的**emsmdbUID**, 即唯一 ID。 如果帐户不是 Exchange 帐户, 则此属性未定义。
+使用 [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md) 验证该帐户是否为 Exchange 帐户。 如果是 **，PROP \_ MAPI_EMSMDB_UID** 是包含 **emsmdbUID** 的 ACCT_BIN，这是 Exchange 帐户的唯一 ID。  如果该帐户不是 Exchange 帐户，则此属性未定义。
   
 ## <a name="see-also"></a>另请参阅
 

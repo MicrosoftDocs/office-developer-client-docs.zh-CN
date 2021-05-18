@@ -25,11 +25,11 @@ ms.locfileid: "33411174"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-递增 mapi 子系统引用计数并为 mapi DLL 初始化全局数据。 
+增加 MAPI 子系统引用计数并初始化 MAPI DLL 的全局数据。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapix  <br/> |
+|标头文件：  <br/> |Mapix.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
    
@@ -43,7 +43,7 @@ HRESULT MAPIInitialize(
 
  _lpMapiInit_
   
-> 实时指向[MAPIINIT_0](mapiinit_0.md)结构的指针。 可以将_lpMapiInit_参数设置为 NULL。 
+> [in]指向结构 [MAPIINIT_0](mapiinit_0.md) 指针。 可以将  _lpMapiInit_ 参数设置为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
@@ -51,60 +51,60 @@ S_OK
   
 > MAPI 子系统已成功初始化。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**MAPIInitialize**函数递增 mapi 子系统的 mapi 引用计数, [MAPIUninitialize](mapiuninitialize.md)函数递减内部引用计数。 因此, 对一个函数的调用次数必须等于对另一个函数的调用次数。 如果 MAPI 以前尚未初始化, 则**MAPIInitialize**将返回 S_OK。 
+**MAPIInitialize** 函数增加 MAPI 子系统的 MAPI 引用计数，[而 MAPIUninitialize](mapiuninitialize.md)函数会缩小内部引用计数。 因此，对一个函数的调用数必须等于对另一个函数的调用数。 **如果 MAPI 尚未S_OK，MAPIInitialize** 将返回值。 
   
-在进行任何其他 MAPI 呼叫之前, 客户端或服务提供程序必须调用**MAPIInitialize** 。 如果不这样做, 则会导致客户端或服务提供程序调用返回 MAPI_E_NOT_INITIALIZED 值。 
+客户端或服务提供商必须先调用 **MAPIInitialize，** 然后才能进行任何其他 MAPI 调用。 如果不这样做，客户端或服务提供商调用将返回MAPI_E_NOT_INITIALIZED值。 
   
-从多线程应用程序调用**MAPIInitialize**时, 请将_lpMapiInit_参数设置为以下声明的[MAPIINIT_0](mapiinit_0.md)结构: 
+从多 **线程应用程序调用 MAPIInitialize** 时，将 _lpMapiInit_ 参数设置为 [](mapiinit_0.md)MAPIINIT_0 结构，声明如下： 
   
- **MAPIINIT_0**MAPIINIT = {0, MAPI_MULTITHREAD_NOTIFICATIONS} 
+ **MAPIINIT_0** MAPIINIT= { 0，MAPI_MULTITHREAD_NOTIFICATIONS} 
   
-和呼叫: 
+和 调用： 
   
- **MAPIInitialize**(&amp;MAPIINIT); 
+ **MAPIInitialize** (&amp; MAPIINIT) ; 
   
-声明此结构时, MAPI 将创建单独的线程来处理通知窗口, 这将一直持续到初始化引用计数降为零。 Windows 服务必须将_lpMapiInit_指向的**MAPIINIT_0**结构的**ulflags**成员设置为 MAPI_NT_SERVICE。 
+声明此结构时，MAPI 将创建一个单独的线程来处理通知窗口，该窗口将一直持续到初始化引用计数为零。 Windows 服务必须将 _lpMapiInit_ 指向的 MAPIINIT_0 **ulflags** 成员设置为 MAPI_NT_SERVICE。 
   
 > [!NOTE]
-> 无法从 Win32 **DllMain**函数或任何其他创建或终止线程的函数中调用**MAPIInitialize**或**MAPIUninitialize** 。 有关详细信息, 请参阅[使用线程安全对象](using-thread-safe-objects.md)。 
+> 不能从 Win32 **DllMain** 函数或其他创建或终止线程的函数中调用 **MAPIInitialize** 或 **MAPIUninitialize。** 有关详细信息，请参阅使用对象 [Thread-Safe对象](using-thread-safe-objects.md)。 
   
- **MAPIInitialize**不会返回任何扩展的错误消息。 与大多数其他 MAPI 调用不同的是, 其返回值的含义严格定义为与失败的初始化的特定步骤相对应: 
+ **MAPIInitialize** 不会返回任何扩展的错误信息。 与大多数其他 MAPI 调用不同，其返回值的含义严格定义为对应于失败的初始化的特定步骤： 
   
 1. 检查参数和标志。
     
-    MAPI_E_INVALID_PARAMETER 或 MAPI_E_UNKNOWN_FLAGS。 呼叫者传递了无效参数或标志。
+    MAPI_E_INVALID_PARAMETER 或 MAPI_E_UNKNOWN_FLAGS。 调用方传递的参数或标志无效。
     
-2. 初始化 MAPI 所需的注册表项, 并确认操作系统的类型。 仅当客户端进程在 Windows 下作为服务运行, 并在**MAPIINIT_0**结构中设置 MAPI_NT 服务标记时, 才会发生此步骤。 
+2. 初始化 MAPI 所需的注册表项并确认操作系统的类型。 只有当客户端进程作为 Windows 下的服务运行，并设置 MAPI_NT 结构中的服务标记时，MAPIINIT_0 **执行此步骤** 。 
     
-    MAPI_E_TOO_COMPLEX。 调用进程是一种 Windows 服务, 无法初始化 MAPI 所需的注册表项。 
+    MAPI_E_TOO_COMPLEX。 调用过程是 Windows 服务，无法初始化 MAPI 所需的注册表项。 
     
     应用程序事件日志中可能提供了其他信息。
     
-3. 请检查 MAPI 与 ole 的兼容性, 然后初始化 ole。
+3. 检查 MAPI 与 OLE 的兼容性，然后初始化 OLE。
     
 1. 检查当前版本的 OLE 和 MAPI 之间的兼容性。 
     
-    MAPI_E_VERSION。 在工作站上安装的 OLE 版本与此版本的 MAPI 不兼容。
+    MAPI_E_VERSION。 工作站上安装的 OLE 版本与此版本的 MAPI 不兼容。
     
 2. 初始化 OLE。 
     
-    在此步骤中, 此函数可能返回未在此处列出的错误代码。 此处_未_列出的任何错误都应假定为来自 OLE 函数**CoInitialize**。
+    仅在此步骤中，此函数可能会返回此处未列出的错误代码。 应  _假定_ 此处未列出的任何错误来自 OLE 函数 **CoInitialize**。
     
-4. 初始化每个进程的全局变量。
+4. 初始化每个进程全局变量。
     
-    MAPI_E_SESSION_LIMIT。 MAPI 设置特定于当前进程的上下文。 如果进程数超过一定数量, 或者如果可用内存耗尽, 则在 Win16 上可能会发生失败。
+    MAPI_E_SESSION_LIMIT。 MAPI 设置特定于当前进程的上下文。 如果进程数超过特定数量，则 Win16 上可能发生故障;如果可用内存已耗尽，则在任何系统上可能发生故障。
     
-5. 初始化所有进程的共享全局变量。
+5. 初始化所有进程共享的全局变量。
     
-    MAPI_E_NOT_ENOUGH_RESOURCES。 可用的系统资源不足, 无法完成此操作。
+    MAPI_E_NOT_ENOUGH_RESOURCES。 没有足够的系统资源来完成该操作。
     
-6. 初始化通知引擎, 如果 MAPI_MULTITHREAD_NOTIFICATIONS 标志请求, 则会创建其窗口及其线程。 
+6. 初始化通知引擎，创建其窗口及其线程（如果由 MAPI_MULTITHREAD_NOTIFICATIONS 请求）。 
     
-    MAPI_E_INVALID_OBJECT。 如果系统资源耗尽, 可能会失败。 
+    MAPI_E_INVALID_OBJECT。 如果系统资源用尽，可能会失败。 
     
-7. 加载并初始化配置文件提供程序。 验证**MAPIInitialize**是否可以访问存储配置文件数据的注册表项。 
+7. 加载并初始化配置文件提供程序。 验证 **MAPIInitialize** 能否访问存储配置文件数据的注册表项。 
     
     MAPI_E_NOT_INITIALIZED。 配置文件提供程序遇到错误。 
     
@@ -114,7 +114,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl  <br/> ||MFCMAPI 使用**MAPIInitialize**方法在后台线程上初始化 MAPI, 以执行某些表处理。  <br/> |
+|ContentsTableListCtrl.cpp  <br/> ||MFCMAPI 使用 **MAPIInitialize** 方法初始化后台线程上的 MAPI 以执行一些表处理。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

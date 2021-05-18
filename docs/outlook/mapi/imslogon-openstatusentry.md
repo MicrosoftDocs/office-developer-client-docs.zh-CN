@@ -25,7 +25,7 @@ ms.locfileid: "33413176"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-打开一个 status 对象。
+打开 status 对象。
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,33 +40,33 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> 实时指向要打开的 status 对象的接口标识符 (IID) 的指针。 传递 NULL 表示返回对象的标准接口 (在此示例中为[IMAPIStatus](imapistatusimapiprop.md)接口)。 也可以将_lpInterface_参数设置为对象的相应接口的标识符。 
+> [in]指向要打开的状态 (IID) 接口标识符的指针。 传递 NULL 表示返回对象的标准接口 (，在这种情况下 [，IMAPIStatus](imapistatusimapiprop.md) 接口) 。 _还可以将 lpInterface_ 参数设置为对象相应接口的标识符。 
     
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制状态对象的打开方式。 可以设置以下标志:
+> [in]控制状态对象的打开方式的标志的位掩码。 可以设置以下标志：
     
 MAPI_MODIFY 
   
-> 请求读取/写入权限。 默认情况下, 创建具有只读权限的对象, 并且客户端应用程序不应在假定已授予读/写权限时才起作用。 
+> 请求读/写权限。 默认情况下，使用只读权限创建对象，客户端应用程序不应在已授予读/写权限的假设下工作。 
     
  _lpulObjType_
   
-> 排除一个指针, 指向打开的对象的类型。
+> [out]指向已打开对象的类型的指针。
     
  _lppEntry_
   
-> 排除指向指向已打开对象的指针的指针。
+> [out]指向已打开对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-邮件存储提供程序实现**IMSLogon:: OpenStatusEntry**方法以打开 status 对象。 此状态对象随后用于使客户端可以调用[IMAPIStatus](imapistatusimapiprop.md)方法。 例如, 客户端可以使用[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)方法重新配置邮件存储登录会话或[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法以验证邮件存储登录会话的状态。 
+消息存储提供程序实现 **IMSLogon：：OpenStatusEntry** 方法以打开状态对象。 然后，此状态对象用于使客户端能够调用 [IMAPIStatus](imapistatusimapiprop.md) 方法。 例如，客户端可以使用 [IMAPIStatus：：SettingsDialog](imapistatus-settingsdialog.md) 方法重新配置邮件存储登录会话，或者使用 [IMAPIStatus：：ValidateState](imapistatus-validatestate.md) 方法验证邮件存储登录会话的状态。 
   
 ## <a name="see-also"></a>另请参阅
 

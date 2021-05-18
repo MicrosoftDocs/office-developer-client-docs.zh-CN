@@ -25,11 +25,11 @@ ms.locfileid: "33412973"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于指示名称解析过程中的地址条目状态的标志列表。
+包含用于在名称解析过程中指示地址条目状态的标志列表。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct
@@ -44,27 +44,27 @@ typedef struct
 
  **cFlags**
   
-> 列表中 MAPI 定义的标志的计数。
+> 列表中 MAPI 定义标志的计数。
     
  **ulFlags**
   
-> 为收件人提供名称解析操作的状态的标志数组。 可以设置以下标志:
+> 一个标志数组，用于为收件人提供名称解析操作的状态。 可以设置以下标志：
     
 MAPI_AMBIGUOUS 
   
-> 收件人已得到解决, 但不是唯一的条目标识符。 其他通讯簿容器不应尝试解析该收件人。 
+> 收件人已解析，但无法解析为唯一条目标识符。 其他通讯簿容器不应尝试解析此收件人。 
     
 MAPI_RESOLVED 
   
-> 收件人已解析为唯一条目标识符。 其他通讯簿容器不应尝试解析该收件人。 
+> 收件人已解析为唯一条目标识符。 其他通讯簿容器不应尝试解析此收件人。 
     
 MAPI_UNRESOLVED 
   
-> 该条目尚未解决。 其他通讯簿容器应尝试解析该收件人。
+> 条目尚未解析。 其他通讯簿容器应尝试解析此收件人。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**FLAGLIST**结构用作[IABContainer:: ResolveNames](iabcontainer-resolvenames.md)的参数。 要解析的每个收件人都包含在[ADRLIST](adrlist.md)结构中。 由于通讯簿容器尝试解析每个收件人, 因此它会在**FLAGLIST**结构中的相应条目中设置适当的标志。 **FLAGLIST**结构中的所有条目的顺序与**ADRLIST**结构中的条目的顺序相同。 这样便于将标志设置与收件人相关联。 
+**FLAGLIST** 结构用作 [IABContainer：：ResolveNames 的参数](iabcontainer-resolvenames.md)。 要解析的每个收件人都包含在 [ADRLIST](adrlist.md) 结构中。 当通讯簿容器尝试解析每个收件人时，它会在 **FLAGLIST** 结构的相应条目中设置相应的标志。 **FLAGLIST** 结构的所有条目的顺序与 **ADRLIST** 结构中的条目的顺序相同。 这便于将标志设置与收件人关联。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33411874"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个一次性模板表, 用于创建要添加到传出邮件的收件人列表中的收件人。
+返回用于创建要添加到传出邮件的收件人列表的收件人的一次模板表。
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -38,37 +38,37 @@ HRESULT GetOneOffTable(
 
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制包含在表中的字符串列的类型。 可以设置以下标志:
+> [in]控制表中包含的字符串列类型的标志位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 字符串列采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串列的格式为 ANSI。
+> 字符串列采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串列采用 ANSI 格式。
     
  _lppTable_
   
-> 排除指向一次性表的指针的指针。
+> [out]指向指向一次表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功检索一次性表。
+> 已成功检索一次表。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置了 MAPI_UNICODE 标志, 且通讯簿提供程序不支持 unicode, 或者未设置 MAPI_UNICODE, 并且通讯簿提供程序仅支持 unicode。
+> 设置 MAPI_UNICODE 标志，通讯簿提供程序不支持 Unicode，或者MAPI_UNICODE设置该地址簿提供程序仅支持 Unicode。
     
 MAPI_E_NO_SUPPORT 
   
-> 通讯簿提供程序不提供任何一次性模板。
+> 通讯簿提供程序不提供任何一次使用模板。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-MAPI 调用**GetOneOffTable**方法来创建可用的一次性模板, 以创建收件人。 新收件人将添加到传出邮件的收件人列表中。 通讯簿提供程序应支持对其一次性表发出通知, 以通知 MAPI 的模板修改。 MAPI 保持打开一个 "一次性" 表以启用动态更新。 
+MAPI 调用 **GetOneOffTable** 方法，使一次可用模板可用于创建收件人。 新收件人将添加到传出邮件的收件人列表中。 通讯簿提供程序应支持在一对一表上发送通知，以通知 MAPI 模板修改。 MAPI 使一次表保持打开状态，以启用动态更新。 
   
-通讯簿提供程序还可以支持其每个容器的一次性表。 调用方通过调用容器的[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法并请求**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性来检索此一次性表。 可通过此表使用的模板将收件人添加到容器中。 有关这两种类型的一次性表之间的区别的讨论, 请参阅[实现一次性表](implementing-one-off-tables.md)。
+通讯簿提供程序还可以支持每个容器的一对一表。 调用方通过调用容器的[IMAPIProp：：OpenProperty](imapiprop-openproperty.md)方法并请求 PR_CREATE_TEMPLATES ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 检索此一) 表。  通过此表提供的模板用于将收件人添加到容器。 有关这两种类型的一键式表之间的差异的讨论，请参阅 [Implementing One-Off Tables](implementing-one-off-tables.md)。
   
-若要获取通讯簿提供程序的一次性表格中所需列的列表, 请参阅[一次性表格](one-off-tables.md)。
+有关通讯簿提供程序的一键式表中的所需列的列表，请参阅 [一键式表](one-off-tables.md)。
   
 ## <a name="see-also"></a>另请参阅
 

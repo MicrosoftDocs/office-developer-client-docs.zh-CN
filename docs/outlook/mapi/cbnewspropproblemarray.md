@@ -25,12 +25,12 @@ ms.locfileid: "33413337"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算要为包含指定数量的[SPropProblem](spropproblem.md)结构的新[SPropProblemArray](spropproblemarray.md)结构分配的字节数。 
+计算为包含指定数量的[SPropProblem 结构的新 SPropProblemArray](spropproblemarray.md)结构分配的字节[](spropproblem.md)数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**SPropProblemArray** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 CbNewSPropProblemArray (_cprob)
@@ -38,9 +38,9 @@ CbNewSPropProblemArray (_cprob)
 
 ## <a name="parameters"></a>参数
 
- __cprob_
+ _ _cprob_
   
-> 要包含在新**SPropProblemArray**结构中的**SPropProblem**结构的计数。 
+> 要 **包含在新 SPropProblemArray** 结构的 **SPropProblem 结构** 计数。 
     
 ## <a name="see-also"></a>另请参阅
 

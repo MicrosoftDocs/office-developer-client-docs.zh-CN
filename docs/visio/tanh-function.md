@@ -22,25 +22,25 @@ ms.locfileid: "33412770"
   
 ## <a name="syntax"></a>语法
 
-TANH (* * *angle* * *) 
+TANH (** *angle* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |必需  <br/> |**数值** <br/> |要获取其 hypbolic 正切值的角度。  <br/> |
+| _angle_ <br/> |必需  <br/> |**Numeric** <br/> |要获取其双曲切线的角度。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-数值
+Numeric
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-TANH 函数使用弧度, 除非您以*角度*指定不同的度量单位。 
+TANH 函数使用弧度，除非你在 angle 中指定了不同的度量  *单位*  。 
   
 ## <a name="example"></a>示例
 
-TANH (-45) 
+TANH (-45)  
   
 返回 -0.6558。 
   

@@ -25,7 +25,7 @@ ms.locfileid: "33412049"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含提供程序定义的[MAPIUID](mapiuid.md)结构, 该结构指示邮件存储区的类型。 
+包含提供程序定义的 [MAPIUID](mapiuid.md) 结构，该结构指示邮件存储的类型。 
   
 |||
 |:-----|:-----|
@@ -34,23 +34,23 @@ ms.locfileid: "33412049"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-[MAPIUID](mapiuid.md)结构标识邮件存储的类型。 值由邮件存储区对象的邮件存储提供程序计算, 并且每个提供程序都是唯一的。 它通常用于浏览邮件存储区表以查找所需类型的存储, 例如公用文件夹。 
+[MAPIUID](mapiuid.md)结构标识邮件存储的类型。 该值由邮件存储对象上的邮件存储提供程序计算，并且对于每个提供程序都是唯一的。 它通常用于浏览邮件存储表以查找所需类型的存储，例如公用文件夹。 
   
-此属性类似于通讯簿的**PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) 属性。 
+此属性类似于通讯簿的 **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) 属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

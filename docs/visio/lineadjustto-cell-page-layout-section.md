@@ -20,14 +20,14 @@ ms.locfileid: "33414023"
 
 确定哪些动态连接线要彼此重叠。
   
-|**值**|**调**|**自动常量**|
+|**值**|**调整**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |默认的排列样式  <br/> |**visPLOLineAdjustToDefault** <br/> |
 |1  <br/> |彼此紧邻的线条  <br/> |**visPLOLineAdjustToAll** <br/> |
-|双面  <br/> |无线条  <br/> |**visPLOLineAdjustToNone** <br/> |
-|第三章  <br/> |相关线条  <br/> |**visPLOLineAdjustToRelated** <br/> |
+|2  <br/> |无线条  <br/> |**visPLOLineAdjustToNone** <br/> |
+|3  <br/> |相关线条  <br/> |**visPLOLineAdjustToRelated** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 还可以在 **“页面设置”** 对话框中的 **“布局与排列”** 选项卡（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后单击 **“布局与排列”**）上设置此单元格的值。
   

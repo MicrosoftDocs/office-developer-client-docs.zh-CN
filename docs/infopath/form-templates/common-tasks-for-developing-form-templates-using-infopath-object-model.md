@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- infopath 2003-兼容的表单模板、常见任务、表单模板 [infopath 2007]、开发2003兼容的常见任务
+- infopath 2003-compatible form templates， common tasks，form templates [InfoPath 2007]， common tasks for developing 2003-compatible
 localization_priority: Normal
 ms.assetid: 578a38a9-b8d8-42e2-b98b-5e5bb85ebe05
 description: 此主题旨在帮助您快速找到解决之道，以解决有关利用表单代码（依据 Microsoft.Office.Interop.InfoPath.SemiTrust 程序集工作）开发表单模板的常见问题。
@@ -53,7 +53,7 @@ ms.locfileid: "33411573"
     
 - [使用 InfoPath 2003 对象模型处理 MSXML 和 System.Xml](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
     
-## <a name="data"></a>Data
+## <a name="data"></a>数据
 
 使用数据时执行的常见任务。
   

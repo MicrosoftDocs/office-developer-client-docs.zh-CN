@@ -20,7 +20,7 @@ ms.locfileid: "32322104"
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅[IOlkAccountHelper](iolkaccounthelper.md)。
+请参阅 [IOlkAccountHelper](iolkaccounthelper.md)。
   
 ```cpp
 HRESULT IOlkAccountHelper::GetIdentity (  
@@ -33,23 +33,23 @@ HRESULT IOlkAccountHelper::GetIdentity (
 
 _pwszIdentity_
   
-> 实时排除配置文件名称。
+> [in][out]配置文件名称。
     
 _pcch_
   
-> 实时排除调用此方法时, 将包含已分配的_pwszIdentity_的大小 (以字符数为单位)。 返回时, 包含返回的配置文件名称的实际长度, 包括0终止字符。 
+> [in][out]调用此方法时，包含 ( _pwszIdentity_) 字符数的大小。 返回时，包含返回的配置文件名称的实际长度，包括以 0 为终止符的字符。 
     
 ## <a name="return-values"></a>返回值
 
 |**[HRESULT]**|**说明**|
 |:-----|:-----|
 |S_OK  <br/> |调用成功。  <br/> |
-|E_OUTOFMEMORY  <br/> |返回的配置文件名称的长度大于_pwszIdentity_的大小。  <br/> |
-|E_INVALIDARG  <br/> | _pcch_为 NULL。  <br/> |
+|E_OUTOFMEMORY  <br/> |返回的配置文件名称长于  _pwszIdentity 的大小_。  <br/> |
+|E_INVALIDARG  <br/> | _pcch_ 为 NULL。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果_pwszIdentity_太小, 不能容纳配置文件名, 则不会在返回时设置它, 并且_pcch_将指向_pwszIdentity_所需的大小。
+如果  _pwszIdentity_ 太小，无法保留配置文件名称，则返回时不会设置该名称  _，pcch_ 将指向  _pwszIdentity 所需的大小_。
   
 ## <a name="see-also"></a>另请参阅
 

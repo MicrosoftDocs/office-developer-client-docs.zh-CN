@@ -25,20 +25,20 @@ ms.locfileid: "32327921"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个值, 该值指示邮件发件人对邮件重要性的评价。 
+包含一个值，该值指示邮件发件人对邮件重要性的意见。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_IMPORTANCE  <br/> |
 |标识符:  <br/> |0x0017  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-不应混淆此属性和**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md)) 属性。 重要性指示对用户的值, 而 priority 表示邮件系统软件发送邮件的顺序或速度。 较高的优先级通常表示较高的成本。 较高的重要性通常与用户界面中的不同显示相关联。 
+不应混淆 **此属性PR_PRIORITY (** [PidTagPriority](pidtagpriority-canonical-property.md)) 属性。 Importance 指示给用户的值，而优先级指示邮件系统软件应发送邮件的顺序或速度。 优先级越高，通常表示成本越高。 较高的重要性通常与用户界面的不同显示相关联。 
   
-此属性可以具有下列值之一:
+此属性可以正好具有下列值之一：
   
 IMPORTANCE_LOW 
   
@@ -50,29 +50,29 @@ IMPORTANCE_HIGH
     
 IMPORTANCE_NORMAL 
   
-> 邮件具有普通重要性。
+> 邮件具有普通的重要性。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "32325632"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定用于显示消息的编辑器的格式。
+指定编辑器用于显示消息的格式。
   
 |||
 |:-----|:-----|
@@ -34,50 +34,50 @@ ms.locfileid: "32325632"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**PR_MSG_EDITOR_FORMAT**的可能值可以是下列值之一: 
+此参数 **PR_MSG_EDITOR_FORMAT** 可以是下列值之一： 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
-|**EDITOR_FORMAT_DONTKNOW** <br/> |要使用的编辑器的格式未知。  <br/> |
-|**EDITOR_FORMAT_PLAINTEXT** <br/> |编辑器应以纯文本格式显示邮件。  <br/> |
-|**EDITOR_FORMAT_HTML** <br/> |编辑器应以 HTML 格式显示邮件。  <br/> |
-|**EDITOR_FORMAT_RTF** <br/> |编辑器应以 rtf 格式显示邮件。  <br/> |
+|**EDITOR_FORMAT_DONTKNOW** <br/> |编辑器使用的格式未知。  <br/> |
+|**EDITOR_FORMAT_PLAINTEXT** <br/> |编辑器应该以纯文本格式显示消息。  <br/> |
+|**EDITOR_FORMAT_HTML** <br/> |编辑器应该以 HTML 格式显示邮件。  <br/> |
+|**EDITOR_FORMAT_RTF** <br/> |编辑器应该以格式文本格式显示消息。  <br/> |
    
-默认情况下, 邮件为邮件类**IPM。请注意**或使用从 IPM 派生的自定义邮件类 **。注意**) 从 POP3/SMTP 邮件帐户发送将以传输中性封装格式 (TNEF) 的形式发送。 **PR_MSG_EDITOR_FORMAT**属性可用于在发送邮件时仅强制实现纯文本, 而不是 TNEF。 如果将**PR_MSG_EDITOR_FORMAT**设置为**EDITOR_FORMAT_PLAINTEXT**, 则邮件将以纯文本格式发送, 而不进行 TNEF。 如果将**PR_MSG_EDITOR_FORMAT**设置为**EDITOR_FORMAT_RTF**, 将隐式启用 TNEF 编码, 并使用在 Outlook 客户端中指定的默认 Internet 格式发送邮件。
+默认情况下，邮件与 (IPM 一起 **发送。注意** 或具有派生自 IPM 的自定义邮件 **类。请注意**) POP3/SMTP 邮件帐户发送的邮件采用 TNEF 传输中性封装 (格式) 。 the **PR_MSG_EDITOR_FORMAT** property can be used to enforce only plain text， not TNEF， when sending a message. 如果 **PR_MSG_EDITOR_FORMAT** 设置为 EDITOR_FORMAT_PLAINTEXT **，则** 邮件将作为不带 TNEF 的纯文本发送。 如果 **PR_MSG_EDITOR_FORMAT** 设置为 EDITOR_FORMAT_RTF，则隐式启用 TNEF 编码，并且邮件使用 Outlook 客户端中指定的默认 Internet 格式发送。
   
-在发送邮件时, 有两种其他方法可以强制使用 TNEF。
+还有其他两种方法可以强制在发送邮件时使用 TNEF。
   
-- 如果将邮件中的 " **dispidUseTNEF** " ([PidLidUseTnef](pidlidusetnef-canonical-property.md)) 命名属性设置为 True, 则会在将邮件从 MAPI 转换为 MIME/SMTP 时包含 TNEF。 请注意, **dispidUseTNEF**仅适用于从 POP3/SMTP 邮件帐户发送邮件时, 如果邮件是由其他提供商 (如 Microsoft Exchange Server) 发送的, 则不适用。 **dispidUseTNEF**将覆盖**PR_MSG_EDITOR_FORMAT**中的设置。
+- 将邮件的 **dispidUseTNEF** ([PidLidUseTnef](pidlidusetnef-canonical-property.md)) 命名属性设置为 True 表示将邮件从 MAPI 转换为 MIME/SMTP 时，应包含 TNEF。 请注意 **，dispidUseTNEF** 仅适用于从 POP3/SMTP 邮件帐户发送邮件的情况，而不适用于其他提供程序（如 Microsoft Exchange Server）发送的邮件。 **dispidUseTNEF** 会覆盖 PR_MSG_EDITOR_FORMAT 中的 **设置**。
     
-- 在调用[IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md)将传出 MAPI 邮件转换为 MIME 流时使用**CCSF_USE_TNEF**标志也可以强制使用 TNEF。 即使未设置**dispidUseTNEF** , 这也适用。 
+- 调用[IConverterSession：：MAPIToMIMEStm](iconvertersession-mapitomimestm.md)将传出 MAPI 邮件转换为 MIME 流时，使用 CCSF_USE_TNEF 标志也可强制使用 TNEF。 即使未设置 **dispidUseTNEF，** 这仍然适用。 
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 定义在远程操作中使用的基本数据结构。
+> 定义远程操作中使用的基本数据结构。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33413267"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-为表行发送通知。
+发送表行的通知。
   
 ```cpp
 HRESULT HrNotify(
@@ -39,25 +39,25 @@ HRESULT HrNotify(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _cValues_
   
-> 实时由_lpSPropValue_参数指向的[SPropValue](spropvalue.md)结构中的属性值的计数。 
+> [in] [SPropValue](spropvalue.md) 结构中由  _lpSPropValue_ 参数指向的属性值计数。 
     
  _lpSPropValue_
   
-> 实时指向描述目标行中各列的值的**SPropValue**结构的指针。 
+> [in]指向描述目标行中列值的 **SPropValue** 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**ITableData:: HrNotify**方法发送与_lpSPropValue_参数所指向的属性所描述的行相匹配的行的 TABLE_ROW_MODIFIED 通知。 **HrNotify**发送通知, 无论行是否发生了更改。 所有具有表视图且已调用[IMAPITable:: 建议](imapitable-advise.md)在其视图中注册通知的客户端和服务提供程序都会收到此通知。 
+**ITableData：：HrNotify** 方法为TABLE_ROW_MODIFIED _lpSPropValue_ 参数指向的属性所描述的行匹配的行发送一个通知。 **HrNotify** 发送通知，而不管该行是否发生了更改。 所有具有表视图并且已调用 [IMAPITable：：Advise](imapitable-advise.md) 以注册其视图上的通知的客户端和服务提供商将收到此通知。 
   
 ## <a name="see-also"></a>另请参阅
 

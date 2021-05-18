@@ -23,12 +23,12 @@ ms.locfileid: "33413855"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含[FLATENTRY](flatentry.md)结构的数组。 
+包含 [FLATENTRY 结构](flatentry.md) 数组。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关宏:  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md)、 [CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关宏：  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md) [、CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |
    
 ```cpp
 typedef struct
@@ -44,23 +44,23 @@ typedef struct
 
 **cEntries**
   
-> 由**abEntries**成员描述的数组中的**FLATENTRY**结构的计数。 
+> **abEntries** 成员描述的数组中的 **FLATENTRY** 结构计数。 
     
 **cbEntries**
   
-> 由**abEntries**描述的数组中的字节数。 
+> abEntries 描述的数组中的 **字节数**。 
     
 **abEntries**
   
-> 包含一个或多个**FLATENTRY**结构的字节数组, 该数组排列端到端。 
+> 包含一个或多个 **FLATENTRY** 结构的字节数组，端到端排列。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在**abEntries**数组中, 每个**FLATENTRY**结构在自然对齐的边界处对齐。 填充包含额外的字节以确保任意两个**FLATENTRY**结构之间的自然对齐。 数组中的第一个**FLATENTRY**结构始终正确对齐, 因为**abEntries**成员的偏移量为8。 若要计算下一个结构的偏移量, 请使用第一项的大小向上舍入到接下来的4个。 使用[CbFLATENTRY](cbflatentry.md)宏计算**FLATENTRY**结构的大小。 
+在 **abEntries** 数组中，每个 **FLATENTRY** 结构在自然对齐的边界上对齐。 额外字节作为填充包括在内，以确保任何两个 **FLATENTRY** 结构之间的自然对齐。 数组中的第一个 **FLATENTRY** 结构始终正确对齐，因为 **abEntries** 成员偏移量为 8。 若要计算下一结构的偏移量，请使用向上舍入到下一个 4 倍数的第一个条目的大小。 使用 [CbFLATENTRY](cbflatentry.md) 宏计算 **FLATENTRY** 结构的大小。 
   
-例如, 第二个**FLATENTRY**结构从包含第一项的偏移加上第一项的长度加上第一项的偏移量到接下来的四个字节的偏移量。 第一个条目的长度是其**cb**成员的长度加上其**abEntry**成员的长度。 
+例如，第二 **个 FLATENTRY** 结构从偏移开始，该偏移由第一个条目的偏移量加上舍入到后四个字节的第一个条目的长度组成。 第一个条目的长度是 **cb** 成员的长度及其 **abEntry 成员** 的长度。 
   
-下面的代码示例指示如何在**FLATENTRYLIST**结构中计算偏移量。 假定_lpFlatEntry_是指向列表中第一个结构的指针。 
+下面的代码示例指示如何在 **FLATENTRYLIST** 结构中计算偏移。 假定  _lpFlatEntry_ 是指向列表中第一个结构的指针。 
   
 ```cpp
 (offsetof(lpFlatEntry->ab) // for example, 4

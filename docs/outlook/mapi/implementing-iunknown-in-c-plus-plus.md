@@ -19,9 +19,9 @@ ms.locfileid: "32330175"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在 c + + 中实现[iunknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)、 [iunknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)和[iunknown::](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) [iunknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)接口的 Release 方法相当简单。 在对传入的参数进行一些标准验证之后, **QueryInterface**的实现将对照受支持接口的列表检查请求的接口的标识符。 如果请求的标识符在受支持的标识符中, 则会调用**AddRef**并返回**this**指针。 如果请求的标识符不在受支持的列表中, 则输出指针将设置为 NULL, 并返回 MAPI_E_INTERFACE_NOT_SUPPORTED 值。 
+在 C++ 中实现[IUnknown 接口的 IUnknown：：QueryInterface、IUnknown：：AddRef](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)和[](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)[IUnknown：：Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法相当简单。 [](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) 对传入的参数进行一些标准验证后 **，QueryInterface** 的实现将针对受支持的接口列表检查请求的接口的标识符。 如果请求的标识符在受支持的标识符中，将调用 **AddRef** 并 **返回此** 指针。 如果请求的标识符不在受支持的列表中，则输出指针将设置为 NULL，MAPI_E_INTERFACE_NOT_SUPPORTED返回值。 
   
-下面的代码示例演示如何在 c + + 中为 status 对象实现**QueryInterface** , 该对象是[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口的子类。 **IMAPIStatus**从**iunknown**继承到[IMAPIProp: IUnknown](imapipropiunknown.md)。 因此, 如果呼叫者请求这些接口中的任何一个, 则可以返回**this**指针, 因为这些接口是通过继承相关的。 
+以下代码示例演示如何在 C++ 中为状态对象（作为 [IMAPIStatus ： IMAPIProp](imapistatusimapiprop.md)接口的子类的对象）实现 **QueryInterface。** **IMAPIStatus** 通过 [IMAPIProp 继承](imapipropiunknown.md)自 **IUnknown** ： IUnknown 。 因此，如果调用方请求这些接口中的任意一个，可以返回此指针，因为接口通过继承相关。 
   
 ```cpp
 HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
@@ -44,7 +44,7 @@ HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
 
 ```
 
-下面的代码示例演示如何实现`CMyMAPIObject`对象的**AddRef**和**Release**方法。 由于实现**AddRef**和**发布**非常简单, 因此许多服务提供商选择以内嵌方式实施它们。 对 Win32 函数**InterlockedIncrement**和**InterlockedDecrement**的调用可确保线程安全性。 该对象的内存由析构函数释放, 该析构函数在**Release**方法删除对象时调用。 
+以下代码示例演示如何为对象实现 **AddRef** 和 **Release**  `CMyMAPIObject` 方法。 由于实现 **AddRef 和** **Release** 非常简单，因此许多服务提供商选择内联实现它们。 调用 Win32 函数 **的 InterlockedIncrement** 和 **InterlockedDecrement** 可确保线程安全。 对象的内存由析构函数释放，当 **Release** 方法删除对象时调用该函数。 
   
 ```cpp
 ULONG CMyMAPIObject::AddRef()

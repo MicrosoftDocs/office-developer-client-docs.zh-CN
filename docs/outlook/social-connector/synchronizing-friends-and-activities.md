@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6e91b765-a207-4d8c-8763-5d643ca4d0c0
-description: Outlook Social Connector (.osc) 支持显示关于联系人卡片或 Outlook 人员窗格中某个人的社交网络的信息。 sharepoint Server、sharepoint Workspace、Lync 客户端和所有支持状态信息的 Office 客户端应用程序都支持联系人卡片。
+description: osC Outlook Social Connector (OSC) 支持从社交网络显示有关联系人卡片或"联系人"窗格中Outlook的信息。 SharePoint支持SharePoint信息的服务器、Office工作区、Lync 客户端以及所有支持联系人卡片的客户端应用程序。
 ms.openlocfilehash: 0d6881c5d596519422d01ca61a00b1a68e610f2c
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,128 +17,128 @@ ms.locfileid: "32329199"
 ---
 # <a name="synchronizing-friends-and-activities"></a>同步好友和活动
 
-Outlook Social Connector (.osc) 支持显示关于联系人卡片或 Outlook 人员窗格中某个人的社交网络的信息。 sharepoint Server、sharepoint Workspace、Lync 客户端和所有支持状态信息的 Office 客户端应用程序都支持联系人卡片。
+osC Outlook Social Connector (OSC) 支持从社交网络显示有关联系人卡片或"联系人"窗格中Outlook的信息。 SharePoint支持SharePoint信息的服务器、Office工作区、Lync 客户端以及所有支持联系人卡片的客户端应用程序。
   
-您可以使用 Office 应用程序中的协作方案中的联系人卡片来查找有关要与之进行协作的人员的详细信息。 这些方案的示例包括在 Outlook 中进行消息传递以及在 Word 中共同创作文档。 当您单击联系人卡片的 "**新增功能**" 选项卡时, 将显示有关该人员的信息。 
+可以在 Office 应用程序中的协作方案中使用联系人卡片，详细了解要协作的人。 这些方案的示例包括 word 中的Outlook和共同创作文档。 单击联系人卡片 **的"** 新增功能"选项卡时，将显示此人的信息。 
   
-"Outlook 人员" 窗格显示有关可以成为您选定的 Outlook 项目的发件人或收件人的人员的信息。 只要您在 "人员" 窗格或 Outlook 资源管理器中的其他项目中选择了其他人, 或者在检查器中打开 outlook 项目, outlook Social Connector (.osc) 就会刷新 "人员" 窗格。 
+The Outlook People Pane displays information about a person who can be a sender or recipient of an Outlook item you have selected. 每当在人员窗格中选择其他人或 Outlook 资源管理器中的另一个项目，或在检查器中打开 Outlook 项目时，Outlook Social Connector (OSC) 将刷新人员窗格。 
   
-为使联系人卡片或人员窗格显示所选人员的当前信息, .osc 将通过 .osc 提供程序和某种形式的缓存同步此类信息。 此同步取决于客户端计算机上安装的 .osc 提供程序、通过其 .osc 提供程序登录的社交网络, 以及这些社交网络的每个 .osc 提供程序支持的同步模式。
+若要使联系人卡片或人员窗格显示选定人员的当前信息，OSC 会通过 OSC 提供程序和某种形式的缓存来同步这些信息。 此同步取决于安装在客户端计算机上的 OSC 提供程序、您通过其 OSC 提供程序登录的社交网络，以及这些社交网络的每个 OSC 提供程序支持的同步模式。
   
-.osc 支持以不同的方式同步朋友、非朋友和非朋友的活动: 缓存同步、按需同步和混合同步。 这些同步模式之间的主要区别在于, .osc 将数据存储在用户的默认 Outlook 存储区中的文件夹中, 或存储在用户计算机上的内存中。 在每种情况下, 如本主题中所述, 在刷新数据之前, 默认的最短时间将数据保留在文件夹或内存中。 在某些情况下, 可以通过组策略自定义最小时间量。 有关控制 .osc 行为的组策略的详细信息, 请参阅 how [to manage the Outlook Social Connector by using group Policy](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)。
+OSC 支持以不同方式同步好友、非好友和活动：缓存同步、按需同步和混合同步。 这些同步模式之间的主要区别是 OSC 存储数据的位置，即数据是位于用户的默认 Outlook 存储中的文件夹中，还是用户计算机的内存中。 在本主题中介绍的每种情况下，数据在刷新前的默认最短时间保留在文件夹或内存中。 在某些情况下，组策略可以自定义最短时间。 有关控制 OSC 行为的组策略详细信息，请参阅如何使用组策略管理[Outlook Social Connector。](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
   
-请注意, 如果所选的用户不是社交网络的成员, 则该 .osc 不会在联系人卡片或人员窗格中显示该人员的任何人员或活动信息。
+请注意，如果选定人员不是社交网络的成员，OSC 不会在联系人卡片或人员窗格中显示此人的任何人员或活动信息。
   
 ## <a name="cached-synchronization"></a>缓存同步
 
-一个 .osc 提供程序可以在用户的默认 Outlook 存储区上的特定文件夹中的社交网络上的好友存储信息, 并在指定的时间长度到期后定期更新该缓存。 文件夹中的缓存信息具有减少到社交网络的流量的优势。
+OSC 提供程序可以将社交网络上好友的信息存储在用户默认 Outlook 存储上的特定文件夹中，并定期在指定的时间长度到期后更新该缓存。 Caching文件夹中存储信息具有减少到社交网络的流量的优势。
   
 > [!NOTE]
-> 从 Outlook Social Connector 2013 开始, .osc 不再支持活动的缓存同步。 
+> 从 Outlook Social Connector 2013 开始，OSC 不再支持缓存的活动同步。 
   
-### <a name="cached-synchronization-of-friends"></a>已缓存的朋友同步
+### <a name="cached-synchronization-of-friends"></a>好友的缓存同步
 
-如果 .osc 提供商支持对好友的缓存同步, 则 .osc 会缓存社交网络中已登录用户的朋友的信息。 该信息缓存在特定于用户的默认 outlook 存储中的社交网络的 Outlook 联系人文件夹中。 "联系人" 文件夹名称基于您的 .osc 使用[ISocialProvider:: SocialNetworkName](isocialprovider-socialnetworkname.md)属性获取的社交网络的名称。 
+如果 OSC 提供程序支持好友的缓存同步，OSC 将缓存社交网络上已登录用户的好友信息。 该信息缓存在用户的默认Outlook中特定于该社交网络的联系人Outlook文件夹中。 联系人文件夹名称基于社交网络的名称，OSC 通过使用 [ISocialProvider：：SocialNetworkName](isocialprovider-socialnetworkname.md) 属性获取该名称。 
   
-在缓存的同步中, .osc 仅存储已登录用户在社交网络上的好友的信息。 .osc 不会访问非好友的信息。
+在缓存同步中，OSC 仅存储已登录用户的好友在社交网络上的信息。 OSC 不访问非好友的信息。
   
-在社交网络中刷新 "联系人" 文件夹中的好友信息的默认间隔为每天一次, 或每1440分钟一次。 此刷新间隔也可由组策略设置, 如本主题的开头部分所述。
+OSC 从社交网络刷新好友信息的联系人文件夹的默认间隔为每天一次 (或每 1440 分钟一) 。 也可按组策略设置此刷新间隔，如本主题开头部分所讨论。
   
-如果刷新过程中出现错误, 则根据**功能**XML 中的**contactSyncRestartInterval**元素指定的时间间隔, 进行的 .osc 重试。 此重试间隔的默认值为30分钟, 也可以通过组策略进行设置。 
+如果在刷新期间发生错误，OSC 将按 **contactSyncRestartInterval** 元素在功能 XML 中指定的间隔 **重试** 。 此重试间隔的默认值为 30 分钟，也可由组策略设置。 
   
-当用户打开联系人卡片并选择 "新增**功能**" 选项卡时, "新增**功能**" 选项卡会进行刷新。 同样, 当 outlook 用户在 outlook 或 reselects 中 reselects 某个人在 "人员" 窗格中时, "人员" 窗格将会刷新。 如果缓存刷新间隔尚未过期, 则 .osc 将转到缓存以获取所选用户的任何信息。 这样可以避免使用 .osc 提供商扩展性访问社交网络的开销。 如果刷新间隔已过期, 则 .osc 将调用[ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)方法获取已登录用户的当前朋友的信息, 并更新 "联系人" 文件夹中的缓存。 
+当用户打开联系人卡片并选择"新增功能"选项卡时，"**新增功能"** 选项卡将刷新。 同样，当用户Outlook用户重新选择用户中的项目Outlook或重新选择人员窗格中的某个人员时，人员窗格将刷新。 如果缓存刷新间隔尚未过期，OSC 将转到缓存以获取所选用户的任何信息。 这可以避免使用 OSC 提供程序扩展性访问社交网络的开销。 如果刷新间隔已过期，OSC 将调用 [ISocialPerson：：GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) 方法来获取登录用户的当前好友信息，并更新联系人文件夹中的缓存。 
   
-通过在**功能**XML 中指定以下元素, .osc 提供商通知 .osc 它支持朋友的缓存同步: 
+OSC 提供程序在功能 **XML** 中指定以下元素，以通知 OSC 它支持好友的缓存同步： 
   
-- **getFriends** = **true**
+- **getFriends**  = **true**
     
-- **cacheFriends** = **true**
+- **cacheFriends**  = **true**
     
-- **dynamicContactsLookup** = **false**
+- **dynamicContactsLookup**  = **false**
     
 ## <a name="on-demand-synchronization"></a>按需同步
 
-当用户选择联系人卡片中的 "新增**功能**" 选项卡, 或在 outlook 的 "人员" 窗格中选择不同的 outlook 项目或其他人时, 该 .osc 将分别刷新 "联系人卡片" 或 "人员" 窗格。 如果 .osc 提供商支持人员或活动的按需同步, 则 .osc 将与内存中的缓存同步, 并在 "联系人卡片" 或 "人员" 窗格上更新详细信息, 如姓名、职务、图片和活动流。 对于按需同步, 与缓存同步不同, .osc 将尝试刷新人员的信息, 而不考虑此人是社交网络上已登录用户的朋友还是非朋友。 
+当用户在联系人卡片中选择"新增功能"选项卡，或在 Outlook 的"人员"窗格中选择不同的 Outlook 项目或其他人员时，OSC 会分别刷新联系人卡片或人员窗格。 如果 OSC 提供程序支持人员或活动的按需同步，OSC 将与内存中的缓存同步，并更新联系人卡片或人员窗格中的详细信息，如姓名、标题、图片和活动流。 对于按需同步，与缓存同步不同，OSC 会尝试刷新该用户的信息，而不管该用户是社交网络上已登录用户的好友还是非好友。 
   
-只需人员 (或活动) 数据仅存储在内存中。 当 Office 客户端应用程序关闭时, 内存中的数据将被清除, 或者用户会刷新联系人卡片或人员窗格, 并且数据在内存中保留的时间超过刷新间隔。 请注意, 从社交网络刷新的始终是由用户刷新联系人卡片或人员窗格 (例如, 通过在 "人员" 窗格中选择其他用户, 或在 Outlook 资源管理器窗口中选择其他项目) 启动的。 
+按需人员 (或) 数据存储在内存中。 当 Office 客户端应用程序关闭，或者用户导致刷新联系人卡片或人员窗格，并且数据在内存中的保持时间长于刷新间隔时，将清除内存中的数据。 请注意，从社交网络刷新始终由用户刷新联系人卡片或人员窗格（例如 (通过在人员窗格中选择其他用户或在 Outlook 资源管理器窗口) 中选择其他项目）启动。 
 
-但是, 反之亦然并不总是 true —不是每个联系人卡片或人员窗格的刷新都会导致来自社交网络的刷新。 如果用户刷新联系人卡片或 "人员" 窗格, 并且人员 (或活动) 数据在内存中保留的时间超过了刷新间隔, 则 .osc 调用[ISocialSession2:: GetPeopleDetails](isocialsession2-getpeopledetails.md) (或[ISocialSession2:: GetActivitiesEx](isocialsession2-getactivitiesex.md)) 以从社交网络更新内存中的信息。 在内存中, 友元和非友元信息允许的持续时间为24小时, 活动时间为30分钟。 
+但是，反过来并不总是如此-并非每次刷新联系人卡片或人员窗格都会从社交网络刷新。 如果用户刷新联系人卡片或人员窗格，并且人员 (或活动) 数据在内存中的保持时间超过刷新间隔，OSC 将调用 [ISocialSession2：：GetPeopleDetails](isocialsession2-getpeopledetails.md) (或 [ISocialSession2：：GetActivitiesEx](isocialsession2-getactivitiesex.md)) 以从社交网络更新内存中的信息。 内存中的好友和非好友信息允许的时间段为 24 小时，活动允许的时间段为 30 分钟。 
   
-缓存和按需同步的一个重要区别是, 按需同步可以为网络上的好友和非朋友获取人员和活动信息。 如果所选的用户是非朋友, 则如果满足以下任一要求, 则 .osc 将刷新该人员的信息和活动: 
+缓存同步和按需同步之间的一个重要区别在于，按需同步可以提取网络上好友和非好友的人和活动信息。 如果所选人员不是好友，则 OSC 将刷新此人的信息和活动（如果满足以下任一要求）： 
   
-- 此人是社交网络上的用户, 允许对配置文件和活动信息进行公开查看。
+- 人员是社交网络上的用户，并允许公开查看个人资料和活动信息。
     
-- 此人与社交网络上的登录用户位于同一网络中 (例如, 在同一网络中, 在大学校友中)。
+- 该用户与该社交网络上的登录用户位于同一网络中 (例如，在同一网络中供大学) 。
     
-按需同步人员和活动将导致来自 .osc 核心引擎的对提供程序的更多调用。 社交网络必须能够处理按需同步增加的带宽要求。
+人员与活动的按需同步导致从 OSC 核心引擎对提供程序进行更多调用。 社交网络必须能够处理按需同步增加的带宽要求。
   
-### <a name="specifying-xml-elements-for-on-demand-synchronization"></a>指定用于按需同步的 XML 元素
+### <a name="specifying-xml-elements-for-on-demand-synchronization"></a>指定 XML 元素进行按需同步
 
-通过在**功能**XML 中指定以下元素, .osc 提供商通知 .osc 它支持对朋友和非好友的按需同步: 
+OSC 提供程序通过指定功能 **XML** 中的以下元素来通知 OSC 它支持好友和非好友的按需同步： 
   
-- **getFriends** = **true**
+- **getFriends**  = **true**
     
-- **cacheFriends** = **false**
+- **cacheFriends**  = **false**
     
-- **dynamicContactsLookup** = **true**
+- **dynamicContactsLookup**  = **true**
     
-.osc 提供程序通过在**功能**XML 中指定以下元素来通知 .osc 它支持对活动的按需同步: 
+OSC 提供程序通过指定功能 XML 中的以下元素来通知 OSC 它支持 **按需同步** 活动： 
   
-- **getActivities** = **true**
+- **getActivities**  = **true**
     
-- **cacheActivities** = **false**
+- **cacheActivities**  = **false**
     
-- **dynamicActivitiesLookupEx** = **true**
+- **dynamicActivitiesLookupEx**  = **true**
     
 ## <a name="hybrid-synchronization"></a>混合同步
 
-一个 .osc 提供商可以支持朋友和非好友的混合同步。 这可以优化来自 .osc 核心引擎和 .osc 提供程序的调用、对社交网络的调用, 以实现按需同步的友元, 以及朋友数据的货币。 数据可以保留在文件夹或内存中的最小时间 (如果适用) 与缓存或按需同步模式中的限制相同。
+OSC 提供程序可以支持好友和非好友的混合同步。 这可优化 OSC 核心引擎和 OSC 提供程序之间的调用、对社交网络的呼叫（用于按需好友同步）以及好友数据的货币。 数据可在文件夹或内存中保留的最小时间（如果适用）与缓存或按需同步模式中的限制相同。
   
 > [!NOTE]
-> 从 Outlook Social Connector 2013 开始, 该 .osc 仅支持对活动的按需同步, 不再支持活动的混合同步。 
+> 从 Outlook Social Connector 2013 开始，OSC 仅支持按需同步活动，不再支持活动的混合同步。 
   
-### <a name="hybrid-synchronization-of-friends-and-non-friends"></a>朋友和非好友的混合同步
+### <a name="hybrid-synchronization-of-friends-and-non-friends"></a>好友和非好友的混合同步
 
-如果 .osc 提供商支持朋友和非好友的混合同步, 则 .osc 将执行以下操作: 
+如果 OSC 提供程序支持好友和非好友的混合同步，OSC 将执行以下操作： 
   
-- .osc 存储有关特定于社交网络的联系人文件夹中登录用户的好友信息。
+- OSC 将登录用户的好友信息存储在特定于社交网络的联系人文件夹中。
     
-- .osc 将登录用户的非好友信息存储在内存中。
+- OSC 在内存中存储已登录用户的非好友的信息。
     
-通过在**功能**XML 中指定以下元素, .osc 提供商通知 .osc 它支持朋友和非好友的混合同步: 
+OSC 提供程序通过指定功能 XML 中的以下元素来通知 OSC 它支持好友和非好友的 **混合** 同步： 
   
-- **getFriends** = **true**
+- **getFriends**  = **true**
     
-- **cacheFriends** = **true**
+- **cacheFriends**  = **true**
     
-- **dynamicContactsLookup** = **true**
+- **dynamicContactsLookup**  = **true**
     
 ## <a name="synchronization-intervals"></a>同步间隔
 
-下表汇总了在相应的缓存 (文件夹或内存) 与社交网络之间的朋友和非好友信息的同步间隔, 具体取决于受支持的同步模式。 对于混合同步模式, 请参阅适用于好友的缓存模式行, 以及非好友的点播模式行。
+下表总结了相应缓存 (文件夹或内存) 与社交网络之间的好友和非好友信息的同步间隔，具体取决于支持的同步模式。 对于混合同步模式，请引用好友的缓存模式的行，以及针对非好友的按需模式的行。
   
-|**人员的同步模式**|**设置刷新间隔的位置**|**刷新前的默认最短时间**|**组策略替代**|
+|**人员同步模式**|**设置刷新间隔时**|**刷新前的默认最短时间**|**组策略覆盖**|
 |:-----|:-----|:-----|:-----|
-|Cached  <br/> |在 .osc 中设置  <br/> |1440分钟 (24 小时)  <br/> |Windows 注册表值**NetContactSyncInterval** <br/> |
-|Cached  <br/> |**功能**XML 中的**contactSyncRestartInterval**元素  <br/> |如果未设置**contactSyncRestartInterval** , 则为30分钟  <br/> |Windows 注册表值**contactSyncRestartInterval** <br/> |
-|按需  <br/> |在 .osc 中设置  <br/> |1440分钟 (24 小时)  <br/> |Windows 注册表值**OnlineSearchExpiryTime** <br/> |
+|Cached  <br/> |在 OSC 内设置  <br/> |1440 分钟 (24 小时)   <br/> |Windows注册表值 **NetContactSyncInterval** <br/> |
+|Cached  <br/> |功能 **XML****中的 contactSyncRestartInterval** 元素  <br/> |如果未设置 **contactSyncRestartInterval，** 则 30 分钟  <br/> |Windows注册表值 **contactSyncRestartInterval** <br/> |
+|按需  <br/> |在 OSC 内设置  <br/> |1440 分钟 (24 小时)   <br/> |Windows注册表值 **OnlineSearchExpiryTime** <br/> |
    
-下表汇总了在相应的缓存 (文件夹或内存) 与社交网络之间的好友活动和非好友活动的同步间隔, 具体取决于受支持的同步模式。 
+下表总结了相应缓存 (文件夹或内存) 与社交网络之间好友和非好友活动的同步间隔，具体取决于支持的同步模式。 
   
-|**活动的同步模式**|**设置刷新间隔的位置**|**刷新前的默认最短时间**|**组策略替代**|
+|**活动的同步模式**|**设置刷新间隔时**|**刷新前的默认最短时间**|**组策略覆盖**|
 |:-----|:-----|:-----|:-----|
-|按需  <br/> |在 .osc 中设置  <br/> |30 分钟  <br/> |Windows 注册表值**OnlineSearchExpiryTime** <br/> |
+|按需  <br/> |在 OSC 内设置  <br/> |30 分钟  <br/> |Windows注册表值 **OnlineSearchExpiryTime** <br/> |
    
-以下信息适用于这两个表中列出的 Windows 注册表值:
+以下信息适用于两Windows中列出的注册表值：
   
-- 主键`HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Outlook\SocialConnector`
+- 键：  `HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Outlook\SocialConnector`
     
-- 值: 介于1和10080之间的 DWORD 值
+- 值：介于 1 和 10080 之间的 DWORD 值
     
 ## <a name="see-also"></a>另请参阅
 
-- [功能 XML 示例](capabilities-xml-example.md)  
-- [XML 的功能](xml-for-capabilities.md)
-- [使用 .osc XML 架构开发提供程序](developing-a-provider-with-the-osc-xml-schema.md)  
-- [如何: 使用组策略管理 Outlook Social Connector](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
+- [Capabilities XML 示例](capabilities-xml-example.md)  
+- [功能的 XML](xml-for-capabilities.md)
+- [使用 OSC XML 架构开发提供程序](developing-a-provider-with-the-osc-xml-schema.md)  
+- [如何使用组策略Outlook社交连接器](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

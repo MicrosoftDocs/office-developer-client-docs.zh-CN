@@ -25,43 +25,43 @@ ms.locfileid: "32326122"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
- 包含层次结构地址根 (HAB) 的可分辨名称 (DN)。 
+ 包含层次结构地址根 (DN) DN (HAB) 。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_EMS_AB_HAB_ROOT_DEPARTMENT、PR_EMS_AB_HAB_ROOT_DEPARTMENT_A  <br/> |
-|属性集:  <br/> |通讯簿  <br/> |
-|长 ID (盖子):  <br/> |0x8C98  <br/> |
+|属性集：  <br/> |通讯簿  <br/> |
+|LONG ID (的一) ：  <br/> |0x8C98  <br/> |
 |数据类型：  <br/> |PT_STRING8  <br/> |
-|区域：  <br/> |Exchange 通讯簿  <br/> |
+|区域：  <br/> |Exchange通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-这是全局地址列表 (GAL) 容器上的一个属性, 表示层次结构地址根的可分辨名称。 此属性仅存在于脱机通讯簿中, 并且不在 Active Directory 域服务 (AD DS) 中。 调用方应将 MAPI_CACHE_ONLY 传递给 GetProps 调用以避免远程过程调用。 如果不存在这种情况, 则呼叫者应使用类型为 PT_OBJECT 的 PR_EMS_AB_HAB_ROOT_DEPARTMENT 来查找根部门。 
+这是全局地址列表上的一个属性 (GAL) ，表示分层地址根的可分辨名称。 此属性仅存在于脱机通讯簿中，从不存在于 AD DS (Active Directory 域服务) 。 调用方应MAPI_CACHE_ONLY GetProps 调用，以避免远程过程调用。 如果不存在，则调用方应该PR_EMS_AB_HAB_ROOT_DEPARTMENT类型为 PT_OBJECT，以查找根部门。 
   
-获取根部门后, 它可以具有对象类型 MAPI_MAILUSER 或 MAPI_DISTLIST。 如果对象类型为 MAPI_DISTLIST, 则将采用新架构。 如果对象类型为 MAPI_MAILUSER, 则将采用前一个架构。 
+获取根部门后，它可以具有一个对象类型 MAPI_MAILUSER或MAPI_DISTLIST。 如果对象类型，MAPI_DISTLIST新架构。 如果对象类型，MAPI_MAILUSER上一个架构。 
   
 - Microsoft Office Outlook 2007 Service Pack 2 支持这两种架构。 
     
-- microsoft outlook 2010 和 microsoft outlook 2013 支持新架构。
+- Microsoft Outlook 2010 和 Microsoft Outlook 2013 支持新架构。
     
-在新架构中, 所有部门组也都是通讯组列表, 其类型为 MAPI_DISTLIST。 部门组的成员以及部门组中的部门是通过使用 PR_EMS_AB_MEMBER (与通讯组列表成员完全一样) 获取的。
+在新的架构中，所有部门组也是通讯组列表，并且MAPI_DISTLIST。 部门组的成员和部门组内的部门成员是通过使用通讯组PR_EMS_AB_MEMBER，与通讯组列表成员完全相同。
   
-获取根部门后, 它可以具有对象类型 MAPI_MAILUSER 或 MAPI_DISTLIST。 如果对象类型为 MAPI_DISTLIST, 则使用新架构。 如果对象类型为 MAPI_MAILUSER, 则使用旧架构。 
+获取根部门后，它可以具有一个对象类型 MAPI_MAILUSER或MAPI_DISTLIST。 如果对象类型新MAPI_DISTLIST，则使用新架构。 如果对象类型，MAPI_MAILUSER旧架构。 
   
-在新架构中, 所有部门组也都是 dl, 其类型为 MAPI_DISTLIST。
+在新的架构中，所有部门组也是 DLL，并且MAPI_DISTLIST。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Microsoft Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Microsoft Exchange Server引用。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

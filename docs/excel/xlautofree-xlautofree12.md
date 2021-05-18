@@ -22,13 +22,13 @@ ms.locfileid: "33413288"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-在 xll 工作表函数返回一个**XLOPER**/ **XLOPER12**为其的标志集后, 由 Microsoft Excel 调用它, 以告知存在 XLL 仍需要释放的内存。 这将会使 XLL 动态返回已分配的数组、字符串以及没有内部泄漏的工作表的外部引用。 有关详细信息，请参阅 [Excel 中的内存管理](memory-management-in-excel.md)。
+XLL Microsoft Excel函数将 **XLOPER** /  **XLOPER12 返回给 XLOPER12** 后调用，该标记集指示有 XLL 仍然需要释放的内存。 这将会使 XLL 动态返回已分配的数组、字符串以及没有内部泄漏的工作表的外部引用。 有关详细信息，请参阅 [Excel 中的内存管理](memory-management-in-excel.md)。
   
-从 Excel 2007 开始, 支持**xlAutoFree12**函数和**XLOPER12**数据类型。 
+从 2007 Excel开始，**支持 xlAutoFree12** 函数和 **XLOPER12** 数据类型。 
   
-Excel 不需要 XLL 即可实现和导出这两个函数中的任何一个。 但是, 如果 XLL 函数返回的 XLOPER 或 XLOPER12 已动态分配或包含指向动态分配的内存的指针, 则必须执行此操作。 确保您选择的如何管理这些类型的内存在整个 XLL 中是一致的, 以及您如何实现**xlAutoFree**和**xlAutoFree12**。
+Excel不需要 XLL 来实现和导出其中任一函数。 但是，如果 XLL 函数返回已动态分配的 XLOPER 或 XLOPER12 或包含动态分配内存的指针，则必须这样做。 确保你选择如何管理这些类型的内存在整个 XLL 中以及实现 **xlAutoFree** 和 **xlAutoFree12** 的方式一致。
   
-在**xlAutoFree**/ **xlAutoFree12**函数的内部, 将禁用对 Excel 的回调, 但有一个例外: 可以调用**xlFree**以释放 Excel 分配的内存。 
+在 **xlAutoFree** /  **xlAutoFree12** 函数中，将禁用对 Excel 的回调，但只有一个例外：可以调用 **xlFree** 以释放Excel分配的内存。 
   
 ```cs
 void WINAPI xlAutoFree(LPXLOPER pxFree);
@@ -37,35 +37,35 @@ void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
 
 ## <a name="parameters"></a>参数
 
- _pxFree_(**在 xlAutoFree 的情况下为 LPXLOPER**)
+ 对于 **xlAutoFree** _(，pxFree_) 
   
- _pxFree_(**在 xlAutoFree12 的情况下为 LPXLOPER12**)
+ 对于 **xlAutoFree12 (** _pxFree_) 
   
-指向包含需要释放的内存的**XLOPER**或**XLOPER12**的指针。 
+指向 **XLOPER** 或具有需要释放内存的 **XLOPER12** 的指针。 
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-此函数不返回值, 应声明为返回 void。
+此函数不返回值，应声明为返回 void。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-将 Excel 配置为使用多线程工作簿重新计算时, 将对用于调用返回它的函数的同一线程调用**xlAutoFree**/ **xlAutoFree12** 。 在对该线程上的任何后续工作表单元格进行求值之前，始终调用 **xlAutoFree**/ **xlAutoFree12**。 这可以简化 XLL 中的线程安全设计。 
+当Excel工作簿重新计算时，将在用于调用返回函数的同一线程上调用 **xlAutoFree** /  **xlAutoFree12。** 在对该线程上的任何后续工作表单元格进行求值之前，始终调用 **xlAutoFree**/ **xlAutoFree12**。 这可以简化 XLL 中的线程安全设计。 
   
-如果您提供的**xlAutoFree**/ **xlAutoFree12**函数将查看_pxFree_的**xltype**字段, 请注意, 仍将设置**xlbitDLLFree**位。 
+如果您提供的 **xlAutoFree** /  **xlAutoFree12** 函数查看 _pxFree_ 的 **xltype** 字段，请记住 **，仍将设置 xlbitDLLFree** 位。 
   
 ## <a name="example"></a>示例
 
- **示例实现1**
+ **示例实现 1**
   
-中`\SAMPLES\EXAMPLE\EXAMPLE.C`的第一个代码演示**xlAutoFree**的非常具体的实现, 该实现仅用于一个函数**fArray**。 通常情况下, XLL 将不仅有一个返回需要释放的内存的函数, 在这种情况下, 需要的实现较少。 
+来自 的第一  `\SAMPLES\EXAMPLE\EXAMPLE.C` 个代码演示 **了 xlAutoFree** 的非常具体的实现，该实现设计为仅与一个函数 **fArray 一起使用**。 一般情况下，你的 XLL 将具有多个返回需要释放的内存的函数，在这种情况下需要不太受限制的实现。 
   
- **示例实现2**
+ **示例实现 2**
   
-第二个示例实现符合**XLOPER12**在1.6.3、xl12_Str_example、xl12_Ref_example 和 xl12_Multi_example 一节中的 "创建" 示例中使用的假设。 假定在设置**xlbitDLLFree**位后, 已使用**malloc**动态分配所有字符串、数组和外部引用内存, 因此需要在空闲调用中释放。
+第二个示例实现与第 1.6.3 节中 **的 XLOPER12** 创建示例、xl12_Str_example、xl12_Ref_example 和 xl12_Multi_example 中使用的假设一致。 假定前提是，在 **设置了 xlbitDLLFree** 位后，所有字符串、数组和外部引用内存已使用 **arrayoc** 动态分配，因此需要在调用中释放以释放。
   
- **示例实现3**
+ **示例实现 3**
   
-第三个示例实现与 XLL (其中返回**XLOPER12**的导出函数使用**malloc**分配字符串、外部引用和数组) 保持一致, 同时还动态分配**XLOPER12**本身。 将指针返回到动态分配的**XLOPER12**是一种确保函数是线程安全的方法。 
+第三个示例实现与 XLL 一致，其中返回 **XLOPER12** 的导出函数使用 **arrayoc** 分配字符串、外部引用和数组，并且 **XLOPER12** 本身也动态分配。 返回指向动态分配的 **XLOPER12** 的指针是确保函数是线程安全的一种方式。 
   
 ```cs
 //////////////////////////////////////////

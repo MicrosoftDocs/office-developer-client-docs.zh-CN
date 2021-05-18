@@ -22,7 +22,7 @@ ms.locfileid: "33412077"
   
 ## <a name="syntax"></a>语法
 
-REPT (* * *text* * *, * * *number_times* * *) 
+REPT (** *text* **， ** *number_times* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -31,9 +31,9 @@ REPT (* * *text* * *, * * *number_times* * *)
 | _text_ <br/> |必需  <br/> |**String** <br/> | 要重复的文本。  <br/> |
 | _number_times_ <br/> |必需  <br/> |**Number** <br/> |指定文本重复次数的正数。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果*number_times*为: 
+如果  *number_times*  为： 
   
 - 为零 (0)，REPT 将返回“”（空文本）。
     
@@ -41,8 +41,8 @@ REPT (* * *text* * *, * * *number_times* * *)
     
 ## <a name="example"></a>示例
 
-REPT ("\*", 5) 
+REPT (" \* "， 5)  
   
-\* \*返回\*。 \* \* 
+返回 \* \* \* \* \* 。 
   
 

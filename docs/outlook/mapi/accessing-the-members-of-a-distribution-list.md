@@ -23,12 +23,12 @@ ms.locfileid: "33412385"
   
  **获取通讯组列表的成员**
   
-1. 使用要检索的成员的属性创建大小的属性标记数组, 如**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))、 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 和**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))。
+1. 使用要检索的成员的属性（如 PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md) **) 、PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 和 **PR_DISPLAY_TYPE**  ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) ）创建大小属性标记数组。
     
-2. 调用[IAddrBook:: OpenEntry](iaddrbook-openentry.md)以打开通讯组列表。 
+2. 调用 [IAddrBook：：OpenEntry](iaddrbook-openentry.md) 打开通讯组列表。 
     
-3. 调用通讯组列表的**IABContainer:: GetContentsTable**方法以访问其内容表。 
+3. 调用通讯组列表的 **IABContainer：：GetContentsTable** 方法以访问其内容表。 
     
-4. 调用[HrQueryAllRows](hrqueryallrows.md)以检索表示通讯组列表成员的所有表的行。 
+4. 调用 [HrQueryAllRows](hrqueryallrows.md) 以检索表示通讯组列表成员的表的所有行。 
     
 

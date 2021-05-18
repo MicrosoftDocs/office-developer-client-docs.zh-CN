@@ -25,7 +25,7 @@ ms.locfileid: "32329482"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-注册表单查看器, 以获取有关影响表单的事件的通知。
+注册窗体查看器，以接收有关影响窗体的事件的通知。
   
 ```cpp
 HRESULT Advise(
@@ -38,11 +38,11 @@ HRESULT Advise(
 
  _pAdvise_
   
-> 实时指向用于接收后续通知的视图建议接收器对象的指针。 
+> [in]指向视图的指针建议接收对象接收后续通知。 
     
  _pulConnection_
   
-> 排除指向表示成功的通知注册的非零值的指针。
+> [out]指向代表成功通知注册的非零值的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -52,21 +52,21 @@ S_OK
     
 E_OUTOFMEMORY 
   
-> 由于内存不足, 注册未成功。
+> 由于内存不足，注册失败。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-表单查看者调用表单的**IMAPIForm:: Advise**方法, 以便在表单发生更改时注册通知。 
+表单查看者调用表单的 **IMAPIForm：：Advise** 方法，以在表单发生更改时注册通知。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-保留在_pAdvise_参数中传递的视图建议接收器指针的副本, 以便在事件发生时可以使用该副本调用相应的[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md)方法。 调用 view advise sink [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx)方法以保留指针, 直到通知注册被取消。 将_pulConnection_参数的内容设置为非零数字。 
+保留视图建议接收指针在  _pAdvise_ 参数中传递的副本，以便可以在事件发生时使用它调用相应的 [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) 方法。 调用视图通知接收器的 [IUnknown：：AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) 方法来保留指针，直到通知注册被取消。 将  _更新连接参数_ 的内容设置为非零数字。 
   
-许多窗体都实现帮助程序对象来处理注册和随后发生的事件通知。 
+许多表单都实现了一个帮助程序对象来处理事件的注册和后续通知。 
   
-有关常规通知过程的详细信息, 请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。 
+有关通知流程的一般详细信息，请参阅 [MAPI 中的事件通知](event-notification-in-mapi.md)。 
   
-有关通知和窗体的详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
+有关通知和表单详细信息，请参阅 [发送和接收表单通知](sending-and-receiving-form-notifications.md)。
   
 ## <a name="see-also"></a>另请参阅
 

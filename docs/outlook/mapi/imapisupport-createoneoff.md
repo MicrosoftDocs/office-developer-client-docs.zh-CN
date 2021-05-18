@@ -25,7 +25,7 @@ ms.locfileid: "33411993"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-为一次性地址创建条目标识符。
+为一次地址创建条目标识符。
   
 ```cpp
 HRESULT CreateOneOff(
@@ -42,53 +42,53 @@ HRESULT CreateOneOff(
 
  _lpszName_
   
-> 实时指向收件人的显示名称的**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性的指针。 _lpszName_参数可以为 NULL。 
+> [in]指向 [PidTagDisplayName 显示名称 PidTagDisplayName](pidtagdisplayname-canonical-property.md) **PR_DISPLAY_NAME (** 收件人) 指针。 _lpszName_ 参数可以是 NULL。 
     
  _lpszAdrType_
   
-> 实时指向收件人的地址类型 (如传真、SMTP 或 X500) 的指针。 _lpszAdrType_参数不能为 NULL。 
+> [in]指向收件人的地址类型 (如 FAX、SMTP 或 X500) 的指针。 _lpszAdrType_ 参数不能为 NULL。 
     
  _lpszAddress_
   
-> 实时指向收件人的邮件地址的指针。 _lpszAddress_参数不能为 NULL。 
+> [in]指向收件人的邮件地址的指针。 _lpszAddress_ 参数不能为 NULL。 
     
  _ulFlags_
   
-> 实时影响一次性收件人的标志的位掩码。 可以设置以下标志:
+> [in]影响一次收件人的标志的位掩码。 可以设置以下标志：
     
 MAPI_SEND_NO_RICH_INFO 
   
-> 收件人无法处理格式化的邮件内容。 如果设置了 MAPI_SEND_NO_RICH_INFO, MAPI 会将收件人的**PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) 属性设置为 FALSE。 如果未设置 MAPI_SEND_NO_RICH_INFO, 则 MAPI 会将此属性设置为 TRUE, 除非收件人指向的收件人的__ 邮件地址被解释为 Internet 地址。 在这种情况下, MAPI 会将**PR_SEND_RICH_INFO**设置为 FALSE。 
+> 收件人无法处理格式化的邮件内容。 如果MAPI_SEND_NO_RICH_INFO，MAPI 将收件人的 PR_SEND_RICH_INFO ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) 设置为 FALSE。  如果未MAPI_SEND_NO_RICH_INFO，MAPI 将此属性设置为 TRUE，除非  _lpszAddress_ 指向的收件人的邮件地址被解释为 Internet 地址。 在这种情况下，MAPI **将PR_SEND_RICH_INFO** FALSE。 
     
 MAPI_UNICODE 
   
-> 显示名称、地址类型和地址采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则这些字符串将采用 ANSI 格式。
+> 该显示名称、地址类型和地址采用 Unicode 格式。 如果未MAPI_UNICODE，则这些字符串采用 ANSI 格式。
     
  _lpcbEntryID_
   
-> 排除一个指针, 指向_lppEntryID_参数指向的条目标识符中的字节数。 
+> [out]指向  _lppEntryID_ 参数指向的条目标识符中的字节计数的指针。 
     
  _lppEntryID_
   
-> 排除指向一次性收件人的条目标识符的指针的指针。
+> [out]指向指向一次收件人的条目标识符的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功创建一次性条目标识符。
+> 已成功创建一次项标识符。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISupport:: CreateOneOff**方法是为所有服务提供程序支持对象实现的。 服务提供程序调用**CreateOneOff**为一次性收件人 (不属于任何当前已加载的通讯簿提供程序中的任何容器的收件人) 创建条目标识符。 
+**IMAPISupport：：CreateOneOff** 方法针对所有服务提供商支持对象实现。 服务提供商调用 **CreateOneOff** 为一次收件人创建条目标识符 (该收件人不属于当前加载的任何通讯簿提供程序中的容器) 。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-使用**CreateOneOff**返回的条目标识符完成后, 使用[MAPIFreeBuffer](mapifreebuffer.md)函数释放为条目标识符分配的内存。 
+使用完 **CreateOneOff** 返回的条目标识符后，使用 [MAPIFreeBuffer](mapifreebuffer.md) 函数释放为条目标识符分配的内存。 
   
-## <a name="notes-to-transport-providers"></a>传输提供程序注意事项
+## <a name="notes-to-transport-providers"></a>对传输提供程序的注释
 
-支持传输中性封装格式 (TNEF), 并使用**PR_SEND_RICH_INFO**属性的值来确定是否在传输邮件时使用 TNEF。 如果不支持 TNEF 或在请求邮件时不以这种格式发送邮件, 则可能会对需要自定义 MAPI 属性的基于表单的客户端或客户端产生问题。 这是因为 TNEF 通常用于发送自定义邮件类的自定义属性。 
+支持传输中性封装 (TNEF) 并使用 **PR_SEND_RICH_INFO** 属性的值来确定在传输邮件时是否使用 TNEF。 不支持 TNEF 或在请求时不以此格式发送邮件可能是基于表单的客户端或需要自定义 MAPI 属性的客户端的问题。 这是因为 TNEF 通常用于发送自定义邮件类的自定义属性。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -1,5 +1,5 @@
 ---
-title: 乘法 (Access 自定义 web 应用程序)
+title: '将 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412161"
 ---
-# <a name="multiply-access-custom-web-app"></a>乘法 (Access 自定义 web 应用程序)
+# <a name="multiply-access-custom-web-app"></a>将 (Access 自定义 Web 应用) 
 
 将两个表达式相乘。
   
@@ -27,10 +27,10 @@ ms.locfileid: "33412161"
 
 *expression*  \*  *expression* 
   
-*表达式* 数值类别中任意一种数据类型的任何有效表达式。 
+*表达式*  数值类别中任一数据类型的任何有效表达式。 
   
 ## <a name="return-value"></a>返回值
 
-返回优先级较高的参数的数据类型。
+返回数据类型优先级较高的参数的变量。
   
 

@@ -32,37 +32,37 @@ ms.locfileid: "32320424"
 |相关属性：  <br/> |PR_URL_COMP_NAME、PR_URL_COMP_NAME_A、PR_URL_COMP_NAME_W  <br/> |
 |标识符:  <br/> |0x10F3  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-这些属性在文件夹中应是唯一的。 如果在创建邮件时未设置, 则邮件存储应根据邮件类的不同邮件属性来设置这些属性。 例如, **IPM。注释**和**IPM。约会**邮件应基于**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 属性和 IPM 设置此属性 **。** 根据**dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) 属性, 联系人邮件应设置此属性。 对于大多数其他邮件类, 此属性应基于**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。
+这些属性在文件夹中应该是唯一的。 如果在创建邮件时未设置，则邮件存储应基于各种邮件属性设置这些属性，具体取决于邮件类。 例如 **，IPM。注意** 和 **IPM。约会** 邮件应基于 [PidTagSubject](pidtagsubject-canonical-property.md)属性和 IPM PR_SUBJECT (属性) 设置 **此属性。联系人** 邮件应基于 [PidLidFileUnder](pidlidfileunder-canonical-property.md)属性的 **dispidFileUnder** (设置此属性) 属性。 对于大多数其他邮件类，此属性应基于 PR_DISPLAY_NAME ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> 将邮件和附件对象编码并解码为高效流表示形式。
+> 将邮件和附件对象编码和解码为有效的流表示形式。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

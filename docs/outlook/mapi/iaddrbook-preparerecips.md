@@ -25,7 +25,7 @@ ms.locfileid: "33414275"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-准备收件人列表, 以供邮件系统以后使用。 
+准备收件人列表供邮件系统稍后使用。 
   
 ```cpp
 HRESULT PrepareRecips(
@@ -39,19 +39,19 @@ HRESULT PrepareRecips(
 
  _ulFlags_
   
-> 实时用于控制条目打开方式的标志的位掩码。 可以设置以下标志:
+> [in]控制条目打开方式的标志的位掩码。 可以设置以下标志：
     
 MAPI_CACHE_ONLY
   
-> 仅使用脱机通讯簿执行名称解析。 例如, 可以使用此标志允许客户端应用程序在缓存 exchange 模式下打开全局地址列表 (GAL), 并从缓存中访问该通讯簿中的条目, 而无需在客户端和服务器之间创建流量。 仅 Exchange 通讯簿提供程序支持此标志。
+> 仅使用脱机通讯簿执行名称解析。 例如，您可以使用此标志允许客户端应用程序在缓存 exchange 模式下打开全局地址列表 (GAL) ，并访问缓存中的该通讯簿中的条目，而无需在客户端和服务器之间创建流量。 此标志仅受通讯簿Exchange支持。
     
  _lpSPropTagArray_
   
-> 实时一个指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含一个指明属性 (如果有) 需要更新的属性标记数组。 _lpSPropTagArray_参数可以为 NULL。 
+> [in]指向 [SPropTagArray](sproptagarray.md) 结构的指针，其中包含指示需要更新的属性（如果有）的属性标记数组。 _lpSPropTagArray_ 参数可以是 NULL。 
     
  _lpRecipList_
   
-> 实时指向包含收件人列表的[ADRLIST](adrlist.md)结构的指针。 
+> [in]指向包含收件人 [列表的 ADRLIST](adrlist.md) 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -59,19 +59,19 @@ S_OK
   
 > 已成功准备收件人列表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端和服务提供程序调用**PrepareRecips**方法以执行以下操作: 
+客户端和服务提供商调用 **PrepareRecips** 方法来执行以下操作： 
   
-- 确保_lpRecipList_参数中的所有收件人都具有长期条目标识符。 
+- 确保  _lpRecipList_ 参数中所有收件人都有长期条目标识符。 
     
-- 确保_lpRecipList_参数中的每个收件人都具有_lpSPropTagArray_参数中列出的属性, 并且这些属性将出现在收件人列表的开头。 
+- 确保  _lpRecipList_ 参数中的每个收件人都有  _lpSPropTagArray_ 参数中列出的属性，并且这些属性显示在收件人列表的开始部分。 
     
-MAPI 将每个收件人的短期条目标识符转换为长期条目标识符。 如有必要, 将从相应的通讯簿提供程序中检索收件人的长期条目标识符, 并请求任何其他属性。
+MAPI 将每个收件人的短期条目标识符转换为长期条目标识符。 如有必要，从相应的通讯簿提供程序检索收件人的长期条目标识符，并请求任何其他属性。
   
-在单个收件人条目中, 首先对请求的属性进行排序, 然后对该条目的已有的所有属性进行排序。 如果_lpSPropTagArray_参数中的一个或多个请求的属性不是由相应的通讯簿提供程序处理的, 则它们的属性类型将设置为 PT_ERROR。 其属性值将设置为 MAPI_E_NOT_FOUND 或其他值, 以提供更具体的属性原因的原因。 必须使用[MAPIAllocateBuffer](mapiallocatebuffer.md)和[MAPIAllocateMore](mapiallocatemore.md)函数分别分配_lpRecipList_参数中包含的每个[SPropValue](spropvalue.md)结构, 以便可以单独释放该结构。 
+在单个收件人条目中，首先对请求的属性排序，然后对条目已有的任何属性排序。 如果  _lpSPropTagArray_ 参数中的一个或多个请求属性不是由相应的通讯簿提供程序处理的，则其属性类型将设置为 PT_ERROR。 它们的属性值将设置为 MAPI_E_NOT_FOUND 或设置为其他值，以给出这些属性不可用的更具体的原因。 _lpRecipList_ 参数中包含的每个 [SPropValue](spropvalue.md)结构都必须使用 [MAPIAllocateBuffer](mapiallocatebuffer.md)和 [MAPIAllocateMore](mapiallocatemore.md)函数单独分配，以便可以单独释放它。 
   
-有关 PT_ERROR 的信息, 请参阅[属性类型](property-types.md)。
+有关属性类型PT_ERROR，请参阅 [属性类型](property-types.md)。
   
 ## <a name="see-also"></a>另请参阅
 

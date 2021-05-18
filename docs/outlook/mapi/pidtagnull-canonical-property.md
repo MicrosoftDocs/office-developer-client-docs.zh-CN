@@ -25,7 +25,7 @@ ms.locfileid: "32329265"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-表示属性的 null 值或设置或保留数组空间。
+表示一个空值或属性设置或保留数组空间。
   
 |||
 |:-----|:-----|
@@ -34,29 +34,29 @@ ms.locfileid: "32329265"
 |数据类型：  <br/> |PT_NULL  <br/> |
 |区域：  <br/> |常见  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性用于在[SPropValue](spropvalue.md)结构的数组中保留空间。 它在[SPropTagArray](sproptagarray.md)结构的数组中使用, 以通知方法在返回的**SPropValue**结构数组中保留空间。 这允许以廉价方式填充计算属性。 
+此属性用于在 [SPropValue](spropvalue.md) 结构的数组中保留空间。 它在 [SPropTagArray](sproptagarray.md) 结构的数组中用于告诉方法在返回的 **SPropValue** 结构的数组中保留空间。 这允许以经济实惠的方式填充计算属性。 
   
-有关详细信息, 请参阅[MAPI 属性类型概述](mapi-property-type-overview.md)。
+有关详细信息，请参阅 [MAPI 属性类型概述](mapi-property-type-overview.md)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定在 "联系人" 和 "个人通讯组" 列表中允许的属性和操作。
+> 指定对联系人和个人通讯组列表允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -21,14 +21,14 @@ ms.locfileid: "33412742"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示是否启用专用 exchange 存储的缓存 Exchange 模式, 以及是否通过策略强制实施。
+指示是否启用Exchange存储的缓存Exchange模式，以及是否由策略强制执行。
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|导出者:  <br/> |msmapi32  <br/> |
-|调用者：  <br/> |Client  <br/> |
+|导出者：  <br/> |msmapi32.dll  <br/> |
+|调用者：  <br/> |客户端  <br/> |
 |实现者：  <br/> |Outlook  <br/> |
    
 ```cpp
@@ -40,17 +40,17 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
 
  _pfPolicy_
   
-> 排除如果返回值由策略强制, 则**为 true** ; 如果不是, 则为**false** 。 
+> [out]如果返回值是由策略强制执行的，则返回值为 **true;** 如果返回值不是，则返回 **false。** 
     
 ## <a name="return-values"></a>返回值
 
  **true**
   
-- 启用缓存。
+- Caching启用。
     
- **该值**
+ **false**
   
-- 缓存被禁用。
+- Caching禁用。
     
 ## <a name="see-also"></a>另请参阅
 

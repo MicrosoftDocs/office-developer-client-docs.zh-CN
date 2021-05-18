@@ -1,5 +1,5 @@
 ---
-title: 类型 (Outlook 天气位置架构)
+title: 'Outlook (位置架构类型) '
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413736"
 ---
-# <a name="types-outlook-weather-location-schema"></a>类型 (Outlook 天气位置架构)
+# <a name="types-outlook-weather-location-schema"></a>Outlook (位置架构类型) 
 
 本主题列出了 Outlook 天气位置 XML 架构中的类型。
   

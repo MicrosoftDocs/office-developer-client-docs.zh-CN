@@ -25,7 +25,7 @@ ms.locfileid: "33413750"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件收件人的物理转发地址, 并且仅与邮件报告一起使用。
+包含邮件收件人的物理转发地址，仅用于邮件报告。
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ ms.locfileid: "33413750"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

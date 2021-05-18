@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413092"
 ---
-# <a name="propsmtpuseauth"></a>PROP_SMTP_USE_AUTH
+# <a name="prop_smtp_use_auth"></a>PROP_SMTP_USE_AUTH
 
 指定是否对 SMTP 帐户使用身份验证。
   
@@ -27,9 +27,9 @@ ms.locfileid: "33413092"
 |属性标记：  <br/> |0x02030003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-零值表示不使用身份验证, 否则使用身份验证。
+零值表示不使用身份验证，否则使用身份验证。
   
 ## <a name="see-also"></a>另请参阅
 

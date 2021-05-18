@@ -34,9 +34,9 @@ ms.locfileid: "33412945"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性表示一个长指针, 该指针被转换为控件结构之一。 控制结构包括:
+此属性表示一个长指针，该指针将强制转换到控件结构之一。 控制结构包括：
   
 |||
 |:-----|:-----|
@@ -51,13 +51,13 @@ ms.locfileid: "33412945"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

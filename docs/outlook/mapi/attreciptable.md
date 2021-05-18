@@ -19,12 +19,12 @@ ms.locfileid: "33412154"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在对收件人表进行编码时, 会将每个收件人编码为一排 MAPI 属性。 格式如下所示: 
+对收件人表进行编码时，每个收件人都编码为一行 MAPI 属性。 格式如下所示： 
   
-_Row_Seq:_
+_Row_Seq：_
   
->  _行计数__Property_Sequence_.。。 
+>  _row-count Property_Sequence，_ ... 
     
-_Property_Seq_的格式与[attMAPIProps](attmapiprops.md)属性中的格式相同。 
+属性的格式  _Property_Seq_ [attMAPIProps](attmapiprops.md) 属性中的格式相同。 
     
 

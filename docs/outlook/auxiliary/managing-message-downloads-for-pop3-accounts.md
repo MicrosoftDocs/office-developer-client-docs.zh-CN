@@ -24,9 +24,9 @@ ms.locfileid: "32322244"
   
 POP 帐户的邮件都由唯一标识符 (Uid) 来标识。在服务器保留邮件的电子邮件客户端使用 UIDL 命令检索的 UIDL 映射相关联的每个消息，发送到该邮箱的 UID。客户端还获取已下载或删除在该客户端上的收件箱的邮件的 UIDL 历史记录。根据 UIDL 历史记录，客户机可以确定哪些邮件是新用户并且应下载。
 
-- [查找 pop3 帐户的邮件下载历史记录](locating-the-message-download-history-for-a-pop3-account.md): 本主题介绍邮件客户端如何访问[PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx)属性, 以获取 pop3 帐户的客户端收件箱中的邮件的 UIDL 历史记录。 
+- [找到 POP3](locating-the-message-download-history-for-a-pop3-account.md)帐户的邮件下载历史记录 ：本主题介绍邮件客户端如何访问 [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) 属性，获取 POP3 帐户的客户端收件箱中邮件的 UIDL 历史记录。 
     
-- [分析 pop3 帐户的邮件下载历史记录](parsing-the-message-download-history-for-a-pop3-account.md): 本主题介绍如何分析 pop3 BLOB, 该 BLOB 代表 pop3 帐户的客户端收件箱中的邮件的 UIDL 历史记录, 以标识已在其上下载或删除的邮件上级.
+- 分析[POP3](parsing-the-message-download-history-for-a-pop3-account.md)帐户的邮件下载历史记录：本主题介绍如何分析表示 POP3 帐户的客户端收件箱中邮件的 UIDL 历史记录的 POP3 BLOB，以确定已在该帐户上下载或删除的邮件。
     
 ## <a name="see-also"></a>另请参阅
 

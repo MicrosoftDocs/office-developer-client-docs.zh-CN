@@ -22,7 +22,7 @@ ms.locfileid: "33412462"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-用于返回[xlDefineBinaryName 函数](xldefinebinaryname.md)所保存数据的句柄。 带有定义的二进制名称的数据将与工作簿一起保存, 并可在任何时候通过名称访问。 有关详细信息, 请参阅[Excel XLL 开发的已知问题](known-issues-in-excel-xll-development.md)中的 "二进制名称作用域限制"。
+用于返回由 [xlDefineBinaryName 函数保存的数据的句柄](xldefinebinaryname.md)。 具有定义的二进制名称的数据随工作簿一起保存，并且随时都可以按名称访问。 有关详细信息，请参阅 XLL 开发中的已知问题中的"二Excel[范围限制"。](known-issues-in-excel-xll-development.md)
   
 ```cs
 Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
@@ -30,17 +30,17 @@ Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
 
 ## <a name="parameters"></a>参数
 
-_pxRes_(**xltypeBigData**或**xltypeErr**)
+_pxRes_ (**xltypeBigData** 或 **xltypeErr**) 
   
-Bigdata 结构指定检索的数据或错误是无法检索数据, 或者未定义名称。 当函数返回时, **XLOPER**/ **XLOPER12**的**hdata**成员包含已命名数据的句柄。  当不再需要时, 应在对**xlFree**的调用中释放_pxRes_ 。 
+指定检索到的数据的 Bigdata 结构或错误是无法检索数据或者未定义名称。 函数返回时 **，XLOPER**  /  **XLOPER12** 的 hdata 成员包含命名数据的句柄。  当不再需要 **xlFree 时，应在调用 xlFree** 时释放 _pxRes。_ 
   
-_pxName_(**xltypeStr**)
+_pxName_ (**xltypeStr**) 
   
-一个指定数据的名称的字符串。
+指定数据名称的字符串。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-Microsoft Excel 拥有在**hdata**中返回的内存句柄。 在 Windows 中, 句柄是全局内存句柄 (由**GlobalAlloc**函数分配)。 
+Microsoft Excel **hdata** 中返回的内存句柄。 在Windows中，句柄是由 **GlobalAlloc** 函数 (分配的全局内存) 。 
   
 ## <a name="see-also"></a>另请参阅
 

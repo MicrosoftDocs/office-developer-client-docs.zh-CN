@@ -19,18 +19,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412833"
 ---
-# <a name="proptype"></a>PROP_TYPE
+# <a name="prop_type"></a>PROP_TYPE
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回指定的属性标记的属性类型。
+返回指定属性标记的属性类型。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |[SPropValue](spropvalue.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 PROP_TYPE (ulPropTag)
@@ -42,11 +42,11 @@ PROP_TYPE (ulPropTag)
   
 > 包含要返回的属性类型的属性标记。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**PROP_TYPE**宏可用于确定属性的类型。 例如, 调用 PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) 会导致返回 PT_BINARY 值。
+PROP_TYPE **宏** 可用于确定属性的类型。 例如，调用 PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) ) 会导致返回PT_BINARY值。
   
-每个属性标记都包含低序位字 (0 到 15) 中的属性类型和高序位字 (位16到 31) 中的属性标识符。 **PROP_TYPE**宏提取属性类型, 并将其放在要返回的整数的0到15位。 返回值的剩余位设置为零。 
+每个属性标记都包含低顺序单词 (位 0 到 15) 中的属性类型，高顺序单词的属性标识符 (位 16 到 31) 。 该 **PROP_TYPE** 宏提取属性类型，并将它放在要返回的整数的 0 位到 15 位中。 返回值的剩余位设置为零。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -29,7 +29,7 @@ ms.locfileid: "33411678"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _MAPINAMEID
@@ -49,7 +49,7 @@ typedef struct _MAPINAMEID
 
  **lpguid**
   
-> 指向定义特定属性集的[GUID](guid.md)结构的指针;此成员不能为 NULL。 有效值如下： 
+> 指向定义特定 [属性集的 GUID](guid.md) 结构的指针;此成员不能为 NULL。 有效值如下： 
     
 PS_PUBLIC_STRINGS
   
@@ -65,27 +65,27 @@ PS_MAPI
     
  **ulKind**
   
-> 描述**Kind**成员中的值类型的值。 有效值如下： 
+> 描述 Kind 成员中的值 **类型的** 值。 有效值如下： 
     
 MNID_ID 
   
-> **Kind**成员包含一个整数值, 表示属性名称。 
+> **Kind** 成员包含一个表示属性名称的整数值。 
     
 MNID_STRING 
   
-> **Kind**成员包含表示属性名称的 Unicode 字符字符串。 
+> **Kind** 成员包含表示属性名称的 Unicode 字符串。 
     
  **Kind**
   
-> 描述命名属性的名称的联合。 名称可以是整数值 (存储在**盖子**中), 也可以是存储在**lpwstrName**中的 Unicode 字符字符串。
+> 用于描述命名属性的名称的 Union。 该名称可以是存储在 **lID** 中的整数值或存储在 **lpwstrName** 中的 Unicode 字符串。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**MAPINAMEID**结构用于描述其标识符超过0x8000 的命名属性属性。 属性集是命名属性的重要部分。 例如, PS_PUBLIC_STRINGS 或 PS_ROUTING_ADDRTYPE 是由 MAPI 定义的属性集。 
+**MAPINAMEID** 结构用于描述在属性类型中具有标识符的命名0x8000。 属性集是命名属性的重要部分。 例如，PS_PUBLIC_STRINGS或PS_ROUTING_ADDRTYPE是 MAPI 定义的属性集。 
   
-命名属性使客户端能够在更大的命名空间中定义自定义属性, 而不是 MAPI 定义的属性标识符范围中提供的属性。 属性名称不能用于直接获取属性值;必须先通过[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)方法将它们映射到属性标识符。 对于特定的对象 (如邮件), MAPI 会为自定义属性保留一系列属性标识符。 因此, 对于这些对象, 客户端无需使用命名属性, 并且可以节省相关开销。 
+命名属性使客户端能够定义比 MAPI 定义属性标识符范围中可用的更大命名空间中的自定义属性。 属性名称不能用于直接获取属性值;它们必须先通过 [IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md) 方法映射到属性标识符。 对于邮件等特定对象，MAPI 保留自定义属性的属性标识符范围。 因此，对于这些对象，客户端不需要使用命名属性，并且可以节省关联的开销。 
   
-有关命名属性的详细信息, 请参阅[命名属性](mapi-named-properties.md)。
+有关命名属性详细信息，请参阅 [命名属性](mapi-named-properties.md)。
   
 ## <a name="see-also"></a>另请参阅
 

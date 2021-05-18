@@ -5,7 +5,7 @@ ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
-description: 获取当前的 ProjectContext 实例;检索并循环访问服务器上已发布项目的集合;使用 project Server JavaScript 对象模型创建、检索、签出和删除项目;并更改项目的属性。
+description: 获取当前的 ProjectContext 实例;检索并访问服务器上已发布项目的集合;使用 Project Server JavaScript 对象模型创建、检索、签出和删除项目;并更改项目的属性。
 ms.openlocfilehash: 10dac7edfa3e84cebfd0585bc8c4bff1ea22ea44
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -15,53 +15,53 @@ ms.locfileid: "32322664"
 ---
 # <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>使用 Project Server JavaScript 创建、检索、更新和删除项目
 
-本文中的方案演示如何获取当前的**ProjectContext**实例;检索并循环访问服务器上已发布项目的集合;使用 project Server JavaScript 对象模型创建、检索、签出和删除项目;并更改项目的属性。 
+本文中的方案显示如何获取当前的 **ProjectContext** 实例;检索并访问服务器上已发布项目的集合;使用 Project Server JavaScript 对象模型创建、检索、签出和删除项目;并更改项目的属性。 
   
 > [!NOTE]
-> 这些方案在 SharePoint 应用程序页的标记中定义了自定义代码, 但没有使用 Visual Studio 2012 为页面创建的代码隐藏文件。 
+> 这些方案在 SharePoint 应用程序页的标记中定义自定义代码，但不使用 Visual Studio 2012 为页面创建的代码隐藏文件。 
   
-## <a name="prerequisites-for-working-with-project-server-2013-projects-in-the-javascript-object-model"></a>在 JavaScript 对象模型中使用 Project Server 2013 项目的先决条件
+## <a name="prerequisites-for-working-with-project-server-2013-projects-in-the-javascript-object-model"></a>在 JavaScript 对象模型中Project Server 2013 项目的先决条件
 
 若要执行本文中介绍的方案，您必须安装并配置下列产品：
   
 - SharePoint Server 2013
 - Project Server 2013
-- Visual Studio 2008
+- Visual Studio 2012
 - Visual Studio 2012 Office 开发人员工具
     
-您还必须具有将扩展部署到 SharePoint Server 2013 并参与项目的权限。
+还必须有权将扩展部署到 SharePoint Server 2013 并参与项目。
   
 > [!NOTE]
-> 这些说明假定您在运行 Project Server 2013 的计算机上进行开发。 
+> 这些说明假定您是在运行 Project Server 2013 的计算机上进行开发。 
   
 ## <a name="create-the-visual-studio-solution"></a>创建 Visual Studio 解决方案
 <a name="pj15_CRUDProjectsJSOM_Setup"> </a>
 
-下面的步骤将创建一个 Visual Studio 2012 解决方案, 其中包含一个 SharePoint 项目和一个应用程序页。 应用程序页包含适用于项目的逻辑。
+以下步骤创建一个 Visual Studio 2012 解决方案，其中包含SharePoint应用程序页。 应用程序页包含适用于项目的逻辑。
   
 ### <a name="to-create-the-sharepoint-project-in-visual-studio"></a>创建 Visual Studio 中的 SharePoint 项目
 
-1. 在运行 Project Server 2013 的计算机上, 以管理员身份运行 Visual Studio 2012。
+1. 在运行 Project Server 2013 的计算机上，Visual Studio 2012 运行 2012。
     
 2. 在菜单栏上，依次选择"文件"、"新建"、"项目"。
     
-3. 在“新建项目”**** 对话框中，从对话框顶部的下拉列表中选择“.NET Framework 4.5”****。 
+3. 在“新建项目”对话框中，从对话框顶部的下拉列表中选择“.NET Framework 4.5”。 
     
-4. 在“Office/SharePoint”**** 模板类别中，选择“SharePoint 解决方案”****，然后选择“SharePoint 2013 项目”**** 模板。 
+4. 在“Office/SharePoint”模板类别中，选择“SharePoint 解决方案”，然后选择“SharePoint 2013 项目”模板。 
     
-5. 将项目命名为 "ProjectsJSOM", 然后选择 **"确定"** 按钮。 
+5. 将项目命名为 ProjectsJSOM，然后选择"确定 **"** 按钮。 
     
 6. 在"SharePoint 自定义向导"对话框中，选择"部署场解决方案"，然后选择"完成"按钮。 
     
-7. 编辑**ProjectsJSOM**项目的`https://ServerName/PWA`"**网站 url** " 属性的值, 以匹配 project Web App 实例的 url (例如,)。
+7. 编辑 **ProjectsJSOM** 项目的 **Site URL** 属性的值，以匹配 Project Web App 实例的 URL (例如 `https://ServerName/PWA` ，) 。
     
 ### <a name="to-create-the-application-page-in-visual-studio"></a>创建 Visual Studio 中的应用程序页
 
-1. 在“解决方案资源管理器”**** 中，打开 **ProjectsJSOM** 项目的快捷菜单，然后添加“SharePoint 的‘Layouts’映射文件夹”。 
+1. 在“解决方案资源管理器”中，打开 **ProjectsJSOM** 项目的快捷菜单，然后添加“SharePoint 的‘Layouts’映射文件夹”。 
     
-2. 在 "**布局**" 文件夹中, 打开 " **ProjectsJSOM** " 文件夹的快捷菜单, 然后添加名为 "projectslist.aspx" 的新 SharePoint 应用程序页。
+2. 在 **Layouts** 文件夹中，打开 **ProjectsJSOM** 文件夹的快捷菜单，然后添加一个名为 ProjectsList.aspx SharePoint应用程序页。
     
-3. 打开 **ProjectsList.aspx** 页的快捷菜单，然后选择“设置为启动项”****。
+3. 打开 **ProjectsList.aspx** 页的快捷菜单，然后选择“设置为启动项”。
     
 4. 在 **ProjectsList.aspx** 页的标记中，将用户界面控件定义在“Main”**asp:Content** 标记内，如下所示： 
     
@@ -80,7 +80,7 @@ ms.locfileid: "32322664"
    ```
 
    > [!NOTE]
-   > 这些控件可能不会用于每个应用场景。 例如，“Create projects”方案不会使用 **textarea** 和 **button** 控件。 
+   > 可能不会在每个方案中使用这些控件。例如，“Create projects”方案不会使用 **textarea** 和 **button** 控件。 
   
 5. 在闭合 **span** 标记后，添加一个 **SharePoint:ScriptLink** 标记、一个 **SharePoint:FormDigest** 标记和一些 **script** 标记，如下所示。 
     
@@ -92,34 +92,34 @@ ms.locfileid: "32322664"
     </script>
    ```
 
-   **SharePoint: ScriptLink**标记引用了 .ps 文件, 该文件定义了 Project Server 2013 的 JavaScript 对象模型。 如果更新服务器内容的操作需要，**SharePoint:FormDigest** 标记将为安全验证生成一个哈希。 
+   the **SharePoint：ScriptLink** tag references the PS.js file， which defines the JavaScript object model for Project Server 2013. 如果更新服务器内容的操作需要，**SharePoint:FormDigest** 标记将为安全验证生成一个哈希。 
     
 6. 将占位符注释替换为下列过程之一中的代码：
     
-   - [使用 JavaScript 对象模型创建 Project Server 2013 项目](#pj15_CRUDProjectsJSOM_CreateProjects)
+   - [使用 javaScript Project模型创建 Project Server 2013 项目](#pj15_CRUDProjectsJSOM_CreateProjects)
     
-   - [使用 JavaScript 对象模型更新 Project Server 2013 项目](#pj15_CRUDProjectsJSOM_UpdateProjects)
+   - [使用 javaScript Project模型更新 Project Server 2013 项目](#pj15_CRUDProjectsJSOM_UpdateProjects)
     
-   - [使用 JavaScript 对象模型删除 Project Server 2013 项目](#pj15_CRUDProjectsJSOM_DeleteProjects)
+   - [使用 JavaScript Project删除 Project Server 2013 项目](#pj15_CRUDProjectsJSOM_DeleteProjects)
     
-7. 若要测试应用程序页，请在菜单栏上选择“调试”**** 和“启动调试”****。如果系统提示您修改 web.config 文件，请选择“确定”****。
+7. 若要测试应用程序页，请在菜单栏上选择“调试”和“启动调试”。如果系统提示您修改 web.config 文件，请选择“确定”。
     
-## <a name="create-project-server-2013-projects-by-using-the-javascript-object-model"></a>使用 JavaScript 对象模型创建 Project Server 2013 项目
+## <a name="create-project-server-2013-projects-by-using-the-javascript-object-model"></a>使用 javaScript Project模型创建 Project Server 2013 项目
 <a name="pj15_CRUDProjectsJSOM_CreateProjects"> </a>
 
-本节中的过程通过使用 JavaScript 对象模型来创建项目。 此过程包括下列高级步骤：
+本节中的过程使用 JavaScript 对象模型创建项目。 此过程包括下列高级步骤：
   
 1. 获取当前 **ProjectContext** 实例。 
     
-2. 创建 **ProjectCreationInformation** 对象以指定项目的初始属性。 使用 **ProjectCreationInformation.set_name** 函数指定必需的 **name** 属性。 
+2. 创建 **ProjectCreationInformation** 对象以指定项目的初始属性。使用 **ProjectCreationInformation.set_name** 函数指定必需的 **name** 属性。 
     
-3. 使用 **ProjectContext.get_projects** 函数从服务器中检索已发布项目。 **get_projects** 函数将返回一个 **ProjectCollection** 对象。 
+3. 使用 **ProjectContext.get_projects** 函数从服务器中检索已发布项目。**get_projects** 函数将返回一个 **ProjectCollection** 对象。 
     
 4. 使用 **ProjectCollection.add** 函数并将该函数粘贴在 **ProjectCreationInformation** 对象中以将新项目添加到集合中。 
     
-5. 使用 **ProjectCollection.update** 函数和 **ProjectContext.waitForQueueAsync** 函数更新此集合。 **update** 函数将返回您将传递到 **waitForQueueAsync** 的 **QueueJob** 对象。 此调用还将发布项目。
+5. 使用 **ProjectCollection.update** 函数和 **ProjectContext.waitForQueueAsync** 函数更新此集合。**update** 函数将返回您将传递到 **waitForQueueAsync** 的 **QueueJob** 对象。此调用还将发布项目。
     
-将下列代码粘贴到您在**创建 Visual Studio 中的应用程序页**过程中添加的 **script** 标记之间。 
+将下列代码粘贴到您在 **创建 Visual Studio 中的应用程序页** 过程中添加的 **script** 标记之间。 
   
 ```js
     // Declare a global variable to store the project collection.
@@ -187,26 +187,26 @@ ms.locfileid: "32322664"
     }
 ```
 
-## <a name="update-project-server-2013-projects-by-using-the-javascript-object-model"></a>使用 JavaScript 对象模型更新 Project Server 2013 项目
+## <a name="update-project-server-2013-projects-by-using-the-javascript-object-model"></a>使用 javaScript Project模型更新 Project Server 2013 项目
 <a name="pj15_CRUDProjectsJSOM_UpdateProjects"> </a>
 
-本节中的过程使用 JavaScript 对象模型更新项目的开始**日期**属性。 此过程包括下列高级步骤： 
+本节中的过程使用 JavaScript 对象模型更新项目的 **startDate** 属性。 此过程包括下列高级步骤： 
   
 1. 获取当前 **ProjectContext** 实例。 
     
-2. 使用 **ProjectContext.get_projects** 函数从服务器中检索已发布项目。 **get_projects** 函数将返回一个 **ProjectCollection** 对象。 
+2. 使用 **ProjectContext.get_projects** 函数从服务器中检索已发布项目。**get_projects** 函数将返回一个 **ProjectCollection** 对象。 
     
 3. 使用 **ProjectContext.load** 函数和 **ProjectContext.executeQueryAsync** 函数运行对服务器的请求。 
     
 4. 使用 **ProjectContext.getById** 函数检索 **PublishedProject** 对象。 
     
-5. 使用 **Project.checkOut** 函数签出目标项目。 **checkOut** 函数将返回已发布项目的草稿版本。 
+5. 使用 **Project.checkOut** 函数签出目标项目。**checkOut** 函数将返回已发布项目的草稿版本。 
     
 6. 使用 **DraftProject.set_startDate** 函数更改项目的开始日期。 
     
-7. 使用 **DraftProject.publish** 函数和 **ProjectContext.waitForQueueAsync** 函数发布项目。 **publish** 函数将返回您将传递到 **waitForQueueAsync** 的 **QueueJob** 对象。
+7. 使用 **DraftProject.publish** 函数和 **ProjectContext.waitForQueueAsync** 函数发布项目。**publish** 函数将返回您将传递到 **waitForQueueAsync** 的 **QueueJob** 对象。
     
-将下列代码粘贴到您在**创建 Visual Studio 中的应用程序页**过程中添加的 **script** 标记之间。 
+将下列代码粘贴到您在 **创建 Visual Studio 中的应用程序页** 过程中添加的 **script** 标记之间。 
   
 ```js
     // Declare global variables.
@@ -270,14 +270,14 @@ ms.locfileid: "32322664"
     }
 ```
 
-## <a name="delete-project-server-2013-projects-by-using-the-javascript-object-model"></a>使用 JavaScript 对象模型删除 Project Server 2013 项目
+## <a name="delete-project-server-2013-projects-by-using-the-javascript-object-model"></a>使用 JavaScript Project删除 Project Server 2013 项目
 <a name="pj15_CRUDProjectsJSOM_DeleteProjects"> </a>
 
 本节中的过程使用 JavaScript 对象模型删除项目。 此过程包括下列高级步骤：
   
 1. 获取当前 **ProjectContext** 实例。 
     
-2. 使用 **ProjectContext.get_projects** 函数从服务器中检索已发布项目。 **get_projects** 函数将返回一个 **ProjectCollection** 对象。 
+2. 使用 **ProjectContext.get_projects** 函数从服务器中检索已发布项目。**get_projects** 函数将返回一个 **ProjectCollection** 对象。 
     
 3. 使用 **ProjectContext.load** 函数和 **ProjectContext.executeQueryAsync** 函数运行对服务器的请求。 
     
@@ -285,9 +285,9 @@ ms.locfileid: "32322664"
     
 5. 通过将项目粘贴到 **ProjectCollection.remove** 函数中来删除项目。 
     
-6. 使用 **ProjectCollection.update** 函数和 **ProjectContext.waitForQueueAsync** 函数更新此集合。 **update** 函数将返回您将传递到 **waitForQueueAsync** 的 **QueueJob** 对象。
+6. 使用 **ProjectCollection.update** 函数和 **ProjectContext.waitForQueueAsync** 函数更新此集合。**update** 函数将返回您将传递到 **waitForQueueAsync** 的 **QueueJob** 对象。
     
-将下列代码粘贴到您在**创建 Visual Studio 中的应用程序页**过程中添加的 **script** 标记之间。 
+将下列代码粘贴到您在 **创建 Visual Studio 中的应用程序页** 过程中添加的 **script** 标记之间。 
   
 ```js
     // Declare global variables.

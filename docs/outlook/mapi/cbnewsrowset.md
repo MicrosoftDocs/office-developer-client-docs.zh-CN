@@ -25,12 +25,12 @@ ms.locfileid: "33411888"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算要为包含由[SRow](srow.md)结构表示的指定数量的行的新[SRowSet](srowset.md)结构分配的字节数。 
+计算要分配给包含由 SRow 结构表示的指定行数的新 [SRowSet](srowset.md) [结构的字节](srow.md) 数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**SRowSet** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**SRowSet** <br/> |
    
 ```cpp
 CbNewSRowSet (_crow)
@@ -38,9 +38,9 @@ CbNewSRowSet (_crow)
 
 ## <a name="parameters"></a>参数
 
- __鱼尾纹_
+ _ _管理_
   
-> **SRow**结构的计数, 该计数器指示要包含在新**SRowSet**结构中的行数。 
+> 指示 **要包含在新 SRowSet** 结构的行数 **的 SRow 结构** 计数。 
     
 ## <a name="see-also"></a>另请参阅
 

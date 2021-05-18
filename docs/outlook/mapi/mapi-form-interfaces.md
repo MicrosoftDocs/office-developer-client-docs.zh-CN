@@ -21,25 +21,25 @@ ms.locfileid: "33412343"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 定义了与表单相关的下列接口。
+MAPI 定义以下与表单相关的接口。
   
 |**接口名称**|**说明**|
 |:-----|:-----|
-|[IMAPIForm](imapiformiunknown.md) <br/> |操纵窗体对象并处理窗体对象命令。  <br/> |
-|[IMAPIFormAdviseSink](imapiformadvisesinkiunknown.md) <br/> |确定窗体对象是否可以处理下一封邮件, 并更改该窗体对象的下一个或上一个状态。  <br/> |
-|[IMAPIFormContainer](imapiformcontaineriunknown.md) <br/> |支持针对特定表单容器安装、卸载和解析表单服务器。  <br/> |
-|[IMAPIFormFactory](imapiformfactoryiunknown.md) <br/> |支持使用可配置的运行时窗体服务器。  <br/> |
+|[IMAPIForm](imapiformiunknown.md) <br/> |操作窗体对象并处理窗体对象命令。  <br/> |
+|[IMAPIFormAdviseSink](imapiformadvisesinkiunknown.md) <br/> |确定 form 对象能否处理下一封邮件并更改窗体对象的下一个或上一状态。  <br/> |
+|[IMAPIFormContainer](imapiformcontaineriunknown.md) <br/> |支持针对特定表单容器安装、取消安装和解析表单服务器。  <br/> |
+|[IMAPIFormFactory](imapiformfactoryiunknown.md) <br/> |支持使用可配置的运行时表单服务器。  <br/> |
 |[IMAPIFormInfo](imapiforminfoimapiprop.md) <br/> |使客户端应用程序能够使用特定于邮件类的属性。  <br/> |
-|[IMAPIFormMgr](imapiformmgriunknown.md) <br/> |使客户端应用程序能够获取有关表单服务器、激活表单服务器和在邮件系统中安装表单服务器的信息。  <br/> |
-|[IMAPIMessageSite](imapimessagesiteiunknown.md) <br/> |用于操作与表单对象相关联的邮件。  <br/> |
-|[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) <br/> |通知客户端应用程序表单对象中发生了事件。  <br/> |
-|[IMAPIViewContext](imapiviewcontextiunknown.md) <br/> |用于响应 form 对象中的下一个、上一个和删除命令。  <br/> |
-|[IPersistMessage](ipersistmessageiunknown.md) <br/> |用于在邮件存储中保存、初始化和加载 form 对象。  <br/> |
+|[IMAPIFormMgr](imapiformmgriunknown.md) <br/> |使客户端应用程序能够获取有关表单服务器的信息、激活表单服务器，以及安装邮件系统中表单服务器。  <br/> |
+|[IMAPIMessageSite](imapimessagesiteiunknown.md) <br/> |用于处理与表单对象关联的邮件。  <br/> |
+|[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) <br/> |通知客户端应用程序表单对象中已发生事件。  <br/> |
+|[IMAPIViewContext](imapiviewcontextiunknown.md) <br/> |用于响应窗体对象中的 Next、Previous 和 Delete 命令。  <br/> |
+|[IPersistMessage](ipersistmessageiunknown.md) <br/> |用于在邮件存储中保存、初始化和加载表单对象。  <br/> |
    
-有关 MAPI 表单接口的方法的详细信息, 请参阅这些接口的文档。 您无需实现所有 MAPI 表单接口即可创建自定义窗体。 窗体本身只需要实现**IPersistMessage**、 **IMAPIForm**和**IMAPIFormAdviseSink**接口。 此外, 还最好实现**IMAPIFormFactory**和**IMAPIFormInfo**。 **IMAPIFormFactory**对于 OLE 合规性非常有用, **IMAPIFormInfo**支持编写完善的客户端应用程序, 以便更好地使用表单。 
+有关 MAPI 表单接口的方法详细信息，请参阅这些接口的文档。 您不一定非要实现所有 MAPI 窗体接口才能创建自定义窗体。 表单本身仅要求您实现 **IPersistMessage、IMAPIForm** 和 **IMAPIFormAdviseSink** 接口。  此外，实现 **IMAPIFormFactory** 和 **IMAPIFormInfo 也是一个好主意**。 **IMAPIFormFactory** 对于 OLE 合规性非常有用 **，IMAPIFormInfo** 使编写良好的客户端应用程序能够更好地利用表单。 
   
 > [!NOTE]
-> 严格来说, **IMAPIFormAdviseSink**是一个可选接口。 但是, 强烈建议您在表单服务器中实现它。 此接口对于在邮件客户端和窗体服务器之间进行有效交互非常关键, 尤其是当处理多个窗体服务器的邮件类的邮件时。 
+> 严格来说 **，IMAPIFormAdviseSink** 是可选接口。 但是，强烈建议在表单服务器中实现它。 此接口对于邮件客户端和表单服务器之间的高效交互至关重要，尤其是在处理表单服务器的邮件类的几个消息时。 
   
 ## <a name="see-also"></a>另请参阅
 

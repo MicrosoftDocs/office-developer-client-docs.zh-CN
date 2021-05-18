@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5af36a87-e782-df63-4190-a608758fef50
-description: 使用相同的时间限制创建枚举数的副本, 但将游标设置为枚举器的开头。
+description: 使用相同的时间限制创建枚举器的副本，但将光标设置为枚举器开头。
 ms.openlocfilehash: 1a279430bf6a29611fa223bebbf8023c34967139
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33413400"
 ---
 # <a name="ienumfbblockclone"></a>IEnumFBBlock::Clone
 
-使用相同的时间限制创建枚举数的副本, 但将游标设置为枚举器的开头。
+使用相同的时间限制创建枚举器的副本，但将光标设置为枚举器开头。
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅[IEnumFBBlock](ienumfbblock.md)。
+请参阅 [IEnumFBBlock](ienumfbblock.md)。
   
 ```cpp
 HRESULT Clone(  
@@ -32,18 +32,18 @@ HRESULT Clone(
 
 _ppclone_
   
-> 排除指向[IEnumFBBlock](ienumfbblock.md)接口副本的指针。 
+> [out]指向指向 [IEnumFBBlock 接口副本的指针](ienumfbblock.md) 的指针。 
     
 ## <a name="return-values"></a>返回值
 
 |**[HRESULT]**|**说明**|
 |:-----|:-----|
 |S_OK  <br/> |调用成功。  <br/> |
-|E_OUTOFMEMORY  <br/> |内存不足, 无法进行复制。  <br/> |
+|E_OUTOFMEMORY  <br/> |内存不足，无法进行复制。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [常量 (忙/闲 API)](constants-free-busy-api.md)
+- [常量 (忙/闲 API) ](constants-free-busy-api.md)
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  
 - [IEnumFBBlock::Restrict](ienumfbblock-restrict.md)  

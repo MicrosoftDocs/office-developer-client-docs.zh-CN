@@ -34,21 +34,21 @@ ms.locfileid: "33412119"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MapiNonTransmittable  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-存储提供程序可以为文件夹或项目的此属性指定值, 但应保持会话之间的值相同。 存储提供程序使用此属性可标识从搜索引擎返回的搜索结果。
+存储提供程序可以为此文件夹或项目指定一个值，但应在会话之间保持值相同。 存储提供程序使用此属性标识从搜索引擎返回的搜索结果。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

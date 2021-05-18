@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm65
 localization_priority: Normal
 ms.assetid: 86fe25ed-590d-b2f0-5dfe-9746a19c6b04
-description: 确定使用 "配置布局" 对话框 (在 "设计" 选项卡上的 "布局" 组中, 单击 "重新布局页面", 然后单击 "其他布局选项") 排放形状时, 绘图页上的形状之间的水平间距量。
+description: 确定当您使用"设计"选项卡上的"配置布局"对话框 (在"布局"组中单击"Re-Layout 页面"，然后单击"其他布局选项") 来布置形状时，绘图页上的形状之间的水平空间量。
 ms.openlocfilehash: 28eea2589e34c7793e89e01495eb519b987553a9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.locfileid: "33411643"
 ---
 # <a name="avenuesizex-cell-page-layout-section"></a>AvenueSizeX 单元格（“Page Layout”内容）
 
-确定使用 "**配置布局**" 对话框 (在 "**设计**" 选项卡上的 "**布局**" 组中, 单击 "**重新布局页面**", 然后单击 "详细信息" 选项卡) 排放形状时, 绘图页上的形状之间的水平间距量。布局选项 * *)。
+确定当您使用"设计"选项卡上的"配置布局"对话框 (在"布局"组中，单击"重新布局页面"，然后单击"其他布局选项"**) 来布局形状时，绘图页上的形状之间的水平空间量。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 您还可以在 **“布局与排列间距”** 对话框（在 **“设计”** 选项卡上，单击 **“页面设置”** 组中的箭头，单击 **“布局与排列”** 选项卡，然后单击 **“间距”**）中设置此值。
   

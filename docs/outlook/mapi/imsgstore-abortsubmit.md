@@ -39,15 +39,15 @@ AbortSubmit(
 
  _cbEntryID_
   
-> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
+> [in]  _lpEntryID_ 参数指向的条目标识符中的字节计数。 
     
  _lpEntryID_
   
-> 实时指向要从传出队列中删除的邮件的条目标识符的指针。 
+> [in]指向要从传出队列中删除的邮件的条目标识符的指针。 
     
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
 ## <a name="return-value"></a>返回值
 
@@ -57,19 +57,19 @@ S_OK
     
 MAPI_E_NOT_IN_QUEUE 
   
-> 由_lpEntryID_标识的邮件不再位于邮件存储区的传出队列中, 通常是因为它已被发送。 
+> _lpEntryID_ 标识的邮件不再位于邮件存储的传出队列中，通常是因为它已发送。 
     
 MAPI_E_UNABLE_TO_ABORT 
   
-> 由_lpEntryID_标识的邮件被 MAPI 后台处理程序锁定, 无法中止该操作。 
+> _lpEntryID_ 标识的邮件被 MAPI 后台处理程序锁定，操作无法中止。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMsgStore:: AbortSubmit**方法尝试从邮件存储区的传出队列中删除已提交的邮件。 
+**IMsgStore：：AbortSubmit** 方法尝试从邮件存储的传出队列中删除已提交的邮件。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-提交邮件后, 通过调用**AbortSubmit**来中止提交操作是可对邮件执行的唯一操作。 不希望**AbortSubmit**总是成功。 根据基础邮件系统的实现方式, 可能无法取消邮件的发送。 
+提交邮件后，通过调用 **AbortSubmit** 中止提交是可以在邮件上执行的唯一操作。 不要期望 **AbortSubmit** 始终成功。 根据基础邮件系统的实现方式，可能无法取消邮件发送。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -77,7 +77,7 @@ MAPI_E_UNABLE_TO_ABORT
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|FolderDlg  <br/> |CFolderDlg:: OnAbortSubmit  <br/> |MFCMAPI 使用**IMsgStore:: AbortSubmit**方法中止所选邮件的提交。  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg：：OnAbortSubmit  <br/> |MFCMAPI 使用 **IMsgStore：：AbortSubmit** 方法中止提交所选邮件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -25,13 +25,13 @@ ms.locfileid: "33412910"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将一个不带符号的32位整数乘以另一个。
+将一个无符号 32 位整数乘以另一个。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 FILETIME FtMulDwDw(
@@ -44,14 +44,14 @@ FILETIME FtMulDwDw(
 
  _Multiplicand_
   
-> 实时包含与_乘数_参数中的值相乘的无符号32位整数的双字。 
+> [in]包含要乘以  _乘_ 数参数中的值的无符号 32 位整数的双词。 
     
- _乘以_
+ _乘数_
   
-> 实时包含未签名的32位整数乘数的双字。
+> [in]包含无符号 32 位整数乘数的双词。
     
 ## <a name="return-value"></a>返回值
 
-**FtMulDwDw**函数返回一个[FILETIME](filetime.md)结构, 其中包含两个整数的乘积。 这两个输入参数保持不变。 
+**FtMulDwDw** 函数返回 [FILETIME](filetime.md)结构，其中包含两个整数的乘数。 两个输入参数保持不变。 
   
 

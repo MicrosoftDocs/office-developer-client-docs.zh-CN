@@ -1,11 +1,11 @@
 ---
-title: 使用 JavaScript 对象模型 (JSOM) 开发 Project Online 外接
+title: '使用 JAVAScript Project Online JSOM 模型开发 (加载项) '
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a
-description: 本文介绍 Microsoft project online 外接程序开发, 以增强你对 Project online 的体验。 开发项目作为演练实现。 用于本文的外接程序从 project Online 帐户读取和显示已发布项目的项目名称和 id, 并允许您向下钻取以检索与单个项目相关联的任务。
+description: 本文介绍Microsoft Project Online外接程序开发，以增强使用加载项Project Online。 开发项目作为演练实现。 用于本文的外接程序从 Project Online 帐户读取并显示已发布项目的项目名称和 ID，并允许您向下钻取以检索与单个项目关联的任务。
 ms.openlocfilehash: 0a472a6300f18aaa65649f44d944445642a59e1a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -13,72 +13,72 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32322682"
 ---
-# <a name="developing-a-project-online-add-in-using-the-javascript-object-model-jsom"></a>使用 JavaScript 对象模型 (JSOM) 开发 Project Online 外接
+# <a name="developing-a-project-online-add-in-using-the-javascript-object-model-jsom"></a>使用 JAVAScript Project Online JSOM 模型开发 (加载项) 
 
-本文介绍 Microsoft project online 外接程序开发, 以增强你对 Project online 的体验。 开发项目作为演练实现。 用于本文的外接程序从 project Online 帐户读取和显示已发布项目的项目名称和 id, 并允许您向下钻取以检索与单个项目相关联的任务。
+本文介绍如何Microsoft Project Online外接程序开发来增强使用加载项Project Online。 开发项目作为演练实现。 用于本文的外接程序从 Project Online 帐户读取并显示已发布项目的项目名称和 ID，并允许您向下钻取以检索与单个项目关联的任务。
   
-在运行时, 外接列表类似于下图:
+运行时，外接程序列表类似于下图：
   
-![显示 JSOM 项目和任务列表的屏幕截图](media/766e5914-f048-48f4-9282-291f55e6e90d.png "显示 JSOM 项目和任务列表的屏幕截图")
+![显示 JSOM 项目和]任务列表的屏幕截图 显示(media/766e5914-f048-48f4-9282-291f55e6e90d.png "JSOM 项目和任务列表的屏幕截图")
   
-此示例的重点是与 Project Online 的交互, 使查询和为服务中的每个请求设置上下文。 用户界面 (UI) 元素获得最少的注意。 相反, 源列表提供有关 UI 的注释。
+该示例的重心是与 Project Online 交互，执行查询并设置服务中每个请求的上下文。 用户界面 (UI) 元素得到最少关注。 相反，源列表会提供有关 UI 的注释。
   
 > [!NOTE]
-> 可从以下https://github.com/OfficeDev/Project-JSOM-List-Projects-Tasks....位置获取示例外接程序 (一个 Visual Studio 项目) 的源文件。 阅读本文时, 请务必将源文件作为参考, 因为每个文件都要补充另一个文件。 Visual Studio 项目中的文件以最少的更改生成并为可执行文件—将 project Online 租户的 URL 向下替换到 PWA 文件夹。 
+> 示例外接程序的源文件是一个Visual Studio项目，可在以下位置获得 https://github.com/OfficeDev/Project-JSOM-List-Projects-Tasks.... ： 。 阅读文章时，请保持源文件方便作为参考，因为每个源文件相互补充。 项目生成Visual Studio中的文件可执行，只需进行最少的更改，即可将 Project Online 租户的 URL 向下PWA文件夹。 
   
 ## <a name="background"></a>背景
 
-Project Online 是一种 Office 365 服务, 它为公司提供了项目组合管理 (PPM) 和项目管理办公室 (PMO) 解决方案, 以协调和管理项目组合、程序和项目。 project Online 与 project desktop 版本是不同的解决方案;然而, project Online 仍包含在项目的整个生命周期中维护和跟踪项目详细信息的功能。 Project online 是基于 SharePoint Online 建立的。
+Project Online是一项 Office 365 服务，可为公司提供项目组合管理 (PPM) 和项目管理办公室 (PMO) 解决方案，以协调和管理项目组合、计划和项目。 Project Online桌面版与桌面Project不同;但是，Project Online仍包含用于在整个项目生命周期中维护和跟踪项目详细信息的功能。 Project Online基于 SharePoint Online 构建。
   
-Project Online 托管加载项由与客户端对象模型 API 交互的 JavaScript 和资源文件组成。 当用户访问加载项时, JavaScript 和资源将下载并在浏览器中执行。 加载项进行异步调用 Project Online, 以与服务进行交互, 无论是创建、检索、更新还是删除数据。 
+托管Project Online加载项由与客户端对象模型 API 交互的 JavaScript 和资源文件组成。 用户访问外接程序时，JavaScript 和资源在浏览器中下载和执行。 无论创建、检索、更新Project Online数据，加载项都对加载项进行异步调用，以与服务进行交互。 
   
-Project Online 执行另一个操作来保护属于来自外接程序的其他租户的信息;即, Project Online 将创建一个独立的网站, 以与外接程序中的请求进行交互。 不会在 Project Online 主机上运行任何自定义代码。 
+Project Online执行另一个操作来保护属于其他租户的信息免受加载项影响;即，Project Online创建一个隔离网站以与来自外接程序的请求进行交互。 主机上没有运行自定义Project Online代码。 
   
-Project Online 外接程序的开发设置使用 Visual Studio SharePoint 外接程序项目类型。 加载项以 JavaScript 的方式编写, 并使用项目 JavaScript 对象模型 (JSOM) 与 project Online service 进行交互。 JSOM 从 SharePoint JSOM 继承了大部分功能。
+加载项的开发设置Project Online加载项使用Visual Studio SharePoint加载项项目类型。 外接程序使用 JavaScript 编写，并使用 Project JavaScript 对象模型 (JSOM) 与 Project Online 服务交互。 JSOM 从 JSOM 继承大部分SharePoint功能。
   
 > [!NOTE]
-> 可以在 Office 应用商店中发布和销售外接程序, 也可以将其部署到 SharePoint 上的专用应用程序目录中。 有关详细信息, 请参阅[部署和发布 Office 外接程序](https://docs.microsoft.com/office/dev/add-ins/publish/publish)。
+> 加载项可以在应用商店中发布和出售Office或部署到 SharePoint 上的专用应用程序目录。 有关详细信息，请参阅[部署和发布Office加载项。](https://docs.microsoft.com/office/dev/add-ins/publish/publish)
 > 
-> 本文中使用的外接程序是开发人员的示例;它不应在生产环境中使用。 主要目的是显示 Project Online 应用程序开发的一个示例。 
+> 本文中使用的外接程序是开发人员的示例;它不适合在生产环境使用。 主要用途是展示一个应用开发示例，Project Online。 
   
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备条件
 
-将以下项添加到受支持的 Windows 环境:
+将以下项添加到受支持的Windows环境中：
   
-- **.net Framework 4.0 或更高**版本: 版本4.0 中的 Framework 的完整版本是兼容的。 下载网站为 https://msdn.microsoft.com/vstudio/aa496123.aspx。
+- **.NET Framework 4.0 或** 更高版本：兼容 4.0 版框架的完整版本。 下载网站为 https://msdn.microsoft.com/vstudio/aa496123.aspx。
     
-- **Visual Studio 2013 或更高版本**:  
+- **Visual Studio 2013或更高版本**：  
     
-   - Visual Studio 2015 专业版已准备就绪, 可在https://www.visualstudio.com/en-us/products/visual-studio-professional-with-msdn-vs.aspx中找到。
+   - the professional edition of Visual Studio 2015 is ready to out-of the box and is available at https://www.visualstudio.com/en-us/products/visual-studio-professional-with-msdn-vs.aspx .
     
-   - 可从https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx获取 Visual Studio 2015 的社区版。 此版本需要手动安装适用于 Visual Studio 的 Microsoft Office 开发人员工具。
+   - 2015 年 Visual Studio社区版可在 上获得 https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx 。 此版本要求手动安装 Microsoft Office 开发人员工具Visual Studio。
     
-   中提供了适用于 Visual Studio 的 Microsoft Office 开发https://www.visualstudio.com/en-us/features/office-tools-vs.aspx人员工具。
+   有关Microsoft Office开发人员工具Visual Studio可在 上获得 https://www.visualstudio.com/en-us/features/office-tools-vs.aspx 。
     
-- **Project Online 帐户**: 它提供对托管服务的访问权限。 有关获取 Project Online 帐户的详细信息，请参阅 https://products.office.com/en-us/Project/project-online-portfolio-management
+- **A Project Online account**： This provides access to the hosting service. 有关获取 Project Online 帐户的详细信息，请参阅 https://products.office.com/en-us/Project/project-online-portfolio-management
     
-   确保加载项用户具有足够的权限来访问 Project Online 租户中的某些项目。 
+   确保加载项用户具有足够的授权，可以访问加载项租户中的Project Online项目。 
     
-- **托管网站上**使用信息填充的项目。
+- **使用信息填充的** 宿主网站上的项目。
     
 > [!NOTE]
-> 标准 .net Framework 是要使用的正确框架。 请勿使用 ".net Framework 4 客户端配置文件"。 
+> 标准.NET Framework使用正确的框架。 请勿使用".NET Framework 4 客户端配置文件"。 
   
 ### <a name="set-up-the-visual-studio-project"></a>设置 Visual Studio 项目
 
-应用程序安装程序由创建新项目、链接适当的库和声明所需的命名空间组成。 Visual Studio 提供有多种类型的开发项目。 该部分是简短且非常基本的部分。 值是将信息合并到一个位置。
+应用程序设置包括创建新项目、链接相应的库和声明所需的命名空间。 Visual Studio 提供有多种类型的开发项目。 此部分简短且非常基本。 值使信息在一处进行并组织。
   
 #### <a name="select-a-visual-studio-project"></a>选择 Visual Studio 项目
 
-若要为外接程序创建适当类型的项目, 您必须执行以下步骤。 在屏幕上遇到的关键字具有**bold**属性: 
+若要为加载项创建适当类型的项目，必须执行以下步骤。 屏幕上显示的关键字具有 **粗体** 属性： 
   
-1. 从 "文件" 菜单中选择 "**文件** > " "**新建** > **项目**"。 
+1. 从"文件"菜单中，选择"**文件**  >  **""**  >  **新建Project"。** 
     
-2. 从左侧窗格中的 "已安装的模板" 中, 选择 " **c #** > **Office/SharePoint** > **Web 外接程序**"。 
+2. 从左窗格中的"已安装的模板"中  >  **，C#Office/SharePoint**  >  **Web 加载项"。** 
     
-3. 在中央窗格顶部, 选择 " **.net Framework 4** " 或 "更高版本";当前版本是4.6。 
+3. 在中央窗格顶部，选择".NET Framework **4** 或更高版本;当前版本为 4.6。 
     
-4. 从中央窗格中的应用程序类型中, 选择 " **SharePoint 外接程序**"。 
+4. 从中央窗格中的应用程序类型中，SharePoint **外接程序"。** 
     
 5. 在底部为项目指定名称和位置以及解决方案名称。 
     
@@ -86,107 +86,107 @@ Project Online 外接程序的开发设置使用 Visual Studio SharePoint 外接
     
 7. 单击“**确定**”以创建初始项目。 
     
-Visual Studio 向导会在下面几个对话框中询问有关 Project Online 设置网站的几个后续问题 (在对话框中称为 "SharePoint 设置")。 以下是问题:
+"Visual Studio 向导"会询问一些有关 Project Online 设置网站 (（称为"SharePoint 设置）"的) 在下列几个对话框中。 以下是问题：
   
-1. 您要使用哪个 SharePoint 网站调试外接程序？ 指定 PWA 网站的 URL, 例如https://contoso.sharepoint.com/sites/pwa。
+1. SharePoint调试外接程序时要使用哪些网站？ 指定指向网站PWA URL，例如 https://contoso.sharepoint.com/sites/pwa 。
     
-2. 你希望如何托管 SharePoint 外接程序？ 选择 "[X] **SharePoint 托管**"。
+2. 您希望如何托管您的SharePoint外接程序？ 选择"[X] **SharePoint托管的 "。**
     
-   有关 SharePoint 外接程序 (包括托管选项) 的详细信息, 请参阅[SharePoint 外接程序](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)。
+   有关外接程序SharePoint（包括托管选项）的详细信息，请参阅 SharePoint[外接程序](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)。
     
-3. 单击“下一步”。**** 
+3. 点击 **“下一步”**。 
     
-第二个附加对话框要求您为外接程序指定 SharePoint Online 版本: 
+第二个附加对话框要求你为SharePoint指定 SharePoint Online 版本： 
   
-1. 您希望外接程序定位的最早版本的 SharePoint 是什么？ 选择 [X] S **harePoint-Online**。 
+1. 您希望外接程序面向SharePoint的最早版本是什么？ 选择[X] S **harePoint-Online**。 
     
-2. 单击“完成”****。 
+2. 单击“完成”。 
     
-Visual Studio 将创建项目并访问 project Online 网站。 
+Visual Studio创建项目并访问Project Online网站。 
   
-### <a name="enable-sideloading-on-the-project-online-site"></a>在 Project Online 网站上启用旁加载
+### <a name="enable-sideloading-on-the-project-online-site"></a>在网站中启用Project Online加载
 
-旁加载是用于测试和调试 Project Online 外接程序的机制。您需要有两个用于旁加载的脚本: 一个用于在 Project Online 网站上启用旁加载, 另一个用于在完成测试和调试外接程序后禁用旁加载。
+旁加载是测试和调试加载项Project Online机制。需要两个脚本进行旁加载：一个在 Project Online 网站上启用旁加载，另一个脚本用于完成加载项测试和调试后禁用旁加载。
   
-有关设置旁加载的详细信息, 请参阅[在非开发人员网站集中启用应用程序旁加载](https://blogs.msdn.microsoft.com/officeapps/2013/12/10/enable-app-sideloading-in-your-non-developer-site-collection/)。
+有关设置旁加载的信息，请参阅在非开发人员网站集中 [启用应用旁加载](https://blogs.msdn.microsoft.com/officeapps/2013/12/10/enable-app-sideloading-in-your-non-developer-site-collection/)。
   
 > [!NOTE]
-> 旁加载应用程序是一项开发/测试功能。 它**不用于生产用途**。 请勿定期旁加载应用程序, 或保持应用程序旁加载的时间超过您主动使用该功能所需的时间。 
+> 旁加载应用是一项开发人员/测试功能。 它 **不适合生产用途**。 不要定期旁加载应用，或使应用旁加载的启用时间比主动使用该功能的时间长。 
   
-## <a name="add-content-to-the-add-in-project"></a>将内容添加到加载项项目
+## <a name="add-content-to-the-add-in-project"></a>向加载项项目添加内容
 
-创建项目并设置调试机制后, 向应用程序添加内容包括以下任务:
+创建项目并设置调试机制后，向应用添加内容包括以下任务：
   
 - 设置应用程序范围
     
 - 链接 JSOM 库
     
-- 向加载项添加 UI 元素
+- 将 UI 元素添加到外接程序
     
-- 初始化和连接到 Project Online 服务
+- 初始化并连接到 Project Online 服务
     
 - 检索项目和详细信息/属性
     
 - 显示项目
     
-- 显示项目的任务
+- 显示任务Project
     
-加载项项目由多个文件组成。 在此示例中, 需要编辑以下文件: 
+加载项项目由多个文件组成。 本示例中，需要编辑以下文件： 
   
-- appmanifest.xml
+- AppManifest.xml
     
-- default.aspx
+- Default.aspx
     
-- node.js
+- App.js
     
-- "应用程序"。 css-可选;包含为外接程序开发的样式定义
+- App.css - 可选;包含为外接程序开发的样式定义
     
-如果 project Online 租户发生更改 (例如, 从试用版移动到订阅网站), 则可以使用 "属性" 窗口通过**视图** > 属性更新项目属性, 包括服务器连接和网站 URL。**Window**命令。 
+如果 Project Online租户发生更改（例如从试用版移动到订阅网站）中，可以使用可通过"查看属性窗口"命令使用"属性窗口"更新项目属性，包括"服务器连接"和"网站 URL"。   >   
   
-您还可以将文件添加到项目中。 如果是这样, 您需要更新位于同一组 (内容、图像、页面或脚本) 中的元素 .xml 文件, 以包含新文件。 有关项目文件的详细信息, 请参阅[探究应用部件清单 (manifest) 结构和 SharePoint 加载项的包](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in)。
+您还可以将文件添加到项目中。 如果是，则需要更新位于同一组的 Elements.xml 文件 (内容、图像、页面或脚本) 以包含新文件。 有关项目文件详细信息，请参阅浏览应用程序清单结构和加载项SharePoint[包](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in)。
   
 ### <a name="set-application-scope"></a>设置应用程序范围
 
-外接端需要在服务返回查询结果中的信息之前定义的范围或权限级别。 对于此外接程序, 请使用 Visual Studio 项目的以下范围。 对 "权限" 选项卡中的 appmanifest.xml 文件进行此更改:
+外接程序需要先定义范围或权限级别，然后服务才能在查询结果中返回信息。 对于此外接程序，请使用以下范围来访问Visual Studio项目。 对"权限"选项卡AppManifest.xml文件进行以下更改：
 
-|Scope|权限|
+|范围|权限|
 |:-----|:-----|
-|多个项目 (Project Server)  <br/> |读取  <br/> |
+|多个 Projects (Project Server)   <br/> |阅读  <br/> |
    
-在设置应用程序范围后保存文件。 否则, 服务将不会返回任何数据。 
+在设置应用程序作用域后保存文件。 否则，不会从服务返回任何数据。 
   
 ### <a name="link-the-jsom-library"></a>链接 JSOM 库
 
-运行时 project online 库、.ps 和 .ps 是由 Project online 提供的, 并且始终是最新版本。 使用 JSOM 的 JavaScript 加载项必须与这些库中的一个相链接。 将链接定义添加到默认 .aspx 文件中。 使用 PS .js 和/或 .ps 的命令是位于 app.config 文件中的代码的一部分。
+运行时Project Online库PS.jsPS.debug.js，由 Project Online 提供，并且始终是最新版本。 使用 JSOM 的 JavaScript 加载项必须与这些库之一链接。 链接定义将添加到 Default.aspx 文件中。 用于命令和PS.js/或PS.debug.js是位于文件的代码的一App.js部分。
   
-在 ScriptLink 的 "SharePoint:" 后面的`<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead"`元素中为 .ps 或 .ps 定义添加以下命令。 
+在元素中添加以下PS.js或PS.debug.js定义，该元素遵循 `<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead"` "SharePoint：ScriptLink"sp.js。 
   
 ```js
 <SharePoint:ScriptLink name="PS.js" runat="server" OnDemand="false" LoadAfterUI="true" Localizable="false" />
 ```
 
 > [!NOTE]
-> 将 .ps 或 ps. .js 的**OnDemand**属性设置为**false**。 
+> 属性 **的 OnDemand** PS.js或PS.debug.js设置为 **false**。 
   
-### <a name="add-ui-elements-to-the-add-in"></a>向加载项添加 UI 元素
+### <a name="add-ui-elements-to-the-add-in"></a>将 UI 元素添加到外接程序
 
-该示例加载项由几个组件组成。 静态元素说明位于默认的 .aspx 文件中。 所有组件的动态元素说明和代码都位于 app.config 文件中。 有关这些组件的注释, 请参考源代码清单。 下面是加载项中的 UI 组件的列表:
+示例外接程序由几个组件组成。 静态元素说明位于 Default.aspx 文件中。 所有组件的动态元素说明和代码都位于App.js文件中。 有关组件的评论，请参阅源代码列表。 下面是外接程序中的 UI 组件列表：
   
 - 标题
     
-- 介绍性措辞
+- 介绍性动词
     
-- 用于从表格中删除任务的按钮
+- 用于从表中删除任务的按钮
     
 - 列出项目 ID 和名称以及任务信息的表。
     
-- 将任务数据导入表中的 "任务" 按钮 (为每个项目克隆一次)。
+- 任务按钮 (每个将任务数据导入到) 的项目中克隆一次。
     
-有关用户界面的详细信息, 如项目表的标题和标头部分, 请参阅 default.aspx 项目文件。
+有关用户界面的详细信息（如项目表的标题和标题部分），请参阅 Default.aspx 项目文件。
   
 ### <a name="initialize-and-connect-to-the-host-system"></a>初始化并连接到主机系统
 
-应用 .js 文件包含 JavaScript 代码。 加载项在浏览器中加载 PS .js, 然后调用 initializePage 函数。 InitializePage 检索 Project Online 终结点的上下文并启动 loadProjects 函数。
+The App.js file contains the JavaScript code. 外接程序在浏览器中PS.js，然后调用 initializePage 函数。 InitializePage 检索到 Project Online 的上下文，并启动 loadProjects 函数。
   
 ```js
     'use strict';
@@ -210,11 +210,11 @@ Visual Studio 将创建项目并访问 project Online 网站。
 
 ### <a name="retrieve-the-projects"></a>检索项目
 
-loadProjects 函数查询服务中的项目名称和 id。 
+loadProjects 函数查询服务中的项目名称和 ID。 
   
-应用程序将检索项目名称和项目 Id。可通过修改 load 方法以显式标识要检索的属性来访问有关项目的其他信息。 代码中提供了一个示例作为注释。 
+应用程序检索项目名称和项目 ID。有关项目的其他信息可用，可通过修改 load 方法以显式标识要检索的属性来访问该信息。 代码中提供了一个示例作为注释。 
   
-如果查询成功, 则外接程序会通过调用 displayProjects 继续进行。 
+如果查询成功，加载项将继续调用 displayProjects。 
   
 ```js
     //Query CSOM and get the list of projects in PWA
@@ -233,7 +233,7 @@ loadProjects 函数查询服务中的项目名称和 id。
 
 ### <a name="display-the-projects"></a>显示项目
 
-displayProjects 函数创建一个表, 每个项目一行, 并使用一个按钮来显示特定项目的任务。 
+displayProjects 函数创建一个表（每个项目一行）和一个按钮以显示特定项目的任务。 
   
 ```js
     //Display the projects with names and ids in a table
@@ -260,13 +260,13 @@ displayProjects 函数创建一个表, 每个项目一行, 并使用一个按钮
 ```
 
 > [!NOTE]
-> while 循环访问 ID 和 name 属性。 这与调用函数的源代码项目略有不同, 后者又访问相同的属性。 
+> while 循环访问 ID 和 name 属性。 这与调用函数（反过来又访问相同属性）的源代码项目略有不同。 
   
 ### <a name="display-the-tasks-for-a-project"></a>显示项目的任务
 
-加载项的一部分任务不是初始加载的一部分。 如果用户对与项目相关联的任务感兴趣, 则单击 "显示任务" 按钮会导致任务使用 btnLoadTasks 事件处理程序在列表中显示。 
+虽然任务是加载项的一部分，但任务不是初始加载的一部分。 如果用户对与项目关联的任务感兴趣，单击"显示任务"按钮将导致任务使用 btnLoadTasks 事件处理程序显示在列表中。 
   
-btnLoadTasks 事件处理程序 (具有相应的项目 ID) 从服务器请求指定项目的任务。 检索后, btnLoadTasks 会将任务列表传递给 displayTasks, 以在屏幕上显示任务。
+btnLoadTasks 事件处理程序（具有相应的项目 ID）从服务器请求指定项目的任务。 检索到后，btnLoadTasks 将传递任务列表以显示任务，以在屏幕上显示任务。
   
 ```js
     //Query CSOM and get the list of tasks for a specific project
@@ -295,7 +295,7 @@ btnLoadTasks 事件处理程序 (具有相应的项目 ID) 从服务器请求指
 
 ```
 
-displayTasks 函数显示与项目项紧下方的指定项目相关联的任务。
+displayTasks 函数显示在项目项正下方与指定项目关联的任务。
   
 ```js
     //Insert tasks for the specified project immediately underneath the project entry 
@@ -325,11 +325,11 @@ displayTasks 函数显示与项目项紧下方的指定项目相关联的任务�
 ```
 
 > [!NOTE]
-> while 循环访问任务 ID 和名称属性。 这与调用函数的源代码项目略有不同, 后者又访问相同的属性。 
+> while 循环访问任务 ID 和名称属性。 这与调用函数（反过来又访问相同属性）的源代码项目略有不同。 
   
-下面是单个项目的任务的示例输出。
+以下是单个项目的任务的示例输出。
   
-![显示项目任务的输出的屏幕截图](media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png "显示项目任务的输出的屏幕截图")
+![显示项目任务输出]的屏幕截图(media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png "显示项目任务输出的屏幕截图")
   
 ## <a name="see-also"></a>另请参阅
 

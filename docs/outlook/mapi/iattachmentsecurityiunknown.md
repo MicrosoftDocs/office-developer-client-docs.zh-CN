@@ -25,21 +25,21 @@ ms.locfileid: "33411412"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-允许使用 microsoft outlook 2010 和 microsoft outlook 2013 解决方案查看附件是否被视为不安全, 并在查看和编制索引时被阻止。
+允许Microsoft Outlook 2010和Microsoft Outlook 2013解决方案，以查明附件是否被视为不安全且被阻止查看和编制索引。
   
 |||
 |:-----|:-----|
-|接口标识符:  <br/> |IID_IAttachmentSecurity  <br/> |
+|接口标识符：  <br/> |IID_IAttachmentSecurity  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |检查指定的附件是否被 outlook 2010 或 outlook 2013 阻止, 以供查看和编制索引。  <br/> |
+|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |检查指定的附件是否被 2010 Outlook 2013 Outlook 2013 阻止查看和编制索引。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-outlook 2010 和 outlook 2013 解决方案可以查询此接口, 以查看是否阻止了附件。 outlook 2010 或 outlook 2013 阻止的附件根据 outlook 2010 或 outlook 2013 的配置方式以及管理员已应用的策略的不同而有所不同。
+Outlook 2010 Outlook 2013 解决方案可以查询此接口以查看附件是否被阻止。 Outlook 2010 或 Outlook 2013 阻止的附件因 Outlook 2010 或 Outlook 2013 的配置方式以及管理员应用的策略而异。
   
 ## <a name="see-also"></a>另请参阅
 
@@ -47,5 +47,5 @@ outlook 2010 和 outlook 2013 解决方案可以查询此接口, 以查看是否
 
 [MAPI 常量](mapi-constants.md)
   
-[验证附件是否已被阻止](how-to-verify-an-attachment-is-blocked.md)
+[验证附件被阻止](how-to-verify-an-attachment-is-blocked.md)
 

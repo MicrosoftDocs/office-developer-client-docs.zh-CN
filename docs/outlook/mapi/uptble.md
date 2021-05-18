@@ -19,7 +19,7 @@ ms.locfileid: "33413838"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-[上载表状态](upload-table-state.md)期间上载文件夹内容的扩展信息。
+上传表状态期间上传文件夹 [内容的扩展信息](upload-table-state.md)。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -39,27 +39,27 @@ struct UPTBLE
 
  _iEntMod_
   
->  排除用于跟踪上载新项目或修改的项目的_cEntMod_数量的索引。 
+>  [out]跟踪新项或修改项  _的 cEntMod_ 数的上载的索引。 
     
  _cEntMod_
   
->  排除文件夹中新项目或修改项目的数量。 
+>  [out]文件夹中新项或修改的项目数。 
     
  _iEntRead_
   
->  排除用于跟踪上载_cEntRead_读取项目数的索引。 
+>  [out]跟踪 cEntRead 读取项  _数的上载的_ 索引。 
     
  _cEntRead_
   
->  排除文件夹中的已读项目数。 
+>  [out]文件夹中的读取项目数。 
     
  _iEntDel_
   
->  排除用于跟踪上载_cEntDel_已删除项目数的索引。 
+>  [out]跟踪  _cEntDel_ 已删除项目数的上载的索引。 
     
  _cEntDel_
   
->  排除文件夹中已删除项目的数量。 
+>  [out]文件夹中已删除项目的数量。 
     
 ## <a name="see-also"></a>另请参阅
 

@@ -22,22 +22,22 @@ ms.locfileid: "33414352"
   
 ## <a name="syntax"></a>语法
 
-REPLACE (* * *old_text* * *, * * *start_num* * *, * * *num_chars* * *, * * *new_text* * *) 
+REPLACE (** *old_text* **， ** *start_num* **， ** *num_chars* **， ** *new_text* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _old_text_ <br/> |必需  <br/> |**String** <br/> |要替换其中的一些字符的文本。  <br/> |
-| _start_num_ <br/> |必需  <br/> |**Number** <br/> |要替换为_new_text_的_old_text_中的字符的位置。 字符串中的第一个字符处于位置 1。  <br/> |
-| _num_chars_ <br/> |必需  <br/> |**Number** <br/> |要替换的_old_text_中的字符数  <br/> |
-| _new_text_ <br/> |必需  <br/> |**String** <br/> |将替换_old_text_中的字符的文本。  <br/> |
+| _start_num_ <br/> |必需  <br/> |**Number** <br/> |字符在要替换为 _old_text_ 中 _的位置new_text。_ 字符串中的第一个字符处于位置 1。  <br/> |
+| _num_chars_ <br/> |必需  <br/> |**Number** <br/> |要  _替换old_text中的_ 字符数  <br/> |
+| _new_text_ <br/> |必需  <br/> |**String** <br/> |将替换中  _字符的文本_ old_text。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
 String
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要替换出现在文本字符串中的特定位置的文本时，请使用 REPLACE 函数。如果想要替换文本字符串中的特定文本，则请使用 SUBSTITUTE 函数。
   

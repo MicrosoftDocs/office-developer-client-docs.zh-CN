@@ -22,8 +22,8 @@ ms.locfileid: "32329531"
 
 |主题|说明|
 |:----|:----------|
-|[显示“选择姓名”对话框以解析收件人](how-to-display-the-select-names-dialog-box-to-resolve-recipients.md)  |尝试解析 *recips* 参数所提供的收件人，并为每个因不明确而无法解析的收件人显示 Outlook“选择姓名”**** 对话框。|
-|[使用“选择姓名”对话框获取收件人，并将收件人分配到约会](how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md)  |介绍了如何使用“选择姓名”**** 对话框获取收件人，并将收件人分配到约会项。|
+|[显示“选择姓名”对话框以解析收件人](how-to-display-the-select-names-dialog-box-to-resolve-recipients.md)  |尝试解析 *recips* 参数所提供的收件人，并为每个因不明确而无法解析的收件人显示 Outlook“选择姓名”对话框。|
+|[使用“选择姓名”对话框获取收件人，并将收件人分配到约会](how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md)  |介绍了如何使用“选择姓名”对话框获取收件人，并将收件人分配到约会项。|
 |[获取收件人的电子邮件地址](how-to-get-the-e-mail-address-of-a-recipient.md)  |介绍了如何获取收件人的简单邮件传输协议 (SMTP) 地址。|
 
 ## <a name="see-also"></a>另请参阅

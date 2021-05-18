@@ -29,7 +29,7 @@ ms.locfileid: "33411552"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
    
@@ -45,15 +45,15 @@ HrSzFromEntryID(
 
  _cb_
   
-> 实时由_pentry_参数指向的条目标识符的大小 (以字节为单位)。 
+> [in]pentry 参数指向的条目标识符的大小（  _以字节_ 为单位）。 
     
  _pentry_
   
-> 实时指向包含要编码的条目标识符的[ENTRYID](entryid.md)结构的指针。 
+> [in]指向包含要编码的条目标识符的 [ENTRYID](entryid.md) 结构的指针。 
     
  _psz_
   
-> 排除指向返回的 ASCII 字符串的指针。
+> [out]指向返回的 ASCII 字符串的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -61,10 +61,10 @@ HrSzFromEntryID(
   
 ## <a name="remarks"></a>说明
 
-[HrEntryIDFromSz](hrentryidfromsz.md)和**HrSzFromEntryID**函数提供条目标识符的字符串和二进制格式之间的转换。 使用 MAPI 时, 应使用二进制数据的结构。 
+[HrEntryIDFromSz](hrentryidfromsz.md)和 **HrSzFromEntryID** 函数提供条目标识符的字符串和二进制格式之间的转换。 对于 MAPI，应该将结构与二进制数据一同使用。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-**HrSzFromEntryID**函数使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数为 ASCII 字符串分配内存。 
+**HrSzFromEntryID** 函数使用 [MAPIAllocateBuffer](mapiallocatebuffer.md)函数为 ASCII 字符串分配内存。 
   
 

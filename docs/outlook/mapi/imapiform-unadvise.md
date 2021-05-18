@@ -25,7 +25,7 @@ ms.locfileid: "32329468"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通过调用[IMAPIForm:: 建议](imapiform-advise.md)取消对以前建立的表单查看器的通知的注册。
+取消注册之前通过调用 [IMAPIForm：：Advise](imapiform-advise.md)建立的表单查看器的通知。
   
 ```cpp
 HRESULT Unadvise(
@@ -37,25 +37,25 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> 实时标识要取消的通知注册的连接号。
+> [in]标识要取消的通知注册的连接号码。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已取消注册。
+> 注册已取消。
     
 E_INVALIDARG 
   
-> 传递给_ulConnection_参数的连接号码不代表有效的注册。 
+> _ulConnection_ 参数中传递的连接号不表示有效的注册。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-表单查看者调用**IMAPIForm:: Unadvise**方法, 以取消注册, 以便通过调用**IMAPIForm:: Advise**方法首先建立的通知。 
+表单查看者调用 **IMAPIForm：：Unadvise** 方法来取消注册他们首先通过调用 **IMAPIForm：：Advise** 方法建立的通知。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-通过调用其[IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法来放弃您为表单查看器的视图建议接收器所包含的指针。 通常情况下, 在**Unadvise**调用过程中调用**Release** 。 但是, 如果另一个线程正在调用视图建议接收器的[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md)方法之一, 则延迟**释放**调用, 直到**IMAPIViewAdviseSink**方法返回。 
+通过调用其 [IUnknown：：Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) 方法，放弃您按住的指针查看表单查看器的视图通知接收器。 通常， **在** 非企业调用 **期间调用** Release。 但是，如果另一个线程正在调用视图建议接收器的 [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) 方法之一，请延迟 **Release** 调用，直到 **IMAPIViewAdviseSink** 方法返回。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -19,13 +19,13 @@ ms.locfileid: "33414387"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
- 创建一个 MAPI 脱机对象, 该对象由提供程序和存储区使用, 以便在对象处于联机和脱机状态时通知 MAPI。 
+ 创建提供程序和存储使用的 MAPI 脱机对象，以在对象联机和脱机时通知 MAPI， 
   
 |||
 |:-----|:-----|
-|导出者:  <br/> |Msmapi32  <br/> |
+|导出者：  <br/> |Msmapi32.dll  <br/> |
 |实现者：  <br/> |Outlook  <br/> |
-|调用者：  <br/> |Client  <br/> |
+|调用者：  <br/> |客户端  <br/> |
    
 ```cpp
 STDAPI HrCreateOfflineObj(
@@ -39,15 +39,15 @@ IMAPIOfflineMgr** ppOffline
 
 _ulFlags_
   
-> 实时它必须为0。
+> [in]它必须是 0。
     
 _pCreateInfo_
   
-> 实时指向**MAPIOFFLINE_CREATEINFO**结构的指针, 该结构包含创建脱机对象所需的信息。 
+> [in]指向包含 **创建脱机对象** 所需信息的 MAPIOFFLINE_CREATEINFO 结构指针。 
     
 _ppOffline_
   
-> 排除指向**IMAPIOfflineMgr**接口的指针。 
+> [out]指向 **IMAPIOfflineMgr 接口的** 指针。 
     
 ## <a name="return-value"></a>返回值
 

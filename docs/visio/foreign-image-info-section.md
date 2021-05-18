@@ -20,8 +20,8 @@ ms.locfileid: "33411713"
 
 包含在 Microsoft Visio 绘图中使用的来自另一程序的对象的宽度和高度，并且仅为此类对象在 ShapeSheet 窗口中显示。它还指示该对象的图像在其边框内的偏移距离。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在早于版本2000的 Visio 产品版本中, 此节的名称为 "**图像信息**"。
+在版本 2000 Visio产品版本中，此部分名为 **Image Info。**
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33411580"
 | TRUE  <br/> | 已锁定纵横比。  <br/> |
 | FALSE  <br/> | 未锁定纵横比。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 LockAspect 单元格的引用，请使用： 
   

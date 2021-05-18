@@ -21,20 +21,20 @@ ms.locfileid: "32328383"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-当 mapi 或 mapi 后台处理程序使用传输登录对象完成时:
+当 MAPI 或 MAPI 后台处理程序使用传输登录对象完成时：
   
-1. mapi 或 mapi 后台处理程序调用传输提供程序的[IXPLogon:: TransportLogoff](ixplogon-transportlogoff.md)方法。 
+1. MAPI 或 MAPI 后台处理程序调用传输提供程序的 [IXPLogon：：TransportLogoff](ixplogon-transportlogoff.md) 方法。 
     
-2. 传输提供程序通过调用[IMAPISupport:: MakeInvalid](imapisupport-makeinvalid.md)方法使 status 对象失效。 传输提供程序是否使在**TransportLogoff**调用时发送或接收的邮件对象失效, 具体取决于传递给**TransportLogoff**的标志。
+2. 传输提供程序通过调用 [IMAPISupport：：MakeInvalid](imapisupport-makeinvalid.md) 方法使状态对象失效。 传输提供程序是否使 **在 TransportLogoff** 调用时发送或接收的邮件对象失效取决于传递给 **TransportLogoff 的标志**。
     
-3. 传输提供程序调用支持对象的[IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx)方法以从状态表中删除传输提供程序的行, 并从内部表中删除使用 IMAPISupport 设置的任何唯一标识符 (uid) [::SetProviderUID](imapisupport-setprovideruid.md)方法。 它会减少此提供程序对象上活动的已知登录对象的计数。 如果计数达到零, MAPI 将调用[IXPProvider:: Shutdown](ixpprovider-shutdown.md)方法, 并在 provider 对象上**释放**。 如果这是在此过程中使用此 dll 的最后一个已知提供程序对象, 则 MAPI 稍后会在 dll 上调用**FreeLibrary**函数。 已释放 MAPI 支持对象的内存, 并且支持对象**释放**方法将返回。 
+3. 传输提供程序调用支持对象的 [IUnknown：：Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) 方法，以从状态表中删除传输提供程序的行，并从内部表中删除使用 [IMAPISupport：：SetProviderUID](imapisupport-setprovideruid.md) 方法设置的任何唯一标识符 (UID) 。 它可缩小此提供程序对象上活动的已知登录对象数。 如果计数达到零，MAPI 将调用提供程序对象的 [IXPProvider：：Shutdown](ixpprovider-shutdown.md)方法和 **Release。** 如果这是最后一个在此进程中使用此 DLL 的已知提供程序对象，MAPI 稍后将调用 DLL 上的 **FreeLibrary** 函数。 释放 MAPI 支持对象的内存，并且支持对象的 **Release** 方法返回。 
     
-4. **TransportLogoff**方法返回 S_OK。 
+4. **TransportLogoff** 方法返回S_OK。 
     
-5. mapi 或 mapi 后台处理程序调用传输提供程序的登录对象的**版本**。 释放对象的内存。 
+5. MAPI 或 MAPI 后台处理程序对传输提供程序的登录对象调用 **Release。** 释放对象的内存。 
     
-6. mapi 或 mapi 后台处理程序调用提供程序 DLL 上的**FreeLibrary** 。 
+6. MAPI 或 MAPI 后台处理程序在提供程序 DLL 上调用 **FreeLibrary。** 
     
-出于可靠性考虑, 登录和提供程序对象应该能够自行处理最终**发布**调用, 而无需先调用其**TransportLogoff**或**Shutdown**方法。 如果在这种情况下调用**Release** , 则传输提供程序应处理调用, 就好像使用零参数调用了**TransportLogoff**或**Shutdown** , 后跟**Release**。
+为了可靠，登录和提供程序对象应能够自行处理最终 **的 Release** 调用，而无需首先调用 **其 TransportLogoff** 或 **Shutdown** 方法。 如果 **在这种情况下调用 Release，** 则传输提供程序应该将调用视为使用零参数调用 **TransportLogoff** 或 **Shutdown** 后跟 **Release**。
   
 

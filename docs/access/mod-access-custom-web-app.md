@@ -1,5 +1,5 @@
 ---
-title: Mod (Access 自定义 web 应用程序)
+title: 'Mod (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412504"
 ---
-# <a name="mod-access-custom-web-app"></a>Mod (Access 自定义 web 应用程序)
+# <a name="mod-access-custom-web-app"></a>Mod (Access 自定义 Web 应用) 
 
 返回一个数除以另一个数的余数。
   
@@ -23,10 +23,10 @@ ms.locfileid: "33412504"
   
 ## <a name="syntax"></a>语法
 
- 被*除数***Mod***除数* 
+ *将* **mod** *除数* 
   
- 被*除数* 是要进行除法运算的数值表达式。 
+ *一个*  要除以的数值表达式。 
   
- *除数* 是用来除以除数的数值表达式。 
+ *Divisor*  是除数的数值表达式。 
   
 

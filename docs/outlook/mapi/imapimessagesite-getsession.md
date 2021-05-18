@@ -25,7 +25,7 @@ ms.locfileid: "33412686"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回在其中创建或打开当前邮件的 MAPI 会话。
+返回创建或打开当前邮件的 MAPI 会话。
   
 ```cpp
 HRESULT GetSession(
@@ -37,21 +37,21 @@ HRESULT GetSession(
 
  _ppSession_
   
-> 排除指向指向返回的 session 对象的指针的指针。
+> [out]指向返回的会话对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 S_FALSE 
   
 > 当前邮件不存在会话。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口列表，请参阅 [MAPI Form Interfaces](mapi-form-interfaces.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -59,7 +59,7 @@ S_FALSE
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetSession  <br/> |MFCMAPI 使用**IMAPIMessageSite:: GetSession**方法返回当前缓存的会话指针 (如果可用)。  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer：：GetSession  <br/> |MFCMAPI 使用 **IMAPIMessageSite：：GetSession** 方法返回当前缓存的会话指针（如果可用）。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

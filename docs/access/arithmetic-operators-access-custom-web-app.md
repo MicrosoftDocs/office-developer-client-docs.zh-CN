@@ -1,5 +1,5 @@
 ---
-title: 算术运算符 (Access 自定义 web 应用)
+title: '算术运算符 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,21 +13,21 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411839"
 ---
-# <a name="arithmetic-operators-access-custom-web-app"></a>算术运算符 (Access 自定义 web 应用)
+# <a name="arithmetic-operators-access-custom-web-app"></a>算术运算符 (Access 自定义 Web 应用) 
 
 > [!IMPORTANT]
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="in-this-section"></a>本节内容
 
-- [-(减法) (Access 自定义 web 应用程序)](subtractaccess-custom-web-app.md)
+- [- (Access)  (自定义 Web 应用) ](subtractaccess-custom-web-app.md)
     
-- [\*乘除(Access 自定义 web 应用程序)](multiplyaccess-custom-web-app.md)
+- [\* (Access)  (Web 应用相乘) ](multiplyaccess-custom-web-app.md)
     
-- [/(除) (Access 自定义 web 应用程序)](divideaccess-custom-web-app.md)
+- [/ (Divide)  (Access 自定义 Web 应用) ](divideaccess-custom-web-app.md)
     
-- [+ (添加) (Access 自定义 web 应用程序)](plusaddaccess-custom-web-app.md)
+- [+ (添加)  (Access 自定义 Web 应用) ](plusaddaccess-custom-web-app.md)
     
-- [Mod (Access 自定义 web 应用程序)](mod-access-custom-web-app.md)
+- [Mod (Access 自定义 Web 应用) ](mod-access-custom-web-app.md)
     
 

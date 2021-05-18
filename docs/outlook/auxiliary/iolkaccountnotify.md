@@ -21,19 +21,19 @@ ms.locfileid: "33412497"
 
 |||
 |:-----|:-----|
-|继承自:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
-|提供者：  <br/> | Client  <br/> |
-|接口标识符:  <br/> |IID_IOlkAccountNotify  <br/> |
+|继承自：  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
+|提供者：  <br/> | 客户端  <br/> |
+|接口标识符：  <br/> |IID_IOlkAccountNotify  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[Notify](iolkaccountnotify-notify.md) <br/> |通知客户端对指定帐户所做的更改。  <br/> |
+|[Notify](iolkaccountnotify-notify.md) <br/> |通知客户端对指定帐户的更改。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在设置通知时, 此接口将传递给[IOlkAccountManager:: Advise](iolkaccountmanager-advise.md) 。 
+设置通知时，此接口将传递给[IOlkAccountManager：：Advise。](iolkaccountmanager-advise.md) 
   
 ## <a name="see-also"></a>另请参阅
 

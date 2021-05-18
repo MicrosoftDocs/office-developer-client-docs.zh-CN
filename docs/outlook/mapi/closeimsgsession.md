@@ -25,13 +25,13 @@ ms.locfileid: "33412035"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-关闭邮件会话以及在该会话中创建的所有邮件。 
+关闭邮件会话以及该会话中创建的所有邮件。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Imessage  <br/> |
+|标头文件：  <br/> |Imessage.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 VOID CloseIMsgSession(
@@ -43,7 +43,7 @@ VOID CloseIMsgSession(
 
  _lpMsgSess_
   
-> 实时指向在邮件会话开始时使用[OpenIMsgSession](openimsgsession.md)函数获取的邮件会话对象的指针。 
+> [in]指向在邮件会话开始时使用 [OpenIMsgSession](openimsgsession.md) 函数获取的消息会话对象的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -51,8 +51,8 @@ VOID CloseIMsgSession(
   
 ## <a name="remarks"></a>说明
 
-客户端应用程序和服务提供程序使用消息会话, 以处理基于基础 OLE **IStorage**对象之上构建的多个相关 MAPI **IMessage**对象。 客户端或提供程序使用[OpenIMsgSession](openimsgsession.md)和**CloseIMsgSession**函数来包装邮件会话中的邮件的创建。 一旦打开了消息会话, 客户端或提供程序就会在调用[OpenIMsgOnIStg](openimsgonistg.md)中传递指向它的指针, 以创建新的**IMessage** **IStorage**对象。 
+邮件会话由需要处理基于基础 OLE **IStorage** 对象构建的几个相关 MAPI **IMessage** 对象的客户端应用程序和服务提供商使用。 客户端或提供程序使用 [OpenIMsgSession](openimsgsession.md) 和 **CloseIMsgSession** 函数将此类消息的创建包装在邮件会话中。 打开消息会话后，客户端或提供程序在 [调用 OpenIMsgOnIStg](openimsgonistg.md) 时传递指向该会话的指针，以创建新的 **IMessage**-on- **IStorage** 对象。 
   
-除了邮件的所有附件和其他属性, 消息会话仍跟踪在会话期间打开的所有**IMessage** **IStorage**对象。 当客户端或提供程序调用**CloseIMsgSession**时, 它将关闭所有这些对象。 调用**CloseIMsgSession**是关闭**IMessage**的**IStorage**对象的唯一方法。 
+邮件会话跟踪会话期间打开的所有 **IMessage**-on- **IStorage** 对象，以及邮件的所有附件和其他属性。 当客户端或提供程序调用 **CloseIMsgSession** 时，它将关闭所有这些对象。 调用 **CloseIMsgSession** 是关闭 **IMessage**-on- **IStorage 对象的唯一** 方法。 
   
 

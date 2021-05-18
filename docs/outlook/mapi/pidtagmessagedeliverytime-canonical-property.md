@@ -25,7 +25,7 @@ ms.locfileid: "32325611"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件的送达日期和时间。 
+包含邮件传递的日期和时间。 
   
 |||
 |:-----|:-----|
@@ -34,27 +34,27 @@ ms.locfileid: "32325611"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |邮件时间  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性描述邮件在服务器上的存储时间, 而不是在传输提供程序将邮件从服务器复制到本地存储时的下载时间。
+此属性描述邮件在服务器上存储的时间，而不是传输提供程序将邮件从服务器复制到本地存储的下载时间。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

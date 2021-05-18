@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: da67171d-d25f-3424-1409-33189ac63a12
-description: 定义忙/闲数据块。 这是约会或会议请求所代表的日历上的项目。
+description: 定义一个忙/闲数据块。 这是日历上的一个项目，由约会或会议请求表示。
 ms.openlocfilehash: 60d2ff50081a8950a397df6f2f6bbfd37d3bdb61
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413197"
 ---
-# <a name="fbblock1"></a>FBBlock_1
+# <a name="fbblock_1"></a>FBBlock_1
 
-定义忙/闲数据块。 这是约会或会议请求所代表的日历上的项目。
+定义一个忙/闲数据块。 这是日历上的一个项目，由约会或会议请求表示。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -34,15 +34,15 @@ typedef struct  tagFBBlock_1
 
 _m_tmStart_
   
-> 块的开始时间, 以相对时间表示。 有关详细信息, 请参阅[使用相对时间访问忙/闲数据](how-to-use-relative-time-to-access-free-busy-data.md)。
+> 块的开始时间，以相对时间表示。 有关详细信息，请参阅使用 [相对时间访问忙/闲数据](how-to-use-relative-time-to-access-free-busy-data.md)。
     
 _m_tmEnd_
   
-> 块的结束时间, 以相对时间表示。
+> 块的结束时间，以相对时间表示。
     
 _m_fbStatus_
   
-> 此块的忙/闲状态, 指示用户是在_m_tmStart_和_m_tmEnd_之间的时段内是否为外出、忙碌、暂定或空闲状态。
+> 此块的忙/闲状态，指示用户在 m_tmStart 和 m_tmEnd 之间的时间段是外出、忙碌  _、_ 暂定还是  _空闲_。
     
 ## <a name="see-also"></a>另请参阅
 

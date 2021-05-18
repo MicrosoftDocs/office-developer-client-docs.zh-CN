@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm340
 localization_priority: Normal
 ms.assetid: 3fbfa4bc-7792-b6d9-d549-4602d252c293
-description: 代表一维形状的终点相对于其父级原点的 y 坐标。
+description: 表示一维形状的终点相对于其父级原点之间的 y 坐标。
 ms.openlocfilehash: e75355ad333b7f6398618c974f7c49e5c26c41d6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.locfileid: "33414191"
 ---
 # <a name="endy-cell-1-d-endpoints-section"></a>EndY 单元格（“1-D Endpoints”内容）
 
-代表一维形状的终点相对于其父级原点的*y*坐标。 
+表示一维形状的终点相对于其父级原点之间的  *y*  坐标。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 EndY 单元格的引用，请使用： 
   

@@ -23,8 +23,8 @@ ms.locfileid: "33414135"
   
  **提示 MAPI 展开通讯组列表**
   
-- 将其**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) 属性设置为 MAPIPDL。
+- 将[PidTagAddressType PR_ADDRTYPE (PidTagAddressType](pidtagaddresstype-canonical-property.md)) 设置为 MAPIPDL。
     
-    MAPI 在将邮件发送到传输提供程序之前, 使用此类型展开地址。
+    在将邮件发送到传输提供程序之前，MAPI 会扩展具有此类型的地址。
     
 

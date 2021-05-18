@@ -25,7 +25,7 @@ ms.locfileid: "33411244"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-完成邮件的收件人列表, 展开特定的通讯组列表。
+完成邮件的收件人列表，扩展特定通讯组列表。
   
 ```cpp
 HRESULT ExpandRecips(
@@ -38,19 +38,19 @@ HRESULT ExpandRecips(
 
  _lpMessage_
   
-> 实时指向包含要处理的收件人列表的邮件的指针。
+> [in]指向包含要处理的收件人列表的邮件的指针。
     
  _lpulFlags_
   
-> 排除一个指针, 指向用于控制所发生的处理类型的标志的位掩码。 可以设置以下标志:
+> [out]指向控制所发生处理类型的标志的位掩码的指针。 可以设置以下标志：
     
 NEEDS_PREPROCESSING 
   
-> 邮件在发送之前需要进行预处理。
+> 在发送邮件之前，需要先对邮件进行预处理。
     
 NEEDS_SPOOLER 
   
-> MAPI 后台处理程序 (而不是呼叫者紧密耦合的传输提供程序) 必须发送邮件。
+> MAPI 后台处理程序 (与呼叫者紧密耦合的传输提供程序) 必须发送邮件。
     
 ## <a name="return-value"></a>返回值
 
@@ -58,25 +58,25 @@ S_OK
   
 > 已成功处理邮件的收件人列表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-为邮件存储提供程序支持对象实现了**IMAPISupport:: ExpandRecips**方法。 邮件存储提供程序调用**ExpandRecips**以提示 MAPI 执行以下任务: 
+**IMAPISupport：：ExpandRecips** 方法为邮件存储提供程序支持对象实现。 邮件存储提供程序调用 **ExpandRecips** 以提示 MAPI 执行以下任务： 
   
 - 将某些个人通讯组列表展开到其组件收件人。
     
-- 使用原始名称替换已更改的所有显示名称。
+- 将已更改的所有显示名称替换为原始名称。
     
-- 标记任何重复条目。
+- 标记任何重复的条目。
     
-- 解决所有的一次性地址。 
+- 解析所有一次地址。 
     
-- 检查邮件是否需要进行预处理, 如果有, 则将_lpulFlags_指向 NEEDS_PREPROCESSING 的标志设置为 ""。 
+- 检查邮件是否需要预处理，如果需要预处理，则设置  _lpulFlags_ 指向NEEDS_PREPROCESSING。 
     
- **ExpandRecips**展开邮件地址类型为 MAPIPDL 的任何通讯组列表。 
+ **ExpandRecips** 展开邮件地址类型为 MAPIPDL 的任何通讯组列表。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-始终在邮件处理过程中调用**ExpandRecips** 。 调用[IMessage:: SubmitMessage](imessage-submitmessage.md)方法实现中的第一个调用的**ExpandRecips** 。 
+始终在 **邮件处理过程中调用 ExpandRecips。** 调用 **ExpandRecips，** 这是 [IMessage：：SubmitMessage](imessage-submitmessage.md) 方法实现中的第一个调用。 
   
 ## <a name="see-also"></a>另请参阅
 

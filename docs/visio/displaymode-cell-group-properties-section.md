@@ -24,11 +24,11 @@ ms.locfileid: "33413183"
 |:-----|:-----|:-----|
 |0  <br/> |隐藏组合形状和文本。  <br/> |**visGrpDispModeNone** <br/> |
 |1  <br/> |将组合形状显示在成员形状后面。  <br/> |**visGrpDispModeBack** <br/> |
-|双面  <br/> |将组合形状显示在成员形状的前面。  <br/> |**visGrpDispModeFront** <br/> |
+|2  <br/> |将组合形状显示在成员形状的前面。  <br/> |**visGrpDispModeFront** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您还可以通过以下方法设置此值: 选择该组合, 在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中单击 "**行为**", 然后从 "**组数据**" 列表中选择一种显示模式。 
+您还可以设置此值，方法是选择该组，单击"开发工具"选项卡上的"形状设计"组 [](run-in-developer-mode-display-the-developer-tab.md)上的"行为"，然后从"组数据"**列表中选择** 显示模式。  
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 DisplayMode 单元格的引用，请使用： 
   

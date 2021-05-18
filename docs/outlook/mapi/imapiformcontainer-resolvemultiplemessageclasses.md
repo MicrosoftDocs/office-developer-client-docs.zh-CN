@@ -25,7 +25,7 @@ ms.locfileid: "33412539"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将一组消息类解析为表单容器中的窗体, 并返回这些窗体的窗体信息对象的数组。
+将一组邮件类解析为表单容器中的窗体，并返回这些表单的表单信息对象的数组。
   
 ```cpp
 HRESULT ResolveMultipleMessageClasses(
@@ -39,35 +39,35 @@ HRESULT ResolveMultipleMessageClasses(
 
  _pMsgClassArray_
   
-> 实时指向包含要解析的邮件类的名称的数组的指针。 邮件类名称始终为 ANSI 字符串, 决不能为 Unicode。
+> [in]指向包含要解析的邮件类的名称的数组的指针。 邮件类名称始终是 ANSI 字符串，从不为 Unicode。
     
  _ulFlags_
   
-> 实时用于控制如何解析邮件类别的标志的位掩码。 可以设置以下标志:
+> [in]控制邮件类解析方式的标志的位掩码。 可以设置以下标志：
     
 MAPIFORM_EXACTMATCH 
   
-> 应解析完全匹配的邮件类字符串。
+> 仅应解析完全匹配的邮件类字符串。
     
  _ppfrminfoarray_
   
-> 排除指向指向表单信息对象数组的指针的指针。 如果客户端应用程序在_pMsgClassArray_参数中传递了 NULL, 则_ppfrminfoarray_参数将包含容器中所有窗体的窗体信息对象。 
+> [out]指向指向表单信息对象数组的指针的指针。 如果客户端应用程序在  _pMsgClassArray_ 参数中传递 NULL，  _则 ppfrminfoarray_ 参数包含容器中所有表单的表单信息对象。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端应用程序调用**IMAPIFormContainer:: ResolveMultipleMessageClasses**方法将一组邮件类解析为表单容器中的表单。 _ppfrminfoarray_参数中返回的窗体信息对象的数组提供了对每个窗体属性的进一步访问。 
+客户端应用程序调用 **IMAPIFormContainer：：ResolveMultipleMessageClasses** 方法，将一组邮件类解析为表单容器中的表单。 _ppfrminfoarray_ 参数中返回的表单信息对象数组提供对表单的每个属性的进一步访问。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要将一组邮件类解析为表单, 请传入要解析的邮件类名称的数组。 若要强制解决是精确的 (即, 若要防止解析邮件类的基类), 可以在_ulFlags_参数中传递 MAPIFORM_EXACTMATCH 标志。 
+若要将一组邮件类解析为窗体，请传递要解析的邮件类名称数组。 若要强制使解析准确 (即，若要阻止解析到邮件类) 的基类，可以在  _ulFlags_ 参数中传递 MAPIFORM_EXACTMATCH 标志。 
   
-如果无法将邮件类别解析为表单, 则在表单信息数组中返回该邮件类别的 NULL。 因此, 即使方法返回 S_OK, 也不要假定已成功解决所有邮件类。 而是检查返回的数组中的值。
+如果无法将邮件类解析为窗体，将在窗体信息数组中为邮件类返回 NULL。 因此，即使该方法返回 S_OK，也不要假定已成功解析所有邮件类。 相反，请检查返回的数组中的值。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -75,7 +75,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|FormContainerDlg  <br/> |CFormContainerDlg:: OnResolveMultipleMessageClasses  <br/> |MFCMAPI 使用**IMAPIFormContainer:: ResolveMultipleMessageClasses**方法来查找与一组邮件类关联的窗体。  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg：：OnResolveMultipleMessageClasses  <br/> |MFCMAPI 使用 **IMAPIFormContainer：：ResolveMultipleMessageClasses** 方法来查找与一组邮件类关联的表单。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

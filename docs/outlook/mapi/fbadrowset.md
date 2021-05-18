@@ -43,17 +43,17 @@ BOOL FBadRowSet(
 
  _lpRowSet_
   
-> 实时指向标识要验证的行集的[SRowSet](srowset.md)结构的指针。 如果指针为 NULL, 则结构无效。 
+> [in]指向标识要验证的行集的 [SRowSet](srowset.md) 结构的指针。 如果指针为 NULL，则结构无效。 
     
 ## <a name="return-value"></a>返回值
 
 TRUE 
   
-> 指定的行集的行无效, 或行集本身无效。 
+> 指定行集的行无效，或者行集本身无效。 
     
 FALSE 
   
-> 指定的行集和行集本身的行都是有效的。
+> 指定行集的行和行集本身均有效。
     
 ## <a name="see-also"></a>另请参阅
 

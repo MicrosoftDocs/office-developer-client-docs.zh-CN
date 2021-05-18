@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32326430"
 ---
-# <a name="propmapiidentityentryid"></a>PROP_MAPI_IDENTITY_ENTRYID
+# <a name="prop_mapi_identity_entryid"></a>PROP_MAPI_IDENTITY_ENTRYID
 
 检索或设置帐户的通讯簿条目 ID。
   
@@ -29,9 +29,9 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x20020102  <br/> |
 |访问权限  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
- 不应在每个帐户上都存在的 "**信息"\_MAPI\_标识\_条目**。 例如, Exchange 帐户可能已设置了[\_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md) **\_MAPI\_标识\_ENTRYID** , 而不是针对 SMTP/POP3 帐户的设置。这种情况将被还原。 **MAPI_IDENTITY_ENTRYID\_** 返回的条目 ID 与[IMAPISession:: QueryIdentity](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx)中的_lppEntryID_返回的值类似。 
+ **PROP \_MAPI \_ IDENTITY \_ ENTRYID** 不应存在于每个帐户上。 例如，Exchange 帐户可以设置 **PROP \_ MAPI \_ IDENTITY \_ ENTRYID，** 而不是 [PROP \_ ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md)，而对于 SMTP/POP3 帐户，情况将反转。 **PROP \_MAPI_IDENTITY_ENTRYID** 返回条目 ID，该值类似于 [IMAPISession：：QueryIdentity](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx)中的 _lppEntryID_ 返回的值。 
   
 ## <a name="see-also"></a>另请参阅
 

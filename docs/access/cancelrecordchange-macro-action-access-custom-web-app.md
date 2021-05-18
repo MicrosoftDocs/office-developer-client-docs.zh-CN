@@ -1,5 +1,5 @@
 ---
-title: CancelRecordChange 宏操作 (Access 自定义 web 应用程序)
+title: 'CancelRecordChange Access 自定义 web (宏操作) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411825"
 ---
-# <a name="cancelrecordchange-macro-action-access-custom-web-app"></a>CancelRecordChange 宏操作 (Access 自定义 web 应用程序)
+# <a name="cancelrecordchange-macro-action-access-custom-web-app"></a>CancelRecordChange Access 自定义 web (宏操作) 
 
 使用 **CancelRecordChange** 操作可在提交更改之前取消在 **[CreateRecord](createrecord-data-block-access-custom-web-app.md)** 或 **[EditRecord](editrecord-data-block-access-custom-web-app.md)** 数据块中对某一记录应用的更改。 
   
@@ -23,7 +23,7 @@ ms.locfileid: "33411825"
 > [!NOTE]
 > **CancelRecordChange** 操作仅适用于数据宏。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 在调用 **CancelRecordChange** 操作时， **CreateRecord** 或 **EditRecord** 数据块将立即退出。 
   

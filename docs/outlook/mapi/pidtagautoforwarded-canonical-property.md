@@ -25,7 +25,7 @@ ms.locfileid: "32326612"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果客户端请求一个 X 毫秒-AutoForwarded 头字段, 则该参数包含 TRUE。
+如果客户端请求 X-MS-Exchange-Organization-AutoForwarded 头字段，包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -34,31 +34,31 @@ ms.locfileid: "32326612"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常规报告  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果将此属性设置为 FALSE 或不使用, 则不会创建 X-MS-AutoForwarded 头字段。
+如果此属性设置为 FALSE 或者未使用，将不会创建 X-MS-Exchange-Organization-AutoForwarded 头字段。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 定义在由 OXO-前缀的文档描述的对象中使用的每个属性。
+> 定义在 MS-OXO 前缀文档所描述的对象中使用的每个属性。
     
-[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

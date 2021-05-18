@@ -40,49 +40,49 @@ HRESULT OnActivateNext(
 
  _lpszMessageClass_
   
-> 实时指向下一封邮件的邮件类的指针。
+> [in]指向下一封邮件的邮件类的指针。
     
  _ulMessageStatus_
   
-> 实时客户端定义或提供程序定义的标志的位掩码, 从下一条消息的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性复制到显示, 提供有关邮件包含的内容表的状态信息实时.
+> [in]客户端定义或提供程序定义标志的位掩码，从要显示的下一封邮件的 **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性复制，提供有关包含邮件的内容表的状态信息。
     
  _ulMessageFlags_
   
-> 实时一个指针, 指向从下一个要显示的消息的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性中复制的标志位掩码, 该消息表示邮件的当前状态。
+> [in]指向从要显示的下一封邮件的 **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性复制的标志的位掩码的指针，指示邮件的当前状态。
     
  _ppPersistMessage_
   
-> 排除一个指针, 指向一个指向用于新表单的 form 对象的[IPersistMessage](ipersistmessageiunknown.md)实现的指针 (如果需要新表单)。 如果当前窗体对象可用于显示并保存下一封邮件, 则可以返回指向 NULL 的指针。 
+> [out]指向用于新表单的表单对象的 [IPersistMessage](ipersistmessageiunknown.md) 实现（如果需要新表单）的指针。 如果当前表单对象可用于显示和保存下一条消息，则返回一个指向 NULL 的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 通知已成功, 表单可以处理下一封邮件。
+> 通知成功，表单可以处理下一封邮件。
     
 S_FALSE 
   
-> 表单不处理下一封邮件的邮件类。
+> 窗体不处理下一封邮件的邮件类。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单查看者调用**IMAPIFormAdviseSink:: OnActivateNext**方法, 以帮助表单确定是否可以在文件夹中显示下一封邮件。 下一封邮件可能是任何类的消息, 但通常是同一个类或相关类。 这样, 客户端应用程序可以尽可能重用表单对象, 从而使读取相同类的多个邮件的过程更为有效。 
+表单查看器调用 **IMAPIFormAdviseSink：：OnActivateNext** 方法，以帮助表单确定是否可以在文件夹中显示下一封邮件。 下一封邮件可能是任何类的邮件，但通常为同一个类或相关类。 这样，通过允许客户端应用程序尽可能重复使用表单对象，可以更高效地读取同一类的多个消息。 
   
-大多数窗体对象将使用由_lpszMessageClass_参数指向的邮件类来确定它们是否可以处理下一封邮件。 通常情况下, 窗体不仅可以处理属于窗体的默认类的类的邮件, 还可以处理属于默认类的邮件的子类。 但是, 窗体可以使用其他因素来确定是否可以处理邮件, 例如下一封邮件的已发送或未发送状态。 
+大多数表单对象将使用  _lpszMessageClass_ 参数指向的消息类来确定它们是否可以处理下一封邮件。 通常，除了属于默认类的邮件之外，窗体还可以处理属于其默认类的类的邮件。 但是，表单可以使用其他因素来确定是否可以处理邮件，如下一封邮件的已发送状态或未发送状态。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果窗体可以处理邮件类, 则在_ppPersistMessage_参数中返回 S_OK 和 NULL。 如果表单可以创建可处理表单无法处理的邮件的新表单, 请按照以下步骤操作: 
+如果S_OK可以处理邮件类，则返回  _ppPersistMessage_ 参数中的值和 NULL。 如果表单可以创建一个新表单来处理无法处理的邮件，请按照以下步骤操作： 
   
-1. 调用表单的类工厂以创建新表单对象的实例。
+1. 调用窗体的类工厂以创建一个新的窗体对象的实例。
     
-2. 将该实例存储在_ppPersistMessage_指针参数的内容中。 
+2. 将实例存储在  _ppPersistMessage_ 指针参数的内容中。 
     
-3. 返回 S_OK。
+3. 返回S_OK。
     
-表单查看器将使用[IPersistMessage:: load](ipersistmessage-load.md)方法加载邮件, 该对象属于_ppPersistMessage_指向的对象。
+表单查看器将通过使用 [IPersistMessage：：Load](ipersistmessage-load.md) 方法加载邮件，该方法属于  _ppPersistMessage_ 指向的对象。
   
-如果既不能创建的窗体也不能处理下一封邮件, 则返回 S_FALSE。 不过, 通常情况下, 窗体不应返回此值, 因为它会导致表单查看器中的性能下降。
+如果窗体和可以创建的窗体均不能处理下一封邮件，则返回S_FALSE。 但是，通常，表单不应返回此值，因为它会导致在表单查看器中性能降低。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -90,7 +90,7 @@ S_FALSE
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions  <br/> |CMyMAPIFormViewer:: ActivateNext  <br/> |MFCMAPI 使用**IMAPIFormAdviseSink:: OnActivateNext**方法实现[IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md)方法。  <br/> |
+|MAPIFormFunctions.cpp  <br/> |CMyMAPIFormViewer：：ActivateNext  <br/> |MFCMAPI 使用 **IMAPIFormAdviseSink：：OnActivateNext** 方法实现 [IMAPIViewContext：：ActivateNext](imapiviewcontext-activatenext.md) 方法。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

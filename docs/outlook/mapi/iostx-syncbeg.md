@@ -25,7 +25,7 @@ ms.locfileid: "33411937"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-准备本地存储以在特定状态进行同步并检索要复制的必要信息。
+准备本地存储以用于特定状态同步，并检索要复制的必要信息。
   
 ```cpp
 HRESULT SyncBeg( 
@@ -38,7 +38,7 @@ HRESULT SyncBeg(
 
  _uiSync_
   
->  实时本地存储将输入的省/市/自治区。 以下是状态终止的列表: 
+>  [in]本地存储将进入的状态。 以下是状态标识列表： 
     
 LR_SYNC_IDLE
   
@@ -86,7 +86,7 @@ LR_SYNC_DOWNLOAD_TABLE
     
  _ppv_
   
->  [in]/[out] 指针, 指向与要输入的状态相对应的数据结构。 
+>  [in]/[out] 指向对应于要输入的状态的数据结构的指针。 
     
 [DNHIER](dnhier.md)
   
@@ -100,7 +100,7 @@ LR_SYNC_DOWNLOAD_TABLE
   
 > 
     
-[同步](sync.md)
+[SYNC](sync.md)
   
 > 
     
@@ -148,11 +148,11 @@ LR_SYNC_DOWNLOAD_TABLE
   
 > 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端调用**[IOSTX:: SetSyncResult](iostx-setsyncresult.md)** 设置同步的结果, 然后调用**[IOSTX:: SyncEnd](iostx-syncend.md)** 结束该状态。 客户端必须为对**IOSTX:: SyncBeg**的每个调用调用**[IOSTX:: SyncEnd](iostx-syncend.md)** , 以确定状态是否已成功复制。 确定后, Outlook 可以开始清理其内部状态。 
+客户端调用 **[IOSTX：：SetSyncResult](iostx-setsyncresult.md)** 以设置同步结果，然后调用 **[IOSTX：：SyncEnd](iostx-syncend.md)** 结束该状态。 对于每次调用 **IOSTX：：SyncBeg** 时，客户端必须调用 **[IOSTX：：SyncEnd，](iostx-syncend.md)** 以确定是否已成功复制状态。 确定此状态后，Outlook可以开始清理其内部状态。 
   
-大多数结构都包含 [out]/[in] 信息, 使 Outlook 能够将信息传递到客户端, 以及将信息传递给 Outlook 的客户端。 当客户端调用**IOSTX:: SyncBeg**时, Outlook 将为给定状态分配数据结构, 并使用该状态的信息对其进行初始化。 这是 [输出] 信息。 在状态下, 客户端更新该状态对应的数据结构。 这是 [!] 信息。 
+其中大多数结构包含 [out]/[in] 信息，Outlook向客户端传递信息，客户端将信息传递到Outlook。 当客户端调用 **IOSTX：：SyncBeg** 时，Outlook为给定状态分配数据结构，并初始化该状态的信息。 这是 [out] 信息。 当状态为 时，客户端会更新相应状态对应的数据结构。 这是 [in] 信息。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "32327228"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含附件的完全限定的路径和文件名。
+包含附件的完全限定路径和文件名。
   
 |||
 |:-----|:-----|
@@ -34,37 +34,37 @@ ms.locfileid: "32327228"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-建议附件子类型公开这些属性。 设置它们表示附件数据不包括在邮件中, 但在常见的文件服务器上可用。 这些属性与任何指示附件的**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 标志联合在一起都是必需的: **ATTACH_BY_REFERENCE**、 **ATTACH_BY_REF_RESOLVE**或**ATTACH_BY_REF_仅限**。 
+建议附件子对象公开这些属性。 设置它们表示附件数据不包含在邮件中，但在公用文件服务器上可用。 这些属性需要与任何通过引用指示附件的 **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 标志结合使用 **：ATTACH_BY_REFERENCE、ATTACH_BY_REF_RESOLVE** 或 **ATTACH_BY_REF_ONLY**。  
   
-每个目录或文件名的限制为八个字符的名称加上三个字符的扩展名。 整个路径限制为256个字符。 对于支持长文件名的平台, 请同时设置这两个属性和**PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md))。 
+每个目录或文件名限制为八个字符名称和一个三字符扩展名。 整个路径限制为 256 个字符。 对于支持长文件名的平台，请设置这些属性PR_ATTACH_LONG_PATHNAME ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)) 。  
   
-在大多数情况下, 客户端应用程序应使用通用命名约定 (UNC), 在文件为本地文件时, 应使用绝对路径。
+客户端应用程序应在共享文件时 (UNC) 通用命名约定，并且应在文件是本地文件时使用绝对路径。
   
-MAPI 仅适用于 ANSI 字符集中的路径和文件名。 在 OEM 字符集中使用路径和文件名的客户端必须先将其转换为 ANSI, 然后再调用 MAPI。 
+MAPI 仅适用于 ANSI 字符集内的路径和文件名。 在 OEM 字符集内使用路径和文件名的客户端必须先将其转换为 ANSI，然后才能调用 MAPI。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > 指定权限管理编码邮件的属性。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33412469"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 mime 邮件附件的 mime 序列号。
+包含 MIME 邮件附件的 MIME 序列号。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33412469"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性用于 MHTML 支持。 它表示 mime 邮件的父 mime 多部分正文部分内附件的序列号。
+此属性用于 MHTML 支持。 它表示 MIME 邮件的父 MIME 多部分正文部分内的附件序列号。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

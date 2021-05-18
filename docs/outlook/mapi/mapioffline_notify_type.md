@@ -15,17 +15,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413428"
 ---
-# <a name="mapiofflinenotifytype"></a>MAPIOFFLINE_NOTIFY_TYPE
+# <a name="mapioffline_notify_type"></a>MAPIOFFLINE_NOTIFY_TYPE
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通知的 MAPIOFFLINE_NOTIFY_TYPE, 用于标识连接状态中发生的更改是正在发生, 还是已完成。 
+通知MAPIOFFLINE_NOTIFY_TYPE标识连接状态更改是发生、正在发生还是已完成。 
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**。 
+请参阅 **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**。 
   
 ```cpp
 typedef enum { 

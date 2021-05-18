@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm795
 localization_priority: Normal
 ms.assetid: 98b86b9d-9cc0-1169-1c44-ef1505bf92fa
-description: 表示形状的旋转中心点 (旋转中心) 相对于其父级原点的 y 坐标。
+description: 表示形状的旋转中心点相对于 (原点) 的 y 坐标。
 ms.openlocfilehash: 17daf691e4802a93775bfd5272d2142ef33bd189
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.locfileid: "33411860"
 ---
 # <a name="piny-cell-shape-transform-section"></a>PinY 单元格（“Shape Transform”内容）
 
-表示形状的旋转中心点 (旋转中心) 相对于其父级原点的*y*坐标。 
+表示形状的旋转中心点相对于 (原点) 旋转中心位置的  *y*  坐标。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 PinY 单元格的引用，请使用： 
   

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1046253
 localization_priority: Normal
 ms.assetid: d4f0cf7a-ac4b-c914-7887-e1d65e9d59fa
-description: Visio 2013 为您的自定义绘图解决方案提供了一个功能强大的单一平台。 使用新的 ShapeSheet 单元格和函数, 以及新的自动化对象、属性、方法和事件, 可为您提供用于定义和控制解决方案中的元素行为的更多选项。
+description: Visio 2013 为自定义绘图解决方案提供了一个强大的平台。 新的 ShapeSheet 单元格和函数以及新的自动化对象、属性、方法和事件为您提供了更多选项来定义和控制解决方案中元素的行为。
 ms.openlocfilehash: 9ab1c447e7cfdf41b8c88a85438ac2904b1395cf
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,29 +18,29 @@ ms.locfileid: "33413323"
 ---
 # <a name="whats-new-for-visio-shapesheet-developers"></a>面向 Visio ShapeSheet 开发人员的新增功能
 
-Visio 2013 为您的自定义绘图解决方案提供了一个功能强大的单一平台。 使用新的 ShapeSheet 单元格和函数, 以及新的自动化对象、属性、方法和事件, 可为您提供用于定义和控制解决方案中的元素行为的更多选项。
+Visio 2013 为自定义绘图解决方案提供了一个强大的平台。 新的 ShapeSheet 单元格和函数以及新的自动化对象、属性、方法和事件为您提供了更多选项来定义和控制解决方案中元素的行为。
   
-## <a name="new-and-changed-cells"></a>新的和已更改的单元格
+## <a name="new-and-changed-cells"></a>新单元格和已更改的单元格
 <a name="vis15_WhatsNew_Cells"> </a>
 
-下表列出了可用于在 Visio 2013 中构建 ShapeSheet 解决方案的新单元格。
+下表列出了可用于在 Visio 2013 中生成 ShapeSheet 解决方案的新单元格。
   
 |**新单元格**|**Section**|
 |:-----|:-----|
-|[BevelBottomHeight](bevelbottomheight-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelBottomType](bevelbottomtype-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelBottomWidth](bevelbottomwidth-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelContourColor](bevelcontourcolor-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelContourSize](bevelcontoursize-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelDepthColor](beveldepthcolor-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelDepthSize](beveldepthsize-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelLightingAngle](bevellightingangle-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelLightingType](bevellightingtype-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelMaterialType](bevelmaterialtype-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelTopHeight](beveltopheight-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelTopType](beveltoptype-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[BevelTopWidth](beveltopwidth-cell-bevel-properties-section.md) <br/> |棱台属性  <br/> |
-|[ClippingPath](clippingpath-cell-foreign-image-info-section.md) <br/> |外部图像信息  <br/> |
+|[BevelBottomHeight](bevelbottomheight-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelBottomType](bevelbottomtype-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelBottomWidth](bevelbottomwidth-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelContourColor](bevelcontourcolor-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelContourSize](bevelcontoursize-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelDepthColor](beveldepthcolor-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelDepthSize](beveldepthsize-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelLightingAngle](bevellightingangle-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelLightingType](bevellightingtype-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelMaterialType](bevelmaterialtype-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelTopHeight](beveltopheight-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelTopType](beveltoptype-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[BevelTopWidth](beveltopwidth-cell-bevel-properties-section.md) <br/> |斜面属性  <br/> |
+|[ClippingPath](clippingpath-cell-foreign-image-info-section.md) <br/> |Foreign Image Info  <br/> |
 |[ColorSchemeIndex](colorschemeindex-cell-theme-properties-section.md) <br/> |主题属性  <br/> |
 |[CompoundType](compoundtype-cell-line-format-section.md) <br/> |线条格式  <br/> |
 |[ConnectorSchemeIndex](connectorschemeindex-cell-theme-properties-section.md) <br/> |主题属性  <br/> |
@@ -58,10 +58,10 @@ Visio 2013 为您的自定义绘图解决方案提供了一个功能强大的单
 |[LineGradientAngle](linegradientangle-cell-gradient-properties-section.md) <br/> |渐变属性  <br/> |
 |[LineGradientDir](linegradientdir-cell-gradient-properties-section.md) <br/> |渐变属性  <br/> |
 |[LineGradientEnabled](linegradientenabled-cell-gradient-properties-section.md) <br/> |渐变属性  <br/> |
-|[LockReplace](lockreplace-cell-protection-section.md) <br/> |保护  <br/> |
-|[LockThemeConnectors](lockthemeconnectors-cell-protection-section.md) <br/> |保护  <br/> |
-|[LockThemeFonts](lockthemefonts-cell-protection-section.md) <br/> |保护  <br/> |
-|[LockThemeIndex](lockthemeindex-cell-protection-section.md) <br/> |保护  <br/> |
+|[LockReplace](lockreplace-cell-protection-section.md) <br/> |Protection  <br/> |
+|[LockThemeConnectors](lockthemeconnectors-cell-protection-section.md) <br/> |Protection  <br/> |
+|[LockThemeFonts](lockthemefonts-cell-protection-section.md) <br/> |Protection  <br/> |
+|[LockThemeIndex](lockthemeindex-cell-protection-section.md) <br/> |Protection  <br/> |
 |[NoCoauth](nocoauth-cell-document-properties-section.md) <br/> |文档属性  <br/> |
 |[PageLockReplace](pagelockreplace-cell-page-properties-section.md) <br/> |页面属性  <br/> |
 |[Perspective](perspective-cell-3-d-rotation-properties-section.md) <br/> |三维旋转属性  <br/> |
@@ -98,7 +98,7 @@ Visio 2013 为您的自定义绘图解决方案提供了一个功能强大的单
 |[ThemeIndex](themeindex-cell-theme-properties-section.md) <br/> |主题属性  <br/> |
 |[UseGroupGradient](usegroupgradient-cell-gradient-properties-section.md) <br/> |渐变属性  <br/> |
    
-下表列出了已在 Visio 2013 中更改的单元格。
+下表列出了 2013 年 10 月Visio单元格。
   
 |**更改的单元格**|**备注**|
 |:-----|:-----|
@@ -107,36 +107,36 @@ Visio 2013 为您的自定义绘图解决方案提供了一个功能强大的单
 ## <a name="new-rows"></a>新行
 <a name="vis15_WhatsNew_Rows"> </a>
 
-下表列出了可用于在 Visio 2013 中构建 ShapeSheet 解决方案的新行。
+下表列出了可用于在 2013 年 10 月生成 ShapeSheet 解决方案Visio行。
   
 |**新行**|**Section**|
 |:-----|:-----|
 |[GradientStop](gradient-stop-row-fill-gradient-section.md) <br/> |填充渐变  <br/> |
 |[GradientStop](gradient-stop-row-line-gradient-section.md) <br/> |线条渐变  <br/> |
-|[RelCubBezTo](relcubbezto-row-geometry-section.md) <br/> |几何  <br/> |
-|[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |几何  <br/> |
-|[RelLineTo](rellineto-row-geometry-section.md) <br/> |几何  <br/> |
-|[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |几何  <br/> |
-|[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |几何  <br/> |
+|[RelCubBezTo](relcubbezto-row-geometry-section.md) <br/> |几何图形  <br/> |
+|[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |几何图形  <br/> |
+|[RelLineTo](rellineto-row-geometry-section.md) <br/> |几何图形  <br/> |
+|[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |几何图形  <br/> |
+|[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |几何图形  <br/> |
    
-## <a name="new-and-deprecated-functions"></a>新增和弃用的函数
+## <a name="new-and-deprecated-functions"></a>新的和弃用的函数
 <a name="vis15_WhatsNew_Functions"> </a>
 
 下表列出了 Visio 2013 中的新函数。
   
 |**新函数**|
 |:-----|
-|[字体](font-function.md) <br/> |
+|[FONT](font-function.md) <br/> |
 |[ISTHEMED](isthemed-function.md) <br/> |
 |[LANGUAGE](language-function.md) <br/> |
 |[THEMECBV](themecbv-function.md) <br/> |
 ||
 |[THEMEVAL](themeval-function.md) <br/> |
    
-下表列出了 Visio 2013 中已弃用的函数。
+下表列出了 2013 年 10 月Visio的函数。
   
-|**弃用的函数**|**备注**|
+|**已弃用的函数**|**备注**|
 |:-----|:-----|
-|**CELLISTHEMED** <br/> |由[ISTHEMED](isthemed-function.md)函数替换。  <br/> |
+|**CELLISTHEMED** <br/> |由 [ISTHEMED 函数](isthemed-function.md) 替换。  <br/> |
    
 

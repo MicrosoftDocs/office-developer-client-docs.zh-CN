@@ -22,11 +22,11 @@ ms.locfileid: "33413757"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-每当用户在 Excel 会话过程中使用外接程序管理器激活 XLL 时, 都会添加 Microsoft Excel。 当 Excel 启动并加载预安装的加载项时, 不会调用此函数。
+每当用户Microsoft Excel管理器在 Excel 会话期间激活 XLL 时，Add-In添加。 在启动和加载Excel加载项时，不会调用此函数。
   
-此函数可用于显示一个自定义对话框, 该对话框告知用户外接程序已激活, 或者读取或写入注册表, 或者检查许可信息 (例如)。
+此函数可用于显示一个自定义对话框，该对话框告知用户外接程序已激活，或者读取或写入注册表，或检查许可信息，例如。
   
-Excel 不需要 XLL 即可实现和导出此函数。
+Excel不需要 XLL 来实现和导出此函数。
   
 ```cs
 int WINAPI xlAutoAdd(void);
@@ -38,15 +38,15 @@ int WINAPI xlAutoAdd(void);
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-此函数的实现应返回1。 (**int**)。
+此函数的实现应返回 1。  (**int) 。**
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果 XLL 在加载项管理器添加时需要执行的操作, 请使用此函数。
+如果 XLL 在由 XLL 管理器添加时需要执行Add-In函数。
   
 ## <a name="example"></a>示例
 
-请`\SAMPLES\EXAMPLE\EXAMPLE.C`参阅`\SAMPLES\GENERIC\GENERIC.C`和, 以了解此函数的示例实现。 以下代码来自 `\SAMPLES\EXAMPLE\EXAMPLE.C`。
+有关  `\SAMPLES\EXAMPLE\EXAMPLE.C`  `\SAMPLES\GENERIC\GENERIC.C` 此函数的示例实现，请参阅 和 。 以下代码来自 `\SAMPLES\EXAMPLE\EXAMPLE.C`。
   
 ```cs
 int WINAPI xlAutoAdd(void)

@@ -25,44 +25,44 @@ ms.locfileid: "32330091"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果客户端或服务器应自动响应与会者或资源的所有会议请求, 则该参数为 TRUE。
+如果客户端或服务器应自动响应与会者或资源的所有会议请求，则包含 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SCHDINFO_AUTO_ACCEPT_APPTS  <br/> |
 |标识符:  <br/> |0x686D  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |闲/忙  <br/> |
+|区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-响应时, 响应必须是可接受的, 除非**PR_SCHDINFO_DISALLOW_RECURRING_APPTS** ([PidTagScheduleInfoDisallowRecurringAppts](pidtagscheduleinfodisallowrecurringappts-canonical-property.md)) 或 PR_SCHDINFO_DISALLOW_ 指定的其他约束**满足 OVERLAPPING_APPTS** ([PidTagScheduleInfoDisallowOverlappingAppts](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md)) 属性。 如果值为 FALSE 或缺少此属性, 则表示客户端或服务器不能自动接受会议请求。 这不是必需的属性。
+响应时，除非满足 PR_SCHDINFO_DISALLOW_RECURRING_APPTS ([PidTagScheduleInfoDisallowRecurringAppts](pidtagscheduleinfodisallowrecurringappts-canonical-property.md) **)** 或 **PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS** ([PidTagScheduleInfoDisallowOverlappingAppts](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md)) 属性指定的其他约束，否则响应必须是接受的。 FALSE 值或缺少此属性指示客户端或服务器不能自动接受会议请求。 这不是必需的属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
-[[毫秒-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > 发布用户或资源的可用性。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

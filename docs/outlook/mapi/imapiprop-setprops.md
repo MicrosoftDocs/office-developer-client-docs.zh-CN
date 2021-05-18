@@ -39,15 +39,15 @@ HRESULT SetProps(
 
  _cValues_
   
-> 实时由_lpPropArray_参数指向的属性值的计数。 _cValues_参数不得为0。 
+> [in]  _lpPropArray_ 参数指向的属性值计数。 _cValues_ 参数不能为 0。 
     
  _lpPropArray_
   
-> 实时指向[SPropValue](spropvalue.md)结构数组的指针, 该数组包含要更新的属性值。 
+> [in]指向包含要更新的属性值 [的 SPropValue](spropvalue.md) 结构的数组的指针。 
     
  _lppProblems_
   
-> [in, out]在输入时, 指向指向[SPropProblemArray](spropproblemarray.md)结构的指针的指针;否则为 NULL, 表示无需错误信息。 如果_lppProblems_是有效的输入指针, **SetProps**将返回有关更新一个或多个属性中的错误的详细信息。 
+> [in， out]在输入时，指向指向 [SPropProblemArray 结构的指针的](spropproblemarray.md) 指针;否则为 NULL，表示不需要错误信息。 如果  _lppProblems_ 是输入的有效指针 **，SetProps** 将返回有关更新一个或多个属性时错误的详细信息。 
     
 ## <a name="return-value"></a>返回值
 
@@ -55,15 +55,15 @@ S_OK
   
 > 属性已成功更新。
     
-以下值可在**SPropProblemArray**结构中返回, 但不能在**SetProps**的返回值中返回:
+以下值可以在 **SPropProblemArray** 结构中返回，但不能作为 **SetProps 的返回值**：
   
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
+> 设置 MAPI_UNICODE 标志，而实现不支持 Unicode，或者MAPI_UNICODE未设置，并且实现仅支持 Unicode。
     
 MAPI_E_COMPUTED 
   
-> 属性不能更新, 因为它是只读的, 由负责该对象的服务提供程序进行计算。
+> 属性无法更新，因为它是只读的，由负责对象的服务提供商计算。
     
 MAPI_E_INVALID_TYPE 
   
@@ -71,37 +71,37 @@ MAPI_E_INVALID_TYPE
     
 MAPI_E_NO_ACCESS 
   
-> 试图修改只读对象或访问用户拥有的对象权限不足的对象。
+> 试图修改只读对象或访问用户权限不足的对象。
     
 MAPI_E_NOT_ENOUGH_MEMORY 
   
-> 属性不能更新, 因为它大于远程过程调用 (RPC) 缓冲区大小。
+> 属性无法更新，因为它大于远程过程调用 (RPC) 缓冲区大小。
     
 MAPI_E_UNEXPECTED_TYPE 
   
-> 属性类型不是调用实现所需的类型。
+> 属性类型不是调用实现预期的类型。
     
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-忽略类型为**PT_ERROR**的**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) 属性标记和所有属性。 请勿在**SPropProblemArray**结构中进行更改或报告问题。 
+忽略 [PidTagNull PR_NULL (PidTagNull](pidtagnull-canonical-property.md)) 属性标记和类型为 PT_ERROR **的所有属性**。 不要对 **SPropProblemArray** 结构进行更改或报告问题。 
   
-如果属性值数组中包含**PT_OBJECT**类型的属性, 则返回 MAPI_E_INVALID_PARAMETER。 如果数组中包含多值属性, 并将其**cValues**成员设置为 0, 则也会返回此错误。 
+如果MAPI_E_INVALID_PARAMETER数组中包含类型 **PT_OBJECT，** 则返回值。 如果数组中包含多值属性，并且其 **cValues** 成员设置为 0，则也返回此错误。 
   
-如果调用成功, 但在设置某些属性时出现问题, 则返回 S_OK, 并将有关问题的信息放在_lppProblems_参数指向的**SPropProblemArray**结构的相应条目中。 
+如果调用整体成功，但设置某些属性时出现问题，则返回 S_OK，将问题的信息放在 _lppProblems_ 参数指向的 **SPropProblemArray** 结构的适当条目中。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-根据服务提供程序的不同, 您还可以通过传递包含与先前用于给定属性标识符的类型不同的属性标记来更改属性类型。
+根据服务提供商的不同，您还可以通过传递包含与之前用于给定属性标识符不同的类型的属性标记来更改属性类型。
   
-如果包含对象不支持的属性的属性标记, 且**SetProps**的实现允许创建新的属性, 则会将该属性添加到对象中。 以前与用于新属性的属性标识符一起存储的任何值都将被丢弃。 
+如果包含对象不支持的属性的属性标记，并且 **SetProps** 的实现允许创建新属性，则该属性将添加到对象中。 将丢弃与用于新属性的属性标识符一起存储的任何以前的值。 
   
-请注意, S_OK 返回值并不保证已成功更新所有属性。 某些提供程序在收到需要提供程序干预的调用 (如[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)或[IMAPIProp:: GetProps](imapiprop-getprops.md)) 之前缓存**SetProps**调用。 因此, 可以接收与后续调用相关的**SetProps**调用的错误值。 
+请注意，S_OK返回值并不能保证已成功更新所有属性。 某些提供程序缓存 **SetProps** 调用，直到收到需要提供程序干预的调用，例如 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 或 [IMAPIProp：：GetProps](imapiprop-getprops.md)。 因此，可以接收与以后调用的 **SetProps** 调用相关的错误值。 
   
-如果**SetProps**返回 S_OK, 请检查_lppProblems_针对更新各个属性的问题所指向的**SPropProblemArray**结构。 如果**SetProps**返回错误, 请勿检查属性问题数组。 而是调用对象的[IMAPIProp:: GetLastError](imapiprop-getlasterror.md)方法。 
+如果 **SetProps** S_OK，请检查 _lppProblems_ 指向的 **SPropProblemArray** 结构，以发现更新单个属性时出现问题。 如果 **SetProps** 返回错误，请不要检查属性问题数组。 相反，请调用对象的 [IMAPIProp：：GetLastError](imapiprop-getlasterror.md) 方法。 
   
-更新大型属性时, **SetProps**可能会失败并返回 MAPI_E_NOT_ENOUGH_MEMORY。 属性没有最大大小, 不同的对象可以有不同的限制。 如果您处理可能的大型属性, 请准备好在**SetProps**返回此错误值时将[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法用作接口标识符, 以将 IID_IStream 作为接口标识符进行调用。 
+更新大型属性时 **，SetProps** 可能会失败并返回MAPI_E_NOT_ENOUGH_MEMORY。 属性没有最大大小，不同对象可以有不同的限制。 如果你处理潜在的大型属性，请准备好调用 [IMAPIProp：：OpenProperty](imapiprop-openproperty.md) 方法，如果 **SetProps** 返回此错误值IID_IStream则使用 IID_IStream 作为接口标识符。 
   
-调用[MAPIFreeBuffer](mapifreebuffer.md)函数以释放**SPropProblemArray**结构。 
+调用 [MAPIFreeBuffer](mapifreebuffer.md) 函数以释放 **SPropProblemArray** 结构。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -109,7 +109,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|PropertyEditor  <br/> |CPropertyEditor:: WriteSPropValueToObject  <br/> |MFCMAPI 使用**IMAPIProp:: SetProps**方法在编辑属性后将属性写入对象。  <br/> |
+|PropertyEditor.cpp  <br/> |CPropertyEditor：：WriteSPropValueToObject  <br/> |MFCMAPI 使用 **IMAPIProp：：SetProps** 方法在编辑属性后将属性写回对象。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
