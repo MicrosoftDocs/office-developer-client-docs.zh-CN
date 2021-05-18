@@ -18,27 +18,27 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408570"
 ---
-# <a name="quitframework"></a><span data-ttu-id="fd0f2-104">QuitFramework</span><span class="sxs-lookup"><span data-stu-id="fd0f2-104">QuitFramework</span></span>
+# <a name="quitframework"></a><span data-ttu-id="5b335-104">QuitFramework</span><span class="sxs-lookup"><span data-stu-id="5b335-104">QuitFramework</span></span>
 
- <span data-ttu-id="fd0f2-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="fd0f2-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="5b335-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="5b335-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="fd0f2-106">framework library 函数, 它 uninitializes 框架库, 该函数简单地重新初始化临时**XLOPER**/ **XLOPER12**内存数据结构, 从而释放已分配的所有内存。</span><span class="sxs-lookup"><span data-stu-id="fd0f2-106">Framework library function that uninitializes the Framework library, which simply re-initializes the temporary **XLOPER**/ **XLOPER12** memory data structures, freeing any memory that has already been allocated.</span></span> 
+<span data-ttu-id="5b335-106">取消初始化框架库的框架库函数，只需重新初始化临时 **XLOPER** /  **XLOPER12** 内存数据结构，从而释放已分配的任何内存。</span><span class="sxs-lookup"><span data-stu-id="5b335-106">Framework library function that uninitializes the Framework library, which simply re-initializes the temporary **XLOPER**/ **XLOPER12** memory data structures, freeing any memory that has already been allocated.</span></span> 
   
 ```cs
 short WINAPI QuitFramework(void);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="fd0f2-107">参数</span><span class="sxs-lookup"><span data-stu-id="fd0f2-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5b335-107">参数</span><span class="sxs-lookup"><span data-stu-id="5b335-107">Parameters</span></span>
 
-<span data-ttu-id="fd0f2-108">此函数无需使用任何参数。</span><span class="sxs-lookup"><span data-stu-id="fd0f2-108">This function takes no arguments.</span></span>
+<span data-ttu-id="5b335-108">此函数无需使用任何参数。</span><span class="sxs-lookup"><span data-stu-id="5b335-108">This function takes no arguments.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="fd0f2-109">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="fd0f2-109">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="5b335-109">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="5b335-109">Property value/Return value</span></span>
 
-<span data-ttu-id="fd0f2-110">此函数不返回值。</span><span class="sxs-lookup"><span data-stu-id="fd0f2-110">This function does not return a value.</span></span>
+<span data-ttu-id="5b335-110">此函数不返回值。</span><span class="sxs-lookup"><span data-stu-id="5b335-110">This function does not return a value.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="fd0f2-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="fd0f2-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5b335-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5b335-111">See also</span></span>
 
 
 
-[<span data-ttu-id="fd0f2-112">框架库中的函数</span><span class="sxs-lookup"><span data-stu-id="fd0f2-112">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="5b335-112">框架库中的函数</span><span class="sxs-lookup"><span data-stu-id="5b335-112">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

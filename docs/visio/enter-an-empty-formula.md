@@ -16,13 +16,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405679"
 ---
-# <a name="enter-an-empty-formula"></a><span data-ttu-id="f7797-102">输入空公式</span><span class="sxs-lookup"><span data-stu-id="f7797-102">Enter an Empty Formula</span></span>
+# <a name="enter-an-empty-formula"></a><span data-ttu-id="efa70-102">输入空公式</span><span class="sxs-lookup"><span data-stu-id="efa70-102">Enter an Empty Formula</span></span>
 
-1. <span data-ttu-id="f7797-103">选择要包含公式的单元格。</span><span class="sxs-lookup"><span data-stu-id="f7797-103">Select the cell that will contain the formula.</span></span>
+1. <span data-ttu-id="efa70-103">选择要包含公式的单元格。</span><span class="sxs-lookup"><span data-stu-id="efa70-103">Select the cell that will contain the formula.</span></span>
     
-2. <span data-ttu-id="f7797-104">按 Delete，然后按 Enter。</span><span class="sxs-lookup"><span data-stu-id="f7797-104">Press DELETE, and then press ENTER.</span></span>
+2. <span data-ttu-id="efa70-104">按 Delete，然后按 Enter。</span><span class="sxs-lookup"><span data-stu-id="efa70-104">Press DELETE, and then press ENTER.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="f7797-105">请在插入局部公式后在**暂存**单元格中尝试此项。</span><span class="sxs-lookup"><span data-stu-id="f7797-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="f7797-106">单元格将恢复为 "无公式", 因为没有要从主控形状继承的公式。</span><span class="sxs-lookup"><span data-stu-id="f7797-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
+> <span data-ttu-id="efa70-105">在插入本地公式后， **在 Scratch** 单元格中尝试此操作。</span><span class="sxs-lookup"><span data-stu-id="efa70-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="efa70-106">单元格还原为"No Formula"，因为没有公式继承自主控对象。</span><span class="sxs-lookup"><span data-stu-id="efa70-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
   
 

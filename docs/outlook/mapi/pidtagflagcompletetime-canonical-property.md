@@ -19,56 +19,56 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316287"
 ---
-# <a name="pidtagflagcompletetime-canonical-property"></a><span data-ttu-id="78697-103">PidTagFlagCompleteTime 规范属性</span><span class="sxs-lookup"><span data-stu-id="78697-103">PidTagFlagCompleteTime Canonical Property</span></span>
+# <a name="pidtagflagcompletetime-canonical-property"></a><span data-ttu-id="82aff-103">PidTagFlagCompleteTime 规范属性</span><span class="sxs-lookup"><span data-stu-id="82aff-103">PidTagFlagCompleteTime Canonical Property</span></span>
 
   
   
-<span data-ttu-id="78697-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="78697-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="82aff-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="82aff-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="78697-105">以协调世界时 (UTC) 指定邮件对象被标记为 "已完成" 的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="78697-105">Specifies the date and time in Coordinated Universal Time (UTC) that the message object was flagged as completed.</span></span>
+<span data-ttu-id="82aff-105">指定邮件对象标记为已完成 (UTC) 协调世界时日期和时间。</span><span class="sxs-lookup"><span data-stu-id="82aff-105">Specifies the date and time in Coordinated Universal Time (UTC) that the message object was flagged as completed.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="78697-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="78697-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="78697-107">PR_FLAG_COMPLETE_TIME</span><span class="sxs-lookup"><span data-stu-id="78697-107">PR_FLAG_COMPLETE_TIME</span></span>  <br/> |
-|<span data-ttu-id="78697-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="78697-108">Identifier:</span></span>  <br/> |<span data-ttu-id="78697-109">0x1091</span><span class="sxs-lookup"><span data-stu-id="78697-109">0x1091</span></span>  <br/> |
-|<span data-ttu-id="78697-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="78697-110">Data type:</span></span>  <br/> |<span data-ttu-id="78697-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="78697-111">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="78697-112">区域：</span><span class="sxs-lookup"><span data-stu-id="78697-112">Area:</span></span>  <br/> |<span data-ttu-id="78697-113">其他</span><span class="sxs-lookup"><span data-stu-id="78697-113">Miscellaneous</span></span>  <br/> |
+|<span data-ttu-id="82aff-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="82aff-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="82aff-107">PR_FLAG_COMPLETE_TIME</span><span class="sxs-lookup"><span data-stu-id="82aff-107">PR_FLAG_COMPLETE_TIME</span></span>  <br/> |
+|<span data-ttu-id="82aff-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="82aff-108">Identifier:</span></span>  <br/> |<span data-ttu-id="82aff-109">0x1091</span><span class="sxs-lookup"><span data-stu-id="82aff-109">0x1091</span></span>  <br/> |
+|<span data-ttu-id="82aff-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="82aff-110">Data type:</span></span>  <br/> |<span data-ttu-id="82aff-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="82aff-111">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="82aff-112">区域：</span><span class="sxs-lookup"><span data-stu-id="82aff-112">Area:</span></span>  <br/> |<span data-ttu-id="82aff-113">其他</span><span class="sxs-lookup"><span data-stu-id="82aff-113">Miscellaneous</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="78697-114">注解</span><span class="sxs-lookup"><span data-stu-id="78697-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="82aff-114">备注</span><span class="sxs-lookup"><span data-stu-id="82aff-114">Remarks</span></span>
 
-<span data-ttu-id="78697-115">如果 message 对象未标记为已完成, 则删除此属性。</span><span class="sxs-lookup"><span data-stu-id="78697-115">This property is deleted if the message object is not flagged complete.</span></span> <span data-ttu-id="78697-116">时间的最小分辨率必须为分钟 (该值必须是600000000的倍数)。</span><span class="sxs-lookup"><span data-stu-id="78697-116">The time's smallest resolution must be minutes (the value must be a multiple of 600,000,000).</span></span> <span data-ttu-id="78697-117">如果对象是与会议相关的对象, 则该属性不得存在, 并且不应存在于任务对象上。</span><span class="sxs-lookup"><span data-stu-id="78697-117">This property must not exist if the object is a meeting-related object, and it should not exist on a task object.</span></span>
+<span data-ttu-id="82aff-115">如果邮件对象未标记为完成，则删除此属性。</span><span class="sxs-lookup"><span data-stu-id="82aff-115">This property is deleted if the message object is not flagged complete.</span></span> <span data-ttu-id="82aff-116">时间最短的分辨率必须为分钟数 (该值必须是 600，000，000 的倍数) 。</span><span class="sxs-lookup"><span data-stu-id="82aff-116">The time's smallest resolution must be minutes (the value must be a multiple of 600,000,000).</span></span> <span data-ttu-id="82aff-117">如果对象是会议相关的对象，则此属性不能存在，并且不应存在于任务对象上。</span><span class="sxs-lookup"><span data-stu-id="82aff-117">This property must not exist if the object is a meeting-related object, and it should not exist on a task object.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="78697-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="78697-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="82aff-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="82aff-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="78697-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="78697-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="82aff-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="82aff-119">Protocol specifications</span></span>
 
-<span data-ttu-id="78697-120">[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="78697-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="82aff-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="82aff-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="78697-121">提供对相关 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="78697-121">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="82aff-121">提供对相关协议Exchange Server的引用。</span><span class="sxs-lookup"><span data-stu-id="82aff-121">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="78697-122">[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="78697-122">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="82aff-122">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="82aff-122">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="78697-123">指定与标记相关的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="78697-123">Specifies the properties and operations related to flagging.</span></span>
+> <span data-ttu-id="82aff-123">指定与标记相关的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="82aff-123">Specifies the properties and operations related to flagging.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="78697-124">头文件</span><span class="sxs-lookup"><span data-stu-id="78697-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="82aff-124">头文件</span><span class="sxs-lookup"><span data-stu-id="82aff-124">Header files</span></span>
 
-<span data-ttu-id="78697-125">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="78697-125">Mapidefs.h</span></span>
+<span data-ttu-id="82aff-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="82aff-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="78697-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="78697-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="82aff-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="82aff-126">Provides data type definitions.</span></span>
     
-<span data-ttu-id="78697-127">Mapitags</span><span class="sxs-lookup"><span data-stu-id="78697-127">Mapitags.h</span></span>
+<span data-ttu-id="82aff-127">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="82aff-127">Mapitags.h</span></span>
   
-> <span data-ttu-id="78697-128">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="78697-128">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="82aff-128">包含作为备用名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="82aff-128">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="78697-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="78697-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="82aff-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="82aff-129">See also</span></span>
 
 
 
-[<span data-ttu-id="78697-130">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="78697-130">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="82aff-130">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="82aff-130">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="78697-131">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="78697-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="82aff-131">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="82aff-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="78697-132">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="78697-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="82aff-132">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="82aff-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="78697-133">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="78697-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="82aff-133">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="82aff-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

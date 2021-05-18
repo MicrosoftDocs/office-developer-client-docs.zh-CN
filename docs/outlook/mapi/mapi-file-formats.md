@@ -15,23 +15,23 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406477"
 ---
-# <a name="mapi-file-formats"></a><span data-ttu-id="8e80e-103">MAPI 文件格式</span><span class="sxs-lookup"><span data-stu-id="8e80e-103">MAPI File Formats</span></span>
+# <a name="mapi-file-formats"></a><span data-ttu-id="d4ada-103">MAPI 文件格式</span><span class="sxs-lookup"><span data-stu-id="d4ada-103">MAPI File Formats</span></span>
 
   
   
-<span data-ttu-id="8e80e-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8e80e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d4ada-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d4ada-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8e80e-105">MAPI 发布各种配置文件的格式, 客户端和服务提供程序使用这些文件来描述邮件服务及其服务提供商和表单。</span><span class="sxs-lookup"><span data-stu-id="8e80e-105">MAPI publishes the formats of various configuration files that clients and service providers use to describe message services and their service providers and forms.</span></span>
+<span data-ttu-id="d4ada-105">MAPI 发布各种配置文件的格式，客户端和服务提供程序使用这些格式来描述邮件服务及其服务提供程序和表单。</span><span class="sxs-lookup"><span data-stu-id="d4ada-105">MAPI publishes the formats of various configuration files that clients and service providers use to describe message services and their service providers and forms.</span></span>
   
-<span data-ttu-id="8e80e-106">下表按名称或类型描述这些文件:</span><span class="sxs-lookup"><span data-stu-id="8e80e-106">The following table describes these files by name or type:</span></span>
+<span data-ttu-id="d4ada-106">下表按名称或类型描述了这些文件：</span><span class="sxs-lookup"><span data-stu-id="d4ada-106">The following table describes these files by name or type:</span></span>
   
-|<span data-ttu-id="8e80e-107">**配置文件**</span><span class="sxs-lookup"><span data-stu-id="8e80e-107">**Configuration file**</span></span>|<span data-ttu-id="8e80e-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="8e80e-108">**Description**</span></span>|
+|<span data-ttu-id="d4ada-107">**配置文件**</span><span class="sxs-lookup"><span data-stu-id="d4ada-107">**Configuration file**</span></span>|<span data-ttu-id="d4ada-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="d4ada-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="8e80e-109">mapisvc.inf</span><span class="sxs-lookup"><span data-stu-id="8e80e-109">MapiSvc.inf</span></span>  <br/> |<span data-ttu-id="8e80e-110">包含 MAPI 子系统、邮件服务和服务提供程序的配置信息。</span><span class="sxs-lookup"><span data-stu-id="8e80e-110">Contains configuration information for the MAPI subsystem, message services, and service providers.</span></span>  <br/> |
-|<span data-ttu-id="8e80e-111">扩展名为. cfg 的文件</span><span class="sxs-lookup"><span data-stu-id="8e80e-111">Files with the .cfg extension</span></span>  <br/> |<span data-ttu-id="8e80e-112">包含表单的配置信息。</span><span class="sxs-lookup"><span data-stu-id="8e80e-112">Contains configuration information for a form.</span></span>  <br/> |
+|<span data-ttu-id="d4ada-109">MapiSvc.inf</span><span class="sxs-lookup"><span data-stu-id="d4ada-109">MapiSvc.inf</span></span>  <br/> |<span data-ttu-id="d4ada-110">包含 MAPI 子系统、邮件服务和服务提供程序的配置信息。</span><span class="sxs-lookup"><span data-stu-id="d4ada-110">Contains configuration information for the MAPI subsystem, message services, and service providers.</span></span>  <br/> |
+|<span data-ttu-id="d4ada-111">扩展名为 .cfg 的文件</span><span class="sxs-lookup"><span data-stu-id="d4ada-111">Files with the .cfg extension</span></span>  <br/> |<span data-ttu-id="d4ada-112">包含表单的配置信息。</span><span class="sxs-lookup"><span data-stu-id="d4ada-112">Contains configuration information for a form.</span></span>  <br/> |
    
-<span data-ttu-id="8e80e-113">有关 mapisvc.inf 的文件格式的详细信息, 请参阅[mapisvc.inf 的文件格式](file-format-of-mapisvc-inf.md)。</span><span class="sxs-lookup"><span data-stu-id="8e80e-113">For detailed information about the file format of MapiSvc.inf, see [File Format of MapiSvc.inf](file-format-of-mapisvc-inf.md).</span></span> 
+<span data-ttu-id="d4ada-113">有关 MapiSvc.inf 的文件格式的详细信息，请参阅 [File Format of MapiSvc.inf](file-format-of-mapisvc-inf.md)。</span><span class="sxs-lookup"><span data-stu-id="d4ada-113">For detailed information about the file format of MapiSvc.inf, see [File Format of MapiSvc.inf](file-format-of-mapisvc-inf.md).</span></span> 
   
-<span data-ttu-id="8e80e-114">有关表单配置文件的文件格式的详细信息, 请参阅[文件格式的表单配置文件](file-format-of-form-configuration-files.md)。</span><span class="sxs-lookup"><span data-stu-id="8e80e-114">For detailed information about the file format of a form configuration file, see [File Format of Form Configuration Files](file-format-of-form-configuration-files.md).</span></span> 
+<span data-ttu-id="d4ada-114">有关表单配置文件的文件格式的详细信息，请参阅 File [Format of Form Configuration Files](file-format-of-form-configuration-files.md)。</span><span class="sxs-lookup"><span data-stu-id="d4ada-114">For detailed information about the file format of a form configuration file, see [File Format of Form Configuration Files](file-format-of-form-configuration-files.md).</span></span> 
   
 

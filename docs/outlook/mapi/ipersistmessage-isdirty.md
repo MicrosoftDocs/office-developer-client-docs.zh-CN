@@ -19,39 +19,39 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407569"
 ---
-# <a name="ipersistmessageisdirty"></a><span data-ttu-id="a9a4e-103">IPersistMessage::IsDirty</span><span class="sxs-lookup"><span data-stu-id="a9a4e-103">IPersistMessage::IsDirty</span></span>
+# <a name="ipersistmessageisdirty"></a><span data-ttu-id="5cff1-103">IPersistMessage::IsDirty</span><span class="sxs-lookup"><span data-stu-id="5cff1-103">IPersistMessage::IsDirty</span></span>
 
   
   
-<span data-ttu-id="a9a4e-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a9a4e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5cff1-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5cff1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a9a4e-105">检查表单的上次保存以来所做的更改。</span><span class="sxs-lookup"><span data-stu-id="a9a4e-105">Checks the form for changes that were made since the last save.</span></span>
+<span data-ttu-id="5cff1-105">检查表单中自上次保存以来所做的更改。</span><span class="sxs-lookup"><span data-stu-id="5cff1-105">Checks the form for changes that were made since the last save.</span></span>
   
 ```cpp
 HRESULT IsDirty( void );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a9a4e-106">参数</span><span class="sxs-lookup"><span data-stu-id="a9a4e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5cff1-106">参数</span><span class="sxs-lookup"><span data-stu-id="5cff1-106">Parameters</span></span>
 
-<span data-ttu-id="a9a4e-107">无</span><span class="sxs-lookup"><span data-stu-id="a9a4e-107">None</span></span>
+<span data-ttu-id="5cff1-107">无</span><span class="sxs-lookup"><span data-stu-id="5cff1-107">None</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="a9a4e-108">返回值</span><span class="sxs-lookup"><span data-stu-id="a9a4e-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5cff1-108">返回值</span><span class="sxs-lookup"><span data-stu-id="5cff1-108">Return value</span></span>
 
-<span data-ttu-id="a9a4e-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="a9a4e-109">S_OK</span></span> 
+<span data-ttu-id="5cff1-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="5cff1-109">S_OK</span></span> 
   
-> <span data-ttu-id="a9a4e-110">表单包含自上次保存以来所做的更改。</span><span class="sxs-lookup"><span data-stu-id="a9a4e-110">The form has changes that were made since it was last saved.</span></span>
+> <span data-ttu-id="5cff1-110">表单具有自上次保存以来所做的更改。</span><span class="sxs-lookup"><span data-stu-id="5cff1-110">The form has changes that were made since it was last saved.</span></span>
     
-<span data-ttu-id="a9a4e-111">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="a9a4e-111">S_FALSE</span></span> 
+<span data-ttu-id="5cff1-111">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="5cff1-111">S_FALSE</span></span> 
   
-> <span data-ttu-id="a9a4e-112">表单不包含自上次保存以来所做的更改。</span><span class="sxs-lookup"><span data-stu-id="a9a4e-112">The form does not have changes that were made since it was last saved.</span></span>
+> <span data-ttu-id="5cff1-112">表单没有自上次保存以来所做的更改。</span><span class="sxs-lookup"><span data-stu-id="5cff1-112">The form does not have changes that were made since it was last saved.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="a9a4e-113">说明</span><span class="sxs-lookup"><span data-stu-id="a9a4e-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5cff1-113">备注</span><span class="sxs-lookup"><span data-stu-id="5cff1-113">Remarks</span></span>
 
-<span data-ttu-id="a9a4e-114">表单查看者调用**IPersistMessage:: IsDirty**方法, 以确定邮件是否有未保存的数据。</span><span class="sxs-lookup"><span data-stu-id="a9a4e-114">Form viewers call the **IPersistMessage::IsDirty** method to determine whether the message has unsaved data.</span></span> 
+<span data-ttu-id="5cff1-114">表单查看器调用 **IPersistMessage：：IsDirty** 方法以确定邮件是否包含未保存的数据。</span><span class="sxs-lookup"><span data-stu-id="5cff1-114">Form viewers call the **IPersistMessage::IsDirty** method to determine whether the message has unsaved data.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="a9a4e-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a9a4e-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5cff1-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5cff1-115">See also</span></span>
 
 
 
-[<span data-ttu-id="a9a4e-116">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a9a4e-116">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
+[<span data-ttu-id="5cff1-116">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="5cff1-116">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
 

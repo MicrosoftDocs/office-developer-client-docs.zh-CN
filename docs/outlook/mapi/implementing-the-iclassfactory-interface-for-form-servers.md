@@ -15,24 +15,24 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32310029"
 ---
-# <a name="implementing-the-iclassfactory-interface-for-form-servers"></a><span data-ttu-id="ba9d0-103">为表单服务器实现 IClassFactory 接口</span><span class="sxs-lookup"><span data-stu-id="ba9d0-103">Implementing the IClassFactory Interface for Form Servers</span></span>
+# <a name="implementing-the-iclassfactory-interface-for-form-servers"></a><span data-ttu-id="55670-103">为表单服务器实现 IClassFactory 接口</span><span class="sxs-lookup"><span data-stu-id="55670-103">Implementing the IClassFactory Interface for Form Servers</span></span>
 
   
   
-<span data-ttu-id="ba9d0-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ba9d0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="55670-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="55670-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ba9d0-105">[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx)是客户端应用程序用于创建表单服务器的邮件类的新表单对象的 OLE 接口。</span><span class="sxs-lookup"><span data-stu-id="ba9d0-105">[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) is the OLE interface that client applications use to create new form objects of your form server's message class.</span></span> <span data-ttu-id="ba9d0-106">下表列出了所需的**IClassFactory**方法。</span><span class="sxs-lookup"><span data-stu-id="ba9d0-106">The following table lists the **IClassFactory** methods that are required.</span></span> 
+<span data-ttu-id="55670-105">[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) 是客户端应用程序用于创建表单服务器的邮件类的新表单对象的 OLE 接口。</span><span class="sxs-lookup"><span data-stu-id="55670-105">[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) is the OLE interface that client applications use to create new form objects of your form server's message class.</span></span> <span data-ttu-id="55670-106">下表列出了所需的 **IClassFactory** 方法。</span><span class="sxs-lookup"><span data-stu-id="55670-106">The following table lists the **IClassFactory** methods that are required.</span></span> 
   
-|<span data-ttu-id="ba9d0-107">**方法**</span><span class="sxs-lookup"><span data-stu-id="ba9d0-107">**Method**</span></span>|<span data-ttu-id="ba9d0-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="ba9d0-108">**Description**</span></span>|
+|<span data-ttu-id="55670-107">**方法**</span><span class="sxs-lookup"><span data-stu-id="55670-107">**Method**</span></span>|<span data-ttu-id="55670-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="55670-108">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="ba9d0-109">CreateInstance</span><span class="sxs-lookup"><span data-stu-id="ba9d0-109">CreateInstance</span></span>](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |<span data-ttu-id="ba9d0-110">创建新的表单对象。</span><span class="sxs-lookup"><span data-stu-id="ba9d0-110">Creates a new form object.</span></span>  <br/> |
-|[<span data-ttu-id="ba9d0-111">LockServer</span><span class="sxs-lookup"><span data-stu-id="ba9d0-111">LockServer</span></span>](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |<span data-ttu-id="ba9d0-112">锁定内存中的窗体服务器, 以便在创建多个窗体对象时可以避免启动开销。</span><span class="sxs-lookup"><span data-stu-id="ba9d0-112">Locks the form server in memory so that startup overhead can be avoided when multiple form objects are created.</span></span>  <br/> |
+|[<span data-ttu-id="55670-109">CreateInstance</span><span class="sxs-lookup"><span data-stu-id="55670-109">CreateInstance</span></span>](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |<span data-ttu-id="55670-110">创建新的窗体对象。</span><span class="sxs-lookup"><span data-stu-id="55670-110">Creates a new form object.</span></span>  <br/> |
+|[<span data-ttu-id="55670-111">LockServer</span><span class="sxs-lookup"><span data-stu-id="55670-111">LockServer</span></span>](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |<span data-ttu-id="55670-112">锁定内存中的窗体服务器，以避免创建多个表单对象时出现启动开销。</span><span class="sxs-lookup"><span data-stu-id="55670-112">Locks the form server in memory so that startup overhead can be avoided when multiple form objects are created.</span></span>  <br/> |
    
-<span data-ttu-id="ba9d0-113">有关实现这些方法所需的所有信息, 请参阅 Windows SDK 中的 COM 和 ActiveX 对象服务一节。</span><span class="sxs-lookup"><span data-stu-id="ba9d0-113">For all the information necessary to implement these methods, see the COM and ActiveX Object Services section in the Windows SDK.</span></span>
+<span data-ttu-id="55670-113">有关实现这些方法所需的全部信息，请参阅 Windows SDK 中的 COM 和 ActiveX 对象服务部分。</span><span class="sxs-lookup"><span data-stu-id="55670-113">For all the information necessary to implement these methods, see the COM and ActiveX Object Services section in the Windows SDK.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="ba9d0-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ba9d0-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="55670-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="55670-114">See also</span></span>
 
 
 
-[<span data-ttu-id="ba9d0-115">编写表单服务器代码</span><span class="sxs-lookup"><span data-stu-id="ba9d0-115">Writing Form Server Code</span></span>](writing-form-server-code.md)
+[<span data-ttu-id="55670-115">编写表单服务器代码</span><span class="sxs-lookup"><span data-stu-id="55670-115">Writing Form Server Code</span></span>](writing-form-server-code.md)
 

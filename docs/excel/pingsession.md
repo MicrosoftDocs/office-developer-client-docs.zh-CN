@@ -14,28 +14,28 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408360"
 ---
-# <a name="pingsession"></a><span data-ttu-id="1c84f-103">PingSession</span><span class="sxs-lookup"><span data-stu-id="1c84f-103">PingSession</span></span>
+# <a name="pingsession"></a><span data-ttu-id="39196-103">PingSession</span><span class="sxs-lookup"><span data-stu-id="39196-103">PingSession</span></span>
 
-<span data-ttu-id="1c84f-104">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="1c84f-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="39196-104">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="39196-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="1c84f-105">检查会话是否有效。</span><span class="sxs-lookup"><span data-stu-id="1c84f-105">Checks whether a session is valid.</span></span> <span data-ttu-id="1c84f-106">当 Excel 需要确定以前返回的会话 ID 是否仍处于活动状态且可以使用时, 通常会调用此函数。</span><span class="sxs-lookup"><span data-stu-id="1c84f-106">This function is typically called when Excel needs to determine if a previously returned session ID is still active and can be used.</span></span>
+<span data-ttu-id="39196-105">检查会话是否有效。</span><span class="sxs-lookup"><span data-stu-id="39196-105">Checks whether a session is valid.</span></span> <span data-ttu-id="39196-106">此函数通常在用户需要Excel返回的会话 ID 是否仍处于活动状态且可以使用时调用。</span><span class="sxs-lookup"><span data-stu-id="39196-106">This function is typically called when Excel needs to determine if a previously returned session ID is still active and can be used.</span></span>
   
 ```cpp
 int PingSession(int SessionId)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1c84f-107">参数</span><span class="sxs-lookup"><span data-stu-id="1c84f-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="39196-107">参数</span><span class="sxs-lookup"><span data-stu-id="39196-107">Parameters</span></span>
 
-<span data-ttu-id="1c84f-108">_SessionID_</span><span class="sxs-lookup"><span data-stu-id="1c84f-108">_SessionID_</span></span>
+<span data-ttu-id="39196-108">_SessionID_</span><span class="sxs-lookup"><span data-stu-id="39196-108">_SessionID_</span></span>
   
-> <span data-ttu-id="1c84f-109">要 ping 的会话的 ID。</span><span class="sxs-lookup"><span data-stu-id="1c84f-109">The ID of the session to ping.</span></span> <span data-ttu-id="1c84f-110">此值必须与上一次调用[OpenSession](opensession.md)所返回的 ID 相匹配。</span><span class="sxs-lookup"><span data-stu-id="1c84f-110">This value must match an ID returned by a previous call to [OpenSession](opensession.md).</span></span>
+> <span data-ttu-id="39196-109">要 ping 的会话的 ID。</span><span class="sxs-lookup"><span data-stu-id="39196-109">The ID of the session to ping.</span></span> <span data-ttu-id="39196-110">此值必须与上一次调用 [OpenSession](opensession.md)时返回的 ID 匹配。</span><span class="sxs-lookup"><span data-stu-id="39196-110">This value must match an ID returned by a previous call to [OpenSession](opensession.md).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="1c84f-111">返回值</span><span class="sxs-lookup"><span data-stu-id="1c84f-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="39196-111">返回值</span><span class="sxs-lookup"><span data-stu-id="39196-111">Return value</span></span>
 
-<span data-ttu-id="1c84f-112">如果_SessionId_参数有效, 则为**xlHpcRetSuccess** , 否则为 false。否则**xlHpcRetInvalidSessionId**。</span><span class="sxs-lookup"><span data-stu-id="1c84f-112">**xlHpcRetSuccess** if the  _SessionId_ argument is valid; otherwise **xlHpcRetInvalidSessionId**.</span></span>
+<span data-ttu-id="39196-112">**xlHpcRetSuccess（** 如果  _SessionId_ 参数有效）;否则 **为 xlHpcRetInvalidSessionId**。</span><span class="sxs-lookup"><span data-stu-id="39196-112">**xlHpcRetSuccess** if the  _SessionId_ argument is valid; otherwise **xlHpcRetInvalidSessionId**.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="1c84f-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1c84f-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="39196-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="39196-113">See also</span></span>
 
-- [<span data-ttu-id="1c84f-114">OpenSession</span><span class="sxs-lookup"><span data-stu-id="1c84f-114">OpenSession</span></span>](opensession.md)
-- [<span data-ttu-id="1c84f-115">Excel 群集连接器函数</span><span class="sxs-lookup"><span data-stu-id="1c84f-115">Excel Cluster Connector Functions</span></span>](excel-cluster-connector-functions.md)
+- [<span data-ttu-id="39196-114">OpenSession</span><span class="sxs-lookup"><span data-stu-id="39196-114">OpenSession</span></span>](opensession.md)
+- [<span data-ttu-id="39196-115">Excel 群集连接器函数</span><span class="sxs-lookup"><span data-stu-id="39196-115">Excel Cluster Connector Functions</span></span>](excel-cluster-connector-functions.md)
 

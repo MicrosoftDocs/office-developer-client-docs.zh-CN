@@ -12,18 +12,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406351"
 ---
-# <a name="access-vba-reference"></a><span data-ttu-id="5aea9-103">[Access VBA 参考]</span><span class="sxs-lookup"><span data-stu-id="5aea9-103">[Access VBA reference]</span></span>
+# <a name="access-vba-reference"></a><span data-ttu-id="4d5a0-103">[Access VBA 参考]</span><span class="sxs-lookup"><span data-stu-id="4d5a0-103">[Access VBA reference]</span></span>
 
-<span data-ttu-id="5aea9-104">{插入摘要}</span><span class="sxs-lookup"><span data-stu-id="5aea9-104">{insert summary}</span></span>
+<span data-ttu-id="4d5a0-104">{插入摘要}</span><span class="sxs-lookup"><span data-stu-id="4d5a0-104">{insert summary}</span></span>
   
-<span data-ttu-id="5aea9-105">{插入介绍性内容}</span><span class="sxs-lookup"><span data-stu-id="5aea9-105">{insert introductory content}</span></span>
+<span data-ttu-id="4d5a0-105">{插入介绍性内容}</span><span class="sxs-lookup"><span data-stu-id="4d5a0-105">{insert introductory content}</span></span>
   
-## <a name="insert-section-title-text"></a><span data-ttu-id="5aea9-106">{insert section title text}</span><span class="sxs-lookup"><span data-stu-id="5aea9-106">{insert section title text}</span></span>
+## <a name="insert-section-title-text"></a><span data-ttu-id="4d5a0-106">{insert section title text}</span><span class="sxs-lookup"><span data-stu-id="4d5a0-106">{insert section title text}</span></span>
 
-<span data-ttu-id="5aea9-107">{插入正文文本}</span><span class="sxs-lookup"><span data-stu-id="5aea9-107">{insert body text}</span></span>
+<span data-ttu-id="4d5a0-107">{insert body text}</span><span class="sxs-lookup"><span data-stu-id="4d5a0-107">{insert body text}</span></span>
   
-### <a name="insert-subsection-title-text"></a><span data-ttu-id="5aea9-108">{insert subsection title text}</span><span class="sxs-lookup"><span data-stu-id="5aea9-108">{insert subsection title text}</span></span>
+### <a name="insert-subsection-title-text"></a><span data-ttu-id="4d5a0-108">{insert subsection title text}</span><span class="sxs-lookup"><span data-stu-id="4d5a0-108">{insert subsection title text}</span></span>
 
-<span data-ttu-id="5aea9-109">{insert body text}</span><span class="sxs-lookup"><span data-stu-id="5aea9-109">{insert body text}</span></span>
+<span data-ttu-id="4d5a0-109">{insert body text}</span><span class="sxs-lookup"><span data-stu-id="4d5a0-109">{insert body text}</span></span>
   
 

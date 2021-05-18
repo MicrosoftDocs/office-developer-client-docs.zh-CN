@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407779"
 ---
-# <a name="mapiofflinecallbacktype"></a><span data-ttu-id="8306a-103">MAPIOFFLINE_CALLBACK_TYPE</span><span class="sxs-lookup"><span data-stu-id="8306a-103">MAPIOFFLINE_CALLBACK_TYPE</span></span>
+# <a name="mapioffline_callback_type"></a><span data-ttu-id="fda5d-103">MAPIOFFLINE_CALLBACK_TYPE</span><span class="sxs-lookup"><span data-stu-id="fda5d-103">MAPIOFFLINE_CALLBACK_TYPE</span></span>
 
   
   
-<span data-ttu-id="8306a-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8306a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fda5d-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fda5d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8306a-105">枚举支持的回调类型。</span><span class="sxs-lookup"><span data-stu-id="8306a-105">Enumeration of supported types of callbacks.</span></span>
+<span data-ttu-id="fda5d-105">支持的回调类型的枚举。</span><span class="sxs-lookup"><span data-stu-id="fda5d-105">Enumeration of supported types of callbacks.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="8306a-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="8306a-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="fda5d-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="fda5d-106">Quick info</span></span>
 
 ```cpp
 typedef enum  
@@ -33,13 +33,13 @@ typedef enum
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="8306a-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8306a-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fda5d-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="fda5d-107">See also</span></span>
 
 
 
-[<span data-ttu-id="8306a-108">关于脱机状态 API</span><span class="sxs-lookup"><span data-stu-id="8306a-108">About the Offline State API</span></span>](about-the-offline-state-api.md)
+[<span data-ttu-id="fda5d-108">关于脱机状态 API</span><span class="sxs-lookup"><span data-stu-id="fda5d-108">About the Offline State API</span></span>](about-the-offline-state-api.md)
   
-[<span data-ttu-id="8306a-109">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="8306a-109">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="fda5d-109">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="fda5d-109">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="8306a-110">MAPIOFFLINE_ADVISEINFO</span><span class="sxs-lookup"><span data-stu-id="8306a-110">MAPIOFFLINE_ADVISEINFO</span></span>](mapioffline_adviseinfo.md)
+[<span data-ttu-id="fda5d-110">MAPIOFFLINE_ADVISEINFO</span><span class="sxs-lookup"><span data-stu-id="fda5d-110">MAPIOFFLINE_ADVISEINFO</span></span>](mapioffline_adviseinfo.md)
 

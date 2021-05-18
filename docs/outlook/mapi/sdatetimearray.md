@@ -19,17 +19,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406778"
 ---
-# <a name="sdatetimearray"></a><span data-ttu-id="efbf4-103">SDateTimeArray</span><span class="sxs-lookup"><span data-stu-id="efbf4-103">SDateTimeArray</span></span>
+# <a name="sdatetimearray"></a><span data-ttu-id="9afd3-103">SDateTimeArray</span><span class="sxs-lookup"><span data-stu-id="9afd3-103">SDateTimeArray</span></span>
 
   
   
-<span data-ttu-id="efbf4-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="efbf4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9afd3-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9afd3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="efbf4-105">包含用于描述类型为 PT_MV_SYSTIME 的属性的时间值数组。</span><span class="sxs-lookup"><span data-stu-id="efbf4-105">Contains an array of time values that are used to describe a property of type PT_MV_SYSTIME.</span></span>
+<span data-ttu-id="9afd3-105">包含一个时间值数组，用于描述类型为 PT_MV_SYSTIME。</span><span class="sxs-lookup"><span data-stu-id="9afd3-105">Contains an array of time values that are used to describe a property of type PT_MV_SYSTIME.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="efbf4-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="efbf4-106">Header file:</span></span>  <br/> |<span data-ttu-id="efbf4-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="efbf4-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="9afd3-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="9afd3-106">Header file:</span></span>  <br/> |<span data-ttu-id="9afd3-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="9afd3-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SDateTimeArray
@@ -40,28 +40,28 @@ typedef struct _SDateTimeArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="efbf4-108">Members</span><span class="sxs-lookup"><span data-stu-id="efbf4-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="9afd3-108">Members</span><span class="sxs-lookup"><span data-stu-id="9afd3-108">Members</span></span>
 
- <span data-ttu-id="efbf4-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="efbf4-109">**cValues**</span></span>
+ <span data-ttu-id="9afd3-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="9afd3-109">**cValues**</span></span>
   
-> <span data-ttu-id="efbf4-110">由**lpft**成员指向的数组中的值的计数。</span><span class="sxs-lookup"><span data-stu-id="efbf4-110">Count of values in the array pointed to by the **lpft** member.</span></span> 
+> <span data-ttu-id="9afd3-110">**lpft** 成员指向的数组中的值计数。</span><span class="sxs-lookup"><span data-stu-id="9afd3-110">Count of values in the array pointed to by the **lpft** member.</span></span> 
     
- <span data-ttu-id="efbf4-111">**lpft**</span><span class="sxs-lookup"><span data-stu-id="efbf4-111">**lpft**</span></span>
+ <span data-ttu-id="9afd3-111">**lpft**</span><span class="sxs-lookup"><span data-stu-id="9afd3-111">**lpft**</span></span>
   
-> <span data-ttu-id="efbf4-112">指向包含时间值的[FILETIME](filetime.md)结构数组的指针。</span><span class="sxs-lookup"><span data-stu-id="efbf4-112">Pointer to an array of [FILETIME](filetime.md) structures that contain the time values.</span></span> 
+> <span data-ttu-id="9afd3-112">指向包含时间值的 [FILETIME](filetime.md) 结构的数组的指针。</span><span class="sxs-lookup"><span data-stu-id="9afd3-112">Pointer to an array of [FILETIME](filetime.md) structures that contain the time values.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="efbf4-113">说明</span><span class="sxs-lookup"><span data-stu-id="efbf4-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9afd3-113">备注</span><span class="sxs-lookup"><span data-stu-id="9afd3-113">Remarks</span></span>
 
-<span data-ttu-id="efbf4-114">有关 PT_MV_SYSTIME 的详细信息, 请参阅[属性类型列表](property-types.md)。</span><span class="sxs-lookup"><span data-stu-id="efbf4-114">For more information about PT_MV_SYSTIME, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="9afd3-114">有关属性类型PT_MV_SYSTIME，请参阅 [属性类型列表](property-types.md)。</span><span class="sxs-lookup"><span data-stu-id="9afd3-114">For more information about PT_MV_SYSTIME, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="efbf4-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="efbf4-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9afd3-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9afd3-115">See also</span></span>
 
 
 
-[<span data-ttu-id="efbf4-116">FILETIME</span><span class="sxs-lookup"><span data-stu-id="efbf4-116">FILETIME</span></span>](filetime.md)
+[<span data-ttu-id="9afd3-116">FILETIME</span><span class="sxs-lookup"><span data-stu-id="9afd3-116">FILETIME</span></span>](filetime.md)
   
-[<span data-ttu-id="efbf4-117">SPropValue</span><span class="sxs-lookup"><span data-stu-id="efbf4-117">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="9afd3-117">SPropValue</span><span class="sxs-lookup"><span data-stu-id="9afd3-117">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="efbf4-118">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="efbf4-118">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="9afd3-118">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="9afd3-118">MAPI Structures</span></span>](mapi-structures.md)
 

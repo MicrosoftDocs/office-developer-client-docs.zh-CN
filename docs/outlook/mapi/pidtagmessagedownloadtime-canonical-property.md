@@ -19,46 +19,46 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407926"
 ---
-# <a name="pidtagmessagedownloadtime-canonical-property"></a><span data-ttu-id="4186e-103">PidTagMessageDownloadTime 规范属性</span><span class="sxs-lookup"><span data-stu-id="4186e-103">PidTagMessageDownloadTime Canonical Property</span></span>
+# <a name="pidtagmessagedownloadtime-canonical-property"></a><span data-ttu-id="f7bc3-103">PidTagMessageDownloadTime 规范属性</span><span class="sxs-lookup"><span data-stu-id="f7bc3-103">PidTagMessageDownloadTime Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4186e-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4186e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f7bc3-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f7bc3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4186e-105">包含从远程服务器到本地邮件存储区下载邮件的估计时间。</span><span class="sxs-lookup"><span data-stu-id="4186e-105">Contains the estimated time to download a message from a remote server to a local message store.</span></span> 
+<span data-ttu-id="f7bc3-105">包含将邮件从远程服务器下载到本地邮件存储的估计时间。</span><span class="sxs-lookup"><span data-stu-id="f7bc3-105">Contains the estimated time to download a message from a remote server to a local message store.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4186e-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="4186e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4186e-107">PR_MESSAGE_DOWNLOAD_TIME</span><span class="sxs-lookup"><span data-stu-id="4186e-107">PR_MESSAGE_DOWNLOAD_TIME</span></span>  <br/> |
-|<span data-ttu-id="4186e-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="4186e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="4186e-109">0x0E18</span><span class="sxs-lookup"><span data-stu-id="4186e-109">0x0E18</span></span>  <br/> |
-|<span data-ttu-id="4186e-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="4186e-110">Data type:</span></span>  <br/> |<span data-ttu-id="4186e-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="4186e-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="4186e-112">区域：</span><span class="sxs-lookup"><span data-stu-id="4186e-112">Area:</span></span>  <br/> |<span data-ttu-id="4186e-113">常规邮件</span><span class="sxs-lookup"><span data-stu-id="4186e-113">General messaging</span></span>  <br/> |
+|<span data-ttu-id="f7bc3-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="f7bc3-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f7bc3-107">PR_MESSAGE_DOWNLOAD_TIME</span><span class="sxs-lookup"><span data-stu-id="f7bc3-107">PR_MESSAGE_DOWNLOAD_TIME</span></span>  <br/> |
+|<span data-ttu-id="f7bc3-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="f7bc3-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f7bc3-109">0x0E18</span><span class="sxs-lookup"><span data-stu-id="f7bc3-109">0x0E18</span></span>  <br/> |
+|<span data-ttu-id="f7bc3-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="f7bc3-110">Data type:</span></span>  <br/> |<span data-ttu-id="f7bc3-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="f7bc3-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="f7bc3-112">区域：</span><span class="sxs-lookup"><span data-stu-id="f7bc3-112">Area:</span></span>  <br/> |<span data-ttu-id="f7bc3-113">常规消息</span><span class="sxs-lookup"><span data-stu-id="f7bc3-113">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4186e-114">说明</span><span class="sxs-lookup"><span data-stu-id="4186e-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f7bc3-114">备注</span><span class="sxs-lookup"><span data-stu-id="f7bc3-114">Remarks</span></span>
 
-<span data-ttu-id="4186e-115">此属性以秒为单位表示, 它表示将给定邮件从其当前位置下载到客户端查看头文件夹的本地邮件存储区所需时间的最佳估计。</span><span class="sxs-lookup"><span data-stu-id="4186e-115">This property is expressed in seconds and represents the best estimate of the time it would take a remote transport provider to download a given message from its current location to a message store local to the client viewing the header folder.</span></span> <span data-ttu-id="4186e-116">远程传输提供程序通常通过将**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) 属性的值除以每秒的字节数的通信链路的速度来计算此属性的值。</span><span class="sxs-lookup"><span data-stu-id="4186e-116">The remote transport provider typically calculates the value for this property by dividing the value of the **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) property by the speed of the communications link in bytes per second.</span></span> <span data-ttu-id="4186e-117">如果提供程序无法计算下载时间, 例如, 如果不知道链接速度, 它应在头文件夹内容表中为此列提供一个**PT_ERROR**值 (如**MAPI_E_NO_SUPPORT** )。</span><span class="sxs-lookup"><span data-stu-id="4186e-117">If the provider cannot calculate the download time, for example if it does not know the link speed, it should furnish a **PT_ERROR** value such as **MAPI_E_NO_SUPPORT** for this column in the header folder contents table.</span></span> 
+<span data-ttu-id="f7bc3-115">此属性以秒表示，表示远程传输提供程序将给定邮件从当前位置下载到客户端查看头文件夹的本地邮件存储所花的最佳估计时间。</span><span class="sxs-lookup"><span data-stu-id="f7bc3-115">This property is expressed in seconds and represents the best estimate of the time it would take a remote transport provider to download a given message from its current location to a message store local to the client viewing the header folder.</span></span> <span data-ttu-id="f7bc3-116">远程传输提供程序通常通过将 **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) 属性的值除以通信链接的速度（以字节/秒为单位）来计算此属性的值。</span><span class="sxs-lookup"><span data-stu-id="f7bc3-116">The remote transport provider typically calculates the value for this property by dividing the value of the **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) property by the speed of the communications link in bytes per second.</span></span> <span data-ttu-id="f7bc3-117">如果提供程序无法计算下载时间，例如，如果不知道链接速度，则应该提供 **PT_ERROR** 值（如 **MAPI_E_NO_SUPPORT）** 作为标题文件夹内容表中的此列。</span><span class="sxs-lookup"><span data-stu-id="f7bc3-117">If the provider cannot calculate the download time, for example if it does not know the link speed, it should furnish a **PT_ERROR** value such as **MAPI_E_NO_SUPPORT** for this column in the header folder contents table.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="4186e-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="4186e-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="f7bc3-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="f7bc3-118">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="4186e-119">头文件</span><span class="sxs-lookup"><span data-stu-id="4186e-119">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="f7bc3-119">头文件</span><span class="sxs-lookup"><span data-stu-id="f7bc3-119">Header files</span></span>
 
-<span data-ttu-id="4186e-120">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="4186e-120">Mapidefs.h</span></span>
+<span data-ttu-id="f7bc3-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="f7bc3-120">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4186e-121">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="4186e-121">Provides data type definitions.</span></span>
+> <span data-ttu-id="f7bc3-121">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="f7bc3-121">Provides data type definitions.</span></span>
     
-<span data-ttu-id="4186e-122">Mapitags</span><span class="sxs-lookup"><span data-stu-id="4186e-122">Mapitags.h</span></span>
+<span data-ttu-id="f7bc3-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="f7bc3-122">Mapitags.h</span></span>
   
-> <span data-ttu-id="4186e-123">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="4186e-123">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="f7bc3-123">包含作为备用名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="f7bc3-123">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4186e-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4186e-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f7bc3-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f7bc3-124">See also</span></span>
 
 
 
-[<span data-ttu-id="4186e-125">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="4186e-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="f7bc3-125">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="f7bc3-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4186e-126">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="4186e-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="f7bc3-126">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="f7bc3-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4186e-127">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="4186e-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="f7bc3-127">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="f7bc3-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4186e-128">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="4186e-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="f7bc3-128">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="f7bc3-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

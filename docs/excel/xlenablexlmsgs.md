@@ -18,19 +18,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407016"
 ---
-# <a name="xlenablexlmsgs"></a><span data-ttu-id="cf0d0-104">xlEnableXLMsgs</span><span class="sxs-lookup"><span data-stu-id="cf0d0-104">xlEnableXLMsgs</span></span>
+# <a name="xlenablexlmsgs"></a><span data-ttu-id="27f1c-104">xlEnableXLMsgs</span><span class="sxs-lookup"><span data-stu-id="27f1c-104">xlEnableXLMsgs</span></span>
 
- <span data-ttu-id="cf0d0-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="cf0d0-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="27f1c-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="27f1c-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="cf0d0-106">此函数已弃用，因此无需再调用。</span><span class="sxs-lookup"><span data-stu-id="cf0d0-106">This function is deprecated and no longer needs to be called.</span></span>
+<span data-ttu-id="27f1c-106">此函数已弃用，因此无需再调用。</span><span class="sxs-lookup"><span data-stu-id="27f1c-106">This function is deprecated and no longer needs to be called.</span></span>
   
 ```cs
 Excel12(xlEnableXLMsgs, 0, 0);
 ```
 
-## <a name="see-also"></a><span data-ttu-id="cf0d0-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cf0d0-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="27f1c-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="27f1c-107">See also</span></span>
 
 
 
-[<span data-ttu-id="cf0d0-108">只能从 DLL 或 XLL 调用的 C API 函数</span><span class="sxs-lookup"><span data-stu-id="cf0d0-108">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[<span data-ttu-id="27f1c-108">只能从 DLL 或 XLL 调用的 C API 函数</span><span class="sxs-lookup"><span data-stu-id="27f1c-108">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

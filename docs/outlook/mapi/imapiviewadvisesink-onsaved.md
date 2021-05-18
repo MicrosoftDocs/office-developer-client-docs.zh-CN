@@ -19,37 +19,37 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407604"
 ---
-# <a name="imapiviewadvisesinkonsaved"></a><span data-ttu-id="9099f-103">IMAPIViewAdviseSink::OnSaved</span><span class="sxs-lookup"><span data-stu-id="9099f-103">IMAPIViewAdviseSink::OnSaved</span></span>
+# <a name="imapiviewadvisesinkonsaved"></a><span data-ttu-id="bceab-103">IMAPIViewAdviseSink::OnSaved</span><span class="sxs-lookup"><span data-stu-id="bceab-103">IMAPIViewAdviseSink::OnSaved</span></span>
 
   
   
-<span data-ttu-id="9099f-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9099f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bceab-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bceab-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9099f-105">通知表单查看器表单中的当前邮件已保存。</span><span class="sxs-lookup"><span data-stu-id="9099f-105">Notifies the form viewer that the current message in a form has been saved.</span></span>
+<span data-ttu-id="bceab-105">通知窗体查看器窗体中的当前邮件已保存。</span><span class="sxs-lookup"><span data-stu-id="bceab-105">Notifies the form viewer that the current message in a form has been saved.</span></span>
   
 ```cpp
 HRESULT OnSaved( void );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9099f-106">参数</span><span class="sxs-lookup"><span data-stu-id="9099f-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bceab-106">参数</span><span class="sxs-lookup"><span data-stu-id="bceab-106">Parameters</span></span>
 
-<span data-ttu-id="9099f-107">无</span><span class="sxs-lookup"><span data-stu-id="9099f-107">None</span></span>
+<span data-ttu-id="bceab-107">无</span><span class="sxs-lookup"><span data-stu-id="bceab-107">None</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="9099f-108">返回值</span><span class="sxs-lookup"><span data-stu-id="9099f-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bceab-108">返回值</span><span class="sxs-lookup"><span data-stu-id="bceab-108">Return value</span></span>
 
-<span data-ttu-id="9099f-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="9099f-109">S_OK</span></span> 
+<span data-ttu-id="bceab-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="bceab-109">S_OK</span></span> 
   
-> <span data-ttu-id="9099f-110">调用成功, 并返回了所需的值或值。</span><span class="sxs-lookup"><span data-stu-id="9099f-110">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="bceab-110">调用成功并返回了预期值。</span><span class="sxs-lookup"><span data-stu-id="bceab-110">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="9099f-111">说明</span><span class="sxs-lookup"><span data-stu-id="9099f-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bceab-111">备注</span><span class="sxs-lookup"><span data-stu-id="bceab-111">Remarks</span></span>
 
-<span data-ttu-id="9099f-112">窗体对象在成功保存窗体中的当前邮件后调用**IMAPIViewAdviseSink:: OnSaved**方法。</span><span class="sxs-lookup"><span data-stu-id="9099f-112">A form object calls the **IMAPIViewAdviseSink::OnSaved** method after the current message in a form has been successfully saved.</span></span> <span data-ttu-id="9099f-113">这样做将允许查看者更新其窗口, 以反映对邮件的更改。</span><span class="sxs-lookup"><span data-stu-id="9099f-113">Doing so permits viewers to update their windows to reflect changes to the message.</span></span> 
+<span data-ttu-id="bceab-112">表单对象在成功保存表单中的当前邮件后调用 **IMAPIViewAdviseSink：：OnSaved** 方法。</span><span class="sxs-lookup"><span data-stu-id="bceab-112">A form object calls the **IMAPIViewAdviseSink::OnSaved** method after the current message in a form has been successfully saved.</span></span> <span data-ttu-id="bceab-113">这样，查看者可以更新其窗口以反映对邮件的更改。</span><span class="sxs-lookup"><span data-stu-id="bceab-113">Doing so permits viewers to update their windows to reflect changes to the message.</span></span> 
   
-<span data-ttu-id="9099f-114">有关表单通知的详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。</span><span class="sxs-lookup"><span data-stu-id="9099f-114">For more information about form notifications, see [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).</span></span>
+<span data-ttu-id="bceab-114">有关表单通知详细信息，请参阅 [发送和接收表单通知](sending-and-receiving-form-notifications.md)。</span><span class="sxs-lookup"><span data-stu-id="bceab-114">For more information about form notifications, see [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="9099f-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9099f-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bceab-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bceab-115">See also</span></span>
 
 
 
-[<span data-ttu-id="9099f-116">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9099f-116">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
+[<span data-ttu-id="bceab-116">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bceab-116">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
 

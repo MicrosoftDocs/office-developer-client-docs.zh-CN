@@ -19,52 +19,52 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32319206"
 ---
-# <a name="pidtagattachcontentid-canonical-property"></a><span data-ttu-id="8832b-103">PidTagAttachContentId 规范属性</span><span class="sxs-lookup"><span data-stu-id="8832b-103">PidTagAttachContentId Canonical Property</span></span>
+# <a name="pidtagattachcontentid-canonical-property"></a><span data-ttu-id="43eb9-103">PidTagAttachContentId 规范属性</span><span class="sxs-lookup"><span data-stu-id="43eb9-103">PidTagAttachContentId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="8832b-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8832b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="43eb9-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="43eb9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8832b-105">包含多用途 Internet 邮件扩展 (MIME) 邮件附件的内容标识标头。</span><span class="sxs-lookup"><span data-stu-id="8832b-105">Contains the content identification header of a Multipurpose Internet Mail Extensions (MIME) message attachment.</span></span> 
+<span data-ttu-id="43eb9-105">包含 MIME 邮件附件中多用途 Internet 邮件扩展 (标识) 标头。</span><span class="sxs-lookup"><span data-stu-id="43eb9-105">Contains the content identification header of a Multipurpose Internet Mail Extensions (MIME) message attachment.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8832b-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="8832b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8832b-107">PR_ATTACH_CONTENT_ID、PR_ATTACH_CONTENT_ID_A、PR_ATTACH_CONTENT_ID_W</span><span class="sxs-lookup"><span data-stu-id="8832b-107">PR_ATTACH_CONTENT_ID, PR_ATTACH_CONTENT_ID_A, PR_ATTACH_CONTENT_ID_W</span></span>  <br/> |
-|<span data-ttu-id="8832b-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="8832b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8832b-109">0x3712</span><span class="sxs-lookup"><span data-stu-id="8832b-109">0x3712</span></span>  <br/> |
-|<span data-ttu-id="8832b-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="8832b-110">Data type:</span></span>  <br/> |<span data-ttu-id="8832b-111">PT_STRING8、PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="8832b-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="8832b-112">区域：</span><span class="sxs-lookup"><span data-stu-id="8832b-112">Area:</span></span>  <br/> |<span data-ttu-id="8832b-113">邮件附件</span><span class="sxs-lookup"><span data-stu-id="8832b-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="43eb9-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="43eb9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="43eb9-107">PR_ATTACH_CONTENT_ID、PR_ATTACH_CONTENT_ID_A、PR_ATTACH_CONTENT_ID_W</span><span class="sxs-lookup"><span data-stu-id="43eb9-107">PR_ATTACH_CONTENT_ID, PR_ATTACH_CONTENT_ID_A, PR_ATTACH_CONTENT_ID_W</span></span>  <br/> |
+|<span data-ttu-id="43eb9-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="43eb9-108">Identifier:</span></span>  <br/> |<span data-ttu-id="43eb9-109">0x3712</span><span class="sxs-lookup"><span data-stu-id="43eb9-109">0x3712</span></span>  <br/> |
+|<span data-ttu-id="43eb9-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="43eb9-110">Data type:</span></span>  <br/> |<span data-ttu-id="43eb9-111">PT_STRING8、PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="43eb9-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="43eb9-112">区域：</span><span class="sxs-lookup"><span data-stu-id="43eb9-112">Area:</span></span>  <br/> |<span data-ttu-id="43eb9-113">邮件附件</span><span class="sxs-lookup"><span data-stu-id="43eb9-113">Message attachment</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="8832b-114">注解</span><span class="sxs-lookup"><span data-stu-id="8832b-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="43eb9-114">备注</span><span class="sxs-lookup"><span data-stu-id="43eb9-114">Remarks</span></span>
 
-<span data-ttu-id="8832b-115">这些属性用于 MHTML 支持。</span><span class="sxs-lookup"><span data-stu-id="8832b-115">These properties are used for MHTML support.</span></span> <span data-ttu-id="8832b-116">它们表示相应 MIME 正文部件的内容标识标头。</span><span class="sxs-lookup"><span data-stu-id="8832b-116">They represent the content identification header for the appropriate MIME body part.</span></span> 
+<span data-ttu-id="43eb9-115">这些属性用于 MHTML 支持。</span><span class="sxs-lookup"><span data-stu-id="43eb9-115">These properties are used for MHTML support.</span></span> <span data-ttu-id="43eb9-116">它们表示相应 MIME 正文部分的内容标识标头。</span><span class="sxs-lookup"><span data-stu-id="43eb9-116">They represent the content identification header for the appropriate MIME body part.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="8832b-117">相关资源</span><span class="sxs-lookup"><span data-stu-id="8832b-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="43eb9-117">相关资源</span><span class="sxs-lookup"><span data-stu-id="43eb9-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="8832b-118">协议规范</span><span class="sxs-lookup"><span data-stu-id="8832b-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="43eb9-118">协议规范</span><span class="sxs-lookup"><span data-stu-id="43eb9-118">Protocol specifications</span></span>
 
-<span data-ttu-id="8832b-119">[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8832b-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="43eb9-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="43eb9-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="8832b-120">处理邮件和附件对象。</span><span class="sxs-lookup"><span data-stu-id="8832b-120">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="43eb9-120">处理邮件和附件对象。</span><span class="sxs-lookup"><span data-stu-id="43eb9-120">Handles message and attachment objects.</span></span>
     
-## <a name="header-files"></a><span data-ttu-id="8832b-121">头文件</span><span class="sxs-lookup"><span data-stu-id="8832b-121">Header Files</span></span>
+## <a name="header-files"></a><span data-ttu-id="43eb9-121">头文件</span><span class="sxs-lookup"><span data-stu-id="43eb9-121">Header Files</span></span>
 
-<span data-ttu-id="8832b-122">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="8832b-122">Mapidefs.h</span></span>
+<span data-ttu-id="43eb9-122">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="43eb9-122">Mapidefs.h</span></span>
   
-> <span data-ttu-id="8832b-123">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="8832b-123">Provides data type definitions.</span></span>
+> <span data-ttu-id="43eb9-123">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="43eb9-123">Provides data type definitions.</span></span>
     
-<span data-ttu-id="8832b-124">Mapitags</span><span class="sxs-lookup"><span data-stu-id="8832b-124">Mapitags.h</span></span>
+<span data-ttu-id="43eb9-124">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="43eb9-124">Mapitags.h</span></span>
   
-> <span data-ttu-id="8832b-125">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="8832b-125">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="43eb9-125">包含作为备用名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="43eb9-125">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8832b-126">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8832b-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="43eb9-126">另请参阅</span><span class="sxs-lookup"><span data-stu-id="43eb9-126">See also</span></span>
 
 
 
-[<span data-ttu-id="8832b-127">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="8832b-127">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="43eb9-127">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="43eb9-127">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="8832b-128">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="8832b-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="43eb9-128">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="43eb9-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="8832b-129">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="8832b-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="43eb9-129">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="43eb9-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="8832b-130">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="8832b-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="43eb9-130">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="43eb9-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

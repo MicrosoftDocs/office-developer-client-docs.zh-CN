@@ -15,12 +15,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32317225"
 ---
-# <a name="initializing-ole-for-mapi"></a><span data-ttu-id="46ede-103">为 MAPI 初始化 OLE</span><span class="sxs-lookup"><span data-stu-id="46ede-103">Initializing OLE for MAPI</span></span>
+# <a name="initializing-ole-for-mapi"></a><span data-ttu-id="58c84-103">为 MAPI 初始化 OLE</span><span class="sxs-lookup"><span data-stu-id="58c84-103">Initializing OLE for MAPI</span></span>
 
   
   
-<span data-ttu-id="46ede-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="46ede-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="58c84-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="58c84-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="46ede-105">如果还使用 ole, 请调用 ole 函数[OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx)以初始化 ole 库。</span><span class="sxs-lookup"><span data-stu-id="46ede-105">If you also use OLE, call the OLE function [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) to initialize the OLE libraries.</span></span> <span data-ttu-id="46ede-106">**OleInitialize**为会话初始化全局数据, 并准备 OLE 库以接受调用。</span><span class="sxs-lookup"><span data-stu-id="46ede-106">**OleInitialize** initializes global data for the session and prepares the OLE libraries to accept calls.</span></span> <span data-ttu-id="46ede-107">有关调用**OleInitialize**的信息, 请参阅 Windows SDK。</span><span class="sxs-lookup"><span data-stu-id="46ede-107">For information about calling **OleInitialize**, see the Windows SDK.</span></span>
+<span data-ttu-id="58c84-105">如果还使用 OLE，请调用 OLE 函数 [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) 以初始化 OLE 库。</span><span class="sxs-lookup"><span data-stu-id="58c84-105">If you also use OLE, call the OLE function [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) to initialize the OLE libraries.</span></span> <span data-ttu-id="58c84-106">**OleInitialize** 初始化会话的全局数据，并准备 OLE 库以接受呼叫。</span><span class="sxs-lookup"><span data-stu-id="58c84-106">**OleInitialize** initializes global data for the session and prepares the OLE libraries to accept calls.</span></span> <span data-ttu-id="58c84-107">有关调用 **OleInitialize 的信息**，请参阅 Windows SDK。</span><span class="sxs-lookup"><span data-stu-id="58c84-107">For information about calling **OleInitialize**, see the Windows SDK.</span></span>
   
 

@@ -19,60 +19,60 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316679"
 ---
-# <a name="pidlidtaskstartdate-canonical-property"></a><span data-ttu-id="22b67-103">PidLidTaskStartDate 规范属性</span><span class="sxs-lookup"><span data-stu-id="22b67-103">PidLidTaskStartDate Canonical Property</span></span>
+# <a name="pidlidtaskstartdate-canonical-property"></a><span data-ttu-id="6d042-103">PidLidTaskStartDate 规范属性</span><span class="sxs-lookup"><span data-stu-id="6d042-103">PidLidTaskStartDate Canonical Property</span></span>
 
   
   
-<span data-ttu-id="22b67-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="22b67-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6d042-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6d042-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="22b67-105">用户预期开始任务的日期。</span><span class="sxs-lookup"><span data-stu-id="22b67-105">The date when the user expects to begin the task.</span></span>
+<span data-ttu-id="6d042-105">用户期望开始任务的日期。</span><span class="sxs-lookup"><span data-stu-id="6d042-105">The date when the user expects to begin the task.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="22b67-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="22b67-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="22b67-107">dispidTaskStartDate</span><span class="sxs-lookup"><span data-stu-id="22b67-107">dispidTaskStartDate</span></span>  <br/> |
-|<span data-ttu-id="22b67-108">属性集:</span><span class="sxs-lookup"><span data-stu-id="22b67-108">Property set:</span></span>  <br/> |<span data-ttu-id="22b67-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="22b67-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="22b67-110">长 ID (盖子):</span><span class="sxs-lookup"><span data-stu-id="22b67-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="22b67-111">0x00008104</span><span class="sxs-lookup"><span data-stu-id="22b67-111">0x00008104</span></span>  <br/> |
-|<span data-ttu-id="22b67-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="22b67-112">Data type:</span></span>  <br/> |<span data-ttu-id="22b67-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="22b67-113">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="22b67-114">区域：</span><span class="sxs-lookup"><span data-stu-id="22b67-114">Area:</span></span>  <br/> |<span data-ttu-id="22b67-115">任务</span><span class="sxs-lookup"><span data-stu-id="22b67-115">Task</span></span>  <br/> |
+|<span data-ttu-id="6d042-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="6d042-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6d042-107">dispidTaskStartDate</span><span class="sxs-lookup"><span data-stu-id="6d042-107">dispidTaskStartDate</span></span>  <br/> |
+|<span data-ttu-id="6d042-108">属性集：</span><span class="sxs-lookup"><span data-stu-id="6d042-108">Property set:</span></span>  <br/> |<span data-ttu-id="6d042-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="6d042-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="6d042-110">LONG ID (的一) ：</span><span class="sxs-lookup"><span data-stu-id="6d042-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="6d042-111">0x00008104</span><span class="sxs-lookup"><span data-stu-id="6d042-111">0x00008104</span></span>  <br/> |
+|<span data-ttu-id="6d042-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="6d042-112">Data type:</span></span>  <br/> |<span data-ttu-id="6d042-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="6d042-113">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="6d042-114">区域：</span><span class="sxs-lookup"><span data-stu-id="6d042-114">Area:</span></span>  <br/> |<span data-ttu-id="6d042-115">任务</span><span class="sxs-lookup"><span data-stu-id="6d042-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="22b67-116">注解</span><span class="sxs-lookup"><span data-stu-id="22b67-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6d042-116">备注</span><span class="sxs-lookup"><span data-stu-id="6d042-116">Remarks</span></span>
 
-<span data-ttu-id="22b67-117">如果不设置此属性值, 则该任务没有开始日期。</span><span class="sxs-lookup"><span data-stu-id="22b67-117">If this property value is left unset, the task does not have a start date.</span></span> <span data-ttu-id="22b67-118">值为 "0x5AE980E0" (1525252320) 也表示该任务没有开始日期。</span><span class="sxs-lookup"><span data-stu-id="22b67-118">A value of "0x5AE980E0" (1,525,252,320) also means that the task does not have a start date.</span></span> <span data-ttu-id="22b67-119">如果任务具有开始日期, 则该值的时间部分必须为午夜, 并且还必须设置**dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) 和**dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) 属性。</span><span class="sxs-lookup"><span data-stu-id="22b67-119">If the task has a start date, the value must have a time component of midnight, and the **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) and **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) properties must also be set.</span></span>
+<span data-ttu-id="6d042-117">如果此属性值未设置，则任务没有开始日期。</span><span class="sxs-lookup"><span data-stu-id="6d042-117">If this property value is left unset, the task does not have a start date.</span></span> <span data-ttu-id="6d042-118">值"0x5AE980E0" (1，525，252，320) 还意味着任务没有开始日期。</span><span class="sxs-lookup"><span data-stu-id="6d042-118">A value of "0x5AE980E0" (1,525,252,320) also means that the task does not have a start date.</span></span> <span data-ttu-id="6d042-119">如果任务具有开始日期，则值必须具有午夜的时间部分，并且还必须设置 **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) 和 **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) 属性。</span><span class="sxs-lookup"><span data-stu-id="6d042-119">If the task has a start date, the value must have a time component of midnight, and the **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) and **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) properties must also be set.</span></span>
   
-<span data-ttu-id="22b67-120">此属性由位于[[OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)中的信息标记协议规范和与任务相关的对象协议规范共享。</span><span class="sxs-lookup"><span data-stu-id="22b67-120">This property is shared by the Informational Flagging Protocol Specification and Task-Related Object Protocol Specification located in [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="6d042-120">此属性由信息标记协议规范以及位于 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)Task-Related对象协议规范共享。</span><span class="sxs-lookup"><span data-stu-id="6d042-120">This property is shared by the Informational Flagging Protocol Specification and Task-Related Object Protocol Specification located in [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="22b67-121">相关资源</span><span class="sxs-lookup"><span data-stu-id="22b67-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="6d042-121">相关资源</span><span class="sxs-lookup"><span data-stu-id="6d042-121">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="22b67-122">协议规范</span><span class="sxs-lookup"><span data-stu-id="22b67-122">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="6d042-122">协议规范</span><span class="sxs-lookup"><span data-stu-id="6d042-122">Protocol specifications</span></span>
 
-<span data-ttu-id="22b67-123">[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="22b67-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="6d042-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6d042-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="22b67-124">提供属性集定义和对相关 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="22b67-124">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="6d042-124">提供属性集定义和对相关协议规范Exchange Server引用。</span><span class="sxs-lookup"><span data-stu-id="6d042-124">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="22b67-125">[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="22b67-125">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="6d042-125">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6d042-125">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="22b67-126">指定在 "联系人" 和 "个人通讯组" 列表中允许的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="22b67-126">Specifies the properties and operations that are permissible on contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="6d042-126">指定对联系人和个人通讯组列表允许的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="6d042-126">Specifies the properties and operations that are permissible on contacts and personal distribution lists.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="22b67-127">头文件</span><span class="sxs-lookup"><span data-stu-id="22b67-127">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="6d042-127">头文件</span><span class="sxs-lookup"><span data-stu-id="6d042-127">Header files</span></span>
 
-<span data-ttu-id="22b67-128">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="22b67-128">Mapidefs.h</span></span>
+<span data-ttu-id="6d042-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="6d042-128">Mapidefs.h</span></span>
   
-> <span data-ttu-id="22b67-129">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="22b67-129">Provides data type definitions.</span></span>
+> <span data-ttu-id="6d042-129">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="6d042-129">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="22b67-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="22b67-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6d042-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6d042-130">See also</span></span>
 
 
 
-[<span data-ttu-id="22b67-131">PidLidTaskDueDate 规范属性</span><span class="sxs-lookup"><span data-stu-id="22b67-131">PidLidTaskDueDate Canonical Property</span></span>](pidlidtaskduedate-canonical-property.md)
+[<span data-ttu-id="6d042-131">PidLidTaskDueDate 规范属性</span><span class="sxs-lookup"><span data-stu-id="6d042-131">PidLidTaskDueDate Canonical Property</span></span>](pidlidtaskduedate-canonical-property.md)
   
-[<span data-ttu-id="22b67-132">PidLidCommonStart 规范属性</span><span class="sxs-lookup"><span data-stu-id="22b67-132">PidLidCommonStart Canonical Property</span></span>](pidlidcommonstart-canonical-property.md)
+[<span data-ttu-id="6d042-132">PidLidCommonStart 规范属性</span><span class="sxs-lookup"><span data-stu-id="6d042-132">PidLidCommonStart Canonical Property</span></span>](pidlidcommonstart-canonical-property.md)
 
 
-[<span data-ttu-id="22b67-133">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="22b67-133">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="6d042-133">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="6d042-133">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="22b67-134">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="22b67-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="6d042-134">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="6d042-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="22b67-135">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="22b67-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="6d042-135">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="6d042-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="22b67-136">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="22b67-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="6d042-136">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="6d042-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

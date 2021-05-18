@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407107"
 ---
-# <a name="ipstxgetsyncobject"></a><span data-ttu-id="edc6f-103">IPSTX::GetSyncObject</span><span class="sxs-lookup"><span data-stu-id="edc6f-103">IPSTX::GetSyncObject</span></span>
+# <a name="ipstxgetsyncobject"></a><span data-ttu-id="0c269-103">IPSTX::GetSyncObject</span><span class="sxs-lookup"><span data-stu-id="0c269-103">IPSTX::GetSyncObject</span></span>
 
   
   
-<span data-ttu-id="edc6f-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="edc6f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0c269-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0c269-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="edc6f-105">启动同步会话并获取关联的**[IOSTX](iostxiunknown.md)** 接口。</span><span class="sxs-lookup"><span data-stu-id="edc6f-105">Starts a synchronization session and gets the associated **[IOSTX](iostxiunknown.md)** interface.</span></span> 
+<span data-ttu-id="0c269-105">启动同步会话并获取关联的 **[IOSTX](iostxiunknown.md)** 接口。</span><span class="sxs-lookup"><span data-stu-id="0c269-105">Starts a synchronization session and gets the associated **[IOSTX](iostxiunknown.md)** interface.</span></span> 
   
 ```cpp
 HRESULT GetSyncObject( 
@@ -33,21 +33,21 @@ HRESULT GetSyncObject(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="edc6f-106">参数</span><span class="sxs-lookup"><span data-stu-id="edc6f-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0c269-106">参数</span><span class="sxs-lookup"><span data-stu-id="0c269-106">Parameters</span></span>
 
- <span data-ttu-id="edc6f-107">_ppostx_</span><span class="sxs-lookup"><span data-stu-id="edc6f-107">_ppostx_</span></span>
+ <span data-ttu-id="0c269-107">_ppostx_</span><span class="sxs-lookup"><span data-stu-id="0c269-107">_ppostx_</span></span>
   
->  <span data-ttu-id="edc6f-108">排除指向要获取的**IOSTX**接口的指针。</span><span class="sxs-lookup"><span data-stu-id="edc6f-108">[out] Pointer to the **IOSTX** interface to get.</span></span> 
+>  <span data-ttu-id="0c269-108">[out]指向要获取的 **IOSTX** 接口的指针。</span><span class="sxs-lookup"><span data-stu-id="0c269-108">[out] Pointer to the **IOSTX** interface to get.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="edc6f-109">说明</span><span class="sxs-lookup"><span data-stu-id="edc6f-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0c269-109">备注</span><span class="sxs-lookup"><span data-stu-id="0c269-109">Remarks</span></span>
 
-<span data-ttu-id="edc6f-110">调用方必须确保同一个文件夹不会同时在多个线程上同步。</span><span class="sxs-lookup"><span data-stu-id="edc6f-110">The caller must ensure that the same folder is not synchronized at the same time on more than one thread.</span></span>
+<span data-ttu-id="0c269-110">调用方必须确保同一文件夹不在同一个线程上同时同步。</span><span class="sxs-lookup"><span data-stu-id="0c269-110">The caller must ensure that the same folder is not synchronized at the same time on more than one thread.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="edc6f-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="edc6f-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0c269-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0c269-111">See also</span></span>
 
 
 
-[<span data-ttu-id="edc6f-112">IPSTX::EmulateSpooler</span><span class="sxs-lookup"><span data-stu-id="edc6f-112">IPSTX::EmulateSpooler</span></span>](ipstx-emulatespooler.md)
+[<span data-ttu-id="0c269-112">IPSTX::EmulateSpooler</span><span class="sxs-lookup"><span data-stu-id="0c269-112">IPSTX::EmulateSpooler</span></span>](ipstx-emulatespooler.md)
   
-[<span data-ttu-id="edc6f-113">IPSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="edc6f-113">IPSTX::GetLastError</span></span>](ipstx-getlasterror.md)
+[<span data-ttu-id="0c269-113">IPSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="0c269-113">IPSTX::GetLastError</span></span>](ipstx-getlasterror.md)
 

@@ -19,53 +19,53 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316378"
 ---
-# <a name="pidtagexceptionstarttime-canonical-property"></a><span data-ttu-id="b5a2b-103">PidTagExceptionStartTime 规范属性</span><span class="sxs-lookup"><span data-stu-id="b5a2b-103">PidTagExceptionStartTime Canonical Property</span></span>
+# <a name="pidtagexceptionstarttime-canonical-property"></a><span data-ttu-id="27e83-103">PidTagExceptionStartTime 规范属性</span><span class="sxs-lookup"><span data-stu-id="27e83-103">PidTagExceptionStartTime Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b5a2b-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b5a2b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="27e83-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="27e83-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b5a2b-105">指示创建异常时计算机的本地时区中的异常开始日期和时间。</span><span class="sxs-lookup"><span data-stu-id="b5a2b-105">Indicates the start date and time of the exception in the local time zone of the machine when the exception is created.</span></span>
+<span data-ttu-id="27e83-105">指示创建异常时计算机本地时区的异常的开始日期和时间。</span><span class="sxs-lookup"><span data-stu-id="27e83-105">Indicates the start date and time of the exception in the local time zone of the machine when the exception is created.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b5a2b-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="b5a2b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b5a2b-107">PR_EXCEPTION_STARTTIME</span><span class="sxs-lookup"><span data-stu-id="b5a2b-107">PR_EXCEPTION_STARTTIME</span></span>  <br/> |
-|<span data-ttu-id="b5a2b-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="b5a2b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b5a2b-109">0x7FFB</span><span class="sxs-lookup"><span data-stu-id="b5a2b-109">0x7FFB</span></span>  <br/> |
-|<span data-ttu-id="b5a2b-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="b5a2b-110">Data type:</span></span>  <br/> |<span data-ttu-id="b5a2b-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="b5a2b-111">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="b5a2b-112">区域：</span><span class="sxs-lookup"><span data-stu-id="b5a2b-112">Area:</span></span>  <br/> |<span data-ttu-id="b5a2b-113">邮件类定义的非传输</span><span class="sxs-lookup"><span data-stu-id="b5a2b-113">Message class-defined non-transmittable</span></span>  <br/> |
+|<span data-ttu-id="27e83-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="27e83-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="27e83-107">PR_EXCEPTION_STARTTIME</span><span class="sxs-lookup"><span data-stu-id="27e83-107">PR_EXCEPTION_STARTTIME</span></span>  <br/> |
+|<span data-ttu-id="27e83-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="27e83-108">Identifier:</span></span>  <br/> |<span data-ttu-id="27e83-109">0x7FFB</span><span class="sxs-lookup"><span data-stu-id="27e83-109">0x7FFB</span></span>  <br/> |
+|<span data-ttu-id="27e83-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="27e83-110">Data type:</span></span>  <br/> |<span data-ttu-id="27e83-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="27e83-111">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="27e83-112">区域：</span><span class="sxs-lookup"><span data-stu-id="27e83-112">Area:</span></span>  <br/> |<span data-ttu-id="27e83-113">邮件类定义的不可传输</span><span class="sxs-lookup"><span data-stu-id="27e83-113">Message class-defined non-transmittable</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b5a2b-114">注解</span><span class="sxs-lookup"><span data-stu-id="b5a2b-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="27e83-114">备注</span><span class="sxs-lookup"><span data-stu-id="27e83-114">Remarks</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b5a2b-115">此属性是信息性的, 不得依赖于关键信息。</span><span class="sxs-lookup"><span data-stu-id="b5a2b-115">This property is informational and must not be relied on for critical information.</span></span> 
+> <span data-ttu-id="27e83-115">此属性是信息性的，不得依赖它获取关键信息。</span><span class="sxs-lookup"><span data-stu-id="27e83-115">This property is informational and must not be relied on for critical information.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="b5a2b-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="b5a2b-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="27e83-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="27e83-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="b5a2b-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="b5a2b-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="27e83-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="27e83-117">Protocol specifications</span></span>
 
-<span data-ttu-id="b5a2b-118">[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b5a2b-118">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="27e83-118">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="27e83-118">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b5a2b-119">指定约会、会议请求和响应邮件的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="b5a2b-119">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="27e83-119">指定约会、会议请求和响应邮件的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="27e83-119">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="b5a2b-120">头文件</span><span class="sxs-lookup"><span data-stu-id="b5a2b-120">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="27e83-120">头文件</span><span class="sxs-lookup"><span data-stu-id="27e83-120">Header files</span></span>
 
-<span data-ttu-id="b5a2b-121">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="b5a2b-121">Mapidefs.h</span></span>
+<span data-ttu-id="27e83-121">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="27e83-121">Mapidefs.h</span></span>
   
-> <span data-ttu-id="b5a2b-122">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="b5a2b-122">Provides data type definitions.</span></span>
+> <span data-ttu-id="27e83-122">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="27e83-122">Provides data type definitions.</span></span>
     
-<span data-ttu-id="b5a2b-123">Mapitags</span><span class="sxs-lookup"><span data-stu-id="b5a2b-123">Mapitags.h</span></span>
+<span data-ttu-id="27e83-123">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="27e83-123">Mapitags.h</span></span>
   
-> <span data-ttu-id="b5a2b-124">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="b5a2b-124">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="27e83-124">包含作为备用名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="27e83-124">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b5a2b-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b5a2b-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="27e83-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="27e83-125">See also</span></span>
 
 
 
-[<span data-ttu-id="b5a2b-126">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="b5a2b-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="27e83-126">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="27e83-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="b5a2b-127">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="b5a2b-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="27e83-127">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="27e83-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b5a2b-128">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="b5a2b-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="27e83-128">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="27e83-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b5a2b-129">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="b5a2b-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="27e83-129">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="27e83-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

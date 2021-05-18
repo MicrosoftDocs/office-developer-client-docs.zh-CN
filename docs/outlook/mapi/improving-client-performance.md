@@ -15,10 +15,10 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405959"
 ---
-# <a name="improving-client-performance"></a><span data-ttu-id="ec7dd-103">提升客户端性能</span><span class="sxs-lookup"><span data-stu-id="ec7dd-103">Improving client performance</span></span>
+# <a name="improving-client-performance"></a><span data-ttu-id="8ea5e-103">提升客户端性能</span><span class="sxs-lookup"><span data-stu-id="8ea5e-103">Improving client performance</span></span>
  
-<span data-ttu-id="ec7dd-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ec7dd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8ea5e-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8ea5e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ec7dd-105">本节中的主题包含的提示可帮助您创建客户端应用程序, 从而实现最佳性能。</span><span class="sxs-lookup"><span data-stu-id="ec7dd-105">The topics in this section contain tips that help you create a client application with the best possible performance.</span></span>
+<span data-ttu-id="8ea5e-105">本节中的主题包含可帮助您创建具有最佳性能的客户端应用程序的提示。</span><span class="sxs-lookup"><span data-stu-id="8ea5e-105">The topics in this section contain tips that help you create a client application with the best possible performance.</span></span>
   
 
