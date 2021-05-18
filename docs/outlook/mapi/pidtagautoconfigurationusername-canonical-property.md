@@ -19,19 +19,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414324"
 ---
-# <a name="pidtagautoconfigurationusername-canonical-property"></a><span data-ttu-id="63520-103">PidTagAutoConfigurationUserName Canonical Property</span><span class="sxs-lookup"><span data-stu-id="63520-103">PidTagAutoConfigurationUserName Canonical Property</span></span>
+# <a name="pidtagautoconfigurationusername-canonical-property"></a><span data-ttu-id="2d49d-103">PidTagAutoConfigurationUserName Canonical Property</span><span class="sxs-lookup"><span data-stu-id="2d49d-103">PidTagAutoConfigurationUserName Canonical Property</span></span>
 
   
   
-<span data-ttu-id="63520-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="63520-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2d49d-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2d49d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="63520-105">表示用户的显示名称。</span><span class="sxs-lookup"><span data-stu-id="63520-105">Represents the user's display name.</span></span>
+<span data-ttu-id="2d49d-105">表示用户的显示名称。</span><span class="sxs-lookup"><span data-stu-id="2d49d-105">Represents the user's display name.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="63520-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="63520-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="63520-107">PR_AUTOCFG_USER_NAME_W</span><span class="sxs-lookup"><span data-stu-id="63520-107">PR_AUTOCFG_USER_NAME_W</span></span>  <br/> |
-|<span data-ttu-id="63520-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="63520-108">Identifier:</span></span>  <br/> |<span data-ttu-id="63520-109">0x67FE</span><span class="sxs-lookup"><span data-stu-id="63520-109">0x67FE</span></span>  <br/> |
-|<span data-ttu-id="63520-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="63520-110">Data type:</span></span>  <br/> |<span data-ttu-id="63520-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="63520-111">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="63520-112">区域：</span><span class="sxs-lookup"><span data-stu-id="63520-112">Area:</span></span>  <br/> |<span data-ttu-id="63520-113">邮件附件</span><span class="sxs-lookup"><span data-stu-id="63520-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="2d49d-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="2d49d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="2d49d-107">PR_AUTOCFG_USER_NAME_W</span><span class="sxs-lookup"><span data-stu-id="2d49d-107">PR_AUTOCFG_USER_NAME_W</span></span>  <br/> |
+|<span data-ttu-id="2d49d-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="2d49d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="2d49d-109">0x67FE</span><span class="sxs-lookup"><span data-stu-id="2d49d-109">0x67FE</span></span>  <br/> |
+|<span data-ttu-id="2d49d-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="2d49d-110">Data type:</span></span>  <br/> |<span data-ttu-id="2d49d-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="2d49d-111">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="2d49d-112">区域：</span><span class="sxs-lookup"><span data-stu-id="2d49d-112">Area:</span></span>  <br/> |<span data-ttu-id="2d49d-113">邮件附件</span><span class="sxs-lookup"><span data-stu-id="2d49d-113">Message attachment</span></span>  <br/> |
    
 

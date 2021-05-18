@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32329454"
 ---
-# <a name="imapiformdoverb"></a><span data-ttu-id="e6041-103">IMAPIForm::DoVerb</span><span class="sxs-lookup"><span data-stu-id="e6041-103">IMAPIForm::DoVerb</span></span>
+# <a name="imapiformdoverb"></a><span data-ttu-id="487b1-103">IMAPIForm::DoVerb</span><span class="sxs-lookup"><span data-stu-id="487b1-103">IMAPIForm::DoVerb</span></span>
 
   
   
-<span data-ttu-id="e6041-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e6041-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="487b1-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="487b1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e6041-105">请求表单执行与特定谓词相关联的任何任务。</span><span class="sxs-lookup"><span data-stu-id="e6041-105">Requests that the form perform whatever tasks it associates with a specific verb.</span></span>
+<span data-ttu-id="487b1-105">请求表单执行与特定动词关联的任何任务。</span><span class="sxs-lookup"><span data-stu-id="487b1-105">Requests that the form perform whatever tasks it associates with a specific verb.</span></span>
   
 ```cpp
 HRESULT DoVerb(
@@ -36,86 +36,86 @@ HRESULT DoVerb(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e6041-106">参数</span><span class="sxs-lookup"><span data-stu-id="e6041-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="487b1-106">参数</span><span class="sxs-lookup"><span data-stu-id="487b1-106">Parameters</span></span>
 
- <span data-ttu-id="e6041-107">_iVerb_</span><span class="sxs-lookup"><span data-stu-id="e6041-107">_iVerb_</span></span>
+ <span data-ttu-id="487b1-107">_iVerb_</span><span class="sxs-lookup"><span data-stu-id="487b1-107">_iVerb_</span></span>
   
-> <span data-ttu-id="e6041-108">实时与窗体的一个谓词相关联的数字。</span><span class="sxs-lookup"><span data-stu-id="e6041-108">[in] The number associated with one of the form's verbs.</span></span>
+> <span data-ttu-id="487b1-108">[in]与窗体动作之一相关联的数字。</span><span class="sxs-lookup"><span data-stu-id="487b1-108">[in] The number associated with one of the form's verbs.</span></span>
     
- <span data-ttu-id="e6041-109">_lpViewContext_</span><span class="sxs-lookup"><span data-stu-id="e6041-109">_lpViewContext_</span></span>
+ <span data-ttu-id="487b1-109">_lpViewContext_</span><span class="sxs-lookup"><span data-stu-id="487b1-109">_lpViewContext_</span></span>
   
-> <span data-ttu-id="e6041-110">实时指向视图上下文对象的指针。</span><span class="sxs-lookup"><span data-stu-id="e6041-110">[in] A pointer to a view context object.</span></span> <span data-ttu-id="e6041-111">_lpViewContext_参数可以为**null**。</span><span class="sxs-lookup"><span data-stu-id="e6041-111">The  _lpViewContext_ parameter can be **null**.</span></span>
+> <span data-ttu-id="487b1-110">[in]指向视图上下文对象的指针。</span><span class="sxs-lookup"><span data-stu-id="487b1-110">[in] A pointer to a view context object.</span></span> <span data-ttu-id="487b1-111">_lpViewContext_ 参数可以是 **null**。</span><span class="sxs-lookup"><span data-stu-id="487b1-111">The  _lpViewContext_ parameter can be **null**.</span></span>
     
- <span data-ttu-id="e6041-112">_hwndParent_</span><span class="sxs-lookup"><span data-stu-id="e6041-112">_hwndParent_</span></span>
+ <span data-ttu-id="487b1-112">_hwndParent_</span><span class="sxs-lookup"><span data-stu-id="487b1-112">_hwndParent_</span></span>
   
-> <span data-ttu-id="e6041-113">实时此方法显示的任何对话框或窗口的父窗口的句柄。</span><span class="sxs-lookup"><span data-stu-id="e6041-113">[in] A handle to the parent window of any dialog boxes or windows this method displays.</span></span> <span data-ttu-id="e6041-114">如果对话框或窗口不模式, 则_hwndParent_参数应为**null** 。</span><span class="sxs-lookup"><span data-stu-id="e6041-114">The  _hwndParent_ parameter should be **null** if the dialog box or window is not modal.</span></span> 
+> <span data-ttu-id="487b1-113">[in]该方法显示的任何对话框或窗口的父窗口的句柄。</span><span class="sxs-lookup"><span data-stu-id="487b1-113">[in] A handle to the parent window of any dialog boxes or windows this method displays.</span></span> <span data-ttu-id="487b1-114">如果对话框或窗口不是模式对话框或窗口，_则 hwndParent_ 参数应为 null。</span><span class="sxs-lookup"><span data-stu-id="487b1-114">The  _hwndParent_ parameter should be **null** if the dialog box or window is not modal.</span></span> 
     
- <span data-ttu-id="e6041-115">_lprcPosRect_</span><span class="sxs-lookup"><span data-stu-id="e6041-115">_lprcPosRect_</span></span>
+ <span data-ttu-id="487b1-115">_lprcPosRect_</span><span class="sxs-lookup"><span data-stu-id="487b1-115">_lprcPosRect_</span></span>
   
-> <span data-ttu-id="e6041-116">实时指向 Win32 [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx)结构的指针, 该结构包含窗体的窗口的大小和位置。</span><span class="sxs-lookup"><span data-stu-id="e6041-116">[in] A pointer to a Win32 [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) structure that contains the size and position of the form's window.</span></span> 
+> <span data-ttu-id="487b1-116">[in]指向包含窗体窗口大小和位置的 Win32 [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) 结构的指针。</span><span class="sxs-lookup"><span data-stu-id="487b1-116">[in] A pointer to a Win32 [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) structure that contains the size and position of the form's window.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="e6041-117">返回值</span><span class="sxs-lookup"><span data-stu-id="e6041-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="487b1-117">返回值</span><span class="sxs-lookup"><span data-stu-id="487b1-117">Return value</span></span>
 
-<span data-ttu-id="e6041-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="e6041-118">S_OK</span></span> 
+<span data-ttu-id="487b1-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="487b1-118">S_OK</span></span> 
   
-> <span data-ttu-id="e6041-119">已成功调用谓词。</span><span class="sxs-lookup"><span data-stu-id="e6041-119">The verb was successfully invoked.</span></span>
+> <span data-ttu-id="487b1-119">动词命令已成功调用。</span><span class="sxs-lookup"><span data-stu-id="487b1-119">The verb was successfully invoked.</span></span>
     
-<span data-ttu-id="e6041-120">OLEOBJ_S_CANNOT_DOVERB_NOW</span><span class="sxs-lookup"><span data-stu-id="e6041-120">OLEOBJ_S_CANNOT_DOVERB_NOW</span></span> 
+<span data-ttu-id="487b1-120">OLEOBJ_S_CANNOT_DOVERB_NOW</span><span class="sxs-lookup"><span data-stu-id="487b1-120">OLEOBJ_S_CANNOT_DOVERB_NOW</span></span> 
   
-> <span data-ttu-id="e6041-121">由_iVerb_参数表示的谓词是有效的, 但该窗体无法执行当前与之关联的操作。</span><span class="sxs-lookup"><span data-stu-id="e6041-121">The verb represented by the  _iVerb_ parameter is valid, but the form cannot perform the operations currently associated with it.</span></span> 
+> <span data-ttu-id="487b1-121">_iVerb_ 参数表示的谓词有效，但表单无法执行当前与之关联的操作。</span><span class="sxs-lookup"><span data-stu-id="487b1-121">The verb represented by the  _iVerb_ parameter is valid, but the form cannot perform the operations currently associated with it.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="e6041-122">注解</span><span class="sxs-lookup"><span data-stu-id="e6041-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="487b1-122">备注</span><span class="sxs-lookup"><span data-stu-id="487b1-122">Remarks</span></span>
 
-<span data-ttu-id="e6041-123">表单查看器调用**IMAPIForm::D overb**方法, 以请求表单执行与表单支持的每个谓词相关联的任务。</span><span class="sxs-lookup"><span data-stu-id="e6041-123">Form viewers call the **IMAPIForm::DoVerb** method to request that the form perform the tasks that it associates with each verb that the form supports.</span></span> 
+<span data-ttu-id="487b1-123">表单查看者调用 **IMAPIForm：:D oVerb** 方法，以请求表单执行与表单支持的每个动作关联的任务。</span><span class="sxs-lookup"><span data-stu-id="487b1-123">Form viewers call the **IMAPIForm::DoVerb** method to request that the form perform the tasks that it associates with each verb that the form supports.</span></span> 
   
-<span data-ttu-id="e6041-124">每个受支持的谓词都通过一个数值标识, 并传递给_iVerb_参数中的**DoVerb** 。</span><span class="sxs-lookup"><span data-stu-id="e6041-124">Each of the supported verbs is identified by a numeric value, passed to **DoVerb** in the  _iVerb_ parameter.</span></span> <span data-ttu-id="e6041-125">**DoVerb**的典型实现包含一个**switch**语句, 用于测试对窗体的_iVerb_参数有效的值。</span><span class="sxs-lookup"><span data-stu-id="e6041-125">Typical implementations of **DoVerb** contain a **switch** statement that tests the values that are valid for the  _iVerb_ parameter for the form.</span></span> 
+<span data-ttu-id="487b1-124">每个受支持的动词都由一个数值标识，在 **iVerb** 参数中传递给 _DoVerb。_</span><span class="sxs-lookup"><span data-stu-id="487b1-124">Each of the supported verbs is identified by a numeric value, passed to **DoVerb** in the  _iVerb_ parameter.</span></span> <span data-ttu-id="487b1-125">**DoVerb 的典型** 实现包含 **一个 switch** 语句，该语句测试对表单 _的 iVerb_ 参数有效的值。</span><span class="sxs-lookup"><span data-stu-id="487b1-125">Typical implementations of **DoVerb** contain a **switch** statement that tests the values that are valid for the  _iVerb_ parameter for the form.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="e6041-126">针对实现者的说明</span><span class="sxs-lookup"><span data-stu-id="e6041-126">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="487b1-126">针对实现者的说明</span><span class="sxs-lookup"><span data-stu-id="487b1-126">Notes to implementers</span></span>
 
-<span data-ttu-id="e6041-127">如果表单查看器在_lpViewContext_参数中指定了视图上下文, 请在**DoVerb**实现中使用它, 而不是在之前调用[IMAPIForm:: SetViewContext](imapiform-setviewcontext.md)方法时传递的视图上下文。</span><span class="sxs-lookup"><span data-stu-id="e6041-127">If the form viewer specifies a view context in the  _lpViewContext_ parameter, use it in your **DoVerb** implementation instead of the view context passed in an earlier call to the [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) method.</span></span> <span data-ttu-id="e6041-128">对内部数据结构进行任何所需的更改, 并且不保存视图上下文。</span><span class="sxs-lookup"><span data-stu-id="e6041-128">Make whatever changes are necessary to your internal data structures and do not save the view context.</span></span> 
+<span data-ttu-id="487b1-127">如果表单查看器在  _lpViewContext_ 参数中指定视图上下文，请在你的 **DoVerb** 实现中使用它，而不是在之前对 [IMAPIForm：：SetViewContext](imapiform-setviewcontext.md) 方法的调用中传递的视图上下文。</span><span class="sxs-lookup"><span data-stu-id="487b1-127">If the form viewer specifies a view context in the  _lpViewContext_ parameter, use it in your **DoVerb** implementation instead of the view context passed in an earlier call to the [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) method.</span></span> <span data-ttu-id="487b1-128">对内部数据结构进行所需的任何更改，不要保存视图上下文。</span><span class="sxs-lookup"><span data-stu-id="487b1-128">Make whatever changes are necessary to your internal data structures and do not save the view context.</span></span> 
   
-<span data-ttu-id="e6041-129">在您的**DoVerb**实现中执行以下任务:</span><span class="sxs-lookup"><span data-stu-id="e6041-129">Perform the following tasks in your **DoVerb** implementation:</span></span> 
+<span data-ttu-id="487b1-129">在 **DoVerb** 实现中执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="487b1-129">Perform the following tasks in your **DoVerb** implementation:</span></span> 
   
-- <span data-ttu-id="e6041-130">执行与_iVerb_参数关联的特定谓词所需的任何代码。</span><span class="sxs-lookup"><span data-stu-id="e6041-130">Execute whatever code is necessary for the particular verb that is associated with the  _iVerb_ parameter.</span></span> 
+- <span data-ttu-id="487b1-130">执行与  _iVerb_ 参数关联的特定动作所需的任何代码。</span><span class="sxs-lookup"><span data-stu-id="487b1-130">Execute whatever code is necessary for the particular verb that is associated with the  _iVerb_ parameter.</span></span> 
     
-- <span data-ttu-id="e6041-131">如有必要, 请还原原始的视图上下文。</span><span class="sxs-lookup"><span data-stu-id="e6041-131">If necessary, restore the original view context.</span></span>
+- <span data-ttu-id="487b1-131">如有必要，还原原始视图上下文。</span><span class="sxs-lookup"><span data-stu-id="487b1-131">If necessary, restore the original view context.</span></span>
     
-- <span data-ttu-id="e6041-132">如果传入了未知动词号码, 则返回 MAPI_E_NO_SUPPORT。</span><span class="sxs-lookup"><span data-stu-id="e6041-132">If an unknown verb number was passed in, return MAPI_E_NO_SUPPORT.</span></span> <span data-ttu-id="e6041-133">否则, 根据执行的任何动作的成功或失败返回结果。</span><span class="sxs-lookup"><span data-stu-id="e6041-133">Otherwise, return a result based on the success or failure of whatever verb was executed.</span></span>
+- <span data-ttu-id="487b1-132">如果传入了未知动词数字，则返回MAPI_E_NO_SUPPORT。</span><span class="sxs-lookup"><span data-stu-id="487b1-132">If an unknown verb number was passed in, return MAPI_E_NO_SUPPORT.</span></span> <span data-ttu-id="487b1-133">否则，根据所执行的任何动词的成功或失败返回结果。</span><span class="sxs-lookup"><span data-stu-id="487b1-133">Otherwise, return a result based on the success or failure of whatever verb was executed.</span></span>
     
-- <span data-ttu-id="e6041-134">关闭窗体。</span><span class="sxs-lookup"><span data-stu-id="e6041-134">Close the form.</span></span> <span data-ttu-id="e6041-135">在**DoVerb**调用完成后, 始终负责关闭窗体。</span><span class="sxs-lookup"><span data-stu-id="e6041-135">It is always your responsibility to close the form after a **DoVerb** call completes.</span></span> 
+- <span data-ttu-id="487b1-134">关闭窗体。</span><span class="sxs-lookup"><span data-stu-id="487b1-134">Close the form.</span></span> <span data-ttu-id="487b1-135">您始终负责在 **DoVerb** 调用完成后关闭表单。</span><span class="sxs-lookup"><span data-stu-id="487b1-135">It is always your responsibility to close the form after a **DoVerb** call completes.</span></span> 
     
-<span data-ttu-id="e6041-136">某些谓词 (如 Print) 应是有关**DoVerb**调用的模式, 也就是说, 在**DoVerb**调用返回之前, 必须完成指示的操作。</span><span class="sxs-lookup"><span data-stu-id="e6041-136">Some verbs, such as Print, should be modal with respect to the **DoVerb** call — that is, the indicated operation must be finished before the **DoVerb** call returns.</span></span> 
+<span data-ttu-id="487b1-136">某些动作（如 Print）对于 **DoVerb** 调用应该具有模式，也就是说，指示的操作必须在 **DoVerb** 调用返回之前完成。</span><span class="sxs-lookup"><span data-stu-id="487b1-136">Some verbs, such as Print, should be modal with respect to the **DoVerb** call — that is, the indicated operation must be finished before the **DoVerb** call returns.</span></span> 
   
-<span data-ttu-id="e6041-137">若要获取窗体窗口使用的**RECT**结构, 请调用[GetWindowRect](https://msdn.microsoft.com/library/ms633519)函数。</span><span class="sxs-lookup"><span data-stu-id="e6041-137">To obtain the **RECT** structure used by a form's window, call the [GetWindowRect](https://msdn.microsoft.com/library/ms633519) function.</span></span> 
+<span data-ttu-id="487b1-137">若要获取窗体窗口使用的 **RECT** 结构，请调用 [GetWindowRect](https://msdn.microsoft.com/library/ms633519) 函数。</span><span class="sxs-lookup"><span data-stu-id="487b1-137">To obtain the **RECT** structure used by a form's window, call the [GetWindowRect](https://msdn.microsoft.com/library/ms633519) function.</span></span> 
   
-<span data-ttu-id="e6041-138">请勿将句柄保存在_hwndParent_参数中, 因为尽管它通常在**DoVerb**完成之前一直有效, 但它可以在调用返回时立即销毁。</span><span class="sxs-lookup"><span data-stu-id="e6041-138">Do not save the handle in the  _hwndParent_ parameter because, although it usually remains valid until the completion of **DoVerb**, it can be destroyed immediately upon the call's return.</span></span>
+<span data-ttu-id="487b1-138">不要将句柄保存在  _hwndParent_ 参数中，因为尽管它通常保持有效直到 **DoVerb** 完成，但它可以在调用返回后立即销毁。</span><span class="sxs-lookup"><span data-stu-id="487b1-138">Do not save the handle in the  _hwndParent_ parameter because, although it usually remains valid until the completion of **DoVerb**, it can be destroyed immediately upon the call's return.</span></span>
   
-## <a name="notes-to-callers"></a><span data-ttu-id="e6041-139">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="e6041-139">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="487b1-139">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="487b1-139">Notes to callers</span></span>
 
-<span data-ttu-id="e6041-140">通过将_lpViewContext_指向从其[IMAPIViewContext:: GetViewStatus](imapiviewcontext-getviewstatus.md)方法返回 VCSTATUS_MODAL 标志的视图上下文实现, 可以使非模式谓词充当模式谓词。</span><span class="sxs-lookup"><span data-stu-id="e6041-140">You can make non-modal verbs act as modal verbs by pointing  _lpViewContext_ to a view context implementation that returns the VCSTATUS_MODAL flag from its [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) method.</span></span> 
+<span data-ttu-id="487b1-140">您可以通过将  _lpViewContext_ 指向从 [IMAPIViewContext：：GetViewStatus](imapiviewcontext-getviewstatus.md) 方法返回 VCSTATUS_MODAL 标志的视图上下文实现，使非模式动词用作模式动词。</span><span class="sxs-lookup"><span data-stu-id="487b1-140">You can make non-modal verbs act as modal verbs by pointing  _lpViewContext_ to a view context implementation that returns the VCSTATUS_MODAL flag from its [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) method.</span></span> 
   
-<span data-ttu-id="e6041-141">有关 MAPI 中的动词的详细信息, 请参阅[表单谓词](form-verbs.md)。</span><span class="sxs-lookup"><span data-stu-id="e6041-141">For more information about verbs in MAPI, see [Form Verbs](form-verbs.md).</span></span> <span data-ttu-id="e6041-142">有关如何在 ole 中处理谓词的详细信息, 请参阅[ole and Data Transfer](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx)。</span><span class="sxs-lookup"><span data-stu-id="e6041-142">For more information about how verbs are handled in OLE, see [OLE and Data Transfer](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="487b1-141">有关 MAPI 中的动词功能详细信息，请参阅 [Form Verbs](form-verbs.md)。</span><span class="sxs-lookup"><span data-stu-id="487b1-141">For more information about verbs in MAPI, see [Form Verbs](form-verbs.md).</span></span> <span data-ttu-id="487b1-142">有关在 OLE 中如何处理动作的信息，请参阅 [OLE 和数据传输](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx)。</span><span class="sxs-lookup"><span data-stu-id="487b1-142">For more information about how verbs are handled in OLE, see [OLE and Data Transfer](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="e6041-143">MFCMAPI 引用</span><span class="sxs-lookup"><span data-stu-id="e6041-143">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="487b1-143">MFCMAPI 引用</span><span class="sxs-lookup"><span data-stu-id="487b1-143">MFCMAPI reference</span></span>
 
-<span data-ttu-id="e6041-144">有关 MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="e6041-144">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="487b1-144">有关 MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="487b1-144">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="e6041-145">**文件**</span><span class="sxs-lookup"><span data-stu-id="e6041-145">**File**</span></span>|<span data-ttu-id="e6041-146">**函数**</span><span class="sxs-lookup"><span data-stu-id="e6041-146">**Function**</span></span>|<span data-ttu-id="e6041-147">**备注**</span><span class="sxs-lookup"><span data-stu-id="e6041-147">**Comment**</span></span>|
+|<span data-ttu-id="487b1-145">**文件**</span><span class="sxs-lookup"><span data-stu-id="487b1-145">**File**</span></span>|<span data-ttu-id="487b1-146">**函数**</span><span class="sxs-lookup"><span data-stu-id="487b1-146">**Function**</span></span>|<span data-ttu-id="487b1-147">**备注**</span><span class="sxs-lookup"><span data-stu-id="487b1-147">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="e6041-148">MyMAPIFormViewer</span><span class="sxs-lookup"><span data-stu-id="e6041-148">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="e6041-149">CMyMAPIFormViewer:: CallDoVerb</span><span class="sxs-lookup"><span data-stu-id="e6041-149">CMyMAPIFormViewer::CallDoVerb</span></span>  <br/> |<span data-ttu-id="e6041-150">MFCMAPI 使用**IMAPIForm::D overb**方法调用窗体上的谓词。</span><span class="sxs-lookup"><span data-stu-id="e6041-150">MFCMAPI uses the **IMAPIForm::DoVerb** method to invoke a verb on a form.</span></span>  <br/> |
+|<span data-ttu-id="487b1-148">MyMAPIFormViewer.cpp</span><span class="sxs-lookup"><span data-stu-id="487b1-148">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="487b1-149">CMyMAPIFormViewer：：CallDoVerb</span><span class="sxs-lookup"><span data-stu-id="487b1-149">CMyMAPIFormViewer::CallDoVerb</span></span>  <br/> |<span data-ttu-id="487b1-150">MFCMAPI 使用 **IMAPIForm：:D oVerb** 方法调用表单上的动词。</span><span class="sxs-lookup"><span data-stu-id="487b1-150">MFCMAPI uses the **IMAPIForm::DoVerb** method to invoke a verb on a form.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="e6041-151">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e6041-151">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="487b1-151">另请参阅</span><span class="sxs-lookup"><span data-stu-id="487b1-151">See also</span></span>
 
 
 
-[<span data-ttu-id="e6041-152">IMAPIForm::SetViewContext</span><span class="sxs-lookup"><span data-stu-id="e6041-152">IMAPIForm::SetViewContext</span></span>](imapiform-setviewcontext.md)
+[<span data-ttu-id="487b1-152">IMAPIForm::SetViewContext</span><span class="sxs-lookup"><span data-stu-id="487b1-152">IMAPIForm::SetViewContext</span></span>](imapiform-setviewcontext.md)
   
-[<span data-ttu-id="e6041-153">IMAPIViewContext::GetViewStatus</span><span class="sxs-lookup"><span data-stu-id="e6041-153">IMAPIViewContext::GetViewStatus</span></span>](imapiviewcontext-getviewstatus.md)
+[<span data-ttu-id="487b1-153">IMAPIViewContext::GetViewStatus</span><span class="sxs-lookup"><span data-stu-id="487b1-153">IMAPIViewContext::GetViewStatus</span></span>](imapiviewcontext-getviewstatus.md)
   
-[<span data-ttu-id="e6041-154">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="e6041-154">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
+[<span data-ttu-id="487b1-154">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="487b1-154">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
 
 
-[<span data-ttu-id="e6041-155">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="e6041-155">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="487b1-155">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="487b1-155">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="e6041-156">表单谓词</span><span class="sxs-lookup"><span data-stu-id="e6041-156">Form Verbs</span></span>](form-verbs.md)
+[<span data-ttu-id="487b1-156">窗体动词</span><span class="sxs-lookup"><span data-stu-id="487b1-156">Form Verbs</span></span>](form-verbs.md)
 

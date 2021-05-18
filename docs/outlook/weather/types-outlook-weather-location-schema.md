@@ -1,5 +1,5 @@
 ---
-title: 类型 (Outlook 天气位置架构)
+title: 'Outlook (位置架构类型) '
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +15,10 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413736"
 ---
-# <a name="types-outlook-weather-location-schema"></a><span data-ttu-id="2f8d2-103">类型 (Outlook 天气位置架构)</span><span class="sxs-lookup"><span data-stu-id="2f8d2-103">Types (Outlook Weather Location Schema)</span></span>
+# <a name="types-outlook-weather-location-schema"></a><span data-ttu-id="ac357-103">Outlook (位置架构类型) </span><span class="sxs-lookup"><span data-stu-id="ac357-103">Types (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="2f8d2-104">本主题列出了 Outlook 天气位置 XML 架构中的类型。</span><span class="sxs-lookup"><span data-stu-id="2f8d2-104">This topic lists the types in Outlook Weather Location XML schema.</span></span>
+<span data-ttu-id="ac357-104">本主题列出了 Outlook 天气位置 XML 架构中的类型。</span><span class="sxs-lookup"><span data-stu-id="ac357-104">This topic lists the types in Outlook Weather Location XML schema.</span></span>
   
-- [<span data-ttu-id="2f8d2-105">weatherType complexType</span><span class="sxs-lookup"><span data-stu-id="2f8d2-105">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-location-schema.md)
+- [<span data-ttu-id="ac357-105">weatherType complexType</span><span class="sxs-lookup"><span data-stu-id="ac357-105">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-location-schema.md)
     
 

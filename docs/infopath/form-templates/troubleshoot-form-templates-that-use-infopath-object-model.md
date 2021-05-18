@@ -1,5 +1,5 @@
 ---
-title: 使用 InfoPath 对象模型的表单模板的疑难解答
+title: 使用 InfoPath 对象模型的表单模板疑难解答
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413659"
 ---
-# <a name="troubleshoot-form-templates-that-use-the-infopath-object-model"></a><span data-ttu-id="01b66-104">使用 InfoPath 对象模型的表单模板的疑难解答</span><span class="sxs-lookup"><span data-stu-id="01b66-104">Troubleshoot form templates that use the InfoPath object model</span></span>
+# <a name="troubleshoot-form-templates-that-use-the-infopath-object-model"></a><span data-ttu-id="c72b9-104">使用 InfoPath 对象模型的表单模板疑难解答</span><span class="sxs-lookup"><span data-stu-id="c72b9-104">Troubleshoot form templates that use the InfoPath object model</span></span>
 
-<span data-ttu-id="01b66-105">本节包含在创建使用 InfoPath 2003 兼容对象模型的托管代码表单模板时可能会遇到的常见问题的解答提示。</span><span class="sxs-lookup"><span data-stu-id="01b66-105">This section contains tips for solving common problems that you might encounter when creating managed code form template that use the InfoPath 2003-compatible object model.</span></span>
+<span data-ttu-id="c72b9-105">本节包含在创建使用 InfoPath 2003 兼容对象模型的托管代码表单模板时可能会遇到的常见问题的解答提示。</span><span class="sxs-lookup"><span data-stu-id="c72b9-105">This section contains tips for solving common problems that you might encounter when creating managed code form template that use the InfoPath 2003-compatible object model.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="01b66-106">本节内容</span><span class="sxs-lookup"><span data-stu-id="01b66-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c72b9-106">本节内容</span><span class="sxs-lookup"><span data-stu-id="c72b9-106">In this section</span></span>
 
-<span data-ttu-id="01b66-107">[在运行时使用 InfoPath 2003 对象模型的表单模板故障排除](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md): 介绍在生成和预览使用 infopath 2003 兼容的 infopath 托管代码表单模板时可能出现的故障排除问题对象模型。</span><span class="sxs-lookup"><span data-stu-id="01b66-107">[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model at Run Time](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md): Describes troubleshooting issues that might arise while you are building and previewing InfoPath managed code form templates that use the InfoPath 2003-compatible object model.</span></span>
+<span data-ttu-id="c72b9-107">[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model at Run Time](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md)：描述在构建和预览使用 InfoPath 2003 兼容对象模型的 InfoPath 托管代码表单模板时可能出现的问题疑难解答。</span><span class="sxs-lookup"><span data-stu-id="c72b9-107">[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model at Run Time](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md): Describes troubleshooting issues that might arise while you are building and previewing InfoPath managed code form templates that use the InfoPath 2003-compatible object model.</span></span>
     
-<span data-ttu-id="01b66-108">[在设计时使用 infopath 2003 对象模型的表单模板故障排除](troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md): 介绍在设计使用 InfoPath 2003 兼容对象模型的托管代码表单模板时可能出现的故障排除问题。</span><span class="sxs-lookup"><span data-stu-id="01b66-108">[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model At Design Time](troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md): Describes troubleshooting issues that might arise while you are designing managed code form templates that use the InfoPath 2003-compatible object model.</span></span>
+<span data-ttu-id="c72b9-108">[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model At Design Time](troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md)：介绍在设计使用 InfoPath 2003 兼容对象模型的托管代码表单模板时可能出现的问题的疑难解答。</span><span class="sxs-lookup"><span data-stu-id="c72b9-108">[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model At Design Time](troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md): Describes troubleshooting issues that might arise while you are designing managed code form templates that use the InfoPath 2003-compatible object model.</span></span>
     
-## <a name="related-sections"></a><span data-ttu-id="01b66-109">相关部分</span><span class="sxs-lookup"><span data-stu-id="01b66-109">Related sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="c72b9-109">相关章节</span><span class="sxs-lookup"><span data-stu-id="c72b9-109">Related sections</span></span>
 
-<span data-ttu-id="01b66-110">[部署包含代码的 InfoPath 表单模板](how-to-deploy-infopath-form-templates-with-code.md): 提供有关部署解决方案的信息, 包括安全问题, 以及在选择部署模型时要考虑的问题。</span><span class="sxs-lookup"><span data-stu-id="01b66-110">[Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md): Provides information on deploying your solutions, including security concerns as well as issues to consider when choosing a deployment model.</span></span>
+<span data-ttu-id="c72b9-110">[部署包含代码的 InfoPath](how-to-deploy-infopath-form-templates-with-code.md)表单模板 ：提供有关部署解决方案的信息，包括安全问题以及选择部署模型时要考虑的问题。</span><span class="sxs-lookup"><span data-stu-id="c72b9-110">[Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md): Provides information on deploying your solutions, including security concerns as well as issues to consider when choosing a deployment model.</span></span>
     
-<span data-ttu-id="01b66-111">[使用 infopath 2003 对象模型处理错误](how-to-handle-errors-using-the-infopath-2003-object-model.md): 说明如何处理 infopath 托管代码解决方案中的错误。</span><span class="sxs-lookup"><span data-stu-id="01b66-111">[Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md): Explains how to handle errors in InfoPath managed-code solutions.</span></span>
+<span data-ttu-id="c72b9-111">[使用 InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)对象模型处理错误 ：说明如何处理 InfoPath 托管代码解决方案中的错误。</span><span class="sxs-lookup"><span data-stu-id="c72b9-111">[Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md): Explains how to handle errors in InfoPath managed-code solutions.</span></span>
     
-<span data-ttu-id="01b66-112">[使用 infopath 2003 对象模型开发表单模板的常见任务](common-tasks-for-developing-form-templates-using-infopath-object-model.md): 列出有关使用 infopath 2003 兼容对象模型进行编程的常见问题, 并提供可帮助解决常见问题的主题的链接。</span><span class="sxs-lookup"><span data-stu-id="01b66-112">[Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model](common-tasks-for-developing-form-templates-using-infopath-object-model.md): Lists frequently asked questions about programming with the InfoPath 2003-compatible object model and provides links to topics that can help solve common problems.</span></span>
+<span data-ttu-id="c72b9-112">[使用 InfoPath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md)对象模型开发表单模板的常见任务：列出有关使用 InfoPath 2003 兼容对象模型进行编程的常见问题，并提供可帮助解决常见问题的主题的链接。</span><span class="sxs-lookup"><span data-stu-id="c72b9-112">[Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model](common-tasks-for-developing-form-templates-using-infopath-object-model.md): Lists frequently asked questions about programming with the InfoPath 2003-compatible object model and provides links to topics that can help solve common problems.</span></span>
     
 

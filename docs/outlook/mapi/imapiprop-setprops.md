@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412616"
 ---
-# <a name="imapipropsetprops"></a><span data-ttu-id="a7628-103">IMAPIProp::SetProps</span><span class="sxs-lookup"><span data-stu-id="a7628-103">IMAPIProp::SetProps</span></span>
+# <a name="imapipropsetprops"></a><span data-ttu-id="7eef2-103">IMAPIProp::SetProps</span><span class="sxs-lookup"><span data-stu-id="7eef2-103">IMAPIProp::SetProps</span></span>
 
   
   
-<span data-ttu-id="a7628-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a7628-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7eef2-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7eef2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a7628-105">更新一个或多个属性。</span><span class="sxs-lookup"><span data-stu-id="a7628-105">Updates one or more properties.</span></span>
+<span data-ttu-id="7eef2-105">更新一个或多个属性。</span><span class="sxs-lookup"><span data-stu-id="7eef2-105">Updates one or more properties.</span></span>
   
 ```cpp
 HRESULT SetProps(
@@ -35,99 +35,99 @@ HRESULT SetProps(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a7628-106">参数</span><span class="sxs-lookup"><span data-stu-id="a7628-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7eef2-106">参数</span><span class="sxs-lookup"><span data-stu-id="7eef2-106">Parameters</span></span>
 
- <span data-ttu-id="a7628-107">_cValues_</span><span class="sxs-lookup"><span data-stu-id="a7628-107">_cValues_</span></span>
+ <span data-ttu-id="7eef2-107">_cValues_</span><span class="sxs-lookup"><span data-stu-id="7eef2-107">_cValues_</span></span>
   
-> <span data-ttu-id="a7628-108">实时由_lpPropArray_参数指向的属性值的计数。</span><span class="sxs-lookup"><span data-stu-id="a7628-108">[in] The count of property values pointed to by the  _lpPropArray_ parameter.</span></span> <span data-ttu-id="a7628-109">_cValues_参数不得为0。</span><span class="sxs-lookup"><span data-stu-id="a7628-109">The  _cValues_ parameter must not be 0.</span></span> 
+> <span data-ttu-id="7eef2-108">[in]  _lpPropArray_ 参数指向的属性值计数。</span><span class="sxs-lookup"><span data-stu-id="7eef2-108">[in] The count of property values pointed to by the  _lpPropArray_ parameter.</span></span> <span data-ttu-id="7eef2-109">_cValues_ 参数不能为 0。</span><span class="sxs-lookup"><span data-stu-id="7eef2-109">The  _cValues_ parameter must not be 0.</span></span> 
     
- <span data-ttu-id="a7628-110">_lpPropArray_</span><span class="sxs-lookup"><span data-stu-id="a7628-110">_lpPropArray_</span></span>
+ <span data-ttu-id="7eef2-110">_lpPropArray_</span><span class="sxs-lookup"><span data-stu-id="7eef2-110">_lpPropArray_</span></span>
   
-> <span data-ttu-id="a7628-111">实时指向[SPropValue](spropvalue.md)结构数组的指针, 该数组包含要更新的属性值。</span><span class="sxs-lookup"><span data-stu-id="a7628-111">[in] A pointer to an array of [SPropValue](spropvalue.md) structures that contain property values to be updated.</span></span> 
+> <span data-ttu-id="7eef2-111">[in]指向包含要更新的属性值 [的 SPropValue](spropvalue.md) 结构的数组的指针。</span><span class="sxs-lookup"><span data-stu-id="7eef2-111">[in] A pointer to an array of [SPropValue](spropvalue.md) structures that contain property values to be updated.</span></span> 
     
- <span data-ttu-id="a7628-112">_lppProblems_</span><span class="sxs-lookup"><span data-stu-id="a7628-112">_lppProblems_</span></span>
+ <span data-ttu-id="7eef2-112">_lppProblems_</span><span class="sxs-lookup"><span data-stu-id="7eef2-112">_lppProblems_</span></span>
   
-> <span data-ttu-id="a7628-113">[in, out]在输入时, 指向指向[SPropProblemArray](spropproblemarray.md)结构的指针的指针;否则为 NULL, 表示无需错误信息。</span><span class="sxs-lookup"><span data-stu-id="a7628-113">[in, out] On input, a pointer to a pointer to an [SPropProblemArray](spropproblemarray.md) structure; otherwise, NULL, indicating no need for error information.</span></span> <span data-ttu-id="a7628-114">如果_lppProblems_是有效的输入指针, **SetProps**将返回有关更新一个或多个属性中的错误的详细信息。</span><span class="sxs-lookup"><span data-stu-id="a7628-114">If  _lppProblems_ is a valid pointer on input, **SetProps** returns detailed information about errors in updating one or more properties.</span></span> 
+> <span data-ttu-id="7eef2-113">[in， out]在输入时，指向指向 [SPropProblemArray 结构的指针的](spropproblemarray.md) 指针;否则为 NULL，表示不需要错误信息。</span><span class="sxs-lookup"><span data-stu-id="7eef2-113">[in, out] On input, a pointer to a pointer to an [SPropProblemArray](spropproblemarray.md) structure; otherwise, NULL, indicating no need for error information.</span></span> <span data-ttu-id="7eef2-114">如果  _lppProblems_ 是输入的有效指针 **，SetProps** 将返回有关更新一个或多个属性时错误的详细信息。</span><span class="sxs-lookup"><span data-stu-id="7eef2-114">If  _lppProblems_ is a valid pointer on input, **SetProps** returns detailed information about errors in updating one or more properties.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="a7628-115">返回值</span><span class="sxs-lookup"><span data-stu-id="a7628-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7eef2-115">返回值</span><span class="sxs-lookup"><span data-stu-id="7eef2-115">Return value</span></span>
 
-<span data-ttu-id="a7628-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="a7628-116">S_OK</span></span> 
+<span data-ttu-id="7eef2-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="7eef2-116">S_OK</span></span> 
   
-> <span data-ttu-id="a7628-117">属性已成功更新。</span><span class="sxs-lookup"><span data-stu-id="a7628-117">The properties were successfully updated.</span></span>
+> <span data-ttu-id="7eef2-117">属性已成功更新。</span><span class="sxs-lookup"><span data-stu-id="7eef2-117">The properties were successfully updated.</span></span>
     
-<span data-ttu-id="a7628-118">以下值可在**SPropProblemArray**结构中返回, 但不能在**SetProps**的返回值中返回:</span><span class="sxs-lookup"><span data-stu-id="a7628-118">The following values can be returned in the **SPropProblemArray** structure, but not as return values for **SetProps**:</span></span>
+<span data-ttu-id="7eef2-118">以下值可以在 **SPropProblemArray** 结构中返回，但不能作为 **SetProps 的返回值**：</span><span class="sxs-lookup"><span data-stu-id="7eef2-118">The following values can be returned in the **SPropProblemArray** structure, but not as return values for **SetProps**:</span></span>
   
-<span data-ttu-id="a7628-119">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="a7628-119">MAPI_E_BAD_CHARWIDTH</span></span> 
+<span data-ttu-id="7eef2-119">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="7eef2-119">MAPI_E_BAD_CHARWIDTH</span></span> 
   
-> <span data-ttu-id="a7628-120">设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。</span><span class="sxs-lookup"><span data-stu-id="a7628-120">Either the MAPI_UNICODE flag was set and the implementation does not support Unicode, or MAPI_UNICODE was not set and the implementation supports only Unicode.</span></span>
+> <span data-ttu-id="7eef2-120">设置 MAPI_UNICODE 标志，而实现不支持 Unicode，或者MAPI_UNICODE未设置，并且实现仅支持 Unicode。</span><span class="sxs-lookup"><span data-stu-id="7eef2-120">Either the MAPI_UNICODE flag was set and the implementation does not support Unicode, or MAPI_UNICODE was not set and the implementation supports only Unicode.</span></span>
     
-<span data-ttu-id="a7628-121">MAPI_E_COMPUTED</span><span class="sxs-lookup"><span data-stu-id="a7628-121">MAPI_E_COMPUTED</span></span> 
+<span data-ttu-id="7eef2-121">MAPI_E_COMPUTED</span><span class="sxs-lookup"><span data-stu-id="7eef2-121">MAPI_E_COMPUTED</span></span> 
   
-> <span data-ttu-id="a7628-122">属性不能更新, 因为它是只读的, 由负责该对象的服务提供程序进行计算。</span><span class="sxs-lookup"><span data-stu-id="a7628-122">The property cannot be updated because it is read-only, computed by the service provider that is responsible for the object.</span></span>
+> <span data-ttu-id="7eef2-122">属性无法更新，因为它是只读的，由负责对象的服务提供商计算。</span><span class="sxs-lookup"><span data-stu-id="7eef2-122">The property cannot be updated because it is read-only, computed by the service provider that is responsible for the object.</span></span>
     
-<span data-ttu-id="a7628-123">MAPI_E_INVALID_TYPE</span><span class="sxs-lookup"><span data-stu-id="a7628-123">MAPI_E_INVALID_TYPE</span></span> 
+<span data-ttu-id="7eef2-123">MAPI_E_INVALID_TYPE</span><span class="sxs-lookup"><span data-stu-id="7eef2-123">MAPI_E_INVALID_TYPE</span></span> 
   
-> <span data-ttu-id="a7628-124">属性类型无效。</span><span class="sxs-lookup"><span data-stu-id="a7628-124">The property type is invalid.</span></span>
+> <span data-ttu-id="7eef2-124">属性类型无效。</span><span class="sxs-lookup"><span data-stu-id="7eef2-124">The property type is invalid.</span></span>
     
-<span data-ttu-id="a7628-125">MAPI_E_NO_ACCESS</span><span class="sxs-lookup"><span data-stu-id="a7628-125">MAPI_E_NO_ACCESS</span></span> 
+<span data-ttu-id="7eef2-125">MAPI_E_NO_ACCESS</span><span class="sxs-lookup"><span data-stu-id="7eef2-125">MAPI_E_NO_ACCESS</span></span> 
   
-> <span data-ttu-id="a7628-126">试图修改只读对象或访问用户拥有的对象权限不足的对象。</span><span class="sxs-lookup"><span data-stu-id="a7628-126">An attempt was made to modify a read-only object or to access an object for which the user has insufficient permissions.</span></span>
+> <span data-ttu-id="7eef2-126">试图修改只读对象或访问用户权限不足的对象。</span><span class="sxs-lookup"><span data-stu-id="7eef2-126">An attempt was made to modify a read-only object or to access an object for which the user has insufficient permissions.</span></span>
     
-<span data-ttu-id="a7628-127">MAPI_E_NOT_ENOUGH_MEMORY</span><span class="sxs-lookup"><span data-stu-id="a7628-127">MAPI_E_NOT_ENOUGH_MEMORY</span></span> 
+<span data-ttu-id="7eef2-127">MAPI_E_NOT_ENOUGH_MEMORY</span><span class="sxs-lookup"><span data-stu-id="7eef2-127">MAPI_E_NOT_ENOUGH_MEMORY</span></span> 
   
-> <span data-ttu-id="a7628-128">属性不能更新, 因为它大于远程过程调用 (RPC) 缓冲区大小。</span><span class="sxs-lookup"><span data-stu-id="a7628-128">The property cannot be updated because it is larger than the remote procedure call (RPC) buffer size.</span></span>
+> <span data-ttu-id="7eef2-128">属性无法更新，因为它大于远程过程调用 (RPC) 缓冲区大小。</span><span class="sxs-lookup"><span data-stu-id="7eef2-128">The property cannot be updated because it is larger than the remote procedure call (RPC) buffer size.</span></span>
     
-<span data-ttu-id="a7628-129">MAPI_E_UNEXPECTED_TYPE</span><span class="sxs-lookup"><span data-stu-id="a7628-129">MAPI_E_UNEXPECTED_TYPE</span></span> 
+<span data-ttu-id="7eef2-129">MAPI_E_UNEXPECTED_TYPE</span><span class="sxs-lookup"><span data-stu-id="7eef2-129">MAPI_E_UNEXPECTED_TYPE</span></span> 
   
-> <span data-ttu-id="a7628-130">属性类型不是调用实现所需的类型。</span><span class="sxs-lookup"><span data-stu-id="a7628-130">The property type is not the type expected by the calling implementation.</span></span>
+> <span data-ttu-id="7eef2-130">属性类型不是调用实现预期的类型。</span><span class="sxs-lookup"><span data-stu-id="7eef2-130">The property type is not the type expected by the calling implementation.</span></span>
     
-## <a name="notes-to-implementers"></a><span data-ttu-id="a7628-131">针对实现者的说明</span><span class="sxs-lookup"><span data-stu-id="a7628-131">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="7eef2-131">针对实现者的说明</span><span class="sxs-lookup"><span data-stu-id="7eef2-131">Notes to implementers</span></span>
 
-<span data-ttu-id="a7628-132">忽略类型为**PT_ERROR**的**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) 属性标记和所有属性。</span><span class="sxs-lookup"><span data-stu-id="a7628-132">Ignore the **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) property tag and all properties with a type of **PT_ERROR**.</span></span> <span data-ttu-id="a7628-133">请勿在**SPropProblemArray**结构中进行更改或报告问题。</span><span class="sxs-lookup"><span data-stu-id="a7628-133">Do not make changes or report problems in the **SPropProblemArray** structure.</span></span> 
+<span data-ttu-id="7eef2-132">忽略 [PidTagNull PR_NULL (PidTagNull](pidtagnull-canonical-property.md)) 属性标记和类型为 PT_ERROR **的所有属性**。</span><span class="sxs-lookup"><span data-stu-id="7eef2-132">Ignore the **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) property tag and all properties with a type of **PT_ERROR**.</span></span> <span data-ttu-id="7eef2-133">不要对 **SPropProblemArray** 结构进行更改或报告问题。</span><span class="sxs-lookup"><span data-stu-id="7eef2-133">Do not make changes or report problems in the **SPropProblemArray** structure.</span></span> 
   
-<span data-ttu-id="a7628-134">如果属性值数组中包含**PT_OBJECT**类型的属性, 则返回 MAPI_E_INVALID_PARAMETER。</span><span class="sxs-lookup"><span data-stu-id="a7628-134">Return MAPI_E_INVALID_PARAMETER if a property of type **PT_OBJECT** is included in the property value array.</span></span> <span data-ttu-id="a7628-135">如果数组中包含多值属性, 并将其**cValues**成员设置为 0, 则也会返回此错误。</span><span class="sxs-lookup"><span data-stu-id="a7628-135">Also return this error if a multiple-value property is included in the array and its **cValues** member is set to 0.</span></span> 
+<span data-ttu-id="7eef2-134">如果MAPI_E_INVALID_PARAMETER数组中包含类型 **PT_OBJECT，** 则返回值。</span><span class="sxs-lookup"><span data-stu-id="7eef2-134">Return MAPI_E_INVALID_PARAMETER if a property of type **PT_OBJECT** is included in the property value array.</span></span> <span data-ttu-id="7eef2-135">如果数组中包含多值属性，并且其 **cValues** 成员设置为 0，则也返回此错误。</span><span class="sxs-lookup"><span data-stu-id="7eef2-135">Also return this error if a multiple-value property is included in the array and its **cValues** member is set to 0.</span></span> 
   
-<span data-ttu-id="a7628-136">如果调用成功, 但在设置某些属性时出现问题, 则返回 S_OK, 并将有关问题的信息放在_lppProblems_参数指向的**SPropProblemArray**结构的相应条目中。</span><span class="sxs-lookup"><span data-stu-id="a7628-136">If the call succeeds overall but there are problems with setting some of the properties, return S_OK and put information about the problems in the appropriate entry of the **SPropProblemArray** structure that the  _lppProblems_ parameter points to.</span></span> 
+<span data-ttu-id="7eef2-136">如果调用整体成功，但设置某些属性时出现问题，则返回 S_OK，将问题的信息放在 _lppProblems_ 参数指向的 **SPropProblemArray** 结构的适当条目中。</span><span class="sxs-lookup"><span data-stu-id="7eef2-136">If the call succeeds overall but there are problems with setting some of the properties, return S_OK and put information about the problems in the appropriate entry of the **SPropProblemArray** structure that the  _lppProblems_ parameter points to.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="a7628-137">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="a7628-137">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="7eef2-137">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="7eef2-137">Notes to callers</span></span>
 
-<span data-ttu-id="a7628-138">根据服务提供程序的不同, 您还可以通过传递包含与先前用于给定属性标识符的类型不同的属性标记来更改属性类型。</span><span class="sxs-lookup"><span data-stu-id="a7628-138">Depending on the service provider, you might also be able to change the property type by passing a property tag that contains a different type than was previously used with a given property identifier.</span></span>
+<span data-ttu-id="7eef2-138">根据服务提供商的不同，您还可以通过传递包含与之前用于给定属性标识符不同的类型的属性标记来更改属性类型。</span><span class="sxs-lookup"><span data-stu-id="7eef2-138">Depending on the service provider, you might also be able to change the property type by passing a property tag that contains a different type than was previously used with a given property identifier.</span></span>
   
-<span data-ttu-id="a7628-139">如果包含对象不支持的属性的属性标记, 且**SetProps**的实现允许创建新的属性, 则会将该属性添加到对象中。</span><span class="sxs-lookup"><span data-stu-id="a7628-139">If you include a property tag for a property that is unsupported by the object and the implementation of **SetProps** allows the creation of new properties, the property is added to the object.</span></span> <span data-ttu-id="a7628-140">以前与用于新属性的属性标识符一起存储的任何值都将被丢弃。</span><span class="sxs-lookup"><span data-stu-id="a7628-140">Any previous value stored with the property identifier that was used for the new property is discarded.</span></span> 
+<span data-ttu-id="7eef2-139">如果包含对象不支持的属性的属性标记，并且 **SetProps** 的实现允许创建新属性，则该属性将添加到对象中。</span><span class="sxs-lookup"><span data-stu-id="7eef2-139">If you include a property tag for a property that is unsupported by the object and the implementation of **SetProps** allows the creation of new properties, the property is added to the object.</span></span> <span data-ttu-id="7eef2-140">将丢弃与用于新属性的属性标识符一起存储的任何以前的值。</span><span class="sxs-lookup"><span data-stu-id="7eef2-140">Any previous value stored with the property identifier that was used for the new property is discarded.</span></span> 
   
-<span data-ttu-id="a7628-141">请注意, S_OK 返回值并不保证已成功更新所有属性。</span><span class="sxs-lookup"><span data-stu-id="a7628-141">Note that the S_OK return value does not guarantee that all of the properties were successfully updated.</span></span> <span data-ttu-id="a7628-142">某些提供程序在收到需要提供程序干预的调用 (如[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)或[IMAPIProp:: GetProps](imapiprop-getprops.md)) 之前缓存**SetProps**调用。</span><span class="sxs-lookup"><span data-stu-id="a7628-142">Some providers cache **SetProps** calls until they receive a call that requires provider intervention, such as [IMAPIProp::SaveChanges](imapiprop-savechanges.md) or [IMAPIProp::GetProps](imapiprop-getprops.md).</span></span> <span data-ttu-id="a7628-143">因此, 可以接收与后续调用相关的**SetProps**调用的错误值。</span><span class="sxs-lookup"><span data-stu-id="a7628-143">Therefore, it is possible to receive error values that relate to the **SetProps** call with the later calls.</span></span> 
+<span data-ttu-id="7eef2-141">请注意，S_OK返回值并不能保证已成功更新所有属性。</span><span class="sxs-lookup"><span data-stu-id="7eef2-141">Note that the S_OK return value does not guarantee that all of the properties were successfully updated.</span></span> <span data-ttu-id="7eef2-142">某些提供程序缓存 **SetProps** 调用，直到收到需要提供程序干预的调用，例如 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 或 [IMAPIProp：：GetProps](imapiprop-getprops.md)。</span><span class="sxs-lookup"><span data-stu-id="7eef2-142">Some providers cache **SetProps** calls until they receive a call that requires provider intervention, such as [IMAPIProp::SaveChanges](imapiprop-savechanges.md) or [IMAPIProp::GetProps](imapiprop-getprops.md).</span></span> <span data-ttu-id="7eef2-143">因此，可以接收与以后调用的 **SetProps** 调用相关的错误值。</span><span class="sxs-lookup"><span data-stu-id="7eef2-143">Therefore, it is possible to receive error values that relate to the **SetProps** call with the later calls.</span></span> 
   
-<span data-ttu-id="a7628-144">如果**SetProps**返回 S_OK, 请检查_lppProblems_针对更新各个属性的问题所指向的**SPropProblemArray**结构。</span><span class="sxs-lookup"><span data-stu-id="a7628-144">If **SetProps** returns S_OK, check the **SPropProblemArray** structure pointed to by  _lppProblems_ for problems updating individual properties.</span></span> <span data-ttu-id="a7628-145">如果**SetProps**返回错误, 请勿检查属性问题数组。</span><span class="sxs-lookup"><span data-stu-id="a7628-145">If **SetProps** returns an error, do not check the property problem array.</span></span> <span data-ttu-id="a7628-146">而是调用对象的[IMAPIProp:: GetLastError](imapiprop-getlasterror.md)方法。</span><span class="sxs-lookup"><span data-stu-id="a7628-146">Instead, call the object's [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method.</span></span> 
+<span data-ttu-id="7eef2-144">如果 **SetProps** S_OK，请检查 _lppProblems_ 指向的 **SPropProblemArray** 结构，以发现更新单个属性时出现问题。</span><span class="sxs-lookup"><span data-stu-id="7eef2-144">If **SetProps** returns S_OK, check the **SPropProblemArray** structure pointed to by  _lppProblems_ for problems updating individual properties.</span></span> <span data-ttu-id="7eef2-145">如果 **SetProps** 返回错误，请不要检查属性问题数组。</span><span class="sxs-lookup"><span data-stu-id="7eef2-145">If **SetProps** returns an error, do not check the property problem array.</span></span> <span data-ttu-id="7eef2-146">相反，请调用对象的 [IMAPIProp：：GetLastError](imapiprop-getlasterror.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="7eef2-146">Instead, call the object's [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method.</span></span> 
   
-<span data-ttu-id="a7628-147">更新大型属性时, **SetProps**可能会失败并返回 MAPI_E_NOT_ENOUGH_MEMORY。</span><span class="sxs-lookup"><span data-stu-id="a7628-147">When updating large properties, **SetProps** can fail and return MAPI_E_NOT_ENOUGH_MEMORY.</span></span> <span data-ttu-id="a7628-148">属性没有最大大小, 不同的对象可以有不同的限制。</span><span class="sxs-lookup"><span data-stu-id="a7628-148">There is no maximum size for properties, and different objects can have different limits.</span></span> <span data-ttu-id="a7628-149">如果您处理可能的大型属性, 请准备好在**SetProps**返回此错误值时将[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法用作接口标识符, 以将 IID_IStream 作为接口标识符进行调用。</span><span class="sxs-lookup"><span data-stu-id="a7628-149">If you deal with potentially large properties, be prepared to call the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method with IID_IStream as the interface identifier if **SetProps** returns this error value.</span></span> 
+<span data-ttu-id="7eef2-147">更新大型属性时 **，SetProps** 可能会失败并返回MAPI_E_NOT_ENOUGH_MEMORY。</span><span class="sxs-lookup"><span data-stu-id="7eef2-147">When updating large properties, **SetProps** can fail and return MAPI_E_NOT_ENOUGH_MEMORY.</span></span> <span data-ttu-id="7eef2-148">属性没有最大大小，不同对象可以有不同的限制。</span><span class="sxs-lookup"><span data-stu-id="7eef2-148">There is no maximum size for properties, and different objects can have different limits.</span></span> <span data-ttu-id="7eef2-149">如果你处理潜在的大型属性，请准备好调用 [IMAPIProp：：OpenProperty](imapiprop-openproperty.md) 方法，如果 **SetProps** 返回此错误值IID_IStream则使用 IID_IStream 作为接口标识符。</span><span class="sxs-lookup"><span data-stu-id="7eef2-149">If you deal with potentially large properties, be prepared to call the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method with IID_IStream as the interface identifier if **SetProps** returns this error value.</span></span> 
   
-<span data-ttu-id="a7628-150">调用[MAPIFreeBuffer](mapifreebuffer.md)函数以释放**SPropProblemArray**结构。</span><span class="sxs-lookup"><span data-stu-id="a7628-150">Call the [MAPIFreeBuffer](mapifreebuffer.md) function to free the **SPropProblemArray** structure.</span></span> 
+<span data-ttu-id="7eef2-150">调用 [MAPIFreeBuffer](mapifreebuffer.md) 函数以释放 **SPropProblemArray** 结构。</span><span class="sxs-lookup"><span data-stu-id="7eef2-150">Call the [MAPIFreeBuffer](mapifreebuffer.md) function to free the **SPropProblemArray** structure.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="a7628-151">MFCMAPI 引用</span><span class="sxs-lookup"><span data-stu-id="a7628-151">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="7eef2-151">MFCMAPI 引用</span><span class="sxs-lookup"><span data-stu-id="7eef2-151">MFCMAPI reference</span></span>
 
-<span data-ttu-id="a7628-152">有关 MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="a7628-152">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="7eef2-152">有关 MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="7eef2-152">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="a7628-153">**文件**</span><span class="sxs-lookup"><span data-stu-id="a7628-153">**File**</span></span>|<span data-ttu-id="a7628-154">**函数**</span><span class="sxs-lookup"><span data-stu-id="a7628-154">**Function**</span></span>|<span data-ttu-id="a7628-155">**备注**</span><span class="sxs-lookup"><span data-stu-id="a7628-155">**Comment**</span></span>|
+|<span data-ttu-id="7eef2-153">**文件**</span><span class="sxs-lookup"><span data-stu-id="7eef2-153">**File**</span></span>|<span data-ttu-id="7eef2-154">**函数**</span><span class="sxs-lookup"><span data-stu-id="7eef2-154">**Function**</span></span>|<span data-ttu-id="7eef2-155">**备注**</span><span class="sxs-lookup"><span data-stu-id="7eef2-155">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="a7628-156">PropertyEditor</span><span class="sxs-lookup"><span data-stu-id="a7628-156">PropertyEditor.cpp</span></span>  <br/> |<span data-ttu-id="a7628-157">CPropertyEditor:: WriteSPropValueToObject</span><span class="sxs-lookup"><span data-stu-id="a7628-157">CPropertyEditor::WriteSPropValueToObject</span></span>  <br/> |<span data-ttu-id="a7628-158">MFCMAPI 使用**IMAPIProp:: SetProps**方法在编辑属性后将属性写入对象。</span><span class="sxs-lookup"><span data-stu-id="a7628-158">MFCMAPI uses the **IMAPIProp::SetProps** method to write a property back to an object after the property has been edited.</span></span>  <br/> |
+|<span data-ttu-id="7eef2-156">PropertyEditor.cpp</span><span class="sxs-lookup"><span data-stu-id="7eef2-156">PropertyEditor.cpp</span></span>  <br/> |<span data-ttu-id="7eef2-157">CPropertyEditor：：WriteSPropValueToObject</span><span class="sxs-lookup"><span data-stu-id="7eef2-157">CPropertyEditor::WriteSPropValueToObject</span></span>  <br/> |<span data-ttu-id="7eef2-158">MFCMAPI 使用 **IMAPIProp：：SetProps** 方法在编辑属性后将属性写回对象。</span><span class="sxs-lookup"><span data-stu-id="7eef2-158">MFCMAPI uses the **IMAPIProp::SetProps** method to write a property back to an object after the property has been edited.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="a7628-159">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a7628-159">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7eef2-159">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7eef2-159">See also</span></span>
 
 
 
-[<span data-ttu-id="a7628-160">IMAPIProp::GetLastError</span><span class="sxs-lookup"><span data-stu-id="a7628-160">IMAPIProp::GetLastError</span></span>](imapiprop-getlasterror.md)
+[<span data-ttu-id="7eef2-160">IMAPIProp::GetLastError</span><span class="sxs-lookup"><span data-stu-id="7eef2-160">IMAPIProp::GetLastError</span></span>](imapiprop-getlasterror.md)
   
-[<span data-ttu-id="a7628-161">IMAPIProp::GetProps</span><span class="sxs-lookup"><span data-stu-id="a7628-161">IMAPIProp::GetProps</span></span>](imapiprop-getprops.md)
+[<span data-ttu-id="7eef2-161">IMAPIProp::GetProps</span><span class="sxs-lookup"><span data-stu-id="7eef2-161">IMAPIProp::GetProps</span></span>](imapiprop-getprops.md)
   
-[<span data-ttu-id="a7628-162">IMAPIProp::OpenProperty</span><span class="sxs-lookup"><span data-stu-id="a7628-162">IMAPIProp::OpenProperty</span></span>](imapiprop-openproperty.md)
+[<span data-ttu-id="7eef2-162">IMAPIProp::OpenProperty</span><span class="sxs-lookup"><span data-stu-id="7eef2-162">IMAPIProp::OpenProperty</span></span>](imapiprop-openproperty.md)
   
-[<span data-ttu-id="a7628-163">IMAPIProp::SaveChanges</span><span class="sxs-lookup"><span data-stu-id="a7628-163">IMAPIProp::SaveChanges</span></span>](imapiprop-savechanges.md)
+[<span data-ttu-id="7eef2-163">IMAPIProp::SaveChanges</span><span class="sxs-lookup"><span data-stu-id="7eef2-163">IMAPIProp::SaveChanges</span></span>](imapiprop-savechanges.md)
   
-[<span data-ttu-id="a7628-164">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="a7628-164">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
+[<span data-ttu-id="7eef2-164">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="7eef2-164">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
   
-[<span data-ttu-id="a7628-165">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="a7628-165">SPropProblemArray</span></span>](spropproblemarray.md)
+[<span data-ttu-id="7eef2-165">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="7eef2-165">SPropProblemArray</span></span>](spropproblemarray.md)
   
-[<span data-ttu-id="a7628-166">SPropValue</span><span class="sxs-lookup"><span data-stu-id="a7628-166">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="7eef2-166">SPropValue</span><span class="sxs-lookup"><span data-stu-id="7eef2-166">SPropValue</span></span>](spropvalue.md)
   
-[<span data-ttu-id="a7628-167">IMAPIProp : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a7628-167">IMAPIProp : IUnknown</span></span>](imapipropiunknown.md)
+[<span data-ttu-id="7eef2-167">IMAPIProp : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7eef2-167">IMAPIProp : IUnknown</span></span>](imapipropiunknown.md)
 

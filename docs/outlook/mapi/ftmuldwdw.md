@@ -19,19 +19,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412910"
 ---
-# <a name="ftmuldwdw"></a><span data-ttu-id="c17bf-103">FtMulDwDw</span><span class="sxs-lookup"><span data-stu-id="c17bf-103">FtMulDwDw</span></span>
+# <a name="ftmuldwdw"></a><span data-ttu-id="7c723-103">FtMulDwDw</span><span class="sxs-lookup"><span data-stu-id="7c723-103">FtMulDwDw</span></span>
 
   
   
-<span data-ttu-id="c17bf-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c17bf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7c723-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7c723-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c17bf-105">将一个不带符号的32位整数乘以另一个。</span><span class="sxs-lookup"><span data-stu-id="c17bf-105">Multiplies one unsigned 32-bit integer by another.</span></span>
+<span data-ttu-id="7c723-105">将一个无符号 32 位整数乘以另一个。</span><span class="sxs-lookup"><span data-stu-id="7c723-105">Multiplies one unsigned 32-bit integer by another.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c17bf-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="c17bf-106">Header file:</span></span>  <br/> |<span data-ttu-id="c17bf-107">Mapiutil</span><span class="sxs-lookup"><span data-stu-id="c17bf-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="c17bf-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="c17bf-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="c17bf-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="c17bf-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="c17bf-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="c17bf-110">Called by:</span></span>  <br/> |<span data-ttu-id="c17bf-111">客户端应用程序和服务提供程序</span><span class="sxs-lookup"><span data-stu-id="c17bf-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="7c723-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="7c723-106">Header file:</span></span>  <br/> |<span data-ttu-id="7c723-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="7c723-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="7c723-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="7c723-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="7c723-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="7c723-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="7c723-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="7c723-110">Called by:</span></span>  <br/> |<span data-ttu-id="7c723-111">客户端应用程序和服务提供商</span><span class="sxs-lookup"><span data-stu-id="7c723-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 FILETIME FtMulDwDw(
@@ -40,18 +40,18 @@ FILETIME FtMulDwDw(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c17bf-112">参数</span><span class="sxs-lookup"><span data-stu-id="c17bf-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7c723-112">参数</span><span class="sxs-lookup"><span data-stu-id="7c723-112">Parameters</span></span>
 
- <span data-ttu-id="c17bf-113">_Multiplicand_</span><span class="sxs-lookup"><span data-stu-id="c17bf-113">_Multiplicand_</span></span>
+ <span data-ttu-id="7c723-113">_Multiplicand_</span><span class="sxs-lookup"><span data-stu-id="7c723-113">_Multiplicand_</span></span>
   
-> <span data-ttu-id="c17bf-114">实时包含与_乘数_参数中的值相乘的无符号32位整数的双字。</span><span class="sxs-lookup"><span data-stu-id="c17bf-114">[in] A double word that contains the unsigned 32-bit integer to be multiplied by the value in the  _Multiplier_ parameter.</span></span> 
+> <span data-ttu-id="7c723-114">[in]包含要乘以  _乘_ 数参数中的值的无符号 32 位整数的双词。</span><span class="sxs-lookup"><span data-stu-id="7c723-114">[in] A double word that contains the unsigned 32-bit integer to be multiplied by the value in the  _Multiplier_ parameter.</span></span> 
     
- <span data-ttu-id="c17bf-115">_乘以_</span><span class="sxs-lookup"><span data-stu-id="c17bf-115">_Multiplier_</span></span>
+ <span data-ttu-id="7c723-115">_乘数_</span><span class="sxs-lookup"><span data-stu-id="7c723-115">_Multiplier_</span></span>
   
-> <span data-ttu-id="c17bf-116">实时包含未签名的32位整数乘数的双字。</span><span class="sxs-lookup"><span data-stu-id="c17bf-116">[in] A double word that contains the unsigned 32-bit integer multiplier.</span></span>
+> <span data-ttu-id="7c723-116">[in]包含无符号 32 位整数乘数的双词。</span><span class="sxs-lookup"><span data-stu-id="7c723-116">[in] A double word that contains the unsigned 32-bit integer multiplier.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c17bf-117">返回值</span><span class="sxs-lookup"><span data-stu-id="c17bf-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7c723-117">返回值</span><span class="sxs-lookup"><span data-stu-id="7c723-117">Return value</span></span>
 
-<span data-ttu-id="c17bf-118">**FtMulDwDw**函数返回一个[FILETIME](filetime.md)结构, 其中包含两个整数的乘积。</span><span class="sxs-lookup"><span data-stu-id="c17bf-118">The **FtMulDwDw** function returns a [FILETIME](filetime.md) structure that contains the product of the two integers.</span></span> <span data-ttu-id="c17bf-119">这两个输入参数保持不变。</span><span class="sxs-lookup"><span data-stu-id="c17bf-119">The two input parameters remain unchanged.</span></span> 
+<span data-ttu-id="7c723-118">**FtMulDwDw** 函数返回 [FILETIME](filetime.md)结构，其中包含两个整数的乘数。</span><span class="sxs-lookup"><span data-stu-id="7c723-118">The **FtMulDwDw** function returns a [FILETIME](filetime.md) structure that contains the product of the two integers.</span></span> <span data-ttu-id="7c723-119">两个输入参数保持不变。</span><span class="sxs-lookup"><span data-stu-id="7c723-119">The two input parameters remain unchanged.</span></span> 
   
 

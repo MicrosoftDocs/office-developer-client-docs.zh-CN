@@ -19,35 +19,35 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413120"
 ---
-# <a name="cbmessageclassarray"></a><span data-ttu-id="d450d-103">CbMessageClassArray</span><span class="sxs-lookup"><span data-stu-id="d450d-103">CbMessageClassArray</span></span>
+# <a name="cbmessageclassarray"></a><span data-ttu-id="12177-103">CbMessageClassArray</span><span class="sxs-lookup"><span data-stu-id="12177-103">CbMessageClassArray</span></span>
 
   
   
-<span data-ttu-id="d450d-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d450d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="12177-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="12177-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d450d-105">计算包含指定数量的邮件类的字符串指针的现有[SMessageClassArray](smessageclassarray.md)结构中的字节数。</span><span class="sxs-lookup"><span data-stu-id="d450d-105">Computes the number of bytes in an existing [SMessageClassArray](smessageclassarray.md) structure that contains a specified number of string pointers to message classes.</span></span> 
+<span data-ttu-id="12177-105">计算现有 [SMessageClassArray](smessageclassarray.md) 结构中包含指定数量的邮件类字符串指针的字节数。</span><span class="sxs-lookup"><span data-stu-id="12177-105">Computes the number of bytes in an existing [SMessageClassArray](smessageclassarray.md) structure that contains a specified number of string pointers to message classes.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="d450d-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="d450d-106">Header file:</span></span>  <br/> |<span data-ttu-id="d450d-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="d450d-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="d450d-108">相关结构:</span><span class="sxs-lookup"><span data-stu-id="d450d-108">Related structure:</span></span>  <br/> |<span data-ttu-id="d450d-109">**SMessageClassArray**</span><span class="sxs-lookup"><span data-stu-id="d450d-109">**SMessageClassArray**</span></span> <br/> |
+|<span data-ttu-id="12177-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="12177-106">Header file:</span></span>  <br/> |<span data-ttu-id="12177-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="12177-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="12177-108">相关结构：</span><span class="sxs-lookup"><span data-stu-id="12177-108">Related structure:</span></span>  <br/> |<span data-ttu-id="12177-109">**SMessageClassArray**</span><span class="sxs-lookup"><span data-stu-id="12177-109">**SMessageClassArray**</span></span> <br/> |
    
 ```cpp
 CbMessageClassArray (_c)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d450d-110">参数</span><span class="sxs-lookup"><span data-stu-id="d450d-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="12177-110">参数</span><span class="sxs-lookup"><span data-stu-id="12177-110">Parameters</span></span>
 
- <span data-ttu-id="d450d-111">__c_</span><span class="sxs-lookup"><span data-stu-id="d450d-111">__c_</span></span>
+ <span data-ttu-id="12177-111">_ _c_</span><span class="sxs-lookup"><span data-stu-id="12177-111">_ _c_</span></span>
   
-> <span data-ttu-id="d450d-112">包含在现有**SMessageClassArray**中的邮件类的指针计数。</span><span class="sxs-lookup"><span data-stu-id="d450d-112">Count of the pointers to message classes that are included in the existing **SMessageClassArray**.</span></span>
+> <span data-ttu-id="12177-112">指向现有 **SMessageClassArray** 中包含的邮件类的指针计数。</span><span class="sxs-lookup"><span data-stu-id="12177-112">Count of the pointers to message classes that are included in the existing **SMessageClassArray**.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="d450d-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d450d-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="12177-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="12177-113">See also</span></span>
 
 
 
-[<span data-ttu-id="d450d-114">SMessageClassArray</span><span class="sxs-lookup"><span data-stu-id="d450d-114">SMessageClassArray</span></span>](smessageclassarray.md)
+[<span data-ttu-id="12177-114">SMessageClassArray</span><span class="sxs-lookup"><span data-stu-id="12177-114">SMessageClassArray</span></span>](smessageclassarray.md)
 
 
-[<span data-ttu-id="d450d-115">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="d450d-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="12177-115">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="12177-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

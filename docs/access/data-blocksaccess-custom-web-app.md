@@ -1,5 +1,5 @@
 ---
-title: 数据块 (Access 自定义 web 应用)
+title: 'Access (Web 应用的数据块) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,19 +13,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411328"
 ---
-# <a name="data-blocks-access-custom-web-app"></a><span data-ttu-id="cfde5-102">数据块 (Access 自定义 web 应用)</span><span class="sxs-lookup"><span data-stu-id="cfde5-102">Data blocks (Access custom web app)</span></span>
+# <a name="data-blocks-access-custom-web-app"></a><span data-ttu-id="3ffe9-102">Access (Web 应用的数据块) </span><span class="sxs-lookup"><span data-stu-id="3ffe9-102">Data blocks (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="cfde5-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="cfde5-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="3ffe9-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="3ffe9-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="cfde5-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="cfde5-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3ffe9-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="3ffe9-105">In this section</span></span>
 
-- [<span data-ttu-id="cfde5-106">CreateRecord 数据块 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="cfde5-106">CreateRecord Data Block (Access custom web app)</span></span>](createrecord-data-block-access-custom-web-app.md)
+- [<span data-ttu-id="3ffe9-106">CreateRecord Data Block (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="3ffe9-106">CreateRecord Data Block (Access custom web app)</span></span>](createrecord-data-block-access-custom-web-app.md)
     
-- [<span data-ttu-id="cfde5-107">EditRecord 数据块 (Access 自定义 web 应用)</span><span class="sxs-lookup"><span data-stu-id="cfde5-107">EditRecord Data Block (Access custom web app)</span></span>](editrecord-data-block-access-custom-web-app.md)
+- [<span data-ttu-id="3ffe9-107">EditRecord Data Block (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="3ffe9-107">EditRecord Data Block (Access custom web app)</span></span>](editrecord-data-block-access-custom-web-app.md)
     
-- [<span data-ttu-id="cfde5-108">ForEachRecord 数据块 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="cfde5-108">ForEachRecord Data Block (Access custom web app)</span></span>](foreachrecord-data-block-access-custom-web-app.md)
+- [<span data-ttu-id="3ffe9-108">ForEachRecord Data Block (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="3ffe9-108">ForEachRecord Data Block (Access custom web app)</span></span>](foreachrecord-data-block-access-custom-web-app.md)
     
-- [<span data-ttu-id="cfde5-109">LookupRecord 数据块 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="cfde5-109">LookupRecord Data Block (Access custom web app)</span></span>](lookuprecord-data-block-access-custom-web-app.md)
+- [<span data-ttu-id="3ffe9-109">LookupRecord Data Block (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="3ffe9-109">LookupRecord Data Block (Access custom web app)</span></span>](lookuprecord-data-block-access-custom-web-app.md)
     
 
