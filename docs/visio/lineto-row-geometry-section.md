@@ -18,13 +18,13 @@ ms.locfileid: "33404727"
 ---
 # <a name="lineto-row-geometry-section"></a>LineTo 行（“Geometry”内容）
 
-包含直线段终顶点的*x*坐标和*y*坐标。 
+包含  *直线*  段终顶点的 x 坐标和  *y*  坐标。 
   
 LineTo 行包含以下单元格。
   
-|**单元格**|**说明**|
+|**Cell**|**说明**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |直线段终顶点的*x*坐标。  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |直线段终顶点的*y*坐标。  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |直线段终顶点的  *x*  坐标。  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |直线段终顶点的  *y*  坐标。  <br/> |
    
 

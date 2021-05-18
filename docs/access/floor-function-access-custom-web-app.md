@@ -1,5 +1,5 @@
 ---
-title: Floor 函数 (Access 自定义 web 应用)
+title: 'Floor Function (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404811"
 ---
-# <a name="floor-function-access-custom-web-app"></a>Floor 函数 (Access 自定义 web 应用)
+# <a name="floor-function-access-custom-web-app"></a>Floor Function (Access 自定义 Web 应用) 
 
 返回小于或等于指定数值表达式的最大整数。
   
@@ -23,9 +23,9 @@ ms.locfileid: "33404811"
   
 ## <a name="syntax"></a>语法
 
- **基底**(*NumericExpression*) 
+ **Floor** (*NumericExpression)* 
   
-**Floor**函数包含以下参数。 
+**Floor** 函数包含以下参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|

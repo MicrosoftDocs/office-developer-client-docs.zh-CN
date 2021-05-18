@@ -25,13 +25,13 @@ HRESULT _stdcall Logon([in] BSTR username, [in] BSTR password);
 
 ## <a name="parameters"></a>参数
 
-_根本_
+_username_
   
-> 实时包含要登录的用户名的字符串。
+> [in]包含要登录的用户名的字符串。
     
-_口令_
+_password_
   
-> 实时包含要登录的密码的字符串。
+> [in]包含要登录的密码的字符串。
     
 ## <a name="see-also"></a>另请参阅
 

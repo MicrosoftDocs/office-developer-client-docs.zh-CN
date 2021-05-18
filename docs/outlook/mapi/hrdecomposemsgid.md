@@ -25,11 +25,11 @@ ms.locfileid: "33404433"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将对象的复合条目标识符 (通常是邮件存储区中的邮件) 的 ASCII 表示形式分离到存储区中该对象的条目标识符和存储的条目标识符中。 
+将对象（通常是邮件存储中的邮件）复合条目标识符的 ASCII 表示形式分离到存储中的该对象的条目标识符和存储的条目标识符中。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
    
@@ -48,27 +48,27 @@ HrDecomposeMsgID(
 
  _psession_
   
-> 实时指向客户端应用程序正在使用的会话的指针。 
+> [in]指向客户端应用程序使用的会话的指针。 
     
  _szMsgID_
   
-> 实时表示对象的条目标识符的字符串。 
+> [in]表示对象的条目标识符的字符串。 
     
- _pcbStoreEID_
+ _分列存储 ID_
   
-> 排除指向包含该对象的邮件存储区的条目标识符的返回大小 (以字节为单位)。 如果_szMsgID_参数指向 noncompound 条目标识符字符串, 则_pcbStoreEID_参数将指向零。 
+> [out]指向包含对象的邮件存储的条目标识符的返回大小（以字节为单位）的指针。 如果  _szMsgID_ 参数指向一个非编译项标识符字符串，则  _该毫秒_ 存储 ID 参数将指向零。 
     
  _ppStoreEID_
   
-> 排除指向指向包含该对象的邮件存储区的返回项标识符的指针的指针。 如果_szMsgID_参数指向 noncompound 条目标识符, 则在_ppStoreEID_参数中返回 NULL。 
+> [out]指向指向包含对象的邮件存储的返回条目标识符的指针。 如果  _szMsgID_ 参数指向非编译项标识符，则  _ppStoreEID_ 参数中返回 NULL。 
     
- _pcbMsgEID_
+ _atmMsgEID_
   
-> 排除指向其存储中的对象的条目标识符的返回大小 (以字节为单位) 的指针。 如果_szMsgID_参数指向 noncompound 条目标识符字符串, 则_pcbMsgEID_参数等于_cbEID_参数的值。 
+> [out]指向对象在其存储中的条目标识符的返回大小（以字节为单位）的指针。 如果  _szMsgID_ 参数指向一个非编译项标识符字符串，则  _这些参数等于_  _cbEID_ 参数的值。 
     
  _ppMsgEID_
   
-> 排除指向指向其存储中的对象的返回项标识符字符串的指针的指针。 如果_szMsgID_参数指向 noncompound 条目标识符, 则_ppMsgEID_指向指向 noncompound 条目标识符的转换副本的指针。 
+> [out]指向指向对象在其存储中返回的条目标识符字符串的指针的指针。 如果  _szMsgID_ 参数指向非编译项标识符，  _则 ppMsgEID_ 指向指向非编译项标识符的转换副本的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -76,8 +76,8 @@ HrDecomposeMsgID(
   
 ## <a name="remarks"></a>说明
 
-如果_szMsgID_参数指定的标识符是复合标识符, 则将其从 ASCII 转换为, 并拆分为其邮件存储区中的对象的条目标识符和存储的条目标识符。 Noncompound 条目标识符字符串是简单转换和复制的。 要分隔的复合标识符字符串通常是由[HrComposeMsgID](hrcomposemsgid.md)函数创建一个。 
+如果  _szMsgID_ 参数指定的标识符是复合标识符，它将从 ASCII 转换，并拆分为对象在其邮件存储中的条目标识符和存储区的条目标识符。 仅转换和复制未编译的条目标识符字符串。 要分隔的复合标识符字符串通常由 [HrComposeMsgID](hrcomposemsgid.md) 函数创建。 
   
-调用**HrDecomposeMsgID**函数等效于调用[HrEntryIDFromSz](hrentryidfromsz.md)函数, 然后调用[HrDecomposeEID](hrdecomposeeid.md)函数。 
+调用 **HrDecomposeMsgID** 函数等效于调用 [HrEntryIDFromSz](hrentryidfromsz.md) 函数，然后 [调用 HrDecomposeEID](hrdecomposeeid.md) 函数。 
   
 

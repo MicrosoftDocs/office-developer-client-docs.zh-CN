@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251413
 localization_priority: Normal
 ms.assetid: 0bf7f757-0b7f-dec1-9709-6612c9ad0d53
-description: 返回以 datetime 或 expression 表示的日期和时间值。
+description: 返回 datetime 或 expression 表示的日期和时间值。
 ms.openlocfilehash: 2da084f685c044d48495b04f727a877140b51004
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "32360317"
 ---
 # <a name="datetime-function"></a>DATETIME 函数
 
-返回以_datetime_或_expression_表示的日期和时间值。
+返回  _datetime_ 或 expression 表示的日期和时间  _值_。
   
 ## <a name="syntax"></a>语法
 
-DATETIME ("* * *datetime* * *" |* **表达式** * [, * * *lcid* * *]) 
+DATETIME (" ** *datetime* ** "|** *expression* ** [， ** *lcid* ** ])  
   
 ### <a name="parameters"></a>参数
 
@@ -36,13 +36,13 @@ DATETIME ("* * *datetime* * *" |* **表达式** * [, * * *lcid* * *])
 
 Datetime
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果*datetime*缺失或无法解释为有效的日期或时间, 则 datetime 将返回 #VALUE! 误差. 
+如果  *datetime*  缺失或无法解释为有效的日期或时间，则 DATETIME 将返回一#VALUE！ error。 
   
 返回的值根据系统当前“区域设置”中的短日期样式和时间样式设置格式。 
   
-DATETIME 函数还接受一个数值, 其中结果的** 整数部分代表自1899年12月30日以来的天数, 小数部分表示自午夜以来的一天中的某一天。 
+DATETIME 函数还接受表达式的单个数值，其中结果的整数部分表示自 1899 年 12 月 30 日起的天数，小数部分表示自午夜以来的一天中的分数。 
   
 ## <a name="example-1"></a>示例 1
 
@@ -64,7 +64,7 @@ DATETIME("1:30 PM July 19")
   
 ## <a name="example-4"></a>示例 4
 
-DATETIME (35580.6337)
+DATETIME (35580.6337) 
   
 返回表示 5/30/1997 3:12:32 PM 的值。
   

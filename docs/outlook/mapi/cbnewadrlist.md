@@ -29,8 +29,8 @@ ms.locfileid: "33404314"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**ADRLIST** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 CbNewADRLIST (_centries)
@@ -38,9 +38,9 @@ CbNewADRLIST (_centries)
 
 ## <a name="parameters"></a>参数
 
- __centries_
+ _ _centries_
   
-> 要包含在新**ADRLIST**结构中的**ADRENTRY**结构的计数。 
+> 要 **包含在新 ADRLIST 结构的 ADRENTRY** 结构计数。  
     
 ## <a name="see-also"></a>另请参阅
 

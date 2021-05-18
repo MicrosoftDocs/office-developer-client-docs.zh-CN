@@ -25,7 +25,7 @@ ms.locfileid: "33422101"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-已弃用。 为邮件服务分配一个新名称。 
+已弃用。 为邮件服务分配新名称。 
   
 ```cpp
 HRESULT RenameMsgService(
@@ -39,25 +39,25 @@ HRESULT RenameMsgService(
 
  _lpUID_
   
-> 实时指向[MAPIUID](mapiuid.md)结构的指针, 该结构包含要重命名的邮件服务的唯一标识符。 
+> [in]指向 [MAPIUID](mapiuid.md) 结构的指针，其中包含要重命名的邮件服务的唯一标识符。 
     
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lpszDisplayName_
   
-> 实时指向邮件服务的新名称的指针。
+> [in]指向邮件服务的新名称的指针。
     
 ## <a name="return-value"></a>返回值
 
 MAPI_E_NO_SUPPORT 
   
-> MAPI 不支持重命名此邮件服务。 **RenameMsgService**始终返回此值。 
+> MAPI 不支持重命名此消息服务。 **RenameMsgService** 始终返回此值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-若要将新名称分配给邮件服务, 客户端应使用邮件服务的**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) 属性。 邮件服务中的服务提供程序的名称存储在其**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性中。 
+若要向邮件服务分配新名称，客户端应PR_SERVICE_NAME ( [PidTagServiceName) PidTagServiceName](pidtagservicename-canonical-property.md)属性。 邮件服务中的服务提供商的名称存储在[PidTagDisplayName 属性PR_DISPLAY_NAME (PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 中。  
   
 ## <a name="see-also"></a>另请参阅
 

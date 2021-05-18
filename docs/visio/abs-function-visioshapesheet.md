@@ -22,7 +22,7 @@ ms.locfileid: "33421807"
   
 ## <a name="syntax"></a>语法
 
-ABS (*数字*) 
+ABS ( *number*)  
   
 ### <a name="parameters"></a>参数
 
@@ -32,7 +32,7 @@ ABS (*数字*)
    
 ## <a name="example"></a>示例
 
-ABS (-1.24) 
+ABS (-1.24)  
   
 返回 1.24。
   

@@ -25,19 +25,19 @@ ms.locfileid: "33423011"
   
 ## <a name="syntax"></a>语法
 
-CALLOUTTARGETREF ()!
+CALLOUTTARGETREF () ！
   
 ### <a name="return-value"></a>返回值
 
 ShapeSheet 参考
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果形状不是标注形状, 或者形状不与目标形状相关联, 则 CALLOUTTARGETREF 返回 #REF。
+如果该形状不是标注形状，或者该形状未与目标形状关联，则 CALLOUTTARGETREF 将返回#REF。
   
 ## <a name="example"></a>示例
 
-CALLOUTTARGETREF ()!高度 
+CALLOUTTARGETREF () ！Height 
   
 返回与标注相关的形状的 Height 单元格中的值。 
   

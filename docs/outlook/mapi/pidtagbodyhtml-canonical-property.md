@@ -25,44 +25,44 @@ ms.locfileid: "32359043"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件文本的超文本标记语言 (HTML) 版本。 
+包含超文本标记 (HTML) 版本的邮件文本。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_BODY_HTML、PR_BODY_HTML_A、PR_BODY_HTML_W  <br/> |
 |标识符:  <br/> |0x1013  <br/> |
 |数据类型：  <br/> |PT_UNICODE、PT_STRING8  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-这些属性包含的邮件文本与**PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)) 相同, 但在 HTML 中。 
+这些属性包含的邮件文本与[PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md) PR_BODY_CONTENT_LOCATION (相同，) HTML 格式。  
   
-支持 HTML 的邮件存储区通过在其**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 中设置**STORE_HTML_OK**标志来指示这一点。 
+支持 HTML 的邮件存储通过在其 STORE_HTML_OK [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md) PR_STORE_SUPPORT_MASK (标记来指示) 。   
   
- **注释****STORE_HTML_OK**不是在 Microsoft ® Exchange 2000 Server 及更早版本附带的 mapidefs.h 版本中定义的。 如果未定义**STORE_HTML_OK** , 请改用值0x00010000。 
+ **请注意****STORE_HTML_OK** Microsoft® Exchange 2000 Server 及更早版本中未定义 Mapidefs.h 版本。 如果 **STORE_HTML_OK** 未定义，请改为使用0x00010000值。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

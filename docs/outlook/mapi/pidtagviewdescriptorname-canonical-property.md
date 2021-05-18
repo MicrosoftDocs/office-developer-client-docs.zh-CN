@@ -32,29 +32,29 @@ ms.locfileid: "32360723"
 |相关属性：  <br/> |PR_VD_NAME、PR_VD_NAME_A、PR_VD_NAME_W  <br/> |
 |标识符:  <br/> |0x7006  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |邮件类定义的传输  <br/> |
+|区域：  <br/> |邮件类定义的可传输  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-对于包含视图定义的文件夹关联信息 (FAI) 邮件, 必须将这些属性设置为非空字符串。
+对于包含视图定义的 FAI 电子邮件文件夹关联信息 (这些属性) 非空字符串。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> 指定客户端和服务器配置数据的位置和属性, 如共享类别列表和工作时间。
+> 指定客户端和服务器配置数据的位置和属性，例如共享类别列表和工作时间。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

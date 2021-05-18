@@ -25,7 +25,7 @@ ms.locfileid: "33422759"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个指针, 该指针提供对提供程序管理对象的访问权限。
+返回一个指针，该指针提供对提供程序管理对象的访问。
   
 ```cpp
 HRESULT AdminProviders(
@@ -39,15 +39,15 @@ HRESULT AdminProviders(
 
  _lpUID_
   
-> 实时指向[MAPIUID](mapiuid.md)结构的指针, 该结构包含要管理的邮件服务的唯一标识符。 
+> [in]指向 [MAPIUID](mapiuid.md) 结构的指针，其中包含要管理的邮件服务的唯一标识符。 
     
  _ulFlags_
   
-> 实时始终为 NULL。 
+> [in]始终为 NULL。 
     
  _lppProviderAdmin_
   
-> 排除指向提供程序管理对象的指针的指针。
+> [out]指向指向提供程序管理对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -57,25 +57,25 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> _lpUID_指向的**MAPIUID**不存在。 
+> _lpUID_ 指向的 **MAPIUID** 不存在。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMsgServiceAdmin:: AdminProviders**方法提供对提供程序管理对象的访问权限。 提供程序管理是一个支持[IProviderAdmin](iprovideradminiunknown.md)接口的对象, 它允许客户端执行以下操作: 
+**IMsgServiceAdmin：：AdminProviders** 方法提供对提供程序管理对象的访问权限。 提供程序管理是一个支持 [IProviderAdmin](iprovideradminiunknown.md) 接口并允许客户端执行以下操作的对象： 
   
 - 将服务提供程序添加到邮件服务。
     
 - 从邮件服务中删除服务提供程序。
     
-- 打开配置文件节。
+- 打开配置文件部分。
     
 - 访问邮件服务提供程序表。
     
-在使用配置文件时, 实际可以对邮件服务进行的更改类型取决于邮件服务。 但是, 大多数邮件服务不支持在配置文件正在使用时添加和删除提供程序等更改。
+在配置文件使用时实际对邮件服务所做的更改的类型取决于邮件服务。 但是，大多数邮件服务不支持更改，如使用配置文件时添加和删除提供程序。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要检索要管理的邮件服务的**MAPIUID**结构, 请从邮件服务表中的邮件服务行检索**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 属性列。 有关详细信息, 请参阅[IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md)方法中概述的过程。 
+若要检索邮件服务要管理的 **MAPIUID** 结构，请从邮件服务表的邮件服务的行中检索 **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 属性列。 有关详细信息，请参阅 [IMsgServiceAdmin：：CreateMsgService 方法中概述](imsgserviceadmin-createmsgservice.md) 的过程。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -83,7 +83,7 @@ MAPI_E_NOT_FOUND
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg  <br/> |CMsgServiceTableDlg:: OnDisplayItem  <br/> |MFCMAPI 使用**IMsgServiceAdmin:: AdminProviders**方法打开服务的提供程序管理对象。  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg：：OnDisplayItem  <br/> |MFCMAPI 使用 **IMsgServiceAdmin：：AdminProviders** 方法打开服务的提供程序管理对象。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

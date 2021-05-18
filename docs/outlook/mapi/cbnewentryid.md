@@ -25,12 +25,12 @@ ms.locfileid: "33405525"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算为指定大小的新[ENTRYID](entryid.md)结构分配的字节数。 
+计算应为指定大小的新 [ENTRYID](entryid.md) 结构分配的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**ENTRYID** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
@@ -38,9 +38,9 @@ CbNewENTRYID (_cb)
 
 ## <a name="parameters"></a>参数
 
- __cb_
+ _ _cb_
   
-> 要存储在新**ENTRYID**结构中的条目标识符中的字节数。 
+> 要存储在新 **ENTRYID** 结构的条目标识符中的字节数。 
     
 ## <a name="see-also"></a>另请参阅
 

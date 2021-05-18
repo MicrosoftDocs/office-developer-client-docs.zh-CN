@@ -8,7 +8,7 @@ f1_keywords:
 - FreeXLOper12T
 - FreeXLOperT
 keywords:
-- freexlopert 函数 [excel 2007], FreeXLOper12T 函数 [excel 2007]
+- freexlopert 函数 [excel 2007]，FreeXLOper12T 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -23,7 +23,7 @@ ms.locfileid: "33421520"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-可释放与**XLOPER**/ **XLOPER12**关联的内存的框架函数。 函数假定内存是使用 DLL 中的 malloc 调用分配的。 如果内存是由 Microsoft Excel 或以其他方式或其他过程分配的, 则不应使用此函数释放内存。 使用[xlFree](xlfree.md)释放由 Excel 分配给**XLOPER**/ **XLOPER12**s 的内存。 
+释放与 **XLOPER** /  **XLOPER12** 关联的内存的框架函数。 该函数假定内存通过调用 DLL 中的一部分来分配。 如果内存由 Microsoft Excel以某种其他方式或某些其他进程分配，则不应使用此函数释放内存。 使用 [xlFree](xlfree.md)释放由 Excel **为 XLOPER** /  **XLOPER12** 分配的内存。 
   
 ```cs
 void FreeXLOperT(LPXLOPER pxloper);
@@ -32,11 +32,11 @@ void FreeXLOper12T(LPXLOPER12 pxloper12);
 
 ## <a name="parameters"></a>参数
 
- _pxloper_(**LPXLOPER**)
+ _pxloper_ (**LPXLOPER**) 
   
- _pxloper12_(**LPXLOPER12**)
+ _pxloper12_ (**LPXLOPER12**) 
   
-指向要释放的**XLOPER**/ **XLOPER12**的指针。 
+要释放 **的 XLOPER** /  **XLOPER12** 的指针。 
   
 ## <a name="example"></a>示例
 

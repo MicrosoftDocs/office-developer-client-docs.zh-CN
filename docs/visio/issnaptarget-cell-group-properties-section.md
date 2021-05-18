@@ -25,9 +25,9 @@ ms.locfileid: "33421443"
 |TRUE  <br/> |启用对齐组合内的形状。  <br/> |
 |FALSE  <br/> |只对齐组合。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您还可以采用以下方法设置此值：选择该组合，在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上单击 **“行为”**，然后选中 **“对齐成员形状”** 复选框。 
+您还可以采用以下方法设置此值：选择该组合，在 [“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上单击 **“行为”**，然后选中 **“对齐成员形状”** 复选框。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 IsSnapTarget 单元格的引用，请使用： 
   

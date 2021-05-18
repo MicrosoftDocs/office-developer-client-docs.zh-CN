@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251510
 localization_priority: Normal
 ms.assetid: 410c4187-21f3-d959-750e-9dc6095fba9a
-description: 当放置在 LinePattern、FillPattern、BeginArrow 或 EndArrow 单元格中时, 将线型、填充图案或线端名名称应用于形状。
+description: 当置于 LinePattern、FillPattern、BeginArrow 或 EndArrow 单元格中时，将线条图案、填充图案或行尾名称应用于形状。
 ms.openlocfilehash: ddd15c1c127fafa1a230545d544c74956f5c0262
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33422822"
 ---
 # <a name="use-function"></a>USE 函数
 
-当放置在 LinePattern、FillPattern、BeginArrow 或 EndArrow 单元格中时, 将线型、填充图案或线端名_名称_应用于形状。 
+当置于 LinePattern、FillPattern、BeginArrow 或 EndArrow 单元格中时，将线条图案、填充图案或行尾名称应用于形状。  
   
 ## <a name="syntax"></a>语法
 
-USE ("* * *name* * *") 
+USE (" ** *name* ** ")  
   
 ### <a name="parameters"></a>参数
 
@@ -32,11 +32,11 @@ USE ("* * *name* * *")
    
 ### <a name="return-value"></a>返回值
 
-数字
+帐号
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果文档的文档__ 模具中存在名为的主控形状, 则该图案将应用为线型、填充图案、开始箭头或结束箭头。 
+如果  _文档的文档模具_ 上存在名为"名称"的主控形状，则应用该图案作为线型、填充图案、开始箭头或结束箭头。 
   
 此函数始终返回 254。
   

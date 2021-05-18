@@ -19,30 +19,30 @@ ms.locfileid: "32287276"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-成功、警告和错误值使用32位数字 (称为结果句柄) 或 HRESULT 返回。 HRESULT 实际上不是任何一个句柄, 而是它只是一个32位值, 其中的多个字段编码在值中。 零结果表示成功, 而非零结果表示失败。
+使用称为结果句柄或 HRESULT 的 32 位数字返回成功、警告和错误值。 HRESULT 实际上不是任何句柄;它只是一个 32 位值，值中编码了多个字段。 零结果表示成功，非零结果表示失败。
   
-32位平台上的 MAPI 仅适用于 HRESULT 值。
+32 位平台上的 MAPI 仅适用于 HRESULT 值。
   
-下图显示了32位平台的 HRESULT 格式。
+下图显示了 32 位平台的 HRESULT 格式。
   
 **HRESULT 格式**
   
 ![HRESULT 格式](media/amapi_49.gif "HRESULT 格式")
   
-HRESULT 中的 high order bit 指示返回值是表示成功还是失败。 如果设置为 0, 则该值表示 "成功"。 如果设置为 1, 则表示失败。
+HRESULT 中的高顺序位指示返回值是表示成功还是失败。 如果设置为零，则值表示成功。 如果设置为 1，则指示失败。
   
-在 HRESULT 中保留 r、C、N 和 r 位。
+R、C、N 和 r 位保留在 HRESULT 中。
   
-这两个版本中的 "设施" 字段指示错误的职责范围。 有几个功能, 但绝大多数 MAPI 错误都使用 FACILITY_ITF 表示接口错误。 当前使用的最常见的功能是: FACILITY_NULL、FACILITY_ITF、FACILITY_DISPATCH、FACILITY_RPC 和 FACILITY_STORAGE。 如果需要新设备, Microsoft 会对其进行分配, 因为它们需要是唯一的。 下表介绍了各种功能字段。
+两个版本中的设备字段都指示错误的责任范围。 有许多设施，但绝大多数 MAPI 错误都FACILITY_ITF接口错误。 目前最常用的设施包括：FACILITY_NULL、FACILITY_ITF、FACILITY_DISPATCH、FACILITY_RPC 和 FACILITY_STORAGE。 如果需要新的设施，Microsoft 会分配它们，因为它们需要是唯一的。 下表介绍了各种设施字段。
   
 |设施|说明|
 |:-----|:-----|
-|FACILITY_NULL  <br/> |对于广泛适用的常见状态代码 (如 S_OK 或 E_OUTOF_MEMORY);值为零。  <br/> |
-|FACILITY_ITF  <br/> |对于从接口方法返回的大多数状态代码;该值由接口定义。 也就是说, 两个 HRESULT 值与从两个不同的接口返回的32位值完全相同可能具有不同的含义。  <br/> |
-|FACILITY_DISPATCH  <br/> |对于后期绑定[IDispatch](https://msdn.microsoft.com/library/ms221608.aspx)接口错误。  <br/> |
+|FACILITY_NULL  <br/> |For broadly applicable common status codes such as S_OK or E_OUTOF_MEMORY;值为 0。  <br/> |
+|FACILITY_ITF  <br/> |对于大多数从接口方法返回的状态代码;值由 接口定义。 也就是说，两个 HRESULT 值与从两个不同接口返回的 32 位值完全相同，可能有不同的含义。  <br/> |
+|FACILITY_DISPATCH  <br/> |对于晚期绑定 [IDispatch](https://msdn.microsoft.com/library/ms221608.aspx) 接口错误。  <br/> |
 |FACILITY_RPC  <br/> |对于从远程过程调用返回的状态代码。  <br/> |
-|FACILITY_STORAGE  <br/> |对于从[IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx)或与结构化存储相关的[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)方法调用返回的状态代码。 在 windows 错误代码范围 (即, 小于 256) 中包含代码的状态代码 (低16位) 值与对应的 Windows 错误具有相同的含义。  <br/> |
+|FACILITY_STORAGE  <br/> |对于从与结构化存储相关的 [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) 或 [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) 方法调用返回的状态代码。 代码小于 16 位 () 值的范围为 Windows 错误代码 (即小于 256) 与对应的 Windows 错误具有相同的含义。  <br/> |
    
-"代码" 字段是分配给代表错误或警告的唯一编号。
+代码字段是分配用于表示错误或警告的唯一编号。
   
 

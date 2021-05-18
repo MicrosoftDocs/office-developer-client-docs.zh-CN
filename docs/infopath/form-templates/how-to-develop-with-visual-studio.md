@@ -43,7 +43,7 @@ InfoPath 提供了使用用两种语言（Visual Basic 和 C#）编写的四种�
   
 ### <a name="to-specify-the-programming-language-and-object-model"></a>指定编程语言和对象模型
 
-1. 当表单模板项目在 InfoPath 设计器中处于打开状态时，在“开发工具”**** 选项卡上单击“语言”****。 
+1. 当表单模板项目在 InfoPath 设计器中处于打开状态时，在“开发工具”选项卡上单击“语言”。 
     
 2. In the **Programming** category of the **Form Options** dialog box, select the language that you want to work with from the **Form template code language** drop-down list. Then, select the version of the object model from the **Target version** drop-down list. The **Target version** option that is compatible only with InfoPath 2013 does not have a version year following the **InfoPath** name. 
     
@@ -54,11 +54,11 @@ InfoPath 提供了使用用两种语言（Visual Basic 和 C#）编写的四种�
     
 ### <a name="to-set-the-default-programming-language"></a>设置默认编程语言
 
-1. 单击“文件”**** 选项卡，然后单击“选项”****。
+1. 单击“文件”选项卡，然后单击“选项”。
     
-2. 在“InfoPath 选项”**** 对话框的“常规”**** 部分，单击“更多选项”****。
+2. 在“InfoPath 选项”对话框的“常规”部分，单击“更多选项”。
     
-3. 在“选项”**** 对话框的“设计”**** 选项卡上，选择“编程默认语言”**** 部分中的默认编程语言。 
+3. 在“选项”对话框的“设计”选项卡上，选择“编程默认语言”部分中的默认编程语言。 
     
 ### <a name="writing-code"></a>编写代码
 
@@ -68,9 +68,9 @@ InfoPath 提供了使用用两种语言（Visual Basic 和 C#）编写的四种�
 
 1. 在 InfoPath 设计器中打开表单模板。
     
-2. 单击“开发人员”**** 选项卡上的“代码编辑器”****。 
+2. 单击“开发人员”选项卡上的“代码编辑器”。 
     
 > [!TIP]
-> 也可以启动代码编辑器，并使用“开发工具”**** 选项卡上的命令、上下文菜单和其他用户界面方法自动添加表单和控件事件的事件处理程序。 有关详细信息，请参阅[添加事件处理程序](how-to-add-an-event-handler.md)。
+> 也可以启动代码编辑器，并使用“开发工具”选项卡上的命令、上下文菜单和其他用户界面方法自动添加表单和控件事件的事件处理程序。 有关详细信息，请参阅[添加事件处理程序](how-to-add-an-event-handler.md)。
   
 

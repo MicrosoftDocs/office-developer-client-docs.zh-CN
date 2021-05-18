@@ -22,7 +22,7 @@ ms.locfileid: "33422010"
   
 ## <a name="syntax"></a>语法
 
-AND (* **逻辑表达式*1 * *, * **逻辑表达式*2 * *,..., * **逻辑 expressionN* * *) 
+AND (** *logical expression1* **， ** *logical expression2* **,..., ** *logical expressionN* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -32,8 +32,8 @@ AND (* **逻辑表达式*1 * *, * **逻辑表达式*2 * *,..., * **逻辑 expres
    
 ## <a name="example"></a>示例
 
-和 (Height \> 1, PinX \> 1)
+AND (Height \> 1，PinX \> 1) 
   
-如果两个表达式都是 TRUE，则返回 TRUE。 如果任意一个表达式为 FALSE，则返回 FALSE。
+如果两个表达式都是 TRUE，则返回 TRUE。如果任意一个表达式为 FALSE，则返回 FALSE。
   
 

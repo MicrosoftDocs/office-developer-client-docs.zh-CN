@@ -73,11 +73,11 @@ _ppEnum_
 |S_OK  <br/> |调用成功。  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |帐户管理器已初始化，不能使用。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 为类别指定 NULL 返回指定类型的所有帐户的枚举。同样，指定 NULL 类型返回指定的类别的所有帐户的枚举。
   
- **IOlkAccountManager::EnumerateAccounts** 不支持 Exchange 帐户的地址簿类别。 如果帐户是 Exchange 帐户 (*pclsidType*为**CLSID_OlkMAPIAccount** ), 并且您尝试枚举实现通讯簿的帐户 (*prgclsidCategory*为**CLSID_OlkAddressBook** ), 请调用**IOlkAccountManager:: EnumerateAccounts**将不会返回帐户枚举器*ppEnum*中的 Exchange 帐户。 
+ **IOlkAccountManager::EnumerateAccounts** 不支持 Exchange 帐户的地址簿类别。 如果该帐户是 Exchange 帐户 (*pclsidType* 为 **CLSID_OlkMAPIAccount** ) ，并且您尝试枚举实现通讯簿 (*prgclsidCategory* 的帐户为 **CLSID_OlkAddressBook** ) ，则调用 **IOlkAccountManager：：EnumerateAccounts** 将不会在帐户枚举器 *ppEnum* 中返回 Exchange 帐户。 
   
 ## <a name="see-also"></a>另请参阅
 

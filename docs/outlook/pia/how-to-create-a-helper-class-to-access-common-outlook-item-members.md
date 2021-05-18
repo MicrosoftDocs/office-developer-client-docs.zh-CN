@@ -26,9 +26,9 @@ ms.locfileid: "32359400"
 
 许多 Outlook 项都具有类似的属性和方法。 例如，**Application**、**Attachments**、**Body**、**Categories** 和 **Class** 属性以及 **Close**、**Copy** 和 **Display** 方法是所有 Outlook 项对象通用的。 基于 COM 的 Outlook 对象模型会返回通用 Visual Basic **对象**，而不是许多成员的确切项目类型。 
 
-例如，[CurrentItem](https://msdn.microsoft.com/library/bb611743\(v=office.15\)) 属性会返回一个通用**对象**。 另一方面，强类型托管代码环境需要将代表 Outlook 项的**对象**转换至确切 Outlook 类型，例如 **MailItem**。 
+例如，[CurrentItem](https://msdn.microsoft.com/library/bb611743\(v=office.15\)) 属性会返回一个通用 **对象**。 另一方面，强类型托管代码环境需要将代表 Outlook 项的 **对象** 转换至确切 Outlook 类型，例如 **MailItem**。 
 
-OutlookItem 帮助程序类使用反射来显示所有项的通用属性和方法。 这种类可帮助你将对象转换至确切类型，而且方便直接在 **OutlookItem** 对象上使用通用项属性或方法。 这是一种非常有用的技术，而且**另请参阅**部分列出的几个其他有关操作方法的主题均利用了此帮助程序类。
+OutlookItem 帮助程序类使用反射来显示所有项的通用属性和方法。 这种类可帮助你将对象转换至确切类型，而且方便直接在 **OutlookItem** 对象上使用通用项属性或方法。 这是一种非常有用的技术，而且 **另请参阅** 部分列出的几个其他有关操作方法的主题均利用了此帮助程序类。
 
 如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。 下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。
 

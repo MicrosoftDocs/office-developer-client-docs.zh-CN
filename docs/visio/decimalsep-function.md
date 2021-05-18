@@ -26,6 +26,6 @@ DECIMALSEP( )
   
 ## <a name="example"></a>示例
 
-SETF (GETREF (user. size)、wholePart &amp; DECIMALSEP () &amp; user. fracPart) 
+SETF (GETREF (user.size) 、user.wholePart &amp; DECIMALSEP () &amp; user.fracPart)  
   
 

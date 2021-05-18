@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251308
 localization_priority: Normal
 ms.assetid: c079fb10-4db7-4657-75d2-2fb953c86670
-description: 确定对象水平偏离对象边框的原点的距离。 默认值为 0。 使用“剪裁”工具扫视对象将更改该值。
+description: 确定对象水平偏离对象边框的原点的距离。默认值为 0。使用“剪裁”工具扫视对象将更改该值。
 ms.openlocfilehash: d9b3e97a07bc1cadc0276905c4199861ab0590ca
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "33405231"
 
 确定对象水平偏离对象边框的原点的距离。默认值为 0。使用 **“剪裁”** 工具扫视对象将更改该值。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ImgOffsetX 单元格的引用，请使用： 
   

@@ -25,49 +25,49 @@ ms.locfileid: "32284481"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-表示待办事项的标记条件。
+表示To-Do标记的条件。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_TODO_ITEM_FLAGS  <br/> |
 |标识符:  <br/> |0x0E2B  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |MAPI 非传输  <br/> |
+|区域：  <br/> |MAPI 不可传输  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性是一个位域, 如果下表中的关联条件适用, 则每个位应设置为 1, 否则为0。
+此属性是位字段，如果下表中的关联条件适用，则每个位应设置为 1，否则为 0。
   
 ||||
 |:-----|:-----|:-----|
-|数字值  <br/> |名称  <br/> |说明  <br/> |
-|不存在  <br/> |不适用  <br/> |标记  <br/> |
+|数值  <br/> |名称  <br/> |说明  <br/> |
+|不存在  <br/> |不适用  <br/> |未标记  <br/> |
 |1  <br/> |todoTimeFlagged  <br/> |对象已标记时间  <br/> |
-|utf-8  <br/> |todoRecipientFlagged  <br/> |只应对草稿邮件对象设置, 这意味着该对象会被标记为收件人。  <br/> |
+|8   <br/> |todoRecipientFlagged  <br/> |应仅在草稿邮件对象上设置，这意味着对象已标记为收件人。  <br/> |
    
-未在表中指定的所有位都将保留。 必须忽略它们, 如果设置它们, 应将其保留。
+保留表中未指定的所有位。 必须忽略它们，但如果设置它们，应保留它们。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > 指定与标记相关的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

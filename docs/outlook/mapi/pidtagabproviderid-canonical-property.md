@@ -25,7 +25,7 @@ ms.locfileid: "33422241"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含通讯簿提供程序的[MAPIUID](mapiuid.md)结构。 
+包含通讯簿提供程序的 [MAPIUID](mapiuid.md) 结构。 
   
 |||
 |:-----|:-----|
@@ -34,23 +34,23 @@ ms.locfileid: "33422241"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**MAPIUID**结构标识哪个通讯簿提供程序在容器层次结构中提供此特定容器。 每个提供程序的值都是唯一的。 
+**MAPIUID** 结构标识在容器层次结构中提供此特定容器的通讯簿提供程序。 该值对于每个提供程序都是唯一的。 
   
-通讯簿提供程序可以提供一个以上的标识符。 例如, 提供两个不同容器的提供程序可以在每个容器的**PR_AB_PROVIDER_ID**唯一标识符中发布。 
+通讯簿提供程序可以提供多个标识符。 例如，提供两个不同容器的提供程序可以在每个容器PR_AB_PROVIDER_ID唯一标识符中发布。 
   
- **PR_AB_PROVIDER_ID**类似于邮件存储区的**PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) 属性。 客户端应用程序可以使用**PR_AB_PROVIDER_ID**来查找通讯簿层次结构表中的相关行。 
+ **PR_AB_PROVIDER_ID** 邮件存储PR_MDB_PROVIDER ([PidTagStoreProvider) PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)属性。  客户端 **应用程序可以使用** PR_AB_PROVIDER_ID在通讯簿层次结构表中查找相关行。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

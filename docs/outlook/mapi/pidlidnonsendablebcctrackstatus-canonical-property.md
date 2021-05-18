@@ -25,35 +25,35 @@ ms.locfileid: "32359946"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含**dispidNonSendableBCC** ([PidLidNonSendableBcc](pidlidnonsendablebcc-canonical-property.md)) 属性中列出的每个与会者的值。
+包含 **dispidNonSendableBCC** ([PidLidNonSendableBcc](pidlidnonsendablebcc-canonical-property.md) 属性中列出的每个) 的值。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidNonSendBccTrackStatus  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x00008545  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008545  <br/> |
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-仅当设置了**dispidNonSendableBCC**属性时, 此属性才是必需的。 此属性中的值的数目必须等于**dispidNonSendableBCC**中的值的数目。 此属性中的每个值对应于同一索引处的**dispidNonSendableBCC**属性中的与会者。 
+此属性仅在设置 **dispidNonSendableBCC 属性时** 是必需的。 此属性中的值数必须等于 **dispidNonSendableBCC 中的值数**。 此属性中的每个值对应于位于同一索引 **的 dispidNonSendableBCC** 属性中的 attendee。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

@@ -25,7 +25,7 @@ ms.locfileid: "32278877"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含多用途 Internet 邮件扩展 (MIME) 邮件的列表取消订阅标头字段的值。
+包含多用途 Internet 邮件扩展 (MIME) 邮件的List-Unsubscribe字段。
   
 |||
 |:-----|:-----|
@@ -34,37 +34,37 @@ ms.locfileid: "32278877"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-若要生成列表取消订阅标头字段, 客户端必须将这些属性设置为所需的值。 MIME 编写器必须将这些属性的值复制到列表取消订阅标头字段。
+若要生成List-Unsubscribe字段，客户端必须将这些属性设置为所需的值。 MIME 编写器必须将这些属性的值复制到List-Unsubscribe字段中。
   
-若要设置这些列表服务器相关属性的值, MIME 客户端必须按下表所指定的方式写入头字段。
+若要设置这些列表服务器相关的属性的值，MIME 客户端必须编写下表中指定的头字段。
   
-|**Property**|**首选标头字段名称**|**备用标头字段名称**|
+|**Property**|**首选标题字段名称**|**备用标头字段名称**|
 |:-----|:-----|:-----|
-|**PR_LIST_UNSUBSCRIBE** <br/> |列表-取消订阅  <br/> |X-列表-取消订阅  <br/> |
+|**PR_LIST_UNSUBSCRIBE** <br/> |List-Unsubscribe  <br/> |X-List-Unsubscribe  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

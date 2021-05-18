@@ -1,5 +1,5 @@
 ---
-title: "\"填充渐变\" 部分"
+title: "\"填充渐变\"部分"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,18 +14,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405462"
 ---
-# <a name="fill-gradient-section"></a>"填充渐变" 部分
+# <a name="fill-gradient-section"></a>"填充渐变"部分
 
 显示应用于形状的填充渐变的颜色值。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-该部分中的每个[渐变停止行 ("填充渐变" 部分)](gradient-stop-row-fill-gradient-section.md)都代表填充中的渐变光圈。 此部分可以为空。 
+该 [内容中的 ("渐变") ](gradient-stop-row-fill-gradient-section.md) 每个"渐变停止行"代表填充中的渐变停止点。 此部分可以为空。 
   
-渐变设置仅使用部分中包含的前10行。 所有超出10的**梯度停止**行都将被忽略。 
+只有节中包含的前 10 行由渐变设置使用。 超过 10 的所有 **"** 渐变停止"行将被忽略。 
   
-您可以在 "设置**形状**" 窗格中设置填充渐变属性 (在 "**开始**" 选项卡上的 "**形状样式**" 组中, 单击 "**填充**", 然后单击 "**填充选项**")。 
+可以在"开始"选项卡上的"设置形状格式 (设置填充渐变属性，在"形状样式"**组中，单击**"填充"，然后单击"填充选项") 。  
   
-您可以通过更改[FillGradientEnabled 单元格 ("渐变属性" 部分)](fillgradientenabled-cell-gradient-properties-section.md)单元格的值来启用或禁用形状的渐变填充。 
+可以通过更改 [FillGradientEnabled ](fillgradientenabled-cell-gradient-properties-section.md) Cell (Gradient Properties Section 的值来启用或禁用形状) 填充。 
   
 

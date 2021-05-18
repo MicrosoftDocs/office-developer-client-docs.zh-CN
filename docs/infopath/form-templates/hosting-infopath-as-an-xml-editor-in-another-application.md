@@ -1,5 +1,5 @@
 ---
-title: 将 InfoPath 作为 XML 编辑器放置到另一个应用程序中
+title: 将 InfoPath 作为 XML 编辑器托管在另一个应用程序中
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

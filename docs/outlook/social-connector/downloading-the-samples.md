@@ -21,20 +21,20 @@ ms.locfileid: "32281002"
   
 ### <a name="to-download-the-sample-code-installation-package"></a>下载示例代码安装包
 
-1. 从[Outlook Social Connector 2013: 提供程序模板](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)下载 OSCProviderSamples 文件。
+1. 从 Outlook social Connector [2013 OSCProviderSamples.zip：提供程序模板下载文件](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)。
     
-2. 将 .zip 文件解压缩到您选择的文件夹中。 在 Windows 7 中, Visual studio 2010 的默认路径为 C:\Users\ _user_\Documents\Visual Studio 2010 \ 项目。
+2. 将.zip文件解压缩到您所选择的文件夹中。 在 Windows 7 中，Visual Studio 2010的默认路径是 C：\Users\ _user_\Documents\Visual Studio 2010\Projects。
     
-3. 提取 .zip 文件后, 您将在项目文件夹中找到以下项目:
+3. 提取项目.zip后，您将在项目文件夹中找到以下项目：
     
-   - OSCProvider_CPP —包含 c + + 提供程序模板。
+   - OSCProvider_CPP包含 C++ 提供程序模板。
     
-   - OSCProvider_CS —包含 c # 提供程序模板。
+   - OSCProvider_CS -包含C#提供程序模板。
     
-   - OSCProvider_VB —包含 Visual Basic 提供程序模板。
+   - OSCProvider_VB 包含Visual Basic模板。
     
 ## <a name="see-also"></a>另请参阅
 
 - [应用示例提供程序模板](applying-a-sample-provider-template.md)
-- [.osc 示例模板](osc-sample-templates.md)
+- [OSC 示例模板](osc-sample-templates.md)
 

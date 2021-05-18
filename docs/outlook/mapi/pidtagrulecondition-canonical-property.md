@@ -25,7 +25,7 @@ ms.locfileid: "32359504"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-评估规则时使用的条件。
+评估规则时所使用的条件。
   
 |||
 |:-----|:-----|
@@ -34,9 +34,9 @@ ms.locfileid: "32359504"
 |数据类型：  <br/> |PT_SRESTRICTION  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-条件表示为**限制**, 而**PropertyValue**缓冲区包含按[[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)中指定的封装的**限制**结构。
+条件表示为 **Restriction，PropertyValue** 缓冲区包含封装在 [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)中指定的 **Restriction** 结构。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -44,33 +44,33 @@ ms.locfileid: "32359504"
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|ImportProcs  <br/> |PropCopyMore、HrCopyRestriction  <br/> |这些函数演示如何分析**PT_SRESTRICTION**属性以将其复制到另一个属性。  <br/> |
+|ImportProcs.cpp  <br/> |PropCopyMore、HrCopyRestriction  <br/> |这些函数演示如何分析 **PT_SRESTRICTION属性以** 复制到另一个属性。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> 在服务器上操纵传入电子邮件。
+> 在服务器上处理传入电子邮件。
     
-[[毫秒-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
+[[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
-> 定义在远程操作中使用的基本数据结构。
+> 定义远程操作中使用的基本数据结构。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

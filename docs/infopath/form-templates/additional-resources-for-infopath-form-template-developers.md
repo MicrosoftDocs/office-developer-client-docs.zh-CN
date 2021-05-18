@@ -21,7 +21,7 @@ ms.locfileid: "32300453"
   
 ## <a name="developer-resources"></a>开发人员资源
 
-- **Microsoft Office InfoPath 帮助**：有关使用 InfoPath 设计表单模板的概念和步骤信息。 若要访问 Microsoft Office InfoPath 帮助，请选择 Microsoft InfoPath 中的“帮助”**** 按钮。 连接到 Internet 后，附加内容和更新后的帮助主题将从 Microsoft Office Online 网站集成到帮助中。 
+- **Microsoft Office InfoPath 帮助**：有关使用 InfoPath 设计表单模板的概念和步骤信息。 若要访问 Microsoft Office InfoPath 帮助，请选择 Microsoft InfoPath 中的“帮助”按钮。 连接到 Internet 后，附加内容和更新后的帮助主题将从 Microsoft Office Online 网站集成到帮助中。 
     
 - [InfoPath 开发人员中心](https://go.microsoft.com/fwlink?LinkID=11689)：此网站包含与开发 InfoPath 表单模板相关的白皮书、示例表单、工具、文章和信息。
     

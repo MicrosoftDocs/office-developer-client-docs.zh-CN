@@ -25,12 +25,12 @@ ms.locfileid: "33421912"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个命名的结构, 其中包含用于描述按钮和指定长度的标签的[DTBLBUTTON](dtblbutton.md)结构。 
+创建一个命名结构，其中包含用于描述按钮和指定长度的标签的 [DTBLBUTTON](dtblbutton.md) 结构。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**DTBLBUTTON** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**DTBLBUTTON** <br/> |
    
 ```cpp
 SizedDtblButton (n, u)
@@ -46,9 +46,9 @@ SizedDtblButton (n, u)
   
 > 新结构的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-新结构是使用以下成员创建的:
+新结构由以下成员创建：
   
 ```
 DTBLBUTTON dtblbutton;

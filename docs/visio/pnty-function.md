@@ -18,25 +18,25 @@ ms.locfileid: "33423312"
 ---
 # <a name="pnty-function"></a>PNTY 函数
 
-返回点的_y_坐标。
+返回  _点的 y_ 坐标。
   
 ## <a name="syntax"></a>语法
 
-PNTX (* **点** *) 
+PNTX (** *point* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _鼠标_ <br/> |必需  <br/> |**Number** <br/> |点的_y_坐标。  <br/> |
+| _point_ <br/> |必需  <br/> |**Number** <br/> |点的  _y_ 坐标。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-数字
+帐号
   
 ## <a name="example"></a>示例
 
-PNTY (PNT (7, 12)) 
+PNTY (PNT (7，12) )  
   
 返回 12。 
   

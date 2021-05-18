@@ -28,7 +28,7 @@ ms.locfileid: "32359701"
 
 *Response* 参数指明响应是接受、拒绝还是暂定。 fNoUI 和 fAdditionalTextDialog 参数是 **bool** 值，分别用于决定是否发送响应，以及用户能否编辑响应。 在下面的代码示例中，AutoAcceptMeetingRequests 枚举每个 **MeetingItem** 对象，以获取关联的 **AppointmentItem**。 然后，AutoAcceptMeetingRequests 使用 **Respond** 方法，其中 *fNoUI* 参数设置为 **true**，以指明将通过自动发送响应来接受会议请求。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

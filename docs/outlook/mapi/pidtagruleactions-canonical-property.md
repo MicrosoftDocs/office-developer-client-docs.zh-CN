@@ -25,7 +25,7 @@ ms.locfileid: "32278898"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含与规则关联的一组操作。 
+包含与规则关联的操作集。 
   
 |||
 |:-----|:-----|
@@ -34,9 +34,9 @@ ms.locfileid: "32278898"
 |数据类型：  <br/> |PT_ACTIONS  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-操作表示为一个规则操作, 属性值缓冲区包含按[[OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)中的指定方式打包的规则操作数据缓冲区结构。
+操作表示为规则操作，属性值缓冲区包含按 [[MS-OXORULE] 中](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)指定封装的规则操作数据缓冲区结构。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -44,29 +44,29 @@ ms.locfileid: "32278898"
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|ImportProcs  <br/> |PropCopyMore、HrCopyActions  <br/> |这些函数演示如何分析 PT_ACTIONS 属性以将其复制到另一个属性。  <br/> |
+|ImportProcs.cpp  <br/> |PropCopyMore、HrCopyActions  <br/> |这些函数演示如何分析PT_ACTIONS属性以复制到另一个属性。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> 在服务器上操纵传入电子邮件。
+> 在服务器上处理传入电子邮件。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

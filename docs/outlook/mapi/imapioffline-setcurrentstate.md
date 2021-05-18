@@ -25,7 +25,7 @@ ms.locfileid: "33421737"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将脱机对象的当前状态设置为 "联机" 或 "脱机"。
+将脱机对象的当前状态设置为联机或脱机。
   
 ```cpp
 HRESULT SetCurrentState( 
@@ -40,23 +40,23 @@ HRESULT SetCurrentState(
 
  _ulFlags_
   
-> 实时修改此调用的行为。 受支持的值包括：
+> [in]修改此调用的行为。 受支持的值包括：
     
 MAPIOFFLINE_FLAG_BLOCK
   
-> 将_ulFlags_设置为此值将阻止**SetCurrentState**调用, 直至状态更改完成。 默认情况下, 转换会异步进行。 当以异步方式进行转换时, 所有**SetCurrentState**调用将返回**E_PENDING** , 直到更改完成。 
+> 将  _ulFlags_ 设置为此值将阻止 **SetCurrentState** 调用，直到状态更改完成。 默认情况下，切换异步进行。 异步执行转换时，所有 **SetCurrentState** 调用 **E_PENDING直到更改** 完成。 
     
 MAPIOFFLINE_FLAG_DEFAULT
   
-> 在不阻止的情况下设置当前状态。
+> 设置当前状态而不阻止。
     
  _ulMask_
   
-> 实时要更改的状态部分。 唯一受支持的值为 MAPIOFFLINE_STATE_OFFLINE_MASK。
+> [in]要更改的状态部分。 唯一支持的值是 MAPIOFFLINE_STATE_OFFLINE_MASK。
     
  _ulState_
   
-> 实时要更改为的状态。 它必须是以下两个值之一:
+> [in]要更改为的状态。 它必须是以下两个值之一：
     
 MAPIOFFLINE_STATE_ONLINE
   
@@ -66,19 +66,19 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > 
     
- _保护_
+ _pReserved_
   
-> 此参数是为 Outlook 内部使用而保留的, 不受支持。 
+> 此参数仅供Outlook内部使用，不受支持。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 已成功更改脱机对象的状态。
+> 脱机对象的状态已成功更改。
     
 E_PENDING
   
-> 这表示脱机对象的状态是异步更改的。 在早期**SetCurrentState**调用中将_ulFlags_设置为 MAPIOFFLINE_FLAG_BLOCK, 随后的任何**SetCurrentState**调用都将返回此值, 直到异步状态更改完成。 
+> 这表示脱机对象的状态正在异步更改。 当在早期的 **SetCurrentState** 调用中 _将 ulFlags_ 设置为 MAPIOFFLINE_FLAG_BLOCK，并且任何后续 **SetCurrentState** 调用将返回此值，直到异步状态更改完成时，才会发生这种情况。 
     
 ## <a name="see-also"></a>另请参阅
 

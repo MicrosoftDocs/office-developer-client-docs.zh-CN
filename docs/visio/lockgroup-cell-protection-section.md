@@ -25,7 +25,7 @@ ms.locfileid: "33404307"
 |TRUE  <br/> |不能取消组合。  <br/> |
 |FALSE  <br/> |能够取消组合。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 将 LockGroupCell 值设置为 TRUE 还可防止删除作为组合成员的任何形状。
   

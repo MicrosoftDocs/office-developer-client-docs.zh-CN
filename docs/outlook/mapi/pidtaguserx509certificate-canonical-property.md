@@ -25,7 +25,7 @@ ms.locfileid: "32360716"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于邮件用户的 x.509 版本3安全证书。 
+包含邮件用户的 X.509 版本 3 安全证书。 
   
 |||
 |:-----|:-----|
@@ -34,33 +34,33 @@ ms.locfileid: "32360716"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性由利用公钥安全性的应用程序使用。 它包含一个或多个 x.509 版本3安全证书的二进制表示形式。 
+此属性由使用公钥安全性的应用程序使用。 它保留一个或多个 X.509 版本 3 安全证书的二进制表示形式。 
   
-不同的应用程序和客户端可以将此属性用于其自己的安全证书。 x.509 数据的二进制格式在供应商之间可能有所不同。 
+各种应用程序和客户端都可以将此属性用于其自己的安全证书。 X.509 数据的二进制格式可能因供应商而异。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

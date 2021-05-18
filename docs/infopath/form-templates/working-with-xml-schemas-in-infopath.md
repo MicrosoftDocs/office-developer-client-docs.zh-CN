@@ -26,9 +26,9 @@ ms.locfileid: "32303162"
   
 ### <a name="to-create-a-form-template-based-on-an-external-schema"></a>基于外部架构创建表单模板
 
-1. 在 Backstage 中，单击“新建”****，在“高级表单模板”**** 下单击“XML 或架构”****，然后单击“设计此表单”****。
+1. 在 Backstage 中，单击“新建”，在“高级表单模板”下单击“XML 或架构”，然后单击“设计此表单”。
     
-2. 在“数据源向导”**** 中，指定要使用的 XSD 架构文件，然后单击“下一步”**** 并完成向导的其余页面。 
+2. 在“数据源向导”中，指定要使用的 XSD 架构文件，然后单击“下一步”并完成向导的其余页面。 
     
 ## <a name="unsupported-xsd-constructs"></a>不受支持的 XSD 构造
 
@@ -55,7 +55,7 @@ InfoPath 设计模式支持根据使用抽象复杂类型的架构设计表单�
   
 ## <a name="substitution-groups"></a>替换组
 
-替换组的所有成员都显示在“域”**** 任务窗格中。InfoPath 将可能的替换项表示为所有替换组中的一个选项（不是抽象元素的定义元素也包括在内）。如果某个抽象元素没有替换组，则 InfoPath 会提示您提供一个架构，其中至少包含一个作为替换组的元素。 
+替换组的所有成员都显示在“域”任务窗格中。InfoPath 将可能的替换项表示为所有替换组中的一个选项（不是抽象元素的定义元素也包括在内）。如果某个抽象元素没有替换组，则 InfoPath 会提示您提供一个架构，其中至少包含一个作为替换组的元素。 
   
 ## <a name="unbounded-choice-elements"></a>无限次选项元素
 
@@ -185,7 +185,7 @@ Similarly to the element case, you can declare an attribute with an **anyAttribu
   
 ## <a name="debugging-common-xsd-errors"></a>调试常见 XSD 错误
 
-如果您加载在外部编写的 XSD 文件，以便在 InfoPath 表单设计器中创建表单模板，则可能收到以下两种错误消息之一：MSXML 错误消息或 InfoPath 错误消息。MSXML 错误消息出现在 InfoPath 错误消息对话框的“详细信息”**** 部分，并且始终以引用正在引发此错误的架构文件的名称或路径开头。某些有效的 XSD 架构不受 InfoPath 支持；“不受支持的 XSD 构造”部分讨论了这些 XSD 构造。以下部分描述了一些会导致在 InfoPath 中无法成功加载架构的常见错误。 
+如果您加载在外部编写的 XSD 文件，以便在 InfoPath 表单设计器中创建表单模板，则可能收到以下两种错误消息之一：MSXML 错误消息或 InfoPath 错误消息。MSXML 错误消息出现在 InfoPath 错误消息对话框的“详细信息”部分，并且始终以引用正在引发此错误的架构文件的名称或路径开头。某些有效的 XSD 架构不受 InfoPath 支持；“不受支持的 XSD 构造”部分讨论了这些 XSD 构造。以下部分描述了一些会导致在 InfoPath 中无法成功加载架构的常见错误。 
   
 ## <a name="the-xsd-namespace-declaration"></a>XSD 命名空间声明
 
@@ -311,7 +311,7 @@ XSD 架构存在的目的是为了验证 XML 数据结构和类型语义。为�
 
 ```
 
-最后一个有问题的做法是使用无命名空间定义的 **xsd:any** 元素，就像在 `<xsd:any namespace="##other"/>` 元素后的  **** 中那样。此构造跟在可选元素后面时尤为麻烦。如果返回来看上一个示例，然后将最后一个节点改为 **xsd:any** 元素，就会看到与非确定性有关的所有以前的参数仍然适用，如下所示： 
+最后一个有问题的做法是使用无命名空间定义的 **xsd:any** 元素，就像在 `<xsd:any namespace="##other"/>` 元素后的   中那样。此构造跟在可选元素后面时尤为麻烦。如果返回来看上一个示例，然后将最后一个节点改为 **xsd:any** 元素，就会看到与非确定性有关的所有以前的参数仍然适用，如下所示： 
   
 ```XML
 <xsd:element name="container"> 
@@ -510,7 +510,7 @@ To allow user-defined elements to appear under a parent element in the **Fields*
   
 ## <a name="allowing-rich-text-elements-to-be-bound-in-infopath-design-and-edit-modes"></a>允许在 InfoPath 设计和编辑模式中绑定格式文本元素
 
-如果需要声明一个可绑定到 **Rich Text Box**控件的元素，则应具有以下表单，其中包括 **xsd:any** 元素，该元素的命名空间属性设置为"https://www.w3.org/1999/xhtml"，如以下示例所示。 
+如果需要声明一个可绑定到 **Rich Text Box** 控件的元素，则应具有以下表单，其中包括 **xsd:any** 元素，该元素的命名空间属性设置为"https://www.w3.org/1999/xhtml"，如以下示例所示。 
   
 ```XML
 <xsd:element name="your_node_name"> 

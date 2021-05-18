@@ -52,13 +52,13 @@ Outlook 规则既可以作用于服务器端也可以作用于客户端，具体
 
 - 邮件来自用户的经理。
 
-- 收件人出现在邮件的“收件人:”**** 行中。
+- 收件人出现在邮件的“收件人:”行中。
 
 - 邮件不是会议请求或更新。
 
 最后，标记邮件便于当天跟踪。对于可能会引发异常的条件（如用户在缓存的 Exchange 模式下处于脱机状态或断开连接），CreateManagerRule 还会说明适当的错误处理。 
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

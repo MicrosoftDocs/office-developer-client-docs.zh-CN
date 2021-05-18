@@ -25,7 +25,7 @@ ms.locfileid: "32360772"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含条目的类型, 这与在全局地址列表的表格行中的条目的显示方式有关。 
+包含条目的类型，与条目在全局地址列表的表中行中的显示方式有关。 
   
 |||
 |:-----|:-----|
@@ -34,79 +34,79 @@ ms.locfileid: "32360772"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性指定与在全局地址列表中的显示方式相对应的条目的类型。 它提供了在**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) 中无法表示的其他信息。
+此属性指定条目的类型，以它应在全局地址列表中显示。 它提供了无法在[PidTagDisplayType](pidtagdisplaytype-canonical-property.md)  PR_DISPLAY_TYPE (表示的其他) 。
   
 > [!NOTE]
-> **PR_DISPLAY_TYPE**和此属性的值以 "DT_" 开头, 并在 Mapitags 中定义。 未记录的所有值都是为 MAPI 保留的。 客户端应用程序不得定义任何新值, 并且必须准备处理未记录的值。 
+> 此属性和此属性 **PR_DISPLAY_TYPE** 以"DT_"开头，在 Mapitags.h 中定义。 未记录的所有值都保留用于 MAPI。 客户端应用程序不得定义任何新值，并且必须准备处理未记录的值。 
   
-有一些宏可帮助确定对象的属性, 例如, 它是本地、远程还是受安全性控制的对象。 这些宏包括: 
+有一些宏可帮助确定对象的属性，例如它是本地对象、远程对象还是受安全控制的对象。 这些宏包括： 
   
 |**宏**|**值**|
 |:-----|:-----|
-|DTE_FLAG_REMOTE_VALID  <br/> |0x80000000  <br/> |
+|DTE_FLAG_REMOTE_VALID  <br/> |0x80000000)   <br/> |
 |DTE_FLAG_ACL_CAPABLE  <br/> |0x40000000  <br/> |
 |DTE_MASK_REMOTE  <br/> |0x0000ff00  <br/> |
 |DTE_MASK_LOCAL  <br/> |0x000000ff  <br/> |
-|DTE_IS_REMOTE_VALID (v)  <br/> |(!!((v) &amp; DTE_FLAG_REMOTE_VALID)  <br/> |
-|DTE_IS_ACL_CAPABLE (v)  <br/> |(!!((v) &amp; DTE_FLAG_ACL_CAPABLE))  <br/> |
-|DTE_REMOTE (v)  <br/> |((v) &amp; DTE_MASK_REMOTE) \> \> 8)  <br/> |
-|DTE_LOCAL (v)  <br/> |((v) &amp; DTE_MASK_LOCAL)  <br/> |
-|DT_ROOM  <br/> |((ULONG) 0x00000007)  <br/> |
-|DT_EQUIPMENT  <br/> |((ULONG) 0x00000008)  <br/> |
-|DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |
+|DTE_IS_REMOTE_VALID (v)   <br/> | (？ ( (v) &amp; DTE_FLAG_REMOTE_VALID)   <br/> |
+|DTE_IS_ACL_CAPABLE (v)   <br/> | (？ ( (v) &amp; DTE_FLAG_ACL_CAPABLE) )   <br/> |
+|DTE_REMOTE (v)   <br/> | ( ( (v) DTE_MASK_REMOTE) &amp; \> \> 8)   <br/> |
+|DTE_LOCAL (v)   <br/> | ( (v) &amp; DTE_MASK_LOCAL)   <br/> |
+|DT_ROOM  <br/> | ( (ULONG) 0x00000007)   <br/> |
+|DT_EQUIPMENT  <br/> | ( (ULONG) 0x00000008)   <br/> |
+|DT_SEC_DISTLIST  <br/> | ( (ULONG) 0x00000009)   <br/> |
    
 以下是有关如何使用这些宏的一些说明。 
   
-- 若要检查某个条目是否为另一个林中的远程条目, 请将 DTE_IS_REMOTE_VALID 宏应用于此属性的值, 以检查该条目中是否设置了 DTE_FLAG_REMOTE_VALID 标志。 如果是远程条目, 则可以使用 DTE_REMOTE 宏查找远程条目的类型。 
+- 若要检查条目是否是另一个林中的远程条目，请对此属性的值应用 DTE_IS_REMOTE_VALID 宏，以检查该条目中是否设置了 DTE_FLAG_REMOTE_VALID 标志。 如果它是远程条目，则可以通过使用远程条目的宏DTE_REMOTE类型。 
     
-- 在单林和跨林配置中, 如果**PR_DISPLAY_TYPE**的值为 DT_DISTLIST, 并且 DTE_IS_REMOTE_VALID 为 false, 则将宏 DTE_LOCAL 应用于此属性的值可以让您进一步将该对象的类型标识为可以是 DT_DISTLIST (一个通讯组列表) 或 DT_SEC_DISTLIST (安全通讯组列表)。 
+- 在单林和跨林配置中，当 **PR_DISPLAY_TYPE** 的值为 DT_DISTLIST 且 DTE_IS_REMOTE_VALID 为 false 时，对此属性的值应用宏 DTE_LOCAL 可以进一步将对象类型标识为通讯组列表) DT_DISTLIST (或 DT_SEC_DISTLIST (安全通讯组列表) 。 
     
-- 如果将宏 DTE_LOCAL 应用于**PR_DISPLAY_TYPE_EX**的值, 并返回 DT_REMOTE_MAILUSER 类型, 则该条目为远程条目。 
+- 如果对 DTE_LOCAL 值应用宏PR_DISPLAY_TYPE_EX则返回DT_REMOTE_MAILUSER，则条目为远程条目。 
     
-- 在单个林或跨林配置 (其中复制由访问控制列表 (ACL) 控制) 中, 可以使用 DTE_IS_ACL_CAPABLE 宏来确定某个条目是否为安全主体。
+- 在单林或跨林配置（其中复制由访问控制列表 (ACL) 控制）中，可以使用 DTE_IS_ACL_CAPABLE 宏来确定条目是否是安全主体。
     
-在跨林配置中, **PR_DISPLAY_TYPE**具有 DT_REMOTE_MAILUSER 的值。 将宏 DTE_REMOTE 应用于此属性的值可允许您获取远程条目的类型。 可能的远程条目类型如下所示: 
+在跨林 **配置中** ，PR_DISPLAY_TYPE的值为 DT_REMOTE_MAILUSER。 将宏DTE_REMOTE此属性的值可让你获取远程条目的类型。 可能的远程条目类型如下： 
   
-|**远程条目的类型**|**Value**|**说明**|
+|**远程输入的类型**|**值**|**说明**|
 |:-----|:-----|:-----|
 |DT_AGENT  <br/> |((ULONG) 0x00000003)  <br/> |动态通讯组列表。  <br/> |
 |DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |通讯组列表。  <br/> |
-|DT_EQUIPMENT  <br/> |((ULONG) 0x00000008)  <br/> |设备, 例如打印机或投影仪。  <br/> |
-|DT_MAILUSER  <br/> |((ULONG) 0x00000000)  <br/> |拥有邮箱的用户。  <br/> |
-|DT_REMOTE_MAILUSER  <br/> |((ULONG) 0x00000000)  <br/> |全局地址列表中的地址列表条目。  <br/> |
-|DT_ROOM  <br/> |((ULONG) 0x00000007)  <br/> |会议室。  <br/> |
-|DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |安全通讯组列表。  <br/> |
+|DT_EQUIPMENT  <br/> | ( (ULONG) 0x00000008)   <br/> |设备，例如打印机或投影仪。  <br/> |
+|DT_MAILUSER  <br/> | ( (ULONG) 0x00000000)   <br/> |具有邮箱的用户。  <br/> |
+|DT_REMOTE_MAILUSER  <br/> | ( (ULONG) 0x00000000)   <br/> |全局地址列表中的地址列表条目。  <br/> |
+|DT_ROOM  <br/> | ( (ULONG) 0x00000007)   <br/> |会议室。  <br/> |
+|DT_SEC_DISTLIST  <br/> | ( (ULONG) 0x00000009)   <br/> |安全通讯组列表。  <br/> |
    
-在单个林和跨林配置中, 如果**PR_DISPLAY_TYPE**的值为 DT_DISTLIST, 并且 DTE_IS_REMOTE_VALID 为 false, 则将 DTE_LOCAL 宏应用于此属性的值可以允许您获取通讯组列表的类型. 通讯组列表的可能类型如下所示: 
+在单林和跨林配置中，当 **PR_DISPLAY_TYPE** 的值为 DT_DISTLIST 且 DTE_IS_REMOTE_VALID 为 false 时，将 DTE_LOCAL 宏应用于此属性的值可让你获取通讯组列表的类型。 可能的通讯组列表类型如下： 
   
-|**通讯组列表的类型**|**Value**|**说明**|
+|**通讯组列表的类型**|**值**|**说明**|
 |:-----|:-----|:-----|
 |DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |通讯组列表。  <br/> |
-|DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |安全通讯组列表。  <br/> |
+|DT_SEC_DISTLIST  <br/> | ( (ULONG) 0x00000009)   <br/> |安全通讯组列表。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

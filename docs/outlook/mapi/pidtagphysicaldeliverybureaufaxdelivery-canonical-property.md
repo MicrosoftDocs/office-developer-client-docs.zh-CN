@@ -25,7 +25,7 @@ ms.locfileid: "33422717"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件系统应使用传真部门来物理传递此邮件, 则该参数为 TRUE。
+如果邮件系统应该使用传真局实际传递此邮件，则包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ ms.locfileid: "33422717"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

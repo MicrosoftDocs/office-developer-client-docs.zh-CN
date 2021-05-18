@@ -21,7 +21,7 @@ ms.locfileid: "32359155"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含在电子邮件地址列表中查询的 Unicode 字符串或在存储区上未发送邮件的 **"密件抄送**" 行中寻址的收件人姓名。 
+包含一个 Unicode 字符串，该字符串正在电子邮件地址列表中查询，或在存储上未发送邮件的 **"BCC"** 行中显示收件人的姓名。 
   
 ## 
 
@@ -32,34 +32,34 @@ ms.locfileid: "32359155"
 |属性类型  <br/> |PT_UNICODE  <br/> |
 |访问权限  <br/> |搜索  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性仅与存储区上尚未发送的邮件相关, 因为发送或接收的邮件不包含 BCC 信息。
+此属性仅与存储上尚未发送的邮件相关，因为已发送或接收的邮件不包含 BCC 信息。
   
 > [!NOTE]
-> 在您当前拥有的可下载头文件中搜索将邮件作为密件抄送发送的电子邮件地址或显示名称时, 将使用此 MAPI 限制标记。 您可以使用以下值将其添加到代码中: >`#define PR_SEARCH_RECIP_EMAIL_BCC_W PROP_TAG(PT_UNICODE, 0x0EA8)`
+> 此 MAPI 限制标记（在搜索电子邮件地址或显示邮件将作为副本发送到的名称）时可能未在当前具有的可下载头文件中定义。 可以使用以下值将其添加到代码中：>  `#define PR_SEARCH_RECIP_EMAIL_BCC_W PROP_TAG(PT_UNICODE, 0x0EA8)`
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Microsoft Exchange Server 协议规范的引用。
+> 提供对相关协议Microsoft Exchange Server的引用。
     
-[[毫秒-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > 指定用于操作搜索文件夹列表配置的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

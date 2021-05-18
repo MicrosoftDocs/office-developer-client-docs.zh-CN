@@ -25,13 +25,13 @@ ms.locfileid: "33404762"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将一个无符号64位整数添加到另一个。
+将一个无符号 64 位整数添加到另一个整数。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 FILETIME FtAddFt(
@@ -44,14 +44,14 @@ FILETIME FtAddFt(
 
  _Addend1_
   
-> 实时一个[FILETIME](filetime.md)结构, 其中包含要添加的第一个不带符号的64位整数。 
+> [in] [FILETIME](filetime.md) 结构，包含要添加的第一个无符号 64 位整数。 
     
  _Addend2_
   
-> 实时一个**FILETIME**结构, 其中包含要添加的第二个带符号的64位整数。 
+> [in] **FILETIME** 结构，包含要添加的第二个无符号 64 位整数。 
     
 ## <a name="return-value"></a>返回值
 
-**FtAddFt**函数返回一个**FILETIME**结构, 其中包含两个整数的和。 这两个输入参数保持不变。 
+**FtAddFt** 函数返回 **FILETIME** 结构，其中包含两个整数的总和。 两个输入参数保持不变。 
   
 

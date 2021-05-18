@@ -24,11 +24,11 @@ ms.locfileid: "33421961"
 |:-----|:-----|:-----|
 |0  <br/> |使用组合的设置。  <br/> |**visXFormResizeDontCare** <br/> |
 |1  <br/> |仅重定位。  <br/> |**visXFormResizeSpread** <br/> |
-|双面  <br/> |和组合一起缩放。  <br/> |**visXFormResizeScale** <br/> |
+|2  <br/> |和组合一起缩放。  <br/> |**visXFormResizeScale** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您还可以在 "**行为**" 对话框 (在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中, 单击 "**行为**") 中的 "**行为**" 选项卡上设置此值。 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ResizeMode 单元格的引用，请使用： 
+您还可以在"开发工具"选项卡上"行为" ("行为"选项卡上的"形状设计"[](run-in-developer-mode-display-the-developer-tab.md)**组中，单击**"行为") 。   若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ResizeMode 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|

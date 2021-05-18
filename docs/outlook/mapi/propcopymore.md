@@ -29,9 +29,9 @@ ms.locfileid: "33404468"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE PropCopyMore(
@@ -46,19 +46,19 @@ SCODE PropCopyMore(
 
  _lpSPropValueDest_
   
-> 排除指向此函数将定义复制的属性值的[SPropValue](spropvalue.md)结构写入到的位置的指针。 
+> [out]指向此函数写入定义复制属性值 [的 SPropValue](spropvalue.md) 结构的位置的指针。 
     
  _lpSPropValueSrc_
   
-> 实时指向[SPropValue](spropvalue.md)结构的指针, 该结构包含要复制的属性值。 
+> [in]指向包含要复制的属性值的 [SPropValue](spropvalue.md) 结构的指针。 
     
  _lpfAllocMore_
   
-> 实时指向[MAPIAllocateMore](mapiallocatemore.md)函数的指针, 该函数用于在目标位置的大小不足以容纳要复制的属性时分配更多内存。 
+> [in]指向 [MAPIAllocateMore](mapiallocatemore.md) 函数的指针，当目标位置不足以容纳要复制的属性时，用于分配额外的内存。 
     
  _lpvObject_
   
-> 实时指向**MAPIAllocateMore**将在必要时为其分配空间的对象的指针。 
+> [in]指向 **MAPIAllocateMore** 将在必要时为其分配空间的对象的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -68,14 +68,14 @@ S_OK
     
 MAPI_E_NO_SUPPORT
   
-> 遇到未知的属性类型。
+> 遇到未知属性类型。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端应用程序或服务提供程序可以使用**PropCopyMore**函数复制即将释放的表的属性, 以便在其他位置使用该属性。 
+客户端应用程序或服务提供商可以使用 **PropCopyMore** 函数从即将释放的表中复制属性，以便将其用于其他位置。 
   
- **PropCopyMore**不需要分配内存, 除非复制的属性值的类型 (如 PT_STRING8) 不能包含在[SPropValue](spropvalue.md)结构中。 对于这些大型属性, 函数使用在_lpfAllocMore_参数中传递指针的[MAPIAllocateMore](mapiallocatemore.md)函数分配内存。 
+ **PropCopyMore** 不需要分配内存，除非复制的属性值的类型（如 PT_STRING8）不适合 [SPropValue](spropvalue.md) 结构。 对于这些大型属性，该函数使用 [MAPIAllocateMore](mapiallocatemore.md) 函数分配内存，其中一个指针将传递到  _lpfAllocMore_ 参数中。 
   
-Injudicious 使用**PropCopyMore**分段内存;请考虑改用[ScCopyProps](sccopyprops.md)函数。 
+不等同地使用 **PropCopyMore** 片段内存;请考虑改为使用 [ScCopyProps](sccopyprops.md) 函数。 
   
 

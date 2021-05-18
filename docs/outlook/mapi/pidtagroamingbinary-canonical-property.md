@@ -21,7 +21,7 @@ ms.locfileid: "32359561"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含与 IPM 的子类关联的邮件流 **。配置**类。 
+包含与 **uration** 类的子类IPM.Config流。 
   
 |||
 |:-----|:-----|
@@ -30,31 +30,31 @@ ms.locfileid: "32359561"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性包含与 IPM 相关联的数据流 **。配置**邮件类消息。 流的格式取决于邮件类。 例如, 类类型为 IPM 的消息 **。配置。自动完成功能**将被格式化为[自动完成流](autocomplete-stream.md)。
+此属性包含与邮件类消息 **IPM.Config关联的数据流** 。 流的格式取决于邮件类。 例如，类类型为 **urationIPM.Config消息。自动完成将被** 格式化为自动 [完成流](autocomplete-stream.md)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Microsoft Exchange Server 协议规范的引用。
+> 提供对相关协议Microsoft Exchange Server的引用。
     
-[[毫秒-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> 指定客户端和服务器配置数据的位置和属性, 如共享类别列表和工作时间。
+> 指定客户端和服务器配置数据的位置和属性，例如共享类别列表和工作时间。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

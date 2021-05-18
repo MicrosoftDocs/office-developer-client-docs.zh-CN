@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fc438ad-ae26-3632-3444-371537eaecb3
-description: Microsoft InfoPath 支持将表单模板从一个位置移动到另一个位置, 以电子邮件附件的形式发送它们, 并创建已进行数字签名或已安装的完全信任表单模板。
+description: Microsoft InfoPath 支持将表单模板从一个位置移动到另一个位置，将表单模板作为电子邮件的附件发送，以及创建数字签名或安装的完全信任表单模板。
 ms.openlocfilehash: 799f2b19bfc4daa4a177d789a811d20ca09e7153
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "32299851"
 ---
 # <a name="security-levels-email-deployment-and-remote-form-templates"></a>安全级别、电子邮件部署和远程表单模板
 
-Microsoft InfoPath 支持将表单模板从一个位置移动到另一个位置, 以电子邮件附件的形式发送它们, 并创建已进行数字签名或已安装的完全信任表单模板。
+Microsoft InfoPath 支持将表单模板从一个位置移动到另一个位置，将表单模板作为电子邮件的附件发送，以及创建数字签名或安装的完全信任表单模板。
   
 ## <a name="security-levels"></a>安全级别
 
@@ -60,7 +60,7 @@ Microsoft InfoPath 支持将表单模板从一个位置移动到另一个位置,
   
 ## <a name="trust-levels"></a>信任级别
 
-可授予表单模板的最高信任级别由"打开位置"和其他验证代码决定（如下表中所述）。 表中列出的属性 (例如, HTTP、UNC、 *requireFullTrust*) 是用于确定可以向表单授予的信任级别的条目, 并适用于在 InfoPath 客户端中打开的表单。 
+可授予表单模板的最高信任级别由"打开位置"和其他验证代码决定（如下表中所述）。 表 (例如  *HTTP、UNC、requireFullTrust*) 中列出的属性是用于确定可授予表单的信任级别的条目，并适用于在 InfoPath 客户端中打开的表单。 
   
 |授予的最高信任级别|完全信任|客户端计算机（沙盒安全机制）|Intranet（沙盒安全机制）|Internet（沙盒安全机制）|受限|
 |:-----|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -102,7 +102,7 @@ InfoPath 表单设计器将根据您要在表单中使用的功能来自动选�
     
 ## <a name="mail-deployment-and-browser-enabled-form-templates"></a>邮件部署和启用浏览器功能的表单模板
 
-InfoPath 允许你将表单模板作为电子邮件附件发送, 并将其从一个位置移动到另一个位置。 邮件部署是一种便捷而有效的方式，它可以在办公室之间分发表单以供使用，也可以将表单部署到远程用户。
+InfoPath 允许您将表单模板作为电子邮件的附件发送，并将其从一个位置移动到另一个位置。 邮件部署是一种便捷而有效的方式，它可以在办公室之间分发表单以供使用，也可以将表单部署到远程用户。
   
 此外，如果您具有包含 InfoPath Forms Services 的 Microsoft SharePoint Server 2010，则可以创建表单模板以便未安装 InfoPath 的用户可以在 Web 浏览器中填写表单。
   
@@ -128,39 +128,39 @@ InfoPath Designer 中的所有表单都是通过标识来创建的。此标识�
   
 正如每个表单模板都有两个标识属性一样，还存在一组启发方式，它们根据表单模板的条件（是具有访问路径、表单 ID，还是两者都具有）和网络连接的状态来专门确定缓存中的结果条目。
   
-## <a name="designing-a-form-to-send-as-an-attachment-to-an-email-message"></a>将表单设计为以电子邮件附件形式发送
+## <a name="designing-a-form-to-send-as-an-attachment-to-an-email-message"></a>设计窗体以作为电子邮件附件发送
 
-在 InfoPath 设计器中创建的所有表单都可以作为电子邮件的附件发送给用户。 电子邮件部署是一种用于分发表单以供内部使用的简单且有效的方法, 也可以将表单部署到远程用户。
+在 InfoPath 设计器中创建的所有表单都可以作为电子邮件的附件发送给用户。 电子邮件部署是分发表单以在办公室之间使用以及向远程用户部署表单的一种简单有效的方法。
   
 ### <a name="to-mail-a-form-template-to-other-users"></a>通过邮件向其他用户发送表单模板
 
-1. 单击 "**文件**" 选项卡, 单击 "**发布**", 然后单击 "**电子邮件**" 按钮。 
+1. 单击" **文件"** 选项卡，单击 **"发布"，** 然后单击" **电子邮件"** 按钮。 
     
 2. Fill out the next two pages of the **Publishing Wizard** clicking **Next** to continue after each page, and then click **Publish**.
     
-3. 将显示一封电子邮件, 使您能够填写收件人列表以及您可能会遇到的任何其他说明。
+3. 将显示一封电子邮件，用于填写收件人列表以及您可能具有的其他任何说明。
     
 4. After you are finished, click **Send**. The form and the form template will be attached to the message.
     
-## <a name="email-deployment-restricted-domain-and-full-trust-form-templates"></a>电子邮件部署: 受限制的域和完全信任的表单模板
+## <a name="email-deployment-restricted-domain-and-full-trust-form-templates"></a>电子邮件部署：受限、域和完全信任表单模板
 
-通过电子邮件部署受限制的表单模板允许从任何位置打开无数据连接的动态表单。 收件人可以直接从 Microsoft Outlook 2010 或从收件人保存附件的任何位置打开作为电子邮件附件发送的表单模板。 此外，Outlook 2010 还允许用户直接在邮件中编辑表单。
+受限表单模板的电子邮件部署允许从任何位置打开没有数据连接的动态表单。 收件人可以直接从电子邮件或收件人保存附件Microsoft Outlook 2010打开作为电子邮件附件发送的表单模板。 此外，Outlook 2010 还允许用户直接在邮件中编辑表单。
   
-必须从其发布位置打开具有域信任级别的表单模板, 但通过发布到 "发布向导" 中的电子邮件收件人列表, 可以将其作为电子邮件的附件发送。 When the attachment is opened, it functions as a link to the actual published location of the template. The form template at that location is what is actually opened in the InfoPath editor.
+必须从发布位置打开具有域信任级别的表单模板，但通过发布到"发布向导"中的电子邮件收件人列表，可以将这些模板作为电子邮件的附件发送。 When the attachment is opened, it functions as a link to the actual published location of the template. The form template at that location is what is actually opened in the InfoPath editor.
   
-使用以电子邮件附件形式发送的域级表单模板类似于使用任何其他类型的文档;例如, microsoft Excel 工作簿或 microsoft Word 文档。 用户只需单击表单即可打开并使用它。 此外，用户还可以获得"域"级别更新的所有好处。
+使用域级别表单模板作为电子邮件附件发送的内容与使用任何其他种类的文档类似;例如，Microsoft Excel工作簿或Microsoft Word文档。 用户只需单击表单即可打开并使用它。 此外，用户还可以获得"域"级别更新的所有好处。
   
-您可以通过电子邮件发送请求完全信任访问权限的表单模板, 但必须对这些模板进行签名, 否则将不允许打开这些模板。 请求域或受限访问权限的表单模板无需签名即可作为电子邮件附件发送。 除非要查看能否自动更新模板，否则 InfoPath 不会检查或验证签名，即使对模板进行了签名也是如此。 您可以对"域"或"受限"表单模板进行数字签名，并且仍能够进行自动更新。 在这种情况下，数字签名将阻止显示任何缓存冲突消息。
+可以通过电子邮件发送请求"完全信任"访问权限的表单模板，但这些模板必须签名，否则将不允许打开。 请求"域"或"受限"访问权限的表单模板不需要进行签名，即作为电子邮件附件发送。 除非要查看能否自动更新模板，否则 InfoPath 不会检查或验证签名，即使对模板进行了签名也是如此。 您可以对"域"或"受限"表单模板进行数字签名，并且仍能够进行自动更新。 在这种情况下，数字签名将阻止显示任何缓存冲突消息。
   
-## <a name="sharing-forms-by-email-message-or-from-a-common-shared-location"></a>通过电子邮件或从公用共享位置共享表单
+## <a name="sharing-forms-by-email-message-or-from-a-common-shared-location"></a>通过电子邮件或公用共享位置共享表单
 
-创建将通过电子邮件部署的表单时, 应考虑一些问题。
+创建将通过电子邮件部署的表单时，应当考虑某些问题。
   
 - **是否要定期更新表单？** 如果要开发必须定期更新的表单，则应在将表单发送给其他用户之前，将其发布到共享位置。这将允许您通过将更新的版本发布到共享位置来更新表单，还允许您即时将表单模板分发给那些对共享位置可能没有访问权限的用户。 
     
-   如果表单已更新, 然后通过电子邮件进行分发, 则当用户尝试打开新表单时, 将会收到缓存冲突消息, 如果用户在其计算机上存储了旧版本, 并且访问路径已更改。 系统将提示用户选择要使用的版本。 即使已更新的表单与用户计算机上的表单相同，用户仍然会收到缓存冲突消息，同时系统会提示用户选择要使用哪一份表单。 后面一种情况下的最佳实践是改为从共享位置来共享表单。
+   如果表单已更新，然后通过电子邮件进行分发，则当用户尝试打开新表单时，如果用户的计算机上存储了较旧版本并且访问路径已更改，则用户将会收到缓存冲突消息。 系统将提示用户选择要使用的版本。 即使已更新的表单与用户计算机上的表单相同，用户仍然会收到缓存冲突消息，同时系统会提示用户选择要使用哪一份表单。 后面一种情况下的最佳实践是改为从共享位置来共享表单。
     
-- **您的表单是否访问数据连接或使用"受限"安全级别所不支持的其他功能？** 如果开发请求"域"安全级别的表单，InfoPath 会要求您将该表单发布到共享位置以便用户能够打开它。 由于表单模板将仅在所请求的安全级别打开, 如果 InfoPath 无法授予域级安全, 则直接从电子邮件打开的表单将无法打开。 
+- **您的表单是否访问数据连接或使用"受限"安全级别所不支持的其他功能？** 如果开发请求"域"安全级别的表单，InfoPath 会要求您将该表单发布到共享位置以便用户能够打开它。 由于表单模板将仅在它们请求的安全级别打开，因此，如果 InfoPath 无法授予域级安全性，则直接从电子邮件打开的表单将无法打开。 
     
 ## <a name="benefits-of-using-signed-form-templates"></a>使用已签名表单模板的好处
 
@@ -170,9 +170,9 @@ InfoPath Designer 中的所有表单都是通过标识来创建的。此标识�
     
 此外，如果对表单模板进行了签名，则还可以受益于自动更新功能。有关详细信息，请参阅[部署已签署的 InfoPath 表单模板](deploying-signed-infopath-form-templates.md)。
   
-### <a name="example-updating-domain-or-restricted-templates"></a>示例: 更新域或受限制的模板
+### <a name="example-updating-domain-or-restricted-templates"></a>示例：更新域或受限模板
 
-下面的示例展示了请求域或受限访问权限的更新的签名表单模板如何覆盖较旧的副本: 
+以下示例演示请求"域"表单模板"受限"访问的更新的已签名文件如何覆盖较旧的副本： 
   
 1. "A"将签名的表单模板发送到"B"。
     
@@ -184,9 +184,9 @@ InfoPath Designer 中的所有表单都是通过标识来创建的。此标识�
     
 5. "B"打开更新的表单模板。
     
-### <a name="example-deploying-restricted-form-templates-on-an-extranet"></a>示例: 在 extranet 上部署受限制的表单模板
+### <a name="example-deploying-restricted-form-templates-on-an-extranet"></a>示例：在 Extranet 上部署受限制的表单模板
   
-1. 将 "域" 表单模板保存在运行 Microsoft SharePoint Foundation 2010 的网站上。
+1. 在运行表单模板的网站上保存域Microsoft SharePoint Foundation 2010。
     
 2. 将该表单模板的安全级别更改为"受限"。
     
@@ -200,7 +200,7 @@ InfoPath Designer 中的所有表单都是通过标识来创建的。此标识�
     
 7. 要求用户在填写表单后将其返回给您。
     
-8. 将表单保存回运行 SharePoint Foundation 2010 的网站, 并使用 "**表单库设置**" 页中的 "将**文档重新链接到此库**" 选项重新链接表单。 
+8. 将表单保存回运行 SharePoint Foundation 2010 的网站，然后使用"表单库"页中的"将文档重新链接到此库"选项 **重新设置** 表单。 
     
 ## <a name="signature-verification-failure"></a>签名验证失败
 
@@ -233,7 +233,7 @@ InfoPath 不允许具有同一表单 ID 的表单模板共存。系统管理员�
 |**客户端计算机** <br/> |||X  <br/> |
 |**受信任的站点** <br/> |||X  <br/> |
    
-注册表项路径为`HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\InfoPath\Open Behaviors`。
+注册表项路径为 `HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\InfoPath\Open Behaviors` 。
 
 表单打开行为按如下所示定义：
   

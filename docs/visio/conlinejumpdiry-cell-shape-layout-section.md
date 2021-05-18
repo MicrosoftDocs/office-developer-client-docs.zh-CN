@@ -24,11 +24,11 @@ ms.locfileid: "33404769"
 |:-----|:-----|:-----|
 | 0  <br/> | 页面默认值  <br/> |**visLOJumpDirYDefault** <br/> |
 | 1  <br/> | 左侧  <br/> |**visLOJumpDirYLeft** <br/> |
-| 双面  <br/> | 右侧  <br/> |**visLOJumpDirYRight** <br/> |
+| 2  <br/> | 右侧  <br/> |**visLOJumpDirYRight** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-若要设置页面上*所有*连接线跨线的默认垂直方向, 请使用 "页面布局" 部分中的 "PageLineJumpDirY" 单元格。 
+若要设置页面上所有连接线跳转的默认垂直方向，请使用"页面布局"部分中的 PageLineJumpDirY 单元格。 
   
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ConLineJumpDirY 单元格的引用，请使用： 
   

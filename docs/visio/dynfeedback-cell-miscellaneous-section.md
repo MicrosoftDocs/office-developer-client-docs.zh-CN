@@ -24,9 +24,9 @@ ms.locfileid: "33404797"
 |:-----|:-----|:-----|
 | 0  <br/> | 保持直线（无引线）。  <br/> |**visDynFBDefault** <br/> |
 | 1  <br/> | 拖动时显示三条引线。  <br/> |**visDynFBUCon3Leg** <br/> |
-| 双面  <br/> | 拖动时显示五条引线。  <br/> |**visDynFBUCon5Leg** <br/> |
+| 2  <br/> | 拖动时显示五条引线。  <br/> |**visDynFBUCon5Leg** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 DynFeedback 单元格的引用，请使用： 
   

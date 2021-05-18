@@ -18,11 +18,11 @@ ms.locfileid: "33404650"
 ---
 # <a name="format-function"></a>FORMAT 函数
 
-以字符串的形式返回_表达式_的结果, 该字符串根据_formatpicture_设置格式。
+返回表达式  _的结果_ ，作为根据  _formatpicture_ 设置格式的字符串。
   
 ## <a name="syntax"></a>语法
 
-FORMAT (* **表达式** *, "* * *formatpicture* * *") 
+FORMAT (** *expression* **，" ** *formatpicture* ** ")  
   
 ### <a name="parameters"></a>参数
 
@@ -35,11 +35,11 @@ FORMAT (* **表达式** *, "* * *formatpicture* * *")
 
 String
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表达式的类型和格式图片中指定的类型将控制返回的字符串的行为。 _formatpicture_必须适合于表达式的类型。 有关指定格式图片的详细信息，请参阅[关于格式图片](about-format-pictures.md)。
+表达式的类型和格式图片中指定的类型将控制返回的字符串的行为。 _formatpicture_ 必须适用于表达式的类型。 有关指定格式图片的详细信息，请参阅[关于格式图片](about-format-pictures.md)。
   
-如果_表达式_和_formatpicture_中预期的类型的结果是不同的, 或者_formatpicture_中有语法错误, 则返回错误。
+如果 expression 的结果和 _formatpicture_ 中预期的类型不同，或者 _formatpicture_ 中出现语法错误，则返回错误。
   
 ## <a name="example-1"></a>示例 1
 

@@ -41,75 +41,75 @@ HRESULT ConfigureMsgService(
 
  _lpUID_
   
-> 实时指向[MAPIUID](mapiuid.md)结构的指针, 该结构包含要配置的邮件服务的唯一标识符。 
+> [in]指向 [MAPIUID](mapiuid.md) 结构的指针，其中包含要配置的邮件服务的唯一标识符。 
     
  _ulUIParam_
   
-> 实时配置属性表的父窗口的句柄。
+> [in]配置窗口的父窗口的属性表。
     
  _ulFlags_
   
-> 实时用于控制属性表的显示的标志的位掩码。 可以设置以下标志:
+> [in]控制屏幕显示的标志的位掩码属性表。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 传入的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 传入字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
 MSG_SERVICE_UI_READ_ONLY 
   
-> 邮件服务应显示其配置属性表, 但不允许用户对其进行更改。 大多数邮件服务都会忽略此标志。
+> 邮件服务应显示其配置属性表但不允许用户更改它。 大多数邮件服务会忽略此标志。
     
 SERVICE_UI_ALLOWED 
   
-> 仅当未完全配置服务时, 邮件服务才应显示其配置属性表。
+> 邮件服务应仅在服务属性表配置时显示其配置。
     
 SERVICE_UI_ALWAYS 
   
-> 邮件服务必须始终显示其 "配置" 属性表。 如果未设置 SERVICE_UI_ALWAYS, 则在设置 SERVICE_UI_ALLOWED 并在_lpProps_参数的属性值数组中不提供有效的配置信息时, 仍可以显示配置属性表。 必须设置 SERVICE_UI_ALLOWED 或 SERVICE_UI_ALWAYS, 才能显示属性表。 
+> 邮件服务必须始终显示其配置属性表。 如果未SERVICE_UI_ALWAYS，如果属性表设置 SERVICE_UI_ALLOWED，并且  _lpProps_ 参数中的属性值数组中未提供有效的配置信息，则仍可显示配置信息。 必须SERVICE_UI_ALLOWED或SERVICE_UI_ALWAYS设置选项，属性表显示内容。 
     
  _cValues_
   
-> 实时由_lpProps_指向的[SPropValue](spropvalue.md)结构中的属性值的计数。 
+> [in] [SPropValue](spropvalue.md) 结构中由  _lpProps_ 指向的属性值计数。 
     
  _lpProps_
   
-> 实时指向描述要在属性表中显示的属性的属性值数组的指针。 如果应在不使用用户界面的情况下配置邮件服务, 则_lpProps_参数不应为 NULL。 
+> [in]指向属性值数组的指针，这些属性值描述要显示在属性表。 如果应在没有用户界面的情况下配置邮件服务，则  _lpProps_ 参数不应为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 邮件服务已成功配置。
+> 已成功配置邮件服务。
     
 MAPI_E_EXTENDED_ERROR 
   
-> 特定于邮件服务的错误。 若要获取描述错误的[MAPIERROR](mapierror.md)结构, 客户端应用程序应调用[IMsgServiceAdmin:: GetLastError](imsgserviceadmin-getlasterror.md)方法。 
+> 特定于邮件服务的错误。 若要获取描述错误的 [MAPIERROR](mapierror.md) 结构，客户端应用程序应调用 [IMsgServiceAdmin：：GetLastError](imsgserviceadmin-getlasterror.md) 方法。 
     
 MAPI_E_NOT_FOUND 
   
-> lpUID 指向的**MAPIUID**与现有邮件服务的__ 不匹配。 
+> _lpUID_ 指向的 **MAPIUID** 与现有邮件服务不匹配。 
     
 MAPI_E_NOT_INITIALIZED 
   
-> 邮件服务没有入口点函数。
+> 邮件服务没有入口点功能。
     
 MAPI_E_USER_CANCEL 
   
-> 用户取消了操作, 通常是单击属性表中的 "**取消**" 按钮。 
+> 用户通常通过单击"取消"按钮来取消属性表。  
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMsgServiceAdmin:: ConfigureMsgService**方法允许使用或不使用配置属性表来配置邮件服务。 
+**IMsgServiceAdmin：：ConfigureMsgService** 方法使邮件服务可以配置，也可以不配置属性表。 
   
-若要允许在不显示属性表的情况下进行配置, 邮件服务通常准备一个头文件, 其中包含所有必需属性和可选属性及其值的常量。
+为了允许在不显示属性表配置，邮件服务通常会准备一个头文件，其中包含所有必需和可选属性及其值的常量。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要检索要配置的邮件服务的**MAPIUID**结构, 请从邮件服务表中的邮件服务行检索**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 列。 有关详细信息, 请参阅[IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md)方法中概述的过程。 
+若要检索要配置的邮件服务的 **MAPIUID** 结构，请从邮件服务表中邮件服务的行中检索 **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 列。 有关详细信息，请参阅 [IMsgServiceAdmin：：CreateMsgService 方法中概述](imsgserviceadmin-createmsgservice.md) 的过程。 
   
-只有在您具有有关要设置的属性值的高级信息的情况下, 才能将邮件服务配置为不向用户显示属性表。 如果要配置邮件服务而不显示属性表, 请在_lpProps_参数中传递有效的属性值, 不要设置 MSG_SERVICE_UI_READ_ONLY、SERVICE_UI_ALLOWED 或 SERVICE_UI_ALWAYS 标志。 
+只有在有要设置的属性值的预先信息属性表，才能配置邮件服务，而不向用户显示通知。 如果要配置邮件服务而不显示 属性表，请传递  _lpProps_ 参数中的有效属性值，并且不要设置 MSG_SERVICE_UI_READ_ONLY、SERVICE_UI_ALLOWED 或 SERVICE_UI_ALWAYS 标志。 
   
-如果通过属性表从用户处接收全部或部分配置信息, 请在_ulFlags_中设置 SERVICE_UI_ALLOWED。 如果您仅使用现有属性信息来建立默认设置, 并且用户能够更改设置, 请在_ulFlags_中设置 SERVICE_UI_ALWAYS。
+如果您通过安装方法从用户收到所有或部分配置信息，属性表  _ulFlags_ SERVICE_UI_ALLOWED设置配置信息。 如果您使用现有属性信息来建立默认设置，并且用户能够更改设置，则SERVICE_UI_ALWAYS  _ulFlags_ 中。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -117,7 +117,7 @@ MAPI_E_USER_CANCEL
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI 使用**IMsgServiceAdmin:: ConfigureMsgService**方法配置已添加到配置文件中的服务。  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI 使用 **IMsgServiceAdmin：：ConfigureMsgService** 方法配置已添加到配置文件的服务。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

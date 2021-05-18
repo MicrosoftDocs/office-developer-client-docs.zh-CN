@@ -25,7 +25,7 @@ ms.locfileid: "32361087"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含附件中所有属性的大小的总和 (以字节为单位)。 
+包含附件上所有属性的大小的总和（以字节为单位）。 
   
 |||
 |:-----|:-----|
@@ -34,29 +34,29 @@ ms.locfileid: "32361087"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-建议附件子类型公开**PR_ATTACH_SIZE**属性。 包含在**PR_ATTACH_SIZE**中的总和包括**PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) 或**PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) 属性的大小。 因此, **PR_ATTACH_SIZE**通常比单独的附件的内容大。 
+建议附件子对象公开 **PR_ATTACH_SIZE属性。** PR_ATTACH_SIZE中包含的和包括 **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) 或 **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) 的大小。 因此 **，PR_ATTACH_SIZE** 通常比附件的内容大。 
   
-此属性可用于在通过调制解调器执行远程传输之前检查附件的近似大小, 并在将附件保存到磁盘时显示进度指示器。 它对附加的 OLE 对象尤其有用。 
+此属性可用于在执行调制解调器远程传输之前检查附件的近似大小，并可在将附件保存至磁盘时显示进度指示器。 它对于附加的 OLE 对象尤其有用。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-mapitags
+mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

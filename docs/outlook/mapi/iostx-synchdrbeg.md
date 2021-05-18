@@ -25,7 +25,7 @@ ms.locfileid: "33405091"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-启动邮件头同步。
+启动邮件头的同步。
   
 ```cpp
 HRESULT SyncHdrBeg( 
@@ -37,21 +37,21 @@ HRESULT SyncHdrBeg(
 
 ## <a name="parameters"></a>参数
 
- _cbeid_
+ _c一d_
   
-> 实时邮件的条目 ID 中的字节数。
+> [in]邮件条目 ID 中的字节数。
     
  _lpeid_
   
-> 实时邮件的条目 ID。
+> [in]邮件的条目 ID。
     
  _ppv_
   
->  [in]/[out] 指针, 指向邮件头的**[HDRSYNC](hdrsync.md)** 结构。 
+>  [in]/[out] 指向 **[邮件头的 HDRSYNC](hdrsync.md)** 结构的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在**IOSTX:: SyncHdrBeg**中, 本地存储将转换为[下载邮件头状态](download-message-header-state.md)。 Outlook 为客户端初始化存储和父文件夹中的邮件头的当前表示形式的**HDRSYNC**结构。 然后, 客户端必须下载完整的邮件项目 (在**HDRSYNC**中为*pmsgFull* )。 如果成功, 客户端还会将**HDRSYNC**中的*ulFlags*设置为**HSF_OK**。 在**[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)** 上, Outlook 检查**HDRSYNC**中的结果, 并使用**HDRSYNC**中的信息更新本地邮件头。 
+在 **IOSTX：：SyncHdrBeg** 时，本地存储将转换为 [下载邮件头状态](download-message-header-state.md)。 Outlook使用存储和父文件夹中邮件头的当前表示形式初始化客户端 **的 HDRSYNC** 结构。 然后，客户端必须下载完整邮件项目 (**HDRSYNC** *中的 pmsgFull* ) 。 如果此操作成功，客户端还会将 **HDRSYNC** 中的 *ulFlags* **HSF_OK。** 在 **[IOSTX：：SyncHdrEnd](iostx-synchdrend.md)** Outlook **检查 HDRSYNC** 中的结果，并使用 **HDRSYNC** 中的信息更新本地邮件头。 
   
 ## <a name="see-also"></a>另请参阅
 

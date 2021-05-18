@@ -25,11 +25,11 @@ ms.locfileid: "33421583"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-描述全局唯一标识符 (GUID)。 
+描述 GUID (全局唯) 。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiguid  <br/> |
+|标头文件：  <br/> |Mapiguid.h  <br/> |
    
 ```cpp
 typedef struct _GUID
@@ -60,21 +60,21 @@ typedef struct _GUID
   
 > 无符号字符数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
- **GUID**结构在 MAPI 中使用, 如下所示: 
+ **在 MAPI** 中按如下方式使用 GUID 结构： 
   
-- 在唯一标识服务提供程序的[MAPIUID](mapiuid.md)结构中。 
+- 在唯一标识服务提供商的 [MAPIUID](mapiuid.md) 结构中。 
     
 - 对于接口标识符。
     
 - 在命名属性的属性集名称中。 
     
-邮件存储和通讯簿提供程序生成要在其**MAPIUID**结构中使用的**GUID**结构。 通过将生成的**MAPIUID**传递给[IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md), 这些服务提供程序会通知 MAPI 其唯一标识符。
+邮件存储和通讯簿提供程序生成要用于 **其 MAPIUID** 结构的 **GUID** 结构。 通过将生成的 **MAPIUID** 传递到 [IMAPISupport：：SetProviderUID，](imapisupport-setprovideruid.md)这些服务提供商会通知 MAPI 它们的唯一标识符。
   
-此外, 它们还用于 Microsoft 远程过程调用 (RPC) 和对象描述语言 (ODL) 的实现。 有关这些用途的详细信息, 请参阅*Microsoft RPC 程序员指南和参考*、 *ole 程序员参考*和*内部 ole*,*第二版*。 
+此外，它们还用于实现 Microsoft Remote Procedure Call (RPC) 和 Object Description Language (ODL) 。 有关这些用法详细信息，请参阅 *《Microsoft RPC* 程序员指南和参考》、OLE 程序员参考和 Inside *OLE，**第二版*。  
   
-**GUID**结构是在*Win32 程序员参考*中定义的。 mapi 中使用的**GUID**结构的特定值是在 mapi 头文件 Mapiguid 中定义的。 
+**GUID** 结构在 *Win32 程序员参考中定义*。 MAPI 中使用的 **GUID** 结构的特定值在 MAPI 头文件 Mapiguid.h 中定义。 
   
 ## <a name="see-also"></a>另请参阅
 

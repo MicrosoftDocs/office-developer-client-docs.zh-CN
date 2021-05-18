@@ -21,36 +21,36 @@ ms.locfileid: "33422493"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-邮件服务表包含有关当前配置文件中的邮件服务的信息。 每个 mapi 会话都有一个邮件服务表, 这些会话由 mapi 实现, 并由提供配置支持的特殊用途的客户端应用程序使用。 
+邮件服务表包含有关当前配置文件中邮件服务的信息。 每个 MAPI 会话有一个消息服务表，由 MAPI 实现，由提供配置支持的特殊用途客户端应用程序使用。 
   
-邮件服务表是静态表。
+邮件服务表是一个静态表。
   
-客户端通过调用[IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md)方法访问邮件服务表。 
+客户端通过调用 [IMsgServiceAdmin：：GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) 方法访问邮件服务表。 
   
-以下属性构成了在邮件服务表中设置的必需列:
+下列属性将包含邮件服务表中所需的列集：
   
 |||
 |:-----|:-----|
-|**PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_INSTANCE_KEY**([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
-|**PR_RESOURCE_FLAGS**([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_SERVICE_DLL_NAME**([PidTagServiceDllName](pidtagservicedllname-canonical-property.md))  <br/> |
-|**PR_SERVICE_ENTRY_NAME**([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))  <br/> |**PR_SERVICE_NAME**([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |
-|**PR_SERVICE_SUPPORT_FILES**([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md))  <br/> |**PR_SERVICE_UID**([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
+|**PR_DISPLAY_NAME (** [PidTagDisplayName](pidtagdisplayname-canonical-property.md))   <br/> |**PR_INSTANCE_KEY (** [PidTagInstanceKey](pidtaginstancekey-canonical-property.md))   <br/> |
+|**PR_RESOURCE_FLAGS (** [PidTagResourceFlags)](pidtagresourceflags-canonical-property.md)  <br/> |**PR_SERVICE_DLL_NAME (** [PidTagServiceDllName](pidtagservicedllname-canonical-property.md))   <br/> |
+|**PR_SERVICE_ENTRY_NAME (** [PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))   <br/> |**PR_SERVICE_NAME (** [PidTagServiceName](pidtagservicename-canonical-property.md))   <br/> |
+|**PR_SERVICE_SUPPORT_FILES (** [PidTagServiceSupportFiles)](pidtagservicesupportfiles-canonical-property.md)  <br/> |**PR_SERVICE_UID (** [PidTagServiceUid](pidtagserviceuid-canonical-property.md))   <br/> |
    
- **PR_DISPLAY_NAME**是邮件服务和默认的排序关键字列的可显示名称。 
+ **PR_DISPLAY_NAME** 是邮件服务的可显示名称和默认排序键列。 
   
- **PR_INSTANCE_KEY**充当表的索引列, 唯一标识行。 
+ **PR_INSTANCE_KEY** 用作表的索引列，以唯一地标识行。 
   
- **PR_RESOURCE_FLAGS**描述了邮件服务的功能。 
+ **PR_RESOURCE_FLAGS** 描述邮件服务的功能。 
   
- **PR_SERVICE_DLL_NAME**是包含邮件服务实现的 DLL 的名称。 
+ **PR_SERVICE_DLL_NAME** 是包含邮件服务实现的 DLL 的名称。 
   
- **PR_SERVICE_ENTRY_NAME**是符合[MSGSERVICEENTRY](msgserviceentry.md)原型的邮件服务的入口点函数的名称。 
+ **PR_SERVICE_ENTRY_NAME** 是邮件服务的入口点函数的名称，该函数符合 [MSGSERVICEENTRY](msgserviceentry.md) 原型。 
   
- **PR_SERVICE_NAME**是 mapisvc.inf 中的 **[服务]** 部分中的必需条目。 此属性的值永远不会更改或本地化。 **PR_SERVICE_NAME**可用于以编程方式标识邮件服务。 
+ **PR_SERVICE_NAME** 是 MAPISVC.INF **中 [Services]** 部分必填的条目。 此属性的值永远不会更改或本地化。 **PR_SERVICE_NAME** 可用于以编程方式标识邮件服务。 
   
- **PR_SERVICE_SUPPORT_FILES**是必须随邮件服务一起安装的文件的列表。 
+ **PR_SERVICE_SUPPORT_FILES** 是必须随邮件服务一起安装的文件的列表。 
   
- **PR_SERVICE_UID**是邮件服务的唯一标识符。 
+ **PR_SERVICE_UID** 是邮件服务的唯一标识符。 
   
 ## <a name="see-also"></a>另请参阅
 

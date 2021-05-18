@@ -25,61 +25,61 @@ ms.locfileid: "32283147"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含描述文件夹类型的文本字符串。 虽然通常忽略此属性, 但在 Exchange server 2003 邮箱管理器之前的 Microsoft ® Exchange server 版本要求此属性存在。
+包含描述文件夹类型的文本字符串。 尽管通常忽略此属性，® Exchange Server 2003 邮箱管理器Exchange Server Microsoft 2003 之前的版本预期此属性存在。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTAINER_CLASS、PR_CONTAINER_CLASS_A、PR_CONTAINER_CLASS_W  <br/> |
 |标识符:  <br/> |0x3613  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |Container  <br/> |
+|区域：  <br/> |容器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-Exchange Server 通常不使用这些属性。 但是, Microsoft Office Outlook ®会将其附加到邮箱文件夹中。 此外, exchange server 2003 邮箱管理器之前的 exchange server 版本可能会错误地处理不具有这些属性的文件夹。
+这些属性通常不由 Exchange Server。 但是，Microsoft Office Outlook®将它们附加到邮箱文件夹。 此外，Exchange Server 2003 邮箱Exchange Server之前的版本可能无法正确处理没有这些属性的文件夹。
   
-可以将下表中的字符串值分配给这些属性。
+可以在下表中为这些属性分配字符串值。
   
-|**值**|**文件夹的内容**|
+|**值**|**文件夹内容**|
 |:-----|:-----|
-|限.日程  <br/> |约会  <br/> |
-|限.信息  <br/> |联系人  <br/> |
-|限.日志  <br/> |Outlook 日记条目  <br/> |
-|限.便笺  <br/> |邮件和笔记  <br/> |
-|限.ipm.stickynote  <br/> |Outlook 粘滞便笺  <br/> |
-|限.任务  <br/> |Outlook 任务  <br/> |
+|IPF。约会  <br/> |约会  <br/> |
+|IPF。联系人  <br/> |联系人  <br/> |
+|IPF。日记  <br/> |Outlook日记条目  <br/> |
+|IPF。注意  <br/> |邮件消息和注释  <br/> |
+|IPF。StickyNote  <br/> |Outlook 便笺  <br/> |
+|IPF。任务  <br/> |Outlook 任务  <br/> |
    
-对于包含邮件的文件夹, 应将这些属性设置为 IPF。便笺.
+对于包含邮件的文件夹，这些属性应设置为 IPF。注意。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> 指定用于创建和定位邮箱中的特殊文件夹的属性和操作。
+> 指定用于创建和定位邮箱中特殊文件夹的属性和操作。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
-[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定允许用于联系人和个人通讯组列表对象的属性和操作。
+> 指定联系人和个人通讯组列表对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

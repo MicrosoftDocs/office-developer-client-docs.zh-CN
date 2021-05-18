@@ -27,7 +27,7 @@ ms.locfileid: "32359708"
 
 在下面的代码示例中，CheckManagerResponseStatus 以参数形式获取 **AppointmentItem** 对象。 CheckManagerResponseStatus 对当前用户调用 **GetExchangeUser** 方法，以获取 [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) 对象。 然后，CheckManagerResponseStatus 调用 **GetExchangeUserManager** 方法，以获取与当前用户的经理关联的 **ExchangeUser** 对象。 随后，此代码示例使用 [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) 对象的 [CompareEntryIDs(String, String)](https://msdn.microsoft.com/library/bb646919\(v=office.15\)) 方法，检查与 **AppointmentItem** 对象关联的 **Recipient** 对象是否与表示用户的经理的 **ExchangeUser** 对象相同。 如果 **CompareEntryIDs** 返回 **true**，表示在 **Recipients** 集合中找到了用户的经理，然后 CheckManagerResponseStatus 便会返回经理的 **MeetingResponseStatus**。 如果 **CompareEntryIDs** 返回 **false**，CheckManagerResponseStatus 返回空引用。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

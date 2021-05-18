@@ -25,44 +25,44 @@ ms.locfileid: "32279707"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含上次修改对象或子对象时的日期和时间。 
+包含上次修改对象或子对象的日期和时间。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |操作  <br/> |
+|相关属性：  <br/> |PR_LAST_MODIFICATION_TIME  <br/> |
 |标识符:  <br/> |0x3008  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |邮件时间  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性最初设置为与**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)) 属性相同的值。 通过复制由本机文件系统维护的上次修改时间, 附件子文件可根据需要进行更新。 在第一次调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法之前, 客户端应用程序可以设置此属性。 从随后, 提供程序应在每个**IMAPIProp:: SaveChanges**调用中更新**操作**。 
+此属性最初设置为与[PidTagCreationTime](pidtagcreationtime-canonical-property.md) 属性PR_CREATION_TIME (相同) 值。 附件子对象可在必要时通过复制由本机文件系统维护的最后修改时间来更新附件子对象。 客户端应用程序可以设置此属性，直到第一次调用 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法。 此后，提供程序应 **更新PR_LAST_MODIFICATION_TIME** **IMAPIProp：：SaveChanges 调用期间的名称** 。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理服务器和客户端之间的同步邮件对象数据。
+> 处理在服务器和客户端之间同步邮件对象数据。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

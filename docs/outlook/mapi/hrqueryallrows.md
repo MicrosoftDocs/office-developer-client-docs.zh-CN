@@ -29,9 +29,9 @@ ms.locfileid: "33422892"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 HRESULT HrQueryAllRows(
@@ -48,44 +48,44 @@ HRESULT HrQueryAllRows(
 
  _ptable_
   
-> 实时指向从中检索行的 MAPI 表的指针。 
+> [in]指向从中检索行的 MAPI 表的指针。 
     
  _ptaga_
   
-> 实时指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含指示表列的属性标记的数组。 这些标记用于选择要检索的特定列。 如果_ptaga_参数为 NULL, 则**HrQueryAllRows**将检索在_ptable_参数中传递的当前表格视图的整个列集。 
+> [in]指向 [SPropTagArray](sproptagarray.md) 结构的指针，该结构包含指示表列的属性标记数组。 这些标记用于选择要检索的特定列。 如果  _ptaga_ 参数为 **NULL，HrQueryAllRows** 将检索在  _ptable_ 参数中传递的当前表视图的整个列集。 
     
- _展示_
+ _pres_
   
-> 实时指向包含检索限制的[SRestriction](srestriction.md)结构的指针。 如果_展示_参数为 NULL, 则**HrQueryAllRows**不会产生任何限制。 
+> [in]指向包含检索限制的 [SRestriction](srestriction.md) 结构的指针。 如果  _pres_ 参数为 NULL， **则 HrQueryAllRows** 将没有任何限制。 
     
- _pso_
+ _psos_
   
-> 实时指向[SSortOrderSet](ssortorderset.md)结构的指针, 该结构标识要检索的列的排序顺序。 如果_pso_参数为 NULL, 则使用表的默认排序顺序。 
+> [in]指向标识要检索的列的排序顺序的 [SSortOrderSet](ssortorderset.md) 结构的指针。 如果  _psos_ 参数为 NULL，则使用表的默认排序顺序。 
     
- _crowsMax_
+ _一些_
   
-> 实时要检索的最大行数。 如果_crowsMax_参数的值为零, 则对检索到的行数的限制不会设置。 
+> [in]要检索的最大行数。 如果  _为 0，则对_ 检索到的行数没有限制。 
     
  _pprows_
   
-> 排除指向指向返回的[SRowSet](srowset.md)结构的指针的指针, 该结构包含指向检索到的表格行的指针数组。 
+> [out]指向返回的 [SRowSet](srowset.md) 结构的指针的指针，该结构包含指向检索到的表行的指针数组。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用检索到表的预期行。 
+> 调用检索表的预期行。 
     
 MAPI_E_TABLE_TOO_BIG 
   
-> 表中的行数大于为_crowsMax_参数传递的数目。 
+> 表格中的行数大于为  _用户传递的 rowssMax_ 参数所传递的行数。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端应用程序或服务提供程序不能控制**HrQueryAllRows**尝试检索的行数, 而不是通过限制_展示_参数所指向的限制。 _crowsMax_参数不会将检索限制为一定数量的表行, 而是定义可用于保存所有检索到的行的最大内存量。 对对大量内存溢出的唯一保护是通过设置_crowsMax_提供的 stopgap 功能。 错误返回 MAPI_E_TABLE_TOO_BIG 表示该表包含的行太多, 无法同时保留在内存中。 
+客户端应用程序或服务提供商无法控制 **HrQueryAllRows** 尝试检索的行数，但通过阻止  _pres_ 参数指向的限制。 _一个系统_ 参数不限制检索到一定数量的表行，而是定义可用于保留所有检索到的行的最大内存量。 防止大量内存溢出的唯一保护是 stopgap 功能，它通过  _设置 overflowsMax 提供_。 错误返回MAPI_E_TABLE_TOO_BIG意味着表包含太多行，无法一次在内存中全部存储。 
   
-通常情况下, 可以使用**HrQueryAllRows**安全地检索通常很小的表 (如邮件存储表或提供程序表)。 应使用[IMAPITable:: QueryRows](imapitable-queryrows.md)方法在子部分中遍历非常大的风险 (如内容表甚至收件人表) 中的表。 
+通常较小的表（如邮件存储表或提供程序表）通常可以使用 **HrQueryAllRows** 安全检索。 应该使用 [IMAPITable：：QueryRows](imapitable-queryrows.md) 方法在子节中遍历风险非常大的表，如内容表甚至收件人表。 
   
-如果在调用**HrQueryAllRows**时未定义任何表属性, 则将使用属性类型 PT_NULL 和属性标识符返回它们 PROP_ID_NULL 
+如果调用 **HrQueryAllRows** 时未定义任何表属性，则返回的属性类型为 PT_NULL，属性标识符为 PROP_ID_NULL 
   
 

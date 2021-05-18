@@ -21,11 +21,11 @@ ms.locfileid: "32299431"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-确定传输中性封装格式 (TNEF) 流的代码页。
+确定 TNEF 流Transport-Neutral封装 (的代码) 页。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |tnef  <br/> |
+|标头文件：  <br/> |tnef.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序和服务提供程序。  <br/> |
    
@@ -41,21 +41,21 @@ HRESULT GetTnefStreamCodepage(
 
  _lpStream_
   
-> 实时指向存储流对象 OLE **IStream**接口的指针, 该接口提供 TNEF 流消息的源。 
+> [in]指向为 TNEF 流消息提供源的存储流对象 OLE **IStream** 接口的指针。 
     
  _lpulCodepage_
   
-> 排除指向流的代码页的指针。
+> [out]指向流的代码页的指针。
     
  _lpulSubCodepage_
   
-> 排除指向流的子代码页的指针。
+> [out]指向流的子代码页的指针。
     
 ## <a name="return-value"></a>返回值
 
  **S_OK**
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
  **MAPI_E_NOT_ENOUGH_DISK**
   
@@ -63,11 +63,11 @@ HRESULT GetTnefStreamCodepage(
     
  **MAPI_E_CORRUPT_DATA**
   
-> 流不是 TNEF 流, 或者读取 attOemCodepage 属性时出错。
+> 该流不是 TNEF 流，或者读取 attOemCodepage 属性时出错。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-使用**GetTnefStreamCodepage**函数可读取 TNEF 流的**attOemCodepage**属性, 以确定 "代码页" 和 "子代码" 页。 如果找不到**attOemCodepage** , 则**GetTnefStreamCodepage**将返回437和子代码页面0的代码页。 
+使用 **GetTnefStreamCodepage** 函数读取 TNEF 流的 **attOemCodepage** 属性以确定代码页和子代码页。 如果 **未找到 attOemCodepage，GetTnefStreamCodepage** 将返回代码页 437 和子代码页 0。  
   
 ## <a name="see-also"></a>另请参阅
 

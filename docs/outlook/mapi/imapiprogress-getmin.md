@@ -53,7 +53,7 @@ S_OK
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-将最小值初始化为 1。 服务提供程序可以通过调用 **IMAPIProgress::SetLimits** 方法重置此值。 有关如何实现 **GetMin** 和其他 [IMAPIProgress](imapiprogressiunknown.md) 方法的详细信息，请参阅[实现进度指示器](implementing-a-progress-indicator.md)。
+将最小值初始化为 1。 服务提供程序可以通过调用 **IMAPIProgress::SetLimits** 方法重置此值。 有关如何实现 **GetMin** 和其他 [IMAPIProgress](imapiprogressiunknown.md) 方法的详细信息，请参阅 [实现进度指示器](implementing-a-progress-indicator.md)。
   
 有关如何调用进度对象以及何时调用的详细信息，请参阅[显示进度指示器](how-to-display-a-progress-indicator.md)。
   

@@ -63,7 +63,7 @@ Using InfoPath, you can now extend and enhance the forms used for creating, edit
   
 ## <a name="host-forms-on-portal-pages-using-the-infopath-form-web-part"></a>使用 InfoPath 表单 Web 部件在门户页上托管表单
 
-在 SharePoint Server 2013 中，使用新的“InfoPath 表单 Web 部件”**** 在 Web 页面上托管表单比以往更容易。 在 Microsoft Office SharePoint Server 2007 中，希望在 Web 页面上托管其 InfoPath 表单的用户需要在 Visual Studio 中编写代码。 现在，无需编写任何代码，便可以将“InfoPath 表单 Web 部件”**** 添加到 Web 部件页面并将其指向已发布的表单。可以使用“InfoPath 表单 Web 部件”**** 托管发布到 SharePoint 列表或表单库的任何 InfoPath 浏览器表单。 还可以将其连接到页面上的其他 Web 部件以发送或接收数据。 有关如何使用“InfoPath 表单 Web 部件”**** 的详细信息，请参阅 SharePoint 2010 SDK 中的[使用 InfoPath 表单 Web 部件](https://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx)。 
+在 SharePoint Server 2013 中，使用新的“InfoPath 表单 Web 部件”在 Web 页面上托管表单比以往更容易。 在 Microsoft Office SharePoint Server 2007 中，希望在 Web 页面上托管其 InfoPath 表单的用户需要在 Visual Studio 中编写代码。 现在，无需编写任何代码，便可以将“InfoPath 表单 Web 部件”添加到 Web 部件页面并将其指向已发布的表单。可以使用“InfoPath 表单 Web 部件”托管发布到 SharePoint 列表或表单库的任何 InfoPath 浏览器表单。 还可以将其连接到页面上的其他 Web 部件以发送或接收数据。 有关如何使用“InfoPath 表单 Web 部件”的详细信息，请参阅 SharePoint 2010 SDK 中的[使用 InfoPath 表单 Web 部件](https://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx)。 
   
 ## <a name="richer-web-forms"></a>更丰富的 Web 表单
 

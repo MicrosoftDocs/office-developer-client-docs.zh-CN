@@ -34,31 +34,31 @@ ms.locfileid: "32270012"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性是应设置为初始视图的文件夹视图的条目标识符。 如果将 "普通" 视图用作初始视图, 则不需要设置该属性。
+此属性是应设置为初始视图的文件夹视图的条目标识符。 如果将"Normal"视图用作初始视图，则不需要设置该属性。
   
-客户端应用程序可以在打开文件夹时获取该属性, 从而实现显著的性能提升。 此属性可用作获取默认视图的快捷方式, 而无需打开关联的内容表并提交限制。
+客户端应用程序可以在打开文件夹时获取此属性，并显著提高性能。 此属性可以用作获取默认视图的快捷方式，而不是打开关联的内容表并提交限制。
   
-[IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md)方法的服务提供程序实现可以在复制文件夹时复制该属性。 
+[IMAPIFolder：：CopyFolder](imapifolder-copyfolder.md)方法的服务提供商实现可以在复制文件夹时复制此属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > 处理文件夹操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

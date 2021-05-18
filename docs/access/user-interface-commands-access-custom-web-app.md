@@ -1,5 +1,5 @@
 ---
-title: 用户界面命令 (Access 自定义 web 应用)
+title: 'Access 自定义 web (应用程序的用户界面) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421688"
 ---
-# <a name="user-interface-commands-access-custom-web-app"></a>用户界面命令 (Access 自定义 web 应用)
+# <a name="user-interface-commands-access-custom-web-app"></a>Access 自定义 web (应用程序的用户界面) 
 
 > [!IMPORTANT]
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="in-this-section"></a>本节内容
 
-- [sp.changeview 宏操作 (Access 自定义 web 应用程序)](changeview-macro-action-access-custom-web-app.md)
+- [ChangeView 宏操作 (Access 自定义 Web 应用) ](changeview-macro-action-access-custom-web-app.md)
     
-- [ClosePopup 宏操作 (Access 自定义 web 应用程序)](closepopup-macro-action-access-custom-web-app.md)
+- [ClosePopup 宏操作 (Access 自定义 Web 应用) ](closepopup-macro-action-access-custom-web-app.md)
     
-- [MessageBox 宏操作 (Access 自定义 web 应用程序)](messagebox-macro-action-access-custom-web-app.md)
+- [MessageBox 宏操作 (Access 自定义 Web 应用) ](messagebox-macro-action-access-custom-web-app.md)
     
-- [OpenPopup 宏操作 (Access 自定义 web 应用程序)](openpopup-macro-action-access-custom-web-app.md)
+- [OpenPopup 宏操作 (Access 自定义 Web 应用) ](openpopup-macro-action-access-custom-web-app.md)
     
 

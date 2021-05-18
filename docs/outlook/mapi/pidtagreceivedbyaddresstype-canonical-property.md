@@ -25,7 +25,7 @@ ms.locfileid: "32359225"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含实际接收邮件的邮件用户的电子邮件地址类型 (如 SMTP)。
+包含实际接收邮件的邮件用户的电子邮件地址类型，如 SMTP。
   
 |||
 |:-----|:-----|
@@ -34,33 +34,33 @@ ms.locfileid: "32359225"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-这些属性是实际接收邮件的邮件用户的地址属性的示例。 它们必须由传入传输提供程序设置。
+这些属性是实际接收邮件的邮件用户的地址属性示例。 它们必须由传入传输提供程序设置。
   
-地址类型字符串只能包含大写字母字符 A 到 Z 以及从0到9的数字。 这些属性通过指定地址类型 (如 SMTP) 来限定**PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) 属性, 从而指示应如何构造地址。
+地址类型字符串只能包含大写字母字符 A 到 Z 以及数字 0 到 9。 这些属性通过 **指定地址类型** （如 SMTP）限定 PR_RECEIVED_BY_EMAIL_ADDRESS ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) 属性，从而指示应如何构造该地址。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定在电子邮件中允许的属性和操作。
+> 指定允许对电子邮件执行的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

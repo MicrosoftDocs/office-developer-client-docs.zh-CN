@@ -22,7 +22,7 @@ ms.locfileid: "33422906"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-用于将新**XLOPER12**转换为旧**XLOPER**的转换例程。
+用于从新 **XLOPER12** 转换为旧 **XLOPER 的转换例程**。
   
 ```cs
 BOOL XLOper12ToXLOper(LPXLOPER12 pxloper12, LPXLOPER pxloper);
@@ -30,33 +30,33 @@ BOOL XLOper12ToXLOper(LPXLOPER12 pxloper12, LPXLOPER pxloper);
 
 ## <a name="parameters"></a>参数
 
-_pxloper12_(**LPXLOPER12**)
+_pxloper12_ (**LPXLOPER12**) 
   
-指向要转换的源**XLOPER12**的指针。 
+指向要转换的 **源 XLOPER12** 的指针。 
   
-_pxloper_(**LPXLOPER**)
+_pxloper_ (**LPXLOPER**) 
   
-指向目标**XLOPER**的指针, 以包含转换后的值。 
+指向要包含转换 **值的目标 XLOPER** 的指针。 
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果转换成功,**则为 TRUE** , 否则为**FALSE** 。 
+如果转换成功，则其为 **TRUE;** 否则为 **FALSE。** 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-根据**XLOPER12**的类型, 此函数为转换的值分配一个新的内存缓冲区, 这些值指向目标**XLOPER**中的。 如果转换成功, 则呼叫者负责释放与副本关联的任何内存;可以使用**FreeXLOperT** , 也可以通过使用**free**直接完成。
+根据 **XLOPER12** 的类型，此函数为转换值分配新的内存缓冲区，这些值指向目标 **XLOPER**。 如果转换成功，调用方负责释放与副本关联的任何内存; **可以使用 FreeXLOperT，** 也可以直接使用免费 **完成**。
   
-如果转换失败, 则呼叫者无需释放任何内存。
+如果转换失败，则调用方无需释放任何内存。
   
-当**XLOPER12**包含的数组或引用太大或字符串太长而无法包含的**XLOPER**时, 从**XLOPER12**到**XLOPER**的转换可能会失败。 
+当 XLOPER12 包含的数组或引用过大或字符串太长 **，XLOPER** 无法包含时，从 **XLOPER12** 转换为 **XLOPER** 可能会失败。  
   
-**XLOPER12**Unicode 宽字符字符串将以与区域设置相关的方式转换为**XLOPER** ASCII 字节字符串。 
+**XLOPER12** Unicode 宽字符字符串以依赖于区域设置的方式转换为 **XLOPER** ASCII 字节字符串。 
   
-**XLOPER12** **xltypeInt**是一个32位带符号整数, 而**XLOPER** **xltypeInt**是一个16位带符号整数。 当提供的**XLOPER12**整数超过**XLOPER**整数的限制时, 该整数将转换为8字节双精度, 并在类型**xltypeNum**的**XLOPER**中返回。 在这种情况下, 此函数将更改已转换的**XLOPER**的类型。
+**XLOPER12** **xltypeInt** 是一个 32 位有符号整数，**而 XLOPER** **xltypeInt** 是一个 16 位有符号整数。 当提供的 **XLOPER12** 整数超过 **XLOPER** 整数的限制时，该整数将转换为 8 字节双精度值，并返回类型 **为 xltypeNum** 的 **XLOPER。** 这是此函数更改转换的 **XLOPER** 类型的唯一情况。
   
 ### <a name="example"></a>示例
 
-有关此函数`\SAMPLES\FRAMEWRK\FRAMEWRK.C`的代码, 请参阅文件。 
+有关此  `\SAMPLES\FRAMEWRK\FRAMEWRK.C` 函数的代码，请参阅 文件。 
   
 ## <a name="see-also"></a>另请参阅
 

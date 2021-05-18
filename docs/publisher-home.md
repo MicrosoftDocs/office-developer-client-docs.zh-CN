@@ -24,8 +24,7 @@ ms.locfileid: "32360681"
 
 - [Publisher VBA 参考](https://docs.microsoft.com/office/vba/api/overview/publisher)
 
-- 
-  [Publisher 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff604963(v=office.14))
+- [Publisher 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff604963(v=office.14))
 
 
 ### <a name="office-add-ins"></a>Office 加载项 

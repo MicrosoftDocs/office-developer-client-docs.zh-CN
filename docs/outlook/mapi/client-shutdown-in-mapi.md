@@ -19,9 +19,9 @@ ms.locfileid: "33405133"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-从 microsoft outlook 2010 开始, 现在包括 microsoft outlook 2013, MAPI 客户端可以像以前那样关闭, 也可以使用 fast shutdown。 若要快速关闭以成功进行, 客户端计算机的 mapi 客户端、mapi 提供程序和管理员必须支持快速关闭。 
+从Microsoft Outlook 2010开始，现在包括Microsoft Outlook 2013，MAPI 客户端可以像以前一样关闭，或者可以使用快速关闭。 若要成功快速关闭，客户端计算机的 MAPI 客户端、MAPI 提供程序和管理员必须支持快速关闭。 
   
-本节中的主题介绍了对客户端执行快速关机的 MAPI 支持。
+本节中的主题介绍对客户端执行快速关闭的 MAPI 支持。
   
 [快速关闭概述](fast-shutdown-overview.md)
   
@@ -33,6 +33,6 @@ ms.locfileid: "33405133"
     
 [快速关闭最佳做法](best-practices-for-fast-shutdown.md)
   
-> 本主题建议使用 fast shutdown 接口以帮助防止在 MAPI 客户端关闭期间丢失数据的最佳实践。
+> 本主题建议使用快速关闭接口来帮助防止 MAPI 客户端关闭期间数据丢失的最佳实践。
     
 

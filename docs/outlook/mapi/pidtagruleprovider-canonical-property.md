@@ -34,33 +34,33 @@ ms.locfileid: "32280603"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 延迟操作需要这些属性来标识必须解释和执行规则操作的代码。
   
-存储在邮箱和文件夹中的规则与通过规则提供程序字符串拥有它们的应用程序相关联。 规则提供程序设置并处理规则表中的规则。 它还提供了一种方法来处理任何延迟操作 (如果设置了此类规则)。 延迟操作由信息存储隐式创建。 对于对不同存储的移动或复制操作, 如果提供程序设置了延迟操作规则, 则它必须提供一个处理程序, 以便在触发规则和创建延迟操作时执行该操作。
+存储在邮箱和文件夹上的规则通过规则提供程序字符串与拥有这些规则的应用程序相关联。 规则提供程序设置和处理规则表中的规则。 它还提供了一种处理任何延迟操作（如果设置了此类规则）的方式。 延迟操作由信息存储隐式创建。 对于将操作移动或复制到其他存储区，如果提供程序设置了延迟操作规则，则提供程序必须提供处理程序，以在触发规则并创建延迟操作时执行该操作。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> 在服务器上操纵传入电子邮件。
+> 在服务器上处理传入电子邮件。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

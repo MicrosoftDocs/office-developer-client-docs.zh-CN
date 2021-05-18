@@ -16,7 +16,7 @@ ms.locfileid: "33405182"
 ---
 # <a name="sheetref-function"></a>SHEETREF 函数
 
-返回一个对在_sheetref_中指定的工作表 (形状) 的引用, 如果没有_sheetref_限定符, 则返回到当前工作表。 
+返回对 sheetref 中 (工作表) ，或者，如果没有 _sheetref_ 限定符，则返回对当前工作表的引用。  
   
 ## <a name="version-information"></a>版本信息
 
@@ -25,13 +25,13 @@ ms.locfileid: "33405182"
   
 ## <a name="syntax"></a>语法
 
- *\<sheetref\>!*  SHEETREF () 
+ *\<sheetref \> ！*  SHEETREF ()  
   
 ### <a name="return-value"></a>返回值
 
 ShapeSheet 参考
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 您可以在使用工作表引用标记的其他函数中使用此函数。
   

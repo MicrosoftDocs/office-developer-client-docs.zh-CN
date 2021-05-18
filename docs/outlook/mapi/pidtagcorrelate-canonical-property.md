@@ -25,7 +25,7 @@ ms.locfileid: "33405217"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件的发件人请求邮件系统的关联功能, 则该参数包含 TRUE。
+如果邮件的发件人请求邮件系统的关联功能，则包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -34,23 +34,23 @@ ms.locfileid: "33405217"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性用于请求与原始已发送邮件的传入报告的关联。 当传输提供程序遇到**PR_CORRELATE**设置为 TRUE 的已提交邮件时, 它会将**PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) 属性设置为该邮件的邮件传输系统 (MTS) 标识符。
+此属性用于请求传入报告与原始已发送邮件的关联。 当传输提供程序遇到 PR_CORRELATE 设置为 TRUE的已提交邮件时，它会将 **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) 属性设置为该邮件的邮件传输系统 (MTS) 标识符。
   
- **PR_CORRELATE**应与支持按 MTS 标识符的关联的邮件系统结合使用, 例如, X. 400。 
+ **PR_CORRELATE** MS 标识符（如 X.400）支持相关的消息系统。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

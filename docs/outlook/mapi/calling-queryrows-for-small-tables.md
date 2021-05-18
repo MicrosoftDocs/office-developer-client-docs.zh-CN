@@ -1,5 +1,5 @@
 ---
-title: 为小型表调用 QueryRows
+title: 调用小型表的 QueryRows
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,14 +15,14 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404174"
 ---
-# <a name="calling-queryrows-for-small-tables"></a>为小型表调用 QueryRows
+# <a name="calling-queryrows-for-small-tables"></a>调用小型表的 QueryRows
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-检索小表中的行时, 调用[IMAPITable:: QueryRows](imapitable-queryrows.md) , 而不是首先生成限制。 由于提供程序必须首先创建一个表, 找到原始表中的匹配行, 然后将行复制到新表中, 因此创建限制会影响性能。 如果表中的总行数小于 100, 则读取所有行并调用[IMAPITable:: FindRow](imapitable-findrow.md)以查找适当的行可能会更有效。 如果仅偶尔需要此信息, 则这是一个特别有用的策略。 
+从小表中检索行时，请调用 [IMAPITable：：QueryRows，](imapitable-queryrows.md) 而不是首先构建限制。 创建限制会影响性能，因为提供程序必须先创建一个表，在原始表中查找匹配的行，然后将这些行复制到新表中。 如果表中的总行数小于 100，则读取所有行，然后调用 [IMAPITable：：FindRow](imapitable-findrow.md) 查找相应行可能更有效。 如果仅偶尔需要此信息，则这是一项特别不错的策略。 
   
-使用限制的正确时间是在较长的一段时间内使用受限制或筛选的信息, 或者频繁使用这些信息。 例如, 如果始终需要具有未读邮件的视图, 则限制是要使用的正确调用。
+使用限制的正确时间是在受限或经过筛选的信息将在较长时间内使用或频繁使用时。 例如，如果始终需要包含未读邮件的视图，则限制是使用的正确调用。
   
 

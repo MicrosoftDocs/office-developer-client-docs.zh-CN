@@ -25,39 +25,39 @@ ms.locfileid: "32303323"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-代表用户预期完成任务的日期。
+表示用户预期完成任务的日期。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskDueDate  <br/> |
-|属性集:  <br/> |PSETID_Task  <br/> |
-|长 ID (盖子):  <br/> |0x00008105  <br/> |
+|属性集：  <br/> |PSETID_Task  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008105  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果此属性未设置或设置为 0x5AE980E0 (1525252320), 则该任务没有截止日期。 但是, 只有在**dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)) 属性中未指示开始日期时, 才可选择到期日期。 如果任务具有截止日期, 则该值的时间部分必须为午夜, 并且还必须设置**dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) 属性。 如果**dispidTaskStartDate**具有开始日期, 则**dispidTaskDueDate**属性的值必须大于或等于**dispidTaskStartDate**的值。
+如果此属性未设置或设置为 1，525，252，320 0x5AE980E0 (，则任务没有截止日期) 。 但是，仅在 **dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md) 属性中未指示开始日期) 截止日期。 如果任务具有截止日期，则值必须具有午夜的时间部分，并且还必须设置 **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) 属性。 如果 **dispidTaskStartDate** 具有开始日期， **则 dispidTaskDueDate** 属性的值必须大于或等于 **dispidTaskStartDate 的值**。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。
+> 定义几个对象，这些对象对任务、任务分配和任务更新的电子等效项建模。
     
-[[毫秒-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> 指定用于电子邮件和其他对象提醒的属性和交互模型。
+> 指定电子邮件和其他对象提醒的属性和交互模型。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

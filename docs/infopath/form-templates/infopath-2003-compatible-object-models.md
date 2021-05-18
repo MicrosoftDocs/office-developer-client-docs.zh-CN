@@ -53,7 +53,7 @@ Although the process of writing managed code for a given task in an InfoPath for
   
 但是，支持 **UI** 对象的基础 COM 构造实际上由三个实体组成：两个分别名为 **UI** 和 **UI2** 的接口以及一个实现这两个接口的成员的 COM coclass。 **UI** 接口有两个版本，这是因为 COM 框架要求接口的定义保持不变，以便使调用该接口的实现的程序和组件保持向后兼容性。 
   
-在本例中，为 InfoPath 的第一个版本定义的 **UI** 接口提供了四种方法，包括 **Alert** 方法。 **UI2** 接口可以视为 **UI** 接口的第二个版本，它是为 InfoPath Service Pack 1 版本而定义的。 **UI2** 接口继承了初始 **UI** 接口的四种方法并且还新增了三种方法，如 **Confirm** 方法。虽然可以在脚本或托管代码中编写一行代码来使用  **** 调用 `XDocument.UI.Confirm` 方法，但基础代码实际上通过 COM coclass 中 **Confirm** 方法的实现来调用 **UI2** 接口的该方法。 
+在本例中，为 InfoPath 的第一个版本定义的 **UI** 接口提供了四种方法，包括 **Alert** 方法。 **UI2** 接口可以视为 **UI** 接口的第二个版本，它是为 InfoPath Service Pack 1 版本而定义的。 **UI2** 接口继承了初始 **UI** 接口的四种方法并且还新增了三种方法，如 **Confirm** 方法。虽然可以在脚本或托管代码中编写一行代码来使用   调用 `XDocument.UI.Confirm` 方法，但基础代码实际上通过 COM coclass 中 **Confirm** 方法的实现来调用 **UI2** 接口的该方法。 
   
 对象模型在公开给脚本时隐藏了这些细节，但是通过托管代码使用 COM 服务器所需的互操作程序集公开了 coclass 与这两个接口。对于在 MSE 脚本环境中使用的单个 **UI** 对象， **Microsoft.Office.Interop.InfoPath.SemiTrust** 命名空间公开了以下三项： 
   

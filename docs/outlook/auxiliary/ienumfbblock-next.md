@@ -20,7 +20,7 @@ ms.locfileid: "33422136"
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅[IEnumFBBlock](ienumfbblock.md)。
+请参阅 [IEnumFBBlock](ienumfbblock.md)。
   
 ```cpp
 HRESULT Next(  
@@ -34,26 +34,26 @@ HRESULT Next(
 
 _celt_
   
-> 实时*pblk*中要检索的忙/闲数据块的数量。 
+> [in]pblk 中要检索的忙/闲  *数据块*  数。 
     
 _pblk_
   
-> 实时指向一组空闲/忙碌块的指针。 数组分配的大小为*celt* 。 在此数组中返回请求的忙/闲块。 
+> [in]指向忙/闲块数组的指针。 数组分配了大小  *为 celt*  。 请求的忙/闲块将在此数组中返回。 
     
 _pcfetch_
   
-> 排除*pblk*中实际返回的忙/闲块的数量。 
+> [out]pblk 中实际返回的忙/闲块  *数*  。 
     
 ## <a name="return-values"></a>返回值
 
 |**[HRESULT]**|**说明**|
 |:-----|:-----|
 |S_OK  <br/> |已返回请求的块数。  <br/> |
-|S_FALSE  <br/> |尚未返回请求数量的块数。  <br/> |
+|S_FALSE  <br/> |请求的块数尚未返回。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [常量 (忙/闲 API)](constants-free-busy-api.md)  
+- [常量 (忙/闲 API) ](constants-free-busy-api.md)  
 - [FBBlock_1](fbblock_1.md)  
 - [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  

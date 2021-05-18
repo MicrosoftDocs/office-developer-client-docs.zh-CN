@@ -25,12 +25,12 @@ ms.locfileid: "33405511"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含对象属性的属性列表。 
+包含对象的属性的属性列表。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Imessage  <br/> |
-|相关宏:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md)、 [CbSPropAttrArray](cbspropattrarray.md) <br/> |
+|标头文件：  <br/> |Imessage.h  <br/> |
+|相关宏：  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md) [、CbSPropAttrArray](cbspropattrarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,11 +45,11 @@ typedef struct
 
  **cValues**
   
-> **aPropAttr**成员中属性属性的计数。 
+> **APropAttr** 成员中的属性属性计数。 
     
  **aPropAttr**
   
-> 属性属性的数组。 属性的有效值如下所示:
+> 属性属性数组。 属性的有效值如下：
     
     - PROPATTR_MANDATORY
     
@@ -59,9 +59,9 @@ typedef struct
     
     - PROPATTR_NOT_PRESENT
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SPropAttrArray**结构由实现[IPropData: IMAPIProp](ipropdataimapiprop.md)接口的属性数据对象使用。 MAPI 的 IMAPIMessageSite (即基于结构化存储的[IUnknown](imapimessagesiteiunknown.md) ) 实现也使用它。 
+**SPropAttrArray** 结构由实现 [IPropData ： IMAPIProp](ipropdataimapiprop.md)接口的属性数据对象使用。 它还由 MAPI 的 [IMAPIMessageSite ： IUnknown（](imapimessagesiteiunknown.md) 基于结构化存储）的实现使用。 
   
 ## <a name="see-also"></a>另请参阅
 

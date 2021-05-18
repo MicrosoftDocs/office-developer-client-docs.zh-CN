@@ -25,24 +25,24 @@ ms.locfileid: "32359512"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个值, 该值指示表中的行的类型。
+包含一个值，该值指示表格中行的类型。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ROW_TYPE  <br/> |
 |标识符:  <br/> |0x0FF5  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |MAPI 非传输  <br/> |
+|区域：  <br/> |MAPI 不可传输  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性仅在内容表上显示。 仅当类别包含项目时才存在。
+此属性只出现在内容表上。 类别仅在包含项目时存在。
   
-此属性可以具有下列值之一:
+此属性可以正好具有下列值之一：
   
 TBL_LEAF_ROW 
   
-> 表示实际数据, 而不是类别行。
+> 表示实际数据，而不是分类行。
     
 TBL_EMPTY_CATEGORY 
   
@@ -50,29 +50,29 @@ TBL_EMPTY_CATEGORY
     
 TBL_EXPANDED_CATEGORY 
   
-> 该类别已展开;用户界面通常会显示此标记, 旁边有减号 (-)。
+> 类别已展开;用户界面通常使用减号显示此 ( - ) 旁边。
     
 TBL_COLLAPSED_CATEGORY 
   
-> 已折叠类别;用户界面通常会显示此标记, 旁边有加号 (+)。
+> 折叠类别;用户界面通常会在旁边显示加 (+) 显示。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
+[[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
 > 包括核心表对象的允许操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

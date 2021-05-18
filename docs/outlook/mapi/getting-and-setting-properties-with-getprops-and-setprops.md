@@ -19,6 +19,6 @@ ms.locfileid: "32299396"
  
 **适用于**：Outlook 2013 | Outlook 2016 
   
-只要有可能, 请尝试使用[IMAPIProp:: GetProps](imapiprop-getprops.md)和[IMAPIProp:: SetProps](imapiprop-setprops.md)方法检索或修改属性。 除非您使用的属性非常大, 否则这些方法应足够。 另一种方法是使用[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)接口对流进行读取或写入。 流可以成功处理非常大的属性, 但由于它们需要 COM 库, 因此它们会更大的消耗资源。 仅在调用**IMAPIProp:: GetProps**或**IMAPIProp:: SetProps**失败之后, 才使用**IStream**接口。 
+尽可能尝试使用 [IMAPIProp：：GetProps](imapiprop-getprops.md) 和 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法检索或修改属性。 除非使用的属性非常大，否则这些方法应该足够用。 另一种替代方法是使用 [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) 接口从流读取或写入流。 流可以成功处理非常大的属性，但它们对资源的消耗更大，因为它们需要 COM 库。 仅在调用 **IMAPIProp：：GetProps** 或 **IMAPIProp：：SetProps 失败后，才使用** **IStream** 接口。 
   
 

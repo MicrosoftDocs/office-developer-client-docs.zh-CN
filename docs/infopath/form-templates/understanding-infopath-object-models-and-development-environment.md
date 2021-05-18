@@ -70,7 +70,7 @@ The assembly that InfoPath uses when you add and compile business logic for the 
   
 使用 **XPathNavigator** 类的成员可允许相同的业务逻辑代码支持表单模板的 DOM 操作，这些表单模板在 InfoPath 客户端和启用 Web 功能的表单（在 Web 浏览器中从带有 InfoPath Forms Services 的 SharePoint Server 2013 中打开）中打开。 
   
-有关如何在 InfoPath 托管代码表单模板的业务逻辑中使用 **XPathNavigator** 类的成员的信息，请参阅[使用 XPathNavigator 和 XPathNodeIterator 类](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)。
+有关如何在 InfoPath 托管代码表单模板的业务逻辑中使用 **XPathNavigator** 类的成员的信息，请参阅 [使用 XPathNavigator 和 XPathNodeIterator 类](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)。
   
 ### <a name="the-infopath-2003-compatible-managed-code-object-model"></a>InfoPath 2003 兼容的托管代码对象模型
 

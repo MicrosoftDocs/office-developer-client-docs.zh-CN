@@ -132,29 +132,29 @@ public void setXhtml(XmlNode xn)
 
 1. 打开 InfoPath 表单设计器。
     
-2. 在“新建”**** 选项卡上，双击“高级表单模板”**** 下的“Web 服务”****。
+2. 在“新建”选项卡上，双击“高级表单模板”下的“Web 服务”。
     
-3. 在“数据连接向导”**** 对话框中，选择“接收数据”****，然后单击“下一步”****。
+3. 在“数据连接向导”对话框中，选择“接收数据”，然后单击“下一步”。
     
-4. 键入包含示例 Web 服务方法的 Web 服务的地址，然后单击“下一步”****。 
+4. 键入包含示例 Web 服务方法的 Web 服务的地址，然后单击“下一步”。 
     
-5. 对于接收方法，选择“getXhtml”**** 操作形式，然后单击“下一步”****。
+5. 对于接收方法，选择“getXhtml”操作形式，然后单击“下一步”。
     
-6. **getXHTML** Web 服务方法不带任何参数，因此请单击“下一步”****。
+6. **getXHTML** Web 服务方法不带任何参数，因此请单击“下一步”。
     
-7. 单击“完成”****。
+7. 单击“完成”。
     
-8. 在“数据”**** 选项卡上的“提交操作”**** 组中，单击“至其他位置”****，然后单击“Web 服务”**** 以使用同一 Web 服务来提交数据。 
+8. 在“数据”选项卡上的“提交操作”组中，单击“至其他位置”，然后单击“Web 服务”以使用同一 Web 服务来提交数据。 
     
-9. 键入包含示例 Web 服务方法的 Web 服务的地址，然后单击“下一步”****。
+9. 键入包含示例 Web 服务方法的 Web 服务的地址，然后单击“下一步”。
     
-10. 对于提交方法，选择“setXhtml”**** 操作形式，然后单击“下一步”****。
+10. 对于提交方法，选择“setXhtml”操作形式，然后单击“下一步”。
     
-11. 单击“修改”****，依次展开“dataFields”**** 文件夹、“s0:getXhtmlResponse”**** 文件夹和“getXhtmlResult”**** 文件夹，选择“MyRichTextElement”**** 元素，然后单击“下一步”****。
+11. 单击“修改”，依次展开“dataFields”文件夹、“s0:getXhtmlResponse”文件夹和“getXhtmlResult”文件夹，选择“MyRichTextElement”元素，然后单击“下一步”。
     
-12. 单击“完成”****。
+12. 单击“完成”。
     
-13. 在“字段”**** 任务窗格中，展开“dataFields”**** 文件夹。 
+13. 在“字段”任务窗格中，展开“dataFields”文件夹。 
     
 14. Expand the **s0:getXhtmlResponse** and **getXhtmlResult** folders, and then drag the **MyRichTextElement** element onto the form. InfoPath will recognize that the **MyRichTextElement** element is an XHTML element and will use a rich text box control to bind to it. 
     

@@ -25,7 +25,7 @@ ms.locfileid: "33421674"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-删除表行。
+删除表格行。
   
 ```cpp
 HRESULT HrDeleteRow(
@@ -37,25 +37,25 @@ HRESULT HrDeleteRow(
 
  _lpSPropValue_
   
-> 实时一个指向属性值结构的指针, 该结构描述要删除的行的索引列。 在对[CreateTable](createtable.md)函数的调用中, 属性值结构的**ulPropTag**成员应包含与_ulPropTagIndexColumn_参数相同的属性标记。 
+> [in]指向描述要删除的行的索引列的属性值结构的指针。 属性值 **结构的 ulPropTag** 成员应包含与从调用 [CreateTable](createtable.md)函数调用中的 _ulPropTagIndexColumn_ 参数相同的属性标记。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 行已成功删除。
+> 该行已成功删除。
     
 MAPI_E_NOT_FOUND 
   
-> _lpSPropValue_参数指向的属性不会标识表中的行。 
+> _lpSPropValue_ 参数指向的属性不标识表中的行。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**ITableData:: HrDeleteRow**方法删除包含与_lpSPropValue_参数指向的属性的列相匹配的表格行。 将删除该行的数据, 并从所有打开的视图中删除该行。 
+**ITableData：：HrDeleteRow** 方法删除包含与 _lpSPropValue_ 参数指向的属性匹配的列的表行。 该行的数据将被删除，并且该行将从所有打开的视图中删除。 
   
-删除行后, 会将通知发送到具有表视图且已调用表的[IMAPITable:: Advise](imapitable-advise.md)方法以注册通知的所有客户端或服务提供程序。 
+删除行后，通知将发送给所有具有表视图并且已调用表 [的 IMAPITable：：Advise](imapitable-advise.md) 方法来注册通知的客户端或服务提供商。 
   
-删除行不会减少对现有视图或后续打开的视图可用的列集, 即使删除的行是特定列的值的最后一行也是如此。
+删除行不会减少可用于现有视图或随后打开的视图的列集，即使删除的行是具有特定列的值的最后一行。
   
 ## <a name="see-also"></a>另请参阅
 

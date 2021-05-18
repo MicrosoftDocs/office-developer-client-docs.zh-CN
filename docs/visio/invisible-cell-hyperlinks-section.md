@@ -25,20 +25,20 @@ ms.locfileid: "33404629"
 |TRUE  <br/> |超链接不显示为快捷菜单上的菜单项。  <br/> |
 |FALSE  <br/> |超链接显示为快捷菜单上的菜单项（默认值）。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Invisible 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |超链接。 *名称*。在超链接的位置不可见 *。 name*为行名称  <br/> |
+|单元格名称：  <br/> |超链接。 *name*  .不可见，其中 Hyperlink  *.name*  是行名称  <br/> |
    
 若要从某个程序按索引获取对 Invisible 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionHyperlink** <br/> |
-|行索引：  <br/> |**visRow1stHyperlink** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRow1stHyperlink**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 |单元格索引：  <br/> |**visHLinkInvisible** <br/> |
    
 

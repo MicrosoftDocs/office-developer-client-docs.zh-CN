@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251415
 localization_priority: Normal
 ms.assetid: 3b0842ae-6893-2d7b-6cb2-8905198fae30
-description: 返回一个整数, 1 到 31, 表示日期时间或表达式中的日期。 DAY 函数使用公历日历。
+description: 返回一个整数，1 到 31，表示日期时间或表达式中的天。 DAY 函数使用公历。
 ms.openlocfilehash: 49c29d5dc25bf11599f89a20cb2bc2367bd74187
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "32360293"
 ---
 # <a name="day-function-visioshapesheet"></a>DAY 函数 (VisioShapeSheet)
 
-返回一个整数, 1 到 31, 表示日期_时间_或_表达式_中的日期。 DAY 函数使用公历日历。
+返回一个整数，1 到 31，表示 _日期时间或表达式中的__天_。 DAY 函数使用公历。
   
 ## <a name="syntax"></a>语法
 
-DAY ("* * *datetime* * *" |* **表达式** * [, * * *lcid* * *]) 
+DAY (" ** *datetime* ** "|** *expression* ** [， ** *lcid* ** ])  
   
 ### <a name="parameters"></a>参数
 
@@ -36,13 +36,13 @@ DAY ("* * *datetime* * *" |* **表达式** * [, * * *lcid* * *])
 
 整数
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-_datetime_或_expression_中的任何时间组件都将被丢弃。 
+datetime 或 expression  _中的_ 任意  _时间_ 组件都将被丢弃。 
   
-无舍入过程。 如果_datetime_缺失或无法转换为有效结果, 函数将返回错误。 
+无舍入过程。 如果  _datetime_ 缺失或无法转换为有效结果，函数将返回错误。 
   
-DAY 函数还接受单个数值_表达式_, 其中结果的整数部分代表自1899年12月30日的天数。 
+DAY 函数还接受表达式的单个数值，其中结果的整数部分表示自 1899 年 12 月 30 日起的天数。 
   
 ## <a name="example-1"></a>示例 1
 
@@ -58,7 +58,7 @@ DAY(DATEVALUE("May 30, 1997")+7 ed.)
   
 ## <a name="example-3"></a>示例 3
 
-DAY (35580.6337)
+DAY (35580.6337) 
   
 返回 30。
   

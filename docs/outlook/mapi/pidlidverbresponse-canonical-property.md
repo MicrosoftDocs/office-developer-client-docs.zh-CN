@@ -25,35 +25,35 @@ ms.locfileid: "32360555"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定响应者选择的投票选项。
+指定投票者选择的投票选项。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidVerbResponse  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x00008524  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008524  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性通常设置为包含在回应者投票的**dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) 属性中的分隔值之一。
+此属性通常设置为 **dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) 属性（参与投票）中包含的分隔值之一。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议Exchange Server引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

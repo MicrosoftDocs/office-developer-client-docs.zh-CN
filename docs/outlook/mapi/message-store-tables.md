@@ -21,21 +21,21 @@ ms.locfileid: "33405350"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-邮件存储表包含有关当前配置文件中的邮件存储提供程序的信息。 每个 mapi 会话都有一个邮件存储表, 由 mapi 实现并由客户端使用。 例如, 客户端可以使用此表查找特定提供程序的所有实例或查找特定的邮件存储。 
+邮件存储表包含有关当前配置文件中邮件存储提供程序的信息。 每个 MAPI 会话有一个消息存储表，由 MAPI 实现，供客户端使用。 例如，客户端可以使用此表查找特定提供程序的所有实例或查找特定邮件存储。 
   
-邮件存储表是动态的。 如果客户端应用程序的用户编辑配置文件, 则更改默认邮件存储 (例如, 受影响的邮件存储的**PR_DEFAULT_STORE**属性的值) 会立即更新。 
+邮件存储表是动态的。 如果客户端应用程序的用户编辑配置文件，则更改默认邮件存储（例如，受影响邮件存储的 **PR_DEFAULT_STORE** 属性的值）将立即更新。 
   
-客户端通过调用[IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md)方法访问邮件存储库表。 
+客户端通过调用 [IMAPISession：：GetMsgStoresTable](imapisession-getmsgstorestable.md) 方法访问消息存储表。 
   
-以下属性构成了在邮件存储库表中设置的必需列:
+下列属性将包含邮件存储表中所需的列集：
   
 |||
 |:-----|:-----|
-|**PR_DEFAULT_STORE**([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md))  <br/> |**PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
-|**PR_ENTRYID**([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**PR_INSTANCE_KEY**([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
-|**PR_MDB_PROVIDER**([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md))  <br/> |**PR_OBJECT_TYPE**([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |
-|**PR_PROVIDER_DISPLAY**([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |**PR_RECORD_KEY**([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |
-|**PR_RESOURCE_FLAGS**([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_RESOURCE_TYPE**([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |
+|**PR_DEFAULT_STORE (** [PidTagDefaultStore](pidtagdefaultstore-canonical-property.md))   <br/> |**PR_DISPLAY_NAME (** [PidTagDisplayName](pidtagdisplayname-canonical-property.md))   <br/> |
+|**PR_ENTRYID (** [PidTagEntryId](pidtagentryid-canonical-property.md))   <br/> |**PR_INSTANCE_KEY (** [PidTagInstanceKey](pidtaginstancekey-canonical-property.md))   <br/> |
+|**PR_MDB_PROVIDER (** [PidTagStoreProvider](pidtagstoreprovider-canonical-property.md))   <br/> |**PR_OBJECT_TYPE (** [PidTagObjectType](pidtagobjecttype-canonical-property.md))   <br/> |
+|**PR_PROVIDER_DISPLAY (** [PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))   <br/> |**PR_RECORD_KEY (** [PidTagRecordKey)](pidtagrecordkey-canonical-property.md)  <br/> |
+|**PR_RESOURCE_FLAGS (** [PidTagResourceFlags)](pidtagresourceflags-canonical-property.md)  <br/> |**PR_RESOURCE_TYPE (** [PidTagResourceType](pidtagresourcetype-canonical-property.md))   <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

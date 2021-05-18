@@ -23,7 +23,7 @@ Microsoft InfoPath 支持将 Microsoft Access 2010 数据库用作表单的主�
 
 Database connections are established in InfoPath by using the **Data Connection Wizard**. This wizard is opened by selecting **Database** in the **Advanced Form Templates** section on the **New** tab of the Microsoft Office Backstage, and then clicking pressing **Design This Form**.
   
-通过单击“选择数据库”****，可以选择现有数据源或直接连接到特定数据库文件。
+通过单击“选择数据库”，可以选择现有数据源或直接连接到特定数据库文件。
   
 After you select a database, the wizard prompts you to select a table from the database to use as the data source for the form. As you add tables, their relationships to each other are established, and the wizard displays the tables and their hierarchical relationships in the **Data source structure** list. If you select the **Show table columns** check box, the wizard displays the field names of each table in the Data source structure list; you use the check boxes next to each field name to specify whether a field is included in the SQL statement that the wizard constructs. 
   

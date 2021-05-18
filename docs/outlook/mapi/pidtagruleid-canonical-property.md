@@ -25,7 +25,7 @@ ms.locfileid: "32359491"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定邮件服务器在首次创建规则时为每个规则生成的唯一标识符。 
+指定邮件服务器在首次创建规则时为每条规则生成的唯一标识符。 
   
 |||
 |:-----|:-----|
@@ -34,33 +34,33 @@ ms.locfileid: "32359491"
 |数据类型：  <br/> |PT_I8  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-在创建新规则时, 客户端不能指定此属性, 但必须在修改或删除规则时指定该属性。
+客户端在创建新规则时不得指定此属性，但在修改或删除规则时必须指定此属性。
   
-删除规则时, 客户端必须传递的唯一属性是**PR_RULE_ID** , 不应传入任何其他属性。 服务器必须忽略此属性以外的属性。 添加规则时, 客户端不得传入**PR_RULE_ID**, 它必须传入**PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md))、 **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) 和**PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md)) 属性。 修改规则时, 客户端必须传递**PR_RULE_ID** , 并应传递需要修改的其他属性。 
+删除规则时，客户端必须传递的唯一属性是 **PR_RULE_ID，并且** 不应传递任何其他属性。 服务器必须忽略除此属性外的属性。 添加规则时，客户端不得传递 **PR_RULE_ID，** 它必须传递 **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)) 、PR_RULE_ACTIONS ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) 和 **PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md)) 属性。 修改规则时，客户端必须PR_RULE_ID，并且应传递需要修改的其余属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> 在服务器上操纵传入电子邮件。
+> 在服务器上处理传入电子邮件。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

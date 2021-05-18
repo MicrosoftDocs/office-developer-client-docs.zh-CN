@@ -25,7 +25,7 @@ ms.locfileid: "32360114"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-表示用于确定项目在存档项目之前保留在该文件夹中的时间长度的时间单位数。
+表示用于确定项目在存档前保留在文件夹中的时间长度的时间单位。
   
 ## 
 
@@ -36,47 +36,47 @@ ms.locfileid: "32360114"
 |属性类型  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-项目在存档项目之前保留在文件夹中的时间长度由两个属性**PR_AGING_PERIOD**和**[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)** 确定。 **PR_AGING_GRANULARITY**表示在确定此时间长度时表示**PR_AGING_PERIOD**表示的时间单位。 
+项目在存档项目之前保留在文件夹中的时间长度由两个属性决定，即 PR_AGING_PERIOD **和****[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**。 **PR_AGING_GRANULARITY** 表示确定此时间长度 **PR_AGING_PERIOD** 表示时间单位。 
   
-**PR_AGING_GRANULARITY**的可能值可以是下列值之一。 
+此参数 **PR_AGING_GRANULARITY** 可以是下列值之一。 
   
 ****
 
 |**名称**|**说明**|
 |:-----|:-----|
-|**AG_MONTHS** <br/> |**PR_AGING_PERIOD**是在月数内定义的。  <br/> |
-|**AG_WEEKS** <br/> |**PR_AGING_PERIOD**是在周数内定义的。  <br/> |
-|**AG_DAYS** <br/> |**PR_AGING_PERIOD**是在天数内定义的。  <br/> |
+|**AG_MONTHS** <br/> |**PR_AGING_PERIOD** 以月数定义。  <br/> |
+|**AG_WEEKS** <br/> |**PR_AGING_PERIOD** 以周数定义。  <br/> |
+|**AG_DAYS** <br/> |**PR_AGING_PERIOD** 天数进行定义。  <br/> |
    
-例如, 如果某个文件夹只在项目在文件夹中的两周内存档项目, 则**PR_AGING_GRANULARITY**为**AG_WEEKS** , **PR_AGING_PERIOD**为2。 
+例如，如果某个文件夹仅在项目在文件夹中保存了两周后存档该项目，则PR_AGING_GRANULARITY为 AG_WEEKS，PR_AGING_PERIOD为 2。  
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     
-[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 定义在远程操作中使用的基本数据结构。
+> 定义远程操作中使用的基本数据结构。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许的电子邮件对象的属性和操作。
+> 指定允许电子邮件对象使用的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

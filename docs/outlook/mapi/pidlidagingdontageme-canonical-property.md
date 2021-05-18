@@ -25,13 +25,13 @@ ms.locfileid: "32278825"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果不自动存档项目, 则指定 TRUE 的值。
+如果项目不会自动存档，则指定 TRUE 值。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidAgingDontAgeMe  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x0000850E  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x0000850E  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常见  <br/> |
    
@@ -39,25 +39,25 @@ ms.locfileid: "32278825"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理客户端与服务器之间的数据传输的顺序和流。
+> 处理客户端和服务器之间数据传输的顺序和流。
     
-[[毫秒-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> 在 IETF RFC2445、RFC2446 和 RFC2447 之间进行转换, 以及约会和会议。
+> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议之间转换。
     
-[[毫秒-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> 将邮件和附件对象编码并解码为高效流表示形式。
+> 将邮件和附件对象编码和解码为有效的流表示形式。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

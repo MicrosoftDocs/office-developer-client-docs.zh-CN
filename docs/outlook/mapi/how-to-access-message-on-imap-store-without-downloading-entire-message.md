@@ -17,9 +17,9 @@ ms.locfileid: "32299074"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题显示了一个 c + + 中的代码示例, 该示例在邮件存储区中查询**[IProxyStoreObject](iproxystoreobject.md)** 接口, 并使用返回的指针和**[IProxyStoreObject:: UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** 函数获取指向 IMAP 存储对象的指针, 该对象已换. 使用此解出的存储允许访问当前状态的邮件, 而无需调用整个邮件的下载。 
+本主题显示了一个 C++ 代码示例，该示例查询 **[IProxyStoreObject](iproxystoreobject.md)** 接口的邮件存储，并使用返回的指针和 **[IProxyStoreObject：：UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** 函数获取指向已取消包装的 IMAP 存储对象的指针。 使用此未包存储允许访问当前状态的邮件，而无需调用整个邮件的下载。 
   
-由于**UnwrapNoRef**不会将此新指针的引用计数增加到已解包的 store 对象, 因此在成功调用**UnwrapNoRef**后, 必须调用[IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx)来维护引用计数。 
+由于 **UnwrapNoRef** 不增加指向未包装存储对象的此新指针的引用计数，因此在成功调用 **UnwrapNoRef** 后，必须调用 [IUnknown：：AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) 以保持引用计数。 
   
 ```cpp
 HRESULT HrUnWrapMDB(LPMDB lpMDBIn, LPMDB* lppMDBOut) 

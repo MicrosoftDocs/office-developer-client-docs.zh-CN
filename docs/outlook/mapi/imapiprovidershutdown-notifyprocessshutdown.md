@@ -25,7 +25,7 @@ ms.locfileid: "33405245"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-向 mapi 提供程序指示 mapi 客户端即将执行快速关闭, 以便提供程序可以采取措施来防止数据丢失。
+向 MAPI 提供程序指示 MAPI 客户端将快速关闭，以便提供程序可以采取措施防止数据丢失。
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
@@ -35,7 +35,7 @@ HRESULT NotifyProcessShutdown ();
 
 S_OK
   
-> mapi 提供程序在 mapi 客户端关闭时采取措施来防止数据丢失。
+> MAPI 提供程序正在采取措施防止在 MAPI 客户端关闭时丢失数据。
     
 ## <a name="see-also"></a>另请参阅
 

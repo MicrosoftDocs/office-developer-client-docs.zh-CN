@@ -5,7 +5,7 @@ ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ac5544e7-ff7a-4af5-ac1b-33a49bc6be0d
-description: 本节包含的 toarticles 演示如何使用适用于客户端对象模型 (CSOM) 的 JavaScript 库, 并为 project Server 2013 和 project Online 执行其他编程任务。 编程任务的示例包括创建 SharePoint 托管的 Project Server 应用程序、创建需求管理工作流、使用 Windows Communication Foundation (WCF) 编程 Project Server 应用程序;自定义 Project Web App 功能区;创建 Project Server Web 部件;创建 Project Server 事件处理程序和远程事件接收器;并批量更新自定义字段并为 project Online 创建项目网站。
+description: 本节包括一些操作方法，这些说明显示如何将 JavaScript 库用于客户端对象模型 (CSOM) ，以及执行 Project Server 2013 和 Project Online 的其他编程任务。 编程任务的示例包括SharePoint托管的 Project Server 应用程序、创建用于需求管理的工作流;使用 Project Communication Foundation 和 WCF Windows 对 (Server) ;自定义Project Web App功能区;创建 Project Server Web 部件;创建Project服务器事件处理程序和远程事件接收器;和批量更新自定义域，并创建项目Project Online。
 ms.openlocfilehash: 385b9fa53c2c7faf2a218816bf4d3f0499b9ecd1
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -15,10 +15,10 @@ ms.locfileid: "32301496"
 ---
 # <a name="project-programming-tasks"></a>Project 编程任务
 
-本节包括一些介绍如何使用适用于客户端对象模型 (CSOM) 的 JavaScript 库以及执行 project Server 2013 和 project Online 的其他编程任务的 "操作方法" 文章。 编程任务的示例包括创建 SharePoint 托管的 Project Server 应用程序、创建需求管理工作流、使用 Windows Communication Foundation (WCF) 编程 Project Server 应用程序;自定义 Project Web App 功能区;创建 Project Server Web 部件;创建 Project Server 事件处理程序和远程事件接收器;并批量更新自定义字段并为 project Online 创建项目网站。
+本节包含一些"操作方法"文章，这些文章介绍了如何针对客户端对象模型 (CSOM) 使用 JavaScript 库，以及如何执行 Project Server 2013 和 Project Online 的其他编程任务。 编程任务的示例包括SharePoint托管的 Project Server 应用程序、创建用于需求管理的工作流;使用 Project Communication Foundation 和 WCF Windows 对 (Server) ;自定义Project Web App功能区;创建 Project Server Web 部件;创建Project服务器事件处理程序和远程事件接收器;和批量更新自定义域，并创建项目Project Online。
   
 > [!NOTE]
-> 有关使用 JS 网格控件进行编程的信息, 请参阅 SharePoint 2010 开发人员参考中的[JS 网格控件](https://msdn.microsoft.com/library/ee535898%28office.14%29.aspx)。 有关托管代码引用，请参阅 [Microsoft.SharePoint.JSGrid Namespace](https://msdn.microsoft.com/library/microsoft.sharepoint.jsgrid%28Office.15%29.aspx)。 对于 JS 网格控件 web 控件, 请参阅[JSGrid 类](https://msdn.microsoft.com/library/microsoft.sharepoint.webcontrols.jsgrid%28Office.15%29.aspx)。 
+> 有关使用 JS 网格控件进行编程的信息，请参阅 js [Grid Control](https://msdn.microsoft.com/library/ee535898%28office.14%29.aspx) in the SharePoint 2010 developer reference。 有关托管代码引用，请参阅 [Microsoft.SharePoint.JSGrid Namespace](https://msdn.microsoft.com/library/microsoft.sharepoint.jsgrid%28Office.15%29.aspx)。 有关 JS 网格控件 Web 控件，请参阅 [JSGrid 类](https://msdn.microsoft.com/library/microsoft.sharepoint.webcontrols.jsgrid%28Office.15%29.aspx)。 
   
 ## <a name="in-this-section"></a>本节内容
 
@@ -28,7 +28,7 @@ ms.locfileid: "32301496"
   
 [使用 Project Server JavaScript 对象模型创建、检索、更新和删除项目](create-retrieve-update-delete-projects-using-project-server-javascript.md)
   
-[创建 SharePoint 托管的 Project Server 外接程序](create-a-sharepoint-hosted-project-server-add-in.md): 包含有关如何修改 Project Web App 功能区的部分 
+[Create a SharePoint hosted Project Server add-in](create-a-sharepoint-hosted-project-server-add-in.md) ： includes a section on how to modify the Project Web App ribbon 
   
 ## <a name="reference"></a>参考
 

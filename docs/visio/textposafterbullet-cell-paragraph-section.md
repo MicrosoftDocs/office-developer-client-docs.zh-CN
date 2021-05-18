@@ -20,7 +20,7 @@ ms.locfileid: "33422150"
 
 表示段落的第一行和项目符号之间的距离。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 此距离将与 IndFirst 单元格中包含的距离（默认的左缩近）相加。此值与绘图比例无关。 
   
@@ -28,14 +28,14 @@ ms.locfileid: "33422150"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | TextPosAfterBullet [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
+| 单元格名称：  <br/> | Para.TextPosAfterBullet[  *i*  ] 其中  *i*  = <1>， 2， 3...  <br/> |
    
 要从某个程序按索引获取对 TextPosAfterBullet 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionParagraph** <br/> |
-| 行索引：  <br/> |**visRowParagraph** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowParagraph**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visTextPosAfterBullet** <br/> |
    
 

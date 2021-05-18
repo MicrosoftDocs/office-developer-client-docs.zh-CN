@@ -1,5 +1,5 @@
 ---
-title: 启动新的撰写表单
+title: 启动新的撰写窗体
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32270054"
 ---
-# <a name="launching-a-new-compose-form"></a>启动新的撰写表单
+# <a name="launching-a-new-compose-form"></a>启动新的撰写窗体
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-表单服务器实施者在客户端应用程序打开要撰写的新邮件时, 应预计对其表单服务器和表单对象使用以下一系列方法调用:
+当客户端应用程序打开一条用于撰写的新消息时，表单服务器实施者应希望其表单服务器和表单对象的方法调用顺序如下：
   
-1. 客户端应用程序调用[IMAPIFormMgr:: ResolveMessageClass](imapiformmgr-resolvemessageclass.md)方法, 以获取有关窗体服务器的邮件类的类信息。 
+1. 客户端应用程序调用 [IMAPIFormMgr：：ResolveMessageClass](imapiformmgr-resolvemessageclass.md) 方法来获取有关表单服务器的邮件类的类信息。 
     
-2. 客户端应用程序调用[IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md)获取新的表单对象。 
+2. 客户端应用程序调用 [IMAPIFormMgr：：CreateForm](imapiformmgr-createform.md) 获取新的表单对象。 
     
-3. MAPI 表单管理器会加载表单服务器 (如果它尚不在内存中), 并从表单服务器中获取[IMAPIForm](imapiformiunknown.md)接口。 
+3. MAPI 表单管理器加载表单服务器（如果它尚未在内存中）并且从表单服务器获取 [IMAPIForm](imapiformiunknown.md) 接口。 
     
-4. 客户端应用程序采用生成的**IMAPIForm**接口, 并调用[IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx)方法来获取对象的[IPersistMessage](ipersistmessageiunknown.md)接口。 
+4. 客户端应用程序获取生成的 **IMAPIForm** 接口并调用 [IUnknown：：QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) 方法来获取对象的 [IPersistMessage](ipersistmessageiunknown.md) 接口。 
     
-5. 客户端应用程序调用[IPersistMessage:: InitNew](ipersistmessage-initnew.md)方法将 form 对象与[IMessage](imessageimapiprop.md)、view context 和 advise sink 对象相关联。
+5. 客户端应用程序调用 [IPersistMessage：：InitNew](ipersistmessage-initnew.md) 方法将表单对象与 [IMessage、](imessageimapiprop.md)视图上下文以及建议接收对象关联。
     
-6. 客户端应用程序调用[IMAPIForm::D overb](imapiform-doverb.md)方法调用 open 谓词。 
+6. 客户端应用程序调用 [IMAPIForm：:D oVerb](imapiform-doverb.md) 方法来调用打开动词。 
     
 ## <a name="see-also"></a>另请参阅
 

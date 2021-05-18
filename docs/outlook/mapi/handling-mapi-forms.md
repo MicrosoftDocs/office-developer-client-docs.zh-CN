@@ -19,15 +19,15 @@ ms.locfileid: "33423053"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 表单是特定类的邮件的查看器。 允许用户使用属于各种邮件类别的邮件的客户端必须编写为处理各种 MAPI 表单。 若要处理多个窗体, 客户端将实现一个称为表单查看器的组件, 其中包含以下三个对象:
+MAPI 窗体是特定类消息的查看器。 必须编写允许用户处理属于各种邮件类的邮件的客户端，以处理各种 MAPI 窗体。 为了处理多个表单，客户端实现一个称为表单查看器的组件，其中包含以下三个对象：
   
-- 一个支持[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)接口的邮件网站对象。 
+- 支持 [IMAPIMessageSite ： IUnknown](imapimessagesiteiunknown.md) 接口的消息站点对象。 
     
-- 一个支持[IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)接口的视图建议接收器。 
+- 视图建议接收器，支持 [IMAPIViewAdviseSink ： IUnknown](imapiviewadvisesinkiunknown.md) 接口。 
     
-- 一个支持[IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)接口的 view context 对象。 
+- 支持 [IMAPIViewContext ： IUnknown](imapiviewcontextiunknown.md) 接口的视图上下文对象。 
     
-这些对象中的每一个都由称为表单服务器的组件用于实现每个表单、处理其存储以及处理视图的客户端生成的通知。 一个其他组件 (即表单库提供程序) 实现表单管理器。 表单管理器管理存储表单服务器可执行文件的表单库。 此管理包括加载相应的表单服务器和处理服务器与客户端之间的初始通信。
+每个对象都由一个称为表单服务器的组件使用，该组件实现每个表单，处理其存储和由处理视图的客户端生成的通知。 另一个组件是表单库提供程序，它实现表单管理器。 表单管理器管理表单库，该库存储表单服务器可执行文件。 此管理包括加载相应的表单服务器和处理服务器和客户端之间的初始通信。
   
 下图显示了客户端与 MAPI 表单体系结构的其他部分之间的关系。
   
@@ -35,35 +35,35 @@ MAPI 表单是特定类的邮件的查看器。 允许用户使用属于各种�
   
 ![MAPI 表单体系结构](media/forms01.gif "MAPI 表单体系结构")
   
-如果您的客户端计划处理 MAPI 表单, 您将使用表单管理器的[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)接口执行五个基本任务: 
+如果客户端计划处理 MAPI 表单，您将使用表单管理器的 [IMAPIFormMgr ： IUnknown](imapiformmgriunknown.md) 接口执行五个基本任务： 
   
-- 打开或撰写邮件时, 启动相应的 MAPI 表单服务器。
+- 打开或撰写邮件时启动相应的 MAPI 表单服务器。
     
-- 在文件夹的内容表中显示窗体服务器的图标。
+- 在文件夹的内容表中显示表单服务器的图标。
     
-- 发送和接收表单通知。 有关详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
+- 发送和接收表单通知。 有关详细信息，请参阅 [发送和接收表单通知](sending-and-receiving-form-notifications.md)。
     
-- 允许用户在表单库中安装或删除表单服务器。 有关详细信息, 请参阅[维护表单库](maintaining-a-form-library.md)。
+- 允许用户从表单库安装或删除表单服务器。 有关详细信息，请参阅 [维护表单库](maintaining-a-form-library.md)。
     
-- 允许用户将表单服务器与特定文件夹相关联。
+- 允许用户将表单服务器与特定文件夹关联。
     
-若要访问表单管理器, 请在初始化期间调用一次[MAPIOpenFormMgr](mapiopenformmgr.md)函数。 
+若要访问表单管理器，在初始化期间调用 [MAPIOpenFormMgr](mapiopenformmgr.md) 函数一次。 
   
 ## <a name="in-this-section"></a>本节内容
 
-- [实现表单查看器](implementing-a-form-viewer.md): 介绍如何通过使用视图建议接收器、消息网站和视图上下文来实现表单查看器。
+- [实现表单查看器](implementing-a-form-viewer.md)：介绍如何通过使用视图建议接收器、消息网站和视图上下文来实现表单查看器。
     
-- [实现标准窗体谓词](implementing-standard-form-verbs.md): 介绍如何在 MAPI 表单上实现用户菜单或按钮单击的谓词。
+- [Implementing Standard Form Verbs](implementing-standard-form-verbs.md)： Describes how to implement the verbs for user menu or button clicks on MAPI forms.
     
-- [发送和接收表单通知](sending-and-receiving-form-notifications.md): 介绍如何发送和接收表单通知。
+- [发送和接收表单通知](sending-and-receiving-form-notifications.md)：介绍如何发送和接收表单通知。
     
-- [维护表单库](maintaining-a-form-library.md): 介绍如何维护包含有关表单的所有重要信息的库。
+- [Maintaining a Form Library](maintaining-a-form-library.md)： Describes how to maintain a library that holds all the important information about a form.
     
-- 将[邮件加载到表单](loading-a-message-into-a-form.md)中: 介绍如何将邮件加载到表单中。
+- [Loading a Message Into a Form](loading-a-message-into-a-form.md)： Describes how to load a message into a form.
     
-- [使用表单撰写新邮件](composing-a-new-message-by-using-a-form.md): 介绍如何使用窗体撰写邮件。
+- [使用窗体撰写新邮件](composing-a-new-message-by-using-a-form.md)：介绍如何使用窗体撰写邮件。
     
-- [显示窗体图标](displaying-form-icons.md): 介绍了用于在窗体中显示图标的步骤。
+- [显示表单图标](displaying-form-icons.md)：介绍显示窗体图标的步骤。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -51,11 +51,11 @@ ms.locfileid: "32300208"
 |[MergeForm(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx) 方法（重载 1）  <br/> |将当前表单与传递到该方法的 **XPathNavigator** 所返回的节点中指定的目标表单进行合并。  <br/> |
 |[NotifyHost](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.NotifyHost.aspx) 方法  <br/> |为宿主应用程序或 ASPX 页提供自定义值。  <br/> |
 |[Print()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx) 方法  <br/> |按照表单内容在表单的活动视图中的显示效果打印表单内容。  <br/> |
-|[Print(Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx) 方法（重载 1）  <br/> |通过显示“打印”**** 对话框打印在表单的活动视图中呈现的表单内容。  <br/> |
+|[Print(Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx) 方法（重载 1）  <br/> |通过显示“打印”对话框打印在表单的活动视图中呈现的表单内容。  <br/> |
 |[Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Save.aspx) 方法  <br/> |将表单保存到当前关联的统一资源定位器 (URL)。  <br/> |
 |[SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx) 方法  <br/> |将表单保存到指定的统一资源定位器 (URL)。  <br/> |
-|[SetSaveAsDialogFilename](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogFilename.aspx) 方法  <br/> |设置****“另存为”对话框的默认文件名。  <br/> |
-|[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogLocation.aspx) 方法  <br/> |设置使用“另存为”**** 对话框保存表单的默认路径。  <br/> |
+|[SetSaveAsDialogFilename](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogFilename.aspx) 方法  <br/> |设置“另存为”对话框的默认文件名。  <br/> |
+|[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogLocation.aspx) 方法  <br/> |设置使用“另存为”对话框保存表单的默认路径。  <br/> |
 |[Submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Submit.aspx) 方法  <br/> |使用表单模板中定义的提交操作来提交表单。  <br/> |
 |[CurrentView](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.CurrentView.aspx) 属性  <br/> |获取一个代表表单的当前视图的 [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) 对象。  <br/> |
 |[DataConnections](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataConnections.aspx) 属性  <br/> |获取一个与表单关联的 [DataConnectionCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnectionCollection.aspx) 对象。  <br/> |
@@ -153,7 +153,7 @@ MessageBox.Show(myDoc)
 > [!NOTE]
 > 由于在使用 **this** 或 **Me** 关键字访问时，InfoPath 将 **MainDataSource** 属性视为 **XmlForm** 对象的默认属性，因此可以在用于创建 **XPathNavigator** 对象的代码行中省略该属性。 
   
-若要了解有关 InfoPath 表单模板业务逻辑中的 **XPathNavigator** 类的详细信息，请参阅[使用 XPathNavigator 和 XPathNodeIterator 类](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)。
+若要了解有关 InfoPath 表单模板业务逻辑中的 **XPathNavigator** 类的详细信息，请参阅 [使用 XPathNavigator 和 XPathNodeIterator 类](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)。
   
 ### <a name="accessing-data-about-a-forms-form-template-file"></a>访问有关表单的表单模板文件的数据
 

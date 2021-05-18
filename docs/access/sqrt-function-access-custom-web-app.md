@@ -1,5 +1,5 @@
 ---
-title: Sqrt 函数 (Access 自定义 web 应用程序)
+title: 'Sqrt 函数 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404790"
 ---
-# <a name="sqrt-function-access-custom-web-app"></a>Sqrt 函数 (Access 自定义 web 应用程序)
+# <a name="sqrt-function-access-custom-web-app"></a>Sqrt 函数 (Access 自定义 Web 应用) 
 
 返回指定值的平方根。
   
@@ -23,9 +23,9 @@ ms.locfileid: "33404790"
   
 ## <a name="syntax"></a>语法
 
- **Sqrt**(*NumericExpression*) 
+ **Sqrt** (*NumericExpression)* 
   
-**Sqrt**函数包含以下参数。 
+**Sqrt** 函数包含以下参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|

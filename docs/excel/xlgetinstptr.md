@@ -18,7 +18,7 @@ ms.locfileid: "33405280"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-返回当前正在调用 DLL 的 Microsoft Excel 实例的实例句柄。
+返回当前调用 DLL Microsoft Excel实例的实例句柄。
   
 ```cs
 Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 0);
@@ -30,19 +30,19 @@ Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-实例句柄 (**xltypeBigData**) 将位于**bigdata**字段中。 
+**xltypeBigData** (将) **val.bigdata.h.hdata** 字段中。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此函数可用于区分调用 DLL 的 Excel 的多个运行实例。
+此函数可用于区分调用 DLL 的 Excel实例。
   
-此函数将返回包含32位和64位版本的 Excel 的正确值。 它在 excel 2010 中引入, 作为[xlGetInst](xlgetinst.md)函数的扩展, 它只能在32位版本的 Excel 中正常运行。 
+此函数返回 32 位和 64 位版本的 Excel。 它作为[xlGetInst](xlgetinst.md)函数的扩展在 Excel 2010 中引入，它仅适用于 32 位版本的 Excel。 
   
-在使用 API 回调函数的[Excel4 和 Excel12](excel4-excel12.md)种类的情况调用此函数时, 该函数将正常运行, 因为**XLOPER**和**XLOPER12**都具有支持**xltypeBigData**值的相同结构类型. 
+当使用 API 回调函数的 Excel4 和 [Excel12](excel4-excel12.md) 类型调用此函数时，此函数可正常运行，因为 **XLOPER** 和 **XLOPER12** 具有相同的结构，支持 **xltypeBigData** 值类型。 
   
 ## <a name="example"></a>示例
 
-下面的示例将调用它的 excel 的最后一个副本的实例与调用它的 excel 的当前副本进行比较。 如果它们相同, 则返回 1; 否则返回1。如果不是, 则返回 0;如果函数失败, 则返回-1。 此示例适用于32位和64位版本的 Excel。
+下面的示例将最后一个调用该副本的 Excel 实例与调用它的Excel副本进行比较。 如果二者相同，则返回 1;如果没有，则返回 0;如果函数失败，则返回 -1。 此示例适用于 32 位和 64 位版本的 Excel。
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

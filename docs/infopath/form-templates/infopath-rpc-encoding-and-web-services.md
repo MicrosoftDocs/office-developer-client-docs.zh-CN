@@ -31,13 +31,13 @@ Web 服务可以向描述 Web 服务的 Web 服务描述语言 (WSDL) 协定中�
   
 ## <a name="creating-a-proxy-web-service-using-visual-studio"></a>使用 Visual Studio 创建代理 Web 服务
 
-1. 创建新的 **ASP.NET Web 服务应用程序**项目。 
+1. 创建新的 **ASP.NET Web 服务应用程序** 项目。 
     
-2. 在****“解决方案资源管理器”中，右键单击新项目的“引用”**** 文件夹，然后单击“添加 Web 引用”****。 
+2. 在“解决方案资源管理器”中，右键单击新项目的“引用”文件夹，然后单击“添加 Web 引用”。 
     
-3. 在“添加 Web 引用”**** 对话框中，键入要使用的 RPC/encoded Web 服务的 URL，然后单击“开始”****。
+3. 在“添加 Web 引用”对话框中，键入要使用的 RPC/encoded Web 服务的 URL，然后单击“开始”。
     
-4. 单击“添加引用”****。 
+4. 单击“添加引用”。 
     
 5. 打开 Web 服务的 .asmx 文件，并添加一个 Web 服务方法，以便从引用的 RPC/encoded Web 服务调用每种 Web 服务方法。
     

@@ -29,32 +29,32 @@ ms.locfileid: "32270089"
   
 |||
 |:-----|:-----|
-|导出者:  <br/> |msmapi32  <br/> |
+|导出者：  <br/> |msmapi32.dll  <br/> |
 |实现者：  <br/> |Outlook  <br/> |
 |调用者：  <br/> |客户端  <br/> |
-|接口标识符:  <br/> |IID_IMAPIOfflineMgr  <br/> |
+|接口标识符：  <br/> |IID_IMAPIOfflineMgr  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[她们](imapiofflinemgr-advise.md) <br/> |注册有关连接更改的通知回调。  <br/> |
-|[Unadvise](imapiofflinemgr-unadvise.md) <br/> |删除通知回调的给定注册。  <br/> |
-| *占位符成员*  <br/> | *此成员是占位符, 不受支持。*  <br/> |
-| *占位符成员*  <br/> | *此成员是占位符, 不受支持。*  <br/> |
-| *占位符成员*  <br/> | *此成员是占位符, 不受支持。*  <br/> |
-| *占位符成员*  <br/> | *此成员是占位符, 不受支持。*  <br/> |
-| *占位符成员*  <br/> | *此成员是占位符, 不受支持。*  <br/> |
-| *占位符成员*  <br/> | *此成员是占位符, 不受支持。*  <br/> |
-| *占位符成员*  <br/> | *此成员是占位符, 不受支持。*  <br/> |
+|[建议](imapiofflinemgr-advise.md) <br/> |注册有关连接更改的通知回调。  <br/> |
+|[非企业](imapiofflinemgr-unadvise.md) <br/> |删除通知回调的给定注册。  <br/> |
+| *占位符成员*  <br/> | *此成员是占位符，不受支持。*  <br/> |
+| *占位符成员*  <br/> | *此成员是占位符，不受支持。*  <br/> |
+| *占位符成员*  <br/> | *此成员是占位符，不受支持。*  <br/> |
+| *占位符成员*  <br/> | *此成员是占位符，不受支持。*  <br/> |
+| *占位符成员*  <br/> | *此成员是占位符，不受支持。*  <br/> |
+| *占位符成员*  <br/> | *此成员是占位符，不受支持。*  <br/> |
+| *占位符成员*  <br/> | *此成员是占位符，不受支持。*  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-在使用**[HrOpenOfflineObj](hropenofflineobj.md)** 为用户帐户配置文件打开脱机对象时, 客户端将获得支持**IMAPIOfflineMgr**的脱机对象。 
+使用 **[HrOpenOfflineObj](hropenofflineobj.md)** 打开用户帐户配置文件的脱机对象后，客户端会获取支持 **IMAPIOfflineMgr** 的脱机对象。 
   
-由于此接口继承自**[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)**, 客户端可以查询此接口 (通过使用**[IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)** ) 来获取支持**[IMAPIOffline](imapiofflineiunknown.md)** 的对象。 然后, 客户端可以查找脱机对象的回调功能 (通过调用**[IMAPIOffline:: GetCapabilities](imapioffline-getcapabilities.md)** ), 然后选择设置回调 (通过使用**IMAPIOfflineMgr:: 建议**)。 
+由于此接口继承自 **[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)**，客户端可以使用 **[IUnknown：：QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)** (查询此接口 ) 以获取支持 **[IMAPIOffline 的对象](imapiofflineiunknown.md)**。 然后，客户端可以通过调用 **[IMAPIOffline：：GetCapabilities](imapioffline-getcapabilities.md)** ) 了解脱机对象 (的回调功能，并选择使用 **IMAPIOfflineMgr：：Advise** ) 设置回调 (。 
   
-此接口中的大多数成员是为 Outlook 内部使用而保留的占位符, 可能会发生更改。 此接口的调用方必须仅根据所记录的成员使用非占位符成员。
+此接口中的大多数成员都是保留供内部使用的占位符Outlook可能会更改。 此接口的调用方只能使用记录的非占位符成员。
   
 ## <a name="see-also"></a>另请参阅
 

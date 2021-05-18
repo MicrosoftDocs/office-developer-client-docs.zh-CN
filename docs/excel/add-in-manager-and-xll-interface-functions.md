@@ -1,11 +1,11 @@
 ---
-title: 外接程序管理器和 XLL 接口函数
+title: 加载项管理器和 XLL 接口函数
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- 函数 [excel 2007], 外接程序管理器, 函数 [excel 2007], XLL 接口
+- functions [excel 2007]， add-in manager，functions [Excel 2007]， XLL interface
 localization_priority: Normal
 ms.assetid: e22d425a-75b2-412c-a07f-fb1915d08615
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -16,11 +16,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404209"
 ---
-# <a name="add-in-manager-and-xll-interface-functions"></a>外接程序管理器和 XLL 接口函数
+# <a name="add-in-manager-and-xll-interface-functions"></a>加载项管理器和 XLL 接口函数
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-本节包含 Microsoft Excel 和外接程序管理器在 XLL 中查找的函数的参考文档。
+本节包含有关在 XLL 中Microsoft Excel加载项管理器查找的函数的参考文档。
   
 ## <a name="in-this-section"></a>本节内容
 

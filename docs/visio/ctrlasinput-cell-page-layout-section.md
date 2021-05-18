@@ -25,7 +25,7 @@ ms.locfileid: "33422619"
 | TRUE  <br/> | 将控制手柄连接到的形状设置为父级。  <br/> |
 | FALSE  <br/> | 默认值。将包含控制手柄的形状设置为父级。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 CtrlAsInput 单元格的引用，请使用： 
   

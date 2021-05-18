@@ -24,20 +24,20 @@ ms.locfileid: "33422766"
 |:-----|:-----|
 |0  <br/> |None  <br/> |
 |1  <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
-|双面  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
-|第三章  <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
-|4  <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
-|5  <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
-|型  <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
-|步  <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
+|2  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
+|3  <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
+|4   <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
+|5   <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
+|6   <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
+|7   <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
    
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionParagraph** <br/> |
-|行索引：  <br/> |**visRowParagraph** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRowParagraph**  +  *i* 其中 *i* = 0， 1， 2， ...  <br/> |
 |单元格索引：  <br/> |**visBulletIndex** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 您还可以通过以下方法设置此单元格的值：右键单击形状，指向 **“格式”**，单击 **“文本”**，然后单击 **“项目符号”** 选项卡。 
   
@@ -45,7 +45,7 @@ ms.locfileid: "33422766"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |段落。项目符号 [ *i* ] 其中*i* = <1>, 2, 3, .。。  <br/> |
+|单元格名称：  <br/> |Para.Bullet[ *i*  ] 其中  *i*  = <1>，2， 3， ...  <br/> |
    
 若要从某个程序按索引获取对 Bullet 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   

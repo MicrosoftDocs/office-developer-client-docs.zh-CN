@@ -25,7 +25,7 @@ ms.locfileid: "33421562"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含指示会话资源的当前状态的消息。 
+包含一条消息，指示会话资源的当前状态。 
   
 |||
 |:-----|:-----|
@@ -34,23 +34,23 @@ ms.locfileid: "33421562"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-这些属性使服务提供商和 MAPI 能够提供有关会话资源状态的特定信息, 如集成的通讯簿或特定的服务提供商。 此属性说明并提供有关状态代码或**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) 属性的其他信息。 尽管**PR_STATUS_CODE**是所有 STATUS 对象所必需的, 但**PR_STATUS_STRING**和关联属性是可选的。 如果传输提供程序未提供值, 则 MAPI 后台处理程序将提供默认值。 
+这些属性使服务提供商和 MAPI 有机会提供有关会话资源状态的特定信息，例如集成通讯簿或特定服务提供商。 此属性解释并提供有关[PidTagStatusCode](pidtagstatuscode-canonical-property.md) PR_STATUS_CODE (状态代码) 信息。 尽管 **PR_STATUS_CODE** 状态对象都需要此参数，PR_STATUS_STRING属性和关联属性是可选的。 当传输提供程序未提供值时，MAPI 后台处理程序会提供默认值。 
   
-该字符串在作为 MAPI 后台处理程序的远程过程调用的同一端生成;它通过共享内存传播, 而不是跨进程边界封送。
+该字符串在远程过程调用的同一端与 MAPI 后台处理程序一起生成;它通过共享内存，而不是跨进程边界封送。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

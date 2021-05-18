@@ -17,9 +17,9 @@ ms.locfileid: "32298472"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题提供了一个代码示例, 该示例检查已安装版本的 microsoft outlook 2013、microsoft outlook 2010、microsoft Office Outlook 2007 或 Microsoft outlook 2003 中已安装的 microsoft outlook 版本的版本信息。 检查 outlook 的版本有时是必需的, 以确保 MAPI 应用程序调用的是当前运行的 Outlook 版本所支持的 API 元素。
+本主题提供了一个代码示例，该示例检查已安装版本的 Microsoft Outlook（如果安装的版本为 Microsoft Outlook 2013、Microsoft Outlook 2010、Microsoft Office Outlook 2007 或 Microsoft Outlook 2003）的版本信息。 检查版本Outlook有时有必要确保 MAPI 应用程序调用受当前正在运行的版本支持的 API Outlook。
 
-下面的代码示例`PrintOutlookVersionString`通过使用**MsiProvideQualifiedComponent**和**MsiGetFileVersion**函数获取完整版本字符串, 如 Microsoft Windows 软件开发工具包 (SDK) 中的 Msi 文件中所声明的那样。  `PrintOutlookVersionString`此外, 还返回一个指向 Boolean 变量的指针, 该变量指示是否已安装64位版本的 Outlook。 有关某些发布版本的 outlook 的版本字符串的不同部分的预期值的信息, 请参阅[如何确定 outlook 版本信息](https://support.microsoft.com/kb/870929)。
+下面的代码示例 `PrintOutlookVersionString` 使用 **MsiProvideQualifiedComponent** 和 **MsiGetFileVersion** 函数获取完整版本字符串，如 Microsoft Windows 软件开发工具包 (SDK) 中的 Msi.h 文件所声明。  `PrintOutlookVersionString`还返回一个指向 Boolean 变量的指针，该变量指示是否安装了 64 Outlook版本。 有关某些已发布版本的 Outlook 的版本字符串的不同部分的预期值的信息，请参阅如何Outlook[版本信息](https://support.microsoft.com/kb/870929)。
   
 ```cpp
 void PrintOutlookVersionString()

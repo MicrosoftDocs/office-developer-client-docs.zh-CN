@@ -7,7 +7,7 @@ keywords:
 - security policy deployment package [infopath 2007],URLs [InfoPath 2007], assigning FullTrust,code access security [InfoPath 2007],UNCs [InfoPath 2007], assigning FullTrust,CAS [InfoPath 2007],security [InfoPath 2007], configuring,code groups [InfoPath 2007],FullTrust [InfoPath 2007], assigning to UNCs,FullTrust [InfoPath 2007], assigning to URLs
 localization_priority: Normal
 ms.assetid: 24d1a322-581f-497e-b97b-bd02c4516551
-description: 可以使用 .NET 配置管理单元自定义应用于 InfoPath 托管代码表单模板的权限集。
+description: 可以通过使用 .NET 配置管理单元自定义应用于 InfoPath 托管代码表单模板的权限集。
 ms.openlocfilehash: 77f3546d976bb5ea353aa3fbe58ba7af6cd92a6d
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "32300156"
 
 1. 在 **"开始"** 菜单中，指向 **"管理工具"**，然后单击 **"Microsoft .NET Framework 2.0 Configuration"**。
     
-    如果“开始”**** 菜单上没有“管理工具”****，请在“控制面板”**** 中打开“管理工具”****，然后双击“Microsoft .NET Framework 2.0 Configuration”****。
+    如果“开始”菜单上没有“管理工具”，请在“控制面板”中打开“管理工具”，然后双击“Microsoft .NET Framework 2.0 Configuration”。
     
 2. 在 **"我的电脑"** 下，展开 **"运行库安全策略"** 节点、 **"计算机"** 节点、 **"代码组"** 节点、 **"All_Code"** 节点，然后右键单击 **"All_Code"** 节点并单击 **"新建"** 以打开 **"创建代码组"** 对话框。 
     
@@ -54,7 +54,7 @@ ms.locfileid: "32300156"
   
 ## <a name="assigning-fulltrust-to-forms-at-a-specific-url-or-unc"></a>为位于特定 URL 或 UNC 的表单指定 FullTrust
 
-可以在“InfoPath 表单模板”**** 组下创建代码组，以便为位于特定 URL 或 UNC 位置的表单模板授予完全信任权限集。执行该操作后，发布到指定位置的每个表单模板均以完全信任状态运行。 
+可以在“InfoPath 表单模板”组下创建代码组，以便为位于特定 URL 或 UNC 位置的表单模板授予完全信任权限集。执行该操作后，发布到指定位置的每个表单模板均以完全信任状态运行。 
   
 > [!NOTE]
 > [!注释] 从本地计算机加载的表单模板（My Computer Zone 代码组）由 InfoPath 使用随机 URL 进行加载。 因此，不能采用以下过程向此类表单模板授予 FullTrust 权限集。 要为本地安装的表单模板授予 FullTrust 权限集，请使用[部署包含代码的 InfoPath 表单模板](how-to-deploy-infopath-form-templates-with-code.md)主题的“部署需要‘完全信任’的表单模板”一节中介绍的过程之一。 
@@ -63,7 +63,7 @@ ms.locfileid: "32300156"
 
 1. 在 **"开始"** 菜单中，指向 **"管理工具"**，然后单击 **"Microsoft .NET Framework 2.0 Configuration"**。
     
-    如果“开始”**** 菜单上没有“管理工具”****，请在“控制面板”**** 中打开“管理工具”****，然后双击“Microsoft .NET Framework 2.0 Configuration”****。
+    如果“开始”菜单上没有“管理工具”，请在“控制面板”中打开“管理工具”，然后双击“Microsoft .NET Framework 2.0 Configuration”。
     
 2. 在 **"我的电脑"** 下，展开 **"运行库安全策略"** 节点、 **"计算机"** 节点、 **"代码组"** 节点、 **"All_Code"** 节点，然后单击 **"InfoPath 表单模板"** 节点。 
     
@@ -100,11 +100,11 @@ ms.locfileid: "32300156"
 
 1. 在 **"开始"** 菜单中，指向 **"管理工具"**，然后单击 **"Microsoft .NET Framework 2.0 Configuration"**。
     
-    If you do not have **Administrative Tools** on the **Start** menu, from the **Control Panel** open **Administrative Tools**, and then double-click **Microsoft .NET Framework 2.0 Configuration**.
+    如果“开始”菜单上没有“管理工具”，请在“控制面板”中打开“管理工具”，然后双击“Microsoft .NET Framework 2.0 Configuration”。
     
 2. 右键单击 **"运行库安全策略"**，再单击 **"创建部署包"**。
     
-3. 在“选择要部署的安全策略”**** 下，单击“计算机”****，指定 Windows Installer 程序包的文件夹和文件名，再单击“下一步”****。
+3. 在“选择要部署的安全策略”下，单击“计算机”，指定 Windows Installer 程序包的文件夹和文件名，再单击“下一步”。
     
 4. 单击 **"完成"** 以创建部署包。 
     

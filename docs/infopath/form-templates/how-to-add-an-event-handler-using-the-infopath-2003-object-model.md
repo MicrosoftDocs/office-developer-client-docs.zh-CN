@@ -27,57 +27,57 @@ The menu commands for adding event handler functions in a form template project 
   
 ### <a name="add-an-event-handler-for-the-onclick-event-of-a-command-button"></a>为命令按钮的 OnClick 事件添加事件处理程序
 
-1. 在“控件”**** 窗格中，单击“按钮”**** 向表单添加按钮。 
+1. 在“控件”窗格中，单击“按钮”向表单添加按钮。 
     
-2. 在“属性”**** 选项卡上，单击“自定义代码”****。
+2. 在“属性”选项卡上，单击“自定义代码”。
     
    焦点将切换到代码编辑器中 [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) 事件的事件处理程序的存根。 
     
 ### <a name="add-an-event-handler-for-the-onbeforechange-onvalidate-or-onafterchange-event-of-a-field-or-group"></a>为域或组的 OnBeforeChange、OnValidate 或 OnAfterChange 事件添加事件处理程序
 
-1. 右键单击绑定到字段或组的数据输入控件，例如“文本框”**** 控件。 
+1. 右键单击绑定到字段或组的数据输入控件，例如“文本框”控件。 
     
-2. 指向“编程”****，然后单击其中一个命令，例如，“On Validate Event”****。
+2. 指向“编程”，然后单击其中一个命令，例如，“On Validate Event”。
     
    焦点将切换到代码编辑器中下面某个事件的事件处理程序的存根：[OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx)、[OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) 或 [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx)。 
     
 ### <a name="add-an-event-handler-for-the-onload-onswitchview-oncontextchange-or-onsign-event-of-a-form"></a>添加表单的 OnLoad、OnSwitchView、OnContextChange 或 OnSign 事件的事件处理程序
 
-- 在“工具”**** 菜单上，指向“编程”****，然后单击要为其编写事件处理程序的表单事件。
+- 在“工具”菜单上，指向“编程”，然后单击要为其编写事件处理程序的表单事件。
     
     焦点将切换到代码编辑器中下面某个事件的事件处理程序的存根：[OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx)、[OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx)、[OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx) 或 [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx)。 
     
 ### <a name="add-an-event-handler-for-the-onsubmitrequest-event-of-a-form"></a>添加表单的 OnSubmitRequest 事件的事件处理程序
 
-1. 在“数据”**** 选项卡上，单击“提交选项”****。
+1. 在“数据”选项卡上，单击“提交选项”。
     
-2. 选中“允许用户提交此表单”**** 复选框，然后单击“使用代码执行自定义操作”****。
+2. 选中“允许用户提交此表单”复选框，然后单击“使用代码执行自定义操作”。
     
-3. 单击“编辑代码”****，然后单击“确定”****。
+3. 单击“编辑代码”，然后单击“确定”。
     
    焦点将切换到代码编辑器中 [OnSubmitRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSubmitRequest.aspx) 事件的事件处理程序的存根。 
     
 ### <a name="add-an-event-handler-for-the-onsaverequest-event-of-a-form"></a>为表单的 OnSaveRequest 事件添加事件处理程序
 
-1. 单击“文件”**** 选项卡，然后单击“表单选项”****。
+1. 单击“文件”选项卡，然后单击“表单选项”。
     
-2. 在“保存”**** 类别中，依次单击“使用自定义代码保存”****、“编辑”****，然后单击“确定”****。
+2. 在“保存”类别中，依次单击“使用自定义代码保存”、“编辑”，然后单击“确定”。
     
    焦点将切换到代码编辑器中 [OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) 事件的事件处理程序的存根。 
     
 ### <a name="add-an-event-handler-for-the-onversionupgrade-event-of-a-form"></a>为表单的 OnVersionUpgrade 事件添加事件处理程序
 
-1. 单击“文件”**** 选项卡，然后单击“表单选项”****。
+1. 单击“文件”选项卡，然后单击“表单选项”。
     
-2. 在“版本控制”**** 类别中，从“更新现有表单”**** 列表中选择“使用自定义事件”****，单击“编辑”****，然后单击“确定”****。
+2. 在“版本控制”类别中，从“更新现有表单”列表中选择“使用自定义事件”，单击“编辑”，然后单击“确定”。
     
     焦点将切换到代码编辑器中 [OnVersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnVersionUpgrade.aspx) 事件的事件处理程序的存根。 
     
 ### <a name="add-an-event-handler-for-the-onmergerequest-event-of-a-form"></a>为表单的 OnMergeRequest 事件添加事件处理程序
 
-1. 单击“文件”**** 选项卡，然后单击“表单选项”****。
+1. 单击“文件”选项卡，然后单击“表单选项”。
     
-2. 在“高级”**** 类别中，选中“启用表单合并”**** 和“使用自定义代码合并”**** 复选框，单击“编辑”****，然后单击“确定”****。
+2. 在“高级”类别中，选中“启用表单合并”和“使用自定义代码合并”复选框，单击“编辑”，然后单击“确定”。
     
     焦点将切换到代码编辑器中 [OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) 事件的事件处理程序的存根。 
     

@@ -25,7 +25,7 @@ ms.locfileid: "33422304"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含标识邮件服务的其他配置文件节的[MAPIUID](mapiuid.md)结构的列表。 
+包含 [MAPIUID](mapiuid.md) 结构的列表，用于标识邮件服务的其他配置文件部分。 
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33422304"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-可以为每个邮件筛选器创建新的配置文件节。 当要将有关邮件服务的信息复制到另一个配置文件时, 还必须复制筛选器的其他配置文件部分。 使用其他配置文件节的服务提供程序可以将这些配置文件节的**MAPIUID**结构存储在**PR_SERVICE_EXTRA_UIDS**中, 这允许 MAPI 复制其他邮件服务信息。
+可以针对每个邮件筛选器新建配置文件节。 当有关邮件服务的信息复制到另一个配置文件时，复制筛选器的其他配置文件部分也很重要。 使用其他配置文件节的服务提供商可以将这些配置文件节的 **MAPIUID** 结构存储在 **PR_SERVICE_EXTRA_UIDS** 中，从而允许 MAPI 复制其他邮件服务信息。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

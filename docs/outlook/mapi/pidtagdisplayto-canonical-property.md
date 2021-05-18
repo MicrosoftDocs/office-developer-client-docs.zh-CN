@@ -25,48 +25,48 @@ ms.locfileid: "32360786"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含主 (收件人) 邮件收件人的显示名称列表, 用分号 (;) 分隔)。 
+包含主收件人的显示名称 () 收件人，用分号 (;) 。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DISPLAY_TO、PR_DISPLAY_TO_A、PR_DISPLAY_TO_W  <br/> |
 |标识符:  <br/> |0x0E04  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |消息  <br/> |
+|区域：  <br/> |邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-邮件存储区使用[IMessage:: ModifyRecipients](imessage-modifyrecipients.md)方法计算邮件对象上的这些属性。 邮件存储区还将维护这些属性, 以便它始终反映邮件的上次保存状态。 值在每次调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法时进行同步。 
+邮件存储使用 [IMessage：：ModifyRecipients](imessage-modifyrecipients.md) 方法计算 message 对象上的这些属性。 邮件存储还维护这些属性，以便它始终反映邮件的上次保存状态。 每次调用 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法时，将同步该值。 
   
-如果邮件没有主收件人, 则邮件存储应响应返回值 S_OK 的[IMAPIProp:: GetProps](imapiprop-getprops.md)调用和**PR_DISPLAY_TO**的空字符串。 
+如果邮件没有主收件人，则邮件存储应响应 [IMAPIProp：：GetProps](imapiprop-getprops.md) 调用，其返回值为 S_OK，空字符串表示 **PR_DISPLAY_TO**。 
   
-出于本地化的可能需要, MAPI 为所有收件人名称提供了以下准则:
+由于可能需要进行本地化，MAPI 针对所有收件人姓名提供了以下指南：
   
 - 所有名称都应能够本地化。 
     
-- 分号应为用于分隔**PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md))、 **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) 和**PR_DISPLAY_TO**属性中的名称的字符。 MAPI 中的收件人名称内不允许使用分号。 
+- 分号应为用于分隔 PR_DISPLAY_BCC ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md) **) 、PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) 和 **PR_DISPLAY_TO** 属性中的名称的字符。 MAPI 中的收件人名称中不允许使用分号。 
     
-- 客户端应将在**PR_DISPLAY_TO**和相关属性中遇到的每个分号转换为本地化的分隔符, 然后再使信息在用户界面中可见。 
+- 客户端应在使信息在用户界面中可见PR_DISPLAY_TO中遇到的每个分号及相关属性转换为本地化分隔符。 
     
-- 转发邮件时, 客户端无需翻译主收件人行上的分隔符。 
+- 转发邮件时，客户端不需要翻译主收件人行上的分隔符。 
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

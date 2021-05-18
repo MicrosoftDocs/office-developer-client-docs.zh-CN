@@ -21,23 +21,23 @@ ms.locfileid: "33422605"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-控制对象或支持[IMAPIControl: IUnknown](imapicontroliunknown.md)接口的对象由提供程序实现, 以向出现在 MAPI 对话框中的按钮添加功能。 只能对按钮实现控制对象。 
+控制对象或支持 [IMAPIControl ： IUnknown](imapicontroliunknown.md) 接口的对象由提供程序实现，以向出现在 MAPI 对话框中的按钮添加功能。 只能为按钮实现 Control 对象。 
   
- **IMAPIControl**具有三种方法: [GetLastError](imapicontrol-getlasterror.md)、 [GetState](imapicontrol-getstate.md)和[Activate](imapicontrol-activate.md)。 
+ **IMAPIControl** 有三种方法 [：GetLastError、GetState](imapicontrol-getlasterror.md)和 [Activate](imapicontrol-activate.md)。 [](imapicontrol-getstate.md) 
   
-MAPI 调用**GetState**以确定是否禁用该按钮。 在下列情况下, 将调用**GetState** : 
+MAPI 调用 **GetState** 以确定是否禁用按钮。 在下列情况下调用 **GetState：** 
   
-- 第一次显示按钮出现的对话框时。
+- 第一次显示显示按钮的对话框时。
     
 - 为按钮发出显示表通知时。 
     
-将_lpulState_参数的内容设置为 MAPI_DISABLED 如果用户无法与按钮和 MAPI_ENABLED 交互 (如果用户可以交互)。 
+将  _lpulState_ 参数的内容设置为 MAPI_DISABLED如果用户无法与按钮交互，MAPI_ENABLED用户是否可交互。 
   
-当用户单击此按钮时, MAPI 调用将**激活**。 **激活**: 执行已与按钮相关联的任务。 此任务可以是适合您的提供程序的任何内容, 如显示对话框或更新属性。 如果该任务因用户取消而失败, 则返回 MAPI_E_USER_CANCEL。 对于失败的其他原因, 请返回相应的错误值。 
+当用户单击该按钮时，MAPI 调用 **Activate**。 **Activate** 执行已与按钮关联的任务。 此任务可以是适用于提供程序的任何内容，例如显示对话框或更新属性。 如果任务由于用户取消而失败，则返回MAPI_E_USER_CANCEL。 对于其他失败原因，请返回相应的错误值。 
   
-如果任务成功, 并且它链接到的属性更改反映在对话框中的另一个控件中, 则调用[ITableData:: HrNotify](itabledata-hrnotify.md)。 调用**HrNotify**时, 将发出显示表通知, 其中包含更改后的属性的**PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) 属性在[TABLE_NOTIFICATION](table_notification.md)结构中。 不要在结构中放置新的属性值;而是在调用[IMAPIProp:: GetProps](imapiprop-getprops.md)时返回它。 尽管通常显示表通知不能用于禁用或启用控件, 但它可以与按钮一起使用。 MAPI 将刷新更改的控件以响应通知。 
+如果任务成功且链接到对话框上另一个控件中反映的属性更改，请调用 [ITableData：：HrNotify](itabledata-hrnotify.md)。 **调用 HrNotify** 以使用已更改属性的 **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) 属性发出显示表通知 [TABLE_NOTIFICATION结构。](table_notification.md) 不要将新属性值放在结构中;相反，在调用 [IMAPIProp：：GetProps 时](imapiprop-getprops.md) 返回它。 尽管显示表通知通常不能用于禁用或启用控件，但它可以与按钮一起使用。 MAPI 将刷新更改的控件以响应通知。 
   
-当**激活**返回除 MAPI_E_USER_CANCEL 之外的错误时, MAPI 会调用控件的**GetLastError**方法。 如果**GetLastError**将扩展的错误信息放在[MAPIERROR](mapierror.md)结构中, 并在_lppMAPIError_参数的内容中返回, 则 MAPI 将为用户显示该信息。 
+当 Activate 返回错误时，MAPI 将调用控件 **的 GetLastError** 方法，而不是MAPI_E_USER_CANCEL。 如果 **GetLastError** 在 [MAPIERROR](mapierror.md) 结构中将扩展的错误信息显示在  _lppMAPIError_ 参数的内容中，则 MAPI 会为用户显示此信息。 
   
 ## <a name="see-also"></a>另请参阅
 

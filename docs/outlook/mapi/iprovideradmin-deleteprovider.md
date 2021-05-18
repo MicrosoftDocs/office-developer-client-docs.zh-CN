@@ -25,7 +25,7 @@ ms.locfileid: "33404860"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-从邮件服务中删除服务提供程序。
+从邮件服务中删除服务提供商。
   
 ```cpp
 HRESULT DeleteProvider(
@@ -37,7 +37,7 @@ HRESULT DeleteProvider(
 
  _lpUID_
   
-> [in, out]指向[MAPIUID](mapiuid.md)结构的指针, 该对象包含表示要删除的提供程序的唯一标识符。 
+> [in， out]指向 [MAPIUID](mapiuid.md) 结构的指针，其中包含表示要删除的提供程序的唯一标识符。 
     
 ## <a name="return-value"></a>返回值
 
@@ -47,21 +47,21 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> 无法识别_lpUID_参数指向的**MAPIUID** 。 
+> 无法识别 _lpUID_ 参数指向的 **MAPIUID。** 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IProviderAdmin::D eleteprovider**方法从邮件服务中删除服务提供程序。 **DeleteProvider**确定要删除的服务提供程序, 方法是将_lpUID_所指向的**MAPIUID**结构与活动服务提供商注册的一组标识符相匹配。 
+**IProviderAdmin：:D eleteProvider** 方法从邮件服务中删除服务提供商。 **DeleteProvider** 将 _lpUID_ 指向的 **MAPIUID** 结构与活动服务提供商注册的标识符集相匹配，确定要删除的服务提供商。 
   
-大多数邮件服务不允许在配置文件正在使用时删除提供程序。 如果要删除的提供程序正在使用中, **DeleteProvider**会将其标记为删除, 而不是立即删除它并返回 S_OK。 如果不再使用该提供程序, 则将其删除。 
+大多数邮件服务不允许在配置文件使用时删除提供程序。 如果正在使用要删除的提供程序 **，DeleteProvider** 会将其标记为删除，而不是立即删除它，并返回S_OK。 当不再使用提供程序时，将删除该提供程序。 
   
- 在从服务中删除提供程序之前, **DeleteProvider**调用邮件服务的入口点函数。 _ulContext_参数设置为 MSG_SERVICE_PROVIDER_DELETE。 邮件服务入口点函数执行以下任务: 
+ **DeleteProvider** 在将提供程序从服务中删除之前调用邮件服务的入口点函数。 _ulContext_ 参数设置为 MSG_SERVICE_PROVIDER_DELETE。 邮件服务入口点函数执行以下任务： 
   
-- 删除服务提供程序。
+- 删除服务提供商。
     
-- 删除服务提供程序的配置文件部分。
+- 删除服务提供商的配置文件部分。
     
-删除提供程序后, 不会再次调用邮件服务入口点函数。
+在删除提供程序后，不会再次调用邮件服务入口点函数。
   
 ## <a name="see-also"></a>另请参阅
 

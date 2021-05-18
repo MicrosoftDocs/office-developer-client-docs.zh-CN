@@ -25,30 +25,30 @@ ms.locfileid: "33405056"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含标准人际邮件 (IPM) "发件箱" 文件夹的条目标识符。 
+包含标准性邮件的条目标识符 (IPM) 发件箱文件夹。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_IPM_OUTBOX_ENTRYID  <br/> |
 |标识符:  <br/> |0x35E2  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |Folder  <br/> |
+|区域：  <br/> |文件夹  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-出站邮件通常在 "发件箱" 文件夹中创建。 人际邮件应放在此文件夹中进行提交。 
+出站邮件通常在发件箱文件夹中创建。 应当将邮件放入此文件夹中进行提交。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e83e409c-f201-df9d-5e30-879adf15318d
-description: 在枚举数中跳过指定数量的帐户。
+description: 跳过枚举器中的指定数目的帐户。
 ms.openlocfilehash: d4063b0ff4852e6932cf50789eea3caa81d4d586
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33404776"
 ---
 # <a name="iolkenumskip"></a>IOlkEnum::Skip
 
-在枚举数中跳过指定数量的帐户。
+跳过枚举器中的指定数目的帐户。
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅[IOlkEnum](iolkenum.md)。
+请参阅 [IOlkEnum](iolkenum.md)。
   
 ```cpp
 HRESULT IOlkEnum::Skip(  
@@ -32,7 +32,7 @@ HRESULT IOlkEnum::Skip(
 
 _cSkip_
   
-> 实时要跳过的帐户数。
+> [in]要跳过的帐户数。
     
 ## <a name="return-values"></a>返回值
 

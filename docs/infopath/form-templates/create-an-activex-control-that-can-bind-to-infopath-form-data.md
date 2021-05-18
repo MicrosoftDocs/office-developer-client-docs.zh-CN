@@ -68,7 +68,7 @@ The **Add or Remove Custom Controls** command on the **Controls** task pane enab
 - 指定数据类型绑定。
     
 > [!NOTE]
-> 如果你在开发 ActiveX 控件并已将其添加到 InfoPath 中的“控件”**** 任务窗格，则在关闭 InfoPath 之前，你将无法重建 ActiveX 控件。 
+> 如果你在开发 ActiveX 控件并已将其添加到 InfoPath 中的“控件”任务窗格，则在关闭 InfoPath 之前，你将无法重建 ActiveX 控件。 
   
 ## <a name="deploy-an-activex-control"></a>部署 ActiveX 控件
 

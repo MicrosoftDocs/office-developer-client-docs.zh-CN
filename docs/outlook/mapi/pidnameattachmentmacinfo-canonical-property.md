@@ -25,35 +25,35 @@ ms.locfileid: "32360926"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含由基于 Macintosh 的电子邮件客户端使用的适当标头和资源分叉数据组成的 [RFC3282] 附件值。
+包含一个 [RFC3282] 附件值，由基于 Macintosh 的电子邮件客户端使用的适当标头和资源分叉数据组成。
   
 |||
 |:-----|:-----|
-|友好名称:  <br/> |无  <br/> |
-|属性集:  <br/> |PSETID_Attachment  <br/> |
-|属性名称:  <br/> |AttachmentMacInfo  <br/> |
+|友好名称：  <br/> |无  <br/> |
+|属性集：  <br/> |PSETID_Attachment  <br/> |
+|属性名称：  <br/> |AttachmentMacInfo  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-有关详细信息, 请参阅 MS-OXCMAIL section 2.2.4.2 Apple File Formats。
+有关详细信息，请参阅 MS-OXCMAIL 部分 2.2.4.2 Apple 文件格式。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

@@ -1,5 +1,5 @@
 ---
-title: PidNameXSharingFlavor 规范属性
+title: PidNameXSharingF功能or 规范属性
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,50 +19,50 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32360884"
 ---
-# <a name="pidnamexsharingflavor-canonical-property"></a>PidNameXSharingFlavor 规范属性
+# <a name="pidnamexsharingflavor-canonical-property"></a>PidNameXSharingF功能or 规范属性
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-表示**dispidSharingFlavor** ([PidLidSharingFlavor](pidlidsharingflavor-canonical-property.md)) 属性的值。
+代表[PidLidSharingF一 (dispidSharingF进行) ](pidlidsharingflavor-canonical-property.md)属性的值。 
   
 |||
 |:-----|:-----|
-|友好名称:  <br/> |无  <br/> |
-|属性集:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|属性名称:  <br/> |X 共享-风格  <br/> |
+|友好名称：  <br/> |无  <br/> |
+|属性集：  <br/> |PS_INTERNET_HEADERS  <br/> |
+|属性名称：  <br/> |X-Sharing-Flavor  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**dispidSharingFlavor**属性必须为下列值之一。 
+**dispidSharingF一or** 属性必须是下列值之一。 
   
 |**值**|**共享邮件的类型**|
 |:-----|:-----|
 |0x00020310  <br/> |特殊文件夹的共享邀请。  <br/> |
-|0x00000310  <br/> |对不是特殊文件夹的文件夹的共享邀请。  <br/> |
+|0x00000310  <br/> |非特殊文件夹的文件夹的共享邀请。  <br/> |
 |0x00020500  <br/> |共享请求。  <br/> |
-|0x00020710  <br/> |一个特殊文件夹的共享邀请和收件人的等效特殊文件夹的共享请求。  <br/> |
+|0x00020710  <br/> |特殊文件夹的共享邀请和收件人的等效特殊文件夹的共享请求。  <br/> |
 |0x00025100  <br/> |拒绝请求的共享响应。  <br/> |
-|0x00023310  <br/> |接受请求的共享响应 (也是一种共享邀请)。  <br/> |
+|0x00023310  <br/> |接受请求的共享响应 (一种类型的共享邀请) 。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > 在客户端之间共享邮箱文件夹。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

@@ -25,34 +25,34 @@ ms.locfileid: "33404839"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果 nondelivery 报表仅适用于通讯组列表的离散成员而不是整个列表, 则该参数包含 TRUE。 
+如果未送达报告仅适用于通讯组列表的离散成员，而不是整个列表，则包含 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DISCRETE_VALUES  <br/> |
 |标识符:  <br/> |0x0E0E  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |MAPI 非传输  <br/> |
+|区域：  <br/> |MAPI 不可传输  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-当无法将邮件传递给通讯组列表的一个或多个成员时, 将在 nondelivery 报告中使用此属性。 其目的是将重新传输尝试限制为仅对单个成员进行, 而不是将通讯组列表限制为一个整体。 
+当邮件无法传递到通讯组列表的一个或多个成员时，将在未送达报告中使用此属性。 它的目的是将重新传输尝试限制为仅这些单个成员，而不是整个通讯组列表。 
   
-nondelivery 报表的 "收件人" 表包含邮件无法传递到的所有收件人的条目, 以及它们所属的通讯组列表 (如果有)。 对于每个通讯组列表条目, 传输提供程序应将此属性设置为 TRUE, 并且应复制**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))、 **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 和**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 从通讯组列表到**PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md))、 **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) 和**PR_ORIGINAL_SEARCH_KEY** ([PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) 属性分配给该通讯组列表中的每个成员。 
+未送达报告的收件人表包含邮件无法传递到的所有收件人的条目，以及这些收件人所属的通讯组列表（如果有）的条目。 传输提供程序应针对每个通讯组列表条目将此属性设置为 TRUE，并且应复制 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 、PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) ， 和 **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 从通讯组列表到 **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)) 、PR_ORIGINAL_ENTRYID ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) 以及该通讯组列表每个成员 PR_ORIGINAL_SEARCH_KEY **(** [PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) 属性。  
   
- 不应为除通讯组列表之外的任何 nondelivery 报告收件人条目设置**PR_DISCRETE_VALUES** 。 
+ **PR_DISCRETE_VALUES** 通讯组列表外的任何未送达报告收件人条目设置邮件。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

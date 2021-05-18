@@ -22,17 +22,17 @@ ms.locfileid: "33421905"
   
 ## <a name="syntax"></a>语法
 
-COSH ( *angle*) 
+COSH ( *角度*)  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |必需  <br/> |**数值** <br/> |要获取其双曲余弦值的角度。  <br/> |
+| _angle_ <br/> |必需  <br/> |**Numeric** <br/> |要获取其双曲余弦值的角度。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-COSH 函数使用弧度, 除非您以*角度*指定不同的度量单位。 
+COSH 函数使用弧度，除非你在 angle 中指定了不同的度量  *单位*  。 
   
 ## <a name="example"></a>示例
 

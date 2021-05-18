@@ -28,11 +28,11 @@ int OpenSession(WCHAR *Params)
 
 _参数_
   
-> 指向会话的参数的以分号分隔的 UNICODE 字符串的指针。 Excel 不使用此参数。
+> 指向会话参数的以分号分隔的 UNICODE 字符串的指针。 Excel不使用此参数。
     
 ## <a name="return-value"></a>返回值
 
-在对群集连接器的其他调用中使用的会话 ID (如果已成功创建会话);否则**xlHpcRetCallFailed**。
+要用于对群集连接器的其他调用的会话 ID（如果已成功创建会话）;否则 **为 xlHpcRetCallFailed**。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,35 +25,35 @@ ms.locfileid: "32303036"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示**dispidTaskOwner** ([PidLidTaskOwner](pidlidtaskowner-canonical-property.md)) 属性的准确性。
+指示 **dispidTaskOwner (** [PidLidTaskOwner](pidlidtaskowner-canonical-property.md)) 的准确性。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskFFixOffline  <br/> |
-|属性集:  <br/> |PSETID_Task  <br/> |
-|长 ID (盖子):  <br/> |0x0000812C  <br/> |
+|属性集：  <br/> |PSETID_Task  <br/> |
+|LONG ID (的一) ：  <br/> |0x0000812C  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果**dispidTaskFFixOffline**属性设置为 FALSE 或未设置, 则**dispidTaskOwner**属性的值是正确的。 如果将**dispidTaskFFixOffline**设置为 TRUE, 则客户端将无法确定**dispidTaskOwner**的准确值。 在这种情况下, 客户端可以将**dispidTaskOwner**设置为通用所有者名称, 例如 "Unknown"。 但是, 如果客户端遇到**dispidTaskFFixOffline**值 TRUE, 并且可以确定准确的所有者名称, 客户端应更新**dispidTaskOwner**并将**dispidTaskFFixOffline**设置为 FALSE。 
+如果 **dispidTaskFFixOffline** 属性设置为 FALSE 或未设置， **则 dispidTaskOwner** 属性的值是正确的。 如果 **dispidTaskFFixOffline** 设置为 TRUE，则客户端无法确定 **dispidTaskOwner** 的准确值。 在这种情况下，客户端可以将 **dispidTaskOwner** 设置为通用所有者名称，例如"Unknown"。 但是，如果客户端遇到 TRUE **的 dispidTaskFFixOffline** 值，并且可以确定准确的所有者名称，则客户端应更新 **dispidTaskOwner，** 将 **dispidTaskFFixOffline** 设置为 FALSE。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。 
+> 定义几个对象，这些对象对任务、任务分配和任务更新的电子等效项建模。 
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

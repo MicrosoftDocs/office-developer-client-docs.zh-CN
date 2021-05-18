@@ -25,37 +25,37 @@ ms.locfileid: "32359869"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示创建异常时计算机的本地时区中的异常结束日期和时间。
+指示创建异常时计算机本地时区的异常的结束日期和时间。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_EXCEPTION_ENDTIME  <br/> |
 |标识符:  <br/> |0x7FFC  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
-|区域：  <br/> |邮件类定义的非传输  <br/> |
+|区域：  <br/> |邮件类定义的不可传输  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 > [!NOTE]
-> 此属性是信息性的, 不得依赖于关键信息。 
+> 此属性是信息性的，不得依赖它获取关键信息。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

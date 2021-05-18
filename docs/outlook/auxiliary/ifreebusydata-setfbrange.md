@@ -20,7 +20,7 @@ ms.locfileid: "33421660"
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅[IFreeBusyData](ifreebusydata.md)。
+请参阅 [IFreeBusyData](ifreebusydata.md)。
   
 ```cpp
 HRESULT SetFBRange(
@@ -33,19 +33,19 @@ HRESULT SetFBRange(
 
 _rtmStart_
   
-> 实时忙/闲信息开始的相对时间值。 此值是自1601年1月1日以来的分钟数。
+> [in]忙/闲信息开始的相对时间值。 此值是自 1601 年 1 月 1 日起的分钟数。
     
 _rtmEnd_
   
-> 实时忙/闲信息结束的相对时间值。 此值是自1601年1月1日以来的分钟数。
+> [in]忙/闲信息结尾的相对时间值。 此值是自 1601 年 1 月 1 日起的分钟数。
     
 ## <a name="return-values"></a>返回值
 
 如果该调用成功，则返回 S_OK否则为一个错误代码。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此方法用于指示要检索其详细信息的日历项目的时间范围。 *ftmStart*和*ftmEnd*的值在随后对[IFreeBusyData:: GetFBPublishRange](ifreebusydata-getfbpublishrange.md)的调用中进行缓存和返回。
+此方法用于指示要检索其详细信息的日历项目的时区。 *ftmStart* 和 *ftmEnd* 的值在 [IFreeBusyData：：GetFBPublishRange](ifreebusydata-getfbpublishrange.md)的后续调用中缓存并返回。
   
 ## <a name="see-also"></a>另请参阅
 

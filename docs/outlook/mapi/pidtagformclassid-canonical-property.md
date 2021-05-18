@@ -25,16 +25,16 @@ ms.locfileid: "33404755"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含128位对象的链接和嵌入 (OLE) 窗体的全局唯一标识符 (GUID)。 
+包含 128 位对象链接和嵌入 (OLE) 表单的 GUID (全局唯) 标识符。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FORM_CLSID  <br/> |
 |标识符:  <br/> |0x3302  <br/> |
 |数据类型：  <br/> |PT_CLSID  <br/> |
-|区域：  <br/> |MAPI 通用  <br/> |
+|区域：  <br/> |MAPI common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 [MAPIUID](mapiuid.md)结构包含唯一标识符的定义。 
   
@@ -42,13 +42,13 @@ ms.locfileid: "33404755"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

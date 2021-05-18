@@ -25,35 +25,35 @@ ms.locfileid: "32303078"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示任务最初是由当前用户或用户代理 (而不是处理任务请求) 创建的。
+指示任务最初是由当前用户或用户代理创建的，而不是通过处理任务请求创建的。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskFCreator  <br/> |
-|属性集:  <br/> |PSETID_Task  <br/> |
-|长 ID (盖子):  <br/> |0x0000811E  <br/> |
+|属性集：  <br/> |PSETID_Task  <br/> |
+|LONG ID (的一) ：  <br/> |0x0000811E  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-当用户创建任务时, 客户端将此属性设置为 TRUE, 并在其他用户分配任务时将此属性设置为 FALSE。 如果不设置此属性, 则假定值为 TRUE。
+当用户创建任务时，客户端将此属性设置为 TRUE;如果任务由另一个用户分配，则此属性将设置为 FALSE。 如果该属性未设置，则假定值为 TRUE。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。
+> 定义几个对象，这些对象对任务、任务分配和任务更新的电子等效项建模。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

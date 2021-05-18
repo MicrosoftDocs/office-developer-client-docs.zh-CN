@@ -40,23 +40,23 @@ HRESULT CreateProfile(
 
  _lpszProfileName_
   
-> 实时指向新配置文件的名称的指针。
+> [in]指向新配置文件的名称的指针。
     
  _lpszPassword_
   
-> 实时指向新配置文件的密码的指针。 
+> [in]指向新配置文件的密码的指针。 
     
  _ulUIParam_
   
-> 实时此方法显示的任何对话框或窗口的父窗口的句柄。
+> [in]该方法显示的任何对话框或窗口的父窗口的句柄。
     
  _ulFlags_
   
-> 实时用于控制如何创建配置文件的标志的位掩码。 可以设置以下标志:
+> [in]控制配置文件创建方式的标志的位掩码。 可以设置以下标志：
     
 MAPI_DEFAULT_SERVICES 
   
-> MAPI 应使用包含在 mapisvc.inf 文件的 [默认服务] 部分中的邮件服务来填充新配置文件。
+> MAPI 应该使用 Mapisvc.inf 文件的 [默认服务] 部分中包含的邮件服务填充新配置文件。
     
 MAPI_DIALOG 
   
@@ -66,31 +66,31 @@ MAPI_DIALOG
 
 S_OK 
   
-> 已创建新的配置文件。
+> 已创建新配置文件。
     
 MAPI_E_NO_ACCESS 
   
 > 指定的新配置文件已存在。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IProfAdmin:: CreateProfile**方法创建一个新的配置文件。 
+**IProfAdmin：：CreateProfile** 方法创建新的配置文件。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-您可以在应用程序安装时或在会话过程中的任何时间调用**CreateProfile** 。 在安装时调用此方法时, 许多配置设置来自 mapisvc.inf 配置文件。 在活动会话过程中调用此方法时, 这些设置将来自通过一系列属性表提示的用户。 
+您可以在应用程序安装时或在会话期间随时调用 **CreateProfile。** 在安装时调用此方法时，许多配置设置都来自 Mapisvc.inf 配置文件。 在活动会话期间调用此方法时，设置来自通过一系列属性表提示的用户。 
   
-如果在_ulFlags_参数中设置了 MAPI_DEFAULT_SERVICES 标志, 则**CreateProfile**会为 mapisvc.inf 文件中的 [默认服务] 部分中的每个邮件服务调用邮件服务入口点函数。 调用每个邮件服务入口点函数时, _ulContext_参数设置为 MSG_SERVICE_CREATE。 
+如果在  _ulFlags_ 参数中设置了 MAPI_DEFAULT_SERVICES 标志 **，CreateProfile** 将调用 Mapisvc.inf 文件的 [Default Services] 部分中每个邮件服务的邮件服务入口点函数。 调用每个邮件服务入口点函数时  _，ulContext_ 参数设置为 MSG_SERVICE_CREATE。 
   
-如果同时设置了 MAPI_DIALOG 和 MAPI_DEFAULT_SERVICES 标志, 则_ulUIParam_和_ulFlags_参数中的值也会传递给邮件服务入口点函数。 仅在将 mapisvc.inf 文件中的所有可用信息添加到配置文件后, 才会调用邮件服务入口点函数。 
+如果同时设置了 MAPI_DIALOG 和 MAPI_DEFAULT_SERVICES 标志，  _则 ulUIParam_ 和  _ulFlags_ 参数中的值也会传递给邮件服务入口点函数。 仅在将 Mapisvc.inf 文件的所有可用信息添加到配置文件后，才调用邮件服务入口点函数。 
   
-新配置文件的名称及其密码的长度最长为64个字符, 并且可以包含以下字符:
+新配置文件的名称及其密码的长度最多为 64 个字符，可以包含下列字符：
   
-- 所有字母数字字符, 包括重音字符和下划线字符。
+- 所有字母数字字符，包括重音字符和下划线字符。
     
-- 嵌入空格, 但不能是前导空格或尾随空格。
+- 嵌入空格，但不包括前导或尾随空格。
     
-_lpszPassword_参数必须为 NULL 或指向零长度字符串的指针。 
+_lpszPassword_ 参数必须为 NULL 或指向零长度字符串的指针。 
   
 ## <a name="see-also"></a>另请参阅
 

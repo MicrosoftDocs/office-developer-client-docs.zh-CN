@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm375
 localization_priority: Normal
 ms.assetid: dac82a4f-4508-541a-e118-7d79df987232
-description: 确定形状的填充图案。 要指定自定义的填充图案，请使用本单元格中的 USE 函数。
+description: 确定形状的填充图案。要指定自定义的填充图案，请使用本单元格中的 USE 函数。
 ms.openlocfilehash: 340ccdc9f3819fb29e210832107e270bd302433c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33422927"
 ---
 # <a name="fillpattern-cell-fill-format-section"></a>FillPattern 单元格（“Fill Format”内容）
 
-确定形状的填充图案。 要指定自定义的填充图案，请使用本单元格中的 USE 函数。
+确定形状的填充图案。要指定自定义的填充图案，请使用本单元格中的 USE 函数。
   
 |**值**|**说明**|
 |:-----|:-----|
@@ -26,7 +26,7 @@ ms.locfileid: "33422927"
 |1  <br/> |前景纯色。  <br/> |
 |2 - 40  <br/> |各种类型的填充图案，与 **“填充”** 对话框中的索引项相对应。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 您还可以使用 **“填充”** 对话框设置此值（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“填充”**，然后单击 **“填充选项”**）。
   

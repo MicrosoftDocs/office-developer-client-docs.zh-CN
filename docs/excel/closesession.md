@@ -28,11 +28,11 @@ int CloseSession(int SessionId)
 
 _SessionId_
   
-> 要关闭的会话的 ID。 此值必须与[OpenSession](opensession.md)返回的值相匹配。
+> 要关闭的会话的 ID。 此值必须与 [OpenSession 返回的值匹配](opensession.md)。
     
 ## <a name="return-value"></a>返回值
 
-如果会话已关闭, 则为**xlHpcRetSuccess** ;**xlHpcRetInvalidSessionId**如果_SessionId_参数无效, 则为有关其他故障的**xlHpcRetCallFailed** 。 
+**xlHpcRetSuccess（** 如果会话已关闭）;**xlHpcRetInvalidSessionId** 如果 _SessionId_ 参数无效;**其他故障时为 xlHpcRetCallFailed。** 
   
 ## <a name="see-also"></a>另请参阅
 

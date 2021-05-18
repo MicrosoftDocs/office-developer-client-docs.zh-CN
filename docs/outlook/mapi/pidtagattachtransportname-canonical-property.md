@@ -25,7 +25,7 @@ ms.locfileid: "32361066"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含修改的附件文件的名称, 以便可以将其与 TNEF 邮件相关联。 
+包含修改的附件文件的名称，以便它可以与 TNEF 邮件关联。 
   
 |||
 |:-----|:-----|
@@ -34,29 +34,29 @@ ms.locfileid: "32361066"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 TNEF 和传输提供程序使用这些属性。 它们通常对客户端应用程序不可用。 
   
-当基础邮件系统不支持提供的文件名时, TNEF 通常会使用这些属性。 例如, 当用户附加多个具有相同名称的文件 (如5个名为 CONFIG 的文件) 时, 将使用这些文件。http.sys. 传输提供程序必须修改名称以确保它们是唯一的。 每个修改的名称都会显示在其附件的**PR_ATTACH_TRANSPORT_NAME**和关联属性中。 
+当基础邮件系统不支持提供的文件名时，TNEF 通常使用这些属性。 例如，当用户连接多个同名的文件（如五个名为 CONFIG.SYS）时，会使用CONFIG.SYS。 传输提供程序必须修改名称以确保它们是唯一的。 每个修改后的名称都将显示在其 **附件的PR_ATTACH_TRANSPORT_NAME** 关联的属性中。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

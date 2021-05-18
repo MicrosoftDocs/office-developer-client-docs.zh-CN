@@ -25,35 +25,35 @@ ms.locfileid: "32360940"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 [RFC3282] 接受语言标头字段值。
+包含一个 [RFC3282] Accept-Language标头字段值。
   
 |||
 |:-----|:-----|
-|友好名称:  <br/> |AcceptLanguage  <br/> |
-|属性集:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|属性名称:  <br/> |Accept-Language  <br/> |
+|友好名称：  <br/> |AcceptLanguage  <br/> |
+|属性集：  <br/> |PS_INTERNET_HEADERS  <br/> |
+|属性名称：  <br/> |Accept-Language  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-若要设置此属性的值, 多用途 Internet 邮件扩展 (MIME) 客户端应使用所需的值来编写接受语言标头字段。 MIME 客户端可以改为写入 X-接受语言的标头字段。 MIME 阅读器应将任一头字段的值复制到该属性的值。 如果同时存在这两个标头字段, 则 MIME 阅读器应使用 Accept a Language 标头字段。
+若要设置此属性的值，MIME 客户端的多用途 Internet 邮件扩展 (MIME) 编写具有所需值的 Accept-Language 头字段。 MIME 客户端可以改为编写 X-Accept-Language 头字段。 MIME 读者应该将任一头字段的值复制到此属性的值。 如果存在这两个头字段，则 MIME 读者应该使用 Accept-Language 头字段。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

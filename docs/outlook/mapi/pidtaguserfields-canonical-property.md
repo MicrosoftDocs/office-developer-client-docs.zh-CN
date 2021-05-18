@@ -21,7 +21,7 @@ ms.locfileid: "32360737"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含有关用户定义的字段的名称、数据类型和其他信息。
+包含有关数据类型字段的名称、名称和其他信息。
   
 |||
 |:-----|:-----|
@@ -30,28 +30,28 @@ ms.locfileid: "32360737"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 文件夹  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-对于每个项目, Outlook 将所有用户定义的字段的定义存储在相应的**IMessage**对象的[PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md)属性中。 **PidLidPropertyDefinitionStream**属性包含一个称为[PropertyDefinition](propertydefinition-stream-structure.md)的二进制流, 其中包含字段定义。 有关字段定义的流结构的详细信息, 请参阅[stream 结构](stream-structures.md)。
+对于每个项，Outlook定义字段的定义存储在相应 **IMessage** 对象的 [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md)属性中。 **PidLidPropertyDefinitionStream** 属性包含一个称为 [PropertyDefinition](propertydefinition-stream-structure.md)的二进制流，其中包含字段定义。 有关字段定义的流结构详细信息，请参阅 [Stream Structures](stream-structures.md)。
   
-对于每个文件夹, Outlook 会在邮件类 IPC.MS 的相关邮件的**PidTagUserFields**属性中存储该文件夹中所有用户定义的字段的定义。REN.USERFIELDS-每个文件夹假定在其关联的内容表中不包含此类的一条消息。 
+对于每个文件夹，Outlook邮件类关联的邮件的 **PidTagUserFields** 属性中存储该文件夹中所有用户定义字段 IPC.MS。REN。USERFIELDS - 每个文件夹假定在其关联内容表中包含此类的邮件不超过一条。 
   
 > [!NOTE]
-> 文件夹中用户定义的字段集可能并不一定与其每个项目中的用户定义字段集相匹配。 
+> 文件夹中的用户定义字段集不一定与其中每个项中的用户定义字段集匹配。 
   
-文件夹中用户定义的字段集显示在 Outlook UI 中的不同位置, 如文件夹的字段选择器。 邮件的**PidTagUserFields**属性包含二进制流**FolderUserFields**, 其中包含文件夹字段定义。 有关文件夹字段定义的流结构的详细信息, 请参阅[folder Fields stream 结构](folder-fields-stream-structures.md)和[FolderUserFields stream Sample](folderuserfields-stream-sample.md)。
+文件夹中的用户定义字段集显示在用户界面中Outlook位置，例如文件夹的字段选择器。 邮件的 **PidTagUserFields** 属性包含二进制流 **FolderUserFields**，其中包含文件夹字段定义。 有关文件夹字段定义的流结构详细信息，请参阅 Folder Fields [Stream Structures](folder-fields-stream-structures.md) 和 [FolderUserFields Stream Sample](folderuserfields-stream-sample.md)。
   
 ## <a name="section-heading"></a>节标题
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
@@ -59,11 +59,11 @@ mapidefs。h
 
 
 
-[Outlook 项目和字段](outlook-items-and-fields.md)
+[Outlook项目和字段](outlook-items-and-fields.md)
   
-[为新的用户定义的字段添加定义](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[添加新字段User-Defined定义](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
-[PropertyDefinition 流示例](propertydefinition-stream-sample.md)
+[PropertyDefinition Stream 示例](propertydefinition-stream-sample.md)
   
 [MAPI 属性](mapi-properties.md)
   

@@ -18,20 +18,20 @@ ms.locfileid: "33421828"
 ---
 # <a name="ellipse-row-geometry-section"></a>Ellipse 行（“Geometry”内容）
 
-包含椭圆中心点和椭圆上的两个点的*x*坐标和*y*坐标。 
+包含椭圆中心点和椭圆上的两个点的  *x*  坐标和  *y*  坐标。 
   
 Ellipse 行包含以下单元格。
   
-|**单元格**|**说明**|
+|**Cell**|**说明**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |中心点的*x*坐标。  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |中心点的*y*坐标。  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |椭圆上的一个点的 x 坐标;与 B 单元格所表示的*y*坐标配对。  <br/> |
-|[黑白](b-cell-geometry-section.md) <br/> |椭圆上某一点的*y*轴坐标值。与 A 单元格所表示的 x 坐标配对。  <br/> |
-|[lc](c-cell-geometry-section.md) <br/> |椭圆上另一个点的*x*坐标;与 D 单元格所表示的*y*坐标配对。  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |椭圆上另一个点的*y*坐标;与 C 单元格所表示的*y*坐标配对。  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |中心点的  *x*  坐标。  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |*中心点的 y* 坐标。  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |椭圆上一个点的 x 坐标;与 B 单元格表示的  *y*  坐标配对。  <br/> |
+|[B](b-cell-geometry-section.md) <br/> |椭圆上一个点的  *y*  坐标;与由 A 单元格表示的 x 坐标配对。  <br/> |
+|[C](c-cell-geometry-section.md) <br/> |椭圆上另一个点的  *x*  坐标;与由 D 单元格表示的  *y*  坐标配对。  <br/> |
+|[D](d-cell-geometry-section.md) <br/> |椭圆上另一个点的  *y*  坐标;与 C 单元格表示的  *y*  坐标配对。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 包含 Ellipse 行或 InfiniteLine 行的“Geometry”内容不应包含任何其他行。
   

@@ -21,11 +21,11 @@ ms.locfileid: "33422472"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将列添加或移动到现有表的开头。
+向现有表格的开头添加或移动列。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapiutil  <br/> |
+|标头文件：  <br/> |mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序和服务提供程序。  <br/> |
    
@@ -42,29 +42,29 @@ HRESULT HrAddColumns(
 
  _lptbl_
   
-> 实时指向受影响的 MAPI 表的指针。
+> [in]指向受影响的 MAPI 表的指针。
     
  _lpproptagColumnsNew_
   
-> 实时指向**SPropTagArray**结构的指针, 该结构包含要添加或移动到表开头的属性的属性标记数组。 
+> [in]指向 **SPropTagArray** 结构的指针，其中包含要添加或移动到表开头的属性的属性标记数组。 
     
  _lpAllocateBuffer_
   
-> 实时指向**MAPIAllocateBuffer**函数的指针。 用于分配内存。 
+> [in]指向 **MAPIAllocateBuffer 函数的** 指针。 用于分配内存。 
     
  _lpFreeBuffer_
   
-> 实时指向**MAPIFreeBuffer**函数的指针。 用于释放内存。 
+> [in]指向 **MAPIFreeBuffer 函数的** 指针。 用于释放内存。 
     
 ## <a name="return-value"></a>返回值
 
  **S_OK**
   
-> 调用成功, 并已移动或添加指定的列。
+> 调用成功，并移动或添加指定的列。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**HrAddColumns**函数等效于使用_lpfnFilterColumns_设置为 NULL 的**HrAddColumnsEx** 。 
+**HrAddColumns** 函数等效于将 **HrAddColumnsEx** 与 _将 lpfnFilterColumns_ 设置为 NULL。 
   
 ## <a name="see-also"></a>另请参阅
 

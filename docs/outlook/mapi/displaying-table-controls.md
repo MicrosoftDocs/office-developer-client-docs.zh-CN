@@ -21,7 +21,7 @@ ms.locfileid: "33422689"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-有许多不同类型的控件, MAPI 都不唯一。 但是, MAPI 定义了自己的结构, 这些结构与[BuildDisplayTable](builddisplaytable.md)结合使用, 以描述每个控件所涉及的独特数据集。 
+有很多不同类型的控件，MAPI 没有唯一的控件。 但是，MAPI 定义自己的结构，与 [BuildDisplayTable](builddisplaytable.md) 结合使用来描述每个控件所涉及的唯一数据集。 
   
 下表列出了描述每种类型的控件的结构。 
   
@@ -31,14 +31,14 @@ ms.locfileid: "33422689"
 |[DTBLCHECKBOX](dtblcheckbox.md) <br/> |描述复选框控件。  <br/> |
 |[DTBLCOMBOBOX](dtblcombobox.md) <br/> |描述组合框控件。  <br/> |
 |[DTBLDDLBX](dtblddlbx.md) <br/> |描述下拉列表框控件。  <br/> |
-|[DTBLEDIT](dtbledit.md) <br/> |介绍编辑控件。  <br/> |
+|[DTBLEDIT](dtbledit.md) <br/> |描述编辑控件。  <br/> |
 |[DTBLGROUPBOX](dtblgroupbox.md) <br/> |描述分组框控件。  <br/> |
-|[DTBLLABEL](dtbllabel.md) <br/> |介绍标签控件。  <br/> |
+|[DTBLLABEL](dtbllabel.md) <br/> |描述标签控件。  <br/> |
 |[DTBLLBX](dtbllbx.md) <br/> |描述列表框控件。  <br/> |
-|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |介绍多值下拉列表框控件。  <br/> |
+|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |描述多值下拉列表框控件。  <br/> |
 |[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |描述多值列表框控件。  <br/> |
-|[DTBLPAGE](dtblpage.md) <br/> |介绍选项卡式页面控件。  <br/> |
-|[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |介绍选项按钮控件。  <br/> |
+|[DTBLPAGE](dtblpage.md) <br/> |描述选项卡式页面控件。  <br/> |
+|[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |描述选项按钮控件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -19,19 +19,19 @@ ms.locfileid: "33405553"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-store API 提供了各种存储提供程序的其他存储功能。 它提供以下 defintions、数据类型、属性和接口。
+应用商店 API 为存储提供程序提供杂项存储功能。 它提供以下定义、数据类型、属性和接口。
   
 定义：
   
-- [Store API 的常量](mapi-constants.md)
+- [应用商店 API 的常量](mapi-constants.md)
     
-数据类型:
+数据类型：
   
 - **[INDEX_SEARCH_PUSHER_PROCESS](index_search_pusher_process.md)**
     
 - **[MSCAP_SELECTOR](mscap_selector.md)**
     
-命名属性:
+命名属性：
   
 - **[ArchiveSourceSupportMask](archivesourcesupportmask.md)**
     
@@ -41,12 +41,12 @@ store API 提供了各种存储提供程序的其他存储功能。 它提供以
     
 - **[隐藏会议更新选项](hide-meeting-update-option-property.md)**
     
-- **[将商店类型设为私有](make-store-type-private-property.md)**
+- **[使应用商店类型成为私有](make-store-type-private-property.md)**
     
 - **[NoFolderScan](nofolderscan.md)**
     
 > [!NOTE]
-> 不需要这些命名属性提供的任何功能的存储提供程序只需忽略它们, 而不能在**IMAPIProp**接口中实现支持。 由于这些属性是在 microsoft outlook 2003 Service Pack 1 中开始提供的, 因此在 microsoft outlook 的早期版本中将其添加到存储中不起作用。 如果它们不存在或其值为**false**, 则忽略它们。 
+> 不需要这些命名属性提供的任何功能的存储提供程序可以忽略它们，而不是 **在 IMAPIProp** 接口中实现支持。 由于这些属性从 Microsoft Outlook 2003 Service Pack 1 开始提供，因此将它们添加到 Microsoft Outlook 早期版本的应用商店不起作用。 如果它们不存在或其值为 false ，则忽略 **它们**。 
   
 属性：
   
@@ -66,12 +66,12 @@ store API 提供了各种存储提供程序的其他存储功能。 它提供以
     
 - **[IProxyStoreObject](iproxystoreobject.md)**
     
-## <a name="registering-stores-for-indexing"></a>为索引注册存储
+## <a name="registering-stores-for-indexing"></a>注册存储以编制索引
 
-MAPI 协议处理程序将检查 Windows 注册表, 以查找它应为搜索而编制索引的存储。 必须在 Windows 注册表中注册要编制索引的存储提供程序。 有关在 outlook 2013 或 outlook 2010 中为编制索引注册存储提供程序的详细信息, 请参阅[关于注册索引存储区](about-registering-stores-for-indexing.md)。
+MAPI 协议处理程序Windows注册表中查找出于搜索目的应编制索引的存储区。 必须在注册表中注册要编制索引Windows提供程序。 有关在 Outlook 2013 或 Outlook 2010 中注册存储提供程序以编制索引的信息，请参阅关于为索引注册[存储](about-registering-stores-for-indexing.md)。
   
 ## <a name="indexing-stores"></a>索引存储
 
-mapi 存储提供程序可以选择允许 MAPI 协议处理程序对存储区中的邮件进行爬网和索引, 或仅当存在要编制索引的邮件时才将通知发送到索引器。 有关基于通知的索引的详细信息, 请参阅[关于基于通知的存储索引](about-notification-based-store-indexing.md)。
+MAPI 存储提供程序可以选择允许 MAPI 协议处理程序对存储中的邮件进行爬网和编制索引，或者仅在有要编制索引的消息时向索引器发送通知。 有关基于通知的索引功能详细信息，请参阅关于Notification-Based [存储索引](about-notification-based-store-indexing.md)。
   
 

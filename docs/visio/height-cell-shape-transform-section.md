@@ -20,7 +20,7 @@ ms.locfileid: "33422864"
 
 确定以绘图单位表示的形状的高度。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Height 单元格的引用，请使用： 
   

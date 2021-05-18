@@ -1,5 +1,5 @@
 ---
-title: 托管 Outlook 加载项开发最佳做法
+title: 开发托管 Outlook 加载项的最佳做法
 TOCTitle: Best practices in developing managed Outlook add-ins
 ms:assetid: a03246f6-2ca5-4fcb-8e63-a11cfbc8d9a0
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb611563(v=office.15)

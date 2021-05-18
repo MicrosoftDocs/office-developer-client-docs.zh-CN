@@ -151,9 +151,9 @@ myDate.SetValue(strCurDate)
   
 ### <a name="selecting-and-setting-a-set-of-repeating-nodes"></a>选择和设置一组重复节点
 
-若要指定一组为不确定数字的重复字段或组，请使用 **XPathNavigator** 类的 **Select** 方法。 此方法会返回一个 XPathNodeIterator 对象，你可以使用该对象迭代指定的节点集合。 
+若要指定一组不定数量的重复域或组，请使用 **XPathNavigator** 类的 **Select** 方法。此方法返回一个 XPathNodeIterator 对象，您可使用该对象来循环访问指定的节点集合。 
   
-下面的示例假定你的表单模板包含一个绑定到名为 `field1` 的重复元素的**项目符号列表**或类似的重复控件。 字段的 XPath 传递给 **Select** 方法，返回的 **XPathNodeIterator** 分配给 `nodes` 变量。 使用 MoveNext 方法迭代节点集合，使用 Current 属性返回位于当前节点上的 **XPathNavigator** 对象。 最后，使用 **Value** 属性检索并显示每个重复字段的值。 
+The following example assumes that your form template contains a **Bulleted List** or similar repeating control that is bound to a repeating element named  `field1`. The XPath of the field is passed to the **Select** method, and the returned **XPathNodeIterator** is assigned to the  `nodes` variable. You use the MoveNext method to iterate over the collection of nodes, and the Current property to return an **XPathNavigator** object positioned on the current node. Finally, use the **Value** property to retrieve and display the value of each repeating field. 
   
 ```cs
 string message = String.Empty;
@@ -278,7 +278,7 @@ MessageBox.Show("External data source XML: " &amp; _
   
 1. 使用 **DataSource** 类的 **CreateNavigator** 方法创建一个名为 repeatingTableRow1 的 **XPathNavigator** 对象变量，默认情况下该对象变量位于表单的基础 XML 文档（主数据源）的根节点处。
     
-2. 使用 **XPathNavigator** 类的 **SelectSingleNode** 方法将 **XPathNavigator** 对象的位置移到“重复表”**** 控件的第一行，该控件绑定到数据源中的 group2。 
+2. 使用 **XPathNavigator** 类的 **SelectSingleNode** 方法将 **XPathNavigator** 对象的位置移到“重复表”控件的第一行，该控件绑定到数据源中的 group2。 
     
 3. 将 repeatingTableRow1 对象变量传递到 **View** 类的 **SelectNodes** 方法，以选择该行中的节点。 
     

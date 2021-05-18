@@ -38,21 +38,21 @@ HRESULT MakeIconFromBinary(
 
  _nPropID_
   
-> 实时icon 属性的属性标识符。
+> [in]图标属性的属性标识符。
     
  _phicon_
   
-> 排除指向返回图标的指针。
+> [out]指向返回的图标的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端应用程序调用**IMAPIFormInfo:: MakeIconFromBinary**方法, 以根据窗体的图标属性之一构建图标。 在_nPropID_参数中, **MakeIconFromBinary**采用表单的图标属性之一的属性标识符。 使用此属性标识符, 它将构建一个图标, 该图标可显示在包含图标属性列的表格视图中。 
+客户端应用程序调用 **IMAPIFormInfo：：MakeIconFromBinary** 方法，以从表单的图标属性之一生成图标。 在  _nPropID_ 参数中 **，MakeIconFromBinary** 采用表单的图标属性之一的属性标识符。 通过使用此属性标识符，它构建了一个可在表视图中显示的图标，其中包括图标的属性列。 
   
 ## <a name="see-also"></a>另请参阅
 

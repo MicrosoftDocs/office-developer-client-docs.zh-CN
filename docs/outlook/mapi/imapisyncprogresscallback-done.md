@@ -25,7 +25,7 @@ ms.locfileid: "33422346"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
- 通知 Microsoft Outlook 同步已完成。 
+ 通知 Microsoft Outlook同步已完成。 
   
 ```cpp
 HRESULT Done(
@@ -38,17 +38,17 @@ HRESULT Done(
 
  **hThreadDoneEvent**
   
-> 传递回的事件, 以允许 Microsoft Outlook 关闭该句柄。 它可以是 NULL。
+> 传递回以允许 Microsoft Outlook关闭句柄的事件。 它可以是 NULL。
     
  **hResult**
   
-> HRESULT, 用于指示进度的最终状态。
+> 一个 HRESULT，指示进度的最终状态。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -21,7 +21,7 @@ ms.locfileid: "32286564"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定与 microsoft Outlook 配置文件中的帐户连接的 microsoft Exchange Server 版本的相关信息。
+指定有关 Microsoft Microsoft Exchange Server配置文件中帐户Outlook版本的信息。
   
 ## 
 
@@ -32,35 +32,35 @@ ms.locfileid: "32286564"
 |属性类型  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-配置文件可以指定连接到 exchange 服务器的一个或多个帐户, 但这些帐户必须连接到同一个 exchange 服务器。
+配置文件可以指定一个或多个连接到Exchange Server帐户，但它们必须连接到同一Exchange Server。
   
-早于 Microsoft Office outlook 2007 的 outlook 版本可以写入此属性, 以存储与活动配置文件连接的 Exchange 服务器版本相关信息。 但是, 版本信息的格式因不同版本的 Exchange Server 而异。 例如, Outlook 在**PR_PROFILE_SERVER_VERSION**中存储十进制值 6944, 以仅表示 Microsoft Exchange SERVER 2003 的**6.5.6944.3**版本标识符中的主要内部版本号。 对于 Exchange 2007 连接, Outlook 将主版本号和主要内部版本号存储在属性中这些数字的连接的十六进制表示形式中。 **8.0.685.24**的 Exchange 2007 版本标识符的主要版本号为 8, 主要版本号为685的十进制数。 将这两个数字都转换为十六进制, 可以获取0x8 和0x2AD。 Outlook 将这两个数字串联在**PR_PROFILE_SERVER_VERSION**中以十六进制表示形式存储值0x82AD。 
+2007 Outlook 2007 Microsoft Office Outlook版本可以写入此属性以存储有关活动配置文件Exchange Server的版本的有关的信息。 但是，版本信息的格式因版本不同而异Exchange Server。 例如，Outlook在 **PR_PROFILE_SERVER_VERSION** 中存储小数值 6944，以仅表示 Microsoft Exchange Server 2003 版本标识符 **6.5.6944.3** 的主要内部版本号。 对于 Exchange 2007 连接，Outlook 将主版本号和主内部版本号存储在 属性中这些编号的串联十六进制表示形式中。 **8.0.685.24 Exchange 2007** 版本标识符的主要版本号为 8，主要内部版本号为 685（十进制）。 将两个数字转换为十六进制，0x8和0x2AD。 连接这两个数字Outlook，以十六0x82AD十六PR_PROFILE_SERVER_VERSION形式存储值。  
   
-Outlook 2007 不会读取或写入该属性。 它支持**[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**。 
+Outlook 2007 不读取或写入此属性。 它支持 **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**。 
   
-只有**PR_PROFILE_SERVER_VERSION**或 PR_PROFILE_SERVER_FULL_VERSION 中的一个可能存在于配置文件中, 但不能保证在配置文件中始终存在这两个**** 。 Outlook 在成功连接到 Exchange 服务器之前, 不会写入其中的任何一个属性。 
+配置文件中 **PR_PROFILE_SERVER_VERSION** 或PR_PROFILE_SERVER_FULL_VERSION中的一个，但无法保证配置文件中始终存在其中一个。 Outlook在成功连接到任一属性之前，不会向该属性Exchange Server。 
   
-在 Outlook 对象模型中, 可以使用**NameSpace**对象的**ExchangeMailboxServerVersion**属性来查找托管活动邮箱的 Exchange 服务器的版本。 
+在Outlook模型中，可以使用 **NameSpace** 对象的 **ExchangeMailboxServerVersion** 属性查找托管活动邮箱的 Exchange Server 版本。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

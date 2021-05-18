@@ -25,7 +25,7 @@ ms.locfileid: "33404671"
 | TRUE  <br/> | 不能旋转形状。  <br/> |
 | FALSE  <br/> | 可以旋转形状（默认值）。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 当拖动一维形状的某个端点时，LockRotate 单元格不能阻止该形状旋转。要锁定一维形状以免其旋转，请将 LockWidth 单元格设置为非零值 (TRUE)。
   

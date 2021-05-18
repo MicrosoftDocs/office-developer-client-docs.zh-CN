@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251414
 localization_priority: Normal
 ms.assetid: 514a4053-7729-ec82-c42f-5b780e48cd2a
-description: 返回以 datetime 或 expression 表示的日期值。
+description: 返回 datetime 或 expression 表示的日期值。
 ms.openlocfilehash: d5bc1865e76940508ddb67a9b3d2122dc7c43a50
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "32360310"
 ---
 # <a name="datevalue-function-visioshapesheet"></a>DATEVALUE 函数 (VisioShapeSheet)
 
-返回以_datetime_或_expression_表示的日期值。
+返回 datetime 或  _expression 表示_ 的日期  _值_。
   
 ## <a name="syntax"></a>语法
 
-DATEVALUE ("* * *datetime* * *" |* **表达式** * [, * * *lcid* * *]) 
+DATEVALUE (" ** *datetime* ** "|** *expression* ** [， ** *lcid* ** ])  
   
 ### <a name="parameters"></a>参数
 
@@ -36,15 +36,15 @@ DATEVALUE ("* * *datetime* * *" |* **表达式** * [, * * *lcid* * *])
 
 Datetime
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-*datetime*或*expression*中的任何时间组件都将被丢弃。 
+datetime 或 expression  *中的*  任意  *时间*  组件都将被丢弃。 
   
-如果*datetime*缺失或无法转换为有效的结果, 则 DATEVALUE 将返回 #VALUE! 误差. 
+如果  *datetime*  缺失或无法转换为有效结果，则 DATEVALUE 将返回一#VALUE！ error。 
   
 返回的值使用由系统当前“区域设置”所设置的短日期样式显示。 
   
-DATEVALUE 函数还接受一个数值, 其中结果的** 整数部分代表自1899年12月30日以来的天数。 
+DATEVALUE 函数还接受单个数值的  *expression，*  其中结果的整数部分表示自 1899 年 12 月 30 日起的日期。 
   
 ## <a name="example-1"></a>示例 1
 
@@ -54,7 +54,7 @@ DATEVALUE(NOW( ))+5 ed.
   
 ## <a name="example-2"></a>示例 2
 
-DATEVALUE ("7/19/1995 12:30")
+DATEVALUE ("7/19/1995 12：30") 
   
 返回该日期。
   
@@ -66,7 +66,7 @@ DATEVALUE("May 33, 1997")
   
 ## <a name="example-4"></a>示例 4
 
-DATEVALUE (35580.6337)
+DATEVALUE (35580.6337) 
   
 返回 5/30/1997。
   

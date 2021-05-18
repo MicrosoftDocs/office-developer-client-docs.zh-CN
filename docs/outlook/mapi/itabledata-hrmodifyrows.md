@@ -25,7 +25,7 @@ ms.locfileid: "33405357"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-插入多个表行, 这些行可能会替换现有行。
+插入多个表格行，可能会替换现有行。
   
 ```cpp
 HRESULT HrModifyRows(
@@ -38,31 +38,31 @@ HRESULT HrModifyRows(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lpSRowSet_
   
-> 实时指向包含要添加的行集的[SRowSet](srowset.md)结构的指针, 如有必要, 替换现有行。 行集中每个[SRow](srow.md)结构的**lpProps**成员所指向的某个属性值结构中应包含索引列, 该值与调用__ [中的 ulPropTagIndexColumn 参数中指定的值相同。CreateTable](createtable.md)函数。 
+> [in]指向包含要添加 [的行集的 SRowSet](srowset.md) 结构的指针，如有必要，替换现有行。 行集内每个 [SRow](srow.md)结构的 **lpProps** 成员指向的属性值结构之一应包含索引列，该值与调用 [CreateTable](createtable.md)函数的 _ulPropTagIndexColumn_ 参数中指定的值相同。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 行已成功插入或修改。
+> 已成功插入或修改行。
     
 MAPI_E_INVALID_PARAMETER 
   
-> 一个或多个传入的行没有索引列。 如果返回此错误, 则不会更改任何行。
+> 一个或多个传入行没有索引列。 如果返回此错误，则不更改任何行。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**ITableData:: HrModifyRows**方法插入由_lpSRowSet_参数指向的[SRowSet](srowset.md)结构所描述的行。 如果行中某一行的索引列值与表中现有行的值相匹配, 则将替换现有行。 如果不存在与**SRowSet**结构中包含的行相匹配的行, 则**HrModifyRows**会将该行添加到表的末尾。 
+**ITableData：：HrModifyRows** 方法插入 _由 lpSRowSet_ 参数指向 [的 SRowSet](srowset.md)结构所描述的行。 如果行集内行的索引列值与表中现有行的值相匹配，则替换现有行。 如果不存在与 **SRowSet** 结构中包含的行匹配的行， **则 HrModifyRows** 会将该行添加到表的末尾。 
   
-将修改表的所有视图, 以包括由_lpSRowSet_指向的行。 但是, 如果视图具有排除行的限制, 则用户可能对其不可见。 
+该表的所有视图都经过修改，以包括  _lpSRowSet 指向的行_。 但是，如果视图具有排除行的就地限制，则用户可能无法看到该视图。 
   
-_lpSRowSet_指向的行中的列不必与表中的列的顺序相同。 调用方还可以包含表中当前不包含的列属性。 对于现有视图, **HrModifyRows**使这些新列可用, 但不将其包含在当前列集中。 对于将来的视图, **HrModifyRows**包含列集中的新列。 
+_lpSRowSet_ 指向的行中的列不一定与表中的列的顺序相同。 调用方还可以包括为表中当前未包含的列属性。 对于现有视图 **，HrModifyRows** 使这些新列可用，但不包括在当前列集内。 对于将来视图 **，HrModifyRows** 包括列集内的新列。 
   
-在**HrModifyRows**添加行后, 通知将发送到具有表视图且已调用表的[IMAPITable:: Advise](imapitable-advise.md)方法以注册通知的所有客户端或服务提供程序。 MAPI 为每个行 (最多八行) 发送 TABLE_ROW_ADDED 或 TABLE_ROW_MODIFIED 通知。 如果**HrModifyRows**调用影响八行以上, MAPI 将发送单个 TABLE_CHANGED 通知。 
+**在 HrModifyRows** 添加行后，通知将发送给所有具有表视图并且已调用表 [的 IMAPITable：：Advise](imapitable-advise.md)方法来注册通知的客户端或服务提供商。 MAPI 发送TABLE_ROW_ADDED或TABLE_ROW_MODIFIED行（最多八行）的通知。 如果 **HrModifyRows** 调用影响超过 8 行，MAPI 将改为发送单个TABLE_CHANGED通知。 
   
 ## <a name="see-also"></a>另请参阅
 

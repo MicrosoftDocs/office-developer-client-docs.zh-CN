@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423347"
 ---
-# <a name="indexsearchpusherprocess"></a>INDEX_SEARCH_PUSHER_PROCESS
+# <a name="index_search_pusher_process"></a>INDEX_SEARCH_PUSHER_PROCESS
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定向 MAPI 协议处理程序发送通知的过程, 该存储区中的对象已准备好编制索引。
+指定向 MAPI 协议处理程序发送通知的过程，该存储中的对象已准备好编制索引。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -35,6 +35,6 @@ typedef struct _INDEX_SEARCH_PUSHER_PROCESS {
 
  *dwPID* 
   
->  将索引通知发送给 MAPI 协议处理程序索引器的进程的进程 ID。 
+>  向 MAPI 协议处理程序的索引器发送索引通知的进程的进程 ID。 
     
 

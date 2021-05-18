@@ -19,27 +19,27 @@ ms.locfileid: "33422612"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-PackedUnicodeString 流结构包含字符串的 Unicode (UTF-16) 表示形式。 此字符串不是由 null 字符终止的。 此流中的数据元素存储在小端字节序的字节顺序中, 紧跟在下面列出的顺序后续。 现有的实际数据元素取决于 UTF-16 表示形式的字符串的长度。
+PackedUnicodeString 流结构包含 Unicode (UTF-16) 字符串的表示形式。 此字符串不以空字符结尾。 此流中的数据元素按小尾字节顺序存储，并按下面列出的顺序彼此紧接。 实际存在的数据元素取决于 UTF-16 表示形式中的字符串长度。
   
-- 对于其 UTF-16 表示形式包含小于 255 WCHARs 的字符串, 数据元素如下所示:
+- 对于 UTF-16 表示形式包含小于 255 个 WCHAR 的字符串，数据元素如下所示：
     
-  - 长度: 字节 (1 个字节), 字符串的 utf-16 表示形式的长度 (以 WCHARs 为单位)。
+  - 长度：BYTE (1 字节) ，字符串的 UTF-16 表示形式的长度（以 WCHAR 数表示）。
     
-  - 字符: WCHAR 数组。 此数组的计数等于 Length 数据元素。 数组中的数据是字符串的 UTF-16 表示形式。
+  - 字符：WCHAR 的数组。 此数组的计数等于 Length 数据元素。 数组中的数据是字符串的 UTF-16 表示形式。
     
-- 对于其 UTF-16 表示形式包含255到 65535 WCHARs 的字符串, 数据元素如下所示:
+- 对于 UTF-16 表示形式包含 255 到 65535 WCHAR 的字符串，数据元素如下所示：
     
-  - Prefix: BYTE (1 个字节), 值为 255 (0xff)。
+  - 前缀：BYTE (1 字节) ，值 255 (0xff) 。
     
-  - length: WORD (2 个字节), 字符串的 utf-16 表示形式的长度 (以 WCHARs 为单位)。
+  - 长度：WORD (2 字节) ，即字符串的 UTF-16 表示形式的长度（以 WCHAR 数表示）。
     
-  - 字符: WCHAR 数组。 此数组的计数等于 Length 数据元素。 数组中的数据是字符串的 UTF-16 表示形式。
+  - 字符：WCHAR 的数组。 此数组的计数等于 Length 数据元素。 数组中的数据是字符串的 UTF-16 表示形式。
     
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Outlook 项目和字段](outlook-items-and-fields.md)
+[Outlook项目和字段](outlook-items-and-fields.md)
   
 [流结构](stream-structures.md)
   

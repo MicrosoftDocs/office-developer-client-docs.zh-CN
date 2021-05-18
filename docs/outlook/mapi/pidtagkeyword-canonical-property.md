@@ -25,40 +25,40 @@ ms.locfileid: "32280562"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于向收件人的系统管理员标识收件人的关键字。
+包含一个关键字，用于向收件人的系统管理员标识收件人。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_KEYWORD、PR_KEYWORD_A、PR_KEYWORD_W  <br/> |
 |标识符:  <br/> |0x3A0B  <br/> |
 |数据类型：  <br/> |PT_UNICODE、PT_STRING8  <br/> |
-|区域：  <br/> |Address  <br/> |
+|区域：  <br/> |地址  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-这些属性可提供收件人的标识和访问信息。 它们由收件人及其组织定义。
+这些属性为收件人提供标识和访问信息。 它们由收件人及其组织定义。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

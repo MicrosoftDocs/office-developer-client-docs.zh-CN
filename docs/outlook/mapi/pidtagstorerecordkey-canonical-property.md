@@ -25,7 +25,7 @@ ms.locfileid: "32278727"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含对象所在的邮件存储区的唯一二进制可比较标识符 (记录密钥)。
+包含对象驻留的邮件 (的唯) 二进制比较标识符。
   
 |||
 |:-----|:-----|
@@ -34,33 +34,33 @@ ms.locfileid: "32278727"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-对于邮件存储区, 此属性与存储区自己的**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 属性相同。
+对于邮件存储，此属性与[PidTagRecordKey](pidtagrecordkey-canonical-property.md) 属性PR_RECORD_KEY (存储) 相同。
   
-此属性与**PR_RECORD_KEY**之间的关系与**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) 和**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 之间的关系相同。
+此属性和 PR_RECORD_KEY 之间的关系与 PR_STORE_ENTRYID ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) 和 **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 之间的关系相同。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间进行转换。
+> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间转换。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

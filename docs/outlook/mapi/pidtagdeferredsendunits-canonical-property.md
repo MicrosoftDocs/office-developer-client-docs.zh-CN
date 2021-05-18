@@ -25,7 +25,7 @@ ms.locfileid: "32359904"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定**PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) 属性值应相乘的时间单位。
+指定应乘以[PidTagDeferredSendNumber PR_DEFERRED_SEND_NUMBER (PidTagSendNumber](pidtagdeferredsendnumber-canonical-property.md)) 的时间单位。 
   
 |||
 |:-----|:-----|
@@ -34,35 +34,35 @@ ms.locfileid: "32359904"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果设置, 则此属性必须具有下列值之一:
+如果设置此属性，则此属性必须具有下列值之一：
   
 |||
 |:-----|:-----|
 |**PidTagDeferredSendUnits** <br/> |说明  <br/> |
-|0  <br/> |分钟, 例如, 60 秒  <br/> |
-|1  <br/> |小时数, 例如60x60 秒  <br/> |
-|双面  <br/> |天, 例如24x60x60 秒  <br/> |
-|第三章  <br/> |周, 例如7x24x60x60 秒  <br/> |
+|0  <br/> |分钟，例如 60 秒  <br/> |
+|1  <br/> |小时，例如 60x60 秒  <br/> |
+|2  <br/> |天，例如 24x60x60 秒  <br/> |
+|3  <br/> |周，例如 7x24x60x60 秒  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -24,7 +24,7 @@ ms.locfileid: "32359729"
 > 下面的代码示例摘录自 [Microsoft Office Outlook 2007 应用程序编程](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493)。
 
 
-若要向项分配类别，请使用特定项的 **Categories** 属性。 此代码示例利用[创建用于访问常见 Outlook 项成员的帮助程序类](how-to-create-a-helper-class-to-access-common-outlook-item-members.md)中定义的 OutlookItem 帮助程序类，便捷地调用 OutlookItem.**Categories** 属性，无需先强制转换项。 **Categories** 属性用于获取或设置以逗号分隔的字符串（最多可包含 255 个字符）表示的类别。 类别值是以逗号和空格分隔。 分配 [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) 对象的 [Categories](https://msdn.microsoft.com/library/bb646607\(v=office.15\)) 集合中没有的类别会导致类别不显示颜色。
+若要向项分配类别，请使用特定项的 **Categories** 属性。 此代码示例利用 [创建用于访问常见 Outlook 项成员的帮助程序类](how-to-create-a-helper-class-to-access-common-outlook-item-members.md)中定义的 OutlookItem 帮助程序类，便捷地调用 OutlookItem.**Categories** 属性，无需先强制转换项。 **Categories** 属性用于获取或设置以逗号分隔的字符串（最多可包含 255 个字符）表示的类别。 类别值是以逗号和空格分隔。 分配 [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) 对象的 [Categories](https://msdn.microsoft.com/library/bb646607\(v=office.15\)) 集合中没有的类别会导致类别不显示颜色。
 
 在下面的代码示例中，AssignCategories 创建一个用于主题中包含“ISV”的项目的限制，方法是首先使用 DAV 搜索和定位 (DASL) 查询来筛选收件箱中主题中包含“ISV”的项目，然后 AssignCategories 通过使用 **OutlookItem** 类循环访问筛选出的项目，如果 **item.Categories** 返回的字符串不是 null 引用或已分配给 ISV，则 ISV 类别将被分配给相应项目。
 

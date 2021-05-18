@@ -29,31 +29,31 @@ ms.locfileid: "32360905"
   
 |||
 |:-----|:-----|
-|友好名称:  <br/> |UMAudioNotes  <br/> |
-|属性集:  <br/> |PSETID_UnifiedMessaging  <br/> |
-|属性名称:  <br/> |UMAudioNotes  <br/> |
+|友好名称：  <br/> |UMAudioNotes  <br/> |
+|属性集：  <br/> |PSETID_UnifiedMessaging  <br/> |
+|属性名称：  <br/> |UMAudioNotes  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |统一消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-若要使最终用户能够直接在语音邮件中阅读和编辑音频笔记, 客户端将提供一个编辑框, 用户可在其中键入一组添加到语音邮件对象的此属性中的注释。
+为了允许最终用户直接在语音邮件上读取和编辑音频笔记，客户端提供了一个编辑框，用户可以在编辑框中键入添加到语音邮件对象的此属性的一组注释。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
+[[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
-> 指定允许表示语音邮件和传真邮件的属性和操作。
+> 指定允许用于表示语音邮件和传真邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

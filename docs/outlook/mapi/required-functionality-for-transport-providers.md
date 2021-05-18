@@ -21,16 +21,16 @@ ms.locfileid: "33404440"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-每个 MAPI 传输提供程序都必须:
+每个 MAPI 传输提供程序都必须：
   
-- 遵循有关使用 MAPI 和其他服务提供商的一般准则。 有关详细信息, 请参阅[MAPI 应用程序开发](mapi-application-development.md)和[MAPI 服务提供程序](mapi-service-providers.md)。
+- 遵循使用 MAPI 和其他服务提供商的一般准则。 有关详细信息，请参阅 [MAPI 应用程序开发和](mapi-application-development.md) [MAPI 服务提供程序](mapi-service-providers.md)。
     
-- 让其传输提供程序 DLL 向 MAPI 公开其[XPProviderInit](xpproviderinit.md)初始化功能。 
+- 将其传输提供程序 DLL 公开到 MAPI 其 [XPProviderInit](xpproviderinit.md) 初始化函数。 
     
-- 向 MAPI 公开其[IXPProvider: iunknown](ixpprovideriunknown.md)和[IXPLogon: iunknown](ixplogoniunknown.md)接口的实现。 
+- 向 MAPI 公开 [IXPProvider ： IUnknown](ixpprovideriunknown.md) 和 [IXPLogon ： IUnknown](ixplogoniunknown.md) 接口的实现。 
     
-- 向 MAPI 和客户端应用程序公开[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口的实现。 有关实现**IMAPIStatus**的详细信息, 请参阅[Status Object 实现](status-object-implementation.md)。 
+- 向 MAPI 和客户端应用程序公开其 [IMAPIStatus ： IMAPIProp 接口](imapistatusimapiprop.md) 的实现。 有关实现 **IMAPIStatus** 的信息，请参阅 [状态对象实现](status-object-implementation.md)。 
     
-- 为配置实现 "属性表" 对话框。 有关实现属性表的详细信息, 请参阅[property Sheet 实现](property-sheet-implementation.md)。
+- 实现属性表配置对话框。 有关实现属性表的信息，请参阅 [属性表实现](property-sheet-implementation.md)。
     
 

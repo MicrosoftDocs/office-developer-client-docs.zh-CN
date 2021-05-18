@@ -25,7 +25,7 @@ ms.locfileid: "33422276"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-调用内部函数来验证 MAPI 调用的服务提供程序方法的调试参数。 
+调用内部函数以验证 MAPI 调用的服务提供商方法上的调试参数。 
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ HRESULT CheckParms(
 
  _eMethod_
   
-> 实时通过枚举指定要验证的方法。 
+> [in]通过枚举指定要验证的方法。 
     
  _第一_
   
-> 实时指向堆栈上第一个参数的指针。
+> [in]指向堆栈上第一个参数的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -56,8 +56,8 @@ S_OK
   
 > 调用成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-与[ValidateParms](validateparms.md)和[UlValidateParms](ulvalidateparms.md)宏相反, **CheckParms**宏不执行完整参数验证。 假定在 MAPI 和服务提供程序之间传递的参数是正确的, 因此**CheckParms**仅执行调试验证。 
+与 [ValidateParms](validateparms.md) 和 [UlValidateParms](ulvalidateparms.md) 宏相反 **，CheckParms** 宏不执行完整参数验证。 在 MAPI 和服务提供商之间传递的参数被认为是正确的，因此 **CheckParms** 仅执行调试验证。 
   
 

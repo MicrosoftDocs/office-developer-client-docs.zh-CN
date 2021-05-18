@@ -70,9 +70,9 @@ ms.locfileid: "32359169"
 
 请注意，即使是在您释放引用并尝试获取新引用之后，如果仍存在对以上对象之一的活动引用（由另一个加载项或 Outlook 保存），则新引用也仍将指向对象的过期副本。因此，在完成使用定期约会后立即释放引用非常重要。
 
-在下面的代码示例中, RecurringAppointmentEveryMondayWednesdayFriday 创建一个[AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\))对象, 然后调用[GetRecurrencePattern ()](https://msdn.microsoft.com/library/bb652582\(v=office.15\))以获取新创建的约会的 RecurrencePattern 对象。 然后，RecurringAppointmentEveryMondayWednesdayFriday 设置 RecurrenceType、DayOfWeekMask、PatternStartDate、PatternEndDate, Duration、StartTime、EndTime 和 Subject 属性，保存约会，最后使用“每个星期一、星期三和星期五发生，生效日期是 2006 年 7 月 10 日，截至日期是 2006 年 8 月 25 日，从下午 2:00 到下午 3:00”模式显示约会。
+在下面的代码示例中，RecurringAppointmentEveryMondayWednesdayFriday 创建 [一个 AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) 对象，然后调用 [GetRecurrencePattern () ](https://msdn.microsoft.com/library/bb652582\(v=office.15\)) 获取新创建的约会的 RecurrencePattern 对象。 然后，RecurringAppointmentEveryMondayWednesdayFriday 设置 RecurrenceType、DayOfWeekMask、PatternStartDate、PatternEndDate, Duration、StartTime、EndTime 和 Subject 属性，保存约会，最后使用“每个星期一、星期三和星期五发生，生效日期是 2006 年 7 月 10 日，截至日期是 2006 年 8 月 25 日，从下午 2:00 到下午 3:00”模式显示约会。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

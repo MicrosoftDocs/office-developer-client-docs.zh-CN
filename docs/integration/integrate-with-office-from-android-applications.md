@@ -33,7 +33,7 @@ Office for Android 提供了一个可扩展的的解决方案，可与第三方�
     
 使用 Android PackageManager 确定设备上是否已安装特定的 Office 应用程序。下表列出了您在此过程中可使用的 Office 应用程序包的名称。
   
-|**Application**|**包名称**|
+|**应用程序**|**包名称**|
 |:-----|:-----|
 |Excel  <br/> |com.microsoft.office.excel  <br/> |
 |PowerPoint  <br/> |com.microsoft.office.powerpoint  <br/> |

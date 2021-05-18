@@ -25,32 +25,32 @@ ms.locfileid: "33422773"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含正在处理邮件的服务提供程序的**MAPIUID**结构。 
+包含处理消息的服务提供商的 **MAPIUID** 结构。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROVIDER_UID  <br/> |
 |标识符:  <br/> |0x300C  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |MAPI 通用  <br/> |
+|区域：  <br/> |MAPI common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性由所有服务提供程序计算。 它包含与提供程序关联的[MAPIUID](mapiuid.md)结构, 并且通常由该提供程序进行硬编码。 它通常由仅对特定提供程序所提供的通讯簿容器感兴趣的客户端应用程序使用。 
+此属性由所有服务提供商计算。 它包含一 [个 MAPIUID](mapiuid.md) 结构，该结构与提供程序关联，并且通常由提供程序进行硬编码。 它通常由仅对特定提供程序提供的通讯簿容器感兴趣的客户端应用程序使用。 
   
-此属性仅显示为提供程序表中的列条目。
+此属性只作为提供程序表中的列项显示。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

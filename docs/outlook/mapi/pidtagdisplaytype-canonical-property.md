@@ -25,7 +25,7 @@ ms.locfileid: "32360779"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个值, 该值用于将图标与表中的特定行相关联。 
+包含一个值，该值用于将图标与表的特定行关联。 
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ ms.locfileid: "32360779"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性包含一个长整数, 便于根据表项的类型对表项进行特殊处理。 此特殊处理通常由显示与显示类型关联的图标或其他显示元素组成。 
+此属性包含一个长整型值，便于根据表项的类型对表项进行特殊处理。 此特殊处理通常包括显示与显示类型关联的图标或其他显示元素。 
   
-文件夹内容表中不使用此属性。 客户端应用程序应使用消息的**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性和相应的[IMAPIFormInfo](imapiforminfoimapiprop.md)接口来获取**PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) 和**PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) 属性的信息。 
+此属性不用于文件夹内容表。 客户端应用程序应该使用邮件的 **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性和相应的 [IMAPIFormInfo](imapiforminfoimapiprop.md) 接口获取该邮件的 **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) 和 **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) 属性。 
   
-此属性可以具有下列值之一:
+此属性可以正好具有下列值之一：
   
 DT_AGENT 
   
-> 自动代理, 如 "一天的报价单" 或 "天气" 图表显示。
+> 自动代理，如当天报价或天气图表显示。
     
 DT_DISTLIST 
   
@@ -52,19 +52,19 @@ DT_DISTLIST
     
 DT_FOLDER 
   
-> 显示文件夹旁边的默认文件夹图标。
+> 显示与文件夹相邻的默认文件夹图标。
     
 DT_FOLDER_LINK 
   
-> 显示文件夹旁边的默认文件夹链接图标, 而不是默认文件夹图标。
+> 显示与文件夹相邻的默认文件夹链接图标，而不是默认文件夹图标。
     
 DT_FOLDER_SPECIAL 
   
-> 显示具有特定于应用程序的区别的文件夹图标, 如特殊类型的公用文件夹。
+> 显示具有应用程序特定区别的文件夹的图标，例如特殊类型的公用文件夹。
     
 DT_FORUM 
   
-> 论坛, 如公告牌服务或公用或共享文件夹。
+> 论坛，例如公告板服务或公用或共享文件夹。
     
 DT_GLOBAL 
   
@@ -76,11 +76,11 @@ DT_LOCAL
     
 DT_MAILUSER 
   
-> 典型的邮件用户。
+> 典型的消息传递用户。
     
 DT_MODIFIABLE 
   
-> 可容器应在用户界面中表示为可修改的。
+> 可修改;容器在用户界面中应表示为可修改。
     
 DT_NOT_SPECIFIC 
   
@@ -88,55 +88,55 @@ DT_NOT_SPECIFIC
     
 DT_ORGANIZATION 
   
-> 为大型组 (例如, 支持人员、会计或血糖驱动器协调器) 定义的特殊别名。
+> 为大型组（如支持人员、会计或驱动协调器）定义的特殊别名。
     
 DT_PRIVATE_DISTLIST 
   
-> 专用的、个人管理的通讯组列表。
+> 个人管理的专用通讯组列表。
     
 DT_REMOTE_MAILUSER 
   
-> 已知来自外部或远程邮件系统的收件人。
+> 已知来自外向或远程邮件系统的收件人。
     
 DT_WAN 
   
-> 广域网络通讯簿。
+> 广区域网络通讯簿。
     
-通讯簿内容表使用 DT_AGENT、DT_DISTLIST、DT_FORUM、DT_MAILUSER、DT_ORGANIZATION、DT_PRIVATE_DISTLIST 和 DT_REMOTE_MAILUSER 值。 通讯簿层次结构表和一次性表使用 DT_GLOBAL、DT_LOCAL、DT_MODIFIABLE、DT_NOT_SPECIFIC 和 DT_WAN 值。 文件夹层次结构表使用 DT_FOLDER、DT_FOLDER_LINK 和 DT_FOLDER_SPECIAL 值。 
+通讯簿内容表使用 DT_AGENT、DT_DISTLIST、DT_FORUM、DT_MAILUSER、DT_ORGANIZATION、DT_PRIVATE_DISTLIST 和 DT_REMOTE_MAILUSER 值。 通讯簿层次结构表和一对表使用 DT_GLOBAL、DT_LOCAL、DT_MODIFIABLE、DT_NOT_SPECIFIC 和 DT_WAN 值。 文件夹层次结构表使用 DT_FOLDER、DT_FOLDER_LINK 和 DT_FOLDER_SPECIAL 值。 
   
-如果未设置此属性, 则客户端应假定适用于表的默认类型, 通常为 DT_FOLDER、DT_LOCAL 或 DT_MAILUSER。 
+如果未设置此属性，客户端应假定适合表的默认类型，通常为 DT_FOLDER、DT_LOCAL 或 DT_MAILUSER。 
   
- **注释**未记录的所有值都是为 MAPI 保留的。 客户端应用程序不得定义任何新值, 并且必须准备处理未记录的值。 
+ **注意** 未记录的所有值都保留用于 MAPI。 客户端应用程序不得定义任何新值，并且必须准备处理未记录的值。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定允许用于通讯簿模板的属性和操作。
+> 指定允许通讯簿模板使用的属性和操作。
     
-[[毫秒-OXLDAP]](https://msdn.microsoft.com/library/727c090a-f05c-4eed-94aa-565724cfc550%28Office.15%29.aspx)
+[[MS-OXLDAP]](https://msdn.microsoft.com/library/727c090a-f05c-4eed-94aa-565724cfc550%28Office.15%29.aspx)
   
 > 启用目录访问。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 
