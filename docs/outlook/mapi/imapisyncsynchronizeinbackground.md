@@ -25,7 +25,7 @@ ms.locfileid: "33426854"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
- 启动同步。 此方法由 microsoft outlook 2010 和 microsoft outlook 2013 调用, 并由邮件存储提供程序实现。 
+ 启动同步。 此方法由邮件存储Microsoft Outlook 2010 Microsoft Outlook 2013和实现。 
   
 ```cpp
 HRESULT SynchronizeInBackground (
@@ -37,13 +37,13 @@ HRESULT SynchronizeInBackground (
 
  _psibpb_
   
-> 通知提供程序将进行同步, 并提供对可在同步过程中使用的接口的访问权限。 它是一个[MAPISIB](mapisib.md)结构。 
+> 通知提供程序将同步哪些内容，并授予对可在同步期间使用的接口的访问权限。 它是 [MAPISIB](mapisib.md) 结构。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 ## <a name="see-also"></a>另请参阅
 

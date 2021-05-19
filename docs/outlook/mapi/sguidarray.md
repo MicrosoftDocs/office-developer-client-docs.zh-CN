@@ -25,11 +25,11 @@ ms.locfileid: "33424922"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于描述类型为 PT_MV_CLSID 的属性的[GUID](guid.md)结构数组。 
+包含一个 [GUID](guid.md) 结构数组，用于描述类型为 PT_MV_CLSID。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SGuidArray
@@ -44,15 +44,15 @@ typedef struct _SGuidArray
 
  **cValues**
   
-> 由**lpguid**成员指向的数组中的值的计数。 
+> **lpguid** 成员指向的数组中的值计数。 
     
  **lpguid**
   
-> 指向包含类标识符值的**GUID**结构数组的指针。 
+> 指向包含类标识符值的 **GUID** 结构的数组的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关 PT_MV_CLSID 的详细信息, 请参阅[属性类型列表](property-types.md)。
+有关属性类型PT_MV_CLSID，请参阅 [属性类型列表](property-types.md)。
   
 ## <a name="see-also"></a>另请参阅
 

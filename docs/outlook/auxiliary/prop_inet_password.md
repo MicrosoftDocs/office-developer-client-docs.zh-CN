@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425398"
 ---
-# <a name="propinetpassword"></a>PROP_INET_PASSWORD
+# <a name="prop_inet_password"></a>PROP_INET_PASSWORD
 
 表示常规 Internet 邮箱的用户密码。
   

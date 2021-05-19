@@ -32,23 +32,23 @@ ms.locfileid: "33425664"
 |相关属性：  <br/> |PR_LONGTERM_ENTRYID_FROM_TABLE  <br/> |
 |标识符:  <br/> |0x6670  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |表格属性  <br/> |
+|区域：  <br/> |表属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-可以在内容表中使用此属性将项的条目标识符作为长期条目标识符 (而不是短期条目标识符) 获取。 有关长期和短期标识符的信息, 请参阅**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))。
+此属性可在内容表中使用，以作为长期条目标识符（而不是短期条目标识符）获取项的条目标识符。 有关长期和短期标识符的信息，请参阅 PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) 。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

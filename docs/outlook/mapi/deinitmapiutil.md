@@ -25,11 +25,11 @@ ms.locfileid: "33427344"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-释放由[ScInitMapiUtil](scinitmapiutil.md)函数显式或由[MAPIInitialize](mapiinitialize.md)函数隐式调用的实用工具函数。 
+释放由 [ScInitMapiUtil](scinitmapiutil.md) 函数显式调用或 [由 MAPIInitialize 函数隐式调用的实用程序](mapiinitialize.md) 函数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
    
@@ -45,10 +45,10 @@ VOID DeinitMapiUtil( void );
 
 无 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**DeinitMapiUtil**函数释放使用[ScInitMapiUtil](scinitmapiutil.md)或[MAPIInitialize](mapiinitialize.md)初始化的函数。 
+**DeinitMapiUtil** 函数发布函数使用 [ScInitMapiUtil](scinitmapiutil.md)或 [MAPIInitialize 初始化](mapiinitialize.md)。 
   
-在使用由**ScInitMapiUtil**调用的函数时, 必须显式调用**DeinitMapiUtil**以释放它们。 相比之下, [MAPIUninitialize](mapiuninitialize.md)隐式调用**DeinitMapiUtil**。 
+使用由 **ScInitMapiUtil** 调用的函数完成后，必须显式调用 **DeinitMapiUtil** 以释放它们。 相比之下 [，MAPIUninitialize 隐式](mapiuninitialize.md) 调用 **DeinitMapiUtil**。 
   
 

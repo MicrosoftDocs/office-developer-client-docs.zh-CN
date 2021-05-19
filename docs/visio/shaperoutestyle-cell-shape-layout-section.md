@@ -20,37 +20,37 @@ ms.locfileid: "33425027"
 
 确定绘图页上所选连接线的排列样式和方向。
   
-|**值**|**排列样式**|**Direction**|**自动常量**|
+|**值**|**排列样式**|**方向**|**自动常量**|
 |:-----|:-----|:-----|:-----|
 |0  <br/> |使用页默认值  <br/> |无  <br/> |**visLORouteDefault** <br/> |
 |1  <br/> |直角  <br/> |无  <br/> |**visLORouteRightAngle** <br/> |
-|双面  <br/> |式  <br/> |无  <br/> |**visLORouteStraight** <br/> |
-|第三章  <br/> |组织结构图  <br/> |从上到下  <br/> |**visLORouteOrgChartNS** <br/> |
-|4  <br/> |组织结构图  <br/> |从左到右  <br/> |**visLORouteOrgChartWE** <br/> |
-|5  <br/> |流程图  <br/> |从上到下  <br/> |**visLORouteFlowchartNS** <br/> |
-|型  <br/> |流程图  <br/> |从左到右  <br/> |**visLORouteFlowchartWE** <br/> |
-|步  <br/> |树  <br/> |从上到下  <br/> |**visLORouteTreeNS** <br/> |
-|utf-8  <br/> |树  <br/> |从左到右  <br/> |**visLORouteTreeWE** <br/> |
-|第  <br/> |网络  <br/> |无  <br/> |**visLORouteNetwork** <br/> |
-|10   <br/> |组织结构图  <br/> |从下到上  <br/> |**visLORouteOrgChartSN** <br/> |
-|11   <br/> |组织结构图  <br/> |从右到左  <br/> |**visLORouteOrgChartEW** <br/> |
+|2  <br/> |直  <br/> |无  <br/> |**visLORouteStraight** <br/> |
+|3  <br/> |组织结构图  <br/> |从上到下  <br/> |**visLORouteOrgChartNS** <br/> |
+|4   <br/> |组织结构图  <br/> |从左到右  <br/> |**visLORouteOrgChartWE** <br/> |
+|5   <br/> |流程图  <br/> |从上到下  <br/> |**visLORouteFlowchartNS** <br/> |
+|6   <br/> |流程图  <br/> |从左到右  <br/> |**visLORouteFlowchartWE** <br/> |
+|7   <br/> |树  <br/> |从上到下  <br/> |**visLORouteTreeNS** <br/> |
+|8   <br/> |树  <br/> |从左到右  <br/> |**visLORouteTreeWE** <br/> |
+|9   <br/> |网络  <br/> |无  <br/> |**visLORouteNetwork** <br/> |
+|10    <br/> |组织结构图  <br/> |从下到上  <br/> |**visLORouteOrgChartSN** <br/> |
+|11  <br/> |组织结构图  <br/> |从右到左  <br/> |**visLORouteOrgChartEW** <br/> |
 |12   <br/> |流程图  <br/> |从下到上  <br/> |**visLORouteFlowchartSN** <br/> |
-|13   <br/> |流程图  <br/> |从右到左  <br/> |**visLORouteFlowchartEW** <br/> |
+|13  <br/> |流程图  <br/> |从右到左  <br/> |**visLORouteFlowchartEW** <br/> |
 |14   <br/> |树  <br/> |从下到上  <br/> |**visLORouteTreeSN** <br/> |
-|15   <br/> |树  <br/> |从右到左  <br/> |**visLORouteTreeEW** <br/> |
+|15  <br/> |树  <br/> |从右到左  <br/> |**visLORouteTreeEW** <br/> |
 |16   <br/> |从中心到中心  <br/> |无  <br/> |**visLORouteCenterToCenter** <br/> |
-|×  <br/> |简单  <br/> |从上到下  <br/> |**visLORouteSimpleNS** <br/> |
-|18  <br/> |简单  <br/> |从左到右  <br/> |**visLORouteSimpleWE** <br/> |
-|合  <br/> |简单  <br/> |从下到上  <br/> |**visLORouteSimpleSN** <br/> |
+|17   <br/> |简单  <br/> |从上到下  <br/> |**visLORouteSimpleNS** <br/> |
+|18   <br/> |简单  <br/> |从左到右  <br/> |**visLORouteSimpleWE** <br/> |
+|19  <br/> |简单  <br/> |从下到上  <br/> |**visLORouteSimpleSN** <br/> |
 |20  <br/> |简单  <br/> |从右到左  <br/> |**visLORouteSimpleEW** <br/> |
-|不足  <br/> |简单水平 - 垂直  <br/> |无  <br/> |**visLORouteSimpleHV** <br/> |
+| 21  <br/> |简单水平 - 垂直  <br/> |无  <br/> |**visLORouteSimpleHV** <br/> |
 |22  <br/> |简单垂直 - 水平  <br/> |无  <br/> |**visLORouteSimpleVH** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您还可以为 "**操作**" 对话框中的 "**连接线**" 选项卡上的特定连接线设置此单元格的值 (选定某个连接器后, 在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上单击 "**行为**", 然后单击 "**连接器**" 选项卡)。 
+还可以在"行为"对话框中的"连接器"选项卡上设置此单元格的值，该单元格位于"行为"对话框中 (选择了连接器，单击"开发工具"选项卡[](run-in-developer-mode-display-the-developer-tab.md)上的"行为"，然后单击"连接器"选项卡) 。  
   
-若要为页面上的*所有*连接线设置此行为, 请使用 "页面布局" 部分中的 "RouteStyle" 单元格。 
+若要为页面上  *的所有*  连接线设置此行为，请使用"页面布局"部分中的 RouteStyle 单元格。 
   
 在 Visio 2000 之前的版本中，您可以使用“Miscellaneous”内容中的 ObjBehavior 单元格设置此行为。
   

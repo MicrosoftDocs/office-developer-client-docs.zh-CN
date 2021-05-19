@@ -1,5 +1,5 @@
 ---
-title: 在邮件存储区中实现文件夹
+title: 实现邮件存储中的文件夹
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424908"
 ---
-# <a name="implementing-folders-in-message-stores"></a>在邮件存储区中实现文件夹
+# <a name="implementing-folders-in-message-stores"></a>实现邮件存储中的文件夹
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-[MAPI 文件夹](mapi-folders.md)中介绍了与邮件存储提供程序对文件夹的支持相关的大量信息。 在尝试实现邮件存储提供程序之前, 您应熟悉这些信息。 " [mapi 文件夹](mapi-folders.md)" 部分的方向与 MAPI 客户端的角度密切相同;本主题包括从邮件存储提供程序的角度来看的更重要的其他信息。 
+MAPI Folders 中涵盖了与文件夹的邮件存储提供程序支持相关的 [大量信息](mapi-folders.md)。 在尝试实现邮件存储提供程序之前，您应熟悉该信息。 MAPI [文件夹](mapi-folders.md) 部分主要面向 MAPI 客户端;本主题涵盖从邮件存储提供程序的角度来看重要的其他信息。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[邮件存储区功能](message-store-features.md)
+[邮件存储功能](message-store-features.md)
 

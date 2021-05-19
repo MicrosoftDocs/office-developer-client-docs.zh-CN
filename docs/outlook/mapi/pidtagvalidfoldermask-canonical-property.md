@@ -25,7 +25,7 @@ ms.locfileid: "33427792"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含标志的位掩码, 用于指示邮件存储区中的文件夹的条目标识符的有效性。
+包含指示邮件存储中文件夹的条目标识符的有效性的标志位掩码。
   
 |||
 |:-----|:-----|
@@ -34,55 +34,55 @@ ms.locfileid: "33427792"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果用户删除文件夹或邮件存储区损坏, 则文件夹的条目标识符可能会变得无效。
+如果用户删除该文件夹或邮件存储已损坏，文件夹的条目标识符可能变为无效。
   
-可以为位掩码设置以下一个或多个标志: 
+可以为位掩码设置以下一个或多个标志： 
   
 FOLDER_COMMON_VIEWS_VALID 
   
-> "常见视图" 文件夹具有有效的条目标识符。 请参阅**PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))。
+> 通用视图文件夹具有有效的条目标识符。 请参阅 **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)) 。
     
 FOLDER_FINDER_VALID 
   
-> finder 文件夹具有有效的条目标识符。 请参阅**PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md))。 
+> 查找器文件夹具有有效的条目标识符。 请参阅 **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)) 。 
     
 FOLDER_IPM_INBOX_VALID 
   
-> 人际邮件 (IPM) 接收文件夹具有有效的条目标识符。 请参阅[IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md)。 
+> IPM (接收) 邮件具有有效的条目标识符。 请参阅 [IMsgStore：：GetReceiveFolder](imsgstore-getreceivefolder.md)。 
     
 FOLDER_IPM_OUTBOX_VALID 
   
-> IPM "发件箱" 文件夹具有有效的条目标识符。 请参阅**PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md))。 
+> IPM 发件箱文件夹具有有效的条目标识符。 请参阅 **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)) 。 
     
 FOLDER_IPM_SENTMAIL_VALID 
   
-> "IPM 已发送邮件" 文件夹具有有效的条目标识符。 请参阅**PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md))。
+> "IPM 已发送的项目"文件夹具有有效的条目标识符。 请参阅 **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) 。
     
 FOLDER_IPM_SUBTREE_VALID 
   
-> IPM 文件夹子树具有有效的条目标识符。 请参阅**PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md))。
+> IPM 文件夹子树具有有效的条目标识符。 请参阅 **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) 。
     
 FOLDER_IPM_WASTEBASKET_VALID 
   
-> "IPM 已删除邮件" 文件夹具有有效的条目标识符。 请参阅**PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md))。
+> "IPM 已删除邮件"文件夹具有有效的条目标识符。 请参阅 **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) 。
     
 FOLDER_VIEWS_VALID 
   
-> views 文件夹具有有效的条目标识符。 请参阅**PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md))。
+> views 文件夹具有有效的条目标识符。 请参阅 **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) 。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

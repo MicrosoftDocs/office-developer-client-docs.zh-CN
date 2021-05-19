@@ -19,11 +19,11 @@ ms.locfileid: "33426420"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-当邮件存储提供程序在内存中运行时, 它是[IMSProvider: IUnknown](imsprovideriunknown.md)接口。 **IMSProvider**接口允许客户端应用程序和 MAPI 后台处理程序登录和注销邮件存储区。 客户端应用程序和 MAPI 后台处理程序用于访问邮件存储区中的文件夹和邮件的接口为[IMSLogon](imslogoniunknown.md)和[IMsgStore](imsgstoreimapiprop.md)接口。 这些接口通常是在邮件存储区首次登录时创建的, 尽管邮件存储 DLL 的[MSProviderInit](msproviderinit.md)入口点也可以创建这些接口。 
+消息存储提供程序在内存中运行时，是 [IMSProvider ： IUnknown](imsprovideriunknown.md) 接口。 **IMSProvider** 接口允许客户端应用程序和 MAPI 后台处理程序登录到和注销消息存储。 客户端应用程序和 MAPI 后台处理程序用于访问邮件存储中的文件夹和消息的接口是 [IMSLogon](imslogoniunknown.md) 和 [IMsgStore](imsgstoreimapiprop.md) 接口。 虽然邮件存储 DLL 的 [MSProviderInit](msproviderinit.md) 入口点也可以创建它们，但是这些接口通常是在邮件存储首次登录时创建的。 
   
-由于**IMSLogon**和**IMsgStore**接口共享某些方法, 因此创建一个从这两个接口继承的类对象可能会更简单。 您还可以在单独的对象中实现这些接口, 并在 DLL 内部编写 helper 函数, 以实现可从**IMSLogon**和**IMsgStore**接口中的方法调用的共享方法。 
+由于 **IMSLogon** 和 **IMsgStore** 接口共享一些方法，因此创建一个继承自这两个接口的类对象可能会更容易。 您还可以在单独的对象中实现这些接口，在 DLL 内部编写帮助程序函数，这些函数实现共享方法，然后可以从 **IMSLogon** 和 **IMsgStore** 接口中的方法调用这些方法。 
   
-下图显示了正在运行的邮件存储区中的对象层次结构的高级大纲。
+下图显示了正在运行的邮件存储中对象层次结构的简要概述。
   
 **消息存储对象层次结构**
   

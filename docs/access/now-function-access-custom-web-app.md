@@ -1,5 +1,5 @@
 ---
-title: Now 函数 (Access 自定义 web 应用程序)
+title: 'Now Function (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425713"
 ---
-# <a name="now-function-access-custom-web-app"></a>Now 函数 (Access 自定义 web 应用程序)
+# <a name="now-function-access-custom-web-app"></a>Now Function (Access 自定义 Web 应用) 
 
 返回应用程序定义的时区中的当前日期和时间值。
   
@@ -23,12 +23,12 @@ ms.locfileid: "33425713"
   
 ## <a name="syntax"></a>语法
 
- **现在**() 
+ **现在** ()  
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**Now**函数的结果仅当刷新包含公式的列时才会更改。 它不会连续更新。 
+Now 函数 **的结果** 仅在刷新包含公式的列时更改。 它不会持续更新。 
   
-**Today**函数返回相同的日期, 但并不是相对于时间的精度;返回的时间始终为 12:00:00 AM, 并且仅更新日期。 
+Today 函数返回相同的日期，但时间不精确;返回的时间始终为 12：00：00 AM，并且仅更新日期。 
   
 

@@ -20,9 +20,9 @@ ms.locfileid: "33427715"
   
 ## <a name="syntax"></a>语法
 
-DOCLASTEDIT ()
+DOCLASTEDIT () 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 可使用 [FORMAT](format-function.md) 函数设置该值的格式。 
   

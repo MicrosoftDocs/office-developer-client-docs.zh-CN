@@ -25,26 +25,26 @@ ms.locfileid: "33425328"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件发件人请求证明邮件传输系统已提交邮件以传递给最初的预期收件人, 则此属性包含 TRUE。
+如果邮件发件人请求证明邮件传输系统已提交邮件以发送给最初预期的收件人，则此属性包含 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROOF_OF_SUBMISSION  <br/> |
 |标识符:  <br/> |0x0E26  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |MAPI 非传输  <br/> |
+|区域：  <br/> |MAPI 不可传输  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

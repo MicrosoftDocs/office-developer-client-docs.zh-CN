@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251489
 localization_priority: Normal
 ms.assetid: f6b9f65c-6752-16cb-7eb1-44e1ce56e80b
-description: 返回一个值, 该值代表文档调色板中的索引。 它通过它的红色、绿色和蓝色分量指定颜色, 其中每个是范围为0到 255 (含) 的数字, 或者是计算结果为此类数字的表达式。
+description: 返回一个值，该值代表文档的调色板中的索引。 它通过红色、绿色和蓝色分量指定颜色，其中每个颜色都是 0 到 255 之间的一个数字（包含这两者）或计算结果为此类数字的表达式。
 ms.openlocfilehash: 34f9c2f2043afe6144feba561e545dc7be35a5a2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,31 +18,31 @@ ms.locfileid: "33426301"
 ---
 # <a name="rgb-function-visioshapesheet"></a>RGB 函数 (VisioShapeSheet)
 
-返回一个值, 该值代表文档调色板中的索引。 它通过它的红色、绿色和蓝色分量指定颜色, 其中每个是范围为0到 255 (含) 的数字, 或者是计算结果为此类数字的表达式。 
+返回一个值，该值代表文档的调色板中的索引。 它通过红色、绿色和蓝色分量指定颜色，其中每个颜色都是 0 到 255 之间的一个数字（包含这两者）或计算结果为此类数字的表达式。 
   
 ## <a name="syntax"></a>语法
 
-RGB (* * *red* * *、* **绿色** *、* **蓝** *) 
+RGB (** *red* **， ** *green* **， ** *blue* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _表示_ <br/> |必需  <br/> |**Number** <br/> |红色成分。  <br/> |
-| _表示_ <br/> |必需  <br/> |**Number** <br/> |绿色成分。  <br/> |
-| _变为_ <br/> |必需  <br/> |**Nmber** <br/> |蓝色成分。  <br/> |
+| _red_ <br/> |必需  <br/> |**Number** <br/> |红色成分。  <br/> |
+| _绿色_ <br/> |必需  <br/> |**Number** <br/> |绿色成分。  <br/> |
+| _blue_ <br/> |必需  <br/> |**nmber** <br/> |蓝色成分。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-数字
+帐号
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 如果由该函数返回的颜色在当前文档的调色板中尚不存在，则它将添加到调色板中。
   
 下表列出了一些标准颜色，以及它们的红、绿和蓝值。
   
-|**颜色**|**红值**|**绿值**|**蓝值**|
+|**Color**|**红值**|**绿值**|**蓝值**|
 |:-----|:-----|:-----|:-----|
 |黑色  <br/> |0  <br/> |0  <br/> |0  <br/> |
 |蓝色  <br/> |0  <br/> |0  <br/> |255  <br/> |
@@ -55,13 +55,13 @@ RGB (* * *red* * *、* **绿色** *、* **蓝** *)
    
 ## <a name="example-1"></a>示例 1
 
-RGB (0, 0255)
+RGB (0，0，255) 
   
 返回蓝色的索引值。
   
 ## <a name="example-2"></a>示例 2
 
-RGB (RED (Sheet. 1!FillForegnd)、120、0)
+RGB (RED (Sheet.1！FillForegnd) ，120，0) 
   
 返回一种颜色的索引值，它的红成分匹配 Sheet.1 的填充前景色。
   

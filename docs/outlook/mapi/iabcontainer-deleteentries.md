@@ -25,7 +25,7 @@ ms.locfileid: "33425594"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-删除一个或多个条目, 通常是邮件用户、通讯组列表或其他容器。
+删除一个或多个条目，通常为邮件用户、通讯组列表或其他容器。
   
 ```cpp
 HRESULT DeleteEntries(
@@ -38,21 +38,21 @@ HRESULT DeleteEntries(
 
  _lpEntries_
   
-> 实时指向[ENTRYLIST](entrylist.md)结构数组的指针, 该数组包含表示要删除的项的条目标识符。 
+> [in]指向 [ENTRYLIST](entrylist.md) 结构的数组的指针，该数组包含表示要删除的条目的条目标识符。 
     
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功删除指定的条目。 
+> 指定的条目已成功删除。 
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> 调用成功, 但无法删除一个或多个条目。 返回此值时, 应以成功的方式处理该调用。 若要测试此值, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
+> 调用成功，但无法删除一个或多个条目。 返回此值时，应成功处理调用。 若要测试此值，请使用 **HR_FAILED** 宏。 有关详细信息，请参阅使用 [宏处理错误](using-macros-for-error-handling.md)。
     
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -60,7 +60,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|Abdlg  <br/> |CabDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI 使用**DeleteEntries**方法从通讯簿容器中删除特定的条目。  <br/> |
+|Abdlg.cpp  <br/> |CabDlg：：OnDeleteSelectedItem  <br/> |MFCMAPI 使用 **DeleteEntries** 方法从通讯簿容器中删除特定条目。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

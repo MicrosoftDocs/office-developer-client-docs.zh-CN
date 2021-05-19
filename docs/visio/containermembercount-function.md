@@ -25,13 +25,13 @@ ms.locfileid: "33426665"
   
 ## <a name="syntax"></a>语法
 
-CONTAINERMEMBERCOUNT ()
+CONTAINERMEMBERCOUNT () 
   
 ### <a name="return-value"></a>返回值
 
  **Integer**
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 如果形状不是容器，则 CONTAINERMEMBERCOUNT 返回 -1。
   

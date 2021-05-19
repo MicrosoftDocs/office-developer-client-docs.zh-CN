@@ -25,12 +25,12 @@ ms.locfileid: "33426931"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-测试两个[MAPIUID](mapiuid.md)结构以确定它们是否包含相同的标识符。 
+测试两 [个 MAPIUID](mapiuid.md) 结构以确定它们是否包含同一标识符。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**MAPIUID** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**MAPIUID** <br/> |
    
 ```cpp
 IsEqualMAPIUID(lpuid1, lpuid2)
@@ -40,17 +40,17 @@ IsEqualMAPIUID(lpuid1, lpuid2)
 
  _lpuid1_
   
-> 指向要测试的第一个**MAPIUID**结构的指针。 
+> 指向要测试的第一 **个 MAPIUID** 结构的指针。 
     
  _lpuid2_
   
-> 指向要测试的第二个**MAPIUID**结构的指针。 
+> 指向要测试的第二 **个 MAPIUID** 结构的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果两个**MAPIUID**结构包含相同的标识符, 则**IsEqualMAPIUID**宏返回 TRUE, 如果它们不包含, 则返回 FALSE。 
+如果两个 MAPIUID 结构包含相同的标识符， **则 IsEqualMAPIUID** 宏将返回 TRUE;如果两个 **MAPIUID** 结构不包含标识符，则返回 FALSE。 
   
-**IsEqualMAPIUID**宏要求包含头文件内存。 
+**IsEqualMAPIUID** 宏要求包含头文件 Memory.h。 
   
 ## <a name="see-also"></a>另请参阅
 

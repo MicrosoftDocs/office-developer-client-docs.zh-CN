@@ -1,5 +1,5 @@
 ---
-title: 常见任务 (Visio ShapeSheet)
+title: 'ShapeSheet (Visio的常见) '
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426973"
 ---
-# <a name="common-tasks-visio-shapesheet"></a>常见任务 (Visio ShapeSheet)
+# <a name="common-tasks-visio-shapesheet"></a>ShapeSheet (Visio的常见) 
 
 本导航页包含一些链接，这些链接指向有关 Visio 中可编程性的概述主题。单击下面的链接或者使用目录可浏览到相应的主题：
   
@@ -30,17 +30,17 @@ ms.locfileid: "33426973"
     
 - [编辑公式的一部分](edit-a-part-of-a-formula.md)
     
-- [输入一个空公式](enter-an-empty-formula.md)
+- [输入空公式](enter-an-empty-formula.md)
     
-- [在 ShapeSheet 窗口的周围移动](move-around-a-shapesheet-window.md)
+- [在 ShapeSheet 窗口周围移动](move-around-a-shapesheet-window.md)
     
 - [在同一窗口中打开每个 ShapeSheet](open-each-shapesheet-in-the-same-window.md)
     
 - [打开形状、页面或文档的 ShapeSheet](open-the-shapesheet-for-a-shape-page-or-document.md)
     
-- [在公式中引用单元格](reference-a-cell-in-a-formula.md)
+- [引用公式中的单元格](reference-a-cell-in-a-formula.md)
     
-- [在开发人员模式下运行 (显示 "开发工具" 选项卡)](run-in-developer-mode-display-the-developer-tab.md)
+- [在开发人员模式下运行 (显示"开发人员"选项卡) ](run-in-developer-mode-display-the-developer-tab.md)
     
 - [在 ShapeSheet 窗口中显示对象](show-an-object-in-the-shapesheet-window.md)
     

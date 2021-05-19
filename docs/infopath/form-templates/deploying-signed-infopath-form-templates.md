@@ -23,9 +23,9 @@ ms.locfileid: "33426798"
   
 ### <a name="to-digitally-sign-a-form-template"></a>对表单模板进行数字签名
 
-1. 在 InfoPath 设计器中，单击“文件”**** 选项卡，然后单击“信息”**** 选项卡上的“表单选项”****。 
+1. 在 InfoPath 设计器中，单击“文件”选项卡，然后单击“信息”选项卡上的“表单选项”。 
     
-2. 在“表单选项”**** 对话框中单击“安全和信任”**** 类别。 
+2. 在“表单选项”对话框中单击“安全和信任”类别。 
     
 3. Under **Form Template Signature**, select the **Sign this form template** check box. 
     

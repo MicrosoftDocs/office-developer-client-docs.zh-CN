@@ -17,9 +17,9 @@ ms.locfileid: "33426329"
 ---
 # <a name="lockthemeeffects-cell-protection-section"></a>LockThemeEffects 单元格（“Protection”内容）
 
-阻止将主题效果应用于形状。 
+阻止向形状应用主题效果。 
   
-与 "**保护**" 对话框中的 "**阻止主题效果**" 复选框设置相对应。 
+对应于"保护 **"对话框中** 的"自主题 **效果"复选框** 设置。 
   
 若要从另一个公式或从使用 **CellsU** 属性的某个程序按名称引用 LockThemeColors 单元格，请使用： 
   

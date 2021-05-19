@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm115
 localization_priority: Normal
 ms.assetid: 8b077cdb-6036-4f77-dc20-a476bb75b0f7
-description: 虚化或柔化位图图像。 默认值是 0%。
+description: 虚化或柔化位图图像。默认值是 0%。
 ms.openlocfilehash: 599810d126c853e37552045d0ef83cb580606ae2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.locfileid: "33427904"
 ---
 # <a name="blur-cell-image-properties-section"></a>Blur 单元格（“Image Properties”内容）
 
-虚化或柔化位图图像。 默认值是 0%。
+虚化或柔化位图图像。默认值是 0%。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Blur 单元格的引用，请使用： 
   

@@ -25,7 +25,7 @@ ms.locfileid: "33425874"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个[MAPIERROR](mapierror.md)结构, 该结构包含有关邮件存储对象的最后一个错误的信息。 
+返回 [一个 MAPIERROR](mapierror.md) 结构，其中包含有关邮件存储对象发生的最后一个错误的信息。 
   
 ```cpp
 HRESULT GetLastError(
@@ -39,37 +39,37 @@ HRESULT GetLastError(
 
  _hResult_
   
-> 实时一个 HRESULT 数据类型, 其中包含在以前的方法调用中为邮件存储对象生成的错误值。
+> [in]HRESULT 数据类型，其中包含在邮件存储对象的上一个方法调用中生成的错误值。
     
  _ulFlags_
   
-> 实时用于控制返回的字符串类型的标志的位掩码。 可以设置以下标志:
+> [in]控制返回的字符串类型的标志位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 在_lppMAPIError_参数中返回的**MAPIERROR**结构中的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。 
+> _lppMAPIError_ 参数中返回的 **MAPIERROR** 结构中的字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。 
     
  _lppMAPIError_
   
-> 排除指向包含错误的版本、组件和上下文信息的返回的**MAPIERROR**结构的指针的指针。 如果没有要返回的**MAPIERROR** , 则可以将_lppMAPIError_参数设置为 NULL。 
+> [out]指向返回的 **MAPIERROR** 结构的指针的指针，其中包含错误的版本、组件和上下文信息。 如果没有要返回的 **MAPIERROR，** 可以将 _lppMAPIError_ 参数设置为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
+> 设置 MAPI_UNICODE 标志，而实现不支持 Unicode，或者MAPI_UNICODE未设置，并且实现仅支持 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-使用**IMSLogon:: GetLastError**方法检索信息, 以供用户显示在邮件中, 以便与邮件存储对象的方法调用中返回的最后一个错误有关。 
+使用 **IMSLogon：：GetLastError** 方法检索要向用户显示的消息中有关从邮件存储对象的方法调用返回的最后一个错误的信息。 
   
-若要释放 MAPI 为返回的**MAPIERROR**结构分配的所有内存, 客户端应用程序只需调用[MAPIFreeBuffer](mapifreebuffer.md)函数。 
+若要释放 MAPI 为返回的 **MAPIERROR** 结构分配的所有内存，客户端应用程序只需调用 [MAPIFreeBuffer](mapifreebuffer.md) 函数。 
   
-对于要使用**MAPIERROR**的应用程序, 从**GetLastError**返回的值必须为 S_OK。 即使返回值为 S_OK, 也可能不会返回**MAPIERROR** 。 如果实现无法确定上一个错误是什么, 或者**MAPIERROR**不能用于该错误, 则**GetLastError**将返回指向_lppMAPIError_中的 NULL 的指针而不是。 
+**GetLastError** 的返回值必须S_OK应用程序才能使用 **MAPIERROR**。 即使返回值是S_OK，也可能不会返回 **MAPIERROR。** 如果实现无法确定上一个错误是什么，或者 **MAPIERROR** 对此错误不可用， **则 GetLastError** 将改为在  _lppMAPIError_ 中返回指向 NULL 的指针。 
   
 ## <a name="see-also"></a>另请参阅
 

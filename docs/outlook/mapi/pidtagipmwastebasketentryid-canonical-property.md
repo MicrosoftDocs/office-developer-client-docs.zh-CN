@@ -25,30 +25,30 @@ ms.locfileid: "33426350"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含标准人际邮件 (IPM) "已删除邮件" 文件夹的条目标识符。 
+包含"已删除邮件"文件夹中标准 (邮件) 标识符。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_IPM_WASTEBASKET_ENTRYID  <br/> |
 |标识符:  <br/> |0x35E3  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |Folder  <br/> |
+|区域：  <br/> |文件夹  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端应用程序应将已删除的人际邮件移动到 "已删除邮件" 文件夹。 如果邮件已在此文件夹中, 或者如果该属性不受支持, 客户端应删除该邮件。 
+客户端应用程序应该将已删除的邮件移动到"已删除邮件"文件夹。 如果邮件已位于此文件夹中，或者此属性不受支持，则客户端应删除该邮件。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

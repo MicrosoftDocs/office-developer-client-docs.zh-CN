@@ -24,11 +24,11 @@ ms.locfileid: "33426504"
 |:-----|:-----|:-----|
 | 0  <br/> | 第一页  <br/> |**visDocPreviewScope1stPage** <br/> |
 | 1  <br/> | 无  <br/> |**visDocPreviewScopeNone** <br/> |
-| 双面  <br/> | 所有页  <br/> |**visDocPreviewScopeAllPages** <br/> |
+| 2  <br/> | 所有页  <br/> |**visDocPreviewScopeAllPages** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您还可以在 "**属性**" 对话框中的 "**摘要**" 选项卡 (单击 " **Office** " 按钮, 依次单击 "**信息**" 选项卡、"**文档属性**" 和 "**高级属性**") 中设置此值。
+您还可以在"属性"对话框的"摘要"选项卡上设置此值 (单击 **"Office"** 按钮，单击"信息"选项卡，单击"文档属性"，然后单击"高级属性) "。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 PreviewScope 单元格的引用，请使用： 
   

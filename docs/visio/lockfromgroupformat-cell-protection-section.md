@@ -15,7 +15,7 @@ ms.locfileid: "33426056"
 ---
 # <a name="lockfromgroupformat-cell-protection-section"></a>LockFromGroupFormat 单元格（“Protection”内容）
 
-阻止将组形状的格式更改传播到其子形状, 同时仍允许用户直接设置选定子形状的格式。 
+阻止将组合形状的格式更改传播到其子形状，同时仍允许用户直接设置所选子形状的格式。 
   
 LockFromGroupFormat 单元格的值与 **“保护”** 对话框中的 **“阻止应用组格式”** 复选框设置相对应。 
   

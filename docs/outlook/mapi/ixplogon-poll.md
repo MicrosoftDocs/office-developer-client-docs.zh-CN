@@ -25,7 +25,7 @@ ms.locfileid: "33425272"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示传输提供程序是否已收到一个或多个入站邮件。
+指示传输提供程序是否收到一个或多个入站邮件。
   
 ```cpp
 HRESULT Poll(
@@ -37,17 +37,17 @@ HRESULT Poll(
 
  _lpulIncoming_
   
-> 排除一个指示是否存在入站邮件的值。 非零值表示有入站邮件。
+> [out]指示存在入站邮件的值。 非零值表示存在入站邮件。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-MAPI 后台处理程序定期调用**IXPLogon::P oll**方法如果传输提供程序指示它必须通过将 LOGON_SP_POLL 标志传递给[IXPProvider:: TransportLogon](ixpprovider-transportlogon.md)的新邮件进行轮询::会话开始时的方法。 如果传输提供程序指示有一个或多个可供其处理的入站邮件的**轮询**呼叫响应, MAPI 后台处理程序将调用[IXPLogon:: StartMessage](ixplogon-startmessage.md)方法, 以允许提供程序处理第一个入站消息。 传输提供程序通过将_lpulIncoming_参数中的值设置为非零值来指示入站邮件。 
+如果传输提供程序指示必须轮询 **IXPLogon：:P oll** 方法，MAPI 后台处理程序会定期调用 IXPLogon：:P oll 方法，提供程序通过向会话开始时的 [IXPProvider：：TransportLogon](ixpprovider-transportlogon.md) 方法的调用传递 LOGON_SP_POLL 标志来轮询新邮件。 如果传输提供程序在响应 **轮询** 调用时指示有一个或多个入站邮件可供其处理，则 MAPI 后台处理程序将调用 [IXPLogon：：StartMessage](ixplogon-startmessage.md) 方法，以允许提供程序处理第一个入站邮件。 传输提供程序通过将  _lpulIncoming_ 参数中的值设置为非零值来指示入站邮件。 
   
 ## <a name="see-also"></a>另请参阅
 

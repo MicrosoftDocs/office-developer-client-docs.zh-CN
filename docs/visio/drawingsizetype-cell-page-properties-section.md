@@ -24,14 +24,14 @@ ms.locfileid: "33425447"
 |:-----|:-----|:-----|
 |0  <br/> |同于打印机  <br/> |**visPrintSetup** <br/> |
 |1  <br/> |调整页面大小以适合绘图内容  <br/> |**visTight** <br/> |
-|双面  <br/> |标准  <br/> |**visStandard** <br/> |
-|第三章  <br/> |自定义页大小  <br/> |**visCustom** <br/> |
-|4  <br/> |自定义缩放比例的绘图大小  <br/> |**visLogical** <br/> |
-|5  <br/> |公制 (ISO)  <br/> |**visDSMetric** <br/> |
-|型  <br/> |ANSI 工程  <br/> |**visDSEngr** <br/> |
-|步  <br/> |ANSI 结构  <br/> |**visDSArch** <br/> |
+|2  <br/> |标准  <br/> |**visStandard** <br/> |
+|3  <br/> |自定义页大小  <br/> |**visCustom** <br/> |
+|4   <br/> |自定义缩放比例的绘图大小  <br/> |**visLogical** <br/> |
+|5   <br/> |公制 (ISO)  <br/> |**visDSMetric** <br/> |
+|6   <br/> |ANSI 工程  <br/> |**visDSEngr** <br/> |
+|7   <br/> |ANSI 结构  <br/> |**visDSArch** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要设置绘图大小，请使用 **“页面设置”** 对话框（单击 **“设计”** 选项卡上的 **“页面设置”** 箭头）或用鼠标手动调整页面大小。 
   

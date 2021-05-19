@@ -22,7 +22,7 @@ ms.locfileid: "33424712"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-用于在[Excel4](excel4-excel12.md)、 [Excel4v](excel4v-excel12v.md)、 [Excel12](excel4-excel12.md)或[Excel12v](excel4v-excel12v.md)的调用中创建返回值**XLOPER**/ **XLOPER12**时, 释放 Microsoft Excel 分配的内存资源。 **xlFree**函数释放辅助内存, 并将指针重置为**NULL** , 但不会销毁**XLOPER**/ **XLOPER12**的其他部分。
+用于在对 /  [Excel4、Excel4v、Excel12](excel4-excel12.md)或 [Excel12v](excel4v-excel12v.md)的调用中Microsoft Excel **XLOPER XLOPER12** [](excel4-excel12.md)创建返回值时，释放由 Microsoft Excel 分配的内存资源。 [](excel4v-excel12v.md) **xlFree** 函数释放辅助内存，将指针重置为 **NULL，** 但不销毁 **XLOPER** /  **XLOPER12** 的其他部分。
   
 ```cs
 Excel4(xlFree, 0, n, LPXLOPER px_1, ..., LPXLOPER px_n);
@@ -31,23 +31,23 @@ Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 
 ## <a name="parameters"></a>参数
 
- _px_1, ..., px_n_
+ _px_1、...、px_n_
   
-一个或多个要释放的**XLOPER**/ **XLOPER12**s。 在 Excel 版本中, 最多为2003个, 可以传递的最大指针数为30个。 从 Excel 2007 开始, 这会增加到255。
+要释放的 **一** 个或多个 /  **XLOPER XLOPER12。** 在Excel 2003 版本中，可以传递的最大指针数为 30。 从 2007 Excel，增加到 255。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
 此函数不返回值。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您必须释放作为返回值从**Excel4**或**Excel4v**中获取的每个**XLOPER** , 以及从**Excel12**或**Excel12v**获取为返回值的每个**XLOPER12** , 如果它们是以下类型之一: **xltypeStr**、 **xltypeMulti**或**xltypeRef**。 即使您从**Excel4**或**Excel12**中获取了这些类型, 也始终可以安全地释放其他类型, 即使它们不使用辅助内存也是如此。
+您必须释放从 **Excel4 或** **Excel4v** 获取的作为返回值获取的 **每个 XLOPER，** 以及从 Excel12 或 **Excel12v** 获取的作为返回值获取的每一 **个 XLOPER（** 如果它们是以下类型之一 **）：xltypeStr、xltypeMulti** 或 **xltypeRef**。   释放其他类型的内存始终安全，即使它们不使用辅助内存，只要从 **Excel4** 或 **Excel12** 获得它们。
   
-若要返回到 excel 的指针指向的**XLOPER**/ **XLOPER12**仍包含要释放的 Excel 分配内存, 则必须设置**xlbitXLFree**以确保 excel 释放内存。 
+如果返回到 Excel指向 **仍** 包含要释放的 Excel 分配的内存的 /  **XLOPER XLOPER12** 的指针，则必须设置 **xlbitXLFree** 以确保 Excel 释放内存。 
   
 ## <a name="example"></a>示例
 
-此示例调用**GET。工作区 (1)** 以返回 Excel 当前以字符串形式运行的平台。 代码将返回的字符串复制到缓冲区中, 以供将来使用。 该代码将缓冲区放回**XLOPER12**中, 以供以后用于 Excel 函数。 最后, 代码在警告框中显示字符串。 
+此示例调用 **GET。WORKSPACE (1)** 返回当前作为字符串Excel运行平台。 代码将返回的字符串复制到缓冲区中，供以后使用。 该代码将缓冲区重新放入 **XLOPER12** 中，供以后与 Excel 函数一同使用。 最后，代码在警报框中显示字符串。 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

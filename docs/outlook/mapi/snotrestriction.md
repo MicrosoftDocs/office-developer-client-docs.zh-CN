@@ -25,11 +25,11 @@ ms.locfileid: "33426651"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-描述用于将逻辑**非**操作应用于限制的**非**限制。 
+描述 **NOT** 限制，该限制用于将逻辑 **NOT** 操作应用于限制。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SNotRestriction
@@ -44,15 +44,15 @@ typedef struct _SNotRestriction
 
  **ulReserved**
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  **lpRes**
   
-> 指向描述要联接到逻辑**NOT**运算符的限制的[SRestriction](srestriction.md)结构的指针。 
+> 指向描述要联接逻辑 **NOT** 运算符的限制的 [SRestriction](srestriction.md)结构的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关**SNotRestriction**结构的详细信息, 请参阅[关于限制](about-restrictions.md)。 
+有关 **SNotRestriction** 结构详细信息，请参阅关于 [限制](about-restrictions.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

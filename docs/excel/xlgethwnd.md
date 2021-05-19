@@ -22,7 +22,7 @@ ms.locfileid: "33425454"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-返回顶级 Microsoft Excel 窗口的窗口句柄。
+返回顶级窗口的窗口句柄Microsoft Excel窗口。
   
 ```cs
 Excel4(xlGetHwnd, LPXLOPER pxRes, 0); /* returns low part only */
@@ -35,17 +35,17 @@ Excel12(xlGetHwnd, LPXLOPER12 pxRes, 0); /* returns full handle */
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-在 " **w** " 字段中包含窗口句柄 (**xltypeInt**)。 
+包含 **val.w** (**xltypeInt)** 窗口句柄。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此函数对于编写 Windows API 代码很有用。
+此函数可用于编写Windows API 代码。
   
-使用[Excel4](excel4-excel12.md)或[Excel4v](excel4v-excel12v.md)调用此函数时, 返回的 XLOPER 整数变量是带符号的16位短整型。这只能包含32位 Windows 句柄的低16位。 若要查找高部分, 您的代码必须循环访问所有打开的窗口, 查找低部分的匹配项。 从 Excel 2007 开始, **XLOPER12**的整数变量是一个有符号的32位 int, 因此包含整个句柄, 从而消除了对所有打开的窗口进行迭代的需求。 
+使用 Excel4 或[Excel4v](excel4-excel12.md)调用此函数时，返回的 XLOPER 整数变量是一个有符号的 16 位短整型整数。 [](excel4v-excel12v.md)这只能包含 32 位句柄的低 16 Windows位。 若要查找高部分，代码必须浏览所有打开的窗口，查找与低部分匹配的项。 从 Excel 2007 开始 **，XLOPER12** 的整数变量是一个已签名的 32 位 int，因此包含整个句柄，无需重新访问所有打开的窗口。 
   
 ### <a name="example"></a>示例
 
-请参阅中`SAMPLES\GENERIC\GENERIC.C`的[fShowDialog 函数](fshowdialog.md)的代码。
+请参阅 中的 [fShowDialog 函数](fshowdialog.md) 代码  `SAMPLES\GENERIC\GENERIC.C` 。
   
 ## <a name="see-also"></a>另请参阅
 

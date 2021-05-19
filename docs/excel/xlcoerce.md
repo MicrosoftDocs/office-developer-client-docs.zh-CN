@@ -22,7 +22,7 @@ ms.locfileid: "33424831"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-将一种类型的**XLOPER**/ **XLOPER12**转换为另一种, 或在工作表上查找单元格的值。 
+将一种类型的 /  **XLOPER XLOPER12** 转换为另一种类型，或在工作表上查找单元格值。 
   
 ```cs
 Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestType);
@@ -32,28 +32,28 @@ Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestTyp
 
  _pxSource_
   
-需要转换的源**XLOPER**/ **XLOPER12** 。 
+需要转换 **的** /  **源 XLOPER XLOPER12。** 
   
- _pxDestType_(**xltypeInt**)
+ _pxDestType_ (**xltypeInt**) 
   
-(可选)。 您愿意接受的结果类型的位掩码。 应使用按位**OR**运算符 (|) 来指定多个可能的类型。 如果省略此参数, 则对单个单元格的引用将转换为值类型**xltypeStr**、 **xltypeNum**、 **xltypeBool**、 **xltypeErr**、 **xltypeNil** (如果被引用的单元格为空) 和对块的引用的单元格将转换为**xltypeMulti**。 这使得**xlCoerce**最方便地查找单元格的值。 
+ (可选) 。 您愿意接受的结果类型的位掩码。 您应该使用位 OR **运算符** ( |) 指定多个可能的类型。 如果省略该参数，则对单个单元格的引用将转换为值类型 xltypeStr、xltypeNum、xltypeBool、xltypeErr、xltypeNil (如果引用的单元格为空) ，则对单元格块的引用将转换为 **xltypeMulti**。     这使得 **xlCoerce** 成为查找单元格值的最方便方式。 
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-返回强制的值 (**xltypeStr**、 **xltypeNum**、 **xltypeBool**、 **xltypeErr**、 **xltypeNil**或**xltypeMulti**)。
+返回 xltypeStr、xltypeNum、xltypeBool、xltypeErr、xltypeNil或 **xltypeMulti**) 的强制值。 (   
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
- **xlCoerce**无法转换为**xltypeBigData**或**xltypeFlow**。 将**xltypeMissing**或**xltypeNil**类型作为_pxDestType_传递等效于省略该参数。 在某些情况下转换可能会失败。 例如, 某些字符串不能转换为数字, 而另一些则可以。 
+ **xlCoerce** 无法转换为 **xltypeBigData** 或 **xltypeFlow 或从 xltypeFlow 转换**。 将 **xltypeMissing** 或 **xltypeNil** 类型作为  _pxDestType_ 传递等效于省略该参数。 在某些情况下，转换可能会失败。 例如，某些字符串不能转换为数字，而其他字符串可以转换为数字。 
   
-如果数组或多单元格引用转换为单个值类型, 则结果是左上角的单元格或数组元素的值。
+如果数组或多单元格引用转换为单个值类型，则结果是左上单元格或数组元素的值。
   
 ## <a name="example"></a>示例
 
-可以在中`\SAMPLES\EXAMPLE\EXAMPLE.C`找到以下代码。 
+可以在 中找到以下代码  `\SAMPLES\EXAMPLE\EXAMPLE.C` 。 
   
 > [!NOTE]
-> **xlcAlert**函数隐式尝试将其参数转换为字符串, 以便实际上可以删除此处显示的强制步骤, 并且**xInt**可以直接传递给**xlcAlert**。 由于**xlcAlert**是命令宏, 因此该代码在从宏表中调用时仅能正常工作。 
+> **xlcAlert** 函数隐式尝试将其参数转换为字符串，以便实际上可以删除此处所示的强制步骤，**并且可以将 xInt** 直接传递到 **xlcAlert**。 由于 **xlcAlert** 是命令宏，因此此代码仅在从宏工作表调用时才能正常运行。 
   
 ```cs
 short WINAPI xlCoerceExample(short iVal)

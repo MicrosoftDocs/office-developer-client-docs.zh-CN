@@ -20,35 +20,35 @@ ms.locfileid: "33424782"
 
 在没有本地排列样式的绘图页上确定所有连接线的排列样式和方向。
   
-|**值**|**排列样式**|**Direction**|**自动常量**|
+|**值**|**排列样式**|**方向**|**自动常量**|
 |:-----|:-----|:-----|:-----|
 |0  <br/> |默认值：直角  <br/> |无  <br/> |**visLORouteDefault** <br/> |
 |1  <br/> |直角  <br/> |无  <br/> |**visLORouteRightAngle** <br/> |
-|双面  <br/> |式  <br/> |无  <br/> |**visLORouteStraight** <br/> |
-|第三章  <br/> |组织结构图  <br/> |从上到下  <br/> |**visLORouteOrgChartNS** <br/> |
-|4  <br/> |组织结构图  <br/> |从左到右  <br/> |**visLORouteOrgChartWE** <br/> |
-|5  <br/> |流程图  <br/> |从上到下  <br/> |**visLORouteFlowchartNS** <br/> |
-|型  <br/> |流程图  <br/> |从左到右  <br/> |**visLORouteFlowchartWE** <br/> |
-|步  <br/> |树  <br/> |从上到下  <br/> |**visLORouteTreeNS** <br/> |
-|utf-8  <br/> |树  <br/> |从左到右  <br/> |**visLORouteTreeWE** <br/> |
-|第  <br/> |网络  <br/> |无  <br/> |**visLORouteNetwork** <br/> |
-|10   <br/> |组织结构图  <br/> |从下到上  <br/> |**visLORouteOrgChartSN** <br/> |
-|11   <br/> |组织结构图  <br/> |从右到左  <br/> |**visLORouteOrgChartEW** <br/> |
+|2  <br/> |直  <br/> |无  <br/> |**visLORouteStraight** <br/> |
+|3  <br/> |组织结构图  <br/> |从上到下  <br/> |**visLORouteOrgChartNS** <br/> |
+|4   <br/> |组织结构图  <br/> |从左到右  <br/> |**visLORouteOrgChartWE** <br/> |
+|5   <br/> |流程图  <br/> |从上到下  <br/> |**visLORouteFlowchartNS** <br/> |
+|6   <br/> |流程图  <br/> |从左到右  <br/> |**visLORouteFlowchartWE** <br/> |
+|7   <br/> |树  <br/> |从上到下  <br/> |**visLORouteTreeNS** <br/> |
+|8   <br/> |树  <br/> |从左到右  <br/> |**visLORouteTreeWE** <br/> |
+|9   <br/> |网络  <br/> |无  <br/> |**visLORouteNetwork** <br/> |
+|10    <br/> |组织结构图  <br/> |从下到上  <br/> |**visLORouteOrgChartSN** <br/> |
+|11  <br/> |组织结构图  <br/> |从右到左  <br/> |**visLORouteOrgChartEW** <br/> |
 |12   <br/> |流程图  <br/> |从下到上  <br/> |**visLORouteFlowchartSN** <br/> |
-|13   <br/> |流程图  <br/> |从右到左  <br/> |**visLORouteFlowchartEW** <br/> |
+|13  <br/> |流程图  <br/> |从右到左  <br/> |**visLORouteFlowchartEW** <br/> |
 |14   <br/> |树  <br/> |从下到上  <br/> |**visLORouteTreeSN** <br/> |
-|15   <br/> |树  <br/> |从右到左  <br/> |**visLORouteTreeEW** <br/> |
+|15  <br/> |树  <br/> |从右到左  <br/> |**visLORouteTreeEW** <br/> |
 |16   <br/> |从中心到中心  <br/> |无  <br/> |**visLORouteCenterToCenter** <br/> |
-|×  <br/> |简单  <br/> |从上到下  <br/> |**visLORouteSimpleNS** <br/> |
-|18  <br/> |简单  <br/> |从左到右  <br/> |**visLORouteSimpleWE** <br/> |
-|合  <br/> |简单  <br/> |从下到上  <br/> |**visLORouteSimpleSN** <br/> |
+|17   <br/> |简单  <br/> |从上到下  <br/> |**visLORouteSimpleNS** <br/> |
+|18   <br/> |简单  <br/> |从左到右  <br/> |**visLORouteSimpleWE** <br/> |
+|19  <br/> |简单  <br/> |从下到上  <br/> |**visLORouteSimpleSN** <br/> |
 |20  <br/> |简单  <br/> |从右到左  <br/> |**visLORouteSimpleEW** <br/> |
-|不足  <br/> |简单水平 - 垂直  <br/> |无  <br/> |**visLORouteSimpleHV** <br/> |
+| 21  <br/> |简单水平 - 垂直  <br/> |无  <br/> |**visLORouteSimpleHV** <br/> |
 |22  <br/> |简单垂直 - 水平  <br/> |无  <br/> |**visLORouteSimpleVH** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您还可以在 "**页面设置**" 对话框 (在 "**设计**" 选项卡上, 单击 "**页面设置**" 箭头, 单击 "**布局与排列**", 然后单击 "**间距**") 中的 "**布局与排列**" 选项卡上设置此单元格的值。 
+您还可以在"设计"选项卡上的"页面设置"对话框 (的"布局和传送"选项卡上设置此单元格的值，单击"页面设置"箭头，单击"布局和传送"，然后单击"间距) "   
   
 您可以在“Shape Layout”内容的 ShapeRouteStyle 单元格中为连接线设置本地排列样式。 
   

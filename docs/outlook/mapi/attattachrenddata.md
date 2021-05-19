@@ -21,6 +21,6 @@ ms.locfileid: "33427134"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-**attAttachRenddata**属性被编码为**RENDDATA**结构, 该结构描述了邮件文本中的附件呈现方式和位置。 **RENDDATA**结构简单地在 TNEF 流中编码为从**RENDDATA**结构的第一个成员开始的**sizeof (RENDDATA)** 字节。 如果**RENDDATA**结构的**dwFlags**成员的值设置为**MAC_BINARY**, 则以下附件的数据将存储为 MacBinary 格式;否则, 附件数据将按通常方式进行编码。
+**attAttachRenddata** 属性编码为描述附件在邮件文本中的呈现方式和位置的 **RENDDATA** 结构。 **RENDDATA** 结构在 TNEF 流中仅编码为 (**RENDDATA**) 字节的大小，从 **RENDDATA** 结构的第一个成员开始。 如果 **RENDDATA** 结构的 **dwFlags** 成员的值设置为 **MAC_BINARY，** 则以下附件的数据将存储为 MacBinary 格式;否则，附件数据将像往常一样编码。
   
 

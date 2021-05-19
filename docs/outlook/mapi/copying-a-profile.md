@@ -21,18 +21,18 @@ ms.locfileid: "33424726"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建配置文件的一种方法是复制现有的配置文件, 并改变必要的邮件服务和服务提供程序。 复制配置文件涉及使用由 MAPI 通过[MAPIAdminProfiles](mapiadminprofiles.md)函数提供的配置文件管理对象。 
+创建配置文件的一个方法就是从现有配置文件复制并更改必要的邮件服务和服务提供商。 复制配置文件涉及使用 MAPI 通过 [MAPIAdminProfiles](mapiadminprofiles.md) 函数提供的配置文件管理对象。 
   
  **复制配置文件**
   
-1. 调用**MAPIAdminProfiles**以检索**IProfAdmin**接口指针。 
+1. 调用 **MAPIAdminProfiles** 以检索 **IProfAdmin** 接口指针。 
     
-2. 调用[IProfAdmin:: GetProfileTable](iprofadmin-getprofiletable.md)以访问配置文件表。 
+2. 调用 [IProfAdmin：：GetProfileTable](iprofadmin-getprofiletable.md) 以访问配置文件表。 
     
-3. 使用[SPropertyRestriction](spropertyrestriction.md)结构生成属性限制, 以匹配**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 和要复制的配置文件的名称。 
+3. 使用 [SPropertyRestriction](spropertyrestriction.md) 结构构建属性限制，以将 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 与要复制的配置文件的名称相匹配。 
     
-4. 调用[IMAPITable:: FindRow](imapitable-findrow.md)以在配置文件表中查找相应的行。 
+4. 调用 [IMAPITable：：FindRow](imapitable-findrow.md) 以在配置文件表中查找相应的行。 
     
-5. 调用[IProfAdmin:: CopyProfile](iprofadmin-copyprofile.md), 将**PR_DISPLAY_NAME**列的值作为_lpszOldProfileName_参数进行传递。 
+5. 调用 [IProfAdmin：：CopyProfile](iprofadmin-copyprofile.md)，以 _lpszOldProfileName_ 参数 **PR_DISPLAY_NAME** 列的值。 
     
 

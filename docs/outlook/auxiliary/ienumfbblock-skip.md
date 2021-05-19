@@ -20,7 +20,7 @@ ms.locfileid: "33425720"
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅[IEnumFBBlock](ienumfbblock.md)。
+请参阅 [IEnumFBBlock](ienumfbblock.md)。
   
 ```cpp
 HRESULT Skip(  
@@ -32,7 +32,7 @@ HRESULT Skip(
 
 _celt_
   
->  实时要跳过的忙/闲块的数量。 
+>  [in]要跳过的忙/闲块数。 
     
 ## <a name="return-values"></a>返回值
 

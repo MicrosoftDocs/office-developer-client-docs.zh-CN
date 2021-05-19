@@ -25,7 +25,7 @@ ms.locfileid: "33426525"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件服务的[MAPIUID](mapiuid.md)结构。 
+包含 [邮件服务的 MAPIUID](mapiuid.md) 结构。 
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33426525"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性由 MAPI 的 profile 节对象计算。 MAPI 使用它对属于同一邮件服务的所有提供程序进行分组。 此属性作为参数提供给大多数[IMsgServiceAdmin](imsgserviceadminiunknown.md)方法。 它不得出现在 mapisvc.inf 中。 
+此属性由配置文件节对象的 MAPI 计算。 MAPI 使用它对属于同一邮件服务的所有提供程序进行分组。 此属性作为参数提供给大多数 [IMsgServiceAdmin](imsgserviceadminiunknown.md) 方法。 它不得显示在 Mapisvc.inf 中。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

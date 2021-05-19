@@ -25,7 +25,7 @@ ms.locfileid: "33425199"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-调用内部函数以检查客户端应用程序已传递给服务提供程序的参数。 
+调用内部函数以检查客户端应用程序已传递给服务提供商的参数。 
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ HRESULT ValidateParameters(
 
  _eMethod_
   
-> 实时通过枚举指定要验证的方法。 
+> [in]通过枚举指定要验证的方法。 
     
  _第一_
   
-> 实时指向堆栈上第一个参数的指针。
+> [in]指向堆栈上第一个参数的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -58,10 +58,10 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> 一个或多个参数无效。
+> 其中一个或多个参数无效。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**ValidateParameters**宏已被[ValidateParms](validateparms.md)宏取代。 **ValidateParameters**不能在 RISC 平台上正常运行, 现在无法在其上进行编译。 它仍可在 Intel 平台上正常编译和工作, 但建议在所有平台上使用**ValidateParms** 。 
+**ValidateParameters** 宏已被 [ValidateParms](validateparms.md)宏取代。 **ValidateParameters** 在 RISC 平台上无法正常工作，现在无法对它们进行编译。 它仍然可以在 Intel 平台上编译并正常运行，但建议在所有平台上使用 **ValidateParms。** 
   
 

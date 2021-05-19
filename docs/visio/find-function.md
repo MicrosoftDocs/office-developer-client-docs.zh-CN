@@ -22,7 +22,7 @@ ms.locfileid: "33426574"
   
 ## <a name="syntax"></a>语法
 
-FIND (* * *find_text* * *, * * *within_text* * *, [* * *start_num* * *], [* * *ignore_case* * *]) 
+FIND (** *find_text* **， ** *within_text* **，[ ** *start_num* ** ]， [ ** *ignore_case* ** ])  
   
 ### <a name="parameters"></a>参数
 
@@ -30,28 +30,28 @@ FIND (* * *find_text* * *, * * *within_text* * *, [* * *start_num* * *], [* * *i
 |:-----|:-----|:-----|:-----|
 | _find_text_ <br/> |必需  <br/> |**String** <br/> |要查找的文本字符串。  <br/> |
 | _format_ <br/> |必需  <br/> |**String** <br/> |包含要查找的文本的文本字符串。  <br/> |
-| _start_num_ <br/> |可选  <br/> |**Number** <br/> |从该处开始搜索的字符。 _within_text_中的第一个字符是1。 如果缺少_start_num_ , 则假定其为1。  <br/> |
-| _ignore_case_ <br/> |可选  <br/> |**Boolean** <br/> |默认情况下，FIND 函数区分大小写。 如果希望 FIND 函数忽略大小写，请将此参数设置为 TRUE。  <br/> |
+| _start_num_ <br/> |可选  <br/> |**Number** <br/> |从该处开始搜索的字符。 第一  _个字符within_text_ 1。 如果  _start_num，_ 则假定其为 1。  <br/> |
+| _ignore_case_ <br/> |可选  <br/> |**Boolean** <br/> |默认情况下，FIND 函数区分大小写。如果希望 FIND 函数忽略大小写，请将此参数设置为 TRUE。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-数字
+帐号
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果找到多个匹配结果，FIND 函数将返回第一个匹配结果在字符串中的起始位置。 _find_text_参数不考虑将任何字符设为通配符。 
+如果找到多个匹配结果，FIND 函数将返回第一个匹配结果在字符串中的起始位置。 the  _find_text_ argument does not consider any characters to be wildcards. 
   
-如果_find_text_:
+如果 _find_text：_
   
--  为空 (""), 则查找匹配搜索字符串中的第一个字符 (即编号为_start_num_或1的字符)。 
+-  为空 ("") ，FIND 与搜索字符串中的第一个字符 (，即编号为 start_num 或 1) 。  
     
-- 不显示在_within_text_中, FIND 将返回 #VALUE! 。 
+- 不显示  _在within_text中_，FIND 将返回#VALUE！ 。 
     
-如果_start_num_:
+如果 _start_num：_
   
 - 不大于零 (0)，FIND 将返回 #VALUE! 错误值。 
     
-- 大于_within_text_的长度, 请 FINDreturns #VALUE! 错误值。 
+- 大于数据长度，  _则_ WITHIN_TEXT FINDreturns the #VALUE！ 错误值。 
     
 ## <a name="example"></a>示例
 

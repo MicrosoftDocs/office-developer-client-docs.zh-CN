@@ -22,34 +22,34 @@ ms.locfileid: "33425972"
   
 ## <a name="syntax"></a>语法
 
-SETF (GETREF (* * *cell* * *), * * *formula* * *) 
+SETF ( GETREF (** *cell* ** ) ， ** *formula* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _单元_ <br/> |必需  <br/> |**String** <br/> |要设置其公式的单元格。  <br/> |
+| _cell_ <br/> |必需  <br/> |**String** <br/> |要设置其公式的单元格。  <br/> |
 | _formula_ <br/> |必需  <br/> |**String** <br/> |要使用的公式。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-当计算时, _formula_中表达式的结果将成为_单元格中_的新公式。 如果将_formula_括在引号中, 则会将引用的表达式写入_单元格_。 若要将_单元格_设置为字符串, 请将_公式_括在三个引号中。 
+计算时，formula 中的表达式  _结果将成为单元格_ 中的新  _公式_。 如果  _formula_ 括在引号中，则引用的表达式将写入  _单元格_。 若要将  _单元格_ 设置为字符串，请用三组引号将  _公式_ 括起来。 
   
 目标单元格必须使用 GETREF() 引用来指定或必须指定为一个字符串，以避免循环。最好使用 GETREF，因为 Microsoft Visio 能够在形状移到不同的文档时调整引用。
   
-如果_单元格_不是使用 GETREF 或字符串指定的, 则函数将返回错误, 并且不会更改单元格的公式。 如果_公式_中包含语法错误, 函数将返回错误, 并且_单元格中_的公式不会更改。 
+如果没有  _使用_ GETREF 或字符串指定单元格，函数将返回错误，并且单元格的公式不变。 如果  _formula_ 包含语法错误，函数将返回错误，并且  _单元格中的公式_ 不会更改。 
   
 ## <a name="example-1"></a>示例 1
 
-SETF (GETREF (1.5), 6 + 1 英尺\*中的
+SETF ( GETREF (Scratch.A1) ， 1.5 in \* 6 + 1 ft) 
   
 将 Scratch.A1 的公式设置为 21 英寸。
   
 ## <a name="example-2"></a>示例 2
 
-SETF (GETREF (), "1.5 \* 6 英尺1英尺")
+SETF ( GETREF (Scratch.A1) ，"1.5 in \* 6 + 1 ft") 
   
-将 Scratch. A1 到\*6 + 1 英尺的表达式1.5。
+将 Scratch. A1 到表达式 1.5 in \* 6+1 ft。
   
 ## <a name="example-3"></a>示例 3
 

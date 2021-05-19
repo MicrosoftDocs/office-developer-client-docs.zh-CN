@@ -1,5 +1,5 @@
 ---
-title: 宏函数引用 (Access 自定义 web 应用程序)
+title: 'Access 自定义 Web (应用程序的宏函数) '
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
@@ -13,27 +13,27 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426378"
 ---
-# <a name="macro-function-reference-access-custom-web-app"></a>宏函数引用 (Access 自定义 web 应用程序)
+# <a name="macro-function-reference-access-custom-web-app"></a>Access 自定义 Web (应用程序的宏函数) 
 
 ## <a name="in-this-section"></a>本节内容
 
 > [!IMPORTANT]
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
-- [数据块 (Access 自定义 web 应用)](data-blocksaccess-custom-web-app.md)
+- [Access (Web 应用的数据块) ](data-blocksaccess-custom-web-app.md)
     
-- [数据操作 (Access 自定义 web 应用程序)](data-actions-access-custom-web-app.md)
+- [Access (Web 应用模板的数据) ](data-actions-access-custom-web-app.md)
     
-- [数据输入操作 (Access 自定义 web 应用)](data-entry-operations-access-custom-web-app.md)
+- [Access 自定义 Web (数据输入操作) ](data-entry-operations-access-custom-web-app.md)
     
-- [数据库对象 (Access 自定义 web 应用程序)](database-objects-access-custom-web-app.md)
+- [Access 自定义 web (数据库对象) ](database-objects-access-custom-web-app.md)
     
-- [筛选器/查询/搜索 (Access 自定义 web 应用)](filter-query-search-access-custom-web-app.md)
+- [Filter/query/search (Access 自定义 Web app) ](filter-query-search-access-custom-web-app.md)
     
-- [宏命令 (Access 自定义 web 应用程序)](macro-commands-access-custom-web-app.md)
+- [Access 自定义 (应用程序的宏) ](macro-commands-access-custom-web-app.md)
     
-- [程序流 (Access 自定义 web 应用)](program-flow-access-custom-web-app.md)
+- [Access 自定义 (应用程序的程序流) ](program-flow-access-custom-web-app.md)
     
-- [用户界面命令 (Access 自定义 web 应用)](user-interface-commands-access-custom-web-app.md)
+- [Access 自定义 web (应用程序的用户界面) ](user-interface-commands-access-custom-web-app.md)
     
 

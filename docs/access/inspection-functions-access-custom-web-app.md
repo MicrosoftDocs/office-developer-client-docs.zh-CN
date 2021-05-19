@@ -1,5 +1,5 @@
 ---
-title: 检查函数 (Access 自定义 web 应用程序)
+title: 'Access 自定义 (应用的检查) '
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426532"
 ---
-# <a name="inspection-functions-access-custom-web-app"></a>检查函数 (Access 自定义 web 应用程序)
+# <a name="inspection-functions-access-custom-web-app"></a>Access 自定义 (应用的检查) 
 
 > [!IMPORTANT]
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="in-this-section"></a>本节内容
 
-- [Try_Convert 函数 (Access 自定义 web 应用程序)](try_convert-function-access-custom-web-app.md)
+- [Try_Convert Function (Access 自定义 Web 应用) ](try_convert-function-access-custom-web-app.md)
     
 

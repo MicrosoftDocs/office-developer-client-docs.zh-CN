@@ -30,7 +30,7 @@ Microsoft Visio 公式在很多方面都类似于典型的电子表格公式。V
   
 - 数字
     
-- 座标
+- 坐标
     
 - 布尔值
     
@@ -46,7 +46,7 @@ Microsoft Visio 公式在很多方面都类似于典型的电子表格公式。V
     
 ## <a name="default-formulas"></a>默认的公式
 
-创建形状时，默认情况下 Visio 会为它创建公式。若要查看这些默认公式，请绘制一个简单的形状（如矩形、椭圆或直线），然后打开它的 ShapeSheet 窗口（在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上单击 **“显示 ShapeSheet”**）。
+创建形状时，默认情况下 Visio 会为它创建公式。若要查看这些默认公式，请绘制一个简单的形状（如矩形、椭圆或直线），然后打开它的 ShapeSheet 窗口（在 [“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上单击 **“显示 ShapeSheet”**）。
   
 ## <a name="inherited-formulas"></a>继承的公式
 

@@ -21,15 +21,15 @@ ms.locfileid: "33425559"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-未初始化状态是首次创建窗体对象时, 它们应位于的初始状态。 当客户端应用程序对 form 对象调用[IPersistMessage:: InitNew](ipersistmessage-initnew.md)或[IPersistMessage:: Load](ipersistmessage-load.md)方法时, 窗体对象将被初始化为邮件数据。 下表介绍了允许从 Unitialized 状态进行的转换。 
+"未初始化"状态是首次创建对象时它们应位于的初始状态表单对象。 当客户端应用程序对表单对象调用 [IPersistMessage：：InitNew](ipersistmessage-initnew.md) 或 [IPersistMessage：：Load](ipersistmessage-load.md) 方法时，Form 对象会使用邮件数据进行初始化。 下表介绍了允许从单一化状态转换。 
   
-|**IPersistMessage 方法**|**操作**|**新状态**|
+|**IPersistMessage 方法**|**Action**|**新状态**|
 |:-----|:-----|:-----|
-|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |使用默认数据加载 form 对象。  <br/> |[Normal](normal-state.md) <br/> |
-|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |使用目标邮件中的数据加载 form 对象。  <br/> |一般  <br/> |
-|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |返回 success, 或将上一个错误设置为并返回 E_UNEXPECTED。  <br/> |即  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |返回上一个错误。  <br/> |即  <br/> |
-|其他[IPersistMessage: IUnknown](ipersistmessageiunknown.md)方法或来自其他接口的方法  <br/> |将上一个错误设置为并返回 E_UNEXPECTED。  <br/> |即  <br/> |
+|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |使用默认数据加载表单对象。  <br/> |[Normal](normal-state.md) <br/> |
+|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |使用来自目标邮件的数据加载表单对象。  <br/> |一般  <br/> |
+|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |返回成功，或将最后一个错误设置为 并返回E_UNEXPECTED。  <br/> |未初始化  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |返回最后一个错误。  <br/> |未初始化  <br/> |
+|其他 [IPersistMessage ：来自其他接口的 IUnknown](ipersistmessageiunknown.md) 方法  <br/> |将最后一个错误设置为 并返回E_UNEXPECTED。  <br/> |未初始化  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

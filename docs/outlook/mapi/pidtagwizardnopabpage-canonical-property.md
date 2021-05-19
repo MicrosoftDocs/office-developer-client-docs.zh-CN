@@ -25,30 +25,30 @@ ms.locfileid: "33424460"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果配置文件向导要禁止显示 "个人通讯簿 (PAB)" 页面, 则此属性包含 TRUE。
+如果配置文件向导要禁止在 PAB 页中显示个人通讯簿， (TRUE) TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_WIZARD_NO_PAB_PAGE  <br/> |
 |标识符:  <br/> |0x6701  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |Exchange 管理  <br/> |
+|区域：  <br/> |Exchange管理  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-服务提供程序在调用基于[LAUNCHWIZARDENTRY](launchwizardentry.md)函数原型的函数时, 可以设置此属性。 此属性告知配置文件向导, 提供程序不希望在用户对话过程中显示 PAB 页面。 
+当基于 [LAUNCHWIZARDENTRY](launchwizardentry.md) 函数原型调用函数时，服务提供商可以设置此属性。 此属性告知配置文件向导提供程序不希望在用户对话框期间显示 PAB 页。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

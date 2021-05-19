@@ -34,21 +34,21 @@ ms.locfileid: "33425671"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性提供**PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) 属性保护邮件的基础。 令牌会保证它与邮件内容的关联。
+此属性提供[PidTagMessageToken PR_MESSAGE_TOKEN (PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) 保护邮件的基础。  令牌保证其与邮件内容的关联。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

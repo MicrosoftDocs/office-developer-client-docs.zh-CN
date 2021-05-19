@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251445
 localization_priority: Normal
 ms.assetid: a298eead-044b-6f40-54c7-e0e6088baa19
-description: 返回两条线相交的点的 y 轴坐标值 (在本地坐标系中)。
+description: 返回本地坐标 (坐标系统坐标) 两条线相交的点中的 y 坐标坐标。
 ms.openlocfilehash: 6fcd06e7086d52b9c45f1deb9d4c191f1a7b1fd2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,28 +18,28 @@ ms.locfileid: "33426098"
 ---
 # <a name="intersecty-function"></a>INTERSECTY 函数
 
-返回两条线相交的点的*y*轴坐标值 (在本地坐标系中)。 
+返回本地坐标系 (坐标坐标的  *y*  坐标) 两条线相交的点。 
   
 ## <a name="syntax"></a>语法
 
-INTERSECTX (* * *x1* * *、* * *y1* * *、* * *angle1* * *、* * *x2* * *、* * *y2* * *、* * *angle2* * *) 
+INTERSECTX (** *x1* **， ** *y1* **， ** *angle1* **， ** *x2* **， ** *y2* **， ** *angle2* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _x1_ <br/> |必需  <br/> |**Number** <br/> |第一条直线上的点的_x_坐标。  <br/> |
-| _y1_ <br/> |必需  <br/> |**Number** <br/> |第一条直线上的点的_y_坐标。  <br/> |
+| _x1_ <br/> |必需  <br/> |**Number** <br/> |第  _一_ 行上点的 x 坐标。  <br/> |
+| _y1_ <br/> |必需  <br/> |**Number** <br/> |第一条直线上的点的  _y_ 坐标。  <br/> |
 | _angle1_ <br/> |必需  <br/> |**Number** <br/> | 第一条直线的 Angle 单元格的值。  <br/> |
-| _x2_ <br/> |必需  <br/> |**Number** <br/> |第二条直线上的点的_x_坐标。  <br/> |
-| _y2_ <br/> |必需  <br/> |**Number** <br/> |第二条直线上的点的_y_轴坐标值。  <br/> |
+| _x2_ <br/> |必需  <br/> |**Number** <br/> |第  _二_ 条直线上的点的 x 坐标。  <br/> |
+| _y2_ <br/> |必需  <br/> |**Number** <br/> |第二条直线上的点的  _y_ 坐标。  <br/> |
 | _angle2_ <br/> |必需  <br/> |**Number** <br/> |第二条直线的 Angle 单元格的值。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-数字
+帐号
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 每一条直线都可以定义为一个点 (*x,y*) 和一个角。 
   
@@ -49,8 +49,8 @@ Microsoft Visio 在粘附到旋转参考线的形状的 PinY 单元格中使用�
   
 ## <a name="example"></a>示例
 
-INTERSECTY (VertGuide!PinX、VertGuide!PinY、VertGuide!角、用 horzguide!PinX、用 horzguide!PinY、用 horzguide!Angle 
+INTERSECTY (VertGuide！PinX，VertGuide！PinY，VertGuide！Angle、HorzGuide！PinX，HorzGuide！PinY，HorzGuide！角度)  
   
-返回 VertGuide 和用 horzguide 的交集点的*y*坐标 (以页面单位表示)。 
+返回 VertGuide 和 HorzGuide 的交点（以页面单位表示）的  *y*  坐标。 
   
 

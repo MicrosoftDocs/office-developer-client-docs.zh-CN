@@ -21,19 +21,19 @@ ms.locfileid: "33425041"
   
 ## <a name="members"></a>Members
 
-下表显示了**ISocialProfile**接口上可用的成员。 
+下表显示了 **ISocialProfile 接口上可用的** 成员。 
   
 |**名称**|**成员类型**|**说明**|
 |:-----|:-----|:-----|
-|[AreFriendsOrColleagues](isocialprofile-arefriendsorcolleagues.md) <br/> |方法  <br/> |确定指定的用户是否为朋友。  <br/> |
-|[GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |方法  <br/> |由于 Outlook Social Connector 2013, 此方法已被弃用。  <br/> |
-|[SetStatus](isocialprofile-setstatus.md) <br/> |方法  <br/> |目前不支持此方法。  <br/> |
+|[AreFriendsOrColleagues](isocialprofile-arefriendsorcolleagues.md) <br/> |方法  <br/> |确定指定用户是否是好友。  <br/> |
+|[GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |方法  <br/> |自 Social Connector 2013 Outlook已弃用此方法。  <br/> |
+|[SetStatus](isocialprofile-setstatus.md) <br/> |方法  <br/> |此方法当前不受支持。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-Outlook Social Connector (.osc) 提供程序必须实现此接口才能与 .osc 通信。
+OSC Outlook的 (连接器) 必须实现此接口以与 OSC 通信。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Outlook Social Connector 提供程序接口](outlook-social-connector-provider-interfaces.md)
+- [OutlookSocial Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

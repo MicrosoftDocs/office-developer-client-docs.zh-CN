@@ -1,5 +1,5 @@
 ---
-title: Sum 函数 (Access 自定义 web 应用程序)
+title: 'Sum 函数 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427099"
 ---
-# <a name="sum-function-access-custom-web-app"></a>Sum 函数 (Access 自定义 web 应用程序)
+# <a name="sum-function-access-custom-web-app"></a>Sum 函数 (Access 自定义 Web 应用) 
 
 返回表达式中所有值的总和。
   
@@ -23,18 +23,18 @@ ms.locfileid: "33427099"
   
 ## <a name="syntax"></a>语法
 
- **Sum**(*NumericExpression*) 
+ **Sum** (*NumericExpression)* 
   
-**Sum**函数包含以下参数。 
+**Sum** 函数包含以下参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |表达式, 用于标识包含要添加的数值数据的字段, 或者是使用该字段中的数据执行计算的表达式。 *NumericExpression*中的操作数可以包括表字段、常量或函数 (可以是固有的, 也可以是用户定义的, 但不能是其他 SQL 聚合函数) 的名称。  <br/> |
+| *NumericExpression*  <br/> |一个标识包含要添加的数字数据的字段的表达式，或者一个使用该字段的数据执行计算的表达式。 *NumericExpression* 中的操作数可以包括表字段、常量或函数 (可以是固有函数或用户定义的函数，但不能是其他 SQL 聚合函数) 。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**Sum**函数将忽略包含 Null 值的记录。 
+**Sum** 函数将忽略包含 Null 值的记录。 
   
-**Sum**函数仅可用于数字列。 
+**Sum** 函数只能与数值列一同使用。 
   
 

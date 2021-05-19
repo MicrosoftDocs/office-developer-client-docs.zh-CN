@@ -19,11 +19,11 @@ ms.locfileid: "33424173"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-客户端可直接在可修改的容器 (如个人通讯簿 (PAB)) 中创建通讯组列表。
+客户端可以直接在可修改的容器中创建通讯组列表，例如 PAB (个人) 。
   
 **在 PAB 中创建通讯组列表**
   
-1. 创建具有一个属性标记的大小的属性标记数组, **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)), 如下所示:
+1. 使用一个属性标记创建大小属性标记数组，PR_DEF_CREATE_DL ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)) ，如下所示： 
     
    ```cpp
     SizedPropTagArray(1, tagaDefaultDL) =
@@ -35,7 +35,7 @@ ms.locfileid: "33424173"
     };
    ```
 
-2. 调用[IAddrBook:: GetPAB](iaddrbook-getpab.md)以检索 PAB 的条目标识符。 如果有错误或**GetPAB**返回零或 NULL, 则不会继续。 
+2. 调用 [IAddrBook：：GetPAB](iaddrbook-getpab.md) 检索 PAB 的条目标识符。 如果出现错误或 **GetPAB** 返回零或 NULL，请不要继续。 
     
    ```cpp
     LPENTRYID peidPAB = NULL;
@@ -43,7 +43,7 @@ ms.locfileid: "33424173"
     lpIAddrBook->GetPAB(&cbeidPAB, &peidPAB);
    ```
 
-3. 调用[IAddrBook:: OpenEntry](iaddrbook-openentry.md)以打开 PAB。 _ulObjType_输出参数应设置为 MAPI_ABCONT。 
+3. 调用 [IAddrBook：：OpenEntry](iaddrbook-openentry.md) 以打开 PAB。 _ulObjType_ 输出参数应设置为 MAPI_ABCONT。 
     
    ```cpp
     ULONG ulObjType = 0;
@@ -55,7 +55,7 @@ ms.locfileid: "33424173"
                     &lpPABCont);
    ```
 
-4. 调用 PAB 的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法以检索 PR_DEF_CREATE_DL 属性, 它用于创建通讯组列表的模板。 
+4. 调用 PAB 的 [IMAPIProp：：GetProps](imapiprop-getprops.md) 方法来检索 PR_DEF_CREATE_DL 属性，该属性是它用于创建通讯组列表的模板。 
     
    ```cpp
     lpPABCont->GetProps(0,
@@ -64,15 +64,15 @@ ms.locfileid: "33424173"
     
    ```
 
-5. 如果**GetProps**失败: 
+5. 如果 **GetProps** 失败： 
     
-   1. 调用 PAB 的[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法, 以使用**IMAPITable**接口打开**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性。 
+   1. 调用 PAB [的 IMAPIProp：：OpenProperty](imapiprop-openproperty.md)方法以使用 **IMAPITable** 接口打开 **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性。 
       
-   2. 创建属性限制以搜索**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) 列等于 "MAPIPDL" 的行。 
+   2. 创建属性限制以搜索[PidTagAddressType](pidtagaddresstype-canonical-property.md) PR_ADDRTYPE (等于"MAPIPDL") 行。  
       
-   3. 调用[IMAPITable:: FindRow](imapitable-findrow.md)以查找此行。 
+   3. 调用 [IMAPITable：：FindRow](imapitable-findrow.md) 以查找此行。 
     
-6. 保存由**GetProps**或**FindRow**返回的条目标识符。
+6. 保存 **GetProps** 或 FindRow 返回的 **条目标识符**。
     
    ```cpp
     peidDefDLTpl = lpspvDefDLTpl->Value.bin.pb;
@@ -80,7 +80,7 @@ ms.locfileid: "33424173"
     
    ```
 
-7. 调用 PAB 的[IABContainer:: CreateEntry](iabcontainer-createentry.md)方法, 以使用已保存的条目标识符表示的模板创建新条目。 不要假定返回的对象将是通讯组列表, 而不是消息用户 (当此调用是远程的时)。 请注意, CREATE_CHECK_DUP 标志在_ulFlags_参数中传递, 以防止添加两次输入。 
+7. 调用 PAB 的 [IABContainer：：CreateEntry](iabcontainer-createentry.md) 方法，使用保存的条目标识符表示的模板创建新条目。 请勿假定当此调用被远程时，返回的对象将是通讯组列表而不是消息用户。 请注意，CREATE_CHECK_DUP标记在  _ulFlags_ 参数中传递，以防止条目添加两次。 
     
    ```cpp
     lpPABCont->CreateEntry(cbeidDefDLTpl,
@@ -89,16 +89,16 @@ ms.locfileid: "33424173"
                     &lpNewPABEntry);
    ```
 
-8. 调用新条目的**IUnknown:: QueryInterface**方法, 将 IID_IDistList 作为接口标识符传递, 以确定该条目是否为通讯组列表并支持[IDistList: IMAPIContainer](idistlistimapicontainer.md)接口。 由于**CreateEntry**返回**IMAPIProp**指针, 而不是更具体的**IMailUser**或**IDistList**指针, 请检查是否已创建通讯组列表对象。 如果**QueryInterface**成功, 则可以确保已创建了通讯组列表, 而不是邮件用户。 
+8. 调用新条目的 **IUnknown：：QueryInterface** 方法，将 IID_IDistList 作为接口标识符传递，以确定条目是否为通讯组列表并支持 [IDistList ： IMAPIContainer](idistlistimapicontainer.md) 接口。 由于 **CreateEntry** 返回 **IMAPIProp** 指针，而不是更具体的 **IMailUser** 或 **IDistList** 指针，请检查是否创建了通讯组列表对象。 如果 **QueryInterface** 成功，则您可以确保已创建通讯组列表，而不是邮件用户。 
     
-9. 调用通讯组列表的[IMAPIProp:: SetProps](imapiprop-setprops.md)方法以设置其显示名称和其他属性。 
+9. 调用通讯组列表的 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法来设置其显示名称属性。 
     
-10. 调用通讯组列表的[IABContainer:: CreateEntry](iabcontainer-createentry.md)方法以添加一个或多个邮件用户。 
+10. 调用通讯组列表的 [IABContainer：：CreateEntry](iabcontainer-createentry.md) 方法以添加一个或多个邮件用户。 
     
-11. 当您准备好保存通讯组列表的[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法时, 调用该方法。 若要检索已保存的通讯组列表的条目标识符, 请设置 KEEP_OPEN_READWRITE 标志, 然后调用[IMAPIProp:: GetProps](imapiprop-getprops.md)请求**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。
+11. 准备好保存时，调用通讯组列表的 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法。 若要检索已保存通讯组列表的条目标识符，请设置 KEEP_OPEN_READWRITE 标志，然后调用 [IMAPIProp：：GetProps](imapiprop-getprops.md) 以请求 **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。
     
-12. 通过调用其**IUnknown:: release**方法来释放新的通讯组列表和 PAB。 
+12. 通过调用其 **IUnknown：：Release** 方法释放新的通讯组列表和 PAB。 
     
-13. 调用[MAPIFreeBuffer](mapifreebuffer.md)以释放 PAB 条目标识符和大小属性标记数组的内存。 
+13. 调用 [MAPIFreeBuffer](mapifreebuffer.md) 以释放 PAB 的条目标识符和大小属性标记数组的内存。 
     
 

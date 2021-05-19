@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251642
 localization_priority: Normal
 ms.assetid: bfea4ef4-1b30-eb22-215d-3b9b73098da9
-description: 确定在 "配置布局" 对话框中配置布局时, 应用程序是否基于内部不可见的页面网格排放形状。 (在 "设计" 选项卡上的 "布局" 组中, 单击 "重新布局页面", 然后单击 "其他布局选项"。)
+description: 确定在“配置布局”对话框中配置布局时应用程序是否根据内部不可见的页面网格排放形状。（在“设计”选项卡上的“布局”组中，单击“重新布局页面”，然后单击“其他布局选项”。）
 ms.openlocfilehash: 11299ca7c9b0ea050542baf97e2cab3a27fa52ba
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "33424439"
 |TRUE  <br/> |使用内部页网格。  <br/> |
 |FALSE  <br/> |不使用内部页网格。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 可以使用 **“布局与排列间距”** 对话框中的 **“形状间的距离”** 和 **“平均形状大小”** 值创建此页面网格。（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，单击 **“布局与排列”**，然后单击 **“间距”**。） 
   

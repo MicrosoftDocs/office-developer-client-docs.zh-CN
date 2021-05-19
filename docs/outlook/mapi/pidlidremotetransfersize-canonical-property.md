@@ -25,13 +25,13 @@ ms.locfileid: "33426945"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示远程项目的传输大小 (以字节为单位)。
+指示远程项目的传输大小（以字节为单位）。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidRemoteXferSize  <br/> |
-|属性集:  <br/> |PSETID_Remote  <br/> |
-|长 ID (盖子):  <br/> |0x00008F05  <br/> |
+|属性集：  <br/> |PSETID_Remote  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008F05  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |远程邮件  <br/> |
    
@@ -39,13 +39,13 @@ ms.locfileid: "33426945"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]] 
+[[MS-OXPROPS]] 
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

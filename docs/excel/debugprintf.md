@@ -22,7 +22,7 @@ ms.locfileid: "33424796"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-通过 Windows SDK 函数**OutputDebugStringA**将以 null 结尾的字节字符串写入活动调试器的框架库函数。 如果应用程序没有调试器, 系统调试器将显示字符串。 如果应用程序没有调试器且系统调试器未处于活动状态, 则**debugPrintf**不会执行任何操作。 
+通过 Windows SDK 函数 **OutputDebugStringA** 将以 null 结尾的字节字符串写入活动调试程序的框架库函数。 如果应用程序没有调试器，则系统调试程序将显示字符串。 如果应用程序没有调试器并且系统调试程序不活动， **则 debugPrintf 不** 执行任何操作。 
   
 此函数不返回值。
   
@@ -34,15 +34,15 @@ void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 
  _lpFormat (LPSTR)_
   
-格式字符串, 遵循与**sprintf**函数一起使用的语法和规则。 
+格式字符串，遵循用于 **sprintf** 函数的语法和规则。 
   
- _自_
+ _arguments_
   
-与格式字符串匹配的零个或多个参数。
+匹配格式字符串的零个或多个参数。
   
 ## <a name="example"></a>示例
 
-此函数打印字符串以显示该控件已传递给它。 必须在编译之前定义 _debug 标志, 否则此函数将不执行任何操作。
+此函数打印一个字符串，以显示控件已传递给它。 编译_DEBUG必须定义该标志，否则此函数不执行任何操作。
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

@@ -22,25 +22,25 @@ ms.locfileid: "33425020"
   
 ## <a name="syntax"></a>语法
 
-SQRT (* **数字** *) 
+SQRT (** *number* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |必需  <br/> |**数值** <br/> |要查找其平方根的数。  <br/> |
+| _number_ <br/> |必需  <br/> |**Numeric** <br/> |要查找其平方根的数。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-数值
+Numeric
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果_number_为负值, SQRT 函数将返回错误值 #NUM!。 
+如果  _number_ 为负数，则 SQRT 函数返回错误值 #NUM！。 
   
 ## <a name="example"></a>示例
 
-SQRT (2) 
+SQRT (2)  
   
 返回 1.4142。 
   

@@ -25,7 +25,7 @@ ms.locfileid: "33426917"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-注册客户端以接收对脱机对象的回调。
+注册客户端以接收脱机对象的回调。
   
 ```cpp
 HRESULT COfflineObj::Advise( 
@@ -39,21 +39,21 @@ HRESULT COfflineObj::Advise(
 
  _ulFlags_
   
->  实时修改行为的标志。 仅支持值 MAPIOFFLINE_ADVISE_DEFAULT。 
+>  [in]修改行为的标志。 仅支持MAPIOFFLINE_ADVISE_DEFAULT值。 
     
  _pAdviseInfo_
   
-> 实时有关回调类型、何时接收回调、呼叫者的回调接口以及其他详细信息的信息。 它还包含 Outlook 在向客户端调用方发送后续通知回调时使用的客户端令牌。
+> [in]有关回调类型、何时接收回调、调用方的回调接口以及其他详细信息的信息。 它还包含客户端令牌，Outlook向客户端调用方发送后续通知回调。
     
- _pulAdviseToken_
+ _一个_
   
-> 排除向客户端调用方返回的建议令牌, 随后取消对该对象的回调。
+> [out]返回给客户端调用方的建议令牌，用于随后取消对象的回调。
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 调用成功。
+> 呼叫成功。
     
 E_INVALIDARG
   
@@ -61,11 +61,11 @@ E_INVALIDARG
     
 E_NOINTERFACE
   
-> *pAdviseInfo*中指定的回调接口无效。 
+> *pAdviseInfo* 中指定的回调接口无效。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-使用**[HrOpenOfflineObj](hropenofflineobj.md)** 打开脱机对象时, 客户端将获得支持**IMAPIOfflineMgr**的脱机对象。 客户端可以使用**[IMAPIOffline:: GetCapabilities](imapioffline-getcapabilities.md)** 检查对象支持的回调的种类。 客户端可以确定它所需的回调的类型和其他详细信息, 然后调用**IMAPIOfflineMgr:: 建议**注册以接收有关对象的此类回调。 
+使用 **[HrOpenOfflineObj](hropenofflineobj.md)** 打开脱机对象时，客户端获取支持 **IMAPIOfflineMgr** 的脱机对象。 客户端可以使用 **[IMAPIOffline：：GetCapabilities](imapioffline-getcapabilities.md)** 检查对象支持的回调类型。 客户端可以确定其需要回调的类型和其他详细信息，然后调用 **IMAPIOfflineMgr：：Advise** 以注册以接收有关对象的此类回调。 
   
 ## <a name="see-also"></a>另请参阅
 

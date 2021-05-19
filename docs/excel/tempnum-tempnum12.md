@@ -8,7 +8,7 @@ f1_keywords:
 - TempNum
 - TempNum12
 keywords:
-- tempnum12 函数 [excel 2007], TempNum 函数 [excel 2007]
+- tempnum12 函数 [excel 2007]，TempNum 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -23,7 +23,7 @@ ms.locfileid: "33426630"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-Framework library 函数, 该函数创建一个包含 Microsoft Excel 工作表编号 (IEEE 8 字节双精度型) 的临时**XLOPER**/ **XLOPER12** 。 
+创建临时 /  **XLOPER XLOPER12** 的框架库函数，其中包含 IEEE Microsoft Excel 8 字节 (的工作表) 。 
   
 ```cs
 LPXLOPER TempNum(double d);
@@ -32,17 +32,17 @@ LPXLOPER12 TempNum12(double d);
 
 ## <a name="parameters"></a>参数
 
- _d_ (**双精度型**)
+ _d_ (**double)**
   
-预期值。 请注意, 目前不支持 IEEE 子法线号码, 并将其舍入为零。 支持负无穷。
+预期值。 请注意，IEEE 次正常数字当前不受支持，并且四舍五入为零。 支持负无穷大。
   
 ## <a name="return-value"></a>返回值
 
-返回一个数值**xltypeNum** , 其中包含传入的值或零 (如果传入的值为 "sub normal")。 
+返回一个 **数值 xltypeNum，** 如果传入的值是次正常值，则包含传入或零的值。 
   
 ## <a name="example"></a>示例
 
-此示例使用**TempNum12**函数将参数传递给**xlfGetWorkspace**。
+此示例使用 **TempNum12** 函数将参数传递给 **xlfGetWorkspace**。
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

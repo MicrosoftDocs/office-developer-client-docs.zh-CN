@@ -25,7 +25,7 @@ ms.locfileid: "33426749"
 | TRUE  <br/> | 除对齐标尺和网格外，不对齐该页中的任何对象。  <br/> |
 | FALSE  <br/> | 启用对齐。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 InhibitSnap 单元格的引用，请使用： 
   

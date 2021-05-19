@@ -23,8 +23,8 @@ ms.locfileid: "33425391"
   
  **将邮件服务复制到配置文件**
   
-- 调用[IMsgServiceAdmin:: CopyMsgService](imsgserviceadmin-copymsgservice.md)。
+- 调用 [IMsgServiceAdmin：：CopyMsgService](imsgserviceadmin-copymsgservice.md)。
     
-复制邮件服务时, 该服务的新实例的配置方式与原始的完全相同。 有时**CopyMsgService**将返回错误 MAPI_E_ACCESS_DENIED。 此错误返回最常见的原因是不允许自身重复的邮件服务。 
+复制邮件服务时，将按照与原始实例完全相同的方式配置服务的新实例。 有时 **，CopyMsgService** 会返回错误MAPI_E_ACCESS_DENIED。 此错误返回的最常见原因是邮件服务不允许自我复制。 
   
 
