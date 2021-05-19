@@ -15,22 +15,22 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434506"
 ---
-# <a name="configuring-a-message-service"></a><span data-ttu-id="8e5df-103">配置邮件服务</span><span class="sxs-lookup"><span data-stu-id="8e5df-103">Configuring a Message Service</span></span>
+# <a name="configuring-a-message-service"></a><span data-ttu-id="9286a-103">配置邮件服务</span><span class="sxs-lookup"><span data-stu-id="9286a-103">Configuring a Message Service</span></span>
 
   
   
-<span data-ttu-id="8e5df-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8e5df-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9286a-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9286a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="8e5df-105">**在邮件服务中配置所有服务提供程序**</span><span class="sxs-lookup"><span data-stu-id="8e5df-105">**To configure all the service providers in a message service**</span></span>
+ <span data-ttu-id="9286a-105">**配置邮件服务中所有服务提供程序**</span><span class="sxs-lookup"><span data-stu-id="9286a-105">**To configure all the service providers in a message service**</span></span>
   
-- <span data-ttu-id="8e5df-106">调用[IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)。</span><span class="sxs-lookup"><span data-stu-id="8e5df-106">Call [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md).</span></span> <span data-ttu-id="8e5df-107">如果配置所需的所有数据都以编程方式使用, 则可以选择是否显示用户界面。</span><span class="sxs-lookup"><span data-stu-id="8e5df-107">If all of the data necessary for configuration is available programmatically, you can choose whether or not to display a user interface.</span></span> <span data-ttu-id="8e5df-108">但是, 如果一个或多个提供程序的某些信息不可用, 请确保设置了 SERVICE_UI_ALLOWED 或 SERVICE_UI_ALWAYS 标志。</span><span class="sxs-lookup"><span data-stu-id="8e5df-108">However, if some of the information for one or more providers is not available, make sure that you set the SERVICE_UI_ALLOWED or SERVICE_UI_ALWAYS flag.</span></span> <span data-ttu-id="8e5df-109">如果所需的配置数据不可用, 则隐含用户界面将导致未配置的邮件服务。</span><span class="sxs-lookup"><span data-stu-id="8e5df-109">Suppressing a user interface when required configuration data is unavailable results in an unconfigured message service.</span></span>
+- <span data-ttu-id="9286a-106">调用 [IMsgServiceAdmin：：ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)。</span><span class="sxs-lookup"><span data-stu-id="9286a-106">Call [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md).</span></span> <span data-ttu-id="9286a-107">如果配置所需的全部数据均以编程方式提供，可以选择是否显示用户界面。</span><span class="sxs-lookup"><span data-stu-id="9286a-107">If all of the data necessary for configuration is available programmatically, you can choose whether or not to display a user interface.</span></span> <span data-ttu-id="9286a-108">但是，如果一个或多个提供程序的一些信息不可用，请确保设置 SERVICE_UI_ALLOWED 或 SERVICE_UI_ALWAYS 标志。</span><span class="sxs-lookup"><span data-stu-id="9286a-108">However, if some of the information for one or more providers is not available, make sure that you set the SERVICE_UI_ALLOWED or SERVICE_UI_ALWAYS flag.</span></span> <span data-ttu-id="9286a-109">当所需配置数据不可用时禁止用户界面会导致出现未配置的邮件服务。</span><span class="sxs-lookup"><span data-stu-id="9286a-109">Suppressing a user interface when required configuration data is unavailable results in an unconfigured message service.</span></span>
     
- <span data-ttu-id="8e5df-110">**在邮件服务中配置单个服务提供程序**</span><span class="sxs-lookup"><span data-stu-id="8e5df-110">**To configure a single service provider in a message service**</span></span>
+ <span data-ttu-id="9286a-110">**在邮件服务中配置单个服务提供程序**</span><span class="sxs-lookup"><span data-stu-id="9286a-110">**To configure a single service provider in a message service**</span></span>
   
-1. <span data-ttu-id="8e5df-111">调用[IMAPISession:: GetStatusTable](imapisession-getstatustable.md)以访问服务提供程序的状态对象。</span><span class="sxs-lookup"><span data-stu-id="8e5df-111">Call [IMAPISession::GetStatusTable](imapisession-getstatustable.md) to access the service provider's status object.</span></span> 
+1. <span data-ttu-id="9286a-111">调用 [IMAPISession：：GetStatusTable](imapisession-getstatustable.md) 以访问服务提供商的状态对象。</span><span class="sxs-lookup"><span data-stu-id="9286a-111">Call [IMAPISession::GetStatusTable](imapisession-getstatustable.md) to access the service provider's status object.</span></span> 
     
-2. <span data-ttu-id="8e5df-112">调用[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)以显示服务提供程序的属性表。</span><span class="sxs-lookup"><span data-stu-id="8e5df-112">Call [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) to display the service provider's property sheet.</span></span> 
+2. <span data-ttu-id="9286a-112">调用 [IMAPIStatus：：SettingsDialog](imapistatus-settingsdialog.md) 以显示服务提供商属性表。</span><span class="sxs-lookup"><span data-stu-id="9286a-112">Call [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) to display the service provider's property sheet.</span></span> 
     
-<span data-ttu-id="8e5df-113">有关使用 status 对象的详细信息, 请参阅[status Table 和 status 对象](status-table-and-status-objects.md)。</span><span class="sxs-lookup"><span data-stu-id="8e5df-113">For more information about using status objects, see [Status Table and Status Objects](status-table-and-status-objects.md).</span></span>
+<span data-ttu-id="9286a-113">有关使用状态对象的信息，请参阅 [状态表和状态对象](status-table-and-status-objects.md)。</span><span class="sxs-lookup"><span data-stu-id="9286a-113">For more information about using status objects, see [Status Table and Status Objects](status-table-and-status-objects.md).</span></span>
   
 

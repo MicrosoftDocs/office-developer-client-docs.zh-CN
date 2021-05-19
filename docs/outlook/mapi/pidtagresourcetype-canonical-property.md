@@ -19,78 +19,78 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434954"
 ---
-# <a name="pidtagresourcetype-canonical-property"></a><span data-ttu-id="6a053-103">PidTagResourceType 规范属性</span><span class="sxs-lookup"><span data-stu-id="6a053-103">PidTagResourceType Canonical Property</span></span>
+# <a name="pidtagresourcetype-canonical-property"></a><span data-ttu-id="c4844-103">PidTagResourceType 规范属性</span><span class="sxs-lookup"><span data-stu-id="c4844-103">PidTagResourceType Canonical Property</span></span>
 
   
   
-<span data-ttu-id="6a053-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6a053-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c4844-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c4844-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6a053-105">包含指示服务提供程序类型的值。</span><span class="sxs-lookup"><span data-stu-id="6a053-105">Contains a value that indicates the service provider type.</span></span>
+<span data-ttu-id="c4844-105">包含一个值，该值指示服务提供商类型。</span><span class="sxs-lookup"><span data-stu-id="c4844-105">Contains a value that indicates the service provider type.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6a053-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="6a053-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6a053-107">PR_RESOURCE_TYPE</span><span class="sxs-lookup"><span data-stu-id="6a053-107">PR_RESOURCE_TYPE</span></span>  <br/> |
-|<span data-ttu-id="6a053-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="6a053-108">Identifier:</span></span>  <br/> |<span data-ttu-id="6a053-109">0x3E03</span><span class="sxs-lookup"><span data-stu-id="6a053-109">0x3E03</span></span>  <br/> |
-|<span data-ttu-id="6a053-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="6a053-110">Data type:</span></span>  <br/> |<span data-ttu-id="6a053-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="6a053-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="6a053-112">区域：</span><span class="sxs-lookup"><span data-stu-id="6a053-112">Area:</span></span>  <br/> |<span data-ttu-id="6a053-113">MAPI 状态</span><span class="sxs-lookup"><span data-stu-id="6a053-113">MAPI status</span></span>  <br/> |
+|<span data-ttu-id="c4844-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="c4844-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c4844-107">PR_RESOURCE_TYPE</span><span class="sxs-lookup"><span data-stu-id="c4844-107">PR_RESOURCE_TYPE</span></span>  <br/> |
+|<span data-ttu-id="c4844-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="c4844-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c4844-109">0x3E03</span><span class="sxs-lookup"><span data-stu-id="c4844-109">0x3E03</span></span>  <br/> |
+|<span data-ttu-id="c4844-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="c4844-110">Data type:</span></span>  <br/> |<span data-ttu-id="c4844-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="c4844-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="c4844-112">区域：</span><span class="sxs-lookup"><span data-stu-id="c4844-112">Area:</span></span>  <br/> |<span data-ttu-id="c4844-113">MAPI 状态</span><span class="sxs-lookup"><span data-stu-id="c4844-113">MAPI status</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6a053-114">说明</span><span class="sxs-lookup"><span data-stu-id="6a053-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c4844-114">备注</span><span class="sxs-lookup"><span data-stu-id="c4844-114">Remarks</span></span>
 
-<span data-ttu-id="6a053-115">此属性可以具有下列值之一:</span><span class="sxs-lookup"><span data-stu-id="6a053-115">This property can have exactly one of the following values:</span></span>
+<span data-ttu-id="c4844-115">此属性可以正好具有下列值之一：</span><span class="sxs-lookup"><span data-stu-id="c4844-115">This property can have exactly one of the following values:</span></span>
   
-<span data-ttu-id="6a053-116">MAPI_AB</span><span class="sxs-lookup"><span data-stu-id="6a053-116">MAPI_AB</span></span> 
+<span data-ttu-id="c4844-116">MAPI_AB</span><span class="sxs-lookup"><span data-stu-id="c4844-116">MAPI_AB</span></span> 
   
-> <span data-ttu-id="6a053-117">通讯簿</span><span class="sxs-lookup"><span data-stu-id="6a053-117">Address book</span></span>
+> <span data-ttu-id="c4844-117">通讯簿</span><span class="sxs-lookup"><span data-stu-id="c4844-117">Address book</span></span>
     
-<span data-ttu-id="6a053-118">MAPI_AB_PROVIDER</span><span class="sxs-lookup"><span data-stu-id="6a053-118">MAPI_AB_PROVIDER</span></span> 
+<span data-ttu-id="c4844-118">MAPI_AB_PROVIDER</span><span class="sxs-lookup"><span data-stu-id="c4844-118">MAPI_AB_PROVIDER</span></span> 
   
-> <span data-ttu-id="6a053-119">通讯簿提供程序</span><span class="sxs-lookup"><span data-stu-id="6a053-119">Address book provider</span></span>
+> <span data-ttu-id="c4844-119">通讯簿提供程序</span><span class="sxs-lookup"><span data-stu-id="c4844-119">Address book provider</span></span>
     
-<span data-ttu-id="6a053-120">MAPI_HOOK_PROVIDER</span><span class="sxs-lookup"><span data-stu-id="6a053-120">MAPI_HOOK_PROVIDER</span></span> 
+<span data-ttu-id="c4844-120">MAPI_HOOK_PROVIDER</span><span class="sxs-lookup"><span data-stu-id="c4844-120">MAPI_HOOK_PROVIDER</span></span> 
   
-> <span data-ttu-id="6a053-121">后台打印程序挂钩提供程序</span><span class="sxs-lookup"><span data-stu-id="6a053-121">Spooler hook provider</span></span>
+> <span data-ttu-id="c4844-121">后台处理程序挂钩提供程序</span><span class="sxs-lookup"><span data-stu-id="c4844-121">Spooler hook provider</span></span>
     
-<span data-ttu-id="6a053-122">MAPI_PROFILE_PROVIDER</span><span class="sxs-lookup"><span data-stu-id="6a053-122">MAPI_PROFILE_PROVIDER</span></span> 
+<span data-ttu-id="c4844-122">MAPI_PROFILE_PROVIDER</span><span class="sxs-lookup"><span data-stu-id="c4844-122">MAPI_PROFILE_PROVIDER</span></span> 
   
-> <span data-ttu-id="6a053-123">配置文件提供程序</span><span class="sxs-lookup"><span data-stu-id="6a053-123">Profile provider</span></span>
+> <span data-ttu-id="c4844-123">配置文件提供程序</span><span class="sxs-lookup"><span data-stu-id="c4844-123">Profile provider</span></span>
     
-<span data-ttu-id="6a053-124">MAPI_SPOOLER</span><span class="sxs-lookup"><span data-stu-id="6a053-124">MAPI_SPOOLER</span></span> 
+<span data-ttu-id="c4844-124">MAPI_SPOOLER</span><span class="sxs-lookup"><span data-stu-id="c4844-124">MAPI_SPOOLER</span></span> 
   
-> <span data-ttu-id="6a053-125">邮件后台处理程序</span><span class="sxs-lookup"><span data-stu-id="6a053-125">Message spooler</span></span>
+> <span data-ttu-id="c4844-125">邮件后台处理程序</span><span class="sxs-lookup"><span data-stu-id="c4844-125">Message spooler</span></span>
     
-<span data-ttu-id="6a053-126">MAPI_STORE_PROVIDER</span><span class="sxs-lookup"><span data-stu-id="6a053-126">MAPI_STORE_PROVIDER</span></span> 
+<span data-ttu-id="c4844-126">MAPI_STORE_PROVIDER</span><span class="sxs-lookup"><span data-stu-id="c4844-126">MAPI_STORE_PROVIDER</span></span> 
   
-> <span data-ttu-id="6a053-127">邮件存储区提供程序</span><span class="sxs-lookup"><span data-stu-id="6a053-127">Message store provider</span></span>
+> <span data-ttu-id="c4844-127">邮件存储提供程序</span><span class="sxs-lookup"><span data-stu-id="c4844-127">Message store provider</span></span>
     
-<span data-ttu-id="6a053-128">MAPI_SUBSYSTEM</span><span class="sxs-lookup"><span data-stu-id="6a053-128">MAPI_SUBSYSTEM</span></span> 
+<span data-ttu-id="c4844-128">MAPI_SUBSYSTEM</span><span class="sxs-lookup"><span data-stu-id="c4844-128">MAPI_SUBSYSTEM</span></span> 
   
-> <span data-ttu-id="6a053-129">内部 MAPI 子系统</span><span class="sxs-lookup"><span data-stu-id="6a053-129">Internal MAPI subsystem</span></span>
+> <span data-ttu-id="c4844-129">内部 MAPI 子系统</span><span class="sxs-lookup"><span data-stu-id="c4844-129">Internal MAPI subsystem</span></span>
     
-<span data-ttu-id="6a053-130">MAPI_TRANSPORT_PROVIDER</span><span class="sxs-lookup"><span data-stu-id="6a053-130">MAPI_TRANSPORT_PROVIDER</span></span> 
+<span data-ttu-id="c4844-130">MAPI_TRANSPORT_PROVIDER</span><span class="sxs-lookup"><span data-stu-id="c4844-130">MAPI_TRANSPORT_PROVIDER</span></span> 
   
-> <span data-ttu-id="6a053-131">传输提供程序</span><span class="sxs-lookup"><span data-stu-id="6a053-131">Transport provider</span></span>
+> <span data-ttu-id="c4844-131">传输提供程序</span><span class="sxs-lookup"><span data-stu-id="c4844-131">Transport provider</span></span>
     
-## <a name="related-resources"></a><span data-ttu-id="6a053-132">相关资源</span><span class="sxs-lookup"><span data-stu-id="6a053-132">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c4844-132">相关资源</span><span class="sxs-lookup"><span data-stu-id="c4844-132">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="6a053-133">头文件</span><span class="sxs-lookup"><span data-stu-id="6a053-133">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c4844-133">头文件</span><span class="sxs-lookup"><span data-stu-id="c4844-133">Header files</span></span>
 
-<span data-ttu-id="6a053-134">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="6a053-134">Mapidefs.h</span></span>
+<span data-ttu-id="c4844-134">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c4844-134">Mapidefs.h</span></span>
   
-> <span data-ttu-id="6a053-135">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="6a053-135">Provides data type definitions.</span></span>
+> <span data-ttu-id="c4844-135">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="c4844-135">Provides data type definitions.</span></span>
     
-<span data-ttu-id="6a053-136">Mapitags</span><span class="sxs-lookup"><span data-stu-id="6a053-136">Mapitags.h</span></span>
+<span data-ttu-id="c4844-136">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="c4844-136">Mapitags.h</span></span>
   
-> <span data-ttu-id="6a053-137">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="6a053-137">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="c4844-137">包含作为备用名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="c4844-137">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="6a053-138">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6a053-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c4844-138">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c4844-138">See also</span></span>
 
 
 
-[<span data-ttu-id="6a053-139">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="6a053-139">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c4844-139">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="c4844-139">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="6a053-140">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="6a053-140">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c4844-140">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="c4844-140">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="6a053-141">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="6a053-141">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c4844-141">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="c4844-141">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="6a053-142">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="6a053-142">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c4844-142">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="c4844-142">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

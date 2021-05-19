@@ -11,4 +11,4 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/02/2020
 ms.locfileid: "43102924"
 ---
-# <a name="welcome-to-officedocs-dev-client-docs"></a><span data-ttu-id="2d6c8-102">欢迎使用 officedocs-开发-客户-文档！</span><span class="sxs-lookup"><span data-stu-id="2d6c8-102">Welcome to officedocs-dev-client-docs!</span></span>
+# <a name="welcome-to-officedocs-dev-client-docs"></a><span data-ttu-id="c2ec3-102">欢迎使用 officedocs-dev-client-docs！</span><span class="sxs-lookup"><span data-stu-id="c2ec3-102">Welcome to officedocs-dev-client-docs!</span></span>

@@ -13,8 +13,8 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433085"
 ---
-# <a name="using-the-wopi-protocol-to-integrate-with-office-online"></a><span data-ttu-id="eb29a-104">使用 WOPI 协议与 Office Online 集成</span><span class="sxs-lookup"><span data-stu-id="eb29a-104">Using the WOPI protocol to integrate with Office Online</span></span>
+# <a name="using-the-wopi-protocol-to-integrate-with-office-online"></a><span data-ttu-id="2ba1b-104">使用 WOPI 协议与 Office Online 集成</span><span class="sxs-lookup"><span data-stu-id="2ba1b-104">Using the WOPI protocol to integrate with Office Online</span></span>
 
-<span data-ttu-id="eb29a-p102">此位置不再提供此内容。若要继续，请参阅 GitHub 上的[使用 WOPI 协议与 Office Online 集成](https://wopi.readthedocs.org/en/latest/intro.html)。</span><span class="sxs-lookup"><span data-stu-id="eb29a-p102">This content is no longer available at this location. To continue, see [Using the WOPI protocol to integrate with Office Online](https://wopi.readthedocs.org/en/latest/intro.html) on GitHub.</span></span> 
+<span data-ttu-id="2ba1b-p102">此位置不再提供此内容。若要继续，请参阅 GitHub 上的[使用 WOPI 协议与 Office Online 集成](https://wopi.readthedocs.org/en/latest/intro.html)。</span><span class="sxs-lookup"><span data-stu-id="2ba1b-p102">This content is no longer available at this location. To continue, see [Using the WOPI protocol to integrate with Office Online](https://wopi.readthedocs.org/en/latest/intro.html) on GitHub.</span></span> 
   
 

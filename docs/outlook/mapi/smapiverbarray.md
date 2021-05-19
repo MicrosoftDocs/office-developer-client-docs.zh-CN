@@ -19,18 +19,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433911"
 ---
-# <a name="smapiverbarray"></a><span data-ttu-id="081f3-103">SMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="081f3-103">SMAPIVerbArray</span></span>
+# <a name="smapiverbarray"></a><span data-ttu-id="7444f-103">SMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="7444f-103">SMAPIVerbArray</span></span>
 
   
   
-<span data-ttu-id="081f3-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="081f3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7444f-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7444f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="081f3-105">包含描述 MAPI 谓词的[SMAPIVerb](smapiverb.md)结构的数组。</span><span class="sxs-lookup"><span data-stu-id="081f3-105">Contains an array of [SMAPIVerb](smapiverb.md) structures that describe MAPI verbs.</span></span> 
+<span data-ttu-id="7444f-105">包含一组描述 MAPI 动词的 [SMAPIVerb](smapiverb.md) 结构。</span><span class="sxs-lookup"><span data-stu-id="7444f-105">Contains an array of [SMAPIVerb](smapiverb.md) structures that describe MAPI verbs.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="081f3-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="081f3-106">Header file:</span></span>  <br/> |<span data-ttu-id="081f3-107">Mapiform</span><span class="sxs-lookup"><span data-stu-id="081f3-107">Mapiform.h</span></span>  <br/> |
-|<span data-ttu-id="081f3-108">相关宏:</span><span class="sxs-lookup"><span data-stu-id="081f3-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="081f3-109">CbMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="081f3-109">CbMAPIVerbArray</span></span>](cbmapiverbarray.md) <br/> |
+|<span data-ttu-id="7444f-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="7444f-106">Header file:</span></span>  <br/> |<span data-ttu-id="7444f-107">Mapiform.h</span><span class="sxs-lookup"><span data-stu-id="7444f-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="7444f-108">相关宏：</span><span class="sxs-lookup"><span data-stu-id="7444f-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="7444f-109">CbMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="7444f-109">CbMAPIVerbArray</span></span>](cbmapiverbarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -41,26 +41,26 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="081f3-110">Members</span><span class="sxs-lookup"><span data-stu-id="081f3-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="7444f-110">Members</span><span class="sxs-lookup"><span data-stu-id="7444f-110">Members</span></span>
 
- <span data-ttu-id="081f3-111">**cForms**</span><span class="sxs-lookup"><span data-stu-id="081f3-111">**cForms**</span></span>
+ <span data-ttu-id="7444f-111">**cForms**</span><span class="sxs-lookup"><span data-stu-id="7444f-111">**cForms**</span></span>
   
-> <span data-ttu-id="081f3-112">数组中的谓词的计数。</span><span class="sxs-lookup"><span data-stu-id="081f3-112">Count of verbs in the array.</span></span>
+> <span data-ttu-id="7444f-112">数组中的动词计数。</span><span class="sxs-lookup"><span data-stu-id="7444f-112">Count of verbs in the array.</span></span>
     
- <span data-ttu-id="081f3-113">**aFormInfo**</span><span class="sxs-lookup"><span data-stu-id="081f3-113">**aFormInfo**</span></span>
+ <span data-ttu-id="7444f-113">**aFormInfo**</span><span class="sxs-lookup"><span data-stu-id="7444f-113">**aFormInfo**</span></span>
   
-> <span data-ttu-id="081f3-114">MAPI 谓词数组。</span><span class="sxs-lookup"><span data-stu-id="081f3-114">Array of MAPI verbs.</span></span>
+> <span data-ttu-id="7444f-114">MAPI 动词数组。</span><span class="sxs-lookup"><span data-stu-id="7444f-114">Array of MAPI verbs.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="081f3-115">说明</span><span class="sxs-lookup"><span data-stu-id="081f3-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7444f-115">备注</span><span class="sxs-lookup"><span data-stu-id="7444f-115">Remarks</span></span>
 
-<span data-ttu-id="081f3-116">**SMAPIVerbArray**结构作为参数传递到[IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md)方法中。</span><span class="sxs-lookup"><span data-stu-id="081f3-116">The **SMAPIVerbArray** structure is passed as a parameter in the [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) method.</span></span> 
+<span data-ttu-id="7444f-116">**SMAPIVerbArray** 结构作为 [IMAPIFormInfo：：CalcVerbSet](imapiforminfo-calcverbset.md)方法中的参数传递。</span><span class="sxs-lookup"><span data-stu-id="7444f-116">The **SMAPIVerbArray** structure is passed as a parameter in the [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) method.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="081f3-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="081f3-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7444f-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7444f-117">See also</span></span>
 
 
 
-[<span data-ttu-id="081f3-118">SMAPIVerb</span><span class="sxs-lookup"><span data-stu-id="081f3-118">SMAPIVerb</span></span>](smapiverb.md)
+[<span data-ttu-id="7444f-118">SMAPIVerb</span><span class="sxs-lookup"><span data-stu-id="7444f-118">SMAPIVerb</span></span>](smapiverb.md)
 
 
-[<span data-ttu-id="081f3-119">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="081f3-119">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="7444f-119">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="7444f-119">MAPI Structures</span></span>](mapi-structures.md)
 

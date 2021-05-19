@@ -16,24 +16,24 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432854"
 ---
-# <a name="frame-cell-hyperlinks-section"></a><span data-ttu-id="c9e77-104">Frame 单元格（“Hyperlinks”内容）</span><span class="sxs-lookup"><span data-stu-id="c9e77-104">Frame Cell (Hyperlinks Section)</span></span>
+# <a name="frame-cell-hyperlinks-section"></a><span data-ttu-id="50d25-104">Frame 单元格（“Hyperlinks”内容）</span><span class="sxs-lookup"><span data-stu-id="50d25-104">Frame Cell (Hyperlinks Section)</span></span>
 
-<span data-ttu-id="c9e77-p102">代表当应用程序作为活动文档在某一容器应用程序中打开时的目标框架名。默认值为空字符串。</span><span class="sxs-lookup"><span data-stu-id="c9e77-p102">Represents the name of a frame to target when the application is open as an Active document in a container application. The default is an empty string.</span></span>
+<span data-ttu-id="50d25-p102">代表当应用程序作为活动文档在某一容器应用程序中打开时的目标框架名。默认值为空字符串。</span><span class="sxs-lookup"><span data-stu-id="50d25-p102">Represents the name of a frame to target when the application is open as an Active document in a container application. The default is an empty string.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c9e77-107">说明</span><span class="sxs-lookup"><span data-stu-id="c9e77-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="50d25-107">备注</span><span class="sxs-lookup"><span data-stu-id="50d25-107">Remarks</span></span>
 
-<span data-ttu-id="c9e77-108">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Frame 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="c9e77-108">To get a reference to the Frame cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="50d25-108">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Frame 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="50d25-108">To get a reference to the Frame cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="c9e77-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="c9e77-109">Cell name:</span></span>  <br/> | <span data-ttu-id="c9e77-110">超链接。</span><span class="sxs-lookup"><span data-stu-id="c9e77-110">Hyperlink.</span></span>  <span data-ttu-id="c9e77-111">*名称*。超链接的帧。</span><span class="sxs-lookup"><span data-stu-id="c9e77-111">*name*  .Frame            where Hyperlink.</span></span>  <span data-ttu-id="c9e77-112">*名称*是行名称</span><span class="sxs-lookup"><span data-stu-id="c9e77-112">*name*  is the row name</span></span>  <br/> |
+| <span data-ttu-id="50d25-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="50d25-109">Cell name:</span></span>  <br/> | <span data-ttu-id="50d25-110">超链接。</span><span class="sxs-lookup"><span data-stu-id="50d25-110">Hyperlink.</span></span>  <span data-ttu-id="50d25-111">*name*  .框架，其中 Hyperlink。</span><span class="sxs-lookup"><span data-stu-id="50d25-111">*name*  .Frame            where Hyperlink.</span></span>  <span data-ttu-id="50d25-112">*name*  是行名称</span><span class="sxs-lookup"><span data-stu-id="50d25-112">*name*  is the row name</span></span>  <br/> |
    
-<span data-ttu-id="c9e77-113">要从某个程序按索引获取对 Frame 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="c9e77-113">To get a reference to the Frame cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="50d25-113">要从某个程序按索引获取对 Frame 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="50d25-113">To get a reference to the Frame cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="c9e77-114">内容索引：</span><span class="sxs-lookup"><span data-stu-id="c9e77-114">Section index:</span></span>  <br/> |<span data-ttu-id="c9e77-115">**visSectionHyperlink**</span><span class="sxs-lookup"><span data-stu-id="c9e77-115">**visSectionHyperlink**</span></span> <br/> |
-| <span data-ttu-id="c9e77-116">行索引：</span><span class="sxs-lookup"><span data-stu-id="c9e77-116">Row index:</span></span>  <br/> |<span data-ttu-id="c9e77-117">**visRow1stHyperlink** +  *i* = \*\* 0、1、2 .。。</span><span class="sxs-lookup"><span data-stu-id="c9e77-117">**visRow1stHyperlink** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="c9e77-118">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="c9e77-118">Cell index:</span></span>  <br/> |<span data-ttu-id="c9e77-119">**visHLinkFrame**</span><span class="sxs-lookup"><span data-stu-id="c9e77-119">**visHLinkFrame**</span></span> <br/> |
+| <span data-ttu-id="50d25-114">内容索引：</span><span class="sxs-lookup"><span data-stu-id="50d25-114">Section index:</span></span>  <br/> |<span data-ttu-id="50d25-115">**visSectionHyperlink**</span><span class="sxs-lookup"><span data-stu-id="50d25-115">**visSectionHyperlink**</span></span> <br/> |
+| <span data-ttu-id="50d25-116">行索引：</span><span class="sxs-lookup"><span data-stu-id="50d25-116">Row index:</span></span>  <br/> |<span data-ttu-id="50d25-117">**visRow1stHyperlink**  +  *i* 其中 *i* = 0、1、2...</span><span class="sxs-lookup"><span data-stu-id="50d25-117">**visRow1stHyperlink** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="50d25-118">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="50d25-118">Cell index:</span></span>  <br/> |<span data-ttu-id="50d25-119">**visHLinkFrame**</span><span class="sxs-lookup"><span data-stu-id="50d25-119">**visHLinkFrame**</span></span> <br/> |
    
 
