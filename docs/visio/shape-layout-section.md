@@ -16,14 +16,14 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415381"
 ---
-# <a name="shape-layout-section"></a><span data-ttu-id="0baa4-103">“Shape Layout”内容</span><span class="sxs-lookup"><span data-stu-id="0baa4-103">Shape Layout Section</span></span>
+# <a name="shape-layout-section"></a><span data-ttu-id="86af1-103">“Shape Layout”内容</span><span class="sxs-lookup"><span data-stu-id="86af1-103">Shape Layout Section</span></span>
 
-<span data-ttu-id="0baa4-104">包含控制形状放置和连接线排列设置的单元格。</span><span class="sxs-lookup"><span data-stu-id="0baa4-104">Contains cells that control shape placement and connector routing settings.</span></span>
+<span data-ttu-id="86af1-104">包含控制形状放置和连接线排列设置的单元格。</span><span class="sxs-lookup"><span data-stu-id="86af1-104">Contains cells that control shape placement and connector routing settings.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0baa4-105">说明</span><span class="sxs-lookup"><span data-stu-id="0baa4-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="86af1-105">备注</span><span class="sxs-lookup"><span data-stu-id="86af1-105">Remarks</span></span>
 
-<span data-ttu-id="0baa4-p101">也可以使用 **“行为”** 对话框（在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上的 **“形状设计”** 组中单击 **“行为”**）中的 **“放置”** 选项卡设置此内容中特定于形状的单元格的值。可以使用 **“行为”** 对话框中的 **“连接线”** 选项卡来设置此内容中特定于连接线的单元格的值。（若要查看 **“连接线”** 选项卡，请在绘图窗口中选择连接线，然后会显示 **“行为”** 对话框。）</span><span class="sxs-lookup"><span data-stu-id="0baa4-p101">You can also set the values of the shape-specific cells in this section by using the **Placement** tab in the **Behavior** dialog box (on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Shape Design** group, click **Behavior**). You can set the values of the connector-specific cells in this section using the **Connector** tab in the **Behavior** dialog box. (To see the **Connector** tab, select the connector in the drawing window, and then display the **Behavior** dialog box.)</span></span> 
+<span data-ttu-id="86af1-p101">也可以使用 **“行为”** 对话框（在 [“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上的 **“形状设计”** 组中单击 **“行为”**）中的 **“放置”** 选项卡设置此内容中特定于形状的单元格的值。可以使用 **“行为”** 对话框中的 **“连接线”** 选项卡来设置此内容中特定于连接线的单元格的值。（若要查看 **“连接线”** 选项卡，请在绘图窗口中选择连接线，然后会显示 **“行为”** 对话框。）</span><span class="sxs-lookup"><span data-stu-id="86af1-p101">You can also set the values of the shape-specific cells in this section by using the **Placement** tab in the **Behavior** dialog box (on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Shape Design** group, click **Behavior**). You can set the values of the connector-specific cells in this section using the **Connector** tab in the **Behavior** dialog box. (To see the **Connector** tab, select the connector in the drawing window, and then display the **Behavior** dialog box.)</span></span> 
   
-<span data-ttu-id="0baa4-109">您可以使用 "**形状布局**" 部分中的值替代 "**页面布局**" 部分中包含的默认值。</span><span class="sxs-lookup"><span data-stu-id="0baa4-109">You can use values in the **Shape Layout** section to override default values contained in the **Page Layout** section.</span></span> 
+<span data-ttu-id="86af1-109">可以使用"Shape **Layout"** 内容中的值覆盖"页面布局"内容 **中包含的** 默认值。</span><span class="sxs-lookup"><span data-stu-id="86af1-109">You can use values in the **Shape Layout** section to override default values contained in the **Page Layout** section.</span></span> 
   
 

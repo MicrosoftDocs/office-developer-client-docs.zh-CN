@@ -19,35 +19,35 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415689"
 ---
-# <a name="cbssortorderset"></a><span data-ttu-id="125aa-103">CbSSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="125aa-103">CbSSortOrderSet</span></span>
+# <a name="cbssortorderset"></a><span data-ttu-id="159ab-103">CbSSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="159ab-103">CbSSortOrderSet</span></span>
 
   
   
-<span data-ttu-id="125aa-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="125aa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="159ab-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="159ab-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="125aa-105">计算现有[SSortOrderSet](ssortorderset.md)结构中的字节数。</span><span class="sxs-lookup"><span data-stu-id="125aa-105">Computes the number of bytes in an existing [SSortOrderSet](ssortorderset.md) structure.</span></span> 
+<span data-ttu-id="159ab-105">计算现有 [SSortOrderSet](ssortorderset.md) 结构的字节数。</span><span class="sxs-lookup"><span data-stu-id="159ab-105">Computes the number of bytes in an existing [SSortOrderSet](ssortorderset.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="125aa-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="125aa-106">Header file:</span></span>  <br/> |<span data-ttu-id="125aa-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="125aa-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="125aa-108">相关结构:</span><span class="sxs-lookup"><span data-stu-id="125aa-108">Related structure:</span></span>  <br/> |<span data-ttu-id="125aa-109">**SSortOrderSet**</span><span class="sxs-lookup"><span data-stu-id="125aa-109">**SSortOrderSet**</span></span> <br/> |
+|<span data-ttu-id="159ab-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="159ab-106">Header file:</span></span>  <br/> |<span data-ttu-id="159ab-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="159ab-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="159ab-108">相关结构：</span><span class="sxs-lookup"><span data-stu-id="159ab-108">Related structure:</span></span>  <br/> |<span data-ttu-id="159ab-109">**SSortOrderSet**</span><span class="sxs-lookup"><span data-stu-id="159ab-109">**SSortOrderSet**</span></span> <br/> |
    
 ```cpp
 CbSSortOrderSet (_lpset)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="125aa-110">参数</span><span class="sxs-lookup"><span data-stu-id="125aa-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="159ab-110">参数</span><span class="sxs-lookup"><span data-stu-id="159ab-110">Parameters</span></span>
 
- <span data-ttu-id="125aa-111">__lpset_</span><span class="sxs-lookup"><span data-stu-id="125aa-111">__lpset_</span></span>
+ <span data-ttu-id="159ab-111">_ _lpset_</span><span class="sxs-lookup"><span data-stu-id="159ab-111">_ _lpset_</span></span>
   
-> <span data-ttu-id="125aa-112">指向现有**SSortOrderSet**结构的指针。</span><span class="sxs-lookup"><span data-stu-id="125aa-112">Pointer to the existing **SSortOrderSet** structure.</span></span> 
+> <span data-ttu-id="159ab-112">指向现有 **SSortOrderSet 结构的** 指针。</span><span class="sxs-lookup"><span data-stu-id="159ab-112">Pointer to the existing **SSortOrderSet** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="125aa-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="125aa-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="159ab-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="159ab-113">See also</span></span>
 
 
 
-[<span data-ttu-id="125aa-114">SSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="125aa-114">SSortOrderSet</span></span>](ssortorderset.md)
+[<span data-ttu-id="159ab-114">SSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="159ab-114">SSortOrderSet</span></span>](ssortorderset.md)
 
 
-[<span data-ttu-id="125aa-115">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="125aa-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="159ab-115">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="159ab-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

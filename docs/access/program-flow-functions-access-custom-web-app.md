@@ -1,5 +1,5 @@
 ---
-title: 程序流函数 (Access 自定义 web 应用)
+title: 'Access 自定义 Web (应用程序的程序流) '
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -14,15 +14,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410439"
 ---
-# <a name="program-flow-functions-access-custom-web-app"></a><span data-ttu-id="8083a-102">程序流函数 (Access 自定义 web 应用)</span><span class="sxs-lookup"><span data-stu-id="8083a-102">Program flow functions (Access custom web app)</span></span>
+# <a name="program-flow-functions-access-custom-web-app"></a><span data-ttu-id="3b59c-102">Access 自定义 Web (应用程序的程序流) </span><span class="sxs-lookup"><span data-stu-id="3b59c-102">Program flow functions (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="8083a-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="8083a-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="3b59c-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="3b59c-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="8083a-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="8083a-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3b59c-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="3b59c-105">In this section</span></span>
 
-- [<span data-ttu-id="8083a-106">选择函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="8083a-106">Choose Function (Access custom web app)</span></span>](choose-function-access-custom-web-app.md)
+- [<span data-ttu-id="3b59c-106">Choose Function (Access custom web app) </span><span class="sxs-lookup"><span data-stu-id="3b59c-106">Choose Function (Access custom web app)</span></span>](choose-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="8083a-107">IIf 函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="8083a-107">IIf Function (Access custom web app)</span></span>](iif-function-access-custom-web-app.md)
+- [<span data-ttu-id="3b59c-107">IIf Function (Access 自定义 Web app) </span><span class="sxs-lookup"><span data-stu-id="3b59c-107">IIf Function (Access custom web app)</span></span>](iif-function-access-custom-web-app.md)
     
 

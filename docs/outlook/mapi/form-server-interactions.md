@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415101"
 ---
-# <a name="form-server-interactions"></a><span data-ttu-id="3364c-103">表单服务器交互</span><span class="sxs-lookup"><span data-stu-id="3364c-103">Form server interactions</span></span>
+# <a name="form-server-interactions"></a><span data-ttu-id="bcfbe-103">表单服务器交互</span><span class="sxs-lookup"><span data-stu-id="bcfbe-103">Form server interactions</span></span>
 
-<span data-ttu-id="3364c-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3364c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bcfbe-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bcfbe-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3364c-105">本节中的主题介绍了客户端应用程序、MAPI 表单管理器、表单服务器和表单对象等各种常见操作 (例如打开邮件和撰写新邮件) 之间的交互。</span><span class="sxs-lookup"><span data-stu-id="3364c-105">The topics in this section describe interactions between client applications, the MAPI form manager, form servers, and form objects for a variety of common actions such as opening a message and composing a new message.</span></span>
+<span data-ttu-id="bcfbe-105">本节中的主题介绍客户端应用程序、MAPI 表单管理器、表单服务器和表单对象之间针对各种常见操作（如打开邮件和撰写新邮件）之间的交互。</span><span class="sxs-lookup"><span data-stu-id="bcfbe-105">The topics in this section describe interactions between client applications, the MAPI form manager, form servers, and form objects for a variety of common actions such as opening a message and composing a new message.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="3364c-106">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3364c-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bcfbe-106">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bcfbe-106">See also</span></span>
 
-- [<span data-ttu-id="3364c-107">开发 MAPI 表单服务器</span><span class="sxs-lookup"><span data-stu-id="3364c-107">Developing MAPI Form Servers</span></span>](developing-mapi-form-servers.md)
+- [<span data-ttu-id="bcfbe-107">开发 MAPI 表单服务器</span><span class="sxs-lookup"><span data-stu-id="bcfbe-107">Developing MAPI Form Servers</span></span>](developing-mapi-form-servers.md)
 

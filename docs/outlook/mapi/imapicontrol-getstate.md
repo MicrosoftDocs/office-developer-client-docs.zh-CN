@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419007"
 ---
-# <a name="imapicontrolgetstate"></a><span data-ttu-id="79d90-103">IMAPIControl::GetState</span><span class="sxs-lookup"><span data-stu-id="79d90-103">IMAPIControl::GetState</span></span>
+# <a name="imapicontrolgetstate"></a><span data-ttu-id="fc5db-103">IMAPIControl::GetState</span><span class="sxs-lookup"><span data-stu-id="fc5db-103">IMAPIControl::GetState</span></span>
 
   
   
-<span data-ttu-id="79d90-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="79d90-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fc5db-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fc5db-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="79d90-105">检索一个值, 该值指示按钮控件是否已启用或已禁用。</span><span class="sxs-lookup"><span data-stu-id="79d90-105">Retrieves a value that indicates whether the button control is enabled or disabled.</span></span>
+<span data-ttu-id="fc5db-105">检索一个值，该值指示按钮控件是启用还是禁用。</span><span class="sxs-lookup"><span data-stu-id="fc5db-105">Retrieves a value that indicates whether the button control is enabled or disabled.</span></span>
   
 ```cpp
 HRESULT GetState(
@@ -34,41 +34,41 @@ HRESULT GetState(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="79d90-106">参数</span><span class="sxs-lookup"><span data-stu-id="79d90-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="fc5db-106">参数</span><span class="sxs-lookup"><span data-stu-id="fc5db-106">Parameters</span></span>
 
- <span data-ttu-id="79d90-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="79d90-107">_ulFlags_</span></span>
+ <span data-ttu-id="fc5db-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="fc5db-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="79d90-108">实时保留必须为零。</span><span class="sxs-lookup"><span data-stu-id="79d90-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="fc5db-108">[in]保留;必须为零。</span><span class="sxs-lookup"><span data-stu-id="fc5db-108">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="79d90-109">_lpulState_</span><span class="sxs-lookup"><span data-stu-id="79d90-109">_lpulState_</span></span>
+ <span data-ttu-id="fc5db-109">_lpulState_</span><span class="sxs-lookup"><span data-stu-id="fc5db-109">_lpulState_</span></span>
   
-> <span data-ttu-id="79d90-110">排除指向指示按钮控件状态的值的指针。</span><span class="sxs-lookup"><span data-stu-id="79d90-110">[out] A pointer to a value that indicates the state of the button control.</span></span> <span data-ttu-id="79d90-111">可以返回下列值之一:</span><span class="sxs-lookup"><span data-stu-id="79d90-111">One of the following values can be returned:</span></span>
+> <span data-ttu-id="fc5db-110">[out]指向指示按钮控件状态的值的指针。</span><span class="sxs-lookup"><span data-stu-id="fc5db-110">[out] A pointer to a value that indicates the state of the button control.</span></span> <span data-ttu-id="fc5db-111">可以返回下列值之一：</span><span class="sxs-lookup"><span data-stu-id="fc5db-111">One of the following values can be returned:</span></span>
     
-<span data-ttu-id="79d90-112">MAPI_DISABLED</span><span class="sxs-lookup"><span data-stu-id="79d90-112">MAPI_DISABLED</span></span> 
+<span data-ttu-id="fc5db-112">MAPI_DISABLED</span><span class="sxs-lookup"><span data-stu-id="fc5db-112">MAPI_DISABLED</span></span> 
   
-> <span data-ttu-id="79d90-113">按钮控件已被禁用, 无法单击。</span><span class="sxs-lookup"><span data-stu-id="79d90-113">The button control is disabled and cannot be clicked.</span></span> 
+> <span data-ttu-id="fc5db-113">按钮控件处于禁用状态，无法单击。</span><span class="sxs-lookup"><span data-stu-id="fc5db-113">The button control is disabled and cannot be clicked.</span></span> 
     
-<span data-ttu-id="79d90-114">MAPI_ENABLED</span><span class="sxs-lookup"><span data-stu-id="79d90-114">MAPI_ENABLED</span></span> 
+<span data-ttu-id="fc5db-114">MAPI_ENABLED</span><span class="sxs-lookup"><span data-stu-id="fc5db-114">MAPI_ENABLED</span></span> 
   
-> <span data-ttu-id="79d90-115">按钮控件已启用, 可以单击。</span><span class="sxs-lookup"><span data-stu-id="79d90-115">The button control is enabled and can be clicked.</span></span>
+> <span data-ttu-id="fc5db-115">按钮控件已启用，可单击。</span><span class="sxs-lookup"><span data-stu-id="fc5db-115">The button control is enabled and can be clicked.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="79d90-116">返回值</span><span class="sxs-lookup"><span data-stu-id="79d90-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="fc5db-116">返回值</span><span class="sxs-lookup"><span data-stu-id="fc5db-116">Return value</span></span>
 
-<span data-ttu-id="79d90-117">S_OK</span><span class="sxs-lookup"><span data-stu-id="79d90-117">S_OK</span></span> 
+<span data-ttu-id="fc5db-117">S_OK</span><span class="sxs-lookup"><span data-stu-id="fc5db-117">S_OK</span></span> 
   
-> <span data-ttu-id="79d90-118">已成功检索按钮控件的状态。</span><span class="sxs-lookup"><span data-stu-id="79d90-118">The state of the button control was successfully retrieved.</span></span>
+> <span data-ttu-id="fc5db-118">已成功检索按钮控件的状态。</span><span class="sxs-lookup"><span data-stu-id="fc5db-118">The state of the button control was successfully retrieved.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="79d90-119">说明</span><span class="sxs-lookup"><span data-stu-id="79d90-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fc5db-119">备注</span><span class="sxs-lookup"><span data-stu-id="fc5db-119">Remarks</span></span>
 
-<span data-ttu-id="79d90-120">服务提供程序实现**IMAPIControl:: GetState**方法, 以向 MAPI 提供按钮控件的状态。</span><span class="sxs-lookup"><span data-stu-id="79d90-120">Service providers implement the **IMAPIControl::GetState** method to provide MAPI with the state of a button control.</span></span> <span data-ttu-id="79d90-121">如果按钮已启用, 则它可以响应鼠标单击或按键。</span><span class="sxs-lookup"><span data-stu-id="79d90-121">If the button is enabled, it can respond to a mouse click or key press.</span></span> <span data-ttu-id="79d90-122">如果已禁用, 则按钮显示为灰色, 且不响应鼠标单击或按键。</span><span class="sxs-lookup"><span data-stu-id="79d90-122">If it is disabled, the button appears dimmed and does not respond to a mouse click or key press.</span></span> 
+<span data-ttu-id="fc5db-120">服务提供商实现 **IMAPIControl：：GetState** 方法，以向 MAPI 提供按钮控件的状态。</span><span class="sxs-lookup"><span data-stu-id="fc5db-120">Service providers implement the **IMAPIControl::GetState** method to provide MAPI with the state of a button control.</span></span> <span data-ttu-id="fc5db-121">如果启用该按钮，它可以响应鼠标单击或按键。</span><span class="sxs-lookup"><span data-stu-id="fc5db-121">If the button is enabled, it can respond to a mouse click or key press.</span></span> <span data-ttu-id="fc5db-122">如果禁用，按钮将灰显，并且不会响应鼠标单击或按键。</span><span class="sxs-lookup"><span data-stu-id="fc5db-122">If it is disabled, the button appears dimmed and does not respond to a mouse click or key press.</span></span> 
   
-<span data-ttu-id="79d90-123">有关如何实现**GetState**和其他[IMAPIControl: IUnknown](imapicontroliunknown.md)方法的详细信息, 请参阅[Control Object 实现](control-object-implementation.md)。</span><span class="sxs-lookup"><span data-stu-id="79d90-123">For more information about how to implement **GetState** and the other [IMAPIControl : IUnknown](imapicontroliunknown.md) methods, see [Control Object Implementation](control-object-implementation.md).</span></span>
+<span data-ttu-id="fc5db-123">若要详细了解如何实现 **GetState** 和其他 [IMAPIControl ： IUnknown](imapicontroliunknown.md) 方法，请参阅 [控件对象实现](control-object-implementation.md)。</span><span class="sxs-lookup"><span data-stu-id="fc5db-123">For more information about how to implement **GetState** and the other [IMAPIControl : IUnknown](imapicontroliunknown.md) methods, see [Control Object Implementation](control-object-implementation.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="79d90-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="79d90-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc5db-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="fc5db-124">See also</span></span>
 
 
 
-[<span data-ttu-id="79d90-125">IMAPIControl::Activate</span><span class="sxs-lookup"><span data-stu-id="79d90-125">IMAPIControl::Activate</span></span>](imapicontrol-activate.md)
+[<span data-ttu-id="fc5db-125">IMAPIControl::Activate</span><span class="sxs-lookup"><span data-stu-id="fc5db-125">IMAPIControl::Activate</span></span>](imapicontrol-activate.md)
   
-[<span data-ttu-id="79d90-126">IMAPIControl : IUnknown</span><span class="sxs-lookup"><span data-stu-id="79d90-126">IMAPIControl : IUnknown</span></span>](imapicontroliunknown.md)
+[<span data-ttu-id="fc5db-126">IMAPIControl : IUnknown</span><span class="sxs-lookup"><span data-stu-id="fc5db-126">IMAPIControl : IUnknown</span></span>](imapicontroliunknown.md)
 

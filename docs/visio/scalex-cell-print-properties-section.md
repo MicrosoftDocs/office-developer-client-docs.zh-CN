@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60072
 localization_priority: Normal
 ms.assetid: 5916eadc-37f8-47af-fe54-f6062aea318f
-description: 指定绘图页在打印纸上的比例百分比。
+description: 指定打印机页面上绘图页的缩放百分比。
 ms.openlocfilehash: d1c2f6c184f987e1e7190b1c208310b83a823ee3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,26 +16,26 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410208"
 ---
-# <a name="scalex-cell-print-properties-section"></a><span data-ttu-id="6104b-103">ScaleX 单元格（“Print Properties”内容）</span><span class="sxs-lookup"><span data-stu-id="6104b-103">ScaleX Cell (Print Properties Section)</span></span>
+# <a name="scalex-cell-print-properties-section"></a><span data-ttu-id="f5106-103">ScaleX 单元格（“Print Properties”内容）</span><span class="sxs-lookup"><span data-stu-id="f5106-103">ScaleX Cell (Print Properties Section)</span></span>
 
-<span data-ttu-id="6104b-104">指定绘图页在打印纸上的比例百分比。</span><span class="sxs-lookup"><span data-stu-id="6104b-104">Specifies the percentage of magnification of the drawing page on the printer page.</span></span>
+<span data-ttu-id="f5106-104">指定打印机页面上绘图页的缩放百分比。</span><span class="sxs-lookup"><span data-stu-id="f5106-104">Specifies the percentage of magnification of the drawing page on the printer page.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="6104b-105">说明</span><span class="sxs-lookup"><span data-stu-id="6104b-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f5106-105">备注</span><span class="sxs-lookup"><span data-stu-id="f5106-105">Remarks</span></span>
 
-<span data-ttu-id="6104b-106">只有在 OnPage 单元格的值为 FALSE 时才使用此值。</span><span class="sxs-lookup"><span data-stu-id="6104b-106">This value is used only when the OnPage cell value is FALSE.</span></span> <span data-ttu-id="6104b-107">ScaleX 和 ScaleY 单元格的值始终相同, 这与 "**页面设置**" 对话框 (在 "**设计**" 选项卡上, 单击 "**页面设置**" 箭头) 的 "**打印设置**" 选项卡上的 "**调整为**" 设置中的值相对应。</span><span class="sxs-lookup"><span data-stu-id="6104b-107">The ScaleX and ScaleY cells always have the same value, which corresponds to the value in the **Adjust to** setting on the **Print Setup** tab in the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow).</span></span> 
+<span data-ttu-id="f5106-106">只有在 OnPage 单元格的值为 FALSE 时才使用此值。</span><span class="sxs-lookup"><span data-stu-id="f5106-106">This value is used only when the OnPage cell value is FALSE.</span></span> <span data-ttu-id="f5106-107">ScaleX 和 ScaleY 单元格的值始终相同，对应于"设计"选项卡上 ("页面设置"对话框中"打印设置"选项卡上"调整为"设置中的值，单击"页面设置"箭头) 。 </span><span class="sxs-lookup"><span data-stu-id="f5106-107">The ScaleX and ScaleY cells always have the same value, which corresponds to the value in the **Adjust to** setting on the **Print Setup** tab in the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow).</span></span> 
   
-<span data-ttu-id="6104b-108">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ScaleX 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="6104b-108">To get a reference to the ScaleX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="f5106-108">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ScaleX 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="f5106-108">To get a reference to the ScaleX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6104b-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="6104b-109">Cell name:</span></span>  <br/> |<span data-ttu-id="6104b-110">ScaleX</span><span class="sxs-lookup"><span data-stu-id="6104b-110">ScaleX</span></span>  <br/> |
+|<span data-ttu-id="f5106-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="f5106-109">Cell name:</span></span>  <br/> |<span data-ttu-id="f5106-110">ScaleX</span><span class="sxs-lookup"><span data-stu-id="f5106-110">ScaleX</span></span>  <br/> |
    
-<span data-ttu-id="6104b-111">若要从某个程序按索引获取对 ScaleX 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="6104b-111">To get a reference to the ScaleX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="f5106-111">若要从某个程序按索引获取对 ScaleX 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="f5106-111">To get a reference to the ScaleX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6104b-112">内容索引：</span><span class="sxs-lookup"><span data-stu-id="6104b-112">Section index:</span></span>  <br/> |<span data-ttu-id="6104b-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="6104b-113">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="6104b-114">行索引：</span><span class="sxs-lookup"><span data-stu-id="6104b-114">Row index:</span></span>  <br/> |<span data-ttu-id="6104b-115">**visRowPrintProperties**</span><span class="sxs-lookup"><span data-stu-id="6104b-115">**visRowPrintProperties**</span></span> <br/> |
-|<span data-ttu-id="6104b-116">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="6104b-116">Cell index:</span></span>  <br/> |<span data-ttu-id="6104b-117">**visPrintPropertiesScaleX**</span><span class="sxs-lookup"><span data-stu-id="6104b-117">**visPrintPropertiesScaleX**</span></span> <br/> |
+|<span data-ttu-id="f5106-112">内容索引：</span><span class="sxs-lookup"><span data-stu-id="f5106-112">Section index:</span></span>  <br/> |<span data-ttu-id="f5106-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="f5106-113">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="f5106-114">行索引：</span><span class="sxs-lookup"><span data-stu-id="f5106-114">Row index:</span></span>  <br/> |<span data-ttu-id="f5106-115">**visRowPrintProperties**</span><span class="sxs-lookup"><span data-stu-id="f5106-115">**visRowPrintProperties**</span></span> <br/> |
+|<span data-ttu-id="f5106-116">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="f5106-116">Cell index:</span></span>  <br/> |<span data-ttu-id="f5106-117">**visPrintPropertiesScaleX**</span><span class="sxs-lookup"><span data-stu-id="f5106-117">**visPrintPropertiesScaleX**</span></span> <br/> |
    
 

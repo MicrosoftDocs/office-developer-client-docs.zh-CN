@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409690"
 ---
-# <a name="ixpprovidershutdown"></a><span data-ttu-id="5ec77-103">IXPProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="5ec77-103">IXPProvider::Shutdown</span></span>
+# <a name="ixpprovidershutdown"></a><span data-ttu-id="80028-103">IXPProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="80028-103">IXPProvider::Shutdown</span></span>
 
   
   
-<span data-ttu-id="5ec77-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5ec77-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="80028-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="80028-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5ec77-105">以有序的方式关闭传输提供程序。</span><span class="sxs-lookup"><span data-stu-id="5ec77-105">Closes down a transport provider in an orderly fashion.</span></span>
+<span data-ttu-id="80028-105">以有序方式关闭传输提供程序。</span><span class="sxs-lookup"><span data-stu-id="80028-105">Closes down a transport provider in an orderly fashion.</span></span>
   
 ```cpp
 HRESULT Shutdown (
@@ -33,27 +33,27 @@ HRESULT Shutdown (
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="5ec77-106">参数</span><span class="sxs-lookup"><span data-stu-id="5ec77-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="80028-106">参数</span><span class="sxs-lookup"><span data-stu-id="80028-106">Parameters</span></span>
 
- <span data-ttu-id="5ec77-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="5ec77-107">_lpulFlags_</span></span>
+ <span data-ttu-id="80028-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="80028-107">_lpulFlags_</span></span>
   
-> <span data-ttu-id="5ec77-108">实时保留必须为零。</span><span class="sxs-lookup"><span data-stu-id="5ec77-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="80028-108">[in]保留;必须为零。</span><span class="sxs-lookup"><span data-stu-id="80028-108">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="5ec77-109">返回值</span><span class="sxs-lookup"><span data-stu-id="5ec77-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="80028-109">返回值</span><span class="sxs-lookup"><span data-stu-id="80028-109">Return value</span></span>
 
-<span data-ttu-id="5ec77-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="5ec77-110">S_OK</span></span> 
+<span data-ttu-id="80028-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="80028-110">S_OK</span></span> 
   
-> <span data-ttu-id="5ec77-111">调用成功关闭了传输提供程序。</span><span class="sxs-lookup"><span data-stu-id="5ec77-111">The call succeeded in shutting down the transport provider.</span></span>
+> <span data-ttu-id="80028-111">呼叫成功关闭传输提供程序。</span><span class="sxs-lookup"><span data-stu-id="80028-111">The call succeeded in shutting down the transport provider.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="5ec77-112">说明</span><span class="sxs-lookup"><span data-stu-id="5ec77-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="80028-112">备注</span><span class="sxs-lookup"><span data-stu-id="80028-112">Remarks</span></span>
 
-<span data-ttu-id="5ec77-113">MAPI 后台处理程序在释放传输提供程序对象之前, 先调用**IXPProvider:: Shutdown**方法。</span><span class="sxs-lookup"><span data-stu-id="5ec77-113">The MAPI spooler calls the **IXPProvider::Shutdown** method just prior to releasing a transport provider object.</span></span> <span data-ttu-id="5ec77-114">在呼叫**关闭**之前, MAPI 将释放所有登录对象的提供程序。</span><span class="sxs-lookup"><span data-stu-id="5ec77-114">Before calling **Shutdown**, MAPI releases all logon objects for a provider.</span></span>
+<span data-ttu-id="80028-113">MAPI 后台处理程序在释放传输提供程序对象之前调用 **IXPProvider：：Shutdown** 方法。</span><span class="sxs-lookup"><span data-stu-id="80028-113">The MAPI spooler calls the **IXPProvider::Shutdown** method just prior to releasing a transport provider object.</span></span> <span data-ttu-id="80028-114">在调用 **Shutdown** 之前，MAPI 会释放提供程序的所有登录对象。</span><span class="sxs-lookup"><span data-stu-id="80028-114">Before calling **Shutdown**, MAPI releases all logon objects for a provider.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="5ec77-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5ec77-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="80028-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="80028-115">See also</span></span>
 
 
 
-[<span data-ttu-id="5ec77-116">XPProviderInit</span><span class="sxs-lookup"><span data-stu-id="5ec77-116">XPProviderInit</span></span>](xpproviderinit.md)
+[<span data-ttu-id="80028-116">XPProviderInit</span><span class="sxs-lookup"><span data-stu-id="80028-116">XPProviderInit</span></span>](xpproviderinit.md)
   
-[<span data-ttu-id="5ec77-117">IXPProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="5ec77-117">IXPProvider : IUnknown</span></span>](ixpprovideriunknown.md)
+[<span data-ttu-id="80028-117">IXPProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="80028-117">IXPProvider : IUnknown</span></span>](ixpprovideriunknown.md)
 

@@ -15,18 +15,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410201"
 ---
-# <a name="deleting-a-profile"></a><span data-ttu-id="1ed01-103">删除配置文件</span><span class="sxs-lookup"><span data-stu-id="1ed01-103">Deleting a Profile</span></span>
+# <a name="deleting-a-profile"></a><span data-ttu-id="e29d2-103">删除配置文件</span><span class="sxs-lookup"><span data-stu-id="e29d2-103">Deleting a Profile</span></span>
 
   
   
-<span data-ttu-id="1ed01-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1ed01-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e29d2-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e29d2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="1ed01-105">**删除配置文件**</span><span class="sxs-lookup"><span data-stu-id="1ed01-105">**To delete a profile**</span></span>
+ <span data-ttu-id="e29d2-105">**删除配置文件**</span><span class="sxs-lookup"><span data-stu-id="e29d2-105">**To delete a profile**</span></span>
   
-- <span data-ttu-id="1ed01-106">调用[IProfAdmin::D eleteprofile](iprofadmin-deleteprofile.md)。</span><span class="sxs-lookup"><span data-stu-id="1ed01-106">Call [IProfAdmin::DeleteProfile](iprofadmin-deleteprofile.md).</span></span>
+- <span data-ttu-id="e29d2-106">调用 [IProfAdmin：:D eleteProfile](iprofadmin-deleteprofile.md)。</span><span class="sxs-lookup"><span data-stu-id="e29d2-106">Call [IProfAdmin::DeleteProfile](iprofadmin-deleteprofile.md).</span></span>
     
- <span data-ttu-id="1ed01-107">如果要删除的配置文件当前正在使用, 则**DeleteProfile**会将其标记为删除, 等待它不再处于活动状态以将其删除。</span><span class="sxs-lookup"><span data-stu-id="1ed01-107">**DeleteProfile** marks the profile for deletion if it is currently being used, waiting until it is no longer active to remove it.</span></span> <span data-ttu-id="1ed01-108">只有在具有活动会话的每个客户端断开连接后, 配置文件才会实际消失。</span><span class="sxs-lookup"><span data-stu-id="1ed01-108">The profile does not actually disappear until every client with an active session has disconnected.</span></span> 
+ <span data-ttu-id="e29d2-107">**DeleteProfile** 将配置文件标记为待删除（如果当前正在使用，则等待配置文件不再处于活动状态才能删除它）。</span><span class="sxs-lookup"><span data-stu-id="e29d2-107">**DeleteProfile** marks the profile for deletion if it is currently being used, waiting until it is no longer active to remove it.</span></span> <span data-ttu-id="e29d2-108">配置文件实际上不会消失，直到每个具有活动会话的客户端断开连接。</span><span class="sxs-lookup"><span data-stu-id="e29d2-108">The profile does not actually disappear until every client with an active session has disconnected.</span></span> 
   
- <span data-ttu-id="1ed01-109">**DeleteProfile**调用配置文件中的每个邮件服务的入口点函数, 并将_ulContext_参数设置为 MSG_SERVICE_DELETE。</span><span class="sxs-lookup"><span data-stu-id="1ed01-109">**DeleteProfile** calls the entry point function of every message service in the profile with the  _ulContext_ parameter set to MSG_SERVICE_DELETE.</span></span> <span data-ttu-id="1ed01-110">对入口点函数的调用在从配置文件中实际删除服务之前发生。</span><span class="sxs-lookup"><span data-stu-id="1ed01-110">The calls to the entry point functions occur before the services are physically removed from the profile.</span></span> 
+ <span data-ttu-id="e29d2-109">**DeleteProfile** 调用配置文件中每个邮件服务的入口点函数  _，ulContext_ 参数设置为 MSG_SERVICE_DELETE。</span><span class="sxs-lookup"><span data-stu-id="e29d2-109">**DeleteProfile** calls the entry point function of every message service in the profile with the  _ulContext_ parameter set to MSG_SERVICE_DELETE.</span></span> <span data-ttu-id="e29d2-110">在从配置文件中实际删除服务之前，将调用入口点函数。</span><span class="sxs-lookup"><span data-stu-id="e29d2-110">The calls to the entry point functions occur before the services are physically removed from the profile.</span></span> 
   
 

@@ -16,29 +16,29 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410348"
 ---
-# <a name="noshow-cell-geometry-section"></a><span data-ttu-id="52ee5-103">NoShow 单元格（“Geometry”内容）</span><span class="sxs-lookup"><span data-stu-id="52ee5-103">NoShow Cell (Geometry Section)</span></span>
+# <a name="noshow-cell-geometry-section"></a><span data-ttu-id="94c61-103">NoShow 单元格（“Geometry”内容）</span><span class="sxs-lookup"><span data-stu-id="94c61-103">NoShow Cell (Geometry Section)</span></span>
 
-<span data-ttu-id="52ee5-104">指明路径是否显示在绘图页上。</span><span class="sxs-lookup"><span data-stu-id="52ee5-104">Indicates whether a path is displayed on the drawing page.</span></span>
+<span data-ttu-id="94c61-104">指明路径是否显示在绘图页上。</span><span class="sxs-lookup"><span data-stu-id="94c61-104">Indicates whether a path is displayed on the drawing page.</span></span>
   
-|<span data-ttu-id="52ee5-105">**值**</span><span class="sxs-lookup"><span data-stu-id="52ee5-105">**Value**</span></span>|<span data-ttu-id="52ee5-106">**说明**</span><span class="sxs-lookup"><span data-stu-id="52ee5-106">**Description**</span></span>|
+|<span data-ttu-id="94c61-105">**值**</span><span class="sxs-lookup"><span data-stu-id="94c61-105">**Value**</span></span>|<span data-ttu-id="94c61-106">**说明**</span><span class="sxs-lookup"><span data-stu-id="94c61-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="52ee5-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="52ee5-107">TRUE</span></span>  <br/> | <span data-ttu-id="52ee5-108">隐藏本内容所表示的路径的划线和填充。</span><span class="sxs-lookup"><span data-stu-id="52ee5-108">The stroke and fill of the path represented by the section is hidden.</span></span>  <br/> |
-| <span data-ttu-id="52ee5-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="52ee5-109">FALSE</span></span>  <br/> | <span data-ttu-id="52ee5-110">显示路径的划线和填充。</span><span class="sxs-lookup"><span data-stu-id="52ee5-110">The stroke and fill of the path is shown.</span></span>  <br/> |
+| <span data-ttu-id="94c61-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="94c61-107">TRUE</span></span>  <br/> | <span data-ttu-id="94c61-108">隐藏本内容所表示的路径的划线和填充。</span><span class="sxs-lookup"><span data-stu-id="94c61-108">The stroke and fill of the path represented by the section is hidden.</span></span>  <br/> |
+| <span data-ttu-id="94c61-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="94c61-109">FALSE</span></span>  <br/> | <span data-ttu-id="94c61-110">显示路径的划线和填充。</span><span class="sxs-lookup"><span data-stu-id="94c61-110">The stroke and fill of the path is shown.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="52ee5-111">说明</span><span class="sxs-lookup"><span data-stu-id="52ee5-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="94c61-111">备注</span><span class="sxs-lookup"><span data-stu-id="94c61-111">Remarks</span></span>
 
-<span data-ttu-id="52ee5-112">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 NoShow 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="52ee5-112">To get a reference to the NoShow cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="94c61-112">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 NoShow 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="94c61-112">To get a reference to the NoShow cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="52ee5-113">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="52ee5-113">Cell name:</span></span>  <br/> | <span data-ttu-id="52ee5-114">几何图形*i* 。NoShow 其中*i* = <1>, 2, 3 .。。</span><span class="sxs-lookup"><span data-stu-id="52ee5-114">Geometry  *i*  .NoShow            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="94c61-113">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="94c61-113">Cell name:</span></span>  <br/> | <span data-ttu-id="94c61-114">Geometry  *i*  .NoShow where  *i*  = <1>， 2， 3...</span><span class="sxs-lookup"><span data-stu-id="94c61-114">Geometry  *i*  .NoShow            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="52ee5-115">要从某个程序按索引获取对 NoShow 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="52ee5-115">To get a reference to the NoShow cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="94c61-115">要从某个程序按索引获取对 NoShow 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="94c61-115">To get a reference to the NoShow cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="52ee5-116">内容索引：</span><span class="sxs-lookup"><span data-stu-id="52ee5-116">Section index:</span></span>  <br/> |<span data-ttu-id="52ee5-117">**visSectionFirstComponent** +  *i* = \*\* 0、1、2 .。。</span><span class="sxs-lookup"><span data-stu-id="52ee5-117">**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="52ee5-118">行索引：</span><span class="sxs-lookup"><span data-stu-id="52ee5-118">Row index:</span></span>  <br/> |<span data-ttu-id="52ee5-119">**visRowComponent**</span><span class="sxs-lookup"><span data-stu-id="52ee5-119">**visRowComponent**</span></span> <br/> |
-| <span data-ttu-id="52ee5-120">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="52ee5-120">Cell index:</span></span>  <br/> |<span data-ttu-id="52ee5-121">**visCompNoShow**</span><span class="sxs-lookup"><span data-stu-id="52ee5-121">**visCompNoShow**</span></span> <br/> |
+| <span data-ttu-id="94c61-116">内容索引：</span><span class="sxs-lookup"><span data-stu-id="94c61-116">Section index:</span></span>  <br/> |<span data-ttu-id="94c61-117">**visSectionFirstComponent**  +  *i* 其中 *i* = 0、1、2...</span><span class="sxs-lookup"><span data-stu-id="94c61-117">**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="94c61-118">行索引：</span><span class="sxs-lookup"><span data-stu-id="94c61-118">Row index:</span></span>  <br/> |<span data-ttu-id="94c61-119">**visRowComponent**</span><span class="sxs-lookup"><span data-stu-id="94c61-119">**visRowComponent**</span></span> <br/> |
+| <span data-ttu-id="94c61-120">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="94c61-120">Cell index:</span></span>  <br/> |<span data-ttu-id="94c61-121">**visCompNoShow**</span><span class="sxs-lookup"><span data-stu-id="94c61-121">**visCompNoShow**</span></span> <br/> |
    
 

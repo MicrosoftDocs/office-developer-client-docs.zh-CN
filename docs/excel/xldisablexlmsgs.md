@@ -18,19 +18,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415325"
 ---
-# <a name="xldisablexlmsgs"></a><span data-ttu-id="41a88-104">xlDisableXLMsgs</span><span class="sxs-lookup"><span data-stu-id="41a88-104">xlDisableXLMsgs</span></span>
+# <a name="xldisablexlmsgs"></a><span data-ttu-id="ce143-104">xlDisableXLMsgs</span><span class="sxs-lookup"><span data-stu-id="ce143-104">xlDisableXLMsgs</span></span>
 
- <span data-ttu-id="41a88-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="41a88-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="ce143-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="ce143-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="41a88-106">此函数已弃用，因此无需再调用。</span><span class="sxs-lookup"><span data-stu-id="41a88-106">This function is deprecated and no longer needs to be called.</span></span>
+<span data-ttu-id="ce143-106">此函数已弃用，因此无需再调用。</span><span class="sxs-lookup"><span data-stu-id="ce143-106">This function is deprecated and no longer needs to be called.</span></span>
   
 ```cs
 Excel12(xlDisableXLMsgs, 0, 0);
 ```
 
-## <a name="see-also"></a><span data-ttu-id="41a88-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="41a88-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ce143-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ce143-107">See also</span></span>
 
 
 
-[<span data-ttu-id="41a88-108">只能从 DLL 或 XLL 调用的 C API 函数</span><span class="sxs-lookup"><span data-stu-id="41a88-108">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[<span data-ttu-id="ce143-108">只能从 DLL 或 XLL 调用的 C API 函数</span><span class="sxs-lookup"><span data-stu-id="ce143-108">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 函数 (数据降级层 API)
+title: '数据 (层 API 模型) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420484"
 ---
-# <a name="functions-data-degradation-layer-api"></a><span data-ttu-id="2dc45-103">函数 (数据降级层 API)</span><span class="sxs-lookup"><span data-stu-id="2dc45-103">Functions (Data degradation layer API)</span></span>
+# <a name="functions-data-degradation-layer-api"></a><span data-ttu-id="0d64d-103">数据 (层 API 模型) </span><span class="sxs-lookup"><span data-stu-id="0d64d-103">Functions (Data degradation layer API)</span></span>
 
-<span data-ttu-id="2dc45-104">本节介绍数据降级层 API 中的函数。</span><span class="sxs-lookup"><span data-stu-id="2dc45-104">This section describes the functions in the Data Degradation Layer API.</span></span>
+<span data-ttu-id="0d64d-104">本节介绍数据降级层 API 中的函数。</span><span class="sxs-lookup"><span data-stu-id="0d64d-104">This section describes the functions in the Data Degradation Layer API.</span></span>
   
-|<span data-ttu-id="2dc45-105">**函数**</span><span class="sxs-lookup"><span data-stu-id="2dc45-105">**Function**</span></span>|<span data-ttu-id="2dc45-106">**说明**</span><span class="sxs-lookup"><span data-stu-id="2dc45-106">**Description**</span></span>|
+|<span data-ttu-id="0d64d-105">**函数**</span><span class="sxs-lookup"><span data-stu-id="0d64d-105">**Function**</span></span>|<span data-ttu-id="0d64d-106">**说明**</span><span class="sxs-lookup"><span data-stu-id="0d64d-106">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="2dc45-107">HrCreateNewWrappedObject</span><span class="sxs-lookup"><span data-stu-id="2dc45-107">HrCreateNewWrappedObject</span></span>](hrcreatenewwrappedobject.md) <br/> |<span data-ttu-id="2dc45-108">创建一个客户端可以以首选字符格式访问的对象。</span><span class="sxs-lookup"><span data-stu-id="2dc45-108">Creates an object that a client can access in a preferred character format.</span></span>  <br/> |
+|[<span data-ttu-id="0d64d-107">HrCreateNewWrappedObject</span><span class="sxs-lookup"><span data-stu-id="0d64d-107">HrCreateNewWrappedObject</span></span>](hrcreatenewwrappedobject.md) <br/> |<span data-ttu-id="0d64d-108">创建客户端可以使用首选字符格式访问的对象。</span><span class="sxs-lookup"><span data-stu-id="0d64d-108">Creates an object that a client can access in a preferred character format.</span></span>  <br/> |
    
 

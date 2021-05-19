@@ -1,5 +1,5 @@
 ---
-title: 转换函数 (Access 自定义 web 应用程序)
+title: 'Access 自定义 (应用的转换) '
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -13,23 +13,23 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415878"
 ---
-# <a name="conversion-functions-access-custom-web-app"></a><span data-ttu-id="e5f4c-102">转换函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="e5f4c-102">Conversion functions (Access custom web app)</span></span>
+# <a name="conversion-functions-access-custom-web-app"></a><span data-ttu-id="a8ab4-102">Access 自定义 (应用的转换) </span><span class="sxs-lookup"><span data-stu-id="a8ab4-102">Conversion functions (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e5f4c-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="e5f4c-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="a8ab4-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="a8ab4-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
 
-- [<span data-ttu-id="e5f4c-105">Cast 函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="e5f4c-105">Cast function (Access custom web app)</span></span>](cast-function-access-custom-web-app.md)
+- [<span data-ttu-id="a8ab4-105">Cast 函数 (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="a8ab4-105">Cast function (Access custom web app)</span></span>](cast-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="e5f4c-106">合并函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="e5f4c-106">Coalesce function (Access custom web app)</span></span>](coalesce-function-access-custom-web-app.md)
+- [<span data-ttu-id="a8ab4-106">将 Access 自定义 (应用程序功能与) </span><span class="sxs-lookup"><span data-stu-id="a8ab4-106">Coalesce function (Access custom web app)</span></span>](coalesce-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="e5f4c-107">DateWithTimeFromParts 函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="e5f4c-107">DateWithTimeFromParts function (Access custom web app)</span></span>](datewithtimefromparts-function-access-custom-web-app.md)
+- [<span data-ttu-id="a8ab4-107">DateWithTimeFromParts 函数 (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="a8ab4-107">DateWithTimeFromParts function (Access custom web app)</span></span>](datewithtimefromparts-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="e5f4c-108">Format 函数（Access 自定义 Web 应用）</span><span class="sxs-lookup"><span data-stu-id="e5f4c-108">Format function (Access custom web app)</span></span>](format-function-access-custom-web-app.md)
+- [<span data-ttu-id="a8ab4-108">Format 函数（Access 自定义 Web 应用）</span><span class="sxs-lookup"><span data-stu-id="a8ab4-108">Format function (Access custom web app)</span></span>](format-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="e5f4c-109">Parse 函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="e5f4c-109">Parse function (Access custom web app)</span></span>](parse-function-access-custom-web-app.md)
+- [<span data-ttu-id="a8ab4-109">Parse 函数 (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="a8ab4-109">Parse function (Access custom web app)</span></span>](parse-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="e5f4c-110">TimeFromParts 函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="e5f4c-110">TimeFromParts function (Access custom web app)</span></span>](timefromparts-functionaccess-custom-web-app.md)
+- [<span data-ttu-id="a8ab4-110">TimeFromParts 函数 (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="a8ab4-110">TimeFromParts function (Access custom web app)</span></span>](timefromparts-functionaccess-custom-web-app.md)
     
-- [<span data-ttu-id="e5f4c-111">Try_Parse 函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="e5f4c-111">Try_Parse function (Access custom web app)</span></span>](try_parse-function-access-custom-web-app.md)
+- [<span data-ttu-id="a8ab4-111">Try_Parse Access (Web 应用模板的) </span><span class="sxs-lookup"><span data-stu-id="a8ab4-111">Try_Parse function (Access custom web app)</span></span>](try_parse-function-access-custom-web-app.md)
     
 

@@ -15,19 +15,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419637"
 ---
-# <a name="lpvalfindprop"></a><span data-ttu-id="0b227-103">LpValFindProp</span><span class="sxs-lookup"><span data-stu-id="0b227-103">LpValFindProp</span></span>
+# <a name="lpvalfindprop"></a><span data-ttu-id="da08c-103">LpValFindProp</span><span class="sxs-lookup"><span data-stu-id="da08c-103">LpValFindProp</span></span>
 
   
   
-<span data-ttu-id="0b227-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0b227-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="da08c-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="da08c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0b227-105">在属性集中搜索指定的属性。</span><span class="sxs-lookup"><span data-stu-id="0b227-105">Searches for a specified property in a property set.</span></span>
+<span data-ttu-id="da08c-105">搜索属性集内指定的属性。</span><span class="sxs-lookup"><span data-stu-id="da08c-105">Searches for a specified property in a property set.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0b227-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="0b227-106">Header file:</span></span>  <br/> |<span data-ttu-id="0b227-107">mapiutil</span><span class="sxs-lookup"><span data-stu-id="0b227-107">mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="0b227-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="0b227-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="0b227-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="0b227-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="0b227-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="0b227-110">Called by:</span></span>  <br/> |<span data-ttu-id="0b227-111">客户端应用程序和服务提供程序。</span><span class="sxs-lookup"><span data-stu-id="0b227-111">Client applications and service providers.</span></span>  <br/> |
+|<span data-ttu-id="da08c-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="da08c-106">Header file:</span></span>  <br/> |<span data-ttu-id="da08c-107">mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="da08c-107">mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="da08c-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="da08c-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="da08c-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="da08c-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="da08c-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="da08c-110">Called by:</span></span>  <br/> |<span data-ttu-id="da08c-111">客户端应用程序和服务提供程序。</span><span class="sxs-lookup"><span data-stu-id="da08c-111">Client applications and service providers.</span></span>  <br/> |
    
 ```cpp
 LPSPropValue LpValFindProp(
@@ -37,33 +37,33 @@ LPSPropValue LpValFindProp(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0b227-112">参数</span><span class="sxs-lookup"><span data-stu-id="0b227-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="da08c-112">参数</span><span class="sxs-lookup"><span data-stu-id="da08c-112">Parameters</span></span>
 
- <span data-ttu-id="0b227-113">_ulPropTag_</span><span class="sxs-lookup"><span data-stu-id="0b227-113">_ulPropTag_</span></span>
+ <span data-ttu-id="da08c-113">_ulPropTag_</span><span class="sxs-lookup"><span data-stu-id="da08c-113">_ulPropTag_</span></span>
   
-> <span data-ttu-id="0b227-114">实时要在属性集中搜索的属性的标记, 由_lpPropArray_参数指示。</span><span class="sxs-lookup"><span data-stu-id="0b227-114">[in] Tag for the property to search for in the property set, indicated by the  _lpPropArray_ parameter.</span></span> 
+> <span data-ttu-id="da08c-114">[in]属性集内要搜索的属性的标记，由  _lpPropArray_ 参数指示。</span><span class="sxs-lookup"><span data-stu-id="da08c-114">[in] Tag for the property to search for in the property set, indicated by the  _lpPropArray_ parameter.</span></span> 
     
- <span data-ttu-id="0b227-115">_cValues_</span><span class="sxs-lookup"><span data-stu-id="0b227-115">_cValues_</span></span>
+ <span data-ttu-id="da08c-115">_cValues_</span><span class="sxs-lookup"><span data-stu-id="da08c-115">_cValues_</span></span>
   
-> <span data-ttu-id="0b227-116">实时属性集中属性的计数, 由_lpPropArray_参数指示。</span><span class="sxs-lookup"><span data-stu-id="0b227-116">[in] Count of properties in the property set, indicated by the  _lpPropArray_ parameter.</span></span> 
+> <span data-ttu-id="da08c-116">[in]属性集内的属性计数，由  _lpPropArray 参数_ 指示。</span><span class="sxs-lookup"><span data-stu-id="da08c-116">[in] Count of properties in the property set, indicated by the  _lpPropArray_ parameter.</span></span> 
     
- <span data-ttu-id="0b227-117">_lpPropArray_</span><span class="sxs-lookup"><span data-stu-id="0b227-117">_lpPropArray_</span></span>
+ <span data-ttu-id="da08c-117">_lpPropArray_</span><span class="sxs-lookup"><span data-stu-id="da08c-117">_lpPropArray_</span></span>
   
-> <span data-ttu-id="0b227-118">实时**SPropValue**结构的数组, 这些结构定义要搜索的属性。</span><span class="sxs-lookup"><span data-stu-id="0b227-118">[in] Array of **SPropValue** structures that defines the properties to be searched.</span></span> 
+> <span data-ttu-id="da08c-118">[in] **定义要搜索的属性的 SPropValue** 结构的数组。</span><span class="sxs-lookup"><span data-stu-id="da08c-118">[in] Array of **SPropValue** structures that defines the properties to be searched.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="0b227-119">返回值</span><span class="sxs-lookup"><span data-stu-id="0b227-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="da08c-119">返回值</span><span class="sxs-lookup"><span data-stu-id="da08c-119">Return value</span></span>
 
-<span data-ttu-id="0b227-120">**LpValFindProp**函数返回一个**SPropValue**结构, 该结构定义与输入属性标记匹配的属性; 如果没有匹配项, 则返回 NULL。</span><span class="sxs-lookup"><span data-stu-id="0b227-120">The **LpValFindProp** function returns an **SPropValue** structure that defines the property that matches the input property tag, or NULL if there is no match.</span></span> 
+<span data-ttu-id="da08c-120">**LpValFindProp** 函数返回 **一个 SPropValue** 结构，该结构定义与输入属性标记匹配的属性;如果没有匹配项，则返回 NULL。</span><span class="sxs-lookup"><span data-stu-id="da08c-120">The **LpValFindProp** function returns an **SPropValue** structure that defines the property that matches the input property tag, or NULL if there is no match.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="0b227-121">说明</span><span class="sxs-lookup"><span data-stu-id="0b227-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="da08c-121">备注</span><span class="sxs-lookup"><span data-stu-id="da08c-121">Remarks</span></span>
 
-<span data-ttu-id="0b227-122">**LpValFindProp**函数与**PpropFindProp**相同。</span><span class="sxs-lookup"><span data-stu-id="0b227-122">The **LpValFindProp** function is identical to **PpropFindProp**.</span></span>
+<span data-ttu-id="da08c-122">**LpValFindProp** 函数与 **PpropFindProp 相同**。</span><span class="sxs-lookup"><span data-stu-id="da08c-122">The **LpValFindProp** function is identical to **PpropFindProp**.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="0b227-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0b227-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="da08c-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="da08c-123">See also</span></span>
 
 
 
-[<span data-ttu-id="0b227-124">PpropFindProp</span><span class="sxs-lookup"><span data-stu-id="0b227-124">PpropFindProp</span></span>](ppropfindprop.md)
+[<span data-ttu-id="da08c-124">PpropFindProp</span><span class="sxs-lookup"><span data-stu-id="da08c-124">PpropFindProp</span></span>](ppropfindprop.md)
   
-[<span data-ttu-id="0b227-125">SPropValue</span><span class="sxs-lookup"><span data-stu-id="0b227-125">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="da08c-125">SPropValue</span><span class="sxs-lookup"><span data-stu-id="da08c-125">SPropValue</span></span>](spropvalue.md)
 

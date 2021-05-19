@@ -19,50 +19,50 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415052"
 ---
-# <a name="pidtagreceivefoldersettings-canonical-property"></a><span data-ttu-id="8d569-103">PidTagReceiveFolderSettings 规范属性</span><span class="sxs-lookup"><span data-stu-id="8d569-103">PidTagReceiveFolderSettings Canonical Property</span></span>
+# <a name="pidtagreceivefoldersettings-canonical-property"></a><span data-ttu-id="694ec-103">PidTagReceiveFolderSettings 规范属性</span><span class="sxs-lookup"><span data-stu-id="694ec-103">PidTagReceiveFolderSettings Canonical Property</span></span>
 
   
   
-<span data-ttu-id="8d569-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8d569-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="694ec-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="694ec-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8d569-105">包含邮件存储区的接收文件夹设置的表。</span><span class="sxs-lookup"><span data-stu-id="8d569-105">Contains a table of a message store's receive folder settings.</span></span>
+<span data-ttu-id="694ec-105">包含邮件存储的接收文件夹设置的表。</span><span class="sxs-lookup"><span data-stu-id="694ec-105">Contains a table of a message store's receive folder settings.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8d569-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="8d569-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8d569-107">PR_RECEIVE_FOLDER_SETTINGS</span><span class="sxs-lookup"><span data-stu-id="8d569-107">PR_RECEIVE_FOLDER_SETTINGS</span></span>  <br/> |
-|<span data-ttu-id="8d569-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="8d569-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8d569-109">0x3415</span><span class="sxs-lookup"><span data-stu-id="8d569-109">0x3415</span></span>  <br/> |
-|<span data-ttu-id="8d569-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="8d569-110">Data type:</span></span>  <br/> |<span data-ttu-id="8d569-111">PT_OBJECT</span><span class="sxs-lookup"><span data-stu-id="8d569-111">PT_OBJECT</span></span>  <br/> |
-|<span data-ttu-id="8d569-112">区域：</span><span class="sxs-lookup"><span data-stu-id="8d569-112">Area:</span></span>  <br/> |<span data-ttu-id="8d569-113">MAPI 邮件存储</span><span class="sxs-lookup"><span data-stu-id="8d569-113">MAPI message store</span></span>  <br/> |
+|<span data-ttu-id="694ec-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="694ec-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="694ec-107">PR_RECEIVE_FOLDER_SETTINGS</span><span class="sxs-lookup"><span data-stu-id="694ec-107">PR_RECEIVE_FOLDER_SETTINGS</span></span>  <br/> |
+|<span data-ttu-id="694ec-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="694ec-108">Identifier:</span></span>  <br/> |<span data-ttu-id="694ec-109">0x3415</span><span class="sxs-lookup"><span data-stu-id="694ec-109">0x3415</span></span>  <br/> |
+|<span data-ttu-id="694ec-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="694ec-110">Data type:</span></span>  <br/> |<span data-ttu-id="694ec-111">PT_OBJECT</span><span class="sxs-lookup"><span data-stu-id="694ec-111">PT_OBJECT</span></span>  <br/> |
+|<span data-ttu-id="694ec-112">区域：</span><span class="sxs-lookup"><span data-stu-id="694ec-112">Area:</span></span>  <br/> |<span data-ttu-id="694ec-113">MAPI 邮件存储</span><span class="sxs-lookup"><span data-stu-id="694ec-113">MAPI message store</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="8d569-114">说明</span><span class="sxs-lookup"><span data-stu-id="8d569-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="694ec-114">备注</span><span class="sxs-lookup"><span data-stu-id="694ec-114">Remarks</span></span>
 
-<span data-ttu-id="8d569-115">此属性可以排除在[IMAPIProp:: CopyTo](imapiprop-copyto.md)操作中, 也可以包含在[IMAPIProp:: CopyProps](imapiprop-copyprops.md)操作中。</span><span class="sxs-lookup"><span data-stu-id="8d569-115">This property can be excluded in [IMAPIProp::CopyTo](imapiprop-copyto.md) operations or included in [IMAPIProp::CopyProps](imapiprop-copyprops.md) operations.</span></span> <span data-ttu-id="8d569-116">作为 PT_OBJECT 类型的属性, [IMAPIProp:: GetProps](imapiprop-getprops.md)方法无法成功检索它;其内容应由[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法访问, 请求提供带有标识符 IID_IMAPITable 的接口。</span><span class="sxs-lookup"><span data-stu-id="8d569-116">As a property of type PT_OBJECT, it cannot be successfully retrieved by the [IMAPIProp::GetProps](imapiprop-getprops.md) method; its contents should be accessed by the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method, requesting the interface with identifier IID_IMAPITable.</span></span> <span data-ttu-id="8d569-117">如果设置了服务提供程序, 则必须将其报告给[IMAPIProp:: GetPropList](imapiprop-getproplist.md)方法, 但如果未设置, 则可以选择报告它。</span><span class="sxs-lookup"><span data-stu-id="8d569-117">Service providers must report it to the [IMAPIProp::GetPropList](imapiprop-getproplist.md) method if it is set, but can optionally report it or not if it is not set.</span></span> 
+<span data-ttu-id="694ec-115">此属性可以在 [IMAPIProp：：CopyTo](imapiprop-copyto.md) 操作中排除，也可以包含在 [IMAPIProp：：CopyProps 操作](imapiprop-copyprops.md) 中。</span><span class="sxs-lookup"><span data-stu-id="694ec-115">This property can be excluded in [IMAPIProp::CopyTo](imapiprop-copyto.md) operations or included in [IMAPIProp::CopyProps](imapiprop-copyprops.md) operations.</span></span> <span data-ttu-id="694ec-116">作为类型为 [PT_OBJECT，IMAPIProp：：GetProps](imapiprop-getprops.md) 方法无法成功检索它;它的内容应该由 [IMAPIProp：：OpenProperty](imapiprop-openproperty.md) 方法访问，并请求具有标识符的IID_IMAPITable。</span><span class="sxs-lookup"><span data-stu-id="694ec-116">As a property of type PT_OBJECT, it cannot be successfully retrieved by the [IMAPIProp::GetProps](imapiprop-getprops.md) method; its contents should be accessed by the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method, requesting the interface with identifier IID_IMAPITable.</span></span> <span data-ttu-id="694ec-117">如果已设置，服务提供商必须报告给 [IMAPIProp：：GetPropList](imapiprop-getproplist.md) 方法，但可以选择是否报告（如果未设置）。</span><span class="sxs-lookup"><span data-stu-id="694ec-117">Service providers must report it to the [IMAPIProp::GetPropList](imapiprop-getproplist.md) method if it is set, but can optionally report it or not if it is not set.</span></span> 
   
-<span data-ttu-id="8d569-118">若要检索表内容, 客户端应用程序应调用[IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md)方法。</span><span class="sxs-lookup"><span data-stu-id="8d569-118">To retrieve table contents, a client application should call the [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) method.</span></span> <span data-ttu-id="8d569-119">有关详细信息, 请参阅[接收文件夹表](receive-folder-tables.md)。</span><span class="sxs-lookup"><span data-stu-id="8d569-119">For more information, see [Receive Folder Tables](receive-folder-tables.md).</span></span>
+<span data-ttu-id="694ec-118">若要检索表内容，客户端应用程序应调用 [IMsgStore：：GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="694ec-118">To retrieve table contents, a client application should call the [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) method.</span></span> <span data-ttu-id="694ec-119">有关详细信息，请参阅 [接收文件夹表](receive-folder-tables.md)。</span><span class="sxs-lookup"><span data-stu-id="694ec-119">For more information, see [Receive Folder Tables](receive-folder-tables.md).</span></span>
   
-<span data-ttu-id="8d569-120">此属性包含邮件存储区的接收文件夹的映射表。</span><span class="sxs-lookup"><span data-stu-id="8d569-120">This property contains a table of mappings of the receive folders for the message store.</span></span> <span data-ttu-id="8d569-121">对此属性调用**OpenProperty**等效于调用邮件存储区上的**GetReceiveFolderTable** 。</span><span class="sxs-lookup"><span data-stu-id="8d569-121">Calling **OpenProperty** on this property is equivalent to calling **GetReceiveFolderTable** on the message store.</span></span> 
+<span data-ttu-id="694ec-120">此属性包含邮件存储的接收文件夹的映射表。</span><span class="sxs-lookup"><span data-stu-id="694ec-120">This property contains a table of mappings of the receive folders for the message store.</span></span> <span data-ttu-id="694ec-121">对 **此属性调用 OpenProperty** 等效于在邮件存储上调用 **GetReceiveFolderTable。**</span><span class="sxs-lookup"><span data-stu-id="694ec-121">Calling **OpenProperty** on this property is equivalent to calling **GetReceiveFolderTable** on the message store.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="8d569-122">相关资源</span><span class="sxs-lookup"><span data-stu-id="8d569-122">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="694ec-122">相关资源</span><span class="sxs-lookup"><span data-stu-id="694ec-122">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="8d569-123">头文件</span><span class="sxs-lookup"><span data-stu-id="8d569-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="694ec-123">头文件</span><span class="sxs-lookup"><span data-stu-id="694ec-123">Header files</span></span>
 
-<span data-ttu-id="8d569-124">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="8d569-124">Mapidefs.h</span></span>
+<span data-ttu-id="694ec-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="694ec-124">Mapidefs.h</span></span>
   
-> <span data-ttu-id="8d569-125">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="8d569-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="694ec-125">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="694ec-125">Provides data type definitions.</span></span>
     
-<span data-ttu-id="8d569-126">Mapitags</span><span class="sxs-lookup"><span data-stu-id="8d569-126">Mapitags.h</span></span>
+<span data-ttu-id="694ec-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="694ec-126">Mapitags.h</span></span>
   
-> <span data-ttu-id="8d569-127">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="8d569-127">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="694ec-127">包含作为备用名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="694ec-127">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8d569-128">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8d569-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="694ec-128">另请参阅</span><span class="sxs-lookup"><span data-stu-id="694ec-128">See also</span></span>
 
 
 
-[<span data-ttu-id="8d569-129">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="8d569-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="694ec-129">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="694ec-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="8d569-130">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="8d569-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="694ec-130">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="694ec-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="8d569-131">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="8d569-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="694ec-131">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="694ec-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="8d569-132">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="8d569-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="694ec-132">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="694ec-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

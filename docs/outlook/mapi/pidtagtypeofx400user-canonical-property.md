@@ -19,42 +19,42 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410859"
 ---
-# <a name="pidtagtypeofx400user-canonical-property"></a><span data-ttu-id="09a91-103">PidTagTypeOfX400User 规范属性</span><span class="sxs-lookup"><span data-stu-id="09a91-103">PidTagTypeOfX400User Canonical Property</span></span>
+# <a name="pidtagtypeofx400user-canonical-property"></a><span data-ttu-id="dc7ff-103">PidTagTypeOfX400User 规范属性</span><span class="sxs-lookup"><span data-stu-id="dc7ff-103">PidTagTypeOfX400User Canonical Property</span></span>
 
   
   
-<span data-ttu-id="09a91-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="09a91-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="dc7ff-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dc7ff-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="09a91-105">此属性包含要在报告中使用的邮件收件人的类型。</span><span class="sxs-lookup"><span data-stu-id="09a91-105">This property contains the type of a message recipient for use in a report.</span></span>
+<span data-ttu-id="dc7ff-105">此属性包含用于报告的邮件收件人的类型。</span><span class="sxs-lookup"><span data-stu-id="dc7ff-105">This property contains the type of a message recipient for use in a report.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="09a91-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="09a91-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="09a91-107">PR_TYPE_OF_MTS_USER</span><span class="sxs-lookup"><span data-stu-id="09a91-107">PR_TYPE_OF_MTS_USER</span></span>  <br/> |
-|<span data-ttu-id="09a91-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="09a91-108">Identifier:</span></span>  <br/> |<span data-ttu-id="09a91-109">0x0C1C</span><span class="sxs-lookup"><span data-stu-id="09a91-109">0x0C1C</span></span>  <br/> |
-|<span data-ttu-id="09a91-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="09a91-110">Data type:</span></span>  <br/> |<span data-ttu-id="09a91-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="09a91-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="09a91-112">区域：</span><span class="sxs-lookup"><span data-stu-id="09a91-112">Area:</span></span>  <br/> |<span data-ttu-id="09a91-113">MAPI 收件人</span><span class="sxs-lookup"><span data-stu-id="09a91-113">MAPI Recipient</span></span>  <br/> |
+|<span data-ttu-id="dc7ff-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="dc7ff-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="dc7ff-107">PR_TYPE_OF_MTS_USER</span><span class="sxs-lookup"><span data-stu-id="dc7ff-107">PR_TYPE_OF_MTS_USER</span></span>  <br/> |
+|<span data-ttu-id="dc7ff-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="dc7ff-108">Identifier:</span></span>  <br/> |<span data-ttu-id="dc7ff-109">0x0C1C</span><span class="sxs-lookup"><span data-stu-id="dc7ff-109">0x0C1C</span></span>  <br/> |
+|<span data-ttu-id="dc7ff-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="dc7ff-110">Data type:</span></span>  <br/> |<span data-ttu-id="dc7ff-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="dc7ff-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="dc7ff-112">区域：</span><span class="sxs-lookup"><span data-stu-id="dc7ff-112">Area:</span></span>  <br/> |<span data-ttu-id="dc7ff-113">MAPI 收件人</span><span class="sxs-lookup"><span data-stu-id="dc7ff-113">MAPI Recipient</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="09a91-114">相关资源</span><span class="sxs-lookup"><span data-stu-id="09a91-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="dc7ff-114">相关资源</span><span class="sxs-lookup"><span data-stu-id="dc7ff-114">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="09a91-115">头文件</span><span class="sxs-lookup"><span data-stu-id="09a91-115">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="dc7ff-115">头文件</span><span class="sxs-lookup"><span data-stu-id="dc7ff-115">Header files</span></span>
 
-<span data-ttu-id="09a91-116">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="09a91-116">Mapidefs.h</span></span>
+<span data-ttu-id="dc7ff-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="dc7ff-116">Mapidefs.h</span></span>
   
-> <span data-ttu-id="09a91-117">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="09a91-117">Provides data type definitions.</span></span>
+> <span data-ttu-id="dc7ff-117">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="dc7ff-117">Provides data type definitions.</span></span>
     
-<span data-ttu-id="09a91-118">Mapitags</span><span class="sxs-lookup"><span data-stu-id="09a91-118">Mapitags.h</span></span>
+<span data-ttu-id="dc7ff-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="dc7ff-118">Mapitags.h</span></span>
   
-> <span data-ttu-id="09a91-119">包含列为关联属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="09a91-119">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="dc7ff-119">包含作为关联属性列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="dc7ff-119">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="09a91-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="09a91-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dc7ff-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="dc7ff-120">See also</span></span>
 
 
 
-[<span data-ttu-id="09a91-121">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="09a91-121">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="dc7ff-121">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="dc7ff-121">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="09a91-122">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="09a91-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="dc7ff-122">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="dc7ff-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="09a91-123">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="09a91-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="dc7ff-123">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="dc7ff-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="09a91-124">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="09a91-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="dc7ff-124">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="dc7ff-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
