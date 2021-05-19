@@ -23,7 +23,7 @@ ms.locfileid: "34542588"
 > [!NOTE] 
 > 下面的代码示例摘录自 [Microsoft Office Outlook 2007 应用程序编程](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493)。
 
-Microsoft Outlook 提供了一个任务标记系统，在该系统中可以标记邮件项目或联系人项目等某些 Outlook 项目以进行跟踪。当标记某个 Outlook 项目以进行跟踪时，有关该 Outlook 项目的信息以及其他基于任务的信息将显示在 Outlook 用户界面中的“待办事项栏”**** 和“日历”导航模块上。“待办事项栏”**** 在 Outlook 资源管理器窗口的典型配置中显示为垂直窗格。它包含数据导航器控件、即将发生的约会和已加以标记进行跟踪的项目。“待办事项栏”**** 本身是不可扩展的，并且您只能通过 Outlook 用户界面为“待办事项栏”**** 设置配置选项。通过标记项目，您可以组织任务和待办事项并设置其优先级。
+Microsoft Outlook 提供了一个任务标记系统，在该系统中可以标记邮件项目或联系人项目等某些 Outlook 项目以进行跟踪。当标记某个 Outlook 项目以进行跟踪时，有关该 Outlook 项目的信息以及其他基于任务的信息将显示在 Outlook 用户界面中的“待办事项栏”和“日历”导航模块上。“待办事项栏”在 Outlook 资源管理器窗口的典型配置中显示为垂直窗格。它包含数据导航器控件、即将发生的约会和已加以标记进行跟踪的项目。“待办事项栏”本身是不可扩展的，并且您只能通过 Outlook 用户界面为“待办事项栏”设置配置选项。通过标记项目，您可以组织任务和待办事项并设置其优先级。
 
 下面的代码示例标记一组项，以供在指定的时间间隔内跟进。 此代码示例使用 DAV 搜索和定位 (DASL) 查询，以筛选出使用经理姓名作为发件人的“IPM.NOTE”类型邮件，从而获取当前用户收件箱中来自当前用户的经理的所有项。 然后，此代码示例根据 [Importance](https://msdn.microsoft.com/library/bb611974\(v=office.15\)) 属性的 [OlImportance](https://msdn.microsoft.com/library/bb609592\(v=office.15\)) 值标记所有项。 此代码示例使用 [MarkAsTask(OlMarkInterval)](https://msdn.microsoft.com/library/bb609068\(v=office.15\)) 方法，将所有重要性高的项都标记为今天跟进，将所有重要性一般的项都标记为本周跟进。
 

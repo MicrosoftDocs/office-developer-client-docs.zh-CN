@@ -1,5 +1,5 @@
 ---
-title: Shapes 元素 (PageContents_Type 复杂类型) (Visio XML)
+title: 'Shapes 元素 (PageContents_Type COMPLEXType)  (Visio XML) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542119"
 ---
-# <a name="shapes-element-pagecontentstype-complextype-visio-xml"></a>Shapes 元素 (PageContents_Type 复杂类型) (Visio XML)
+# <a name="shapes-element-pagecontents_type-complextype-visio-xml"></a>Shapes 元素 (PageContents_Type COMPLEXType)  (Visio XML) 
 
 包含 Shape 元素的集合。
   
@@ -24,8 +24,8 @@ ms.locfileid: "34542119"
 |:-----|:-----|
 |**元素类型** <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15  <br/> |
-|**文档部件** <br/> |页面 # .xml、master # .xml  <br/> |
+|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
+|**文档部件** <br/> |page#.xml，master#.xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,7 +36,7 @@ ms.locfileid: "34542119"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
+如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。 
   
 ### <a name="parent-elements"></a>父元素
 
@@ -49,7 +49,7 @@ ms.locfileid: "34542119"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |包含用于定义**主控**形状、**页面**或组形状元素中的形状的元素。  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |包含定义 **Master、Page** 或 **组合** 形状元素中形状的元素。  <br/> |
    
 ### <a name="attributes"></a>Attributes
 

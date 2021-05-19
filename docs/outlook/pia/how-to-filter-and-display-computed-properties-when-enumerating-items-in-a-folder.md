@@ -1,5 +1,5 @@
 ---
-title: 在枚举文件夹中的项时筛选并显示计算属性
+title: 在枚举文件夹中的项目时筛选并显示计算属性
 TOCTitle: Filter and display computed properties when enumerating items in a folder
 ms:assetid: b068e625-ff12-444d-a30d-51a3acba3043
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184632(v=office.15)

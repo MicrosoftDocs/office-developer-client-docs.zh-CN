@@ -1,5 +1,5 @@
 ---
-title: ShowGrid 元素 (Window_Type 复杂类型) (Visio XML)
+title: '使用 XML (Window_Type complexType)  (Visio ShowGrid) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542994"
 ---
-# <a name="showgrid-element-windowtype-complextype-visio-xml"></a>ShowGrid 元素 (Window_Type 复杂类型) (Visio XML)
+# <a name="showgrid-element-window_type-complextype-visio-xml"></a>使用 XML (Window_Type complexType)  (Visio ShowGrid) 
 
 指定是否在绘图窗口中显示网格。
   
@@ -24,8 +24,8 @@ ms.locfileid: "34542994"
 |:-----|:-----|
 |**元素类型** <br/> |[ShowGrid_Type](showgrid_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15  <br/> |
-|**文档部件** <br/> |windows .xml  <br/> |
+|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
+|**文档部件** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,7 +36,7 @@ ms.locfileid: "34542994"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
+如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。 
   
 ### <a name="parent-elements"></a>父元素
 

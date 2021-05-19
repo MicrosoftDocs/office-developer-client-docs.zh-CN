@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1af0bf93-6bcb-4235-ac30-0d00245ec636
-description: IMAPIInitMonitor：：IsInitialized
+description: IMAPIInitMonitor::IsInitialized
 Last modified: April 26, 2021
 ms.openlocfilehash: 6870c8fa0de51b626662c58b2c8c300c3a4d806e
 ms.sourcegitcommit: 289cececd9fa38a3f4b8a0d7fd1f86adb6be9689
@@ -20,7 +20,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52062023"
 ---
-# <a name="imapiinitmonitorisinitialized"></a>IMAPIInitMonitor：：IsInitialized
+# <a name="imapiinitmonitorisinitialized"></a>IMAPIInitMonitor::IsInitialized
   
 **适用于：** Outlook 2013 |Outlook 2016 |2019
   
@@ -41,6 +41,6 @@ BOOL IMAPIInitMonitor::IsInitialized()
 
 ## <a name="see-also"></a>另请参阅
 
-[IMAPIInitMonitor：：Wait](imapiinitmonitor-wait.md)
+[IMAPIInitMonitor::Wait](imapiinitmonitor-wait.md)
 
 [CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)

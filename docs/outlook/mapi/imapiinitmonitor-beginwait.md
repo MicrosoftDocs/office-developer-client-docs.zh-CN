@@ -20,7 +20,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52062016"
 ---
-# <a name="imapiinitmonitorbeginwait"></a>IMAPIInitMonitor：：BeginWait
+# <a name="imapiinitmonitorbeginwait"></a>IMAPIInitMonitor::BeginWait
   
 **适用于：** Outlook 2016 |2019
   
@@ -51,9 +51,9 @@ E_OUTOFMEMORY
 
 [IMAPIInitMonitor](imapiinitmonitoriunknown.md)
 
-[IMAPIInitMonitor：：IsInitialized](imapiinitmonitor-isinitialized.md)
+[IMAPIInitMonitor::IsInitialized](imapiinitmonitor-isinitialized.md)
 
-[IMAPIInitMonitor：：Wait](imapiinitmonitor-wait.md)
+[IMAPIInitMonitor::Wait](imapiinitmonitor-wait.md)
 
 [CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)
 

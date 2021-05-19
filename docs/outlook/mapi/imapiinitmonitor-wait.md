@@ -20,7 +20,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52062009"
 ---
-# <a name="imapiinitmonitorwait"></a>IMAPIInitMonitor：：Wait
+# <a name="imapiinitmonitorwait"></a>IMAPIInitMonitor::Wait
   
 **适用于：** Outlook 2013 |Outlook 2016 |2019
   
@@ -48,9 +48,9 @@ HRESULT_FROM_WIN32 (ERROR_TIMEOUT)
 
 [IMAPIInitMonitor](imapiinitmonitoriunknown.md)
 
-[IMAPIInitMonitor：：IsInitialized](imapiinitmonitor-isinitialized.md)
+[IMAPIInitMonitor::IsInitialized](imapiinitmonitor-isinitialized.md)
 
-[IMAPIInitMonitor：：BeginWait](imapiinitmonitor-beginwait.md)
+[IMAPIInitMonitor::BeginWait](imapiinitmonitor-beginwait.md)
 
 [CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)
 

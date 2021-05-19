@@ -1,5 +1,5 @@
 ---
-title: ShapeSheet_Type 复杂类型 (Visio XML)
+title: 'ShapeSheet_Type COMPLEXType (Visio XML) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,14 +13,14 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542056"
 ---
-# <a name="shapesheettype-complextype-visio-xml"></a>ShapeSheet_Type 复杂类型 (Visio XML)
+# <a name="shapesheet_type-complextype-visio-xml"></a>ShapeSheet_Type COMPLEXType (Visio XML) 
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
 |**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
+|**架构文件** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**扩展基** <br/> |Sheet_Type  <br/> |
    
 ## <a name="definition"></a>定义
@@ -110,7 +110,7 @@ ms.locfileid: "34542056"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
+如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。 
   
 ### <a name="child-elements"></a>子元素
 
@@ -120,23 +120,23 @@ ms.locfileid: "34542056"
 |[Data2](data2-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> ||
 |[Data3](data3-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> ||
 |[ForeignData](foreigndata-element-shapesheet_type-complextypevisio-xml.md) <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> ||
-|[Shapes](shapes-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> ||
+|[性状](shapes-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> ||
 |[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>属性
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|键  <br/> |xsd: boolean  <br/> |可选  <br/> ||Xsd: boolean 类型的值。  <br/> |
-|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|IsCustomName  <br/> |xsd: boolean  <br/> |可选  <br/> ||Xsd: boolean 类型的值。  <br/> |
-|IsCustomNameU  <br/> |xsd: boolean  <br/> |可选  <br/> ||Xsd: boolean 类型的值。  <br/> |
-|Master  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|MasterShape  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|名称  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
-|NameU  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
-|OriginalID  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|类型  <br/> |xsd: token  <br/> |可选  <br/> ||Xsd: 令牌类型的值。  <br/> |
-|UniqueID  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
+|Del  <br/> |xsd：boolean  <br/> |可选  <br/> ||xsd：boolean 类型的值。  <br/> |
+|ID  <br/> |xsd：unsignedInt  <br/> |必需  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|IsCustomName  <br/> |xsd：boolean  <br/> |可选  <br/> ||xsd：boolean 类型的值。  <br/> |
+|IsCustomNameU  <br/> |xsd：boolean  <br/> |可选  <br/> ||xsd：boolean 类型的值。  <br/> |
+|Master  <br/> |xsd：unsignedInt  <br/> |可选  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|MasterShape  <br/> |xsd：unsignedInt  <br/> |可选  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|名称  <br/> |xsd：string  <br/> |可选  <br/> ||xsd：string 类型的值。  <br/> |
+|NameU  <br/> |xsd：string  <br/> |可选  <br/> ||xsd：string 类型的值。  <br/> |
+|OriginalID  <br/> |xsd：unsignedInt  <br/> |可选  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|类型  <br/> |xsd：token  <br/> |可选  <br/> ||xsd：token 类型的值。  <br/> |
+|UniqueID  <br/> |xsd：string  <br/> |可选  <br/> ||xsd：string 类型的值。  <br/> |
    
 

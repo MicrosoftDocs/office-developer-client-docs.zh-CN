@@ -34,39 +34,39 @@ ms.locfileid: "49734201"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性可以正好具有以下值之一：
+此属性可以正好具有下列值之一：
     
-DTCT_LABEL (0x0000000000) 
+DTCT_LABEL (0x00000000) 
   
 > 对话框标签。
    
-DTCT_EDIT (0x000000001) 
+DTCT_EDIT (0x00000001) 
   
 > 对话框编辑文本框。
 
-DTCT_LBX (0x000000002) 
+DTCT_LBX (0x00000002) 
   
 > 对话框列表框。
     
-DTCT_COMBOBOX (0x000000003) 
+DTCT_COMBOBOX (0x00000003) 
   
 > 对话框组合框。
 
-DTCT_DDLBX (0x000000004) 
+DTCT_DDLBX (0x00000004) 
   
 > 对话框下拉列表框。
 
 DTCT_CHECKBOX (0x00000005) 
   
-> 对话框复选框。
+> 对话框。
 
-DTCT_GROUPBOX (0x000000006) 
+DTCT_GROUPBOX (0x00000006) 
   
 > 对话框组框。
   
-DTCT_BUTTON (0x000000007) 
+DTCT_BUTTON (0x00000007) 
   
 > 对话框按钮控件。
     
@@ -78,13 +78,13 @@ DTCT_RADIOBUTTON (0x00000009)
   
 > 对话框单选按钮。
     
-DTCT_MVLISTBOX (0x00000000B) 
+DTCT_MVLISTBOX (0x0000000B) 
   
-> 由字符串类型的多值属性填充的多值列表框。
+> 由 string 类型的多值属性填充的多值列表框。
     
 DTCT_MVDDLBX (0x0000000C) 
   
-> 由字符串类型的多值属性填充的多值下拉列表框。
+> 由 string 类型的多值属性填充的多值下拉列表框。
     
 ## <a name="related-resources"></a>相关资源
 
