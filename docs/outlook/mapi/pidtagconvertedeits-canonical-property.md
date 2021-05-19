@@ -1,5 +1,5 @@
 ---
-title: PidTagConvertedEits 规范属性
+title: PidTagConvertedVerteds 规范属性
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,46 +19,46 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423452"
 ---
-# <a name="pidtagconvertedeits-canonical-property"></a><span data-ttu-id="986ba-103">PidTagConvertedEits 规范属性</span><span class="sxs-lookup"><span data-stu-id="986ba-103">PidTagConvertedEits Canonical Property</span></span>
+# <a name="pidtagconvertedeits-canonical-property"></a><span data-ttu-id="4d660-103">PidTagConvertedVerteds 规范属性</span><span class="sxs-lookup"><span data-stu-id="4d660-103">PidTagConvertedEits Canonical Property</span></span>
 
   
   
-<span data-ttu-id="986ba-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="986ba-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4d660-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4d660-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="986ba-105">在转换后包含邮件中的文本类型的标识符。</span><span class="sxs-lookup"><span data-stu-id="986ba-105">Contains an identifier for the types of text in a message after conversion.</span></span>
+<span data-ttu-id="4d660-105">包含转换后邮件中文本类型的标识符。</span><span class="sxs-lookup"><span data-stu-id="4d660-105">Contains an identifier for the types of text in a message after conversion.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="986ba-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="986ba-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="986ba-107">PR_CONVERTED_EITS</span><span class="sxs-lookup"><span data-stu-id="986ba-107">PR_CONVERTED_EITS</span></span>  <br/> |
-|<span data-ttu-id="986ba-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="986ba-108">Identifier:</span></span>  <br/> |<span data-ttu-id="986ba-109">0x000E</span><span class="sxs-lookup"><span data-stu-id="986ba-109">0x000E</span></span>  <br/> |
-|<span data-ttu-id="986ba-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="986ba-110">Data type:</span></span>  <br/> |<span data-ttu-id="986ba-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="986ba-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="986ba-112">区域：</span><span class="sxs-lookup"><span data-stu-id="986ba-112">Area:</span></span>  <br/> |<span data-ttu-id="986ba-113">Exchange</span><span class="sxs-lookup"><span data-stu-id="986ba-113">Exchange</span></span>  <br/> |
+|<span data-ttu-id="4d660-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="4d660-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4d660-107">PR_CONVERTED_EITS</span><span class="sxs-lookup"><span data-stu-id="4d660-107">PR_CONVERTED_EITS</span></span>  <br/> |
+|<span data-ttu-id="4d660-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="4d660-108">Identifier:</span></span>  <br/> |<span data-ttu-id="4d660-109">0x000E</span><span class="sxs-lookup"><span data-stu-id="4d660-109">0x000E</span></span>  <br/> |
+|<span data-ttu-id="4d660-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="4d660-110">Data type:</span></span>  <br/> |<span data-ttu-id="4d660-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="4d660-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="4d660-112">区域：</span><span class="sxs-lookup"><span data-stu-id="4d660-112">Area:</span></span>  <br/> |<span data-ttu-id="4d660-113">Exchange</span><span class="sxs-lookup"><span data-stu-id="4d660-113">Exchange</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="986ba-114">说明</span><span class="sxs-lookup"><span data-stu-id="986ba-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4d660-114">备注</span><span class="sxs-lookup"><span data-stu-id="4d660-114">Remarks</span></span>
 
-<span data-ttu-id="986ba-115">此属性指示用于转换邮件的文本组件的编码信息类型 (EITs)。</span><span class="sxs-lookup"><span data-stu-id="986ba-115">This property indicates which encoded information types (EITs) were used to convert the text components of the message.</span></span>
+<span data-ttu-id="4d660-115">此属性指示哪些编码的信息类型 (EIT) 用于转换邮件的文本组件。</span><span class="sxs-lookup"><span data-stu-id="4d660-115">This property indicates which encoded information types (EITs) were used to convert the text components of the message.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="986ba-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="986ba-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="4d660-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="4d660-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="986ba-117">头文件</span><span class="sxs-lookup"><span data-stu-id="986ba-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="4d660-117">头文件</span><span class="sxs-lookup"><span data-stu-id="4d660-117">Header files</span></span>
 
-<span data-ttu-id="986ba-118">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="986ba-118">Mapidefs.h</span></span>
+<span data-ttu-id="4d660-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="4d660-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="986ba-119">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="986ba-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="4d660-119">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="4d660-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="986ba-120">Mapitags</span><span class="sxs-lookup"><span data-stu-id="986ba-120">Mapitags.h</span></span>
+<span data-ttu-id="4d660-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="4d660-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="986ba-121">包含列为关联属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="986ba-121">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="4d660-121">包含作为关联属性列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="4d660-121">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="986ba-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="986ba-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4d660-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4d660-122">See also</span></span>
 
 
 
-[<span data-ttu-id="986ba-123">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="986ba-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="4d660-123">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="4d660-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="986ba-124">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="986ba-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="4d660-124">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="4d660-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="986ba-125">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="986ba-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="4d660-125">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="4d660-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="986ba-126">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="986ba-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="4d660-126">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="4d660-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

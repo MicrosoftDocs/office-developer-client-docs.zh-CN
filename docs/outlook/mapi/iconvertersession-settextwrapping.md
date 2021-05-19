@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423585"
 ---
-# <a name="iconvertersessionsettextwrapping"></a><span data-ttu-id="d57c6-103">IConverterSession::SetTextWrapping</span><span class="sxs-lookup"><span data-stu-id="d57c6-103">IConverterSession::SetTextWrapping</span></span>
+# <a name="iconvertersessionsettextwrapping"></a><span data-ttu-id="2ffcd-103">IConverterSession::SetTextWrapping</span><span class="sxs-lookup"><span data-stu-id="2ffcd-103">IConverterSession::SetTextWrapping</span></span>
 
   
   
-<span data-ttu-id="d57c6-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d57c6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2ffcd-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2ffcd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d57c6-105">设置转换器将在[IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md)中返回的 MIME 流的文本换行宽度。</span><span class="sxs-lookup"><span data-stu-id="d57c6-105">Sets the text wrapping width for a MIME stream that the converter will return in [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).</span></span>
+<span data-ttu-id="2ffcd-105">设置转换器将在 [IConverterSession：：MAPIToMIMEStm](iconvertersession-mapitomimestm.md)中返回的 MIME 流的文本换行宽度。</span><span class="sxs-lookup"><span data-stu-id="2ffcd-105">Sets the text wrapping width for a MIME stream that the converter will return in [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).</span></span>
   
 ```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
@@ -34,49 +34,49 @@ HRESULT IConverterSession::SetTextWrapping (
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d57c6-106">参数</span><span class="sxs-lookup"><span data-stu-id="d57c6-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2ffcd-106">参数</span><span class="sxs-lookup"><span data-stu-id="2ffcd-106">Parameters</span></span>
 
- <span data-ttu-id="d57c6-107">*fWrapText*</span><span class="sxs-lookup"><span data-stu-id="d57c6-107">*fWrapText*</span></span> 
+ <span data-ttu-id="2ffcd-107">*fWrapText*</span><span class="sxs-lookup"><span data-stu-id="2ffcd-107">*fWrapText*</span></span> 
   
-> <span data-ttu-id="d57c6-108">实时是否环绕文本。</span><span class="sxs-lookup"><span data-stu-id="d57c6-108">[in] Whether to wrap text or not.</span></span>
+> <span data-ttu-id="2ffcd-108">[in]是否自动换行。</span><span class="sxs-lookup"><span data-stu-id="2ffcd-108">[in] Whether to wrap text or not.</span></span>
     
- <span data-ttu-id="d57c6-109">*ulWrapWidth*</span><span class="sxs-lookup"><span data-stu-id="d57c6-109">*ulWrapWidth*</span></span> 
+ <span data-ttu-id="2ffcd-109">*ulWrapWidth*</span><span class="sxs-lookup"><span data-stu-id="2ffcd-109">*ulWrapWidth*</span></span> 
   
-> <span data-ttu-id="d57c6-110">实时要使用的文字环绕宽度。</span><span class="sxs-lookup"><span data-stu-id="d57c6-110">[in] The text wrapping width to use.</span></span>
+> <span data-ttu-id="2ffcd-110">[in]使用的文本换行宽度。</span><span class="sxs-lookup"><span data-stu-id="2ffcd-110">[in] The text wrapping width to use.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="d57c6-111">返回值</span><span class="sxs-lookup"><span data-stu-id="d57c6-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2ffcd-111">返回值</span><span class="sxs-lookup"><span data-stu-id="2ffcd-111">Return value</span></span>
 
-<span data-ttu-id="d57c6-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="d57c6-112">S_OK</span></span>
+<span data-ttu-id="2ffcd-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="2ffcd-112">S_OK</span></span>
   
-> <span data-ttu-id="d57c6-113">调用成功。</span><span class="sxs-lookup"><span data-stu-id="d57c6-113">The call was successful.</span></span>
+> <span data-ttu-id="2ffcd-113">呼叫成功。</span><span class="sxs-lookup"><span data-stu-id="2ffcd-113">The call was successful.</span></span>
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="d57c6-114">MFCMAPI 引用</span><span class="sxs-lookup"><span data-stu-id="d57c6-114">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="2ffcd-114">MFCMAPI 引用</span><span class="sxs-lookup"><span data-stu-id="2ffcd-114">MFCMAPI reference</span></span>
 
-<span data-ttu-id="d57c6-115">有关 MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="d57c6-115">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="2ffcd-115">有关 MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="2ffcd-115">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="d57c6-116">**文件**</span><span class="sxs-lookup"><span data-stu-id="d57c6-116">**File**</span></span>|<span data-ttu-id="d57c6-117">**函数**</span><span class="sxs-lookup"><span data-stu-id="d57c6-117">**Function**</span></span>|<span data-ttu-id="d57c6-118">**备注**</span><span class="sxs-lookup"><span data-stu-id="d57c6-118">**Comment**</span></span>|
+|<span data-ttu-id="2ffcd-116">**文件**</span><span class="sxs-lookup"><span data-stu-id="2ffcd-116">**File**</span></span>|<span data-ttu-id="2ffcd-117">**函数**</span><span class="sxs-lookup"><span data-stu-id="2ffcd-117">**Function**</span></span>|<span data-ttu-id="2ffcd-118">**备注**</span><span class="sxs-lookup"><span data-stu-id="2ffcd-118">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="d57c6-119">MapiMime</span><span class="sxs-lookup"><span data-stu-id="d57c6-119">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="d57c6-120">ImportEMLToIMessage</span><span class="sxs-lookup"><span data-stu-id="d57c6-120">ImportEMLToIMessage</span></span>  <br/> |<span data-ttu-id="d57c6-121">MFCMAPI 使用 MimeToMAPI 将 .eml 文件转换为 MAPI 邮件。</span><span class="sxs-lookup"><span data-stu-id="d57c6-121">MFCMAPI uses MimeToMAPI to convert an EML file to a MAPI message.</span></span>  <br/> |
-|<span data-ttu-id="d57c6-122">MapiMime</span><span class="sxs-lookup"><span data-stu-id="d57c6-122">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="d57c6-123">ExportIMessageToEML</span><span class="sxs-lookup"><span data-stu-id="d57c6-123">ExportIMessageToEML</span></span>  <br/> |<span data-ttu-id="d57c6-124">MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 .eml 文件。</span><span class="sxs-lookup"><span data-stu-id="d57c6-124">MFCMAPI uses MAPIToMIMEStm to convert a MAPI message to an EML file.</span></span>  <br/> |
+|<span data-ttu-id="2ffcd-119">MapiMime.cpp</span><span class="sxs-lookup"><span data-stu-id="2ffcd-119">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="2ffcd-120">ImportEMLToIMessage</span><span class="sxs-lookup"><span data-stu-id="2ffcd-120">ImportEMLToIMessage</span></span>  <br/> |<span data-ttu-id="2ffcd-121">MFCMAPI 使用 MimeToMAPI 将 EML 文件转换为 MAPI 邮件。</span><span class="sxs-lookup"><span data-stu-id="2ffcd-121">MFCMAPI uses MimeToMAPI to convert an EML file to a MAPI message.</span></span>  <br/> |
+|<span data-ttu-id="2ffcd-122">MapiMime.cpp</span><span class="sxs-lookup"><span data-stu-id="2ffcd-122">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="2ffcd-123">ExportIMessageToEML</span><span class="sxs-lookup"><span data-stu-id="2ffcd-123">ExportIMessageToEML</span></span>  <br/> |<span data-ttu-id="2ffcd-124">MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 EML 文件。</span><span class="sxs-lookup"><span data-stu-id="2ffcd-124">MFCMAPI uses MAPIToMIMEStm to convert a MAPI message to an EML file.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="d57c6-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d57c6-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2ffcd-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2ffcd-125">See also</span></span>
 
 
 
-[<span data-ttu-id="d57c6-126">IConverterSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="d57c6-126">IConverterSession : IUnknown</span></span>](iconvertersessioniunknown.md)
+[<span data-ttu-id="2ffcd-126">IConverterSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="2ffcd-126">IConverterSession : IUnknown</span></span>](iconvertersessioniunknown.md)
   
-[<span data-ttu-id="d57c6-127">IConverterSession::MAPIToMIMEStm</span><span class="sxs-lookup"><span data-stu-id="d57c6-127">IConverterSession::MAPIToMIMEStm</span></span>](iconvertersession-mapitomimestm.md)
+[<span data-ttu-id="2ffcd-127">IConverterSession::MAPIToMIMEStm</span><span class="sxs-lookup"><span data-stu-id="2ffcd-127">IConverterSession::MAPIToMIMEStm</span></span>](iconvertersession-mapitomimestm.md)
   
-[<span data-ttu-id="d57c6-128">IConverterSession::MIMEToMAPI</span><span class="sxs-lookup"><span data-stu-id="d57c6-128">IConverterSession::MIMEToMAPI</span></span>](iconvertersession-mimetomapi.md)
+[<span data-ttu-id="2ffcd-128">IConverterSession::MIMEToMAPI</span><span class="sxs-lookup"><span data-stu-id="2ffcd-128">IConverterSession::MIMEToMAPI</span></span>](iconvertersession-mimetomapi.md)
   
-[<span data-ttu-id="d57c6-129">IConverterSession::SetAdrBook</span><span class="sxs-lookup"><span data-stu-id="d57c6-129">IConverterSession::SetAdrBook</span></span>](iconvertersession-setadrbook.md)
+[<span data-ttu-id="2ffcd-129">IConverterSession::SetAdrBook</span><span class="sxs-lookup"><span data-stu-id="2ffcd-129">IConverterSession::SetAdrBook</span></span>](iconvertersession-setadrbook.md)
   
-[<span data-ttu-id="d57c6-130">IConverterSession::SetCharSet</span><span class="sxs-lookup"><span data-stu-id="d57c6-130">IConverterSession::SetCharSet</span></span>](iconvertersession-setcharset.md)
+[<span data-ttu-id="2ffcd-130">IConverterSession::SetCharSet</span><span class="sxs-lookup"><span data-stu-id="2ffcd-130">IConverterSession::SetCharSet</span></span>](iconvertersession-setcharset.md)
   
-[<span data-ttu-id="d57c6-131">IConverterSession::SetEncoding</span><span class="sxs-lookup"><span data-stu-id="d57c6-131">IConverterSession::SetEncoding</span></span>](iconvertersession-setencoding.md)
+[<span data-ttu-id="2ffcd-131">IConverterSession::SetEncoding</span><span class="sxs-lookup"><span data-stu-id="2ffcd-131">IConverterSession::SetEncoding</span></span>](iconvertersession-setencoding.md)
   
-[<span data-ttu-id="d57c6-132">IConverterSession::SetSaveFormat</span><span class="sxs-lookup"><span data-stu-id="d57c6-132">IConverterSession::SetSaveFormat</span></span>](iconvertersession-setsaveformat.md)
+[<span data-ttu-id="2ffcd-132">IConverterSession::SetSaveFormat</span><span class="sxs-lookup"><span data-stu-id="2ffcd-132">IConverterSession::SetSaveFormat</span></span>](iconvertersession-setsaveformat.md)
 
 
-[<span data-ttu-id="d57c6-133">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="d57c6-133">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="2ffcd-133">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="2ffcd-133">MAPI Constants</span></span>](mapi-constants.md)
 

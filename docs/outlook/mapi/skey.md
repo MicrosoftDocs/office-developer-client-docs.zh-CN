@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426805"
 ---
-# <a name="skey"></a><span data-ttu-id="b5382-103">SKEY</span><span class="sxs-lookup"><span data-stu-id="b5382-103">SKEY</span></span>
+# <a name="skey"></a><span data-ttu-id="29c1e-103">SKEY</span><span class="sxs-lookup"><span data-stu-id="29c1e-103">SKEY</span></span>
 
   
   
-<span data-ttu-id="b5382-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b5382-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="29c1e-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="29c1e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b5382-105">Outlook 项目的源键。</span><span class="sxs-lookup"><span data-stu-id="b5382-105">Source key for an Outlook item.</span></span>
+<span data-ttu-id="29c1e-105">项目源Outlook项。</span><span class="sxs-lookup"><span data-stu-id="29c1e-105">Source key for an Outlook item.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="b5382-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="b5382-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="29c1e-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="29c1e-106">Quick info</span></span>
 
 ```cpp
 struct SKEY 
@@ -33,23 +33,23 @@ struct SKEY
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="b5382-107">成员</span><span class="sxs-lookup"><span data-stu-id="b5382-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="29c1e-107">成员</span><span class="sxs-lookup"><span data-stu-id="29c1e-107">Members</span></span>
 
- <span data-ttu-id="b5382-108">_guid_</span><span class="sxs-lookup"><span data-stu-id="b5382-108">_guid_</span></span>
+ <span data-ttu-id="29c1e-108">_guid_</span><span class="sxs-lookup"><span data-stu-id="29c1e-108">_guid_</span></span>
   
-> <span data-ttu-id="b5382-109">创建对象的服务器的 GUID。</span><span class="sxs-lookup"><span data-stu-id="b5382-109">GUID of the server creating the object.</span></span>
+> <span data-ttu-id="29c1e-109">创建对象的服务器的 GUID。</span><span class="sxs-lookup"><span data-stu-id="29c1e-109">GUID of the server creating the object.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b5382-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b5382-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="29c1e-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="29c1e-110">See also</span></span>
 
 
 
-[<span data-ttu-id="b5382-111">关于复制 API</span><span class="sxs-lookup"><span data-stu-id="b5382-111">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="29c1e-111">关于复制 API</span><span class="sxs-lookup"><span data-stu-id="29c1e-111">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="b5382-112">关于复制状态机</span><span class="sxs-lookup"><span data-stu-id="b5382-112">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="29c1e-112">关于复制状态机</span><span class="sxs-lookup"><span data-stu-id="29c1e-112">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="b5382-113">UPDELE</span><span class="sxs-lookup"><span data-stu-id="b5382-113">UPDELE</span></span>](updele.md)
+[<span data-ttu-id="29c1e-113">UPDELE</span><span class="sxs-lookup"><span data-stu-id="29c1e-113">UPDELE</span></span>](updele.md)
   
-[<span data-ttu-id="b5382-114">UPMSG</span><span class="sxs-lookup"><span data-stu-id="b5382-114">UPMSG</span></span>](upmsg.md)
+[<span data-ttu-id="29c1e-114">UPMSG</span><span class="sxs-lookup"><span data-stu-id="29c1e-114">UPMSG</span></span>](upmsg.md)
   
-[<span data-ttu-id="b5382-115">UPREADE</span><span class="sxs-lookup"><span data-stu-id="b5382-115">UPREADE</span></span>](upreade.md)
+[<span data-ttu-id="29c1e-115">UPREADE</span><span class="sxs-lookup"><span data-stu-id="29c1e-115">UPREADE</span></span>](upreade.md)
 

@@ -19,46 +19,46 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421317"
 ---
-# <a name="pidtagassociatedcontentcount-canonical-property"></a><span data-ttu-id="6b761-103">PidTagAssociatedContentCount 规范属性</span><span class="sxs-lookup"><span data-stu-id="6b761-103">PidTagAssociatedContentCount Canonical Property</span></span>
+# <a name="pidtagassociatedcontentcount-canonical-property"></a><span data-ttu-id="b5603-103">PidTagAssociatedContentCount 规范属性</span><span class="sxs-lookup"><span data-stu-id="b5603-103">PidTagAssociatedContentCount Canonical Property</span></span>
 
   
   
-<span data-ttu-id="6b761-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6b761-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b5603-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b5603-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6b761-105">包含文件夹的 "关联的内容" 表中的项目数。</span><span class="sxs-lookup"><span data-stu-id="6b761-105">Contains the count of items in the associated contents table of the folder.</span></span>
+<span data-ttu-id="b5603-105">包含文件夹的关联内容表中的项目数。</span><span class="sxs-lookup"><span data-stu-id="b5603-105">Contains the count of items in the associated contents table of the folder.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6b761-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="6b761-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6b761-107">PR_ASSOC_CONTENT_COUNT</span><span class="sxs-lookup"><span data-stu-id="6b761-107">PR_ASSOC_CONTENT_COUNT</span></span>  <br/> |
-|<span data-ttu-id="6b761-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="6b761-108">Identifier:</span></span>  <br/> |<span data-ttu-id="6b761-109">0x3617</span><span class="sxs-lookup"><span data-stu-id="6b761-109">0x3617</span></span>  <br/> |
-|<span data-ttu-id="6b761-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="6b761-110">Data type:</span></span>  <br/> |<span data-ttu-id="6b761-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="6b761-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="6b761-112">区域：</span><span class="sxs-lookup"><span data-stu-id="6b761-112">Area:</span></span>  <br/> |<span data-ttu-id="6b761-113">Folder</span><span class="sxs-lookup"><span data-stu-id="6b761-113">Folder</span></span>  <br/> |
+|<span data-ttu-id="b5603-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="b5603-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b5603-107">PR_ASSOC_CONTENT_COUNT</span><span class="sxs-lookup"><span data-stu-id="b5603-107">PR_ASSOC_CONTENT_COUNT</span></span>  <br/> |
+|<span data-ttu-id="b5603-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="b5603-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b5603-109">0x3617</span><span class="sxs-lookup"><span data-stu-id="b5603-109">0x3617</span></span>  <br/> |
+|<span data-ttu-id="b5603-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="b5603-110">Data type:</span></span>  <br/> |<span data-ttu-id="b5603-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="b5603-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="b5603-112">区域：</span><span class="sxs-lookup"><span data-stu-id="b5603-112">Area:</span></span>  <br/> |<span data-ttu-id="b5603-113">文件夹</span><span class="sxs-lookup"><span data-stu-id="b5603-113">Folder</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6b761-114">说明</span><span class="sxs-lookup"><span data-stu-id="6b761-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b5603-114">备注</span><span class="sxs-lookup"><span data-stu-id="b5603-114">Remarks</span></span>
 
-<span data-ttu-id="6b761-115">此属性包含文件夹的内容表中的条目数。</span><span class="sxs-lookup"><span data-stu-id="6b761-115">This property contains the number of entries in the contents table of the folder.</span></span> 
+<span data-ttu-id="b5603-115">此属性包含文件夹的内容表中的条目数。</span><span class="sxs-lookup"><span data-stu-id="b5603-115">This property contains the number of entries in the contents table of the folder.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="6b761-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="6b761-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="b5603-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="b5603-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="6b761-117">头文件</span><span class="sxs-lookup"><span data-stu-id="6b761-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="b5603-117">头文件</span><span class="sxs-lookup"><span data-stu-id="b5603-117">Header files</span></span>
 
-<span data-ttu-id="6b761-118">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="6b761-118">Mapidefs.h</span></span>
+<span data-ttu-id="b5603-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b5603-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="6b761-119">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="6b761-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="b5603-119">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="b5603-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="6b761-120">Mapitags</span><span class="sxs-lookup"><span data-stu-id="6b761-120">Mapitags.h</span></span>
+<span data-ttu-id="b5603-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="b5603-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="6b761-121">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="6b761-121">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="b5603-121">包含作为备用名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="b5603-121">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="6b761-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6b761-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b5603-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b5603-122">See also</span></span>
 
 
 
-[<span data-ttu-id="6b761-123">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="6b761-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="b5603-123">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="b5603-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="6b761-124">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="6b761-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="b5603-124">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="b5603-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="6b761-125">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="6b761-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="b5603-125">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="b5603-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="6b761-126">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="6b761-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="b5603-126">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="b5603-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

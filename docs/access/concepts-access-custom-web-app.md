@@ -1,5 +1,5 @@
 ---
-title: 概念 (Access 自定义 web 应用)
+title: 'Access (Web 应用应用概念) '
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
@@ -12,21 +12,21 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420981"
 ---
-# <a name="concepts-access-custom-web-app"></a><span data-ttu-id="f7c0f-102">概念 (Access 自定义 web 应用)</span><span class="sxs-lookup"><span data-stu-id="f7c0f-102">Concepts (Access custom web app)</span></span>
+# <a name="concepts-access-custom-web-app"></a><span data-ttu-id="35bb4-102">Access (Web 应用应用概念) </span><span class="sxs-lookup"><span data-stu-id="35bb4-102">Concepts (Access custom web app)</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="f7c0f-103">本节内容</span><span class="sxs-lookup"><span data-stu-id="f7c0f-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="35bb4-103">本节内容</span><span class="sxs-lookup"><span data-stu-id="35bb4-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="f7c0f-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="f7c0f-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="35bb4-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="35bb4-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-- [<span data-ttu-id="f7c0f-106">保留字 (Access 自定义 web 应用)</span><span class="sxs-lookup"><span data-stu-id="f7c0f-106">Reserved Words (Access custom web app)</span></span>](reserved-words-access-custom-web-app.md)
+- [<span data-ttu-id="35bb4-106">Access 自定义 web (保留字) </span><span class="sxs-lookup"><span data-stu-id="35bb4-106">Reserved Words (Access custom web app)</span></span>](reserved-words-access-custom-web-app.md)
     
-- [<span data-ttu-id="f7c0f-107">在 Access 中创建和自定义 Web 应用</span><span class="sxs-lookup"><span data-stu-id="f7c0f-107">Create and customize a web app in Access</span></span>](how-to-create-and-customize-a-web-app-in-access.md)
+- [<span data-ttu-id="35bb4-107">在 Access 中创建和自定义 Web 应用</span><span class="sxs-lookup"><span data-stu-id="35bb4-107">Create and customize a web app in Access</span></span>](how-to-create-and-customize-a-web-app-in-access.md)
     
-- [<span data-ttu-id="f7c0f-108">Format 函数的自定义数值格式（Access 自定义 Web 应用）</span><span class="sxs-lookup"><span data-stu-id="f7c0f-108">Custom numeric formats for the Format function (Access custom web app)</span></span>](custom-numeric-formats-for-the-format-function-access-custom-web-app.md)
+- [<span data-ttu-id="35bb4-108">Format 函数的自定义数值格式（Access 自定义 Web 应用）</span><span class="sxs-lookup"><span data-stu-id="35bb4-108">Custom numeric formats for the Format function (Access custom web app)</span></span>](custom-numeric-formats-for-the-format-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="f7c0f-109">Format 函数的自定义日期和时间格式（Access 自定义 Web 应用）</span><span class="sxs-lookup"><span data-stu-id="f7c0f-109">Custom date and time formats for the Format function (Access custom web app)</span></span>](custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md)
+- [<span data-ttu-id="35bb4-109">Format 函数的自定义日期和时间格式（Access 自定义 Web 应用）</span><span class="sxs-lookup"><span data-stu-id="35bb4-109">Custom date and time formats for the Format function (Access custom web app)</span></span>](custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="f7c0f-110">通过在 Access 应用程序中使用宏来筛选视图</span><span class="sxs-lookup"><span data-stu-id="f7c0f-110">Filter a view by using a macro in an Access app</span></span>](how-to-filter-a-view-by-using-a-macro-in-an-access-app.md)
+- [<span data-ttu-id="35bb4-110">通过在 Access 应用程序中使用宏来筛选视图</span><span class="sxs-lookup"><span data-stu-id="35bb4-110">Filter a view by using a macro in an Access app</span></span>](how-to-filter-a-view-by-using-a-macro-in-an-access-app.md)
     
 
