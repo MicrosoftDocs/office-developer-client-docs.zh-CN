@@ -25,36 +25,36 @@ ms.locfileid: "32356670"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-代表邮件上的收件人的收件人号码。
+表示邮件收件人的收件人编号。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_RECIPIENT_NUMBER  <br/> |
 |标识符:  <br/> |0x6662  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |Exchange 邮件读/写  <br/> |
+|区域：  <br/> |Exchange邮件读/写  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定在电子邮件中允许的属性和操作。
+> 指定允许对电子邮件执行的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

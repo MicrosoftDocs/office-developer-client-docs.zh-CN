@@ -25,44 +25,44 @@ ms.locfileid: "32348438"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定联系人电子地址的状态并代表一组位标志。
+指定联系人电子地址的状态，并代表一组位标志。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidABPArrayType  <br/> |
-|属性集:  <br/> |PSETID_Address  <br/> |
-|长 ID (盖子):  <br/> |0x00008029  <br/> |
+|属性集：  <br/> |PSETID_Address  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008029  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |Contact  <br/> |
+|区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**dispidABPArrayType**属性的值必须是指定 contact 对象的状态的标志的组合。 下表中指定了各个标志。 如果设置了此属性, 则还必须设置**dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)) 属性。 这两个属性必须彼此保持同步。 例如, 如果**dispidABPArrayType**具有位 "0x00000001 set", 则**dispidABPEmailList**的值之一必须为 "0x00000000"。 
+**dispidABPArrayType** 属性的值必须是指定联系对象状态的标志的组合。 下表中指定了各个标志。 如果设置了此属性，还必须设置 **dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)) 属性。 这两个属性必须保持相互同步。 例如，如果 **dispidABPArrayType** 设置了位"0x00000001"， **则 dispidABPEmailList** 的值之一必须为"0x00000000"。 
   
-|**位**|**Description**|
+|**Bit**|**说明**|
 |:-----|:-----|
-|0x00000001  <br/> |为联系人定义了 "Email1"。  <br/> |
-|0x00000002  <br/> |为联系人定义了 "Email2"。  <br/> |
-|0x00000004  <br/> |为联系人定义了 "Email3"。  <br/> |
+|0x00000001  <br/> |为联系人定义 Email1。  <br/> |
+|0x00000002  <br/> |为联系人定义 Email2。  <br/> |
+|0x00000004  <br/> |为联系人定义 Email3。  <br/> |
 |0x00000008  <br/> |为联系人定义商务传真。  <br/> |
-|0x00000010  <br/> |住宅传真是为联系人定义的。  <br/> |
-|0x00000020  <br/> |为联系人定义了主要传真。  <br/> |
+|0x00000010  <br/> |为联系人定义住宅传真。  <br/> |
+|0x00000020  <br/> |为联系人定义主要传真。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定允许用于联系人和个人通讯组列表的属性和操作。
+> 指定联系人和个人通讯组列表允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

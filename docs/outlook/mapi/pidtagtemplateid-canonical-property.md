@@ -25,7 +25,7 @@ ms.locfileid: "32358819"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含以永久条目 ID 格式表示的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))。
+包含 PR_ENTRYID **(** [PidTagEntryId](pidtagentryid-canonical-property.md)) ，表示为永久条目 ID 格式。
   
 |||
 |:-----|:-----|
@@ -34,33 +34,33 @@ ms.locfileid: "32358819"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-对于名称服务提供程序接口 (NSPI) 服务器上的所有通讯簿对象, 此值必须存在, 其可分辨名称 (DN) 必须与**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) 的值相匹配, 并且其 dn 必须遵循 DN 格式特定于对象类型的规范。 
+对于名称服务提供程序接口 (NSPI) 服务器上的所有通讯簿对象，此值必须存在，其可分辨名称 (DN) 必须与 PR_EMAIL_ADDRESS ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md) **)** 的值匹配，并且其 DN 必须遵循 DN 格式规范（特别是对象类型）。 
   
-此属性不存在于脱机通讯簿中的对象上。
+脱机通讯簿中的对象上不存在此属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

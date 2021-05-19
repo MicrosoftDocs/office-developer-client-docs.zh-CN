@@ -25,7 +25,7 @@ ms.locfileid: "32348620"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-启用呼叫服务提供程序或网关以将属性添加到邮件或附件的封装。 
+允许呼叫服务提供商或网关将属性添加到邮件或附件的封装中。 
   
 ```cpp
 HRESULT AddProps(
@@ -40,57 +40,57 @@ HRESULT AddProps(
 
  _ulFlags_
   
-> 实时用于控制如何在封装中包含或排除属性的标志的位掩码。 可以设置以下标志:
+> [in]控制如何在封装中包含或排除属性的标志的位掩码。 可以设置以下标志：
     
 TNEF_PROP_ATTACHMENTS_ONLY 
   
-> 仅对_lpPropList_参数中作为邮件附件的一部分的属性进行编码。 
+> 仅对作为邮件附件一  _部分的 lpPropList_ 参数中的属性进行编码。 
     
 TNEF_PROP_CONTAINED 
   
-> 仅对_ulElemID_参数所指定的附件中的属性进行编码。 如果_lpvData_参数不为 NULL, 则指向的数据将写入到附件在**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)) 属性指示的文件中的封装中。
+> 仅对  _ulElemID_ 参数指定的附件中的属性进行编码。 如果  _lpvData_ 参数不为 NULL，则指向的数据将写入 **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)) 指示的文件中附件的封装中。
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> 仅对_ulElemID_参数所指定的邮件或附件中的属性进行编码。 如果设置了此标志, 则_lpvData_中的值必须是[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)指针。 
+> 仅对  _ulElemID_ 参数指定的邮件或附件中的属性进行编码。 如果设置此标志，  _则 lpvData_ 中的值必须是 [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) 指针。 
     
 TNEF_PROP_EXCLUDE 
   
-> 对未在_lpPropList_参数中指定的所有属性进行编码。 
+> 对  _lpPropList_ 参数中未指定的所有属性进行编码。 
     
 TNEF_PROP_INCLUDE 
   
-> 对在_lpPropList_中指定的所有属性进行编码。 
+> 对  _lpPropList 中指定的所有属性进行编码_。 
     
 TNEF_PROP_MESSAGE_ONLY 
   
-> 仅对在_lpPropList_中指定的那些属于邮件本身的属性进行编码。 
+> 仅对  _lpPropList_ 中指定的属于邮件本身的这些属性进行编码。 
     
  _ulElemID_
   
-> 实时附件的**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性, 其中包含一个在其父邮件中唯一标识附件的编号。 当请求附件的特殊处理时, 使用_ulElemID_参数。 除非在_ulFlags_参数中设置了 TNEF_PROP_CONTAINED 或 TNEF_PROP_CONTAINED_TNEF 标志, 否则_ulElemID_参数应为0。 
+> [in]附件 **的附件** PR_ATTACH_NUM ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性，其中包含一个唯一标识其父邮件中的附件的编号。 当请求对附件进行特殊处理时，使用  _ulElemID_ 参数。 除非 _ulFlags_ 参数中设置了 TNEF_PROP_CONTAINED 或 TNEF_PROP_CONTAINED_TNEF 标志，否则 ulElemID参数应为 0。 
     
  _lpvData_
   
-> 实时指向用于替换在_ulElemID_中指定的附件数据的附件数据的指针。 除非在_ulFlags_中设置了 TNEF_PROP_CONTAINED 或 TNEF_PROP_CONTAINED_TNEF, 否则_lpvData_参数应为 NULL。
+> [in]指向用于替换  _ulElemID_ 中指定的附件数据的附件数据的指针。 _lpvData_ 参数应为 NULL，除非TNEF_PROP_CONTAINED _ulFlags_ TNEF_PROP_CONTAINED_TNEF或参数。
     
  _lpPropList_
   
-> 实时指向要包含在封装中或从封装中排除的属性列表的指针。
+> [in]指向要包含或排除在封装中的属性列表的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-传输提供程序、邮件存储提供程序和网关调用**ITnef:: AddProps**方法, 以列出要包含或排除在邮件或附件的传输中性封装格式 (TNEF) 处理中的属性。 通过使用连续调用, 提供程序或网关可以指定要添加和编码或从编码中排除的属性的列表。 提供程序和网关也可以使用**AddProps**提供有关应提供的任何特殊处理附件的信息。 
+传输提供程序、邮件存储提供程序和网关调用 **ITnef：：AddProps** 方法来列出要包含在或排除在 Transport-Neutral 封装格式 (TNEF) 中处理邮件或附件的属性。 通过使用连续呼叫，提供商或网关可以指定要添加和编码或排除进行编码的属性列表。 提供商和网关还可使用 **AddProps** 提供有关应给定任何特殊处理附件的信息。 
   
- 仅在使用[OpenTnefStream](opentnefstream.md)或[OpenTnefStreamEx](opentnefstreamex.md)函数的 TNEF_ENCODE 标志打开的 TNEF 对象中支持**AddProps** 。 
+ 仅对使用 [OpenTnefStream 或 OpenTnefStreamEx](opentnefstream.md) TNEF_ENCODE的 TNEF_ENCODE 打开的 [TNEF](opentnefstreamex.md)对象支持 **AddProps。** 
   
-请注意, 在调用[ITnef:: Finish](itnef-finish.md)方法之前, 不会对**AddProps**进行实际的 TNEF 编码。 此功能意味着传递到**AddProps**的指针必须一直保持有效, 直到对完成的调用**完成**。 在这种情况下, 可以释放或释放使用**AddProps**调用传入的所有对象和数据。 
+请注意，在调用 [ITnef：：Finish](itnef-finish.md)方法之前 **，AddProps** 不会进行实际的 TNEF 编码。 此功能意味着传入 **AddProps** 的指针必须一直有效，直到调用 **Finish** 之后。 此时，可以释放或释放通过 **AddProps** 调用传入的所有对象和数据。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -98,7 +98,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|文件 .cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI 使用**ITnef:: AddProps**方法将邮件中的属性复制到 TNEF 流。  <br/> |
+|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI 使用 **ITnef：：AddProps** 方法将邮件中的属性复制到 TNEF 流。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

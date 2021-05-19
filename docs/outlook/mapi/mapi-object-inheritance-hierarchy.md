@@ -19,7 +19,7 @@ ms.locfileid: "32345836"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 对象实现的所有接口最终继承自[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), 这是允许对象进行通信的 OLE 接口。 大多数接口直接继承自**IUnknown**, 但某些接口继承自以下两个基接口之一: [IMAPIProp: IUnknown](imapipropiunknown.md)或[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)。 下图显示了 MAPI 中的完整继承层次结构。
+MAPI 对象实现的所有接口最终都继承自 [IUnknown，](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx)即允许对象进行通信的 OLE 接口。 大多数接口直接继承自 **IUnknown，** 但一些接口继承自其他两个基接口之一 [：IMAPIProp ： IUnknown](imapipropiunknown.md) 或 [IMAPIContainer ： IMAPIProp](imapicontainerimapiprop.md)。 下图显示了 MAPI 中的完整继承层次结构。
   
 **MAPI 继承层次结构**
   

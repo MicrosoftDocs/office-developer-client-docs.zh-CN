@@ -25,47 +25,47 @@ ms.locfileid: "32345358"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定一个用于描述对象状态的位域。
+指定描述对象状态的位字段。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidApptStateFlags  <br/> |
-|属性集:  <br/> |PSETID_Appointment  <br/> |
-|长 ID (盖子):  <br/> |0x00008217  <br/> |
+|属性集：  <br/> |PSETID_Appointment  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008217  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性不是必需的。 以下是可以设置的各个标志。
+此属性不是必需的。 以下是可以设置的个人标志。
   
-M (asfMeeting, 0x00000001)
+M (asfMeeting、0x00000001) 
   
-> 此标志表示该对象是一个会议对象或与会议相关的对象。
+> 此标志指示对象是会议对象或与会议相关的对象。
     
-R (asfReceived、0x00000002)
+R (asfReceived、0x00000002) 
   
-> 此标志指示已从其他人收到表示的对象。
+> 此标志指示表示的对象从其他人接收。
     
-C (asfCanceled, 0x00000004)
+C (asfCanceled， 0x00000004) 
   
-> 此标志指示对象所代表的会议对象已被取消。
+> 此标志指示对象所代表的会议对象已取消。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

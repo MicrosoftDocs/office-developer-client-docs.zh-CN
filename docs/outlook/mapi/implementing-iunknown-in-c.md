@@ -19,15 +19,15 @@ ms.locfileid: "32346772"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-c 中[IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)方法的实现与 c + + 实现非常相似。 对于实现, 有两个基本步骤: 
+C 中 [IUnknown：：QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) 方法的实现非常类似于 C++ 实现。 实现有两个基本步骤： 
   
 1. 验证参数。
     
-2. 根据对象支持的接口列表检查所请求接口的标识符, 并返回 E_NO_INTERFACE 值或有效的接口指针。 如果返回接口指针, 则实现还应调用[IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法来递增引用计数。 
+2. 根据对象支持的接口列表检查请求的接口的标识符，并返回E_NO_INTERFACE值或有效的接口指针。 如果返回接口指针，则实现还应调用 [IUnknown：：AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) 方法来增加引用计数。 
     
-c 和 c + + 中的**QueryInterface**实现之间的主要区别是 c 版本中的额外第一个参数。 由于将对象指针添加到参数列表中, 因此**QueryInterface**的 C 实现必须具有比 c + + 实现更多的参数验证。 用于检查接口标识符、递增引用计数和返回对象指针的逻辑在这两种语言中应相同。 
+在 C 和 C++ 中 **实现 QueryInterface** 之间的主要区别在于 C 版本中的第一个附加参数。 由于对象指针已添加到参数列表中，因此 **QueryInterface** 的 C 实现必须具有比 C++ 实现更多的参数验证。 检查接口标识符、增加引用计数和返回对象指针的逻辑在两种语言中应该相同。 
   
-下面的代码示例演示如何在 C 中为 status 对象实现**QueryInterface** 。 
+下面的代码示例演示如何在 C 中为状态对象实现 **QueryInterface。** 
   
 ```cpp
 STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
@@ -64,9 +64,9 @@ STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
 
 ```
 
-尽管 c 中的**AddRef**方法的实现与 c + + 实现类似, 但[IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法的 C 实现可能比 c + + 版本更精密。 这是因为释放对象时所涉及的大部分功能可以合并到 c + + 构造函数和析构函数中, 而 C 没有这样的机制。 所有这些功能都必须包含在**Release**方法中。 此外, 由于其他参数及其显式 vtable, 因此需要进行更多的验证。 
+虽然 C 中的 **AddRef** 方法的实现类似于 C++ 实现，但 [IUnknown：：Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) 方法的 C 实现可以比 C++ 版本更加详细。 这是因为释放对象所涉及的大部分功能都可以合并到 C++ 构造函数和析构函数中，并且 C 没有此类机制。 所有这些功能都必须包含在 **Release** 方法中。 此外，由于附加参数及其显式 vtable，需要执行更多验证。 
   
-以下**AddRef**方法调用说明了 status 对象的典型 C 实现。 
+以下 **AddRef** 方法调用演示状态对象的典型 C 实现。 
   
 ```cpp
 STDMETHODIMP_(ULONG) STATUS_AddRef(LPMYSTATUSOBJ lpMyObj)
@@ -90,13 +90,13 @@ STDMETHODIMP_(ULONG) STATUS_AddRef(LPMYSTATUSOBJ lpMyObj)
 
 ```
 
-下面的代码示例演示 C 状态对象的典型**版本**实现。 如果引用计数为0减后, 则 C 状态对象实现应执行以下任务: 
+以下代码示例演示了 C 状态 **对象的 Release** 的典型实现。 如果引用计数在缩小后为 0，则 C 状态对象实现应执行以下任务： 
   
 - 释放指向对象的任何保留指针。 
     
-- 将 vtable 设置为 NULL, 以便在对象的用户调用了**Release**但仍继续尝试使用该对象的情况下便于调试。 
+- 将 vtable 设置为 NULL，便于在对象的用户调用 **Release** 仍继续使用该对象的情况下进行调试。 
     
-- 调用**MAPIFreeBuffer**以释放该对象。 
+- 调用 **MAPIFreeBuffer** 以释放对象。 
     
 ```cpp
 STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)

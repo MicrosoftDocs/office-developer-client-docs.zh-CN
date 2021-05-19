@@ -1,5 +1,5 @@
 ---
-title: Contacts
+title: 联系人
 TOCTitle: Contacts
 ms:assetid: e988de54-6b1e-4e83-a226-3a898903608f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184649(v=office.15)

@@ -29,26 +29,26 @@ ms.locfileid: "32342117"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
-|公开者:  <br/> |表单工厂对象  <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
+|公开者：  <br/> |表单工厂对象  <br/> |
 |实现者：  <br/> |表单服务器  <br/> |
 |调用者：  <br/> |表单查看器  <br/> |
-|接口标识符:  <br/> |IID_IMAPIFormFactory  <br/> |
-|指针类型:  <br/> |LPMAPIFORMFACTORY  <br/> |
+|接口标识符：  <br/> |IID_IMAPIFormFactory  <br/> |
+|指针类型：  <br/> |LPMAPIFORMFACTORY  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
 |[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |返回窗体的类工厂对象。  <br/> |
-|[GetLastError](imapiformfactory-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构, 该结构包含上一个错误发生于表单工厂对象的相关信息。  <br/> |
-|[LockServer](imapiformfactory-lockserver.md) <br/> |在内存中保留打开的表单服务器。  <br/> |
+|[GetLastError](imapiformfactory-getlasterror.md) <br/> |返回 [一个 MAPIERROR](mapierror.md) 结构，其中包含有关表单工厂对象发生的上一个错误的信息。  <br/> |
+|[LockServer](imapiformfactory-lockserver.md) <br/> |将打开的表单服务器保留到内存中。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**IMAPIFormFactory**接口基于[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx)接口, 实现**IMAPIFormFactory**的对象也应继承自**IClassFactory**。
+**IMAPIFormFactory** 接口基于 [IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx)接口，并且实现 **IMAPIFormFactory** 的对象还应从 **IClassFactory 继承**。
   
- **IMAPIFormFactory**是当窗体服务器支持多个邮件类 (即, 多种类型的 form 对象) 时, 窗体查看器用来创建新的窗体对象的接口。 
+ **IMAPIFormFactory** 是表单查看器在表单服务器支持多个邮件类（即多个表单对象类型）时 (创建新的表单对象的接口) 。 
   
 ## <a name="see-also"></a>另请参阅
 

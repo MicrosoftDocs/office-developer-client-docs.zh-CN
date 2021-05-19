@@ -37,21 +37,21 @@ HRESULT Logoff(
 
  _lpulFlags_
   
-> 实时保留必须是指向零的指针。
+> [in]保留;必须是指向零的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-邮件存储提供程序实现**IMSLogon:: 注销**方法以强制关闭邮件存储提供程序。 **IMSLogon::** 在以下情况下会调用注销: 
+邮件存储提供程序实现 **IMSLogon：：Logoff** 方法以强制关闭邮件存储提供程序。 **在下列情况下调用 IMSLogon：：Logoff：** 
   
-- 尽管 MAPI 在调用[IMAPISession:: 注销](imapisession-logoff.md)方法后注销客户端。 
+- 调用 [IMAPISession：：Logoff 方法后，MAPI](imapisession-logoff.md) 正在注销客户端。 
     
-- MAPI 注销邮件存储提供程序时。 在这种情况下, **IMSLogon:: 注销**在处理[IMsgStore:: StoreLogoff](imsgstore-storelogoff.md)或 IUnknown 时创建的支持对象的[IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法是邮件存储提供程序在处理:: 或 IUnknown 过程中创建的支持对象的 Release 方法: **** 对邮件存储对象的 Release 方法调用。 
+- 在 MAPI 注销邮件存储提供程序时。 在这种情况下 **，IMSLogon：：Logoff** 是 MAPI 处理消息存储提供程序在处理消息存储对象上的 [IMsgStore：：StoreLogoff](imsgstore-storelogoff.md)或 **IUnknown：：Release** 方法调用时所创建的支持对象的 [IUnknown：：Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法的一部分调用的。 
     
 ## <a name="see-also"></a>另请参阅
 

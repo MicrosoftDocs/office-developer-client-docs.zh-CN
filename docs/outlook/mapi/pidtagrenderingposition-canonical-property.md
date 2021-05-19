@@ -25,7 +25,7 @@ ms.locfileid: "32355151"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含在主邮件文本中呈现附件时要使用的偏移量 (以字符为单位)。
+包含用于呈现主邮件文本中的附件的偏移（以字符表示）。
   
 |||
 |:-----|:-----|
@@ -34,37 +34,37 @@ ms.locfileid: "32355151"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-当提供的偏移量为-1 (0xffffffff) 时, 不使用此属性呈现附件。 -1 以外的所有值指示要在**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性中呈现附件的位置。
+当提供的偏移量为 -1 (0xFFFFFFFF) ，则不通过使用此属性呈现附件。 除 -1 外的所有值都指示PidTagBody PR_BODY ([PidTagBody](pidtagbody-canonical-property.md)) 属性中要呈现附件的位置。
   
- **注释**由**PR_BODY**中的此属性指示的字符将替换为附件。 通常, 此字符是一个空格, 尽管也可以使用一个特殊的占位符字符。 
+ **注意** 属性中的此属性指示的字符 **PR_BODY** 附件替换。 通常，此字符是一个空格，但也可使用特殊的占位符字符。 
   
-此属性以字符表示。 在某些字符集中, 这与字节不等效。 Unicode 应用程序可以基于双字节字符计算位置。 双字节字符集 (DBCS) 应用程序必须将文本扫描到此属性值, 因为它们的字符表示形式在每个字符的1到2个字节之间有所不同。
+此属性以字符表示。 在某些字符集，这不等同于字节。 Unicode 应用程序可以基于双字节字符计算位置。 Double-Byte DBCS (DBCS) 应用程序必须扫描此属性值前的文本，因为它们的字符表示形式因每个字符 1 到 2 个字节而异。
   
-此属性不应用于 rtf 格式文本。 呈现位置通过称为对象附件占位符的转义序列以 RTF 表示。 此序列由后跟单个`\objattph`字符 (通常为空格) 的字符串组成, 附件呈现将替换该字符串。 
+此属性不应与 RTF 格式或 RTF 格式 (一) 使用。 在 RTF 中，呈现位置由称为对象附件占位符的转义序列指示。 此序列由字符串后跟一个字符（通常为空格）组成，该字符  `\objattph` 将由附件呈现替换。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

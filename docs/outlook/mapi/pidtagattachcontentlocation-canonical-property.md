@@ -25,7 +25,7 @@ ms.locfileid: "32345477"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含多用途 Internet 邮件扩展 (MIME) 邮件附件的内容位置标头。 
+包含 MIME 邮件附件中多用途 Internet 邮件扩展 () 标头。 
   
 |||
 |:-----|:-----|
@@ -34,27 +34,27 @@ ms.locfileid: "32345477"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-这些属性用于 MHTML 支持。 它们代表相应 MIME 正文部分的内容位置标头。 
+这些属性用于 MHTML 支持。 它们表示相应 MIME 正文部分的内容位置标头。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

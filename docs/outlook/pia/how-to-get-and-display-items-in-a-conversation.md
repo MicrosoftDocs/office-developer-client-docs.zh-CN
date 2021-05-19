@@ -24,7 +24,7 @@ ms.locfileid: "32349460"
 
 然后，此代码示例枚举 **Table** 中的所有项，并对每一项调用 EnumerateConversation，以访问每一项的子节点。 EnumerateConversation 获取 **Conversation** 对象，并使用 [GetChildren(Object)](https://msdn.microsoft.com/library/ff184854\(v=office.15\)) 方法获取子节点。 此代码示例以递归方式调用 EnumerateConversation，直到再无子节点可获取。 然后，此代码示例向用户显示所有对话项。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

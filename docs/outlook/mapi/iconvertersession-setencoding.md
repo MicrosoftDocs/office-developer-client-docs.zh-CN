@@ -23,7 +23,7 @@ ms.locfileid: "32341298"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-初始化要在转换过程中使用的编码。
+初始化在转换期间使用的编码。
   
 ```cpp
 HRESULT IConverterSession:: SetEncoding ( 
@@ -35,7 +35,7 @@ HRESULT IConverterSession:: SetEncoding (
 
 _et_
   
-> 一个[ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx)值。 仅支持以下值: 
+> [ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx)值。 仅支持以下值： 
     
    - IET_BASE64
    - IET_UUENCODE
@@ -49,11 +49,11 @@ E_INVALIDARG
   
 > 传递的编码类型无效。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-在使用[IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md)执行转换之前, 请先调用**SetEncoding** 。 
+在使用 [IConverterSession：：MAPIToMIMEStm](iconvertersession-mapitomimestm.md)执行转换之前，先调用 **SetEncoding。** 
   
-使用**SetEncoding**为邮件项目的最外面的邮件正文设置编码。 microsoft outlook 2010 和 microsoft outlook 2013 为任何单个附件选择编码。 
+使用 **SetEncoding** 可以仅设置邮件项目最外部的邮件正文的编码。 Microsoft Outlook 2010和 Microsoft Outlook 2013 选择任何单个附件的编码。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -61,8 +61,8 @@ E_INVALIDARG
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MapiMime  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 .eml 文件转换为 MAPI 邮件。  <br/> |
-|MapiMime  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 .eml 文件。  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 EML 文件转换为 MAPI 邮件。  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 EML 文件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -1,5 +1,5 @@
 ---
-title: 根据当前文件夹为特定帐户创建可发送项
+title: 为基于当前文件夹的特定帐户创建可发送项
 TOCTitle: Create a sendable item for a specific account based on the current folder
 ms:assetid: 665ebdc5-2912-4d85-ac40-835c9ef9a439
 ms:contentKeyID: 55119796
@@ -25,7 +25,7 @@ ms.locfileid: "32349530"
 
 本主题介绍如何以编程方式创建可发送项目和使用特定发送帐户发送该项目。 该主题有两个代码示例，用来演示如何为由活跃资源管理器中的当前文件夹确定的特定帐户创建 [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) 和 [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\))。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

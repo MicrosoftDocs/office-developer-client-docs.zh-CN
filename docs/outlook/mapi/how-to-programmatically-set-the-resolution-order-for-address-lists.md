@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
-description: '上次修改时间: 2006 年7月2012'
+description: 上次修改时间：2012 年 7 月 6 日
 ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,19 +17,19 @@ ms.locfileid: "32345959"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题包含一个 c + + 中的代码示例, 该示例以编程方式设置电子邮件中的收件人和会议请求中的与会者解析的地址列表的顺序。
+本主题包含一个 C++ 代码示例，该示例以编程方式设置解析电子邮件中的收件人和会议请求中的与会者的地址列表的顺序。
   
-在 MAPI 中, 每个配置文件都可以支持多个地址列表, 每个地址列表都驻留在其自己的容器中。 MAPI 支持接口中的**[SetSearchPath](https://support.microsoft.com/kb/292590)** 方法, 该方法允许您在用于名称解析的配置文件中设置新的搜索路径。 若要使用**IAddrBook:: SetSearchPath**方法, 您必须在包含相关通讯簿容器的**[SRowSet](srowset.md)** 数组中定义所需的解析顺序, 并以所需的顺序保存该数组, 然后将该数组指定为*lpSearchPath* 参数. **SRowSet**数组中每个条目的第一个属性必须是相应通讯簿的**[PR_ENTRYID](pidtagentryid-canonical-property.md)** 属性。 
+在 MAPI 中，每个配置文件可以支持多个地址列表，每个地址列表驻留在其自己的容器中。 MAPI 支持接口中的 **[SetSearchPath](https://support.microsoft.com/kb/292590)** 方法，允许您在配置文件中设置用于名称解析的新搜索路径。 若要使用 **IAddrBook：：SetSearchPath** 方法，您必须在以所需顺序保存相关通讯簿容器的 **[SRowSet](srowset.md)** 数组中定义所需的解析顺序，然后将该数组指定为  *lpSearchPath*  参数。 **SRowSet** 数组中每个条目的第一个属性必须是PR_ENTRYID通讯簿 **[](pidtagentryid-canonical-property.md)** 的 PR_ENTRYID 属性。 
   
-代码示例按以下步骤设置解决顺序:
+该代码示例在以下步骤中设置解析顺序：
   
-1. 初始化`numANR`为要匹配的容器的数目, 并在`ANROrder`数组中指定所需地址列表的名称和解析顺序。 
+1. 初始化要匹配的容器数，并指定数组中所需地址列表的名称和  `numANR` 解析  `ANROrder` 顺序。 
     
-2. 使用**MAPIInitialize**函数初始化 MAPI。 
+2. 使用 **MAPIInitialize** 函数初始化 MAPI。 
     
-3.  登录到 MAPI 并允许用户选择配置文件。 
+3.  登录到 MAPI，并允许用户选择配置文件。 
     
-4.  从当前会话中获取指向通讯簿的指针。 
+4.  获取当前会话中指向通讯簿的指针。 
     
 5. 打开通讯簿。
     
@@ -39,19 +39,19 @@ ms.locfileid: "32345959"
     
 8. 获取层次结构中的通讯簿容器的列表。
     
-9. 通过`ANROrder`将所需地址列表的名称与通讯簿层次结构中的现有名称相比较, 查找所需地址列表的条目 id。 
+9. 通过将 所需的地址列表的名称与通讯簿层次结构中的现有名称进行比较，查找所需地址列表的条目  `ANROrder` ID。 
     
-10. 将适当的条目 id 设置到**SRowSet**数组中`pNewRows`。
+10. 将相应的条目 ID 设置到 **SRowSet** 数组中  `pNewRows` 。
     
-11. 调用并作为`pNewRows` *lpSearchPath*参数传递到**IAddrBook:: SetSearchPath**以设置搜索路径。 
+11. 调用并作为  `pNewRows`  *lpSearchPath*  参数传递给 **IAddrBook：：SetSearchPath** 以设置搜索路径。 
     
 12. 清理内部缓冲区和指针。
     
 13. 从 MAPI 注销。
     
-14. Uninitalizes MAPI。
+14. 未初始化 MAPI。
     
-此代码示例使用 Microsoft Office Outlook 的默认安装中提供的地址列表:**所有联系人**、**所有组**和**联系人**。 启动 Outlook 并在已初始化的配置文件上运行后, 必须运行该示例。 示例适用于采用一种语言的名称 (例如, 所有名称均为英文)。 它不适合在多语言部署中工作, 例如, 为运行非英语版 Outlook 内部版本的用户本地化的 "**联系人**" 文件夹。 
+此代码示例使用默认安装中可用的地址列表 **Microsoft Office Outlook：所有** 联系人、所有 **组****和联系人**。 启动并运行初始化的配置文件Outlook运行示例。 该示例适用于使用一种语言 (例如，所有名称都使用英语) 。 它不能用于多语言部署，例如，为运行非英语语言版本的用户本地化的"联系人"Outlook版本。 
   
 ```cpp
 #include "stdafx.h" 

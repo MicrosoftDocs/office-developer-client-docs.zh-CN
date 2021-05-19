@@ -23,7 +23,7 @@ ms.locfileid: "32345463"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含二进制可比较的键, 用于标识搜索的相关对象。
+包含标识搜索的相关对象的二进制比较键。
   
 |||
 |:-----|:-----|
@@ -32,56 +32,56 @@ ms.locfileid: "32345463"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性为相关对象 (如邮件副本) 提供跟踪, 便于查找不需要的事件, 如重复的收件人。
+此属性提供相关对象（如邮件副本）的跟踪，并便于查找不需要的事件，如重复的收件人。
   
-MAPI 使用特定的规则来构建邮件收件人的搜索键。 通过串联地址类型 (大写字符)、冒号字符 ":"、电子邮件地址规范格式以及终止 null 字符形成搜索关键字。 此处的规范表单表示区分大小写的地址以正确的大小写显示, 并且不区分大小写的地址将转换为大写。 这在保留邮件之间的相关性时非常重要。
+MAPI 使用特定规则来构造邮件收件人的搜索键。 搜索键通过连接地址类型 (（大写字符) 、冒号字符"："、规范形式的电子邮件地址和终止 null 字符）来形成。 此处的规范形式意味着正确大小写显示区分大小写的地址，不区分大小写的地址将转换为大写。 这一点对于保留邮件之间的关联很重要。
   
-对于 message 对象, 此属性通过[IMAPIProp:: GetProps](imapiprop-getprops.md)方法在邮件创建后立即可用。 对于其他对象, 在首次调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法时, 将提供该对象。 由于此属性是可更改的, 在**SaveChanges**调用提交了由[IMAPIProp:: SetProps](imapiprop-setprops.md)方法设置或更改的任何值之前, 不能通过**GetProps**获取该属性。 
+对于 message 对象，此属性可在创建邮件后立即通过 [IMAPIProp：：GetProps](imapiprop-getprops.md) 方法使用。 对于其他对象，在首次调用 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法后可用。 由于此属性是可更改的，因此在 **SaveChanges** 调用提交 [IMAPIProp：：SetProps](imapiprop-setprops.md)方法设置或更改的任何值之前，通过 **GetProps** 获取此属性是不可靠的。 
   
-对于配置文件, MAPI 也提供名为**MUID_PROFILE_INSTANCE**的硬编码配置文件部分, 并将该属性作为其单个属性。 在创建的所有配置文件中, 此键都是唯一的, 并且可以比**PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md)) 属性更可靠, 例如, 可以使用相同的名称删除和重新创建该属性。
+对于配置文件，MAPI 还提供名为 **MUID_PROFILE_INSTANCE** 的硬编码配置文件节，此属性用作其单个属性。 该密钥保证在以前创建的所有配置文件中是唯一的，并且比 **PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md)) 属性更可靠，例如，可以使用相同的名称删除和重新创建该属性。
   
-下表汇总了**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))、 **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 和此属性之间的重要区别。
+下表总结了 PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) 、PR_RECORD_KEY ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 和此属性之间的重要差异。  
   
-|**特征**|PR_ENTRYID * * * *|PR_RECORD_KEY * * * *|PR_SEARCH_KEY * * * *|
+|**特征**|PR_ENTRYID****|PR_RECORD_KEY****|PR_SEARCH_KEY****|
 |:-----|:-----|:-----|:-----|
-|对附件对象是必需的  <br/> |否  <br/> |是  <br/> |否  <br/> |
-|对 folder 对象是必需的  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|对邮件存储对象是必需的  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|对状态对象是必需的  <br/> |是  <br/> |否  <br/> |否  <br/> |
-|可由客户端创建  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|在**SaveChanges**之前可用 <br/> |取决于提供程序实现  <br/> |取决于提供程序实现  <br/> |对于 "邮件", 是。 对于其他用户, 它取决于提供程序实现。  <br/> |
-|在复制操作中更改  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|在复制后, 客户端可对其进行更改  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|中的唯一 .。。  <br/> |整个世界  <br/> |提供程序实例  <br/> |整个世界  <br/> |
-|二进制可比较 (与 memcmp 一样)  <br/> |No--use [IMAPISupport:: CompareEntryIDs](imapisupport-compareentryids.md) <br/> |是  <br/> |是  <br/> |
+|附件对象上必需  <br/> |否  <br/> |是  <br/> |否  <br/> |
+|文件夹对象上必需  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|在邮件存储对象上是必需的  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|状态对象上必需  <br/> |是  <br/> |否  <br/> |否  <br/> |
+|按客户端创建  <br/> |否  <br/> |否  <br/> |是  <br/> |
+|在 **SaveChanges 之前可用** <br/> |取决于提供程序实现  <br/> |取决于提供程序实现  <br/> |对于邮件，是。 对于其他人，它依赖于提供程序实现。  <br/> |
+|复制操作中已更改  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|复制后客户端可更改  <br/> |否  <br/> |否  <br/> |是  <br/> |
+|在 ... 中是唯一的  <br/> |整个世界  <br/> |提供程序实例  <br/> |整个世界  <br/> |
+|二进制 (与 memcmp)   <br/> |否 -- 使用 [IMAPISupport：：CompareEntryIDs](imapisupport-compareentryids.md) <br/> |是  <br/> |是  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

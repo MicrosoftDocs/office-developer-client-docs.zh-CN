@@ -25,48 +25,48 @@ ms.locfileid: "32346569"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含收件人全名的部分姓名的缩写。 
+包含收件人的全名部分的姓名缩写。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_INITIALS、PR_INITIALS_A、PR_INITIALS_W  <br/> |
 |标识符:  <br/> |0x3A0A  <br/> |
 |数据类型：  <br/> |PT_UNICODE、PT_STRING8  <br/> |
-|区域：  <br/> |Address  <br/> |
+|区域：  <br/> |地址  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-这些属性可提供收件人的标识和访问信息。 它们由收件人及其组织定义。
+这些属性为收件人提供标识和访问信息。 它们由收件人及其组织定义。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定允许用于联系人和个人通讯组列表的属性和操作。
+> 指定联系人和个人通讯组列表允许的属性和操作。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
-[[毫秒-OXOAB]](https://msdn.microsoft.com/library/b4750386-66ec-4e69-abb6-208dd131c7de%28Office.15%29.aspx)
+[[MS-OXOAB]](https://msdn.microsoft.com/library/b4750386-66ec-4e69-abb6-208dd131c7de%28Office.15%29.aspx)
   
-> 指定本地通讯簿对象缓存的脱机通讯簿 (OAB) 文件格式。
+> 指定脱机通讯簿 (OAB) 本地通讯簿对象缓存的文件格式。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

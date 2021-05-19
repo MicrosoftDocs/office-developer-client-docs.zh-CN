@@ -16,11 +16,11 @@ ms.locfileid: "32357468"
 ---
 # <a name="using-late-binding-if-depending-on-multiple-versions-of-outlook"></a>在需要依赖 Outlook 的多个版本时使用晚期绑定
 
-使用 Outlook 主互操作程序集 (PIA) 的托管 Outlook 加载项是使用 PIA 提供的类型信息进行编译。 借助这种提前将类型信息绑定到方法和属性的**早期绑定**，编译者可以执行类型和语法检查，从而确保能够将正确数量和类型的参数传递给方法或属性，并让返回的值为所需类型。 
+使用 Outlook 主互操作程序集 (PIA) 的托管 Outlook 加载项是使用 PIA 提供的类型信息进行编译。 借助这种提前将类型信息绑定到方法和属性的 **早期绑定**，编译者可以执行类型和语法检查，从而确保能够将正确数量和类型的参数传递给方法或属性，并让返回的值为所需类型。 
 
 但是，早期绑定也有不利之处，即如果加载项所调用的方法或属性在早期版本中具有不同的声明，则会出现版本不兼容问题。 例如，增加新方法和属性或修改某个对象的现有成员会改变该对象的二进制布局，进而导致使用较新类型信息自动化 Outlook 早期版本的托管加载项出现问题。 
 
-在这种情况下，**后期绑定**一直等到运行时，才将属性和方法调用绑定到自己的对象。 后期绑定有助于避免因不同 Outlook 版本中不同的类型所造成的混乱，尤其在编写依赖多个 Outlook 版本的加载项时非常有用。
+在这种情况下，**后期绑定** 一直等到运行时，才将属性和方法调用绑定到自己的对象。 后期绑定有助于避免因不同 Outlook 版本中不同的类型所造成的混乱，尤其在编写依赖多个 Outlook 版本的加载项时非常有用。
 
 后期绑定涉及到调用由 Outlook 实现的 [IDispatch](https://docs.microsoft.com/windows/desktop/api/oaidl/nn-oaidl-idispatch) 接口的加载项。 若要在 Visual C\# 中使用后期绑定，请使用 [System.Type.InvokeMember](https://docs.microsoft.com/dotnet/api/system.type.invokemember?view=netframework-4.7.2) 方法。 此方法调用 [IDispatch::GetIDsOfNames](https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames) 和 [IDispatch::Invoke](https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke)，以绑定到 Outlook 的方法和属性。 使用 IDispatch::GetIDsOfNames 方法，Visual C\# 可以询问对象支持哪些方法和属性。然后，使用 IDispatch::Invoke 方法，Visual C\# 可以调用这些方法和属性。 
 

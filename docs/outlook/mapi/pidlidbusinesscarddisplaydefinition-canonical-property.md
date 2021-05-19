@@ -25,35 +25,35 @@ ms.locfileid: "32342033"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于将联系人显示为名片的用户自定义详细信息。
+包含将联系人显示为名片的用户自定义详细信息。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidBCDisplayDefinition  <br/> |
-|属性集:  <br/> |PSETID_Address  <br/> |
-|长 ID (盖子):  <br/> |0x00008040  <br/> |
+|属性集：  <br/> |PSETID_Address  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008040  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |Contact  <br/> |
+|区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-名片的布局可以表示为图像和多个文本字段。 图像可以是联系人照片, 也可以是卡片图片。 文本字段由来自联系人的其他属性集和用户提供的可选自定义标签字符串中的值组成。 请注意, 多字节值以小端格式存储在缓冲区中。
+名片的布局可以表示为图像和大量文本字段。 该图像可以是联系人照片，也可以卡片图片。 文本字段由联系人上另一个属性集的值和用户提供的可选自定义标签字符串组成。 请注意，多字节值以小尾数格式存储在缓冲区中。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定允许用于联系人和个人通讯组列表的属性和操作。
+> 指定联系人和个人通讯组列表允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

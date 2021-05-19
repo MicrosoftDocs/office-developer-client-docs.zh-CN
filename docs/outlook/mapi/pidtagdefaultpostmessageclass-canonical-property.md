@@ -25,7 +25,7 @@ ms.locfileid: "32357902"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含自定义窗体邮件类的名称。
+包含自定义窗体 Message 类的名称。
   
 |||
 |:-----|:-----|
@@ -34,31 +34,31 @@ ms.locfileid: "32357902"
 |数据类型：  <br/> |PT_STRING8  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果在文件夹上设置了此属性, 则该值必须包含完全的基本邮件类 (例如, "IPM。"联系人" 文件夹或 "IPM" 的联系人。"日历" 文件夹的 "约会"), 或以基本邮件类 (例如, "IPM。MyContact ")。
+如果在文件夹上设置此属性，则值必须正好包含基本邮件 (例如，"IPM"。联系人文件夹的"联系人"或"IPM"。日历文件夹的 Appointment") ，或以基本邮件类开头 (例如，"IPM"。Contact.MyContact") 。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

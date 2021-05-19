@@ -30,32 +30,32 @@ ms.locfileid: "32357804"
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidRequest  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x00008530  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008530  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |标记  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-在 Microsoft Office Outlook 中, 会议请求是一个约会项目。
+在Microsoft Office Outlook中，会议请求是约会项目。
   
-此属性包含与标志相关联的用户 specifiable 文本, 如果邮件对象已标记或已完成, 但对于会议相关对象不应存在, 则应设置此属性。 客户端可以选择不支持此属性, 并且始终在应设置此属性时将 "后续" (转换为用户的语言) 作为字符串的值。 应根据**dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) 和**dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)) 属性的值, 有条件地忽略此属性。
+此属性包含要与标志关联的用户可指定文本，如果邮件对象已标记或已完成，但与会议相关的对象不应存在，则应该设置该属性。 客户端可以选择不支持此属性，并始终编写"跟进" (翻译为用户语言（如果适用) ）作为应设置此属性的字符串值。 应基于 **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) 和 **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)) 属性的值有条件地忽略此属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > 指定与标记相关的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

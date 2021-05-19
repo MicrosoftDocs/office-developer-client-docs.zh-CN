@@ -25,7 +25,7 @@ ms.locfileid: "32356299"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件发件人在将邮件放入邮件存储区之前从邮件系统中请求某个收件人的送达报告, 则该属性值为 TRUE。
+如果邮件发件人在邮件放入邮件存储之前从邮件系统请求特定收件人的送达报告，则包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -34,29 +34,29 @@ ms.locfileid: "32356299"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性用于指示邮件系统处理已传递的邮件。 在这种情况下, 邮件还必须将**PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorNonDeliveryReportRequested](pidtagoriginatornondeliveryreportrequested-canonical-property.md)) 属性设置为 FALSE。
+此属性用于指示邮件系统处理传递的邮件。 在这种情况下，邮件还必须为[PidTagOriginatorNonDeliveryReportRequested PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED (PidTagOriginatorNonDeliveryReportRequested](pidtagoriginatornondeliveryreportrequested-canonical-property.md)) 设置为 FALSE。 
   
-设置邮件的**PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED**属性是为所有收件人请求传递状态报告的一种方式。 
+设置 **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** 属性是请求所有收件人的传递状态报告的方法。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

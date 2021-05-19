@@ -19,27 +19,27 @@ ms.locfileid: "32345925"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 可用于读取和分析约会的定期模式。
+MAPI 可用于读取和分析约会定期模式约会。
   
-有关如何从本主题所引用的 MFCMAPI 应用程序项目中下载、查看和运行代码的信息, 请参阅[Install the 本节中使用的示例](how-to-install-the-samples-used-in-this-section.md)。
+若要了解如何从本主题中引用的 MFCMAPI 应用程序项目下载、查看和运行代码，请参阅安装本节中使用的 [示例](how-to-install-the-samples-used-in-this-section.md)。
 
 ### <a name="to-parse-a-recurrence-blob"></a>分析定期 blob
 
-1. 打开约会项目。 有关打开邮件的信息, 请参阅[打开邮件](opening-a-message.md)。
+1. 打开约会项目。 有关打开邮件的信息，请参阅 [打开邮件](opening-a-message.md)。
     
-2. 检索命名属性**dispidApptRecur** ([PidLidAppointmentRecur 规范属性](pidlidappointmentrecur-canonical-property.md))。 有关检索命名属性的信息, 请参阅[MAPI 命名属性](mapi-named-properties.md)。
+2. 检索命名属性 **dispidApptRecur (** [PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md) 规范属性) 。 有关检索命名属性的信息，请参阅 [MAPI Named Properties](mapi-named-properties.md)。
     
-3. 按照[[OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx)中的指导操作, 以读取约会定期模式结构。 
+3. 按照 [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx) 中的指南阅读约会定期模式结构。 
     
-MFCMAPI 参考应用程序演示在 MFCMAPI 项目的 InterpretProp2 `BinToAppointmentRecurrencePatternStruct`源文件中, 函数的最后一步。 `BinToAppointmentRecurrencePatternStruct`函数采用指向内存中的缓冲区的指针作为参数。 MFCMAPI 应用程序通过先将**dispidApptRecur**命名属性映射到一个属性标记, 然后通过使用[IMAPIProp:: GetProps](imapiprop-getprops.md)方法请求属性的值, 来获取此缓冲区。 如果属性太大, 无法使用**GetProps**方法检索, MFCMAPI 将打开 stream 接口, 以使用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法检索属性。 然后, MFCMAPI 应用程序将数据从流中读取, 以生成缓冲区。 
+MFCMAPI 参考应用程序演示  `BinToAppointmentRecurrencePatternStruct` 了 MFCMapi 项目的 InterpretProp2.cpp 源文件中的 函数的最后一步。 `BinToAppointmentRecurrencePatternStruct`函数将指向内存中缓冲区的指针作为参数。 MFCMAPI 应用程序首先将 **dispidApptRecur** 命名属性映射到属性标记，然后使用 [IMAPIProp：：GetProps](imapiprop-getprops.md) 方法请求该属性的值，以获取此缓冲区。 如果属性太大，无法使用 **GetProps** 方法检索，则 MFCMAPI 将打开流接口以使用 [IMAPIProp：：OpenProperty](imapiprop-openproperty.md) 方法检索属性。 然后，MFCMAPI 应用程序从流中读取数据以构建缓冲区。 
   
-有关缓冲区格式的信息, 请参阅[PidLidAppointmentRecur 规范属性](pidlidappointmentrecur-canonical-property.md)。 缓冲区中的数据量由固定字节数的字段组成, 这些字段必须在另一项之后读取。 某些字段仅在其他字段包含特定值时显示, 并且某些字段的大小可能取决于其他字段的值。 分析缓冲区以读取不同的字段会涉及大量的簿记。 MFCMAPI 使用名`CBinaryParser`为的内部帮助程序类来封装此簿记。 例如, 函数将`CBinaryParser::GetDWORD`检查缓冲区中是否留有足够的字节来读取 DWORD, 然后读取值并更新指针。 
+有关缓冲区格式的信息，请参阅 [PidLidAppointmentRecur 规范属性](pidlidappointmentrecur-canonical-property.md)。 缓冲区中的大部分数据由固定字节数的字段组成，这些字段必须彼此读取。 某些字段仅在其他字段包含特定值时存在，并且某些字段的大小可能取决于其他字段的值。 分析缓冲区以读取各个字段涉及大量记帐。 MFCMAPI 使用名为 的内部帮助程序类  `CBinaryParser` 封装此记帐。 例如，该函数检查缓冲区中是否有足够的字节来读取  `CBinaryParser::GetDWORD` DWORD，然后读取值并更新指针。 
   
-将缓冲区解析为结构后, MFCMAPI 应用程序将使用`AppointmentRecurrencePatternStructToString`函数将结构转换为要向用户显示的字符串。 这并不是 outlook 将显示的字符串, 而是 outlook 生成其逻辑的数据的原始视图。 
+将缓冲区解析为结构后，MFCMAPI 应用程序将使用 函数将结构转换为字符串，  `AppointmentRecurrencePatternStructToString` 以向用户显示。 这不是要显示的Outlook字符串，而是数据的原始视图，Outlook生成逻辑。 
   
-可以遇到包含损坏的数据或更多数据的缓冲区, 而不是对定期模式进行编码所需的数据。 为了帮助确定这些方案, MFCMAPI 应用程序将跟踪已成功分析的数据量以及缓冲区中剩余的数据量。 如果分析完成后数据仍保留在缓冲区中, 则 MFCMAPI 会在结构中包含此 "垃圾数据", 以便可以对其进行检查。
+可能会遇到包含损坏数据的缓冲区或比对文件编码所需的数据更多的定期模式。 为了帮助识别这些方案，MFCMAPI 应用程序将跟踪已成功分析的数据数和缓冲区中保留的数据数。 如果数据在分析完成后仍保留在缓冲区中，则 MFCMAPI 将在结构中包含此"垃圾邮件"，以便可以检查该数据。
   
-下面是该`BinToAppointmentRecurrencePatternStruct`函数的完整列表。 
+以下是 函数的完整  `BinToAppointmentRecurrencePatternStruct` 列表。 
   
 ```cpp
 AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULONG cbBin, LPBYTE lpBin)
@@ -212,5 +212,5 @@ AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULON
 
 ## <a name="see-also"></a>另请参阅
 
-- [使用 MAPI 创建 Outlook 2007 项目](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
+- [使用 MAPI 创建Outlook 2007 项](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

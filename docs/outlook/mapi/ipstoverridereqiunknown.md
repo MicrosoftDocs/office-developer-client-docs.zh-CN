@@ -25,26 +25,26 @@ ms.locfileid: "32356978"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-访问个人文件夹文件 (PST) 存储提供程序的资源。
+访问 PST 存储提供程序 (个人) 文件的资源。
   
 |||
 |:-----|:-----|
-|继承自:  <br/> |IUnknown  <br/> |
+|继承自：  <br/> |IUnknown  <br/> |
 |实现者：  <br/> |PST 存储提供程序  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
-|接口标识符:  <br/> |IID_IPSTOVERRIDEREQ  <br/> |
+|接口标识符：  <br/> |IID_IPSTOVERRIDEREQ  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |启动个人文件夹 (.pst) 文件的解锁过程。  <br/> |
+|[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |启动个人文件夹的解锁过程 (.pst) 文件。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-PST 替代处理程序接口标识符可能不是在您当前拥有的可下载头文件中定义的, 在这种情况下, 您将在[MAPI 常量](mapi-constants.md)主题中找到它们, 并且可以将它们复制并添加到代码中。 使用 Microsoft Windows 软件开发工具包 (SDK) 头文件 guiddef.h 中定义的 DEFINE_GUID 宏将全局唯一标识符 (GUID) 符号名称与它们的值关联。 
+PST 覆盖处理程序接口标识符可能未在当前具有的可下载头文件中定义，在这种情况下，您将在 [MAPI 常量](mapi-constants.md) 主题中查找它们，并可以复制它们并将其添加到代码中。 使用 Microsoft Windows 软件开发工具包 (SDK) 头文件 guiddef.h 中定义的 DEFINE_GUID 宏将全局唯一标识符 (GUID) 符号名称与它们的值关联。 
   
-有关详细信息, 请参阅[如何实现 PST 替代处理程序以绕过 Outlook 2007 中的 pstdisablegrow 可策略](https://support.microsoft.com/kb/956070)。
+有关详细信息，请参阅[How to implement a PST override handler to bypass the PSTDisableGrow policy in Outlook 2007](https://support.microsoft.com/kb/956070)。
   
 ## <a name="see-also"></a>另请参阅
 

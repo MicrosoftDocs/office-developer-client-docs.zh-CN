@@ -32,34 +32,34 @@ ms.locfileid: "32341592"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-将此属性设置为用户的目录服务器的域名可直接连接到域控制器 (DC), 这对于配置为对 Microsoft Exchange server 2007 使用 Kerberos 身份验证的配置文件是必需的;早期版本, 通过在**PR_PROFILE_AUTH_PACKAGE**中设置**RPC_C_AUTHN_GSS_KERBEROS** 。
+将此属性设置为用户目录服务器的域名允许直接连接到域控制器 (DC) ，对于已配置为针对 Microsoft Exchange Server 2007 和早期版本使用 Kerberos 身份验证的配置文件来说，此连接是必需的，方法为在 **PR_PROFILE_AUTH_PACKAGE** 中设置 **RPC_C_AUTHN_GSS_KERBEROS。**
   
 > [!NOTE]
-> Microsoft Exchange server 2010 和 Exchange server 2013 将对客户端访问服务器进行的通讯簿调用的处理与 Exchange Server 2007 和早期版本处理它们的方式不同。 不会再使用 DSProxy 进程, 因此 Kerberos 身份验证可能会成功。 但是, 客户端仍将与 Exchange 服务器进行通信, 而不是直接与 DC 通信, 这可能不是您所需要的: 设置**PR_PROFILE_HOME_SERVER_FQDN**避免了这种情况。 
+> Microsoft Exchange Server 2010 和 Exchange Server 2013 处理对客户端访问服务器的通讯簿调用的方式与 Exchange Server 2007 和早期版本处理这些呼叫的方式不同。 不再使用 DSProxy 进程，因此 Kerberos 身份验证可能会成功。 但是，客户端仍将与 Exchange 服务器通信，而不是直接与 DC 通信，这可能不需要：设置 **PR_PROFILE_HOME_SERVER_FQDN可以避免这种情况**。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
 > 指定核心邮件存储对象的允许操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

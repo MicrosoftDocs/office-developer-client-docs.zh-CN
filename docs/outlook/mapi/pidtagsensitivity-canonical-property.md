@@ -25,24 +25,24 @@ ms.locfileid: "32342502"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个值, 该值指示邮件发件人对邮件敏感度的评价。
+包含一个值，该值指示邮件发件人对邮件的敏感度的意见。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SENSITIVITY  <br/> |
 |标识符:  <br/> |0x0036  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 建议邮件对象公开此属性。
   
-此属性可以具有下列值之一:
+此属性可以正好具有下列值之一：
   
 SENSITIVITY_NONE 
   
-> 邮件没有特殊敏感度。
+> 邮件没有特殊的敏感度。
     
 SENSITIVITY_PERSONAL 
   
@@ -60,23 +60,23 @@ SENSITIVITY_COMPANY_CONFIDENTIAL
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

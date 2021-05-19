@@ -25,21 +25,21 @@ ms.locfileid: "32357615"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-一个位掩码, 指定如何自定义邮件 (例如, 使用自定义属性保存)。
+一个位掩码，指定如何自定义邮件，例如，与自定义属性一起保存。
   
 ## 
 
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidCustomFlag  <br/> |
-|长 ID (盖子):  <br/> |0x00008251  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008251  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-若要检索此属性的值, 请先使用**[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)** 获取属性标记, 然后在**[IMAPIProp:: GetProps](imapiprop-getprops.md)** 中指定此属性标记以获取值。 
+若要检索此属性的值，首先使用 **[IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md)** 获取属性标记，然后在 **[IMAPIProp：：GetProps](imapiprop-getprops.md)** 中指定此属性标记以获取值。 
   
-可能的标志如下所示:
+可能的标志如下所示：
   
 ****
 
@@ -48,33 +48,33 @@ ms.locfileid: "32357615"
 |INSP_ONEOFFFLAGS  <br/> |0x0D000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x02000000  <br/> |
    
-调用**IMAPIProp:: GetIDsFromNames**时, 为输入参数*lppPropNames*指向的**[MAPINAMEID](mapinameid.md)** 结构指定以下值。 
+调用 **IMAPIProp：：GetIDsFromNames** 时，为输入参数 *lppPropNames* 指向的 **[MAPINAMEID](mapinameid.md)** 结构指定以下值。 
   
 ****
 
-|**Member**|**值**|
+|**成员**|**值**|
 |:-----|:-----|
-|lpGuid:  <br/> |PSETID_Common  <br/> |
-|ulKind:  <br/> |MNID_ID  <br/> |
-|类型盖子:  <br/> |dispidCustomFlag  <br/> |
+|lpGuid：  <br/> |PSETID_Common  <br/> |
+|ulKind：  <br/> |MNID_ID  <br/> |
+|Kind.lID：  <br/> |dispidCustomFlag  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

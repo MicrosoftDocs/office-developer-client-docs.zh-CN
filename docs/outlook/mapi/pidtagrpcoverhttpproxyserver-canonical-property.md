@@ -21,7 +21,7 @@ ms.locfileid: "32357881"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于将 microsoft Outlook 连接到不带 HTTP 协议的 microsoft Exchange server 的代理服务器的 URL 或位于 URL 前面的超文本传输协议安全 (HTTPS) 协议。
+包含用于将 Microsoft Outlook 连接到 Microsoft Exchange Server 的代理服务器的 URL，不带 URL 之前随附的 HTTP 协议或超文本传输协议安全 (HTTPS) 协议。
   
 ## 
 
@@ -36,27 +36,27 @@ ms.locfileid: "32357881"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 定义在远程操作中使用的基本数据结构。
+> 定义远程操作中使用的基本数据结构。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许的电子邮件对象的属性和操作。
+> 指定允许电子邮件对象使用的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

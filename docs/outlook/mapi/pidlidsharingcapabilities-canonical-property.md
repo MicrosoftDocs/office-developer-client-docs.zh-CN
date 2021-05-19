@@ -30,35 +30,35 @@ ms.locfileid: "32358889"
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidSharingCaps  <br/> |
-|属性集:  <br/> |PSETID_Sharing  <br/> |
-|长 ID (盖子):  <br/> |0x00008A17  <br/> |
+|属性集：  <br/> |PSETID_Sharing  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008A17  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性必须设置为以下值之一:
+此属性必须设置为下列值之一：
   
 |**值**|**应用场景**|
 |:-----|:-----|
 |0x00040290  <br/> |此共享邮件对象与特殊文件夹相关。  <br/> |
-|0x000402B0  <br/> |此共享邮件对象与特殊文件夹无关。  <br/> |
+|0x000402B0  <br/> |此共享邮件对象与特殊文件夹不相关。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > 在客户端之间共享邮箱文件夹。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

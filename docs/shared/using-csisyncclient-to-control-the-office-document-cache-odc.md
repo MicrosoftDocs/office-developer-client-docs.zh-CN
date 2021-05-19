@@ -1,11 +1,11 @@
 ---
-title: 使用 CSISyncClient 控制 Office 文档缓存 (ODC)
+title: '使用 CSISyncClient 控制 ODC Office文档 (缓存) '
 manager: soliver
 ms.date: 07/13/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
-description: 了解如何使用 CSISyncClient 控制 Office 文档缓存 (ODC)。
+description: 了解如何使用 CSISyncClient 控制 ODC Office缓存 (缓存) 。
 ms.openlocfilehash: ce33063f88492bcd6f9682a4a6431fb36f138d55
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -13,17 +13,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32346254"
 ---
-# <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>使用 CSISyncClient 控制 Office 文档缓存 (ODC)
+# <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>使用 CSISyncClient 控制 ODC Office文档 (缓存) 
 
-了解如何使用 CSISyncClient 控制 Office 文档缓存 (ODC)。
+了解如何使用 CSISyncClient 控制 ODC Office缓存 (缓存) 。
   
-CSISyncClient 是一个进程外 COM 服务器 (CSISyncClient), 它允许 Microsoft OneDrive 控制 Office 文档缓存 (ODC) 的行为。 例如, OneDrive 可能会通过 CSISyncClient 在 ODC 上进行调用, 以在 MS ms-fsshttp 启用的终结点上传和下载文件。 这将启用 Office 中的高级服务支持功能, 如共同创作和从脱机到联机的无缝转换。
+CSISyncClient 是一个非 proc COM (CsiSyncClient.exe) ，它允许 Microsoft OneDrive 控制 Office 文档缓存 (ODC) 的行为。 例如，OneDrive通过 CSISyncClient 调用 ODC，将文件上载和下载至启用了 MS-FSSHTTP 的终结点和从这些终结点下载文件。 这样一来，Office支持高级服务的功能，例如共同创作和从脱机到联机的无缝转换。
   
-CsiSyncClient 在 Office Desktop (x86 和 x64) 中可用。 注意: 虽然较新版本的 Office 可能附带 CsiSyncClient, 但此过程仅用于向后兼容性。 用于控制 ODC 的 CsiSyncClient 接口和方法在将来的 Office 版本中会发生变化。
+CsiSyncClient 适用于 Office 桌面 (x86 和 x64) 。 注意：虽然更高版本的 Office可能会随 CsiSyncClient 一起提供，但该过程将仅用于向后兼容。 CsiSyncClient 接口和控制 ODC 的方法将在未来版本的 odC 中Office。
   
-类 ID 当前设置为仅响应 OneDrive。
+课程 ID 当前设置为仅响应OneDrive。
   
-com 对象可用作进程外 com 服务器, 并在 CsiSyncClient 中运行。 由于 Access (ODC 使用) 的限制, 它附带了 Office 所带的位类型, 因此 x64 office 表示 x64 com 对象, 或 x86 office 表示 x86 com 对象。 若要避免此限制, 将 CLSCTX_LOCAL_SERVER 指定为 CoCreateInstance 的一部分会将 com 对象作为进程外 com 服务器托管, 从而允许跨位数兼容性。
+COM 对象可以用作非 proc COM 服务器，并运行在 CsiSyncClient.exe。 由于 ODC 使用) Office 的 Access (存在限制，因此 x64 Office 表示 x64 COM 对象，x86 Office 表示 x86 COM 对象。 要绕开此限制，将 CLSCTX_LOCAL_SERVER指定为 CoCreateInstance 的一部分将 COM 对象作为非 proc COM 服务器托管，从而允许跨位兼容性。
   
 ## <a name="interfaces"></a>接口
 
@@ -31,23 +31,23 @@ CSISyncClient 使用下列接口。
   
 ### <a name="interface-ilsclocalsyncclient"></a>接口 ILSCLocalSyncClient
 
-这是用于同步 Office 中的文件的主要界面。
+这是用于同步文件中文件的主要Office。
   
-- ProgID: LocalSyncClient
-- CLSID: {14286318-B6CF-49a1-81FC-D74AD94902F9}
-- TypeLib: {66CDD37F-D313-4e81-8C31-4198F3E42C3C}
+- ProgID：Office。LocalSyncClient
+- CLSID：{14286318-B6CF-49a1-81FC-D74AD94902F9}
+- TypeLib：{66CDD37F-D313-4e81-8C31-4198F3E42C3C}
    
-公开的 COM 对象用作进程外服务器。 将 CLSCTX_LOCAL_SERVER 指定为 CoCreateInstance 的一部分可以实现64位和32位进程之间的兼容性。
+公开的 COM 对象用作非 proc 服务器。 将 CLSCTX_LOCAL_SERVER CoCreateInstance 允许 64bit 和 32bit 进程之间的可共存性。
   
-共同创建 COM 对象后, 必须先调用[ILSCLocalSyncClient:: first 初始化](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)。 一旦[ILSCLocalSyncClient:: 初始化](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)成功完成, 您可以根据需要按任意顺序调用任何 API。 您还可以对已经初始化的对象调用[ILSCLocalSyncClient:: Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) , 但这不起任何作用。 
+共同创建 COM 对象后，必须先调用[ILSCLocalSyncClient：：Initialize。](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) [ILSCLocalSyncClient：：Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)成功完成后，你可任意按需要经常调用任何 API。 还可以对已初始化的对象调用 [ILSCLocalSyncClient：：Initialize， ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 但此操作不执行任何操作。 
   
-前一段的例外情况是[ILSCLocalSyncClient:: ResetCache](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ResetCache)和[ILSCLocalSyncClient:: 取消初始化](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize)。 在对 COM 对象调用[ILSCLocalSyncClient:: 取消初始化](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize)后, 必须销毁该对象并创建一个新对象。 [ILSCLocalSyncClient:: ResetCache](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ResetCache)将删除您的 subcache, 删除缓存中的所有关联文件信息, 但将这些文档保留在磁盘上。 它还保持与缓存进行通信的状态不变。 这使您可以调用[ILSCLocalSyncClient:: 重新初始化](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)以创建新的缓存, 而无需销毁并重新创建 COM 对象。 
+上一段落的例外情况是 [ILSCLocalSyncClient：：ResetCache ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ResetCache) 和 [ILSCLocalSyncClient：：Uninitialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize)。 在 COM 对象上调用 [ILSCLocalSyncClient：：Uninitialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize) 后，必须销毁该对象并创建一个新对象。 [ILSCLocalSyncClient：：ResetCache ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ResetCache) 将删除子缓存、删除缓存中所有关联的文件信息，但将文档保留磁盘上。 它还保持与缓存通信的状态不变。 这允许你再次调用 [ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 以创建新缓存，而无需销毁并重新创建 COM 对象。 
   
 **公共成员函数**
 
-#### <a name="ilsclocalsyncclientdeletefile"></a>ILSCLocalSyncClient::D eletefile
+#### <a name="ilsclocalsyncclientdeletefile"></a>ILSCLocalSyncClient：:D eleteFile
 
-DeleteFile 用于从缓存中删除文件信息。 但是, 此方法将把关联的文件保留在磁盘上和服务器上。
+DeleteFile 用于从缓存中删除文件信息。 但是，此方法将关联的文件保留磁盘上和服务器上。
   
 `HRESULT ILSCLocalSyncClient::DeleteFile ([in] BSTR bstrResourceID)`
 
@@ -55,7 +55,7 @@ DeleteFile 用于从缓存中删除文件信息。 但是, 此方法将把关联
 
  _bstrResourceID_
   
-标识文件的 ResourceID 的字符串。 此值必须为非空, 最多为128个字符。 
+标识文件的 ResourceID 的字符串。 此值必须非空，最多为 128 个字符。 
   
 ##### <a name="return-values"></a>返回值
 
@@ -65,14 +65,14 @@ DeleteFile 用于从缓存中删除文件信息。 但是, 此方法将把关联
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
 |E_FAIL  <br/> |调用失败。  <br/> |
 |E_LSC_FILENOTFOUND  <br/> |给定的 ResourceID 不在缓存中。  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |过去未成功调用初始化。  <br/> |
-|E_LSC_PENDINGCHANGESINCACHE  <br/> |文件当前正在同步或已打开, 无法删除。  <br/> |
+|E_LSC_NOTINITIALIZED  <br/> |过去未成功调用 Initialize。  <br/> |
+|E_LSC_PENDINGCHANGESINCACHE  <br/> |文件当前正在同步或打开，无法删除。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientgetchanges"></a>ILSCLocalSyncClient:: GetChanges
+#### <a name="ilsclocalsyncclientgetchanges"></a>ILSCLocalSyncClient：：GetChanges
 <a name="ILSCLocalSyncClient_GetChanges"> </a>
 
-GetChanges 返回 ILSCEvent 对象的枚举器, 并且还返回一个令牌, 该令牌将提供给下一个对 GetChanges 的调用, 假定使用者已处理了以前的一组事件。 在指定的_nPreviousChangesToken_之前的事件将被删除且不可用。 如果没有要处理的事件, 则_pnCurrentChangesToken_应与_nPreviousChangesToken_的值相同, 但仍将设置_ppiEvents_ 。 
+GetChanges 返回 ILSCEvent 对象的枚举器，并返回一个令牌，该令牌将给予对 GetChanges 的下一个调用（假设使用者已处理上一组事件）。 指定的  _nPreviousChangesToken_ 之前的事件将被删除且不可用。 如果没有要处理的事件 _，pnCurrentChangesToken_ 的值应该与 _nPreviousChangesToken_ 相同，但仍将设置 _ppiEvents。_ 
   
 `HRESULT ILSCLocalSyncClient::GetChanges ([in] LONG nPreviousChangesToken, [out] LONG * pnCurrentChangesToken, [out] IEnumLSCEvent ** ppiEvents)`
 
@@ -84,11 +84,11 @@ GetChanges 返回 ILSCEvent 对象的枚举器, 并且还返回一个令牌, 该
   
  _pnCurrentChangesToken_
   
-标识正在传递给使用者的最新事件。 不得为 null。
+标识要交给消费者的最新事件。 不得为 null。
   
  _ppiEvents_
   
-传递给使用者的事件的枚举器。 不得为 null。 
+向消费者提供的事件的枚举器。 不得为 null。 
   
 ##### <a name="return-values"></a>返回值
 
@@ -96,12 +96,12 @@ GetChanges 返回 ILSCEvent 对象的枚举器, 并且还返回一个令牌, 该
 |:-----|:-----|
 |E_FAIL  <br/> |调用失败。  <br/> |
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)过去未成功调用初始化。  <br/> |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 过去未成功调用。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientgetclientnetworksyncpermission"></a>ILSCLocalSyncClient:: GetClientNetworkSyncPermission
+#### <a name="ilsclocalsyncclientgetclientnetworksyncpermission"></a>ILSCLocalSyncClient：：GetClientNetworkSyncPermission
 
-GetClientNetworkSyncPermission 用于查询 Office 对网络成本和电源使用的同步试探法是否已被覆盖。 在3g 或其他高成本网络上, 或在使用电池运行而不是插入时, Office 可能会选择阻止网络流量, 直到 opportune 时间。
+GetClientNetworkSyncPermission 用于查询Office网络成本和电源使用情况的同步启发是否被覆盖。 当使用 3G 或其他高成本网络时，或者当使用电池运行与插入时，Office可能会选择阻止网络流量，直到更适当的时间。
   
 `HRESULT ILSCLocalSyncClient::GetClientNetworkSyncPermission ([in] LSCNetworkSyncPermissionType nspType, [out] VARIANT_BOOL * pfSyncEnabled)`
 
@@ -109,11 +109,11 @@ GetClientNetworkSyncPermission 用于查询 Office 对网络成本和电源使�
 
  _nspType_
   
-定义要查询的成本启发的标志。 请参阅[Enum LSCNetworkSyncPermissionType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCNetworkSyncPermissionType)。 
+定义要查询的成本启发式标记。 请参阅 [Enum LSCNetworkSyncPermissionType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCNetworkSyncPermissionType)。 
   
  _pfSyncEnabled_
   
-指定请求的成本试探法当前是否已覆盖。 不得为 null。 
+指定当前是否覆盖请求的成本启发。 不得为 null。 
   
 ##### <a name="return-values"></a>返回值
 
@@ -121,12 +121,12 @@ GetClientNetworkSyncPermission 用于查询 Office 对网络成本和电源使�
 |:-----|:-----|
 |E_FAIL  <br/> |调用失败。  <br/> |
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)过去未成功调用初始化。  <br/> |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 过去未成功调用。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientgetfilestatus"></a>ILSCLocalSyncClient:: GetFileStatus
+#### <a name="ilsclocalsyncclientgetfilestatus"></a>ILSCLocalSyncClient：：GetFileStatus
 
-GetFileStatus 用于收集特定文件的信息: 无论它是否存在于缓存中, 如果有挂起的与服务器副本的通信, 以及 Office 2013 是否具有来自本地副本的最新数据。 它需要[枚举 LSCStatusFlag](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCStatusFlag)值的按位标志, 以确定 CsiSyncClient COM 对象要查询的信息。 
+GetFileStatus 用于收集特定文件的信息：它是否位于缓存中、它是否具有与服务器副本的挂起通信，以及 Office 2013 具有本地副本中最新数据。 它需要 [Enum LSCStatusFlag](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCStatusFlag) 值的位标志来确定 CsiSyncClient COM 对象要查询的信息。 
   
 `HRESULT ILSCLocalSyncClient::GetFileStatus ([in] BSTR bstrResourceID, [in] LSCStatusFlag sfRequestedStatus, [out] BSTR * pbstrFileSystemPath, [out] BSTR * pbstrETag, [out] LSCStatusFlag * psfFileStatus)`
 
@@ -134,23 +134,23 @@ GetFileStatus 用于收集特定文件的信息: 无论它是否存在于缓存�
 
  _bstrResourceID_
   
-标识客户端上的文件的字符串。 此值必须为非空, 最多为128个字符。 
+标识客户端上的文件的字符串。 此值必须非空，最多为 128 个字符。 
   
  _sfRequestedStatus_
   
-定义要返回的信息的标志。 请参阅[Enum LSCStatusFlag](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCStatusFlag)。 
+定义要返回的信息的标志。 请参阅 [Enum LSCStatusFlag](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCStatusFlag)。 
   
  _pbstrFileSystemPath_
   
-标识由客户端上的_bstrResourceID_标识的文件的位置的字符串。 不得为 null。 
+标识由  _bstrResourceID_ 标识的文件在客户端上的位置的字符串。 不得为 null。 
   
  _pbstrETag_
   
-一个字符串, 它将包含由_bstrResourceID_标识的文件的 eTag。 不得为 null。 
+一个字符串，其中包含由  _bstrResourceID_ 标识的文件的 eTag。 不得为 null。 
   
  _psfFileStatus_
   
-一个标志, 该标志将包含通过_sfRequestedStatus_为_bstrResourceID_标识的文件请求的状态。 不得为 null。 请参阅[Enum LSCStatusFlag](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCStatusFlag)。 
+一个标志，其中包含通过  _sfRequestedStatus_ 为  _bstrResourceID_ 标识的文件请求的状态。 不得为 null。 请参阅 [Enum LSCStatusFlag](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCStatusFlag)。 
   
 ##### <a name="return-values"></a>返回值
 
@@ -158,17 +158,17 @@ GetFileStatus 用于收集特定文件的信息: 无论它是否存在于缓存�
 |:-----|:-----|
 |E_FAIL  <br/> |调用失败。  <br/> |
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
-|E_LSC_FILENOTFOUND  <br/> |_bstrResourceID_指定的文件信息在缓存中不存在。  <br/> |
-|E_LSC_LOCALFILEUNAVAILABLE  <br/> |已请求 LSCStatusFlag_LocalFileUnchanged 或_bstrResourceID_指定的文件已锁定或丢失。  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)过去未成功调用初始化。  <br/> |
+|E_LSC_FILENOTFOUND  <br/> |_bstrResourceID_ 指定的文件信息在缓存中不存在。  <br/> |
+|E_LSC_LOCALFILEUNAVAILABLE  <br/> |LSCStatusFlag_LocalFileUnchanged请求，或者  _bstrResourceID_ 指定的文件已锁定或丢失。  <br/> |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 过去未成功调用。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientgetsupportedfileextensions"></a>ILSCLocalSyncClient:: GetSupportedFileExtensions
+#### <a name="ilsclocalsyncclientgetsupportedfileextensions"></a>ILSCLocalSyncClient：：GetSupportedFileExtensions
 <a name="ILSCLocalSyncClient_GetSupportedFileExtensions"> </a>
 
-GetSupportedFileExtensions 返回 CsiSyncClient COM 对象当前支持的、由管道分隔的文件扩展名列表。 请注意, 此列表可能会发生更改, 并且将通过 ILSCLocalSyncClient 中提供的 IPartnerActivityCallback 对象通知使用者[:: Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) (请参阅 EventOccured)。 
+GetSupportedFileExtensions 返回由管道分隔的文件扩展名的列表，这些扩展名当前受 CsiSyncClient COM 对象支持。 请注意，此列表可能会更改，并且将通过 [ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 上提供的 IPartnerActivityCallback 对象通知使用者 (EventOccured) 。 
   
-返回的字符串示例如下: "| .docx | .docm | .pptx |"
+返回的字符串示例如下："|docx|docm|pptx|"
   
 `HRESULT ILSCLocalSyncClient::GetSupportedFileExtensions ([out] BSTR * pbstrSupportedFileExtensions)`
 
@@ -176,7 +176,7 @@ GetSupportedFileExtensions 返回 CsiSyncClient COM 对象当前支持的、由�
 
  _pbstrSupportedFileExtensions_
   
-要使用 CsiSyncClient COM 对象支持的一组由管道分隔的文件扩展名进行设置的字符串。 不得为 null。 
+使用 CsiSyncClient COM 对象支持的一组通过管道分隔的文件扩展名设置的字符串。 不得为 null。 
   
 ##### <a name="return-values"></a>返回值
 
@@ -184,13 +184,13 @@ GetSupportedFileExtensions 返回 CsiSyncClient COM 对象当前支持的、由�
 |:-----|:-----|
 |E_FAIL  <br/> |调用失败。  <br/> |
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)过去未成功调用初始化。  <br/> |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 过去未成功调用。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientinitialize"></a>ILSCLocalSyncClient:: Initialize
+#### <a name="ilsclocalsyncclientinitialize"></a>ILSCLocalSyncClient：：Initialize
 <a name="ILSCLocalSyncClient_Initialize"> </a>
 
-初始化必须是调用的第一个方法。 否则, 所有其他 api 将返回 E_LSC_NOTINITIALIZED。 对已初始化的对象调用 Initialize 将返回 S_OK, 并且不执行任何操作。 如果返回 E_LSC_CACHEMISMATCH, 则调用方可能会调用[ILSCLocalSyncClient:: ResetCache](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ResetCache)以删除与给定 SuppliedID 关联的缓存。 但是, 在这种情况下, 其他 api 仍将返回 E_LSC_NOTINITIALIZED。 
+Initialize 必须是第一个调用的方法。 否则，所有其他 API 将返回E_LSC_NOTINITIALIZED。 对已初始化的对象调用 Initialize 将返回 S_OK，并且不执行任何操作。 如果E_LSC_CACHEMISMATCH，则调用方可能调用 [ILSCLocalSyncClient：：ResetCache ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ResetCache) 以删除与给定 SuppliedID 关联的缓存。 但是，在这种情况下，其他 API 仍将返回E_LSC_NOTINITIALIZED。 
   
 `HRESULT ILSCLocalSyncClient::Initialize ([in] BSTR bstrSuppliedID, [in] BSTR bstrProgID, [in] BSTR bstrFileSystemDirectoryHint, [in] IPartnerActivityCallback * pEventCallback, [out] VARIANT_BOOL * pfCreatedNewCache)`
 
@@ -198,23 +198,23 @@ GetSupportedFileExtensions 返回 CsiSyncClient COM 对象当前支持的、由�
 
  _bstrSuppliedID_
   
-标识使用者以及要使用的缓存。 必须为非空, 最多为32个字符。 
+标识使用者以及要使用哪个缓存。 必须非空，最多 32 个字符。 
   
  _bstrProgID_
   
-标识用于双向通信的使用者的 COM 对象。 必须为非空, 最多为39个字符。 有关 ProgIDs 的详细信息, 请参阅[ \<ProgID\> Key](https://docs.microsoft.com/windows/desktop/com/-progid--key) 。 
+标识用于双向通信的使用者的 COM 对象。 必须非空，最多 39 个字符。 有关[ \< ProgID \> 的信息，请参阅 ProgID](https://docs.microsoft.com/windows/desktop/com/-progid--key)密钥。 
   
  _bstrFileSystemDirectoryHint_
   
-标识将在其中存储本地文件的目录根。 必须为非空, 最多为256个字符。 该目录必须已经存在。 
+标识将存储本地文件的目录根目录。 不得为空，最多为 256 个字符。 目录必须已经存在。 
   
  _pEventCallback_
   
-CsiSyncClient 将在发生更改时通知的回调接口。 请参阅 IPartnerActivityCallback:: EventOccurred。 此值不得为 null。 
+CsiSyncClient 将在更改时通知的回调接口。 请参阅 IPartnerActivityCallback：：EventOccurred。 此值不能为 null。 
   
  _pfCreatedNewCache_
   
-返回一个指示是否已创建新的缓存。 如果没有与 SuppliedID 关联的缓存, 则将创建一个缓存。 此值不得为 null。
+返回是否已创建一个新缓存。 如果没有与 SuppliedID 关联的缓存，将创建一个缓存。 此值不能为 null。
   
 ##### <a name="return-values"></a>返回值
 
@@ -222,17 +222,17 @@ CsiSyncClient 将在发生更改时通知的回调接口。 请参阅 IPartnerAc
 |:-----|:-----|
 |E_FAIL  <br/> |调用失败。  <br/> |
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
-|E_LSC_CACHEMISMATCH  <br/> |SuppliedID 已有与之关联的缓存, 但其 ProgId 或 FileSystemDirectoryHint 与提供的是不同的 ProgId 或文件。  <br/> |
-|E_LSC_DIRECTORYHINTCONFLICT  <br/> |FileSystemDirectoryHint (或子文件夹) 已存在于不同的缓存中。  <br/> |
-|E_LAC_PROGIDCONFLICT  <br/> |ProgID 已经存在于不同的缓存中。  <br/> |
+|E_LSC_CACHEMISMATCH  <br/> |SuppliedID 已具有与其关联的缓存，但 ProgId 或 FileSystemDirectoryHint 与提供的缓存不同。  <br/> |
+|E_LSC_DIRECTORYHINTCONFLICT  <br/> |FileSystemDirectoryHint (或子文件夹) 缓存中已存在。  <br/> |
+|E_LAC_PROGIDCONFLICT  <br/> |ProgID 已存在于其他缓存中。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientlocalfilechange"></a>ILSCLocalSyncClient:: LocalFileChange
+#### <a name="ilsclocalsyncclientlocalfilechange"></a>ILSCLocalSyncClient：：LocalFileChange
 <a name="ILSCLocalSyncClient_LocalFileChange"> </a>
 
-LocalFileChange 用于通知 CsiSyncClient COM 对象尝试上传指定的文件。 此方法将为上载准备文件, 包括读取文件的当前内容。 如果上载已挂起, 将放弃上一个上载, 并为上载准备好的新内容。 如果在应用程序中打开文件进行编辑, 则此方法将返回 S_OK, 而不准备上载文件 (如果存在更改, 应用程序应已执行此步骤)。
+LocalFileChange 用于告诉 CsiSyncClient COM 对象尝试上载指定文件。 方法将准备文件进行上载，包括读取文件的当前内容。 如果上载已挂起，将放弃之前上载的内容，并准备新内容进行上载。 如果文件在应用程序中打开进行编辑，此方法将返回 S_OK而不准备文件上载 (如果文件发生更改，则应用程序应该已经执行) 。
   
-此方法将允许上载 (如果之前已将其标记为 "已阻止上载") (请参阅[ILSCLocalSyncClient:: RenameFile ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_RenameFile))。
+如果之前将此方法标记为已阻止上传， ([ILSCLocalSyncClient：：RenameFile ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_RenameFile)) 。
   
 `HRESULT ILSCLocalSyncClient::LocalFileChange ([in] BSTR bstrFileSystemPath, [in] BSTR bstrWebPath, [in] BSTR bstrResourceID)`
 
@@ -240,15 +240,15 @@ LocalFileChange 用于通知 CsiSyncClient COM 对象尝试上传指定的文件
 
  _bstrFileSystemPath_
   
-一个标识客户端上的文件的字符串。 此值必须为非空的本地路径, 最多为256个字符。 调用[ILSCLocalSyncClient:: Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)时, 此路径必须位于由 FileSystemDirectoryHint 指定的目录树中。 
+标识客户端上的文件的字符串。 此值必须是最多包含 256 个字符的非空本地路径。 当调用 [ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 时，此路径必须位于 FileSystemDirectoryHint 指定的目录树中。 
   
  _bstrResourceID_
   
-一个标识文件的 ResourceID 的字符串。 此值必须为非空, 最多为128个字符。 
+一个标识文件的 ResourceID 的字符串。 此值必须非空，最多为 128 个字符。 
   
  _bstrWebPath_
   
-一个标识服务器上的文件的字符串。 此值必须为非空、有效的 URL, 但不能长于 INTERNET_MAX_URL_LENGTH 定义的https://support.microsoft.com/kb/208427。 
+一个标识服务器上文件的字符串。 此值必须为非空的有效 URL，但不得超过 INTERNET_MAX_URL_LENGTH，如 https://support.microsoft.com/kb/208427 所定义。 
   
 ##### <a name="return-values"></a>返回值
 
@@ -256,22 +256,22 @@ LocalFileChange 用于通知 CsiSyncClient COM 对象尝试上传指定的文件
 |:-----|:-----|
 |E_FAIL  <br/> |调用失败。  <br/> |
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
-|E_LSC_CONFLICTINGFILE  <br/> |_bstrFileSystemPath_指定的文件的 ResourceID 与指定的 ResourceID 不同。 当返回此错误时, 将发送 LSCEventType_OnFilePathConflict 类型的事件。 请参阅[ILSCLocalSyncClient:: GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges)。  <br/> |
-|E_LSC_FILENOTFOUND  <br/> |文件是在操作中删除的。  <br/> |
-|E_LSC_FILENOTSUPPORTED  <br/> |CsiSyncClient COM 对象不支持给定的文件扩展名。 请参阅[ILSCLocalSyncClient:: GetSupportedFileExtensions ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetSupportedFileExtensions)。  <br/> |
-|E_LSC_FILEUPTODATE  <br/> |由于缓存中的文件包含磁盘的最新更改, 因此 COM 对象未计划上载。  <br/> |
-|E_LSC_LOCALFILEUNAVAILABLE  <br/> |_bstrFileSystemPath_指定的文件已丢失或被锁定。  <br/> |
-|E_LSC_LOCALPATHNOTMAPPED  <br/> |在进行初始化调用时, 给定的 FileSystemPath 不在 FileSystemDirectoryHint 指定的目录根目录下。  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)过去未成功调用初始化。  <br/> |
-|E_LSC_PATHMISMATCH  <br/> |_bstrResourceID_指定的文件具有与指定的 FileSystemPath 不同的。  <br/> |
-|E_LSC_PENDINGCHANGESINCACHE  <br/> |指定的文件在其他缓存中已有挂起的更改, 并且尚未与使用者的缓存关联。  <br/> |
-|E_LSC_SERVERPATHINDIFFERENTCACHE  <br/> |提供的 WebPath 位于不同的缓存中。  <br/> |
+|E_LSC_CONFLICTINGFILE  <br/> |_bstrFileSystemPath_ 指定的文件与指定的 ResourceID 不同。 返回此错误LSCEventType_OnFilePathConflict发送类型为 LSCEventType_OnFilePathConflict 的事件。 请参阅 [ILSCLocalSyncClient：：GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges)。  <br/> |
+|E_LSC_FILENOTFOUND  <br/> |文件在操作期间被删除。  <br/> |
+|E_LSC_FILENOTSUPPORTED  <br/> |CsiSyncClient COM 对象不支持给定的文件扩展名。 请参阅 [ILSCLocalSyncClient：：GetSupportedFileExtensions ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetSupportedFileExtensions)。  <br/> |
+|E_LSC_FILEUPTODATE  <br/> |COM 对象没有计划上载，因为缓存中的文件具有来自磁盘的最新更改。  <br/> |
+|E_LSC_LOCALFILEUNAVAILABLE  <br/> |_bstrFileSystemPath_ 指定的文件丢失或锁定。  <br/> |
+|E_LSC_LOCALPATHNOTMAPPED  <br/> |调用 Initialize 时，给定的 FileSystemPath 不在 FileSystemDirectoryHint 指定的目录根目录下。  <br/> |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 过去未成功调用。  <br/> |
+|E_LSC_PATHMISMATCH  <br/> |_bstrResourceID_ 指定的文件与指定的 FileSystemPath 不同。  <br/> |
+|E_LSC_PENDINGCHANGESINCACHE  <br/> |指定的文件已在其他缓存中具有挂起的更改，并且无法与使用者的缓存相关联。  <br/> |
+|E_LSC_SERVERPATHINDIFFERENTCACHE  <br/> |提供的 WebPath 属于不同的缓存。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientrenamefile"></a>ILSCLocalSyncClient:: RenameFile
+#### <a name="ilsclocalsyncclientrenamefile"></a>ILSCLocalSyncClient：：RenameFile
 <a name="ILSCLocalSyncClient_RenameFile"> </a>
 
-RenameFile 将为给定的 ResourceID 关联新的 URL 和本地路径。 如果由 ResourceID 指定的文件在缓存中不存在, 则将尝试创建该文件并将其标记为下载。
+RenameFile 将关联给定 ResourceID 的新 URL 和本地路径。 如果 ResourceID 指定的文件在缓存中不存在，将尝试创建该文件并标记为下载。
   
 `HRESULT ILSCLocalSyncClient::RenameFile ([in] BSTR bstrResourceID, [in] BSTR bstrNewFileSystemPath, [in] BSTR bstrNewWebPath, [in] VARIANT_BOOL fBlockUploads)`
 
@@ -279,15 +279,15 @@ RenameFile 将为给定的 ResourceID 关联新的 URL 和本地路径。 如果
 
  _bstrResourceID_
   
-一个标识文件的 ResourceID 的字符串。 此值必须为非空, 最多为128个字符。 
+一个标识文件的 ResourceID 的字符串。 此值必须非空，最多为 128 个字符。 
   
  _bstrNewFileSystemPath_
   
-一个字符串, 它指定文件的新本地路径。 此值必须为非空的本地路径, 最多为256个字符。 此路径必须位于由 FileSystemDirectoryHint 指定的目录树中进行初始化调用时。 
+指定文件的新本地路径的字符串。 此值必须是最多包含 256 个字符的非空本地路径。 当调用 Initialize 时，此路径必须在 FileSystemDirectoryHint 指定的目录树中。 
   
  _bstrNewWebPath_
   
-一个字符串, 指定文件的新 URL。 此值必须为非空的有效 URL, 但不能超过 INTERNET_MAX_URL_LENGTH (由https://support.microsoft.com/kb/208427定义)。 
+指定文件的新 URL 的字符串。 此值必须为非空的有效 URL，但不超过 INTERNET_MAX_URL_LENGTH，如 https://support.microsoft.com/kb/208427 所定义。 
   
  _fBlockUploads_
   
@@ -299,17 +299,17 @@ RenameFile 将为给定的 ResourceID 关联新的 URL 和本地路径。 如果
 |:-----|:-----|
 |E_FAIL  <br/> |调用失败。  <br/> |
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
-|E_LSC_CONFLICTINGFILE  <br/> |_bstrNewFileSystemPath_或_bstrNewWebPath_已存在于任何缓存中的另一个文件上。 当返回此错误时, 将发送 LSCEventType_OnFilePathConflict 类型的事件。 请参阅[ILSCLocalSyncClient:: GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges)。  <br/> |
-|E_LSC_FILENOTFOUND  <br/> |在此方法运行过程中, 文件信息已从缓存中删除。  <br/> |
-|E_LSC_LOCALPATHNOTMAPPED  <br/> |在进行初始化调用时, 给定的 FileSystemPath 不在 FileSystemDirectoryHint 指定的目录根目录下。  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)过去未成功调用初始化。  <br/> |
-|E_LSC_PENDINGCHANGESINCACHE  <br/> |指定的文件当前在 Office 应用程序中进行同步。  <br/> |
+|E_LSC_CONFLICTINGFILE  <br/> |_bstrNewFileSystemPath_ 或 _bstrNewWebPath_ 已存在于任何缓存中的另一个文件上。 返回此错误LSCEventType_OnFilePathConflict发送类型为 LSCEventType_OnFilePathConflict 的事件。 请参阅 [ILSCLocalSyncClient：：GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges)。  <br/> |
+|E_LSC_FILENOTFOUND  <br/> |在此方法运行时，文件信息从缓存中删除。  <br/> |
+|E_LSC_LOCALPATHNOTMAPPED  <br/> |调用 Initialize 时，给定的 FileSystemPath 不在 FileSystemDirectoryHint 指定的目录根目录下。  <br/> |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 过去未成功调用。  <br/> |
+|E_LSC_PENDINGCHANGESINCACHE  <br/> |指定的文件当前正在Office同步。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientresetcache"></a>ILSCLocalSyncClient:: ResetCache
+#### <a name="ilsclocalsyncclientresetcache"></a>ILSCLocalSyncClient：：ResetCache
 <a name="ILSCLocalSyncClient_ResetCache"> </a>
 
-ResetCache 将删除与初始化时提供的 SuppliedID 关联的缓存。 这包括所有文件信息, 但会将这些文件同时保留在客户端和服务器上。 此方法还会使对象处于部分未初始化状态。 在此之后, 唯一有效的调用是[ILSCLocalSyncClient:: Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)或[ILSCLocalSyncClient:: 取消初始化](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize)。 如果初始化失败并返回 E_LSC_CACHEMISMATCH, 则可能会调用此方法, 并将删除与失败调用一起提供的 SuppliedID 关联的缓存。
+ResetCache 将删除与 Initialize 上提供的 SuppliedID 关联的缓存。 这包括所有文件信息，但文件将同时保留在服务器上和客户端上。 此方法还会使对象部分未初始化。 在此之后，唯一有效的调用是 [ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 或 [ILSCLocalSyncClient：：Uninitialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize)。 如果 Initialize 失败并返回 E_LSC_CACHEMISMATCH，可能会调用此方法，并且将删除与失败调用提供的 SuppliedID 关联的缓存。
   
 `HRESULT ILSCLocalSyncClient::ResetCache()`
 
@@ -322,46 +322,46 @@ ResetCache 将删除与初始化时提供的 SuppliedID 关联的缓存。 这�
 |值|说明|
 |:-----|:-----|
 |E_FAIL  <br/> |调用失败。  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)过去未成功调用 Initialize。  <br/> |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 过去未成功调用。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientserverfilechange"></a>ILSCLocalSyncClient:: ServerFileChange
+#### <a name="ilsclocalsyncclientserverfilechange"></a>ILSCLocalSyncClient：：ServerFileChange
 <a name="ILSCLocalSyncClient_ServerFileChange"> </a>
 
-ServerFileChange 通知 CsiSyncClient COM 对象将指定的文件标记为下载。 如果文件已在 Office 应用程序中打开, 则此方法将返回 S_OK, 而不标记要下载的文件 (如果存在更改, 应用程序应已执行此步骤)。
+ServerFileChange 指示 CsiSyncClient COM 对象标记指定的文件进行下载。 如果文件在 Office 应用程序中打开进行编辑，此方法将返回 S_OK而不将文件标记为下载 (如果文件发生更改，则应用程序应该已经执行) 。
   
-如果之前已将下载标记为 "已阻止下载", 此方法将允许下载 (请参阅 RenameFile)。
+如果之前将其标记为已阻止下载，此方法将允许下载 (RenameFile) 。
   
 `HRESULT ILSCLocalSyncClient::ServerFileChange ([in] BSTR bstrFileSystemPath, [in] BSTR bstrWebPath, [in] BSTR bstrResourceID)`
 
 ##### <a name="parameters"></a>参数
 
-|参数|描述|
+|参数|说明|
 |:-----|:-----|
-|bstrFileSystemPath  <br/> |一个标识客户端上的文件的字符串。 此值必须为非空的本地路径, 最多为256个字符。 此路径必须位于由 FileSystemDirectoryHint 指定的目录树中进行初始化调用时。  <br/> |
-|bstrResourceID  <br/> |一个标识文件的 ResourceID 的字符串。 此值必须为非空, 最多为128个字符。  <br/> |
-|bstrWebPath  <br/> |一个标识服务器上的文件的字符串。 此值必须为非空的有效 URL, 但不能长于 INTERNET_MAX_URL_LENGTH 定义的https://support.microsoft.com/kb/208427。  <br/> |
+|bstrFileSystemPath  <br/> |标识客户端上的文件的字符串。 此值必须是最多包含 256 个字符的非空本地路径。 当调用 Initialize 时，此路径必须在 FileSystemDirectoryHint 指定的目录树中。  <br/> |
+|bstrResourceID  <br/> |一个标识文件的 ResourceID 的字符串。 此值必须非空，最多为 128 个字符。  <br/> |
+|bstrWebPath  <br/> |一个标识服务器上文件的字符串。 此值必须是非空的有效 URL，但不超过 INTERNET_MAX_URL_LENGTH，如 https://support.microsoft.com/kb/208427 所定义。  <br/> |
    
 ##### <a name="return-values"></a>返回值
 
 |值|说明|
 |:-----|:-----|
-|E_FAIL  <br/> |未能设置缓存连接状态。  <br/> |
-|E_LSC_CONFLICTINGFILE  <br/> |_bstrFileSystemPath_指定的文件的 ResourceID 与指定的 ResourceID 不同。  <br/> |
+|E_FAIL  <br/> |设置缓存连接状态失败。  <br/> |
+|E_LSC_CONFLICTINGFILE  <br/> |_bstrFileSystemPath_ 指定的文件与指定的 ResourceID 不同。  <br/> |
 |E_LSC_FILENOTSUPPORTED  <br/> |CsiSyncClient COM 对象不支持给定的文件扩展名。 请参阅 GetSupportedFileExtensions。  <br/> |
-|E_LSC_FILENOTFOUND  <br/> |在 mid 操作中删除了文件。  <br/> |
+|E_LSC_FILENOTFOUND  <br/> |文件在操作期间被删除。  <br/> |
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
-|E_LSC_LOCALPATHNOTMAPPED  <br/> |在进行初始化调用时, 给定的 FileSystemPath 不在 FileSystemDirectoryHint 指定的目录根目录下。  <br/> |
-|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)过去未成功调用初始化。  <br/> |
-|E_LSC_PATHMISMATCH  <br/> |_bstrResourceID_指定的文件具有与指定的 FileSystemPath 不同的。  <br/> |
-|E_LSC_PENDINGCHANGESINCACHE  <br/> |指定的文件在其他缓存中已有挂起的更改, 并且尚未与使用者的缓存关联。  <br/> |
-|E_LSC_SERVERPATHINDIFFERENTCACHE  <br/> |提供的 WebPath 位于不同的缓存中。  <br/> |
+|E_LSC_LOCALPATHNOTMAPPED  <br/> |调用 Initialize 时，给定的 FileSystemPath 不在 FileSystemDirectoryHint 指定的目录根目录下。  <br/> |
+|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 过去未成功调用。  <br/> |
+|E_LSC_PATHMISMATCH  <br/> |_bstrResourceID_ 指定的文件与指定的 FileSystemPath 不同。  <br/> |
+|E_LSC_PENDINGCHANGESINCACHE  <br/> |指定的文件已在其他缓存中具有挂起的更改，并且无法与使用者的缓存相关联。  <br/> |
+|E_LSC_SERVERPATHINDIFFERENTCACHE  <br/> |提供的 WebPath 属于不同的缓存。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientsetclientconnectivitystate"></a>ILSCLocalSyncClient:: SetClientConnectivityState
+#### <a name="ilsclocalsyncclientsetclientconnectivitystate"></a>ILSCLocalSyncClient：：SetClientConnectivityState
 <a name="ILSCLocalSyncClient_ServerFileChange"> </a>
 
-将缓存设置为联机或脱机状态。 如果脱机, 则无论每个文件的_fBlockUploads_设置如何, Office 都不会尝试与服务器进行缓存中任何文件的通信。 
+将缓存设置为联机或脱机状态。 如果脱机Office，系统将不会尝试与该缓存中任何文件的服务器通信，而不管每个文件的 _fBlockUploads_ 设置如何。 
   
 `HRESULT ILSCLocalSyncClient::SetClientConnectivityState ([in] VARIANT_BOOL fIsOnline)`
 
@@ -369,21 +369,21 @@ ServerFileChange 通知 CsiSyncClient COM 对象将指定的文件标记为下�
 
  _fIsOnline_
   
-用于确定缓存的连接状态的布尔值。 
+确定缓存的连接状态 Boolean。 
   
 ##### <a name="return-values"></a>返回值
 
 |值|说明|
 |:-----|:-----|
-|E_FAIL  <br/> |未能设置缓存连接状态。  <br/> |
+|E_FAIL  <br/> |设置缓存连接状态失败。  <br/> |
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
-|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)过去未成功调用初始化。  <br/> |
+|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 过去未成功调用。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientsetclientnetworksyncpermission"></a>ILSCLocalSyncClient:: SetClientNetworkSyncPermission
+#### <a name="ilsclocalsyncclientsetclientnetworksyncpermission"></a>ILSCLocalSyncClient：：SetClientNetworkSyncPermission
 <a name="ILSCLocalSyncClient_ServerFileChange"> </a>
 
-SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以实现网络成本和电源使用。 在3g 或其他高成本网络上, 或在使用电池运行而不是插入时, Office 可能会选择阻止网络流量, 直到 opportune 时间。 此 API 的使用者可以使用它来覆盖 Office 的试探方法并强制进行同步。
+SetClientNetworkSyncPermission 用于覆盖或还原Office 同步网络成本和电源使用情况的启发。 当使用 3G 或其他高成本网络时，或者当使用电池运行与插入时，Office可能会选择阻止网络流量，直到更适当的时间。 此 API 的使用者可以使用它替代Office启发式操作并强制同步发生。
   
 `HRESULT ILSCLocalSyncClient::SetClientNetworkSyncPermission ([in] LSCNetworkSyncPermissionType nspType, [in] VARIANT_BOOL fEnableSync)`
 
@@ -391,24 +391,24 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
 
  _nspType_
   
-一个标志, 该标志定义要覆盖的成本试探法。 请参阅[Enum LSCNetworkSyncPermissionType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCNetworkSyncPermissionType)。
+定义要覆盖的成本启发式标记。 请参阅 [Enum LSCNetworkSyncPermissionType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCNetworkSyncPermissionType)。
   
  _fEnableSync_
   
-指定是否强制在上进行同步, 从而替代该成本试探法, 或不再覆盖它。 
+指定是强制同步，从而替代成本启发式，还是不再覆盖它。 
   
 ##### <a name="return-values"></a>返回值
 
 |值|说明|
 |:-----|:-----|
-|E_FAIL  <br/> |重写同步试探法失败。  <br/> |
-|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)过去未成功调用初始化。  <br/> |
+|E_FAIL  <br/> |无法覆盖同步启发。  <br/> |
+|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 过去未成功调用。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
-#### <a name="ilsclocalsyncclientuninitialize"></a>ILSCLocalSyncClient:: 取消初始化
+#### <a name="ilsclocalsyncclientuninitialize"></a>ILSCLocalSyncClient：：Uninitialize
 <a name="ILSCLocalSyncClient_Uninitialize"> </a>
 
-从 COM 对象中卸载缓存并执行关闭操作。 [ILSCLocalSyncClient:: 取消初始化](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize)在销毁 COM 对象之前, 必须调用。 调用后, 不能调用任何其他 api, 必须销毁 COM 对象并创建新的, 如果您想要继续操作。 
+从 COM 对象卸载缓存并执行关闭操作。 [ILSCLocalSyncClient：：Uninitialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize) 必须在销毁 COM 对象之前调用 。 调用后，如果想继续操作，则必须销毁 COM 对象并创建一个新 API。 
   
 `HRESULT ILSCLocalSyncClient::Uninitialize ()`
 
@@ -420,8 +420,8 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
 
 |值|说明|
 |:-----|:-----|
-|E_FAIL  <br/> |取消初始化失败。  <br/> |
-|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize)过去未成功调用初始化。  <br/> |
+|E_FAIL  <br/> |无法取消初始化。  <br/> |
+|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient：：Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) 过去未成功调用。  <br/> |
 |S_OK  <br/> |调用成功。  <br/> |
    
 ### <a name="interface-ienumlscevent"></a>接口 IEnumLSCEvent
@@ -430,7 +430,7 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
   
 **公共成员函数**
 
-#### <a name="ienumlsceventfnext"></a>IEnumLSCEvent:: FNext
+#### <a name="ienumlsceventfnext"></a>IEnumLSCEvent：：FNext
 
 从事件列表中检索下一个事件。
   
@@ -446,10 +446,10 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
 
 |值|说明|
 |:-----|:-----|
-|E_FAIL  <br/> |没有其他事件。  <br/> |
-|S_OK  <br/> |调用成功。  <br/> |
+|E_FAIL  <br/> |不再有事件。  <br/> |
+|S_OK  <br/> |呼叫成功。  <br/> |
    
-#### <a name="ienumlsceventreset"></a>IEnumLSCEvent:: Reset
+#### <a name="ienumlsceventreset"></a>IEnumLSCEvent：：Reset
 
 将枚举器重置为第一个事件。
   
@@ -461,7 +461,7 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
   
 ##### <a name="return-values"></a>返回值
 
-始终返回 S_OK。 
+始终返回S_OK。 
   
 ### <a name="interface-ilscevent"></a>接口 ILSCEvent
 
@@ -469,11 +469,11 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
   
 **公共成员函数**
 
-#### <a name="ilsceventgetconflictstatus"></a>ILSCEvent:: GetConflictStatus
+#### <a name="ilsceventgetconflictstatus"></a>ILSCEvent：：GetConflictStatus
 
-请注意, 在调用[ILSCLocalSyncClient:: GetChanges](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges)时, 将填充此值, 而不是在创建事件时填充, 因此您仅具有文件的当前状态, 而不是在冲突状态更改时文件的状态。 
+请注意，此值在 [调用 ILSCLocalSyncClient：：GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges) 时填充，而不是创建事件时填充，因此，您将只具有文件的当前状态，而不是冲突状态更改时文件的状态。 
   
-仅当事件的[枚举 LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType)为 LSCEventType_OnLocalConflictStateChanged 时, 才会填充此值。 
+此值仅在事件的 [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) 为 LSCEventType_OnLocalConflictStateChanged。 
   
 `HRESULT ILSCEvent::GetConflictStatus ([out] VARIANT_BOOL * pfIsInConflict)`
 
@@ -485,11 +485,11 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
   
 ##### <a name="return-values"></a>返回值
 
-始终返回 S_OK。 
+始终返回S_OK。 
   
-#### <a name="ilsceventgeterror"></a>ILSCEvent:: GetError
+#### <a name="ilsceventgeterror"></a>ILSCEvent：：GetError
 
-仅当事件的[枚举 LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType)为 LSCEventType_OnServerChangesDownloaded 或 LSCEventType_OnLocalChangesUploaded 时, 才会填充此值。 
+此值仅在事件的 [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) 为 LSCEventType_OnServerChangesDownloaded 或 LSCEventType_OnLocalChangesUploaded。 
   
 `HRESULT ILSCEvent::GetError ([out] LONG * pnError)`
 
@@ -501,11 +501,11 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
   
 ##### <a name="return-values"></a>返回值
 
-始终返回 S_OK。 
+始终返回S_OK。 
   
-#### <a name="ilsceventgetetag"></a>ILSCEvent:: GetETag
+#### <a name="ilsceventgetetag"></a>ILSCEvent：：GetETag
 
-仅当事件的[枚举 LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType)为 LSCEventType_OnServerChangesDownloaded 或 LSCEventType_OnLocalChangesUploaded 时, 才会填充此值。 
+此值仅在事件的 [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) 为 LSCEventType_OnServerChangesDownloaded 或 LSCEventType_OnLocalChangesUploaded。 
   
 `HRESULT ILSCEvent::GetETag ([out] BSTR * pbstrETag)`
 
@@ -517,9 +517,9 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
   
 ##### <a name="return-values"></a>返回值
 
-始终返回 S_OK。 
+始终返回S_OK。 
   
-#### <a name="ilsceventgeteventtype"></a>ILSCEvent:: GetEventType
+#### <a name="ilsceventgeteventtype"></a>ILSCEvent：：GetEventType
 
 获取此事件的类型。
   
@@ -529,16 +529,16 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
 
  _pnEventType_
   
-此事件的事件类型。 有关有效值, 请参阅[Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) 。 不得为 null。 
+此事件的事件类型。 有关[有效值，请参阅 Enum LSCEventType。](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) 不得为 null。 
   
 ##### <a name="return-values"></a>返回值
 
 |值|说明|
 |:-----|:-----|
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
-|S_OK  <br/> |调用成功。  <br/> |
+|S_OK  <br/> |呼叫成功。  <br/> |
    
-#### <a name="ilsceventgetlocalworkingpath"></a>ILSCEvent:: GetLocalWorkingPath
+#### <a name="ilsceventgetlocalworkingpath"></a>ILSCEvent：：GetLocalWorkingPath
 
 获取此事件的本地工作路径。
   
@@ -548,13 +548,13 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
 
  _pbstrLocalWorkingPath_
   
-此事件所属于的文件的本地路径。 
+与此事件相关的文件的本地路径。 
   
 ##### <a name="return-values"></a>返回值
 
-始终返回 S_OK。 
+始终返回S_OK。 
   
-#### <a name="ilsceventgetresourceid"></a>ILSCEvent:: GetResourceID
+#### <a name="ilsceventgetresourceid"></a>ILSCEvent：：GetResourceID
 
 获取事件的资源 ID。
   
@@ -564,15 +564,15 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
 
  _pbstrResourceID_
   
-与此事件关联的文件的资源 id。
+与此事件关联的文件的 ResourceID。
   
 ##### <a name="return-values"></a>返回值
 
-始终返回 S_OK。 
+始终返回S_OK。 
   
-#### <a name="ilsceventgetresourceidattempted"></a>ILSCEvent:: GetResourceIDAttempted
+#### <a name="ilsceventgetresourceidattempted"></a>ILSCEvent：：GetResourceIDAttempted
 
-仅当事件的[枚举 LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType)为 LSCEventType_OnFilePathConflict 时, 才会填充此值。 当调用[ILSCLocalSyncClient:: LocalFileChange ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_LocalFileChange)、 [ILSCLocalSyncClient:: ServerFileChange](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ServerFileChange)或[ILSCLocalSyncClient:: RenameFile](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_RenameFile)导致 Web 路径或本地路径与 Office 文件缓存中的其他文件发生冲突时, 这生成事件。 
+此值仅在事件的 [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) 为 LSCEventType_OnFilePathConflict。 当调用[ILSCLocalSyncClient：：LocalFileChange、ILSCLocalSyncClient：：ServerFileChange](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_LocalFileChange)或[ILSCLocalSyncClient：：RenameFile](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_RenameFile)将导致 Web 路径或本地路径与 Office 文件缓存中的另一个文件冲突时，将生成此事件。 [ ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ServerFileChange) 
   
 `HRESULT ILSCEvent::GetResourceIDAttempted ([out] BSTR * pbstrResourceIDAttempted)`
 
@@ -580,15 +580,15 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
 
  _pbstrResourceIDAttempted_
   
-导致此事件生成的 ResourceID。 不得为 null。 
+导致生成此事件的 ResourceID。 不得为 null。 
   
 ##### <a name="return-values"></a>返回值
 
-始终返回 S_OK。 
+始终返回S_OK。 
   
-#### <a name="ilsceventgetsyncerrortype"></a>ILSCEvent:: GetSyncErrorType
+#### <a name="ilsceventgetsyncerrortype"></a>ILSCEvent：：GetSyncErrorType
 
-仅当事件的[枚举 LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType)为 LSCEventType_OnServerChangesDownloaded 或 LSCEventType_OnLocalChangesUploaded 时, 才会填充此值。 
+此值仅在事件的 [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) 为 LSCEventType_OnServerChangesDownloaded 或 LSCEventType_OnLocalChangesUploaded。 
   
 `HRESULT ILSCEvent::GetSyncErrorType ([out] LSCEventSyncErrorType * pnSyncErrorType)`
 
@@ -596,18 +596,18 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
 
  _pnSyncErrorType_
   
-与此事件关联的错误类型。 有关潜在值, 请参阅[枚举 LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) 。 不得为 null。 
+与此事件关联的错误类型。 有关[可能的值，请参阅 Enum LSCEventType。](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) 不得为 null。 
   
 ##### <a name="return-values"></a>返回值
 
 |值|说明|
 |:-----|:-----|
 |E_INVALIDARG  <br/> |一个或多个参数无效。  <br/> |
-|S_OK  <br/> |调用成功。  <br/> |
+|S_OK  <br/> |呼叫成功。  <br/> |
    
-#### <a name="ilsceventgetwebpath"></a>ILSCEvent:: GetWebPath
+#### <a name="ilsceventgetwebpath"></a>ILSCEvent：：GetWebPath
 
-仅当事件的[枚举 LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType)为 LSCEventType_OnFilePathConflict 时, 才会填充此值。 
+此值仅在事件的 [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) 为 LSCEventType_OnFilePathConflict。 
   
 `HRESULT ILSCEvent::GetWebPath ([out] BSTR * pbstrWebPath)`
 
@@ -619,15 +619,15 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
   
 ##### <a name="return-values"></a>返回值
 
-始终返回 S_OK。 
+始终返回S_OK。 
   
 ### <a name="interface-ilscevent2"></a>接口 ILSCEvent2
 
-此接口保存有关同步事件的其他信息。
+此接口包含有关同步事件的其他信息。
   
 **公共成员函数**
 
-#### <a name="ilscevent2geterrorchain"></a>ILSCEvent2:: GetErrorChain
+#### <a name="ilscevent2geterrorchain"></a>ILSCEvent2：：GetErrorChain
 
 获取有关同步事件的错误链信息。
   
@@ -637,26 +637,26 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
 
  _pbstrErrorChain_
   
-一个用于保存错误链信息的字符串。 不得为 null。 
+用于保存错误链信息的字符串。 不得为 null。 
   
 ##### <a name="return-values"></a>返回值
 
 |值|说明|
 |:-----|:-----|
-|E_NOTIMPL  <br/> |安装的 Office 版本不支持此接口  <br/> |
+|E_NOTIMPL  <br/> |已安装版本的 Office不支持此接口  <br/> |
 |E_INVALIDARG  <br/> |一个或多个参数值无效。  <br/> |
 |E_FAIL  <br/> |错误链信息不可用。  <br/> |
-|S_OK  <br/> |调用成功。  <br/> |
+|S_OK  <br/> |呼叫成功。  <br/> |
    
-### <a name="interface-ipartneractivitycallback"></a>接口 IPartnerActivityCallback
+### <a name="interface-ipartneractivitycallback"></a>Interface IPartnerActivityCallback
 
-此接口提供对 CSISyncClient COM 对象的回调函数。
+此接口为 CSISyncClient COM 对象提供回调函数。
   
 **公共成员函数**
 
-#### <a name="ipartneractivitycallbackeventoccurred"></a>IPartnerActivityCallback:: EventOccurred
+#### <a name="ipartneractivitycallbackeventoccurred"></a>IPartnerActivityCallback：：EventOccurred
 
-这是给定给 CsiSyncClient COM 对象的对象上的回调函数。 当事件发生时 (请参阅[Enum LSCEventTypeOccurred](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventTypeOccurred) for valid 事件类型), CsiSyncClient COM 对象将调用此方法, 以信令使用者。 
+这是给定给 CsiSyncClient COM 对象的对象上的回调函数。 预计当事件发生时， ([Enum LSCEventTypeOccurred](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventTypeOccurred) 了解有效的事件类型) ，CsiSyncClient COM 对象将调用此方法，从而影响使用者。 
   
 `HRESULT IPartnerActivityCallback::EventOccurred ([in] LSCEventTypeOccurred eEventTypeOccurred)`
 
@@ -664,82 +664,82 @@ SetClientNetworkSyncPermission 用于替代或 restoreOffice 同步试探法以�
 
  _eEventTypeOccurred_
   
-此事件的事件类型。 有关有效值, 请参阅[Enum LSCEventTypeOccurred](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventTypeOccurred) 。 
+此事件的事件类型。 有关[有效值，请参阅 Enum LSCEventTypeOccurred。](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventTypeOccurred) 
   
 ##### <a name="return-values"></a>返回值
 
-始终返回 S_OK。
+始终返回S_OK。
   
 ## <a name="enumerations"></a>枚举
 
-CSISyncClient 使用以下枚举。
+CSISyncClient 使用下列枚举。
   
 ### <a name="enum-lsceventsyncerrortype"></a>枚举 LSCEventSyncErrorType
 <a name="Enum_LSCEventSyncErrorType"> </a>
 
-此枚举指定同步文件时可能发生的错误类别。
+此枚举指定同步文件时可能会发生的错误类别。
   
-|枚举器重|说明|
+|枚举器|说明|
 |:-----|:-----|
-|LSCEventSyncErrorType_UserInterventionRequiredUnexpected  <br/> |此事件的同步错误是意外的, 可能需要特别注意。 默认情况下, 用户可能需要干预。  <br/> |
-|LSCEventSyncErrorType_NoInterventionRequired  <br/> |此事件的同步错误不需要特别考虑。 Office 将自动处理它。  <br/> |
-|LSCEventSyncErrorType_UserInterventionRequired  <br/> |此事件的同步错误要求用户对其进行解析。 例如, 合并冲突错误要求用户打开并合并文档。  <br/> |
-|LSCEventSyncErrorType_WaitingOnClient  <br/> |此事件的同步错误需要使用者干预, 但用户不需要特别注意。  <br/> |
-|LSCEventSyncErrorType_ClientInterventionRequired  <br/> |此事件的同步错误要求使用者干预为特殊情况。  <br/> |
+|LSCEventSyncErrorType_UserInterventionRequiredUnexpected  <br/> |此事件的同步错误是意外的，可能需要特别注意。 默认情况下，用户可能必须介入。  <br/> |
+|LSCEventSyncErrorType_NoInterventionRequired  <br/> |此事件的同步错误不需要特别考虑。 Office自动处理它。  <br/> |
+|LSCEventSyncErrorType_UserInterventionRequired  <br/> |此事件的同步错误需要用户进行解析。 例如，合并冲突错误要求用户打开文档并合并它。  <br/> |
+|LSCEventSyncErrorType_WaitingOnClient  <br/> |此事件的同步错误需要消费者介入，但不需要用户特别考虑。  <br/> |
+|LSCEventSyncErrorType_ClientInterventionRequired  <br/> |此事件的同步错误要求消费者以特殊情况介入。  <br/> |
 |LSCEventSyncErrorType_Max  <br/> ||
    
 ### <a name="enum-lsceventtype"></a>枚举 LSCEventType
 <a name="Enum_LSCEventType"> </a>
 
-此枚举指定可对特定文件发生的事件的类型。
+此枚举指定特定文件可发生的事件类型。
   
-|枚举器重|说明|
+|枚举器|说明|
 |:-----|:-----|
 |LSCEventType_None  <br/> ||
 |LSCEventType_OnLocalChanges  <br/> |对本地文件进行了更改。  <br/> |
-|LSCEventType_OnOpenedByUser  <br/> |用户打开了文件。  <br/> |
-|LSCEventType_OnServerChangesDownloaded  <br/> |从服务器下载文件更改已完成。  <br/> |
-|LSCEventType_OnLocalChangesUploaded  <br/> |完成将文件更改上载到服务器。  <br/> |
+|LSCEventType_OnOpenedByUser  <br/> |用户打开文件。  <br/> |
+|LSCEventType_OnServerChangesDownloaded  <br/> |从服务器下载完文件更改。  <br/> |
+|LSCEventType_OnLocalChangesUploaded  <br/> |已完成将文件更改上载到服务器。  <br/> |
 |LSCEventType_OnLocalConflictStateChanged  <br/> |文件的合并冲突状态已更改。  <br/> |
-|LSCEventType_OnFileAdded  <br/> |添加了一个文件。  <br/> |
-|LSCEventType_OnFileDeleted  <br/> |删除了一个文件。  <br/> |
-|LSCEventType_OnSyncEnabled  <br/> |对用户文件启用了同步。  <br/> |
-|LSCEventType_OnServerChangesDownloadStarted  <br/> |已开始从服务器下载文件更改。  <br/> |
-|LSCEventType_OnLocalChangesUploadStarted  <br/> |已开始将文件更改上载到服务器。  <br/> |
-|LSCEventType_OnFilePathConflict  <br/> |当调用[ILSCLocalSyncClient:: LocalFileChange ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_LocalFileChange)、 [ILSCLocalSyncClient:: ServerFileChange](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ServerFileChange)或[ILSCLocalSyncClient:: RenameFile](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_RenameFile)导致 Web 路径或本地路径与另一个文件中的其他文件发生冲突时, 会生成此事件。Office 文件缓存。  <br/> |
+|LSCEventType_OnFileAdded  <br/> |已添加文件。  <br/> |
+|LSCEventType_OnFileDeleted  <br/> |已删除文件。  <br/> |
+|LSCEventType_OnSyncEnabled  <br/> |为用户文件启用了同步。  <br/> |
+|LSCEventType_OnServerChangesDownloadStarted  <br/> |开始从服务器下载文件更改。  <br/> |
+|LSCEventType_OnLocalChangesUploadStarted  <br/> |开始将文件更改上载到服务器。  <br/> |
+|LSCEventType_OnFilePathConflict  <br/> |当对[ILSCLocalSyncClient：：LocalFileChange、ILSCLocalSyncClient：：ServerFileChange](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_LocalFileChange)或[ILSCLocalSyncClient：：RenameFile](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_RenameFile)的调用导致 Web 路径或本地路径与 Office 文件缓存中的另一个文件冲突时，将生成此事件。 [ ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ServerFileChange)  <br/> |
 |LSCEventType_OnFileForked  <br/> ||
 |LSCEventType_Max  <br/> ||
    
 ### <a name="enum-lsceventtypeoccurred"></a>枚举 LSCEventTypeOccurred
 <a name="Enum_LSCEventTypeOccurred"> </a>
 
-此枚举指定可能发生的事件的类型。 使用者需要根据事件类型调用特定的 ILSCLocalSyncClient 函数。
+此枚举指定可发生事件的类型。 使用者需要基于事件类型调用特定的 ILSCLocalSyncClient 函数。
   
-|枚举器重|说明|
+|枚举器|说明|
 |:-----|:-----|
-|LSCEventTypeOccurred_GetChanges  <br/> |发生了 ILSCEvent。 使用者应调用[ILSCLocalSyncClient:: GetChanges](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges)以检索数据。  <br/> |
-|LSCEventTypeOccurred_GetSupportedFileExtensions  <br/> |支持的文件扩展名已更改。 使用者应调用[ILSCLocalSyncClient:: GetSupportedFileExtensions](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetSupportedFileExtensions)以检索支持的扩展的新列表。  <br/> |
+|LSCEventTypeOccurred_GetChanges  <br/> |发生 ILSCEvent。 使用者应调用 [ILSCLocalSyncClient：：GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges) 以检索数据。  <br/> |
+|LSCEventTypeOccurred_GetSupportedFileExtensions  <br/> |受支持的文件扩展名已更改。 使用者应调用 [ILSCLocalSyncClient：：GetSupportedFileExtensions ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetSupportedFileExtensions) 来检索受支持的扩展的新列表。  <br/> |
    
 ### <a name="enum-lscnetworksyncpermissiontype"></a>枚举 LSCNetworkSyncPermissionType
 <a name="Enum_LSCNetworkSyncPermissionType"> </a>
 
-此枚举指定用于网络成本启发式的标志。 
+此枚举指定用于网络成本启发的标志。 
 
-|枚举器重|说明|
+|枚举器|说明|
 |:-----|:-----|
-|LSCNetworkSyncPermissionType_HighCost  <br/> |如此如果重写昂贵网络 (如 3g) 的成本试探法。  <br/> |
-|LSCNetworkSyncPermissionType_HighPowerUsage  <br/> |如此如果重写了电源使用的成本试探法 (如电池)。  <br/> |
+|LSCNetworkSyncPermissionType_HighCost  <br/> |如果覆盖高成本网络（如 3G (）的成本启发) True。  <br/> |
+|LSCNetworkSyncPermissionType_HighPowerUsage  <br/> |如此 如果电源使用成本启发式 (例如电池) 覆盖。  <br/> |
    
 ### <a name="enum-lscstatusflag"></a>枚举 LSCStatusFlag
 <a name="Enum_LSCStatusFlag"> </a>
 
 此枚举用于表示文件的同步状态。 
   
-|枚举器重|说明|
+|枚举器|说明|
 |:-----|:-----|
 |LCSStatusFlag_None  <br/> ||
-|LSCStatusFlag_UploadPending  <br/> |如果有要发送到服务器文件的挂起数据, 则为 True。  <br/> |
-|LSCStatusFlag_DownloadPending  <br/> |如果有要从服务器文件中下载的挂起数据, 则为 True。  <br/> |
-|LSCStatusFlag_LocalFileUnchanged  <br/> |如此如果数据办公室的缓存中的文件是磁盘上的最新数据副本。  <br/> |
+|LSCStatusFlag_UploadPending  <br/> |如此 如果有待发送到服务器文件的数据。  <br/> |
+|LSCStatusFlag_DownloadPending  <br/> |如果服务器文件中存在要下载的待定数据，则其为 True。  <br/> |
+|LSCStatusFlag_LocalFileUnchanged  <br/> |如此 如果Office文件在其缓存中具有的数据是磁盘上的最新数据副本。  <br/> |
    
 

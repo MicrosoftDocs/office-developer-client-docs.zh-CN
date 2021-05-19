@@ -1,5 +1,5 @@
 ---
-title: 搜索项并通过聚合视图获取项
+title: 搜索并在聚合视图中返回项目
 TOCTitle: Search and obtain items in an aggregated view
 ms:assetid: 1a875dc8-dd52-4e9c-b292-5f6ba3d7a940
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184592(v=office.15)
@@ -22,11 +22,11 @@ ms.locfileid: "32342760"
 
 The [GetTable()](https://msdn.microsoft.com/library/ff184699\(v=office.15\)) method of the [TableView](https://msdn.microsoft.com/library/bb608854\(v=office.15\)) object can return, in an aggregated view, a [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) object that contains items from one or more folders in the same store or spanning over multiple stores. This is particularly useful when you want to access items returned from a search (for example, a search on all mail items in a store). This topic shows an example of how to use **Instant Search** to search for all items received from the manager of the current user that are marked important, and then display the subject of each search result.
 
-在以下代码示例中，**GetItemsInView** 方法会检查当前用户的主要送达存储帐户是否是 Exchange 帐户、当前用户是否有经理以及是否可在相应会话的默认存储中执行**即时搜索**。 由于搜索依赖于 [Explorer](https://msdn.microsoft.com/library/bb623678\(v=office.15\)) 对象的 [Search](https://msdn.microsoft.com/library/bb610561\(v=office.15\)) 方法，且搜索结果需使用 **GetTable** 方法获得，因此 **GetItemsInView** 会创建 **Explorer** 对象、在该对象中显示 Inbox 并用其设置搜索。 
+在以下代码示例中，**GetItemsInView** 方法会检查当前用户的主要送达存储帐户是否是 Exchange 帐户、当前用户是否有经理以及是否可在相应会话的默认存储中执行 **即时搜索**。 由于搜索依赖于 [Explorer](https://msdn.microsoft.com/library/bb623678\(v=office.15\)) 对象的 [Search](https://msdn.microsoft.com/library/bb610561\(v=office.15\)) 方法，且搜索结果需使用 **GetTable** 方法获得，因此 **GetItemsInView** 会创建 **Explorer** 对象、在该对象中显示 Inbox 并用其设置搜索。 
 
 **GetItemsInView** 会在所有 [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) 类型的文件夹中搜索来自当前用户的经理且标记为重要的项目。 在 **GetItemsInView** 调用 [Search](https://msdn.microsoft.com/library/bb610561\(v=office.15\)) 方法之后，所有搜索结果都会显示在资源管理器中，包括来自其他文件夹和存储的符合搜索条件的项目。 **GetItemsInView** 会获取包含搜索结果的此资源管理器视图的 **TableView** 对象。 然后，通过使用此 **TableView** 对象的 **GetTable** 方法，**GetItemsInView** 会得到包含搜索返回的聚合项目的 **Table** 对象。 最后，**GetItemsInView** 会显示 **Table** 对象的每一行（一行代表搜索结果中的一项）的主题栏。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

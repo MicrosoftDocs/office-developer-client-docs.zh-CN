@@ -25,7 +25,7 @@ ms.locfileid: "32350944"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-建立窗体的视图上下文。 
+建立表单的视图上下文。 
   
 ```cpp
 HRESULT SetViewContext(
@@ -37,33 +37,33 @@ HRESULT SetViewContext(
 
  _pViewContext_
   
-> 实时指向表单的新视图上下文的指针。
+> [in]指向表单的新视图上下文的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功设置了视图上下文。
+> 已成功设置视图上下文。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-表单查看者调用**IMAPIForm:: SetViewContext**方法, 以将特定的窗体视图上下文设置为当前。 一个窗体一次只能有一个视图上下文。 
+表单查看器调用 **IMAPIForm：：SetViewContext** 方法以将特定的表单视图上下文建立为当前上下文。 表单一次只能有一个视图上下文。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-大多数表单服务器通过使用以下算法来实现**SetViewContext** : 
+大多数表单服务器通过以下算法实现 **SetViewContext：** 
   
-- 如果窗体已存在视图上下文, 则通过在_pmnvs_参数中调用[IMAPIViewContext:: SetAdviseSink](imapiviewcontext-setadvisesink.md)方法, 然后调用视图**** 上下文的 IUnknown, 来取消表单的注册[:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法来递减其引用计数。 
+- 如果表单已存在视图上下文，则通过调用 _pmnvs_ 参数中为 **null** 的 [IMAPIViewContext：：SetAdviseSink](imapiviewcontext-setadvisesink.md)方法取消表单的注册，然后调用视图上下文的 [IUnknown：：Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法来缩小其引用计数。 
     
-- 如果新的视图上下文不为**null**, 则通过使用_pViewContext_参数设置新的视图建议接收器来调用**IMAPIViewContext:: SetAdviseSink** 。 
+- 如果新视图上下文不 **为空**，则使用 _pViewContext_ 参数设置新视图建议接收器来调用 **IMAPIViewContext：：SetAdviseSink。** 
     
-- 如果新的视图上下文不为**null**, 则调用[IMAPIViewContext:: GetViewStatus](imapiviewcontext-getviewstatus.md)方法以确定已设置的状态标志。 
+- 如果新视图上下文不 **为空**，请调用 [IMAPIViewContext：：GetViewStatus](imapiviewcontext-getviewstatus.md) 方法以确定已设置的状态标志。 
     
-- 如果新的视图上下文不为**null**, 则将其存储并调用其[IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx)方法以增加其引用计数。 
+- 如果新视图上下文不 **为空**，请存储它并调用其 [IUnknown：：AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) 方法来增加其引用计数。 
     
 - 更新依赖于视图上下文的任何用户界面元素。 
     
-根据从 IMAPIViewContext 返回的状态标志 **:: GetViewStatus**, **SetViewContext**还可以执行其他操作。 例如, 如果返回 VCSTATUS_NEXT 和 VCSTATUS_PREV 标志, 则**SetViewContext**可以为新的视图上下文启用**下一个**和**上一个**按钮。 
+根据从 **IMAPIViewContext：：GetViewStatus** 返回的状态标志 **，SetViewContext** 还可以执行其他操作。 例如，如果返回 VCSTATUS_NEXT 和 VCSTATUS_PREV 标志，**则 SetViewContext** 可以启用新视图上下文的"下一步"和"上一步"按钮。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -71,7 +71,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI 使用**IMAPIForm:: SetViewContext**方法在窗体显示之前在窗体上设置 MFCMAPI 的视图上下文。  <br/> |
+|MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI 在显示表单之前，使用 **IMAPIForm：：SetViewContext** 方法在表单上设置 MFCMAPI 的视图上下文。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

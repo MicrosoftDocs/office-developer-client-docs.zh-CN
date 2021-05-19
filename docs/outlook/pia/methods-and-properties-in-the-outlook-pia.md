@@ -38,7 +38,7 @@ TLBIMP 导入每个对象的主接口和事件接口，并创建众多接口、�
 
 继续以 **FormRegion** 对象为例，以下列表检查上述各个接口和类包含的内容。
 
-- \_FormRegion 接口定义 FormRegion 的所有方法和属性。 通常不在代码中使用此接口，除非是下面讨论的情况。
+- \_FormRegion 接口定义 FormRegion 的所有方法和属性。 除下面讨论的一个情况外，通常不在代码中使用此接口。
 
 - **FormRegionEvents** 接口定义映射到 FormRegion 的事件的方法。 请勿在代码中使用此接口。
 

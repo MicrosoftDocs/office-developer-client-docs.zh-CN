@@ -25,37 +25,37 @@ ms.locfileid: "32349180"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定单个实例日历对象的事件的结束日期和时间 (以协调世界时 (UTC) 表示)。 
+为单个实例日历对象指定事件的结束日期和时间（以协调世界时 (UTC) 表示）。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidClipEnd  <br/> |
-|属性集:  <br/> |PSETID_Appointment  <br/> |
-|长 ID (盖子):  <br/> |0x00008236  <br/> |
+|属性集：  <br/> |PSETID_Appointment  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008236  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-对于单实例日历对象, 它指定事件的结束日期和时间 (UTC)。 对于定期系列, 此属性指定以 UTC 表示的定期系列的最后一个实例的日期的午夜, 除非定期系列没有结束, 在这种情况下, 该值必须为31年8月4500日下午11:59 点。
+对于单个实例日历对象，它以 UTC 格式指定事件的结束日期和时间。 对于定期系列，此属性以 UTC 格式指定最后一个定期系列实例的日期午夜，除非定期系列没有结束，在这种情况下，该值必须为 8 月 4500 年 8 月 31 日下午 11：59。
   
-此属性的值必须设置为**dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) 的值。
+此属性的值必须设置为 **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) 。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

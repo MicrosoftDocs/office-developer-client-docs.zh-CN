@@ -25,7 +25,7 @@ ms.locfileid: "32342481"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含访问控制列表 (ACL) 表的成员的显示名称。
+包含显示名称 ACL (表的访问控制) 成员的列表。
   
 |||
 |:-----|:-----|
@@ -34,31 +34,31 @@ ms.locfileid: "32342481"
 |数据类型：  <br/> |PT_STRING8  <br/> |
 |区域：  <br/> |访问控制  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)接口使用这些属性来显示 ACL 表的成员名称, 该名称是对文件夹或邮箱具有明确权限的人员或角色。 
+这些属性由 [IExchangeModifyTable ： IUnknown](iexchangemodifytableiunknown.md) 接口用来显示 ACL 表的成员的名称，该名称是对文件夹或邮箱具有显式权限的人或角色。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
+[[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> 处理存储在服务器上的文件夹权限列表的检索。
+> 处理对服务器上存储的文件夹权限列表的检索。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

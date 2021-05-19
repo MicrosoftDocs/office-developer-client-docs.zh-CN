@@ -34,55 +34,55 @@ ms.locfileid: "32348228"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性由邮件存储区为所有文件夹和邮件计算。
+此属性由所有文件夹和邮件的邮件存储计算。
   
-对于邮件存储根文件夹, 此属性包含该文件夹自己的条目标识符。
+对于邮件存储根文件夹，此属性包含文件夹自己的条目标识符。
   
- **PR_PARENT_DISPLAY**([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)), 并且此属性不相互关联。 它们属于完全不同的上下文。
+ **PR_PARENT_DISPLAY (** [PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) 和此属性之间不相关。 它们属于完全不同的上下文。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCDATA]](https://msdn.microsoft.com/library/ 1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
+[[MS-OXCDATA]](https://msdn.microsoft.com/library/ 1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
-> 定义在远程操作中使用的基本数据结构。
+> 定义远程操作中使用的基本数据结构。
     
-[[毫秒-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > 处理文件夹操作。
     
-[[毫秒-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间进行转换。
+> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间转换。
     
-[[毫秒-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> 启用对允许/阻止列表的处理以及确定垃圾邮件。
+> 允许/阻止列表的处理和垃圾邮件的确定。
     
-[[毫秒-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> 指定用于创建和定位邮箱中的特殊文件夹的属性和操作。
+> 指定用于创建和定位邮箱中特殊文件夹的属性和操作。
     
-[[毫秒-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)
+[[MS-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)
   
-> 指定将脱机通讯簿 (OAB) 数据从服务器传递到客户端的方法。
+> 指定从服务器到客户端 (OAB) 脱机通讯簿的方法。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "32349439"
 
 在下面的过程中，GetManagerInfo 调用 [GetExchangeUserManager()](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) 方法，以获取表示 **ExchangeUser** 在组织层次结构中的经理的 [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) 对象。 此过程测试已登录用户是否处于联机状态，以确保 **GetExchangeUserManager** 可以返回 **ExchangeUser** 对象。 如果用户处于脱机状态，**GetExchangeUserManager** 返回空引用。 然后，GetManagerInfo 将管理员信息写入 [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx) 集合的跟踪侦听器中。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

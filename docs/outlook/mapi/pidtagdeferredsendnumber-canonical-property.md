@@ -25,7 +25,7 @@ ms.locfileid: "32357734"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含可用于计算发送邮件的延期的号码。
+包含可用于计算邮件发送延迟的编号。
   
 |||
 |:-----|:-----|
@@ -34,29 +34,29 @@ ms.locfileid: "32357734"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性用于在**PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) 属性不存在时对其进行计算。 当延迟发送邮件时, 如果**PR_DEFERRED_SEND_TIME**属性不存在, 则**PR_DEFERRED_SEND_NUMBER**属性应与**PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) 属性一起设置。 
+此属性用于计算[PidTagDeferredSendTime PR_DEFERRED_SEND_TIME (不存在时) PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)属性。  延迟发送邮件时 **，PR_DEFERRED_SEND_NUMBER** 属性应该与 **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) 属性一起设置（ **如果缺少 PR_DEFERRED_SEND_TIME** 属性）。 
   
-必须在0和999之间设置**PR_DEFERRED_SEND_NUMBER**值。 
+必须 **PR_DEFERRED_SEND_NUMBER** 0 到 999 之间的值。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

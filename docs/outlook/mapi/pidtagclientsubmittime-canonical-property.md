@@ -34,27 +34,27 @@ ms.locfileid: "32345715"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |邮件时间  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-存储提供程序将**PR_CLIENT_SUBMIT_TIME**设置为客户端应用程序调用[IMessage:: SubmitMessage](imessage-submitmessage.md)的时间。 
+存储 **提供程序PR_CLIENT_SUBMIT_TIME客户端** 应用程序调用 [IMessage：：SubmitMessage 的时间。](imessage-submitmessage.md) 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

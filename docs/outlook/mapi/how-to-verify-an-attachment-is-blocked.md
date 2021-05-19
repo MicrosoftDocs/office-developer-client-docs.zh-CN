@@ -17,9 +17,9 @@ ms.locfileid: "32345883"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-此代码示例在 c + + 中显示了如何使用[IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md)接口来确定 microsoft outlook 2010 或 microsoft outlook 2013 是否阻止了附件查看和编制索引。 
+此 C++ 代码示例演示如何使用[IAttachmentSecurity ： IUnknown](iattachmentsecurityiunknown.md)接口来查明附件是否被 Microsoft Outlook 2010 或 Microsoft Outlook 2013 进行查看和索引。 
   
-[IAttachmentSecurity: iunknown](iattachmentsecurityiunknown.md)是从[iunknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx)接口派生的。 您可以通过调用[iunknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)在 MAPI session 对象上获取[IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md)接口, 请求**IID_IAttachmentSecurity**。 [IAttachmentSecurity:: IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md)如果附件被 outlook 2010 或 outlook 2013 认为是不安全的, 并且被阻止在 outlook 2010 或 outlook 2013 中查看和编制索引, 则在_pfBlocked_中将返回**true** 。 
+[IAttachmentSecurity ：IUnknown](iattachmentsecurityiunknown.md) 派生自 [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) 接口。 可以通过调用 MAPI 会话对象上的 [IUnknown：：QueryInterface，](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)请求获取 [IAttachmentSecurity ： IUnknown](iattachmentsecurityiunknown.md) IID_IAttachmentSecurity **。** 如果 Outlook 2010 或 Outlook 2013 认为附件不安全，并且阻止在 Outlook 2010 或 Outlook 2013 中查看和编制索引，[则 IAttachmentSecurity：：IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md)在 _pfBlocked_ 中返回 **true。** 
   
 ```cpp
 HRESULT IsAttachmentBlocked(LPMAPISESSION lpMAPISession, LPCWSTR pwszFileName, BOOL* pfBlocked) 

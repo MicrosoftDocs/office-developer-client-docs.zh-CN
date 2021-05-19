@@ -34,37 +34,37 @@ ms.locfileid: "32342537"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-建议具有命名属性的对象将公开此属性。 将命名属性从一个对象复制到另一个对象时, 客户端应用程序应检查这两个对象的**PR_MAPPING_SIGNATURE**属性。 使用此属性可以最大限度地减少已复制属性的名称和标识符之间的转换。 
+建议具有命名属性的对象公开此属性。 在将命名属性 **从一个对象PR_MAPPING_SIGNATURE** 另一个对象时，客户端应用程序应检查这两个对象的 PR_MAPPING_SIGNATURE 属性。 使用此属性可以最大程度地减少复制的属性的名称和标识符之间的转换。 
   
-如果给定 MAPI 对象的此属性不存在, 则该对象具有自己的唯一名称和标识符映射。 在这种情况下, 客户端必须在源对象上调用[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)方法, 然后对 destination 对象调用[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)方法。 
+如果给定 MAPI 对象不存在此属性，则该对象具有其自己的名称和标识符的唯一映射。 在这种情况下，客户端必须对源对象调用 [IMAPIProp：：GetNamesFromIDs](imapiprop-getnamesfromids.md) 方法，然后在目标对象上调用 [IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md) 方法。 
   
-当两个对象具有相同的**PR_MAPPING_SIGNATURE**值时, 客户端无需将名称转换为标识符, 也不需要将标识符转换为 name。 客户端可以直接在源上调用[IMAPIProp:: GetProps](imapiprop-getprops.md)方法, 然后调用目标上的[IMAPIProp:: SetProps](imapiprop-setprops.md)方法。 对于执行命名属性的自定义复制的客户端, 以及实现[IMAPIProp:: CopyTo](imapiprop-copyto.md)和[IMAPIProp:: CopyProps](imapiprop-copyprops.md)方法的提供程序, 这是很方便的。 
+当两个对象具有相同的PR_MAPPING_SIGNATURE值时，客户端无需将名称转换为标识符，而将标识符转换为名称。 客户端只需对源调用 [IMAPIProp：：GetProps](imapiprop-getprops.md) 方法，然后在目标上调用 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法。 这便于执行命名属性的自定义复制的客户端，以及实现 [IMAPIProp：：CopyTo](imapiprop-copyto.md) 和 [IMAPIProp：：CopyProps 方法的提供程序](imapiprop-copyprops.md) 。 
   
-有关命名属性和名称和标识符映射的详细信息, 请参阅[MAPI 命名属性](mapi-named-properties.md)。 
+有关命名属性以及名称和标识符映射的信息，请参阅 [MAPI Named Properties](mapi-named-properties.md)。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

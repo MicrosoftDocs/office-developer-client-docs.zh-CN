@@ -25,40 +25,40 @@ ms.locfileid: "32355655"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含原始邮件在线程中传递的日期和时间的副本。 
+包含原始邮件在线程中的传递日期和时间的副本。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ORIGINAL_DELIVERY_TIME  <br/> |
 |标识符:  <br/> |0x0055  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性在后续答复或转发操作中从原始**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) 属性复制, 并在阅读和未读报告中使用。 传递报告改为使用**PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) 属性。
+此属性从原始 PR_MESSAGE_DELIVERY_TIME ( [PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) 属性复制到后续答复或转发操作中，并用于读取和非读取报告。 送达报告使用 **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) 属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定在电子邮件对象上允许的属性和操作。
+> 指定允许对电子邮件对象执行的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

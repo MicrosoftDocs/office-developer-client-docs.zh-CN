@@ -25,44 +25,44 @@ ms.locfileid: "32348480"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定在联系人上设置的电子地址属性。 
+指定在联系人上设置哪些电子地址属性。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidABPEmailList  <br/> |
-|属性集:  <br/> |PSETID_Address  <br/> |
-|长 ID (盖子):  <br/> |0x00008028  <br/> |
+|属性集：  <br/> |PSETID_Address  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008028  <br/> |
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
-|区域：  <br/> |Contact  <br/> |
+|区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性中的每个 PT_LONG 值在属性中必须是唯一的, 并且必须设置为下表中的值之一。 如果设置了此属性, 还必须设置**dispidABPArrayType** ([PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)) 属性。 这两个属性必须彼此保持同步。 例如, 如果**dispidABPEmailList**中的某个值为 "0x00000000", 则**dispidABPArrayType**必须设置 "0x00000001" 位。 
+此属性PT_LONG中每个值在 属性中必须是唯一的，并且必须设置为下表中的值之一。 如果设置此属性，则还必须设置 [PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md) (**dispidABPArrayType**) 属性。 这两个属性必须保持相互同步。 例如，如果 **dispidABPEmailList** 中的一个值是"0x00000000"， **则 dispidABPArrayType** 必须设置位"0x00000001"。 
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
-|0x00000000  <br/> |为联系人定义了 "Email1"。  <br/> |
-|0x00000001  <br/> |为联系人定义了 "Email2"。  <br/> |
-|0x00000002  <br/> |为联系人定义了 "Email3"。  <br/> |
+|0x00000000  <br/> |为联系人定义 Email1。  <br/> |
+|0x00000001  <br/> |为联系人定义 Email2。  <br/> |
+|0x00000002  <br/> |为联系人定义 Email3。  <br/> |
 |0x00000003  <br/> |为联系人定义商务传真。  <br/> |
-|0x00000004  <br/> |住宅传真是为联系人定义的。  <br/> |
-|0x00000005  <br/> |为联系人定义了主要传真。  <br/> |
+|0x00000004  <br/> |为联系人定义住宅传真。  <br/> |
+|0x00000005  <br/> |为联系人定义主要传真。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定允许用于联系人和个人通讯组列表的属性和操作。
+> 指定联系人和个人通讯组列表允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

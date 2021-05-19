@@ -25,7 +25,7 @@ ms.locfileid: "32357874"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性的文本内容与此邮件的**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性相同, 则该参数为 TRUE。
+如果 PR_RTF_COMPRESSED  ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性具有与此消息的 **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性相同的文本内容，则包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -34,39 +34,39 @@ ms.locfileid: "32357874"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果值为 TRUE, 则表示**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性、此邮件的纯文本版本和**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性, rtf 格式 (rtf) 版本完全相同, 但**PR_RTF_COMPRESSED**中的**PR_BODY**和格式的空格。 这两个版本中的文本由相同序列中的相同字符组成。
+TRUE 值表示 **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性、此消息的纯文本版本和 **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性（RTF RTF (RTF) 版本）相同，PR_BODY 中的空格和 PR_RTF_COMPRESSED 中的 **格式** 除外。  两个版本中的文本由同一序列中的相同字符组成。
   
-如果值为 FALSE, 则表示两个版本不同步文本内容, 但可以通过[RTFSync](rtfsync.md)函数进行同步。 一个版本已更改, 另一个版本未更改。 
+FALSE 值表示两个版本不同步文本内容，但能够由 [RTFSync](rtfsync.md) 函数进行同步。 一个版本已被更改，另一个版本尚未更改。 
   
-"无值" 表示两个版本 (如果存在或都已存在) 无法同步。 一个版本已被删除或更改, 因此不再可能进行同步。
+没有值意味着两个版本（如果存在或曾经存在）无法同步。 一个版本已被删除或改变，因此无法再进行同步。
   
-已修改**PR_RTF_COMPRESSED**的客户端应用程序应将此属性中的值设置为 FALSE, 以强制进行同步。 RTF 感知邮件存储应在[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)调用过程中使用**RTFSync**执行同步。 RTF 感知客户端应先检查**PR_RTF_IN_SYNC**的设置, 然后再读取**PR_RTF_COMPRESSED**, 并在必要时先调用**RTFSync** 。 
+已修改此 **PR_RTF_COMPRESSED应在此属性** 中设置 FALSE 值以强制同步。 RTF 感知邮件存储应在 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md)调用期间使用 **RTFSync** 执行同步。 RTF 感知客户端应先检查 PR_RTF_IN_SYNC **的设置，** 然后再PR_RTF_COMPRESSED调用 **RTFSync（** 如有必要）。 
   
-如果**PR_BODY**对非空白区域的任何内容进行了修改, 邮件存储必须删除**PR_RTF_IN_SYNC**以终止同步。 
+如果 **PR_BODY** 对空格外的其他任何内容进行了修改，则邮件存储必须删除 **PR_RTF_IN_SYNC终止同步** 。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

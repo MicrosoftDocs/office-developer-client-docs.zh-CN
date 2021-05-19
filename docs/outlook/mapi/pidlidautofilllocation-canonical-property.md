@@ -25,35 +25,35 @@ ms.locfileid: "32344994"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示**dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) 属性的值设置为 RecipientRow 中的**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性, 该属性表示资源。
+指示 **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) 属性的值设置为表示资源的 RecipientRow 中的 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidAutoFillLocation  <br/> |
-|属性集:  <br/> |PSETID_Appointment  <br/> |
-|长 ID (盖子):  <br/> |0x0000823A  <br/> |
+|属性集：  <br/> |PSETID_Appointment  <br/> |
+|LONG ID (的一) ：  <br/> |0x0000823A  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-有关 RecipientRow 的更多详细信息, 请参阅 Message and 附件对象协议 (如[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)中所指定)。
+有关 RecipientRow 的更多详细信息，请参阅 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)中指定的邮件和附件对象协议。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

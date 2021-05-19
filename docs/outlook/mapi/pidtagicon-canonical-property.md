@@ -25,36 +25,36 @@ ms.locfileid: "32356726"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含窗体的完整大小图标的位图。 
+包含窗体的全尺寸图标的位图。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ICON  <br/> |
 |标识符:  <br/> |0x0FFD  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |MAPI 非传输  <br/> |
+|区域：  <br/> |MAPI 不可传输  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性包含一个图标的32×32像素的图像, 其内容与 a 的内容相同。.ico 文件。 此属性通常是从复制的。在表单配置文件的相应 [Description] 部分的 LargeIcon 行中指定的 .ico 文件。 
+此属性包含图标的 32 × 32 像素图像，与 的内容相同。ICO 文件。 此属性通常从 复制。在表单配置文件的适当 [Description] 节的 LargeIcon 行中指定的 ICO 文件。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

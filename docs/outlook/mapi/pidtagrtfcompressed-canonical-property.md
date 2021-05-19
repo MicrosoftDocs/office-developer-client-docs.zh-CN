@@ -25,7 +25,7 @@ ms.locfileid: "32357888"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件文本的 rtf 格式 (rtf) 版本 (通常为压缩格式)。 
+包含 RTF 格式 (RTF) 格式的邮件文本版本，通常采用压缩形式。 
   
 |||
 |:-----|:-----|
@@ -34,45 +34,45 @@ ms.locfileid: "32357888"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性包含的邮件文本与**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性相同, 但格式为 RTF。 
+此属性包含与[PidTagBody](pidtagbody-canonical-property.md) 属性中的 PR_BODY (文本) RTF 中相同的消息文本。 
   
-RTF 中的邮件文本通常以压缩形式存储。 但是, 有些系统不会压缩格式化文本。 为了适应它们, MAPI 提供了流头的 dwMagicUncompressedRTF 值, 以标识未压缩的 RTF 以及邮件的**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 中的**STORE_UNCOMPRESSED_RTF**标志store 以指示它可以存储解压缩的 RTF。 
+RTF 中的邮件文本通常以压缩形式存储。 但是，某些系统不压缩格式化文本。 为了容纳它们，MAPI 为流标头提供 dwMagicUncompressedRTF 值以标识未压缩的 RTF，为 **邮件** 存储提供 PR_STORE_SUPPORT_MASK ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 中的 **STORE_UNCOMPRESSED_RTF** 标志，以指示它可以存储未压缩的 RTF。 
   
-若要获取此属性的内容, 请调用**OpenProperty**, 然后使用**MAPI_READ**标志调用[WrapCompressedRTFStream](wrapcompressedrtfstream.md) 。 若要写入此属性, 请使用**MAPI_MODIFY**和**MAPI_CREATE**标志打开它。 这可确保新数据完全替换所有旧数据, 并使用最小存储更新数执行写入操作。 
+若要获取此属性的内容，请调用 **OpenProperty**，然后调用 [WrapCompressedRTFStream](wrapcompressedrtfstream.md) 和 **MAPI_READ** 标志。 若要写入此属性，请用 MAPI_MODIFY **和** MAPI_CREATE **打开它** 。 这可确保新数据完全替换任何旧数据，并确保使用最少数量的存储更新执行写入。 
   
-支持 RTF 的邮件存储将忽略对邮件文本中的空格所做的任何更改。 首次存储**PR_BODY**时, 邮件存储也会生成和存储此属性。 如果随后调用了[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法并修改了**PR_BODY** , 则邮件存储将调用[RTFSync](rtfsync.md)函数以确保与 RTF 版本同步。 如果只更改了空白, 则属性保持不变。 当邮件通过非 RTF 感知客户端和邮件系统传输时, 这将保留任何 nontrivial RTF 格式。 
+支持 RTF 的邮件存储将忽略对邮件文本中的空格的任何更改。 首次 **PR_BODY** 时，邮件存储还会生成并存储此属性。 如果[随后调用 IMAPIProp：：SaveChanges](imapiprop-savechanges.md)方法，PR_BODY修改了该函数，则消息存储将调用[RTFSync](rtfsync.md)函数以确保与 RTF 版本同步。 如果仅更改了空格，则属性保持不变。 这将在邮件通过非 RTF 感知客户端和邮件系统时保留任何非实时 RTF 格式。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXRTFCP]](https://msdn.microsoft.com/library/65dfe2df-1b69-43fc-8ebd-21819a7463fb%28Office.15%29.aspx)
+[[MS-OXRTFCP]](https://msdn.microsoft.com/library/65dfe2df-1b69-43fc-8ebd-21819a7463fb%28Office.15%29.aspx)
   
 > 对 RTF 邮件正文中的压缩流进行编码和解码。
     
-[[毫秒-OXRTFEX]](https://msdn.microsoft.com/library/411d0d58-49f7-496c-b8c3-5859b045f6cf%28Office.15%29.aspx)
+[[MS-OXRTFEX]](https://msdn.microsoft.com/library/411d0d58-49f7-496c-b8c3-5859b045f6cf%28Office.15%29.aspx)
   
-> 封装邮件和附件的 RTF 正文属性中的其他内容格式 (如 HTML)。
+> 封装邮件和附件 (RTF 正文) HTML 格式等附加内容格式。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

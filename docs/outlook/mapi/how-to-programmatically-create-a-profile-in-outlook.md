@@ -1,5 +1,5 @@
 ---
-title: 以编程方式创建 Outlook 配置文件
+title: 在 Outlook 中以编程方式创建配置文件
 manager: soliver
 ms.date: 06/02/2016
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.locfileid: "32345939"
 
 本主题介绍如何以编程方式通过向配置文件对象的 **emsuid** 部分添加 MAPI 属性来更新 Outlook 2016 中的配置文件。 
 
-在 MAPI 中，你可以通过设置属性**PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)** 来更新配置文件，如以下步骤所示。 
+在 MAPI 中，你可以通过设置属性 **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)** 来更新配置文件，如以下步骤所示。 
   
 ### <a name="set-the-property-for-outlook-2016"></a>设置 Outlook 2016 的属性
 
@@ -29,11 +29,11 @@ ms.locfileid: "32345939"
     
    这在 Outlook 的 MAPI 中可能有困难，因为在 2010 及以上版本均不再设有全局配置文件部分。 要找到配置文件部分，需找到属性 PR_EMSMDB_SECTION_UID (0x3D150102)。 该值为配置文件部分的 GUID，采用二进制形式，后续步骤将使用该值。 您需要记住此值。 
     
-3. 添加属性**PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**。 
+3. 添加属性 **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**。 
     
-4. 设置存储上的属性**0x6641001F**以及所有提供程序的**emsuid**部分。 
+4. 设置存储上的属性 **0x6641001F** 以及所有提供程序的 **emsuid** 部分。 
     
-5. 设置属性**PR_DISPLAY_NAME**。 
+5. 设置属性 **PR_DISPLAY_NAME**。 
     
 ## <a name="code-example"></a>代码示例：
 

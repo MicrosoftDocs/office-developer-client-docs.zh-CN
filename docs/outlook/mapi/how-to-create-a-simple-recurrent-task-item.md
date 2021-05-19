@@ -21,34 +21,34 @@ ms.locfileid: "32345470"
   
 MAPI 可用于创建任务项。 本主题介绍如何创建简单的重复性任务项。
   
-有关如何从本主题所引用的 MFCMAPI 应用程序和 CreateOutlookItemsAddin 项目中下载、查看和运行代码的信息, 请参阅[Install the 本节中使用的示例](how-to-install-the-samples-used-in-this-section.md)。
+若要了解如何从本主题中引用的 MFCMAPI 应用程序和 CreateOutlookItemsAddin 项目下载、查看和运行代码，请参阅安装本节中使用的示例[。](how-to-install-the-samples-used-in-this-section.md)
 
 ### <a name="to-create-a-task-item"></a>创建任务项
 
-1. 打开邮件存储区。 有关如何打开邮件存储区的信息, 请参阅[打开邮件存储](opening-a-message-store.md)。
+1. 打开邮件存储。 若要了解如何打开邮件存储，请参阅打开 [邮件存储](opening-a-message-store.md)。
     
-2. 打开邮件存储区中的 "任务" 文件夹。 有关详细信息, 请参阅**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))。
+2. 打开邮件存储中的"任务"文件夹。 有关详细信息，请参阅 **PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md)) 。
     
-3. 在 "任务" 文件夹中调用[IMAPIFolder:: CreateMessage](imapifolder-createmessage.md)方法, 以创建新的任务项。 
+3. 在 ["任务"文件夹上调用 IMAPIFolder：：CreateMessage](imapifolder-createmessage.md) 方法以创建新的任务项。 
     
-4. 设置**dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) 属性以及创建重复性任务所需的其他与任务相关的属性。
+4. 将 **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) 属性和其他与任务相关的属性设置为创建重复性任务所需的属性。
     
-5. 保存新的任务项。
+5. 保存新任务项。
     
-CreateOutlookItemsAddin `AddTask`项目的任务 .cpp 源文件中的函数演示这些步骤。 `AddTask`函数采用 "**添加任务**" 对话框中的参数, 当您在 MFCMAPI 示例应用程序中的 " **Addins** " 菜单上单击 "**添加任务**" 时, 将显示此对话框。 Tasks `DisplayAddTaskDialog`中的函数显示对话框, 并将对话框中的值传递给`AddTask`函数。 该`DisplayAddTaskDialog`函数与使用 MAPI 创建任务项不直接相关, 因此此处未列出它。 
+`AddTask`CreateOutlookItemsAddin 项目的 Tasks.cpp 源文件中的 函数演示了这些步骤。 函数从"添加任务"对话框中接受参数，该对话框在 MFCMAPI 示例应用程序中的"加载项"菜单上单击"添加任务 `AddTask` "时显示。    Tasks.cpp 中的 函数显示对话框，将对话框中的值传递给  `DisplayAddTaskDialog`  `AddTask` 函数。 `DisplayAddTaskDialog`该函数与使用 MAPI 创建任务项没有直接关系，因此未在此处列出。 
   
 > [!IMPORTANT]
-> 当您单击**Addins**菜单上的 "**添加任务**" 命令时, MFCMAPI 应用程序中的代码不会确保已选择 "**任务**" 文件夹。 在除 "**任务**" 文件夹之外的文件夹中创建任务项可能会导致未定义的行为。 在 MFCMAPI 应用程序中使用 "**添加任务**" 命令之前, 请确保已选择 "**任务**" 文件夹。 
+> 当您单击"加载项"菜单上的"添加任务"命令时，MFCMAPI 应用程序中的代码并不确保已选择"任务"**文件夹。**  在"任务"文件夹外的文件夹创建任务项可能会导致未定义行为。 在 MFCMAPI应用程序中使用"添加任务"命令之前，请确保已选择"任务"文件夹。 
   
-`AddTask`函数如下所示。 请注意, __ 传递给`AddTask`函数的 lpFolder 参数是指向[IMAPIFolder](imapifolderimapicontainer.md)接口的指针, 该接口表示创建新任务的文件夹。 给定表示**IMAPIFolder**接口的_lpFolder_ , 该代码调用[IMAPIFolder:: CreateMessage](imapifolder-createmessage.md)方法。 **CreateMessage**方法返回一个成功代码和一个指向**IMessage**接口的指针的指针。 大部分`AddTask`函数代码处理指定属性的工作, 以准备调用[IMAPIProp:: SetProps](imapiprop-setprops.md)方法。 如果对**SetProps**方法的调用成功, 则调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法以提交对存储的更改, 并创建新的任务项。 
+函数  `AddTask` 如下所示。 请注意，传递给函数的  _lpFolder_ 参数是指向  `AddTask` [IMAPIFolder](imapifolderimapicontainer.md) 接口的指针，该接口表示新建任务的文件夹。 在给定表示 **IMAPIFolder** 接口的 _lpFolder_ 后，代码将调用 [IMAPIFolder：：CreateMessage](imapifolder-createmessage.md)方法。 **CreateMessage** 方法返回成功代码和指向 **指向 IMessage** 接口的指针的指针。 大多数函数代码处理指定属性的工作，以准备调用  `AddTask` [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法。 如果 **调用 SetProps** 方法成功，将调用 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法以将更改提交到存储并创建新的任务项。 
   
-`AddTask`函数设置许多命名属性。 有关命名属性及其创建方式的信息, 请参阅[使用 MAPI 创建 Outlook 2007 项目](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)。 由于用于任务项的命名属性占用了多个属性集, 因此在生成参数以传递给[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)方法时必须小心谨慎。 
+该  `AddTask` 函数设置许多命名属性。 有关命名属性及其创建方式的信息，请参阅使用 [MAPI 创建 Outlook 2007 项目](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)。 由于用于任务项的命名属性占用多个属性集，因此在构建参数以传递到 [IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md) 方法时必须小心。 
   
-`AddTask`函数使用`BuildWeeklyTaskRecurrencePattern` helper 函数生成一个结构, 该结构表示设置**dispidTaskRecur**属性的任务周期。 有关`BuildWeeklyTaskRecurrencePattern`函数生成的任务定期结构的信息, 请参阅[PidLidTaskRecurrence 规范属性](pidlidtaskrecurrence-canonical-property.md)和[PidLidRecurrencePattern 规范属性](pidlidrecurrencepattern-canonical-property.md)。 
+该函数使用 helper 函数构建一个表示任务定期的结构，用于  `AddTask`  `BuildWeeklyTaskRecurrencePattern` 设置 **dispidTaskRecur** 属性。 有关函数生成的任务定期结构的信息，请参阅  `BuildWeeklyTaskRecurrencePattern` [PidLidTaskRecurrence 规范属性](pidlidtaskrecurrence-canonical-property.md) 和 [PidLidRecurrencePattern 规范属性](pidlidrecurrencepattern-canonical-property.md)。 
 
-请注意, 尽管可以使用大量的定期模式, 但该`BuildWeeklyTaskRecurrencePattern`函数只生成每周定期模式。 它也是硬编码的一些假设, 例如日历类型 (公历)、一周的第一天 (星期日) 以及已修改或已删除的实例数 (无)。 更常规用途的定期模式创建函数需要接受这些种类的变量作为参数。 
+请注意，虽然可能有多种定期模式，但函数仅  `BuildWeeklyTaskRecurrencePattern` 构建每周一定期模式。 它还针对许多假设进行了硬编码，例如日历类型 (公历) 、每周的第一天 (星期日) 以及修改或删除的实例数 (无) 。 创建函数定期模式需要接受这些类型的变量作为参数。 
   
-下面是该`AddTask`函数的完整列表。 
+以下是 函数的完整  `AddTask` 列表。 
   
 ```cpp
 HRESULT AddTask(LPMAPIFOLDER lpFolder,

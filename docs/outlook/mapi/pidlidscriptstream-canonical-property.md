@@ -25,13 +25,13 @@ ms.locfileid: "32358868"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-代表在与邮件关联的自定义窗体后面的 Visual Basic 脚本版本 (VBScript) 中编写的代码。
+代表使用 VBScript Visual Basic VBScript (编写的代码) 与邮件关联的自定义窗体的后面。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidScriptStream  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x00008541  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008541  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
@@ -39,13 +39,13 @@ ms.locfileid: "32358868"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

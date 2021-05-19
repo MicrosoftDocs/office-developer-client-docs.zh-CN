@@ -25,7 +25,7 @@ ms.locfileid: "32342635"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含对 Microsoft Exchange Server 文件夹或邮箱具有所述权限的 table 成员的标识符。
+包含对文件夹或邮箱具有所述权限的表Microsoft Exchange Server标识符。
   
 |||
 |:-----|:-----|
@@ -34,31 +34,31 @@ ms.locfileid: "32342635"
 |数据类型：  <br/> |PT_I8  <br/> |
 |区域：  <br/> |访问控制  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性返回表的唯一标识符。 目录用户标识符与每个成员标识符相关联, 并由该属性指定。 [IExchangeModifyTable](iexchangemodifytableiunknown.md)接口使用此属性检索对文件夹具有显式权限的成员的目录项标识符。 
+此属性返回表的唯一标识符。 目录用户标识符与每个成员标识符相关联，由此属性指定。 [IExchangeModifyTable](iexchangemodifytableiunknown.md)接口使用此属性检索对文件夹具有显式权限的成员的目录条目标识符。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
+[[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> 处理存储在服务器上的文件夹权限列表的检索。
+> 处理对服务器上存储的文件夹权限列表的检索。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

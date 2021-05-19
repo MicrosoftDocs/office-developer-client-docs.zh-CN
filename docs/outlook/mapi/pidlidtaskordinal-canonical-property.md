@@ -25,39 +25,39 @@ ms.locfileid: "32357958"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供对自定义排序任务的帮助。
+帮助执行自定义排序任务。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskOrdinal  <br/> |
-|属性集:  <br/> |PSETID_Task  <br/> |
-|长 ID (盖子):  <br/> |0x00008123  <br/> |
+|属性集：  <br/> |PSETID_Task  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008123  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性可能无法设置。 如果设置, 它的值必须大于 "0x800186A0" (-2147383648) 且小于 "0x7FFE7960" (2147383648), 并且在同一文件夹中的任务之间必须是唯一的。
+此属性可能未设置。 如果设置，则其值必须大于"0x800186A0" (-2，147，383，648) 且小于"0x7FFE7960" (2，147，383，648) 并且在同一文件夹中的任务之间必须是唯一的。
   
-只要客户端将此属性设置为一个小于文件夹的**PR_ORDINAL_MOST** ([PidTagOrdinalMost](pidtagordinalmost-canonical-property.md)) 属性的当前值的负值的数字, 客户端也必须在该文件夹上更新**PR_ORDINAL_MOST** 。 
+每当客户端将此属性设置为小于文件夹的 **PR_ORDINAL_MOST** ([PidTagOrdinalMost](pidtagordinalmost-canonical-property.md)) 属性的当前值的负数时，客户端还必须更新文件夹上的 **PR_ORDINAL_MOST。** 
   
-文件夹的**PR_ORDINAL_MOST**属性提供了一种有效的方法来确定同一文件夹中的任务之间的唯一值。 
+文件夹 **PR_ORDINAL_MOST** 属性提供了一种有效方法，可确定同一文件夹中的任务之间的唯一值。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。 
+> 定义几个对象，这些对象对任务、任务分配和任务更新的电子等效项建模。 
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

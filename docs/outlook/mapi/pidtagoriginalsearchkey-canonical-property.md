@@ -25,42 +25,42 @@ ms.locfileid: "32355291"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含从通讯簿复制到个人通讯簿或其他可写通讯簿的条目的原始搜索关键字。
+包含从通讯簿复制到个人通讯簿或其他可写通讯簿的条目的原始搜索键。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ORIGINAL_SEARCH_KEY  <br/> |
 |标识符:  <br/> |0x3A14  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性是包含有关复制的条目的原始源的信息的属性之一。
+此属性是包含有关所复制条目的原始源的信息的属性之一。
   
-对于未读报告, 此属性包含为其生成报告的原始邮件收件人的搜索键的副本。 当原始收件人是通讯组列表的一部分时, 将为该报告保留通讯组列表的搜索关键字。
+对于未读报告，此属性包含生成报告的原始邮件收件人的搜索密钥副本。 如果原始收件人是通讯组列表的一部分，则为报告保留通讯组列表的搜索键。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

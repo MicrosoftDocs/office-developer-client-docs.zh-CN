@@ -30,30 +30,30 @@ ms.locfileid: "32357573"
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidHTML  <br/> |
-|属性集:  <br/> |PSETID_Address  <br/> |
-|长 ID (盖子):  <br/> |0x0000802B  <br/> |
+|属性集：  <br/> |PSETID_Address  <br/> |
+|LONG ID (的一) ：  <br/> |0x0000802B  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
-|区域：  <br/> |Contact  <br/> |
+|区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性的值 (如果存在) 应与**PR_BUSINESS_HOME_PAGE** ([PidTagBusinessHomePage](pidtagbusinesshomepage-canonical-property.md)) 属性的值相同。
+此属性的值（如果存在）应该与[PidTagBusinessHomePage](pidtagbusinesshomepage-canonical-property.md) PR_BUSINESS_HOME_PAGE (值) 相同。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定允许用于联系人和个人通讯组列表的属性和操作。
+> 指定联系人和个人通讯组列表允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

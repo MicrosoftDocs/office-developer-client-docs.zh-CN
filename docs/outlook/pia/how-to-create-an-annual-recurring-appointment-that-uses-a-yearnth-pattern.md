@@ -31,7 +31,7 @@ ms.locfileid: "32349502"
 
 在下面的代码示例中，RecurringYearNthAppointment 创建使用 YearNth 定期模式的约会。 首先，RecurringYearNthAppointment 通过创建 [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) 对象来创建定期约会。 接下来，它使用 [GetRecurrencePattern()](https://msdn.microsoft.com/library/bb652582\(v=office.15\)) 方法获取约会的定期模式。 然后，它设置以下 RecurrencePattern 属性：RecurrenceType、DayOfWeekMask、[MonthOfYear](https://msdn.microsoft.com/library/bb610515\(v=office.15\))、[Instance](https://msdn.microsoft.com/library/bb645269\(v=office.15\))、[Occurrences](https://msdn.microsoft.com/library/bb611303\(v=office.15\))、[Duration](https://msdn.microsoft.com/library/bb644889\(v=office.15\))、[PatternStartDate](https://msdn.microsoft.com/library/bb624492\(v=office.15\))、[StartTime](https://msdn.microsoft.com/library/bb646324\(v=office.15\)) 和 [EndTime](https://msdn.microsoft.com/library/bb644544\(v=office.15\))。 MonthOfYear 属性的可取数值介于 1 和 12 之间，其中每个数字都代表相应的月份。 在属性设置后，RecurringYearNthAppointment 便会保存约会，再显示模式为“发生于 6 月的第一个星期一，有效期为 2007 年 6 月 1 日至 2016 年 6 月 6 日，时间范围为下午 2:00 到下午 5:00”的约会。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

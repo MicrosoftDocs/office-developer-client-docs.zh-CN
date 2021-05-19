@@ -25,41 +25,41 @@ ms.locfileid: "32342061"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定在自动处理电子邮件时使用的选项。
+指定自动处理电子邮件时所使用的选项。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidSniffState  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x0000851A  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x0000851A  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-该属性可能不存在, 在这种情况下, 将使用默认值 "0x00000000"。 如果设置此属性, 则必须将此属性设置为下表中的值之一。
+属性可能不存在，在这种情况下，使用默认值"0x00000000"。 如果设置此属性，则必须将此属性设置为下表中的值之一。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
 |0x00000000  <br/> |不自动处理邮件。  <br/> |
-|0x00000001  <br/> |自动或在打开邮件时处理邮件。  <br/> |
-|0x00000002  <br/> |仅在打开邮件时处理邮件。  <br/> |
+|0x00000001  <br/> |自动处理邮件或在邮件打开时处理。  <br/> |
+|0x00000002  <br/> |仅在邮件打开时处理邮件。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

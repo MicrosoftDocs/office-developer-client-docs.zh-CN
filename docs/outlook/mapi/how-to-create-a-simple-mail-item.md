@@ -19,34 +19,34 @@ ms.locfileid: "32345191"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 可用于创建和发送请求已读回执的邮件。 当请求 "已读" 回执时, 邮件系统会生成收件人打开邮件时, 并向发件人返回阅读报告。
+MAPI 可用于创建和发送请求已读回执的邮件。 请求已读回执时，邮件系统会在收件人打开邮件时生成一个已读报告，并返回给发件人的已读报告。
   
-有关如何从本主题所引用的 MFCMAPI 应用程序和 CreateOutlookItemsAddin 项目中下载、查看和运行代码的信息, 请参阅[Install the 本节中使用的示例](how-to-install-the-samples-used-in-this-section.md)。
+若要了解如何从本主题中引用的 MFCMAPI 应用程序和 CreateOutlookItemsAddin 项目下载、查看和运行代码，请参阅安装本节中使用的示例[。](how-to-install-the-samples-used-in-this-section.md)
 
 
-### <a name="to-create-and-send-a-message-requesting-a-read-receipt"></a>创建和发送请求已读回执的邮件
+### <a name="to-create-and-send-a-message-requesting-a-read-receipt"></a>创建并发送请求已读回执的邮件
 
-1. 创建传出邮件。 有关如何创建传出邮件的信息, 请参阅[处理传出邮件](handling-an-outgoing-message.md)。
+1. 创建传出邮件。 若要了解如何创建传出邮件，请参阅处理 [传出邮件](handling-an-outgoing-message.md)。
     
-2. 添加**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性并将其设置为**true**。
+2. 将 **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性，并设置为 **true**。
     
-3. 添加**PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) 属性。
+3. 将 **PR_CONVERSATION_INDEX (** [PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) 属性。
     
-4. 添加**PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)) 属性。
+4. 添加 PR_REPORT_TAG **(** [PidTagReportTag](pidtagreporttag-canonical-property.md)) 属性。
     
-5. 通过调用[IMessage:: SubmitMessage](imessage-submitmessage.md)方法发送邮件。 
+5. 通过调用 [IMessage：：SubmitMessage](imessage-submitmessage.md) 方法发送邮件。 
     
-CreateOutlookItemsAddin `AddMail`项目的邮件 .cpp 源文件中的函数演示这些步骤。 `AddMail`函数采用 "**添加邮件**" 对话框中的参数, 当您单击 MFCMAPI 示例应用程序中的 " **Addins** " 菜单上的 "**添加邮件**" 命令时, 将显示该对话框。 在`DisplayAddMailDialog`邮件中, cpp 中的函数显示对话框, 并将对话框中的值传递给`AddMail`函数。 该`DisplayAddMailDialog`函数与使用 MAPI 创建邮件项目不直接相关, 因此此处未列出它。 `AddMail`函数如下所示。 
+`AddMail`CreateOutlookItemsAddin 项目的 Mails.cpp 源文件中的 函数演示了这些步骤。 该函数从"添加邮件"对话框中接受参数，该对话框在您单击 `AddMail` MFCMAPI 示例应用程序中 **"Addins"** 菜单上的"添加邮件"命令时显示。  Mails.cpp 中的 函数显示对话框，将对话框中的值传递给  `DisplayAddMailDialog`  `AddMail` 函数。 `DisplayAddMailDialog`该函数与使用 MAPI 创建邮件项目没有直接关系，因此未在此处列出。 函数  `AddMail` 如下所示。 
   
-请注意, __ 传递给该`AddMail`方法的 lpFolder 参数是一个指向[IMAPIFolder](imapifolderimapicontainer.md)接口的指针, 该接口表示将在其中创建新邮件的文件夹。 给定表示**IMAPIFolder**接口的_lpFolder_参数, 该代码调用[IMAPIFolder:: CreateMessage](imapifolder-createmessage.md)方法。 **CreateMessage**方法返回一个成功代码和一个指向[IMessage: IMAPIProp](imessageimapiprop.md)接口的指针的指针。 
+请注意，传递给该方法的 _lpFolder_ 参数是指向 IMAPIFolder 接口的指针，该接口表示将在其中 `AddMail` 创建新邮件的文件夹。 [](imapifolderimapicontainer.md) 在给定表示 **IMAPIFolder** 接口的 _lpFolder_ 参数后，代码将调用 [IMAPIFolder：：CreateMessage](imapifolder-createmessage.md)方法。 **CreateMessage** 方法返回成功代码和指向 [指向 IMessage ： IMAPIProp 接口的指针的](imessageimapiprop.md)指针。 
 
-大部分`AddMail`函数代码处理设置属性的工作, 以便为调用[IMAPIProp:: SetProps](imapiprop-setprops.md)方法做准备。 如果对**SetProps**方法的调用成功, 则对[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法的调用将更改提交到存储, 并创建一个新的邮件项目。 然后, 如果请求, 则调用[IMessage:: SubmitMessage](imessage-submitmessage.md)方法发送邮件。 
+大多数函数代码处理设置属性的工作，  `AddMail` 以准备调用 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法。 如果 **对 SetProps** 方法的调用成功，则调用 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法会提交对存储所做的更改并创建新的邮件项目。 然后，如果请求，将调用 [IMessage：：SubmitMessage](imessage-submitmessage.md) 方法来发送邮件。 
   
-`AddMail`函数使用两个 helper 函数来生成**PR_CONVERSATION_INDEX**和**PR_REPORT_TAG**属性的值: `BuildConversationIndex`和`AddReportTag`函数。 `BuildConversationIndex`函数 (位于 CreateOutlookItemsAddin 中) 执行内置 MAPI [ScCreateConversationIndex](sccreateconversationindex.md)函数在不向其传递父会话索引时所执行的操作。 在[PidTagConversationIndex 规范属性](pidtagconversationindex-canonical-property.md)中记录了这些函数生成的会话索引缓冲区的格式。 
+该函数使用两个帮助程序函数来构建 PR_CONVERSATION_INDEX 和 PR_REPORT_TAG `AddMail` 属性的值：和 `BuildConversationIndex` `AddReportTag` 函数。 位于  `BuildConversationIndex` CreateOutlookItemsAddin.cpp 中的函数执行与未向内置 MAPI [ScCreateConversationIndex](sccreateconversationindex.md) 函数传递父对话索引时相同的工作。 这些函数生成的会话索引缓冲区的格式记录在 [PidTagConversationIndex 规范属性 中](pidtagconversationindex-canonical-property.md)。 
 
-位于`AddReportTag` "PR_REPORT_TAG" 中的函数又调用`BuildReportTag`函数来生成**** 属性的结构。 有关`BuildReportTag`函数生成的结构的信息, 请参阅[PidTagReportTag 规范属性](pidtagreporttag-canonical-property.md)。
+位于 Mails.cpp 中的 函数反过来调用 函数来为 PR_REPORT_TAG `AddReportTag` `BuildReportTag` 属性。  有关函数构建的结构  `BuildReportTag` 的信息，请参阅 [PidTagReportTag 规范属性](pidtagreporttag-canonical-property.md)。
   
-下面是该`AddMail`函数的完整列表。 
+以下是 函数的完整  `AddMail` 列表。 
   
 ```cpp
 HRESULT AddMail(LPMAPISESSION lpMAPISession,
@@ -139,5 +139,5 @@ HRESULT AddMail(LPMAPISESSION lpMAPISession,
 
 ## <a name="see-also"></a>另请参阅
 
-- [使用 MAPI 创建 Outlook 2007 项目](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
+- [使用 MAPI 创建Outlook 2007 项](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

@@ -22,7 +22,7 @@ ms.locfileid: "32346821"
   
 ## <a name="syntax"></a>语法
 
- 替换 (* * *text* * *, * * *old_text* * *, * * *new_text* * * [, * * *start_num* * *] [, * * *ignore_case_opt* * *) 
+ SUBSTITUTE (** *text* **， ** *old_text* **， ** *new_text* ** [， ** *start_num* ** ][， ** *ignore_case_opt* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -30,17 +30,17 @@ ms.locfileid: "32346821"
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |必需  <br/> |**String** <br/> | 要替换其字符的文本或对包含要替换其字符的文本的单元格的引用。  <br/> |
 | _old_text_ <br/> |必需  <br/> |**String** <br/> | 要替换的文本。  <br/> |
-| _new_text_ <br/> |必需  <br/> |**String** <br/> | 要用于替换_old_text_的文本。  <br/> |
-| _start_num_opt_ <br/> |可选  <br/> |**Numeric** <br/> |指定要替换的 old_text 的匹配项。  <br/> |
-| _ignore_case_opt_ <br/> |可选  <br/> |**Boolean** <br/> |如果区分大小写，则其值为 FALSE；否则为 TRUE。 默认值为 FALSE。  <br/> |
+| _new_text_ <br/> |必需  <br/> |**String** <br/> | 要用于替换  _文本的文本_ old_text。  <br/> |
+| _start_num_opt_ <br/> |可选  <br/> |**Numeric** <br/> |指定要替换old_text的匹配项。  <br/> |
+| _ignore_case_opt_ <br/> |可选  <br/> |**Boolean** <br/> |如果区分大小写，则其值为 FALSE；否则为 TRUE。默认值为 FALSE。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-字符串
+String
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
- 如果指定_start_num_opt_, 则仅替换_old_text_的匹配项。 否则,_文本_中_old_text_的每个匹配项都将更改为_new_text。_
+ 如果 _指定_ start_num_opt ，则仅替换 _old_text匹配项。_ 否则，_文本中old_text__每个匹配项_ 都会更改为 _new_text。_
   
 如果要替换文本字符串中的特定文本，请使用 SUBSTITUTE 函数。如果要替换在文本字符串中的特定位置出现的文本，请使用 REPLACE 函数。
   

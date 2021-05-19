@@ -16,13 +16,13 @@ ms.locfileid: "32356397"
 ---
 # <a name="display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder"></a>在“选择姓名”对话框中显示与“联系人”文件夹对应的通讯簿
 
-该示例演示如何获得对应于默认“联系人”文件夹的通讯簿，然后在“选择姓名”**** 对话框中显示该通讯簿。
+该示例演示如何获得对应于默认“联系人”文件夹的通讯簿，然后在“选择姓名”对话框中显示该通讯簿。
 
 ## <a name="example"></a>示例
 
 Outlook 中的所有通讯簿都由 [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) 对象的 [AddressLists](https://msdn.microsoft.com/library/bb624048\(v=office.15\)) 属性表示为集合。 此代码示例使用 [AddressList](https://msdn.microsoft.com/library/bb623538\(v=office.15\)) 对象的 [GetContactsFolder](https://msdn.microsoft.com/library/bb609225\(v=office.15\)) 方法，查找与每个地址列表对应的“联系人”文件夹。 每个 Outlook 文件夹都有一个条目 ID。 比较默认“联系人”文件夹的条目 ID 与“联系人”文件夹的条目 ID，以生成与默认“联系人”文件夹对应的地址列表。
 
-在“选择姓名”**** 对话框中显示与默认“联系人”文件夹对应的地址列表前，此代码示例先将它设置为 [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) 对象的 [InitialAddressList](https://msdn.microsoft.com/library/bb646633\(v=office.15\)) 属性值。
+在“选择姓名”对话框中显示与默认“联系人”文件夹对应的地址列表前，此代码示例先将它设置为 [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) 对象的 [InitialAddressList](https://msdn.microsoft.com/library/bb646633\(v=office.15\)) 属性值。
 
 如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。 下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。
 

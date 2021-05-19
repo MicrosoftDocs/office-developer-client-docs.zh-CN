@@ -21,7 +21,7 @@ ms.locfileid: "32341599"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定与配置文件中的帐户连接的 Microsoft Exchange Server 的完整版本和内部版本信息。
+指定有关配置文件中的帐户Microsoft Exchange Server的完整版本和内部版本信息。
   
 ## 
 
@@ -32,35 +32,35 @@ ms.locfileid: "32341599"
 |属性类型  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-配置文件可以指定连接到 exchange 服务器的一个或多个帐户, 但这些帐户必须连接到同一个 exchange 服务器。
+配置文件可以指定一个或多个连接到Exchange Server帐户，但它们必须连接到同一Exchange Server。
   
-早于 Microsoft Office Outlook 2007 版本的 Outlook 不支持该属性。 对于这些版本的 Outlook, 请检查配置文件中是否存在**[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** 。 
+2007 Outlook 2007 Microsoft Office Outlook版本不支持此属性。 对于这些版本的Outlook，请检查配置文件 **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** 是否存在。 
   
-通常情况下, 如果活动邮箱连接到 Exchange 服务器, Outlook 2007 将在活动配置文件中的**PR_PROFILE_SERVER_FULL_VERSION**属性中存储完整的 Exchange Server 版本信息。 Outlook 将信息存储在**EXCHANGE_STORE_VERSION_NUM**结构中, 其中包含主版本号和次版本号以及主要和次要内部版本号。 例如, 若要存储**8.0.685.24**的 Exchange Server 版本标识符, 主要版本号为 8, 次要版本号为 0, 主内部版本号为 685, 次要内部版本号为24。
+通常，如果活动邮箱连接到 Exchange Server，Outlook 2007 存储活动配置文件Exchange Server PR_PROFILE_SERVER_FULL_VERSION 属性中的完整 **PR_PROFILE_SERVER_FULL_VERSION** 版本信息。 Outlook将信息存储在一个EXCHANGE_STORE_VERSION_NUM结构中，其中包含主版本号和次要版本号以及主版本号和次要内部版本号。 例如，若要存储 Exchange Server 版本标识符 **8.0.685.24，** 主版本号为 8，次要版本号为 0，主内部版本号为 685，次要内部版本号为 24。
   
-只有**PR_PROFILE_SERVER_VERSION**或 PR_PROFILE_SERVER_FULL_VERSION 中的一个可能存在于配置文件中, 但不能保证在配置文件中始终存在这两个**** 。 Outlook 在成功连接到 Exchange 服务器之前, 不会写入其中的任何一个属性。 
+配置文件中 **PR_PROFILE_SERVER_VERSION** 或PR_PROFILE_SERVER_FULL_VERSION中的一个，但无法保证配置文件中始终存在其中一个。 Outlook在成功连接到任一属性之前，不会向该属性Exchange Server。 
   
-在 Outlook 对象模型中, 可以使用**NameSpace**对象的**ExchangeMailboxServerVersion**属性来查找托管活动邮箱的 Exchange 服务器的版本。 
+在Outlook模型中，可以使用 **NameSpace** 对象的 **ExchangeMailboxServerVersion** 属性查找托管活动邮箱的 Exchange Server 版本。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

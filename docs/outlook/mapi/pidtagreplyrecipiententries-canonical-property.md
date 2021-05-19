@@ -25,7 +25,7 @@ ms.locfileid: "32355053"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含要获取答复的收件人的大小为的条目标识符数组。
+包含用于获取回复的收件人的条目标识符大小数组。
   
 |||
 |:-----|:-----|
@@ -34,39 +34,39 @@ ms.locfileid: "32355053"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性包含[FLATENTRYLIST](flatentrylist.md)结构, 而不是多值属性。 
+此属性包含 [FLATENTRYLIST](flatentrylist.md) 结构，而不是多值属性。 
   
-如果此属性不存在, 则会将答复仅发送给**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) 属性所标识的用户。 如果定义了此属性和**PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) 属性, 则会将答复发送给由这两个属性标识的所有收件人。 传输提供程序使用这些属性替代常见的答复逻辑。
+当此属性不存在时，答复将仅发送给[PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md) PR_SENDER_ENTRYID (标识) 用户。  定义此PR_REPLY_RECIPIENT_NAMES ( [PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) 属性时，答复将发送给这两个属性标识的所有收件人。 传输提供程序使用这些属性覆盖常见的回复逻辑。
   
-如果设置了此属性或**PR_REPLY_RECIPIENT_NAMES**属性, 则还必须设置另一个属性。 这些属性必须包含相同数量的收件人, 并且必须以相同的顺序包含它们。 如果无法遵守这些要求, 可能会导致不可预知的结果。 
+如果设置了此属性或 **PR_REPLY_RECIPIENT_NAMES** 属性，则还必须设置另一个属性。 这些属性必须包含相同数量的收件人，并且必须按相同的顺序包含它们。 如果未能遵守这些要求，可能会导致不可预知的结果。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定在电子邮件中允许的属性和操作。
+> 指定允许对电子邮件执行的属性和操作。
     
-[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

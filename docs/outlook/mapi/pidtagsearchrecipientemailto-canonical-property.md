@@ -21,7 +21,7 @@ ms.locfileid: "32358917"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含要在电子邮件地址列表中查询的 Unicode 字符串, 或在存储的邮件的 "收件人" 行中**** 寻址的收件人的显示名称。 
+包含一个 Unicode 字符串，该字符串正在电子邮件地址列表中查询，或显示在存储上邮件的"收件人"行中地址的收件人姓名。 
   
 ## 
 
@@ -35,27 +35,27 @@ ms.locfileid: "32358917"
 ## <a name="related-resources"></a>相关资源
 
 > [!NOTE]
-> 在您当前拥有的可下载头文件中搜索电子邮件地址或显示名称时, 使用此 MAPI 限制标记可能不会定义。 您可以使用以下值将其添加到代码中: >`#define PR_SEARCH_RECIP_EMAIL_TO_W PROP_TAG(PT_UNICODE, 0x0EA6)`
+> 当您搜索电子邮件地址或显示邮件发送到的名称时，可能不会在当前具有的可下载头文件中定义此 MAPI 限制标记。 可以使用以下值将其添加到代码中：>  `#define PR_SEARCH_RECIP_EMAIL_TO_W PROP_TAG(PT_UNICODE, 0x0EA6)`
   
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Microsoft Exchange Server 协议规范的引用。
+> 提供对相关协议Microsoft Exchange Server的引用。
     
-[[毫秒-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > 指定用于操作搜索文件夹列表配置的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含列为备用名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

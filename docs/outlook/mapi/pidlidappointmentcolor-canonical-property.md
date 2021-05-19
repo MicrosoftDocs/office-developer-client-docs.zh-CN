@@ -25,19 +25,19 @@ ms.locfileid: "32345435"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定在显示日历时要使用的颜色。
+指定显示日历时使用的颜色。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidApptColor  <br/> |
-|属性集:  <br/> |PSETID_Appointment  <br/> |
-|长 ID (盖子):  <br/> |0x00008214  <br/> |
+|属性集：  <br/> |PSETID_Appointment  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008214  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性指定在显示日历时要使用的颜色。 客户端或服务器应设置此值以实现与旧客户端的向后兼容性。 它可能改为根据[[OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)中指定的**关键字**([PidNameKeywords](pidnamekeywords-canonical-property.md)) 属性的值显示日历。 如果设置, 则值必须是下列值之一。
+此属性指定显示日历时使用的颜色。 客户端或服务器应设置此值，以与旧客户端向后兼容。 它可能会基于 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)中指定的 **Keywords** (Keywords) 属性的值来显示日历。 [](pidnamekeywords-canonical-property.md) 设置后，该值必须是下列值之一。
   
 |**值**|**Color**|
 |:-----|:-----|
@@ -57,17 +57,17 @@ ms.locfileid: "32345435"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

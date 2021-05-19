@@ -25,7 +25,7 @@ ms.locfileid: "32357391"
 
 在下面的代码示例中，AcceptTaskRequest 使用 [TaskRequestItem](https://msdn.microsoft.com/library/bb610737\(v=office.15\)) 对象的 [GetAssociatedTask(Boolean)](https://msdn.microsoft.com/library/bb645779\(v=office.15\)) 方法来获取 [TaskItem](https://msdn.microsoft.com/library/bb624227\(v=office.15\)) 对象。 然后，此代码示例调用 [Respond(OlTaskResponse, Object, Object)](https://msdn.microsoft.com/library/bb644188\(v=office.15\)) 方法，其中参数设置为 [olTaskAccept](https://msdn.microsoft.com/library/bb624484\(v=office.15\)) 以接受任务请求。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

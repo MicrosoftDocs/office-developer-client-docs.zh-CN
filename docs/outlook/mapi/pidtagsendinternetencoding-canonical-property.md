@@ -32,75 +32,75 @@ ms.locfileid: "32342670"
 |相关属性：  <br/> |PR_SEND_INTERNET_ENCODING  <br/> |
 |标识符:  <br/> |0x3A71  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |Address  <br/> |
+|区域：  <br/> |地址  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 设置此属性以指示使用的编码选项。 
   
-此属性包含以下标志:
+此属性包含以下标志：
   
 BODY_ENCODING_HTML 
   
-> 在 HTML 中对邮件文本进行编码。 除非设置了 ENCODING_MIME 标志, 否则将忽略此标志。 
+> 使用 HTML 对邮件文本进行编码。 此标志将被忽略，除非ENCODING_MIME标志。 
     
 BODY_ENCODING_TEXT_AND_HTML 
   
-> 使用文本和 HTML 编码邮件文本, 将其用作多用途 Internet 邮件扩展 (MIME) 多部分替代项。 除非设置了 ENCODING_MIME 标志, 否则将忽略此标志。 
+> 使用文本和 HTML 将邮件文本编码为多用途 Internet 邮件扩展 (MIME) 多部分替代项。 此标志将被忽略，除非ENCODING_MIME标志。 
     
 ENCODING_MIME 
   
-> 使用 MIME 对邮件进行编码。 如果未设置此标志, MAPI 将以纯文本格式对邮件文本和 UUENCODE 中的附件进行编码。 
+> 使用 MIME 对邮件进行编码。 如果未设置此标志，MAPI 会用纯文本和 UUENCODE 中的附件对邮件文本进行编码。 
     
 ENCODING_PREFERENCE 
   
-> 使用此位掩码中的其他标志来确定编码。 如果未设置此标志, MAPI 会将其保留在邮件系统中, 以做出编码决策。 
+> 使用此位掩码中的其他标志可确定编码。 如果未设置此标志，MAPI 会保留它给邮件系统，以做出编码决策。 
     
 MAC_ATTACH_ENCODING_APPLEDOUBLE 
   
-> 在 Apple 双重模式中对 Macintosh 附件进行编码。 除非设置了 ENCODING_MIME 标志, 否则将忽略此标志。 
+> 在 Apple 双模式下对 Macintosh 附件进行编码。 此标志将被忽略，除非ENCODING_MIME标志。 
     
 MAC_ATTACH_ENCODING_APPLESINGLE 
   
-> 在 Apple 单一模式下对 Macintosh 附件进行编码。 除非设置了 ENCODING_MIME 标志, 否则将忽略此标志。 
+> 在 Apple 单一模式下对 Macintosh 附件进行编码。 此标志将被忽略，除非ENCODING_MIME标志。 
     
 MAC_ATTACH_ENCODING_UUENCODE 
   
-> 在 UUENCODE 中对 Macintosh 附件进行编码。 如果设置了 ENCODING_MIME 标志, 则将忽略此标志, 而改为使用 BinHex 编码。 
+> 使用 UUENCODE 对 Macintosh 附件进行编码。 如果ENCODING_MIME，则忽略此标志，而改为使用 BinHex 编码。 
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定用户、联系人、组和资源列表的属性和操作。
+> 指定用户、联系人、组和资源的列表的属性和操作。
     
-[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为邮件对象。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

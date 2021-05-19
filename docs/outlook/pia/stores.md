@@ -1,5 +1,5 @@
 ---
-title: 存储区
+title: 存储
 TOCTitle: Stores
 ms:assetid: ce5d8e58-7753-485c-b400-4f00f6c6935b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184642(v=office.15)

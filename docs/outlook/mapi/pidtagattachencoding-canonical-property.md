@@ -25,7 +25,7 @@ ms.locfileid: "32345491"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个 ASN. 1 指定附件编码的对象标识符。 
+包含指定附件编码的 ASN.1 对象标识符。 
   
 |||
 |:-----|:-----|
@@ -34,33 +34,33 @@ ms.locfileid: "32345491"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性标识用于转换附件中的数据的算法。
+此属性标识用于转换附件中数据的算法。
   
- **注释**不应混淆**PR_ATTACH_ENCODING**和**PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) 属性。 它们不是成对的, 也不是相关的。 **PR_ATTACH_TAG**标识最初生成附件的应用程序。 "对象" 在术语对象标识符中具有更常规的含义, 在 X. 400 中具有比在面向对象的编程中更多的含义。 
+ **注意** 不应 **混淆 PR_ATTACH_ENCODING** **PR_ATTACH_TAG (** [PidTagAttachTag) 和 PidTagAttachTag](pidtagattachtag-canonical-property.md) 属性。 它们不配对或相关。 **PR_ATTACH_TAG** 标识最初生成附件的应用程序。 "对象"在术语对象标识符和 X.400 中比在面向对象的编程中具有更为一般的含义。 
   
-对象标识符语法和示例对象标识符是在 MAPIOID 中定义的。H 头文件。 **PR_ATTACH_ENCODING**的值不限于在 MAPIOID 中定义的那些值。水平. 例如, 附加的 Macintosh 文件可以使用 MacBinary 等标识符。 
+对象标识符语法和示例对象标识符在 MAPIOID 中定义。H 头文件。 值 **PR_ATTACH_ENCODING** MAPIOID.H 中定义的值。 例如，附加的 Macintosh 文件可以使用标识符（如 MacBinary）。 
   
-有关这些对象标识符的完整信息, 请参阅 ASN. 1、x 208 和209个的相关文档。 对象标识符位于 FTBP (文件传输正文部分) 环境的应用程序引用元素中。 
+有关这些对象标识符的完整信息，请参阅有关 ASN.1、X.208 和 X.209 的文档。 对象标识符位于 FTBP 文件传输正文部分 (应用程序引用) 元素。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

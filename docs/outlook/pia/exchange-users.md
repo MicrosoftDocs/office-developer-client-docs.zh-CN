@@ -25,7 +25,7 @@ ms.locfileid: "32357832"
 |[获取当前用户的相关信息](how-to-get-information-about-the-current-user.md)  |介绍了如何获取当前用户的相关信息（如姓名、职务和电话号码）。|
 |[获取当前用户所属全部通讯组列表的相关信息](how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md)  |介绍了如何使用 [GetMemberOfList()](https://msdn.microsoft.com/library/bb623397\(v=office.15\)) 方法，获取当前用户所属全部通讯组列表的相关信息。|
 |[创建通讯组列表](how-to-create-a-distribution-list.md)  |介绍了如何创建通讯组列表，并将它显示给用户。|
-[获取 Exchange 通讯组列表的成员](how-to-get-members-of-an-exchange-distribution-list.md)  |提示用户从“选择姓名”**** 对话框中选择一个 Exchange 通讯组列表，然后展开该通讯组列表以显示其成员。|
+[获取 Exchange 通讯组列表的成员](how-to-get-members-of-an-exchange-distribution-list.md)  |提示用户从“选择姓名”对话框中选择一个 Exchange 通讯组列表，然后展开该通讯组列表以显示其成员。|
 [获取当前用户的经理信息](how-to-get-information-about-the-current-user-s-manager.md)  |介绍了如何获取当前用户的经理信息（如姓名、职务和电话号码）。|
 [获取 Exchange 用户的经理闲/忙状态信息](how-to-get-availability-information-for-an-exchange-user-s-manager.md) |  介绍了如何在日历中显示用户经理的下一个空闲 60 分钟时间段。|
 |[检查经理对会议请求的响应](how-to-check-a-manager-s-response-to-a-meeting-request.md) | 介绍了如何通过使用 [GetExchangeUser()](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) 和 [GetExchangeUserManager()](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) 方法，检查当前用户的经理对会议请求的响应状态。|

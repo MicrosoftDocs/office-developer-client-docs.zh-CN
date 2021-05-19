@@ -25,7 +25,7 @@ ms.locfileid: "32356467"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件发件人希望邮件系统在收件人阅读邮件时生成阅读报告, 则该参数为 TRUE。
+如果邮件发件人希望邮件系统在收件人阅读邮件后生成阅读报告，则包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -34,33 +34,33 @@ ms.locfileid: "32356467"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性必须设置为 TRUE, 以验证**PR_READ_RECEIPT_ENTRYID** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) 和**PR_READ_RECEIPT_SEARCH_KEY** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)) 属性中的值。
+此属性必须设置为 TRUE，以验证 **PR_READ_RECEIPT_ENTRYID** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) 和 **PR_READ_RECEIPT_SEARCH_KEY** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)) 属性的值。
   
-如果在邮件系统可以生成已读报告之前, **PR_READ_RECEIPT_REQUESTED**设置的邮件已被删除或过期, 则会生成未读报告。 
+如果在邮件 **PR_READ_RECEIPT_REQUESTED** 报告生成读取报告之前，邮件集被删除或过期，将生成未读报告。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定允许用于电子邮件对象的属性和操作。
+> 指定电子邮件对象允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

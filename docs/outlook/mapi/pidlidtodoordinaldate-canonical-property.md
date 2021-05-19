@@ -25,39 +25,39 @@ ms.locfileid: "32345274"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-确定合并的待办任务列表中的对象的排序顺序。
+确定合并的 to-do 列表中的对象的排序顺序。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidToDoOrdinalDate  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x000085A0  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x000085A0  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-对对象进行标记时, 应将此属性设置为当前时间 (采用协调世界时 (UTC))。 
+标记对象时，此属性应设置为协调世界时 utc (当前) 。 
   
-如果客户端允许用户通过拖动或其他机制对合并任务列表中的任务进行重新排序, 则可以使用任何合适的算法来确定该属性的新值, 以便在将此属性用作 sor 时任务显示在正确的位置。ting 域。
+如果客户端允许用户通过拖动或其他机制对合并任务列表中的任务重新排序，他们可以使用任何合适的算法来确定此属性的新值，以便当此属性用作排序字段时，任务将显示在正确的位置。
   
-当此属性用于对对象和排序结果进行排序时, 将**dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) 属性用作一个关联断开器。
+当此属性用于对对象进行排序和排序结果等同时 **，dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) 属性将用作关系断开器。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > 指定与标记相关的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

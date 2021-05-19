@@ -25,7 +25,7 @@ ms.locfileid: "32356390"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-复制或移动所有属性, 但特殊排除的属性除外。
+复制或移动所有属性，但专门排除的属性除外。
   
 ```cpp
 HRESULT CopyTo(
@@ -45,39 +45,39 @@ HRESULT CopyTo(
 
  _ciidExclude_
   
-> 实时复制或移动属性时要排除的接口数。
+> [in]复制或移动属性时要排除的接口计数。
     
  _rgiidExclude_
   
-> 实时一个接口标识符 (IIDs) 的数组, 该数组指定在将补充信息复制或移动到目标对象时不应使用的接口。
+> [in]一组接口标识符 (IID) ，用于指定在将补充信息复制或移动到目标对象时不应使用的接口。
     
  _lpExcludeProps_
   
-> 实时一个指向属性标记数组的指针, 该数组标识应从复制或移动操作中排除的属性标记。 在_lpExcludeProps_参数中传递**null**表示应复制或移动对象的所有属性。 当_lpExcludeProps_指向的[SPropProblemArray](spropproblemarray.md)结构的**cValues**成员设置为0时, **CopyTo**将返回 MAPI_E_INVALID_PARAMETER。 
+> [in]指向属性标记数组的指针，该数组标识应从复制或移动操作中排除的属性标记。 在 _lpExcludeProps_ 参数中传递 **null** 指示应复制或移动对象的所有属性。 **CopyTo** MAPI_E_INVALID_PARAMETER _lpExcludeProps_ 指向 [的 SPropProblemArray](spropproblemarray.md)结构的 **cValues** 成员设置为 0 时返回值。 
     
  _ulUIParam_
   
-> 实时进度指示器的父窗口的句柄。 
+> [in]进度指示器的父窗口的句柄。 
     
  _lpProgress_
   
-> 实时指向进度指示器实现的指针。 如果在_lpProgress_参数中传递**null** , MAPI 将提供进度实现。 除非在_ulFlags_参数中设置了 MAPI_DIALOG 标志, 否则将忽略_lpProgress_参数。 
+> [in]指向进度指示器实现的指针。 如果在 _lpProgress_ 参数中传递 null，MAPI 将提供进度实现。 除非在 _ulFlags_ 参数中设置了 MAPI_DIALOG 标志，否则将忽略 _lpProgress_ 参数。 
     
  _lpInterface_
   
-> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示用于访问_lpDestObj_参数所指向的对象的接口。 _lpInterface_参数不能为**null**。
+> [in]指向接口标识符 (IID) 表示用于访问  _lpDestObj_ 参数指向的对象的接口的指针。 _lpInterface_ 参数不能为 **null**。
     
  _lpDestObj_
   
-> 实时指向接收复制或移动的属性的对象的指针。
+> [in]指向接收复制或移动的属性的对象的指针。
     
  _ulFlags_
   
-> 实时用于控制复制或移动操作的标志的位掩码。 可以设置以下标志:
+> [in]控制复制或移动操作的标志的位掩码。 可以设置以下标志：
     
 MAPI_DECLINE_OK 
   
-> 如果**CopyTo**调用[IMAPISupport::D ocopyto](imapisupport-docopyto.md)方法来处理复制或移动操作, 则应立即返回错误值 MAPI_E_DECLINE_COPY。 MAPI_DECLINE_OK 标志由 MAPI 设置以限制递归。 客户端不设置此标志。 
+> 如果 **CopyTo** 调用 [IMAPISupport：:D oCopyTo](imapisupport-docopyto.md) 方法来处理复制或移动操作，它应改为立即返回错误值 MAPI_E_DECLINE_COPY。 MAPI MAPI_DECLINE_OK设置值以限制递归。 客户端不设置此标志。 
     
 MAPI_DIALOG 
   
@@ -85,15 +85,15 @@ MAPI_DIALOG
     
 MAPI_MOVE 
   
-> **CopyTo**应执行移动操作, 而不是复制操作。 如果未设置此标志, **CopyTo**将执行复制操作。 
+> **CopyTo** 应执行移动操作，而不是复制操作。 未设置此标志时 **，CopyTo** 将执行复制操作。 
     
 MAPI_NOREPLACE 
   
-> 不应覆盖目标对象中的现有属性。 如果未设置此标志, **CopyTo**将覆盖现有属性。 
+> 不应覆盖目标对象中的现有属性。 未设置此标志时 **，CopyTo** 将覆盖现有属性。 
     
  _lppProblems_
   
-> [in, out]在输入时, 指向指向**SPropProblemArray**结构的指针的指针;否则**为 null**, 表示无需错误信息。 如果_lppProblems_是有效的输入指针, **CopyTo**将返回有关复制一个或多个属性中的错误的详细信息。 
+> [in， out]在输入时，指向指向 **SPropProblemArray 结构的指针的** 指针;否则为 **null**，表示不需要错误信息。 如果  _lppProblems_ 是输入的有效指针 **，CopyTo** 将返回有关复制一个或多个属性时错误的详细信息。 
     
 ## <a name="return-value"></a>返回值
 
@@ -103,33 +103,33 @@ S_OK
     
 MAPI_E_COLLISION 
   
-> 无法复制子对象, 因为目标对象中已存在具有相同显示名称 (由**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性指定) 的子对象。 
+> 无法复制子对象，因为目标对象中已存在具有同一 显示名称 的子对象（由 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性指定）。 
     
 MAPI_E_DECLINE_COPY 
   
-> 服务提供程序不实施复制操作。
+> 服务提供商不实现复制操作。
     
 MAPI_E_FOLDER_CYCLE 
   
-> 执行复制或移动操作直接或间接包含目标对象的源对象。 在发现此条件之前, 可能已经执行了大量的工作, 因此源和目标对象可能被部分修改。 
+> 执行复制或移动操作的来源对象直接或间接包含目标对象。 在发现此条件之前，可能执行了大量工作，因此可能会部分修改源对象和目标对象。 
     
 MAPI_E_INTERFACE_NOT_SUPPORTED 
   
-> 目标对象不支持由_lpInterface_参数标识的接口。 
+> 目标对象不支持由  _lpInterface_ 参数标识的接口。 
     
 MAPI_E_NO_ACCESS 
   
-> 试图访问呼叫者没有足够权限的对象。 如果目标对象与源对象相同, 则返回此错误。
+> 试图访问调用方权限不足的对象。 如果目标对象与源对象相同，则返回此错误。
     
-以下值可在**SPropProblemArray**结构中返回, 但不能在**CopyTo**的返回值中返回。 以下错误适用于单个属性:
+以下值可以在 **SPropProblemArray** 结构中返回，但不能作为 **CopyTo 的返回值**。 以下错误适用于单个属性：
   
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置了 MAPI_UNICODE 标志, 并且**copyto**不支持 unicode, 或者未设置 MAPI_UNICODE, **CopyTo**仅支持 UNICODE。 
+> 设置MAPI_UNICODE **CopyTo** 不支持 Unicode，或者未MAPI_UNICODE **CopyTo** 仅支持 Unicode。 
     
 MAPI_E_COMPUTED 
   
-> 调用程序无法修改该属性, 因为它是由目标对象的所有者计算的只读属性。 此错误不严重;呼叫者应允许复制操作继续进行。
+> 调用方无法修改该属性，因为它是一个只读属性，由目标对象的所有者计算。 此错误并不严重;调用方应允许复制操作继续。
     
 MAPI_E_INVALID_TYPE 
   
@@ -139,59 +139,59 @@ MAPI_E_UNEXPECTED_TYPE
   
 > 属性类型不是调用方预期的类型。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-默认情况下, **IMAPIProp:: CopyTo**方法将当前对象的所有属性复制或移动到目标对象。 当对象应完全复制或移动时, 使用其全部或大部分属性保持不变时使用的**CopyTo** 。 
+默认情况下 **，IMAPIProp：：CopyTo** 方法将当前对象的所有属性复制或移动到目标对象。 **CopyTo** 用于完全复制或移动对象，其所有或大部分属性保持不变。 
   
-源对象中的任何子对象将自动包含在操作中, 并将完全复制或移动。 默认情况下, **CopyTo**会覆盖目标对象中与源对象的属性相匹配的任何属性。 如果目标对象中已存在任何复制或移动的属性, 则新属性将覆盖现有属性, 除非在_ulFlags_参数中设置 MAPI_NOREPLACE 标志。 不会覆盖的目标对象中的现有信息将保持不变。 
+源对象中任何子对象都将自动包含在操作中，并全部复制或移动。 默认情况下 **，CopyTo** 覆盖目标对象中与源对象中的属性匹配的任何属性。 如果目标对象中已存在任何复制或移动的属性，则现有属性将被新属性覆盖，除非在  _ulFlags_ 参数中设置了 MAPI_NOREPLACE 标志。 目标对象中未覆盖的现有信息保持不变。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-您可以提供**CopyTo**的完全实现, 也可以依赖 MAPI 在其支持对象中提供的实现。 如果要使用 MAPI 实现, 请调用**IMAPISupport::D ocopyto**。 但是, 如果您将处理委派给**DoCopyTo** , 并且您已传递 MAPI_DECLINE_OK 标志, 请避免支持呼叫, 而改为返回 MAPI_E_DECLINE_COPY。 MAPI 将使用此标志进行呼叫, 以避免在复制文件夹时可能发生的递归。 
+你可以提供 **CopyTo** 的完整实现或依赖于 MAPI 在其支持对象中提供的实现。 如果要使用 MAPI 实现，请调用 **IMAPISupport：:D oCopyTo**。 但是，如果您将处理委派给 **DoCopyTo，** 并且您被传递到 MAPI_DECLINE_OK 标志，请避免致电支持人员，并MAPI_E_DECLINE_COPY消息。 MAPI 将调用此标志以避免复制文件夹时可能发生的递归。 
   
-由于复制操作可能很长, 因此应显示进度指示器。 使用在_lpProgress_参数中传递的[IMAPIProgress](imapiprogressiunknown.md)实现 (如果有的话)。 如果_lpProgress_为**null**, 则调用[IMAPISupport::D oprogressdialog](imapisupport-doprogressdialog.md)方法以使用 MAPI 实现。 
+由于复制操作可能很长，因此应显示进度指示器。 使用 [在 lpProgress](imapiprogressiunknown.md) 参数中传递的  _IMAPIProgress_ 实现（如果有）。 如果  _lpProgress_ 为 **null，** 则调用 [IMAPISupport：:D oProgressDialog](imapisupport-doprogressdialog.md) 方法以使用 MAPI 实现。 
   
-请勿尝试在目标对象中设置任何已知的只读属性;改为返回 MAPI_E_NO_ACCESS。
+不要尝试在目标对象中设置任何已知的只读属性;返回MAPI_E_NO_ACCESS。
   
-源和目标对象应使用相同的接口。 如果未设置_lpInterface_ , 则返回 MAPI_E_INVALID_PARAMETER。 
+源对象和目标对象应使用相同的接口。 如果未MAPI_E_INVALID_PARAMETER  _lpInterface，_ 则返回值。 
   
-如果排除了所有已知接口, 则返回 MAPI_E_INTERFACE_NOT_SUPPORTED。
+如果MAPI_E_INTERFACE_NOT_SUPPORTED所有已知接口，则返回返回值。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-请勿设置 MAPI_DECLINE_OK 标志;MAPI 在其对邮件存储提供程序的**CopyTo**实现中使用它。 
+不要设置MAPI_DECLINE_OK标志;MAPI 在消息存储提供程序 CopyTo 实现调用 **中使用它** 。 
   
-由于复制和移动操作可能需要一些时间, 因此您应通过设置 MAPI_DIALOG 标志来请求显示进度指示器。 您可以将_lpProgress_参数设置为**IMAPIProgress**的实现, 如果有, 则设置为**null**。 如果_lpProgress_为**null**, 则**CopyTo**将使用 MAPI 提供的默认进度指示器。 
+由于复制和移动操作可能需要一些时间，因此应该通过设置进度指示器标记来MAPI_DIALOG显示。 可以将  _lpProgress_ 参数设置为 **IMAPIProgress** 的实现（如果有）或 **设置为 null**。 如果 _lpProgress_ **为 null，****则 CopyTo** 将使用 MAPI 提供的默认进度指示器。 
   
-您可以通过不设置 MAPI_DIALOG 标志来禁止显示进度指示器。 **CopyTo**将忽略_ulUIParam_和_lpProgress_参数, 并且不会显示指示器。 
+可以通过不设置进度指示器标记来禁止显示MAPI_DIALOG标记。 **CopyTo** 将忽略  _ulUIParam_ 和  _lpProgress_ 参数，并且不显示指示器。 
   
- **CopyTo**可以报告全局和单个错误, 或一个或多个属性发生的错误。 这些单独的错误放在**SPropProblemArray**结构中。 您可以通过为属性问题数组结构参数传递**null**(而不是有效的指针) 来抑制属性级别的错误报告。 
+ **CopyTo** 可以报告全局和单个错误，或者一个或多个属性发生的错误。 这些单个错误放置在 **SPropProblemArray** 结构中。 可以通过为属性问题数组结构参数传递 **null（** 而不是有效指针）来禁止在属性级别报告错误。 
   
-如果要接收有关错误的信息, 请在_lppProblems_参数中传递有效的**SPropProblemArray**结构指针。 当**CopyTo**返回 S_OK 时, 检查结构中的各个属性可能存在的错误。 当**CopyTo**返回错误时, 不会在**SPropProblemArray**结构中返回任何信息。 而是调用[IMAPIProp:: GetLastError](imapiprop-getlasterror.md)检索详细的错误信息。 
+如果要接收有关错误的信息，请传递 _lppProblems_ 参数中的有效 **SPropProblemArray** 结构指针。 当 **CopyTo** 返回S_OK时，请检查结构中各个属性的可能错误。 当 **CopyTo** 返回错误时 **，SPropProblemArray** 结构中不会返回任何信息。 相反，调用 [IMAPIProp：：GetLastError](imapiprop-getlasterror.md) 以检索详细的错误信息。 
   
-如果**CopyTo**返回 S_OK, 请通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数释放返回的**SPropProblemArray**结构。 
+如果 **CopyTo** S_OK，请通过调用 [MAPIFreeBuffer](mapifreebuffer.md)函数释放返回的 **SPropProblemArray** 结构。 
   
-如果复制源对象类型所特有的属性, 则必须确保目标对象的类型相同。 **CopyTo**不会阻止您将通常属于一种类型的对象的属性与另一种类型的对象相关联。 您将由您来复制对目标对象有意义的属性。 例如, 不应将邮件属性复制到通讯簿容器。 
+如果复制源对象特有的属性对象类型，必须确保目标对象的类型相同。 **CopyTo** 不会阻止您将通常属于一种对象类型的属性与另一种类型的对象关联。 由你复制对目标对象有意义的属性。 例如，不应将邮件属性复制到通讯簿容器。 
   
-若要确保在相同类型的对象之间进行复制, 请通过比较对象指针或调用[IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)来检查源对象和目标对象是否为相同的类型。 将_lpInterface_指向的接口标识符设置为源对象的标准接口。 此外, 请确保这两个对象的对象类型或**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 属性相同。 例如, 如果从邮件中复制, 请将这两个对象的_lpInterface_设置为 IID_IMessage, 并将这两个对象的**PR_OBJECT_TYPE**设置为 MAPI_MESSAGE。 
+若要确保在相同类型的对象之间复制，请检查源对象和目标对象是否相同，方法为比较对象指针或调用[IUnknown：：QueryInterface。](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) 将  _lpInterface_ 指向的接口标识符设置为源对象的标准接口。 此外，请确保 PidTagObjectType对象类型 或 PR_OBJECT_TYPE ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 属性是相同的。 例如，如果从邮件中复制，将 _lpInterface_ 设置为 IID_IMessage，PR_OBJECT_TYPE两个对象的 MAPI_MESSAGE。 
   
-如果在_lpDestObj_参数中传递无效的指针, 则结果是不可预知的。 
+如果在  _lpDestObj_ 参数中传递无效指针，则结果不可预测。 
   
-排除**CopyTo**调用中的属性可能有用。 例如, 某些对象具有特定于单个对象实例的属性, 例如邮件传递的日期和时间。 若要避免在将邮件复制到其他文件夹时复制邮件的传递时间, 请在属性标记 exclude 数组中指定**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))。 若要排除邮件的收件人列表, 请将**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 属性添加到排除数组中。 若要排除邮件的附件, 请将**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) 属性添加到数组中。
+在 **CopyTo 调用中排除** 属性可能很有用。 例如，某些对象具有特定于对象的单个实例的属性，如邮件传递的日期和时间。 为避免在将邮件复制到其他文件夹时复制邮件的传递时间，请指定 **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) 属性标记排除数组。 若要排除邮件的收件人列表，PR_MESSAGE_RECIPIENTS ([PidTagMessageRecipients) PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)属性添加到排除数组。  若要排除邮件的附件，PR_MESSAGE_ATTACHMENTS ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) 添加到数组。 
   
-同样, 通过包括**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) 或**PR_CONTAINER_CONTENTS** , 阻止复制或移动文件夹或通讯簿容器的层次结构或内容表 ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) 在属性标记排除数组中。
+同样，在属性标记排除数组中包括 **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) 或 **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) ，防止复制或移动文件夹或通讯簿容器的层次结构或内容表。
   
-若要从复制或移动操作中排除属性, 请将其属性标记包含在_lpExcludeProps_参数中。 如果将**PROP_TAG**宏的结果传递给属性标记数组中的特定标识符, 则将排除包含该标识符的所有属性。 例如, 属性标记数组中的以下条目将导致排除标识符为0x8002 的所有属性, 而不考虑类型: 
+若要从复制或移动操作中排除属性，请将其属性标记包括在  _lpExcludeProps_ 参数中。 如果传递 PROP_TAG 宏的结果，以从属性标记数组中的特定标识符构建属性标记，那么将排除具有该标识符的所有属性。 例如，属性标记数组中的以下条目会导致排除标识符为 0x8002的所有属性，无论类型如何： 
   
  `PROP_TAG(PT_LONG, 0x8002)`
   
-**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) 属性标记不能包含在_lpExcludeProps_数组中。 
+_lpExcludeProps_ PR_NULL ([PidTagNull](pidtagnull-canonical-property.md)) 属性标记中。  
   
-用于排除接口的**CopyTo**功能的有用性可能并不像排除属性的有用性那样明显。 当您复制到不知道一组属性的对象时, 可以排除接口。 例如, 如果将文件夹中的属性复制到附件中, 则附件可以使用的属性就是可用于任何[IMAPIProp](imapipropiunknown.md)实现的通用属性。 通过从复制操作中排除[IMAPIFolder](imapifolderimapicontainer.md) , 附件将不会收到任何更具体的文件夹属性。 
+**CopyTo** 功能用于排除接口的实用性可能没有排除属性的有用性那么明显。 当复制到一个不了解一组属性的对象时，可以排除接口。 例如，如果将属性从文件夹复制到附件，则附件可以使用的唯一属性是可用于 [任何 IMAPIProp](imapipropiunknown.md) 实现的通用属性。 通过从 [复制操作中排除 IMAPIFolder，](imapifolderimapicontainer.md) 附件将不会收到任何更具体的文件夹属性。 
   
-当您使用_rgiidExclude_参数来排除某个接口时, 它还会排除从该接口派生的所有接口。 例如, 排除[IMAPIContainer](imapicontainerimapiprop.md)会导致文件夹或通讯簿容器被排除, 具体取决于提供程序的类型。 请勿排除**IMAPIProp**或[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) , 因为如此多的接口派生自它们。 
+使用  _rgiidExclude_ 参数排除接口时，它还排除从该接口派生的所有接口。 例如，排除 [IMAPIContainer](imapicontainerimapiprop.md) 会导致排除文件夹或通讯簿容器，具体取决于提供程序的类型。 不要排除 **IMAPIProp** 或 [IUnknown，](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) 因为有很多接口派生自它们。 
   
-忽略在_lppProblems_参数的**SPropProblemArray**结构中返回的 MAPI_E_COMPUTED 错误。 
+忽略MAPI_E_COMPUTED _lppProblems_ 参数 **的 SPropProblemArray** 结构中返回的错误。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -199,8 +199,8 @@ MAPI_E_UNEXPECTED_TYPE
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|文件 .cpp  <br/> |LoadFromMSG  <br/> |MFCMAPI 使用**IMAPIProp:: CopyTo**方法将属性从 .msg 文件复制到[IMAPIMessageSite](imapimessagesiteiunknown.md)对象。  <br/> |
-|FolderDlg  <br/> |CFolderDlg:: HandlePaste  <br/> |在粘贴操作过程中, MFCMAPI 使用**IMAPIProp:: CopyTo**方法将属性从源邮件复制到目标邮件。  <br/> |
+|File.cpp  <br/> |LoadFromMSG  <br/> |MFCMAPI 使用 **IMAPIProp：：CopyTo** 方法将属性从 .msg 文件复制到 [IMAPIMessageSite](imapimessagesiteiunknown.md) 对象。  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg：：HandlePaste  <br/> |在粘贴操作期间，MFCMAPI 使用 **IMAPIProp：：CopyTo** 方法将属性从源邮件复制到目标邮件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

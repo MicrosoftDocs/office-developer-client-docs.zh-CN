@@ -25,7 +25,7 @@ ms.locfileid: "32342138"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在内存中保留打开的表单服务器。
+将打开的表单服务器保留到内存中。
   
 ```cpp
 HRESULT LockServer(
@@ -38,25 +38,25 @@ HRESULT LockServer(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _fLockServer_
   
-> 实时**如果为 true** , 则增加锁定计数;否则**为 false**。
+> [in] **如果为 true，** 则增加锁定计数;否则为 **false**。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-表单查看者调用**IMAPIFormFactory:: LockServer**方法将打开的表单服务器应用程序保留在内存中。 将表单服务器保存在内存中可提高其在经常创建和释放表单时的性能。 
+表单查看器调用 **IMAPIFormFactory：：LockServer** 方法来将打开的表单服务器应用程序保持在内存中。 在频繁创建和释放表单时，将窗体服务器保留到内存中可提高性能。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-**IMAPIFormFactory:: LockServer**方法非常类似于[IClassFactory:: LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx)方法。 实质上, **IMAPIFormFactory:: LockServer**方法维护它被调用次数的计数;只要该计数大于 0, 该方法将阻止从内存中卸载表单服务器。 您可以使用[CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx)函数来实现这一点。 
+**IMAPIFormFactory：：LockServer** 方法与 [IClassFactory：：LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx)方法非常相似。 实质上 **，IMAPIFormFactory：：LockServer** 方法维护其调用次数的计数;只要该计数大于 0，该方法就可防止从内存中卸载表单服务器。 可以使用 [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) 函数来实现这一点。 
   
 ## <a name="see-also"></a>另请参阅
 

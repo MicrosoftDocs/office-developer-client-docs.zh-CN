@@ -20,9 +20,9 @@ ms.locfileid: "32349320"
 
 指定要链接到的目标文档内的位置。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-例如, 如果 Address 单元格是 "Drawing1", 则子地址单元格可以指定页面名称, 例如 "page-3"。 如果 Address 单元格是 Microsoft Excel 文件 "Samples", 则该单元格的值可以是工作表或工作表中的区域, 例如 "工作表函数" 或 "Sheet1!A1: D10 "。 如果 Address 单元格为 "https://www.microsoft.com/office/", 则该单元格的值可以是文档中的命名锚点, 如 "解决方案"。
+例如，如果 Address 单元格为"Drawing1.vsdx"，则 SubAddress 单元格可以指定页面名称，如"Page-3"。 如果 Address 单元格是Microsoft Excel文件"Samples.xlsx"，则此单元格的值可以是工作表中的工作表或区域，例如"Worksheet Functions"或"Sheet1！A1：D10"。 如果 Address 单元格为""，则此单元格的值可以是文档中的命名定位标记， https://www.microsoft.com/office/ 例如"solutions"。
   
 您还可以在 **“超链接”** 对话框（在 **“插入”** 选项卡上的 **“链接”** 组中，单击 **“超链接”**）中设置此单元格的值。
   
@@ -30,14 +30,14 @@ ms.locfileid: "32349320"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | 超链接。  *名称*。"子地址", 其中 "超级链接" *。 name*为行名称  <br/> |
+| 单元格名称：  <br/> | 超链接。  *name*  .SubAddress，其中 Hyperlink  *.name*  是行名称  <br/> |
    
-若要从某个程序按索引获取对子**地址**单元格的引用, 请使用带下列参数的**CellsSRC**属性: 
+若要从程序按索引获取对 **SubAddress** 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionHyperlink** <br/> |
-| 行索引：  <br/> |**visRow1stHyperlink** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRow1stHyperlink**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visHLinkSubAddress** <br/> |
    
 

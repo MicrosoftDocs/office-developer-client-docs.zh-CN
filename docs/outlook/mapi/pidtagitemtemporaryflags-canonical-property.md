@@ -25,40 +25,40 @@ ms.locfileid: "32357699"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含指示邮件已阅读但未标记为 "已读" 的标志。
+包含一个标志，指示邮件已被读取，但没有标记为已读。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ITEM_TMPFLAGS  <br/> |
 |标识符:  <br/> |0x1097  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性在 Outlook 的 "未读邮件" 搜索文件夹中使用, 以在不实际将邮件标记为 "已读" 的情况下跟踪已读取的邮件, 这会将其从文件夹中删除。 当视图更改时, 将删除此属性并将项目标记为已读。 此属性不会同步到 Exchange 服务器。
+此属性用于 Outlook 的"未读邮件"搜索文件夹中，以跟踪已阅读的邮件，而不实际将其标记为已读，这会从文件夹中删除邮件。 当视图更改时，将删除此属性，将项目标记为已读。 此属性不会同步到Exchange Server。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > 处理文件夹操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

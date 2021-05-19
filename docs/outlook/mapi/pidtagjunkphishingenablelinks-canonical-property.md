@@ -25,7 +25,7 @@ ms.locfileid: "32342754"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果为 TRUE, 则表示应忽略邮件上的仿冒标记。
+如果为 TRUE，则指示应忽略邮件上的网络钓鱼标记。
   
 |||
 |:-----|:-----|
@@ -38,27 +38,27 @@ ms.locfileid: "32342754"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> 启用对允许/阻止列表的处理以及确定垃圾邮件。
+> 允许/阻止列表的处理和垃圾邮件的确定。
     
-[[毫秒-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> 标识和标记旨在欺骗收件人的电子邮件, 以将敏感信息 (如密码和其他个人信息) 泄漏到非信任源。
+> 标识并标记旨在欺骗收件人将敏感信息泄露 (例如密码和其他个人信息) 到不可信来源的电子邮件。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 
