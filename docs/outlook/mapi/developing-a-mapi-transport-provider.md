@@ -15,12 +15,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416907"
 ---
-# <a name="developing-a-mapi-transport-provider"></a><span data-ttu-id="460ab-103">开发 MAPI 传输提供程序</span><span class="sxs-lookup"><span data-stu-id="460ab-103">Developing a MAPI Transport Provider</span></span>
+# <a name="developing-a-mapi-transport-provider"></a><span data-ttu-id="f4421-103">开发 MAPI 传输提供程序</span><span class="sxs-lookup"><span data-stu-id="f4421-103">Developing a MAPI Transport Provider</span></span>
 
   
   
-<span data-ttu-id="460ab-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="460ab-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f4421-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f4421-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="460ab-105">在开发传输提供程序之前, 您应熟悉 MAPI 子系统体系结构、c + + 语言以及编写用于各种 Windows 平台的动态链接库 (dll)。</span><span class="sxs-lookup"><span data-stu-id="460ab-105">You should be familiar with the MAPI subsystem architecture, the C++ language, and with writing dynamic-link libraries (DLLs) for the various Windows platforms before developing a transport provider.</span></span>
+<span data-ttu-id="f4421-105">在开发传输提供程序之前，你应该熟悉 MAPI 子系统体系结构、C++ 语言，以及为各种 Windows 平台编写动态链接库 (DLL) 。</span><span class="sxs-lookup"><span data-stu-id="f4421-105">You should be familiar with the MAPI subsystem architecture, the C++ language, and with writing dynamic-link libraries (DLLs) for the various Windows platforms before developing a transport provider.</span></span>
   
 

@@ -14,19 +14,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416662"
 ---
-# <a name="huediff-function"></a><span data-ttu-id="d678b-103">HUEDIFF 函数</span><span class="sxs-lookup"><span data-stu-id="d678b-103">HUEDIFF Function</span></span>
+# <a name="huediff-function"></a><span data-ttu-id="63c03-103">HUEDIFF 函数</span><span class="sxs-lookup"><span data-stu-id="63c03-103">HUEDIFF Function</span></span>
 
-<span data-ttu-id="d678b-104">返回_color1_和_color2_之间的色调差异。</span><span class="sxs-lookup"><span data-stu-id="d678b-104">Returns the difference in hue between  _color1_ and  _color2_.</span></span>
+<span data-ttu-id="63c03-104">返回  _color1_ 和  _color2_ 之间的色调差异。</span><span class="sxs-lookup"><span data-stu-id="63c03-104">Returns the difference in hue between  _color1_ and  _color2_.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="d678b-105">语法</span><span class="sxs-lookup"><span data-stu-id="d678b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="63c03-105">语法</span><span class="sxs-lookup"><span data-stu-id="63c03-105">Syntax</span></span>
 
-<span data-ttu-id="d678b-106">HUEDIFF (\* \* *color1* \* \*, \* \* *color2* \* \*)</span><span class="sxs-lookup"><span data-stu-id="d678b-106">HUEDIFF(\*\* *color1* \*\*, \*\* *color2* \*\* )</span></span> 
+<span data-ttu-id="63c03-106">HUEDIFF (\*\* *color1* \*\*， \*\* *color2* \*\* ) </span><span class="sxs-lookup"><span data-stu-id="63c03-106">HUEDIFF(\*\* *color1* \*\*, \*\* *color2* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="d678b-107">参数</span><span class="sxs-lookup"><span data-stu-id="d678b-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="63c03-107">参数</span><span class="sxs-lookup"><span data-stu-id="63c03-107">Parameters</span></span>
 
-|<span data-ttu-id="d678b-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="d678b-108">**Name**</span></span>|<span data-ttu-id="d678b-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="d678b-109">**Required/Optional**</span></span>|<span data-ttu-id="d678b-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="d678b-110">**Data Type**</span></span>|<span data-ttu-id="d678b-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="d678b-111">**Description**</span></span>|
+|<span data-ttu-id="63c03-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="63c03-108">**Name**</span></span>|<span data-ttu-id="63c03-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="63c03-109">**Required/Optional**</span></span>|<span data-ttu-id="63c03-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="63c03-110">**Data Type**</span></span>|<span data-ttu-id="63c03-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="63c03-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="d678b-112">_color1_</span><span class="sxs-lookup"><span data-stu-id="d678b-112">_color1_</span></span> <br/> |<span data-ttu-id="d678b-113">必需</span><span class="sxs-lookup"><span data-stu-id="d678b-113">Required</span></span>  <br/> |<span data-ttu-id="d678b-114">**数值**</span><span class="sxs-lookup"><span data-stu-id="d678b-114">**Numeric**</span></span> <br/> |<span data-ttu-id="d678b-115">Microsoft Visio 第一种颜色的颜色索引或 RGB 值。</span><span class="sxs-lookup"><span data-stu-id="d678b-115">The Microsoft Visio color index or RGB value of the first color.</span></span>  <br/> |
-| <span data-ttu-id="d678b-116">_color2_</span><span class="sxs-lookup"><span data-stu-id="d678b-116">_color2_</span></span> <br/> |<span data-ttu-id="d678b-117">必需</span><span class="sxs-lookup"><span data-stu-id="d678b-117">Required</span></span>  <br/> |<span data-ttu-id="d678b-118">**数值**</span><span class="sxs-lookup"><span data-stu-id="d678b-118">**Numeric**</span></span> <br/> |<span data-ttu-id="d678b-119">Microsoft Visio 第二种颜色的颜色索引或 RGB 值。</span><span class="sxs-lookup"><span data-stu-id="d678b-119">The Microsoft Visio color index or RGB value of the second color.</span></span>  <br/> |
+| <span data-ttu-id="63c03-112">_color1_</span><span class="sxs-lookup"><span data-stu-id="63c03-112">_color1_</span></span> <br/> |<span data-ttu-id="63c03-113">必需</span><span class="sxs-lookup"><span data-stu-id="63c03-113">Required</span></span>  <br/> |<span data-ttu-id="63c03-114">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="63c03-114">**Numeric**</span></span> <br/> |<span data-ttu-id="63c03-115">Microsoft Visio 第一种颜色的颜色索引或 RGB 值。</span><span class="sxs-lookup"><span data-stu-id="63c03-115">The Microsoft Visio color index or RGB value of the first color.</span></span>  <br/> |
+| <span data-ttu-id="63c03-116">_color2_</span><span class="sxs-lookup"><span data-stu-id="63c03-116">_color2_</span></span> <br/> |<span data-ttu-id="63c03-117">必需</span><span class="sxs-lookup"><span data-stu-id="63c03-117">Required</span></span>  <br/> |<span data-ttu-id="63c03-118">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="63c03-118">**Numeric**</span></span> <br/> |<span data-ttu-id="63c03-119">Microsoft Visio 第二种颜色的颜色索引或 RGB 值。</span><span class="sxs-lookup"><span data-stu-id="63c03-119">The Microsoft Visio color index or RGB value of the second color.</span></span>  <br/> |
    
 

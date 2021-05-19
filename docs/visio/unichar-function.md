@@ -16,28 +16,28 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417579"
 ---
-# <a name="unichar-function"></a><span data-ttu-id="ae34d-103">UNICHAR 函数</span><span class="sxs-lookup"><span data-stu-id="ae34d-103">UNICHAR Function</span></span>
+# <a name="unichar-function"></a><span data-ttu-id="622c5-103">UNICHAR 函数</span><span class="sxs-lookup"><span data-stu-id="622c5-103">UNICHAR Function</span></span>
 
-<span data-ttu-id="ae34d-104">从数字中返回 Unicode 字符。</span><span class="sxs-lookup"><span data-stu-id="ae34d-104">Returns the Unicode character from a number.</span></span> 
+<span data-ttu-id="622c5-104">从数字中返回 Unicode 字符。</span><span class="sxs-lookup"><span data-stu-id="622c5-104">Returns the Unicode character from a number.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="ae34d-105">语法</span><span class="sxs-lookup"><span data-stu-id="ae34d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="622c5-105">语法</span><span class="sxs-lookup"><span data-stu-id="622c5-105">Syntax</span></span>
 
-<span data-ttu-id="ae34d-106">UNICHAR (\* **数字** \*)</span><span class="sxs-lookup"><span data-stu-id="ae34d-106">UNICHAR (\*\* *number* \*\* )</span></span> 
+<span data-ttu-id="622c5-106">UNICHAR (\*\* *number* \*\* ) </span><span class="sxs-lookup"><span data-stu-id="622c5-106">UNICHAR (\*\* *number* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="ae34d-107">参数</span><span class="sxs-lookup"><span data-stu-id="ae34d-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="622c5-107">参数</span><span class="sxs-lookup"><span data-stu-id="622c5-107">Parameters</span></span>
 
-|<span data-ttu-id="ae34d-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="ae34d-108">**Name**</span></span>|<span data-ttu-id="ae34d-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="ae34d-109">**Required/Optional**</span></span>|<span data-ttu-id="ae34d-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="ae34d-110">**Data Type**</span></span>|<span data-ttu-id="ae34d-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="ae34d-111">**Description**</span></span>|
+|<span data-ttu-id="622c5-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="622c5-108">**Name**</span></span>|<span data-ttu-id="622c5-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="622c5-109">**Required/Optional**</span></span>|<span data-ttu-id="622c5-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="622c5-110">**Data Type**</span></span>|<span data-ttu-id="622c5-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="622c5-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="ae34d-112">_number_</span><span class="sxs-lookup"><span data-stu-id="ae34d-112">_number_</span></span> <br/> |<span data-ttu-id="ae34d-113">必需</span><span class="sxs-lookup"><span data-stu-id="ae34d-113">Required</span></span>  <br/> |<span data-ttu-id="ae34d-114">**Integer**</span><span class="sxs-lookup"><span data-stu-id="ae34d-114">**Integer**</span></span> <br/> |<span data-ttu-id="ae34d-115">1 到 65,535 之间（包括 1 和 65,535）的整数，若超出此范围，该函数将返回错误。</span><span class="sxs-lookup"><span data-stu-id="ae34d-115">An integer between 1 and 65,535 (inclusive), or the function returns an error.</span></span>  <br/> |
+| <span data-ttu-id="622c5-112">_number_</span><span class="sxs-lookup"><span data-stu-id="622c5-112">_number_</span></span> <br/> |<span data-ttu-id="622c5-113">必需</span><span class="sxs-lookup"><span data-stu-id="622c5-113">Required</span></span>  <br/> |<span data-ttu-id="622c5-114">**Integer**</span><span class="sxs-lookup"><span data-stu-id="622c5-114">**Integer**</span></span> <br/> |<span data-ttu-id="622c5-115">1 到 65,535 之间（包括 1 和 65,535）的整数，若超出此范围，该函数将返回错误。</span><span class="sxs-lookup"><span data-stu-id="622c5-115">An integer between 1 and 65,535 (inclusive), or the function returns an error.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ae34d-116">说明</span><span class="sxs-lookup"><span data-stu-id="ae34d-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="622c5-116">备注</span><span class="sxs-lookup"><span data-stu-id="622c5-116">Remarks</span></span>
 
-<span data-ttu-id="ae34d-117">生成的字符串的长度为一个 Unicode 字符（两个字符）。</span><span class="sxs-lookup"><span data-stu-id="ae34d-117">The resulting string is one Unicode character (two characters) in length.</span></span> 
+<span data-ttu-id="622c5-117">生成的字符串的长度为一个 Unicode 字符（两个字符）。</span><span class="sxs-lookup"><span data-stu-id="622c5-117">The resulting string is one Unicode character (two characters) in length.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="ae34d-118">示例</span><span class="sxs-lookup"><span data-stu-id="ae34d-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="622c5-118">示例</span><span class="sxs-lookup"><span data-stu-id="622c5-118">Example</span></span>
 
-<span data-ttu-id="ae34d-119">UNICHAR (65)</span><span class="sxs-lookup"><span data-stu-id="ae34d-119">UNICHAR(65)</span></span> 
+<span data-ttu-id="622c5-119">UNICHAR (65) </span><span class="sxs-lookup"><span data-stu-id="622c5-119">UNICHAR(65)</span></span> 
   
-<span data-ttu-id="ae34d-120">返回 A (拉丁文大写字母 A)</span><span class="sxs-lookup"><span data-stu-id="ae34d-120">Returns A (Latin Capital Letter A)</span></span> 
+<span data-ttu-id="622c5-120">返回一 (拉丁文大写字母 A) </span><span class="sxs-lookup"><span data-stu-id="622c5-120">Returns A (Latin Capital Letter A)</span></span> 
   
 

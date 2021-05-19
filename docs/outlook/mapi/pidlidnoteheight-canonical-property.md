@@ -19,53 +19,53 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32331351"
 ---
-# <a name="pidlidnoteheight-canonical-property"></a><span data-ttu-id="5c240-103">PidLidNoteHeight 规范属性</span><span class="sxs-lookup"><span data-stu-id="5c240-103">PidLidNoteHeight Canonical Property</span></span>
+# <a name="pidlidnoteheight-canonical-property"></a><span data-ttu-id="bc8dd-103">PidLidNoteHeight 规范属性</span><span class="sxs-lookup"><span data-stu-id="bc8dd-103">PidLidNoteHeight Canonical Property</span></span>
 
   
   
-<span data-ttu-id="5c240-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5c240-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bc8dd-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bc8dd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5c240-105">指定可见邮件窗口的高度 (以像素为单位)。</span><span class="sxs-lookup"><span data-stu-id="5c240-105">Specifies the height of the visible message window in pixels.</span></span> 
+<span data-ttu-id="bc8dd-105">指定可见邮件窗口的高度（以像素为单位）。</span><span class="sxs-lookup"><span data-stu-id="bc8dd-105">Specifies the height of the visible message window in pixels.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5c240-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="5c240-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5c240-107">dispidNoteHeight</span><span class="sxs-lookup"><span data-stu-id="5c240-107">dispidNoteHeight</span></span>  <br/> |
-|<span data-ttu-id="5c240-108">属性集:</span><span class="sxs-lookup"><span data-stu-id="5c240-108">Property set:</span></span>  <br/> |<span data-ttu-id="5c240-109">PSETID_Note</span><span class="sxs-lookup"><span data-stu-id="5c240-109">PSETID_Note</span></span>  <br/> |
-|<span data-ttu-id="5c240-110">长 ID (盖子):</span><span class="sxs-lookup"><span data-stu-id="5c240-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="5c240-111">0x00008B03</span><span class="sxs-lookup"><span data-stu-id="5c240-111">0x00008B03</span></span>  <br/> |
-|<span data-ttu-id="5c240-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="5c240-112">Data type:</span></span>  <br/> |<span data-ttu-id="5c240-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="5c240-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="5c240-114">区域：</span><span class="sxs-lookup"><span data-stu-id="5c240-114">Area:</span></span>  <br/> |<span data-ttu-id="5c240-115">粘滞便笺</span><span class="sxs-lookup"><span data-stu-id="5c240-115">Sticky Note</span></span>  <br/> |
+|<span data-ttu-id="bc8dd-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="bc8dd-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="bc8dd-107">dispidNoteHeight</span><span class="sxs-lookup"><span data-stu-id="bc8dd-107">dispidNoteHeight</span></span>  <br/> |
+|<span data-ttu-id="bc8dd-108">属性集：</span><span class="sxs-lookup"><span data-stu-id="bc8dd-108">Property set:</span></span>  <br/> |<span data-ttu-id="bc8dd-109">PSETID_Note</span><span class="sxs-lookup"><span data-stu-id="bc8dd-109">PSETID_Note</span></span>  <br/> |
+|<span data-ttu-id="bc8dd-110">LONG ID (的一) ：</span><span class="sxs-lookup"><span data-stu-id="bc8dd-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="bc8dd-111">0x00008B03</span><span class="sxs-lookup"><span data-stu-id="bc8dd-111">0x00008B03</span></span>  <br/> |
+|<span data-ttu-id="bc8dd-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="bc8dd-112">Data type:</span></span>  <br/> |<span data-ttu-id="bc8dd-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="bc8dd-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="bc8dd-114">区域：</span><span class="sxs-lookup"><span data-stu-id="bc8dd-114">Area:</span></span>  <br/> |<span data-ttu-id="bc8dd-115">便笺</span><span class="sxs-lookup"><span data-stu-id="bc8dd-115">Sticky Note</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5c240-116">注解</span><span class="sxs-lookup"><span data-stu-id="5c240-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bc8dd-116">备注</span><span class="sxs-lookup"><span data-stu-id="bc8dd-116">Remarks</span></span>
 
-<span data-ttu-id="5c240-117">此值必须大于零。</span><span class="sxs-lookup"><span data-stu-id="5c240-117">This value must be greater than zero.</span></span>
+<span data-ttu-id="bc8dd-117">此值必须大于零。</span><span class="sxs-lookup"><span data-stu-id="bc8dd-117">This value must be greater than zero.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="5c240-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="5c240-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="bc8dd-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="bc8dd-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="5c240-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="5c240-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="bc8dd-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="bc8dd-119">Protocol specifications</span></span>
 
-<span data-ttu-id="5c240-120">[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5c240-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bc8dd-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bc8dd-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5c240-121">提供属性集定义和对相关 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="5c240-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="bc8dd-121">提供属性集定义和对相关协议规范Exchange Server引用。</span><span class="sxs-lookup"><span data-stu-id="bc8dd-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="5c240-122">[[毫秒-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5c240-122">[[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bc8dd-122">[[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bc8dd-122">[[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5c240-123">指定在备注中允许的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="5c240-123">Specifies the properties and operations that are permissible on notes.</span></span>
+> <span data-ttu-id="bc8dd-123">指定允许对注释使用的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="bc8dd-123">Specifies the properties and operations that are permissible on notes.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="5c240-124">头文件</span><span class="sxs-lookup"><span data-stu-id="5c240-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="bc8dd-124">头文件</span><span class="sxs-lookup"><span data-stu-id="bc8dd-124">Header files</span></span>
 
-<span data-ttu-id="5c240-125">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="5c240-125">Mapidefs.h</span></span>
+<span data-ttu-id="bc8dd-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="bc8dd-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="5c240-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="5c240-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="bc8dd-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="bc8dd-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="5c240-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5c240-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bc8dd-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bc8dd-127">See also</span></span>
 
 
 
-[<span data-ttu-id="5c240-128">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="5c240-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="bc8dd-128">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="bc8dd-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="5c240-129">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="5c240-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="bc8dd-129">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="bc8dd-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="5c240-130">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="5c240-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="bc8dd-130">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="bc8dd-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="5c240-131">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="5c240-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="bc8dd-131">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="bc8dd-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

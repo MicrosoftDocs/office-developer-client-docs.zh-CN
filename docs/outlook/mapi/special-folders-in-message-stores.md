@@ -1,5 +1,5 @@
 ---
-title: 邮件存储区中的特殊文件夹
+title: 邮件存储中的特殊文件夹
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416760"
 ---
-# <a name="special-folders-in-message-stores"></a><span data-ttu-id="a11d3-103">邮件存储区中的特殊文件夹</span><span class="sxs-lookup"><span data-stu-id="a11d3-103">Special Folders in Message Stores</span></span>
+# <a name="special-folders-in-message-stores"></a><span data-ttu-id="84209-103">邮件存储中的特殊文件夹</span><span class="sxs-lookup"><span data-stu-id="84209-103">Special Folders in Message Stores</span></span>
 
   
   
-<span data-ttu-id="a11d3-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a11d3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="84209-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="84209-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a11d3-105">"收件箱"、"发件箱" 和 "搜索结果" 文件夹等特殊文件夹可以提前创建并受邮件存储提供程序保护。</span><span class="sxs-lookup"><span data-stu-id="a11d3-105">Special folders such as the Inbox, Outbox, and search-results folder may be created in advance and protected by the message store provider.</span></span> <span data-ttu-id="a11d3-106">如果文件夹不存在, MAPI 将尝试通过调用[HrValidateIPMSubtree](hrvalidateipmsubtree.md)函数在邮件存储区中创建这些文件夹。</span><span class="sxs-lookup"><span data-stu-id="a11d3-106">If the folders do not exist, MAPI will attempt to create them in the message store by calling the [HrValidateIPMSubtree](hrvalidateipmsubtree.md) function.</span></span> <span data-ttu-id="a11d3-107">有关详细信息, 请参阅[MAPI 特殊文件夹](mapi-special-folders.md)。</span><span class="sxs-lookup"><span data-stu-id="a11d3-107">For more information, see [MAPI Special Folders](mapi-special-folders.md).</span></span>
+<span data-ttu-id="84209-105">可能会提前创建特殊文件夹，如收件箱、发件箱和搜索结果文件夹，并受邮件存储提供程序保护。</span><span class="sxs-lookup"><span data-stu-id="84209-105">Special folders such as the Inbox, Outbox, and search-results folder may be created in advance and protected by the message store provider.</span></span> <span data-ttu-id="84209-106">如果文件夹不存在，MAPI 将尝试通过调用 [HrValidateIPMSubtree](hrvalidateipmsubtree.md) 函数在邮件存储中创建它们。</span><span class="sxs-lookup"><span data-stu-id="84209-106">If the folders do not exist, MAPI will attempt to create them in the message store by calling the [HrValidateIPMSubtree](hrvalidateipmsubtree.md) function.</span></span> <span data-ttu-id="84209-107">有关详细信息，请参阅 [MAPI 特殊文件夹](mapi-special-folders.md)。</span><span class="sxs-lookup"><span data-stu-id="84209-107">For more information, see [MAPI Special Folders](mapi-special-folders.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="a11d3-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a11d3-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="84209-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="84209-108">See also</span></span>
 
 
 
-[<span data-ttu-id="a11d3-109">实现邮件存储中的文件夹</span><span class="sxs-lookup"><span data-stu-id="a11d3-109">Implementing Folders in Message Stores</span></span>](implementing-folders-in-message-stores.md)
+[<span data-ttu-id="84209-109">实现邮件存储中的文件夹</span><span class="sxs-lookup"><span data-stu-id="84209-109">Implementing Folders in Message Stores</span></span>](implementing-folders-in-message-stores.md)
 

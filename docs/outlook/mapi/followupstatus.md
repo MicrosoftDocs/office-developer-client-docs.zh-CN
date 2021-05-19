@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418328"
 ---
-# <a name="followupstatus"></a><span data-ttu-id="cc6f3-103">FollowUpStatus</span><span class="sxs-lookup"><span data-stu-id="cc6f3-103">FollowUpStatus</span></span>
+# <a name="followupstatus"></a><span data-ttu-id="01e62-103">FollowUpStatus</span><span class="sxs-lookup"><span data-stu-id="01e62-103">FollowUpStatus</span></span>
 
   
   
-<span data-ttu-id="cc6f3-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cc6f3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="01e62-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="01e62-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cc6f3-105">指定邮件的不同跟进状态。</span><span class="sxs-lookup"><span data-stu-id="cc6f3-105">Specifies the different follow-up statuses for a message.</span></span>
+<span data-ttu-id="01e62-105">指定邮件的不同后续状态。</span><span class="sxs-lookup"><span data-stu-id="01e62-105">Specifies the different follow-up statuses for a message.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="cc6f3-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="cc6f3-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="01e62-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="01e62-106">Quick info</span></span>
 
 ```cpp
 enum FollowUpStatus { 
@@ -34,27 +34,27 @@ enum FollowUpStatus {
 
 ```
 
-## <a name="members"></a><span data-ttu-id="cc6f3-107">成员</span><span class="sxs-lookup"><span data-stu-id="cc6f3-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="01e62-107">成员</span><span class="sxs-lookup"><span data-stu-id="01e62-107">Members</span></span>
 
- <span data-ttu-id="cc6f3-108">_flwupNone_</span><span class="sxs-lookup"><span data-stu-id="cc6f3-108">_flwupNone_</span></span>
+ <span data-ttu-id="01e62-108">_flwupNone_</span><span class="sxs-lookup"><span data-stu-id="01e62-108">_flwupNone_</span></span>
   
-> <span data-ttu-id="cc6f3-109">未指定跟进。</span><span class="sxs-lookup"><span data-stu-id="cc6f3-109">No follow-up has been specified.</span></span>
+> <span data-ttu-id="01e62-109">未指定任何后续操作。</span><span class="sxs-lookup"><span data-stu-id="01e62-109">No follow-up has been specified.</span></span>
     
- <span data-ttu-id="cc6f3-110">_flwupComplete_</span><span class="sxs-lookup"><span data-stu-id="cc6f3-110">_flwupComplete_</span></span>
+ <span data-ttu-id="01e62-110">_flwupComplete_</span><span class="sxs-lookup"><span data-stu-id="01e62-110">_flwupComplete_</span></span>
   
-> <span data-ttu-id="cc6f3-111">邮件已完成。</span><span class="sxs-lookup"><span data-stu-id="cc6f3-111">The message is complete.</span></span>
+> <span data-ttu-id="01e62-111">邮件已完成。</span><span class="sxs-lookup"><span data-stu-id="01e62-111">The message is complete.</span></span>
     
- <span data-ttu-id="cc6f3-112">_flwupMarked_</span><span class="sxs-lookup"><span data-stu-id="cc6f3-112">_flwupMarked_</span></span>
+ <span data-ttu-id="01e62-112">_flwupMarked_</span><span class="sxs-lookup"><span data-stu-id="01e62-112">_flwupMarked_</span></span>
   
-> <span data-ttu-id="cc6f3-113">将邮件标记为待跟踪状态。</span><span class="sxs-lookup"><span data-stu-id="cc6f3-113">The message is marked for follow-up.</span></span>
+> <span data-ttu-id="01e62-113">邮件标记为后续跟进。</span><span class="sxs-lookup"><span data-stu-id="01e62-113">The message is marked for follow-up.</span></span>
     
- <span data-ttu-id="cc6f3-114">_flwupMAX_</span><span class="sxs-lookup"><span data-stu-id="cc6f3-114">_flwupMAX_</span></span>
+ <span data-ttu-id="01e62-114">_flwupMAX_</span><span class="sxs-lookup"><span data-stu-id="01e62-114">_flwupMAX_</span></span>
   
-> <span data-ttu-id="cc6f3-115">支持的不同状态的跟踪次数。</span><span class="sxs-lookup"><span data-stu-id="cc6f3-115">The number of different statuses supported for follow-up.</span></span>
+> <span data-ttu-id="01e62-115">支持跟进的不同状态数。</span><span class="sxs-lookup"><span data-stu-id="01e62-115">The number of different statuses supported for follow-up.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="cc6f3-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cc6f3-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="01e62-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="01e62-116">See also</span></span>
 
 
 
-[<span data-ttu-id="cc6f3-117">PidTagFlagStatus 规范属性</span><span class="sxs-lookup"><span data-stu-id="cc6f3-117">PidTagFlagStatus Canonical Property</span></span>](pidtagflagstatus-canonical-property.md)
+[<span data-ttu-id="01e62-117">PidTagFlagStatus 规范属性</span><span class="sxs-lookup"><span data-stu-id="01e62-117">PidTagFlagStatus Canonical Property</span></span>](pidtagflagstatus-canonical-property.md)
 

@@ -15,46 +15,46 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417705"
 ---
-# <a name="getdefcachedmodedownloadpubfoldfavs"></a><span data-ttu-id="aeb89-103">GetDefCachedModeDownloadPubFoldFavs</span><span class="sxs-lookup"><span data-stu-id="aeb89-103">GetDefCachedModeDownloadPubFoldFavs</span></span>
+# <a name="getdefcachedmodedownloadpubfoldfavs"></a><span data-ttu-id="75fa9-103">GetDefCachedModeDownloadPubFoldFavs</span><span class="sxs-lookup"><span data-stu-id="75fa9-103">GetDefCachedModeDownloadPubFoldFavs</span></span>
 
   
   
-<span data-ttu-id="aeb89-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="aeb89-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="75fa9-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="75fa9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="aeb89-105">指示是否已启用**公用文件夹收藏夹**文件夹的缓存 Exchange 模式, 以及是否由策略强制执行此功能。</span><span class="sxs-lookup"><span data-stu-id="aeb89-105">Indicates whether Cached Exchange Mode for the **Public Folder Favorites** folder is enabled, and whether this is enforced by policy.</span></span> 
+<span data-ttu-id="75fa9-105">指示是否启用公用文件夹收藏夹文件夹的缓存Exchange 模式，以及这是否由策略强制执行。</span><span class="sxs-lookup"><span data-stu-id="75fa9-105">Indicates whether Cached Exchange Mode for the **Public Folder Favorites** folder is enabled, and whether this is enforced by policy.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="aeb89-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="aeb89-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="75fa9-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="75fa9-106">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="aeb89-107">导出者:</span><span class="sxs-lookup"><span data-stu-id="aeb89-107">Exported by:</span></span>  <br/> |<span data-ttu-id="aeb89-108">msmapi32</span><span class="sxs-lookup"><span data-stu-id="aeb89-108">msmapi32.dll</span></span>  <br/> |
-|<span data-ttu-id="aeb89-109">调用者：</span><span class="sxs-lookup"><span data-stu-id="aeb89-109">Called by:</span></span>  <br/> |<span data-ttu-id="aeb89-110">Client</span><span class="sxs-lookup"><span data-stu-id="aeb89-110">Client</span></span>  <br/> |
-|<span data-ttu-id="aeb89-111">实现者：</span><span class="sxs-lookup"><span data-stu-id="aeb89-111">Implemented by:</span></span>  <br/> |<span data-ttu-id="aeb89-112">Outlook</span><span class="sxs-lookup"><span data-stu-id="aeb89-112">Outlook</span></span>  <br/> |
+|<span data-ttu-id="75fa9-107">导出者：</span><span class="sxs-lookup"><span data-stu-id="75fa9-107">Exported by:</span></span>  <br/> |<span data-ttu-id="75fa9-108">msmapi32.dll</span><span class="sxs-lookup"><span data-stu-id="75fa9-108">msmapi32.dll</span></span>  <br/> |
+|<span data-ttu-id="75fa9-109">调用者：</span><span class="sxs-lookup"><span data-stu-id="75fa9-109">Called by:</span></span>  <br/> |<span data-ttu-id="75fa9-110">客户端</span><span class="sxs-lookup"><span data-stu-id="75fa9-110">Client</span></span>  <br/> |
+|<span data-ttu-id="75fa9-111">实现者：</span><span class="sxs-lookup"><span data-stu-id="75fa9-111">Implemented by:</span></span>  <br/> |<span data-ttu-id="75fa9-112">Outlook</span><span class="sxs-lookup"><span data-stu-id="75fa9-112">Outlook</span></span>  <br/> |
    
 ```cpp
 BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy); 
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="aeb89-113">参数</span><span class="sxs-lookup"><span data-stu-id="aeb89-113">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="75fa9-113">参数</span><span class="sxs-lookup"><span data-stu-id="75fa9-113">Parameters</span></span>
 
- <span data-ttu-id="aeb89-114">_pfPolicy_</span><span class="sxs-lookup"><span data-stu-id="aeb89-114">_pfPolicy_</span></span>
+ <span data-ttu-id="75fa9-114">_pfPolicy_</span><span class="sxs-lookup"><span data-stu-id="75fa9-114">_pfPolicy_</span></span>
   
-> <span data-ttu-id="aeb89-115">排除如果返回值由策略强制, 则**为 true** ; 如果不是, 则为**false** 。</span><span class="sxs-lookup"><span data-stu-id="aeb89-115">[out] **true** if the return value is enforced by policy, **false** if it is not.</span></span> 
+> <span data-ttu-id="75fa9-115">[out]如果返回值是由策略强制执行的，则返回值为 **true;** 如果返回值不是，则返回 **false。**</span><span class="sxs-lookup"><span data-stu-id="75fa9-115">[out] **true** if the return value is enforced by policy, **false** if it is not.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="aeb89-116">返回值</span><span class="sxs-lookup"><span data-stu-id="aeb89-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="75fa9-116">返回值</span><span class="sxs-lookup"><span data-stu-id="75fa9-116">Return values</span></span>
 
- <span data-ttu-id="aeb89-117">**true**</span><span class="sxs-lookup"><span data-stu-id="aeb89-117">**true**</span></span>
+ <span data-ttu-id="75fa9-117">**true**</span><span class="sxs-lookup"><span data-stu-id="75fa9-117">**true**</span></span>
   
-- <span data-ttu-id="aeb89-118">启用缓存。</span><span class="sxs-lookup"><span data-stu-id="aeb89-118">Caching is enabled.</span></span>
+- <span data-ttu-id="75fa9-118">缓存已启用。</span><span class="sxs-lookup"><span data-stu-id="75fa9-118">Caching is enabled.</span></span>
     
- <span data-ttu-id="aeb89-119">**该值**</span><span class="sxs-lookup"><span data-stu-id="aeb89-119">**false**</span></span>
+ <span data-ttu-id="75fa9-119">**false**</span><span class="sxs-lookup"><span data-stu-id="75fa9-119">**false**</span></span>
   
-- <span data-ttu-id="aeb89-120">缓存被禁用。</span><span class="sxs-lookup"><span data-stu-id="aeb89-120">Caching is disabled.</span></span>
+- <span data-ttu-id="75fa9-120">缓存已禁用。</span><span class="sxs-lookup"><span data-stu-id="75fa9-120">Caching is disabled.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="aeb89-121">另请参阅</span><span class="sxs-lookup"><span data-stu-id="aeb89-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="75fa9-121">另请参阅</span><span class="sxs-lookup"><span data-stu-id="75fa9-121">See also</span></span>
 
 
 
-[<span data-ttu-id="aeb89-122">GetDefCachedMode</span><span class="sxs-lookup"><span data-stu-id="aeb89-122">GetDefCachedMode</span></span>](getdefcachedmode.md)
+[<span data-ttu-id="75fa9-122">GetDefCachedMode</span><span class="sxs-lookup"><span data-stu-id="75fa9-122">GetDefCachedMode</span></span>](getdefcachedmode.md)
 

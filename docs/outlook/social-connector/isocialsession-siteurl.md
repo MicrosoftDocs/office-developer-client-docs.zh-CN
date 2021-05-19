@@ -15,19 +15,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416060"
 ---
-# <a name="isocialsessionsiteurl"></a><span data-ttu-id="b24e5-103">ISocialSession::SiteUrl</span><span class="sxs-lookup"><span data-stu-id="b24e5-103">ISocialSession::SiteUrl</span></span>
+# <a name="isocialsessionsiteurl"></a><span data-ttu-id="9fde9-103">ISocialSession::SiteUrl</span><span class="sxs-lookup"><span data-stu-id="9fde9-103">ISocialSession::SiteUrl</span></span>
 
-<span data-ttu-id="b24e5-104">设置社交网络网站 URL。</span><span class="sxs-lookup"><span data-stu-id="b24e5-104">Sets the social network site URL.</span></span> 
+<span data-ttu-id="9fde9-104">设置社交网络网站 URL。</span><span class="sxs-lookup"><span data-stu-id="9fde9-104">Sets the social network site URL.</span></span> 
   
 ```cpp
 [propput] HRESULT _stdcall siteUrl([in] BSTR rhs);
 ```
 
-## <a name="property-value"></a><span data-ttu-id="b24e5-105">属性值</span><span class="sxs-lookup"><span data-stu-id="b24e5-105">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="9fde9-105">属性值</span><span class="sxs-lookup"><span data-stu-id="9fde9-105">Property value</span></span>
 
-<span data-ttu-id="b24e5-106">一个代表社交网络网站 URL 的字符串。</span><span class="sxs-lookup"><span data-stu-id="b24e5-106">A string that represents a social network site URL.</span></span>
+<span data-ttu-id="9fde9-106">一个代表社交网络网站 URL 的字符串。</span><span class="sxs-lookup"><span data-stu-id="9fde9-106">A string that represents a social network site URL.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="b24e5-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b24e5-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9fde9-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9fde9-107">See also</span></span>
 
-- [<span data-ttu-id="b24e5-108">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="b24e5-108">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="9fde9-108">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9fde9-108">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

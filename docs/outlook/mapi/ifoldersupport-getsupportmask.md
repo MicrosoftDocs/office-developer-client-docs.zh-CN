@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417369"
 ---
-# <a name="ifoldersupportgetsupportmask"></a><span data-ttu-id="e110b-103">IFolderSupport::GetSupportMask</span><span class="sxs-lookup"><span data-stu-id="e110b-103">IFolderSupport::GetSupportMask</span></span>
+# <a name="ifoldersupportgetsupportmask"></a><span data-ttu-id="b2d60-103">IFolderSupport::GetSupportMask</span><span class="sxs-lookup"><span data-stu-id="b2d60-103">IFolderSupport::GetSupportMask</span></span>
 
   
   
-<span data-ttu-id="e110b-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e110b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b2d60-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b2d60-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e110b-105">获取有关文件夹支持共享的信息。</span><span class="sxs-lookup"><span data-stu-id="e110b-105">Gets information about a folder's support for sharing.</span></span>
+<span data-ttu-id="b2d60-105">获取文件夹对共享的支持信息。</span><span class="sxs-lookup"><span data-stu-id="b2d60-105">Gets information about a folder's support for sharing.</span></span>
   
 ```cpp
 HRESULT GetSupportMask( 
@@ -33,24 +33,24 @@ HRESULT GetSupportMask(
 ); 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e110b-106">参数</span><span class="sxs-lookup"><span data-stu-id="e110b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b2d60-106">参数</span><span class="sxs-lookup"><span data-stu-id="b2d60-106">Parameters</span></span>
 
- <span data-ttu-id="e110b-107">_pdwSupportMask_</span><span class="sxs-lookup"><span data-stu-id="e110b-107">_pdwSupportMask_</span></span>
+ <span data-ttu-id="b2d60-107">_pdwSupportMask_</span><span class="sxs-lookup"><span data-stu-id="b2d60-107">_pdwSupportMask_</span></span>
   
-> <span data-ttu-id="e110b-108">排除表示文件夹是否支持共享的位掩码。</span><span class="sxs-lookup"><span data-stu-id="e110b-108">[out] A bitmask indicating if the folder supports sharing.</span></span>
+> <span data-ttu-id="b2d60-108">[out]指示文件夹是否支持共享的位掩码。</span><span class="sxs-lookup"><span data-stu-id="b2d60-108">[out] A bitmask indicating if the folder supports sharing.</span></span>
     
- <span data-ttu-id="e110b-109">**FS_NONE**</span><span class="sxs-lookup"><span data-stu-id="e110b-109">**FS_NONE**</span></span>
+ <span data-ttu-id="b2d60-109">**FS_NONE**</span><span class="sxs-lookup"><span data-stu-id="b2d60-109">**FS_NONE**</span></span>
   
-> <span data-ttu-id="e110b-110">指示文件夹不支持共享。</span><span class="sxs-lookup"><span data-stu-id="e110b-110">Indicates that the folder does not support sharing.</span></span>
+> <span data-ttu-id="b2d60-110">指示文件夹不支持共享。</span><span class="sxs-lookup"><span data-stu-id="b2d60-110">Indicates that the folder does not support sharing.</span></span>
     
- <span data-ttu-id="e110b-111">**FS_SUPPORTS_SHARING**</span><span class="sxs-lookup"><span data-stu-id="e110b-111">**FS_SUPPORTS_SHARING**</span></span>
+ <span data-ttu-id="b2d60-111">**FS_SUPPORTS_SHARING**</span><span class="sxs-lookup"><span data-stu-id="b2d60-111">**FS_SUPPORTS_SHARING**</span></span>
   
-> <span data-ttu-id="e110b-112">指示文件夹支持共享。</span><span class="sxs-lookup"><span data-stu-id="e110b-112">Indicates that the folder supports sharing.</span></span>
+> <span data-ttu-id="b2d60-112">指示文件夹支持共享。</span><span class="sxs-lookup"><span data-stu-id="b2d60-112">Indicates that the folder supports sharing.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e110b-113">返回值</span><span class="sxs-lookup"><span data-stu-id="e110b-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b2d60-113">返回值</span><span class="sxs-lookup"><span data-stu-id="b2d60-113">Return value</span></span>
 
-<span data-ttu-id="e110b-114">S_OK</span><span class="sxs-lookup"><span data-stu-id="e110b-114">S_OK</span></span> 
+<span data-ttu-id="b2d60-114">S_OK</span><span class="sxs-lookup"><span data-stu-id="b2d60-114">S_OK</span></span> 
   
-> <span data-ttu-id="e110b-115">调用成功。</span><span class="sxs-lookup"><span data-stu-id="e110b-115">The call was successful.</span></span>
+> <span data-ttu-id="b2d60-115">呼叫成功。</span><span class="sxs-lookup"><span data-stu-id="b2d60-115">The call was successful.</span></span>
     
 

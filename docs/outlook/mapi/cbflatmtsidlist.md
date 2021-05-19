@@ -19,35 +19,35 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418391"
 ---
-# <a name="cbflatmtsidlist"></a><span data-ttu-id="93be4-103">CbFLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="93be4-103">CbFLATMTSIDLIST</span></span>
+# <a name="cbflatmtsidlist"></a><span data-ttu-id="7a117-103">CbFLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="7a117-103">CbFLATMTSIDLIST</span></span>
 
   
   
-<span data-ttu-id="93be4-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="93be4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7a117-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7a117-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="93be4-105">计算现有[FLATMTSIDLIST](flatmtsidlist.md)结构中的字节数。</span><span class="sxs-lookup"><span data-stu-id="93be4-105">Computes the number of bytes in an existing [FLATMTSIDLIST](flatmtsidlist.md) structure.</span></span> 
+<span data-ttu-id="7a117-105">计算现有 [FLATMTSIDLIST](flatmtsidlist.md) 结构的字节数。</span><span class="sxs-lookup"><span data-stu-id="7a117-105">Computes the number of bytes in an existing [FLATMTSIDLIST](flatmtsidlist.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="93be4-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="93be4-106">Header file:</span></span>  <br/> |<span data-ttu-id="93be4-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="93be4-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="93be4-108">相关结构:</span><span class="sxs-lookup"><span data-stu-id="93be4-108">Related structure:</span></span>  <br/> |<span data-ttu-id="93be4-109">**FLATMTSIDLIST**</span><span class="sxs-lookup"><span data-stu-id="93be4-109">**FLATMTSIDLIST**</span></span> <br/> |
+|<span data-ttu-id="7a117-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="7a117-106">Header file:</span></span>  <br/> |<span data-ttu-id="7a117-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7a117-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="7a117-108">相关结构：</span><span class="sxs-lookup"><span data-stu-id="7a117-108">Related structure:</span></span>  <br/> |<span data-ttu-id="7a117-109">**FLATMTSIDLIST**</span><span class="sxs-lookup"><span data-stu-id="7a117-109">**FLATMTSIDLIST**</span></span> <br/> |
    
 ```cpp
 CbFLATMTSIDLIST (_lplist)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="93be4-110">参数</span><span class="sxs-lookup"><span data-stu-id="93be4-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7a117-110">参数</span><span class="sxs-lookup"><span data-stu-id="7a117-110">Parameters</span></span>
 
- <span data-ttu-id="93be4-111">__lplist_</span><span class="sxs-lookup"><span data-stu-id="93be4-111">__lplist_</span></span>
+ <span data-ttu-id="7a117-111">_ _lplist_</span><span class="sxs-lookup"><span data-stu-id="7a117-111">_ _lplist_</span></span>
   
-> <span data-ttu-id="93be4-112">指向现有**FLATMTSIDLIST**结构的指针。</span><span class="sxs-lookup"><span data-stu-id="93be4-112">Pointer to the existing **FLATMTSIDLIST** structure.</span></span> 
+> <span data-ttu-id="7a117-112">指向现有 **FLATMTSIDLIST 结构的** 指针。</span><span class="sxs-lookup"><span data-stu-id="7a117-112">Pointer to the existing **FLATMTSIDLIST** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="93be4-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="93be4-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7a117-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7a117-113">See also</span></span>
 
 
 
-[<span data-ttu-id="93be4-114">FLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="93be4-114">FLATMTSIDLIST</span></span>](flatmtsidlist.md)
+[<span data-ttu-id="7a117-114">FLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="7a117-114">FLATMTSIDLIST</span></span>](flatmtsidlist.md)
 
 
-[<span data-ttu-id="93be4-115">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="93be4-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="7a117-115">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="7a117-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

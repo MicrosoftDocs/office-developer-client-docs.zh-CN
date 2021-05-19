@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417201"
 ---
-# <a name="mscapselector"></a><span data-ttu-id="563b7-103">MSCAP_SELECTOR</span><span class="sxs-lookup"><span data-stu-id="563b7-103">MSCAP_SELECTOR</span></span>
+# <a name="mscap_selector"></a><span data-ttu-id="c8fca-103">MSCAP_SELECTOR</span><span class="sxs-lookup"><span data-stu-id="c8fca-103">MSCAP_SELECTOR</span></span>
 
   
   
-<span data-ttu-id="563b7-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="563b7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c8fca-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c8fca-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="563b7-105">指定要为存储区返回的功能。</span><span class="sxs-lookup"><span data-stu-id="563b7-105">Specifies the capabilities to return for a store.</span></span>
+<span data-ttu-id="c8fca-105">指定为存储区返回的功能。</span><span class="sxs-lookup"><span data-stu-id="c8fca-105">Specifies the capabilities to return for a store.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="563b7-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="563b7-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="c8fca-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="c8fca-106">Quick info</span></span>
 
 ```cpp
 typedef enum 
@@ -36,26 +36,26 @@ typedef enum
 } MSCAP_SELECTOR;
 ```
 
-## <a name="members"></a><span data-ttu-id="563b7-107">成员</span><span class="sxs-lookup"><span data-stu-id="563b7-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="c8fca-107">成员</span><span class="sxs-lookup"><span data-stu-id="c8fca-107">Members</span></span>
 
- <span data-ttu-id="563b7-108">*MSCAP_SEL_RESERVED1*</span><span class="sxs-lookup"><span data-stu-id="563b7-108">*MSCAP_SEL_RESERVED1*</span></span> 
+ <span data-ttu-id="c8fca-108">*MSCAP_SEL_RESERVED1*</span><span class="sxs-lookup"><span data-stu-id="c8fca-108">*MSCAP_SEL_RESERVED1*</span></span> 
   
-> <span data-ttu-id="563b7-109">此成员是为内部使用 Outlook 而保留的, 不受支持。</span><span class="sxs-lookup"><span data-stu-id="563b7-109">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
+> <span data-ttu-id="c8fca-109">此成员仅供内部使用，Outlook不支持。</span><span class="sxs-lookup"><span data-stu-id="c8fca-109">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
     
- <span data-ttu-id="563b7-110">*MSCAP_SEL_RESERVED2*</span><span class="sxs-lookup"><span data-stu-id="563b7-110">*MSCAP_SEL_RESERVED2*</span></span> 
+ <span data-ttu-id="c8fca-110">*MSCAP_SEL_RESERVED2*</span><span class="sxs-lookup"><span data-stu-id="c8fca-110">*MSCAP_SEL_RESERVED2*</span></span> 
   
-> <span data-ttu-id="563b7-111">此成员是为内部使用 Outlook 而保留的, 不受支持。</span><span class="sxs-lookup"><span data-stu-id="563b7-111">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
+> <span data-ttu-id="c8fca-111">此成员仅供内部使用，Outlook不支持。</span><span class="sxs-lookup"><span data-stu-id="c8fca-111">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
     
- <span data-ttu-id="563b7-112">*MSCAP_SEL_FOLDER*</span><span class="sxs-lookup"><span data-stu-id="563b7-112">*MSCAP_SEL_FOLDER*</span></span> 
+ <span data-ttu-id="c8fca-112">*MSCAP_SEL_FOLDER*</span><span class="sxs-lookup"><span data-stu-id="c8fca-112">*MSCAP_SEL_FOLDER*</span></span> 
   
-> <span data-ttu-id="563b7-113">有关在 store 上支持文件夹的功能。</span><span class="sxs-lookup"><span data-stu-id="563b7-113">Capabilities about supporting folders on a store.</span></span>
+> <span data-ttu-id="c8fca-113">有关在存储区上支持文件夹的功能。</span><span class="sxs-lookup"><span data-stu-id="c8fca-113">Capabilities about supporting folders on a store.</span></span>
     
- <span data-ttu-id="563b7-114">*MSCAP_SEL_RESERVED3*</span><span class="sxs-lookup"><span data-stu-id="563b7-114">*MSCAP_SEL_RESERVED3*</span></span> 
+ <span data-ttu-id="c8fca-114">*MSCAP_SEL_RESERVED3*</span><span class="sxs-lookup"><span data-stu-id="c8fca-114">*MSCAP_SEL_RESERVED3*</span></span> 
   
-> <span data-ttu-id="563b7-115">此成员是为内部使用 Outlook 而保留的, 不受支持。</span><span class="sxs-lookup"><span data-stu-id="563b7-115">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
+> <span data-ttu-id="c8fca-115">此成员仅供内部使用，Outlook不支持。</span><span class="sxs-lookup"><span data-stu-id="c8fca-115">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
     
- <span data-ttu-id="563b7-116">*MSCAP_SEL_RESTRICTION*</span><span class="sxs-lookup"><span data-stu-id="563b7-116">*MSCAP_SEL_RESTRICTION*</span></span> 
+ <span data-ttu-id="c8fca-116">*MSCAP_SEL_RESTRICTION*</span><span class="sxs-lookup"><span data-stu-id="c8fca-116">*MSCAP_SEL_RESTRICTION*</span></span> 
   
-> <span data-ttu-id="563b7-117">有关对存储区的支持限制的功能。</span><span class="sxs-lookup"><span data-stu-id="563b7-117">Capabilities about supporting restrictions on a store.</span></span>
+> <span data-ttu-id="c8fca-117">有关对存储区的支持限制的功能。</span><span class="sxs-lookup"><span data-stu-id="c8fca-117">Capabilities about supporting restrictions on a store.</span></span>
     
 

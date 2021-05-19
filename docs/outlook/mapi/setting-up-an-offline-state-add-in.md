@@ -13,19 +13,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32339289"
 ---
-# <a name="setting-up-an-offline-state-add-in"></a><span data-ttu-id="df164-103">设置脱机状态加载项</span><span class="sxs-lookup"><span data-stu-id="df164-103">Setting up an offline state add-in</span></span>
+# <a name="setting-up-an-offline-state-add-in"></a><span data-ttu-id="b24d3-103">设置脱机状态加载项</span><span class="sxs-lookup"><span data-stu-id="b24d3-103">Setting up an offline state add-in</span></span>
 
-<span data-ttu-id="df164-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="df164-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b24d3-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b24d3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="df164-105">若要实现脱机状态外接程序, 必须实现连接、初始化和其他安装函数。</span><span class="sxs-lookup"><span data-stu-id="df164-105">To implement an offline state add-in, you must implement connection, initialization, and other setup functions.</span></span> <span data-ttu-id="df164-106">在本主题中, 通过使用示例脱机状态外接程序中的代码示例来演示这些连接、初始化和安装函数。</span><span class="sxs-lookup"><span data-stu-id="df164-106">In this topic, these connection, initialization, and setup functions are demonstrated by using code examples from the Sample Offline State Add-in.</span></span> <span data-ttu-id="df164-107">示例脱机状态加载项是一个 COM 加载项，它会将**脱机状态**菜单添加到 Outlook 并使用脱机状态 API。</span><span class="sxs-lookup"><span data-stu-id="df164-107">The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and uses the Offline State API.</span></span> <span data-ttu-id="df164-108">通过**脱机状态**菜单, 您可以启用或禁用状态监视、检查当前状态以及更改当前状态。</span><span class="sxs-lookup"><span data-stu-id="df164-108">Through the **Offline State** menu, you can enable or disable state monitoring, check the current state, and change the current state.</span></span> <span data-ttu-id="df164-109">有关下载和安装示例脱机状态加载项的详细信息，请参阅[安装示例脱机状态加载项](installing-the-sample-offline-state-add-in.md)。</span><span class="sxs-lookup"><span data-stu-id="df164-109">For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md).</span></span> <span data-ttu-id="df164-110">有关脱机状态 API 的详细信息，请参阅[关于脱机状态 API](about-the-offline-state-api.md)。</span><span class="sxs-lookup"><span data-stu-id="df164-110">For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).</span></span>
+<span data-ttu-id="b24d3-105">若要实现脱机状态加载项，必须实现连接、初始化和其他设置功能。</span><span class="sxs-lookup"><span data-stu-id="b24d3-105">To implement an offline state add-in, you must implement connection, initialization, and other setup functions.</span></span> <span data-ttu-id="b24d3-106">在本主题中，通过使用示例脱机状态加载项中的代码示例演示了这些连接、初始化和设置函数。</span><span class="sxs-lookup"><span data-stu-id="b24d3-106">In this topic, these connection, initialization, and setup functions are demonstrated by using code examples from the Sample Offline State Add-in.</span></span> <span data-ttu-id="b24d3-107">示例脱机状态加载项是一个 COM 加载项，它会将 **脱机状态** 菜单添加到 Outlook 并使用脱机状态 API。</span><span class="sxs-lookup"><span data-stu-id="b24d3-107">The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and uses the Offline State API.</span></span> <span data-ttu-id="b24d3-108">通过 **"脱机状态"** 菜单，可以启用或禁用状态监视、检查当前状态以及更改当前状态。</span><span class="sxs-lookup"><span data-stu-id="b24d3-108">Through the **Offline State** menu, you can enable or disable state monitoring, check the current state, and change the current state.</span></span> <span data-ttu-id="b24d3-109">有关下载和安装示例脱机状态加载项的详细信息，请参阅[安装示例脱机状态加载项](installing-the-sample-offline-state-add-in.md)。</span><span class="sxs-lookup"><span data-stu-id="b24d3-109">For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md).</span></span> <span data-ttu-id="b24d3-110">有关脱机状态 API 的详细信息，请参阅[关于脱机状态 API](about-the-offline-state-api.md)。</span><span class="sxs-lookup"><span data-stu-id="b24d3-110">For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).</span></span>
   
-<span data-ttu-id="df164-111">设置脱机状态外接程序后, 必须实现用于监视和修改连接状态更改的函数。</span><span class="sxs-lookup"><span data-stu-id="df164-111">After you set up an offline state add-in, you must implement functions to monitor and modify connection state changes.</span></span> <span data-ttu-id="df164-112">有关详细信息, 请参阅[使用脱机状态加载项监视连接状态更改](monitoring-connection-state-changes-using-an-offline-state-add-in.md)。</span><span class="sxs-lookup"><span data-stu-id="df164-112">For more information, see [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span></span>
+<span data-ttu-id="b24d3-111">在设置脱机状态加载项后，必须实现用于监视和修改连接状态更改的功能。</span><span class="sxs-lookup"><span data-stu-id="b24d3-111">After you set up an offline state add-in, you must implement functions to monitor and modify connection state changes.</span></span> <span data-ttu-id="b24d3-112">有关详细信息，请参阅使用脱机 [状态加载项监视连接状态更改](monitoring-connection-state-changes-using-an-offline-state-add-in.md)。</span><span class="sxs-lookup"><span data-stu-id="b24d3-112">For more information, see [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span></span>
   
-## <a name="on-connection-routine"></a><span data-ttu-id="df164-113">在连接例程上</span><span class="sxs-lookup"><span data-stu-id="df164-113">On Connection routine</span></span>
+## <a name="on-connection-routine"></a><span data-ttu-id="b24d3-113">On Connection 例程</span><span class="sxs-lookup"><span data-stu-id="b24d3-113">On Connection routine</span></span>
 
-<span data-ttu-id="df164-114">每次加载外接程序时, 都会调用**[OnConnection 方法 IDTExtensibility2](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** 。</span><span class="sxs-lookup"><span data-stu-id="df164-114">The **[IDTExtensibility2.OnConnection Method](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** is called every time an add-in is loaded.</span></span> <span data-ttu-id="df164-115">它是外接程序的入口点, 因此在启动外接程序时将调用`OnConnection`您在函数中放置的代码。</span><span class="sxs-lookup"><span data-stu-id="df164-115">It is the entry point for the add-in, so the code you put in the  `OnConnection` function will be called when the add-in starts.</span></span> <span data-ttu-id="df164-116">在下面的示例中, `OnConnection`函数调用`HrInitAddin`函数。</span><span class="sxs-lookup"><span data-stu-id="df164-116">In the following example, the  `OnConnection` function calls the  `HrInitAddin` function.</span></span> 
+<span data-ttu-id="b24d3-114">每次加载外接程序时都会调用 **[IDTExtensibility2.OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** 方法。</span><span class="sxs-lookup"><span data-stu-id="b24d3-114">The **[IDTExtensibility2.OnConnection Method](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** is called every time an add-in is loaded.</span></span> <span data-ttu-id="b24d3-115">它是外接程序的入口点，因此在外接程序启动时将调用您放入函数  `OnConnection` 中的代码。</span><span class="sxs-lookup"><span data-stu-id="b24d3-115">It is the entry point for the add-in, so the code you put in the  `OnConnection` function will be called when the add-in starts.</span></span> <span data-ttu-id="b24d3-116">在下面的示例中，  `OnConnection` 函数调用  `HrInitAddin` 函数。</span><span class="sxs-lookup"><span data-stu-id="b24d3-116">In the following example, the  `OnConnection` function calls the  `HrInitAddin` function.</span></span> 
   
-### <a name="cmyaddinonconnection-example"></a><span data-ttu-id="df164-117">CMyAddin:: OnConnection () 示例</span><span class="sxs-lookup"><span data-stu-id="df164-117">CMyAddin::OnConnection() example</span></span>
+### <a name="cmyaddinonconnection-example"></a><span data-ttu-id="b24d3-117">CMyAddin：：OnConnection () 示例</span><span class="sxs-lookup"><span data-stu-id="b24d3-117">CMyAddin::OnConnection() example</span></span>
 
 ```cpp
 STDMETHODIMP CMyAddin::OnConnection( 
@@ -44,11 +44,11 @@ STDMETHODIMP CMyAddin::OnConnection(
 }
 ```
 
-## <a name="initialize-add-in-routine"></a><span data-ttu-id="df164-118">初始化加载项例程</span><span class="sxs-lookup"><span data-stu-id="df164-118">Initialize Add-in routine</span></span>
+## <a name="initialize-add-in-routine"></a><span data-ttu-id="b24d3-118">初始化加载项例程</span><span class="sxs-lookup"><span data-stu-id="b24d3-118">Initialize Add-in routine</span></span>
 
-<span data-ttu-id="df164-119">`HrInitAddin`函数`LoadLibraries`调用、 `HrCacheProfileName`和`HrAddMenuItems`函数来完成脱机状态加载项设置。</span><span class="sxs-lookup"><span data-stu-id="df164-119">The  `HrInitAddin` function calls the  `LoadLibraries`,  `HrCacheProfileName`, and  `HrAddMenuItems` functions to finish setting up the offline state add-in.</span></span> 
+<span data-ttu-id="b24d3-119">`HrInitAddin`函数调用 `LoadLibraries` 、 `HrCacheProfileName` 和 `HrAddMenuItems` 函数以完成脱机状态加载项的设置。</span><span class="sxs-lookup"><span data-stu-id="b24d3-119">The  `HrInitAddin` function calls the  `LoadLibraries`,  `HrCacheProfileName`, and  `HrAddMenuItems` functions to finish setting up the offline state add-in.</span></span> 
   
-### <a name="cmyaddinhrinitaddin-example"></a><span data-ttu-id="df164-120">CMyAddin:: HrInitAddin () 示例</span><span class="sxs-lookup"><span data-stu-id="df164-120">CMyAddin::HrInitAddin() example</span></span>
+### <a name="cmyaddinhrinitaddin-example"></a><span data-ttu-id="b24d3-120">CMyAddin：：HrInitAddin () 示例</span><span class="sxs-lookup"><span data-stu-id="b24d3-120">CMyAddin::HrInitAddin() example</span></span>
 
 ```cpp
 HRESULT CMyAddin::HrInitAddin() 
@@ -63,11 +63,11 @@ HRESULT CMyAddin::HrInitAddin()
 }
 ```
 
-## <a name="load-libraries-routine"></a><span data-ttu-id="df164-121">加载库例程</span><span class="sxs-lookup"><span data-stu-id="df164-121">Load Libraries routine</span></span>
+## <a name="load-libraries-routine"></a><span data-ttu-id="b24d3-121">Load Libraries 例程</span><span class="sxs-lookup"><span data-stu-id="b24d3-121">Load Libraries routine</span></span>
 
-<span data-ttu-id="df164-122">`LoadLibraries`函数将加载外接程序所需的动态链接库 (DLL) 文件。</span><span class="sxs-lookup"><span data-stu-id="df164-122">The  `LoadLibraries` function loads the dynamic-link library (DLL) files that the add-in requires.</span></span> 
+<span data-ttu-id="b24d3-122">`LoadLibraries`函数加载动态链接库 (DLL) 加载项所需的文件。</span><span class="sxs-lookup"><span data-stu-id="b24d3-122">The  `LoadLibraries` function loads the dynamic-link library (DLL) files that the add-in requires.</span></span> 
   
-### <a name="loadlibraries-example"></a><span data-ttu-id="df164-123">LoadLibraries () 示例</span><span class="sxs-lookup"><span data-stu-id="df164-123">LoadLibraries() example</span></span>
+### <a name="loadlibraries-example"></a><span data-ttu-id="b24d3-123">LoadLibraries () 示例</span><span class="sxs-lookup"><span data-stu-id="b24d3-123">LoadLibraries() example</span></span>
 
 ```cpp
 void LoadLibraries() 
@@ -166,11 +166,11 @@ void LoadLibraries()
 }
 ```
 
-## <a name="cache-profile-name-routine"></a><span data-ttu-id="df164-124">缓存配置文件名称例程</span><span class="sxs-lookup"><span data-stu-id="df164-124">Cache Profile Name routine</span></span>
+## <a name="cache-profile-name-routine"></a><span data-ttu-id="b24d3-124">缓存配置文件名称例程</span><span class="sxs-lookup"><span data-stu-id="b24d3-124">Cache Profile Name routine</span></span>
 
-<span data-ttu-id="df164-125">`HrCacheProfileName`函数调用**[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** 函数打开当前会话的 "配置文件" 部分, 然后设置按钮处理程序的配置文件。</span><span class="sxs-lookup"><span data-stu-id="df164-125">The  `HrCacheProfileName` function calls the **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** function to open a profile section for the current session, and then sets the profile for the button handlers.</span></span> 
+<span data-ttu-id="b24d3-125">函数  `HrCacheProfileName` 调用 **[IMAPISupport：：OpenProfileSection](imapisupport-openprofilesection.md)** 函数以打开当前会话的配置文件部分，然后设置按钮处理程序的配置文件。</span><span class="sxs-lookup"><span data-stu-id="b24d3-125">The  `HrCacheProfileName` function calls the **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** function to open a profile section for the current session, and then sets the profile for the button handlers.</span></span> 
   
-### <a name="cmyaddinhrcacheprofilename-example"></a><span data-ttu-id="df164-126">CMyAddin:: HrCacheProfileName () 示例</span><span class="sxs-lookup"><span data-stu-id="df164-126">CMyAddin::HrCacheProfileName() example</span></span>
+### <a name="cmyaddinhrcacheprofilename-example"></a><span data-ttu-id="b24d3-126">CMyAddin：：HrCacheProfileName () 示例</span><span class="sxs-lookup"><span data-stu-id="b24d3-126">CMyAddin::HrCacheProfileName() example</span></span>
 
 ```cpp
 HRESULT CMyAddin::HrCacheProfileName() 
@@ -212,11 +212,11 @@ HRESULT CMyAddin::HrCacheProfileName()
 }
 ```
 
-## <a name="add-menu-items-routine"></a><span data-ttu-id="df164-127">"添加菜单项" 例程</span><span class="sxs-lookup"><span data-stu-id="df164-127">Add Menu Items routine</span></span>
+## <a name="add-menu-items-routine"></a><span data-ttu-id="b24d3-127">添加菜单项例程</span><span class="sxs-lookup"><span data-stu-id="b24d3-127">Add Menu Items routine</span></span>
 
-<span data-ttu-id="df164-128">函数定义在 "**脱机状态**" 菜单下显示的菜单选项, 该加载项在 Outlook 中加载时创建, 然后是对每个菜单项的调用`DispEventAdvise` `HrAddMenuItems`</span><span class="sxs-lookup"><span data-stu-id="df164-128">The  `HrAddMenuItems` function defines the menu options that appear under the **Offline State** menu that is created when the add-in is loaded in Outlook, and then calls  `DispEventAdvise` for each menu item.</span></span> 
+<span data-ttu-id="b24d3-128">函数定义在外接程序加载到 Outlook 时创建的"脱机状态"菜单下出现的菜单选项，然后调用 `HrAddMenuItems`  `DispEventAdvise` 每个菜单项。</span><span class="sxs-lookup"><span data-stu-id="b24d3-128">The  `HrAddMenuItems` function defines the menu options that appear under the **Offline State** menu that is created when the add-in is loaded in Outlook, and then calls  `DispEventAdvise` for each menu item.</span></span> 
   
-### <a name="cmyaddinhraddmenuitems-example"></a><span data-ttu-id="df164-129">CMyAddin:: HrAddMenuItems () 示例</span><span class="sxs-lookup"><span data-stu-id="df164-129">CMyAddin::HrAddMenuItems() example</span></span>
+### <a name="cmyaddinhraddmenuitems-example"></a><span data-ttu-id="b24d3-129">CMyAddin：：HrAddMenuItems () 示例</span><span class="sxs-lookup"><span data-stu-id="b24d3-129">CMyAddin::HrAddMenuItems() example</span></span>
 
 ```cpp
 HRESULT CMyAddin::HrAddMenuItems() 
@@ -287,11 +287,11 @@ HRESULT CMyAddin::HrAddMenuItems()
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="df164-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="df164-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b24d3-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b24d3-130">See also</span></span>
 
-- [<span data-ttu-id="df164-131">关于脱机状态 API</span><span class="sxs-lookup"><span data-stu-id="df164-131">About the Offline State API</span></span>](about-the-offline-state-api.md) 
-- [<span data-ttu-id="df164-132">安装示例脱机状态加载项</span><span class="sxs-lookup"><span data-stu-id="df164-132">Installing the Sample Offline State Add-in</span></span>](installing-the-sample-offline-state-add-in.md)
-- [<span data-ttu-id="df164-133">关于示例脱机状态加载项</span><span class="sxs-lookup"><span data-stu-id="df164-133">About the Sample Offline State Add-in</span></span>](about-the-sample-offline-state-add-in.md)
-- [<span data-ttu-id="df164-134">使用脱机状态加载项监视连接状态更改</span><span class="sxs-lookup"><span data-stu-id="df164-134">Monitoring Connection State Changes Using an Offline State Add-in</span></span>](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-- [<span data-ttu-id="df164-135">断开与脱机状态外接程序的连接</span><span class="sxs-lookup"><span data-stu-id="df164-135">Disconnecting an Offline State Add-in</span></span>](disconnecting-an-offline-state-add-in.md)
+- [<span data-ttu-id="b24d3-131">关于脱机状态 API</span><span class="sxs-lookup"><span data-stu-id="b24d3-131">About the Offline State API</span></span>](about-the-offline-state-api.md) 
+- [<span data-ttu-id="b24d3-132">安装示例脱机状态加载项</span><span class="sxs-lookup"><span data-stu-id="b24d3-132">Installing the Sample Offline State Add-in</span></span>](installing-the-sample-offline-state-add-in.md)
+- [<span data-ttu-id="b24d3-133">关于示例脱机状态加载项</span><span class="sxs-lookup"><span data-stu-id="b24d3-133">About the Sample Offline State Add-in</span></span>](about-the-sample-offline-state-add-in.md)
+- [<span data-ttu-id="b24d3-134">使用脱机状态加载项监视连接状态更改</span><span class="sxs-lookup"><span data-stu-id="b24d3-134">Monitoring Connection State Changes Using an Offline State Add-in</span></span>](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [<span data-ttu-id="b24d3-135">断开脱机状态加载项</span><span class="sxs-lookup"><span data-stu-id="b24d3-135">Disconnecting an Offline State Add-in</span></span>](disconnecting-an-offline-state-add-in.md)
 

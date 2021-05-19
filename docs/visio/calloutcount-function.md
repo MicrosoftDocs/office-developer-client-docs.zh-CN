@@ -14,21 +14,21 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418979"
 ---
-# <a name="calloutcount-function"></a><span data-ttu-id="13345-103">CALLOUTCOUNT 函数</span><span class="sxs-lookup"><span data-stu-id="13345-103">CALLOUTCOUNT Function</span></span>
+# <a name="calloutcount-function"></a><span data-ttu-id="78277-103">CALLOUTCOUNT 函数</span><span class="sxs-lookup"><span data-stu-id="78277-103">CALLOUTCOUNT Function</span></span>
 
-<span data-ttu-id="13345-104">返回与形状相关的标注形状总数。</span><span class="sxs-lookup"><span data-stu-id="13345-104">Returns the total number of callout shapes that are associated with the shape.</span></span>
+<span data-ttu-id="78277-104">返回与形状相关的标注形状总数。</span><span class="sxs-lookup"><span data-stu-id="78277-104">Returns the total number of callout shapes that are associated with the shape.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="13345-105">版本信息</span><span class="sxs-lookup"><span data-stu-id="13345-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="78277-105">版本信息</span><span class="sxs-lookup"><span data-stu-id="78277-105">Version Information</span></span>
 
-<span data-ttu-id="13345-106">添加的版本： Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="13345-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="78277-106">添加的版本： Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="78277-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="13345-107">语法</span><span class="sxs-lookup"><span data-stu-id="13345-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="78277-107">语法</span><span class="sxs-lookup"><span data-stu-id="78277-107">Syntax</span></span>
 
-<span data-ttu-id="13345-108">CALLOUTCOUNT ()</span><span class="sxs-lookup"><span data-stu-id="13345-108">CALLOUTCOUNT()</span></span>
+<span data-ttu-id="78277-108">CALLOUTCOUNT () </span><span class="sxs-lookup"><span data-stu-id="78277-108">CALLOUTCOUNT()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="13345-109">返回值</span><span class="sxs-lookup"><span data-stu-id="13345-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="78277-109">返回值</span><span class="sxs-lookup"><span data-stu-id="78277-109">Return value</span></span>
 
- <span data-ttu-id="13345-110">**Integer**</span><span class="sxs-lookup"><span data-stu-id="13345-110">**Integer**</span></span>
+ <span data-ttu-id="78277-110">**Integer**</span><span class="sxs-lookup"><span data-stu-id="78277-110">**Integer**</span></span>
   
 
