@@ -25,11 +25,11 @@ ms.locfileid: "33424061"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个 ASCII 字符串, 该字符串表示对象的复合条目标识符, 通常是邮件存储区中的邮件。 
+创建一个 ASCII 字符串，该字符串代表对象（通常是邮件存储中的邮件）的复合条目标识符。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
    
@@ -48,27 +48,27 @@ HrComposeMsgID(
 
  _psession_
   
-> 实时指向客户端应用程序正在使用的会话的指针。 
+> [in]指向客户端应用程序使用的会话的指针。 
     
  _cbStoreRecordKey_
   
-> 实时包含邮件或其他对象的邮件存储区的记录键的大小 (以字节为单位)。 如果在_cbStoreRecordKey_参数中传递零, 则_pszMsgID_参数指向已转换为 text 的条目标识符的副本。 
+> [in]包含邮件或其他对象的邮件存储的记录键的大小（以字节为单位）。 如果在  _cbStoreRecordKey_ 参数中传递零，  _则 pszMsgID_ 参数指向转换为文本的条目标识符的副本。 
     
  _pStoreRecordKey_
   
-> 实时指向邮件存储区中包含邮件或其他对象的记录键的指针。 
+> [in]指向包含邮件或其他对象的邮件存储的记录键的指针。 
     
  _cbMsgEID_
   
-> 实时邮件或其他对象的条目标识符的大小 (以字节为单位)。 
+> [in]邮件或其他对象的条目标识符的大小（以字节为单位）。 
     
  _pMsgEID_
   
-> 实时指向对象的条目标识符的指针。 
+> [in]指向对象的条目标识符的指针。 
     
  _pszMsgID_
   
-> 排除指向返回的 ASCII 字符串的指针。 如果_cbStoreRecordKey_参数大于零, 则_pszMsgID_参数指向转换为 text 的复合条目标识符。 如果_cbStoreRecordKey_为零, 则_pszMsgID_指向已转换为 text 的 noncompound 条目标识符。 
+> [out]指向返回的 ASCII 字符串的指针。 如果  _cbStoreRecordKey_ 参数大于零，则  _pszMsgID_ 参数指向转换为文本的复合条目标识符。 如果  _cbStoreRecordKey_ 为零，  _则 pszMsgID_ 指向转换为文本的非编译项标识符。 
     
 ## <a name="return-value"></a>返回值
 
@@ -76,10 +76,10 @@ HrComposeMsgID(
   
 ## <a name="remarks"></a>说明
 
-如果要为其创建复合条目标识符的邮件或其他对象驻留在邮件存储区中, 则将从该对象的条目标识符和存储的记录密钥创建标识符字符串。 如果对象不在 store 中 (即, 如果在_cbStoreRecordKey_参数中传递的 store 记录关键字的字节数为零), 则只会复制对象的条目标识符, 并将其转换为字符串。 
+如果要创建复合条目标识符的邮件或其他对象驻留在邮件存储中，则从对象的条目标识符和存储的记录密钥创建标识符字符串。 如果对象不在存储区中，即，如果在  _cbStoreRecordKey_ 参数中传递的存储记录密钥的字节计数为零，则对象的条目标识符只是复制并转换为字符串。 
   
-调用**HrComposeMsgID**函数等效于调用[HrComposeEID](hrcomposeeid.md)函数, 然后调用[HrSzFromEntryID](hrszfromentryid.md)函数。 
+调用 **HrComposeMsgID** 函数等效于调用 [HrComposeEID](hrcomposeeid.md) 函数，然后调用 [HrSzFromEntryID](hrszfromentryid.md) 函数。 
   
- **HrComposeMsgID**使客户端应用程序能够通过使用复合条目标识符来处理多个存储中的对象。 应用程序可以调用[HrDecomposeMsgID](hrdecomposemsgid.md)函数, 以将复合条目标识符拆分为其原始要素。 
+ **HrComposeMsgID** 允许客户端应用程序通过复合条目标识符处理多个存储中的对象。 应用程序可以调用 [HrDecomposeMsgID](hrdecomposemsgid.md) 函数将复合条目标识符拆分为原始组成部分。 
   
 

@@ -21,20 +21,20 @@ ms.locfileid: "33426119"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 定义了一组标准谓词, 或在用户做出菜单选择或单击按钮 (所有表单查看器都应支持) 时执行的操作。 每个动词都有一个与之相关联的常量, 用于标识, 在 EXCHFORM 中定义。H 头文件。 下表列出了标准窗体谓词及其关联的常量:
+MAPI 定义一组所有表单查看者都应支持的标准动词或当用户选择菜单或单击按钮时采取的操作。 每个动词都有一个与之关联的常量，用于标识，该常量在 EXCHFORM 中定义。H 头文件。 下表列出了标准窗体动词及其关联的常量：
   
 |**Verb**|**值**|
 |:-----|:-----|
 |打开  <br/> |EXCHIVERB_OPEN  <br/> |
-|回复  <br/> |EXCHIVERB_REPLYTOSENDER  <br/> |
+|答复  <br/> |EXCHIVERB_REPLYTOSENDER  <br/> |
 |全部答复  <br/> |EXCHIVERB_REPLYTOALL  <br/> |
-|前后  <br/> |EXCHIVERB_FORWARD  <br/> |
-|Print  <br/> |EXCHIVERB_PRINT  <br/> |
+|转发  <br/> |EXCHIVERB_FORWARD  <br/> |
+|打印  <br/> |EXCHIVERB_PRINT  <br/> |
 |另存为  <br/> |EXCHIVERB_SAVEAS  <br/> |
 |答复到文件夹  <br/> |EXCHIVERB_REPLYTOFOLDER  <br/> |
    
-当用户选择某个谓词时, 在对该窗体的 IMAPIForm 的调用中传递其常量[::D overb](imapiform-doverb.md)方法执行其对应的操作。 
+当用户选择一个动词时，在调用表单 [的 IMAPIForm：:D oVerb](imapiform-doverb.md) 方法中传递其常量以执行其相应的操作。 
   
-除了通过表单查看器访问谓词之外, 用户有时还可以直接从窗体访问谓词。 例如, 某些表单对象允许用户通过右键单击表单并从上下文相关的菜单中选择 "**打印**" 来调用**打印**谓词。 
+除了通过表单查看器访问动词之外，用户有时还可以直接从窗体访问动词。 例如，某些表单对象允许用户通过右键单击表单，然后从上下文相关菜单中选择"打印"来调用 **Print** 动词。 
   
 

@@ -24,9 +24,9 @@ ms.locfileid: "33425790"
 |:-----|:-----|:-----|
 | 0  <br/> | 顶部  <br/> |**visVertTop** <br/> |
 | 1  <br/> | 中间  <br/> |**visVertMiddle** <br/> |
-| 双面  <br/> | 向下  <br/> |**visVertBottom** <br/> |
+| 2  <br/> | 向下  <br/> |**visVertBottom** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 VerticalAlign 单元格的引用，请使用： 
   

@@ -29,9 +29,9 @@ ms.locfileid: "33425692"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapix  <br/> |
+|标头文件：  <br/> |Mapix.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE MAPIAllocateBuffer(
@@ -44,23 +44,23 @@ SCODE MAPIAllocateBuffer(
 
  _cbSize_
   
-> 实时要分配的缓冲区的大小 (以字节为单位)。 
+> [in]要分配的缓冲区的大小（以字节为单位）。 
     
  _lppBuffer_
   
-> 排除指向返回的已分配缓冲区的指针。
+> [out]指向返回的已分配缓冲区的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回请求的内存缓冲区。
+> 调用成功，并且已返回请求的内存缓冲区。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在**MAPIAllocateBuffer**呼叫处理过程中, 呼叫实现将从操作系统中获取内存块。 内存缓冲区分配在偶数字节地址上。 在较长整数访问效率更高的平台上, 操作系统在大小为4个字节的地址上分配缓冲区。 
+在 **MAPIAllocateBuffer** 调用处理期间，调用实现从操作系统获取内存块。 内存缓冲区在一个多数字节地址上分配。 在长整型访问效率更高的平台上，操作系统在地址上分配缓冲区，地址的大小（以字节为单位）为四的倍数。 
   
-调用[MAPIFreeBuffer](mapifreebuffer.md)函数将释放**MAPIAllocateBuffer**分配的内存缓冲区, 方法是在不再需要内存时调用[MAPIAllocateMore](mapiallocatemore.md)函数以及链接到它的任何缓冲区。 
+调用 [MAPIFreeBuffer](mapifreebuffer.md) 函数可释放 **MAPIAllocateBuffer** 分配的内存缓冲区，当不再需要内存时，通过调用 [MAPIAllocateMore](mapiallocatemore.md) 函数以及链接到该函数的任何缓冲区。 
   
 ## <a name="see-also"></a>另请参阅
 

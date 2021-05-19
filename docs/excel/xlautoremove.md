@@ -22,11 +22,11 @@ ms.locfileid: "33425475"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-当用户使用外接程序管理器在 excel 会话期间停用 XLL 时, 由 Microsoft Excel 调用。 如果在已安装加载项的情况下 Excel 会话正常或异常关闭，则不会调用此函数。
+每当Microsoft Excel管理器在 Excel 会话期间停用 XLL 时，Add-In调用。 如果在已安装加载项的情况下 Excel 会话正常或异常关闭，则不会调用此函数。
   
-此函数可用于显示一个自定义对话框, 告诉用户外接程序已停用, 或者读取或写入注册表, 例如。
+此函数可用于显示一个自定义对话框，告知用户外接程序已停用，或者读取或写入注册表。例如。
   
-Excel 不需要 XLL 即可实现和导出此函数。 
+Excel不需要 XLL 来实现和导出此函数。 
   
 ```cs
 int WINAPI xlAutoRemove(void);
@@ -42,7 +42,7 @@ int WINAPI xlAutoRemove(void);
   
 ## <a name="remarks"></a>说明
 
-如果您的 XLL 需要在加载项管理器删除任何任务时完成任何任务, 请使用此函数。
+如果你的 XLL 需要完成由 XLL 管理器删除的任何任务，请使用Add-In函数。
   
 ## <a name="example"></a>示例
 

@@ -22,7 +22,7 @@ ms.locfileid: "33420751"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-framework library 函数, 它初始化框架库, 它只是初始化临时**XLOPER**/ **XLOPER12**内存数据结构, 释放已分配的任何内存。 
+初始化框架库的框架库函数，该函数仅初始化临时 **XLOPER** /  **XLOPER12** 内存数据结构，从而释放已分配的任何内存。 
   
 ```cs
 short WINAPI InitFramework(void);
@@ -38,7 +38,7 @@ short WINAPI InitFramework(void);
   
 ## <a name="example"></a>示例
 
-此示例使用**InitFramework**函数来释放所有临时内存。 
+此示例使用 **InitFramework** 函数释放所有临时内存。 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

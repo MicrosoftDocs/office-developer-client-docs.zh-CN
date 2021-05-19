@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4664df83-cf81-36d4-189d-4a09be371638
-description: 此数据类型的变量包含一个 variant 数据类型的属性值。
+description: 此变量的数据类型保留属性的值，该属性值是变量数据类型。
 ms.openlocfilehash: 124cfaef40e63d60e2e9c6681884bfb57a043dde
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424397"
 ---
-# <a name="acctvariant"></a>ACCT_VARIANT
+# <a name="acct_variant"></a>ACCT_VARIANT
 
-此数据类型的变量包含一个 variant 数据类型的属性值。
+此变量的数据类型保留属性的值，该属性值是变量数据类型。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -38,7 +38,7 @@ typedef struct
 
 _dwType_
   
-> 变量类型:
+> 变量类型：
     
     - PT_LONG
     
@@ -46,15 +46,15 @@ _dwType_
     
     - PT_BINARY
     
-_仓库_
+_dw_
   
-> variant 的 DWORD 值。
+> 变量型的 DWORD 值。
     
 _pwsz_
   
 > variant 的字符串值。
     
-_区间_
+_bin_
   
 > 变量的二进制值。
     

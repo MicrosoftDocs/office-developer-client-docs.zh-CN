@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: eb6b921d-ecf8-3ce5-87ba-ac1632416b05
-description: '帐户管理 API 提供对帐户信息的访问权限, 并支持帐户更改的通知。 作为此 API 的客户端, 邮件提供程序执行以下操作:'
+description: 帐户管理 API 提供对帐户信息的访问权限，并支持帐户更改通知。 作为此 API 的客户端，邮件提供程序将执行以下操作：
 ms.openlocfilehash: 76520b7cc7f28ede28257729e4e4fbe2d5096290
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,19 +16,19 @@ ms.locfileid: "33426247"
 ---
 # <a name="about-the-account-management-api"></a>关于帐户管理 API
 
-帐户管理 API 提供对帐户信息的访问权限, 并支持帐户更改的通知。 作为此 API 的客户端, 邮件提供程序执行以下操作:
+帐户管理 API 提供对帐户信息的访问权限，并支持帐户更改通知。 作为此 API 的客户端，邮件提供程序将执行以下操作：
   
-1. 使用[IOlkAccountManager](iolkaccountmanager.md)管理帐户的访问权限并设置有关帐户更改的通知。 
+1. 使用 [IOlkAccountManager](iolkaccountmanager.md) 管理对帐户的访问权限并设置有关帐户更改的通知。 
     
-2. 实施和使用[IOlkAccountNotify](iolkaccountnotify.md)以发送有关帐户更改的通知。 
+2. 实现并使用 [IOlkAccountNotify](iolkaccountnotify.md) 发送有关帐户更改的通知。 
     
-3. 使用[IOlkEnum](iolkenum.md)枚举帐户。 
+3. 使用 [IOlkEnum](iolkenum.md) 枚举帐户。 
     
-4. 使用[IOlkAccount](iolkaccount.md)获取和设置帐户的属性和其他信息。 客户端通过[IOlkAccountManager:: FindAccount](iolkaccountmanager-findaccount.md)或[IOlkEnum:: GetNext](iolkenum-getnext.md)获取此接口, 以访问单个帐户。 
+4. 使用 [IOlkAccount](iolkaccount.md) 获取和设置有关帐户的属性和其他信息。 客户端通过 [IOlkAccountManager：：FindAccount](iolkaccountmanager-findaccount.md) 或 [IOlkEnum：：GetNext](iolkenum-getnext.md) 获取此接口，以访问单个帐户。 
     
-5. 实施和使用[IOlkAccountHelper](iolkaccounthelper.md)以提供帐户管理器帮助程序功能, 包括获取帐户的配置文件名称和当前 MAPI 会话。 
+5. 实现并使用 [IOlkAccountHelper](iolkaccounthelper.md) 提供帐户管理器帮助程序功能，包括获取帐户的配置文件名称和当前 MAPI 会话。 
     
-6. 实现并使用[IOlkErrorUnknown](iolkerrorunknown.md) , 以提供有关**IOlkAccountManager**、 **IOlkAccountNotify**和**IOlkAccount**中的错误的额外信息。 
+6. 实现并使用 [IOlkErrorUnknown](iolkerrorunknown.md)提供有关 **IOlkAccountManager、IOlkAccountNotify** 和 **IOlkAccount** 中的错误的额外信息。  
 
 ##  <a name="account-management-api-components"></a>帐户管理 API 组件
 

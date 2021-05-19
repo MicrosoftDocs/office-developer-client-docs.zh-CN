@@ -38,31 +38,31 @@ HRESULT DoSentMail(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lpMessage_
   
-> 实时指向打开邮件的指针, 该邮件应在指定用于保存已发送邮件的文件夹中生成。
+> [in]指向打开邮件的指针，邮件应在指定用于保留已发送项目的文件夹中生成。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISupport::D osentmail**方法是为邮件存储提供程序支持对象而实现的。 邮件存储提供程序从其[IMsgStore:: FinishedMsg](imsgstore-finishedmsg.md)方法的实现调用**DoSentMail** , 这是在处理完邮件后由 MAPI 后台处理程序调用的。 **FinishedMsg**解除锁定邮件, 确保邮件的引用计数为 1, 并调用**DoSentMail**。
+**IMAPISupport：:D oSentMail** 方法为邮件存储提供程序支持对象实现。 邮件存储提供程序通过 [实现 IMsgStore：：FinishedMsg](imsgstore-finishedmsg.md)方法调用 **DoSentMail，MAPI** 后台处理程序在处理完邮件后将调用此方法。 **FinishedMsg** 解锁邮件，确保邮件的引用计数为 1，并调用 **DoSentMail**。
   
- **DoSentMail**执行以下任务: 
+ **DoSentMail** 执行以下任务： 
   
-- 检查**PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) 属性的邮件, 以确定是否应在发送后删除该邮件。
+- 检查[PidTagDeleteAfterSubmit PR_DELETE_AFTER_SUBMIT (PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)属性) 邮件发送后是否应该删除该邮件。 
     
-- 确定 "已发送邮件" 文件夹的位置。
+- 确定"已发送项目"文件夹的位置。
     
-- 为 "已发送邮件" 文件夹上设置的任何挂接启动邮件挂钩处理。
+- 启动"已发送项目"文件夹上设置的任何挂钩的邮件挂钩处理。
     
-- 将邮件移至 "已发送邮件" 文件夹、"已删除邮件" 文件夹或其他文件夹。
+- 将邮件移动到"已发送的项目"文件夹、"已删除邮件"文件夹或其他文件夹。
     
 - 释放邮件。
     

@@ -25,7 +25,7 @@ ms.locfileid: "33426203"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在用于名称解析过程的配置文件中设置新的搜索路径。 
+设置配置文件中用于名称解析过程的新搜索路径。 
   
 ```cpp
 HRESULT SetSearchPath(
@@ -38,27 +38,27 @@ HRESULT SetSearchPath(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lpSearchPath_
   
-> 实时指向用于保存搜索路径的[SRowSet](srowset.md)结构的指针。 **SRowSet**中每个**aRow**成员的第一个属性必须为**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))。
+> [in]指向用于保留 [搜索路径的 SRowSet](srowset.md) 结构的指针。 **SRowSet** 中每个 **aRow** 成员的第一个属性必须PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) 。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功设置了搜索路径。
+> 已成功设置搜索路径。
     
 MAPI_E_MISSING_REQUIRED_COLUMN 
   
-> **SRowSet**结构中所述的一个容器不包含其**PR_ENTRYID**属性。 
+> **SRowSet** 结构中描述的容器之一 **不包括其** PR_ENTRYID 属性。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端和服务提供程序调用**SetSearchPath**方法, 以保存对用于使用[IAddrBook:: ResolveName](iaddrbook-resolvename.md)方法解析名称的容器搜索顺序所做的更改。 在会话实例之间保存搜索路径。 
+客户端和服务提供商调用 **SetSearchPath** 方法来保存对容器搜索顺序所做的更改，该搜索顺序用于使用 [IAddrBook：：ResolveName](iaddrbook-resolvename.md) 方法解析名称。 搜索路径在会话的实例之间保存。 
   
-客户端和提供程序无需调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法以使搜索路径更改永久。 
+客户端和提供程序不需要调用 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法来永久更改搜索路径。 
   
 ## <a name="see-also"></a>另请参阅
 

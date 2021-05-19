@@ -21,7 +21,7 @@ ms.locfileid: "33426805"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-Outlook 项目的源键。
+项目源Outlook项。
   
 ## <a name="quick-info"></a>快速信息
 

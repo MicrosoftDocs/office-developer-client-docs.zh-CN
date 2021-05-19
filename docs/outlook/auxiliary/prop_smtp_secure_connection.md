@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421282"
 ---
-# <a name="propsmtpsecureconnection"></a>PROP_SMTP_SECURE_CONNECTION
+# <a name="prop_smtp_secure_connection"></a>PROP_SMTP_SECURE_CONNECTION
 
 指定要用于 SMTP 帐户的加密连接的类型。
   
@@ -27,9 +27,9 @@ ms.locfileid: "33421282"
 |属性标记：  <br/> |0x020A0003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此值可以是下列常量之一。 有关其值, 请参阅[常量 (帐户管理 API)](constants-account-management-api.md) 。 
+值可以是下列常量之一。 请参阅 [Constants (Account management API) ](constants-account-management-api.md) 了解其值。 
   
 |**Constants**|**说明**|
 |:-----|:-----|

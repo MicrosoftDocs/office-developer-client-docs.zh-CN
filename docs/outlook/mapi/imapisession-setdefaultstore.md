@@ -25,7 +25,7 @@ ms.locfileid: "33426105"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将邮件存储区建立为会话的默认邮件存储区。
+将邮件存储建立为会话的默认邮件存储。
   
 ```cpp
 HRESULT SetDefaultStore(
@@ -39,53 +39,53 @@ HRESULT SetDefaultStore(
 
  _ulFlags_
   
-> 实时用于控制默认邮件存储的设置的标志的位掩码。 这些标志是互斥的;只能设置下列标志之一:
+> [in]控制默认邮件存储设置的位掩码标志。 这些标志相互排斥;只能设置以下标志之一：
     
 MAPI_DEFAULT_STORE
   
-> 将邮件存储区建立为会话默认值。 通过在**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 列中设置 STATUS_DEFAULT_STORE 标志来更新邮件存储区的状态表行。
+> 建立消息存储作为会话默认值。 更新邮件存储的状态表行，STATUS_DEFAULT_STORE [PidTagResourceFlags PR_RESOURCE_FLAGS (PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 标记。 
     
 MAPI_PRIMARY_STORE
   
-> 建立要在登录时使用的存储区的邮件存储区。 如果邮件存储不是默认存储, 客户端应将其设为默认值。 通过在**PR_RESOURCE_FLAGS**列中设置 STATUS_PRIMARY_STORE 标志来更新邮件存储区的状态表行。 
+> 将邮件存储建立为登录时所使用的存储。 如果邮件存储不是默认存储，客户端应设置为默认存储。 通过设置"邮件存储"列中的"STATUS_PRIMARY_STORE"标记来更新 **PR_RESOURCE_FLAGS表行** 。 
     
 MAPI_SECONDARY_STORE
   
-> 将邮件存储区建立为当主邮件存储不可用时在登录时使用的存储区。 如果客户端无法打开主存储, 则应打开辅助存储并将其设置为默认存储。 通过在**PR_RESOURCE_FLAGS**列中设置 STATUS_SECONDARY_STORE 标志来更新邮件存储区的状态表行。 
+> 建立邮件存储作为在主邮件存储不可用时在登录时所使用的存储。 如果客户端无法打开主存储，它应打开辅助存储，并设置为默认值。 通过设置"邮件存储"列中的"STATUS_SECONDARY_STORE"标记来更新邮件 **PR_RESOURCE_FLAGS行。** 
     
 MAPI_SIMPLE_STORE_PERMANENT
   
-> 在邮件存储区的**PR_RESOURCE_FLAGS**属性中设置其状态表行、邮件存储表行和会话配置文件中的 STATUS_SIMPLE_STORE 标志。 
+> 在STATUS_SIMPLE_STORE表行、邮件存储表行和会话 **配置文件** PR_RESOURCE_FLAGS邮件存储的 PR_RESOURCE_FLAGS 属性中设置该标志。 
     
 MAPI_SIMPLE_STORE_TEMPORARY
   
-> 在邮件存储的**PR_RESOURCE_FLAGS**属性中的状态表格行和邮件存储表行中设置 STATUS_SIMPLE_STORE 标志。 不修改配置文件。 
+> 在STATUS_SIMPLE_STORE表行和邮件存储表PR_RESOURCE_FLAGS中设置邮件存储的 PR_RESOURCE_FLAGS 标记。 不修改配置文件。 
     
  _cbEntryID_
   
-> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
+> [in]  _lpEntryID_ 参数指向的条目标识符中的字节计数。 
     
  _lpEntryID_
   
-> 实时指向邮件存储的条目标识符的指针, 该邮件存储将作为默认值。 如果客户端在_lpEntryID_中传递了 NULL, 则不会选择任何邮件存储区作为默认值。
+> [in]指向默认的邮件存储的条目标识符的指针。 如果客户端在  _lpEntryID_ 中传递 NULL，则不选择任何邮件存储作为默认值。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的一个或一些值。
+> 调用成功并返回预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISession:: SetDefaultStore**方法将邮件存储区建立为以下内容之一: 
+**IMAPISession：：SetDefaultStore** 方法将邮件存储建立为以下操作之一： 
   
-- 会话的默认邮件存储区。
+- 会话的默认邮件存储。
     
-- 会话的主邮件存储区。
+- 会话的主邮件存储。
     
-- 会话的辅助邮件存储区。
+- 会话的辅助邮件存储。
     
-若要将邮件存储区设置为默认值, 邮件存储区的**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性中必须设置以下标志:
+若要将邮件存储建立为默认存储，邮件存储必须在其 **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 设置以下标志：
   
 - STORE_SUBMIT_OK
     
@@ -95,15 +95,15 @@ S_OK
     
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-您可以通过检索状态表并在**PR_RESOURCE_FLAGS**列中搜索 STATUS_DEFAULT_STORE 标志的设置来确定会话的默认邮件存储。 具有此设置的行表示指定为会话默认值的邮件存储区。 
+您可以通过检索状态表，并搜索 STATUS_DEFAULT_STORE 列中的 STATUS_DEFAULT_STORE 标志的设置来确定 **会话的默认PR_RESOURCE_FLAGS** 存储。 具有此设置的行表示指定为会话默认值的邮件存储。 
   
-如果设置了 MAPI_DEFAULT_STORE 或 MAPI_SIMPLE_STORE_PERMANENT 标志, MAPI 将更新配置文件、邮件存储表和状态表。 
+当设置 MAPI_DEFAULT_STORE 或 MAPI_SIMPLE_STORE_PERMANENT 标志时，MAPI 将更新配置文件、邮件存储表和状态表。 
   
-每当对邮件存储库默认设置进行更改时, 都会生成以下通知:
+只要对邮件存储默认设置进行了更改，就会生成以下通知：
   
-- 对于邮件存储和状态表中的每个受影响的行, 都会发出一个**fnevTableModified**事件通知。 
+- 为邮件存储和状态表中的每个受影响的行发出 **fnevTableModified** 事件通知。 
     
-- 向 MAPI 后台处理程序发出内部通知。 已在进行中的操作已完成, 无需更改;将为新的默认存储区处理涉及默认邮件存储 (如邮件下载) 的新操作。
+- 向 MAPI 后台处理程序发出内部通知。 已完成进行中的操作，无需更改;涉及默认邮件存储的新操作（如邮件下载）将针对新的默认存储进行处理。
     
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -111,7 +111,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg  <br/> |CMainDlg:: OnSetDefaultStore  <br/> |MFCMAPI 使用**IMAPISession:: SetDefaultStore**方法将选定存储区设置为默认存储区。  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg：：OnSetDefaultStore  <br/> |MFCMAPI 使用 **IMAPISession：：SetDefaultStore** 方法将所选存储设置为默认存储。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

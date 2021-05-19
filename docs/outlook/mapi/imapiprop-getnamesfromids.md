@@ -25,7 +25,7 @@ ms.locfileid: "33423571"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供与一个或多个属性标识符相对应的属性名称。
+提供对应于一个或多个属性标识符的属性名称。
   
 ```cpp
 HRESULT GetNamesFromIDs(
@@ -41,37 +41,37 @@ HRESULT GetNamesFromIDs(
 
  _lppPropTags_
   
-> [in, out]在输入时, 指向包含属性标记数组的[SPropTagArray](sproptagarray.md)结构的指针;否则为 NULL, 表示应返回所有名称。 属性标记数组的**cValues**成员不能为0。 如果_lppPropTags_是有效的输入指针, **GetNamesFromIDs**将返回数组中包含的每个属性标识符的名称。 
+> [in， out]在输入时，指向包含属性标记数组 [的 SPropTagArray](sproptagarray.md) 结构的指针;否则为 NULL，指示应返回所有名称。 属性标记数组的 **cValues** 成员不能为 0。 如果  _lppPropTags_ 是输入上的有效指针 **，GetNamesFromIDs** 将返回数组中包含的每个属性标识符的名称。 
     
  _lpPropSetGuid_
   
-> 实时指向标识属性集的 guid 或[guid](guid.md)结构的指针。 _lpPropSetGuid_参数可指向有效的属性集, 也可以为 NULL。 
+> [in]指向标识属性集的 GUID 或 [GUID](guid.md) 结构的指针。 _lpPropSetGuid_ 参数可以指向有效的属性集，也可以为 NULL。 
     
  _ulFlags_
   
-> 实时标志的位掩码, 指示要返回的名称的类型。 可以使用以下标志 (如果同时设置了这两个标志, 则不会返回任何名称):
+> [in]指示要返回的名称类型的标志的位掩码。 如果设置了这两个标志 (，则系统不会返回任何名称，) ：
     
 MAPI_NO_IDS 
   
-> 仅返回以 Unicode 字符串形式存储的名称的请求。 
+> 仅返回存储为 Unicode 字符串的名称的请求。 
     
 MAPI_NO_STRINGS 
   
-> 仅返回作为数字标识符存储的名称的请求。 
+> 仅返回存储为数字标识符的名称的请求。 
     
  _lpcPropNames_
   
-> 排除一个指针, 指向由_lppPropNames_参数指向的数组中的属性名称指针的计数。 
+> [out]指向  _lppPropNames_ 参数指向的数组中的属性名称指针计数的指针。 
     
  _lpppPropNames_
   
-> 排除指向包含属性名称的[MAPINAMEID](mapinameid.md)结构的指针数组的指针。 
+> [out]指向指向包含属性名称 [的 MAPINAMEID](mapinameid.md) 结构的指针数组的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功返回属性名称。 
+> 属性名称已成功返回。 
     
 MAPI_E_NO_SUPPORT 
   
@@ -79,59 +79,59 @@ MAPI_E_NO_SUPPORT
     
 MAPI_W_ERRORS_RETURNED 
   
-> 呼叫全部成功, 但无法返回一个或多个属性的名称。 失败属性的属性标记的属性类型为**PT_ERROR**。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。 
+> 调用整体成功，但无法返回一个或多个属性的名称。 失败属性的属性标记的属性类型为 **PT_ERROR**。 返回此警告时，应成功处理呼叫。 若要测试此警告，请使用 **HR_FAILED** 宏。 有关详细信息，请参阅使用 [宏处理错误](using-macros-for-error-handling.md)。 
     
 MAPI_E_INVALID_PARAMETER 
   
-> 由_lppPropTags_指向的属性标记数组中的一个或多个条目的**cValues**成员设置为0。 
+> _lppPropTags_ 指向的属性标记数组中一个或多个条目的 **cValues** 成员设置为 0。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-虽然对大多数属性的访问都是通过属性标识符访问, 但某些属性可以通过名称访问。 可以调用**IMAPIProp:: GetNamesFromIDs**方法来执行以下操作: 
+虽然通过属性标识符访问大多数属性，但某些属性可以通过名称访问。 可以 **调用 IMAPIProp：：GetNamesFromIDs** 方法来执行以下操作： 
   
-- 检索特定属性集中特定属性标识符的名称。
+- 检索特定属性集内特定属性标识符的名称。
     
-- 在任何属性集中检索特定属性标识符的名称。
+- 检索任何属性集内特定属性标识符的名称。
     
 - 检索对象映射中包含的所有命名属性的名称。
     
-如果_lppPropTags_指向具有一个或多个属性标识符的有效属性标记数组, 并且_lpPropSetGuid_指向有效的属性集, 则**GetNamesFromIDs**将忽略该属性集和属性类型, 并返回所有名称。映射到指定标识符的。 
+如果  _lppPropTags_ 指向具有一个或多个属性标识符的有效属性标记数组，  _并且 lpPropSetGuid_ 指向有效的属性集，则 **GetNamesFromIDs** 将忽略属性集和属性类型，并返回映射到指定标识符的所有名称。 
   
-如果_lppPropTags_指向具有一个或多个属性标识符且_lpPropSetGuid_为 NULL 的有效属性标记数组, 则**GetNamesFromIDs**将返回映射到指定标识符的所有名称。 
+如果  _lppPropTags_ 指向具有一个或多个属性标识符的有效属性标记数组，并且  _lpPropSetGuid_ 为 NULL， **则 GetNamesFromIDs** 将返回映射到指定标识符的所有名称。 
   
-如果指定的标识符没有名称, 则**GetNamesFromIDs**将在该标识符在_lpppPropNames_中返回的结构中的位置返回 NULL, 同时还返回 MAPI_W_ERRORS_RETURNED。 
+如果指定的标识符没有名称 **，GetNamesFromIDs** 将返回 NULL，该标识符的位置在  _lpppPropNames_ 中返回的结构中，并返回MAPI_W_ERRORS_RETURNED。 
   
-如果_lpPropSetGuid_和_lppPropTags_都为 NULL, 则**GetNamesFromIDs**会分配一个新的属性标记数组, 并返回该对象的所有命名属性的所有名称。 
+如果  _lpPropSetGuid_ 和  _lppPropTags_ 都为 NULL， **则 GetNamesFromIDs** 将分配一个新的属性标记数组，并返回对象的所有命名属性的所有名称。 
   
-如果没有要返回的名称, 可能是因为请求的属性集中没有任何属性, 或者所有属性都不是由 flags 排除的类型, **GetNamesFromIDs**将执行以下操作: 
+如果没有要返回的名称，可能是因为请求的属性集没有属性，或者所有属性的类型都由标志排除 **，GetNamesFromIDs** 将执行以下操作： 
   
-- 返回 S_OK。
+- 返回S_OK。
     
-- 分配一个新的**SPropTagArray**结构, 并将**cValues**成员设置为0。 
+- 分配新的 **SPropTagArray** 结构，将 **cValues** 成员设置为 0。 
     
-- 将_lpcPropNames_的内容设置为0。 
+- 将  _lpcPropNames 的内容设置_ 为 0。 
     
-- 将_lpppPropNames_的内容设置为 NULL。 
+- 将  _lpppPropNames 的内容设置_ 为 NULL。 
     
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果_lpPropSetGuid_指向有效的属性集, 而_lppPropTags_为 NULL, 则结果是不确定的。 您可以使用以下策略之一: 
+如果  _lpPropSetGuid_ 指向有效的属性集，  _而 lppPropTags_ 为 NULL，则结果为 undefined。 可以使用以下策略之一： 
   
-- 忽略属性集, 并在属性标记数组中返回标识符的名称。
+- 忽略属性集并返回属性标记数组中标识符的名称。
     
 - 仅返回属于指定属性集的属性标记数组中的标识符的名称。
     
-- 使呼叫失败, 返回 MAPI_E_INVALID_PARAMETER。 
+- 呼叫失败，返回MAPI_E_INVALID_PARAMETER。 
     
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要检索对象的所有命名属性, 必须先调用对象的[IMAPIProp:: GetPropList](imapiprop-getproplist.md)方法, 然后将大于0x8000 范围的返回标识符传递给**GetNamesFromIDs**。
+若要检索对象的所有命名属性，必须先调用对象的 [IMAPIProp：：GetPropList](imapiprop-getproplist.md) 方法，然后将 0x8000 范围之上的返回标识符传递到 **GetNamesFromIDs**。
   
-如果传递的是有效的属性集, 而不是有效的属性标记数组, 则准备好实现不可预知的结果。 **GetNamesFromIDs**的某些实现将忽略该属性集, 并返回属性标记数组中的标识符的名称。 某些实现返回 MAPI_E_INVALID_PARAMETER。 此外, 其他实现将返回属性集中所有属性的标识符的名称。 如果属性集为 PS_PUBLIC_STRINGS, 则**GetNamesFromIDs**可以返回曾经创建的所有名称。 服务提供程序是否在与公共字符串关联的标识符下存储属性是 immaterial。 
+如果传递的有效属性集不是有效的属性标记数组，请为不可预知的结果做好准备。 **GetNamesFromIDs** 的一些实现将忽略属性集，并返回属性标记数组中标识符的名称。 某些实现返回MAPI_E_INVALID_PARAMETER。 其他实现返回属性集内所有属性的标识符的名称。 如果属性集已 **PS_PUBLIC_STRINGS，GetNamesFromIDs** 可以返回以前创建过的所有名称。 服务提供程序是否将属性存储在与公共字符串关联的标识符下并不重要。 
   
-使用完属性名称后, 请检查_lpcPropNames_参数的内容, 以确定是否返回任何名称。 如果是这样, 则调用[MAPIFreeBuffer](mapifreebuffer.md)函数, 以释放_lppPropTags_和_lpppPropNames_在返回成功的结果时指向的内存。 对每个参数的一次调用**MAPIFreeBuffer**是足够的;您不必遍历指针数组并单独释放每个**MAPINAMEID**结构。 
+使用完属性名称后，请检查  _lpcPropNames_ 参数的内容以确定是否返回了任何名称。 如果是这样，请调用 [MAPIFreeBuffer](mapifreebuffer.md) 函数以在返回成功结果时释放  _lppPropTags_ 和  _lpppPropNames_ 指向的内存。 一次 **对 MAPIFreeBuffer** 的调用足以满足每个参数;你不需要遍历指针数组并单独释放每个 **MAPINAMEID** 结构。 
   
-有关命名属性的详细信息, 请参阅[MAPI 命名属性](mapi-named-properties.md)。 
+有关命名属性的信息，请参阅 [MAPI Named Properties](mapi-named-properties.md)。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -139,7 +139,7 @@ MAPI_E_INVALID_PARAMETER
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|SingleMAPIPropListCtrl  <br/> |CSingleMAPIPropListCtrl:: FindAllNamedProps  <br/> |MFCMAPI 使用**IMAPIProp:: GetNamesFromIDs**方法来查找之前已映射的命名属性。  <br/> |
+|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl：：FindAllNamedProps  <br/> |MFCMAPI 使用 **IMAPIProp：：GetNamesFromIDs** 方法来查找之前已映射的命名属性。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
@@ -164,5 +164,5 @@ MAPI_E_INVALID_PARAMETER
   
 [MAPI 命名属性](mapi-named-properties.md)
   
-[使用宏进行错误处理](using-macros-for-error-handling.md)
+[使用宏处理错误](using-macros-for-error-handling.md)
 

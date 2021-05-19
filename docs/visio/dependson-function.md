@@ -22,7 +22,7 @@ ms.locfileid: "33423466"
   
 ## <a name="syntax"></a>语法
 
-DEPENDSON (* * *cellref* * * [, * * *cellref2* * *,...]) 
+DEPENDSON (** *cellref* ** [， ** *cellref2* **,...])  
   
 ### <a name="parameters"></a>参数
 
@@ -31,7 +31,7 @@ DEPENDSON (* * *cellref* * * [, * * *cellref2* * *,...])
 | _cellref_ <br/> |必需  <br/> |**String** <br/> |第一个单元格引用。  <br/> |
 | _cellref2_ <br/> |可选  <br/> |**字符串** <br/> |第二个单元格引用。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 此函数总是返回 FALSE。在 Event 行或 Action 单元格中使用时不起任何作用。 
   

@@ -24,13 +24,13 @@ ms.locfileid: "33423893"
 |:-----|:-----|:-----|
 |0  <br/> |按页上指定绘制。  <br/> |**visSLOPlowDefault** <br/> |
 |1  <br/> |不绘制任何形状。  <br/> |**visSLOPlowNever** <br/> |
-|双面  <br/> |绘制每一个形状。  <br/> |**visSLOPlowAlways** <br/> |
+|2  <br/> |绘制每一个形状。  <br/> |**visSLOPlowAlways** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您还可以在 "行为" 对话框中的 "**放置**" 选项卡上为特定形状设置此单元格的值 (在选定形状的**情况**下, 在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中, 单击 "**行为**", 然后单击"**放置**" 选项卡)。 
+您还可以在"行为"对话框"放置"选项卡上设置此单元格的值，该单元格位于"行为"选项卡上 (（已选定形状）中，[](run-in-developer-mode-display-the-developer-tab.md)在"开发工具"选项卡上的"形状设计"组中，单击"行为"，然后单击"放置"选项卡) 。   
   
-若要为绘图页上的*所有*形状设置此行为, 请使用 "页面布局" 部分中的 "PlowCode" 单元格。 
+若要为绘图页上  *的所有*  形状设置此行为，请使用"页面布局"部分中的 PlowCode 单元格。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShapePlowCode 单元格的引用，请使用： 
   

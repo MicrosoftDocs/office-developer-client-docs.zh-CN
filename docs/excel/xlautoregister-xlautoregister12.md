@@ -22,14 +22,14 @@ ms.locfileid: "33421163"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-每当对 XLM 函数**REGISTER**或 C API 等效的[xlfRegister 函数](xlfregister-form-1.md)进行了调用时, Excel 将调用[xlAutoRegister 函数](xlautoregister-xlautoregister12.md), 其中包含要注册的函数的返回和参数类型。 它允许 XLL 搜索其导出函数和命令的内部列表, 以使用指定的参数和返回类型注册函数。
+Excel调用 XLM 函数 **REGISTER** 或 C API 等效 [xlfRegister](xlfregister-form-1.md)函数时调用 [xlAutoRegister](xlautoregister-xlautoregister12.md)函数，并且缺少函数的返回和参数类型。 它允许 XLL 搜索其导出函数和命令的内部列表，以使用参数注册函数并返回指定的类型。
   
-从 excel 2007 开始, 如果 XLL 导出了**xlAutoRegister**函数, excel 会在首选项中调用**xlAutoRegister12**函数。 
+从 2007 Excel，Excel调用 **xlAutoRegister12** 函数，如果 XLL 导出 **xlAutoRegister** 函数，则优先调用该函数。 
   
-Excel 不需要 XLL 即可实现和导出这两个函数中的任何一个。
+Excel不需要 XLL 来实现和导出其中任一函数。
   
 > [!NOTE]
-> 如果**xlAutoRegister**/ **xlAutoRegister12**尝试在不提供参数和返回类型的情况下注册函数, 则会发生递归调用循环, 该循环最终会溢出调用堆栈并导致 Excel 崩溃。 
+> 如果 **xlAutoRegister** /  **xlAutoRegister12** 尝试注册函数而不提供参数和返回类型，将发生递归调用循环，该循环最终会溢出调用堆栈，并Excel。 
   
 ```cs
 LPXLOPER12 WINAPI xlAutoRegister12(LPXLOPER12 pxName);
@@ -38,27 +38,27 @@ LPXLOPER WINAPI xlAutoRegister(LPXLOPER pxName);
 
 ## <a name="parameters"></a>参数
 
- _pxName_(**xltypeStr**)
+ _pxName_ (**xltypeStr**) 
   
 正在注册的 XLL 函数的名称。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-函数应返回尝试使用**xlfRegister**函数注册 XLL 函数_pxName_的结果。 如果指定的函数不是 XLL 的导出之一, 它应返回 **#VALUE!** 错误或**NULL** , Excel 会将其解释 **#VALUE!**。
+函数应返回尝试使用 **xlfRegister** 函数注册 XLL 函数 _pxName_ 的尝试结果。 如果指定的函数不是 XLL 的导出函数之一，则它应返回 **#VALUE！** error 或 **NULL，Excel** 将在 **#VALUE！ 解释。**
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您的**xlAutoRegister**实现应通过您在 XLL 的函数和命令导出的函数和命令的内部列表中执行不区分大小写的搜索, 以查找与传入的名称相匹配的函数和命令。 如果找到了函数或命令, **xlAutoRegister**应尝试使用**xlfRegister**函数注册它, 以确保提供一个字符串, 该字符串告诉 Excel 函数的返回类型和参数类型, 以及任何其他必需的有关函数的信息。 然后, 它应返回到 Excel 调用**xlfRegister**返回的任何内容。 如果函数已成功注册, **xlfRegister**将返回一个**xltypeNum**值, 其中包含函数的寄存器 ID。 
+**xlAutoRegister** 的实现应执行不区分大小写的搜索，搜索 XLL 导出的函数和命令的内部列表，以查找传入名称的匹配项。 如果找到函数或命令 **，xlAutoRegister** 应尝试使用 **xlfRegister** 函数进行注册，以确保提供用于通知 Excel 函数的返回和参数类型的字符串，以及有关该函数的其他任何所需信息。 然后，它应返回Excel **调用 xlfRegister 返回的任何** 结果。 如果函数注册成功 **，xlfRegister** 将返回包含函数的 Register ID 的 **xltypeNum** 值。 
   
 ### <a name="example"></a>示例
 
-有关此函数`SAMPLES\EXAMPLE\EXAMPLE.C`的示例实现, 请参阅文件。 
+有关此  `SAMPLES\EXAMPLE\EXAMPLE.C` 函数的示例实现，请参阅 文件。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[注册表](xlfregister-form-1.md)
+[REGISTER](xlfregister-form-1.md)
   
-[注销](xlfunregister-form-1.md)
+[UNREGISTER](xlfunregister-form-1.md)
 

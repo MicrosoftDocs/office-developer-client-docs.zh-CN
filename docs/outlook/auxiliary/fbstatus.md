@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: f2d6a11e-847d-6bbe-cd77-e78ee961cb12
-description: "\"忙/闲\" 块的 \"忙/闲\" 状态的枚举。"
+description: 忙/闲块的忙/闲状态的枚举。
 ms.openlocfilehash: 2a08ef142f9baddd453166c0ebcb989e69a51ceb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33424089"
 ---
 # <a name="fbstatus"></a>FBStatus
 
-"忙/闲" 块的 "忙/闲" 状态的枚举。
+忙/闲块的忙/闲状态的枚举。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -31,9 +31,9 @@ enum
 
 ```
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-一段时间的忙/闲状态决定了它在日历中的显示方式:**闲**、**忙**、**暂定**或外出。 **** 
+一个时间块的忙/闲状态决定了它在日历上的显示方式：**闲**、忙、暂定或 **Office。** 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dbce1c47-1252-ddeb-64ae-d52118e6821f
-description: 通知客户端对指定帐户所做的更改。
+description: 通知客户端对指定帐户的更改。
 ms.openlocfilehash: 269d8a8bd605c9d8a0a4057e87895522d8587ee9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33424565"
 ---
 # <a name="iolkaccountnotifynotify"></a>IOlkAccountNotify::Notify
 
-通知客户端对指定帐户所做的更改。
+通知客户端对指定帐户的更改。
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅[IOlkAccountNotify](iolkaccountnotify.md)。
+请参阅 [IOlkAccountNotify](iolkaccountnotify.md)。
   
 ```cpp
 HRESULT IOlkAccount::Notify(  
@@ -35,7 +35,7 @@ HRESULT IOlkAccount::Notify(
 
 _dwNotify_
   
-> 实时通知的类型。 值必须为以下值之一：
+> [in]通知的类型。 值必须为以下值之一：
     
    - NOTIFY_ACCT_CHANGED 
     
@@ -49,11 +49,11 @@ _dwNotify_
     
  _dwAcctID_
   
-> 实时已创建、更改、删除或预删除的帐户的帐户 ID。
+> [in]已创建、更改、删除或预删除的帐户的帐户 ID。
     
  _dwFlags_
   
->  实时不使用。 OLK_ACCOUNT_NO_FLAGS 是唯一受支持的值。 
+>  [in]未使用。 OLK_ACCOUNT_NO_FLAGS是唯一受支持的值。 
     
 ## <a name="return-values"></a>返回值
 

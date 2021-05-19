@@ -25,9 +25,9 @@ ms.locfileid: "33427218"
 |TRUE  <br/> |使形状能够放置在某个形状的顶部。  <br/> |
 |FALSE  <br/> |使形状不能放置在某个形状的顶部。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您还可以在 "**行为**" 对话框 (在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中, 单击 "**行为**", 然后单击 "**位置**" 选项卡) 中的 "**放置**" 选项卡上设置此单元格的值。). 
+您还可以在"行为"对话框的"放置"选项卡上设置此单元格的值 (其中选择了一个形状;在"开发工具"[](run-in-developer-mode-display-the-developer-tab.md)选项卡上的"形状设计"组中，单击"行为"，然后单击"放置"选项卡) 。   
   
 在 Visio 2000 之前的版本中，您可以使用“Miscellaneous”内容中的 ObjInteract 单元格设置此行为。
   

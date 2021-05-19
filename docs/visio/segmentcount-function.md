@@ -20,7 +20,7 @@ ms.locfileid: "33424495"
   
 ## <a name="syntax"></a>语法
 
-SEGMENTCOUNT (* * *pathRef* * *) 
+SEGMENTCOUNT (** *pathRef* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -32,7 +32,7 @@ SEGMENTCOUNT (* * *pathRef* * *)
 
 整数
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 返回的线段总数中不包含跨线。
   

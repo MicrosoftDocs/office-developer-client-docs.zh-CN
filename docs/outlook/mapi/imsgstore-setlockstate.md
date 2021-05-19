@@ -25,7 +25,7 @@ ms.locfileid: "33423627"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-锁定或解除锁定邮件。 此方法仅由 MAPI 后台处理程序调用。
+锁定或解锁邮件。 此方法仅由 MAPI 后台处理程序调用。
   
 ```cpp
 HRESULT SetLockState(
@@ -38,11 +38,11 @@ HRESULT SetLockState(
 
  _lpMessage_
   
-> 实时指向要锁定或解锁的邮件的指针。
+> [in]指向要锁定或解锁的消息的指针。
     
  _ulLockState_
   
-> 实时一个值, 指示是否应锁定或解除锁定邮件。 以下值之一是有效的:
+> [in]指示应锁定还是解锁邮件的值。 下列值之一有效：
     
 MSG_LOCKED 
   
@@ -56,19 +56,19 @@ MSG_UNLOCKED
 
 S_OK 
   
-> 已成功设置邮件的锁定状态。
+> 邮件的锁定状态已成功设置。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMsgStore:: SetLockState**方法锁定或解除锁定邮件。 在发送邮件时, **SetLockState**只能由 MAPI 后台处理程序调用。 
+**IMsgStore：：SetLockState** 方法锁定或解锁邮件。 **SetLockState** 只能在发送邮件时由 MAPI 后台处理程序调用。 
   
-通常情况下, 当 MAPI 后台处理程序调用**SetLockState**以锁定邮件时, 它将仅锁定最旧的邮件 (即, 在排队等待 MAPI 后台处理程序发送的下一封邮件)。 如果队列中的最旧邮件等待暂时不可用的传输提供程序, 并且队列中的下一封邮件使用不同的传输提供程序, 则 MAPI 后台处理程序可以开始处理后续邮件。 它通过使用**SetLockState**锁定邮件来开始处理。
+通常，当 MAPI 后台处理程序调用 **SetLockState** 锁定邮件时，它将仅锁定最早的邮件 (即，下一个排队等待 MAPI 后台处理程序发送) 。 如果队列中最早的邮件正在等待暂时不可用的传输提供程序，并且队列中的下一封邮件使用不同的传输提供程序，则 MAPI 后台处理程序可以开始处理以后的邮件。 它通过使用 **SetLockState** 锁定该邮件开始处理。
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-MAPI 后台处理程序在将_ulLockState_参数设置为 MSG_LOCKED 的情况下调用**SetLockState**后, 调用[IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md)方法以取消邮件的传输必须失败。 
+在 MAPI 后台处理程序调用 **SetLockState（ulLockState** 参数设置为 MSG_LOCKED）后，调用 [IMsgStore：：AbortSubmit](imsgstore-abortsubmit.md)方法来取消邮件的传输必须失败。  
   
-在**SetLockState**实现中调用邮件的[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法, 以便在收到**SetLockState**调用之前对邮件所做的任何更改都将被保存。 
+在 **SetLockState** 实现中调用消息的 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md)方法，以便保存接收 **SetLockState** 调用之前对邮件进行的任何更改。 
   
 ## <a name="see-also"></a>另请参阅
 

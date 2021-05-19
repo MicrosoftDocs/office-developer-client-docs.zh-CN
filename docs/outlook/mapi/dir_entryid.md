@@ -15,17 +15,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421233"
 ---
-# <a name="direntryid"></a>DIR_ENTRYID
+# <a name="dir_entryid"></a>DIR_ENTRYID
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍目录项 id 的属性。
+描述目录项 ID 的属性。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |entryid  <br/> |
+|标头文件：  <br/> |entryid.h  <br/> |
    
 ```cpp
 #pragma pack(4)
@@ -44,7 +44,7 @@ typedef struct _dir_entryid
 
  **abFlags**
   
-> 提供描述对象的信息的标志的位掩码。 有关详细信息, 请参阅[ENTRYID](entryid.md)结构的**abFlags**字段的说明。 
+> 提供描述对象的信息的标志的位掩码。 有关详细信息，请参阅 [ENTRYID](entryid.md)结构的 **abFlags** 字段的说明。 
     
  **muid**
   
@@ -52,11 +52,11 @@ typedef struct _dir_entryid
     
  **ulVersion**
   
-> **DIR_ENTRYID**结构的版本号。 必须设置为 CONTAB_VERSION。 
+> 该 **结构DIR_ENTRYID版本号** 。 必须设置为 CONTAB_VERSION。 
     
  **ulType**
   
-> 表示目录项 ID 类型的整数。 它必须是下列值之一:
+> 一个表示目录条目 ID 类型的整数。 它必须是下列值之一：
     
 |**名称**|**说明**|
 |:-----|:-----|
@@ -68,9 +68,9 @@ typedef struct _dir_entryid
   
 > 标识登录对象的 GUID。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-除**ulType**成员之外, 结构**DIR_ENTRYID**和[CONTAB_ENTRYID](contab_entryid.md)相同。 **ulType**成员的内容确定哪种结构适用于其余字段。 
+除 **ulType** **成员** DIR_ENTRYID [CONTAB_ENTRYID和](contab_entryid.md)CONTAB_ENTRYID 相同。 **ulType** 成员的内容确定适用于其余字段的结构。 
   
 ## <a name="see-also"></a>另请参阅
 

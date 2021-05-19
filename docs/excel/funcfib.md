@@ -22,7 +22,7 @@ ms.locfileid: "33423669"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-用于计算第 n 个斐波纳契数的用户定义的工作表函数示例。 当加载了 GENERIC xll 时, 它将注册此函数, 以便可以从工作表中调用它。
+计算第 N 个 Fi一号的用户定义的工作表函数示例。 当加载 GENERIC.xll 时，它会注册此函数，以便可以从工作表中调用它。
   
 ```cs
 LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
@@ -30,23 +30,23 @@ LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
 
 ## <a name="parameters"></a>参数
 
- _pxN_(**LPXLOPER12**)
+ _pxN_ (**LPXLOPER12**) 
   
-n 的值为 n, 其中必须有第 n 个斐波纳契数。
+N 的值，其第 N 个 Fi一线数字是必需的。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-(如果成功, 则为**xltypeNum LPXLOPER12** , 否则为**xltypeErr** ) 
+ (**为 xltypeNum LPXLOPER12，** 否则为 **xltypeErr**)  
   
-第 n 个斐波纳契号码。
+第 N 个 Fi一号。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-函数使用在函数块中定义的静态变量作为返回值**XLOPER12**。 这不是线程安全的, 因此此函数以及使用此策略以返回**XLOPER**s 或**XLOPER12**s 的任何工作表函数都不应注册为 Excel 2007 中的线程安全。
+函数使用函数块中定义的静态变量作为返回值 **XLOPER12**。 这不是线程安全函数，因此，此函数以及使用此策略返回 **XLOPER 或 XLOPER12** 的任何工作表函数不应从 Excel 2007 开始注册为线程安全。 
   
 ### <a name="example"></a>示例
 
-有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
+有关  `\SAMPLES\GENERIC\GENERIC.C` 此函数的源代码，请参阅 。 
   
 ## <a name="see-also"></a>另请参阅
 

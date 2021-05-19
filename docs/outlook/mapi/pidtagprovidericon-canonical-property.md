@@ -25,7 +25,7 @@ ms.locfileid: "33425636"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个 Unicode 字符串, 该字符串指定要在联机和脱机状态的 Microsoft Office Outlook 状态栏中为 MAPI 提供程序显示的自定义图标或图标。
+包含一个 Unicode 字符串，该字符串指定在处于联机和脱机状态的 Microsoft Office Outlook 状态栏中为 MAPI 提供程序显示的自定义图标。
   
 |||
 |:-----|:-----|
@@ -34,27 +34,27 @@ ms.locfileid: "33425636"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-这些属性指定的资源文件中包含一个自定义图标, 该图标表示处于联机状态的 MAPI 提供程序, 也可以选择另一个自定义图标处于脱机状态。 Outlook 始终请求 Unicode 表示形式的这些属性。 
+这些属性指定包含表示处于联机状态 MAPI 提供程序的自定义图标的资源文件，以及另一个处于脱机状态（可选）的自定义图标。 Outlook Unicode 表示形式始终请求这些属性。 
   
-例如, 以下属性值指示 Outlook 从模块 mymod32 加载图标 ID 1001, 并将该图标用于联机状态: `mymod32.dll,#1001`。 由于脱机状态没有提供程序特定的图标, 在这种情况下, 将在状态栏中使用标准的 Outlook 脱机图标。 
+例如，以下属性值指示Outlook模块加载图标 ID 1001，mymod32.dll该图标用于联机状态 `mymod32.dll,#1001` ：。 由于脱机状态没有提供程序特定的图标，因此在这种情况下，状态Outlook使用标准脱机图标。 
   
-下面的属性值指示 Outlook 从模块 mymod32 加载图标 id 1001, 并将该图标用于联机状态, 并从该相同的模块加载图标 id 1002, 以用于脱机状态: `mymod32.dll,#1001,#1002`。 状态栏中不使用 Outlook 图标。 
+以下属性值指示 Outlook 从模块 mymod32.dll 加载图标 ID 1001，并使用该图标实现联机状态，并从此同一模块加载图标 ID 1002 以用于脱机状态 `mymod32.dll,#1001,#1002` ：。 状态Outlook没有使用图标。 
   
-默认情况下, 如果未指定任何自定义图标, 提供程序将由 Outlook 默认图标用于联机状态和脱机状态。 提供程序可以根据需要指定显示名称, 该显示名称将显示在状态栏中的图标旁边。 有关详细信息, 请参阅**PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md))。
+默认情况下，如果未指定自定义图标，则提供程序由Outlook状态和脱机状态的默认图标表示。 提供程序可以选择指定显示名称图标旁边显示的图标。 有关详细信息，请参阅 **PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)) 。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

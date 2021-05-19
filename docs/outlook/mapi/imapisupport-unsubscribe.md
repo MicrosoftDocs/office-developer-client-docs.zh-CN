@@ -25,7 +25,7 @@ ms.locfileid: "33421212"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-取消发送以前通过调用[IMAPISupport:: 订阅](imapisupport-subscribe.md)方法建立的通知的责任。 
+取消发送之前通过调用 [IMAPISupport：：Subscribe](imapisupport-subscribe.md) 方法建立的通知的责任。 
   
 ```cpp
 HRESULT Unsubscribe(
@@ -37,7 +37,7 @@ ULONG ulConnection
 
  _ulConnection_
   
-> 实时表示以前通过**IMAPISupport:: 订阅**建立的通知注册的非零连接号码。
+> [in]非零连接号，表示之前通过 **IMAPISupport：：Subscribe 建立的通知注册**。
     
 ## <a name="return-value"></a>返回值
 
@@ -47,13 +47,13 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> 在_ulConnection_参数中传递的连接号码不存在。 
+> ulConnection 参数中  _传递的连接_ 号不存在。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISupport:: 退订**方法是为所有服务提供程序支持对象实现的。 服务提供商呼叫**取消订阅**以取消之前通过**订阅**设置的通知注册。 **取消订阅**通过释放在**订阅**呼叫中传递的通知接收器指针来取消注册。 
+**IMAPISupport：：Unsubscribe** 方法为所有服务提供商支持对象实现。 服务提供商调用 **Unsubscribe** 以取消之前由 Subscribe 设置 **的通知注册**。 **取消** 订阅通过释放 Subscribe 调用中传递的建议接收器指针 **来取消注册** 。 
   
-通常情况下, 在**取消订阅**呼叫过程中会调用通知接收器的**IUnknown:: Release**方法。 但是, 如果另一个线程在调用[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法的建议接收器对象的过程中, 则**释放**调用将延迟到**OnNotify**方法返回为止。 
+通常，在取消订阅调用期间调用通知接收器 **的 IUnknown：：Release** 方法。  但是，如果另一个线程正在调用通知接收器对象的 [IMAPIAdviseSink：：OnNotify](imapiadvisesink-onnotify.md) 方法， **则 Release** 调用将延迟到 **OnNotify** 方法返回。 
   
 ## <a name="see-also"></a>另请参阅
 

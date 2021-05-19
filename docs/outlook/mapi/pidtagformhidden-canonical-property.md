@@ -25,30 +25,30 @@ ms.locfileid: "33424705"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果要通过撰写菜单和对话框禁止显示窗体, 则该参数为 TRUE。 
+如果窗体被撰写菜单和对话框禁止显示，则包含 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FORM_HIDDEN  <br/> |
 |标识符:  <br/> |0x3307  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |MAPI 通用  <br/> |
+|区域：  <br/> |MAPI common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-与窗体相关的属性是只读的。 
+与表单相关的属性是只读的。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

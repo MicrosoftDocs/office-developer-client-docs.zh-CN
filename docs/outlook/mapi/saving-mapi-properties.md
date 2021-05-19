@@ -21,17 +21,17 @@ ms.locfileid: "33425888"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-许多对象支持处理的事务模型, 对属性所做的更改不会永久成为永久更改, 除非在以后提交它们。 而对属性的更改由[IMAPIProp:: SetProps](imapiprop-setprops.md)和[IMAPIProp::D eleteprops](imapiprop-deleteprops.md)方法处理, 则 commit 步骤将由[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)处理。 在成功调用某个对象的属性的**** 最新版本之前, 此方法不会一直发生。 
+许多对象都支持处理事务模型，在稍后提交属性之前，对属性的更改不会永久进行。 而对属性的更改由 [IMAPIProp：：SetProps](imapiprop-setprops.md) 和 [IMAPIProp：:D eleteProps](imapiprop-deleteprops.md) 方法处理，而提交步骤由 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md)处理。 直到成功调用 **SaveChanges** 之后，才能访问对象的属性的最新版本。 
   
-当**SaveChanges**返回错误值 MAPI_E_OBJECT_CHANGED 时, 这是一个警告, 指出另一个客户端同时提交对该对象的更改。 根据实现对象的提供程序的不同, 多个客户端可以通过调用其**OpenEntry**方法并设置 MAPI_MODIFY 标志来成功打开对象, 从而为它们提供读/写访问权限。 从这样的**OpenEntry**调用返回的对象是存储数据的快照。 随后每次尝试更改此数据时, 都可能会覆盖之前的尝试。 
+当 **SaveChanges** 返回错误值MAPI_E_OBJECT_CHANGED，这是一条警告，提示另一个客户端同时向对象提交更改。 多个客户端通过调用其 **OpenEntry** 方法并设置 MAPI_MODIFY 标志，从而成功地打开对象，具体取决于实现对象的提供程序。 从此类 **OpenEntry** 调用返回的对象是存储数据的快照。 每次更改此数据的后续尝试都可能会覆盖上一次尝试。 
   
-在从**SaveChanges**接收 MAPI_E_OBJECT_CHANGED 时, 客户端可以选择执行以下操作: 
+从 **SaveChanges** MAPI_E_OBJECT_CHANGED时，客户端可以选择： 
   
-- 创建对象的副本以保存所做的更改。
+- 创建对象的副本以保存更改。
     
-- 对**SaveChanges**调用另一个调用, 指定 FORCE_SAVE。 
+- 对 **SaveChanges 进行** 另一个调用，指定FORCE_SAVE。 
     
-使用 FORCE_SAVE 标志调用**SaveChanges**将覆盖上一次保存, 并使客户端的更改永久化。 
+调用具有 FORCE_SAVE 标志的 **SaveChanges** 会覆盖上一次保存，并永久更改客户端。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -1,5 +1,5 @@
 ---
-title: Log10 函数 (Access 自定义 web 应用程序)
+title: 'Log10 Function (Access 自定义 Web app) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424866"
 ---
-# <a name="log10-function-access-custom-web-app"></a>Log10 函数 (Access 自定义 web 应用程序)
+# <a name="log10-function-access-custom-web-app"></a>Log10 Function (Access 自定义 Web app) 
 
 返回以 10 为底的对数。
   
@@ -23,16 +23,16 @@ ms.locfileid: "33424866"
   
 ## <a name="syntax"></a>语法
 
- **Log10**(*NumericExpression*) 
+ **Log10** (*NumericExpression)* 
   
-**Log10**函数包含以下参数。 
+**Log10** 函数包含以下参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |需要其以10为底的对数的正数。  <br/> |
+| *NumericExpression*  <br/> |需要其以 10 为底数的对数的正数。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-利用**Log**函数, 您可以更改对数的底数, 而不是使用 base 10。 
+**Log** 函数允许您更改对数的底数，而不是使用基数 10。 
   
 

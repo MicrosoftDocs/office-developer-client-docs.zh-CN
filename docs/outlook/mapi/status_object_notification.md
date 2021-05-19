@@ -19,7 +19,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426266"
 ---
-# <a name="statusobjectnotification"></a>STATUS_OBJECT_NOTIFICATION
+# <a name="status_object_notification"></a>STATUS_OBJECT_NOTIFICATION
 
   
   
@@ -29,7 +29,7 @@ ms.locfileid: "33426266"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct
@@ -46,31 +46,31 @@ typedef struct
 
  **cbEntryID**
   
-> 由**lpEntryID**成员指向的条目标识符中的字节数。 
+> **lpEntryID** 成员指向的条目标识符中的字节数。 
     
  **lpEntryID**
   
-> 指向已更改的 status 对象的条目标识符的指针。
+> 指向已更改状态对象的条目标识符的指针。
     
  **cValues**
   
-> 由**lpPropVals**成员指向的数组中的[SPropValue](spropvalue.md)结构的计数。 
+> [lpPropVals](spropvalue.md)成员指向的数组中的 **SPropValue** 结构计数。 
     
  **lpPropVals**
   
-> 指向描述更改的状态对象的属性的**SPropValue**结构数组的指针。 
+> 指向描述已更改状态对象的属性 **的 SPropValue** 结构的数组的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**STATUS_OBJECT_NOTIFICATION**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 **STATUS_OBJECT_NOTIFICATION**结构包含在_fnevStatusObjectModified_类型的事件的状态对象通知中。 Status 对象通知是一个内部 MAPI 通知;客户端和服务提供商无法注册它, 服务提供商无法生成它。
+the **STATUS_OBJECT_NOTIFICATION** structure is one of the union of structures included in the **info** member of the [NOTIFICATION](notification.md) structure. the **STATUS_OBJECT_NOTIFICATION** structure is included with a status object notification for an event of type  _fnevStatusObjectModified_. 状态对象通知是一个内部 MAPI 通知;客户端和服务提供商无法注册它，服务提供商无法生成它。
   
-有关通知的详细信息, 请参阅下表中所述的主题。
+有关通知详细信息，请参阅下表中介绍的主题。
   
 |**主题**|**说明**|
 |:-----|:-----|
 |[MAPI 中的事件通知](event-notification-in-mapi.md) <br/> |通知和通知事件的一般概述。  <br/> |
 |[处理通知](handling-notifications.md) <br/> |讨论客户端应如何处理通知。  <br/> |
-|[支持事件通知](supporting-event-notification.md) <br/> |讨论了如何使用**IMAPISupport**方法生成通知的服务提供商。  <br/> |
+|[支持事件通知](supporting-event-notification.md) <br/> |讨论服务提供商如何使用 **IMAPISupport** 方法生成通知。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

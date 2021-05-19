@@ -21,19 +21,19 @@ ms.locfileid: "33426966"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题为管理员、mapi 客户端和 mapi 提供程序推荐了使用 Windows 注册表设置和 fast shutdown 接口的最佳做法, 以最大限度地减少客户端关闭期间的数据丢失。
+本主题建议管理员、MAPI 客户端和 MAPI 提供程序使用 Windows 注册表设置和快速关闭接口以在客户端关闭期间最大程度地减少数据丢失的最佳实践。
   
-- 为了使 mapi 客户端成功执行快速关机, 以便提供程序进程不会丢失数据, MAPI 客户端应首先调用[IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方法。 然后, 客户端应继续[IMAPIClientShutdown:: NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md)和[IMAPIClientShutdown:](imapiclientshutdown-dofastshutdown.md)基于 MAPI 子系统支持快速关机的 ofastshutdown 方法, 如返回值**为IMAPIClientShutdown:: QueryFastShutdown**。 作为 MAPI 客户端, Microsoft Outlook 不会调用**IMAPIClientShutdown:: NotifyProcessShutdown**或**IMAPIClientShutdown::D ofastshutdown**如果**IMAPIClientShutdown:: QueryFastShutdown**返回错误。 如果管理员已在 Windows 注册表中禁用 fast shutdown, MAPI 子系统将返回 MAPI_E_NO_SUPPORT to **IMAPIClientShutdown:: QueryFastShutdown**。 在这种情况下, mapi 子系统不会通知 mapi 提供程序即时客户端进程退出。 因此, 如果 MAPI 客户端忽略此错误, 则会继续快速关闭并断开所有外部引用, 所有加载的 MAPI 提供程序都将丢失数据。 
+- 若要使 MAPI 客户端成功执行快速关闭，以便提供程序进程不会丢失数据，MAPI 客户端应首先调用 [IMAPIClientShutdown：：QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) 方法。 然后，客户端应基于 MAPI 子系统对快速关闭的支持继续执行 [IMAPIClientShutdown：：NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) 和 [IMAPIClientShutdown：:D oFastShutdown](imapiclientshutdown-dofastshutdown.md) 方法，如 **IMAPIClientShutdown：：QueryFastShutdown** 的返回值所指示。 作为 MAPI 客户端，如果 **IMAPIClientShutdown：：QueryFastShutdown 返回错误，Microsoft Outlook 不会调用 IMAPIClientShutdown：：NotifyProcessShutdown** 或 **IMAPIClientShutdown：:D oFastShutdown。**  如果管理员在注册表中禁用了快速关闭Windows，MAPI 子系统将MAPI_E_NO_SUPPORT **IMAPIClientShutdown：：QueryFastShutdown**。 在这种情况下，MAPI 子系统不会通知 MAPI 提供程序立即退出客户端进程。 因此，如果 MAPI 客户端忽略此错误返回代码，继续执行快速关闭操作并断开所有外部引用，则所有加载的 MAPI 提供程序都将丢失数据。 
     
-- MAPI 提供程序应实现[IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md)接口, 以执行及时和必要的步骤, 以避免由于客户端在客户端退出前断开外部引用而导致数据丢失。 提供程序应将数据保存到其主数据存储区中不必要的所有其他项。 例如, 传输提供程序应推迟检查新邮件的不必要的后台操作, 通讯簿提供程序应延迟从其服务器下载最近更改, 并且存储提供程序应延迟维护任务, 例如压缩或编制索引。 
+- MAPI 提供程序应实现 [IMAPIProviderShutdown ： IUnknown](imapiprovidershutdowniunknown.md) 接口，以执行及时的必要步骤，以避免由于客户端在客户端退出之前断开外部引用而丢失数据。 提供程序应推迟将数据保存至其主数据存储不重要的一切其他操作。 例如，传输提供程序应推迟检查新邮件的不必要的后台操作，通讯簿提供程序应推迟从服务器下载最近更改，存储提供程序应推迟维护任务，如压缩或索引。 
     
-- 希望 MAPI 客户端在关闭时立即退出的用户应使用默认注册表设置, 除非提供程序弹出, 否则启用快速关机。
+- 希望 MAPI 客户端在关闭后立即退出的用户应该使用默认注册表设置，此设置可启用快速关闭，除非提供程序选择退出。
     
-- MAPI 客户端调用**IMAPIClientShutdown::D ofastshutdown**后, 它不应对 MAPI 进行任何其他调用, 包括[MAPIUninitialize](mapiuninitialize.md)函数。 客户端不应将 MAPI 用于其他客户端进程的生存期。 
+- 一旦 MAPI 客户端调用 **IMAPIClientShutdown：:D oFastShutdown，** 它不应对 MAPI（包括 [MAPIUninitialize](mapiuninitialize.md) 函数）进行任何其他调用。 客户端不应在客户端进程的生存期的其余部分使用 MAPI。 
     
-- MAPI 客户端决不应直接调用提供程序的**IMAPIProviderShutdown**接口。 MAPI 客户端应始终使用[IMAPIClientShutdown: IUnknown](imapiclientshutdowniunknown.md)接口。 
+- MAPI 客户端永远不应直接调用提供程序的 **IMAPIProviderShutdown** 接口。 MAPI 客户端应始终使用 [IMAPIClientShutdown ： IUnknown](imapiclientshutdowniunknown.md) 接口。 
     
-- 如果 MAPI 提供程序需要确保在加载过程中不使用 fast shutdown, 它应实现**IMAPIProviderShutdown**接口, 并返回 MAPI_E_NO_SUPPORT for the **IMAPIProviderShutdown:: QueryFastShutdown**方法。 但是, 对于 Outlook 这样的 MAPI 客户端, 这将导致客户端放弃快速关机并花费更长的时间来关闭。 
+- 如果 MAPI 提供程序需要确保在加载时不会使用快速关闭，它应实现 **IMAPIProviderShutdown** 接口，并针对 **IMAPIProviderShutdown：：QueryFastShutdown** 方法返回 MAPI_E_NO_SUPPORT。 但是，对于 MAPI Outlook，这会使客户端放弃快速关闭，并需要较长时间来关闭。 
     
 ## <a name="see-also"></a>另请参阅
 

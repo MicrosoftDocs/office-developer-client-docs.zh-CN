@@ -23,7 +23,7 @@ ms.locfileid: "33423858"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-准备收件人列表, 以供邮件系统以后使用。
+准备收件人列表供邮件系统稍后使用。
   
 ```cpp
 HRESULT PrepareRecips(
@@ -37,17 +37,17 @@ HRESULT PrepareRecips(
 
 _ulFlags_
   
-> 实时用于控制返回的字符串中的文本类型的标志的位掩码。 可以设置以下标志:
+> [in]控制返回的字符串中的文本类型的标志位掩码。 可以设置以下标志：
     
-  - MAPI_CACHE_ONLY: 仅使用脱机通讯簿执行名称解析。 例如, 可以使用此标志允许客户端应用程序在缓存 exchange 模式中打开全局地址列表 (GAL), 并从缓存中访问该通讯簿中的条目, 而无需在客户端和服务器之间创建流量。 仅 Exchange 通讯簿提供程序支持此标志。
+  - MAPI_CACHE_ONLY：使用脱机通讯簿执行名称解析。 例如，您可以使用此标志允许客户端应用程序在缓存 exchange 模式下打开全局地址列表 (GAL) ，并访问缓存中的该通讯簿中的条目，而无需在客户端和服务器之间创建流量。 此标志仅受通讯簿Exchange支持。
     
 _lpPropTagArray_
   
-> 实时指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含指示需要更新的属性的属性标记的数组 (如果有)。 _lpPropTagArray_参数可以为 NULL。 
+> [in]指向 [SPropTagArray](sproptagarray.md) 结构的指针，其中包含指示需要更新的属性（如果有）的属性标记数组。 _lpPropTagArray_ 参数可以是 NULL。 
     
 _lpRecipList_
   
-> 实时指向包含收件人列表的[ADRLIST](adrlist.md)结构的指针。 
+> [in]指向包含收件人 [列表的 ADRLIST](adrlist.md) 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -57,50 +57,50 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> _lpRecipList_参数中的一个或多个收件人不存在。 
+> _lpRecipList_ 参数中的一个或多个收件人不存在。 
     
 ## <a name="return-value"></a>返回值
 
-客户端调用 MAPI [IAddrBook::P reparerecips](iaddrbook-preparerecips.md)方法来修改或重新排列一个或多个收件人的一组属性。 收件人可能会有, 也可能不是传出邮件的收件人列表的一部分。 MAPI 将此呼叫传送到通讯簿提供程序的**IABLogon::P reparerecips**方法。 
+客户端调用 MAPI [IAddrBook：:P repareRecips](iaddrbook-preparerecips.md) 方法来修改或重新排列一个或多个收件人的一组属性。 收件人可能是传出邮件的收件人列表的一部分，也可能不是该收件人列表的一部分。 MAPI 将此调用转接到通讯簿提供商的 **IABLogon：:P repareRecips** 方法。 
   
-**IABLogon::P reparerecips**执行四个主要任务: 
+**IABLogon：:P repareRecips** 执行四个主要任务： 
   
-- 确保_lpRecipList_参数指向的地址列表中的所有收件人都具有长期条目标识符。 
+- 确保  _lpRecipList_ 参数指向的地址列表中的所有收件人都有一个长期条目标识符。 
     
-- 确保所有收件人具有在由_lpPropTagArray_参数指向的属性值数组中指定的属性。 
+- 确保所有收件人都有由  _lpPropTagArray_ 参数指向的属性值数组中指定的属性。 
     
-- 确保属性值数组中的属性显示在调用之前存在的任何其他属性之前。
+- 确保属性值数组中的属性显示在调用之前已存在的其他任何属性之前。
     
-- 确保**ADRLIST**结构中每个收件人的[ADRENTRY](adrentry.md)结构中的属性顺序与属性值数组中的顺序相同。 
+- 确保 **ADRLIST** 结构中每个收件人 [的 ADRENTRY](adrentry.md)结构中属性的顺序与属性值数组中的顺序相同。 
     
-_lpRecipList_参数中的**ADRENTRY**结构包含每个收件人的一个**ADRENTRY**结构。 每个**ADRENTRY**结构包含[SPropValue](spropvalue.md)结构的数组, 用于描述收件人的属性。 当**IABLogon::P reparerecips**返回时, 每个收件人的**SPropValue**结构数组包括_lpPropTagArray_中的属性以及收件人的其他属性。 
+_lpRecipList_ 参数中的 **ADRENTRY** 结构包含每个收件人的一个 **ADRENTRY** 结构。 每个 **ADRENTRY** 结构都包含一个 [SPropValue](spropvalue.md) 结构数组，用于描述收件人的属性。 **当 IABLogon：:P repareRecips** 返回时，每个收件人的 **SPropValue** 结构数组包括 _lpPropTagArray_ 中的属性，后跟收件人的其他属性。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-实现**IABLogon::P reparerecips**包括按特定顺序放置属性、检索属性值, 以及将短期条目标识符转换为长期条目标识符。 在_lpPropTagArray_参数中请求的属性必须位于与_lpRecipList_参数中的每个收件人的**ADRENTRY**结构相关联的属性值数组的开头。 如果这些属性的值不存在, 请使用其条目标识符打开关联的邮件用户或通讯组列表, 并检索缺少的属性值。 
+实现 **IABLogon：:P repareRecips** 涉及按特定顺序放置属性、检索属性值以及将短期条目标识符转换为长期条目标识符。 _lpPropTagArray_ 参数中请求的属性必须位于与 _lpRecipList_ 参数中每个收件人 **的 ADRENTRY** 结构关联的属性值数组的起始点。 如果这些属性不存在，则使用关联的邮件用户或通讯组列表的条目标识符打开它，并检索缺少的属性值。 
   
-分别分配_lpRecipList_中传递的每个**SPropValue**结构, 以便可以单独释放这些结构。 如果必须为任何**SPropValue**结构分配额外的空间, 例如, 若要存储 string 属性的数据, 请使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数为完整属性值数组分配额外的空间。 使用[MAPIFreeBuffer](mapifreebuffer.md)函数释放原始属性值数组, 然后使用[MAPIAllocateMore](mapiallocatemore.md)函数分配所需的其他任何内存。 
+单独分配传入 _lpRecipList_ 的每个 **SPropValue** 结构，以便可以单独释放结构。 例如，如果必须为任何 **SPropValue** 结构分配额外空间以存储字符串属性的数据，请使用 [MAPIAllocateBuffer](mapiallocatebuffer.md) 函数为完整属性值数组分配额外空间。 使用 [MAPIFreeBuffer](mapifreebuffer.md) 函数释放原始属性值数组，然后使用 [MAPIAllocateMore](mapiallocatemore.md) 函数分配所需的任何其他内存。 
   
-若要实现**IABLogon::P reparerecips**, 请使用以下过程:
+若要实现 **IABLogon：:P repareRecips，** 请使用以下过程：
   
-1. 检查_lpPropTagArray_参数中的条目。 如果属性值数组为空, 则无需执行任何操作。 返回一个成功值。 
+1. 检查  _lpPropTagArray_ 参数中的条目。 如果属性值数组为空，则无需执行任何操作。 返回成功值。 
     
-2. 处理_lpRecipList_参数中的每个收件人。 列表中的每个收件人都有一个**ADRENTRY**结构成员。 忽略下列类型的收件人: 
+2. 处理  _lpRecipList 参数中的每个_ 收件人。 列表中每个收件人都有一个 **ADRENTRY** 结构成员。 忽略以下类型的收件人： 
     
-   - 在其**ADRENTRY**结构的**rgPropVals**成员中没有条目标识符的收件人 (即未解析的收件人)。 
+   - **ADRENTRY** 结构的 **rgPropVals** 成员中没有条目标识符 (，即未解析的收件人) 。 
     
-   - 其条目标识符不属于您的提供程序的收件人。 这些收件人将被传递到另一个通讯簿提供程序。
+   - 具有不属于您的提供程序的条目标识符的收件人。 这些收件人将被传递到另一个通讯簿提供程序。
     
-3. 打开收件人, 并检索已为收件人设置的属性。
+3. 打开收件人并检索为收件人设置的属性。
     
-4. 将_lpRecipList_中指定的属性值数组与**GetProps**返回的属性数组合并。 如果两个属性数组中都出现相同的属性, 请使用_lpRecipList_中的值。
+4. 将  _lpRecipList_ 中指定的属性值数组与从 **GetProps** 返回的属性数组合并。 如果同一属性出现在两个属性数组中，请使用  _lpRecipList 中的值_。
     
-5. 如果_lpRecipList_属性值数组的大小足以容纳所有必需的属性, 只需将其替换为合并后的数组即可。 如果_lpRecipList_属性值数组不够大, 请将其替换为新分配的数组。 确保新的数组在其每个**cValues**成员中都有更新的值。 
+5. 如果  _lpRecipList_ 属性值数组足够大，足以容纳所有必需的属性，只需将其替换为合并的数组。 如果  _lpRecipList_ 属性值数组不够大，请将其替换为新分配的数组。 确保新数组的每个 **cValues** 成员中都有更新的值。 
     
-6. 如果您不识别_lpPropTagArray_参数中的一个或多个属性, 请将收件人的**ADRENTRY**结构中的属性类型设置为 PT_ERROR, 并将属性值设置为 MAPI_E_NOT_FOUND 或其他值, 以提供更属性不可用的特定原因。 有关 PT_ERROR 的信息, 请参阅[属性类型](property-types.md)。
+6. 如果您无法识别  _lpPropTagArray_ 参数中的一个或多个属性，将收件人 **的 ADRENTRY** 结构中的属性类型设置为 PT_ERROR，将属性值设置为 MAPI_E_NOT_FOUND 或设置为其他值，以更具体地解释属性不可用的原因。 有关属性类型PT_ERROR，请参阅 [属性类型](property-types.md)。
     
 > [!NOTE]
-> 永远不要重新分配传递到 IABLogon 中的**ADRLIST**结构 **::P reparerecips**或更改其条目数。 
+> 切勿重新分配传递到 **IABLogon：:P repareRecips 的** **ADRLIST** 结构或更改其条目数。 
   
 ## <a name="see-also"></a>另请参阅
 

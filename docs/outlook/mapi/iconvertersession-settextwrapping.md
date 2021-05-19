@@ -25,7 +25,7 @@ ms.locfileid: "33423585"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-设置转换器将在[IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md)中返回的 MIME 流的文本换行宽度。
+设置转换器将在 [IConverterSession：：MAPIToMIMEStm](iconvertersession-mapitomimestm.md)中返回的 MIME 流的文本换行宽度。
   
 ```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
@@ -38,17 +38,17 @@ HRESULT IConverterSession::SetTextWrapping (
 
  *fWrapText* 
   
-> 实时是否环绕文本。
+> [in]是否自动换行。
     
  *ulWrapWidth* 
   
-> 实时要使用的文字环绕宽度。
+> [in]使用的文本换行宽度。
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 调用成功。
+> 呼叫成功。
     
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -56,8 +56,8 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MapiMime  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 .eml 文件转换为 MAPI 邮件。  <br/> |
-|MapiMime  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 .eml 文件。  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 EML 文件转换为 MAPI 邮件。  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 EML 文件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

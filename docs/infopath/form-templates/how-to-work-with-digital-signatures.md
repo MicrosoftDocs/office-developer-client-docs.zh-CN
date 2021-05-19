@@ -52,7 +52,7 @@ ms.locfileid: "33425573"
 |**名称**|**说明**|
 |:-----|:-----|
 |[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignedDataBlock.aspx) <br/> |获取引发 [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) 事件的数据组。  <br/> |
-|[SignatureWizard](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignatureWizard.aspx) <br/> |获取或设置是否显示****“数字签名”对话框。  <br/> |
+|[SignatureWizard](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignatureWizard.aspx) <br/> |获取或设置是否显示“数字签名”对话框。  <br/> |
    
 > [!NOTE]
 > 在随 InfoPath 2003 一起提供的 [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) 托管代码对象模型中， [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) 事件的 [SignEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2.OnSign.aspx) 事件对象提供了一个 **XDocument** 属性，用来访问与该事件关联的表单的 **XDocument** 对象。这对于通过 InfoPath Forms Services 或 InfoPath 使用 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 对象模型创建的表单模板并不是必需的，这是因为可以使用 [this](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) (C#) 或 **Me** (Visual Basic) 关键字在表单代码中访问 **XmlForm** 类的对象模型成员。例如，若要访问 [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Signed.aspx) 类的 [Signed](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) 属性以确定某个表单是否经过签名，您可以键入  `this.Signed` 或  `Me.Signed.`。
@@ -80,7 +80,7 @@ ms.locfileid: "33425573"
   
 1. 用户选择向表单添加数字签名。
     
-2. 显示“数字签名”**** 对话框，用户单击“添加”****，然后选择要签署的数据。
+2. 显示“数字签名”对话框，用户单击“添加”，然后选择要签署的数据。
     
 3. 引发由 [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) 对象代表的选定数据的 [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) 事件，并执行 [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Sign.aspx) 对象的 [Sign()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) 方法以及 [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.CreateSignature.aspx) 集合的 [CreateSignature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) 方法。 
     
@@ -88,9 +88,9 @@ ms.locfileid: "33425573"
     
 5. 执行 [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) 对象的 [Sign()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) 方法。 
     
-6. 显示“签名”**** 对话框，用来键入一个名称（或选择一个签名图像），选择签名时使用的证书以及输入注释。 
+6. 显示“签名”对话框，用来键入一个名称（或选择一个签名图像），选择签名时使用的证书以及输入注释。 
     
-7. 单击“签名”**** 按钮时，签名将添加到表单的签名集合中，并且将捕获认可信息并与签名一起保存（以后可通过单击“数字签名”**** 对话框中的“查看签名的表单”****，然后单击“查看收集的附加签名信息”**** 来查看）。
+7. 单击“签名”按钮时，签名将添加到表单的签名集合中，并且将捕获认可信息并与签名一起保存（以后可通过单击“数字签名”对话框中的“查看签名的表单”，然后单击“查看收集的附加签名信息”来查看）。
     
 下面的示例在用户签署所选数据时调用 [Sign()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Sign.aspx) 方法，并利用从受信任的时间戳服务中检索的时间戳值来副署签名。 
   

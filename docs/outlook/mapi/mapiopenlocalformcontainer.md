@@ -25,11 +25,11 @@ ms.locfileid: "33427736"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个指向本地表单库的接口指针。 
+返回指向本地表单库的接口指针。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
    
@@ -43,7 +43,7 @@ MAPIOpenLocalFormContainer(
 
  _ppfcnt_
   
-> 排除指向指向本地表单库接口的指针的指针。
+> [out]指向指向本地表单库接口的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -51,7 +51,7 @@ MAPIOpenLocalFormContainer(
   
 ## <a name="remarks"></a>说明
 
-第三方安装程序可使用指针返回到的接口, 将特定于应用程序的表单安装到库中, 而该程序首先不需要登录 MAPI。 
+第三方安装程序可以使用返回指针的接口将特定于应用程序的表单安装到库中，而程序无需首先登录 MAPI。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -59,7 +59,7 @@ MAPIOpenLocalFormContainer(
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg  <br/> |CMainDlg:: OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI 使用**MAPIOpenLocalFormContainer**方法打开要在新窗口中呈现的本地表单容器。  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg：：OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI 使用 **MAPIOpenLocalFormContainer** 方法打开本地表单容器以在新窗口中呈现。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

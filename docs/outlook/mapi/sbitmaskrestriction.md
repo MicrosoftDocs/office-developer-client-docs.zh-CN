@@ -25,11 +25,11 @@ ms.locfileid: "33424474"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍用于执行按位**and**运算并测试结果的位掩码限制。 
+描述位掩码限制，该限制用于执行位 **AND** 操作并测试结果。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SBitMaskRestriction
@@ -45,29 +45,29 @@ typedef struct _SBitMaskRestriction
 
  **relBMR**
   
-> 描述**ulMask**成员中指定的掩码应如何应用于属性标记的关系运算符。 可能的值如下所示: 
+> 描述如何将 **ulMask** 成员中指定的掩码应用于属性标记的关系运算符。 可能的值如下所示： 
     
 BMR_EQZ 
   
-> 使用**ulPropTag**成员表示的属性对**ulMask**成员中的掩码执行按位 "**与**" 运算, 并测试是否等于零。 
+> 使用 **ulPropTag** 成员所代表的属性对 **ulMask** 成员中的掩码执行按位 **AND** 操作，并测试其等于零。 
     
 BMR_NEZ 
   
-> 对**ulMask**成员中的掩码执行按位**and**运算, 该属性由**ulPropTag**成员表示, 并测试为不等于零。 
+> 使用 **ulPropTag** 成员所代表的属性对 **ulMask** 成员中的掩码执行按位 **AND** 操作，并测试其不等于零。 
     
  **ulPropTag**
   
-> 要应用位掩码的属性的属性标记。
+> 应用位掩码的属性的属性标记。
     
  **ulMask**
   
-> 应用于由**ulPropTag**标识的属性的位掩码。
+> 要应用于由 **ulPropTag 标识的属性的位掩码**。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SBitMaskRestriction**结构使用**ulMask**成员中描述的位掩码和**ulPropTag**成员描述的属性值执行按位**and**运算。 如果结果为零, 则表示已满足 BMR_EQZ。 如果该属性值为非零, 即如果属性值至少有一个相同的位设置为**ulMask**, 则满足 BMR_NEZ。
+**SBitMaskRestriction** 结构使用 **ulMask** 成员中描述的位掩码和 **ulPropTag** 成员描述的属性值执行按位 **AND** 操作。 如果结果为零，则BMR_EQZ结果。 如果不是零，即，如果属性值至少具有一个设置为 **ulMask** 的相同位，则BMR_NEZ满足。
   
-有关**SBitMaskRestriction**结构和限制的详细信息, 请参阅[关于限制](about-restrictions.md)。
+有关 **SBitMaskRestriction** 结构和限制的一般详细信息，请参阅关于 [限制](about-restrictions.md)。
   
 ## <a name="see-also"></a>另请参阅
 

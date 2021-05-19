@@ -25,7 +25,7 @@ ms.locfileid: "33424614"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定特定的容器作为个人通讯簿 (PAB)。
+将特定容器指定为 PAB (个人通讯簿) 。
   
 ```cpp
 HRESULT SetPAB(
@@ -38,25 +38,25 @@ HRESULT SetPAB(
 
  _cbEntryID_
   
-> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
+> [in]  _lpEntryID_ 参数指向的条目标识符中的字节计数。 
     
  _lpEntryID_
   
-> 实时指向要指定为 PAB 的容器的条目标识符的指针。 _lpEntryID_参数不能为 NULL。 
+> [in]指向要指定为 PAB 的容器的条目标识符的指针。 _lpEntryID_ 参数不能为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 指定的容器已被建立为 PAB。
+> 指定的容器已建立为 PAB。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端和服务提供程序调用**SetPAB**方法, 以将特定容器指定为 PAB。 PAB 是一个容器, 它由从其他容器复制的条目以及新条目组成。 
+客户端和服务提供商调用 **SetPAB** 方法以将特定容器指定为 PAB。 PAB 是包含从其他容器复制的条目和新条目的容器。 
   
-对**SetPAB**的调用在将容器用作 PAB 之前将其建立, 直到将容器变为不可用, 或者新的容器通过对**SetPAB**的后续调用成为 pab。 
+调用 **SetPAB 会** 建立一个容器作为 PAB，直到该容器不可用，或者通过后续调用 **SetPAB，** 新容器成为 PAB。 
   
-客户端和提供程序无需调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法来使 PAB 更改永久。 
+客户端和提供程序不需要调用 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法来永久更改 PAB。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -64,7 +64,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|AbContDlg  <br/> |CAbContDlg:: OnSetPAB  <br/> |MFCMAPI 使用**SetPAB**方法使指定容器成为 PAB。  <br/> |
+|AbContDlg.cpp  <br/> |CAbContDlg：：OnSetPAB  <br/> |MFCMAPI 使用 **SetPAB** 方法将指定的容器设置为 PAB。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -37,7 +37,7 @@ HRESULT HrSetObjAccess(
 
  _ulAccess_
   
-> 实时指定对象的访问级别的标志的位掩码。 可以设置下列标志之一:
+> [in]指定对象的访问级别的标志的位掩码。 可以设置以下标志之一：
     
 IPROP_READONLY 
   
@@ -45,7 +45,7 @@ IPROP_READONLY
     
 IPROP_READWRITE 
   
-> 将对象的访问级别设置为 "读/写"。
+> 将对象的访问级别设置为读/写。
     
 ## <a name="return-value"></a>返回值
 
@@ -53,17 +53,17 @@ S_OK
   
 > 已成功设置对象的访问级别。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IPropData:: HrSetObjAccess**方法设置整个对象的访问级别, 而不是设置各个属性的访问级别。 **HrSetObjAccess**可用于更改创建对象时建立的访问级别。 
+**IPropData：：HrSetObjAccess** 方法设置整个对象（而不是单个属性）的访问级别。 **HrSetObjAccess** 可用于更改创建对象时建立的访问级别。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要设置属性的访问级别, 请先使用_ulAccess_参数中设置的 IPROP_READWRITE 标志调用**HrSetObjAccess** , 使该对象可修改。 然后, 调用[IPropData:: HrSetPropAccess](ipropdata-hrsetpropaccess.md)方法, 在由_lpPropTagArray_参数指向的数组中指定目标属性。 
+若要对属性设置访问级别，请首先调用 **HrSetObjAccess，** 并设置  _ulAccess_ 参数中的 IPROP_READWRITE 标志，使对象可修改。 然后调用 [IPropData：：HrSetPropAccess](ipropdata-hrsetpropaccess.md) 方法，指定  _lpPropTagArray_ 参数指向的数组中的目标属性。 
   
-若要创建具有对客户端只读属性的对象, 请创建一个读/写对象, 添加所需的属性, 然后调用**HrSetObjAccess**将该对象的访问权限更改为只读。 
+若要创建具有将客户端只读的属性的对象，请创建一个可读/写对象，添加必要的属性，然后调用 **HrSetObjAccess** 以将该对象的访问权限更改为只读。 
   
-您还可以使用**HrSetObjAccess**来阻止客户端创建新属性。 
+您还可以使用 **HrSetObjAccess** 阻止客户端创建新属性。 
   
 ## <a name="see-also"></a>另请参阅
 

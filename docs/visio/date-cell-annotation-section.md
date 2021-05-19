@@ -21,9 +21,9 @@ ms.locfileid: "33423879"
 包含最后编辑注释的日期和时间。 
   
 > [!NOTE]
-> 仅当在 Microsoft Visio 2013 中打开 .vsd 文件或以 .vsd 文件格式保存 .vsdx 文件时, 才会使用此单元格进行跟踪注释。 它不用于跟踪在 Visio 2013 中的 .vsdx 文档中的注释。 
+> 此单元格仅用于在 Microsoft Visio 2013 中打开 .vsd 文件或以 .vsd 文件格式保存 .vsdx 文件时跟踪注释。 它不用于跟踪 2013 年 10 月 Visio中的注释。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 该日期仅出现在用户界面的注释框中。
   
@@ -31,14 +31,14 @@ ms.locfileid: "33423879"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | "批注"。日期 [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
+| 单元格名称：  <br/> | Annotation.Date[  *i*  ] 其中  *i*  = <1> 2， 3...  <br/> |
    
 要从某个程序按索引获取对 Date 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionAnnotation** <br/> |
-| 行索引：  <br/> |**visRowAnnotation** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowAnnotation**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visAnnotationDate** <br/> |
    
 

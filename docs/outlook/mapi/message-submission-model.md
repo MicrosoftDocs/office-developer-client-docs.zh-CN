@@ -21,18 +21,18 @@ ms.locfileid: "33421121"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-邮件提交是通过从 MAPI 后台处理程序到传输提供程序的一系列调用来完成的。 这些调用的序列化如下所示:
+邮件提交是通过从 MAPI 后台处理程序到传输提供程序的一系列调用完成的。 调用顺序如下：
   
-1. MAPI 后台处理程序调用[IXPLogon:: SubmitMessage](ixplogon-submitmessage.md), 传入[IMessage: IMAPIProp](imessageimapiprop.md)实例, 以开始该过程。 
+1. MAPI 后台处理程序调用 [IXPLogon：：SubmitMessage，](ixplogon-submitmessage.md)以传递 [IMessage ： IMAPIProp](imessageimapiprop.md) 实例，以开始此过程。 
     
-2. 然后, 传输提供程序将引用值 (在以后引用此邮件时使用的传输定义标识符) 放在**SubmitMessage**中引用的位置。
+2. 然后，传输提供程序将在 **SubmitMessage** 中引用的位置中提供引用值（在以后引用此邮件时所使用的传输定义标识符）。
     
-3. 传输提供程序使用传递的**IMessage**实例访问邮件数据。 对于为其接受责任的传递的**IMessage**中的每个收件人, 传输提供程序将设置**PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) 属性, 然后返回。
+3. 传输提供程序使用传递的 **IMessage 实例访问邮件** 数据。 对于它接受责任的传递 **IMessage** 中的每个收件人，传输提供程序将 **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) 属性，然后返回。
     
-4. 传输提供程序可以使用[IMAPISupport:: StatusRecips](imapisupport-statusrecips.md)方法来指示它是识别无法传递到的所有收件人, 还是要创建一个标准送达报告。 对于已确定某些收件人无法传递到或已收到用户或客户端应用程序可能的基础邮件系统中的传递信息的传输提供程序, **StatusRecips**是很方便的。查找有用的。 
+4. 传输提供程序可以使用 [IMAPISupport：：StatusRecips](imapisupport-statusrecips.md) 方法来指示它识别无法传递到的任何收件人，或创建标准送达报告。 **StatusRecips** 是一种便捷方式，传输提供程序已确定某些收件人无法传递到用户或客户端应用程序可能认为有用的基础邮件系统，或者接收了来自其基础邮件系统的传递信息。 
     
-5. mapi 后台处理程序对[IXPLogon:: EndMessage](ixplogon-endmessage.md)的调用是最终职责, 即从 MAPI 后台处理程序到传输提供程序的邮件。 
+5. MAPI 后台处理程序对 [IXPLogon：：EndMessage](ixplogon-endmessage.md) 的调用是最终负责将邮件从 MAPI 后台处理程序传输给传输提供程序。 
     
-6. MAPI 后台处理程序可以使用[IXPLogon:: TransportNotify](ixplogon-transportnotify.md)在**SubmitMessage**或**EndMessage**调用过程中取消邮件处理。 
+6. MAPI 后台处理程序可以使用 [IXPLogon：：TransportNotify](ixplogon-transportnotify.md) 在 **SubmitMessage** 或 **EndMessage** 调用期间取消邮件处理。 
     
 

@@ -21,15 +21,15 @@ ms.locfileid: "33426469"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-HandsOffFromNormal 状态非常类似于[HandsOffAfterSave](handsoffaftersave-state.md)状态。 它是将表单内容保存到永久存储的过程的一部分。 在此状态下, form 对象应避免对邮件属性值的内存中的值进行更改, 因为可能没有其他机会保存这些更改。 下表介绍了允许从 HandsOffFromNormal 状态进行的转换。 
+HandsOffFromNormal 状态非常类似于 [HandsOffAfterSave](handsoffaftersave-state.md) 状态。 它是将表单的内容保存为永久存储的过程的一部分。 在此状态中时，form 对象应避免对邮件属性值的内存中副本进行更改，因为可能再没有保存这些更改的机会。 下表介绍了允许从 HandsOffFromNormal 状态转换。 
   
-|IPersistMessage * * 方法 * *|**操作**|**新状态**|
+|IPersistMessage** 方法**|**Action**|**新状态**|
 |:-----|:-----|:-----|
-|[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md)(_pMessage! =_ NULL)  <br/> |将邮件对象的邮件替换为_pMessage_, 这是以前调用[IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md)吊销的邮件的替代邮件。 确保新邮件中的数据与吊销的邮件中的数据相同。 不应将邮件标记为 "干净", 也不应[IMAPIViewAdviseSink:: OnSaved](imapiviewadvisesink-onsaved.md)在此调用之后调用。 如果**SaveCompleted**调用成功, 则输入[正常](normal-state.md)状态。 否则, 保持 HandsOffFromNormal 状态。  <br/> |Normal 或 HandsOffFromNormal  <br/> |
-|**IPersistMessage:: SaveCompleted**(_pMessage = =_ NULL)  <br/> |将最后一个错误设置为 E_UNEXPECTED。  <br/> |HandsOffFromNormal  <br/> |
-|**HandsOffMessage**、 [IPersistMessage:: Save](ipersistmessage-save.md)、 [IPersistMessage:: InitNew](ipersistmessage-initnew.md)或[IPersistMessage:: Load](ipersistmessage-load.md) <br/> |将最后一个错误设置为 E_UNEXPECTED。  <br/> |HandsOffFromNormal  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |返回上一个错误。  <br/> |HandsOffFromNormal  <br/> |
-|其他[IPersistMessage: IUnknown](ipersistmessageiunknown.md)方法或来自其他接口的方法  <br/> |将最后一个错误设置为 E_UNEXPECTED。  <br/> |HandsOffFromNormal  <br/> |
+|[IPersistMessage：：SaveCompleted](ipersistmessage-savecompleted.md) _(pMessage ！=_ NULL)   <br/> |将邮件对象的邮件替换为  _pMessage_，这是上一次调用 [IPersistMessage：：HandsOffMessage 时吊销的邮件的替换](ipersistmessage-handsoffmessage.md)。 新邮件中的数据保证与吊销的邮件中的数据相同。 不应将邮件标记为干净，也不应在此调用后调用[IMAPIViewAdviseSink：：OnSaved。](imapiviewadvisesink-onsaved.md) 如果 **SaveCompleted** 调用成功，请输入 [Normal](normal-state.md) 状态。 否则，请保持 HandsOffFromNormal 状态。  <br/> |Normal 或 HandsOffFromNormal  <br/> |
+|**IPersistMessage：：SaveCompleted** (_pMessage ==_ NULL)   <br/> |将最后一个错误设置为E_UNEXPECTED。  <br/> |HandsOffFromNormal  <br/> |
+|**HandsOffMessage** [、IPersistMessage：：Save、IPersistMessage：：InitNew](ipersistmessage-save.md)或 [IPersistMessage：：Load](ipersistmessage-load.md) [](ipersistmessage-initnew.md) <br/> |将最后一个错误设置为E_UNEXPECTED。  <br/> |HandsOffFromNormal  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |返回最后一个错误。  <br/> |HandsOffFromNormal  <br/> |
+|其他 [IPersistMessage ：来自其他接口的 IUnknown](ipersistmessageiunknown.md) 方法  <br/> |将最后一个错误设置为E_UNEXPECTED。  <br/> |HandsOffFromNormal  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

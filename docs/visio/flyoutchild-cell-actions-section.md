@@ -20,20 +20,20 @@ ms.locfileid: "33420862"
 
 确定该行是否为不是弹出子菜单的上一行的弹出子菜单。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 FlyoutChild 单元格的引用，请使用以下内容。 
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |操作. *名称*。FlyoutChildwhere 操作。  *name*是操作行的名称  <br/> |
+|单元格名称：  <br/> |操作。 *name*  .FlyoutChildwhere Actions.  *name*  是 Actions 行的名称  <br/> |
    
 若要从某个程序按索引获取对 FlyoutChild 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionAction** <br/> |
-|行索引：  <br/> |**visRowAction** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRowAction**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 |单元格索引：  <br/> |**visActionFlyoutChild** <br/> |
    
 

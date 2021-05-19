@@ -1,5 +1,5 @@
 ---
-title: 概念 (Access 自定义 web 应用)
+title: 'Access (Web 应用应用概念) '
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
@@ -12,14 +12,14 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420981"
 ---
-# <a name="concepts-access-custom-web-app"></a>概念 (Access 自定义 web 应用)
+# <a name="concepts-access-custom-web-app"></a>Access (Web 应用应用概念) 
 
 ## <a name="in-this-section"></a>本节内容
 
 > [!IMPORTANT]
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
-- [保留字 (Access 自定义 web 应用)](reserved-words-access-custom-web-app.md)
+- [Access 自定义 web (保留字) ](reserved-words-access-custom-web-app.md)
     
 - [在 Access 中创建和自定义 Web 应用](how-to-create-and-customize-a-web-app-in-access.md)
     

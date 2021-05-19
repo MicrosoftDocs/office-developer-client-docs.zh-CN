@@ -25,7 +25,7 @@ ms.locfileid: "33427771"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-验证 MAPI 项标识符的列表。 
+验证 MAPI 条目标识符的列表。 
   
 |||
 |:-----|:-----|
@@ -43,20 +43,20 @@ BOOL FBadEntryList(
 
  _lpEntryList_
   
-> 实时指向包含要验证的条目标识符数组的[ENTRYLIST](entrylist.md)结构的指针。 
+> [in]指向包含要验证的条目标识符数组的 [ENTRYLIST](entrylist.md) 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 TRUE 
   
-> 一个或多个列出的条目标识符无效。 
+> 列出的一个或多个条目标识符无效。 
     
 FALSE 
   
-> 所有列出的条目标识符都是有效的。
+> 列出的所有条目标识符都有效。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**FBadEntryList**函数确定条目标识符列表是否已正确生成。 无效标识符的一个示例是内存分配不正确或标识符大小不正确的情况。 
+**FBadEntryList** 函数确定是否已正确生成条目标识符列表。 无效标识符的示例是内存分配不正确或大小不正确的标识符。 
   
 

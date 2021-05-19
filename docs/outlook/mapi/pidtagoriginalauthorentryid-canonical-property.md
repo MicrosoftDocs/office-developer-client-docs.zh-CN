@@ -25,32 +25,32 @@ ms.locfileid: "33425587"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件的首个版本的作者的条目标识符, 即邮件在转发或答复前的邮件。
+包含邮件第一个版本（即转发或答复前的邮件）的作者的条目标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ORIGINAL_AUTHOR_ENTRYID  <br/> |
 |标识符:  <br/> |0x004C  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性是邮件作者的地址属性之一。 首次提交邮件时, 客户端应用程序应将此属性设置为**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) 的值。 转发或答复邮件时, 它永远不会更改。 
+此属性是邮件作者的地址属性之一。 首次提交邮件时，客户端应用程序应该将此属性设置为 PR_SENDER_ENTRYID ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) 。  转发或答复邮件时从不更改。 
   
-原始作者属性允许从本地邮件域外部保留信息。 当邮件到达其他邮件域 (例如从 Internet) 时, 此属性提供一种确保原始信息不会丢失的方法。
+原始作者属性允许保留来自本地邮件域外部的信息。 当邮件从另一个消息域（如 Internet）到达时，此属性提供了一种确保原始信息不会丢失的方法。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

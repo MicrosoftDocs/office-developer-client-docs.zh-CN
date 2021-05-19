@@ -25,7 +25,7 @@ ms.locfileid: "33424509"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回有关在 table 对象中发生的最后一个错误的信息。
+返回有关 table 对象中发生的最后一个错误的信息。
   
 ```cpp
 HRESULT GetLastError( 
@@ -39,15 +39,15 @@ HRESULT GetLastError(
 
  _hResult_
   
-> 实时失败方法的返回值。
+> [in]失败的方法的返回值。
     
  _ulFlags_
   
-> 实时未使用, 设置为 0 (零)。
+> [in]未使用，设置为 0 (零) 。
     
  _lppMAPIError_
   
-> 排除指向包含有关 table 对象的最后一个错误的信息的 MAPI [MAPIERROR](mapierror.md)结构。 
+> [out]指向 MAPI [MAPIERROR](mapierror.md) 结构，其中包含有关表对象发生的最后一个错误的信息。 
     
 ## <a name="see-also"></a>另请参阅
 

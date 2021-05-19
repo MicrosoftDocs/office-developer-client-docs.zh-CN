@@ -23,12 +23,12 @@ ms.locfileid: "33423459"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义具有指定名称的[ADRLIST](adrlist.md)结构, 其中包含指定数量的[ADRENTRY](adrentry.md)结构。 
+定义具有指定 [名称的 ADRLIST](adrlist.md) 结构，其中包含指定数量的 [ADRENTRY](adrentry.md) 结构。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**ADRLIST** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 SizedADRLIST (_centries,_name)
@@ -36,17 +36,17 @@ SizedADRLIST (_centries,_name)
 
 ## <a name="parameters"></a>参数
 
-__centries_
+_ _centries_
   
-> 要包含在新**ADRLIST**结构中的**ADRENTRY**结构的计数。 
+> 要 **包含在新 ADRLIST 结构的 ADRENTRY** 结构计数。  
     
-__名称_
+_ _name_
   
-> 新**ADRLIST**结构的名称。 
+> 新 **ADRLIST 结构** 的名称。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SizedADRLIST**宏允许您在已知数组长度要求时定义具有显式边界的收件人列表。 下面的代码演示如何将**SizedADRLIST**宏的结果转换为**ADRLIST**结构指针: 
+**SizedADRLIST** 宏允许您定义在数组长度要求已知时具有显式边界的收件人列表。 以下代码演示如何将 **SizedADRLIST** 宏的结果强制转换到 **ADRLIST** 结构指针： 
   
 ```cpp
 lpADRList = (LPADRLIST) &SizedADRList;

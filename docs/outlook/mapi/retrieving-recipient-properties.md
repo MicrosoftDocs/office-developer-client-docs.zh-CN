@@ -21,12 +21,12 @@ ms.locfileid: "33426672"
   
 ### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>访问通讯簿条目的一个或多个属性
   
-1. 对于每个相关的通讯簿条目, 请调用[IAddrBook:: OpenEntry](iaddrbook-openentry.md), 并传递目标邮件用户或通讯组列表的条目标识符。
+1. 对于每个感兴趣的通讯簿条目，调用 [IAddrBook：：OpenEntry，](iaddrbook-openentry.md)传递目标邮件用户或通讯组列表的条目标识符。
     
-2. 然后执行下列操作之一:
+2. 然后执行下列操作之一：
     
-   - 使用要检索的一个或多个属性的列表, 为每个感兴趣的通讯簿条目调用邮件用户或通讯组列表的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法。 
+   - 使用要检索的一个或多个属性的列表，为感兴趣的每个通讯簿条目调用消息传送用户或通讯组列表的 [IMAPIProp：：GetProps](imapiprop-getprops.md) 方法。 
     
-   - 调用[IAddrBook::P reparerecips](iaddrbook-preparerecips.md), 并传递一个包含所有所需通讯簿条目的所有属性的[ADRLIST](adrlist.md)结构。 由于对**PrepareRecips**的一次调用可以返回多个通讯簿条目的信息, 因此当您感兴趣多个收件人时, 这是可取的策略。 
+   - 调用 [IAddrBook：:P repareRecips](iaddrbook-preparerecips.md)，传递包含所有所需通讯簿条目的所有属性的 [ADRLIST](adrlist.md) 结构。 由于一次 **调用 PrepareRecips** 可能会返回多个通讯簿条目的信息，因此当您对多个收件人感兴趣时，这是首选策略。 
     
 

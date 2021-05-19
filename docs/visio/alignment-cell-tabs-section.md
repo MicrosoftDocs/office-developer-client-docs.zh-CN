@@ -24,24 +24,24 @@ ms.locfileid: "33425538"
 |:-----|:-----|:-----|
 | 0  <br/> | Left  <br/> |**visTabStopLeft** <br/> |
 | 1  <br/> | 居中  <br/> |**visTabStopCenter** <br/> |
-| 双面  <br/> | 右侧  <br/> |**visTabStopRight** <br/> |
-| 第三章  <br/> | 十进制  <br/> |**visTabStopDecimal** <br/> |
-| 4  <br/> | 逗号  <br/> |**visTabStopComma** <br/> |
+| 2  <br/> | 右侧  <br/> |**visTabStopRight** <br/> |
+| 3  <br/> | 小数  <br/> |**visTabStopDecimal** <br/> |
+| 4   <br/> | 逗号  <br/> |**visTabStopComma** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Alignment 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | 张.  *ij*其中*i 和 j =* <1>, 2, 3  <br/> |
+| 单元格名称：  <br/> | 选项卡。  *ij*            其中  *i 和 j =*  <1>、2、3  <br/> |
    
 要从某个程序按索引获取对 Alignment 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionTab** <br/> |
-| 行索引：  <br/> |**visRowTab +***i*其中*i* = 0、1、2 .。。  <br/> |
-| 单元格索引：  <br/> | (*j* * 3) **+ visTabAlign** <br/> |
+| 行索引：  <br/> |**visRowTab +** *i*            其中  *i*  = 0、1、2...  <br/> |
+| 单元格索引：  <br/> |  (*j*  *3) **+ visTabAlign** <br/> |
    
 

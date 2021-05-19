@@ -20,7 +20,7 @@ ms.locfileid: "33426364"
 
 确定在早于 Visio 2000 的 Visio 版本中插入的域的格式。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 此单元格不显示在 ShapeSheet 窗口中。如果需要处理向后兼容问题，例如以 Visio 5.0 版文件格式保存 Visio 2000 版绘图，则使用此单元格。
   
@@ -28,14 +28,14 @@ ms.locfileid: "33426364"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | UIFmt [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
+| 单元格名称：  <br/> | Fields.UIFmt[  *i*  ] 其中  *i*  = <1> 2， 3...  <br/> |
    
 要从某个程序按索引获取对 UIFormat 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionTextField** <br/> |
-| 行索引：  <br/> |**visRowField** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowField**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visFieldUIFormat** <br/> |
    
 

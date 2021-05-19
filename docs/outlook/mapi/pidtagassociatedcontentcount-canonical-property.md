@@ -25,16 +25,16 @@ ms.locfileid: "33421317"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含文件夹的 "关联的内容" 表中的项目数。
+包含文件夹的关联内容表中的项目数。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ASSOC_CONTENT_COUNT  <br/> |
 |标识符:  <br/> |0x3617  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |Folder  <br/> |
+|区域：  <br/> |文件夹  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 此属性包含文件夹的内容表中的条目数。 
   
@@ -42,13 +42,13 @@ ms.locfileid: "33421317"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

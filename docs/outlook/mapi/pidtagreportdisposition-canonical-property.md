@@ -32,17 +32,17 @@ ms.locfileid: "33423704"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 有效值如下：
   
-- 已
+- "deleted"
     
-- 处理
+- "processed"
     
-- 分派
+- "dispatched"
     
-- 否决
+- "denied"
     
 - "failed"
     
@@ -50,19 +50,19 @@ ms.locfileid: "33423704"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]] 
+[[MS-OXPROPS]] 
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

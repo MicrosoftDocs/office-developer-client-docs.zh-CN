@@ -25,7 +25,7 @@ ms.locfileid: "33421352"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供对接收文件夹表的访问权限, 该表包含有关邮件存储区的所有接收文件夹的信息。
+提供对接收文件夹表的访问权限，该表包含有关邮件存储的所有接收文件夹的信息。
   
 ```cpp
 HRESULT GetReceiveFolderTable(
@@ -37,19 +37,19 @@ HRESULT GetReceiveFolderTable(
 
  _ulFlags_
   
-> 实时用于控制表访问的标志的位掩码。 可以设置以下标志:
+> [in]控制表访问的标志的位掩码。 可以设置以下标志：
     
 MAPI_DEFERRED_ERRORS 
   
-> 允许**GetReceiveFolderTable**成功返回, 这可能是在将表完全提供给调用程序之前。 如果该表不是完全可用的, 则进行后续的表调用可能会引发错误。 
+> 允许 **GetReceiveFolderTable** 在表完全可供调用方使用之前成功返回。 如果表并非完全可用，则进行后续表调用可能会引发错误。 
     
 MAPI_UNICODE 
   
-> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 返回的字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
  _lppTable_
   
-> 排除指向接收文件夹表的指针的指针。
+> [out]指向接收文件夹表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -57,19 +57,19 @@ S_OK
   
 > 已成功返回接收文件夹表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMsgStore:: GetReceiveFolderTable**方法提供对显示所有邮件存储区接收文件夹的属性设置的表格的访问权限。 
+**IMsgStore：：GetReceiveFolderTable** 方法提供对表的访问权限，该表显示邮件存储的所有接收文件夹的属性设置。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-有关接收文件夹表中所需列的列表, 请参阅[receive folder Tables](receive-folder-tables.md)。 
+有关接收文件夹表中所需列的列表，请参阅 [接收文件夹表](receive-folder-tables.md)。 
   
-实现您的接收文件夹表, 以支持设置**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 属性的属性限制。 这样可以轻松访问特定的接收文件夹。
+实现接收文件夹表以支持在[PidTagRecordKey](pidtagrecordkey-canonical-property.md)属性PR_RECORD_KEY (设置) 限制。  这便于访问特定的接收文件夹。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-在_ulFlags_参数中设置 MAPI_UNICODE 标志将影响从[IMAPITable:: QueryColumns](imapitable-querycolumns.md)和[IMAPITable:: QueryRows](imapitable-queryrows.md)方法返回的列的格式。 此标志还按[IMAPITable:: QuerySortOrder](imapitable-querysortorder.md)方法返回的排序顺序控制属性类型。 
+在  _ulFlags_ 参数中设置 MAPI_UNICODE 标志会影响 [IMAPITable：：QueryColumns](imapitable-querycolumns.md) 和 [IMAPITable：：QueryRows](imapitable-queryrows.md) 方法返回的列的格式。 此标志还按 [IMAPITable：：QuerySortOrder](imapitable-querysortorder.md) 方法返回的排序顺序控制属性类型。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -77,7 +77,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MsgStoreDlg  <br/> |CMsgStoreDlg:: OnDisplayReceiveFolderTable  <br/> |MFCMAPI 使用**IMsgStore:: GetReceiveFolderTable**方法获取要显示的接收文件夹表。  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg：：OnDisplayReceiveFolderTable  <br/> |MFCMAPI 使用 **IMsgStore：：GetReceiveFolderTable** 方法获取要显示的接收文件夹表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

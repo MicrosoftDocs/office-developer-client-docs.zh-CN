@@ -25,7 +25,7 @@ ms.locfileid: "33424222"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果允许远程查看器调用[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法, 则此属性包含 TRUE。 
+如果允许远程查看器调用 [IMAPIStatus：：ValidateState](imapistatus-validatestate.md) 方法，则此属性包含 TRUE。 
   
 |||
 |:-----|:-----|
@@ -34,23 +34,23 @@ ms.locfileid: "33424222"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性将显示在状态表中, 并提供对传输性能的一些控制。 可将其视为将远程查看器定向为空闲的另一种方法。 当它设置为 TRUE 时, 远程查看器可以按需要的频率调用**IMAPIStatus:: ValidateState** 。 如果值为 FALSE, 则表示远程查看器不能进行任何调用。 
+此属性显示在状态表中，并提供对传输性能的一些控制。 它可视为将远程查看器引导到空闲的另一种方法。 当设置为 TRUE 时，远程查看器可以视需要经常调用 **IMAPIStatus：：ValidateState。** FALSE 值指示远程查看器不能再进行更多调用。 
   
-传输提供程序通常会将此属性设置为 FALSE, 以便在传输提供程序有足够的处理要执行的大量处理时, 将该值设置为 FALSE, 以禁用其他调用。 在传输提供程序完成后, 它会将值设置为 TRUE, 以允许客户端应用程序进一步**IMAPIStatus:: ValidateState**调用。 
+传输提供程序通常通过将值设置为 FALSE 来动态设置此属性，以在传输提供程序具有足够的处理量时禁用其他呼叫。 传输提供程序完成后，它会将值设置成 TRUE，以允许客户端应用程序进行进一步 **IMAPIStatus：：ValidateState** 调用。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

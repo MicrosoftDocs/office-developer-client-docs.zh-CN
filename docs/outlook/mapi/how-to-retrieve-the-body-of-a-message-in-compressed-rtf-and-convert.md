@@ -1,5 +1,5 @@
 ---
-title: 检索压缩 RTF 格式的邮件正文, 并将其转换为本机格式
+title: 检索压缩 RTF 格式的邮件正文并转换为其本机格式
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,11 +13,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426112"
 ---
-# <a name="retrieve-body-of-message-in-compressed-rtf-and-convert-to-its-native-format"></a>检索压缩 RTF 格式的邮件正文, 并将其转换为本机格式
+# <a name="retrieve-body-of-message-in-compressed-rtf-and-convert-to-its-native-format"></a>检索压缩 RTF 格式的邮件正文并转换为其本机格式
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-microsoft c + + 中的此代码示例展示了如何使用导出的 microsoft outlook 2010 或 Microsoft outlook 2013 函数[WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)来访问封装在压缩 RTF 中的邮件正文, 并在该正文中获取正文本机格式。 
+此 Microsoft C++ 代码示例演示如何使用导出的 Microsoft Outlook 2010 或 Microsoft Outlook 2013 函数[WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)访问封装在压缩 RTF 中的邮件正文，以及获取其本机格式的正文。 
   
 ```cpp
 //These are definitions for the WrapCompressedRTFStreamEx function. 

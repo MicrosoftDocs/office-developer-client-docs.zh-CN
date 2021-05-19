@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 07633717-ba4c-b146-ad65-60b37ab98ab6
-description: '上次修改时间: 2012 年10月5日'
+description: 上次修改时间：2012 年 10 月 5 日
 ms.openlocfilehash: 31114e4082fbc5e4c57da95eb6b32339822b1645
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,15 +17,15 @@ ms.locfileid: "33427820"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-若要实现包装的个人文件夹文件 (PST) 存储提供程序, 必须使用**[MSProviderInit](msproviderinit.md)** 函数作为入口点来初始化包装的 PST 存储区提供程序。 初始化提供程序的 DLL 之后, **[MSGSERVICEENTRY](msgserviceentry.md)** 函数将配置打包的 PST 存储区提供程序。 
+若要在 PST 存储提供程序 (包装的个人文件夹) ，必须使用 **[MSProviderInit](msproviderinit.md)** 函数作为入口点来初始化包装的 PST 存储提供程序。 初始化提供程序的 DLL 后 **[，MSGSERVICEENTRY](msgserviceentry.md)** 函数将配置封装的 PST 存储提供程序。 
   
-在本主题中, 通过使用示例包装的 PST 存储区提供程序中的代码示例来演示**MSProviderInit**函数和**MSGSERVICEENTRY**函数。 此示例实现了一个用于与复制 API 结合使用的打包的 PST 提供程序。 有关下载和安装示例包装的 pst 存储区提供程序的详细信息, 请参阅[安装示例包装的 pst 存储提供程序](installing-the-sample-wrapped-pst-store-provider.md)。 有关复制 api 的详细信息, 请参阅[关于复制 api](about-the-replication-api.md)。
+在本主题中 **，MSProviderInit** 函数和 **MSGSERVICEENTRY** 函数通过示例包装 PST 存储提供程序中的代码示例进行演示。 该示例实现一个包装的 PST 提供程序，旨在与复制 API 结合使用。 有关下载和安装包装的示例 PST 存储提供程序详细信息，请参阅安装包装的 PST 存储 [提供程序示例](installing-the-sample-wrapped-pst-store-provider.md)。 有关复制 API 的信息，请参阅[关于复制 API。](about-the-replication-api.md)
   
-初始化包装的 PST 存储区提供程序后, 必须实现功能, 以便 mapi 和 mapi 后台处理程序可以登录到邮件存储提供程序。 有关详细信息, 请参阅[登录到打包的 PST 存储提供程序](logging-on-to-a-wrapped-pst-store-provider.md)。
+初始化包装的 PST 存储提供程序后，必须实现函数，以便 MAPI 和 MAPI 后台处理程序可以登录到邮件存储提供程序。 有关详细信息，请参阅登录到封装 [的 PST 存储提供程序](logging-on-to-a-wrapped-pst-store-provider.md)。
   
 ## <a name="initialization-routine"></a>初始化例程
 
-所有包装的 PST 存储区提供程序都必须将**[MSProviderInit](msproviderinit.md)** 函数实现为初始化提供程序 DLL 的入口点。 **MSProviderInit**检查服务提供程序接口`ulMAPIVer`的版本号是否与当前版本号, `CURRENT_SPI_VERSION`是否兼容。 函数将 MAPI 内存管理例程保存到`g_lpAllocateBuffer`、 `g_lpAllocateMore`和`g_lpFreeBuffer`参数中。 应在整个包装的 PST 存储实现中使用这些内存管理例程, 以实现内存分配和释放。 
+所有包装的 PST 存储提供程序都必须实现 **[MSProviderInit](msproviderinit.md)** 函数作为初始化提供程序的 DLL 的入口点。 **MSProviderInit** 检查服务提供程序接口的版本号是否与当前  `ulMAPIVer` 版本号兼容  `CURRENT_SPI_VERSION` 。 函数将 MAPI 内存管理例程保存到  `g_lpAllocateBuffer` 、  `g_lpAllocateMore` 和  `g_lpFreeBuffer` 参数中。 这些内存管理例程应在整个封装的 PST 存储实现中用于内存分配和释放。 
   
 ### <a name="msproviderinit-example"></a>MSProviderInit () 示例
 
@@ -106,9 +106,9 @@ STDINITMETHODIMP MSProviderInit (
 }
 ```
 
-### <a name="wrapped-pst-and-unicode-paths"></a>打包的 PST 和 Unicode 路径
+### <a name="wrapped-pst-and-unicode-paths"></a>封装的 PST 和 Unicode 路径
 
-若要 retrofit 在 microsoft Visual Studio 2008 中准备的原始示例, 以便使用 NST 的 unicode 路径以在启用 Unicode 的 Microsoft Outlook 2010 和 Outlook 2013 中使用, 则生成条目标识符的**CreateStoreEntryID**例程应使用一种格式的 ASCII 路径, 另一种格式用于 Unicode 路径。 这些表示为以下示例中的结构。 
+为了改进在 Microsoft Visual Studio 2008 中准备的原始示例，以使用 NST 的 Unicode 路径以在启用 Unicode 的 Microsoft Outlook 2010 和 Outlook 2013 中使用，生成条目标识符的 **CreateStoreEntryID** 例程应对 ASCII 路径使用一种格式，对 Unicode 路径使用另一种格式。 在下面的示例中，这些结构表示为结构。 
   
 ```cpp
 typedef struct                              // short format
@@ -131,11 +131,11 @@ typedef struct                              // Long format to support Unicode pa
 ```
 
 > [!IMPORTANT]
-> 这些结构中的差异是 Unicode 路径之前的两个 NULL 字节。 如果需要解释后面的 "服务入口例程" 中的条目标识符, 则可以通过一种方法来确定是否为 EIDMS 强制转换为 "szPath", 然后检查 [0] 是否为 NULL。 如果是, 则改为将其转换为 EIDMSW。 
+> 这些结构的差异是 Unicode 路径之前的两个 NULL 字节。 如果需要在随后的"服务条目例程"中解释条目标识符，则确定是否这种情况的一种方式是先强制强制转换为 EIDMS，然后检查 szPath[0] 是否为 NULL。 如果是，请改为将它强制转换为 EIDMSW。 
   
-## <a name="service-entry-routine"></a>服务入口例程
+## <a name="service-entry-routine"></a>服务输入例程
 
-**[MSGSERVICEENTRY](msgserviceentry.md)** 函数是在其中配置包装的 PST 存储区提供程序的邮件服务入口点。 用于获取 MAPI `GetMemAllocRoutines()`内存管理例程的函数调用。 函数使用`lpProviderAdmin`参数查找提供程序的配置文件部分, 并在配置文件中设置属性。 
+**[MSGSERVICEENTRY](msgserviceentry.md)** 函数是邮件服务入口点，其中配置了封装的 PST 存储提供程序。 函数调用  `GetMemAllocRoutines()` 获取 MAPI 内存管理例程。 函数使用  `lpProviderAdmin` 参数查找提供程序的配置文件部分，并设置配置文件中的属性。 
   
 ### <a name="serviceentry-example"></a>ServiceEntry () 示例
 
@@ -243,9 +243,9 @@ HRESULT STDAPICALLTYPE ServiceEntry (
 
 ## <a name="see-also"></a>另请参阅
 
-- [关于示例包装的 PST 存储区提供程序](about-the-sample-wrapped-pst-store-provider.md)
-- [安装示例包装的 PST 存储区提供程序](installing-the-sample-wrapped-pst-store-provider.md)
-- [登录到打包的 PST 存储区提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
-- [使用包装的 PST 存储区提供程序](using-a-wrapped-pst-store-provider.md)
-- [关闭打包的 PST 存储区提供程序](shutting-down-a-wrapped-pst-store-provider.md)
+- [关于包装的 PST 存储提供程序示例](about-the-sample-wrapped-pst-store-provider.md)
+- [安装包装的 PST 存储提供程序示例](installing-the-sample-wrapped-pst-store-provider.md)
+- [登录到包装的 PST 存储提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
+- [使用包装的 PST 存储提供程序](using-a-wrapped-pst-store-provider.md)
+- [关闭包装的 PST 存储提供程序](shutting-down-a-wrapped-pst-store-provider.md)
 

@@ -25,12 +25,12 @@ ms.locfileid: "33423711"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算要分配给包含由[SSortOrder](ssortorder.md)结构表示的指定数量的排序次序的新[SizedSSortOrderSet](sizedssortorderset.md)结构的字节数。 
+计算要分配给新的 [SizedSSortOrderSet](sizedssortorderset.md) 结构的字节数，该结构包含 [由 SSortOrder](ssortorder.md) 结构表示的指定数量的排序顺序。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**SSortOrderSet** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 CbNewSSortOrderSet (_csort)
@@ -38,9 +38,9 @@ CbNewSSortOrderSet (_csort)
 
 ## <a name="parameters"></a>参数
 
- __csort_
+ _ _csort_
   
-> 要包含在**SSortOrderSet**结构中的**SSortOrder**结构的计数。 
+> **SSortOrderSet** 结构中要包含 **的 SSortOrder 结构** 计数。 
     
 ## <a name="see-also"></a>另请参阅
 

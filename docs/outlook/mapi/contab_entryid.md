@@ -15,17 +15,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424082"
 ---
-# <a name="contabentryid"></a>CONTAB_ENTRYID
+# <a name="contab_entryid"></a>CONTAB_ENTRYID
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 "联系人" 文件夹的条目 ID。
+包含联系人文件夹的条目 ID。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |msomapiutil  <br/> |
+|标头文件：  <br/> |msomapiutil.h  <br/> |
    
 ```cpp
 #pragma pack(4) 
@@ -46,7 +46,7 @@ typedef struct _contab_entryid
 
  **abFlags**
   
-> 提供描述对象的信息的标志的位掩码。 有关详细信息, 请参阅[ENTRYID](entryid.md)结构的**abFlags**字段的说明。 
+> 提供描述对象的信息的标志的位掩码。 有关详细信息，请参阅 [ENTRYID](entryid.md)结构的 **abFlags** 字段的说明。 
     
  **muid**
   
@@ -54,11 +54,11 @@ typedef struct _contab_entryid
     
  **ulVersion**
   
-> **CONTAB_ENTRYID**结构的版本号。 必须设置为 CONTAB_VERSION。 
+> 该 **结构CONTAB_ENTRYID版本号** 。 必须设置为 CONTAB_VERSION。 
     
  **ulType**
   
-> 一个表示联系人条目 ID 类型的整数。 它必须是下列值之一:
+> 一个代表联系人条目 ID 类型的整数。 它必须是下列值之一：
     
 |**名称**|**说明**|
 |:-----|:-----|
@@ -69,23 +69,23 @@ typedef struct _contab_entryid
   
 > 电子邮件属性子集的索引。
     
- **cbeid**
+ **c一d**
   
-> 与联系人通讯簿中的此条目相关联的联系人邮件的条目标识符的大小。
+> 与联系人通讯簿中与此条目关联的联系人邮件的条目标识符的大小。
     
- **abeid**
+ **a一5d**
   
-> 与联系人通讯簿中的此条目相关联的联系人邮件的条目标识符。
+> 与联系人通讯簿中的此项相关联的联系人邮件的条目标识符。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-联系人通讯簿是一个通讯簿, 其中包含 "联系人" 文件夹中具有电子邮件地址或传真号码的所有联系人项目。 联系人通讯簿中的每个条目都与电子邮件地址或传真号码相关联。 由于联系人项目最长可包含三个电子邮件地址和三个传真号码, 因此联系人项目可以在相应联系人通讯簿中的最大6个条目中表示。
+联系人通讯簿是一个通讯簿，其中包含具有电子邮件地址或传真号码的"联系人"文件夹中的所有联系人项目。 联系人通讯簿中的每个条目都与电子邮件地址或传真号码关联。 由于联系人项目可以有最多三个电子邮件地址和三个传真号码，因此联系人项目可以在相应的联系人通讯簿中用最多六个条目表示。
   
-联系人通讯簿的用途是支持用户为联系人文件夹中的联系人寻址电子邮件。 microsoft outlook 2010 和 microsoft outlook 2013 支持的联系人通讯簿提供程序为 contab32。
+联系人通讯簿的用途是支持用户向"联系人"文件夹中的联系人发送电子邮件。 支持联系人通讯簿Microsoft Outlook 2010 Microsoft Outlook 2013支持contab32.dll。
   
-**CONTAB_ENTRYID**结构支持基础 MAPI 联系人消息中存在的信息的子集。 它标识与特定联系人通讯簿条目相关联的联系人消息。 
+the **CONTAB_ENTRYID** structure supports a subset of the information that is present in the underlying MAPI Contact message. 它标识与特定联系人通讯簿条目关联的联系人邮件。 
   
-仅当**ulType**字段值设置为 CONTAB_DISTLIST 或 CONTAB_USER 时, **cbeid**和**abeid**字段才有效。 当**ulType**字段值设置为 CONTAB_ROOT、CONTAB_SUBROOT 或 CONTAB_CONTAINER 时, 应改为使用[DIR_ENTRYID](dir_entryid.md)结构。 
+仅 **当** **ulType** 字段值设置为 CONTAB_DISTLIST 或 CONTAB_USER 时，c一d 和 **add** 字段才CONTAB_USER。 当 **ulType** 字段值设置为 CONTAB_ROOT、CONTAB_SUBROOT 或 CONTAB_CONTAINER 时，DIR_ENTRYID相反。 [](dir_entryid.md) 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -23,12 +23,12 @@ ms.locfileid: "33429346"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个包含指定数量的属性标记的命名[SPropTagArray](sproptagarray.md)结构。 
+创建一个名为 [SPropTagArray](sproptagarray.md) 的结构，其中包含指定数量的属性标记。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**SPropTagArray** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 SizedSPropTagArray (_ctag, _name)
@@ -36,19 +36,19 @@ SizedSPropTagArray (_ctag, _name)
 
 ## <a name="parameters"></a>参数
 
-__ctag_
+_ _ctag_
   
 > 要包含在新结构中的属性标记的计数。
     
-__名称_
+_ _name_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-使用**SizedSPropTagArray**宏创建具有显式界限的属性标记数组。 
+使用 **SizedSPropTagArray** 宏创建具有显式边界的属性标记数组。 
   
-若要使用作为指向**SPropTagArray**结构的指针的**SizedSPropTagArray**宏生成的新结构, 请执行以下转换: 
+若要使用由 **SizedSPropTagArray** 宏产生的新结构作为 **指向 SPropTagArray** 结构的指针，请执行以下转换： 
   
 ```cpp
 lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;

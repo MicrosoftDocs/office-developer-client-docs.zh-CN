@@ -23,12 +23,12 @@ ms.locfileid: "33424096"
 |**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 1  <br/> | 简单  <br/> |**visFSTSimple** <br/> |
-| 双面  <br/> | 偏  <br/> |**visFSTOblique** <br/> |
-|第三章  <br/> |Inner  <br/> |**visFSTInner** <br/> |
+| 2  <br/> | 倾斜  <br/> |**visFSTOblique** <br/> |
+|3  <br/> |内部  <br/> |**visFSTInner** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
- 只要 ShapeShdwType 单元格 (页面上的单个形状的阴影类型) 设置为 "页面默认值" (**visFSTPageDefault** ), 此单元格中所述的阴影类型将被使用。 
+ 只要页面) 上的 ShapeShdwType 单元格的阴影类型设置为"页面默认值" (，就会使用此单元格中描述的阴影类型 (**visFSTPageDefault** ) 。 
   
 简单阴影类型是指用户界面 (UI) 中的偏移阴影。 简单阴影的效果是将形状的阴影投射到形状背后一段距离的并行面上。 倾斜阴影是指 UI 中的倾斜阴影，其效果是将阴影投射到与形状垂直的面上。 
   

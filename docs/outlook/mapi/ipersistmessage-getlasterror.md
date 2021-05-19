@@ -25,7 +25,7 @@ ms.locfileid: "33426707"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个[MAPIERROR](mapierror.md)结构, 该结构包含有关 form 对象中的前一个错误的信息。 
+返回一 [个 MAPIERROR](mapierror.md) 结构，其中包含有关表单对象中上一个错误的信息。 
   
 ```cpp
 HRESULT GetLastError(
@@ -39,41 +39,41 @@ HRESULT GetLastError(
 
  _hResult_
   
-> 实时一个 HRESULT 数据类型, 其中包含在上一方法调用中生成的错误值。
+> [in]HRESULT 数据类型，其中包含在上一个方法调用中生成的错误值。
     
  _ulFlags_
   
-> 实时用于控制返回的字符串类型的标志的位掩码。 可以设置以下标志:
+> [in]控制返回的字符串类型的标志位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 在_lppMAPIError_参数中返回的[MAPIERROR](mapierror.md)结构中的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。 
+> _lppMAPIError_ 参数中返回的 [MAPIERROR](mapierror.md)结构中的字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。 
     
  _lppMAPIError_
   
-> 排除指向包含错误的版本、组件和上下文信息的**MAPIERROR**结构的指针的指针。 如果窗体无法为**MAPIERROR**结构提供适当的信息, 则可以将_lppMAPIError_参数设置为 NULL。 
+> [out]指向 **MAPIERROR** 结构的指针的指针，其中包含错误的版本、组件和上下文信息。 如果表单无法为 **MAPIERROR** 结构提供适当的信息，可以将 _lppMAPIError_ 参数设置为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置了 MAPI_UNICODE 标志, 且通讯簿提供程序不支持 unicode, 或者未设置 MAPI_UNICODE, 并且通讯簿提供程序仅支持 unicode。
+> 设置 MAPI_UNICODE 标志，通讯簿提供程序不支持 Unicode，或者MAPI_UNICODE设置该地址簿提供程序仅支持 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-Form 对象实现**IPersistMessage:: GetLastError**方法, 以提供有关失败的上一个方法调用的信息。 通过在对话框中包含[MAPIERROR](mapierror.md)结构中的数据, 表单查看者可以向其用户提供有关错误的详细信息。 
+Form 对象实现 **IPersistMessage：：GetLastError** 方法，以提供有关失败的以前方法调用的信息。 表单查看器可以通过在对话框中包含 [MAPIERROR](mapierror.md) 结构的数据，为用户提供有关错误的详细信息。 
   
-对**GetLastError**的调用不会影响窗体的状态。 当返回**GetLastError**时, 窗体将保持在进行调用之前的状态。 
+调用 **GetLastError** 不会影响窗体的状态。 当 **GetLastError** 返回时，表单将保持调用之前的状态。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-如果窗体提供了**MAPIERROR**结构, 则只有当**GetLastError**返回 S_OK 时, 才能使用_lppMAPIError_参数所指向的结构。 有时, 窗体无法确定最后一个错误是什么, 或者对错误报告没有更多的信息。 在这种情况下, 表单将在_lppMAPIError_中返回指向 NULL 的指针。 
+只有当 **GetLastError** 返回值时，才能使用 **MAPIERROR** 结构（如果表单提供一个由 _lppMAPIError_ 参数S_OK）。 有时，窗体无法确定上一个错误是什么，或者没有其他关于错误的报告。 在这种情况下，表单会改为在  _lppMAPIError_ 中返回指向 NULL 的指针。 
   
-有关**GetLastError**方法的详细信息, 请参阅[MAPI 扩展错误](mapi-extended-errors.md)。
+有关 **GetLastError** 方法的详细信息，请参阅 [MAPI 扩展错误](mapi-extended-errors.md)。
   
 ## <a name="see-also"></a>另请参阅
 

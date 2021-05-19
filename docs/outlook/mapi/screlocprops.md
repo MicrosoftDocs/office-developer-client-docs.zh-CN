@@ -25,13 +25,13 @@ ms.locfileid: "33421086"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在将数组及其数据复制或移动到新位置之后, 调整[SPropValue](spropvalue.md)数组中的指针。 
+在数组及其数据被复制或移动到新位置之后，调整 [SPropValue](spropvalue.md) 数组中的指针。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE ScRelocProps(
@@ -47,45 +47,45 @@ SCODE ScRelocProps(
 
  _cprop_
   
-> 实时由_rgprop_参数指向的数组中的属性计数。 
+> [in]  _rgprop_ 参数指向的数组中的属性计数。 
     
  _rgprop_
   
-> 实时指向要调整其指针的[SPropValue](spropvalue.md)结构的数组的指针。 
+> [in]指向要调整指针 [的 SPropValue](spropvalue.md) 结构的数组的指针。 
     
  _pvBaseOld_
   
-> 实时指向由_rgprop_参数指向的数组的原始基址的指针。 
+> [in]指向 rgprop 参数指向的数组的原始  _基地址的_ 指针。 
     
  _pvBaseNew_
   
-> 实时指向_rgprop_参数指向的数组的新基址的指针。 
+> [in]指向  _rgprop_ 参数指向的数组的新基地址的指针。 
     
- _pcb_
+ _这些_
   
-> [in, out]可选指针, 指向由_pvBaseNew_参数指示的数组的大小 (以字节为单位)。 如果不为 NULL, 则将_pcb_参数设置为_pvD_参数中存储的字节数。 
+> [in， out]指向  _pvBaseNew_ 参数指示的数组大小的可选指针（以字节为单位）。 如果不为 NULL，  _则将 pv_ 参数设置为  _pvD_ 参数中存储的字节数。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 已成功调整指针。
+> 指针已成功调整。
     
 MAPI_E_INVALID_PARAMETER
   
-> 一个或两个参数无效, 或者遇到未知的属性类型。
+> 一个或两个参数无效，或遇到未知属性类型。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**ScRelocProps**函数在假设您对其调整指针的属性值数组进行操作时, 最初是在与**ScCopyProps**函数的调用类似的单个调用中分配的。 如果客户端应用程序或服务提供程序正在使用从脱节内存块生成的属性值, 则应改用[ScCopyProps](sccopyprops.md)复制属性。 
+**ScRelocProps** 函数的运行假设是最初在类似于 **对 ScCopyProps** 函数的调用的单个调用中分配了调整指针的属性值数组。 如果客户端应用程序或服务提供商使用从脱节的内存块构建的属性值，则它应改为使用 [ScCopyProps](sccopyprops.md) 复制属性。 
   
- **ScRelocProps**用于维护[SPropValue](spropvalue.md)数组中的指针的有效性。 若要在将此类数组写入和读取磁盘时保持指针的有效性, 请执行以下操作: 
+ **ScRelocProps** 用于维护 [SPropValue](spropvalue.md) 数组中指针的有效性。 若要在将此类数组写入磁盘并读取磁盘时保持指针的有效性，请执行下列操作： 
   
-1. 在将数组和数据写入磁盘之前, 请使用_pvBaseNew_参数指向某个标准值零对数组调用**ScRelocProps** , 例如。 
+1. 在将数组和数据写入磁盘之前，请对数组调用 **ScRelocProps，** 其中  _pvBaseNew_ 参数指向一些标准值零，例如。 
     
-2. 在从磁盘读取数组和数据之后, 对阵列调用**ScRelocProps** , 将_pvBaseOld_参数等于与步骤1中使用的相同标准值。 必须将数组和数据读入单个分配中创建的缓冲区。 
+2. 从磁盘读取数组和数据后，对 _pvBaseOld_ 参数等于步骤 1 中使用的相同标准值的数组调用 **ScRelocProps。** 必须将数组和数据读取到通过单个分配创建的缓冲区中。 
     
-3. **ScRelocProps**的_pcb_参数是可选的。 
+3. **ScRelocProps** 的 _为可选_ 参数。 
     
 ## <a name="see-also"></a>另请参阅
 

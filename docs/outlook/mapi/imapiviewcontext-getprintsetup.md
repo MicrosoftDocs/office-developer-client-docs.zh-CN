@@ -38,15 +38,15 @@ LPFORMPRINTSETUP FAR * lppFormPrintSetup
 
  _ulFlags_
   
-> 实时用于控制返回的字符串的类型的标志的位掩码。 可以设置以下标志:
+> [in]控制返回的字符串类型的标志的位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 返回的字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
  _lppFormPrintSetup_
   
-> 排除指向指向包含打印信息的结构的指针的指针。
+> [out]指向指向包含打印信息的结构的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -54,19 +54,19 @@ S_OK
   
 > 已成功检索打印信息。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单对象调用**IMAPIViewContext:: GetPrintSetup**方法来检索有关打印机设置的信息, 然后再尝试打印当前邮件。 
+Form 对象调用 **IMAPIViewContext：：GetPrintSetup** 方法，以在尝试打印当前邮件之前检索有关打印机设置的信息。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-使用 Win32 函数**GlobalAlloc**分配[FORMPRINTSETUP](formprintsetup.md)结构的**hDevMode**和**hDevName**成员。
+使用 Win32 函数 **GlobalAlloc** 分配 [FORMPRINTSETUP](formprintsetup.md)结构的 **hDevMode** 和 **hDevName** 成员。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-如果您希望_lppFormPrintSetup_参数指向的**FORMPRINTSETUP**结构的**hDevMode**和**hDevName**成员为 Unicode 字符串, 请将_ulFlags_设置为 MAPI_UNICODE。 否则, **GetPrintSetup**将返回 ANSI 格式的这些字符串。 
+如果您希望 _lppFormPrintSetup_ 参数指向的 **FORMPRINTSETUP** 结构的 **hDevMode** 和 **hDevName** 成员为 Unicode 字符串，则将 _ulFlags_ 设置为 MAPI_UNICODE。 否则 **，GetPrintSetup** 将返回 ANSI 格式的这些字符串。 
   
-通过调用 Win32 函数**GlobalFree**, 释放**FORMPRINTSETUP**结构的**hDevMode**和**hDevName**成员。 通过调用[MAPIFreeBuffer](mapifreebuffer.md)释放整个**FORMPRINTSETUP**结构。 
+通过调用 Win32 函数 **GlobalFree** 释放 **FORMPRINTSETUP** 结构的 **hDevMode** 和 **hDevName** 成员。 通过调用 [MAPIFreeBuffer](mapifreebuffer.md)释放整个 **FORMPRINTSETUP** 结构。 
   
 ## <a name="see-also"></a>另请参阅
 

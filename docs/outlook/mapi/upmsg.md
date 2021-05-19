@@ -19,7 +19,7 @@ ms.locfileid: "33427267"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-[上载邮件状态](upload-message-state.md)期间上载 Outlook 项目的信息。
+上传邮件状态Outlook[上传项目的信息](upload-message-state.md)。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -42,79 +42,79 @@ struct UPMSG
 
  _ulFlags_
   
-> [输出]/[in] 标志以确定上载过程中的相应行为。 
+> [out]/[in] 用于确定上传期间适当行为的标志。 
     
   - UPM_ASSOC
     
-    - 排除项目相关联。
+    - [out]项目已关联。
     
   - UPM_NEW
     
-    - 排除新项目。 
+    - [out]新建项目。 
     
   - UPM_MOV
     
-    - 排除项目已移至此处。
+    - [out]项目已移动到此处。
     
   - UPM_MOD_PROPS
     
-    - 排除修改了项目属性。
+    - [out]已修改项目属性。
     
   - UPM_HEADER
     
-    - 排除Item 为邮件头。
+    - [out]Item 是邮件头。
     
   - UPM_OK
     
-    - 实时上载成功。 客户端将信息上载到服务器后对此进行设置。
+    - [in]Upload已成功。 客户端在将信息上载到服务器后进行设置。
     
   - UPM_MOVED
     
-    - 实时已成功移动项目。
+    - [in]项目已成功移动。
     
   - UPM_COMMIT
     
-    - 实时立即提交上载状态。
+    - [in]现在提交上传状态。
     
   - UPM_DELETE
     
-    - 实时立即删除项目。
+    - [in]立即删除项目。
     
   - UPM_SAVE
     
-    - 实时保存对项目所做的更改。
+    - [in]保存对项目的更改。
     
 _pmsg_
   
-> 排除打开项目对象。 有关**LPMESSAGE**的类型定义, 请参阅 mapidefs.h。 
+> [out]打开项目对象。 有关 **LPMESSAGE** 的类型定义，请参阅 mapidefs.h。 
     
 _meid_
   
-> 排除项目的条目 ID。
+> [out]项的条目 ID。
     
 _binReserved1_
   
-> 实时此成员是为内部使用 Outlook 而保留的, 不受支持。 
+> [in]此成员仅供内部使用，Outlook不支持。 
     
 _binReserved2_
   
-> 实时此成员是为内部使用 Outlook 而保留的, 不受支持。 
+> [in]此成员仅供内部使用，Outlook不支持。 
     
 _feid_
   
-> 排除源文件夹的条目 ID (如果已移动项目)。
+> [out]源文件夹的条目 ID（如果项目已移动）。
     
 _binChg_
   
-> 排除如果已移动项, 则更改目标项的键。 有关**SBinary**的类型定义, 请参阅 mapidefs.h。 
+> [out]更改目标项的键（如果项目已移动）。 有关 **SBinary** 的类型定义，请参阅 mapidefs.h。 
     
 _binPcl_
   
-> 排除如果项目已移动, 则更改目标项的列表。 有关**SBinary**的类型定义, 请参阅 mapidefs.h。 
+> [out]更改目标项的列表（如果项目已移动）。 有关 **SBinary** 的类型定义，请参阅 mapidefs.h。 
     
 _skeySrc_
   
-> 排除源项的源项 (如果已移动项)。
+> [out]源项的源键（如果项目已移动）。
     
 ## <a name="see-also"></a>另请参阅
 

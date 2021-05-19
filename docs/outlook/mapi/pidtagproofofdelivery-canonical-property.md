@@ -25,7 +25,7 @@ ms.locfileid: "33423837"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-此属性包含一个 ASN. 1 个交货价值证明。
+此属性包含传递值的 ASN.1 证明。
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ ms.locfileid: "33423837"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

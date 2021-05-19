@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e2d8d8a9-7e8f-9cf0-56a8-d8a6281ad589
-description: 上次修改时间:03 月3日, 2012
+description: 上次修改时间：2012 年 7 月 3 日
 ms.openlocfilehash: c6aaac128e1a3e1a8d77d3fa8b6c50a335348b71
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,11 +17,11 @@ ms.locfileid: "33424446"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题包含 c + + 中的代码示例, 演示如何使用**[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** 属性和**[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** 属性获取 Microsoft Exchange SERVER 的版本信息。活动帐户已连接到。 
+本主题包含一个 C++ 代码示例，演示如何使用 **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** 属性和 **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** 属性获取活动帐户Microsoft Exchange Server版本的版本信息。 
   
-代码`GetProfileServiceVersion`示例中的函数接受一个配置文件作为输入参数。 根据**PR_PROFILE_SERVER_VERSION**属性和**PR_PROFILE_SERVER_FULL_VERSION**属性在给定的配置文件中是否存在, 该函数将获取每个属性, 并以输出的形式返回适当的版本信息。实参. 
+代码  `GetProfileServiceVersion` 示例中的 函数接受配置文件作为输入参数。 根据给定配置文件PR_PROFILE_SERVER_VERSION属性和 PR_PROFILE_SERVER_FULL_VERSION 属性，函数将获取每个属性，并返回相应的版本信息作为输出参数。 
   
-`GetProfileServiceVersion`首先调用**[MAPIAdminProfiles](mapiadminprofiles.md)** 函数来创建配置文件管理对象。 然后, 它使用配置文件管理对象调用**[IProfAdmin:: AdminServices](iprofadmin-adminservices.md)** 以获取邮件服务管理对象。 使用邮件服务管理对象, 它调用**[IMsgServiceAdmin:: OpenProfileSection](imsgserviceadmin-openprofilesection.md)** 获取当前配置文件的一部分, 然后调用**[HrGetOneProp](hrgetoneprop.md)** 以验证这两个属性中的每个属性是否都存在于配置文件, 如果是, 则在相应的输出参数中设置版本信息。 
+`GetProfileServiceVersion` 首先调用 **[MAPIAdminProfiles](mapiadminprofiles.md)** 函数来创建配置文件管理对象。 然后，它使用配置文件管理对象调用 **[IProfAdmin：：AdminServices](iprofadmin-adminservices.md)** 以获取邮件服务管理对象。 使用邮件服务管理对象，它调用 **[IMsgServiceAdmin：：OpenProfileSection](imsgserviceadmin-openprofilesection.md)** 以获取当前配置文件的一部分，然后调用 **[HrGetOneProp](hrgetoneprop.md)** 来验证这两个属性是否分别存在于配置文件的该部分，如果是，则设置相应输出参数中的版本信息。 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

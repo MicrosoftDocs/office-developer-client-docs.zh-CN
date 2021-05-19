@@ -1,5 +1,5 @@
 ---
-title: CreateRecord 数据块 (Access 自定义 web 应用程序)
+title: 'CreateRecord Data Block (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421373"
 ---
-# <a name="createrecord-data-block-access-custom-web-app"></a>CreateRecord 数据块 (Access 自定义 web 应用程序)
+# <a name="createrecord-data-block-access-custom-web-app"></a>CreateRecord Data Block (Access 自定义 Web 应用) 
 
 您可以使用 **CreateRecord** 数据块在指定表中创建新记录。 
   
@@ -23,7 +23,7 @@ ms.locfileid: "33421373"
 > [!NOTE]
 > **CreateRecord** 数据块仅适用于数据宏。 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>设置
 
 **DeleteRecord** 数据块具有以下参数。 
   
@@ -32,13 +32,13 @@ ms.locfileid: "33421373"
 |**参数名称**|**必需**|**描述**|
 |:-----|:-----|:-----|
 |**Create a Record In** <br/> |是  <br/> |要在其中创建新记录的表的名称。  <br/> |
-|**Alias** <br/> |否  <br/> |一个标识记录的字符串。 您可以使用记录的别名来标识该记录  <br/> |
+|**Alias** <br/> |否  <br/> |标识记录的字符串。 您可以使用记录的别名来标识该记录  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 **CreateRecord** 创建的记录会自动成为当前记录。 
   
-在**CreateRecord**语句后, 可以插入一个在新记录提交之前执行的命令块。 以下操作适用于 **CreateRecord** 数据块。 
+在 **CreateRecord** 语句之后，可以插入将在提交新记录之前执行的命令块。 以下操作适用于 **CreateRecord** 数据块。 
   
 ||
 |:-----|
@@ -51,11 +51,11 @@ ms.locfileid: "33421373"
    
 在 **CreateRecord** 操作创建记录后，可使用 **SetField** 操作在该新记录中指定字段值。 
   
-可以使用**If .。。然后 .。。Else**语句来执行基于条件的操作。 
+可以使用 **If...然后...基于** 条件执行运算的 Else 语句。 
   
 若要取消创建记录，可使用 **CancelRecordChange** 操作。此操作将阻止提交更改并退出 **CreateRecord** 数据块。 
   
-提交新记录后，可以使用 **LastCreateRecordIdentity** 本地变量来处理该记录。 例如, 使用以下语法来引用最近创建的记录的 "分配给" 字段。 
+提交新记录后，可以使用 **LastCreateRecordIdentity** 本地变量来处理该记录。 例如，使用以下语法引用最近创建的记录的 AssignedTo 字段。 
   
 `[LastCreateRecordIdentity].[AssignedTo]`
 

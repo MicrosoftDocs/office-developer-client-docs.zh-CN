@@ -21,13 +21,13 @@ ms.locfileid: "33421366"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-确保**OpenEntry**方法由预期的 Exchange 通讯簿提供程序打开。 此函数的工作方式类似于[IAddrBook::D etails](iaddrbook-details.md), 但使用由_pEmsmdbUID_参数标识的 Exchange 通讯簿打开**entryID** 。 
+确保由预期的通讯簿提供程序打开 **OpenEntry** Exchange打开。 此函数的工作方式类似于 [IAddrBook：:D etails](iaddrbook-details.md)，但使用 _pEmsmdbUID_ 参数标识的 Exchange 通讯簿打开 **entryID。** 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |abhelp  <br/> |
+|标头文件：  <br/> |abhelp.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 HRESULT HrOpenABEntryWithExchangeContext(
@@ -51,66 +51,66 @@ HRESULT HrOpenABEntryWithExchangeContext(
 
  _pmsess_
   
-> 登录的**IMAPISession**。 它不能为 NULL。
+> 登录的 **IMAPISession**。 它不能为 NULL。
     
  _pEmsmdbUID_
   
-> 指向**emsmdbUID**的指针, 该链接标识包含 exchange 通讯簿提供程序的 exchange 服务, 该提供程序将使用该功能打开条目标识符。 如果传入条目标识符不是 Exchange 通讯簿提供程序条目标识符, 则此参数将被忽略, 并且函数的行为类似于[IAddrBook:: OpenEntry](iaddrbook-openentry.md)。 如果此参数为 NULL 或零**MAPIUID**, 则此函数也相当于[IAddrBook:: OpenEntry](iaddrbook-openentry.md)。 
+> 指向 **emsmdbUID** 的指针，该指针标识 Exchange Service，该服务包含 Exchange 通讯簿提供程序，该通讯簿提供程序由函数用于打开条目标识符。 如果传入条目标识符不是通讯簿Exchange标识符，则忽略此参数，并且该函数的行为类似于[IAddrBook：：OpenEntry](iaddrbook-openentry.md)。 如果此参数为 NULL 或零 **MAPIUID，** 则此函数的作用也与 [IAddrBook：：OpenEntry 完全相同](iaddrbook-openentry.md)。 
     
  _pAddrBook_
   
-> 实时用于打开条目标识符的通讯簿。 它不能为 NULL。
+> [in]用于打开条目标识符的通讯簿。 它不能为 NULL。
     
  _lpulUIParam_
   
-> 排除对话框的父窗口的句柄。
+> [out]对话框的父窗口的句柄。
     
  _lpfnDismiss_
   
-> 实时指向基于**DISMISSMODELESS**原型的函数的指针或 NULL。 此成员仅适用于对话框的无模式版本, 正如设置的 DIALOG_SDI 标志所指示的那样。 MAPI 在用户消除无模式地址对话框时调用**DISMISSMODELESS**函数, 告知客户端正在调用对话框中不再处于活动状态的详细信息。 
+> [in]指向基于 **DISMISSMODELESS** 原型的函数的指针，或 NULL。 此成员仅适用于对话框的无模式版本，如要设置的 DIALOG_SDI 指示。 MAPI 在用户关闭无模式地址对话框时调用 **DISMISSMODELESS** 函数，并通知调用 Details 的客户端该对话框不再处于活动状态。 
     
  _lpvDismissContext_
   
-> 实时指向传递给_lpfnDismiss_参数指向的**DISMISSMODELESS**函数的上下文信息的指针。 此参数仅适用于对话框的无模式版本, 方法是在_ulFlags_参数中包含**DIALOG_SDI**标志。 
+> [in]指向要传递给 _lpfnDismiss_ 参数指向的 **DISMISSMODELESS** 函数的上下文信息的指针。 此参数仅在 _ulFlags_ 参数中包括 **DIALOG_SDI** 标志来应用于对话框的无模式版本。 
     
  _cbEntryID_
   
-> 实时由_lpEntryID_参数指定的条目标识符的字节数。 
+> [in]  _lpEntryID_ 参数指定的条目标识符的字节计数。 
     
  _lpEntryID_
   
-> 实时指向表示要打开的通讯簿条目的条目标识符的指针。
+> [in]指向表示要打开的通讯簿条目的条目标识符的指针。
     
  _lpfButtonCallback_
   
-> 实时指向基于**LPFNBUTTON**函数原型的函数的指针。 **LPFNBUTTON**函数将按钮添加到 "详细信息" 对话框中。 
+> [in]指向基于 **LPFNBUTTON** 函数原型的函数的指针。 **LPFNBUTTON** 函数将按钮添加到详细信息对话框中。 
     
  _lpvButtonContext_
   
-> 实时指向用作_lpfButtonCallback_参数所指定函数的参数的数据的指针。 
+> [in]指向用作  _lpfButtonCallback_ 参数所指定函数的参数的数据的指针。 
     
  _lpszButtonText_
   
-> 实时指向一个字符串的指针, 该字符串包含要应用于已添加按钮的文本 (如果该按钮是可扩展的)。 当不需要可扩展按钮时, _lpszButtonText_参数应为 NULL。 
+> [in]指向包含要应用于所添加按钮的文本的字符串的指针（如果该按钮是可扩展的）。 当  _不需要可扩展按钮时，lpszButtonText_ 参数应为 NULL。 
     
  _ulFlags_
   
-> 实时用于控制_lpszButtonText_参数文本类型的标志的位掩码。 可以设置以下标志: 
+> [in]控制  _lpszButtonText_ 参数的文本类型的标志位掩码。 可以设置以下标志： 
     
 AB_TELL_DETAILS_CHANGE
   
-> 指示如果实际对地址进行了更改, 则详细信息返回 TRUE; 否则返回 false。否则, 详细信息将返回 FALSE。
+> 指示如果实际对地址进行了更改，Details 将返回 TRUE;否则，Details 将返回 FALSE。
     
 DIALOG_MODAL
   
-> 显示 "常用地址" 对话框的模式版本。 此标志与 DIALOG_SDI 互斥。
+> 显示常用地址对话框的模式版本。 此标志与 DIALOG_SDI。
     
 DIALOG_SDI
   
-> 显示 "常用地址" 对话框的无模式版本。 此标志与 DIALOG_MODAL 互斥。
+> 显示公用地址对话框的无模式版本。 此标志与 DIALOG_MODAL。
     
 MAPI_UNICODE
   
-> 传入的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 传入字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
 

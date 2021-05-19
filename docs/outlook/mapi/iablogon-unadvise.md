@@ -25,7 +25,7 @@ ms.locfileid: "33424075"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-取消以前通过调用[IABLogon:: Advise](iablogon-advise.md)方法设置的通知。 
+取消之前通过调用 [IABLogon：：Advise](iablogon-advise.md) 方法设置的通知。 
   
 ```cpp
 HRESULT Unadvise(
@@ -37,7 +37,7 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> 实时与活动通知注册相关联的连接号码。 之前对 "**建议**" 的调用必须返回_ulConnection_的值。
+> [in]与活动通知注册关联的连接号。 之前对 **Advise** 的调用必须已返回  _ulConnection 的值_。
     
 ## <a name="return-value"></a>返回值
 
@@ -45,15 +45,15 @@ S_OK
   
 > 通知注册已成功取消。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-MAPI 调用**Unadvise**方法来取消对容器、邮件用户或通讯组列表对象的通知注册。 
+MAPI 调用 **Unadvise** 方法以取消容器、邮件传递用户或通讯组列表对象的通知注册。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-您的**Unadvise**实现将取决于您是否支持 MAPI 帮助或手动的通知。 如果 MAPI 提供支持, 请调用[IMAPISupport:: 退订](imapisupport-unsubscribe.md)方法取消注册。 如果另一个线程正在调用通知接收器的[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法, 则可以将其延迟到**OnNotify**返回为止。 
+非企业 **实现将取决于** 是支持使用 MAPI 的帮助通知，还是支持手动通知。 如果 MAPI 提供支持，请调用 [IMAPISupport：：Unsubscribe](imapisupport-unsubscribe.md) 方法来取消注册。 如果另一个线程正在调用通知接收器 [的 IMAPIAdviseSink：：OnNotify](imapiadvisesink-onnotify.md) 方法，则它会延迟到 **OnNotify** 返回。 
   
-有关通知过程的详细信息, 请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。 有关如何使用[IMAPISupport: IUnknown](imapisupportiunknown.md)方法支持通知的信息, 请参阅[支持事件通知](supporting-event-notification.md)。
+有关通知过程详细信息，请参阅 [MAPI 中的事件通知](event-notification-in-mapi.md)。 有关如何使用 [IMAPISupport ： IUnknown](imapisupportiunknown.md) 方法支持通知的信息，请参阅 [Supporting Event Notification](supporting-event-notification.md)。
   
 ## <a name="see-also"></a>另请参阅
 

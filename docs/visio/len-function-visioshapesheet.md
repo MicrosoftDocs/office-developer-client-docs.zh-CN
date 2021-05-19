@@ -22,7 +22,7 @@ ms.locfileid: "33427036"
   
 ## <a name="syntax"></a>语法
 
-LEN (* * *text* * *) 
+LEN (** *text* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -32,7 +32,7 @@ LEN (* * *text* * *)
    
 ### <a name="return-value"></a>返回值
 
-数值
+Numeric
   
 ## <a name="example"></a>示例
 

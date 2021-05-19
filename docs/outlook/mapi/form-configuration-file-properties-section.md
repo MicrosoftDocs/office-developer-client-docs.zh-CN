@@ -1,5 +1,5 @@
 ---
-title: 表单配置文件 [Properties] 部分
+title: 表单配置文件 [Properties] 节
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,45 +15,45 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421289"
 ---
-# <a name="form-configuration-file-properties-section"></a>表单配置文件 [Properties] 部分
+# <a name="form-configuration-file-properties-section"></a>表单配置文件 [Properties] 节
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-**[Properties]** 部分列出了表单使用和发布的完整属性集;即, 它在自定义邮件中创建的属性, MAPI 客户端应用程序可以在显示列、筛选内容表、设置搜索结果文件夹等时使用这些属性。 此属性列表中的每个条目都引用一个后续的 **[属性。** _string_**** "一节, 如下所示。 
+**[Properties]** 节列出了表单使用和发布的完整属性集;即，它在自定义邮件中创建的属性，MAPI 客户端应用程序可在显示列、筛选内容表、设置搜索结果文件夹等时使用这些属性。 此属性列表中的每个条目引用一个后续 **[Property。** _string_ **]** 部分，如下所示。 
   
- **属性**
+ **[Properties]**
   
- **财产.** _字符串_ =  _字符串_
+ **属性。** _string_  =  _string_
   
-[属性的格式 **。** _string_]部分为: 
+[ **属性的格式。** _string_]section 为： 
   
- **财产.** _string_**]**
+ **[属性。** _string_ **]**
   
- **类型** =  _integer_
+ **类型**  =  _integer_
   
- **NmidPropset** =  _guid_
+ **NmidPropset**  =  _guid_
   
- **NmidString** =  _字符串_
+ **NmidString**  =  _string_
   
- **NmidInteger** =  _整数_
+ **NmidInteger**  =  _integer_
   
- **DisplayName** =  _字符串_
+ **DisplayName**  =  _string_
   
- **Flags** =  _integer_
+ **Flags**  =  _integer_
   
- **SpecialType** = 0 | 1 
+ **SpecialType** = 0|1 
   
- **Enum1** =  _字符串_
+ **Enum1**  =  _string_
   
-每个 **[属性。** _string_**]** 部分介绍了单个属性。 **类型**条目指定了该属性的 MAPI 属性类型 (例如, 3 (PT_I4))。 **NmidPropset**条目是可选的;**NmidString**项或**NmidInteger**项一起使用时, **NmidPropset**项将提供属性的名称。 **NmidString**提供属性的名称, 而**NmidInteger**将提供属性的标识符。 **NmidString**和**NmidInteger**是相互排斥的。 
+每个 **[属性。** _string_ **]** 节描述单个属性。 **Type** 条目指定属性的 MAPI 属性类型， (PT_I4) 3 个属性类型。 **NmidPropset** 项是可选的;**NmidPropset** 条目与 **NmidString** 条目或 **NmidInteger** 条目一起提供属性的名称。 **NmidString** 提供属性的名称， **而 NmidInteger** 提供属性的标识符。 **NmidString** 和 **NmidInteger** 相互排斥。 
   
-如果设置, 则**NmidPropset**应包含属性集的名称;如果不存在, 则根据以下规则将**NmidPropset**设置为默认值: 如果存在**NmidInteger**且其值小于 0x8000, 则将**NmidPropset**设置为 PS_MAPI。 如果**NmidInteger**的值设置为大于0x8000 的整数, 或者如果不存在, 则**NmidPropset**设置为 PS_PUBLIC_STRINGS。 
+如果设置， **则 NmidPropset** 应包含属性集的名称;如果不存在，则根据以下规则将 **NmidPropset** 设置为默认值：如果存在 **NmidInteger** 且其值小于 0x8000，则 **NmidPropset** 设置为 PS_MAPI。 如果 **NmidInteger** 的值设置为大于 0x8000 的整数，或者如果不存在， **则 NmidPropset** 设置为 PS_PUBLIC_STRINGS。 
   
-**DisplayName**项包含属性的标签。 **SpecialType**条目 (如果存在) 和非零表示此属性是特殊属性。 目前, 唯一定义的特殊属性类型是**SpecialType** = 1, 它表示字符串枚举属性。 如果将**SpecialType**设置为 1, 则**Enum1**项将引用 **[Enum1。** _string_**]** 部分。 
+**DisplayName** 条目包含属性的标签。 **SpecialType** 项（如果存在）和非零值表示此属性是特殊属性。 目前，唯一定义的特殊属性类型是 **SpecialType** = 1，它指示字符串枚举属性。 如果 **SpecialType** 设置为 1，Enum1 条目将引用 **[Enum1。**  _string_ **]** section. 
   
-以下是 **[properties]** 节和 **[properties** ] 的示例。 _string_**]** 部分。 
+下面是 **[Properties] 部分** 和 **[Properties** 的示例。 _string_ **]** section. 
   
 ```cpp
 [Properties]
@@ -69,23 +69,23 @@ Enum1 = HazardEnum
 
 ```
 
-前面的示例中的**Enum1**条目引用了随后的 **[Enum1。** _string_**** "一节描述特定类型的枚举。 这样的枚举将关联 **[属性**中的第一个属性。 _string_**** 包含 integer 属性 (称为 index) 的节。 此类枚举还包含显示索引对可以假设的可能值的列表。 为枚举指定属性类型是不必要的, 因为根据定义, **Enum1**条目始终具有 PT_I4 类型。 **[Enum1.** _string_**]** 部分为: 
+前 **一示例引用的 Enum1** 条目引用后续 **[Enum1。** _string_ **]** 描述特定类型枚举的部分。 此类枚举将关联 [Property] 中的第一 **个属性。** _string_ **]** section with an integer property， called the index. 此类枚举还包含显示索引对可以假定的可能值的列表。 不必为枚举指定属性类型，因为根据定义 **，Enum1** 项始终具有PT_I4类型。 **[Enum1 的格式。** _string_ **]** section is： 
   
- **[Enum1。** _string_**]**
+ **[Enum1。** _string_ **]**
   
- **NmidPropset** =  _guid_
+ **NmidPropset**  =  _guid_
   
- **NmidString** =  _字符串_
+ **NmidString**  =  _string_
   
- **NmidInteger** =  _整数_
+ **NmidInteger**  =  _integer_
   
- **EnumCount** =  _整数_
+ **EnumCount**  =  _integer_
   
- **初始值.** _integer_**.显示** =  _字符串_
+ **Val.** _整数_ **。显示**  =   _字符串_
   
- **初始值.** _integer_**.索引** =  _integer_
+ **Val.** _整数_ **。索引**  =   _整数_
   
-以下是名为火灾危险的枚举属性的示例属性定义, 其可能值为低、中和高。
+下面是名为 Fire Hazard 的枚举属性的示例属性定义，其可能值为 Low、Medium 和 High。
   
 ```cpp
 [Properties]
@@ -103,6 +103,6 @@ Val.3.Index = 3
 
 ```
 
- **[Enum1。** _string_**]** 可由应用程序用于两个部分: 通过使用索引而不是字符串来加快对属性的筛选, 并按与字符串值的字母数字顺序不同的顺序进行排序。 例如, 可以根据低标准高订单 (而不是高中低订单) 执行排序。 
+ **[Enum1。** _string_ **]** sections can be used by applications for two purposes： to speed up the filtering of properties by using the index instead of the string and to sort by a different order than the alphanumeric order of the string values. 例如，可以基于低-中-高顺序而不是基于高-中-低顺序进行排序。 
   
 
