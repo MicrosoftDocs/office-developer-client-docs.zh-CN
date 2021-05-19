@@ -8,7 +8,7 @@ f1_keywords:
 - TempActiveColumn
 - TempActiveColumn12
 keywords:
-- tempactivecolumn12 函数 [excel 2007], TempActiveColumn 函数 [excel 2007]
+- tempactivecolumn12 函数 [excel 2007]，TempActiveColumn 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -23,7 +23,7 @@ ms.locfileid: "33417873"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-框架库函数, 用于创建一个临时的**XLOPER**/ **XLOPER12** , 其中包含对活动工作表上的整个列的外部引用。 
+创建临时 **XLOPER XLOPER12** 的框架库函数，其中包含对活动工作表上整个 /  列的外部引用。 
   
 ```cs
 LPXLOPER TempActiveColumn(BYTE col);
@@ -32,17 +32,17 @@ LPXLOPER12 TempActiveColumn12(COL col);
 
 ## <a name="parameters"></a>参数
 
- _col_(**字节**)
+ _col_ (**BYTE**) 
   
-要引用的列。 这是从零开始的, 以便将列 A 作为0传递。 在 Microsoft Office Excel 2003 及更早版本中, 在兼容模式下运行工作簿的 excel 2007 中, 最大值为 255 = 2 ^ 8-1, 是字节整数可以采用的最大值。 从运行工作簿的 Excel 2007 开始, 最大值为 16383 = 2 ^ 14-1。 COL 在 xlcall.h 中定义为32位有符号整数。水平.
+要引用的列。 这是从零开始，以便列 A 作为 0 传递。 在 Microsoft Office Excel 2003 及更早版本中，从在兼容模式下运行工作簿的 Excel 2007 开始，最大值为 255 = 2^8 - 1，它是 BYTE 整数可以取的最大值。 从 2007 Excel工作簿开始，最大值为 16，383 = 2^14 - 1。 COL 在 XLCALL.H 中定义为 32 位有符号整数。
   
 ## <a name="return-value"></a>返回值
 
-返回对传入的列的**xltypeRef**外部引用。 
+返回对传入的列的 **xltypeRef** 外部引用。 
   
 ## <a name="example"></a>示例
 
-下面的示例使用**TempActiveColumn12**选择整个列 B。 
+以下示例使用 **TempActiveColumn12** 选择整列 B。 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

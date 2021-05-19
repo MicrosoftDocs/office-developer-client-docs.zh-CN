@@ -25,41 +25,41 @@ ms.locfileid: "32335068"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定与个人通讯组列表的成员相对应的对象的 entryid 列表。
+指定与个人通讯组列表的成员对应的对象的 EntryIds 列表。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidDLMembers  <br/> |
-|属性集:  <br/> |PSETID_Address  <br/> |
-|长 ID (盖子):  <br/> |0x00008055  <br/> |
+|属性集：  <br/> |PSETID_Address  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008055  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
-|区域：  <br/> |Contact  <br/> |
+|区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-个人通讯组列表的成员可以是其他个人通讯组列表、联系人中包含的电子地址、全局地址列表用户或通讯组列表或一次性电子邮件地址。 每个 EntryId 的格式必须是一个一次性的 entryid, 在[[OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)或已包装的 entryid 中指定。 
+个人通讯组列表的成员可以是其他个人通讯组列表、联系人中包含的电子地址、全局地址列表用户或通讯组列表，或者是一次电子邮件地址。 每个 EntryId 的格式必须是 [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) 中指定的一次 EntryId 或包装的 EntryId。 
   
-设置此属性时, 客户端或服务器必须确保其总大小小于15000字节。
+设置此属性时，客户端或服务器必须确保其总大小小于 15，000 字节。
   
-此属性指定与个人通讯组列表的成员相对应的一次性 entryid 的列表。 这些一次性 entryid 封装个人通讯组列表成员的显示名称和电子邮件地址。
+此属性指定与个人通讯组列表的成员对应的一次 EntryId 的列表。 这些一对一 EntryIds 封装个人通讯组列表成员的显示名称和电子邮件地址。
   
-如果客户端或服务器设置此属性, 则必须将其与**dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)) 属性中的每个条目的**dispidDLMembers**属性同步。在**dispidDLOneOffMembers**中的位置相同。
+如果客户端或服务器设置此属性，则它必须与 **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)) 属性中每个条目的此属性 **dispidDLMembers** 同步 **，dispidDLOneOffMembers** 中必须在同一位置有一个条目。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定允许用于联系人和个人通讯组列表的属性和操作。
+> 指定联系人和个人通讯组列表允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

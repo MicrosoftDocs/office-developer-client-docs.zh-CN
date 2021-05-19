@@ -25,13 +25,13 @@ ms.locfileid: "33416053"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-从属性接口检索单个属性的值, 即从[IMAPIProp](imapipropiunknown.md)派生的接口。 
+从属性接口（即派生自 [IMAPIProp](imapipropiunknown.md)的接口）检索单个属性的值。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 HrGetOneProp(
@@ -45,15 +45,15 @@ HrGetOneProp(
 
  _pmp_
   
-> 实时指向要从中检索属性值的[IMAPIProp](imapipropiunknown.md)接口的指针。 
+> [in]指向要检索属性值的 [IMAPIProp](imapipropiunknown.md) 接口的指针。 
     
  _ulPropTag_
   
-> 实时要检索的属性的属性标记。 
+> [in]要检索的属性的属性标记。 
     
  _ppprop_
   
-> 排除指向用于定义检索到的属性值的返回的[SPropValue](spropvalue.md)结构的指针的指针。 
+> [out]指向定义检索到的属性值的 [返回 SPropValue](spropvalue.md) 结构的指针的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -61,11 +61,11 @@ MAPI_E_NOT_FOUND
   
 > 请求的属性在指定的接口中不可用。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-与[IMAPIProp:: GetProps](imapiprop-getprops.md)方法不同, **HrGetOneProp**函数永远不会返回任何警告。 由于它只检索一个属性, 它只是成功或失败。 若要检索多个属性, **GetProps**速度更快。 
+与 [IMAPIProp：：GetProps](imapiprop-getprops.md) 方法不同 **，HrGetOneProp** 函数从不返回任何警告。 因为它只检索一个属性，所以它要么成功要么失败。 对于检索多个属性 **，GetProps** 速度更快。 
   
-您可以使用[HrSetOneProp](hrsetoneprop.md)函数设置或更改单个属性。 
+可以使用 [HrSetOneProp](hrsetoneprop.md) 函数设置或更改单个属性。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -73,7 +73,7 @@ MAPI_E_NOT_FOUND
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFunctions  <br/> |GetMAPIObjectType  <br/> |MFCMAPI 使用**HrGetOneProp**方法来检索对象的类型。  <br/> |
+|MAPIFunctions.cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI 使用 **HrGetOneProp** 方法检索对象的类型。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

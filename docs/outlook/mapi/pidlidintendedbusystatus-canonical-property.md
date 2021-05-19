@@ -25,35 +25,35 @@ ms.locfileid: "32332968"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定在发送会议请求或会议更新时, 在组织者的日历中的会议上的**dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) 属性的值。
+发送会议请求或会议更新时 (组织者日历中会议上的 **dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) 属性的值。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidIntendedBusyStatus  <br/> |
-|属性集:  <br/> |PSETID_Appointment  <br/> |
-|长 ID (盖子):  <br/> |0x00008224  <br/> |
+|属性集：  <br/> |PSETID_Appointment  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008224  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性的允许值与属性**dispidBusyStatus**的允许值相同。
+此属性的允许值与属性 **dispidBusyStatus** 的允许值相同。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

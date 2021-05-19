@@ -1,5 +1,5 @@
 ---
-title: 运算符 (Access 自定义 web 应用程序)
+title: '运算符 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417062"
 ---
-# <a name="operators-access-custom-web-app"></a>运算符 (Access 自定义 web 应用程序)
+# <a name="operators-access-custom-web-app"></a>运算符 (Access 自定义 Web 应用) 
 
 > [!IMPORTANT]
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="in-this-section"></a>本节内容
 
-- [算术运算符 (Access 自定义 web 应用)](arithmetic-operators-access-custom-web-app.md)
+- [算术运算符 (Access 自定义 Web 应用) ](arithmetic-operators-access-custom-web-app.md)
     
-- [比较运算符 (Access 自定义 web 应用)](comparison-operators-access-custom-web-app.md)
+- [比较运算符 (Access 自定义 Web 应用) ](comparison-operators-access-custom-web-app.md)
     
-- [逻辑运算符 (Access 自定义 web 应用程序)](logical-operators-access-custom-web-app.md)
+- [逻辑运算符 (Access 自定义 Web 应用) ](logical-operators-access-custom-web-app.md)
     
-- [字符串运算符 (Access 自定义 web 应用程序)](string-operators-access-custom-web-app.md)
+- [字符串运算符 (Access 自定义 Web 应用) ](string-operators-access-custom-web-app.md)
     
 

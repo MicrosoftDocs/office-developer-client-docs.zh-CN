@@ -21,44 +21,44 @@ ms.locfileid: "32334697"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含仅在查找 IPM 时在 Microsoft Outlook 中使用的对话密钥 **。MessageManager**邮件, 如包含邮局协议 (POP3) 帐户的下载历史记录的邮件。 在 Microsoft Exchange Server 中, 此属性已被弃用。 
+包含仅在找到 IPM 时在 Microsoft Outlook中使用的对话 **密钥。MessageManager** 邮件，例如包含 POST Office Protocol (POP3) 历史记录的邮件。 此属性在 Microsoft Exchange Server 中已Microsoft Exchange Server。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONVERSATION_KEY  <br/> |
 |标识符:  <br/> |0x000B  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-将电子邮件作为对话访问并将邮件属性转换为[非特定于传输的封装格式 (TNEF)](transport-neutral-encapsulation-format-tnef.md)时, 不要使用此属性;相反, 请使用[PidTagConversationIndex](pidtagconversationindex-canonical-property.md)和[PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)规范属性。 
+当作为对话访问电子邮件并将邮件属性转换为传输中性封装格式 [ (TNEF ](transport-neutral-encapsulation-format-tnef.md)) 时，请勿使用此属性;请改为使用 [PidTagConversationIndex](pidtagconversationindex-canonical-property.md) 和 [PidTagConversationTopic](pidtagconversationtopic-canonical-property.md) 规范属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Microsoft Exchange Server 协议规范的引用。
+> 提供对相关协议Microsoft Exchange Server的引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定在电子邮件对象上允许的属性和操作。
+> 指定允许对电子邮件对象执行的属性和操作。
     
-[[毫秒-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> 将邮件和附件对象编码并解码为高效流表示形式。
+> 将邮件和附件对象编码和解码为有效的流表示形式。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

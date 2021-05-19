@@ -17,15 +17,15 @@ ms.locfileid: "32339289"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-若要实现脱机状态外接程序, 必须实现连接、初始化和其他安装函数。 在本主题中, 通过使用示例脱机状态外接程序中的代码示例来演示这些连接、初始化和安装函数。 示例脱机状态加载项是一个 COM 加载项，它会将**脱机状态**菜单添加到 Outlook 并使用脱机状态 API。 通过**脱机状态**菜单, 您可以启用或禁用状态监视、检查当前状态以及更改当前状态。 有关下载和安装示例脱机状态加载项的详细信息，请参阅[安装示例脱机状态加载项](installing-the-sample-offline-state-add-in.md)。 有关脱机状态 API 的详细信息，请参阅[关于脱机状态 API](about-the-offline-state-api.md)。
+若要实现脱机状态加载项，必须实现连接、初始化和其他设置功能。 在本主题中，通过使用示例脱机状态加载项中的代码示例演示了这些连接、初始化和设置函数。 示例脱机状态加载项是一个 COM 加载项，它会将 **脱机状态** 菜单添加到 Outlook 并使用脱机状态 API。 通过 **"脱机状态"** 菜单，可以启用或禁用状态监视、检查当前状态以及更改当前状态。 有关下载和安装示例脱机状态加载项的详细信息，请参阅[安装示例脱机状态加载项](installing-the-sample-offline-state-add-in.md)。 有关脱机状态 API 的详细信息，请参阅[关于脱机状态 API](about-the-offline-state-api.md)。
   
-设置脱机状态外接程序后, 必须实现用于监视和修改连接状态更改的函数。 有关详细信息, 请参阅[使用脱机状态加载项监视连接状态更改](monitoring-connection-state-changes-using-an-offline-state-add-in.md)。
+在设置脱机状态加载项后，必须实现用于监视和修改连接状态更改的功能。 有关详细信息，请参阅使用脱机 [状态加载项监视连接状态更改](monitoring-connection-state-changes-using-an-offline-state-add-in.md)。
   
-## <a name="on-connection-routine"></a>在连接例程上
+## <a name="on-connection-routine"></a>On Connection 例程
 
-每次加载外接程序时, 都会调用**[OnConnection 方法 IDTExtensibility2](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** 。 它是外接程序的入口点, 因此在启动外接程序时将调用`OnConnection`您在函数中放置的代码。 在下面的示例中, `OnConnection`函数调用`HrInitAddin`函数。 
+每次加载外接程序时都会调用 **[IDTExtensibility2.OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** 方法。 它是外接程序的入口点，因此在外接程序启动时将调用您放入函数  `OnConnection` 中的代码。 在下面的示例中，  `OnConnection` 函数调用  `HrInitAddin` 函数。 
   
-### <a name="cmyaddinonconnection-example"></a>CMyAddin:: OnConnection () 示例
+### <a name="cmyaddinonconnection-example"></a>CMyAddin：：OnConnection () 示例
 
 ```cpp
 STDMETHODIMP CMyAddin::OnConnection( 
@@ -46,9 +46,9 @@ STDMETHODIMP CMyAddin::OnConnection(
 
 ## <a name="initialize-add-in-routine"></a>初始化加载项例程
 
-`HrInitAddin`函数`LoadLibraries`调用、 `HrCacheProfileName`和`HrAddMenuItems`函数来完成脱机状态加载项设置。 
+`HrInitAddin`函数调用 `LoadLibraries` 、 `HrCacheProfileName` 和 `HrAddMenuItems` 函数以完成脱机状态加载项的设置。 
   
-### <a name="cmyaddinhrinitaddin-example"></a>CMyAddin:: HrInitAddin () 示例
+### <a name="cmyaddinhrinitaddin-example"></a>CMyAddin：：HrInitAddin () 示例
 
 ```cpp
 HRESULT CMyAddin::HrInitAddin() 
@@ -63,9 +63,9 @@ HRESULT CMyAddin::HrInitAddin()
 }
 ```
 
-## <a name="load-libraries-routine"></a>加载库例程
+## <a name="load-libraries-routine"></a>Load Libraries 例程
 
-`LoadLibraries`函数将加载外接程序所需的动态链接库 (DLL) 文件。 
+`LoadLibraries`函数加载动态链接库 (DLL) 加载项所需的文件。 
   
 ### <a name="loadlibraries-example"></a>LoadLibraries () 示例
 
@@ -168,9 +168,9 @@ void LoadLibraries()
 
 ## <a name="cache-profile-name-routine"></a>缓存配置文件名称例程
 
-`HrCacheProfileName`函数调用**[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** 函数打开当前会话的 "配置文件" 部分, 然后设置按钮处理程序的配置文件。 
+函数  `HrCacheProfileName` 调用 **[IMAPISupport：：OpenProfileSection](imapisupport-openprofilesection.md)** 函数以打开当前会话的配置文件部分，然后设置按钮处理程序的配置文件。 
   
-### <a name="cmyaddinhrcacheprofilename-example"></a>CMyAddin:: HrCacheProfileName () 示例
+### <a name="cmyaddinhrcacheprofilename-example"></a>CMyAddin：：HrCacheProfileName () 示例
 
 ```cpp
 HRESULT CMyAddin::HrCacheProfileName() 
@@ -212,11 +212,11 @@ HRESULT CMyAddin::HrCacheProfileName()
 }
 ```
 
-## <a name="add-menu-items-routine"></a>"添加菜单项" 例程
+## <a name="add-menu-items-routine"></a>添加菜单项例程
 
-函数定义在 "**脱机状态**" 菜单下显示的菜单选项, 该加载项在 Outlook 中加载时创建, 然后是对每个菜单项的调用`DispEventAdvise` `HrAddMenuItems` 
+函数定义在外接程序加载到 Outlook 时创建的"脱机状态"菜单下出现的菜单选项，然后调用 `HrAddMenuItems`  `DispEventAdvise` 每个菜单项。 
   
-### <a name="cmyaddinhraddmenuitems-example"></a>CMyAddin:: HrAddMenuItems () 示例
+### <a name="cmyaddinhraddmenuitems-example"></a>CMyAddin：：HrAddMenuItems () 示例
 
 ```cpp
 HRESULT CMyAddin::HrAddMenuItems() 
@@ -293,5 +293,5 @@ HRESULT CMyAddin::HrAddMenuItems()
 - [安装示例脱机状态加载项](installing-the-sample-offline-state-add-in.md)
 - [关于示例脱机状态加载项](about-the-sample-offline-state-add-in.md)
 - [使用脱机状态加载项监视连接状态更改](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-- [断开与脱机状态外接程序的连接](disconnecting-an-offline-state-add-in.md)
+- [断开脱机状态加载项](disconnecting-an-offline-state-add-in.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "33416382"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将 PT_OBJECT 类型的一个或多个属性添加到对象中。
+向对象添加一个或多个PT_OBJECT类型的属性。
   
 ```cpp
 HRESULT HrAddObjProps(
@@ -38,21 +38,21 @@ HRESULT HrAddObjProps(
 
  _lpPropTagArray_
   
-> 实时指向指示要添加的属性的属性标记数组的指针。
+> [in]指向指示要添加的属性的属性标记数组的指针。
     
  _lppProblems_
   
-> [in, out]在输入时, 指向[SPropProblemArray](spropproblemarray.md)结构的有效指针或 NULL。 在输出时, 指向指向结构的指针的指针, 该结构包含有关无法添加的属性的信息, 或为 NULL。 仅当传入有效指针时, 才会返回指向属性问题数组结构的指针。 
+> [in， out]在输入时，指向 [SPropProblemArray](spropproblemarray.md) 结构或 NULL 的有效指针。 在输出时，指向包含有关无法添加的属性的信息的结构的指针的指针或 NULL。 只有当传入了有效的指针时，才返回一个指向属性问题数组结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功添加了属性。
+> 已成功添加属性。
     
 MAPI_E_INVALID_TYPE 
   
-> 在_lpPropTagArray_参数指向的数组中传递了除 PT_OBJECT 之外的属性类型。 
+> 在  _lpPropTagArray_ 参数PT_OBJECT的数组中传递了除 PT_OBJECT 属性类型的属性。 
     
 MAPI_E_NO_ACCESS 
   
@@ -60,17 +60,17 @@ MAPI_E_NO_ACCESS
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> 添加了一些属性, 但并非全部。
+> 已添加某些（而不是全部）属性。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IPropData:: HrAddObjProps**方法将类型为 PT_OBJECT 的一个或多个属性添加到对象中。 **HrAddObjProps**为 object 属性提供了[IMAPIProp:: SetProps](imapiprop-setprops.md)方法的替代方法, 因为不能通过调用**SetProps**来创建对象属性。 添加对象属性将导致属性标记包含在[IMAPIProp:: GetPropList](imapiprop-getproplist.md)方法返回的属性标记列表中。 
+**IPropData：：HrAddObjProps** 方法向对象添加一个或多个类型PT_OBJECT属性。 **HrAddObjProps** 为对象属性提供了 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法的替代方法，因为无法通过调用 **SetProps 创建对象属性**。 添加对象属性会导致属性标记包含在 [IMAPIProp：：GetPropList](imapiprop-getproplist.md) 方法返回的属性标记列表中。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-如果**HrAddObjProps**返回 MAPI_W_PARTIAL_COMPLETION, 并且您已将_lppProblems_设置为有效指针, 请检查返回的[SPropProblemArray](spropproblemarray.md)结构以找出未添加的属性。 通常情况下, 仅存在内存不足的问题。 完成**SPropProblemArray**结构后, 通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数来释放该结构。 
+如果 **HrAddObjProps** 返回 MAPI_W_PARTIAL_COMPLETION并且你已将  _lppProblems_ 设置为一个有效的指针，请检查返回的 [SPropProblemArray](spropproblemarray.md) 结构以找出未添加的属性。 通常，唯一发生的问题是缺少内存。 完成 **SPropProblemArray** 结构后，通过调用 [MAPIFreeBuffer](mapifreebuffer.md) 函数释放它。 
   
-若要添加属性, 目标对象必须具有读/写权限。 如果**HrAddObjProps**返回 MAPI_E_NO_ACCESS, 则不能向该对象添加属性, 因为它不允许进行修改。 若要在调用**HrAddObjProps**之前获取对象的读/写权限, 请调用[IPropData:: HrSetObjAccess](ipropdata-hrsetobjaccess.md)并将_ulAccess_参数设置为 IPROP_READWRITE。 
+若要添加属性，目标对象必须具有读/写权限。 如果 **HrAddObjProps** MAPI_E_NO_ACCESS，则不能向对象添加属性，因为它不允许修改。 若要在调用 **HrAddObjProps** 之前获取对象的读/写权限，请调用 [IPropData：：HrSetObjAccess，](ipropdata-hrsetobjaccess.md) 将  _ulAccess_ 参数设置为 IPROP_READWRITE。 
   
 ## <a name="see-also"></a>另请参阅
 

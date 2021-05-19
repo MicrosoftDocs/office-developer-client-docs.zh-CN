@@ -1,5 +1,5 @@
 ---
-title: 下载 Outlook MAPI 示例
+title: 下载Outlook MAPI 示例
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32338358"
 ---
-# <a name="downloading-the-outlook-mapi-samples"></a>下载 Outlook MAPI 示例
+# <a name="downloading-the-outlook-mapi-samples"></a>下载Outlook MAPI 示例
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-Microsoft Outlook MAPI 示例包括一个通讯簿提供程序、一个邮件存储提供程序和一个传输提供程序。
+Microsoft Outlook MAPI 示例包括通讯簿提供程序、邮件存储提供程序和传输提供程序。
   
  **下载示例通讯簿提供程序**
   
-1. 若要下载 outlook MAPI 示例, 请单击 " [outlook 消息处理 API (MAPI) 代码示例](https://ol2010mapisamples.codeplex.com/)" 页上的 "**主页**" 选项卡。 
+1. 若要下载 MAPI Outlook，请单击 MAPI代码示例Outlook[消息 API (") "主页](https://ol2010mapisamples.codeplex.com/)"选项卡。 
     
-2. 在 "**主页**" 选项卡上, 单击 "**单击此处下载 Outlook 2010 MAPI 示例的源代码"**。
+2. 在"**主页"** 选项卡上，单击 **"单击此处下载 Outlook 2010 MAPI 示例"的源**。
     
-3. 阅读许可协议, 如果您同意, 请单击 "**我同意**"。
+3. 阅读许可协议，如果同意，请单击"**我同意"。**
     
-4. 在 "**文件下载**" 对话框中, 单击 "**保存**"。 在 "**另存为**" 对话框中, 找到要在其中保存源文件的文件夹, 然后单击 "**保存**"。
+4. 在"**文件下载"** 对话框中，单击"保存 **"。** 在"**另存为**"对话框中，找到要保存源文件的文件夹，然后单击"保存 **"。**
     
-5. 在 "**下载完成**" 对话框中, 单击 "**关闭**" 以关闭对话框。 
+5. 在" **下载完成** "对话框中，单击 **"关闭** "关闭对话框。 
     
 ## <a name="see-also"></a>另请参阅
 

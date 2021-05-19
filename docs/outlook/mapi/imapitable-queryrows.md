@@ -25,7 +25,7 @@ ms.locfileid: "33416291"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-从当前游标位置开始, 返回表中的一个或多个行。
+从表中的一行或多行，从当前光标位置开始。
   
 ```cpp
 HRESULT QueryRows(
@@ -39,19 +39,19 @@ LPSRowSet FAR * lppRows
 
  _lRowCount_
   
-> 实时要返回的最大行数。
+> [in]要返回的最大行数。
     
  _ulFlags_
   
-> 实时控制如何返回行的标志的位掩码。 可以设置以下标志:
+> [in]控制行返回方法的标志的位掩码。 可以设置以下标志：
     
 TBL_NOADVANCE 
   
-> 防止因行检索而导致光标不前移。 如果设置了 TBL_NOADVANCE 标志, 则游标指向返回的第一行。 如果未设置 TBL_NOADVANCE 标志, 则游标指向返回的最后一行后面的行。
+> 防止游标由于行检索而前进。 如果TBL_NOADVANCE，光标指向返回的第一行。 如果未TBL_NOADVANCE，则光标指向返回的最后一行后行。
     
  _lppRows_
   
-> 排除指向包含表行的[SRowSet](srowset.md)结构的指针的指针。 
+> [out]指向指向保留表格 [行的 SRowSet](srowset.md) 结构的指针的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -61,55 +61,55 @@ S_OK
     
 MAPI_E_BUSY 
   
-> 正在进行另一个操作, 以阻止行检索操作启动。 应允许正在进行的操作完成, 或者应已停止。
+> 正在进行另一个操作，以防止行检索操作启动。 应允许完成或停止进行中的操作。
     
 MAPI_E_INVALID_PARAMETER 
   
-> 将_IRowCount_参数设置为零。 
+> _IRowCount_ 参数设置为零。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPITable:: QueryRows**方法从表中获取一个或多个数据行。 _IRowCount_参数的值影响检索的起始点。 如果_IRowCount_为正数, 则从当前位置开始沿正向方向读取行。 如果_IRowCount_为负值, **QueryRows**将通过向后移动指定的行数来重置起始点。 重置游标后, 将按正向顺序读取行。 
+**IMAPITable：：QueryRows** 方法从表中获取一行或多行数据。 _IRowCount_ 参数的值会影响检索的起始点。 如果  _IRowCount_ 为正数，则从当前位置开始以向前方向读取行。 如果  _IRowCount_ 为负数 **，QueryRows** 会通过向后移动指示的行数来重置起始点。 重置游标后，将按向前顺序读取行。 
   
-由_lppRows_参数指向的[SRowSet](srowset.md)结构中的**cRows**成员指示返回的行数。 如果返回零行: 
+**lppRows** 参数指向 [的 SRowSet](srowset.md)结构中 _cRows_ 成员指示返回的行数。 如果返回零行： 
   
-- 游标已经定位在表的开头, _IRowCount_的值为负值。 和 
+- 光标已位于表的开头，  _并且 IRowCount_ 的值为负数。 -Or- 
     
-- 游标已经定位在表的末尾, _IRowCount_的值是正数。 
+- 光标已位于表的末尾，  _并且 IRowCount_ 的值为正。 
     
-列数及其排序对于每一行都是相同的。 如果某一行的属性不存在, 或者在读取属性时出现错误, 则该行中的该属性的**SPropValue**结构包含以下值: 
+每行的列数及其排序相同。 如果行不存在属性或读取属性时出错，该行中属性的 **SPropValue** 结构将包含下列值： 
   
-- **ulPropTag**成员中的属性类型的 PT_ERROR。 
+- PT_ERROR **ulPropTag** 成员中的属性类型。 
     
-- MAPI_E_NOT_FOUND 为**Value**成员。 
+- MAPI_E_NOT_FOUND Value **成员** 。 
     
-为_lppRows_参数所指向的行集中的[SPropValue](spropvalue.md)结构使用的内存必须为每个行单独分配和释放。 使用[MAPIFreeBuffer](mapifreebuffer.md)释放属性值结构并释放行集。 但是, 当对**QueryRows**的调用返回0时, 指示表的开头或结尾, 只有**SRowSet**结构本身需要释放。 有关如何在**SRowSet**结构中分配和释放内存的详细信息, 请参阅[管理内存中的 ADRLIST 和 SRowSet 结构](managing-memory-for-adrlist-and-srowset-structures.md)。
+_lppRows_ 参数指向的行集内用于 [SPropValue](spropvalue.md)结构的内存必须单独分配，并针对每一行释放。 使用 [MAPIFreeBuffer](mapifreebuffer.md) 释放属性值结构并释放行集。 但是，当 **对 QueryRows** 的调用返回零时，指示表的开头或结尾，则仅 **需要释放 SRowSet** 结构本身。 若要详细了解如何在 **SRowSet** 结构中分配和释放内存，请参阅 [管理 ADRLIST 和 SRowSet 结构的内存](managing-memory-for-adrlist-and-srowset-structures.md)。
   
-返回的行以及返回的顺序取决于是否对[IMAPITable:: Restrict](imapitable-restrict.md)和[imapitable:: SortTable](imapitable-sorttable.md)进行了成功的调用。 **限制**筛选视图中的行, 从而导致**QueryRows**仅返回与限制中指定的条件匹配的行。 **SortTable**建立标准的或已分类的排序顺序, 从而影响**QueryRows**返回的行序列。 返回的行的顺序与传递给**SortTable**的[SSortOrderSet](ssortorderset.md)结构中指定的顺序相同。
+返回的行及其返回顺序取决于是否已成功调用 [IMAPITable：：Restrict](imapitable-restrict.md) 和 [IMAPITable：：SortTable](imapitable-sorttable.md)。 **限制** 视图中的筛选行，从而导致 **QueryRows** 仅返回与限制中指定的条件匹配的行。 **SortTable** 建立标准或分类的排序顺序，影响 **QueryRows** 返回的行的顺序。 返回的行按照传递给 SortTable [的 SSortOrderSet](ssortorderset.md) 结构中 **指定的顺序排列**。
   
-为每个行返回的列及其返回的顺序取决于是否对[IMAPITable:: SetColumns](imapitable-setcolumns.md)成功进行了调用。 **SetColumns**建立列集, 指定要包含在表的列中的属性以及应包含的顺序。 如果进行了**SetColumns**调用, 则每行中的特定列和这些列的顺序与调用中指定的列集相匹配。 如果未进行任何**SetColumns**调用, 则该表将返回其默认列集。 
+每行返回的列及其返回顺序取决于是否已对 [IMAPITable：：SetColumns](imapitable-setcolumns.md)成功调用。 **SetColumns** 建立一个列集，指定要包含在表中的列中的属性以及这些属性的包含顺序。 如果 **已进行 SetColumns** 调用，则每行中的特定列以及这些列的顺序与调用中指定的列集匹配。 如果未进行 **SetColumns** 调用，则表将返回其默认列集。 
   
-如果未进行这些调用, 则**QueryRows**将返回表中的所有行。 每行都包含默认的默认列集。 
+如果未进行这些调用 **，QueryRows** 将返回表中的所有行。 每行包含默认顺序的默认列集。 
   
-当在对[IMAPITable:: SetColumns](imapitable-setcolumns.md)的调用中建立的列集包含设置为 PR_NULL 的列时, _lppRows_中返回的行集内的[SPropValue](spropvalue.md)数组将包含空槽。 
+当 [在 IMAPITable：：SetColumns](imapitable-setcolumns.md)的调用中建立的列集包含设置为 PR_NULL 的列时 _，lppRows_ 中返回的行集内的 [SPropValue](spropvalue.md)数组将包含空插槽。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-您可以允许呼叫者请求在列集中包含不受支持的列。 发生这种情况时, 请将 PT_ERROR 置于属性标记的属性类型部分, 并在属性值中为不受支持的列键入 MAPI_E_NOT_FOUND。 
+您可以允许调用方请求将不受支持列包含在列集内。 当发生这种情况时，PT_ERROR属性标记的属性类型部分，MAPI_E_NOT_FOUND不受支持的列的属性值中。 
   
-将行数视为请求而不是要求。 如果在查询的方向上没有行, 则可以从零行返回到请求的数量。 
+将行计数视为请求而不是要求。 如果查询方向没有行，可以从零行到请求的行数返回任意位置。 
   
-仅返回在分类表视图中请求行时用户将看到的行, 从而允许调用方对数据范围做出有效假设并避免额外的工作。 
+仅返回在从分类表视图中请求行时用户将看到的行，从而允许调用方对数据范围做出有效的假设，并避免额外工作。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-通常情况下, 您最终会拥有在_lRowCount_参数中指定的多个行。 但是, 当内存或实现限制出现问题, 或者操作在提前到达表的开头或结尾时, **QueryRows**将返回的行数少于请求的行数。 
+通常，您最终将具有在  _lRowCount_ 参数中指定的行数。 但是，当内存或实现限制成为问题时，或者当操作提前到达表的开头或结尾时 **，QueryRows** 返回的行数将少于请求的行数。 
   
-如果**QueryRows**返回 MAPI_E_BUSY, 则调用[IMAPITable:: WaitForCompletion](imapitable-waitforcompletion.md)方法, 并在异步操作完成时重试对**QueryRows**的调用。 
+如果 **QueryRows** 返回 MAPI_E_BUSY，请调用 [IMAPITable：：WaitForCompletion](imapitable-waitforcompletion.md) 方法，在异步操作完成时重试 **对 QueryRows** 的调用。 
   
-调用**QueryRows**时, 请注意, 异步通知的计时可能会导致从**QueryRows**返回的行集不能准确表示基础数据。 例如, 在删除邮件之后但在收到相应通知之前, 对文件夹的内容表的**QueryRows**调用将导致删除的行在行集中返回。 始终等待通知在更新用户的数据视图之前到达。 
+调用 **QueryRows** 时，请注意异步通知的计时可能会导致从 **QueryRows** 返回的行集无法准确表示基础数据。 例如，在删除邮件之后但在收到相应通知之前，对文件夹内容表的 **QueryRows** 调用将导致在行集内返回已删除的行。 在更新用户的数据视图之前，请始终等待通知到达。 
   
-有关检索表中的行的详细信息, 请参阅[从表行检索数据](retrieving-data-from-table-rows.md)。
+有关从表中检索行的信息，请参阅 [从表行检索数据](retrieving-data-from-table-rows.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -117,7 +117,7 @@ MAPI_E_INVALID_PARAMETER
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI 使用**IMAPITable:: QueryRows**方法检索要加载到视图中的表中的行。  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI 使用 **IMAPITable：：QueryRows** 方法检索表中要加载到视图中的行。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

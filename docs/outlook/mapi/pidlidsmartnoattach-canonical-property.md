@@ -25,37 +25,37 @@ ms.locfileid: "32331316"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-表示是否将邮件上的附件视为隐藏。
+表示邮件上的附件是否被视为隐藏附件。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidSmartNoAttach  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x00008514  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008514  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果邮件附件被视为隐藏, 则此属性为 TRUE。
+如果邮件的附件被视为隐藏，则此属性为 TRUE。
   
-它指示 message 对象是否没有最终用户可见的附件。 此属性可能未设置;如果是这样, 则假定默认值 FALSE。
+它指示邮件对象是否具有最终用户可见的附件。 此属性可能未设置;如果是，则假定默认值为 FALSE。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议Exchange Server引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

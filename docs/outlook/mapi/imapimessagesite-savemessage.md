@@ -39,13 +39,13 @@ HRESULT SaveMessage( void );
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。 
+> 调用成功并返回了预期值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单调用**IMAPIMessageSite:: SaveMessage**方法以请求保存邮件。 
+表单调用 **IMAPIMessageSite：：SaveMessage** 方法来请求保存消息。 
   
-有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口列表，请参阅 [MAPI Form Interfaces](mapi-form-interfaces.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -53,7 +53,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: SaveMessage  <br/> |MFCMAPI 使用**IMAPIMessageSite:: SaveMessage**方法保存邮件。  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer：：SaveMessage  <br/> |MFCMAPI 使用 **IMAPIMessageSite：：SaveMessage** 方法来保存邮件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

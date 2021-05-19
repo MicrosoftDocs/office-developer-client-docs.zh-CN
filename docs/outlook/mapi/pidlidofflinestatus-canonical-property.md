@@ -25,39 +25,39 @@ ms.locfileid: "33418832"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-确定在实现 [LISTSWS] 的服务器上的文档文件的状态。
+确定实现 [MS-LISTSWS] 的服务器上文档文件的状态。
   
 |||
 |:-----|:-----|
-|关联属性  <br/> |dispidOfflineStatus  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x000085B9  <br/> |
+|关联的属性  <br/> |dispidOfflineStatus  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x000085B9  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 下表显示了此属性的可能值。
   
 |**值**|**说明**|
 |:-----|:-----|
 |0  <br/> |文档未签出。  <br/> |
-|1  <br/> |将文档签出给当前用户。  <br/> |
-|双面  <br/> |文档未签出, 但当前用户具有保存为在当前计算机上进行编辑的文件的副本。  <br/> |
+|1  <br/> |文档已签出给当前用户。  <br/> |
+|2  <br/> |文档未签出，但当前用户具有保存在当前计算机上进行编辑的文件的副本。  <br/> |
    
-此属性在本地计算且不会在任何时间发送到服务器, 除非用户将项目拖动到另一个帐户。 在这种情况下, 它将被视为用户定义的自定义属性。
+此属性在本地计算，并且不会随时发送到服务器，除非用户将项目拖动到另一个帐户。 在这种情况下，它将被视为用户定义的自定义属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]] 
+[[MS-OXPROPS]] 
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

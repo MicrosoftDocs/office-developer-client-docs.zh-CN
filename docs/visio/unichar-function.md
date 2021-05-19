@@ -22,7 +22,7 @@ ms.locfileid: "33417579"
   
 ## <a name="syntax"></a>语法
 
-UNICHAR (* **数字** *) 
+UNICHAR (** *number* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -30,14 +30,14 @@ UNICHAR (* **数字** *)
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |必需  <br/> |**Integer** <br/> |1 到 65,535 之间（包括 1 和 65,535）的整数，若超出此范围，该函数将返回错误。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 生成的字符串的长度为一个 Unicode 字符（两个字符）。 
   
 ## <a name="example"></a>示例
 
-UNICHAR (65) 
+UNICHAR (65)  
   
-返回 A (拉丁文大写字母 A) 
+返回一 (拉丁文大写字母 A)  
   
 

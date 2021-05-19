@@ -25,12 +25,12 @@ ms.locfileid: "33418692"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算包含指定数量的[SMAPIVerb](smapiverb.md)结构的现有[SMAPIVerbArray](smapiverbarray.md)结构中的字节数。 
+计算包含指定数量的[SMAPIVerb](smapiverb.md)结构的现有[SMAPIVerbArray](smapiverbarray.md)结构的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
-|相关结构:  <br/> |**SMAPIVerbArray** <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
+|相关结构：  <br/> |**SMAPIVerbArray** <br/> |
    
 ```cpp
 int CbMAPIVerbArray (_c)
@@ -38,9 +38,9 @@ int CbMAPIVerbArray (_c)
 
 ## <a name="parameters"></a>参数
 
- __c_
+ _ _c_
   
-> 现有**SMAPIVerbArray**结构中的**SMAPIVerb**结构的计数。 
+> 现有 **SMAPIVerbArray** 结构中 **SMAPIVerb 结构** 计数。 
     
 ## <a name="see-also"></a>另请参阅
 

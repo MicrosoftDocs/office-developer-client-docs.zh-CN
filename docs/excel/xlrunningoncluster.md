@@ -20,7 +20,7 @@ ms.locfileid: "33418286"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-返回一个值, 该值指示用户定义的函数是否在群集上运行。 
+返回一个值，该值指示用户定义的函数是否在群集上运行。 
   
 ```cpp
 Excel12(xlRunningOnCluster, LPXLOPER12 pxRes, 0);
@@ -32,11 +32,11 @@ Excel12(xlRunningOnCluster, LPXLOPER12 pxRes, 0);
   
 ## <a name="return-value"></a>返回值
 
-如果函数在 Excel 进程中运行, 则在**xlTypeInt**类型的**XLOPER12**中返回0。 如果该函数在群集上运行, 则返回类型和值由群集连接器提供程序确定。
+如果函数在一个Excel中运行，则 **xlTypeInt** 类型的 **XLOPER12** 中返回 0。 如果函数在群集上运行，则返回类型和值由群集连接器提供程序确定。
   
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>要求
 
-此函数是在 xlcall.h 头文件中定义的。
+此函数在 Xlcall.h 头文件中定义。
   
 ## <a name="see-also"></a>另请参阅
 

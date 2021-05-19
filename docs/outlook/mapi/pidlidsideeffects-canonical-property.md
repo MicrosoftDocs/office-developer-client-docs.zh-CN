@@ -25,53 +25,53 @@ ms.locfileid: "32331295"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-控制客户端在最终用户输入时处理邮件对象的方式。
+控制客户端在处理最终用户输入时如何处理消息对象。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidSideEffects  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x00008510  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008510  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-必须设置为按位或零个或更多的以下标志。
+必须设置为位或零个或多个以下标志。
   
-|**Name**|**Value**|**说明**|
+|**名称**|**值**|**说明**|
 |:-----|:-----|:-----|
-|seOpenToDelete  <br/> |0x0001  <br/> |删除邮件对象时需要进行额外的处理。  <br/> |
-|seNoFrame  <br/> |0x0008  <br/> |没有与 message 对象相关联的 UI。  <br/> |
-|seCoerceToInbox  <br/> |0x0010  <br/> |移动或复制到具有 " **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md))" 属性的 "IPF" 的 folder 对象时, 需要对 message 对象进行额外的处理。注释 "。  <br/> |
-|seOpenTocopy  <br/> |0x0020  <br/> |将邮件对象复制到另一个文件夹时需要进行额外的处理。  <br/> |
-|seOpenToMove  <br/> |0x0040  <br/> |在邮件对象移到另一个文件夹时需要进行额外的处理。  <br/> |
-|seOpenForCtxMenu  <br/> |0x0100  <br/> |向最终用户显示动作时, 对 message 对象需要进行额外的处理。  <br/> |
-|seCannotUndoDelete  <br/> |0x0400  <br/> |无法撤消删除操作, 除非设置了 "seOpenToDelete", 否则不得对其进行设置。  <br/> |
-|seCannotUndoCopy  <br/> |0x0800  <br/> |无法撤消复制操作, 除非设置了 "seOpenTocopy", 否则不得对其进行设置。  <br/> |
-|seCannotUndoMove  <br/> |0x1000  <br/> |无法撤消移动操作, 除非设置了 "seOpenToMove", 否则不得进行设置。  <br/> |
+|seOpenToDelete  <br/> |0x0001  <br/> |删除邮件对象时，需要额外的处理。  <br/> |
+|seNoFrame  <br/> |0x0008  <br/> |没有 UI 与 message 对象关联。  <br/> |
+|seCoerceToInbox  <br/> |0x0010  <br/> |当使用 IPF 的 PR_CONTAINER_CLASS ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) 移动或复制到文件夹对象时，需要对邮件对象进行其他处理。 注意"。  <br/> |
+|seOpenTocopy  <br/> |0x0020  <br/> |复制到另一个文件夹时，需要对邮件对象进行其他处理。  <br/> |
+|seOpenToMove  <br/> |0x0040  <br/> |移动到另一个文件夹时，需要对邮件对象进行其他处理。  <br/> |
+|seOpenForCtxMenu  <br/> |0x0100  <br/> |向最终用户显示谓词时，需要对 message 对象进行其他处理。  <br/> |
+|seCannotUndoDelete  <br/> |0x0400  <br/> |不能撤消删除操作，除非设置了"seOpenToDelete"，否则不能设置。  <br/> |
+|seCannotUndoCopy  <br/> |0x0800  <br/> |不能撤消复制操作，除非设置了"seOpenTocopy"，否则不能设置。  <br/> |
+|seCannotUndoMove  <br/> |0x1000  <br/> |不能撤消移动操作，除非设置了"seOpenToMove"，否则不能设置。  <br/> |
 |seHasScript  <br/> |0x2000  <br/> |message 对象包含最终用户脚本。  <br/> |
-|seOpenToPermDelete  <br/> |0x4000  <br/> |若要永久删除 message 对象, 需要进行额外的处理。  <br/> |
+|seOpenToPermDelete  <br/> |0x4000  <br/> |若要永久删除邮件对象，需要其他处理。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议Exchange Server引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

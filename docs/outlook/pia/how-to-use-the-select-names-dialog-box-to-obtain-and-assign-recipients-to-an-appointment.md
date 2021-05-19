@@ -1,5 +1,5 @@
 ---
-title: 使用“选择姓名”对话框获取收件人并将收件人分配到约会
+title: 使用“选择姓名”对话框获取收件人并将其分配到约会
 TOCTitle: Use the Select Names dialog box to obtain and assign recipients to an appointment
 ms:assetid: b9bcb341-1912-425c-8d75-ed5be233145a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184636(v=office.15)
@@ -27,7 +27,7 @@ ms.locfileid: "32335376"
 
 在下面的代码示例中，DemoSelectNamesDialogRecipients 会创建 [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) 对象并设置它的一些属性。 然后，它会创建 **SelectNamesDialog** 并使用 [SetDefaultDisplayMode(OlDefaultSelectNamesDisplayMode)](https://msdn.microsoft.com/library/bb623783\(v=office.15\)) 方法来设置“**选择姓名**”对话框的会议显示模式。 该示例会使用字符串“Conf Room 36/2739”来填充“**资源**”收件人选择器。 在向用户显示该对话框后，代码会枚举与此 **SelectNamesDialog** 实例关联的 **Recipients** 集合并将这些收件人添加到创建的约会。 最后，该示例会向用户显示会议请求。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

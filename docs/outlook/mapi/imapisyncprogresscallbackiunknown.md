@@ -25,23 +25,23 @@ ms.locfileid: "33418335"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在调用[IMAPISync: SynchronizeInBackground](imapisyncsynchronizeinbackground.md)过程中, 会将存储提供程序作为字段传递给 MAPISIB 结构。 存储提供程序使用此接口向 Microsoft Outlook 提供有关同步状态的反馈。
+在调用 [IMAPISync ： SynchronizeInBackground](imapisyncsynchronizeinbackground.md)时，将存储提供程序作为 MAPISIB 结构的字段传递。 应用商店提供商使用此接口向 Microsoft 提供Outlook同步状态的反馈。
   
 |||
 |:-----|:-----|
 |标头文件：  <br/> ||
-|公开者:  <br/> |Outlook  <br/> |
+|公开者：  <br/> |Outlook  <br/> |
 |实现者：  <br/> |Outlook  <br/> |
 |调用者：  <br/> |存储提供程序  <br/> |
-|接口标识符:  <br/> |IID_IMAPISyncProgressCallback  <br/> |
+|接口标识符：  <br/> |IID_IMAPISyncProgressCallback  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[Progress](imapisyncprogresscallback-progress.md) <br/> |存储提供程序定期调用此函数以更新 "发送/接收" 对话框中的状态。  <br/> |
-|[错误](imapisyncprogresscallback-error.md) <br/> |如果在同步过程中遇到错误, 则存储提供程序将调用此函数, 以提供在 "发送/接收" 对话框中显示的详细信息。  <br/> |
-|[完成](imapisyncprogresscallback-done.md) <br/> |存储提供程序调用此函数来通知 Outlook 同步已完成。  <br/> |
+|[Progress](imapisyncprogresscallback-progress.md) <br/> |存储提供程序定期调用此函数以更新"发送/接收"对话框中的状态。  <br/> |
+|[错误](imapisyncprogresscallback-error.md) <br/> |如果在同步过程中遇到错误，存储提供程序将调用此函数以提供在"发送/接收"对话框中显示的详细信息。  <br/> |
+|[完成](imapisyncprogresscallback-done.md) <br/> |存储提供程序调用此函数以Outlook同步已完成。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

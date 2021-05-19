@@ -22,7 +22,7 @@ ms.locfileid: "33416137"
   
 ## <a name="syntax"></a>语法
 
-INTUP (* **数字** *) 
+INTUP (** number ** *)* 
   
 ### <a name="parameters"></a>参数
 
@@ -32,19 +32,19 @@ INTUP (* **数字** *)
    
 ## <a name="example-1"></a>示例 1
 
-INTUP (3.2)
+INTUP (3.2) 
   
 返回 4。
   
 ## <a name="example-2"></a>示例 2
 
-INTUP (-3.2)
+INTUP (-3.2) 
   
 返回 -3。
   
 ## <a name="example-3"></a>示例 3
 
-INTUP (3)
+INTUP (3) 
   
 返回 3。
   

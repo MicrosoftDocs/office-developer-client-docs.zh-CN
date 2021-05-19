@@ -25,7 +25,7 @@ ms.locfileid: "33418811"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-注册一个建议接收器对象, 以接收影响表的指定事件的通知。
+注册通知接收对象以接收影响表的指定事件的通知。
   
 ```cpp
 HRESULT Advise(
@@ -39,41 +39,41 @@ ULONG_PTR FAR * lpulConnection
 
  _ulEventMask_
   
-> 实时值, 该值指示将生成通知的事件的类型。 仅以下值是有效的:
+> [in]指示将生成通知的事件类型的值。 只有以下值有效：
     
  `fnevTableModified`
   
  _lpAdviseSink_
   
-> 实时指向要接收后续通知的通知接收器对象的指针。 此通知接收器对象必须已分配。
+> [in]指向接收后续通知的建议接收对象的指针。 此通知接收器对象必须已分配。
     
  _lpulConnection_
   
-> 排除指向表示成功的通知注册的非零值的指针。
+> [out]指向表示成功通知注册的非零值的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 通知注册已成功完成。
+> 通知注册成功完成。
     
 MAPI_E_NO_SUPPORT 
   
-> 表实现不支持对其行和列进行更改, 也不支持通知。
+> 表实现要么不支持更改其行和列，要么不支持通知。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-使用**IMAPITable:: Advise**方法注册在提供程序中实现的用于通知回调的 table 对象。 每当 table 对象发生更改时, 提供程序都会检查在_ulEventMask_参数中设置的事件掩码位, 从而确定发生的更改类型。 如果设置了一个位, 则提供程序将调用由_lpAdviseSink_参数指示的[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法, 以报告事件。 通知结构中传递给**OnNotify**例程的数据描述了该事件。 
+使用 **IMAPITable：：Advise** 方法注册在提供程序中实现的表对象，以用于通知回调。 每当表对象发生变化时，提供程序都会检查在  _ulEventMask_ 参数中设置了哪些事件掩码位，从而查看发生了哪种类型的更改。 如果设置了位，则提供程序将调用 _由 lpAdviseSink_ 参数指示的建议接收器对象的 [IMAPIAdviseSink：：OnNotify](imapiadvisesink-onnotify.md)方法以报告事件。 在通知结构中传递给 **OnNotify** 例程的数据描述事件。 
   
-调用**OnNotify**可能会在更改对象的调用过程中或在任何时间发生。 在支持多个执行线程的系统上, 对**OnNotify**的调用可以出现在任何线程上。 若要对可能在 inopportune 时发生的**OnNotify**的调用进行更安全地处理的方法, 请参阅[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)函数。 
+调用 **OnNotify** 可以在更改对象的调用期间或以下任何时间发生。 在支持多个执行线程的系统上，对 **OnNotify** 的调用可以在任何线程上发生。 为了能够将可能在不及时发生的 **OnNotify** 调用转换为更安全地处理调用，提供程序应该使用 [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) 函数。 
   
-若要提供通知, 提供程序实现**建议**需要将指针副本保存到_lpAdviseSink_建议接收器对象;为此, 它会调用通知接收器的**IUnknown:: AddRef**方法来维护其对象指针, 直到使用对[IMAPITable:: Unadvise](imapitable-unadvise.md)方法的调用取消通知注册。 **建议**实现应为通知注册分配一个连接号码, 并在此连接号码上调用**AddRef** , 然后再将其返回到_lpulConnection_参数中。 服务提供程序可以在取消注册之前释放通知接收器对象, 但在调用 * * Unadvise * * 之前, 它们不能释放连接号码。 
+若要提供通知，实现 **Advise** 的提供程序需要保留指向  _lpAdviseSink_ advise 接收器对象的指针的副本;为此，它会调用通知接收器的 **IUnknown：：AddRef** 方法，以维护其对象指针，直到通过调用 [IMAPITable：：Unadvise](imapitable-unadvise.md) 方法取消通知注册。 Advise 实现应为通知注册分配一个连接号码，并在此连接号码上调用 **AddRef，** 然后再在 _lpulConnection_ 参数中返回它。 服务提供商可以在取消注册之前释放通知接收器对象，但在调用 ** Unadvise ** 之前，它们不得释放连接号。 
   
-在调用了 "**建议**已成功" 且在 "* * Unadvise * *" 之前调用之后, 客户端必须准备就绪, 才能释放通知接收器对象。 因此, 客户端应在**建议**返回后释放其建议接收器对象, 除非它对其具有特定的长期使用。 
+在成功调用 **Advise** 之后，在调用 ** Unadvise ** 之前，必须准备客户端以释放通知接收器对象。 因此，客户端应在 Advise 返回后释放其 **advise** 接收器对象，除非它具有特定的长期用途。 
   
-由于通知的异步行为, 因此更改表列设置的实现可以接收按上一列顺序组织的信息的通知。 例如, 对于刚刚从容器中删除的邮件, 可能会返回一个表行。 当列设置发生更改时, 将发送此类通知, 并在通知表视图尚未使用该信息更新的情况中对其发送信息。
+由于通知的异步行为，更改表列设置的实现可以接收具有按上一列顺序组织的信息的通知。 例如，对于刚刚从容器中删除的邮件，可能会返回一个表行。 当列设置更改和有关它的信息已发送，但尚未使用该信息更新通知表视图时，将发送此类通知。
   
-有关通知过程的详细信息, 请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。 有关表通知的具体信息, 请参阅[关于表通知](about-table-notifications.md)。 有关使用**IMAPISupport**方法支持通知的信息, 请参阅[支持事件通知](supporting-event-notification.md)。
+有关通知过程详细信息，请参阅 [MAPI 中的事件通知](event-notification-in-mapi.md)。 有关表通知的特定信息，请参阅关于 [表通知](about-table-notifications.md)。 有关使用 **IMAPISupport** 方法支持通知的信息，请参阅 [Supporting Event Notification。](supporting-event-notification.md)
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -81,7 +81,7 @@ MAPI_E_NO_SUPPORT
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl  <br/> |CContestTableListCtrl:: NotificationOn  <br/> |MFCMAPI 使用**IMAPITable:: Advise**方法注册通知, 以允许表视图保持最新。  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContestTableListCtrl：：NotificationOn  <br/> |MFCMAPI 使用 **IMAPITable：：Advise** 方法注册通知，以允许表视图保持最新。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

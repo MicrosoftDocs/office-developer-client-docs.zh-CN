@@ -25,7 +25,7 @@ ms.locfileid: "33418979"
   
 ## <a name="syntax"></a>语法
 
-CALLOUTCOUNT ()
+CALLOUTCOUNT () 
   
 ### <a name="return-value"></a>返回值
 

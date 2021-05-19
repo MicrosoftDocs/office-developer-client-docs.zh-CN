@@ -25,17 +25,17 @@ ms.locfileid: "32336867"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定由**dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) 标识的共享提供程序的用户可显示名称。 这是共享邮件的属性。
+指定由 **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) 标识的共享提供程序的用户可显示名称。 这是共享邮件的属性。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidSharingProviderName  <br/> |
-|属性集:  <br/> |PSETID_Sharing  <br/> |
-|长 ID (盖子):  <br/> |0x00008A02  <br/> |
+|属性集：  <br/> |PSETID_Sharing  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008A02  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 应忽略此属性。
   
@@ -43,17 +43,17 @@ ms.locfileid: "32336867"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > 在客户端之间共享邮箱文件夹。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

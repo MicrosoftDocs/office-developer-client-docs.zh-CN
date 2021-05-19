@@ -23,13 +23,13 @@ ms.locfileid: "33418265"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-更改基于[FNIDLE](fnidle.md)的空闲例程的部分或全部特征。 
+更改基于 [FNIDLE](fnidle.md) 的空闲例程的一些或所有特征。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 VOID ChangeIdleRoutine(
@@ -47,53 +47,53 @@ VOID ChangeIdleRoutine(
 
 _ftg_
   
-> 实时用于标识空闲例程的 Function 标记。 
+> [in]标识空闲例程的函数标记。 
     
 _pfnIdle_
   
-> 实时指向空闲例程的指针。 
+> [in]指向空闲例程的指针。 
     
 _pvIdleParam_
   
-> 实时指向调用实现为空闲例程分配的新内存块的指针。 
+> [in]指向调用实现为空闲例程分配的新内存块的指针。 
     
 _priIdle_
   
-> 实时表示空闲例程的新优先级的值。 实现定义的例程的可能优先级大于或小于零, 但不能为零。 值为0时为用户事件 (如鼠标单击或 WM_PAINT 邮件) 保留。 大于零的值表示优先级高于用户事件且作为标准 Windows 消息泵循环的一部分进行调度的后台任务的优先级。 小于零的值表示仅在消息泵空闲时运行的空闲任务的优先级。 优先级的示例为: 1 表示前台提交, 1 表示加电编辑字符插入, 3 用于下载新邮件。
+> [in]表示空闲例程的新优先级的值。 实现定义的例程的可能优先级大于或小于零，但不大于零。 为用户事件保留值 0，如鼠标单击或WM_PAINT消息。 大于零的值表示优先级高于用户事件的后台任务的优先级，并作为标准邮件循环循环Windows调度。 小于零的值表示仅在消息处理空闲时间期间运行的空闲任务的优先级。 优先级的示例包括：1 表示前台提交，1 表示 power-edit 字符插入，3 表示下载新邮件。
     
 _csecIdle_
   
-> 实时应用于空闲例程的新时间, 以百分之一秒为单位。 初始时间值的意义各不相同, 具体取决于在_iroIdle_参数中传递的内容。 它可以是: 
+> [in]应用于空闲例程的新时间（以百分之几秒计）。 初始时间值的含义会有所不同，具体取决于  _一节参数中传递_ 的值。 它可以是： 
     
-  - MAPI 空闲引擎首次呼叫空闲例程之前必须经过的最小用户 inaction, 如果_iroIdle_中设置了 FIROWAIT 标志。 在此时间过后, 空闲引擎可以根据需要频繁地调用空闲例程。 
+  - 在 MAPI 空闲引擎首次调用空闲例程之前必须经过的最小用户不操作时段（如果 FIROWAIT 标志在  _创建Idle_ 中设置）。 此时间结束后，空闲引擎可以在必要时经常调用空闲例程。 
     
-  - 如果在_iroIdle_中设置了 FIROINTERVAL 标志, 则调用 idle 例程之间的最小间隔。 
+  - 如果 FIROINTERVAL 标志在  _分流Idle_ 中设置，则对空闲例程的调用之间的最小间隔。 
     
-_iroIdle_
+_一体式_
   
-> 实时指示调用空闲例程的新选项的标志的位掩码。 必须仅设置以下任一标志:
+> [in]指示用于调用空闲例程的新选项的标志的位掩码。 必须准确设置以下标志之一：
     
-  - FIROINTERVAL: _csecIdle_参数指定的时间是对 idle 例程的连续调用之间的最小时间间隔。 
+  - _FIROINTERVAL：csecIdle_ 参数指定的时间是连续调用空闲例程之间的最小间隔。 
       
-  - FIROONCEONLY: 已过时。 请勿使用。 
+  - FIROONCEONLY：已过时。 请勿使用。 
       
-  - FIROPERBLOCK: 已过时。 请勿使用。 
+  - FIROPERBLOCK：已过时。 请勿使用。 
       
-  - FIROWAIT: _csecIdle_参数指定的时间是 MAPI idle engine 首次调用空闲例程之前必须经过的用户 inaction 的最小周期。 在此时间过后, 空闲引擎可以根据需要频繁地调用空闲例程。 
+  - _FIROWAIT：csecIdle_ 参数指定的时间是在 MAPI 空闲引擎首次调用空闲例程之前必须经过的最小用户不操作时段。 此时间结束后，空闲引擎可以在必要时经常调用空闲例程。 
     
 _ircIdle_
   
-> 实时标记的位掩码, 用于指示对空闲例程所做的更改。 可以按任意组合设置以下标志:
+> [in]用于指示对空闲例程所做的更改的标志的位掩码。 可以任意组合设置以下标志：
     
-  - FIRCCSEC: 与空闲例程关联的时间的更改, 即由_csecIdle_参数中传递的值指示的更改。 
+  - FIRCCSEC：与空闲例程关联的时间更改，即由  _csecIdle_ 参数中传递的值指示的变化。 
       
-  - FIRCIRO: 对 idle 例程的选项的更改, 即由_iroIdle_参数中传递的值指示的更改。 
+  - FIRC一：对空闲例程的选项更改，即由  _传入 创建 id 参数的值指示_ 的变化。 
       
-  - FIRCPFN: 对 idle 例程指针的更改, 即由_pfnIdle_参数中传递的值指示的更改。 
+  - FIRCPFN：对空闲例程指针的变更，即由  _pfnIdle_ 参数中传递的值指示的变化。 
       
-  - FIRCPRI: 对 idle 例程的优先级的更改, 即由_priIdle_参数中传递的值指示的更改。 
+  - FIRCPRI：对空闲例程的优先级更改，即由  _在 priIdle_ 参数中传递的值指示的变化。 
       
-  - FIRCPV: 对 idle 例程内存块的更改, 即由_pvIdleParam_参数中传递的值指示的更改。 
+  - FIRCPV：对空闲例程的内存块的变更，即  _由 pvIdleParam_ 参数中传递的值指示的变化。 
     
 ## <a name="return-value"></a>返回值
 
@@ -101,19 +101,19 @@ _ircIdle_
   
 ## <a name="remarks"></a>说明
 
-以下函数处理 MAPI 空闲引擎和基于[FNIDLE](fnidle.md)函数原型的空闲例程: 
+以下函数基于 [FNIDLE](fnidle.md) 函数原型处理 MAPI 空闲引擎和空闲例程： 
   
-|**Idle 例程函数**|**使用**|
+|**空闲例程函数**|**使用情况**|
 |:-----|:-----|
 |**ChangeIdleRoutine** <br/> |更改已注册的空闲例程的特征。  <br/> |
-|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |从 MAPI 系统中删除已注册的空闲例程。  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |禁用或重新启用已注册的空闲例程, 而不将其从 MAPI 系统中删除。  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |将空闲例程添加到 MAPI 系统中 (无论是否启用)。  <br/> |
-|[MAPIDeInitIdle](mapideinitidle.md) <br/> |关闭呼叫应用程序的 MAPI 空闲引擎。  <br/> |
+|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |从 MAPI 系统中删除注册的空闲例程。  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |禁用或重新启用注册的空闲例程，而不将其从 MAPI 系统中删除。  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |将空闲例程添加到 MAPI 系统，启用或不启用它。  <br/> |
+|[MAPIDeInitIdle](mapideinitidle.md) <br/> |关闭调用应用程序的 MAPI 空闲引擎。  <br/> |
 |[MAPIInitIdle](mapiinitidle.md) <br/> |初始化调用应用程序的 MAPI 空闲引擎。  <br/> |
    
-**ChangeIdleRoutine**、 **DeregisterIdleRoutine**和**EnableIdleRoutine**采用**FtgRegisterIdleRoutine**返回的函数标记作为输入参数。 
+ChangeIdleRoutine、DeregisterIdleRoutine 和 **EnableIdleRoutine** 将 **FtgRegisterIdleRoutine** 返回的函数标记作为输入参数。  
   
-当平台的所有前台任务都变为空闲时, MAPI 空闲引擎将调用准备执行的最高优先级空闲例程。 在具有相同优先级的空闲例程之间, 不能保证呼叫顺序。 
+当平台的所有前台任务变为空闲时，MAPI 空闲引擎将调用已准备好执行的最高优先级空闲例程。 无法保证在优先级相同的空闲例程之间调用顺序。 
   
 

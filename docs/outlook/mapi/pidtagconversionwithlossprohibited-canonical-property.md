@@ -25,7 +25,7 @@ ms.locfileid: "33417124"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果禁止邮件传输代理 (MTA) 进行邮件文本转换而导致信息丢失, 则该参数为 TRUE。 
+如果禁止邮件传输代理 (MTA) 进行丢失信息的邮件文本转换，则包含 TRUE。 
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33417124"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常规配置  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-被禁止转换的类型的一个示例是从 Unicode (每个字符的两个字节) 到单字节字符集的 "有损" 映射。 
+禁止的转换类型的一个示例是，从 Unicode 到单字节字符集 (两字节) "丢失"映射。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -19,27 +19,27 @@ ms.locfileid: "32337007"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
- 本主题介绍在复制状态机的下载层次结构状态期间会发生的情况。 
+ 本主题介绍复制状态机的下载层次结构状态期间发生的情况。 
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|状态标识符:  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |
-|相关数据结构:  <br/> |**[DNHIER](dnhier.md)** <br/> |
-|从此状态:  <br/> |[同步状态](synchronize-state.md) <br/> |
-|到此状态:  <br/> |同步状态  <br/> |
+|状态标识符：  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |
+|相关数据结构：  <br/> |**[DNHIER](dnhier.md)** <br/> |
+|从此状态：  <br/> |[同步状态](synchronize-state.md) <br/> |
+|至此状态：  <br/> |同步状态  <br/> |
    
 > [!NOTE]
-> 复制状态计算机是确定的状态机。 客户端从一个状态传出到另一个状态最终必须返回到前者的前一项。 
+> 复制状态机是一个确定性状态机。 从一个状态到另一个状态的客户端最终必须从后者返回到前者。 
   
 ## <a name="description"></a>说明
 
-此状态会启动将文件夹树层次结构从服务器下载到本地存储。 
+此状态启动将文件夹的树层次结构从服务器下载到本地存储。 
   
-Outlook 使用指向层次结构的指针初始化关联的**DNHIER**数据结构。 客户端下载层次结构, 并在本地存储区中插入新文件夹或对文件夹所做的修改。 下载过程采用 Microsoft Exchange 增量更改同步 (ICS)。 有关 ICS 的详细信息，请参阅 [ICS 评估条件](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)。
+Outlook一个指向层次结构的指针初始化关联的 **DNHIER** 数据结构。 客户端下载层次结构，并将新文件夹或修改插入到本地存储中的文件夹。 下载过程采用 Microsoft Exchange 增量更改同步 (ICS) 。 有关 ICS 的详细信息，请参阅 [ICS 评估条件](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)。
   
-当此状态结束时, 本地存储将返回到同步状态。
+当此状态结束时，本地存储将返回到同步状态。
   
 ## <a name="see-also"></a>另请参阅
 

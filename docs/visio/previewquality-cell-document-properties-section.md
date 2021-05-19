@@ -23,11 +23,11 @@ ms.locfileid: "33416816"
 |**值**|**预览质量**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | Draft  <br/> |**visDocPreviewQualityDraft** <br/> |
-| 1  <br/> | 具体  <br/> |**visDocPreviewQualityDetailed** <br/> |
+| 1  <br/> | 详细  <br/> |**visDocPreviewQualityDetailed** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您还可以在 "**属性**" 对话框中的 "**摘要**" 选项卡 (单击 " **Office** " 按钮, 依次单击 "**信息**" 选项卡、"**文档属性**" 和 "**高级属性**") 中设置此值。
+您还可以在"属性"对话框的"摘要"选项卡上设置此值 (单击 **"Office"** 按钮，单击"信息"选项卡，单击"文档属性"，然后单击"高级属性) "。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 PreviewQuality 单元格的引用，请使用： 
   

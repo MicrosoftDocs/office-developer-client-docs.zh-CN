@@ -25,13 +25,13 @@ ms.locfileid: "32338001"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 [RFC3282] Content Type 标头字段值。
+包含 [RFC3282] Content-Type 标头字段值。
   
 |||
 |:-----|:-----|
-|友好名称:  <br/> |无  <br/> |
-|属性集:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|属性名称:  <br/> |Content-Type  <br/> |
+|友好名称：  <br/> |无  <br/> |
+|属性集：  <br/> |PS_INTERNET_HEADERS  <br/> |
+|属性名称：  <br/> |Content-Type  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
@@ -39,17 +39,17 @@ ms.locfileid: "32338001"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

@@ -25,7 +25,7 @@ ms.locfileid: "33417026"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-请求将当前邮件排队等待传递。
+请求将当前邮件排入队列进行传递。
   
 ```cpp
 HRESULT SubmitMessage(
@@ -37,23 +37,23 @@ HRESULT SubmitMessage(
 
  _ulFlags_
   
-> 实时控制如何提交邮件的标志的位掩码。 可以设置以下标志:
+> [in]控制邮件提交方式的标志的位掩码。 可以设置以下标志：
     
 FORCE_SUBMIT 
   
-> MAPI 应提交邮件, 即使它可能不会立即发送。
+> MAPI 应该提交邮件，即使可能不会立即发送。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单对象调用**IMAPIMessageSite:: SubmitMessage**方法以请求将邮件排队等待传递。 邮件网站在提交邮件之前, 应调用[IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md)方法。 该邮件不需要先保存, 因为如果邮件已被修改, **SubmitMessage**应会导致保存邮件。 返回**SubmitMessage**后, 该窗体必须检查当前邮件, 然后在不存在的情况下消除自己。 
+Form 对象调用 **IMAPIMessageSite：：SubmitMessage** 方法，以请求将邮件排队等待传递。 邮件网站应在提交邮件之前调用 [IPersistMessage：：HandsOffMessage](ipersistmessage-handsoffmessage.md) 方法。 邮件不需要以前保存，因为 **SubmitMessage** 应在邮件已修改时导致邮件保存。 返回 **SubmitMessage** 后，表单必须检查当前邮件，然后在不存在邮件时自行消除。 
   
-有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口列表，请参阅 [MAPI Form Interfaces](mapi-form-interfaces.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -61,7 +61,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: SubmitMessage  <br/> |MFCMAPI 使用**IMAPIMessageSite:: SubmitMessage**方法保存邮件。 首先, 它调用**IPersistMessage:: HandsOffMessage**方法, 然后调用**SubmitMessage**。  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer：：SubmitMessage  <br/> |MFCMAPI 使用 **IMAPIMessageSite：：SubmitMessage** 方法保存邮件。 首先，它调用 **IPersistMessage：：HandsOffMessage** 方法，然后调用 **SubmitMessage**。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -25,44 +25,44 @@ ms.locfileid: "32334683"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含会话线索中第一条消息的主题。 
+包含对话线程中第一封邮件的主题。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONVERSATION_TOPIC、PR_CONVERSATION_TOPIC_A、PR_CONVERSATION_TOPIC_W  <br/> |
 |标识符:  <br/> |0x0070  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-会话线程代表一系列邮件和答复。 这些属性设置为线程中的第一条消息, 通常为**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 属性。 线程中的后续消息应使用相同的主题, 而不进行修改。 
+对话线程表示一系列消息和回复。 这些属性设置为线程中第一条消息，通常设置为[PidTagNormalizedSubject PR_NORMALIZED_SUBJECT (PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 属性。  线程中的后续消息应使用相同的主题，无需进行修改。 
   
-**PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) 属性指示后续邮件和答复之间的顺序关系。 它的使用是可选的, 即使设置了这些属性也是如此。 
+The **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) property indicates the order relationship between subsequent messages and replies. 它的使用是可选的，即使这些属性已设置。 
   
-邮件存储提供程序可以选择确保这些属性始终在传入或传出邮件上设置。 如果已设置这些属性, 则不应更改它们。 如果不是, 则可以将其设置为**PR_NORMALIZED_SUBJECT**。 应在调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)之前执行任何操作。 
+邮件存储提供程序可以选择确保始终对传入或传出邮件设置这些属性。 如果这些属性已经设置，则不应更改它们。 如果没有，可以设置为 **"PR_NORMALIZED_SUBJECT"。** 在调用 [IMAPIProp：：SaveChanges 之前，应执行任何](imapiprop-savechanges.md) 操作。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定在电子邮件对象上允许的属性和操作。
+> 指定允许对电子邮件对象执行的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

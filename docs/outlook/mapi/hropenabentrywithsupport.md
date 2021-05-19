@@ -25,9 +25,9 @@ ms.locfileid: "33417642"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |abhelp  <br/> |
+|标头文件：  <br/> |abhelp.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 HRESULT HrOpenABEntryWithSupport(
@@ -49,42 +49,42 @@ HRESULT HrOpenABEntryWithSupport(
     
  _cbEntryID_
   
-> 实时由_lpEntryID_参数指定的条目标识符的字节数。 
+> [in]  _lpEntryID_ 参数指定的条目标识符的字节计数。 
     
  _lpEntryID_
   
-> 实时指向表示要打开的通讯簿条目的条目标识符的指针。
+> [in]指向表示要打开的通讯簿条目的条目标识符的指针。
     
  _lpInterface_
   
->  实时指向接口标识符 (IID) 的指针, 该接口用于访问打开的条目。 传递 NULL 将返回对象的标准接口。 对于邮件用户, 标准接口为[IMailUser: IMAPIProp](imailuserimapiprop.md)。 对于通讯组列表, 它是[IDistList: IMAPIContainer](idistlistimapicontainer.md), 而对于容器, 它是[IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)。 呼叫者可将_lpInterface_设置为相应的标准接口或继承层次结构中的接口。 
+>  [in]指向接口标识符 (IID) 用于访问打开条目的接口的 IID 标识符。 传递 NULL 将返回对象的标准接口。 对于邮件用户，标准接口是 [IMailUser ： IMAPIProp](imailuserimapiprop.md)。 对于通讯组列表，它是 [IDistList ： IMAPIContainer](idistlistimapicontainer.md)，对于容器，它是 [IABContainer ： IMAPIContainer](iabcontainerimapicontainer.md)。 调用方可以将  _lpInterface_ 设置为相应的标准接口或继承层次结构中的接口。 
     
  _ulFlags_
   
-> 实时用于控制_lpszButtonText_参数文本类型的标志的位掩码。 可以设置以下标志: 
+> [in]控制  _lpszButtonText_ 参数的文本类型的标志位掩码。 可以设置以下标志： 
     
 AB_TELL_DETAILS_CHANGE
   
-> 指示如果实际对地址进行了更改, 则详细信息返回 TRUE; 否则返回 false。否则, 详细信息将返回 FALSE。
+> 指示如果实际对地址进行了更改，Details 将返回 TRUE;否则，Details 将返回 FALSE。
     
 DIALOG_MODAL
   
-> 显示 "常用地址" 对话框的模式版本。 此标志与 DIALOG_SDI 互斥。
+> 显示常用地址对话框的模式版本。 此标志与 DIALOG_SDI。
     
 DIALOG_SDI
   
-> 显示 "常用地址" 对话框的无模式版本。 此标志与 DIALOG_MODAL 互斥。
+> 显示公用地址对话框的无模式版本。 此标志与 DIALOG_MODAL。
     
 MAPI_UNICODE
   
-> 传入的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 传入字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
  _lpulObjType_
   
-> 排除指向已打开条目的类型的指针。
+> [out]指向打开的条目类型的指针。
     
  _lppUnk_
   
-> 排除指向已打开条目的指针的指针。
+> [out]指向已打开条目的指针的指针。
     
 

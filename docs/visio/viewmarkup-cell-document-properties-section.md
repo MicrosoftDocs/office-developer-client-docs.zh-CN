@@ -25,9 +25,9 @@ ms.locfileid: "33416403"
 |TRUE  <br/> |在绘图上显示标记。  <br/> |
 |FALSE  <br/> |不显示标记（默认值）。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
- 标记跟踪打开时 (AddMarkup 单元格为 true), 即使关闭了标记跟踪 (AddMarkup 单元格为 FALSE), ViewMarkup 单元格也会自动设置为 true, 并且仍为 true。 当 AddMarkup 单元格为 TRUE 时，将忽略 ViewMarkup 单元格中的值。 
+ 当启用标记跟踪 (AddMarkup 单元格为 TRUE) 时，ViewMarkup 单元格将自动设置为 TRUE，即使已关闭标记跟踪 (AddMarkup 单元格为 FALSE) 也是如此。 当 AddMarkup 单元格为 TRUE 时，将忽略 ViewMarkup 单元格中的值。 
   
 在绘图中插入注释时，ViewMarkup 单元格也将设置为 TRUE（无论是否启用标记跟踪），并且必须设置为 TRUE 才能在绘图中看到注释。
   

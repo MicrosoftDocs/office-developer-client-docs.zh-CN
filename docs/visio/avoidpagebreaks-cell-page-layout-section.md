@@ -20,7 +20,7 @@ ms.locfileid: "33416312"
 
 确定当形状是增量对齐和/或增量间距时是否可以将其放在分页符上。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 AvoidPageBreaks 单元格的引用，请使用以下内容。 
   

@@ -20,7 +20,7 @@ ms.locfileid: "32338589"
 
 ## <a name="new-objects"></a>新对象
 
-下表列出了 Outlook 2013 中引入的新对象。 “属性”和“方法”列中列出了所有对象成员。
+The following table lists the new objects introduced in Outlook 2013. All object members are listed in the Properties and Methods column.
 
 <table>
 <colgroup>
@@ -117,7 +117,7 @@ ms.locfileid: "32338589"
 
 ## <a name="enhancements-to-existing-objects-and-enumerations"></a>对现有对象和枚举的增强
 
-下表列出了对旧版 Outlook 中对象和枚举的增强。 “新成员”**** 列中仅列出了新的方法、属性、事件和枚举值。
+下表列出了对旧版 Outlook 中对象和枚举的增强。 “新成员”列中仅列出了新的方法、属性、事件和枚举值。
 
 <table>
 <colgroup>

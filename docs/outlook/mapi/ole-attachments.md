@@ -21,6 +21,6 @@ ms.locfileid: "33417145"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-作为向后兼容性, ole 对象的附件被编码为 ole 1 stream 对象。 如果原始对象实际上是 OLE 2 **IStorage**对象, 则必须将该对象转换为 ole 1 流。 此转换是使用**OleConvertIStorageToOLESTREAM**函数 (Win32 OLE 库的一部分) 执行的。 
+为了向后兼容，将 OLE 对象的附件编码为 OLE 1 流对象。 如果原始对象确实是 OLE 2 **IStorage** 对象，则必须将该对象转换为 OLE 1 流。 此转换使用 **OleConvertIStorageToOLESTREAM** 函数执行，该函数是 Win32 OLE 库的一部分。 
   
 

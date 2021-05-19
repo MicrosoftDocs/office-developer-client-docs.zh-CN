@@ -19,9 +19,9 @@ ms.locfileid: "32332828"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-建议接收器对象 (支持[IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md)接口的对象) 是客户端应用程序为处理通知而实现的 MAPI 对象。 **IMAPIAdviseSink**直接从[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)继承, 且只包含一个方法**OnNotify**。 因此, 若要实现通知接收器对象, 客户端将为**IUnknown**和[OnNotify](imapiadvisesink-onnotify.md)的三种方法创建代码。
+建议接收对象（支持 [IMAPIAdviseSink ： IUnknown](imapiadvisesinkiunknown.md) 接口的对象）是客户端应用程序为处理通知而实现 MAPI 对象。 **IMAPIAdviseSink** 直接从 [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) 继承，并且仅包含一个方法 **OnNotify**。 因此，为了实施建议接收对象，客户端在 **IUnknown** 和 [OnNotify](imapiadvisesink-onnotify.md)中为三个方法创建代码。
   
-mapidefs.h 头文件使用**DECLARE_MAPI_INTERFACE**定义**IMAPIAdviseSink**接口实现, 如下所示:
+Mapidefs.h 头文件通过使用 DECLARE_MAPI_INTERFACE **定义****IMAPIAdviseSink** 接口实现，如下所示：
   
 ```cpp
 #define      INTERFACE  IMAPIAdviseSink
@@ -34,9 +34,9 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
  
 ```
 
-实现通知接收器对象的客户端可以手动或使用**MAPI_IUNKNOWN_METHODS**和**MAPI_IMAPIADVISESINK_METHODS**宏定义其对象中的接口。 对象实施者应尽可能使用接口宏, 以确保对象之间的一致性并节省时间和精力。 
+实现建议接收对象的客户端可以手动定义其对象中的接口，或者使用 MAPI_IUNKNOWN_METHODS 和MAPI_IMAPIADVISESINK_METHODS **定义接口**。 对象实现者应尽可能使用接口宏，以确保对象之间的一致性并节省时间和精力。 
   
-实现[IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)和[IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法相对简单, 因为通常只需要几行代码。 因此, 实现对象的客户端和服务提供程序可以将其**AddRef**和**发布**实现内联。 下面的代码演示如何定义包含**AddRef**和**Release**的内联实现的 c + + 通知接收器对象。
+实现 [IUnknown：：AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) 和 [IUnknown：：Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) 方法相对简单，因为通常只需要几行代码。 因此，实现对象的客户端和服务提供商可以内联实现 **其 AddRef** 和 **Release。** 以下代码演示如何使用 **AddRef** 和 Release 的内联实现定义 C++ 建议接收 **对象**。
   
 ```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink
@@ -75,13 +75,13 @@ private :
  
 ```
 
-在 C 中, 建议接收器对象由以下元素组成:
+在 C 中，建议接收对象由以下元素组成：
   
-- 指向 vtable 的一种指针, 该指针包含指向**IUnknown**和**IMAPIAdviseSink**中每个方法的实现的指针。
+- 指向包含指向 **IUnknown** 和 **IMAPIAdviseSink** 中每个方法的实现指针的 vtable 的指针。
     
 - 数据成员。
     
-下面的代码示例演示如何在 C 中定义一个建议接收器对象并构造其 vtable。 
+下面的代码示例演示如何使用 C 定义建议接收器对象并构造其 vtable。 
   
 ```cpp
 // Object definition.
@@ -103,7 +103,7 @@ static const ADVISE_Vtbl vtblADVISE =
  
 ```
 
-在 C 中声明一个对象后, 必须通过将 vtable 指针设置为构造的 vtable 的地址来对其进行初始化, 如以下代码所示:
+在 C 中声明对象后，必须通过将 vtable 指针设置为构造的 vtable 的地址来初始化该对象，如以下代码所示：
   
 ```cpp
 LPADVISESINK lpMyObj = NULL;

@@ -25,7 +25,7 @@ ms.locfileid: "33416123"
 | TRUE  <br/> | 选中形状后不显示控制手柄。  <br/> |
 | FALSE  <br/> | 选中形状后显示控制手柄。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 NoCtlHandles 单元格的引用，请使用： 
   

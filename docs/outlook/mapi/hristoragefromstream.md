@@ -25,13 +25,13 @@ ms.locfileid: "33416830"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将**IStorage**接口分层到**IStream**对象。 
+将 **IStorage 接口** 分层到 **IStream** 对象上。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 HRESULT HrIStorageFromStream(
@@ -46,44 +46,44 @@ HRESULT HrIStorageFromStream(
 
  _lpUnkIn_
   
-> 实时指向实现**IStream**的**IUnknown**对象的指针。 
+> [in]指向实现 **IStream 的 IUnknown** **对象的指针**。 
     
  _lpInterface_
   
-> 实时指向 stream 对象的接口标识符 (IID) 的指针。 以下任何值都可以在_lpInterface_参数中传递: NULL、IID_IStream 或 IID_ILockBytes。 在_lpInterface_中传递 NULL 与传递 IID_IStream 相同。 
+> [in]指向流对象的 IID (接口) 指针。 可以在  _lpInterface_ 参数中传递以下任何值：NULL、IID_IStream 或 IID_ILockBytes。 在  _lpInterface_ 中传递 NULL 与传递空IID_IStream。 
     
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制存储对象相对于流的创建方式。 默认设置为 STGSTRM_RESET, 它将为存储对象提供只读访问权限, 并在流的位置0处启动该对象。 可以任意组合设置以下标志, 除了所述:
+> [in]控制存储对象相对于流的创建方式的标志的位掩码。 默认设置为 STGSTRM_RESET，这将为存储对象提供只读访问权限，并启动该对象，位置为流零。 以下标志可以任意组合进行设置，除非已指出：
     
 STGSTRM_CREATE 
   
-> 为 stream 对象创建一个新的存储对象。 如果设置了 STGSTRM_RESET 标志, 则不能设置此标志。 
+> 为流对象创建新的存储对象。 如果设置了此标志，则STGSTRM_RESET设置此标志。 
     
 STGSTRM_CURRENT 
   
-> 在流的当前位置启动存储。 如果设置了 STGSTRM_RESET 标志, 则不能设置此标志。 
+> 在流的当前位置开始存储。 如果设置了此标志，则STGSTRM_RESET设置此标志。 
     
 STGSTRM_MODIFY 
   
-> 允许呼叫服务提供程序对返回的存储进行写入。 如果设置了 STGSTRM_RESET 标志, 则不能设置此标志。 
+> 允许调用服务提供商写入返回的存储。 如果设置了此标志，则STGSTRM_RESET设置此标志。 
     
 STGSTRM_RESET 
   
-> 在位置零处启动存储。 如果设置了任何其他标志, 则不能设置此标志。 
+> 从零位置开始存储。 如果设置了任何其他标志，则不能设置此标志。 
     
  _lppStorageOut_
   
-> 排除指向返回的**IStorage**对象的指针的指针。 
+> [out]指向返回的 **IStorage 对象的指针** 的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-邮件存储提供程序支持附件使用**IStorage**接口的**HrIStorageFromStream**函数。 存储提供程序必须实现**IStream**接口。 **HrIStorageFromStream**为**IStream**对象提供**IStorage**接口。 可以在_lpUnkIn_中传递**ILockBytes**或**IStream**接口。 
+邮件存储提供程序使用附件的 **IStorage** 接口支持 **HrIStorageFromStream** 函数。 存储提供程序必须实现 **IStream** 接口。 **HrIStorageFromStream** 为 **IStream** 对象提供 **IStorage** 接口。 可以传递 **ILockBytes** 或 _lpUnkIn_ 中的 **IStream** 接口。 
   
 

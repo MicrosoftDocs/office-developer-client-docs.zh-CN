@@ -22,7 +22,7 @@ ms.locfileid: "32336391"
 
 |主题|说明|
 |:----|:----------|
-|[在“选择姓名”对话框中显示与“联系人”文件夹对应的通讯簿](how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md)  |介绍了如何获取与默认“联系人”文件夹对应的通讯簿，然后在“选择姓名”**** 对话框中显示此通讯簿。|
+|[在“选择姓名”对话框中显示与“联系人”文件夹对应的通讯簿](how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md)  |介绍了如何获取与默认“联系人”文件夹对应的通讯簿，然后在“选择姓名”对话框中显示此通讯簿。|
 |[获取存储的全局地址列表或一组地址列表](how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md) |包含两个代码示例，它们演示如何获取与存储区相关联的全局地址列表 (GAL)，以及如何获取与存储区相关联的所有地址列表。|
 |[枚举全局地址列表条目](how-to-enumerate-the-entries-in-the-global-address-list.md)  |介绍了如何枚举全局地址列表 (GAL) 中的前 100 个主要简单邮件传输协议 (SMTP) 地址。|
 |[显示配置文件的地址列表](how-to-display-the-address-lists-for-a-profile.md)  |介绍了如何显示当前配置文件的地址列表。

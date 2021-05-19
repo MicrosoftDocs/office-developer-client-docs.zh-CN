@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251885
 localization_priority: Normal
 ms.assetid: 1da42991-5791-ebab-84cc-286cfe984a61
-description: 获取单元格的值, 并且在单元格的值发生更改时不重新计算公式。
+description: 获取单元格的值，并且当单元格的值更改时不重新计算公式。
 ms.openlocfilehash: 9449ccd8f849b23faf08ee25826301a1b6efe6d0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33416886"
 ---
 # <a name="getval-function"></a>GETVAL 函数
 
-获取单元格的值, 并且在单元格的值发生更改时不重新计算公式。
+获取单元格的值，并且当单元格的值更改时不重新计算公式。
   
 ## <a name="syntax"></a>语法
 
-GETVAL (* * *cellname* * *) 
+GETVAL (** *cellname* ** )  
   
 ### <a name="parameters"></a>参数
 

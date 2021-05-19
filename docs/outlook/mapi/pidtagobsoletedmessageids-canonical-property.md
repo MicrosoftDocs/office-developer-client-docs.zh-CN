@@ -25,7 +25,7 @@ ms.locfileid: "33416109"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含此消息取代的消息的标识符。
+包含此消息取代的邮件的标识符。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33416109"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性中包含的标识符是使用**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性格式的标准搜索键。
+此属性中包含的标识符是使用[PidTagSearchKey](pidtagsearchkey-canonical-property.md) PR_SEARCH_KEY (格式的标准) 关键字。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

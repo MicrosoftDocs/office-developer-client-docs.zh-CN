@@ -30,36 +30,36 @@ ms.locfileid: "32332107"
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskOwnership  <br/> |
-|属性集:  <br/> |PSETID_Task  <br/> |
-|长 ID (盖子):  <br/> |0x00008129  <br/> |
+|属性集：  <br/> |PSETID_Task  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008129  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性必须为下列值之一。
+此属性必须是下列值之一。
   
-|**Value**|**说明**|
+|**值**|**说明**|
 |:-----|:-----|
-|0x00000000  <br/> |未分配任务。  <br/> |
-|0x00000001  <br/> |任务是任务 assigner 的任务副本。  <br/> |
-|0x00000002  <br/> |任务是任务受理人的任务副本。  <br/> |
+|0x00000000  <br/> |任务未分配。  <br/> |
+|0x00000001  <br/> |任务是任务分配者的任务副本。  <br/> |
+|0x00000002  <br/> |任务是任务被分配者的任务副本。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。
+> 定义几个对象，这些对象对任务、任务分配和任务更新的电子等效项建模。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

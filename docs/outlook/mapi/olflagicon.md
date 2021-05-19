@@ -21,7 +21,7 @@ ms.locfileid: "33416557"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定是否标记项目, 如果是, 则为与已标记的项目相关联的颜色。
+指定是否标记项目，如果是，则指定与标记的项目关联的颜色。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -42,23 +42,23 @@ enum OlFlagIcon {
 
  _olNoFlagIcon_
   
-> 没有与该项目相关联的标志。
+> 没有与项目关联的标志。
     
  _olPurpleFlagIcon_
   
-> 紫色已与带标志的项目相关联。
+> 紫色已与标记的项目相关联。
     
  _olOrangeFlagIcon_
   
-> 橙色已与带标志的项相关联。
+> 橙色已与标记的项目相关联。
     
  _olGreenFlagIcon_
   
-> 绿色已与已标记的项目相关联。
+> 绿色已与标记的项目相关联。
     
  _olYellowFlagIcon_
   
-> 黄色已与带标志的项相关联。
+> 黄色已与标记的项目相关联。
     
  _olBlueFlagIcon_
   
@@ -66,7 +66,7 @@ enum OlFlagIcon {
     
  _olRedFlagIcon_
   
-> 红色与已标记的项目相关联。
+> 红色已与标记的项目相关联。
     
 ## <a name="see-also"></a>另请参阅
 

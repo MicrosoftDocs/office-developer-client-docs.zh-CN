@@ -1,5 +1,5 @@
 ---
-title: 邮件存储区中的特殊文件夹
+title: 邮件存储中的特殊文件夹
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416760"
 ---
-# <a name="special-folders-in-message-stores"></a>邮件存储区中的特殊文件夹
+# <a name="special-folders-in-message-stores"></a>邮件存储中的特殊文件夹
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-"收件箱"、"发件箱" 和 "搜索结果" 文件夹等特殊文件夹可以提前创建并受邮件存储提供程序保护。 如果文件夹不存在, MAPI 将尝试通过调用[HrValidateIPMSubtree](hrvalidateipmsubtree.md)函数在邮件存储区中创建这些文件夹。 有关详细信息, 请参阅[MAPI 特殊文件夹](mapi-special-folders.md)。
+可能会提前创建特殊文件夹，如收件箱、发件箱和搜索结果文件夹，并受邮件存储提供程序保护。 如果文件夹不存在，MAPI 将尝试通过调用 [HrValidateIPMSubtree](hrvalidateipmsubtree.md) 函数在邮件存储中创建它们。 有关详细信息，请参阅 [MAPI 特殊文件夹](mapi-special-folders.md)。
   
 ## <a name="see-also"></a>另请参阅
 

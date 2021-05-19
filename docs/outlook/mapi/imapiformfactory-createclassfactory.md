@@ -39,33 +39,33 @@ HRESULT CreateClassFactory(
 
  _clsidForm_
   
-> 实时要由类工厂创建的表单的类标识符。
+> [in]类工厂要创建的表单的类标识符。
     
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lppClassFactory_
   
-> 排除指向类工厂对象的指针。
+> [out]指向类工厂对象的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 返回了 class factory 对象。
+> 已返回类工厂对象。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单查看者调用**IMAPIFormFactory:: CreateClassFactory**方法以获取特定窗体的类工厂。 类工厂用于创建处理特定类的邮件并控制对这些实例的访问权限的表单的实例。 
+表单查看器调用 **IMAPIFormFactory：：CreateClassFactory** 方法来获取特定表单的类工厂。 类工厂用于创建表单的实例，这些实例可处理特定类的消息，并控制对这些实例的访问。 
   
-表单查看器调用**CreateClassFactory**方法, 以获取实现多个邮件类的表单服务器的类工厂对象。 此方法接收类标识符 (CLSID) 作为参数。 根据该参数, 此方法可以确定要返回的类工厂对象的特定种类。 
+表单 **查看器调用 CreateClassFactory** 方法以获取实现多个邮件类的表单服务器的类工厂对象。 此方法以参数 (CLSID) 类标识符。 基于该参数，此方法可以确定要返回的特定类工厂对象类型。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-您可以从您的**CreateClassFactory**实现对同一类标识符的多个调用返回相同的类工厂对象。 不需要创建新的类工厂实例。 
+对于同一类标识符的多个调用，可以从 **CreateClassFactory** 实现返回相同的类工厂对象。 不需要创建新的类工厂实例。 
   
-您可以具有单个类工厂实现, 该实现根据需要创建相应的类工厂实例, 或者具有多个类工厂实现, 每个邮件类一个实现。
+您可以具有一个类工厂实现（可按需创建相应的类工厂实例）或多个类工厂实现（每个邮件类一个）。
   
 ## <a name="see-also"></a>另请参阅
 

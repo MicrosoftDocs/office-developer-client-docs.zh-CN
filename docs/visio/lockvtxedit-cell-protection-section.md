@@ -25,7 +25,7 @@ ms.locfileid: "33417663"
 |TRUE  <br/> |不能编辑顶点。  <br/> |
 |FALSE  <br/> |能够编辑顶点。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 LockVtxEdit 单元格的引用，请使用： 
   

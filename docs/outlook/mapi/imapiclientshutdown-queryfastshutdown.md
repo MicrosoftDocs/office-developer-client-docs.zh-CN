@@ -25,7 +25,7 @@ ms.locfileid: "33418146"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-查询 mapi 子系统以获取加载的 mapi 提供程序提供的快速关闭支持。
+查询 MAPI 子系统，了解加载的 MAPI 提供程序提供的快速关闭支持。
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -35,15 +35,15 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> mapi 子系统支持 mapi 客户端执行快速关闭。
+> MAPI 子系统支持 MAPI 客户端执行快速关闭。
     
 MAPI_E_NO_SUPPORT
   
-> mapi 提供程序不支持 mapi 客户端执行快速关闭。
+> MAPI 提供程序不支持 MAPI 客户端执行快速关闭。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-mapi 子系统是否支持对 mapi 客户端进行快速关闭取决于用户的 Windows 注册表设置或 mapi 客户端的默认行为以便快速关闭。 它还取决于加载的 MAPI 提供程序支持快速关闭的功能。 有关详细信息, 请参阅[Fast Shutdown User Options](fast-shutdown-user-options.md)。
+MAPI 子系统是否支持 MAPI 客户端执行快速关闭取决于用户的 Windows 注册表设置或 MAPI 客户端用于快速关闭的默认行为。 它还取决于已加载的 MAPI 提供程序支持快速关闭的能力。 有关详细信息，请参阅快速 [关闭用户选项](fast-shutdown-user-options.md)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "32338015"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含自动冲突解决中涉及的项目的一个或多个条目 id。
+包含自动冲突解决中涉及的项目的一个或多个条目 ID。
   
 ## 
 
@@ -34,38 +34,38 @@ ms.locfileid: "32338015"
 |相关属性：  <br/> |PR_CONFLICT_ITEMS  <br/> |
 |标识符:  <br/> |0x1098  <br/> |
 |属性类型  <br/> |PT_MV_BINARY  <br/> |
-|区域：  <br/> |用作  <br/> |
+|区域：  <br/> |ICS  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-支持自动冲突解决的标准 Microsoft Outlook 项目的类型包括以下标准项类型: 约会项、联系人项、日记项、邮件项、会议项、便笺项和任务项。 属于从这些标准项目类型之一派生的邮件类的项目也支持自动冲突解决。 在 microsoft Outlook 2003 和 microsoft Office outlook 2007 中, 当 Outlook 同步项目并认为生成的副本可能不包含所有重要数据时, outlook 会将冲突副本存储在**冲突**中文件夹中的 "**同步问题**" 文件夹下。 
+支持自动冲突解决的标准 Microsoft Outlook项目类型包括以下标准项目类型：约会项目、联系人项目、日记项目、邮件项目、会议项目、便笺项目和任务项目。 属于派生自其中一个标准项目类型的邮件类的项目还支持自动冲突解决。 在 Microsoft Outlook 2003 和 Microsoft Office Outlook 2007 中，当 Outlook 同步项目并考虑结果副本可能不包含所有必需数据时，Outlook 将冲突副本存储在"同步问题"文件夹下的 **"冲突**"文件夹中。  
   
 > [!NOTE]
-> 除非您单击 "**转到**" 菜单上的 "**文件夹列表**", 否则**同步问题**及其子文件夹将被隐藏。 
+> **在单击"** 开始"菜单上的"文件夹列表"之前，将隐藏"同步问题 **"****及其子文件夹**。 
   
-如果项目类型是支持自动冲突解决的项目类型之一, 已赢得冲突解决, 或者由于冲突解决而被置于**冲突**文件夹中, 则该项目会公开**PR_CONFLICT_ITEMS**属性。 放置项的文件夹将决定**PR_CONFLICT_ITEMS**的内容。 如果项位于 "**冲突**" 文件夹之外的某个文件夹中, 并且该项公开了**PR_CONFLICT_ITEMS**属性, 则该项目必须赢得冲突解决, 并且**PR_CONFLICT_ITEMS**将包含一个或多个条目 id冲突解决中丢失的那些项目。 如果项位于 "**冲突**" 文件夹中, 并且该项公开了**PR_CONFLICT_ITEMS**属性, 则此项必须已丢失冲突解决, 并且**PR_CONFLICT_ITEMS**将包含冲突中赢得的项的条目 ID。办法. 
+如果项目 **是支持自动冲突解决的项目** 类型之一、在冲突解决中获胜或由于冲突解决而放置在"冲突"文件夹中，则该项目将公开 PR_CONFLICT_ITEMS 属性。 项目放置在其中的文件夹决定了项目 **PR_CONFLICT_ITEMS。** 如果项目位于"冲突"文件夹外的其他文件夹中，并且该项目公开 **了 PR_CONFLICT_ITEMS** 属性，则该项目必须获得冲突解决 **，PR_CONFLICT_ITEMS** 将包含冲突解决中丢失的项目的一个或多个条目 ID。 如果项目位于"冲突"文件夹中，并且该项目公开 **了 PR_CONFLICT_ITEMS** 属性，则此项目必须已失去冲突解决 **，PR_CONFLICT_ITEMS** 将包含在冲突解决中赢得的项目的条目 ID。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理服务器和客户端之间的同步邮件对象数据。
+> 处理在服务器和客户端之间同步邮件对象数据。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

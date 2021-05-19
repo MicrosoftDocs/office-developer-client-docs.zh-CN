@@ -37,7 +37,7 @@ HRESULT Logoff(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
 ## <a name="return-value"></a>返回值
 
@@ -45,17 +45,17 @@ S_OK
   
 > 已成功启动注销过程。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-注销过程通常在客户端调用[IMAPISession:: 注销](imapisession-logoff.md)方法结束会话时启动。 然后, MAPI 会调用每个通讯簿提供程序的**IABLogon:: 注销**方法, 以启动注销过程。 
+当客户端调用 [IMAPISession：：Logoff](imapisession-logoff.md) 方法结束会话时，通常会启动注销过程。 然后，MAPI 调用每个通讯簿提供程序的 **IABLogon：：Logoff 方法** 以启动注销过程。 
   
-**IABLogon:: 注销**方法执行以下操作: 
+**IABLogon：：Logoff** 方法执行以下操作： 
   
-- 释放所有打开的对象, 例如任意子对象或 status 对象。
+- 释放所有打开的对象，如任何子对象或 status 对象。
     
 - 释放提供程序的支持对象。
     
-有关通讯簿提供程序的注销过程的详细信息, 请参阅[关闭服务提供程序](shutting-down-a-service-provider.md)。
+有关通讯簿提供程序的注销过程详细信息，请参阅 [关闭服务提供商](shutting-down-a-service-provider.md)。
   
 ## <a name="see-also"></a>另请参阅
 

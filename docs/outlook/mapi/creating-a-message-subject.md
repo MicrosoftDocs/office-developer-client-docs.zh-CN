@@ -21,10 +21,10 @@ ms.locfileid: "32332961"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-邮件主题: **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 是一个可选属性, 用于汇总邮件的目的。 如果您选择设置它, 请将其设为128字节或更小的字符串。 128字节限制不是 MAPI 设定的限制;它是某些邮件存储提供程序施加的限制。 为了确保与对其施加强制的提供程序的互操作性, 请将主题限制为128个字节。 
+邮件的主题（PR_SUBJECT ( [PidTagSubject](pidtagsubject-canonical-property.md)) ）是一个可选属性，用于总结邮件的意图。 如果选择设置它，请使其为字符串字符串 128 字节或更少。 128 字节的限制不是 MAPI 施加的限制;它是某些邮件存储提供程序施加的限制。 为了确保与实施它的提供程序的互操作性，将主题限制为 128 个字节。 
   
-请注意, 某些邮件存储提供程序不允许将**PR_SUBJECT**写入到具有[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)接口的 stream 中。 
+请注意，某些邮件存储提供程序 **不允许PR_SUBJECT** [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) 接口写入流。 
   
-请勿设置**PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md));仅在答复和转发邮件上设置此属性。 
+不要将[PidTagSubjectPrefix PR_SUBJECT_PREFIX (PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) ;此属性仅在答复和转发的邮件上设置。 
   
 

@@ -45,11 +45,11 @@ ms.locfileid: "33416725"
 
 |**函数**|**说明**|
 |:-----|:-----|
-|[结束](date-function-visioshapesheet.md) <br/> | 将数字转换为日期值。  <br/> |
+|[DATE](date-function-visioshapesheet.md) <br/> | 将数字转换为日期值。  <br/> |
 |[DATETIME](datetime-function.md) <br/> | 将字符串转换为日期和时间值。  <br/> |
 |[DATEVALUE](datevalue-function-visioshapesheet.md) <br/> | 将字符串转换为日期值。  <br/> |
 |[NOW](now-function-visioshapesheet.md) <br/> | 以日期和时间值返回当前系统日期。  <br/> |
-|[时候](time-function-visioshapesheet.md) <br/> | 将数字转换为时间值。  <br/> |
+|[TIME](time-function-visioshapesheet.md) <br/> | 将数字转换为时间值。  <br/> |
 |[TIMEVALUE](timevalue-function-visioshapesheet.md) <br/> | 将字符串转换为时间值。  <br/> |
 |[DAY](day-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的日期部分。  <br/> |
 |[DAYOFYEAR](dayofyear-function.md) <br/> | 根据日期和时间表达式，返回从年初至今的天数。  <br/> |
@@ -57,10 +57,10 @@ ms.locfileid: "33416725"
 |[MINUTE](minute-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的分钟部分。  <br/> |
 |[MONTH](month-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的月部分。  <br/> |
 |[SECOND](second-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的秒部分。  <br/> |
-|[星期](weekday-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中一个星期中的第几天。  <br/> |
+|[WEEKDAY](weekday-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中一个星期中的第几天。  <br/> |
 |[YEAR](year-function-visioshapesheet.md) <br/> | 返回日期和时间表达式中的年部分。  <br/> |
    
-## <a name="duration"></a>持续时间
+## <a name="duration"></a>期限
 
 您可以执行用来计算持续时间或经过时间的运算。持续时间在内部存储为整天数和分数天数。例如，经过 1 周、经过 7 日以及经过 168 个小时都在内部存储为 7.0，但它们会以适当的单位显示。
   
@@ -69,14 +69,14 @@ Visio 可识别下表中的持续时间单位。
 |**Unit**|**Abbreviation**|**通用缩写形式**|
 |:-----|:-----|:-----|
 | 已用天数  <br/> | eday、ed.  <br/> | ed  <br/> |
-| 已用小时数  <br/> | ehour、eh.  <br/> | 吧  <br/> |
+| 已用小时数  <br/> | ehour、eh.  <br/> | eh  <br/> |
 | 已用分钟数  <br/> | eminute、em.  <br/> | em  <br/> |
 | 已用秒数  <br/> | esecond、es.  <br/> | es  <br/> |
-| 已用星期数  <br/> | eweek、ew.  <br/> | 新建  <br/> |
+| 已用星期数  <br/> | eweek、ew.  <br/> | ew  <br/> |
    
 您可以将日期和时间与持续时间相加得到一个新的日期和时间。还可以用日期、时间和持续时间执行在下表中列出的运算。
   
-|**输入**|**结果**|
+|**Input**|**结果**|
 |:-----|:-----|
 | 日期时间 +/- 持续时间  <br/> | 日期和时间值  <br/> |
 | 持续时间 +/- 日期时间  <br/> | 日期和时间值  <br/> |

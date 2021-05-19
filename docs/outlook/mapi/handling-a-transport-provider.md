@@ -19,13 +19,13 @@ ms.locfileid: "33416536"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-客户端通过传输提供程序和 MAPI 后台处理程序提供的状态对象与传输提供程序进行通信。 客户端通过调用[IMAPISession:: GetStatusTable](imapisession-getstatustable.md)以检索状态表来访问 status 对象。 Status 对象实现[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口, 该接口具有用于配置提供程序、刷新传入和传出邮件队列、设置密码和状态验证的方法。 有关 status 对象的详细信息, 请参阅[status Table 和 status 对象](status-table-and-status-objects.md)。
+客户端通过传输提供程序和 MAPI 后台处理程序提供的状态对象与传输提供程序通信。 客户端通过调用 [IMAPISession：：GetStatusTable](imapisession-getstatustable.md) 来检索状态表来访问状态对象。 Status 对象实现 [IMAPIStatus ： IMAPIProp](imapistatusimapiprop.md) 接口，该接口具有用于配置提供程序、刷新传入和传出邮件队列、设置密码和状态验证的方法。 有关状态对象的信息，请参阅状态 [表和状态对象](status-table-and-status-objects.md)。
 
 
-- [按需发送或接收邮件](sending-or-receiving-a-message-on-demand.md): 介绍如何按需发送或接收邮件。
+- [按需发送或接收邮件](sending-or-receiving-a-message-on-demand.md)：介绍如何按需发送或接收邮件。
     
-- [设置传输顺序](setting-transport-order.md): 介绍如何设置传输顺序。
+- [设置传输顺序](setting-transport-order.md)：介绍如何设置传输顺序。
     
-- 重新[配置传输提供程序](reconfiguring-a-transport-provider.md): 介绍如何重新配置传输提供程序以及可设置的属性。
+- [重新配置传输提供程序](reconfiguring-a-transport-provider.md)：介绍如何重新配置传输提供程序以及可以设置的属性。
     
 

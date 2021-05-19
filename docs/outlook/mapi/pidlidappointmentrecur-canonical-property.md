@@ -25,47 +25,47 @@ ms.locfileid: "32331778"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通过使用[[OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)中指定的定期模式和范围之一, 指定定期系列发生的日期和时间。
+使用 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)中指定的定期模式和范围之一指定定期系列的发生日期和时间。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidApptRecur  <br/> |
-|属性集:  <br/> |PSETID_Appointment  <br/> |
-|长 ID (盖子):  <br/> |0x00008216  <br/> |
+|属性集：  <br/> |PSETID_Appointment  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008216  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性指定定期系列使用[[OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)中详细说明的一种定期模式和范围时发生的日期和时间。 此属性的值还包含有关已修改和已删除异常的信息;诸如日期、主题、位置和其他几个异常属性的信息。 定期日历项目的此属性中的二进制数据存储为**AppointmentRecurrencePattern**结构。 此属性不能在单个实例日历项目中存在。 
+此属性通过使用 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)中详述的定期模式和范围之一来指定发生定期系列的日期和时间。 此属性的值还包含有关修改和删除的异常的信息;信息，例如日期、主题、位置和例外的其他几个属性。 此属性中定期日历项目的二进制数据存储为 **AppointmentRecurrencePattern** 结构。 此属性不能存在于单个实例日历项目上。 
   
-重复发生有一些限制:
+定期存在一些限制：
   
-- 多个实例不能在同一天开始。
+- 多个实例不得在同一天启动。
     
-- 事件不能重叠。 具体而言, 修改定期系列中实例的开始日期的异常必须在上一实例结束后的某个日期开始, 且在定期系列中的下一个实例开始时。 如果定期系列中的前一个或下一个实例是例外情况, 也是如此。
+- 事件不得重叠。 具体而言，修改定期系列中实例的开始日期的异常必须在上一实例结束之后和定期系列中下一个实例的开始日期发生。 如果定期系列中的上一个实例或下一个实例为例外，则同样如此。
     
-定期系列的日程安排由其定期模式和范围决定。
+定期系列的日程安排由定期系列的定期模式范围。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定约会、会议请求和响应邮件的属性和操作。
     
-[[毫秒-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> 指定用于电子邮件和其他对象提醒的属性和交互模型。
+> 指定电子邮件和其他对象提醒的属性和交互模型。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

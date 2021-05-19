@@ -25,11 +25,11 @@ ms.locfileid: "33418048"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在现有会话的上下文中打开表单库提供程序对象上的[IMAPIFormMgr](imapiformmgriunknown.md)接口。 
+打开现有会话上下文中的表单库提供程序对象上的 [IMAPIFormMgr](imapiformmgriunknown.md) 接口。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
    
@@ -44,11 +44,11 @@ MAPIOpenFormMgr(
 
  _pSession_
   
-> 实时指向客户端应用程序正在使用的会话的指针。
+> [in]指向客户端应用程序使用的会话的指针。
     
  _ppmgr_
   
-> 排除指向返回的**IMAPIFormMgr**接口的指针。 
+> [out]指向返回的 **IMAPIFormMgr 接口的** 指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -56,7 +56,7 @@ MAPIOpenFormMgr(
   
 ## <a name="remarks"></a>说明
 
-在客户端应用程序调用**MAPIOpenFormMgr**函数之后, 大多数随后与表单相关的交互通过表单库提供程序或由表单库提供程序返回的接口进行。 **IMAPIFormMgr**接口允许客户端处理邮件处理程序, 并在邮件类别和表单库之间执行解析。 
+在客户端应用程序调用 **MAPIOpenFormMgr** 函数后，大多数后续的表单相关交互都通过表单库提供程序或表单库提供程序返回的接口发生。 **IMAPIFormMgr** 接口允许客户端使用消息处理程序，并执行消息类和表单库之间的解决方案。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -64,7 +64,7 @@ MAPIOpenFormMgr(
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg 打开窗体管理器, 以便可以选择窗体。  <br/> |CMainDlg:: OnSelectForm  <br/> |MFCMAPI 使用**MAPIOpenFormMgr**方法打开表单管理器, 以便可以选择表单。  <br/> |
+|MainDlg.cpp 打开表单管理器，以便选择表单。  <br/> |CMainDlg：：OnSelectForm  <br/> |MFCMAPI 使用 **MAPIOpenFormMgr** 方法打开表单管理器，以便选择表单。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

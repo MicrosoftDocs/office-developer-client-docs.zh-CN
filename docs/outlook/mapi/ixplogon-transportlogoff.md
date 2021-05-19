@@ -37,25 +37,25 @@ HRESULT TransportLogoff(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的一个或一些值。 如果返回 S_OK 之外的任何内容, 则将注销该提供程序。
+> 调用成功并返回预期值。 如果返回除S_OK，则提供程序将注销。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-MAPI 后台处理程序调用**IXPLogon:: TransportLogoff**方法, 以终止特定用户的传输提供程序会话。 在调用**TransportLogoff**之前, MAPI 后台处理程序会丢弃有关在[IXPLogon:: AddressTypes](ixplogon-addresstypes.md)方法中传递的此会话的受支持的邮件地址类型的任何数据。 
+MAPI 后台处理程序调用 **IXPLogon：：TransportLogoff** 方法来终止特定用户的传输提供程序会话。 在调用 **TransportLogoff** 之前，MAPI 后台处理程序会丢弃在 [IXPLogon：：AddressTypes](ixplogon-addresstypes.md) 方法中传递的此会话的受支持邮件地址类型的任何数据。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-传输提供程序应准备好随时接受对**TransportLogoff**的调用。 如果正在处理邮件, 则提供程序应停止发送过程。 
+传输提供程序应随时接受 **对 TransportLogoff** 的呼叫。 如果邮件正在处理中，则提供程序应停止发送过程。 
   
-传输提供程序应释放为其当前会话分配的所有资源。 如果它已使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数为此会话分配了任何内存, 它应使用[MAPIFreeBuffer](mapifreebuffer.md)函数释放内存。 传输提供程序为满足对[IXPLogon:: AddressTypes](ixplogon-addresstypes.md)方法的调用而分配的任何内存都可以安全地发布。 
+传输提供程序应释放分配给其当前会话的所有资源。 如果已使用 [MAPIAllocateBuffer](mapiallocatebuffer.md) 函数为此会话分配了任何内存，则应该使用 [MAPIFreeBuffer](mapifreebuffer.md) 函数释放内存。 传输提供程序为满足对 [IXPLogon：：AddressTypes](ixplogon-addresstypes.md) 方法的调用而分配的任何内存此时都可以安全释放。 
   
-通常, 在完成**TransportLogoff**调用之后, 提供程序应首先通过调用[IMAPISupport:: MakeInvalid](imapisupport-makeinvalid.md)方法来使其登录对象失效, 然后释放其支持对象。 提供程序的**TransportLogoff**实现将在最后发布支持对象, 因为在发布支持对象时, MAPI 后台处理程序还可以释放提供程序对象本身。 
+通常，在完成 **TransportLogoff** 调用后，提供程序应首先通过调用 [IMAPISupport：：MakeInvalid](imapisupport-makeinvalid.md) 方法使其登录对象失效，然后释放其支持对象。 提供程序的 **TransportLogoff** 实现应最后释放支持对象，因为当释放支持对象时，MAPI 后台处理程序还可以释放提供程序对象本身。 
   
 ## <a name="see-also"></a>另请参阅
 

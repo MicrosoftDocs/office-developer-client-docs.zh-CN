@@ -25,7 +25,7 @@ ms.locfileid: "32338610"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-一个值, 它被解释为指定规则状态的标志的位掩码组合。
+解释为指定规则状态的标志的位掩码组合的值。
   
 |||
 |:-----|:-----|
@@ -34,75 +34,75 @@ ms.locfileid: "32338610"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 下表定义了此属性的可能值。
   
-EN (ST_ENABLED, 位掩码 0x00000001)
+EN (ST_ENABLED、位掩码0x00000001) 
   
-> 启用该规则以执行。 如果未设置此标志, 则在评估规则时, 服务器必须跳过此规则。
+> 规则已启用以执行。 如果未设置此标志，则服务器在评估规则时必须跳过此规则。
     
-ER (ST_ERROR, 位掩码 0x00000002)
+ER (ST_ERROR、位掩码0x00000002) 
   
 > 服务器在处理规则时遇到错误。
     
-of (ST_ONLY_WHEN_OOF, 位掩码 0x00000004)
+OF (ST_ONLY_WHEN_OOF、位掩码0x00000004) 
   
-> 仅当用户在邮箱上设置了外出 (OOF) 状态时, 才会执行该规则。 此标志不得在公用文件夹规则中设置。
+> 仅在用户对邮箱设置 Out of Office (OOF) 时执行规则。 此标志不得在公用文件夹规则中设置。
     
-HI (ST_KEEP_OOF_HIST, 位掩码 0x00000008)
+HI (ST_KEEP_OOF_HIST、位掩码0x00000008) 
   
 > 此标志不得在公用文件夹规则中设置。
     
-EL (ST_EXIT_LEVEL, 位掩码 0x00000010)
+EL (ST_EXIT_LEVEL、位掩码0x00000010) 
   
-> 规则评估将在执行此规则后结束, 但不会对外出规则进行评估。
+> 规则评估将在执行此规则后结束，但评估"外出"规则Office除外。
     
-SCL (ST_SKIP_IF_SCL_IS_SAFE, 位掩码 0x00000020)
+SCL (ST_SKIP_IF_SCL_IS_SAFE位掩码0x00000020) 
   
-> 可以跳过此规则的评估。
+> 可能会跳过此规则的评估。
     
-PE (ST_RULE_PARSE_ERROR, 位掩码 0x00000040)
+PE (ST_RULE_PARSE_ERROR、位掩码0x00000040) 
   
-> 服务器在分析客户端提供的规则数据时遇到错误。
+> 服务器在解析客户端提供的规则数据时遇到错误。
     
 X
   
 > 此协议未使用。 客户端不得修改此位。
     
-有关 ST_ONLY_WHEN_OOF 和 ST_EXIT_LEVEL 标志之间的交互的说明: 
+有关标记与ST_ONLY_WHEN_OOF ST_EXIT_LEVEL交互的注意事项： 
   
-当邮箱上设置了 "外出" 状态, 并且规则条件的计算结果为 TRUE 时, 
+在邮箱上设置"out of Office"状态，且规则条件计算结果为 TRUE 时， 
   
-并
+AND：
   
-- 规则设置了 ST_EXIT_LEVEL 标志, 并且没有设置 ST_ONLY_WHEN_OOF 标志。 然后, 服务器不得评估未设置 ST_ONLY_WHEN_OOF 标志的后续规则, 并且必须评估具有 ST_ONLY_WHEN_OOF 标志集的后续规则。
+- 规则已设置ST_EXIT_LEVEL标志，并且未ST_ONLY_WHEN_OOF该标志。 然后，服务器不得评估未设置标志ST_ONLY_WHEN_OOF规则，并且必须评估已设置ST_ONLY_WHEN_OOF规则。
     
-和
+或者：
   
-- 该规则同时设置了 ST_EXIT_LEVEL 和 ST_ONLY_WHEN_OOF 标志。 然后, 服务器不能评估任何后续规则。
+- 规则同时设置了 ST_EXIT_LEVEL 和 ST_ONLY_WHEN_OOF 标志。 然后，服务器不得评估任何后续规则。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> 在服务器上操纵传入电子邮件。
+> 在服务器上处理传入电子邮件。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

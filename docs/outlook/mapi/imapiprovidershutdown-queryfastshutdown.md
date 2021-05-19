@@ -25,7 +25,7 @@ ms.locfileid: "33418216"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-查询 MAPI 提供程序以获取快速关闭支持。 
+向 MAPI 提供程序查询快速关闭支持。 
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -35,17 +35,17 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> mapi 提供程序支持 mapi 客户端执行快速关闭。
+> MAPI 提供程序支持 MAPI 客户端执行快速关闭。
     
 MAPI_E_NO_SUPPORT
   
-> mapi 提供程序不支持 mapi 客户端执行快速关闭。
+> MAPI 提供程序不支持 MAPI 客户端执行快速关闭。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果 MAPI 提供程序不需要支持客户端快速关闭, 则仍应实现[IMAPIProviderShutdown](imapiprovidershutdowniunknown.md)接口, 并让**IMAPIProviderShutdown:: QueryFastShutdown**方法返回 MAPI_E_NO_SUPPORT。 对于 outlook 作为 MAPI 客户端, 这会导致 Outlook 等待所有外部引用在退出之前发布。 
+无需支持客户端快速关闭的 MAPI 提供程序仍应实现 [IMAPIProviderShutdown](imapiprovidershutdowniunknown.md) 接口，并且让 **IMAPIProviderShutdown：：QueryFastShutdown** 方法返回 MAPI_E_NO_SUPPORT。 对于Outlook MAPI 客户端，这将导致Outlook等待所有外部引用在退出之前释放。 
   
-根据用户的 Windows 注册表设置快速关闭, 不实现**IMAPIProviderShutdown**接口不一定会阻止客户端快速关闭。 
+根据用户的快速关闭Windows设置，不实现 **IMAPIProviderShutdown** 接口不一定阻止客户端快速关闭。 
   
 ## <a name="see-also"></a>另请参阅
 

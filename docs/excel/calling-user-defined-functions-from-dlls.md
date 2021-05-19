@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- udf [excel 2007], 从 dll 调用, 用户定义的函数 [excel 2007], 从 dll 调用, dll [excel 2007], 调用 udf
+- udfs [excel 2007]，从 dll 调用，用户定义函数 [Excel 2007]，从 DLL 调用 [Excel 2007]，调用 UDF
 localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -20,27 +20,27 @@ ms.locfileid: "33417943"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-从工作表调用用户定义的函数 (udf) 就像调用内置函数一样简单: 通过单元格公式输入函数。 但是, 从 C API, 没有预定义的函数代码可用于回调。 为了使您能够调用 udf, C API 将导出仅 XLL 函数, 即[xlUDF](xludf.md)函数。 函数的第一个参数是一个字符串形式的函数名称, 而后面的参数是 UDF 通常需要的参数。 
+从工作表 (UDF) 用户定义的函数与调用内置函数一样简单：通过单元格公式输入函数。 但是，从 C API 中，没有用于调用的预定义函数代码。 为了使您能够调用 UDF，C API 导出了一个仅 XLL 函数 [xlUDF ](xludf.md) 函数。 函数的第一个参数是字符串形式的函数名称，后续参数是 UDF 通常预期的参数。 
   
-您可以通过使用带参数44的**xlfGetWorkspace**函数来获取当前注册的 XLL 加载项函数和命令的列表。 这将返回一个包含三列的数组, 其中的列表示以下内容: 
+可以通过将 **xlfGetWorkspace** 函数与参数 44 一同使用来获取当前注册的 XLL 加载项函数和命令的列表。 这将返回一个三列数组，其中列表示以下内容： 
   
 - XLL 的完整路径和名称
     
 - 从 XLL 导出的 UDF 或命令的名称
     
-- return 和参数代码字符串
+- 返回和参数代码字符串
     
 > [!NOTE]
-> 从 XLL 导出的名称可能与 Excel 知道 UDF 或命令的注册名称不相同。 
+> 从 XLL 导出的名称可能与注册名称不同，Excel UDF 或命令。 
   
-从 Excel 2007 开始, 分析工具库 (ATP) 函数是完全集成的, 而 C API 对 PRICE、 **xlfPrice**等函数有自己的枚举。 在早期版本中, 您必须使用**xlUDF**调用这些函数。 如果你的外接程序需要使用 excel 2003 和 excel 2007 或更高版本, 并且它使用了这些函数, 则应检测当前版本并以适当的方式调用函数。 
+从 Excel 2007 开始，分析工具库 (ATP) 函数完全集成，并且 C API 具有其自己的函数枚举，如 **PRICE、xlfPrice。** 在早期版本中，您必须使用 **xlUDF** 调用这些函数。 如果您的外接程序需要与 Excel 2003 和 Excel 2007 或更高版本一起使用，并且它使用这些函数，您应该检测当前版本，并适当地调用 函数。 
   
 ## <a name="examples"></a>示例
 
-下面的示例演示在 Excel 的运行版本为2003或更早版本时, 用于调用 ATP 函数**价格**的**xlUDF**函数。 有关全局版本变量的设置的信息 (如本示例中的**gExcelVersion12plus** ), 请参阅[向后兼容](backward-compatibility.md)。
+下面的示例演示当运行版本的 Excel 为 2003 或更早版本时，用于调用 ATP 函数 **PRICE** 的 **xlUDF** 函数。 有关全局版本变量（如此示例中的 **gExcelVersion12plus）** 设置的信息，请参阅 [向后兼容性](backward-compatibility.md)。
   
 > [!NOTE]
-> 此示例使用 Framework 函数**TempNum**、 **TempStrConst**设置参数和 Excel, 以调用 C API。 
+> 此示例使用 Framework 函数 **TempNum** **、TempStrConst** 设置参数Excel调用 C API。 
   
 ```C
 LPXLOPER TempNum(double d);
@@ -86,7 +86,7 @@ double call_ATP_example(void)
 
 <br/>
 
-在调用通过就地修改参数返回值的 XLL 函数时, **xlUDF**函数仍通过 result **XLOPER/XLOPER12**的地址返回值。 换言之, 返回的结果就像通过正常的 return 语句那样。 与用于返回值的参数对应的**XLOPER/XLOPER12**不会被修改。 例如, 请考虑下面两个 udf。 
+在调用通过就地修改参数返回值的 XLL 函数时 **，xlUDF** 函数仍通过结果 **XLOPER/XLOPER12** 的地址返回值。 换句话说，返回的结果就像通过普通返回语句一样。 与用于返回值的参数相对应的 **XLOPER/XLOPER12** 未经修改。 例如，请考虑以下两个 UDF。 
   
 ```C
 // Registered as "1E". Returns its argument incremented by 1.
@@ -109,9 +109,9 @@ LPXLOPER12 WINAPI UDF_2(LPXLOPER12 pxArg)
 }
 ```
 
-**\_udf 2**调用**udf\_1**时, **pxArg**的值在调用**Excel12**后保持不变, **UDF_1**返回的值包含在**xRetVal**中。
+当 **UDF \_ 2** 调用 **UDF \_ 1** 时 **，pxArg** 的值在 **调用 Excel12** 后保持不变，UDF_1 返回的值包含在 **xRetVal 中**。 
   
-以这种方式对 UDF 进行大量调用时, 可以先使用[xlfEvaluate 函数](xlfevaluate.md)计算函数名称。 生成的数字与**xlfRegister**函数返回的注册 ID 相同, 可以传递给函数名称, 将其作为**xlUDF**函数的第一个参数。 这使 Excel 能够更快地查找和调用函数, 而不是每次都需要查找函数名称。 
+通过这种方法对 UDF 进行大量调用时，可以先使用 [xlfEvaluate](xlfevaluate.md)函数评估函数名称。 生成的编号与 **xlfRegister** 函数返回的注册 ID 相同，可以传递函数名称作为 **xlUDF** 函数的第一个参数。 这Excel查找和调用函数比每次查找函数名称要快。 
   
 ## <a name="see-also"></a>另请参阅
 

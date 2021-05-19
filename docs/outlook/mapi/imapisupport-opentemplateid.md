@@ -25,7 +25,7 @@ ms.locfileid: "33418503"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-打开外部通讯簿提供程序中的收件人条目。
+在外通讯簿提供程序中打开收件人条目。
   
 ```cpp
 HRESULT OpenTemplateID(
@@ -43,57 +43,57 @@ LPMAPIPROP lpMAPIPropSibling
 
  _cbTemplateID_
   
-> 实时模板标识符中由_lpTemplateID_指向的字节数。 
+> [in]  _lpTemplateID_ 指向的模板标识符中的字节计数。 
     
  _lpTemplateID_
   
-> 实时指向要打开的收件人条目的模板标识符**PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) 属性的指针。
+> [in]指向要打开的收件人 **PR_TEMPLATEID (** [PidTagTemplateid](pidtagtemplateid-canonical-property.md)) 模板标识符的指针。
     
  _ulTemplateFlags_
   
-> 实时用于描述如何打开条目的标志位掩码。 可以设置以下标志:
+> [in]用于描述如何打开条目的标志的位掩码。 可以设置以下标志：
     
 FILL_ENTRY 
   
-> 正在创建新条目。 当外部提供程序接收到来自 MAPI 的后续[IABLogon:: OpenTemplateID](iablogon-opentemplateid.md)呼叫时, 它可以通过修改由_lpMAPIPropData_参数指向的属性或返回特定接口来控制创建条目的方式。_lppMAPIPropNew_中的实现来控制如何设置新条目的属性。 
+> 正在创建一个新条目。 当外提供程序收到来自 MAPI 的后续 [IABLogon：：OpenTemplateID](iablogon-opentemplateid.md) 调用时，它可以通过修改  _lpMAPIPropData_ 参数指向的属性或返回  _lppMAPIPropNew_ 中的特定接口实现来控制如何设置新条目的属性来控制条目的创建方式。 
     
  _lpMAPIPropData_
   
-> 实时指向调用方用来访问条目的接口实现的指针。 这是外部提供程序可以使用其自己的实现进行包装并在_lppMAPIPropNew_参数中返回的实现。 _lpMAPIPropData_参数必须指向从[IMAPIProp: IUnknown](imapipropiunknown.md)派生并支持在_lpInterface_参数中请求的接口的读/写接口实现。 
+> [in]指向调用方用于访问条目的接口实现的指针。 这是一个实现，该实现是外提供程序可以包装自己的实现，并返回到  _lppMAPIPropNew_ 参数中。 _lpMAPIPropData_ 参数必须指向从 [IMAPIProp ： IUnknown](imapipropiunknown.md)派生并支持 _在 lpInterface_ 参数中请求的接口的读/写接口实现。 
     
  _lpInterface_
   
-> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示要用于访问该条目的接口。 _lppMAPIPropNew_参数指向_lpInterface_指定的类型的接口。 传递 NULL 将返回邮件用户的标准接口 IID_IMailUser。 
+> [in]指向接口标识符的指针 (IID) 表示用于访问条目的接口。 _lppMAPIPropNew_ 参数指向 _由 lpInterface_ 指定的类型的接口。 传递 NULL 将返回消息传递用户的标准界面，IID_IMailUser。 
     
  _lppMAPIPropNew_
   
-> 排除指向外部提供程序用于访问条目的接口实现的指针。
+> [out]指向外提供程序提供的用于访问条目的接口实现的指针。
     
  _lpMAPIPropSibling_
   
-> 保留必须为 NULL。
+> 保留;必须为 NULL。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 绑定过程已成功。
+> 绑定过程成功。
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> 外部通讯簿提供程序不存在。
+> 不存在外通讯簿提供程序。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-仅对通讯簿提供程序支持对象实现**IMAPISupport:: OpenTemplateID**方法。 **OpenTemplateID**只能由通讯簿提供程序调用, 该提供程序可充当属于其他通讯簿提供程序 (也称为外部提供程序) 的条目的主机。 主机提供程序调用**OpenTemplateID**以打开外接程序, 当主机提供程序中的数据绑定到外部提供程序中的代码时, 将发生这种情况。 
+**IMAPISupport：：OpenTemplateID** 方法仅为通讯簿提供程序支持对象实现。 **OpenTemplateID** 仅由通讯簿提供程序调用，这些通讯簿提供程序可以充当属于其他通讯簿提供程序（也称为"外提供程序）"的条目的主机。 主机提供程序调用 **OpenTemplateID** 以打开一个外项，当主机提供程序中的数据绑定到该外提供程序中的代码时，将发生此情况。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-仅当您支持通过外部通讯簿提供程序存储具有模板标识符的条目时, 才会调用**OpenTemplateID** 。 此类支持对[IABContainer:: CreateEntry](iabcontainer-createentry.md)和[IABLogon:: OpenEntry](iablogon-openentry.md)实现施加了其他要求。 有关详细信息, 请参阅这些方法的说明和[充当主机通讯簿提供程序](acting-as-a-host-address-book-provider.md)。
+仅在支持存储具有来自外通讯簿提供程序的模板标识符的条目时，才调用 **OpenTemplateID。** 此类支持对 [IABContainer：：CreateEntry](iabcontainer-createentry.md) 和 [IABLogon：：OpenEntry](iablogon-openentry.md) 实现提出了其他要求。 有关详细信息，请参阅这些方法的说明和充当主机 [通讯簿提供程序](acting-as-a-host-address-book-provider.md)。
   
-如果**OpenTemplateID**调用作为绑定接口返回, 则表示您传递的属性对象实现相同, 您可以释放对属性对象的引用。 这是因为外部提供程序已调用对象的**AddRef**方法来保留自己的引用。 如果外部提供程序不需要保留对 property 对象的引用, 则**OpenTemplateID**将返回未绑定的属性对象。 
+如果 **OpenTemplateID** 调用作为绑定接口返回传入的相同属性对象实现，可以释放对属性对象的引用。 这是因为外部提供程序已调用对象的 **AddRef** 方法来保留其自己的引用。 如果外提供程序不需要保留对属性对象的引用， **则 OpenTemplateID** 将返回未绑定的属性对象。 
   
-如果**OpenTemplateID**在 MAPI_E_UNKNOWN_ENTRYID 中失败, 请尝试通过将该条目视为只读来继续。 
+如果 **OpenTemplateID** 失败MAPI_E_UNKNOWN_ENTRYID，请尝试继续操作，将条目视为只读。 
   
 ## <a name="see-also"></a>另请参阅
 

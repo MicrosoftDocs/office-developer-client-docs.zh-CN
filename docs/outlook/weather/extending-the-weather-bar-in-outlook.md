@@ -80,11 +80,11 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
   
 |||
 |:-----|:-----|
-|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**键** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**值名称** <br/> |**WeatherServiceUrl** <br/> |
 |**值类型** <br/> |REG_SZ  <br/> |
 |**默认值** <br/> |EMPTY_STRING  <br/> |
-|**Description** <br/> |天气数据服务的 URL。  <br/> |
+|**说明** <br/> |天气数据服务的 URL。  <br/> |
    
 ## <a name="dependent-conditions"></a>相关条件
 <a name="ol15_weatherbar_dependentconditions"> </a>
@@ -99,17 +99,17 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
   
 |||
 |:-----|:-----|
-|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**键** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**值名称** <br/> |**DisableWeather** <br/> |
 |**值类型** <br/> |REG_DWORD  <br/> |
 |**默认值** <br/> |0  <br/> |
-|**Description** <br/> |值为 0 将启用天气栏，任何其他值将禁用天气栏。  <br/> |
+|**说明** <br/> |值为 0 将启用天气栏，任何其他值将禁用天气栏。  <br/> |
    
 If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 
   
 ### <a name="office-is-disconnected-from-the-internet"></a>Office 已从 Internet 断开连接
 
-确认 Office 已启用以连接到 Internet—在 Backstage 视图中，转到“信任中心”**** 的“隐私选项”**** 选项卡，确保已选中“允许 Office 连接到 Internet”****。 
+确认 Office 已启用以连接到 Internet—在 Backstage 视图中，转到“信任中心”的“隐私选项”选项卡，确保已选中“允许 Office 连接到 Internet”。 
   
 如果用户已选择不接收 Office 更新，也会禁用天气栏。
   
@@ -120,7 +120,7 @@ If the Weather Bar feature has been disabled by Group Policy, the **Calendar** t
 |**键** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
 |**值名称** <br/> |**UseOnlineContent** <br/> |
 |**值类型** <br/> |REG_DWORD  <br/> |
-|**默认值** <br/> |双面  <br/> |
+|**默认值** <br/> |2  <br/> |
 |**说明** <br/> |值为 2 将启用天气栏，任何其他值将禁用天气栏。  <br/> |
    
 If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 

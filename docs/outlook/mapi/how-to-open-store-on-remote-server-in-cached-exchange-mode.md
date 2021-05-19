@@ -1,5 +1,5 @@
 ---
-title: 当 Outlook 处于缓存 Exchange 模式下时, 打开远程服务器上的存储区
+title: 当远程服务器位于缓存模式Outlook打开Exchange存储
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,19 +13,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417817"
 ---
-# <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>当 Outlook 处于缓存 Exchange 模式下时, 打开远程服务器上的存储区
+# <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>当远程服务器位于缓存模式Outlook打开Exchange存储
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题包含 c + + 中的代码示例, 说明在 microsoft outlook 2010 或 microsoft outlook 2013 处于缓存 Exchange 模式下时, 如何使用**MDB_ONLINE**标志打开远程服务器上的邮件存储区。 
+本主题包含一个 C++ 代码示例，该示例演示如何在 Microsoft Outlook 2010 或 Microsoft Outlook 2013 位于缓存模式时，使用 **MDB_ONLINE** 标志打开远程Exchange存储。 
   
-缓存 Exchange 模式允许 outlook 2010 和 outlook 2013 使用用户邮箱的本地副本, 而 outlook 2010 或 outlook 2013 维护与远程 Exchange 服务器上的用户邮箱远程副本的联机连接。 当 outlook 2010 或 outlook 2013 在缓存 Exchange 模式下运行时, 默认情况下, 登录到同一会话的任何 MAPI 解决方案也将连接到缓存的邮件存储区。 访问的任何数据和所做的任何更改都将针对邮箱的本地副本进行。
+缓存 Exchange 模式允许 Outlook 2010 和 Outlook 2013 使用用户邮箱的本地副本，而 Outlook 2010 或 Outlook 2013 维护与远程 Exchange 服务器上用户邮箱的远程副本的联机连接。 当 Outlook 2010 或 Outlook 2013 在缓存 Exchange 模式下运行时，默认情况下，登录到同一会话的任何 MAPI 解决方案也将连接到缓存的邮件存储。 访问的任何数据和对邮箱的本地副本进行的任何更改。
   
-客户端或服务提供程序可以通过在调用[IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md)时为*ulFlags*参数中的**MDB_ONLINE**设置重写与本地邮件存储区的连接并在远程服务器上打开存储区。 在该会话的远程服务器上成功打开存储后, 您可以使用[IMAPISession:: OpenEntry](imapisession-openentry.md)打开远程存储上的项目或文件夹。 
+客户端或服务提供商可以在调用 [IMAPISession：：OpenMsgStore](imapisession-openmsgstore.md)时 **，在** *ulFlags* 参数中设置 MDB_ONLINE 的位，覆盖与本地邮件存储的连接，并打开远程服务器上存储。 在远程服务器上成功打开该会话的存储区后，可以使用 [IMAPISession：：OpenEntry](imapisession-openentry.md) 打开远程存储上的项目或文件夹。 
   
-无法同时在缓存模式和非缓存模式下打开同一 MAPI 会话中的 Exchange 存储。 如果已经打开缓存的邮件存储区，或者必须使用此标记关闭存储，或打开新的 MAPI 会话，可以使用此标记在远程服务器上打开 Exchange 存储。
+不能在同一 MAPI 会话中Exchange缓存模式和非缓存模式下同时打开缓存存储。 如果已经打开缓存的邮件存储区，或者必须使用此标记关闭存储，或打开新的 MAPI 会话，可以使用此标记在远程服务器上打开 Exchange 存储。
   
-下面的代码示例演示如何使用*ulFlags*参数中设置的**MDB_ONLINE**标志调用**IMAPISession:: OpenMsgStore** , 以打开远程服务器上的默认存储区。 
+以下代码示例演示如何使用 *ulFlags* 参数中设置的 **MDB_ONLINE** 标志调用 **IMAPISession：：OpenMsgStore** 以打开远程服务器上的默认存储。 
   
 ```cpp
 HRESULT HrRemoteMessageStore( 

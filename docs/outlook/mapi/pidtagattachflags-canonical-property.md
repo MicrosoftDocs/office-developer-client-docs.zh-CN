@@ -25,7 +25,7 @@ ms.locfileid: "32339331"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含附件的标志的位掩码。 
+包含附件标志的位掩码。 
   
 |||
 |:-----|:-----|
@@ -34,39 +34,39 @@ ms.locfileid: "32339331"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此属性用于 MHTML 支持。 
   
-可以为**PR_ATTACH_FLAGS**位掩码设置以下一个或多个标志: 
+可以针对该位掩码设置以下一个或多个PR_ATTACH_FLAGS标记：  
   
 ATT_INVISIBLE_IN_HTML 
   
-> 指示此附件对 HTML 呈现应用程序不可用, 应在多用途 Internet 邮件扩展 (MIME) 处理中被忽略。 
+> 指示此附件对 HTML 呈现应用程序不可用，应在 MIME 应用程序处理的多用途 Internet 邮件扩展 (忽略) 。 
     
 ATT_INVISIBLE_IN_RTF 
   
-> 指示此附件不适用于以 rtf 格式呈现的应用程序, 并且应由 MAPI 忽略。
+> 指示此附件不适用于 RTF 格式的 RTF (格式) MAPI 应忽略此附件。
     
-如果**PR_ATTACH_FLAGS**属性为零或不存在, 则附件将由所有应用程序处理。 
+如果 **PR_ATTACH_FLAGS** 属性为零或不存在，则所有应用程序将处理附件。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

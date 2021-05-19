@@ -25,35 +25,35 @@ ms.locfileid: "32331554"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示邮件在被筛选到 "垃圾邮件" 文件夹中之前的所在的文件夹。
+指示邮件在被筛选到垃圾邮件文件夹之前位于哪个文件夹。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidSpamOriginalFolder  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x0000859C  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x0000859C  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |垃圾邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性的值是在移动邮件之前包含邮件的文件夹的**EntryID** 。 将邮件标记为垃圾邮件时, 应设置此属性。 
+此属性的值是移动邮件之前包含邮件的文件夹的 **EntryID。** 当邮件被标记为垃圾邮件时，应设置此属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> 启用对允许/阻止列表的处理以及确定垃圾邮件。
+> 允许/阻止列表的处理和垃圾邮件的确定。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

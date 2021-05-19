@@ -27,7 +27,7 @@ ms.locfileid: "32331162"
 
 在下面的代码示例中，创建的邮件中附加了行程，然后通过 Windows Live Hotmail 帐户进行发送。 Hotmail 电子邮件帐户用作用户配置文件中的 **Account** 对象。 然后，此代码示例将 SendUsingAccount 属性设置为这个 Account 对象，并调用 [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) 对象中的 [Send()](https://msdn.microsoft.com/library/bb644139\(v=office.15\)) 方法。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

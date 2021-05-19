@@ -25,7 +25,7 @@ ms.locfileid: "32335208"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回私有 Mapi32 的路径。
+返回专用路径Mapi32.dll。
   
 ```cpp
 BOOL FGetComponentPath(
@@ -41,23 +41,23 @@ BOOL FGetComponentPath(
 
  _szComponent_
   
-> 实时[Mapi32 存根 (Stub) 注册表设置](https://msdn.microsoft.com/library/dd162409.aspx)中所述的 MSIComponentID 注册表项。
+> [in]存根注册表中介绍的 MSIComponentIDMapi32.dll[注册表设置。](https://msdn.microsoft.com/library/dd162409.aspx)
     
  _szQualifier_
   
-> 实时[选择要加载的 MAPI 的特定版本](how-to-choose-a-specific-version-of-mapi-to-load.md)中所述的 MSIApplicationLCID 或 MSIOfficeLCID 子项。 如果没有限定符, 调用方可以传递**null** 。 
+> [in]"选择要加载的 MAPI 的特定版本"中介绍的 MSIApplicationLCID 或 MSIOfficeLCID [子项](how-to-choose-a-specific-version-of-mapi-to-load.md)。 如果没有限定符，则调用方可以传递 **null。** 
     
  _szDllPath_
   
-> 实时包含完整 MAPI 功能 (与 Mapi32 相同的导出) 的专用 Mapi32 的路径。
+> [in]专用应用程序的路径，Mapi32.dll具有完整 MAPI 功能 (导出与Mapi32.dll) 。
     
  _cchBufferSize_
   
-> 实时_szDllPath_的大小, 以字符为单位。
+> [in]  _szDllPath 的大小（_ 以字符表示）。
     
  _fInstall_
   
-> 实时通知 MAPI 安装私有 Mapi32 组件 (如果缺少)。
+> [in]指示 MAPI 安装专用 Mapi32.dll组件（如果不存在）。
     
 ## <a name="return-value"></a>返回值
 
@@ -65,13 +65,13 @@ BOOL FGetComponentPath(
   
 > 找到路径。
     
- **该值**
+ **false**
   
-> 找不到路径。
+> 未找到路径。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-当您需要获取专用 Mapi32 的路径时, 请使用**FGetComponentPath**函数。 
+需要获取专用路径的路径时，请使用 **FGetComponentPath** Mapi32.dll。 
   
 ## <a name="see-also"></a>另请参阅
 
@@ -80,5 +80,5 @@ BOOL FGetComponentPath(
 [选择要加载的 MAPI 的特定版本](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[Mapi32 存根注册表设置](https://msdn.microsoft.com/library/dd162409.aspx)
+[Mapi32.dll存根注册表设置](https://msdn.microsoft.com/library/dd162409.aspx)
 

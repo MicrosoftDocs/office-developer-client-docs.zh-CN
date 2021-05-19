@@ -25,12 +25,12 @@ ms.locfileid: "33418391"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算现有[FLATMTSIDLIST](flatmtsidlist.md)结构中的字节数。 
+计算现有 [FLATMTSIDLIST](flatmtsidlist.md) 结构的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**FLATMTSIDLIST** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**FLATMTSIDLIST** <br/> |
    
 ```cpp
 CbFLATMTSIDLIST (_lplist)
@@ -38,9 +38,9 @@ CbFLATMTSIDLIST (_lplist)
 
 ## <a name="parameters"></a>参数
 
- __lplist_
+ _ _lplist_
   
-> 指向现有**FLATMTSIDLIST**结构的指针。 
+> 指向现有 **FLATMTSIDLIST 结构的** 指针。 
     
 ## <a name="see-also"></a>另请参阅
 

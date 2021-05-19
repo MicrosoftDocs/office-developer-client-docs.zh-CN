@@ -25,7 +25,7 @@ ms.locfileid: "33416130"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回表单容器的显示名称。
+返回显示名称容器的容器。
   
 ```cpp
 HRESULT GetDisplay(
@@ -38,21 +38,21 @@ HRESULT GetDisplay(
 
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制返回的字符串的类型。 可以设置以下标志:
+> [in]控制返回的字符串类型的标志的位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 返回的字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
  _pszDisplayName_
   
-> 排除指向包含表单容器的显示名称的字符串的指针。
+> [out]指向包含表单容器显示名称字符串的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -60,7 +60,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|FormContainerDlg  <br/> |CFormContainerDlg:: CFormContainerDlg  <br/> |MFCMAPI 在呈现 CFormContainerDlg 时使用**IMAPIFormContainer:: GetDisplay**方法获取表单容器的名称。  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg：：CFormContainerDlg  <br/> |MFCMAPI 在呈现 **CFormContainerDlg 时，使用 IMAPIFormContainer：：GetDisplay** 方法获取表单容器的名称。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

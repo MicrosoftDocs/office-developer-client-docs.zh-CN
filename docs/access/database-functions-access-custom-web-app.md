@@ -1,5 +1,5 @@
 ---
-title: 数据库函数 (Access 自定义 web 应用程序)
+title: 'Access 自定义 (应用程序的数据库) '
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -13,16 +13,16 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418909"
 ---
-# <a name="database-functions-access-custom-web-app"></a>数据库函数 (Access 自定义 web 应用程序)
+# <a name="database-functions-access-custom-web-app"></a>Access 自定义 (应用程序的数据库) 
 
 > [!IMPORTANT]
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 
-- [UserDisplayName 函数 (Access 自定义 web 应用程序)](userdisplayname-function-access-custom-web-app.md)
+- [Access 自定义 Web (UserDisplayName 函数) ](userdisplayname-function-access-custom-web-app.md)
     
-- [UserEmailAddress 函数 (Access 自定义 web 应用程序)](useremailaddress-function-access-custom-web-app.md)
+- [UserEmailAddress 函数 (Access 自定义 Web 应用) ](useremailaddress-function-access-custom-web-app.md)
     
-- [Update 函数 (Access 自定义 web 应用程序)](update-function-access-custom-web-app.md)
+- [Update function (Access custom web app) ](update-function-access-custom-web-app.md)
     
 

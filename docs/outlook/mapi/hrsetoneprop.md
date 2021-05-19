@@ -25,13 +25,13 @@ ms.locfileid: "33417656"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-设置或更改属性接口上单个属性的值, 即从[IMAPIProp](imapipropiunknown.md)派生的接口。 
+设置或更改属性接口上单个属性的值，即，派生自 [IMAPIProp 的接口](imapipropiunknown.md)。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 HrSetOneProp(
@@ -44,11 +44,11 @@ HrSetOneProp(
 
  _pmp_
   
-> 实时指向要在其上设置或更改属性值的[IMAPIProp](imapipropiunknown.md)接口的指针。 
+> [in]指向要设置或更改属性值的 [IMAPIProp](imapipropiunknown.md) 接口的指针。 
     
  _pprop_
   
-> 实时指向[SPropValue](spropvalue.md)结构的指针, 该结构定义要在_pmp_属性上设置的值。 
+> [in]指向 [SPropValue](spropvalue.md) 结构的指针，该结构定义在  _pmp_ 属性上设置的值。 
     
 ## <a name="return-value"></a>返回值
 
@@ -56,8 +56,8 @@ HrSetOneProp(
   
 ## <a name="remarks"></a>说明
 
-与[IMAPIProp:: SetProps](imapiprop-setprops.md)方法不同, **HrSetOneProp**函数永远不会返回任何警告。 由于它仅设置一个属性, 它只是 "成功" 或 "失败"。 若要设置或更改多个属性, **SetProps**速度更快。 
+与 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法不同 **，HrSetOneProp** 函数从不返回任何警告。 因为它只设置一个属性，所以它要么成功要么失败。 对于设置或更改多个属性 **，SetProps** 速度更快。 
   
-您可以使用[HrGetOneProp](hrgetoneprop.md)函数检索单个属性。 
+可以使用 [HrGetOneProp](hrgetoneprop.md) 函数检索单个属性。 
   
 

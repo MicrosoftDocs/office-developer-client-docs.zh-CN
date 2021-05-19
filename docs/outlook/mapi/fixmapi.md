@@ -21,13 +21,13 @@ ms.locfileid: "32334959"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在客户端计算机上创建 mapi32 的当前副本的备份副本, 并使用 MAPI 存根库 (mapistub) 还原 mapi32。
+在客户端计算机上创建当前 mapi32.dll 副本的备份副本，并还原mapi32.dll MAPI 存根库mapistub.dll。
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|导出者:  <br/> |mapistub  <br/> |
+|导出者：  <br/> |mapistub.dll  <br/> |
 |调用者：  <br/> |客户端  <br/> |
 |实现者：  <br/> |Windows  <br/> |
    
@@ -37,23 +37,23 @@ DWORD STDAPICALLTYPE FixMAPI(void);
 
 ## <a name="return-values"></a>返回值
 
-如果函数成功, 则返回值为非零值。
+如果函数成功，则返回值为非零值。
   
-如果函数失败, 则返回的值为零。 若要获取扩展的错误消息, 请调用 Microsoft Windows 软件开发工具包 (SDK) 函数 ( **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**)。 
+如果函数失败，则返回值为 0。 若要获取扩展的错误信息，请调用 Microsoft Windows Software Development Kit (SDK) 函数 **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
- 如果文件被标记为只读, 则**FixMAPI**不会替换当前的 mapi32 文件。 
+ **FixMAPI** 不会替换当前mapi32.dll文件，如果该文件标记为只读。 
   
- 如果计算机上安装了 Microsoft Exchange Server, **FixMAPI**不会替换当前的 mapi32。 
+ **FixMAPI** 不会替换当前mapi32.dll如果Microsoft Exchange Server安装当前服务器。 
   
-当**FixMAPI**在计算机上制作 mapi32 的当前副本的备份副本时, 它会为备份副本分配一个不同于 "mapi32" 的名称。 然后, 它将为该程序集预定的后续调用定向到备份副本。 
+当 **FixMAPI** 在计算机上创建当前 mapi32.dll 副本的备份副本时，它会为备份副本分配一个不同于"mapi32.dll"的名称。 然后，它将针对该程序集的后续调用引导到备份副本。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[KB 256946: 启动 Outlook 2000 时收到程序冲突错误消息](https://support.microsoft.com/kb/256946)
+[KB 256946：在启动 2000 时收到Outlook错误消息](https://support.microsoft.com/kb/256946)
   
-[KB 228457: Internet Explorer 5 附带的 Fixmapi 工具的说明](https://support.microsoft.com/kb/228457)
+[KB 228457：Fixmapi.exe工具的说明 5 Internet Explorer 5](https://support.microsoft.com/kb/228457)
 

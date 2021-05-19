@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c472ce02-4ef4-40a9-51de-12b37f092342
-description: 此成员是占位符, 不受支持。 它必须始终返回 E_NOTIMPL。
+description: 此成员是占位符，不受支持。 它必须始终返回E_NOTIMPL。
 ms.openlocfilehash: 0c263039ed562763cef2ab5e5e3f3a3e5ca90ab2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33418888"
 ---
 # <a name="iolkaccounthelperplaceholder1"></a>IOlkAccountHelper::Placeholder1
 
-此成员是占位符, 不受支持。 它必须始终返回 E_NOTIMPL。
+此成员是占位符，不受支持。 它必须始终返回E_NOTIMPL。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -28,11 +28,11 @@ HRESULT IOlkAccountHelper::Placeholder1 (
 
 ## <a name="return-values"></a>返回值
 
-始终 E_NOTIMPL, 因为此成员是[IOlkAccountHelper](iolkaccounthelper.md)中的占位符, 不受支持。 
+始终E_NOTIMPL，因为此成员是 [IOlkAccountHelper](iolkaccounthelper.md) 中的占位符，并且不受支持。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此成员必须始终返回 E_NOTIMPL。
+此成员必须始终返回E_NOTIMPL。
   
 ## <a name="see-also"></a>另请参阅
 

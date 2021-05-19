@@ -25,13 +25,13 @@ ms.locfileid: "33416522"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将 SCODE 返回值从 OLE 存储对象映射到 HRESULT 类型。 
+地图 OLE 存储对象向 HRESULT 类型返回 SCODE 返回值。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Imessage  <br/> |
+|标头文件：  <br/> |Imessage.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE MapStorageSCode(
@@ -43,22 +43,22 @@ SCODE MapStorageSCode(
 
  _StgSCode_
   
-> 实时MAPI SCODE 从 OLE 存储对象返回要映射到 HRESULT 值的值。
+> [in]MAPI SCODE 返回要映射到 HRESULT 值的 OLE 存储对象中的值。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回所需的值。
+> 调用成功并返回预期值。
     
 MAPI_E_CALL_FAILED 
   
-> 函数找不到匹配的值。
+> 函数找不到匹配值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-mapi 提供了**MapStorageSCode**函数, 用于在邮件 DLL 中基于其邮件实现的 MAPI 组件的内部使用。 由于这些组件本身打开的是 ole 存储, 因此它们必须能够将 OLE 存储问题返回的错误值映射到 HRESULT 值。 
+MAPI 提供 **MapStorageSCode** 函数，供内部使用 MAPI 组件，这些组件基于消息 DLL 实现其邮件实现。 因为这些组件自行打开 OLE 存储，所以它们必须能够将针对 OLE 存储问题返回的错误值映射到 HRESULT 值。 
   
-有关详细信息, 请参阅[结构化存储](structured-storage-in-mapi.md)。 
+有关详细信息，请参阅结构化[存储。](structured-storage-in-mapi.md) 
   
 

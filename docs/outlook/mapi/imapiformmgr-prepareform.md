@@ -25,7 +25,7 @@ ms.locfileid: "33416648"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-下载用于打开的表单。
+下载要打开的表单。
   
 ```cpp
 HRESULT PrepareForm(
@@ -39,31 +39,31 @@ HRESULT PrepareForm(
 
  _ulUIParam_
   
-> 实时进度指示器的父窗口的句柄, 在表单下载过程中显示。 除非在_ulFlags_参数中设置了 MAPI_DIALOG 标志, 否则将忽略_ulUIParam_参数。 
+> [in]下载表单时显示的进度指示器的父窗口的句柄。 除非  _在 ulFlags_ 参数中设置了 MAPI_DIALOG 标志，否则将忽略  _ulUIParam_ 参数。 
     
  _ulFlags_
   
-> 实时用于控制如何下载表单的标志的位掩码。 可以设置以下标志:
+> [in]控制表单下载方式的标志的位掩码。 可以设置以下标志：
     
 MAPI_DIALOG 
   
-> 显示一个用户界面, 以提供状态或提示用户详细信息。 如果未设置此标志, 则不会显示任何用户界面。
+> 显示用户界面以提供状态或提示用户输入详细信息。 如果未设置此标志，则不显示用户界面。
     
  _pfrmiInfo_
   
-> 实时指向要下载的表单的表单信息对象的指针。
+> [in]指向要下载的表单的表单信息对象的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单查看者调用**IMAPIFormMgr::P repareform**方法从用于打开的表单容器下载表单。 大多数窗体查看器不需要调用**PrepareForm**, 因为[IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md)和[IMAPIFormMgr:: LoadForm](imapiformmgr-loadform.md)方法都调用**PrepareForm**(如有必要)。 
+表单查看器调用 **IMAPIFormMgr：:P repareForm** 方法，从表单容器下载表单以打开。 大多数表单查看器不需要调用 **PrepareForm，** 因为 [IMAPIFormMgr：：CreateForm](imapiformmgr-createform.md) 和 [IMAPIFormMgr：：LoadForm](imapiformmgr-loadform.md) 方法都调用 **PrepareForm（** 如有必要）。 
   
-您可以使用**PrepareForm**获取与表单关联的动态链接库 (dll) 和其他文件, 以对其进行修改。 如果将修改的表单加载回其表单容器, 则必须重新安装它。 
+可以使用 **PrepareForm** 获取 DLL 中的动态链接库 (DLL) 与表单关联的其他文件来修改它们。 如果修改后的表单加载回其表单容器，则必须重新安装该表单。 
   
 ## <a name="see-also"></a>另请参阅
 

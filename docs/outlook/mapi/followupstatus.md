@@ -21,7 +21,7 @@ ms.locfileid: "33418328"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定邮件的不同跟进状态。
+指定邮件的不同后续状态。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -38,7 +38,7 @@ enum FollowUpStatus {
 
  _flwupNone_
   
-> 未指定跟进。
+> 未指定任何后续操作。
     
  _flwupComplete_
   
@@ -46,11 +46,11 @@ enum FollowUpStatus {
     
  _flwupMarked_
   
-> 将邮件标记为待跟踪状态。
+> 邮件标记为后续跟进。
     
  _flwupMAX_
   
-> 支持的不同状态的跟踪次数。
+> 支持跟进的不同状态数。
     
 ## <a name="see-also"></a>另请参阅
 

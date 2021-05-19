@@ -25,41 +25,41 @@ ms.locfileid: "32339940"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用户 specifiable 文本, 用于在合并的待办工作列表中标识此 message 对象。
+包含用户可指定文本，用于标识合并的 to-do 列表中的此消息对象。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidToDoTitle  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x000085A4  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x000085A4  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-不得对任务设置此属性。 若要指示一个空属性, 请不要将此属性设置为零长度字符串, 而是将其删除。 
+不能对任务设置此属性。 若要指示空属性，请勿将此属性设置为零长度字符串，而应将其删除。 
   
-标记邮件对象时, 如果该属性不存在, 客户端应将**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 的值写入该属性。
+标记邮件对象时，如果该属性不存在，客户端应该将 **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 写入此属性。
   
-在合并的待办任务列表中, 如果该属性不存在, 客户端应在待办任务列表中显示此属性时替换**PR_NORMALIZED_SUBJECT**属性的值。 
+在合并的 To-do 列表中，如果此属性不存在，则当在要执行列表中显示此属性时，客户端应替换 **PR_NORMALIZED_SUBJECT** 属性的值。 
   
-在草稿邮件对象上, 如果客户端实现发件人标志, 则应将此属性设置为与**dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) 相同的值。
+在草稿邮件对象上，如果客户端实现发件人标志，则此属性应设置为与 [PidLidFlagRequest](pidlidflagrequest-canonical-property.md) (**dispidRequest**) 。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用
+> 提供属性集定义和对相关协议规范Exchange Server引用
     
-[[毫秒-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > 指定与标记相关的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

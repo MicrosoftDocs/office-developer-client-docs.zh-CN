@@ -25,7 +25,7 @@ ms.locfileid: "32335795"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定脱机方案中的通讯簿容器的路径或全局编录服务器的完全限定域名, 通讯簿容器驻留在联机方案中。
+指定脱机方案中通讯簿容器的路径或通讯簿容器驻留在联机方案中的全局编录服务器的完全限定域名。
   
 ## 
 
@@ -36,27 +36,27 @@ ms.locfileid: "32335795"
 |数据类型：  <br/> |PT_TSTRING  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-当使用 UNICODE 平台上的`UNICODE`符号编译此属性的属性类型时, 此属性会将该属性重置为**PT_UNICODE** , 如果不使用`UNICODE`符号编译该属性, 则为**PT_STRING8** 。 
+此属性将属性类型重置为PT_UNICODE  Unicode 平台上使用符号编译时，此属性将重置为 PT_STRING8，当未使用符号编译时，此属性将重置为 `UNICODE`  `UNICODE` 属性类型。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

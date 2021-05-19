@@ -25,48 +25,48 @@ ms.locfileid: "33418104"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-支持对 microsoft exchange server 表对象的访问, 特别是系统访问控制列表 (SACL) 表对象和 microsoft exchange server 文件夹中的 rule 表对象。 此接口类似于[IMAPITable: IUnknown](imapitableiunknown.md)接口, 但它添加了对用于控制 sacl 和规则的 Microsoft Exchange 服务器特定结构的支持。 
+支持访问 Microsoft Exchange Server 表对象，特别是 SACL (SACL) 表对象和规则表Microsoft Exchange Server对象。 此接口类似于[IMAPITable ： IUnknown](imapitableiunknown.md)接口，但它添加了对Microsoft Exchange Server SACLs 和规则的特定结构的支持。 
   
 |||
 |:-----|:-----|
-|公开者:  <br/> |无  <br/> |
-|实现者：  <br/> |Server 表对象  <br/> |
+|公开者：  <br/> |无  <br/> |
+|实现者：  <br/> |服务器表对象  <br/> |
 |调用者：  <br/> |MAPI 和客户端应用程序  <br/> |
-|接口标识符:  <br/> |IID_IExchangeModifyTable  <br/> |
-|指针类型:  <br/> |LPEXCHANGEMODIFYTABLE  <br/> |
-|事务模型:  <br/> |事务  <br/> |
+|接口标识符：  <br/> |IID_IExchangeModifyTable  <br/> |
+|指针类型：  <br/> |LPEXCHANGEMODIFYTABLE  <br/> |
+|事务模型：  <br/> |Transacted  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |返回有关在 table 对象中发生的最后一个错误的信息。  <br/> |
-|[GetTable](iexchangemodifytable-gettable.md) <br/> |返回指向 MAPI 表对象的接口的指针。  <br/> |
+|[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |返回有关 table 对象中发生的最后一个错误的信息。  <br/> |
+|[GetTable](iexchangemodifytable-gettable.md) <br/> |返回一个指向 MAPI 表对象的接口的指针。  <br/> |
 |[ModifyTable](iexchangemodifytable-modifytable.md) <br/> |更新 MAPI 表对象。  <br/> |
    
-|**用于修改规则表的属性**|**访问**|
+|**用于修改规则表的属性**|**Access**|
 |:-----|:-----|
-|**PR_RULE_ACTIONS**([PidTagRuleActions](pidtagruleactions-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_RULE_CONDITION**([PidTagRuleCondition](pidtagrulecondition-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_RULE_ID**([PidTagRuleId](pidtagruleid-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_RULE_LEVEL**([PidTagRuleLevel](pidtagrulelevel-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_RULE_NAME**([PidTagRuleName](pidtagrulename-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_RULE_PROVIDER**([PidTagRuleProvider](pidtagruleprovider-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_RULE_PROVIDER_DATA**([PidTagRuleProviderData](pidtagruleproviderdata-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_RULE_SEQUENCE**([PidTagRuleSequence](pidtagrulesequence-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_RULE_STATE**([PidTagRuleState](pidtagrulestate-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_RULE_USER_FLAGS**([PidTagRuleUserFlags](pidtagruleuserflags-canonical-property.md))  <br/> |只读  <br/> |
+|**PR_RULE_ACTIONS (** [PidTagRuleActions](pidtagruleactions-canonical-property.md))   <br/> |只读  <br/> |
+|**PR_RULE_CONDITION (** [PidTagRuleCondition)](pidtagrulecondition-canonical-property.md)  <br/> |只读  <br/> |
+|**PR_RULE_ID (** [PidTagRuleId](pidtagruleid-canonical-property.md))   <br/> |只读  <br/> |
+|**PR_RULE_LEVEL (** [PidTagRuleLevel](pidtagrulelevel-canonical-property.md))   <br/> |只读  <br/> |
+|**PR_RULE_NAME (** [PidTagRuleName](pidtagrulename-canonical-property.md))   <br/> |只读  <br/> |
+|**PR_RULE_PROVIDER (** [PidTagRuleProvider](pidtagruleprovider-canonical-property.md))   <br/> |只读  <br/> |
+|**PR_RULE_PROVIDER_DATA (** [PidTagRuleProviderData](pidtagruleproviderdata-canonical-property.md))   <br/> |只读  <br/> |
+|**PR_RULE_SEQUENCE (** [PidTagRuleSequence)](pidtagrulesequence-canonical-property.md)  <br/> |只读  <br/> |
+|**PR_RULE_STATE (** [PidTagRuleState](pidtagrulestate-canonical-property.md))   <br/> |只读  <br/> |
+|**PR_RULE_USER_FLAGS (** [PidTagRuleUserFlags)](pidtagruleuserflags-canonical-property.md)  <br/> |只读  <br/> |
    
-|**用于修改 SACL 表的属性**|**访问**|
+|**用于修改 SACL 表的属性**|**Access**|
 |:-----|:-----|
-|**PR_MEMBER_ENTRYID**([PidTagMemberEntryId](pidtagmemberentryid-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_MEMBER_ID**([PidTagMemberId](pidtagmemberid-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_MEMBER_NAME**([PidTagMemberName](pidtagmembername-canonical-property.md))  <br/> |只读  <br/> |
-|**PR_MEMBER_RIGHTS**([PidTagMemberRights](pidtagmemberrights-canonical-property.md))  <br/> |只读  <br/> |
+|**PR_MEMBER_ENTRYID (** [PidTagMemberEntryId)](pidtagmemberentryid-canonical-property.md)  <br/> |只读  <br/> |
+|**PR_MEMBER_ID (** [PidTagMemberId)](pidtagmemberid-canonical-property.md)  <br/> |只读  <br/> |
+|**PR_MEMBER_NAME (** [PidTagMemberName)](pidtagmembername-canonical-property.md)  <br/> |只读  <br/> |
+|**PR_MEMBER_RIGHTS (** [PidTagMemberRights)](pidtagmemberrights-canonical-property.md)  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-若要获取**IExchangeModifyTable**接口, 请在 folder 对象上的 PT_OBJECT 类型的属性上调用 MAPI [IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法。 调用**OpenProperty**方法时, 请在_lpiid_参数中传递值**IID_IExchangeModifyTable** 。 
+若要获取 **IExchangeModifyTable** 接口，请对文件夹对象上类型为 PT_OBJECT 的属性调用 MAPI [IMAPIProp：：OpenProperty](imapiprop-openproperty.md) 方法。 调用 **OpenProperty** 方法时，将值IID_IExchangeModifyTable _lpiid_**参数中**。 
   
 ## <a name="see-also"></a>另请参阅
 

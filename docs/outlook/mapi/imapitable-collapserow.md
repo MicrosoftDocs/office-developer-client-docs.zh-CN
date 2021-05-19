@@ -25,7 +25,7 @@ ms.locfileid: "33416172"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-折叠展开的表格类别, 从表格视图中删除属于该类别的所有低级标题和叶行。
+折叠展开的表类别，从表视图中删除属于该类别的任何较低级别标题和叶行。
   
 ```cpp
 HRESULT CollapseRow(
@@ -40,19 +40,19 @@ ULONG FAR * lpulRowCount
 
  _cbInstanceKey_
   
-> 实时_pbInstanceKey_参数所指向的 PR_INSTANCE_KEY 属性中的字节数。 
+> [in]  _pbInstanceKey_ 参数PR_INSTANCE_KEY属性中的字节数。 
     
  _pbInstanceKey_
   
-> 实时一个指针, 指向用于标识该类别的标题行的**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 属性。 
+> [in]指向标识类别 **的标题** PR_INSTANCE_KEY ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 属性的指针。 
     
  _ulFlags_
   
-> 保留必须为零。
+> 保留;必须为零。
     
  _lpulRowCount_
   
-> 排除一个指针, 指向要从表视图中删除的总行数。
+> [out]指向从表视图中删除的总行数的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -62,21 +62,21 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> 由_pbInstanceKey_参数标识的行不存在。 
+> _pbInstanceKey_ 参数标识的行不存在。 
     
 MAPI_E_INVALID_ENTRYID 
   
-> 由_pbInstanceKey_参数标识的行不存在。 此错误是 MAPI_E_NOT_FOUND 的替代方法;服务提供程序可以返回其中一个。 
+> _pbInstanceKey_ 参数标识的行不存在。 此错误是一种替代MAPI_E_NOT_FOUND;服务提供程序可以返回其中一个。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPITable:: CollapseRow**方法折叠表类别并将其从表格视图中删除。 行是从由_pbInstanceKey_参数指向的**PR_INSTANCE_KEY**属性所标识的行开始折叠的。 从视图中删除的行数在_lpulRowCount_参数的内容中返回。 
+**IMAPITable：：CollapseRow** 方法折叠表类别，并从表视图中删除该类别。 从 _pbInstanceKey_ 参数指向的 **PR_INSTANCE_KEY** 属性所标识的行开始折叠行。 从视图中删除的行数在  _lpulRowCount_ 参数的内容中返回。 
   
-从不为作为折叠操作的结果从视图中删除的表行生成通知。 
+从不为由于折叠操作而从视图中删除的表行生成通知。 
   
-当书签定义的行折叠在视图之外时, 该书签将移到指向下一个可见行的位置。 
+当书签定义的行折叠到视图外时，书签将移动到下一个可见行。 
   
-有关分类表的详细信息, 请参阅[排序和分类](sorting-and-categorization.md)。
+有关分类表的信息，请参阅排序 [和分类](sorting-and-categorization.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -84,7 +84,7 @@ MAPI_E_INVALID_ENTRYID
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl  <br/> |CContentsTableListCtrl::D oexpandcollapse  <br/> |MFCMAPI 使用**IMAPITable:: CollapseRow**方法折叠表类别。  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl：:D oExpandCollapse  <br/> |MFCMAPI 使用 **IMAPITable：：CollapseRow** 方法折叠表类别。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

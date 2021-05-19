@@ -29,31 +29,31 @@ ms.locfileid: "32331442"
   
 |||
 |:-----|:-----|
-|友好名称:  <br/> |无  <br/> |
-|属性集:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|属性名称:  <br/> |Xref  <br/> |
+|友好名称：  <br/> |无  <br/> |
+|属性集：  <br/> |PS_INTERNET_HEADERS  <br/> |
+|属性名称：  <br/> |Xref  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-若要设置此属性的值, 多用途 Internet 邮件扩展 (MIME) 客户端必须将所需值写入 XRef 头字段。 MIME 读取器必须将 XRef 头字段的值复制到该属性的值。
+若要设置此属性的值，MIME 客户端的多用途 Internet 邮件扩展 (MIME) 必须将所需的值写入 XRef 头字段。 MIME 读取器必须将 XRef 头字段的值复制到此属性的值。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417201"
 ---
-# <a name="mscapselector"></a>MSCAP_SELECTOR
+# <a name="mscap_selector"></a>MSCAP_SELECTOR
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定要为存储区返回的功能。
+指定为存储区返回的功能。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -40,19 +40,19 @@ typedef enum
 
  *MSCAP_SEL_RESERVED1* 
   
-> 此成员是为内部使用 Outlook 而保留的, 不受支持。 
+> 此成员仅供内部使用，Outlook不支持。 
     
  *MSCAP_SEL_RESERVED2* 
   
-> 此成员是为内部使用 Outlook 而保留的, 不受支持。 
+> 此成员仅供内部使用，Outlook不支持。 
     
  *MSCAP_SEL_FOLDER* 
   
-> 有关在 store 上支持文件夹的功能。
+> 有关在存储区上支持文件夹的功能。
     
  *MSCAP_SEL_RESERVED3* 
   
-> 此成员是为内部使用 Outlook 而保留的, 不受支持。 
+> 此成员仅供内部使用，Outlook不支持。 
     
  *MSCAP_SEL_RESTRICTION* 
   

@@ -25,7 +25,7 @@ ms.locfileid: "33418916"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于消息确认的模式的标识符。
+包含消息确认的模式的标识符。
   
 |||
 |:-----|:-----|
@@ -34,9 +34,9 @@ ms.locfileid: "33418916"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性可以具有下列值之一:
+此属性可以正好具有下列值之一：
   
 |**值**|**说明**|
 |:-----|:-----|
@@ -47,13 +47,13 @@ ms.locfileid: "33418916"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

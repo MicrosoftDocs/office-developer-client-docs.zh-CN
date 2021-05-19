@@ -1,5 +1,5 @@
 ---
-title: YGridSpacing 单元格 ( &amp; "标尺网格" 部分)
+title: 'YGridSpacing Cell (Ruler &amp; Grid Section) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417460"
 ---
-# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>YGridSpacing 单元格 ( &amp; "标尺网格" 部分)
+# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>YGridSpacing Cell (Ruler &amp; Grid Section) 
 
 指定固定网格中垂直线条间的距离 (YGridDensity = 0)。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-对应于 "**标尺&amp;网格**" 对话框 (在 "**视图**" 选项卡上, 单击 "**显示**" 箭头) 中的 "垂直**最小间距**" 选项。 
+对应于"视图 **"选项卡上**"标尺网格 **" &amp;** 对话框中 **("** 最小间距"选项，单击"显示") 。  
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 YGridSpacing 单元格的引用，请使用： 
   

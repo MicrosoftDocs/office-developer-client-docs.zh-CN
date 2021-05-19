@@ -25,35 +25,35 @@ ms.locfileid: "32331498"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 [RFC3282] Content Base 头字段值。
+包含 [RFC3282] Content-Base 标头字段值。
   
 |||
 |:-----|:-----|
-|友好名称:  <br/> |BodyContentBase  <br/> |
-|属性集:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|属性名称:  <br/> |Content-Base  <br/> |
+|友好名称：  <br/> |BodyContentBase  <br/> |
+|属性集：  <br/> |PS_INTERNET_HEADERS  <br/> |
+|属性名称：  <br/> |Content-Base  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-若要设置此属性的值, 多用途 Internet 邮件扩展 (MIME) 客户端必须向映射到邮件正文的 MIME 实体上的内容基头字段写入所需的值。 mime 读取器必须将此类 MIME 实体上 Content Base 头字段的值复制到此属性的值。
+若要设置此属性的值，多用途 Internet 邮件扩展 (MIME) 客户端必须将所需的值写入映射到邮件正文的 MIME 实体上的 Content-Base 头字段。 MIME 阅读器必须将此类 MIME 实体上 Content-Base 头字段的值复制到此属性的值。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

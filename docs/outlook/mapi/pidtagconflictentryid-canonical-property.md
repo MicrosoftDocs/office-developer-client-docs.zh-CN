@@ -25,7 +25,7 @@ ms.locfileid: "32336797"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含冲突解决邮件的 EntryID。
+包含冲突解决消息的 EntryID。
   
 |||
 |:-----|:-----|
@@ -38,23 +38,23 @@ ms.locfileid: "32336797"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 定义在由 OXO-前缀的文档描述的对象中使用的每个属性。
+> 定义在 MS-OXO 前缀文档所描述的对象中使用的每个属性。
     
-[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理服务器和客户端之间的同步邮件对象数据。
+> 处理在服务器和客户端之间同步邮件对象数据。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -27,7 +27,7 @@ ms.locfileid: "32335411"
 
 在下面的代码示例中，SetRecipientTypeForAppt 创建 **AppointmentItem** 对象，设置此对象的属性，并添加必需与会者和可选与会者。 它还添加会议的会议室。 请注意，[MeetingStatus](https://msdn.microsoft.com/library/bb611417\(v=office.15\)) 属性设置为 [olMeeting](https://msdn.microsoft.com/library/bb644590\(v=office.15\))，这表示约会是会议请求。
 
-如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，而且这个语句必须后跟公共类声明。 下面几行代码展示了如何在 C\# 中执行导入和分配操作。
+如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。 不得将 **using** 语句直接添加到此代码示例中的函数前面，这个语句必须后跟公共类声明。 下面的代码行展示了如何在 C\# 中执行导入和分配操作。
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

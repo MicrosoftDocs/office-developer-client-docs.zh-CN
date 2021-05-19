@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm70007
 localization_priority: Normal
 ms.assetid: 29bfe8ec-ca12-8fbf-b62b-ece3710dfe2e
-description: 指定在 "配置布局" 对话框 (在 "设计" 选项卡上的 "布局" 组中, 单击 "重新布局页面", 然后单击 "其他布局选项") 中排放形状时, 形状在页面上的放置方式。 存储 VisCellIndices 中的布局样式和对齐值。
+description: 指定当形状在"设计"选项卡上的"配置布局"对话框 (中布局时如何在页面上放置形状，单击"Re-Layout 页面"，然后单击"其他布局选项") 。 存储 VisCellIndices 中的布局样式和对齐值。
 ms.openlocfilehash: 381f74912b64395f33a2dc55c0bad24d36a16286
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,37 +18,37 @@ ms.locfileid: "33418573"
 ---
 # <a name="shapeplacestyle-cell-shape-layout-section"></a>ShapePlaceStyle 单元格（“Shape Layout”内容）
 
-指定在 "**配置布局**" 对话框 (在 "**设计**" 选项卡上的 "**布局**" 组中, 单击 "**重新布局页面**", 然后单击 "**其他布局选项**") 中排放形状时, 形状在页面上的放置方式。 存储 **VisCellIndices** 中的布局样式和对齐方式值。 
+指定当形状在"设计"选项卡上的"配置布局"对话框 (中布局时如何在页面上放置形状，单击"重新布局页面"，然后单击"其他布局选项") 。    存储 **VisCellIndices** 中的布局样式和对齐方式值。 
   
 |**常量**|**值**|
 |:-----|:-----|
-|**visLOPlaceBottomToTop** <br/> |4  <br/> |
-|**visLOPlaceCircular** <br/> |型  <br/> |
+|**visLOPlaceBottomToTop** <br/> |4   <br/> |
+|**visLOPlaceCircular** <br/> |6   <br/> |
 |**visLOPlaceCompactDownLeft** <br/> |14   <br/> |
-|**visLOPlaceCompactDownRight** <br/> |步  <br/> |
-|**visLOPlaceCompactLeftDown** <br/> |13   <br/> |
+|**visLOPlaceCompactDownRight** <br/> |7   <br/> |
+|**visLOPlaceCompactLeftDown** <br/> |13  <br/> |
 |**visLOPlaceCompactLeftUp** <br/> |12   <br/> |
-|**visLOPlaceCompactRightDown** <br/> |utf-8  <br/> |
-|**visLOPlaceCompactRightUp** <br/> |第  <br/> |
-|**visLOPlaceCompactUpLeft** <br/> |11   <br/> |
-|**visLOPlaceCompactUpRight** <br/> |10   <br/> |
+|**visLOPlaceCompactRightDown** <br/> |8   <br/> |
+|**visLOPlaceCompactRightUp** <br/> |9   <br/> |
+|**visLOPlaceCompactUpLeft** <br/> |11  <br/> |
+|**visLOPlaceCompactUpRight** <br/> |10    <br/> |
 |**visLOPlaceDefault** <br/> |0  <br/> |
 |**visLOPlaceHierarchyBottomToTopCenter** <br/> |20  <br/> |
-|**visLOPlaceHierarchyBottomToTopLeft** <br/> |合  <br/> |
-|**visLOPlaceHierarchyBottomToTopRight** <br/> |不足  <br/> |
+|**visLOPlaceHierarchyBottomToTopLeft** <br/> |19  <br/> |
+|**visLOPlaceHierarchyBottomToTopRight** <br/> | 21  <br/> |
 |**visLOPlaceHierarchyLeftToRightBottom** <br/> |24  <br/> |
-|**visLOPlaceHierarchyLeftToRightMiddle** <br/> |上午  <br/> |
+|**visLOPlaceHierarchyLeftToRightMiddle** <br/> |23  <br/> |
 |**visLOPlaceHierarchyLeftToRightTop** <br/> |22  <br/> |
 |**visLOPlaceHierarchyRightToLeftBottom** <br/> |27  <br/> |
 |**visLOPlaceHierarchyRightToLeftMiddle** <br/> |26  <br/> |
-|**visLOPlaceHierarchyRightToLeftTop** <br/> |word  <br/> |
-|**visLOPlaceHierarchyTopToBottomCenter** <br/> |×  <br/> |
+|**visLOPlaceHierarchyRightToLeftTop** <br/> |25  <br/> |
+|**visLOPlaceHierarchyTopToBottomCenter** <br/> |17   <br/> |
 |**visLOPlaceHierarchyTopToBottomLeft** <br/> |16   <br/> |
-|**visLOPlaceHierarchyTopToBottomRight** <br/> |18  <br/> |
-|**visLOPlaceLeftToRight** <br/> |双面  <br/> |
-|**visLOPlaceParentDefault** <br/> |15   <br/> |
-|**visLOPlaceRadial** <br/> |第三章  <br/> |
-|**visLOPlaceRightToLeft** <br/> |5  <br/> |
+|**visLOPlaceHierarchyTopToBottomRight** <br/> |18   <br/> |
+|**visLOPlaceLeftToRight** <br/> |2  <br/> |
+|**visLOPlaceParentDefault** <br/> |15  <br/> |
+|**visLOPlaceRadial** <br/> |3  <br/> |
+|**visLOPlaceRightToLeft** <br/> |5   <br/> |
 |**visLOPlaceTopToBottom** <br/> |1  <br/> |
    
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称引用 ShapePlaceStyle 单元格，请使用： 

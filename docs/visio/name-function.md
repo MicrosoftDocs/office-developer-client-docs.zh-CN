@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251580
 localization_priority: Normal
 ms.assetid: 1ca67a09-9df2-37f5-b269-e761d76bb011
-description: 以字符串的形式返回工作表的名称。
+description: 以字符串形式返回工作表的名称。
 ms.openlocfilehash: 7d0a4e9f3c5f70be07e9cc5691f52afcbc7bea68
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33416795"
 ---
 # <a name="name-function"></a>NAME 函数
 
-以字符串的形式返回工作表的名称。
+以字符串形式返回工作表的名称。
   
 ## <a name="syntax"></a>语法
 
-名称 (* * *langID_opt* * *) 
+NAME (** *langID_opt* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -34,7 +34,7 @@ ms.locfileid: "33416795"
 
 String
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 如果传递了非法的语言代码，则将使用本地语言。 
   

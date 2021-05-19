@@ -19,7 +19,7 @@ ms.locfileid: "33416473"
 
 若要扩展 InfoPath 表单的功能，通常必须以编程方式访问与表单的基础 XML 文档有关的信息、访问 XML 文档所包含的数据或对 XML 文档执行某些操作。通过结合使用 [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) 接口和 [XDocumentsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocumentsCollection.aspx) 接口，InfoPath 对象模型可支持对表单的基础 XML 文档进行访问和操作。 
   
-**XDocument** 接口是 InfoPath 对象模型中最有用的类型之一，因为它提供许多属性、方法和事件，不仅能与表单的基础 XML 文档进行交互，而且能够执行 InfoPath 用户界面中的许多可用的操作。在使用 InfoPath 2003 兼容对象模型创建的托管代码项目中，将在项目的表单代码中包含事件处理程序的类的  **** 方法中，自动定义一个名为  `thisXDocument` 的 `_StartUp` 类型的变量。您可以在表单代码中使用  `thisXDocument` 变量访问 **XDocument** 接口及其成员。 
+**XDocument** 接口是 InfoPath 对象模型中最有用的类型之一，因为它提供许多属性、方法和事件，不仅能与表单的基础 XML 文档进行交互，而且能够执行 InfoPath 用户界面中的许多可用的操作。在使用 InfoPath 2003 兼容对象模型创建的托管代码项目中，将在项目的表单代码中包含事件处理程序的类的   方法中，自动定义一个名为  `thisXDocument` 的 `_StartUp` 类型的变量。您可以在表单代码中使用  `thisXDocument` 变量访问 **XDocument** 接口及其成员。 
   
 ## <a name="overview-of-the-xdocumentscollection-interface"></a>XDocumentsCollection 接口概述
 
@@ -69,7 +69,7 @@ ms.locfileid: "33416473"
    
 ## <a name="using-the-xdocuments-collection-and-the-xdocument-interfaces"></a>使用 XDocuments 集合和 XDocument 接口
 
-可通过 **Application** 接口的 [XDocuments](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.XDocuments.aspx) 属性访问 [XDocumentsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) 接口。在使用 InfoPath 2003 兼容对象模型创建的托管代码项目中，您可以使用在项目的表单代码中的  **** 方法中实例化了的  `thisApplication` 变量来访问 `_StartUp` 接口。下列代码行将创建一个引用当前项目的 **XDocumentsCollection** 接口的变量。 
+可通过 **Application** 接口的 [XDocuments](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.XDocuments.aspx) 属性访问 [XDocumentsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) 接口。在使用 InfoPath 2003 兼容对象模型创建的托管代码项目中，您可以使用在项目的表单代码中的   方法中实例化了的  `thisApplication` 变量来访问 `_StartUp` 接口。下列代码行将创建一个引用当前项目的 **XDocumentsCollection** 接口的变量。 
   
 ```cs
 XDocumentsCollection xdocs;
@@ -83,7 +83,7 @@ xdocs = thisApplication.XDocuments
 ' Write code here to work with the XDocumentsCollection.
 ```
 
-在使用 InfoPath 2003 兼容对象模型创建的托管代码项目中，您可以使用在项目的表单代码中的  **** 方法中实例化了的  `thisXDocument` 变量来访问 `StartUp` 接口。下列代码行使用  `thisXDocument` 变量来访问当前项目的 **XDocument** 接口，以便在警告消息中显示当前打开表单的 URI。 
+在使用 InfoPath 2003 兼容对象模型创建的托管代码项目中，您可以使用在项目的表单代码中的   方法中实例化了的  `thisXDocument` 变量来访问 `StartUp` 接口。下列代码行使用  `thisXDocument` 变量来访问当前项目的 **XDocument** 接口，以便在警告消息中显示当前打开表单的 URI。 
   
 ```cs
 thisXDocument.UI.Alert(thisXDocument.URI);

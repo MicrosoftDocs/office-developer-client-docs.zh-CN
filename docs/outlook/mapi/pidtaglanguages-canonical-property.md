@@ -25,30 +25,30 @@ ms.locfileid: "33417838"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含在邮件中并入的语言的 ASCII 列表。 
+包含邮件中合并的语言的 ASCII 列表。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_LANGUAGES、PR_LANGUAGES_A、PR_LANGUAGES_W  <br/> |
 |标识符:  <br/> |0x002F  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-这些属性包含由逗号分隔的双字符国家/地区代码的序列。 
+这些属性包含用逗号分隔的两字符国家/地区代码序列。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -39,11 +39,11 @@ HRESULT ModifyTable(
 
  _ulFlags_
   
-> 实时使用下列值之一: 
+> [in]使用以下值之一： 
     
 0（零）
   
-> 使用[ROWENTRY](rowentry.md)结构的**ulRowFlags**成员的值。 
+> 使用 [ROWENTRY](rowentry.md)结构的 **ulRowFlags** 成员的值。 
     
 ACLTABLE_FREEBUSY
   
@@ -51,11 +51,11 @@ ACLTABLE_FREEBUSY
     
 frightsFreeBusyDetailed
   
-> 当传递 ACLTABLE_FREEBUSY 时, 提供新的忙/闲权限的详细显示。
+> 传递ACLTABLE_FREEBUSY时，提供新的忙/闲权限的详细显示。
     
 frightsFreeBusySimple
   
-> 当传递 ACLTABLE_FREEBUSY 时, 将提供新的忙/闲权限的简单显示。
+> 传递ACLTABLE_FREEBUSY时，提供新的忙/闲权限的简单显示。
     
 ROWLIST_REPLACE
   
@@ -63,7 +63,7 @@ ROWLIST_REPLACE
     
  _lpMods_
   
-> 实时指向一个[ROWLIST](rowlist.md)结构, 其中包含 table 对象的属性。 
+> [in]指向包含 table 对象属性的 [ROWLIST](rowlist.md) 结构。 
     
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -71,7 +71,7 @@ ROWLIST_REPLACE
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|RulesDlg  <br/> |CRulesDlg:: OnModifySelectedItem  <br/> |MFCMAPI 使用**IExchangeModifyTable:: ModifyTable**方法将修改的规则写回到规则表中。  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg：：OnModifySelectedItem  <br/> |MFCMAPI 使用 **IExchangeModifyTable：：ModifyTable** 方法将修改后的规则写回规则表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

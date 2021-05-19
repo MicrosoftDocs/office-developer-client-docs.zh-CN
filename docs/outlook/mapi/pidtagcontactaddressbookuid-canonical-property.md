@@ -25,7 +25,7 @@ ms.locfileid: "33418307"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含标识联系人通讯簿会话的 UID。
+包含标识联系人通讯簿此会话的 UID。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33418307"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果配置了多个联系人通讯簿, 则必须为每个通讯簿设置此属性。 
+如果配置了多个联系人通讯簿，则必须为每种通讯簿设置此属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

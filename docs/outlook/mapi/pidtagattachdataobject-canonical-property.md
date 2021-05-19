@@ -25,7 +25,7 @@ ms.locfileid: "32339282"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含通常通过对象链接和嵌入 (OLE) **IStorage**接口访问的附件对象。 
+包含一个附件对象，该对象通常通过对象链接和嵌入 (OLE) **IStorage** 接口访问。 
   
 |||
 |:-----|:-----|
@@ -34,39 +34,39 @@ ms.locfileid: "32339282"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 属性的值为**ATTACH_EMBEDDED_MSG**或**ATTACH_OLE**, 则此属性将保留附件。 可以从**PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) 确定 OLE 编码类型。 
+当 [PidTagAttachMethod PR_ATTACH_METHOD (PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 属性值为 ATTACH_EMBEDDED_MSG 或ATTACH_OLE 时，此属性将 **保留附件**。  可以从 [PidTagAttachTag](pidtagattachtag-canonical-property.md) **PR_ATTACH_TAG (** OLE 编码) 。 
   
-对于与**ATTACH_EMBEDDED_MSG**值关联的附件, 可以使用[IMessage: IMAPIProp](imessageimapiprop.md)接口来实现更快的访问。 
+对于与值关联的[ATTACH_EMBEDDED_MSG，IMessage：IMAPIProp](imessageimapiprop.md)接口可用于加快访问速度。  
   
-对于嵌入的动态 OLE 对象, **PR_ATTACH_DATA_OBJ**属性包含其自己的呈现信息, 并且**PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) 属性不应为 "不存在" 或 "空"。 
+对于嵌入的动态 OLE 对象 **，PR_ATTACH_DATA_OBJ** 属性包含其自己的呈现信息 **，PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) 属性应为不存在或为空。 
   
-对于 OLE 文档文件附件, 邮件存储提供程序必须响应**PR_ATTACH_DATA_OBJ**上的[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)呼叫, 并且可以选择响应**PR_ATTACH_DATA_BIN**上的呼叫 ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md) )。). **PR_ATTACH_DATA_BIN**和**PR_ATTACH_DATA_OBJ**属性共享相同的属性标识符, 因此这是同一属性的两个格式副本。 
+对于 OLE 文档文件附件，邮件存储提供程序必须对 PR_ATTACH_DATA_OBJ 上的 [IMAPIProp：：OpenProperty](imapiprop-openproperty.md) 调用做出响应 **，** 并且可以选择响应 **对 PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) 的调用。 属性 **PR_ATTACH_DATA_BIN** 和 **PR_ATTACH_DATA_OBJ** 属性共享同一属性标识符，因此是同一属性的两种表示形式。 
   
-对于存储对象 (例如, 采用 OLE 2.0 docfile 格式的复合文件), 某些服务提供程序允许使用 MAPI **IStreamDocfile**接口打开它, 而没有其他成员的**IStream**子类将用于优化性能。 可能的保存足以证明试图通过**IStreamDocfile**打开**PR_ATTACH_DATA_OBJ** 。 如果返回**MAPI_E_INTERFACE_NOT_SUPPORTED** , 则客户端可以使用**IStream**打开**PR_ATTACH_DATA_BIN** 。 
+对于存储对象（如 OLE 2.0 docfile 格式的复合文件）来说，某些服务提供程序允许使用 MAPI **IStreamDocfile** 接口 **（IStream** 的子类）打开该对象，该接口没有其他成员，旨在优化性能。 潜在的保存足以证明尝试通过 **IStreamDocfile** **PR_ATTACH_DATA_OBJ** 打开文件。 如果 **MAPI_E_INTERFACE_NOT_SUPPORTED，** 客户端随后可以使用 **IStream** **PR_ATTACH_DATA_BIN** 文件。 
   
-如果客户端应用程序或服务提供程序无法通过使用**PR_ATTACH_DATA_OBJ**和**PR_ATTACH_METHOD**的帮助打开附件子方法, 则应使用**PR_ATTACH_DATA_BIN**。 
+如果客户端应用程序或服务提供商无法使用在客户端应用程序或服务提供商的帮助下使用 PR_ATTACH_DATA_OBJ 打开附件子 **PR_ATTACH_METHOD，** 则 **它应** PR_ATTACH_DATA_BIN。 
   
-有关 ole 接口和格式的详细信息, 请参阅[ole and Data Transfer](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx)。
+有关 OLE 接口和格式的信息，请参阅 [OLE 和数据传输](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ## <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

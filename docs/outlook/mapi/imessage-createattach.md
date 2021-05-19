@@ -25,7 +25,7 @@ ms.locfileid: "33417669"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建新附件。
+创建新的附件。
   
 ```cpp
 HRESULT CreateAttach(
@@ -40,23 +40,23 @@ LPATTACH FAR * lppAttach
 
  _lpInterface_
   
-> 实时指向接口标识符 (IID) 的指针, 该接口标识符代表要用于访问邮件的接口。 在返回的消息的标准接口 (或**IMessage**) 中传递 NULL 结果。 
+> [in]指向接口标识符的 (IID) 表示用于访问邮件的接口的 IID 标识符。 传递 NULL 会导致返回邮件的标准接口 **IMessage。** 
     
  _ulFlags_
   
-> 实时用于控制附件创建方式的标志的位掩码。 可以设置以下标志:
+> [in]控制附件创建方式的标志的位掩码。 可以设置以下标志：
     
 MAPI_DEFERRED_ERRORS 
   
-> 允许**CreateAttach**成功返回, 这可能是在将附件完全访问呼叫客户端之前。 如果附件不可访问, 则对其进行后续调用可能会导致错误。 
+> 允许 **CreateAttach** 在调用客户端完全访问附件之前成功返回。 如果附件不可访问，则对附件进行后续调用可能会导致错误。 
     
  _lpulAttachmentNum_
   
-> 排除指向标识新创建的附件的索引号的指针。 此号码仅在邮件打开时有效, 并且是附件的**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性的基础。
+> [out]指向标识新创建的附件的索引号的指针。 此号码仅在邮件打开时有效，是附件的 PR_ATTACH_NUM ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 的基础。 
     
  _lppAttach_
   
-> 排除指向打开的附件对象的指针的指针。
+> [out]指向打开的 attachment 对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -64,11 +64,11 @@ S_OK
   
 > 已成功创建附件。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMessage:: CreateAttach**方法在邮件上创建新附件。 在客户端已调用附件的[IMAPIProp:: savechanges](imapiprop-savechanges.md)方法和 message 的**IMAPIProp:: savechanges**方法之前, 将无法使用为其设置的新附件和任何属性。 
+**IMessage：：CreateAttach** 方法在邮件上创建新附件。 在客户端同时调用附件的 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法和邮件的 **IMAPIProp：：SaveChanges** 方法之前，新附件及其设置的任何属性都不可用。 
   
-_lpulAttachmentNum_指向的附件编号是唯一的, 并且仅在邮件的上下文中有效。 也就是说, 两个不同邮件中的两个附件可以具有相同的号码, 而同一邮件中的两个附件不能相同。 
+_lpulAttachmentNum_ 指向的附件编号是唯一的，并且仅在邮件上下文中有效。 也就是说，两个不同邮件中的两个附件可以具有相同的编号，而同一邮件中的两个附件不能相同。 
   
 ## <a name="see-also"></a>另请参阅
 

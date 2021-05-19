@@ -24,12 +24,12 @@ ms.locfileid: "33416249"
 |:-----|:-----|:-----|
 |0  <br/> |None  <br/> |**visPLOJumpNone** <br/> |
 |1  <br/> |水平线  <br/> |**visPLOJumpHorizontal** <br/> |
-|双面  <br/> |垂直线  <br/> |**visPLOJumpVertical** <br/> |
-|第三章  <br/> |最后一个放置的线条  <br/> |**visPLOJumpLastRouted** <br/> |
-|4  <br/> |最后一个显示的线条 ( *z*顺序中的顶部形状)  <br/> |**visPLOJumpDisplayOrder** <br/> |
-|5  <br/> |第一个显示的线条 (按*z*顺序排列的底部的形状)  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
+|2  <br/> |垂直线  <br/> |**visPLOJumpVertical** <br/> |
+|3  <br/> |最后一个放置的线条  <br/> |**visPLOJumpLastRouted** <br/> |
+|4   <br/> |z -order (顶部  *形状最后显示的* )   <br/> |**visPLOJumpDisplayOrder** <br/> |
+|5   <br/> |z-order (底部的第一个显示线条)   <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 还可以在 **“页面设置”** 对话框中的 **“布局与排列”** 选项卡（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后单击 **“布局与排列”**）上设置此单元格的值。
   

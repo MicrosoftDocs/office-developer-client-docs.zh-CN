@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417600"
 ---
-# <a name="propinetserver"></a>PROP_INET_SERVER
+# <a name="prop_inet_server"></a>PROP_INET_SERVER
 
 表示常规 Internet 邮箱的服务器名称。
   

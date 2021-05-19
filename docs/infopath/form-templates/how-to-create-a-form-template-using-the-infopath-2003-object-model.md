@@ -7,7 +7,7 @@ keywords:
 - infopath 2003-compatible form templates,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2007, creating InfoPath 2003-compatible form templates
 localization_priority: Normal
 ms.assetid: c746aeb1-902c-440e-830b-5b9efad0ca04
-description: 本主题中的过程介绍如何创建使用 InfoPath 2003 兼容对象模型的表单模板。
+description: 本主题中的过程介绍了如何创建使用 InfoPath 2003 兼容对象模型的表单模板。
 ms.openlocfilehash: 35a9fcfbb0d93a19e013bde6980bc94af3bb5dd9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -26,13 +26,13 @@ ms.locfileid: "33418181"
 
 1. 启动 InfoPath Designer。
     
-2. 单击“文件”**** 选项卡，然后单击“表单选项”****。
+2. 单击“文件”选项卡，然后单击“表单选项”。
     
-3. 在“兼容性”**** 类别中，选择“InfoPath 2003 编辑器表单”****。
+3. 在“兼容性”类别中，选择“InfoPath 2003 编辑器表单”。
     
-4. 在“编程”**** 类别中，从“表单模板代码语言”**** 下拉列表中选择“C# (兼容 InfoPath 2003)”**** 或“Visual Basic (兼容 InfoPath 2003)”****。 
+4. 在“编程”类别中，从“表单模板代码语言”下拉列表中选择“C# (兼容 InfoPath 2003)”或“Visual Basic (兼容 InfoPath 2003)”。 
     
-5. 单击“确定”****。
+5. 单击“确定”。
     
 6. 设计表单模板，然后按照[使用 InfoPath 2003 对象模型添加事件处理程序](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)中的说明，在 Visual Studio 2012 中添加事件处理程序。
     

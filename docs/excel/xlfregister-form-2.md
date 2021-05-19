@@ -22,15 +22,15 @@ ms.locfileid: "33416039"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-可从 DLL 或 XLL 命令调用, 该命令本身已由 Microsoft Excel 调用。 这相当于从 Excel XLM 宏表调用**REGISTER** 。 
+可以从 DLL 或 XLL 命令调用，该命令本身已由 Microsoft Excel。 这相当于从 **XLM** 宏表Excel REGISTER。 
   
-可以在两种形式中调用**xlfRegister**函数: 
+**xlfRegister** 函数可以两种形式调用： 
   
-- [xlfRegister (窗体 1)](xlfregister-form-1.md): 注册单个命令或函数。
+- [xlfRegister (Form 1) ](xlfregister-form-1.md)：注册单个命令或函数。
     
-- xlfRegister (窗体 2): 加载并激活 XLL。
+- xlfRegister (表单 2) ：加载并激活 XLL。
     
-在表单2中调用, 此函数仅可用于加载和激活包含[xlAutoOpen](xlautoopen.md)过程的 XLL。 
+此函数在窗体 2 中调用，只能用于加载和激活包含 [xlAutoOpen](xlautoopen.md) 过程 XLL。 
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
@@ -38,13 +38,13 @@ Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 
 ## <a name="parameters"></a>参数
 
- _pxModuleText_(**xltypeStr**)
+ _pxModuleText_ (**xltypeStr**) 
   
-要加载并激活的 DLL 的名称。
+要加载和激活的 DLL 的名称。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果成功, 则返回 DLL 的名称 (**xltypeStr**)。 否则, 它将返回一个 #VALUE! 误差.
+如果成功，这将返回 **xltypeStr** (DLL) 。 否则，它将返回#VALUE！ error。
   
 ## <a name="see-also"></a>另请参阅
 

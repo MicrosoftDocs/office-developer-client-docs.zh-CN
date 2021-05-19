@@ -29,9 +29,9 @@ ms.locfileid: "33416900"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 ULONG UlPropSize(
@@ -43,20 +43,20 @@ ULONG UlPropSize(
 
  _lpSPropValue_
   
-> 实时指向定义要度量的属性的[SPropValue](spropvalue.md)结构的指针。 
+> [in]指向 [定义要测量的属性的 SPropValue](spropvalue.md) 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。 
+> 调用成功并返回了预期值。 
     
 MAPI_E_CALL_FAILED 
   
-> 意外或未知来源的错误阻止操作完成。
+> 意外或未知来源的错误阻止了操作完成。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**UlPropSize**函数返回指定属性的属性值的大小 (以字节为单位)。 它不会忽略**SPropValue**结构的其余部分的大小。 
+**UlPropSize** 函数返回指定属性的属性值的大小（以字节为单位）。 它会忽略 **SPropValue** 结构的剩余部分的大小。 
   
 

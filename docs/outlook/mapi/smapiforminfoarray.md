@@ -29,8 +29,8 @@ ms.locfileid: "33416970"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
-|相关宏:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
+|相关宏：  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,15 +45,15 @@ typedef struct
 
  **cForms**
   
-> 由**aFormInfo**成员指向的数组中的指针计数。 
+> 由 **FormInfo** 成员指向的数组中的指针计数。 
     
  **aFormInfo**
   
-> 指向指向表单信息对象的指针的数组的指针。
+> 指向指向表单信息对象的指针数组的指针。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在以下方法中, **SMAPIFormInfoArray**结构作为参数传递: 
+**SMAPIFormInfoArray** 结构在下列方法中作为参数传递： 
   
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     

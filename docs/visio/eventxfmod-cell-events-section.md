@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251313
 localization_priority: Normal
 ms.assetid: b88588a2-c651-7eab-9c7a-ed78f20d1ba3
-description: 当形状在页面上的位置或方向被转换 (XF) 时计算的事件单元格。
+description: 一个事件单元格，当形状在页面上的位置或方向通过 XF 转换时 (计算) 。
 ms.openlocfilehash: c4ed4ddd9b255a9a52fc81349b514dbd25772c98
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "33418531"
 
 一种事件单元格，当形状的位置或方向在绘图页上发生变化时会对它求值（“XF”）。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 只在事件发生后（而非输入公式后）才对事件单元格求值。
   

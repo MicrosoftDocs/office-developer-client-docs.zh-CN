@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251599
 localization_priority: Normal
 ms.assetid: 2b09eed1-1b01-e18e-d28e-674b8fc105fd
-description: 返回形状名称对话框 (在 "开发工具" 选项卡上, 单击 "形状名称") 中的 "数据 1" 框中的文本, 作为字符串。
+description: 返回"开发工具"选项卡上"形状名称"对话框中"数据 1"框中的文本 (，单击"形状名称") 字符串。
 ms.openlocfilehash: 608a61f478e95c309051d5dc47919d6e68c7cb43
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,13 +18,13 @@ ms.locfileid: "33416270"
 ---
 # <a name="data1-function"></a>DATA1 函数
 
-返回形状**名称**对话框 (在 "**开发工具**" 选项卡上, 单击 "**形状名称**") 中的 "**数据 1** " 框中的文本, 作为字符串。 
+返回"开发工具"选项卡上"形状名称"对话框中"数据 **1"** 框中的文本 (，单击"形状名称") 字符串。 
   
 ## <a name="syntax"></a>语法
 
-DATA1 ()
+DATA1 () 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 如果该框为空，则函数返回空字符串。 
   

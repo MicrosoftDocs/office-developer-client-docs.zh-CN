@@ -23,12 +23,12 @@ ms.locfileid: "33418111"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个包含指定数量的[SPropProblem](spropproblem.md)结构的命名[SPropProblemArray](spropproblemarray.md)结构。 
+创建一个名为 [SPropProblemArray](spropproblemarray.md) 的结构，其中包含指定数量的 [SPropProblem](spropproblem.md) 结构。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**SPropProblemArray** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 SizedSPropProblemArray(_cprob, _name)
@@ -36,17 +36,17 @@ SizedSPropProblemArray(_cprob, _name)
 
 ## <a name="parameters"></a>参数
 
-__cprob_
+_ _cprob_
   
-> 要包含在新结构中的**SPropProblem**结构的计数。 
+> 要包含在新结构中的 **SPropProblem** 结构计数。 
     
-__名称_
+_ _name_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-使用**SizedSPropProblemArray**宏创建具有显式界限的属性问题数组。 若要使用作为指向**SPropProblemArray**结构的指针的**SizedSPropProblemArray**宏生成的新结构, 请执行以下转换: 
+使用 **SizedSPropProblemArray** 宏创建具有显式边界的属性问题数组。 若要使用由 **SizedSPropProblemArray** 宏产生的新结构作为 **指向 SPropProblemArray** 结构的指针，请执行以下转换： 
   
 ```cpp
 lpPropProbArray = (LPSPropProblemArray) &SizedSPropProblemArray;

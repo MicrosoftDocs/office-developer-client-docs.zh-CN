@@ -34,39 +34,39 @@ ms.locfileid: "32331400"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-包含冲突解决邮件的文件夹上的此属性将指示如何解决冲突。 此属性不是必需的。 但是, 如果设置了, 则不能有以下标志:
+包含冲突解决邮件的文件夹上的此属性将指示如何解决冲突。 此属性不是必需的。 但是，如果已设置，则不得存在以下标志：
   
 |||
 |:-----|:-----|
-|RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |应生成冲突解决消息。  <br/> |
-|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |使用当前正在应用的更改覆盖目标邮件。  <br/> |
-|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |在公用文件夹中生成冲突解决邮件时不发送冲突通知消息。  <br/> |
+|RESOLVE_METHOD_DEFAULT (0x00000000)   <br/> |应生成冲突解决消息。  <br/> |
+|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)   <br/> |使用当前更改覆盖目标邮件。  <br/> |
+|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)   <br/> |在公用文件夹中生成冲突解决邮件时不发送冲突通知邮件。  <br/> |
    
-客户端或服务器不能为关联的邮件生成冲突解决消息。 必须使用**RESOLVE_METHOD_LAST_WRITER_WINS**语义解决这些邮件。 
+客户端或服务器不得为关联邮件生成冲突解决消息。 必须使用语义解析 **这些RESOLVE_METHOD_LAST_WRITER_WINS消息** 。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCSYNC]](https://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
+[[MS-OXCSYNC]](https://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
   
-> 处理服务器和客户端之间的同步邮件对象数据。
+> 处理在服务器和客户端之间同步邮件对象数据。
     
-[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 定义在远程操作中使用的基本数据结构。
+> 定义远程操作中使用的基本数据结构。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -25,52 +25,52 @@ ms.locfileid: "32339226"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含主题前缀, 通常指示对邮件的某些操作, 例如, 用于转发的 "FW:"。 
+包含通常指示对邮件执行某些操作的主题前缀，例如"FW："用于转发。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_SUBJECT_PREFIX、PR_SUBJECT_PREFIX_A、PR_SUBJECT_PREFIX_W  <br/> |
 |标识符:  <br/> |0x003D  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-对于所有邮件对象, 建议使用这些属性。 
+建议在所有邮件对象上使用这些属性。 
   
-主题前缀由一个或多个字母数字字符组成, 后跟一个冒号和一个空格 (作为前缀的一部分)。 冒号前不能包含任何非字母数字字符。 不能使用空字符串或未设置该属性来表示前缀。 
+主题前缀由一个或多个字母数字字符组成，后跟冒号和空格 (作为前缀前缀) 。 冒号之前不得包含任何非字母数字字符。 没有前缀可以表示为空字符串或此属性未设置。 
   
-如果显式设置了这些属性, 则字符串可为任意长度并使用任何字母数字字符, 但它必须与**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 属性的开头的子字符串相匹配。 如果这些属性不是由发件人设置的, 并且必须进行计算, 则它们的内容更受限制。 用于计算前缀的规则是, **PR_SUBJECT**必须以一个、两个或三个字母开头 (仅限字母), 后跟一个冒号和一个空格。 如果在**PR_SUBJECT**的开头找到此类子字符串, 则该子串将成为这些属性的字符串 (也停留在**PR_SUBJECT**的开头)。 否则, 这些属性将保持未设置。 
+如果显式设置这些属性，则字符串的长度可以是任意长度并使用任何字母数字字符，但它必须与 **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 属性开头的子字符串匹配。 如果发件人未设置这些属性并且必须计算这些属性，则其内容将受到限制。 计算前缀的规则是PR_SUBJECT必须以一、 (字母开头，) 后跟冒号和空格。  如果在 PR_SUBJECT 开头找到这样的子字符串，则它将成为这些属性的字符串 (并且仍保留在PR_SUBJECT) 。  否则，这些属性将保持未设置状态。 
   
-应将这些属性和**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 作为[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)实现的一部分进行计算。 客户端不应提示[IMAPIProp:: GetProps](imapiprop-getprops.md)获取其值, 直到它们已被**IMAPIProp:: SaveChanges**调用提交。 
+这些属性 **和** PR_NORMALIZED_SUBJECT ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 应作为 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 实现一部分进行计算。 在 **IMAPIProp：：SaveChanges 调用提交 IMAPIProp：：SaveChanges** 之前，客户端不应提示 [IMAPIProp：：GetProps](imapiprop-getprops.md)提供其值。 
   
-subject 属性通常是少于256个字符的较小字符串, 而邮件存储区提供程序并不是对其支持 OLE **IStream**接口的义务。 客户端应始终先尝试通过**IMAPIProp**接口访问, 并且只有在返回**MAPI_E_NOT_ENOUGH_MEMORY**时才会转到**IStream** 。 
+主题属性通常是少于 256 个字符的小字符串，并且邮件存储提供程序不必支持其上的 OLE **IStream** 接口。 客户端应始终首先尝试通过 **IMAPIProp** 接口访问，并仅在返回 IStream **MAPI_E_NOT_ENOUGH_MEMORY使用****IStream。** 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定在电子邮件对象上允许的属性和操作。
+> 指定允许对电子邮件对象执行的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

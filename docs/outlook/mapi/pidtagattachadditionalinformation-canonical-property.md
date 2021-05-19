@@ -25,7 +25,7 @@ ms.locfileid: "32339870"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供非 Windows 附件的文件类型信息。
+提供非附件的文件类型Windows信息。
   
 |||
 |:-----|:-----|
@@ -34,27 +34,27 @@ ms.locfileid: "32339870"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此属性根据附件的编码提供有关特定附件的元数据。 例如, 当**PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) 属性包含 MacBinary 时, **PR_ATTACH_ADDITIONAL_INFO**包含一个字符串, 该字符串表示 Macintosh 文件创建者和文件类型, 格式为 ": CREA: type"对于编码的 Macintosh 文件。 
+此属性基于附件的编码提供有关特定附件的元数据。 例如，当 **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) 属性包含 MacBinary 时 **，PR_ATTACH_ADDITIONAL_INFO** 将包含一个字符串，表示 Macintosh 文件创建者和文件类型，格式化为编码的 Macintosh 文件的"：CREA：TYPE"。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

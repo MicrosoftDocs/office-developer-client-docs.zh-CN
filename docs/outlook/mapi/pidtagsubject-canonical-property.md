@@ -32,39 +32,39 @@ ms.locfileid: "32339254"
 |相关属性：  <br/> |PR_SUBJECT、PR_SUBJECT_A、PR_SUBJECT_W  <br/> |
 |标识符:  <br/> |0x0037  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-对于所有邮件对象, 建议使用这些属性。 
+建议在所有邮件对象上使用这些属性。 
   
-这些属性始终是完整的主题文本, 即前缀和规范化主题的串联。 如果没有前缀, 则正常化的主题应与主题相同。 邮件存储或传输提供程序使用这些 properties 和**PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) 属性来计算正常化的主题, 使用**PR_NORMALIZED_SUBJECT** [中描述的规则。PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))。
+这些属性始终是完整的主题文本，即前缀和规范化主题的串联。 如果没有前缀，则规范化主题应与主题相同。 邮件存储或传输提供程序使用这些属性和 **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) 属性，使用 PR_NORMALIZED_SUBJECT ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md) **)** 下所述的规则计算规范化主题。
   
-subject 属性通常是少于256个字符的小字符串, 而邮件存储提供程序并不是支持其上的**IStream**接口的义务。 客户端应始终先尝试通过**IMAPIProp**接口访问, 并且只有在返回**MAPI_E_NOT_ENOUGH_MEMORY**时才会转到**IStream** 。 
+主题属性通常是少于 256 个字符的小字符串，邮件存储提供程序不必支持 **其上的 IStream** 接口。 客户端应始终首先尝试通过 **IMAPIProp** 接口访问，并仅在返回 IStream  MAPI_E_NOT_ENOUGH_MEMORY **IStream。** 
   
-对于报表, 此属性包含原始邮件的主题, 其前面有一个指示邮件发生了什么情况的字符串。
+对于报告，此属性包含原始邮件的主题前面有一个字符串，指示邮件发生了什么。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

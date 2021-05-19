@@ -25,7 +25,7 @@ ms.locfileid: "33418013"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在客户端应用程序用户单击 "按钮" 控件时执行一种任务, 如显示对话框或启动编程操作。
+执行一个任务，如在客户端应用程序用户单击按钮控件时显示对话框或启动编程操作。
   
 ```cpp
 HRESULT Activate(
@@ -38,11 +38,11 @@ HRESULT Activate(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _ulUIParam_
   
-> 实时显示按钮控件的对话框的父窗口的句柄。
+> [in]显示按钮控件的对话框的父窗口的句柄。
     
 ## <a name="return-value"></a>返回值
 
@@ -50,11 +50,11 @@ S_OK
   
 > 按钮控件已成功激活。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPIControl:: Activate**方法在用户单击按钮控件后执行任务。 在显示表的处理过程中, MAPI 在第一次调用[IMAPIControl:: GetState](imapicontrol-getstate.md)以确定按钮是否已启用之后, 会调用**激活**。 
+**IMAPIControl：：Activate** 方法在用户单击按钮控件后执行任务。 单击后，作为处理显示表的一部分，MAPI 在首次调用 [IMAPIControl：：GetState](imapicontrol-getstate.md)后调用 **Activate，** 以确定按钮是否已启用。 
   
-有关如何实现**Activate**和其他[IMAPIControl: IUnknown](imapicontroliunknown.md)方法的详细信息, 请参阅[Control Object 实现](control-object-implementation.md)。
+若要详细了解如何实现 Activate **和其他** [IMAPIControl ： IUnknown](imapicontroliunknown.md) 方法，请参阅 [Control Object Implementation](control-object-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -22,7 +22,7 @@ ms.locfileid: "33418041"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-弃用的 Framework 库函数, 用于创建包含**xltypeStr**字节字符串的临时**XLOPER** 。 它采用以 null 结尾的源字符串作为输入。 它尝试使用后面的字符串的长度覆盖所提供的字符串的第一个字符。 但这并不总是安全的事情: 如果传递只读字符串, Microsoft Excel 可能会崩溃。 
+已弃用的框架库函数，该函数创建包含 **xltypeStr** 字节字符串的临时 **XLOPER。** 它将以 null 结尾的源字符串作为输入。 它尝试用后续字符串的长度覆盖所提供字符串的第一个字符。 这并不总是一个安全的事情：如果传递了Microsoft Excel字符串，则可能会崩溃。 
   
 ```cs
 LPXLOPER TempStr(LPSTR str);
@@ -32,15 +32,15 @@ LPXLOPER TempStr(LPSTR str);
 
  _str_
   
-指向以 null 结尾的源字符串的指针。 **TempStr**截断超过255字节的字符串。 
+指向以 null 结尾的源字符串的指针。 **TempStr** 截断长度超过 255 字节的字符串。 
   
 ## <a name="return-value"></a>返回值
 
-返回一个**xltypeStr**字符串, 该字符串包含指向传入的字符串缓冲区的指针。 
+返回一 **个 xltypeStr** 字符串，其中包含指向传入字符串缓冲区的指针。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-这种创建临时字符串的方法现在已被弃用, 取而代之的是[TempStrConst 和 TempStr12](tempstrconst-tempstr12.md)的工作方式。 这些函数分配一个新的内存缓冲区, 并将传入的字符串复制到该缓冲区中。 **TempStrConst**和**TempStr12**的输入字符串不会发生更改, 因此声明为**const**。 相比之下, **TempStr**的输入字符串已更改, 因此不能声明为**const**。 输入字符串的第一个字符被视为长度字符的空格, 并被此函数覆盖。
+这种创建临时字符串的方法现已弃用，支持 [TempStrConst 和 TempStr12 的](tempstrconst-tempstr12.md) 正常工作方式。 这些函数分配新的内存缓冲区，将传入字符串复制到其中。 **TempStrConst** 和 **TempStr12** 的输入字符串不会更改，因此声明为 **const**。 相比之下 **，TempStr** 的输入字符串会更改，因此无法声明为 **const**。 输入字符串的第一个字符被视为长度字符的空间，并且将被此函数覆盖。
   
 ## <a name="see-also"></a>另请参阅
 

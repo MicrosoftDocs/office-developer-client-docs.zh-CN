@@ -25,7 +25,7 @@ ms.locfileid: "33417369"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-获取有关文件夹支持共享的信息。
+获取文件夹对共享的支持信息。
   
 ```cpp
 HRESULT GetSupportMask( 
@@ -37,7 +37,7 @@ HRESULT GetSupportMask(
 
  _pdwSupportMask_
   
-> 排除表示文件夹是否支持共享的位掩码。
+> [out]指示文件夹是否支持共享的位掩码。
     
  **FS_NONE**
   
@@ -51,6 +51,6 @@ HRESULT GetSupportMask(
 
 S_OK 
   
-> 调用成功。
+> 呼叫成功。
     
 

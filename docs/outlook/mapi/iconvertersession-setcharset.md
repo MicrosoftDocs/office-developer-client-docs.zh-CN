@@ -25,7 +25,7 @@ ms.locfileid: "32336657"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定 mapi 到 mime 转换器在将 mapi 邮件转换为 mime 流时使用的一组可选字符集。
+指定 MAPI 到 MIME 转换器在将 MAPI 邮件转换为 MIME 流时使用的可选字符集。
   
 ```cpp
 HRESULT SetCharset( 
@@ -38,15 +38,15 @@ HRESULT SetCharset(
 
  _fApply_
   
-> 实时指示是否对转换使用特定的字符集。 将此参数设置为**true**可在后续转换中应用字符集。 如果您不再希望应用任何特定的字符集, 并返回到后续邮件的默认设置, 请将此参数设置为**false** 。 
+> [in]指示是否对转换使用特定字符集。 将此参数 **设置为 true** 以在后续转换中应用字符集。 如果不想再应用任何特定字符集并返回到后续邮件的默认值，则此参数设置为 **false。** 
     
  _hcharset_
   
-> 实时在 Windows Mail mimeole 中定义的字符集的句柄。 指定**null**以指定不希望应用任何特定的字符集。 对于非**null**值, 请使用函数 (如[MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) ) 获取字符集的句柄。 
+> [in]字符集的句柄，如 mimeole.h 中定义的Windows Mail。 指定 **null** 以指定您不希望应用任何特定字符集。 对于非 **null** 值，请使用函数（如 [MimeOleGetCodePageCharset）](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) 获取字符集的句柄。 
     
  _csetapplytype_
   
-> 实时指示如何应用字符集以转换邮件, 如 mimeole 中的 Windows Mail 中所定义。
+> [in]指示如何应用字符集来转换邮件，如 mimeole.h of Windows Mail。
     
 ## <a name="return-value"></a>返回值
 
@@ -60,8 +60,8 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MapiMime  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 .eml 文件转换为 MAPI 邮件。  <br/> |
-|MapiMime  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 .eml 文件。  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 EML 文件转换为 MAPI 邮件。  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 EML 文件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

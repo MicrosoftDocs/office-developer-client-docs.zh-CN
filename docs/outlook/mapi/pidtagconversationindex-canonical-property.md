@@ -25,46 +25,46 @@ ms.locfileid: "32334718"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个二进制值, 该值指示此邮件在会话线程中的相对位置。 
+包含指示此消息在对话线程中的相对位置的二进制值。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONVERSATION_INDEX  <br/> |
 |标识符:  <br/> |0x0071  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-会话线程代表一系列邮件和答复。 此属性通常是使用串联时间戳值实现的。 它的使用是可选的, 即使设置了**PR_CONVERSATION_TOPIC** ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)) 也是如此。 
+对话线程表示一系列消息和回复。 通常使用连接时间戳值实现此属性。 即使设置了[PidTagConversationTopic PR_CONVERSATION_TOPIC (PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)) 也是可选的。  
   
-MAPI 提供了用于创建或更新会话索引的[ScCreateConversationIndex](sccreateconversationindex.md)函数。 函数将当前索引值作为计数字节数组, 并返回一个与末尾串联的时间戳的索引值。 表示对另一封邮件的答复的邮件应使用**ScCreateConversationIndex**更新该属性。 
+MAPI 提供 [ScCreateConversationIndex](sccreateconversationindex.md) 函数来创建或更新对话索引。 该函数将当前索引值作为计数型字节数组，并返回最后连接有时间戳的索引值。 表示对另一封邮件的答复的邮件应该使用 **ScCreateConversationIndex** 更新此属性。 
   
-邮件存储提供程序可以选择确保始终在传入或传出邮件上设置**PR_CONVERSATION_INDEX** 。 它可以通过调用**ScCreateConversationIndex**(如果设置了此属性, 则使用现有值) 或使用 NULL (如果未设置) 来执行此操作。 应在调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)之前执行此操作。 
+邮件存储提供程序可以选择确保始终PR_CONVERSATION_INDEX传入或传出邮件上设置邮件。 它可以通过调用 **ScCreateConversationIndex** 来实现此操作，如果此属性已设置，则使用现有值;如果未设置，则使用 NULL。 应在调用 [IMAPIProp：：SaveChanges 之前](imapiprop-savechanges.md) 执行此操作。 
   
-对**PR_CONVERSATION_TOPIC**具有相同值的所有邮件都可以在此属性上进行排序, 以显示邮件的层次结构关系。 
+可以基于此属性对PR_CONVERSATION_TOPIC相同值的所有邮件进行排序，以显示邮件的层次结构关系。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
-[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定在电子邮件对象上允许的属性和操作。
+> 指定允许对电子邮件对象执行的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

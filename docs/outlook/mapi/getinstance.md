@@ -29,9 +29,9 @@ ms.locfileid: "33418720"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |MAPIUTIL。水平  <br/> |
+|标头文件：  <br/> |MAPIUTIL。H  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 VOID GetInstance(
@@ -45,15 +45,15 @@ VOID GetInstance(
 
  _pvalMv_
   
-> 实时指向定义多值属性的[SPropValue](spropvalue.md)结构的指针。 
+> [in]指向定义多值属性的 [SPropValue](spropvalue.md) 结构的指针。 
     
  _pvalSv_
   
-> 实时指向用于接收数据的单值属性的指针。 
+> [in]指向用于接收数据的单值属性的指针。 
     
  _uliInst_
   
-> 实时从_pvalMv_参数指示的结构中复制的值的实例号, 即数组元素。 
+> [in]从  _pvalMv_ 参数指示的结构复制的值的实例编号，即数组元素。 
     
 ## <a name="return-value"></a>返回值
 
@@ -61,6 +61,6 @@ VOID GetInstance(
   
 ## <a name="remarks"></a>说明
 
-如果复制的值对于分配的内存来说太大, 则**GetInstance**函数仅复制指针, 而不是分配新内存。 
+如果复制的值对于分配的内存太大， **则 GetInstance** 函数仅复制指针，而不是分配新内存。 
   
 

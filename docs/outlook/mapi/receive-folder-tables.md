@@ -21,15 +21,15 @@ ms.locfileid: "33417348"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-接收文件夹表包含指定为邮件存储区的接收文件夹的所有文件夹的信息。 接收文件夹是一个文件夹, 其中放置了特定邮件类别的传入邮件。 邮件存储提供程序实现接收文件夹表和客户端应用程序通过调用[IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md)方法来使用它们。 
+接收文件夹表包含指定为邮件存储的接收文件夹的所有文件夹的信息。 接收文件夹是放置特定邮件类的传入邮件的文件夹。 邮件存储提供程序实现接收文件夹表，客户端应用程序通过调用 [IMsgStore：：GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) 方法来使用它们。 
   
-以下属性组成了在接收文件夹表中设置的必需列:
+下列属性在接收文件夹表中设置了所需的列：
   
- **PR_ENTRYID**([PidTagEntryId](pidtagentryid-canonical-property.md)) 
+ **PR_ENTRYID (** [PidTagEntryId](pidtagentryid-canonical-property.md))  
   
- **PR_MESSAGE_CLASS**([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 
+ **PR_MESSAGE_CLASS (** [PidTagMessageClass](pidtagmessageclass-canonical-property.md))  
   
- **PR_RECORD_KEY**([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 
+ **PR_RECORD_KEY (** [PidTagRecordKey)](pidtagrecordkey-canonical-property.md) 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,20 +25,20 @@ ms.locfileid: "33418132"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义用于记住表中某个位置的书签数据。 
+定义书签数据以记住表格中的位置。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关方法:  <br/> |[IMAPITable:: CreateBookmark](imapitable-createbookmark.md)[IMAPITable:: FreeBookmark](imapitable-freebookmark.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关方法：  <br/> |[IMAPITable：：CreateBookmark](imapitable-createbookmark.md)[IMAPITable：：FreeBookmark](imapitable-freebookmark.md) <br/> |
    
 ```cpp
 typedef ULONG_PTR BOOKMARK;
 ```
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-MAPI 定义了三个书签, 如下所示:
+MAPI 定义三个书签，如下所示：
   
 BOOKMARK_BEGINNING 
   
@@ -52,7 +52,7 @@ BOOKMARK_END
   
 > 记住表的结束位置。
     
-客户端可以创建其他书签来记住其他表位置。 书签仅在表打开时有效。 客户端必须释放已创建的任何书签, 然后再关闭相关联的表。 
+客户端可以创建其他书签来记住其他表格位置。 书签仅在表格打开时有效。 在关闭关联表之前，客户端必须释放已创建的任何书签。 
   
 ## <a name="see-also"></a>另请参阅
 

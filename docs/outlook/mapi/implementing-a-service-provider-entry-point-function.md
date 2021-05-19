@@ -21,33 +21,33 @@ ms.locfileid: "32332989"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-每个服务提供程序 DLL 都有一个入口点函数, MAPI 调用它来加载它。 请注意, 此入口点函数与[DllMain](https://msdn.microsoft.com/library/ms682583.aspx)(Win32 DLL 入口点函数) 不同。
+每个服务提供程序 DLL 都有一个入口点函数，MAPI 会调用该函数来加载它。 请注意，此入口点函数与 Win32 DLL 入口点函数 [DllMain](https://msdn.microsoft.com/library/ms682583.aspx)不同。
   
-根据提供程序的类型, 提供程序入口点函数符合不同的原型。 MAPI 为服务提供程序定义了不同的入口点函数原型。
+根据提供程序的类型，提供程序入口点函数符合不同的原型。 MAPI 为服务提供商定义不同的入口点函数原型。
   
 |**Provider**|**入口点函数原型**|
 |:-----|:-----|
-|邮件存储区提供程序  <br/> |[MSProviderInit](msproviderinit.md) <br/> |
+|邮件存储提供程序  <br/> |[MSProviderInit](msproviderinit.md) <br/> |
 |传输提供程序  <br/> |[XPProviderInit](xpproviderinit.md) <br/> |
 |通讯簿提供程序  <br/> |[ABProviderInit](abproviderinit.md) <br/> |
    
-对于所有服务提供程序类型, 这些原型中的许多功能都是相同的。 
+这些原型中的许多功能对于所有服务提供程序类型都是相同的。 
   
-通讯簿、邮件存储和传输提供程序在其入口点函数中执行以下两个主要任务:
+通讯簿、邮件存储和传输提供程序在入口点功能中执行以下两个主要任务：
   
-1. 检查服务提供程序接口 (SPI) 的版本, 确保 MAPI 使用的版本与您的服务提供商使用的版本兼容。 使用包含 MAPI SPI 版本的_lpulMAPIVer_参数以及包含 SPI 版本的_lpulProviderVer_参数, 以执行检查。 这些参数是由三部分组成的32位无符号整数: 
+1. 检查 SPI (接口) 以确保 MAPI 使用的版本与服务提供商使用的版本兼容。 使用包含 MAPI SPI 版本的  _lpulMAPIVer_ 参数和包含 SPI 版本的  _lpulProviderVer_ 参数执行检查。 这些参数是 32 位无符号整数，由三部分组成： 
     
-  - 24到31位代表主要版本。
+  - 位 24 至 31 表示主要版本。
     
-  - 16到23位代表次要版本。
+  - 位 16 至 23 表示次要版本。
     
-  - 0到15位表示更新标识符。 尽管主要版本号很少更改, 但每当 MAPI 发布且 SPI 发生更改时, 次要版本号都会发生变化。 更新标识符是 Microsoft 内部内部版本;它用于跟踪在开发过程中所做的更改。 MAPI 定义在 Mapispi 头文件中记录的 CURRENT_SPI_VERSION 常量, 以指示目前的 SPI 版本。 如果您使用的 SPI 版本比 MAPI 使用的版本新, 则您的检查会失败, 并出现错误 MAPI_E_VERSION。
+  - 位 0 到 15 表示更新标识符。 尽管主要版本号很少更改，但次要版本号会随着 MAPI 的发布和 SPI 的更改而发生更改。 更新标识符是 Microsoft 内部版本;它用于在开发过程中跟踪更改。 MAPI 定义CURRENT_SPI_VERSION Mapispi.h 头文件中记录的版本常量，以指示当前的 SPI 版本。 如果使用的 SPI MAPI_E_VERSION比 MAPI 使用的版本更新，请对错误检查失败。
     
-2. 创建提供程序对象的实例。 由于您的提供程序可以多次启动和初始化, 因此在每次发生此情况时应创建一个新实例。 当提供程序出现在多个配置文件中时, 它们会在同时由一个或多个客户端使用, 或者当它们在一个配置文件中多次出现时多次启动。 正如提供程序的类型不同, 入口点函数原型的不同之处在于提供程序对象的类型。 
+2. 创建提供程序对象的实例。 由于提供程序可以多次启动和初始化，因此您应每次出现此情况时创建新实例。 提供程序出现在由一个或多个客户端同时使用的多个配置文件中时，或者当提供程序在单个配置文件中多次出现时，提供程序将启动多次。 正如入口点函数原型因提供程序的类型而异一样，提供程序对象的类型也不同。 
     
-    如果要编写通讯簿提供程序, 请实施[IABProvider: IUnknown](iabprovideriunknown.md)。 如果要编写邮件存储区提供程序, 请实现[IMSProvider: IUnknown](imsprovideriunknown.md)。 有关详细信息, 请参阅[加载邮件存储提供程序](loading-message-store-providers.md)。
+    如果要编写通讯簿提供程序，请实现 [IABProvider ： IUnknown](iabprovideriunknown.md)。 如果要编写消息存储提供程序，请实现 [IMSProvider ： IUnknown](imsprovideriunknown.md)。 有关详细信息，请参阅 [加载邮件存储提供程序](loading-message-store-providers.md)。
     
-    如果要编写传输提供程序, 请实施[IXPProvider: IUnknown](ixpprovideriunknown.md)。 有关详细信息, 请参阅[初始化传输提供程序](initializing-the-transport-provider.md)。
+    如果要编写传输提供程序，请实现 [IXPProvider ： IUnknown](ixpprovideriunknown.md)。 有关详细信息，请参阅 [初始化传输提供程序](initializing-the-transport-provider.md)。
     
 ## <a name="see-also"></a>另请参阅
 

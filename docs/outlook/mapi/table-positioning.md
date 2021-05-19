@@ -1,5 +1,5 @@
 ---
-title: 表定位
+title: 表格定位
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,18 +15,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418587"
 ---
-# <a name="table-positioning"></a>表定位
+# <a name="table-positioning"></a>表格定位
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-表中的当前位置始终由游标指示。 对于表的每个视图, 都有一个游标;它的值由表的实施者设置。 当使用表的客户端或服务提供程序进行调用以更改表的位置时, 游标的值将重置。 可以通过以下方式更改表的位置:
+表中的当前位置始终由游标指示。 表的每个视图都有一个游标;其值由表的实现程序设置。 当使用表的客户端或服务提供商调用更改表的位置时，将重置游标的值。 可以使用：更改表的位置：
   
 - 书签。
     
 - 小数值。
     
-- 一个筛选器。
+- 筛选器。
     
 

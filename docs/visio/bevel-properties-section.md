@@ -1,5 +1,5 @@
 ---
-title: "\"棱台属性\" 部分"
+title: "\"斜面属性\"部分"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417236"
 ---
-# <a name="bevel-properties-section"></a>"棱台属性" 部分
+# <a name="bevel-properties-section"></a>"斜面属性"部分
 
 显示应用于形状的任何斜面效果的属性。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您可以在 "**设置形状格式**" 窗格中为形状应用斜角 ("**主页** > **形状样式** > "**棱台** > **选项**, 或对 "**棱台属性**" 部分中的单元格进行更改表. 
+可以在"设置形状格式"窗格 **("** 主形状样式""斜面  >    >    >  **3D** 选项"中对形状应用斜面，或者通过更改 ShapeSheet 的"斜面属性"部分中的单元格来应用斜面。 
   
 

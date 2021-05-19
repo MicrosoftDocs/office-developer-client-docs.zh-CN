@@ -25,7 +25,7 @@ ms.locfileid: "33416088"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 autoforwarded 邮件最初预期收件人的地址类型。
+包含自动前向邮件最初预期收件人的地址类型。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33416088"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-这些属性是最初预期的邮件收件人的地址属性之一。 必须由已转发邮件的自动代理进行设置。
+这些属性是最初预期的邮件收件人的地址属性之一。 必须由转发邮件的自动代理设置。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

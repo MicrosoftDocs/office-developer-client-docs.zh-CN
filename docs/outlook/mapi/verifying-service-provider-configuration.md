@@ -19,29 +19,29 @@ ms.locfileid: "33418846"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-您的登录方法 ([IABProvider:: logon](iabprovider-logon.md)、 [IMSProvider:: logon](imsprovider-logon.md)或[IXPProvider:: TransportLogon](ixpprovider-transportlogon.md)) 必须验证提供程序的配置。 这包括检查完整操作所需的全部属性是否已正确设置。 每个提供程序都需要不同数量的属性;配置取决于提供商以及允许的用户交互程度。 某些服务提供程序在配置文件中保留了所有必需的属性。 
+您的登录 ([IABProvider：：Logon、IMSProvider：：Logon](iabprovider-logon.md)或[IXPProvider：：TransportLogon](ixpprovider-transportlogon.md)) 必须验证提供程序的配置。 [](imsprovider-logon.md) 这包括检查完整操作所需的所有属性是否设置正确。 每个提供程序都需要不同数量的属性;配置取决于你的提供程序以及你允许的用户交互程度。 某些服务提供商在配置文件中保留所有必需的属性。 
 
-其他服务提供程序在配置文件中保留部分属性集, 并提示用户缺少值。 此外, 其他提供程序根本不会在配置文件中存储属性, 依赖用户提供配置所需的所有信息。
+其他服务提供商在配置文件中保留部分属性集，并提示用户输入缺失值。 此外，其他提供程序完全不会在配置文件中存储属性，而依赖用户提供配置所需的全部信息。
   
-### <a name="to-retrieve-properties-stored-in-the-profile"></a>检索存储在配置文件中的属性
+### <a name="to-retrieve-properties-stored-in-the-profile"></a>检索配置文件中存储的属性
   
-1. 调用[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md), 并将您的提供程序的[MAPIUID](mapiuid.md)作为输入参数进行传递。 
+1. 调用 [IMAPISupport：：OpenProfileSection](imapisupport-openprofilesection.md)，将提供程序的 [MAPIUID](mapiuid.md) 作为输入参数传递。 
     
-2. 调用配置文件节的[IMAPIProp:: GetProps](imapiprop-getprops.md)或[IMAPIProp:: GetPropList](imapiprop-getproplist.md)方法以检索各个属性或属性列表。 
+2. 调用配置文件节的 [IMAPIProp：：GetProps](imapiprop-getprops.md) 或 [IMAPIProp：：GetPropList](imapiprop-getproplist.md) 方法来检索单个属性或属性列表。 
     
-### <a name="to-set-properties-from-user-information"></a>设置用户信息的属性
+### <a name="to-set-properties-from-user-information"></a>从用户信息设置属性
   
-如果 MAPI 未设置阻止显示的标志, 则显示属性表。 以下标志表明无法显示用户界面。
+显示属性表，如果 MAPI 尚未设置禁止显示的标志。 以下标志指示无法显示用户界面。
   
 |**Flag**|**服务提供程序**|
 |:-----|:-----|
 |AB_NO_DIALOG  <br/> |通讯簿提供程序  <br/> |
 |LOGON_NO_DIALOG  <br/> |传输提供程序  <br/> |
-|MDB_NO_DIALOG  <br/> |邮件存储区提供程序  <br/> |
+|MDB_NO_DIALOG  <br/> |邮件存储提供程序  <br/> |
    
-如果提供程序未将其所有配置属性存储在配置文件中, 需要用户交互, 并且 MAPI 会将某个对话框禁止显示标记传递给您的登录方法, 则返回 MAPI_E_UNCONFIGURED。 如果未设置对话框隐藏标志, 但用户不提供所有必需的信息, 也会返回此错误。
+如果你的提供程序未在配置文件中存储其所有配置属性，因此需要用户交互，并且 MAPI 将其中一个对话框抑制标志传递给你的登录方法，则返回MAPI_E_UNCONFIGURED。 此外，在未设置对话框抑制标志，但用户未提供所有所需信息时，也返回此错误。
   
-当您的服务提供商将其登录方法与 MAPI_E_UNCONFIGURED 一起失败时, MAPI 会再次调用您的入口点函数。 如果无法通过第二次调用找到信息, 则会话可能会终止, 具体取决于服务提供商的重要性。 
+当服务提供程序在其登录方法失败时MAPI_E_UNCONFIGURED MAPI 将再次调用入口点函数。 如果无法通过第二次调用找到该信息，则会话可能会终止，具体取决于您的服务提供商非常重要。 
   
 下图显示了在服务提供程序登录方法中配置所需的逻辑。 
   

@@ -25,7 +25,7 @@ ms.locfileid: "33418512"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含指示会话资源的当前状态的标志的位掩码。 所有服务提供程序都会将状态代码设置为 mapi, 以报告子系统的状态、MAPI 后台处理程序和集成的通讯簿。
+包含指示会话资源的当前状态的位掩码标志。 所有服务提供商都设置状态代码，就像 MAPI 一样，用于报告子系统、MAPI 后台处理程序和集成通讯簿的状态。
   
 |||
 |:-----|:-----|
@@ -34,25 +34,25 @@ ms.locfileid: "33418512"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-状态代码必须出现在所有提供程序的 mapisvc.inf 文件中。 
+状态代码必须出现在所有提供程序的 Mapisvc.inf 文件中。 
   
-Status 对象由 MAPI 和所有服务提供商实现。 状态代码有两组有效值, 一组用于所有状态对象, 另一组用于传输提供程序。 所有 status 对象均可将此属性设置为以下值:
+Status 对象由 MAPI 和所有服务提供商实现。 状态代码有两组有效值，一组用于所有状态对象，另一组仅针对传输提供程序。 所有状态对象都可以将此属性设置为下列值：
   
 STATUS_AVAILABLE 
   
-> 指示资源是可操作的。
+> 指示资源可运行。
     
 STATUS_FAILURE 
   
-> 指示资源遇到问题。 对于服务提供程序, STATUS_FAILURE 指示可能很快会关闭提供程序以结束当前会话。
+> 指示资源遇到问题。 对于服务提供商，STATUS_FAILURE指示提供程序可能很快关闭以结束当前会话。
     
 STATUS_OFFLINE 
   
-> 指示仅本地数据或服务可用。
+> 指示只有本地数据或服务可用。
     
-传输提供程序还可以将其 status 对象的**PR_STATUS_CODE**属性设置为以下值: 
+传输提供程序还可以将状态 **对象的PR_STATUS_CODE属性** 设置为以下值： 
   
 STATUS_INBOUND_ACTIVE 
   
@@ -64,7 +64,7 @@ STATUS_INBOUND_ENABLED
     
 STATUS_INBOUND_FLUSH 
   
-> 指示传输提供程序正在从入站队列下载邮件。
+> 指示传输提供程序正在从入站队列中下载邮件。
     
 STATUS_OUTBOUND_ACTIVE 
   
@@ -76,7 +76,7 @@ STATUS_OUTBOUND_ENABLED
     
 STATUS_OUTBOUND_FLUSH 
   
-> 指示传输提供程序正在从其出站队列中上载邮件。
+> 指示传输提供程序正在从出站队列中上载邮件。
     
 STATUS_REMOTE_ACCESS 
   
@@ -86,13 +86,13 @@ STATUS_REMOTE_ACCESS
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

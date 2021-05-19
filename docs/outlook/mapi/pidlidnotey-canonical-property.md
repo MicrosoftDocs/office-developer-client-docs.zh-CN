@@ -25,31 +25,31 @@ ms.locfileid: "32331274"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定用户界面显示注释的屏幕上边缘的距离 (以像素为单位)。
+指定从用户界面显示注释的屏幕上边缘的距离（以像素为单位）。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidNoteY  <br/> |
-|属性集:  <br/> |PSETID_Note  <br/> |
-|长 ID (盖子):  <br/> |0x00008B05  <br/> |
+|属性集：  <br/> |PSETID_Note  <br/> |
+|LONG ID (的一) ：  <br/> |0x00008B05  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |粘滞便笺  <br/> |
+|区域：  <br/> |便笺  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
-[[毫秒-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
+[[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
-> 指定在备注中允许的属性和操作。
+> 指定允许对注释使用的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

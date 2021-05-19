@@ -21,8 +21,8 @@ ms.locfileid: "33417957"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-由于大多数邮件系统直接支持收件人列表, 因此很少需要将收件人表的编码转换为 TNEF 流。 通常情况下, 收件人属性在邮件头中传输。 当必须包含收件人表时, TNEF 可以将收件人表编码为其常规处理的一部分。 这是在 TNEF 处理的初始阶段完成的。 传输提供程序可以通过调用包含列表中指定的**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 属性的[ITnef:: AddProps](itnef-addprops.md)方法来包含邮件的收件人表。 TNEF 从邮件中获取收件人表, 查询列集, 并将表中的每一行处理到 TNEF 流中。
+很少需要将收件人表编码到 TNEF 流中，因为大多数邮件系统直接支持收件人列表。 通常，收件人属性在邮件头中传输。 如果需要包含收件人表，TNEF 可以将收件人表编码为通常处理的一部分。 这是在 TNEF 处理的初始阶段完成。 传输提供程序可以使用包含列表中指定的 **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 属性调用 [ITnef：：AddProps](itnef-addprops.md)方法，以包含邮件的收件人表。 TNEF 从邮件获取收件人表，查询列集，将表的每一行处理到 TNEF 流中。
   
-如果传输提供程序需要在对收件人表进行编码之前对其进行修改, 则可使用备用方法。 传输提供程序可以构造必要的表, 然后调用[ITnef:: EncodeRecips](itnef-encoderecips.md)方法。 如果在_lpRecipTable_参数中传递 NULL, 则从邮件中直接获取收件人表, 如**ITnef:: AddProps**所述。
+如果传输提供程序需要先修改收件人表，然后再对其进行编码，则可用备用方法。 传输提供程序可以构造必要的表，然后调用 [ITnef：：EncodeRecips](itnef-encoderecips.md) 方法。 如果在  _lpRecipTable_ 参数中传递 NULL，则直接从邮件中接收收件人表，如 **ITnef：：AddProps 中所述**。
   
 

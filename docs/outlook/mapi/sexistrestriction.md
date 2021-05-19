@@ -25,11 +25,11 @@ ms.locfileid: "33418937"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-描述用于测试特定属性是否作为表中的列存在的一个存在的限制。 
+描述一个存在限制，该限制用于测试特定属性是否存在为表中的列。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SExistRestriction
@@ -45,23 +45,23 @@ typedef struct _SExistRestriction
 
  **ulReserved1**
   
-> 保留必须为零。 
+> 保留;必须为零。 
     
  **ulPropTag**
   
-> 用于标识要测试每行中是否存在的列的属性标记。
+> 属性标记，用于标识每行中是否存在要测试的列。
     
  **ulReserved2**
   
-> 保留必须为零。
+> 保留;必须为零。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-存在的限制用于确保对涉及属性的其他类型的限制 (如属性和内容限制) 的有意义的结果。 如果将涉及某个属性的限制传递给[IMAPITable:: Restrict](imapitable-restrict.md)或[IMAPITable:: FindRow](imapitable-findrow.md) , 并且该属性不存在, 则限制的结果将是不确定的。 通过创建**和**限制将属性限制与存在的限制联接在一起, 可以保证正确结果的调用者。 
+存在限制用于保证对涉及属性的其他类型的限制（如属性和内容限制）产生有意义的结果。 当涉及属性的限制被传递到 [IMAPITable：：Restrict](imapitable-restrict.md) 或 [IMAPITable：：FindRow](imapitable-findrow.md) 并且该属性不存在时，限制的结果将不确定。 通过创建将属性限制与存在限制联接的 **AND** 限制，可以保证调用方得到准确的结果。 
   
-存在的限制不能与具有类型 PT_OBJECT 的子对象属性一起使用。 
+存在限制不能与类型为 PT_OBJECT 的子对象属性一PT_OBJECT。 
   
-有关**SExistRestriction**结构的详细信息, 请参阅[关于限制](about-restrictions.md)。 
+有关 **SExistRestriction** 结构详细信息，请参阅关于 [限制](about-restrictions.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

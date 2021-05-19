@@ -25,7 +25,7 @@ ms.locfileid: "33416879"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供对通讯簿的访问权限。
+提供对通讯簿的访问。
   
 ```cpp
 HRESULT OpenAddressBook(
@@ -39,35 +39,35 @@ LPADRBOOK FAR * lppAdrBook
 
  _lpInterface_
   
-> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示要用于访问通讯簿的接口。 有效的值为 NULL, 表示标准通讯簿接口[IAddrBook](iaddrbookimapiprop.md)和 IID_IAddrBook。
+> [in]指向接口标识符的指针 (IID) 表示用于访问通讯簿的接口。 有效值为 NULL，指示标准通讯簿接口 [IAddrBook](iaddrbookimapiprop.md)和 IID_IAddrBook。
     
  _ulFlags_
   
-> 保留必须为零。
+> 保留;必须为零。
     
  _lppAdrBook_
   
-> 排除指向通讯簿的指针的指针。
+> [out]指向指向通讯簿的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 提供了对通讯簿的访问权限。
+> 提供了对通讯簿的访问。
     
 MAPI_W_ERRORS_RETURNED 
   
-> 呼叫成功, 但无法加载一个或多个通讯簿提供程序。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
+> 调用成功，但无法加载一个或多个通讯簿提供程序。 返回此警告时，应成功处理呼叫。 若要测试此警告，请使用 **HR_FAILED** 宏。 有关详细信息，请参阅使用 [宏处理错误](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISupport:: OpenAddressBook**方法是为所有服务提供程序支持对象实现的。 服务提供商 (通常是紧密耦合的邮件存储和传输提供程序) 调用**OpenAddressBook**以获取对通讯簿的访问权限。 返回的**IAddrBook**指针可用于各种通讯簿任务, 包括打开通讯簿容器、查找邮件用户和显示地址对话框。 
+**IMAPISupport：：OpenAddressBook** 方法针对所有服务提供商支持对象实现。 服务提供商（通常紧密耦合的邮件存储和传输提供程序）调用 **OpenAddressBook** 以访问通讯簿。 返回 **的 IAddrBook** 指针可用于各种通讯簿任务，包括打开通讯簿容器、查找邮件用户和显示地址对话框。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
- 如果**OpenAddressBook**无法在当前配置文件中加载一个或多个通讯簿提供程序, 则可以返回 MAPI_W_ERRORS_RETURNED。 此值是一个警告, 应将呼叫视为 "成功"。 即使所有通讯簿提供程序加载失败, **OpenAddressBook**仍会成功, 并在_lppAdrBook_参数中返回 MAPI_W_ERRORS_RETURNED 和**IAddrBook**指针。 由于**OpenAddressBook**始终返回有效的**IAddrBook**指针, 因此您必须在使用完它后将其释放。 
+ **如果 OpenAddressBook** 无法MAPI_W_ERRORS_RETURNED当前配置文件中的一个或多个通讯簿提供程序，则 OpenAddressBook 可以返回该地址。 此值是一条警告，您应该将调用视为成功。 即使所有通讯簿提供程序都未能加载 **，OpenAddressBook** 仍然成功，在 _lppAdrBook_ 参数中返回 MAPI_W_ERRORS_RETURNED 和 **IAddrBook** 指针。 由于 **OpenAddressBook** 始终返回有效的 **IAddrBook** 指针，因此在使用完它后必须释放它。 
   
-如果一个或多个通讯簿提供程序加载失败, 请调用[IMAPISupport:: GetLastError](imapisupport-getlasterror.md)获取包含有关未加载的提供程序的信息的[MAPIERROR](mapierror.md)结构。 
+如果加载一个或多个通讯簿提供程序失败，请调用 [IMAPISupport：：GetLastError](imapisupport-getlasterror.md) 以获取包含有关未加载的提供程序的信息的 [MAPIERROR](mapierror.md) 结构。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,12 +25,12 @@ ms.locfileid: "33417775"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算要为包含指定数量的属性标记的新[SPropTagArray](sproptagarray.md)结构分配的字节数。 
+计算要分配给包含指定数量的属性标记的新 [SPropTagArray](sproptagarray.md) 结构的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**SPropTagArray** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 CbNewSPropTagArray (_ctag)
@@ -38,9 +38,9 @@ CbNewSPropTagArray (_ctag)
 
 ## <a name="parameters"></a>参数
 
- __ctag_
+ _ _ctag_
   
-> 要包含在新的**SPropTagArray**结构中的属性标记的计数。 
+> 要包含在新 **SPropTagArray** 结构中的属性标记计数。 
     
 ## <a name="see-also"></a>另请参阅
 
