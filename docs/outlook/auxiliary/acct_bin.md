@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52061333"
 ---
-# <a name="acct_bin"></a><span data-ttu-id="f24f9-103">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="f24f9-103">ACCT_BIN</span></span>
+# <a name="acct_bin"></a><span data-ttu-id="f7e0f-103">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="f7e0f-103">ACCT_BIN</span></span>
 
-<span data-ttu-id="f24f9-104">此变量的数据类型二进制值。</span><span class="sxs-lookup"><span data-stu-id="f24f9-104">A variable of this data type holds a binary value.</span></span>
+<span data-ttu-id="f7e0f-104">此变量的数据类型二进制值。</span><span class="sxs-lookup"><span data-stu-id="f7e0f-104">A variable of this data type holds a binary value.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="f24f9-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="f24f9-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="f7e0f-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="f7e0f-105">Quick info</span></span>
 
 ```cpp
 typedef struct { 
@@ -28,14 +28,14 @@ typedef struct {
 
 ```
 
-## <a name="members"></a><span data-ttu-id="f24f9-106">成员</span><span class="sxs-lookup"><span data-stu-id="f24f9-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="f7e0f-106">成员</span><span class="sxs-lookup"><span data-stu-id="f7e0f-106">Members</span></span>
 
-<span data-ttu-id="f24f9-107">_cb_</span><span class="sxs-lookup"><span data-stu-id="f24f9-107">_cb_</span></span>
+<span data-ttu-id="f7e0f-107">_cb_</span><span class="sxs-lookup"><span data-stu-id="f7e0f-107">_cb_</span></span>
   
-> <span data-ttu-id="f24f9-108">pb 指向的  _字节_ 数。</span><span class="sxs-lookup"><span data-stu-id="f24f9-108">Number of bytes that  _pb_ points to.</span></span> 
+> <span data-ttu-id="f7e0f-108">pb 指向的  _字节_ 数。</span><span class="sxs-lookup"><span data-stu-id="f7e0f-108">Number of bytes that  _pb_ points to.</span></span> 
     
-<span data-ttu-id="f24f9-109">_pb_</span><span class="sxs-lookup"><span data-stu-id="f24f9-109">_pb_</span></span>
+<span data-ttu-id="f7e0f-109">_pb_</span><span class="sxs-lookup"><span data-stu-id="f7e0f-109">_pb_</span></span>
   
-> <span data-ttu-id="f24f9-110">指向二进制信息的指针。</span><span class="sxs-lookup"><span data-stu-id="f24f9-110">Pointer to binary information.</span></span>
+> <span data-ttu-id="f7e0f-110">指向二进制信息的指针。</span><span class="sxs-lookup"><span data-stu-id="f7e0f-110">Pointer to binary information.</span></span>
     
 

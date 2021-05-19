@@ -1,12 +1,12 @@
 ---
-title: 架构映射 (Visio XML)
+title: '架构映射 (Visio XML) '
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3ff1f2e1-bdfe-2766-3c0f-0f299cc256e9
-description: 本主题显示了 Visio 2013 文件格式的 XML 架构定义。
+description: 本主题演示 2013 Visio XML 架构定义。
 ms.openlocfilehash: 1822134546b730ceecb2f30183b4a8c325f37906
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539080"
 ---
-# <a name="schema-map-visio-xml"></a><span data-ttu-id="c7182-103">架构映射 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="c7182-103">Schema map (Visio XML)</span></span>
+# <a name="schema-map-visio-xml"></a><span data-ttu-id="02054-103">架构映射 (Visio XML) </span><span class="sxs-lookup"><span data-stu-id="02054-103">Schema map (Visio XML)</span></span>
 
-<span data-ttu-id="c7182-104">本主题显示了 Visio 2013 文件格式的 XML 架构定义。</span><span class="sxs-lookup"><span data-stu-id="c7182-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
+<span data-ttu-id="02054-104">本主题演示 2013 Visio XML 架构定义。</span><span class="sxs-lookup"><span data-stu-id="02054-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

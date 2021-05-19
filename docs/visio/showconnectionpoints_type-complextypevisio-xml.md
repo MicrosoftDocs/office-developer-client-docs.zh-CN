@@ -1,5 +1,5 @@
 ---
-title: ShowConnectionPoints_Type 复杂类型 (Visio XML)
+title: 'ShowConnectionPoints_Type COMPLEXType (Visio XML) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34543001"
 ---
-# <a name="showconnectionpointstype-complextype-visio-xml"></a><span data-ttu-id="e5e66-102">ShowConnectionPoints_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="e5e66-102">ShowConnectionPoints_Type complexType (Visio XML)</span></span>
+# <a name="showconnectionpoints_type-complextype-visio-xml"></a><span data-ttu-id="dbe7e-102">ShowConnectionPoints_Type COMPLEXType (Visio XML) </span><span class="sxs-lookup"><span data-stu-id="dbe7e-102">ShowConnectionPoints_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="e5e66-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="e5e66-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="dbe7e-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="dbe7e-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="e5e66-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="e5e66-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="e5e66-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="e5e66-105">**Schema file**</span></span> <br/> |<span data-ttu-id="e5e66-106">VisioSchema15-2012-06-05</span><span class="sxs-lookup"><span data-stu-id="e5e66-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="e5e66-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="e5e66-107">**Extension base**</span></span> <br/> |<span data-ttu-id="e5e66-108">xsd: boolean</span><span class="sxs-lookup"><span data-stu-id="e5e66-108">xsd:boolean</span></span>  <br/> |
+|<span data-ttu-id="dbe7e-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="dbe7e-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="dbe7e-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="dbe7e-105">**Schema file**</span></span> <br/> |<span data-ttu-id="dbe7e-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="dbe7e-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="dbe7e-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="dbe7e-107">**Extension base**</span></span> <br/> |<span data-ttu-id="dbe7e-108">xsd：boolean</span><span class="sxs-lookup"><span data-stu-id="dbe7e-108">xsd:boolean</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="e5e66-109">定义</span><span class="sxs-lookup"><span data-stu-id="e5e66-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="dbe7e-109">定义</span><span class="sxs-lookup"><span data-stu-id="dbe7e-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="ShowConnectionPoints_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "34543001"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="e5e66-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="e5e66-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="dbe7e-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="dbe7e-110">Elements and attributes</span></span>
 
-<span data-ttu-id="e5e66-111">如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。</span><span class="sxs-lookup"><span data-stu-id="e5e66-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="dbe7e-111">如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="dbe7e-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="e5e66-112">子元素</span><span class="sxs-lookup"><span data-stu-id="e5e66-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="dbe7e-112">子元素</span><span class="sxs-lookup"><span data-stu-id="dbe7e-112">Child elements</span></span>
 
-<span data-ttu-id="e5e66-113">无。</span><span class="sxs-lookup"><span data-stu-id="e5e66-113">None.</span></span>
+<span data-ttu-id="dbe7e-113">无。</span><span class="sxs-lookup"><span data-stu-id="dbe7e-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="e5e66-114">Attributes</span><span class="sxs-lookup"><span data-stu-id="e5e66-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="dbe7e-114">Attributes</span><span class="sxs-lookup"><span data-stu-id="dbe7e-114">Attributes</span></span>
 
-<span data-ttu-id="e5e66-115">无。</span><span class="sxs-lookup"><span data-stu-id="e5e66-115">None.</span></span>
+<span data-ttu-id="dbe7e-115">无。</span><span class="sxs-lookup"><span data-stu-id="dbe7e-115">None.</span></span>
   
 
