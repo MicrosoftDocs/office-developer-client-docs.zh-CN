@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415703"
 ---
-# <a name="propsmtpserver"></a>PROP_SMTP_SERVER
+# <a name="prop_smtp_server"></a>PROP_SMTP_SERVER
 
 表示 SMTP 帐户的服务器名称。
   

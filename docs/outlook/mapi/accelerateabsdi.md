@@ -23,13 +23,13 @@ ms.locfileid: "33420372"
  
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义用于在无模式通讯簿对话框中处理加速键的回调函数。 
+定义回调函数以在无模式通讯簿对话框中处理加速键。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|定义的函数实现者:  <br/> |MAPI  <br/> |
-|定义的函数调用者:  <br/> |客户端应用程序  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|定义的函数实现方：  <br/> |MAPI  <br/> |
+|由调用的已定义函数：  <br/> |客户端应用程序  <br/> |
    
 ```cpp
 BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)( 
@@ -42,22 +42,22 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
 
  _ulUIParam_
   
-> 实时用于将用户界面信息传递给函数的特定于实现的值。 在 Microsoft Windows 上运行的应用程序中, _ulUIParam_是对话框的父窗口句柄, 其类型为 HWND, 转换为**ULONG_PTR**。 如果值为零, 则表示没有父窗口。 
+> [in]用于将用户界面信息传递给函数的特定于实现的值。 在 Microsoft Windows 上运行的应用程序中 _，ulUIParam_ 是对话框的父窗口句柄，并且类型为 HWND，请强制转换到ULONG_PTR **。** 值为零表示没有父窗口。 
     
  _lpvmsg_
   
-> 实时指向 Windows 消息的指针。
+> [in]指向邮件Windows指针。
     
 ## <a name="return-value"></a>返回值
 
-带有**ACCELERATEABSDI**原型的函数将返回 TRUE (如果它处理邮件)。 
+如果具有 **ACCELERATEABSDI** 原型的函数处理消息，则返回 TRUE。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-基于**ACCELERATEABSDI**原型的函数仅用于无模式对话框, 即, 仅当客户端应用程序已在[ADRPARM](adrparm.md)结构的_ulFlags_成员中设置了 DIALOG_SDI 标志时。 
+基于 **ACCELERATEABSDI** 原型的函数仅用于无模式对话框，即，只有当客户端应用程序在 [ADRPARM](adrparm.md)结构的 _ulFlags_ 成员中设置了 DIALOG_SDI 标志时。 
   
-无模式对话框共享客户端应用程序的 Windows 消息循环, 而不是拥有自己的循环。 控制消息循环的应用程序不知道对话框使用的快捷键, 因此它调用基于**ACCELERATEABSDI**的函数来测试加速器键 (如 CTRL + P) 以进行打印, 并对其进行操作。 
+无模式对话框共享客户端应用程序的Windows消息循环，而不是有自己的循环。 应用程序控制消息循环，它不知道对话框使用哪些加速键，因此它调用基于 **ACCELERATEABSDI** 的函数来测试加速键（如 Ctrl+P）并针对打印操作。 
   
-当客户端使用[IAddrBook:: address](iaddrbook-address.md)方法调用无模式通讯簿对话框时, 客户端的消息循环会调用基于**ACCELERATEABSDI**的函数。 当 MAPI 调用基于[DISMISSMODELESS](dismissmodeless.md)函数原型的函数时, 将终止此调用。 
+当客户端使用 [IAddrBook：：Address](iaddrbook-address.md)方法调用无模式通讯簿对话框时，客户端的邮件循环将调用基于 **ACCELERATEABSDI** 的函数。 当 MAPI 调用基于 [DISMISSMODELESS](dismissmodeless.md) 函数原型的函数时，此调用将终止。 
   
 

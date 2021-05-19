@@ -128,10 +128,10 @@ End Try
   
 ### <a name="enable-notifications-for-unhandled-managed-code-exceptions-at-run-time"></a>在运行时针对未处理的托管代码异常启用通知
 
-1. 打开 InfoPath Designer，然后单击“文件”**** 选项卡。 
+1. 打开 InfoPath Designer，然后单击“文件”选项卡。 
     
-2. 单击“选项”****，然后单击“常规”**** 类别下的“InfoPath 选项”****。 
+2. 单击“选项”，然后单击“常规”类别下的“InfoPath 选项”。 
     
-3. 在“高级”**** 选项卡上，选中****“显示 Visual Basic 和 C# 代码错误的通知”复选框。 
+3. 在“高级”选项卡上，选中“显示 Visual Basic 和 C# 代码错误的通知”复选框。 
     
 

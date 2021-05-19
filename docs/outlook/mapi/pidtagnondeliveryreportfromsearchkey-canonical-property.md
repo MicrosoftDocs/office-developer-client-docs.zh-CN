@@ -25,32 +25,32 @@ ms.locfileid: "33414485"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果在 nondelivery 报告上设置, 则表示失败的 "代理发送" 用户的搜索关键字。
+如果对未送达报告进行设置，则表示失败用户的Send-As键。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_NDR_FROM_SEARCH_KEY  <br/> |
 |标识符:  <br/> |0x6906  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |常规邮件  <br/> |
+|区域：  <br/> |常规消息  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]] 
+[[MS-OXPROPS]] 
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

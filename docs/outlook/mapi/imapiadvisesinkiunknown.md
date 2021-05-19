@@ -25,16 +25,16 @@ ms.locfileid: "33409564"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-实现用于处理通知的通知接收器对象。 指向通知接收器对象的指针在对服务提供程序的**advise**方法的调用中传递, 用于注册通知的机制。 
+实现用于处理通知的建议接收器对象。 指向通知接收对象的指针在调用服务提供商的 **Advise** 方法（用于注册通知的机制）时传递。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|公开者:  <br/> |通知接收器对象  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|公开者：  <br/> |建议接收对象  <br/> |
 |实现者：  <br/> |客户端应用程序和 MAPI  <br/> |
-|调用者：  <br/> |服务提供商和 MAPI  <br/> |
-|接口标识符:  <br/> |IID_IMAPIAdviseSink  <br/> |
-|指针类型:  <br/> |LPMAPIADVISESINK  <br/> |
+|调用者：  <br/> |服务提供程序和 MAPI  <br/> |
+|接口标识符：  <br/> |IID_IMAPIAdviseSink  <br/> |
+|指针类型：  <br/> |LPMAPIADVISESINK  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 

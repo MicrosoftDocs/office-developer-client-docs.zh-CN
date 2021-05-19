@@ -1,5 +1,5 @@
 ---
-title: Count 函数 (Access 自定义 web 应用程序)
+title: 'Access 自定义 (应用的 Count 函数) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419140"
 ---
-# <a name="count-function-access-custom-web-app"></a>Count 函数 (Access 自定义 web 应用程序)
+# <a name="count-function-access-custom-web-app"></a>Access 自定义 (应用的 Count 函数) 
 
 返回查询或表中的记录数。
   
@@ -22,18 +22,18 @@ ms.locfileid: "33419140"
   
 ## <a name="syntax"></a>语法
 
-**计数**(*表达式*) 
+**计算** (*表达式*)  
   
-**Count**函数包含以下参数。 
+**Count** 函数包含以下参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|
-| *Expression*  <br/> |字符串表达式, 用于标识包含要计数的数据的字段, 或使用字段中的数据执行计算的表达式。 *表达式*中的操作数可以包括表字段或函数的名称 (可以是固有的, 也可以是用户定义的, 但不能是其他 SQL 聚合函数)。 可以计算包括文本在内的任何类型数据。  <br/> |
+| *Expression*  <br/> |字符串表达式（标识包含要计算的数据的字段）或表达式（使用字段中的数据执行计算）。 Expression 中的操作数可以包括表字段或函数 (可以是固有函数或用户定义的函数，但不能包含其他SQL函数) 。 可以计算包括文本在内的任何类型数据。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-可以使用 Count 来统计基本查询的记录数。 例如, 可以使用 count 计算发往特定国家或地区的订单数。
+可以使用 Count 来统计基本查询的记录数。 例如，您可以使用 Count 计算发往特定国家/地区或地区的订单数。
   
-**计数**(\*) 返回组中的项目数。 这包括 NULL 值和重复项。 
+**Count** (\*) 返回组中项的数量。 这包括 NULL 值和重复项。 
   
 

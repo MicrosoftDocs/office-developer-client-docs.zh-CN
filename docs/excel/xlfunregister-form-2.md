@@ -22,15 +22,15 @@ ms.locfileid: "33419903"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-可从 DLL 或 XLL 命令调用, 该命令本身已由 Microsoft Excel 调用。 这相当于从 Excel XLM 宏表中调用 "**注销**"。 
+可以从 DLL 或 XLL 命令调用，该命令本身已由 Microsoft Excel。 这相当于从 XLM 宏表Excel **UNREGISTER。** 
   
-可以在两种形式中调用**xlfUnregister** : 
+**xlfUnregister** 可以两种形式调用： 
   
-- 表单 1: 注销单个命令或函数。
+- 表单 1：取消注册单个命令或函数。
     
-- 窗体 2: 卸载和停用 XLL。
+- 表单 2：卸载和停用 XLL。
     
-在表单2中调用, 此函数强制完全卸载 DLL 或代码资源。 它注销 DLL 中的所有函数, 即使它们当前正由另一个宏使用, 无论使用次数如何。 此函数调用**xlAutoClose**, 然后注销 DLL 中的所有函数。
+在表单 2 中调用此函数会强制完全卸载 DLL 或代码资源。 它取消注册 DLL 中所有函数，即使它们当前正由另一个宏使用，无论使用计数如何。 此函数调用 **xlAutoClose**，然后取消注册 DLL 中所有函数。
   
 ```cs
 Excel12(xlfUnregister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
@@ -38,22 +38,22 @@ Excel12(xlfUnregister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 
 ## <a name="parameters"></a>参数
 
-_pxModuleText_(**xltypeStr**)
+_pxModuleText_ (**xltypeStr**) 
   
 DLL 的名称。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果成功,**则返回 TRUE** (**xltypeBool**)。 如果不成功, 则返回**FALSE**。
+如果成功，则返回 **xltypeBool** (TRUE) 。  如果失败，则返回 **FALSE**。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 > [!NOTE] 
-> 请勿从您的[xlAutoClose](xlautoclose.md)实现中调用这种形式的函数, 企图使用一个简单的函数调用注销 DLL 的所有资源。 这将导致递归调用**xlAutoClose**和堆栈溢出。 
+> 不要从 [xlAutoClose](xlautoclose.md) 的实现中调用此形式的函数，以尝试通过一个简单的函数调用注销 DLL 的所有资源。 这将导致递归调用 **xlAutoClose** 和堆栈溢出。 
   
-### <a name="remember-to-delete-names"></a>记住删除名称
+### <a name="remember-to-delete-names"></a>请记住删除名称
 
-如果将_pxFunctionText_参数指定为**xlfRegister**, 则在注册 DLL 的函数和命令时, 必须通过调用每个函数和命令的**xlfSetName**显式删除这些名称, 省略第二个参数, 以便函数向导中将不再显示函数。 有关详细信息，请参阅 [Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)。
+如果将  _pxFunctionText_ 参数指定为 **xlfRegister**，则注册 DLL 的函数和命令时，必须通过调用每个函数的 **xlfSetName** 来明确删除名称，同时省略第二个参数，以便函数不再显示在函数向导中。 有关详细信息，请参阅 [Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)。
   
 ## <a name="see-also"></a>另请参阅
 

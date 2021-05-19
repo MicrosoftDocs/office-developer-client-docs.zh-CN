@@ -1,5 +1,5 @@
 ---
-title: 使用 MAPI 创建 Outlook 项目
+title: 使用 MAPI Outlook项目
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,32 +15,32 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409858"
 ---
-# <a name="creating-outlook-items-by-using-mapi"></a>使用 MAPI 创建 Outlook 项目
+# <a name="creating-outlook-items-by-using-mapi"></a>使用 MAPI Outlook项目
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本节中的主题演示如何使用 MAPI 创建 Outlook 项目。
+本节中的主题演示如何使用 MAPI Outlook项目。
   
-- [安装本部分中使用的示例](how-to-install-the-samples-used-in-this-section.md)
+- [安装本节中使用的示例](how-to-install-the-samples-used-in-this-section.md)
     
-    本主题说明如何安装和查看本节中讨论的示例。
+    本主题演示如何安装和查看本节中讨论的示例。
     
-- [创建简单邮件项](how-to-create-a-simple-mail-item.md)
+- [创建简单邮件项目](how-to-create-a-simple-mail-item.md)
     
-    本主题演示如何创建一个请求已读回执的简单邮件项目。
+    本主题演示如何创建请求已读回执的简单邮件项目。
     
-- [创建简单的重复性任务项](how-to-create-a-simple-recurrent-task-item.md)
+- [创建简单重复性任务项](how-to-create-a-simple-recurrent-task-item.md)
     
-    本主题演示如何创建一个在每周发生的简单任务项。
+    本主题演示如何创建每周发生的简单任务项。
     
-- [创建复杂的定期约会项目](how-to-create-a-complex-recurrent-appointment-item.md)
+- [创建复杂定期约会项目](how-to-create-a-complex-recurrent-appointment-item.md)
     
-    本主题演示如何创建每周重复的约会项目, 还将考虑与时区相关的问题。
+    本主题演示如何创建每周定期约会项目，同时考虑与时区相关的问题。
     
 - [读取和分析定期模式](how-to-read-and-parse-a-recurrence-pattern.md)
     
-    本主题演示如何读取和分析约会项目的定期模式。
+    本主题演示如何读取和分析约会定期模式约会项目的详细信息。
     
 

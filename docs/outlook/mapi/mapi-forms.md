@@ -21,11 +21,11 @@ ms.locfileid: "33409970"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-阅读 mapi 表单体系结构的此概述之后, 您将了解 mapi 表单是什么以及它们如何与 mapi 子系统的其他组件进行交互。 本节旨在为您提供实现您自己的 MAPI 表单服务器所需的概念性知识。
+阅读 MAPI 表单体系结构的此概述后，您将了解什么是 MAPI 表单，以及这些表单如何与 MAPI 子系统的其他组件进行交互。 本节的目的是为您提供实现您自己的 MAPI 表单服务器所需的概念知识。
   
-阅读本部分之前, 应熟悉[MAPI 表单概述](mapi-forms-overview.md)主题中的资料。 
+在阅读本节之前，您应熟悉 [MAPI Forms Overview主题中的](mapi-forms-overview.md) 材料。 
   
 > [!NOTE]
-> 由于 MAPI 表单体系结构基于组件对象模型 (COM), 因此开发表单服务器应用程序需要了解 COM 编程。 有关 COM 的详细信息, 请参阅 Windows SDK 中的 com 和 ActiveX 对象服务一节。 
+> 由于 MAPI 表单体系结构基于组件对象模型 (COM) ，因此开发表单服务器应用程序需要了解 COM 编程知识。 有关 COM 详细信息，请参阅 WINDOWS SDK 中的 COM 和 ActiveX 对象服务部分。 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33419609"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-调用内部函数以检查客户端应用程序已传递给服务提供程序和 MAPI 的参数。 
+调用内部函数以检查客户端应用程序已传递给服务提供商和 MAPI 的参数。 
   
 |||
 |:-----|:-----|
@@ -44,26 +44,26 @@ HRESULT UlValidateParms(
 
  _eMethod_
   
-> 实时通过枚举指定要验证的方法。 
+> [in]通过枚举指定要验证的方法。 
     
  _第一_
   
-> 实时指向堆栈上第一个参数的指针。
+> [in]指向堆栈上第一个参数的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。 
+> 调用成功并返回了预期值。 
     
 MAPI_E_CALL_FAILED 
   
-> 错误阻止操作完成。
+> 错误阻止了操作完成。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-假定在 MAPI 和服务提供程序之间传递的参数是正确的, 并且仅使用[CheckParms](checkparms.md)宏进行调试验证。 提供程序应检查客户端应用程序传入的所有参数, 但客户端应假定 MAPI 和提供程序参数正确。 使用**HR_FAILED**宏可测试返回值。 
+在 MAPI 和服务提供商之间传递的参数被认为是正确的，并且只接受 [CheckParms 宏的调试](checkparms.md) 验证。 提供程序应检查客户端应用程序传入的所有参数，但客户端应假定 MAPI 和提供程序参数正确。 使用 **HR_FAILED** 宏测试返回值。 
   
-**UlValidateParms**宏的调用方式取决于调用代码是否为 c 或 c + +。 此宏用于验证几个**IUnknown**和 MAPI 方法的参数, 这些方法返回 ULONG 而不是 HRESULT 值;[ValidateParms](validateparms.md)宏适用于所有其他宏。 
+根据调用代码是 C 还是 C++，调用 **UlValidateParms** 宏的方式不同。 此宏用于验证返回 ULONG（而不是 HRESULT 值）的一些 **IUnknown** 和 MAPI 方法的参数; [ValidateParms](validateparms.md) 宏适用于所有其他宏。 
   
 

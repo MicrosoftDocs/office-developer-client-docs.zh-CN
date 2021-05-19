@@ -25,7 +25,7 @@ ms.locfileid: "33419602"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通知表单查看器新的或现有的邮件已在表单中加载。
+通知表单查看器已在表单中加载了新邮件或现有邮件。
   
 ```cpp
 HRESULT OnNewMessage( void );
@@ -39,17 +39,17 @@ HRESULT OnNewMessage( void );
 
 S_OK 
   
-> 通知已成功。
+> 通知成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-当使用[IPersistMessage:: InitNew](ipersistmessage-initnew.md)或[IPersistMessage:: Load](ipersistmessage-load.md)方法在窗体中加载邮件时, form 对象将调用**IMAPIViewAdviseSink:: OnNewMessage**方法。 
+只要使用 [IPersistMessage：：InitNew](ipersistmessage-initnew.md)或 [IPersistMessage：：Load](ipersistmessage-load.md)方法在表单中加载邮件，Form 对象就会调用 **IMAPIViewAdviseSink：：OnNewMessage** 方法。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-释放指向 form 对象的活动指针, 因为它不再指向您的查看器以前查看的邮件。 
+释放窗体对象的活动指针，因为它不再指向查看者以前查看的消息。 
   
-有关表单通知的详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
+有关表单通知详细信息，请参阅 [发送和接收表单通知](sending-and-receiving-form-notifications.md)。
   
 ## <a name="see-also"></a>另请参阅
 

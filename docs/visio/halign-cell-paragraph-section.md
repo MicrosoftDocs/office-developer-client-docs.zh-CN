@@ -24,11 +24,11 @@ ms.locfileid: "33414737"
 |:-----|:-----|:-----|
 | 0  <br/> | 左对齐  <br/> |**visHorzLeft** <br/> |
 | 1  <br/> | 居中  <br/> |**visHorzCenter** <br/> |
-| 双面  <br/> | 右对齐  <br/> |**visHorzRight** <br/> |
-| 第三章  <br/> | Justify  <br/> |**visHorzJustify** <br/> |
-| 4  <br/> | 强制对齐  <br/> |**visHorzForce** <br/> |
+| 2  <br/> | 右对齐  <br/> |**visHorzRight** <br/> |
+| 3  <br/> | Justify  <br/> |**visHorzJustify** <br/> |
+| 4   <br/> | 强制对齐  <br/> |**visHorzForce** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 两端对齐就是在段落中每一行（最后一行除外）的字与字之间添加空格，以便文本的左右两端都与边缘对齐。
   
@@ -38,14 +38,14 @@ ms.locfileid: "33414737"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | HorzAlign [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
+| 单元格名称：  <br/> | Para.HorzAlign[  *i*  ] 其中  *i*  = <1> 2， 3...  <br/> |
    
 要从某个程序按索引获取对 HAlign 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionParagraph** <br/> |
-| 行索引：  <br/> |**visRowParagraph** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowParagraph**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visHorzAlign** <br/> |
    
 

@@ -20,20 +20,20 @@ ms.locfileid: "33415759"
 
 包含描述动作标记的字符串。当用户将鼠标指针悬停于动作标记上时，此字符串以工具提示的形式显示。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Description 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | SmartTags.  *名称*。智能标记的说明。 *name*是操作标记行的名称  <br/> |
+| 单元格名称：  <br/> | SmartTags。  *name*  .SmartTags 位置的说明。 *name*  是动作标记行的名称  <br/> |
    
 要从某个程序按索引获取对 Description 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionSmartTag** <br/> |
-| 行索引：  <br/> |**visRowSmartTag** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowSmartTag**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visSmartTagDescription** <br/> |
    
 

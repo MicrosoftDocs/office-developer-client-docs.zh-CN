@@ -25,7 +25,7 @@ ms.locfileid: "33414912"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回安装在表单容器中的所有表单所使用的属性的数组。
+返回由安装在表单容器中的所有表单使用的属性数组。
   
 ```cpp
 HRESULT CalcFormPropSet(
@@ -38,7 +38,7 @@ HRESULT CalcFormPropSet(
 
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制如何返回_ppResults_参数中的属性数组。 可以设置以下标志: 
+> [in]控制  _ppResults_ 参数中属性数组的返回方式的标志位掩码。 可以设置以下标志： 
     
 FORMPROPSET_INTERSECTION 
   
@@ -46,39 +46,39 @@ FORMPROPSET_INTERSECTION
     
 FORMPROPSET_UNION 
   
-> 返回的数组包含表单属性的联合。
+> 返回的数组包含窗体属性的并集。
     
 MAPI_UNICODE 
   
-> 数组中返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 数组中返回的字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
  _ppResults_
   
-> 排除指向返回的[SMAPIFormPropArray](smapiformproparray.md)结构的指针的指针。 此结构包含已安装的表单所使用的所有属性。 
+> [out]指向返回的 [SMAPIFormPropArray 结构的指针的](smapiformproparray.md) 指针。 此结构包含已安装的表单使用的所有属性。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
+> 设置 MAPI_UNICODE 标志，而实现不支持 Unicode，或者MAPI_UNICODE未设置，并且实现仅支持 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端应用程序调用**IMAPIFormContainer:: CalcFormPropSet**方法以获取在表单容器中安装的所有表单使用的属性数组。 **IMAPIFormContainer:: CalcFormPropSet**的工作方式与[IMAPIFormMgr:: CalcFormPropSet](imapiformmgr-calcformpropset.md)方法相同, 不同之处在于它在特定容器中注册的每个窗体上运行。 
+客户端应用程序调用 **IMAPIFormContainer：：CalcFormPropSet** 方法以获取表单容器中安装的所有表单所使用的属性数组。 **IMAPIFormContainer：：CalcFormPropSet** 的工作方式与 [IMAPIFormMgr：：CalcFormPropSet](imapiformmgr-calcformpropset.md) 方法类似，只不过它在特定容器中注册的所有表单上运行。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果 MAPI_UNICODE 已传递, 则不支持 Unicode 字符串的表单库提供程序应返回 MAPI_E_BAD_CHARWIDTH。
+如果传递了 Unicode 字符串，则不支持 Unicode MAPI_E_BAD_CHARWIDTH返回MAPI_UNICODE提供程序。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
- **IMAPIFormContainer:: CalcFormPropSet**采用交集或 union of forms 属性集, 具体取决于_ulFlags_参数中设置的标志, 并且它将返回一个**SMAPIFormPropArray**结构, 其中包含生成的属性组。 
+ **IMAPIFormContainer：：CalcFormPropSet** 采用表单属性集的交集或联合，具体取决于  _ulFlags_ 参数中设置的标志，并返回一个 **SMAPIFormPropArray** 结构，其中包含生成的属性组。 
   
-如果客户端在_ulFlags_中传递了 MAPI_UNICODE 标志, 则所有返回的字符串都是 UNICODE。
+如果客户端在  _ulFlags_ 中传递 MAPI_UNICODE 标志，则返回的所有字符串都是 Unicode。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -37,25 +37,25 @@ BOOKMARK bkPosition
 
  _bkPosition_
   
-> 实时要释放的书签, 通过调用[IMAPITable:: CreateBookmark](imapitable-createbookmark.md)方法创建。 
+> [in]要释放的书签，通过调用 [IMAPITable：：CreateBookmark](imapitable-createbookmark.md) 方法创建。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功释放该书签。
+> 已成功释放书签。
     
 MAPI_E_INVALID_BOOKMARK 
   
 > 指定的书签不存在。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPITable:: FreeBookmark**方法释放不再需要的书签。 该书签在此调用后不再有效。 每当从内存释放表时, 也会释放其所有关联的书签。 
+**IMAPITable：：FreeBookmark** 方法释放不再需要的书签。 此调用后书签不再有效。 每当从内存中释放表时，也将释放其所有关联的书签。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果调用方在_bkPosition_参数中传递了三个预定义书签之一, 则忽略该请求并返回 S_OK。 
+如果调用方传递  _bkPosition_ 参数中的三个预定义书签之一，则忽略请求并返回S_OK。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33414642"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供对配置文件表 (包含所有可用配置文件的相关信息的表) 的访问权限。
+提供对配置文件表的访问权限，该表包含有关所有可用配置文件的信息。
   
 ```cpp
 HRESULT GetProfileTable(
@@ -38,11 +38,11 @@ HRESULT GetProfileTable(
 
  _ulFlags_
   
-> 实时始终为 NULL。
+> [in]始终为 NULL。
     
  _lppTable_
   
-> 排除指向指向配置文件表的指针的指针。
+> [out]指向指向配置文件表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -50,15 +50,15 @@ S_OK
   
 > 已成功检索配置文件表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IProfAdmin:: GetProfileTable**方法提供对配置文件表的访问, 其中每个可用的配置文件在其中占一行。 每行中仅有两列: 配置文件的显示名称和指示是否为默认配置文件的标志。 
+**IProfAdmin：：GetProfileTable** 方法提供对配置文件表的访问，该表包含每个可用配置文件的一行。 每行中只有两列：配置文件的显示名称和一个指示配置文件是否是默认配置文件的标志。 
   
-配置文件表中不包含已删除或正在使用但已标记为删除的配置文件。 配置文件表是静态的;后续的配置文件添加和删除不会反映在表中。 
+配置文件表中不包含已删除或已在使用中但标记为删除的配置文件。 配置文件表是静态的;后续的添加和删除配置文件不会反映在表中。 
   
-如果不存在任何配置文件, **GetProfileTable**将返回一个包含零行的表。 
+如果不存在配置文件 **，GetProfileTable** 将返回包含零行的表。 
   
-有关配置文件表的详细信息, 请参阅[profile Tables 表](profile-tables.md)。 
+有关配置文件表的信息，请参阅配置文件 [表](profile-tables.md)。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -66,7 +66,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg  <br/> |CMainDlg:: OnShowProfiles  <br/> |MFCMAPI 使用**IProfAdmin:: GetProfileTable**方法获取要在新对话框中显示的配置文件表。  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg：：OnShowProfiles  <br/> |MFCMAPI 使用 **IProfAdmin：：GetProfileTable** 方法获取要显示在新对话框中的配置文件表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

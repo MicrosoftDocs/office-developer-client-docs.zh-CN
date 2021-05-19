@@ -25,7 +25,7 @@ ms.locfileid: "33415178"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在邮件文本中包含循环冗余检查 (CRC) 值。
+包含对邮件文本 (CRC) 循环冗余检查。
   
 |||
 |:-----|:-----|
@@ -34,23 +34,23 @@ ms.locfileid: "33415178"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-邮件存储区可以使用任何可生成 PT_LONG 值的 CRC 算法。 如果首次设置了**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性, 并在随后对其进行了修改, 则它必须将此属性作为[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法的一部分进行计算。
+邮件存储可以使用生成值的任何 CRC PT_LONG值。 它必须在首次设置 **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性时以及以后对其进行修改时，在 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md)方法中计算此属性。
   
-客户端应用程序使用**PR_BODY_CRC**来协助比较**PR_BODY**属性或其变体中包含的邮件文本字符串。 使用此属性, 客户端可以快速且轻松地检测邮件文本的更改时间。 通过使用**PR_BODY_CRC** (而不是从邮件存储区获取**PR_BODY** , 并将其与本地版本进行比较) 可以显著提高性能。 
+客户端应用程序使用 **PR_BODY_CRC** 帮助比较包含在属性或变量PR_BODY中的邮件文本字符串。  使用此属性，客户端可以快速且轻松地检测邮件文本何时发生更改。 通过使用 PR_BODY_CRC而不是从邮件存储PR_BODY它和本地版本进行比较，可以实现显著的性能提升。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

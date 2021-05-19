@@ -40,7 +40,7 @@ ms.locfileid: "33409424"
 |hrGroupDoesNotExist  <br/> |0x80042011  <br/> |节组不存在。  <br/> |
 |hrPageDoesNotExistInGroup  <br/> |0x80042012  <br/> |页面不存在该节组中。  <br/> |
 |hrNoActiveSelection  <br/> |0x80042013  <br/> |没有任何活动的选定内容。  <br/> |
-|hresult.hrobjectdoesnotexist  <br/> |0x80042014  <br/> |对象不存在。  <br/> |
+|hrObjectDoesNotExist  <br/> |0x80042014  <br/> |对象不存在。  <br/> |
 |hrNotebookDoesNotExist  <br/> |0x80042015  <br/> |笔记本不存在。  <br/> |
 |hrInsertingFile  <br/> |0x80042016  <br/> |无法插入该文件。  <br/> |
 |hrInvalidName  <br/> |0x80042017  <br/> |名称无效。  <br/> |
@@ -74,7 +74,7 @@ ms.locfileid: "33409424"
   
 |**[HRESULT]**|**值**|**说明**|
 |:-----|:-----|:-----|
-|hrIMConversationTypeInvalid  <br/> |0x8004202F  <br/> |如果 **IMConversationType**页 node 属性已为非 0,1,2 或 3 的值由 **UpdatePageContent**返回  <br/> |
+|hrIMConversationTypeInvalid  <br/> |0x8004202F  <br/> |如果 **IMConversationType** 页 node 属性已为非 0,1,2 或 3 的值由 **UpdatePageContent** 返回  <br/> |
 |hrAppInModalUI  <br/> |0x80042030  <br/> |模式对话框阻止应用程序。  <br/> |
    
 ## <a name="see-also"></a>另请参阅

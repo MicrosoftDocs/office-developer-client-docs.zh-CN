@@ -25,13 +25,13 @@ ms.locfileid: "33411006"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将由[SPropValue](spropvalue.md)结构数组定义的属性复制到新目标。 
+将由 [SPropValue](spropvalue.md) 结构数组定义的属性复制到新目标。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE ScCopyProps(
@@ -46,19 +46,19 @@ SCODE ScCopyProps(
 
  _cprop_
   
-> 实时要复制的属性的计数。 
+> [in]要复制的属性计数。 
     
  _rgprop_
   
-> 实时指向定义要复制的属性的[SPropValue](spropvalue.md)结构数组的指针。 _rgprop_参数不必指向数组的开头, 但它必须指向数组中的一个**SPropValue**结构的开始位置。 
+> [in]指向定义要复制的属性 [的 SPropValue](spropvalue.md) 结构的数组的指针。 _rgprop_ 参数无需指向数组的开头，但必须指向数组中 **SPropValue** 结构之一的开头。 
     
  _pvDst_
   
-> 实时指向此函数将在其中复制属性的内存中的初始位置的指针。 
+> [in]指向此函数将属性复制到的内存中的初始位置的指针。 
     
- _pcb_
+ _这些_
   
-> 排除可选指针, 指向由_pvDst_参数指向的内存块的大小 (以字节为单位)。 
+> [out]可选指针，指向  _pvDst_ 参数指向的内存块的大小（以字节为单位）。 
     
 ## <a name="return-value"></a>返回值
 
@@ -68,15 +68,15 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER
   
-> 遇到未知的属性类型。
+> 遇到未知属性类型。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-新数组及其数据驻留在通过单个分配创建的缓冲区中, [ScRelocProps](screlocprops.md)函数可用于调整各个[SPropValue](spropvalue.md)结构中的指针。 在此调整之前, 指针有效。 
+新数组及其数据驻留在通过单个分配创建的缓冲区中， [并且 ScRelocProps](screlocprops.md) 函数可用于调整单个 [SPropValue 结构中](spropvalue.md) 的指针。 在此调整之前，指针是有效的。 
   
- **ScCopyProps**维护复制的属性数组的原始属性顺序。 
+ **ScCopyProps** 维护复制的属性数组的原始属性顺序。 
   
-_pcb_参数是可选的;如果不为 NULL, 则将其设置为_pvDst_参数中存储的字节数。 
+此  _为可选_ 参数;如果不是 NULL，则设置为  _pvDst_ 参数中存储的字节数。 
   
 ## <a name="see-also"></a>另请参阅
 

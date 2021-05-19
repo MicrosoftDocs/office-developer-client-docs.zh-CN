@@ -23,10 +23,10 @@ ms.locfileid: "33410201"
   
  **删除配置文件**
   
-- 调用[IProfAdmin::D eleteprofile](iprofadmin-deleteprofile.md)。
+- 调用 [IProfAdmin：:D eleteProfile](iprofadmin-deleteprofile.md)。
     
- 如果要删除的配置文件当前正在使用, 则**DeleteProfile**会将其标记为删除, 等待它不再处于活动状态以将其删除。 只有在具有活动会话的每个客户端断开连接后, 配置文件才会实际消失。 
+ **DeleteProfile** 将配置文件标记为待删除（如果当前正在使用，则等待配置文件不再处于活动状态才能删除它）。 配置文件实际上不会消失，直到每个具有活动会话的客户端断开连接。 
   
- **DeleteProfile**调用配置文件中的每个邮件服务的入口点函数, 并将_ulContext_参数设置为 MSG_SERVICE_DELETE。 对入口点函数的调用在从配置文件中实际删除服务之前发生。 
+ **DeleteProfile** 调用配置文件中每个邮件服务的入口点函数  _，ulContext_ 参数设置为 MSG_SERVICE_DELETE。 在从配置文件中实际删除服务之前，将调用入口点函数。 
   
 

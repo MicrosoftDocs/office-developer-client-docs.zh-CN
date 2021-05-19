@@ -25,7 +25,7 @@ ms.locfileid: "33419749"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件发件人想要通知指定收件人的非接收通知, 则该参数为 TRUE。
+如果邮件发件人希望通知指定收件人未接收，则包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33419749"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果此属性包含 FALSE 且**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性包含 TRUE, 则服务提供程序可以重写**PR_NON_RECEIPT_NOTIFICATION_REQUESTED**属性并生成未送达报告。 
+如果此属性包含 FALSE 并且 **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性包含 TRUE，则服务提供商可以重写 **PR_NON_RECEIPT_NOTIFICATION_REQUESTED** 属性并生成未送达报告。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

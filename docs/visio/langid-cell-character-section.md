@@ -20,7 +20,7 @@ ms.locfileid: "33419280"
 
 指示输入文本所使用的语言。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 有关 Microsoft Office 应用程序所支持的语言的列表，请参阅“[DocLangID](doclangid-cell-document-properties-section.md) 单元格（‘Document Properties’内容）”这一主题。 
   
@@ -28,14 +28,14 @@ ms.locfileid: "33419280"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | LangID [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
+| 单元格名称：  <br/> | Char.LangID[  *i*  ] 其中  *i*  = <1> 2， 3...  <br/> |
    
 若要从某个程序按索引获取对 LangID 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionCharacter** <br/> |
-| 行索引：  <br/> |**visRowCharacter** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowCharacter**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visCharacterLangID** <br/> |
    
 

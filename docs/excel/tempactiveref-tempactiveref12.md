@@ -8,7 +8,7 @@ f1_keywords:
 - TempActiveRef
 - TempActiveRef12
 keywords:
-- tempactiveref 函数 [excel 2007], TempActiveRef12 函数 [excel 2007]
+- tempactiveref 函数 [excel 2007]，TempActiveRef12 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -23,7 +23,7 @@ ms.locfileid: "33415542"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-Framework library 函数, 该函数创建一个临时**XLOPER**/ **XLOPER12** , 该函数包含对活动工作表上的矩形单元格块的外部引用。 
+创建临时 **XLOPER** /  **XLOPER12** 的框架库函数，其中包含对活动工作表上单元格矩形块的外部引用。 
   
 ```cs
 LPXLOPER TempActiveRef(WORD rwFirst, WORD rwLast, BYTE colFirst, BYTE colLast);
@@ -40,7 +40,7 @@ LPXLOPER12 TempActiveRef12(ROW rwFirst, ROW rwLast, COL colFirst, COL colLast);
   
 引用的结束行。
   
-行参数从零开始, 以便将行1作为0传递。 在 Microsoft Office Excel 2003 及更早版本中, 在兼容模式下运行工作簿的 excel 2007 中, 最大值为 65535 = 2 ^ 16-1, 是单词整数可以采用的最大值。 从运行工作簿的 Excel 2007 开始, 最大值为 1048575 = 2 ^ 20-1。 RW 在 xlcall.h 中定义为32位有符号整数。水平.
+行参数从零开始，因此行 1 作为 0 传递。 在 Microsoft Office Excel 2003 及更早版本中，从 Excel 2007 开始在兼容模式下运行工作簿，最大值为 65，535 = 2^16 - 1，并且是 WORD 整数可以取的最大值。 从 2007 Excel工作簿开始，最大值为 1，048，575 = 2^20 - 1。 RW 在 XLCALL.H 中定义为 32 位有符号整数。
   
  _colFirst_
   
@@ -50,15 +50,15 @@ LPXLOPER12 TempActiveRef12(ROW rwFirst, ROW rwLast, COL colFirst, COL colLast);
   
 引用的结束列号。
   
-列参数是从零开始的, 以便将列 A 作为0传递。 在 excel 2003 和早期版本中, 并且在兼容模式下运行工作簿的 excel 2007 中, 最大值为 255 = 2 ^ 8-1, 是字节整数可以采用的最大值。 从运行工作簿的 Excel 2007 开始, 最大值为 16383 = 2 ^ 14-1。 COL 在 xlcall.h 中定义为32位有符号整数。水平.
+列参数从零开始，以便列 A 作为 0 传递。 在 Excel 2003 及更早版本中，从 Excel 2007 开始，在兼容模式下运行工作簿时，最大值为 255 = 2^8 - 1，它是 BYTE 整数可以取的最大值。 从 2007 Excel工作簿开始，最大值为 16，383 = 2^14 - 1。 COL 在 XLCALL.H 中定义为 32 位有符号整数。
   
 ## <a name="return-value"></a>返回值
 
-返回一个**xltypeRef**外部引用, 该引用指向传入的单元格的矩形块。 
+返回对传入的单元格矩形块的 **xltypeRef** 外部引用。 
   
 ## <a name="example"></a>示例
 
-此示例使用**TempActiveRef12**函数选择单元格 A105: C110。 
+此示例使用 **TempActiveRef12** 函数选择单元格 A105：C110。 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

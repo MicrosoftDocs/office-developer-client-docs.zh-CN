@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420022"
 ---
-# <a name="mapiofflineadviseinfo"></a>MAPIOFFLINE_ADVISEINFO
+# <a name="mapioffline_adviseinfo"></a>MAPIOFFLINE_ADVISEINFO
  
 **适用于**：Outlook 2013 | Outlook 2016 
   
-向**[IMAPIOfflineMgr:: 建议](imapiofflinemgr-advise.md)** 为脱机对象注册回调的信息。 
+向 **[IMAPIOfflineMgr：：Advise](imapiofflinemgr-advise.md)** 提供为脱机对象注册回调的信息。 
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅**IMAPIOfflineMgr:: Advise**。 
+请参阅 **IMAPIOfflineMgr：：Advise**。 
   
 ```cpp
 typedef struct 
@@ -39,21 +39,21 @@ typedef struct
 
 ## <a name="members"></a>Members
 
-_ulSize_: **MAPIOFFLINE_ADVISEINFO**的大小。 
+_ulSize：MAPIOFFLINE_ADVISEINFO。_  
     
-_ulClientToken_: 客户端定义的有关回调的令牌。 它是传递给**[IMAPIOfflineNotify:: NOTIFY](imapiofflinenotify-notify.md)** 的**[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** 结构的*ulClientToken*成员。 
+_ulClientToken：_ 客户端定义的有关回调的令牌。 它是传递到 **[IMAPIOfflineNotify：：Notify](imapiofflinenotify-notify.md)****[的](mapioffline_notify.md)** MAPIOFFLINE_NOTIFY 结构的 *ulClientToken* 成员。 
     
-_CallbackType_: 要进行的回调类型。
+_CallbackType：_ 要进行回调的类型。
     
    -  MAPIOFFLINE_CALLBACK_TYPE_NOTIFY 
     
-   - 回调的类型为 "通知"。 这是唯一受支持的回调类型。  *pCallback*必须指示接口**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**。 
+   - 回调的类型是通知。 这是唯一受支持的回调类型。  *pCallback*  必须指示 **[接口 IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**。 
     
-_pCallback_: 用于回呼的接口。 这是客户端的**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** 实现。 
+_pCallback：_ 用于回调的接口。 这是客户端对 **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** 的实现。 
     
-_ulAdviseTypes_: 建议的类型, 由建议的条件标识。 唯一受支持的类型为 MAPIOFFLINE_ADVISE_TYPE_STATECHANGE。
+_ulAdviseTypes：_ 建议类型，由建议条件标识。 唯一受支持的类型是 MAPIOFFLINE_ADVISE_TYPE_STATECHANGE。
     
-_ulStateMask_: 唯一受支持的状态是 MAPIOFFLINE_STATE_ALL。
+_ulStateMask：_ 唯一受支持的状态是 MAPIOFFLINE_STATE_ALL。
     
 ## <a name="see-also"></a>另请参阅
 

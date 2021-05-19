@@ -21,7 +21,7 @@ ms.locfileid: "33419882"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-[上载读取状态状态](upload-read-status-state.md)期间上载项目的读取状态的信息。
+在上传读取状态期间上传项目的 [读取状态的信息](upload-read-status-state.md)。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -37,11 +37,11 @@ struct UPREAD
 
  _pupre_
   
->  排除**[UPREADE](upreade.md)** 条目的矢量。 
+>  [out] **[UPREADE 条目的](upreade.md)** 矢量。 
     
- _分币_
+ _cEnt_
   
->  排除**UPREADE**条目的数量。 
+>  [out] **UPREADE 条目** 的数量。 
     
 ## <a name="see-also"></a>另请参阅
 

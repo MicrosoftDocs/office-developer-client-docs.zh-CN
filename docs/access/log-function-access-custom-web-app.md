@@ -1,5 +1,5 @@
 ---
-title: Log 函数 (Access 自定义 web 应用程序)
+title: 'Log Function (Access 自定义 Web app) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419294"
 ---
-# <a name="log-function-access-custom-web-app"></a>Log 函数 (Access 自定义 web 应用程序)
+# <a name="log-function-access-custom-web-app"></a>Log Function (Access 自定义 Web app) 
 
 返回指定表达式的自然对数或给定底数的对数。
   
@@ -23,19 +23,19 @@ ms.locfileid: "33419294"
   
 ## <a name="syntax"></a>语法
 
- **日志**(*NumericExpression* , [ *Base* ]) 
+ **Log** (*NumericExpression*  ， [  *Base*  ])  
   
-**Log**函数包含以下参数。 
+**Log** 函数包含下列参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |要对其进行对数的正数。  <br/> |
-| *Base*  <br/> |对数的底数。 如果省略, 则**Log**函数返回自然对数。  <br/> |
+| *NumericExpression*  <br/> |要用于对数的正数。  <br/> |
+| *Base*  <br/> |对数的底数。 如果省略 **，Log** 函数将返回自然对数。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-函数**Log10**是类似的, 但总是返回常用对数, 即底数为10的对数。 
+函数 **Log10** 相似，但始终返回常见的对数，即基数为 10 的对数。 
   
-自然对数是底数 e 的对数, 其中 e 是一个 irrational 常量, 约等于2.718281828。
+自然对数是 e 底数的对数，其中 e 是一个约等于 2.718281828 的常数。
   
 

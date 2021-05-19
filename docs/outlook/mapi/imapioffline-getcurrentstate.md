@@ -35,9 +35,9 @@ HRESULT GetCurrentState(
 
 ## <a name="parameters"></a>参数
 
- _pulState_
+ _将state_
   
-> 排除脱机对象的当前联机或脱机状态。 它必须是以下两个值之一:
+> [out]脱机对象的当前联机或脱机状态。 它必须是以下两个值之一：
     
 MAPIOFFLINE_STATE_ONLINE
   

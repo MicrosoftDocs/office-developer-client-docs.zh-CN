@@ -25,7 +25,7 @@ ms.locfileid: "33419007"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-检索一个值, 该值指示按钮控件是否已启用或已禁用。
+检索一个值，该值指示按钮控件是启用还是禁用。
   
 ```cpp
 HRESULT GetState(
@@ -38,19 +38,19 @@ HRESULT GetState(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lpulState_
   
-> 排除指向指示按钮控件状态的值的指针。 可以返回下列值之一:
+> [out]指向指示按钮控件状态的值的指针。 可以返回下列值之一：
     
 MAPI_DISABLED 
   
-> 按钮控件已被禁用, 无法单击。 
+> 按钮控件处于禁用状态，无法单击。 
     
 MAPI_ENABLED 
   
-> 按钮控件已启用, 可以单击。
+> 按钮控件已启用，可单击。
     
 ## <a name="return-value"></a>返回值
 
@@ -58,11 +58,11 @@ S_OK
   
 > 已成功检索按钮控件的状态。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-服务提供程序实现**IMAPIControl:: GetState**方法, 以向 MAPI 提供按钮控件的状态。 如果按钮已启用, 则它可以响应鼠标单击或按键。 如果已禁用, 则按钮显示为灰色, 且不响应鼠标单击或按键。 
+服务提供商实现 **IMAPIControl：：GetState** 方法，以向 MAPI 提供按钮控件的状态。 如果启用该按钮，它可以响应鼠标单击或按键。 如果禁用，按钮将灰显，并且不会响应鼠标单击或按键。 
   
-有关如何实现**GetState**和其他[IMAPIControl: IUnknown](imapicontroliunknown.md)方法的详细信息, 请参阅[Control Object 实现](control-object-implementation.md)。
+若要详细了解如何实现 **GetState** 和其他 [IMAPIControl ： IUnknown](imapicontroliunknown.md) 方法，请参阅 [控件对象实现](control-object-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -21,11 +21,11 @@ ms.locfileid: "33410012"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-当服务提供程序支持命名属性时, 每组标识符和名称对称为一个映射。 服务提供程序可以支持一个或多个映射。 也就是说, 一个邮件存储提供程序可以实现其所有邮件、文件夹和邮件存储对象的**GetIDsFromNames**和**GetNamesFromIDs**方法, 使其与单个名称列表及其对应的标识符一起使用。 另一个邮件存储提供程序可能有一个列表, 其中包含每个文件夹和其中包含的邮件, 或者为每个邮件和每个文件夹实现一个唯一的列表。 对每个邮件使用唯一映射的邮件存储提供程序必须不允许命名属性出现在其文件夹内容表中, 因为对于给定的属性名称, 属性标识符将因邮件而异。 MAPI 建议提供程序将其简化, 并对其所有对象 (包括表) 的单个列表运行。 
+当服务提供商支持命名属性时，每组标识符和名称对都称为映射。 服务提供商可以支持一个或多个映射。 也就是说，例如，一个邮件存储提供程序可以针对其所有邮件、文件夹和邮件存储对象实现 **GetIDsFromNames** 和 **GetNamesFromIDs** 方法，以使用单个名称列表及其对应的标识符。 另一个邮件存储提供程序可能针对每个文件夹及其中包含的邮件具有一个列表，或者针对每封邮件和每个文件夹实现一个唯一列表。 对每封邮件使用唯一映射的邮件存储提供程序不得允许命名属性显示在其文件夹内容表中，因为对于给定的属性名称，属性标识符将因邮件不同而不同。 MAPI 建议提供程序保持简单，并针对其所有对象（包括表）使用单个列表。 
   
-对于每个映射, 服务提供程序都必须提供映射签名。 映射签名是一个二进制值, 通常是一个 GUID, 它唯一标识一组属性标识符及其对应的名称。 映射签名存储在对象的**PR_MAPPING_SIGNATURE** ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)) 属性中。 每当对它所表示的映射进行更改时, 服务提供程序必须更改其**PR_MAPPING_SIGNATURE**属性的值。 例如, 如果向某个名称分配了新的标识符, 或者添加了新的名称和标识符对, 则必须更新**PR_MAPPING_SIGNATURE** 。 
+对于每个映射，服务提供商必须提供映射签名。 映射签名是一个二进制值，通常为 GUID，用于唯一标识一组属性标识符及其相应的名称。 映射签名存储在对象的 PR_MAPPING_SIGNATURE ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)) 属性中。  只要对它表示的映射进行了PR_MAPPING_SIGNATURE，服务提供商就必须更改其 PR_MAPPING_SIGNATURE 属性的值。  例如 **，PR_MAPPING_SIGNATURE** 新标识符或添加了新名称和标识符对，则必须更新该标识符。 
   
-使用对象的命名属性的客户端在比较和复制操作中使用对象的**PR_MAPPING_SIGNATURE**属性。 若要比较属于两个对象的命名属性标识符, 不使用映射签名的客户端必须在两个对象上调用[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)以检索每个标识符的名称。 使用对象的映射签名可不必要地呈现此呼叫。 当两个对象的**PR_MAPPING_SIGNATURE**属性具有相同的值时, 它们将使用相同的映射。 可以直接对使用相同映射的标识符进行比较。 实现[IMAPIProp:: CopyTo](imapiprop-copyto.md)和[IMAPIProp:: CopyProps](imapiprop-copyprops.md)的服务提供程序还可以利用对象的映射签名。 当复制对象之间的命名属性时, 当源和目标对象具有相同的映射签名时, 服务提供程序可以避免转换步骤。 
+使用对象的命名属性的客户端在比较 **和复制操作PR_MAPPING_SIGNATURE** 对象的属性。 为了比较属于两个对象的命名属性标识符，没有使用映射签名的客户端必须调用这两个对象上的 [IMAPIProp：：GetNamesFromIDs](imapiprop-getnamesfromids.md) 以检索每个标识符的名称。 使用对象的映射签名会使此调用成为不必要的。 当两个对象的两个属性 **PR_MAPPING_SIGNATURE相同时** ，它们使用相同的映射。 可以直接比较使用相同映射的标识符。 实现 [IMAPIProp：：CopyTo](imapiprop-copyto.md) 和 [IMAPIProp：：CopyProps](imapiprop-copyprops.md) 的服务提供商还可以利用对象的映射签名。 在对象之间复制命名属性时，当源对象和目标对象具有相同的映射签名时，服务提供商可以避免转换步骤。 
   
 ## <a name="see-also"></a>另请参阅
 

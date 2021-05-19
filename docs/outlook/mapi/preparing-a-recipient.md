@@ -21,33 +21,33 @@ ms.locfileid: "33419875"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-客户端应用程序通过将短期条目标识符转换为长期条目标识符, 并可能添加、更改或重新排序属性来为收件人做准备。 您可以为与邮件无关的邮件或收件人准备收件人列表中的收件人。 通常情况下, 客户端调用[IAddrBook::P reparerecips](iaddrbook-preparerecips.md)直接将短期条目标识符转换为公用地址对话框中包含的收件人的长期条目标识符。 对于与传出邮件关联的收件人, 收件人准备将由名称解析过程处理。 
+客户端应用程序通过将收件人的短期条目标识符转换为长期条目标识符，并可能添加、更改或重新排序属性来准备收件人。 您可以为邮件准备属于收件人列表的收件人，也可以准备与邮件无关的收件人。 通常，客户端直接调用 [IAddrBook：:P repareRecips，](iaddrbook-preparerecips.md) 将短期条目标识符转换为包含在公用地址对话框中的收件人的长期条目标识符。 对于与传出邮件相关联的收件人，收件人准备由名称解析过程处理。 
   
-若要准备收件人列表, 请调用**IAddrBook::P reparerecips**。 **PrepareRecips**接受[ADRLIST](adrlist.md)结构和属性标记的列表。 **ADRLIST**结构包含要准备的收件人, 而属性标记列表表示每个收件人应支持的属性。 **PrepareRecips**尝试将属性标记列表中包含的属性放在**ADRLIST**结构的开头。 如果**ADRLIST**结构中缺少列表中的任何属性, 则 MAPI 会调用通讯簿提供程序来提供它们。 如果只需要检查长期条目标识符, 请为_lpSPropTagArray_参数传递 NULL。 
+若要准备收件人列表，请调用 **IAddrBook：:P repareRecips**。 **PrepareRecips** 接受 [ADRLIST](adrlist.md) 结构和属性标记列表。 **ADRLIST** 结构包含要准备的收件人，而属性标记列表表示每个收件人应支持的属性。 **PrepareRecips** 尝试将属性标记列表中包含的属性放在 **ADRLIST** 结构的开头。 如果 **ADRLIST** 结构中缺少列表中的任何属性，MAPI 将调用通讯簿提供程序提供这些属性。 如果只需要检查长期条目标识符，请为  _lpSPropTagArray_ 参数传递 NULL。 
   
-例如, 假设您正在处理五个收件人。 所有五个收件人都按以下顺序显示在**ADRLIST**结构中, 其属性如下: 
+例如，假设您正在处理五个收件人。 所有五个收件人都按以下顺序显示在 **ADRLIST** 结构中，并具有以下属性： 
   
-1. **PR_ENTRYID**([PidTagEntryId](pidtagentryid-canonical-property.md))
+1. **PR_ENTRYID (** [PidTagEntryId](pidtagentryid-canonical-property.md)) 
     
-2. **PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+2. **PR_DISPLAY_NAME (** [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
     
-3. **PR_SEARCH_KEY**([PidTagSearchKey](pidtagsearchkey-canonical-property.md))
+3. **PR_SEARCH_KEY (** [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 
     
-4. **PR_EMAIL_ADDRESS**([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
+4. **PR_EMAIL_ADDRESS (** [PidTagEmailAddress)](pidtagemailaddress-canonical-property.md)
     
-5. **PR_ADDRTYPE**([PidTagAddressType](pidtagaddresstype-canonical-property.md))
+5. **PR_ADDRTYPE (** [PidTagAddressType](pidtagaddresstype-canonical-property.md)) 
     
-前两个收件人的**ADRLIST**结构中包含了其他三个属性。 
+前两个收件人的 **ADRLIST** 结构中包含其他三个属性。 
   
-1. **PR_ACCOUNT**([PidTagAccount](pidtagaccount-canonical-property.md))
+1. **PR_ACCOUNT (** [PidTagAccount)](pidtagaccount-canonical-property.md)
     
-2. **PR_GIVEN_NAME**([PidTagGivenName](pidtaggivenname-canonical-property.md))
+2. **PR_GIVEN_NAME (** [PidTagGivenName](pidtaggivenname-canonical-property.md)) 
     
-3. **PR_SURNAME**([PidTagSurname](pidtagsurname-canonical-property.md))
+3. **PR_SURNAME (** [PidTagSurname](pidtagsurname-canonical-property.md)) 
     
-由于所有收件人都需要将其作为前三个属性**PR_ADDRTYPE**、 **PR_ENTRYID**和**PR_HOME_TELEPHONE_NUMBER** ([PidTagHomeTelephoneNumber](pidtaghometelephonenumber-canonical-property.md)), 请使用这些属性创建一个 property 标记数组并传递将其和**ADRLIST**结构的**PrepareRecips**。 **PrepareRecips**调用每个收件人的**IMAPIProp:: GetProps**方法以检索**PR_HOME_TELEPHONE_NUMBER** , 因为它当前不是**ADRLIST**结构的一部分。 当**PrepareRecips**返回时, 收件人列表表示收件人的合并列表, 其中包含在**ADRLIST**结构中包含在每个收件人的第一个显示的属性。 
+由于所有收件人都需要将 **PR_ADDRTYPE、PR_ENTRYID** 和 **PR_HOME_TELEPHONE_NUMBER** ([PidTagHomeTelephoneNumber](pidtaghometelephonenumber-canonical-property.md)) 属性作为前三个属性，因此使用这些属性创建一个属性标记数组，并传递此属性和 **ADRLIST** 结构到 **PrepareRecips**。  **PrepareRecips** 调用每个收件人的 **IMAPIProp：：GetProps** 方法来检索 **PR_HOME_TELEPHONE_NUMBER因为它当前** 不是 **ADRLIST** 结构的一部分。 当 **PrepareRecips** 返回时，收件人列表表示收件人的合并列表，其中每个收件人首先显示 **ADRLIST** 结构中包含的属性。 
   
-收件人1和组2的收件人列表包含按以下顺序排列的属性:
+收件人 1 和收件人 2 的收件人列表包括按以下顺序的属性：
   
 1. **PR_ADDRTYPE**
     
@@ -69,7 +69,7 @@ ms.locfileid: "33419875"
     
 10. **PR_SURNAME**
     
-收件人3、4和5的收件人列表包括按以下顺序列出的属性:
+收件人 3、4 和 5 的收件人列表按以下顺序包括属性：
   
 1. **PR_ADDRTYPE**
     
@@ -85,6 +85,6 @@ ms.locfileid: "33419875"
     
 7. **PR_ADDRTYPE**
     
-作为调用 IAddrBook 的替代方法 **::P reparerecips**若要使用属性, 请调用每个收件人的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法, 并在必要时调用其[IMAPIProp:: SetProps](imapiprop-setprops.md)方法。 当只涉及一个收件人时, 一种方法就是令人满意。 但是, 当涉及多个收件人时, 调用**PrepareRecips**而不是**IMAPIProp**方法可节省时间, 并且, 如果您正在远程操作, 很多远程过程调用。 **PrepareRecips**处理单个呼叫中的所有收件人, 而**GetProps**和**SetProps**为每个收件人发出一个呼叫。 
+作为调用 **IAddrBook：:P repareRecips** 以使用属性的替代方法，请调用每个收件人的 [IMAPIProp：：GetProps](imapiprop-getprops.md) 方法，并在必要时调用其 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法。 如果只涉及一个收件人，则任一技术都满意。 但是，当涉及多个收件人时，调用 **PrepareRecips（** 而不是 **IMAPIProp** 方法）可以节省时间，并且，如果远程操作，则调用许多远程过程。 **PrepareRecips** 在单个呼叫中处理所有收件人， **而 GetProps** 和 **SetProps** 则针对每个收件人进行一次呼叫。 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33414975"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-获取有关上一个错误的扩展信息。
+获取有关最后一个错误的扩展信息。
   
 ```cpp
 HRESULT GetLastError( 
@@ -39,15 +39,15 @@ HRESULT GetLastError(
 
  _hResult_
   
->  实时错误代码。 
+>  [in]错误代码。 
     
  _ulFlags_
   
->  [] in若要修改行为的标志。 该值必须为0。 
+>  [] in若要修改行为的标志。 这必须为 0。 
     
  _lppMAPIError_
   
->  排除指向包含错误的扩展信息的**MAPIERROR**结构的指针。 有关**LPMAPIERROR**的类型定义, 请参阅 mapidefs.h。 
+>  [out]指向 **MAPIERROR** 结构的指针，其中包含错误的扩展信息。 有关 **LPMAPIERROR** 的类型定义，请参阅 mapidefs.h。 
     
 ## <a name="see-also"></a>另请参阅
 

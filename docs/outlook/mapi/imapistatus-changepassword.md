@@ -25,7 +25,7 @@ ms.locfileid: "33410355"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在不显示用户界面的情况下修改服务提供程序的密码。 服务提供程序实现的 status 对象中可选择支持此方法。
+修改服务提供商的密码，而不显示用户界面。 此方法在服务提供商实现的状态对象中受支持（ 可选）。
   
 ```cpp
 HRESULT ChangePassword(
@@ -39,19 +39,19 @@ HRESULT ChangePassword(
 
  _lpOldPass_
   
-> 实时指向旧密码的指针。
+> [in]指向旧密码的指针。
     
  _lpNewPass_
   
-> 实时指向新密码的指针。
+> [in]指向新密码的指针。
     
  _ulFlags_
   
-> 实时用于控制密码格式的标志的位掩码。 可以设置以下标志:
+> [in]控制密码格式的标志的位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 密码采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则密码采用 ANSI 格式。
+> 密码采用 Unicode 格式。 如果未MAPI_UNICODE，则密码采用 ANSI 格式。
     
 ## <a name="return-value"></a>返回值
 
@@ -61,21 +61,21 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> _lpOldPass_指向的旧密码无效。 
+> _lpOldPass_ 指向的旧密码无效。 
     
 MAPI_E_NO_SUPPORT 
   
-> status 对象不支持此操作, 正如 status 对象的**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中缺少 STATUS_CHANGE_PASSWORD 标志所指示的那样。
+> status 对象不支持此操作，如状态对象的 PR_RESOURCE_METHODS ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)属性中缺少STATUS_CHANGE_PASSWORD 标志) 。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-并非所有 status 对象都支持**IMAPIStatus:: ChangePassword**方法。 仅需要客户端输入密码的服务提供商支持它。 MAPI 实施的所有 status 对象都不支持密码更改操作。 
+并非所有状态对象都支持 **IMAPIStatus：：ChangePassword** 方法。 它仅受要求客户端输入密码的服务提供商支持。 MAPI 实现的所有状态对象都不支持密码更改操作。 
   
- **ChangePassword**以编程方式修改密码, 无需用户交互。 
+ **ChangePassword** 以编程方式修改密码，无需用户交互。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-远程传输提供程序按此处指定的方式实施**ChangePassword** 。 没有特殊的注意事项。 
+远程传输提供程序实现 **此处指定的 ChangePassword。** 没有特别注意事项。 
   
 ## <a name="see-also"></a>另请参阅
 

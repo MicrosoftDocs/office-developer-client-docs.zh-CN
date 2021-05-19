@@ -25,22 +25,22 @@ ms.locfileid: "33414779"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供有关存储可支持的内容的信息。
+提供有关应用商店可以支持哪些功能的信息。
   
 |||
 |:-----|:-----|
-|提供者：  <br/> |邮件存储区提供程序  <br/> |
-|接口标识符:  <br/> |IID_IMSCapabilities  <br/> |
+|提供者：  <br/> |邮件存储提供程序  <br/> |
+|接口标识符：  <br/> |IID_IMSCapabilities  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |根据指定的选择返回应用商店的功能。  <br/> |
+|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |基于指定的选择返回存储区的功能。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
- **IMSCapabilities**提供了有关存储支持此接口时存储可以支持的内容的信息。 
+ **IMSCapabilities** 提供有关存储支持此接口时存储区可以支持的信息。 
   
 ## <a name="see-also"></a>另请参阅
 

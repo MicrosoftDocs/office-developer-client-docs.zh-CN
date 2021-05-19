@@ -25,7 +25,7 @@ ms.locfileid: "33410467"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果存在这样的存储区, 则返回包含当前邮件的邮件存储区。 此方法将在_ppStore_参数中为嵌入的邮件 (而不是直接在邮件存储区中存储) 返回 NULL。 
+返回包含当前邮件的邮件存储（如果存在）。 此方法将在嵌入邮件的  _ppStore_ 参数中返回 NULL，这些嵌入邮件存储在其他邮件中，而不是直接存储在邮件存储中。 
   
 ```cpp
 HRESULT GetStore(
@@ -37,21 +37,21 @@ HRESULT GetStore(
 
  _ppStore_
   
-> 排除指向邮件存储区的指针的指针。
+> [out]指向指向消息存储的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 S_FALSE 
   
-> 没有包含该邮件的存储区。
+> 没有包含邮件的存储区。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口列表，请参阅 [MAPI Form Interfaces](mapi-form-interfaces.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -59,7 +59,7 @@ S_FALSE
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetStore  <br/> |MFCMAPI 使用**IMAPIMessageSite:: GetStore**方法将当前缓存的指针获取到指定的存储区 (如果有)。  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer：：GetStore  <br/> |MFCMAPI 使用 **IMAPIMessageSite：：GetStore** 方法获取当前缓存的指向指定存储的指针（如果可用）。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

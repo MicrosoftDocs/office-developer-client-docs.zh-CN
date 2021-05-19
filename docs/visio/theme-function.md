@@ -20,7 +20,7 @@ ms.locfileid: "33421107"
   
 ## <a name="syntax"></a>语法
 
-主题 ()
+主题 () 
   
 ## <a name="example"></a>示例
 

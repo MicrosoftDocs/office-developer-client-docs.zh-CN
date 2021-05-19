@@ -1,5 +1,5 @@
 ---
-title: mapisvc.inf 邮件服务部分
+title: MapiSvc.inf 邮件服务部分
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415367"
 ---
-# <a name="mapisvcinf-message-service-sections"></a>mapisvc.inf 邮件服务部分
+# <a name="mapisvcinf-message-service-sections"></a>MapiSvc.inf 邮件服务部分
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-对于 **[服务]** 一节中列出的每个条目, mapisvc.inf 都包含一个 "邮件服务" 部分。 在这些部分中有两种类型的条目: 一个用于设置特定属性, 另一个用于列出与要配置的邮件服务相关的节的名称。 
+mapisvc.inf 包含针对 **[Services]** 部分中列出的每个条目的一个邮件服务部分。 这些节中有两种类型的条目：一种用于设置某些属性，另一种用于列出与要配置的邮件服务相关的节的名称。 
   
 

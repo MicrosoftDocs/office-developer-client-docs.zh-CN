@@ -25,7 +25,7 @@ ms.locfileid: "33415535"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-检索 MAPI 内存分配和释放函数的地址 ([MAPIAllocateBuffer](mapiallocatebuffer.md)、 [MAPIAllocateMore](mapiallocatemore.md)和[MAPIFreeBuffer](mapifreebuffer.md))。
+检索 MAPI 内存分配和处理函数的地址 ([MAPIAllocateBuffer、MAPIAllocateMore](mapiallocatebuffer.md)和[MAPIFreeBuffer](mapifreebuffer.md)) 。 [](mapiallocatemore.md)
   
 ```cpp
 HRESULT GetMemAllocRoutines(
@@ -39,25 +39,25 @@ HRESULT GetMemAllocRoutines(
 
  _lppAllocateBuffer_
   
-> 排除指向指向**MAPIAllocateBuffer**函数的指针的指针。 **MAPIAllocateBuffer**分配内存。 
+> [out]指向指向 **MAPIAllocateBuffer 函数的指针的** 指针。 **MAPIAllocateBuffer** 分配内存。 
     
  _lppAllocateMore_
   
-> 排除指向指向**MAPIAllocateMore**函数的指针的指针。 **MAPIAllocateMore**为使用**MAPIAllocateBuffer**最初分配的内存分配额外的内存。
+> [out]指向指向 **MAPIAllocateMore 函数的指针** 的指针。 **MAPIAllocateMore** 为最初使用 **MAPIAllocateBuffer 分配的内存分配额外的内存**。
     
  _lppFreeBuffer_
   
-> 排除指向指向**MAPIFreeBuffer**函数的指针的指针。 **MAPIFreeBuffer**释放内存。 
+> [out]指向指向 **MAPIFreeBuffer 函数的指针的** 指针。 **MAPIFreeBuffer** 释放内存。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功返回了函数地址。
+> 已成功返回函数地址。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISupport:: GetMemAllocRoutines**方法是为所有支持对象实现的。 服务提供程序调用**GetMemAllocRoutines** , 以获取传递给其初始化函数的三个内存分配函数 ( [ABProviderInit](abproviderinit.md)、 [MSProviderInit](msproviderinit.md)或[XPProviderInit](xpproviderinit.md)) 的地址。 
+**IMAPISupport：：GetMemAllocRoutines** 方法针对所有支持对象实现。 服务提供商调用 **GetMemAllocRoutines，** 获取传递到其初始化函数 ( [ABProviderInit、MSProviderInit](abproviderinit.md)或 [XPProviderInit](xpproviderinit.md)) 的三个内存分配函数的地址。 [](msproviderinit.md) 
   
 ## <a name="see-also"></a>另请参阅
 

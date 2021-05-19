@@ -1,5 +1,5 @@
 ---
-title: 上传层次结构状态
+title: Upload层次结构状态
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,31 +13,31 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415423"
 ---
-# <a name="upload-hierarchy-state"></a>上传层次结构状态
+# <a name="upload-hierarchy-state"></a>Upload层次结构状态
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
- 本主题介绍复制状态机的上载层次结构状态过程中发生的情况。 
+ 本主题介绍在复制状态机的上载层次结构状态期间发生的情况。 
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|状态标识符:  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
-|相关数据结构:  <br/> |**[UPHIER](uphier.md)** <br/> |
-|从此状态:  <br/> |[同步状态](synchronize-state.md) <br/> |
-|到此状态:  <br/> |[上传文件夹状态](upload-folder-state.md)或同步状态  <br/> |
+|状态标识符：  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
+|相关数据结构：  <br/> |**[UPHIER](uphier.md)** <br/> |
+|从此状态：  <br/> |[同步状态](synchronize-state.md) <br/> |
+|至此状态：  <br/> |[Upload文件夹状态或](upload-folder-state.md)同步状态  <br/> |
    
 > [!NOTE]
-> 复制状态计算机是确定的状态机。 客户端在向另一种状态传出一种状态时, 最终必须从后者返回前一个状态。 
+> 复制状态机是一个确定性状态机。 从一个状态到另一个状态的客户端最终必须从后者返回到另一个状态。 
   
 ## <a name="description"></a>说明
 
-此状态将启动上载已在之前的同步状态中指定的文件夹树层次结构。 Outlook 确定在该层次结构中创建或修改的文件夹数, 并在**UPHIER**中初始化*分币*。 Outlook 还会保留上载的文件夹与其他成员*iEnt*的数量的计数。 若要上传每个*分币*文件夹, 客户端会将本地存储区移到上传文件夹状态, 并在文件夹上传完成时返回到上传层次结构状态。 
+此状态启动上载在之前的同步状态中指定的文件夹树层次结构。 Outlook确定已在该层次结构中创建或修改的文件夹数，并初始化 **UPHIER** 中的 *cEnt。* Outlook还保留与另一个成员 iEnt 的已上传文件夹 *数的计数*。 若要上载每个  *cEnt*  文件夹，客户端会将本地存储移动到上载文件夹状态，在文件夹上载完成时返回到上载层次结构状态。 
   
-当上载层次结构状态结束时, 本地存储将返回到同步状态。
+当上载层次结构状态结束时，本地存储将返回到同步状态。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33419518"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-为配置文件分配一个新名称。
+向配置文件分配新名称。
   
 ```cpp
 HRESULT RenameProfile(
@@ -41,29 +41,29 @@ HRESULT RenameProfile(
 
  _lpszOldProfileName_
   
-> 实时指向要重命名的配置文件的当前名称的指针。
+> [in]指向要重命名的配置文件的当前名称的指针。
     
  _lpszOldPassword_
   
-> 实时始终为 NULL。
+> [in]始终为 NULL。
     
  _lpszNewProfileName_
   
-> 实时指向要重命名的配置文件的新名称的指针。
+> [in]指向要重命名的配置文件的新名称的指针。
     
  _ulUIParam_
   
-> 实时此方法显示的任何对话框或窗口的父窗口的句柄。 
+> [in]该方法显示的任何对话框或窗口的父窗口的句柄。 
     
  _ulFlags_
   
-> 实时始终为 NULL。
+> [in]始终为 NULL。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功重命名配置文件。
+> 配置文件已成功重命名。
     
 MAPI_E_LOGON_FAILED 
   
@@ -71,19 +71,19 @@ MAPI_E_LOGON_FAILED
     
 MAPI_E_USER_CANCEL 
   
-> 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
+> 用户通常通过单击对话框中的"取消" **按钮来取消** 操作。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IProfAdmin:: RenameProfile**方法将新名称分配给配置文件 (如果有的话)。 如果调用**RenameProfile**时, 客户端正在使用重命名的配置文件, **RenameProfile**将标记配置文件并返回 S_OK, 而不是在配置文件正在使用时尝试重命名操作。 不再使用该配置文件时, **RenameProfile**会为其分配新名称。 
+**IProfAdmin：：RenameProfile** 方法为配置文件分配一个新名称（如果有）。 如果在调用 **RenameProfile** 时要重命名的配置文件正由客户端使用 **，RenameProfile** 将标记该配置文件并返回 S_OK 而不是在使用配置文件时尝试重命名操作。 当配置文件不再使用时 **，RenameProfile** 会为其分配新名称。 
   
-配置文件的旧名称和新名称的长度最高为64个字符, 并且可以包含以下字符:
+配置文件的旧名称和新名称的长度最多为 64 个字符，可以包含下列字符：
   
-- 所有字母数字字符, 包括重音字符和下划线字符。
+- 所有字母数字字符，包括重音字符和下划线字符。
     
-- 嵌入空格, 但不能是前导空格或尾随空格。
+- 嵌入空格，但不包括前导或尾随空格。
     
-_lpszPassword_应始终为 NULL 或指向零长度字符串的指针。 
+_lpszPassword_ 应始终为 NULL 或指向零长度字符串的指针。 
   
 ## <a name="see-also"></a>另请参阅
 

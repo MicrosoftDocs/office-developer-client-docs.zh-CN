@@ -25,13 +25,13 @@ ms.locfileid: "33415199"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在指定的事件通知数组中调整指针。 
+调整指定事件通知数组中的指针。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE ScRelocNotifications(
@@ -47,37 +47,37 @@ SCODE ScRelocNotifications(
 
  _cntf_
   
-> 实时由_rgntf_参数指示的数组中的[通知](notification.md)结构的计数。 
+> [in]_rgntf_ 参数指示的数组中的 [NOTIFICATION](notification.md)结构计数。 
     
  _rgntf_
   
-> 实时指向用于定义要在其中调整指针的事件通知的**通知**结构数组的指针。 
+> [in]指向定义要调整指针的事件通知的 **NOTIFICATION** 结构的数组的指针。 
     
  _pvBaseOld_
   
-> 实时指向由_rgntf_参数指示的数组的原始基址的指针。 
+> [in]指向由 rgntf 参数指示的数组  _的原始基地址_ 的指针。 
     
  _pvBaseNew_
   
-> 实时**ScRelocNotifications**写入由_rgntf_参数指示的数组的新基址的位置。 
+> [in] **ScRelocNotifications** 写入  _rgntf_ 参数指示的数组的新基地址的位置。 
     
- _pcb_
+ _这些_
   
-> 排除指向由_pvBaseNew_参数指示的数组的大小 (以字节为单位) 的指针。 
+> [out]指向  _pvBaseNew_ 参数指示的数组的大小（以字节为单位）的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 已成功调整指针。
+> 指针已成功调整。
     
 MAPI_E_INVALID_PARAMETER
   
-> 遇到无效的通知。
+> 遇到无效通知。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**ScRelocNotifications**函数的_pcb_参数是可选的。 
+**ScRelocNotifications** 函数的 _为可选_ 参数。 
   
 ## <a name="see-also"></a>另请参阅
 

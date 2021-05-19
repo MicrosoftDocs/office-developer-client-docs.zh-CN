@@ -25,7 +25,7 @@ ms.locfileid: "33415052"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件存储区的接收文件夹设置的表。
+包含邮件存储的接收文件夹设置的表。
   
 |||
 |:-----|:-----|
@@ -34,25 +34,25 @@ ms.locfileid: "33415052"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性可以排除在[IMAPIProp:: CopyTo](imapiprop-copyto.md)操作中, 也可以包含在[IMAPIProp:: CopyProps](imapiprop-copyprops.md)操作中。 作为 PT_OBJECT 类型的属性, [IMAPIProp:: GetProps](imapiprop-getprops.md)方法无法成功检索它;其内容应由[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法访问, 请求提供带有标识符 IID_IMAPITable 的接口。 如果设置了服务提供程序, 则必须将其报告给[IMAPIProp:: GetPropList](imapiprop-getproplist.md)方法, 但如果未设置, 则可以选择报告它。 
+此属性可以在 [IMAPIProp：：CopyTo](imapiprop-copyto.md) 操作中排除，也可以包含在 [IMAPIProp：：CopyProps 操作](imapiprop-copyprops.md) 中。 作为类型为 [PT_OBJECT，IMAPIProp：：GetProps](imapiprop-getprops.md) 方法无法成功检索它;它的内容应该由 [IMAPIProp：：OpenProperty](imapiprop-openproperty.md) 方法访问，并请求具有标识符的IID_IMAPITable。 如果已设置，服务提供商必须报告给 [IMAPIProp：：GetPropList](imapiprop-getproplist.md) 方法，但可以选择是否报告（如果未设置）。 
   
-若要检索表内容, 客户端应用程序应调用[IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md)方法。 有关详细信息, 请参阅[接收文件夹表](receive-folder-tables.md)。
+若要检索表内容，客户端应用程序应调用 [IMsgStore：：GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) 方法。 有关详细信息，请参阅 [接收文件夹表](receive-folder-tables.md)。
   
-此属性包含邮件存储区的接收文件夹的映射表。 对此属性调用**OpenProperty**等效于调用邮件存储区上的**GetReceiveFolderTable** 。 
+此属性包含邮件存储的接收文件夹的映射表。 对 **此属性调用 OpenProperty** 等效于在邮件存储上调用 **GetReceiveFolderTable。** 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

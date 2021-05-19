@@ -25,7 +25,7 @@ ms.locfileid: "33410131"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-对两个条目标识符进行比较, 以确定它们是否引用同一个对象。 MAPI 仅当该提供程序处理两个条目标识符中的唯一标识符 (uid) 时, 才会将此调用指向服务提供程序。
+比较两个条目标识符以确定它们是否引用同一个对象。 MAPI 仅在要比较的两个条目标识符 (UID) 唯一标识符由该提供程序处理时，才将此调用引用到服务提供商。
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -42,39 +42,39 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> 实时由_lpEntryID1_参数指向的条目标识符的大小 (以字节为单位) _。_
+> [in]  _lpEntryID1_ 参数指向的条目标识符的大小（以字节为单位  _）。_
     
  _lpEntryID1_
   
-> 实时指向要比较的第一个条目标识符的指针。
+> [in]指向要比较的第一个条目标识符的指针。
     
  _cbEntryID2_
   
-> 实时由_lpEntryID2_参数指向的条目标识符的大小 (以字节为单位) _。_
+> [in]  _lpEntryID2_ 参数指向的条目标识符的大小（以字节为单位  _）。_
     
  _lpEntryID2_
   
-> 实时指向要比较的第二个条目标识符的指针。
+> [in]指向要比较的第二个条目标识符的指针。
     
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lpulResult_
   
-> 排除指向比较的返回结果的指针。 如果两个条目标识符引用同一个对象, 则为 TRUE; 否则为 false。否则为 FALSE。
+> [out]指向比较结果的返回结果的指针。 如果两个条目标识符引用同一个对象，则其为 TRUE;否则为 FALSE。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-邮件存储提供程序实现**IMSLogon:: CompareEntryIDs**方法, 以比较邮件存储区中给定条目的两个条目标识符, 以确定它们是否引用同一个对象。 如果两个条目标识符引用同一个对象, 则**CompareEntryIDs**会将_lpulResult_参数设置为 TRUE;如果这些对象引用不同的对象, 则**CompareEntryIDs**会将_lpulResult_设置为 FALSE。 
+邮件存储提供程序实现 **IMSLogon：：CompareEntryIDs** 方法，以比较消息存储中给定条目的两个条目标识符，以确定它们是否引用同一对象。 如果两个条目标识符引用同一个对象，则 **CompareEntryIDs** 将  _lpulResult_ 参数设置为 TRUE;如果它们引用不同的对象， **则 CompareEntryIDs** 将  _lpulResult 设置_ 为 FALSE。 
   
- **CompareEntryIDs**很有用, 因为一个对象可以有多个有效的条目标识符。 例如, 在安装了新版本的邮件存储提供程序后, 可能会发生这种情况。 
+ **CompareEntryIDs** 非常有用，因为对象可以具有多个有效的条目标识符。 例如，安装邮件存储提供程序的新版本后，可能会发生这种情况。 
   
 ## <a name="see-also"></a>另请参阅
 

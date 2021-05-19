@@ -25,7 +25,7 @@ ms.locfileid: "33409396"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含当前配置文件中的邮件服务的标识符列表。
+包含当前配置文件中邮件服务的标识符列表。
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ ms.locfileid: "33409396"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 不要使用此属性。 它保留供 MAPI 使用。
   
@@ -42,13 +42,13 @@ ms.locfileid: "33409396"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33419840"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 autoforwarded 邮件最初预期收件人的编码名称。
+包含自动前向邮件最初预期收件人的编码名称。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33419840"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**PR_ORIGINALLY_INTENDED_RECIPIENT_NAME**属性必须由已转发邮件的自动代理进行设置。 
+the **PR_ORIGINALLY_INTENDED_RECIPIENT_NAME** property must be set by the automatic agent that has forwarded the message. 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

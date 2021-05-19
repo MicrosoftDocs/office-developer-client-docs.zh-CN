@@ -1,5 +1,5 @@
 ---
-title: "\"线条渐变\" 部分"
+title: "\"线条渐变\"部分"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,18 +14,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415451"
 ---
-# <a name="line-gradient-section"></a>"线条渐变" 部分
+# <a name="line-gradient-section"></a>"线条渐变"部分
 
 显示应用于形状的线条渐变的颜色值。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-该部分中的每个[渐变停止行 ("线条渐变" 部分)](gradient-stop-row-line-gradient-section.md)行都代表线条中的梯度停止点。 此部分可以为空。 
+该 [内容中 (") "" ](gradient-stop-row-line-gradient-section.md) 渐变"部分的每个渐变停止行代表该行中的一个渐变停止点。 此部分可以为空。 
   
-渐变设置仅使用部分中包含的前10行。 所有超出10的**梯度停止**行都将被忽略。 
+只有节中包含的前 10 行由渐变设置使用。 超过 10 的所有 **"** 渐变停止"行将被忽略。 
   
-您可以在 "设置**形状格式**" 窗格的 "**行**" 部分中设置线条渐变属性 (在 "**开始**" 选项卡上的 "**形状样式**" 组中, 单击 "**线条**", 然后单击 "**行选项**")。 
+可以在"开始"选项卡上的"设置形状格式"窗格"线条"部分 ("形状样式"组中，单击"线条"，然后单击"线条选项") 。    
   
-您可以通过更改[LineGradientEnabled 单元格 ("渐变属性" 部分)](linegradientenabled-cell-gradient-properties-section.md)单元格的值来启用或禁用形状的渐变线颜色。 
+您可以通过更改 [LineGradientEnabled ](linegradientenabled-cell-gradient-properties-section.md) Cell (Gradient Properties Section 的值来启用或禁用形状的渐变) 颜色。 
   
 

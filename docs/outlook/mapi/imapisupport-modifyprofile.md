@@ -25,7 +25,7 @@ ms.locfileid: "33419987"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-对邮件存储库配置文件部分进行永久性更改。
+永久更改邮件存储配置文件部分。
   
 ```cpp
 HRESULT ModifyProfile(
@@ -37,11 +37,11 @@ ULONG ulFlags
 
  _ulFlags_
   
-> 实时指示邮件存储类型的标志的位掩码。 可以设置以下标志:
+> [in]指示邮件存储类型的标志位掩码。 可以设置以下标志：
     
 MDB_TEMPORARY 
   
-> 邮件存储区是临时的, 不应添加到邮件存储库表中。 如果设置了 MDB_TEMPORARY, 则**ModifyProfile**将立即返回 S_OK。 
+> 邮件存储是临时的，不应添加到邮件存储表中。 设置MDB_TEMPORARY时 **，ModifyProfile** 将立即S_OK返回。 
     
 ## <a name="return-value"></a>返回值
 
@@ -49,13 +49,13 @@ S_OK
   
 > 对配置文件部分所做的更改已成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-为邮件存储提供程序支持对象实现了**IMAPISupport:: ModifyProfile**方法。 邮件存储提供程序调用**ModifyProfile**以提示 MAPI 修改其配置文件信息。 
+**IMAPISupport：：ModifyProfile** 方法为邮件存储提供程序支持对象实现。 邮件存储提供程序调用 **ModifyProfile** 以提示 MAPI 修改其配置文件信息。 
   
- **ModifyProfile**将与调用提供程序关联的配置文件节添加到已安装的邮件存储提供程序资源列表中。 这会使邮件存储在邮件存储表中列出, 该表可通过[IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md)方法供客户端使用, 并在不显示对话框的情况下打开。 
+ **ModifyProfile** 将与调用提供程序关联的配置文件节添加到已安装的邮件存储提供程序资源列表中。 这将导致消息存储表中列出的消息存储，该表通过 [IMAPISession：：GetMsgStoresTable](imapisession-getmsgstorestable.md) 方法对客户端可用，并且打开时不显示对话框。 
   
-如果设置了 MDB_TEMPORARY 标志, MAPI 将不执行任何操作, 并且方法将立即返回 S_OK。
+如果设置了 MDB_TEMPORARY 标志，MAPI 不执行任何操作，并且该方法将立即返回 S_OK。
   
 ## <a name="see-also"></a>另请参阅
 

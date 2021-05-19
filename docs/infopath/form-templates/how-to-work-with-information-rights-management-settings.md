@@ -24,19 +24,19 @@ Microsoft InfoPath 中提供了两种信息权限管理 (IRM) 设置：一种用
   
 ## <a name="adding-the-manage-credentials-command-to-the-quick-access-toolbar"></a>将"管理凭据"命令添加到快速访问工具栏中
 
-默认情况下，用于处理 IRM 设置的“管理凭据”**** 命令在设计表单模板时不可用。可使用以下步骤将其添加到“快速访问工具栏”**** 中。
+默认情况下，用于处理 IRM 设置的“管理凭据”命令在设计表单模板时不可用。可使用以下步骤将其添加到“快速访问工具栏”中。
   
 ### <a name="add-the-manage-credentials-command-to-the-quick-access-toolbar"></a>将"管理凭据"命令添加到快速访问工具栏中
 
-1.  单击“快速访问工具栏”**** 右侧的箭头，以打开“自定义快速访问工具栏”**** 菜单，然后单击“更多命令”****。
+1.  单击“快速访问工具栏”右侧的箭头，以打开“自定义快速访问工具栏”菜单，然后单击“更多命令”。
     
-2. 在“从下列位置选择命令”**** 列表中，选择“所有命令”****。
+2. 在“从下列位置选择命令”列表中，选择“所有命令”。
     
-3. 将列表向下滚动到“管理凭据”****，然后单击“添加”****。
+3. 将列表向下滚动到“管理凭据”，然后单击“添加”。
     
 4. Click **OK**.
     
-有关使用 InfoPath 中的“管理凭据”**** 命令和“权限”**** 对话框的详细信息，请参阅 InfoPath 帮助中的“创建具有受限权限的表单模板”主题。 
+有关使用 InfoPath 中的“管理凭据”命令和“权限”对话框的详细信息，请参阅 InfoPath 帮助中的“创建具有受限权限的表单模板”主题。 
   
 ## <a name="the-irm-object-model"></a>IRM 对象模型
 
@@ -123,7 +123,7 @@ A **UserPermission** object associates a set of permissions for the current form
    
 ### <a name="example"></a>示例
 
-在以下示例中，单击“按钮”**** 控件将获取当前表单的 **UserPermissionsCollection**，添加用户并为用户指定“更改”访问级别，以及设置从当前日期向后推算两天的到期日期。 
+在以下示例中，单击“按钮”控件将获取当前表单的 **UserPermissionsCollection**，添加用户并为用户指定“更改”访问级别，以及设置从当前日期向后推算两天的到期日期。 
   
 ```cs
 public void CTRL1_Clicked(object sender, ClickedEventArgs e)

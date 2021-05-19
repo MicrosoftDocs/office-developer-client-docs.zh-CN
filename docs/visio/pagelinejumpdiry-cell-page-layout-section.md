@@ -24,9 +24,9 @@ ms.locfileid: "33414674"
 |:-----|:-----|:-----|
 | 0  <br/> | 默认值；向上或形状的页面设置  <br/> |**visLOJumpDirYDefault** <br/> |
 | 1  <br/> | 左侧  <br/> |**visLOJumpDirYLeft** <br/> |
-| 双面  <br/> | 右侧  <br/> |**visLOJumpDirYRight** <br/> |
+| 2  <br/> | 右侧  <br/> |**visLOJumpDirYRight** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 PageLineJumpDirY 单元格的引用，请使用： 
   

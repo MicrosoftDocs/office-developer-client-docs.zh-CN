@@ -20,14 +20,14 @@ ms.locfileid: "33415185"
 
 确定在出现动态连接线彼此重叠的情况下应用程序将分隔哪些动态连接线。
   
-|**值**|**调**|**自动常量**|
+|**值**|**调整**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |无关的线条  <br/> |**visPLOLineAdjustFromNotRelated** <br/> |
 |1  <br/> |所有线条  <br/> |**visPLOLineAdjustFromAll** <br/> |
-|双面  <br/> |无线条  <br/> |**visPLOLineAdjustFromNone** <br/> |
-|第三章  <br/> |默认的排列样式  <br/> |**visPLOLineAdjustFromRoutingDefault** <br/> |
+|2  <br/> |无线条  <br/> |**visPLOLineAdjustFromNone** <br/> |
+|3  <br/> |默认的排列样式  <br/> |**visPLOLineAdjustFromRoutingDefault** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 还可以在 **“页面设置”** 对话框中的 **“布局与排列”** 选项卡（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后单击 **“布局与排列”**）上设置此单元格的值。
   

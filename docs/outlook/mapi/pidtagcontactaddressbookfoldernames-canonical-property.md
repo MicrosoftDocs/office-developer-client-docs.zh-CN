@@ -25,7 +25,7 @@ ms.locfileid: "33420120"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含保存邮件用户的 "联系人" 文件夹的名称。
+包含保留邮件用户的"联系人"文件夹的名称。
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ ms.locfileid: "33420120"
 |数据类型：  <br/> |PT_MV_UNICODE、PT_MV_STRING8  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 这些是联系人通讯簿配置文件部分的属性。
   
@@ -42,13 +42,13 @@ ms.locfileid: "33420120"
 
 ### <a name="header-files"></a>头文件
 
-Mapidef
+Mapidef.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -21,19 +21,19 @@ ms.locfileid: "33410558"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-配置文件和邮件服务管理可以通过更改包含在现有配置文件中的邮件服务和服务提供程序来创建新的配置文件、删除旧的配置文件以及修改现有配置文件的内容。 并非所有客户端都支持作为标准功能的配置文件和邮件服务管理。 有些客户端与配置文件无关, 而不是允许其用户在登录时选择一个。
+配置文件和邮件服务管理可涉及创建新配置文件、删除旧配置文件，以及通过更改现有配置文件中包含的邮件服务和服务提供程序来修改现有配置文件的内容。 并非所有客户端都支持将配置文件和邮件服务管理作为标准功能。 有些客户端与配置文件只与允许用户在登录时选择一个配置文件有关。
   
-如果您支持配置文件或邮件服务管理, 则可能会使用 MAPI 实现的以下接口:
+如果支持配置文件或邮件服务管理，则有可能使用以下 MAPI 实现的接口：
   
-- [IMsgServiceAdmin:](imsgserviceadminiunknown.md)用于管理配置文件中的邮件服务的 IUnknown, 可通过[IMAPISession:: AdminServices](imapisession-adminservices.md)或[IProfAdmin:: AdminServices](iprofadmin-adminservices.md)访问。 邮件客户端通常会在配置客户端或不发送或接收邮件的客户端调用**IMAPISession**时调用**IProfAdmin**。 只要有可能, 请调用**IProfAdmin**方法, 因为它不会导致启动邮件服务。 有关使用**IMsgServiceAdmin**接口的详细信息, 请参阅下列主题:[配置邮件服务](configuring-a-message-service.md)、[复制邮件服务](copying-a-message-service.md)和[删除邮件服务](deleting-a-message-service.md)。
+- [IMsgServiceAdmin ：IUnknown](imsgserviceadminiunknown.md) 用于管理配置文件中的消息服务，可通过 [IMAPISession：：AdminServices](imapisession-adminservices.md) 或 [IProfAdmin：：AdminServices 访问](iprofadmin-adminservices.md)。 消息客户端通常调用 **IMAPISession，** 而配置客户端或不发送或接收消息的客户端调用 **IProfAdmin**。 尽可能调用 **IProfAdmin** 方法，因为它不会导致邮件服务启动。 有关使用 **IMsgServiceAdmin** 接口的详细信息，请参阅下列主题 [：Configuring a Message Service、Copying](configuring-a-message-service.md)a Message [Service](copying-a-message-service.md)和 [Deleting a Message Service。](deleting-a-message-service.md)
     
-- [IProfAdmin:](iprofadminiunknown.md)用于管理配置文件的 IUnknown, 可通过[MAPIAdminProfiles](mapiadminprofiles.md)函数访问。 有关使用**IProfAdmin**接口的详细信息, 请参阅下列主题:[使用自定义代码创建配置](creating-a-profile-by-using-custom-code.md)文件、[复制配置文件](copying-a-profile.md)、[删除配置文件](deleting-a-profile.md)、[查找配置文件名称](finding-a-profile-name.md)和[设置默认配置文件](setting-a-default-profile.md)。
+- [IProfAdmin ：IUnknown](iprofadminiunknown.md) 用于管理可通过 [MAPIAdminProfiles](mapiadminprofiles.md) 函数访问的配置文件。 有关使用 **IProfAdmin** 接口的信息，请参阅下列主题：使用自定义 [](creating-a-profile-by-using-custom-code.md)代码创建配置文件、复制配置文件、删除配置文件、查找配置文件 [](deleting-a-profile.md)名称以及设置默认 [配置文件](setting-a-default-profile.md)。 [](copying-a-profile.md) [](finding-a-profile-name.md)
     
-- [IProfSect: IMAPIProp](iprofsectimapiprop.md)若要维护配置文件节中的属性, 可通过[IMAPISession:: OpenProfileSection](imapisession-openprofilesection.md)或[IProviderAdmin:: OpenProfileSection](iprovideradmin-openprofilesection.md)方法访问。 有关配置文件节的详细信息, 请参阅[MAPI 配置文件](mapi-profiles.md)。
+- [IProfSect ：IMAPIProp，](iprofsectimapiprop.md) 用于维护配置文件节中的属性，可通过 [IMAPISession：：OpenProfileSection](imapisession-openprofilesection.md) 或 [IProviderAdmin：：OpenProfileSection](iprovideradmin-openprofilesection.md) 方法访问。 有关配置文件部分详细信息，请参阅 [MAPI Profiles](mapi-profiles.md)。
     
-- [IProviderAdmin:](iprovideradminiunknown.md)用于管理邮件服务中的服务提供程序的 IUnknown, 可通过[IMsgServiceAdmin:: AdminProviders](imsgserviceadmin-adminproviders.md)访问。 有关使用**IProviderAdmin**接口的详细信息, 请参阅[在邮件服务中添加或删除提供程序](adding-or-deleting-providers-in-a-message-service.md)。
+- [IProviderAdmin ： IUnknown](iprovideradminiunknown.md) 用于管理邮件服务中的服务提供程序，可通过 [IMsgServiceAdmin：：AdminProviders 访问](imsgserviceadmin-adminproviders.md)。 有关使用 **IProviderAdmin** 接口的信息，请参阅 [Adsing or Deleting Providers in a Message Service。](adding-or-deleting-providers-in-a-message-service.md)
     
-对配置文件和邮件服务管理的支持时要小心。 没有可防止对正在使用的配置文件进行负面修改的安全措施。 MAPI 可以阻止您删除正在使用的配置文件, 但不能阻止您删除其中的每个邮件服务。 如果您删除配置文件中的每个邮件服务, 这些服务中的所有服务提供程序都将停止, 从而导致出现不可预知的结果。
+请谨慎支持配置文件和邮件服务管理。 没有防止对使用中的配置文件进行不良修改的安全措施。 MAPI 可以阻止您删除使用中的配置文件，但无法阻止您删除它内每个邮件服务。 如果删除配置文件中的每个邮件服务，则这些服务的所有服务提供程序将停止，从而导致出现不可预知的结果。
   
 ## <a name="in-this-section"></a>本节内容
 

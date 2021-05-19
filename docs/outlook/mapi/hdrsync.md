@@ -21,7 +21,7 @@ ms.locfileid: "33410250"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-有关在[下载邮件头状态](download-message-header-state.md)期间同步邮件头的信息。
+下载邮件头状态期间同步 [邮件头的信息](download-message-header-state.md)。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -40,11 +40,11 @@ struct HDRSYNC
 
  _pupmsg_
   
-- 排除本地存储中当前邮件头的信息。
+- [out]本地存储中当前邮件头的信息。
     
  _feidPar_
   
-- 排除邮件项目的父文件夹的条目 ID。
+- [out]邮件项目的父文件夹的条目 ID。
     
  _pstmReserved_
   
@@ -52,23 +52,23 @@ struct HDRSYNC
     
  _ulFlags_
   
-- 实时修改行为的标志:
+- [in]修改行为的标志：
     
 - HSF_LOCAL
     
-  - 实时完整项目位于与标题项目相同的本地存储中。
+  - [in]完整项与标头项位于同一本地存储中。
     
 - HSF_COPYDESTRUCTIVE
     
-  -  实时优化内部副本操作。 这可能会导致数据丢失。 必须设置**HSF_LOCAL** 。 
+  -  [in]优化内部复制操作。 这可能会导致数据丢失。 **HSF_LOCAL** 必须设置。 
     
 - HSF_OK
     
-  - 实时标头同步成功。 客户端从服务器下载信息之后对此进行设置。
+  - [in]标头同步成功。 客户端从服务器下载信息之后对此进行设置。
     
      _pmsgFull_
     
-  - 实时包含从服务器下载的邮件头的完整邮件项目。 有关**LPMESSAGE**的类型定义, 请参阅 mapidefs.h。 
+  - [in]完整的邮件项目，包括从服务器下载的邮件头。 有关 **LPMESSAGE** 的类型定义，请参阅 mapidefs.h。 
     
 ## <a name="see-also"></a>另请参阅
 

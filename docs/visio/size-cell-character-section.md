@@ -20,7 +20,7 @@ ms.locfileid: "33415598"
 
 确定形状的文本块中文本的大小。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 文本大小与绘图比例无关。即使绘图比例进行调整，文本大小仍然保持不变。
   
@@ -28,14 +28,14 @@ ms.locfileid: "33415598"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | Char. Size [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
+| 单元格名称：  <br/> | Char.Size[  *i*  ] 其中  *i*  = <1>， 2， 3...  <br/> |
    
 要从某个程序按索引获取对 Size 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionCharacter** <br/> |
-| 行索引：  <br/> |**visRowCharacter** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowCharacter**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visCharacterSize** <br/> |
    
 

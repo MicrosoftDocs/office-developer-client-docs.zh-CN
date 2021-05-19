@@ -1,5 +1,5 @@
 ---
-title: DisplayMode 单元格 ("Action Tags" 内容)
+title: 'DisplayMode Cell (Action Tags Section) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60039
 localization_priority: Normal
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
-description: 决定当用户将鼠标指针移到标记上时、选择形状时, 还是在所有时间都显示动作标记。
+description: 确定当用户将指针移动到标记上时、选择形状时还是所有时间都显示动作标记。
 ms.openlocfilehash: 0254ad361c63dfdeddaf8a1c2173e99aa1c05398
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,20 +16,20 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415815"
 ---
-# <a name="displaymode-cell-action-tags-section"></a>DisplayMode 单元格 ("Action Tags" 内容)
+# <a name="displaymode-cell-action-tags-section"></a>DisplayMode Cell (Action Tags Section) 
 
-决定当用户将鼠标指针移到标记上时、选择形状时, 还是在所有时间都显示动作标记。
+确定当用户将指针移动到标记上时、选择形状时还是所有时间都显示动作标记。
   
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
 |**值**|**显示模式**|**自动常量**|
 |:-----|:-----|:-----|
-| 0  <br/> | 当鼠标停留在标记上时显示 (默认值)。  <br/> |**visSmartTagDispModeMouseOver** <br/> |
+| 0  <br/> | 将鼠标暂停到默认标记的标记 (显示) 。  <br/> |**visSmartTagDispModeMouseOver** <br/> |
 | 1  <br/> | 选择形状后显示。  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
-| 双面  <br/> | 始终显示。  <br/> |**visSmartTagDispModeAlways** <br/> |
+| 2  <br/> | 始终显示。  <br/> |**visSmartTagDispModeAlways** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 打印输出或发布输出上不显示动作标记。 
   
@@ -39,14 +39,14 @@ ms.locfileid: "33415815"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | SmartTags.  *名称*。DisplayMode 其中的智能标记。 *name*是操作标记行的名称  <br/> |
+| 单元格名称：  <br/> | SmartTags。  *name*  .其中 SmartTags 的 DisplayMode。 *name*  是动作标记行的名称  <br/> |
    
 要从某个程序按索引获取对 DisplayMode 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionSmartTag** <br/> |
-| 行索引：  <br/> |**visRowSmartTag** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowSmartTag**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visSmartTagDisplayMode** <br/> |
    
 

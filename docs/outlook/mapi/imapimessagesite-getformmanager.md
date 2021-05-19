@@ -25,7 +25,7 @@ ms.locfileid: "33419455"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个表单管理器接口, 表单服务器可以使用该接口打开另一个表单服务器。
+返回一个表单管理器接口，表单服务器可以使用该界面打开另一台表单服务器。
   
 ```cpp
 HRESULT GetFormManager(
@@ -37,17 +37,17 @@ HRESULT GetFormManager(
 
  _ppFormMgr_
   
-> 排除指向指向返回的表单管理器接口的指针的指针。
+> [out]指向返回的表单管理器接口的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口列表，请参阅 [MAPI Form Interfaces](mapi-form-interfaces.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -55,7 +55,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetFormManager  <br/> |MFCMAPI 使用**IMAPIMessageSite:: GetFormManager**方法调用[MAPIOpenFormMgr](mapiopenformmgr.md) , 并返回该调用的结果。  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer：：GetFormManager  <br/> |MFCMAPI 使用 **IMAPIMessageSite：：GetFormManager** 方法调用 [MAPIOpenFormMgr](mapiopenformmgr.md) 并返回该调用的结果。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33419896"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回指定为 "个人通讯簿" (PAB) 的容器的条目标识符。
+返回指定为 PAB 用户的个人通讯簿的容器 (标识符) 。
   
 ```cpp
 HRESULT GetPAB(
@@ -38,11 +38,11 @@ HRESULT GetPAB(
 
  _lpcbEntryID_
   
-> 排除指向条目标识符中由_lppEntryID_参数指向的字节计数的指针。 
+> [out]指向  _lppEntryID_ 参数指向的条目标识符中的字节计数的指针。 
     
  _lppEntryID_
   
-> 排除指向 PAB 条目标识符的指针的指针。 如果没有指定为 PAB 的容器, 则_lppEntryID_参数包含零。 
+> [out]指向指向 PAB 条目标识符的指针的指针。 如果尚未将容器指定为 PAB，  _则 lppEntryID_ 参数包含零。 
     
 ## <a name="return-value"></a>返回值
 
@@ -50,9 +50,9 @@ S_OK
   
 > 已成功返回 PAB 的条目标识符。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端调用**GetPAB**方法以检索被指定为 PAB 的容器的条目标识符。 如果未在配置文件中建立 pab, MAPI 将选择 pab 通讯簿层次结构中允许修改的第一个容器。 
+客户端调用 **GetPAB** 方法来检索指定为 PAB 的容器的条目标识符。 如果在配置文件中尚未建立 PAB，MAPI 将选择作为允许修改的通讯簿层次结构中第一个容器的 PAB。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -60,7 +60,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg  <br/> |CMainDlg:: OnOpenPAB  <br/> |MFCMAPI 使用**GetPAB**方法获取用户的个人通讯簿的 ID。  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg：：OnOpenPAB  <br/> |MFCMAPI 使用 **GetPAB** 方法获取用户的个人通讯簿的 ID。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

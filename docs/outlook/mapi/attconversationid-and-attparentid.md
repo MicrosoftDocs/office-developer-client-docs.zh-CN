@@ -19,14 +19,14 @@ ms.locfileid: "33410047"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-Windows for 工作组3.1 邮件对话项是文本字符串。 等效的 MAPI 是一个二进制值。 为了提供向后兼容性, TNEF 实现将二进制数据转换为文本并添加一个终止的 null 字符。
+工作组Windows 3.1 邮件对话键的字符串是文本字符串。 MAPI 等效值是二进制值。 为了提供向后兼容性，TNEF 实现将二进制数据转换为文本并添加终止 null 字符。
   
 > [!NOTE]
-> MAPI 中这些 TNEF 属性映射到的相应属性 (PR_CONVERSATION_KEY 和 PR_PARENT_KEY) 在 Microsoft Exchange Server 中已被弃用: 使用**PR_CONVERSATION_KEY**的[PidTagConversationKey 规范属性](pidtagconversationkey-canonical-property.md), 仅在 Outlook 中保持, 以查找**IPM。MessageManager**邮件。 
+> 这些 TNEF 属性映射到的 MAPI、PR_CONVERSATION_KEY 和 PR_PARENT_KEY 中的相应属性已在 Microsoft Exchange Server 中弃用：使用 **PR_CONVERSATION_KEY（**[即 PidTagConversationKey](pidtagconversationkey-canonical-property.md)规范属性）仅保留于 Outlook 中，用于定位 **IPM。MessageManager** 邮件。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**PR_CONVERSATION_KEY**属性是其他过时的 precursor **PR_CONVERSATION_INDEX**, [PidTagConversationIndex 规范属性](pidtagconversationindex-canonical-property.md)和**PR_CONVERSATION_TOPIC**, [PidTagConversationTopic 规范](pidtagconversationtopic-canonical-property.md)应改用的属性。
+PR_CONVERSATION_KEY **属性** 是 PR_CONVERSATION_INDEX [、PidTagConversationIndex](pidtagconversationindex-canonical-property.md)规范属性和 **PR_CONVERSATION_TOPIC** [、PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)规范属性（应改为使用）的过时前兆。 
   
 ## <a name="see-also"></a>另请参阅
 

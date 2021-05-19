@@ -17,7 +17,7 @@ ms.locfileid: "33415290"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-mapi 添加项是属于邮件应用程序编程接口 (MAPI) 的 api, 这些接口 (如数据类型、函数和属性) 之前未作为 MAPI 程序员参考的一部分公开和记录。 其中包括以下定义和属性。
+MAPI 添加内容是属于邮件应用程序编程接口 (MAPI) （如数据类型、函数和属性）的 API，以前未作为 MAPI 程序员参考的一部分公开和记录。 它们包括以下定义和属性。
   
 ## <a name="constant-definitions"></a>常量定义
 
@@ -39,7 +39,7 @@ mapi 添加项是属于邮件应用程序编程接口 (MAPI) 的 api, 这些接�
     
 ## <a name="properties"></a>属性
 
-以下属性通常由 message 对象公开。
+下列属性通常由 message 对象公开。
   
 - **[PR_BODY_W](pidtagbody-canonical-property.md)**
     
@@ -83,7 +83,7 @@ mapi 添加项是属于邮件应用程序编程接口 (MAPI) 的 api, 这些接�
   
 - **[PR_DISPLAY_TYPE_EX](pidtagdisplaytypeex-canonical-property.md)**
     
-下列属性由通讯簿容器对象公开。
+以下属性由通讯簿容器对象公开。
   
 - **[PR_EMS_AB_SERVER](pidtagemsabserver-canonical-property.md)**
     
@@ -91,7 +91,7 @@ mapi 添加项是属于邮件应用程序编程接口 (MAPI) 的 api, 这些接�
     
 - **[PR_EMS_AB_SERVER_W](pidtagemsabserver-canonical-property.md)**
     
-下列属性由 folder 对象公开。
+以下属性由文件夹对象公开。
   
 - **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**
     
@@ -189,7 +189,7 @@ mapi 添加项是属于邮件应用程序编程接口 (MAPI) 的 api, 这些接�
     
 - **[PR_WEDDING_ANNIVERSARY](pidtagweddinganniversary-canonical-property.md)**
     
-以下属性由 profile 节对象公开。
+以下属性由配置文件节对象公开。
   
 - **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**
     
@@ -207,7 +207,7 @@ mapi 添加项是属于邮件应用程序编程接口 (MAPI) 的 api, 这些接�
     
 - **[PR_ROH_PROXY_SERVER](pidtagrpcoverhttpproxyserver-canonical-property.md)**
     
-以下属性由存储对象公开。
+以下属性由 store 对象公开。
   
 - **[PR_IPM_APPOINTMENT_ENTRYID](pidtagipmappointmententryid-canonical-property.md)**
     
@@ -221,7 +221,7 @@ mapi 添加项是属于邮件应用程序编程接口 (MAPI) 的 api, 这些接�
     
 - **[PR_IPM_TASK_ENTRYID](pidtagipmtaskentryid-canonical-property.md)**
     
-以下属性由存储对象公开, 并在存储中搜索电子邮件的特定元素时使用。
+以下属性由 store 对象公开，用于搜索存储区中电子邮件的特定元素。
   
 - **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     
@@ -234,7 +234,7 @@ mapi 添加项是属于邮件应用程序编程接口 (MAPI) 的 api, 这些接�
 ## <a name="see-also"></a>另请参阅
 
 - [当 Outlook 处于缓存 Exchange 模式下时，访问远程服务器上的存储区](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
-- [在 Outlook 配置文件中检测 Exchange Server 的版本](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
+- [检测配置文件中Exchange Server的版本Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
 - [当 Outlook 处于缓存 Exchange 模式下时，打开远程服务器上的存储区](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 - [在缓存 Exchange 模式下管理 OST 中的邮件（不调用同步）](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

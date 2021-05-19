@@ -37,17 +37,17 @@ HRESULT Shutdown(
 
  _lpulFlags_
   
-> 实时保留必须是指向零的指针。
+> [In]保留;必须是指向零的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功取消连接。
+> 连接已成功取消。
     
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-在您的**Shutdown**方法实现中, 执行您认为必要的任何任务。 只有在发布了所有的登录对象之后, MAPI 才会调用您的**关闭**方法。 
+在 Shutdown 方法 **的实现** 中，执行你认为必要的任何任务。 MAPI **仅在释放** 所有登录对象后调用 Shutdown 方法。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -1,11 +1,11 @@
 ---
-title: 通过 "函数向导" 或 "替换" 对话框调用 XLL 函数
+title: 从函数向导或替换对话框调用 XLL 函数
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- xll 函数 [excel 2007], 从 "替换" 对话框中调用 "替换" 对话框 [excel 2007], 调用 xll 函数, 函数向导 [excel 2007], 调用 xll 函数, XLL 函数 [excel 2007], 从函数向导调用
+- xll functions [excel 2007]， calling from replace dialog box，Replace dialog box [Excel 2007]， calling XLL functions，Function Wizard [Excel 2007]， calling XLL functions，XLL functions [Excel 2007]， calling from Function Wizard
 localization_priority: Normal
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -16,30 +16,30 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410747"
 ---
-# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>通过 "函数向导" 或 "替换" 对话框调用 XLL 函数
+# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>从函数向导或替换对话框调用 XLL 函数
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-在工作簿的正常重新计算过程中, 如果计算受宏的控制, Microsoft Excel 通常会在正常的工作簿重新计算过程中调用 XLL 函数。 请记住, 函数可能不驻留在单元格公式中, 但可能是命名区域定义的一部分, 或者是条件格式表达式的一部分。
+Microsoft Excel 通常在工作簿的正常重新计算过程中调用 XLL 函数，如果计算在宏的控制之下，则调用它的一部分。 请记住，该函数可能未驻留在单元格公式中，但可能是命名区域定义或条件格式表达式的一部分。
   
-在以下两种情况下, 可以从 Excel 对话框中调用函数。 一个是 "**粘贴函数参数**" 对话框, 用户可以在其中一次构造一个参数的函数调用。 另一种情况是在修改公式时, Excel 在 "**替换**" 对话框中 reentered。 对于 "**粘贴函数参数**" 对话框, 您可能不希望您的函数正常执行。 这可能是因为执行时间较长, 而您不希望减慢对话框的使用。 
+有两种从 Excel 对话框中调用函数的情况。 一种 **是"粘贴函数参数** "对话框，用户可以在对话框中构造一个函数，一次调用一个参数。 另一种是 Excel 在"替换"对话框中修改和重新 **输入公式。** 对于 **"粘贴函数参数** "对话框，您可能不希望函数正常执行。 这可能是因为执行需要很长时间，并且您不想减慢对话框的使用速度。 
   
-"**粘贴函数**" 对话框和 "**替换**" 对话框都具有 Windows 类名**bosa_sdm_XL**n, 其中 n 是一个数字。 windows 提供了 API 函数**GetClassName**, 该函数可从 Windows 句柄 (HWND 变量类型) 中获取此名称。 它还提供了另一个函数**EnumWindows**, 它为当前打开的每个顶级窗口调用一次提供的回调函数 (在 DLL 中)。
+" **粘贴函数"** 对话框和" **替换** "对话框的 Windows 类名称都bosa_sdm_XL **n，** 其中 n 是数字。 Windows 提供了 API 函数 **GetClassName，** 该函数从 Windows 句柄（HWND 变量类型）获取此名称。 它还提供另一个函数 **EnumWindows，** 它针对当前打开的顶级窗口 (DLL) 一次提供的回调函数。
   
-回调函数需要执行以下步骤:
+回调函数只需执行以下步骤：
   
-1. 检查此窗口的父级是否为 Excel 的当前实例 (如果有多个实例正在运行)。
+1. 检查此窗口的父窗口是否为 Excel (，以防有多个实例在运行) 。
     
-2. 从 Windows 传入的句柄中获取类名称。
+2. 从 Windows 传入的句柄获取类名称。
     
-3. 检查类名的格式是否为**bosa_sdm_XL**n。
+3. 检查类名称是否与 n **bosa_sdm_XL。**
     
-4. 如果需要区分这两个对话框, 请检查对话框标题中是否包含一些标识文本。 窗口标题是使用 Windows API 调用**GetWindowText**获取的。
+4. 如果需要区分这两个对话框，请检查对话框标题是否包含一些标识文本。 窗口标题是使用 Windows API 调用 **GetWindowText 获取的**。
     
-下面的 c + + 代码显示了要传递到执行这些步骤的 Windows 的类和回调。 这由针对相关对话框中的任一对话框调用 test 的函数调用。 
+以下 C++ 代码显示要传递给执行这些步骤的 Windows 的类和回调。 这由专门为任一相关对话框调用 test 的函数调用。 
   
 > [!NOTE]
-> 将来的 Excel 版本的窗口标题可能会更改, 并使此代码无效。 另请注意, 将**window_title_text**设置为**NULL**会对回调搜索中忽略窗口标题产生的影响。 
+> 未来 Excel 版本的窗口标题可能会更改此代码，并会使此代码无效。 另请注意 **，window_title_text** **NULL 会** 忽略回调搜索中的窗口标题。 
   
 ```cs
 #define CLASS_NAME_BUFFSIZE  50
@@ -98,7 +98,7 @@ BOOL CALLBACK xldlg_enum_proc(HWND hwnd, xldlg_enum_struct *p_enum)
 }
 ```
 
-"**粘贴函数**" 对话框没有标题, 因此下面的函数将 "" 的搜索标题字符串 (即空字符串) 传递给回调, 以指示匹配条件是窗口不应具有标题。 
+" **粘贴** 函数"对话框没有标题，因此以下函数将搜索标题字符串""（即空字符串）传递给回调，以指示匹配条件是窗口不应具有标题。 
   
 ```cs
 bool called_from_paste_fn_dlg(void)

@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419469"
 ---
-# <a name="propacctuserdisplayname"></a>PROP_ACCT_USER_DISPLAY_NAME
+# <a name="prop_acct_user_display_name"></a>PROP_ACCT_USER_DISPLAY_NAME
 
 返回或设置用户显示名称。
   
@@ -29,7 +29,7 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x000B001F  <br/> |
 |访问权限  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.
   

@@ -25,7 +25,7 @@ ms.locfileid: "33415724"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个 ASN. 1 内容完整性检查值, 允许邮件发件人将邮件内容泄露给未授权的收件人。
+包含一个 ASN.1 内容完整性检查值，它允许邮件发件人保护邮件内容，防止向未经授权的收件人泄露。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33415724"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性提供对邮件内容的不可否认性的提供。 与**PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) 结合使用, 可确保邮件的内容在其目标处不变。
+此属性提供不拒绝邮件内容。 结合[PidTagMessageToken PR_MESSAGE_TOKEN (PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) ，它可确保邮件的内容到达其目标位置不变。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

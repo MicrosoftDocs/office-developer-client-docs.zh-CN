@@ -25,7 +25,7 @@ ms.locfileid: "33414807"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含发出邮件的邮件传输代理 (MTA) 的标识符。
+包含源自邮件的 MTA (代理) 标识符。
   
 |||
 |:-----|:-----|
@@ -34,23 +34,23 @@ ms.locfileid: "33414807"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果设置此属性, 则该属性在 "已发送邮件" 文件夹中的已发送邮件中可用。
+如果设置此属性，则可用于"已发送项目"文件夹中的已发送邮件。
   
-此属性对应于每个邮件的400个报告属性。
+此属性对应于每封邮件的 X.400 报告属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

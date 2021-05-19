@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2dde7eec-df3d-723c-db08-7ff0b6107a0b
-description: '上次修改时间: 2012 年7月2日'
+description: 上次修改时间：2012 年 7 月 2 日
 ms.openlocfilehash: 88716719857cfd623d30a3684fc997ea8019455e
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -39,15 +39,15 @@ struct FEID
 
  _abFlags_
   
-> 4字节的文件夹的条目标识符。 有关 MAPI 条目标识符的详细信息, 请参阅**[ENTRYID](entryid.md)**。 
+> 文件夹的 4 字节条目标识符。 有关 MAPI 条目标识符详细信息，请参阅 **[ENTRYID](entryid.md)**。 
     
  _muid_
   
-> 标识存储提供程序的 GUID。 有关**MAPIUID**的类型定义, 请参阅 mapidefs.h。 
+> 标识存储提供程序的 GUID。 有关 **MAPIUID** 的类型定义，请参阅 mapidefs.h。 
     
  _占位符_
   
-> 此成员是为内部使用 Outlook 而保留的, 不受支持。
+> 此成员仅供内部使用，Outlook不支持。
     
  _ltid_
   
@@ -65,5 +65,5 @@ struct FEID
   
 [UPFLD](upfld.md)
   
-[同步](sync.md)
+[SYNC](sync.md)
 

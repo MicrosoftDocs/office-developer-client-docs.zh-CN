@@ -25,7 +25,7 @@ ms.locfileid: "33419651"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件发件人请求邮件传输代理附加邮件收件人的物理转发地址, 则该参数为 TRUE。
+如果邮件发件人请求邮件传输代理为邮件收件人附加物理转发地址，则包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ ms.locfileid: "33419651"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

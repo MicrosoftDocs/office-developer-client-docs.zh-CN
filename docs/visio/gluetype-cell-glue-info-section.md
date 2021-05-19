@@ -22,13 +22,13 @@ ms.locfileid: "33410670"
   
 |**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
-| &amp;H0  <br/> | 默认值。 只有动态连接线可使用动态粘附；其他形状均使用静态粘附。  <br/> |**visGlueTypeDefault** <br/> |
+| &amp;H0  <br/> | 默认值。只有动态连接线可使用动态粘附；其他形状均使用静态粘附。  <br/> |**visGlueTypeDefault** <br/> |
 | &amp;H1  <br/> | 允许动态粘附。  <br/> | 在 Visio 2002 中已经放弃该功能。  <br/> |
 | &amp;H2  <br/> | 允许动态粘附。  <br/> |**visGlueTypeWalking** <br/> |
 | &amp;H4  <br/> | 不允许动态粘附。  <br/> |**visGlueTypeNoWalking** <br/> |
 | &amp;H8  <br/> | 不允许使用动态粘附连接此二维形状。  <br/> |**visGlueTypeNoWalkingTo** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 如果此单元格包含值 1、2 或 3，则只要出现以下二者之一就将建立动态粘附：
   

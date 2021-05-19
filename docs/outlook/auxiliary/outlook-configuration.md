@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: ff1a6843-6dd6-4527-9fc1-70da288cb9e7
-description: 本节介绍如何将 Outlook 配置为解决项目冲突, 确定脱机通讯簿的更新时间, 并注册自动配置的域。
+description: 本节介绍如何配置 Outlook以解决项目冲突、确定脱机通讯簿的更新时间以及注册域以便进行自动配置。
 ms.openlocfilehash: 781d1fe34a8918fdb96900e4f191ea36cf1b732c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33411020"
 ---
 # <a name="outlook-configuration"></a>Outlook 配置
 
-本节介绍如何将 Outlook 配置为解决项目冲突, 确定脱机通讯簿的更新时间, 并注册自动配置的域。
+本节介绍如何配置 Outlook以解决项目冲突、确定脱机通讯簿的更新时间以及注册域以便进行自动配置。
 
 - [关于自定义项类型的冲突解决](about-conflict-resolution-for-custom-item-types.md)
     

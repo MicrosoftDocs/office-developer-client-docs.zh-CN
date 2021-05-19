@@ -21,7 +21,7 @@ ms.locfileid: "33419434"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-Outlook 应用商店中的对象的常规长期术语 ID。
+通用对象存储区中对象的长期Outlook ID。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -38,15 +38,15 @@ struct LTID
 
  _guid_
   
-- 排除创建该对象的服务器的 GUID。
+- [out]创建对象的服务器的 GUID。
     
  _globcnt_
   
-- 排除一个6字节的唯一编号, 用于标识 Outlook 存储中的对象。
+- [out]一个 6 字节的唯一编号，用于标识Outlook对象。
     
  _wLevel_
   
-- 排除Exchange 收藏的公用文件夹的条目 ID 的层次结构级别。
+- [out]收藏夹公用文件夹的条目 ID Exchange级别。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -22,31 +22,31 @@ ms.locfileid: "33415003"
   
 ## <a name="syntax"></a>语法
 
-SAT (* **表达式** *) 
+SAT (** *expression* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |必需  <br/> |**相同** <br/> |文档颜色表中某颜色的索引值、解析为自定义颜色的表达式（如 RGB 或 HSL），或者是对某个包含颜色索引值或颜色结果的单元格的引用。  <br/> |
+| _expression_ <br/> |必需  <br/> |**变化** <br/> |文档颜色表中某颜色的索引值、解析为自定义颜色的表达式（如 RGB 或 HSL），或者是对某个包含颜色索引值或颜色结果的单元格的引用。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-数值
+Numeric
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 返回值是 0 至 240 之间的数字（包括 0 和 240）。对于无效输入，该函数将返回 0。
   
 ## <a name="example-1"></a>示例 1
 
-SAT (Sheet. 4!FillForegnd
+SAT (Sheet.4！FillForegnd) 
   
 返回 Sheet.4 的填充前景色的饱和度。
   
 ## <a name="example-2"></a>示例 2
 
-SAT (8)
+SAT (8) 
   
 如果文档使用默认的 Visio 调色板，其中深红色的索引值是 8，则返回 240。
   

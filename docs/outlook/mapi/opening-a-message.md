@@ -21,15 +21,15 @@ ms.locfileid: "33411090"
   
 ### <a name="to-open-a-message"></a>打开邮件
   
-1. 从以下源之一检索消息的条目标识符:
+1. 从以下源之一检索邮件的条目标识符：
     
-   - 表示其父文件夹的内容表中的邮件的行。 有关使用文件夹内容表的详细信息, 请参阅[内容表](contents-tables.md)。
+   - 表示其父文件夹的内容表中的邮件的行。 有关使用文件夹内容表的信息，请参阅 [Contents Tables](contents-tables.md)。
     
-   - 与新邮件通知一起发送的[NEWMAIL_NOTIFICATION](newmail_notification.md)结构的**lpEntryID**成员。 有关接收和处理通知的详细信息, 请参阅[处理通知](handling-notifications.md)。
+   - 通过新邮件通知 [发送NEWMAIL_NOTIFICATION](newmail_notification.md) **lpEntryID 结构的 lpEntryID** 成员。 有关接收和处理通知的信息，请参阅处理 [通知](handling-notifications.md)。
     
-   - 对邮件的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法的调用, 请求**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。 
+   - 对消息[的 IMAPIProp：：GetProps](imapiprop-getprops.md)方法的调用，该方法PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。  
     
-2. 调用以下**OpenEntry**方法之一以打开邮件, 并将_lpEntryID_设置为邮件的条目标识符: 
+2. 调用下列 **OpenEntry** 方法之一打开邮件，将  _lpEntryID_ 设置为邮件的条目标识符： 
     
    - [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)
     
@@ -37,14 +37,14 @@ ms.locfileid: "33411090"
     
    - [IMAPISession::OpenEntry](imapisession-openentry.md)
     
-  最快的方法仅适用于传入的邮件, 并且需要调用 receive 文件夹的**IMAPIFolder:: OpenEntry**方法。 下一种最快的方法是调用邮件存储区的**IMsgStore:: OpenEntry**方法, 使其可用于所有邮件, 这是调用**IMAPISession:: OpenEntry**的最慢方法。
+  最快方法仅对传入邮件可用，涉及调用接收文件夹 **的 IMAPIFolder：：OpenEntry** 方法。 下一个最快方法调用邮件存储 **的 IMsgStore：：OpenEntry** 方法，适用于所有邮件，最慢的方法调用 **IMAPISession：：OpenEntry**。
     
 > [!NOTE]
-> 可以随时关闭文件夹及其内容表, 而不会对其内部打开的任何邮件产生不利影响。 
+> 文件夹及其内容表随时都可以关闭，而不会对从其中打开的任何邮件造成负面影响。 
   
-### <a name="to-open-a-message-that-has-been-saved-on-disk"></a>打开已保存在磁盘上的邮件
+### <a name="to-open-a-message-that-has-been-saved-on-disk"></a>打开已保存在磁盘上的消息
   
-1. 调用**StgOpenStorage**以检索**IStorage**接口指针, 并为_pwcsName_参数传递邮件文件的名称。 
+1. 调用 **StgOpenStorage** 以检索 **IStorage** 接口指针，为  _pwcsName 参数传递消息文件_ 的名称。 
     
    ```cpp
     LPSTORAGE pStorage = NULL;
@@ -56,7 +56,7 @@ ms.locfileid: "33411090"
     
    ```
 
-2. 调用**OpenIMsgOnIStg**以检索用于访问邮件的**IMessage**接口指针。 
+2. 调用 **OpenIMsgOnIStg** 以检索 **IMessage** 接口指针以访问邮件。 
     
    ```cpp
     LPMESSAGE pMessage = NULL;

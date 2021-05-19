@@ -17,7 +17,7 @@ ms.locfileid: "33419546"
 ---
 # <a name="isocialprovidergetsession"></a>ISocialProvider::GetSession
 
-获取[ISocialSession](isocialsessioniunknown.md)接口。 
+获取 [ISocialSession](isocialsessioniunknown.md) 接口。 
   
 ```cpp
 HRESULT _stdcall GetSession([out, retval] ISocialSession** session);
@@ -31,7 +31,7 @@ _Session_
     
 ## <a name="remarks"></a>说明
 
-Outlook Social Connector (.osc) 使用**ISocialSession**接口登录到社交网络。 
+OSC Outlook Social Connector () 使用 **ISocialSession** 接口登录到社交网络。 
   
 ## <a name="see-also"></a>另请参阅
 

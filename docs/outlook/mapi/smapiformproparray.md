@@ -25,12 +25,12 @@ ms.locfileid: "33420064"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含[SMAPIFormProp](smapiformprop.md)结构的数组。 
+包含 [SMAPIFormProp 结构](smapiformprop.md) 数组。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
-|相关宏:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
+|相关宏：  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -46,19 +46,19 @@ typedef struct
 
  **cProps**
   
-> **aFormProp**成员中的数组中的命名属性的计数。 
+> **aFormProp** 成员数组中命名属性的计数。 
     
  **ulPad**
   
->  用来保证正确对齐的填充量为8个字节。 
+>  用于保证正确对齐的八字节填充。 
     
  **aFormProp**
   
-> 表单属性的数组。
+> 表单属性数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SMAPIFormPropArray**结构作为参数传递给以下方法: 
+**SMAPIFormPropArray** 结构作为参数传递给以下方法： 
   
 - [IMAPIFormInfo::CalcFormPropSet](imapiforminfo-calcformpropset.md)
     

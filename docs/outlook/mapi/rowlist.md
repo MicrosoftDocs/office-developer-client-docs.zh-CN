@@ -25,7 +25,7 @@ ms.locfileid: "33419182"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含[ROWENTRY](rowentry.md)结构的数组, 这些结构表示通过[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口对表中的这些行执行的行和操作。 
+包含一个 [ROWENTRY](rowentry.md) 结构数组，该数组代表通过 [IExchangeModifyTable](iexchangemodifytableiunknown.md) 接口对表中的这些行执行的行和操作。 
   
 ```cpp
 typedef struct
@@ -40,11 +40,11 @@ typedef struct
 
  **cEntries**
   
-> 由**aEntries**成员指定的数组中的条目数。 
+> **aEntries** 成员指定的数组中的条目计数。 
     
- **aEntries [MAPI_DIM]**
+ **aEntries[MAPI_DIM]**
   
-> **ROWENTRY**结构的数组, 其中包含在表中对这些行执行的行和操作。 
+> **ROWENTRY** 结构数组，其中包含对表中的这些行执行的行和操作。 
     
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -52,7 +52,7 @@ typedef struct
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|RulesDlg  <br/> |CRulesDlg:: GetSelectedItems  <br/> |用于为后续**ModifyTable**操作生成选定规则的列表。  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg：：GetSelectedItems  <br/> |用于为后续的 ModifyTable 操作构建 **所选规则** 的列表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

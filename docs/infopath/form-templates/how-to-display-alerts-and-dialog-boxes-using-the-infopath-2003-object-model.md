@@ -27,11 +27,11 @@ ms.locfileid: "33409480"
 |:-----|:-----|
 |[Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Displays a simple message box that contains a specified message string. This method should be used when no input is required from the user and only a message needs to be displayed. The dialog box displayed is closed by clicking the **OK** button.  <br/> |
 |[Confirm](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |显示一个带有用户输入按钮的消息框。返回值是 [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) 枚举常量之一。  <br/> |
-|[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |在“另存为”**** 对话框中设置表单的默认文件名。  <br/> |
-|[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |设置“另存为”**** 对话框在打开时开始浏览的初始位置。  <br/> |
+|[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |在“另存为”对话框中设置表单的默认文件名。  <br/> |
+|[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |设置“另存为”对话框在打开时开始浏览的初始位置。  <br/> |
 |[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |在默认的电子邮件应用程序中新建电子邮件，当前打开的表单附加到该邮件中。  <br/> |
-|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |基于指定的 .html 文件和位置参数显示模式对话框。如果要向用户显示的不仅仅是一条简单的消息，并且您需要从用户处获得一些数据（除了由 **Confirm** 方法显示的"是" | “否”**** | ****“取消”按钮提供的简单确认****）。  <br/> |
-|[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |显示内置的“数字签名”**** 对话框。  <br/> |
+|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |基于指定的 .html 文件和位置参数显示模式对话框。如果要向用户显示的不仅仅是一条简单的消息，并且您需要从用户处获得一些数据（除了由 **Confirm** 方法显示的"是" | “否” | “取消”按钮提供的简单确认）。  <br/> |
+|[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |显示内置的“数字签名”对话框。  <br/> |
    
 ## <a name="using-the-uiobject-interface"></a>使用 UIObject 接口
 

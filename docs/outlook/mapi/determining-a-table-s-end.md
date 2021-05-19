@@ -1,5 +1,5 @@
 ---
-title: 确定表的结尾
+title: 确定表的结束
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,20 +15,20 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420085"
 ---
-# <a name="determining-a-tables-end"></a>确定表的结尾
+# <a name="determining-a-tables-end"></a>确定表的结束
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
- 一个常见错误是, 在以下情况时, 假定已到达表的末尾: 
+ 一个常见错误是假定在出现以下错误时已到达表的末尾： 
   
-- [imapitable:: QueryRows](imapitable-queryrows.md)已在循环中调用, 并在循环结束时由[IMAPITable:: GetRowCount](imapitable-getrowcount.md)返回的行数确定。 **GetRowCount**返回的计数并不总是表示表中的确切行数;它是一个大概数。 
+- [IMAPITable：：QueryRows](imapitable-queryrows.md) 已在循环中调用，循环的结束由 [IMAPITable：：GetRowCount](imapitable-getrowcount.md)返回的行数确定。 **GetRowCount** 返回的计数并不总是表示表格中确切的行数;它是近似计数。 
     
-- 已使用固定的行数调用**QueryRows** , 并且返回的行数较少。 直到**QueryRows**返回行数等于零的行集时, 没有更多的行可供检索。 
+- **QueryRows** 的行数已固定，返回的行数较少。 直到 **QueryRows** 返回行计数等于零的行集，才没有要检索的行。 
     
 > [!IMPORTANT]
-> 呼叫者唯一的时间是将游标放置在表的末尾, 对于正数行计数或在表的开头, 如果返回值 S_OK 和零行, 则会出现这种情况。 从不返回值 MAPI_E_NOT_FOUND。 
+> 调用方只能假定游标位于表末尾的正行数或负行数的表的开头时返回值 S_OK 和零行。 绝不会MAPI_E_NOT_FOUND值。 
   
 ## <a name="see-also"></a>另请参阅
 

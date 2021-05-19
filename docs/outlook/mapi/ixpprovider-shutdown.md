@@ -25,7 +25,7 @@ ms.locfileid: "33409690"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-以有序的方式关闭传输提供程序。
+以有序方式关闭传输提供程序。
   
 ```cpp
 HRESULT Shutdown (
@@ -37,17 +37,17 @@ HRESULT Shutdown (
 
  _lpulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功关闭了传输提供程序。
+> 呼叫成功关闭传输提供程序。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-MAPI 后台处理程序在释放传输提供程序对象之前, 先调用**IXPProvider:: Shutdown**方法。 在呼叫**关闭**之前, MAPI 将释放所有登录对象的提供程序。
+MAPI 后台处理程序在释放传输提供程序对象之前调用 **IXPProvider：：Shutdown** 方法。 在调用 **Shutdown** 之前，MAPI 会释放提供程序的所有登录对象。
   
 ## <a name="see-also"></a>另请参阅
 

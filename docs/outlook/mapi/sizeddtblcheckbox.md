@@ -23,12 +23,12 @@ ms.locfileid: "33420806"
  
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个命名的结构, 其中包含用于描述复选框控件和标签指定长度的[DTBLCHECKBOX](dtblcheckbox.md)结构。 
+创建一个命名结构，其中包含用于描述复选框控件和指定长度的标签的 [DTBLCHECKBOX](dtblcheckbox.md) 结构。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**DTBLCHECKBOX** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**DTBLCHECKBOX** <br/> |
    
 ```cpp
 SizedDtblCheckBox (n, u)
@@ -44,16 +44,16 @@ _u_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SizedDtblCheckBox**宏允许您在标签字符的数目已知时定义复选框。 新结构是使用以下成员创建的: 
+**SizedDtblCheckBox** 宏允许您在标签字符数已知时定义一个复选框。 新结构由以下成员创建： 
   
 ```cpp
 DTBLCHECKBOX dtblcheckbox;
 TCHAR lpszLabel[n];
 ```
 
-若要将指向**SizedDtblCheckBox**宏的结果结构的指针用作**DTBLCHECKBOX**结构指针, 请执行以下转换: 
+若要将指向 **SizedDtblCheckBox** 宏生成的结构的指针用作 **DTBLCHECKBOX** 结构指针，请执行以下转换： 
   
 ```cpp
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;

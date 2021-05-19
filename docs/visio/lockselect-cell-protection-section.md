@@ -25,7 +25,7 @@ ms.locfileid: "33409753"
 | TRUE  <br/> | 不能选取形状。  <br/> |
 | FALSE  <br/> | 能够选取形状。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要使 LockSelect 生效，必须在 **“保护文档”** 对话框中选取 **“形状”** 复选框。 
   

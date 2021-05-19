@@ -29,8 +29,8 @@ ms.locfileid: "33415269"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关宏:  <br/> |[CbNewENTRYID](cbnewentryid.md)、 [SizedENTRYID](sizedentryid.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关宏：  <br/> |[CbNewENTRYID](cbnewentryid.md) [、SizedENTRYID](sizedentryid.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,11 +45,11 @@ typedef struct
 
  **abFlags**
   
-> 提供描述对象的信息的标志的位掩码。 仅可由提供程序设置**abFlags [0]** 标志的第一个字节;另外三个是保留的。 不得为永久条目标识符设置这些标志;仅对短期条目标识符设置这些设置。 对于客户端, 此结构是只读的。 可以在**abFlags [0]** 中设置以下标志:
+> 提供描述对象的信息的标志的位掩码。 提供程序只能设置标志的第一个字节 **abFlags[0]**;其他三个已保留。 不得为永久条目标识符设置这些标志;它们仅为短期条目标识符设置。 对于客户端，此结构是只读的。 可以在 **abFlags[0] 中设置以下标志**：
     
 MAPI_NOTRECIP 
   
-> 条目标识符不能用作邮件的收件人。
+> 条目标识符不能用作邮件上的收件人。
     
 MAPI_NOTRESERVED 
   
@@ -61,7 +61,7 @@ MAPI_NOW
     
 MAPI_SHORTTERM 
   
-> 条目标识符是短期的。 除非启用了条目标识符的其他使用, 否则必须设置此字节中的所有其他值。
+> 条目标识符为短期标识符。 必须设置此字节中的所有其他值，除非启用条目标识符的其他用法。
     
 MAPI_THISSESSION 
   
@@ -69,11 +69,11 @@ MAPI_THISSESSION
     
  **ab**
   
-> 指示服务提供程序使用的二进制数据数组。 客户端应用程序无法使用此数组。
+> 指示服务提供商使用的二进制数据数组。 客户端应用程序无法使用此数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-" **ENTRYID** " 结构由邮件存储和通讯簿提供程序用于为其对象构造唯一标识符。 条目标识符用于标识以下类型的对象: 
+邮件存储和通讯簿提供程序使用 **ENTRYID** 结构来构造其对象的唯一标识符。 条目标识符用于标识以下类型的对象： 
   
 - 邮件存储
     
@@ -89,33 +89,33 @@ MAPI_THISSESSION
     
 - 状态对象
     
-- 配置文件节
+- 配置文件部分
     
-每个提供程序都使用对该提供商有意义的**ENTRYID**结构的格式。 
+每个提供程序都对 **ENTRYID** 结构使用一种格式，该格式对于该提供程序有意义。 
   
-不能直接对条目标识符进行比较，因为一个对象可以由两个不同的二进制值表示。 若要确定两个条目标识符是否表示同一个对象, 请调用[IMAPISession:: CompareEntryIDs](imapisession-compareentryids.md)方法。 
+不能直接对条目标识符进行比较，因为一个对象可以由两个不同的二进制值表示。 若要确定两个条目标识符是否表示同一个对象，请调用 [IMAPISession：：CompareEntryIDs](imapisession-compareentryids.md) 方法。 
   
-当客户端调用对象的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法以检索其条目标识符时, 该对象将返回条目标识符的最永久的形式。 客户端可以通过检查**abFlags**成员的第一个字节中是否未设置任何标志来验证条目标识符是否为长期。 
+当客户端调用对象的 [IMAPIProp：：GetProps](imapiprop-getprops.md) 方法来检索其条目标识符时，该对象将返回条目标识符的最永久形式。 客户端可以通过检查 **abFlags** 成员的第一个字节中是否未设置任何标志来验证条目标识符是长期标识符。 
   
-当客户端通过表中的列访问条目标识符时, 很可能此条目标识符是短期的, 而不是长期。 短期条目标识符可用于仅在当前 MAPI 会话中打开其对应的对象。 客户端可以通过检查**abFlags**成员的第一个字节中是否设置了所有标志来验证条目标识符是否为短期。 
+当客户端通过表中的列访问条目标识符时，很可能此条目标识符是短期标识符，而不是长期标识符。 短期条目标识符只能用于在当前 MAPI 会话中打开其相应的对象。 客户端可以通过检查在 **abFlags** 成员的第一个字节中设置所有标志来验证条目标识符是短期的。 
   
-某些条目标识符是短期的, 但长期使用。 这样的条目标识符将具有一个或多个在其**abFlags**成员的第一个字节中设置的合适的标志。 
+某些条目标识符是短期的，但具有长期用途。 此类条目标识符将在其 **abFlags** 成员的第一个字节中设置一个或多个相应标志。 
   
-**ENTRYID**结构类似于[FLATENTRY](flatentry.md)结构。 但是, 存在一些差异: 
+**ENTRYID** 结构类似于 [FLATENTRY](flatentry.md)结构。 但是，存在一些差异： 
   
-- **ENTRYID**结构不存储条目标识符的大小;**FLATENTRY**结构。 
+- **ENTRYID** 结构不存储条目标识符的大小;**FLATENTRY** 结构有。 
     
-- **ENTRYID**结构单独存储项目标识符的标志数据和其余内容;**FLATENTRY**结构将标志数据与条目标识符的其余部分存储在一起。 
+- **ENTRYID** 结构单独存储标志数据和条目标识符的其余部分;**FLATENTRY** 结构使用条目标识符的其余部分存储标志数据。 
     
-- **ENTRYID**结构作为参数传递给[IMAPIProp](imapipropiunknown.md)接口的方法和以下**OpenEntry**方法: [IABLogon:: OpenEntry](iablogon-openentry.md), [IAddrBook:: OpenEntry](iaddrbook-openentry.md), [IMAPIContainer:: OpenEntry](imapicontainer-openentry.md), [IMAPISession:: OpenEntry](imapisession-openentry.md), [IMAPISupport:: OpenEntry](imapisupport-openentry.md), [IMsgStore:: OpenEntry](imsgstore-openentry.md), [IMSLogon:: OpenEntry](imslogon-openentry.md)
+- **ENTRYID** 结构作为参数传递给 [IMAPIProp](imapipropiunknown.md)接口的方法和以下 **OpenEntry** 方法：IABLogon：：OpenEntry、IAddrBook：：OpenEntry、IMAPIContainer：：OpenEntry、IMAPISession：：OpenEntry、IMAPISupport：：OpenEntry、IMsgStore：：OpenEntry、IMSLogon：：OpenEntry [](iablogon-openentry.md) [](iaddrbook-openentry.md) [](imapicontainer-openentry.md) [](imapisession-openentry.md) [](imapisupport-openentry.md) [](imsgstore-openentry.md) [](imslogon-openentry.md)
     
-- **ENTRYID**结构用于在磁盘上存储条目标识符。 **FLATENTRY**结构用于将条目标识符存储在文件中, 或将其传递到字节流中。 
+- **ENTRYID** 结构用于在磁盘上存储条目标识符。 **FLATENTRY** 结构用于将条目标识符存储在文件中或传递到字节流中。 
     
-客户端应始终传递以自然对齐的条目标识符。 虽然提供程序应处理任意对齐的条目标识符, 但客户端不应预期此行为。 如果未能将正确的条目标识符传递给方法, 则会导致 RISC 处理器上的校准错误。 
+客户端应始终传递自然对齐的条目标识符。 尽管提供程序应处理任意对齐的条目标识符，但客户端不应期望此行为。 如果未能将对齐良好的条目标识符传递给方法，可能会导致 RISC 处理器出现对齐错误。 
   
-自然对齐因子 (通常为8个字节) 是 CPU 支持的最大数据类型, 通常与系统内存分配器使用相同的校准因子。 通过自然对齐的内存地址, CPU 可以访问它在该地址支持的任何数据类型, 而不会生成对齐错误。 对于 RISC cpu, 大小为 n 个字节的数据类型通常必须在 n 个字节的偶数倍进行对齐, 且地址是 n 的偶数倍。
+自然对齐因子（通常为 8 个字节）是 CPU 数据类型支持的最大对齐因子，并且通常是系统内存分配器使用的相同对齐因素。 自然对齐的内存地址允许 CPU 访问它数据类型该地址上支持的任何地址，而不会生成对齐错误。 对于 RISC CPU，数据类型 N 字节的大小通常必须在 N 字节的甚至倍数上对齐，地址为 N 的倍数。
   
-有关详细信息, 请参阅[条目标识符](mapi-entry-identifiers.md)。 
+有关详细信息，请参阅条目 [标识符](mapi-entry-identifiers.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

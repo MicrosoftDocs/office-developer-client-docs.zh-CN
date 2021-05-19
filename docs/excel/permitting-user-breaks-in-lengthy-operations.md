@@ -1,11 +1,11 @@
 ---
-title: 允许用户在漫长的操作中中断
+title: 允许用户在冗长操作中中断
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- xlabort 函数 [excel 2007], 并发任务 [excel 2007], 用户中断 [excel 2007]
+- xlabort 函数 [excel 2007]，并发任务 [Excel 2007]，用户中断 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0e3df597-0aa6-497f-bc52-58c7dc064538
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -16,17 +16,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414688"
 ---
-# <a name="permitting-user-breaks-in-lengthy-operations"></a>允许用户在漫长的操作中中断
+# <a name="permitting-user-breaks-in-lengthy-operations"></a>允许用户在冗长操作中中断
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-尽管 Windows 使用抢先式多任务处理, 其中的函数或命令可能需要很长时间才能执行, 但很好的做法是立即为操作系统生成一些时间, 以帮助 it 计划并发任务。 使用本机 Windows 调用时, 可以通过使用 sleep 函数来执行此操作。 使用 C API, 您可以使用[xlAbort 函数](xlabort.md)执行此操作, 它不仅会生成即时处理器, 还会检查用户是否已按下 "取消" 键 ( **ESC**)。
+即使Windows使用抢先的多任务处理（其中函数或命令可能需要很长时间来执行）也是一种好的做法，现在再三向操作系统提供一些时间以帮助其安排并发任务。 使用本机Windows调用，可以通过使用睡眠函数实现此操作。 使用 C API，可以使用 [xlAbort](xlabort.md)函数实现，该函数不仅可立即生成处理器，还可以检查用户是否按下了取消键 **ESC。**
   
-因此, **xlAbort**函数使您的代码能够检查用户是否要结束该进程, 执行必要的清理, 然后将控制返回到 Excel。 函数还使您能够清除中断条件。 这将允许您的命令显示一个对话框, 以验证用户是否要结束该命令。 如果用户不希望结束命令, 则使用参数调用**xlAbort**函数将清除 break。 ** (默认参数为*TRUE* , 只检查条件但不清除它。) 
+因此 **，xlAbort** 函数允许您的代码检查用户是否要结束该过程，执行必要的清理，然后将控制权返回给Excel。 函数还允许您清除中断条件。 这样，命令可以显示一个对话框来验证用户是否要结束该命令。 如果用户不想结束该命令，则使用参数 *FALSE* 调用 **xlAbort** 函数将清除中断。  (默认参数为  *TRUE*  ，它只检查条件但不清除它。)  
   
-您可以从用户定义函数 (UDF) 或 XLL 命令调用**xlAbort**函数。 在 UDF 中, 当**xlAbort**函数返回**TRUE**时, 检测到用户中断, 通常会缩短函数计算的时间, 并返回一些值, 以指示计算未完成, 可能是错误或零。 您不能清除中断条件, 以便同时检查此条件的较长函数的其他实例也会中断。 在重新计算结束时, Excel 将隐式清除此条件。
+可以从 UDF 函数或 XLL (函数) **xlAbort** 函数。 在 UDF 中，当 **xlAbort** 函数返回 **TRUE** 时，检测到用户中断后，通常会截短函数计算并返回一个值，以指示计算未完成（可能是错误或零）。 您不会清除中断条件，以便同时检查此条件的长函数的其他实例也会中断。 Excel重新计算结束时隐式清除此条件。
   
-在命令中检测到中断条件时, 通常会通过使用参数**FALSE**再次调用**xlAbort**函数来清除该条件, 尽管 Excel 会在命令结束时隐式清除此条件。
+在命令中检测中断条件时，通常使用参数 **FALSE** 再次调用 **xlAbort** 函数来清除该条件，尽管命令结束时，Excel隐式清除此条件。
   
 ## <a name="see-also"></a>另请参阅
 

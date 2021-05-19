@@ -25,7 +25,7 @@ ms.locfileid: "33419133"
   
 ## <a name="syntax"></a>语法
 
-CONTAINERCOUNT ()
+CONTAINERCOUNT () 
   
 ### <a name="return-value"></a>返回值
 

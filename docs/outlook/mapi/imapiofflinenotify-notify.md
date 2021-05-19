@@ -37,15 +37,15 @@ void STDMETHODCALLTYPE Notify(
 
  _pNotifyInfo_
   
-> 实时Outlook 发送到客户端的通知。 通知指示已更改的连接状态部分、旧的连接状态和新的连接状态。
+> [in]客户端Outlook发送的通知。 通知指示已更改的连接状态部分、旧连接状态和新连接状态。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-Outlook 使用此方法向客户端发送通知回调。 若要使此接口可用于 Microsoft outlook 2010 或 microsoft outlook 2013, 客户端必须实现此接口, 并在设置使用 IMAPIOfflineMgr:: 建议的回调时, 将指针作为**[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** 中的成员传递给该接口**[::!](imapiofflinemgr-advise.md)**. 
+Outlook使用此方法向客户端发送通知回调。 若要使此接口对 Microsoft Outlook 2010 或 Microsoft Outlook 2013 可用，客户端必须在使用 **[IMAPIOfflineMgr：：Advise](imapiofflinemgr-advise.md)** 设置回调时，实现此接口，并作为 **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** 中的成员传递指向该接口的指针。 
   
-客户端还会传递给**MAPIOFFLINE_ADVISEINFO**一个客户端令牌, outlook 2010 或 outlook 2013 在 IMAPIOfflineNotify 中使用 **:: Notify**标识为通知回调注册的客户端。 
+客户端还会 **向** MAPIOFFLINE_ADVISEINFO传递一个客户端令牌，Outlook 2010 或 Outlook 2013 使用 **IMAPIOfflineNotify：：Notify** 标识为通知回调注册的客户端。 
   
-通常情况下, outlook 2010 和 outlook 2013 可以通知客户端的联机/脱机更改和其他连接状态更改, 但脱机状态 API 仅支持联机/脱机更改的通知。 客户端必须忽略所有其他通知。
+通常，Outlook 2010 和 Outlook 2013 可以通知客户端联机/脱机更改和其他连接状态更改，但脱机状态 API 仅支持联机/脱机更改通知。 客户端必须忽略所有其他通知。
   
 ## <a name="see-also"></a>另请参阅
 

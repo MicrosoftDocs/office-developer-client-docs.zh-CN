@@ -25,13 +25,13 @@ ms.locfileid: "33415843"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供调用 OLE 方法**IUnknown:: Release**的另一种方法。 
+提供另一种调用 OLE 方法 **IUnknown：：Release 的方法**。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 ULONG UlRelease(
@@ -43,26 +43,26 @@ ULONG UlRelease(
 
  _punk_
   
-> 实时指向从**IUnknown**接口派生的接口的指针, 换句话说, 是任何 MAPI 接口。 
+> [in]指向从 **IUnknown** 接口派生的接口的指针，即任何 MAPI 接口。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。 
+> 调用成功并返回了预期值。 
     
 MAPI_E_CALL_FAILED 
   
-> 意外或未知来源的错误阻止操作完成。
+> 意外或未知来源的错误阻止了操作完成。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-引用计数是指向要释放的对象的现有指针的数目。 
+引用计数是指向要释放的对象的现有指针数。 
   
-如果_punk_参数为 NULL, 则该函数将立即返回, 而不调用**IUnknown:: Release**
+如果  _punk_ 参数为 NULL，函数将立即返回，而不调用 **IUnknown：：Release**
   
- **UlRelease**返回由**IUnknown:: Release**方法返回的值, 它可以等于要释放的对象的引用数。 
+ **UlRelease** 返回 **IUnknown：：Release** 方法返回的值，该值可以等于要释放的对象的引用计数。 
   
-有关**IUnknown:: Release**的详细信息, 请参阅[实现 IUnknown 接口](implementing-the-iunknown-interface.md)。 
+有关 **IUnknown：：Release** 有关详细信息，请参阅 [实现 IUnknown 接口](implementing-the-iunknown-interface.md)。 
   
 

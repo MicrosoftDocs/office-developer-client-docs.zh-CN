@@ -24,7 +24,7 @@ ms.locfileid: "33409886"
 
 OPENSHEETWIN( )
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 在 Visio 的早期版本中，此函数以 _OPENSHEETWIN 的形式出现。Visio 4.0 版和更高版本接受这两种样式中的任意一种。 
   

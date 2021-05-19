@@ -22,17 +22,17 @@ ms.locfileid: "33410082"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-可从 DLL 或 XLL 命令调用, 该命令本身已由 Microsoft Excel 调用。 这相当于从 Excel XLM 宏表中调用 "**注销**"。 
+可以从 DLL 或 XLL 命令调用，该命令本身已由 Microsoft Excel。 这相当于从 XLM 宏表Excel **UNREGISTER。** 
   
-可以在两种形式中调用**xlfUnregister** : 
+**xlfUnregister** 可以两种形式调用： 
   
-- 表单 1: 注销单个命令或函数。
+- 表单 1：取消注册单个命令或函数。
     
-- 窗体 2: 卸载和停用 XLL。
+- 表单 2：卸载和停用 XLL。
     
-在 Form 1 中调用, 此函数可减少以前使用**xlfRegister**或**REGISTER**注册的 DLL 函数或命令的使用次数。 如果使用计数已经为零, 则此函数不起作用。 当 dll 中所有函数的使用计数达到零时, dll 将从内存中卸载。
+此函数在窗体 1 中调用，可以减少以前使用 **xlfRegister** 或 REGISTER 注册的 DLL 函数或命令 **的使用计数**。 如果使用率计数已为零，则此函数不起作用。 当 DLL 中所有函数的使用计数达到零时，DLL 从内存中卸载。
   
-**xlfRegister**(窗体 1) 还定义了一个隐藏名称, 该名称是函数文本参数_pxFunctionText_, 其计算结果为函数或命令的注册 ID。 在注销函数时, 应使用**xlfSetName**删除此名称, 以使函数名称不再由函数向导列出。 有关详细信息，请参阅 [Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)。
+**xlfRegister** (Form 1) 还定义了一个隐藏名称，该名称是函数 text 参数  _pxFunctionText_，计算结果为函数或命令的注册 ID。 在注销函数时，应该使用 **xlfSetName** 删除此名称，以便函数向导不再列出该函数名称。 有关详细信息，请参阅 [Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)。
   
 ```cs
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
@@ -40,21 +40,21 @@ Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
 
 ## <a name="parameters"></a>参数
 
-_pxRegisterId_(**xltypeNum**)
+_pxRegisterId_ (**xltypeNum**) 
   
 要注销的函数的注册 ID。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果成功, 则返回**TRUE** (**xltypeBool**), 否则返回 FALSE。
+如果成功，则返回 **xltypeBool** (TRUE，) 返回 FALSE。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-函数的注册 ID 在首次注册函数时由**xlfRegister**返回。 也可以通过调用[xlfRegisterId 函数](xlfregisterid.md)或[xlfEvaluate 函数](xlfevaluate.md)来获取它。 请注意, 如果函数尚未注册, xlfRegisterId 会尝试注册该函数。 因此, 如果您仅尝试获取 ID 以便注销该函数, 则最好通过将注册名称传递给**xlfEvaluate**来获取它。 如果函数尚未注册, **xlfEvaluate**将失败并 #NAME？误差. 
+函数的注册 ID 由 **xlfRegister** 在首次注册函数时返回。 它还可以通过调用 [xlfRegisterId](xlfregisterid.md) 函数或 [xlfEvaluate](xlfevaluate.md)函数获取。 请注意，如果尚未注册函数，xlfRegisterId 将尝试注册函数。 因此，如果仅尝试获取 ID 以便可以注销 函数，最好将注册的名称传递到 **xlfEvaluate** 来获取它。 如果函数尚未注册 **，xlfEvaluate** 将失败，#NAME？error。 
   
 ## <a name="example"></a>示例
 
-请参阅中`\SAMPLES\GENERIC\GENERIC.C`的**fExit**函数的代码。
+请参阅 中的 **fExit 函数** 代码  `\SAMPLES\GENERIC\GENERIC.C` 。
   
 ```cs
 int WINAPI fExit(void)

@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414765"
 ---
-# <a name="mapiofflinenotify"></a>MAPIOFFLINE_NOTIFY
+# <a name="mapioffline_notify"></a>MAPIOFFLINE_NOTIFY
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-这是连接状态更改的通知。 它指示已更改的连接状态部分、旧的连接状态和新的连接状态。
+这是连接状态更改的通知。 它指示已更改的连接状态部分、旧连接状态和新连接状态。
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**。 
+请参阅 **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**。 
   
 ```cpp
 typedef struct  
@@ -46,11 +46,11 @@ typedef struct
 
  _ulSize_
   
-> **MAPIOFFLINE_NOTIFY**结构的大小。 
+> 结构 **MAPIOFFLINE_NOTIFY** 的大小。 
     
  _NotifyType_
   
-> 通知的类型。 请注意, 仅支持更改连接状态通知;唯一受支持的值是:
+> 通知类型。 请注意，仅支持有关连接状态更改的通知;唯一支持的值是：
     
    - MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START
     
@@ -60,15 +60,15 @@ typedef struct
     
  _ulClientToken_
   
-> 客户端在**[IMAPIOfflineMgr:: 建议](imapiofflinemgr-advise.md)** 的**[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** 结构中定义的令牌。 
+> 由客户端在 **[IMAPIOfflineMgr：：Advise](imapiofflinemgr-advise.md)** **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** 中定义的令牌。 
     
  _ulMask_
   
-> 已更改的连接状态部分。 唯一受支持的值为 MAPIOFFLINE_STATE_OFFLINE_MASK。
+> 已更改的连接状态部分。 唯一支持的值是 MAPIOFFLINE_STATE_OFFLINE_MASK。
     
  _ulStateOld_
   
-> 旧的连接状态。 唯一受支持的值是:
+> 旧连接状态。 唯一支持的值是：
     
    - MAPIOFFLINE_STATE_OFFLINE
     
@@ -76,21 +76,21 @@ typedef struct
     
  _ulStateNew_
   
-> 新的连接状态。 唯一受支持的值是:
+> 新的连接状态。 唯一支持的值是：
     
    - MAPIOFFLINE_STATE_OFFLINE
     
    - MAPIOFFLINE_STATE_ONLINE
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-脱机状态 API 仅支持联机/脱机更改的通知。 在检查实际更改之前, 客户端必须先检查 Outlook 是否返回以下值:
+脱机状态 API 仅支持联机/脱机更改的通知。 在检查实际更改Outlook客户端必须检查是否返回以下值：
   
-1.  *NotifyType*的值为 MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START、MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE 或 MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE。 在这种情况下, 客户端可以假定更改是连接状态更改,*信息*的结构*StateChange* 。 
+1.  *NotifyType*  的值为 MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START、MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE 或 MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE。 在这种情况下，客户端可以假定更改是连接状态更改，  *而 Info*  是  *StateChange 结构*  。 
     
-2.  *ulMask*的值为 MAPIOFFLINE_STATE_OFFLINE_MASK。 在这种情况下, 客户端可以假定更改为联机/脱机连接状态更改, 并可继续检查*ulStateOld*和*ulStateNew* 。 
+2.  *ulMask*  具有值 MAPIOFFLINE_STATE_OFFLINE_MASK。 在这种情况下，客户端可以假定更改是联机/脱机连接状态更改，并可以继续检查  *ulStateOld*  和  *ulStateNew*  。 
     
-Outlook 可能会向客户端通知不受支持的其他更改。 在这种情况下, *NotifyType*不会是前面提到的三个值中的** 任何一个, 否则, 客户端必须忽略*Info*中的其余数据。 
+用户可能会Outlook不支持的其他更改通知客户端。 在这种情况下  *，NotifyType*  不是前面提到的三个值中的任一个值，或者  *ulMask*  不会为 MAPIOFFLINE_STATE_OFFLINE_MASK，并且客户端必须忽略 Info 中的其余  *数据*  。 
   
 ## <a name="see-also"></a>另请参阅
 

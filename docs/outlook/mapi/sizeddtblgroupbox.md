@@ -23,12 +23,12 @@ ms.locfileid: "33419315"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个命名结构, 其中包含一个用于描述分组框控件和一个指定长度的标签的[DTBLGROUPBOX](dtblgroupbox.md)结构。 
+创建一个命名结构，其中包含用于描述分组框控件和指定长度的标签的 [DTBLGROUPBOX](dtblgroupbox.md) 结构。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**DTBLGROUPBOX** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**DTBLGROUPBOX** <br/> |
    
 ```cpp
 SizedDtblGroupBox (n, u)
@@ -44,9 +44,9 @@ _u_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SizedDtblGroupBox**宏允许您在标签的长度已知时定义一个分组框控件。 新结构是使用以下成员创建的: 
+**SizedDtblGroupBox** 宏允许你在标签长度已知时定义分组框控件。 新结构由以下成员创建： 
   
 ```cpp
 DTBLGROUPBOX dtblgroupbox;
@@ -54,7 +54,7 @@ TCHAR lpszLabel[n];
 
 ```
 
-若要将指向**SizedDtblGroupBox**宏的结果结构的指针用作**DTBLGROUPBOX**结构指针, 请执行以下转换: 
+若要将指向 **SizedDtblGroupBox** 宏生成的结构的指针用作 **DTBLGROUPBOX** 结构指针，请执行以下转换： 
   
 ```cpp
 lpDtblGroupBox = (LPDTBLGROUPBOX) &SizedDtblGroupBox;

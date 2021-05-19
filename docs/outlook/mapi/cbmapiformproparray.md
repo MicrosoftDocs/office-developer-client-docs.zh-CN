@@ -25,12 +25,12 @@ ms.locfileid: "33420253"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算包含指定数量的[SMAPIFormProp](smapiformprop.md)结构的现有[SMAPIFormPropArray](smapiformproparray.md)结构中的字节数。 
+计算包含指定数量的[SMAPIFormProp](smapiformprop.md)结构的现有[SMAPIFormPropArray](smapiformproparray.md)结构的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
-|相关结构:  <br/> |**SMAPIFormPropArray** <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
+|相关结构：  <br/> |**SMAPIFormPropArray** <br/> |
    
 ```cpp
 CbMAPIFormPropArray (_c)
@@ -38,9 +38,9 @@ CbMAPIFormPropArray (_c)
 
 ## <a name="parameters"></a>参数
 
- __c_
+ _ _c_
   
-> 有问题的**SMAPIFormPropArray**结构中的**SMAPIFormProp**结构的计数。 
+> SMAPIFormPropArray 结构中有关 **SMAPIFormProp 结构** 计数。  
     
 ## <a name="see-also"></a>另请参阅
 

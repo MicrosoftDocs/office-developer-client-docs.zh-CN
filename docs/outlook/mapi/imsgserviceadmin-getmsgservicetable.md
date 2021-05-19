@@ -25,7 +25,7 @@ ms.locfileid: "33410474"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供对邮件服务表 (配置文件中的邮件服务列表) 的访问权限。
+提供对邮件服务表（配置文件中邮件服务的列表）的访问权限。
   
 ```cpp
 HRESULT GetMsgServiceTable(
@@ -38,23 +38,23 @@ HRESULT GetMsgServiceTable(
 
  _ulFlags_
   
-> 实时始终为 NULL。
+> [in]始终为 NULL。
     
  _lppTable_
   
-> 排除指向邮件服务表的指针的指针。
+> [out]指向指向邮件服务表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功返回邮件服务表。
+> 已成功返回邮件服务表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMsgServiceAdmin:: GetMsgServiceTable**方法提供对邮件服务表的访问, MAPI 维护的表列出了当前安装在会话配置文件中的邮件服务。 有关邮件服务表中的列的完整列表, 请参阅[message service 表](message-service-tables.md)。
+**IMsgServiceAdmin：：GetMsgServiceTable** 方法提供对邮件服务表的访问，该表是 MAPI 维护的一个表，其中列出了会话配置文件中当前安装的邮件服务。 有关邮件服务表中列的完整列表，请参阅 [Message Service Table](message-service-tables.md)。
   
-邮件服务表是静态的。 客户端被授予访问权限后, 后续的邮件服务添加或删除操作不会影响它。 如果当前配置文件中没有任何邮件服务, **GetMsgServiceTable**将返回一个包含零行的表。 
+邮件服务表是静态的。 在客户端获得访问权后，后续邮件服务添加或删除操作将不会影响客户端。 如果当前配置文件中没有任何邮件服务 **，GetMsgServiceTable** 将返回一个包含零行的表。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -62,7 +62,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg  <br/> |CMsgServiceTableDlg:: OnRefreshView  <br/> |MFCMAPI 使用**IMsgServiceAdmin:: GetMsgServiceTable**方法加载要在视图中呈现的配置文件中的服务表。  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg：：OnRefreshView  <br/> |MFCMAPI 使用 **IMsgServiceAdmin：：GetMsgServiceTable** 方法在配置文件中加载要呈现在视图中的服务表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

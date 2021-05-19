@@ -21,38 +21,38 @@ ms.locfileid: "33420928"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在保存邮件之前, 客户端通常会调用邮件的[IMAPIProp:: SetProps](imapiprop-setprops.md)方法, 以设置除邮件文本属性、附件属性、 **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 和属性之外的一些属性。与收件人列表相关联。
+在保存邮件之前，客户端通常调用邮件的 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法来设置邮件文本属性、附件属性 **、PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 以及与收件人列表关联的属性。
   
-将**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性设置为字符串 (如 IPM.)。请注意, 说明传出邮件的类。 虽然客户端应在所有传出邮件上设置**PR_MESSAGE_CLASS** , 但如果您不设置它, 则邮件存储提供程序将提供默认值。 待发邮件的默认邮件类为 IPM。 
+将 **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性设置为字符串（如 IPM）。请注意，描述传出邮件的类。 尽管客户端应 **PR_MESSAGE_CLASS** 所有传出邮件设置默认值，但是如果未设置，则由邮件存储提供程序提供默认值。 传出邮件的默认邮件类别为 IPM。 
   
-在**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性中设置 MSGFLAG_UNSENT 标志。 如果需要, 还可以设置 MSGFLAG_READ 和 MSGFLAG_UNMODIFIED 标志。 设置 MSGFLAG_UNMODIFIED 允许撰写一封邮件, 以模拟已传递的邮件。 仅在首次保存邮件之前, 客户端才能设置 MSGFLAG_UNMODIFIED。 
+设置 MSGFLAG_UNSENT [PidTagMessageFlags](pidtagmessageflags-canonical-property.md) PR_MESSAGE_FLAGS (标记) 标记。  如果需要，还要设置MSGFLAG_READ和MSGFLAG_UNMODIFIED标志。 设置MSGFLAG_UNMODIFIED允许组合下的邮件模拟传递的邮件。 MSGFLAG_UNMODIFIED第一次保存邮件之前，客户端才能设置该设置。 
   
-当您准备好为未发送的邮件创建永久副本时, 请在邮件及其所有附件上调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md) 。 如果要立即发送邮件, 则无需调用**SaveChanges**。 对**SubmitMessage**的调用会在其处理过程中保存邮件。 
+准备好制作未发送邮件的永久副本时，请对邮件及其所有附件调用[IMAPIProp：：SaveChanges。](imapiprop-savechanges.md) 如果打算立即发送邮件，则无需调用 **SaveChanges**。 调用 **SubmitMessage** 会将邮件保存为邮件处理的一部分。 
   
-调用**SaveChanges**时, 最好指定 KEEP_OPEN_READWRITE 标志, 这将允许在以后修改该邮件。 其他可设置的标志包括 FORCE_SAVE, 这表示在提交更改后应关闭邮件或附件, KEEP_OPEN_READONLY (指示不会进行进一步的更改) 以及允许邮件存储提供程序的标志批处理客户端请求, MAPI_DEFERRED_ERRORS。
+调用 **SaveChanges** 时，建议指定 KEEP_OPEN_READWRITE 标记，以允许在以后修改邮件。 其他可设置的标志包括 FORCE_SAVE（指示提交更改后应关闭邮件或附件）和 KEEP_OPEN_READONLY（指示不会进行进一步更改）和用于允许邮件存储提供程序批处理客户端请求的标志 MAPI_DEFERRED_ERRORS。
   
-在调用消息的**savechanges**之前, 对邮件中的每个附件调用**savechanges**是非常重要的。 如果无法保存附件, 则邮件在发送时不会包含在邮件中, 并且不会显示在邮件的附件表中。 如果保存所有附件后无法保存邮件, 则邮件和附件都将丢失。 
+为邮件调用 **SaveChanges** 之前，必须针对邮件中每个附件调用 **SaveChanges。** 如果无法保存附件，则邮件发送时不会包含附件，并且附件不会显示在邮件的附件表中。 如果在保存所有附件后无法保存邮件，邮件和附件都将丢失。 
   
-调用**SaveChanges**时, 邮件存储提供程序将更新以下属性: 
+调用 **SaveChanges** 时，邮件存储提供程序将更新以下属性： 
   
-- **PR_DISPLAY_TO**([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) 列出所有主要收件人。
+- **PR_DISPLAY_TO (** [PidTagDisplayTo)](pidtagdisplayto-canonical-property.md) 列出所有主收件人。
     
-- **PR_DISPLAY_TO**列出所有抄送收件人。 
+- **PR_DISPLAY_TO** 列出所有抄稿收件人。 
     
-- **PR_DISPLAY_BCC**([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) 列出所有密件抄送收件人。
+- **PR_DISPLAY_BCC (** [PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) 列出所有抄送收件人。
     
-- **操作**([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))
+- **PR_LAST_MODIFICATION_TIME (** [PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md)) 
     
-- 如果保存了一个或多个附件并清除 MSGFLAG_UNMODIFIED 以显示邮件已更改, 则**PR_MESSAGE_FLAGS**将设置 MSGFLAG_HASATTACH。 
+- **PR_MESSAGE_FLAGS** 设置MSGFLAG_HASATTACH一个或多个附件，并清除MSGFLAG_UNMODIFIED显示邮件已更改的附件。 
     
-- **PR_MESSAGE_SIZE**([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) 包含最新的邮件大小。
+- **PR_MESSAGE_SIZE (** [PidTagMessageSize](pidtagmessagesize-canonical-property.md)) 包含邮件的当前大小。
     
-- **PR_MESSAGE_ATTACHMENTS**([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) 提供对附件表的访问权限。
+- **PR_MESSAGE_ATTACHMENTS (** [PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) 提供对附件表的访问。
     
-- **PR_MESSAGE_RECIPIENTS**([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 提供对收件人表的访问权限。
+- **PR_MESSAGE_RECIPIENTS (** [PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 提供对收件人表的访问。
     
-某些邮件属性通常由客户端或服务提供商在创建邮件时提供。 如果客户端在对其进行设置, 则在调用**SaveChanges**时, 将由邮件存储提供程序对其进行更新。 例如, 如果在创建邮件时设置了邮件的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 和**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 属性, 则无需在保存时对其进行修改。 但是, 在邮件创建过程中忘记设置它们的邮件存储提供程序必须在第一次调用**SaveChanges**时设置它们。 
+一些邮件属性通常由客户端或服务提供商在邮件创建时提供。 如果客户端没有设置它们，则由消息存储提供程序在调用 **SaveChanges** 时更新它们。 例如，如果在创建邮件时设置了邮件的 **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 和 **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 属性，则无需在保存时修改这些属性。 但是，在邮件创建时忽略设置它们的邮件存储提供程序必须在首次调用 **SaveChanges 时** 设置它们。 
   
-如果**SaveChanges**返回 MAPI_E_CORRUPT_DATA, 则假定要保存的数据现在已丢失。 将客户端-服务器模型用于实施的邮件存储提供程序可能会在网络连接丢失或服务器未运行时返回此值。 在向用户返回错误之前, 请先调用**SetProps**并再次调用**SaveChanges**, 以再次写入并保存数据。 如果数据在本地缓存, 则不会出现问题。 但是, 如果没有本地缓存或第二个**SaveChanges**调用失败, 则显示一个错误, 提醒用户出现该问题。 
+如果 **SaveChanges** 返回MAPI_E_CORRUPT_DATA，则假定正在保存的数据现已丢失。 当网络连接丢失或服务器未运行时，使用客户端-服务器模型实现的消息存储提供程序可能会返回此值。 在向用户返回错误之前，尝试再次写入并保存数据，方法为调用 **SetProps，** 然后再次调用 **SaveChanges**。 如果在本地缓存数据，这应该不会是问题。 但是，如果没有本地缓存或第二个 **SaveChanges** 调用失败，则显示一个错误以提醒用户该问题。 
   
 

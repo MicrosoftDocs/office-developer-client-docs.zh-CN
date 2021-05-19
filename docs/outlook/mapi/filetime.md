@@ -25,11 +25,11 @@ ms.locfileid: "33409501"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-保留文件的无符号64位日期和时间值。 此值表示自1601年1月1日开始起的100毫微秒单位的数量。 
+保留文件的未签名 64 位日期和时间值。 此值表示自 1601 年 1 月 1 日开始以来 100 纳秒单位的数量。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _FILETIME
@@ -44,17 +44,17 @@ typedef struct _FILETIME
 
  **dwLowDateTime**
   
-> 文件时间值的低序位32位。 
+> 文件时间值的低顺序 32 位。 
     
  **dwHighDateTime**
   
-> 文件时间值的高序位32位。
+> 文件时间值的 32 位高顺序值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-PT_SYSTIME 类型的属性具有其值的**FILETIME**结构。 此类属性的**值**成员在[SPropValue](spropvalue.md)结构中的定义中有一个**FILETIME**数据类型。 
+类型为 PT_SYSTIME其值具有 **FILETIME** 结构。 此类属性具有 **FILETIME** 数据类型在 [SPropValue](spropvalue.md)结构中的定义中为 **Value** 成员定义。 
   
-**FILETIME**结构的定义位于_Win32 程序员参考_和 MAPI 头文件 mapidefs.h 中。 MAPI 定义有条件的结构, 以确保在 Win32 定义不可用时定义它。 
+**FILETIME** 结构的定义位于 _Win32 程序员_ 参考和 MAPI 头文件 Mapidefs.h 中。 MAPI 有条件地定义结构，以确保它在 Win32 定义不可用时定义。 
   
 ## <a name="see-also"></a>另请参阅
 

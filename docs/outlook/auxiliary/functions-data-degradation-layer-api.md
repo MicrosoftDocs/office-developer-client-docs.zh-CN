@@ -1,5 +1,5 @@
 ---
-title: 函数 (数据降级层 API)
+title: '数据 (层 API 模型) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420484"
 ---
-# <a name="functions-data-degradation-layer-api"></a>函数 (数据降级层 API)
+# <a name="functions-data-degradation-layer-api"></a>数据 (层 API 模型) 
 
 本节介绍数据降级层 API 中的函数。
   
 |**函数**|**说明**|
 |:-----|:-----|
-|[HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) <br/> |创建一个客户端可以以首选字符格式访问的对象。  <br/> |
+|[HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) <br/> |创建客户端可以使用首选字符格式访问的对象。  <br/> |
    
 

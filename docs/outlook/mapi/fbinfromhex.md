@@ -29,9 +29,9 @@ ms.locfileid: "33414933"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 BOOL FBinFromHex(
@@ -44,11 +44,11 @@ BOOL FBinFromHex(
 
  _sz_
   
-> 实时指向要转换的以 null 结尾的 ASCII 字符串的指针。 它不是 Unicode 字符串。 有效字符包括从零到九的十六进制字符和从 A 到 F 的大写和小写字符。
+> [in]指向要转换的以 null 结尾的 ASCII 字符串的指针。 这不是 Unicode 字符串。 有效字符包括从 0 到 9 的十六进制字符以及大写和小写字符 A 到 F。
     
  _pb_
   
-> 排除指向返回的二进制数的指针。
+> [out]指向返回的二进制数的指针。
     
 ## <a name="return-value"></a>返回值
 

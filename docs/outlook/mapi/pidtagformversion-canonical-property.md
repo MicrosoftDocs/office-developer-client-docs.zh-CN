@@ -32,23 +32,23 @@ ms.locfileid: "33409865"
 |相关属性：  <br/> |PR_FORM_VERSION、PR_FORM_VERSION_A、PR_FORM_VERSION_W  <br/> |
 |标识符:  <br/> |0x3301  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |MAPI 通用  <br/> |
+|区域：  <br/> |MAPI common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-这些属性指示当前对窗体有效的设计版本。 版本由窗体的设计器定义和维护, 并不一定与任何 MAPI 组件版本相关。 
+这些属性指示当前对表单生效的设计版本。 版本由表单的设计器定义和维护，不一定与任何 MAPI 组件版本相关。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

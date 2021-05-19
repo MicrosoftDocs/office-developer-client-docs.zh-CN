@@ -25,7 +25,7 @@ ms.locfileid: "33420288"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 ASN. 1 提交价值证明。
+包含 ASN.1 提交值的证明。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33420288"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性对应于每封邮件一个 X 400 提交信封属性。
+此属性对应于每封邮件的 X.400 提交信封属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

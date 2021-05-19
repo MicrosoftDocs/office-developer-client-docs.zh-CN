@@ -25,11 +25,11 @@ ms.locfileid: "33410957"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-描述 MAPI 谓词。
+描述 MAPI 动词。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct
@@ -47,31 +47,31 @@ typedef struct
 
  **lVerb**
   
-> 表示传递给 IMAPIForm 的谓词的代码[::D overb](imapiform-doverb.md)。 标准动作是在头文件 Exchform 中定义的。
+> 表示传递给 [IMAPIForm：:D oVerb 谓词的代码](imapiform-doverb.md)。 标准动作在头文件 Exchform.h 中定义。
     
  **szVerbname**
   
-> 显示在 "表单" 菜单上的动作的显示名称。
+> 在窗体菜单上显示动词的显示名称。
     
  **fuFlags**
   
-> 谓词的标志。
+> 动词标记。
     
  **grfAttribs**
   
-> 谓词的属性。 
+> 动词动作的属性。 
     
  **ulFlags**
   
-> 指示谓词的显示名称格式的标志。 可以设置以下标志:
+> 指示动词动词的用法格式显示名称。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 显示名称为 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则显示名称为 ANSI 格式。
+> 该显示名称采用 Unicode 格式。 如果未MAPI_UNICODE，则显示名称为 ANSI 格式。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在以下方法中, **SMAPIVerb**结构作为参数传递: 
+**SMAPIVerb** 结构在下列方法中作为参数传递： 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     

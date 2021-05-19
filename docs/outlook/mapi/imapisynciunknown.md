@@ -25,22 +25,22 @@ ms.locfileid: "33405589"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供用于同步电子邮件而不是使用传输 API 的机制。 此接口在 store 对象上公开。 通过使用此接口和[IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md), 传输提供程序可以提供比 Microsoft Outlook 中的 "发送/接收" 对话框中显示的内容更好的进度和错误消息。
+提供用于同步电子邮件而不是使用传输 API 的机制。 此接口在存储对象上公开。 通过使用此接口和 [IMAPISyncProgressCallback ： IUnknown，](imapisyncprogresscallbackiunknown.md)传输提供程序可以提供比在 Microsoft Outlook 的发送/接收对话框中显示更好的进度和错误消息。
   
-发件箱仍在默认存储中。 Outlook 将继续使用传输 api 发送邮件, 因为传出邮件不能位于外部存储中。
+发件箱仍在默认存储中。 Outlook 将继续使用传输 API 发送邮件，因为传出邮件不能保存在外部存储中。
   
 |||
 |:-----|:-----|
-|公开者:  <br/> |存储和传输提供程序  <br/> |
+|公开者：  <br/> |存储和传输提供程序  <br/> |
 |实现者：  <br/> |Outlook  <br/> |
 |调用者：  <br/> |存储和传输提供程序  <br/> |
-|接口标识符:  <br/> |IID_IMAPISync  <br/> |
+|接口标识符：  <br/> |IID_IMAPISync  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |由邮件存储提供程序实现。 此方法由 outlook 2010 和 outlook 2013 调用以启动同步。  <br/> |
+|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |由邮件存储提供程序实现。 Outlook 2010 和 Outlook 2013 调用此方法以启动同步。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

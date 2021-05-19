@@ -25,30 +25,30 @@ ms.locfileid: "33419644"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-实现为客户端应用程序提供进度指示器的进度对象。 进度指示器是显示操作完成百分比的用户界面显示, 如在邮件存储之间复制文件夹。 MAPI 和客户端应用程序实施进度对象, 服务提供程序使用它们。 
+实现一个进度对象，该对象为客户端应用程序提供进度指示器。 进度指示器是显示操作完成百分比的用户界面显示，例如复制邮件存储之间的文件夹。 MAPI 和客户端应用程序实现进度对象，服务提供商使用它们。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|公开者:  <br/> |进度对象  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|公开者：  <br/> |进度对象  <br/> |
 |实现者：  <br/> |MAPI 和客户端应用程序  <br/> |
 |调用者：  <br/> |服务提供程序  <br/> |
-|接口标识符:  <br/> |IID_IMAPIProgress  <br/> |
-|指针类型:  <br/> |LPMAPIPROGRESS  <br/> |
+|接口标识符：  <br/> |IID_IMAPIProgress  <br/> |
+|指针类型：  <br/> |LPMAPIPROGRESS  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[Progress](imapiprogress-progress.md) <br/> |将进度指示器更新为在完成操作时显示进度。  <br/> |
-|[GetFlags](imapiprogress-getflags.md) <br/> |返回用于计算进度信息的操作级别的进度对象中的标志设置。  <br/> |
-|[GetMax](imapiprogress-getmax.md) <br/> |返回显示其进度信息的操作中的最大项目数。  <br/> |
-|[GetMin](imapiprogress-getmin.md) <br/> |返回显示其进度信息的[SetLimits](imapiprogress-setlimits.md)方法中的最小值。  <br/> |
-|[SetLimits](imapiprogress-setlimits.md) <br/> |为操作中的项目数以及控制如何为操作计算进度信息的标志设置上限和下限。  <br/> |
+|[Progress](imapiprogress-progress.md) <br/> |更新进度指示器，并显示在操作完成时的进度。  <br/> |
+|[GetFlags](imapiprogress-getflags.md) <br/> |从计算进度信息的操作级别的进度对象中返回标志设置。  <br/> |
+|[GetMax](imapiprogress-getmax.md) <br/> |返回操作中显示其进度信息的最大项目数。  <br/> |
+|[GetMin](imapiprogress-getmin.md) <br/> |返回 [SetLimits](imapiprogress-setlimits.md) 方法中显示进度信息的最小值。  <br/> |
+|[SetLimits](imapiprogress-setlimits.md) <br/> |设置操作中项数的下限和上限，以及控制如何计算操作进度信息的标志。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-MAPI 在许多方法中都包含_lpProgress_参数, 这些方法执行可能的漫长操作。  _lpProgress_指向进度对象的客户端实现。 实现**IMAPIProgress**接口的客户端将此参数设置为指向其实现;未实现**IMAPIProgress**的客户端将参数设置为 NULL。 若要在操作的过程中显示进度指示器, 服务提供程序使用客户端提供的进度对象 (如果有) 或 MAPI 实现 (当_lpProgress_设置为 NULL 时指示)。 
+MAPI 在很多执行可能过长操作的方法中包含  _lpProgress_ 参数。  _lpProgress_ 指向进度对象的客户端实现。 实现 **IMAPIProgress 接口** 的客户端设置此参数以指向其实现;不实现 **IMAPIProgress 的客户端将** 参数设置为 NULL。 若要在处理操作期间显示进度指示器，服务提供商将使用客户端提供的进度对象（如果可用）或 MAPI 实现 (当  _lpProgress_ 设置为 NULL) 。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -56,7 +56,7 @@ MAPI 在许多方法中都包含_lpProgress_参数, 这些方法执行可能的�
   
 |**Files**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MapiProgress 和 MapiProgress  <br/> |不适用  <br/> |如果启用了 IMAPIProgress 设置, MFCMAPI 将向 MFCMAPI 调用的接受实现的所有函数传递**IMAPIProgress**实现。  <br/> |
+|MapiProgress.h 和 MapiProgress.cpp  <br/> |不适用  <br/> |如果启用了 IMAPIProgress 设置，则 MFCMAPI 将 **IMAPIProgress** 实现传递给 MFCMAPI 调用接受实现的所有函数。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

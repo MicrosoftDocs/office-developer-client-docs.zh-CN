@@ -21,40 +21,40 @@ ms.locfileid: "33410453"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-**attMAPIProps**属性是特别的, 因为它可用于对在现有 TNEF 定义的属性集中没有对应属性的任何 MAPI 属性进行编码。 属性数据是按端到端排列的一组已计数的 MAPI 属性。 此编码的格式 (允许任何 MAPI 属性集) 如下所示:  
+**attMAPIProps** 属性很特殊，可用于对现有的 TNEF 定义属性集内没有对应属性的任何 MAPI 属性进行编码。 属性数据是一组端到端布置的 MAPI 属性。 此编码的格式允许任意一组 MAPI 属性，如下所示：  
   
- _Property_Seq:_
+ _Property_Seq：_
   
-> 属性计数_Property_Value,..._
+> 属性计数  _Property_Value,..._
     
-必须有与属性-count 值指示的_Property_Value_项目数。 
+必须存在与属性  _Property_Value_ 值指示的项数一样多。 
   
- _Property_Value:_
+ _Property_Value：_
   
-> 属性标记 _Property_property-tag _Proptag_Name 属性_
+> property-tag _Property_property-tag  _Proptag_Name Property_
     
-属性标记只是与属性标识符关联的值, 如 0x0037001F for **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))。
+property-tag 只是与属性标识符关联的值，例如 0x0037001F **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 。
   
- _财产_
+ _属性：_
   
->  _值_值-计数_值,..._
+>  _值_ 值计数  _值,..._
     
  _值：_
   
-> 值-数据值大小值-数据填充值-IID 值-数据填充
+> value-data value-size value-data padding value-size value-IID value-data padding
     
- _Proptag_Name:_
+ _Proptag_Name：_
   
-> name-guid 名称-种类名称-id name-guid 名称-种类名称-字符串长度名称-字符串填充
+> name-guid name-kind name-id name-guid name-kind name-string-length name-string padding
     
-每个属性的封装根据属性标识符和属性类型的不同而有所不同。 属性标记、标识符和类型是在 Mapitags 和 mapidefs.h 头文件中定义的。
+每个属性的封装因属性标识符和属性类型而异。 属性标记、标识符和类型在 Mapitags.h 和 Mapidefs.h 头文件中定义。
   
-如果属性为命名的属性, 则该属性标记后紧跟 MAPI 属性名称, 由全局唯一标识符 (GUID)、类型以及标识符或 Unicode 字符串组成。
+如果该属性是命名属性，则属性标记后紧跟 MAPI 属性名称，由全局唯一标识符 (GUID) 、类型以及标识符或 Unicode 字符串组成。
   
-多值属性和具有可变长度值的属性 (如 PT_BINARY、PT_STRING8、PT_UNICODE 或 PT_OBJECT 属性类型) 按以下方式处理。 首先, 将编码为32位无符号长的值的数目放在 TNEF 流中, 后跟各个值。 每个属性的值数据都以字节为单位的大小, 后跟值数据本身。 将值数据填充到4字节边界, 尽管填充量不包含在 value-size 中。
+使用可变长度值（如 PT_BINARY、PT_STRING8、PT_UNICODE 或 PT_OBJECT 属性类型）的多值属性和属性将按以下方式处理。 首先，编码为 32 位无符号长的值数放置在 TNEF 流中，后跟各个值。 每个属性的值数据都编码为大小（以字节为单位）后跟值数据本身。 尽管值大小中不包含填充量，但值数据将填充到 4 字节边界。
   
-如果属性的类型为 PT_OBJECT, 则值大小后跟对象的接口标识符。 当前的 TNEF 实现仅支持 IID_IMessage、IID_IStorage 和 IID_Istream 接口标识符。 接口标识符的大小包含在值大小中。
+如果属性的类型为 PT_OBJECT，则值大小后跟对象的接口标识符。 TNEF 的当前实现仅支持IID_IMessage、IID_IStorage和IID_Istream标识符。 接口标识符的大小包含在值大小中。
   
-如果对象是嵌入的邮件 (即, 它的属性类型为 PT_OBJECT, 接口标识符为 IID_Imessage), 则将值数据编码为嵌入的 TNEF 流。 通过打开原始流的第二个 TNEF 对象并以内嵌方式处理流, 可以完成 TNEF 实现中嵌入邮件的实际编码。
+如果对象是嵌入 (，即其属性类型为 PT_OBJECT 且接口标识符为 IID_Imessage) ，则值数据将编码为嵌入的 TNEF 流。 在 TNEF 实现中，嵌入邮件的实际编码通过为原始流打开第二个 TNEF 对象并内联处理流完成。
   
 

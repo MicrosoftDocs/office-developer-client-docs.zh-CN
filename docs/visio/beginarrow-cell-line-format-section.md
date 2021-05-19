@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm51105
 localization_priority: Normal
 ms.assetid: 0ab4044e-2d77-1fbe-ef20-5d029bc064ba
-description: 指明线条的第一个顶点是否有箭头或其他线端格式。 输入介于 0 到 45 之间的数字或带有自定义线端名的 USE 函数，或使用“线条”对话框。
+description: 指明线条的第一个顶点是否有箭头或其他线端格式。输入介于 0 到 45 之间的数字或带有自定义线端名的 USE 函数，或使用“线条”对话框。
 ms.openlocfilehash: cf5a512dabd0e6296b83fa7bfd2a2a6134143d50
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "33410292"
 | 0  <br/> | 无箭头。  <br/> |
 | 1 - 45  <br/> | 各种类型的箭头样式，与 **“线条”** 对话框中的索引项相对应。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 箭头的大小在 BeginArrowSize 单元格中设置。
   

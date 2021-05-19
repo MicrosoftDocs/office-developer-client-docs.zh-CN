@@ -25,7 +25,7 @@ ms.locfileid: "33415129"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-检索个人文件夹 (.pst) 文件的注册列表。
+检索个人文件夹的注册列表 (.pst) 文件。
   
 ```cpp
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
@@ -35,10 +35,10 @@ HRESULT GetPersistedRegistration(SPropValue **ppmval);
 
  _ppmval_
   
-> 实时指向指向[SPropValue](spropvalue.md)结构的指针的指针。 此结构的 ulPropTag 成员的类型为 PT_MV_UNICODE, MVszW 值 member 将是以 null 结尾的 UNICODE 字符串的数组。 这些字符串是指向已保留注册的 dll 的路径。 
+> [in]指向指向 [SPropValue 结构的指针的](spropvalue.md) 指针。 此结构的 ulPropTag 成员的类型为 PT_MV_UNICODE，MVszW 值成员将为以 null 终止的 Unicode 字符串数组。 这些字符串是一直保留注册的 DLL 的路径。 
     
 > [!NOTE]
-> 未实现 ANSI 的 .pst 支持。 
+> 未实现对 ANSI 的 .pst 支持。 
   
 ## <a name="return-value"></a>返回值
 

@@ -40,31 +40,31 @@ HRESULT ChangeProfilePassword(
 
  _lpszProfileName_
   
-> 实时一个指针, 指向与要更改的密码关联的配置文件的名称。
+> [in]指向与要更改的密码关联的配置文件的名称的指针。
     
  _lpszOldPassword_
   
-> 实时指向当前密码的指针。
+> [in]指向当前密码的指针。
     
  _lpszNewPassword_
   
-> 实时指向新密码的指针。
+> [in]指向新密码的指针。
     
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制传入的字符串的类型。 可以设置以下标志:
+> [in]控制传入字符串类型的标志位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 配置文件名称和密码采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则这些字符串将采用 ANSI 格式。
+> 配置文件名称和密码采用 Unicode 格式。 如果未MAPI_UNICODE，则这些字符串采用 ANSI 格式。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 如果调用此方法, 它将返回 S_OK。 但是, 不会执行任何操作。
+> 如果调用此方法，它将返回S_OK。 但是，不会执行任何操作。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 请勿使用此方法。 MAPI 不支持配置文件的密码。
   

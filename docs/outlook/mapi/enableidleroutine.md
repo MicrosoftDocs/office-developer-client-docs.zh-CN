@@ -25,13 +25,13 @@ ms.locfileid: "33410219"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-启用或禁用基于[FNIDLE](fnidle.md)的空闲例程。 
+启用或禁用基于 [FNIDLE](fnidle.md) 的空闲例程。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 VOID EnableIdleRoutine(
@@ -44,11 +44,11 @@ VOID EnableIdleRoutine(
 
  _ftg_
   
-> 实时用于标识要启用或禁用的空闲例程的 Function 标记。 
+> [in]标识要启用或禁用的空闲例程的函数标记。 
     
  _fEnable_
   
-> 实时如果空闲引擎应启用空闲例程, 则为 TRUE, 否则为 FALSE (如果它应禁用)。
+> [in]如果空闲引擎应启用空闲例程，则包含 TRUE;如果应禁用该例程，则包含 FALSE。
     
 ## <a name="return-value"></a>返回值
 
@@ -56,19 +56,19 @@ VOID EnableIdleRoutine(
   
 ## <a name="remarks"></a>说明
 
-以下函数处理 MAPI 空闲引擎和基于[FNIDLE](fnidle.md)函数原型的空闲例程: 
+以下函数基于 [FNIDLE](fnidle.md) 函数原型处理 MAPI 空闲引擎和空闲例程： 
   
-|**Idle 例程函数**|**使用**|
+|**空闲例程函数**|**使用情况**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |更改已注册的空闲例程的特征。  <br/> |
-|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |从 MAPI 系统中删除已注册的空闲例程。  <br/> |
-|**EnableIdleRoutine** <br/> |禁用或重新启用已注册的空闲例程, 而不将其从 MAPI 系统中删除。  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |将空闲例程添加到 MAPI 系统中 (无论是否启用)。  <br/> |
-|[MAPIDeInitIdle](mapideinitidle.md) <br/> |关闭呼叫应用程序的 MAPI 空闲引擎。  <br/> |
+|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |从 MAPI 系统中删除注册的空闲例程。  <br/> |
+|**EnableIdleRoutine** <br/> |禁用或重新启用注册的空闲例程，而不将其从 MAPI 系统中删除。  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |将空闲例程添加到 MAPI 系统，启用或不启用它。  <br/> |
+|[MAPIDeInitIdle](mapideinitidle.md) <br/> |关闭调用应用程序的 MAPI 空闲引擎。  <br/> |
 |[MAPIInitIdle](mapiinitidle.md) <br/> |初始化调用应用程序的 MAPI 空闲引擎。  <br/> |
    
- **ChangeIdleRoutine**、 **DeregisterIdleRoutine**和**EnableIdleRoutine**采用**FtgRegisterIdleRoutine**返回的函数标记作为输入参数。 
+ ChangeIdleRoutine、DeregisterIdleRoutine 和 **EnableIdleRoutine** 将 **FtgRegisterIdleRoutine** 返回的函数标记作为输入参数。  
   
-当平台的所有前台任务都变为空闲时, MAPI 空闲引擎将调用准备执行的最高优先级空闲例程。 在具有相同优先级的空闲例程之间, 不能保证呼叫顺序。 
+当平台的所有前台任务变为空闲时，MAPI 空闲引擎将调用已准备好执行的最高优先级空闲例程。 无法保证在优先级相同的空闲例程之间调用顺序。 
   
 

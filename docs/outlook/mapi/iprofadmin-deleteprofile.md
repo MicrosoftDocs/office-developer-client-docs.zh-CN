@@ -38,11 +38,11 @@ HRESULT DeleteProfile(
 
  _lpszProfileName_
   
-> 实时指向要删除的配置文件的名称的指针。
+> [in]指向要删除的配置文件的名称的指针。
     
  _ulFlags_
   
-> 实时始终为 NULL。 
+> [in]始终为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
@@ -54,11 +54,11 @@ MAPI_E_NOT_FOUND
   
 > 指定的配置文件不存在。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IProfAdmin::D eleteprofile**方法删除配置文件。 如果调用**DeleteProfile**时正在使用要删除的配置文件, 则**DeleteProfile**将返回 S_OK, 但不会立即删除该配置文件。 相反, **DeleteProfile**将该配置文件标记为删除, 并在它不再使用后将其删除, 并在所有活动会话结束后将其删除。 
+**IProfAdmin：:D eleteProfile** 方法删除配置文件。 如果在调用 **DeleteProfile** 时要使用要删除的配置文件 **，DeleteProfile** S_OK但不会立即删除该配置文件。 但 **DeleteProfile** 会标记配置文件进行删除，并在其所有活动会话结束时在不再使用配置文件后将其删除。 
   
-将使用_ulContext_参数中设置的 MSG_SERVICE_DELETE 值调用配置文件中每个邮件服务的入口点函数。 首先, 函数删除该服务, 然后删除该服务的配置文件部分。 删除服务后, 不会再次调用邮件服务入口点函数。 
+使用  _ulContext_ 参数中设置的 MSG_SERVICE_DELETE 调用配置文件中每个邮件服务的入口点函数。 首先，函数删除服务，然后删除服务的配置文件部分。 在删除邮件服务后，不会再次调用邮件服务入口点函数。 
   
 删除配置文件不需要密码。
   
@@ -68,7 +68,7 @@ MAPI_E_NOT_FOUND
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions  <br/> |HrRemoveProfile  <br/> |MFCMAPI 使用**IProfAdmin::D eleteprofile**方法删除选定的配置文件。  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI 使用 **IProfAdmin：:D eleteProfile** 方法删除所选的配置文件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

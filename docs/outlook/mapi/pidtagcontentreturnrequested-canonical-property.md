@@ -25,7 +25,7 @@ ms.locfileid: "33419770"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件应返回 nondelivery 报告, 则该参数包含 TRUE。 
+如果应返回未送达报告的邮件，则包含 TRUE。 
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33419770"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |报告  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果未设置此属性, 则 MAPI 会将其视为具有真正的值。 
+如果未设置此属性，MAPI 会认为该属性具有 TRUE 值。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

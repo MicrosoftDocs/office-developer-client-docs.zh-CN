@@ -23,12 +23,12 @@ ms.locfileid: "33410929"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个包含指定数量的行的命名[SRowSet](srowset.md)结构。 
+创建包含 [指定行数的命名 SRowSet](srowset.md) 结构。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**SRowSet** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**SRowSet** <br/> |
    
 ```cpp
 SizedSRowSet (_crow, _name)
@@ -36,17 +36,17 @@ SizedSRowSet (_crow, _name)
 
 ## <a name="parameters"></a>参数
 
-__鱼尾纹_
+_ _管理_
   
 > 要包含在新结构中的行数的计数。
     
-__名称_
+_ _name_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-若要使用作为指向**SRowSet**结构的指针的**SizedSRowSet**宏生成的新结构, 请执行以下转换: 
+若要使用由 **SizedSRowSet** 宏产生的新结构作为 **指向 SRowSet** 结构的指针，请执行以下转换： 
   
 ```cpp
 lpSRowSet = (LPSRowSet) &SizedSRowSet;

@@ -20,7 +20,7 @@ ms.locfileid: "33420323"
 
 指示输入形状数据值所使用的语言。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 有关 Microsoft Office 系统应用程序所支持的语言的列表，请参阅 [DocLangID](doclangid-cell-document-properties-section.md) 单元格（“Document Properties”内容）。 
   
@@ -28,14 +28,14 @@ ms.locfileid: "33420323"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | 片. *名称*。LangID 其中的一个。 *名称*是行名称  <br/> |
+| 单元格名称：  <br/> | Prop.  *name*  .LangID 其中 Prop.  *name*  是行名称  <br/> |
    
 若要从某个程序按索引获取对 LangID 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionProp** <br/> |
-| 行索引：  <br/> |**visRowProp** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowProp**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visCustPropsLangID** <br/> |
    
 

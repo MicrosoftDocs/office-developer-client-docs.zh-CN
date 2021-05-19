@@ -1,5 +1,5 @@
 ---
-title: StDev 函数 (Access 自定义 web 应用程序)
+title: 'StDev 函数 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410187"
 ---
-# <a name="stdev-function-access-custom-web-app"></a>StDev 函数 (Access 自定义 web 应用程序)
+# <a name="stdev-function-access-custom-web-app"></a>StDev 函数 (Access 自定义 Web 应用) 
 
 返回指定表达式中所有值的统计标准偏差。
   
@@ -23,9 +23,9 @@ ms.locfileid: "33410187"
   
 ## <a name="syntax"></a>语法
 
- **StDev**(*NumericExpression*) 
+ **StDev** (*NumericExpression*)  
   
-**StDev**函数包含以下参数。 
+**StDev** 函数包含以下参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|

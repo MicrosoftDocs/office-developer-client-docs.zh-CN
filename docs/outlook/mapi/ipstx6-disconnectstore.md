@@ -37,7 +37,7 @@ HRESULT DisconnectStore(
 
  _ulFlags_
   
->  [] in若要修改行为的标志。 此参数必须始终设置为0。 
+>  [] in若要修改行为的标志。 此参数必须始终设置为 0。 
     
 ## <a name="see-also"></a>另请参阅
 

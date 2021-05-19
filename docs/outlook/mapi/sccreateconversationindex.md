@@ -25,13 +25,13 @@ ms.locfileid: "33415654"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示邮件在邮件线索中的位置。 
+指示邮件在消息线程中属于何处。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE ScCreateConversationIndex(
@@ -46,24 +46,24 @@ SCODE ScCreateConversationIndex(
 
  _cbParent_
   
-> 实时父对话索引中的字节数。
+> [in]父对话索引中的字节数。
     
  _lpbParent_
   
-> 实时指向父对话索引中的字节的指针。 如果_cbParent_为零, 则此值可能为 NULL。 
+> [in]指向父对话索引中的字节的指针。 如果  _cbParent 为零，则此_ 参数可能为 NULL。 
     
  _lpcbIndex_
   
-> 排除一个指针, 指向呼叫返回的新对话索引中的字节数。 
+> [out]指向调用返回的新对话索引中的字节数的指针。 
     
  _lppbIndex_
   
-> 排除指向调用返回的新对话索引的指针。
+> [out]指向指向调用返回的新对话索引的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 

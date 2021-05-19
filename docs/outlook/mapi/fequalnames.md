@@ -29,9 +29,9 @@ ms.locfileid: "33414800"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 BOOL FEqualNames(
@@ -44,26 +44,26 @@ BOOL FEqualNames(
 
  _lpName1_
   
-> 实时指向描述第一个命名属性的[MAPINAMEID](mapinameid.md)结构的指针。 
+> [in]指向描述第一个命名属性的 [MAPINAMEID](mapinameid.md) 结构的指针。 
     
  _lpName2_
   
-> 实时指向描述第二个命名属性的**MAPINAMEID**结构的指针。 
+> [in]指向描述第二个命名属性的 **MAPINAMEID** 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 TRUE 
   
-> 这两个属性名称相等。 
+> 两个属性名称相等。 
     
 FALSE 
   
 > 这两个属性名称不相等。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**FEqualNames**函数很有用, 因为**MAPINAMEID**结构包含一个[GUID](guid.md) , 并且可以通过多种方式表示属性名称本身。 这意味着, 不能通过简单的二进制方法比较这两个结构。 
+**FEqualNames** 函数很有用，因为 **MAPINAMEID** 结构包含 [GUID，](guid.md)并且可以通过多个方式表示属性名称本身。 这意味着无法通过简单的二进制方法比较这两种结构。 
   
-测试过程对于属性名称字符串而言是区分大小写的。 
+对于属性名称字符串，测试过程区分大小写。 
   
 

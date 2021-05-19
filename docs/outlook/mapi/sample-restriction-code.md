@@ -19,9 +19,9 @@ ms.locfileid: "33411013"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-下面的示例代码演示如何创建限制, 以筛选出在主题行中不包含单词 "volleyball" 的所有邮件, 并且不会将其从 Sam 发送给 Sue。 [SRestriction](srestriction.md)结构的树是必需的, 其中顶级节点是使用[SAndRestriction](sandrestriction.md)结构实现**和**限制的。 **AND**操作所联接的三个限制是一个子类型限制, 用于搜索发送到 Sue 的邮件、从 Sam 搜索邮件的内容限制以及搜索邮件的另一个**和**限制主题中包含 "volleyball" 的主题。 由于**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 不是必需的属性, 因此必须包含一个**存在**的限制。 
+以下示例代码演示如何创建一个限制，以筛选出主题行中不包含单词"out"且未从 Sam 发送到"一位"的所有邮件。 [SRestriction](srestriction.md)结构的树是必需的，顶部节点是使用 [SAndRestriction](sandrestriction.md)结构实现的 **AND** 限制。 **AND** 操作所加入的三个限制是一个子对象限制，用于搜索发送到"一台"，一个内容限制用于搜索来自 Sam 的邮件，另一个 **AND** 限制用于搜索主题包含"用户"的邮件。 由于 **PR_SUBJECT (** [PidTagSubject](pidtagsubject-canonical-property.md)) 不是必需属性，因此必须包含 **Exist** 限制。 
   
-此代码使用动态分配和初始化;也可以静态分配和初始化。 简单起见, 示例中不包含必须在分配调用之后发生的错误检查。 
+此代码使用动态分配和初始化;可以以静态方式分配和初始化。 为简洁起见，示例中不包含在分配调用之后必须发生的错误检查。 
   
 ```cpp
 HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,

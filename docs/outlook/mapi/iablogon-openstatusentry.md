@@ -25,7 +25,7 @@ ms.locfileid: "33410782"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-打开提供程序的 status 对象。
+打开提供程序的状态对象。
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,33 +40,33 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示必须用于访问 status 对象的接口。 传递 NULL 将返回对象的标准接口[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)。
+> [in]指向接口标识符的指针 (IID) 表示必须用于访问状态对象的接口。 传递 NULL 将返回对象的标准接口 [IMAPIStatus ： IMAPIProp](imapistatusimapiprop.md)。
     
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制状态对象的打开方式。 可以设置以下标志:
+> [in]控制状态对象的打开方式的标志的位掩码。 可以设置以下标志：
     
 MAPI_MODIFY 
   
-> 请求读取/写入权限。 默认情况下, 将使用只读访问权限打开对象, 并且调用方不应假定已授予读/写权限。
+> 请求读/写权限。 默认情况下，使用只读访问权限打开对象，调用方不应假定已授予读/写权限。
     
  _lpulObjType_
   
-> 排除一个指针, 指向打开的对象的类型。
+> [out]指向已打开对象的类型的指针。
     
  _lppEntry_
   
-> 排除指向打开的对象的指针的指针。
+> [out]指向已打开对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 状态对象已打开。
+> 调用成功，并且状态对象已打开。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-通讯簿提供程序实现**OpenStatusEntry**方法, 以授予对其状态对象的访问权限。 所有通讯簿提供程序都需要实现一个 status 对象, 该对象至少支持[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法。 有关详细信息, 请参阅[Status Object 实现](status-object-implementation.md)。
+通讯簿提供程序实现 **OpenStatusEntry** 方法以授予访问其状态对象的权限。 所有通讯簿提供程序都需要实现至少支持 [IMAPIStatus：：ValidateState](imapistatus-validatestate.md) 方法的状态对象。 有关详细信息，请参阅 [状态对象实现](status-object-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

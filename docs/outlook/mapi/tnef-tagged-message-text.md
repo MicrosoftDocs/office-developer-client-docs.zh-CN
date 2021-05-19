@@ -1,5 +1,5 @@
 ---
-title: TNEF 标记的邮件文本
+title: TNEF-Tagged消息文本
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,27 +15,27 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419917"
 ---
-# <a name="tnef-tagged-message-text"></a>TNEF 标记的邮件文本
+# <a name="tnef-tagged-message-text"></a>TNEF-Tagged消息文本
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-TNEF 使用标记的邮件文本来解析父邮件中的附件位置。 这是通过在邮件文本中的附件位置添加占位符来实现的。 此 "放置位置" 或 "附件" 标记描述附件的方式是, TNEF 知道如何解析附件及其位置。 这些标记的格式如下所示:
+TNEF 使用带标记的邮件文本解析父邮件中的附件位置。 为此，在附件位置的邮件文本中添加位置持有者。 此位置持有者（或 attachment 标记）以 TNEF 知道如何解析附件及其位置的方式描述附件。 标记的格式如下所示：
   
  `[[ <Object Title> : <KeyNum> in <Stream Name> ]] [[ <File Name> : <KeyNum> in <Transport Name> ]]`
   
- ** \<对象标题\> ** **和\<文件名是包含从附件本身\> **获取的值的变量。 在这些值不可用的情况下, 标题将根据附件类型默认使用 TNEF。 
+ **\< 对象标题 \>****\< 和文件名 \>** 是包含从附件本身获得的值的变量。 如果这些值不可用，则 TNEF 根据附件类型默认使用标题。 
   
-KeyNum 变量包含通过 TNEF 分配给附件的附件密钥的文本表示形式。 ** \<\> ** 键的基值将传递到[OpenTnefStreamEx](opentnefstreamex.md)调用中。 基值不得为零, 并且对于每个**OpenTnefStreamEx**调用都不应相同。 只要您保证它们从不为零, 就可以根据系统时间从运行时库提供的任何随机编号生成器使用伪随机数字。
+**\< KeyNum \>** 变量包含 TNEF 分配给附件的附件键的文本表示形式。 键的基值将传递到 [OpenTnefStreamEx](opentnefstreamex.md) 调用中。 基值不能为零，并且对于每次调用 **OpenTnefStreamEx** 时不应相同。 根据系统时间从运行时库提供的随机数字生成器使用伪随机数字就足够了，只要你保证它们从不为零。
   
-[](opentnefstreamex.md) **\>传输名称变量包含传递到 OpenTnefStreamEx 调用中的流名称或 PR_ATTACH_TRANSPORT_NAME (PidTagAttachTransportName) 属性的\<** 值。[](pidtagattachtransportname-canonical-property.md) ****
+Transport **\< Name \>** 变量包含传入 [OpenTnefStreamEx](opentnefstreamex.md)调用的流名称或 **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)) 属性的值。
   
 > [!NOTE]
-> message 文本标记中的**PR_ATTACH_TRANSPORT_NAME**属性和** \<transport NAME\> **变量与您要实现的传输提供程序的名称无任何不同之处。 这些项表示传输提供程序和邮件系统的附件的名称。 
+> the **PR_ATTACH_TRANSPORT_NAME** property and the **\< Transport Name \>** variable in a message text tag have nothing to do with the name of the transport provider you are implementing. 这些项目表示传输提供程序和邮件系统的附件的名称。 
   
-当传输提供程序通过调用[ITnef:: OpenTaggedBody](itnef-opentaggedbody.md)方法来请求标记的邮件文本时, 将标记邮件文本。 从标记文本流读取时, TNEF 将**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性中提供的索引处的邮件文本中的单个字符替换为相应的标记。 在向标记文本流中写入时, TNEF 会检查标记的传入数据, 查找关联的附件, 并将标记替换为单个空格字符。
+当传输提供程序通过调用 [ITnef：：OpenTaggedBody](itnef-opentaggedbody.md) 方法请求标记的邮件文本时，邮件文本将被标记。 从带标记的文本流中读取时，TNEF 将 PR_RENDERING_POSITION ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md) **)** 属性中提供索引的消息文本中的单个字符替换为相应的标记。 当写入带标记的文本流时，TNEF 会检查传入的标记数据，查找关联的附件，并用单个空格字符替换标记。
   
-请注意, 通过使用带标记的邮件文本, 传输提供程序可以保留附件的位置, 而不考虑邮件系统对邮件文本所做的大多数更改。
+请注意，通过使用带标记的邮件文本，传输提供程序可以保留附件的定位，而不管邮件系统对邮件文本进行了何种更改。
   
 

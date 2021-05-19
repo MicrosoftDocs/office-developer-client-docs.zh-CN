@@ -25,11 +25,11 @@ ms.locfileid: "33420743"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍将在从显示表生成的对话框中使用的下拉列表。
+描述将在从显示表构建的对话框中使用的下拉列表。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLMVDDLBX
@@ -44,21 +44,21 @@ typedef struct _DTBLMVDDLBX
 
  **ulFlags**
   
-> 保留必须为零。
+> 保留;必须为零。
     
  **ulMVPropTag**
   
-> 类型为 PT_MV_TSTRING 的多值属性的属性标记。 此属性的不同值在下拉列表中显示为不同的条目。
+> 类型为 PT_MV_TSTRING 的多值属性的属性标记。 此属性的值在下拉列表中显示为不同的条目。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**DTBLMVDDLBOX**结构描述多值下拉列表项的只读列表。 通过使用多值下拉列表, 当用户单击滚动条时, 将显示值。 
+**DTBLMVDDLBOX** 结构描述多值下拉列表（只读项目列表）。 通过使用多值下拉列表，当用户单击滚动条时将显示值。 
   
-显示的数据来自**ulMVPropTag**成员中标识的属性。 不需要从与显示表相关联的属性接口中进行读取。 此外, 因为用户无法从这些类型的列表框中进行选择, 所以不会将数据写入属性接口。 
+显示的数据来自 **ulMVPropTag** 成员中标识的属性。 不需要从与显示表关联的属性接口读取。 此外，由于用户无法从这些类型的列表框中进行选择，因此不会将数据写入属性接口。 
   
 多值下拉列表仅支持多值字符串属性;不支持其他多值属性类型。 
   
-有关显示表的概述, 请参阅[显示表](display-tables.md)。 有关如何实现显示表的信息, 请参阅[实现显示表](display-table-implementation.md)。
+有关显示表的概述，请参阅显示 [表](display-tables.md)。 若要了解如何实现显示表，请参阅 [实现显示表](display-table-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

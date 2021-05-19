@@ -1,5 +1,5 @@
 ---
-title: PidTagConversionEits 规范属性
+title: PidTagConversion使用规范属性
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420001"
 ---
-# <a name="pidtagconversioneits-canonical-property"></a>PidTagConversionEits 规范属性
+# <a name="pidtagconversioneits-canonical-property"></a>PidTagConversion使用规范属性
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含应用于传输中的邮件的编码信息类型 (EITs), 以描述转换。
+包含应用于传输 (邮件) 描述转换的编码信息类型。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33420001"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-X. 400 环境将此属性用于未送达和送达报告。
+X.400 环境将此属性用于未送达报告和送达报告。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

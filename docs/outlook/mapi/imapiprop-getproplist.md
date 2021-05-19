@@ -38,41 +38,41 @@ HRESULT GetPropList(
 
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制返回的属性标记中的字符串的格式。 可以设置以下标志:
+> [in]控制返回的属性标记中字符串格式的标志的位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 返回的字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
  _lppPropTagArray_
   
-> 排除指向包含对象所有属性的标记的属性标记数组的指针的指针。
+> [out]指向属性标记数组的指针的指针，该数组包含对象的所有属性的标记。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功返回所有属性标记。
+> 所有属性标记都已成功返回。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
+> 设置 MAPI_UNICODE 标志，而实现不支持 Unicode，或者MAPI_UNICODE未设置，并且实现仅支持 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPIProp:: GetPropList**方法检索对象当前支持的每个属性的属性标记。 如果该对象当前不支持任何属性, 则**GetPropList**将返回**cValues**成员设置为0的属性标记数组。 
+**IMAPIProp：：GetPropList** 方法检索对象当前支持的每个属性的属性标记。 如果对象当前不支持任何属性 **，GetPropList** 将返回一个属性标记数组， **其 cValues** 成员集为 0。 
   
-**GetPropList**返回的属性范围因提供程序而异。 某些服务提供程序排除了呼叫者无权访问的那些属性。 所有提供程序都返回**PT_OBJECT**类型的属性。
+**GetPropList** 返回的属性范围因提供程序而异。 某些服务提供程序会排除调用方无法访问的属性。 所有提供程序都返回类型为 **PT_OBJECT 的属性**。
   
-如果该对象不支持 Unicode, **GetPropList**将返回 MAPI_E_BAD_CHARWIDTH, 即使没有为该对象定义任何字符串属性也是如此。 
+如果该对象不支持 Unicode，则 **GetPropList** MAPI_E_BAD_CHARWIDTH，即使没有为该对象定义字符串属性。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-远程传输提供程序完全按照此处指定的方式实现**GetPropList** 。 没有特殊的顾虑。 当然, 您的实现应返回与[IMAPIProp:: GetProps](imapiprop-getprops.md)方法支持的相同的属性列表。 
+远程传输提供程序完全按照 **此处指定实现 GetPropList。** 没有特别问题。 当然，您的实现应返回 [与 IMAPIProp：：GetProps](imapiprop-getprops.md) 方法支持的相同属性列表。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-调用[MAPIFreeBuffer](mapifreebuffer.md)函数以释放_lppPropTagArray_指向的属性标记数组。 
+调用 [MAPIFreeBuffer](mapifreebuffer.md) 函数以释放  _lppPropTagArray_ 指向的属性标记数组。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -80,7 +80,7 @@ MAPI_E_BAD_CHARWIDTH
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFunctions  <br/> |GetPropsNULL  <br/> |MFCMAPI 使用**IMAPIProp:: GetPropList**方法获取要传递给**GetProps**的属性列表。  <br/> |
+|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI 使用 **IMAPIProp：：GetPropList** 方法获取要传递到 **GetProps 的属性列表**。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -25,13 +25,13 @@ ms.locfileid: "33414534"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-查找给定本地路径对应的通用命名约定 (UNC) 路径。
+查找 UNC 中与给定本地 (对应的) 通用命名约定。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE ScUNCFromLocalPath(
@@ -45,21 +45,21 @@ SCODE ScUNCFromLocalPath(
 
  _szLocal_
   
-> 实时文件或目录的格式 [_驱动器:_]\[ _路径_] 中的路径。
+> [in]文件或目录的格式为 [ _drive：_] \[ _path_] 的路径。
     
  _szUNC_
   
-> 排除与_szLocal_参数的文件\\或目录的格式 [ _server_]\[ _share_]\[ _path_] 中的路径。 
+> [out]与 \\  \[  \[ _szLocal_ 参数相同的文件或目录的格式 [ server ] share ] path ] 的路径。 
     
  _cchUNC_
   
-> 实时输出字符串的缓冲区大小。
+> [in]输出字符串的缓冲区大小。
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 已成功找到对应的 UNC 路径。
+> 成功找到对应的 UNC 路径。
     
 MAPI_E_INVALID_PARAMETER
   
@@ -67,11 +67,11 @@ MAPI_E_INVALID_PARAMETER
     
 MAPI_E_TOO_BIG
   
->  _szUNC_的大小不足以容纳结果。 
+>  _szUNC_ 不够大，无法容纳结果。 
     
 S_FALSE
   
-> 本地路径已是 UNC 字符串。
+> 本地路径已经是 UNC 字符串。
     
 ## <a name="see-also"></a>另请参阅
 

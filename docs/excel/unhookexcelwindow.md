@@ -22,7 +22,7 @@ ms.locfileid: "33409445"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-删除以前由**HookExcelWindow**安装的**ExcelCursorProc** 。 这样做的目的是为了在 Microsoft Excel 主**WndProc**之前调用**ExcelCursorProc** 。
+删除以前由 **HookExcelWindow** 安装的 **ExcelCursorProc。** 这应该已经完成，以便 **ExcelCursorProc** 在主 **WndProc Microsoft Excel之前调用**。
   
 ```cs
 extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
@@ -30,21 +30,21 @@ extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
 
 ## <a name="parameters"></a>参数
 
- _hWndExcel_(**句柄**)
+ _hWndExcel_ (**HANDLE**) 
   
-Excel 主窗口句柄。
+主Excel句柄Windows句柄。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
 函数不返回值。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此函数使用**SetWindowLong ()** 还原 Excel 的默认**WndProc** , 以还原**HookExcelWindow ()** 保存的地址。
+此函数使用 **SetWindowLong** Excel还原默认 **WndProc** () 以还原 **由 HookExcelWindow** () 保存的地址。
   
 ### <a name="example"></a>示例
 
-有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
+有关  `\SAMPLES\GENERIC\GENERIC.C` 此函数的源代码，请参阅 。 
   
 ## <a name="see-also"></a>另请参阅
 

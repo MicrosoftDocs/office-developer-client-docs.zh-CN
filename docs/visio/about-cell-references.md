@@ -24,7 +24,7 @@ ms.locfileid: "33409802"
   
 ## <a name="what-cell-references-can-include"></a>可包括的单元格引用
 
-单元格引用可以包含形状标识符 (ID) 或名称。 您始终可以使用形状 ID 来指代页面上的任何形状，不论该形状是否已命名。 如果没有为形状命名，则它的默认名称是 Sheet. *i* , 其中*i*是形状 ID。 ID 是在创建形状时分配的，除非您将形状移至其他页面或文档，否则 ID 不会改变。 如果页面上有多个形状同名，则必须包含分配的 ID。 
+单元格引用可以包含形状标识符 (ID) 或名称。 您始终可以使用形状 ID 来指代页面上的任何形状，不论该形状是否已命名。 如果没有为形状命名，则它的默认名称是 Sheet. *i*  ，其中  *i*  是形状 ID。 ID 是在创建形状时分配的，除非您将形状移至其他页面或文档，否则 ID 不会改变。 如果页面上有多个形状同名，则必须包含分配的 ID。 
   
 ## <a name="cell-reference-syntax-and-examples"></a>单元格引用语法和示例
 
@@ -39,16 +39,16 @@ ms.locfileid: "33409802"
 |**要引用的单元格属于**|**使用此语法**|**示例**|
 |:-----|:-----|:-----|
 |同一形状  <br/> | CellName  <br/> | Width  <br/> |
-| 形状、组合或参考线  <br/> | Shapename!CellName  <br/> | 红星!Angle  <br/> |
-| 形状、组合或参考线，其中有多个同级的形状同名  <br/> | Shapename.ID!CellName  <br/> | 2!高度  <br/> |
-| 带有已建立索引的行的命名列  <br/> | Section。 Column [index]  <br/> | 字符: 字体 [3]  <br/> |
-| 带有已建立索引的行的未命名列  <br/> | 节。 ColumnIndex  <br/> | 暂存. A5  <br/> |
-| 任何形状、页面、主控形状或样式  <br/> | Sheet.ID!CellName  <br/> | Sheet. 8!FillForegnd  <br/> |
-| 主控形状  <br/> | 主控形状 [MasterName]!SheetName!CellReference  <br/> | 主控形状 [齿轮]!箭!geometry1.path  <br/> |
-| 对象所在的页面或主控形状页面  <br/> | ThePage!CellReference  <br/> | ThePage!Vanishing_Point  <br/> |
-| 文档中的另一页面  <br/> | 页面 [PageName]!SheetName!CellReference  <br/> | Pages [Page-3]!Sheet 4!BeginX  <br/> |
-| 样式  <br/> | Styles!SheetName!CellReference  <br/> | Styles!管理器!LineColor  <br/> |
-| 文档  <br/> | TheDoc!CellReference  <br/> | TheDoc!PreviewQuality  <br/> |
-| 带有非标准名称的形状、页面、主控形状、文档或样式。  <br/> | "Sheetname"!CellName  <br/> | ' 1-D '!LineColor  <br/> |
+| 形状、组合或参考线  <br/> | Shapename！CellName  <br/> | 星形！角度  <br/> |
+| 形状、组合或参考线，其中有多个同级的形状同名  <br/> | Shapename.ID！CellName  <br/> | Executive.2！Height  <br/> |
+| 带有已建立索引的行的命名列  <br/> | Section.Column[index]  <br/> | Char.Font[3]  <br/> |
+| 带有已建立索引的行的未命名列  <br/> | Section.ColumnIndex  <br/> | Scratch.A5  <br/> |
+| 任何形状、页面、主控形状或样式  <br/> | Sheet.ID！CellName  <br/> | Sheet.8！FillForegnd  <br/> |
+| 主控形状  <br/> | Masters[MasterName]！SheetName！CellReference  <br/> | Masters[Gear]！百分百！Geometry1.X1  <br/> |
+| 对象所在的页面或主控形状页面  <br/> | ThePage！CellReference  <br/> | ThePage！User.Vanishing_Point  <br/> |
+| 文档中的另一页面  <br/> | Pages[PageName]！SheetName！CellReference  <br/> | Pages[Page-3]！Sheet.4！BeginX  <br/> |
+| 样式  <br/> | 样式！SheetName！CellReference  <br/> | 样式！经理！LineColor  <br/> |
+| 文档  <br/> | TheDoc！CellReference  <br/> | TheDoc！PreviewQuality  <br/> |
+| 带有非标准名称的形状、页面、主控形状、文档或样式。  <br/> | 'Sheetname'！CellName  <br/> | "1-D"！LineColor  <br/> |
    
 

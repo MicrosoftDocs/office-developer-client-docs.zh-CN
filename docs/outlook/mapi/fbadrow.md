@@ -25,7 +25,7 @@ ms.locfileid: "33420617"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-验证表中的行。
+验证表格中的行。
   
 |||
 |:-----|:-----|
@@ -43,7 +43,7 @@ ULONG FBadRow(
 
  _lprow_
   
-> 实时指向标识要验证的行的[SRow](srow.md)结构的指针。 
+> [in]指向标识要验证的行的 [SRow](srow.md) 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 

@@ -25,12 +25,12 @@ ms.locfileid: "33419406"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算应为包含指定字节大小的条目标识符的新[FLATENTRY](flatentry.md)结构分配的字节数。 
+计算应为包含指定字节大小的条目标识符的新 [FLATENTRY](flatentry.md) 结构分配的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**FLATENTRY** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**FLATENTRY** <br/> |
    
 ```cpp
 CbNewFLATENTRY (_cb)
@@ -38,9 +38,9 @@ CbNewFLATENTRY (_cb)
 
 ## <a name="parameters"></a>参数
 
- __cb_
+ _ _cb_
   
-> 要包含在新的**FLATENTRY**结构中的条目标识符中的字节数。 
+> 要包含在新 **FLATENTRY** 结构的条目标识符中的字节数。 
     
 ## <a name="see-also"></a>另请参阅
 

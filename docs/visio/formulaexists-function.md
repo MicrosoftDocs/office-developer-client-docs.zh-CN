@@ -22,7 +22,7 @@ ms.locfileid: "33420274"
   
 ## <a name="syntax"></a>语法
 
-FORMULAEXISTS (* * *cellref* * *) 
+FORMULAEXISTS (** *cellref* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -30,8 +30,8 @@ FORMULAEXISTS (* * *cellref* * *)
 |:-----|:-----|:-----|:-----|
 | _cellref_ <br/> |必需  <br/> |**String** <br/> |要检查其中是否存在公式的单元格。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果单元格包含公式, 则 FORMULAEXISTS 函数返回 1; 否则返回1。如果它不包含公式, 则返回零 (0)。 
+如果单元格包含公式，FORMULAEXISTS 函数将返回 1;如果公式不包含公式，则返回零 (0) 。 
   
 

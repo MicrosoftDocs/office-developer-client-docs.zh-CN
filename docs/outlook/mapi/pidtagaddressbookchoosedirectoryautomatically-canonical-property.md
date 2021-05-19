@@ -21,7 +21,7 @@ ms.locfileid: "33409662"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-启用 microsoft outlook 2010 和 microsoft outlook 2013 以选择最适合的全局地址列表 (GAL) 或当前邮箱的联系人文件夹。
+使Microsoft Outlook 2010和Microsoft Outlook 2013为当前邮箱选择 (GAL) 联系人文件夹中最合适的全局地址列表。
   
 |||
 |:-----|:-----|
@@ -30,19 +30,19 @@ ms.locfileid: "33409662"
 |属性类型  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性对应于 "通讯簿选项" 对话框中的 "**自动选择**" 设置。 当 IID_CAPONE_PROF 配置文件部分中存在此属性并将其设置为**true**时, 通讯簿对话框不再默认为[SetDefaultDir](iaddrbook-setdefaultdir.md)方法指定的容器, 而是选择 outlook 2010 或 outlook 2013 的通讯簿。考虑适合显示对话框的上下文。 请注意, 这可能会导致第三方通讯簿提供程序的体验不佳。 
+此属性对应于"通讯簿 **选项"对话框中** 的"自动选择"设置。 当 IID_CAPONE_PROF 配置文件部分中存在此属性并设置为 **true** 时，通讯簿对话框不再默认为 [SetDefaultDir](iaddrbook-setdefaultdir.md)方法指定的容器，而是选择 Outlook 2010 或 Outlook 2013 认为适合显示对话框的上下文的通讯簿。 请注意，这可能会导致第三方通讯簿提供商体验不佳。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

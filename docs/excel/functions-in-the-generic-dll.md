@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- 泛型 dll [excel 2007], 函数, 函数 [excel 2007], 泛型 dll
+- generic dll [excel 2007]， functions，functions [Excel 2007]， Generic DLL
 localization_priority: Normal
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -20,21 +20,21 @@ ms.locfileid: "33420596"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-该文件夹`\EXAMPLES\GENERIC\`包含用于编译示例 DLL 的示例常规 xll 的 Microsoft Visual Studio 项目文件和源代码文件。 您可以将此项目用作模板, 以编写自己的 Microsoft Excel xll。 此项目中的源代码演示了 Excel C API 的许多功能。 
+该文件夹 `\EXAMPLES\GENERIC\` 包含Microsoft Visual Studio DLL GENERIC.xll 示例所需的项目文件和源代码文件。 您可以将此项目用作编写您自己的 XLL Microsoft Excel模板。 此项目中的源代码演示了 C API Excel功能。 
   
-加载 GENERIC 时, 它将创建一个具有四个命令的新的**通用**菜单: 
+加载 GENERIC.xll 时，它会创建一个包含四个命令的新 **"通用** "菜单： 
   
-- **对话框**-显示 "Microsoft Excel" 对话框。 
+- **对话框**- 显示Microsoft Excel对话框。 
     
-- **Dance** -在周围移动所选内容, 直到按**ESC**键。 
+- **当** 按下 Esc 键之前，将所选内容 **四处** 移动。 
     
-- "**本机对话框**"-显示 Windows 对话框。 
+- **本机对话框**- 显示Windows对话框。 
     
-- **退出**-卸载 generic 并删除**通用**菜单。 
+- **Exit** - 卸载 GENERIC.xll 并删除 **"泛型"** 菜单。 
     
-generic 还提供了三个工作表函数、Func1、FuncSum 和 FuncFib, 可以在加载 GENERIC xll 时使用这些函数。 可以使用加载项管理器加载常规 xll, 如果它在最后一个 Excel 会话的正常结束时处于活动状态, 则会加载。
+GENERIC.xll 还提供了三个工作表函数 Func1、FuncSum 和 FuncFib，每次加载 GENERIC.xll 时都可以使用。 可以使用外接程序管理器加载 GENERIC.xll，或者，如果它在上一个加载项会话的普通末尾处于活动状态，Excel加载。
   
-此项目使用框架库 (FRMWRK32)。
+此项目使用 FRMWRK32.lib (框架库) 。
   
 ## <a name="in-this-section"></a>本节内容
 

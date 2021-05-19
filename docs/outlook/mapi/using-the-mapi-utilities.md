@@ -21,10 +21,10 @@ ms.locfileid: "33409984"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 实用程序由表数据和属性数据对象以及用于支持杂项功能的各种函数组成。 客户端可以只需要这些实用程序, 而无需登录到 MAPI 子系统即可与服务提供商建立连接。 如果您的客户端符合此类别, 请在初始化时调用 API 函数[ScInitMapiUtil](scinitmapiutil.md) , 而不是[MAPIInitialize](mapiinitialize.md)函数。 
+MAPI 实用程序由表数据和属性数据对象以及各种函数（以支持杂项功能）所决定。 客户端可能只需要这些实用程序，并且不必登录到 MAPI 子系统来与服务提供商建立连接。 如果你的客户端适合此类别，在初始化时调用 API 函数 [ScInitMapiUtil](scinitmapiutil.md) 而不是 [MAPIInitialize](mapiinitialize.md) 函数。 
   
- **ScInitMapiUtil**使客户端能够使用需要 MAPI allocators 的实用工具函数, 但不会显式请求 allocators。 当需要关机时, 请调用[DeinitMapiUtil](deinitmapiutil.md)以释放资源, 而不是[MAPIUninitialize](mapiuninitialize.md)。 从不调用**MAPIInitialize**的客户端不应调用**MAPIUninitialize**。
+ **ScInitMapiUtil** 使客户端可以使用需要 MAPI 分配器，但不显式请求分配器的实用程序函数。 当需要关闭时，调用 [DeinitMapiUtil](deinitmapiutil.md) 以释放资源，而不是 [MAPIUninitialize](mapiuninitialize.md)。 从不调用 **MAPIInitialize** 的客户端不应调用 **MAPIUninitialize**。
   
-如果您已调用**ScInitMapiUtil**而不是**MAPIInitialize** , 并且通过**ITableData**方法而不是使用**IMAPITable**方法使用表, 请注意, 表通知将不起作用。 通知需要使用 MAPI 库和[IMAPITable: IUnknown](imapitableiunknown.md)。
+如果已调用 **ScInitMapiUtil** 而不是 **MAPIInitialize，** 并且正通过 **ITableData** 方法而不是 **IMAPITable** 方法使用表，请注意表通知将不起作用。 通知需要使用 MAPI 库和 [IMAPITable ： IUnknown](imapitableiunknown.md)。
   
 

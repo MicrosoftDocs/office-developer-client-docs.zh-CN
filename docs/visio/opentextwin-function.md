@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251475
 localization_priority: Normal
 ms.assetid: 8df34463-0238-0b0d-9f99-ea912a644f56
-description: 打开形状的文本块, 以便可以对文本进行编辑。
+description: 打开形状的文本块，以便可以编辑文本。
 ms.openlocfilehash: f182943b8ef01ff78c2f606cd0f925110ce83fef
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,13 +18,13 @@ ms.locfileid: "33414457"
 ---
 # <a name="opentextwin-function"></a>OPENTEXTWIN 函数
 
-打开形状的文本块, 以便可以对文本进行编辑。
+打开形状的文本块，以便可以编辑文本。
   
 ## <a name="syntax"></a>语法
 
 OPENTEXTWIN( )
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 在 Visio 的早期版本中，此函数以 _OPENTEXTWIN 的形式出现。Visio 4.0 版和更高版本接受这两种样式中的任意一种。 
   

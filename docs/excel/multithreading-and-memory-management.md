@@ -18,15 +18,15 @@ ms.locfileid: "33414464"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-正确处理内存对于创建适用于 Microsoft Excel 的可靠 XLL 外接程序至关重要。 如果无法分配适当的内存缓冲区, 并在不再需要它们时释放它们, 则会降低性能, 创建资源争用和 destabilizes Excel。
+正确处理内存对于为用户创建可靠的 XLL 加载项Microsoft Excel。 分配适当的内存缓冲区并释放这些缓冲区（如果不再需要）失败，将降低性能、导致资源争用并破坏Excel。
   
-从 Microsoft Office Excel 2007 开始, 可以将 Excel 配置为在重新计算时最长可使用1024个并发线程。 在某些情况下, 尤其是当多个处理器可用或在群集服务器上运行的用户定义的函数时, 多线程处理可以提高性能。
+从 2007 Microsoft Office Excel开始，你可以将Excel配置为在重新计算时最多使用 1，024 个并发线程。 在某些情况下，尤其是当多个处理器可用或在群集服务器上运行的用户定义函数时，多线程可以提高性能。
   
-以下主题介绍如何在 xll 中管理内存和线程:
+以下主题介绍如何在 XLL 中管理内存和线程：
   
 - [Excel 中的内存管理](memory-management-in-excel.md)
     
-- [Excel 中的多线程和内存争用](multithreading-and-memory-contention-in-excel.md)
+- [线程中的多线程和内存Excel](multithreading-and-memory-contention-in-excel.md)
     
 - [Excel 中的多线程重新计算](multithreaded-recalculation-in-excel.md)
     

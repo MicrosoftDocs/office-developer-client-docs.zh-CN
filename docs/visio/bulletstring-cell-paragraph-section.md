@@ -20,7 +20,7 @@ ms.locfileid: "33409746"
 
 允许您创建自定义的项目符号样式。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 将样式作为字符串输入（加上引号）。例如，可输入下面的字符串：“ooo”。
   
@@ -30,14 +30,14 @@ ms.locfileid: "33409746"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |BulletStr [ *i* ] 其中*i* = <1>, 2, 3, .。。  <br/> |
+|单元格名称：  <br/> |Para.BulletStr[ *i*  ] 其中  *i*  = <1>、2、3...  <br/> |
    
 若要从某个程序按索引获取对 BulletString 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionParagraph** <br/> |
-|行索引：  <br/> |**visRowParagraph** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRowParagraph**  +  *i* 其中 *i* = 0， 1， 2， ...  <br/> |
 |单元格索引：  <br/> |**visBulletString** <br/> |
    
 

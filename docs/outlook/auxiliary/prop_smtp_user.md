@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420316"
 ---
-# <a name="propsmtpuser"></a>PROP_SMTP_USER
+# <a name="prop_smtp_user"></a>PROP_SMTP_USER
 
 表示 SMTP 帐户的用户名。
   

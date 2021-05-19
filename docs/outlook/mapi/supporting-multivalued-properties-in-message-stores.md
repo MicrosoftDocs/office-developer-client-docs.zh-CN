@@ -1,5 +1,5 @@
 ---
-title: 邮件存储中的支持多值属性
+title: 支持邮件存储中的多值属性
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420792"
 ---
-# <a name="supporting-multivalued-properties-in-message-stores"></a>邮件存储中的支持多值属性
+# <a name="supporting-multivalued-properties-in-message-stores"></a>支持邮件存储中的多值属性
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-[MAPI 属性概述](mapi-property-overview.md)中记录了具有多个值的支持属性的要求。 邮件存储提供程序不需要多值属性支持, 但建议这样做, 尤其是对于默认的邮件存储提供程序。 某些其他功能 (如 "文件夹表单库") 确实需要多值属性支持。
+MAPI 属性概述中记录了支持具有多个值 [的属性的要求](mapi-property-overview.md)。 邮件存储提供程序不需要多值属性支持，但建议使用它，尤其是对于默认邮件存储提供程序。 某些其他功能（如文件夹表单库）需要多值属性支持。
   
 ## <a name="see-also"></a>另请参阅
 

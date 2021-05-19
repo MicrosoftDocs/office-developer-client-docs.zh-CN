@@ -19,6 +19,6 @@ ms.locfileid: "33420435"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI-MIME 转换 API 允许邮件提供程序在 MIME 对象和 MAPI 邮件之间进行转换。 它提供了常量定义、类标识符和接口标识符, 如[MAPI 常量](mapi-constants.md)中所示。 邮件提供程序必须通过调用**CoCreateInstance**函数来 cocreate **[IConverterSession](iconvertersessioniunknown.md)** 的实例。 
+MAPI-MIME 转换 API 允许邮件提供程序在 MIME 对象和 MAPI 邮件之间转换。 它提供常量定义、类标识符和接口标识符，如 [MAPI 常量中所示](mapi-constants.md)。 邮件提供程序必须通过调用 **CoCreateInstance** 函数来共同创建 **[IConverterSession](iconvertersessioniunknown.md)** 的实例。 
   
 

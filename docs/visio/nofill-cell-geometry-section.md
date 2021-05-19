@@ -25,7 +25,7 @@ ms.locfileid: "33415017"
 | TRUE  <br/> | 不填充该路径，即使可填充形状中的其他路径。  <br/> |
 | FALSE  <br/> | 形状的填充适用于该路径，即使它不是封闭的路径。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 如果将形状的填充图案设置为非 (0)，则不填充该形状的任何路径。此单元格用于选择性地禁用形状中路径的填充方式。
   
@@ -33,13 +33,13 @@ ms.locfileid: "33415017"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | 几何图形*i* 。NoFill 其中*i* = <1>, 2, 3 .。。  <br/> |
+| 单元格名称：  <br/> | Geometry  *i*  .NoFill 其中  *i*  = <1>、2、3...  <br/> |
    
 要从某个程序按索引获取对 NoFill 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
-| 内容索引：  <br/> |**visSectionFirstComponent** +  *i* = ** 0、1、2 .。。  <br/> |
+| 内容索引：  <br/> |**visSectionFirstComponent**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 行索引：  <br/> |**visRowComponent** <br/> |
 | 单元格索引：  <br/> |**visCompNoFill** <br/> |
    

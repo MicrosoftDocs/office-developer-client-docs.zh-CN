@@ -25,7 +25,7 @@ ms.locfileid: "33420666"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果禁止邮件传输代理 (MTA) 进行隐式邮件文本转换, 则该参数为 TRUE。
+如果禁止邮件传输代理 (MTA) 进行隐式邮件文本转换，则包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33420666"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果此属性为 TRUE, 则邮件系统不得对邮件执行任何内容转换, 除非使用**PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)) 属性在每个收件人的基础上显式请求。
+如果此属性为 TRUE，则邮件系统不得对邮件执行任何内容转换，除非使用 **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)) 属性按收件人显式请求。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

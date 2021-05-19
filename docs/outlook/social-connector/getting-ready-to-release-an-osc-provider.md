@@ -1,5 +1,5 @@
 ---
-title: 准备发布一个 .osc 提供程序
+title: 准备发布 OSC 提供程序
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a7d28349-3121-49ae-ad28-043789e2d205
-description: 本节建议您在发布 Outlook Social Connector (.osc) 提供程序之前可以执行的测试。
+description: 本节建议在 OSC Outlook 发布您的 Outlook 连接器 (测试) 测试。
 ms.openlocfilehash: 8a36b13f8adc42a1834481d3a5942f0350c43cc3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,35 +15,35 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414660"
 ---
-# <a name="getting-ready-to-release-an-osc-provider"></a>准备发布一个 .osc 提供程序
+# <a name="getting-ready-to-release-an-osc-provider"></a>准备发布 OSC 提供程序
 
-本节建议您在发布 Outlook Social Connector (.osc) 提供程序之前可以执行的测试。 您可以开始参考本节中的主题, 并在开发和测试阶段中执行这些测试中的部分测试, 但您在释放这些测试时应完成这些测试。 
+本节建议在 OSC Outlook 发布您的 Outlook 连接器 (测试) 测试。 你可以开始引用本节中的主题，在开发和测试阶段执行其中一些测试，但应在发布时完成这些测试。 
 
-这些测试将根据您为 .osc 提供程序指定的功能验证您的 .osc 提供程序接口实现的基本功能。 此外, 尽管 .osc 是由多个 Office 客户端应用程序共享的功能, 但这些测试使用 Outlook 作为客户端来测试基本功能。 您应确定特定于您的提供程序的功能是否需要其他测试。
+这些测试验证 OSC 提供程序接口实现的基本功能与为 OSC 提供程序指定的功能有关。 此外，即使 OSC 是由多个 Office 应用程序共享的功能，这些测试Outlook客户端来测试基本功能。 应确定特定于提供程序的功能是否需要其他测试。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [测试部署](testing-deployment.md): 介绍在安装和卸载 .osc 提供程序方面应测试的方案。
+- [测试部署](testing-deployment.md)：介绍应测试的与安装和卸载 OSC 提供程序有关的方案。
     
-- [测试功能、身份验证和配置](testing-capabilities-authentication-and-configuration.md): 介绍了用于获取功能的测试, 以及有关配置帐户和对社交网络的用户进行身份验证的方案。
+- [测试功能、身份验证和配置](testing-capabilities-authentication-and-configuration.md)：介绍用于获取功能和有关为社交网络配置帐户和验证用户的方案的测试。
     
-- [测试关注和停止关注的人员](testing-following-and-stop-following-persons.md): 介绍用于测试 .osc 提供程序将人员添加为朋友的能力或从社交网络中删除好友的方案。 
+- [Testing Following and Stop-Following Person](testing-following-and-stop-following-persons.md)： Describes scenarios to test the OSC provider's ability to add a person as a friend， or to remove a friend from the social network. 
     
-- [测试朋友](testing-friends.md): 介绍了测试和方案, 以验证 .osc 提供程序是否根据提供程序所支持的同步模式, 适当地返回朋友和非好友的数据 (如果适用)。
+- [测试好友](testing-friends.md)：介绍用于验证 OSC 提供程序是否适当返回好友和非好友的数据的测试和方案（如果适用，具体取决于提供程序支持的同步模式）。
     
-- [测试活动](testing-activities.md): 介绍了测试和方案, 以验证 .osc 提供程序是否根据提供程序支持的同步模式, 适当地返回朋友和非朋友的活动 (如果适用)。
+- [测试活动](testing-activities.md)：描述用于验证 OSC 提供程序是否适当返回好友和非好友的活动（如果适用，具体取决于提供程序支持的同步模式）的测试和方案。
     
 ## <a name="reference"></a>参考
 
-- [Outlook Social Connector 提供程序参考](outlook-social-connector-provider-reference-0.md)
+- [OutlookSocial Connector Provider Reference](outlook-social-connector-provider-reference-0.md)
   
-## <a name="related-sections"></a>相关部分
+## <a name="related-sections"></a>相关章节
 
-- [.osc 示例模板](osc-sample-templates.md)
+- [OSC 示例模板](osc-sample-templates.md)
   
-- [.osc 典型调用序列](osc-typical-calling-sequences.md)
+- [OSC 典型调用序列](osc-typical-calling-sequences.md)
   
-- [使用 .osc XML 架构开发提供程序](developing-a-provider-with-the-osc-xml-schema.md)
+- [使用 OSC XML 架构开发提供程序](developing-a-provider-with-the-osc-xml-schema.md)
   
 - [调试提供程序](debugging-a-provider.md)
   

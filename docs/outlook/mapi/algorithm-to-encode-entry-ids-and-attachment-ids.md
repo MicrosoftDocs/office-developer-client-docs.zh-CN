@@ -1,5 +1,5 @@
 ---
-title: 用于对条目 id 和附件 id 进行编码的算法
+title: 对条目 ID 和附件 ID 进行编码的算法
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,13 +13,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420134"
 ---
-# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>用于对条目 id 和附件 id 进行编码的算法
+# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>对条目 ID 和附件 ID 进行编码的算法
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-存储提供程序可以作为 mapi 统一资源定位器 (URL) 的一部分发送到 mapi 协议处理程序的条目 id 和附件 ID, 以标识已准备好编制索引的对象。 存储提供程序将条目 id 和附件 ID 编码为 Unicode 字符串。 本主题显示了一个算法, 该算法可生成条目 id 或附件 ID 的精简表示形式。
+存储提供程序可以将条目 ID 和附件 ID 作为 MAPI 统一资源定位器 (URL) 的一部分发送到 MAPI 协议处理程序，以标识已准备好编制索引的对象。 存储提供程序将条目 ID 和附件 ID 编码为 Unicode 字符串。 本主题介绍一种算法，该算法可生成条目 ID 或附件 ID 的精简表示形式。
   
 ```cpp
 const WORD kwBaseOffset = 0xAC00;  // Hangul char range (AC00-D7AF) 
@@ -56,7 +56,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 
 
 
-[关于基于通知的存储索引](about-notification-based-store-indexing.md)
+[关于Notification-Based存储索引](about-notification-based-store-indexing.md)
   
-[关于基于通知的索引的 MAPI url](about-mapi-urls-for-notification-based-indexing.md)
+[关于用于索引Notification-Based MAPI URL](about-mapi-urls-for-notification-based-indexing.md)
 
