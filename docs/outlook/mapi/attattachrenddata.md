@@ -15,12 +15,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427134"
 ---
-# <a name="attattachrenddata"></a><span data-ttu-id="56d54-103">attAttachRenddata</span><span class="sxs-lookup"><span data-stu-id="56d54-103">attAttachRenddata</span></span>
+# <a name="attattachrenddata"></a><span data-ttu-id="3e09a-103">attAttachRenddata</span><span class="sxs-lookup"><span data-stu-id="3e09a-103">attAttachRenddata</span></span>
 
   
   
-<span data-ttu-id="56d54-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="56d54-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3e09a-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3e09a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="56d54-105">**attAttachRenddata**属性被编码为**RENDDATA**结构, 该结构描述了邮件文本中的附件呈现方式和位置。</span><span class="sxs-lookup"><span data-stu-id="56d54-105">The **attAttachRenddata** attribute is encoded as a **RENDDATA** structure that describes how and where the attachment is rendered in the message text.</span></span> <span data-ttu-id="56d54-106">**RENDDATA**结构简单地在 TNEF 流中编码为从**RENDDATA**结构的第一个成员开始的**sizeof (RENDDATA)** 字节。</span><span class="sxs-lookup"><span data-stu-id="56d54-106">The **RENDDATA** structure is simply encoded in the TNEF stream as **sizeof(RENDDATA)** bytes beginning with the first member of the **RENDDATA** structure.</span></span> <span data-ttu-id="56d54-107">如果**RENDDATA**结构的**dwFlags**成员的值设置为**MAC_BINARY**, 则以下附件的数据将存储为 MacBinary 格式;否则, 附件数据将按通常方式进行编码。</span><span class="sxs-lookup"><span data-stu-id="56d54-107">If the value of the **RENDDATA** structure's **dwFlags** member is set to **MAC_BINARY**, then the data for the following attachment is stored in MacBinary format; otherwise, the attachment data is encoded as usual.</span></span>
+<span data-ttu-id="3e09a-105">**attAttachRenddata** 属性编码为描述附件在邮件文本中的呈现方式和位置的 **RENDDATA** 结构。</span><span class="sxs-lookup"><span data-stu-id="3e09a-105">The **attAttachRenddata** attribute is encoded as a **RENDDATA** structure that describes how and where the attachment is rendered in the message text.</span></span> <span data-ttu-id="3e09a-106">**RENDDATA** 结构在 TNEF 流中仅编码为 (**RENDDATA**) 字节的大小，从 **RENDDATA** 结构的第一个成员开始。</span><span class="sxs-lookup"><span data-stu-id="3e09a-106">The **RENDDATA** structure is simply encoded in the TNEF stream as **sizeof(RENDDATA)** bytes beginning with the first member of the **RENDDATA** structure.</span></span> <span data-ttu-id="3e09a-107">如果 **RENDDATA** 结构的 **dwFlags** 成员的值设置为 **MAC_BINARY，** 则以下附件的数据将存储为 MacBinary 格式;否则，附件数据将像往常一样编码。</span><span class="sxs-lookup"><span data-stu-id="3e09a-107">If the value of the **RENDDATA** structure's **dwFlags** member is set to **MAC_BINARY**, then the data for the following attachment is stored in MacBinary format; otherwise, the attachment data is encoded as usual.</span></span>
   
 

@@ -15,30 +15,30 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425951"
 ---
-# <a name="pidtagservertypedisplayname-canonical-property"></a><span data-ttu-id="b5f06-103">PidTagServerTypeDisplayName 规范属性</span><span class="sxs-lookup"><span data-stu-id="b5f06-103">PidTagServerTypeDisplayName Canonical Property</span></span>
+# <a name="pidtagservertypedisplayname-canonical-property"></a><span data-ttu-id="5bff0-103">PidTagServerTypeDisplayName 规范属性</span><span class="sxs-lookup"><span data-stu-id="5bff0-103">PidTagServerTypeDisplayName Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b5f06-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b5f06-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5bff0-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5bff0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b5f06-105">指定要在状态栏中显示的使用此属性的 Unicode 字符串。</span><span class="sxs-lookup"><span data-stu-id="b5f06-105">Specifies the Unicode string to display in the status bar with this property.</span></span>
+<span data-ttu-id="5bff0-105">使用此属性指定在状态栏中显示的 Unicode 字符串。</span><span class="sxs-lookup"><span data-stu-id="5bff0-105">Specifies the Unicode string to display in the status bar with this property.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b5f06-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="b5f06-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b5f06-107">PR_SERVER_TYPE_DISPLAY_NAME</span><span class="sxs-lookup"><span data-stu-id="b5f06-107">PR_SERVER_TYPE_DISPLAY_NAME</span></span>  <br/> |
-|<span data-ttu-id="b5f06-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="b5f06-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b5f06-109">0x341D</span><span class="sxs-lookup"><span data-stu-id="b5f06-109">0x341D</span></span>  <br/> |
-|<span data-ttu-id="b5f06-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="b5f06-110">Data type:</span></span>  <br/> |<span data-ttu-id="b5f06-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="b5f06-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="b5f06-112">区域：</span><span class="sxs-lookup"><span data-stu-id="b5f06-112">Area:</span></span>  <br/> |<span data-ttu-id="b5f06-113">常见</span><span class="sxs-lookup"><span data-stu-id="b5f06-113">Common</span></span>  <br/> |
+|<span data-ttu-id="5bff0-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="5bff0-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5bff0-107">PR_SERVER_TYPE_DISPLAY_NAME</span><span class="sxs-lookup"><span data-stu-id="5bff0-107">PR_SERVER_TYPE_DISPLAY_NAME</span></span>  <br/> |
+|<span data-ttu-id="5bff0-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="5bff0-108">Identifier:</span></span>  <br/> |<span data-ttu-id="5bff0-109">0x341D</span><span class="sxs-lookup"><span data-stu-id="5bff0-109">0x341D</span></span>  <br/> |
+|<span data-ttu-id="5bff0-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="5bff0-110">Data type:</span></span>  <br/> |<span data-ttu-id="5bff0-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="5bff0-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="5bff0-112">区域：</span><span class="sxs-lookup"><span data-stu-id="5bff0-112">Area:</span></span>  <br/> |<span data-ttu-id="5bff0-113">常见</span><span class="sxs-lookup"><span data-stu-id="5bff0-113">Common</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="b5f06-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b5f06-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5bff0-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5bff0-114">See also</span></span>
 
 
 
-[<span data-ttu-id="b5f06-115">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="b5f06-115">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="5bff0-115">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="5bff0-115">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="b5f06-116">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="b5f06-116">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="5bff0-116">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="5bff0-116">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b5f06-117">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="b5f06-117">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="5bff0-117">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="5bff0-117">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b5f06-118">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="b5f06-118">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="5bff0-118">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="5bff0-118">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

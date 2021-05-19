@@ -18,31 +18,31 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424796"
 ---
-# <a name="debugprintf"></a><span data-ttu-id="2301d-104">debugPrintf</span><span class="sxs-lookup"><span data-stu-id="2301d-104">debugPrintf</span></span>
+# <a name="debugprintf"></a><span data-ttu-id="11a73-104">debugPrintf</span><span class="sxs-lookup"><span data-stu-id="11a73-104">debugPrintf</span></span>
 
-<span data-ttu-id="2301d-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="2301d-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="11a73-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="11a73-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="2301d-106">通过 Windows SDK 函数**OutputDebugStringA**将以 null 结尾的字节字符串写入活动调试器的框架库函数。</span><span class="sxs-lookup"><span data-stu-id="2301d-106">Framework library function that writes a null-terminated byte-string to the active debugger via the Windows SDK function **OutputDebugStringA**.</span></span> <span data-ttu-id="2301d-107">如果应用程序没有调试器, 系统调试器将显示字符串。</span><span class="sxs-lookup"><span data-stu-id="2301d-107">If the application has no debugger, the system debugger displays the string.</span></span> <span data-ttu-id="2301d-108">如果应用程序没有调试器且系统调试器未处于活动状态, 则**debugPrintf**不会执行任何操作。</span><span class="sxs-lookup"><span data-stu-id="2301d-108">If the application has no debugger and the system debugger is not active, **debugPrintf** does nothing.</span></span> 
+<span data-ttu-id="11a73-106">通过 Windows SDK 函数 **OutputDebugStringA** 将以 null 结尾的字节字符串写入活动调试程序的框架库函数。</span><span class="sxs-lookup"><span data-stu-id="11a73-106">Framework library function that writes a null-terminated byte-string to the active debugger via the Windows SDK function **OutputDebugStringA**.</span></span> <span data-ttu-id="11a73-107">如果应用程序没有调试器，则系统调试程序将显示字符串。</span><span class="sxs-lookup"><span data-stu-id="11a73-107">If the application has no debugger, the system debugger displays the string.</span></span> <span data-ttu-id="11a73-108">如果应用程序没有调试器并且系统调试程序不活动， **则 debugPrintf 不** 执行任何操作。</span><span class="sxs-lookup"><span data-stu-id="11a73-108">If the application has no debugger and the system debugger is not active, **debugPrintf** does nothing.</span></span> 
   
-<span data-ttu-id="2301d-109">此函数不返回值。</span><span class="sxs-lookup"><span data-stu-id="2301d-109">This function does not return a value.</span></span>
+<span data-ttu-id="11a73-109">此函数不返回值。</span><span class="sxs-lookup"><span data-stu-id="11a73-109">This function does not return a value.</span></span>
   
 ```cs
 void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2301d-110">参数</span><span class="sxs-lookup"><span data-stu-id="2301d-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="11a73-110">参数</span><span class="sxs-lookup"><span data-stu-id="11a73-110">Parameters</span></span>
 
- <span data-ttu-id="2301d-111">_lpFormat (LPSTR)_</span><span class="sxs-lookup"><span data-stu-id="2301d-111">_lpFormat (LPSTR)_</span></span>
+ <span data-ttu-id="11a73-111">_lpFormat (LPSTR)_</span><span class="sxs-lookup"><span data-stu-id="11a73-111">_lpFormat (LPSTR)_</span></span>
   
-<span data-ttu-id="2301d-112">格式字符串, 遵循与**sprintf**函数一起使用的语法和规则。</span><span class="sxs-lookup"><span data-stu-id="2301d-112">The format string, which follows the syntax and rules for that used with the **sprintf** function.</span></span> 
+<span data-ttu-id="11a73-112">格式字符串，遵循用于 **sprintf** 函数的语法和规则。</span><span class="sxs-lookup"><span data-stu-id="11a73-112">The format string, which follows the syntax and rules for that used with the **sprintf** function.</span></span> 
   
- <span data-ttu-id="2301d-113">_自_</span><span class="sxs-lookup"><span data-stu-id="2301d-113">_arguments_</span></span>
+ <span data-ttu-id="11a73-113">_arguments_</span><span class="sxs-lookup"><span data-stu-id="11a73-113">_arguments_</span></span>
   
-<span data-ttu-id="2301d-114">与格式字符串匹配的零个或多个参数。</span><span class="sxs-lookup"><span data-stu-id="2301d-114">Zero or more arguments to match the format string.</span></span>
+<span data-ttu-id="11a73-114">匹配格式字符串的零个或多个参数。</span><span class="sxs-lookup"><span data-stu-id="11a73-114">Zero or more arguments to match the format string.</span></span>
   
-## <a name="example"></a><span data-ttu-id="2301d-115">示例</span><span class="sxs-lookup"><span data-stu-id="2301d-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="11a73-115">示例</span><span class="sxs-lookup"><span data-stu-id="11a73-115">Example</span></span>
 
-<span data-ttu-id="2301d-116">此函数打印字符串以显示该控件已传递给它。</span><span class="sxs-lookup"><span data-stu-id="2301d-116">This function prints a string to show that control was passed to it.</span></span> <span data-ttu-id="2301d-117">必须在编译之前定义 _debug 标志, 否则此函数将不执行任何操作。</span><span class="sxs-lookup"><span data-stu-id="2301d-117">The _DEBUG flag must be defined before compiling or else this function does nothing.</span></span>
+<span data-ttu-id="11a73-116">此函数打印一个字符串，以显示控件已传递给它。</span><span class="sxs-lookup"><span data-stu-id="11a73-116">This function prints a string to show that control was passed to it.</span></span> <span data-ttu-id="11a73-117">编译_DEBUG必须定义该标志，否则此函数不执行任何操作。</span><span class="sxs-lookup"><span data-stu-id="11a73-117">The _DEBUG flag must be defined before compiling or else this function does nothing.</span></span>
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -57,9 +57,9 @@ short WINAPI debugPrintfExample(void)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="2301d-118">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2301d-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="11a73-118">另请参阅</span><span class="sxs-lookup"><span data-stu-id="11a73-118">See also</span></span>
 
 
 
-[<span data-ttu-id="2301d-119">框架库中的函数</span><span class="sxs-lookup"><span data-stu-id="2301d-119">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="11a73-119">框架库中的函数</span><span class="sxs-lookup"><span data-stu-id="11a73-119">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

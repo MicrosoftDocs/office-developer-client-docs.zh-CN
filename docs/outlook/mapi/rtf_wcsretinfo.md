@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426168"
 ---
-# <a name="rtfwcsretinfo"></a><span data-ttu-id="cfd27-103">RTF_WCSRETINFO</span><span class="sxs-lookup"><span data-stu-id="cfd27-103">RTF_WCSRETINFO</span></span>
+# <a name="rtf_wcsretinfo"></a><span data-ttu-id="f2dd3-103">RTF_WCSRETINFO</span><span class="sxs-lookup"><span data-stu-id="f2dd3-103">RTF_WCSRETINFO</span></span>
 
-<span data-ttu-id="cfd27-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cfd27-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f2dd3-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f2dd3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cfd27-105">此结构提供了从解压缩以压缩的 rtf 格式 (RTF) 封装的邮件正文返回的本机格式的信息。</span><span class="sxs-lookup"><span data-stu-id="cfd27-105">This structure provides information about a stream in native format returned from decompressing the body of a message that is encapsulated in compressed Rich Text Format (RTF).</span></span>
+<span data-ttu-id="f2dd3-105">此结构提供有关以本机格式返回的流的信息，该流从解压缩以 RTF 格式压缩的 RTF 格式封装的邮件正文 (返回) 。</span><span class="sxs-lookup"><span data-stu-id="f2dd3-105">This structure provides information about a stream in native format returned from decompressing the body of a message that is encapsulated in compressed Rich Text Format (RTF).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="cfd27-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="cfd27-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="f2dd3-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="f2dd3-106">Quick info</span></span>
 
 ```cpp
 typedef struct { 
@@ -30,23 +30,23 @@ typedef struct {
 } RTF_WCSRETINFO;
 ```
 
-## <a name="members"></a><span data-ttu-id="cfd27-107">成员</span><span class="sxs-lookup"><span data-stu-id="cfd27-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="f2dd3-107">成员</span><span class="sxs-lookup"><span data-stu-id="f2dd3-107">Members</span></span>
 
-<span data-ttu-id="cfd27-108">_size_</span><span class="sxs-lookup"><span data-stu-id="cfd27-108">_size_</span></span>
+<span data-ttu-id="f2dd3-108">_size_</span><span class="sxs-lookup"><span data-stu-id="f2dd3-108">_size_</span></span>
   
-> <span data-ttu-id="cfd27-109">以字节数表示的**RTF_WCSRETINFO**结构的大小。</span><span class="sxs-lookup"><span data-stu-id="cfd27-109">The size of the **RTF_WCSRETINFO** structure in number of bytes.</span></span> 
+> <span data-ttu-id="f2dd3-109">数据库结构 **的大小RTF_WCSRETINFO** 字节数。</span><span class="sxs-lookup"><span data-stu-id="f2dd3-109">The size of the **RTF_WCSRETINFO** structure in number of bytes.</span></span> 
     
-<span data-ttu-id="cfd27-110">_ulStreamFlags_</span><span class="sxs-lookup"><span data-stu-id="cfd27-110">_ulStreamFlags_</span></span>
+<span data-ttu-id="f2dd3-110">_ulStreamFlags_</span><span class="sxs-lookup"><span data-stu-id="f2dd3-110">_ulStreamFlags_</span></span>
   
-> <span data-ttu-id="cfd27-111">这是一个指示本机正文的格式的值。</span><span class="sxs-lookup"><span data-stu-id="cfd27-111">This is a value that indicates the format of the native body.</span></span> <span data-ttu-id="cfd27-112">仅当**MAPI_NATIVE_BODY**标志在传递给[WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)函数的[RTF_WCSINFO](rtf_wcsinfo.md)结构的_ulFlags_参数中传递时, 此值才有效。</span><span class="sxs-lookup"><span data-stu-id="cfd27-112">This value is only valid if the **MAPI_NATIVE_BODY** flag is passed in the  _ulFlags_ parameter of the [RTF_WCSINFO](rtf_wcsinfo.md) structure that is passed to the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function.</span></span> <span data-ttu-id="cfd27-113">此值可以是下列值之一:</span><span class="sxs-lookup"><span data-stu-id="cfd27-113">This can be one of the following values:</span></span> 
+> <span data-ttu-id="f2dd3-111">此值指示本机正文的格式。</span><span class="sxs-lookup"><span data-stu-id="f2dd3-111">This is a value that indicates the format of the native body.</span></span> <span data-ttu-id="f2dd3-112">只有在传递到 [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)函数的 RTF_WCSINFO 结构的 _ulFlags_ 参数中传递 [MAPI_NATIVE_BODY](rtf_wcsinfo.md)标志时，此值才有效。 </span><span class="sxs-lookup"><span data-stu-id="f2dd3-112">This value is only valid if the **MAPI_NATIVE_BODY** flag is passed in the  _ulFlags_ parameter of the [RTF_WCSINFO](rtf_wcsinfo.md) structure that is passed to the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function.</span></span> <span data-ttu-id="f2dd3-113">这可以是下列值之一：</span><span class="sxs-lookup"><span data-stu-id="f2dd3-113">This can be one of the following values:</span></span> 
     
 |||
 |:-----|:-----|
-|<span data-ttu-id="cfd27-114">MAPI_NATIVE_BODY_TYPE_RTF</span><span class="sxs-lookup"><span data-stu-id="cfd27-114">MAPI_NATIVE_BODY_TYPE_RTF</span></span>  <br/> |<span data-ttu-id="cfd27-115">仅当_ulFlags_包含**MAPI_NATIVE_BODY**标志, 且正文为 RTF 时才使用此值。</span><span class="sxs-lookup"><span data-stu-id="cfd27-115">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is RTF.</span></span>  <br/> |
-|<span data-ttu-id="cfd27-116">MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT</span><span class="sxs-lookup"><span data-stu-id="cfd27-116">MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT</span></span>  <br/> |<span data-ttu-id="cfd27-117">仅当_ulFlags_包含**MAPI_NATIVE_BODY**标志, 且正文为纯文本格式时才使用此值。</span><span class="sxs-lookup"><span data-stu-id="cfd27-117">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is plain text format.</span></span>  <br/> |
-|<span data-ttu-id="cfd27-118">MAPI_NATIVE_BODY_TYPE_HTML</span><span class="sxs-lookup"><span data-stu-id="cfd27-118">MAPI_NATIVE_BODY_TYPE_HTML</span></span>  <br/> |<span data-ttu-id="cfd27-119">仅当_ulFlags_包含**MAPI_NATIVE_BODY**标志, 并且正文是超文本标记语言 (HTML) 格式时, 才使用此值。</span><span class="sxs-lookup"><span data-stu-id="cfd27-119">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is Hypertext Markup Language (HTML) format.</span></span>  <br/> |
+|<span data-ttu-id="f2dd3-114">MAPI_NATIVE_BODY_TYPE_RTF</span><span class="sxs-lookup"><span data-stu-id="f2dd3-114">MAPI_NATIVE_BODY_TYPE_RTF</span></span>  <br/> |<span data-ttu-id="f2dd3-115">只有在  _ulFlags_ 包含 MAPI_NATIVE_BODY 标志且正文为 RTF **时** ，才使用此值。</span><span class="sxs-lookup"><span data-stu-id="f2dd3-115">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is RTF.</span></span>  <br/> |
+|<span data-ttu-id="f2dd3-116">MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT</span><span class="sxs-lookup"><span data-stu-id="f2dd3-116">MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT</span></span>  <br/> |<span data-ttu-id="f2dd3-117">只有在  _ulFlags_ 包含 MAPI_NATIVE_BODY **标志且** 正文为纯文本格式时，才使用此值。</span><span class="sxs-lookup"><span data-stu-id="f2dd3-117">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is plain text format.</span></span>  <br/> |
+|<span data-ttu-id="f2dd3-118">MAPI_NATIVE_BODY_TYPE_HTML</span><span class="sxs-lookup"><span data-stu-id="f2dd3-118">MAPI_NATIVE_BODY_TYPE_HTML</span></span>  <br/> |<span data-ttu-id="f2dd3-119">此值仅在  _ulFlags_ 包括 MAPI_NATIVE_BODY **标志且** 正文为超文本标记语言 (HTML) 使用。</span><span class="sxs-lookup"><span data-stu-id="f2dd3-119">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is Hypertext Markup Language (HTML) format.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="cfd27-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cfd27-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f2dd3-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f2dd3-120">See also</span></span>
 
-- [<span data-ttu-id="cfd27-121">WrapCompressedRTFStreamEx</span><span class="sxs-lookup"><span data-stu-id="cfd27-121">WrapCompressedRTFStreamEx</span></span>](wrapcompressedrtfstreamex.md)
+- [<span data-ttu-id="f2dd3-121">WrapCompressedRTFStreamEx</span><span class="sxs-lookup"><span data-stu-id="f2dd3-121">WrapCompressedRTFStreamEx</span></span>](wrapcompressedrtfstreamex.md)
 

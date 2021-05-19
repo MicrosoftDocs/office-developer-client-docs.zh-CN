@@ -15,29 +15,29 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424348"
 ---
-# <a name="profile-tables"></a><span data-ttu-id="37706-103">配置文件表</span><span class="sxs-lookup"><span data-stu-id="37706-103">Profile Tables</span></span>
+# <a name="profile-tables"></a><span data-ttu-id="1a2bf-103">配置文件表</span><span class="sxs-lookup"><span data-stu-id="1a2bf-103">Profile Tables</span></span>
 
   
   
-<span data-ttu-id="37706-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="37706-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1a2bf-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1a2bf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="37706-105">配置文件表列出了与特定客户端应用程序相关联的所有配置文件的相关信息。</span><span class="sxs-lookup"><span data-stu-id="37706-105">The profile table lists information about all profiles associated with a particular client application.</span></span> <span data-ttu-id="37706-106">每个会话都有一个配置文件表, 由 MAPI 实现, 以供客户端使用。</span><span class="sxs-lookup"><span data-stu-id="37706-106">There is one profile table for every session, implemented by MAPI for use by clients.</span></span> 
+<span data-ttu-id="1a2bf-105">配置文件表列出了有关与特定客户端应用程序关联的所有配置文件的信息。</span><span class="sxs-lookup"><span data-stu-id="1a2bf-105">The profile table lists information about all profiles associated with a particular client application.</span></span> <span data-ttu-id="1a2bf-106">每个会话都有一个配置文件表，由 MAPI 实现供客户端使用。</span><span class="sxs-lookup"><span data-stu-id="1a2bf-106">There is one profile table for every session, implemented by MAPI for use by clients.</span></span> 
   
-<span data-ttu-id="37706-107">客户端通过调用[IProfAdmin:: GetProfileTable](iprofadmin-getprofiletable.md)方法访问配置文件表。</span><span class="sxs-lookup"><span data-stu-id="37706-107">Clients access the profile table by calling the [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) method.</span></span> 
+<span data-ttu-id="1a2bf-107">客户端通过调用 [IProfAdmin：：GetProfileTable 方法访问配置文件](iprofadmin-getprofiletable.md) 表。</span><span class="sxs-lookup"><span data-stu-id="1a2bf-107">Clients access the profile table by calling the [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) method.</span></span> 
   
-<span data-ttu-id="37706-108">配置文件表是静态表。</span><span class="sxs-lookup"><span data-stu-id="37706-108">The profile table is a static table.</span></span> <span data-ttu-id="37706-109">已标记为删除的配置文件不包含在配置文件表中。</span><span class="sxs-lookup"><span data-stu-id="37706-109">Profiles that have been marked for deletion are not included in the profile table.</span></span>
+<span data-ttu-id="1a2bf-108">配置文件表是静态表。</span><span class="sxs-lookup"><span data-stu-id="1a2bf-108">The profile table is a static table.</span></span> <span data-ttu-id="1a2bf-109">配置文件表中不包含已标记为删除的配置文件。</span><span class="sxs-lookup"><span data-stu-id="1a2bf-109">Profiles that have been marked for deletion are not included in the profile table.</span></span>
   
-<span data-ttu-id="37706-110">与大多数表实现一样, 如果调用了**GetProfileTable**并且没有可用于客户端的配置文件, 则会创建表, 其中包含零行。</span><span class="sxs-lookup"><span data-stu-id="37706-110">As with most table implementations, if **GetProfileTable** is called and there are no profiles available to the client, the table is created with zero rows.</span></span> 
+<span data-ttu-id="1a2bf-110">与大多数表实现一样，如果 **调用了 GetProfileTable** 并且客户端没有可用的配置文件，则使用零行创建表。</span><span class="sxs-lookup"><span data-stu-id="1a2bf-110">As with most table implementations, if **GetProfileTable** is called and there are no profiles available to the client, the table is created with zero rows.</span></span> 
   
-<span data-ttu-id="37706-111">以下属性构成了 profile 表中的必需列集:</span><span class="sxs-lookup"><span data-stu-id="37706-111">The following properties make up the required column set in profile tables:</span></span>
+<span data-ttu-id="1a2bf-111">以下属性将包含配置文件表中所需的列集：</span><span class="sxs-lookup"><span data-stu-id="1a2bf-111">The following properties make up the required column set in profile tables:</span></span>
   
- <span data-ttu-id="37706-112">**PR_DEFAULT_PROFILE**([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="37706-112">**PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md))</span></span> 
+ <span data-ttu-id="1a2bf-112">**PR_DEFAULT_PROFILE (** [PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) </span><span class="sxs-lookup"><span data-stu-id="1a2bf-112">**PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md))</span></span> 
   
- <span data-ttu-id="37706-113">**PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="37706-113">**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))</span></span> 
+ <span data-ttu-id="1a2bf-113">**PR_DISPLAY_NAME (** [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) </span><span class="sxs-lookup"><span data-stu-id="1a2bf-113">**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="37706-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="37706-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1a2bf-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1a2bf-114">See also</span></span>
 
 
 
-[<span data-ttu-id="37706-115">MAPI 表</span><span class="sxs-lookup"><span data-stu-id="37706-115">MAPI Tables</span></span>](mapi-tables.md)
+[<span data-ttu-id="1a2bf-115">MAPI 表</span><span class="sxs-lookup"><span data-stu-id="1a2bf-115">MAPI Tables</span></span>](mapi-tables.md)
 

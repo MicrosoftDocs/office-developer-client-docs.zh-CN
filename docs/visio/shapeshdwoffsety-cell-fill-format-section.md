@@ -16,26 +16,26 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426819"
 ---
-# <a name="shapeshdwoffsety-cell-fill-format-section"></a><span data-ttu-id="3934c-103">ShapeShdwOffsetY 单元格（“Fill Format”内容）</span><span class="sxs-lookup"><span data-stu-id="3934c-103">ShapeShdwOffsetY Cell (Fill Format Section)</span></span>
+# <a name="shapeshdwoffsety-cell-fill-format-section"></a><span data-ttu-id="cda1b-103">ShapeShdwOffsetY 单元格（“Fill Format”内容）</span><span class="sxs-lookup"><span data-stu-id="cda1b-103">ShapeShdwOffsetY Cell (Fill Format Section)</span></span>
 
-<span data-ttu-id="3934c-104">确定形状的阴影与该形状垂直偏移的距离（按页面单位）。</span><span class="sxs-lookup"><span data-stu-id="3934c-104">Determines the distance in page units that a shape's shadow is offset vertically from the shape.</span></span>
+<span data-ttu-id="cda1b-104">确定形状的阴影与该形状垂直偏移的距离（按页面单位）。</span><span class="sxs-lookup"><span data-stu-id="cda1b-104">Determines the distance in page units that a shape's shadow is offset vertically from the shape.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="3934c-105">说明</span><span class="sxs-lookup"><span data-stu-id="3934c-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cda1b-105">备注</span><span class="sxs-lookup"><span data-stu-id="cda1b-105">Remarks</span></span>
 
-<span data-ttu-id="3934c-106">此值对应于 **“阴影”** 对话框（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“阴影”**，然后单击 **“阴影选项”**）中的 **“Y 轴偏移”** 设置中的值。</span><span class="sxs-lookup"><span data-stu-id="3934c-106">This value corresponds to the value in the **Y Offset** setting in the **Shadow** dialog box (on the **Home** tab, in the **Shape** group, click **Shadow**, and then click **Shadow Options**).</span></span>
+<span data-ttu-id="cda1b-106">此值对应于 **“阴影”** 对话框（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“阴影”**，然后单击 **“阴影选项”**）中的 **“Y 轴偏移”** 设置中的值。</span><span class="sxs-lookup"><span data-stu-id="cda1b-106">This value corresponds to the value in the **Y Offset** setting in the **Shadow** dialog box (on the **Home** tab, in the **Shape** group, click **Shadow**, and then click **Shadow Options**).</span></span>
   
-<span data-ttu-id="3934c-107">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShapeShdwOffsetY 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="3934c-107">To get a reference to the ShapeShdwOffsetY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="cda1b-107">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShapeShdwOffsetY 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="cda1b-107">To get a reference to the ShapeShdwOffsetY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3934c-108">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="3934c-108">Cell name:</span></span>  <br/> | <span data-ttu-id="3934c-109">ShapeShdwOffsetY</span><span class="sxs-lookup"><span data-stu-id="3934c-109">ShapeShdwOffsetY</span></span>  <br/> |
+| <span data-ttu-id="cda1b-108">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="cda1b-108">Cell name:</span></span>  <br/> | <span data-ttu-id="cda1b-109">ShapeShdwOffsetY</span><span class="sxs-lookup"><span data-stu-id="cda1b-109">ShapeShdwOffsetY</span></span>  <br/> |
    
-<span data-ttu-id="3934c-110">若要从某个程序按索引获取对 ShapeShdwOffsetY 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="3934c-110">To get a reference to the ShapeShdwOffsetY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="cda1b-110">若要从某个程序按索引获取对 ShapeShdwOffsetY 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="cda1b-110">To get a reference to the ShapeShdwOffsetY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3934c-111">内容索引：</span><span class="sxs-lookup"><span data-stu-id="3934c-111">Section index:</span></span>  <br/> |<span data-ttu-id="3934c-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3934c-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="3934c-113">行索引：</span><span class="sxs-lookup"><span data-stu-id="3934c-113">Row index:</span></span>  <br/> |<span data-ttu-id="3934c-114">**visRowFill**</span><span class="sxs-lookup"><span data-stu-id="3934c-114">**visRowFill**</span></span> <br/> |
-| <span data-ttu-id="3934c-115">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="3934c-115">Cell index:</span></span>  <br/> |<span data-ttu-id="3934c-116">**visFillShdwOffsetY**</span><span class="sxs-lookup"><span data-stu-id="3934c-116">**visFillShdwOffsetY**</span></span> <br/> |
+| <span data-ttu-id="cda1b-111">内容索引：</span><span class="sxs-lookup"><span data-stu-id="cda1b-111">Section index:</span></span>  <br/> |<span data-ttu-id="cda1b-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="cda1b-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="cda1b-113">行索引：</span><span class="sxs-lookup"><span data-stu-id="cda1b-113">Row index:</span></span>  <br/> |<span data-ttu-id="cda1b-114">**visRowFill**</span><span class="sxs-lookup"><span data-stu-id="cda1b-114">**visRowFill**</span></span> <br/> |
+| <span data-ttu-id="cda1b-115">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="cda1b-115">Cell index:</span></span>  <br/> |<span data-ttu-id="cda1b-116">**visFillShdwOffsetY**</span><span class="sxs-lookup"><span data-stu-id="cda1b-116">**visFillShdwOffsetY**</span></span> <br/> |
    
 

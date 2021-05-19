@@ -14,25 +14,25 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426665"
 ---
-# <a name="containermembercount-function"></a><span data-ttu-id="7877a-103">CONTAINERMEMBERCOUNT 函数</span><span class="sxs-lookup"><span data-stu-id="7877a-103">CONTAINERMEMBERCOUNT Function</span></span>
+# <a name="containermembercount-function"></a><span data-ttu-id="c4efe-103">CONTAINERMEMBERCOUNT 函数</span><span class="sxs-lookup"><span data-stu-id="c4efe-103">CONTAINERMEMBERCOUNT Function</span></span>
 
-<span data-ttu-id="7877a-104">返回容器中形状的总数。</span><span class="sxs-lookup"><span data-stu-id="7877a-104">Returns the total number of shapes in the container.</span></span>
+<span data-ttu-id="c4efe-104">返回容器中形状的总数。</span><span class="sxs-lookup"><span data-stu-id="c4efe-104">Returns the total number of shapes in the container.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="7877a-105">版本信息</span><span class="sxs-lookup"><span data-stu-id="7877a-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="c4efe-105">版本信息</span><span class="sxs-lookup"><span data-stu-id="c4efe-105">Version Information</span></span>
 
-<span data-ttu-id="7877a-106">添加的版本： Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="7877a-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="c4efe-106">添加的版本： Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="c4efe-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="7877a-107">语法</span><span class="sxs-lookup"><span data-stu-id="7877a-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c4efe-107">语法</span><span class="sxs-lookup"><span data-stu-id="c4efe-107">Syntax</span></span>
 
-<span data-ttu-id="7877a-108">CONTAINERMEMBERCOUNT ()</span><span class="sxs-lookup"><span data-stu-id="7877a-108">CONTAINERMEMBERCOUNT()</span></span>
+<span data-ttu-id="c4efe-108">CONTAINERMEMBERCOUNT () </span><span class="sxs-lookup"><span data-stu-id="c4efe-108">CONTAINERMEMBERCOUNT()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="7877a-109">返回值</span><span class="sxs-lookup"><span data-stu-id="7877a-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="c4efe-109">返回值</span><span class="sxs-lookup"><span data-stu-id="c4efe-109">Return value</span></span>
 
- <span data-ttu-id="7877a-110">**Integer**</span><span class="sxs-lookup"><span data-stu-id="7877a-110">**Integer**</span></span>
+ <span data-ttu-id="c4efe-110">**Integer**</span><span class="sxs-lookup"><span data-stu-id="c4efe-110">**Integer**</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="7877a-111">说明</span><span class="sxs-lookup"><span data-stu-id="7877a-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c4efe-111">备注</span><span class="sxs-lookup"><span data-stu-id="c4efe-111">Remarks</span></span>
 
-<span data-ttu-id="7877a-112">如果形状不是容器，则 CONTAINERMEMBERCOUNT 返回 -1。</span><span class="sxs-lookup"><span data-stu-id="7877a-112">If the shape is not a container, CONTAINERMEMBERCOUNT returns -1.</span></span>
+<span data-ttu-id="c4efe-112">如果形状不是容器，则 CONTAINERMEMBERCOUNT 返回 -1。</span><span class="sxs-lookup"><span data-stu-id="c4efe-112">If the shape is not a container, CONTAINERMEMBERCOUNT returns -1.</span></span>
   
 

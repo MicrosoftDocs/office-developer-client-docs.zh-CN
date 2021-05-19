@@ -19,49 +19,49 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425664"
 ---
-# <a name="pidtaglongtermentryidfromtable-canonical-property"></a><span data-ttu-id="4c8cf-103">PidTagLongTermEntryIdFromTable 规范属性</span><span class="sxs-lookup"><span data-stu-id="4c8cf-103">PidTagLongTermEntryIdFromTable Canonical Property</span></span>
+# <a name="pidtaglongtermentryidfromtable-canonical-property"></a><span data-ttu-id="e6fbb-103">PidTagLongTermEntryIdFromTable 规范属性</span><span class="sxs-lookup"><span data-stu-id="e6fbb-103">PidTagLongTermEntryIdFromTable Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4c8cf-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4c8cf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e6fbb-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e6fbb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4c8cf-105">获取项目的长期条目标识符。</span><span class="sxs-lookup"><span data-stu-id="4c8cf-105">Obtains the long- term entry identifier of an item.</span></span>
+<span data-ttu-id="e6fbb-105">获取项目的长期条目标识符。</span><span class="sxs-lookup"><span data-stu-id="e6fbb-105">Obtains the long- term entry identifier of an item.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4c8cf-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="4c8cf-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4c8cf-107">PR_LONGTERM_ENTRYID_FROM_TABLE</span><span class="sxs-lookup"><span data-stu-id="4c8cf-107">PR_LONGTERM_ENTRYID_FROM_TABLE</span></span>  <br/> |
-|<span data-ttu-id="4c8cf-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="4c8cf-108">Identifier:</span></span>  <br/> |<span data-ttu-id="4c8cf-109">0x6670</span><span class="sxs-lookup"><span data-stu-id="4c8cf-109">0x6670</span></span>  <br/> |
-|<span data-ttu-id="4c8cf-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="4c8cf-110">Data type:</span></span>  <br/> |<span data-ttu-id="4c8cf-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="4c8cf-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="4c8cf-112">区域：</span><span class="sxs-lookup"><span data-stu-id="4c8cf-112">Area:</span></span>  <br/> |<span data-ttu-id="4c8cf-113">表格属性</span><span class="sxs-lookup"><span data-stu-id="4c8cf-113">Table Properties</span></span>  <br/> |
+|<span data-ttu-id="e6fbb-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="e6fbb-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e6fbb-107">PR_LONGTERM_ENTRYID_FROM_TABLE</span><span class="sxs-lookup"><span data-stu-id="e6fbb-107">PR_LONGTERM_ENTRYID_FROM_TABLE</span></span>  <br/> |
+|<span data-ttu-id="e6fbb-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="e6fbb-108">Identifier:</span></span>  <br/> |<span data-ttu-id="e6fbb-109">0x6670</span><span class="sxs-lookup"><span data-stu-id="e6fbb-109">0x6670</span></span>  <br/> |
+|<span data-ttu-id="e6fbb-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="e6fbb-110">Data type:</span></span>  <br/> |<span data-ttu-id="e6fbb-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="e6fbb-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="e6fbb-112">区域：</span><span class="sxs-lookup"><span data-stu-id="e6fbb-112">Area:</span></span>  <br/> |<span data-ttu-id="e6fbb-113">表属性</span><span class="sxs-lookup"><span data-stu-id="e6fbb-113">Table Properties</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4c8cf-114">说明</span><span class="sxs-lookup"><span data-stu-id="4c8cf-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e6fbb-114">备注</span><span class="sxs-lookup"><span data-stu-id="e6fbb-114">Remarks</span></span>
 
-<span data-ttu-id="4c8cf-115">可以在内容表中使用此属性将项的条目标识符作为长期条目标识符 (而不是短期条目标识符) 获取。</span><span class="sxs-lookup"><span data-stu-id="4c8cf-115">This property can be used in a contents table to get the entry identifier of an item as a long-term entry identifier instead of a short-term entry identifier.</span></span> <span data-ttu-id="4c8cf-116">有关长期和短期标识符的信息, 请参阅**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))。</span><span class="sxs-lookup"><span data-stu-id="4c8cf-116">For information about long-term and short-term identifiers, see **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).</span></span>
+<span data-ttu-id="e6fbb-115">此属性可在内容表中使用，以作为长期条目标识符（而不是短期条目标识符）获取项的条目标识符。</span><span class="sxs-lookup"><span data-stu-id="e6fbb-115">This property can be used in a contents table to get the entry identifier of an item as a long-term entry identifier instead of a short-term entry identifier.</span></span> <span data-ttu-id="e6fbb-116">有关长期和短期标识符的信息，请参阅 PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) 。 </span><span class="sxs-lookup"><span data-stu-id="e6fbb-116">For information about long-term and short-term identifiers, see **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="4c8cf-117">相关资源</span><span class="sxs-lookup"><span data-stu-id="4c8cf-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="e6fbb-117">相关资源</span><span class="sxs-lookup"><span data-stu-id="e6fbb-117">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="4c8cf-118">头文件</span><span class="sxs-lookup"><span data-stu-id="4c8cf-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="e6fbb-118">头文件</span><span class="sxs-lookup"><span data-stu-id="e6fbb-118">Header files</span></span>
 
-<span data-ttu-id="4c8cf-119">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="4c8cf-119">Mapidefs.h</span></span>
+<span data-ttu-id="e6fbb-119">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e6fbb-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4c8cf-120">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="4c8cf-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="e6fbb-120">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="e6fbb-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="4c8cf-121">Mapitags</span><span class="sxs-lookup"><span data-stu-id="4c8cf-121">Mapitags.h</span></span>
+<span data-ttu-id="e6fbb-121">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="e6fbb-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="4c8cf-122">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="4c8cf-122">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="e6fbb-122">包含作为备用名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="e6fbb-122">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4c8cf-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4c8cf-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e6fbb-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e6fbb-123">See also</span></span>
 
 
 
-[<span data-ttu-id="4c8cf-124">PidTagEntryId 规范属性</span><span class="sxs-lookup"><span data-stu-id="4c8cf-124">PidTagEntryId Canonical Property</span></span>](pidtagentryid-canonical-property.md)
+[<span data-ttu-id="e6fbb-124">PidTagEntryId 规范属性</span><span class="sxs-lookup"><span data-stu-id="e6fbb-124">PidTagEntryId Canonical Property</span></span>](pidtagentryid-canonical-property.md)
 
 
-[<span data-ttu-id="4c8cf-125">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="4c8cf-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="e6fbb-125">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="e6fbb-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4c8cf-126">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="4c8cf-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="e6fbb-126">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="e6fbb-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4c8cf-127">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="4c8cf-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="e6fbb-127">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="e6fbb-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4c8cf-128">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="4c8cf-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="e6fbb-128">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="e6fbb-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
