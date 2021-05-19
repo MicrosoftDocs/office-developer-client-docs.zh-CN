@@ -25,13 +25,13 @@ ms.locfileid: "33433351"
   
 ## <a name="syntax"></a>语法
 
-HASCATEGORY (* * *category* * *) 
+HASCATEGORY (** *category* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _类别_ <br/> |必需  <br/> |**String** <br/> |要搜索的类别。  <br/> |
+| _category_ <br/> |必需  <br/> |**String** <br/> |要搜索的类别。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
@@ -39,6 +39,6 @@ HASCATEGORY (* * *category* * *)
   
 ## <a name="remarks"></a>说明
 
- *类别*是用户定义的字符串, 可用于对形状进行分类。 可以在形状 ShapeSheet 的 User.msvShapeCategories 单元格中定义类别。 可以通过用分号分隔类别来为形状定义多个类别。 
+ *类别*  是用户定义的字符串，可用于对形状进行分类。 可以在形状 ShapeSheet 的 User.msvShapeCategories 单元格中定义类别。 可以通过用分号分隔类别来为形状定义多个类别。 
   
 

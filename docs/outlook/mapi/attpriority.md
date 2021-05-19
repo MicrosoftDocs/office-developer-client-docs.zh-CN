@@ -21,12 +21,12 @@ ms.locfileid: "33434520"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 邮件优先级映射到 TNEF 值以实现向后兼容性, 如下所示:
+MAPI 消息优先级映射到 TNEF 值，用于向后兼容，如下所示：
   
 |**Priority**|**MAPI 值**|**TNEF 值**|
 |:-----|:-----|:-----|
-|通用  <br/> |-1  <br/> |第三章  <br/> |
-|高效  <br/> |0  <br/> |双面  <br/> |
-|降低  <br/> |1  <br/> |1  <br/> |
+|normal  <br/> |-1  <br/> |3  <br/> |
+|high  <br/> |0  <br/> |2  <br/> |
+|low  <br/> |1  <br/> |1  <br/> |
    
 

@@ -25,12 +25,12 @@ ms.locfileid: "33433911"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含描述 MAPI 谓词的[SMAPIVerb](smapiverb.md)结构的数组。 
+包含一组描述 MAPI 动词的 [SMAPIVerb](smapiverb.md) 结构。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
-|相关宏:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
+|相关宏：  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,15 +45,15 @@ typedef struct
 
  **cForms**
   
-> 数组中的谓词的计数。
+> 数组中的动词计数。
     
  **aFormInfo**
   
-> MAPI 谓词数组。
+> MAPI 动词数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SMAPIVerbArray**结构作为参数传递到[IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md)方法中。 
+**SMAPIVerbArray** 结构作为 [IMAPIFormInfo：：CalcVerbSet](imapiforminfo-calcverbset.md)方法中的参数传递。 
   
 ## <a name="see-also"></a>另请参阅
 

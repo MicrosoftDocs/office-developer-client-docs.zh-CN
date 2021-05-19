@@ -37,11 +37,11 @@ HRESULT SetSyncResult(
 
  _hrSync_
   
->  实时同步的结果。 
+>  [in]同步的结果。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-调用**IOSTX:: SetSyncResult**之前调用**IOSTX:: SyncEnd**将同步结果的本地存储通知给本地存储。 
+在 **调用 IOSTX：：SyncEnd 之前调用 IOSTX：：SetSyncResult** 以通知本地存储同步结果。  
   
 ## <a name="see-also"></a>另请参阅
 

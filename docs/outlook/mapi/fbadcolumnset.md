@@ -25,7 +25,7 @@ ms.locfileid: "33434716"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-测试在对[IMAPITable:: SetColumns](imapitable-setcolumns.md)方法的后续调用中, 服务提供商是否要使用的表格列集的有效性。 
+测试供服务提供商在后续调用 [IMAPITable：：SetColumns](imapitable-setcolumns.md) 方法时使用的表列集的有效性。 
   
 |||
 |:-----|:-----|
@@ -43,7 +43,7 @@ ULONG FBadColumnSet(
 
  _lpptaCols_
   
-> 实时指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含定义要验证的表列的属性标记的数组。 
+> [in]指向 [SPropTagArray](sproptagarray.md) 结构的指针，其中包含定义要验证的表列的属性标记数组。 
     
 ## <a name="return-value"></a>返回值
 
@@ -55,8 +55,8 @@ FALSE
   
 > 指定的列集有效。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**FBadColumnSet**函数将类型为 PT_ERROR 的列视为无效, 并将类型为 PT_NULL 的列视为有效。 
+**FBadColumnSet** 函数将类型为PT_ERROR的列视为无效，而类型为 PT_NULL列则视为有效。 
   
 

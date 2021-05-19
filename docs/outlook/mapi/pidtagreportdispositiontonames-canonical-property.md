@@ -23,7 +23,7 @@ ms.locfileid: "33432966"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示请求回执的邮件的报告收件人的名称。
+指示请求接收的邮件的报告收件人的名称。
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ ms.locfileid: "33432966"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]] 
+[[MS-OXPROPS]] 
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -25,13 +25,13 @@ ms.locfileid: "33434107"
   
 ## <a name="syntax"></a>语法
 
-版本 ()
+版本 () 
   
 ### <a name="return-value"></a>返回值
 
 整数
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 您可以使用 VERSION 函数编写 ShapeSheet 公式，这些公式根据计算时使用的 Visio 版本而执行不同的计算。
   

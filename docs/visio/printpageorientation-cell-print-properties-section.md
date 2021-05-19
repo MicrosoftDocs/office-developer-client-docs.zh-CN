@@ -24,11 +24,11 @@ ms.locfileid: "33434863"
 |:-----|:-----|:-----|
 | 0  <br/> | 同于打印机  <br/> |**visPPOSameAsPrinter** <br/> |
 | 1  <br/> | Portrait  <br/> |**visPPOPortrait** <br/> |
-|双面  <br/> |现状  <br/> |**visPPOLandscape** <br/> |
+|2  <br/> |横向  <br/> |**visPPOLandscape** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-当您在文档中插入新页面时, 此设置默认为活动页面中的设置。
+在文档中插入新页面时，此设置默认为活动页中的设置。
   
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 PrintPageOrientation 单元格的引用，请使用： 
   

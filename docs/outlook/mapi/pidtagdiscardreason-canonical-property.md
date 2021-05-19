@@ -25,7 +25,7 @@ ms.locfileid: "33434800"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件传输代理 (MTA) 已放弃邮件的原因。 
+包含邮件传输代理在 MTA (丢弃) 的原因。 
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33434800"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性中包含的原因在邮件的 nondelivery 报告中使用。
+此属性中包含的原因在邮件的未送达报告中使用。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

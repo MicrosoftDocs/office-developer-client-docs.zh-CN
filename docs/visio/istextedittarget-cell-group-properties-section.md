@@ -25,9 +25,9 @@ ms.locfileid: "33432644"
 |TRUE  <br/> |文本被添加到组合形状中。  <br/> |
 |FALSE  <br/> |文本被添加到位于堆放顺序顶端的组合的形状中。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您还可以采用以下方法设置此值：选择该组合，在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上单击 **“行为”**，然后选中 **“编辑组合文本”** 复选框。 
+您还可以采用以下方法设置此值：选择该组合，在 [“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上单击 **“行为”**，然后选中 **“编辑组合文本”** 复选框。 
   
 在低于 Visio 2000 的版本中创建的组合的默认值为 FALSE。从 Visio 2000 版起，默认值为 TRUE。 
   

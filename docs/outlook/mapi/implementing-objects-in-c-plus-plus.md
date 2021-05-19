@@ -19,9 +19,9 @@ ms.locfileid: "33432952"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-c + + 客户端和服务提供程序通过创建从其实现的接口继承的类来定义 MAPI 对象。 每个接口方法都是公共的, 这也是类的构造函数和析构函数。 如果该类具有其他方法, 则它们可以是公共的, 也可以是私有的, 具体取决于实现。 所有数据成员都是私有的。 
+C++ 客户端和服务提供商通过创建继承自所实现接口的类来定义 MAPI 对象。 每个接口方法都是公共的，类的构造函数和析构函数也是公共的。 如果类具有其他方法，它们可以是公共的或私有的，具体取决于实现。 所有数据成员都是私有的。 
   
-下面的示例代码演示如何定义 c + + 状态对象。 `CMyMAPIObject`该类继承自[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口。 此示例中使用的许多宏都是在 OLE 头文件 Compobj 中定义的。 类的第一个成员是基接口的方法, 后跟继承接口的继承方法。 后面的接口定义是任何其他方法, 即构造函数和析构函数以及数据成员。 
+以下示例代码演示如何定义 C++ 状态对象。 类  `CMyMAPIObject` 继承自 [IMAPIStatus ： IMAPIProp](imapistatusimapiprop.md) 接口。 本示例中使用的许多宏在 OLE 头文件 Compobj.h 中定义。 类的第一个成员是基本接口的方法，后跟继承的接口的方法（按继承顺序）。 接口定义后是任何其他方法、构造函数和析构函数以及数据成员。 
   
 ```cpp
 class  CMyMAPIObject : public IMAPIStatus
@@ -48,7 +48,7 @@ private :
  
 ```
 
-若要使用`CMyMAPIObject`类的实例, c + + 客户端或服务提供程序将对其方法之一进行调用, 如下所示: 
+若要使用类的实例，C++ 客户端或服务提供商将调用其方法之  `CMyMAPIObject` 一，如下所示： 
   
 ```cpp
 lpMyObj->ValidateState(ulUIParam, ulFlags);

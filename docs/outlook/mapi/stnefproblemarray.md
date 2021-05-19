@@ -25,11 +25,11 @@ ms.locfileid: "33434261"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含描述在编码或解码传输中性封装格式 (TNEF) 流的过程中发生的一个或多个处理问题的**STnefProblem**结构数组。 
+包含一个 **STnefProblem** 结构数组，该数组描述在 TNEF 流中对传输中性封装格式 (进行编码或解码期间发生的一个或多个) 问题。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Tnef  <br/> |
+|标头文件：  <br/> |Tnef.h  <br/> |
    
 ```cpp
 typedef struct _STnefProblemArray
@@ -44,17 +44,17 @@ typedef struct _STnefProblemArray
 
  **cProblem**
   
-> **aProblem**成员中指定的数组中的元素数。 
+> 在problem 成员中指定的 **数组中的元素** 计数。 
     
  **aProblem**
   
-> [STnefProblem](stnefproblem.md)结构的数组。 每个结构都包含有关属性或属性处理问题的信息。 
+> [STnefProblem 结构](stnefproblem.md)数组。 每个结构都包含有关属性或属性处理问题的信息。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果在属性或属性处理过程中出现问题, 则[ITnef:: ExtractProps](itnef-extractprops.md)方法和[ITnef:: Finish](itnef-finish.md)方法中的 output 参数都会收到指向**STnefProblemArray**结构和 ExtractProps 的指针**** 并**完成**每个返回值 MAPI_W_ERRORS_RETURNED。 此错误值指示在处理过程中出现问题并生成**STnefProblemArray**结构。 
+如果在属性或属性处理过程中出现问题， [则 ITnef：：ExtractProps](itnef-extractprops.md) 方法和 [ITnef：：Finish](itnef-finish.md) 方法中的输出参数各自会收到一个指向 **STnefProblemArray** 结构的指针 **，ExtractProps** 和 **Finish** 各自返回值 MAPI_W_ERRORS_RETURNED。 此错误值指示处理过程中出现问题，并生成 **STnefProblemArray** 结构。 
   
-如果在处理属性或属性的过程中不会生成**STnefProblem**结构, 则在假定该属性或属性的处理成功的情况下, 客户端应用程序可以继续。 仅当在封装块解码过程中出现问题时, 才会发生此异常。 如果在此解码过程中出现错误, 则 MAPI_E_UNABLE_TO_COMPLETE 可以作为[SCODE](scode.md)在结构中返回。 在这种情况下, 将停止对与块相对应的组件进行解码, 并在另一个组件中继续解码。 
+如果在处理属性或属性期间未生成 **STnefProblem** 结构，则客户端应用程序可以在该属性或属性处理成功的假设下继续。 唯一的异常是在解码封装块期间出现问题时发生。 如果在此解码过程中发生错误，MAPI_E_UNABLE_TO_COMPLETE返回为[结构中的 SCODE。](scode.md) 在这种情况下，将停止与块对应的组件解码，并且在另一个组件中继续解码。 
   
 ## <a name="see-also"></a>另请参阅
 

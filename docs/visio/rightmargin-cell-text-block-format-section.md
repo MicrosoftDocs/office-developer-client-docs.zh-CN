@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251266
 localization_priority: Normal
 ms.assetid: bc8f5469-e79f-4a68-73cb-d11c938353a4
-description: 确定文本块的右边框和它所包含的文本之间的距离。 默认值是 0.1 英寸。
+description: 确定文本块的右边框和它所包含的文本之间的距离。默认值是 0.1 英寸。
 ms.openlocfilehash: 7a9d2406792e9e57c6acd0e4291b624633e70dcb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.locfileid: "33433519"
 ---
 # <a name="rightmargin-cell-text-block-format-section"></a>RightMargin 单元格（“Text Block Format”内容）
 
-确定文本块的右边框和它所包含的文本之间的距离。 默认值是 0.1 英寸。
+确定文本块的右边框和它所包含的文本之间的距离。默认值是 0.1 英寸。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 此值与绘图比例无关。即使绘图比例进行调整，右边距仍保持不变。
   

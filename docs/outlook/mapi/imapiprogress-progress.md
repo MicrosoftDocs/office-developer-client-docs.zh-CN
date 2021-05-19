@@ -25,7 +25,7 @@ ms.locfileid: "33435493"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将进度指示器更新为在完成操作时显示进度。 
+更新进度指示器，并显示在操作完成时的进度。 
   
 ```cpp
 HRESULT Progress(
@@ -39,35 +39,35 @@ HRESULT Progress(
 
  _ulValue_
   
-> 实时一个数字, 表示当前的进度级别 (从_ulCount_和_ulTotal_参数计算, 或从[IMAPIProgress:: SetLimits](imapiprogress-setlimits.md)方法的_lpulMin_和_lpulMax_参数中计算) 在全局下限和全局上限。 
+> [in]一个数字，指示当前进度级别 (从 _ulCount_ 和 _ulTotal_ 参数计算，或者从 [IMAPIProgress：：SetLimits](imapiprogress-setlimits.md)方法的 _lpulMin_ 和 _lpulMax_ 参数计算) 在全局下限和全局上限之间计算。 
     
  _ulCount_
   
-> 实时一个指示当前处理的项相对于总数的数字。
+> [in]一个数字，指示当前处理的项目相对于总数。
     
  _ulTotal_
   
-> 实时操作过程中要处理的项目总数。
+> [in]操作过程中要处理的项目总数。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功更新进度指示器。
+> 进度指示器已成功更新。
     
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-只有在操作完成时, _ulValue_参数才等于全局最小值, 且仅在操作完成时为全局最大值。 
+_ulValue_ 参数仅在操作开始时等于全局最小值，并且仅在操作完成时等于全局最大值。 
   
-使用_ulCount_和_ulTotal_参数 (如果可用) 显示可选的消息, 如 "5 个项目已完成10个"。 如果_ulCount_和_ulTotal_设置为 0, 则决定是否以可视方式更改进度指示器。 某些服务提供程序将这些参数设置为 0, 以指示它们正在处理其进度受监视的子对象相对于父对象。 在这种情况下, 仅在父对象报告进度时更改显示是有意义的。 某些服务提供程序每次都为这些参数传递0。 
+使用  _ulCount_ 和  _ulTotal_ 参数（如果可用）显示可选消息，例如"5 个项目已完成，其中 10 项已完成"。 如果  _ulCount_ 和  _ulTotal_ 设置为 0，请决定是否直观地更改进度指示器。 某些服务提供商将这些参数设置为 0，以指示它们正在处理其进度相对于父对象监视的子对象。 在这种情况下，仅在父对象报告进度时更改显示是有意义的。 某些服务提供商每次为这些参数传递 0。 
   
-有关如何实施**进度**和其他[IMAPIProgress](imapiprogressiunknown.md)方法的详细信息, 请参阅[实现进度指示器](implementing-a-progress-indicator.md)。
+若要详细了解如何实现 **进度和其他** [IMAPIProgress](imapiprogressiunknown.md) 方法，请参阅 [实现进度指示器](implementing-a-progress-indicator.md)。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-不是 IMAPIProgress 的所有三个参数都是必需的 **::P rogress** 。 唯一必需的参数是_ulValue_(一个指示进度百分比的数字)。 如果设置了 MAPI_TOP_LEVEL 标志, 则还可以传递对象数和对象总数。 某些实现使用这些值来显示一个短语, 如 "5 个项目已完成10个" (带有进度指示器)。 
+**IMAPIProgress：:P参数并非全部** 是必需的。 唯一需要的参数是  _ulValue，_ 一个数字，指示进度百分比。 如果MAPI_TOP_LEVEL，则还可以传递对象计数和对象总数。 某些实现使用这些值来显示一个短语，如"5 个项目已完成，其中 10 个项目"具有进度指示器。 
   
-如果要复制单个文件夹中的所有邮件, 请将_ulTotal_设置为要复制的邮件总数。 如果要复制文件夹, 请将_ulTotal_设置为该文件夹中的子文件夹数。 如果要复制的文件夹不包含子文件夹且仅包含邮件, 则将_ulTotal_设置为1。 
+如果要复制单个文件夹中的所有邮件，将  _ulTotal_ 设置为要复制的邮件总数。 如果要复制文件夹，将  _ulTotal_ 设置为文件夹中子文件夹的数量。 如果要复制的文件夹不包含子文件夹和仅邮件，则将  _ulTotal_ 设置为 1。 
   
 有关如何调用进度对象以及何时调用的详细信息，请参阅[显示进度指示器](how-to-display-a-progress-indicator.md)。
   
@@ -77,7 +77,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::P rogress  <br/> |MFCMAPI 使用**IMAPIProgress::P rogress**方法更新 MFCMAPI 状态栏, 该状态栏的当前进度百分比, 从_uValue_计算, 以及当前的最大值和最小值。  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress：:P rogress  <br/> |MFCMAPI 使用 **IMAPIProgress：:P rogress** 方法使用当前进度百分比更新 MFCMAPI 状态栏，该进度百分比是根据  _uValue_ 以及当前最大值和最小值计算的。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

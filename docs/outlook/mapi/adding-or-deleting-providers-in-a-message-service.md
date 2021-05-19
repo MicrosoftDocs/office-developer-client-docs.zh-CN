@@ -21,32 +21,32 @@ ms.locfileid: "33433421"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-若要在邮件服务中添加或删除服务提供程序, 请使用[IProviderAdmin: IUnknown](iprovideradminiunknown.md)接口。 您可以通过调用[IMsgServiceAdmin:: AdminProviders](imsgserviceadmin-adminproviders.md)检索**IProviderAdmin**指针。 提供程序表通过[IProviderAdmin:: GetProviderTable](iprovideradmin-getprovidertable.md)进行访问时, 列出了有关当前安装在邮件服务中的服务提供程序的信息。 客户端和服务提供程序可以使用提供程序表访问提供程序 DLL 文件的名称, 例如, 或者提供程序的**MAPIUID**、显示名称和类型, 以及有关邮件服务的信息。 有关详细信息, 请参阅[Provider Tables](provider-tables.md)。
+若要在邮件服务中添加或删除服务提供程序，请使用 [IProviderAdmin ： IUnknown](iprovideradminiunknown.md) 接口。 可以通过调用 [IMsgServiceAdmin：：AdminProviders](imsgserviceadmin-adminproviders.md)来检索 **IProviderAdmin** 指针。 提供程序表（可以通过 [IProviderAdmin：：GetProviderTable](iprovideradmin-getprovidertable.md)访问）列出了有关邮件服务中当前安装的服务提供商的信息。 客户端和服务提供程序可以使用提供程序表访问提供程序 DLL 文件的名称，例如 **，或者 MAPIUID**、显示名称 和提供程序的类型，以及有关邮件服务的信息。 有关详细信息，请参阅提供程序 [表](provider-tables.md)。
   
  **在邮件服务中添加或删除服务提供程序**
   
-1. 调用**AdminServices**方法以访问邮件服务管理对象。 
+1. 调用 **AdminServices** 方法来访问邮件服务管理对象。 
     
-2. 调用[IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md)以访问邮件服务表。 
+2. 调用 [IMsgServiceAdmin：：GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) 以访问邮件服务表。 
     
-3. 使用匹配**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 或**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) 的[SPropertyRestriction](spropertyrestriction.md)结构生成属性限制, 将邮件服务的名称与要修饰. 
+3. 使用与要修改的邮件服务名称相匹配的 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 或 **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) 的 [SPropertyRestriction](spropertyrestriction.md)结构构建属性限制。 
     
-4. 调用邮件服务表的[IMAPITable:: FindRow](imapitable-findrow.md)方法以定位表示目标邮件服务的表中的行。 
+4. 调用邮件服务表的 [IMAPITable：：FindRow](imapitable-findrow.md) 方法来查找表中表示目标邮件服务的行。 
     
-5. 调用[IMsgServiceAdmin:: AdminProviders](imsgserviceadmin-adminproviders.md)以检索**IProviderAdmin**指针。 将邮件服务表行中的**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 列作为_lpUID_参数进行传递。 
+5. 调用 [IMsgServiceAdmin：：AdminProviders](imsgserviceadmin-adminproviders.md) 以检索 **IProviderAdmin** 指针。 将邮件 **PR_SERVICE_UID (** [PidTagServiceUid) 行中的 PidTagServiceUid](pidtagserviceuid-canonical-property.md) 参数作为  _lpUID_ 参数传递。 
     
-6. 调用[IProviderAdmin:: GetProviderTable](iprovideradmin-getprovidertable.md)以访问提供程序表。 
+6. 调用 [IProviderAdmin：：GetProviderTable](iprovideradmin-getprovidertable.md) 以访问提供程序表。 
     
-7. 使用与要包含的服务提供程序的名称匹配的**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 或**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md)) 的 SPropertyRestriction 结构生成属性限制添加或删除。 
+7. 使用与要添加或删除的服务提供商的名称匹配的 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 或 **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md)) 的 SPropertyRestriction 结构构建属性限制。 
     
-8. 调用提供程序表的[IMAPITable:: FindRow](imapitable-findrow.md)方法以定位表示目标服务提供程序的表中的行。 
+8. 调用提供程序表的 [IMAPITable：：FindRow](imapitable-findrow.md) 方法来查找表中表示目标服务提供商的行。 
     
-9. 调用[IProviderAdmin:: CreateProvider](iprovideradmin-createprovider.md)以添加提供程序或[IProviderAdmin::D eleteprovider](iprovideradmin-deleteprovider.md)将其从邮件服务中删除。 对于**CreateProvider**, 将提供程序的**PR_DISPLAY_NAME**属性作为_lpszProvider_参数进行传递。 对于这两种方法, 请将提供程序的**PR_SERVICE_UID**属性作为_lpUID_参数进行传递。 在添加或删除服务提供程序后, 在创建新会话之前, 更改不会明显。 
+9. 调用 [IProviderAdmin：：CreateProvider](iprovideradmin-createprovider.md) 以添加提供程序或 [IProviderAdmin：:D eleteProvider](iprovideradmin-deleteprovider.md) 以将其从邮件服务中删除。 对于 **CreateProvider**，将提供程序的 **PR_DISPLAY_NAME** 属性作为  _lpszProvider_ 参数传递。 对于任一方法，将提供程序的 **PR_SERVICE_UID** 属性作为  _lpUID_ 参数传递。 添加或删除服务提供商后，在新建会话之前，更改不会显现出来。 
     
-将服务提供程序 (特别是邮件存储提供程序) 添加到配置文件中的另一种方法涉及到为提供程序构造条目标识符。 由于构造条目标识符需要了解其格式, 因此仅当服务提供程序已将其条目标识符格式设为 public 时, 才能使用此技术。 
+向配置文件中添加服务提供程序（特别是邮件存储提供程序）的另一种技术涉及构造提供程序的条目标识符。 由于构造条目标识符需要了解其格式，因此只有在服务提供商公开其条目标识符格式时，才能使用这种技术。 
   
-使用新构造的条目标识符, 客户端可以调用[IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md)。 MAPI 会在服务提供程序的配置文件中自动创建配置文件部分, 但不会将其添加到邮件服务中。 
+使用新构造的条目标识符，客户端可以调用 [IMAPISession：：OpenMsgStore](imapisession-openmsgstore.md)。 MAPI 会自动在服务提供程序的配置文件中创建配置文件节，但不将其添加到邮件服务。 
   
-某些邮件服务不允许此类型的动态修改;是否支持的是最新的邮件服务。 可能支持也可能不受支持的另一项功能是能够直接访问邮件服务的专用配置文件节。 如果您使用的邮件服务允许此类访问, 它将发布表示 mapisvc.inf 中的 private 部分的**GUID** 。 可以在对[IProviderAdmin:: OpenProfileSection](iprovideradmin-openprofilesection.md)的调用中传递此**GUID** , 以访问配置文件部分。 
+某些邮件服务不允许这种类型的动态修改;是否受支持取决于邮件服务。 另一个可能受支持也可能不受支持的功能是直接访问邮件服务的专用配置文件部分的功能。 如果您使用的邮件服务允许此类访问，它将发布表示 MAPISVC.INF 中的专用节的 **GUID。** 您可以在对 [IProviderAdmin：：OpenProfileSection](iprovideradmin-openprofilesection.md)的调用中传递此 **GUID** 以访问配置文件部分。 
   
 

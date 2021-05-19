@@ -25,32 +25,32 @@ ms.locfileid: "33435017"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-一个用于描述错误或警告的32位值。
+用于描述错误或警告的 32 位值。
   
 ```cpp
 typedef LONG HRESULT;
 ```
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**HRESULT**数据类型与[SCODE](scode.md)数据类型相同。 
+**HRESULT** 数据类型与 [SCODE](scode.md)代码数据类型。 
   
-**HRESULT**值包含以下字段: 
+**HRESULT** 值由以下字段组成： 
   
-- 表示严重度的1位代码, 其中0表示成功, 1 表示失败。
+- 指示严重性的 1 位代码，其中 0 表示成功，1 表示失败。
     
-- 一个4位保留值。
+- 4 位保留值。
     
-- 11位代码, 用于指示对错误或警告 (也称为设施代码) 的责任。
+- 指示错误或警告责任的 11 位代码，也称为设备代码。
     
-- 一个用于描述错误或警告的16位代码。
+- 描述错误或警告的 16 位代码。
     
-大多数 MAPI 接口方法和函数返回**HRESULT**值, 以提供详细的原因构成。 **HRESULT**值也在 OLE 接口方法中广泛使用。 OLE 提供了几个用于在**HRESULT**值和**SCODE**值之间进行转换的宏, 这是用于错误处理的另一种常见数据类型。 
+大多数 MAPI 接口方法和函数都返回 **HRESULT** 值以提供详细的原因形成。 **HRESULT** 值也广泛使用在 OLE 接口方法中。 OLE 提供了多个宏，用于在 **HRESULT** 值和 **SCODE** 值之间转换，这是另一种数据类型错误处理的常用方法。 
   
 > [!NOTE]
-> 在64位 MAPI 中, **HRESULT**仍为32位值。 
+> 在 64 位 MAPI 中 **，HRESULT** 仍是 32 位值。 
   
-若要了解有关**HRESULT**值的 OLE 用法的信息, 请参阅*ole 程序员参考*。 有关在 MAPI 中使用这些值的详细信息, 请参阅[错误处理](error-handling-in-mapi.md)和以下任何接口方法: 
+有关 OLE 使用 **HRESULT** 值的信息，请参阅 *《OLE 程序员参考》。* 有关在 MAPI 中使用这些值的详细信息，请参阅 [错误处理](error-handling-in-mapi.md) 和以下任一接口方法： 
   
 [IABLogon::GetLastError](iablogon-getlasterror.md)
   

@@ -25,16 +25,16 @@ ms.locfileid: "33435381"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件需要预处理, 则该参数包含 TRUE。
+如果邮件需要预处理，则包含 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PREPROCESS  <br/> |
 |标识符:  <br/> |0x0E22  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |MAPI 非传输  <br/> |
+|区域：  <br/> |MAPI 不可传输  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 > [!IMPORTANT]
 > 不要使用此属性。 它保留供 MAPI 使用。 
@@ -43,13 +43,13 @@ ms.locfileid: "33435381"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

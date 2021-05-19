@@ -16,28 +16,28 @@ ms.locfileid: "33432784"
 ---
 # <a name="blend-function"></a>BLEND 函数
 
-按_float_参数指定的比例混合两种颜色。 
+按 float 参数指定的比例  _混合两种颜色_ 。 
   
 ## <a name="syntax"></a>语法
 
-BLEND (* * *color1* * *, * * *color2* * *, * * *float [0, 1]* * *) 
+BLEND (** *color1* **， ** *color2* **， ** *float[0，1]* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |必需  <br/> |**数值** <br/> |Visio 第一种颜色的颜色索引或 RGB 值。  <br/> |
-| _color2_ <br/> |必需  <br/> |**数值** <br/> |Visio 第二种颜色的颜色索引或 RGB 值。  <br/> |
-| _float [0, 1]_ <br/> |必需  <br/> |**Float** <br/> |分别混合_color2_和_color1_的比例。 0 到 1 之间的实数（包括这两个值）。  <br/> |
+| _color1_ <br/> |必需  <br/> |**Numeric** <br/> |Visio 第一种颜色的颜色索引或 RGB 值。  <br/> |
+| _color2_ <br/> |必需  <br/> |**Numeric** <br/> |Visio 第二种颜色的颜色索引或 RGB 值。  <br/> |
+| _float[0，1]_ <br/> |必需  <br/> |**Float** <br/> |分别混合  _color2_ 和  _color1_ 的比例。 0 到 1 之间的实数（包括这两个值）。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
  **RGB**
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-返回的颜色由_float_参数所指定的相对比例, 分别与_color2_和_color1_混合而成。 例如, 如果_float_为 0.25, 则返回的颜色由_color1_的 75% 和 25% 的_color2_组成。 
+返回的颜色由分别混合  _color2_ 和  _color1_ 的相对比例决定，由  _float_ 参数指定。 例如，如果  _float_ 为 0.25，则返回的颜色由  _color1_ 的 75% 和  _color2_ 的 25% 组成。 
   
-要考虑的另一种方法是, _float_值与色谱从_color1_到_color2_的点相对应。 因此, _float_的较小数字 (更接近零) 会产生更接近_color1_的混合, 而较大的数字 (更接近于 1) 产生的融合更接近于_color2_。
+考虑它的另一种方式是浮点值对应于从 color1 到 _color2_ 的色谱 _中的点_。 因此，浮 (的) 较小的数字会生成更靠近 color1 的混合，而较大的数字 (接近 1) 产生更接近 _color2_ 的 _混合_。
   
 

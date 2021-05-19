@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60105
 localization_priority: Normal
 ms.assetid: 2b757c8d-7732-0f9b-c836-ef755dd1c673
-description: 指示引用的单元格是否包含局部公式。
+description: 指示引用的单元格是否包含本地公式。
 ms.openlocfilehash: bd0a5dafecf1bd8dca1567392d880ecaaa3e0374
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33433288"
 ---
 # <a name="localformulaexists-function"></a>LOCALFORMULAEXISTS 函数
 
-指示引用的单元格是否包含局部公式。 
+指示引用的单元格是否包含本地公式。 
   
 ## <a name="syntax"></a>语法
 
-LOCALFORMULAEXISTS (* * *cellref* * *) 
+LOCALFORMULAEXISTS (** *cellref* ** )  
   
 ### <a name="parameters"></a>参数
 

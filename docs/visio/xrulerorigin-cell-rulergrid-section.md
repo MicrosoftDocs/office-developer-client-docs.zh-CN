@@ -1,5 +1,5 @@
 ---
-title: XRulerOrigin 单元格 ( &amp; "标尺网格" 部分)
+title: 'XRulerOrigin Cell (&amp; Ruler Grid Section) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435325"
 ---
-# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>XRulerOrigin 单元格 ( &amp; "标尺网格" 部分)
+# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>XRulerOrigin Cell (&amp; Ruler Grid Section) 
 
 指定页面 x 轴标尺上的零点。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此单元格对应于 "**标尺&amp;网格**" 对话框 (在 "**视图**" 选项卡上, 单击 "**显示**" 箭头) 中的 "水平**标尺零点**" 选项。 
+此单元格对应于"视图"选项卡上"标尺网格"对话框中 ("标尺网格"选项，单击"显示") 。 **&amp;**  
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 XRulerOrigin 单元格的引用，请使用： 
   

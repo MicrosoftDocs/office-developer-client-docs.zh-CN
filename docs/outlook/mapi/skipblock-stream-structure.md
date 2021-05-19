@@ -19,21 +19,21 @@ ms.locfileid: "33435542"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-SkipBlock 流结构是一种以整数开头的数据块, 用于指定块的剩余部分的长度。 如果字段定义为 PropDefV2 格式, 则[FieldDefinition](fielddefinition-stream-structure.md)流中存在此流结构。 
+SkipBlock 流结构是一个以整数开头的数据块，该整数指定块的剩余部分的长度。 如果字段定义采用 PropDefV2 格式，则此流结构存在于 [FieldDefinition](fielddefinition-stream-structure.md) 流中。 
   
-SkipBlock 流结构的用途取决于其在 FieldDefinition 流的 SkipBlocks 数据元素中的一系列类似结构中的相对位置。 SkipBlocks 系列应包含至少一个 SkipBlock 结构, 该结构将终止系列并使 Size 数据元素等于0。 如果第一个结构不是终止结构 (即, Size 数据元素大于 0), Outlook 将假定第一个结构以 Unicode (UTF-16) 指定字段名称。
+SkipBlock 流结构的用途取决于其在 FieldDefinition 流的 SkipBlocks 数据元素中的一系列类似结构中的相对位置。 SkipBlocks 系列应至少包含一个终止系列的 SkipBlock 结构，并且 Size 数据元素等于 0。 如果第一个结构不是终止结构 (即 Size 数据元素大于 0) ，则 Outlook 假定第一个结构在 Unicode (UTF-16) 中指定字段名称。
   
-此流中的数据元素存储在小端字节序的字节顺序中, 紧跟在下面指定的顺序依次后续。
+此流中的数据元素以小尾序字节顺序存储，并按下面指定的顺序彼此紧接。
   
-- 大小: DWORD (4 个字节), 内容数据元素的大小 (以字节数表示)。
+- 大小：DWORD (4 字节) ，内容数据元素的大小（以字节数为单位）。
     
-- 内容: 字节数组。 此数组的计数等于大小数据元素。 内容数据元素的意义取决于 SkipBlock 结构在系列中的位置和 Outlook 的版本。 如果第一个 SkipBlock 结构不是终止结构, Outlook 会将第一个 SkipBlock 结构视为用 Unicode 指定字段名称的[FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)流结构。 
+- 内容：BYTE 数组。 此数组的计数等于 Size 数据元素。 Content 数据元素的含义取决于 SkipBlock 结构在系列中的位置以及 Outlook。 如果第一个 SkipBlock 结构不是终止结构，Outlook将第一个 SkipBlock 结构视为在 Unicode 中指定字段名称的[FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)流结构。 
     
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Outlook 项目和字段](outlook-items-and-fields.md)
+[Outlook项目和字段](outlook-items-and-fields.md)
   
 [流结构](stream-structures.md)
   

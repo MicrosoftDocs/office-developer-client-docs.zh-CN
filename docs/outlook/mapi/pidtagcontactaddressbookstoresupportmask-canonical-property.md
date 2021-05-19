@@ -25,7 +25,7 @@ ms.locfileid: "33434436"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含从包含 "联系人" 文件夹的存储区获取的**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) 属性。
+包含从 **PR_STORE_SUPPORT_MASK (** 文件夹的存储区获取的 [PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) 属性。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33434436"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-联系人通讯簿提供程序使用此属性来评估存储区支持的功能是否够用。 这是联系人通讯簿容器的属性, 以及联系人通讯簿容器表中的列。
+联系人通讯簿提供程序使用此属性评估应用商店支持的功能的购买情况。 这是联系人通讯簿容器上的属性，以及联系人通讯簿容器表中的列。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

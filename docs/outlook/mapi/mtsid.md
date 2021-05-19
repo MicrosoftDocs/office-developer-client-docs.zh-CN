@@ -25,12 +25,12 @@ ms.locfileid: "33435171"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 X. 400 邮件传输系统 (MTS) 条目标识符。 
+包含一个 X.400 邮件传输系统 (MTS) 标识符。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关宏:  <br/> |[CbMTSID](cbmtsid.md)、 [CbNewMTSID](cbnewmtsid.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关宏：  <br/> |[CbMTSID](cbmtsid.md) [、CbNewMTSID](cbnewmtsid.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,17 +45,17 @@ typedef struct
 
  **cb**
   
-> 数组中由**abEntry**成员描述的字节数。 
+> **abEntry** 成员描述的数组中的字节数。 
     
  **abEntry**
   
 > 包含 MTS 条目标识符数据的字节数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**MTSID**结构仅用于 MAPI 条目标识符的 X. 400 映射。 它对应于 MAPI [FLATENTRY](flatentry.md)结构。 
+**MTSID** 结构仅用于 MAPI 条目标识符的 X.400 映射。 它对应于 MAPI [FLATENTRY](flatentry.md) 结构。 
   
-MTS 标识符的格式与 MAPI 条目标识符或二进制属性值相同。 MTS 标识符在取消延迟的邮件时尤其有用。 
+MTS 标识符的格式与 MAPI 条目标识符或二进制属性值的格式相同。 MTS 标识符对于取消延迟邮件特别有用。 
   
 ## <a name="see-also"></a>另请参阅
 

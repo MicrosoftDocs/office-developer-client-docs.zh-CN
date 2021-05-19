@@ -25,11 +25,11 @@ ms.locfileid: "33435178"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含有关在编码或解码传输中性封装格式 (TNEF) 流过程中出现的属性或属性处理问题的信息。
+包含有关 TNEF 流中传输中性封装格式或传输中性封装格式的编码或解码过程中 (或) 问题的信息。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Tnef  <br/> |
+|标头文件：  <br/> |Tnef.h  <br/> |
    
 ```cpp
 typedef struct _STnefProblem
@@ -46,11 +46,11 @@ typedef struct _STnefProblem
 
  **ulComponent**
   
-> 发生问题的处理类型。 如果在邮件处理过程中出现问题, **ulComponent**成员将设置为零。 如果在附件处理过程中出现问题, 则将**ulComponent**设置为等于相应附件的**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 值。
+> 出现问题的处理类型。 如果在邮件处理过程中出现问题 **，ulComponent** 成员将设置为零。 如果在附件处理过程中出现问题，则 **ulComponent** 设置为等于相应的附件的 PR_ATTACH_NUM  ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 值。
     
  **ulAttribute**
   
-> 与**ulPropTag**成员指示的属性相关联的属性, 或者, 如果在解码封装块时出现 TNEF 处理问题, 则为下列值之一: 
+> 与 **ulPropTag** 成员指示的属性关联的属性，或者当解码封装块时 TNEF 处理出现问题时，为下列值之一： 
     
  _attMAPIProps_
   
@@ -62,15 +62,15 @@ typedef struct _STnefProblem
     
  **ulPropTag**
   
-> 导致 TNEF 处理问题的属性的属性标记, 但在解码封装块时出现问题, 在此情况下将**ulPropTag**设置为零。 
+> 导致 TNEF 处理问题的属性的属性标记，除非解码封装块时出现问题，在这种情况下 **ulPropTag** 设置为零。 
     
  **scode**
   
 > 指示处理过程中遇到的问题的错误值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果在处理属性或属性的过程中不会生成**STnefProblem**结构, 则在假定该属性或属性的处理成功的情况下, 应用程序可以继续。 仅当在封装块解码过程中出现问题时, 才会发生此异常。 在这种情况下, 将停止对与块相对应的组件进行解码, 并在另一个组件中继续解码。 
+如果在处理属性或属性期间未生成 **STnefProblem** 结构，则应用程序可以在该属性或属性处理成功的假设下继续。 唯一的异常是在解码封装块期间出现问题时发生。 在这种情况下，将停止与块对应的组件解码，并且在另一个组件中继续解码。 
   
 ## <a name="see-also"></a>另请参阅
 

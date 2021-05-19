@@ -22,7 +22,7 @@ ms.locfileid: "33432651"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-尝试将**XLREF12**转换为**XLREF**。
+尝试将 **XLREF12** 转换为 **XLREF**。
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
@@ -30,21 +30,21 @@ BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
 
 ## <a name="parameters"></a>参数
 
- _pxRef12_(**LPXLREF12**)
+ _pxRef12_ (**LPXLREF12)**
   
 指向源引用结构的指针。
   
- _pxRef_(**LPXLREF**)
+ _pxRef_ (**LPXLREF**) 
   
-指向将在其中放置转换后的值的目标参考结构的指针。
+指向要放置转换值的目标引用结构的指针。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
- 如果转换成功,**则为 TRUE** , 否则为**FALSE** 。 
+ 如果转换成功，则其为 **TRUE;** 否则为 **FALSE。** 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果所提供的引用引用的是早期版本中不支持的 Excel 2007 工作表的一部分, 则从**XLREF12**到**XLREF**的转换将失败。 
+如果所提供的引用引用了早期版本中不支持的 Excel 2007 工作表的一部分，则从 **XLREF12** 到 **XLREF** 的转换将失败。 
   
 ## <a name="example"></a>示例
 

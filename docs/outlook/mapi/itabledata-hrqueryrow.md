@@ -39,31 +39,31 @@ HRESULT HrQueryRow(
 
  _lpSPropValue_
   
-> 实时一个指向属性值结构的指针, 该结构描述要检索的行的索引列。 属性值结构的**ulPropTag**成员应包含与_ulPropTagIndexColumn_参数相同的属性标记, 从调用[CreateTable](createtable.md)函数, 后者访问[ITableData](itabledataiunknown.md)实现。 
+> [in]指向描述要检索的行的索引列的属性值结构的指针。 属性值 **结构的 ulPropTag** 成员应包含与调用 [CreateTable](createtable.md)函数时 _ulPropTagIndexColumn_ 参数相同的属性标记，该函数访问 [ITableData](itabledataiunknown.md)实现。 
     
  _lppSRow_
   
-> 排除指向检索到的行的指针的指针。 
+> [out]指向检索到的行的指针的指针。 
     
- _lpuliRow_
+ _lp一Row_
   
-> [in, out]在输入时, 是有效的指针或 NULL, 它指示无需返回任何信息。 在输出中, 指向行的行号的有效指针, 用于标识行在表中的位置的顺序编号。
+> [in， out]输入时，表示无需返回任何信息的有效指针或 NULL。 在 output 上，指向行的行号的有效指针，一个标识行在表中位置的顺序编号。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功检索该行。
+> 已成功检索行。
     
 MAPI_E_INVALID_PARAMETER 
   
-> _lpSPropValue_指向的[SPropValue](spropvalue.md)结构不包含 index 列属性。 
+> _lpSPropValue_ 指向的 [SPropValue](spropvalue.md)结构不包含索引列属性。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**ITableData:: HrQueryRow**方法检索索引列与由_lpSPropValue_指向的属性结构中包含的索引列相匹配的行的所有属性。 如果调用方请求行号, 则**HrQueryRow**也会返回行号, 用于标识行在表中的位置。 
+**ITableData：：HrQueryRow** 方法检索具有与 _lpSPropValue_ 指向的属性结构中包含的索引列的值匹配的索引列的行的所有属性。 **HrQueryRow** 还会返回行号（如果调用方请求它）来标识行在表中的位置。 
   
-由于**HrQueryRow**不会修改_lpSPropValue_指向的**SPropValue**结构, 因此在**HrQueryRow**返回时, 调用方必须释放结构。 调用方还必须释放包含检索到的行的**SRow**结构。 
+因为 **HrQueryRow** 不会修改 _lpSPropValue_ 指向的 **SPropValue** 结构，所以当 **HrQueryRow** 返回时，调用方必须释放该结构。 调用方还必须释放包含检索到的行的 **SRow** 结构。 
   
 ## <a name="see-also"></a>另请参阅
 

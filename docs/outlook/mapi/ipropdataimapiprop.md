@@ -25,32 +25,32 @@ ms.locfileid: "33435143"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供检索和更改对象的属性的访问权限的功能。 
+提供检索和更改对象属性的访问权限的能力。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
-|公开者:  <br/> |属性数据对象  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
+|公开者：  <br/> |属性数据对象  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |服务提供商和客户端应用程序  <br/> |
-|接口标识符:  <br/> |IID_IMAPIPropData  <br/> |
-|指针类型:  <br/> |LPPROPDATA  <br/> |
-|事务模型:  <br/> |Nontransacted  <br/> |
+|调用者：  <br/> |服务提供程序和客户端应用程序  <br/> |
+|接口标识符：  <br/> |IID_IMAPIPropData  <br/> |
+|指针类型：  <br/> |LPPROPDATA  <br/> |
+|事务模型：  <br/> |Nontransacted  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
 |[HrSetObjAccess](ipropdata-hrsetobjaccess.md) <br/> |设置对象的访问级别。  <br/> |
-|[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |设置一个或多个对象属性的访问级别和状态。  <br/> |
-|[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |检索一个或多个对象属性的访问级别和状态。  <br/> |
-|[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |将 PT_OBJECT 类型的一个或多个属性添加到对象中。  <br/> |
+|[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |设置对象的一个或多个属性的访问级别和状态。  <br/> |
+|[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |检索对象的一个或多个属性的访问级别和状态。  <br/> |
+|[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |向对象添加一个或多个PT_OBJECT类型的属性。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IPropData:: IMAPIProp**接口由 MAPI 实现, 并且主要由可通过调用[CreateIProp](createiprop.md)函数来访问此实现的服务提供程序使用。 
+**IPropData：：IMAPIProp 接口** 由 MAPI 实现，主要由通过调用 [CreateIProp](createiprop.md)函数访问此实现的服务提供商使用。 
   
-有关对象和属性的访问级别的详细信息, 请参阅[对象和属性的权限](permissions-for-mapi-objects-and-properties.md)。
+有关对象和属性的访问级别详细信息，请参阅 [对象和属性的权限](permissions-for-mapi-objects-and-properties.md)。
   
 ## <a name="see-also"></a>另请参阅
 

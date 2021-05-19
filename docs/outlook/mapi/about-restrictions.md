@@ -21,13 +21,13 @@ ms.locfileid: "33433106"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-限制是一种将视图中的行数限制为仅包含与特定条件匹配的列的行数的方法。 对表格使用限制有许多不同的机会。 例如, 客户端应用程序可以使用限制来筛选由特定人员发送的邮件的内容表, 以搜索不支持属性或已将属性设置为特定值的行, 或查找中的重复收件人消息。 
+限制是一种将视图中的行数限制为仅具有与特定条件匹配的列值的行的方法。 对表使用限制有许多不同的机会。 例如，客户端应用程序可以使用限制来筛选特定人员发送的邮件的内容表，搜索不支持属性或将属性设置为特定值的行，或在邮件中查找重复的收件人。 
   
-[IMAPITable:: Restrict](imapitable-restrict.md)和[IMAPITable:: FindRow](imapitable-findrow.md)方法用于设置对表的限制。 **限制**对表应用限制, 而不检索任何行。 若要仅检索那些符合限制的行, 则需要对[IMAPITable:: QueryRows](imapitable-queryrows.md)或类似的方法进行后续调用。 **FindRow**应用限制, 并检索表中与条件匹配的第一行。 **FindRow**应用临时限制, 这仅在呼叫期间存在, 而**限制**应用更永久的限制。 
+[IMAPITable：：Restrict](imapitable-restrict.md)和[IMAPITable：：FindRow](imapitable-findrow.md)方法用于对表设置限制。 **Restrict** 将限制应用于表，而不检索任何行。 若要仅检索满足限制的行，需要后续调用 [IMAPITable：：QueryRows](imapitable-queryrows.md) 或类似方法。 **FindRow** 应用限制并检索表中匹配条件的第一行。 **FindRow** 应用临时限制，此限制仅在调用期间存在， **而 Restrict** 应用更永久的限制。 
   
-某些客户端可以使用不在当前列集中的列生成限制。 支持这种限制是可选的, 并且支持它的表实施者添加值, 尤其是对于内容表。 不支持它的表实施者可以从**FindRow**调用中返回**限制**调用或 MAPI_E_NOT_FOUND 值中的 MAPI_E_TOO_COMPLEX 值。 
+某些客户端可以使用当前列集外列构建限制。 支持此类限制是可选的，并且支持此限制的表实施者会增加值，特别是对于内容表。 不支持它的表实现程序可以从 Restrict MAPI_E_TOO_COMPLEX **返回** 值，也可以从 **FindRow** MAPI_E_NOT_FOUND返回值。 
   
-客户端应注意, 即使提供程序对不在当前列集中的列支持限制, 它们也会获得更好的性能, 具体方法是通过在其对[IMAPITable:: SetColumns](imapitable-setcolumns.md)的限制中指定要使用的列来获得更好的性能。.
+客户端应注意，即使提供程序支持对不在当前列集的列的限制，它们也会通过指定他们在 [与 IMAPITable：：SetColumns](imapitable-setcolumns.md)的限制中打算使用的列，获得更好的整体性能。
   
 ## <a name="see-also"></a>另请参阅
 

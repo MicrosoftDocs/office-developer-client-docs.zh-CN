@@ -1,5 +1,5 @@
 ---
-title: Pi 函数 (Access 自定义 web 应用程序)
+title: 'Pi 函数 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432574"
 ---
-# <a name="pi-function-access-custom-web-app"></a>Pi 函数 (Access 自定义 web 应用程序)
+# <a name="pi-function-access-custom-web-app"></a>Pi 函数 (Access 自定义 Web 应用) 
 
 返回 PI 的常量值。
   
@@ -23,6 +23,6 @@ ms.locfileid: "33432574"
   
 ## <a name="syntax"></a>语法
 
- **Pi**() 
+ **Pi** ()  
   
 

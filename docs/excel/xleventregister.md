@@ -18,7 +18,7 @@ ms.locfileid: "45160277"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-用于注册事件处理程序。 在 Excel 2010 中引入。
+用于注册事件处理程序。 2010 Excel引入。
   
 ```vb
 Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12 pxEvent);
@@ -26,24 +26,24 @@ Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12
 
 ## <a name="parameters"></a>参数
 
- _pxProcedure_ （**xltypeStr**）
+ _pxProcedure_ (**xltypeStr**) 
   
-在 DLL 代码中显示的事件处理程序函数的名称。
+出现在 DLL 代码中的事件处理程序函数的名称。
   
- _pxEvent_ （**xltypeInt**）
+ _pxEvent_ (**xltypeInt**) 
   
-由_pxProcedure_参数中指定的函数处理的事件。 
+由  _pxProcedure_ 参数中指定的函数处理的事件。 
   
-从 Excel 2010 开始，Excel 支持以下事件：
+从 Excel 2010 开始，Excel支持以下事件：
   
 |**Event**|**说明**|
 |:-----|:-----|
-|**xleventCalculationEnded** <br/> |在 Excel 完成计算时引发。 在此事件发生之后，您可以释放在计算过程中分配的任何资源。  <br/> |
-|**xleventCalculationCanceled** <br/> |当用户中断计算时引发。 XLL 应停止任何异步活动。 在此事件之后立即引发 CalculationEnded 事件。  <br/> |
+|**xleventCalculationEnded** <br/> |在Excel时引发。 您可以在此事件后释放计算期间分配的任何资源。  <br/> |
+|**xleventCalculationCanceled** <br/> |在用户中断计算时引发。 XLL 应停止任何异步活动。 CalculationEnded 事件在此事件后立即引发。  <br/> |
    
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果成功，pxRes （**xltypeInt**）的值 > 为0。 如果不成功，pxRes = = 0。
+如果成功，pxRes (**xltypeInt**) 值为 0 >。 如果失败，则 pxRes ==0。
   
 ## <a name="see-also"></a>另请参阅
 

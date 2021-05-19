@@ -1,5 +1,5 @@
 ---
-title: If .。。然后 .。。Else 宏块 (Access 自定义 web 应用程序)
+title: '如果...然后...Else 宏阻止 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434492"
 ---
-# <a name="ifthenelse-macro-block-access-custom-web-app"></a>If .。。然后 .。。Else 宏块 (Access 自定义 web 应用程序)
+# <a name="ifthenelse-macro-block-access-custom-web-app"></a>如果...然后...Else 宏阻止 (Access 自定义 Web 应用) 
 
 可以使用 **If** 宏程序块，根据表达式的值有条件地执行一组操作。 
   
@@ -33,7 +33,7 @@ Else
 End If
 ```
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>设置
 
 对于 **If** 和 ** Else If ** ，以下参数是必需的。 
   

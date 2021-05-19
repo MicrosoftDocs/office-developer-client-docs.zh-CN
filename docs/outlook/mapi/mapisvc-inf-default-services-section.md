@@ -1,5 +1,5 @@
 ---
-title: mapisvc.inf [默认服务] 部分
+title: MapiSvc.inf [Default Services] Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,21 +15,21 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435318"
 ---
-# <a name="mapisvcinf-default-services-section"></a>mapisvc.inf [默认服务] 部分
+# <a name="mapisvcinf-default-services-section"></a>MapiSvc.inf [Default Services] Section
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-**[默认服务]** 部分列出了选定为默认邮件服务的所有邮件服务。 这些默认邮件服务是 **[服务]** 一节中列出的邮件服务的子集。 当配置文件配置程序创建默认配置文件时, 将自动包含此部分中的邮件服务。 
+[ **默认服务]** 部分列出选择为默认邮件服务的所有邮件服务。 这些默认邮件服务是 **[Services]** 部分中列出的邮件服务的子集。 当配置文件配置程序创建默认配置文件时，会自动包含此部分的邮件服务。 
   
-这些条目使用与 **[服务]** 部分中的条目相同的格式, 如下所示: 
+这些条目使用与 **[Services]** 部分中的条目相同的格式，如下所示： 
   
  **[默认服务]**
   
- _message service 部分名称_ =  _邮件服务名称_
+ _message-service 节名称_  =  _邮件服务名称_
   
-在前面的图所示的 mapisvc.inf 的 **[默认服务]** 部分中, 将包含以下项: 
+以下条目将包含在上图所示的 mapisvc.inf **的 [默认服务]** 部分中： 
   
 ```cpp
 [Default Services]

@@ -7,7 +7,7 @@ ms.date: 11/16/2019
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- 表单模板 [infopath 2007]，托管代码表单模板 [InfoPath 2007]，引用 [InfoPath 2007]，托管代码 [InfoPath 2007]，InfoPath 2007，参考
+- form templates [infopath 2007]，managed code form templates [InfoPath 2007]，reference [InfoPath 2007]，managed code [InfoPath 2007]，InfoPath 2007， reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7610acc3-f705-4a38-968c-5b3a358efc90
@@ -27,7 +27,7 @@ ms.locfileid: "43102938"
   
 ## <a name="related-links"></a>相关链接
 
-[Microsoft Office 开发人员中心：文档](https://developer.microsoft.com/en-us/office/docs)
+[Microsoft Office开发人员中心：文档](https://developer.microsoft.com/en-us/office/docs)
   
 
 [Microsoft 辅助功能](https://www.microsoft.com/en-us/accessibility/)

@@ -19,30 +19,30 @@ ms.locfileid: "33432665"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-传输提供程序在无法成功传递已提交的邮件时发送未送达报告 (NDR)。 无论用户是否可以尝试重新发送未送达的邮件, 都由客户端决定。 如果您支持重新发送邮件, 则可以使用 MAPI 提供的表单或实现自己的表单。 MAPI 表单显示失败收件人的姓名和传递失败的原因 (如有可能), 并包含一个按钮, 当选择该按钮时, 用户可以重新发送邮件。
+如果传输提供程序无法成功传递已提交 (，) NDR 发送未送达报告。 用户能否尝试重新发送这些未送达的邮件取决于客户端。 如果支持重新发送邮件，可以使用 MAPI 提供的窗体，也可以实现自己的窗体。 MAPI 窗体显示失败收件人的姓名以及传递失败的原因（如果可能）并包括一个按钮，选中该按钮后，用户可以重新发送邮件。
   
-收到重发的邮件时, 它应与原始邮件完全一样。 收件人应该无法区分在第一次传输时传递的邮件, 也不能区分后续尝试。 对此邮件的回复应完全按照第一次成功发送邮件的方式运行。
+收到重新发送的邮件时，看起来应该与原始邮件完全相同。 收件人应无法区分第一次尝试传输时传递的邮件还是后续尝试传递的邮件。 对此消息的答复应该与邮件第一次成功发送一样。
   
-### <a name="to-resend-an-undelivered-message"></a>重新发送未送达的邮件
+### <a name="to-resend-an-undelivered-message"></a>重新发送未送达邮件
   
-1. 调用[IMAPIFolder:: CreateMessage](imapifolder-createmessage.md)以创建新邮件。 
+1. 调用 [IMAPIFolder：：CreateMessage](imapifolder-createmessage.md) 以创建新邮件。 
     
-2. 从原始邮件中复制所有属性, 但不包括 * * PR_MESSAGE_RECIPIENTS * * ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 属性以及**PR_SENDER**和**PR_SENT_REPRESENTING**属性。 对以下属性进行修改: 
+2. 从原始邮件复制所有属性，不包括 ** PR_MESSAGE_RECIPIENTS ** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 属性以及 **PR_SENDER** 和 **PR_SENT_REPRESENTING** 属性。 进行以下属性修改： 
     
-   - 将**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 设置为报表的 * * PR_ORIG_MESSAGE_CLASS * * ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md)) 属性。
+   - 将 **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 设置为报表的 **PR_ORIG_MESSAGE_CLASS ** ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md)) 属性。
     
-   - 在**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性中设置 MSGFLAG_RESEND 标志。
+   - 设置 MSGFLAG_RESEND [PidTagMessageFlags](pidtagmessageflags-canonical-property.md) PR_MESSAGE_FLAGS (标记) 标记。 
     
-   - 将**PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) 设置为原始邮件的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。
+   - 将 **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) 设置为原始邮件的 PR_ENTRYID **(** [PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。
     
-   - 对于每个收件人, 请在**PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) 属性中设置 MAPI_SUBMITTED。 
+   - 对于每个收件人，在 MAPI_SUBMITTED [PidTagRecipientType](pidtagrecipienttype-canonical-property.md) **PR_RECIPIENT_TYPE (** 设置) 属性。 
     
-   - 复制每个失败的收件人。 将复制的收件人的**PR_RECIPIENT_TYPE**属性更改为 MAPI_P1。 因此, 对于每个失败的收件人, 收件人表中现在有两个条目: 一个将**PR_RECIPIENT_TYPE**设置为其原始值, 另一个使用**PR_RECIPIENT_TYPE**设置为 MAPI_P1。 
+   - 复制每个失败的收件人。 将 **PR_RECIPIENT_TYPE** 收件人的收件人属性更改为MAPI_P1。 因此，对于每个失败的收件人，收件人表中现在存在两个条目：一个PR_RECIPIENT_TYPE设置为其原始值，另一个条目的 PR_RECIPIENT_TYPE **设置为** MAPI_P1。 
     
-3. 如果需要, 请调用[ScCreateConversationIndex](sccreateconversationindex.md)以设置会话跟踪。 
+3. 如果需要 [，请调用 ScCreateConversationIndex](sccreateconversationindex.md) 设置对话跟踪。 
     
-4. 调用新邮件的[IMessage:: ModifyRecipients](imessage-modifyrecipients.md)方法以更新收件人列表。 
+4. 调用新邮件的 [IMessage：：ModifyRecipients](imessage-modifyrecipients.md) 方法来更新收件人列表。 
     
-5. 调用[IMessage:: SubmitMessage](imessage-submitmessage.md)以保存并发送新邮件。 
+5. 调用 [IMessage：：SubmitMessage](imessage-submitmessage.md) 以保存和发送新邮件。 
     
 

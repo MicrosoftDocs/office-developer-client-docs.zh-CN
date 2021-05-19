@@ -1,5 +1,5 @@
 ---
-title: PidTagOriginalEits 规范属性
+title: PidTagOriginal使用规范属性
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434709"
 ---
-# <a name="pidtagoriginaleits-canonical-property"></a>PidTagOriginalEits 规范属性
+# <a name="pidtagoriginaleits-canonical-property"></a>PidTagOriginal使用规范属性
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含邮件文本的原始编码信息类型 (EITs) 的副本。
+包含邮件文本的原始编码信息 (EIT) 的副本。
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ ms.locfileid: "33434709"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

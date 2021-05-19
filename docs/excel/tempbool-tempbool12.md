@@ -8,7 +8,7 @@ f1_keywords:
 - TempBool
 - TempBool12
 keywords:
-- tempbool 函数 [excel 2007], TempBool12 函数 [excel 2007]
+- tempbool 函数 [excel 2007]，TempBool12 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0cf1fa58-416f-4692-a2e3-422473c19492
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -23,7 +23,7 @@ ms.locfileid: "33433715"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-Framework library 函数, 用于创建包含**布尔****值 TRUE**或**FALSE**的临时**XLOPER**/ **XLOPER12** 。
+创建包含布尔 TRUE 或 FALSE 的临时 /  **XLOPER XLOPER12** **的框架** 库 **函数**。
   
 ```cs
 LPXLOPER TempBool(int b);
@@ -32,17 +32,17 @@ LPXLOPER12 TempBool12(int b);
 
 ## <a name="parameters"></a>参数
 
- _b_ (**int**)
+ _b_ (**int)**
   
-使用0将返回**FALSE**;使用任何其他值返回**TRUE**。
+使用 0 可返回 **FALSE;** 使用任何其他值返回 **TRUE**。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-返回一个**xltypeBool** **Boolean 类型**的值, 该值包含传入的逻辑值。 
+返回一 **个 xltypeBool** **Boolean** 类型的值，其中包含传入的逻辑值。 
   
 ## <a name="example"></a>示例
 
-下面的示例使用**TempBool12**函数清除状态栏。 调用[Excel/Excel12f](excel-excel12f.md)函数时, 将释放临时内存。 
+下面的示例使用 **TempBool12** 函数清除状态栏。 调用[Excel/Excel12f 函数时将](excel-excel12f.md)释放临时内存。 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

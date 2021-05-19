@@ -1,5 +1,5 @@
 ---
-title: 强制通知
+title: 强制发送通知
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433281"
 ---
-# <a name="forcing-a-notification"></a>强制通知
+# <a name="forcing-a-notification"></a>强制发送通知
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-当服务提供程序使用[IMAPISupport: IUnknown](imapisupportiunknown.md)方法进行通知时, MAPI 将使用隐藏窗口及其相应的窗口过程传递通知。 对于每个接收通知的进程, MAPI 都会向隐藏窗口发布一条特殊消息。 此消息使用 mapidefs.h 中定义的常量**szMAPINotificationMsg**进行命名。水平. 
+当服务提供商使用 [IMAPISupport ： IUnknown](imapisupportiunknown.md) 方法进行通知时，MAPI 使用隐藏窗口及其对应的窗口过程传递通知。 对于每个接收通知的进程，MAPI 将一条特殊消息张贴到隐藏窗口中。 此消息使用 MAPIDEFS.H 中定义的常量 **szMAPINotificationMsg** 命名。 
   
-当隐藏窗口的窗口过程处理**szMAPINotificationMsg**消息时, 您会收到这些通知。 若要确保传递通知, 需要等待并调度此**szMAPINotificationMsg**消息。 实现此操作的逻辑只是很简单, 但 mapi 提供了名为[HrDispatchNotifications](hrdispatchnotifications.md)的 MAPI DLL 的入口点, 以便更简单地进行处理。 按如下所示调用**HrDispatchNotifications**以在客户端中接收通知: 
+当隐藏窗口的窗口过程处理 **szMAPINotificationMsg** 消息时，您将收到这些通知。 若要确保通知已送达，必须等待并调度此 **szMAPINotificationMsg** 消息。 实现实现此目的的逻辑可以相当简单，但 MAPI 提供了一个进入 MAPI DLL 的入口点，称为 [HrDispatchNotifications，](hrdispatchnotifications.md) 使处理更加简单。 按 **如下所示调用 HrDispatchNotifications** 以在客户端中接收通知： 
   
 ```cpp
 HRESULT hr = HrDispatchNotifications(0);

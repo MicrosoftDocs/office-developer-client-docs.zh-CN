@@ -25,7 +25,7 @@ ms.locfileid: "33434954"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含指示服务提供程序类型的值。
+包含一个值，该值指示服务提供商类型。
   
 |||
 |:-----|:-----|
@@ -34,9 +34,9 @@ ms.locfileid: "33434954"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性可以具有下列值之一:
+此属性可以正好具有下列值之一：
   
 MAPI_AB 
   
@@ -48,7 +48,7 @@ MAPI_AB_PROVIDER
     
 MAPI_HOOK_PROVIDER 
   
-> 后台打印程序挂钩提供程序
+> 后台处理程序挂钩提供程序
     
 MAPI_PROFILE_PROVIDER 
   
@@ -60,7 +60,7 @@ MAPI_SPOOLER
     
 MAPI_STORE_PROVIDER 
   
-> 邮件存储区提供程序
+> 邮件存储提供程序
     
 MAPI_SUBSYSTEM 
   
@@ -74,13 +74,13 @@ MAPI_TRANSPORT_PROVIDER
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

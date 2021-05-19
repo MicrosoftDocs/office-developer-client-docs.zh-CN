@@ -25,7 +25,7 @@ ms.locfileid: "33435416"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-从通讯簿层次结构中删除由给定条目 ID 指定的联系人通讯簿 (CAB)。
+从通讯簿层次结构中删除 (CAB) 指定的联系人通讯簿。
   
 ```cpp
 HRESULT RemoveStore(
@@ -38,10 +38,10 @@ LPENTRYID lpEntryID
 
  _cbEntryID_
   
-> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
+> [in]  _lpEntryID_ 参数指向的条目标识符中的字节计数。 
     
  _lpEntryID_
   
-> 实时指向要打开的对象的条目标识符的指针。
+> [in]指向要打开的对象的条目标识符的指针。
     
 

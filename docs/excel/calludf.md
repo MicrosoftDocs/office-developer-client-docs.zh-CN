@@ -28,7 +28,7 @@ int CallUDF(int SessionId, WCHAR *XllName, WCHAR *UDFName, LPXLOPER12 pxAsyncHan
 
 _SessionId_
   
-> 要在其中进行调用的会话的 ID。
+> 要调用的会话的 ID。
     
 _XLLName_
   
@@ -40,27 +40,27 @@ _UDFName_
     
 _CallBackAddr_
   
-> 用户定义的函数完成时, 连接器应调用的函数。
+> 完成用户定义函数后连接器应调用的函数。
     
 _pxAsyncHandle_
   
-> Excel 和连接器用来跟踪挂起的用户定义函数调用的异步句柄。 连接器在以后使用在_CallBackAddr_参数中传递的函数指针回调 Excel 时使用它。 
+> 客户端和连接器Excel用于跟踪挂起的用户定义函数调用的异步句柄。 连接器稍后在调用完成时，使用 _CallBackAddr_ 参数中传递的函数指针Excel回调用回代码时使用它。 
     
 _ArgCount_
   
-> 要传递给用户定义函数的参数的数目。 允许的最大值为255。
+> 要传递给用户定义函数的参数数。 允许的最大值为 255。
     
 _Parameter1_
   
-> 要传递给用户定义的函数的值。 为_ArgCount_指示的每个参数重复此参数。
+> 要传递给用户定义的函数的值。 对  _ArgCount_ 指示的每个参数重复此参数。
     
 ## <a name="return-value"></a>返回值
 
-如果 UDF 调用已成功启动, 则为**xlHpcRetSuccess** 。**xlHpcRetInvalidSessionId**如果_SessionId_参数无效, 则为有关其他故障 (包括超时) 的**xlHpcRetCallFailed** 。如果调用返回任何错误代码 (除**xlHpcRetSuccess**之外的任何错误代码), 则 Excel 会认为 UDF 调用失败, 从而使_pxAsyncHandle_无效, 并且不希望发生回调。
+**xlHpcRetSuccess（** 如果成功启动 UDF 调用）;**xlHpcRetInvalidSessionId** 如果 _SessionId_ 参数无效;**xlHpcRetCallFailed** 其他故障，包括退出。如果调用返回任何错误代码 (**除 xlHpcRetSuccess**) 之外的任何错误代码，Excel 会认为 UDF 调用失败，使 _pxAsyncHandle_ 无效，并且预计不会发生回调。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此函数以异步方式执行。
+此函数异步执行。
   
 ## <a name="see-also"></a>另请参阅
 

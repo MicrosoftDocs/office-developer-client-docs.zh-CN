@@ -22,7 +22,7 @@ ms.locfileid: "33432490"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-当在 Microsoft Excel 窗口上显示模式对话框时, 光标在 Excel 窗口上是一个繁忙的光标。 此**WndProc**陷阱 WM_SETCURSOR 键入 Windows 消息, 并将光标更改回正常箭头。 
+当模式对话框显示在活动窗口Microsoft Excel时，光标是活动窗口上的繁忙Excel光标。 此 **WndProc** 捕获WM_SETCURSOR类型Windows消息，将光标更改回正常箭头。 
   
 ```cs
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
@@ -30,27 +30,27 @@ LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lPa
 
 ## <a name="parameters"></a>参数
 
- _hWndDlg_(**HWND**)
+ _hWndDlg_ (**HWND**) 
   
-包含对话框的 HWND 窗口句柄。
+包含对话框Windows HWND 对象句柄。
   
- _邮件_(**UINT**)
+ _message_ (**UINT**) 
   
 要响应的邮件。
   
- _wParam_(**WPARAM**)
+ _wParam_ (**WPARAM**) 
   
- _lParam_(**LPARAM**)
+ _lParam_ (**LPARAM**) 
   
-由 Windows 传递的参数。
+由 Windows。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-LRESULT: 0 如果已处理邮件, 否则由默认**WndProc**返回的结果。
+LRESULT： 0 如果邮件已处理，否则由默认 **WndProc 返回的结果**。
   
 ### <a name="example"></a>示例
 
-有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
+有关  `\SAMPLES\GENERIC\GENERIC.C` 此函数的源代码，请参阅 。 
   
 ## <a name="see-also"></a>另请参阅
 

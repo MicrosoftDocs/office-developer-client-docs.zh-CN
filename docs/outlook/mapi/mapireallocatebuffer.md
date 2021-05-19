@@ -21,12 +21,12 @@ ms.locfileid: "33435283"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-再次分配内存缓冲区。 它与[MAPIAllocateBuffer](mapiallocatebuffer.md)函数一起使用。 
+重新分配内存缓冲区。 它与 [MAPIAllocateBuffer 函数](mapiallocatebuffer.md) 一起使用。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |omapix  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|标头文件：  <br/> |omapix.h  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 STDMETHODIMP_(SCODE) MAPIReallocateBuffer
@@ -45,15 +45,15 @@ LPVOID * lppv
     
  _ulSize_
   
-> 要分配的缓冲区的大小 (以字节为单位)。
+> 要分配的缓冲区的大小（以字节为单位）。
     
  _lppv_
   
 > 指向返回的已分配缓冲区的指针。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
- **MAPIReallocateBuffer**分配一个新的请求大小内存块, 并复制传入此新内存块的缓冲区的内容。 如果传递的内存块包含内部指针, 则指针不会更改以匹配新位置。 
+ **MAPIReallocateBuffer** 分配请求大小的新内存块，并复制传递到此新内存块的缓冲区内容。 如果传递的内存块包含内部指针，则指针不会更改以匹配新位置。 
   
 ## <a name="see-also"></a>另请参阅
 

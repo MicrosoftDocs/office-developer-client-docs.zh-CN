@@ -24,11 +24,11 @@ ms.locfileid: "33435360"
 |:-----|:-----|:-----|
 |0  <br/> |仅选择组合形状。  <br/> |**visGrpSelModeGroupOnly** <br/> |
 |1  <br/> |首先选择组合形状。  <br/> |**visGrpSelModeGroup1st** <br/> |
-|双面  <br/> |首先选择组合的组成部分。  <br/> |**visGrpSelModeMembers1st** <br/> |
+|2  <br/> |首先选择组合的组成部分。  <br/> |**visGrpSelModeMembers1st** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-您还可以在 "**行为**" 对话框中设置此值 (在 "组" 形状处于选中状态的 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中, 单击 "**行为**", 然后单击 "组" 下**选择**列表中的模式**行为**)。 
+您还可以在"行为"对话框中设置此值 (选择组合形状后，在"开发工具"选项卡上的"[](run-in-developer-mode-display-the-developer-tab.md)形状设计"组中，单击"行为"，然后单击"组行为"") "下的"选择"列表中的模式。    
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 SelectMode 单元格的引用，请使用： 
   

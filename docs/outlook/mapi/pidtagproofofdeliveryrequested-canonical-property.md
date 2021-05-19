@@ -25,7 +25,7 @@ ms.locfileid: "33434835"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件发件人请求特定收件人的传递证明, 则此属性包含 TRUE。
+如果邮件发件人请求特定收件人的送达证明，则此属性包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ ms.locfileid: "33434835"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33433750"
 | TRUE  <br/> | 不围绕路径的边界绘制线条，该路径是填充区域的边界。  <br/> |
 | FALSE  <br/> | 围绕路径的边界绘制线条。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 在您将线条的颜色改为白色后，尽管在白色的背景下看不到它，但该线条仍然是存在的。如果将此单元格的值设置为 TRUE，则不绘制任何线条。
   
@@ -33,13 +33,13 @@ ms.locfileid: "33433750"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | 几何图形*i* 。NoLine 其中*i* = <1>, 2, 3 .。。  <br/> |
+| 单元格名称：  <br/> | Geometry  *i*  .NoLine，其中  *i*  = <1>、2、3...  <br/> |
    
 要从某个程序按索引获取对 NoLine 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
-| 内容索引：  <br/> |**visSectionFirstComponent** +  *i* = ** 0、1、2 .。。  <br/> |
+| 内容索引：  <br/> |**visSectionFirstComponent**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 行索引：  <br/> |**visRowComponent** <br/> |
 | 单元格索引：  <br/> |**visCompNoLine** <br/> |
    

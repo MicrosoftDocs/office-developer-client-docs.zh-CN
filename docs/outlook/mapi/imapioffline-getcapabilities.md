@@ -25,7 +25,7 @@ ms.locfileid: "33433372"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-获取脱机对象支持的回调的条件。
+获取脱机对象支持回调的条件。
   
 ```cpp
 HRESULT GetCapabilities( 
@@ -35,9 +35,9 @@ HRESULT GetCapabilities(
 
 ## <a name="parameters"></a>参数
 
- _pulCapablities_
+ _将capablities_
   
-> 排除以下功能标志的位掩码:
+> [out]以下功能标志的位掩码：
     
 MAPIOFFLINE_CAPABILITY_OFFLINE
   
@@ -47,13 +47,13 @@ MAPIOFFLINE_CAPABILITY_ONLINE
   
 > 脱机对象能够提供联机通知。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在使用**[HrOpenOfflineObj](hropenofflineobj.md)** 打开脱机对象时, 客户端可以查询[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)以获取指向**IMAPIOffline**接口的指针, 并调用**IMAPIOffline:: GetCapabilities**以查找支持的回调对象。 然后, 客户端可以选择使用**IMAPIOfflineMgr**设置回调。
+使用 **[HrOpenOfflineObj](hropenofflineobj.md)** 打开脱机对象后，客户端可以查询 [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) 以获取 **指向 IMAPIOffline** 接口的指针，并调用 **IMAPIOffline：：GetCapabilities** 以找出对象支持的回调。 然后，客户端可以选择使用 **IMAPIOfflineMgr** 设置回调。
   
-请注意, 根据脱机对象的邮件服务器, 支持联机的回调的对象不一定支持要脱机的回调。
+请注意，根据脱机对象的邮件服务器，支持联机的回调的对象不一定支持脱机的回调。
   
-另请注意, 尽管脱机对象可能支持非联机/脱机更改的回调, 但脱机状态 API 仅支持联机/脱机更改, 并且客户端必须仅检查此类功能。
+另请注意，虽然脱机对象可能支持对联机/脱机的更改的回调，但脱机状态 API 仅支持联机/脱机更改，客户端必须仅检查这些功能。
   
 ## <a name="see-also"></a>另请参阅
 

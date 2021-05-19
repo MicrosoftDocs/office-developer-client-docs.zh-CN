@@ -19,15 +19,15 @@ ms.locfileid: "33433925"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-FirstSkipBlockContent 流结构是[FieldDefinition](fielddefinition-stream-structure.md)流的 SkipBlocks 数据元素中的第一个[SkipBlock](skipblock-stream-structure.md)结构的内容。 FirstSkipBlockContent 流只是一个数据元素 FieldName: 
+FirstSkipBlockContent 流结构是[FieldDefinition](fielddefinition-stream-structure.md)流的[SkipBlocks](skipblock-stream-structure.md)数据元素中第一个 SkipBlock 结构的内容。 FirstSkipBlockContent 流只是一个数据元素 FieldName： 
   
-- FieldName: [PackedUnicodeString](packedunicodestring-stream-structure.md), 字段名称。
+- [FieldName：PackedUnicodeString](packedunicodestring-stream-structure.md)，字段名称。
     
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Outlook 项目和字段](outlook-items-and-fields.md)
+[Outlook项目和字段](outlook-items-and-fields.md)
   
 [流结构](stream-structures.md)
   

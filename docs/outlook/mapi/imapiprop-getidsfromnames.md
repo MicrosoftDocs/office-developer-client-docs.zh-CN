@@ -40,23 +40,23 @@ HRESULT GetIDsFromNames(
 
  _cPropNames_
   
-> 实时由_lppPropNames_参数指向的属性名称的计数。 如果_lppPropNames_为 NULL, 则_cPropNames_参数必须为0。 
+> [in]  _lppPropNames_ 参数指向的属性名称计数。 如果  _lppPropNames_ 为 NULL，  _则 cPropNames_ 参数必须为 0。 
     
  _lppPropNames_
   
-> 实时指向属性名称数组的指针或 NULL。 向所有属性集中的所有属性名称传递 NULL 请求属性标识符, 该对象包含的所有属性集的信息。 如果在_ulFlags_参数中设置了 MAPI_CREATE 标志, 则_lppPropNames_参数不得为 NULL。 
+> [in]指向属性名称数组或 NULL 的指针。 传递 NULL 请求对象具有相关信息的所有属性集内所有属性名称的属性标识符。 如果在 _ulFlags_ 参数中设置了 MAPI_CREATE 标志，则 _lppPropNames_ 参数不能为 NULL。 
     
  _ulFlags_
   
-> 实时指示应如何返回属性标识符的标志的位掩码。 可以设置以下标志:
+> [in]指示属性标识符的返回方法的标志的位掩码。 可以设置以下标志：
     
 MAPI_CREATE 
   
-> 如果尚未将属性标识符分配给由_lppPropNames_指向的属性名称数组中包含的一个或多个名称, 则将该标识符分配给它。 此标志在内部注册名称到标识符的映射表中的标识符。
+> 将属性标识符（如果尚未分配）分配给  _lppPropNames_ 指向的属性名称数组中包含的一个或多个名称。 此标志在内部注册名称到标识符映射表中的标识符。
     
  _lppPropTags_
   
-> 排除指向包含现有或新分配的属性标识符的属性标记数组的指针的指针。 此数组中的属性标记的属性类型设置为**PT_UNSPECIFIED**。
+> [out]指向包含现有或新分配的属性标识符的属性标记数组的指针的指针。 此数组中属性标记的属性类型设置为 PT_UNSPECIFIED **。**
     
 ## <a name="return-value"></a>返回值
 
@@ -70,47 +70,47 @@ MAPI_E_NO_SUPPORT
     
 MAPI_E_NOT_ENOUGH_MEMORY 
   
-> 内存不足, 无法检索标识符。
+> 没有足够的内存来检索标识符。
     
 MAPI_E_TOO_BIG 
   
-> 无法执行操作, 因为它需要返回过多的属性标记。
+> 由于需要返回过多的属性标记，因此无法执行该操作。
     
 MAPI_W_ERRORS_RETURNED 
   
-> 调用全部成功, 但无法返回一个或多个属性标识符。 每个不可用属性的相应属性类型都设置为**PT_ERROR** , 其标识符设置为零。 返回此警告时, 请将呼叫处理为成功。 若要测试此警告, 请使用**HR_FAILED**宏。 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
+> 调用整体成功，但无法返回一个或多个属性标识符。 每个不可用属性的相应属性类型都设置为 **PT_ERROR其标识符** 设置为零。 返回此警告时，请成功处理调用。 若要测试此警告，请使用 **HR_FAILED** 宏。 请参阅 [使用宏处理错误](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPIProp:: GetIDsFromNames**方法检索包含一个或多个命名属性的属性标识符的属性标记的数组。 可以调用**IMAPIProp:: GetIDsFromNames**以执行以下操作: 
+**IMAPIProp：：GetIDsFromNames** 方法检索一组属性标记，这些标记包含一个或多个命名属性的属性标识符。 **可以调用 IMAPIProp：：GetIDsFromNames** 以执行以下操作： 
   
-- 为新名称创建标识符。
+- 创建新名称的标识符。
     
 - 检索特定名称的标识符。
     
 - 检索对象映射中包含的所有命名属性的标识符。
     
-命名属性通常由邮件存储提供程序用于文件夹和邮件。 其他对象 (如邮件用户和配置文件节) 可能不支持将名称与属性标识符关联, 并且可能会从**GetIDsFromNames**返回 MAPI_E_NO_SUPPORT。
+命名属性通常由邮件存储提供程序用于文件夹和邮件。 其他对象（如邮件用户和配置文件部分）可能不支持名称与属性标识符的关联，并且可能从 **GetIDsFromNames MAPI_E_NO_SUPPORT返回值**。
   
-如果有错误返回特定名称的标识符, **GetIDsFromNames**将返回 MAPI_W_ERRORS_RETURNED, 并将属性标记数组项中对应于名称的属性类型设置为**PT_ERROR** , 并将标识符设置为零。 
+如果存在返回特定名称的标识符的错误 **，GetIDsFromNames** 将返回 MAPI_W_ERRORS_RETURNED并设置属性标记数组条目中的属性类型，该属性类型对应于 **PT_ERROR，** 标识符为零。 
   
-名称到标识符的映射由对象的**PR_MAPPING_SIGNATURE** ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)) 属性表示。 **PR_MAPPING_SIGNATURE**包含一个[MAPIUID](mapiuid.md)结构, 该结构指示负责对象的服务提供程序。 如果两个对象的**PR_MAPPING_SIGNATURE**属性相同, 则假定这些对象使用相同的名称与标识符的映射。 
+名称到标识符映射由对象的 PR_MAPPING_SIGNATURE ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)) 表示。  **PR_MAPPING_SIGNATURE** 包含 [一个 MAPIUID](mapiuid.md) 结构，该结构指示负责对象的服务提供商。 如果 **PR_MAPPING_SIGNATURE** 对象的属性相同，则假定这些对象使用相同的名称到标识符映射。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-您传递回由_lppPropNames_参数指向的属性标记数组中的标识符必须位于0x8000 到0xFFFE 范围中。 此数组中的条目必须与通过_lppPropNames_指向的属性名称数组中传递的名称的顺序相同。 
+在  _lppPropNames_ 参数指向的属性标记数组中传递回的标识符必须0x8000范围0xFFFE。 此数组中的条目的顺序必须与  _lppPropNames_ 指向的属性名称数组中传递的名称的顺序相同。 
   
-如果支持容器上的命名属性, 请对容器中的所有对象使用相同的名称与标识符映射 (即, 不要对邮件存储区中的每个文件夹或文件夹中的每封邮件使用不同的映射)。
+如果支持容器上的命名属性，请对容器 (中所有对象使用相同的名称到标识符映射，即不要对邮件存储中每个文件夹或文件夹) 中的每个邮件使用不同的映射。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-由于_lppPropTags_指向的属性标记数组中返回的标识符的属性类型设置为**PT_UNSPECIFIED**, 因此您必须调用[IMAPIProp:: SetProps](imapiprop-setprops.md)方法以检索准确的类型。 
+由于  _lppPropTags_ 指向的属性标记数组中返回的标识符的属性类型设置为 **PT_UNSPECIFIED，** 因此您必须调用 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法来检索准确类型。 
   
-如果使用命名属性移动或复制对象, 并且源对象和目标对象的映射签名与它们的**PR_MAPPING_SIGNATURE**属性的值所表示的映射签名不同, 则必须在这些操作过程中保留这些名称。 若要保留属性名称, 请调整相应的属性标识符, 使其与目标对象的名称与标识符的映射相匹配。 
+如果移动或复制具有命名属性的对象，并且源对象和目标对象具有不同的映射签名，如其 **PR_MAPPING_SIGNATURE** 属性的值所指示，则必须在这些操作过程中保留名称。 若要保留属性名称，请调整相应的属性标识符，以匹配目标对象的名称到标识符映射。 
   
-某些对象的属性标识符的数目与它们可以命名的数目有一定的限制。 如果对**GetIDsFromNames**的调用导致超出此限制, 则此方法将返回 MAPI_E_TOO_BIG。 在这种情况下, 按标识符进行查询。 
+某些对象对可命名的属性标识符的数量有限制。 如果调用 **GetIDsFromNames** 导致超出此限制，则该方法返回 MAPI_E_TOO_BIG。 在这种情况下，按标识符查询。 
   
-有关详细信息, 请参阅[MAPI 命名属性](mapi-named-properties.md)。 
+有关详细信息，请参阅 [MAPI Named Properties](mapi-named-properties.md)。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -118,7 +118,7 @@ MAPI_W_ERRORS_RETURNED
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|SingleMAPIPropListCtrl  <br/> |CSingleMAPIPropListCtrl:: FindAllNamedPropsUsed  <br/> |MFCMAPI 使用**IMAPIProp:: GetIDsFromNames**方法获取已映射的所有命名属性的属性标记。  <br/> |
+|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl：：FindAllNamedPropsUsed  <br/> |MFCMAPI 使用 **IMAPIProp：：GetIDsFromNames** 方法获取已映射的所有命名属性的属性标记。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
@@ -139,5 +139,5 @@ MAPI_W_ERRORS_RETURNED
   
 [MAPI 命名属性](mapi-named-properties.md)
   
-[使用宏进行错误处理](using-macros-for-error-handling.md)
+[使用宏处理错误](using-macros-for-error-handling.md)
 

@@ -25,13 +25,13 @@ ms.locfileid: "33432833"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供了调用 OLE 方法**IUnknown:: AddRef**的另一种方法。 
+提供另一种调用 OLE 方法 **IUnknown：：AddRef 的方法**。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 ULONG UlAddRef(
@@ -43,22 +43,22 @@ ULONG UlAddRef(
 
  _punk_
   
-> 实时指向从**IUnknown**接口派生的接口的指针, 换句话说, 是任何 MAPI 接口。 
+> [in]指向从 **IUnknown** 接口派生的接口的指针，即任何 MAPI 接口。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。 
+> 调用成功并返回了预期值。 
     
 MAPI_E_CALL_FAILED 
   
-> 意外或未知来源的错误阻止操作完成。
+> 意外或未知来源的错误阻止了操作完成。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
- **UlAddRef**返回由**IUnknown:: AddRef**方法返回的值, 它是接口的引用计数的新值。 值为非零值。 
+ **UlAddRef** 返回 **IUnknown：：AddRef** 方法返回的值，这是接口的引用计数的新值。 该值为非零。 
   
-有关**IUnknown:: AddRef**的详细信息, 请参阅[实现 IUnknown 接口](implementing-the-iunknown-interface.md)。 
+有关 **IUnknown：：AddRef** 详细信息，请参阅 [实现 IUnknown 接口](implementing-the-iunknown-interface.md)。 
   
 

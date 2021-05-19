@@ -25,7 +25,7 @@ ms.locfileid: "33435346"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-获取作为指定邮件类别的传入邮件的目标或作为邮件存储的默认接收文件夹而建立的文件夹。
+获取已建立为指定邮件类的传入邮件的目标或作为邮件存储的默认接收文件夹的文件夹。
   
 ```cpp
 HRESULT GetReceiveFolder(
@@ -41,27 +41,27 @@ HRESULT GetReceiveFolder(
 
  _lpszMessageClass_
   
-> 实时指向与接收文件夹相关联的邮件类的指针。 如果将_lpszMessageClass_参数设置为 NULL 或空字符串, 则**GetReceiveFolder**将返回邮件存储区的默认接收文件夹。 
+> [in]指向与接收文件夹关联的邮件类的指针。 如果  _lpszMessageClass_ 参数设置为 NULL 或空字符串 **，GetReceiveFolder** 将返回邮件存储的默认接收文件夹。 
     
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制传入和返回的字符串的类型。 可以设置以下标志:
+> [in]控制传入和返回的字符串类型的标志位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 邮件类字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则邮件类字符串将采用 ANSI 格式。
+> 邮件类字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则邮件类字符串采用 ANSI 格式。
     
  _lpcbEntryID_
   
-> 排除指向条目标识符中由_lppEntryID_参数指向的字节计数的指针。 
+> [out]指向  _lppEntryID_ 参数指向的条目标识符中的字节计数的指针。 
     
  _lppEntryID_
   
-> 排除指向所请求的接收文件夹的条目标识符的指针的指针。
+> [out]指向指向所请求接收文件夹的条目标识符的指针的指针。
     
  _lppszExplicitClass_
   
-> 排除指向邮件类的指针的指针, 该邮件类显式设置为其接收文件夹由_lppEntryID_指向的文件夹。 此邮件类应与_lpszMessageClass_参数中的类相同, 或与该类的基类相同。 传递 NULL 表示_lppEntryID_指向的文件夹是邮件存储的默认接收文件夹。 
+> [out]指向显式将  _lppEntryID_ 指向的文件夹作为接收文件夹的邮件类的指针的指针。 此消息类应该与  _lpszMessageClass_ 参数中的类相同，或者是该类的基类。 传递 NULL 表示  _lppEntryID_ 指向的文件夹是邮件存储的默认接收文件夹。 
     
 ## <a name="return-value"></a>返回值
 
@@ -69,21 +69,21 @@ S_OK
   
 > 已成功返回接收文件夹。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMsgStore:: GetReceiveFolder**方法获取接收文件夹的条目标识符, 该文件夹是指定用于接收特定邮件类别的传入邮件的文件夹。 调用方可以在_lpszMessageClass_参数中指定邮件类或 NULL。 如果_lpszMessageClass_为 NULL, 则**GetReceiveFolder**将返回以下值: 
+**IMsgStore：：GetReceiveFolder** 方法获取接收文件夹的条目标识符，该文件夹被指定为接收特定邮件类的传入邮件。 呼叫者可以在  _lpszMessageClass_ 参数中指定邮件类或 NULL。 如果  _lpszMessageClass_ 为 **NULL，GetReceiveFolder** 将返回以下值： 
   
-- 在_lppszExplicitClass_中, 由_lpszMessageClass_指向的邮件类的第一个基类的名称, 该基类显式设置接收文件夹。 
+- 在  _lppszExplicitClass_ 中，由明确设置接收文件夹的  _lpszMessageClass_ 指向的邮件类的第一个基类的名称。 
     
-- 在_lppEntryID_中, 由_lppszExplicitClass_参数指向的基类的接收文件夹的条目标识符。 
+- 在  _lppEntryID_ 中  _，lppszExplicitClass_ 参数指向的基类的接收文件夹的条目标识符。 
     
-例如, 假设邮件类为 IPM 的接收文件夹 **。注意**已设置为收件箱的条目标识符, 并且将使用设置为 IPM 的_lpszMessageClass_的内容调用**GetReceiveFolder** **。注意**: "电话"。 如果**IPM。注意: 电话**未设置显式接收文件夹, **GetReceiveFolder**返回_lppEntryID_和 IPM 中的收件箱的条目标识符 **。注意**在_lppszExplicitClass_中。
+例如，假设邮件类 IPM 的接收 **文件夹。Note** has been set to the entry identifier of the Inbox and **GetReceiveFolder** is called with the contents of _lpszMessageClass_ set to **IPM.注意。电话**。 如果 **为 IPM。注意。电话** 没有显式接收文件夹集 **，GetReceiveFolder** 返回 _lppEntryID_ 和 IPM 中收件箱的 **条目标识符。** _lppszExplicitClass_ 中的注释。
   
-如果客户端为邮件类调用**GetReceiveFolder** , 但尚未为该邮件类别设置接收文件夹, 则_lppszExplicitClass_可以是零长度字符串、Unicode 格式的字符串, 也可以是 ANSI 格式的字符串, 具体取决于是否client 在_ulFlags_参数中设置 MAPI_UNICODE 标志。 
+如果客户端为邮件类调用 **GetReceiveFolder，** 并且尚未为邮件类设置接收文件夹，  _则 lppszExplicitClass_ 可以是零长度字符串、Unicode 格式的字符串或 ANSI 格式的字符串，具体取决于客户端是否在  _ulFlags_ 参数中设置 MAPI_UNICODE 标志。 
   
-通过在_lpszMessageClass_参数中传递 NULL 获取的默认接收文件夹, 对于每个邮件存储始终存在。 
+通过传递  _lpszMessageClass_ 参数中的 NULL 获取的默认接收文件夹始终存在于每个邮件存储中。 
   
-在使用_lppEntryID_中返回的条目标识符完成时, 客户端应调用[MAPIFreeBuffer](mapifreebuffer.md)函数, 以释放保留该条目标识符的内存。 在使用_lppszExplicitClass_中返回的邮件类字符串完成时, 它还应调用**MAPIFreeBuffer** , 以释放保留该字符串的内存。 
+使用 _lppEntryID_ 中返回的条目标识符完成时，客户端应调用 [MAPIFreeBuffer](mapifreebuffer.md)函数，以释放保留该条目标识符的内存。 当使用 _lppszExplicitClass_ 中返回的邮件类字符串完成时，它还应调用 **MAPIFreeBuffer** 以释放包含该字符串的内存。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -91,7 +91,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFunctions  <br/> |GetInbox  <br/> |MFCMAPI 使用**IMsgStore:: GetReceiveFolder**方法查找 "收件箱" 文件夹。  <br/> |
+|MAPIFunctions.cpp  <br/> |GetInbox  <br/> |MFCMAPI 使用 **IMsgStore：：GetReceiveFolder** 方法来查找"收件箱"文件夹。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

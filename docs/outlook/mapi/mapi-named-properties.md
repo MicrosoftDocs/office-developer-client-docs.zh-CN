@@ -19,17 +19,17 @@ ms.locfileid: "33435045"
  
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 提供了用于为属性分配名称、将这些名称映射为唯一标识符以及使此映射持久的功能。 标识符映射的永久名称可确保属性名称在会话中保持有效。
+MAPI 提供了一个向属性分配名称、将这些名称映射到唯一标识符以及使此映射持久化功能。 永久性名称到标识符的映射可确保属性名称在会话间保持有效。
   
-若要定义命名属性, 客户端或服务提供程序构成了一个名称, 并将其存储在[MAPINAMEID](mapinameid.md)结构中。 由于名称由32位全局唯一标识符 (即 GUID) 和 Unicode 字符字符串或数值组成, 因此命名属性的创建者可以创建有意义的名称, 而不会担心重复。 名称是唯一的, 可以使用它们, 而无需考虑其标识符的值。 
+为了定义命名属性，客户端或服务提供商会创建一个名称，并存储到 [MAPINAMEID](mapinameid.md) 结构中。 由于名称由 32 位全局唯一标识符或 GUID 以及 Unicode 字符串或数值组成，命名属性的创建者可以创建有意义的名称，而不会担心重复。 名称是唯一的，可以在不考虑其标识符值的情况下使用。 
   
-若要支持命名属性, 服务提供程序可实现两个方法 ( [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)和[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) ), 以便在名称和标识符之间进行转换, 并允许其[IMAPIProp:: GetProps](imapiprop-getprops.md) [IMAPIProp:: SetProps](imapiprop-setprops.md)用于检索和修改命名属性范围中的标识符的属性的方法。 命名属性标识符的范围介于0x8000 和0xFFFE 之间。 
+为了支持命名属性，服务提供商实现了 [两种方法（IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md) 和 [IMAPIProp：：GetNamesFromIDs）](imapiprop-getnamesfromids.md) 在名称和标识符之间转换，并允许 [其 IMAPIProp：：GetProps](imapiprop-getprops.md)[IMAPIProp：：SetProps](imapiprop-setprops.md) 方法检索和修改具有命名属性范围中的标识符的属性。 命名属性标识符的范围介于 0x8000 和 0xFFFE。 
   
-任何实现**IMAPIProp**接口的对象都可以支持命名属性。 需要将来自其他提供商的条目复制到其容器中的通讯簿提供程序和可用于创建任意邮件类型的邮件存储提供程序, 以提供此支持。 对于所有其他服务提供程序, 都是一个选项。 不支持命名属性的提供程序从**GetIDsFromNames**和**GetNamesFromIDs**方法返回 MAPI_E_NO_SUPPORT, 并拒绝设置具有0x8000 或更高标识符的任何属性, 并返回 MAPI_E_UNEXPECTED 在**SPropProblemarray**。
+实现 **IMAPIProp** 接口的任何对象都可以支持命名属性。 需要允许将来自其他提供程序的条目复制到其容器和可用于创建任意邮件类型的邮件存储提供程序的通讯簿提供程序才能提供此支持。 它是所有其他服务提供商的一个选项。 不支持命名属性的提供程序从 **GetIDsFromNames** 和 **GetNamesFromIDs** 方法返回 MAPI_E_NO_SUPPORT，并拒绝设置标识符为 0x8000 或更高的任何属性，在 **SPropProblemarray** 中返回 MAPI_E_UNEXPECTED。
   
-为属性创建名称是客户端为现有或自定义邮件类别定义新属性的一种方法。 服务提供程序可以使用命名属性来公开其邮件系统的独特功能。 另一种用于命名属性的方法是提供另一种方法, 用于引用小于0x8000 的标识符的属性。 
+为属性创建名称是客户端定义现有或自定义邮件类的新属性的一种方法。 服务提供商可以使用命名属性来公开其邮件系统的独特功能。 不过，命名属性的另一个用途是提供引用以下属性的标识符的0x8000。 
   
-例如, 客户端可以使用与以下代码类似的代码检索对象的所有命名属性的名称:
+例如，客户端可以使用类似于以下代码的代码来检索对象的所有命名属性的名称：
   
 ```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;
@@ -44,7 +44,7 @@ lpMAPIProp->GetNamesFromIDs (lppPropTags,
  
 ```
 
-若要请求 PS_PUBLIC_STRINGS 属性集中的所有名称, 客户端会将属性集参数中的 NULL 替换为 PS_PUBLIC_STRINGS, 如下所示: 
+若要从属性集PS_PUBLIC_STRINGS所有名称，客户端将替换属性集参数中的 NULL，PS_PUBLIC_STRINGS如下所示： 
   
 ```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;

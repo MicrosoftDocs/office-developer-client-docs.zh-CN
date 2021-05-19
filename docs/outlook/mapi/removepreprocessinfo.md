@@ -25,13 +25,13 @@ ms.locfileid: "33432945"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-从邮件中删除基于[PreprocessMessage](preprocessmessage.md)的函数编写的经过预处理的信息。 
+从邮件中删除由基于 [PreprocessMessage](preprocessmessage.md) 的函数写入的预处理信息。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapispi  <br/> |
-|定义的函数实现者:  <br/> |传输提供程序  <br/> |
-|定义的函数调用者:  <br/> |MAPI 后台处理程序  <br/> |
+|标头文件：  <br/> |Mapispi.h  <br/> |
+|定义的函数实现方：  <br/> |传输提供程序  <br/> |
+|由调用的已定义函数：  <br/> |MAPI 后台处理程序  <br/> |
    
 ```cpp
 HRESULT RemovePreprocessInfo(
@@ -43,18 +43,18 @@ HRESULT RemovePreprocessInfo(
 
  _lpMessage_
   
-> 实时指向要从中删除信息的预处理邮件的指针。
+> [in]指向将从中删除信息的预处理邮件的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 已成功删除已预处理的信息。
+> 已成功删除预处理的信息。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-MAPI 后台处理程序调用基于**RemovePreprocessInfo**的函数。 在对[IMAPISupport:: RegisterPreprocessor](imapisupport-registerpreprocessor.md)方法的调用中注册基于并行**PreprocessMessage**的函数时, 传输提供程序会同时注册基于**RemovePreprocessInfo**的函数。 
+MAPI 后台处理程序调用基于 **RemovePreprocessInfo 的函数**。 传输提供程序在注册基于 **RemovePreprocessInfo** 的函数的同时，在 [调用 IMAPISupport：：RegisterPreprocessor](imapisupport-registerpreprocessor.md)方法时注册基于 **PreprocessMessage** 的并行函数。 
   
-适合传真传输的图像呈现是由[PreprocessMessage](preprocessmessage.md)函数原型定义的函数编写的经过预处理的信息的示例。 MAPI 后台处理程序通常在发送包含经过预处理的信息的邮件后调用**RemovePreprocessInfo**函数。 
+适用于传真传输的图像呈现是由 [PreprocessMessage](preprocessmessage.md)函数原型定义的函数编写的预处理信息的示例。 MAPI 后台处理程序通常在发送包含预处理信息的邮件后调用 **RemovePreprocessInfo** 函数。 
   
 

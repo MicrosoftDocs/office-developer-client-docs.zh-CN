@@ -43,7 +43,7 @@ InfoPath 2003 兼容对象模型实现了在 [Microsoft.Office.Interop.InfoPath.
 
 创建事件处理程序时，InfoPath 将在项目的表单代码文件（FormCode.cs 或 FormCode.vb）中创建事件处理程序的声明。在事件处理程序的声明中，InfoPath 使用 **e** 作为传递给事件处理程序的参数的名称。该参数包含与事件处理程序关联的事件对象。 
   
-例如，在设计模式下为 **OnLoad** 事件创建事件处理程序（通过单击“开发工具”**** 选项卡上的“OnLoad 事件”****）时，InfoPath 会将接收 **DocReturnEvent** 对象的事件处理程序的声明添加到表单代码文件中，然后打开代码编辑器，以便您可以将代码添加到以下事件处理程序声明中。 
+例如，在设计模式下为 **OnLoad** 事件创建事件处理程序（通过单击“开发工具”选项卡上的“OnLoad 事件”）时，InfoPath 会将接收 **DocReturnEvent** 对象的事件处理程序的声明添加到表单代码文件中，然后打开代码编辑器，以便您可以将代码添加到以下事件处理程序声明中。 
   
 ```cs
 // The following function handler is created by Microsoft Office 

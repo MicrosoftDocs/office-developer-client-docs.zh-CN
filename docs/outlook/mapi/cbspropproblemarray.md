@@ -25,12 +25,12 @@ ms.locfileid: "33434905"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算现有[SPropProblemArray](spropproblemarray.md)结构中的字节数。 
+计算现有 [SPropProblemArray](spropproblemarray.md) 结构的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**SPropProblemArray** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 CbSPropProblemArray (_lparray)
@@ -38,9 +38,9 @@ CbSPropProblemArray (_lparray)
 
 ## <a name="parameters"></a>参数
 
- __lparray_
+ _ _lparray_
   
-> 指向现有**SPropProblemArray**结构的指针。 
+> 指向现有 **SPropProblemArray 结构的** 指针。 
     
 ## <a name="see-also"></a>另请参阅
 

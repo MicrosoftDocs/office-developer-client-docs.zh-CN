@@ -25,30 +25,30 @@ ms.locfileid: "33432882"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果应在当前文件夹中撰写邮件, 则该参数包含 TRUE。 
+如果邮件应在当前文件夹中撰写，则包含 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FORM_MESSAGE_BEHAVIOR  <br/> |
 |标识符:  <br/> |0x330A  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |MAPI 通用  <br/> |
+|区域：  <br/> |MAPI common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-值为 FALSE 表示邮件应撰写为其他任何其他人际邮件, 即在 "发件箱" 文件夹中。 
+FALSE 值指示邮件应撰写为任何其他社会性邮件，即发件箱文件夹中。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

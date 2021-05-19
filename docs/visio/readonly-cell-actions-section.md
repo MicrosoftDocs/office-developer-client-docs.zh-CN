@@ -28,7 +28,7 @@ ms.locfileid: "33434233"
 |TRUE  <br/> |动作在菜单上显示，但为只读的。  <br/> |
 |FALSE  <br/> |动作在菜单上显示并且可以选择（默认值）。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 如果显示在动作标记或快捷菜单上的某个动作是只读的，便不能选取它。 它不会灰显而是背景呈彩色，类似标签。 若要使菜单项灰显，请使用 Disabled 单元格。 
   
@@ -36,14 +36,14 @@ ms.locfileid: "33434233"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |操作. *名称*。ReadOnlywhere 操作。  *name*是操作行的名称  <br/> |
+|单元格名称：  <br/> |操作。 *name*  .ReadOnlywhere Actions.  *name*  是 Actions 行的名称  <br/> |
    
 若要从某个程序按索引获取对 ReadOnly 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionAction** <br/> |
-|行索引：  <br/> |**visRowAction** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRowAction**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 |单元格索引：  <br/> |**visActionReadOnly** <br/> |
    
 

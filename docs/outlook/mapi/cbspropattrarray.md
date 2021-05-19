@@ -25,12 +25,12 @@ ms.locfileid: "33433295"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算现有[SPropAttrArray](spropattrarray.md)结构中的字节数。 
+计算现有 [SPropAttrArray](spropattrarray.md) 结构的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Imessage  <br/> |
-|相关结构:  <br/> |**SPropAttrArray** <br/> |
+|标头文件：  <br/> |Imessage.h  <br/> |
+|相关结构：  <br/> |**SPropAttrArray** <br/> |
    
 ```cpp
 CbSPropAttrArray (_lparray)
@@ -38,9 +38,9 @@ CbSPropAttrArray (_lparray)
 
 ## <a name="parameters"></a>参数
 
- __lparray_
+ _ _lparray_
   
-> 指向现有**SPropAttrArray**结构的指针。 
+> 指向现有 **SPropAttrArray 结构的** 指针。 
     
 ## <a name="see-also"></a>另请参阅
 

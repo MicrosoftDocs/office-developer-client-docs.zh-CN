@@ -19,7 +19,7 @@ ms.locfileid: "33434142"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-用于在[上载读取状态状态](upload-read-status-state.md)期间上载项目的读取状态的扩展信息。
+上传读取状态期间上传项目的读取 [状态的扩展信息](upload-read-status-state.md)。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -35,27 +35,27 @@ struct UPREADE
 
 _ulFlags_
   
->  [输出]/[in] 标志, 以确定在上载过程中的相应行为。 
+>  [out]/[in] 用于确定上载期间的适当行为的标志。 
     
   - UPR_ASSOC
     
-    - 排除项目已隐藏。
+    - [out]项目处于隐藏状态。
     
   - UPR_READ
     
-    - 排除项目的读取状态已更改。
+    - [out]项目的读取状态已更改。
     
   - UPR_OK
     
-    - 实时上载成功。 客户端将信息上载到服务器后对此进行设置。
+    - [in]Upload已成功。 客户端在将信息上载到服务器后进行设置。
     
   - UPR_COMMIT
     
-    - 实时立即上载项目的读取状态, 而不是等待[上载表状态](upload-table-state.md)的末尾, 以批处理的多个项目。 
+    - [in]Upload项的读取状态，而不是等到上载表状态结束时再执行多个项目的批处理。 [](upload-table-state.md) 
     
 _skey_
   
-> 排除项的源键。
+> [out]项的源键。
     
 ## <a name="see-also"></a>另请参阅
 

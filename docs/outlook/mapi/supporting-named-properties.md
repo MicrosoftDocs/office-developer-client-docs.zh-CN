@@ -21,18 +21,18 @@ ms.locfileid: "33434324"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-实现 [IMAPIProp: IUnknown](imapipropiunknown.md) 界面的任何对象可支持命名属性。 对命名属性的支持是必需的: 
+实现 [IMAPIProp: IUnknown](imapipropiunknown.md) 界面的任何对象可支持命名属性。 对命名属性的支持对于： 
   
-- 允许将其他提供程序中的条目复制到其容器中的通讯簿提供程序。
+- 允许将来自其他提供程序的条目复制到其容器中的通讯簿提供程序。
     
 - 可用于创建任意邮件类型的邮件存储提供程序。
     
-命名属性支持对于所有其他服务提供程序都是可选的。 支持命名属性的服务提供程序必须在[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)和[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)方法中实现名称到标识符的映射。 客户端调用**GetNamesFromIDs**以检索 over 0x8000 范围和**GetIDsFromNames**中的一个或多个属性标识符对应的名称, 以创建或检索一个或多个名称的标识符。 
+命名属性支持对于所有其他服务提供商都是可选的。 支持命名属性的服务提供商必须在 [IMAPIProp：：GetNamesFromIDs](imapiprop-getnamesfromids.md) 和 [IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md) 方法中实现名称到标识符映射。 客户端调用 **GetNamesFromIDs** 以检索 0x8000 范围内一个或多个属性标识符的相应名称，并调用 **GetIDsFromNames** 来创建或检索一个或多个名称的标识符。 
   
-不支持命名属性的服务提供程序必须:
+不支持命名属性的服务提供商必须：
   
-- 通过在[SPropProblem](spropproblem.md)数组中返回 MAPI_E_UNEXPECTED_ID, 对[IMAPIProp:: SetProps](imapiprop-setprops.md)的调用失败, 以设置具有0x8000 或更高的标识符的属性。 
+- 调用 [IMAPIProp：：SetProps](imapiprop-setprops.md) 失败，以通过返回 [SPropProblem](spropproblem.md) 数组中的 0x8000 或更高标识符来设置MAPI_E_UNEXPECTED_ID属性。 
     
-- 从[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)和[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)方法返回 MAPI_E_NO_SUPPORT。 
+- 返回MAPI_E_NO_SUPPORT [IMAPIProp：：GetNamesFromIDs](imapiprop-getnamesfromids.md) 和 [IMAPIProp：：GetIDsFromNames 方法](imapiprop-getidsfromnames.md) 中的值。 
     
 

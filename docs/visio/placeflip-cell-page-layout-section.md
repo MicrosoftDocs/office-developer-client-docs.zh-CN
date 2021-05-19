@@ -22,13 +22,13 @@ ms.locfileid: "33434296"
   
 |**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
-|&amp;H0  <br/> |默认值。 不翻转。  <br/> |**visLOFlipDefault** <br/> |
+|&amp;H0  <br/> |默认值。不翻转。  <br/> |**visLOFlipDefault** <br/> |
 |&amp;H1  <br/> |水平翻转。  <br/> |**visLOFlipX** <br/> |
 |&amp;H2  <br/> |垂直翻转。  <br/> |**visLOFlipY** <br/> |
 |&amp;H4  <br/> |翻转以 90 度为增量进行。  <br/> |**visLOFlipRotate** <br/> |
 |&amp;H8  <br/> |不翻转。  <br/> |**visLOFlipNone** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 PlaceFlip 单元格中的值有助于将可放置形状的方向朝向它连接的下一个可放置形状。该值通常在排放使用静态粘附的绘图时使用。
   

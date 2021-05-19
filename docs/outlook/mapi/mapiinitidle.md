@@ -29,9 +29,9 @@ ms.locfileid: "33432441"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 LONG MAPIInitIdle(
@@ -43,29 +43,29 @@ LONG MAPIInitIdle(
 
  _lpvReserved_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
 ## <a name="return-value"></a>返回值
 
-如果初始化成功, 则**MAPIInitIdle**函数返回零, 否则返回1。 如果多次调用**MAPIInitIdle** , 则所有其他调用都将成功, 但会被忽略, 除非递增引用计数。 
+如果 **初始化成功，MAPIInitIdle** 函数将返回零，否则返回 1。 如果 **多次调用 MAPIInitIdle，** 则所有其他调用将成功，但会被忽略，但增加引用计数除外。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在调用任何其他 idle 引擎函数之前, 客户端应用程序或服务提供程序必须调用**MAPIInitIdle** 。 
+客户端应用程序或服务提供商必须先调用 **MAPIInitIdle，** 然后才能调用任何其他空闲引擎功能。 
   
-每次调用**MAPIInitIdle**时, 都必须通过对[MAPIDeInitIdle](mapideinitidle.md)的后续调用进行匹配, 否则会为调用应用程序保持空闲引擎的运行状态。 
+对 **MAPIInitIdle 的** 每次调用都必须与 [对 MAPIDeInitIdle](mapideinitidle.md)的后续调用匹配，否则空闲引擎将保持为调用应用程序运行。 
   
-以下函数处理 MAPI 空闲引擎和基于[FNIDLE](fnidle.md)函数原型的空闲例程: 
+以下函数基于 [FNIDLE](fnidle.md) 函数原型处理 MAPI 空闲引擎和空闲例程： 
   
-|**Idle 例程函数**|**使用**|
+|**空闲例程函数**|**使用情况**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |更改已注册的空闲例程的特征。  <br/> |
-|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |从 MAPI 系统中删除已注册的空闲例程。  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |禁用或重新启用已注册的空闲例程, 而不将其从 MAPI 系统中删除。  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |将空闲例程添加到 MAPI 系统中 (无论是否启用)。  <br/> |
-|[MAPIDeInitIdle](mapideinitidle.md) <br/> |关闭呼叫应用程序的 MAPI 空闲引擎。  <br/> |
+|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |从 MAPI 系统中删除注册的空闲例程。  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |禁用或重新启用注册的空闲例程，而不将其从 MAPI 系统中删除。  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |将空闲例程添加到 MAPI 系统，启用或不启用它。  <br/> |
+|[MAPIDeInitIdle](mapideinitidle.md) <br/> |关闭调用应用程序的 MAPI 空闲引擎。  <br/> |
 |**MAPIInitIdle** <br/> |初始化调用应用程序的 MAPI 空闲引擎。  <br/> |
    
-当平台的所有前台任务都变为空闲时, MAPI 空闲引擎将调用准备执行的最高优先级空闲例程。 在具有相同优先级的空闲例程之间, 不能保证呼叫顺序。 
+当平台的所有前台任务变为空闲时，MAPI 空闲引擎将调用已准备好执行的最高优先级空闲例程。 无法保证在优先级相同的空闲例程之间调用顺序。 
   
 

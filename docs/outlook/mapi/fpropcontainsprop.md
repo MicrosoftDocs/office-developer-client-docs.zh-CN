@@ -23,13 +23,13 @@ ms.locfileid: "33432629"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-比较两个属性值 (通常为字符串或二进制数组), 以查看是否有一个属性值包含另一个。 
+比较两个属性值（通常是字符串或二进制数组）以查看其中一个是否包含另一个。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 BOOL FPropContainsProp(
@@ -43,46 +43,46 @@ BOOL FPropContainsProp(
 
 _lpSPropValueDst_
   
-> 实时指向[SPropValue](spropvalue.md)结构的指针, 该结构定义可能包含由_lpSPropValueSrc_参数指向的搜索字符串的属性值。 
+> [in]指向 [SPropValue](spropvalue.md) 结构的指针，该结构定义可能包含  _由 lpSPropValueSrc_ 参数指向的搜索字符串的属性值。 
     
 _lpSPropValueSrc_
   
-> 实时指向**SPropValue**结构的指针, 该结构定义**FPropContainsProp**在由_lpSPropValueDst_参数指向的属性值中查找的搜索字符串。 
+> [in]指向 **SPropValue** 结构的指针，该结构定义 **FPropContainsProp** 在  _lpSPropValueDst_ 参数指向的属性值中查找的搜索字符串。 
     
 _ulFuzzyLevel_
   
-> 实时用于定义要在比较中使用的 preciseness 级别的选项设置。 
+> [in]定义要用于比较的精度级别的选项设置。 
 
-  - **较低的16位**适用于类型 PT_BINARY 和 PT_STRING8 的属性。 必须将它们完全设置为以下值之一:
+  - 较低的 **16 位** 适用于 PT_BINARY 和 PT_STRING8。 必须完全设置为以下值之一：
       
-    - FL_FULLSTRING: _lpSPropValueSrc_搜索字符串必须等于_lpSPropValueDst_标识的属性值。
+    - _FL_FULLSTRING：lpSPropValueSrc_ 搜索字符串必须等于 _由 lpSPropValueDst 标识的属性值_。
         
-    - FL_PREFIX: _lpSPropValueSrc_搜索字符串必须出现在_lpSPropValueDst_标识的属性值的开头。 这两个值只应与_lpSPropValueSrc_指示的搜索字符串的长度进行比较。 
+    - _FL_PREFIX：lpSPropValueSrc_ 搜索字符串必须出现在 _由 lpSPropValueDst 标识的属性值的开头_。 这两个值应仅与  _lpSPropValueSrc_ 指示的搜索字符串的长度进行比较。 
         
-    - FL_SUBSTRING: _lpSPropValueSrc_搜索字符串必须包含在_lpSPropValueDst_标识的属性值中的任何位置。 
+    - _FL_SUBSTRING：lpSPropValueSrc_ 搜索字符串必须包含在 _由 lpSPropValueDst_ 标识的属性值中的任何位置。 
       
-  - **较高的16位**仅适用于 PT_STRING8 类型的属性。 可以通过任意组合将它们设置为以下值:
+  - 上面的 **16 位** 仅适用于类型为 PT_STRING8。 可以任意组合方式将这些值设置为以下值：
     
-    - FL_IGNORECASE: 应进行比较, 而不考虑区分大小写。 
+    - FL_IGNORECASE：应在不考虑区分大小写的情况下进行比较。 
         
-    - FL_IGNORENONSPACE: 比较操作应忽略 Unicode 定义的非空格字符, 如变音标记。 
+    - FL_IGNORENONSPACE：比较应忽略 Unicode 定义的非区域字符，如音调符号。 
         
-    - FL_LOOSE: 如果可能, 比较应指示匹配项, 忽略区分大小写和非空格字符。
+    - FL_LOOSE：比较应尽可能指示匹配，忽略区分大小写和非空格字符。
     
 ## <a name="return-value"></a>返回值
 
 TRUE 
   
-> 参数都是有效的, 并且_lpSPropValueSrc_搜索字符串包含在_lpSPropValueDst_属性值中指定的。 
+> 参数全部有效  _，lpSPropValueSrc_ 搜索字符串包含在  _lpSPropValueDst_ 属性值中指定。 
     
 FALSE 
   
-> 要比较的属性值不是类型 PT_STRING8 或 PT_BINARY, 属性值的类型不同, 或者_lpSPropValueSrc_搜索字符串不包含在_lpSPropValueDst_属性值中指定的情况下。 
+> 进行比较的属性值的类型不是 PT_STRING8 或 PT_BINARY，属性值是不同类型的，或者  _lpSPropValueSrc_ 搜索字符串未包含在  _lpSPropValueDst_ 属性值中指定。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-比较方法取决于在[SPropValue](spropvalue.md)属性定义中指定的属性类型以及_ulFuzzyLevel_参数中提供的模糊级别试探法。 [FPropCompareProp](fpropcompareprop.md)和**FPropContainsProp**函数可用于准备生成表的限制。 
+比较方法取决于 [SPropValue](spropvalue.md) 属性定义中指定的属性类型和  _ulFuzzyLevel_ 参数中提供的模糊级别启发。 [FPropCompareProp](fpropcompareprop.md)和 **FPropContainsProp** 函数可用于准备生成表的限制。 
   
-对于属性类型 PT_BINARY, 将忽略_ulFuzzyLevel_的高16位。 如果_ulFuzzyLevel_中的设置缺失或无效, 则执行完全字符串完全匹配。 有关属性控制的详细信息, 请参阅[SContentRestriction](scontentrestriction.md)结构。 
+对于属性类型属性类型，将忽略  _ulFuzzyLevel_ 的 16 位PT_BINARY。 如果  _ulFuzzyLevel_ 中的设置缺失或无效，将执行完全字符串完全匹配。 有关属性包含性详细信息，请参阅 [SContentRestriction](scontentrestriction.md) 结构。 
   
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5725eb52-3a78-897d-f9e3-c5a494fb78c0
-description: 获取指定的帐户属性的值。
+description: 获取指定帐户属性的值。
 ms.openlocfilehash: d24df8cfa9d54bee4614c1f31e12268748b8c986
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33433736"
 ---
 # <a name="iolkaccountgetprop"></a>IOlkAccount::GetProp
 
-获取指定的帐户属性的值。
+获取指定帐户属性的值。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -33,11 +33,11 @@ ACCT_VARIANT *pVar
 
 _dwProp_
   
-> 实时要获取的帐户属性的属性标记。
+> [in]要获取的帐户属性的属性标记。
     
 _pVar_
   
-> 排除指定属性的值。
+> [out]指定属性的值。
     
 ## <a name="return-values"></a>返回值
 
@@ -47,9 +47,9 @@ _pVar_
 |E_ACCT_NOT_FOUND  <br/> |找不到给定帐户的属性。  <br/> |
 |E_INVALIDARG  <br/> |指定了无效的属性标记。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此方法返回后, 如果 account 属性的值是二进制或字符串类型, 则必须使用[IOlkAccount:: FreeMemory](iolkaccount-freememory.md)释放*pVar* 。
+此方法返回后，如果帐户属性的值是二进制或字符串类型，则必须使用 [IOlkAccount：：FreeMemory](iolkaccount-freememory.md)释放 *pVar。*
   
 ## <a name="see-also"></a>另请参阅
 

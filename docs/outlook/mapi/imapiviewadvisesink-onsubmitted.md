@@ -39,17 +39,17 @@ HRESULT OnSubmitted( void );
 
 S_OK 
   
-> 通知已成功。
+> 通知成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在对[IMAPIMessageSite:: SubmitMessage](imapimessagesite-submitmessage.md)的调用成功返回后, form 对象调用**IMAPIViewAdviseSink:: OnSubmitted**方法。 
+表单对象在调用 [IMAPIMessageSite：：SubmitMessage](imapimessagesite-submitmessage.md)成功后调用 **IMAPIViewAdviseSink：：OnSubmitted** 方法。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-在调用**OnSubmitted**后, 您可以继续假设邮件已更新。 更新 windows 以反映已发生的任何更改。 
+调用 **OnSubmitted** 后，可以继续假定邮件已更新。 更新窗口以反映已发生的任何更改。 
   
-有关表单通知的详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
+有关表单通知详细信息，请参阅 [发送和接收表单通知](sending-and-receiving-form-notifications.md)。
   
 ## <a name="see-also"></a>另请参阅
 

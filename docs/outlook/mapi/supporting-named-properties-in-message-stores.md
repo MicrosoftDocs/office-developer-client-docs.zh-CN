@@ -1,5 +1,5 @@
 ---
-title: 支持邮件存储区中的命名属性
+title: 支持邮件存储中的命名属性
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434919"
 ---
-# <a name="supporting-named-properties-in-message-stores"></a>支持邮件存储区中的命名属性
+# <a name="supporting-named-properties-in-message-stores"></a>支持邮件存储中的命名属性
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-Message 对象的属性可能不在 MAPI 定义的属性集中。 此类属性可以是未命名的或命名的。 未命名属性必须驻留在由 MAPI 定义的属性标识符区域中。 命名的自定义属性驻留在由 MAPI 定义的不同范围的属性标识符中。 它们通常由自定义邮件类型使用。 如果要将其用作默认邮件存储区, 则您的邮件存储区提供程序必须支持命名属性。 支持命名属性意味着实现[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)和[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)方法, 并实现一个或多个映射签名, 这些映射签名可标识名称与属性标识符的不同之处。 有关详细信息, 请参阅[定义新的 MAPI 属性](defining-new-mapi-properties.md)和[支持命名属性](supporting-named-properties.md)。
+Message 对象的属性可能不在 MAPI 定义的属性集内。 此类属性可以是未命名的或已命名的。 未命名属性必须驻留在 MAPI 定义的一系列属性标识符中。 命名自定义属性驻留在 MAPI 定义的不同属性标识符范围内。 它们通常由自定义邮件类型使用。 如果要将邮件存储提供程序用作默认邮件存储，则必须支持命名属性。 支持命名属性意味着实现 [IMAPIProp：：GetNamesFromIDs](imapiprop-getnamesfromids.md) 和 [IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md) 方法，以及实现一个或多个映射签名来标识哪些名称与哪些属性标识符一起。 有关详细信息，请参阅定义[新的 MAPI 属性](defining-new-mapi-properties.md)[和支持命名属性](supporting-named-properties.md)。
   
-大多数支持命名属性的邮件存储提供程序对邮件存储区中的所有对象使用单个映射签名。 这有两个优点。 首先, 如果只有一个签名可供跟踪, 则实现映射签名更简单。 其次, 如果邮件存储区中的所有对象都使用相同的映射签名, 客户端应用程序可确保邮件存储区中的邮件的所有属性标识符实际引用相同的命名属性。 这使客户端应用程序能够在其文件夹视图界面中显示命名属性的列。
+大多数支持命名属性的邮件存储提供程序对邮件存储中所有对象使用单个映射签名。 这有两个好处。 首先，如果只有一个要跟踪的映射签名，则实现映射签名会更简单。 其次，如果邮件存储中所有对象都使用相同的映射签名，则客户端应用程序会确保邮件存储中邮件的所有属性标识符实际上都引用同一命名属性。 这使客户端应用程序能够显示其文件夹视图界面中命名属性的列。
   
 ## <a name="see-also"></a>另请参阅
 

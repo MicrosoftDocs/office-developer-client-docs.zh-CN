@@ -1,5 +1,5 @@
 ---
-title: 使用宏进行错误处理
+title: 使用宏处理错误
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,29 +15,29 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435563"
 ---
-# <a name="using-macros-for-error-handling"></a>使用宏进行错误处理
+# <a name="using-macros-for-error-handling"></a>使用宏处理错误
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-有几个宏可让您更轻松地使用 HRESULT 值。
+有几个宏可以更轻松地使用 HRESULT 值。
   
-有两组宏可测试是否出现故障或成功: HR_SUCCEEDED 和 HR_FAILED, 并且已成功和失败。 SUCCEEDED 与 HR_SUCCEEDED 相同, 失败与 HR_FAILED 相同。
+有两组宏用于测试失败或成功：HR_SUCCEEDED和HR_FAILED SUCCEEDED 和 FAILED。 SUCCEEDED 与 HR_SUCCEEDED 相同，FAILED 与 HR_FAILED。
   
-在这种情况下, 使用**ResultFromScode**宏将 hresult 变量设置为 S_OK 的相应 HRESULT 值。 
+在这种情况下，使用 **ResultFromScode** 宏将 HRESULT 变量设置为相应的 HRESULT S_OK。 
   
-常用的宏将在下表中简要说明。
+下表简要介绍了常用的宏。
   
 |**宏**|**说明**|
 |:-----|:-----|
-|**MAKE_HRESULT** <br/> |从其组件构造 HRESULT。  <br/> |
-|**HR_SUCCEEDED** <br/> |测试 HRESULT 的成功或警告条件。  <br/> |
+|**MAKE_HRESULT** <br/> |从组件构造 HRESULT。  <br/> |
+|**HR_SUCCEEDED** <br/> |测试 HRESULT 是否成功或警告条件。  <br/> |
 |**HR_FAILED** <br/> |测试错误条件的 HRESULT。  <br/> |
 |**HRESULT_CODE** <br/> |提取 HRESULT 的错误代码部分。  <br/> |
-|**HRESULT_FACILITY** <br/> |从 HRESULT 中提取功能。  <br/> |
-|**HRESULT_SEVERITY** <br/> |从严重性中提取严重度位。  <br/> |
-|**完成** <br/> |测试 HRESULT 的成功或警告条件。  <br/> |
-|**未能** <br/> |测试错误条件的 HRESULT。  <br/> |
+|**HRESULT_FACILITY** <br/> |从 HRESULT 中提取设施。  <br/> |
+|**HRESULT_SEVERITY** <br/> |从 SEVERITY 中提取严重性位。  <br/> |
+|**SUCCEEDED** <br/> |测试 HRESULT 是否成功或警告条件。  <br/> |
+|**FAILED** <br/> |测试错误条件的 HRESULT。  <br/> |
    
 

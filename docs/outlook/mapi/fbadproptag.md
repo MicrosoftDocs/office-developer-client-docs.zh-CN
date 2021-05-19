@@ -43,7 +43,7 @@ ULONG FBadPropTag(
 
  _ulPropTag_
   
-> 实时要验证的属性标记。
+> [in]要验证的属性标记。
     
 ## <a name="return-value"></a>返回值
 
@@ -53,11 +53,11 @@ TRUE
     
 FALSE 
   
-> 指定的属性标记是一个有效的 MAPI 属性标记。
+> 指定的属性标记是有效的 MAPI 属性标记。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**FBadPropTag**函数根据 MAPI 定义验证指定的属性标记。 它使 sures 属性类型是 MAPI 定义的类型之一, 并且属性标识符定义为该类型。 
+**FBadPropTag** 函数根据 MAPI 定义验证指定的属性标记。 它确保属性类型是由 MAPI 定义的类型之一，并且属性标识符定义为该类型。 
   
 ## <a name="see-also"></a>另请参阅
 

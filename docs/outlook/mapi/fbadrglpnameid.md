@@ -25,7 +25,7 @@ ms.locfileid: "33434828"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-验证描述命名属性并验证其分配的结构的数组。 
+验证描述命名属性的结构数组并验证其分配。 
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ BOOL FBadRglpNameID(
 
  _lppNameId_
   
-> 实时指向描述命名属性的[MAPINAMEID](mapinameid.md)结构的数组的指针。 
+> [in]指向描述命名属性 [的 MAPINAMEID](mapinameid.md) 结构的数组的指针。 
     
- _cname_
+ _cNames_
   
-> 实时由_lppNameId_参数指向的数组中的命名属性结构的计数。 
+> [in]  _lppNameId_ 参数指向的数组中的命名属性结构计数。 
     
 ## <a name="return-value"></a>返回值
 
@@ -58,10 +58,10 @@ TRUE
     
 FALSE 
   
-> 指定的属性名称结构都是有效的。
+> 指定的属性名称结构均有效。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在设置对[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)或[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)的调用时, 可以使用**FBadRglpNameID**函数。 
+在设置对 [IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md)或 [IMAPIProp：：GetNamesFromIDs](imapiprop-getnamesfromids.md)的调用时，可以使用 **FBadRglpNameID** 函数。 
   
 

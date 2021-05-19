@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 039b3a45-bd57-51f5-1485-a3f6d1bde85a
-description: 本主题演示如何从二进制属性中存储的保留格式中读取 TZDEFINITION 结构。
+description: 本主题演示如何从二进制属性中存储的持久格式读取 TZDEFINITION 结构。
 ms.openlocfilehash: a685fbfcf918e13aa82ac32799997bb05730184e
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33434205"
 ---
 # <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a>分析二进制属性来读取 TZDEFINITION 结构的流
 
-本主题演示如何从二进制属性中存储的保留格式中读取[TZDEFINITION](tzdefinition.md)结构。 
+本主题演示如何从二进制属性中存储的持久格式读取 [TZDEFINITION](tzdefinition.md) 结构。 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

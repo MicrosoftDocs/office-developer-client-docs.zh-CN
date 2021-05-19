@@ -1,5 +1,5 @@
 ---
-title: PidTagDeltaY 规范属性
+title: PidTagDeltay 规范属性
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434786"
 ---
-# <a name="pidtagdeltay-canonical-property"></a>PidTagDeltaY 规范属性
+# <a name="pidtagdeltay-canonical-property"></a>PidTagDeltay 规范属性
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含标准 Windows 对话框单位中的对话框控件的高度。 
+包含以标准对话框单位表示的对话框Windows的高度。 
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33434786"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md))、 **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md))、 **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) 和此属性控制对话框控件的位置和大小。 
+PR_XPOS  ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md) **) 、PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md) **) 、PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) ，此属性控制对话框控件的位置和大小。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -22,7 +22,7 @@ ms.locfileid: "33433589"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-示例: 加载并显示 "本机 Windows" 对话框的示例用户定义命令。 当加载了 generic xll 时, 它将创建一个用户定义的菜单 (通用), 通过该菜单可访问此命令。
+用户定义的示例命令，用于加载并显示示例本机Windows对话框。 加载 GENERIC.xll 时，它将创建一个用户定义的菜单 Generic，通过该菜单可以访问此命令。
   
 ```cs
 int WINAPI fShowDialog(void);
@@ -30,27 +30,27 @@ int WINAPI fShowDialog(void);
 
 ## <a name="parameters"></a>参数
 
-函数不采用任何参数。
+该函数不采用任何参数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-函数返回整数零以指示成功完成
+函数返回整数 0 以指示成功完成
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-显示 "本机 Windows" 对话框的步骤如下所示:
+显示本机应用程序Windows的步骤如下所示：
   
-1. 使用**GetHwnd**获取 Microsoft Excel 主 Windows 句柄。
+1. 使用 **GetHwnd** Microsoft Excel主Windows句柄。
     
-2. 使用**HookExcelWindow**挂接 Excel 主窗口。
+2. 使用 **hookExcelWindow** Excel挂钩主窗口。
     
-3. 使用**video.dialogbox.html**显示对话框。
+3. 使用 **DialogBox 显示对话框**。
     
-4. 使用**UnhookExcelWindow**解除对 Excel 主窗口的挂钩。
+4. 使用 **UnhookExcelWindow** 取消Excel主窗口。
     
 ### <a name="example"></a>示例
 
-有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
+有关  `\SAMPLES\GENERIC\GENERIC.C` 此函数的源代码，请参阅 。 
   
 ## <a name="see-also"></a>另请参阅
 

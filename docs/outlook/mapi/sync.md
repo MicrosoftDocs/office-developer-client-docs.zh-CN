@@ -21,7 +21,7 @@ ms.locfileid: "33433806"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-有关在本地存储和服务器之间启动同步的信息。 此信息在[同步状态](synchronize-state.md)期间使用。
+在本地存储与服务器之间启动同步的信息。 此信息在同步状态 [期间使用](synchronize-state.md)。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -41,48 +41,48 @@ struct SYNC
 
  _ulFlags_
   
-- [输出]/[in] 在同步过程中修改行为的以下标志的位掩码:
+- [out]/[in] 在同步期间修改行为的以下标志的位掩码：
     
 - UPS_UPLOAD_ONLY
     
-  - 实时客户端将只执行上载。 Outlook 仅返回本地修改的文件夹。
+  - [in]客户端将仅执行上载。 Outlook返回本地修改的文件夹。
     
 - UPS_DNLOAD_ONLY
     
-  - 实时客户端将仅执行下载。 Outlook 不应清除文件夹的上传位。
+  - [in]客户端将仅执行下载。 Outlook无法清除文件夹的上载位。
     
 - UPS_THESE_FOLDERS
     
-  - 实时客户端将使用提供的条目 id 同步指定的文件夹集。 此标志可以与**UPS_UPLOAD_ONLY**或**UPS_DNLOAD_ONLY**标志组合使用。 
+  - [in]客户端将同步指定的文件夹集与提供的条目 ID。 此标志可以与 UPS_UPLOAD_ONLY **或****UPS_DNLOAD_ONLY** 标志结合使用。 
     
 - UPS_OK
     
-  - 排除同步成功。 在上传或完全同步完成后, 客户端会对此进行设置。
+  - [out]同步成功。 客户端在上载或完全同步完成后进行设置。
     
 - 
     
     > [!NOTE]
-    > 即使客户端可以使用复制 API 上传或完全同步 (上载后下载) 文件夹和项目, 客户端也只指定一次复制的一个方向的*ulFlags* (无论是**UPS_UPLOAD_ONLY**还是**UPS_DNLOAD_ONLY**标志。 在完全同步的情况下, 客户端首先使用**UPS_UPLOAD_ONLY**标志执行上载, 然后使用**UPS_DNLOAD_ONLY**标志进行下载。 
+    > 即使客户端可以上载或完全同步 (上载，然后使用复制 API 下载) 文件夹和项目，但客户端一次仅指定一个方向的  *ulFlags（* **UPS_UPLOAD_ONLY** 或 **UPS_DNLOAD_ONLY** 标记）。 在完全同步的情况下，客户端首先执行具有 UPS_UPLOAD_ONLY 标志的上载， **然后** 执行具有 UPS_DNLOAD_ONLY **标记的** 下载。 
   
  _pwzPath_
   
-- 排除指向本地存储区的路径。
+- [out]本地存储的路径。
     
  _Reserved1_
   
-- 此成员是为内部使用 Outlook 而保留的, 不受支持。
+- 此成员仅供内部使用，Outlook不支持。
     
  _Reserved2_
   
-- 此成员是为内部使用 Outlook 而保留的, 不受支持。
+- 此成员仅供内部使用，Outlook不支持。
     
  *pel* 
   
-- 实时如果已设置**UPS_THESE_FOLDERS** , 则这是要同步的文件夹的条目 id 列表。 有关**LPENTRYLIST**的类型定义, 请参阅 mapidefs.h。 
+- [in]这是要同步的文件夹的条目 **UPS_THESE_FOLDERS已设置** 。 有关 **LPENTRYLIST** 的类型定义，请参阅 mapidefs.h。 
     
- _pulFolderOptions_
+ _将folderOptions_
   
-- 实时如果已设置**UPS_THESE_FOLDERS** , 则这是*pel*中对应文件夹的文件夹选项的数组。 [上载文件夹状态](upload-folder-state.md)期间上载*pel*中列出的每个文件夹时, 将使用这些文件夹选项。 有关文件夹选项的详细信息, 请参阅**[UPFLD](upfld.md)**。 
+- [in]这是  *pel*  中相应文件夹的文件夹选项数组（ **如果UPS_THESE_FOLDERS** 已设置）。 在上传文件夹状态期间上传  *pel*  中列出的每个文件夹时，会使用这些 [文件夹选项](upload-folder-state.md)。 有关文件夹选项的详细信息，请参阅 **[UPFLD](upfld.md)**。 
     
 ## <a name="see-also"></a>另请参阅
 

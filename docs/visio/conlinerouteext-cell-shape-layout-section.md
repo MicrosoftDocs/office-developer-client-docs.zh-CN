@@ -23,10 +23,10 @@ ms.locfileid: "33434611"
 |**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 默认值；使用页面设置  <br/> |**visLORouteExtDefault** <br/> |
-| 1  <br/> | 式  <br/> |**visLORouteExtStraight** <br/> |
-| 双面  <br/> | 带  <br/> |**visLORouteExtNURBS** <br/> |
+| 1  <br/> | 直  <br/> |**visLORouteExtStraight** <br/> |
+| 2  <br/> | Curved  <br/> |**visLORouteExtNURBS** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ConLineRouteExt 单元格的引用，请使用： 
   

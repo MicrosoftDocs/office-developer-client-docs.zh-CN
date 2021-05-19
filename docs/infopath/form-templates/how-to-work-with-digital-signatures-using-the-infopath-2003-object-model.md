@@ -7,7 +7,7 @@ keywords:
 - 数字签名 [infopath 2007]，infopath 2003 兼容的表单模板，InfoPath 2003 兼容的表单模板，数字签名
 localization_priority: Normal
 ms.assetid: d6318238-fd45-4854-a3c9-c27c5685bd6b
-description: InfoPath 2003 兼容对象模型提供了以编程方式处理数字签名的功能。
+description: InfoPath 2003 兼容的对象模型提供以编程方式处理数字签名的功能。
 ms.openlocfilehash: 86e2c85c7515c896612df09b6186462480ceff61
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT

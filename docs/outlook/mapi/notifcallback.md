@@ -25,13 +25,13 @@ ms.locfileid: "33434016"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义用于接收事件通知的 MAPI 调用的回调函数。 仅当在通过调用[HrAllocAdviseSink](hrallocadvisesink.md)函数创建的通知接收器对象中包装时, 才能使用此回调函数。 
+定义 MAPI 调用以发送事件通知的回调函数。 此回调函数只能在封装在通过调用 [HrAllocAdviseSink](hrallocadvisesink.md) 函数创建的通知接收器对象中时使用。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|定义的函数实现者:  <br/> |客户端应用程序和服务提供程序  <br/> |
-|定义的函数调用者:  <br/> |MAPI  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|定义的函数实现方：  <br/> |客户端应用程序和服务提供商  <br/> |
+|由调用的已定义函数：  <br/> |MAPI  <br/> |
    
 ```cpp
 ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
@@ -45,27 +45,27 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
 
  _lpvContext_
   
-> 实时指向在 MAPI 调用回调函数时传递给该函数的任意值的指针。 此值可以表示对客户端应用程序或服务提供程序的重要性的地址。 通常, 对于 c + + 代码, _lpvContext_参数表示指向 c + + 对象的指针。 
+> [in]指向 MAPI 调用回调函数时传递给回调函数的任意值的指针。 此值可以表示对客户端应用程序或服务提供商有意义的地址。 通常，对于 C++ 代码  _，lpvContext_ 参数表示指向 C++ 对象的指针。 
     
  _cNotification_
   
-> 实时由_lpNotifications_参数指示的数组中的事件通知数。 
+> [in]  _lpNotifications_ 参数指示的数组中的事件通知计数。 
     
  _lpNotifications_
   
-> 排除指向此函数写入包含事件通知的[通知](notification.md)结构数组的位置的指针。 
+> [out]指向此函数写入包含事件通知 [的 NOTIFICATION](notification.md) 结构数组的位置的指针。 
     
 ## <a name="return-value"></a>返回值
 
-**NOTIFCALLBACK**函数原型的有效返回值集取决于函数是否由客户端应用程序或服务提供程序实现。 客户端应始终返回 S_OK。 提供程序可以返回 S_OK 或 CALLBACK_DISCONTINUE。 
+**NOTIFCALLBACK** 函数原型的有效返回值集取决于函数是由客户端应用程序或服务提供商实现的。 客户端应始终返回S_OK。 提供程序可以返回S_OK或CALLBACK_DISCONTINUE。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-CALLBACK_DISCONTINUE 是仅适用于同步回调函数的有效返回值;它请求 MAPI 立即停止处理此通知的回调。 当返回 CALLBACK_DISCONTINUE 时, MAPI 在从[IMAPISupport:: NOTIFY](imapisupport-notify.md)返回时将_lpUlFlags_参数设置为 NOTIFY_CANCELED。 
+CALLBACK_DISCONTINUE只是同步回调函数的有效返回值;它请求 MAPI 立即停止处理此通知的回调。 返回CALLBACK_DISCONTINUE时，MAPI 将 _lpUlFlags_ 参数NOTIFY_CANCELED [从 IMAPISupport：：Notify 返回时返回。](imapisupport-notify.md) 
   
-以下是同步回调函数可以执行的操作的限制:
+以下是同步回调函数可以执行哪些操作的限制：
   
-- 它不会导致生成另一个同步通知。
+- 它不能生成另一个同步通知。
     
 - 它无法显示用户界面。
     

@@ -25,11 +25,11 @@ ms.locfileid: "33435409"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将枚举整数值映射到该值的显示名称。 
+地图枚举的整数值显示名称该值的整数值。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormPropEnumVal
@@ -44,15 +44,15 @@ typedef struct _SMAPIFormPropEnumVal
 
  **pszDisplayName**
   
-> 包含**nVal**成员中指定的值的显示名称的字符串。 
+> 字符串，包含显示名称 **nVal** 成员中指定的值的字符串。 
     
  **nVal**
   
-> 由**pszDisplayName**成员指向的显示名称的枚举值。 
+> **pszDisplayName** 显示名称指向的枚举值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-当用户从窗体中选择显示名称时, 将使用与表单相关联的[IMAPIProp](imapipropiunknown.md)接口实现来存储该名称对应的枚举值。 
+当用户从表单显示名称时，会使用与表单关联的 [IMAPIProp](imapipropiunknown.md) 接口实现来存储名称的相应枚举值。 
   
 ## <a name="see-also"></a>另请参阅
 

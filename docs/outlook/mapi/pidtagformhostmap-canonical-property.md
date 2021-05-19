@@ -25,30 +25,30 @@ ms.locfileid: "33433764"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含可用表单的主机图。 
+包含可用表单的主机映射。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FORM_HOST_MAP  <br/> |
 |标识符:  <br/> |0x3306  <br/> |
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
-|区域：  <br/> |MAPI 通用  <br/> |
+|区域：  <br/> |MAPI common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-当更改**IMAPIFormProp**接口中的基础结构时, 客户端应用程序应更新此属性以及**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。 
+在 **IMAPIFormProp** 接口中更改基础结构时，客户端应用程序应更新此属性以及 **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

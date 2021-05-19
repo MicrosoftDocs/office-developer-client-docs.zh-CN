@@ -24,22 +24,22 @@ ms.locfileid: "33434345"
 |:-----|:-----|:-----|
 | 0  <br/> | 普通大小写  <br/> |**visCaseNormal** <br/> |
 | 1  <br/> | 全部大写字母  <br/> |**visCaseAllCaps** <br/> |
-| 双面  <br/> | 仅首字母大写字母  <br/> |**visCaseInitialCaps** <br/> |
+| 2  <br/> | 仅首字母大写字母  <br/> |**visCaseInitialCaps** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Case 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | Char. [ *i* ] 其中*i* = <1>, 2, 3, .。。  <br/> |
+| 单元格名称：  <br/> | Char.Case[  *i*  ] 其中  *i*  = <1>，2， 3， ...  <br/> |
    
 要从某个程序按索引获取对 Case 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionCharacter** <br/> |
-| 行索引：  <br/> |**visRowCharacter** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowCharacter**  +  *i* 其中 *i* = 0， 1， 2， ...  <br/> |
 | 单元格索引：  <br/> |**visCharacterCase** <br/> |
    
 

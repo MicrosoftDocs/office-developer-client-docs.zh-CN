@@ -20,7 +20,7 @@ ms.locfileid: "33435164"
 
 当形状文本或文本组成成分改变时进行求值的事件单元格。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 只在事件发生后（而非输入公式后）才对事件单元格求值。您可以使用 TheText 单元格触发重新计算，例如，用 TEXTWIDTH( ) 和 TEXTHEIGHT( ) 函数重新计算文本宽度和高度。
   

@@ -25,30 +25,30 @@ ms.locfileid: "33433414"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定文件夹的父级或存储区中项的标识符。
+指定文件夹或存储区中项目的父级的标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROVIDER_PARENT_ITEMID  <br/> |
 |标识符:  <br/> |0x0EA4  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |MAPI 非传输  <br/> |
+|区域：  <br/> |MAPI 不可传输  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-存储提供程序可以为文件夹或项目的父级的此属性指定值, 但应在会话之间保持值不变。 存储提供程序使用此属性可标识从搜索引擎返回的搜索结果。
+存储提供程序可以为此属性的值指定文件夹或项目的父级，但应在会话之间保持值相同。 存储提供程序使用此属性标识从搜索引擎返回的搜索结果。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

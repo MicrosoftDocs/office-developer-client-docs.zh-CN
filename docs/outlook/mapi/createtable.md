@@ -25,13 +25,13 @@ ms.locfileid: "33435010"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-为[ITableData](itabledataiunknown.md)对象创建结构和对象句柄, 该对象可用于创建表格内容。 
+创建可用于创建表内容的 [ITableData](itabledataiunknown.md) 对象的结构和对象句柄。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE CreateTable(
@@ -51,61 +51,61 @@ SCODE CreateTable(
 
  _lpInterface_
   
-> 实时指向 table 数据对象的接口标识符 (IID) 的指针。 有效的接口标识符为 IID_IMAPITableData。 在_lpInterface_参数中传递 NULL 还会导致在_lppTableData_参数中返回的表数据对象将转换为 table 数据对象的标准接口。 
+> [in]指向表数据 (IID) 接口标识符的指针。 有效的接口标识符IID_IMAPITableData。 在  _lpInterface_ 参数中传递 NULL 还会导致  _lppTableData_ 参数中返回的表数据对象被强制转换到表数据对象的标准接口。 
     
  _lpAllocateBuffer_
   
-> 实时指向用于分配内存的[MAPIAllocateBuffer](mapiallocatebuffer.md)函数的指针。 
+> [in]指向 [MAPIAllocateBuffer](mapiallocatebuffer.md) 函数的指针，用于分配内存。 
     
  _lpAllocateMore_
   
-> 实时指向[MAPIAllocateMore](mapiallocatemore.md)函数的指针, 该函数用于分配更多内存。 
+> [in]指向 [MAPIAllocateMore](mapiallocatemore.md) 函数的指针，用于分配额外的内存。 
     
  _lpFreeBuffer_
   
-> 实时指向用于释放内存的[MAPIFreeBuffer](mapifreebuffer.md)函数的指针。 
+> [in]指向 [MAPIFreeBuffer](mapifreebuffer.md) 函数的指针，用于释放内存。 
     
  _lpvReserved_
   
-> 实时保留必须为零。 
+> [in]保留;必须为零。 
     
  _ulTableType_
   
-> 实时作为[IMAPITable:: GetStatus](imapitable-getstatus.md)的一部分提供给客户端应用程序或服务提供程序的表类型将返回其表视图中的数据。 可能的值是： 
+> [in]作为 [IMAPITable：：GetStatus](imapitable-getstatus.md) 的一部分提供给客户端应用程序或服务提供商的表类型在其表视图上返回数据。 可能的值是： 
     
 TBLTYPE_DYNAMIC 
   
-> 表的内容是动态的, 并且可以随着基础数据的变化而变化。 
+> 该表的内容是动态的，并且可能会随着基础数据的变化而更改。 
     
 TBLTYPE_KEYSET 
   
-> 表中的行是固定的, 但这些行中的值是动态的, 并且可以随着基础数据的变化而变化。 
+> 表中的行是固定的，但这些行中的值是动态的，并且可能会随着基础数据的变化而更改。 
     
 TBLTYPE_SNAPSHOT 
   
-> 该表是静态的, 并且在基础数据发生更改时内容不会更改。 
+> 该表是静态表，在基础数据更改时不会更改内容。 
     
  _ulPropTagIndexColumn_
   
-> 实时更改表数据时使用的列的索引号。 
+> [in]更改表数据时使用的列的索引号。 
     
  _lpSPropTagArrayColumns_
   
-> 实时指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含一个由属性标记数组组成的数组, 这些标记指明了对象为其保留数据的表中所需的属性。 
+> [in]指向 [SPropTagArray](sproptagarray.md) 结构的指针，该结构包含一组属性标记，指示对象保存数据的表中所需的属性。 
     
  _lppTableData_
   
-> 排除指向返回的 table 数据对象的指针的指针。
+> [out]指向返回的表数据对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-" _lpAllocateBuffer_"、" _lpAllocateMore_" 和 " _lpFreeBuffer_ " 输入参数分别指向 " [MAPIAllocateBuffer](mapiallocatebuffer.md)"、" [MAPIAllocateMore](mapiallocatemore.md)" 和 " [MAPIFreeBuffer](mapifreebuffer.md) " 函数。 调用**CreateTable**的客户端应用程序传递到刚刚命名的 MAPI 函数的指针。服务提供程序将指向其初始化调用中收到的这些函数的指针传递给这些函数, 或通过调用[IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md)方法检索这些函数。 
+_lpAllocateBuffer、lpAllocateMore_ 和 _lpFreeBuffer_ 输入参数分别指向 [MAPIAllocateBuffer、MAPIAllocateMore](mapiallocatebuffer.md)和 [MAPIFreeBuffer](mapifreebuffer.md)函数。  [](mapiallocatemore.md) 调用 **CreateTable** 的客户端应用程序将传递指向刚命名的 MAPI 函数的指针;服务提供商将指针传递给其在其初始化调用中收到的或通过调用 [IMAPISupport：：GetMemAllocRoutines](imapisupport-getmemallocroutines.md) 方法检索的函数。 
   
 ## <a name="see-also"></a>另请参阅
 

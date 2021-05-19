@@ -25,7 +25,7 @@ ms.locfileid: "33433036"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含系统访问控制列表 (SACL) 表成员的目录对象条目标识符。
+包含 SACL 表成员中的系统访问控制列表 (目录) 标识符。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33433036"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口使用此属性来唯一标识对其应用了 SACL 的个人或角色。 在 SACL 表中创建成员后, 不能更改**ENTRYID** 。 若要对其进行更改, 必须删除该表成员并使用不同的**ENTRYID**重新创建它。
+[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口使用此属性来唯一标识应用 SACL 的一个或多个角色。 在 SACL 表中创建成员后，无法更改 **ENTRYID。** 若要更改它，您必须删除表成员，然后使用不同的 **ENTRYID** 重新创建它。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

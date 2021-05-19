@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433722"
 ---
-# <a name="exchangestoreversionnum"></a>EXCHANGE_STORE_VERSION_NUM
+# <a name="exchange_store_version_num"></a>EXCHANGE_STORE_VERSION_NUM
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-存储 microsoft Office Outlook 配置文件中的帐户连接到的 microsoft Exchange Server 的版本信息。
+存储帐户连接到Microsoft Exchange Server配置文件中的Microsoft Office Outlook版本信息。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -39,19 +39,19 @@ typedef struct {
 
  _wMajorVersion_
   
-- 主版本号, 当版本中包含重要的新功能和功能更改时, 通常会增加该版本号。
+- 当版本包含重大新功能和功能更改时通常递增的主要版本号。
     
  _wMinorVersion_
   
-- 与特定主要版本号相对应且通常在发布包含次要新功能或重大修补程序时递增的次要版本号。
+- 与特定主要版本号对应的次要版本号，当版本包含次要新功能或重要修补程序时通常递增。
     
  _wBuild_
   
-- 与特定主要和次要版本号相对应且在包含新功能或修补程序的内部版本中通常会递增的主要内部版本号。 当 release 是主要的内部代码分支或里程碑 (如候选发布) 时, 此值也会增加。
+- 与特定主要版本号和次要版本号相对应的主要版本号，通常在包含新功能或修补程序的内部版本中递增。 当版本是主要的内部代码分支或里程碑（如候选发布）时，此值也会递增。
     
  _wMinorBuild_
   
-- 在内部版本中通常递增的次要内部版本号, 其中包含与表示主要代码分支或里程碑的特定主要版本对应的新功能或修补程序。
+- 内部版本中通常递增的次要内部版本编号，其中包含与表示主要代码分支或里程碑的特定主要内部版本对应的新功能或修补程序。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33434471"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供对邮件服务的提供程序表的访问权限 (邮件服务中的服务提供程序的列表)。
+提供对邮件服务提供程序表（邮件服务中的服务提供程序列表）的访问权限。
   
 ```cpp
 HRESULT GetProviderTable(
@@ -38,43 +38,43 @@ HRESULT GetProviderTable(
 
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制提供程序表的列中返回的字符串的类型。 可以设置以下标志:
+> [in]控制提供程序表列返回的字符串类型的标志位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 字符串列采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则列采用 ANSI 格式。
+> 字符串列采用 Unicode 格式。 如果未MAPI_UNICODE，则列采用 ANSI 格式。
     
  _lppTable_
   
-> 排除指向提供程序表的指针的指针。
+> [out]指向指向提供程序表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回 provider 表。
+> 已成功返回提供程序表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IProviderAdmin:: GetProviderTable**方法检索指向邮件服务的提供程序表的指针, 该表是 MAPI 维护的, 其中包含有关邮件服务中的每个服务提供程序的信息。 
+**IProviderAdmin：：GetProviderTable** 方法检索指向邮件服务的提供程序表（MAPI 维护的包含有关邮件服务中每个服务提供程序的信息的表）的指针。 
   
-与[IMsgServiceAdmin:: GetProviderTable](imsgserviceadmin-getprovidertable.md)方法返回的 provider 表不同, **IProviderAdmin:: GetProviderTable**返回的 provider 表可能包含其他行, 这些行表示与一个或多个邮件服务中的服务提供程序。 此额外信息将添加到配置文件中, 其中包含 mapisvc.inf 文件的 "节" 关键字。 当提供程序有额外的配置文件节时, 它会在**PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)) 属性中存储这些节的**MAPIUID**结构。 **PR_SERVICE_EXTRA_UIDS**保存在 "邮件服务配置文件" 部分。 
+与 [IMsgServiceAdmin：：GetProviderTable](imsgserviceadmin-getprovidertable.md) 方法返回的提供程序表不同 **，IProviderAdmin：：GetProviderTable** 返回的提供程序表可能包含表示与邮件服务中的一个或多个服务提供程序关联的信息的其他行。 此额外信息将添加到具有 Mapisvc.inf 文件的"Sections"关键字的配置文件中。 当提供程序具有额外的配置文件节时，它将这些节的 **MAPIUID** 结构存储在 **PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)) 属性中。 **PR_SERVICE_EXTRA_UIDS** 保存在邮件服务配置文件部分。 
   
-已删除或正在使用但已被标记为删除的提供程序不会包括在提供程序表中。 提供程序表是静态的, 这意味着在邮件服务中进行的后续添加或删除不会反映在表中。 
+提供程序表中不包含已删除或已在使用中但标记为删除的提供程序。 提供程序表是静态的，这意味着对邮件服务的后续添加或删除不会反映在表中。 
   
-如果消息服务没有提供程序, 则**IProviderAdmin:: GetProviderTable**将返回一个包含零行和 S_OK 返回值的表。 
+如果邮件服务没有提供程序，则 **IProviderAdmin：：GetProviderTable** 返回零行的表，S_OK返回值。 
   
-在_ulFlags_参数中设置 MAPI_UNICODE 标志将影响从[IMAPITable:: QueryColumns](imapitable-querycolumns.md)和[IMAPITable:: QueryRows](imapitable-queryrows.md)方法返回的列的格式。 
+在  _ulFlags_ 参数中设置 MAPI_UNICODE 标志会影响 [IMAPITable：：QueryColumns](imapitable-querycolumns.md) 和 [IMAPITable：：QueryRows](imapitable-queryrows.md) 方法返回的列的格式。 
   
-此标志还按[IMAPITable:: QuerySortOrder](imapitable-querysortorder.md)方法返回的排序顺序控制属性类型。 
+此标志还按 [IMAPITable：：QuerySortOrder](imapitable-querysortorder.md) 方法返回的排序顺序控制属性类型。 
   
-有关 provider 表中各列的完整列表, 请参阅[provider table](provider-tables.md)。 
+有关提供程序表中的列的完整列表，请参阅[Provider Table。](provider-tables.md) 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要在传输顺序中检索提供程序表的行, 请按**PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)) 列对表进行排序。 
+若要按传输顺序检索提供程序表的行，请按[PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)列PR_PROVIDER_ORDINAL (表) 排序。  
   
-若要仅检索表示服务提供程序的那些行 (不包含任何额外行), 请将检索限制为其**PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) 列中具有 PT_ERROR 值的行。
+若要仅检索那些表示服务提供商 (而不包括任何额外行) 的行，请限制检索其 PR_RESOURCE_TYPE ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) 列中值为 **PT_ERROR** 的行。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -82,7 +82,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-| MsgServiceTableDlg  <br/> |CMsgServiceTableDlg:: OnDisplayItem  <br/> |MFCMAPI 使用**IProviderAdmin:: GetProviderTable**方法获取要在新对话框中呈现的提供程序表。  <br/> |
+| MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg：：OnDisplayItem  <br/> |MFCMAPI 使用 **IProviderAdmin：：GetProviderTable** 方法获取要呈现到新对话框中的提供程序表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

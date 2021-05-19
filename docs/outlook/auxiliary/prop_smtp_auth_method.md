@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434639"
 ---
-# <a name="propsmtpauthmethod"></a>PROP_SMTP_AUTH_METHOD
+# <a name="prop_smtp_auth_method"></a>PROP_SMTP_AUTH_METHOD
 
 指定要用于 SMTP 帐户的身份验证方法。
   
@@ -27,15 +27,15 @@ ms.locfileid: "33434639"
 |属性标记：  <br/> |0x02080003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-该值是以下常量的位掩码。 有关其值, 请参阅[常量 (帐户管理 API)](constants-account-management-api.md) 。 
+该值是以下常量的位掩码。 请参阅 [Constants (Account management API) ](constants-account-management-api.md) 了解其值。 
   
-- **SMTP_AUTH_SAME_AS_POP**意味着使用与我的传入邮件服务器相同的凭据, 如[PROP_INET_USER](prop_inet_user.md)和[PROP_INET_PASSWORD](prop_inet_password.md)提供的一样。
+- **SMTP_AUTH_SAME_AS_POP** 使用与传入邮件服务器相同的凭据，如 PROP_INET_USER [和](prop_inet_user.md)[PROP_INET_PASSWORD 提供](prop_inet_password.md)。
     
-- **SMTP_AUTH_USER_PASS**是指使用[PROP_SMTP_USER](prop_smtp_user.md)和[PROP_SMTP_PASSWORD](prop_smtp_password.md)提供的凭据。
+- **SMTP_AUTH_USER_PASS** 表示使用由 PROP_SMTP_USER 和 [PROP_SMTP_PASSWORD](prop_smtp_user.md) [提供的凭据](prop_smtp_password.md)。
     
-- **SMTP_AUTH_RECEIVE_BEFORE_SEND**意味着请求用户在发送邮件之前登录到传入邮件服务器。 
+- **SMTP_AUTH_RECEIVE_BEFORE_SEND** 请求用户在发送邮件之前登录传入邮件服务器。 
     
 ## <a name="see-also"></a>另请参阅
 

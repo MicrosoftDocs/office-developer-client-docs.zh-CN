@@ -22,7 +22,7 @@ ms.locfileid: "33433505"
   
 ## <a name="syntax"></a>语法
 
-OR (* * *logicalexpression1* * *, * * *logicalexpression2* * *,..., * * *logicalexpressionN* * *) 
+OR (** *logicalexpression1* **， ** *logicalexpression2* **,..., ** *logicalexpressionN* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -42,8 +42,8 @@ OR (* * *logicalexpression1* * *, * * *logicalexpression2* * *,..., * * *logical
   
 ## <a name="example"></a>示例
 
-OR (Height \> 1, PinX \> 1) 
+或者 (Height \> 1，PinX \> 1)  
   
-如果两个表达式当中的任意一个为 TRUE，则返回 TRUE (1)。 只有当两个表达式都为 FALSE 时，才返回 FALSE (0)。 
+如果两个表达式当中的任意一个为 TRUE，则返回 TRUE (1)。只有当两个表达式都为 FALSE 时，才返回 FALSE (0)。 
   
 

@@ -25,18 +25,18 @@ ms.locfileid: "33433001"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通过 IOSTX 接口执行复制时, 此接口提供了帮助程序功能。
+通过 IOSTX 接口执行复制时，此接口提供帮助程序功能。
   
 |||
 |:-----|:-----|
-|提供者  <br/> |对[IMsgStore](imsgstoreimapiprop.md)的查询 <br/> |
-|接口标识符:  <br/> |IID_IPSTX4  <br/> |
+|提供方  <br/> |对 [IMsgStore 的查询](imsgstoreimapiprop.md) <br/> |
+|接口标识符：  <br/> |IID_IPSTX4  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-| *占位符成员*  <br/> | *不支持或记录*。  <br/> |
+| *占位符成员*  <br/> | *不支持或记录*  。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

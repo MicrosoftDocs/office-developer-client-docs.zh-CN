@@ -25,7 +25,7 @@ ms.locfileid: "33435437"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-插入一个表格行。 
+插入表格行。 
   
 ```cpp
 HRESULT HrInsertRow(
@@ -36,35 +36,35 @@ HRESULT HrInsertRow(
 
 ## <a name="parameters"></a>参数
 
- _uliRow_
+ _一起_
   
-> 实时一个表示特定行的按顺序的行号。 新行将放置在该数字所指示的行之后。 _uliRow_参数可以包含从0到 n 的行号, 其中 n 是表中的总行数。 在_uliRow_中传递 n 会将行追加到表的末尾。 
+> [in]一个代表特定行的顺序行号。 新行将放置在数字指示的行之后。 _uliRow_ 参数可包含 0 到 n 之间的行号，其中 n 是表中的总行数。 在  _一行中传递_ n 将行追加到表的末尾。 
     
  _lpSRow_
   
-> 实时指向描述要插入的行的[SRow](srow.md)结构的指针。 
+> [in]指向描述要插入的行的 [SRow](srow.md) 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功插入该行。
+> 该行已成功插入。
     
 MAPI_E_INVALID_PARAMETER 
   
-> 与要插入的行在表中已存在的索引列具有相同值的行。
+> 表中已存在与要插入的行具有相同的索引列值的行。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**ITableData:: HrInsertRow**方法在表中的特定位置插入一行。 在_uliRow_参数所指定的位置中的行之后插入新行。 
+**ITableData：：HrInsertRow** 方法将一行插入到表中的特定位置。 新行将插入到 一行之后，该行位于  _一行中由 一行参数_ 指定的位置。 
   
-如果将_uliRow_设置为表格中的行数, 则新行将追加到表的末尾。 
+如果  _一行_ 设置为表格中的行数，则新行将追加到表格的末尾。 
   
-充当表的索引列的属性必须包含在_lpSRow_参数指向的[SRow](srow.md)结构的**lpProps**成员中。 此索引属性 (通常为**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))) 用于唯一标识该行, 以用于将来的维护任务。
+充当表的索引列的属性必须包含在 _lpSRow_ 参数指向 [的 SRow](srow.md)结构的 **lpProps** 成员中。 此索引属性通常PR_INSTANCE_KEY ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) ，用于唯一标识用于将来维护任务的行。
   
-**SRow**结构中的属性列不必与表中的属性列的顺序相同。 
+**SRow** 结构中的属性列不一定与表中的属性列的顺序相同。 
   
-在插入行后, 会将通知发送到具有表视图且已调用表的[IMAPITable:: Advise](imapitable-advise.md)方法以注册通知的所有客户端或服务提供程序。 如果由于限制而在视图中不包含所插入的行, 则不会发送任何通知。 
+插入行后，通知将发送给所有具有表视图并且已调用表 [的 IMAPITable：：Advise](imapitable-advise.md) 方法来注册通知的客户端或服务提供商。 如果由于限制而未在视图中包含插入的行，则不发送任何通知。 
   
 ## <a name="see-also"></a>另请参阅
 
