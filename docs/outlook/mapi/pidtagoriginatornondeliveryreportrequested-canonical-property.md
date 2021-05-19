@@ -19,52 +19,52 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32341956"
 ---
-# <a name="pidtagoriginatornondeliveryreportrequested-canonical-property"></a><span data-ttu-id="6d4fc-103">PidTagOriginatorNonDeliveryReportRequested 规范属性</span><span class="sxs-lookup"><span data-stu-id="6d4fc-103">PidTagOriginatorNonDeliveryReportRequested Canonical Property</span></span>
+# <a name="pidtagoriginatornondeliveryreportrequested-canonical-property"></a><span data-ttu-id="5f550-103">PidTagOriginatorNonDeliveryReportRequested 规范属性</span><span class="sxs-lookup"><span data-stu-id="5f550-103">PidTagOriginatorNonDeliveryReportRequested Canonical Property</span></span>
 
   
   
-<span data-ttu-id="6d4fc-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6d4fc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5f550-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5f550-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6d4fc-105">如果邮件发件人请求特定收件人的 nondelivery 报告, 则该参数包含 TRUE。</span><span class="sxs-lookup"><span data-stu-id="6d4fc-105">Contains TRUE if a message sender requests a nondelivery report for a particular recipient.</span></span>
+<span data-ttu-id="5f550-105">如果邮件发件人请求特定收件人的未送达报告，则包含 TRUE。</span><span class="sxs-lookup"><span data-stu-id="5f550-105">Contains TRUE if a message sender requests a nondelivery report for a particular recipient.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6d4fc-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="6d4fc-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6d4fc-107">PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED</span><span class="sxs-lookup"><span data-stu-id="6d4fc-107">PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED</span></span>  <br/> |
-|<span data-ttu-id="6d4fc-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="6d4fc-108">Identifier:</span></span>  <br/> |<span data-ttu-id="6d4fc-109">0x0C08</span><span class="sxs-lookup"><span data-stu-id="6d4fc-109">0x0C08</span></span>  <br/> |
-|<span data-ttu-id="6d4fc-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="6d4fc-110">Data type:</span></span>  <br/> |<span data-ttu-id="6d4fc-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="6d4fc-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="6d4fc-112">区域：</span><span class="sxs-lookup"><span data-stu-id="6d4fc-112">Area:</span></span>  <br/> |<span data-ttu-id="6d4fc-113">MIME</span><span class="sxs-lookup"><span data-stu-id="6d4fc-113">MIME</span></span>  <br/> |
+|<span data-ttu-id="5f550-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="5f550-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5f550-107">PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED</span><span class="sxs-lookup"><span data-stu-id="5f550-107">PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED</span></span>  <br/> |
+|<span data-ttu-id="5f550-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="5f550-108">Identifier:</span></span>  <br/> |<span data-ttu-id="5f550-109">0x0C08</span><span class="sxs-lookup"><span data-stu-id="5f550-109">0x0C08</span></span>  <br/> |
+|<span data-ttu-id="5f550-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="5f550-110">Data type:</span></span>  <br/> |<span data-ttu-id="5f550-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="5f550-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="5f550-112">区域：</span><span class="sxs-lookup"><span data-stu-id="5f550-112">Area:</span></span>  <br/> |<span data-ttu-id="5f550-113">MIME</span><span class="sxs-lookup"><span data-stu-id="5f550-113">MIME</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6d4fc-114">注解</span><span class="sxs-lookup"><span data-stu-id="6d4fc-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5f550-114">备注</span><span class="sxs-lookup"><span data-stu-id="5f550-114">Remarks</span></span>
 
-<span data-ttu-id="6d4fc-115">此属性用于指示邮件系统处理未传递的邮件。</span><span class="sxs-lookup"><span data-stu-id="6d4fc-115">This property is used to direct the messaging system in handling undelivered messages.</span></span> <span data-ttu-id="6d4fc-116">在这种情况下, 邮件还必须将**PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) 属性设置为 FALSE。</span><span class="sxs-lookup"><span data-stu-id="6d4fc-116">In this case, the message must also furnish the **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) property set to FALSE.</span></span>
+<span data-ttu-id="5f550-115">此属性用于指示邮件系统处理未送达的邮件。</span><span class="sxs-lookup"><span data-stu-id="5f550-115">This property is used to direct the messaging system in handling undelivered messages.</span></span> <span data-ttu-id="5f550-116">在这种情况下，邮件还必须将[PidTagOriginatorDeliveryReportRequested PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED (PidTagOriginatorReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) 设置为 FALSE。 </span><span class="sxs-lookup"><span data-stu-id="5f550-116">In this case, the message must also furnish the **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) property set to FALSE.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="6d4fc-117">相关资源</span><span class="sxs-lookup"><span data-stu-id="6d4fc-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="5f550-117">相关资源</span><span class="sxs-lookup"><span data-stu-id="5f550-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="6d4fc-118">协议规范</span><span class="sxs-lookup"><span data-stu-id="6d4fc-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="5f550-118">协议规范</span><span class="sxs-lookup"><span data-stu-id="5f550-118">Protocol specifications</span></span>
 
-<span data-ttu-id="6d4fc-119">[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6d4fc-119">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="5f550-119">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5f550-119">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="6d4fc-120">指定允许用于电子邮件对象的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="6d4fc-120">Specifies the properties and operations that are permissible for email message objects.</span></span>
+> <span data-ttu-id="5f550-120">指定电子邮件对象允许的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="5f550-120">Specifies the properties and operations that are permissible for email message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="6d4fc-121">头文件</span><span class="sxs-lookup"><span data-stu-id="6d4fc-121">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="5f550-121">头文件</span><span class="sxs-lookup"><span data-stu-id="5f550-121">Header files</span></span>
 
-<span data-ttu-id="6d4fc-122">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="6d4fc-122">Mapidefs.h</span></span>
+<span data-ttu-id="5f550-122">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5f550-122">Mapidefs.h</span></span>
   
-> <span data-ttu-id="6d4fc-123">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="6d4fc-123">Provides data type definitions.</span></span>
+> <span data-ttu-id="5f550-123">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="5f550-123">Provides data type definitions.</span></span>
     
-<span data-ttu-id="6d4fc-124">Mapitags</span><span class="sxs-lookup"><span data-stu-id="6d4fc-124">Mapitags.h</span></span>
+<span data-ttu-id="5f550-124">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="5f550-124">Mapitags.h</span></span>
   
-> <span data-ttu-id="6d4fc-125">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="6d4fc-125">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="5f550-125">包含作为备用名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="5f550-125">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="6d4fc-126">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6d4fc-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5f550-126">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5f550-126">See also</span></span>
 
 
 
-[<span data-ttu-id="6d4fc-127">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="6d4fc-127">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="5f550-127">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="5f550-127">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="6d4fc-128">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="6d4fc-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="5f550-128">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="5f550-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="6d4fc-129">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="6d4fc-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="5f550-129">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="5f550-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="6d4fc-130">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="6d4fc-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="5f550-130">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="5f550-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

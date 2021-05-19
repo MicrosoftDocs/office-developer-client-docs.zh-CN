@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
-description: '上次修改时间: 2006 年7月2012'
+description: 上次修改时间：2012 年 7 月 6 日
 ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -13,45 +13,45 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32345959"
 ---
-# <a name="programmatically-set-the-resolution-order-for-address-lists"></a><span data-ttu-id="bf204-103">以编程方式设置地址列表的解析顺序</span><span class="sxs-lookup"><span data-stu-id="bf204-103">Programmatically set the resolution order for address lists</span></span>
+# <a name="programmatically-set-the-resolution-order-for-address-lists"></a><span data-ttu-id="d86dc-103">以编程方式设置地址列表的解析顺序</span><span class="sxs-lookup"><span data-stu-id="d86dc-103">Programmatically set the resolution order for address lists</span></span>
   
-<span data-ttu-id="bf204-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bf204-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d86dc-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d86dc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="bf204-105">本主题包含一个 c + + 中的代码示例, 该示例以编程方式设置电子邮件中的收件人和会议请求中的与会者解析的地址列表的顺序。</span><span class="sxs-lookup"><span data-stu-id="bf204-105">This topic contains a code sample in C++ that programmatically sets the order of address lists by which recipients in email messages and attendees in meeting requests are resolved.</span></span>
+<span data-ttu-id="d86dc-105">本主题包含一个 C++ 代码示例，该示例以编程方式设置解析电子邮件中的收件人和会议请求中的与会者的地址列表的顺序。</span><span class="sxs-lookup"><span data-stu-id="d86dc-105">This topic contains a code sample in C++ that programmatically sets the order of address lists by which recipients in email messages and attendees in meeting requests are resolved.</span></span>
   
-<span data-ttu-id="bf204-106">在 MAPI 中, 每个配置文件都可以支持多个地址列表, 每个地址列表都驻留在其自己的容器中。</span><span class="sxs-lookup"><span data-stu-id="bf204-106">In MAPI, each profile can support multiple address lists and each address list resides in its own container.</span></span> <span data-ttu-id="bf204-107">MAPI 支持接口中的**[SetSearchPath](https://support.microsoft.com/kb/292590)** 方法, 该方法允许您在用于名称解析的配置文件中设置新的搜索路径。</span><span class="sxs-lookup"><span data-stu-id="bf204-107">MAPI supports the **[SetSearchPath](https://support.microsoft.com/kb/292590)** method in the interface that allows you to set a new search path in the profile that is used for name resolution.</span></span> <span data-ttu-id="bf204-108">若要使用**IAddrBook:: SetSearchPath**方法, 您必须在包含相关通讯簿容器的**[SRowSet](srowset.md)** 数组中定义所需的解析顺序, 并以所需的顺序保存该数组, 然后将该数组指定为*lpSearchPath* 参数.</span><span class="sxs-lookup"><span data-stu-id="bf204-108">To use the **IAddrBook::SetSearchPath** method, you have to define the desired resolution order in a **[SRowSet](srowset.md)** array that holds the containers of the relevant address books in the desired order, and then specify the array as the  *lpSearchPath*  parameter.</span></span> <span data-ttu-id="bf204-109">**SRowSet**数组中每个条目的第一个属性必须是相应通讯簿的**[PR_ENTRYID](pidtagentryid-canonical-property.md)** 属性。</span><span class="sxs-lookup"><span data-stu-id="bf204-109">The first property for each entry in the **SRowSet** array must be the **[PR_ENTRYID](pidtagentryid-canonical-property.md)** property of the corresponding address book.</span></span> 
+<span data-ttu-id="d86dc-106">在 MAPI 中，每个配置文件可以支持多个地址列表，每个地址列表驻留在其自己的容器中。</span><span class="sxs-lookup"><span data-stu-id="d86dc-106">In MAPI, each profile can support multiple address lists and each address list resides in its own container.</span></span> <span data-ttu-id="d86dc-107">MAPI 支持接口中的 **[SetSearchPath](https://support.microsoft.com/kb/292590)** 方法，允许您在配置文件中设置用于名称解析的新搜索路径。</span><span class="sxs-lookup"><span data-stu-id="d86dc-107">MAPI supports the **[SetSearchPath](https://support.microsoft.com/kb/292590)** method in the interface that allows you to set a new search path in the profile that is used for name resolution.</span></span> <span data-ttu-id="d86dc-108">若要使用 **IAddrBook：：SetSearchPath** 方法，您必须在以所需顺序保存相关通讯簿容器的 **[SRowSet](srowset.md)** 数组中定义所需的解析顺序，然后将该数组指定为  *lpSearchPath*  参数。</span><span class="sxs-lookup"><span data-stu-id="d86dc-108">To use the **IAddrBook::SetSearchPath** method, you have to define the desired resolution order in a **[SRowSet](srowset.md)** array that holds the containers of the relevant address books in the desired order, and then specify the array as the  *lpSearchPath*  parameter.</span></span> <span data-ttu-id="d86dc-109">**SRowSet** 数组中每个条目的第一个属性必须是PR_ENTRYID通讯簿 **[](pidtagentryid-canonical-property.md)** 的 PR_ENTRYID 属性。</span><span class="sxs-lookup"><span data-stu-id="d86dc-109">The first property for each entry in the **SRowSet** array must be the **[PR_ENTRYID](pidtagentryid-canonical-property.md)** property of the corresponding address book.</span></span> 
   
-<span data-ttu-id="bf204-110">代码示例按以下步骤设置解决顺序:</span><span class="sxs-lookup"><span data-stu-id="bf204-110">The code sample sets the resolution order in the following steps:</span></span>
+<span data-ttu-id="d86dc-110">该代码示例在以下步骤中设置解析顺序：</span><span class="sxs-lookup"><span data-stu-id="d86dc-110">The code sample sets the resolution order in the following steps:</span></span>
   
-1. <span data-ttu-id="bf204-111">初始化`numANR`为要匹配的容器的数目, 并在`ANROrder`数组中指定所需地址列表的名称和解析顺序。</span><span class="sxs-lookup"><span data-stu-id="bf204-111">Initializes  `numANR` to the number of containers to match, and specifies the names and resolution order of the desired address lists in an  `ANROrder` array.</span></span> 
+1. <span data-ttu-id="d86dc-111">初始化要匹配的容器数，并指定数组中所需地址列表的名称和  `numANR` 解析  `ANROrder` 顺序。</span><span class="sxs-lookup"><span data-stu-id="d86dc-111">Initializes  `numANR` to the number of containers to match, and specifies the names and resolution order of the desired address lists in an  `ANROrder` array.</span></span> 
     
-2. <span data-ttu-id="bf204-112">使用**MAPIInitialize**函数初始化 MAPI。</span><span class="sxs-lookup"><span data-stu-id="bf204-112">Initializes MAPI by using the **MAPIInitialize** function.</span></span> 
+2. <span data-ttu-id="d86dc-112">使用 **MAPIInitialize** 函数初始化 MAPI。</span><span class="sxs-lookup"><span data-stu-id="d86dc-112">Initializes MAPI by using the **MAPIInitialize** function.</span></span> 
     
-3.  <span data-ttu-id="bf204-113">登录到 MAPI 并允许用户选择配置文件。</span><span class="sxs-lookup"><span data-stu-id="bf204-113">Logs on to MAPI and allows the user to choose a profile.</span></span> 
+3.  <span data-ttu-id="d86dc-113">登录到 MAPI，并允许用户选择配置文件。</span><span class="sxs-lookup"><span data-stu-id="d86dc-113">Logs on to MAPI and allows the user to choose a profile.</span></span> 
     
-4.  <span data-ttu-id="bf204-114">从当前会话中获取指向通讯簿的指针。</span><span class="sxs-lookup"><span data-stu-id="bf204-114">Gets a pointer to the address book from the current session.</span></span> 
+4.  <span data-ttu-id="d86dc-114">获取当前会话中指向通讯簿的指针。</span><span class="sxs-lookup"><span data-stu-id="d86dc-114">Gets a pointer to the address book from the current session.</span></span> 
     
-5. <span data-ttu-id="bf204-115">打开通讯簿。</span><span class="sxs-lookup"><span data-stu-id="bf204-115">Opens the Address Book.</span></span>
+5. <span data-ttu-id="d86dc-115">打开通讯簿。</span><span class="sxs-lookup"><span data-stu-id="d86dc-115">Opens the Address Book.</span></span>
     
-6. <span data-ttu-id="bf204-116">打开根通讯簿的容器。</span><span class="sxs-lookup"><span data-stu-id="bf204-116">Opens the container for the root Address Book.</span></span>
+6. <span data-ttu-id="d86dc-116">打开根通讯簿的容器。</span><span class="sxs-lookup"><span data-stu-id="d86dc-116">Opens the container for the root Address Book.</span></span>
     
-7. <span data-ttu-id="bf204-117">打开根通讯簿容器的层次结构表。</span><span class="sxs-lookup"><span data-stu-id="bf204-117">Opens the hierarchy table of the root address book container.</span></span>
+7. <span data-ttu-id="d86dc-117">打开根通讯簿容器的层次结构表。</span><span class="sxs-lookup"><span data-stu-id="d86dc-117">Opens the hierarchy table of the root address book container.</span></span>
     
-8. <span data-ttu-id="bf204-118">获取层次结构中的通讯簿容器的列表。</span><span class="sxs-lookup"><span data-stu-id="bf204-118">Gets the list of address book containers in the hierarchy.</span></span>
+8. <span data-ttu-id="d86dc-118">获取层次结构中的通讯簿容器的列表。</span><span class="sxs-lookup"><span data-stu-id="d86dc-118">Gets the list of address book containers in the hierarchy.</span></span>
     
-9. <span data-ttu-id="bf204-119">通过`ANROrder`将所需地址列表的名称与通讯簿层次结构中的现有名称相比较, 查找所需地址列表的条目 id。</span><span class="sxs-lookup"><span data-stu-id="bf204-119">Looks for the entry IDs of the desired address lists by comparing the names of the desired address lists in  `ANROrder` to the existing names in the address book hierarchy.</span></span> 
+9. <span data-ttu-id="d86dc-119">通过将 所需的地址列表的名称与通讯簿层次结构中的现有名称进行比较，查找所需地址列表的条目  `ANROrder` ID。</span><span class="sxs-lookup"><span data-stu-id="d86dc-119">Looks for the entry IDs of the desired address lists by comparing the names of the desired address lists in  `ANROrder` to the existing names in the address book hierarchy.</span></span> 
     
-10. <span data-ttu-id="bf204-120">将适当的条目 id 设置到**SRowSet**数组中`pNewRows`。</span><span class="sxs-lookup"><span data-stu-id="bf204-120">Sets the appropriate entry IDs to the **SRowSet** array,  `pNewRows`.</span></span>
+10. <span data-ttu-id="d86dc-120">将相应的条目 ID 设置到 **SRowSet** 数组中  `pNewRows` 。</span><span class="sxs-lookup"><span data-stu-id="d86dc-120">Sets the appropriate entry IDs to the **SRowSet** array,  `pNewRows`.</span></span>
     
-11. <span data-ttu-id="bf204-121">调用并作为`pNewRows` *lpSearchPath*参数传递到**IAddrBook:: SetSearchPath**以设置搜索路径。</span><span class="sxs-lookup"><span data-stu-id="bf204-121">Calls and passes  `pNewRows` as the  *lpSearchPath*  parameter to **IAddrBook::SetSearchPath** to set the search path.</span></span> 
+11. <span data-ttu-id="d86dc-121">调用并作为  `pNewRows`  *lpSearchPath*  参数传递给 **IAddrBook：：SetSearchPath** 以设置搜索路径。</span><span class="sxs-lookup"><span data-stu-id="d86dc-121">Calls and passes  `pNewRows` as the  *lpSearchPath*  parameter to **IAddrBook::SetSearchPath** to set the search path.</span></span> 
     
-12. <span data-ttu-id="bf204-122">清理内部缓冲区和指针。</span><span class="sxs-lookup"><span data-stu-id="bf204-122">Cleans up internal buffers and pointers.</span></span>
+12. <span data-ttu-id="d86dc-122">清理内部缓冲区和指针。</span><span class="sxs-lookup"><span data-stu-id="d86dc-122">Cleans up internal buffers and pointers.</span></span>
     
-13. <span data-ttu-id="bf204-123">从 MAPI 注销。</span><span class="sxs-lookup"><span data-stu-id="bf204-123">Logs off from MAPI.</span></span>
+13. <span data-ttu-id="d86dc-123">从 MAPI 注销。</span><span class="sxs-lookup"><span data-stu-id="d86dc-123">Logs off from MAPI.</span></span>
     
-14. <span data-ttu-id="bf204-124">Uninitalizes MAPI。</span><span class="sxs-lookup"><span data-stu-id="bf204-124">Uninitalizes MAPI.</span></span>
+14. <span data-ttu-id="d86dc-124">未初始化 MAPI。</span><span class="sxs-lookup"><span data-stu-id="d86dc-124">Uninitalizes MAPI.</span></span>
     
-<span data-ttu-id="bf204-125">此代码示例使用 Microsoft Office Outlook 的默认安装中提供的地址列表:**所有联系人**、**所有组**和**联系人**。</span><span class="sxs-lookup"><span data-stu-id="bf204-125">This code sample uses address lists that are available in the default installation of Microsoft Office Outlook: **All Contacts**, **All Groups**, and **Contacts**.</span></span> <span data-ttu-id="bf204-126">启动 Outlook 并在已初始化的配置文件上运行后, 必须运行该示例。</span><span class="sxs-lookup"><span data-stu-id="bf204-126">You must run the sample after Outlook is started and is running on an initialized profile.</span></span> <span data-ttu-id="bf204-127">示例适用于采用一种语言的名称 (例如, 所有名称均为英文)。</span><span class="sxs-lookup"><span data-stu-id="bf204-127">The sample works well with names that are in one language (for example, all names are in English).</span></span> <span data-ttu-id="bf204-128">它不适合在多语言部署中工作, 例如, 为运行非英语版 Outlook 内部版本的用户本地化的 "**联系人**" 文件夹。</span><span class="sxs-lookup"><span data-stu-id="bf204-128">It is not designed to work in multi-lingual deployments, for example the **Contacts** folder localized for a user running a non-English Outlook build.</span></span> 
+<span data-ttu-id="d86dc-125">此代码示例使用默认安装中可用的地址列表 **Microsoft Office Outlook：所有** 联系人、所有 **组\*\*\*\*和联系人**。</span><span class="sxs-lookup"><span data-stu-id="d86dc-125">This code sample uses address lists that are available in the default installation of Microsoft Office Outlook: **All Contacts**, **All Groups**, and **Contacts**.</span></span> <span data-ttu-id="d86dc-126">启动并运行初始化的配置文件Outlook运行示例。</span><span class="sxs-lookup"><span data-stu-id="d86dc-126">You must run the sample after Outlook is started and is running on an initialized profile.</span></span> <span data-ttu-id="d86dc-127">该示例适用于使用一种语言 (例如，所有名称都使用英语) 。</span><span class="sxs-lookup"><span data-stu-id="d86dc-127">The sample works well with names that are in one language (for example, all names are in English).</span></span> <span data-ttu-id="d86dc-128">它不能用于多语言部署，例如，为运行非英语语言版本的用户本地化的"联系人"Outlook版本。</span><span class="sxs-lookup"><span data-stu-id="d86dc-128">It is not designed to work in multi-lingual deployments, for example the **Contacts** folder localized for a user running a non-English Outlook build.</span></span> 
   
 ```cpp
 #include "stdafx.h" 
@@ -264,7 +264,7 @@ STDMETHODIMP CopySBinary(
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="bf204-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bf204-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d86dc-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d86dc-129">See also</span></span>
 
-- [<span data-ttu-id="bf204-130">关于设置在 Outlook 中地址列表的解析顺序</span><span class="sxs-lookup"><span data-stu-id="bf204-130">About Setting the Resolution Order for Address Lists in Outlook</span></span>](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
+- [<span data-ttu-id="d86dc-130">关于设置在 Outlook 中地址列表的解析顺序</span><span class="sxs-lookup"><span data-stu-id="d86dc-130">About Setting the Resolution Order for Address Lists in Outlook</span></span>](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

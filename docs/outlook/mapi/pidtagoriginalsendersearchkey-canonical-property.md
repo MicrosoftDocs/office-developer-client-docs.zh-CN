@@ -19,56 +19,56 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32342600"
 ---
-# <a name="pidtagoriginalsendersearchkey-canonical-property"></a><span data-ttu-id="3f489-103">PidTagOriginalSenderSearchKey 规范属性</span><span class="sxs-lookup"><span data-stu-id="3f489-103">PidTagOriginalSenderSearchKey Canonical Property</span></span>
+# <a name="pidtagoriginalsendersearchkey-canonical-property"></a><span data-ttu-id="87c49-103">PidTagOriginalSenderSearchKey 规范属性</span><span class="sxs-lookup"><span data-stu-id="87c49-103">PidTagOriginalSenderSearchKey Canonical Property</span></span>
 
   
   
-<span data-ttu-id="3f489-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3f489-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="87c49-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="87c49-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3f489-105">包含邮件第一版的发件人的搜索关键字, 即邮件转发或答复前的邮件。</span><span class="sxs-lookup"><span data-stu-id="3f489-105">Contains the search key for the sender of the first version of a message, that is, the message before being forwarded or replied to.</span></span>
+<span data-ttu-id="87c49-105">包含邮件第一个版本（即转发或答复前的邮件）发件人的搜索密钥。</span><span class="sxs-lookup"><span data-stu-id="87c49-105">Contains the search key for the sender of the first version of a message, that is, the message before being forwarded or replied to.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3f489-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="3f489-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3f489-107">PR_ORIGINAL_SENDER_SEARCH_KEY</span><span class="sxs-lookup"><span data-stu-id="3f489-107">PR_ORIGINAL_SENDER_SEARCH_KEY</span></span>  <br/> |
-|<span data-ttu-id="3f489-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="3f489-108">Identifier:</span></span>  <br/> |<span data-ttu-id="3f489-109">0x005C</span><span class="sxs-lookup"><span data-stu-id="3f489-109">0x005C</span></span>  <br/> |
-|<span data-ttu-id="3f489-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="3f489-110">Data type:</span></span>  <br/> |<span data-ttu-id="3f489-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="3f489-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="3f489-112">区域：</span><span class="sxs-lookup"><span data-stu-id="3f489-112">Area:</span></span>  <br/> |<span data-ttu-id="3f489-113">常规邮件</span><span class="sxs-lookup"><span data-stu-id="3f489-113">General messaging</span></span>  <br/> |
+|<span data-ttu-id="87c49-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="87c49-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="87c49-107">PR_ORIGINAL_SENDER_SEARCH_KEY</span><span class="sxs-lookup"><span data-stu-id="87c49-107">PR_ORIGINAL_SENDER_SEARCH_KEY</span></span>  <br/> |
+|<span data-ttu-id="87c49-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="87c49-108">Identifier:</span></span>  <br/> |<span data-ttu-id="87c49-109">0x005C</span><span class="sxs-lookup"><span data-stu-id="87c49-109">0x005C</span></span>  <br/> |
+|<span data-ttu-id="87c49-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="87c49-110">Data type:</span></span>  <br/> |<span data-ttu-id="87c49-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="87c49-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="87c49-112">区域：</span><span class="sxs-lookup"><span data-stu-id="87c49-112">Area:</span></span>  <br/> |<span data-ttu-id="87c49-113">常规消息</span><span class="sxs-lookup"><span data-stu-id="87c49-113">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3f489-114">注解</span><span class="sxs-lookup"><span data-stu-id="3f489-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="87c49-114">备注</span><span class="sxs-lookup"><span data-stu-id="87c49-114">Remarks</span></span>
 
-<span data-ttu-id="3f489-115">此属性是邮件原始发件人的地址属性之一。</span><span class="sxs-lookup"><span data-stu-id="3f489-115">This property is one of the address properties for the original sender of a message.</span></span> <span data-ttu-id="3f489-116">首次提交邮件时, 客户端应用程序应将此属性设置为**PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) 属性的值。</span><span class="sxs-lookup"><span data-stu-id="3f489-116">At first submission of the message, the client application should set this property to the value of the **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) property.</span></span> <span data-ttu-id="3f489-117">转发或答复邮件时, 它永远不会更改。</span><span class="sxs-lookup"><span data-stu-id="3f489-117">It is never changed when the message is forwarded or replied to.</span></span>
+<span data-ttu-id="87c49-115">此属性是邮件的原始发件人的地址属性之一。</span><span class="sxs-lookup"><span data-stu-id="87c49-115">This property is one of the address properties for the original sender of a message.</span></span> <span data-ttu-id="87c49-116">首次提交邮件时，客户端应用程序应该将此属性设置为 **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) 属性的值。</span><span class="sxs-lookup"><span data-stu-id="87c49-116">At first submission of the message, the client application should set this property to the value of the **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) property.</span></span> <span data-ttu-id="87c49-117">转发或答复邮件时从不更改。</span><span class="sxs-lookup"><span data-stu-id="87c49-117">It is never changed when the message is forwarded or replied to.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="3f489-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="3f489-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="87c49-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="87c49-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="3f489-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="3f489-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="87c49-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="87c49-119">Protocol specifications</span></span>
 
-<span data-ttu-id="3f489-120">[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3f489-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="87c49-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="87c49-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="3f489-121">提供对相关 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="3f489-121">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="87c49-121">提供对相关协议Exchange Server的引用。</span><span class="sxs-lookup"><span data-stu-id="87c49-121">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="3f489-122">[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3f489-122">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="87c49-122">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="87c49-122">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="3f489-123">指定在电子邮件对象上允许的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="3f489-123">Specifies the properties and operations that are permissible on email message objects.</span></span>
+> <span data-ttu-id="87c49-123">指定允许对电子邮件对象执行的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="87c49-123">Specifies the properties and operations that are permissible on email message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="3f489-124">头文件</span><span class="sxs-lookup"><span data-stu-id="3f489-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="87c49-124">头文件</span><span class="sxs-lookup"><span data-stu-id="87c49-124">Header files</span></span>
 
-<span data-ttu-id="3f489-125">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="3f489-125">Mapidefs.h</span></span>
+<span data-ttu-id="87c49-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="87c49-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="3f489-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="3f489-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="87c49-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="87c49-126">Provides data type definitions.</span></span>
     
-<span data-ttu-id="3f489-127">Mapitags</span><span class="sxs-lookup"><span data-stu-id="3f489-127">Mapitags.h</span></span>
+<span data-ttu-id="87c49-127">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="87c49-127">Mapitags.h</span></span>
   
-> <span data-ttu-id="3f489-128">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="3f489-128">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="87c49-128">包含作为备用名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="87c49-128">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="3f489-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3f489-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="87c49-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="87c49-129">See also</span></span>
 
 
 
-[<span data-ttu-id="3f489-130">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="3f489-130">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="87c49-130">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="87c49-130">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="3f489-131">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="3f489-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="87c49-131">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="87c49-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="3f489-132">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="3f489-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="87c49-132">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="87c49-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="3f489-133">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="3f489-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="87c49-133">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="87c49-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,53 +19,53 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32357944"
 ---
-# <a name="pidlidownercriticalchange-canonical-property"></a><span data-ttu-id="8d00d-103">PidLidOwnerCriticalChange 规范属性</span><span class="sxs-lookup"><span data-stu-id="8d00d-103">PidLidOwnerCriticalChange Canonical Property</span></span>
+# <a name="pidlidownercriticalchange-canonical-property"></a><span data-ttu-id="7aaf3-103">PidLidOwnerCriticalChange 规范属性</span><span class="sxs-lookup"><span data-stu-id="7aaf3-103">PidLidOwnerCriticalChange Canonical Property</span></span>
 
   
   
-<span data-ttu-id="8d00d-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8d00d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7aaf3-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7aaf3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8d00d-105">指定组织者发送会议请求的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="8d00d-105">Specifies the date and time when a meeting request was sent by the organizer.</span></span>
+<span data-ttu-id="7aaf3-105">指定组织者发送会议请求的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="7aaf3-105">Specifies the date and time when a meeting request was sent by the organizer.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8d00d-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="8d00d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8d00d-107">LID_OWNER_CRITICAL_CHANGE</span><span class="sxs-lookup"><span data-stu-id="8d00d-107">LID_OWNER_CRITICAL_CHANGE</span></span>  <br/> |
-|<span data-ttu-id="8d00d-108">属性集:</span><span class="sxs-lookup"><span data-stu-id="8d00d-108">Property set:</span></span>  <br/> |<span data-ttu-id="8d00d-109">PSETID_Meeting</span><span class="sxs-lookup"><span data-stu-id="8d00d-109">PSETID_Meeting</span></span>  <br/> |
-|<span data-ttu-id="8d00d-110">长 ID (盖子):</span><span class="sxs-lookup"><span data-stu-id="8d00d-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="8d00d-111">0x0000001A</span><span class="sxs-lookup"><span data-stu-id="8d00d-111">0x0000001A</span></span>  <br/> |
-|<span data-ttu-id="8d00d-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="8d00d-112">Data type:</span></span>  <br/> |<span data-ttu-id="8d00d-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="8d00d-113">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="8d00d-114">区域：</span><span class="sxs-lookup"><span data-stu-id="8d00d-114">Area:</span></span>  <br/> |<span data-ttu-id="8d00d-115">会议</span><span class="sxs-lookup"><span data-stu-id="8d00d-115">Meetings</span></span>  <br/> |
+|<span data-ttu-id="7aaf3-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="7aaf3-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7aaf3-107">LID_OWNER_CRITICAL_CHANGE</span><span class="sxs-lookup"><span data-stu-id="7aaf3-107">LID_OWNER_CRITICAL_CHANGE</span></span>  <br/> |
+|<span data-ttu-id="7aaf3-108">属性集：</span><span class="sxs-lookup"><span data-stu-id="7aaf3-108">Property set:</span></span>  <br/> |<span data-ttu-id="7aaf3-109">PSETID_Meeting</span><span class="sxs-lookup"><span data-stu-id="7aaf3-109">PSETID_Meeting</span></span>  <br/> |
+|<span data-ttu-id="7aaf3-110">LONG ID (的一) ：</span><span class="sxs-lookup"><span data-stu-id="7aaf3-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="7aaf3-111">0x0000001A</span><span class="sxs-lookup"><span data-stu-id="7aaf3-111">0x0000001A</span></span>  <br/> |
+|<span data-ttu-id="7aaf3-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="7aaf3-112">Data type:</span></span>  <br/> |<span data-ttu-id="7aaf3-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="7aaf3-113">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="7aaf3-114">区域：</span><span class="sxs-lookup"><span data-stu-id="7aaf3-114">Area:</span></span>  <br/> |<span data-ttu-id="7aaf3-115">会议</span><span class="sxs-lookup"><span data-stu-id="7aaf3-115">Meetings</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="8d00d-116">注解</span><span class="sxs-lookup"><span data-stu-id="8d00d-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7aaf3-116">备注</span><span class="sxs-lookup"><span data-stu-id="7aaf3-116">Remarks</span></span>
 
-<span data-ttu-id="8d00d-117">必须以协调通用时间 (UTC) 指定该值。</span><span class="sxs-lookup"><span data-stu-id="8d00d-117">The value must be specified in Coordinated Universal Time (UTC).</span></span>
+<span data-ttu-id="7aaf3-117">该值必须以协调世界时与 UTC (UTC) 。</span><span class="sxs-lookup"><span data-stu-id="7aaf3-117">The value must be specified in Coordinated Universal Time (UTC).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="8d00d-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="8d00d-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="7aaf3-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="7aaf3-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="8d00d-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="8d00d-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="7aaf3-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="7aaf3-119">Protocol specifications</span></span>
 
-<span data-ttu-id="8d00d-120">[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8d00d-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7aaf3-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7aaf3-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="8d00d-121">提供属性集定义和对相关 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="8d00d-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="7aaf3-121">提供属性集定义和对相关协议规范Exchange Server引用。</span><span class="sxs-lookup"><span data-stu-id="7aaf3-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="8d00d-122">[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8d00d-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7aaf3-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7aaf3-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="8d00d-123">指定约会、会议请求和响应邮件的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="8d00d-123">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="7aaf3-123">指定约会、会议请求和响应邮件的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="7aaf3-123">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="8d00d-124">头文件</span><span class="sxs-lookup"><span data-stu-id="8d00d-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="7aaf3-124">头文件</span><span class="sxs-lookup"><span data-stu-id="7aaf3-124">Header files</span></span>
 
-<span data-ttu-id="8d00d-125">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="8d00d-125">Mapidefs.h</span></span>
+<span data-ttu-id="7aaf3-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7aaf3-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="8d00d-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="8d00d-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="7aaf3-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="7aaf3-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8d00d-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8d00d-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7aaf3-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7aaf3-127">See also</span></span>
 
 
 
-[<span data-ttu-id="8d00d-128">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="8d00d-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="7aaf3-128">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="7aaf3-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="8d00d-129">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="8d00d-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="7aaf3-129">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="7aaf3-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="8d00d-130">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="8d00d-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="7aaf3-130">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="7aaf3-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="8d00d-131">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="8d00d-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="7aaf3-131">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="7aaf3-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
