@@ -1,5 +1,5 @@
 ---
-title: PublishSettings_Type 复杂类型 (Visio XML)
+title: 'PublishSettings_Type COMPLEXType (Visio XML) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538919"
 ---
-# <a name="publishsettingstype-complextype-visio-xml"></a><span data-ttu-id="994bc-102">PublishSettings_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="994bc-102">PublishSettings_Type complexType (Visio XML)</span></span>
+# <a name="publishsettings_type-complextype-visio-xml"></a><span data-ttu-id="5725d-102">PublishSettings_Type COMPLEXType (Visio XML) </span><span class="sxs-lookup"><span data-stu-id="5725d-102">PublishSettings_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="994bc-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="994bc-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="5725d-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="5725d-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="994bc-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="994bc-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="994bc-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="994bc-105">**Schema file**</span></span> <br/> |<span data-ttu-id="994bc-106">VisioSchema15-2012-06-05</span><span class="sxs-lookup"><span data-stu-id="994bc-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="994bc-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="994bc-107">**Extension base**</span></span> <br/> |<span data-ttu-id="994bc-108">无</span><span class="sxs-lookup"><span data-stu-id="994bc-108">None</span></span>  <br/> |
+|<span data-ttu-id="5725d-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="5725d-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="5725d-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="5725d-105">**Schema file**</span></span> <br/> |<span data-ttu-id="5725d-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="5725d-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="5725d-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="5725d-107">**Extension base**</span></span> <br/> |<span data-ttu-id="5725d-108">无</span><span class="sxs-lookup"><span data-stu-id="5725d-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="994bc-109">定义</span><span class="sxs-lookup"><span data-stu-id="994bc-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="5725d-109">定义</span><span class="sxs-lookup"><span data-stu-id="5725d-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="PublishSettings_Type">
@@ -46,19 +46,19 @@ ms.locfileid: "34538919"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="994bc-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="994bc-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="5725d-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="5725d-110">Elements and attributes</span></span>
 
-<span data-ttu-id="994bc-111">如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。</span><span class="sxs-lookup"><span data-stu-id="994bc-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="5725d-111">如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="5725d-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="994bc-112">子元素</span><span class="sxs-lookup"><span data-stu-id="994bc-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="5725d-112">子元素</span><span class="sxs-lookup"><span data-stu-id="5725d-112">Child elements</span></span>
 
-|<span data-ttu-id="994bc-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="994bc-113">**Element**</span></span>|<span data-ttu-id="994bc-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="994bc-114">**Type**</span></span>|<span data-ttu-id="994bc-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="994bc-115">**Description**</span></span>|
+|<span data-ttu-id="5725d-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="5725d-113">**Element**</span></span>|<span data-ttu-id="5725d-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="5725d-114">**Type**</span></span>|<span data-ttu-id="5725d-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="5725d-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="994bc-116">PublishedPage</span><span class="sxs-lookup"><span data-stu-id="994bc-116">PublishedPage</span></span>](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="994bc-117">PublishedPage_Type</span><span class="sxs-lookup"><span data-stu-id="994bc-117">PublishedPage_Type</span></span>](publishedpage_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="994bc-118">RefreshableData</span><span class="sxs-lookup"><span data-stu-id="994bc-118">RefreshableData</span></span>](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="994bc-119">RefreshableData_Type</span><span class="sxs-lookup"><span data-stu-id="994bc-119">RefreshableData_Type</span></span>](refreshabledata_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="5725d-116">PublishedPage</span><span class="sxs-lookup"><span data-stu-id="5725d-116">PublishedPage</span></span>](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="5725d-117">PublishedPage_Type</span><span class="sxs-lookup"><span data-stu-id="5725d-117">PublishedPage_Type</span></span>](publishedpage_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="5725d-118">RefreshableData</span><span class="sxs-lookup"><span data-stu-id="5725d-118">RefreshableData</span></span>](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="5725d-119">RefreshableData_Type</span><span class="sxs-lookup"><span data-stu-id="5725d-119">RefreshableData_Type</span></span>](refreshabledata_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="994bc-120">Attributes</span><span class="sxs-lookup"><span data-stu-id="994bc-120">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="5725d-120">Attributes</span><span class="sxs-lookup"><span data-stu-id="5725d-120">Attributes</span></span>
 
-<span data-ttu-id="994bc-121">无。</span><span class="sxs-lookup"><span data-stu-id="994bc-121">None.</span></span>
+<span data-ttu-id="5725d-121">无。</span><span class="sxs-lookup"><span data-stu-id="5725d-121">None.</span></span>
   
 

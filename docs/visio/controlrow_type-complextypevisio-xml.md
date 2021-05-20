@@ -1,5 +1,5 @@
 ---
-title: ControlRow_Type 复杂类型 (Visio XML)
+title: 'ControlRow_Type COMPLEXType (Visio XML) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538667"
 ---
-# <a name="controlrowtype-complextype-visio-xml"></a><span data-ttu-id="28f51-102">ControlRow_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="28f51-102">ControlRow_Type complexType (Visio XML)</span></span>
+# <a name="controlrow_type-complextype-visio-xml"></a><span data-ttu-id="533b3-102">ControlRow_Type COMPLEXType (Visio XML) </span><span class="sxs-lookup"><span data-stu-id="533b3-102">ControlRow_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="28f51-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="28f51-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="533b3-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="533b3-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="28f51-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="28f51-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="28f51-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="28f51-105">**Schema file**</span></span> <br/> |<span data-ttu-id="28f51-106">VisioSchema15-2012-06-05</span><span class="sxs-lookup"><span data-stu-id="28f51-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="28f51-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="28f51-107">**Extension base**</span></span> <br/> |<span data-ttu-id="28f51-108">NamedIndexedRow_Type</span><span class="sxs-lookup"><span data-stu-id="28f51-108">NamedIndexedRow_Type</span></span>  <br/> |
+|<span data-ttu-id="533b3-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="533b3-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="533b3-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="533b3-105">**Schema file**</span></span> <br/> |<span data-ttu-id="533b3-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="533b3-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="533b3-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="533b3-107">**Extension base**</span></span> <br/> |<span data-ttu-id="533b3-108">NamedIndexedRow_Type</span><span class="sxs-lookup"><span data-stu-id="533b3-108">NamedIndexedRow_Type</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="28f51-109">定义</span><span class="sxs-lookup"><span data-stu-id="28f51-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="533b3-109">定义</span><span class="sxs-lookup"><span data-stu-id="533b3-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="ControlRow_Type">
@@ -44,18 +44,18 @@ ms.locfileid: "34538667"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="28f51-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="28f51-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="533b3-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="533b3-110">Elements and attributes</span></span>
 
-<span data-ttu-id="28f51-111">如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。</span><span class="sxs-lookup"><span data-stu-id="28f51-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="533b3-111">如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="533b3-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="28f51-112">子元素</span><span class="sxs-lookup"><span data-stu-id="28f51-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="533b3-112">子元素</span><span class="sxs-lookup"><span data-stu-id="533b3-112">Child elements</span></span>
 
-|<span data-ttu-id="28f51-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="28f51-113">**Element**</span></span>|<span data-ttu-id="28f51-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="28f51-114">**Type**</span></span>|<span data-ttu-id="28f51-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="28f51-115">**Description**</span></span>|
+|<span data-ttu-id="533b3-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="533b3-113">**Element**</span></span>|<span data-ttu-id="533b3-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="533b3-114">**Type**</span></span>|<span data-ttu-id="533b3-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="533b3-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="28f51-116">Cell</span><span class="sxs-lookup"><span data-stu-id="28f51-116">Cell</span></span>](cell-element-controls-rowvisio-xml.md) <br/> |[<span data-ttu-id="28f51-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="28f51-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="533b3-116">Cell</span><span class="sxs-lookup"><span data-stu-id="533b3-116">Cell</span></span>](cell-element-controls-rowvisio-xml.md) <br/> |[<span data-ttu-id="533b3-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="533b3-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="28f51-118">Attributes</span><span class="sxs-lookup"><span data-stu-id="28f51-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="533b3-118">Attributes</span><span class="sxs-lookup"><span data-stu-id="533b3-118">Attributes</span></span>
 
-<span data-ttu-id="28f51-119">无。</span><span class="sxs-lookup"><span data-stu-id="28f51-119">None.</span></span>
+<span data-ttu-id="533b3-119">无。</span><span class="sxs-lookup"><span data-stu-id="533b3-119">None.</span></span>
   
 

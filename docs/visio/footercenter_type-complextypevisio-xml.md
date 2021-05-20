@@ -1,5 +1,5 @@
 ---
-title: FooterCenter_Type 复杂类型 (Visio XML)
+title: 'FooterCenter_Type COMPLEXType (Visio XML) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539570"
 ---
-# <a name="footercentertype-complextype-visio-xml"></a><span data-ttu-id="ee9a8-102">FooterCenter_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="ee9a8-102">FooterCenter_Type complexType (Visio XML)</span></span>
+# <a name="footercenter_type-complextype-visio-xml"></a><span data-ttu-id="c3c3d-102">FooterCenter_Type COMPLEXType (Visio XML) </span><span class="sxs-lookup"><span data-stu-id="c3c3d-102">FooterCenter_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="ee9a8-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="ee9a8-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="c3c3d-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="c3c3d-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ee9a8-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="ee9a8-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="ee9a8-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="ee9a8-105">**Schema file**</span></span> <br/> |<span data-ttu-id="ee9a8-106">VisioSchema15-2012-06-05</span><span class="sxs-lookup"><span data-stu-id="ee9a8-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="ee9a8-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="ee9a8-107">**Extension base**</span></span> <br/> |<span data-ttu-id="ee9a8-108">xsd: string</span><span class="sxs-lookup"><span data-stu-id="ee9a8-108">xsd:string</span></span>  <br/> |
+|<span data-ttu-id="c3c3d-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="c3c3d-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="c3c3d-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="c3c3d-105">**Schema file**</span></span> <br/> |<span data-ttu-id="c3c3d-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="c3c3d-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="c3c3d-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="c3c3d-107">**Extension base**</span></span> <br/> |<span data-ttu-id="c3c3d-108">xsd：string</span><span class="sxs-lookup"><span data-stu-id="c3c3d-108">xsd:string</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="ee9a8-109">定义</span><span class="sxs-lookup"><span data-stu-id="ee9a8-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="c3c3d-109">定义</span><span class="sxs-lookup"><span data-stu-id="c3c3d-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="FooterCenter_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "34539570"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="ee9a8-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="ee9a8-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="c3c3d-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="c3c3d-110">Elements and attributes</span></span>
 
-<span data-ttu-id="ee9a8-111">如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。</span><span class="sxs-lookup"><span data-stu-id="ee9a8-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="c3c3d-111">如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="c3c3d-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="ee9a8-112">子元素</span><span class="sxs-lookup"><span data-stu-id="ee9a8-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c3c3d-112">子元素</span><span class="sxs-lookup"><span data-stu-id="c3c3d-112">Child elements</span></span>
 
-<span data-ttu-id="ee9a8-113">无。</span><span class="sxs-lookup"><span data-stu-id="ee9a8-113">None.</span></span>
+<span data-ttu-id="c3c3d-113">无。</span><span class="sxs-lookup"><span data-stu-id="c3c3d-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ee9a8-114">Attributes</span><span class="sxs-lookup"><span data-stu-id="ee9a8-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c3c3d-114">Attributes</span><span class="sxs-lookup"><span data-stu-id="c3c3d-114">Attributes</span></span>
 
-<span data-ttu-id="ee9a8-115">无。</span><span class="sxs-lookup"><span data-stu-id="ee9a8-115">None.</span></span>
+<span data-ttu-id="c3c3d-115">无。</span><span class="sxs-lookup"><span data-stu-id="c3c3d-115">None.</span></span>
   
 
