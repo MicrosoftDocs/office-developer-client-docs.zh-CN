@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438622"
 ---
-# <a name="imsprovidershutdown"></a><span data-ttu-id="8e99c-103">IMSProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="8e99c-103">IMSProvider::Shutdown</span></span>
+# <a name="imsprovidershutdown"></a><span data-ttu-id="53090-103">IMSProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="53090-103">IMSProvider::Shutdown</span></span>
 
   
   
-<span data-ttu-id="8e99c-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8e99c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="53090-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="53090-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8e99c-105">以有序的方式关闭邮件存储提供程序。</span><span class="sxs-lookup"><span data-stu-id="8e99c-105">Closes a message store provider in an orderly fashion.</span></span>
+<span data-ttu-id="53090-105">以有序方式关闭邮件存储提供程序。</span><span class="sxs-lookup"><span data-stu-id="53090-105">Closes a message store provider in an orderly fashion.</span></span>
   
 ```cpp
 HRESULT Shutdown(
@@ -33,25 +33,25 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8e99c-106">参数</span><span class="sxs-lookup"><span data-stu-id="8e99c-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="53090-106">参数</span><span class="sxs-lookup"><span data-stu-id="53090-106">Parameters</span></span>
 
- <span data-ttu-id="8e99c-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="8e99c-107">_lpulFlags_</span></span>
+ <span data-ttu-id="53090-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="53090-107">_lpulFlags_</span></span>
   
-> <span data-ttu-id="8e99c-108">实时保留必须是指向零的指针。</span><span class="sxs-lookup"><span data-stu-id="8e99c-108">[in] Reserved; must be a pointer to zero.</span></span>
+> <span data-ttu-id="53090-108">[in]保留;必须是指向零的指针。</span><span class="sxs-lookup"><span data-stu-id="53090-108">[in] Reserved; must be a pointer to zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="8e99c-109">返回值</span><span class="sxs-lookup"><span data-stu-id="8e99c-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="53090-109">返回值</span><span class="sxs-lookup"><span data-stu-id="53090-109">Return value</span></span>
 
-<span data-ttu-id="8e99c-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="8e99c-110">S_OK</span></span> 
+<span data-ttu-id="53090-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="53090-110">S_OK</span></span> 
   
-> <span data-ttu-id="8e99c-111">调用成功, 并返回了所需的一个或一些值。</span><span class="sxs-lookup"><span data-stu-id="8e99c-111">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="53090-111">调用成功并返回预期值。</span><span class="sxs-lookup"><span data-stu-id="53090-111">The call succeeded and returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="8e99c-112">说明</span><span class="sxs-lookup"><span data-stu-id="8e99c-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="53090-112">备注</span><span class="sxs-lookup"><span data-stu-id="53090-112">Remarks</span></span>
 
-<span data-ttu-id="8e99c-113">在释放邮件存储区提供程序对象之前, MAPI 会调用**IMSProvider:: Shutdown**方法。</span><span class="sxs-lookup"><span data-stu-id="8e99c-113">MAPI calls the **IMSProvider::Shutdown** method just before releasing the message store provider object.</span></span> <span data-ttu-id="8e99c-114">MAPI 在为提供程序调用**Shutdown**之前释放该提供程序的所有登录对象。</span><span class="sxs-lookup"><span data-stu-id="8e99c-114">MAPI releases all logon objects for a provider before calling **Shutdown** for that provider.</span></span> 
+<span data-ttu-id="53090-113">MAPI 在释放消息存储提供程序对象之前调用 **IMSProvider：：Shutdown** 方法。</span><span class="sxs-lookup"><span data-stu-id="53090-113">MAPI calls the **IMSProvider::Shutdown** method just before releasing the message store provider object.</span></span> <span data-ttu-id="53090-114">MAPI 先释放提供程序的所有登录对象，然后再调用 **该提供程序的 Shutdown。**</span><span class="sxs-lookup"><span data-stu-id="53090-114">MAPI releases all logon objects for a provider before calling **Shutdown** for that provider.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="8e99c-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8e99c-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="53090-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="53090-115">See also</span></span>
 
 
 
-[<span data-ttu-id="8e99c-116">IMSProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="8e99c-116">IMSProvider : IUnknown</span></span>](imsprovideriunknown.md)
+[<span data-ttu-id="53090-116">IMSProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="53090-116">IMSProvider : IUnknown</span></span>](imsprovideriunknown.md)
 

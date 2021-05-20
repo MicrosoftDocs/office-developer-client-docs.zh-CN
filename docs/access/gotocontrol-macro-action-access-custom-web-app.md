@@ -14,23 +14,23 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436473"
 ---
-# <a name="gotocontrol-macro-action-access-custom-web-app"></a><span data-ttu-id="e2e39-103">GoToControl 宏操作（Access 自定义 Web 应用）</span><span class="sxs-lookup"><span data-stu-id="e2e39-103">GoToControl Macro Action (Access custom web app)</span></span>
+# <a name="gotocontrol-macro-action-access-custom-web-app"></a><span data-ttu-id="56705-103">GoToControl 宏操作（Access 自定义 Web 应用）</span><span class="sxs-lookup"><span data-stu-id="56705-103">GoToControl Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="e2e39-104">可以使用 **GoToControl** 操作将焦点移动到打开视图的当前记录中的指定控件。</span><span class="sxs-lookup"><span data-stu-id="e2e39-104">You can use the **GoToControl** action to move the focus to the specified control in the current record of the open view.</span></span> 
+<span data-ttu-id="56705-104">可以使用 **GoToControl** 操作将焦点移动到打开视图的当前记录中的指定控件。</span><span class="sxs-lookup"><span data-stu-id="56705-104">You can use the **GoToControl** action to move the focus to the specified control in the current record of the open view.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="e2e39-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="e2e39-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="56705-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="56705-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="setting"></a><span data-ttu-id="e2e39-107">设置</span><span class="sxs-lookup"><span data-stu-id="e2e39-107">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="56705-107">设置</span><span class="sxs-lookup"><span data-stu-id="56705-107">Setting</span></span>
 
-<span data-ttu-id="e2e39-108">**GoToControl** 操作具有以下参数。</span><span class="sxs-lookup"><span data-stu-id="e2e39-108">The **GoToControl** action has the following argument.</span></span> 
+<span data-ttu-id="56705-108">**GoToControl** 操作具有以下参数。</span><span class="sxs-lookup"><span data-stu-id="56705-108">The **GoToControl** action has the following argument.</span></span> 
   
-|<span data-ttu-id="e2e39-109">**操作参数**</span><span class="sxs-lookup"><span data-stu-id="e2e39-109">**Action argument**</span></span>|<span data-ttu-id="e2e39-110">**说明**</span><span class="sxs-lookup"><span data-stu-id="e2e39-110">**Description**</span></span>|
+|<span data-ttu-id="56705-109">**操作参数**</span><span class="sxs-lookup"><span data-stu-id="56705-109">**Action argument**</span></span>|<span data-ttu-id="56705-110">**说明**</span><span class="sxs-lookup"><span data-stu-id="56705-110">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="e2e39-111">**控件名称**</span><span class="sxs-lookup"><span data-stu-id="e2e39-111">**Control Name**</span></span> <br/> |<span data-ttu-id="e2e39-112">希望获得焦点的字段或控件的名称。</span><span class="sxs-lookup"><span data-stu-id="e2e39-112">The name of the field or control where you want the focus.</span></span> <span data-ttu-id="e2e39-113">这是必需参数。</span><span class="sxs-lookup"><span data-stu-id="e2e39-113">This is a required argument.</span></span>  <br/> |
+|<span data-ttu-id="56705-111">**控件名称**</span><span class="sxs-lookup"><span data-stu-id="56705-111">**Control Name**</span></span> <br/> |<span data-ttu-id="56705-112">希望获得焦点的字段或控件的名称。</span><span class="sxs-lookup"><span data-stu-id="56705-112">The name of the field or control where you want the focus.</span></span> <span data-ttu-id="56705-113">这是必需参数。</span><span class="sxs-lookup"><span data-stu-id="56705-113">This is a required argument.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="e2e39-114">说明</span><span class="sxs-lookup"><span data-stu-id="e2e39-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="56705-114">说明</span><span class="sxs-lookup"><span data-stu-id="56705-114">Remarks</span></span>
 
-<span data-ttu-id="e2e39-115">当你希望特定字段或控件获得焦点时，可以使用此操作。</span><span class="sxs-lookup"><span data-stu-id="e2e39-115">You can use this action when you want a particular field or control to have the focus.</span></span> <span data-ttu-id="e2e39-116">你可以使用此操作以根据特定的条件在表单中导航。</span><span class="sxs-lookup"><span data-stu-id="e2e39-116">You can also use this action to navigate in a form according to certain conditions.</span></span> <span data-ttu-id="e2e39-117">例如，如果用户输入婚姻控件不能在健康保险窗体，焦点可以自动跳过配偶姓名控件并移动到下一个控件。</span><span class="sxs-lookup"><span data-stu-id="e2e39-117">For example, if the user enters No in a Married control on a health insurance form, the focus can automatically skip the Spouse/partner Name control and move to the next control.</span></span>
+<span data-ttu-id="56705-115">当你希望特定字段或控件获得焦点时，可以使用此操作。</span><span class="sxs-lookup"><span data-stu-id="56705-115">You can use this action when you want a particular field or control to have the focus.</span></span> <span data-ttu-id="56705-116">你可以使用此操作以根据特定的条件在表单中导航。</span><span class="sxs-lookup"><span data-stu-id="56705-116">You can also use this action to navigate in a form according to certain conditions.</span></span> <span data-ttu-id="56705-117">例如，如果用户输入婚姻控件不能在健康保险窗体，焦点可以自动跳过配偶姓名控件并移动到下一个控件。</span><span class="sxs-lookup"><span data-stu-id="56705-117">For example, if the user enters No in a Married control on a health insurance form, the focus can automatically skip the Spouse/partner Name control and move to the next control.</span></span>
   
 

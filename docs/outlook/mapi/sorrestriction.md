@@ -19,17 +19,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437929"
 ---
-# <a name="sorrestriction"></a><span data-ttu-id="47101-103">SOrRestriction</span><span class="sxs-lookup"><span data-stu-id="47101-103">SOrRestriction</span></span>
+# <a name="sorrestriction"></a><span data-ttu-id="b16c2-103">SOrRestriction</span><span class="sxs-lookup"><span data-stu-id="b16c2-103">SOrRestriction</span></span>
 
   
   
-<span data-ttu-id="47101-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="47101-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b16c2-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b16c2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="47101-105">描述用于对限制应用逻辑**OR**操作的**或**限制。</span><span class="sxs-lookup"><span data-stu-id="47101-105">Describes an **OR** restriction which is used to apply a logical **OR** operation to a restriction.</span></span> 
+<span data-ttu-id="b16c2-105">描述用于将逻辑 **OR** 操作应用于限制的 **OR** 限制。</span><span class="sxs-lookup"><span data-stu-id="b16c2-105">Describes an **OR** restriction which is used to apply a logical **OR** operation to a restriction.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="47101-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="47101-106">Header file:</span></span>  <br/> |<span data-ttu-id="47101-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="47101-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="b16c2-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="b16c2-106">Header file:</span></span>  <br/> |<span data-ttu-id="b16c2-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b16c2-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SOrRestriction
@@ -40,26 +40,26 @@ typedef struct _SOrRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="47101-108">Members</span><span class="sxs-lookup"><span data-stu-id="47101-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="b16c2-108">Members</span><span class="sxs-lookup"><span data-stu-id="b16c2-108">Members</span></span>
 
- <span data-ttu-id="47101-109">**cRes**</span><span class="sxs-lookup"><span data-stu-id="47101-109">**cRes**</span></span>
+ <span data-ttu-id="b16c2-109">**cRes**</span><span class="sxs-lookup"><span data-stu-id="b16c2-109">**cRes**</span></span>
   
-> <span data-ttu-id="47101-110">由**lpRes**成员指向的数组中的结构计数。</span><span class="sxs-lookup"><span data-stu-id="47101-110">Count of structures in the array pointed to by the **lpRes** member.</span></span> 
+> <span data-ttu-id="b16c2-110">**lpRes** 成员指向的数组中的结构计数。</span><span class="sxs-lookup"><span data-stu-id="b16c2-110">Count of structures in the array pointed to by the **lpRes** member.</span></span> 
     
- <span data-ttu-id="47101-111">**lpRes**</span><span class="sxs-lookup"><span data-stu-id="47101-111">**lpRes**</span></span>
+ <span data-ttu-id="b16c2-111">**lpRes**</span><span class="sxs-lookup"><span data-stu-id="b16c2-111">**lpRes**</span></span>
   
-> <span data-ttu-id="47101-112">指向描述要使用逻辑**OR**操作联接的限制的[SRestriction](srestriction.md)结构的指针。</span><span class="sxs-lookup"><span data-stu-id="47101-112">Pointer to the [SRestriction](srestriction.md) structure describing the restriction to be joined using the logical **OR** operation.</span></span> 
+> <span data-ttu-id="b16c2-112">指向描述使用逻辑 **OR** 操作进行联接的限制的 [SRestriction](srestriction.md)结构的指针。</span><span class="sxs-lookup"><span data-stu-id="b16c2-112">Pointer to the [SRestriction](srestriction.md) structure describing the restriction to be joined using the logical **OR** operation.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="47101-113">说明</span><span class="sxs-lookup"><span data-stu-id="47101-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b16c2-113">备注</span><span class="sxs-lookup"><span data-stu-id="b16c2-113">Remarks</span></span>
 
-<span data-ttu-id="47101-114">有关**SOrRestriction**结构的详细信息, 请参阅[关于限制](about-restrictions.md)。</span><span class="sxs-lookup"><span data-stu-id="47101-114">For more information about the **SOrRestriction** structure, see [About Restrictions](about-restrictions.md).</span></span> 
+<span data-ttu-id="b16c2-114">有关 **SOrRestriction** 结构详细信息，请参阅关于 [限制](about-restrictions.md)。</span><span class="sxs-lookup"><span data-stu-id="b16c2-114">For more information about the **SOrRestriction** structure, see [About Restrictions](about-restrictions.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="47101-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="47101-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b16c2-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b16c2-115">See also</span></span>
 
 
 
-[<span data-ttu-id="47101-116">SRestriction</span><span class="sxs-lookup"><span data-stu-id="47101-116">SRestriction</span></span>](srestriction.md)
+[<span data-ttu-id="b16c2-116">SRestriction</span><span class="sxs-lookup"><span data-stu-id="b16c2-116">SRestriction</span></span>](srestriction.md)
 
 
-[<span data-ttu-id="47101-117">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="47101-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="b16c2-117">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="b16c2-117">MAPI Structures</span></span>](mapi-structures.md)
 

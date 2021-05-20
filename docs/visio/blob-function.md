@@ -16,18 +16,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438223"
 ---
-# <a name="blob-function"></a><span data-ttu-id="164b1-103">BLOB 函数</span><span class="sxs-lookup"><span data-stu-id="164b1-103">BLOB Function</span></span>
+# <a name="blob-function"></a><span data-ttu-id="6cb49-103">BLOB 函数</span><span class="sxs-lookup"><span data-stu-id="6cb49-103">BLOB Function</span></span>
 
-<span data-ttu-id="164b1-104">对 base64 字符串进行解码，并将其存储为二进制数据。</span><span class="sxs-lookup"><span data-stu-id="164b1-104">Decodes a base64 string and stores it as binary data.</span></span> 
+<span data-ttu-id="6cb49-104">对 base64 字符串进行解码，并将其存储为二进制数据。</span><span class="sxs-lookup"><span data-stu-id="6cb49-104">Decodes a base64 string and stores it as binary data.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="164b1-105">语法</span><span class="sxs-lookup"><span data-stu-id="164b1-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6cb49-105">语法</span><span class="sxs-lookup"><span data-stu-id="6cb49-105">Syntax</span></span>
 
-<span data-ttu-id="164b1-106">BLOB (\* \* *bintext* \* \*)</span><span class="sxs-lookup"><span data-stu-id="164b1-106">BLOB (\*\* *bintext* \*\* )</span></span> 
+<span data-ttu-id="6cb49-106">BLOB (\*\* *bintext* \*\* ) </span><span class="sxs-lookup"><span data-stu-id="6cb49-106">BLOB (\*\* *bintext* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="164b1-107">参数</span><span class="sxs-lookup"><span data-stu-id="164b1-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="6cb49-107">参数</span><span class="sxs-lookup"><span data-stu-id="6cb49-107">Parameters</span></span>
 
-|<span data-ttu-id="164b1-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="164b1-108">**Name**</span></span>|<span data-ttu-id="164b1-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="164b1-109">**Required/Optional**</span></span>|<span data-ttu-id="164b1-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="164b1-110">**Data Type**</span></span>|<span data-ttu-id="164b1-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="164b1-111">**Description**</span></span>|
+|<span data-ttu-id="6cb49-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="6cb49-108">**Name**</span></span>|<span data-ttu-id="6cb49-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="6cb49-109">**Required/Optional**</span></span>|<span data-ttu-id="6cb49-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="6cb49-110">**Data Type**</span></span>|<span data-ttu-id="6cb49-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="6cb49-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="164b1-112">_bintext_</span><span class="sxs-lookup"><span data-stu-id="164b1-112">_bintext_</span></span> <br/> |<span data-ttu-id="164b1-113">必需</span><span class="sxs-lookup"><span data-stu-id="164b1-113">Required</span></span>  <br/> |<span data-ttu-id="164b1-114">**String**</span><span class="sxs-lookup"><span data-stu-id="164b1-114">**String**</span></span> <br/> | <span data-ttu-id="164b1-115">一个以 base64 编码的字符串。</span><span class="sxs-lookup"><span data-stu-id="164b1-115">A base64 encoded string.</span></span>  <br/> |
+| <span data-ttu-id="6cb49-112">_bintext_</span><span class="sxs-lookup"><span data-stu-id="6cb49-112">_bintext_</span></span> <br/> |<span data-ttu-id="6cb49-113">必需</span><span class="sxs-lookup"><span data-stu-id="6cb49-113">Required</span></span>  <br/> |<span data-ttu-id="6cb49-114">**String**</span><span class="sxs-lookup"><span data-stu-id="6cb49-114">**String**</span></span> <br/> | <span data-ttu-id="6cb49-115">一个以 base64 编码的字符串。</span><span class="sxs-lookup"><span data-stu-id="6cb49-115">A base64 encoded string.</span></span>  <br/> |
    
 

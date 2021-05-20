@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436796"
 ---
-# <a name="updel"></a><span data-ttu-id="97bbc-103">UPDEL</span><span class="sxs-lookup"><span data-stu-id="97bbc-103">UPDEL</span></span>
+# <a name="updel"></a><span data-ttu-id="78ad4-103">UPDEL</span><span class="sxs-lookup"><span data-stu-id="78ad4-103">UPDEL</span></span>
 
   
   
-<span data-ttu-id="97bbc-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="97bbc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="78ad4-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="78ad4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="97bbc-105">已在本地存储区中删除的项目的信息。</span><span class="sxs-lookup"><span data-stu-id="97bbc-105">Information for items that have been deleted in a local store.</span></span> <span data-ttu-id="97bbc-106">此信息在[上载删除状态状态](upload-delete-status-state.md)期间使用。</span><span class="sxs-lookup"><span data-stu-id="97bbc-106">This information is used during the [upload delete status state](upload-delete-status-state.md).</span></span>
+<span data-ttu-id="78ad4-105">本地存储中已删除的项目的信息。</span><span class="sxs-lookup"><span data-stu-id="78ad4-105">Information for items that have been deleted in a local store.</span></span> <span data-ttu-id="78ad4-106">此信息在上载删除 [状态期间使用](upload-delete-status-state.md)。</span><span class="sxs-lookup"><span data-stu-id="78ad4-106">This information is used during the [upload delete status state](upload-delete-status-state.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="97bbc-107">快速信息</span><span class="sxs-lookup"><span data-stu-id="97bbc-107">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="78ad4-107">快速信息</span><span class="sxs-lookup"><span data-stu-id="78ad4-107">Quick info</span></span>
 
 ```cpp
 struct UPDEL 
@@ -33,23 +33,23 @@ struct UPDEL
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="97bbc-108">成员</span><span class="sxs-lookup"><span data-stu-id="97bbc-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="78ad4-108">成员</span><span class="sxs-lookup"><span data-stu-id="78ad4-108">Members</span></span>
 
- <span data-ttu-id="97bbc-109">_pupde_</span><span class="sxs-lookup"><span data-stu-id="97bbc-109">_pupde_</span></span>
+ <span data-ttu-id="78ad4-109">_pupde_</span><span class="sxs-lookup"><span data-stu-id="78ad4-109">_pupde_</span></span>
   
->  <span data-ttu-id="97bbc-110">排除[UPDELE](updele.md)条目的矢量。</span><span class="sxs-lookup"><span data-stu-id="97bbc-110">[out] Vector of [UPDELE](updele.md) entries.</span></span> 
+>  <span data-ttu-id="78ad4-110">[out] [UPDELE 条目](updele.md) 的矢量。</span><span class="sxs-lookup"><span data-stu-id="78ad4-110">[out] Vector of [UPDELE](updele.md) entries.</span></span> 
     
- <span data-ttu-id="97bbc-111">_分币_</span><span class="sxs-lookup"><span data-stu-id="97bbc-111">_cEnt_</span></span>
+ <span data-ttu-id="78ad4-111">_cEnt_</span><span class="sxs-lookup"><span data-stu-id="78ad4-111">_cEnt_</span></span>
   
-> <span data-ttu-id="97bbc-112">排除*pupde*中的条目数。</span><span class="sxs-lookup"><span data-stu-id="97bbc-112">[out] Number of entries in  *pupde*  .</span></span> 
+> <span data-ttu-id="78ad4-112">[out]  *pupde 中的条目数*  。</span><span class="sxs-lookup"><span data-stu-id="78ad4-112">[out] Number of entries in  *pupde*  .</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="97bbc-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="97bbc-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="78ad4-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="78ad4-113">See also</span></span>
 
 
 
-[<span data-ttu-id="97bbc-114">关于复制 API</span><span class="sxs-lookup"><span data-stu-id="97bbc-114">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="78ad4-114">关于复制 API</span><span class="sxs-lookup"><span data-stu-id="78ad4-114">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="97bbc-115">关于复制状态机</span><span class="sxs-lookup"><span data-stu-id="97bbc-115">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="78ad4-115">关于复制状态机</span><span class="sxs-lookup"><span data-stu-id="78ad4-115">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="97bbc-116">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="97bbc-116">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="78ad4-116">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="78ad4-116">MAPI Constants</span></span>](mapi-constants.md)
 

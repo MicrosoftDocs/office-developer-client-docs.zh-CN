@@ -16,12 +16,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436634"
 ---
-# <a name="open-each-shapesheet-in-the-same-window"></a><span data-ttu-id="0b61d-102">在同一窗口中打开每个 ShapeSheet</span><span class="sxs-lookup"><span data-stu-id="0b61d-102">Open Each ShapeSheet in the Same Window</span></span>
+# <a name="open-each-shapesheet-in-the-same-window"></a><span data-ttu-id="b804a-102">在同一窗口中打开每个 ShapeSheet</span><span class="sxs-lookup"><span data-stu-id="b804a-102">Open Each ShapeSheet in the Same Window</span></span>
 
-1. <span data-ttu-id="0b61d-103">依次单击 "**文件**" 选项卡、"**选项**" 和 "**高级**"。</span><span class="sxs-lookup"><span data-stu-id="0b61d-103">Click the **File** tab, click **Options**, and then click **Advanced**.</span></span>
+1. <span data-ttu-id="b804a-103">单击"**文件"** 选项卡，单击 **"选项**"，然后单击"**高级"。**</span><span class="sxs-lookup"><span data-stu-id="b804a-103">Click the **File** tab, click **Options**, and then click **Advanced**.</span></span>
     
-2. <span data-ttu-id="0b61d-104">在 **“常规”** 下，选择 **“在同一窗口中打开每一 ShapeSheet”**。</span><span class="sxs-lookup"><span data-stu-id="0b61d-104">Under **General**, select **Open each ShapeSheet in the same window**.</span></span>
+2. <span data-ttu-id="b804a-104">在 **“常规”** 下，选择 **“在同一窗口中打开每一 ShapeSheet”**。</span><span class="sxs-lookup"><span data-stu-id="b804a-104">Under **General**, select **Open each ShapeSheet in the same window**.</span></span>
     
-3. <span data-ttu-id="0b61d-105">单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0b61d-105">Click **OK**.</span></span> 
+3. <span data-ttu-id="b804a-105">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b804a-105">Click **OK**.</span></span> 
     
 

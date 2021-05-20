@@ -19,17 +19,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438846"
 ---
-# <a name="dtblddlbx"></a><span data-ttu-id="a46aa-103">DTBLDDLBX</span><span class="sxs-lookup"><span data-stu-id="a46aa-103">DTBLDDLBX</span></span>
+# <a name="dtblddlbx"></a><span data-ttu-id="17734-103">DTBLDDLBX</span><span class="sxs-lookup"><span data-stu-id="17734-103">DTBLDDLBX</span></span>
 
   
   
-<span data-ttu-id="a46aa-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a46aa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="17734-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="17734-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a46aa-105">介绍将在从显示表生成的对话框中使用的下拉列表控件。</span><span class="sxs-lookup"><span data-stu-id="a46aa-105">Describes a drop-down list control that will be used in a dialog box built from a display table.</span></span>
+<span data-ttu-id="17734-105">描述将在从显示表构建的对话框中使用的下拉列表控件。</span><span class="sxs-lookup"><span data-stu-id="17734-105">Describes a drop-down list control that will be used in a dialog box built from a display table.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="a46aa-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="a46aa-106">Header file:</span></span>  <br/> |<span data-ttu-id="a46aa-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="a46aa-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="17734-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="17734-106">Header file:</span></span>  <br/> |<span data-ttu-id="17734-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="17734-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _DTBLDDLBX
@@ -42,54 +42,54 @@ typedef struct _DTBLDDLBX
 
 ```
 
-## <a name="members"></a><span data-ttu-id="a46aa-108">成员</span><span class="sxs-lookup"><span data-stu-id="a46aa-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="17734-108">成员</span><span class="sxs-lookup"><span data-stu-id="17734-108">Members</span></span>
 
- <span data-ttu-id="a46aa-109">**ulFlags**</span><span class="sxs-lookup"><span data-stu-id="a46aa-109">**ulFlags**</span></span>
+ <span data-ttu-id="17734-109">**ulFlags**</span><span class="sxs-lookup"><span data-stu-id="17734-109">**ulFlags**</span></span>
   
-> <span data-ttu-id="a46aa-110">保留, 必须为零。</span><span class="sxs-lookup"><span data-stu-id="a46aa-110">Reserved, must be zero.</span></span> 
+> <span data-ttu-id="17734-110">保留，必须为零。</span><span class="sxs-lookup"><span data-stu-id="17734-110">Reserved, must be zero.</span></span> 
     
- <span data-ttu-id="a46aa-111">**ulPRDisplayProperty**</span><span class="sxs-lookup"><span data-stu-id="a46aa-111">**ulPRDisplayProperty**</span></span>
+ <span data-ttu-id="17734-111">**ulPRDisplayProperty**</span><span class="sxs-lookup"><span data-stu-id="17734-111">**ulPRDisplayProperty**</span></span>
   
-> <span data-ttu-id="a46aa-112">类型为 PT_TSTRING 的属性的属性标记。</span><span class="sxs-lookup"><span data-stu-id="a46aa-112">Property tag for a property of type PT_TSTRING.</span></span> <span data-ttu-id="a46aa-113">此属性是由**ulPRTableName**成员标识的表中的一列。</span><span class="sxs-lookup"><span data-stu-id="a46aa-113">This property is one of the columns in the table identified by the **ulPRTableName** member.</span></span> <span data-ttu-id="a46aa-114">此属性的值将显示在列表中。</span><span class="sxs-lookup"><span data-stu-id="a46aa-114">The values for this property are displayed in the list.</span></span> 
+> <span data-ttu-id="17734-112">类型为 PT_TSTRING 的属性PT_TSTRING。</span><span class="sxs-lookup"><span data-stu-id="17734-112">Property tag for a property of type PT_TSTRING.</span></span> <span data-ttu-id="17734-113">此属性是由 **ulPRTableName** 成员标识的表中的列之一。</span><span class="sxs-lookup"><span data-stu-id="17734-113">This property is one of the columns in the table identified by the **ulPRTableName** member.</span></span> <span data-ttu-id="17734-114">此属性的值显示在列表中。</span><span class="sxs-lookup"><span data-stu-id="17734-114">The values for this property are displayed in the list.</span></span> 
     
- <span data-ttu-id="a46aa-115">**ulPRSetProperty**</span><span class="sxs-lookup"><span data-stu-id="a46aa-115">**ulPRSetProperty**</span></span>
+ <span data-ttu-id="17734-115">**ulPRSetProperty**</span><span class="sxs-lookup"><span data-stu-id="17734-115">**ulPRSetProperty**</span></span>
   
-> <span data-ttu-id="a46aa-116">任何类型的属性的属性标记。</span><span class="sxs-lookup"><span data-stu-id="a46aa-116">Property tag for a property of any type.</span></span> <span data-ttu-id="a46aa-117">此属性是由**ulPRTableName**成员标识的表中的一列。</span><span class="sxs-lookup"><span data-stu-id="a46aa-117">This property is one of the columns in the table identified by the **ulPRTableName** member.</span></span> <span data-ttu-id="a46aa-118">当列表的用户从**ulPRTableName**成员所标识的表的行中选择**ulPRDisplayProperty**成员的属性值时, 将设置相应的**ulPRSetProperty**成员。</span><span class="sxs-lookup"><span data-stu-id="a46aa-118">When the user of the list selects a property value for the **ulPRDisplayProperty** member from the rows of the table identified by the **ulPRTableName** member, the corresponding **ulPRSetProperty** member is set.</span></span> 
+> <span data-ttu-id="17734-116">任何类型的属性的属性标记。</span><span class="sxs-lookup"><span data-stu-id="17734-116">Property tag for a property of any type.</span></span> <span data-ttu-id="17734-117">此属性是由 **ulPRTableName** 成员标识的表中的列之一。</span><span class="sxs-lookup"><span data-stu-id="17734-117">This property is one of the columns in the table identified by the **ulPRTableName** member.</span></span> <span data-ttu-id="17734-118">当列表的用户从 **ulPRTableName** 成员标识的表中选择 **ulPRDisplayProperty** 成员属性值时，将设置相应的 **ulPRSetProperty** 成员。</span><span class="sxs-lookup"><span data-stu-id="17734-118">When the user of the list selects a property value for the **ulPRDisplayProperty** member from the rows of the table identified by the **ulPRTableName** member, the corresponding **ulPRSetProperty** member is set.</span></span> 
     
- <span data-ttu-id="a46aa-119">**ulPRTableName**</span><span class="sxs-lookup"><span data-stu-id="a46aa-119">**ulPRTableName**</span></span>
+ <span data-ttu-id="17734-119">**ulPRTableName**</span><span class="sxs-lookup"><span data-stu-id="17734-119">**ulPRTableName**</span></span>
   
-> <span data-ttu-id="a46aa-120">可以使用**OpenProperty**调用打开的 PT_OBJECT 类型的 table 属性的属性标记。</span><span class="sxs-lookup"><span data-stu-id="a46aa-120">Property tag for a table property of type PT_OBJECT that can be opened by using an **OpenProperty** call.</span></span> <span data-ttu-id="a46aa-121">该表应具有两列: **ulPRDisplayProperty**和**ulPRSetProperty**。</span><span class="sxs-lookup"><span data-stu-id="a46aa-121">The table should have two columns: **ulPRDisplayProperty** and **ulPRSetProperty**.</span></span> <span data-ttu-id="a46aa-122">表中的行应与列表中的项相对应。</span><span class="sxs-lookup"><span data-stu-id="a46aa-122">The rows of the table should correspond to items in the list.</span></span>
+> <span data-ttu-id="17734-120">表类型属性的属性标记PT_OBJECT **OpenProperty** 调用打开的表属性。</span><span class="sxs-lookup"><span data-stu-id="17734-120">Property tag for a table property of type PT_OBJECT that can be opened by using an **OpenProperty** call.</span></span> <span data-ttu-id="17734-121">该表应包含两列 **：ulPRDisplayProperty 和** **ulPRSetProperty**。</span><span class="sxs-lookup"><span data-stu-id="17734-121">The table should have two columns: **ulPRDisplayProperty** and **ulPRSetProperty**.</span></span> <span data-ttu-id="17734-122">表格的行应与列表中的项相对应。</span><span class="sxs-lookup"><span data-stu-id="17734-122">The rows of the table should correspond to items in the list.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="a46aa-123">说明</span><span class="sxs-lookup"><span data-stu-id="a46aa-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="17734-123">备注</span><span class="sxs-lookup"><span data-stu-id="17734-123">Remarks</span></span>
 
-<span data-ttu-id="a46aa-124">**DTBLDDLBX**结构描述了一个下拉列表控件, 该控件显示为单个项目, 直到用户将其展开。</span><span class="sxs-lookup"><span data-stu-id="a46aa-124">A **DTBLDDLBX** structure describes a drop-down list control that is displayed as a single item until the user elects to expand it.</span></span> 
+<span data-ttu-id="17734-124">**DTBLDDLBX** 结构描述作为单个项目显示的下拉列表控件，直到用户选择展开它。</span><span class="sxs-lookup"><span data-stu-id="17734-124">A **DTBLDDLBX** structure describes a drop-down list control that is displayed as a single item until the user elects to expand it.</span></span> 
   
-<span data-ttu-id="a46aa-125">由属性标记标识的三个属性一起使用, 以显示列表中的信息并设置一个相关的属性。</span><span class="sxs-lookup"><span data-stu-id="a46aa-125">The three properties identified by the property tags work together to display the information in the list and set a related property.</span></span> <span data-ttu-id="a46aa-126">**ulPRTableName**成员是通过调用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)访问的 table 对象。</span><span class="sxs-lookup"><span data-stu-id="a46aa-126">The **ulPRTableName** member is a table object that is accessed through a call to [IMAPIProp::OpenProperty](imapiprop-openproperty.md).</span></span> <span data-ttu-id="a46aa-127">表包含两列: 由**ulPRDisplayProperty**成员标识的属性的一个列, 另一个为**ulPRSetProperty**成员标识的属性的列。</span><span class="sxs-lookup"><span data-stu-id="a46aa-127">The table has two columns: one column for the property identified by the **ulPRDisplayProperty** member and the other for the property identified by the **ulPRSetProperty** member.</span></span> 
+<span data-ttu-id="17734-125">属性标记标识的三个属性协同工作，以显示列表中的信息并设置相关属性。</span><span class="sxs-lookup"><span data-stu-id="17734-125">The three properties identified by the property tags work together to display the information in the list and set a related property.</span></span> <span data-ttu-id="17734-126">**ulPRTableName** 成员是通过调用 [IMAPIProp：：OpenProperty 来访问的表对象](imapiprop-openproperty.md)。</span><span class="sxs-lookup"><span data-stu-id="17734-126">The **ulPRTableName** member is a table object that is accessed through a call to [IMAPIProp::OpenProperty](imapiprop-openproperty.md).</span></span> <span data-ttu-id="17734-127">该表包含两列：一列用于 **ulPRDisplayProperty** 成员标识的属性，另一列用于 **ulPRSetProperty** 成员标识的属性。</span><span class="sxs-lookup"><span data-stu-id="17734-127">The table has two columns: one column for the property identified by the **ulPRDisplayProperty** member and the other for the property identified by the **ulPRSetProperty** member.</span></span> 
   
-<span data-ttu-id="a46aa-128">**ulPRDisplayProperty**属性驱动列表显示。</span><span class="sxs-lookup"><span data-stu-id="a46aa-128">The **ulPRDisplayProperty** property drives the list display.</span></span> <span data-ttu-id="a46aa-129">当用户从显示中选择一个值时, MAPI 调用[IMAPIProp:: SetProps](imapiprop-setprops.md)以设置**ulPRSetProperty**成员标识的相应属性。</span><span class="sxs-lookup"><span data-stu-id="a46aa-129">When a user selects one of the values from the display, MAPI calls [IMAPIProp::SetProps](imapiprop-setprops.md) to set the corresponding property as identified by the **ulPRSetProperty** member.</span></span> <span data-ttu-id="a46aa-130">这意味着与选定的显示属性位于同一行中的属性。</span><span class="sxs-lookup"><span data-stu-id="a46aa-130">This means that the property in the same row as the selected display property.</span></span> <span data-ttu-id="a46aa-131">**ulPRSetProperty**成员不能设置为**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md))。</span><span class="sxs-lookup"><span data-stu-id="a46aa-131">The **ulPRSetProperty** member cannot be set to **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).</span></span>
+<span data-ttu-id="17734-128">**ulPRDisplayProperty** 属性驱动列表显示。</span><span class="sxs-lookup"><span data-stu-id="17734-128">The **ulPRDisplayProperty** property drives the list display.</span></span> <span data-ttu-id="17734-129">当用户从显示器中选择一个值时，MAPI 将调用 [IMAPIProp：：SetProps](imapiprop-setprops.md) 以设置 **由 ulPRSetProperty** 成员标识的相应属性。</span><span class="sxs-lookup"><span data-stu-id="17734-129">When a user selects one of the values from the display, MAPI calls [IMAPIProp::SetProps](imapiprop-setprops.md) to set the corresponding property as identified by the **ulPRSetProperty** member.</span></span> <span data-ttu-id="17734-130">这意味着属性与所选显示属性在同一行中。</span><span class="sxs-lookup"><span data-stu-id="17734-130">This means that the property in the same row as the selected display property.</span></span> <span data-ttu-id="17734-131">不能 **将 ulPRSetProperty** 成员设置为PR_NULL ([PidTagNull](pidtagnull-canonical-property.md)) 。</span><span class="sxs-lookup"><span data-stu-id="17734-131">The **ulPRSetProperty** member cannot be set to **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).</span></span>
   
-<span data-ttu-id="a46aa-132">如果 MAPI 已通过调用[IMAPIProp:: GetProps](imapiprop-getprops.md)检索**ulPRSetProperty**成员代表的属性, 并在表中找到包含**ulPRSetProperty**成员值的行, 则会在列表中显示一个初始值。</span><span class="sxs-lookup"><span data-stu-id="a46aa-132">An initial value is displayed in the list if MAPI has retrieved the property represented by the **ulPRSetProperty** member through a call to [IMAPIProp::GetProps](imapiprop-getprops.md) and located a row in the table with the value for the **ulPRSetProperty** member.</span></span> <span data-ttu-id="a46aa-133">最初显示的值是**ulPRDisplayProperty**列中与该结构的**ulPRDisplayProperty**成员中的属性相匹配的内容。</span><span class="sxs-lookup"><span data-stu-id="a46aa-133">The initial displayed value is the contents of the **ulPRDisplayProperty** column from that row that matches the property in the **ulPRDisplayProperty** member of the structure.</span></span> <span data-ttu-id="a46aa-134">由**ulPRDisplayProperty**成员标识的属性的**GetProps**返回的值成为首次显示列表时显示的初始值。</span><span class="sxs-lookup"><span data-stu-id="a46aa-134">The value returned by **GetProps** for the property identified by the **ulPRDisplayProperty** member becomes the initial value that is shown when the list is first displayed.</span></span> 
+<span data-ttu-id="17734-132">如果 MAPI 已通过调用 [IMAPIProp：：GetProps](imapiprop-getprops.md)检索 **了 ulPRSetProperty** 成员所代表的属性，并且找到表中具有 **ulPRSetProperty** 成员值的行，则列表中将显示初始值。</span><span class="sxs-lookup"><span data-stu-id="17734-132">An initial value is displayed in the list if MAPI has retrieved the property represented by the **ulPRSetProperty** member through a call to [IMAPIProp::GetProps](imapiprop-getprops.md) and located a row in the table with the value for the **ulPRSetProperty** member.</span></span> <span data-ttu-id="17734-133">初始显示的值是该行中 **ulPRDisplayProperty** 列的内容，该列与结构的 **ulPRDisplayProperty** 成员中的属性匹配。</span><span class="sxs-lookup"><span data-stu-id="17734-133">The initial displayed value is the contents of the **ulPRDisplayProperty** column from that row that matches the property in the **ulPRDisplayProperty** member of the structure.</span></span> <span data-ttu-id="17734-134">**GetProps** 为 **ulPRDisplayProperty** 成员标识的属性返回的值将成为首次显示列表时显示的初始值。</span><span class="sxs-lookup"><span data-stu-id="17734-134">The value returned by **GetProps** for the property identified by the **ulPRDisplayProperty** member becomes the initial value that is shown when the list is first displayed.</span></span> 
   
-<span data-ttu-id="a46aa-135">有关显示表的概述, 请参阅[显示表](display-tables.md)。</span><span class="sxs-lookup"><span data-stu-id="a46aa-135">For an overview of display tables, see [Display Tables](display-tables.md).</span></span> <span data-ttu-id="a46aa-136">有关如何实现显示表的信息, 请参阅[实现显示表](display-table-implementation.md)。</span><span class="sxs-lookup"><span data-stu-id="a46aa-136">For information about how to implement a display table, see [Implementing a Display Table](display-table-implementation.md).</span></span> <span data-ttu-id="a46aa-137">有关属性类型的信息, 请参阅[MAPI 属性类型概述](mapi-property-type-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="a46aa-137">For information about property types, see [MAPI Property Type Overview](mapi-property-type-overview.md).</span></span>
+<span data-ttu-id="17734-135">有关显示表的概述，请参阅显示 [表](display-tables.md)。</span><span class="sxs-lookup"><span data-stu-id="17734-135">For an overview of display tables, see [Display Tables](display-tables.md).</span></span> <span data-ttu-id="17734-136">若要了解如何实现显示表，请参阅 [实现显示表](display-table-implementation.md)。</span><span class="sxs-lookup"><span data-stu-id="17734-136">For information about how to implement a display table, see [Implementing a Display Table](display-table-implementation.md).</span></span> <span data-ttu-id="17734-137">有关属性类型的信息，请参阅 [MAPI 属性类型概述](mapi-property-type-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="17734-137">For information about property types, see [MAPI Property Type Overview](mapi-property-type-overview.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="a46aa-138">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a46aa-138">See also</span></span>
-
-
-
-[<span data-ttu-id="a46aa-139">DTCTL</span><span class="sxs-lookup"><span data-stu-id="a46aa-139">DTCTL</span></span>](dtctl.md)
-  
-[<span data-ttu-id="a46aa-140">IMAPIProp::OpenProperty</span><span class="sxs-lookup"><span data-stu-id="a46aa-140">IMAPIProp::OpenProperty</span></span>](imapiprop-openproperty.md)
-  
-[<span data-ttu-id="a46aa-141">IMAPIProp::SetProps</span><span class="sxs-lookup"><span data-stu-id="a46aa-141">IMAPIProp::SetProps</span></span>](imapiprop-setprops.md)
-  
-[<span data-ttu-id="a46aa-142">IMAPIProp::GetProps</span><span class="sxs-lookup"><span data-stu-id="a46aa-142">IMAPIProp::GetProps</span></span>](imapiprop-getprops.md)
+## <a name="see-also"></a><span data-ttu-id="17734-138">另请参阅</span><span class="sxs-lookup"><span data-stu-id="17734-138">See also</span></span>
 
 
-[<span data-ttu-id="a46aa-143">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="a46aa-143">MAPI Structures</span></span>](mapi-structures.md)
+
+[<span data-ttu-id="17734-139">DTCTL</span><span class="sxs-lookup"><span data-stu-id="17734-139">DTCTL</span></span>](dtctl.md)
   
-[<span data-ttu-id="a46aa-144">显示表实现</span><span class="sxs-lookup"><span data-stu-id="a46aa-144">Display Table Implementation</span></span>](display-table-implementation.md)
+[<span data-ttu-id="17734-140">IMAPIProp::OpenProperty</span><span class="sxs-lookup"><span data-stu-id="17734-140">IMAPIProp::OpenProperty</span></span>](imapiprop-openproperty.md)
   
-[<span data-ttu-id="a46aa-145">显示表</span><span class="sxs-lookup"><span data-stu-id="a46aa-145">Display Tables</span></span>](display-tables.md)
+[<span data-ttu-id="17734-141">IMAPIProp::SetProps</span><span class="sxs-lookup"><span data-stu-id="17734-141">IMAPIProp::SetProps</span></span>](imapiprop-setprops.md)
   
-[<span data-ttu-id="a46aa-146">MAPI 属性类型概述</span><span class="sxs-lookup"><span data-stu-id="a46aa-146">MAPI Property Type Overview</span></span>](mapi-property-type-overview.md)
+[<span data-ttu-id="17734-142">IMAPIProp::GetProps</span><span class="sxs-lookup"><span data-stu-id="17734-142">IMAPIProp::GetProps</span></span>](imapiprop-getprops.md)
+
+
+[<span data-ttu-id="17734-143">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="17734-143">MAPI Structures</span></span>](mapi-structures.md)
+  
+[<span data-ttu-id="17734-144">显示表实现</span><span class="sxs-lookup"><span data-stu-id="17734-144">Display Table Implementation</span></span>](display-table-implementation.md)
+  
+[<span data-ttu-id="17734-145">显示表</span><span class="sxs-lookup"><span data-stu-id="17734-145">Display Tables</span></span>](display-tables.md)
+  
+[<span data-ttu-id="17734-146">MAPI 属性类型概述</span><span class="sxs-lookup"><span data-stu-id="17734-146">MAPI Property Type Overview</span></span>](mapi-property-type-overview.md)
 

@@ -1,5 +1,5 @@
 ---
-title: SplineStart_Type 复杂类型 (Visio XML)
+title: 'SplineStart_Type COMPLEXType (Visio XML) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541384"
 ---
-# <a name="splinestarttype-complextype-visio-xml"></a><span data-ttu-id="65669-102">SplineStart_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="65669-102">SplineStart_Type complexType (Visio XML)</span></span>
+# <a name="splinestart_type-complextype-visio-xml"></a><span data-ttu-id="cb0d1-102">SplineStart_Type COMPLEXType (Visio XML) </span><span class="sxs-lookup"><span data-stu-id="cb0d1-102">SplineStart_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="65669-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="65669-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="cb0d1-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="cb0d1-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="65669-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="65669-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="65669-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="65669-105">**Schema file**</span></span> <br/> |<span data-ttu-id="65669-106">VisioSchema15-2012-06-05</span><span class="sxs-lookup"><span data-stu-id="65669-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="65669-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="65669-107">**Extension base**</span></span> <br/> |<span data-ttu-id="65669-108">GeometryRow_Type</span><span class="sxs-lookup"><span data-stu-id="65669-108">GeometryRow_Type</span></span>  <br/> |
+|<span data-ttu-id="cb0d1-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="cb0d1-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="cb0d1-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="cb0d1-105">**Schema file**</span></span> <br/> |<span data-ttu-id="cb0d1-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="cb0d1-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="cb0d1-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="cb0d1-107">**Extension base**</span></span> <br/> |<span data-ttu-id="cb0d1-108">GeometryRow_Type</span><span class="sxs-lookup"><span data-stu-id="cb0d1-108">GeometryRow_Type</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="65669-109">定义</span><span class="sxs-lookup"><span data-stu-id="65669-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="cb0d1-109">定义</span><span class="sxs-lookup"><span data-stu-id="cb0d1-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="SplineStart_Type">
@@ -44,18 +44,18 @@ ms.locfileid: "34541384"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="65669-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="65669-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="cb0d1-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="cb0d1-110">Elements and attributes</span></span>
 
-<span data-ttu-id="65669-111">如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。</span><span class="sxs-lookup"><span data-stu-id="65669-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="cb0d1-111">如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="cb0d1-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="65669-112">子元素</span><span class="sxs-lookup"><span data-stu-id="65669-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="cb0d1-112">子元素</span><span class="sxs-lookup"><span data-stu-id="cb0d1-112">Child elements</span></span>
 
-|<span data-ttu-id="65669-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="65669-113">**Element**</span></span>|<span data-ttu-id="65669-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="65669-114">**Type**</span></span>|<span data-ttu-id="65669-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="65669-115">**Description**</span></span>|
+|<span data-ttu-id="cb0d1-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="cb0d1-113">**Element**</span></span>|<span data-ttu-id="cb0d1-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="cb0d1-114">**Type**</span></span>|<span data-ttu-id="cb0d1-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="cb0d1-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="65669-116">Cell</span><span class="sxs-lookup"><span data-stu-id="65669-116">Cell</span></span>](cell-element-splinestart-rowvisio-xml.md) <br/> |[<span data-ttu-id="65669-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="65669-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="cb0d1-116">Cell</span><span class="sxs-lookup"><span data-stu-id="cb0d1-116">Cell</span></span>](cell-element-splinestart-rowvisio-xml.md) <br/> |[<span data-ttu-id="cb0d1-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="cb0d1-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="65669-118">Attributes</span><span class="sxs-lookup"><span data-stu-id="65669-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="cb0d1-118">Attributes</span><span class="sxs-lookup"><span data-stu-id="cb0d1-118">Attributes</span></span>
 
-<span data-ttu-id="65669-119">无。</span><span class="sxs-lookup"><span data-stu-id="65669-119">None.</span></span>
+<span data-ttu-id="cb0d1-119">无。</span><span class="sxs-lookup"><span data-stu-id="cb0d1-119">None.</span></span>
   
 

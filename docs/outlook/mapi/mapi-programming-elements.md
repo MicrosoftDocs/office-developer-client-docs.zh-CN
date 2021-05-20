@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439315"
 ---
-# <a name="mapi-programming-elements"></a><span data-ttu-id="2de3f-103">MAPI 编程元素</span><span class="sxs-lookup"><span data-stu-id="2de3f-103">MAPI programming elements</span></span>
+# <a name="mapi-programming-elements"></a><span data-ttu-id="2dcad-103">MAPI 编程元素</span><span class="sxs-lookup"><span data-stu-id="2dcad-103">MAPI programming elements</span></span>
 
-<span data-ttu-id="2de3f-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2de3f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2dcad-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2dcad-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2de3f-105">本节包含对[MAPI 引用](mapi-reference.md)中的编程元素的概念性概述。</span><span class="sxs-lookup"><span data-stu-id="2de3f-105">This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md).</span></span> 
+<span data-ttu-id="2dcad-105">本节包含 MAPI 参考 中的编程元素的概 [念性概述](mapi-reference.md)。</span><span class="sxs-lookup"><span data-stu-id="2dcad-105">This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="2de3f-106">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2de3f-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2dcad-106">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2dcad-106">See also</span></span>
 
-- [<span data-ttu-id="2de3f-107">MAPI 概念</span><span class="sxs-lookup"><span data-stu-id="2de3f-107">MAPI Concepts</span></span>](mapi-concepts.md)
+- [<span data-ttu-id="2dcad-107">MAPI 概念</span><span class="sxs-lookup"><span data-stu-id="2dcad-107">MAPI Concepts</span></span>](mapi-concepts.md)
 

@@ -16,8 +16,8 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436515"
 ---
-# <a name="alignment-section"></a><span data-ttu-id="6f43c-104">“Alignment”内容</span><span class="sxs-lookup"><span data-stu-id="6f43c-104">Alignment Section</span></span>
+# <a name="alignment-section"></a><span data-ttu-id="2745e-104">“Alignment”内容</span><span class="sxs-lookup"><span data-stu-id="2745e-104">Alignment Section</span></span>
 
-<span data-ttu-id="6f43c-105">指示形状相对于其所粘附到的参考线或辅助点的对齐方式。</span><span class="sxs-lookup"><span data-stu-id="6f43c-105">Indicates the alignment of a shape with respect to the guide or guide point to which the shape is glued.</span></span> <span data-ttu-id="6f43c-106">**对齐**部分仅在粘附到参考线的形状上显示。</span><span class="sxs-lookup"><span data-stu-id="6f43c-106">The **Alignment** section appears only for shapes that are glued to guides.</span></span> 
+<span data-ttu-id="2745e-105">指示形状相对于其所粘附到的参考线或辅助点的对齐方式。</span><span class="sxs-lookup"><span data-stu-id="2745e-105">Indicates the alignment of a shape with respect to the guide or guide point to which the shape is glued.</span></span> <span data-ttu-id="2745e-106">" **对齐** 方式"部分只对粘附到参考线的形状显示。</span><span class="sxs-lookup"><span data-stu-id="2745e-106">The **Alignment** section appears only for shapes that are glued to guides.</span></span> 
   
 

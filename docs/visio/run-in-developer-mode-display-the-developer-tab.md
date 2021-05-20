@@ -15,12 +15,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438790"
 ---
-# <a name="run-in-developer-mode-display-the-developer-tab"></a><span data-ttu-id="87c87-102">以开发人员模式运行（显示“开发工具”选项卡）</span><span class="sxs-lookup"><span data-stu-id="87c87-102">Run in Developer Mode (Display the Developer Tab)</span></span>
+# <a name="run-in-developer-mode-display-the-developer-tab"></a><span data-ttu-id="a201a-102">以开发人员模式运行（显示“开发工具”选项卡）</span><span class="sxs-lookup"><span data-stu-id="a201a-102">Run in Developer Mode (Display the Developer Tab)</span></span>
 
-- <span data-ttu-id="87c87-103">单击 "**文件**" 选项卡, 然后单击 "**选项**"。</span><span class="sxs-lookup"><span data-stu-id="87c87-103">Click the **File** tab and then click **Options**.</span></span>
+- <span data-ttu-id="a201a-103">单击"**文件"** 选项卡，然后单击"选项 **"。**</span><span class="sxs-lookup"><span data-stu-id="a201a-103">Click the **File** tab and then click **Options**.</span></span>
     
-- <span data-ttu-id="87c87-104">在 " **Visio 选项**" 对话框中, 单击 "**高级**", 然后在 "**常规**" 下, 选择 "**以开发人员模式运行**"。</span><span class="sxs-lookup"><span data-stu-id="87c87-104">In the **Visio Options** dialog box, click **Advanced**, and then under **General**, select **Run in developer mode**.</span></span>
+- <span data-ttu-id="a201a-104">在 **"Visio选项**"对话框中，单击"**高级**"，然后在 **"常规"** 下选择"**以开发人员模式运行"。**</span><span class="sxs-lookup"><span data-stu-id="a201a-104">In the **Visio Options** dialog box, click **Advanced**, and then under **General**, select **Run in developer mode**.</span></span>
     
-<span data-ttu-id="87c87-105">然后，您可以选择一个对象，并单击 **“显示 ShapeSheet”**，以便更快地访问 ShapeSheet 窗口。</span><span class="sxs-lookup"><span data-stu-id="87c87-105">You then can select an object and click **Show ShapeSheet** for quicker access to the ShapeSheet window.</span></span> 
+<span data-ttu-id="a201a-105">然后，您可以选择一个对象，并单击 **“显示 ShapeSheet”**，以便更快地访问 ShapeSheet 窗口。</span><span class="sxs-lookup"><span data-stu-id="a201a-105">You then can select an object and click **Show ShapeSheet** for quicker access to the ShapeSheet window.</span></span> 
   
 

@@ -19,17 +19,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438286"
 ---
-# <a name="sbinaryarray"></a><span data-ttu-id="bb282-103">SBinaryArray</span><span class="sxs-lookup"><span data-stu-id="bb282-103">SBinaryArray</span></span>
+# <a name="sbinaryarray"></a><span data-ttu-id="bffe4-103">SBinaryArray</span><span class="sxs-lookup"><span data-stu-id="bffe4-103">SBinaryArray</span></span>
 
   
   
-<span data-ttu-id="bb282-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bb282-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bffe4-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bffe4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="bb282-105">包含二进制值数组。</span><span class="sxs-lookup"><span data-stu-id="bb282-105">Contains an array of binary values.</span></span> 
+<span data-ttu-id="bffe4-105">包含二进制值的数组。</span><span class="sxs-lookup"><span data-stu-id="bffe4-105">Contains an array of binary values.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="bb282-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="bb282-106">Header file:</span></span>  <br/> |<span data-ttu-id="bb282-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="bb282-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="bffe4-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="bffe4-106">Header file:</span></span>  <br/> |<span data-ttu-id="bffe4-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="bffe4-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SBinaryArray
@@ -40,30 +40,30 @@ typedef struct _SBinaryArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="bb282-108">Members</span><span class="sxs-lookup"><span data-stu-id="bb282-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="bffe4-108">Members</span><span class="sxs-lookup"><span data-stu-id="bffe4-108">Members</span></span>
 
- <span data-ttu-id="bb282-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="bb282-109">**cValues**</span></span>
+ <span data-ttu-id="bffe4-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="bffe4-109">**cValues**</span></span>
   
-> <span data-ttu-id="bb282-110">由**lpbin**成员指向的数组中的值的计数。</span><span class="sxs-lookup"><span data-stu-id="bb282-110">Count of values in the array pointed to by the **lpbin** member.</span></span> 
+> <span data-ttu-id="bffe4-110">**lpbin** 成员指向的数组中的值计数。</span><span class="sxs-lookup"><span data-stu-id="bffe4-110">Count of values in the array pointed to by the **lpbin** member.</span></span> 
     
- <span data-ttu-id="bb282-111">**lpbin**</span><span class="sxs-lookup"><span data-stu-id="bb282-111">**lpbin**</span></span>
+ <span data-ttu-id="bffe4-111">**lpbin**</span><span class="sxs-lookup"><span data-stu-id="bffe4-111">**lpbin**</span></span>
   
-> <span data-ttu-id="bb282-112">指向保存二进制值的[SBinary](sbinary.md)结构的数组的指针。</span><span class="sxs-lookup"><span data-stu-id="bb282-112">Pointer to an array of [SBinary](sbinary.md) structures that holds the binary values.</span></span> 
+> <span data-ttu-id="bffe4-112">指向包含 [二进制值的 SBinary](sbinary.md) 结构的数组的指针。</span><span class="sxs-lookup"><span data-stu-id="bffe4-112">Pointer to an array of [SBinary](sbinary.md) structures that holds the binary values.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="bb282-113">说明</span><span class="sxs-lookup"><span data-stu-id="bb282-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bffe4-113">备注</span><span class="sxs-lookup"><span data-stu-id="bffe4-113">Remarks</span></span>
 
-<span data-ttu-id="bb282-114">**SBinaryArray**结构用于描述 PT_MV_BINARY 类型的属性。</span><span class="sxs-lookup"><span data-stu-id="bb282-114">The **SBinaryArray** structure is used to describe properties of type PT_MV_BINARY.</span></span> 
+<span data-ttu-id="bffe4-114">**SBinaryArray** 结构用于描述类型为 PT_MV_BINARY。</span><span class="sxs-lookup"><span data-stu-id="bffe4-114">The **SBinaryArray** structure is used to describe properties of type PT_MV_BINARY.</span></span> 
   
-<span data-ttu-id="bb282-115">有关 PT_MV_BINARY 的详细信息, 请参阅[属性类型列表](property-types.md)。</span><span class="sxs-lookup"><span data-stu-id="bb282-115">For more information about PT_MV_BINARY, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="bffe4-115">有关属性类型PT_MV_BINARY，请参阅 [属性类型列表](property-types.md)。</span><span class="sxs-lookup"><span data-stu-id="bffe4-115">For more information about PT_MV_BINARY, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="bb282-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bb282-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bffe4-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bffe4-116">See also</span></span>
 
 
 
-[<span data-ttu-id="bb282-117">SBinary</span><span class="sxs-lookup"><span data-stu-id="bb282-117">SBinary</span></span>](sbinary.md)
+[<span data-ttu-id="bffe4-117">SBinary</span><span class="sxs-lookup"><span data-stu-id="bffe4-117">SBinary</span></span>](sbinary.md)
   
-[<span data-ttu-id="bb282-118">SPropValue</span><span class="sxs-lookup"><span data-stu-id="bb282-118">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="bffe4-118">SPropValue</span><span class="sxs-lookup"><span data-stu-id="bffe4-118">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="bb282-119">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="bb282-119">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="bffe4-119">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="bffe4-119">MAPI Structures</span></span>](mapi-structures.md)
 

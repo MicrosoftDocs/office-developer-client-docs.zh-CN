@@ -1,11 +1,11 @@
 ---
-title: 在给定联系人通讯簿条目的情况中获取联系人邮件
+title: 获取给定联系人通讯簿条目的联系人邮件
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a263894b-b3da-f1e4-a7da-ca3695bddc94
-description: '上次修改时间: 2013 年8月13日'
+description: 上次修改时间：2013 年 8 月 13 日
 ms.openlocfilehash: be988a3036c2d882f65e2e588cc9a40bfda146a5
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -13,25 +13,25 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437789"
 ---
-# <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a><span data-ttu-id="804ce-103">在给定联系人通讯簿条目的情况中获取联系人邮件</span><span class="sxs-lookup"><span data-stu-id="804ce-103">Obtain a contact message given a contacts address book entry</span></span>
+# <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a><span data-ttu-id="51767-103">获取给定联系人通讯簿条目的联系人邮件</span><span class="sxs-lookup"><span data-stu-id="51767-103">Obtain a contact message given a contacts address book entry</span></span>
 
-<span data-ttu-id="804ce-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="804ce-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="51767-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="51767-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="804ce-105">本主题包含一个 c + + `HrOpenContact`中的示例, 该示例演示如何使用标识联系人通讯簿中的条目的[CONTAB_ENTRYID](contab_entryid.md)结构来获取关联的 MAPI 联系人邮件。</span><span class="sxs-lookup"><span data-stu-id="804ce-105">This topic contains an example in C++, `HrOpenContact`, that shows how to use the [CONTAB_ENTRYID](contab_entryid.md) structure that identifies an entry in a Contacts Address Book to obtain the associated MAPI Contact message.</span></span> 
+<span data-ttu-id="51767-105">本主题包含 C++ 中的示例 ，它演示如何使用 `HrOpenContact` [标识联系人通讯簿中的](contab_entryid.md) 条目的 CONTAB_ENTRYID 结构来获取关联的 MAPI 联系人邮件。</span><span class="sxs-lookup"><span data-stu-id="51767-105">This topic contains an example in C++, `HrOpenContact`, that shows how to use the [CONTAB_ENTRYID](contab_entryid.md) structure that identifies an entry in a Contacts Address Book to obtain the associated MAPI Contact message.</span></span> 
   
-<span data-ttu-id="804ce-106">`HrOpenContact`具有以下参数:</span><span class="sxs-lookup"><span data-stu-id="804ce-106">`HrOpenContact` has the following parameters:</span></span> 
+<span data-ttu-id="51767-106">`HrOpenContact` 具有以下参数：</span><span class="sxs-lookup"><span data-stu-id="51767-106">`HrOpenContact` has the following parameters:</span></span> 
   
--  <span data-ttu-id="804ce-107">*lpSession*是表示当前会话的输入参数。</span><span class="sxs-lookup"><span data-stu-id="804ce-107">*lpSession*  is an input parameter representing the current session.</span></span> <span data-ttu-id="804ce-108">**LPMAPISESSION**在 MAPI 头文件 mapix 中定义为指向[IMAPISession: IUnknown](imapisessioniunknown.md)的指针。</span><span class="sxs-lookup"><span data-stu-id="804ce-108">**LPMAPISESSION** is defined in the MAPI header file mapix.h as a pointer to [IMAPISession : IUnknown](imapisessioniunknown.md).</span></span>
+-  <span data-ttu-id="51767-107">*lpSession*  是表示当前会话的输入参数。</span><span class="sxs-lookup"><span data-stu-id="51767-107">*lpSession*  is an input parameter representing the current session.</span></span> <span data-ttu-id="51767-108">**LPMAPISESSION** 在 MAPI 头文件 mapix.h 中定义为 [指向 IMAPISession ： IUnknown 的指针](imapisessioniunknown.md)。</span><span class="sxs-lookup"><span data-stu-id="51767-108">**LPMAPISESSION** is defined in the MAPI header file mapix.h as a pointer to [IMAPISession : IUnknown](imapisessioniunknown.md).</span></span>
     
--  <span data-ttu-id="804ce-109">*cbEntryID*是一个输入参数, 表示与*lpEntryID*关联的条目标识符的大小。</span><span class="sxs-lookup"><span data-stu-id="804ce-109">*cbEntryID*  is an input parameter representing the size of the entry identifier associated with  *lpEntryID*  .</span></span> 
+-  <span data-ttu-id="51767-109">*cbEntryID*  是一个输入参数，表示与  *lpEntryID*  关联的条目标识符的大小。</span><span class="sxs-lookup"><span data-stu-id="51767-109">*cbEntryID*  is an input parameter representing the size of the entry identifier associated with  *lpEntryID*  .</span></span> 
     
--  <span data-ttu-id="804ce-110">*lpEntryID*是一个输入参数, 表示指向联系人通讯簿中条目的条目标识符的指针。</span><span class="sxs-lookup"><span data-stu-id="804ce-110">*lpEntryID*  is an input parameter representing a pointer to the entry identifier of an entry in a Contact Address Book.</span></span> 
+-  <span data-ttu-id="51767-110">*lpEntryID*  是一个输入参数，表示指向联系人通讯簿中条目的条目标识符的指针。</span><span class="sxs-lookup"><span data-stu-id="51767-110">*lpEntryID*  is an input parameter representing a pointer to the entry identifier of an entry in a Contact Address Book.</span></span> 
     
--  <span data-ttu-id="804ce-111">*ulFlags*是一个输入参数, 表示包含 MAPI 联系人消息的对象访问标志的位掩码。</span><span class="sxs-lookup"><span data-stu-id="804ce-111">*ulFlags*  is an input parameter representing a bitmask containing object access flags to the MAPI Contact message.</span></span> 
+-  <span data-ttu-id="51767-111">*ulFlags*  是一个输入参数，表示包含 MAPI 联系人邮件的对象访问标志的位掩码。</span><span class="sxs-lookup"><span data-stu-id="51767-111">*ulFlags*  is an input parameter representing a bitmask containing object access flags to the MAPI Contact message.</span></span> 
     
--  <span data-ttu-id="804ce-112">*lpContactMessage*是一个输出参数, 表示指向 MAPI 联系人消息的指针。</span><span class="sxs-lookup"><span data-stu-id="804ce-112">*lpContactMessage*  is an output parameter representing a pointer to the MAPI Contact message.</span></span> 
+-  <span data-ttu-id="51767-112">*lpContactMessage*  是一个输出参数，表示指向 MAPI 联系人邮件的指针。</span><span class="sxs-lookup"><span data-stu-id="51767-112">*lpContactMessage*  is an output parameter representing a pointer to the MAPI Contact message.</span></span> 
     
-<span data-ttu-id="804ce-113">若要打开基础 MAPI 联系人消息, `HrOpenContact`请首先将*lpEntryID*转换为指向**CONTAB_ENTRYID**的指针。</span><span class="sxs-lookup"><span data-stu-id="804ce-113">To open the underlying MAPI Contact message,  `HrOpenContact` first casts  *lpEntryID*  to a pointer to **CONTAB_ENTRYID**.</span></span> <span data-ttu-id="804ce-114">然后, 它调用[IMAPISession:: OpenEntry](imapisession-openentry.md)以获取 MAPI 联系人消息, 将联系人通讯簿中的条目的*cbeid*和*abeid*字段作为参数进行传递, 该条目将分别标识条目标识符的大小和MAPI 联系人邮件的条目标识符。</span><span class="sxs-lookup"><span data-stu-id="804ce-114">It then calls [IMAPISession::OpenEntry](imapisession-openentry.md) to obtain the MAPI Contact message, passing as parameters the  *cbeid*  and  *abeid*  fields of the entry in the Contacts Address Book that identify respectively the size of the entry identifier and the entry identifier of the MAPI Contact message.</span></span> 
+<span data-ttu-id="51767-113">若要打开基础 MAPI 联系人邮件，首先 `HrOpenContact` 将 *lpEntryID* 强制转换到CONTAB_ENTRYID。</span><span class="sxs-lookup"><span data-stu-id="51767-113">To open the underlying MAPI Contact message,  `HrOpenContact` first casts  *lpEntryID*  to a pointer to **CONTAB_ENTRYID**.</span></span> <span data-ttu-id="51767-114">然后，它调用 [IMAPISession：：OpenEntry](imapisession-openentry.md) 以获取 MAPI 联系人消息，并作为参数传递联系人通讯簿中条目的 c  *一d*  和  *aingd*  字段，分别标识条目标识符的大小和 MAPI 联系人邮件的条目标识符。</span><span class="sxs-lookup"><span data-stu-id="51767-114">It then calls [IMAPISession::OpenEntry](imapisession-openentry.md) to obtain the MAPI Contact message, passing as parameters the  *cbeid*  and  *abeid*  fields of the entry in the Contacts Address Book that identify respectively the size of the entry identifier and the entry identifier of the MAPI Contact message.</span></span> 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 
@@ -98,7 +98,7 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="804ce-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="804ce-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="51767-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="51767-115">See also</span></span>
 
-- [<span data-ttu-id="804ce-116">IMAPISession::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="804ce-116">IMAPISession::OpenEntry</span></span>](imapisession-openentry.md)
+- [<span data-ttu-id="51767-116">IMAPISession::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="51767-116">IMAPISession::OpenEntry</span></span>](imapisession-openentry.md)
 

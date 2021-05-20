@@ -19,29 +19,29 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438923"
 ---
-# <a name="ipstoverride1overridepstdisablegrow"></a><span data-ttu-id="7922e-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span><span class="sxs-lookup"><span data-stu-id="7922e-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span></span>
+# <a name="ipstoverride1overridepstdisablegrow"></a><span data-ttu-id="ccd2c-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span><span class="sxs-lookup"><span data-stu-id="ccd2c-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span></span>
 
   
   
-<span data-ttu-id="7922e-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7922e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ccd2c-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ccd2c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7922e-105">为会话解锁个人文件夹 (.pst) 文件, 替代 pstdisablegrow 可策略。</span><span class="sxs-lookup"><span data-stu-id="7922e-105">Unlocks a Personal Folders (.pst) file for a session, overriding the PSTDisableGrow policy.</span></span>
+<span data-ttu-id="ccd2c-105">解锁会话的个人 (.pst) 文件，覆盖 PSTDisableGrow 策略。</span><span class="sxs-lookup"><span data-stu-id="ccd2c-105">Unlocks a Personal Folders (.pst) file for a session, overriding the PSTDisableGrow policy.</span></span>
   
 ```cpp
 HRESULT OverridePSTDisableGrow();
 ```
 
-## <a name="return-value"></a><span data-ttu-id="7922e-106">返回值</span><span class="sxs-lookup"><span data-stu-id="7922e-106">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ccd2c-106">返回值</span><span class="sxs-lookup"><span data-stu-id="ccd2c-106">Return value</span></span>
 
-<span data-ttu-id="7922e-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="7922e-107">S_OK</span></span>
+<span data-ttu-id="ccd2c-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="ccd2c-107">S_OK</span></span>
   
-> <span data-ttu-id="7922e-108">函数调用成功。</span><span class="sxs-lookup"><span data-stu-id="7922e-108">The function call was successful.</span></span>
+> <span data-ttu-id="ccd2c-108">函数调用成功。</span><span class="sxs-lookup"><span data-stu-id="ccd2c-108">The function call was successful.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="7922e-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7922e-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ccd2c-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ccd2c-109">See also</span></span>
 
 
 
-[<span data-ttu-id="7922e-110">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7922e-110">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md)
+[<span data-ttu-id="ccd2c-110">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ccd2c-110">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md)
   
-[<span data-ttu-id="7922e-111">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7922e-111">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
+[<span data-ttu-id="ccd2c-111">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ccd2c-111">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
 

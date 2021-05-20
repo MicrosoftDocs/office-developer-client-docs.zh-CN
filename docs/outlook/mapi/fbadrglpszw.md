@@ -19,19 +19,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436438"
 ---
-# <a name="fbadrglpszw"></a><span data-ttu-id="3586a-103">FBadRglpszW</span><span class="sxs-lookup"><span data-stu-id="3586a-103">FBadRglpszW</span></span>
+# <a name="fbadrglpszw"></a><span data-ttu-id="02639-103">FBadRglpszW</span><span class="sxs-lookup"><span data-stu-id="02639-103">FBadRglpszW</span></span>
 
   
   
-<span data-ttu-id="3586a-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3586a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="02639-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="02639-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3586a-105">验证 Unicode 字符串数组中的所有字符串。</span><span class="sxs-lookup"><span data-stu-id="3586a-105">Validates all strings in an array of Unicode strings.</span></span> 
+<span data-ttu-id="02639-105">验证 Unicode 字符串数组中的所有字符串。</span><span class="sxs-lookup"><span data-stu-id="02639-105">Validates all strings in an array of Unicode strings.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3586a-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="3586a-106">Header file:</span></span>  <br/> |<span data-ttu-id="3586a-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="3586a-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="3586a-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="3586a-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="3586a-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="3586a-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="3586a-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="3586a-110">Called by:</span></span>  <br/> |<span data-ttu-id="3586a-111">服务提供程序</span><span class="sxs-lookup"><span data-stu-id="3586a-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="02639-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="02639-106">Header file:</span></span>  <br/> |<span data-ttu-id="02639-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="02639-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="02639-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="02639-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="02639-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="02639-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="02639-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="02639-110">Called by:</span></span>  <br/> |<span data-ttu-id="02639-111">服务提供程序</span><span class="sxs-lookup"><span data-stu-id="02639-111">Service providers</span></span>  <br/> |
    
 ```cpp
 BOOL FBadRglpszW(
@@ -40,24 +40,24 @@ BOOL FBadRglpszW(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3586a-112">参数</span><span class="sxs-lookup"><span data-stu-id="3586a-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="02639-112">参数</span><span class="sxs-lookup"><span data-stu-id="02639-112">Parameters</span></span>
 
- <span data-ttu-id="3586a-113">_lppszW_</span><span class="sxs-lookup"><span data-stu-id="3586a-113">_lppszW_</span></span>
+ <span data-ttu-id="02639-113">_lppszW_</span><span class="sxs-lookup"><span data-stu-id="02639-113">_lppszW_</span></span>
   
-> <span data-ttu-id="3586a-114">实时指向以 null 结尾的 Unicode 字符串数组的指针。</span><span class="sxs-lookup"><span data-stu-id="3586a-114">[in] Pointer to an array of null-terminated Unicode strings.</span></span> 
+> <span data-ttu-id="02639-114">[in]指向以 null 结束的 Unicode 字符串数组的指针。</span><span class="sxs-lookup"><span data-stu-id="02639-114">[in] Pointer to an array of null-terminated Unicode strings.</span></span> 
     
- <span data-ttu-id="3586a-115">_cStrings_</span><span class="sxs-lookup"><span data-stu-id="3586a-115">_cStrings_</span></span>
+ <span data-ttu-id="02639-115">_cStrings_</span><span class="sxs-lookup"><span data-stu-id="02639-115">_cStrings_</span></span>
   
-> <span data-ttu-id="3586a-116">实时由_lppszW_参数指向的数组中的字符串计数。</span><span class="sxs-lookup"><span data-stu-id="3586a-116">[in] Count of strings in the array pointed to by the  _lppszW_ parameter.</span></span> 
+> <span data-ttu-id="02639-116">[in]  _lppszW_ 参数指向的数组中的字符串计数。</span><span class="sxs-lookup"><span data-stu-id="02639-116">[in] Count of strings in the array pointed to by the  _lppszW_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="3586a-117">返回值</span><span class="sxs-lookup"><span data-stu-id="3586a-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="02639-117">返回值</span><span class="sxs-lookup"><span data-stu-id="02639-117">Return value</span></span>
 
-<span data-ttu-id="3586a-118">TRUE</span><span class="sxs-lookup"><span data-stu-id="3586a-118">TRUE</span></span> 
+<span data-ttu-id="02639-118">TRUE</span><span class="sxs-lookup"><span data-stu-id="02639-118">TRUE</span></span> 
   
-> <span data-ttu-id="3586a-119">指定数组中的一个或多个字符串无效。</span><span class="sxs-lookup"><span data-stu-id="3586a-119">One or more of the strings in the specified array are invalid.</span></span> 
+> <span data-ttu-id="02639-119">指定数组中的一个或多个字符串无效。</span><span class="sxs-lookup"><span data-stu-id="02639-119">One or more of the strings in the specified array are invalid.</span></span> 
     
-<span data-ttu-id="3586a-120">FALSE</span><span class="sxs-lookup"><span data-stu-id="3586a-120">FALSE</span></span> 
+<span data-ttu-id="02639-120">FALSE</span><span class="sxs-lookup"><span data-stu-id="02639-120">FALSE</span></span> 
   
-> <span data-ttu-id="3586a-121">指定数组中的字符串有效。</span><span class="sxs-lookup"><span data-stu-id="3586a-121">The strings in the specified array are valid.</span></span>
+> <span data-ttu-id="02639-121">指定数组中的字符串有效。</span><span class="sxs-lookup"><span data-stu-id="02639-121">The strings in the specified array are valid.</span></span>
     
 

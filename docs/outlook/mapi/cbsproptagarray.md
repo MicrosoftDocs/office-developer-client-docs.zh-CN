@@ -19,35 +19,35 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438426"
 ---
-# <a name="cbsproptagarray"></a><span data-ttu-id="1b59b-103">CbSPropTagArray</span><span class="sxs-lookup"><span data-stu-id="1b59b-103">CbSPropTagArray</span></span>
+# <a name="cbsproptagarray"></a><span data-ttu-id="ddb78-103">CbSPropTagArray</span><span class="sxs-lookup"><span data-stu-id="ddb78-103">CbSPropTagArray</span></span>
 
   
   
-<span data-ttu-id="1b59b-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1b59b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ddb78-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ddb78-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1b59b-105">计算现有[SPropTagArray](sproptagarray.md)结构中的字节数。</span><span class="sxs-lookup"><span data-stu-id="1b59b-105">Computes the number of bytes in an existing [SPropTagArray](sproptagarray.md) structure.</span></span> 
+<span data-ttu-id="ddb78-105">计算现有 [SPropTagArray 结构中的字节](sproptagarray.md) 数。</span><span class="sxs-lookup"><span data-stu-id="ddb78-105">Computes the number of bytes in an existing [SPropTagArray](sproptagarray.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1b59b-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="1b59b-106">Header file:</span></span>  <br/> |<span data-ttu-id="1b59b-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="1b59b-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="1b59b-108">相关结构:</span><span class="sxs-lookup"><span data-stu-id="1b59b-108">Related structure:</span></span>  <br/> |<span data-ttu-id="1b59b-109">**SPropTagArray**</span><span class="sxs-lookup"><span data-stu-id="1b59b-109">**SPropTagArray**</span></span> <br/> |
+|<span data-ttu-id="ddb78-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="ddb78-106">Header file:</span></span>  <br/> |<span data-ttu-id="ddb78-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ddb78-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="ddb78-108">相关结构：</span><span class="sxs-lookup"><span data-stu-id="ddb78-108">Related structure:</span></span>  <br/> |<span data-ttu-id="ddb78-109">**SPropTagArray**</span><span class="sxs-lookup"><span data-stu-id="ddb78-109">**SPropTagArray**</span></span> <br/> |
    
 ```cpp
 CbSPropTagArray (_lparray)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1b59b-110">参数</span><span class="sxs-lookup"><span data-stu-id="1b59b-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ddb78-110">参数</span><span class="sxs-lookup"><span data-stu-id="ddb78-110">Parameters</span></span>
 
- <span data-ttu-id="1b59b-111">__lparray_</span><span class="sxs-lookup"><span data-stu-id="1b59b-111">__lparray_</span></span>
+ <span data-ttu-id="ddb78-111">_ _lparray_</span><span class="sxs-lookup"><span data-stu-id="ddb78-111">_ _lparray_</span></span>
   
-> <span data-ttu-id="1b59b-112">指向现有**SPropTagArray**结构的指针。</span><span class="sxs-lookup"><span data-stu-id="1b59b-112">Pointer to the existing **SPropTagArray** structure.</span></span> 
+> <span data-ttu-id="ddb78-112">指向现有 **SPropTagArray 结构的** 指针。</span><span class="sxs-lookup"><span data-stu-id="ddb78-112">Pointer to the existing **SPropTagArray** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="1b59b-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1b59b-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ddb78-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ddb78-113">See also</span></span>
 
 
 
-[<span data-ttu-id="1b59b-114">SPropTagArray</span><span class="sxs-lookup"><span data-stu-id="1b59b-114">SPropTagArray</span></span>](sproptagarray.md)
+[<span data-ttu-id="ddb78-114">SPropTagArray</span><span class="sxs-lookup"><span data-stu-id="ddb78-114">SPropTagArray</span></span>](sproptagarray.md)
 
 
-[<span data-ttu-id="1b59b-115">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="1b59b-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="ddb78-115">与结构相关的宏</span><span class="sxs-lookup"><span data-stu-id="ddb78-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

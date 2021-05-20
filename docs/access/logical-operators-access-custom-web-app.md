@@ -1,5 +1,5 @@
 ---
-title: 逻辑运算符 (Access 自定义 web 应用程序)
+title: '逻辑运算符 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437663"
 ---
-# <a name="logical-operators-access-custom-web-app"></a><span data-ttu-id="efa44-102">逻辑运算符 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="efa44-102">Logical Operators (Access custom web app)</span></span>
+# <a name="logical-operators-access-custom-web-app"></a><span data-ttu-id="3da9e-102">逻辑运算符 (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="3da9e-102">Logical Operators (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="efa44-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="efa44-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="3da9e-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="3da9e-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="efa44-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="efa44-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3da9e-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="3da9e-105">In this section</span></span>
 
-- [<span data-ttu-id="efa44-106">和 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="efa44-106">AND (Access custom web app)</span></span>](and-access-custom-web-app.md)
+- [<span data-ttu-id="3da9e-106">AND (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="3da9e-106">AND (Access custom web app)</span></span>](and-access-custom-web-app.md)
     
-- [<span data-ttu-id="efa44-107">不是 (Access 自定义 web 应用)</span><span class="sxs-lookup"><span data-stu-id="efa44-107">NOT (Access custom web app)</span></span>](not-access-custom-web-app.md)
+- [<span data-ttu-id="3da9e-107">NOT (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="3da9e-107">NOT (Access custom web app)</span></span>](not-access-custom-web-app.md)
     
-- [<span data-ttu-id="efa44-108">或 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="efa44-108">OR (Access custom web app)</span></span>](or-access-custom-web-app.md)
+- [<span data-ttu-id="3da9e-108">或者 (Access 自定义 Web 应用) </span><span class="sxs-lookup"><span data-stu-id="3da9e-108">OR (Access custom web app)</span></span>](or-access-custom-web-app.md)
     
-- <span data-ttu-id="efa44-109">[IS [NOT] NULL（Access 自定义 Web 应用）](is-not-null-access-custom-web-app.md)</span><span class="sxs-lookup"><span data-stu-id="efa44-109">[IS [NOT] NULL (Access custom web app)](is-not-null-access-custom-web-app.md)</span></span>
+- <span data-ttu-id="3da9e-109">[IS [NOT] NULL（Access 自定义 Web 应用）](is-not-null-access-custom-web-app.md)</span><span class="sxs-lookup"><span data-stu-id="3da9e-109">[IS [NOT] NULL (Access custom web app)](is-not-null-access-custom-web-app.md)</span></span>
     
 

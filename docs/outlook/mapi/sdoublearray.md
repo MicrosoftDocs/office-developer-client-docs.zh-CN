@@ -19,17 +19,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439266"
 ---
-# <a name="sdoublearray"></a><span data-ttu-id="3cbd2-103">SDoubleArray</span><span class="sxs-lookup"><span data-stu-id="3cbd2-103">SDoubleArray</span></span>
+# <a name="sdoublearray"></a><span data-ttu-id="f8367-103">SDoubleArray</span><span class="sxs-lookup"><span data-stu-id="f8367-103">SDoubleArray</span></span>
 
   
   
-<span data-ttu-id="3cbd2-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3cbd2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f8367-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f8367-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3cbd2-105">包含用于描述类型 PT_MV_DOUBLE 的属性的双精度数组。</span><span class="sxs-lookup"><span data-stu-id="3cbd2-105">Contains an array of doubles used to describe a property of type PT_MV_DOUBLE.</span></span>
+<span data-ttu-id="f8367-105">包含一个双精度数组，用于描述类型为 PT_MV_DOUBLE。</span><span class="sxs-lookup"><span data-stu-id="f8367-105">Contains an array of doubles used to describe a property of type PT_MV_DOUBLE.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3cbd2-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="3cbd2-106">Header file:</span></span>  <br/> |<span data-ttu-id="3cbd2-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="3cbd2-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="f8367-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="f8367-106">Header file:</span></span>  <br/> |<span data-ttu-id="f8367-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="f8367-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SDoubleArray
@@ -40,26 +40,26 @@ typedef struct _SDoubleArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="3cbd2-108">Members</span><span class="sxs-lookup"><span data-stu-id="3cbd2-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="f8367-108">Members</span><span class="sxs-lookup"><span data-stu-id="f8367-108">Members</span></span>
 
- <span data-ttu-id="3cbd2-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="3cbd2-109">**cValues**</span></span>
+ <span data-ttu-id="f8367-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="f8367-109">**cValues**</span></span>
   
-> <span data-ttu-id="3cbd2-110">由**lpdbl**成员指向的数组中的值的计数。</span><span class="sxs-lookup"><span data-stu-id="3cbd2-110">Count of values in the array pointed to by the **lpdbl** member.</span></span> 
+> <span data-ttu-id="f8367-110">**lpdbl** 成员指向的数组中的值计数。</span><span class="sxs-lookup"><span data-stu-id="f8367-110">Count of values in the array pointed to by the **lpdbl** member.</span></span> 
     
- <span data-ttu-id="3cbd2-111">**lpdbl**</span><span class="sxs-lookup"><span data-stu-id="3cbd2-111">**lpdbl**</span></span>
+ <span data-ttu-id="f8367-111">**lpdbl**</span><span class="sxs-lookup"><span data-stu-id="f8367-111">**lpdbl**</span></span>
   
-> <span data-ttu-id="3cbd2-112">指向双精度值数组的指针。</span><span class="sxs-lookup"><span data-stu-id="3cbd2-112">Pointer to an array of double values.</span></span>
+> <span data-ttu-id="f8367-112">指向双值数组的指针。</span><span class="sxs-lookup"><span data-stu-id="f8367-112">Pointer to an array of double values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="3cbd2-113">说明</span><span class="sxs-lookup"><span data-stu-id="3cbd2-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f8367-113">备注</span><span class="sxs-lookup"><span data-stu-id="f8367-113">Remarks</span></span>
 
-<span data-ttu-id="3cbd2-114">有关 PT_MV_DOUBLE 的详细信息, 请参阅[属性类型列表](property-types.md)。</span><span class="sxs-lookup"><span data-stu-id="3cbd2-114">For more information about PT_MV_DOUBLE, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="f8367-114">有关属性类型PT_MV_DOUBLE，请参阅 [属性类型列表](property-types.md)。</span><span class="sxs-lookup"><span data-stu-id="f8367-114">For more information about PT_MV_DOUBLE, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="3cbd2-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3cbd2-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f8367-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f8367-115">See also</span></span>
 
 
 
-[<span data-ttu-id="3cbd2-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="3cbd2-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="f8367-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="f8367-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="3cbd2-117">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="3cbd2-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="f8367-117">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="f8367-117">MAPI Structures</span></span>](mapi-structures.md)
 

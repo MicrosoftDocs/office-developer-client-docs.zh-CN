@@ -18,41 +18,41 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436655"
 ---
-# <a name="xlabort"></a><span data-ttu-id="9d73b-104">xlAbort</span><span class="sxs-lookup"><span data-stu-id="9d73b-104">xlAbort</span></span>
+# <a name="xlabort"></a><span data-ttu-id="c225d-104">xlAbort</span><span class="sxs-lookup"><span data-stu-id="c225d-104">xlAbort</span></span>
 
- <span data-ttu-id="9d73b-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="9d73b-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="c225d-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="c225d-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="9d73b-106">将处理器生成到系统中的其他任务, 并检查用户是否已按**ESC**取消宏。</span><span class="sxs-lookup"><span data-stu-id="9d73b-106">Yields the processor to other tasks in the system and checks whether the user has pressed **ESC** to cancel a macro.</span></span> <span data-ttu-id="9d73b-107">如果用户在重新计算工作簿期间按下了**ESC** , 也可以通过调用此函数从工作表函数中检测到。</span><span class="sxs-lookup"><span data-stu-id="9d73b-107">If the user has pressed **ESC** during a workbook recalculation, it can also be detected from within a worksheet function by calling this function.</span></span> 
+<span data-ttu-id="c225d-106">将处理器处理到系统中的其他任务，并检查用户是否已按 **Esc** 取消宏。</span><span class="sxs-lookup"><span data-stu-id="c225d-106">Yields the processor to other tasks in the system and checks whether the user has pressed **ESC** to cancel a macro.</span></span> <span data-ttu-id="c225d-107">如果用户在工作簿重新计算过程中按下 **了 ESC，** 则通过调用此函数还可以从工作表函数中检测到它。</span><span class="sxs-lookup"><span data-stu-id="c225d-107">If the user has pressed **ESC** during a workbook recalculation, it can also be detected from within a worksheet function by calling this function.</span></span> 
   
 ```cs
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9d73b-108">参数</span><span class="sxs-lookup"><span data-stu-id="9d73b-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c225d-108">参数</span><span class="sxs-lookup"><span data-stu-id="c225d-108">Parameters</span></span>
 
- <span data-ttu-id="9d73b-109">_pxRetain_(**xltypeBool**)</span><span class="sxs-lookup"><span data-stu-id="9d73b-109">_pxRetain_ (**xltypeBool**)</span></span>
+ <span data-ttu-id="c225d-109">_pxRetain_ (**xltypeBool)**</span><span class="sxs-lookup"><span data-stu-id="c225d-109">_pxRetain_ (**xltypeBool**)</span></span>
   
-<span data-ttu-id="9d73b-110">(可选)。</span><span class="sxs-lookup"><span data-stu-id="9d73b-110">(Optional).</span></span> <span data-ttu-id="9d73b-111">如果**为 FALSE**, 则此函数将检查中断条件并清除任何挂起的中断。</span><span class="sxs-lookup"><span data-stu-id="9d73b-111">If **FALSE**, this function checks for the break condition and clears any pending break.</span></span> <span data-ttu-id="9d73b-112">这使用户可以在中断条件的情况继续进行。</span><span class="sxs-lookup"><span data-stu-id="9d73b-112">This enables the user to continue despite the break condition.</span></span> <span data-ttu-id="9d73b-113">如果此参数被省略或为**TRUE**, 则函数将检查用户中止而不清除它。</span><span class="sxs-lookup"><span data-stu-id="9d73b-113">If this argument is omitted or is **TRUE**, the function checks for a user abort without clearing it.</span></span>
+<span data-ttu-id="c225d-110"> (可选) 。</span><span class="sxs-lookup"><span data-stu-id="c225d-110">(Optional).</span></span> <span data-ttu-id="c225d-111">如果 **为 FALSE，** 则此函数将检查中断条件并清除任何挂起的中断。</span><span class="sxs-lookup"><span data-stu-id="c225d-111">If **FALSE**, this function checks for the break condition and clears any pending break.</span></span> <span data-ttu-id="c225d-112">这使用户可以继续，而不管中断条件如何。</span><span class="sxs-lookup"><span data-stu-id="c225d-112">This enables the user to continue despite the break condition.</span></span> <span data-ttu-id="c225d-113">如果省略此参数或为 **TRUE，** 则函数会检查用户中止，而不清除它。</span><span class="sxs-lookup"><span data-stu-id="c225d-113">If this argument is omitted or is **TRUE**, the function checks for a user abort without clearing it.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="9d73b-114">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="9d73b-114">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="c225d-114">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="c225d-114">Property value/Return value</span></span>
 
-<span data-ttu-id="9d73b-115">如果用户按**ESC 键**,**则返回 TRUE** (**xltypeBool**)。</span><span class="sxs-lookup"><span data-stu-id="9d73b-115">Returns **TRUE** (**xltypeBool**) if the user has pressed **ESC**.</span></span>
+<span data-ttu-id="c225d-115">返回 **TRUE** (**xltypeBool**) 如果用户已按下 **ESC**。</span><span class="sxs-lookup"><span data-stu-id="c225d-115">Returns **TRUE** (**xltypeBool**) if the user has pressed **ESC**.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9d73b-116">说明</span><span class="sxs-lookup"><span data-stu-id="9d73b-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c225d-116">备注</span><span class="sxs-lookup"><span data-stu-id="c225d-116">Remarks</span></span>
 
 ### 
 
-#### <a name="frequent-calls-may-be-needed"></a><span data-ttu-id="9d73b-117">可能需要频繁的呼叫</span><span class="sxs-lookup"><span data-stu-id="9d73b-117">Frequent Calls May Be Needed</span></span>
+#### <a name="frequent-calls-may-be-needed"></a><span data-ttu-id="c225d-117">可能需要频繁呼叫</span><span class="sxs-lookup"><span data-stu-id="c225d-117">Frequent Calls May Be Needed</span></span>
 
-<span data-ttu-id="9d73b-118">可能需要很长时间的函数和命令应经常调用此函数, 以使处理器进入系统中的其他任务。</span><span class="sxs-lookup"><span data-stu-id="9d73b-118">Functions and commands that could take a long time should call this function frequently to yield the processor to other tasks in the system.</span></span>
+<span data-ttu-id="c225d-118">可能需要很长时间的函数和命令应频繁调用此函数，以将处理器分配给系统中的其他任务。</span><span class="sxs-lookup"><span data-stu-id="c225d-118">Functions and commands that could take a long time should call this function frequently to yield the processor to other tasks in the system.</span></span>
   
-#### <a name="avoid-sensitive-language"></a><span data-ttu-id="9d73b-119">避免敏感语言</span><span class="sxs-lookup"><span data-stu-id="9d73b-119">Avoid Sensitive Language</span></span>
+#### <a name="avoid-sensitive-language"></a><span data-ttu-id="c225d-119">避免使用敏感语言</span><span class="sxs-lookup"><span data-stu-id="c225d-119">Avoid Sensitive Language</span></span>
 
-<span data-ttu-id="9d73b-120">避免在用户界面中使用 "Abort" 一词。</span><span class="sxs-lookup"><span data-stu-id="9d73b-120">Avoid using the term "Abort" in your user interface.</span></span> <span data-ttu-id="9d73b-121">请考虑改为使用 "取消"、"暂停"、"中断" 或 "停止"。</span><span class="sxs-lookup"><span data-stu-id="9d73b-121">Consider using "Cancel," "Halt," "Break," or "Stop" instead.</span></span>
+<span data-ttu-id="c225d-120">避免在用户界面中使用术语"Abort"。</span><span class="sxs-lookup"><span data-stu-id="c225d-120">Avoid using the term "Abort" in your user interface.</span></span> <span data-ttu-id="c225d-121">请考虑使用"取消"、"终止"、"中断"或"停止"。</span><span class="sxs-lookup"><span data-stu-id="c225d-121">Consider using "Cancel," "Halt," "Break," or "Stop" instead.</span></span>
   
-## <a name="example"></a><span data-ttu-id="9d73b-122">示例</span><span class="sxs-lookup"><span data-stu-id="9d73b-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c225d-122">示例</span><span class="sxs-lookup"><span data-stu-id="c225d-122">Example</span></span>
 
-<span data-ttu-id="9d73b-123">以下代码将重复移动工作表上的活动单元格, 直到一分钟之后或用户按**ESC**。</span><span class="sxs-lookup"><span data-stu-id="9d73b-123">The following code repeatedly moves the active cell on a sheet until one minute has elapsed or until the user presses **ESC**.</span></span> <span data-ttu-id="9d73b-124">它偶尔调用函数**xlAbort** 。</span><span class="sxs-lookup"><span data-stu-id="9d73b-124">It calls the function **xlAbort** occasionally.</span></span> <span data-ttu-id="9d73b-125">这将生成处理器, 从而简化合作多任务。</span><span class="sxs-lookup"><span data-stu-id="9d73b-125">This yields the processor, easing cooperative multitasking.</span></span> 
+<span data-ttu-id="c225d-123">下面的代码重复移动工作表上的活动单元格，直到一分钟过去或直到用户按 **ESC。**</span><span class="sxs-lookup"><span data-stu-id="c225d-123">The following code repeatedly moves the active cell on a sheet until one minute has elapsed or until the user presses **ESC**.</span></span> <span data-ttu-id="c225d-124">它偶尔调用 **函数 xlAbort。**</span><span class="sxs-lookup"><span data-stu-id="c225d-124">It calls the function **xlAbort** occasionally.</span></span> <span data-ttu-id="c225d-125">这将生成处理器，并缓动协作多任务。</span><span class="sxs-lookup"><span data-stu-id="c225d-125">This yields the processor, easing cooperative multitasking.</span></span> 
   
  `\SAMPLES\GENERIC\GENERIC.C`
   
@@ -117,9 +117,9 @@ int WINAPI fDance(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="9d73b-126">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9d73b-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c225d-126">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c225d-126">See also</span></span>
 
 
 
-[<span data-ttu-id="9d73b-127">只能从 DLL 或 XLL 调用的 C API 函数</span><span class="sxs-lookup"><span data-stu-id="9d73b-127">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[<span data-ttu-id="c225d-127">只能从 DLL 或 XLL 调用的 C API 函数</span><span class="sxs-lookup"><span data-stu-id="c225d-127">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 
