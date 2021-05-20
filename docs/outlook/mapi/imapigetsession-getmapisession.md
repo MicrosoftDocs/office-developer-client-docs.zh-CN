@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439609"
 ---
-# <a name="imapigetsessiongetmapisession"></a><span data-ttu-id="3d884-103">IMAPIGetSession::GetMAPISession</span><span class="sxs-lookup"><span data-stu-id="3d884-103">IMAPIGetSession::GetMAPISession</span></span>
+# <a name="imapigetsessiongetmapisession"></a><span data-ttu-id="bcc53-103">IMAPIGetSession::GetMAPISession</span><span class="sxs-lookup"><span data-stu-id="bcc53-103">IMAPIGetSession::GetMAPISession</span></span>
 
   
   
-<span data-ttu-id="3d884-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3d884-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bcc53-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bcc53-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3d884-105">返回一个指针, 指向与 mapi 支持对象相关联的 mapi 会话。</span><span class="sxs-lookup"><span data-stu-id="3d884-105">Returns a pointer to the MAPI session associated with the MAPI support object.</span></span>
+<span data-ttu-id="bcc53-105">返回一个指向与 MAPI 支持对象关联的 MAPI 会话的指针。</span><span class="sxs-lookup"><span data-stu-id="bcc53-105">Returns a pointer to the MAPI session associated with the MAPI support object.</span></span>
   
 ```cpp
 HRESULT GetMAPISession(
@@ -33,18 +33,18 @@ HRESULT GetMAPISession(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3d884-106">参数</span><span class="sxs-lookup"><span data-stu-id="3d884-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bcc53-106">参数</span><span class="sxs-lookup"><span data-stu-id="bcc53-106">Parameters</span></span>
 
- <span data-ttu-id="3d884-107">_lppSession_</span><span class="sxs-lookup"><span data-stu-id="3d884-107">_lppSession_</span></span>
+ <span data-ttu-id="bcc53-107">_lppSession_</span><span class="sxs-lookup"><span data-stu-id="bcc53-107">_lppSession_</span></span>
   
-> <span data-ttu-id="3d884-108">排除指向当前 MAPI 会话的指针。</span><span class="sxs-lookup"><span data-stu-id="3d884-108">[out] A pointer to the current MAPI session.</span></span>
+> <span data-ttu-id="bcc53-108">[out]指向当前 MAPI 会话的指针。</span><span class="sxs-lookup"><span data-stu-id="bcc53-108">[out] A pointer to the current MAPI session.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="3d884-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3d884-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bcc53-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bcc53-109">See also</span></span>
 
 
 
-[<span data-ttu-id="3d884-110">IMAPIGetSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3d884-110">IMAPIGetSession : IUnknown</span></span>](imapigetsessioniunknown.md)
+[<span data-ttu-id="bcc53-110">IMAPIGetSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bcc53-110">IMAPIGetSession : IUnknown</span></span>](imapigetsessioniunknown.md)
 
 
-[<span data-ttu-id="3d884-111">支持对象概述</span><span class="sxs-lookup"><span data-stu-id="3d884-111">Support Object Overview</span></span>](support-object-overview.md)
+[<span data-ttu-id="bcc53-111">支持对象概述</span><span class="sxs-lookup"><span data-stu-id="bcc53-111">Support Object Overview</span></span>](support-object-overview.md)
 

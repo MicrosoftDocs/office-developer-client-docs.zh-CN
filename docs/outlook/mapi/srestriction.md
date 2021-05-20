@@ -19,17 +19,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439357"
 ---
-# <a name="srestriction"></a><span data-ttu-id="3df4b-103">SRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-103">SRestriction</span></span>
+# <a name="srestriction"></a><span data-ttu-id="2a049-103">SRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-103">SRestriction</span></span>
 
   
   
-<span data-ttu-id="3df4b-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3df4b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2a049-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2a049-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3df4b-105">介绍用于将表的视图限制为特定行的筛选器。</span><span class="sxs-lookup"><span data-stu-id="3df4b-105">Describes a filter for limiting the view of a table to particular rows.</span></span> 
+<span data-ttu-id="2a049-105">描述用于将表的视图限制到特定行的筛选器。</span><span class="sxs-lookup"><span data-stu-id="2a049-105">Describes a filter for limiting the view of a table to particular rows.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3df4b-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="3df4b-106">Header file:</span></span>  <br/> |<span data-ttu-id="3df4b-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="3df4b-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="2a049-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="2a049-106">Header file:</span></span>  <br/> |<span data-ttu-id="2a049-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="2a049-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SRestriction
@@ -53,107 +53,107 @@ typedef struct _SRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="3df4b-108">Members</span><span class="sxs-lookup"><span data-stu-id="3df4b-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="2a049-108">Members</span><span class="sxs-lookup"><span data-stu-id="2a049-108">Members</span></span>
 
- <span data-ttu-id="3df4b-109">**rt**</span><span class="sxs-lookup"><span data-stu-id="3df4b-109">**rt**</span></span>
+ <span data-ttu-id="2a049-109">**rt**</span><span class="sxs-lookup"><span data-stu-id="2a049-109">**rt**</span></span>
   
-> <span data-ttu-id="3df4b-110">限制类型。</span><span class="sxs-lookup"><span data-stu-id="3df4b-110">The restriction type.</span></span> <span data-ttu-id="3df4b-111">可能的值如下所示:</span><span class="sxs-lookup"><span data-stu-id="3df4b-111">Possible values are as follows:</span></span> 
+> <span data-ttu-id="2a049-110">限制类型。</span><span class="sxs-lookup"><span data-stu-id="2a049-110">The restriction type.</span></span> <span data-ttu-id="2a049-111">可能的值如下所示：</span><span class="sxs-lookup"><span data-stu-id="2a049-111">Possible values are as follows:</span></span> 
     
-<span data-ttu-id="3df4b-112">RES_AND</span><span class="sxs-lookup"><span data-stu-id="3df4b-112">RES_AND</span></span> 
+<span data-ttu-id="2a049-112">RES_AND</span><span class="sxs-lookup"><span data-stu-id="2a049-112">RES_AND</span></span> 
   
-> <span data-ttu-id="3df4b-113">**和**限制, 这将对限制应用按位**and**运算。</span><span class="sxs-lookup"><span data-stu-id="3df4b-113">An **AND** restriction, which applies a bitwise **AND** operation to a restriction.</span></span> 
+> <span data-ttu-id="2a049-113">AND 限制，它将位 **AND** 操作应用于限制。</span><span class="sxs-lookup"><span data-stu-id="2a049-113">An **AND** restriction, which applies a bitwise **AND** operation to a restriction.</span></span> 
     
-<span data-ttu-id="3df4b-114">RES_BITMASK</span><span class="sxs-lookup"><span data-stu-id="3df4b-114">RES_BITMASK</span></span> 
+<span data-ttu-id="2a049-114">RES_BITMASK</span><span class="sxs-lookup"><span data-stu-id="2a049-114">RES_BITMASK</span></span> 
   
-> <span data-ttu-id="3df4b-115">一个位掩码限制, 它将位掩码应用于属性值。</span><span class="sxs-lookup"><span data-stu-id="3df4b-115">A bitmask restriction, which applies a bitmask to a property value.</span></span>
+> <span data-ttu-id="2a049-115">位掩码限制，它将位掩码应用于属性值。</span><span class="sxs-lookup"><span data-stu-id="2a049-115">A bitmask restriction, which applies a bitmask to a property value.</span></span>
     
-<span data-ttu-id="3df4b-116">RES_COMMENT</span><span class="sxs-lookup"><span data-stu-id="3df4b-116">RES_COMMENT</span></span> 
+<span data-ttu-id="2a049-116">RES_COMMENT</span><span class="sxs-lookup"><span data-stu-id="2a049-116">RES_COMMENT</span></span> 
   
-> <span data-ttu-id="3df4b-117">一种注释限制, 它将注释与限制相关联。</span><span class="sxs-lookup"><span data-stu-id="3df4b-117">A comment restriction, which associates a comment with a restriction.</span></span>
+> <span data-ttu-id="2a049-117">注释限制，将注释与限制关联。</span><span class="sxs-lookup"><span data-stu-id="2a049-117">A comment restriction, which associates a comment with a restriction.</span></span>
     
-<span data-ttu-id="3df4b-118">RES_COMPAREPROPS</span><span class="sxs-lookup"><span data-stu-id="3df4b-118">RES_COMPAREPROPS</span></span> 
+<span data-ttu-id="2a049-118">RES_COMPAREPROPS</span><span class="sxs-lookup"><span data-stu-id="2a049-118">RES_COMPAREPROPS</span></span> 
   
-> <span data-ttu-id="3df4b-119">属性比较限制, 它将比较两个属性值。</span><span class="sxs-lookup"><span data-stu-id="3df4b-119">A property comparison restriction, which compares two property values.</span></span>
+> <span data-ttu-id="2a049-119">属性比较限制，用于比较两个属性值。</span><span class="sxs-lookup"><span data-stu-id="2a049-119">A property comparison restriction, which compares two property values.</span></span>
     
-<span data-ttu-id="3df4b-120">RES_CONTENT</span><span class="sxs-lookup"><span data-stu-id="3df4b-120">RES_CONTENT</span></span> 
+<span data-ttu-id="2a049-120">RES_CONTENT</span><span class="sxs-lookup"><span data-stu-id="2a049-120">RES_CONTENT</span></span> 
   
-> <span data-ttu-id="3df4b-121">内容限制, 用于搜索特定内容的属性值。</span><span class="sxs-lookup"><span data-stu-id="3df4b-121">A content restriction, which searches a property value for specific content.</span></span>
+> <span data-ttu-id="2a049-121">内容限制，用于搜索特定内容的属性值。</span><span class="sxs-lookup"><span data-stu-id="2a049-121">A content restriction, which searches a property value for specific content.</span></span>
     
-<span data-ttu-id="3df4b-122">RES_EXIST</span><span class="sxs-lookup"><span data-stu-id="3df4b-122">RES_EXIST</span></span> 
+<span data-ttu-id="2a049-122">RES_EXIST</span><span class="sxs-lookup"><span data-stu-id="2a049-122">RES_EXIST</span></span> 
   
-> <span data-ttu-id="3df4b-123">一个存在的限制, 用于确定是否支持某个属性。</span><span class="sxs-lookup"><span data-stu-id="3df4b-123">An exist restriction, which determines whether a property is supported.</span></span>
+> <span data-ttu-id="2a049-123">存在一个限制，用于确定属性是否受支持。</span><span class="sxs-lookup"><span data-stu-id="2a049-123">An exist restriction, which determines whether a property is supported.</span></span>
     
-<span data-ttu-id="3df4b-124">RES_NOT</span><span class="sxs-lookup"><span data-stu-id="3df4b-124">RES_NOT</span></span> 
+<span data-ttu-id="2a049-124">RES_NOT</span><span class="sxs-lookup"><span data-stu-id="2a049-124">RES_NOT</span></span> 
   
-> <span data-ttu-id="3df4b-125">一个**不**受限制, 它将逻辑**非**操作应用于限制。</span><span class="sxs-lookup"><span data-stu-id="3df4b-125">A **NOT** restriction, which applies a logical **NOT** operation to a restriction.</span></span> 
+> <span data-ttu-id="2a049-125">**NOT** 限制，它将逻辑 **NOT** 操作应用于限制。</span><span class="sxs-lookup"><span data-stu-id="2a049-125">A **NOT** restriction, which applies a logical **NOT** operation to a restriction.</span></span> 
     
-<span data-ttu-id="3df4b-126">RES_OR</span><span class="sxs-lookup"><span data-stu-id="3df4b-126">RES_OR</span></span> 
+<span data-ttu-id="2a049-126">RES_OR</span><span class="sxs-lookup"><span data-stu-id="2a049-126">RES_OR</span></span> 
   
-> <span data-ttu-id="3df4b-127">**或**限制, 这将对限制应用逻辑**或**操作。</span><span class="sxs-lookup"><span data-stu-id="3df4b-127">An **OR** restriction, which applies a logical **OR** operation to a restriction.</span></span> 
+> <span data-ttu-id="2a049-127">**OR** 限制，它将逻辑 **OR** 操作应用于限制。</span><span class="sxs-lookup"><span data-stu-id="2a049-127">An **OR** restriction, which applies a logical **OR** operation to a restriction.</span></span> 
     
-<span data-ttu-id="3df4b-128">RES_PROPERTY</span><span class="sxs-lookup"><span data-stu-id="3df4b-128">RES_PROPERTY</span></span> 
+<span data-ttu-id="2a049-128">RES_PROPERTY</span><span class="sxs-lookup"><span data-stu-id="2a049-128">RES_PROPERTY</span></span> 
   
-> <span data-ttu-id="3df4b-129">属性限制, 用于确定属性值是否与特定值匹配。</span><span class="sxs-lookup"><span data-stu-id="3df4b-129">A property restriction, which determines whether a property value matches a particular value.</span></span>
+> <span data-ttu-id="2a049-129">属性限制，用于确定属性值是否与特定值匹配。</span><span class="sxs-lookup"><span data-stu-id="2a049-129">A property restriction, which determines whether a property value matches a particular value.</span></span>
     
-<span data-ttu-id="3df4b-130">RES_SIZE</span><span class="sxs-lookup"><span data-stu-id="3df4b-130">RES_SIZE</span></span> 
+<span data-ttu-id="2a049-130">RES_SIZE</span><span class="sxs-lookup"><span data-stu-id="2a049-130">RES_SIZE</span></span> 
   
-> <span data-ttu-id="3df4b-131">大小限制, 用于确定属性值是否为特定大小。</span><span class="sxs-lookup"><span data-stu-id="3df4b-131">A size restriction, which determines whether a property value is a particular size.</span></span>
+> <span data-ttu-id="2a049-131">大小限制，用于确定属性值是否是特定大小。</span><span class="sxs-lookup"><span data-stu-id="2a049-131">A size restriction, which determines whether a property value is a particular size.</span></span>
     
-<span data-ttu-id="3df4b-132">RES_SUBRESTRICTION</span><span class="sxs-lookup"><span data-stu-id="3df4b-132">RES_SUBRESTRICTION</span></span> 
+<span data-ttu-id="2a049-132">RES_SUBRESTRICTION</span><span class="sxs-lookup"><span data-stu-id="2a049-132">RES_SUBRESTRICTION</span></span> 
   
-> <span data-ttu-id="3df4b-133">子对象限制, 它对邮件的附件或收件人应用限制。</span><span class="sxs-lookup"><span data-stu-id="3df4b-133">A sub-object restriction, which applies a restriction to a message's attachments or recipients.</span></span>
+> <span data-ttu-id="2a049-133">子对象限制，对邮件的附件或收件人应用限制。</span><span class="sxs-lookup"><span data-stu-id="2a049-133">A sub-object restriction, which applies a restriction to a message's attachments or recipients.</span></span>
     
- <span data-ttu-id="3df4b-134">**res**</span><span class="sxs-lookup"><span data-stu-id="3df4b-134">**res**</span></span>
+ <span data-ttu-id="2a049-134">**res**</span><span class="sxs-lookup"><span data-stu-id="2a049-134">**res**</span></span>
   
-> <span data-ttu-id="3df4b-135">限制结构的联合, 用于描述要应用的筛选器。</span><span class="sxs-lookup"><span data-stu-id="3df4b-135">Union of restriction structures describing the filter to be applied.</span></span> <span data-ttu-id="3df4b-136">**res**成员中包含的特定结构取决于**rt**成员的值。</span><span class="sxs-lookup"><span data-stu-id="3df4b-136">The specific structure included in the **res** member depends on the value of the **rt** member.</span></span> <span data-ttu-id="3df4b-137">在下表中列出了限制类型和结构之间的映射。</span><span class="sxs-lookup"><span data-stu-id="3df4b-137">The mapping between restriction type and structure is listed in the following table.</span></span> 
+> <span data-ttu-id="2a049-135">描述要应用的筛选器的限制结构联合。</span><span class="sxs-lookup"><span data-stu-id="2a049-135">Union of restriction structures describing the filter to be applied.</span></span> <span data-ttu-id="2a049-136">res 成员中包含的 **特定** 结构取决于 **rt** 成员的值。</span><span class="sxs-lookup"><span data-stu-id="2a049-136">The specific structure included in the **res** member depends on the value of the **rt** member.</span></span> <span data-ttu-id="2a049-137">下表列出了限制类型和结构之间的映射。</span><span class="sxs-lookup"><span data-stu-id="2a049-137">The mapping between restriction type and structure is listed in the following table.</span></span> 
     
 |||
 |:-----|:-----|
-|<span data-ttu-id="3df4b-138">**限制类型**</span><span class="sxs-lookup"><span data-stu-id="3df4b-138">**Restriction type**</span></span> <br/> |<span data-ttu-id="3df4b-139">**限制结构**</span><span class="sxs-lookup"><span data-stu-id="3df4b-139">**Restriction structure**</span></span> <br/> |
-|<span data-ttu-id="3df4b-140">RES_AND</span><span class="sxs-lookup"><span data-stu-id="3df4b-140">RES_AND</span></span>  <br/> |[<span data-ttu-id="3df4b-141">SAndRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-141">SAndRestriction</span></span>](sandrestriction.md) <br/> |
-|<span data-ttu-id="3df4b-142">RES_BITMASK</span><span class="sxs-lookup"><span data-stu-id="3df4b-142">RES_BITMASK</span></span>  <br/> |[<span data-ttu-id="3df4b-143">SBitMaskRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-143">SBitMaskRestriction</span></span>](sbitmaskrestriction.md) <br/> |
-|<span data-ttu-id="3df4b-144">RES_COMMENT</span><span class="sxs-lookup"><span data-stu-id="3df4b-144">RES_COMMENT</span></span>  <br/> |[<span data-ttu-id="3df4b-145">SCommentRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-145">SCommentRestriction</span></span>](scommentrestriction.md) <br/> |
-|<span data-ttu-id="3df4b-146">RES_COMPAREPROPS</span><span class="sxs-lookup"><span data-stu-id="3df4b-146">RES_COMPAREPROPS</span></span>  <br/> |[<span data-ttu-id="3df4b-147">SComparePropsRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-147">SComparePropsRestriction</span></span>](scomparepropsrestriction.md) <br/> |
-|<span data-ttu-id="3df4b-148">RES_CONTENT</span><span class="sxs-lookup"><span data-stu-id="3df4b-148">RES_CONTENT</span></span>  <br/> |[<span data-ttu-id="3df4b-149">SContentRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-149">SContentRestriction</span></span>](scontentrestriction.md) <br/> |
-|<span data-ttu-id="3df4b-150">RES_EXIST</span><span class="sxs-lookup"><span data-stu-id="3df4b-150">RES_EXIST</span></span>  <br/> |[<span data-ttu-id="3df4b-151">SExistRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-151">SExistRestriction</span></span>](sexistrestriction.md) <br/> |
-|<span data-ttu-id="3df4b-152">RES_NOT</span><span class="sxs-lookup"><span data-stu-id="3df4b-152">RES_NOT</span></span>  <br/> |[<span data-ttu-id="3df4b-153">SNotRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-153">SNotRestriction</span></span>](snotrestriction.md) <br/> |
-|<span data-ttu-id="3df4b-154">RES_OR</span><span class="sxs-lookup"><span data-stu-id="3df4b-154">RES_OR</span></span>  <br/> |[<span data-ttu-id="3df4b-155">SOrRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-155">SOrRestriction</span></span>](sorrestriction.md) <br/> |
-|<span data-ttu-id="3df4b-156">RES_PROPERTY</span><span class="sxs-lookup"><span data-stu-id="3df4b-156">RES_PROPERTY</span></span>  <br/> |[<span data-ttu-id="3df4b-157">SPropertyRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-157">SPropertyRestriction</span></span>](spropertyrestriction.md) <br/> |
-|<span data-ttu-id="3df4b-158">RES_SIZE</span><span class="sxs-lookup"><span data-stu-id="3df4b-158">RES_SIZE</span></span>  <br/> |[<span data-ttu-id="3df4b-159">SSizeRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-159">SSizeRestriction</span></span>](ssizerestriction.md) <br/> |
-|<span data-ttu-id="3df4b-160">RES_SUBRESTRICTION</span><span class="sxs-lookup"><span data-stu-id="3df4b-160">RES_SUBRESTRICTION</span></span>  <br/> |[<span data-ttu-id="3df4b-161">SSubRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-161">SSubRestriction</span></span>](ssubrestriction.md) <br/> |
+|<span data-ttu-id="2a049-138">**限制类型**</span><span class="sxs-lookup"><span data-stu-id="2a049-138">**Restriction type**</span></span> <br/> |<span data-ttu-id="2a049-139">**限制结构**</span><span class="sxs-lookup"><span data-stu-id="2a049-139">**Restriction structure**</span></span> <br/> |
+|<span data-ttu-id="2a049-140">RES_AND</span><span class="sxs-lookup"><span data-stu-id="2a049-140">RES_AND</span></span>  <br/> |[<span data-ttu-id="2a049-141">SAndRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-141">SAndRestriction</span></span>](sandrestriction.md) <br/> |
+|<span data-ttu-id="2a049-142">RES_BITMASK</span><span class="sxs-lookup"><span data-stu-id="2a049-142">RES_BITMASK</span></span>  <br/> |[<span data-ttu-id="2a049-143">SBitMaskRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-143">SBitMaskRestriction</span></span>](sbitmaskrestriction.md) <br/> |
+|<span data-ttu-id="2a049-144">RES_COMMENT</span><span class="sxs-lookup"><span data-stu-id="2a049-144">RES_COMMENT</span></span>  <br/> |[<span data-ttu-id="2a049-145">SCommentRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-145">SCommentRestriction</span></span>](scommentrestriction.md) <br/> |
+|<span data-ttu-id="2a049-146">RES_COMPAREPROPS</span><span class="sxs-lookup"><span data-stu-id="2a049-146">RES_COMPAREPROPS</span></span>  <br/> |[<span data-ttu-id="2a049-147">SComparePropsRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-147">SComparePropsRestriction</span></span>](scomparepropsrestriction.md) <br/> |
+|<span data-ttu-id="2a049-148">RES_CONTENT</span><span class="sxs-lookup"><span data-stu-id="2a049-148">RES_CONTENT</span></span>  <br/> |[<span data-ttu-id="2a049-149">SContentRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-149">SContentRestriction</span></span>](scontentrestriction.md) <br/> |
+|<span data-ttu-id="2a049-150">RES_EXIST</span><span class="sxs-lookup"><span data-stu-id="2a049-150">RES_EXIST</span></span>  <br/> |[<span data-ttu-id="2a049-151">SExistRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-151">SExistRestriction</span></span>](sexistrestriction.md) <br/> |
+|<span data-ttu-id="2a049-152">RES_NOT</span><span class="sxs-lookup"><span data-stu-id="2a049-152">RES_NOT</span></span>  <br/> |[<span data-ttu-id="2a049-153">SNotRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-153">SNotRestriction</span></span>](snotrestriction.md) <br/> |
+|<span data-ttu-id="2a049-154">RES_OR</span><span class="sxs-lookup"><span data-stu-id="2a049-154">RES_OR</span></span>  <br/> |[<span data-ttu-id="2a049-155">SOrRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-155">SOrRestriction</span></span>](sorrestriction.md) <br/> |
+|<span data-ttu-id="2a049-156">RES_PROPERTY</span><span class="sxs-lookup"><span data-stu-id="2a049-156">RES_PROPERTY</span></span>  <br/> |[<span data-ttu-id="2a049-157">SPropertyRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-157">SPropertyRestriction</span></span>](spropertyrestriction.md) <br/> |
+|<span data-ttu-id="2a049-158">RES_SIZE</span><span class="sxs-lookup"><span data-stu-id="2a049-158">RES_SIZE</span></span>  <br/> |[<span data-ttu-id="2a049-159">SSizeRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-159">SSizeRestriction</span></span>](ssizerestriction.md) <br/> |
+|<span data-ttu-id="2a049-160">RES_SUBRESTRICTION</span><span class="sxs-lookup"><span data-stu-id="2a049-160">RES_SUBRESTRICTION</span></span>  <br/> |[<span data-ttu-id="2a049-161">SSubRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-161">SSubRestriction</span></span>](ssubrestriction.md) <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3df4b-162">说明</span><span class="sxs-lookup"><span data-stu-id="3df4b-162">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2a049-162">备注</span><span class="sxs-lookup"><span data-stu-id="2a049-162">Remarks</span></span>
 
-<span data-ttu-id="3df4b-163">客户端使用**SRestriction**结构来限制其表视图中的行数和类型, 并在文件夹中搜索特定邮件。</span><span class="sxs-lookup"><span data-stu-id="3df4b-163">Clients use an **SRestriction** structure to limit the number and type of rows in their view of a table and to search for specific messages in a folder.</span></span> <span data-ttu-id="3df4b-164">若要对表施加限制, 客户端可以调用[IMAPITable:: Restrict](imapitable-restrict.md)或[IMAPITable:: FindRow](imapitable-findrow.md)。</span><span class="sxs-lookup"><span data-stu-id="3df4b-164">To impose the limitation on a table, clients call either [IMAPITable::Restrict](imapitable-restrict.md) or [IMAPITable::FindRow](imapitable-findrow.md).</span></span> <span data-ttu-id="3df4b-165">若要对文件夹施加限制, 客户端可以调用文件夹的[IMAPIContainer:: SetSearchCriteria](imapicontainer-setsearchcriteria.md)方法。</span><span class="sxs-lookup"><span data-stu-id="3df4b-165">To impose the limitation on a folder, clients call the folder's [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) method.</span></span> 
+<span data-ttu-id="2a049-163">客户端使用 **SRestriction** 结构来限制表视图中的行数和类型，并搜索文件夹中的特定邮件。</span><span class="sxs-lookup"><span data-stu-id="2a049-163">Clients use an **SRestriction** structure to limit the number and type of rows in their view of a table and to search for specific messages in a folder.</span></span> <span data-ttu-id="2a049-164">为了对表施加限制，客户端调用 [IMAPITable：：Restrict](imapitable-restrict.md) 或 [IMAPITable：：FindRow](imapitable-findrow.md)。</span><span class="sxs-lookup"><span data-stu-id="2a049-164">To impose the limitation on a table, clients call either [IMAPITable::Restrict](imapitable-restrict.md) or [IMAPITable::FindRow](imapitable-findrow.md).</span></span> <span data-ttu-id="2a049-165">为了对文件夹施加限制，客户端调用该文件夹的 [IMAPIContainer：：SetSearchCriteria](imapicontainer-setsearchcriteria.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="2a049-165">To impose the limitation on a folder, clients call the folder's [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) method.</span></span> 
   
-<span data-ttu-id="3df4b-166">有关如何对表使用限制的信息, 请参阅[关于限制](about-restrictions.md)。</span><span class="sxs-lookup"><span data-stu-id="3df4b-166">For information about how to use restrictions with tables, see [About Restrictions](about-restrictions.md).</span></span> 
+<span data-ttu-id="2a049-166">若要了解如何对表使用限制，请参阅关于 [限制](about-restrictions.md)。</span><span class="sxs-lookup"><span data-stu-id="2a049-166">For information about how to use restrictions with tables, see [About Restrictions](about-restrictions.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="3df4b-167">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3df4b-167">See also</span></span>
-
-
-
-[<span data-ttu-id="3df4b-168">SAndRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-168">SAndRestriction</span></span>](sandrestriction.md)
-  
-[<span data-ttu-id="3df4b-169">SBitMaskRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-169">SBitMaskRestriction</span></span>](sbitmaskrestriction.md)
-  
-[<span data-ttu-id="3df4b-170">SCommentRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-170">SCommentRestriction</span></span>](scommentrestriction.md)
-  
-[<span data-ttu-id="3df4b-171">SComparePropsRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-171">SComparePropsRestriction</span></span>](scomparepropsrestriction.md)
-  
-[<span data-ttu-id="3df4b-172">SContentRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-172">SContentRestriction</span></span>](scontentrestriction.md)
-  
-[<span data-ttu-id="3df4b-173">SExistRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-173">SExistRestriction</span></span>](sexistrestriction.md)
-  
-[<span data-ttu-id="3df4b-174">SNotRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-174">SNotRestriction</span></span>](snotrestriction.md)
-  
-[<span data-ttu-id="3df4b-175">SOrRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-175">SOrRestriction</span></span>](sorrestriction.md)
-  
-[<span data-ttu-id="3df4b-176">SPropertyRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-176">SPropertyRestriction</span></span>](spropertyrestriction.md)
-  
-[<span data-ttu-id="3df4b-177">SSizeRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-177">SSizeRestriction</span></span>](ssizerestriction.md)
-  
-[<span data-ttu-id="3df4b-178">SSubRestriction</span><span class="sxs-lookup"><span data-stu-id="3df4b-178">SSubRestriction</span></span>](ssubrestriction.md)
+## <a name="see-also"></a><span data-ttu-id="2a049-167">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2a049-167">See also</span></span>
 
 
-[<span data-ttu-id="3df4b-179">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="3df4b-179">MAPI Structures</span></span>](mapi-structures.md)
+
+[<span data-ttu-id="2a049-168">SAndRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-168">SAndRestriction</span></span>](sandrestriction.md)
+  
+[<span data-ttu-id="2a049-169">SBitMaskRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-169">SBitMaskRestriction</span></span>](sbitmaskrestriction.md)
+  
+[<span data-ttu-id="2a049-170">SCommentRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-170">SCommentRestriction</span></span>](scommentrestriction.md)
+  
+[<span data-ttu-id="2a049-171">SComparePropsRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-171">SComparePropsRestriction</span></span>](scomparepropsrestriction.md)
+  
+[<span data-ttu-id="2a049-172">SContentRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-172">SContentRestriction</span></span>](scontentrestriction.md)
+  
+[<span data-ttu-id="2a049-173">SExistRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-173">SExistRestriction</span></span>](sexistrestriction.md)
+  
+[<span data-ttu-id="2a049-174">SNotRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-174">SNotRestriction</span></span>](snotrestriction.md)
+  
+[<span data-ttu-id="2a049-175">SOrRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-175">SOrRestriction</span></span>](sorrestriction.md)
+  
+[<span data-ttu-id="2a049-176">SPropertyRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-176">SPropertyRestriction</span></span>](spropertyrestriction.md)
+  
+[<span data-ttu-id="2a049-177">SSizeRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-177">SSizeRestriction</span></span>](ssizerestriction.md)
+  
+[<span data-ttu-id="2a049-178">SSubRestriction</span><span class="sxs-lookup"><span data-stu-id="2a049-178">SSubRestriction</span></span>](ssubrestriction.md)
+
+
+[<span data-ttu-id="2a049-179">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="2a049-179">MAPI Structures</span></span>](mapi-structures.md)
 

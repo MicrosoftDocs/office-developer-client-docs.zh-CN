@@ -19,27 +19,27 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439329"
 ---
-# <a name="icontabadmin--iunknown"></a><span data-ttu-id="6817c-103">IContabAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="6817c-103">IContabAdmin : IUnknown</span></span>
+# <a name="icontabadmin--iunknown"></a><span data-ttu-id="dbe6a-103">IContabAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="dbe6a-103">IContabAdmin : IUnknown</span></span>
 
   
   
-<span data-ttu-id="6817c-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6817c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="dbe6a-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dbe6a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6817c-105">从 microsoft outlook 2010 和 microsoft outlook 2013 通讯簿中删除联系人文件夹。</span><span class="sxs-lookup"><span data-stu-id="6817c-105">Removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 2013 address book.</span></span>
+<span data-ttu-id="dbe6a-105">从通讯簿中删除联系人Microsoft Outlook 2010 Microsoft Outlook 2013文件夹。</span><span class="sxs-lookup"><span data-stu-id="dbe6a-105">Removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 2013 address book.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6817c-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="6817c-106">Header file:</span></span>  <br/> |<span data-ttu-id="6817c-107">cabadmin</span><span class="sxs-lookup"><span data-stu-id="6817c-107">cabadmin.h</span></span>  <br/> |
-|<span data-ttu-id="6817c-108">公开者:</span><span class="sxs-lookup"><span data-stu-id="6817c-108">Exposed by:</span></span>  <br/> ||
-|<span data-ttu-id="6817c-109">实现者：</span><span class="sxs-lookup"><span data-stu-id="6817c-109">Implemented by:</span></span>  <br/> |[<span data-ttu-id="6817c-110">IABContainer : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="6817c-110">IABContainer : IMAPIContainer</span></span>](iabcontainerimapicontainer.md) <br/> |
-|<span data-ttu-id="6817c-111">调用者：</span><span class="sxs-lookup"><span data-stu-id="6817c-111">Called by:</span></span>  <br/> |<span data-ttu-id="6817c-112">CRM</span><span class="sxs-lookup"><span data-stu-id="6817c-112">CRM</span></span>  <br/> |
-|<span data-ttu-id="6817c-113">接口标识符:</span><span class="sxs-lookup"><span data-stu-id="6817c-113">Interface identifier:</span></span>  <br/> |<span data-ttu-id="6817c-114">IID_IContabAdmin</span><span class="sxs-lookup"><span data-stu-id="6817c-114">IID_IContabAdmin</span></span>  <br/> |
-|<span data-ttu-id="6817c-115">指针类型:</span><span class="sxs-lookup"><span data-stu-id="6817c-115">Pointer type:</span></span>  <br/> ||
+|<span data-ttu-id="dbe6a-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="dbe6a-106">Header file:</span></span>  <br/> |<span data-ttu-id="dbe6a-107">cabadmin.h</span><span class="sxs-lookup"><span data-stu-id="dbe6a-107">cabadmin.h</span></span>  <br/> |
+|<span data-ttu-id="dbe6a-108">公开者：</span><span class="sxs-lookup"><span data-stu-id="dbe6a-108">Exposed by:</span></span>  <br/> ||
+|<span data-ttu-id="dbe6a-109">实现者：</span><span class="sxs-lookup"><span data-stu-id="dbe6a-109">Implemented by:</span></span>  <br/> |[<span data-ttu-id="dbe6a-110">IABContainer : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="dbe6a-110">IABContainer : IMAPIContainer</span></span>](iabcontainerimapicontainer.md) <br/> |
+|<span data-ttu-id="dbe6a-111">调用者：</span><span class="sxs-lookup"><span data-stu-id="dbe6a-111">Called by:</span></span>  <br/> |<span data-ttu-id="dbe6a-112">CRM</span><span class="sxs-lookup"><span data-stu-id="dbe6a-112">CRM</span></span>  <br/> |
+|<span data-ttu-id="dbe6a-113">接口标识符：</span><span class="sxs-lookup"><span data-stu-id="dbe6a-113">Interface identifier:</span></span>  <br/> |<span data-ttu-id="dbe6a-114">IID_IContabAdmin</span><span class="sxs-lookup"><span data-stu-id="dbe6a-114">IID_IContabAdmin</span></span>  <br/> |
+|<span data-ttu-id="dbe6a-115">指针类型：</span><span class="sxs-lookup"><span data-stu-id="dbe6a-115">Pointer type:</span></span>  <br/> ||
    
-## <a name="vtable-order"></a><span data-ttu-id="6817c-116">Vtable 顺序</span><span class="sxs-lookup"><span data-stu-id="6817c-116">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="dbe6a-116">Vtable 顺序</span><span class="sxs-lookup"><span data-stu-id="dbe6a-116">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="6817c-117">IContabAdmin::RemoveStore</span><span class="sxs-lookup"><span data-stu-id="6817c-117">IContabAdmin::RemoveStore</span></span>](icontabadmin-removestore.md) <br/> |<span data-ttu-id="6817c-118">从通讯簿层次结构中删除由给定条目 ID 指定的联系人通讯簿 (CAB)。</span><span class="sxs-lookup"><span data-stu-id="6817c-118">Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.</span></span>  <br/> |
+|[<span data-ttu-id="dbe6a-117">IContabAdmin::RemoveStore</span><span class="sxs-lookup"><span data-stu-id="dbe6a-117">IContabAdmin::RemoveStore</span></span>](icontabadmin-removestore.md) <br/> |<span data-ttu-id="dbe6a-118">从通讯簿层次结构中删除 (CAB) 指定的联系人通讯簿。</span><span class="sxs-lookup"><span data-stu-id="dbe6a-118">Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.</span></span>  <br/> |
    
 
