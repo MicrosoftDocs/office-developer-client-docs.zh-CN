@@ -25,15 +25,15 @@ ms.locfileid: "33428583"
   
 ### <a name="open-a-managed-code-form-template-created-with-the-infopath-toolkit-and-maintain-compatibility-with-infopath-2003-using-visual-studio-tools-for-applications"></a>打开使用 InfoPath 工具包创建的托管代码表单模板，并保持与使用 Visual Studio Tools for Applications 的 InfoPath 2003 的兼容性
 
-1. 打开 InfoPath Designer，然后单击“文件”**** 选项卡上的“打开”****。 
+1. 打开 InfoPath Designer，然后单击“文件”选项卡上的“打开”。 
     
-2. 在“在设计模式中打开”**** 对话框中，导航到保存 InfoPath 工具包表单模板项目的项目文件夹。 
+2. 在“在设计模式中打开”对话框中，导航到保存 InfoPath 工具包表单模板项目的项目文件夹。 
     
     默认情况下，这是创建项目的计算机上的  `C:\Users\` *用户名*  `\Documents\Visual Studio Projects` 中的文件夹。您也可以将该文件夹移动到 InfoPath 存储 Visual Studio 2008 项目的位置，该位置默认情况下为  `C:\Users\` *用户名*  `\Documents\InfoPath Projects`
     
-3. 单击名为 manifest.xsf 的文件，然后单击“打开”****。
+3. 单击名为 manifest.xsf 的文件，然后单击“打开”。
     
-4. 在“开发工具”**** 选项卡上，单击“代码编辑器”****。
+4. 在“开发工具”选项卡上，单击“代码编辑器”。
     
 5. The message "This form template must be saved before you can add Visual Basic or C# code to it" is displayed. Click **OK** to continue. 
     
@@ -41,7 +41,7 @@ ms.locfileid: "33428583"
     
 7. The message "This code was created with one of the InfoPath 2003 Toolkits for Microsoft Visual Studio. InfoPath needs to migrate the toolkit project to a new format" is displayed. Click **OK** to continue. 
     
-8. 选择项目的 Visual Studio 解决方案 (.sln) 文件，然后单击“打开”****。
+8. 选择项目的 Visual Studio 解决方案 (.sln) 文件，然后单击“打开”。
     
 9. The message "Your project has been migrated" is displayed when the migration process is complete. Click **OK** to continue. 
     
@@ -51,17 +51,17 @@ ms.locfileid: "33428583"
     
 ### <a name="open-a-managed-code-form-template-created-with-the-infopath-toolkit-and-upgrade-it-to-use-the-new-infopath-object-model-using-visual-studio-tools-for-applications"></a>打开使用 InfoPath 工具包创建的托管代码表单模板，并使用 Visual Studio Tools for Applications 升级该模板以使用新的 InfoPath 对象模型
 
-1. 打开 InfoPath Designer，然后单击“文件”**** 选项卡上的“打开”****。 
+1. 打开 InfoPath Designer，然后单击“文件”选项卡上的“打开”。 
     
 2. 在 **"打开表单模板"** 下，单击 **"在'我的电脑'上"**。
     
-3. 在“在设计模式中打开”**** 对话框中，导航到保存 InfoPath 工具包表单模板项目的项目文件夹。 
+3. 在“在设计模式中打开”对话框中，导航到保存 InfoPath 工具包表单模板项目的项目文件夹。 
     
     默认情况下，这是创建项目的计算机上的  `C:\Users\` *用户名*  `\Documents\Visual Studio Projects` 中的文件夹。您也可以将该文件夹移动到 InfoPath 存储 Visual Studio 2008 项目的位置，该位置默认情况下为  `C:\Users\` *用户名*  `\Documents\InfoPath Projects`
     
-4. 单击名为 manifest.xsf 的文件，然后单击“打开”****。
+4. 单击名为 manifest.xsf 的文件，然后单击“打开”。
     
-5. 在“开发工具”**** 选项卡上，单击“代码编辑器”****。
+5. 在“开发工具”选项卡上，单击“代码编辑器”。
     
 6. The message "This form template must be saved before you can add Visual Basic or C# code to it" is displayed. Click **OK** to continue. 
     
@@ -69,7 +69,7 @@ ms.locfileid: "33428583"
     
 8. The message "This code was created with one of the InfoPath 2003 Toolkits for Microsoft Visual Studio. InfoPath needs to migrate the toolkit project to a new format" is displayed. Click **OK** to continue. 
     
-9. 选择项目的 Visual Studio 解决方案 (.sln) 文件，然后单击“打开”****。
+9. 选择项目的 Visual Studio 解决方案 (.sln) 文件，然后单击“打开”。
     
 10. The message "Your project has been migrated" is displayed when the migration process is complete. Click **OK** to continue. 
     

@@ -22,7 +22,7 @@ ms.locfileid: "33431916"
   
 ## <a name="syntax"></a>语法
 
-度 (* **角** *) 
+DEG (** *angle* ** )  
   
 ### <a name="parameters"></a>参数
 

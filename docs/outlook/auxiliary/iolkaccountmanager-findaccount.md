@@ -34,15 +34,15 @@ HRESULT IOlkAccountManager::FindAccount (
 
 _dwProp_
   
-> 实时要搜索的属性。 必须为[PROP_ACCT_ID](prop_acct_id.md)或[PROP_ACCT_IS_EXCH](prop_acct_is_exch.md)。
+> [in]要搜索的属性。 必须是 [PROP_ACCT_ID](prop_acct_id.md) 或 [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md)。
     
 _pVar_
   
-> 实时要匹配的值。
+> [in]要匹配的值。
     
 _ppAccount_
   
-> 排除找到的帐户。 此对象支持[IOlkAccount](iolkaccount.md)接口。 
+> [out]找到的帐户。 此对象支持 [IOlkAccount](iolkaccount.md) 接口。 
     
 ## <a name="return-values"></a>返回值
 

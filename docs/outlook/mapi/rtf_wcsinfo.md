@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430530"
 ---
-# <a name="rtfwcsinfo"></a>RTF_WCSINFO
+# <a name="rtf_wcsinfo"></a>RTF_WCSINFO
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通过此结构, 您可以指定信息以压缩的 rtf 格式 (rtf) 解压缩邮件正文, 也可以选择以本机格式返回正文流。
+利用此结构，您可以指定信息以压缩 RTF 格式 (RTF 格式解压缩邮件正文) （可选）以本机格式返回正文流。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -39,25 +39,25 @@ typedef struct {
 
  _size_
   
-> 以字节数表示的**RTF_WCSINFO**结构的大小。 
+> 结构的大小 **RTF_WCSINFO** 字节数。 
     
  _ulFlags_
   
-> 这是[WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)函数的选项标志的位掩码。 受支持的选项标志为: 
+> 这是 [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) 函数的选项标志的位掩码。 支持的选项标志包括： 
     
 |||
 |:-----|:-----|
-|MAPI_MODIFY  <br/> |这指示客户端是否打算写入已返回的包装流接口。  <br/> |
-|STORE_UNCOMPRESSED_RTF  <br/> |这指示是否应将解压缩的 RTF 写入[WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)函数的_lpCompressedRTFStream_指针指向的流。  <br/> |
-|MAPI_NATIVE_BODY  <br/> |这指示在返回流之前, 是否将解压缩的流也转换为本机正文。 此标志不能与**MAPI_MODIFY**标志一起使用。  <br/> |
+|MAPI_MODIFY  <br/> |这指示客户端是否打算编写返回的封装流接口。  <br/> |
+|STORE_UNCOMPRESSED_RTF  <br/> |这指示解压缩的 RTF 是否应该写入到 [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)函数的 _lpCompressedRTFStream_ 指针指向的流。  <br/> |
+|MAPI_NATIVE_BODY  <br/> |这指示在返回流之前解压缩的流是否也转换为本机正文。 此标志不能与 MAPI_MODIFY **标志组合** 。  <br/> |
    
  _ulInCodePage_
   
-> 这是邮件的代码页值。 通常, 此值是从邮件的[PidTagInternetCodepage 规范属性](pidtaginternetcodepage-canonical-property.md)获取的。 仅当在_ulFlags_中传递**MAPI_NATIVE_BODY**标志时, 才使用此值。 否则, 此值将被忽略。
+> 这是邮件的代码页值。 通常，此值从邮件上的 [PidTagInternetCodepage](pidtaginternetcodepage-canonical-property.md) 规范属性获取。 只有在 _ulFlags_**中传递** MAPI_NATIVE_BODY 标志时，才使用此值。 否则，将忽略此值。
     
  _ulOutCodePage_
   
-> 这是所需的已返回的解压缩流的代码页值。 如果将此值设置为非零值, 则[WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)函数会将流转换为指定的代码页。 如果将此值设置为零值, MAPI 将决定要使用的代码页。 仅当在_ulFlags_中传递**MAPI_NATIVE_BODY**标志且正文格式不是 RTF 时, 才使用此值。 否则, 此值将被忽略。
+> 这是您返回的解压缩流的代码页值。 如果设置为非零值 [，WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) 函数会将流转换为指定的代码页。 如果设置为零值，MAPI 将决定使用哪个代码页。 只有在 _ulFlags_ 中传递 MAPI_NATIVE_BODY 标记且正文格式不是 RTF 时，才使用此值。 否则，将忽略此值。
     
 ## <a name="see-also"></a>另请参阅
 

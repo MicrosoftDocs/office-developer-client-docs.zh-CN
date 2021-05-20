@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427148"
 ---
-# <a name="propacctdeliveryfolder"></a>PROP_ACCT_DELIVERY_FOLDER
+# <a name="prop_acct_delivery_folder"></a>PROP_ACCT_DELIVERY_FOLDER
 
 表示该帐户的默认送达文件夹的条目 ID。
   
@@ -29,7 +29,7 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x00190102  <br/> |
 |访问权限  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.
   

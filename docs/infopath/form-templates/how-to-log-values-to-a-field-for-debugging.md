@@ -19,13 +19,13 @@ ms.locfileid: "33431811"
   
 ## <a name="create-a-multi-line-text-field"></a>创建多行文本域
 
-1. 向表单中添加****“文本框”控件，然后调整其大小以便可以显示多行。 
+1. 向表单中添加“文本框”控件，然后调整其大小以便可以显示多行。 
     
-2. 右键单击文本框，单击“文本框属性”****，然后单击“显示”**** 选项卡上的“多行”**** 复选框。 
+2. 右键单击文本框，单击“文本框属性”，然后单击“显示”选项卡上的“多行”复选框。 
     
 ## <a name="add-helper-functions-to-log-debug-information-to-the-field"></a>添加帮助程序函数将调试信息记录到域中
 
-1. 在“开发人员”**** 选项卡上，单击“代码编辑器”****，然后在出现提示时保存表单模板。
+1. 在“开发人员”选项卡上，单击“代码编辑器”，然后在出现提示时保存表单模板。
     
 2. 在代码编辑器中，将以下三个帮助程序函数添加到表单代码文件中的公共类。
     
@@ -80,7 +80,7 @@ ms.locfileid: "33431811"
   
 ## <a name="test-the-addtodebugfield-function"></a>测试 AddToDebugField 函数
 
-1. 在“开发人员”**** 选项卡上，单击“加载事件”****，然后将以下代码行添加到事件处理程序。
+1. 在“开发人员”选项卡上，单击“加载事件”，然后将以下代码行添加到事件处理程序。
     
    ```cs
     AddToDebugField("Form loaded");
@@ -90,7 +90,7 @@ ms.locfileid: "33431811"
     AddToDebugField("Form loaded")
    ```
 
-2. 在“开发人员”**** 选项卡上，单击“ViewSwitched 事件”****，然后将以下代码行添加到事件处理程序。
+2. 在“开发人员”选项卡上，单击“ViewSwitched 事件”，然后将以下代码行添加到事件处理程序。
     
    ```cs
     AddToDebugField("View switched: " + this.CurrentView.ViewInfo.Name);
@@ -100,7 +100,7 @@ ms.locfileid: "33431811"
     AddToDebugField("View switched: " &amp; Me.CurrentView.ViewInfo.Name)
    ```
 
-3. 在“主页”**** 选项卡上，单击“预览”****。
+3. 在“主页”选项卡上，单击“预览”。
     
    调试域应显示两项：一项指示加载了表单，另一项指示视图的名称。这些示例使用针对打开表单时发生的事件的事件处理程序。但是，在加载表单之后，除了在表单上下文中运行的其他任何代码以外，您还可以从其他事件处理程序调用  `AddToDebugField` 函数。 
   

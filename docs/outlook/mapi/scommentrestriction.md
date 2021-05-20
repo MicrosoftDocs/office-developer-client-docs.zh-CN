@@ -25,11 +25,11 @@ ms.locfileid: "33430607"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-描述用于对限制进行批注的注释限制。 
+描述注释限制，用于注释限制。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SCommentRestriction
@@ -45,23 +45,23 @@ typedef struct _SCommentRestriction
 
  **cValues**
   
-> 由**lpProp**成员指向的数组中的属性值的计数。 
+> **lpProp** 成员指向的数组中的属性值计数。 
     
  **lpRes**
   
-> 指向[SRestriction](srestriction.md)结构的指针。 
+> 指向 [SRestriction 结构的](srestriction.md) 指针。 
     
  **lpProp**
   
-> 指向[SPropValue](spropvalue.md)结构的数组的指针, 其中每个都包含命名属性的属性标记和值。 
+> 指向 [SPropValue 结构的](spropvalue.md) 数组的指针，每个结构包含命名属性的属性标记和值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SCommentRestriction**结构将对象与一组命名属性相关联。 注释限制与其他限制不同, 因为它们不会进行评估。 即, [IMAPITable:: Restrict](imapitable-restrict.md)方法将忽略它们。 对 imapitable:: [QueryRows](imapitable-queryrows.md)方法返回的行在**imapitable:: Restrict**调用之后不会有任何影响。 
+**SCommentRestriction** 结构将对象与一组命名属性关联。 注释限制与其他限制不同，因为它们未进行评估。 即 [，IMAPITable：：Restrict](imapitable-restrict.md) 方法将忽略它们。 执行 **IMAPITable：：Restrict** 调用后 [，对 IMAPITable：：QueryRows](imapitable-queryrows.md)方法返回的行没有影响。 
   
-**SCommentRestriction**结构可用于将特定于应用程序的信息保存在磁盘上时保持限制。 例如, 在属性限制中保存所使用的命名属性的名称的客户端可以在**SCommentRestriction**结构中执行此操作。 不能在属性限制中保存属性名称, 因为关联的[SPropertyRestriction](spropertyrestriction.md)结构仅保存属性标记。 
+**SCommentRestriction** 结构可用于将特定于应用程序的信息保存在磁盘上时具有限制。 例如，保存属性限制中使用的命名属性的名称的客户端可以在 **SCommentRestriction** 结构中这样做。 在属性限制中无法保存属性名称，因为关联的 [SPropertyRestriction](spropertyrestriction.md) 结构仅保留属性标记。 
   
-有关**SCommentRestriction**结构和限制的详细信息, 请参阅[关于限制](about-restrictions.md)。 
+有关 **SCommentRestriction** 结构和限制的一般详细信息，请参阅关于 [限制](about-restrictions.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

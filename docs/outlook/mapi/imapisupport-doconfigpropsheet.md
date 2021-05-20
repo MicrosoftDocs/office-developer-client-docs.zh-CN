@@ -42,43 +42,43 @@ HRESULT DoConfigPropsheet(
 
  _ulUIParam_
   
-> 实时属性表的父窗口的句柄。
+> [in]父窗口的句柄属性表。
     
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lpszTitle_
   
-> 实时指向属性表的标题的指针。
+> [in]指向项目标题的属性表。
     
  _lpDisplayTable_
   
-> 实时指向说明要在属性表上显示的控件的显示表的指针。
+> [in]指向显示表的指针，该显示表描述要显示在属性表。
     
  _lpConfigData_
   
-> 实时指向[IMAPIProp](imapipropiunknown.md)实现的指针, 该实现将用于访问要显示在属性表上的配置属性。 
+> [in]指向 [IMAPIProp](imapipropiunknown.md) 实现（用于访问要显示在 属性表 上的配置属性）的指针。 
     
  _ulTopPage_
   
-> 实时属性表的默认顶部页面的从零开始的索引。
+> [in]从零开始到默认页面的索引属性表。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 显示配置属性表。
+> 配置属性表显示。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISupport::D oconfigpropsheet**方法是为所有支持对象实现的。 **DoConfigPropSheet**提供了用于显示服务提供程序和邮件服务的属性的标准用户界面。 应将此标准对话框用于显示所有配置属性, 以便用户可以从一致的 Windows 界面中受益。 
+**IMAPISupport：:D oConfigPropsheet** 方法针对所有支持对象实现。 **DoConfigPropSheet** 提供了用于显示服务提供程序和邮件服务的属性的标准用户界面。 应针对所有配置属性显示使用此标准对话框，以便用户受益于一致的Windows界面。 
   
-服务提供程序将**DoConfigPropSheet**作为[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)方法的实现的一部分或从用于显示属性的详细信息的按钮进行调用。 邮件服务从其邮件服务入口点函数调用**DoConfigPropSheet** 。 
+服务提供商在 [IMAPIStatus：：SettingsDialog](imapistatus-settingsdialog.md)方法的实现过程中，或者从用于显示属性详细信息的按钮调用 **DoConfigPropSheet。** 邮件服务从 **邮件服务入口点函数调用 DoConfigPropSheet。** 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-您可以通过调用[BuildDisplayTable](builddisplaytable.md)函数或使用自定义代码来创建由_lpDisplayTable_参数指向的显示表。 
+您可以通过调用 [BuildDisplayTable](builddisplaytable.md)函数或自定义代码创建 _lpDisplayTable_ 参数指向的显示表。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -20,11 +20,11 @@ ms.locfileid: "33430425"
 
 包含指定应用默认页面阴影类型时的倾斜方向角度的数字。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 此单元格中的值为零 (0) 时表示角度方向为垂直向上，并且按照顺时针度量。
   
- 只要 ShapeShdwType 单元格 (页面上的形状的阴影类型) 设置为 "页面默认值" (**visFSTPageDefault** ), 且阴影类型为倾斜, 则使用此单元格中描述的角度。 默认的页面阴影类型是在 ShdwType 单元格中定义的。 
+ 只要页面) 上的 ShapeShdwType 单元格 (形状的阴影类型设置为页面默认值 (**visFSTPageDefault** ) ，并且阴影类型为倾斜，就会使用此单元格中描述的角度。 默认的页面阴影类型是在 ShdwType 单元格中定义的。 
   
 要为单个形状设置此行为，请使用“Fill Format”内容中的 ShapeShdwObliqueAngle 单元格。
   

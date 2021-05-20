@@ -25,7 +25,7 @@ ms.locfileid: "33429192"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定 mapi 到 mime 转换器在将 MAPI 邮件转换为 MIME 流时用于解析不明确地址的可选 MAPI 通讯簿。
+指定 MAPI 到 MIME 转换器在将 MAPI 邮件转换为 MIME 流时用于解析不明确地址的可选 MAPI 通讯簿。
   
 ```cpp
 HRESULT IConverterSession::SetAdrBook( 
@@ -34,9 +34,9 @@ LPADRBOOK pab);
 
 ## <a name="parameters"></a>参数
 
- _.pab_
+ _pab_
   
-> 实时指向要在 MAPI 到 MIME 转换中使用的[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)接口的指针。 当不再需要通讯簿时, 将此参数设置为**null** ;这将释放接口, 并将转换器重置为不使用任何通讯簿。 
+> [in]指向 [IAddrBook ： IMAPIProp](iaddrbookimapiprop.md) 接口的指针，该接口用于 MAPI 到 MIME 转换。 如果不再需要通讯簿，则此参数设置为 **null;** 这将释放接口，将转换器重置为不在任何通讯簿中。 
     
 ## <a name="return-value"></a>返回值
 
@@ -44,9 +44,9 @@ S_OK
   
 > 函数调用成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-将 MAPI 邮件转换为 MIME 流通常不需要登录 MAPI 配置文件。 但是, 指定要转换的 MAPI 通讯簿需要登录到配置文件才能获取通讯簿。
+将 MAPI 邮件转换为 MIME 流通常不需要登录到 MAPI 配置文件。 但是，指定 MAPI 通讯簿进行转换需要登录到配置文件以获取通讯簿。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -54,8 +54,8 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MapiMime  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 .eml 文件转换为 MAPI 邮件。  <br/> |
-|MapiMime  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 .eml 文件。  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 EML 文件转换为 MAPI 邮件。  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 EML 文件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

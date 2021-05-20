@@ -25,7 +25,7 @@ ms.locfileid: "33428016"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将一组消息类解析为表单容器中的表单, 并返回这些表单的表单信息对象的数组。
+将一组邮件类解析为表单容器中的窗体，并返回这些表单的表单信息对象的数组。
   
 ```cpp
 HRESULT ResolveMultipleMessageClasses(
@@ -40,45 +40,45 @@ HRESULT ResolveMultipleMessageClasses(
 
  _pMsgClasses_
   
-> 实时指向包含要解析的邮件类的名称的数组的指针。
+> [in]指向包含要解析的邮件类的名称的数组的指针。
     
  _ulFlags_
   
-> 实时用于控制如何解析邮件类别的标志的位掩码。 可以设置以下标志:
+> [in]控制邮件类解析方式的标志的位掩码。 可以设置以下标志：
     
 MAPIFORM_EXACTMATCH 
   
-> 应解析完全匹配的邮件类字符串。
+> 仅应解析完全匹配的邮件类字符串。
     
 MAPIFORM_LOCALONLY
   
-> 不包含缓存的窗体。
+> 不包括缓存的表单。
     
  _pFolderFocus_
   
-> 实时指向文件夹的指针, 该文件夹包含要解析其邮件类的窗体。 _pFolderFocus_参数可以为 NULL。 
+> [in]指向包含正在解析其邮件类的窗体的文件夹的指针。 _pFolderFocus_ 参数可以是 NULL。 
     
  _ppfrminfoarray_
   
-> 排除指向指向表单信息对象数组的指针的指针。 如果表单查看器在_pMsgClasses_参数中传递了 NULL, 则_ppfrminfoarray_参数将包含容器中所有表单的表单信息对象。 
+> [out]指向指向表单信息对象数组的指针的指针。 如果表单查看器在  _pMsgClasses_ 参数中传递 NULL，  _则 ppfrminfoarray_ 参数包含容器中所有表单的表单信息对象。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单查看者调用**IMAPIFormMgr:: ResolveMultipleMessageClasses**方法将一组邮件类解析为表单容器中的表单。 _ppfrminfoarray_中返回的表单信息对象的数组提供了对每个表单属性的进一步访问。 
+表单查看器调用 **IMAPIFormMgr：：ResolveMultipleMessageClasses** 方法，将一组邮件类解析为表单容器中的表单。 _ppfrminfoarray_ 中返回的表单信息对象数组提供对每个表单属性的进一步访问。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要将一组邮件类解析为表单, 表单查看器将传入要解析的邮件类名称的数组。 若要强制解决方法是否完全 (即, 若要在完全匹配的窗体服务器不可用时防止解析为邮件类的基类), 可以在_ulFlags_参数中传递 MAPIFORM_EXACTMATCH 标志。 
+若要将一组邮件类解析为表单，表单查看器会传递要解析的邮件类名称数组。 若要强制使解析准确 (即当完全匹配的表单服务器不可用时，阻止解析到邮件类的基类) 可以在  _ulFlags_ 参数中传递 MAPIFORM_EXACTMATCH 标志。 
   
-邮件类名称始终为 ANSI 字符串, 决不能为 Unicode。
+邮件类名称始终是 ANSI 字符串，从不为 Unicode。
   
-如果无法将邮件类别解析为表单, 则在表单信息数组中返回该邮件类别的 NULL。 因此, 即使该方法返回 S_OK, 表单查看器也不应假设已成功解决所有邮件类。 相反, 表单查看器应检查返回的数组中的值。
+如果无法将邮件类解析为窗体，将在窗体信息数组中为邮件类返回 NULL。 因此，即使此方法返回 S_OK，表单查看者也不应假定已成功解析所有邮件类。 相反，表单查看者应检查返回的数组中的值。
   
 ## <a name="see-also"></a>另请参阅
 

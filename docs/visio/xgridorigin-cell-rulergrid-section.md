@@ -1,5 +1,5 @@
 ---
-title: XGridOrigin 单元格 ( &amp; "标尺网格" 部分)
+title: 'XGridOrigin 单元格 (&amp; Ruler Grid"内容) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428618"
 ---
-# <a name="xgridorigin-cell-ruler-amp-grid-section"></a>XGridOrigin 单元格 ( &amp; "标尺网格" 部分)
+# <a name="xgridorigin-cell-ruler-amp-grid-section"></a>XGridOrigin 单元格 (&amp; Ruler Grid"内容) 
 
 指定网格原点的水平坐标。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此单元格对应于 "**标尺&amp;网格**" 对话框 (在 "**视图**" 选项卡上, 单击 "**显示**" 箭头) 中的 "水平**网格起点**" 选项。 
+此单元格对应于"视图"选项卡上"标尺网格"对话框中 (网格原点"选项，单击"显示 **"** 箭头。 **&amp;** 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 XGridOrigin 单元格的引用，请使用： 
   

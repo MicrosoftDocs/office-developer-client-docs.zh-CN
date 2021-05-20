@@ -22,7 +22,7 @@ ms.locfileid: "33430586"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-以字符串的形式返回 DLL 的完整路径和文件名。
+以字符串形式返回 DLL 的完整路径和文件名。
   
 ```cs
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
@@ -34,7 +34,7 @@ Excel12(xlGetName, LPXLOPER12 pxRes, 0);
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-返回路径和文件名 (**xltypeStr**)。 
+返回 **xltypeStr** (的路径和) 。 
   
 ## <a name="example"></a>示例
 

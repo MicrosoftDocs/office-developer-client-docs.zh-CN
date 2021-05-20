@@ -29,7 +29,7 @@ ms.locfileid: "33430383"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SAppTimeArray
@@ -44,15 +44,15 @@ typedef struct _SAppTimeArray
 
  **cValues**
   
-> 由**lpat**成员指向的数组中的值的计数。 
+> lpat 成员指向的数组 **中的值** 计数。 
     
  **lpat**
   
 > 指向应用程序时间值的数组的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SAppTimeArray**结构用于定义 PT_MV_APPTIME 类型的属性。 有关 PT_MV_APPTIME 的详细信息, 请参阅[属性类型列表](property-types.md)。
+**SAppTimeArray** 结构用于定义类型为 PT_MV_APPTIME。 有关属性类型PT_MV_APPTIME，请参阅 [属性类型列表](property-types.md)。
   
 ## <a name="see-also"></a>另请参阅
 

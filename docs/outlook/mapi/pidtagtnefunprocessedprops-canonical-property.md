@@ -25,30 +25,30 @@ ms.locfileid: "33431321"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-筛选传输中性封装格式 (TNEF) 时序列化属性。
+在 TNEF 中筛选传输中性封装 (序列化) 。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_TNEF_UNPROCESSED_PROPS  <br/> |
 |标识符:  <br/> |0x0E9C  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |MAPI 非传输  <br/> |
+|区域：  <br/> |MAPI 不可传输  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-Microsoft outlook 和 Outlook Web Access (OWA) 用于保存原始 tnef, 在 TNEF 中包含无法在存储中创建的命名属性的情况下。
+Microsoft Outlook 和 Outlook Web Access (OWA) 用于在 TNEF 包含无法在存储区中创建的命名属性的情况下保存原始 TNEF。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

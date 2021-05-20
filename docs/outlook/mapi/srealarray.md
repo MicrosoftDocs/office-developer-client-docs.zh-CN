@@ -25,11 +25,11 @@ ms.locfileid: "33429871"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于描述类型为 PT_MV_R4 的属性的 float 值数组。 
+包含一组浮点值，用于描述类型为 PT_MV_R4。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SRealArray
@@ -44,15 +44,15 @@ typedef struct _SRealArray
 
  **cValues**
   
-> 由**lpflt**成员指向的数组中的值的计数。 
+> **lpflt** 成员指向的数组中的值计数。 
     
  **lpflt**
   
-> 指向 float 值数组的指针。
+> 指向浮点值的数组的指针。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关 PT_MV_R4 属性类型的详细信息, 请参阅[属性类型](property-types.md)。
+有关属性类型PT_MV_R4，请参阅属性 [类型](property-types.md)。
   
 ## <a name="see-also"></a>另请参阅
 

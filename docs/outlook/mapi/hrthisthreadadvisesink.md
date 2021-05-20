@@ -25,11 +25,11 @@ ms.locfileid: "33427725"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建为线程安全包装现有建议接收器的通知接收器。 
+为线程安全创建包装现有建议接收器的建议接收器。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
    
@@ -44,11 +44,11 @@ HrThisThreadAdviseSink(
 
  _lpAdviseSink_
   
-> 实时指向要包装的通知接收器的指针。 
+> [in]指向要封装的建议接收器的指针。 
     
  _lppAdviseSink_
   
-> 排除指向新的通知接收器的指针, 该通知接收器将由_lpAdviseSink_参数指向的通知接收器进行包装。 
+> [out]指向新建议接收器的指针，该接收器包装  _lpAdviseSink_ 参数指向的建议接收器。 
     
 ## <a name="return-value"></a>返回值
 
@@ -56,18 +56,18 @@ HrThisThreadAdviseSink(
   
 ## <a name="remarks"></a>说明
 
-包装的目的是确保在调用**HrThisThreadAdviseSink**函数的同一线程上调用通知。 此函数用于保护必须在特定线程上运行的通知回调。 
+包装器的目的是确保通知在调用 **HrThisThreadAdviseSink** 函数的同一线程上调用。 此函数用于保护必须在特定线程上运行的通知回调。 
   
-客户端应用程序应使用**HrThisThreadAdviseSink**来限制生成通知的时间, 即在上一次建议中对客户端传递的建议接收器对象的[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法进行调用**** 调用。 如果允许任意生成通知, 则通知实现可能会在不适当的情况下强制客户端进入多线程操作。 例如, 客户端可能使用不支持多线程调用的某个库, 如 Microsoft 基础类库中的一个。 在不同线程上的通知将导致客户端难以测试且容易出错。 
+客户端应用程序应该使用 **HrThisThreadAdviseSink** 来限制生成通知的时间，即调用客户端在之前的 **Advise** 调用中传递的建议接收器对象的 [IMAPIAdviseSink：：OnNotify](imapiadvisesink-onnotify.md)方法。 如果允许任意生成通知，通知实现可能会强制客户端执行多线程操作（如果不适合）。 例如，客户端可能使用不支持多线程调用的库（如 Microsoft Foundation 类库之一）。 其他线程上的通知会使此类客户端难以测试且容易出错。 
   
- **HrThisThreadAdviseSink**确保**OnNotify**调用仅在以下适当的时间发生: 
+ **HrThisThreadAdviseSink** 确保仅在以下适当时间发生 **OnNotify** 调用： 
   
-- 在处理对任何 MAPI 方法的调用的过程中。 
+- 在处理对任意 MAPI 方法的调用期间。 
     
-- 在 Windows 消息的处理过程中。 
+- 在处理邮件Windows期间。 
     
-在实现**HrThisThreadAdviseSink**时, 任何线程上对新的通知接收器的**OnNotify**方法的任何调用都会导致在调用**HrThisThreadAdviseSink**的线程上执行原始通知方法。 
+当 **实现 HrThisThreadAdviseSink** 时，在任何线程上对新通知接收器 **的 OnNotify** 方法的任何调用都会导致原始通知方法在调用 **HrThisThreadAdviseSink** 的线程上执行。 
   
-有关通知和建议接收器的详细信息, 请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)和[实现建议接收器对象](implementing-an-advise-sink-object.md)。 
+有关通知和通知接收器详细信息，请参阅 [MAPI](event-notification-in-mapi.md) 中的事件通知 [和实现通知接收对象](implementing-an-advise-sink-object.md)。 
   
 

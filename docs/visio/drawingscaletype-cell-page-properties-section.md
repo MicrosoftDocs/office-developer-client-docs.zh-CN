@@ -24,12 +24,12 @@ ms.locfileid: "33428737"
 |:-----|:-----|:-----|
 | 0  <br/> | 无比例  <br/> |**visNoScale** <br/> |
 | 1  <br/> | 结构比例  <br/> |**visArchitectural** <br/> |
-| 双面  <br/> | 土木工程比例  <br/> |**visEngineering** <br/> |
-| 第三章  <br/> | 自定义缩放比例  <br/> |**visScaleCustom** <br/> |
-| 4  <br/> | 多重  <br/> |**visScaleMetric** <br/> |
-| 5  <br/> | 机械工程比例  <br/> |**visScaleMechanical** <br/> |
+| 2  <br/> | 土木工程比例  <br/> |**visEngineering** <br/> |
+| 3  <br/> | 自定义缩放比例  <br/> |**visScaleCustom** <br/> |
+| 4   <br/> | 跃点数  <br/> |**visScaleMetric** <br/> |
+| 5   <br/> | 机械工程比例  <br/> |**visScaleMechanical** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 DrawingScaleType 单元格的引用，请使用： 
   

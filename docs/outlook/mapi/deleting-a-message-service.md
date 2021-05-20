@@ -23,10 +23,10 @@ ms.locfileid: "33428121"
   
  **从配置文件中删除邮件服务**
   
-1. 调用**IMAPISession:: GetMsgServiceTable**以访问邮件服务表。 
+1. 调用 **IMAPISession：：GetMsgServiceTable** 以访问邮件服务表。 
     
-2. 找到邮件服务的行, 并将_lpuid_参数中的**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 列传递给[IMsgServiceAdmin::D eletemsgservice](imsgserviceadmin-deletemsgservice.md)。 
+2. 找到邮件服务的行，将 _lpuid_ 参数中的 PR_SERVICE_UID ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 列传递到 [IMsgServiceAdmin：:D eleteMsgService](imsgserviceadmin-deletemsgservice.md)。  
     
- **DeleteMsgService**调用邮件服务的入口点函数, 并将_ulContext_参数设置为 MSG_SERVICE_DELETE。 在从配置文件中删除所有任务之前, 邮件服务将执行任何清除任务。 
+ **DeleteMsgService** 调用邮件服务的入口点函数  _，ulContext_ 参数设置为 MSG_SERVICE_DELETE。 邮件服务此时将执行任何清理任务，然后再将其从配置文件中删除。 
   
 

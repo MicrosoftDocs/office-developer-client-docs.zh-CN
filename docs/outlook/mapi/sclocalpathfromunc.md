@@ -25,13 +25,13 @@ ms.locfileid: "33432231"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-查找给定的通用命名约定 (UNC) 路径对应的本地路径。 
+查找 UNC 路径中给定通用命名约定 (本地) 路径。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE ScLocalPathFromUNC(
@@ -45,25 +45,25 @@ SCODE ScLocalPathFromUNC(
 
  _szUNC_
   
-> 实时文件或目录的格式\\[ _server_]\[ _share_]\[ _path_] 中的路径。
+> [in]文件或目录 \\ 的格式为 [ _server_] \[ _share_] \[ _path_] 的路径。
     
  _szLocal_
   
-> 排除与_szUNC_参数的文件或目录的格式 [ _drive:_]\[ _路径_] 的路径。 
+> [out]与 szUNC 参数相同的文件或目录的格式 [ _drive：_] \[ _path_  ] 的路径。 
     
  _cchLocal_
   
-> 实时输出字符串的缓冲区大小。
+> [in]输出字符串的缓冲区大小。
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 已成功定位本地路径。
+> 已成功找到本地路径。
     
 MAPI_E_TOO_BIG
   
->  _szLocal_的大小不足以容纳结果。 
+>  _szLocal_ 不够大，不足以容纳结果。 
     
 S_FALSE
   
@@ -71,7 +71,7 @@ S_FALSE
     
 MAPI_E_NOT_FOUND
   
-> 找不到本地路径。
+> 未找到本地路径。
     
 ## <a name="see-also"></a>另请参阅
 

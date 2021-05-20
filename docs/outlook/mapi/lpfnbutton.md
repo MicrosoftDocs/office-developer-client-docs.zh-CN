@@ -25,13 +25,13 @@ ms.locfileid: "33431510"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义用于在通讯簿对话框中激活可选按钮控件的 MAPI 调用的回调函数。 此按钮通常为 "**详细信息**" 按钮。 
+定义 MAPI 调用的回调函数，以激活通讯簿对话框中的可选按钮控件。 此按钮通常为"详细信息 **"** 按钮。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|定义的函数实现者:  <br/> |服务提供程序  <br/> |
-|定义的函数调用者:  <br/> |MAPI  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|定义的函数实现方：  <br/> |服务提供程序  <br/> |
+|由调用的已定义函数：  <br/> |MAPI  <br/> |
    
 ```cpp
 SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
@@ -47,37 +47,37 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
 
  _ulUIParam_
   
-> 实时此函数显示的任何对话框或窗口的父窗口的句柄。
+> [in]此函数显示的任何对话框或窗口的父窗口的句柄。
     
  _lpvContext_
   
-> 实时指向在 MAPI 调用回调函数时传递给该函数的任意值的指针。 此值可以表示对客户端应用程序的重要性的地址。 通常, 对于 c + + 代码, _lpvContext_表示指向 c + + 对象的指针。 
+> [in]指向 MAPI 调用回调函数时传递给回调函数的任意值的指针。 此值可以表示对客户端应用程序有意义的地址。 通常，对于 C++ 代码  _，lpvContext_ 表示指向 C++ 对象的指针。 
     
  _cbEntryID_
   
-> 实时由_lpSelection_参数指向的条目标识符的大小 (以字节为单位)。 
+> [in]  _lpSelection_ 参数指向的条目标识符的大小（以字节为单位）。 
     
  _lpSelection_
   
-> 实时指向定义对话框中所选内容的条目标识符的指针。
+> [in]指向定义对话框中选定内容项的条目标识符的指针。
     
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端应用程序调用基于**LPFNBUTTON**原型的回调函数, 以在 "详细信息" 对话框中定义按钮。 客户端在对[IAddrBook::D etails](iaddrbook-details.md)方法的调用中传递指向回调函数的指针。 
+客户端应用程序基于 **LPFNBUTTON** 原型调用回调函数，以定义详细信息对话框中的按钮。 客户端在调用 [IAddrBook：:D etails 方法时传递指向回调函数的](iaddrbook-details.md) 指针。 
   
-服务提供程序调用基于**LPFNBUTTON**原型的挂钩函数, 以在 "详细信息" 对话框中定义按钮。 提供程序在对[IMAPISupport::D etails](imapisupport-details.md)方法的调用中传递指向此挂接函数的指针。 
+服务提供商基于 **LPFNBUTTON** 原型调用挂钩函数，以定义详细信息对话框中的按钮。 提供程序在调用 [IMAPISupport：:D etails](imapisupport-details.md) 方法时传递指向此挂钩函数的指针。 
   
-在这两种情况下, 当显示对话框且用户选择已定义的按钮时, MAPI 将调用**LPFNBUTTON**。 
+在这两种情况下，当对话框显示并且用户选择定义的按钮时，MAPI 调用 **LPFNBUTTON**。 
   
 ## <a name="see-also"></a>另请参阅
 

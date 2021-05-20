@@ -19,7 +19,7 @@ ms.locfileid: "33430404"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-[同步内容状态](synchronize-contents-state.md)期间, 用于将本地存储区中指定文件夹的内容与服务器同步的信息。 这只涉及上载或涉及上载的完全同步, 然后进行下载。
+有关在同步内容状态期间将本地存储中指定文件夹的内容与服务器 [同步的信息](synchronize-contents-state.md)。 这仅涉及上载，或涉及上载和下载的完全同步。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -39,31 +39,31 @@ struct SYNCCONT
 
 _ulFlags_
   
-> 实时用于确定同步过程中的相应行为的标志。
+> [in]用于确定同步期间的适当行为的标志。
     
   - UPC_OK
     
-  - 实时上载或完全同步成功。 客户端在将信息与服务器同步之后对此进行设置。
+  - [in]Upload同步或完全同步成功。 客户端在将信息与服务器同步后进行设置。
     
 _iEnt_
   
-> 排除索引以跟踪由_分币_指定的文件夹数中的内容同步。
+> [out]索引，跟踪同步 cEnt 指定的文件夹数量  _中的内容_。
     
-_分币_
+_cEnt_
   
-> 排除要复制的文件夹数。
+> [out]要复制的文件夹数。
     
 _pvReserved_
   
-> 此成员是为内部使用 Outlook 而保留的, 不受支持。 
+> 此成员仅供内部使用，Outlook不支持。 
     
 _ptagaReserved_
   
-> 此成员是为内部使用 Outlook 而保留的, 不受支持。 
+> 此成员仅供内部使用，Outlook不支持。 
     
 _psosReserved_
   
-> 此成员是为内部使用 Outlook 而保留的, 不受支持。 
+> 此成员仅供内部使用，Outlook不支持。 
     
 ## <a name="see-also"></a>另请参阅
 

@@ -22,7 +22,7 @@ ms.locfileid: "33428429"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-查找命名工作表的工作表 ID, 以便构造外部引用。
+查找已命名工作表的工作表 ID 以构建外部引用。
   
 ```cs
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
@@ -30,20 +30,20 @@ Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 
 ## <a name="parameters"></a>参数
 
-_pxSheetName_(**xltypeStr**)
+_pxSheetName_ (**xltypeStr**) 
   
-(可选)。 要查找的简介册和工作表的名称。 如果省略, 则**xlSheetId**函数返回活动 (前) 工作表的工作表 ID。 
+ (可选) 。 要查找的书籍和工作表的名称。 如果省略 **，xlSheetId** 函数将返回活动工作表的工作表 (表) ID。 
   
 ## <a name="return-value"></a>返回值
 
-返回_pxRes-\>mref_中的工作表 ID。 
+返回 _pxRes- \> val.mref.idSheet 中的工作表 ID。_ 
   
 > [!NOTE]
-> 在此调用之后, _pxRes\>_ 数组指针将设置为 NULL, 这样就无需调用**xlFree**来释放该类型通常包含的内存, 尽管这样做是完全安全的。 
+> 在此调用后  _，pxRes- \> val.mref.lpmref_ 数组指针设置为 NULL，因此无需调用 **xlFree** 来释放此类型通常包含的内存，尽管这样做完全安全。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-必须打开包含指定工作表的工作簿, 才能使用此函数。 无法从 DLL 构造对未打开的工作簿的引用。 有关使用**xlSheetId**构建引用的详细信息, 请参阅[Excel 中的内存管理](memory-management-in-excel.md), 了解**xltypeRef**构造的示例。 
+必须打开包含指定工作表的工作簿，以使用此函数。 无法从 DLL 构造对未打开工作簿的引用。 有关使用 **xlSheetId** 构造引用的详细信息，请参阅 memory [Management in Excel](memory-management-in-excel.md) for examples of **xltypeRef** construction。 
   
 ## <a name="example"></a>示例
 

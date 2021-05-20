@@ -25,7 +25,7 @@ ms.locfileid: "33431664"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个邮件收件人的 ASN. 1 个用于报表的证书。
+包含邮件收件人的 ASN.1 证书，用于报告。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33431664"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性是收件人的**PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) 属性的副本, 用于在报表中使用。 它可用于向发信人证明收件人实际收到的邮件, 但传递报告并不一定表示。
+此属性是[PidTagUserCertificate PR_USER_CERTIFICATE (PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) 的副本，以用于报表。  它可用于向发起人证明收件人实际上收到了邮件，送达报告不一定指示这一点。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

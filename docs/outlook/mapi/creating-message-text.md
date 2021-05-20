@@ -19,54 +19,54 @@ ms.locfileid: "33428002"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-虽然某些邮件是由收件人列表和主题行组成, 但大多数邮件的内容 (尤其是 IPM) 除外。注释邮件包括文本。 邮件文本可以是纯文本或格式的, 并存储在以下三个属性中: **PR\_BODY** ([PidTagBody](pidtagbody-canonical-property.md))、 **PR\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) 和**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md))。 
+尽管某些邮件只由收件人列表和主题行决定，但大多数邮件的内容，尤其是 IPM。Note messages， includes text. 邮件文本可以是纯文本或格式文本，并存储在三个属性中 **：PR \_ BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 、PR **\_ HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) 和 **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 。 
 
-如果您的客户端是纯文本, 请**设置\_PR 正文**。 如果您支持 rtf 格式的格式化文本, 请仅设置 " **PR_RTF_COMPRESSED** " 或 " **PR_RTF_COMPRESSED** " 和 " **PR\_正文**", 具体取决于所使用的邮件存储提供程序。 当 rtf 感知客户端使用的是 rtf 感知邮件存储时, 它只会设置**PR_RTF_COMPRESSED** 。 当 RTF 感知客户端使用非 RTF 感知邮件存储区时, 它会同时设置这两个属性。 如果您的客户端支持 HTML, 请设置**PR_HTML**属性。 
+如果你的客户端是基于纯文本的，请设置 **PR \_ BODY**。 如果支持 RTF 格式格式 (RTF) 格式的文本，请仅设置 **PR_RTF_COMPRESSED** 或同时设置 PR_RTF_COMPRESSED 和 PR **\_ BODY，** 具体取决于您使用的邮件存储提供程序。  当 RTF 感知客户端使用 RTF 感知邮件存储时，它将仅 **PR_RTF_COMPRESSED邮件。** 当 RTF 感知客户端使用非 RTF 感知邮件存储时，它将设置这两个属性。 如果客户端支持 HTML，请设置 **PR_HTML** 属性。 
   
-## <a name="determine-whether-your-message-store-supports-rich-text-format"></a>确定您的邮件存储区是否支持 rtf 格式
+## <a name="determine-whether-your-message-store-supports-rich-text-format"></a>确定邮件存储是否支持格式文本格式
   
-1. 调用邮件存储区的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法以检索**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性。
+1. 调用消息存储的[IMAPIProp：：GetProps](imapiprop-getprops.md)方法来检索 PR_STORE_SUPPORT_MASK  ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性。
     
-2. 检查 STORE_RTF_OK 位。 如果设置了 STORE_RTF_OK, 则邮件存储提供程序支持 RTF 文本。 如果未设置, 则邮件存储提供程序仅支持纯文本。
+2. 检查STORE_RTF_OK位。 如果STORE_RTF_OK，则邮件存储提供程序支持 RTF 文本。 如果未设置，则邮件存储提供程序仅支持纯文本。
     
-## <a name="determine-whether-your-message-store-supports-html"></a>确定您的邮件存储区是否支持 HTML
+## <a name="determine-whether-your-message-store-supports-html"></a>确定邮件存储是否支持 HTML
   
-1. 调用邮件存储区的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法以检索**PR_STORE_SUPPORT_MASK**属性。 
+1. 调用消息存储的 [IMAPIProp：：GetProps](imapiprop-getprops.md) 方法来检索 **PR_STORE_SUPPORT_MASK** 属性。 
     
-2. 检查 STORE_HTML_OK 位。 如果设置了 STORE_HTML_OK, 则邮件存储提供程序支持 HTML 文本。 
+2. 检查STORE_HTML_OK位。 如果STORE_HTML_OK，则邮件存储提供程序支持 HTML 文本。 
     
-## <a name="set-prrtfcompressed"></a>设置 PR\_RTF_COMPRESSED
+## <a name="set-pr_rtf_compressed"></a>设置 PR \_ RTF_COMPRESSED
   
-1. 调用邮件的[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法以打开**PR_RTF_COMPRESSED**属性, 指定 IID_IStream 作为接口标识符并设置 MAPI_CREATE 标志。 
+1. 调用消息的 [IMAPIProp：：OpenProperty](imapiprop-openproperty.md) 方法以打开 **PR_RTF_COMPRESSED** 属性，将 IID_IStream 指定为接口标识符并设置 MAPI_CREATE 标志。 
     
-2. 如果在邮件存储区的**PR_STORE_SUPPORT_MASK**属性中设置了 STORE_UNCOMPRESSED_RTF 位, 请调用[WrapCompressedRTFStream](wrapcompressedrtfstream.md)函数, 并传递 STORE_UNCOMPRESSED_RTF 标志。 
+2. 调用 [WrapCompressedRTFStream](wrapcompressedrtfstream.md) 函数，如果在邮件存储的 PR_STORE_SUPPORT_MASK 属性中设置了 STORE_UNCOMPRESSED_RTF 位，则传递 **STORE_UNCOMPRESSED_RTF** 标志。 
     
-3. 通过调用其 * * IUnknown:: Release * * 方法释放原始流。 
+3. 通过调用其 ** IUnknown：：Release ** 方法释放原始流。 
     
-4. 调用 * * IStream:: Write * * 或**IStream:: CopyTo**将消息文本写入从**WrapCompressedRTFStream**返回的流。
+4. 调用 ** IStream：：Write ** 或 **IStream：：CopyTo** 将消息文本写入 **从 WrapCompressedRTFStream 返回的流**。
     
-5. 调用**OpenProperty**方法返回的 stream 上的**Commit**和**Release**方法。 
+5. 对从 **OpenProperty** 方法返回的流调用 Commit 和 **Release** 方法。  
     
-在这种情况下, 如果邮件存储区提供程序支持 RTF, 则您已完成所有必需的操作。 您可以依赖邮件存储提供程序来处理邮件内容和格式的同步, 并在必要时创建 " **PR\_正文**" 属性。 RTF 感知邮件存储区调用[RTFSync](rtfsync.md)以处理同步。 如果 RTF\_SYNC_BODY_CHANGED 标志设置为 TRUE, 则提供程序将重新计算**PR_BODY**属性。 
+此时，如果邮件存储提供程序支持 RTF，则已完成所有必需操作。 您可以依赖邮件存储提供程序来处理邮件内容和格式的同步，并在必要时创建 **PR \_ BODY** 属性。 RTF 感知邮件存储调用 [RTFSync](rtfsync.md) 来处理同步。 如果 RTF SYNC_BODY_CHANGED设置为 TRUE，提供程序将重新 \_ 编译PR_BODY属性。  
   
-如果您的邮件存储区提供程序不支持 rtf, 还必须通过设置**PR_BODY**属性来添加非 RTF 邮件内容。 
+如果邮件存储提供程序不支持 RTF，则还必须通过设置 PR_BODY 添加 **非 RTF** 邮件内容。 
   
-## <a name="set-prhtml"></a>设置 PR_HTML
+## <a name="set-pr_html"></a>设置PR_HTML
   
-1. 调用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法以使用**IStream**接口打开**PR_HTML**属性。 
+1. 调用 [IMAPIProp：：OpenProperty](imapiprop-openproperty.md)方法以使用 **IStream** **PR_HTML** 打开属性。 
     
-2. 调用**IStream:: write** , 用于将消息文本数据写入从**OpenProperty**返回的流。 
+2. 调用 **IStream：：Write** 以将邮件文本数据写入从 **OpenProperty 返回的流**。 
     
-3. 调用**IStream:: commit**和**IUnknown:: Release** on stream 以提交更改并释放其内存。 
+3. 在 **流上调用 IStream：：Commit** 和 **IUnknown：：Release** 以提交更改并释放其内存。 
     
-## <a name="set-prbody"></a>设置 PR_BODY
+## <a name="set-pr_body"></a>设置PR_BODY
   
-1. 调用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法以使用**IStream**接口打开**PR_BODY**属性。 
+1. 调用 [IMAPIProp：：OpenProperty](imapiprop-openproperty.md)方法以使用 **IStream** **PR_BODY打开** PR_BODY 属性。 
     
-2. 调用**IStream:: write** , 用于将消息文本数据写入从**OpenProperty**返回的流。 
+2. 调用 **IStream：：Write** 以将邮件文本数据写入从 **OpenProperty 返回的流**。 
     
-3. 调用[RTFSync](rtfsync.md)函数以将文本与格式设置同步。 由于这是一封新邮件, 因此应设置 RTF_SYNC_RTF_CHANGED 和 RTF_SYNC_BODY_CHANGED 标志, 以指示邮件文本的 RTF 和纯文本版本已更改。 **RTFSync**将设置邮件存储提供程序所需的多个相关属性, 如**PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)), 并将其写入邮件。
+3. 调用 [RTFSync](rtfsync.md) 函数以将文本与格式同步。 因为这是新邮件，请同时设置 RTF_SYNC_RTF_CHANGED 和 RTF_SYNC_BODY_CHANGED 标志，以指示 RTF 和纯文本版本的邮件文本已更改。 **RTFSync** 将设置邮件存储提供程序所需的几个相关属性，如 **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) ，并写入邮件。
     
-4. 调用**IStream:: commit**和**IUnknown:: Release** on stream 以提交更改并释放其内存。 
+4. 在 **流上调用 IStream：：Commit** 和 **IUnknown：：Release** 以提交更改并释放其内存。 
     
 

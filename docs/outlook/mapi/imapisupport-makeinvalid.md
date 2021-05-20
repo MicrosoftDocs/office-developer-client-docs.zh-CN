@@ -40,39 +40,39 @@ ULONG cMethods
 
  _ulFlags_
   
-> 保留必须为零。
+> 保留;必须为零。
     
  _lpObject_
   
-> 实时指向要无效的对象的指针。 对象的接口必须从**IUnknown**派生。
+> [in]指向要失效的对象的指针。 对象的接口必须派生自 **IUnknown**。
     
  _ulRefCount_
   
-> 实时对象的当前引用计数。
+> [in]对象的当前引用计数。
     
  _cMethods_
   
-> 实时对象的 vtable 中的方法数。
+> [in]对象 vtable 中的方法计数。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功将该对象标记为不可用。
+> 对象已成功标记为不可用。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISupport:: MakeInvalid**方法是为所有支持对象实现的。 要使其失效的对象必须从**iunknown**接口或从**iunknown**派生的接口派生。
+**IMAPISupport：：MakeInvalid** 方法针对所有支持对象实现。 要失效的对象必须派生自 **IUnknown** 接口或派生自 **IUnknown** 的接口。
   
- **MakeInvalid**通过将对象的 vtable 替换为大小相同且**iunknown:: AddRef**和**IUnknown:: Release**方法按预期执行的存根 vtable, 将对象标记为不可用。 但是, 任何其他方法都将失败, 返回值 MAPI_E_INVALID_OBJECT。 
+ **MakeInvalid** 将对象的 vtable 替换为 **IUnknown：：AddRef** 和 **IUnknown：：Release** 方法按预期执行的大小类似的存根 vtable，从而将对象标记为不可用。 但是，任何其他方法都失败，返回值 MAPI_E_INVALID_OBJECT。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-服务提供商和邮件服务通常会在关机时调用**MakeInvalid** 。 但是, 可以随时调用**MakeInvalid** 。 例如, 如果客户端释放对象而不释放它的一些子对象, 则可以立即调用**MakeInvalid**以释放这些子对象。 
+服务提供程序和邮件服务通常在关闭时调用 **MakeInvalid。** 但是，随时都可以调用 **MakeInvalid。** 例如，如果客户端释放对象而不释放其一些子对象，您可以立即调用 **MakeInvalid** 以释放这些子对象。 
   
-您必须拥有试图使其无效的对象。 它的长度必须至少为16个字节, 并且在 vtable 中至少有三个方法。 
+您必须拥有您尝试失效的对象。 其 vtable 中必须至少有 16 个字节长且至少有三个方法。 
   
-您可以调用**MakeInvalid** , 然后执行任何关闭工作 (如丢弃关联的数据结构), 这通常在对象的发布过程中完成。 支持该对象的代码不需要保留在内存中, 因为 MAPI 通过调用[MAPIFreeBuffer](mapifreebuffer.md)来释放内存, 然后释放该对象。 您可以释放资源, 调用**MakeInvalid**, 然后忽略无效的对象。 
+可以调用 **MakeInvalid，** 然后执行通常在对象发布期间完成的任何关闭工作，例如放弃关联的数据结构。 支持对象的代码无需保存在内存中，因为 MAPI 通过调用 [MAPIFreeBuffer](mapifreebuffer.md) 释放内存，然后释放对象。 您可以释放资源，调用 **MakeInvalid**，然后忽略失效的对象。 
   
 ## <a name="see-also"></a>另请参阅
 

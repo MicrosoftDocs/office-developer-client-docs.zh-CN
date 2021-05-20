@@ -25,7 +25,7 @@ ms.locfileid: "33429451"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含通常在其中创建搜索结果的文件夹的条目标识符。
+包含通常创建搜索结果的文件夹的条目标识符。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33429451"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性中包含的条目标识符的格式与[ENTRYID](entryid.md)结构的格式相同。 
+此属性中包含的条目标识符的格式与 [ENTRYID](entryid.md) 结构的格式相同。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

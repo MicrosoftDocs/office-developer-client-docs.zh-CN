@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82253262
 localization_priority: Normal
 ms.assetid: 7acfeef6-29e4-d5e0-116a-75b5c61c3b41
-description: 'REF 函数返回的错误值 #REF!。'
+description: 'REF 函数返回错误值 #REF！。'
 ms.openlocfilehash: 21683edb3da717f7b1968f409b68e3bf242e665b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33429970"
 ---
 # <a name="ref-function"></a>REF 函数
 
-REF 函数返回的错误值 #REF!。
+REF 函数返回错误值 #REF！。
   
 ## <a name="syntax"></a>语法
 

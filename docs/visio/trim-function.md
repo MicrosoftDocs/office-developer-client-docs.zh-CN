@@ -22,7 +22,7 @@ ms.locfileid: "33435717"
   
 ## <a name="syntax"></a>语法
 
-TRIM (* * *text* * *) 
+TRIM (** *text* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -34,7 +34,7 @@ TRIM (* * *text* * *)
 
 String
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 可以对从另一个应用程序接收的、可能包含不规则空格的文本使用 TRIM 函数。
   

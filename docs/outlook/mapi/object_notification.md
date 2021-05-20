@@ -19,17 +19,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430166"
 ---
-# <a name="objectnotification"></a>OBJECT_NOTIFICATION
+# <a name="object_notification"></a>OBJECT_NOTIFICATION
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含有关已完成更改 (如复制或修改) 的对象的信息。
+包含有关已进行更改的对象的信息，例如正在复制或修改。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _OBJECT_NOTIFICATION
@@ -52,7 +52,7 @@ typedef struct _OBJECT_NOTIFICATION
 
  **cbEntryID**
   
-> 由**lpEntryID**成员指向的条目标识符中的字节数。 
+> **lpEntryID** 成员指向的条目标识符中的字节数。 
     
  **lpEntryID**
   
@@ -60,11 +60,11 @@ typedef struct _OBJECT_NOTIFICATION
     
  **ulObjType**
   
-> 受影响的对象的类型。 可能的类型如下所示:
+> 受影响对象的类型。 可能的类型如下所示：
     
 MAPI_STORE 
   
-> 邮件存储区。 
+> 邮件存储。 
     
 MAPI_ADDRBOOK 
   
@@ -72,7 +72,7 @@ MAPI_ADDRBOOK
     
 MAPI_FOLDER 
   
-> 文件夹.
+> 文件夹。
     
 MAPI_ABCONT 
   
@@ -84,11 +84,11 @@ MAPI_MESSAGE
     
 MAPI_MAILUSER 
   
-> 邮件用户。
+> 消息用户。
     
 MAPI_ATTACH 
   
-> 附着.
+> 附件。
     
 MAPI_DISTLIST 
   
@@ -96,7 +96,7 @@ MAPI_DISTLIST
     
 MAPI_PROFSECT 
   
-> Profile 部分。
+> "配置文件"部分。
     
 MAPI_STATUS 
   
@@ -108,7 +108,7 @@ MAPI_SESSION
     
  **cbParentID**
   
-> 由**lpParentID**成员指向的条目标识符中的字节数。 
+> **lpParentID** 成员指向的条目标识符中的字节数。 
     
  **lpParentID**
   
@@ -116,27 +116,27 @@ MAPI_SESSION
     
  **cbOldID**
   
-> 由**lpOldID**成员指向的条目标识符中的字节数。 
+> **lpOldID** 成员指向的条目标识符中的字节数。 
     
  **lpOldID**
   
-> 指向原始对象的条目标识符的指针。 如果事件不需要原始对象, 则此指针可以为 NULL。
+> 指向原始对象的条目标识符的指针。 如果事件不需要原始对象，则此指针可以是 NULL。
     
  **cbOldParentID**
   
-> 由**lpOldParentID**成员指向的条目标识符中的字节数。 
+> **lpOldParentID** 成员指向的条目标识符中的字节数。 
     
  **lpOldParentID**
   
-> 指向原始对象的父对象的条目标识符的指针。 如果事件不需要原始对象, 则此指针可以为 NULL。
+> 指向原始对象的父对象的条目标识符的指针。 如果事件不需要原始对象，则此指针可以是 NULL。
     
  **lpPropTagArray**
   
-> 指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含用于标识受事件影响的属性的属性标记。 
+> 指向 [SPropTagArray](sproptagarray.md) 结构的指针，其中包含标识受事件影响的属性的属性标记。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**OBJECT_NOTIFICATION**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 当**通知**结构的**info**成员包含**OBJECT_NOTIFICATION**结构时,**通知**结构的**ulEventType**成员将设置为以下事件类型之一: 
+the **OBJECT_NOTIFICATION** structure is one of the union of structures included in the **info** member of the [NOTIFICATION](notification.md) structure. 当 **NOTIFICATION** 结构的信息成员包含一个OBJECT_NOTIFICATION 结构时 **，NOTIFICATION** 结构的 **ulEventType** 成员将设置为以下类型的事件之一： 
   
 - fnevObjectCreated
     
@@ -150,9 +150,9 @@ MAPI_SESSION
     
 - fnevSearchComplete
     
-由 fnevSearchComplete 事件类型表示的搜索完成事件指示一个搜索文件夹的域的初始搜索已完成。
+搜索完成事件（由 fnevSearchComplete 事件类型表示）指示一个搜索文件夹的域的初始搜索已完成。
   
-以下包含有关原始对象的信息的成员仅在 move 事件和 copy 事件中使用。 
+以下包含有关原始对象的信息的成员仅用于移动和复制事件。 
   
 - **cbOldID**
     
@@ -164,13 +164,13 @@ MAPI_SESSION
     
 这些成员不适用于其他类型的事件。
   
-有关通知的详细信息, 请参阅下表中所述的主题。
+有关通知详细信息，请参阅下表中介绍的主题。
   
 |**主题**|**说明**|
 |:-----|:-----|
 |[MAPI 中的事件通知](event-notification-in-mapi.md) <br/> |通知和通知事件的一般概述。  <br/> |
 |[处理通知](handling-notifications.md) <br/> |讨论客户端应如何处理通知。  <br/> |
-|[支持事件通知](supporting-event-notification.md) <br/> |讨论了如何使用[IMAPISupport](imapisupportiunknown.md)方法生成通知的服务提供商。  <br/> |
+|[支持事件通知](supporting-event-notification.md) <br/> |讨论服务提供商如何使用 [IMAPISupport](imapisupportiunknown.md) 方法生成通知。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

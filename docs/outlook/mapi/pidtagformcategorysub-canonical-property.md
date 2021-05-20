@@ -25,30 +25,30 @@ ms.locfileid: "33428786"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含由客户端应用程序定义的窗体子类别。 
+包含由客户端应用程序定义的表单的子类别。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FORM_CATEGORY_SUB、PR_FORM_CATEGORY_SUB_A、PR_FORM_CATEGORY_SUB_W  <br/> |
 |标识符:  <br/> |0x3305  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |MAPI 通用  <br/> |
+|区域：  <br/> |MAPI common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-这些属性从属于在**PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)) 属性中提供的主窗体类别。 
+这些属性属于[PidTagFormCategory](pidtagformcategory-canonical-property.md) PR_FORM_CATEGORY (中提供的主要表单) 类别。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

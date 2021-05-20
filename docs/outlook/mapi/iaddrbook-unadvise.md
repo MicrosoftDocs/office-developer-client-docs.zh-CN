@@ -25,7 +25,7 @@ ms.locfileid: "33436151"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-取消之前为通讯簿条目建立的通知注册。
+取消以前为通讯簿条目建立的通知注册。
   
 ```cpp
 HRESULT Unadvise(
@@ -37,17 +37,17 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> 实时一个代表要取消的注册的连接号。 _ulConnection_参数应包含以前调用[IAddrBook:: Advise](iaddrbook-advise.md)方法返回的值。 
+> [in]表示要取消的注册的连接号码。 _ulConnection_ 参数应包含之前调用 [IAddrBook：：Advise](iaddrbook-advise.md)方法时返回的值。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功取消注册。
+> 注册已成功取消。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端调用**Unadvise**方法以停止接收有关特定通讯簿条目更改的通知。 当取消通知注册时, 通讯簿提供程序释放其指向呼叫者的通知接收器的指针。 但是, 如果另一个线程正在调用[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法, 则可以在**Unadvise**调用过程中或在稍后的某个时间点进行释放。 当通知正在进行时, 释放将延迟到**OnNotify**方法返回。 
+客户端调用 **Unadvise** 方法来停止接收有关对特定通讯簿条目的更改的通知。 当通知注册被取消时，通讯簿提供程序会释放指向呼叫者的建议接收器的指针。 但是，如果其他线程正在调用 [IMAPIAdviseSink：：OnNotify](imapiadvisesink-onnotify.md)方法，则版本可能会发生在 **Unadvise** 调用期间或稍后的一些时间点。 当通知正在进行时，发布将延迟到 **OnNotify 方法** 返回。 
   
 ## <a name="see-also"></a>另请参阅
 

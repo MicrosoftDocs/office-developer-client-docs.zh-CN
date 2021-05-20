@@ -25,7 +25,7 @@ ms.locfileid: "33427596"
   
 ## <a name="syntax"></a>语法
 
-IS1D ()
+IS1D () 
   
 ### <a name="return-value"></a>返回值
 

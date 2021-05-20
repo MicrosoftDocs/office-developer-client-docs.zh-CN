@@ -1,5 +1,5 @@
 ---
-title: UserEmailAddress 函数 (Access 自定义 web 应用程序)
+title: 'UserEmailAddress (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431160"
 ---
-# <a name="useremailaddress-function-access-custom-web-app"></a>UserEmailAddress 函数 (Access 自定义 web 应用程序)
+# <a name="useremailaddress-function-access-custom-web-app"></a>UserEmailAddress (Access 自定义 Web 应用) 
 
 返回当前用户的电子邮件地址。
   
@@ -23,10 +23,10 @@ ms.locfileid: "33431160"
   
 ## <a name="syntax"></a>语法
 
- **UserEmailAddress**() 
+ **UserEmailAddress** ()  
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**UserEmailAddress**函数仅适用于用户界面 (UI) 宏。 
+**UserEmailAddress** 函数仅在用户界面中可用， (UI) 宏。 
   
 

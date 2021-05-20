@@ -40,41 +40,41 @@ ULONG ulFlags
 
  _ulAttachmentNum_
   
-> 实时要删除的附件的索引号。 这是附件的**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性的值。
+> [in]要删除的附件的索引号。 这是[PidTagAttachNumber](pidtagattachnumber-canonical-property.md) PR_ATTACH_NUM (附件) 的值。 
     
  _ulUIParam_
   
-> 实时此方法显示的任何对话框或窗口的父窗口的句柄。 除非在_ulFlags_参数中设置了 ATTACH_DIALOG 标志, 否则将忽略_ulUIParam_参数。 
+> [in]该方法显示的任何对话框或窗口的父窗口的句柄。 除非  _在 ulFlags_ 参数中设置了 ATTACH_DIALOG 标志，否则将忽略  _ulUIParam_ 参数。 
     
  _lpProgress_
   
-> 实时指向显示进度指示器的进度对象的指针。 如果在_lpProgress_中传递 NULL, 则邮件存储提供程序将使用 MAPI 进度对象实现显示进度指示器。 除非在_ulFlags_中设置了 ATTACH_DIALOG 标志, 否则_lpProgress_参数将被忽略。
+> [in]指向显示进度指示器的进度对象的指针。 如果在  _lpProgress_ 中传递 NULL，则邮件存储提供程序使用 MAPI 进度对象实现显示进度指示器。 除非在 _ulFlags_ 中设置了 ATTACH_DIALOG 标志，否则将忽略 _lpProgress_ 参数。
     
  _ulFlags_
   
-> 实时用于控制用户界面显示的标志的位掩码。 可以设置以下标志:
+> [in]控制用户界面显示的标志的位掩码。 可以设置以下标志：
     
 ATTACH_DIALOG 
   
-> 在操作进行过程中请求显示进度指示器。
+> 请求在操作继续时显示进度指示器。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功删除附件。
+> 附件已成功删除。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMessage::D eleteattach**方法可从邮件中删除附件。 
+**IMessage：:D eleteAttach** 方法从邮件中删除附件。 
   
-在调用邮件的[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法之前, 不会永久删除已删除的附件。 
+在调用邮件的 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法之前，不会永久删除已删除的附件。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-在调用**DeleteAttach**之前, 请先调用附件及其每个流的**IUnknown:: Release**方法。 
+在调用 **DeleteAttach** 之前，请为附件及其每个流调用 **IUnknown：：Release** 方法。 
   
-由于删除附件可能是一个漫长的过程, 因此**DeleteAttach**提供了显示进度指示器的机制。 您可以通过以下方式请求显示进度指示器: 将指针传递给您的[IMAPIProgress: IUnknown](imapiprogressiunknown.md)实现; 如果没有实现, 则为 NULL。 您还必须在_ulUIParam_参数中指定窗口句柄, 并在_ulFlags_参数中指定 ATTACH_DIALOG 标志。 
+由于删除附件的过程可能很长， **因此 DeleteAttach** 提供了显示进度指示器的机制。 可以通过将指针传递给 [IMAPIProgress ：IUnknown](imapiprogressiunknown.md) 实现或 NULL（如果你没有实现）来请求显示进度指示器。 还必须在  _ulUIParam_ 参数中指定窗口句柄，在  _ulFlags_ ATTACH_DIALOG指定该窗口句柄。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -82,7 +82,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|AttachmentsDlg  <br/> |CAttachmentsDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI 使用**IMessage::D eleteattach**方法删除选定附件。  <br/> |
+|AttachmentsDlg.cpp  <br/> |CAttachmentsDlg：：OnDeleteSelectedItem  <br/> |MFCMAPI 使用 **IMessage：:D eleteAttach** 方法删除选定的附件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

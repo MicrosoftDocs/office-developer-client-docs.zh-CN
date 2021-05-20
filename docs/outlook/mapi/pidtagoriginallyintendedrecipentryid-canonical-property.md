@@ -34,23 +34,23 @@ ms.locfileid: "33430138"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性是最初预期的邮件收件人的地址属性之一。 必须由已转发邮件的自动代理进行设置。
+此属性是最初预期的邮件收件人的地址属性之一。 必须由转发邮件的自动代理设置。
   
-此属性对应于每个收件人的400个报告属性。
+此属性对应于 X.400 report per-recipient 属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -25,11 +25,11 @@ ms.locfileid: "33429612"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于描述类型为 PT_MV_SHORT 的属性的无符号整数值数组。
+包含一个无符号整数值的数组，这些值用于描述类型为 PT_MV_SHORT。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SShortArray
@@ -44,15 +44,15 @@ typedef struct _SShortArray
 
  **cValues**
   
-> 由**lpi**成员指向的数组中的值的计数。 
+> lpi 成员指向的数组 **中的值** 计数。 
     
- **越高**
+ **lpi**
   
-> 指向无符号整数值数组的指针。
+> 指向无符号整数值的数组的指针。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关 PT_MV_SHORT 和其他属性类型的详细信息, 请参阅[property types](property-types.md)。 
+有关属性类型PT_MV_SHORT，请参阅属性 [类型](property-types.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

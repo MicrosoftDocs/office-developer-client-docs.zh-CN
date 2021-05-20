@@ -25,11 +25,11 @@ ms.locfileid: "33435906"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含字符串值的数组, 这些值用于描述 PT_MV_STRING8 类型的属性。
+包含一个字符串值数组，用于描述类型为 PT_MV_STRING8。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SLPSTRArray
@@ -44,15 +44,15 @@ typedef struct _SLPSTRArray
 
  **cValues**
   
-> 由**lppszA**成员指向的数组中的值的计数。 
+> **lppszA** 成员指向的数组中的值计数。 
     
  **lppszA**
   
-> 指向空结束的8位字符字符串数组的指针。
+> 指向以 null 结束的 8 位字符字符串数组的指针。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关 PT_MV_STRING8 的详细信息, 请参阅[属性类型列表](property-types.md)。
+有关属性类型PT_MV_STRING8，请参阅 [属性类型列表](property-types.md)。
   
 ## <a name="see-also"></a>另请参阅
 

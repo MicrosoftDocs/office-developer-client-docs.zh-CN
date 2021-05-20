@@ -25,7 +25,7 @@ ms.locfileid: "33429108"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-更新 "发送/接收" 对话框中的状态。 存储提供程序定期调用此函数。
+更新"发送/接收"对话框中的状态。 存储提供程序定期调用此函数。
   
 ```cpp
 HRESULT Progress(
@@ -43,7 +43,7 @@ HRESULT Progress(
     
  **ulIndex**
   
-> 当前正在进行的位置。
+> 进行中的当前位置。
     
  **ulIndexMax**
   
@@ -53,7 +53,7 @@ HRESULT Progress(
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 ## <a name="see-also"></a>另请参阅
 

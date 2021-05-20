@@ -43,31 +43,31 @@ HRESULT CopyMsgService(
 
  _lpUID_
   
-> 实时指向[MAPIUID](mapiuid.md)结构的指针, 该结构包含要复制的邮件服务的唯一标识符。 
+> [in]指向 [MAPIUID](mapiuid.md) 结构的指针，其中包含要复制的邮件服务的唯一标识符。 
     
  _lpszDisplayName_
   
-> 实时此参数已被弃用。 
+> [in]此参数已被弃用。 
     
  _lpInterfaceToCopy_
   
-> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示要用于访问要复制的邮件服务的配置文件部分的接口。 在要使用的标准配置文件部分接口[IProfSect](iprofsectimapiprop.md)中传递 NULL 结果。
+> [in]指向 IID (的接口标识符) 表示用于访问要复制的邮件服务的配置文件节的接口的指针。 传递 NULL 会导致使用标准配置文件节接口[IProfSect。](iprofsectimapiprop.md)
     
  _lpInterfaceDst_
   
-> 实时指向 IID 的指针, 该指针表示用于访问_lpObjectDst_参数所指向的对象的接口。 在正在使用的会话接口中传递 NULL 结果 ( [IMAPISession](imapisessioniunknown.md))。 也可以将_lpInterfaceDst_参数设置为 IID_IMsgServiceAdmin。 
+> [in]指向 IID 的指针，该指针代表用于访问  _lpObjectDst_ 参数指向的对象的接口。 传递 NULL 会导致会话接口 [IMAPISession](imapisessioniunknown.md)被使用。 _还可以将 lpInterfaceDst_ 参数设置为 IID_IMsgServiceAdmin。 
     
  _lpObjectDst_
   
-> 实时指向指向会话或邮件服务管理对象的指针的指针。 对象的类型应对应于在_lpInterfaceDst_中传递的接口标识符。 有效的对象指针为 LPMAPISESSION 和 LPSERVICEADMIN。
+> [in]指向指向会话或邮件服务管理对象的指针的指针。 对象的类型应与在  _lpInterfaceDst 中传递的接口标识符相对应_。 有效的对象指针是 LPMAPISESSION 和 LPSERVICEADMIN。
     
  _ulUIParam_
   
-> 实时此方法显示的任何对话框或窗口的父窗口的句柄。
+> [in]该方法显示的任何对话框或窗口的父窗口的句柄。
     
  _ulFlags_
   
-> 实时用于控制如何复制邮件服务的标志的位掩码。 可以设置以下标志:
+> [in]控制邮件服务复制方式的标志的位掩码。 可以设置以下标志：
     
 SERVICE_UI_ALWAYS 
   
@@ -81,17 +81,17 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> 邮件服务已在配置文件中, 不允许自身的多个实例。
+> 邮件服务已位于配置文件中，并且不允许自身的多个实例。
     
 MAPI_E_NOT_FOUND 
   
-> _lpUID_指向的**MAPIUID**不引用现有的邮件服务。 
+> _lpUID_ 指向的 **MAPIUID** 不引用现有邮件服务。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMsgServiceAdmin:: CopyMsgService**方法将邮件服务复制到配置文件, 即活动配置文件或另一个配置文件。 包含要复制的邮件服务的配置文件和目标不一定是相同的配置文件, 但可以是。 
+**IMsgServiceAdmin：：CopyMsgService** 方法将邮件服务复制到配置文件（活动配置文件或其他配置文件）。 包含要复制的邮件服务和目标的配置文件不需要是同一个配置文件，但可以相同。 
   
-不会为复制操作调用邮件服务的入口点函数。 复制的邮件服务的配置设置与原始的相同。 若要更改这些设置, 客户端应调用[IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)方法。 
+不为复制操作调用邮件服务的入口点函数。 复制的邮件服务的配置设置与原始邮件服务相同。 若要更改这些设置，客户端应调用 [IMsgServiceAdmin：：ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) 方法。 
   
 ## <a name="see-also"></a>另请参阅
 

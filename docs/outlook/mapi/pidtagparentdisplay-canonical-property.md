@@ -25,32 +25,32 @@ ms.locfileid: "33429500"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含在搜索过程中找到邮件的文件夹的显示名称。
+包含显示名称中发现邮件的文件夹的行数。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PARENT_DISPLAY、PR_PARENT_DISPLAY_A、PR_PARENT_DISPLAY_W  <br/> |
 |标识符:  <br/> |0x0E05  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |MAPI 非传输  <br/> |
+|区域：  <br/> |MAPI 不可传输  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 这些属性不在任何对象上。 它们只能出现在搜索结果文件夹的内容表中。
   
-这些属性和**PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) 属性不相互关联。 它们属于完全不同的上下文。
+这些属性和 **PR_PARENT_ENTRYID (** [PidTagParentEntryId](pidtagparententryid-canonical-property.md)) 属性之间不相关。 它们属于完全不同的上下文。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

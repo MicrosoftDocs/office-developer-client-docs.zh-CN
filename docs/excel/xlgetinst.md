@@ -22,7 +22,7 @@ ms.locfileid: "33428128"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-返回当前正在调用 DLL 的 Microsoft Excel 实例的实例句柄。
+返回当前调用 DLL Microsoft Excel实例的实例句柄。
   
 ```cs
 Excel4(xlGetInst, LPXLOPER pxRes, 0); /* returns low part only */
@@ -35,20 +35,20 @@ Excel12(xlGetInst, LPXLOPER12 pxRes, 0); /* returns full handle */
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-实例句柄 (**xltypeInt**) 将位于 " **w** " 字段中。 
+**xltypeInt (将**) **val.w** 字段中。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此函数可用于区分调用 DLL 的 Excel 的多个运行实例。
+此函数可用于区分调用 DLL 的 Excel实例。
   
-使用[Excel4](excel4-excel12.md)或[Excel4v](excel4v-excel12v.md)调用此函数时, 返回的 XLOPER 整数变量是带符号的16位短整型。这只能包含32位 Windows 句柄的低16位。 从 Excel 2007 开始, **XLOPER12**的整数变量是一个有符号的32位 int, 因此包含整个句柄, 从而消除了对所有打开的窗口进行迭代的需求。 
+使用 Excel4 或[Excel4v](excel4-excel12.md)调用此函数时，返回的 XLOPER 整数变量是一个有符号的 16 位短整型整数。 [](excel4v-excel12v.md)这只能包含 32 位句柄的低 16 Windows位。 从 Excel 2007 开始 **，XLOPER12** 的整数变量是一个已签名的 32 位 int，因此包含整个句柄，无需重新访问所有打开的窗口。 
   
 > [!IMPORTANT]
-> 如果将**xlGetInst**函数与64位版本的 Microsoft Excel 一起使用, 则函数将失败。 这是因为**xltypeInt**值类型的宽度不足以容纳 Excel 在这种情况下返回的64位长句柄。 为了实现此目的, excel 2010 引入了一个名为[xlGetInstPtr](xlgetinstptr.md)的新函数, 该函数可以使用32位和64位版本的 Excel 来正常运行。 
+> 如果 **xlGetInst** 函数与 64 位版本的 Microsoft Excel一起使用，该函数将失败。 这是因为 **xltypeInt** 值类型不够宽，无法容纳由 Excel返回的 64 位长句柄。 为此，Excel 2010 引入了名为[xlGetInstPtr](xlgetinstptr.md)的新函数，该函数在 32 位和 64 位版本的 Excel 中均正常运行。 
   
 ## <a name="example"></a>示例
 
-下面的示例将调用它的 excel 的最后一个副本的实例与调用它的 excel 的当前副本进行比较。 如果它们相同, 则返回 1; 否则返回1。如果不是, 则返回 0;如果函数失败, 则返回-1。
+下面的示例将最后一个调用该副本的 Excel 实例与调用它的Excel副本进行比较。 如果二者相同，则返回 1;如果没有，则返回 0;如果函数失败，则返回 -1。
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

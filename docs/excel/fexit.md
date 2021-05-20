@@ -22,7 +22,7 @@ ms.locfileid: "33429913"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-用于卸载通用 xll 的用户定义命令示例。 当加载了 generic xll 时, 它将创建一个用户定义的菜单 (通用), 通过该菜单可访问此命令。 
+卸载 GENERIC.xll 的用户定义命令示例。 加载 GENERIC.xll 时，它将创建一个用户定义的菜单 Generic，通过该菜单可以访问此命令。 
   
 ```cs
 int WINAPI fExit(void);
@@ -30,19 +30,19 @@ int WINAPI fExit(void);
 
 ## <a name="parameters"></a>参数
 
-函数不采用任何参数。
+该函数不采用任何参数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-函数总是返回1。
+函数始终返回 1。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-这是用户启动的用于退出 GENERIC 的例程。您应避免只是在`UNREGISTER("GENERIC.XLL")`此函数中调用。 这将强制注销此 DLL 中的所有函数, 即使它们在其他位置注册也是如此。 相反, 一次注销一个函数。 
+这是用户启动的用于退出 GENERIC.xll 的例程 应避免在此函数  `UNREGISTER("GENERIC.XLL")` 中调用。 这将强制取消注册此 DLL 中所有函数，即使它们已在其他地方注册。 相反，应一次注销一个函数。 
   
 ### <a name="example"></a>示例
 
-有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
+有关  `\SAMPLES\GENERIC\GENERIC.C` 此函数的源代码，请参阅 。 
   
 ## <a name="see-also"></a>另请参阅
 

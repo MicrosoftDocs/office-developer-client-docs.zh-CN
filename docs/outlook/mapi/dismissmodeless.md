@@ -25,13 +25,13 @@ ms.locfileid: "33428184"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义在其消除无模式通讯簿对话框时 MAPI 调用的回调函数。 
+定义 MAPI 在消除无模式通讯簿对话框时调用的回调函数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|定义的函数实现者:  <br/> |客户端应用程序  <br/> |
-|定义的函数调用者:  <br/> |MAPI  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|定义的函数实现方：  <br/> |客户端应用程序  <br/> |
+|由调用的已定义函数：  <br/> |MAPI  <br/> |
    
 ```cpp
 void (STDMETHODCALLTYPE DISMISSMODELESS)(
@@ -44,19 +44,19 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
 
  _ulUIParam_
   
-> 实时一个特定于实现的值, 通常用于将用户界面信息传递给函数。 例如, 在 Microsoft Windows 中, 此参数是对话框的父窗口句柄, 其类型为 HWND, 转换为**ULONG_PTR**。 如果值为零, 则表示没有父窗口。 
+> [in]一个特定于实现的值，通常用于将用户界面信息传递给函数。 例如，在 Microsoft Windows此参数是对话框的父窗口句柄，并且类型为 HWND，请强制转换到 ULONG_PTR **。** 值为零表示没有父窗口。 
     
  _lpvContext_
   
-> 实时指向在 MAPI 调用回调函数时传递给该函数的任意值的指针。 此值可以表示对客户端应用程序的重要性的地址。 通常, 对于 c + + 代码, _lpvContext_是指向 c + + 对象实例的地址的指针。 
+> [in]指向 MAPI 调用回调函数时传递给回调函数的任意值的指针。 此值可以表示对客户端应用程序有意义的地址。 通常，对于 C++ 代码  _，lpvContext_ 是指向 C++ 对象实例地址的指针。 
     
 ## <a name="return-value"></a>返回值
 
 无
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-当客户端应用程序调用无模式通讯簿对话框时, 它将在其 Windows 消息循环中包含对基于[ACCELERATEABSDI](accelerateabsdi.md)原型 (检查和处理加速键) 的函数的调用。 当对话框关闭时, MAPI 将调用基于**DISMISSMODELESS**的函数, 以便客户端应用程序将停止调用基于**ACCELERATEABSDI**的函数。 
+当客户端应用程序调用无模式通讯簿对话框时，它会在其 Windows 消息中包含对基于[ACCELERATEABSDI](accelerateabsdi.md)原型的函数的调用，该原型将检查并处理加速键。 关闭对话框时，MAPI 将调用基于 **DISMISSMODELESS** 的函数，以便客户端应用程序停止调用 **基于 ACCELERATEABSDI** 的函数。 
   
 ## <a name="see-also"></a>另请参阅
 

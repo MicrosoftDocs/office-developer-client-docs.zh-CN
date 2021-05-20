@@ -30,6 +30,6 @@ LISTSEP ()
   
 ## <a name="example"></a>示例
 
-SETF (GETREF ()、"MAX (Width" &amp; ListSep () &amp; "Height)") 
+SETF (GETREF (user.extent) ， "MAX (Width" &amp; ListSep () &amp; "Height) ")  
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33428842"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-向 mapi 提供程序指示 mapi 客户端立即退出, 以便 mapi 提供程序将保留所做的更改以防止数据丢失。
+向 MAPI 提供程序指示 MAPI 客户端正在立即退出，以便 MAPI 提供程序将保留更改以防止数据丢失。
   
 ```cpp
 HRESULT DoFastShutdown ();
@@ -35,7 +35,7 @@ HRESULT DoFastShutdown ();
 
 S_OK
   
-> mapi 提供程序已准备好, 可立即退出 mapi 客户端。 
+> MAPI 提供程序已准备好使 MAPI 客户端立即退出。 
     
 ## <a name="see-also"></a>另请参阅
 

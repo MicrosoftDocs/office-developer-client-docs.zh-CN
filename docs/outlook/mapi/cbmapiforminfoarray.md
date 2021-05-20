@@ -25,12 +25,12 @@ ms.locfileid: "33430502"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算现有[SMAPIFormInfoArray](smapiforminfoarray.md)结构中包含指定数量的表单信息对象的字节数。 
+计算包含指定数量的表单信息对象的现有 [SMAPIFormInfoArray](smapiforminfoarray.md) 结构中的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
-|相关结构:  <br/> |**SMAPIFormInfoArray** <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
+|相关结构：  <br/> |**SMAPIFormInfoArray** <br/> |
    
 ```cpp
 CbMAPIFormInfoArray (_c)
@@ -38,9 +38,9 @@ CbMAPIFormInfoArray (_c)
 
 ## <a name="parameters"></a>参数
 
- __c_
+ _ _c_
   
-> 现有**SMAPIFormInfoArray**结构中的表单信息对象的计数。 
+> 现有 **SMAPIFormInfoArray** 结构中表单信息对象计数。 
     
 ## <a name="see-also"></a>另请参阅
 

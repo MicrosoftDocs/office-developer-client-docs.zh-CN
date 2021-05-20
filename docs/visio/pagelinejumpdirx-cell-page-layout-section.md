@@ -24,9 +24,9 @@ ms.locfileid: "33431006"
 |:-----|:-----|:-----|
 | 0  <br/> | 默认值；向左或形状的页面设置  <br/> |**visLOJumpDirXDefault** <br/> |
 | 1  <br/> | 向上  <br/> |**visLOJumpDirXUp** <br/> |
-| 双面  <br/> | 向下  <br/> |**visLOJumpDirXDown** <br/> |
+| 2  <br/> | 向下  <br/> |**visLOJumpDirXDown** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 PageLineJumpDirX 单元格的引用，请使用： 
   

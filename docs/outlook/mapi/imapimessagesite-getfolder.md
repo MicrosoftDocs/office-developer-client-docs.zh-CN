@@ -25,7 +25,7 @@ ms.locfileid: "33430565"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回在其中创建或打开当前邮件的文件夹 (如果存在这样的文件夹)。 此方法在嵌入邮件的_ppFolder_参数中返回 NULL, 这些嵌入邮件不会直接存储在文件夹中。 
+返回创建或打开当前邮件的文件夹（如果存在）。 此方法在  _ppFolder_ 参数中返回嵌入邮件的 NULL，这些邮件不会直接存储在文件夹中。 
   
 ```cpp
 HRESULT GetFolder(
@@ -37,21 +37,21 @@ HRESULT GetFolder(
 
  _ppFolder_
   
-> 排除指向指向返回的文件夹的指针的指针。
+> [out]指向返回文件夹的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 S_FALSE 
   
-> 邮件的文件夹不存在。
+> 邮件没有文件夹。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口列表，请参阅 [MAPI Form Interfaces](mapi-form-interfaces.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -59,7 +59,7 @@ S_FALSE
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetFolder  <br/> |MFCMAPI 使用**IMAPIMessageSite:: GetFolder**方法将当前缓存的指针返回到指定的文件夹。  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer：：GetFolder  <br/> |MFCMAPI 使用 **IMAPIMessageSite：：GetFolder** 方法将当前缓存的指针返回到指定文件夹。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

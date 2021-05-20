@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435948"
 ---
-# <a name="propsmtppassword"></a>PROP_SMTP_PASSWORD
+# <a name="prop_smtp_password"></a>PROP_SMTP_PASSWORD
 
 表示 SMTP 帐户的密码。
   

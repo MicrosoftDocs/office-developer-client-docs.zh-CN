@@ -21,10 +21,10 @@ ms.locfileid: "33428688"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-TNEF 是用于将一组 MAPI 属性（MAPI 邮件）转换为串行数据流的一种格式。 TNEF 函数主要由传输提供程序使用, 这些传输提供程序需要对 MAPI 邮件属性进行编码, 以便通过不支持直接支持这些属性的邮件系统进行传输。 例如, 基于 smtp 的传输使用 TNEF 对属性 (如**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))) 进行编码, 这在 SMTP 邮件的结构中没有直接表示。
+TNEF 是用于将一组 MAPI 属性（MAPI 邮件）转换为串行数据流的一种格式。 TNEF 函数主要由需要编码 MAPI 邮件属性的传输提供程序使用，以通过不支持这些属性直接支持的邮件系统传输。 例如，基于 SMTP 的传输使用 TNEF 对 **PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)) 等属性进行编码，这些属性在 SMTP 邮件的结构中没有直接表示形式。
   
-TNEF 实现定义了几个特定于 TNEF 的属性, 每个属性都对应于特定的 MAPI 属性。 这些属性用于将其各自的 MAPI 属性编码为 TNEF 流。 此外, 还定义了一个特殊属性, 可用于封装任何不具有对应的特定属性的 MAPI 属性。 定义这些属性 (而不是简单地对所有 MAPI 属性使用统一编码方法) 的原因是, 可以与使用 TNEF 的非 MAPI 兼容软件实现向后兼容性。
+TNEF 实现定义几个特定于 TNEF 的属性，每个属性对应于一个特定的 MAPI 属性。 这些属性用于将各自的 MAPI 属性编码到 TNEF 流中。 此外，还定义了一个特殊属性，可用于封装任何没有与之对应的特定属性的 MAPI 属性。 定义这些属性（而不只是针对所有 MAPI 属性使用统一编码方法）的原因是启用与非 MAPI 兼容软件（使用 TNEF）的向后兼容性。
   
-本部分的其余部分介绍了 TNEF 流的结构和语法、MAPI 属性和 TNEF 属性之间的映射以及某些 TNEF 属性的重要注意事项。
+本节的其余部分介绍了 TNEF 流的结构和语法、MAPI 属性和 TNEF 属性之间的映射，以及某些 TNEF 属性的重要注意事项。
   
 

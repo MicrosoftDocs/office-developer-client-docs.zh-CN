@@ -25,12 +25,12 @@ ms.locfileid: "33430873"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通过**[IOSTX](iostxiunknown.md)** 接口执行复制时, 此接口提供了帮助程序功能。 
+通过 **[IOSTX](iostxiunknown.md)** 接口执行复制时，此接口提供帮助程序功能。 
   
 |||
 |:-----|:-----|
-|提供者  <br/> |对[IMsgStore](imsgstoreimapiprop.md)的查询 <br/> |
-|接口标识符:  <br/> |IID_IPSTX2  <br/> |
+|提供方  <br/> |对 [IMsgStore 的查询](imsgstoreimapiprop.md) <br/> |
+|接口标识符：  <br/> |IID_IPSTX2  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
@@ -38,7 +38,7 @@ ms.locfileid: "33430873"
 |:-----|:-----|
 | *占位符成员*  <br/> | *不支持或记录。*  <br/> |
 | *占位符成员*  <br/> | *不支持或记录。*  <br/> |
-|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |设置后台处理程序的挂起状态。  <br/> |
+|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |设置后台处理程序上的挂起状态。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33431706"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-比较两个邮件存储区条目标识符, 以确定它们是否引用同一个存储对象。
+比较两个邮件存储条目标识符以确定它们是否引用同一存储对象。
   
 ```cpp
 HRESULT CompareStoreIDs(
@@ -42,41 +42,41 @@ HRESULT CompareStoreIDs(
 
  _cbEntryID1_
   
-> 实时由_lpEntryID1_参数指向的条目标识符的大小 (以字节为单位) _。_
+> [in]  _lpEntryID1_ 参数指向的条目标识符的大小（以字节为单位  _）。_
     
  _lpEntryID1_
   
-> 实时指向要比较的第一个条目标识符的指针。
+> [in]指向要比较的第一个条目标识符的指针。
     
  _cbEntryID2_
   
-> 实时由_lpEntryID2_参数指向的条目标识符的大小 (以字节为单位) _。_
+> [in]  _lpEntryID2_ 参数指向的条目标识符的大小（以字节为单位  _）。_
     
  _lpEntryID2_
   
-> 实时指向要比较的第二个条目标识符的指针。
+> [in]指向要比较的第二个条目标识符的指针。
     
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lpulResult_
   
-> 排除指向比较的返回结果的指针。 如果两个条目标识符引用同一个对象, 则为 TRUE; 否则为 false。否则为 FALSE。
+> [out]指向比较结果的返回结果的指针。 如果两个条目标识符引用同一个对象，则其为 TRUE;否则为 FALSE。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-MAPI 在处理对[IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md)方法的调用时调用**IMSProvider:: CompareStoreIDs**方法。 此时, 将调用**CompareStoreIDs** , 以确定哪个配置文件部分 (如果有) 与要打开的邮件存储区相关联。 当没有打开特定存储提供程序的邮件存储区时, 可以进行**CompareStoreIDs**调用。 此外, MAPI 还会在处理对[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)方法的存储提供程序调用时调用**CompareStoreIDs** 。 
+MAPI 在处理对 [IMAPISession：：OpenMsgStore](imapisession-openmsgstore.md)方法的调用时调用 **IMSProvider：：CompareStoreIDs** 方法。 **此时将调用 CompareStoreIDs** 以确定哪个配置文件部分（如果有）与正在打开的邮件存储相关联。 当没有为特定存储提供程序打开任何邮件存储时，可以调用 **CompareStoreIDs。** 此外，MAPI 还会在处理对 [IMAPISupport：：OpenProfileSection](imapisupport-openprofilesection.md)方法的存储提供程序调用时调用 **CompareStoreIDs。** 
   
-由**CompareStoreIDs**进行比较的条目标识符均适用于当前存储提供程序的动态链接库 (DLL), 并且都是已包装的存储项标识符。 有关包装存储项标识符的详细信息, 请参阅[IMAPISupport:: WrapStoreEntryID](imapisupport-wrapstoreentryid.md)。
+**CompareStoreIDs** 比较的条目标识符既适用于当前存储提供程序的动态链接库 (DLL) ，又都是未包存储条目标识符。 有关包装存储条目标识符的信息，请参阅 [IMAPISupport：：WrapStoreEntryID](imapisupport-wrapstoreentryid.md)。
   
-比较条目标识符很有用, 因为一个对象可以有多个有效的条目标识符。 例如, 在安装了新版本的邮件存储提供程序后, 可能会发生这种情况。 
+比较条目标识符非常有用，因为对象可以具有多个有效的条目标识符。 例如，安装邮件存储提供程序的新版本后，可能会发生这种情况。 
   
 ## <a name="see-also"></a>另请参阅
 

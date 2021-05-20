@@ -15,12 +15,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428912"
 ---
-# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>避免使用 IStream:: SetSize 扩展流
+# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>避免使用 IStream：：SetSize 扩展流
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在写入流时, 有时需要将其放大, 因为它们的初始大小已不再足够。 使用 OLE 方法**IStream:: Write**实现此目的, 而不是**IStream:: SetSize**。 **IStream:: Write**自动扩展流, 将 * * IStream:: SetSize * * 设为不必要。 调用**IStream::** 不带**IStream:: SetSize**的写入速度可比在**写入**前进行**SetSize**调用的速度快三倍。
+在写入流时，有时必须放大它们，因为它们的初始大小不再足够。 使用 OLE 方法 **IStream：：Write** 完成此操作，而不是 **IStream：：SetSize**。 **IStream：：Write** 自动扩展流，使 ** IStream：：SetSize ** 不必要。 在没有 IStream：：SetSize 的情况下调用 **IStream：：Write** 的速度最多比在 Write 之前进行 **SetSize** 调用快 **三倍**。 
   
 

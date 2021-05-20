@@ -8,7 +8,7 @@ f1_keywords:
 - TempMissing
 - TempMissing12
 keywords:
-- tempmissing 函数 [excel 2007], TempMissing12 函数 [excel 2007]
+- tempmissing 函数 [excel 2007]，TempMissing12 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -23,7 +23,7 @@ ms.locfileid: "33435955"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-创建**xltypeMissing**类型的临时**XLOPER**/ **XLOPER12**的框架库函数。
+创建 /  **xltypeMissing** 类型的临时 **XLOPER XLOPER12** 的框架库函数。
   
 ```cs
 LPXLOPER TempMissing(void);
@@ -36,11 +36,11 @@ LPXLOPER12 TempMissing12(void);
   
 ## <a name="return-value"></a>返回值
 
-返回指向**xltypeMissing** **XLOPER**/ **XLOPER12**的指针。
+返回一个指向 **xltypeMissing** **XLOPER** /  **XLOPER12 的指针**。
   
 ## <a name="example"></a>示例
 
-此示例使用**TempMissing12**为**xlcWorkspace**提供了三个缺少的参数, 后跟一个**布尔** **FALSE** , 以禁止显示工作表滚动条。 前三个参数对应于不受影响的其他工作区设置。 
+此示例使用 **TempMissing12** 为 **xlcWorkspace** 提供三个缺少的参数，后跟 **一个布尔** **FALSE** 来禁止显示工作表滚动条。 前三个参数对应于不受影响的其他工作区设置。 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

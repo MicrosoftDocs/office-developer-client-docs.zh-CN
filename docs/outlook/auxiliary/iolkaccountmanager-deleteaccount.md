@@ -32,13 +32,13 @@ HRESULT IOlkAccountManager::DeleteAccount (
 
 _dwAcctID_
   
-> 实时要删除的帐户的帐户 ID。
+> [in]要删除的帐户的帐户 ID。
     
 ## <a name="return-values"></a>返回值
 
 |**[HRESULT]**|**说明**|
 |:-----|:-----|
-|S_OK  <br/> |呼叫成功  <br/> |
+|S_OK  <br/> |调用成功  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |找不到指定的帐户。  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |帐户管理器已初始化，不能使用。  <br/> |
    

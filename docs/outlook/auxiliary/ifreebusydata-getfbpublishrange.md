@@ -20,7 +20,7 @@ ms.locfileid: "33430075"
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅[IFreeBusyData](ifreebusydata.md)。
+请参阅 [IFreeBusyData](ifreebusydata.md)。
   
 ```cpp
 HRESULT GetFBPublishRange( 
@@ -34,21 +34,21 @@ HRESULT GetFBPublishRange(
 
 _prtmStart_
   
-> 排除忙/闲信息开始的相对时间值。 此值是自1601年1月1日以来的分钟数。
+> [out]忙/闲信息开始的相对时间值。 此值是自 1601 年 1 月 1 日起的分钟数。
     
 _prtmEnd_
   
-> 排除忙/闲信息结束的相对时间值。 此值是自1601年1月1日以来的分钟数。
+> [out]忙/闲信息结尾的相对时间值。 此值是自 1601 年 1 月 1 日起的分钟数。
     
 ## <a name="return-values"></a>返回值
 
 如果该调用成功，则返回 S_OK否则为一个错误代码。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-忙/闲提供程序调用[IFreeBusyData:: EnumBlocks](ifreebusydata-enumblocks.md)或[IFreeBusyData:: SetFBRange](ifreebusydata-setfbrange.md)设置枚举的时间范围。 如果尚未调用[IFreeBusyData:: EnumBlocks](ifreebusydata-enumblocks.md)或[IFreeBusyData:: SetFBRange](ifreebusydata-setfbrange.md) , **prtmStart**和**prtmEnd**的默认值必须设置介于 1601 00:00: 00Z 和8月31日 4500 11:59: 59Z 之间的默认值。分别. 此外, 不应将开始时间设置为大于结束时间。 
+忙/闲提供程序调用 [IFreeBusyData：：EnumBlocks](ifreebusydata-enumblocks.md) 或 [IFreeBusyData：：SetFBRange](ifreebusydata-setfbrange.md) 来设置枚举的时区。 如果未调用 [IFreeBusyData：：EnumBlocks](ifreebusydata-enumblocks.md) 或 [IFreeBusyData：：SetFBRange，](ifreebusydata-setfbrange.md) 则必须分别在 1601 年 4 月 1 日 00：00：00Z 和 4500 11：59：59Z 之间设置 **prtmStart** 和 **prtmEnd** 的默认值。 此外，不应将开始时间设置为大于结束时间。 
   
-**IFreeBusyData:: GetFBPublishRange**必须为**IFreeBusyData:: EnumBlocks**或**IFreeBusyData:: SetFBRange**的最近一次调用设置的时间范围返回缓存值。 
+**IFreeBusyData：：GetFBPublishRange** 必须返回最近一次调用 **IFreeBusyData：：EnumBlocks** 或 **IFreeBusyData：：SetFBRange** 设置的时区的缓存值。 
   
 ## <a name="see-also"></a>另请参阅
 

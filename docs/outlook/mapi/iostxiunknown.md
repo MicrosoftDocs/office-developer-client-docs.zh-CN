@@ -25,45 +25,45 @@ ms.locfileid: "33431993"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供同步方法。 此接口检索将本地更改复制到服务器并将服务器更改复制到本地存储的必要信息。
+提供同步方法。 此接口检索将本地更改复制到服务器和服务器更改到本地存储的必要信息。
   
 |||
 |:-----|:-----|
 |提供者：  <br/> |[IPSTX::GetSyncObject](iostx-setsyncresult.md) <br/> |
-|接口标识符:  <br/> |IID_IOSTX  <br/> |
+|接口标识符：  <br/> |IID_IOSTX  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[GetLastError](iostx-getlasterror.md) <br/> |获取有关上一个错误的扩展信息。  <br/> |
+|[GetLastError](iostx-getlasterror.md) <br/> |获取有关最后一个错误的扩展信息。  <br/> |
 |[InitSync](iostx-initsync.md) <br/> |通知本地存储即将启动同步。  <br/> |
-|[SyncBeg](iostx-syncbeg.md) <br/> |准备本地存储以在特定状态进行同步并检索要复制的必要信息。  <br/> |
-|[SyncEnd](iostx-syncend.md) <br/> |在当前状态结束同步并退出该状态。  <br/> |
-|[SyncHdrBeg](iostx-synchdrbeg.md) <br/> |启动邮件头同步。  <br/> |
-|[SyncHdrEnd](iostx-synchdrend.md) <br/> |结束邮件头同步。  <br/> |
+|[SyncBeg](iostx-syncbeg.md) <br/> |准备本地存储以用于特定状态同步，并检索要复制的必要信息。  <br/> |
+|[SyncEnd](iostx-syncend.md) <br/> |在当前状态中结束同步并退出该状态。  <br/> |
+|[SyncHdrBeg](iostx-synchdrbeg.md) <br/> |启动邮件头的同步。  <br/> |
+|[SyncHdrEnd](iostx-synchdrend.md) <br/> |结束邮件头的同步。  <br/> |
 |[SetSyncResult](iostx-setsyncresult.md) <br/> |设置同步的结果。  <br/> |
 | *占位符成员*  <br/> | *不支持或记录。*  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-当客户端在本地存储上上载或同步文件夹和文件夹内容时, 它会将本地存储从一个状态移动到另一个状态, 如[关于复制状态机](about-the-replication-state-machine.md)中的状态转换关系图中所示。 以下是客户端将本地存储从一个状态移动到另一个状态的事件的顺序:
+当客户端上载或同步本地存储上的文件夹和文件夹内容时，它会将本地存储从一个状态移动到另一个状态，如关于复制状态机 的状态转换 [图中所示](about-the-replication-state-machine.md)。 以下是客户端将本地存储从一个状态移动到另一个状态的事件顺序：
   
-1. 客户端调用**IOSTX:: InitSync**来通知本地存储即将启动复制。 
+1. 客户端调用 **IOSTX：：InitSync** 以通知本地存储即将开始复制。 
     
-2. 根据复制方向和要复制的对象, 客户端会调用**IOSTX:: SyncBeg**以在适当的状态下开始复制。 Outlook 向客户端提供必要的信息, 客户端执行复制。 
+2. 根据复制方向和要复制的对象，客户端会调用 **IOSTX：：SyncBeg** 以在适当的状态开始复制。 Outlook向客户端提供必要信息，并且客户端执行复制。 
     
-3. 客户端调用**IOSTX:: SetSyncResult**以返回复制的结果。 
+3. 客户端调用 **IOSTX：：SetSyncResult** 以返回复制结果。 
     
-4. 客户端调用**IOSTX:: SyncEnd**结束复制, 为 Outlook 提供了后续复制所需的信息。 
+4. 客户端调用 **IOSTX：：SyncEnd** 以结束复制，Outlook复制的必需信息。 
     
-特别是在下载邮件项目时, 客户端使用**IOSTX:: SyncHdrBeg**和**IOSTX:: SyncHdrEnd**更新本地存储区上的邮件头的完整邮件项: 
+特别是，在下载邮件项目时，客户端使用 **IOSTX：：SyncHdrBeg** 和 **IOSTX：：SyncHdrEnd** 在本地存储上使用邮件头更新完整邮件项目： 
   
-1. 在**IOSTX:: SyncHdrBeg**中, 本地存储将转换为下载邮件标头状态。 Outlook 最初为客户端提供本地存储上的当前邮件头。
+1. **IOSTX：：SyncHdrBeg** 时，本地存储将转换为下载邮件头状态。 Outlook最初为客户端提供本地存储上的当前邮件头。
     
-2. 客户端将完整的邮件项与邮件头一起下载。
+2. 客户端下载包含邮件头的完整邮件项目。
     
-3. Outlook 使用完整邮件项更新本地存储区上的项目。
+3. Outlook使用完整邮件项目更新本地存储上的项。
     
 ## <a name="see-also"></a>另请参阅
 

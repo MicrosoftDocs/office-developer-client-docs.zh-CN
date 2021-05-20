@@ -25,7 +25,7 @@ ms.locfileid: "33428576"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-检索此[IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md)封装的基础[IMessage: IMAPIProp](imessageimapiprop.md) 。 
+检索此[IMAPISecureMessage ： IUnknown](imapisecuremessageiunknown.md)正在封装的基础[IMessage ： IMAPIProp。](imessageimapiprop.md) 
   
 ```cpp
 HRESULT GetBaseMessage(
@@ -37,13 +37,13 @@ HRESULT GetBaseMessage(
 
  _ppmsg_
   
-> 排除安全邮件对象。
+> [out]安全邮件对象。
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 ## <a name="see-also"></a>另请参阅
 

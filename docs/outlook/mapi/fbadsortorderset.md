@@ -25,7 +25,7 @@ ms.locfileid: "33428457"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-验证是否通过验证其内存分配来设置排序顺序。 
+通过验证排序顺序集的内存分配来验证其排序顺序。 
   
 |||
 |:-----|:-----|
@@ -43,20 +43,20 @@ ULONG FBadSortOrderSet(
 
  _lpsos_
   
-> 实时指向标识排序顺序设置为要验证的[SSortOrderSet](ssortorderset.md)结构的指针。 
+> [in]指向标识要验证的排序顺序设置的 [SSortOrderSet](ssortorderset.md) 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 TRUE 
   
-> 指定的排序次序设置无效。 
+> 指定的排序顺序集无效。 
     
 FALSE 
   
-> 指定的排序次序设置有效。
+> 指定的排序顺序集有效。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**FBadSortOrderSet**函数可用于准备对[IMAPITable:: SortTable](imapitable-sorttable.md)方法等 sort 方法的调用。 
+**FBadSortOrderSet** 函数可用于准备对排序方法（如 [IMAPITable：：SortTable](imapitable-sorttable.md)方法）的调用。 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33436333"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含标志的位掩码, 这些标志指示**IMAPIStatus**接口中由 status 对象支持的方法。 
+包含指示 **IMAPIStatus** 接口中 status 对象支持的方法的位掩码标志。 
   
 |||
 |:-----|:-----|
@@ -34,49 +34,49 @@ ms.locfileid: "33436333"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性指示支持在 status 对象的**IMAPIStatus**实现中的哪些方法。 Status 对象允许从不受支持的方法返回 MAPI_E_NO_SUPPORT。 
+此属性指示状态对象的 **IMAPIStatus** 实现中支持哪些方法。 Status 对象允许从不受MAPI_E_NO_SUPPORT返回值。 
   
-客户端使用 status 对象的**PR_RESOURCE_METHODS**属性, 以避免调用不受支持的方法。 如果设置了与特定方法对应的标志, 则该方法存在并且可以调用。 如果清除该标志, 则不应调用该方法。 
+客户端使用 status 对象的 **PR_RESOURCE_METHODS** 属性，以避免调用不受支持的方法。 如果设置了与特定方法对应的标志，则该方法存在并可以调用。 如果该标志是明确的，则不应调用 该方法。 
   
-由 MAPI 实现的状态对象支持以下方法:
+MAPI 实现的状态对象支持以下方法：
   
 |**Status 对象**|**支持的方法**|
 |:-----|:-----|
-|MAPI 子系统  <br/> |仅**ValidateState**  <br/> |
-|MAPI 通讯簿  <br/> |仅**ValidateState**  <br/> |
-|MAPI 后台处理程序  <br/> |**ValidateState**和**FlushQueues** <br/> |
+|MAPI 子系统  <br/> |**仅 ValidateState**  <br/> |
+|MAPI 通讯簿  <br/> |**仅 ValidateState**  <br/> |
+|MAPI 后台处理程序  <br/> |**ValidateState** 和 **FlushQueues** <br/> |
    
-可以在**PR_RESOURCE_METHODS**中设置以下一个或多个标志:
+可以在以下值中设置以下一个或多个 **PR_RESOURCE_METHODS：**
   
 STATUS_CHANGE_PASSWORD 
   
-> 指示支持[IMAPIStatus:: ChangePassword](imapistatus-changepassword.md)方法。 
+> 指示 [IMAPIStatus：：ChangePassword](imapistatus-changepassword.md) 方法受支持。 
     
 STATUS_FLUSH_QUEUES 
   
-> 指示支持[IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md)方法。 
+> 指示 [IMAPIStatus：：FlushQueues](imapistatus-flushqueues.md) 方法受支持。 
     
 STATUS_SETTINGS_DIALOG 
   
-> 指示支持[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)方法。 
+> 指示 [IMAPIStatus：：SettingsDialog](imapistatus-settingsdialog.md) 方法受支持。 
     
 STATUS_VALIDATE_STATE 
   
-> 指示支持[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法。 
+> 指示 [IMAPIStatus：：ValidateState](imapistatus-validatestate.md) 方法受支持。 
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

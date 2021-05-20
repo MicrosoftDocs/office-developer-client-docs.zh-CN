@@ -22,21 +22,21 @@ ms.locfileid: "33429801"
   
 ## <a name="syntax"></a>语法
 
-SIN (* * *angle* * *) 
+SIN (** *angle* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |必需  <br/> |**数值** <br/> |要获取其正弦值的角度。  <br/> |
+| _angle_ <br/> |必需  <br/> |**Numeric** <br/> |要获取其正弦值的角度。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-数字
+帐号
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-SIN 函数使用弧度, 除非您以_角度_指定了不同的度量单位。
+除非在 angle 中指定了不同的度量单位，否则 SIN 函数使用  _弧度_ 单位。
   
 ## <a name="example"></a>示例
 

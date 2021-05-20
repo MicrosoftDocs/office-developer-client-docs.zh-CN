@@ -37,7 +37,7 @@ HRESULT GetViewContext(
 
  _ppViewContext_
   
-> 排除指向表单的视图上下文的指针的指针。
+> [out]指向指向表单视图上下文的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -49,13 +49,13 @@ S_FALSE
   
 > 没有表单的视图上下文。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单查看者调用**GetViewContext**以获取指向在之前调用[IMAPIForm:: SetViewContext](imapiform-setviewcontext.md)时建立的视图上下文的指针。 如果之前未对**SetViewContext**进行任何调用, 则**GetViewContext**会将_ppViewContext_设置为 NULL。 
+表单查看器调用 **GetViewContext** 以获取指向在上一次调用 [IMAPIForm：：SetViewContext 时建立的视图上下文的指针](imapiform-setviewcontext.md)。 如果没有事先调用 **SetViewContext** **，GetViewContext** 将  _ppViewContext_ 设置为 NULL 。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-将表单的视图上下文指针复制到由_ppViewContext_参数中的调用表单查看器传入的指针中。 如果窗体没有视图上下文, 则将_ppViewContext_设置为 NULL。 
+将表单的视图上下文指针复制到由调用表单查看器在  _ppViewContext_ 参数中传递的指针。 如果表单没有视图上下文，则将  _ppViewContext_ 设置为 NULL。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -63,7 +63,7 @@ S_FALSE
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions  <br/> |OpenMessageNonModal  <br/> |MFCMAPI 使用**IMAPIForm:: GetViewContext**方法检查窗体中是否有视图上下文。  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI 使用 **IMAPIForm：：GetViewContext** 方法检查表单是否具有视图上下文。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

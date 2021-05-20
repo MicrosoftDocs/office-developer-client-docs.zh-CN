@@ -23,11 +23,11 @@ ms.locfileid: "33428282"
  
 **适用于**：Outlook 2013 | Outlook 2016 
   
-为操作初始化通讯簿提供程序。 
+初始化通讯簿提供程序以用于操作。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapispi  <br/> |
+|标头文件：  <br/> |Mapispi.h  <br/> |
 |实现者：  <br/> |通讯簿提供程序  <br/> |
 |调用者：  <br/> |MAPI  <br/> |
    
@@ -49,67 +49,67 @@ HRESULT ABProviderInit(
 
  _hInstance_
   
-> 实时MAPI 链接时使用的通讯簿提供程序的动态链接库 (DLL) 的实例。 
+> [in]通讯簿提供程序的动态链接库的实例 (MAPI 链接) 使用的 DLL。 
     
  _lpMalloc_
   
-> 实时指向用于公开 OLE **IMalloc**接口的内存分配器对象的指针。 通讯簿提供程序在使用某些接口 (如**IStream**) 时, 可能需要使用此分配方法。 
+> [in]指向公开 OLE **IMalloc 接口的内存分配器对象的** 指针。 当使用某些接口（如 **IStream**）时，通讯簿提供程序可能需要使用此分配方法。 
     
  _lpAllocateBuffer_
   
-> 实时指向[MAPIAllocateBuffer](mapiallocatebuffer.md)函数的指针, 使用 MAPI 分配内存所需的位置。 
+> [in]指向 [MAPIAllocateBuffer](mapiallocatebuffer.md) 函数的指针，在 MAPI 需要时用于分配内存。 
     
  _lpAllocateMore_
   
-> 实时指向[MAPIAllocateMore](mapiallocatemore.md)函数的指针, 在 MAPI 需要使用它分配更多内存的地方。 
+> [in]指向 [MAPIAllocateMore](mapiallocatemore.md) 函数的指针，在 MAPI 需要时用于分配额外内存。 
     
  _lpFreeBuffer_
   
-> 实时指向[MAPIFreeBuffer](mapifreebuffer.md)函数的指针, 可在 MAPI 所需的地方使用, 以释放内存。 
+> [in]指向 [MAPIFreeBuffer](mapifreebuffer.md) 函数的指针，在 MAPI 需要时用于释放内存。 
     
  _ulFlags_
   
-> 实时标志的位掩码。 可以设置以下标志:
+> [in]标志的位掩码。 可以设置以下标志：
     
 MAPI_NT_SERVICE 
   
-> 提供程序在 Windows 服务的上下文中加载, 这是一种特殊类型的过程, 无需访问任何用户界面。 
+> 提供程序正在服务（一种无法访问任何用户界面的一种特殊Windows服务）的上下文中加载。 
     
  _ulMAPIVer_
   
-> 实时MAPI 的服务提供程序接口 (SPI) 的版本号。DLL 使用。 有关当前版本号, 请参阅 MAPISPI。H 头文件。 
+> [in]服务提供商接口的版本号 (SPI) 使用MAPI.DLL版本号。 有关当前版本号，请参阅 MAPISPI。H 头文件。 
     
  _lpulProviderVer_
   
-> 排除指向此通讯簿提供程序使用的 SPI 版本号的指针。 
+> [out]指向此通讯簿提供程序使用的 SPI 的版本号的指针。 
     
  _lppABProvider_
   
-> 排除指向已初始化的通讯簿提供程序对象的指针的指针。
+> [out]指向指向已初始化通讯簿提供程序对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。 
+> 调用成功并返回了预期值。 
     
 MAPI_E_VERSION 
   
-> MAPI 使用的 spi 版本与此提供程序使用的 spi 不兼容。
+> MAPI 使用的 SPI 版本与此提供程序使用的 SPI 不兼容。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-MAPI 调用入口点函数**ABProviderInit** , 以在客户端登录后初始化通讯簿提供程序。 
+MAPI 调用入口点函数 **ABProviderInit** 以在客户端登录后初始化通讯簿提供程序。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-通讯簿提供程序必须将**ABProviderInit**实现为提供程序的 DLL 中的入口点函数。 实现必须基于**ABPROVIDERINIT**函数原型 (也在 MAPISPI 中指定)。水平. MAPI 将**ABPROVIDERINIT**定义为使用标准 MAPI 初始化呼叫类型 STDMAPIINITCALLTYPE, 这将导致**ABPROVIDERINIT**遵循 CDECL 调用约定。 
+通讯簿提供程序必须将 **ABProviderInit** 实现为提供程序的 DLL 中的入口点函数。 实现必须基于 **ABPROVIDERINIT** 函数原型，在 MAPISPI.H 中也指定了该原型。 MAPI 将 **ABPROVIDERINIT** 定义为使用标准 MAPI 初始化调用类型 STDMAPIINITCALLTYPE，这将导致 **ABProviderInit** 遵循 CDECL 调用约定。 
   
-提供程序可以多次初始化, 这是由于多个配置文件中出现在同时使用或在同一配置文件中出现多次。 由于 provider 对象包含上下文, 因此**ABProviderInit**必须在_lppABProvider_中为每个初始化返回不同的提供程序对象, 即使在同一进程中进行了多次初始化也是如此。 
+提供程序可以多次初始化，因为同时在多个配置文件中显示，或者在同一配置文件中多次出现。 由于提供程序对象包含上下文， **因此 ABProviderInit** 必须在  _lppABProvider_ 中针对每次初始化返回不同的提供程序对象，即使对于同一进程中的多个初始化，也必须返回该对象。 
   
-通讯簿提供程序应使用由_lpAllocateBuffer_、 _lpAllocateMore_和_lpFreeBuffer_指向的功能, 以实现大多数内存分配和释放。 特别是, 提供程序必须使用这些函数分配在调用对象接口 (如[IMAPIProp:: GetProps](imapiprop-getprops.md)和[IMAPITable:: QueryRows](imapitable-queryrows.md)) 时供客户端应用程序使用的内存。 如果提供程序还预期使用 OLE 内存分配器, 则它应调用分配器对象的**IUnknown:: AddRef**方法, 该对象由_lpMalloc_参数指向该对象。 
+通讯簿提供程序应该使用 _lpAllocateBuffer、lpAllocateMore_ 和 _lpFreeBuffer_ 指向的函数，以用于大多数内存分配和取消分配。  特别是，当调用 [IMAPIProp：：GetProps](imapiprop-getprops.md) 和 [IMAPITable：：QueryRows](imapitable-queryrows.md)等对象接口时，提供程序必须使用这些函数分配内存供客户端应用程序使用。 如果提供程序还希望使用 OLE 内存分配器，则它应调用 _lpMalloc_ 参数指向的分配器对象的 **IUnknown：：AddRef** 方法。 
   
-有关编写**ABProviderInit**的详细信息, 请参阅[实现通讯簿提供程序入口点函数](implementing-an-address-book-provider-entry-point-function.md)。 有关入口点函数的详细信息, 请参阅[实现服务提供程序入口点函数](implementing-a-service-provider-entry-point-function.md)。 
+有关编写 **ABProviderInit** 的信息，请参阅 [实现通讯簿提供程序入口点函数](implementing-an-address-book-provider-entry-point-function.md)。 有关入口点函数详细信息，请参阅 [实现服务提供程序入口点函数](implementing-a-service-provider-entry-point-function.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

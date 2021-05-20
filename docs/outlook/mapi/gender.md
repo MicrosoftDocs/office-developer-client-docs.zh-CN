@@ -41,27 +41,27 @@ enum Gender {
 
  _genderMin_
   
-> 为性别支持的最小不同值数。
+> 支持性别的不同值的最小数量。
     
  _genderUnspecified_
   
-> 不指定邮件用户的性别。
+> 没有为消息传递用户指定性别。
     
  _genderFemale_
   
-> 邮件用户是女。
+> 邮件用户是男性。
     
  _genderMale_
   
-> 邮件用户是男。
+> 消息传送用户是男性。
     
  _genderCount_
   
-> 性别支持的不同值的数量。
+> 支持性别的不同值的数量。
     
  _genderMax_
   
-> 性别支持的最大不同值数。
+> 性别支持的不同值的最大数量。
     
 ## <a name="see-also"></a>另请参阅
 

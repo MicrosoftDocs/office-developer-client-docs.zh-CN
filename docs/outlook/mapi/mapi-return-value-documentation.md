@@ -21,29 +21,29 @@ ms.locfileid: "33429689"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-此参考中的引用条目只记录那些需要由客户端应用程序处理的返回值。 返回指示常见错误条件的值, 并且可以通过检查是否有故障来推断, 而不包括在文档中。 例如, 如果调用方为输入参数指定了错误的值, 则许多接口方法可以返回 MAPI_E_INVALID_PARAMETER。 此值通常不会在预期的返回值集中列出, 因为无需专门查找 MAPI_E_INVALID_PARAMETER, 也无需与任何其他错误那样进行处理。 另一方面, 某些服务提供商不支持事件通知, 并将 MAPI_E_NO_SUPPORT 返回到由客户端通过**IMAPISession**发出的**Advise**方法。 由于客户端需要显式检查此值并提供用于处理它所代表的条件的代码, 因此, MAPI_E_NO_SUPPORT 将包含在[IMAPISession:: 建议](imapisession-advise.md)的返回值列表中。
+本参考文档中的引用条目仅返回需要客户端应用程序进行一些处理的返回值。 返回指示常见错误条件且可通过检查失败而推断的值不包含在文档中。 例如，如果调用方为输入参数MAPI_E_INVALID_PARAMETER错误值，则许多接口方法都可以返回值。 此值通常未在预期返回值集合中列出，因为不需要专门查找 MAPI_E_INVALID_PARAMETER也无需以不同于任何其他错误的方式处理该值。 另一方面，某些服务提供商不支持事件通知，并且将MAPI_E_NO_SUPPORT通过 **IMAPISession** 的 **Advise** 方法返回通知。 由于客户端需要显式检查此值并提供用于处理它表示的条件的代码（如果发生这种情况，MAPI_E_NO_SUPPORT 会包含在 [IMAPISession：：Advise](imapisession-advise.md)的返回值列表中。
   
-下表介绍了通常从方法和函数返回的错误值, 并要求对客户端或服务提供程序的部分进行显式处理。 这些值分为四个类别: 指示无效输入数据的值、指示资源问题的值、指示字符集不兼容的值以及指示未知源失败的值。
+下表描述了通常从方法和函数返回的错误值，并且需要在客户端或服务提供商的一部分进行显式处理。 这些值分为四类：表示无效输入数据的值、指示资源问题的值、指示字符集不兼容的值和指示未知来源失败的值。
   
 |**返回值**|**说明**|
 |:-----|:-----|
-|MAPI_E_INVALID_PARAMETER  <br/> |传递到方法或函数中的一个或多个参数无效。  <br/> |
-|MAPI_E_UNKNOWN_FLAGS  <br/> |flags 参数的一个或多个值无效。  <br/> |
-|MAPI_E_DISK_ERROR  <br/> |写入或读取磁盘时出现问题。  <br/> |
-|MAPI_E_NOT_ENOUGH_DISK  <br/> |可用磁盘空间不足, 无法完成此操作。  <br/> |
-|MAPI_E_NOT_ENOUGH_MEMORY  <br/> |可用内存不足, 无法完成操作。  <br/> |
-|MAPI_E_NOT_ENOUGH_RESOURCES  <br/> |可用的系统资源不足, 无法完成此操作。  <br/> |
-|MAPI_E_BAD_CHARWIDTH  <br/> |调用方和实现支持的字符集中存在不兼容性。  <br/> |
-|MAPI_E_CALL_FAILED  <br/> |发生意外或未知源的错误。  <br/> |
+|MAPI_E_INVALID_PARAMETER  <br/> |传入方法或函数的一个或多个参数无效。  <br/> |
+|MAPI_E_UNKNOWN_FLAGS  <br/> |标记参数的一个或多个值已无效。  <br/> |
+|MAPI_E_DISK_ERROR  <br/> |写入磁盘或从磁盘读取时出现问题。  <br/> |
+|MAPI_E_NOT_ENOUGH_DISK  <br/> |磁盘空间不足，无法完成操作。  <br/> |
+|MAPI_E_NOT_ENOUGH_MEMORY  <br/> |没有足够的内存来完成该操作。  <br/> |
+|MAPI_E_NOT_ENOUGH_RESOURCES  <br/> |没有足够的系统资源来完成该操作。  <br/> |
+|MAPI_E_BAD_CHARWIDTH  <br/> |调用方和实现支持的字符集中存在不兼容。  <br/> |
+|MAPI_E_CALL_FAILED  <br/> |发生意外或未知来源错误。  <br/> |
    
-表示 MAPI 返回值的常量在 MAPICODE 中列出。H 头文件。 某些常量映射到 Win32 错误;可以在 Win32 头文件 winerror.h 中找到这些常量到数字值的映射。水平.
+表示 MAPI 返回值的常量列在 MAPICODE 中。H 头文件。 某些常量映射到 Win32 错误;可以在 Win32 头文件 WINERROR.H 中找到这些常量与数值的映射。
   
-可以通过 MAPI 提供的参数验证 API 函数或一组宏来确定有关由呼叫者传入的无效数据的错误。 
+有关调用方传入的无效数据的错误可以通过 MAPI 提供的参数验证 API 函数或一组宏来确定。 
   
-出现以下情况之一时, 将出现字符集不兼容情况:
+出现以下任一情况时，会出现字符集不兼容情况：
   
-- 客户端或服务提供程序在方法或函数调用上设置 MAPI_UNICODE 标志, 且实现不支持 UNICODE。 设置 MAPI_UNICODE 指示作为输入传入的字符字符串是 unicode 字符串, 而传递回输出的字符串应为 unicode 字符串。
+- 客户端或服务提供商在方法MAPI_UNICODE函数调用上设置该标志，而实现不支持 Unicode。 setting MAPI_UNICODE indicates that character strings passed in as input are Unicode strings and that character strings passed back as output are expected to Unicode strings.
     
-- 客户端或服务提供程序不会在方法或函数调用上设置 MAPI_UNICODE 标志, 且实现仅支持 UNICODE。
+- 客户端或服务提供商不会在方法或MAPI_UNICODE上设置该标志，并且实现仅支持 Unicode。
     
 

@@ -37,53 +37,53 @@ ULONG FAR * lpulStatus
 
  _lpulStatus_
   
-> 排除指向提供查看器状态的标志的位掩码的指针。 可以设置以下标志:
+> [out]指向提供查看器状态的标记的位掩码的指针。 可以设置以下标志：
     
 VCSTATUS_CATEGORY 
   
-> 另一个类别中有下一个或上一个邮件。 
+> 存在另一个类别中的下一封邮件或上一封邮件。 
     
 VCSTATUS_DELETE 
   
-> 该窗体允许删除邮件。 
+> 窗体允许删除邮件。 
     
 VCSTATUS_INTERACTIVE 
   
-> 表单应显示用户界面。 如果未设置此标志, 则表单应禁止显示用户界面, 即使是响应通常会导致显示用户界面的动作也是如此。 
+> 表单应显示用户界面。 如果未设置此标志，则表单应该禁止显示用户界面，即使该动作通常会导致显示用户界面。 
     
 VCSTATUS_MODAL 
   
-> 窗体是查看器的模式。 
+> 窗体对查看器是模式窗体。 
     
 VCSTATUS_NEXT 
   
-> 视图中存在下一条消息。 
+> 视图中有下一条消息。 
     
 VCSTATUS_PREV 
   
-> 视图中有上一封邮件。 
+> 视图中有一条以前的消息。 
     
 VCSTATUS_READONLY 
   
-> 将在只读模式下打开邮件。 应禁用删除、提交和移动操作。 
+> 邮件将在只读模式下打开。 应禁用删除、提交和移动操作。 
     
 VCSTATUS_UNREAD 
   
-> 视图中存在下一个或上一个未读邮件。
+> 视图中存在下一条或上一条未读邮件。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回查看器的状态。
+> 已成功返回查看者的状态。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单对象调用**IMAPIViewContext:: GetViewStatus**方法, 以确定在一种或两种方向的 "窗体" 视图中是否有更多的要激活的邮件, 这些方向是在 "**下一步**" 命令激活邮件的方向, 在上一个命令激活邮件的方向, 或在两个方向**上**激活邮件的方向。 _lpulStatus_参数所指向的值用于确定 VCSTATUS_NEXT 和 VCSTATUS_PREV 标志对[IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md)是否有效。 如果设置了 VCSTATUS_DELETE 标志, 而不是 VCSTATUS_READONLY 标志, 则可以使用[IMAPIMessageSite::D eletemessage](imapimessagesite-deletemessage.md)方法删除邮件。 
+Form 对象调用 **IMAPIViewContext：：GetViewStatus** 方法，以确定表单视图中是否还有更多消息需要激活，方向为：或两个方向，即 **Next** 命令激活消息的方向 **、Previous** 命令激活消息的方向或两个方向。 _lpulStatus_ 参数指向的值用于确定 VCSTATUS_NEXT 和 VCSTATUS_PREV 标志是否对 [IMAPIViewContext：：ActivateNext 有效](imapiviewcontext-activatenext.md)。 如果设置了 VCSTATUS_DELETE 标志，但没有设置 VCSTATUS_READONLY 标志，可以使用 [IMAPIMessageSite：:D eleteMessage 方法删除该](imapimessagesite-deletemessage.md) 邮件。 
   
-通常, 如果窗体对查看者的上下文无效, 则会禁用菜单命令和按钮。 查看者可以通过调用其[IMAPIFormAdviseSink:: OnChange](imapiformadvisesink-onchange.md)方法, 将窗体的状态更改警告到状态更改。 
+通常，如果菜单命令和按钮与查看器的上下文无效，则表单会禁用它们。 查看者可以通过调用表单的 [IMAPIFormAdviseSink：：OnChange](imapiformadvisesink-onchange.md) 方法来提醒表单状态更改。 
   
-如果窗体必须是在之前的 IMAPIForm 中传递的句柄所在窗口的模式, 则设置 VCSTATUS_MODAL 标志[::D overb](imapiform-doverb.md)调用。 如果设置了 VCSTATUS_MODAL, 则表单可以使用在其上进行**DoVerb**调用的线程, 直到窗体关闭。 如果未设置 VCSTATUS_MODAL, 则该窗体不应为此窗口的模式, 并且不得使用该线程。 
+如果VCSTATUS_MODAL必须模式化到其句柄在早期 [IMAPIForm：:D oVerb 调用中](imapiform-doverb.md) 传递的窗口，则设置该标志。 如果VCSTATUS_MODAL，窗体可以使用 **DoVerb** 调用所基于的线程，直到窗体关闭。 如果未VCSTATUS_MODAL，则表单不应是此窗口的模式，并且不得使用线程。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -91,7 +91,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: GetViewStatus  <br/> |MFCMAPI 实现此函数中的**IMAPIViewContext:: GetViewStatus**方法。  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer：：GetViewStatus  <br/> |MFCMAPI 在此函数中实现 **IMAPIViewContext：：GetViewStatus** 方法。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

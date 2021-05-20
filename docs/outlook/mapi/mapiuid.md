@@ -25,12 +25,12 @@ ms.locfileid: "33432203"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-用于唯一标识服务提供程序的[GUID](guid.md)结构的字节顺序独立版本。 
+GUID 结构的独立字节顺序版本，[](guid.md)用于唯一标识服务提供商。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关宏:  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关宏：  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
    
 ```cpp
 typedef struct _MAPIUID
@@ -44,27 +44,27 @@ typedef struct _MAPIUID
 
  **ab**
   
-> 包含16字节标识符的数组。
+> 包含 16 字节标识符的数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**MAPIUID**结构是一个添加到英特尔®处理器字节顺序的**GUID**结构。 
+**MAPIUID** 结构是一种 **GUID** 结构，®处理器字节顺序。 
   
-MAPI 创建**MAPIUID**结构的方式非常少导致两个不同的项具有相同的标识符。 **MAPIUID**结构可以存储为二进制属性或文件, 而无需考虑存储或访问信息的计算机的字节排序。 
+MAPI 创建 **MAPIUID** 结构的方式使得两个不同的项具有相同的标识符非常少见。 **MAPIUID** 结构可以存储为二进制属性或文件，而不考虑计算机存储或访问信息的字节顺序。 
   
- 使用**MAPIUID**结构: 
+ **使用 MAPIUID** 结构： 
   
 - 标识配置文件部分。
     
-- 在邮件存储区和通讯簿对象的条目标识符中, 用于标识负责的服务提供程序。
+- 在邮件存储和通讯簿对象的条目标识符中，以标识负责的服务提供商。
     
-- 在邮件的**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性中。
+- In the **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property of messages.
     
-若要生成搜索密钥的**MAPIUID**标识符, 服务提供程序调用[IMAPISupport:: NewUID](imapisupport-newuid.md)。
+若要为搜索密钥 **生成 MAPIUID** 标识符，服务提供商调用 [IMAPISupport：：NewUID](imapisupport-newuid.md)。
   
-当客户端通过网络传输邮件时, 它应使用不会更改**MAPIUID**数据字节顺序的协议或传输格式。 
+当客户端跨网络传输邮件时，它应当使用不更改 **MAPIUID** 数据的字节顺序的协议或传输格式。 
   
-有关如何使用**MAPIUID**结构的详细信息, 请参阅下列主题: 
+有关如何使用 **MAPIUID** 结构的信息，请参阅下列主题： 
   
 [注册服务提供程序唯一标识符](registering-service-provider-unique-identifiers.md)
   

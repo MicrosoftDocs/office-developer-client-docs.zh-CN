@@ -25,7 +25,7 @@ ms.locfileid: "33429220"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含传递给客户端应用程序的邮件的邮件传输系统 (MTS) 标识符。
+包含传递到客户端 (的邮件) MTS 传输系统标识符。
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ ms.locfileid: "33429220"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

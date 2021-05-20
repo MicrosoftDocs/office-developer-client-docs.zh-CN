@@ -1,5 +1,5 @@
 ---
-title: 标尺&amp;网格部分
+title: "\"标 &amp; 尺网格\"部分"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,12 +16,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430782"
 ---
-# <a name="ruler-amp-grid-section"></a>标尺&amp;网格部分
+# <a name="ruler-amp-grid-section"></a>"标 &amp; 尺网格"部分
 
 显示页的标尺和网格的当前设置。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此内容为页属性，只能在页的 ShapeSheet 窗口中查看。 它所包含的单元格对应于 " ** &amp;标尺网格**" 对话框 (在 "**视图**" 选项卡上的 "**显示/隐藏**" 组中, 单击对话框启动器) 中的设置。 
+此内容为页属性，只能在页的 ShapeSheet 窗口中查看。 它包含的单元格对应于"视图"选项卡上"标尺网格" (中的设置，在"显示 **/** 隐藏"组中，单击对话框启动器) 。 **&amp;** 
   
 

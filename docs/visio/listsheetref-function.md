@@ -25,19 +25,19 @@ ms.locfileid: "33429549"
   
 ## <a name="syntax"></a>语法
 
-LISTMEMBERCOUNT ()
+LISTMEMBERCOUNT () 
   
 ### <a name="return-value"></a>返回值
 
 ShapeSheet 参考
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 如果形状不是列表成员，则 LISTSHEETREF 函数返回 #REF!。
   
 ## <a name="example"></a>示例
 
-LISTSHEETREF (1)!高度 
+LISTSHEETREF (1) ！Height 
   
 返回包含形状的列表容器形状的 Height 单元格中的值。 
   

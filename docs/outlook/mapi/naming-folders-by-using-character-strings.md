@@ -21,6 +21,6 @@ ms.locfileid: "33428310"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果在会话过程中经常访问一个或多个文件夹, 请考虑使用[IMsgStore:: SetReceiveFolder](imsgstore-setreceivefolder.md)方法为文件夹分配名称。 尽管**IMsgStore:: SetReceiveFolder**主要用于建立特殊文件夹以接收特定邮件类别的传入邮件, 但也可用于将任何文件夹与名称相关联。 该名称可以与消息类相同, 也可以是为客户端使用而自定义的任何字符串。 将名称与文件夹相关联可减少查找和打开文件夹所需的时间。 
+如果在会话期间频繁访问一个或多个文件夹，请考虑使用 [IMsgStore：：SetReceiveFolder](imsgstore-setreceivefolder.md) 方法为文件夹分配名称。 虽然 **IMsgStore：：SetReceiveFolder** 主要用于建立特殊文件夹来接收特定邮件类的传入邮件，但它还可用于将任何文件夹与名称关联。 该名称可以与邮件类相同，也可以为任意字符串，为客户端使用自定义。 将名称与文件夹相关联将减少查找和打开文件夹所花的时间。 
   
 

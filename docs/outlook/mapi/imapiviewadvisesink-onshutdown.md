@@ -25,7 +25,7 @@ ms.locfileid: "33428520"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通知表单查看器表单正在关闭。
+通知表单查看器正在关闭表单。
   
 ```cpp
 HRESULT OnShutdown( void );
@@ -39,11 +39,11 @@ HRESULT OnShutdown( void );
 
 S_OK 
   
-> 通知已成功。
+> 通知成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关表单通知的详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
+有关表单通知详细信息，请参阅 [发送和接收表单通知](sending-and-receiving-form-notifications.md)。
   
 ## <a name="see-also"></a>另请参阅
 

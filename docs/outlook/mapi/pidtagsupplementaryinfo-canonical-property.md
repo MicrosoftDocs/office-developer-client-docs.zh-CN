@@ -25,7 +25,7 @@ ms.locfileid: "33429752"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含在报表中使用的其他信息。
+包含用于报告的其他信息。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33429752"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-这些属性包含邮件传输代理或与报告相关的传输提供程序生成的信息。 它通常用于传递或 nondelivery 报告文本, 这些文本源于基础邮件系统。
+这些属性包含由与报告相关的邮件传输代理或传输提供程序生成的信息。 它通常用于源自基础邮件系统的送达或未送达报告文本。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

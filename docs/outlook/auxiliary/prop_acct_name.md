@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429430"
 ---
-# <a name="propacctname"></a>PROP_ACCT_NAME
+# <a name="prop_acct_name"></a>PROP_ACCT_NAME
 
 返回或设置帐户名称。
   
@@ -29,7 +29,7 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x0002001F  <br/> |
 |访问权限  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.
   

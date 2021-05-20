@@ -25,7 +25,7 @@ ms.locfileid: "33427589"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-显示 Exchange 公用文件夹存储中**NON_IPM_SUBTREE**文件夹的条目 ID。 
+显示公用文件夹存储 **NON_IPM_SUBTREE** 文件夹Exchange ID。 
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ ms.locfileid: "33427589"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

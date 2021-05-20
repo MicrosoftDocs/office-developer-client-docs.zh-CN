@@ -24,15 +24,15 @@ ms.locfileid: "33429276"
 |:-----|:-----|:-----|
 |0  <br/> |使用页默认值。  <br/> |**visLOFlipDefault** <br/> |
 |1  <br/> |水平翻转。  <br/> |**visLOFlipX** <br/> |
-|双面  <br/> |垂直翻转。  <br/> |**visLOFlipY** <br/> |
-|4  <br/> |以 90 度为增量在 0 到 270 度之间翻转。  <br/> |**visLOFlipRotate** <br/> |
-|utf-8  <br/> |不翻转。  <br/> |**visLOFlipNone** <br/> |
+|2  <br/> |垂直翻转。  <br/> |**visLOFlipY** <br/> |
+|4   <br/> |以 90 度为增量在 0 到 270 度之间翻转。  <br/> |**visLOFlipRotate** <br/> |
+|8   <br/> |不翻转。  <br/> |**visLOFlipNone** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 ShapePlaceFlip 单元格中的值有助于将可放置形状的方向朝向它连接的下一个可放置形状。
   
-若要为绘图页上的*所有*形状设置此行为, 请使用 "页面布局" 部分中的 "PlaceFlip" 单元格。 
+若要为绘图页上  *的所有*  形状设置此行为，请使用"页面布局"部分中的 PlaceFlip 单元格。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShapePlaceFlip 单元格的引用，请使用： 
   

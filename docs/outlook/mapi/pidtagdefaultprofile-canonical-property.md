@@ -25,7 +25,7 @@ ms.locfileid: "33428772"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件用户配置文件是 MAPI 的默认配置文件, 则该参数为 TRUE。
+如果消息传递用户配置文件是 MAPI 默认配置文件，则包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33428772"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性不显示为任何对象的属性, 而只作为配置文件表中的一列。 客户端应用程序可以使用[IProfAdmin:: SetDefaultProfile](iprofadmin-setdefaultprofile.md)方法来指定默认配置文件。 
+此属性不显示为任何对象的属性，而只显示为配置文件表中的列。 客户端应用程序可以使用 [IProfAdmin：：SetDefaultProfile](iprofadmin-setdefaultprofile.md) 方法来指定默认配置文件。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

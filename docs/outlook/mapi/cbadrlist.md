@@ -25,11 +25,11 @@ ms.locfileid: "33429038"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算现有[ADRLIST](adrlist.md)结构中的字节数。 
+计算现有 [ADRLIST](adrlist.md) 结构的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
 |相关结构  <br/> |**ADRLIST** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbADRLIST (_lpadrlist)
 
 ## <a name="parameters"></a>参数
 
- __lpadrlist_
+ _ _lpadrlist_
   
-> 指向现有**ADRLIST**结构的指针。 
+> 指向现有 **ADRLIST 结构的** 指针。 
     
 ## <a name="see-also"></a>另请参阅
 

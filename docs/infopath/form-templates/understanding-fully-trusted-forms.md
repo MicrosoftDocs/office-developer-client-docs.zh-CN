@@ -19,9 +19,9 @@ InfoPath 提供了创建完全信任的表单的功能，这些表单的安全�
 
 InfoPath 表单模板可用各种安全级别来部署。所用级别取决于您希望表单具有的对外部资源的访问级别。默认情况下，系统会限制 InfoPath 表单模板访问系统资源，也不允许其使用未被标记为可安全编写脚本的任何软件组件。不过，可以替代此行为，使表单能够访问系统资源和其他外部资源，包括未被标记为可安全编写脚本的软件组件。
   
-对于要使用的表单，InfoPath 必须能够访问表单所基于的表单模板。 创建表单模板时，InfoPath 会在表单定义 (.xsf) 文件（其中包含该表单模板位置的 URL）中创建一个条目。 基于 URL 的表单称为*沙盒表单*。 当用户进行填写时，会将表单添加在本地缓存中并拒绝表单访问系统资源。 此类表单将从打开它的域中继承权限。 
+对于要使用的表单，InfoPath 必须能够访问表单所基于的表单模板。 创建表单模板时，InfoPath 会在表单定义 (.xsf) 文件（其中包含该表单模板位置的 URL）中创建一个条目。 基于 URL 的表单称为 *沙盒表单*。 当用户进行填写时，会将表单添加在本地缓存中并拒绝表单访问系统资源。 此类表单将从打开它的域中继承权限。 
   
-但您可以修改表单，使其基于统一资源名称 (URN)，从而允许其访问系统资源。此类表单称为*完全信任的表单*。 
+但您可以修改表单，使其基于统一资源名称 (URN)，从而允许其访问系统资源。此类表单称为 *完全信任的表单*。 
   
 ## <a name="why-use-a-fully-trusted-form"></a>为什么使用完全信任的表单？
 
@@ -54,9 +54,9 @@ InfoPath 表单模板可用各种安全级别来部署。所用级别取决于�
     
 2. 在 InfoPath 中打开表单模板。
     
-3. 依次单击“文件”**** 选项卡、“发布”**** 和“导出源文件”****，将表单源文件保存到硬盘上的一个文件夹中。
+3. 依次单击“文件”选项卡、“发布”和“导出源文件”，将表单源文件保存到硬盘上的一个文件夹中。
     
-4. 指定保存表单源文件的文件夹，单击“确定”****，然后退出 InfoPath 设计器。
+4. 指定保存表单源文件的文件夹，单击“确定”，然后退出 InfoPath 设计器。
     
 5. 在提取表单文件的文件夹中，使用 Microsoft 记事本之类的文本编辑器，打开默认情况下名为  `manifest.xsf` 的表单定义 (.xsf) 文件。 
     
@@ -70,7 +70,7 @@ InfoPath 表单模板可用各种安全级别来部署。所用级别取决于�
   
 7. 保存并关闭 .xsf 文件，然后使用记事本之类的文本编辑器，打开默认情况下名为  `Template.xml` 的 XML 模板 (.xml) 文件。 
     
-8. 从  **** 处理指令中删除 `mso-infoPathSolution` 属性，并将其替换为您在步骤 6 中对 .xsf 文件使用的同一 **name** 属性。 
+8. 从   处理指令中删除 `mso-infoPathSolution` 属性，并将其替换为您在步骤 6 中对 .xsf 文件使用的同一 **name** 属性。 
     
    > [!NOTE]
    > 在 .xsf 文件和 XML 模板文件中用于 **name** 属性的 URN 值必须相同。 
@@ -135,29 +135,29 @@ InfoPath 表单模板可用各种安全级别来部署。所用级别取决于�
   
 #### <a name="to-digitally-sign-a-form-template"></a>对表单模板进行数字签名
 
-1. 在 InfoPath 设计器中打开表单，单击“文件”**** 选项卡，然后单击“信息”**** 选项卡上的“表单选项”****。 
+1. 在 InfoPath 设计器中打开表单，单击“文件”选项卡，然后单击“信息”选项卡上的“表单选项”。 
     
-2. 在“表单选项”**** 对话框中单击“安全和信任”**** 类别。 
+2. 在“表单选项”对话框中单击“安全和信任”类别。 
     
-3. 清除对“自动确定安全级别(推荐)”**** 的选择。
+3. 清除对“自动确定安全级别(推荐)”的选择。
     
-4. 选择“完全信任(表单有权访问用户计算机上的文件和设置)”****。
+4. 选择“完全信任(表单有权访问用户计算机上的文件和设置)”。
     
-5. 在“表单模板签名”**** 下，选择“对此表单进行签名”****。
+5. 在“表单模板签名”下，选择“对此表单进行签名”。
     
-6. 单击“选择证书”****，选择之前从受信任证书供应商处下载并进行安装的证书。 
+6. 单击“选择证书”，选择之前从受信任证书供应商处下载并进行安装的证书。 
     
 7. 单击"确定"两次，以完全退出。
     
 #### <a name="to-publish-the-form-template-to-a-sharepoint-document-library"></a>将表单模板发布到 SharePoint 文档库
 
-1. 单击“文件”**** 选项卡，然后依次单击“发布”**** 和“SharePoint Server”****。
+1. 单击“文件”选项卡，然后依次单击“发布”和“SharePoint Server”。
     
-2. 按照“发布向导”**** 中的说明操作，将表单模板发布到新的或现有的 SharePoint 文档库。 
+2. 按照“发布向导”中的说明操作，将表单模板发布到新的或现有的 SharePoint 文档库。 
     
 #### <a name="to-a-create-a-form-that-is-based-on-your-fully-trusted-digitally-signed-form-template"></a>基于完全信任且已进行数字签名的表单模板创建表单
 
-1. 在 SharePoint 文档库中，单击“填写表单”****。
+1. 在 SharePoint 文档库中，单击“填写表单”。
     
    > [!NOTE]
    > After publishing the form template to a SharePoint document library using the **Publishing Wizard**, the template is not displayed as an item in the form library. When you create a form in that document library, the template will be used by default as the template for the new form. 
@@ -171,9 +171,9 @@ InfoPath 表单模板可用各种安全级别来部署。所用级别取决于�
 > [!NOTE]
 > To enable InfoPath to use a fully trusted form, users must ensure that the **Allow fully trusted forms to run on my computer** check box is selected on the **Trusted Publishers** category of the **Trust Center** dialog box. To open the **Trust Center** dialog box, click the **File** tab, click **Options** (below the **InfoPath** tab), click **Trust Center**, and then click **Trust Center Settings**. 
   
-可从“填写表单”**** 对话框的 InfoPath 中打开完全信任的表单。 
+可从“填写表单”对话框的 InfoPath 中打开完全信任的表单。 
   
-当您单击“填写表单”**** 任务窗格中的“其他表单”**** 或单击“文件”**** 菜单上的“填写表单”**** 时，将打开“填写表单”**** 对话框。 
+当您单击“填写表单”任务窗格中的“其他表单”或单击“文件”菜单上的“填写表单”时，将打开“填写表单”对话框。 
   
 ### <a name="making-changes-to-a-fully-trusted-form"></a>对完全信任的表单进行更改
 

@@ -29,12 +29,12 @@ ms.locfileid: "33429745"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Exchsec  <br/> |
-|公开者:  <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
-|实现者：  <br/> |microsoft outlook 2010 和 microsoft outlook 2013  <br/> |
-|调用者：  <br/> |Client  <br/> |
-|接口标识符:  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
-|指针类型:  <br/> |LPMAPISECUREMESSAGE  <br/> |
+|标头文件：  <br/> |Exchsec.h  <br/> |
+|公开者：  <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
+|实现者：  <br/> |Microsoft Outlook 2010 和 Microsoft Outlook 2013  <br/> |
+|调用者：  <br/> |客户端  <br/> |
+|接口标识符：  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
+|指针类型：  <br/> |LPMAPISECUREMESSAGE  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
@@ -44,7 +44,7 @@ ms.locfileid: "33429745"
 |占位符成员。  <br/> |不支持或记录。  <br/> |
 |占位符成员。  <br/> |不支持或记录。  <br/> |
 |占位符成员。  <br/> |不支持或记录。  <br/> |
-|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |检索此[IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md)封装的基础[IMessage: IMAPIProp](imessageimapiprop.md) 。  <br/> |
+|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |检索此[IMAPISecureMessage ： IUnknown](imapisecuremessageiunknown.md)正在封装的基础[IMessage ： IMAPIProp。](imessageimapiprop.md)  <br/> |
 |占位符成员。  <br/> |不支持或记录。  <br/> |
 |占位符成员。  <br/> |不支持或记录。  <br/> |
 |占位符成员。  <br/> |不支持或记录。  <br/> |

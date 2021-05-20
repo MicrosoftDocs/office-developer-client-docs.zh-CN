@@ -21,31 +21,31 @@ ms.locfileid: "33431027"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本节包含有关如何在客户端应用程序中实现一些较为罕见或困难的功能的子主题。
+本节包括有关如何在客户端应用程序中实现一些不常见或更难的功能的子标题。
   
 ## <a name="in-this-section"></a>本节内容
 
-[编写自动客户端](writing-an-automated-client.md)
+[编写自动化客户端](writing-an-automated-client.md)
   
-> 介绍如何编写禁止显示用户界面的自动客户端。
+> 介绍如何编写禁止用户界面的自动化客户端。
     
 [编写远程查看器](writing-a-remote-viewer.md)
   
-> 介绍如何编写提供对存储在另一台计算机上的邮件的受控访问的客户端应用程序。
+> 介绍如何编写客户端应用程序，该应用程序提供对存储在另一台计算机中的邮件的受控访问权限。
     
 [编写层次结构查看器](writing-a-hierarchy-viewer.md)
   
-> 介绍如何编写层次结构查看器, 用于显示文件夹和通讯簿容器层次结构表的用户界面组件。
+> 介绍如何编写层次结构查看器，该查看器是一个用户界面组件，用于显示文件夹和通讯簿容器层次结构表。
     
 [使用 MAPI 实用工具](using-the-mapi-utilities.md)
   
-> 介绍如何使用由表数据和属性数据对象组成的 MAPI 实用工具以及用于支持杂项功能的各种函数
+> 介绍如何使用由表数据和属性数据对象以及各种函数所包含的 MAPI 实用程序来支持其他功能
     
 [实现进度指示器](implementing-a-progress-indicator.md)
   
 > 介绍如何实现进度指示器。
     
-[集中接收 ndr](centralizing-the-receipt-of-ndrs.md)
+[集中接收NDDR](centralizing-the-receipt-of-ndrs.md)
   
 > 介绍如何集中接收未送达报告。
     

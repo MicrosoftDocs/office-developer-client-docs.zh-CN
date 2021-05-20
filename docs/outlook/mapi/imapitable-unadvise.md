@@ -25,7 +25,7 @@ ms.locfileid: "33430229"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-取消之前为对[IMAPITable:: Advise](imapitable-advise.md)方法的调用而设置的通知发送。 
+取消发送以前通过调用 [IMAPITable：：Advise](imapitable-advise.md) 方法设置的通知。 
   
 ```cpp
 HRESULT Unadvise(
@@ -37,7 +37,7 @@ ULONG_PTR ulConnection
 
  _ulConnection_
   
-> 实时对[IMAPITable:: Advise](imapitable-advise.md)的调用返回的注册连接数。
+> [in]通过调用 [IMAPITable：：Advise](imapitable-advise.md)返回的注册连接数。
     
 ## <a name="return-value"></a>返回值
 
@@ -45,11 +45,11 @@ S_OK
   
 > 调用成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-使用**imapitable:: Unadvise**方法释放指向在上一次调用**IMAPITable:: advise**的_lpAdviseSink_参数中传递的通知接收器对象的指针, 从而取消通知注册。 在舍弃指向通知接收器对象的指针的过程中, 将调用对象的**IUnknown:: Release**方法。 通常, **release**在**Unadvise**调用期间调用, 但如果另一个线程正在调用通知接收器的[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)方法, 则**释放**调用将延迟到**OnNotify**方法返回。 
+使用 **IMAPITable：：Unadvise** 方法释放指向上一次调用 **IMAPITable：：Advise** 时传入 _lpAdviseSink_ 参数中的通知接收器对象的指针，从而取消通知注册。 作为放弃指向建议接收对象的指针的一部分，将调用对象的 **IUnknown：：Release** 方法。 通常 **，Release** 在 **Unadvise** 调用期间调用，但如果另一个线程正在调用建议接收器的 [IMAPIAdviseSink：：OnNotify](imapiadvisesink-onnotify.md) 方法，则 **Release** 调用将延迟到 **OnNotify** 方法返回。 
   
-有关通知过程的详细信息, 请参阅[MAPI 中的事件通知](event-notification-in-mapi.md)。 有关表通知的具体信息, 请参阅[关于表通知](about-table-notifications.md)。 有关使用**IMAPISupport**方法支持通知的信息, 请参阅[支持事件通知](supporting-event-notification.md)。
+有关通知过程详细信息，请参阅 [MAPI 中的事件通知](event-notification-in-mapi.md)。 有关表通知的特定信息，请参阅关于 [表通知](about-table-notifications.md)。 有关使用 **IMAPISupport** 方法支持通知的信息，请参阅 [Supporting Event Notification。](supporting-event-notification.md)
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -57,7 +57,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl  <br/> |CContentsTableListCtrl:: NotificationOff  <br/> |MFCMAPI 使用**IMAPITable:: Unadvise**方法取消对表的通知。  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl：：NotificationOff  <br/> |MFCMAPI 使用 **IMAPITable：：Unadvise** 方法取消表的通知。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

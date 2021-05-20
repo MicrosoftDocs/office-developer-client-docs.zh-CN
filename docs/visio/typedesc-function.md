@@ -28,7 +28,7 @@ TYPEDESC ()
 
 String
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 下表列出了内部对象的说明性字符串。
   

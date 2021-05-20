@@ -23,7 +23,7 @@ ms.locfileid: "33428968"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示对请求回执的邮件的回执的处置。 
+指示请求接收的邮件的收据处置。 
   
 |||
 |:-----|:-----|
@@ -32,27 +32,27 @@ ms.locfileid: "33428968"
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性的可能值为 "手动-action/mdn-已发送-自动" 和 "手动-操作/mdn-已手动发送"。
+此属性的可能值为"manual-action/MDN-sent-automatically"和"manual-action/MDN-sent-manually"。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]] 
+[[MS-OXPROPS]] 
   
-> 提供对相关 Exchange Server 协议规范的引用。
+> 提供对相关协议Exchange Server的引用。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

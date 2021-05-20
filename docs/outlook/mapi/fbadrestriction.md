@@ -43,20 +43,20 @@ ULONG FBadRestriction(
 
  _lpres_
   
-> 实时定义要验证的限制的[SRestriction](srestriction.md)结构。 
+> [in] [定义要验证的限制的 SRestriction](srestriction.md) 结构。 
     
 ## <a name="return-value"></a>返回值
 
 TRUE 
   
-> 指定的限制, 或其 subrestrictions 的一个或多个无效。 
+> 指定的限制（或它的一个或多个子限制）无效。 
     
 FALSE 
   
-> 指定的限制及其所有 subrestrictions 都是有效的。
+> 指定的限制及其所有子范围均有效。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在验证限制后, 可以将其传递给[imapitable:: Restrict](imapitable-restrict.md)方法, 以将表限制到某些行、用于查找表行的[imapitable:: FindRow](imapitable-findrow.md)方法, 以及[IMAPIContainer](imapicontainerimapiprop.md)的方法。用于对容器对象执行限制的接口。 
+验证限制后，可以传入 [对 IMAPITable：：Restrict](imapitable-restrict.md) 方法的调用，以将表限制为特定行、将表限制为查找表行的 [IMAPITable：：FindRow](imapitable-findrow.md) 方法，以及 [IMAPIContainer](imapicontainerimapiprop.md) 接口的方法，以对容器对象执行限制。 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33436200"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回显示其进度信息的操作中的最大项目数。
+返回操作中显示其进度信息的最大项目数。
   
 ```cpp
 HRESULT GetMax(
@@ -37,25 +37,25 @@ HRESULT GetMax(
 
  _lpulMax_
   
-> 排除一个指针, 指向操作中的最大项目数。
+> [out]指向操作中的最大项数的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已检索到操作中的最大项目数。
+> 已检索操作中的最大项目数。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-最大值表示以数字形式的运算的结束。 该值可以是全局最大值，用于表示整个进度显示的范围，也可以是本地值，用于仅表示显示的一部分。 
+最大值表示以数字形式结束操作。 该值可以是全局最大值，用于表示整个进度显示的范围，也可以是本地值，用于仅表示显示的一部分。 
   
-标记设置的值影响进度对象是否理解为本地或全局的最大值。 设置 MAPI_TOP_LEVEL 标志后, 最大值将被视为全局值, 用于计算整个操作的进度。 如果未设置 MAPI_TOP_LEVEL, 则将最大值视为本地, 并且提供程序在内部使用它来显示较低级别子集的进度。 进度对象仅保存本地最大值, 以通过**GetMax**调用将其返回给提供程序。 
+标志设置的值会影响进度对象是了解最大值是本地值还是全局值。 设置 MAPI_TOP_LEVEL 标志时，最大值被视为全局值，用于计算整个操作的进度。 未MAPI_TOP_LEVEL时，最大值被视为本地值，提供程序在内部使用它来显示较低级别的子对象的进度。 Progress 对象仅保存本地最大值，以通过 **GetMax** 调用将其返回到提供程序。 
   
 有关如何调用进度对象以及何时调用的详细信息，请参阅[显示进度指示器](how-to-display-a-progress-indicator.md)。
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-将最大值初始化为1000。 服务提供程序可以通过调用 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) 方法重置此值。 有关如何实现**GetMax**和其他[IMAPIProgress](imapiprogressiunknown.md)方法的详细信息, 请参阅[实现进度指示器](implementing-a-progress-indicator.md)。
+将最大值初始化为 1000。 服务提供程序可以通过调用 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) 方法重置此值。 若要详细了解如何实现 **GetMax** 和其他 [IMAPIProgress](imapiprogressiunknown.md) 方法，请参阅 [实现进度指示器](implementing-a-progress-indicator.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -63,7 +63,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress:: GetMax  <br/> |MFCMAPI 使用**IMAPIProgress:: GetMax**方法获取进度对象的最大值。 返回 1000, 除非以前使用**IMAPIProgress:: SetLimits**方法设置了限制。  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress：：GetMax  <br/> |MFCMAPI 使用 **IMAPIProgress：：GetMax** 方法获取进度对象的最大值。 除非之前已使用 **IMAPIProgress：：SetLimits** 方法设置了限制，否则返回 1000。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

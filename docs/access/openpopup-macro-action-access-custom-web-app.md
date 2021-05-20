@@ -1,5 +1,5 @@
 ---
-title: OpenPopup 宏操作 (Access 自定义 web 应用程序)
+title: 'OpenPopup 宏操作 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427386"
 ---
-# <a name="openpopup-macro-action-access-custom-web-app"></a>OpenPopup 宏操作 (Access 自定义 web 应用程序)
+# <a name="openpopup-macro-action-access-custom-web-app"></a>OpenPopup 宏操作 (Access 自定义 Web 应用) 
 
 在弹出窗口中打开指定的视图。
   
@@ -23,24 +23,24 @@ ms.locfileid: "33427386"
   
 ## <a name="syntax"></a>语法
 
- **OpenPopup**(*View*, *Where =*, *Order By*) 
+ **OpenPopup** (*View*、 *Where=*、 *Order By*)  
   
-**OpenPopup**操作包含下列参数。 
+**OpenPopup** 操作包含下列参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|
 | *View*  <br/> |要打开的视图的名称。  <br/> |
-| *Where =*  <br/> |限制视图中的记录的有效 SQL WHERE 子句 (不带 word WHERE)。  <br/> |
-| *Order By*  <br/> |一个字符串表达式，包含作为记录排序依据的一个或多个字段的名称或可选的 ASC 或 DESC 关键字。 默认情况下, 此参数为空。  <br/> |
+| *Where=*  <br/> |一个有效的 SQL WHERE 子句 (没有单词 WHERE) 来限制视图中的记录。  <br/> |
+| *Order By*  <br/> |一个字符串表达式，包含作为记录排序依据的一个或多个字段的名称或可选的 ASC 或 DESC 关键字。 默认情况下，此参数为空。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-处理完**OpenPopup**操作后, 当前宏即会结束。 
+处理 **OpenPopup 操作后，当前** 宏结束。 
   
-调用**OpenPopup**操作时, 将清除用户应用的任何排序或筛选。 
+调用 **OpenPopup** 操作时，将清除用户应用的任何排序或筛选。 
   
-*OrderBy*参数是要对记录进行排序所依据的一个或多个字段的名称。 如果使用多个字段名称，需用逗号 (,) 分隔每个名称。 
+*OrderBy* 参数是您希望对记录进行排序的一个或多个字段的名称。 如果使用多个字段名称，需用逗号 (,) 分隔每个名称。 
   
-在设置*OrderBy*参数时, 默认情况下将按升序对记录进行排序。 
+设置  *OrderBy 参数*  时，默认情况下记录按升序排序。 
   
 

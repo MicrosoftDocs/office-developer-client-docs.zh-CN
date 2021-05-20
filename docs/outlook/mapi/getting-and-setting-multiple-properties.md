@@ -19,8 +19,8 @@ ms.locfileid: "33432259"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通过使用最少的调用数获取和设置尽可能多的属性, 远程活动是 curtailed 的, 并且降低每个属性所需的开销。 虽然服务提供程序在进行远程过程调用以进行检索或修改之前尝试收集属性, 但您可以通过请求使用多个属性开始来优化这一工作。
+通过获取和设置尽可能少的调用属性，可以减少远程活动，并减少每个属性所涉及的开销。 虽然服务提供商尝试在调用远程过程以检索或修改之前收集属性，但您可以通过请求多个属性来优化此操作。
   
-例如, 如果您使用的路由列表描述了具有属于特定属性集的命名属性的后续收件人, 请处理两个呼叫的所有收件人。 使用一个调用[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)检索所有收件人属性的标识符, 以及对[IMAPIProp:: GetProps](imapiprop-getprops.md)的其他调用, 以检索所有值。 另一种方法是, 在调用**GetIDsFromNames**后, 对每个收件人调用**GetProps** , 效率要低得多。 
+例如，如果您使用路由列表来描述未来具有属于特定属性集的命名属性的收件人，则使用两个呼叫处理所有收件人。 使用一次 [IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md) 调用来检索所有收件人属性的标识符，使用另一个调用 [IMAPIProp：：GetProps](imapiprop-getprops.md) 检索所有值。 或者，调用 **GetIDsFromNames，** 然后调用每个收件人的 **GetProps，** 效率要低得多。 
   
 

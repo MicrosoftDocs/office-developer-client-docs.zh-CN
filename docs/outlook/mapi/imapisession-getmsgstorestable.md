@@ -25,7 +25,7 @@ ms.locfileid: "33428135"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供对包含有关会话配置文件中的所有邮件存储区的信息的邮件存储表的访问权限。
+提供对包含有关会话配置文件中所有邮件存储的信息的邮件存储表的访问。
   
 ```cpp
 HRESULT GetMsgStoresTable(
@@ -38,37 +38,37 @@ HRESULT GetMsgStoresTable(
 
  _ulFlags_
   
-> 实时标志的位掩码, 用于确定作为字符字符串的列的格式。 可以设置以下标志:
+> [in]标志的位掩码，用于确定作为字符串的列的格式。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 字符串列采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串列的格式为 ANSI。
+> 字符串列采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串列采用 ANSI 格式。
     
  _lppTable_
   
-> 排除指向邮件存储表的指针的指针。
+> [out]指向指向消息存储表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功返回表。
+> 已成功返回表。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 已设置 MAPI_UNICODE 标志, 且会话不支持 UNICODE。
+> 已MAPI_UNICODE该标记，并且会话不支持 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISession:: GetMsgStoresTable**方法检索指向邮件存储表的指针, 它是由 MAPI 维护的表, 其中包含有关配置文件中每个打开的邮件存储区的信息。 
+**IMAPISession：：GetMsgStoresTable** 方法检索指向消息存储表的指针，该表由 MAPI 维护，其中包含有关配置文件中每个打开的邮件存储的信息。 
   
-有关邮件存储表中的必填和可选的列的完整列表, 请参阅[message store Tables](message-store-tables.md)。 
+有关邮件存储表中必需列和可选列的完整列表，请参阅邮件 [存储表](message-store-tables.md)。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-由于每次发生更改时 MAPI 都会在会话过程中更新邮件存储表, 因此请调用邮件存储表的**Advise**方法以注册, 以获得这些更改的通知。 可能的更改包括添加新的邮件存储、删除现有存储和更改为默认存储。 
+由于 MAPI 将在会话期间随时更新邮件存储表，因此请调用邮件存储表的 **Advise** 方法以注册以通知这些更改。 可能的更改包括添加新邮件存储、删除现有存储以及更改默认存储。 
   
-在_ulFlags_参数中设置 MAPI_UNICODE 标志将影响从[IMAPITable:: QueryColumns](imapitable-querycolumns.md)和[IMAPITable:: QueryRows](imapitable-queryrows.md)方法返回的列的格式。 此标志还按[IMAPITable:: QuerySortOrder](imapitable-querysortorder.md)方法返回的排序顺序控制属性类型。 
+在  _ulFlags_ 参数中设置 MAPI_UNICODE 标志会影响 [IMAPITable：：QueryColumns](imapitable-querycolumns.md) 和 [IMAPITable：：QueryRows](imapitable-queryrows.md) 方法返回的列的格式。 此标志还按 [IMAPITable：：QuerySortOrder](imapitable-querysortorder.md) 方法返回的排序顺序控制属性类型。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -76,7 +76,7 @@ MAPI_E_BAD_CHARWIDTH
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg  <br/> |CMainDlg:: OnOpenMessageStoreTable  <br/> |MFCMAPI 使用**IMAPISession:: GetMsgStoresTable**方法获取邮件存储表, 以便它可以在 MFCMAPI 的主对话框中呈现。  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg：：OnOpenMessageStoreTable  <br/> |MFCMAPI 使用 **IMAPISession：：GetMsgStoresTable** 方法获取邮件存储表，以便它可以呈现在 MFCMAPI 的主对话框中。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

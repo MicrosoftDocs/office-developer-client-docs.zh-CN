@@ -24,10 +24,10 @@ ms.locfileid: "33432035"
 |:-----|:-----|:-----|
 | 0  <br/> | 页面默认值  <br/> |**visPLOPlaceDepthDefault** <br/> |
 | 1  <br/> | 中  <br/> |**visPLOPlaceDepthMedium** <br/> |
-| 双面  <br/> | 深  <br/> |**visPLOPlaceDepthDeep** <br/> |
-| 第三章  <br/> | 浅  <br/> |**visPLOPlaceDepthShallow** <br/> |
+| 2  <br/> | 深  <br/> |**visPLOPlaceDepthDeep** <br/> |
+| 3  <br/> | 浅  <br/> |**visPLOPlaceDepthShallow** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 PlaceDepth 单元格的引用，请使用： 
   

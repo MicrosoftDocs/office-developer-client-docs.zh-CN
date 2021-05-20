@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251465
 localization_priority: Normal
 ms.assetid: cb6326a5-1bf8-b6a3-5c0d-d38c071353a5
-description: 返回一个数除以一个除数时产生的余数 (模数)。
+description: 返回由 (除) 数时结果的余数模数。
 ms.openlocfilehash: f6b713b1b3a9d2afa85f49de9d451642a00d8dad
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,24 +18,24 @@ ms.locfileid: "33429269"
 ---
 # <a name="modulus-function"></a>MODULUS 函数
 
-返回一个数除以一个除数时产生的余数 (模数)。
+返回由 (除) 数时结果的余数模数。
   
 ## <a name="syntax"></a>语法
 
-模数 (* * *number* * *、* **约数** *) 
+MODULUS (** *number* **， ** *divisor* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |必需  <br/> |**Number** <br/> |被除数。  <br/> |
-| _除法_ <br/> |必需  <br/> |**Number** <br/> |除数。  <br/> |
+| _divisor_ <br/> |必需  <br/> |**Number** <br/> |除数。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-数字
+帐号
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 结果与除数具有相同的符号。如果除数为 0，则将返回 #DIV/0! 错误。 
   

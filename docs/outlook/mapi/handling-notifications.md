@@ -19,32 +19,32 @@ ms.locfileid: "33429157"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通知使一个对象可以通知另一个对象它已完成更改。 更改类型称为事件。 MAPI 定义了将为其生成通知的多个事件。 
+通知使一个对象能够通知另一个对象它已进行了更改。 更改类型称为事件。 MAPI 定义多个生成通知的事件。 
   
-客户端通常为一个或多个对象注册一个或多个事件。 这些对象称为 "建议源"。 可充当通知源的对象包括 session 对象、MAPI 的控制或服务提供商创建的对象 (如邮件)。 被告知的对象 (称为 "通知接收器") 包含[IMAPIAdviseSink: iunknown](imapiadvisesinkiunknown.md)接口或[IMAPIViewAdviseSink: iunknown](imapiviewadvisesinkiunknown.md)接口的实现, 并且在客户端应用程序中。 
+客户端通常使用一个或多个对象注册一个或多个事件。 这些对象称为建议源。 可以充当建议源的对象包括 MAPI 控制下的会话对象或服务提供商创建的对象（如消息）。 通知对象（称为建议接收器）包含 [IMAPIAdviseSink ： IUnknown](imapiadvisesinkiunknown.md) 接口或 [IMAPIViewAdviseSink ： IUnknown](imapiviewadvisesinkiunknown.md) 接口的实现，并且位于客户端应用程序中。 
   
-建议源对象实现一个由客户端调用以注册通知的**advise**方法和一个**Unadvise**方法, 该方法将被调用以取消注册。 **建议**的参数之一是指向**IMAPIAdviseSink**或 * * IMAPIViewAdviseSink * * 的实现的指针。 建议源缓存此指针, 以便在发生更改时可以调用[IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md)或**IMAPIViewAdviseSink**中的一个方法。 
+建议源对象实现 **一个 Advise** 方法（由客户端调用以注册通知）和一个 **Unadvise** 方法（用于取消注册）。 **Advise** 的参数之一是指向 **IMAPIAdviseSink** 或 ** IMAPIViewAdviseSink ** 的实现。 建议源缓存此指针，以便它可以在更改发生时调用 [IMAPIAdviseSink：：OnNotify](imapiadvisesink-onnotify.md) 或 **IMAPIViewAdviseSink** 中的方法之一。 
   
-由于接收通知使用户能够查看最新信息, 因此建议所有客户端都注册并处理通知。 但是, 它是可选的。
+由于接收通知使用户能够查看最新信息，因此建议所有客户端注册并处理通知。 但是，它是可选的。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [注册通知](registering-for-a-notification.md): 介绍如何在初始化过程中将客户端注册为通知。
+- [注册通知](registering-for-a-notification.md)：介绍如何将客户端注册为通知，作为初始化过程的一部分。
     
-- [取消通知](canceling-a-notification.md): 介绍如何取消对通知的订阅。
+- [取消通知](canceling-a-notification.md)：介绍如何取消对通知的订阅。
     
-- [处理邮件存储区通知](handling-message-store-notification.md): 介绍如何注册邮件存储通知。
+- [处理邮件存储通知](handling-message-store-notification.md)：介绍如何注册邮件存储通知。
     
-- [处理通讯簿通知](handing-address-book-notification.md): 介绍如何注册和处理通讯簿通知。
+- [处理通讯簿通知](handing-address-book-notification.md)：介绍如何注册和处理通讯簿通知。
     
-- [处理表通知](handling-table-notification.md): 介绍如何注册来自层次结构表的通知。
+- [处理表通知](handling-table-notification.md)：介绍如何注册层次结构表中的通知。
     
-- [实现 "建议接收器" 对象](implementing-an-advise-sink-object.md): 介绍如何实现建议接收器对象。
+- [Implementing an Advise Sink Object](implementing-an-advise-sink-object.md)： Describes how to implement an advise sink object.
     
-- [对通知计时](timing-a-notification.md): 描述服务提供程序的客户端通知的计时。
+- [通知计时](timing-a-notification.md)：描述服务提供商发送客户端通知的时间。
     
-- [确保线程安全通知](ensuring-a-thread-safe-notification.md): 介绍了如何确保 MAPI 的线程安全通知。
+- [Ensure a Thread-Safe Notification](ensuring-a-thread-safe-notification.md)： Describes how to ensure thread-safe notification with MAPI.
     
-- [强制通知](forcing-a-notification.md): 介绍如何在 MAPI 中强制发出通知。
+- [强制通知](forcing-a-notification.md)：介绍如何在 MAPI 中强制发送通知。
     
 

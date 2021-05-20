@@ -29,9 +29,9 @@ ms.locfileid: "33435920"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 SCODE ScCopyNotifications(
@@ -46,19 +46,19 @@ SCODE ScCopyNotifications(
 
  _cntf_
   
-> 实时由_rgntf_参数指示的数组中的[通知](notification.md)结构的计数。 
+> [in]_rgntf_ 参数指示的数组中的 [NOTIFICATION](notification.md)结构计数。 
     
  _rgntf_
   
-> 实时指向定义要复制的事件通知的**通知**结构数组的指针。 
+> [in]指向定义要复制的事件通知的 **NOTIFICATION** 结构的数组的指针。 
     
  _pvDst_
   
-> 排除指向返回的通知的指针。 
+> [out]指向返回的通知的指针。 
     
- _pcb_
+ _这些_
   
-> 排除一个可选指针, 指向一个变量, 存储_rgntf_参数指向的数组的大小 (以字节为单位)。 如果不为 NULL, 则将_pcb_参数设置为_pvDst_参数中存储的字节数。 
+> [out]指向变量的可选指针，其中存储  _了 rgntf_ 参数指向的数组的大小（以字节为单位）。 如果不为 NULL，  _则向该_  _pvDst_ 参数中存储的字节数设置 pv 参数。 
     
 ## <a name="return-value"></a>返回值
 
@@ -68,10 +68,10 @@ S_OK
     
 E_INVALIDARG
   
-> 遇到无效的通知。
+> 遇到无效通知。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果在_pcb_参数中传递了 NULL 值, 则不会执行任何复制;如果在_pcb_中传递一个非 null 值, 则**ScCopyNotifications**函数会将数组和数组本身的大小复制到单个内存块。 如果_pcb_不为 NULL, 则将其设置为_pvDst_参数中存储的字节数。 _pvDst_参数的大小必须足以包含整个数组。 
+如果 null 在  _向该参数传递_ ，则不执行任何复制;如果将非 null 值传入  _到_ 中，则 **ScCopyNotifications** 函数将数组和数组本身的大小复制到单个内存块。 如果  _pv_ 不为 NULL，则设置为  _pvDst_ 参数中存储的字节数。 _pvDst_ 参数必须足够大，以包含整个数组。 
   
 

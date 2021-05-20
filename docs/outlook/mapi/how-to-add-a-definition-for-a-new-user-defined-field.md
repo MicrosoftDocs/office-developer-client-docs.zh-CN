@@ -17,19 +17,19 @@ ms.locfileid: "33428163"
  
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将用户定义的字段添加到 Microsoft Outlook 项时, 会将字段定义添加到相应的[PropertyDefinition](propertydefinition-stream-structure.md)流结构中。 使用以下过程可将新的字段定义添加到 PropertyDefinition 流结构中。 
+将用户定义的字段添加到 Microsoft Outlook项时，会向相应的[PropertyDefinition](propertydefinition-stream-structure.md)流结构添加字段定义。 使用以下过程向 PropertyDefinition 流结构添加新字段定义。 
   
-### <a name="to-add-a-definition-for-a-new-user-defined-field"></a>为新的用户定义的字段添加定义
+### <a name="to-add-a-definition-for-a-new-user-defined-field"></a>为新的用户定义字段添加定义
 
 1. 将 PropertyDefinition 流结构的现有字段定义复制到新的字段定义数组。 
     
-2. 如果任何现有字段定义的格式为 PropDefV1, 则将其转换为 PropDefV2 格式。 有关字段定义格式的详细信息, 请参阅[PropertyDefinition stream structure](propertydefinition-stream-structure.md) and [FieldDefinition stream structure](fielddefinition-stream-structure.md)。
+2. 如果任何现有字段定义采用 PropDefV1 格式，请将其转换为 PropDefV2 格式。 有关字段定义格式的信息，请参阅[PropertyDefinition Stream Structure](propertydefinition-stream-structure.md)和[FieldDefinition Stream Structure。](fielddefinition-stream-structure.md)
     
-3. 以 PropDefV2 格式创建新的用户定义字段的定义, 并将其添加到数组中。
+3. 创建 PropDefV2 格式的新用户定义字段的定义，并将其添加到数组中。
     
-4. 将 PropertyDefinition 流结构的 version 元素设置为 0x0103 (如果 version 元素尚未设置为该值)。
+4. 将 PropertyDefinition 流结构的 Version 元素设置为 0x0103（如果 Version 元素尚未设置为该值）。
     
-5. 将 FieldDefinitionCount 元素递增1。
+5. 将 FieldDefinitionCount 元素增加 1。
     
 6. 将数组存储为 FieldDefinitions 元素的值。
     

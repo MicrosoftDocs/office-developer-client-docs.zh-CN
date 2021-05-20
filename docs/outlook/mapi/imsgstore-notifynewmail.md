@@ -25,7 +25,7 @@ ms.locfileid: "33431776"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-通知邮件存储区新邮件已到达。 此方法仅由 MAPI 后台处理程序调用。
+通知邮件存储新邮件已到达。 此方法仅由 MAPI 后台处理程序调用。
   
 ```cpp
 HRESULT NotifyNewMail(
@@ -37,23 +37,23 @@ HRESULT NotifyNewMail(
 
  _lpNotification_
   
-> 实时指向描述新邮件通知的[通知](notification.md)结构的指针。 
+> [in]指向描述新邮件通知的 [NOTIFICATION](notification.md) 结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功通知邮件存储区。
+> 已成功通知邮件存储。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-MAPI 后台处理程序调用**IMsgStore:: NotifyNewMail**方法, 以通知邮件存储区邮件已准备好传递。 
+MAPI 后台处理程序调用 **IMsgStore：：NotifyNewMail** 方法，以通知邮件存储邮件已准备好进行传递。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-调用**NotifyNewMail**时, 向所有已注册的客户端发送新邮件通知。 如果选择使用支持对象方法, 或使用自己的实现, 则可以通过调用[IMAPISupport:: Notify](imapisupport-notify.md)来发送通知。 已注册的客户端是已调用[IMsgStore:: 建议](imsgstore-advise.md), 并将_lpEntryID_参数设置为 NULL, 并将_ulEventMask_参数设置为_fnevNewMail_。 
+调用 **NotifyNewMail** 时，将新邮件通知发送给所有注册的客户端。 如果选择使用支持对象方法，或者使用自己的实现，可以通过调用 [IMAPISupport：：Notify](imapisupport-notify.md)发送通知。 注册的客户端是一个已调用 [IMsgStore：：Advise](imsgstore-advise.md) 的客户端，并且将  _lpEntryID_ 参数设置为 NULL，将  _ulEventMask_ 参数设置为  _fnevNewMail_。 
   
-请勿修改或释放描述新邮件通知的[通知](notification.md)结构的内存。 通过调用实用工具函数[ScCopyNotifications](sccopynotifications.md)来复制**通知**结构, 以使用其成员中的信息。 
+不要修改或释放描述新邮件通知的 [NOTIFICATION](notification.md) 结构的内存。 通过调用 **实用程序** 函数 [ScCopyNotifications](sccopynotifications.md) 以利用其成员中的信息来复制 NOTIFICATION 结构。 
   
 ## <a name="see-also"></a>另请参阅
 

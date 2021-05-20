@@ -21,16 +21,16 @@ ms.locfileid: "33430313"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 邮件标志映射到 TNEF 标志以保留向后兼容性。 所有标志组合在一起, 并在一个字节中编码。 映射如下所示:
+MAPI 消息标志映射到 TNEF 标志以保持向后兼容性。 所有标志都组合在一起，并采用单个字节进行编码。 映射如下所示：
   
 |**MAPI 邮件标志**|**TNEF 标志**|
 |:-----|:-----|
 |MSGFLAG_READ  <br/> |fmsRead  <br/> |
-|MSGFLAG_UNMODIFED  <br/> |~ fmsModified  <br/> |
+|MSGFLAG_UNMODIFED  <br/> |~fmsModified  <br/> |
 |MSGFLAG_SUBMIT  <br/> |fmsSubmitted  <br/> |
 |MSGFLAG_HASATTACH  <br/> |fmsHasAttach  <br/> |
 |MSGFLAG_UNSENT  <br/> |fmsLocal  <br/> |
    
-这些标志是在 TNEF 中定义的。H 头文件。
+这些标志在 TNEF 中定义。H 头文件。
   
 

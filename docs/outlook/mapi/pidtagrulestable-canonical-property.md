@@ -23,7 +23,7 @@ ms.locfileid: "33428499"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个表, 其中包含应用于文件夹的所有规则。
+包含一个表，该表包含应用于文件夹的所有规则。
   
 |||
 |:-----|:-----|
@@ -32,21 +32,21 @@ ms.locfileid: "33428499"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性存在于具有规则的 Exchange 服务器上的所有 folder 对象上。 此属性中包含的值用于读取和修改规则。 可以将[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法与**IID_IExchangeModifyTable**接口标识符一起使用, 以获取指向文件夹中的 rules 表的[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)接口。 您可以使用此接口读取和修改这些规则。 
+此属性存在于具有规则的文件夹Exchange Server上的所有文件夹对象上。 此属性中包含的值用于读取和修改规则。 可以将 [IMAPIProp：：OpenProperty](imapiprop-openproperty.md) 方法与 **IID_IExchangeModifyTable** 接口标识符一同使用，以获取文件夹上规则表的 [IExchangeModifyTable ： IUnknown](iexchangemodifytableiunknown.md) 接口。 您可以使用此接口读取和修改这些规则。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。 
+> 包含作为关联属性列出的属性的定义。 
     
 ## <a name="see-also"></a>另请参阅
 

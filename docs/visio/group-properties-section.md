@@ -20,8 +20,8 @@ ms.locfileid: "33430747"
 
 包含用于组合的单元格，这些单元格控制如何向组合添加形状、移动组合成员和选择组合。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-还可以在 **“行为”** 对话框（在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上的 **“形状设计”** 组中单击**行为**）中的 **“行为”** 选项卡上设置这些值。 
+还可以在 **“行为”** 对话框（在 [“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上的 **“形状设计”** 组中单击 **行为**）中的 **“行为”** 选项卡上设置这些值。 
   
 

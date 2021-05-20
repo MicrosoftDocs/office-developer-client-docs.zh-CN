@@ -23,33 +23,33 @@ ms.locfileid: "33430131"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-一个用于描述错误或警告的32位状态值。 
+用于描述错误或警告的 32 位状态值。 
   
 ```cpp
 typedef ULONG SCODE;
 
 ```
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SCODE**数据类型与[HRESULT](hresult.md)数据类型相同。 
+**SCODE** 数据类型与 [HRESULT](hresult.md)属性数据类型。 
   
-**SCODE**值分为四个字段: 
+**SCODE** 值分为四个字段： 
   
-- 一个将设置为0以指示成功和1以指示失败的单一位严重性代码。
+- 单位严重性代码，设置为 0 表示成功，1 表示失败。
     
-- 11位保留字段
+- 11 位保留字段
     
-- 4位设施代码, 指示负责错误或警告的区域。
+- 指示负责错误或警告的区域的 4 位设备代码。
     
-- 一个16位错误或警告代码, 用于描述导致错误或警告的问题。
+- 描述导致错误或警告的问题的 16 位错误或警告代码。
     
-许多 MAPI 函数和方法返回的**SCODE**值定义为**HRESULT**数据类型, 就像 OLE 方法和函数一样。 OLE 定义了几个可用于在**SCODE**和**HRESULT**之间进行转换的宏。
+许多 MAPI 函数和方法都返回定义为 **HRESULT** 数据类型的 **SCODE** 值，就像 OLE 方法和函数一样。 OLE 定义多个宏，这些宏可用于在 **SCODE 和** **HRESULT** 之间转换。
   
 > [!NOTE]
-> 在64位 MAPI 中, **SCODE**仍为32位值。 
+> 在 64 位 MAPI 中 **，SCODE** 仍是 32 位值。 
   
-有关 MAPI 如何使用**SCODE**数据类型的详细信息, 请参阅[错误处理](error-handling-in-mapi.md)。 有关 ole 和**SCODE**数据类型的详细信息, 请参阅*OLE 程序员参考*。 
+有关 MAPI 如何使用 **SCODE** 代码的详细信息数据类型，请参阅 [错误处理](error-handling-in-mapi.md)。 有关 OLE 和 **SCODE** 数据类型，请参阅 *《OLE 程序员参考》。* 
   
 ## <a name="see-also"></a>另请参阅
 

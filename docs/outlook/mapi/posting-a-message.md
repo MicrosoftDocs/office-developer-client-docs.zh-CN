@@ -19,40 +19,40 @@ ms.locfileid: "33429766"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-发布邮件类似于发送邮件。 主要区别在于目标。 已发布的邮件仍保留在当前邮件存储区中的文件夹中, 而不是定向到一个或多个邮件系统上的一个或多个收件人。
+发布邮件类似于发送邮件。 主要区别是目标。 发布的邮件将保留在当前邮件存储中的文件夹中，而不是跨一个或多个邮件系统定向到一个或多个收件人。
   
-### <a name="to-post-a-message"></a>发布邮件
+### <a name="to-post-a-message"></a>发布消息
   
-1. 通过调用[IMsgStore:: OpenEntry](imsgstore-openentry.md)打开目标文件夹。 如果目标文件夹是收件箱, 则通过调用[IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md)找到要传递给**OpenEntry**的条目标识符。 
+1. 通过调用 [IMsgStore：：OpenEntry 打开目标文件夹](imsgstore-openentry.md)。 如果目标文件夹是收件箱，请通过调用 [IMsgStore：：GetReceiveFolder](imsgstore-getreceivefolder.md)找到要传递到 **OpenEntry** 的条目标识符。 
     
-2. 调用[IMAPIFolder:: CreateMessage](imapifolder-createmessage.md)以创建邮件。 
+2. 调用 [IMAPIFolder：：CreateMessage](imapifolder-createmessage.md) 以创建消息。 
     
-3. 调用要设置的邮件的[IMAPIProp:: SetProps](imapiprop-setprops.md)方法: 
+3. 调用消息的 [IMAPIProp：：SetProps 方法来](imapiprop-setprops.md) 设置： 
     
-   - **PidTagMessageFlags** ( [PR_MESSAGE_FLAGS](pidtagmessageflags-canonical-property.md)) 属性中的 MSGFLAG_READ 标志。
+   - **PidTagMessageFlags MSGFLAG_READ PidTagMessageFlags** [ ( PR_MESSAGE_FLAGS)](pidtagmessageflags-canonical-property.md)标记。
     
-   - **PR_SENDER**属性。 
+   - 属性 **PR_SENDER** 属性。 
     
-   - **PR_SENT_REPRESENTING**属性。 
+   - 属性 **PR_SENT_REPRESENTING** 属性。 
     
-   - **PR_RECEIPT_TIME** ([PidTagReceiptTime](pidtagreceipttime-canonical-property.md)) 属性。
+   - The **PR_RECEIPT_TIME** ([PidTagReceiptTime](pidtagreceipttime-canonical-property.md)) property.
     
-   - **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 或**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性。
+   - The **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) or PR_BODY **(** [PidTagBody](pidtagbody-canonical-property.md)) property.
     
-   - **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 属性。
+   - The **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) property.
     
-   - **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性。
+   - The **PR_MESSAGE_CLASS (** [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property.
     
    - 邮件类所需的任何属性。
     
-4. 调用邮件的[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法以保存该邮件。 
+4. 调用邮件的 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法来保存邮件。 
     
-5. 如有必要, 请创建一个附件, 设置其属性, 然后保存它。 有关将附件添加到邮件的详细信息, 请参阅[创建邮件附件](creating-a-message-attachment.md)。
+5. 如有必要，创建附件、设置其属性并保存它。 有关向邮件添加附件的信息，请参阅 [创建邮件附件](creating-a-message-attachment.md)。
     
-6. 调用**IMessage:: SaveChanges**以保存邮件。 此时, 它将显示在目标文件夹的 "内容" 表中。 
+6. 调用 **IMessage：：SaveChanges** 以保存邮件。 此时，它将显示在目标文件夹的内容表中。 
     
-请注意, 您不会创建收件人列表。 而是设置多个通常由传输提供程序为已发送的邮件设置的属性。 
+请注意，您不会创建收件人列表。 相反，您可以设置通常由传输提供程序为已发送的邮件设置的几个属性。 
   
-如果要在显示在可见文件夹的内容表中之前间歇保存邮件, 请在隐藏文件夹 (如 IPM 子树的根文件夹) 中创建邮件, 然后将其移动到目标文件夹。 
+如果要在消息出现在可见文件夹的内容表中之前间歇性保存消息，请改为在隐藏文件夹（如 IPM 子树的根文件夹）中创建它，然后将它移动到目标文件夹。 
   
 

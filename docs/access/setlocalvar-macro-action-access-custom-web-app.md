@@ -1,5 +1,5 @@
 ---
-title: SetLocalVar 宏操作 (Access 自定义 web 应用程序)
+title: 'SetLocalVar 宏操作 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428114"
 ---
-# <a name="setlocalvar-macro-action-access-custom-web-app"></a>SetLocalVar 宏操作 (Access 自定义 web 应用程序)
+# <a name="setlocalvar-macro-action-access-custom-web-app"></a>SetLocalVar 宏操作 (Access 自定义 Web 应用) 
 
 **SetLocalVar** 操作可创建一个临时变量并将其设置为特定值。 
   
@@ -22,7 +22,7 @@ ms.locfileid: "33428114"
 > Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 > [!NOTE]
-> **SetLocalVar**操作仅适用于数据宏。 
+> **SetLocalVar** 操作仅适用于数据宏。 
   
 ## <a name="setting"></a>设置
 

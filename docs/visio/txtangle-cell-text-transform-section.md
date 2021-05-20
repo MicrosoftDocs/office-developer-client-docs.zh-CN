@@ -18,9 +18,9 @@ ms.locfileid: "33432168"
 ---
 # <a name="txtangle-cell-text-transform-section"></a>TxtAngle 单元格（“Text Transform”内容）
 
-确定文本块相对于形状的*x*轴的当前旋转角度。 默认值是 0 度。 
+确定文本块相对于形状的  *x*  轴的当前旋转角度。 默认值是 0 度。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 TxtAngle 单元格的引用，请使用： 
   

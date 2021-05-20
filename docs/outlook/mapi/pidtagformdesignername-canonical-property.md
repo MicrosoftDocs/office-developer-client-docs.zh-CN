@@ -25,16 +25,16 @@ ms.locfileid: "33432357"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于设计窗体的对象的显示名称。 
+包含显示名称窗体的对象的行。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_FORM_DESIGNER_NAME、PR_FORM_DESIGNER_NAME_A、PR_FORM_DESIGNER_NAME_W  <br/> |
 |标识符:  <br/> |0x3308  <br/> |
 |数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
-|区域：  <br/> |MAPI 通用  <br/> |
+|区域：  <br/> |MAPI common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 这些属性包含表单设计器对象的唯一标识符。 
   
@@ -42,13 +42,13 @@ ms.locfileid: "33432357"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

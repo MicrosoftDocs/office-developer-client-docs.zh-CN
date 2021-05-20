@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431867"
 ---
-# <a name="propsmtpport"></a>PROP_SMTP_PORT
+# <a name="prop_smtp_port"></a>PROP_SMTP_PORT
 
 表示 SMTP 帐户的端口号。
   

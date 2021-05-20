@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429563"
 ---
-# <a name="mapiofflinecreateinfo"></a>MAPIOFFLINE_CREATEINFO
+# <a name="mapioffline_createinfo"></a>MAPIOFFLINE_CREATEINFO
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-此结构与[HrCreateOfflineObj](hrcreateofflineobj.md)一起使用。
+此结构与 [HrCreateOfflineObj 一起使用](hrcreateofflineobj.md)。
   
 ```cpp
 typedef struct
@@ -47,7 +47,7 @@ typedef struct
     
  **ulCreateFlags**
   
-> 它必须为0。
+> 它必须是 0。
     
  **pwszProfileName**
   
@@ -64,23 +64,23 @@ typedef struct
    
  **pGUID**
   
-> 指向一个 GUID 的指针, 该 GUID 用于从其他脱机对象中唯一标识此类型的脱机对象。 GUID_GlobalState 是指全局脱机对象, 对象可将其用作父对象。
+> 指向 GUID 的指针，用于从其他脱机对象中唯一标识此类型的脱机对象。 GUID_GlobalState对象可以用作父对象的全局脱机对象。
     
  **pInstance**
   
-> 指向唯一标识此脱机对象的 GUID 的指针。 它用于消除来自其他对象的这两个脱机对象的歧义。
+> 指向唯一标识此脱机对象的 GUID 的指针。 它用于使此脱机对象与其他对象不产生任何关系。
     
  **pParent**
   
-> 指向脱机对象的指针, 该对象是此脱机对象的父对象, 其更改将继承此脱机对象。
+> 指向脱机对象的指针，该对象是此脱机对象的父对象，并且此脱机对象将继承其更改。
     
  **pMAPISupport**
   
->  标识将使用此脱机对象的 MAPI 支持对象。 例如, 如果此脱机对象用于跟踪存储的脱机状态和联机状态, 则这就是存储支持对象。 但是, 如果这是一个不支持对象的对象的脱机对象, 则它可以为 NULL。 
+>  标识将使用此脱机对象的 MAPI 支持对象。 例如，如果此脱机对象用于跟踪应用商店的脱机和联机状态，则这是应用商店支持对象。 但是，如果这是没有支持对象的对象的脱机对象，则它可以为 NULL。 
     
  **pAggregateInfo**
   
-> 指向 MAPIOFFLINE_AGGREGATEINFO 结构的指针。 有关详细信息, 请参阅[MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md)。
+> 指向结构MAPIOFFLINE_AGGREGATEINFO指针。 有关详细信息，[请参阅MAPIOFFLINE_AGGREGATEINFO。](mapioffline_aggregateinfo.md)
     
  **pConnectInfo**
   

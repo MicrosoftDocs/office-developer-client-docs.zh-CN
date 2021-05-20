@@ -19,7 +19,7 @@ ms.locfileid: "33431356"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-[上载文件夹状态](upload-folder-state.md)期间上载文件夹的信息。
+上传文件夹状态期间 [上传文件夹的信息](upload-folder-state.md)。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -37,31 +37,31 @@ struct UPFLD
 
 _ulFlags_
   
->  [输出]/[输入] 标志, 以确定对 uplaod 的相应操作。 
+>  [out]/[in] 用于确定启动的适当操作的标志。 
     
   - UPF_NEW
     
-    - 排除文件夹是新的。
+    - [out]文件夹是新文件夹。
     
   - UPF_MOD_PARENT
     
-    - 排除文件夹已移动。
+    - [out]文件夹已移动。
     
   - UPF_MOD_PROPS
     
-    - 排除文件夹属性已被修改。
+    - [out]已修改文件夹属性。
     
   - UPF_DEL
     
-    - 排除文件夹已删除。
+    - [out]已删除文件夹。
     
   - UPF_OK
     
-    - 实时上载成功。 客户端将文件夹信息上载到服务器后, 会对此进行设置。
+    - [in]Upload已成功。 客户端在将文件夹信息上载到服务器后进行设置。
     
 _pfld_
   
-> 排除要上传的打开的文件夹对象。
+> [out]要上载的打开的文件夹对象。
     
 _feid_
   

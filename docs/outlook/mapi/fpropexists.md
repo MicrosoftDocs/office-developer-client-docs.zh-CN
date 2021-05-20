@@ -25,13 +25,13 @@ ms.locfileid: "33429486"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在[IMAPIProp](imapipropiunknown.md)接口或从**IMAPIProp**派生的接口 (如[IMessage](imessageimapiprop.md)或[IMAPIFolder](imapifolderimapicontainer.md)) 中搜索给定的属性标记。 
+在 [IMAPIProp](imapipropiunknown.md) 接口或派生自 **IMAPIProp** 的接口（如 [IMessage](imessageimapiprop.md) 或 [IMAPIFolder）](imapifolderimapicontainer.md)中搜索给定的属性标记。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 BOOL FPropExists(
@@ -44,11 +44,11 @@ BOOL FPropExists(
 
  _pobj_
   
-> 实时指向从**IMAPIProp**派生的**IMAPIProp**接口或接口的指针, 可在其中搜索属性标记。 
+> [in]指向从 **IMAPIProp** 派生的 **IMAPIProp** 接口的指针，用于搜索属性标记。 
     
  _ulPropTag_
   
-> 实时要搜索的属性标记。
+> [in]要搜索的属性标记。
     
 ## <a name="return-value"></a>返回值
 
@@ -58,10 +58,10 @@ TRUE
     
 FALSE 
   
-> 找不到给定属性标记的匹配项。
+> 未找到给定属性标记的匹配项。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果_ulPropTag_参数中的属性标记具有类型 PT_UNSPECIFIED, 则**FPropExists**函数将基于属性标识符查找匹配项。 否则, 将对整个属性标记 (包括类型) 进行匹配。 
+如果  _ulPropTag_ 参数中的属性标记的类型为 PT_UNSPECIFIED， **则 FPropExists** 函数将仅基于属性标识符查找匹配项。 否则，匹配适用于整个属性标记，包括 类型。 
   
 

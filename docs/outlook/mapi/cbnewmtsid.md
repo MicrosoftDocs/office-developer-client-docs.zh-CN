@@ -25,12 +25,12 @@ ms.locfileid: "33428100"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算应为具有指定大小的邮件传输代理标识符的新[MTSID](mtsid.md)结构分配的字节数。 
+计算应为具有指定大小的邮件传输代理标识符的新 [MTSID](mtsid.md) 结构分配的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**MTSID** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**MTSID** <br/> |
    
 ```cpp
 CbNewMTSID (_cb)
@@ -38,9 +38,9 @@ CbNewMTSID (_cb)
 
 ## <a name="parameters"></a>参数
 
- __cb_
+ _ _cb_
   
-> 要包含在新的**MTSID**结构中的邮件传输代理标识符的字节数。 
+> 要包含在新 **MTSID** 结构中的邮件传输代理标识符的字节数。 
     
 ## <a name="see-also"></a>另请参阅
 

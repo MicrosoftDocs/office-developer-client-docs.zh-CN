@@ -25,7 +25,7 @@ ms.locfileid: "33436242"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回指向 MAPI 表对象的接口的指针。
+返回一个指向 MAPI 表对象的接口的指针。
   
 ```cpp
 HRESULT GetTable( 
@@ -39,7 +39,7 @@ HRESULT GetTable(
 
  _ulFlags_
   
-> 实时保留必须为 0 (零)。
+> [in]保留;必须为 0 (0) 。
     
 ACLTABLE_FREEBUSY
   
@@ -47,15 +47,15 @@ ACLTABLE_FREEBUSY
     
 frightsFreeBusyDetailed
   
-> 当传递 ACLTABLE_FREEBUSY 时, 提供新的忙/闲权限的详细显示。
+> 传递ACLTABLE_FREEBUSY时，提供新的忙/闲权限的详细显示。
     
 frightsFreeBusySimple
   
-> 当传递 ACLTABLE_FREEBUSY 时, 将提供新的忙/闲权限的简单显示。
+> 传递ACLTABLE_FREEBUSY时，提供新的忙/闲权限的简单显示。
     
  _lppTable_
   
-> 排除指向包含 table 对象的[IMAPITable: IUnknown](imapitableiunknown.md)接口。 
+> [out]指向包含 [table 对象的 IMAPITable ： IUnknown](imapitableiunknown.md) 接口。 
     
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -63,7 +63,7 @@ frightsFreeBusySimple
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|RulesDlg  <br/> |CRulesDlg:: OnRefreshView  <br/> |MFCMAPI 使用**IExchangeModifyTable:: GetTable**方法获取规则表。  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg：：OnRefreshView  <br/> |MFCMAPI 使用 **IExchangeModifyTable：：GetTable** 方法获取规则表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

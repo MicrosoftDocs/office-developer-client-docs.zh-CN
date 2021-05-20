@@ -17,7 +17,7 @@ ms.locfileid: "33428149"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题显示 Visual c + + 中的代码示例, 该示例使用命名的[PidLidHeaderItem 规范属性](pidlidheaderitem-canonical-property.md)来确定 Microsoft Outlook 2013 是否仅下载了邮件头和邮件的标题和正文。 
+本主题演示 Visual C++ 中的一个代码示例，该示例使用名为[PidLidHeaderItem 规范](pidlidheaderitem-canonical-property.md)属性来确定 Microsoft Outlook 2013 是否仅下载了邮件头或邮件头以及邮件正文。 
   
 ```cpp
 BOOL bIsHeader(LPMESSAGE lpMessage) 

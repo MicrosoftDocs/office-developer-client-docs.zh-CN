@@ -17,20 +17,20 @@ ms.locfileid: "33431300"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在可以使用脱机状态加载项监视连接状态更改之前, 必须实现函数来设置和初始化外接程序。 有关详细信息, 请参阅[设置脱机状态外接程序](setting-up-an-offline-state-add-in.md)。
+必须先实现用于设置和初始化外接程序的函数，然后才能使用脱机状态外接程序监视连接状态更改。 有关详细信息，请参阅 [设置脱机状态加载项](setting-up-an-offline-state-add-in.md)。
   
-设置脱机状态外接程序后, 必须使用**[HrOpenOfflineObj](hropenofflineobj.md)** 函数来获取脱机对象。 使用此脱机对象, 可以初始化状态监视器, 然后获取并设置当前状态。 
+设置脱机状态加载项后，必须使用 **[HrOpenOfflineObj](hropenofflineobj.md)** 函数获取脱机对象。 使用此脱机对象，可以初始化状态监视器，然后获取和设置当前状态。 
   
-在本主题中, 将通过使用示例脱机状态外接程序中的代码示例来演示这些状态监视功能。 示例脱机状态外接程序是一个 COM 加载项, 它将**脱机状态**菜单添加到 Outlook 并利用脱机状态 API。 通过**脱机状态**菜单, 您可以启用或禁用状态监视、检查当前状态以及更改当前状态。 有关下载和安装示例脱机状态加载项的详细信息，请参阅[安装示例脱机状态加载项](installing-the-sample-offline-state-add-in.md)。 有关脱机状态 API 的详细信息，请参阅[关于脱机状态 API](about-the-offline-state-api.md)。
+在本主题中，通过使用示例脱机状态外接程序中的代码示例演示了这些状态监视函数。 示例脱机状态外接程序是一个 COM 加载项，它将"脱机状态"菜单添加到Outlook并利用脱机状态 API。 通过 **"脱机状态"** 菜单，可以启用或禁用状态监视、检查当前状态以及更改当前状态。 有关下载和安装示例脱机状态加载项的详细信息，请参阅[安装示例脱机状态加载项](installing-the-sample-offline-state-add-in.md)。 有关脱机状态 API 的详细信息，请参阅[关于脱机状态 API](about-the-offline-state-api.md)。
   
-当脱机状态加载项已断开连接时，必须实现函数来正确终止和清理加载项。 有关详细信息, 请参阅[断开脱机状态外接程序](disconnecting-an-offline-state-add-in.md)。
+当脱机状态加载项已断开连接时，必须实现函数来正确终止和清理加载项。 有关详细信息，请参阅 [断开脱机状态加载项](disconnecting-an-offline-state-add-in.md)。
   
 ## <a name="open-offline-object-routine"></a>打开脱机对象例程
 
-若要在发生连接状态更改时通知客户端, 必须调用**[HrOpenOfflineObj](hropenofflineobj.md)** 函数。 此函数打开支持**[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)** 的脱机对象。 **HrOpenOfflineObj**函数是在 ConnectionState 头文件中定义的。 
+若要在连接状态更改时通知客户端，必须调用 **[HrOpenOfflineObj](hropenofflineobj.md)** 函数。 此函数打开支持 **[IMAPIOfflineMgr 的脱机对象](imapiofflinemgrimapioffline.md)**。 **HrOpenOfflineObj** 函数在 ConnectionState.h 头文件中定义。 
   
 > [!NOTE]
-> **HrOpenOfflineObj**函数是在 ImportProcs 头文件中声明的, 如下所示: `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;`。 
+> **HrOpenOfflineObj** 函数在 ImportProcs.h 头文件中声明，如下所示 `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;` ：。 
   
 ### <a name="hropenofflineobj-example"></a>HrOpenOfflineObj 示例
 
@@ -46,7 +46,7 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 
 ## <a name="initialize-monitor-routine"></a>初始化监视器例程
 
-`InitMonitor`函数调用**HrOpenOfflineObj**函数。 `InitMonitor`函数调用**CMyOfflineNotify** , 以便 Outlook 可以向客户端发送回调通知, 并通过**[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** 变量`AdviseInfo`注册回调。
+函数  `InitMonitor` 调用 **HrOpenOfflineObj** 函数。 该 `InitMonitor` 函数调用 **CMyOfflineNotify，** 以便Outlook客户端发送回调通知，并通过 MAPIOFFLINE_ADVISEINFO 变量 **[注册](mapioffline_adviseinfo.md)** 回调 `AdviseInfo` 。
   
 ### <a name="initmonitor-example"></a>InitMonitor () 示例
 
@@ -117,7 +117,7 @@ void InitMonitor(LPCWSTR szProfile)
 
 ## <a name="get-current-state-routine"></a>获取当前状态例程
 
-`GetCurrentState`函数调用**HrOpenOfflineObj**函数, 然后使用脱机对象获取当前连接状态。 当前状态在`ulCurState`变量中返回, 在`CButtonEventHandler::Click`函数中用于向用户显示当前状态。 
+该  `GetCurrentState` 函数调用 **HrOpenOfflineObj** 函数，然后使用脱机对象获取当前连接状态。 当前状态在 变量中返回，该变量在 函数中用于向用户  `ulCurState`  `CButtonEventHandler::Click` 显示当前状态。 
   
 ### <a name="getcurrentstate-example"></a>GetCurrentState () 示例
 
@@ -174,7 +174,7 @@ ULONG (LPCWSTR szProfile)
 
 ## <a name="set-current-state-routine"></a>设置当前状态例程
 
-`SetCurrentState`函数调用**HrOpenOfflineObj**函数, 然后使用脱机对象设置当前连接状态。 `CButtonEventHandler::Click`函数调用`SetCurrentState`函数, 并通过`ulState`变量传入新状态。 
+该  `SetCurrentState` 函数调用 **HrOpenOfflineObj** 函数，然后使用脱机对象设置当前连接状态。 `CButtonEventHandler::Click`函数调用 `SetCurrentState` 函数，新状态通过 变量 `ulState` 传入。 
   
 ### <a name="setcurrentstate-example"></a>SetCurrentState () 示例
 
@@ -241,9 +241,9 @@ HRESULT SetCurrentState(LPCWSTR szProfile, ULONG ulFlags, ULONG ulState)
 
 ## <a name="notification-routine"></a>通知例程
 
-当连接状态发生更改时, Outlook 使用**[IMAPIOfflineNotify:: Notify](imapiofflinenotify-notify.md)** 函数将通知发送到客户端。 
+**[IMAPIOfflineNotify：：Notify](imapiofflinenotify-notify.md)** 函数Outlook连接状态发生更改时向客户端发送通知。 
   
-### <a name="cmyofflinenotifynotify-example"></a>CMyOfflineNotify:: Notify () 示例
+### <a name="cmyofflinenotifynotify-example"></a>CMyOfflineNotify：：Notify () 示例
 
 ```cpp
 void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo) 
@@ -312,5 +312,5 @@ void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo)
 - [安装示例脱机状态加载项](installing-the-sample-offline-state-add-in.md)
 - [关于示例脱机状态加载项](about-the-sample-offline-state-add-in.md)
 - [设置脱机状态加载项](setting-up-an-offline-state-add-in.md)
-- [断开与脱机状态外接程序的连接](disconnecting-an-offline-state-add-in.md)
+- [断开脱机状态加载项](disconnecting-an-offline-state-add-in.md)
 

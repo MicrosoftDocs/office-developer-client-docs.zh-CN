@@ -24,16 +24,16 @@ ms.locfileid: "33427239"
 |:-----|:-----|:-----|
 |0  <br/> |Arc  <br/> |**visLOJumpStyleDefault** <br/> |
 |1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
-|双面  <br/> |间隙  <br/> |**visLOJumpStyleGap** <br/> |
-|第三章  <br/> |正方形  <br/> |**visLOJumpStyleSquare** <br/> |
-|4  <br/> |双面  <br/> |**visLOJumpStyleTriangle** <br/> |
-|5  <br/> |三个面  <br/> |**visLOJumpStyle2Point** <br/> |
-|型  <br/> |四个面  <br/> |**visLOJumpStyle3Point** <br/> |
-|步  <br/> |五个面  <br/> |**visLOJumpStyle4Point** <br/> |
-|utf-8  <br/> |六个面  <br/> |**visLOJumpStyle5Point** <br/> |
-|第  <br/> |七个面  <br/> |**visLOJumpStyle6Point** <br/> |
+|2  <br/> |间隙  <br/> |**visLOJumpStyleGap** <br/> |
+|3  <br/> |正方形  <br/> |**visLOJumpStyleSquare** <br/> |
+|4   <br/> |双面  <br/> |**visLOJumpStyleTriangle** <br/> |
+|5   <br/> |三个面  <br/> |**visLOJumpStyle2Point** <br/> |
+|6   <br/> |四个面  <br/> |**visLOJumpStyle3Point** <br/> |
+|7   <br/> |五个面  <br/> |**visLOJumpStyle4Point** <br/> |
+|8   <br/> |六个面  <br/> |**visLOJumpStyle5Point** <br/> |
+|9   <br/> |七个面  <br/> |**visLOJumpStyle6Point** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 还可以在 **“页面设置”** 对话框中的 **“布局与排列”** 选项卡（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后单击 **“布局与排列”**）上设置此单元格的值。
   

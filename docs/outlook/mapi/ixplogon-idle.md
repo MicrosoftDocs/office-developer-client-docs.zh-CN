@@ -25,7 +25,7 @@ ms.locfileid: "33436046"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示系统处于空闲状态, 使传输提供程序能够执行低优先级操作。
+指示系统处于空闲状态，使传输提供程序能够执行低优先级操作。
   
 ```cpp
 HRESULT Idle(
@@ -37,17 +37,17 @@ HRESULT Idle(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的一个或一些值。
+> 调用成功并返回预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在系统空闲时, MAPI 后台处理程序定期调用**IXPLogon:: idle**方法 (如果请求), 通过在调用[IXPProvider:: TransportLogon](ixpprovider-transportlogon.md)方法时传递对打开当前会话的 XP_LOGON_SP 标志。 在系统处于空闲状态时, 传输提供程序可以执行在其他呼叫过程中不适合或定期发生的后台操作。 
+如果请求，MAPI 后台处理程序在系统空闲时定期调用 **IXPLogon：：Idle** 方法，方法是在调用中将 XP_LOGON_SP 标志传递给打开当前会话的 [IXPProvider：：TransportLogon](ixpprovider-transportlogon.md) 方法。 当系统处于空闲状态时，传输提供程序可以执行其他调用期间不适合的后台操作，或者需要定期执行这些后台操作。 
   
 ## <a name="see-also"></a>另请参阅
 

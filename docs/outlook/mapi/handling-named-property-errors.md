@@ -19,19 +19,19 @@ ms.locfileid: "33429864"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-当对[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)或[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)发出的请求对要处理的实施者来说太大时, 将返回错误值 MAPI_E_TOO_BIG。 呼叫者必须将其请求划分为多个请求, 并在循环中调用适当的方法。 
+当对实现者处理过大的 [IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md) 或 [IMAPIProp：：GetNamesFromIDs](imapiprop-getnamesfromids.md) 提出请求时，将返回错误值 MAPI_E_TOO_BIG。 调用方必须将他们的请求划分为多个请求，在一个循环中调用适当的方法。 
   
-当呼叫导致部分成功时, 例如, 当请求用于映射到特定标识符的名称时, 如果找不到一个或多个名称, 则**GetNamesFromIDs**将返回 MAPI_W_ERRORS_RETURNED, 并将 PT_ERROR 放在属性类型中, 以获取缺少的属性在属性标记数组中。 
+当调用导致部分成功时（例如，当请求针对映射到特定标识符的名称且找不到一个或多个名称时）时 **，GetNamesFromIDs** 将返回 MAPI_W_ERRORS_RETURNED，并且将 PT_ERROR 在属性标记数组中缺少的属性的属性类型中。 
   
-有时, 客户端调用**GetNamesFromIDs** , 从而导致不会返回任何属性, 例如在指定的属性集中没有任何属性时, 或者当所有命名属性的类型被标志排除时。 客户端可以期望服务提供商执行以下操作: 
+有时，客户端调用 **GetNamesFromIDs，** 这样不会返回任何属性，例如，当指定的属性集没有属性时，或者当所有命名属性的类型都由标志排除时。 客户端可以期望服务提供商： 
   
-- 返回 S_OK。
+- 返回S_OK。
     
-- 将属性标记数组指针的内容设置为其**cValues**成员设置为零的新分配的属性标记数组。 
+- 将属性标记数组指针的内容设置为新分配的属性标记数组，其 **cValues** 成员集为零。 
     
-- 将[MAPINAMEID](mapinameid.md)结构数组的内容设置为 NULL。 
+- 将 [MAPINAMEID](mapinameid.md) 结构数组的内容设置为 NULL。 
     
-- 将**MAPINAMEID**结构的计数的内容设置为零。 
+- 将 **MAPINAMEID** 结构计数的内容设置为零。 
     
 ## <a name="see-also"></a>另请参阅
 

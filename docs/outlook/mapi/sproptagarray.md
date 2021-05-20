@@ -25,12 +25,12 @@ ms.locfileid: "33430698"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个属性标记数组。 
+包含属性标记的数组。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关宏:  <br/> |[CbNewSPropTagArray](cbnewsproptagarray.md)、 [CbSPropTagArray](cbsproptagarray.md)、 [SizedSPropTagArray](sizedsproptagarray.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关宏：  <br/> |[](cbnewsproptagarray.md)CbNewSPropTagArray、CbSPropTagArray、SizedSPropTagArray [](cbsproptagarray.md) [](sizedsproptagarray.md) <br/> |
    
 ```cpp
 typedef struct _SPropTagArray
@@ -45,25 +45,25 @@ typedef struct _SPropTagArray
 
  **cValues**
   
-> 由**aulPropTag**成员指示的数组中的属性标记的计数。 
+> 由 **aulPropTag** 成员指示的数组中的属性标记计数。 
     
  **aulPropTag**
   
 > 属性标记数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-属性标记是一个32位无符号整数, 由两部分组成: 
+属性标记是一个 32 位无符号整数，由两部分组成： 
   
-- 高顺序16位中的标识符。
+- 高顺序 16 位中的标识符。
     
-- 一个低序位16位的类型。
+- 低顺序 16 位中的类型。
     
-标识符是特定区域中的一个数值。 MAPI 为标识符定义范围, 以描述该属性的用途, 以及负责维护该属性的参与者。 MAPI 为在 Mapitags 头文件中支持的每个属性标记定义约束。
+标识符是特定范围中的数值。 MAPI 为标识符定义范围，以描述属性用于什么以及谁负责维护它。 MAPI 为 Mapitags.h 头文件中支持的每个属性标记定义约束。
   
-类型指示属性值的格式。 MAPI 为它在 mapidefs.h 头文件中支持的每个属性类型定义常量。 
+类型指示属性值的格式。 MAPI 为 Mapidefs.h 头文件中支持的每个属性类型定义常量。 
   
-有关属性标记及其组件的详细信息, 请参阅下列主题之一: 
+有关属性标记及其组件的信息，请参阅下列主题之一： 
   
 [MAPI 属性标记](mapi-property-tags.md)
   
@@ -71,7 +71,7 @@ typedef struct _SPropTagArray
   
 [MAPI 属性类型概述](mapi-property-type-overview.md)
   
-有关单值和多值属性类型的完整列表, 请参阅附录、[属性标识符和类型](property-identifiers-and-types.md)。 
+有关单值和多值属性类型的完整列表，请参阅附录属性 [标识符和类型](property-identifiers-and-types.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

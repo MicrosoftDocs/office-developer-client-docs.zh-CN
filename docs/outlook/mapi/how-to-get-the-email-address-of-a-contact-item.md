@@ -17,11 +17,11 @@ ms.locfileid: "33429591"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题演示如何获取命名属性的值, 该属性表示 Microsoft outlook 2010 或 microsoft outlook 2013 联系人项的电子邮件地址。
+本主题演示如何获取表示联系人项目或联系人项目的电子邮件地址的Microsoft Outlook 2010 Microsoft Outlook 2013属性的值。
   
-您最大可以将三个电子邮件地址与 outlook 2010 和 outlook 2013 中的联系人项目关联。 每个电子邮件地址与 outlook 2010 和 outlook 2013 对象模型中的 outlook 2010 或 outlook 2013 **ContactItem**对象的属性相对应。 outlook 2010 和 outlook 2013 内部的电子邮件地址也对应于 MAPI 命名属性。 例如, 联系人的第一个电子邮件地址对应于 outlook 2010 和 outlook 2013 对象模型中**ContactItem**的**Email1Address**属性, 以及 outlook 2010 和 outlook 2013 internal (名为[PidLidEmail1EmailAddress 规范属性](pidlidemail1emailaddress-canonical-property.md)。
+您最多可以将三个电子邮件地址与 2010 和 Outlook 2013 中的联系人Outlook关联。 每个电子邮件地址对应于 Outlook 2010 和 Outlook 2013 对象模型中的 Outlook 2010 或 Outlook 2013 **ContactItem** 对象的属性。 在 2010 Outlook 2013 Outlook内部，电子邮件地址还对应于 MAPI 命名属性。 例如，联系人的第一个电子邮件地址对应于 Outlook 2010 和 Outlook 2013 对象模型中 **ContactItem** 的 **Email1Address** 属性，以及名为 [PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md)规范属性 的内部 Outlook 2010 和 Outlook 2013。
   
-若要获取联系人项目的电子邮件地址的值, 可以使用 Outlook 2010 或 outlook 2013 对象模型的**PropertyAccessor**对象, 或者先使用[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)获取命名属性的属性标记, 然后在[IMAPIProp:: GetProps](imapiprop-getprops.md)中指定此属性标记以获取值。 调用**IMAPIProp:: GetIDsFromNames**时, 请为输入参数_lppPropNames_所指向的[MAPINAMEID](mapinameid.md)结构指定适当的值。 下面的代码示例演示如何使用`lpContact` **GetIDsFromNames**和**GetProps**获取指定联系人的第一个电子邮件地址。 
+若要获取联系人项目的电子邮件地址的值，可以使用 Outlook 2010 或 Outlook 2013 对象模型的 **PropertyAccessor** 对象，或者首先使用 [IMAPIProp：：GetIDsFromNames](imapiprop-getidsfromnames.md)获取命名属性的属性标记，然后在 [IMAPIProp：：GetProps](imapiprop-getprops.md)中指定此属性标记以获取值。 调用 **IMAPIProp：：GetIDsFromNames** 时，指定输入参数 _lppPropNames_ 指向的 [MAPINAMEID](mapinameid.md)结构的适当值。 下面的代码示例演示如何使用  `lpContact` **GetIDsFromNames** 和 **GetProps** 获取指定联系人的第一个电子邮件地址。 
   
 ```cpp
 HRESULT HrGetEmail1(LPMESSAGE lpContact) 

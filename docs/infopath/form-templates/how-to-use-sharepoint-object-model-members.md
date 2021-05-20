@@ -32,9 +32,9 @@ ms.locfileid: "33431657"
     
 2. 在 Visual Studio 2008 中打开表单模板项目。
     
-3. 在“项目”**** 菜单上，单击“添加引用”****。
+3. 在“项目”菜单上，单击“添加引用”。
     
-4. 单击“浏览”**** 选项卡，找到并指定程序集，再单击“确定”****，以添加引用。 
+4. 单击“浏览”选项卡，找到并指定程序集，再单击“确定”，以添加引用。 
     
 现在，您即可通过表单代码针对 SharePoint 对象模型的成员编写代码。为了使引用 Microsoft.SharePoint 命名空间的成员更加容易，请将  `using Microsoft.SharePoint;` 或  `Imports Microsoft.SharePoint` 添加到代码文件开始处的指令中。有关演示如何在 InfoPath 表单中使用 SharePoint 对象模型的成员的示例，请参阅 [示例沙盒解决方案](sample-sandboxed-solutions.md)中的"示例 2：使用 SharePoint 列表管理供应商"。
 

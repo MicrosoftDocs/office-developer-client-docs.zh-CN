@@ -19,25 +19,25 @@ ms.locfileid: "33431181"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-脱机状态 API 支持回调指示用户在 outlook 中的连接状态发生更改, 例如, 在 outlook 中联机为脱机。 示例脱机状态外接程序是用 c + + 编写的 COM 加载项, 它演示如何接收连接状态更改的通知, 以及如何使用脱机状态 API 修改当前状态。 有关脱机状态 API 的详细信息，请参阅[关于脱机状态 API](about-the-offline-state-api.md)。
+脱机状态 API 支持指示用户连接状态在 Outlook 中的更改的回调，例如，从处于联机状态Outlook脱机。 示例脱机状态外接程序是使用 C++ 编写的 COM 加载项，它演示如何接收连接状态更改的通知，以及如何使用脱机状态 API 修改当前状态。 有关脱机状态 API 的详细信息，请参阅[关于脱机状态 API](about-the-offline-state-api.md)。
   
 ## <a name="in-this-section"></a>本节内容
 
 - [安装示例脱机状态加载项](installing-the-sample-offline-state-add-in.md)
     
-- 介绍如何下载和安装示例脱机状态加载项。
+- 介绍如何下载和安装示例脱机状态外接程序。
     
 - [设置脱机状态加载项](setting-up-an-offline-state-add-in.md)
     
-- 介绍如何实现连接、初始化和安装程序功能, 以便使用脱机状态外接程序。
+- 介绍如何实现连接、初始化和设置功能，以便使用脱机状态加载项。
     
 - [使用脱机状态加载项监视连接状态更改](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
     
-- 介绍如何使用**[HrOpenOfflineObj](hropenofflineobj.md)** 函数获取脱机对象, 以监视和更改连接状态。 
+- 介绍如何使用 **[HrOpenOfflineObj](hropenofflineobj.md)** 函数获取脱机对象来监视和更改连接状态。 
     
-- [断开与脱机状态外接程序的连接](disconnecting-an-offline-state-add-in.md)
+- [断开脱机状态加载项](disconnecting-an-offline-state-add-in.md)
     
-- 介绍如何在外接程序断开连接时正确终止和清理脱机状态外接程序。
+- 介绍如何在断开加载项的连接时正确终止和清理脱机状态加载项。
     
 ## <a name="see-also"></a>另请参阅
 

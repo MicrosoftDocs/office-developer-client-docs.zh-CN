@@ -21,17 +21,17 @@ ms.locfileid: "33432147"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 后台处理程序在调用传输提供程序时使用[IXPLogon: IUnknown](ixplogoniunknown.md)接口中的方法。 大多数类型的传输提供程序都可以实现这些方法中的大多数, 以便快速返回。 这是很有必要的, 因为如果某个方法需要很长时间才能返回, 则应断开回调 MAPI 后台处理程序以释放其他任务的 CPU。 
+调用传输提供程序时，MAPI 后台处理程序使用 [IXPLogon ： IUnknown](ixplogoniunknown.md) 接口中的方法。 大多数类型的传输提供程序应该可以实施其中大多数方法，以便它们快速返回。 这是可取的，因为如果某个方法需要很长时间才返回，则该方法应该通过调用回 MAPI 后台处理程序来中断，以释放其他任务的 CPU。 
   
-MAPI 后台处理程序执行其工作, 并在前台应用程序空闲时对传输提供程序进行调用。 当传输提供程序首次登录时 (由从 MAPI 传递给传输提供程序的标志来控制), 传输提供程序将在后台运行, 除非由客户端调用以刷新发送和接收队列。 只有在用户收到可能正在进行的长时间的操作时, 才会刷新队列, 传输提供程序才需要释放 CPU。 MAPI 后台处理程序通常会请求传输提供程序刷新其队列以响应用户操作, 因此, 传输提供程序通常不需要执行任何操作以确保通知用户。
+MAPI 后台处理程序执行其工作，在前台应用程序空闲时调用传输提供程序。 在传输提供程序首次登录时显示对话框后 (由从 MAPI 传递到传输提供程序) 的标志控制，除非客户端调用来刷新发送和接收队列，否则传输提供程序将在后台运行。 刷新队列是传输提供程序唯一不需要释放 CPU 的时间，并且仅在用户得到可能长时间的操作正在进行时刷新队列。 MAPI 后台处理程序通常请求传输提供程序刷新其队列以响应用户操作，因此传输提供程序通常不需要执行任何操作来确保通知用户。
   
-传输提供程序可以独立决定刷新队列, 并使用其状态行的**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) 属性中的 STATUS_INBOUND_FLUSH 和 STATUS_OUTBOUND_FLUSH 位来通知 MAPI 后台处理程序需要请注意, 这样可使其完成作业。 使用[IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md)方法更新状态行。 在这种情况下, 传输提供程序可能会显示进度指示器或其他接口, 以通知用户发生长时间操作。 
+传输提供程序可以单独决定刷新队列，并使用其状态行的 PR_STATUS_CODE ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) 属性中的 **STATUS_INBOUND_FLUSH** 和 STATUS_OUTBOUND_FLUSH 位，以通知 MAPI 后台处理程序需要关注，以便可以完成作业。 使用 [IMAPISupport：：ModifyStatusRow 方法更新状态](imapisupport-modifystatusrow.md) 行。 在这种情况下，传输提供程序可能应显示进度指示器或其他界面，以通知用户正在执行长操作。 
   
-由于网络活动通常需要超过0.2 秒, 因此应尽可能使用传输提供程序来使用异步网络请求。 这使他们能够启动请求, 通过回调 mapi 后台处理程序来释放 CPU, 以及当 MAPI 后台处理程序再次向其提供控制时, 检查其网络请求是否已完成。 如果尚未完成, 它们将再次通过使用[IMAPISupport:: SpoolerYield](imapisupport-spooleryield.md)方法回调 MAPI 后台处理程序来释放 CPU。 
+由于网络活动通常需要 0.2 秒以上的时间，因此传输提供程序应尽可能使用异步网络请求。 这使用户能够启动请求、通过回调用 MAPI 后台处理程序释放 CPU，并且当 MAPI 后台处理程序再次授予其控制权时，可以检查其网络请求是否已完成。 如果尚未完成，它们再次使用 [IMAPISupport：：SpoolerYield](imapisupport-spooleryield.md) 方法调用 MAPI 后台处理程序来释放 CPU。 
   
-在邮件处理过程中, 在[IXPLogon:: SubmitMessage](ixplogon-submitmessage.md)和[IXPLogon:: EndMessage](ixplogon-endmessage.md)和在[IXPLogon:: StartMessage](ixplogon-startmessage.md)中, 传输提供程序通常会对它通过 MAPI 后台处理程序向其公开的对象进行大量调用。 在对这些对象进行处理的过程中, MAPI 后台处理程序可帮助传输提供程序在适当时自行生成, 从而帮助传输提供程序的行为与后台进程一样。 需要进行时间关键处理的传输提供程序可以使用[IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md)支持对象方法将关键部分声明到 MAPI 后台处理程序。 在这种情况下, 只有在对传输提供程序的显式**SpoolerYield**调用中, 才会释放 CPU, 直到传输提供程序结束与对**SpoolerNotify**的另一次调用的关键部分处理。
+在处理邮件期间， [在 IXPLogon：：SubmitMessage](ixplogon-submitmessage.md) 和 [IXPLogon：：EndMessage](ixplogon-endmessage.md) 之间以及 [IXPLogon：：StartMessage](ixplogon-startmessage.md)期间，传输提供程序通常会对 MAPI 后台处理程序向它公开的对象进行多次调用。 作为处理这些对象的一部分，MAPI 后台处理程序通过在适当时自行生成来帮助传输提供程序适当地作为后台进程运行。 需要时间关键处理的传输提供程序可以使用 [IMAPISupport：：SpoolerNotify](imapisupport-spoolernotify.md) 支持对象方法向 MAPI 后台处理程序声明关键节。 在这种情况下，CPU 仅在传输提供程序的显式 **SpoolerYield** 调用上释放，直到传输提供程序通过另一个对 **SpoolerNotify** 的调用结束关键节处理。
   
 > [!NOTE]
-> 这与 Win32 临界区不同。 仅当传输提供程序需要实时控制外部资源 (例如, 从传真行读取传入数据) 时, 才应执行此操作。 由于这将提高 MAPI 后台处理程序进程的优先级, 并可能导致工作站在操作期间无响应, 因此最好通知用户正在进行可能很长的操作, 并在可能的情况下提供进度指示器。 
+> 这与 Win32 关键部分不同。 只有在传输提供程序需要实时控制外部资源（如从传真行读取传入数据）时，才应完成此操作。 由于这提高了 MAPI 后台处理程序进程的优先级，并且可能导致工作站在操作期间无响应，因此，建议通知用户一个可能很长操作正在进行，并提供进度指示器（如果可能）。 
   
 

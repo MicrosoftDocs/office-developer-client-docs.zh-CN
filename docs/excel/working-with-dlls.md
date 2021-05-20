@@ -18,21 +18,21 @@ ms.locfileid: "33431832"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-本节包含有关创建和调用使用 Microsoft Excel 的 dll 的信息。
+本节包含有关创建和调用与 Microsoft Excel 一Microsoft Excel。
   
 ## <a name="in-this-section"></a>本节内容
 
 [开发 DLL](developing-dlls.md)
   
-> 介绍使用 dll 以及如何创建它们的好处。
+> 介绍使用 DLL 的好处以及如何创建它们。
     
 [在 Excel 中访问 DLL](how-to-access-dlls-in-excel.md)
   
-> 介绍如何通过 Visual Basic for Applications (VBA) 代码模块直接从工作表或从 Excel 用户界面调用 DLL 函数和命令。 
+> 介绍如何通过 VBA Visual Basic for Applications (代码) 、直接从工作表或 Excel用户界面调用 DLL 函数和命令。 
     
-[从 dll 调用用户定义的函数](calling-user-defined-functions-from-dlls.md)
+[从 DLL User-Defined函数](calling-user-defined-functions-from-dlls.md)
   
-> 介绍如何启用 dll 以调用用户定义的函数。
+> 介绍如何启用 DLL 以调用用户定义的函数。
     
 ## <a name="see-also"></a>另请参阅
 

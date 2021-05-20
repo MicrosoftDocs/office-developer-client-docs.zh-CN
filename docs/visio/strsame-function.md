@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251786
 localization_priority: Normal
 ms.assetid: d9fc2007-cc21-b20c-adee-be87cc356753
-description: 确定字符串是否相同。 如果它们相同, 则返回 TRUE, 如果不是, 则返回 FALSE。
+description: 确定字符串是否相同。 如果相同，则返回 TRUE;如果不同，则返回 FALSE。
 ms.openlocfilehash: 0f298c966ec7a3f1e23c89473fecc555ed950f79
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33428681"
 ---
 # <a name="strsame-function"></a>STRSAME 函数
 
-确定字符串是否相同。 如果它们相同, 则返回 TRUE, 如果不是, 则返回 FALSE。 
+确定字符串是否相同。 如果相同，则返回 TRUE;如果不同，则返回 FALSE。 
   
 ## <a name="syntax"></a>语法
 
-STRSAME ("* * *string1* * *", "* * *string2* * *", * * *ignoreCase* * *) 
+STRSAME (" ** *string1* ** "， " ** *string2* ** "， ** *ignoreCase* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -30,7 +30,7 @@ STRSAME ("* * *string1* * *", "* * *string2* * *", * * *ignoreCase* * *)
 |:-----|:-----|:-----|:-----|
 | _string1_ <br/> |必需  <br/> |**String** <br/> |要比较的第一个字符串。  <br/> |
 | _string2_ <br/> |必需  <br/> |**String** <br/> |要比较的第二个字符串。  <br/> |
-| _ignoreCase_ <br/> |可选  <br/> |**Boolean** <br/> |TRUE 为忽略大小写，FALSE 为比较大小写。 默认值为 FALSE。  <br/> |
+| _ignoreCase_ <br/> |可选  <br/> |**Boolean** <br/> |TRUE 为忽略大小写，FALSE 为比较大小写。默认值为 FALSE。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
@@ -42,13 +42,13 @@ STRSAME ("* * *string1* * *", "* * *string2* * *", * * *ignoreCase* * *)
   
 ## <a name="example-1"></a>示例 1
 
-STRSAME ("cat", "狗")
+STRSAME ("cat"，"dog") 
   
 返回 FALSE。
   
 ## <a name="example-2"></a>示例 2
 
-STRSAME ("cat", "cat")
+STRSAME ("cat"，"cat") 
   
 返回 TRUE。
   
@@ -60,7 +60,7 @@ STRSAME("cat","cat", TRUE)
   
 ## <a name="example-4"></a>示例 4
 
-STRSAME ("cat", "cat")
+STRSAME ("cat"，"CAT") 
   
 返回 FALSE。
   

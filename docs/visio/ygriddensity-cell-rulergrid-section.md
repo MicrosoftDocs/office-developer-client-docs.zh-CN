@@ -1,5 +1,5 @@
 ---
-title: YGridDensity 单元格 ( &amp; "标尺网格" 部分)
+title: 'YGridDensity Cell (Ruler &amp; Grid Section) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,20 +16,20 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429808"
 ---
-# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>YGridDensity 单元格 ( &amp; "标尺网格" 部分)
+# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>YGridDensity Cell (Ruler &amp; Grid Section) 
 
 指定要使用的垂直网格的类型。
   
 |**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
-|双面  <br/> |粗  <br/> |**visGridCoarse** <br/> |
-|4  <br/> |标准（默认）  <br/> |**visGridNormal** <br/> |
-|utf-8  <br/> |细化  <br/> |**visGridFine** <br/> |
+|2  <br/> |粗细  <br/> |**visGridCoarse** <br/> |
+|4   <br/> |标准（默认）  <br/> |**visGridNormal** <br/> |
+|8   <br/> |精细  <br/> |**visGridFine** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此单元格对应于 "**标尺&amp;网格**" 对话框 (在 "**视图**" 选项卡上, 单击 "**显示**" 箭头) 中的 "垂直**网格间距**" 选项。 
+此单元格对应于"视图"选项卡上"标尺网格"对话框中 (**网格** 间距"选项，单击"显示") 。 **&amp;**  
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 YGridDensity 单元格的引用，请使用： 
   

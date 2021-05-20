@@ -24,9 +24,9 @@ ms.locfileid: "33427183"
   
 ### <a name="add-an-event-handler-for-the-click-event-of-a-button-control"></a>为按钮控件的 Click 事件添加事件处理程序
 
-1. 在 InfoPath Designer 中打开表单模板，然后向该表单中添加一个“按钮”**** 控件。 
+1. 在 InfoPath Designer 中打开表单模板，然后向该表单中添加一个“按钮”控件。 
     
-2. 单击此按钮，然后在功能区的“属性”**** 选项卡上单击“自定义代码”****。
+2. 单击此按钮，然后在功能区的“属性”选项卡上单击“自定义代码”。
     
     焦点将切换到 Visual Studio 2008 代码编辑器中 [Clicked](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.Clicked.aspx) 事件的框架事件处理程序。 
     
@@ -34,7 +34,7 @@ ms.locfileid: "33427183"
 
 1. 在 InfoPath Designer 中打开表单模板。
     
-2. 右键单击绑定到字段或组的数据输入控件，例如“文本框”**** 控件。 
+2. 右键单击绑定到字段或组的数据输入控件，例如“文本框”控件。 
     
 3. Point to **Programming**, and then click the event you want to create an event handler for. The focus switches to the skeleton event handler for the [Changing](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Changing.aspx) , [Validating](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Validating.aspx) , or [Changed](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Changed.aspx) event in the Visual Studio 2012 code editor. 
     
@@ -45,7 +45,7 @@ ms.locfileid: "33427183"
 
 1. 在 InfoPath Designer 中打开表单模板。
     
-2. 在功能区的“开发人员”**** 选项卡上，单击要为其编写事件处理程序的表单事件。 
+2. 在功能区的“开发人员”选项卡上，单击要为其编写事件处理程序的表单事件。 
     
     焦点将切换到 Visual Studio 2008 代码编辑器中 [Loading](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) 、 [ViewSwitched](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ViewSwitched.aspx) 、 [ContextChanged](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ContextChanged.aspx) 或 [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) 事件的框架事件处理程序。 
     
@@ -56,9 +56,9 @@ ms.locfileid: "33427183"
 
 1. 在 InfoPath Designer 中打开表单模板。
     
-2. 单击“文件”**** 选项卡，单击“信息”**** 选项卡上的“提交到”****，然后单击“提交选项”。
+2. 单击“文件”选项卡，单击“信息”选项卡上的“提交到”，然后单击“提交选项”。
     
-3. 单击“允许用户提交此表单”****，单击“使用代码执行自定义操作”****，然后单击“编辑代码”****。
+3. 单击“允许用户提交此表单”，单击“使用代码执行自定义操作”，然后单击“编辑代码”。
     
     焦点将切换到 Visual Studio 2008 代码编辑器中 [Submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Submit.aspx) 事件的框架事件处理程序。 
     
@@ -66,9 +66,9 @@ ms.locfileid: "33427183"
 
 1. 在 InfoPath Designer 中打开表单模板。
     
-2. 单击“文件”**** 选项卡，然后单击“信息”**** 选项卡上的“表单选项”****。 
+2. 单击“文件”选项卡，然后单击“信息”选项卡上的“表单选项”。 
     
-3. 单击“保存”**** 类别，选中“使用自定义代码保存”**** 复选框，然后单击“编辑”****。
+3. 单击“保存”类别，选中“使用自定义代码保存”复选框，然后单击“编辑”。
     
     焦点将切换到 Visual Studio 2008 代码编辑器中 [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Save.aspx) 事件的框架事件处理程序。 
     
@@ -79,9 +79,9 @@ ms.locfileid: "33427183"
 
 1. 在 InfoPath Designer 中打开表单模板。
     
-2. 单击“文件”**** 选项卡，然后单击“信息”**** 选项卡上的“表单选项”****。 
+2. 单击“文件”选项卡，然后单击“信息”选项卡上的“表单选项”。 
     
-3. 单击“版本控制”**** 类别，在“更新现有表单”**** 下拉框中选择“使用自定义事件”****，然后单击“编辑”****。
+3. 单击“版本控制”类别，在“更新现有表单”下拉框中选择“使用自定义事件”，然后单击“编辑”。
     
     焦点将切换到 Visual Studio 2008 代码编辑器中 [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Save.aspx) 事件的框架事件处理程序。 
     
@@ -89,9 +89,9 @@ ms.locfileid: "33427183"
 
 1. 在 InfoPath Designer 中打开表单模板。
     
-2. 单击“文件”**** 选项卡，然后单击“信息”**** 选项卡上的“表单选项”****。 
+2. 单击“文件”选项卡，然后单击“信息”选项卡上的“表单选项”。 
     
-3. 单击“高级”**** 类别，单击“启用表单合并”**** 复选框，单击“使用自定义代码合并”**** 复选框，然后单击“编辑”****。
+3. 单击“高级”类别，单击“启用表单合并”复选框，单击“使用自定义代码合并”复选框，然后单击“编辑”。
     
     焦点将切换到 Visual Studio 2008 代码编辑器中 [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) 事件的框架事件处理程序。 
     

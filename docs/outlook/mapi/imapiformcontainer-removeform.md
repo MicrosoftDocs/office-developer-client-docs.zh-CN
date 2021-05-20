@@ -25,7 +25,7 @@ ms.locfileid: "33432196"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-从表单容器中删除特定的窗体。
+从表单容器中删除特定表单。
   
 ```cpp
 HRESULT RemoveForm(
@@ -37,17 +37,17 @@ HRESULT RemoveForm(
 
  _szMessageClass_
   
-> 实时一个字符串, 用于命名要从表单容器中删除的表单的邮件类。 邮件类名称始终为 ANSI 字符串, 决不能为 Unicode。
+> [in]一个字符串，用于命名要从表单容器中删除的窗体的邮件类。 邮件类名称始终是 ANSI 字符串，从不为 Unicode。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 MAPI_E_NOT_FOUND 
   
-> 在_szMessageClass_参数中传递的邮件类与表单容器中任何表单的邮件类都不匹配。 
+> _在 szMessageClass_ 参数中传递的邮件类与表单容器中任何窗体的邮件类不匹配。 
     
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -55,7 +55,7 @@ MAPI_E_NOT_FOUND
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|FormContainerDlg  <br/> |CFormContainerDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI 使用**IMAPIFormContainer:: RemoveForm**方法从窗体容器中删除窗体。  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg：：OnDeleteSelectedItem  <br/> |MFCMAPI 使用 **IMAPIFormContainer：：RemoveForm** 方法从表单容器中删除表单。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

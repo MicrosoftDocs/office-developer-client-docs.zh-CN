@@ -25,7 +25,7 @@ ms.locfileid: "33430446"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-将邮件存储区的内部条目标识符转换为 MAPI 标准格式的条目标识符。
+将邮件存储的内部条目标识符转换为 MAPI 标准格式的条目标识符。
   
 ```cpp
 HRESULT WrapStoreEntryID(
@@ -40,37 +40,37 @@ LPENTRYID FAR * lppWrappedEntry
 
  _cbOrigEntry_
   
-> 实时条目标识符中由_lpOrigEntry_参数指向的字节数。 
+> [in]  _lpOrigEntry_ 参数指向的条目标识符中的字节计数。 
     
  _lpOrigEntry_
   
-> 实时指向邮件存储区的专用条目标识符的指针。
+> [in]指向邮件存储的专用条目标识符的指针。
     
  _lpcbWrappedEntry_
   
-> 排除指向条目标识符中由_lppWrappedEntry_参数指向的字节计数的指针。 
+> [out]指向  _lppWrappedEntry_ 参数指向的条目标识符中的字节计数的指针。 
     
  _lppWrappedEntry_
   
-> 排除指向指向已包装条目标识符的指针的指针。
+> [out]指向指向封装条目标识符的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功包装条目标识符。
+> 条目标识符已成功包装。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPISupport:: WrapStoreEntryID**方法是为所有服务提供程序支持对象实现的。 服务提供程序使用**WrapStoreEntryID**让 MAPI 为封装了存储区内部项标识符的邮件存储区生成条目标识符。 
+**IMAPISupport：：WrapStoreEntryID** 方法针对所有服务提供程序支持对象实现。 服务提供商使用 **WrapStoreEntryID** 让 MAPI 为包装存储的内部条目标识符的邮件存储生成条目标识符。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-当客户端调用您的邮件存储区的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法以检索其**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) 属性, 并且您的邮件存储区使用专用格式的条目标识符时, 请调用**WrapStoreEntryID**并返回_lppWrappedEntry_参数指向的条目标识符。 
+当客户端调用邮件存储 [的 IMAPIProp：：GetProps](imapiprop-getprops.md) 方法检索其 **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) 属性时，如果邮件存储使用私有格式的条目标识符，请调用 **WrapStoreEntryID** 并返回  _lppWrappedEntry_ 参数指向的条目标识符。 
   
-对[IMSProvider:: Logon](imsprovider-logon.md)和[IMSLogon:: CompareEntryIDs](imslogon-compareentryids.md)方法的调用始终获取存储区的专用条目标识符;包装的版本仅在客户端应用程序和 MAPI 之间使用。 
+对 [IMSProvider：：Logon](imsprovider-logon.md) 和 [IMSLogon：：CompareEntryIDs](imslogon-compareentryids.md) 方法的调用始终获取存储的私有条目标识符;包装的版本仅在客户端应用程序和 MAPI 之间使用。 
   
-使用完条目标识符后, 使用[MAPIFreeBuffer](mapifreebuffer.md)函数释放_lppWrappedEntry_参数指向的条目标识符所对应的内存。 
+使用完条目标识符后，使用 [MAPIFreeBuffer](mapifreebuffer.md)函数释放 _lppWrappedEntry_ 参数指向的条目标识符的内存。 
   
 ## <a name="see-also"></a>另请参阅
 

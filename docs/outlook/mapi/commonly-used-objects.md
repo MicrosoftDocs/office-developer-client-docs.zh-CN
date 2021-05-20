@@ -21,35 +21,35 @@ ms.locfileid: "33429409"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-有关对象的信息记录在 Microsoft Outlook 2013 MAPI 参考的各个部分中。 由于几乎所有 MAPI 对象都公开单个 MAPI 接口, 因此方法是处理它们表现为同义词的对象和接口。
+有关对象的信息记录在 MAPI 参考Microsoft Outlook 2013部分中。 由于几乎所有 MAPI 对象都公开一个 MAPI 接口，因此方法是将对象及其公开接口视为同义接口。
   
 您可以在以下各节中找到有关对象和接口的信息。
   
 - [MAPI 接口](mapi-interfaces.md)
     
-    介绍了 Outlook 2013 MAPI 引用中的接口。 在本节中, 您可以找到有关如何在其标准接口 ( **IMAPIFolder**) 下实现和使用文件夹的信息。
+    介绍 2013 MAPI Outlook中的接口。 例如，在此部分中，你可以找到有关如何在标准接口 **IMAPIFolder** 下实现和使用文件夹的信息。
     
 - [MAPI 对象和接口概述](mapi-object-and-interface-overview.md)
     
-    引入了与 mapi 相关的组件对象模型, 介绍了 mapi 对象的层次结构和包容模型, 将对象映射到接口, 并介绍了实施责任。
+    介绍与 MAPI 相关的组件对象模型，介绍 MAPI 对象层次结构和包含模型，将对象映射到接口，并介绍实现责任。
     
 - [MAPI 属性概述](mapi-property-overview.md)
     
-    介绍如何使用对象管理和客户端处理属性。
+    描述对象管理和客户端如何使用属性。
     
 - [MAPI 表](mapi-tables.md)
     
-    详细介绍了如何实现和使用 table 对象, 并讨论了不同类型的表的组合和用途。
+    详细介绍了如何实现和使用表对象，并讨论了不同类型的表的构成和用途。
     
 - [MAPI 表单](mapi-forms.md)
     
-    介绍用于实现和使用窗体的各种对象。
+    介绍实现和使用表单的各种对象。
     
 - [MAPI 应用程序开发](mapi-application-development.md)
     
-    提供有关下列对象类型的信息:
+    提供有关以下类型的对象的信息：
     
-  - Forms
+  - 表单
     
   - 邮件
     
@@ -67,7 +67,7 @@ ms.locfileid: "33429409"
     
 - [MAPI 服务提供程序](mapi-service-providers.md)
     
-    介绍如何使用支持和进度对象以及如何实现 status 对象和显示表。
+    介绍如何使用支持和进度对象以及如何实现状态对象和显示表。
     
 - [开发 MAPI 通讯簿提供程序](developing-a-mapi-address-book-provider.md)
     
@@ -75,14 +75,14 @@ ms.locfileid: "33429409"
     
 - [开发 MAPI 传输提供程序](developing-a-mapi-transport-provider.md)
     
-    介绍如何实现传输登录和提供程序对象、status 对象、传输中性封装格式 (TNEF) 对象和文件夹。
+    介绍如何实现传输登录和提供程序对象、状态对象、传输中性封装格式 (TNEF) 对象和文件夹。
     
 - [开发 MAPI 邮件存储提供程序](developing-a-mapi-message-store-provider.md)
     
-    介绍如何实现邮件存储区登录和提供程序对象、邮件存储、文件夹、邮件、附件、收件人和相关表。
+    介绍如何实现邮件存储登录和提供程序对象、邮件存储、文件夹、邮件、附件、收件人和相关表。
     
 - [开发 MAPI 表单服务器](developing-mapi-form-servers.md)
     
-    介绍如何实现窗体对象。
+    介绍如何实现表单对象。
     
 

@@ -25,11 +25,11 @@ ms.locfileid: "33431118"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个表示货币值的已签名的64位整数。 
+包含一个代表货币值的有符号 64 位整数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct tagCY
@@ -42,19 +42,19 @@ typedef struct tagCY
 
 ## <a name="members"></a>Members
 
- **高低**
+ **Lo**
   
-> 货币值的低序位32位。 
+> 货币值的低顺序 32 位。 
     
  **你好**
   
-> 货币值的高序位32位。
+> 货币值的 32 位高顺序值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**货币**结构是十进制数的缩放整数表示形式, 小数点右边有四位数字。 例如, 存储的327500值将被解释为表示货币值32.7500。 
+**CURRENCY** 结构是小数位数的缩放整数表示形式，小数点右边有四位数字。 例如，存储值 327500 应解释为表示货币值 32.7500。 
   
-**货币**结构用于描述类型为 PT_CURRENCY 的属性。 有关属性类型的信息, 请参阅[MAPI 属性类型概述](mapi-property-type-overview.md)。
+**CURRENCY** 结构用于描述类型为 PT_CURRENCY。 有关属性类型的信息，请参阅 [MAPI 属性类型概述](mapi-property-type-overview.md)。
   
 ## <a name="see-also"></a>另请参阅
 

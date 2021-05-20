@@ -25,16 +25,16 @@ ms.locfileid: "33431468"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供用于登录到通讯簿提供程序对象的方法, 以及用于使通讯簿提供程序对象无效的方法。
+提供用于登录通讯簿提供程序对象的方法和使通讯簿提供程序对象失效的方法。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapispi  <br/> |
-|公开者:  <br/> |通讯簿提供程序对象  <br/> |
+|标头文件：  <br/> |Mapispi.h  <br/> |
+|公开者：  <br/> |通讯簿提供程序对象  <br/> |
 |实现者：  <br/> |通讯簿提供程序  <br/> |
 |调用者：  <br/> |MAPI  <br/> |
-|接口标识符:  <br/> |IID_IABProvider  <br/> |
-|指针类型:  <br/> |LPABPROVIDER  <br/> |
+|接口标识符：  <br/> |IID_IABProvider  <br/> |
+|指针类型：  <br/> |LPABPROVIDER  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 

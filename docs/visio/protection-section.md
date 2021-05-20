@@ -18,12 +18,12 @@ ms.locfileid: "33429395"
 ---
 # <a name="protection-section"></a>“Protection”内容
 
-显示使用 "**保护**" 命令 ("[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡) 设置的当前锁定设置, 以及只能在 ShapeSheet 窗口中设置的几个额外的锁定。 
+显示使用"开发工具"选项卡 ("保护"命令) 设置[](run-in-developer-mode-display-the-developer-tab.md)的当前锁定设置，以及一些只能在 ShapeSheet 窗口中设置的其他锁定。  
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 锁定有助于防止对形状的意外更改，但不能防止值在其他情况下被重置。它也不会防止在 ShapeSheet 窗口中进行更改。
   
-若要保护公式不被更改, 请使用**GUARD**函数。 
+若要防止更改公式，请使用 **GUARD** 函数。 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33428590"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-显示一个对话框, 使用户可以选择表单容器, 并为用户选定的容器对象返回一个接口。
+显示一个对话框，允许用户选择表单容器，并返回用户选择的容器对象的接口。
   
 ```cpp
 HRESULT SelectFormContainer(
@@ -39,37 +39,37 @@ HRESULT SelectFormContainer(
 
  _ulUIParam_
   
-> 实时显示的对话框的父窗口的句柄。 
+> [in]所显示对话框的父窗口的句柄。 
     
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制表单库的选择方式 (即, 如何选择表单容器)。 可以设置以下标志:
+> [in]一个标志位掩码，用于控制如何选择表单库 (即，如何选择表单容器) 。 可以设置以下标志：
     
 MAPIFORM_SELECT_ALL_REGISTRIES 
   
-> 可以从所有容器中进行选择。 这是默认选择类型。 
+> 可以从所有容器进行选择。 这是默认选择类型。 
     
 MAPIFORM_SELECT_FOLDER_REGISTRY_ONLY 
   
-> 只能从文件夹容器中进行选择。
+> 只能从文件夹容器进行选择。
     
 MAPIFORM_SELECT_NON_FOLDER_REGISTRY_ONLY 
   
-> 只能从与文件夹不关联的容器中进行选择。
+> 只能从未与文件夹关联的容器中进行选择。
     
  _lppfcnt_
   
-> 排除指向指向返回的接口的指针的指针。 此接口用于用户选择的容器对象。
+> [out]指向返回接口的指针的指针。 此接口用于用户选择的容器对象。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单查看器通常调用**IMAPIFormMgr:: SelectFormContainer**方法, 以选择要在其中安装表单的表单容器。 **SelectFormContainer**不能用于选择具有值 HFRMREG_LOCAL 的本地表单容器。 
+表单查看器通常调用 **IMAPIFormMgr：：SelectFormContainer** 方法来选择将表单安装到的表单容器。 **SelectFormContainer** 不能用于选择本地表单容器，该容器的值HFRMREG_LOCAL。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -77,7 +77,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg  <br/> |CMainDlg:: OnSelectFormContainer  <br/> |MFCMAPI 使用**IMAPIFormMgr:: SelectFormContainer**方法在呈现表单容器的内容之前选择该表单容器。  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg：：OnSelectFormContainer  <br/> |MFCMAPI 使用 **IMAPIFormMgr：：SelectFormContainer** 方法在呈现表单容器内容之前选择表单容器。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

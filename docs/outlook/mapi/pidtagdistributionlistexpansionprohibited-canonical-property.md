@@ -25,7 +25,7 @@ ms.locfileid: "33429143"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果禁止邮件传输代理 (MTA) 展开通讯组列表, 则该参数为 TRUE。
+如果禁止邮件传输代理 (MTA) 展开通讯组列表，则包含 TRUE。
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ ms.locfileid: "33429143"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 
