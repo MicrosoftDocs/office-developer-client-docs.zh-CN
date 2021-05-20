@@ -19,33 +19,33 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431468"
 ---
-# <a name="iabprovider--iunknown"></a><span data-ttu-id="9d4ea-103">IABProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9d4ea-103">IABProvider : IUnknown</span></span>
+# <a name="iabprovider--iunknown"></a><span data-ttu-id="12293-103">IABProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="12293-103">IABProvider : IUnknown</span></span>
 
   
   
-<span data-ttu-id="9d4ea-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9d4ea-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="12293-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="12293-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9d4ea-105">提供用于登录到通讯簿提供程序对象的方法, 以及用于使通讯簿提供程序对象无效的方法。</span><span class="sxs-lookup"><span data-stu-id="9d4ea-105">Provides a method to log on to an address book provider object and a method to invalidate an address book provider object.</span></span>
+<span data-ttu-id="12293-105">提供用于登录通讯簿提供程序对象的方法和使通讯簿提供程序对象失效的方法。</span><span class="sxs-lookup"><span data-stu-id="12293-105">Provides a method to log on to an address book provider object and a method to invalidate an address book provider object.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9d4ea-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="9d4ea-106">Header file:</span></span>  <br/> |<span data-ttu-id="9d4ea-107">Mapispi</span><span class="sxs-lookup"><span data-stu-id="9d4ea-107">Mapispi.h</span></span>  <br/> |
-|<span data-ttu-id="9d4ea-108">公开者:</span><span class="sxs-lookup"><span data-stu-id="9d4ea-108">Exposed by:</span></span>  <br/> |<span data-ttu-id="9d4ea-109">通讯簿提供程序对象</span><span class="sxs-lookup"><span data-stu-id="9d4ea-109">Address book provider objects</span></span>  <br/> |
-|<span data-ttu-id="9d4ea-110">实现者：</span><span class="sxs-lookup"><span data-stu-id="9d4ea-110">Implemented by:</span></span>  <br/> |<span data-ttu-id="9d4ea-111">通讯簿提供程序</span><span class="sxs-lookup"><span data-stu-id="9d4ea-111">Address book providers</span></span>  <br/> |
-|<span data-ttu-id="9d4ea-112">调用者：</span><span class="sxs-lookup"><span data-stu-id="9d4ea-112">Called by:</span></span>  <br/> |<span data-ttu-id="9d4ea-113">MAPI</span><span class="sxs-lookup"><span data-stu-id="9d4ea-113">MAPI</span></span>  <br/> |
-|<span data-ttu-id="9d4ea-114">接口标识符:</span><span class="sxs-lookup"><span data-stu-id="9d4ea-114">Interface identifier:</span></span>  <br/> |<span data-ttu-id="9d4ea-115">IID_IABProvider</span><span class="sxs-lookup"><span data-stu-id="9d4ea-115">IID_IABProvider</span></span>  <br/> |
-|<span data-ttu-id="9d4ea-116">指针类型:</span><span class="sxs-lookup"><span data-stu-id="9d4ea-116">Pointer type:</span></span>  <br/> |<span data-ttu-id="9d4ea-117">LPABPROVIDER</span><span class="sxs-lookup"><span data-stu-id="9d4ea-117">LPABPROVIDER</span></span>  <br/> |
+|<span data-ttu-id="12293-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="12293-106">Header file:</span></span>  <br/> |<span data-ttu-id="12293-107">Mapispi.h</span><span class="sxs-lookup"><span data-stu-id="12293-107">Mapispi.h</span></span>  <br/> |
+|<span data-ttu-id="12293-108">公开者：</span><span class="sxs-lookup"><span data-stu-id="12293-108">Exposed by:</span></span>  <br/> |<span data-ttu-id="12293-109">通讯簿提供程序对象</span><span class="sxs-lookup"><span data-stu-id="12293-109">Address book provider objects</span></span>  <br/> |
+|<span data-ttu-id="12293-110">实现者：</span><span class="sxs-lookup"><span data-stu-id="12293-110">Implemented by:</span></span>  <br/> |<span data-ttu-id="12293-111">通讯簿提供程序</span><span class="sxs-lookup"><span data-stu-id="12293-111">Address book providers</span></span>  <br/> |
+|<span data-ttu-id="12293-112">调用者：</span><span class="sxs-lookup"><span data-stu-id="12293-112">Called by:</span></span>  <br/> |<span data-ttu-id="12293-113">MAPI</span><span class="sxs-lookup"><span data-stu-id="12293-113">MAPI</span></span>  <br/> |
+|<span data-ttu-id="12293-114">接口标识符：</span><span class="sxs-lookup"><span data-stu-id="12293-114">Interface identifier:</span></span>  <br/> |<span data-ttu-id="12293-115">IID_IABProvider</span><span class="sxs-lookup"><span data-stu-id="12293-115">IID_IABProvider</span></span>  <br/> |
+|<span data-ttu-id="12293-116">指针类型：</span><span class="sxs-lookup"><span data-stu-id="12293-116">Pointer type:</span></span>  <br/> |<span data-ttu-id="12293-117">LPABPROVIDER</span><span class="sxs-lookup"><span data-stu-id="12293-117">LPABPROVIDER</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="9d4ea-118">Vtable 顺序</span><span class="sxs-lookup"><span data-stu-id="9d4ea-118">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="12293-118">Vtable 顺序</span><span class="sxs-lookup"><span data-stu-id="12293-118">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="9d4ea-119">登录</span><span class="sxs-lookup"><span data-stu-id="9d4ea-119">Logon</span></span>](iabprovider-logon.md) <br/> |<span data-ttu-id="9d4ea-120">建立与活动会话的连接。</span><span class="sxs-lookup"><span data-stu-id="9d4ea-120">Establishes a connection to an active session.</span></span>  <br/> |
-|[<span data-ttu-id="9d4ea-121">关闭</span><span class="sxs-lookup"><span data-stu-id="9d4ea-121">Shutdown</span></span>](iabprovider-shutdown.md) <br/> |<span data-ttu-id="9d4ea-122">取消与活动会话的连接。</span><span class="sxs-lookup"><span data-stu-id="9d4ea-122">Cancels a connection to an active session.</span></span>  <br/> |
+|[<span data-ttu-id="12293-119">登录</span><span class="sxs-lookup"><span data-stu-id="12293-119">Logon</span></span>](iabprovider-logon.md) <br/> |<span data-ttu-id="12293-120">建立与活动会话的连接。</span><span class="sxs-lookup"><span data-stu-id="12293-120">Establishes a connection to an active session.</span></span>  <br/> |
+|[<span data-ttu-id="12293-121">关闭</span><span class="sxs-lookup"><span data-stu-id="12293-121">Shutdown</span></span>](iabprovider-shutdown.md) <br/> |<span data-ttu-id="12293-122">取消与活动会话的连接。</span><span class="sxs-lookup"><span data-stu-id="12293-122">Cancels a connection to an active session.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="9d4ea-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9d4ea-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="12293-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="12293-123">See also</span></span>
 
 
 
-[<span data-ttu-id="9d4ea-124">MAPI 接口</span><span class="sxs-lookup"><span data-stu-id="9d4ea-124">MAPI Interfaces</span></span>](mapi-interfaces.md)
+[<span data-ttu-id="12293-124">MAPI 接口</span><span class="sxs-lookup"><span data-stu-id="12293-124">MAPI Interfaces</span></span>](mapi-interfaces.md)
 

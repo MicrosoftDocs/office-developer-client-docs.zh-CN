@@ -16,20 +16,20 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431405"
 ---
-# <a name="listsep-function"></a><span data-ttu-id="24edc-103">LISTSEP 函数</span><span class="sxs-lookup"><span data-stu-id="24edc-103">LISTSEP Function</span></span>
+# <a name="listsep-function"></a><span data-ttu-id="a69fa-103">LISTSEP 函数</span><span class="sxs-lookup"><span data-stu-id="a69fa-103">LISTSEP Function</span></span>
 
-<span data-ttu-id="24edc-104">返回当前用户区域设置的列表分隔符字符串。</span><span class="sxs-lookup"><span data-stu-id="24edc-104">Returns the list-separator string for the current user locale.</span></span>
+<span data-ttu-id="a69fa-104">返回当前用户区域设置的列表分隔符字符串。</span><span class="sxs-lookup"><span data-stu-id="a69fa-104">Returns the list-separator string for the current user locale.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="24edc-105">语法</span><span class="sxs-lookup"><span data-stu-id="24edc-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a69fa-105">语法</span><span class="sxs-lookup"><span data-stu-id="a69fa-105">Syntax</span></span>
 
-<span data-ttu-id="24edc-106">LISTSEP ()</span><span class="sxs-lookup"><span data-stu-id="24edc-106">LISTSEP ()</span></span>
+<span data-ttu-id="a69fa-106">LISTSEP ()</span><span class="sxs-lookup"><span data-stu-id="a69fa-106">LISTSEP ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="24edc-107">返回值</span><span class="sxs-lookup"><span data-stu-id="24edc-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="a69fa-107">返回值</span><span class="sxs-lookup"><span data-stu-id="a69fa-107">Return value</span></span>
 
-<span data-ttu-id="24edc-108">字符串</span><span class="sxs-lookup"><span data-stu-id="24edc-108">String</span></span>
+<span data-ttu-id="a69fa-108">字符串</span><span class="sxs-lookup"><span data-stu-id="a69fa-108">String</span></span>
   
-## <a name="example"></a><span data-ttu-id="24edc-109">示例</span><span class="sxs-lookup"><span data-stu-id="24edc-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a69fa-109">示例</span><span class="sxs-lookup"><span data-stu-id="a69fa-109">Example</span></span>
 
-<span data-ttu-id="24edc-110">SETF (GETREF ()、"MAX (Width" &amp; ListSep () &amp; "Height)")</span><span class="sxs-lookup"><span data-stu-id="24edc-110">SETF(GETREF(user.extent), "MAX(Width" &amp; ListSep() &amp; "Height)")</span></span> 
+<span data-ttu-id="a69fa-110">SETF (GETREF (user.extent) ， "MAX (Width" &amp; ListSep () &amp; "Height) ") </span><span class="sxs-lookup"><span data-stu-id="a69fa-110">SETF(GETREF(user.extent), "MAX(Width" &amp; ListSep() &amp; "Height)")</span></span> 
   
 

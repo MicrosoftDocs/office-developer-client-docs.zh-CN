@@ -19,19 +19,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428457"
 ---
-# <a name="fbadsortorderset"></a><span data-ttu-id="f4b95-103">FBadSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="f4b95-103">FBadSortOrderSet</span></span>
+# <a name="fbadsortorderset"></a><span data-ttu-id="a89dd-103">FBadSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="a89dd-103">FBadSortOrderSet</span></span>
 
   
   
-<span data-ttu-id="f4b95-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f4b95-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a89dd-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a89dd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f4b95-105">验证是否通过验证其内存分配来设置排序顺序。</span><span class="sxs-lookup"><span data-stu-id="f4b95-105">Validates a sort order set by verifying its memory allocation.</span></span> 
+<span data-ttu-id="a89dd-105">通过验证排序顺序集的内存分配来验证其排序顺序。</span><span class="sxs-lookup"><span data-stu-id="a89dd-105">Validates a sort order set by verifying its memory allocation.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f4b95-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="f4b95-106">Header file:</span></span>  <br/> |<span data-ttu-id="f4b95-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="f4b95-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="f4b95-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="f4b95-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="f4b95-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="f4b95-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="f4b95-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="f4b95-110">Called by:</span></span>  <br/> |<span data-ttu-id="f4b95-111">服务提供程序</span><span class="sxs-lookup"><span data-stu-id="f4b95-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="a89dd-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="a89dd-106">Header file:</span></span>  <br/> |<span data-ttu-id="a89dd-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="a89dd-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="a89dd-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="a89dd-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="a89dd-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="a89dd-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="a89dd-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="a89dd-110">Called by:</span></span>  <br/> |<span data-ttu-id="a89dd-111">服务提供程序</span><span class="sxs-lookup"><span data-stu-id="a89dd-111">Service providers</span></span>  <br/> |
    
 ```cpp
 ULONG FBadSortOrderSet(
@@ -39,24 +39,24 @@ ULONG FBadSortOrderSet(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f4b95-112">参数</span><span class="sxs-lookup"><span data-stu-id="f4b95-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a89dd-112">参数</span><span class="sxs-lookup"><span data-stu-id="a89dd-112">Parameters</span></span>
 
- <span data-ttu-id="f4b95-113">_lpsos_</span><span class="sxs-lookup"><span data-stu-id="f4b95-113">_lpsos_</span></span>
+ <span data-ttu-id="a89dd-113">_lpsos_</span><span class="sxs-lookup"><span data-stu-id="a89dd-113">_lpsos_</span></span>
   
-> <span data-ttu-id="f4b95-114">实时指向标识排序顺序设置为要验证的[SSortOrderSet](ssortorderset.md)结构的指针。</span><span class="sxs-lookup"><span data-stu-id="f4b95-114">[in] Pointer to an [SSortOrderSet](ssortorderset.md) structure identifying the sort order set to be validated.</span></span> 
+> <span data-ttu-id="a89dd-114">[in]指向标识要验证的排序顺序设置的 [SSortOrderSet](ssortorderset.md) 结构的指针。</span><span class="sxs-lookup"><span data-stu-id="a89dd-114">[in] Pointer to an [SSortOrderSet](ssortorderset.md) structure identifying the sort order set to be validated.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="f4b95-115">返回值</span><span class="sxs-lookup"><span data-stu-id="f4b95-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a89dd-115">返回值</span><span class="sxs-lookup"><span data-stu-id="a89dd-115">Return value</span></span>
 
-<span data-ttu-id="f4b95-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="f4b95-116">TRUE</span></span> 
+<span data-ttu-id="a89dd-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="a89dd-116">TRUE</span></span> 
   
-> <span data-ttu-id="f4b95-117">指定的排序次序设置无效。</span><span class="sxs-lookup"><span data-stu-id="f4b95-117">The specified sort order set is invalid.</span></span> 
+> <span data-ttu-id="a89dd-117">指定的排序顺序集无效。</span><span class="sxs-lookup"><span data-stu-id="a89dd-117">The specified sort order set is invalid.</span></span> 
     
-<span data-ttu-id="f4b95-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="f4b95-118">FALSE</span></span> 
+<span data-ttu-id="a89dd-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="a89dd-118">FALSE</span></span> 
   
-> <span data-ttu-id="f4b95-119">指定的排序次序设置有效。</span><span class="sxs-lookup"><span data-stu-id="f4b95-119">The specified sort order set is valid.</span></span>
+> <span data-ttu-id="a89dd-119">指定的排序顺序集有效。</span><span class="sxs-lookup"><span data-stu-id="a89dd-119">The specified sort order set is valid.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="f4b95-120">说明</span><span class="sxs-lookup"><span data-stu-id="f4b95-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a89dd-120">备注</span><span class="sxs-lookup"><span data-stu-id="a89dd-120">Remarks</span></span>
 
-<span data-ttu-id="f4b95-121">**FBadSortOrderSet**函数可用于准备对[IMAPITable:: SortTable](imapitable-sorttable.md)方法等 sort 方法的调用。</span><span class="sxs-lookup"><span data-stu-id="f4b95-121">The **FBadSortOrderSet** function can be used to prepare for a call to a sort method such as the [IMAPITable::SortTable](imapitable-sorttable.md) method.</span></span> 
+<span data-ttu-id="a89dd-121">**FBadSortOrderSet** 函数可用于准备对排序方法（如 [IMAPITable：：SortTable](imapitable-sorttable.md)方法）的调用。</span><span class="sxs-lookup"><span data-stu-id="a89dd-121">The **FBadSortOrderSet** function can be used to prepare for a call to a sort method such as the [IMAPITable::SortTable](imapitable-sorttable.md) method.</span></span> 
   
 

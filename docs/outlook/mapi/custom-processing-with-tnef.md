@@ -15,10 +15,10 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430845"
 ---
-# <a name="custom-processing-with-tnef"></a><span data-ttu-id="6844c-103">使用 TNEF 进行自定义处理</span><span class="sxs-lookup"><span data-stu-id="6844c-103">Custom processing with TNEF</span></span>
+# <a name="custom-processing-with-tnef"></a><span data-ttu-id="ad677-103">使用 TNEF 进行自定义处理</span><span class="sxs-lookup"><span data-stu-id="ad677-103">Custom processing with TNEF</span></span>
 
-<span data-ttu-id="6844c-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6844c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ad677-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ad677-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6844c-105">传输提供程序可以使用自定义处理本身处理附件本身的属性, 单独传输附件, 或通过邮件系统的附件模型传送附件。</span><span class="sxs-lookup"><span data-stu-id="6844c-105">Transport providers can use custom processing to process the properties on an attachment itself, transmit attachments separately, or transmit them through the messaging system's attachment model.</span></span> <span data-ttu-id="6844c-106">TNEF 使用一种机制, 使传输提供商能够从邮件中发送附件, 并将其重新连接到接收端。</span><span class="sxs-lookup"><span data-stu-id="6844c-106">TNEF uses a mechanism that enables the transport provider to send the attachments apart from the message and reconnect them on the receiving side.</span></span>
+<span data-ttu-id="ad677-105">传输提供程序可以使用自定义处理处理附件本身的属性，单独传输附件，或者通过邮件系统的附件模型传输附件。</span><span class="sxs-lookup"><span data-stu-id="ad677-105">Transport providers can use custom processing to process the properties on an attachment itself, transmit attachments separately, or transmit them through the messaging system's attachment model.</span></span> <span data-ttu-id="ad677-106">TNEF 使用一种机制，使传输提供程序能够将附件与邮件分开发送，并将其重新连接到接收端。</span><span class="sxs-lookup"><span data-stu-id="ad677-106">TNEF uses a mechanism that enables the transport provider to send the attachments apart from the message and reconnect them on the receiving side.</span></span>
   
 

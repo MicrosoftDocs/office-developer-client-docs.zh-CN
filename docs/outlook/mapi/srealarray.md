@@ -19,17 +19,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429871"
 ---
-# <a name="srealarray"></a><span data-ttu-id="40940-103">SRealArray</span><span class="sxs-lookup"><span data-stu-id="40940-103">SRealArray</span></span>
+# <a name="srealarray"></a><span data-ttu-id="b3784-103">SRealArray</span><span class="sxs-lookup"><span data-stu-id="b3784-103">SRealArray</span></span>
 
   
   
-<span data-ttu-id="40940-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="40940-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b3784-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b3784-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="40940-105">包含用于描述类型为 PT_MV_R4 的属性的 float 值数组。</span><span class="sxs-lookup"><span data-stu-id="40940-105">Contains an array of float values that are used to describe a property of type PT_MV_R4.</span></span> 
+<span data-ttu-id="b3784-105">包含一组浮点值，用于描述类型为 PT_MV_R4。</span><span class="sxs-lookup"><span data-stu-id="b3784-105">Contains an array of float values that are used to describe a property of type PT_MV_R4.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="40940-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="40940-106">Header file:</span></span>  <br/> |<span data-ttu-id="40940-107">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="40940-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="b3784-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="b3784-106">Header file:</span></span>  <br/> |<span data-ttu-id="b3784-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b3784-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SRealArray
@@ -40,26 +40,26 @@ typedef struct _SRealArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="40940-108">Members</span><span class="sxs-lookup"><span data-stu-id="40940-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="b3784-108">Members</span><span class="sxs-lookup"><span data-stu-id="b3784-108">Members</span></span>
 
- <span data-ttu-id="40940-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="40940-109">**cValues**</span></span>
+ <span data-ttu-id="b3784-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="b3784-109">**cValues**</span></span>
   
-> <span data-ttu-id="40940-110">由**lpflt**成员指向的数组中的值的计数。</span><span class="sxs-lookup"><span data-stu-id="40940-110">Count of values in the array pointed to by the **lpflt** member.</span></span> 
+> <span data-ttu-id="b3784-110">**lpflt** 成员指向的数组中的值计数。</span><span class="sxs-lookup"><span data-stu-id="b3784-110">Count of values in the array pointed to by the **lpflt** member.</span></span> 
     
- <span data-ttu-id="40940-111">**lpflt**</span><span class="sxs-lookup"><span data-stu-id="40940-111">**lpflt**</span></span>
+ <span data-ttu-id="b3784-111">**lpflt**</span><span class="sxs-lookup"><span data-stu-id="b3784-111">**lpflt**</span></span>
   
-> <span data-ttu-id="40940-112">指向 float 值数组的指针。</span><span class="sxs-lookup"><span data-stu-id="40940-112">Pointer to an array of float values.</span></span>
+> <span data-ttu-id="b3784-112">指向浮点值的数组的指针。</span><span class="sxs-lookup"><span data-stu-id="b3784-112">Pointer to an array of float values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="40940-113">说明</span><span class="sxs-lookup"><span data-stu-id="40940-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b3784-113">备注</span><span class="sxs-lookup"><span data-stu-id="b3784-113">Remarks</span></span>
 
-<span data-ttu-id="40940-114">有关 PT_MV_R4 属性类型的详细信息, 请参阅[属性类型](property-types.md)。</span><span class="sxs-lookup"><span data-stu-id="40940-114">For more information about the PT_MV_R4 property type, see [Property Types](property-types.md).</span></span>
+<span data-ttu-id="b3784-114">有关属性类型PT_MV_R4，请参阅属性 [类型](property-types.md)。</span><span class="sxs-lookup"><span data-stu-id="b3784-114">For more information about the PT_MV_R4 property type, see [Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="40940-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="40940-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b3784-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b3784-115">See also</span></span>
 
 
 
-[<span data-ttu-id="40940-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="40940-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="b3784-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="b3784-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="40940-117">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="40940-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="b3784-117">MAPI 结构</span><span class="sxs-lookup"><span data-stu-id="b3784-117">MAPI Structures</span></span>](mapi-structures.md)
 

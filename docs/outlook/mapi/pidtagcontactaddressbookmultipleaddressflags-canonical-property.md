@@ -19,46 +19,46 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429248"
 ---
-# <a name="pidtagcontactaddressbookmultipleaddressflags-canonical-property"></a><span data-ttu-id="29d59-103">PidTagContactAddressBookMultipleAddressFlags 规范属性</span><span class="sxs-lookup"><span data-stu-id="29d59-103">PidTagContactAddressBookMultipleAddressFlags Canonical Property</span></span>
+# <a name="pidtagcontactaddressbookmultipleaddressflags-canonical-property"></a><span data-ttu-id="e1f3e-103">PidTagContactAddressBookMultipleAddressFlags 规范属性</span><span class="sxs-lookup"><span data-stu-id="e1f3e-103">PidTagContactAddressBookMultipleAddressFlags Canonical Property</span></span>
 
   
   
-<span data-ttu-id="29d59-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="29d59-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e1f3e-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e1f3e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="29d59-105">包含指示提供程序是否将支持每个联系人项目的多个电子邮件地址的标志。</span><span class="sxs-lookup"><span data-stu-id="29d59-105">Contains flags that indicating whether the providers will support multiple email addresses per contact item.</span></span>
+<span data-ttu-id="e1f3e-105">包含指示提供程序是否支持每个联系人项目的多个电子邮件地址的标志。</span><span class="sxs-lookup"><span data-stu-id="e1f3e-105">Contains flags that indicating whether the providers will support multiple email addresses per contact item.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="29d59-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="29d59-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="29d59-107">PR_CONTAB_MULTI_ADDR_FLAGS</span><span class="sxs-lookup"><span data-stu-id="29d59-107">PR_CONTAB_MULTI_ADDR_FLAGS</span></span>  <br/> |
-|<span data-ttu-id="29d59-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="29d59-108">Identifier:</span></span>  <br/> |<span data-ttu-id="29d59-109">0x6625</span><span class="sxs-lookup"><span data-stu-id="29d59-109">0x6625</span></span>  <br/> |
-|<span data-ttu-id="29d59-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="29d59-110">Data type:</span></span>  <br/> |<span data-ttu-id="29d59-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="29d59-111">PT_MV_LONG</span></span>  <br/> |
-|<span data-ttu-id="29d59-112">区域：</span><span class="sxs-lookup"><span data-stu-id="29d59-112">Area:</span></span>  <br/> |<span data-ttu-id="29d59-113">联系人通讯簿</span><span class="sxs-lookup"><span data-stu-id="29d59-113">Contact address book</span></span>  <br/> |
+|<span data-ttu-id="e1f3e-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="e1f3e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e1f3e-107">PR_CONTAB_MULTI_ADDR_FLAGS</span><span class="sxs-lookup"><span data-stu-id="e1f3e-107">PR_CONTAB_MULTI_ADDR_FLAGS</span></span>  <br/> |
+|<span data-ttu-id="e1f3e-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="e1f3e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="e1f3e-109">0x6625</span><span class="sxs-lookup"><span data-stu-id="e1f3e-109">0x6625</span></span>  <br/> |
+|<span data-ttu-id="e1f3e-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="e1f3e-110">Data type:</span></span>  <br/> |<span data-ttu-id="e1f3e-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="e1f3e-111">PT_MV_LONG</span></span>  <br/> |
+|<span data-ttu-id="e1f3e-112">区域：</span><span class="sxs-lookup"><span data-stu-id="e1f3e-112">Area:</span></span>  <br/> |<span data-ttu-id="e1f3e-113">联系人通讯簿</span><span class="sxs-lookup"><span data-stu-id="e1f3e-113">Contact address book</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="29d59-114">说明</span><span class="sxs-lookup"><span data-stu-id="29d59-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e1f3e-114">备注</span><span class="sxs-lookup"><span data-stu-id="e1f3e-114">Remarks</span></span>
 
-<span data-ttu-id="29d59-115">如果此属性中的标志为 TRUE, 则提供程序将不包含没有电子邮件地址的联系人。</span><span class="sxs-lookup"><span data-stu-id="29d59-115">If the flags in this property are TRUE, the provider does not include contacts without email addresses.</span></span> <span data-ttu-id="29d59-116">只有主电子邮件地址将生效。</span><span class="sxs-lookup"><span data-stu-id="29d59-116">Only the primary email address will be honored.</span></span> <span data-ttu-id="29d59-117">这是联系人通讯簿配置文件部分的属性。</span><span class="sxs-lookup"><span data-stu-id="29d59-117">This is a property on a Contact Address Book profile section.</span></span>
+<span data-ttu-id="e1f3e-115">如果此属性中的标志为 TRUE，则提供程序不包括没有电子邮件地址的联系人。</span><span class="sxs-lookup"><span data-stu-id="e1f3e-115">If the flags in this property are TRUE, the provider does not include contacts without email addresses.</span></span> <span data-ttu-id="e1f3e-116">将仅接收主电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="e1f3e-116">Only the primary email address will be honored.</span></span> <span data-ttu-id="e1f3e-117">这是联系人通讯簿配置文件部分的属性。</span><span class="sxs-lookup"><span data-stu-id="e1f3e-117">This is a property on a Contact Address Book profile section.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="29d59-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="29d59-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="e1f3e-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="e1f3e-118">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="29d59-119">头文件</span><span class="sxs-lookup"><span data-stu-id="29d59-119">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="e1f3e-119">头文件</span><span class="sxs-lookup"><span data-stu-id="e1f3e-119">Header files</span></span>
 
-<span data-ttu-id="29d59-120">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="29d59-120">Mapidefs.h</span></span>
+<span data-ttu-id="e1f3e-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e1f3e-120">Mapidefs.h</span></span>
   
-> <span data-ttu-id="29d59-121">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="29d59-121">Provides data type definitions.</span></span>
+> <span data-ttu-id="e1f3e-121">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="e1f3e-121">Provides data type definitions.</span></span>
     
-<span data-ttu-id="29d59-122">Mapitags</span><span class="sxs-lookup"><span data-stu-id="29d59-122">Mapitags.h</span></span>
+<span data-ttu-id="e1f3e-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="e1f3e-122">Mapitags.h</span></span>
   
-> <span data-ttu-id="29d59-123">包含列为关联属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="29d59-123">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="e1f3e-123">包含作为关联属性列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="e1f3e-123">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="29d59-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="29d59-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e1f3e-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e1f3e-124">See also</span></span>
 
 
 
-[<span data-ttu-id="29d59-125">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="29d59-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="e1f3e-125">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="e1f3e-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="29d59-126">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="29d59-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="e1f3e-126">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="e1f3e-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="29d59-127">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="29d59-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="e1f3e-127">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="e1f3e-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="29d59-128">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="29d59-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="e1f3e-128">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="e1f3e-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

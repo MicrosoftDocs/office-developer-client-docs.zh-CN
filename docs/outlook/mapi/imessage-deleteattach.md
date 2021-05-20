@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430705"
 ---
-# <a name="imessagedeleteattach"></a><span data-ttu-id="061f1-103">IMessage::DeleteAttach</span><span class="sxs-lookup"><span data-stu-id="061f1-103">IMessage::DeleteAttach</span></span>
+# <a name="imessagedeleteattach"></a><span data-ttu-id="e8487-103">IMessage::DeleteAttach</span><span class="sxs-lookup"><span data-stu-id="e8487-103">IMessage::DeleteAttach</span></span>
 
   
   
-<span data-ttu-id="061f1-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="061f1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e8487-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e8487-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="061f1-105">删除附件。</span><span class="sxs-lookup"><span data-stu-id="061f1-105">Deletes an attachment.</span></span>
+<span data-ttu-id="e8487-105">删除附件。</span><span class="sxs-lookup"><span data-stu-id="e8487-105">Deletes an attachment.</span></span>
   
 ```cpp
 HRESULT DeleteAttach(
@@ -36,62 +36,62 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="061f1-106">参数</span><span class="sxs-lookup"><span data-stu-id="061f1-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e8487-106">参数</span><span class="sxs-lookup"><span data-stu-id="e8487-106">Parameters</span></span>
 
- <span data-ttu-id="061f1-107">_ulAttachmentNum_</span><span class="sxs-lookup"><span data-stu-id="061f1-107">_ulAttachmentNum_</span></span>
+ <span data-ttu-id="e8487-107">_ulAttachmentNum_</span><span class="sxs-lookup"><span data-stu-id="e8487-107">_ulAttachmentNum_</span></span>
   
-> <span data-ttu-id="061f1-108">实时要删除的附件的索引号。</span><span class="sxs-lookup"><span data-stu-id="061f1-108">[in] Index number of the attachment to delete.</span></span> <span data-ttu-id="061f1-109">这是附件的**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性的值。</span><span class="sxs-lookup"><span data-stu-id="061f1-109">This is the value for the attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.</span></span>
+> <span data-ttu-id="e8487-108">[in]要删除的附件的索引号。</span><span class="sxs-lookup"><span data-stu-id="e8487-108">[in] Index number of the attachment to delete.</span></span> <span data-ttu-id="e8487-109">这是[PidTagAttachNumber](pidtagattachnumber-canonical-property.md) PR_ATTACH_NUM (附件) 的值。 </span><span class="sxs-lookup"><span data-stu-id="e8487-109">This is the value for the attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.</span></span>
     
- <span data-ttu-id="061f1-110">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="061f1-110">_ulUIParam_</span></span>
+ <span data-ttu-id="e8487-110">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="e8487-110">_ulUIParam_</span></span>
   
-> <span data-ttu-id="061f1-111">实时此方法显示的任何对话框或窗口的父窗口的句柄。</span><span class="sxs-lookup"><span data-stu-id="061f1-111">[in] Handle to the parent window of any dialog boxes or windows this method displays.</span></span> <span data-ttu-id="061f1-112">除非在_ulFlags_参数中设置了 ATTACH_DIALOG 标志, 否则将忽略_ulUIParam_参数。</span><span class="sxs-lookup"><span data-stu-id="061f1-112">The  _ulUIParam_ parameter is ignored unless the ATTACH_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
+> <span data-ttu-id="e8487-111">[in]该方法显示的任何对话框或窗口的父窗口的句柄。</span><span class="sxs-lookup"><span data-stu-id="e8487-111">[in] Handle to the parent window of any dialog boxes or windows this method displays.</span></span> <span data-ttu-id="e8487-112">除非  _在 ulFlags_ 参数中设置了 ATTACH_DIALOG 标志，否则将忽略  _ulUIParam_ 参数。</span><span class="sxs-lookup"><span data-stu-id="e8487-112">The  _ulUIParam_ parameter is ignored unless the ATTACH_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
     
- <span data-ttu-id="061f1-113">_lpProgress_</span><span class="sxs-lookup"><span data-stu-id="061f1-113">_lpProgress_</span></span>
+ <span data-ttu-id="e8487-113">_lpProgress_</span><span class="sxs-lookup"><span data-stu-id="e8487-113">_lpProgress_</span></span>
   
-> <span data-ttu-id="061f1-114">实时指向显示进度指示器的进度对象的指针。</span><span class="sxs-lookup"><span data-stu-id="061f1-114">[in] Pointer to a progress object that displays a progress indicator.</span></span> <span data-ttu-id="061f1-115">如果在_lpProgress_中传递 NULL, 则邮件存储提供程序将使用 MAPI 进度对象实现显示进度指示器。</span><span class="sxs-lookup"><span data-stu-id="061f1-115">If NULL is passed in  _lpProgress_, the message store provider displays a progress indicator using the MAPI progress object implementation.</span></span> <span data-ttu-id="061f1-116">除非在_ulFlags_中设置了 ATTACH_DIALOG 标志, 否则_lpProgress_参数将被忽略。</span><span class="sxs-lookup"><span data-stu-id="061f1-116">The  _lpProgress_ parameter is ignored unless the ATTACH_DIALOG flag is set in  _ulFlags_.</span></span>
+> <span data-ttu-id="e8487-114">[in]指向显示进度指示器的进度对象的指针。</span><span class="sxs-lookup"><span data-stu-id="e8487-114">[in] Pointer to a progress object that displays a progress indicator.</span></span> <span data-ttu-id="e8487-115">如果在  _lpProgress_ 中传递 NULL，则邮件存储提供程序使用 MAPI 进度对象实现显示进度指示器。</span><span class="sxs-lookup"><span data-stu-id="e8487-115">If NULL is passed in  _lpProgress_, the message store provider displays a progress indicator using the MAPI progress object implementation.</span></span> <span data-ttu-id="e8487-116">除非在 _ulFlags_ 中设置了 ATTACH_DIALOG 标志，否则将忽略 _lpProgress_ 参数。</span><span class="sxs-lookup"><span data-stu-id="e8487-116">The  _lpProgress_ parameter is ignored unless the ATTACH_DIALOG flag is set in  _ulFlags_.</span></span>
     
- <span data-ttu-id="061f1-117">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="061f1-117">_ulFlags_</span></span>
+ <span data-ttu-id="e8487-117">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="e8487-117">_ulFlags_</span></span>
   
-> <span data-ttu-id="061f1-118">实时用于控制用户界面显示的标志的位掩码。</span><span class="sxs-lookup"><span data-stu-id="061f1-118">[in] Bitmask of flags that controls the display of a user interface.</span></span> <span data-ttu-id="061f1-119">可以设置以下标志:</span><span class="sxs-lookup"><span data-stu-id="061f1-119">The following flag can be set:</span></span>
+> <span data-ttu-id="e8487-118">[in]控制用户界面显示的标志的位掩码。</span><span class="sxs-lookup"><span data-stu-id="e8487-118">[in] Bitmask of flags that controls the display of a user interface.</span></span> <span data-ttu-id="e8487-119">可以设置以下标志：</span><span class="sxs-lookup"><span data-stu-id="e8487-119">The following flag can be set:</span></span>
     
-<span data-ttu-id="061f1-120">ATTACH_DIALOG</span><span class="sxs-lookup"><span data-stu-id="061f1-120">ATTACH_DIALOG</span></span> 
+<span data-ttu-id="e8487-120">ATTACH_DIALOG</span><span class="sxs-lookup"><span data-stu-id="e8487-120">ATTACH_DIALOG</span></span> 
   
-> <span data-ttu-id="061f1-121">在操作进行过程中请求显示进度指示器。</span><span class="sxs-lookup"><span data-stu-id="061f1-121">Requests the display of a progress indicator as the operation proceeds.</span></span>
+> <span data-ttu-id="e8487-121">请求在操作继续时显示进度指示器。</span><span class="sxs-lookup"><span data-stu-id="e8487-121">Requests the display of a progress indicator as the operation proceeds.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="061f1-122">返回值</span><span class="sxs-lookup"><span data-stu-id="061f1-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e8487-122">返回值</span><span class="sxs-lookup"><span data-stu-id="e8487-122">Return value</span></span>
 
-<span data-ttu-id="061f1-123">S_OK</span><span class="sxs-lookup"><span data-stu-id="061f1-123">S_OK</span></span> 
+<span data-ttu-id="e8487-123">S_OK</span><span class="sxs-lookup"><span data-stu-id="e8487-123">S_OK</span></span> 
   
-> <span data-ttu-id="061f1-124">已成功删除附件。</span><span class="sxs-lookup"><span data-stu-id="061f1-124">The attachment was successfully deleted.</span></span>
+> <span data-ttu-id="e8487-124">附件已成功删除。</span><span class="sxs-lookup"><span data-stu-id="e8487-124">The attachment was successfully deleted.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="061f1-125">说明</span><span class="sxs-lookup"><span data-stu-id="061f1-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e8487-125">备注</span><span class="sxs-lookup"><span data-stu-id="e8487-125">Remarks</span></span>
 
-<span data-ttu-id="061f1-126">**IMessage::D eleteattach**方法可从邮件中删除附件。</span><span class="sxs-lookup"><span data-stu-id="061f1-126">The **IMessage::DeleteAttach** method deletes an attachment from within a message.</span></span> 
+<span data-ttu-id="e8487-126">**IMessage：:D eleteAttach** 方法从邮件中删除附件。</span><span class="sxs-lookup"><span data-stu-id="e8487-126">The **IMessage::DeleteAttach** method deletes an attachment from within a message.</span></span> 
   
-<span data-ttu-id="061f1-127">在调用邮件的[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法之前, 不会永久删除已删除的附件。</span><span class="sxs-lookup"><span data-stu-id="061f1-127">A deleted attachment is not permanently deleted until the message's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method has been called.</span></span> 
+<span data-ttu-id="e8487-127">在调用邮件的 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法之前，不会永久删除已删除的附件。</span><span class="sxs-lookup"><span data-stu-id="e8487-127">A deleted attachment is not permanently deleted until the message's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method has been called.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="061f1-128">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="061f1-128">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="e8487-128">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="e8487-128">Notes to callers</span></span>
 
-<span data-ttu-id="061f1-129">在调用**DeleteAttach**之前, 请先调用附件及其每个流的**IUnknown:: Release**方法。</span><span class="sxs-lookup"><span data-stu-id="061f1-129">Before calling **DeleteAttach**, call the **IUnknown::Release** method for the attachment and each of its streams.</span></span> 
+<span data-ttu-id="e8487-129">在调用 **DeleteAttach** 之前，请为附件及其每个流调用 **IUnknown：：Release** 方法。</span><span class="sxs-lookup"><span data-stu-id="e8487-129">Before calling **DeleteAttach**, call the **IUnknown::Release** method for the attachment and each of its streams.</span></span> 
   
-<span data-ttu-id="061f1-130">由于删除附件可能是一个漫长的过程, 因此**DeleteAttach**提供了显示进度指示器的机制。</span><span class="sxs-lookup"><span data-stu-id="061f1-130">Because deleting an attachment can be a lengthy process, **DeleteAttach** provides the mechanism that displays a progress indicator.</span></span> <span data-ttu-id="061f1-131">您可以通过以下方式请求显示进度指示器: 将指针传递给您的[IMAPIProgress: IUnknown](imapiprogressiunknown.md)实现; 如果没有实现, 则为 NULL。</span><span class="sxs-lookup"><span data-stu-id="061f1-131">You can request the display of a progress indicator by passing a pointer to your [IMAPIProgress : IUnknown](imapiprogressiunknown.md) implementation or NULL if you do not have an implementation.</span></span> <span data-ttu-id="061f1-132">您还必须在_ulUIParam_参数中指定窗口句柄, 并在_ulFlags_参数中指定 ATTACH_DIALOG 标志。</span><span class="sxs-lookup"><span data-stu-id="061f1-132">You must also specify a window handle in the  _ulUIParam_ parameter and the ATTACH_DIALOG flag in the  _ulFlags_ parameter.</span></span> 
+<span data-ttu-id="e8487-130">由于删除附件的过程可能很长， **因此 DeleteAttach** 提供了显示进度指示器的机制。</span><span class="sxs-lookup"><span data-stu-id="e8487-130">Because deleting an attachment can be a lengthy process, **DeleteAttach** provides the mechanism that displays a progress indicator.</span></span> <span data-ttu-id="e8487-131">可以通过将指针传递给 [IMAPIProgress ：IUnknown](imapiprogressiunknown.md) 实现或 NULL（如果你没有实现）来请求显示进度指示器。</span><span class="sxs-lookup"><span data-stu-id="e8487-131">You can request the display of a progress indicator by passing a pointer to your [IMAPIProgress : IUnknown](imapiprogressiunknown.md) implementation or NULL if you do not have an implementation.</span></span> <span data-ttu-id="e8487-132">还必须在  _ulUIParam_ 参数中指定窗口句柄，在  _ulFlags_ ATTACH_DIALOG指定该窗口句柄。</span><span class="sxs-lookup"><span data-stu-id="e8487-132">You must also specify a window handle in the  _ulUIParam_ parameter and the ATTACH_DIALOG flag in the  _ulFlags_ parameter.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="061f1-133">MFCMAPI 引用</span><span class="sxs-lookup"><span data-stu-id="061f1-133">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="e8487-133">MFCMAPI 引用</span><span class="sxs-lookup"><span data-stu-id="e8487-133">MFCMAPI reference</span></span>
 
-<span data-ttu-id="061f1-134">有关 MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="061f1-134">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="e8487-134">有关 MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="e8487-134">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="061f1-135">**文件**</span><span class="sxs-lookup"><span data-stu-id="061f1-135">**File**</span></span>|<span data-ttu-id="061f1-136">**函数**</span><span class="sxs-lookup"><span data-stu-id="061f1-136">**Function**</span></span>|<span data-ttu-id="061f1-137">**备注**</span><span class="sxs-lookup"><span data-stu-id="061f1-137">**Comment**</span></span>|
+|<span data-ttu-id="e8487-135">**文件**</span><span class="sxs-lookup"><span data-stu-id="e8487-135">**File**</span></span>|<span data-ttu-id="e8487-136">**函数**</span><span class="sxs-lookup"><span data-stu-id="e8487-136">**Function**</span></span>|<span data-ttu-id="e8487-137">**备注**</span><span class="sxs-lookup"><span data-stu-id="e8487-137">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="061f1-138">AttachmentsDlg</span><span class="sxs-lookup"><span data-stu-id="061f1-138">AttachmentsDlg.cpp</span></span>  <br/> |<span data-ttu-id="061f1-139">CAttachmentsDlg:: OnDeleteSelectedItem</span><span class="sxs-lookup"><span data-stu-id="061f1-139">CAttachmentsDlg::OnDeleteSelectedItem</span></span>  <br/> |<span data-ttu-id="061f1-140">MFCMAPI 使用**IMessage::D eleteattach**方法删除选定附件。</span><span class="sxs-lookup"><span data-stu-id="061f1-140">MFCMAPI uses the **IMessage::DeleteAttach** method to delete the selected attachment.</span></span>  <br/> |
+|<span data-ttu-id="e8487-138">AttachmentsDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="e8487-138">AttachmentsDlg.cpp</span></span>  <br/> |<span data-ttu-id="e8487-139">CAttachmentsDlg：：OnDeleteSelectedItem</span><span class="sxs-lookup"><span data-stu-id="e8487-139">CAttachmentsDlg::OnDeleteSelectedItem</span></span>  <br/> |<span data-ttu-id="e8487-140">MFCMAPI 使用 **IMessage：:D eleteAttach** 方法删除选定的附件。</span><span class="sxs-lookup"><span data-stu-id="e8487-140">MFCMAPI uses the **IMessage::DeleteAttach** method to delete the selected attachment.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="061f1-141">另请参阅</span><span class="sxs-lookup"><span data-stu-id="061f1-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e8487-141">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e8487-141">See also</span></span>
 
 
 
-[<span data-ttu-id="061f1-142">IMAPIProp::SaveChanges</span><span class="sxs-lookup"><span data-stu-id="061f1-142">IMAPIProp::SaveChanges</span></span>](imapiprop-savechanges.md)
+[<span data-ttu-id="e8487-142">IMAPIProp::SaveChanges</span><span class="sxs-lookup"><span data-stu-id="e8487-142">IMAPIProp::SaveChanges</span></span>](imapiprop-savechanges.md)
   
-[<span data-ttu-id="061f1-143">IMessage : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="061f1-143">IMessage : IMAPIProp</span></span>](imessageimapiprop.md)
+[<span data-ttu-id="e8487-143">IMessage : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="e8487-143">IMessage : IMAPIProp</span></span>](imessageimapiprop.md)
 
 
-[<span data-ttu-id="061f1-144">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="061f1-144">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="e8487-144">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="e8487-144">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

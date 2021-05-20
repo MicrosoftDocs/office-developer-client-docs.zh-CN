@@ -18,25 +18,25 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430586"
 ---
-# <a name="xlgetname"></a><span data-ttu-id="bfe50-104">xlGetName</span><span class="sxs-lookup"><span data-stu-id="bfe50-104">xlGetName</span></span>
+# <a name="xlgetname"></a><span data-ttu-id="501ca-104">xlGetName</span><span class="sxs-lookup"><span data-stu-id="501ca-104">xlGetName</span></span>
 
-<span data-ttu-id="bfe50-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="bfe50-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="501ca-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="501ca-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="bfe50-106">以字符串的形式返回 DLL 的完整路径和文件名。</span><span class="sxs-lookup"><span data-stu-id="bfe50-106">Returns the full path and file name of the DLL in the form of a string.</span></span>
+<span data-ttu-id="501ca-106">以字符串形式返回 DLL 的完整路径和文件名。</span><span class="sxs-lookup"><span data-stu-id="501ca-106">Returns the full path and file name of the DLL in the form of a string.</span></span>
   
 ```cs
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="bfe50-107">参数</span><span class="sxs-lookup"><span data-stu-id="bfe50-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="501ca-107">参数</span><span class="sxs-lookup"><span data-stu-id="501ca-107">Parameters</span></span>
 
-<span data-ttu-id="bfe50-108">此函数没有参数。</span><span class="sxs-lookup"><span data-stu-id="bfe50-108">This function has no arguments.</span></span>
+<span data-ttu-id="501ca-108">此函数没有参数。</span><span class="sxs-lookup"><span data-stu-id="501ca-108">This function has no arguments.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="bfe50-109">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="bfe50-109">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="501ca-109">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="501ca-109">Property value/Return value</span></span>
 
-<span data-ttu-id="bfe50-110">返回路径和文件名 (**xltypeStr**)。</span><span class="sxs-lookup"><span data-stu-id="bfe50-110">Returns the path and file name (**xltypeStr**).</span></span> 
+<span data-ttu-id="501ca-110">返回 **xltypeStr** (的路径和) 。</span><span class="sxs-lookup"><span data-stu-id="501ca-110">Returns the path and file name (**xltypeStr**).</span></span> 
   
-## <a name="example"></a><span data-ttu-id="bfe50-111">示例</span><span class="sxs-lookup"><span data-stu-id="bfe50-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="501ca-111">示例</span><span class="sxs-lookup"><span data-stu-id="501ca-111">Example</span></span>
 
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -51,7 +51,7 @@ short WINAPI xlGetNameExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="bfe50-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bfe50-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="501ca-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="501ca-112">See also</span></span>
 
-- [<span data-ttu-id="bfe50-113">只能从 DLL 或 XLL 调用的 C API 函数</span><span class="sxs-lookup"><span data-stu-id="bfe50-113">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [<span data-ttu-id="501ca-113">只能从 DLL 或 XLL 调用的 C API 函数</span><span class="sxs-lookup"><span data-stu-id="501ca-113">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

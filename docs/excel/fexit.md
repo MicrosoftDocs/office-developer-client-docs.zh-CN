@@ -18,35 +18,35 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429913"
 ---
-# <a name="fexit"></a><span data-ttu-id="36460-104">fExit</span><span class="sxs-lookup"><span data-stu-id="36460-104">fExit</span></span>
+# <a name="fexit"></a><span data-ttu-id="f836e-104">fExit</span><span class="sxs-lookup"><span data-stu-id="f836e-104">fExit</span></span>
 
- <span data-ttu-id="36460-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="36460-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="f836e-105">**适用于**：Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="f836e-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="36460-106">用于卸载通用 xll 的用户定义命令示例。</span><span class="sxs-lookup"><span data-stu-id="36460-106">Example user-defined command that unloads GENERIC.xll.</span></span> <span data-ttu-id="36460-107">当加载了 generic xll 时, 它将创建一个用户定义的菜单 (通用), 通过该菜单可访问此命令。</span><span class="sxs-lookup"><span data-stu-id="36460-107">When GENERIC.xll is loaded, it creates a user-defined menu, Generic, through which this command is accessed.</span></span> 
+<span data-ttu-id="f836e-106">卸载 GENERIC.xll 的用户定义命令示例。</span><span class="sxs-lookup"><span data-stu-id="f836e-106">Example user-defined command that unloads GENERIC.xll.</span></span> <span data-ttu-id="f836e-107">加载 GENERIC.xll 时，它将创建一个用户定义的菜单 Generic，通过该菜单可以访问此命令。</span><span class="sxs-lookup"><span data-stu-id="f836e-107">When GENERIC.xll is loaded, it creates a user-defined menu, Generic, through which this command is accessed.</span></span> 
   
 ```cs
 int WINAPI fExit(void);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="36460-108">参数</span><span class="sxs-lookup"><span data-stu-id="36460-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f836e-108">参数</span><span class="sxs-lookup"><span data-stu-id="f836e-108">Parameters</span></span>
 
-<span data-ttu-id="36460-109">函数不采用任何参数。</span><span class="sxs-lookup"><span data-stu-id="36460-109">The function takes no parameters.</span></span>
+<span data-ttu-id="f836e-109">该函数不采用任何参数。</span><span class="sxs-lookup"><span data-stu-id="f836e-109">The function takes no parameters.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="36460-110">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="36460-110">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="f836e-110">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="f836e-110">Property value/Return value</span></span>
 
-<span data-ttu-id="36460-111">函数总是返回1。</span><span class="sxs-lookup"><span data-stu-id="36460-111">The function always returns 1.</span></span>
+<span data-ttu-id="f836e-111">函数始终返回 1。</span><span class="sxs-lookup"><span data-stu-id="f836e-111">The function always returns 1.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="36460-112">说明</span><span class="sxs-lookup"><span data-stu-id="36460-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f836e-112">备注</span><span class="sxs-lookup"><span data-stu-id="f836e-112">Remarks</span></span>
 
-<span data-ttu-id="36460-113">这是用户启动的用于退出 GENERIC 的例程。您应避免只是在`UNREGISTER("GENERIC.XLL")`此函数中调用。</span><span class="sxs-lookup"><span data-stu-id="36460-113">This is a user-initiated routine to exit GENERIC.xll You should avoid simply calling  `UNREGISTER("GENERIC.XLL")` in this function.</span></span> <span data-ttu-id="36460-114">这将强制注销此 DLL 中的所有函数, 即使它们在其他位置注册也是如此。</span><span class="sxs-lookup"><span data-stu-id="36460-114">This would forcefully unregister all the functions in this DLL, even if they are registered somewhere else.</span></span> <span data-ttu-id="36460-115">相反, 一次注销一个函数。</span><span class="sxs-lookup"><span data-stu-id="36460-115">Instead, unregister the functions one at a time.</span></span> 
+<span data-ttu-id="f836e-113">这是用户启动的用于退出 GENERIC.xll 的例程 应避免在此函数  `UNREGISTER("GENERIC.XLL")` 中调用。</span><span class="sxs-lookup"><span data-stu-id="f836e-113">This is a user-initiated routine to exit GENERIC.xll You should avoid simply calling  `UNREGISTER("GENERIC.XLL")` in this function.</span></span> <span data-ttu-id="f836e-114">这将强制取消注册此 DLL 中所有函数，即使它们已在其他地方注册。</span><span class="sxs-lookup"><span data-stu-id="f836e-114">This would forcefully unregister all the functions in this DLL, even if they are registered somewhere else.</span></span> <span data-ttu-id="f836e-115">相反，应一次注销一个函数。</span><span class="sxs-lookup"><span data-stu-id="f836e-115">Instead, unregister the functions one at a time.</span></span> 
   
-### <a name="example"></a><span data-ttu-id="36460-116">示例</span><span class="sxs-lookup"><span data-stu-id="36460-116">Example</span></span>
+### <a name="example"></a><span data-ttu-id="f836e-116">示例</span><span class="sxs-lookup"><span data-stu-id="f836e-116">Example</span></span>
 
-<span data-ttu-id="36460-117">有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。</span><span class="sxs-lookup"><span data-stu-id="36460-117">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
+<span data-ttu-id="f836e-117">有关  `\SAMPLES\GENERIC\GENERIC.C` 此函数的源代码，请参阅 。</span><span class="sxs-lookup"><span data-stu-id="f836e-117">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="36460-118">另请参阅</span><span class="sxs-lookup"><span data-stu-id="36460-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f836e-118">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f836e-118">See also</span></span>
 
 
 
-[<span data-ttu-id="36460-119">通用 DLL 中的函数</span><span class="sxs-lookup"><span data-stu-id="36460-119">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
+[<span data-ttu-id="f836e-119">通用 DLL 中的函数</span><span class="sxs-lookup"><span data-stu-id="f836e-119">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
 

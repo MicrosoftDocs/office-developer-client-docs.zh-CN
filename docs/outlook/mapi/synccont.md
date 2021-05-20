@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430404"
 ---
-# <a name="synccont"></a><span data-ttu-id="7cf07-103">SYNCCONT</span><span class="sxs-lookup"><span data-stu-id="7cf07-103">SYNCCONT</span></span>
+# <a name="synccont"></a><span data-ttu-id="94e62-103">SYNCCONT</span><span class="sxs-lookup"><span data-stu-id="94e62-103">SYNCCONT</span></span>
 
-<span data-ttu-id="7cf07-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7cf07-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="94e62-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="94e62-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7cf07-105">[同步内容状态](synchronize-contents-state.md)期间, 用于将本地存储区中指定文件夹的内容与服务器同步的信息。</span><span class="sxs-lookup"><span data-stu-id="7cf07-105">Information for synchronizing the contents of specified folders in a local store with the server during the [synchronize contents state](synchronize-contents-state.md).</span></span> <span data-ttu-id="7cf07-106">这只涉及上载或涉及上载的完全同步, 然后进行下载。</span><span class="sxs-lookup"><span data-stu-id="7cf07-106">This involves just uploading, or a full synchronization involving an upload and then a download.</span></span>
+<span data-ttu-id="94e62-105">有关在同步内容状态期间将本地存储中指定文件夹的内容与服务器 [同步的信息](synchronize-contents-state.md)。</span><span class="sxs-lookup"><span data-stu-id="94e62-105">Information for synchronizing the contents of specified folders in a local store with the server during the [synchronize contents state](synchronize-contents-state.md).</span></span> <span data-ttu-id="94e62-106">这仅涉及上载，或涉及上载和下载的完全同步。</span><span class="sxs-lookup"><span data-stu-id="94e62-106">This involves just uploading, or a full synchronization involving an upload and then a download.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="7cf07-107">快速信息</span><span class="sxs-lookup"><span data-stu-id="7cf07-107">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="94e62-107">快速信息</span><span class="sxs-lookup"><span data-stu-id="94e62-107">Quick info</span></span>
 
 ```cpp
 struct SYNCCONT 
@@ -35,39 +35,39 @@ struct SYNCCONT
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="7cf07-108">成员</span><span class="sxs-lookup"><span data-stu-id="7cf07-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="94e62-108">成员</span><span class="sxs-lookup"><span data-stu-id="94e62-108">Members</span></span>
 
-<span data-ttu-id="7cf07-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="7cf07-109">_ulFlags_</span></span>
+<span data-ttu-id="94e62-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="94e62-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="7cf07-110">实时用于确定同步过程中的相应行为的标志。</span><span class="sxs-lookup"><span data-stu-id="7cf07-110">[in] Flags to determine the appropriate behavior during synchronization.</span></span>
+> <span data-ttu-id="94e62-110">[in]用于确定同步期间的适当行为的标志。</span><span class="sxs-lookup"><span data-stu-id="94e62-110">[in] Flags to determine the appropriate behavior during synchronization.</span></span>
     
-  - <span data-ttu-id="7cf07-111">UPC_OK</span><span class="sxs-lookup"><span data-stu-id="7cf07-111">UPC_OK</span></span>
+  - <span data-ttu-id="94e62-111">UPC_OK</span><span class="sxs-lookup"><span data-stu-id="94e62-111">UPC_OK</span></span>
     
-  - <span data-ttu-id="7cf07-112">实时上载或完全同步成功。</span><span class="sxs-lookup"><span data-stu-id="7cf07-112">[in] Upload or full synchronization was successful.</span></span> <span data-ttu-id="7cf07-113">客户端在将信息与服务器同步之后对此进行设置。</span><span class="sxs-lookup"><span data-stu-id="7cf07-113">The client sets this after synchronizing information with the server.</span></span>
+  - <span data-ttu-id="94e62-112">[in]Upload同步或完全同步成功。</span><span class="sxs-lookup"><span data-stu-id="94e62-112">[in] Upload or full synchronization was successful.</span></span> <span data-ttu-id="94e62-113">客户端在将信息与服务器同步后进行设置。</span><span class="sxs-lookup"><span data-stu-id="94e62-113">The client sets this after synchronizing information with the server.</span></span>
     
-<span data-ttu-id="7cf07-114">_iEnt_</span><span class="sxs-lookup"><span data-stu-id="7cf07-114">_iEnt_</span></span>
+<span data-ttu-id="94e62-114">_iEnt_</span><span class="sxs-lookup"><span data-stu-id="94e62-114">_iEnt_</span></span>
   
-> <span data-ttu-id="7cf07-115">排除索引以跟踪由_分币_指定的文件夹数中的内容同步。</span><span class="sxs-lookup"><span data-stu-id="7cf07-115">[out] Index to track synchronizing the contents in the number of folders specified by  _cEnt_.</span></span>
+> <span data-ttu-id="94e62-115">[out]索引，跟踪同步 cEnt 指定的文件夹数量  _中的内容_。</span><span class="sxs-lookup"><span data-stu-id="94e62-115">[out] Index to track synchronizing the contents in the number of folders specified by  _cEnt_.</span></span>
     
-<span data-ttu-id="7cf07-116">_分币_</span><span class="sxs-lookup"><span data-stu-id="7cf07-116">_cEnt_</span></span>
+<span data-ttu-id="94e62-116">_cEnt_</span><span class="sxs-lookup"><span data-stu-id="94e62-116">_cEnt_</span></span>
   
-> <span data-ttu-id="7cf07-117">排除要复制的文件夹数。</span><span class="sxs-lookup"><span data-stu-id="7cf07-117">[out] Number of folders to be replicated.</span></span>
+> <span data-ttu-id="94e62-117">[out]要复制的文件夹数。</span><span class="sxs-lookup"><span data-stu-id="94e62-117">[out] Number of folders to be replicated.</span></span>
     
-<span data-ttu-id="7cf07-118">_pvReserved_</span><span class="sxs-lookup"><span data-stu-id="7cf07-118">_pvReserved_</span></span>
+<span data-ttu-id="94e62-118">_pvReserved_</span><span class="sxs-lookup"><span data-stu-id="94e62-118">_pvReserved_</span></span>
   
-> <span data-ttu-id="7cf07-119">此成员是为内部使用 Outlook 而保留的, 不受支持。</span><span class="sxs-lookup"><span data-stu-id="7cf07-119">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
+> <span data-ttu-id="94e62-119">此成员仅供内部使用，Outlook不支持。</span><span class="sxs-lookup"><span data-stu-id="94e62-119">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
     
-<span data-ttu-id="7cf07-120">_ptagaReserved_</span><span class="sxs-lookup"><span data-stu-id="7cf07-120">_ptagaReserved_</span></span>
+<span data-ttu-id="94e62-120">_ptagaReserved_</span><span class="sxs-lookup"><span data-stu-id="94e62-120">_ptagaReserved_</span></span>
   
-> <span data-ttu-id="7cf07-121">此成员是为内部使用 Outlook 而保留的, 不受支持。</span><span class="sxs-lookup"><span data-stu-id="7cf07-121">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
+> <span data-ttu-id="94e62-121">此成员仅供内部使用，Outlook不支持。</span><span class="sxs-lookup"><span data-stu-id="94e62-121">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
     
-<span data-ttu-id="7cf07-122">_psosReserved_</span><span class="sxs-lookup"><span data-stu-id="7cf07-122">_psosReserved_</span></span>
+<span data-ttu-id="94e62-122">_psosReserved_</span><span class="sxs-lookup"><span data-stu-id="94e62-122">_psosReserved_</span></span>
   
-> <span data-ttu-id="7cf07-123">此成员是为内部使用 Outlook 而保留的, 不受支持。</span><span class="sxs-lookup"><span data-stu-id="7cf07-123">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
+> <span data-ttu-id="94e62-123">此成员仅供内部使用，Outlook不支持。</span><span class="sxs-lookup"><span data-stu-id="94e62-123">This member is reserved for the internal use of Outlook and is not supported.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="7cf07-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7cf07-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="94e62-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="94e62-124">See also</span></span>
 
-- [<span data-ttu-id="7cf07-125">关于复制 API</span><span class="sxs-lookup"><span data-stu-id="7cf07-125">About the Replication API</span></span>](about-the-replication-api.md)
-- [<span data-ttu-id="7cf07-126">关于复制状态机</span><span class="sxs-lookup"><span data-stu-id="7cf07-126">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
-- [<span data-ttu-id="7cf07-127">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="7cf07-127">MAPI Constants</span></span>](mapi-constants.md)
+- [<span data-ttu-id="94e62-125">关于复制 API</span><span class="sxs-lookup"><span data-stu-id="94e62-125">About the Replication API</span></span>](about-the-replication-api.md)
+- [<span data-ttu-id="94e62-126">关于复制状态机</span><span class="sxs-lookup"><span data-stu-id="94e62-126">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+- [<span data-ttu-id="94e62-127">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="94e62-127">MAPI Constants</span></span>](mapi-constants.md)
 
