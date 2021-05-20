@@ -1,5 +1,5 @@
 ---
-title: 概念 (Visio ShapeSheet)
+title: 'ShapeSheet (Visio概念) '
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438895"
 ---
-# <a name="concepts-visio-shapesheet"></a>概念 (Visio ShapeSheet)
+# <a name="concepts-visio-shapesheet"></a>ShapeSheet (Visio概念) 
 
 此导航页包含有关 Visio 中可编程性的概述主题的链接。 单击下面的链接或者使用目录可浏览相应的主题：
   

@@ -25,11 +25,11 @@ ms.locfileid: "33439084"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍用于测试属性值大小的大小限制。 
+描述用于测试属性值大小的大小限制。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SSizeRestriction
@@ -45,35 +45,35 @@ typedef struct _SSizeRestriction
 
  **relop**
   
-> 大小比较中使用的关系运算符。 可能的值如下所示: 
+> 大小比较中使用的关系运算符。 可能的值如下所示： 
     
 RELOP_GE 
   
-> 根据大于或等于的第一个值进行比较。
+> 比较基于大于或等于第一个值。
     
 RELOP_GT 
   
-> 根据更大的第一个值进行比较。
+> 比较基于较大的第一个值。
     
 RELOP_LE 
   
-> 根据值小于或等于的第一个值进行比较。
+> 比较基于小于或等于第一个值。
     
 RELOP_LT 
   
-> 根据较小的第一个值进行比较。
+> 比较基于第一个值较小。
     
 RELOP_NE 
   
-> 根据不相等的值进行比较。
+> 比较基于值。
     
 RELOP_RE 
   
-> 根据 LIKE (正则表达式) 值进行比较。
+> 比较基于 LIKE (正则表达式) 值。
     
 RELOP_EQ 
   
-> 根据相等的值进行比较。
+> 比较基于相等的值。
     
  **ulPropTag**
   
@@ -83,9 +83,9 @@ RELOP_EQ
   
 > 属性值中的字节数。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关限制的工作原理的一般讨论, 请参阅[关于限制](about-restrictions.md)。 
+有关限制如何工作的一般讨论，请参阅关于 [限制](about-restrictions.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,11 +25,11 @@ ms.locfileid: "33436970"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-表示 MAPI 对象的条目标识符的数组, 该对象使用与[SBinaryArray](sbinaryarray.md)结构相同的实现。 
+表示 MAPI 对象的条目标识符数组，该对象使用 [与 SBinaryArray](sbinaryarray.md) 结构相同的实现。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
@@ -38,7 +38,7 @@ typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
 
 ## <a name="members"></a>Members
 
-请参阅**SBinaryArry**结构的成员。 
+有关成员 **，请参阅 SBinaryArry** 结构。 
   
 ## <a name="see-also"></a>另请参阅
 

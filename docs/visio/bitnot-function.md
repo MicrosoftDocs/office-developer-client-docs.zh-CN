@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251399
 localization_priority: Normal
 ms.assetid: 7b6486bb-3618-3747-4b00-93bd55767c1c
-description: 返回一个16位二进制数, 只有当二进制数中的对应位为0时, 才将每位的二进制数设置为1。 否则, 将位设置为0。
+description: 返回一个 16 位二进制数，其中每个位仅在二进制数中的对应位为 0 时设置为 1。 否则，将位设置为 0。
 ms.openlocfilehash: 34ea6fd614feae8e3c8e97e34b7ff6c531f4c123
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.locfileid: "33438832"
 ---
 # <a name="bitnot-function"></a>BITNOT 函数
 
-返回一个16位二进制数, 只有当二进制数中的对应位为0时, 才将每位的二进制数设置为1。 否则, 将位设置为0。
+返回一个 16 位二进制数，其中每个位仅在二进制数中的对应位为 0 时设置为 1。 否则，将位设置为 0。
   
 ## <a name="syntax"></a>语法
 
-BITNOT (* **二进制数** *) 
+BITNOT (** *binary number* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _二进制数_ <br/> |必需  <br/> |**数值** <br/> |一个 16 位二进制数。  <br/> |
+| _二进制数_ <br/> |必需  <br/> |**Numeric** <br/> |一个 16 位二进制数。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
@@ -36,7 +36,7 @@ BITNOT (* **二进制数** *)
   
 ## <a name="example"></a>示例
 
-BITNOT (6)
+BITNOT (6) 
   
 返回 65529。6 = 0...00110。因此，BITNOT(6) = 1...11001。
   

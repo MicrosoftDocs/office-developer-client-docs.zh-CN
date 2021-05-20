@@ -25,7 +25,7 @@ ms.locfileid: "33437124"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含有关邮件原始发件人和通讯组列表展开历史记录的信息。
+包含有关邮件发起方和通讯组列表展开历史记录的信息。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33437124"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性在报告生成中使用。
+此属性用于生成报表。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

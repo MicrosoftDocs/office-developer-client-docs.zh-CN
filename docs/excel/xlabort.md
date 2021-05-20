@@ -22,7 +22,7 @@ ms.locfileid: "33436655"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-将处理器生成到系统中的其他任务, 并检查用户是否已按**ESC**取消宏。 如果用户在重新计算工作簿期间按下了**ESC** , 也可以通过调用此函数从工作表函数中检测到。 
+将处理器处理到系统中的其他任务，并检查用户是否已按 **Esc** 取消宏。 如果用户在工作簿重新计算过程中按下 **了 ESC，** 则通过调用此函数还可以从工作表函数中检测到它。 
   
 ```cs
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
@@ -30,29 +30,29 @@ Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 
 ## <a name="parameters"></a>参数
 
- _pxRetain_(**xltypeBool**)
+ _pxRetain_ (**xltypeBool)**
   
-(可选)。 如果**为 FALSE**, 则此函数将检查中断条件并清除任何挂起的中断。 这使用户可以在中断条件的情况继续进行。 如果此参数被省略或为**TRUE**, 则函数将检查用户中止而不清除它。
+ (可选) 。 如果 **为 FALSE，** 则此函数将检查中断条件并清除任何挂起的中断。 这使用户可以继续，而不管中断条件如何。 如果省略此参数或为 **TRUE，** 则函数会检查用户中止，而不清除它。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果用户按**ESC 键**,**则返回 TRUE** (**xltypeBool**)。
+返回 **TRUE** (**xltypeBool**) 如果用户已按下 **ESC**。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 ### 
 
-#### <a name="frequent-calls-may-be-needed"></a>可能需要频繁的呼叫
+#### <a name="frequent-calls-may-be-needed"></a>可能需要频繁呼叫
 
-可能需要很长时间的函数和命令应经常调用此函数, 以使处理器进入系统中的其他任务。
+可能需要很长时间的函数和命令应频繁调用此函数，以将处理器分配给系统中的其他任务。
   
-#### <a name="avoid-sensitive-language"></a>避免敏感语言
+#### <a name="avoid-sensitive-language"></a>避免使用敏感语言
 
-避免在用户界面中使用 "Abort" 一词。 请考虑改为使用 "取消"、"暂停"、"中断" 或 "停止"。
+避免在用户界面中使用术语"Abort"。 请考虑使用"取消"、"终止"、"中断"或"停止"。
   
 ## <a name="example"></a>示例
 
-以下代码将重复移动工作表上的活动单元格, 直到一分钟之后或用户按**ESC**。 它偶尔调用函数**xlAbort** 。 这将生成处理器, 从而简化合作多任务。 
+下面的代码重复移动工作表上的活动单元格，直到一分钟过去或直到用户按 **ESC。** 它偶尔调用 **函数 xlAbort。** 这将生成处理器，并缓动协作多任务。 
   
  `\SAMPLES\GENERIC\GENERIC.C`
   

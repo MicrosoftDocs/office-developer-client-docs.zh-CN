@@ -39,45 +39,45 @@ HRESULT CalcFormPropSet(
 
  _pfrminfoarray_
   
-> 实时指向表单信息对象数组的指针, 这些对象标识要为其返回属性的窗体。
+> [in]指向标识要返回其属性的表单的表单信息对象的数组的指针。
     
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制如何返回_ppResults_参数中的属性数组。 可以设置以下标志: 
+> [in]控制  _ppResults_ 参数中属性数组的返回方式的标志位掩码。 可以设置以下标志： 
     
 FORMPROPSET_INTERSECTION 
   
-> 返回的数组包含窗体属性的交集。
+> 返回的数组包含表单属性的交集。
     
 FORMPROPSET_UNION 
   
-> 返回的数组包含表单属性的联合。
+> 返回的数组包含表单属性的并集。
     
 MAPI_UNICODE 
   
-> 数组中返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 数组中返回的字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
  _ppResults_
   
-> 排除指向返回的[SMAPIFormPropArray](smapiformproparray.md)结构的指针的指针, 该指针包含表单使用的属性。 
+> [out]指向返回的 [SMAPIFormPropArray](smapiformproparray.md) 结构的指针的指针，其中包含表单使用的属性。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的一个或一些值。
+> 调用成功并返回预期值。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
+> 设置 MAPI_UNICODE 标志，而实现不支持 Unicode，或者MAPI_UNICODE未设置，并且实现仅支持 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单查看者调用**IMAPIFormMgr:: CalcFormPropSet**方法以获取一组表单使用的属性的数组。 **CalcFormPropSet**采用相交或联合这些 forms 的属性集, 具体取决于在_ulFlags_参数中设置的标志, 并且它将返回一个**SMAPIFormPropArray**结构, 其中包含生成的一组属性. 
+表单查看器调用 **IMAPIFormMgr：：CalcFormPropSet** 方法以获取一组表单使用的属性的数组。 根据 _ulFlags_ 参数中设置的标志 **，CalcFormPropSet** 采用这些表单的属性集的交集或联合，并返回包含生成的属性组的 **SMAPIFormPropArray** 结构。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果表单查看器在_ulFlags_参数中传递 MAPI_UNICODE 标志, 则所有字符串都应以 UNICODE 字符串的形式返回。 如果 MAPI_UNICODE 已传递, 则不支持 Unicode 字符串的表单库提供程序应返回 MAPI_E_BAD_CHARWIDTH。 
+如果表单查看器在  _ulFlags_ 参数中传递 MAPI_UNICODE 标志，则所有字符串应作为 Unicode 字符串返回。 如果传递了 Unicode 字符串，则不支持 Unicode MAPI_E_BAD_CHARWIDTH返回MAPI_UNICODE提供程序。 
   
 ## <a name="see-also"></a>另请参阅
 

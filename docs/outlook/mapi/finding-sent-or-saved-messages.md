@@ -21,26 +21,26 @@ ms.locfileid: "33437418"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
- **查找已保存或发送的所有待发邮件**
+ **查找已保存或发送的所有传出邮件**
   
-1. 调用[IMsgStore:: CompareEntryIDs](imsgstore-compareentryids.md)将包含已发送邮件的文件夹与包含传入邮件的文件夹进行比较。 
+1. 调用 [IMsgStore：：CompareEntryIDs](imsgstore-compareentryids.md) 将包含已发送邮件的文件夹与包含传入邮件的文件夹进行比较。 
     
-2. 将_lpEntryID1_参数设置为指向**PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)), 并将_lpEntryID2_参数设置为指向**PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))。
+2. 将  _lpEntryID1_ 参数设置为指向 **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) ，将  _lpEntryID2_ 参数设置为指向 **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) 。
     
-请注意, 如果在发送邮件后删除邮件或将任何已发送的邮件移到另一个文件夹, 则此策略将不起作用。 
+请注意，如果在邮件发送后删除邮件或将任何已发送的邮件移动到另一个文件夹，此策略将不起作用。 
   
-如果检查传入邮件, 请注意, 通常由传输提供程序设置的属性丢失, 可以假定传输提供程序从不处理该邮件。 这些属性包括：
+如果在检查传入邮件时注意到传输提供程序通常设置的属性缺失，您可以假定该邮件从未由传输提供程序处理过。 这些属性包括：
   
-- **PR_RECEIVED_BY**属性 
+- **PR_RECEIVED_BY** 属性 
     
-- **PR_MESSAGE_DOWNLOAD_TIME**([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))
+- **PR_MESSAGE_DOWNLOAD_TIME (** [PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md)) 
     
-- **PR_TRANSPORT_MESSAGE_HEADERS**([PidTagTransportMessageHeaders](pidtagtransportmessageheaders-canonical-property.md))
+- **PR_TRANSPORT_MESSAGE_HEADERS (** [PidTagTransportMessageHeaders)](pidtagtransportmessageheaders-canonical-property.md)
     
-- **PR_MESSAGE_TO_ME**([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))
+- **PR_MESSAGE_TO_ME (** [PidTagMessageToMe)](pidtagmessagetome-canonical-property.md)
     
-- **PR_MESSAGE_CC_ME**([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md))
+- **PR_MESSAGE_CC_ME (** [PidTagMessageCcMe)](pidtagmessageccme-canonical-property.md)
     
-- **PR_MESSAGE_RECIP_ME**([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md))
+- **PR_MESSAGE_RECIP_ME (** [PidTagMessageRecipientMe)](pidtagmessagerecipientme-canonical-property.md)
     
 

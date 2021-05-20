@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm80002
 localization_priority: Normal
 ms.assetid: 99a5ca0e-5cb4-64cc-8af5-15ac6d02c77f
-description: 确定绘图页是否自动调整大小以放置图表。
+description: 确定绘图页是否自动调整大小以适应图表。
 ms.openlocfilehash: 6956c1e021ffffdb54f3dfa36270b9df04e892b0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.locfileid: "33437005"
 ---
 # <a name="drawingresizetype-cell-page-properties-section"></a>DrawingSizeType 单元格（“Page Properties”内容）
 
-确定绘图页是否自动调整大小以放置图表。 
+确定绘图页是否自动调整大小以适应图表。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 DrawingResizeType 单元格的引用，请使用以下内容。 
   

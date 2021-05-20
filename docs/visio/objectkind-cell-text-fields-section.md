@@ -25,7 +25,7 @@ ms.locfileid: "33438510"
 | 0  <br/> | 标准  <br/> |**visTFOKStandard** <br/> |
 | 1  <br/> |纵横混排  <br/> |**visTFOKHorizontaInVertical** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 文本域可以是以下类型之一：
   
@@ -37,14 +37,14 @@ ms.locfileid: "33438510"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | ObjectKind [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
+| 单元格名称：  <br/> | Fields.ObjectKind[  *i*  ] 其中  *i*  = <1> 2， 3...  <br/> |
    
 要从某个程序按索引获取对 ObjectKind 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionTextField** <br/> |
-| 行索引：  <br/> |**visRowField** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowField**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visFieldObjectKind** <br/> |
    
 

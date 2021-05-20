@@ -25,28 +25,28 @@ ms.locfileid: "33436382"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-使表单查看者能够使用表单视图上下文和表单通知, 执行表单谓词和关闭表单。
+允许表单查看器使用表单视图上下文和表单通知、执行表单谓词和关闭表单。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiform  <br/> |
-|公开者:  <br/> |表单对象  <br/> |
+|标头文件：  <br/> |Mapiform.h  <br/> |
+|公开者：  <br/> |表单对象  <br/> |
 |实现者：  <br/> |表单服务器  <br/> |
 |调用者：  <br/> |表单查看器  <br/> |
-|接口标识符:  <br/> |IID_IMAPIForm  <br/> |
-|指针类型:  <br/> |LPMAPIFORM  <br/> |
+|接口标识符：  <br/> |IID_IMAPIForm  <br/> |
+|指针类型：  <br/> |LPMAPIFORM  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[SetViewContext](imapiform-setviewcontext.md) <br/> |建立窗体的视图上下文。  <br/> |
+|[SetViewContext](imapiform-setviewcontext.md) <br/> |建立表单的视图上下文。  <br/> |
 |[GetViewContext](imapiform-getviewcontext.md) <br/> |返回窗体的当前视图上下文。  <br/> |
 |[ShutdownForm](imapiform-shutdownform.md) <br/> |关闭表单。  <br/> |
-|[DoVerb](imapiform-doverb.md) <br/> |请求表单执行与特定谓词相关联的任何任务。  <br/> |
-|[她们](imapiform-advise.md) <br/> |注册表单查看器, 以获取有关影响表单的事件的通知。  <br/> |
-|[Unadvise](imapiform-unadvise.md) <br/> |取消之前通过调用**Advise**建立的表单查看器对通知的注册。  <br/> |
-|[GetLastError](imapiform-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构, 该结构包含上一个错误发生于表单对象的相关信息。  <br/> |
+|[DoVerb](imapiform-doverb.md) <br/> |请求表单执行与特定动词关联的任何任务。  <br/> |
+|[建议](imapiform-advise.md) <br/> |注册窗体查看器，以接收有关影响窗体的事件的通知。  <br/> |
+|[非企业](imapiform-unadvise.md) <br/> |通过调用 Advise 取消之前建立的表单查看器的通知 **注册**。  <br/> |
+|[GetLastError](imapiform-getlasterror.md) <br/> |返回 [一个 MAPIERROR](mapierror.md) 结构，其中包含有关表单对象发生的上一个错误的信息。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

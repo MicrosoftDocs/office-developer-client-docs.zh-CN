@@ -25,12 +25,12 @@ ms.locfileid: "33439217"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含[MTSID](mtsid.md)结构的数组, 其中每个结构都包含一个 X. 400 邮件传输系统 (MTS) 条目标识符。 
+包含 [MTSID](mtsid.md) 结构数组，其中每个结构都包含一个 X.400 邮件传输系统 (MTS) 标识符。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关宏:  <br/> |[CbFLATMTSIDLIST](cbflatmtsidlist.md)、 [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关宏：  <br/> |[CbFLATMTSIDLIST](cbflatmtsidlist.md) [、CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md) <br/> |
    
 ```cpp
 typedef struct
@@ -46,21 +46,21 @@ typedef struct
 
  **cMTSIDs**
   
-> 由**abMTSIDs**成员描述的数组中的**MTSID**结构的计数。 
+> **abMTSIDs** 成员描述的数组中的 **MTSID** 结构计数。 
     
  **cbMTSIDs**
   
-> 由**abMTSIDs**描述的数组中的字节数。
+> **abMTSIDs** 描述的数组中的字节数。
     
  **abMTSIDs**
   
-> 包含一个或多个**MTSID**结构的字节数组。 
+> 包含一个或多个 **MTSID** 结构的字节数组。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-X. 400 邮件传递中的**FLATMTSIDLIST**结构与 MAPI 邮件中的[FLATENTRYLIST](flatentrylist.md)结构使用相对应。 MAPI 在邮件处理过程中使用**FLATMTSIDLIST**结构来维护 X. 400 属性。 服务提供程序在处理传入和传出的 X 400 邮件时使用**FLATMTSIDLIST**结构。 
+**FLATMTSIDLIST** 结构在 X.400 邮件中的使用与 [FLATENTRYLIST](flatentrylist.md)结构在 MAPI 邮件中的使用相对应。 MAPI 使用 **FLATMTSIDLIST** 结构在邮件处理过程中维护 X.400 属性。 在处理传入和传出 X.400 邮件时，服务提供商使用 **FLATMTSIDLIST** 结构。 
   
-在**abMTSIDs**数组中, 每个**MTSID**结构在自然对齐的边界处对齐。 填充包含额外的字节以确保任意两个**MTSID**结构之间的自然对齐。 数组中的第一个**MTSID**结构始终正确对齐, 因为**abMTSIDs**成员的偏移量为8。 若要计算下一个结构的偏移量, 请使用第一项的大小向上舍入到接下来的4个。 使用[CbNewMTSID](cbnewmtsid.md)宏计算**MTSID**结构的大小。 
+在 **abMTSIDs** 数组中，每个 **MTSID** 结构在自然对齐的边界上对齐。 额外字节作为填充包括在内，以确保任何两 **个 MTSID** 结构之间的自然对齐。 数组中的第一个 **MTSID** 结构始终正确对齐，因为 **abMTSIDs** 成员偏移量为 8。 若要计算下一结构的偏移量，请使用向上舍入到下一个 4 倍数的第一个条目的大小。 使用 [CbNewMTSID](cbnewmtsid.md) 宏计算 **MTSID** 结构的大小。 
   
 ## <a name="see-also"></a>另请参阅
 

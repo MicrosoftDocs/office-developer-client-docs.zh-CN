@@ -21,13 +21,13 @@ ms.locfileid: "33439105"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回由_pEmsmdbUID_标识的 Exchange 服务的全局通讯簿的条目标识符。 应使用[MAPIFreeBuffer](mapifreebuffer.md)释放返回的条目标识符。
+返回由 _pEmsmdbUID_ 标识的 Exchange 的全局通讯簿的条目标识符。 应该使用 [MAPIFreeBuffer](mapifreebuffer.md)释放返回的条目标识符。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |abhelp  <br/> |
+|标头文件：  <br/> |abhelp.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 HRESULT HrGetGALFromEmsmdbUID(
@@ -43,22 +43,22 @@ HRESULT HrGetGALFromEmsmdbUID(
 
  _pSess_
   
-> 实时登录的 IMAPISession。 它不能为 NULL。
+> [in]登录的 IMAPISession。 它不能为 NULL。
     
  _pAddrBook_
   
-> 实时用于打开条目标识符的通讯簿。 它不能为 NULL。
+> [in]用于打开条目标识符的通讯簿。 它不能为 NULL。
     
  _pEmsmdbUID_
   
-> 实时指向标识要检索的 Exchange 服务的 GAL 的**emsmdbUID**的指针。 如果_pEmsmdbUID_为 NULL 或 0 UID, 则此函数将获取 Exchange 服务的旧版 GAL。 
+> [in]指向标识要检索的 Exchange 服务的 GAL 的 **emsmdbUID** 的指针。 如果 _pEmsmdbUID_ 为 NULL 或零 UID，则此函数将获取 Exchange Service 的旧 GAL。 
     
- _lpcbeid_
+ _lpc一d_
   
-> 排除一个指针, 指向全局地址列表的条目标识符的字节数。
+> [out]指向全局地址列表条目标识符的字节计数的指针。
     
  _lppeid_
   
-> 排除指向全局地址列表的条目标识符的指针。 应使用[MAPIFreeBuffer](mapifreebuffer.md)对此进行释放。
+> [out]指向全局地址列表的条目标识符的指针。 这应该使用 [MAPIFreeBuffer 释放](mapifreebuffer.md)。
     
 

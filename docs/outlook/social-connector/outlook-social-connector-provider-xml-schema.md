@@ -1,5 +1,5 @@
 ---
-title: Outlook Social Connector 提供程序 XML 架构
+title: OutlookSocial Connector 提供程序 XML 架构
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
-description: 由 .OSC 提供程序扩展性方法中的 .OSC 提供程序返回的所有 XML 都必须符合以下 .OSC 提供程序 XML 架构。 在这里, 我们将全面复制 .OSC 架构。
+description: OSC 提供程序扩展方法中的 OSC 提供程序返回的所有 XML 都必须符合以下 OSC 提供程序 XML 架构。 OSC 架构完整地重现在此处。
 ms.openlocfilehash: ad9b2833991997556f50a927d4552b68d2bfdb50
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541342"
 ---
-# <a name="outlook-social-connector-provider-xml-schema"></a>Outlook Social Connector 提供程序 XML 架构
+# <a name="outlook-social-connector-provider-xml-schema"></a>OutlookSocial Connector 提供程序 XML 架构
 
-由 .OSC 提供程序扩展性方法中的 .OSC 提供程序返回的所有 XML 都必须符合以下 .OSC 提供程序 XML 架构。 在这里, 我们将全面复制 .OSC 架构。 此外, 本文章附带的提供程序模板的下载中也提供了当前架构定义文件 OutlookSocialProvider1_1。 有关详细信息, 请参阅[Outlook Social Connector 2013: Provider templates](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)。 
+OSC 提供程序扩展方法中的 OSC 提供程序返回的所有 XML 都必须符合以下 OSC 提供程序 XML 架构。 OSC 架构完整地重现在此处。 本文附带的提供程序模板的下载中还提供了当前架构定义文件 OutlookSocialProvider1_1.xsd。 有关详细信息，请参阅 Outlook [Social Connector 2013： Provider templates](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -460,11 +460,11 @@ ms.locfileid: "34541342"
 
 ## <a name="see-also"></a>另请参阅
 
-- [功能 XML 示例](capabilities-xml-example.md)  
-- [友元 XML 示例](friends-xml-example.md) 
+- [Capabilities XML 示例](capabilities-xml-example.md)  
+- [好友 XML 示例](friends-xml-example.md) 
 - [活动源 XML 示例](activity-feed-xml-example.md)  
-- [XML 的功能](xml-for-capabilities.md)  
-- [适用于好友的 XML](xml-for-friends.md)  
-- [适用于活动的 XML](xml-for-activities.md)  
-- [Outlook Social Connector 提供程序接口](outlook-social-connector-provider-interfaces.md)
+- [功能的 XML](xml-for-capabilities.md)  
+- [好友 XML](xml-for-friends.md)  
+- [活动的 XML](xml-for-activities.md)  
+- [OutlookSocial Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

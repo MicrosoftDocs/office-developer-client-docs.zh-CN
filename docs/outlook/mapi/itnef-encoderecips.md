@@ -25,7 +25,7 @@ ms.locfileid: "33437649"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在邮件的传输中性封装格式 (TNEF) 数据流中对邮件的收件人表的视图进行编码。
+将邮件收件人表的视图编码为Transport-Neutral封装格式 (TNEF) 流。
   
 ```cpp
 HRESULT EncodeRecips(
@@ -38,27 +38,27 @@ HRESULT EncodeRecips(
 
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lpRecipientTable_
   
-> 实时指向对其对视图进行编码的收件人表的指针。 _lpRecipientTable_参数可以为 NULL。 
+> [in]指向视图已编码的收件人表的指针。 _lpRecipientTable_ 参数可以是 NULL。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的一个或一些值。
+> 调用成功并返回预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-传输提供程序、邮件存储提供程序和网关调用**ITnef:: EncodeRecips**方法来执行特定收件人表视图的 TNEF 编码。 例如, 如果提供程序或网关需要特定的列集、排序顺序或对收件人表的限制, 则 TNEF 编码非常有用。 
+传输提供程序、邮件存储提供程序和网关调用 **ITnef：：EncodeRecips** 方法来对特定的收件人表视图执行 TNEF 编码。 TNEF 编码很有用，例如，如果提供程序或网关需要收件人表的特定列集、排序顺序或限制。 
   
-提供程序或网关传递要在_lpRecipientTable_参数中进行编码的表视图。 TNEF 实现使用给定的列集、排序顺序、限制和位置对收件人表使用给定的视图进行编码。 如果提供程序或网关在_lpRecipientTable_中传递了 NULL, TNEF 将从使用[IMessage:: GetRecipientTable](imessage-getrecipienttable.md)方法进行编码的邮件中获取收件人表, 并使用将表中的每一行处理到 TNEF 流中。表的当前设置。 
+提供程序或网关传递表视图以在  _lpRecipientTable_ 参数中编码。 TNEF 实现使用给定列集、排序顺序、限制和位置对给定视图的收件人表进行编码。 如果提供程序或网关在  _lpRecipientTable_ 中传递 NULL，则 TNEF 从使用 [IMessage：：GetRecipientTable](imessage-getrecipienttable.md) 方法编码的邮件获取收件人表，然后使用表的当前设置将表的每一行处理到 TNEF 流中。 
   
-因此, 使用_lpRecipientTable_中的 NULL 调用**EncodeRecips**将对所有邮件收件人进行编码, 并且相当于在其_TNEF_PROP_INCLUDE_参数和 ulFlags 中调用[ITnef:: AddProps](itnef-addprops.md)方法和 PR_ 标记。 **MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 属性在其_lpPropList_参数中。 
+因此，在 _lpRecipientTable_ 中调用 NULL 的 **EncodeRecips** 会编码所有邮件收件人，并且等效于在其 _ulFlags_ 参数中调用具有 TNEF_PROP_INCLUDE 标志的 [ITnef：：AddProps](itnef-addprops.md)方法，以及其 _lpPropList_ 参数中的 **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 属性。 
   
-请注意, 如果需要对特定收件人表视图进行编码, 则几乎不需要调用**EncodeRecips** 。 外部邮件系统几乎总是有处理可满足编码收件人列表的常见需求的收件人列表的功能;因此, 这些系统几乎不需要 TNEF 即可实现此目的。 
+请注意，除非要求对特定的收件人表视图进行编码，否则很少需要调用 **EncodeRecips。** 外消息系统几乎始终具有处理收件人列表所需的工具，这些收件人列表功能足够强大，足以满足对收件人列表进行编码的常见需求;因此，这些系统几乎永远不会需要 TNEF 来达到此目的。 
   
 ## <a name="see-also"></a>另请参阅
 

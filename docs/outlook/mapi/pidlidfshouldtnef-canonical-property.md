@@ -25,31 +25,31 @@ ms.locfileid: "33438965"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示是否使用传输中性封装格式 (TNEF) 对项目进行编码。 
+指示是否使用 TNEF 传输中性封装格式 (项) 。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidFShouldTNEF  <br/> |
-|属性集:  <br/> |PSETID_Common  <br/> |
-|长 ID (盖子):  <br/> |0x000085A5  <br/> |
+|属性集：  <br/> |PSETID_Common  <br/> |
+|LONG ID (的一) ：  <br/> |0x000085A5  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在将 Microsoft Word 设置为电子邮件编辑器, 并发送嵌入在 rtf 格式 (rtf) 流中的 OLE 对象时, 将设置此属性。
+此属性在将 Microsoft Word 设置为电子邮件编辑器时设置，并且它将发送嵌入 RTF rtF 格式格式的 OLE 对象 (RTF) 流。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[毫秒-OXPROPS]] 
+[[MS-OXPROPS]] 
   
-> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关协议规范Exchange Server引用。
     
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     

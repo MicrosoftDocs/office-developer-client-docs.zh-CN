@@ -19,7 +19,7 @@ ms.locfileid: "33439315"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本节包含对[MAPI 引用](mapi-reference.md)中的编程元素的概念性概述。 
+本节包含 MAPI 参考 中的编程元素的概 [念性概述](mapi-reference.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,7 +25,7 @@ ms.locfileid: "33438867"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示 MAPI 客户端的意向继续关闭。
+指示 MAPI 客户端继续关闭的意图。
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
@@ -35,11 +35,11 @@ HRESULT NotifyProcessShutdown ();
 
 S_OK
   
-> mapi 子系统已尝试通知加载的 mapi 提供程序, mapi 客户端即将执行快速关闭。
+> MAPI 子系统已尝试通知已加载的 MAPI 提供程序 MAPI 客户端将执行快速关闭。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-为了避免从 mapi 客户端的快速关闭中丢失数据, mapi 客户端应调用**IMAPIClientShutdown:: NotifyProcessShutdown**和[IMAPIClientShutdown::D](imapiclientshutdown-dofastshutdown.md)基于 MAPI 子系统返回的 S_OK 结果的 ofastshutdown 方法[IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方法。 有关详细信息, 请参阅[Fast Shutdown 的最佳实践](best-practices-for-fast-shutdown.md)。
+为了避免由于快速关闭 MAPI 客户端而丢失数据，MAPI 客户端应基于 [IMAPIClientShutdown：：QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方法中 MAPI 子系统返回的 S_OK 结果调用 **IMAPIClientShutdown：：NotifyProcessShutdown** 和 [IMAPIClientShutdown：:D oFastShutdown](imapiclientshutdown-dofastshutdown.md)方法。 有关详细信息，请参阅[Best Practices for Fast Shutdown。](best-practices-for-fast-shutdown.md)
   
 ## <a name="see-also"></a>另请参阅
 

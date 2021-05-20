@@ -1,5 +1,5 @@
 ---
-title: ExitForEachRecord 宏操作 (Access 自定义 web 应用程序)
+title: 'ExitForEachRecord 宏操作 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438042"
 ---
-# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a>ExitForEachRecord 宏操作 (Access 自定义 web 应用程序)
+# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a>ExitForEachRecord 宏操作 (Access 自定义 Web 应用) 
 
 使用 **ExitForEachRecord** 操作可立即退出 **[ForEachRecord](foreachrecord-data-block-access-custom-web-app.md)** 数据块。 
   

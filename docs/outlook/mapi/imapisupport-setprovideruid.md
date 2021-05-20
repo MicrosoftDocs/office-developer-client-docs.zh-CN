@@ -25,7 +25,7 @@ ms.locfileid: "33437537"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-注册唯一表示服务提供程序的[MAPIUID](mapiuid.md)结构。 
+注册一个唯一表示服务提供商的 [MAPIUID](mapiuid.md) 结构。 
   
 ```cpp
 HRESULT SetProviderUID(
@@ -38,27 +38,27 @@ ULONG ulFlags
 
  _lpProviderID_
   
-> 实时指向标识通讯簿或邮件存储提供程序的**MAPIUID**结构的指针。 
+> [in]指向标识通讯簿或邮件存储提供程序的 **MAPIUID** 结构的指针。 
     
  _ulFlags_
   
-> 保留必须为零。
+> 保留;必须为零。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功注册**MAPIUID**结构。 
+> **已成功注册 MAPIUID** 结构。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-为通讯簿和邮件存储提供程序支持对象实现了**IMAPISupport:: SetProviderUID**方法。 这些提供程序调用**SetProviderUID**以注册_lpProviderID_指向的**MAPIUID**结构中描述的唯一标识符。 提供程序在其创建的所有条目标识符中都包含此标识符。 
+**IMAPISupport：：SetProviderUID** 方法针对通讯簿和邮件存储提供程序支持对象实现。 这些提供程序调用 **SetProviderUID** 以注册 **MAPIUID** 结构中描述的唯一标识符，该结构由  _lpProviderID 指向_。 提供程序在它们创建的所有条目标识符中包括此标识符。 
   
-mapi 在向 mapi 后台处理程序发送出站邮件时使用**MAPIUID**结构, 并确定处理客户端请求的适当提供程序。 例如, 当客户端调用[IMAPISession:: OpenEntry](imapisession-openentry.md)方法时, MAPI 会检查条目标识符的**MAPIUID**部分, 将其映射到传递给**SetProviderUID**的提供程序, 并调用该提供程序的**OpenEntry**. 
+MAPI 在将出站邮件发送到 MAPI 后台处理程序并确定用于处理客户端请求的适当提供程序时，使用 **MAPIUID** 结构。 例如，当客户端调用 [IMAPISession：：OpenEntry](imapisession-openentry.md) 方法时，MAPI 将检查条目标识符的 **MAPIUID** 部分，将 MAPIUID 部分映射到传递到 **SetProviderUID** 的提供程序，并调用该提供程序的 **OpenEntry**。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-在登录时调用**SetProviderUID**以注册**MAPIUID**结构。 MAPI 允许通讯簿和邮件存储提供程序注册多个标识符。 当您对**SetProviderUID**进行多次调用时, 它始终会将**MAPIUID**结构添加到提供程序的**MAPIUID**结构集, 即使**MAPIUID**是重复的也是如此。 **SetProviderUID**无法删除**MAPIUID**。 
+在 **登录时调用 SetProviderUID** 以注册 **MAPIUID** 结构。 MAPI 允许通讯簿和邮件存储提供程序注册多个标识符。 当您多次调用 **SetProviderUID** 时，它始终会将 **MAPIUID** 结构添加到提供程序的 **MAPIUID** 结构集，即使 **MAPIUID** 是重复的。 **SetProviderUID** 无法删除 **MAPIUID**。 
   
 ## <a name="see-also"></a>另请参阅
 

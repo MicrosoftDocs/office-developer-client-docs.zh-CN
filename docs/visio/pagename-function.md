@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251577
 localization_priority: Normal
 ms.assetid: 12e45f46-e773-9445-4c7f-c726ab648671
-description: 以字符串的形式返回页面名称。
+description: 以字符串形式返回页面名称。
 ms.openlocfilehash: d5527bde58a68c96bd75773f3a0a8c30f64fa20d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33438650"
 ---
 # <a name="pagename-function"></a>PAGENAME 函数
 
-以字符串的形式返回页面名称。
+以字符串形式返回页面名称。
   
 ## <a name="syntax"></a>语法
 
-PAGENAME (* * *langID_opt* * *) 
+PAGENAME (** *langID_opt* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -34,7 +34,7 @@ PAGENAME (* * *langID_opt* * *)
 
 String
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 如果传递了非法的语言代码，则将使用本地语言。
   

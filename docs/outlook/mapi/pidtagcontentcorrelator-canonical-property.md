@@ -34,21 +34,21 @@ ms.locfileid: "33438524"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-二进制字符串的内容由邮件原始发件人定义。 如果在传出邮件上设置, 应将此属性复制到为响应邮件而生成的任何报告中。
+二进制字符串的内容由邮件发起方定义。 如果对传出邮件进行设置，则此属性应复制到为响应邮件而生成的任何报告中。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

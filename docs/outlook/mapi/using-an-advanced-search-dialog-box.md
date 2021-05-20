@@ -1,5 +1,5 @@
 ---
-title: 使用 "高级搜索" 对话框
+title: 使用高级搜索对话框
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,24 +15,24 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437299"
 ---
-# <a name="using-an-advanced-search-dialog-box"></a>使用 "高级搜索" 对话框
+# <a name="using-an-advanced-search-dialog-box"></a>使用高级搜索对话框
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-某些通讯簿容器支持高级搜索功能, 使客户端可以搜索除**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 以外的属性。 支持高级搜索的通讯簿容器具有一个名为**PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) 的容器对象属性。 此容器对象提供对描述 "搜索" 对话框 (用于输入和编辑高级搜索条件的对话框) 的显示表的访问。
+某些通讯簿容器支持高级搜索功能，该功能允许客户端搜索[PidTagDisplayName](pidtagdisplayname-canonical-property.md) PR_DISPLAY_NAME (属性) 。  支持高级搜索的通讯簿容器具有名为 PR_SEARCH ( [PidTagSearch](pidtagsearch-canonical-property.md)) 。 此容器对象提供对描述搜索对话框（用于输入和编辑高级搜索条件的对话框）的显示表的访问。
   
  **对通讯簿容器执行高级搜索**
   
-1. 调用容器的[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法, 并为该接口标识符指定属性标记和 IID_IMAPIContainer 的**PR_SEARCH** 。 
+1. 调用容器的[IMAPIProp：：OpenProperty](imapiprop-openproperty.md)方法，PR_SEARCH属性标记指定值，IID_IMAPIContainer指定接口标识符。 
     
-2. 调用 search 对象的**IMAPIProp:: OpenProperty**方法, 为该接口标识符指定属性标记和 IID_IMAPITable 的**PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md))。 
+2. 调用搜索对象的 **IMAPIProp：：OpenProperty** 方法，为属性标记指定 **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) ，为接口标识符指定 IID_IMAPITable。 
     
-3. 调用 search 对象的[IMAPIProp:: SetProps](imapiprop-setprops.md)方法以建立要在高级搜索中使用的属性的值。 
+3. 调用搜索对象的 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法，为要用于高级搜索的属性建立值。 
     
-4. 调用搜索对象的[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法以保存高级搜索条件。 
+4. 调用搜索对象的 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法来保存高级搜索条件。 
     
-当客户端调用搜索对象的**GetSearchCriteria**方法时, 此调用序列将导致限制可用。 
+此调用序列导致在客户端调用搜索对象的 **GetSearchCriteria** 方法时可用的限制。 
   
 

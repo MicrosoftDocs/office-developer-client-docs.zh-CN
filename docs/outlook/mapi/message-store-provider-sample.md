@@ -21,53 +21,53 @@ ms.locfileid: "33436865"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-示例包装的 PST 存储区提供程序使用个人文件夹文件 (PST) 提供程序作为存储数据的后端。 包装的 PST 存储区提供程序应与复制 API 一起使用。 
+包装的 PST 存储提供程序示例使用 PST (个人) 文件作为存储数据的后端。 包装的 PST 存储提供程序应该与复制 API 一起使用。 
   
-复制 API 使您能够将项目从后端数据存储库复制到 Microsoft Outlook PST 存储。 您可以使用复制 API 将数据复制到专用的 PST 存储, 并跟踪同步状态。 有关详细信息, 请参阅[关于复制 API](about-the-replication-api.md)。
+复制 API 使您能够将项目从后端数据存储库复制到 Microsoft Outlook PST 存储。 使用复制 API 将数据复制到专用 PST 存储并跟踪同步状态。 有关详细信息，请参阅[关于复制 API。](about-the-replication-api.md)
   
-示例包装的 pst 存储提供程序中的大多数函数将其参数直接传递给基础 PST 提供程序。 某些函数需要特殊实现, 以下主题对此进行了说明。
+示例包装 PST 存储提供程序中的大多数函数都直接将参数传递给基础 PST 提供程序。 某些函数需要特殊实现，以下主题对此进行了介绍。
   
 |||
 |:-----|:-----|
-|执行  <br/> |WrpPST32  <br/> |
-|源代码目录:  <br/> |SampleWrappedPSTStoreProvider\WrapPST  <br/> |
-|语言  <br/> |c  <br/> |
-|平台  <br/> |Microsoft Visual Studio 2008 for windows Vista、windows server 2008、windows XP SP2 和 windows Server 2003 SP1 的编译  <br/> |
+|可执行文件：  <br/> |WrpPST32.dll  <br/> |
+|源代码目录：  <br/> |SampleWrappedPSTStoreProvider\WrapPST  <br/> |
+|语言：  <br/> |C++  <br/> |
+|平台：  <br/> |Microsoft Visual Studio 2008 针对 Windows Vista、Windows Server 2008、Windows XP SP2 和 Windows Server 2003 SP1 进行编译  <br/> |
    
 ## <a name="supported-features"></a>支持的功能
 
-此示例支持 Microsoft outlook 2010 64 位, 现已针对 Outlook 2013 进行了修订。 有关其他信息, 请参阅以下主题:
+此示例支持 Microsoft Outlook 2010 64 位，并且现已针对 2013 Outlook进行了修订。 有关其他信息，请参阅以下主题：
   
 - [关于复制 API](about-the-replication-api.md)
     
-- [初始化打包的 PST 存储区提供程序](initializing-a-wrapped-pst-store-provider.md)
+- [初始化包装的 PST 存储提供程序](initializing-a-wrapped-pst-store-provider.md)
     
-- [登录到打包的 PST 存储区提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
+- [登录到包装的 PST 存储提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
     
-- [使用包装的 PST 存储区提供程序](using-a-wrapped-pst-store-provider.md)
+- [使用包装的 PST 存储提供程序](using-a-wrapped-pst-store-provider.md)
     
-- [关闭打包的 PST 存储区提供程序](shutting-down-a-wrapped-pst-store-provider.md)
+- [关闭包装的 PST 存储提供程序](shutting-down-a-wrapped-pst-store-provider.md)
     
- **安装示例包装的 PST 存储区提供程序**
+ **安装包装的 PST 存储提供程序示例**
   
-1. 若要下载示例打包的 PST 提供程序, 请参阅[下载 Outlook MAPI 示例](downloading-the-outlook-mapi-samples.md)。
+1. 若要下载包装的 PST 提供程序示例，请参阅[下载Outlook MAPI 示例](downloading-the-outlook-mapi-samples.md)。
     
-2. 找到保存 Outlook MAPI 示例的文件夹。 右键单击 " **OutlookMAPISamples\<\>号码**" zip 文件夹, 然后单击 "**全部提取**"。
+2. 找到保存 MAPI 示例Outlook的文件夹。 右键单击 **OutlookMAPISamples- \< 版本号 \>** zip 文件夹，然后单击"全部 **提取"。**
     
-3. 单击 "**浏览**", 选择要保存示例的位置, 然后单击 "**提取**"。
+3. 单击 **"** 浏览"，选择要保存示例的位置，然后单击"提取 **"。**
     
 4. 运行 Microsoft Visual Studio 2008。
     
-5. 在 Microsoft Visual Studio 2008 中, 单击 "**文件**", 选择 "**打开**", 然后单击 "**项目/解决方案**"。
+5. 在 Microsoft Visual Studio 2008 中，单击"文件"，选择"打开 **"，然后单击"Project/解决方案"。**
     
-6. 浏览到保存示例的位置, 单击 " **WrapPST**", 然后单击 "**打开**"。
+6. 浏览到保存示例的位置，单击 **WrapPST.vcproj，** 然后单击"打开 **"。**
     
 7. 在"构建"菜单上，单击"构建解决方案"。
     
-8. 在 "**将文件另存为**" 对话框中, 单击 "**保存**"。
+8. 在"**将文件另存为**"对话框中，单击"保存 **"。**
     
-9. 在保存示例的文件夹中, 右键单击 **.bat**文件, 然后单击 "**以管理员身份运行**"。
+9. 在保存示例的文件夹中，右键单击 **install.bat文件，** 然后单击"以 **管理员角色运行"。**
     
-10. 在“用户帐户控制”**** 对话框中，单击“继续”****。
+10. 在“用户帐户控制”对话框中，单击“继续”。
     
 

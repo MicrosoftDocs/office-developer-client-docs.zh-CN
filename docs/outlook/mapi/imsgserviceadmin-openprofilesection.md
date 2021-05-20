@@ -25,7 +25,7 @@ ms.locfileid: "33437110"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-打开当前配置文件的一个部分, 并返回一个[IProfSect](iprofsectimapiprop.md)指针以供进一步访问。 
+打开当前配置文件的一部分并返回 [IProfSect](iprofsectimapiprop.md) 指针以进一步访问。 
   
 ```cpp
 HRESULT OpenProfileSection(
@@ -40,59 +40,59 @@ HRESULT OpenProfileSection(
 
  _lpUID_
   
-> 指向标识配置文件节的[MAPIUID](mapiuid.md)结构的指针。 
+> 指向标识配置文件节的 [MAPIUID](mapiuid.md) 结构的指针。 
     
  _lpInterface_
   
-> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示要用于访问配置文件部分的接口。 将 NULL 结果传递到在_lppProfSect_参数中返回到其标准接口的指针。 配置文件节的标准接口是**IProfSect**。
+> [in]指向接口标识符的 (IID) 表示用于访问配置文件节的接口。 传递 NULL 会导致在  _lppProfSect_ 参数中返回指向其标准接口的指针。 配置文件部分的标准接口是 **IProfSect**。
     
  _ulFlags_
   
-> 实时用于控制对配置文件部分的访问的标志的位掩码。 可以设置以下标志:
+> [in]控制对配置文件节的访问的标志的位掩码。 可以设置以下标志：
     
 MAPI_DEFERRED_ERRORS 
   
-> 允许**OpenProfileSection**成功返回, 这可能在配置文件部分完全可用于调用客户端之前返回。 如果 "配置文件" 部分不可用, 则对其进行后续调用可能会引发错误。 
+> 允许 **OpenProfileSection** 成功返回，可能在配置文件部分完全可供调用客户端使用之前。 如果配置文件部分不可用，则后续调用它可能会引发错误。 
     
 MAPI_MODIFY 
   
-> 请求读取/写入权限。 默认情况下, 配置文件分区以只读权限打开, 并且客户端不应在假定已授予读/写权限时才起作用。 
+> 请求读/写权限。 默认情况下，使用只读权限打开配置文件节，客户端不应在已授予读/写权限的假设下工作。 
     
 MAPI_FORCE_ACCESS
   
-> 允许访问所有配置文件部分, 甚至包括各个服务提供商拥有的部分。
+> 允许访问所有配置文件节，甚至是单个服务提供商拥有的内容。
     
  _lppProfSect_
   
-> 排除指向指向配置文件部分的指针的指针。
+> [out]指向指向配置文件节的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功打开 "配置文件" 部分。
+> 已成功打开配置文件部分。
     
 MAPI_E_NO_ACCESS 
   
-> 试图访问呼叫者没有足够权限的配置文件部分。
+> 尝试访问呼叫者权限不足的配置文件部分。
     
 MAPI_E_NOT_FOUND 
   
 > 请求的配置文件部分不存在。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMsgServiceAdmin:: OpenProfileSection**方法打开一个 profile 部分, 该对象支持[IProfSect](iprofsectimapiprop.md)接口。 配置文件节用于读取信息以及将信息写入会话配置文件。 
+**IMsgServiceAdmin：：OpenProfileSection** 方法打开配置文件节，即支持 [IProfSect 接口](iprofsectimapiprop.md)的对象。 配置文件部分用于从会话配置文件读取信息和将信息写入会话配置文件。 
   
- **OpenProfileSection**不能用于打开由单个服务提供商拥有的配置文件节, 除非使用 MAPI_FORCE_ACCESS。 
+ **OpenProfileSection** 不能用于打开单个服务提供商拥有的配置文件部分，除非MAPI_FORCE_ACCESS配置文件节。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-多个客户端可以打开具有只读权限的配置文件部分, 但只有一台客户端可以打开具有读/写权限的配置文件节。 如果另一个客户端有一个配置文件节打开, 您试图通过调用**OpenProfileSection**并设置 MAPI_MODIFY 标志来打开, 则该调用将失败, 返回 MAPI_E_NO_ACCESS。 
+多个客户端可以使用只读权限打开配置文件节，但只有一个客户端可以使用读/写权限打开配置文件节。 如果另一个客户端打开了一个配置文件节，而您尝试通过调用设置了 MAPI_MODIFY 标志的 **OpenProfileSection** 来打开该节，则调用将失败，并返回 MAPI_E_NO_ACCESS。 
   
-如果为写入打开了该节, 则只读打开操作将失败。 
+如果打开部分进行写入，则只读打开操作将失败。 
   
-您可以通过在_lpUID_参数中调用带有 MAPI_MODIFY 标志的**OpenProfileSection**和不存在的[MAPIUID](mapiuid.md)结构来创建配置文件节。 确保指定 MAPI_MODIFY。 如果将_lpUID_设置为指向不存在的**MAPIUID** , 并且将**OpenProfileSection**设置为使用只读的默认访问模式, 则调用将会因 MAPI_E_NOT_FOUND 而失败。 
+您可以通过调用具有 MAPI_MODIFY 标志和 _lpUID_ 参数中不存在 [的 MAPIUID](mapiuid.md)结构的 **OpenProfileSection** 来创建配置文件节。 请务必指定MAPI_MODIFY。 如果将  _lpUID_ 设置为指向不存在的 **MAPIUID，** 而将 **OpenProfileSection** 设置为使用只读的默认访问模式，则调用将失败，MAPI_E_NOT_FOUND。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -100,7 +100,7 @@ MAPI_E_NOT_FOUND
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions  <br/> |OpenProfileSection  <br/> |MFCMAPI 使用**IMsgServiceAdmin:: OpenProfileSection**方法打开配置文件部分。  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI 使用 **IMsgServiceAdmin：：OpenProfileSection** 方法打开配置文件节。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

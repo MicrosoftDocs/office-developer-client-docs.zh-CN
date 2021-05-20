@@ -25,11 +25,11 @@ ms.locfileid: "33439266"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于描述类型 PT_MV_DOUBLE 的属性的双精度数组。
+包含一个双精度数组，用于描述类型为 PT_MV_DOUBLE。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SDoubleArray
@@ -44,15 +44,15 @@ typedef struct _SDoubleArray
 
  **cValues**
   
-> 由**lpdbl**成员指向的数组中的值的计数。 
+> **lpdbl** 成员指向的数组中的值计数。 
     
  **lpdbl**
   
-> 指向双精度值数组的指针。
+> 指向双值数组的指针。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关 PT_MV_DOUBLE 的详细信息, 请参阅[属性类型列表](property-types.md)。
+有关属性类型PT_MV_DOUBLE，请参阅 [属性类型列表](property-types.md)。
   
 ## <a name="see-also"></a>另请参阅
 

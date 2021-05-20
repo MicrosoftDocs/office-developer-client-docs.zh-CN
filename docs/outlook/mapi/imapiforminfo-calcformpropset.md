@@ -25,7 +25,7 @@ ms.locfileid: "33438069"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个指针, 该指针指向表单使用的完整属性集。
+返回一个指针，该指针指向窗体使用的完整属性集。
   
 ```cpp
 HRESULT CalcFormPropSet(
@@ -38,25 +38,25 @@ HRESULT CalcFormPropSet(
 
  _ulFlags_
   
-> 实时用于控制返回的字符串类型的标志的位掩码。 可以设置以下标志:
+> [in]控制返回的字符串类型的标志位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 返回的字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
  _ppFormPropArray_
   
-> 排除指向返回的[SMAPIFormPropArray](smapiformproparray.md)结构的指针的指针。 
+> [out]指向返回的 [SMAPIFormPropArray 结构的指针的](smapiformproparray.md) 指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
 MAPI_E_BAD_CHARWIDTH 
   
-> 设置了 MAPI_UNICODE 标志, 且实现不支持 unicode, 或者未设置 MAPI_UNICODE, 且实现仅支持 UNICODE。
+> 设置 MAPI_UNICODE 标志，而实现不支持 Unicode，或者MAPI_UNICODE未设置，并且实现仅支持 Unicode。
     
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -64,7 +64,7 @@ MAPI_E_BAD_CHARWIDTH
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MFCOutput  <br/> |_OutputFormInfo  <br/> |在为表单信息对象编写调试输出时, MFCMAPI 使用**IMAPIFormInfo:: CalcFormPropSet**方法。  <br/> |
+|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |为表单信息对象编写调试输出时，MFCMAPI 使用 **IMAPIFormInfo：：CalcFormPropSet** 方法。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

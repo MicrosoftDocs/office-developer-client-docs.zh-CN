@@ -25,11 +25,11 @@ ms.locfileid: "33437726"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-从其 ASCII 编码重新创建条目标识符。 
+从 ASCII 编码重新创建条目标识符。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
    
@@ -45,32 +45,32 @@ HRESULT HrEntryIDFromSz(
 
  _sz_
   
-> 实时指向从中创建条目标识符的 ASCII 字符串的指针。 
+> [in]指向用于创建条目标识符的 ASCII 字符串的指针。 
     
- _pcb_
+ _这些_
   
-> 排除指向由_ppentry_参数指向的条目标识符的大小 (以字节为单位) 的指针。 
+> [out]指向  _ppentry_ 参数指向的条目标识符的大小（以字节为单位）的指针。 
     
  _ppentry_
   
-> 排除指向指向包含新条目标识符的返回[ENTRYID](entryid.md)结构的指针的指针。 
+> [out]指向返回的包含新条目标识符 [的 ENTRYID](entryid.md) 结构的指针的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 重新创建成功。
+> 娱乐已成功。
     
 MAPI_E_INVALID_ENTRYID
   
 > 条目 ID 无效。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**HrEntryIDFromSz**和[HrSzFromEntryID](hrszfromentryid.md)函数提供条目标识符的字符串和二进制格式之间的转换。 
+**HrEntryIDFromSz** 和 [HrSzFromEntryID](hrszfromentryid.md)函数提供条目标识符的字符串和二进制格式之间的转换。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-**HrEntryIDFromSz**函数使用[MAPIAllocateBuffer](mapiallocatebuffer.md)函数为 ASCII 字符串分配内存。 
+**HrEntryIDFromSz** 函数使用 [MAPIAllocateBuffer](mapiallocatebuffer.md)函数为 ASCII 字符串分配内存。 
   
 

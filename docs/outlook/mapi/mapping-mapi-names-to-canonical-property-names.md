@@ -21,11 +21,11 @@ ms.locfileid: "34542700"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题将每个 MAPI 属性映射到相应的规范属性名称。 主题包含三个表: 一个包含数字标识符的命名属性的表, 第二个表用于带有字符串标识符的命名属性, 第三个表用于标记属性。
+本主题将每个 MAPI 属性映射到相应的规范属性名称。 本主题包含三个表：一个表用于具有数字标识符的命名属性，第二个表用于具有字符串标识符的命名属性，第三个表用于标记属性。
   
-有关规范化属性与 MAPI 属性的关系的详细信息, 请参阅[MAPI 规范属性](mapi-canonical-properties.md)。
+有关规范属性与 MAPI 属性如何关联的信息，请参阅 [MAPI 规范属性](mapi-canonical-properties.md)。
   
-## <a name="named-properties-with-numerical-identifiers"></a>带有数值标识符的命名属性
+## <a name="named-properties-with-numerical-identifiers"></a>具有数字标识符的命名属性
 
 |**实际命名属性**|**规范属性名称**|
 |:-----|:-----|
@@ -224,7 +224,7 @@ ms.locfileid: "34542700"
 |dispidSendMtgAsICAL  <br/> |[PidLidSendMeetingAsIcal](pidlidsendmeetingasical-canonical-property.md) <br/> |
 |dispidSharingCaps  <br/> |[PidLidSharingCapabilities](pidlidsharingcapabilities-canonical-property.md) <br/> |
 |dispidSharingConfigUrl  <br/> |[PidLidSharingConfigurationUrl](pidlidsharingconfigurationurl-canonical-property.md) <br/> |
-|dispidSharingFlavor  <br/> |[PidLidSharingFlavor](pidlidsharingflavor-canonical-property.md) <br/> |
+|dispidSharingF一体机  <br/> |[PidLidSharingF功能or](pidlidsharingflavor-canonical-property.md) <br/> |
 |dispidSharingInitiatorEid  <br/> |[PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md) <br/> |
 |dispidSharingInitiatorName  <br/> |[PidLidSharingInitiatorName](pidlidsharinginitiatorname-canonical-property.md) <br/> |
 |dispidSharingInitiatorSmtp  <br/> |[PidLidSharingInitiatorSmtp](pidlidsharinginitiatorsmtp-canonical-property.md) <br/> |
@@ -304,7 +304,7 @@ ms.locfileid: "34542700"
 |LID_TIME_ZONE  <br/> |[PidLidTimeZone](pidlidtimezone-canonical-property.md) <br/> |
 |LID_WHERE  <br/> |[PidLidWhere](pidlidwhere-canonical-property.md) <br/> |
    
-## <a name="named-properties-with-string-identifiers"></a>带有字符串标识符的命名属性
+## <a name="named-properties-with-string-identifiers"></a>具有字符串标识符的命名属性
 
 |**实际命名属性**|**规范属性名称**|
 |:-----|:-----|
@@ -316,10 +316,10 @@ ms.locfileid: "34542700"
 |ByteCount  <br/> |[PidNameByteCount](pidnamebytecount-canonical-property.md) <br/> |
 |类别  <br/> |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |
 |CharCount  <br/> |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |
-|Comments  <br/> |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |
-|Company  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
+|备注  <br/> |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |
+|公司  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
 |Content-Base  <br/> |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |
-|Content 类  <br/> |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |
+|Content-Class  <br/> |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |
 |Content-Transfer-Encoding  <br/> |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |
 |Content-Type  <br/> |[PidNameContentType](pidnamecontenttype-canonical-property.md) <br/> |
 |CreateDtmRo  <br/> |[PidNameCreateDateTimeReadOnly](pidnamecreatedatetimereadonly-canonical-property.md) <br/> |
@@ -341,23 +341,23 @@ ms.locfileid: "34542700"
 |PresFormat  <br/> |[PidNamePresentationFormat](pidnamepresentationformat-canonical-property.md) <br/> |
 |RevNumber  <br/> |[PidNameRevisionNumber](pidnamerevisionnumber-canonical-property.md) <br/> |
 |安全性  <br/> |[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |
-|并 slidecount  <br/> |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |
-|Subject  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
+|SlideCount  <br/> |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |
+|主题  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
 |模板  <br/> |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |
 |标题  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
 |UMAudioNotes  <br/> |[PidNameAudioNotes](pidnameaudionotes-canonical-property.md) <br/> |
 |WordCount  <br/> |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |
-|X-共享功能  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
-|X 共享-配置-Url  <br/> |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |
-|X 共享-风格  <br/> |[PidNameXSharingFlavor](pidnamexsharingflavor-canonical-property.md) <br/> |
-|X 共享-本地类型  <br/> |[PidNameXSharingLocalType](pidnamexsharinglocaltype-canonical-property.md) <br/> |
-|X-共享-提供程序-Guid  <br/> |[PidNameXSharingProviderGuid](pidnamexsharingproviderguid-canonical-property.md) <br/> |
-|X 共享-提供程序名称  <br/> |[PidNameXSharingProviderName](pidnamexsharingprovidername-canonical-property.md) <br/> |
-|X-共享-提供程序-Url  <br/> |[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |
-|X 共享-远程名称  <br/> |[PidNameXSharingRemoteName](pidnamexsharingremotename-canonical-property.md) <br/> |
-|X 共享-远程存储-Uid  <br/> |[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |
-|X 共享-远程类型  <br/> |[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |
-|X 共享-远程 Uid  <br/> |[PidNameXSharingRemoteUid](pidnamexsharingremoteuid-canonical-property.md) <br/> |
+|X-Sharing-Capabilities  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
+|X-Sharing-Config-Url  <br/> |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |
+|X-Sharing-Flavor  <br/> |[PidNameXSharingF功能or](pidnamexsharingflavor-canonical-property.md) <br/> |
+|X-Sharing-Local-Type  <br/> |[PidNameXSharingLocalType](pidnamexsharinglocaltype-canonical-property.md) <br/> |
+|X-Sharing-Provider-Guid  <br/> |[PidNameXSharingProviderGuid](pidnamexsharingproviderguid-canonical-property.md) <br/> |
+|X-Sharing-Provider-Name  <br/> |[PidNameXSharingProviderName](pidnamexsharingprovidername-canonical-property.md) <br/> |
+|X-Sharing-Provider-Url  <br/> |[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |
+|X-Sharing-Remote-Name  <br/> |[PidNameXSharingRemoteName](pidnamexsharingremotename-canonical-property.md) <br/> |
+|X-Sharing-Remote-Store-Uid  <br/> |[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |
+|X-Sharing-Remote-Type  <br/> |[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |
+|X-Sharing-Remote-Uid  <br/> |[PidNameXSharingRemoteUid](pidnamexsharingremoteuid-canonical-property.md) <br/> |
 |Xref  <br/> |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |
    
 ## <a name="tagged-properties"></a>标记属性
@@ -571,10 +571,10 @@ ms.locfileid: "34542700"
 |PR_CONVERSATION_TOPIC_A  <br/> |[PidTagConversationTopic](pidtagconversationtopic-canonical-property.md) <br/> |
 |PR_CONVERSATION_TOPIC_W  <br/> |[PidTagConversationTopic](pidtagconversationtopic-canonical-property.md) <br/> |
 |PR_CONVERSATION_TOPIC  <br/> |[PidTagConversationTopic](pidtagconversationtopic-canonical-property.md) <br/> |
-|PR_CONVERSION_EITS  <br/> |[PidTagConversionEits](pidtagconversioneits-canonical-property.md) <br/> |
+|PR_CONVERSION_EITS  <br/> |[PidTagConversion使用](pidtagconversioneits-canonical-property.md) <br/> |
 |PR_CONVERSION_PROHIBITED  <br/> |[PidTagConversionProhibited](pidtagconversionprohibited-canonical-property.md) <br/> |
 |PR_CONVERSION_WITH_LOSS_PROHIBITED  <br/> |[PidTagConversionWithLossProhibited](pidtagconversionwithlossprohibited-canonical-property.md) <br/> |
-|PR_CONVERTED_EITS  <br/> |[PidTagConvertedEits](pidtagconvertedeits-canonical-property.md) <br/> |
+|PR_CONVERTED_EITS  <br/> |[PidTagConvertedVertedS](pidtagconvertedeits-canonical-property.md) <br/> |
 |PR_CORRELATE_MTSID  <br/> |[PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md) <br/> |
 |PR_CORRELATE  <br/> |[PidTagCorrelate](pidtagcorrelate-canonical-property.md) <br/> |
 |PR_COUNTRY_A  <br/> |[PidTagCountry](pidtagcountry-canonical-property.md) <br/> |
@@ -806,7 +806,7 @@ ms.locfileid: "34542700"
 |PR_LANGUAGES_A  <br/> |[PidTagLanguages](pidtaglanguages-canonical-property.md) <br/> |
 |PR_LANGUAGES_W  <br/> |[PidTagLanguages](pidtaglanguages-canonical-property.md) <br/> |
 |PR_LANGUAGES  <br/> |[PidTagLanguages](pidtaglanguages-canonical-property.md) <br/> |
-|操作  <br/> |[PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md) <br/> |
+|PR_LAST_MODIFICATION_TIME  <br/> |[PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md) <br/> |
 |PR_LAST_VERB_EXECUTED  <br/> |[PidTagLastVerbExecuted](pidtaglastverbexecuted-canonical-property.md) <br/> |
 |PR_LAST_VERB_EXECUTION_TIME  <br/> |[PidTagLastVerbExecutionTime](pidtaglastverbexecutiontime-canonical-property.md) <br/> |
 |PR_LATEST_DELIVERY_TIME  <br/> |[PidTagLatestDeliveryTime](pidtaglatestdeliverytime-canonical-property.md) <br/> |
@@ -922,7 +922,7 @@ ms.locfileid: "34542700"
 |PR_ORIGINAL_DISPLAY_TO_A  <br/> |[PidTagOriginalDisplayTo](pidtagoriginaldisplayto-canonical-property.md) <br/> |
 |PR_ORIGINAL_DISPLAY_TO_W  <br/> |[PidTagOriginalDisplayTo](pidtagoriginaldisplayto-canonical-property.md) <br/> |
 |PR_ORIGINAL_DISPLAY_TO  <br/> |[PidTagOriginalDisplayTo](pidtagoriginaldisplayto-canonical-property.md) <br/> |
-|PR_ORIGINAL_EITS  <br/> |[PidTagOriginalEits](pidtagoriginaleits-canonical-property.md) <br/> |
+|PR_ORIGINAL_EITS  <br/> |[PidTagOriginal使用](pidtagoriginaleits-canonical-property.md) <br/> |
 |PR_ORIGINAL_ENTRYID  <br/> |[PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md) <br/> |
 |PR_ORIGINAL_SEARCH_KEY  <br/> |[PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md) <br/> |
 |PR_ORIGINAL_SENDER_ADDRTYPE_A  <br/> |[PidTagOriginalSenderAddressType](pidtagoriginalsenderaddresstype-canonical-property.md) <br/> |
@@ -1002,7 +1002,7 @@ ms.locfileid: "34542700"
 |PR_PERSONAL_HOME_PAGE_A  <br/> |[PidTagPersonalHomePage](pidtagpersonalhomepage-canonical-property.md) <br/> |
 |PR_PERSONAL_HOME_PAGE_W  <br/> |[PidTagPersonalHomePage](pidtagpersonalhomepage-canonical-property.md) <br/> |
 |PR_PERSONAL_HOME_PAGE  <br/> |[PidTagPersonalHomePage](pidtagpersonalhomepage-canonical-property.md) <br/> |
-|PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY  <br/> |[PidTagPhysicalDeliveryBureauFaxDelivery](pidtagphysicaldeliverybureaufaxdelivery-canonical-property.md) <br/> |
+|PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY  <br/> |[PidTagPhysicalDeliveryBur一faxDelivery](pidtagphysicaldeliverybureaufaxdelivery-canonical-property.md) <br/> |
 |PR_PHYSICAL_DELIVERY_MODE  <br/> |[PidTagPhysicalDeliveryMode](pidtagphysicaldeliverymode-canonical-property.md) <br/> |
 |PR_PHYSICAL_DELIVERY_REPORT_REQUEST  <br/> |[PidTagPhysicalDeliveryReportRequest](pidtagphysicaldeliveryreportrequest-canonical-property.md) <br/> |
 |PR_PHYSICAL_FORWARDING_ADDRESS_REQUESTED  <br/> |[PidTagPhysicalForwardingAddressRequested](pidtagphysicalforwardingaddressrequested-canonical-property.md) <br/> |

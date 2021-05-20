@@ -20,7 +20,7 @@ ms.locfileid: "33438692"
 
 确定从横向适合绘图页的打印纸的数目。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 只有在 OnPage 单元格设置为 TRUE 后才使用此值。 
   

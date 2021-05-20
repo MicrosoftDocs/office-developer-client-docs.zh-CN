@@ -35,7 +35,7 @@ HRESULT IOlkAccount::GetAccountInfo(
 
 _pclsidType_
   
-> 排除帐户类型的类标识符。 该值必须为以下项之一：
+> [out]帐户类型的类标识符。 该值必须为以下项之一：
     
    - CLSID_OlkPOP3Account 
     
@@ -49,11 +49,11 @@ _pclsidType_
     
 _pcCategories_
   
-> 排除_prgclsidCategory_中的类别数。
+> [out]  _prgclsidCategory 中的类别数_。
     
 _prgclsidCategory_
   
-> 排除与此帐户关联的类别的数组。 数组的大小为 * _pcCategories_。 数组中每个类别的值必须是下列值之一:
+> [out]与此帐户关联的类别数组。 数组的大小 * _pcCategories_。 数组中每个类别的值必须是下列值之一：
     
    - CLSID_OlkMail
     
@@ -65,11 +65,11 @@ _prgclsidCategory_
 
 如果该调用成功，则返回 S_OK否则为一个错误代码。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此方法返回后, 必须使用[IOlkAccount:: FreeMemory](iolkaccount-freememory.md)释放*prgclsidCategory* 。
+此方法返回后，必须使用 [IOlkAccount：：FreeMemory](iolkaccount-freememory.md)释放 *prgclsidCategory* 。
   
-**IOlkAccount:: GetAccountInfo**不支持 Exchange 帐户的通讯簿类别。 如果帐户是 Exchange 帐户 (*pclsidType*为**CLSID_OlkMAPIAccount** ), 并且帐户实现了通讯簿, 则调用**IOlkAccount:: GetAccountInfo**不会将**CLSID_OlkAddressBook**作为中*的类别返回prgclsidCategory* 。 
+**IOlkAccount：：GetAccountInfo** 不支持帐户的通讯簿Exchange类别。 如果该帐户是 Exchange 帐户 (*pclsidType* 为 **CLSID_OlkMAPIAccount** ) ，并且该帐户实现通讯簿，则调用 **IOlkAccount：：GetAccountInfo** 不会将 **CLSID_OlkAddressBook** 作为 *prgclsidCategory* 中的类别返回。 
   
 ## <a name="see-also"></a>另请参阅
 

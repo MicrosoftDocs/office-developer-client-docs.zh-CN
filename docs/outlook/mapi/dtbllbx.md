@@ -25,11 +25,11 @@ ms.locfileid: "33438566"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍将在从显示表生成的对话框中使用的列表。
+描述将在从显示表构建的对话框中使用的列表。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLLBX
@@ -45,11 +45,11 @@ typedef struct _DTBLLBX
 
  **ulFlags**
   
-> 用于从列表中消除水平或垂直滚动条的标志位掩码。 可以设置以下标志:
+> 用于从列表中消除水平或垂直滚动条的标志的位掩码。 可以设置以下标志：
     
 MAPI_NO_HBAR 
   
-> 不应在列表中显示任何水平滚动条。
+> 列表上不应显示水平滚动条。
     
 MAPI_NO_VBAR 
   
@@ -57,35 +57,35 @@ MAPI_NO_VBAR
     
  **ulPRSetProperty**
   
-> 任何类型的属性的属性标记。 此属性是由**ulPRTableTable**成员标识的表中的一列。 
+> 任何类型的属性的属性标记。 此属性是由 **ulPRTableTable** 成员标识的表中的列之一。 
     
  **ulPRTableName**
   
-> 可以使用**OpenProperty**调用打开的 PT_OBJECT 类型的 table 属性的属性标记。 表应包含的列数取决于列表是单个还是多个选择列表。 如果将**ulPRSetProperty**成员设置为**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)), 则此列表允许多项选择。
+> 表类型属性的属性标记PT_OBJECT **OpenProperty** 调用打开的表属性。 表格应包含的列数取决于列表是单选列表还是多选列表。 如果 **ulPRSetProperty** 成员设置为PR_NULL ([PidTagNull](pidtagnull-canonical-property.md)) ，则列表允许多重选择。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**DTBLLBX**结构描述用于显示多个项目的控件的列表, 并允许用户选择一个或多个项目。 
+**DTBLLBX** 结构描述列表一个控件，该控件用于显示多个项目，并允许用户选择一个或多个项目。 
   
-**ulPRSetProperty**成员和**ulPRTableName**成员一起工作;当从表中选择一个值时, 它会在对话框关闭时写回到**ulPRSetProperty** 。 
+**ulPRSetProperty** 成员和 **ulPRTableName** 成员协同工作;当从表中选择一个值时，当对话框关闭时，它会写回 **ulPRSetProperty。** 
   
-flags 值指示是否在列表中显示水平和垂直滚动条。 默认值为如果需要, 则显示滚动条的类型。 服务提供程序可以将 MAPI_NO_HBAR 设置为禁止水平滚动条和 MAPI_NO_VBAR, 以禁止显示垂直滚动条。 
+flags 值指示水平滚动条还是垂直滚动条应该与列表一起显示。 默认设置是显示滚动条类型（如果需要）。 服务提供商可以设置MAPI_NO_HBAR以禁止显示水平滚动条，MAPI_NO_VBAR禁止垂直滚动条。 
   
-当选择列表中的项目时, 这两个属性标记成员将一起显示列表中的值并设置相应的属性。 当 MAPI 第一次显示列表时, 它会调用**IMAPIProp**实现的**OpenProperty**方法, 以检索**ulPRTableName**成员中标识的表。 表中的列数取决于**ulPRSetProperty**成员的值。 如果将**ulPRSetProperty**设置为**PR_NULL**, 则列表是基于包含收件人的对象的多选列表, 如通讯簿容器、邮件的收件人表或通讯组列表内容表。 
+这两个属性标记成员协同工作，以显示列表中的值，并设置相应的属性（当选择列表中的项目时）。 当 MAPI 首次显示列表时，它将调用 **IMAPIProp** 实现 **OpenProperty** 方法来检索 **ulPRTableName** 成员中标识的表。 表中的列数取决于 **ulPRSetProperty** 成员的值。 如果 **ulPRSetProperty** 设置为 **PR_NULL，** 则列表是基于包含收件人的对象（如通讯簿容器、邮件的收件人表或通讯组列表内容表）的多个选择列表。 
   
-多选列表的表格必须包含以下列:
+多选列表的表格必须包含以下列：
   
- **PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+ **PR_DISPLAY_NAME (** [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
   
- **PR_ENTRYID**([PidTagEntryId](pidtagentryid-canonical-property.md))
+ **PR_ENTRYID (** [PidTagEntryId](pidtagentryid-canonical-property.md)) 
   
- **PR_INSTANCE_KEY**([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))
+ **PR_INSTANCE_KEY (** [PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 
   
- **PR_DISPLAY_TYPE**([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)), 并且最多有五个其他多值字符串属性也可以显示三个必需的列。 
+ **PR_DISPLAY_TYPE (** [PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) 以及最多五个其他多值字符串属性也可以与三个必需列一起显示。 
   
-如果**ulPRSetProperty**成员未设置为**PR_NULL**, 则该列表为单个选择列表。 **ulPRSetProperty**的初始值决定了第一个选定的行。 当用户选择其中一个行时, **ulPRSetProperty**成员将设置为选定值, 并将此值写回到属性接口实现中, 调用[IMAPIProp:: SetProps](imapiprop-setprops.md)。 
+如果 **ulPRSetProperty** 成员未设置为 **PR_NULL，则** 列表为单个选择列表。 **ulPRSetProperty 的初始** 值确定第一个选定的行。 当用户选择其中一行时 **，ulPRSetProperty** 成员将设置为所选值，并且此值通过调用 [IMAPIProp：：SetProps](imapiprop-setprops.md)写回属性接口实现。 
   
-有关显示表的概述, 请参阅[显示表](display-tables.md)。 有关如何实现显示表的信息, 请参阅[实现显示表](display-table-implementation.md)。
+有关显示表的概述，请参阅显示 [表](display-tables.md)。 若要了解如何实现显示表，请参阅 [实现显示表](display-table-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,11 +25,11 @@ ms.locfileid: "33438881"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-描述了一个**和**限制, 该限制用于通过逻辑**AND**操作来联接一组限制。 
+描述 **AND** 限制，该限制用于使用逻辑 **AND** 操作加入一组限制。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SAndRestriction
@@ -44,17 +44,17 @@ typedef struct _SAndRestriction
 
  **cRes**
   
-> 由**lpRes**成员指向的数组中的搜索限制的计数。 
+> **lpRes** 成员指向的数组中的搜索限制计数。 
     
  **lpRes**
   
-> 指向将与逻辑**AND**运算组合在一起的[SRestriction](srestriction.md)结构数组的指针。 
+> 指向将结合逻辑 [AND 运算的 SRestriction](srestriction.md) 结构的 **数组的指针** 。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果其所有子限制的计算结果为 true, 则**SAndRestriction**的结果为 true。 如果任何子限制的计算结果为 false, 则其值为 false。 
+如果 **SAndRestriction** 的所有子限制计算结果为 TRUE，则结果为 TRUE。 如果任何子限制计算结果为 FALSE，则其为 FALSE。 
   
-有关限制类型的说明、如何生成限制以及示例代码, 请参阅[关于限制](about-restrictions.md)。
+有关限制类型的说明、如何构建它们以及示例代码，请参阅关于 [限制](about-restrictions.md)。
   
 ## <a name="see-also"></a>另请参阅
 

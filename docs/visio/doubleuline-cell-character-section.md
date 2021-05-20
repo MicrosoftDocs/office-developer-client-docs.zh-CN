@@ -25,7 +25,7 @@ ms.locfileid: "33438839"
 |TRUE  <br/> |文本下带有双下划线。  <br/> |
 |FALSE  <br/> |文本下不带双下划线。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 如果“Characters”内容包含多行，则 DoubleULine 单元格包含应用于某形状文本的一个子范围的格式设置信息。否则，它就包含该形状的所有文本的格式设置信息。
   
@@ -35,14 +35,14 @@ ms.locfileid: "33438839"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |DblUnderline [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
+|单元格名称：  <br/> |Char.DblUnderline[ *i*  ] 其中  *i*  = <1> 2， 3...  <br/> |
    
 若要从某个程序按索引获取对 DoubleULine 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionCharacter** <br/> |
-|行索引：  <br/> |**visRowCharacter** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRowCharacter**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 |单元格索引：  <br/> |**visCharacterDblUnderline** <br/> |
    
 

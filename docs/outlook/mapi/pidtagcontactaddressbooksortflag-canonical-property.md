@@ -25,7 +25,7 @@ ms.locfileid: "33437229"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个标志, 当按下的文件对联系人进行排序时, 如果按显示名称对其进行排序, 则该标志为 TRUE。 
+包含一个标志，当联系人应按"文件""下"排序时，该标志为 TRUE;如果联系人应按"显示名称"排序，则其为 FALSE。 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ ms.locfileid: "33437229"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 这是联系人通讯簿配置文件部分的属性。
   
@@ -42,13 +42,13 @@ ms.locfileid: "33437229"
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

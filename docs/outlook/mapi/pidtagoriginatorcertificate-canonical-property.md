@@ -25,7 +25,7 @@ ms.locfileid: "33438937"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于邮件原始发件人的1个 ASN. 1 证书。
+包含邮件发起方 ASN.1 证书。
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33438937"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性是发起方的**PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) 属性的副本。
+此属性是[PidTagUserCertificate](pidtagusercertificate-canonical-property.md)属性中PR_USER_CERTIFICATE (源) 的副本。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

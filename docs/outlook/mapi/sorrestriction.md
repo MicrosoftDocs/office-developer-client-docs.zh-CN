@@ -25,11 +25,11 @@ ms.locfileid: "33437929"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-描述用于对限制应用逻辑**OR**操作的**或**限制。 
+描述用于将逻辑 **OR** 操作应用于限制的 **OR** 限制。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SOrRestriction
@@ -44,15 +44,15 @@ typedef struct _SOrRestriction
 
  **cRes**
   
-> 由**lpRes**成员指向的数组中的结构计数。 
+> **lpRes** 成员指向的数组中的结构计数。 
     
  **lpRes**
   
-> 指向描述要使用逻辑**OR**操作联接的限制的[SRestriction](srestriction.md)结构的指针。 
+> 指向描述使用逻辑 **OR** 操作进行联接的限制的 [SRestriction](srestriction.md)结构的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关**SOrRestriction**结构的详细信息, 请参阅[关于限制](about-restrictions.md)。 
+有关 **SOrRestriction** 结构详细信息，请参阅关于 [限制](about-restrictions.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

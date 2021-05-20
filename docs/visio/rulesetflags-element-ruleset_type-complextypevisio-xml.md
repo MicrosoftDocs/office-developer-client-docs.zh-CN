@@ -1,5 +1,5 @@
 ---
-title: RuleSetFlags 元素 (RuleSet_Type 复杂类型) (Visio XML)
+title: 'RuleSetFlags 元素 (RuleSet_Type COMPLEXType)  (Visio XML) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541594"
 ---
-# <a name="rulesetflags-element-rulesettype-complextype-visio-xml"></a>RuleSetFlags 元素 (RuleSet_Type 复杂类型) (Visio XML)
+# <a name="rulesetflags-element-ruleset_type-complextype-visio-xml"></a>RuleSetFlags 元素 (RuleSet_Type COMPLEXType)  (Visio XML) 
 
 指定规则集属性。
   
@@ -24,8 +24,8 @@ ms.locfileid: "34541594"
 |:-----|:-----|
 |**元素类型** <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15  <br/> |
-|**文档部件** <br/> |验证 .xml  <br/> |
+|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
+|**文档部件** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,13 +36,13 @@ ms.locfileid: "34541594"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
+如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。 
   
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |表示一组图表有效性规则。  <br/> |
+|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |表示一组图表验证规则。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -52,6 +52,6 @@ ms.locfileid: "34541594"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|Hidden  <br/> |xsd: boolean  <br/> |可选  <br/> |指定规则集是否出现在 "要检查的规则" 列表中。  <br/> |Xsd: boolean 类型的值。  <br/> |
+|Hidden  <br/> |xsd：boolean  <br/> |可选  <br/> |指定该规则集是否出现在"要检查的规则"列表中。  <br/> |xsd：boolean 类型的值。  <br/> |
    
 

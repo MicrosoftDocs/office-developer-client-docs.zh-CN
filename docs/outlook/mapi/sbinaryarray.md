@@ -25,11 +25,11 @@ ms.locfileid: "33438286"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含二进制值数组。 
+包含二进制值的数组。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SBinaryArray
@@ -44,17 +44,17 @@ typedef struct _SBinaryArray
 
  **cValues**
   
-> 由**lpbin**成员指向的数组中的值的计数。 
+> **lpbin** 成员指向的数组中的值计数。 
     
  **lpbin**
   
-> 指向保存二进制值的[SBinary](sbinary.md)结构的数组的指针。 
+> 指向包含 [二进制值的 SBinary](sbinary.md) 结构的数组的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SBinaryArray**结构用于描述 PT_MV_BINARY 类型的属性。 
+**SBinaryArray** 结构用于描述类型为 PT_MV_BINARY。 
   
-有关 PT_MV_BINARY 的详细信息, 请参阅[属性类型列表](property-types.md)。
+有关属性类型PT_MV_BINARY，请参阅 [属性类型列表](property-types.md)。
   
 ## <a name="see-also"></a>另请参阅
 

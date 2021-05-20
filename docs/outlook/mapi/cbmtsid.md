@@ -25,12 +25,12 @@ ms.locfileid: "33438993"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算现有[MTSID](mtsid.md)结构中的字节数。 
+计算现有 [MTSID](mtsid.md) 结构的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**MTSID** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**MTSID** <br/> |
    
 ```cpp
 CbMTSID (_lpentry)
@@ -38,9 +38,9 @@ CbMTSID (_lpentry)
 
 ## <a name="parameters"></a>参数
 
- __lpentry_
+ _ _lpentry_
   
-> 指向现有**MTSID**结构的指针。 
+> 指向现有 **MTSID 结构的** 指针。 
     
 ## <a name="see-also"></a>另请参阅
 

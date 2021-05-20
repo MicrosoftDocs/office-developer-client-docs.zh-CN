@@ -22,7 +22,7 @@ ms.locfileid: "33438223"
   
 ## <a name="syntax"></a>语法
 
-BLOB (* * *bintext* * *) 
+BLOB (** *bintext* ** )  
   
 ### <a name="parameters"></a>参数
 

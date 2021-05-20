@@ -25,7 +25,7 @@ ms.locfileid: "33437257"
 | TRUE  <br/> | 禁用打印，但形状将显示在绘图窗口中。  <br/> |
 | FALSE  <br/> | 启用打印。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 可以通过先选中参考线，再将其 NonPrinting 单元格的值设置为 FALSE 来打印参考线。
   
@@ -33,7 +33,7 @@ ms.locfileid: "33437257"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | 打印  <br/> |
+| 单元格名称：  <br/> | NonPrinting  <br/> |
    
 要从某个程序按索引获取对 NonPrinting 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   

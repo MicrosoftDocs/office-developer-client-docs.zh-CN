@@ -25,26 +25,26 @@ ms.locfileid: "33439154"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含联系人的地址类型的列表。
+包含联系人的地址类型列表。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_CONTACT_ADDRTYPES、PR_CONTACT_ADDRTYPES_A、PR_CONTACT_ADDRTYPES_W  <br/> |
 |标识符:  <br/> |0x3A54  <br/> |
 |数据类型：  <br/> |PT_MV_UNICODE、PT_MV_STRING8  <br/> |
-|区域：  <br/> |Contact  <br/> |
+|区域：  <br/> |联系人  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -8,7 +8,7 @@ f1_keywords:
 - TempInt
 - TempInt12
 keywords:
-- tempint12 函数 [excel 2007], TempInt 函数 [excel 2007]
+- tempint12 函数 [excel 2007]，TempInt 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86d690b8-caca-450d-93f7-69ca4cd1a6e0
 description: 适用于：Excel 2013 | Office 2013 | Visual Studio
@@ -23,7 +23,7 @@ ms.locfileid: "33438748"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-创建包含整数的临时**XLOPER**/ **XLOPER12**的框架库函数。 
+创建包含整数的临时 **XLOPER** /  **XLOPER12** 的框架库函数。 
   
 ```cs
 LPXLOPER TempInt(short int i);
@@ -34,15 +34,15 @@ LPXLOPER12 TempInt12(int i);
 
  _i_
   
-所需的整数值。 请注意, **XLOPER** integer 是一个有符号的16位整数 (short int), 而**XLOPER12**整数是一个有符号的32位整数 ([long] int)。 
+预期的整数值。 请注意 **，XLOPER** 整数是一个 16 位有符号整数 (short int) ，而 **XLOPER12** 整数是一个 32 位有符号整数 ([long] int) 。 
   
 ## <a name="return-value"></a>返回值
 
-返回一个**xltypeInt**整数, 该整数包含传入的值。 
+返回一 **个 xltypeInt** 整数，其中包含传入的值。 
   
 ## <a name="example"></a>示例
 
-此示例使用**TempInt12**函数将参数传递给**xlfGetWorkspace**。
+此示例使用 **TempInt12** 函数将参数传递给 **xlfGetWorkspace**。
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

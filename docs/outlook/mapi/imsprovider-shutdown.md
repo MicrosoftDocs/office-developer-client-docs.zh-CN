@@ -25,7 +25,7 @@ ms.locfileid: "33438622"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-以有序的方式关闭邮件存储提供程序。
+以有序方式关闭邮件存储提供程序。
   
 ```cpp
 HRESULT Shutdown(
@@ -37,17 +37,17 @@ HRESULT Shutdown(
 
  _lpulFlags_
   
-> 实时保留必须是指向零的指针。
+> [in]保留;必须是指向零的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的一个或一些值。
+> 调用成功并返回预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在释放邮件存储区提供程序对象之前, MAPI 会调用**IMSProvider:: Shutdown**方法。 MAPI 在为提供程序调用**Shutdown**之前释放该提供程序的所有登录对象。 
+MAPI 在释放消息存储提供程序对象之前调用 **IMSProvider：：Shutdown** 方法。 MAPI 先释放提供程序的所有登录对象，然后再调用 **该提供程序的 Shutdown。** 
   
 ## <a name="see-also"></a>另请参阅
 

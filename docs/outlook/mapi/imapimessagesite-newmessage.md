@@ -42,41 +42,41 @@ HRESULT NewMessage(
 
  _fComposeInFolder_
   
-> 实时指示应在哪个文件夹中撰写邮件。 如果变量为 FALSE, 则_pFolderFocus_参数将被忽略, 并且表单查看器可以在任何文件夹中撰写邮件。 如果变量为 TRUE 且在_pFolderFocus_参数中传递 NULL, 则将在当前文件夹中撰写邮件。 如果变量为 TRUE 且在_pFolderFocus_中传递了非 NULL 值, 则邮件将由_pFolderFocus_指向的文件夹组成。
+> [in]指示应在哪个文件夹中撰写邮件。 如果变量为 FALSE，  _则忽略 pFolderFocus_ 参数，并且窗体查看器可以在任何文件夹中撰写邮件。 如果变量为 TRUE，并且 NULL 在  _pFolderFocus_ 参数中传递，则邮件将在当前文件夹中撰写。 如果变量为 TRUE，且  _pFolderFocus_ 中传递了非 NULL 值，则邮件将组合在  _pFolderFocus 指向的文件夹中_。
     
  _pFolderFocus_
   
-> 实时指向在其中创建新邮件的文件夹的指针。
+> [in]指向新建邮件的文件夹的指针。
     
  _pPersistMessage_
   
-> 实时指向新窗体的 form 对象的指针。
+> [in]指向新窗体的 form 对象的指针。
     
  _ppMessage_
   
-> 排除指向新邮件的指针的指针。
+> [out]指向指向新邮件的指针的指针。
     
  _ppMessageSite_
   
-> 排除指向指向新邮件的邮件网站对象的指针的指针。
+> [out]指向指向新邮件的消息网站对象的指针的指针。
     
  _ppViewContext_
   
-> 排除指向适用于通过新邮件传递到新表单的视图上下文的指针的指针。 如果表单实现其自己的视图上下文, 则可以在_ppViewContext_参数中传递 NULL。 
+> [out]指向适用于通过新消息传递到新表单的视图上下文的指针的指针。 如果表单实现自己的视图上下文，可以在  _ppViewContext_ 参数中传递 NULL。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-表单对象调用**IMAPIMessageSite:: NewMessage**方法来创建新邮件。 表单使用**NewMessage**从其视图中获取新邮件和关联的邮件网站。 然后, 它可以修改新邮件。 
+Form 对象调用 **IMAPIMessageSite：：NewMessage** 方法来创建新邮件。 表单使用 **NewMessage** 从其视图中获取新邮件和关联邮件网站。 然后，它可以修改新邮件。 
   
-您还可以通过在_ppViewContext_参数中传递一个非 NULL 值来获取关联的视图上下文。 可以直接使用此视图上下文, 也可以对其进行聚合并将其传递给新邮件。 如果需要完整的实现, 请在_ppViewContext_中传递 NULL。
+您还可以通过传递  _ppViewContext_ 参数中的非 NULL 值来获取关联的视图上下文。 此视图上下文可以直接使用，也可以聚合并传递到新邮件。 如果需要完整实现，在  _ppViewContext_ 中传递 NULL。
   
-有关与表单服务器相关的接口的列表, 请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
+有关与表单服务器相关的接口列表，请参阅 [MAPI Form Interfaces](mapi-form-interfaces.md)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -84,7 +84,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: NewMessage  <br/> |MFCMAPI 使用**IMAPIMessageSite:: NewMessage**方法创建新邮件, 实例化新的表单查看器, 并调用**SetPersist**以在表单查看器上设置邮件。 最后, 它将表单查看器作为邮件网站返回。  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer：：NewMessage  <br/> |MFCMAPI 使用 **IMAPIMessageSite：：NewMessage** 方法创建新邮件、实例化新的表单查看器，并调用 **SetPersist** 在表单查看器上设置邮件。 最后，它将窗体查看器作为消息网站返回。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

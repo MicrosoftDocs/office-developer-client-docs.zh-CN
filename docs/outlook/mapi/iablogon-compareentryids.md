@@ -25,7 +25,7 @@ ms.locfileid: "33438370"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-对两个条目标识符进行比较, 以确定它们是否引用同一个对象。
+比较两个条目标识符以确定它们是否引用同一个对象。
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -42,45 +42,45 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> 实时条目标识符中由_lpEntryID1_参数指向的字节数。 
+> [in]  _lpEntryID1_ 参数指向的条目标识符中的字节计数。 
     
  _lpEntryID1_
   
-> 实时指向要比较的第一个条目标识符的指针。
+> [in]指向要比较的第一个条目标识符的指针。
     
  _cbEntryID2_
   
-> 实时条目标识符中由_lpEntryID2_参数指向的字节数。 
+> [in]  _lpEntryID2_ 参数指向的条目标识符中的字节计数。 
     
  _lpEntryID2_
   
-> 实时指向要比较的第二个条目标识符的指针。
+> [in]指向要比较的第二个条目标识符的指针。
     
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lpulRet_
   
-> 排除指向比较结果的指针。 如果为 TRUE, 则指示两个条目标识符引用同一个对象;否则为 FALSE。
+> [out]指向比较结果的指针。 如果为 TRUE，则指示两个条目标识符引用同一个对象;否则为 FALSE。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 条目标识符已成功比较。
+> 已成功比较条目标识符。
     
 MAPI_E_INVALID_ENTRYID 
   
 > 一个或两个条目标识符不属于通讯簿提供程序。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-通讯簿提供程序实现**CompareEntryIDs**方法来比较两个条目标识符, 以确定它们是否引用同一个对象。 
+通讯簿提供程序实现 **CompareEntryIDs** 方法来比较两个条目标识符，以确定它们是否引用同一个对象。 
   
- **CompareEntryIDs**很有用, 因为一个对象可以有多个有效的条目标识符;例如, 当您将短期条目标识符与长期条目标识符进行比较时, 可能会发生这种情况。 
+ **CompareEntryIDs** 非常有用，因为对象可以具有多个有效的条目标识符;例如，将短期条目标识符与长期条目标识符进行比较时，可能会出现此情况。 
   
-有关如何创建条目标识符的详细信息, 请参阅[MAPI 条目标识符](mapi-entry-identifiers.md)。
+若要详细了解如何创建条目标识符，请参阅 [MAPI 条目标识符](mapi-entry-identifiers.md)。
   
 ## <a name="see-also"></a>另请参阅
 

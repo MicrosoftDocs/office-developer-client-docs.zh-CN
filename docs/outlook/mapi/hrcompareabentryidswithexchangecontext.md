@@ -21,13 +21,13 @@ ms.locfileid: "33436431"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在多个 Exchange 配置文件中安全地比较两个通讯簿**entryid** 。 此函数是[IAddrBook:: CompareEntryIDs](iaddrbook-compareentryids.md)的替代函数。
+在多通讯簿 **配置文件** 中安全地比较两个Exchange条目。 此函数是 [IAddrBook：：CompareEntryIDs 的替换函数](iaddrbook-compareentryids.md)。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |abhelp  <br/> |
+|标头文件：  <br/> |abhelp.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 HRESULT HrCompareABEntryIDsWithExchangeContext(
@@ -47,38 +47,38 @@ HRESULT HrCompareABEntryIDsWithExchangeContext(
 
  _pmsess_
   
-> 实时登录的**IMAPISession**。 它不能为 NULL。
+> [in]登录的 **IMAPISession**。 它不能为 NULL。
     
  _pEmsmdbUID_
   
-> 实时指向**emsmdbUID**的指针, 该链接标识包含此函数应用于显示条目标识符详细信息的 exchange 通讯簿提供程序的 exchange 服务。 如果传入条目标识符不是 Exchange 通讯簿提供程序条目标识符, 则此参数将被忽略, 并且函数调用的行为就像[IAddrBook::D etails](iaddrbook-details.md)。 如果此参数为 NULL 或零 MAPIUID, 则此函数的行为类似于[IAddrBook::D etails](iaddrbook-details.md)。
+> [in]指向 **emsmdbUID** 的指针，标识包含 Exchange 通讯簿提供程序的 Exchange Service，此函数应该使用该提供程序在条目标识符上显示详细信息。 如果传入条目标识符不是通讯簿Exchange标识符，则忽略此参数，并且函数调用的行为类似于[IAddrBook：:D etails](iaddrbook-details.md)。 如果此参数为 NULL 或零 MAPIUID，则此函数的行为类似于 [IAddrBook：:D etails](iaddrbook-details.md)。
     
  _pAddrBook_
   
-> 实时用于打开条目标识符的通讯簿。 它不能为 NULL。
+> [in]用于打开条目标识符的通讯簿。 它不能为 NULL。
     
  _cbEntryID1_
   
-> 实时由_lpEntryID1_参数指定的第一个条目标识符的字节数。 
+> [in]  _lpEntryID1_ 参数指定的第一个条目标识符的字节计数。 
     
  _lpEntryID1_
   
-> 实时指向表示要比较的通讯簿条目的第一个条目标识符的指针。
+> [in]指向表示要比较的通讯簿条目的第一个条目标识符的指针。
     
  _cbEntryID2_
   
-> 实时由_lpEntryID2_参数指定的第二个条目标识符的字节数。 
+> [in]  _lpEntryID2_ 参数指定的第二个条目标识符的字节计数。 
     
  _lpEntryID2_
   
-> 实时一个指向比较中使用的第二个条目标识符的指针, 该标识符代表要比较的通讯簿条目。
+> [in]指向比较中使用的第二个条目标识符的指针，该标识符表示要比较的通讯簿条目。
     
  _ulFlags_
   
-> 实时保留必须为零。
+> [in]保留;必须为零。
     
  _lpulResult_
   
-> 排除指向包含比较结果的位置的指针。 
+> [out]指向包含比较结果的位置的指针。 
     
 

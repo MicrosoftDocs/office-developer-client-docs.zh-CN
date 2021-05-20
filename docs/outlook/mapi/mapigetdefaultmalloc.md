@@ -29,9 +29,9 @@ ms.locfileid: "33438202"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapiutil  <br/> |
+|标头文件：  <br/> |Mapiutil.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
 LPMALLOC MAPIGetDefaultMalloc( );
@@ -43,6 +43,6 @@ LPMALLOC MAPIGetDefaultMalloc( );
   
 ## <a name="return-value"></a>返回值
 
-**MAPIGetDefaultMalloc**函数返回指向默认 MAPI 内存分配函数的指针。 
+**MAPIGetDefaultMalloc** 函数返回一个指向默认 MAPI 内存分配函数的指针。 
   
 

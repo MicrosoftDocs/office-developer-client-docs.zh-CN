@@ -17,7 +17,7 @@ ms.locfileid: "33436844"
 ---
 # <a name="lockthemecolors-cell-protection-section"></a>LockThemeColors 单元格（“Protection”内容）
 
-阻止将主题颜色应用到形状。 
+阻止向形状应用主题颜色。 
   
 LockThemeColors 单元格的值与 **“保护”** 对话框中的 **“阻止应用主题颜色”** 复选框设置相对应。 
   

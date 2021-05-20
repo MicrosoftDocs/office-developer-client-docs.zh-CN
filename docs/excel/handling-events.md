@@ -18,15 +18,15 @@ ms.locfileid: "33438265"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-从 Excel 2010 开始, xll 可以接收旨在管理异步函数生命周期的事件。 这些事件如下所示:
+从 Excel 2010 开始，XLL 可以接收旨在管理异步函数生命周期的事件。 事件如下所示：
   
-- **CalculationEnded**: 在 Excel 完成计算时引发。 在此事件发生之后, 您可以释放计算过程中分配的资源。
+- **CalculationEnded：** 在计算Excel时引发。 在此事件之后，可以释放在计算期间分配的资源。
     
-- **CalculationCanceled**: 用户中断计算时引发。 XLL 将停止所有异步活动。 紧接在此事件之后, 将引发**CalculationEnded**事件。 
+- **CalculationCanceled**：在用户中断计算时引发。 XLL 将停止任何异步活动。 紧接此事件后， **将引发 CalculationEnded** 事件。 
     
-XLL 使用 C API 函数[xlEventRegister](xleventregister.md)来处理这些事件。 
+为了处理这些事件，XLL 使用 C API 函数 [xlEventRegister](xleventregister.md)。 
   
 > [!NOTE]
-> 在编程重新计算过程中不会引发**CalculationEnded**和**CalculationCanceled** 。 
+> 在编程重新计算过程中不会引发 **CalculationEnded** 和 **CalculationCanceled。** 
   
 

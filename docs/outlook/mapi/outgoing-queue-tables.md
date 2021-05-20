@@ -21,28 +21,28 @@ ms.locfileid: "33437572"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-传出队列表包含有关邮件存储区的所有传出邮件的信息。 邮件存储提供程序实现要使用的 MAPI 后台处理程序的传出队列表。 不支持发送或接收邮件的存储无需实现此表。 
+传出队列表包含有关邮件存储的所有传出邮件的信息。 邮件存储提供程序实现传出队列表，供 MAPI 后台处理程序使用。 不支持发送或接收邮件的存储区不需要实现此表。 
   
-若要访问传出队列表, MAPI 后台处理程序将调用[IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md)方法。 
+为了访问传出队列表，MAPI 后台处理程序调用 [IMsgStore：：GetOutgoingQueue](imsgstore-getoutgoingqueue.md) 方法。 
   
-要求按照客户端应用程序发送的顺序, 对邮件进行预处理并将其提交到传输提供程序。 MAPI 后台处理程序旨在按提交时间的升序顺序接受邮件存储区中的邮件。 由于此要求, 在传出队列表中出现一些邮件之前可能会有一些延迟。 
+要求对邮件进行预处理，并按客户端应用程序发送的邮件顺序提交给传输提供程序。 MAPI 后台处理程序旨在按提交时间升序接受来自邮件存储的邮件。 由于此要求，在一些邮件出现在传出队列表中之前，可能会出现一些延迟。 
   
-邮件存储区应允许对传出的队列表进行排序, 以便 MAPI 后台处理程序可以按提交时间对邮件进行排序, 或者默认的排序顺序应为 "按升序提交时间"。 
+邮件存储应允许对传出队列表进行排序，以便 MAPI 后台处理程序可以按提交时间对邮件进行排序，或者默认排序顺序应为按升序提交时间。 
   
-当队列的内容发生更改时, 传出队列表必须发送通知。
+传出队列表必须在队列内容更改时发送通知。
   
-以下属性组成出站队列表中所需的列集:
+以下属性将包含传出队列表中所需的列集：
   
 |||
 |:-----|:-----|
-|**PR_CLIENT_SUBMIT_TIME**([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |**PR_DISPLAY_BCC**([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md))  <br/> |
-|**PR_DISPLAY_CC**([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md))  <br/> |**PR_DISPLAY_TO**([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |
-|**PR_ENTRYID**([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**PR_MESSAGE_FLAGS**([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |
-|**PR_MESSAGE_SIZE**([PidTagMessageSize](pidtagmessagesize-canonical-property.md))  <br/> |**PR_PRIORITY**([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |
-|**PR_SENDER_NAME**([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |**PR_SUBJECT**([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
-|**PR_SUBMIT_FLAGS**([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md))  <br/> | <br/> |
+|**PR_CLIENT_SUBMIT_TIME (** [PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))   <br/> |**PR_DISPLAY_BCC (** [PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md))   <br/> |
+|**PR_DISPLAY_CC (** [PidTagDisplayCc](pidtagdisplaycc-canonical-property.md))   <br/> |**PR_DISPLAY_TO (** [PidTagDisplayTo](pidtagdisplayto-canonical-property.md))   <br/> |
+|**PR_ENTRYID (** [PidTagEntryId](pidtagentryid-canonical-property.md))   <br/> |**PR_MESSAGE_FLAGS (** [PidTagMessageFlags](pidtagmessageflags-canonical-property.md))   <br/> |
+|**PR_MESSAGE_SIZE (** [PidTagMessageSize](pidtagmessagesize-canonical-property.md))   <br/> |**PR_PRIORITY (** [PidTagPriority)](pidtagpriority-canonical-property.md)  <br/> |
+|**PR_SENDER_NAME (** [PidTagSenderName](pidtagsendername-canonical-property.md))   <br/> |**PR_SUBJECT (** [PidTagSubject)](pidtagsubject-canonical-property.md)  <br/> |
+|**PR_SUBMIT_FLAGS (** [PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md))   <br/> | <br/> |
    
-有关如何使用传出队列表的详细信息, 请参阅[使用邮件存储提供程序发送邮件](sending-messages-by-using-message-store-providers.md)。
+有关如何使用传出队列表的信息，请参阅使用邮件存储提供程序 [发送邮件](sending-messages-by-using-message-store-providers.md)。
   
 ## <a name="see-also"></a>另请参阅
 

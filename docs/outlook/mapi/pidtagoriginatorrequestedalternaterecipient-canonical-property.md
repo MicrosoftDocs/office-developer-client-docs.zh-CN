@@ -34,21 +34,21 @@ ms.locfileid: "33437859"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性在 autoforwarded 消息中使用。 如果不允许 autoforwarding, 或者未指定备用收件人, 则应生成 nondelivery 报告。
+此属性用于自动前向邮件。 如果不允许自动前向或尚未指定备用收件人，应生成未送达报告。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

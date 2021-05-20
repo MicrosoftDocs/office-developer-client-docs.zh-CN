@@ -21,7 +21,7 @@ ms.locfileid: "33437509"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-您可以通过使用 MAPI_ _interface__METHOD 宏 (其中_接口_是在 Mapiform 头文件中定义的窗体接口) 简化您的 MAPI 表单接口实现的声明。 您不需要使用这些宏, 但如果您不是这样, 则应特别注意您的声明符合 Mapiform 头文件中的声明。 例如, 您可以声明窗体服务器的窗体对象类, 如下所示: 
+可以使用 MAPI_ _interface__METHOD 宏简化 MAPI 表单接口实现的声明，其中  _interface_ 是在 Mapiform.h 头文件中定义的窗体接口。 虽然不需要使用这些宏，但如果不这样做，应特别注意声明是否符合 Mapiform.h 头文件中的声明。 例如，可以声明表单服务器的 form 对象类，如下所示： 
   
 ```cpp
 class CMyForm : public IPersistMessage, public IMAPIForm,

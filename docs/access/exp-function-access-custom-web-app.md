@@ -1,5 +1,5 @@
 ---
-title: Exp 函数 (Access 自定义 web 应用程序)
+title: 'Exp 函数 (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436410"
 ---
-# <a name="exp-function-access-custom-web-app"></a>Exp 函数 (Access 自定义 web 应用程序)
+# <a name="exp-function-access-custom-web-app"></a>Exp 函数 (Access 自定义 Web 应用) 
 
 返回指定表达式的指数值。
   
@@ -23,20 +23,20 @@ ms.locfileid: "33436410"
   
 ## <a name="syntax"></a>语法
 
- **Exp**(*NumericExpression*) 
+ **Exp** (*NumericExpression)* 
   
-**Exp**函数包含以下参数。 
+**Exp** 函数包含以下参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |一种类型为 double 的表达式, 或可隐式转换为双精度型的类型的表达式。  <br/> |
+| *NumericExpression*  <br/> |Double 类型的表达式或可隐式转换为 Double 的类型的表达式。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-常量**e** (2.718281 ...) 是自然对数的底数。 
+常量 **e (** 2.718281...) 是自然对数的基础。 
   
-数字的指数表示的是常量**e**的幂的乘号。 例如**Exp** (1.0) = e ^ 1.0 = 2.71828182845905 and **Exp** (10) = e ^ 10 = 22026.4657948067。 
+数字的指数是提升为数字的电源的常量 **e。** 例如 **Exp** (1.0) = e^1.0 = 2.71828182845905，Exp (10) = e^10 = 22026.4657948067。  
   
-数字的自然对数的指数是数字本身: **Exp** (LOG (n)) = n。 数字的指数的自然对数是数字本身: LOG (**Exp** (n)) = n。 
+数字的自然对数的指数是数字本身 **：Exp** (LOG (n) ) = n。 数字指数的自然对数是数字本身：LOG (**Exp** (n) ) = n。 
   
 

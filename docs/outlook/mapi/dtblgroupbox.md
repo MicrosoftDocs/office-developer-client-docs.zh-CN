@@ -25,12 +25,12 @@ ms.locfileid: "33438391"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍将在从显示表生成的对话框中使用的分组框控件。
+描述将在基于显示表构建的对话框中使用的组框控件。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关宏:  <br/> |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关宏：  <br/> |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |
    
 ```cpp
 typedef struct _DTBLGROUPBOX
@@ -45,21 +45,21 @@ typedef struct _DTBLGROUPBOX
 
  **ulbLpszLabel**
   
-> 分组框附带的字符字符串在内存中的位置。 如果显示, 标签将显示在框的左上侧。
+> 在分组框随附的字符串内存中的位置。 如果显示，则标签显示在框的左侧顶部。
     
  **ulFlags**
   
-> 标志的位掩码, 用于指定**ulbLpszLabel**成员指向的标签的格式。 可以设置以下标志: 
+> 用于指定 **ulbLpszLabel** 成员指向的标签格式的标志的位掩码。 可以设置以下标志： 
     
 MAPI_UNICODE 
   
-> 标签采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则标签将采用 ANSI 格式。
+> 标签采用 Unicode 格式。 如果未MAPI_UNICODE，则标签采用 ANSI 格式。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**DTBLGROUPBOX**结构描述了用于在对话框中以可视方式关联其他控件的分组框控件。 突出显示技术涉及到围绕其他控件的框。 
+**DTBLGROUPBOX** 结构描述用于直观关联对话框中其他控件的分组框控件。 突出显示技术涉及用一个框包围其他控件。 
   
-有关显示表的概述, 请参阅[显示表](display-tables.md)。 有关如何实现显示表的信息, 请参阅[实现显示表](display-table-implementation.md)。
+有关显示表的概述，请参阅显示 [表](display-tables.md)。 若要了解如何实现显示表，请参阅 [实现显示表](display-table-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

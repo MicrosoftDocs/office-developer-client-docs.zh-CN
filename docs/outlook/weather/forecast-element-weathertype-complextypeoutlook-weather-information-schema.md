@@ -1,5 +1,5 @@
 ---
-title: 预报元素 (weatherType 复杂类型) (Outlook 天气信息架构)
+title: 'forecast 元素 (weatherType complexType)  (Outlook Weather Information Schema) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9124fa30-d58b-8354-91e9-8d2237a8251d
-description: '指定至少三天前的后续天气条件, 包括今天: 今天、明天、一天后。'
+description: 指定至少提前三天的未来天气条件，包括今天、明天、明天后一天。
 ms.openlocfilehash: 5e442ee5995bbd51c5e518162286bc199a625dbd
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540978"
 ---
-# <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>预报元素 (weatherType 复杂类型) (Outlook 天气信息架构)
+# <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>forecast 元素 (weatherType complexType)  (Outlook Weather Information Schema) 
 
-指定至少三天前的后续天气条件, 包括今天: 今天、明天、一天后。
+指定至少提前三天的未来天气条件，包括今天、明天、明天后一天。
   
 ## <a name="element-information"></a>元素信息
 
@@ -25,7 +25,7 @@ ms.locfileid: "34540978"
 |:-----|:-----|
 |**元素类型** <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |
 |**命名空间** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
-|**架构文件** <br/> |getweatherinfo  <br/> |
+|**架构文件** <br/> |getweatherinfo.xsd  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -37,13 +37,13 @@ ms.locfileid: "34540978"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
+如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。 
   
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[气候](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |指定位置的天气情况。  <br/> |
+|[weather](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |指定位置的天气状况。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -53,13 +53,13 @@ ms.locfileid: "34540978"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|date  <br/> |xs: date  <br/> |必需  <br/> |指定预测的日期。  <br/> |类型 xs: date 的值  <br/> |
-|为期  <br/> |xs: string  <br/> |必需  <br/> |指定预测的日期。  <br/> |类型 xs: string 的值  <br/> |
-|高效  <br/> |xs: integer  <br/> |必需  <br/> |指定预测的最高温度。  <br/> |类型 xs: integer 的值  <br/> |
-|降低  <br/> |xs: integer  <br/> |必需  <br/> |指定预测的最低温度。  <br/> |类型 xs: integer 的值  <br/> |
-|precip  <br/> |xs: integer  <br/> |必需  <br/> |指定 precipitation 的百分比可能性。  <br/> |类型 xs: integer 的值  <br/> |
-|shortday  <br/> |xs: string  <br/> |必需  <br/> |指定缩写形式的日期。  <br/> |类型 xs: string 的值  <br/> |
-|skycodeday  <br/> |xs: integer  <br/> |必需  <br/> |指定预测条件的代码。  <br/> |类型 xs: integer 的值  <br/> |
-|skytextday  <br/> |xs: string  <br/> |必需  <br/> |指定一到两个描述预测条件的词。  <br/> |类型 xs: string 的值  <br/> |
+|date  <br/> |xs：date  <br/> |必需  <br/> |指定预测的日期。  <br/> |xs：date 类型的值  <br/> |
+|day  <br/> |xs：string  <br/> |必需  <br/> |指定预测的一天。  <br/> |xs：string 类型的值  <br/> |
+|high  <br/> |xs：integer  <br/> |必需  <br/> |指定预测的最高温度。  <br/> |xs：integer 类型的值  <br/> |
+|low  <br/> |xs：integer  <br/> |必需  <br/> |指定预测的最低温度。  <br/> |xs：integer 类型的值  <br/> |
+|precip  <br/> |xs：integer  <br/> |必需  <br/> |指定可能性的百分比。  <br/> |xs：integer 类型的值  <br/> |
+|shortday  <br/> |xs：string  <br/> |必需  <br/> |以缩写形式指定一天。  <br/> |xs：string 类型的值  <br/> |
+|skycodeday  <br/> |xs：integer  <br/> |必需  <br/> |指定预测条件的代码。  <br/> |xs：integer 类型的值  <br/> |
+|skytextday  <br/> |xs：string  <br/> |必需  <br/> |指定描述预测条件的一到两个单词。  <br/> |xs：string 类型的值  <br/> |
    
 

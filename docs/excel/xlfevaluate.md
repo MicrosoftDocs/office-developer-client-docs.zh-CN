@@ -22,7 +22,7 @@ ms.locfileid: "33439182"
 
  **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-使用 Microsoft Excel 分析器和函数计算器计算可在工作表单元格中输入的任何表达式。
+使用 Microsoft Excel和函数计算程序来评估可以在工作表单元格中输入的任何表达式。
   
 ```cs
 Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
@@ -32,25 +32,25 @@ Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 
  _pxFormulaText (xltypeStr)_
   
-要计算的字符串。 前导等号 (=) 是可选的。 该字符串可以是可在工作表或宏工作表单元格中合法输入的任何文本。
+要求值字符串。 前导等号 (=) 可选。 该字符串可以是可以合法输入到工作表或宏工作表单元格的任何文本。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-返回计算字符串的结果, 可以是**xltypeNum**、 **xltypeStr**、 **xltypeBool**、 **xltypeErr**、 **xltypeNil**、 **xltypeMulti**的任意类型。
+返回计算字符串的结果，该字符串可以是 **xltypeNum**、 **xltypeStr**、 **xltypeBool**、 **xltypeErr**、 **xltypeNil**、 **xltypeMulti** 类型的任意类型。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-该字符串只能包含函数, 而不能包含命令等效项。 它等效于在编辑栏上按**F9** 。 如果从已注册为线程安全的 XLL 工作表函数调用**xlfEvaluate** , 则该表达式必须只包含线程安全函数。 
+字符串只能包含函数，不能包含命令等效项。 它相当于从 **编辑栏中按 F9。** 如果从已注册为线程安全的 XLL 工作表函数调用 **xlfEvaluate，** 则表达式只能包含线程安全函数。 
   
-**xlfEvaluate**函数的主要用途是允许 dll 查找分配给已定义名称的值, 该名称在工作表上或在 DLL 内定义的隐藏名称上。 请注意, 在 dll/XLL 中, 工作表名称必须至少带有感叹号 (!) 前缀, 以确保它被解释为 DLL 的外部名称。 有关详细信息, 请参阅[评估名称和其他工作表公式表达式](evaluating-names-and-other-worksheet-formula-expressions.md)。
+**xlfEvaluate** 函数的主要用途是允许 DLL 找到分配给已定义名称的值，该值位于工作表或 DLL 中定义的隐藏名称中。 请注意，在 DLL/XLL 中，工作表名称的前缀必须至少为感叹号 (！) ，以确保它被解释为 DLL 的外部名称。 有关详细信息，请参阅 [计算名称和其他工作表公式表达式](evaluating-names-and-other-worksheet-formula-expressions.md)。
   
- **xlfEvaluate**不能用于计算对未打开的外部工作表的引用。 
+ **xlfEvaluate** 不能用于计算对未打开的外部工作表的引用。 
   
 ## <a name="example"></a>示例
 
-此示例使用**xlfEvaluate**来强制文本 "!B38 "到单元格 B38 的内容。 
+此示例使用 **xlfEvaluate** 强制文本"！B38" 至单元格 B38 的内容。 
   
- `\SAMPLES\EXAMPLE\EXAMPLE.C`. 此函数调用命令宏 (**xlcAlert**), 并且只有在宏工作表或宏命令调用时才能正常运行。
+ `\SAMPLES\EXAMPLE\EXAMPLE.C`. 此函数在 **xlcAlert** (调用命令宏) 并且仅在从宏工作表调用或作为宏命令调用时才能正常工作。
   
 ```cs
 short WINAPI EvaluateExample(void)

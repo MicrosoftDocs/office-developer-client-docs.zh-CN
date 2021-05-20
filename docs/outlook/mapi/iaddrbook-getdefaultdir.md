@@ -38,11 +38,11 @@ HRESULT GetDefaultDir(
 
  _lpcbEntryID_
   
-> 排除指向条目标识符中由_lppEntryID_参数指向的字节计数的指针。 
+> [out]指向  _lppEntryID_ 参数指向的条目标识符中的字节计数的指针。 
     
  _lppEntryID_
   
-> 排除指向指向默认容器的条目标识符的指针的指针。
+> [out]指向指向默认容器的条目标识符的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -50,11 +50,11 @@ S_OK
   
 > 已成功返回默认容器的条目标识符。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端应用程序和服务提供程序调用**GetDefaultDir**方法以检索默认通讯簿容器的条目标识符。 默认容器是首次打开通讯簿时用户在通讯簿中看到的显示内容。 如果未通过调用[IAddrBook:: SetDefaultDir](iaddrbook-setdefaultdir.md)方法设置默认容器, 则 MAPI 将分配为默认容器, 其名称不是个人通讯簿 (PAB) 的第一个容器。 如果找不到这样的容器, 则 PAB 将成为默认容器。 
+客户端应用程序和服务提供商调用 **GetDefaultDir** 方法来检索默认通讯簿容器的条目标识符。 默认容器是用户在通讯簿中首次打开通讯簿时看到的内容。 如果尚未通过调用 [IAddrBook：：SetDefaultDir](iaddrbook-setdefaultdir.md) 方法设置默认容器，MAPI 将名称不是个人通讯簿的第一个容器分配为默认容器 (PAB) 。 如果找不到此类容器，PAB 将成为默认容器。 
   
-若要设置默认目录, 客户端或提供程序将调用**SetDefaultDir**方法。 客户端和提供程序无需调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法;由于对通讯簿所做的更改不会进行事务处理, 因此更改将立即永久生效。 
+若要设置默认目录，客户端或提供程序将调用 **SetDefaultDir** 方法。 客户端和提供程序不需要调用 [IMAPIProp：：SaveChanges](imapiprop-savechanges.md) 方法;因为通讯簿更改未进行事务处理，所以更改会立即永久生效。 
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -62,7 +62,7 @@ S_OK
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg  <br/> |CMainDlg:: OnOpenDefaultDir  <br/> |MFCMAPI 使用**GetDefaultDir**方法获取默认通讯簿容器的 ID。  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg：：OnOpenDefaultDir  <br/> |MFCMAPI 使用 **GetDefaultDir** 方法获取默认通讯簿容器的 ID。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

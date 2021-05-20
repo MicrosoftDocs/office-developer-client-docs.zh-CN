@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438160"
 ---
-# <a name="mapiofflineaggregateinfo"></a>MAPIOFFLINE_AGGREGATEINFO
+# <a name="mapioffline_aggregateinfo"></a>MAPIOFFLINE_AGGREGATEINFO
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-结构与[HrCreateOfflineObj](hrcreateofflineobj.md)一起使用。 
+该结构与 [HrCreateOfflineObj 一起使用](hrcreateofflineobj.md)。 
   
 ```cpp
 typedef struct
@@ -40,7 +40,7 @@ typedef struct
     
  **pOuterObj**
   
-> 指向要在其上聚合此对象的 IUnknown 对象的指针。 这将允许任何 QueryInterface 调用传递到已创建的对象。
+> 指向要聚合此对象的 IUnknown 对象的指针。 这允许任何 QueryInterface 调用传递到已创建的对象。
     
  **pRefTrackRoot**
   

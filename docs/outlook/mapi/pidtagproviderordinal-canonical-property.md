@@ -25,32 +25,32 @@ ms.locfileid: "33438349"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含服务提供程序在提供程序表中的位置的从零开始的索引。
+包含服务提供商在提供程序表中位置的从零开始编制的索引。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROVIDER_ORDINAL  <br/> |
 |标识符:  <br/> |0x300D  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |MAPI 通用  <br/> |
+|区域：  <br/> |MAPI common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 此属性由 MAPI 计算。
   
-通过调用[IMsgServiceAdmin:: GetProviderTable](imsgserviceadmin-getprovidertable.md)方法获取 provider 表。 对此属性中的提供程序表进行排序, 以显示传输顺序。 
+通过调用 [IMsgServiceAdmin：：GetProviderTable 方法获取提供程序](imsgserviceadmin-getprovidertable.md) 表。 对此属性上的提供程序表进行排序以显示传输顺序。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为替换名称的属性的定义。
+> 包含作为备用名称列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

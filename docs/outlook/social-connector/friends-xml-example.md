@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
-description: '本主题中的 XML 示例是在调用 ISocialPerson:: GetFriendsAndColleagues 方法后返回到 Outlook Social Connector (.OSC) 的友元 XML 字符串。 该示例显示了两个好友的好友 XML, 每个好友由 person 元素分隔。 每个友元指定社交网络上 userID 元素的唯一值。'
+description: 本主题中的 XML 示例是调用 ISocialPerson：：GetFriendsAndColleagues 方法后返回到 Outlook Social Connector (OSC) 的 friend XML 字符串。 该示例显示两个好友的好友 XML，每个好友由 person 元素分隔。 每个好友为社交网络上的 userID 元素指定一个唯一值。
 ms.openlocfilehash: 593019ec4dcd1b9b578bfe275fb8e6664bbd11a9
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -17,13 +17,13 @@ ms.locfileid: "34542224"
 ---
 # <a name="friends-xml-example"></a>好友 XML 示例
 
-本主题中的 XML 示例是在调用[ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)方法后返回到 Outlook Social CONNECTOR (.osc) 的友元 xml 字符串。 该示例显示了两个好友的**好友**XML, 每个好友由**person**元素分隔。 每个友元指定社交网络上**userID**元素的唯一值。 
+本主题中的 XML 示例是在调用[ISocialPerson：：GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)方法后返回到 Outlook Social Connector (OSC) 的好友 XML 字符串。 该示例显示两 **个好友的好友** XML，每个好友由 **person** 元素分隔。 每个好友为社交网络上的 **userID** 元素指定一个唯一值。 
   
-**友元**XML 的其余元素具有自解释的名称。 有关这些元素的详细说明, 请参阅[适用于好友的 XML](xml-for-friends.md)。 
+好友 XML 的 **其余元素** 具有一目了然的名称。 有关这些元素的详细说明，请参阅 [XML for Friends](xml-for-friends.md)。 
   
 ## <a name="xml-example"></a>XML 示例
 
-下面的示例展示了社交网络中两个人的**好友**XML。 
+以下示例显示社交网络 **上** 两个人的好友 XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -80,8 +80,8 @@ ms.locfileid: "34542224"
 
 ## <a name="see-also"></a>另请参阅
 
-- [.OSC 提供程序 XML 示例](osc-provider-xml-examples.md)  
-- [功能 XML 示例](capabilities-xml-example.md) 
+- [OSC 提供程序 XML 示例](osc-provider-xml-examples.md)  
+- [Capabilities XML 示例](capabilities-xml-example.md) 
 - [活动源 XML 示例](activity-feed-xml-example.md) 
-- [Outlook Social Connector 提供程序 XML 架构](outlook-social-connector-provider-xml-schema.md)
+- [OutlookSocial Connector Provider XML 架构](outlook-social-connector-provider-xml-schema.md)
 

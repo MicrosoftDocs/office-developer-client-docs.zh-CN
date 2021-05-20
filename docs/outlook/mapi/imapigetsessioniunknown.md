@@ -25,19 +25,19 @@ ms.locfileid: "33436648"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-提供对与支持对象相关联的当前 MAPI 会话的访问权限。 mapi 提供程序可以查询其 MAPI 支持对象的此接口。 有关支持对象的详细信息, 请参阅[支持对象概述](support-object-overview.md)。
+提供对与支持对象关联的当前 MAPI 会话的访问。 MAPI 提供程序可以查询其 MAPI 支持对象，以查询此接口。 有关支持对象详细信息，请参阅 [支持对象概述](support-object-overview.md)。
   
 |||
 |:-----|:-----|
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |MAPI 提供程序  <br/> |
-|接口标识符:  <br/> |IID_IMAPIGetSession  <br/> |
+|接口标识符：  <br/> |IID_IMAPIGetSession  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |调用以获取指向当前 MAPI 会话的指针。  <br/> |
+|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |调用 以获取指向当前 MAPI 会话的指针。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

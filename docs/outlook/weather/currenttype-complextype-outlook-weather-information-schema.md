@@ -1,5 +1,5 @@
 ---
-title: currentType 复杂类型 (Outlook 天气信息架构)
+title: 'currentType complexType (Outlook天气信息架构) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9f4663ac-13d3-6c46-f839-ba6bca4047a3
-description: 定义有关某个位置的当前天气条件的参数。
+description: 定义有关位置当前天气状况的参数。
 ms.openlocfilehash: 6dec923ce45ddc6470d80e1c973528246e01672f
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,16 +15,16 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540985"
 ---
-# <a name="currenttype-complextype-outlook-weather-information-schema"></a>currentType 复杂类型 (Outlook 天气信息架构)
+# <a name="currenttype-complextype-outlook-weather-information-schema"></a>currentType complexType (Outlook天气信息架构) 
 
-定义有关某个位置的当前天气条件的参数。
+定义有关位置当前天气状况的参数。
   
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
 |**命名空间** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
-|**架构文件** <br/> |getweatherinfo  <br/> |
+|**架构文件** <br/> |getweatherinfo.xsd  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
 ## <a name="definition"></a>定义
@@ -49,7 +49,7 @@ ms.locfileid: "34540985"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
+如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。 
   
 ### <a name="child-elements"></a>子元素
 
@@ -59,17 +59,17 @@ ms.locfileid: "34540985"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|date  <br/> |xs: date  <br/> |必需  <br/> |指定今天的日期。  <br/> |类型 xs: date 的值  <br/> |
-|为期  <br/> |xs: string  <br/> |可选  <br/> |指定预测的日期。  <br/> |类型 xs: string 的值  <br/> |
-|feelslike  <br/> |xs: integer  <br/> |必需  <br/> |指定当前天气的外观的温度。  <br/> |类型 xs: integer 的值  <br/> |
-|湿度  <br/> |xs: integer  <br/> |必需  <br/> |指定当前的数值湿度值。  <br/> |类型 xs: integer 的值  <br/> |
-|observationpoint  <br/> |xs: string  <br/> |必需  <br/> |指定观察当前天气信息的位置。  <br/> |类型 xs: string 的值  <br/> |
-|observationtime  <br/> |xs: time  <br/> |必需  <br/> |指定何时在中观察当前天气信息。  <br/> |类型 xs: time 的值  <br/> |
-|shortday  <br/> |xs: string  <br/> |可选  <br/> |指定缩写形式的日期。  <br/> |类型 xs: string 的值  <br/> |
-|skycode  <br/> |xs: integer  <br/> |必需  <br/> |指定当前天气条件的整数代码。  <br/> |类型 xs: integer 的值  <br/> |
-|skytext  <br/> |xs: string  <br/> |必需  <br/> |指定一个描述当前天气情况的两个字。  <br/> |类型 xs: string 的值  <br/> |
-|量  <br/> |xs: integer  <br/> |必需  <br/> |指定位置的当前温度。  <br/> |类型 xs: integer 的值  <br/> |
-|winddisplay  <br/> |xs: string  <br/> |必需  <br/> |一个描述当前风条件的字符串。  <br/> |类型 xs: string 的值  <br/> |
-|windspeed  <br/> |xs: integer  <br/> |必需  <br/> |指定当前的数值风速度值。  <br/> |类型 xs: integer 的值  <br/> |
+|date  <br/> |xs：date  <br/> |必需  <br/> |指定今天的日期。  <br/> |xs：date 类型的值  <br/> |
+|day  <br/> |xs：string  <br/> |可选  <br/> |指定预测的一天。  <br/> |xs：string 类型的值  <br/> |
+|感觉相似  <br/> |xs：integer  <br/> |必需  <br/> |指定当前天气的温度。  <br/> |xs：integer 类型的值  <br/> |
+|一些  <br/> |xs：integer  <br/> |必需  <br/> |指定当前的数值数值。  <br/> |xs：integer 类型的值  <br/> |
+|观察点  <br/> |xs：string  <br/> |必需  <br/> |指定从何处观测当前天气信息。  <br/> |xs：string 类型的值  <br/> |
+|观察时间  <br/> |xs：time  <br/> |必需  <br/> |指定何时观测到当前天气信息。  <br/> |xs：time 类型的值  <br/> |
+|shortday  <br/> |xs：string  <br/> |可选  <br/> |以缩写形式指定一天。  <br/> |xs：string 类型的值  <br/> |
+|skycode  <br/> |xs：integer  <br/> |必需  <br/> |指定当前天气条件的整数代码。  <br/> |xs：integer 类型的值  <br/> |
+|skytext  <br/> |xs：string  <br/> |必需  <br/> |指定描述当前天气条件的一到两个单词。  <br/> |xs：string 类型的值  <br/> |
+|temperature  <br/> |xs：integer  <br/> |必需  <br/> |指定位置的当前温度。  <br/> |xs：integer 类型的值  <br/> |
+|winddisplay  <br/> |xs：string  <br/> |必需  <br/> |一个描述当前温度条件的字符串。  <br/> |xs：string 类型的值  <br/> |
+|将  <br/> |xs：integer  <br/> |必需  <br/> |指定当前数值的时速值。  <br/> |xs：integer 类型的值  <br/> |
    
 

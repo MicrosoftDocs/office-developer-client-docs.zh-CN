@@ -23,12 +23,12 @@ ms.locfileid: "33437642"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个命名的结构, 其中包含用于描述编辑控件的[DTBLEDIT](dtbledit.md)结构, 以及可以在控件中输入的最大字符数。 
+创建一个命名结构，其中包含描述编辑控件的 [DTBLEDIT](dtbledit.md) 结构以及可在控件中输入的最大字符数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
-|相关结构:  <br/> |**DTBLEDIT** <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
+|相关结构：  <br/> |**DTBLEDIT** <br/> |
    
 ```cpp
 SizedDtblEdit (n, u)
@@ -44,9 +44,9 @@ _u_
   
 > 新结构的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SizedDtblEdit**宏允许您在已知启用的字符数时定义编辑控件。 新结构是使用以下成员创建的: 
+**SizedDtblEdit** 宏允许您在启用的字符数已知时定义编辑控件。 新结构由以下成员创建： 
   
 ```cpp
 DTBLEDIT dtbledit;
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-若要将指向**SizedDtblEdit**宏的结果结构的指针用作**DTBLEDIT**结构指针, 请执行以下转换: 
+若要将指向 **SizedDtblEdit** 宏生成的结构的指针用作 **DTBLEDIT** 结构指针，请执行以下转换： 
   
 ```cpp
 lpDtblEdit = (LPDTBLEDIT) &SizedDtblEdit;

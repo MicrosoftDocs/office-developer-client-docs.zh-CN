@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251402
 localization_priority: Normal
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
-description: 返回颜色的蓝色成分。 返回值是介于0到 255 (含) 之间的整数。 对于无效输入，该函数将返回 0。
+description: 返回颜色的蓝色部分。 返回值是 0 到 255 之间（含 0 和 255）的整数。 对于无效输入，该函数将返回 0。
 ms.openlocfilehash: adefbe0f8c2df0ead0f3e50cd5d4945501972865
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33439035"
 ---
 # <a name="blue-function"></a>BLUE 函数
 
-返回颜色的蓝色成分。 返回值是介于0到 255 (含) 之间的整数。 对于无效输入，该函数将返回 0。
+返回颜色的蓝色部分。 返回值是 0 到 255 之间（含 0 和 255）的整数。 对于无效输入，该函数将返回 0。
   
 ## <a name="syntax"></a>语法
 
-蓝色 (* **表达式** *) 
+BLUE (** *expression* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -36,13 +36,13 @@ ms.locfileid: "33439035"
   
 ## <a name="example-1"></a>示例 1
 
-蓝色 (Sheet 4!FillForegnd
+BLUE (Sheet.4!FillForegnd) 
   
 返回 Sheet.4 的填充前景色的蓝色成分。
   
 ## <a name="example-2"></a>示例 2
 
-蓝色 (13)
+蓝色 (13) 
   
 如果文档使用默认的 Visio 调色板（其中青色是索引值为 13 的颜色），则返回 128。
   

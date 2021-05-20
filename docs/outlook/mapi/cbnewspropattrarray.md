@@ -25,12 +25,12 @@ ms.locfileid: "33439119"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-计算应为包含指定数量的属性属性的新[SPropAttrArray](spropattrarray.md)结构分配的字节数。 
+计算应为包含指定数量的属性属性的新 [SPropAttrArray](spropattrarray.md) 结构分配的字节数。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Imessage  <br/> |
-|相关结构:  <br/> |**SPropAttrArray** <br/> |
+|标头文件：  <br/> |Imessage.h  <br/> |
+|相关结构：  <br/> |**SPropAttrArray** <br/> |
    
 ```cpp
 CbNewSPropAttrArray (_cattr)
@@ -38,9 +38,9 @@ CbNewSPropAttrArray (_cattr)
 
 ## <a name="parameters"></a>参数
 
- __cattr_
+ _ _cattr_
   
-> 要包含在新的**SPropAttrArray**结构中的属性属性的计数。 
+> 要包含在新 **SPropAttrArray** 结构中的属性属性计数。 
     
 ## <a name="see-also"></a>另请参阅
 

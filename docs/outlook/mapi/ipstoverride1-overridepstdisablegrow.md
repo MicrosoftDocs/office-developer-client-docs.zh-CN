@@ -25,7 +25,7 @@ ms.locfileid: "33438923"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-为会话解锁个人文件夹 (.pst) 文件, 替代 pstdisablegrow 可策略。
+解锁会话的个人 (.pst) 文件，覆盖 PSTDisableGrow 策略。
   
 ```cpp
 HRESULT OverridePSTDisableGrow();

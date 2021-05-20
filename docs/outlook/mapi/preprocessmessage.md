@@ -25,13 +25,13 @@ ms.locfileid: "33437243"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义预处理邮件内容或邮件格式的函数。
+定义一个预处理邮件内容或邮件格式的函数。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |Mapispi  <br/> |
-|定义的函数实现者:  <br/> |传输提供程序  <br/> |
-|定义的函数调用者:  <br/> |MAPI 后台处理程序  <br/> |
+|标头文件：  <br/> |Mapispi.h  <br/> |
+|定义的函数实现方：  <br/> |传输提供程序  <br/> |
+|由调用的已定义函数：  <br/> |MAPI 后台处理程序  <br/> |
    
 ```cpp
 HRESULT PreprocessMessage(
@@ -52,43 +52,43 @@ HRESULT PreprocessMessage(
 
  _lpvSession_
   
-> 实时指向要使用的会话的指针。 
+> [in]指向要使用的会话的指针。 
     
  _lpMessage_
   
-> 实时指向要进行预处理的邮件的指针。 
+> [in]指向要预处理的消息的指针。 
     
  _lpAdrBook_
   
-> 实时指向用户应从中选择邮件收件人的通讯簿的指针。 
+> [in]指向用户应从中选择邮件收件人的通讯簿的指针。 
     
  _lpFolder_
   
-> [in, out]指向文件夹的指针。 在输入时, _lpFolder_参数指向包含要进行预处理的邮件的文件夹。 在输出时, _lpFolder_指向已放置预处理邮件的文件夹。 
+> [in， out]指向文件夹的指针。 在输入时  _，lpFolder_ 参数指向包含要预处理的邮件的文件夹。 在输出时  _，lpFolder_ 指向放置预处理邮件的文件夹。 
     
  _lpAllocateBuffer_
   
-> 实时指向用于分配内存的[MAPIAllocateBuffer](mapiallocatebuffer.md)函数的指针。 
+> [in]指向 [MAPIAllocateBuffer](mapiallocatebuffer.md) 函数的指针，用于分配内存。 
     
  _lpAllocateMore_
   
-> 实时指向[MAPIAllocateMore](mapiallocatemore.md)函数的指针, 用于在需要时分配更多内存。 
+> [in]指向 [MAPIAllocateMore](mapiallocatemore.md) 函数的指针，用于分配所需的额外内存。 
     
  _lpFreeBuffer_
   
-> 实时指向用于释放内存的[MAPIFreeBuffer](mapifreebuffer.md)函数的指针。 
+> [in]指向 [MAPIFreeBuffer](mapifreebuffer.md) 函数的指针，用于释放内存。 
     
  _lpcOutbound_
   
-> 排除一个指针, 指向由_lpppMessage_参数指向的数组中的邮件数。 
+> [out]指向  _lpppMessage_ 参数指向的数组中的邮件数的指针。 
     
  _lpppMessage_
   
-> 排除指向指向经过预处理或以其他方式生成的邮件的指针数组的指针。 
+> [out]指向指向指针数组的指针的指针，指向预处理或以其他方式生成的消息。 
     
  _lppRecipList_
   
-> 排除指向可选的返回[ADRLIST](adrlist.md)结构的指针, 其中列出了预处理器检测到的无法传递邮件的收件人。 有关此列表内容的详细信息, 请参阅[IMAPISupport:: StatusRecips](imapisupport-statusrecips.md)方法。 
+> [out]指向可选返回的 [ADRLIST](adrlist.md) 结构的指针，列出邮件无法送达的预处理器检测到的收件人。 有关此列表的内容详细信息，请参阅 [IMAPISupport：：StatusRecips](imapisupport-statusrecips.md) 方法。 
     
 ## <a name="return-value"></a>返回值
 
@@ -96,17 +96,17 @@ S_OK
   
 > 邮件内容已成功预处理。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-传输提供程序消息预处理器可在邮件预处理过程中显示进度指示器。 但是, 它决不应显示在邮件预处理过程中需要用户交互的对话框。 
+传输提供程序邮件预处理器可以在邮件预处理期间显示进度指示器。 但是，它永远不应在消息预处理期间显示需要用户交互的对话框。 
   
-当预处理器向出站邮件中添加大量数据时, 应遵循某些过程。 这种类型的邮件可以存储在基于服务器的邮件存储中, 从而导致预处理器访问远程存储, 这是一种耗时的过程。 若要避免这种情况, 预处理器应具有一个选项, 使其能够存储在本地邮件存储区中占用大量空间的数据, 并在邮件中提供对该本地存储区的引用。 
+当预处理器向出站邮件添加大量数据时，应执行某些过程。 此类消息可以存储在基于服务器的邮件存储中，从而导致预处理器访问远程存储，这是一个耗时的过程。 为了避免必须这样做，预处理器应具有一个选项，使预处理器能够将占用大量空间的数据存储在本地邮件存储中，并提供对邮件中该本地存储的引用。 
   
-预处理器不应释放最初传递到基于**PreprocessMessage**的函数的任何对象。 
+预处理器不应释放最初传递给基于 **PreprocessMessage** 的函数的任何对象。 
   
-在 MAPI 后台处理程序可以调用**PreprocessMessage**函数之前, 传输提供程序必须已在对[IMAPISupport:: RegisterPreprocessor](imapisupport-registerpreprocessor.md)方法的调用中注册了函数。 调用**PreprocessMessage**函数后, 后台打印程序将无法继续提交邮件, 直到函数返回为止。 
+在 MAPI 后台处理程序可以调用 **PreprocessMessage** 函数之前，传输提供程序必须在 [对 IMAPISupport：：RegisterPreprocessor](imapisupport-registerpreprocessor.md) 方法的调用中注册该函数。 调用 **PreprocessMessage** 函数后，后台处理程序无法继续提交邮件，直到函数返回。 
   
-MAPI 后台处理程序拥有提交邮件的任务。 这意味着原始邮件从不放置在邮件指针的数组中, 并且从不需要对**SubmitMessage**方法的调用。 
+MAPI 后台处理程序拥有提交邮件的任务。 这意味着原始邮件永远不会放置在消息指针数组中，并且从不需要调用 **SubmitMessage** 方法。 
   
 ## <a name="see-also"></a>另请参阅
 

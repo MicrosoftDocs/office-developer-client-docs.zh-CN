@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6cc93fef-a6a8-9ca6-dc34-bfb9bf2926f5
-description: 此成员是占位符, 不受支持。
+description: 此成员是占位符，不受支持。
 ms.openlocfilehash: 7029b257fdf818b4b4d298024285d4463044d934
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33438167"
 ---
 # <a name="ifreebusysupportplaceholder15"></a>IFreeBusySupport::Placeholder15
 
-此成员是占位符, 不受支持。
+此成员是占位符，不受支持。
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅[IFreeBusySupport](ifreebusysupport.md)。
+请参阅 [IFreeBusySupport](ifreebusysupport.md)。
   
 ```cpp
 HRESULT Placeholder15();
@@ -28,14 +28,14 @@ HRESULT Placeholder15();
 
 ## <a name="return-values"></a>返回值
 
-始终 E_NOTIMPL, 因为此成员是占位符, 不受支持。
+始终E_NOTIMPL，因为此成员是占位符且不受支持。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此成员必须返回 E_NOTIMPL。
+此成员必须返回E_NOTIMPL。
   
 ## <a name="see-also"></a>另请参阅
 
-- [常量 (忙/闲 API)](constants-free-busy-api.md)
+- [常量 (忙/闲 API) ](constants-free-busy-api.md)
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

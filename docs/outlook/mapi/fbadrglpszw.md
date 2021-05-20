@@ -44,11 +44,11 @@ BOOL FBadRglpszW(
 
  _lppszW_
   
-> 实时指向以 null 结尾的 Unicode 字符串数组的指针。 
+> [in]指向以 null 结束的 Unicode 字符串数组的指针。 
     
  _cStrings_
   
-> 实时由_lppszW_参数指向的数组中的字符串计数。 
+> [in]  _lppszW_ 参数指向的数组中的字符串计数。 
     
 ## <a name="return-value"></a>返回值
 

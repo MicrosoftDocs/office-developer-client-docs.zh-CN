@@ -20,7 +20,7 @@ ms.locfileid: "33436627"
 
 **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-返回名称显示在 "**名称管理器**" 对话框 (在 "**公式**" 选项卡上 "**定义的名称**" 部分中单击 "**名称管理器**" 时显示) 中的 "**引用**" 列中显示的名称定义。如果定义中包含引用, 则将它们作为 R1C1 样式的引用提供。 使用**xlfGetName**检查名称定义的值。 若要获取与定义对应的名称, 请使用[xlfGetDef](xlfgetdef.md)。
+返回名称的定义，该定义出现在名称管理器对话框的引用列中，当单击"公式"选项卡上"定义的名称"部分中的"名称管理器 **"** 时，将显示该列。 如果定义包含引用，则这些引用将给定为 R1C1 样式的引用。 使用 **xlfGetName** 检查由名称定义的值。 若要获取与定义对应的名称，请使用 [xlfGetDef](xlfgetdef.md)。
   
 ```cpp
 Excel12(xlfGetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxInfoType);
@@ -28,31 +28,31 @@ Excel12(xlfGetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxInf
 
 ## <a name="parameters"></a>参数
 
-_pxNameText_(**xltypeStr**)
+_pxNameText_ (**xltypeStr**) 
   
-可以是在工作表上定义的名称;对在活动工作簿上定义的名称的外部引用, 例如`"!Sales"`;或对在特定打开的工作簿上定义的名称的外部引用, 例如`"[Book1]SHEET1!Sales"`。  _pxNameText_也可以是一个隐藏的名称。 
+可以是工作表上定义的名称;对活动工作簿上定义的名称的外部引用，例如 ;或对特定打开的工作簿上定义的名称的外部引用，  `"!Sales"` 例如，  `"[Book1]SHEET1!Sales"` 。  _pxNameText_ 还可以是隐藏名称。 
   
-_pxInfoType_(**xltypeBool**)
+_pxInfoType_ (**xltypeBool)**
   
-指定要返回的有关名称的信息类型。 如果**为 FALSE**或省略, 则返回定义。 如果**为 true**, 则如果只为工作表定义名称, 则返回**true** ; 如果为整个工作簿定义了名称, 则返回**FALSE** 。 
+指定要返回有关名称的信息的类型。 如果 **为 FALSE** 或省略，则返回定义。 如果 **为 TRUE，** 则如果只为工作表定义名称，则返回 **TRUE;** 如果为整个工作簿定义名称，则返回 **FALSE。** 
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-_pxRes_(**xltypeStr**、 **xltypeBool**或**xltypeErr**)
+_pxRes_ (**xltypeStr、xltypeBool** 或 **xltypeErr**) 
   
-根据为_pxInfoType_传递的值, 返回指定名称 (**xltypeStr**) 的定义, 或者**TRUE**或**FALSE** (**xltypeBool**)。
+根据为  _pxInfoType_ 传递的值，返回指定名称 **(xltypeStr**) 或 **TRUE** 或 **FALSE** (**xltypeBool**) 。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果已在 "**保护工作表**" 对话框中选中 "**保护工作表和锁定的单元格内容**" 复选框, 以保护包含该名称的`#N/A`工作簿, 则**xlfGetName**将返回错误值。 若要查看**保护工作表**对话框, 请单击 "**审阅**" 选项卡的 "**更改**" 部分中的 "**保护工作表**"。 
+如果在 **"保护** 工作表"对话框中选中了"保护工作表和锁定单元格的内容"复选框以保护包含该名称的工作簿，**则 xlfGetName** 将返回 `#N/A` 错误值。 To see the **Protect Sheet** dialog box， click **Protect Sheet** in the **Changes** section of the **Review** tab. 
   
-下表列出了使用指定的_pxNameText_参数调用**xlfGetDef**时返回的值的三个示例。 
+下表列出了调用 **xlfGetDef（** 使用指定的  _pxNameText_ 参数）返回的三个值示例。 
   
-|**Excel 中的定义**|**_pxNameText_**|**返回的值**|
+|**Excel**|**_pxNameText_**|**返回的值**|
 |:-----|:-----|:-----|
-|工作表上的名称 Sales 定义为数字523。  <br/> |销售  <br/> |"= 523"  <br/> |
-|活动工作表上的名称利润定义为公式 = Sales-成本。  <br/> |"!盈利  <br/> |"= 销售-成本"  <br/> |
-|活动工作表上的名称数据库定义为区域 A1: F500。  <br/> |"!数据库  <br/> |"= R1C1: R500C6"  <br/> |
+|工作表上的名称 Sales 定义为数字 523。  <br/> |"Sales"  <br/> |"=523"  <br/> |
+|活动工作表上的名称 Profit 定义为公式 =Sales-Costs。  <br/> |"!盈利"  <br/> |"=Sales-Costs"  <br/> |
+|活动工作表上的名称 Database 定义为区域 A1：F500。  <br/> |"!Database"  <br/> |"=R1C1：R500C6"  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

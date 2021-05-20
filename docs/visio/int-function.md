@@ -22,7 +22,7 @@ ms.locfileid: "33436948"
   
 ## <a name="syntax"></a>语法
 
-INT (* **数字** *) 
+INT (** *number* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -32,13 +32,13 @@ INT (* **数字** *)
    
 ## <a name="example-1"></a>示例 1
 
-INT (7.2)
+INT (7.2) 
   
 返回 7。
   
 ## <a name="example-2"></a>示例 2
 
-INT (-7.2)
+INT (-7.2) 
   
 返回 -8。
   

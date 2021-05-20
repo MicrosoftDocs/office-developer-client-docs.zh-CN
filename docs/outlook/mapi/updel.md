@@ -21,7 +21,7 @@ ms.locfileid: "33436796"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-已在本地存储区中删除的项目的信息。 此信息在[上载删除状态状态](upload-delete-status-state.md)期间使用。
+本地存储中已删除的项目的信息。 此信息在上载删除 [状态期间使用](upload-delete-status-state.md)。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -37,11 +37,11 @@ struct UPDEL
 
  _pupde_
   
->  排除[UPDELE](updele.md)条目的矢量。 
+>  [out] [UPDELE 条目](updele.md) 的矢量。 
     
- _分币_
+ _cEnt_
   
-> 排除*pupde*中的条目数。 
+> [out]  *pupde 中的条目数*  。 
     
 ## <a name="see-also"></a>另请参阅
 

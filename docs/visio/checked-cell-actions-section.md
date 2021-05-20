@@ -28,20 +28,20 @@ ms.locfileid: "33438328"
 |TRUE  <br/> |显示复选标记。  <br/> |
 |FALSE  <br/> |不显示复选标记（默认值）。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Checked 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |操作. *名称*。检查 where 操作。 *name*是操作行的名称  <br/> |
+|单元格名称：  <br/> |操作。 *name*  .选中操作位置。 *name*  是 Actions 行的名称  <br/> |
    
 要从某个程序按索引获取对 Checked 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionAction** <br/> |
-|行索引：  <br/> |**visRowAction** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRowAction**  +  *i* 其中 *i* = 0， 1， 2， ...  <br/> |
 |单元格索引：  <br/> |**visActionChecked** <br/> |
    
 
