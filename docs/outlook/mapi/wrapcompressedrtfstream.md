@@ -25,11 +25,11 @@ ms.locfileid: "33439798"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-从**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性中使用的压缩格式创建未压缩的 rtf 格式文本流。 
+使用 **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性中使用的压缩格式创建未压缩 RTF (RT) F 格式的文本流。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
 |调用者：  <br/> |客户端应用程序  <br/> |
    
@@ -45,39 +45,39 @@ HRESULT WrapCompressedRTFStream(
 
  _lpCompressedRTFStream_
   
-> 实时指向在邮件的 PR_RTF_COMPRESSED 属性上打开的流的指针。 
+> [in]指向在邮件的 PR_RTF_COMPRESSED 属性上打开的流的指针。 
     
  _ulFlags_
   
-> 实时函数的选项标志的位掩码。 可以设置以下标志:
+> [in]函数的选项标志的位掩码。 可以设置以下标志：
     
 MAPI_MODIFY 
   
-> 客户端是否打算读取或写入返回的已包装流接口。 
+> 客户端是打算读取还是写入返回的封装流接口。 
     
 STORE_UNCOMPRESSED_RTF 
   
-> 应将未压缩的 RTF 写入_lpCompressedRTFStream_指向的流。
+> 未压缩的 RTF 应写入  _lpCompressedRTFStream 指向的流_
     
  _lpUncompressedRTFStream_
   
-> 排除指向**WrapCompressedRTFStream**的位置的指针, 该位置返回未压缩的 RTF 的流。 
+> [out]指向 **WrapCompressedRTFStream** 返回未压缩 RTF 的流的位置的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 调用成功, 并返回了所需的值或值。
+> 调用成功并返回了预期值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果在_ulFlags_参数中传递了 MAPI_MODIFY 标志, 则必须已打开_lpCompressedRTFStream_参数以进行读取和写入。 新的、未压缩的 RTF 文本应写入_lpUncompressedRTFStream_中返回的 stream 接口。 由于无法追加现有流, 因此必须写入整个消息文本。 
+如果在  _ulFlags_ 参数中传递 MAPI_MODIFY 标志，则必须已打开  _lpCompressedRTFStream_ 参数进行读取和写入。 新的未压缩 RTF 文本应写入  _lpUncompressedRTFStream 中返回的流接口_。 由于无法追加现有流，因此必须写入整个消息文本。 
   
-如果在_ulFlags_参数中传递零, 则_lpCompressedRTFStream_可能会以只读的打开。 仅可从_lpUncompressedRTFStream_中返回的流接口读取整个邮件文本。 无法在流的中间开始搜索。 
+如果在  _ulFlags_ 参数中传递零，  _则 lpCompressedRTFStream_ 可以只读打开。 只能从  _lpUncompressedRTFStream_ 中返回的流接口中读取整个消息文本。 无法从流中间开始搜索。 
   
- **WrapCompressedRTFStream**假定压缩流的指针设置为流的开头。 返回的未压缩流不支持某些 OLE **IStream**方法。 其中包括**IStream:: Clone**、 **istream:: LockRegion**、 **istream:: Revert**、 **IStream:: Seek**、 **IStream:: SetSize**、 **istream:: Stat**和**IStream:: UnlockRegion**。 若要复制到整个流, 需要具有读/写循环。 
+ **WrapCompressedRTFStream** 假定压缩流的指针设置为流的开头。 返回的未压缩流不支持某些 OLE **IStream** 方法。 其中包括 **IStream：：Clone**、IStream：：LockRegion、IStream：：Revert、IStream：：Seek、IStream：：SetSize、IStream：：Stat 和 **IStream：：UnlockRegion。**     为了复制到整个流，需要读/写循环。 
   
-由于客户端以未压缩格式写入新 RTF, 因此它应使用**WrapCompressedRTFStream**, 而不是直接写入流。 RTF 感知客户端应在**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性中搜索 STORE_UNCOMPRESSED_RTF 标志, 并将其传递到**WrapCompressed RTFStream** (如果已设置)。 
+由于客户端以未压缩的格式写入新的 RTF，因此它应当使用 **WrapCompressedRTFStream，** 而不是直接写入流。 RTF 感知客户端应在 PR_STORE_SUPPORT_MASK ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性中搜索 **STORE_UNCOMPRESSED_RTF** 标志，如果已设置，则将其传递给 **WrapCompressed RTFStream。** 
   
 ## <a name="see-also"></a>另请参阅
 

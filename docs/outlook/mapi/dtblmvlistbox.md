@@ -25,11 +25,11 @@ ms.locfileid: "33439700"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-描述将在从显示表生成的对话框中显示的多值列表。
+描述将在从显示表构建的对话框中显示的多值列表。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLMVLISTBOX
@@ -44,21 +44,21 @@ typedef struct _DTBLMVLISTBOX
 
  **ulFlags**
   
-> 保留必须为零。
+> 保留;必须为零。
     
  **ulMVPropTag**
   
 > 类型为 PT_MV_TSTRING 的多值属性的属性标记。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**DTBLMVLISTBOX**结构描述具有项的只读列表的标准多值列表。 通过使用标准的多值列表, 这些值会立即显示出来。 
+**DTBLMVLISTBOX** 结构描述具有只读项目列表的标准多值列表。 通过使用标准的多值列表，值将立即显示。 
   
-显示的数据来自**ulMVPropTag**成员中标识的属性。 不需要从与显示表相关联的属性接口中进行读取。 此外, 因为用户无法从这些类型的列表中进行选择, 所以不会将数据写入属性接口。 
+显示的数据来自 **ulMVPropTag** 成员中标识的属性。 不需要从与显示表关联的属性接口读取。 此外，由于用户无法从这些类型的列表进行选择，因此不会将数据写入属性接口。 
   
 多值列表仅支持多值字符串属性;不支持其他多值属性类型。 
   
-有关显示表的概述, 请参阅[显示表](display-tables.md)。 有关如何实现显示表的信息, 请参阅[实现显示表](display-table-implementation.md)。
+有关显示表的概述，请参阅显示 [表](display-tables.md)。 若要了解如何实现显示表，请参阅 [实现显示表](display-table-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -21,12 +21,12 @@ ms.locfileid: "33439812"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果未在对[MAPILogonEx](mapilogonex.md)的调用中显式指定一个配置文件, 则将使用默认配置文件, 而改为设置 MAPI_USE_DEFAULT 标志。
+默认配置文件是在调用 [MAPILogonEx](mapilogonex.md)时未明确指定配置文件时所使用的配置文件，而是设置 MAPI_USE_DEFAULT 标志。
   
  **建立默认配置文件**
   
-1. 调用[MAPIAdminProfiles](mapiadminprofiles.md)函数以检索**IProfAdmin**接口指针。 
+1. 调用 [MAPIAdminProfiles](mapiadminprofiles.md) 函数以检索 **IProfAdmin** 接口指针。 
     
-2. 调用[IProfAdmin:: SetDefaultProfile](iprofadmin-setdefaultprofile.md)。 **SetDefaultProfile**设置新的默认配置文件的**PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 属性, 并删除以前的默认配置文件的设置。
+2. 调用 [IProfAdmin：：SetDefaultProfile](iprofadmin-setdefaultprofile.md)。 **SetDefaultProfile** 设置PR_DEFAULT_PROFILE (配置文件的 [PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 属性，并删除以前的默认配置文件的设置。
     
 

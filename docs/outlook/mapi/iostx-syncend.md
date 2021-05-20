@@ -25,15 +25,15 @@ ms.locfileid: "33439574"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在当前状态结束同步并退出该状态。
+在当前状态中结束同步并退出该状态。
   
 ```cpp
 HRESULT SyncEnd();
 ```
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端必须调用对[IOSTX:: SyncBeg](iostx-syncbeg.md)的每个调用的**IOSTX:: SyncEnd** 。 相应的数据结构包含用于指示客户端是否已成功完成当前状态的信息, 以便 Outlook 能够清除其内部状态。
+对于每次对 **IOSTX：：SyncBeg** 的调用，客户端必须调用 [IOSTX：：SyncEnd。](iostx-syncbeg.md) 相应的数据结构包含用于指示客户端是否已成功完成当前状态的信息，以便Outlook清理其内部状态。
   
 ## <a name="see-also"></a>另请参阅
 

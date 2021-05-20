@@ -23,11 +23,11 @@ ms.locfileid: "33439721"
  
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义如何对表的行、要用作排序关键字的列以及排序的方向进行排序。 
+定义如何对表的行进行排序、用作排序键的列以及排序方向。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SSortOrder
@@ -42,27 +42,27 @@ typedef struct _SSortOrder
 
 **ulPropTag**
   
-> 用于标识排序关键字的属性标记, 对于分类的排序, 则为分类列。
+> 属性标记，用于标识分类键或分类列。
     
 **ulOrder**
   
-> 对数据进行排序所依据的顺序。 可能的值如下所示:
+> 数据的排序顺序。 可能的值如下：
     
-  - TABLE_SORT_ASCEND: 应按升序对表进行排序。
+  - TABLE_SORT_ASCEND：表应按升序排序。
       
-  - TABLE_SORT_COMBINE: SORT 操作应创建一个类别, 该类别将**ulPropTag**成员中标识为 "排序关键字" 列的属性与上一**SSortOrder**结构中指定的 "排序" 关键字列组合在一起。 
+  - TABLE_SORT_COMBINE：排序操作应创建一个类别，该类别将 **ulPropTag** 成员中标识为排序键列的属性与在之前的 **SSortOrder** 结构中指定的排序键列组合在一起。 
       
-    仅当**SSortOrder**结构用作[SSortOrderSet](ssortorderset.md)结构中的条目以指定已分类排序的多个排序次序时, 才能使用 TABLE_SORT_COMBINE。 TABLE_SORT_COMBINE 不能在**SSortOrderSet**结构中的第一个**SSortOrder**结构中使用。 
+    TABLE_SORT_COMBINE **SSortOrder** 结构用作 [SSortOrderSet](ssortorderset.md) 结构中的条目来为分类排序指定多个排序顺序时，才能使用参数。 TABLE_SORT_COMBINE **SSortOrderSet** 结构中的第一 **个 SSortOrder 结构中** 使用。 
       
-  - TABLE_SORT_DESCEND: 应按降序顺序对表进行排序。
+  - TABLE_SORT_DESCEND：表应按降序排序。
       
-  - TABLE_SORT_CATEG_MAX: 表应按由**SSortOrderSet**结构中的前一排序**** 顺序指定的类别中的数据行的最大值进行排序。 
+  - TABLE_SORT_CATEG_MAX：该表应按 **SSortOrderSet** 结构中上一排序顺序指定的类别中数据行的 **ulPropTag** 成员最大值进行排序。 
       
-  - TABLE_SORT_CATEG_MIN: 应按照在**SSortOrderSet**结构中的上一排序次序**** 指定的类别中的数据行的最小值对表进行排序。 
+  - TABLE_SORT_CATEG_MIN：该表应按照在 **SSortOrderSet** 结构中的上一排序顺序指定的类别中数据行的 **ulPropTag** 成员最小值进行排序。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**SSortOrder**结构用于描述如何执行标准排序操作或已分类的排序操作。 **SSortOrder**结构通常组合到**SSortOrderSet**结构中, 以描述多个排序键和方向。 在以下函数和接口方法中使用**SSortOrderSet**结构: 
+**SSortOrder** 结构用于描述如何执行标准排序操作或分类排序操作。 **SSortOrder** 结构通常组合到一个 **SSortOrderSet** 结构中，用于描述多个排序键和方向。 **SSortOrderSet** 结构用于以下函数和接口方法： 
   
 - [ITableData::HrGetView](itabledata-hrgetview.md)
     
@@ -76,18 +76,18 @@ typedef struct _SSortOrder
     
 - [HrQueryAllRows](hrqueryallrows.md)
     
-可用作排序关键字的表中允许的列的范围取决于提供程序。 作为当前列集一部分的列始终可用作排序关键字。 但是, 每个提供程序确定是否可以使用不在当前列集中的可用列来定义排序键。 "可用列" 是设置 TBL_ALL_COLUMNS 标志时从[IMAPITable:: QueryColumns](imapitable-querycolumns.md)返回的列。 
+表中可用作排序键的允许列的范围取决于提供程序。 属于当前列集的列始终可以用作排序键。 但是，每个提供程序确定是否可以使用当前列集外可用的列定义排序键。 可用列是在设置数据透视表标志时从 [IMAPITable：：QueryColumns](imapitable-querycolumns.md) 返回TBL_ALL_COLUMNS列。 
   
-**ulOrder**成员指示方向性订单和分类信息, 例如, 通过对话 ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)), 即会话线程, 这是一系列邮件和回复。 可以按升序或降序顺序对行进行排序, 并将所有 NULL 项放置在最后。 
+**ulOrder** 成员指示方向顺序和分类信息，例如，通过对话 ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)) ，即对话线程，即一系列消息和回复。 行可以按升序或降序排序，所有 NULL 条目都位于最后。 
   
-TABLE_SORT_COMBINE 值指示在**ulPropTag**中指定的列应与上一个 category 列组合, 以构成一个复合类别。 也就是说, TABLE_SORT_COMBINE 允许对列组合的唯一值进行分类, 而不是对单个列的唯一值进行分类。 例如, 可以将单个类别定义为对来自特定主题的特定发件人收到的邮件进行分组。 将值设置为 TABLE_SORT_COMBINE 可减少显示的类别行的数量。 
+the TABLE_SORT_COMBINE value indicates that the column specified in **ulPropTag** should be combined with the previous category column to form a composite category. 也就是说，允许对列组合的唯一值进行分类TABLE_SORT_COMBINE对各个列的唯一值进行分类，而不是对各个列的唯一值进行分类。 例如，可以定义单个类别以对从特定主题的特定发件人接收的邮件进行分组。 将该值设置为 TABLE_SORT_COMBINE可以减少显示的类别行数。 
   
-并非所有表实现都普遍支持对多值列进行排序。 如果支持, 请使用 MVI_PROP 宏将 MV_FLAG 应用于**ulPropTag**成员中的属性标记, 以将排序关键字标识为多值列。 对多值列进行排序基于使用各个值。 
+并非所有表实现都普遍支持对多值列进行排序。 如果受支持，MV_FLAG使用 MVI_PROP 宏应用到 **ulPropTag** 成员中的属性标记，以将排序键标识为多值列。 对多值列进行排序基于使用单个值。 
   
 > [!IMPORTANT]
-> **ulOrder**成员值 TABLE_SORT_CATEG_MAX 和 TABLE_SORT_CATEG_MIN 可能未在您当前拥有的可下载头文件中定义, 在这种情况下, 您可以使用以下值将其添加到代码中: >`#define TABLE_SORT_CATEG_MAX ((ULONG) 0x00000004)`>  `#define TABLE_SORT_CATEG_MIN ((ULONG) 0x00000008)`
+> 当前具有TABLE_SORT_CATEG_MAX和 TABLE_SORT_CATEG_MIN 的 **ulOrder** 成员值可能未在可下载头文件中定义，在这种情况下，您可以使用以下值将其添加到代码中：>  `#define TABLE_SORT_CATEG_MAX ((ULONG) 0x00000004)`>  `#define TABLE_SORT_CATEG_MIN ((ULONG) 0x00000008)`
   
-有关标准排序和已分类排序的详细信息, 请参阅[排序和分类](sorting-and-categorization.md)。 
+有关标准和分类排序的信息，请参阅 [排序和分类](sorting-and-categorization.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

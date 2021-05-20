@@ -22,7 +22,7 @@ ms.locfileid: "33439490"
   
 ## <a name="syntax"></a>语法
 
-色相 (* **表达式** *) 
+HUE (** *expression* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -32,21 +32,21 @@ ms.locfileid: "33439490"
    
 ### <a name="return-value"></a>返回值
 
-数字
+帐号
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 返回值是 0 至 239 之间的数字（包括 0 和 239）。输入内容为文档颜色表中某颜色的索引值、解析为自定义颜色的表达式（如 RGB 或 HSL），或者是对某个包含颜色索引值或颜色结果的单元格的引用。对于无效输入，该函数将返回 0。 
   
 ## <a name="example-1"></a>示例 1
 
-色相 (Sheet. 4!FillForegnd
+HUE (Sheet.4！FillForegnd) 
   
 返回 Sheet.4 的填充前景色的色调。
   
 ## <a name="example-2"></a>示例 2
 
-色相 (7)
+HUE (7) 
   
 如果文档使用默认的 Microsoft Visio 调色板，其中青色是索引值为 7 的颜色，则返回 120。
   

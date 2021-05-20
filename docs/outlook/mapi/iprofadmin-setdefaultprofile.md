@@ -38,33 +38,33 @@ HRESULT SetDefaultProfile(
 
  _lpszProfileName_
   
-> 实时指向将成为默认值的配置文件的名称的指针或 NULL。 将_lpszProfileName_设置为 NULL 表示**SetDefaultProfile**应删除现有的默认配置文件, 使客户端不使用默认配置。 
+> [in]指向将成为默认配置文件的配置文件名称的指针，或 NULL。 将  _lpszProfileName_ 设置为 NULL 指示 **SetDefaultProfile** 应删除现有的默认配置文件，使客户端没有默认配置文件。 
     
  _ulFlags_
   
-> 实时标志的位掩码, 用于控制由_lpszProfileName_指向的字符串的类型。 可以设置以下标志:
+> [in]控制  _lpszProfileName_ 指向的字符串类型的标志位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 配置文件名称为 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则配置文件名称将采用 ANSI 格式。
+> 配置文件名称采用 Unicode 格式。 如果未MAPI_UNICODE，则配置文件名称采用 ANSI 格式。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功建立或删除了默认配置文件。
+> 已成功建立或删除默认配置文件。
     
 MAPI_E_NOT_FOUND 
   
 > 指定的配置文件不存在。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IProfAdmin:: SetDefaultProfile**方法要么将特定配置文件建立为客户端的默认配置文件, 要么清除当前的默认配置文件。 默认配置文件是在客户端开始 MAPI 会话时自动使用的配置文件。 **SetDefaultProfile**还将新的默认配置文件的**PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 属性设置为 TRUE。
+**IProfAdmin：：SetDefaultProfile** 方法将特定配置文件建立为客户端的默认配置文件，或清除当前的默认配置文件。 默认配置文件是在客户端开始 MAPI 会话时自动使用的配置文件。 **SetDefaultProfile** 还将新的默认配置文件PR_DEFAULT_PROFILE ( [PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 设置为 TRUE。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要使用默认配置文件启动会话, 请将 MAPI_USE_DEFAULT 标志传递给[MAPILogonEx](mapilogonex.md)函数。 
+若要使用默认配置文件启动会话，MAPI_USE_DEFAULT [MAPILogonEx](mapilogonex.md) 函数传递该标记。 
   
 ## <a name="see-also"></a>另请参阅
 

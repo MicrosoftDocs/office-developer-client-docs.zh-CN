@@ -25,7 +25,7 @@ ms.locfileid: "33439728"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-显示允许用户更改服务提供程序配置的属性表。 MAPI 实现的 status 对象中不支持此方法。
+Displays a 属性表 that enables the user to change a service provider's configuration This method is not supported in status objects that MAPI implements.
   
 ```cpp
 HRESULT SettingsDialog(
@@ -38,47 +38,47 @@ HRESULT SettingsDialog(
 
  _ulUIParam_
   
-> 实时配置属性表的父窗口的句柄。
+> [in]配置窗口的父窗口的属性表。
     
  _ulFlags_
   
-> 实时用于控制属性表的显示的标志的位掩码。 可以设置以下标志:
+> [in]控制屏幕显示的标志的位掩码属性表。 可以设置以下标志：
     
 UI_READONLY 
   
-> 建议提供程序不应使用户能够更改配置属性。 此标志只是一个建议;可以忽略它。
+> 建议提供程序不应允许用户更改配置属性。 此标志只是一个建议;可忽略。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功显示配置属性表。
+> 配置属性表已成功显示。
     
 MAPI_E_NO_SUPPORT 
   
-> status 对象不支持此方法, 正如**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中缺少 STATUS_SETTINGS_DIALOG 标志所指示的那样。
+> status 对象不支持此方法，如 PR_RESOURCE_METHODS ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md) 属性中缺少 STATUS_SETTINGS_DIALOG 标志) 。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**IMAPIStatus:: SettingsDialog**方法显示一个配置属性表。 所有服务提供程序都应支持**SettingsDialog**方法, 但这并不是必需的。 服务提供程序可以实现自己的属性表, 也可以使用支持对象的 IMAPISupport 中提供的实现[::D oconfigpropsheet](imapisupport-doconfigpropsheet.md)方法。 **DoConfigPropsheet**生成读/写属性表。 
+**IMAPIStatus：：SettingsDialog** 方法显示配置属性表。 所有服务提供程序都应支持 **SettingsDialog** 方法，但不是必需的。 服务提供商可以实施自己的属性表或使用支持对象的 [IMAPISupport：:D oConfigPropsheet 方法](imapisupport-doconfigpropsheet.md) 中提供的实现。 **DoConfigPropsheet** 生成读/写属性表。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果远程传输提供程序具有任何设置, 则应执行以下操作:
+如果远程传输提供程序有任何设置，则它应执行以下操作：
   
-- 打开传输提供程序的 "配置文件" 部分。
+- 打开传输提供程序的配置文件部分。
     
-- 从配置文件中获取传输提供程序的属性设置。
+- 从配置文件获取传输提供程序的属性设置。
     
 - 在对话框中显示属性设置。
     
-- 如果对话框允许编辑属性设置, 请检查新设置是否有效, 并将其重新存储在传输提供程序的配置文件部分中。
+- 如果对话框允许编辑属性设置，请检查新设置是否有效，然后将它们存储回传输提供程序的配置文件部分。
     
-- 返回 S_OK 或在前面的步骤中返回的任何错误值。
+- 返回S_OK或上述步骤中返回的任何错误值。
     
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-您可以使用通过**SettingsDialog**显示的属性表执行各种任务, 如以下操作: 
+可以使用通过 **SettingsDialog** 属性表显示的列表来执行各种任务，例如： 
   
 - 指定默认邮件存储。
     
@@ -88,11 +88,11 @@ MAPI_E_NO_SUPPORT
     
 - 指定用于解析不明确名称的搜索顺序。
     
-- 指定默认的个人通讯簿。
+- 指定默认个人通讯簿。
     
-服务提供程序可以实现可读写、只读或混合权限的属性表, 具体取决于属性。 服务提供程序可以通过设置属性限制对各个属性实现不同的权限。 属性表的默认模式为 "读/写"。 您可以通过在对**SettingsDialog**的调用中设置 UI_READONLY 标志来请求只读属性表。 能够实现只读属性表的服务提供程序可以执行此操作。 但是, 由于某些服务提供程序无法覆盖默认模式, 因此必须准备好处理任一类型的属性表。 
+服务提供程序可以实施读/写、只读或权限混合的属性表，具体取决于属性。 服务提供商可以通过设置属性限制对单个属性实现不同的权限。 属性表的默认模式为读/写。 可以通过在调用 **SettingsDialog** 中设置 UI_READONLY 标志来请求只读属性表。 能够实现只读属性表的服务提供商可以这样做。 但是，由于某些服务提供商无法替代默认模式，因此您必须准备好处理任一类型的属性表。 
   
-由于用户界面始终包含在此操作中, 因此只有交互客户端才应调用**SettingsDialog**。
+由于此操作始终涉及用户界面，因此只有交互式客户端应调用 **SettingsDialog**。
   
 ## <a name="see-also"></a>另请参阅
 

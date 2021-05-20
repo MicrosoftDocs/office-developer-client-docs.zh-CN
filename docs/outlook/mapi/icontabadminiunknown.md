@@ -25,21 +25,21 @@ ms.locfileid: "33439329"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-从 microsoft outlook 2010 和 microsoft outlook 2013 通讯簿中删除联系人文件夹。
+从通讯簿中删除联系人Microsoft Outlook 2010 Microsoft Outlook 2013文件夹。
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |cabadmin  <br/> |
-|公开者:  <br/> ||
+|标头文件：  <br/> |cabadmin.h  <br/> |
+|公开者：  <br/> ||
 |实现者：  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
 |调用者：  <br/> |CRM  <br/> |
-|接口标识符:  <br/> |IID_IContabAdmin  <br/> |
-|指针类型:  <br/> ||
+|接口标识符：  <br/> |IID_IContabAdmin  <br/> |
+|指针类型：  <br/> ||
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |从通讯簿层次结构中删除由给定条目 ID 指定的联系人通讯簿 (CAB)。  <br/> |
+|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |从通讯簿层次结构中删除 (CAB) 指定的联系人通讯簿。  <br/> |
    
 

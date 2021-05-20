@@ -28,7 +28,7 @@ ms.locfileid: "33439665"
 | TRUE  <br/> | 禁用动作标记。  <br/> |
 | FALSE  <br/> | 启用动作标记（默认值）。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 动作标记被禁用后，在重新启用之前完全不显示。 
   
@@ -36,14 +36,14 @@ ms.locfileid: "33439665"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | SmartTags.  *名称*。在智能标记中禁用。 *name*是操作标记行的名称  <br/> |
+| 单元格名称：  <br/> | SmartTags。  *name*  .已禁用其中 SmartTags。 *name*  是动作标记行的名称  <br/> |
    
 要从某个程序按索引获取对 Disabled 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionSmartTag** <br/> |
-| 行索引：  <br/> |**visRowSmartTag** +  *i* = ** 0、1、2 .。。  <br/> |
+| 行索引：  <br/> |**visRowSmartTag**  +  *i* 其中 *i* = 0、1、2...  <br/> |
 | 单元格索引：  <br/> |**visSmartTagDisabled** <br/> |
    
 

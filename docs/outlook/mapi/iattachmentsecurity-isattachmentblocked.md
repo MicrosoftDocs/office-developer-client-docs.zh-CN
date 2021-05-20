@@ -25,7 +25,7 @@ ms.locfileid: "33439777"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-检查指定的附件是否被 microsoft outlook 2010 或 microsoft outlook 2013 阻止, 以供查看和编制索引。
+检查指定的附件是否被邮件Microsoft Outlook 2010或Microsoft Outlook 2013查看和编制索引。
   
 ```cpp
 HRESULT IAttachmentSecurity::IsAttachmentBlocked( 
@@ -38,11 +38,11 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
  _pwszFileName_
   
-> 实时指向附件的文件名的指针。
+> [in]指向附件文件名的指针。
     
  _pfBlocked_
   
-> 排除指向一个值的指针, 该值指示如果指定的附件被阻止, 则为**true** ;否则**为 false**。
+> [out]指向指示 **true（** 如果指定的附件被阻止）的值的指针;否则为 **false**。
     
 ## <a name="see-also"></a>另请参阅
 
@@ -50,5 +50,5 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 [MAPI 常量](mapi-constants.md)
   
-[验证附件是否已被阻止](how-to-verify-an-attachment-is-blocked.md)
+[验证附件被阻止](how-to-verify-an-attachment-is-blocked.md)
 

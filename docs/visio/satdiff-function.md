@@ -16,21 +16,21 @@ ms.locfileid: "33439378"
 ---
 # <a name="satdiff-function"></a>SATDIFF 函数
 
-返回_color1_和_color2_之间的饱和度差异。
+返回  _color1_ 和  _color2_ 之间的饱和度差异。
   
 ## <a name="syntax"></a>语法
 
-SATDIFF (* * *color1* * *, * * *color2* * *) 
+SATDIFF (** *color1* **， ** *color2* ** )  
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |必需  <br/> |**数值** <br/> |Microsoft Visio 第一种颜色的颜色索引或 RGB 值。  <br/> |
-| _color2_ <br/> |必需  <br/> |**数值** <br/> |Microsoft Visio 第二种颜色的颜色索引或 RGB 值。  <br/> |
+| _color1_ <br/> |必需  <br/> |**Numeric** <br/> |Microsoft Visio 第一种颜色的颜色索引或 RGB 值。  <br/> |
+| _color2_ <br/> |必需  <br/> |**Numeric** <br/> |Microsoft Visio 第二种颜色的颜色索引或 RGB 值。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-数值
+Numeric
   
 

@@ -21,17 +21,17 @@ ms.locfileid: "33439553"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-在客户端启动与 MAPI 的会话之后, 在某个时间点将启动服务提供程序。 当客户端请求服务时, 将启动传输提供程序。 通讯簿和邮件存储提供程序在客户端登录过程中启动。
+在客户端使用 MAPI 启动会话后的某一时间点，将启动您的服务提供商。 当客户端请求其服务时，将启动传输提供程序。 通讯簿和邮件存储提供程序在客户端的登录过程中启动。
   
-客户端调用[IMAPISession:: OpenAddressBook](imapisession-openaddressbook.md)以加载配置文件中包含的每个通讯簿提供程序, 并使用[IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md)加载特定的邮件存储提供程序。 作为邮件服务一部分的通讯簿提供程序在服务中的任何其他提供程序之前启动。 
+客户端调用 [IMAPISession：：OpenAddressBook](imapisession-openaddressbook.md) 以加载配置文件中包含的每个通讯簿提供程序和 [IMAPISession：：OpenMsgStore](imapisession-openmsgstore.md) 以加载特定的邮件存储提供程序。 作为邮件服务的一部分的通讯簿提供程序在服务中的其他任何提供程序之前启动。 
   
-MAPI 通过执行以下操作来启动活动配置文件中的每个服务提供程序:
+MAPI 通过执行以下操作来启动活动配置文件中的每个服务提供程序：
   
-- 在配置文件中查找其 DLL 的名称。 您需要在 mapisvc.inf 配置文件中注册提供程序 DLL 的名称, 以确保它出现在配置文件中。 将服务提供程序添加到配置文件时 (单独或作为邮件服务的一部分), 所有 **[服务提供程序]** 从适用于您的提供程序的 mapisvc.inf 部分将复制到配置文件中。 有关 mapisvc.inf 结构的详细信息, 请参阅[mapisvc.inf 的文件格式](file-format-of-mapisvc-inf.md)。
+- 在配置文件中定位 DLL 的名称。 您必须在 Mapisvc.inf 配置文件中注册提供程序 DLL 的名称，以确保该名称出现在配置文件中。 将服务提供程序添加到配置文件（无论是单独添加还是作为邮件服务的一部分）时，Mapisvc.inf 中适用于您的提供程序的所有 **[Service Provider]** 部分将复制到配置文件中。 有关 Mapisvc.inf 结构详细信息，请参阅 [File Format of MapiSvc.inf](file-format-of-mapisvc-inf.md)。
     
-- 调用 Windows API 函数**LoadLibrary**以加载 DLL。 由于 MAPI 会在每次使用服务提供程序 DLL 时 (无论是否已加载) 或仅在首次使用服务提供程序 DLL 时调用**LoadLibrary** , 因此服务提供程序不一定会对其加载次数做出假设。 对于每个**LoadLibrary**调用, MAPI 会在不再需要服务提供程序 DLL 时调用 Windows API 函数**FreeLibrary** 。 
+- 调用 Windows API 函数 **LoadLibrary** 以加载 DLL。 由于 MAPI 每次使用服务提供程序 DLL (都会调用 **LoadLibrary，** 而无论它是已加载) 还是仅在第一次加载，因此您的服务提供商不得假设将加载它的时间。 每次调用 **LoadLibrary** 时，MAPI 都会调用 Windows API 函数 **FreeLibrary（** 当不再需要服务提供程序 DLL 时）。 
     
-- 调用提供程序的入口点函数。 MAPI 调用提供程序的入口点函数来启动登录过程。 入口点函数确保您使用的服务提供程序接口 (SPI) 版本与 MAPI 所使用的版本兼容。 这些函数还返回指向新创建的提供程序对象的指针。 有关为提供程序创建入口点函数的详细信息, 请参阅[实现服务提供程序入口点函数](implementing-a-service-provider-entry-point-function.md)。
+- 调用提供程序的入口点函数。 MAPI 调用提供程序的入口点函数以启动登录过程。 入口点函数确保您使用的是与 MAPI (版本兼容的 SPI) 接口版本。 这些函数还会返回指向新创建的提供程序对象的指针。 有关为提供程序创建入口点函数的信息，请参阅 [实现服务提供程序入口点函数](implementing-a-service-provider-entry-point-function.md)。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -17,7 +17,7 @@ ms.locfileid: "33439819"
 ---
 # <a name="isocialsessiongetperson"></a>ISocialSession::GetPerson
 
-获取基于_userID_参数的[ISocialPerson](isocialpersoniunknown.md)接口。 
+获取基于 _userID_ 参数的 [ISocialPerson](isocialpersoniunknown.md)接口。 
   
 ```cpp
 HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** result);
@@ -27,15 +27,15 @@ HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** resul
 
 _userId_
   
-> 实时包含人员的用户 ID 或 SMTP 地址的字符串。
+> [in]包含用户 ID 或用户的 SMTP 地址的字符串。
     
 _result_
   
-> 排除一个**ISocialPerson**接口。 
+> [out] **ISocialPerson** 接口。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-_userID_参数必须为用户 ID 或 SMTP 地址。 
+_userID_ 参数必须是用户 ID 或 SMTP 地址。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -25,11 +25,11 @@ ms.locfileid: "33439357"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍用于将表的视图限制为特定行的筛选器。 
+描述用于将表的视图限制到特定行的筛选器。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SRestriction
@@ -57,55 +57,55 @@ typedef struct _SRestriction
 
  **rt**
   
-> 限制类型。 可能的值如下所示: 
+> 限制类型。 可能的值如下所示： 
     
 RES_AND 
   
-> **和**限制, 这将对限制应用按位**and**运算。 
+> AND 限制，它将位 **AND** 操作应用于限制。 
     
 RES_BITMASK 
   
-> 一个位掩码限制, 它将位掩码应用于属性值。
+> 位掩码限制，它将位掩码应用于属性值。
     
 RES_COMMENT 
   
-> 一种注释限制, 它将注释与限制相关联。
+> 注释限制，将注释与限制关联。
     
 RES_COMPAREPROPS 
   
-> 属性比较限制, 它将比较两个属性值。
+> 属性比较限制，用于比较两个属性值。
     
 RES_CONTENT 
   
-> 内容限制, 用于搜索特定内容的属性值。
+> 内容限制，用于搜索特定内容的属性值。
     
 RES_EXIST 
   
-> 一个存在的限制, 用于确定是否支持某个属性。
+> 存在一个限制，用于确定属性是否受支持。
     
 RES_NOT 
   
-> 一个**不**受限制, 它将逻辑**非**操作应用于限制。 
+> **NOT** 限制，它将逻辑 **NOT** 操作应用于限制。 
     
 RES_OR 
   
-> **或**限制, 这将对限制应用逻辑**或**操作。 
+> **OR** 限制，它将逻辑 **OR** 操作应用于限制。 
     
 RES_PROPERTY 
   
-> 属性限制, 用于确定属性值是否与特定值匹配。
+> 属性限制，用于确定属性值是否与特定值匹配。
     
 RES_SIZE 
   
-> 大小限制, 用于确定属性值是否为特定大小。
+> 大小限制，用于确定属性值是否是特定大小。
     
 RES_SUBRESTRICTION 
   
-> 子对象限制, 它对邮件的附件或收件人应用限制。
+> 子对象限制，对邮件的附件或收件人应用限制。
     
  **res**
   
-> 限制结构的联合, 用于描述要应用的筛选器。 **res**成员中包含的特定结构取决于**rt**成员的值。 在下表中列出了限制类型和结构之间的映射。 
+> 描述要应用的筛选器的限制结构联合。 res 成员中包含的 **特定** 结构取决于 **rt** 成员的值。 下表列出了限制类型和结构之间的映射。 
     
 |||
 |:-----|:-----|
@@ -122,11 +122,11 @@ RES_SUBRESTRICTION
 |RES_SIZE  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |
 |RES_SUBRESTRICTION  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-客户端使用**SRestriction**结构来限制其表视图中的行数和类型, 并在文件夹中搜索特定邮件。 若要对表施加限制, 客户端可以调用[IMAPITable:: Restrict](imapitable-restrict.md)或[IMAPITable:: FindRow](imapitable-findrow.md)。 若要对文件夹施加限制, 客户端可以调用文件夹的[IMAPIContainer:: SetSearchCriteria](imapicontainer-setsearchcriteria.md)方法。 
+客户端使用 **SRestriction** 结构来限制表视图中的行数和类型，并搜索文件夹中的特定邮件。 为了对表施加限制，客户端调用 [IMAPITable：：Restrict](imapitable-restrict.md) 或 [IMAPITable：：FindRow](imapitable-findrow.md)。 为了对文件夹施加限制，客户端调用该文件夹的 [IMAPIContainer：：SetSearchCriteria](imapicontainer-setsearchcriteria.md) 方法。 
   
-有关如何对表使用限制的信息, 请参阅[关于限制](about-restrictions.md)。 
+若要了解如何对表使用限制，请参阅关于 [限制](about-restrictions.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

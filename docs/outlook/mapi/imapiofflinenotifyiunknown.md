@@ -25,12 +25,12 @@ ms.locfileid: "33439875"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-支持在向客户端发送通知回调时使用 microsoft outlook 2010 和 microsoft outlook 2013。
+支持Microsoft Outlook 2010 Microsoft Outlook 2013客户端发送通知回调。
   
 |||
 |:-----|:-----|
-|提供者：  <br/> |Client  <br/> |
-|接口标识符:  <br/> |IID_IMAPIOfflineNotify  <br/> |
+|提供者：  <br/> |客户端  <br/> |
+|接口标识符：  <br/> |IID_IMAPIOfflineNotify  <br/> |
    
 ## <a name="vtable-order"></a>Vtable 顺序
 
@@ -38,9 +38,9 @@ ms.locfileid: "33439875"
 |:-----|:-----|
 |[Notify](imapiofflinenotify-notify.md) <br/> |向客户端发送有关连接状态更改的通知。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-在设置使用**[IMAPIOfflineMgr:: 建议](imapiofflinemgr-advise.md)** 的回调时, 客户端必须实现此接口并将指针作为**[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** 中的成员进行传递。 随后, outlook 2010 或 outlook 2013 将能够使用此接口向客户端发送通知回调。 
+当使用 **[IMAPIOfflineMgr：：Advise](imapiofflinemgr-advise.md)** 设置回调时 **[](mapioffline_adviseinfo.md)**，客户端必须实现此接口，并作为 MAPIOFFLINE_ADVISEINFO 中的成员传递指向它的指针。 随后，Outlook 2010 Outlook 2013 将能够使用此接口向客户端发送通知回调。 
   
 ## <a name="see-also"></a>另请参阅
 

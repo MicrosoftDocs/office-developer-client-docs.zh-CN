@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cd822240-a895-65da-6a0e-76657c15a69e
-description: 将枚举器重置到开头。
+description: 将枚举器重置为开头。
 ms.openlocfilehash: 80be2ac522954ece0aa17dd9a6842c091522b98b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33439644"
 ---
 # <a name="iolkenumreset"></a>IOlkEnum::Reset
 
-将枚举器重置到开头。
+将枚举器重置为开头。
   
 ## <a name="quick-info"></a>快速信息
 
-请参阅[IOlkEnum](iolkenum.md)。
+请参阅 [IOlkEnum](iolkenum.md)。
   
 ```cpp
 HRESULT IOlkEnum::Reset ();

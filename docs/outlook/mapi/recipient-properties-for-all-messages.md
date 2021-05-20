@@ -21,18 +21,18 @@ ms.locfileid: "33439714"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-以下属性通常对所有邮件收件人都存在。 **PR_EMAIL_ADDRESS**和**PR_SEARCH_KEY**是可选的;所有其他属性都是必需的。 
+下列属性通常存在于所有邮件收件人中。 **PR_EMAIL_ADDRESS** 和 **PR_SEARCH_KEY** 是可选的;需要所有其他属性。 
   
 **表标题**
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**PR_ADDRTYPE**([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |包含邮件用户的电子邮件地址类型, 例如 SMTP。  <br/> |
-|**PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |包含给定 MAPI 对象的显示名称。  <br/> |
-|**PR_DISPLAY_TYPE**([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |包含一个值, 该值用于将图标与表中的特定行相关联。  <br/> |
-|**PR_EMAIL_ADDRESS**([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |包含邮件用户的电子邮件地址。  <br/> |
-|**PR_ENTRYID**([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |包含用于打开和编辑特定 MAPI 对象的属性的 MAPI 条目标识符。  <br/> |
-|**PR_OBJECT_TYPE**([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |包含对象的类型。  <br/> |
-|**PR_SEARCH_KEY**([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |包含二进制可比较的键, 用于标识搜索的相关对象。  <br/> |
+|**PR_ADDRTYPE (** [PidTagAddressType](pidtagaddresstype-canonical-property.md))   <br/> |包含邮件用户的电子邮件地址类型，如 SMTP。  <br/> |
+|**PR_DISPLAY_NAME (** [PidTagDisplayName](pidtagdisplayname-canonical-property.md))   <br/> |包含显示名称 MAPI 对象的属性。  <br/> |
+|**PR_DISPLAY_TYPE (** [PidTagDisplayType](pidtagdisplaytype-canonical-property.md))   <br/> |包含一个值，该值用于将图标与表的特定行关联。  <br/> |
+|**PR_EMAIL_ADDRESS (** [PidTagEmailAddress)](pidtagemailaddress-canonical-property.md)  <br/> |包含邮件用户的电子邮件地址。  <br/> |
+|**PR_ENTRYID (** [PidTagEntryId](pidtagentryid-canonical-property.md))   <br/> |包含一个 MAPI 条目标识符，该标识符用于打开和编辑特定 MAPI 对象的属性。  <br/> |
+|**PR_OBJECT_TYPE (** [PidTagObjectType](pidtagobjecttype-canonical-property.md))   <br/> |包含对象的类型。  <br/> |
+|**PR_SEARCH_KEY (** [PidTagSearchKey](pidtagsearchkey-canonical-property.md))   <br/> |包含标识搜索的相关对象的二进制比较键。  <br/> |
    
 

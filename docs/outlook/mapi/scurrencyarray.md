@@ -25,11 +25,11 @@ ms.locfileid: "33439399"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于描述类型为 PT_MV_CURRENCY 的属性的货币值数组。 
+包含一组货币值，用于描述类型为 PT_MV_CURRENCY。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SCurrencyArray
@@ -44,15 +44,15 @@ typedef struct _SCurrencyArray
 
  **cValues**
   
-> 由**lpcur**成员指向的数组中的值的计数。 
+> **lpcur** 成员指向的数组中的值计数。 
     
  **lpcur**
   
-> 指向包含货币值的[货币](currency.md)结构数组的指针。 
+> 指向包含货币值的 [CURRENCY](currency.md) 结构的数组的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-有关 PT_MV_CURRENCY 的信息, 请参阅[属性类型列表](property-types.md)。 
+有关属性类型PT_MV_CURRENCY，请参阅 [属性类型列表](property-types.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

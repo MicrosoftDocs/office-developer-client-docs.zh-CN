@@ -25,7 +25,7 @@ ms.locfileid: "33439420"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定功能实体的性质, 方法是通过邮件是由邮件传递的, 还是已传递给收件人。 
+通过邮件已送达或已传递给收件人的方式指定功能实体的性质。 
   
 |||
 |:-----|:-----|
@@ -34,51 +34,51 @@ ms.locfileid: "33439420"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-此属性可以具有下列值之一: 
+此属性可以正好具有下列值之一： 
   
 MAPI_MH_DP_ML 
   
-> 传递到通讯组列表, 这一传递点又可能将邮件分发给多个收件人。
+> 传递到通讯组列表，传递点可能会将邮件分发给许多收件人。
     
 MAPI_MH_DP_MS 
   
-> 传递到邮件存储, 而不是直接传递给收件人。
+> 传递到邮件存储，而不是直接传递给收件人。
     
 MAPI_MH_DP_OTHER_AU 
   
-> 传递给除物理传递访问单元 (PDAU) 以外的访问单元 (AU), 例如传真系统。
+> 传递到澳大利亚/ (访问) 除 PDAU (物理传递访问) ，如 FAX 系统。
     
 MAPI_MH_DP_PDAU 
   
-> 传递给物理传递访问单元, 如 "人体邮政" 运营商。
+> 传递到物理传递访问单元，例如人工邮政运营商。
     
 MAPI_MH_DP_PDS_PATRON 
   
-> 传递到物理传递系统 patron, 如常规邮政邮箱。
+> 传递到物理传递系统邮箱，如传统的邮政邮箱。
     
 MAPI_MH_DP_PRIVATE_UA 
   
-> 传递给私有用户代理 (UA), 例如内部邮件系统中的客户端。
+> 传递到内部邮件系统 (UA) （如客户端）的专用用户代理。
     
 MAPI_MH_DP_PUBLIC_UA 
   
-> 传递给公用用户代理或公共服务提供商。
+> 传递给公共用户代理或公共服务提供商。
     
-默认值为 MAPI_MH_DP_PRIVATE_UA, 即 MAPI 客户端。 
+默认值为 MAPI_MH_DP_PRIVATE_UA，即 MAPI 客户端。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

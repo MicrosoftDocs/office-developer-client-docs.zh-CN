@@ -25,7 +25,7 @@ ms.locfileid: "33439840"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-此属性包含一个指示远程传输的状态的数字。
+此属性包含一个指示远程传输状态的号码。
   
 |||
 |:-----|:-----|
@@ -34,33 +34,33 @@ ms.locfileid: "33439840"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果没有进行传输, 应将此属性设置为1。 如果正在进行传送, 则应将其设置为介于0到100之间的值, 表示传输完成百分比。
+如果未进行传输，则此属性应设置为 1。 如果传输正在进行，应设置为从 0 到 100 的值，指示转移的完成百分比。
   
-与数值状态代码关联的文本显示在**PR_REMOTE_PROGRESS_TEXT** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)) 属性中。
+与数字状态代码关联的文本将显示在[PidTagRemoteProgressText PR_REMOTE_PROGRESS_TEXT (PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)) 中。 
   
-可以为此属性设置以下标志:
+可以为此属性设置以下标志：
   
 MSGSTATUS_REMOTE_DELETE
   
-> 邮件传输已删除。
+> 邮件传输将被删除。
     
 MSGSTATUS_REMOTE_DOWNLOAD
   
-> 正在进行邮件传输。
+> 邮件传输正在进行中。
     
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-mapidefs。h
+Mapidefs.h
   
 > 提供数据类型定义。
     
-Mapitags
+Mapitags.h
   
-> 包含列为关联属性的属性的定义。
+> 包含作为关联属性列出的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

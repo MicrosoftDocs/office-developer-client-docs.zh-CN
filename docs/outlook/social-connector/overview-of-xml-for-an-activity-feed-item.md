@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 366550fa-e787-4ca0-bfe1-a7890dfc27c6
-description: '活动源由社交网络中发生的一个或多个活动组成。 每个活动源均由一个 microsoft.office.server.activityfeed 元素表示, 并由以下三条信息组成:'
+description: 活动源由社交网络上发生的一个或多个活动组成。 每个活动源由一个 activityFeed 元素表示，其特征为以下三条信息：
 ms.openlocfilehash: 971c54cf69a65bebbe4fd04e8608e88b89145bb4
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,40 +17,40 @@ ms.locfileid: "33439945"
 ---
 # <a name="overview-of-xml-for-an-activity-feed-item"></a>活动源项的 XML 概述
 
-活动源由社交网络中发生的一个或多个活动组成。 每个活动源均由一个**microsoft.office.server.activityfeed**元素表示, 并由以下三条信息组成: 
+活动源由社交网络上发生的一个或多个活动组成。 每个活动源由一个 **activityFeed** 元素表示，其特征为以下三条信息： 
   
-- **网络**—活动源自的社交网络的名称。
+- **network**— 源自活动的社交网络的名称。
     
-- **活动**—在该社交网络上登录用户帐户上发生的活动的容器。
+- **activities**— 该社交网络上登录的用户帐户上发生的活动的容器。
     
-- **模板**-用于在**活动**中显示相应活动项的模板的容器。
+- **templates**— 用于显示活动中的相应活动项的模板 **容器**。
     
-若要创建活动源项目, 您必须符合 Outlook Social Connector (.osc) 提供程序扩展性 XML 架构。 图1显示了活动源 XML 结构。
+若要创建活动源项，您必须遵循 OSC Outlook扩展性 XML 架构 () Social Connector。 图 1 显示了活动源 XML 结构。
   
-**图1。活动源 XML 结构**
+**图 1.活动源 XML 结构**
 
 ![活动 XML 结构](media/odc_ol14_ta_OSC_Fig06.gif)
   
-对于每个活动源项目, 此架构的两个最重要部分是**activityDetails**和**activityTemplateContainer**元素: 
+对于每个活动源项，此架构的两个最重要的部分为 **activityDetails** 和 **activityTemplateContainer** 元素： 
   
-- **activityDetails**元素存储每个活动源项的特定信息, 例如活动所有者的名称或上载的图片的 URL。 
+- **activityDetails** 元素存储每个活动源项的特定信息，如活动所有者的名称或上载图片的 URL。 
     
-- **activityTemplateContainer**元素存储每个活动源项目的格式或布局。 它由各个**activityTemplate**元素表示的模板组成, 这些模板可重复用于多个订阅源项。 
+- **activityTemplateContainer** 元素存储每个活动源项的格式或布局。 它包含由单个 **activityTemplate** 元素表示的模板，这些模板可重复使用用于多个源项。 
     
-对于单个活动源项, **activityTemplate**元素将指定以下四条信息: 
+对于单个活动源项 **，activityTemplate** 元素指定以下四条信息： 
   
-- **图标**—指定用于显示活动源项目的图标的 URL。
+- **icon**— 指定用于显示活动源项目的图标的 URL。
     
-- **标题**—描述活动源项目。
+- **title**— 描述活动源项。
     
-- **类型**—指定活动的类型, 如状态、照片或文档更新。
+- **type**— 指定活动类型，例如状态、照片或文档更新。
     
-- **data**-指定与活动源项目一起显示的任何额外信息。
+- **data**— 指定与活动源项目一起显示的任何额外信息。
     
 > [!TIP]
-> 活动源中显示的图标总是与**ISocialProvider:: SocialNetworkIcon**属性返回的提供程序图标相同。 
+> 活动源中显示的图标始终与 **ISocialProvider：：SocialNetworkIcon** 属性返回的提供程序图标相同。 
   
-有关**activityDetails**元素、 **activityTemplateContainer**元素、模板标记和模板变量的详细信息, 请参阅以下主题: 
+有关 **activityDetails** 元素 **、activityTemplateContainer** 元素、模板标记和模板变量详细信息，请参阅以下主题： 
   
 - [activityDetails 元素](activitydetails-element.md)
     
@@ -58,13 +58,13 @@ ms.locfileid: "33439945"
     
 - [模板变量](template-variables.md)
     
-- [正确显示活动的准则](guidelines-for-properly-displaying-activities.md)
+- [正确显示活动指南](guidelines-for-properly-displaying-activities.md)
     
-有关活动源 xml 的示例, 请参阅[活动源 xml 示例](activity-feed-xml-example.md)。
+有关活动源 XML 的示例，请参阅 [活动源 XML 示例](activity-feed-xml-example.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-- [适用于活动的 XML](xml-for-activities.md) 
-- [Outlook Social Connector 提供程序 XML 架构](outlook-social-connector-provider-xml-schema.md)
-- [使用 .osc XML 架构开发提供程序](developing-a-provider-with-the-osc-xml-schema.md)
+- [活动的 XML](xml-for-activities.md) 
+- [OutlookSocial Connector Provider XML 架构](outlook-social-connector-provider-xml-schema.md)
+- [使用 OSC XML 架构开发提供程序](developing-a-provider-with-the-osc-xml-schema.md)
 

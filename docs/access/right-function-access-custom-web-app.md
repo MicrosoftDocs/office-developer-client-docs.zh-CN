@@ -1,5 +1,5 @@
 ---
-title: Right 函数 (Access 自定义 web 应用程序)
+title: 'Right Function (Access 自定义 Web 应用) '
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439952"
 ---
-# <a name="right-function-access-custom-web-app"></a>Right 函数 (Access 自定义 web 应用程序)
+# <a name="right-function-access-custom-web-app"></a>Right Function (Access 自定义 Web 应用) 
 
 返回具有指定字符数的字符串的右侧部分。
   
@@ -23,13 +23,13 @@ ms.locfileid: "33439952"
   
 ## <a name="syntax"></a>语法
 
- **右**(*TextExpression*, *Length*) 
+ **Right** (*TextExpression*、 *Length*)  
   
-**Right**函数包含下列参数。 
+**Right** 函数包含下列参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|
 | *TextExpression*  <br/> |文本表达式。  <br/> |
-| *Length*  <br/> |是一个正整数, 指定返回*TextExpression*的多少个字符。  <br/> |
+| *Length*  <br/> |是一个正整数，指定  *返回 TextExpression*  的字符数。  <br/> |
    
 

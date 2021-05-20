@@ -25,7 +25,7 @@ ms.locfileid: "33439609"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回一个指针, 指向与 mapi 支持对象相关联的 mapi 会话。
+返回一个指向与 MAPI 支持对象关联的 MAPI 会话的指针。
   
 ```cpp
 HRESULT GetMAPISession(
@@ -37,7 +37,7 @@ HRESULT GetMAPISession(
 
  _lppSession_
   
-> 排除指向当前 MAPI 会话的指针。
+> [out]指向当前 MAPI 会话的指针。
     
 ## <a name="see-also"></a>另请参阅
 

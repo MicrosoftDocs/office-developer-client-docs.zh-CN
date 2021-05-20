@@ -27,9 +27,9 @@ ms.locfileid: "33439336"
     
 - 与服务器场管理员核实，以确保服务器上正在运行 Microsoft SharePoint Foundation 沙盒代码服务。有关详细信息，请参阅[发布包含代码的表单](publishing-forms-with-code.md)。
     
-- 所选的表单模板编程语言为 ** C#** 或 ** Visual Basic **，其后不含任何早期版本名称。 InfoPath 2007 兼容以及 InfoPath 2003 兼容版本的编程语言和对象模型不支持沙盒解决方案。 有关如何指定编程语言的详细信息，请参阅[使用 Visual studio 进行开发](how-to-develop-with-visual-studio.md)。
+- 所选的表单模板编程语言为 **C#** 或 **Visual Basic**，其后不含任何早期版本名称。 InfoPath 2007 兼容以及 InfoPath 2003 兼容版本的编程语言和对象模型不支持沙盒解决方案。 有关如何指定编程语言的详细信息，请参阅[使用 Visual studio 进行开发](how-to-develop-with-visual-studio.md)。
     
-执行以下步骤以创建表单模板，该模板将对表单上的“重复表”**** 控件中的数据进行排序。 
+执行以下步骤以创建表单模板，该模板将对表单上的“重复表”控件中的数据进行排序。 
   
 ### <a name="to-create-a-form-template-that-programmatically-sorts-data-in-the-form"></a>创建以编程方式对表单中的数据进行排序的表单模板
 
@@ -135,20 +135,20 @@ ms.locfileid: "33439336"
 
 5. 使用以下步骤发布表单：
     
-    1. 单击 Backstage 中“发布”**** 选项卡上的“SharePoint Server”****。 
+    1. 单击 Backstage 中“发布”选项卡上的“SharePoint Server”。 
         
-    2. 输入要发布 SharePoint 站点的 URL，然后单击“下一步”****。 
+    2. 输入要发布 SharePoint 站点的 URL，然后单击“下一步”。 
         
        > [!IMPORTANT]
        > 您必须是此网站上的网站集管理员才能以 沙盒解决方案 的形式发布此表单模板。 
     
-    3. 选择“表单库”****，然后单击“下一步”****。
+    3. 选择“表单库”，然后单击“下一步”。
         
-    4. 选择“**创建新的表单库**”，然后单击“**下一步**”。
+    4. 选择“新建表单库”，然后单击“下一步”。
         
-    5. 输入表单库的名称和描述，然后单击“下一步”****。
+    5. 输入表单库的名称和描述，然后单击“下一步”。
         
-    6. 单击“**发布**”。
+    6. 单击“发布”。
     
 ## <a name="example-2-managing-vendors-in-a-sharepoint-list"></a>示例 2：在 SharePoint 列表中管理供应商
 
@@ -164,37 +164,37 @@ Microsoft.SharePoint.Server.dll is installed in C:\Program Files\Common Files\Mi
 
 1. Create a simple custom list on a SharePoint Server 2010 server, and name it MyList. The following example uses a **Combo Box** bound to the **Title** field of this list. 
     
-2. 在 InfoPath Designer 中新建一个“空白表单”****，在表单上插入“组合框”**** 控件，并将绑定到组合框的字段重命名为 myCombo。
+2. 在 InfoPath Designer 中新建一个“空白表单”，在表单上插入“组合框” 控件，并将绑定到组合框的字段重命名为 myCombo。
     
 3. 通过使用以下步骤，创建与将用于填充组合框的列表的数据连接：
     
-    1. 在“数据”**** 选项卡上，单击“获取外部数据”**** 组中的“来自 SharePoint 列表”**** 按钮。 
+    1. 在“数据”选项卡上，单击“获取外部数据”组中的“来自 SharePoint 列表”按钮。 
         
-    2. 输入包含该列表的站点的 URL，然后单击“下一步”****。
+    2. 输入包含该列表的站点的 URL，然后单击“下一步”。
         
-    3. 选择该列表，然后单击“下一步”****。
+    3. 选择该列表，然后单击“下一步”。
         
     4. Select the fields that you want to include, for this example, select Title and ID. Title contains the values for lookup. Click **Next**.
         
-    5. 在以下屏幕中单击“下一步”****。 
+    5. 在以下屏幕中单击“下一步”。 
         
-    6. 将数据连接命名为 LookupList，然后单击“完成”****。
+    6. 将数据连接命名为 LookupList，然后单击“完成”。
     
 4. 通过使用以下步骤，依据列表在组合框中填充值：
     
     1. 选择步骤 1 中创建的组合框。
         
-    2. 单击功能区的“控件工具属性”**** 选项卡上的“编辑选项”****。 
+    2. 单击功能区的“控件工具属性”选项卡上的“编辑选项”。 
         
-    3. 选择“从外部数据源中获取选项”****。
+    3. 选择“从外部数据源中获取选项”。
         
-    4. 确保将“数据源”**** 设置为你在步骤 2 中创建的数据连接。 
+    4. 确保将“数据源”设置为你在步骤 2 中创建的数据连接。 
         
     5. 将值和显示名称设置为 Title。
         
-    6. 在“浏览器表单”**** 选项卡上，选择“回发设置”**** 下的“始终”****，然后单击“确定”**** 关闭属性对话框。 
+    6. 在“浏览器表单”选项卡上，选择“回发设置”下的“始终”，然后单击“确定”关闭属性对话框。 
     
-5. 确保仍然选中组合框，然后单击功能区中“开发人员”**** 选项卡上的“Changed 事件”****。 
+5. 确保仍然选中组合框，然后单击功能区中“开发人员”选项卡上的“Changed 事件”。 
     
     如果表单尚未保存，则会提示您保存表单。然后，代码编辑器窗口将在  `myCombo_Changed` 事件处理程序中打开并显示游标。 
     
@@ -279,20 +279,20 @@ Microsoft.SharePoint.Server.dll is installed in C:\Program Files\Common Files\Mi
 
 9. 使用以下步骤发布表单：
     
-    1. 单击 Backstage 中“发布”**** 选项卡上的“SharePoint Server”****。 
+    1. 单击 Backstage 中“发布”选项卡上的“SharePoint Server”。 
         
-    2. 输入要发布 SharePoint 站点的 URL，然后单击“下一步”****。 
+    2. 输入要发布 SharePoint 站点的 URL，然后单击“下一步”。 
         
        > [!IMPORTANT]
        > 您必须是此网站上的网站集管理员才能以 沙盒解决方案 的形式发布此表单模板。 
     
-    3. 选择“表单库”****，然后单击“下一步”****。
+    3. 选择“表单库”，然后单击“下一步”。
         
-    4. 选择“新建表单库”****，然后单击“下一步”****。
+    4. 选择“新建表单库”，然后单击“下一步”。
         
-    5. 输入表单库的名称和描述，然后单击“下一步”****。
+    5. 输入表单库的名称和描述，然后单击“下一步”。
         
-    6. 单击“发布”****。
+    6. 单击“发布”。
         
     7. 成功发布表单后，从表单库中打开该表单，然后向组合框中添加一个新值以测试代码。退出 myCombo 域时，新值将会写入 SharePoint 列表。 
     

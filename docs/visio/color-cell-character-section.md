@@ -20,11 +20,11 @@ ms.locfileid: "33439987"
 
 确定形状的文本要使用的颜色。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要设置该颜色，请输入一个介于 0 和 23 之间的数字。
   
-若要输入自定义颜色，请使用 RGB 或 HSL 函数。 自定义颜色的值是其 RGB 颜色, 而 rgb ( *r, g, b*), 而不是数字, 将显示在 ShapeSheet 窗口中。 在数值运算中使用自定义颜色时，其值将大于或等于 24。 
+若要输入自定义颜色，请使用 RGB 或 HSL 函数。 自定义颜色的值是它的 RGB 颜色，RGB ( *r、g、b*) 而不是数字将显示在 ShapeSheet 窗口中。 在数值运算中使用自定义颜色时，其值将大于或等于 24。 
   
 您可以在 Transparency 单元格中设置文本颜色的透明度。
   
@@ -32,14 +32,14 @@ ms.locfileid: "33439987"
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |Char. Color [ *i* ] 其中*i* = <1>, 2, 3, .。。  <br/> |
+|单元格名称：  <br/> |Char.Color[ *i*  ] 其中  *i*  = <1>，2， 3， ...  <br/> |
    
 若要从某个程序按索引获取对 Color 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionCharacter** <br/> |
-|行索引：  <br/> |**visRowCharacter** +  *i* = ** 0、1、2 .。。  <br/> |
+|行索引：  <br/> |**visRowCharacter**  +  *i* 其中 *i* = 0， 1， 2， ...  <br/> |
 |单元格索引：  <br/> |**visCharacterColor** <br/> |
    
 

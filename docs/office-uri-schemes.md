@@ -140,7 +140,7 @@ Office URI 方案的缩写形式允许发出更紧凑的请求启动指定的 Of
   
 ### <a name="allowed-characters-in-uri-command-arguments"></a>URI 命令参数中的允许字符
 
-允许的 Uri 必须符合 RFC 3987-国际化资源标识符中建议的标准 (Iri) 。 RFC 3986 中标识为 "保留" 的字符不应是经过百分比编码的。 . 文件名不能包含以下任何字符： \/：？ \< \> |"或 \* 。  
+允许的 URI 必须符合 RFC 3987 中建议的标准 - 国际化资源标识符 (IRI)。在 RFC 3986 中标记为保留的子服务不应进行百分比编码。文件名不应包含下列任一字符：\ / : ? \< \> | " 或 \*。  
   
 ## <a name="appendix-a---uri-scheme-registration-template-for-ms-word-scheme"></a>附录 A - MS-WORD 方案的 URI 方案注册模板
 <a name="bk_addresources"> </a>
@@ -343,7 +343,7 @@ Microsoft Office 2013 使用 ms-access URI 方案从网页调用 Microsoft Acces
   
 ### <a name="e-6-interoperability-considerations"></a>E-6. 互操作性的注意事项
 
-请注意，此规范中用作分隔符的竖线没有在 RFC 3986 的第 2.2 节中标明，而是保留作为可能的分隔符。 这是故意为之，以便在无需对这些字符进行百分比编码的情况下，最大限度地增加 URI 命令参数可以支持的字符集。 在 \<command-argument\> 分段中，RFC 3986 保留字符 "：" 和 "/" 是参数数据的一部分，而不是分隔符，因此包含非转义性。
+请注意，此规范中用作分隔符的竖线没有在 RFC 3986 的第 2.2 节中标明，而是保留作为可能的分隔符。 这是故意为之，以便在无需对这些字符进行百分比编码的情况下，最大限度地增加 URI 命令参数可以支持的字符集。 在 \<command-argument\> 分段中，RFC 3986 保留的字符"："和"/"是参数数据的一部分，而不是分隔符，因此包含时不能转义。
   
 ### <a name="e-7-security-considerations"></a>E-7. 安全的注意事项
 
@@ -427,7 +427,7 @@ Microsoft Office 2013 使用 ms-publisher URI 方案从网页调用 Microsoft Pu
   
 ### <a name="g-6-interoperability-considerations"></a>G-6. 互操作性的注意事项
 
-请注意，此规范中用作分隔符的竖线没有在 RFC 3986 的第 2.2 节中标明，而是保留作为可能的分隔符。 这是故意为之，以便在无需对这些字符进行百分比编码的情况下，最大限度地增加 URI 命令参数可以支持的字符集。 在 \<command-argument\> 分段中，RFC 3986 保留字符 "：" 和 "/" 是参数数据的一部分，而不是分隔符，因此包含非转义性。
+请注意，此规范中用作分隔符的竖线没有在 RFC 3986 的第 2.2 节中标明，而是保留作为可能的分隔符。 这是故意为之，以便在无需对这些字符进行百分比编码的情况下，最大限度地增加 URI 命令参数可以支持的字符集。 在 \<command-argument\> 分段中，RFC 3986 保留的字符"："和"/"是参数数据的一部分，而不是分隔符，因此包含时不能转义。
   
 ### <a name="g-7-security-considerations"></a>G-7. 安全的注意事项
 
@@ -485,7 +485,7 @@ RFC 3987 - 国际资源标识符 (IRI)  
     
 ### <a name="i-4-uri-scheme-semantics"></a>I-4. URI 方案语义
 
-Ms-infopath 方案定义用于打开或创建 Microsoft Infopath 文档的 URI 语法。 该方案定义了两个命令，作为对引用文档应执行的操作的相关说明。 命令是 1) 打开-编辑-cmd (ofe) ，指示 InfoPath 在指定的 URI 处打开文档以进行编辑;和 2) 打开--cmd (ofv) ，该命令指示 InfoPath 以只读模式在指定的 URI 处打开文档。
+ms-infopath 方案定义用于打开或创建 Microsoft Infopath 文档的 URI 语法。 方案定义两个命令，它们用作有关引用文档应执行哪些操作的说明。 命令包括 1) open-for-edit-cmd (fore) ，指示 InfoPath 在指定的 URI 上打开文档进行编辑;和 2) open-for-view-cmd (ofv) ，指示 InfoPath 以只读模式以指定的 URI 打开文档。
   
 ### <a name="i-5-applicationsprotocols-that-use-the-ms-infopath-uri-scheme"></a>I-5. 使用 ms-infopath URI 方案的应用程序/协议
 

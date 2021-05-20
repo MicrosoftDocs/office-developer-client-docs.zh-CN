@@ -1,12 +1,12 @@
 ---
-title: DocLockDuplicatePage 单元格 ("Document Properties" 内容)
+title: 'DocLockDuplicatePage Cell (Document Properties Section) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b08a6558-519f-44e0-aeff-9919544d515e
-description: 确定是否可以将文档中的页面复制为布尔值。
+description: 确定文档中的页面是否可复制，作为布尔值。
 ms.openlocfilehash: 3f3274c6cfadb81ef514a179279bdaed3543b654
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,24 +14,24 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439658"
 ---
-# <a name="doclockduplicatepage-cell-document-properties-section"></a>DocLockDuplicatePage 单元格 ("Document Properties" 内容)
+# <a name="doclockduplicatepage-cell-document-properties-section"></a>DocLockDuplicatePage Cell (Document Properties Section) 
 
-确定是否可以将文档中的页面复制为布尔值。
+确定文档中的页面是否可复制，作为布尔值。
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |**** 在页面快捷菜单和页面中重复 **。重复**的自动化方法均被禁用。  <br/> |
+|TRUE  <br/> |**页面** 快捷菜单和 **Page.Duplicate** 自动化方法中的重复项均被禁用。  <br/> |
 |FALSE  <br/> |可以复制页面。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-若要从另一个公式按名称获取对**DocLockDuplicatePage**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
+若要从另一个公式 **、Cell** 元素 **的 N** 属性值或使用 **CellsU** 属性从某个程序按名称获取对 **DocLockDuplicatePage** 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | DocLockDuplicatePage  <br/> |
    
-若要从某个程序按索引获取对**DocLockDuplicatePage**单元格的引用, 请使用带下列参数的**CellsSRC**属性: 
+若要从程序按索引获取对 **DocLockDuplicatePage** 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

@@ -19,17 +19,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439854"
 ---
-# <a name="newmailnotification"></a>NEWMAIL_NOTIFICATION
+# <a name="newmail_notification"></a>NEWMAIL_NOTIFICATION
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍与新邮件到达相关的信息。 
+描述与新邮件到达有关的信息。 
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |mapidefs。h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _NEWMAIL_NOTIFICATION
@@ -49,7 +49,7 @@ typedef struct _NEWMAIL_NOTIFICATION
 
  **cbEntryID**
   
-> 由**lpEntryID**成员指向的条目标识符中的字节数。 
+> **lpEntryID** 成员指向的条目标识符中的字节数。 
     
  **lpEntryID**
   
@@ -57,19 +57,19 @@ typedef struct _NEWMAIL_NOTIFICATION
     
  **cbParentID**
   
-> 由**lpParentID**成员指向的条目标识符中的字节数。 
+> **lpParentID** 成员指向的条目标识符中的字节数。 
     
  **lpParentID**
   
-> 指向接收文件夹的新到达邮件的条目标识符的指针。
+> 指向新到达的邮件的接收文件夹的条目标识符的指针。
     
  **ulFlags**
   
-> 标志的位掩码, 用于描述邮件中包含的字符串属性的格式。 可以设置以下标志:
+> 用于描述邮件中包含的字符串属性格式的标志的位掩码。 可以设置以下标志：
     
 MAPI_UNICODE 
   
-> 传入的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
+> 传入字符串采用 Unicode 格式。 如果未MAPI_UNICODE，则字符串采用 ANSI 格式。
     
  **lpszMessageClass**
   
@@ -77,21 +77,21 @@ MAPI_UNICODE
     
  **ulMessageFlags**
   
-> 描述新到达的邮件的当前状态的标志的位掩码。 **ulMessageFlags**成员是邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性的副本。
+> 描述新到达的邮件的当前状态的标志的位掩码。 **ulMessageFlags** 成员是 [PidTagMessageFlags PR_MESSAGE_FLAGS (PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 的副本。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**NEWMAIL_NOTIFICATION**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 当**通知**结构的**info**成员包含**NEWMAIL_NOTIFICATION**结构时,**通知**结构的**ulEventType**成员将设置为_fnevNewMail。_
+the **NEWMAIL_NOTIFICATION** structure is one of the union of structures included in the **info** member of the [NOTIFICATION](notification.md) structure. 当 **NOTIFICATION** 结构的信息成员包含一个 NEWMAIL_NOTIFICATION **结构时****，NOTIFICATION** 结构的 **ulEventType** 成员将设置为 _fnevNewMail。_
   
-MAPI 使用**NEWMAIL_NOTIFICATION**结构作为**通知**结构的成员, 其中包含有关通知接收器通知事件的信息。 
+MAPI 仅使用 **NEWMAIL_NOTIFICATION** 结构作为 **NOTIFICATION** 结构的成员，该结构保存有关通知接收器的通知事件的信息。 
   
-有关通知的详细信息, 请参阅下表中所述的主题。
+有关通知详细信息，请参阅下表中介绍的主题。
   
 |**主题**|**说明**|
 |:-----|:-----|
 |[MAPI 中的事件通知](event-notification-in-mapi.md) <br/> |通知和通知事件的一般概述。  <br/> |
 |[处理通知](handling-notifications.md) <br/> |讨论客户端应如何处理通知。  <br/> |
-|[支持事件通知](supporting-event-notification.md) <br/> |讨论了如何使用[IMAPISupport](imapisupportiunknown.md)方法生成通知的服务提供商。  <br/> |
+|[支持事件通知](supporting-event-notification.md) <br/> |讨论服务提供商如何使用 [IMAPISupport](imapisupportiunknown.md) 方法生成通知。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
