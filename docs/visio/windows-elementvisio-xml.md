@@ -1,5 +1,5 @@
 ---
-title: Windows 元素 (Visio XML)
+title: 'Windows XML (Visio元素) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538443"
 ---
-# <a name="windows-element-visio-xml"></a>Windows 元素 (Visio XML)
+# <a name="windows-element-visio-xml"></a>Windows XML (Visio元素) 
 
-包含文档的**Window**元素。 
+包含 **文档的 Window** 元素。 
   
 ## <a name="element-information"></a>元素信息
 
@@ -24,8 +24,8 @@ ms.locfileid: "34538443"
 |:-----|:-----|
 |**元素类型** <br/> |[Windows_Type](windows_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15  <br/> |
-|**文档部件** <br/> |windows .xml  <br/> |
+|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
+|**文档部件** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,7 +36,7 @@ ms.locfileid: "34538443"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
+如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。 
   
 ### <a name="parent-elements"></a>父元素
 
@@ -52,7 +52,7 @@ ms.locfileid: "34538443"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|ClientHeight  <br/> |xsd: unsignedShort  <br/> |可选  <br/> |表示显示区域的高度尺寸  <br/> |Xsd: unsignedShort 类型的值。  <br/> |
-|ClientWidth  <br/> |xsd: unsignedShort  <br/> |可选  <br/> |表示显示区域的宽度尺寸  <br/> |Xsd: unsignedShort 类型的值。  <br/> |
+|ClientHeight  <br/> |xsd：unsignedShort  <br/> |可选  <br/> |表示显示区域的高度尺寸  <br/> |xsd：unsignedShort 类型的值。  <br/> |
+|ClientWidth  <br/> |xsd：unsignedShort  <br/> |可选  <br/> |表示显示区域的宽度尺寸  <br/> |xsd：unsignedShort 类型的值。  <br/> |
    
 

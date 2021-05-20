@@ -1,5 +1,5 @@
 ---
-title: IMAPIWaitResult ： IUnknown
+title: 'IMAPIWaitResult : IUnknown'
 manager: lindalu
 ms.date: 04/26/2021
 ms.audience: Developer
@@ -20,7 +20,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52062037"
 ---
-# <a name="imapiwaitresult--iunknown"></a>IMAPIWaitResult ： IUnknown
+# <a name="imapiwaitresult--iunknown"></a>IMAPIWaitResult : IUnknown
   
 **适用于：** Outlook 2013 |Outlook 2016 |Outlook 2019 年
 
@@ -43,8 +43,8 @@ IMAPIInitMonitor 的使用者使用此接口来控制等待发生位置。 它�
 
 [IMAPIInitMonitor](imapiinitmonitoriunknown.md)
 
-[IMAPIInitMonitor：：BeginWait](imapiinitmonitor-beginwait.md)
+[IMAPIInitMonitor::BeginWait](imapiinitmonitor-beginwait.md)
 
-[IMAPIInitMonitor ： IUnknown](imapiinitmonitoriunknown.md)
+[IMAPIInitMonitor : IUnknown](imapiinitmonitoriunknown.md)
 
 [CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)

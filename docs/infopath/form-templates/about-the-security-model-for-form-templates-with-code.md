@@ -26,8 +26,8 @@ InfoPath 托管代码表单模板与非托管表单模板中运行的脚本支�
 |**对象模型安全级别**|**说明**|**所需的权限集**|
 |:-----|:-----|:-----|
 |0  <br/> |可以无限制访问。  <br/> |无  <br/> |
-|双面  <br/> |只能由与当前打开的表单运行在相同域中的表单或者已被授予跨域权限的表单访问。  <br/> |无  <br/> |
-|第三章  <br/> |只能由完全受信任的表单访问。  <br/> |FullTrust  <br/> |
+|2  <br/> |只能由与当前打开的表单运行在相同域中的表单或者已被授予跨域权限的表单访问。  <br/> |无  <br/> |
+|3  <br/> |只能由完全受信任的表单访问。  <br/> |FullTrust  <br/> |
    
 > [!NOTE]
 > 安全级别"1"未由当前 InfoPath COM 服务器使用，而是保留以供将来使用。 
@@ -43,7 +43,7 @@ InfoPath 托管代码表单模板与非托管表单模板中运行的脚本支�
   
 |**域访问安全级别**|**说明**|
 |:-----|:-----|
-|受限  <br/> |不允许在表单模板外进行任何通信。 此安全级别旨在防止有害的表单将任何数据从计算机传输到恶意攻击者。 在此安全模式下运行时，下列功能将无法工作：自定义任务窗格、数据连接（电子邮件提交除外）、ActiveX 控件、托管代码表单代码、角色和工作流。 无法在受限制的域中运行托管代码表单模板。 将托管代码表单模板设置为“表单选项”**** 对话框的“安全和信任”**** 类别中的“自动确定安全级别”**** 时，表单模板将始终需要至少域安全访问级别才能运行代码。  <br/><br/>**重要说明**：从受限制的域打开表单时（例如从作为电子邮件附件发送的 InfoPath 表单打开），为托管代码表单模板创建的托管代码程序集将不会加载或运行。 想要以电子邮件附件形式部署任何表单模板则必须省略以上列出的功能，且如果表单模板包含表单代码，则必须在 JScript 或 VBScript 中执行表单代码并且必须只使用安全级别为 0（零）的对象模型成员。           |
+|受限  <br/> |不允许在表单模板外进行任何通信。 此安全级别旨在防止有害的表单将任何数据从计算机传输到恶意攻击者。 在此安全模式下运行时，下列功能将无法工作：自定义任务窗格、数据连接（电子邮件提交除外）、ActiveX 控件、托管代码表单代码、角色和工作流。 无法在受限制的域中运行托管代码表单模板。 将托管代码表单模板设置为“表单选项”对话框的“安全和信任”类别中的“自动确定安全级别”时，表单模板将始终需要至少域安全访问级别才能运行代码。  <br/><br/>**重要说明**：从受限制的域打开表单时（例如从作为电子邮件附件发送的 InfoPath 表单打开），为托管代码表单模板创建的托管代码程序集将不会加载或运行。 想要以电子邮件附件形式部署任何表单模板则必须省略以上列出的功能，且如果表单模板包含表单代码，则必须在 JScript 或 VBScript 中执行表单代码并且必须只使用安全级别为 0（零）的对象模型成员。           |
 |域  <br/> |根据表单在由 Microsoft Internet Explorer 定义的其中某个安全区域的位置来限制表单。例如，如果表单位于"本地 Intranet"区域，则允许表单与它所在域中的其他数据进行通信，但不允许从其他域中检索数据。Microsoft Internet Explorer 安全区域中的位置还将决定是否允许运行对脚本标记为不安全的 ActiveX 控件。  <br/> |
 |完全信任  <br/> |允许在将要使用表单的计算机上以完全信任方式运行表单。仅当对所用表单进行数字签名的签名与计算机上受信任的根发布者匹配时，或当创建的安装程序安装表单并在表单定义文件 (.xsf) 中将 **xDocumentClass** 元素的 **requireFullTrust** 属性设置为"yes"时，才能使用此安全级别。通过使用此设置，您的表单可以访问需要对象模型安全级别 3 的对象模型调用，例如，访问文件系统的属性和方法，您可以禁用在更严格的安全级别运行时出现的某些安全提示。  <br/> |
    
@@ -51,29 +51,29 @@ InfoPath 托管代码表单模板与非托管表单模板中运行的脚本支�
   
 ### <a name="specify-a-forms-security-level"></a>指定表单的安全级别
 
-1. 在 InfoPath 表单设计器中打开表单，依次单击“文件”**** 选项卡、“信息”**** 和“表单选项”****。
+1. 在 InfoPath 表单设计器中打开表单，依次单击“文件”选项卡、“信息”和“表单选项”。
     
-2. 在“表单选项”**** 对话框中单击“安全和信任”**** 类别。 
+2. 在“表单选项”对话框中单击“安全和信任”类别。 
     
-3. 清除“自动确定安全级别(推荐)”**** 复选框。 
+3. 清除“自动确定安全级别(推荐)”复选框。 
     
 4. 选择需要的安全级别。
     
 > [!NOTE] 
-> - 如果为托管代码表单模板选择“受限”**** 安全级别，则无论表单代码中使用了哪些对象模型成员，都不会加载和运行表单背后的代码。 此安全级别主要针对使用电子邮件部署的 InfoPath 表单而设计。     
-> - 如果选择“完全信任”**** 安全级别，则需要对表单进行数字签名或安装并注册表单。 有关详细信息，请参阅[部署具有代码的 InfoPath 表单模板](how-to-deploy-infopath-form-templates-with-code.md)。
+> - 如果为托管代码表单模板选择“受限”安全级别，则无论表单代码中使用了哪些对象模型成员，都不会加载和运行表单背后的代码。 此安全级别主要针对使用电子邮件部署的 InfoPath 表单而设计。     
+> - 如果选择“完全信任”安全级别，则需要对表单进行数字签名或安装并注册表单。 有关详细信息，请参阅[部署具有代码的 InfoPath 表单模板](how-to-deploy-infopath-form-templates-with-code.md)。
     
 下表总结了 InfoPath 安全模型。第一列列出为表单指定的级别或表单所需的级别。第二列和第三列指定表单的位置是具有 URN 还是 URL 标识符。剩余的列指定允许运行的内容。有关托管代码表单模板的部署方案和权限集的详细信息，请参阅本主题后面的"公共语言运行库代码访问安全功能"一节。
   
 |**表单所需的级别**|**具有 URN 标识符**|**具有 URL 标识符**|**对脚本标记为不安全的 ActiveX**|**跨域访问**|**托管代码**|**对象模型安全**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |受限  <br/> ||X  <br/> |根本没有 ActiveX  <br/> |失败  <br/> |加载表单，但不运行托管代码  <br/> |0  <br/> |
-|域（Internet Explorer **受限制的站点**区域）  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |
+|域（Internet Explorer **受限制的站点** 区域）  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |
 |域（Internet Explorer **Internet** 区域）  <br/> |X  <br/> ||失败  <br/> |失败  <br/> |根本不运行  <br/> |0  <br/> |
-|域（Internet Explorer **本地 Intranet** 区域）  <br/> |X  <br/> ||失败  <br/> |Prompt  <br/> |托管代码使用**本地 Intranet** 权限运行。  <br/> |双面  <br/> |
-|域（Internet Explorer **受信任的站点**区域）  <br/> |X  <br/> ||提示  <br/> |确定  <br/> |Managed code runs with **Internet** permissions. Cross-domain access is allowed. Note that even though the form is in the **Trusted sites** zone, **Internet** zone permissions are applied.  <br/> |双面  <br/> |
-|域（Internet Explorer **本地计算机**区域）  <br/> |X  <br/> |X  <br/> |提示  <br/> |失败  <br/> |托管代码使用**本地 Intranet** 权限运行。  <br/> |双面  <br/> |
-|完全信任  <br/> |X  <br/> |X  <br/> |确定  <br/> |确定  <br/> |完全信任  <br/> |第三章  <br/> |
+|域（Internet Explorer **本地 Intranet** 区域）  <br/> |X  <br/> ||失败  <br/> |提示  <br/> |托管代码使用 **本地 Intranet** 权限运行。  <br/> |2  <br/> |
+|域（Internet Explorer **受信任的站点** 区域）  <br/> |X  <br/> ||提示  <br/> |确定  <br/> |Managed code runs with **Internet** permissions. Cross-domain access is allowed. Note that even though the form is in the **Trusted sites** zone, **Internet** zone permissions are applied.  <br/> |2  <br/> |
+|域（Internet Explorer **本地计算机** 区域）  <br/> |X  <br/> |X  <br/> |提示  <br/> |失败  <br/> |托管代码使用 **本地 Intranet** 权限运行。  <br/> |2  <br/> |
+|完全信任  <br/> |X  <br/> |X  <br/> |确定  <br/> |确定  <br/> |完全信任  <br/> |3  <br/> |
    
 > [!IMPORTANT]
 > The descriptions above in the "ActiveX marked unsafe for scripting" and "Cross-Domain Access" columns assume the default security settings for Microsoft Internet Explorer. If a user changes their security settings, InfoPath will behave accordingly. For example, if in the **Local intranet** zone, **Access data sources across domains** is set to **Enable**, then users will not be prompted to allow cross-domain access as described in the table. 

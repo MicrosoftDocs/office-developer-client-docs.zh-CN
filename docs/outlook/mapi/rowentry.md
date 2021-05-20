@@ -23,7 +23,7 @@ ms.locfileid: "33436032"
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含通过[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口在表的行上执行的行和操作。 
+包含通过 [IExchangeModifyTable 接口对表中的该行执行的行和](iexchangemodifytableiunknown.md) 操作。 
   
 ```cpp
 typedef struct
@@ -38,23 +38,23 @@ typedef struct
 
 **ulRowFlags**
   
-> 要对数据执行以下操作之一: 
+> 对数据执行的以下操作之一： 
     
-  - ROW_ADD: 将数据作为新行添加到表中。
+  - ROW_ADD：将数据作为新行添加到表中。
       
-  - ROW_MODIFY: 修改表中的此行。
+  - ROW_MODIFY：修改表中的此行。
       
-  - ROW_REMOVE: 从表中删除此行。
+  - ROW_REMOVE：从表中删除此行。
       
-  - ROW_EMPTY: 不要将行数据添加到表中。 (行是空的。)
+  - ROW_EMPTY：不要向表中添加行数据。  (行为空。) 
     
 **cValues**
   
-> **rgPropvals**中的属性值的数目。
+> **rgPropvals 中的属性值数**。
     
 **rgPropVals**
   
-> [SPropValue](spropvalue.md)结构的数组, 这些结构表示要插入到表中的列的值。 
+> 一个 [SPropValue](spropvalue.md) 结构的数组，该数组代表要插入到表中的列值。 
     
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -62,7 +62,7 @@ typedef struct
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|RulesDlg  <br/> |CRulesDlg:: GetSelectedItems  <br/> |用于为后续**ModifyTable**操作生成选定规则的列表。  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg：：GetSelectedItems  <br/> |用于为后续的 ModifyTable 操作构建 **所选规则** 的列表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
   

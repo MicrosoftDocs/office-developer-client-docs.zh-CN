@@ -81,7 +81,7 @@ Namespace Template1
 End Namespace
 ```
 
-## <a name="the-startup-method"></a>_Startup 方法
+## <a name="the-_startup-method"></a>_Startup 方法
 
 除了提供为其他组件编写初始化代码的位置以外， `_Startup` 方法还初始化  `thisXDocument` 和  `thisApplication` 变量，可在表单代码中使用这些变量来访问 InfoPath 对象模型中 [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) 和 [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) 类的成员。项目模板会自动生成初始化这两个变量所需的代码。 
   
@@ -128,7 +128,7 @@ End Sub
 
 有关如何创建事件处理程序的信息，请参阅[使用 InfoPath 2003 对象模型添加事件处理程序](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)。
   
-## <a name="the-shutdown-method"></a>_ShutDown 方法
+## <a name="the-_shutdown-method"></a>_ShutDown 方法
 
 `_Shutdown` 方法是关闭表单时调用的最后一个方法。您可以在该方法中编写清理或完成在表单中使用的组件所需的任何代码。 
   

@@ -1,12 +1,12 @@
 ---
-title: 类型 (Visio XML)
+title: 'XML (Visio类型) '
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b9db404-a56a-efeb-90bc-669b61483f81
-description: 本主题列出了 Visio 2013 文件格式 XML 架构中的类型。
+description: 本主题列出了 2013 Visio XML 架构中的类型。
 ms.openlocfilehash: 465204a71b991fa0402665086ca146c3e094f641
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538590"
 ---
-# <a name="types-visio-xml"></a>类型 (Visio XML)
+# <a name="types-visio-xml"></a>XML (Visio类型) 
 
-本主题列出了 Visio 2013 文件格式 XML 架构中的类型。
+本主题列出了 2013 Visio XML 架构中的类型。
   
 - [Actions_Type complexType](actions_type-complextypevisio-xml.md)
     

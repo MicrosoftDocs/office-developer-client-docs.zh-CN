@@ -1,5 +1,5 @@
 ---
-title: Window_Type 复杂类型 (Visio XML)
+title: 'Window_Type COMPLEXType (Visio XML) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,14 +13,14 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538450"
 ---
-# <a name="windowtype-complextype-visio-xml"></a>Window_Type 复杂类型 (Visio XML)
+# <a name="window_type-complextype-visio-xml"></a>Window_Type COMPLEXType (Visio XML) 
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
 |**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
+|**架构文件** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**扩展基** <br/> |无  <br/> |
    
 ## <a name="definition"></a>定义
@@ -170,7 +170,7 @@ ms.locfileid: "34538450"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
+如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。 
   
 ### <a name="child-elements"></a>子元素
 
@@ -194,23 +194,23 @@ ms.locfileid: "34538450"
 
 |**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|Container  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|ContainerType  <br/> |xsd: token  <br/> |可选  <br/> ||Xsd: 令牌类型的值。  <br/> |
-|Document  <br/> |xsd: string  <br/> |可选  <br/> ||Xsd: string 类型的值。  <br/> |
-|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|Master  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|Page  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|ParentWindow  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|ReadOnly  <br/> |xsd: boolean  <br/> |可选  <br/> ||Xsd: boolean 类型的值。  <br/> |
-|Sheet  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|ViewCenterX  <br/> |xsd: double  <br/> |可选  <br/> ||Xsd: double 类型的值。  <br/> |
-|ViewCenterY  <br/> |xsd: double  <br/> |可选  <br/> ||Xsd: double 类型的值。  <br/> |
-|ViewScale  <br/> |xsd: double  <br/> |可选  <br/> ||Xsd: double 类型的值。  <br/> |
-|WindowHeight  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|WindowLeft  <br/> |xsd: short  <br/> |可选  <br/> ||Xsd: short 类型的值。  <br/> |
-|WindowState  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
-|WindowTop  <br/> |xsd: short  <br/> |可选  <br/> ||Xsd: short 类型的值。  <br/> |
-|WindowType  <br/> |xsd: token  <br/> |必需  <br/> ||Xsd: 令牌类型的值。  <br/> |
-|WindowWidth  <br/> |xsd: unsignedInt  <br/> |可选  <br/> ||Xsd: unsignedInt 类型的值。  <br/> |
+|容器  <br/> |xsd：unsignedInt  <br/> |可选  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|ContainerType  <br/> |xsd：token  <br/> |可选  <br/> ||xsd：token 类型的值。  <br/> |
+|文档  <br/> |xsd：string  <br/> |可选  <br/> ||xsd：string 类型的值。  <br/> |
+|ID  <br/> |xsd：unsignedInt  <br/> |必需  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|Master  <br/> |xsd：unsignedInt  <br/> |可选  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|Page  <br/> |xsd：unsignedInt  <br/> |可选  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|ParentWindow  <br/> |xsd：unsignedInt  <br/> |可选  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|ReadOnly  <br/> |xsd：boolean  <br/> |可选  <br/> ||xsd：boolean 类型的值。  <br/> |
+|Sheet  <br/> |xsd：unsignedInt  <br/> |可选  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|ViewCenterX  <br/> |xsd：double  <br/> |可选  <br/> ||xsd：double 类型的值。  <br/> |
+|ViewCenterY  <br/> |xsd：double  <br/> |可选  <br/> ||xsd：double 类型的值。  <br/> |
+|ViewScale  <br/> |xsd：double  <br/> |可选  <br/> ||xsd：double 类型的值。  <br/> |
+|WindowHeight  <br/> |xsd：unsignedInt  <br/> |可选  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|WindowLeft  <br/> |xsd：short  <br/> |可选  <br/> ||xsd：short 类型的值。  <br/> |
+|WindowState  <br/> |xsd：unsignedInt  <br/> |可选  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
+|WindowTop  <br/> |xsd：short  <br/> |可选  <br/> ||xsd：short 类型的值。  <br/> |
+|WindowType  <br/> |xsd：token  <br/> |必需  <br/> ||xsd：token 类型的值。  <br/> |
+|WindowWidth  <br/> |xsd：unsignedInt  <br/> |可选  <br/> ||xsd：unsignedInt 类型的值。  <br/> |
    
 

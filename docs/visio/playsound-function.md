@@ -22,7 +22,7 @@ ms.locfileid: "33435836"
   
 ## <a name="syntax"></a>语法
 
-PLAYSOUND ("* * *filename* * *" | "* * *alias* * *", * * *isAlias* * *, * **提示音** *, * * *synch* * *) 
+PLAYSOUND (" ** *filename* ** "|" ** *alias* ** "， ** *isAlias* **， ** *beep* **， ** *synch* ** )  
   
 ### <a name="parameters"></a>参数
 
@@ -31,12 +31,13 @@ PLAYSOUND ("* * *filename* * *" | "* * *alias* * *", * * *isAlias* * *, * **提�
 | _filename_ <br/> |必需  <br/> |**String** <br/> |要播放的声音文件的名称。  <br/> |
 | _alias_ <br/> |必需  <br/> |**String** <br/> | 由别名表示的系统声音。  <br/> |
 | _isAlias_ <br/> |必需  <br/> |**Boolean** <br/> | 指定前面的表达式是别名还是文件名；使用非零值来指定别名。  <br/> |
-| _发声_ <br/> |必需  <br/> |**Boolean** <br/> |指定在声音无法播放时，Microsoft Visio 是否发出嘟嘟声；使用非零数字来指定发出嘟嘟声。  <br/> |
-| _同步_ <br/> |必需  <br/> |**Boolean** <br/> |确定是异步 (0) 播放声音还是同步 (1) 播放声音。  <br/> |
+| _beep_ <br/> |必需  <br/> |**Boolean** <br/> |指定在声音无法播放时，Microsoft Visio 是否发出嘟嘟声；使用非零数字来指定发出嘟嘟声。  <br/> |
+| _synch_ <br/> |必需  <br/> |**Boolean** <br/> |确定是异步 (0) 播放声音还是同步 (1) 播放声音。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-通常应异步播放声音，这样 Visio 就能够在播放声音的同时继续进行处理。 若要将几种声音组合在一起，请同步播放它们，否则一些声音可能无法播放。 
+通常应异步播放声音，这样 Visio 就能够在播放声音的同时继续进行处理。若要将几种声音组合在一起，请同步播放它们，否则一些声音可能无法播放。
+ 
   
 ## <a name="example-1"></a>示例 1
 

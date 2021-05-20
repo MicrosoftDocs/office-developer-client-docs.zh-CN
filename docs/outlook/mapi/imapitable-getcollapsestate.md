@@ -25,7 +25,7 @@ ms.locfileid: "33436074"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回重建已分类表的当前折叠或已展开状态所需的数据。
+返回重建分类表的当前折叠或展开状态所需的数据。
   
 ```cpp
 HRESULT GetCollapseState(
@@ -41,57 +41,57 @@ LPBYTE FAR * lppbCollapseState
 
  _ulFlags_
   
-> 保留必须为零。
+> 保留;必须为零。
     
  _cbInstanceKey_
   
-> 实时由_lpbInstanceKey_参数指向的实例键中的字节数。 
+> [in]  _lpbInstanceKey_ 参数指向的实例键中的字节数。 
     
  _lpbInstanceKey_
   
-> 实时一个指针, 指向应重新生成当前折叠或展开状态的行的**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 属性。 _lpbInstanceKey_参数不能为 NULL。 
+> [in]指向当前 **折叠** 或展开PR_INSTANCE_KEY (的行的 [PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 属性的指针。 _lpbInstanceKey_ 参数不能为 NULL。 
     
  _lpcbCollapseState_
   
-> 排除一个指针, 指向_lppbCollapseState_参数指向的结构的计数。 
+> [out]指向  _lppbCollapseState_ 参数指向的结构计数的指针。 
     
  _lppbCollapseState_
   
-> 排除指向指向结构的指针的指针, 该结构包含描述当前表视图的数据。
+> [out]指向包含描述当前表视图的数据的结构的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功保存已分类表的状态。
+> 已成功保存分类表的状态。
     
 MAPI_E_BUSY 
   
-> 正在进行另一个操作, 以阻止操作启动。 应允许正在进行的操作完成, 或者应已停止。
+> 正在进行另一个阻止操作启动的操作。 应允许完成或停止进行中的操作。
     
 MAPI_E_NO_SUPPORT 
   
-> 该表不支持分类和展开和折叠视图。
+> 该表不支持分类以及展开和折叠的视图。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-**imapitable:: GetCollapseState**方法与[imapitable:: SetCollapseState](imapitable-setcollapsestate.md)方法一起使用, 以更改用户的已分类表的视图。 **GetCollapseState**保存**SetCollapseState**所需的数据, 以重建已分类表的类别的相应视图。 服务提供商确定要保存的数据。 但是, 大多数实现**GetCollapseState**的服务提供程序都会保存以下内容: 
+**IMAPITable：：GetCollapseState** 方法与 [IMAPITable：：SetCollapseState](imapitable-setcollapsestate.md)方法一起更改已分类表的用户视图。 **GetCollapseState** 保存 **SetCollapseState** 所需的数据，以用于重建分类表类别的适当视图。 服务提供商确定要保存的数据。 但是，大多数实现 **GetCollapseState** 的服务提供商将保存以下内容： 
   
-- 排序键 ("标准列" 和 "类别" 列)。
+- 排序键 (列和分类列) 。
     
 - 有关实例键表示的行的信息。
     
-- 用于还原表的折叠和展开类别的信息。
+- 还原表的折叠和展开类别的信息。
     
-有关分类表的详细信息, 请参阅[排序和分类](sorting-and-categorization.md)。
+有关分类表的信息，请参阅排序 [和分类](sorting-and-categorization.md)。
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-将表的所有节点的当前状态存储在_lppbCollapseState_参数中。 
+将表的所有节点的当前状态存储在  _lppbCollapseState_ 参数中。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-在调用**SetCollapseState**之前, 请务必先调用**GetCollapseState** 。 
+在调用 **SetCollapseState** 之前，始终调用 **GetCollapseState**。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -1,5 +1,5 @@
 ---
-title: FaceNames 元素 (VisioDocument_Type 复杂类型) (Visio XML)
+title: 'FaceNames 元素 (VisioDocument_Type COMPLEXType)  (Visio XML) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539711"
 ---
-# <a name="facenames-element-visiodocumenttype-complextype-visio-xml"></a>FaceNames 元素 (VisioDocument_Type 复杂类型) (Visio XML)
+# <a name="facenames-element-visiodocument_type-complextype-visio-xml"></a>FaceNames 元素 (VisioDocument_Type COMPLEXType)  (Visio XML) 
 
-包含**FaceName**元素的集合。 
+包含 **FaceName 元素** 的集合。 
   
 ## <a name="element-information"></a>元素信息
 
@@ -24,8 +24,8 @@ ms.locfileid: "34539711"
 |:-----|:-----|
 |**元素类型** <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15  <br/> |
-|**文档部件** <br/> |document .xml  <br/> |
+|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
+|**文档部件** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,13 +36,13 @@ ms.locfileid: "34539711"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
+如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。 
   
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Microsoft Visio 文档的根元素。  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Microsoft 文档库Visio元素。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 

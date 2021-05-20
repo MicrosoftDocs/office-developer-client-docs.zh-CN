@@ -1,5 +1,5 @@
 ---
-title: IMAPIInitMonitor ： IUnknown
+title: 'IMAPIInitMonitor : IUnknown'
 manager: lindalu
 26ms.audience: Developer
 ms.topic: reference
@@ -19,7 +19,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52062044"
 ---
-# <a name="imapiinitmonitor--iunknown"></a>IMAPIInitMonitor ： IUnknown
+# <a name="imapiinitmonitor--iunknown"></a>IMAPIInitMonitor : IUnknown
 
 **适用于：** Outlook 2013 |Outlook 2016 |Outlook 2019 年
 
@@ -36,6 +36,6 @@ ms.locfileid: "52062044"
 
 | function | 说明 |
 |:-----|:-----|
-|[IMAPIInitMonitor：：IsInitialized](imapiinitmonitor-isinitialized.md) <br/> |返回 MAPI 初始化的当前状态。  <br/> |
-|[IMAPIInitMonitor：：Wait](imapiinitmonitor-wait.md) <br/> |在此线程上启动 BLOCKING 调用，该调用将在指定的毫秒数已过或 MAPI 已初始化时返回。  INFINITE 可用于无限等待。  <br/> |
-|[IMAPIInitMonitor：：BeginWait](imapiinitmonitor-beginwait.md) <br/> |开始等待 MAPI 初始化或经过的指定毫秒数。 这将返回 IMAPIWaitResult 接口，该接口应调用"End"，以便开始等待。  这允许调用方控制我们在等待时被阻止的线程。 <br/> |
+|[IMAPIInitMonitor::IsInitialized](imapiinitmonitor-isinitialized.md) <br/> |返回 MAPI 初始化的当前状态。  <br/> |
+|[IMAPIInitMonitor::Wait](imapiinitmonitor-wait.md) <br/> |在此线程上启动 BLOCKING 调用，该调用将在指定的毫秒数已过或 MAPI 已初始化时返回。  INFINITE 可用于无限等待。  <br/> |
+|[IMAPIInitMonitor::BeginWait](imapiinitmonitor-beginwait.md) <br/> |开始等待 MAPI 初始化或经过的指定毫秒数。 这将返回 IMAPIWaitResult 接口，该接口应调用"End"，以便开始等待。  这允许调用方控制我们在等待时被阻止的线程。 <br/> |

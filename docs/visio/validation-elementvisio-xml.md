@@ -1,5 +1,5 @@
 ---
-title: 验证元素 (Visio XML)
+title: 'VALIDATION 元素 (Visio XML) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538548"
 ---
-# <a name="validation-element-visio-xml"></a>验证元素 (Visio XML)
+# <a name="validation-element-visio-xml"></a>VALIDATION 元素 (Visio XML) 
 
 存储有关文档图表验证的信息。
   
@@ -24,8 +24,8 @@ ms.locfileid: "34538548"
 |:-----|:-----|
 |**元素类型** <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15  <br/> |
-|**文档部件** <br/> |验证 .xml  <br/> |
+|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
+|**文档部件** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -35,7 +35,7 @@ ms.locfileid: "34538548"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
+如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。 
   
 ### <a name="parent-elements"></a>父元素
 
@@ -45,9 +45,9 @@ ms.locfileid: "34538548"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |包含文档的所有**问题**元素。  <br/> |
-|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |为文档中的每个有效性规则集包含一个**规则集**元素。  <br/> |
-|[ValidationProperties](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |封装与文档的验证相关的属性。  <br/> |
+|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |包含文档 **的所有 Issue** 元素。  <br/> |
+|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |包括文档中每个验证规则集 **RuleSet** 元素。  <br/> |
+|[ValidationProperties](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |封装与文档验证相关的属性。  <br/> |
    
 ### <a name="attributes"></a>Attributes
 

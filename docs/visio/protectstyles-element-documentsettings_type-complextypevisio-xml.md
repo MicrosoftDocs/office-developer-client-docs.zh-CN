@@ -1,5 +1,5 @@
 ---
-title: ProtectStyles 元素 (DocumentSettings_Type 复杂类型) (Visio XML)
+title: '使用 XML (DocumentSettings_Type complexType)  (Visio ProtectStyles) '
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538933"
 ---
-# <a name="protectstyles-element-documentsettingstype-complextype-visio-xml"></a>ProtectStyles 元素 (DocumentSettings_Type 复杂类型) (Visio XML)
+# <a name="protectstyles-element-documentsettings_type-complextype-visio-xml"></a>使用 XML (DocumentSettings_Type complexType)  (Visio ProtectStyles) 
 
 指定是否阻止用户创建或编辑样式。
   
@@ -24,8 +24,8 @@ ms.locfileid: "34538933"
 |:-----|:-----|
 |**元素类型** <br/> |[ProtectStyles_Type](protectstyles_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15  <br/> |
-|**文档部件** <br/> |document .xml  <br/> |
+|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
+|**文档部件** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,7 +36,7 @@ ms.locfileid: "34538933"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
+如果架构定义了特定要求，如 **sequence** **、minOccurs、maxOccurs** 和 **choice，** 请参阅定义部分。 
   
 ### <a name="parent-elements"></a>父元素
 
