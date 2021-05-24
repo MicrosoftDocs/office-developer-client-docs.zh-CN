@@ -1,18 +1,18 @@
 ---
 title: Access
 description: 查找开发解决方案和自定义 Access 的操作方法内容、示例代码、SDK 和 API 文档、VBA 参考、培训和技术文章。
-ms.date: 10/16/2018
+ms.date: 5/20/2021
 ms.audience: Developer
 ms.assetid: 9858d097-d1d1-48df-8344-e7b46afbe0d1
 localization_priority: Priority
-ms.openlocfilehash: c32fec61ead1433581f528ebefff7b0f4b59df62
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8a18196371fefc5afe76ca9eee860ebdcc80cfdc
+ms.sourcegitcommit: fb521c23df785c9c3aefa5062272b2630a32e587
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279585"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589164"
 ---
-# <a name="access"></a>Access
+# <a name="access-developer-documentation"></a>Access 开发人员文档
 
 查找开发解决方案和自定义 Access 的操作方法内容、示例代码、SDK 和 API 文档、VBA 参考、培训和技术文章。
   
@@ -29,6 +29,9 @@ ms.locfileid: "32279585"
   
 ### <a name="other-resources"></a>其他资源
 
+- [Access 开发人员中心](https://developer.microsoft.com/access)
+- [Access 视频培训](https://support.microsoft.com/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6?ui=en-us&rs=en-us&ad=us)
+- [Access 2013](https://docs.microsoft.com/sharepoint/dev/general-development/develop-access-web-apps)
 - [Access 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff604965(v=office.14)) 
 - [Office VBA 对象库参考](https://docs.microsoft.com/office/vba/api/overview/library-reference)  
 - [Office VBA 语言参考](https://docs.microsoft.com/office/vba/api/overview/language-reference) 
@@ -37,8 +40,9 @@ ms.locfileid: "32279585"
   
 ### <a name="support"></a>支持
   
-- [Office 开发人员中心](https://developer.microsoft.com/office) 
-- [Office 支持](https://support.office.com/) 
-- [Office 开发人员中心上的 Access 论坛](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
+- [Microsoft 技术社区上的 Access 论坛](https://techcommunity.microsoft.com/t5/access/ct-p/Access_Cat) 
+- [在 Microsoft Q&A 上提问有关 Access 开发的问题](https://docs.microsoft.com/answers/topics/office-access-dev.html) 
+- [提出想法](https://techcommunity.microsoft.com/t5/microsoft-365-developer-platform/idb-p/Microsoft365DeveloperPlatform)
+- [堆栈溢出上的 Access 开发](https://stackoverflow.com/questions/tagged/ms-access)
   
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 14ae3242-fddf-4199-a9a7-4ab153b31064
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 37e6560d859ce4731b7a06e571eb38eb160c3686
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9fae06b9e9d5ef4885d798825659fa3486ec9e72
+ms.sourcegitcommit: fb521c23df785c9c3aefa5062272b2630a32e587
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417656"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589178"
 ---
 # <a name="hrsetoneprop"></a>HrSetOneProp
 
@@ -34,7 +34,7 @@ ms.locfileid: "33417656"
 |调用者：  <br/> |客户端应用程序和服务提供商  <br/> |
    
 ```cpp
-HrSetOneProp(
+HRESULT HrSetOneProp(
   LPMAPIPROP pmp,
   LPSPropValue pprop
 );
@@ -54,7 +54,7 @@ HrSetOneProp(
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 与 [IMAPIProp：：SetProps](imapiprop-setprops.md) 方法不同 **，HrSetOneProp** 函数从不返回任何警告。 因为它只设置一个属性，所以它要么成功要么失败。 对于设置或更改多个属性 **，SetProps** 速度更快。 
   

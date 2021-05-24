@@ -35,7 +35,7 @@ REPLACE (** *old_text* **， ** *start_num* **， ** *num_chars* **， ** *new_t
    
 ### <a name="return-value"></a>返回值
 
-String
+字符串
   
 ## <a name="remarks"></a>备注
 
