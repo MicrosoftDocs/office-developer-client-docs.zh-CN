@@ -38,6 +38,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ocv-translation-feedback": true,
       "breadcrumb_path": "/office/client-developer/breadcrumb/toc.json",
       "feedback_system": "None",
       "hide_comments": true,
