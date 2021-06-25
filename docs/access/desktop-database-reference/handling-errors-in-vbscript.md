@@ -7,19 +7,19 @@ ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 3f3da0d9e68024d7da9a0bcfca0fef30c7f646ed
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d1870f80c15d958fc1b28cf9ef165df0a834971c
+ms.sourcegitcommit: 35b723efe168ae4bad461bd16b26f9a2412656f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292046"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53139084"
 ---
 # <a name="handling-errors-in-vbscript"></a>处理 VBScript 中的错误
 
 
 **适用于**：Access 2013、Office 2013
 
-在 Visual Basic 中与在 VBScript 中所使用的方法几乎没有差异。 主要的差异是，VBScript 不支持错误处理的概念，而是在一个标签位置继续执行。 也就是说, 不能在 VBScript 中使用错误 GoTo。 而是在 VBScript 中使用。 请改为使用 "在错误继续" 下一步, 然后检查**Errors**集合的**Number**和**Count**属性, 如以下示例所示:
+在 Visual Basic 中与在 VBScript 中所使用的方法几乎没有差异。 主要的差异是，VBScript 不支持错误处理的概念，而是在一个标签位置继续执行。 换句话说，您无法在 VBScript 中使用 On Error GoTo。 相反，在 VBScript 中，使用 On Error Resume Next，然后检查 **Errors** 集合的 **Err.Number** 和 **Count** 属性，如以下示例所示：
 
 ```vb 
  
